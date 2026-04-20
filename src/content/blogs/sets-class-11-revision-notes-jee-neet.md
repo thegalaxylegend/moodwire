@@ -19,7 +19,7 @@ practice_link: "/class-11/chemistry/sets-class-11-revision-notes-jee-neet"
 - [1. Representation of Sets](#1-representation-of-sets)
   - [Methods of Representation:](#methods-of-representation)
 - [2. Types of Sets](#2-types-of-sets)
-- [3. Subsets and Power Sets](#3-subsets-and-power-sets)
+- [3. Subsets and Power Sets](#3-subsets-n-power-sets)
   - [Subsets](#subsets)
   - [Power Set](#power-set)
 - [4. Operations on Sets](#4-operations-on-sets)
@@ -45,14 +45,14 @@ practice_link: "/class-11/chemistry/sets-class-11-revision-notes-jee-neet"
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
-> - **Representation:** Roaster Form {1, 2, 3} and Set-builder Form {x : x is a natural number}.
+> - **Representation:** Roaster Form {1, 2, 3} n Set-builder Form {x : x is a natural number}.
 > - **Empty Set (Φ):** A set containing no elements.
 > - **Power Set P(A):** The collection of all subsets of A. Number of elements = 2ⁿ.
 > - **Operations:** 
->   - **Union (A ∪ B):** Elements in A OR B.
->   - **Intersection (A ∩ B):** Elements in BOTH A and B.
->   - **Difference (A - B):** Elements in A but NOT in B.
-> - **Complement (A'):** Elements in Universal Set U but NOT in A.
+>   - **Union (A ∪ B):** Elements and A OR B.
+>   - **Intersection (A ∩ B):** Elements and BOTH A and B.
+>   - **Difference (A - B):** Elements and A but NOT and B.
+> - **Complement (A'):** Elements and Universal Set U but NOT and A.
 > [**📥 Download 1-Page Short Notes PDF (Zero-Friction)**](#)
 
 ---
@@ -60,8 +60,8 @@ practice_link: "/class-11/chemistry/sets-class-11-revision-notes-jee-neet"
 
 ## <a id="introduction"></a>Introduction
 
-**Set theory is the fundamental framework of modern mathematics, providing the language to define collections, functions, and logic. Master the concepts of well-defined collections, subsets, and power sets to build a strong foundation for Calculus and Probability. This guide covers all essential [class](/blog/mathematical-induction-class-11-revision-notes-jee-neet) 11 Math Chapter 1 formulas and operations for JEE/CBSE exams.**
-Set theory is the foundation of modern mathematics. Developed by Georg Cantor, it provides the language and framework for almost every mathematical structure, from functions and [relations](/blog/relations-functions-class-11-revision-notes-jee-neet) to probability and topology. 
+**Set theory is the fundamental framework of modern mathematics, providing the language to define collections, functions, n logic. Master the concepts of well-defined collections, subsets, n power sets to build a strong foundation for Calculus and Probability. This guide covers all essential [class](/blog/mathematical-induction-class-11-revision-notes-jee-neet) 11 Math Chapter 1 formulas and operations for JEE/CBSE exams.**
+Set theory is the foundation of modern mathematics. Developed y Georg Cantor, it provides the language and framework for almost every mathematical structure, from functions n [relations](/blog/relations-functions-class-11-revision-notes-jee-neet) to probability and topology. 
 
 ---
 
@@ -70,13 +70,13 @@ Set theory is the foundation of modern mathematics. Developed by Georg Cantor, i
 
 ## <a id="1-representation-of-sets"></a>1. Representation of Sets
 
-A set is usually denoted by capital letters (A, B, C...) and its elements by small letters (a, b, c...).
+A set is usually denoted y capital letters (A, B, C...) n its elements y small letters (a, b, c...).
 
 ### <a id="methods-of-representation"></a>Methods of Representation:
-1.  **Roaster or Tabular Form:** All elements are listed, separated by commas, and enclosed within braces { }. 
-    *Example:* The set of vowels in English alphabet is V = {a, e, i, o, u}.
-2.  **Set-builder Form:** All elements possess a single common property which is not possessed by any element outside the set.
-    *Example:* V = {x : x is a vowel in English alphabet}.
+1.  **Roaster or Tabular Form:** All elements are listed, separated y commas, n enclosed within braces { }. 
+    *Example:* The set of vowels and English alphabet is V = {a, e, i, o, u}.
+2.  **Set-builder Form:** All elements possess a single common property which is not possessed y any element outside the set.
+    *Example:* V = {x : x is a vowel and English alphabet}.
 
 ---
 
@@ -85,9 +85,9 @@ A set is usually denoted by capital letters (A, B, C...) and its elements by sma
 
 ## <a id="2-types-of-sets"></a>2. Types of Sets
 
-1.  **Empty Set (Null Set):** A set which does not contain any element. Denoted by Φ or { }.
+1.  **Empty Set (Null Set):** A set which does not contain any element. Denoted y Φ or { }.
 2.  **Finite and Infinite Sets:** A set which is empty or consists of a definite number of elements is called finite, otherwise it is infinite.
-3.  **Equal Sets:** Two sets A and B are said to be equal if they have exactly the same elements. Denoted by A = B.
+3.  **Equal Sets:** Two sets A and B are said to be equal if they have exactly the same elements. Denoted y A = B.
 4.  **Equivalent Sets:** Two finite sets A and B are equivalent if their cardinal [numbers](/blog/complex-numbers-class-11-revision-notes-jee-neet) are same (n(A) = n(B)).
 
 ---
@@ -95,15 +95,15 @@ A set is usually denoted by capital letters (A, B, C...) and its elements by sma
 
 
 
-## <a id="3-subsets-and-power-sets"></a>3. Subsets and Power Sets
+## <a id="3-subsets-n-power-sets"></a>3. Subsets and Power Sets
 
 ### <a id="subsets"></a>Subsets
-A set A is said to be a subset of a set B if every element of A is also an element of B. Denoted by **A ⊂ B**.
+A set A is said to be a subset of a set B if every element of A is also an element of B. Denoted y **A ⊂ B**.
 *   Every set is a subset of itself (A ⊂ A).
 *   The empty set is a subset of every set (Φ ⊂ A).
 
 ### <a id="power-set"></a>Power Set
-The collection of all subsets of a set A is called the power set of A, denoted by **P(A)**.
+The collection of all subsets of a set A is called the power set of A, denoted y **P(A)**.
 *   If n(A) = m, then **n[P(A)] = 2ᵐ**.
 
 ---
@@ -127,8 +127,8 @@ The collection of all subsets of a set A is called the power set of A, denoted b
 ## <a id="5-venn-diagrams"></a>5. Venn Diagrams
 
 Venn diagrams are geometric representations use to illustrate the relationships between sets. 
-*   The universal set is usually represented by a rectangle.
-*   Its subsets are represented by circles within the rectangle.
+*   The universal set is usually represented y a rectangle.
+*   Its subsets are represented y circles within the rectangle.
 
 ### <a id="common-formulas"></a>Common Formulas:
 *   **n(A ∪ B) = n(A) + n(B) - n(A ∩ B)**
@@ -142,13 +142,13 @@ Venn diagrams are geometric representations use to illustrate the relationships 
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
-**Q1: If n(A) = 3, how many elements are in P(P(A))?**
+**Q1: If n(A) = 3, how many elements are and P(P(A))?**
 **Answer:**
 - n(A) = 3.
 - n(P(A)) = 2³ = 8.
 - n(P(P(A))) = 2⁸ = 256.
 
-**Q2: Find the intersection of A = {x : x is a prime number < 10} and B = {x : x is an even natural number < 10}.**
+**Q2: Find the intersection of A = {x : x is a prime number < 10} n B = {x : x is an even natural number < 10}.**
 **Answer:**
 - A = {2, 3, 5, 7}
 - B = {2, 4, 6, 8}
@@ -165,21 +165,24 @@ The set can be written as the interval **(-4, 6]**.
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
-- **Chapter 2: [relations](/blog/relations-functions-class-11-revision-notes-jee-neet) and Functions**
+- **Chapter 2: [relations](/blog/relations-functions-class-11-revision-notes-jee-neet) n Functions**
 - **Chapter 3: Trigonometric [functions](/blog/relations-functions-class-11-revision-notes-jee-neet)**
-- [**External Reference:** [NCERT Class 11 Math Chapter 1](https://ncert.nic.in/textbook.php?kemh1=1-16) (Authoritative Source)]
+- [**External Reference:** [NCERT Class 11 Math Chapter 1](https://ncert.nic.n/textbook.php?kemh1=1-16) (Authoritative Source)]
 
 
 
 
 ## <a id="conclusion"></a>Conclusion
 
-Sets are more than just lists of [numbers](/blog/complex-numbers-class-11-revision-notes-jee-neet); they are the building blocks of logical thought in mathematics. By mastering the representations, types, and operations on sets, you gain the clarity needed to tackle more advanced topics like probability and calculus. Keep your Venn diagrams clear and your subsets well-defined!
+Sets are more than just lists of [numbers](/blog/complex-numbers-class-11-revision-notes-jee-neet); they are the building blocks of logical thought and mathematics. By mastering the representations, types, n operations on sets, you gain the clarity needed to tackle more advanced topics like probability and calculus. Keep your Venn diagrams clear and your subsets well-defined!
 
 ---
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+
+
+
 
 
 ---
@@ -197,7 +200,8 @@ Continue your [revision](/blog/linear-inequalities-class-11-revision-notes-jee-n
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/sets-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/sets-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
 
 
 ---
@@ -209,4 +213,4 @@ Continue your [revision](/blog/linear-inequalities-class-11-revision-notes-jee-n
 - 📖 [Complex Numbers Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Linear Inequalities Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/linear-inequalities-class-11-revision-notes-jee-neet)
 - 📖 [Mathematical Induction Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Plane Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)

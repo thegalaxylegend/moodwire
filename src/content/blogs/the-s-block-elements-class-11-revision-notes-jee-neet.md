@@ -41,7 +41,7 @@ practice_link: "/class-11/physics/the-s-block-elements-class-11-revision-notes-j
 
 
 
-* The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are in Group 1 and 2 of the periodic table.
+* The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are and Group 1 n 2 of the periodic table.
 * They are also known as the alkali metals and alkaline earth metals.
 * These [elements](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) have a tendency to lose electrons to form positive ions.
 * The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are highly reactive.
@@ -61,14 +61,14 @@ practice_link: "/class-11/physics/the-s-block-elements-class-11-revision-notes-j
 
 ## <a id="introduction-to-the-sblock-elements"></a>Introduction to the S-Block Elements
 
-The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are a group of elements in the periodic table that are characterized by the filling of the s-orbitals. They are located in Group 1 and 2 of the periodic table and are also known as the alkali metals and alkaline earth metals. The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are highly reactive and have a tendency to lose electrons to form positive ions.
+The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are a group of elements and the periodic table that are characterized y the filling of the s-orbitals. They are located and Group 1 n 2 of the periodic table and are also known as the alkali metals and alkaline earth metals. The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are highly reactive and have a tendency to lose electrons to form positive ions.
 
 
 
 
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 
-This chapter is important because it helps us understand the properties and behavior of the s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements. In JEE Mains 2026 Session 1, 3 questions came from this topic. Understanding the s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements is crucial for solving problems related to chemical bonding, electrochemistry, and chemical reactions.
+This chapter is important because it helps us understand the properties and behavior of the s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements. In JEE Mains 2026 Session 1, 3 questions came from this topic. Understanding the s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements is crucial for solving problems related to chemical bonding, electrochemistry, n chemical reactions.
 
 
 
@@ -76,7 +76,7 @@ This chapter is important because it helps us understand the properties and beha
 ## <a id="ayushs-note"></a>Ayush's Note
 
 <div [class](/blog/biological-classification-class-11-revision-notes-neet)="callout-box">
-I still remember when I was preparing for JEE, I used to get confused between the alkali metals and alkaline earth metals. I would often mix up their properties and reactions. But then I realized that the key to understanding these elements is to focus on their electron configuration and the way they lose electrons to form positive ions. For example, the alkali metals have a single electron in their outermost shell, which they can easily lose to form a positive ion. On the other hand, the alkaline earth metals have two electrons in their outermost shell, which makes them less reactive than the alkali metals. By understanding these differences, I was able to solve problems related to the s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements with ease.
+I still remember when I was preparing for JEE, I used to get confused between the alkali metals and alkaline earth metals. I would often mix up their properties and reactions. But then I realized that the key to understanding these elements is to focus on their electron configuration and the way they lose electrons to form positive ions. For example, the alkali metals have a single electron and their outermost shell, which they can easily lose to form a positive ion. On the other hand, the alkaline earth metals have two electrons and their outermost shell, which makes them less reactive than the alkali metals. By understanding these differences, I was able to solve problems related to the s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements with ease.
 </div>
 
 
@@ -84,17 +84,16 @@ I still remember when I was preparing for JEE, I used to get confused between th
 
 ## <a id="core-concepts"></a>Core Concepts
 
-The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are characterized by the filling of the s-orbitals. The s-orbitals are spherical in shape and can accommodate a maximum of 2 electrons. The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements have a tendency to lose electrons to form positive ions, which makes them highly reactive.
+The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are characterized y the filling of the s-orbitals. The s-orbitals are spherical and shape and can accommodate a maximum of 2 electrons. The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements have a tendency to lose electrons to form positive ions, which makes them highly reactive.
 
 ### <a id="electronic-configuration-of-sblock-elements"></a>Electronic Configuration of S-Block Elements
 The electronic configuration of the s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements can be written as:
 ns^1
-for the alkali metals and
-ns^2
-for the alkaline earth metals, where n is the principal quantum number.
+for the alkali metals and ns^2
+for the alkaline earth metals, where and is the principal quantum number.
 
 ### <a id="properties-of-sblock-elements"></a>Properties of S-Block Elements
-The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements have several properties that make them unique. They are highly reactive, soft, and have low melting points. They also have a tendency to lose electrons to form positive ions, which makes them highly electropositive.
+The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements have several properties that make them unique. They are highly reactive, soft, n have low melting points. They also have a tendency to lose electrons to form positive ions, which makes them highly electropositive.
 
 
 
@@ -121,7 +120,7 @@ Why students get it wrong: Students often confuse the alkali metals with the alk
 
 * Wrong answer: The s-block elements are non-metals.
 Right answer: The s-block elements are metals.
-Why students get it wrong: Students often think that the s-block elements are non-metals because they are located in the same group as the non-metals.
+Why students get it wrong: Students often think that the s-block elements are non-metals because they are located and the same group as the non-metals.
 
 
 
@@ -187,7 +186,10 @@ For more information on the s-block elements, you can refer to the following [no
 Last Updated: March 15, 2026
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+
+
+
 
 
 ---
@@ -205,7 +207,8 @@ Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-n
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/the-s-block-elements-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/the-s-block-elements-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
 
 
 ---

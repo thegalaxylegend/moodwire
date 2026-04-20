@@ -1,120 +1,107 @@
 ---
 heroImage: "/blog-images/matrices-class-12-notes.webp"
-title: "Matrices Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
-description: "Matrices Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
-category: "Revision"
-date: "2026-03-30"
-practice_link: "/class-11/mathematics/matrices-class-12-notes"
+title: "Matrices Class 12 Exam Prep Revision — Grandmaster Guide"
+description: "Matrices Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20."
+category: "Exam Notes"
+date: "2026-04-20"
+practice_link: "/practice/matrices-class-12-notes"
+manualReview: false
 ---
 
-*Last Updated: 2026-03-30*
+## ⚡ Formula Bank
+- The determinant of a 2x2 matrix $\begin{bmatrix} a & b \\ c & d \end{bmatrix}$ is given by $\frac{ad}{1} - \frac{bc}{1} = ad - bc$
+- The determinant of a 3x3 matrix $\begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix}$ is given by $\frac{a(ei-fh)}{1} - \frac{b(di-fg)}{1} + \frac{c(dh-eg)}{1} = a(ei-fh) - b(di-fg) + c(dh-eg)$
+- The inverse of a 2x2 matrix $\begin{bmatrix} a & b \\ c & d \end{bmatrix}$ is given by $\frac{1}{\frac{ad}{1} - \frac{bc}{1}} \begin{bmatrix} \frac{d}{1} & \frac{-b}{1} \\ \frac{-c}{1} & \frac{a}{1} \end{bmatrix} = \frac{1}{ad-bc} \begin{bmatrix} d & -b \\ -c & a \end{bmatrix}$
+- The inverse of a 3x3 matrix $\begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix}$ is given by the adjoint matrix divided by the determinant
+- The adjoint of a 3x3 matrix $\begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix}$ is given by $\begin{bmatrix} \frac{ei-fh}{1} & \frac{-di+fg}{1} & \frac{dh-eg}{1} \\ \frac{-bi+ch}{1} & \frac{ai-cg}{1} & \frac{-ah+bg}{1} \\ \frac{bf-ce}{1} & \frac{-af+cd}{1} & \frac{ae-bd}{1} \end{bmatrix} = \begin{bmatrix} ei-fh & -di+fg & dh-eg \\ -bi+ch & ai-cg & -ah+bg \\ bf-ce & -af+cd & ae-bd \end{bmatrix}$
+- The transpose of a matrix is obtained by interchanging its rows into columns
+- The rank of a matrix is the maximum number of linearly independent rows or columns
+- The eigenvalues of a matrix are the values of $\lambda$ that satisfy the equation $\left| \begin{bmatrix} a & b \\ c & d \end{bmatrix} - \lambda \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} \right| = 0$
+- The eigenvectors of a matrix are the non-zero vectors that satisfy the equation $(A - \lambda I)v = 0$, where $A$ is the matrix, $\lambda$ is the eigenvalue, $I$ is the identity matrix, and $v$ is the eigenvector
 
+ 
 
+## 🪤 The 5 Mistakes That Cost Marks
+- Not checking the order of the matrices before performing operations
+- Forgetting to take the determinant of the matrix before finding its inverse
+- Not using the correct formula for finding the inverse of a 3x3 matrix
+- Confusing the adjoint and inverse of a matrix
+- Not using the properties of matrices, such as the distributive property and the associative property, to simplify calculations
 
+ 
 
-## 📋 Table of Contents
+## ✏️ 3 Solved PYQs
+- **PYQ 1:** If $A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$ and $B = \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix}$, find the value of $AB$
+- Solution: $AB = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} = \begin{bmatrix} 1 \times 5 + 2 \times 7 & 1 \times 6 + 2 \times 8 \\ 3 \times 5 + 4 \times 7 & 3 \times 6 + 4 \times 8 \end{bmatrix} = \begin{bmatrix} 19 & 22 \\ 43 & 50 \end{bmatrix}$
+- **PYQ 2:** If $A = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$, find the value of $A^{-1}$
+- Solution: Since $A$ is the identity matrix, $A^{-1} = A = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$
+- **PYQ 3:** If $A = \begin{bmatrix} 2 & 1 \\ 4 & 2 \end{bmatrix}$, find the value of $|A|$
+- Solution: $|A| = \frac{2 \times 2}{1} - \frac{1 \times 4}{1} = 4 - 4 = 0$
 
-- [🎯 What WILL Come in Your Exam](#-what-will-come-in-your-exam)
-- [⚡ Formula Bank](#-formula-bank)
-  - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
-- [📚 Related Topics](#-related-topics)
+ 
 
+## 🧠 The One Thing Most Students Get Wrong
+- Most students get the concept of inverse of a matrix wrong, they think that the inverse of a matrix is obtained by just interchanging the elements of the matrix, but actually the inverse of a matrix is obtained by using the formula $A^{-1} = \frac{1}{|A|} \times \text{adj}(A)$, where $|A|$ is the determinant of the matrix and $\text{adj}(A)$ is the adjoint of the matrix
 
-</div>
+ 
 
+## 👁️ Ayush's Note
+- To find the inverse of a matrix, first find the determinant of the matrix, if the determinant is zero, then the matrix is singular and does not have an inverse
+- To find the determinant of a 3x3 matrix, use the formula $|A| = a(ei-fh) - b(di-fg) + c(dh-eg)$
+- To find the adjoint of a 3x3 matrix, use the formula $\text{adj}(A) = \begin{bmatrix} ei-fh & -di+fg & dh-eg \\ -bi+ch & ai-cg & -ah+bg \\ bf-ce & -af+cd & ae-bd \end{bmatrix}$
+- To find the inverse of a 3x3 matrix, use the formula $A^{-1} = \frac{1}{|A|} \times \text{adj}(A)$
 
+ 
 
+## 🔁 Last 5 Minutes Box
+- Check the order of the matrices before performing operations
+- Check if the matrix is singular before finding its inverse
+- Use the correct formula for finding the inverse of a matrix
+- Use the properties of matrices to simplify calculations
+- Check the calculations carefully to avoid mistakes
 
-<div [class](/blog/haloalkanes-and-haloarenes-class-12-notes)="quick-summary">
+ 
 
-#- [📋 Table of Contents](#-table-of-contents)
+## 📝 Practice MCQs
+**1. What is the value of the determinant of the matrix $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$?**
+- A) 2
+- B) -2
+- C) 10
+- D) -10
+**Answer: B) -2. Explanation: The determinant of the matrix is given by $\frac{1 \times 4}{1} - \frac{2 \times 3}{1} = 4 - 6 = -2$**
 
+**2. What is the value of the inverse of the matrix $\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$?**
+- A) $\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$
+- B) $\begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}$
+- C) $\begin{bmatrix} 1 & 1 \\ 1 & 1 \end{bmatrix}$
+- D) $\begin{bmatrix} 0 & 0 \\ 0 & 0 \end{bmatrix}$
+**Answer: A) $\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$. Explanation: The inverse of the identity matrix is the identity matrix itself**
 
+**3. What is the value of the adjoint of the matrix $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$?**
+- A) $\begin{bmatrix} 4 & -2 \\ -3 & 1 \end{bmatrix}$
+- B) $\begin{bmatrix} 4 & 2 \\ 3 & 1 \end{bmatrix}$
+- C) $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$
+- D) $\begin{bmatrix} 0 & 0 \\ 0 & 0 \end{bmatrix}$
+**Answer: A) $\begin{bmatrix} 4 & -2 \\ -3 & 1 \end{bmatrix}$. Explanation: The adjoint of the matrix is given by $\begin{bmatrix} 4 & -2 \\ -3 & 1 \end{bmatrix}$**
 
+**4. What is the value of the inverse of the matrix $\begin{bmatrix} 2 & 1 \\ 4 & 2 \end{bmatrix}$?**
+- A) $\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$
+- B) $\begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}$
+- C) $\begin{bmatrix} 1 & 1 \\ 1 & 1 \end{bmatrix}$
+- D) The matrix is singular and does not have an inverse
+**Answer: D) The matrix is singular and does not have an inverse. Explanation: The determinant of the matrix is zero, so the matrix is singular and does not have an inverse**
 
-
-
-
-
-
-
-
-
-## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
-* 1-2 matrix multiplication problems involving 2\times2 matrices — always, with a focus on verifying the given result or finding the product of two matrices.
-* Determinant of a 2\times2 or 3\times3 matrix — guaranteed, with questions often asking to find the value of x or a constant that makes the determinant equal to a certain value.
-* Inverse of a 2\times2 matrix — high-yield topic, frequently tested in the form of "find the [inverse](/blog/inverse-trigonometric-functions-class-12-notes) of matrix A" or "if A^{-1} = ..., find A".
-* System of linear equations using matrices and determinants — always comes, often in the form of 2 or 3 equations with 2 or 3 variables, and students are required to solve for the unknowns using Cramer's rule or matrix inversion.
-* Consistency and inconsistency of systems of linear equations — frequently tested, with questions asking to determine whether a given system has a unique solution, infinite solutions, or no solution.
-* Rank of a matrix — important topic, often tested in conjunction with the system of linear equations, and students need to find the rank of a given matrix to determine the nature of the solution.
-* Linear dependence and independence of vectors — always comes, with questions asking to determine whether a set of vectors is linearly independent or dependent, often using the concept of rank and determinant.
-* (A^T)^{-1} = (A^{-1})^T and (AB)^{-1} = B^{-1}A^{-1} — key formulas that are frequently used in matrix problems.
-
-* Finding the adjoint of a matrix — high-yield topic, often required to find the [inverse](/blog/inverse-trigonometric-functions-class-12-notes) of a matrix using the formula A^{-1} = $\frac{{1}{|A|}}{AX = B}  \times adj(A).
-
-
-* Solving systems of linear equations using the matrix method, including finding the solution using the normal form $, where A, X, and B are matrices — always comes, with a focus on applying the concepts of matrix multiplication, [inverse](/blog/inverse-trigonometric-functions-class-12-notes), and determinant to solve the system.
-
-
-## <a id="-formula-bank"></a>⚡ Formula Bank
-
-$A = \begin{bmatrix} a_{11} & a_{12} & \cdots & a_{1n} \ a_{21} & a_{22} & \cdots & a_{2n} \ \vdots & \vdots & \ddots & \vdots \ a_{m1} & a_{m2} & \cdots & a_{mn} \end{bmatrix}$: Matrix A of order $m \times n$.$A = [a_{ij}]_{m \times n}$: Matrix A with $m$ rows and $n$ columns. 
- $A^T = [a_{ji}]_{n \times m}$: Transpose of matrix A. 
- $A = I_n$ : Identity matrix of order $n$. 
- $O = [0]_{m \times n}$: Null matrix of order $m \times n$. 
- $A + B = [a_{ij} + b_{ij}]_{m \times n}$: Sum of matrices A and B. 
- $kA = [ka_{ij}]_{m \times n}$: Scalar multiplication of matrix A. 
- $AB = [c_{ij}]_{m \times p}$ where $c_{ij} = \sum_{k=1}^{n} a_{ik}b_{kj}$: Product of matrices A and B. 
- $|A| = \begin{vmatrix} a_{11} & a_{12} & \cdots & a_{1n} \ a_{21} & a_{22} & \cdots & a_{2n} \ \vdots & \vdots & \ddots & \vdots \ a_{n1} & a_{n2} & \cdots & a_{nn} \end{vmatrix}$: Determinant of matrix A.$|A| = a_{11}C_{11} + a_{12}C_{12} + \cdots + a_{1n}C_{1n}$: Expansion of determinant by first row. 
- $C_{ij} = (-1)^{i+j}M_{ij}$: Cofactor of $a_{ij}$. 
- $M_{ij} = \begin{vmatrix} a_{11} & \cdots & a_{1j-1} & a_{1j+1} & \cdots & a_{1n} \ a_{21} & \cdots & a_{2j-1} & a_{2j+1} & \cdots & a_{2n} \ \vdots & \ddots & \vdots & \vdots & \ddots & \vdots \ a_{i-1,1} & \cdots & a_{i-1,j-1} & a_{i-1,j+1} & \cdots & a_{i-1,n} \ a_{i+1,1} & \cdots & a_{i+1,j-1} & a_{i+1,j+1} & \cdots & a_{i+1,n} \ \vdots & \ddots & \vdots & \vdots & \ddots & \vdots \ a_{n1} & \cdots & a_{nj-1} & a_{nj+1} & \cdots & a_{nn} \end{vmatrix}$: Minor of $a_{ij}$.$A^{-1} = \frac{adj(A)}{|A|}$: Inverse of matrix A.$A^{m} = AA\cdots A$: $m^{th}$ power of matrix A. 
- $f(A) = \alpha_0I + \alpha_1A + \cdots + \alpha_nA^n$: Polynomial function of matrix A. 
- $e^{At} = I + At + \frac{(At)^2}{2!} + \cdots + \frac{(At)^n}{n!} + \cdots$: Matrix exponential.$A^{1/n} = \begin{bmatrix} a & b \ c & d \end{bmatrix}$: $n^{th}$ root of $2 \times 2$ matrix.$|AB| = |A||B|$: Property of determinant for matrix multiplication. 
- $|kA| = k^n|A|$: Property of determinant for scalar multiplication. 
- $|A^m| = |A|^m$: Property of determinant for power of matrix. 
- $|I_n| = 1$: Determinant of identity matrix. 
- $|O| = 0$: Determinant of null matrix.
-
-
-| Matrix Operation | Formula | Description |
-|
-
-
----
-
-### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/matrices-class-12-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
-
-## <a id="-related-topics"></a>📚 Related Topics
-
-Continue your revision with these related guides:
-
-- 📖 [Inverse Trigonometric Functions Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/inverse-trigonometric-functions-class-12-notes)
-- 📖 [Alcohols, Phenols and Ethers Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alcohols-phenols-and-ethers-class-12-notes)
-- 📖 [Chemistry in Everyday Life Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/chemistry-in-everyday-life-class-12-notes)
-- 📖 [Polymers Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/polymers-class-12-notes)
-
+**5. What is the value of the determinant of the matrix $\begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}$?**
+- A) 0
+- B) 1
+- C) 2
+- D) 3
+**Answer: B) 1. Explanation: The determinant of the identity matrix is 1**
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/matrices-class-12-notes) now and track your progress against thousands of students.
-
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/matrices-class-12-notes) now and track your progress against thousands of students.
 
 ---
-
-## 📚 Related Topics
-
-Continue your revision with these related guides:
-
-- 📖 [Inverse Trigonometric Functions Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/inverse-trigonometric-functions-class-12-notes)
-- 📖 [Alcohols, Phenols and Ethers Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alcohols-phenols-and-ethers-class-12-notes)
-- 📖 [Application of Derivatives Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
-- 📖 [Atoms Class 12 Mathematics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)
-$
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

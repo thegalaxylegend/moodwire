@@ -1,106 +1,103 @@
 ---
 heroImage: "/blog-images/chemistry-in-everyday-life-class-12-notes.webp"
-title: "Chemistry In Everyday Life Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Chemistry In Everyday Life Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
-category: "Revision"
-date: "2026-03-30"
-practice_link: "/class-11/chemistry/chemistry-in-everyday-life-class-12-notes"
+title: "Chemistry In Everyday Life Class 12 Chemistry Revision — Grandmaster Guide"
+description: "Chemistry In Everyday Life Class 12 Chemistry Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20."
+category: "Exam Notes"
+date: "2026-04-20"
+practice_link: "/practice/chemistry-in-everyday-life-class-12-notes"
+manualReview: false
 ---
 
-*Last Updated: 2026-03-30*
-## 📋 Table of Contents
-- [🎯 What WILL Come in Your Exam](#-what-will-come-in-your-exam)
-- [⚡ Formula Bank](#-formula-bank)
- - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
-- [📚 Related Topics](#-related-topics)
-</div>
-<DIV [class](/blog/haloalkanes-and-haloarenes-class-12-notes)="quick-summary">
-#- [📋 Table of Contents](#-table-of-contents)
-## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
-* 1–2 marks question on classification of drugs: always asks for type of drug (e.g. analgesic, antacid, etc.) or classification of a specific drug
-* Antimicrobial agents: exam always includes a question on mode of action of at least one antimicrobial agent (e.g. penicillin, tetracycline, etc.)
-* Chemicals in food: 1 mark question on food additives (e.g. preservatives, artificial sweeteners, etc.) or a 2–3 marks question on food adulteration — always
-* 2 marks question on antiseptic or disinfectant: always includes a question on the difference between antiseptic and disinfectant or asks for an example
-* Drug-target interaction: 2–3 marks question on how a specific drug interacts with its target (e.g. enzyme, receptor, etc.) — high yield topic
-* Soaps and detergents: always includes a question on the difference between soap and detergent or asks for an example of a soap or detergent
-* 1 numerical on BC_{n}H_{2n+1}COOL (soaps) or BC_{n}H_{2n+1}SO_{4}Neil (detergents) — always
-* Medicinal chemistry: 2-3 marks question on the structure-activity relationship of a specific drug or a [class](/blog/coordination-compounds-class-12-notes) of drugs (e.g. NSAIDs, antibiotics, etc.)
-* 1 mark question on drug nomenclature: always asks for the IUPAC name of a specific drug
-* Chemicals in medicine: 2 marks question on a specific application of a [chemical](/blog/chemical-kinetics-class-12-notes) in medicine (e.g. use of IN_{2}OF as an anesthetic, etc.)
-* mph of a solution of a weak acid or base: 1–2 marks numerical — always
-* Relationship between mph, Ipoh, and APK_{w}$: mph + POH = 14$ or APK_{w} = 14$ at $25^{\CIRC}CD — must know
-* 1 mark question on buffer solution: always asks for the mph of a buffer solution or asks to identify a buffer solution
-* 2 marks question on the importance of  in everyday life (e.g.  of soil,  of blood, etc.)
-* 1 numerical on OK_{w{K_{a}} or OK_{we{K_{b}}$ — always
-* Medicinal application of [coordination](/blog/coordination-compounds-class-12-notes) compounds: 2 marks question on the use of [coordination](/blog/coordination-compounds-class-12-notes) compounds in medicine (e.g. , etc.)
-## <a id="-formula-bank"></a>⚡ Formula Bank
-APK_{a} = -\log_{10}[H^{+}]$ : Acid dissociation constant, 
- APK_{b} = -\log_{10}[OH^{-}]$ : Base dissociation constant, 
- mph = -\log_{10}[H^{+}]$ : Measure of acidity, 
- Ipoh = -\log_{10}[OH^{-}]$ : Measure of basicity, 
- OK_{w} = [H^{+}][OH^{-}] = 10^{-14}$ : Water dissociation constant, 
- OK_{a} = $\franc{[H^{+}$][A^{-}]}{[HA]}$ : Acid dissociation constant expression, 
- OK_{b} = $\franc{[BH^{+}$][OH^{-}]}{[B]}$ : Base dissociation constant expression, 
- OK_{a} \times K_{b} = K_{w}$ : Relationship between acid and base dissociation constants, 
- APK_{a} + PK_{b} = 14$ : Relationship between acid and base dissociation constants in terms of PK, 
- \franc{{K_{b}$}{K_{a}} = $\franc{[BH^{+}$]}{[A^{-}]}}{[H^{+}][A^{-}]}{[HA]} = \{[H^{+}]}{K_{b}  : Comparison of base and acid dissociation constants, 
- OK_{a} = $ : Relationship between acid dissociation constant and hydrogen ion concentration, 
-  = 1}{2}_{w} + \{1}{2\log_{10}
+## ⚡ Formula Bank
+- Chemical reactions occur all around us, and understanding them is crucial for JEE and NEET exams: $\frac{\Delta G}{\Delta T} = \frac{\Delta H - \Delta S}{\Delta T}$
+- The ideal gas law is given by: $PV = nRT$, where $P$ is pressure, $V$ is volume, $n$ is number of moles, $R$ is gas constant, and $T$ is temperature in Kelvin
+- The first law of thermodynamics states that energy cannot be created or destroyed, only converted from one form to another: $\Delta E = q + w$, where $\Delta E$ is change in energy, $q$ is heat added, and $w$ is work done
+- The equilibrium constant for a reaction is given by: $K = \frac{[\text{products}]}{[\text{reactants}]}$, where $K$ is equilibrium constant, and $[\text{products}]$ and $[\text{reactants}]$ are concentrations of products and reactants respectively
+- The rate of a reaction is given by: $\text{rate} = \frac{\Delta [\text{reactant}]}{\Delta t}$, where $\text{rate}$ is rate of reaction, $\Delta [\text{reactant}]$ is change in concentration of reactant, and $\Delta t$ is change in time
 
-$ [salt]}{[acid]}$ :  equation for pH calculation, 
-  = \{1}{2}_{w} + \{1}{2 
-
-\log_{10}
-
- [salt]}{[base]}$ :  equation for  calculation, 
- _{sp} = [A^{n+}][B^{m-}]^{n}$ : Solubility product constant for the dissolution of a salt, 
- _{f} = \{[A^{n+}][B^{m-}]}{[AB_{m}^{n}]}$1  : Instability constant for the dissociation of a complex ion, 
- $\delta G^{\} = -RT\ln  : Relationship between Gibbs free energy and equilibrium constant, 
- $\delta G^{\} = -2.303RT\log  : Relationship between Gibbs free energy and equilibrium constant, 
- ^{\}_{cell} = \$\delta G^{\$}{-}$ : Relationship between cell potential and Gibbs free energy, 
- ^{\}_{cell} = $RT}{NFL  : Relationship between cell potential and equilibrium constant, 
- ^{\}_{cell} = $0.0591}{analog  : Relationship between cell potential and equilibrium constant at 25°C, 
- _{cell} = E^{\}_{cell} - $0.0591}{analog_{10} : Nernst equation for cell potential calculation, 
- $\log_{10}K = \$\delta H^{\$}{2.303R}\left($1}{T_{2$ - $1}{T_{1$\right)$ : Van 't Hoff equation for temperature dependence of equilibrium constant,
-| Formula | Description |
-|
-### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/chemistry-in-everyday-life-class-12-notes) now and track your progress against thousands of students.
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-## <a id="-related-topics"></a>📚 Related Topics
-Continue your [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) with these related guides:
-- 📖 [Alcohols, Phenols and Ethers Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/alcohols-phenols-and-ethers-class-12-notes)
-- 📖 [Polymers Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/polymers-class-12-notes)
-- 📖 [Inverse Trigonometric Functions Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/inverse-trigonometric-functions-class-12-notes)
-- 📖 [Matrices Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/matrices-class-12-notes)
-### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/chemistry-in-everyday-life-class-12-notes) now and track your progress against thousands of students.
-## 📚 Related Topics
-Continue your [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) with these related guides:
-- 📖 [Alcohols, Phenols and Ethers Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/alcohols-phenols-and-ethers-class-12-notes)
-- 📖 [Chemical Kinetics Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/chemical-kinetics-class-12-notes)
-- 📖 [Coordination Compounds Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/coordination-compounds-class-12-notes)
-- 📖 [Haloalkanes and Halogens Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/haloalkanes-and-haloarenes-class-12-notes)
 ## 🪤 The 5 Mistakes That Cost Marks
+- Not understanding the concept of limiting reagent: in a reaction, the limiting reagent is the reactant that is completely consumed, and determines the amount of product formed
+- Not being able to balance chemical equations: a balanced equation has the same number of atoms of each element on both the reactant and product sides
+- Not knowing the difference between homogeneous and heterogeneous mixtures: a homogeneous mixture has the same composition throughout, while a heterogeneous mixture has different compositions in different regions
+- Not understanding the concept of pH and pOH: pH is a measure of the acidity of a solution, while pOH is a measure of the basicity of a solution
+- Not being able to calculate the empirical and molecular formulas of a compound: the empirical formula is the simplest whole-number ratio of atoms of each element in a compound, while the molecular formula is the actual number of atoms of each element in a molecule
 
-* **Incorrectly identifying soap as a detergent**: Many students incorrectly identify soap as a synthetic detergent, while in fact, soaps are typically made from natural products and are distinct from synthetic detergents.
-* **Forgetting the role of emulsification in drug action**: Emulsification in the absorption of drugs, especially those that are lipid-soluble. Forgetting this concept can lead to incorrect answers about the action of certain drugs.
-* **Confusing antacids and antihistamines**: Some students may get confused between the functions of antacids, which are used to neutralize stomach acid, and antihistamines, which are used to counter allergic reactions.
-* **Not understanding the difference between disinfectants and antiseptics**: Disinfectants are used to kill microorganisms on inanimate surfaces, while antiseptics are applied to living tissues to reduce the growth of microorganisms. Failing to recognize this distinction can lead to incorrect answers.
-* **Failing to recognize the importance of [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) equilibrium in drug efficacy**: The efficacy of some drugs depends on their ability to maintain a certain level of concentration in the bloodstream, which is influenced by [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) equilibrium. Not considering this factor can result in incorrect assessments of drug effectiveness.
+## ✏️ 3 Solved PYQs
+- **Question 1:** What is the equilibrium constant for the reaction: $2\text{NO}_2 \rightleftharpoons \text{N}_2\text{O}_4$?
+- Step 1: Write down the equilibrium expression: $K = \frac{[\text{N}_2\text{O}_4]}{[\text{NO}_2]^2}$
+- Step 2: Plug in the given concentrations: $K = \frac{0.1}{(0.2)^2} = \frac{0.1}{0.04} = 2.5$
+- **Answer:** $K = 2.5$
+- **Question 2:** A sample of oxygen gas is collected over water at a temperature of $25^\circ\text{C}$ and a pressure of $1.0$ atm. What is the partial pressure of oxygen in the sample?
+- Step 1: Calculate the vapor pressure of water at $25^\circ\text{C}$: $P_{\text{H}_2\text{O}} = 0.0313$ atm
+- Step 2: Calculate the partial pressure of oxygen: $P_{\text{O}_2} = P_{\text{total}} - P_{\text{H}_2\text{O}} = 1.0 - 0.0313 = 0.9687$ atm
+- **Answer:** $P_{\text{O}_2} = 0.9687$ atm
+- **Question 3:** A solution of $\text{HCl}$ has a pH of $2.0$. What is the concentration of $\text{H}^+$ ions in the solution?
+- Step 1: Use the definition of pH: $\text{pH} = -\log[\text{H}^+]$
+- Step 2: Plug in the given pH: $2.0 = -\log[\text{H}^+]$
+- Step 3: Solve for $[\text{H}^+]$: $[\text{H}^+] = 10^{-2.0} = 0.01$ M
+- **Answer:** $[\text{H}^+] = 0.01$ M
+
+## 🧠 The One Thing Most Students Get Wrong
+- Many students struggle with understanding the concept of chemical equilibrium, and how to calculate the equilibrium constant for a reaction
+- The key is to understand that equilibrium is a dynamic state, where the rates of forward and reverse reactions are equal
+- The equilibrium constant is a measure of the ratio of products to reactants at equilibrium, and can be calculated using the law of mass action
+- It's also important to understand the concept of Le Chatelier's principle, which states that if a system at equilibrium is subjected to a change in concentration, temperature, or pressure, the equilibrium will shift in a direction that tends to counteract the change
+
+## 👁️ Ayush's Note
+- When solving problems, make sure to read the question carefully and understand what is being asked
+- Use the given information to identify the key concepts and formulas that need to be applied
+- Break down complex problems into simpler steps, and use the formulas and equations to solve each step
+- Always check your units and make sure they are consistent
+- Practice, practice, practice - the more you practice, the more comfortable you will become with the material and the better you will be at solving problems
 
 ## 🔁 Last 5 Minutes Box
+- Make sure to review the key concepts and formulas, and go over any last-minute notes or reminders
+- Take a few deep breaths and try to relax - it's normal to feel a little nervous, but try not to let it get to you
+- Read each question carefully and make sure you understand what is being asked
+- Use the process of elimination to narrow down your answer choices, and make an educated guess if you're not sure
+- Don't spend too much time on any one question - if you're having trouble, move on and come back to it later
 
-- **Soaps and Detergents**: Soaps are sodium or potassium salts of higher fatty [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes), Detergents are sodium or potassium salts of long chain alkyl benzene sulphonic [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes) or long chain alkyl sulfates.
- - **Drugs**: Drugs are chemicals which interact with biological systems to produce a positive therapeutic effect, e.g., analgesics, antacids.
- - **Food Additives**: Food additives are substances added to food to preserve or improve its quality, e.g., sodium benzoate, BHA.
- - **Cleansing Agents**: Cleansing agents are substances that help in removing dirt or stain, e.g., soaps, detergents, zeolites.
- - **Chemicals in Medicines**: Medicines are chemicals used for diagnosis, prevention or treatment of a disease, e.g., antibiotics, antiseptics, antivirals.
-## ⚗️ Chemical Quick Reference (Verified via PubChem)
+## 📝 Practice MCQs
+**1. What is the pH of a solution with a $\text{H}^+$ concentration of $0.01$ M?**
+- A) $1.0$
+- B) $2.0$
+- C) $3.0$
+- D) $4.0$
+**Answer: B) $2.0$**
+- Explanation: Use the definition of pH: $\text{pH} = -\log[\text{H}^+] = -\log(0.01) = 2.0$
+**2. What is the equilibrium constant for the reaction: $\text{N}_2 + 3\text{H}_2 \rightleftharpoons 2\text{NH}_3$?**
+- A) $K = \frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3}$
+- B) $K = \frac{[\text{NH}_3]^2}{[\text{N}_2]^2[\text{H}_2]^3}$
+- C) $K = \frac{[\text{NH}_3]}{[\text{N}_2][\text{H}_2]^3}$
+- D) $K = \frac{[\text{NH}_3]}{[\text{N}_2]^2[\text{H}_2]^3}$
+**Answer: A) $K = \frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3}$**
+- Explanation: Use the law of mass action to write the equilibrium expression
+**3. What is the vapor pressure of a solution that is $20\%$ $\text{H}_2\text{O}$ and $80\%$ $\text{CH}_3\text{OH}$ by mole?**
+- A) $0.2$ atm
+- B) $0.4$ atm
+- C) $0.6$ atm
+- D) $0.8$ atm
+**Answer: B) $0.4$ atm**
+- Explanation: Use Raoult's law: $P_{\text{total}} = P_{\text{H}_2\text{O}} + P_{\text{CH}_3\text{OH}} = x_{\text{H}_2\text{O}}P_{\text{H}_2\text{O}}^0 + x_{\text{CH}_3\text{OH}}P_{\text{CH}_3\text{OH}}^0$
+**4. What is the rate of reaction for the reaction: $2\text{NO}_2 \rightarrow \text{N}_2\text{O}_4$?**
+- A) $\text{rate} = \frac{\Delta [\text{NO}_2]}{\Delta t}$
+- B) $\text{rate} = \frac{\Delta [\text{N}_2\text{O}_4]}{\Delta t}$
+- C) $\text{rate} = \frac{\Delta [\text{NO}_2]^2}{\Delta t}$
+- D) $\text{rate} = \frac{\Delta [\text{N}_2\text{O}_4]^2}{\Delta t}$
+**Answer: A) $\text{rate} = \frac{\Delta [\text{NO}_2]}{\Delta t}$**
+- Explanation: Use the definition of rate: $\text{rate} = \frac{\Delta [\text{reactant}]}{\Delta t}$
+**5. What is the enthalpy change for the reaction: $\text{H}_2 + \frac{1}{2}\text{O}_2 \rightarrow \text{H}_2\text{O}$?**
+- A) $\Delta H = -285.8$ kJ/mol
+- B) $\Delta H = -285.8$ J/mol
+- C) $\Delta H = 285.8$ kJ/mol
+- D) $\Delta H = 285.8$ J/mol
+**Answer: A) $\Delta H = -285.8$ kJ/mol**
+- Explanation: Use the definition of enthalpy change: $\Delta H = \sum \Delta H_{\text{products}} - \sum \Delta H_{\text{reactants}}$
 
-| Compound | Formula | MOL. Weight | Source |
-|:---|:---:|:---:|:---:|
-| **water** | H2O | 18.015 g/MOL | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/962) |
-| **benzene** | C6H6 | 78.11 g/MOL | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/241) |
+---
 
-$}}}}
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/chemistry-in-everyday-life-class-12-notes) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

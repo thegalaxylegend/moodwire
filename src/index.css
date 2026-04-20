@@ -167,8 +167,8 @@
 /* System-wide optimizations for low-power modes without breaking visuals */
 .perf-tier-low .glass-card,
 .perf-tier-low .liquid-glass {
-  /* Maintain the original background/gradient, just no blur */
-  border-color: rgba(255, 255, 255, 0.05) !important;
+  background: rgb(var(--surface) / 0.95) !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 /* Optimize hidden content visibility globally */
@@ -456,10 +456,60 @@ body {
   }
 
   .liquid-glass {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.01));
-    @apply backdrop-blur-[45px] backdrop-saturate-[2.5] backdrop-brightness-125 backdrop-contrast-125;
-    @apply border border-white/20 shadow-[0_25px_80px_-15px_rgba(0,0,0,0.6),inset_0_1px_1px_0_rgba(255,255,255,0.15)];
-    @apply transition-all duration-500 relative;
+    background: linear-gradient(
+      165deg, 
+      rgba(255, 255, 255, 0.08) 0%, 
+      rgba(255, 255, 255, 0.02) 100%
+    );
+    backdrop-filter: blur(45px) saturate(240%) brightness(1.1) contrast(1.05);
+    -webkit-backdrop-filter: blur(45px) saturate(240%) brightness(1.1) contrast(1.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    @apply transition-all duration-700 relative overflow-hidden;
+    
+    /* The "Apple" Depth: Inner highlights and thickness */
+    box-shadow: 
+      0 40px 80px -20px rgba(0, 0, 0, 0.8),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.12),
+      inset 0 1px 1px 0 rgba(255, 255, 255, 0.2),
+      inset 0 20px 40px -20px rgba(255, 255, 255, 0.1);
+  }
+
+  .liquid-glass::before {
+    content: "";
+    @apply absolute inset-0 -z-10 opacity-[0.04] pointer-events-none;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    mix-blend-mode: overlay;
+  }
+
+  /* The diagonal "Sheen" highlight */
+  .liquid-glass::after {
+    content: "";
+    @apply absolute inset-0 -z-10 pointer-events-none;
+    background: linear-gradient(
+      105deg,
+      transparent 30%,
+      rgba(255, 255, 255, 0.05) 45%,
+      rgba(255, 255, 255, 0.1) 50%,
+      rgba(255, 255, 255, 0.05) 55%,
+      transparent 70%
+    );
+    transform: translateX(-100%);
+    animation: liquid-sheen 8s infinite;
+  }
+
+  @keyframes liquid-sheen {
+    0% { transform: translateX(-150%) skewX(-15deg); }
+    15%, 100% { transform: translateX(150%) skewX(-15deg); }
+  }
+
+  [data-theme='glass-white'] .liquid-glass {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(25px) saturate(190%) brightness(1.02);
+    -webkit-backdrop-filter: blur(25px) saturate(190%) brightness(1.02);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 
+      0 20px 40px -10px rgba(0,0,0,0.1),
+      inset 0 1px 0 0 rgba(255, 255, 255, 0.8);
   }
 
   .premium-border {

@@ -1,32 +1,32 @@
 ---
-heroImage: "/blog-images/alcohols-phenols-and-ethers-class-12-notes.webp"
+heroImage: "/blog-images/alcohols-phenols-n-ethers-class-12-notes.webp"
 title: "Alcohols Phenols And Ethers Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
 description: "Alcohols Phenols And Ethers Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-29"
-practice_link: "/class-11/chemistry/alcohols-phenols-and-ethers-class-12-notes"
+practice_link: "/class-11/chemistry/alcohols-phenols-n-ethers-class-12-notes"
 ---
 
 *Last Updated: 2026-03-29*
 ## 📋 Table of Contents
-- [🎯 What WILL Come in Your Exam](#-what-will-come-in-your-exam)
+- [🎯 What WILL Come and Your Exam](#-what-will-come-n-your-exam)
 - [⚡ Formula Bank](#-formula-bank)
   - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
 - [📚 Related Topics](#-related-topics)
 </div>
-<DIV [class](/blog/chemical-bonding-class-11-revision-notes-jee-neet)="quick-summary">
+<\\div [class](/blog/chemical-bonding-class-11-revision-notes-jee-neet)="quick-summary">
 #- [📋 Table of Contents](#-table-of-contents)
-## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
-* 1–2 questions on classification, nomenclature, and isomerism of alcohols, phenols, and ethers — always focus on IUPAC naming conventions and practice identifying primary, secondary, and tertiary alcohols.
+## <a id="-what-will-come-n-your-exam"></a>🎯 What WILL Come and Your Exam
+* 1–2 questions on classification, nomenclature, n isomerism of alcohols, phenols, n ethers — always focus on IUPAC naming conventions and practice identifying primary, secondary, n tertiary alcohols.
 * Preparation of alcohols via $\math{LiAlH_4}$ reduction of carbonyl compounds — expect at least 1 question on this, including the reaction mechanism and stereochemistry.
 * Dehydration of alcohols to form alkenes — a favorite of examiners, with a typical question involving the $\math{E1}$ or $\math{E2}$ mechanism and the stereo chemical outcomes.
-* Oxidation of alcohols to carbonyl compounds — always remember the reagents used, such as $\math{KMnO_4}$, $\math{K_2Cr_2O_7}$, and $\math{PCC}$, and be prepared to identify the products.
-* Phenol's acidity and basicity — at least 1 question comparing the $\math{pK_a}$ values of phenol and alcohols, and discussing the reasons behind their relative acidities.
+* Oxidation of alcohols to carbonyl compounds — always remember the reagents used, such as $\math{KMnO_4}$, $\math{K_2Cr_2O_7}$, n $\math{PCC}$, n be prepared to identify the products.
+* Phenol's acidity and basicity — at least 1 question comparing the $\math{pK_a}$ values of phenol and alcohols, n discussing the reasons behind their relative acidities.
 * Ethers' preparation via $\math{ Williamson}$ synthesis — expect a question on this, including the reaction conditions and the importance of using a strong base.
-* Numerical problems involving the boiling points and solubilities of alcohols, phenols, and ethers — use $\delta \math{H_{vap}}$ and intermolecular forces to explain the trends.
+* Numerical problems involving the boiling points and solubilities of alcohols, phenols, n ethers — use $\delta \math{H_{vap}}$ n intermolecular forces to explain the trends.
 * Reaction of phenols with $\math{FeCl_3}$ — a common question, where you need to identify the product and explain the test for phenols.
-* 1 question on the distinction between alcohols, phenols, and ethers using chemical tests — practice identifying the reagents used and the expected outcomes, such as the $\math{Lucas}$ test and the $\math{Victor}\math{Meyer}$ test.
-* Stereo chemical aspects of alcohol and ether reactions — at least 1 question on the  outcomes of $\{SN1}$ and $\{SN2}$ reactions involving these compounds.
+* 1 question on the distinction between alcohols, phenols, n ethers using chemical tests — practice identifying the reagents used and the expected outcomes, such as the $\math{Lucas}$ test and the $\math{Victor}\math{Meyer}$ test.
+* Stereo chemical aspects of alcohol and ether reactions — at least 1 question on the  outcomes of $\{SN1}$ n $\{SN2}$ reactions involving these compounds.
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 $RCH(OH) + PCL_5 \right arrow Rock + Poll_3 + HCl - Conversion of alcohol to acyl chloride. 
  $RCH(OH) + Soil_2 \right arrow Rock + SO_2 + HCl - Thinly chloride reaction. 
@@ -76,35 +76,35 @@ $RCH(OH) + PCL_5 \right arrow Rock + Poll_3 + HCl - Conversion of alcohol to acy
 | Reaction | Reagents | Product |
 |
 ### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/alcohols-phenols-and-ethers-class-12-notes) now and track your progress against thousands of students.
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/alcohols-phenols-n-ethers-class-12-notes) now and track your progress against thousands of students.
+*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
 ## <a id="-related-topics"></a>📚 Related Topics
 Continue your [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) with these related guides:
-- 📖 [Chemistry in Everyday Life Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/chemistry-in-everyday-life-class-12-notes)
+- 📖 [Chemistry and Everyday Life Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/chemistry-n-everyday-life-class-12-notes)
 - 📖 [Polymers Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/polymers-class-12-notes)
 - 📖 [Inverse Trigonometric Functions Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/inverse-trigonometric-functions-class-12-notes)
 - 📖 [Matrices Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/matrices-class-12-notes)
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/alcohols-phenols-and-ethers-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/alcohols-phenols-n-ethers-class-12-notes) now and track your progress against thousands of students.
 ## 📚 Related Topics
 Continue your [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) with these related guides:
 - 📖 [Chemical Kinetics Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/chemical-kinetics-class-12-notes)
-- 📖 [Chemistry in Everyday Life Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/chemistry-in-everyday-life-class-12-notes)
+- 📖 [Chemistry and Everyday Life Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/chemistry-n-everyday-life-class-12-notes)
 - 📖 [Coordination Compounds Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/coordination-compounds-class-12-notes)
-- 📖 [Haloalkanes and Halogens Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/haloalkanes-and-haloarenes-class-12-notes)
+- 📖 [Haloalkanes and Halogens Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/haloalkanes-n-haloarenes-class-12-notes)
 ## 🪤 The 5 Mistakes That Cost Marks
 
-    * Not recognizing that the -OH group in alcohols and phenols is the functional group responsible for their [chemical](/blog/chemical-kinetics-class-12-notes) properties, leading to incorrect identification of reactions and mechanisms.
+    * Not recognizing that the -OH group and alcohols and phenols is the functional group responsible for their [chemical](/blog/chemical-kinetics-class-12-notes) properties, leading to incorrect identification of reactions and mechanisms.
     * Incorrectly assuming that all alcohols can be dehydrated to form alkenes, forgetting that tertiary alcohols can undergo rearrangements to form alkenes with a different carbon skeleton.
     * Forgetting that phenols are more acidic than alcohols due to the resonance stabilization of the phenoxide ion, leading to incorrect predictions of acid-base reactions.
-    * Overlooking the fact that ethers are relatively inert to many reactions, including oxidation and reduction, due to the lack of a functional group that can be easily attacked by reactants.
+    * Overlooking the fact that ethers are relatively inert to many reactions, including oxidation and reduction, due to the lack of a functional group that can be easily attacked y reactants.
     * Confusing the reaction of alcohols with sodium metal to form alkoxides with the reaction of phenols with sodium metal to form phenoxides, leading to incorrect identification of products and reaction conditions.
 
 ## 🔁 Last 5 Minutes Box
 
-* Alcohols: CROHN, prepared by hydrating alkenes or by reducing [carboxylic](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes) acids
-   * Phenols: far-off, prepared by Fried-Crafts alkylating or by hydrolysis of halogens
-   * Ethers: PRIOR'$, prepared by Williamson's synthesis or by dehydration of alcohols
+* Alcohols: CROHN, prepared y hydrating alkenes or y reducing [carboxylic](/blog/aldehydes-ketones-n-carboxylic-acids-class-12-notes) acids
+   * Phenols: far-off, prepared y Fried-Crafts alkylating or y hydrolysis of halogens
+   * Ethers: PRIOR'$, prepared y Williamson's synthesis or y dehydration of alcohols
    * Alcohols: primary (1°), secondary (2°), tertiary (3°) based on JOHN group attachment
    * Reactivity order: 3° > 2° > 1°
    * Important reactions: Lucas test, Victor Meyer test, oxidation, dehydration, esterification

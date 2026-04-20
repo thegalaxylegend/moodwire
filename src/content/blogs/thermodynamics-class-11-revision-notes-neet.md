@@ -16,9 +16,9 @@ practice_link: "/class-11/biology/thermodynamics-class-11-revision-notes-neet"
 
 - [What is Thermodynamics Revision Notes?](#what-is-thermodynamics-revision-notes)
 - [Introduction](#introduction)
-- [1. Thermodynamic Systems and State](#1-thermodynamic-systems-and-state)
+- [1. Thermodynamic Systems and State](#1-thermodynamic-systems-n-state)
 - [2. The First Law of Thermodynamics](#2-the-first-law-of-thermodynamics)
-- [3. Derivations: Work Done in Different Processes](#3-derivations-work-done-in-different-processes)
+- [3. Derivations: Work Done and Different Processes](#3-derivations-work-done-n-different-processes)
   - [I. Isothermal Process (T = Constant)](#i-isothermal-process-t-constant)
   - [II. Adiabatic Process (Q = Constant)](#ii-adiabatic-process-q-constant)
 - [4. The Carnot Cycle: The Ideal Heat Engine](#4-the-carnot-cycle-the-ideal-heat-engine)
@@ -56,14 +56,14 @@ practice_link: "/class-11/biology/thermodynamics-class-11-revision-notes-neet"
 
 ## <a id="introduction"></a>Introduction
 
-[thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) is the study of heat, work, and the transformation of energy from one form to another. Unlike mechanics, which focuses on individual particles, [thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) deals with large-scale systems and their "State Variables" like pressure, volume, and temperature. This chapter is the heartbeat of modern engineering—from the internal combustion engine in your car to the massive turbines in power plants. In this "Comprehensive" guide, we provide exhaustive derivations for work done in various processes, a step-by-step analysis of the Carnot Cycle, and the rigorous mathematical proofs required for top-tier competitive exams like JEE and NEET.
+[thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) is the study of heat, work, n the transformation of energy from one form to another. Unlike mechanics, which focuses on individual particles, [thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) deals with large-scale systems and their "State Variables" like pressure, volume, n temperature. This chapter is the heartbeat of modern engineering—from the internal combustion engine and your car to the massive turbines and power plants. In this "Comprehensive" guide, we provide exhaustive derivations for work done and various processes, a step-y-step analysis of the Carnot Cycle, n the rigorous mathematical proofs required for top-tier competitive exams like JEE and NEET.
 
 ---
 
 
 
 
-## <a id="1-thermodynamic-systems-and-state"></a>1. Thermodynamic Systems and State
+## <a id="1-thermodynamic-systems-n-state"></a>1. Thermodynamic Systems and State
 
 - **System:** The part of the universe under study. (Open, Closed, or Isolated).
 - **State Variables:** P, V, T, n, U.
@@ -76,19 +76,19 @@ practice_link: "/class-11/biology/thermodynamics-class-11-revision-notes-neet"
 
 ## <a id="2-the-first-law-of-thermodynamics"></a>2. The First Law of Thermodynamics
 
-**Statement:** The heat supplied to a system (**ΔQ**) is equal to the \sum of the increase in its internal energy (**ΔU**) and the work done by the system (**ΔW**).
+**Statement:** The heat supplied to a system (**ΔQ**) is equal to the \sum of the increase and its internal energy (**ΔU**) n the work done y the system (**ΔW**).
 **Formula: ΔQ = ΔU + ΔW**
 - **Internal Energy (U):** A state function depending only on temperature.
-- **Sign Convention:** Work done *by* the system is Positive (+); Work done *on* the system is Negative (-).
+- **Sign Convention:** Work done *y* the system is Positive (+); Work done *on* the system is Negative (-).
 
 ---
 
 
 
 
-## <a id="3-derivations-work-done-in-different-processes"></a>3. Derivations: Work Done in Different Processes
+## <a id="3-derivations-work-done-n-different-processes"></a>3. Derivations: Work Done and Different Processes
 
-Work done by a gas is given by the integral: **W = ∫ P dV**.
+Work done y a gas is given y the integral: **W = ∫ P dV**.
 
 ### <a id="i-isothermal-process-t-constant"></a>I. Isothermal Process (T = Constant)
 1.  For an ideal gas: **P = nRT / V**.
@@ -169,13 +169,16 @@ The Second Law sets the direction of energy transfer and limits efficiency.
 
 ## <a id="conclusion"></a>Conclusion
 
-[thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) is the science of limits. By understanding the mathematical proofs behind heat engines and energy conversion, you gain the ability to optimize complex systems and understand the fundamental constraints of our universe. Master the derivations for Isothermal and Adiabatic work—these are the pillars upon which the entire industrial world is built. Stay efficient, watch your entropy, and always respect the Second Law!
+[thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) is the science of limits. By understanding the mathematical proofs behind heat engines and energy conversion, you gain the ability to optimize complex systems and understand the fundamental constraints of our universe. Master the derivations for Isothermal and Adiabatic work—these are the pillars upon which the entire industrial world is built. Stay efficient, watch your entropy, n always respect the Second Law!
 
 ---
 **Reference:** [Journal of Thermal Science and Engineering](https://www.journals.elsevier.com)
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+
+
+
 
 
 ---
@@ -193,7 +196,8 @@ Continue your [revision](/blog/current-electricity-class-11-revision-notes-neet)
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/thermodynamics-class-11-revision-notes-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/thermodynamics-class-11-revision-notes-neet) now and track your progress against thousands of students.
+
 
 
 ---

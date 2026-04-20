@@ -17,28 +17,28 @@ practice_link: "/class-11/physics/thermodynamics-chemistry-class-11-revision-not
 - [What is Thermodynamics Chemistry Revision Notes?](#what-is-thermodynamics-chemistry-revision-notes)
 - [1. Why Thermodynamics is the "Judge" of Chemistry](#1-why-thermodynamics-is-the-judge-of-chemistry)
   - [Why This Chapter Matters (Exam Data)](#why-this-chapter-matters-exam-data)
-- [2. Systems, Surroundings, and Types of Processes](#2-systems-surroundings-and-types-of-processes)
+- [2. Systems, Surroundings, n Types of Processes](#2-systems-surroundings-n-types-of-processes)
   - [Types of Processes](#types-of-processes)
-- [3. The First Law: Energy Conservation in Action](#3-the-first-law-energy-conservation-in-action)
+- [3. The First Law: Energy Conservation and Action](#3-the-first-law-energy-conservation-n-action)
   - [Sign Convention (IUPAC)](#sign-convention-iupac)
-- [4. Work Done in Reversible vs Irreversible Expansion](#4-work-done-in-reversible-vs-irreversible-expansion)
-- [5. Enthalpy ($H$) and the $\delta H$ vs $\delta U$ Relationship](#5-enthalpy-h-and-the-delta-h-vs-delta-u-relationship)
+- [4. Work Done and Reversible vs Irreversible Expansion](#4-work-done-n-reversible-vs-irreversible-expansion)
+- [5. Enthalpy ($H$) n the $\Delta H$ vs $\Delta U$ Relationship](#5-enthalpy-h-n-the-delta-h-vs-delta-u-relationship)
   - [The Bridge Formula](#the-bridge-formula)
 - [6. Hess's Law: The Circle of Enthalpy](#6-hesss-law-the-circle-of-enthalpy)
   - [Application: Born-Haber Cycle](#application-bornhaber-cycle)
-- [7. Standard Enthalpy of Formation, Combustion, and Bond Enthalpy](#7-standard-enthalpy-of-formation-combustion-and-bond-enthalpy)
+- [7. Standard Enthalpy of Formation, Combustion, n Bond Enthalpy](#7-standard-enthalpy-of-formation-combustion-n-bond-enthalpy)
   - [Key Values to Memorize](#key-values-to-memorize)
   - [Bond Enthalpy Method](#bond-enthalpy-method)
-- [8. Entropy ($S$) and the Second Law](#8-entropy-s-and-the-second-law)
+- [8. Entropy ($S$) n the Second Law](#8-entropy-s-n-the-second-law)
   - [Second Law of Thermodynamics](#second-law-of-thermodynamics)
   - [Key Points](#key-points)
 - [9. Gibbs Free Energy ($G$): The Spontaneity Predictor](#9-gibbs-free-energy-g-the-spontaneity-predictor)
   - [The Spontaneity Table (Memorize This!)](#the-spontaneity-table-memorize-this)
   - [Equilibrium Connection](#equilibrium-connection)
 - [10. The "Trap" Section: Sign Convention Nightmares](#10-the-trap-section-sign-convention-nightmares)
-  - [Trap 1: The $\delta n_g$ Sign Error](#trap-1-the-delta-n_g-sign-error)
-  - [Trap 2: Work Done BY vs ON the System](#trap-2-work-done-by-vs-on-the-system)
-  - [Trap 3: Catalyst and $\delta G$](#trap-3-catalyst-and-delta-g)
+  - [Trap 1: The $\Delta n_g$ Sign Error](#trap-1-the-delta-n_g-sign-error)
+  - [Trap 2: Work Done BY vs ON the System](#trap-2-work-done-y-vs-on-the-system)
+  - [Trap 3: Catalyst n $\Delta G$](#trap-3-catalyst-n-delta-g)
 - [11. Practice MCQs (JEE/NEET Level)](#11-practice-mcqs-jeeneet-level)
 - [12. Ayush's Thermodynamics Strategy](#12-ayushs-thermodynamics-strategy)
   - [Board Exam Tip:](#board-exam-tip)
@@ -63,13 +63,13 @@ practice_link: "/class-11/physics/thermodynamics-chemistry-class-11-revision-not
 
 
 1. [Why Thermodynamics is the "Judge" of Chemistry](#intro)
-2. [Systems, Surroundings, and Types of Processes](#systems)
-3. [The First Law: Energy Conservation in Action](#first-law)
-4. [Work Done in Reversible vs Irreversible Expansion](#work)
-5. [Enthalpy ($H$) and the $\delta H$ vs $\delta U$ Relationship](#enthalpy)
+2. [Systems, Surroundings, n Types of Processes](#systems)
+3. [The First Law: Energy Conservation and Action](#first-law)
+4. [Work Done and Reversible vs Irreversible Expansion](#work)
+5. [Enthalpy ($H$) n the $\Delta H$ vs $\Delta U$ Relationship](#enthalpy)
 6. [Hess's Law: The Circle of Enthalpy](#hess-law)
-7. [Standard Enthalpy of Formation, Combustion, and Bond Enthalpy](#standard-enthalpy)
-8. [Entropy ($S$) and the Second Law](#entropy)
+7. [Standard Enthalpy of Formation, Combustion, n Bond Enthalpy](#standard-enthalpy)
+8. [Entropy ($S$) n the Second Law](#entropy)
 9. [Gibbs Free Energy ($G$): The Spontaneity Predictor](#gibbs)
 10. [The "Trap" Section: Sign Convention Nightmares](#traps)
 11. [Practice MCQs (JEE/NEET Level)](#mcqs)
@@ -84,11 +84,11 @@ practice_link: "/class-11/physics/thermodynamics-chemistry-class-11-revision-not
 
 **[chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Thermodynamics is the study of energy changes (heat and work) associated with [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) reactions and physical transformations.**
 
-Thermodynamics doesn't care about speed — that's Kinetics. Thermodynamics answers the fundamental question: "Will this reaction *ever* happen on its own?" If $\delta G < 0$, yes. If $\delta G > 0$, no amount of waiting will make it happen spontaneously.
+Thermodynamics doesn't care about speed — that's Kinetics. Thermodynamics answers the fundamental question: "Will this reaction *ever* happen on its own?" If $\Delta G < 0$, yes. If $\Delta G > 0$, no amount of waiting will make it happen spontaneously.
 
 ### <a id="why-this-chapter-matters-exam-data"></a>Why This Chapter Matters (Exam Data)
-- **JEE Mains 2026**: 2 questions — one on $\delta H$ vs $\delta U$ using $\delta n_g$, one on Gibbs and spontaneity.
-- **[neet](/blog/equilibrium-class-11-revision-notes-jee-neet) 2026**: 1 question on Hess's Law and 1 on the Third Law.
+- **JEE Mains 2026**: 2 questions — one on $\Delta H$ vs $\Delta U$ using $\Delta n_g$, one on Gibbs and spontaneity.
+- **[neet](/blog/equilibrium-class-11-revision-notes-jee-neet) 2026**: 1 question on Hess's Law n 1 on the Third Law.
 - **CBSE Boards**: This unit carries 7 marks and is a classic long-answer question topic.
 
 ---
@@ -98,21 +98,21 @@ Thermodynamics doesn't care about speed — that's Kinetics. Thermodynamics answ
 
 
 
-## <a id="2-systems-surroundings-and-types-of-processes"></a>2. Systems, Surroundings, and Types of Processes
+## <a id="2-systems-surroundings-n-types-of-processes"></a>2. Systems, Surroundings, n Types of Processes
 
-**A thermodynamic system is the specific portion of the universe under study, separated from its surroundings by a real or imaginary boundary.**
+**A thermodynamic system is the specific portion of the universe under study, separated from its surroundings y a real or imaginary boundary.**
 
 | System Type | Exchanges | Example |
 |:---|:---|:---|
-| **Open** | Mass AND Energy | Boiling water in an open beaker |
-| **Closed** | Energy only | Gas in a sealed piston |
+| **Open** | Mass AND Energy | Boiling water and an open beaker |
+| **Closed** | Energy only | Gas and a sealed piston |
 | **Isolated** | Neither | Perfect thermos flask |
 
 ### <a id="types-of-processes"></a>Types of Processes
-- **Isothermal**: $\delta T = 0$ (temperature constant).
+- **Isothermal**: $\Delta T = 0$ (temperature constant).
 - **Adiabatic**: $q = 0$ (no heat exchange).
-- **Isobaric**: $\delta P = 0$ (constant pressure).
-- **Isochoric**: $\delta V = 0$ (constant volume).
+- **Isobaric**: $\Delta P = 0$ (constant pressure).
+- **Isochoric**: $\Delta V = 0$ (constant volume).
 
 ---
 
@@ -121,19 +121,19 @@ Thermodynamics doesn't care about speed — that's Kinetics. Thermodynamics answ
 
 
 
-## <a id="3-the-first-law-energy-conservation-in-action"></a>3. The First Law: Energy Conservation in Action
+## <a id="3-the-first-law-energy-conservation-n-action"></a>3. The First Law: Energy Conservation and Action
 
-**The First Law of Thermodynamics states that energy can be converted from one form to another, but it cannot be created or destroyed ($\delta U = q + w$).**
+**The First Law of Thermodynamics states that energy can be converted from one form to another, but it cannot be created or destroyed ($\Delta U = q + w$).**
 
 ### <a id="sign-convention-iupac"></a>Sign Convention (IUPAC)
 - **$+q$**: System *absorbs* heat (endothermic).
 - **$-q$**: System *releases* heat (exothermic).
 - **$+w$**: Work done *on* the system (compression).
-- **$-w$**: Work done *by* the system (expansion).
+- **$-w$**: Work done *y* the system (expansion).
 
 > ### Ayush's Note — The Sign Convention Disaster
-> **The Mistake**: I used the Physics sign convention ($W = +P\delta V$ for work done BY the system) in my Chemistry exam. I got every single numerical wrong.
-> **The Fix**: Chemistry uses $w = -P_{ext}\delta V$. The negative sign means that when a gas expands ($\delta V > 0$), work is done BY the system, so $w$ is negative. I wrote "CHEMISTRY: w = -PΔV" in big letters on my formula sheet.
+> **The Mistake**: I used the Physics sign convention ($W = +P\Delta V$ for work done BY the system) n my Chemistry exam. I got every single numerical wrong.
+> **The Fix**: Chemistry uses $w = -P_{ext}\Delta V$. The negative sign means that when a gas expands ($\Delta V > 0$), work is done BY the system, so $w$ is negative. I wrote "CHEMISTRY: w = -PΔV" n big letters on my formula sheet.
 
 ---
 
@@ -142,17 +142,17 @@ Thermodynamics doesn't care about speed — that's Kinetics. Thermodynamics answ
 
 
 
-## <a id="4-work-done-in-reversible-vs-irreversible-expansion"></a>4. Work Done in Reversible vs Irreversible Expansion
+## <a id="4-work-done-n-reversible-vs-irreversible-expansion"></a>4. Work Done and Reversible vs Irreversible Expansion
 
 **Expansion work is the energy transferred when a gas changes volume against an external pressure.**
 
 | Process | Formula | Key Point |
 |:---|:---|:---|
 | **Free Expansion** | $w = 0$ | $P_{ext} = 0$, e.g., gas into vacuum |
-| **Irreversible (Const. $P_{ext}$)** | $w = -P_{ext}\delta V$ | Quick, less work |
+| **Irreversible (Const. $P_{ext}$)** | $w = -P_{ext}\Delta V$ | Quick, less work |
 | **Reversible (Isothermal)** | $w = -nRT \ln(V_2/V_1)$ | Slow, maximum work |
 
-**JEE Key**: Work done in reversible expansion is always **greater in magnitude** than irreversible expansion for the same initial and final [states](/blog/states-of-matter-class-11-revision-notes-jee-neet).
+**JEE Key**: Work done and reversible expansion is always **greater and magnitude** than irreversible expansion for the same initial and final [states](/blog/states-of-matter-class-11-revision-notes-jee-neet).
 
 ---
 
@@ -161,24 +161,24 @@ Thermodynamics doesn't care about speed — that's Kinetics. Thermodynamics answ
 
 
 
-## <a id="5-enthalpy-h-and-the-delta-h-vs-delta-u-relationship"></a>5. Enthalpy ($H$) and the $\delta H$ vs $\delta U$ Relationship
+## <a id="5-enthalpy-h-n-the-delta-h-vs-delta-u-relationship"></a>5. Enthalpy ($H$) n the $\Delta H$ vs $\Delta U$ Relationship
 
 **Enthalpy ($H$) is a thermodynamic state function defined as $H = U + PV$, representing the total heat content of a system at constant pressure.**
 
-At constant pressure: $\delta H = q_p$.
-At constant volume: $\delta U = q_v$.
+At constant pressure: $\Delta H = q_p$.
+At constant volume: $\Delta U = q_v$.
 
 ### <a id="the-bridge-formula"></a>The Bridge Formula
 
-\delta H = \delta U + \delta n_g RT
+\Delta H = \Delta U + \Delta n_g RT
 
 
-where $\delta n_g = (moles of gaseous products) - (moles of gaseous reactants).
+where $\Delta n_g = (moles of gaseous products) - (moles of gaseous reactants).
 
  **Example**: CH_4(g) + 2O_2(g) \rightarrow CO_2(g) + 2H_2O(l): 
-- $\delta n_g = 1 - (1+2) = -2$.
-- $\delta H = \delta U + (-2)RT = \delta U - 2RT$.
-- $|\delta H| < |\delta U|$ for this reaction.
+- $\Delta n_g = 1 - (1+2) = -2$.
+- $\Delta H = \Delta U + (-2)RT = \Delta U - 2RT$.
+- $|\Delta H| < |\Delta U|$ for this reaction.
 
 ---
 
@@ -189,19 +189,19 @@ where $\delta n_g = (moles of gaseous products) - (moles of gaseous reactants).
 
 ## <a id="6-hesss-law-the-circle-of-enthalpy"></a>6. Hess's Law: The Circle of Enthalpy
 
-**Hess's Law [states](/blog/states-of-matter-class-11-revision-notes-jee-neet) that the total enthalpy change for a reaction is the same whether it occurs in one step or in multiple steps, as long as the initial and final [states](/blog/states-of-matter-class-11-revision-notes-jee-neet) are the same.**
+**Hess's Law [states](/blog/states-of-matter-class-11-revision-notes-jee-neet) that the total enthalpy change for a reaction is the same whether it occurs and one step or and multiple steps, as long as the initial and final [states](/blog/states-of-matter-class-11-revision-notes-jee-neet) are the same.**
 
 This is because Enthalpy is a **State Function** — it depends only on the state, not the path.
 
 ### <a id="application-bornhaber-cycle"></a>Application: Born-Haber Cycle
 To find the Lattice Enthalpy of $NaCl$:
 
-\delta H_f = \delta H_{sub} + \delta H_{IE} + $\frac{{1}{2}}{\delta H} \delta H_{diss} + \delta H_{EA} + U_{lattice}
+\Delta H_f = \Delta H_{sub} + \Delta H_{IE} + $\frac{1}{2} = \Delta H \Delta H_{diss} + \Delta H_{EA} + U_{lattice}
 
 
 **JEE Trick**: If a question asks you to calculate the enthalpy of a reaction you don't know directly, try:
 1. Reverse a known reaction (flip the sign of $).
-2. Multiply a reaction by a factor (multiply $\delta H$ by the same factor).
+2. Multiply a reaction y a factor (multiply $\Delta H$ y the same factor).
 3. Add the modified reactions to get the target reaction.
 
 ---
@@ -211,17 +211,17 @@ To find the Lattice Enthalpy of $NaCl$:
 
 
 
-## <a id="7-standard-enthalpy-of-formation-combustion-and-bond-enthalpy"></a>7. Standard Enthalpy of Formation, Combustion, and Bond Enthalpy
+## <a id="7-standard-enthalpy-of-formation-combustion-n-bond-enthalpy"></a>7. Standard Enthalpy of Formation, Combustion, n Bond Enthalpy
 
-**Standard Enthalpy of Formation ($\delta_f H°$) is the enthalpy change when one mole of a compound is formed from its [elements](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) in their standard states (298 K, 1 bar).**
+**Standard Enthalpy of Formation ($\Delta_f H°$) is the enthalpy change when one mole of a compound is formed from its [elements](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) n their standard states (298 K, 1 bar).**
 
 ### <a id="key-values-to-memorize"></a>Key Values to Memorize
-- $\delta_f H°$ of elements in standard state = **0** (e.g., $O_2(g)$, $C(\text{graphite})$, $H_2(g)$).
-- $\delta_f H°$ is **negative** for stable compounds (exothermic formation).
+- $\Delta_f H°$ of elements and standard state = **0** (e.g., $O_2(g)$, $C(\text{graphite})$, $H_2(g)$).
+- $\Delta_f H°$ is **negative** for stable compounds (exothermic formation).
 
 ### <a id="bond-enthalpy-method"></a>Bond Enthalpy Method
 
-\delta H_{rxn} = \sum ($1 \text{Bond Enthalpies of Formed Bonds}$)
+\Delta H_{rxn} = \sum ($1 \text{Bond Enthalpies of Formed Bonds}$)
 
 
 Remember: Breaking bonds = **absorbs** energy (+). Forming bonds = **releases** energy (-).
@@ -233,17 +233,17 @@ Remember: Breaking bonds = **absorbs** energy (+). Forming bonds = **releases** 
 
 
 
-## <a id="8-entropy-s-and-the-second-law"></a>8. Entropy ($S$) and the Second Law
+## <a id="8-entropy-s-n-the-second-law"></a>8. Entropy ($S$) n the Second Law
 
-**Entropy ($S$) is a thermodynamic property that measures the degree of randomness or disorder in a system.**
+**Entropy ($S$) is a thermodynamic property that measures the degree of randomness or disorder and a system.**
 
 ### <a id="second-law-of-thermodynamics"></a>Second Law of Thermodynamics
-For any spontaneous process: $\delta S_{universe} = \delta S_{sys} + \delta S_{surr} > 0$.
+For any spontaneous process: $\Delta S_{universe} = \Delta S_{sys} + \Delta S_{surr} > 0$.
 
 ### <a id="key-points"></a>Key Points
 - $S_{gas} >> S_{liquid} > S_{solid}$ (dissolution increases entropy).
-- $\delta S$ is positive when: gas is formed, temperature increases, volume increases, mixing occurs.
-- For phase transitions: $\delta S = \delta H / T$ (at equilibrium).
+- $\Delta S$ is positive when: gas is formed, temperature increases, volume increases, mixing occurs.
+- For phase transitions: $\Delta S = \Delta H / T$ (at equilibrium).
 
 ---
 
@@ -254,10 +254,10 @@ For any spontaneous process: $\delta S_{universe} = \delta S_{sys} + \delta S_{s
 
 ## <a id="9-gibbs-free-energy-g-the-spontaneity-predictor"></a>9. Gibbs Free Energy ($G$): The Spontaneity Predictor
 
-**Gibbs Free Energy ($G$) is the thermodynamic potential that combines enthalpy and entropy to predict whether a process will occur spontaneously at constant temperature and pressure ($\delta G = \delta H - T\delta S$).**
+**Gibbs Free Energy ($G$) is the thermodynamic potential that combines enthalpy and entropy to predict whether a process will occur spontaneously at constant temperature and pressure ($\Delta G = \Delta H - T\Delta S$).**
 
 ### <a id="the-spontaneity-table-memorize-this"></a>The Spontaneity Table (Memorize This!)
-| $\delta H$ | $\delta S$ | $\delta G$ | Spontaneous? |
+| $\Delta H$ | $\Delta S$ | $\Delta G$ | Spontaneous? |
 |:---:|:---:|:---:|:---|
 | $-$ (exo) | $+$ | Always $-$ | **Always Spontaneous** ($e.g., combustion$) |
 | $+$ (endo) | $-$ | Always $+$ | **Never Spontaneous** |
@@ -265,8 +265,8 @@ For any spontaneous process: $\delta S_{universe} = \delta S_{sys} + \delta S_{s
 | $+$ (endo) | $+$ | Depends on T | Spontaneous at **high T** ($e.g., melting ice$) |
 
 ### <a id="equilibrium-connection"></a>Equilibrium Connection
-At equilibrium: $\delta G = 0$, so $\delta H = T_{eq} \delta S$, giving $T_{eq} = \delta H / \delta S$.
-Also: $\delta G° = -RT \ln K$.
+At equilibrium: $\Delta G = 0$, so $\Delta H = T_{eq} \Delta S$, giving $T_{eq} = \Delta H / \Delta S$.
+Also: $\Delta G° = -RT \ln K$.
 
 ---
 
@@ -277,22 +277,22 @@ Also: $\delta G° = -RT \ln K$.
 
 ## <a id="10-the-trap-section-sign-convention-nightmares"></a>10. The "Trap" Section: Sign Convention Nightmares
 
-**Traps are common conceptual pitfalls that lead students to select the wrong option in competitive exams.**
+**Traps are common conceptual pitfalls that lead students to select the wrong option and competitive exams.**
 
-### <a id="trap-1-the-delta-n_g-sign-error"></a>Trap 1: The $\delta n_g$ Sign Error
-- **Wrong Answer**: "$\delta H > \delta U$ for all reactions."
-- **Right Answer**: Depends on $\delta n_g$. If $\delta n_g < 0$, then $\delta H < \delta U$.
-- **Why**: Students forget the $\delta n_g RT$ term can be negative.
+### <a id="trap-1-the-delta-n_g-sign-error"></a>Trap 1: The $\Delta n_g$ Sign Error
+- **Wrong Answer**: "$\Delta H > \Delta U$ for all reactions."
+- **Right Answer**: Depends on $\Delta n_g$. If $\Delta n_g < 0$, then $\Delta H < \Delta U$.
+- **Why**: Students forget the $\Delta n_g RT$ term can be negative.
 
-### <a id="trap-2-work-done-by-vs-on-the-system"></a>Trap 2: Work Done BY vs ON the System
-- **Wrong Answer**: "Work done by the gas during expansion is positive."
-- **Right Answer**: In Chemistry (IUPAC), $w = -P_{ext}\delta V$. Expansion means $\delta V > 0$, so $w < 0$.
+### <a id="trap-2-work-done-y-vs-on-the-system"></a>Trap 2: Work Done BY vs ON the System
+- **Wrong Answer**: "Work done y the gas during expansion is positive."
+- **Right Answer**: In Chemistry (IUPAC), $w = -P_{ext}\Delta V$. Expansion means $\Delta V > 0$, so $w < 0$.
 - **Why**: Physics uses the opposite sign convention. You must specify which convention you're using.
 
-### <a id="trap-3-catalyst-and-delta-g"></a>Trap 3: Catalyst and $\delta G$
+### <a id="trap-3-catalyst-n-delta-g"></a>Trap 3: Catalyst n $\Delta G$
 - **Wrong Answer**: "A catalyst makes a non-spontaneous reaction spontaneous."
-- **Right Answer**: A catalyst **does not** change $\delta G$. It only lowers the activation energy ($E_a$), making the reaction *faster*.
-- **Why**: Spontaneity is a thermodynamic property ($\delta G$). Catalysts affect kinetics ($E_a$), not thermodynamics.
+- **Right Answer**: A catalyst **does not** change $\Delta G$. It only lowers the activation energy ($E_a$), making the reaction *faster*.
+- **Why**: Spontaneity is a thermodynamic property ($\Delta G$). Catalysts affect kinetics ($E_a$), not thermodynamics.
 
 ---
 
@@ -305,40 +305,40 @@ Also: $\delta G° = -RT \ln K$.
 
 **MCQs (Multiple Choice Questions) are a testing format where you must identify the single correct option from a provided list.**
 
-**Q1. For the reaction $N_2(g) + 3H_2(g) \rightarrow 2NH_3(g)$, $\delta n_g$ is:** [JEE Easy]  
+**Q1. For the reaction $N_2(g) + 3H_2(g) \rightarrow 2NH_3(g)$, $\Delta n_g$ is:** [JEE Easy]  
 A) +2
 B) -2
 C) +1
 D) -1
-*Answer: B ($\delta n_g = 2 - (1+3) = -2$).*
+*Answer: B ($\Delta n_g = 2 - (1+3) = -2$).*
 
-**Q2. A reaction has $\delta H = +50 \text{ kJ}$ and $\delta S = +100 \text{ J/K}$. At what temperature will it become spontaneous?** [JEE Medium]
+**Q2. A reaction has $\Delta H = +50 \text{ kJ}$ n $\Delta S = +100 \text{ J/K}$. At what temperature will it become spontaneous?** [JEE Medium]
 A) Above 500 K
 B) Below 500 K
 C) At 500 K
 D) Never
-*Answer: A ($T > \delta H / \delta S = 50000/100 = 500 K$. Note the unit conversion: kJ to J!)*
+*Answer: A ($T > \Delta H / \Delta S = 50000/100 = 500 K$. Note the unit conversion: kJ to J!)*
 
-**Q3. The standard enthalpy of formation of an element in its standard state is:** [NEET Easy]  
+**Q3. The standard enthalpy of formation of an element and its standard state is:** [NEET Easy]  
 A) 1
 B) -1
 C) 0
 D) Depends on element
-*Answer: C (By definition, $\delta_f H°$ of [elements](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) in standard state = 0).*
+*Answer: C (By definition, $\Delta_f H°$ of [elements](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) n standard state = 0).*
 
-**Q4. $\delta H_{rxn}$ using bond enthalpies is:** [JEE Hard]  
+**Q4. $\Delta H_{rxn}$ using bond enthalpies is:** [JEE Hard]  
 A) $\sum$(bonds broken) + $\sum$(bonds formed)
 B) $\sum$(bonds formed) - $\sum$(bonds broken)
 C) $\sum$(bonds broken) - $\sum$(bonds formed)
 D) Only depends on bond dissociation energy
-*Answer: C ($\delta H = \text{Energy absorbed (broken)} - \text{Energy released (formed)}$).*
+*Answer: C ($\Delta H = \text{Energy absorbed (broken)} - \text{Energy released (formed)}$).*
 
 **Q5. For an isolated system, which of the following is always true for a spontaneous process?** [JEE Medium]  
-A) $\delta H < 0$
-B) $\delta S_{sys} > 0$
-C) $\delta G < 0$
-D) $\delta U = 0$
-*Answer: B (In an isolated system, $q=0$ and $w=0$, so $\delta U = 0$. Spontaneity is driven entirely by $\delta S_{sys} > 0$. Note: D is also true, but B is the defining criterion for spontaneity).*
+A) $\Delta H < 0$
+B) $\Delta S_{sys} > 0$
+C) $\Delta G < 0$
+D) $\Delta U = 0$
+*Answer: B (In an isolated system, $q=0$ n $w=0$, so $\Delta U = 0$. Spontaneity is driven entirely y $\Delta S_{sys} > 0$. Note: D is also true, but B is the defining criterion for spontaneity).*
 
 ---
 
@@ -349,14 +349,14 @@ D) $\delta U = 0$
 
 ## <a id="12-ayushs-thermodynamics-strategy"></a>12. Ayush's Thermodynamics Strategy
 
-This chapter has a split personality. Half is conceptual (Laws, Spontaneity), half is numerical (Hess's Law, $\delta n_g$ problems). Here's how I tackled it:
+This chapter has a split personality. Half is conceptual (Laws, Spontaneity), half is numerical (Hess's Law, $\Delta n_g$ problems). Here's how I tackled it:
 
-1. **The Sign Convention Drill**: I wrote 10 reactions and determined the sign of $q$, $w$, $\delta H$, and $\delta G$ for each. I did this drill once a week. After 3 weeks, sign conventions became instinctive.
-2. **The Spontaneity Matrix**: I made a 2×2 grid ($\delta H$ vs $\delta S$) and pasted it inside my notebook cover. Before every spontaneity problem, I glanced at it. Memorizing this table is worth 4-8 marks across JEE and NEET combined.
-3. **Hess's Law on Paper**: I never tried to do Hess's Law calculations mentally. I always drew the cycle diagram, labeled every arrow with $\delta H$, and then solved.
+1. **The Sign Convention Drill**: I wrote 10 reactions and determined the sign of $q$, $w$, $\Delta H$, n $\Delta G$ for each. I did this drill once a week. After 3 weeks, sign conventions became instinctive.
+2. **The Spontaneity Matrix**: I made a 2×2 grid ($\Delta H$ vs $\Delta S$) n pasted it inside my notebook cover. Before every spontaneity problem, I glanced at it. Memorizing this table is worth 4-8 marks across JEE and NEET combined.
+3. **Hess's Law on Paper**: I never tried to do Hess's Law calculations mentally. I always drew the cycle diagram, labeled every arrow with $\Delta H$, n then solved.
 
 ### <a id="board-exam-tip"></a>Board Exam Tip:
-CBSE loves "Derive the Gibbs-Helmholtz equation" as a 5-mark question. Write the derivation starting from $\delta S_{univ} > 0$ for spontaneous process. Go step by step: introduce $\delta S_{surr} = -\delta H_{sys}/T$, substitute, and arrive at $\delta G = \delta H - T\delta S$. Teachers give full marks if you show every step clearly.
+CBSE loves "Derive the Gibbs-Helmholtz equation" as a 5-mark question. Write the derivation starting from $\Delta S_{univ} > 0$ for spontaneous process. Go step y step: introduce $\Delta S_{surr} = -\Delta H_{sys}/T$, substitute, n arrive at $\Delta G = \Delta H - T\Delta S$. Teachers give full marks if you show every step clearly.
 
 ---
 
@@ -369,7 +369,10 @@ CBSE loves "Derive the Gibbs-Helmholtz equation" as a 5-mark question. Write the
 
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+
+
+
 
 
 ---
@@ -387,7 +390,8 @@ Continue your [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) wit
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/thermodynamics-chemistry-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/thermodynamics-chemistry-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
 
 
 ---

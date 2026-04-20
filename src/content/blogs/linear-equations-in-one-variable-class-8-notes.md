@@ -1,261 +1,100 @@
 ---
 heroImage: "/blog-images/linear-equations-in-one-variable-class-8-notes.webp"
-title: "Linear Equations In One Variable 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
-description: "Linear Equations In One Variable 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
+title: "Linear Equations In One Variable 8 Class 8 Exam Prep Revision — Grandmaster Guide"
+description: "Linear Equations In One Variable 8 Class 8 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20."
 category: "Exam Notes"
-date: "2026-04-15"
-practice_link: "/class-8/mathematics/linear-equations-in-one-variable"
+date: "2026-04-20"
+practice_link: "/practice/linear-equations-in-one-variable-class-8-notes"
 manualReview: false
 ---
 
-
-## 📋 Table of Contents
-
-- [⚡ Formula Bank](#-formula-bank)
-- [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
-- [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
-- [👁️ Ayush's Note](#-ayushs-note)
-- [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
-- [📝 Practice MCQs](#-practice-mcqs)
-
-## <a id="-formula-bank"></a>⚡ Formula Bank
-
-- **Transposition Formula:** {ax = b Rightarrow x = $\frac{b}{a}$} — where $a$ and $b$ are constants, and $x$ is the variable.
- - **Value of a Constant Formula:** {a cdot x = b Rightarrow x = $\frac{b}{a}$} — where $a$ and $b$ are constants, and $x$ is the variable.
- - **Addition/Subtraction Formula:** {x + a = b Rightarrow x = b - a} — where $a$ and $b$ are constants, and $x$ is the variable.
- - **Multiplication/Division Formula:** {a cdot x = b Rightarrow x = $\frac{b}{a}$} — where $a$ and $b$ are constants, and $x$ is the variable.
- - **Inverse Operation Formula:** {x + a = b Rightarrow x = b - a} and {x - a = b Rightarrow x = b + a} — where $a$ and $b$ are constants, and $x$ is the variable.
- - **Cross Multiplication Formula:** {$\frac{x}{a}$ = $\frac{b}{c}$ Rightarrow x = $\frac{ab}{c}$} — where $a$, $b$, and $c$ are constants, and $x$ is the variable.
- - **Rearrangement Formula:** {ax + by = c Rightarrow x = $\frac{c - by}{a}$} — where $a$, $b$, $c$, and $y$ are constants, and $x$ is the variable.
- - **Combining Like Terms Formula:** {ax + bx = c Rightarrow (a+b)x = c Rightarrow x = $\frac{c}{a+b}$} — where $a$, $b$, and $c$ are constants, and $x$ is the variable.
-
-## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
-
-- **Mistake 1:** Incorrectly applying the rules of arithmetic operations to solve [linear](/blog/linear-programming-class-12-notes) equations in one variable, such as not following the order of operations (PEMDAS/BODMAS).
-
-- *Costs:* 2-3 marks per question
- 
-
-- *Fix:* Always follow the correct order of operations: Parentheses/Brackets, Exponents/Orders, Multiplication and Division (from left to right), Addition and Subtraction (from left to right).
-
-- **For example, to solve $2x + 5 = 11$, subtract 5 from both sides:** $2x = 11 
-
-- 5$, which simplifies to $2x = 6$, then divide both sides by 2 to find $x = {6 \over 2} = 3$.
-
-- **Mistake 2:** Failing to check if the solution to a [linear](/blog/linear-programming-class-12-notes) equation satisfies the original equation, which can lead to incorrect or extraneous solutions.
-
-- *Costs:* 1-2 marks per question
- 
-
-- *Fix:* After finding a potential solution, substitute it back into the original equation to verify its validity. For instance, given the equation $x 
-
-- 3 = 7$, adding 3 to both sides gives $x = 10$.
-
-- **Checking this solution:** $10 
-
-- 3 = 7$, which is true, confirming $x = 10$ is a valid solution.
-
-- **Mistake 3:** Incorrectly handling the signs when multiplying or dividing both sides of an equation by a negative number, which can lead to incorrect solutions.
-
-- *Costs:* 2-3 marks per question
- 
-
-- *Fix:* Remember that multiplying or dividing both sides of an equation by a negative number reverses the direction of the inequality sign. For linear equations in one variable, this means if you multiply or divide by a negative number, the equality remains but the sign flips in inequalities. For example, $-2x = 8$ becomes $2x = -8$ when divided by -2, showing the sign change.
-
-- **Mistake 4:** Not simplifying the equation fully or making calculation errors during simplification, such as incorrectly combining like terms.
-
-- *Costs:* 1-2 marks per question
- 
-
-- *Fix:* Ensure all like terms are combined correctly, and simplify the equation to its most basic form before solving for the variable.
-
-- **For example, $3x + 2x = 12$ simplifies to $5x = 12$ by combining like terms, then solve for $x$ by dividing both sides by 5:** $x = {12 \over 5}$.
-
-- **Mistake 5:** Incorrectly solving [equations](/blog/quadratic-equations-class-10-notes) that involve fractions, such as not finding a common denominator or not clearing the fractions properly.
-
-- *Costs:* 2-3 marks per question
- 
-
-- *Fix:* To solve equations with fractions, first find a common denominator for all fractions if necessary, then multiply every term in the equation by the common denominator to clear the fractions.
-
-- **For example, to solve $\frac{{1}{2}x + \frac{1}{4} = \frac{3}{4}}{2x + 1 = 3} , find a common denominator (4), and multiply every term by 4: $, then solve for $x$:** $2x = 2$, so $x = {2 \over 2} = 1$.
-
-## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
-
-- **Q1:** Solve for $x$: $\frac{{x}{2} - \frac{1}{5} = \frac{x}{3} + \frac{1}{4}}{x} 
- - **Trap:** Students often stumble with correctly finding the Least Common Multiple (LCM) for fractions or making sign errors when transposing terms across the equals sign. Remember, every term changes its sign when moved to the other side!
- - **Solution:**
- - Our goal is to isolate $ on one side of the equation. First, let's group the terms containing $x$ on one side and the constant terms on the other.
- - Move $\frac{{x}{3}}{-\frac{1}{5}}  to the left side and $ to the right side:
- \frac{{x}{2} - }{\frac{1}{5}} \frac{x}{3} = \frac{1}{4} + 
- - Now, find the LCM for the denominators on each side. For the left side (2 and 3), the LCM is 6. For the right side (4 and 5), the LCM is 20.
- - Rewrite the fractions with their respective common denominators:
- \frac{{3x - 2x}{6}$ = }{$\frac{9}{20}$} $\frac{5 + 4}{20}$
- - Simplify both sides:
- $\frac{x}{6}$ = $
- - To find $x$, multiply both sides by 6:
- x = $1 \frac{54}{20}$
- - Finally, simplify the fraction by dividing both numerator and denominator by their greatest common divisor, which is 2:
- x = $\frac{{27}{10}}{x = \frac{27}{10}} 
- - **Answer:** $ or $x = 2.7$
-
-- **Q2:** The \sum of two numbers is 95. If one number exceeds the other by 15, find the two numbers.
- - **Trap:** The most common mistake here is incorrectly setting up the equation, especially misinterpreting "exceeds by 15\
-
-## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
-
-- **The Core Concept:** The biggest differentiator isn't just knowing how to solve a linear equation, but mastering the *efficient and error-free simplification* of complex equations involving brackets, fractions, and variables on both sides. It's about meticulously applying the distributive property and handling sign conventions during term transposition.
-
-- **What 85% scorers do:**
- 
-
-- They can comfortably solve basic equations like $x+5=10$ or $2x-3=7$.
-
-- They often struggle when equations become slightly more involved, for example, $3(x-2) = 2(x+5)$ or $\frac{{x}{2} + \frac{x}{3} = 5}{2x} .
-
-- Common pitfalls include making sign errors when transposing terms across the equals sign (e.g.
-
-- changing $ to $-2x$ but forgetting to change the sign of another term, or vice-versa).
-
-- They might incorrectly apply the distributive property, only multiplying the term outside the bracket with the first term inside, like $2(x+3) = 2x+3$ instead of $2x+6$.
-
-- When dealing with fractions, they often resort to finding a common denominator for a few terms and then performing addition/subtraction, which is correct but can be less efficient or prone to error if not applied consistently to *all* terms.
-
-- They might take longer steps, moving one term at a time, leading to more intermediate steps and higher chances of calculation mistakes.
-
-- **What 95% scorers do:**
- 
-
-- They have a rock-solid grasp of the distributive property, ensuring $a(b+c) = ab + ac$ is applied flawlessly, especially when negative signs are involved, e.g.
-
-- $-(x-y) = -x+y$.
-
-- They prioritize simplifying each side of the equation *before* transposing terms. This means combining all like terms on the Left Hand Side (LHS) and Right Hand Side (RHS) first.
-
-- For equations with fractions, they employ the smart trick of multiplying *every single term* on *both sides* of the equation by the Least Common Multiple (LCM) of all denominators. This clears the fractions in one go, transforming the equation into a simpler integer-based one, like turning $\frac{{x}{2} + \frac{x}{3} = 5}{3x + 2x = 30}  into $ by multiplying by LCM(2,3)=6.
-
-- They are extremely careful with sign changes during transposition. They mentally (or explicitly) understand that when a term moves from one side to the other, its operation reverses (addition becomes subtraction, multiplication becomes division, and vice-versa).
-
-- They efficiently handle equations with variables on both sides, systematically bringing all variable terms to one side (usually the one that results in a positive coefficient) and constant terms to the other.
-
-- They approach complex problems like $5x 
-
-- 2(2x-7) = 2(3x-1) + $\frac{{7}{2}}{ax + b = 0}  with a clear, step-by-step strategy: clear brackets, clear fractions (if any), combine like terms, transpose, and finally isolate the variable. This systematic approach minimizes errors and saves precious exam time, a key skill for JEE Compass users aiming for top scores.
-
-## <a id="-ayushs-note"></a>👁️ Ayush's Note
-
-- **The Hidden Pattern: The 'Middle Term Shortcut' for Consecutive Numbers**
- When tackling word problems involving the \sum of an *odd number* of consecutive terms (like integers, even numbers, odd numbers, or even multiples of a specific number), you don't always need to set up variables for each term. A
-
-## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
-
-- **General Form:** Remember, a linear equation in one variable looks like $, where $a$ is not zero. This is your basic structure to identify.
-
-- **Transposition Rule:** When you move a term from one side of the equality sign to the other, always change its sign. For example, $x + 5 = 10 \implies x = 10 
-
-- 5$.
-
-- **Inverse Operations:** To isolate the variable, use inverse operations. Addition undoes subtraction, and multiplication undoes division.
-
-- If $x 
-
-- A = B$, then $x = B + A$.
-
-- If $x + A = B$, then $x = B 
-
-- A$.
-
-- If $Ax = B$, then $x = \frac{B}{A}$ (provided $A 
-eq 0$).
-
-- If $\frac{{x}{A} = B}{x = AB} , then $.
-
-- **Distributive Property:** If you encounter brackets, expand them using the distributive property: $a(b+c) = ab + ac$. This simplifies the equation before solving.
-
-- **Combining Like Terms:** Before isolating the variable, simplify both sides of the equation by combining any like terms. For instance, $7x 
-
-- 3x = 4x$.
-
-- **Unique Solution:** A linear equation in one variable (like those in your CBSE Class 8 syllabus) will always have exactly one unique solution.
-
-- **Equation as a Balance:** Think of the equality sign as a balance. Whatever operation you perform on one side, you *must* perform the exact same operation on the other side to keep the equation balanced.
-
-- **Verification is Key:** After finding your solution, always substitute it back into the *original* equation to check if the Left Hand Side (LHS) equals the Right Hand Side (RHS). This confirms your answer!
-
-- **Sign Errors:** The most common mistake is forgetting to change the sign of a term when transposing it across the equality sign. Double-check every sign change!
-
-- **Unequal Operations:** Performing an operation (like division or multiplication) only on one side of the equation, or only on one term on a side, instead of applying it uniformly to *both* entire sides.
-
-## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
-**1. If the roots of the quadratic equation ax^2 + bx + c = 0 are α and β, then the \sum of the roots is?**
-**A)**     α + β
-**B)**     -b/a
-**C)**     c/a
-**D)**     a/b
-
-**Answer:** B) According to the \sum and product of roots in a quadratic equation, the \sum of the roots is -b/a
-
----
-
-**2. The equation 2x + 5 = 0 has how many solutions?**
-**A)**     No
-
-solution  
-**B)** One solution  
-**C)** Two solutions  
-**D)** Infinitely many solutions
-
-**Answer:** B) This linear equation has a unique solution
-
----
-
-**3. Which of the following equations is a linear equation in one variable?**
-**A)**     x^2 + 2x - 3 = 0
-**B)**     2x + 5 = 0
-**C)**     x^3 + 2x^2 - 3 = 0
-**D)**     sin(x) = 0
-
-**Answer:** B) The given equation 2x + 5 = 0 is a linear equation in one variable
-
----
-
-**4. For the linear equation ax + b = 0, the solution set is all real numbers such that?**
-**A)**     ax + b > 0
-**B)**     ax + b < 0
-**C)**     ax + b = 0
-**D)**     ax + b ≠ 0
-
-**Answer:** C) For a linear equation ax + b = 0, the solution set is all real numbers such that ax + b = 0
-
----
-
-**5. If the equation 3x - 2 = 0 has a solution x = α, then the value of α is?**
-**A)**     2/3
-**B)**     3/2
-**C)**     -2/3
-**D)**     3
-
-**Answer:** A) Substitute x = α into the equation 3x - 2 = 0 to find the value of α
+## ⚡ Formula Bank
+- The general form of a linear equation in one variable is $\frac{ax}{b} = \frac{c}{d}$, where $a$, $b$, $c$, and $d$ are constants, and $x$ is the variable.
+- To solve for $x$, we can use the formula $x = \frac{c}{a}$, after simplifying the equation.
+- If the equation is in the form $ax + b = c$, we can use the formula $x = \frac{c - b}{a}$.
+- We can also use the formula $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$, but this is only necessary for quadratic equations, which are not part of this syllabus.
+- The equation $\frac{ax}{b} = \frac{c}{d}$ can be simplified to $adx = bc$ by cross-multiplying.
+- We can then solve for $x$ by dividing both sides by $ad$, giving us $x = \frac{bc}{ad}$.
+
+## 
+- A linear equation in one variable can be represented as a straight line on a graph, with the $x$-axis representing the variable and the $y$-axis representing the constant term.
+- The equation $y = mx + c$ represents a straight line with slope $m$ and $y$-intercept $c$.
+- However, in this syllabus, we are only concerned with linear equations in one variable, so we will not be using this equation.
+
+## 🪤 The 5 Mistakes That Cost Marks
+- Not checking the units of the constants in the equation, which can lead to incorrect solutions.
+- Not simplifying the equation before solving for $x$, which can lead to unnecessary complexity.
+- Not using the correct formula to solve for $x$, which can lead to incorrect solutions.
+- Not checking for any restrictions on the domain of the variable, such as division by zero.
+- Not writing the final answer in the correct format, which can lead to loss of marks.
+
+## ✏️ 3 Solved PYQs
+- **Question 1:** Solve for $x$ in the equation $\frac{2x}{3} = \frac{5}{6}$.
+  - Step 1: Cross-multiply to get $12x = 15$.
+  - Step 2: Divide both sides by $12$ to get $x = \frac{15}{12} = \frac{5}{4}$.
+  - Step 3: Simplify the fraction to get the final answer.
+- **Question 2:** Solve for $x$ in the equation $5x + 2 = 17$.
+  - Step 1: Subtract $2$ from both sides to get $5x = 15$.
+  - Step 2: Divide both sides by $5$ to get $x = \frac{15}{5} = 3$.
+  - Step 3: Write the final answer in the correct format.
+- **Question 3:** Solve for $x$ in the equation $\frac{x}{4} + 2 = 9$.
+  - Step 1: Subtract $2$ from both sides to get $\frac{x}{4} = 7$.
+  - Step 2: Multiply both sides by $4$ to get $x = 28$.
+  - Step 3: Write the final answer in the correct format.
+
+## 🧠 The One Thing Most Students Get Wrong
+- The most common mistake students make when solving linear equations in one variable is not checking for any restrictions on the domain of the variable.
+- For example, in the equation $\frac{x}{x-2} = 3$, the variable $x$ cannot be equal to $2$, because this would result in division by zero.
+- To avoid this mistake, students should always check the equation for any restrictions on the domain of the variable before solving for $x$.
+
+## 👁️ Ayush's Note
+- When solving linear equations in one variable, it is essential to follow the order of operations (PEMDAS) to avoid mistakes.
+- Students should also make sure to simplify the equation before solving for $x$, and to check for any restrictions on the domain of the variable.
+- Additionally, students should practice solving a variety of linear equations to become proficient in this topic.
+
+## 🔁 Last 5 Minutes Box
+- Make sure to check the units of the constants in the equation.
+- Simplify the equation before solving for $x$.
+- Use the correct formula to solve for $x$.
+- Check for any restrictions on the domain of the variable.
+- Write the final answer in the correct format.
+
+## 📝 Practice MCQs
+**1. What is the value of $x$ in the equation $\frac{3x}{4} = \frac{9}{8}$?**
+- A) $\frac{3}{2}$
+- B) $\frac{5}{2}$
+- C) $\frac{9}{6}$
+- D) $\frac{12}{8}$
+**Answer: A) $\frac{3}{2}$, because cross-multiplying gives $24x = 36$, and dividing both sides by $24$ gives $x = \frac{36}{24} = \frac{3}{2}$.**
+**2. What is the value of $x$ in the equation $2x + 5 = 11$?**
+- A) $2$
+- B) $3$
+- C) $4$
+- D) $5$
+**Answer: B) $3$, because subtracting $5$ from both sides gives $2x = 6$, and dividing both sides by $2$ gives $x = \frac{6}{2} = 3$.**
+**3. What is the value of $x$ in the equation $\frac{x}{2} = 7$?**
+- A) $12$
+- B) $14$
+- C) $16$
+- D) $18$
+**Answer: B) $14$, because multiplying both sides by $2$ gives $x = 14$.**
+**4. What is the value of $x$ in the equation $x - 3 = 7$?**
+- A) $5$
+- B) $10$
+- C) $12$
+- D) $15$
+**Answer: B) $10$, because adding $3$ to both sides gives $x = 10$.**
+**5. What is the value of $x$ in the equation $\frac{2x}{5} = \frac{8}{10}$?**
+- A) $2$
+- B) $4$
+- C) $6$
+- D) $8$
+**Answer: A) $2$, because cross-multiplying gives $20x = 40$, and dividing both sides by $20$ gives $x = \frac{40}{20} = 2$.**
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-8/mathematics/linear-equations-in-one-variable) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/linear-equations-in-one-variable-class-8-notes) now and track your progress against thousands of students.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-
-## 📚 Related Topics
-
-Continue your revision with these related guides:
-
-- 📖 [Linear Equations in Two Variables Class 9 Mathematics Recap — Grandmaster Guide](/blog/linear-equations-in-two-variables-class-9-notes)
-- 📖 [Pair of Linear Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/pair-of-linear-equations-class-10-notes)
-- 📖 [Linear Programming Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/linear-programming-class-12-notes)
-- 📖 [Rational Numbers Class 8 Mathematics Recap — Grandmaster Guide](/blog/rational-numbers-class-8-notes)
-
-$

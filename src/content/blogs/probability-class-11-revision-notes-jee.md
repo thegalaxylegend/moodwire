@@ -16,9 +16,9 @@ practice_link: "/class-11/mathematics/probability-class-11-revision-notes-jee"
 
 - [What is Probability Revision Notes?](#what-is-probability-revision-notes)
 - [Introduction](#introduction)
-- [1. Random Experiments and Sample Space](#1-random-experiments-and-sample-space)
+- [1. Random Experiments and Sample Space](#1-random-experiments-n-sample-space)
   - [Sample Space (S):](#sample-space-s)
-- [2. Events and Their Types](#2-events-and-their-types)
+- [2. Events and Their Types](#2-events-n-their-types)
   - [Types of Events:](#types-of-events)
 - [3. Relationships Between Events](#3-relationships-between-events)
 - [4. Axiomatic Approach to Probability](#4-axiomatic-approach-to-probability)
@@ -47,7 +47,7 @@ practice_link: "/class-11/mathematics/probability-class-11-revision-notes-jee"
 > - **Event (E):** A subset of the sample space.
 > - **Mutually Exclusive:** $A \cap B = \phi$ (cannot happen together).
 > - **Exhaustive Events:** $A \cup B = S$ (at least one must happen).
-> - **Axiomatic Probability:** $0 \leq P(E) \leq 1$ and $P(S) = 1$.
+> - **Axiomatic Probability:** $0 \leq P(E) \leq 1$ n $P(S) = 1$.
 > - **Addition Rule:** $P(A \cup B) = P(A) + P(B) - P(A \cap B)$.
 > [**📥 Download 1-Page Short Notes PDF (Zero-Friction)**](#)
 
@@ -56,7 +56,7 @@ practice_link: "/class-11/mathematics/probability-class-11-revision-notes-jee"
 
 ## <a id="introduction"></a>Introduction
 
-**Probability is the mathematical measurement of uncertainty, providing the framework for analyzing random experiments and events. Master the Axiomatic Approach, Sample Spaces, and the Addition Rule of sets to excel in advanced statistical modeling and Bayes' Theorem. This [class](/blog/conic-sections-class-11-revision-notes-jee) 11 Math Chapter 16 guide ensures you have all the essential foundations for JEE and CBSE exams.**
+**Probability is the mathematical measurement of uncertainty, providing the framework for analyzing random experiments and events. Master the Axiomatic Approach, Sample Spaces, n the Addition Rule of sets to excel and advanced statistical modeling and Bayes' Theorem. This [class](/blog/conic-sections-class-11-revision-notes-jee) 11 Math Chapter 16 guide ensures you have all the essential foundations for JEE and CBSE exams.**
 Probability is the [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) way of measuring uncertainty.
 
 ---
@@ -64,7 +64,7 @@ Probability is the [mathematical](/blog/mathematical-induction-class-11-revision
 
 
 
-## <a id="1-random-experiments-and-sample-space"></a>1. Random Experiments and Sample Space
+## <a id="1-random-experiments-n-sample-space"></a>1. Random Experiments and Sample Space
 
 A **Random Experiment** is one where the outome cannot be predicted with certainty, even if the possible outcomes are known.
 
@@ -81,7 +81,7 @@ The set of all possible outcomes.
 
 
 
-## <a id="2-events-and-their-types"></a>2. Events and Their Types
+## <a id="2-events-n-their-types"></a>2. Events and Their Types
 
 An **Event** is simply a subset of the sample space.
 
@@ -101,7 +101,7 @@ An **Event** is simply a subset of the sample space.
 
 This is where set theory from Chapter 1 meets Probability.
 
-1.  **Mutually Exclusive Events:** Events $A$ and $B$ are mutually exclusive if they cannot occur at the same time. Mathematically, **$A \cap B = \phi$**.
+1.  **Mutually Exclusive Events:** Events $A$ n $B$ are mutually exclusive if they cannot occur at the same time. Mathematically, **$A \cap B = \phi$**.
 2.  **Exhaustive Events:** Events $E_1, E_2, \dots, E_n$ are exhaustive if their union equals the sample space. Mathematically, **$E_1 \cup E_2 \cup \dots \cup E_n = S$**.
 3.  **Mutually Exclusive and Exhaustive:** If both conditions are met, the probabilities of these events \sum to exactly 1.
 
@@ -115,7 +115,7 @@ This is where set theory from Chapter 1 meets Probability.
 Instead of just counting outcomes, we assign a number $P(E)$ to an event $E$ that satisfies:
 1.  $P(E) \geq 0$ (Probabilities are never negative).
 2.  $P(S) = 1$ (The sure event has 100% probability).
-3.  If $A$ and $B$ are mutually exclusive, $P(A \cup B) = P(A) + P(B)$.
+3.  If $A$ n $B$ are mutually exclusive, $P(A \cup B) = P(A) + P(B)$.
 
 ### <a id="fundamental-formulas"></a>Fundamental Formulas:
 - **$P(A \text{ or } B) = P(A \cup B) = P(A) + P(B) - P(A \cap B)$**
@@ -136,14 +136,14 @@ Instead of just counting outcomes, we assign a number $P(E)$ to an event $E$ tha
 - $n(E) = 6$.
 - $P(E) = 6/36 = \mathbf{1/6}$.
 
-**Q2: Are 'getting an odd number' and 'getting a number > 3' mutually exclusive on a single die roll?**
+**Q2: Are 'getting an odd number' n 'getting a number > 3' mutually exclusive on a single die roll?**
 **Answer:**
 - $A$ (odd) = {1, 3, 5}.
 - $B$ (>3) = {4, 5, 6}.
 - $A \cap B = \{5\}$.
 - Since the intersection is not empty, they are **NOT** mutually exclusive.
 
-**Q3: If $P(A) = 0.5$ and $P(B) = 0.3$, what is $P(A \cup B)$ if $A$ and $B$ are mutually exclusive?**
+**Q3: If $P(A) = 0.5$ n $P(B) = 0.3$, what is $P(A \cup B)$ if $A$ n $B$ are mutually exclusive?**
 **Answer:**
 - For mutually exclusive events, $P(A \cap B) = 0$.
 - $P(A \cup B) = P(A) + P(B) = 0.5 + 0.3 = \mathbf{0.8}$.
@@ -156,20 +156,23 @@ Instead of just counting outcomes, we assign a number $P(E)$ to an event $E$ tha
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 15: Statistics**
-- **Chapter 7: [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) and Combinations**
-- [**External Reference:** [NCERT Class 11 Math Chapter 16](https://ncert.nic.in/textbook.php?kemh1=16-16) (Authoritative Source)]
+- **Chapter 7: [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) n Combinations**
+- [**External Reference:** [NCERT Class 11 Math Chapter 16](https://ncert.nic.n/textbook.php?kemh1=16-16) (Authoritative Source)]
 
 
 
 
 ## <a id="conclusion"></a>Conclusion
 
-Probability teaches us to look at the world through the lens of logic rather than luck. By mastering the relationships between events and the addition rule, you lay the foundation for advanced statistical modeling and decision-making. Whether you're calculating the odds in a game or analyzing scientific data, these axioms remain your best guide!
+Probability teaches us to look at the world through the lens of logic rather than luck. By mastering the relationships between events and the addition rule, you lay the foundation for advanced statistical modeling and decision-making. Whether you're calculating the odds and a game or analyzing scientific data, these axioms remain your best guide!
 
 ---
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+
+
+
 
 
 ---
@@ -187,7 +190,8 @@ Continue your [revision](/blog/binomial-theorem-class-11-revision-notes-jee) wit
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/probability-class-11-revision-notes-jee) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/probability-class-11-revision-notes-jee) now and track your progress against thousands of students.
+
 
 
 ---

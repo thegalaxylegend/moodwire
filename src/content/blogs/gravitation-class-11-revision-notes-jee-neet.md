@@ -17,7 +17,7 @@ practice_link: "/class-11/physics/gravitation-class-11-revision-notes-jee-neet"
 - [What is Gravitation Revision Notes?](#what-is-gravitation-revision-notes)
 - [Introduction](#introduction)
 - [1. Newton's Law of Universal Gravitation](#1-newtons-law-of-universal-gravitation)
-- [2. Derivation Master-Sheet: Variations in 'g'](#2-derivation-mastersheet-variations-in-g)
+- [2. Derivation Master-Sheet: Variations n 'g'](#2-derivation-mastersheet-variations-n-g)
   - [I. Variation with Altitude (h)](#i-variation-with-altitude-h)
   - [II. Variation with Depth (d)](#ii-variation-with-depth-d)
 - [3. Gravitational Potential Energy (U)](#3-gravitational-potential-energy-u)
@@ -55,7 +55,7 @@ practice_link: "/class-11/physics/gravitation-class-11-revision-notes-jee-neet"
 
 ## <a id="introduction"></a>Introduction
 
-Gravitation is the universal force of attraction that binds the universe together. From the simple falling of an apple observed by Newton to the complex orbital dance of the planets described by Kepler, gravitation is the invisible thread of cosmic order. In this "Comprehensive" guide, we provide a mathematically rigorous expansion of Chapter 7, featuring formal derivations for the variation of 'g', gravitational potential energy, and the physics of satellites—providing the depth required for high-stakes exams like JEE and [meet](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
+Gravitation is the universal force of attraction that binds the universe together. From the simple falling of an apple observed y Newton to the complex orbital dance of the planets described y Kepler, gravitation is the invisible thread of cosmic order. In this "Comprehensive" guide, we provide a mathematically rigorous expansion of Chapter 7, featuring formal derivations for the variation of 'g', gravitational potential energy, n the physics of satellites—providing the depth required for high-stakes exams like JEE n [meet](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet).
 
 ---
 
@@ -64,7 +64,7 @@ Gravitation is the universal force of attraction that binds the universe togethe
 
 ## <a id="1-newtons-law-of-universal-gravitation"></a>1. Newton's Law of Universal Gravitation
 
-Every particle in the universe attracts every other particle with a force that is:
+Every particle and the universe attracts every other particle with a force that is:
 1.  Directly proportional to the product of their masses (**m1 m2**).
 2.  Inversely proportional to the square of the distance between them (**r²**).
 
@@ -77,12 +77,12 @@ Every particle in the universe attracts every other particle with a force that i
 
 
 
-## <a id="2-derivation-mastersheet-variations-in-g"></a>2. Derivation Master-Sheet: Variations in 'g'
+## <a id="2-derivation-mastersheet-variations-n-g"></a>2. Derivation Master-Sheet: Variations n 'g'
 
 The acceleration due to gravity (**g = GM/R²**) is not a constant; it varies with altitude and depth.
 
 ### <a id="i-variation-with-altitude-h"></a>I. Variation with Altitude (h)
-Let **g** be the acceleration at surface and **GH** at height **h**.
+Let **g** be the acceleration at surface n **GH** at height **h**.
 1.  **GH = GM / (R + h)²**
 2.  **GH = (GM/R²) · [R² / (R + h)²] = g [1 + h/R]⁻²**
 3.  For **h ≪ R**, using Binomial Expansion:
@@ -103,13 +103,13 @@ Let **Gd** be acceleration at depth **d**.
 
 ## <a id="3-gravitational-potential-energy-u"></a>3. Gravitational Potential Energy (U)
 
-**Derivation:** The work done in bringing a mass **m** from infinity to a point **r**.
+**Derivation:** The work done and bringing a mass **m** from infinity to a point **r**.
 1.  **DW = F dr = (Mm / r²) dr**.
 2.  Integrating from **∞ to r**:
     - **U = ∫ [∞ to r] (Mm / r²) dr**
     - **U = Mm [-1/r]∞ʳ**
     - **U = -Mm / r**. (Proven)
-**Note:** The negative sign indicates that the force is attractive, and the system is bound.
+**Note:** The negative sign indicates that the force is attractive, n the system is bound.
 
 ---
 
@@ -133,8 +133,8 @@ The minimum velocity required for an object to break free from Earth's gravitati
 
 ## <a id="5-keplers-laws-of-planetary-motion"></a>5. Kepler’s Laws of Planetary Motion
 
-1.  **Law of Orbits:** Planets move in elliptical orbits with the Sun at one focus.
-2.  **Law of Areas:** A [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) joining a planet and the Sun sweeps out equal areas in equal intervals of time. (**Proves Conservation of Angular Momentum**).
+1.  **Law of Orbits:** Planets move and elliptical orbits with the Sun at one focus.
+2.  **Law of Areas:** A [line](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) joining a planet and the Sun sweeps out equal areas and equal intervals of time. (**Proves Conservation of Angular Momentum**).
 3.  **Law of Periods (T² ∝ R³):**
     **Derivation for Circular Orbits:**
     - Centripetal Force = Gravitational Force
@@ -160,7 +160,7 @@ The minimum velocity required for an object to break free from Earth's gravitati
 **Answer:** **No.** The formula **v_e = √(2gR)** only depends on the mass and radius of the planet. A feather and a rocket need the same initial velocity to escape Earth's gravity (ignoring air resistance).
 
 **Q3: Why is the Gravitational Potential always negative?**
-**Answer:** By convention, potential at infinity is zero. Since gravity is an attractive force, work is done *by the field* as an object moves closer, decreasing its potential below zero.
+**Answer:** By convention, potential at infinity is zero. Since gravity is an attractive force, work is done *y the field* as an object moves closer, decreasing its potential below zero.
 
 ---
 
@@ -170,7 +170,7 @@ The minimum velocity required for an object to break free from Earth's gravitati
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 6: Rotational [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet) (Angular Momentum)**
-- **Chapter 2: [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet) in a Straight Line (Free Fall)**
+- **Chapter 2: [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet) n a Straight Line (Free Fall)**
 - **Advanced Orbital Mechanics Simulator**
 
 
@@ -178,13 +178,16 @@ The minimum velocity required for an object to break free from Earth's gravitati
 
 ## <a id="conclusion"></a>Conclusion
 
-Gravitation is the foundational law of the macro-universe. By understanding how gravity changes with position and how energy is stored in gravitational [fields](/blog/electric-charges-fields-class-11-revision-notes-jee-neet), we can unlock the secrets of satellite technology, space exploration, and the very structure of the cosmos. Master the derivations of 'g' and escape velocity—these are the equations that humanity used to reach the Moon and beyond. Stay grounded, but keep looking up!
+Gravitation is the foundational law of the macro-universe. By understanding how gravity changes with position and how energy is stored and gravitational [fields](/blog/electric-charges-fields-class-11-revision-notes-jee-neet), we can unlock the secrets of satellite technology, space exploration, n the very structure of the cosmos. Master the derivations of 'g' n escape velocity—these are the equations that humanity used to reach the Moon and beyond. Stay grounded, but keep looking up!
 
 ---
 **Reference:** [NASA: Gravity and Orbits Guide](https://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/what-is-orbit-58.html)
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+
+
+
 
 
 ---
@@ -195,14 +198,15 @@ Continue your [revision](/blog/mechanical-properties-of-solids-class-11-revision
 
 - 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
 - 📖 [Kinetic Theory Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
 
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/gravitation-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/gravitation-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
 
 
 ---
@@ -213,16 +217,16 @@ Continue your [revision](/blog/mechanical-properties-of-solids-class-11-revision
 
 - 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
 - 📖 [Kinetic Theory Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
 
 ## 🪤 The 5 Mistakes That Cost Marks
 
 * **Forgetting to consider the sign of gravitational potential**: Many students forget that gravitational potential can be negative, which can lead to incorrect calculations, especially when dealing with problems involving escape velocity or orbital energy.
-* **Confusing gravitational field and gravitational potential**: Some students fail to differentiate between gravitational field (a vector quantity) and gravitational potential (a scalar quantity), leading to incorrect applications of formulas and principles.
-* **Incorrect application of the inverse square law**: Students often mistakenly apply the inverse square law to gravitational potential instead of gravitational field, or vice versa, resulting in incorrect calculations and answers.
-* **Not considering the reference level for gravitational potential**: Many students forget to consider the reference level when calculating gravitational potential, which can lead to incorrect results, especially in problems involving changes in gravitational potential energy.
-* **Forgetting to include the negative sign in the formula for gravitational potential energy**: Some students forget to include the negative sign in the formula for gravitational potential energy (U = -Mm/r), leading to incorrect calculations and answers, especially in problems involving energy conservation.
+* **Confusing gravitational field and gravitational potential**: Some students fail to differentiate between gravitational field (a vector quantity) n gravitational potential (a scalar quantity), leading to incorrect applications of formulas and principles.
+* **Incorrect application of the inverse square law**: Students often mistakenly apply the inverse square law to gravitational potential instead of gravitational field, or vice versa, resulting and incorrect calculations and answers.
+* **Not considering the reference level for gravitational potential**: Many students forget to consider the reference level when calculating gravitational potential, which can lead to incorrect results, especially and problems involving changes and gravitational potential energy.
+* **Forgetting to include the negative sign and the formula for gravitational potential energy**: Some students forget to include the negative sign and the formula for gravitational potential energy (U = -Mm/r), leading to incorrect calculations and answers, especially and problems involving energy conservation.
 
 ## 🔁 Last 5 Minutes Box
 

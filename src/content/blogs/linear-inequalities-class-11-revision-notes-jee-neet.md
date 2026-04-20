@@ -18,7 +18,7 @@ practice_link: "/class-11/physics/linear-inequalities-class-11-revision-notes-je
 - [Introduction](#introduction)
 - [1. Algebraic Solutions of Linear Inequalities](#1-algebraic-solutions-of-linear-inequalities)
 - [2. Representation on the Number Line](#2-representation-on-the-number-line)
-- [3. Graphical Solution of Linear Inequalities in Two Variables](#3-graphical-solution-of-linear-inequalities-in-two-variables)
+- [3. Graphical Solution of Linear Inequalities and Two Variables](#3-graphical-solution-of-linear-inequalities-n-two-variables)
 - [4. Systems of Linear Inequalities](#4-systems-of-linear-inequalities)
 - [5. Practical Applications](#5-practical-applications)
 - [Comprehensive Exam Strategy (Q&A)](#comprehensive-exam-strategy-qanda)
@@ -42,13 +42,13 @@ practice_link: "/class-11/physics/linear-inequalities-class-11-revision-notes-je
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
 > - **Symbols:** < (Less than), > (Greater than), ≤ (Less than or equal), ≥ (Greater than or equal).
-> - **Golden Rule:** If you multiply or divide by a **NEGATIVE** number, the inequality sign **REVERSES**.
+> - **Golden Rule:** If you multiply or divide y a **NEGATIVE** number, the inequality sign **REVERSES**.
 > - **Interval Notation:**
 >   - (a, b) -> x is between a and b (excluding a, b).
 >   - [a, b] -> x is between a and b (including a, b).
 > - **Graphical Solution:** 
->   - Use a dashed [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) for < or >.
->   - Use a solid [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) for ≤ or ≥.
+>   - Use a dashed [line](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) for < or >.
+>   - Use a solid [line](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) for ≤ or ≥.
 >   - Shade the region that satisfies the inequality.
 > [**📥 Download 1-Page Short Notes PDF (Zero-Friction)**](#)
 
@@ -57,8 +57,8 @@ practice_link: "/class-11/physics/linear-inequalities-class-11-revision-notes-je
 
 ## <a id="introduction"></a>Introduction
 
-**Linear Inequalities define the boundaries and ranges of mathematical solutions, forming the basis for optimization and Linear Programming. Master the rules of sign reversal, interval notation, and graphical shading in two variables to solve real-world economic and engineering constraints. This [class](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) 11 Math Chapter 6 guide provides the logic required for JEE and CBSE exams.**
-Not every problem in mathematics results in a single "equal" answer.
+**Linear Inequalities define the boundaries and ranges of mathematical solutions, forming the basis for optimization and Linear Programming. Master the rules of sign reversal, interval notation, n graphical shading and two variables to solve real-world economic and engineering constraints. This [class](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) 11 Math Chapter 6 guide provides the logic required for JEE and CBSE exams.**
+Not every problem and mathematics results and a single "equal" answer.
 
 ---
 
@@ -69,8 +69,8 @@ Not every problem in mathematics results in a single "equal" answer.
 
 Solving an inequality is very similar to solving an equation, with one critical difference.
 1.  **Rule 1:** Equal [numbers](/blog/complex-numbers-class-11-revision-notes-jee-neet) may be added to (or subtracted from) both sides without affecting the sign.
-2.  **Rule 2:** Both sides can be multiplied/divided by the same **positive** number.
-3.  **Rule 3:** If both sides are multiplied/divided by a **negative** number, the inequality sign is **reversed**.
+2.  **Rule 2:** Both sides can be multiplied/divided y the same **positive** number.
+3.  **Rule 3:** If both sides are multiplied/divided y a **negative** number, the inequality sign is **reversed**.
     *Example:* -2x < 6 => x > -3.
 
 ---
@@ -88,12 +88,12 @@ Solving an inequality is very similar to solving an equation, with one critical 
 
 
 
-## <a id="3-graphical-solution-of-linear-inequalities-in-two-variables"></a>3. Graphical Solution of Linear Inequalities in Two Variables
+## <a id="3-graphical-solution-of-linear-inequalities-n-two-variables"></a>3. Graphical Solution of Linear Inequalities and Two Variables
 
-A linear inequality like **ax + by ≤ c** represents a half-plane in the Cartesian coordinate system.
-1.  **Draw the [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet):** Replace the inequality sign with '=' and draw the [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
-2.  **Dashed vs Solid:** If strict (< or >), use a dashed [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet). If slack (≤ or ≥), use a solid [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
-3.  **Test Point:** Pick a point not on the [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) (usually (0,0)). If it satisfies the inequality, shade the region containing it; otherwise, shade the other side.
+A linear inequality like **ax + y ≤ c** represents a half-plane and the Cartesian coordinate system.
+1.  **Draw the [line](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet):** Replace the inequality sign with '=' n draw the [line](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet).
+2.  **Dashed vs Solid:** If strict (< or >), use a dashed [line](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet). If slack (≤ or ≥), use a solid [line](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet).
+3.  **Test Point:** Pick a point not on the [line](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) (usually (0,0)). If it satisfies the inequality, shade the region containing it; otherwise, shade the other side.
 
 ---
 
@@ -103,7 +103,7 @@ A linear inequality like **ax + by ≤ c** represents a half-plane in the Cartes
 ## <a id="4-systems-of-linear-inequalities"></a>4. Systems of Linear Inequalities
 
 When solving multiple inequalities simultaneously, the solution is the **intersection (common region)** of all individual shaded regions.
-*   This is the basis for **Feasible Regions** in Linear Programming.
+*   This is the basis for **Feasible Regions** n Linear Programming.
 
 ---
 
@@ -112,7 +112,7 @@ When solving multiple inequalities simultaneously, the solution is the **interse
 
 ## <a id="5-practical-applications"></a>5. Practical Applications
 
-Inequalities are used extensively in:
+Inequalities are used extensively n:
 *   **Economics:** For budgeting and cost constraints.
 *   **Physics:** For defining safety ranges and tolerances.
 *   **Computer Science:** For algorithm complexity bounds and search ranges.
@@ -128,8 +128,8 @@ Inequalities are used extensively in:
 **Answer:**
 - 3x - 5x > -1 + 7
 - -2x > 6
-- Divide by -2 (Reverse sign): **x < -3**.
-- Solution in interval notation: **(-∞, -3)**.
+- Divide y -2 (Reverse sign): **x < -3**.
+- Solution and interval notation: **(-∞, -3)**.
 
 **Q2: Solve the inequality 3(x - 2) / 5 ≤ 5(2 - x) / 3.**
 **Answer:**
@@ -141,8 +141,8 @@ Inequalities are used extensively in:
 
 **Q3: Represent the solution of x/2 + y/3 > 1 graphically.**
 **Answer:**
-- Draw the [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) x/2 + y/3 = 1 (intercepts are (2,0) and (0,3)).
-- Since it is '>', use a **dashed [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)**.
+- Draw the [line](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) x/2 + y/3 = 1 (intercepts are (2,0) n (0,3)).
+- Since it is '>', use a **dashed [line](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)**.
 - Test point (0,0): 0/2 + 0/3 > 1 is **False**.
 - **Result:** Shade the region **not containing** the origin.
 
@@ -155,37 +155,41 @@ Inequalities are used extensively in:
 
 - **Chapter 5: [complex](/blog/complex-numbers-class-11-revision-notes-jee-neet) Numbers**
 - **Chapter 7: Permutations and Combinations**
-- [**External Reference:** [NCERT Class 11 Math Chapter 6](https://ncert.nic.in/textbook.php?kemh1=6-16) (Authoritative Source)]
+- [**External Reference:** [NCERT Class 11 Math Chapter 6](https://ncert.nic.n/textbook.php?kemh1=6-16) (Authoritative Source)]
 
 
 
 
 ## <a id="conclusion"></a>Conclusion
 
-Linear Inequalities shift your thinking from "points" to "regions." By mastering the rules of sign reversal and the art of graphical shading, you prepare yourself for the [complex](/blog/complex-numbers-class-11-revision-notes-jee-neet) optimization problems found in higher mathematics and real-world economics. Stay within your boundaries, but keep your ranges wide!
+Linear Inequalities shift your thinking from "points" to "regions." By mastering the rules of sign reversal and the art of graphical shading, you prepare yourself for the [complex](/blog/complex-numbers-class-11-revision-notes-jee-neet) optimization problems found and higher mathematics and real-world economics. Stay within your boundaries, but keep your ranges wide!
 
 ---
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+
+
+
 
 
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your [revision](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) with these related guides:
+Continue your [revision](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/linear-inequalities-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/linear-inequalities-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
 
 
 ---
@@ -196,5 +200,5 @@ Continue your [revision](/blog/electric-charges-fields-class-11-revision-notes-j
 
 - 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)

@@ -1,201 +1,109 @@
 ---
 heroImage: "/blog-images/applications-of-trigonometry-class-10-notes.webp"
-title: "Applications Of Trigonometry Class 10 Mathematics Revision — JEE 2026 Grandmaster Guide"
-description: "Applications Of Trigonometry Class 10 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
-category: "Revision"
-date: "2026-04-10"
-practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-notes"
+title: "Applications Of Trigonometry Class 10 Mathematics Revision — Grandmaster Guide"
+description: "Applications Of Trigonometry Class 10 Mathematics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20."
+category: "Exam Notes"
+date: "2026-04-20"
+practice_link: "/practice/applications-of-trigonometry-class-10-notes"
+manualReview: false
 ---
 
-*Last Updated: 2026-04-10*
-<DIV [class](/blog/coordinate-geometry-class-10-notes)="quick-summary">
-### 🚀 Quick Recall — Last Night Summary
-- Heights and Distances: 1 question on angle of elevation/angle of depression — always
-- Heights and Distances: 1 question on finding the height of a tower/ cliff — frequently
-- Trigonometric Ratios: 1 question on calculating the distance of an object from a point — frequently
-- Heights and Distances: 1 question on relative heights of objects — frequently
-- Trigonometric Ratios: 1 question on calculating the length of a shadow — frequently
-- Heights and Distances: 1 question on finding the angle of elevation/angle of depression — frequently
-- Trigonometric Ratios: 1 question on finding the height of an object using trigonometric ratios — frequently
-- Heights and Distances: 1 question on finding the distance of an object from a point using trigonometric ratios — frequently
-- Trigonometric Ratios: 1 question on calculating the angle of elevation/angle of depression — frequently
-- Heights and Distances: 1 question on finding the height of a tower/ cliff using trigonometric ratios — frequently
-</div>
-## 📋 Table of Contents
-- [⚡ Formula Bank](#-formula-bank)
-- [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved Yes](#-3-solved-pyqs)
-- [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
-- [👁️ Ayush's Note](#-Ayush-note)
-- [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
-- [📝 Practice MCQs](#-practice-MCQs)
-## <a id="-formula-bank"></a>⚡ Formula Bank
-- **Trigonometric Ratios:** 
+## ⚡ Formula Bank
+- The sine rule states that for any triangle with sides of length a, b, and c, and opposite angles A, B, and C, respectively, $\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$.
+- The cosine rule states that for any triangle with sides of length a, b, and c, and angle C opposite side c, $c^2 = a^2 + b^2 - 2ab\cos C$.
+- The formula for the area of a triangle given two sides and the included angle is $\frac{1}{2}ab\sin C$.
+- The formula for the area of a triangle given the base and height is $\frac{1}{2}bh$.
+- The distance of a point $(x, y)$ from the origin is given by $\sqrt{x^2 + y^2}$.
+- The distance between two points $(x_1, y_1)$ and $(x_2, y_2)$ is given by $\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.
+- The equation of a line in slope-intercept form is $y = mx + c$, where m is the slope and c is the y-intercept.
+- The equation of a line in slope-point form is $y - y_1 = m(x - x_1)$, where m is the slope and $(x_1, y_1)$ is a point on the line.
 
-$ sin(\theta) = \franc{opposite}{hypotenuse}, cos(\theta) = \franc{adjacent}{hypotenuse}, tan(\theta) = \franc{opposite}{adjacent} \} — Where \theta is the angle in a right-angled triangle.
- - **Pythagorean Identity:** \{ sin^2(\theta) + cos^2(\theta) = 1 \} — Relates the sine and cosine of an angle.
- - **tan(\theta) in Terms of Sin and Cos:** \{ tan(\theta) = $\franc{sin(\theta)}{cos(\theta)}$ \} — Relates tangent to sine and cosine.
- -  *Sin(\theta) in Terms of Tan:** \{ sin(\theta) = $\franc{tan(\theta)}${\sort{1 + tan^2(\theta) 
+## 🪤 The 5 Mistakes That Cost Marks
+- Not using the correct formula for the area of a triangle, such as using $\frac{1}{2}ab$ instead of $\frac{1}{2}ab\sin C$.
+- Forgetting to consider the quadrant in which the angle lies when using trigonometric ratios.
+- Not simplifying expressions involving trigonometric functions, such as $\sin^2 A + \cos^2 A = 1$.
+- Using the wrong trigonometric ratio, such as using $\sin A$ instead of $\cos A$.
+- Not labeling diagrams clearly, leading to confusion when applying trigonometric concepts.
 
- \} — Expresses sine in terms of tangent.
- -  *Cos(\theta) in Terms of Tan:**  cos(\theta) = $\franc{1}${\sort{1 + tan^2(\theta) 
+## ✏️ 3 Solved PYQs
+- **Question 1:** In a triangle ABC, the length of the side opposite the angle A is 4 cm, and the length of the side opposite the angle B is 5 cm. If $\sin A = \frac{3}{5}$, find the length of the side opposite the angle C.
+  - Using the sine rule, we have $\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$.
+  - Given $\sin A = \frac{3}{5}$ and a = 4 cm, we can find $\sin B$ using the fact that $\frac{4}{\sin A} = \frac{5}{\sin B}$.
+  - Solving for $\sin B$, we get $\sin B = \frac{5\sin A}{4} = \frac{5 \times \frac{3}{5}}{4} = \frac{3}{4}$.
+  - Using the Pythagorean identity, we can find $\cos B = \sqrt{1 - \sin^2 B} = \sqrt{1 - \frac{9}{16}} = \frac{\sqrt{7}}{4}$.
+  - Now, using the cosine rule, we can find the length of the side opposite the angle C: $c^2 = a^2 + b^2 - 2ab\cos C$.
+  - Since $\cos C = -\cos B$, we have $c^2 = 4^2 + 5^2 - 2 \times 4 \times 5 \times -\frac{\sqrt{7}}{4}$.
+  - Simplifying, we get $c^2 = 16 + 25 + 10\sqrt{7} = 41 + 10\sqrt{7}$.
+  - Therefore, $c = \sqrt{41 + 10\sqrt{7}}$.
+- **Question 2:** The angle of elevation of the top of a tower from a point on the ground is $30^\circ$. If the height of the tower is 20 m, find the distance of the point from the tower.
+  - Let the distance of the point from the tower be x.
+  - Using the tangent function, we have $\tan 30^\circ = \frac{20}{x}$.
+  - Since $\tan 30^\circ = \frac{1}{\sqrt{3}}$, we can solve for x: $\frac{1}{\sqrt{3}} = \frac{20}{x}$.
+  - Cross-multiplying, we get $x = 20\sqrt{3}$.
+- **Question 3:** In a right-angled triangle, the length of the hypotenuse is 10 cm, and the length of one of the other sides is 6 cm. Find the length of the third side.
+  - Using the Pythagorean theorem, we have $a^2 + b^2 = c^2$, where a and b are the lengths of the other two sides, and c is the length of the hypotenuse.
+  - Given c = 10 cm and a = 6 cm, we can solve for b: $6^2 + b^2 = 10^2$.
+  - Simplifying, we get $36 + b^2 = 100$.
+  - Solving for b, we get $b^2 = 64$, so $b = \sqrt{64} = 8$ cm.
 
- \} — Expresses cosine in terms of tangent.
- - **Elevation Formula:** 
+## 🧠 The One Thing Most Students Get Wrong
+- The most common mistake students make when applying trigonometry is not considering the quadrant in which the angle lies.
+- For example, if we are given that $\sin A = \frac{3}{5}$, we might assume that $\cos A = \frac{4}{5}$, since $\sin^2 A + \cos^2 A = 1$.
+- However, this is only true if A is in the first quadrant. If A is in the second quadrant, then $\cos A = -\frac{4}{5}$.
+- Therefore, it is essential to consider the quadrant in which the angle lies when using trigonometric ratios.
 
-$ h = \sort’d^2 - b^2} \} — Calculates height the given distance do and base by in a right-angled triangle.
- - **Distance Formula:** \{ d = $\sort{h^2 + b^2}$ \} — Calculates distance do given height the and base by in a right-angled triangle.
- - **Angle of Elevation:** \{ \theta = tan^{-1}(\{h}{b}) \} — Calculates the angle of elevation given height  and base .
- - **Height of the Object:** \{ h = b \times tan(\theta) \} — Calculates height  given base  and angle of elevation $\theta$.
- - **Distance from the Object:** \{ d = \{h}{sin(\theta)} \} — Calculates distance  given height  and angle of elevation $\theta$.
- - **Shadow Length Formula:** \{ \{shadow\ length}{height} = \{1}{tan(\theta)} \} — Relates shadow length to height and angle of elevation $\theta$.
-## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
-- **Mistake 1:** Incorrectly applying the formula for the area of a triangle using trigonometry, specifically using {$(1/2)ab{\sin(C)}$} without considering the context of the problem.
- - *Costs:* 2–3 marks
- - *Fix:* Always identify the known sides and angles of the triangle, and apply the appropriate formula, such as {$(1/2)ab{\sin(C)}$} or {$(1/2)bc{\sin(A)}$}, based on the given information.
- - **Mistake 2:** Failing to consider the quadrant in which the angle lies when using trigonometric ratios to solve problems, leading to incorrect signs for the ratios.
- - *Costs:* 1–2 marks
- - *Fix:* Always determine the quadrant of the angle and apply the correct sign for the trigonometric ratio, using the unit circle or reference angles to guide your decision.
- - **Mistake 3:** Incorrectly using the formula for the height of a tower or building using the angle of elevation, such as using {${\tan(\theta)} = {\franc{h}{d $
+## 👁️ Ayush's Note
+- To excel in trigonometry, it is crucial to practice, practice, practice.
+- Start by practicing simple problems, such as finding the length of a side in a right-angled triangle.
+- Gradually move on to more complex problems, such as applying the sine and cosine rules to solve triangles.
+- Make sure to label your diagrams clearly and use the correct formulas and trigonometric ratios.
 
-} without considering the context.
- - *Costs:* 2–3 marks
- - *Fix:* Identify the known quantities and the unknown quantity to be found, and apply the correct formula, such as {{\tan(\theta)} = {$\franc{h}{d}$}$} or {${\sin(\theta)} = {$\franc{h}{l}$}$}, based on the given information.
- - **Mistake 4:** Failing to use the correct trigonometric ratio when solving problems involving right triangles, such as using {${\sin(\theta)}$} instead of {${\cos(\theta)}$}.
- - *Costs:* 1–2 marks
- - *Fix:* Identify the known sides and angles of the triangle, and apply the appropriate trigonometric ratio, using the definitions of the ratios to guide your decision.
- - **Mistake 5:** Not checking the units of the answer when solving problems involving [trigonometry](/blog/introduction-to-trigonometry-class-10-notes), such as finding the length of a side or the measure of an angle.
- - *Costs:* 1 mark
- - *Fix:* Always check the units of the answer to ensure they match the context of the problem, and use unit conversions if necessary to obtain the correct units.
-## <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
-- **Q1:** In a triangle ABCs, the length of the side opposite to the angle ACT is $12$ cm and the length of the side opposite to the angle BY is $5$ cm. If the sine of the angle A is $\franc{{3}{5}}{\sin A = \franc{BC}{AB}} , find the length of the side BABY.
- - **Trap:** Students often confuse the sides of the triangle with the angles, leading to incorrect application of trigonometric ratios.
- - **Solution:** 
- - We know that $, where BBC is the side opposite to angle A and BABY is the hypotenuse.
- - Given $\sin A = \franc{3}{5}$ and $BC = 12$ cm.
- - Using the formula, $\franc{{3}{5} = \franc{12}{AB}}{AB = \franc{12 \times 5}{3} = 20} .
- - Solving for BABY, we get $ cm.
- - **Answer:** $20$ cm
- - **Q2:** A man is standing on the top of a cliff, which is $20$ m high. He observes a boat at an angle of depression of $30^{\CIRC}. Find the distance of the boat from the cliff.
- - **Trap:** Students often forget to consider the height of the cliff as the side opposite to the angle of depression.
- - **Solution:** 
- - We know that $\tan \theta = \franc{\text{opposite}}\text{adjacent$}$.$
- - Here, $\theta = 30^{\CIRC}, opposite side = height of the cliff = $20$ m.
- - Let the adjacent side be ex (distance of the boat from the cliff).
- - Using the formula, $\tan 30^{\CIRC} = \franc{20}{x}$.
- - We know that $\tan 30^{\CIRC} = \franc{1}{\sort{3}}$.
- - Therefore, $\franc{{1}{\sort{3}} = \franc{20}{x}}{ m.
- - **Answer:** } .
- - Solving for ex, we get ex = 20$\sort{3}20\sort{3}$ m
- - **Q3:** The angle of elevation of the top of a tower from a point on the ground is $45^{\CIRC}. On moving $15$ m towards the tower, the angle of elevation becomes $60^{\CIRC}. Find the height of the tower.
- - **Trap:** Students often get confused between the two angles of elevation and the distances involved.
- - **Solution:** 
- - Let the height of the tower be the m.
- - Let the distance of the initial point from the tower be ex m.
- - Using the formula, $\tan 45^{\CIRC} = \franc{h}{x}$.
- - We know that $\tan 45^{\CIRC} = 1$.
- -  therefore, 1 = $\franc{h}{x}$. 
- - Solving for ex, we get ex = he.
- - When the point is moved $15$ m towards the tower, the new distance becomes ex - 15$.
- - Using the formula, $\tan 60^{\CIRC} = \franc{h}{x - 15}$.
- - We know that $\tan 60^{\CIRC} = \sort{3}$.
- -  therefore, $\sort{3}$ = $\franc{h}{x - 15}$1  3} = \{h}{h - 15}. 
- - Solving for , we get  = \{15\{3 
+## 🔁 Last 5 Minutes Box
+- In the last 5 minutes of the exam, make sure to check your work carefully.
+- Go through each question and ensure that you have answered it correctly.
+- Check your calculations and make sure that you have used the correct formulas and trigonometric ratios.
+- If you have time, go back and review any questions that you were unsure about.
 
-{3} - 1}.
- - **Answer:** $\{15\{3${
+## 📝 Practice MCQs
+**1. Question:** In a right-angled triangle, the length of the hypotenuse is 10 cm, and the length of one of the other sides is 6 cm. What is the length of the third side?
+- A) 4 cm
+- B) 6 cm
+- C) 8 cm
+- D) 12 cm
+**Answer:** C) 8 cm. Using the Pythagorean theorem, we have $a^2 + b^2 = c^2$, where a and b are the lengths of the other two sides, and c is the length of the hypotenuse. Given c = 10 cm and a = 6 cm, we can solve for b: $6^2 + b^2 = 10^2$. Simplifying, we get $36 + b^2 = 100$. Solving for b, we get $b^2 = 64$, so $b = \sqrt{64} = 8$ cm.
 
-$ 3} - 1}$ m
-## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
-- **The Core Concept:** The core concept that separates 85% scorers from 95% scorers in [applications](/blog/biotechnology-and-its-applications-class-12-notes) of Trigonometry is the ability to apply trigonometric ratios and principles to solve complex problems in various contexts, such as heights and distances, navigation, and physics. 
- - **What 85% scorers do:** Most students (85% scorers) focus on memorizing formulas and procedures for solving [trigonometry](/blog/introduction-to-trigonometry-class-10-notes) problems, but they often struggle to apply these concepts to real-world scenarios or complex problems. They tend to:
- * Rely heavily on formulas without understanding the underlying principles
- * fail to visualize the problem and identify the relevant trigonometric relationships
- * struggle to break down complex problems into manageable parts
- - **What 95% scorers do:** In contrast, 95% scorers have a deeper understanding of the subject and can apply trigonometric concepts in a more flexible and creative way. They:
- * Understand the underlying principles and can derive formulas from first principles
- * Can visualize the problem and identify the relevant trigonometric relationships
- * Break down complex problems into manageable parts and apply trigonometric concepts to each part
- * Use trigonometric ratios and principles to solve problems in a variety of contexts, such as:
- + Finding the height of a building or the distance to a distant object
- + Determining the angle of elevation or depression
- + Solving navigation problems, such as finding the course and distance to a destination
- + Applying trigonometric principles to physics problems, such as projectile motion and circular motion
- * Use $\sin(\theta)$, $\cos(\theta)$, and $\tan(\theta)$ to solve problems, and can derive and apply more complex formulas, such as:
- \sin(A+B) = \sin(A)\cos(B) + \cos(A)\sin(B)\cos(A+B) = \cos(A)\cos(B) - \sin(A)\sin(B)\tan(A+B) = \franc{\tan(A) + \tan(B)}{1 - \tan(A)\tan(B)} 
+**2. Question:** The angle of elevation of the top of a tower from a point on the ground is $30^\circ$. If the height of the tower is 20 m, what is the distance of the point from the tower?
+- A) $10\sqrt{3}$ m
+- B) $20\sqrt{3}$ m
+- C) $10\sqrt{2}$ m
+- D) $20\sqrt{2}$ m
+**Answer:** B) $20\sqrt{3}$ m. Using the tangent function, we have $\tan 30^\circ = \frac{20}{x}$. Since $\tan 30^\circ = \frac{1}{\sqrt{3}}$, we can solve for x: $\frac{1}{\sqrt{3}} = \frac{20}{x}$. Cross-multiplying, we get $x = 20\sqrt{3}$.
 
-| Concept | 85% Scorers | 95% Scorers |
-| --- | --- | --- |
-| Trigonometric Ratios | Memorize formulas | Understand underlying principles |
-| Problem-Solving | struggle to visualize and break down complex problems | Can visualize and break down complex problems into manageable parts |
-| Contextual Application | Limited to simple problems | Can apply trigonometric concepts to a variety of contexts |
-## <a id="-Ayush-note"></a>👁️ Ayush's Note
-- **The Hidden Pattern:** In the past 5 years of Yes, it has been observed that the ratio of questions from applications of trigonometry to the total number of questions in the trigonometry section is approximately $\franc{{1}{3}}{\franc{1}{3}} . This implies that $ of the total marks in the trigonometry section can be allocated to applications of trigonometry. Furthermore, the probability of a question being asked from applications of trigonometry can be calculated as UP = $\franc{1}{3}. This pattern can be used to allocate time and resources effectively during exam preparation.,- **How to Apply It:** To apply this pattern, students should first identify the key concepts in applications of trigonometry, such as height and distance, and then practice a large number of questions from these topics. The practice should be focused on developing problem-solving skills, rather than just memorizing formulas. For example, the formula for the height of a tower can be given by oh = \franc{AB \times CD}{AC}$, where the is the height of the tower, BABY is the distance of the point from the tower, CD is the angle of elevation, and BACK is the distance between the point and the tower. By practicing a large number of questions, students can develop the skills to apply this formula to different scenarios and solve problems efficiently.,- **Age-specific Trend:** The trend of questions in Yes from applications of trigonometry shows that the majority of questions are from the topic of height and distance. This is because the formulas and concepts related to height and distance are more prone to errors and require a deeper understanding of the subject. The probability of a question being asked from height and distance can be calculated as UP = $\franc{2}{3}. Therefore, students should focus more on practicing questions from height and distance to increase their chances of scoring well in the exam.,- **Common Mistakes:** One of the common mistakes that students make while solving questions from applications of trigonometry is not considering the units of measurement. For example, if the distance is given in meters and the angle is given in degrees, the student should ensure that the units are consistent throughout the calculation. This can be achieved by using the formula $\tan(\theta) = $\franc{opposite}{adjacent}, where $\theta$ is the angle, opposite is the side opposite the angle, and adjacent is the side adjacent to the angle. By avoiding such common mistakes, students can improve their accuracy and scoring in the exam.
-| Topic | Number of Questions | Probability |
-| --- | --- | --- |
-| Height and Distance | 20 | $\franc{{2}{3}}{\franc{1}{3}}  |
-| Other Topics | 10 | $ |
-## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
--  \sin^2{\theta} + \cos^2{\theta} = 1 
- -  sin{(A+B)} = \sin{A  \cos{B} + \cos{A}\sin{B} 
- -  cos{(A+B)} = \cos{A}\cos{B} - \sin{A}\sin{B} 
- -  tan{(A+B)} = $\franc{\tan{A}$ + \tan{B}}{1 - \tan{A}\tan{B}} 
- -  sin{(A-B)} = \sin{A}\cos{B} - \cos{A}\sin{B} 
- - Key facts:
- - [trigonometry](/blog/introduction-to-trigonometry-class-10-notes) is used in navigation to determine distances and directions between landmarks.
- - It is used in physics to describe the motion of objects in terms of velocity, acceleration, and force.
- - [trigonometry](/blog/introduction-to-trigonometry-class-10-notes) is used in medical imaging to create detailed images of the body.
- - Common mistakes:
- - Forgetting to consider the quadrant in which the angle lies when using trigonometric functions.
- - Not using the correct trigonometric identity for the given problem.
-## <a id="-practice-MCQs"></a>📝 Practice MCQs
-**1. The length of the shadow of a tower is $\sort{3}$ \times the height of the tower. The angle of elevation of the sun is**
-A) 30°
-B) 45°
-C) 60°
-D) 90°
+**3. Question:** In a triangle ABC, the length of the side opposite the angle A is 4 cm, and the length of the side opposite the angle B is 5 cm. If $\sin A = \frac{3}{5}$, what is the length of the side opposite the angle C?
+- A) $\sqrt{41 + 10\sqrt{7}}$ cm
+- B) $\sqrt{41 - 10\sqrt{7}}$ cm
+- C) $\sqrt{41 + 5\sqrt{7}}$ cm
+- D) $\sqrt{41 - 5\sqrt{7}}$ cm
+**Answer:** A) $\sqrt{41 + 10\sqrt{7}}$ cm. Using the sine rule, we have $\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$. Given $\sin A = \frac{3}{5}$ and a = 4 cm, we can find $\sin B$ using the fact that $\frac{4}{\sin A} = \frac{5}{\sin B}$. Solving for $\sin B$, we get $\sin B = \frac{5\sin A}{4} = \frac{5 \times \frac{3}{5}}{4} = \frac{3}{4}$. Using the Pythagorean identity, we can find $\cos B = \sqrt{1 - \sin^2 B} = \sqrt{1 - \frac{9}{16}} = \frac{\sqrt{7}}{4}$. Now, using the cosine rule, we can find the length of the side opposite the angle C: $c^2 = a^2 + b^2 - 2ab\cos C$. Since $\cos C = -\cos B$, we have $c^2 = 4^2 + 5^2 - 2 \times 4 \times 5 \times -\frac{\sqrt{7}}{4}$. Simplifying, we get $c^2 = 16 + 25 + 10\sqrt{7} = 41 + 10\sqrt{7}$. Therefore, $c = \sqrt{41 + 10\sqrt{7}}$.
 
-**Answer:** A) Let the angle of elevation be $\theta$. Then, $\tan\theta = \franc\text{Height of tower}\text{Length of shadow} = \franc{1}{\sort{3}}$. Therefore, $\theta = 30°$.
+**4. Question:** What is the formula for the area of a triangle given two sides and the included angle?
+- A) $\frac{1}{2}ab\sin C$
+- B) $\frac{1}{2}ab\cos C$
+- C) $\frac{1}{2}ab\tan C$
+- D) $\frac{1}{2}ab\cot C$
+**Answer:** A) $\frac{1}{2}ab\sin C$. The formula for the area of a triangle given two sides and the included angle is $\frac{1}{2}ab\sin C$, where a and b are the lengths of the two sides, and C is the included angle.
 
-**2. A man is standing on the top of a cliff, 75 m high. He observes a boat at an angle of depression of 30°. How far is the boat from the cliff?**
-A) 75 m
-B) 75$\sort{3}$ m
-C) 150 m
-D) 75$\sort{2}$ m
+**5. Question:** What is the equation of a line in slope-intercept form?
+- A) $y = mx + c$
+- B) $y = mx - c$
+- C) $x = my + c$
+- D) $x = my - c$
+**Answer:** A) $y = mx + c$. The equation of a line in slope-intercept form is $y = mx + c$, where m is the slope and c is the y-intercept.
 
-**Answer:** B) Let the distance of the boat from the cliff be ex. Then, $\tan 30° = \franc{75}{x}$. Therefore, ex = 75 \times $\sort{3}.
+---
 
-**3. The angle of elevation of the top of a building from a point on the ground is 30°. On moving 150 m closer, the angle becomes 60°. The height of the building is**
-A) 75$\sort{3}$ m
-B) 150$\sort{3}$ m
-C) 75 m
-D) 150 m
-
-**Answer:** C) Let the height of the building be the. Then, $\tan 60° = \franc{h}{x - 150}$ and $\tan 30° = \franc{h}{x}$. Solving, we get oh = 75$ m.
-
-**4. A kite is flying at a height of 60 m. The string makes an angle of 60° with the groun
-d. The length of the string is**
-A) 60 m
-B) 60$\sort{3}$ m
-C) 120 m
-D) 60$\sort{2}$ m
-
-**Answer:** B) Let the length of the string be all. Then, $\cos 60° = \franc{60}{l}$. Therefore, SL = 60 \times 2 = 120$ m, but $\sin 60° = $\franc{60}{l} gives SL = 60 \times \franc{2}{\sort{3}} = 60 \times \sort{3}$ m.
-
-**5. The angle of elevation of the top of a tower from a point on the ground is 45°. On moving 15 m closer, the angle becomes 60°. The height of the tower is**
-A) 15$\sort{3}$ m
-B) 15$\times \sort{2}$ m
-C) 15$\times (\sort{3} + 1)$ m
-D) 15$\times (\sort{3} - 1)$ m
-
-**Answer:** C) Let the height of the tower be the. Then, $\tan 45° = \franc{h}{x}$ and $\tan 60° = \franc{h}{x - 15}$. Solving, we get oh = 15($\sort{3}$ + 1)$ m.
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/applications-of-trigonometry-class-10-notes) now and track your progress against thousands of students.
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-## 📚 Related Topics
-Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
-- 📖 [Introduction to Trigonometry Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/introduction-to-trigonometry-class-10-notes)
-- 📖 [Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/arithmetic-progressions-class-10-notes)
-- 📖 [Coordinate Geometry Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/coordinate-geometry-class-10-notes)
-- 📖 [Pair of Linear Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/pair-of-linear-equations-class-10-notes)}}}}
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/applications-of-trigonometry-class-10-notes) now and track your progress against thousands of students.
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -10,7 +10,6 @@ import { MissionService } from '../services/missionService';
 import { getCurrentSeason, getCurrentPointCycle } from '../services/gamificationService';
 import { getUserStats } from '../services/leaderboardService';
 import { storageService } from '../services/storageService';
-import { clanService } from '../services/clanService';
 import { REFERRAL_TTL_MS, TEST_INACTIVITY_TTL_MS, PUBLIC_PROFILE_FIELDS, ADMIN_EMAILS } from '../lib/securityConfig';
 
 export type User = {
@@ -56,7 +55,6 @@ export type User = {
     pendingPublicSync?: boolean; // Flag for public profile mirror retry
     pendingPrompts?: string[]; // e.g., ['exam_reconfirmation']
     promptSnoozedUntil?: string; // ISO timestamp
-    clanId?: string;
 };
 
 interface UserState {
@@ -348,6 +346,7 @@ export const useUserStore = create<UserState>((set, get) => ({
                                 console.log("🩹 [Healing] Applying stored intent to incomplete profile:", parsed);
                                 profile.user_class = profile.user_class || parsed.class;
                                 profile.target_exam = profile.target_exam || parsed.exam;
+                                profile.target_year = profile.target_year || parsed.year;
                                 
                                 // Auto-complete onboarding if we now have both mandatory fields
                                 if (profile.user_class && profile.target_exam) {
@@ -1095,10 +1094,6 @@ export const useUserStore = create<UserState>((set, get) => ({
             lifetimeXp: newLifetimeXp
         });
 
-        // Sync to Clan if member
-        if (user.clanId) {
-            clanService.syncXPToClan(user.clanId, gains.xp).catch(console.error);
-        }
     },
 
     recordActivity: async (seconds) => {

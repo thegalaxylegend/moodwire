@@ -16,8 +16,7 @@ import {
     Library,
     Download,
     ShieldCheck,
-    Swords,
-    Users
+    Swords
 } from 'lucide-react';
 import { useState } from 'react';
 import { usePWA } from '../hooks/usePWA';
@@ -80,10 +79,10 @@ const UserProfileWidget = ({ isSidebarOpen, onClick, onRankClick }: { isSidebarO
                 <div className="relative">
                     <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center text-white font-bold shrink-0 overflow-hidden relative">
                         {user?.avatarUrl ? (
-                            <img 
-                                src={user.avatarUrl} 
-                                alt="Avatar" 
-                                className="w-full h-full object-cover" 
+                            <img
+                                src={user.avatarUrl}
+                                alt="Avatar"
+                                className="w-full h-full object-cover"
                                 referrerPolicy="no-referrer"
                             />
                         ) : (
@@ -177,13 +176,11 @@ export const DashboardLayout = () => {
         { icon: LayoutDashboard, label: 'Overview', path: '/dashboard' },
         ...(isAdmin ? [{ icon: ShieldCheck, label: 'Admin Panel', path: '/admin' }] : []),
         { icon: Swords, label: 'The Arena', path: '/dashboard/arena' },
-        { icon: Users, label: 'Study Clans', path: '/dashboard/clans' },
         { icon: Brain, label: 'Test Center', path: '/dashboard/test-center' },
         { icon: Calendar, label: 'Study Plan', path: '/dashboard/study-plan' },
         { icon: BarChart3, label: 'Benchmarking', path: '/dashboard/peer-benchmarking' },
         { icon: Scale, label: 'Decision Simulator', path: '/dashboard/decision-simulator' },
         { icon: ListChecks, label: 'Syllabus', path: '/dashboard/syllabus' },
-        { icon: FileText, label: 'Blogs', path: '/blog' },
         { icon: Bookmark, label: 'Saved Lectures', path: '/dashboard/saved-lectures' },
         { icon: Library, label: 'Timeline', path: '/dashboard/timeline' },
         { icon: FileText, label: 'Notes', path: '/dashboard/notes' },
@@ -229,7 +226,7 @@ export const DashboardLayout = () => {
                     </button>
                 </div>
 
-                <nav 
+                <nav
                     className="flex-1 px-4 space-y-2 mt-4 overflow-y-auto overflow-x-hidden no-scrollbar"
                     data-lenis-prevent
                 >
@@ -291,7 +288,7 @@ export const DashboardLayout = () => {
             </div>
 
             {/* Main Content */}
-            <main 
+            <main
                 data-lenis-prevent
                 className="flex-1 overflow-x-hidden overflow-y-auto relative w-full flex flex-col scrollbar-thin scroll-smooth min-h-screen"
             >

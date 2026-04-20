@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { Lock, Mail, ArrowRight, AlertCircle, Loader2, GraduationCap } from 'lucide-react';
+import { Lock, Mail, ArrowRight, AlertCircle, Loader2, GraduationCap, Target, Calendar } from 'lucide-react';
 import { auth, googleProvider } from '../../lib/firebase';
 import { signInWithEmailAndPassword, createUserWithEmailAndPassword, signInWithPopup, setPersistence, browserLocalPersistence } from 'firebase/auth';
 import { CustomSelect } from '../../components/CustomSelect';
@@ -17,6 +17,35 @@ export const Login = () => {
     const [error, setError] = useState<string | null>(null);
     const [formData, setFormData] = useState({ email: '', password: '' });
     const [selectedClass, setSelectedClass] = useState<string>('');
+    const [targetExam, setTargetExam] = useState<string>('');
+    const [targetYear, setTargetYear] = useState<string>('');
+
+    const handleClassChange = (val: string) => {
+        setSelectedClass(val);
+        const currentYear = new Date().getFullYear();
+        let detectedYear = currentYear;
+        
+        // Auto-detect target year based on class
+        if (val === 'Class 8th') detectedYear = currentYear + 4;
+        else if (val === 'Class 9th') detectedYear = currentYear + 3;
+        else if (val === 'Class 10th') detectedYear = currentYear + 2;
+        else if (val === 'Class 11th') detectedYear = currentYear + 1;
+        else if (val === 'Class 12th') detectedYear = currentYear;
+        else if (val === 'Dropper') detectedYear = currentYear;
+        
+        setTargetYear(detectedYear.toString());
+        
+        // Auto-select exam if empty (optional, but good UX)
+        if (!targetExam) {
+            setTargetExam('JEE');
+        }
+    };
+
+    const currentYearNum = new Date().getFullYear();
+    const yearOptions = [0, 1, 2, 3, 4, 5].map(offset => ({
+        value: (currentYearNum + offset).toString(),
+        label: (currentYearNum + offset).toString()
+    }));
 
     // Redirect if already authenticated
     useEffect(() => {
@@ -43,10 +72,12 @@ export const Login = () => {
                 
                 // Only overwrite if it matches reality
                 intent.class = selectedClass;
+                intent.exam = targetExam;
+                intent.year = parseInt(targetYear);
                 intent.savedAt = Date.now();
                 
                 localStorage.setItem('exam_compass_intent', JSON.stringify(intent));
-                console.log("📝 [Auth] Persisted signup intent (Class):", selectedClass);
+                console.log("📝 [Auth] Persisted signup intent:", intent);
             } catch (e) {
                 console.error("Failed to persist intent:", e);
             }
@@ -172,20 +203,47 @@ export const Login = () => {
                     </div>
 
                     {isSignUp && (
-                        <div className="space-y-3">
+                        <div className="space-y-4">
                             <CustomSelect
                                 label="Grade / Class"
                                 value={selectedClass}
-                                onChange={setSelectedClass}
+                                onChange={handleClassChange}
                                 options={[
+                                    { value: 'Class 8th', label: 'Class 8th' },
+                                    { value: 'Class 9th', label: 'Class 9th' },
+                                    { value: 'Class 10th', label: 'Class 10th' },
                                     { value: 'Class 11th', label: 'Class 11th' },
                                     { value: 'Class 12th', label: 'Class 12th' },
-                                    { value: 'Dropper', label: 'Dropper (Repeater)' }
+                                    { value: 'Dropper', label: 'Dropper' }
                                 ]}
                                 placeholder="Select your class"
                                 icon={<GraduationCap size={18} />}
                                 required={isSignUp}
                             />
+
+                            <div className="grid grid-cols-2 gap-4">
+                                <CustomSelect
+                                    label="Target Exam"
+                                    value={targetExam}
+                                    onChange={setTargetExam}
+                                    options={[
+                                        { value: 'JEE', label: 'JEE' },
+                                        { value: 'NEET', label: 'NEET' }
+                                    ]}
+                                    placeholder="Exam"
+                                    icon={<Target size={18} />}
+                                    required={isSignUp}
+                                />
+                                <CustomSelect
+                                    label="Target Year"
+                                    value={targetYear}
+                                    onChange={setTargetYear}
+                                    options={yearOptions}
+                                    placeholder="Year"
+                                    icon={<Calendar size={18} />}
+                                    required={isSignUp}
+                                />
+                            </div>
                         </div>
                     )}
 

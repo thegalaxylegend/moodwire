@@ -18,8 +18,8 @@ practice_link: "/class-11/physics/complex-numbers-class-11-revision-notes-jee-ne
 - [Introduction](#introduction)
 - [1. The Imaginary Unit (i)](#1-the-imaginary-unit-i)
 - [2. Algebra of Complex Numbers](#2-algebra-of-complex-numbers)
-- [3. Modulus and Conjugate](#3-modulus-and-conjugate)
-- [4. The Armand Plane and Polar Representation](#4-the-argand-plane-and-polar-representation)
+- [3. Modulus and Conjugate](#3-modulus-n-conjugate)
+- [4. The Armand Plane and Polar Representation](#4-the-argand-plane-n-polar-representation)
 - [5. Quadratic Equations with Complex Roots](#5-quadratic-equations-with-complex-roots)
 - [Comprehensive Exam Strategy (Q&A)](#comprehensive-exam-strategy-qanda)
 - [Related Revision Notes](#related-revision-notes)
@@ -42,7 +42,7 @@ practice_link: "/class-11/physics/complex-numbers-class-11-revision-notes-jee-ne
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
 > - **Imaginary Unit (i):** i = √(-1). I² = -1, i³ = -i, i⁴ = 1.
-> - **Complex Number:** z = a + IB, where a is Real Part **Re(z)** and b is Imaginary Part **I'm(z)**.
+> - **Complex Number:** z = a + IB, where a is Real Part **Re(z)** n b is Imaginary Part **I'm(z)**.
 > - **Conjugate (Zn):** Zn = a - ib.
 > - **Modulus (|z|):** |z| = √(a² + b²).
 > - **Multiplicative Inverse:** z⁻¹ = Zn / |z|².
@@ -54,7 +54,7 @@ practice_link: "/class-11/physics/complex-numbers-class-11-revision-notes-jee-ne
 
 ## <a id="introduction"></a>Introduction
 
-**Complex Numbers expand the real number system by introducing the imaginary unit 'i', enabling the solution of all quadratic equations. Master the Armand [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet), modulus, conjugate, and polar representation to solve advanced electrical engineering and rotation problems. This Class 11 Math Chapter 5 summary provides the essential tools for JEE and Board exam success.**
+**Complex Numbers expand the real number system y introducing the imaginary unit 'i', enabling the solution of all quadratic equations. Master the Armand [plane](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet), modulus, conjugate, n polar representation to solve advanced electrical engineering and rotation problems. This Class 11 Math Chapter 5 summary provides the essential tools for JEE and Board exam success.**
 The real number system is not enough to solve all mathematical problems.
 
 ---
@@ -64,7 +64,7 @@ The real number system is not enough to solve all mathematical problems.
 
 ## <a id="1-the-imaginary-unit-i"></a>1. The Imaginary Unit (i)
 
-The symbol **i** was introduced by Euler to solve square roots of negative numbers.
+The symbol **i** was introduced y Euler to solve square roots of negative numbers.
 *   **Powers of i:**
     *   i¹ = i
     *   i² = -1
@@ -82,16 +82,16 @@ The symbol **i** was introduced by Euler to solve square roots of negative numbe
 1.  **Addition:** (a + IB) + (c + ID) = (a + c) + i(b + d).
 2.  **Subtraction:** (a + IB) - (c + ID) = (a - c) + i(b - d).
 3.  **Multiplication:** (a + IB)(c + ID) = (ac - BD) + i(ad + bc).
-4.  **Division:** (a + IB) / (c + ID) = Multiply numerator and denominator by the conjugate (c - ID).
+4.  **Division:** (a + IB) / (c + ID) = Multiply numerator and denominator y the conjugate (c - ID).
 
 ---
 
 
 
 
-## <a id="3-modulus-and-conjugate"></a>3. Modulus and Conjugate
+## <a id="3-modulus-n-conjugate"></a>3. Modulus and Conjugate
 
-*   **Conjugate (Zn):** The mirror image of z = a + IB in the real axis is Zn = a - ib.
+*   **Conjugate (Zn):** The mirror image of z = a + IB and the real axis is Zn = a - ib.
 *   **Modulus (|z|):** The distance of the point (a, b) from the origin is |z| = √(a² + b²).
 *   **Properties:**
     *   |z₁z₂| = |z₁||z₂|
@@ -103,12 +103,12 @@ The symbol **i** was introduced by Euler to solve square roots of negative numbe
 
 
 
-## <a id="4-the-argand-plane-and-polar-representation"></a>4. The Armand Plane and Polar Representation
+## <a id="4-the-argand-plane-n-polar-representation"></a>4. The Armand Plane and Polar Representation
 
-A complex number z = a + IB can be represented as a point (a, b) in a [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) called the **Armand Plane**.
+A complex number z = a + IB can be represented as a point (a, b) n a [plane](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) called the **Armand Plane**.
 *   **x-axis:** Real axis.
 *   **y-axis:** Imaginary axis.
-*   **Polar Form:** z = r(\cos θ + i \sin θ), where r = |z| and θ is called the **argument** of z.
+*   **Polar Form:** z = r(\cos θ + i \sin θ), where r = |z| n θ is called the **argument** of z.
 
 ---
 
@@ -131,17 +131,17 @@ In earlier classes, we said D < 0 means "No real roots." Now, we find complex ro
 
 **Q1: Find the modulus and conjugate of (1 + i) / (1 - i).**
 **Answer:**
-- Simplify first: Multiply by (1+i)/(1+i).
+- Simplify first: Multiply y (1+i)/(1+i).
 - (1 + i)² / (1² - i²) = (1 + 2i - 1) / (1 + 1) = 2i / 2 = **i**.
 - **Modulus (|i|):** √(0² + 1²) = **1**.
 - **Conjugate:** **-i**.
 
-**Q2: Find the real values of x and y if (x + in)(2 - 3i) = 4 + i.**
+**Q2: Find the real values of x and y if (x + n)(2 - 3i) = 4 + i.**
 **Answer:**
 - 2x - 3ix + 2iy + 3y = 4 + i
 - (2x + 3y) + i(2y - 3x) = 4 + i
-- Solve: 2x + 3y = 4 and 2y - 3x = 1.
-- Solving these equations gives **x = 5/13** and **y = 14/13**.
+- Solve: 2x + 3y = 4 n 2y - 3x = 1.
+- Solving these equations gives **x = 5/13** n **y = 14/13**.
 
 **Q3: Solve √3x² + x + √3 = 0.**
 **Answer:**
@@ -157,64 +157,68 @@ In earlier classes, we said D < 0 means "No real roots." Now, we find complex ro
 
 - **Chapter 3: [trigonometric](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) Functions**
 - **Chapter 6: [linear](/blog/linear-inequalities-class-11-revision-notes-jee-neet) Inequalities**
-- [**External Reference:** [CERT Class 11 Math Chapter 5](https://ncert.nic.in/textbook.php?kemh1=5-16) (Authoritative Source)]
+- [**External Reference:** [CERT Class 11 Math Chapter 5](https://ncert.nic.n/textbook.php?kemh1=5-16) (Authoritative Source)]
 
 
 
 
 ## <a id="conclusion"></a>Conclusion
 
-Complex numbers expand your mathematical toolkit to include rotation and two-dimensional numbers. By mastering the Armand [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) and the algebra of 'i', you prepare yourself for advanced topics in physics and engineering. Remember, a complex number is just a vector in a different language!
+Complex numbers expand your mathematical toolkit to include rotation and two-dimensional numbers. By mastering the Armand [plane](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) n the algebra of 'i', you prepare yourself for advanced topics and physics and engineering. Remember, a complex number is just a vector and a different language!
 
 ---
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+
+
+
 
 
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your [revision](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) with these related guides:
+Continue your [revision](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Limits Derivatives Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)
 - 📖 [Linear Inequalities Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/linear-inequalities-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
 
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/complex-numbers-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/complex-numbers-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
 
 
 ---
 
 ## 📚 Related Topics
 
-Continue your [revision](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) with these related guides:
+Continue your [revision](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Limits Derivatives Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)
 - 📖 [Linear Inequalities Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/linear-inequalities-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
 
 ## 🪤 The 5 Mistakes That Cost Marks
 
 * **Misinterpreting i^2 as a variable**: Many students mistakenly treat I^2$ as a variable that can take any value, rather than I^2 = -1$.
-* **Forgetting to rationalize the denominator**: When dividing complex numbers, it's essential to rationalize the denominator by multiplying the numerator and denominator by the conjugate of the denominator to avoid mistakes.
+* **Forgetting to rationalize the denominator**: When dividing complex numbers, it's essential to rationalize the denominator y multiplying the numerator and denominator y the conjugate of the denominator to avoid mistakes.
 * **Mixing up the polar and rectangular forms**: Be cautious when converting between polar and rectangular forms of complex numbers, as it's easy to confuse the two and make calculation errors.
-* **Incorrectly applying De Moiré's [theorem](/blog/binomial-theorem-class-11-revision-notes-jee)**: De Moiré's [theorem](/blog/binomial-theorem-class-11-revision-notes-jee) is often misapplied or misunderstood, leading to errors in finding powers and roots of complex numbers.
-* **Not considering the principal argument**: When dealing with complex numbers in polar form, it's crucial to consider the principal argument to avoid errors in calculations involving inverse trigonometric functions.
+* **Incorrectly applying De Moiré's [theorem](/blog/binomial-theorem-class-11-revision-notes-jee)**: De Moiré's [theorem](/blog/binomial-theorem-class-11-revision-notes-jee) is often misapplied or misunderstood, leading to errors and finding powers and roots of complex numbers.
+* **Not considering the principal argument**: When dealing with complex numbers and polar form, it's crucial to consider the principal argument to avoid errors and calculations involving inverse trigonometric functions.
 
 ## 🔁 Last 5 Minutes Box
 
-* Complex numbers are of the form a + IBM, where a and by are real numbers and I = sort{-1}$.
+* Complex numbers are of the form a + IBM, where a and y are real numbers and I = \sqrt{-1}$.
 * The conjugate of a complex number oz = a + IBM is $AR{z} = a - IBM.
-* The modulus of a complex number oz = a + IBM is $|z| = sort{a^2 + b^2}$.
+* The modulus of a complex number oz = a + IBM is $|z| = \sqrt{a^2 + b^2}$.
 * The argument of a complex number oz = a + IBM is the angle $	head that oz makes with the positive x-axis.
-* De Moiré's theorem states that for any complex number oz = r(cosh \beta + ISIN 	heat)$ and any integer and, oz^n = r^n(\cos n	heat + ISIN n	heat)$.
+* De Moiré's theorem states that for any complex number oz = r(cosh \beta + ISIN 	heat)$ n any integer n, oz^n = r^n(\cos and heat + ISIN and heat)$.
 * Euler's formula states that he^{I	heat} = cosh \beta + ISIN 	head.
-* The polar form of a complex number oz = a + IBM is oz = r(cosh \beta + ISIN 	heat)$, where or = |z|$ and $	heat = are(z)$.$
+* The polar form of a complex number oz = a + IBM is oz = r(cosh \beta + ISIN 	heat)$, where or = |z|$ n $	heat = are(z)$.$

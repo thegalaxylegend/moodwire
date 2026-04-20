@@ -1,336 +1,116 @@
 ---
 heroImage: "/blog-images/integrals-class-12-notes.webp"
-title: "Integrals Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
-description: "Integrals Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
-category: "Revision"
-date: "2026-04-01"
-practice_link: "/class-11/mathematics/integrals-class-12-notes"
+title: "Integrals Class 12 Exam Prep Revision — Grandmaster Guide"
+description: "Integrals Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20."
+category: "Exam Notes"
+date: "2026-04-20"
+practice_link: "/practice/integrals-class-12-notes"
+manualReview: false
 ---
 
-*Last Updated: 2026-04-01*
-
-
-
-
-## 📋 Table of Contents
-
-  - [⚡ Derivations and Proofs](#-derivations-and-proofs)
-  - [📝 Integration Techniques](#-integration-techniques)
-  - [📊 Applications of Integrals](#-applications-of-integrals)
-  - [🔍 Improper Integrals](#-improper-integrals)
-  - [📝 Multiple Integrals](#-multiple-integrals)
-  - [🔍 Applications of Multiple Integrals](#-applications-of-multiple-integrals)
-  - [📝 Applications of Multiple Integrals](#-applications-of-multiple-integrals)
-- [🪤 The 5 Trap Mistakes](#-the-5-trap-mistakes)
-  - [📝 Advanced Topics in Integrals](#-advanced-topics-in-integrals)
-  - [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-stepbystep-learning)
-- [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
-  - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
-- [📚 Related Topics](#-related-topics)
-
-
-
-
-##
-
-### <a id="-derivations-and-proofs"></a>⚡ Derivations and Proofs
-#### Power Rule of Integration
-- Derivation using definition of definite integral:
- \int_{a}^{b} f(x) dx = \lim_{n \to \infty} \sum_{i=1}^{n} f(x_i^*) \delta x 
-
-
-  For $f(x) = x^n$:
- \int x^n dx = \lim_{n \to \infty} \sum_{i=1}^{n} (x_i^*)^n \delta x 
-
-
-  Leading to:
- \int x^n dx = $\frac{{x^{n+1}}{n+1}}{
-
-
-
-#### Exponential Integration Formula
-- Derivation using definition of exponential function:
-
- e^x = \lim_{n \to \infty} \left(1 + }  + C \frac{x}{n} \right)^n 
-
-
-  Taking derivative and simplifying leads to:
- \int e^x dx = e^x + C 
-
-  And more generally:
-$ \int e^{ax} dx = \frac{{1}{a}$}{
-
-
-
-### <a id="-integration-techniques"></a>📝 Integration Techniques
-#### Substitution Method
-- General form:
- \int f(g(x)) \cdot g'(x) dx = \int f(u) du }  e^{ax} + C 
-
-  Where $u = g(x)$ and $du = g'(x) dx$.
-- Key points:
-  * Substitute $u = g(x)$
-  * Find $du = g'(x) dx$
-  * Integrate with respect to $u$
-
-#### Integration by Parts
-- General form:
- \int u \cdot dv = u \cdot v - \int v \cdot du 
-
-- Key points:
-  * Choose $u$ and $dv$
-  * Find $du$ and $v$
-  * Apply formula
-
-#### Partial Fractions Decomposition
-- General form for $\frac{{1}{(x-a)(x-b)}}{\frac{1}{(x-a)(x-b)} = } :
-
-$\frac{A}{x-a}$ + $\frac{{B}{x-b}}{f(x)} 
-
-
-- Key points:
-  * Decompose rational function
-  * Find common denominator
-  * Equate numerators
-
-### <a id="-applications-of-integrals"></a>📊 Applications of Integrals
-#### Area Between Curves
-- General form:
-
- A = \int_{a}^{b} (f(x) - g(x)) dx 
-
-
-- Key points:
-  * Define $ and $g(x)$
-  * Determine limits $a$ and $b$
-  * Evaluate integral
-
-#### Volume of Solids
-- General form for volume:
-
- V = \int_{a}^{b} \pi (f(x))^2 dx 
-
-
-- Key points:
-  * Define $f(x)$
-  * Determine limits $a$ and $b$
-  * Evaluate integral
-
-#### Surface Area
-- General form:
-
- S = \int_{a}^{b} 2 \pi f(x) \sqrt{1 + (f'(x))^2} dx 
-
-
-- Key points:
-  * Define $f(x)$
-  * Determine limits $a$ and $b$
-  * Evaluate integral
-
-### <a id="-improper-integrals"></a>🔍 Improper Integrals
-#### Definition
-- General form:
- \int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx 
-
-
-- Key points:
-  * Infinite limit of integration
-  * Evaluate limit
-
-#### Convergence
-- Condition for convergence:
- \int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx = L 
-
-
-  Where L is finite.
-- Key points:
-  * Limit exists and is finite
-
-#### Divergence
-- Condition for divergence:
- \int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx = \infty 
-
-
-- Key points:
-  * Limit does not exist or is infinite
-
-### <a id="-multiple-integrals"></a>📝 Multiple Integrals
-#### Definition
-- General form:
- \int_{a}^{b} \int_{c}^{d} f(x,y) dy dx 
-
-
-- Key points:
-  * Multiple limits of integration
-  * Evaluate iteratively
-
-#### Evaluation
-- General approach:
-
-$1 
-
-
-- Key points:
-  * Integrate with respect to one variable
-  * Then integrate with respect to the other variable
-
-### <a id="-applications-of-multiple-integrals"></a>🔍 Applications of Multiple Integrals
-#### Volume of Solids
-- General form for volume:
-
- V = \int \int \int_{D} dV 
-
-
-- Key points:
-  * Define region $D$
-  * Evaluate triple integral
-
-#### Surface Area
-- General form:
-
- S = \int \int_{D} \sqrt{1 + (f_x)^2 + (f_y)^2} dA 
-
-
-- Key points:
-  * Define function $f(x,y)$
-  * Evaluate double integral
-
-#### Moments of Inertia
-- General form:
-
- I = \int \int_{D} (x^2 + y^2) \rho(x,y) dA 
-
-
-- Key points:
-  * Define density function $\rho(x,y)$
-  * Evaluate double integral
-
-### <a id="-applications-of-multiple-integrals"></a>📝 Applications of Multiple Integrals
-
-#### #### Volume of Solids:
-The volume of a solid can be found using a multiple integral. The general form of the volume of a solid is:
-
- V = \int_{a}^{b} \int_{c}^{d} f(x,y) dy dx 
-
-
-where $f(x,y)$ is the height of the solid at the point $(x,y)$.
-
-#### #### Surface Area:
-The surface area of a solid can be found using a multiple integral. The general form of the surface area is:
-
- S = \int_{a}^{b} \int_{c}^{d} \sqrt{1 + (f_x(x,y))^2 + (f_y(x,y))^2} dy dx 
-
-
-where $f_x(x,y)$ and $f_y(x,y)$ are the partial derivatives of $f(x,y)$ with respect to $x$ and $y$, respectively.
-
-#### #### Center of Mass:
-The center of mass of a solid can be found using a multiple integral. The general form of the center of mass is:
-
- \bar{x} = \frac\int_{a^{b} \int_{c}^{d} x \rho(x,y) dy dx}\int_{a^{b} \int_{c}^{d} \rho(x,y) dy dx} 
-
-
-where $\rho(x,y)$ is the density of the solid at the point $(x,y)$.
-
-## <a id="-the-5-trap-mistakes"></a>🪤 The 5 Trap Mistakes
-
-When working with [integrals](/blog/application-of-integrals-class-12-notes), there are several common mistakes that can lead to incorrect solutions. Here are five trap mistakes to watch out for:
-
-#### #### Mistake 1: Forgetting the Constant of Integration
-When integrating a function, it's easy to forget to include the constant of integration. This can lead to incorrect solutions, especially when working with definite [integrals](/blog/application-of-integrals-class-12-notes).
-
-#### #### Mistake 2: Incorrectly Applying the Power Rule
-The power rule of integration is a common source of mistakes. Make sure to apply the rule correctly, and don't forget to add 1 to the exponent when integrating.
-
-#### #### Mistake 3: Failing to Check the Limits of Integration
-When working with definite [integrals](/blog/application-of-integrals-class-12-notes), it's essential to check the limits of integration to ensure that the integral is properly defined. Failing to do so can lead to incorrect solutions.
-
-#### #### Mistake 4: Incorrectly Substituting into the Integral
-When using substitution to evaluate an integral, make sure to correctly substitute into the integral. This includes substituting into the limits of integration and the integrand.
-
-#### #### Mistake 5: Not Simplifying the Integral
-Finally, make sure to simplify the integral after evaluating it. This can involve combining like terms, canceling out constants, and rearranging the expression to make it more readable.
-
-By avoiding these common mistakes, you can ensure that your integral solutions are accurate and reliable.
-
-### <a id="-advanced-topics-in-integrals"></a>📝 Advanced Topics in Integrals
-
-- **Dirichlet's Theorem:** 
-Dirichlet's theorem states that a function $f(x)$ is integrable on the interval $[a,b]$ if and only if the set of discontinuities of $f(x)$ has measure zero.
-
-- **Riemann's Theorem:** 
-Riemann's theorem states that a function $f(x)$ is integrable on the interval $[a,b]$ if and only if the function is bounded and has at most a countable number of discontinuities.
-
-- **Lebesgue's Theorem:** 
-Lebesgue's theorem states that a function $f(x)$ is integrable on the interval $[a,b]$ if and only if the function is measurable and has a finite integral.
-
-These advanced topics in [integrals](/blog/application-of-integrals-class-12-notes) provide a deeper understanding of the subject and are essential for working with complex functions and applications.
-
-### <a id="-master-the-test-center-stepbystep-learning"></a>📝 Master the Test Center — Step-by-Step Learning
-
-To become a master of integrals, it's essential to practice and apply the concepts learned. The Test Center at /[class](/blog/determinants-class-12-notes)-11/mathematics/integrals-[class](/blog/determinants-class-12-notes)-12-notes is an excellent resource to achieve this goal. Here's why:
-
-*   **Comprehensive Practice Questions:** The Test Center offers a wide range of practice questions that cover all aspects of [integrals](/blog/application-of-integrals-class-12-notes), from basic to advanced topics.
-*   **Personalized Learning:** The Test Center allows you to create a personalized learning plan, focusing on areas where you need improvement.
-*   **Instant Feedback:** After completing a practice test or question, you'll receive instant feedback, including detailed explanations and solutions.
-*   **Progress Tracking:** The Test Center enables you to track your progress, identifying strengths and weaknesses, and adjusting your learning plan accordingly.
-*   **Community Support:** Join a community of like-minded students and educators, sharing knowledge, and learning from one another.
-
-Using the Test Center at /[class](/blog/determinants-class-12-notes)-11/mathematics/integrals-[class](/blog/determinants-class-12-notes)-12-notes will help you:
-
-*   **Reinforce Concepts:** Practice and reinforce your understanding of [integrals](/blog/application-of-integrals-class-12-notes), ensuring a strong foundation for further learning.
-*   **Identify Weaknesses:** Recognize areas where you need improvement and focus your efforts on those topics.
-*   **Develop Problem-Solving Skills:** Enhance your problem-solving skills, learning to approach complex integral problems with confidence.
-*   **Improve Time Management:** Practice managing your time effectively, ensuring you can complete tests and exams within the allotted time.
-
-By utilizing the Test Center, you'll be well-prepared for your JEE 2026 exam and develop a deep understanding of [integrals](/blog/application-of-integrals-class-12-notes), setting yourself up for success in your future academic and professional pursuits.
-
-## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
-
-In the last 5 minutes of your study session, take a moment to:
-
-*   Review key concepts and formulas
-*   Practice a few practice questions to reinforce your understanding
-*   Plan your next study session, focusing on areas where you need improvement
-*   Take a deep breath, stay focused, and remind yourself that you're one step closer to mastering [integrals](/blog/application-of-integrals-class-12-notes) and acing your JEE 2026 exam.
-
-Stay motivated, stay consistent, and you'll be a Grandmaster of [integrals](/blog/application-of-integrals-class-12-notes) in no time. Bookmark this guide and come back daily to reinforce your learning and stay on track. Good luck.
-
-
----
-
-### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/integrals-class-12-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
-
-## <a id="-related-topics"></a>📚 Related Topics
-
-Continue your revision with these related guides:
-
-- 📖 [Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-integrals-class-12-notes)
-- 📖 [Continuity and Differentiability Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/continuity-and-differentiability-class-12-notes)
-- 📖 [Determinants Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/determinants-class-12-notes)
-- 📖 [Differential Equations Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/differential-equations-class-12-notes)
-
+## ⚡ Formula Bank
+- $\int \frac{1}{x} dx = \ln|x| + C$
+- $\int e^x dx = e^x + C$
+- $\int \sin x dx = -\cos x + C$
+- $\int \cos x dx = \sin x + C$
+- $\int \tan x dx = -\ln|\cos x| + C$
+- $\int \frac{1}{\sqrt{1-x^2}} dx = \sin^{-1}x + C$
+- $\int \frac{1}{1+x^2} dx = \tan^{-1}x + C$
+- $\int \frac{1}{x\sqrt{x^2-1}} dx = \sec^{-1}x + C$
+- $\int \frac{1}{x\sqrt{x^2-1}} dx = \cosh^{-1}x + C$
+- $\int x^n dx = \frac{x^{n+1}}{n+1} + C$, $n \neq -1$
+- $\int \frac{1}{x^2+a^2} dx = \frac{1}{a} \tan^{-1} \frac{x}{a} + C$
+- $\int \frac{1}{x^2-a^2} dx = \frac{1}{2a} \ln \left| \frac{x-a}{x+a} \right| + C$
+- $\int \sqrt{a^2-x^2} dx = \frac{x}{2} \sqrt{a^2-x^2} + \frac{a^2}{2} \sin^{-1} \frac{x}{a} + C$
+- $\int \sqrt{x^2-a^2} dx = \frac{x}{2} \sqrt{x^2-a^2} - \frac{a^2}{2} \ln \left| x + \sqrt{x^2-a^2} \right| + C$
+- $\int \sqrt{x^2+a^2} dx = \frac{x}{2} \sqrt{x^2+a^2} + \frac{a^2}{2} \ln \left| x + \sqrt{x^2+a^2} \right| + C$
+
+## 🪤 The 5 Mistakes That Cost Marks
+- Not checking the limits of integration
+- Forgetting to add the constant of integration
+- Not using the correct substitution or formula
+- Not simplifying the integral before evaluating it
+- Not using the properties of definite integrals to simplify the problem
+
+## ✏️ 3 Solved PYQs
+- **PYQ 1:** Evaluate $\int \frac{1}{x^2+4x+5} dx$
+  - Let $x^2+4x+5 = (x+2)^2+1$
+  - $\int \frac{1}{x^2+4x+5} dx = \int \frac{1}{(x+2)^2+1} dx$
+  - Substitute $x+2 = t$, $dx = dt$
+  - $\int \frac{1}{(x+2)^2+1} dx = \int \frac{1}{t^2+1} dt$
+  - $\int \frac{1}{t^2+1} dt = \tan^{-1}t + C$
+  - $\int \frac{1}{x^2+4x+5} dx = \tan^{-1}(x+2) + C$
+- **PYQ 2:** Evaluate $\int \frac{x}{x^2+1} dx$
+  - Let $u = x^2+1$, $du = 2x dx$
+  - $\int \frac{x}{x^2+1} dx = \frac{1}{2} \int \frac{1}{u} du$
+  - $\frac{1}{2} \int \frac{1}{u} du = \frac{1}{2} \ln|u| + C$
+  - $\int \frac{x}{x^2+1} dx = \frac{1}{2} \ln|x^2+1| + C$
+- **PYQ 3:** Evaluate $\int \frac{1}{\sqrt{4x-x^2}} dx$
+  - $\int \frac{1}{\sqrt{4x-x^2}} dx = \int \frac{1}{\sqrt{-(x^2-4x)}} dx$
+  - $\int \frac{1}{\sqrt{-(x^2-4x)}} dx = \int \frac{1}{\sqrt{-((x-2)^2-4)}} dx$
+  - $\int \frac{1}{\sqrt{-((x-2)^2-4)}} dx = \int \frac{1}{\sqrt{4-(x-2)^2}} dx$
+  - Substitute $x-2 = t$, $dx = dt$
+  - $\int \frac{1}{\sqrt{4-(x-2)^2}} dx = \int \frac{1}{\sqrt{4-t^2}} dt$
+  - $\int \frac{1}{\sqrt{4-t^2}} dt = \sin^{-1} \frac{t}{2} + C$
+  - $\int \frac{1}{\sqrt{4x-x^2}} dx = \sin^{-1} \frac{x-2}{2} + C$
+
+## 🧠 The One Thing Most Students Get Wrong
+- Not using the correct substitution or formula for the given integral
+- Many students try to force a substitution that doesn't work, or use a formula that isn't applicable
+- It's essential to take a step back and analyze the integral before attempting to solve it
+- Consider the properties of the integrand, such as its domain, range, and any patterns or symmetries
+- Choose a substitution or formula that simplifies the integral and makes it easier to evaluate
+
+## 👁️ Ayush's Note
+- When evaluating definite integrals, make sure to check the limits of integration
+- If the limits are not given, try to determine them from the context of the problem
+- Use the properties of definite integrals, such as the linearity property and the substitution property, to simplify the problem
+- Don't forget to add the constant of integration when evaluating indefinite integrals
+- Use the correct notation and formatting when writing the final answer
+
+## 🔁 Last 5 Minutes Box
+- Check for any common mistakes, such as forgetting to add the constant of integration
+- Review the properties of definite integrals and make sure to apply them correctly
+- Take a deep breath and stay focused, it's the last 5 minutes of the exam
+- Make sure to answer all the questions, even if you're not sure about the answer
+- Use the process of elimination to narrow down the options and increase your chances of getting the correct answer
+
+## 📝 Practice MCQs
+**1. What is the value of $\int \frac{1}{x} dx$?**
+- A) $\ln|x| + C$
+- B) $\frac{1}{x} + C$
+- C) $x + C$
+- D) $x^2 + C$
+**Answer: A) $\ln|x| + C$**
+**2. Evaluate $\int \frac{x}{x^2+1} dx$**
+- A) $\frac{1}{2} \ln|x^2+1| + C$
+- B) $\frac{1}{2} \ln|x| + C$
+- C) $\tan^{-1}x + C$
+- D) $\sin^{-1}x + C$
+**Answer: A) $\frac{1}{2} \ln|x^2+1| + C$**
+**3. What is the value of $\int \frac{1}{\sqrt{4x-x^2}} dx$?**
+- A) $\sin^{-1} \frac{x-2}{2} + C$
+- B) $\cos^{-1} \frac{x-2}{2} + C$
+- C) $\tan^{-1} \frac{x-2}{2} + C$
+- D) $\sec^{-1} \frac{x-2}{2} + C$
+**Answer: A) $\sin^{-1} \frac{x-2}{2} + C$**
+**4. Evaluate $\int \frac{1}{x^2+4x+5} dx$**
+- A) $\tan^{-1}(x+2) + C$
+- B) $\tan^{-1}(x-2) + C$
+- C) $\sin^{-1}(x+2) + C$
+- D) $\cos^{-1}(x+2) + C$
+**Answer: A) $\tan^{-1}(x+2) + C$**
+**5. What is the value of $\int \frac{1}{x\sqrt{x^2-1}} dx$?**
+- A) $\sec^{-1}x + C$
+- B) $\cosh^{-1}x + C$
+- C) $\sinh^{-1}x + C$
+- D) $\tanh^{-1}x + C$
+**Answer: A) $\sec^{-1}x + C$**
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/integrals-class-12-notes) now and track your progress against thousands of students.
-
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/integrals-class-12-notes) now and track your progress against thousands of students.
 
 ---
-
-## 📚 Related Topics
-
-Continue your revision with these related guides:
-
-- 📖 [Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-integrals-class-12-notes)
-- 📖 [Continuity and Differentiability Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/continuity-and-differentiability-class-12-notes)
-- 📖 [Determinants Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/determinants-class-12-notes)
-- 📖 [Differential Equations Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/differential-equations-class-12-notes)
-
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

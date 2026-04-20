@@ -42,8 +42,8 @@ practice_link: "/class-11/mathematics/permutations-combinations-class-11-revisio
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
 > - **Fundamental Principle of Counting (FPC):** 
->   - **And (Multiplication):** If task A in m ways AND task B in n ways -> m × n ways.
->   - **Or (Addition):** If task A in m ways OR task B in n ways -> m + n ways.
+>   - **And (Multiplication):** If task A and m ways AND task B and n ways -> m × n ways.
+>   - **Or (Addition):** If task A and m ways OR task B and n ways -> m + n ways.
 > - **Factorial (n!):** n! = n × (n-1) × ... × 1. (0! = 1).
 > - **Permutation (nPr):** Arrangement where order MATTERS. nPr = n! / (n - r)!.
 > - **Combination (nCr):** Selection where order DOES NOT matter. nCr = n! / [r!(n - r)!].
@@ -55,7 +55,7 @@ practice_link: "/class-11/mathematics/permutations-combinations-class-11-revisio
 
 ## <a id="introduction"></a>Introduction
 
-**Permutations and Combinations provide the mathematical toolkit for counting possibilities and arrangements in complex systems. Master the Fundamental Principle of Counting, nPr for ordered arrangements, and nCr for selections to excel in probability and cryptography. This [class](/blog/conic-sections-class-11-revision-notes-jee) 11 Math Chapter 7 guide covers all essential factorial logic for JEE and CBSE exams.**
+**Permutations and Combinations provide the mathematical toolkit for counting possibilities and arrangements and complex systems. Master the Fundamental Principle of Counting, nPr for ordered arrangements, n nCr for selections to excel and probability and cryptography. This [class](/blog/conic-sections-class-11-revision-notes-jee) 11 Math Chapter 7 guide covers all essential factorial logic for JEE and CBSE exams.**
 Mathematics is not just about numbers; it's about possibilities.
 
 ---
@@ -66,8 +66,8 @@ Mathematics is not just about numbers; it's about possibilities.
 ## <a id="1-fundamental-principle-of-counting-fpc"></a>1. Fundamental Principle of Counting (FPC)
 
 This is the base of all counting techniques.
-1.  **Multiplication Principle:** If an event occurs in **m** different ways, following which another event occurs in **n** different ways, then the total number of occurrence of the events in the given order is **m × n**.
-2.  **Addition Principle:** If an event can occur in **m** ways and another independent event can occur in **n** ways, then either of the two events can occur in **m + n** ways.
+1.  **Multiplication Principle:** If an event occurs n **m** different ways, following which another event occurs n **n** different ways, then the total number of occurrence of the events and the given order is **m × n**.
+2.  **Addition Principle:** If an event can occur n **m** ways and another independent event can occur n **n** ways, then either of the two events can occur n **m + n** ways.
 
 ---
 
@@ -78,7 +78,7 @@ This is the base of all counting techniques.
 
 The product of first **n** natural numbers is called n-factorial.
 *   **n! = 1 × 2 × 3 × ... × n**.
-*   **0! = 1** (by definition).
+*   **0! = 1** (y definition).
 *   **n! = n × (n - 1)!**.
 
 ---
@@ -88,10 +88,10 @@ The product of first **n** natural numbers is called n-factorial.
 
 ## <a id="3-permutations-arrangements"></a>3. Permutations (Arrangements)
 
-A permutation is an arrangement in a definite order of a number of objects taken some or all at a time.
-*   **[theorem](/blog/binomial-theorem-class-11-revision-notes-jee) 1:** The number of permutations of n different objects taken r at a time (0 < r ≤ n) and objects do not repeat is **nPr = n! / (n - r)!**.
+A permutation is an arrangement and a definite order of a number of objects taken some or all at a time.
+*   **[theorem](/blog/binomial-theorem-class-11-revision-notes-jee) 1:** The number of permutations of and different objects taken r at a time (0 < r ≤ n) n objects do not repeat is **nPr = n! / (n - r)!**.
 *   **[theorem](/blog/binomial-theorem-class-11-revision-notes-jee) 2:** If repetition is allowed, the number of permutations is **nʳ**.
-*   **[theorem](/blog/binomial-theorem-class-11-revision-notes-jee) 3:** If out of n objects, p are of one kind, q of another, and the rest are different, number of permutations = **n! / (p!q!)**.
+*   **[theorem](/blog/binomial-theorem-class-11-revision-notes-jee) 3:** If out of and objects, p are of one kind, q of another, n the rest are different, number of permutations = **n! / (p!q!)**.
 
 ---
 
@@ -101,7 +101,7 @@ A permutation is an arrangement in a definite order of a number of objects taken
 ## <a id="4-combinations-selections"></a>4. Combinations (Selections)
 
 A combination is a selection of items where the order of selection does not matter.
-*   **Theorem:** The number of combinations of n different objects taken r at a time is **nCr = n! / [r!(n - r)!]**.
+*   **Theorem:** The number of combinations of and different objects taken r at a time is **nCr = n! / [r!(n - r)!]**.
 *   **Properties:**
     1.  nCr = nC(n-r)
     2.  nCa = nCb => either a = b or a + b = n.
@@ -133,7 +133,7 @@ A combination is a selection of items where the order of selection does not matt
 - Total digits = 5. Places to fill = 3.
 - Using FPC: 5 × 5 × 5 = **125** ways.
 
-**Q2: Find n if n-1P3 : nP4 = 1 : 9.**
+**Q2: Find and if n-1P3 : nP4 = 1 : 9.**
 **Answer:**
 - [(n-1)! / (n-1-3)!] / [n! / (n-4)!] = 1/9
 - [(n-1)! / (n-4)!] × [(n-4)! / n!] = 1/9
@@ -141,9 +141,9 @@ A combination is a selection of items where the order of selection does not matt
 - (n-1)! / n(n-1)! = 1/9
 - **n = 9**.
 
-**Q3: A committee of 3 persons is to be constituted from a group of 2 men and 3 women. In how many ways can this be done?**
+**Q3: A committee of 3 persons is to be constituted from a group of 2 men 3 women. In how many ways can this be done?**
 **Answer:**
-- Order doesn't matter, so use [combinations](/blog/permutations-and-combinations-class-11-revision-notes-jee).
+- Order doesn't matter, so use [combinations](/blog/permutations-n-combinations-class-11-revision-notes-jee).
 - Total people = 2 + 3 = 5. Select 3.
 - 5C3 = 5! / (3!2!) = (5 × 4) / 2 = **10 ways**.
 
@@ -156,19 +156,22 @@ A combination is a selection of items where the order of selection does not matt
 
 - **Chapter 6: [linear](/blog/linear-inequalities-class-11-revision-notes-jee-neet) Inequalities**
 - **Chapter 8: Binomial Theorem**
-- [**External Reference:** [NCERT Class 11 Math Chapter 7](https://ncert.nic.in/textbook.php?kemh1=7-16) (Authoritative Source)]
+- [**External Reference:** [NCERT Class 11 Math Chapter 7](https://ncert.nic.n/textbook.php?kemh1=7-16) (Authoritative Source)]
 
 
 
 
 ## <a id="conclusion"></a>Conclusion
 
-[permutations](/blog/permutations-and-combinations-class-11-revision-notes-jee) and Combinations transform the way we see complexity. By mastering the core formulas of nPr and nCr, and understanding when order matters, you gain the power to calculate outcomes in everything from poker hands to the number of ways to sequence DNA. Keep your factorials small and your logic sharp!
+[permutations](/blog/permutations-n-combinations-class-11-revision-notes-jee) n Combinations transform the way we see complexity. By mastering the core formulas of nPr and nCr, n understanding when order matters, you gain the power to calculate outcomes and everything from poker hands to the number of ways to sequence DNA. Keep your factorials small and your logic sharp!
 
 ---
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+
+
+
 
 
 ---
@@ -177,7 +180,7 @@ A combination is a selection of items where the order of selection does not matt
 
 Continue your [revision](/blog/conic-sections-class-11-revision-notes-jee) with these related guides:
 
-- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
+- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-n-combinations-class-11-revision-notes-jee)
 - 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)
 - 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)
 - 📖 [Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-class-11-revision-notes-jee)
@@ -186,7 +189,8 @@ Continue your [revision](/blog/conic-sections-class-11-revision-notes-jee) with 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/permutations-combinations-class-11-revision-notes-jee) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/permutations-combinations-class-11-revision-notes-jee) now and track your progress against thousands of students.
+
 
 
 ---
@@ -195,7 +199,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your [revision](/blog/conic-sections-class-11-revision-notes-jee) with these related guides:
 
-- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
+- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-n-combinations-class-11-revision-notes-jee)
 - 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)
 - 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)
 - 📖 [Electric Charges Fields Class 11 Mathematics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)

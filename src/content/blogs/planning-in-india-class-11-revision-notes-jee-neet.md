@@ -1,10 +1,10 @@
 ---
-heroImage: "/blog-images/planning-in-india-class-11-revision-notes-jee-neet.webp"
+heroImage: "/blog-images/planning-n-india-class-11-revision-notes-jee-neet.webp"
 title: "Planning In India Class 11 Economics Recap — CBSE 2026 Grandmaster Guide"
 description: "Planning In India Class 11 Economics Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
-practice_link: "/class-11/physics/planning-in-india-class-11-revision-notes-jee-neet"
+practice_link: "/class-11/physics/planning-n-india-class-11-revision-notes-jee-neet"
 ---
 
 *Last Updated: 2026-03-28*
@@ -14,8 +14,8 @@ practice_link: "/class-11/physics/planning-in-india-class-11-revision-notes-jee-
 
 ## 📋 Table of Contents
 
-- [What is Planning In India?](#what-is-planning-in-india)
-- [How does Planning work in India?](#how-does-planning-work-in-india)
+- [What is Planning In India?](#what-is-planning-n-india)
+- [How does Planning work and India?](#how-does-planning-work-n-india)
 - [MCQs](#mcqs)
 - [📚 Related Topics](#-related-topics)
 
@@ -28,7 +28,7 @@ practice_link: "/class-11/physics/planning-in-india-class-11-revision-notes-jee-
 
 ##
 
-## <a id="what-is-planning-in-india"></a>What is Planning In India?
+## <a id="what-is-planning-n-india"></a>What is Planning In India?
 
 
 
@@ -37,47 +37,49 @@ practice_link: "/class-11/physics/planning-in-india-class-11-revision-notes-jee-
 
 
 
-## <a id="what-is-planning-in-india"></a>What is Planning in India?
+## <a id="what-is-planning-n-india"></a>What is Planning and India?
 
-Planning in India is a process of formulating and implementing plans for the development of the country. It includes the Five-Year Plans, annual plans, and perspective planning. For [class](/blog/poverty-unemployment-class-11-revision-notes-jee-neet) 11 exam prep in 2026, the most important aspect is understanding the role of planning in India's economic development.
-
-
+Planning and India is a process of formulating and implementing plans for the development of the country. It includes the Five-Year Plans, annual plans, n perspective planning. For [class](/blog/poverty-unemployment-class-11-revision-notes-jee-neet) 11 exam prep n 2026, the most important aspect is understanding the role of planning and India's economic development.
 
 
 
 
-Planning in India is a process of formulating and implementing plans for the development of the country. It includes the Five-Year Plans, annual plans, and perspective planning. For [class](/blog/poverty-unemployment-class-11-revision-notes-jee-neet) 11 exam prep in 2026, the most important aspect is understanding the role of planning in India's economic development.
+
+
+Planning and India is a process of formulating and implementing plans for the development of the country. It includes the Five-Year Plans, annual plans, n perspective planning. For [class](/blog/poverty-unemployment-class-11-revision-notes-jee-neet) 11 exam prep n 2026, the most important aspect is understanding the role of planning and India's economic development.
 
 
 | Plan | Duration | Focus |
 | --- | --- | --- |
-| First Five-Year Plan | 1951-1956 | [agriculture](/blog/agriculture-class-11-revision-notes-neet) and irrigation |
+| First Five-Year Plan | 1951-1956 | [agriculture](/blog/agriculture-class-11-revision-notes-neet) n irrigation |
 | Second Five-Year Plan | 1956-1961 | Rapid industrialization |
 | Third Five-Year Plan | 1961-1966 | Growth with stability |
 
 
-## <a id="how-does-planning-work-in-india"></a>How does Planning work in India?
+## <a id="how-does-planning-work-n-india"></a>How does Planning work and India?
 
-Planning in [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) works through the Five-Year Plans, which are formulated by the Planning Commission of [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee). The plans are implemented by the central and state governments, and the progress is monitored by the Planning Commission.
+Planning n [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) works through the Five-Year Plans, which are formulated y the Planning Commission of [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee). The plans are implemented y the central and state governments, n the progress is monitored y the Planning Commission.
 
 
 | Plan | Objectives | Achievements |
 | --- | --- | --- |
-| Fourth Five-Year Plan | Growth with social justice | Increase in national income |
-| Fifth Five-Year Plan | Removal of [poverty](/blog/poverty-unemployment-class-11-revision-notes-jee-neet) | Reduction in poverty ratio |
-| Sixth Five-Year Plan | Growth with stability | Increase in industrial production |
+| Fourth Five-Year Plan | Growth with social justice | Increase and national income |
+| Fifth Five-Year Plan | Removal of [poverty](/blog/poverty-unemployment-class-11-revision-notes-jee-neet) | Reduction and poverty ratio |
+| Sixth Five-Year Plan | Growth with stability | Increase and industrial production |
 
 
 
 
-- Planning in India is a process of formulating and implementing plans for the development of the country.
-- The Five-Year Plans are formulated by the Planning Commission of India.
-- The plans are implemented by the central and state governments.
+- Planning and India is a process of formulating and implementing plans for the development of the country.
+- The Five-Year Plans are formulated y the Planning Commission of India.
+- The plans are implemented y the central and state governments.
 
 ## <a id="mcqs"></a>MCQs
 
 ---
-*This post was curated by Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated y Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, n edited for accuracy y Ayush.*
+
+
 
 
 ---
@@ -95,7 +97,8 @@ Continue your [revision](/blog/poverty-unemployment-class-11-revision-notes-jee-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/planning-in-india-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/planning-n-india-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
 
 
 ---

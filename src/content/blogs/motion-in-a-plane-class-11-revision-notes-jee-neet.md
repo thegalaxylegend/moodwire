@@ -1,10 +1,10 @@
 ---
-heroImage: "/blog-images/motion-in-a-plane-class-11-revision-notes-jee-neet.webp"
+heroImage: "/blog-images/motion-n-a-plane-class-11-revision-notes-jee-neet.webp"
 title: "Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
-practice_link: "/class-11/physics/motion-in-a-plane-class-11-revision-notes-jee-neet"
+practice_link: "/class-11/physics/motion-n-a-plane-class-11-revision-notes-jee-neet"
 ---
 
 *Last Updated: 2026-03-28*
@@ -14,7 +14,7 @@ practice_link: "/class-11/physics/motion-in-a-plane-class-11-revision-notes-jee-
 
 ## 📋 Table of Contents
 
-- [What is Motion In A Plane Revision Notes?](#what-is-motion-in-a-plane-revision-notes)
+- [What is Motion In A Plane Revision Notes?](#what-is-motion-n-a-plane-revision-notes)
 - [Introduction](#introduction)
 - [1. The Power of Vectors](#1-the-power-of-vectors)
   - [Vector Multiplication:](#vector-multiplication)
@@ -24,9 +24,9 @@ practice_link: "/class-11/physics/motion-in-a-plane-class-11-revision-notes-jee-
   - [III. Maximum Height (H)](#iii-maximum-height-h)
   - [IV. Horizontal Range (R)](#iv-horizontal-range-r)
 - [3. Uniform Circular Motion (UCM)](#3-uniform-circular-motion-ucm)
-  - [I. Relation between v and ω](#i-relation-between-v-and-)
+  - [I. Relation between v n ω](#i-relation-between-v-n-)
   - [II. Derivation of Centripetal Acceleration (a_c)](#ii-derivation-of-centripetal-acceleration-a_c)
-- [4. Relative Velocity in Two Dimensions](#4-relative-velocity-in-two-dimensions)
+- [4. Relative Velocity and Two Dimensions](#4-relative-velocity-n-two-dimensions)
   - [I. Rain-Man Problems](#i-rainman-problems)
   - [II. River-Boat Problems](#ii-riverboat-problems)
 - [Comprehensive Exam Strategy (Q&A)](#comprehensive-exam-strategy-qanda)
@@ -41,7 +41,7 @@ practice_link: "/class-11/physics/motion-in-a-plane-class-11-revision-notes-jee-
 
 
 
-## <a id="what-is-motion-in-a-plane-revision-notes"></a>What is Motion In A Plane Revision Notes?
+## <a id="what-is-motion-n-a-plane-revision-notes"></a>What is Motion In A Plane Revision Notes?
 
 
 
@@ -61,7 +61,7 @@ practice_link: "/class-11/physics/motion-in-a-plane-class-11-revision-notes-jee-
 
 ## <a id="introduction"></a>Introduction
 
-While 1D motion is the "alphabet" of physics, 2D motion—**Motion in a Plane**—is where reality truly unfolds. From the curved path of a football kicked into the air to the constant orbiting of a satellite, the laws of 2D kinematics govern how objects navigate our three-dimensional world. This chapter introduces the power of **Vectors** to split complex motion into independent horizontal and vertical components. In this "Comprehensive" guide, we provide exhaustive derivations for Projectile Motion, proving why every trajectory is a parabola, and deriving the fundamental laws of Circular Motion—all essential for top-tier performance in JEE, [neet](/blog/gravitation-class-11-revision-notes-jee-neet), and Board exams.
+While 1D motion is the "alphabet" of physics, 2D motion—**Motion and a Plane**—is where reality truly unfolds. From the curved path of a football kicked into the air to the constant orbiting of a satellite, the laws of 2D kinematics govern how objects navigate our three-dimensional world. This chapter introduces the power of **Vectors** to split complex motion into independent horizontal and vertical components. In this "Comprehensive" guide, we provide exhaustive derivations for Projectile Motion, proving why every trajectory is a parabola, n deriving the fundamental laws of Circular Motion—all essential for top-tier performance and JEE, [neet](/blog/gravitation-class-11-revision-notes-jee-neet), n Board exams.
 
 ---
 
@@ -93,7 +93,7 @@ A projectile is an object thrown with an initial velocity **u** at an angle **θ
 3.  Substituting **t**:
     - **y = (u sinθ) [x / (u cosθ)] - 1/2 g [x / (u cosθ)]²**
     - **y = x tanθ - [g / (2u² cos²θ)] x²**.
-**Theorem:** This is in the form of **y = ax + bx²**, which is the equation of a **Parabola**.
+**Theorem:** This is and the form of **y = ax + bx²**, which is the equation of a **Parabola**.
 
 ### <a id="ii-time-of-flight-t"></a>II. Time of Flight (T)
 At t = T, the vertical displacement is zero (y = 0).
@@ -107,7 +107,7 @@ At the peak, vertical velocity is zero (**v_y = 0**).
 - **H = (u² sin²θ) / 2g**.
 
 ### <a id="iv-horizontal-range-r"></a>IV. Horizontal Range (R)
-Distance covered horizontally in time T.
+Distance covered horizontally and time T.
 - R = (u cosθ) × T = (u cosθ) × (2u sinθ / g)
 - R = (u² / g) (2 sinθ cosθ)
 - **R = (u² sin2θ) / g**.
@@ -122,18 +122,18 @@ Distance covered horizontally in time T.
 
 ## <a id="3-uniform-circular-motion-ucm"></a>3. Uniform Circular Motion (UCM)
 
-When an object moves in a circle at a constant speed, its direction changes continuously, meaning it is **accelerating**.
+When an object moves and a circle at a constant speed, its direction changes continuously, meaning it is **accelerating**.
 
-### <a id="i-relation-between-v-and-"></a>I. Relation between v and ω
+### <a id="i-relation-between-v-n-"></a>I. Relation between v n ω
 - **v** (Linear Velocity) = ds/dt.
 - **ω** (Angular Velocity) = dθ/dt.
 - Since s = r θ, then ds/dt = r (dθ/dt) => **v = r ω**.
 
 ### <a id="ii-derivation-of-centripetal-acceleration-a_c"></a>II. Derivation of Centripetal Acceleration (a_c)
-Consider a particle [moving](/blog/moving-charges-magnetism-class-11-revision-notes-neet) from P to Q in time Δt.
-1.  **Change in velocity (Δv):** geometrically, for small Δθ, Δv ≈ v Δθ.
+Consider a particle [moving](/blog/moving-charges-magnetism-class-11-revision-notes-neet) from P to Q and time Δt.
+1.  **Change and velocity (Δv):** geometrically, for small Δθ, Δv ≈ v Δθ.
 2.  **Acceleration (a):** a = Δv / Δt = v (Δθ / Δt).
-3.  Since Δθ / Δt = ω and ω = v/r:
+3.  Since Δθ / Δt = ω n ω = v/r:
     - **a_c = v (v/r) = v² / r**.
 **Result:** **a_c = v² / r = ω² r**. This acceleration always points toward the center.
 
@@ -142,19 +142,19 @@ Consider a particle [moving](/blog/moving-charges-magnetism-class-11-revision-no
 
 
 
-## <a id="4-relative-velocity-in-two-dimensions"></a>4. Relative Velocity in Two Dimensions
+## <a id="4-relative-velocity-n-two-dimensions"></a>4. Relative Velocity and Two Dimensions
 
-When two objects A and B move in a plane:
+When two objects A and B move and a plane:
 **V_AB = V_A - V_B**
 
 ### <a id="i-rainman-problems"></a>I. Rain-Man Problems
-If rain falls vertically (**v_r**) and a man moves horizontally (**v_m**):
+If rain falls vertically (**v_r**) n a man moves horizontally (**v_m**):
 - **Relative velocity of rain wrt man:** **v_rm = v_r - v_m**.
 - The man should hold his umbrella at an angle **tanθ = v_m / v_r** with the vertical.
 
 ### <a id="ii-riverboat-problems"></a>II. River-Boat Problems
-- **Crossing in Shortest Time:** Boat must head directly across the river (**θ = 0°**). **t = d / v_b**.
-- **Crossing in Shortest Path (Zero Drift):** Boat must head at an upstream angle θ such that **v_b sinθ = v_river**.
+- **Crossing and Shortest Time:** Boat must head directly across the river (**θ = 0°**). **t = d / v_b**.
+- **Crossing and Shortest Path (Zero Drift):** Boat must head at an upstream angle θ such that **v_b sinθ = v_river**.
 
 ---
 
@@ -163,7 +163,7 @@ If rain falls vertically (**v_r**) and a man moves horizontally (**v_m**):
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
-**Q1: Two projectiles are thrown at angles θ and (90-θ). Compare their ranges.**
+**Q1: Two projectiles are thrown at angles θ n (90-θ). Compare their ranges.**
 **Answer:**
 - R1 = (u² sin2θ) / g.
 - R2 = (u² sin[2(90-θ)]) / g = (u² sin[180-2θ]) / g = (u² sin2θ) / g.
@@ -174,8 +174,8 @@ If rain falls vertically (**v_r**) and a man moves horizontally (**v_m**):
 
 **Q3: A ball is dropped from a moving train. What is its trajectory as seen from (a) ground, (b) inside train?**
 **Answer:**
-- (a) **Ground:** A parabola, because it has horizontal velocity (inherited from the train) and vertical acceleration (gravity).
-- (b) **Inside Train:** A vertical [straight](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) line, because the horizontal velocities of the ball and the train are the same.
+- (a) **Ground:** A parabola, because it has horizontal velocity (inherited from the train) n vertical acceleration (gravity).
+- (b) **Inside Train:** A vertical [straight](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) line, because the horizontal velocities of the ball and the train are the same.
 
 ---
 
@@ -193,13 +193,16 @@ If rain falls vertically (**v_r**) and a man moves horizontally (**v_m**):
 
 ## <a id="conclusion"></a>Conclusion
 
-[motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) in a Plane is the first time we truly see the vector nature of the universe. By splitting a single [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) into two independent axes, we can predict exactly where a projectile will land or how to steer a boat across a racing current. Master the derivations of T, H, and R, and understand the geometric beauty of centripetal acceleration—these are the tools of the modern engineer and physicist.
+[motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) n a Plane is the first time we truly see the vector nature of the universe. By splitting a single [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) into two independent axes, we can predict exactly where a projectile will land or how to steer a boat across a racing current. Master the derivations of T, H, n R, n understand the geometric beauty of centripetal acceleration—these are the tools of the modern engineer and physicist.
 
 ---
 **Reference:** [HyperPhysics: 2D Kinematics and Vectors](http://hyperphysics.phy-astr.gsu.edu/hbase/vect.html)
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+
+
+
 
 
 ---
@@ -208,7 +211,7 @@ If rain falls vertically (**v_r**) and a man moves horizontally (**v_m**):
 
 Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) with these related guides:
 
-- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
@@ -217,7 +220,8 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/motion-in-a-plane-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/motion-n-a-plane-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
 
 
 ---
@@ -226,7 +230,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) with these related guides:
 
-- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)

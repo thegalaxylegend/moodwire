@@ -60,22 +60,22 @@ Last Updated: March 15, 2026
 
 ## <a id="introduction-to-hydrocarbons"></a>Introduction to Hydrocarbons
 
-Hydrocarbons are organic compounds that consist only of [hydrogen](/blog/hydrogen-class-11-revision-notes-neet) and carbon atoms. Hydrocarbons can be classified into two main categories: aliphatic and aromatic. Aliphatic hydrocarbons can be further divided into saturated (alkanes) and unsaturated (alkenes and alkanes) hydrocarbons. Aromatic hydrocarbons, on the other hand, contain a benzene ring.
+Hydrocarbons are organic compounds that consist only of [hydrogen](/blog/hydrogen-class-11-revision-notes-neet) n carbon atoms. Hydrocarbons can be classified into two main categories: aliphatic and aromatic. Aliphatic hydrocarbons can be further divided into saturated (alkanes) n unsaturated (alkenes and alkanes) hydrocarbons. Aromatic hydrocarbons, on the other hand, contain a benzene ring.
 
 
 
 
 ## <a id="why-hydrocarbons-matter"></a>Why Hydrocarbons Matter
 
-Hydrocarbons are an essential topic in organic chemistry, and understanding them is crucial for students preparing for JEE and [meet](/blog/hydrogen-class-11-revision-notes-neet) exams. In the 2026 JEE Mains Session 1, 4 questions came from this topic. Hydrocarbons are also relevant in various industries, such as petroleum and pharmaceuticals.
+Hydrocarbons are an essential topic and organic chemistry, n understanding them is crucial for students preparing for JEE n [meet](/blog/hydrogen-class-11-revision-notes-neet) exams. In the 2026 JEE Mains Session 1, 4 questions came from this topic. Hydrocarbons are also relevant and various industries, such as petroleum and pharmaceuticals.
 
 
 
 
 ## <a id="Ayush-note"></a>Ayush's Note
 
-<DIV [class](/blog/animal-kingdom-class-11-revision-notes-neet)="callout-box">
-I still remember when I was preparing for my JEE exams, I used to get confused between alkanes, alkenes, and alkanes. One mistake I made was not being able to distinguish between the general formula of alkanes (CnH2n+2) and alkenes (CnH2n). However, I realized that understanding the general formula and the structural differences between these compounds is crucial. I made a cheat sheet with the general formulas and structures of different hydrocarbons, which helped me to quickly identify and solve problems.
+<\\div [class](/blog/animal-kingdom-class-11-revision-notes-neet)="callout-box">
+I still remember when I was preparing for my JEE exams, I used to get confused between alkanes, alkenes, n alkanes. One mistake I made was not being able to distinguish between the general formula of alkanes (CnH2n+2) n alkenes (CnH2n). However, I realized that understanding the general formula and the structural differences between these compounds is crucial. I made a cheat sheet with the general formulas and structures of different hydrocarbons, which helped me to quickly identify and solve problems.
 </div>
 
 
@@ -171,16 +171,19 @@ Answer: c) Ethane
 - Alcohols [class](/blog/hydrogen-class-11-revision-notes-neet) 11 Notes
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+
+
+
 
 
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your [revision](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) with these related guides:
+Continue your [revision](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet) with these related guides:
 
-- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)
+- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet)
 - 📖 [Redox Reactions Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/redox-reactions-class-11-revision-notes-neet)
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Hydrogen Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)
@@ -189,16 +192,17 @@ Continue your [revision](/blog/cell-cycle-and-cell-division-class-11-revision-no
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/hydrocarbons-class-11-revision-notes-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/hydrocarbons-class-11-revision-notes-neet) now and track your progress against thousands of students.
+
 
 
 ---
 
 ## 📚 Related Topics
 
-Continue your [revision](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) with these related guides:
+Continue your [revision](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet) with these related guides:
 
-- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)
+- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet)
 - 📖 [Redox Reactions Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/redox-reactions-class-11-revision-notes-neet)
 - 📖 [Hydrogen Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)

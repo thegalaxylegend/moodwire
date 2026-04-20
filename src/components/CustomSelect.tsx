@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronDown, Check } from 'lucide-react';
+import { usePerformance } from '../context/PerformanceProvider';
 
 interface Option {
     value: string;
@@ -16,6 +17,7 @@ interface CustomSelectProps {
     icon?: React.ReactNode;
     required?: boolean;
     placement?: 'top' | 'bottom';
+    compact?: boolean;
 }
 
 export const CustomSelect = ({
@@ -26,10 +28,13 @@ export const CustomSelect = ({
     placeholder = "Select an option",
     icon,
     required = false,
-    placement = 'bottom'
+    placement = 'bottom',
+    compact = false
 }: CustomSelectProps) => {
     const [isOpen, setIsOpen] = useState(false);
     const containerRef = useRef<HTMLDivElement>(null);
+    const { tier } = usePerformance();
+    const isLow = tier === 'low';
 
     const selectedOption = options.find(opt => opt.value === value);
 
@@ -52,61 +57,84 @@ export const CustomSelect = ({
     return (
         <div className="space-y-2 relative" ref={containerRef}>
             {label && (
-                <label className="text-sm font-medium text-text-main">
+                <label className="text-sm font-bold text-text-muted uppercase tracking-widest px-1">
                     {label} {required && <span className="text-red-500">*</span>}
                 </label>
             )}
 
-            <div className="relative z-[9999]">
+            <div className="relative z-[100]">
                 {/* Trigger Button */}
                 <button
                     type="button"
                     onClick={() => setIsOpen(!isOpen)}
-                    className={`w-full bg-surface border ${isOpen ? 'border-primary ring-2 ring-primary/20' : 'border-border'} rounded-lg py-3 pl-4 pr-10 text-left flex items-center gap-3 transition-all duration-200 hover:bg-surface/80 group`}
+                    className={`w-full bg-surface/50 backdrop-blur-md border ${isOpen ? 'border-primary ring-4 ring-primary/10' : 'border-white/10 hover:border-white/20'} rounded-2xl ${compact ? 'py-2 pl-4 pr-10' : 'py-4 pl-5 pr-12'} text-left flex items-center gap-3 transition-all duration-500 hover:bg-white/5 group relative overflow-hidden`}
                 >
-                    {icon && <span className="text-text-muted group-hover:text-primary transition-colors">{icon}</span>}
+                    {/* Subtle inner glow */}
+                    <div className={`absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700`} />
+                    
+                    {icon && <span className="text-text-muted group-hover:text-primary transition-colors relative z-10">{icon}</span>}
 
-                    <span className={`block truncate ${!selectedOption ? 'text-text-muted/70' : 'text-text-main'}`}>
+                    <span className={`block truncate font-bold relative z-10 ${compact ? 'text-xs' : 'text-lg'} ${!selectedOption ? 'text-text-muted/70' : 'text-white'}`}>
                         {selectedOption ? selectedOption.label : placeholder}
                     </span>
 
-                    <span className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none text-text-muted transition-transform duration-200" style={{ transform: isOpen ? 'translateY(-50%) rotate(180deg)' : 'translateY(-50%)' }}>
-                        <ChevronDown size={18} />
-                    </span>
+                    <div className="absolute right-5 inset-y-0 flex items-center pointer-events-none z-10">
+                        <div 
+                            className="transition-transform duration-500"
+                            style={{ transform: isOpen ? 'rotate(180deg)' : 'rotate(0deg)' }}
+                        >
+                            <ChevronDown size={22} className={isOpen ? 'text-primary' : 'text-text-muted'} />
+                        </div>
+                    </div>
                 </button>
 
-                {/* Dropdown Menu - Opens UPWARD to avoid overflow */}
+                {/* Dropdown Menu */}
                 <AnimatePresence>
                     {isOpen && (
                         <motion.div
-                            initial={{ opacity: 0, y: 10, scale: 0.98 }}
-                            animate={{ opacity: 1, y: 0, scale: 1 }}
-                            exit={{ opacity: 0, y: 10, scale: 0.98 }}
-                            transition={{ duration: 0.2, ease: "easeOut" }}
-                            className={`absolute ${placement === 'top' ? 'bottom-full mb-2 origin-bottom' : 'top-full mt-2 origin-top'} z-[999] w-full bg-surface backdrop-blur-xl border border-border rounded-lg shadow-xl max-h-48 overflow-y-auto overflow-x-hidden custom-scrollbar`}
-                            style={{
-                                boxShadow: '0 -10px 40px -10px rgba(0,0,0,0.5)'
-                            }}
+                            initial={isLow ? { opacity: 0 } : { opacity: 0, y: placement === 'top' ? 10 : -10, scale: 0.95 }}
+                            animate={isLow ? { opacity: 1 } : { opacity: 1, y: 0, scale: 1 }}
+                            exit={isLow ? { opacity: 0 } : { opacity: 0, y: placement === 'top' ? 10 : -10, scale: 0.95 }}
+                            transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
+                            className={`absolute ${placement === 'top' ? 'bottom-full mb-3 origin-bottom' : 'top-full mt-3 origin-top'} z-[110] w-full bg-[#0a0a0a]/95 backdrop-blur-2xl border border-white/10 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] max-h-64 overflow-y-auto overflow-x-hidden custom-scrollbar`}
                         >
-                            <div className="p-1">
-                                {options.map((option) => {
+                            {/* Dropdown Arrow Decor */}
+                            {!isLow && (
+                                <div className={`absolute ${placement === 'top' ? '-bottom-1.5' : '-top-1.5'} left-8 w-3 h-3 bg-[#0a0a0a] border-l border-t border-white/10 rotate-45 z-0`} 
+                                     style={placement === 'top' ? { transform: 'rotate(225deg)' } : {}}
+                                />
+                            )}
+                            
+                            <div className="p-2 relative z-10">
+                                {options.map((option, i) => {
                                     const isSelected = option.value === value;
                                     return (
-                                        <button
+                                        <motion.button
                                             key={option.value}
                                             type="button"
+                                            initial={isLow ? {} : { opacity: 0, x: -10 }}
+                                            animate={isLow ? {} : { opacity: 1, x: 0 }}
+                                            transition={{ delay: i * 0.03, duration: 0.3 }}
                                             onMouseDown={(e) => {
                                                 e.preventDefault();
                                                 handleSelect(option.value);
                                             }}
-                                            className={`w-full flex items-center justify-between px-3 py-2.5 rounded-md text-sm cursor-pointer select-none transition-colors ${isSelected
-                                                ? 'bg-primary/20 text-primary font-medium'
-                                                : 'text-text-main hover:bg-primary/20'
+                                            className={`w-full flex items-center justify-between px-4 py-3.5 rounded-xl text-base cursor-pointer select-none transition-all duration-300 group ${isSelected
+                                                ? 'bg-primary/20 text-primary font-bold shadow-inner'
+                                                : 'text-gray-300 hover:bg-white/5 hover:text-white hover:translate-x-1'
                                                 }`}
                                         >
                                             <span className="truncate">{option.label}</span>
-                                            {isSelected && <Check size={16} />}
-                                        </button>
+                                            {isSelected && (
+                                                <motion.div
+                                                    initial={isLow ? {} : { scale: 0 }}
+                                                    animate={isLow ? {} : { scale: 1 }}
+                                                    className="w-5 h-5 rounded-full bg-primary/20 flex items-center justify-center"
+                                                >
+                                                    <Check size={14} className="text-primary" />
+                                                </motion.div>
+                                            )}
+                                        </motion.button>
                                     );
                                 })}
                             </div>
@@ -117,3 +145,4 @@ export const CustomSelect = ({
         </div>
     );
 };
+

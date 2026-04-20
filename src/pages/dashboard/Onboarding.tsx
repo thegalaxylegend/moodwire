@@ -29,17 +29,7 @@ export const Onboarding = () => {
     }
 
     const handleNext = () => {
-        if (step === 1) {
-            // Check for Junior Classes
-            const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(formData.userClass);
-            if (isJunior) {
-                setFormData({ ...formData, targetExam: 'School Exams', targetYear: new Date().getFullYear() });
-                setStep(4); // Skip Exam Selection (2) AND Attempt Year (3)
-            } else {
-                setStep(2);
-            }
-        }
-        else if (step < 4) setStep(step + 1);
+        if (step < 4) setStep(step + 1);
         else handleComplete();
     };
 
@@ -100,7 +90,20 @@ export const Onboarding = () => {
                                 {['Class 8th', 'Class 9th', 'Class 10th', 'Class 11th', 'Class 12th', 'Dropper'].map((cls) => (
                                     <button
                                         key={cls}
-                                        onClick={() => setFormData({ ...formData, userClass: cls })}
+                                        onClick={() => {
+                                            const currentYear = new Date().getFullYear();
+                                            let detectedYear = currentYear;
+                                            if (cls === 'Class 8th') detectedYear = currentYear + 4;
+                                            else if (cls === 'Class 9th') detectedYear = currentYear + 3;
+                                            else if (cls === 'Class 10th') detectedYear = currentYear + 2;
+                                            else if (cls === 'Class 11th') detectedYear = currentYear + 1;
+                                            
+                                            setFormData({ 
+                                                ...formData, 
+                                                userClass: cls,
+                                                targetYear: detectedYear
+                                            });
+                                        }}
                                         className={`p-4 rounded-xl border text-center transition-all ${formData.userClass === cls
                                             ? 'bg-secondary/20 border-secondary text-secondary shadow-[0_0_20px_rgba(14,165,233,0.2)]'
                                             : 'bg-surface border-border text-text-muted hover:bg-white/5'
@@ -122,7 +125,7 @@ export const Onboarding = () => {
                             <p className="text-center text-text-muted">Select the mountain you want to conquer.</p>
 
                             <div className="grid grid-cols-2 gap-4 mt-6">
-                                {['JEE Mains', 'NEET UG', 'School Exams'].map((exam) => (
+                                {['JEE', 'NEET'].map((exam) => (
                                     <button
                                         key={exam}
                                         onClick={() => setFormData({ ...formData, targetExam: exam })}
@@ -132,7 +135,7 @@ export const Onboarding = () => {
                                             }`}
                                     >
                                         <span className="font-bold text-lg block">{exam}</span>
-                                        <span className="text-xs opacity-70">{exam === 'School Exams' ? 'Board/School Level' : 'National Level'}</span>
+                                        <span className="text-xs opacity-70">National Level Exam</span>
                                     </button>
                                 ))}
                             </div>

@@ -1,119 +1,105 @@
 ---
 heroImage: "/blog-images/inverse-trigonometric-functions-class-12-notes.webp"
-title: "Inverse Trigonometric Functions Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide"
-description: "Inverse Trigonometric Functions Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
-category: "Revision"
-date: "2026-03-30"
-practice_link: "/class-11/mathematics/inverse-trigonometric-functions-class-12-notes"
+title: "Inverse Trigonometric Functions Class 12 Mathematics Revision — Grandmaster Guide"
+description: "Inverse Trigonometric Functions Class 12 Mathematics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20."
+category: "Exam Notes"
+date: "2026-04-20"
+practice_link: "/practice/inverse-trigonometric-functions-class-12-notes"
+manualReview: false
 ---
 
-*Last Updated: 2026-03-30*
+## ⚡ Formula Bank
+- The inverse trigonometric functions are $\sin^{-1}x$, $\cos^{-1}x$, and $\tan^{-1}x$.
+- The range of $\sin^{-1}x$ is $\left[ -\frac{\pi}{2}, \frac{\pi}{2} \right]$.
+- The range of $\cos^{-1}x$ is $\left[ 0, \pi \right]$.
+- The range of $\tan^{-1}x$ is $\left( -\frac{\pi}{2}, \frac{\pi}{2} \right)$.
+- $\sin^{-1}x = \frac{\pi}{2} - \cos^{-1}x$.
+- $\cos^{-1}x = \frac{\pi}{2} - \sin^{-1}x$.
+- $\tan^{-1}x = \sin^{-1}\left( \frac{x}{\sqrt{1 + x^2}} \right)$.
+- $\sin^{-1}x + \cos^{-1}x = \frac{\pi}{2}$.
+- $\tan^{-1}x + \tan^{-1}y = \tan^{-1}\left( \frac{x + y}{1 - xy} \right)$, $xy < 1$.
+- $\tan^{-1}x - \tan^{-1}y = \tan^{-1}\left( \frac{x - y}{1 + xy} \right)$, $xy > -1$.
 
+## 🪤 The 5 Mistakes That Cost Marks
+- Not checking the domain of the inverse trigonometric function.
+- Not using the correct range of the inverse trigonometric function.
+- Forgetting to use the $\pm$ sign when taking the square root.
+- Not simplifying the expression fully.
+- Not using the identities and formulas to simplify the expression.
 
+## ✏️ 3 Solved PYQs
+- **Question 1:** Find the value of $\sin^{-1}\left( \sin\left( \frac{3\pi}{4} \right) \right)$.
+  - Solution: $\sin^{-1}\left( \sin\left( \frac{3\pi}{4} \right) \right) = \sin^{-1}\left( \sin\left( \pi - \frac{\pi}{4} \right) \right)$.
+  - $= \sin^{-1}\left( \sin\left( \frac{\pi}{4} \right) \right)$, since $\sin(\pi - \theta) = \sin\theta$.
+  - $= \frac{\pi}{4}$, since $\sin^{-1}\left( \sin\theta \right) = \theta$, $\theta \in \left[ -\frac{\pi}{2}, \frac{\pi}{2} \right]$.
+- **Question 2:** Find the value of $\cos^{-1}\left( \cos\left( \frac{5\pi}{4} \right) \right)$.
+  - Solution: $\cos^{-1}\left( \cos\left( \frac{5\pi}{4} \right) \right) = \cos^{-1}\left( \cos\left( \pi + \frac{\pi}{4} \right) \right)$.
+  - $= \cos^{-1}\left( -\cos\left( \frac{\pi}{4} \right) \right)$, since $\cos(\pi + \theta) = -\cos\theta$.
+  - $= \cos^{-1}\left( \cos\left( \pi - \frac{\pi}{4} \right) \right)$, since $\cos(\pi - \theta) = -\cos\theta$.
+  - $= \pi - \frac{\pi}{4}$, since $\cos^{-1}\left( \cos\theta \right) = \theta$, $\theta \in \left[ 0, \pi \right]$.
+  - $= \frac{3\pi}{4}$.
+- **Question 3:** Find the value of $\tan^{-1}\left( \tan\left( \frac{3\pi}{4} \right) \right)$.
+  - Solution: $\tan^{-1}\left( \tan\left( \frac{3\pi}{4} \right) \right) = \tan^{-1}\left( \tan\left( \pi - \frac{\pi}{4} \right) \right)$.
+  - $= \tan^{-1}\left( -\tan\left( \frac{\pi}{4} \right) \right)$, since $\tan(\pi - \theta) = -\tan\theta$.
+  - $= -\frac{\pi}{4}$, since $\tan^{-1}\left( \tan\theta \right) = \theta$, $\theta \in \left( -\frac{\pi}{2}, \frac{\pi}{2} \right)$.
 
+## 🧠 The One Thing Most Students Get Wrong
+- The one thing most students get wrong is not using the correct range of the inverse trigonometric function.
+- For example, $\sin^{-1}\left( \sin\left( \frac{3\pi}{4} \right) \right) = \sin^{-1}\left( \sin\left( \pi - \frac{\pi}{4} \right) \right)$.
+- $= \sin^{-1}\left( \sin\left( \frac{\pi}{4} \right) \right)$, since $\sin(\pi - \theta) = \sin\theta$.
+- $= \frac{\pi}{4}$, since $\sin^{-1}\left( \sin\theta \right) = \theta$, $\theta \in \left[ -\frac{\pi}{2}, \frac{\pi}{2} \right]$.
+- If the student does not use the correct range, they may get $\frac{3\pi}{4}$, which is incorrect.
 
-## 📋 Table of Contents
+## 👁️ Ayush's Note
+- Ayush's note is to always check the domain and range of the inverse trigonometric function.
+- Also, use the identities and formulas to simplify the expression.
+- For example, $\sin^{-1}x = \frac{\pi}{2} - \cos^{-1}x$.
+- And $\tan^{-1}x = \sin^{-1}\left( \frac{x}{\sqrt{1 + x^2}} \right)$.
+- These formulas can help simplify the expression and make it easier to find the value.
 
-- [🎯 What WILL Come in Your Exam](#-what-will-come-in-your-exam)
-- [⚡ Formula Bank](#-formula-bank)
-  - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
-- [📚 Related Topics](#-related-topics)
+## 🔁 Last 5 Minutes Box
+- In the last 5 minutes of the exam, make sure to check the domain and range of the inverse trigonometric function.
+- Use the identities and formulas to simplify the expression.
+- Make sure to use the correct range of the inverse trigonometric function.
+- Check for any common mistakes, such as not using the $\pm$ sign when taking the square root.
+- Make sure to simplify the expression fully.
 
-
-</div>
-
-
-
-
-<div [class](/blog/alcohols-phenols-and-ethers-class-12-notes)="quick-summary">
-
-#- [📋 Table of Contents](#-table-of-contents)
-
-
-
-
-
-
-
-
-
-
-
-
-## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
-* 1 numerical on $\sin^{-1}x$ and its range — always, focusing on finding the value of $\sin^{-1}(\frac{1}{2})$ or similar.
-* Graph of $y = \sin^{-1}x$ — JEE favourite, including identification of its domain and range.
-* 1 question on properties of inverse trigonometric [functions](/blog/relations-and-functions-class-11-notes), specifically:
- + \sin^{-1}(\sin x) = x if x \in [\frac{-\pi}{2}, \frac{\pi}{2}]  + \cos^{-1}(\cos x) = x if x \in [0, \pi]  + \tan^{-1}(\tan x) = x if x \in [\frac{-\pi}{2}, \frac{\pi}{2}] 
-* [derivatives](/blog/application-of-derivatives-class-12-notes) of inverse trigonometric functions — always, including:
- + $\frac{{d}{dx}(\sin^{-1}x) = \frac{1}\sqrt{1-x^2}{\frac{d}{dx}(\cos^{-1}x) = \frac{-1}\sqrt{1-x^2} }
- + }
- + $\frac{{d}{dx}(\tan^{-1}x) = \frac{1}{1+x^2}}{\sin^{-1}(\sin (\frac{\pi}{6}))} 
-* 1 question on simplification of expressions involving inverse trigonometric [functions](/blog/relations-and-functions-class-11-notes), such as:
- + $ + \cos^{-1}(\cos (\frac{\pi}{4})) 
-* 1 numerical on inverse trigonometric functions as limits — always, focusing on evaluating limits of the form $\lim_{x \to 0} \frac{\sin^{-1}x}{x}$.
-* Comparison of inverse trigonometric [functions](/blog/relations-and-functions-class-11-notes) — JEE favourite, including comparison of their ranges, domains, and graphical representations.
-* 1 question on using inverse trigonometric [functions](/blog/relations-and-functions-class-11-notes) to solve trigonometric equations, such as:
- + Solving $\sin x = \frac{1}{2}$ using $\sin^{-1}x$
- + Solving $\cos x = \frac{1}{2}$ using $\cos^{-1}x$
-* Inverse trigonometric [functions](/blog/relations-and-functions-class-11-notes) in terms of logarithms — always, including expressions like:
- + \tan^{-1}x = \frac{i}{2} \ln \frac{1+ix}{1-ix}  + \sin^{-1}x = \frac{i}{2} \ln(i(x+\sqrt{1-x^2})) - \frac{i}{2} \ln(i(x-\sqrt{1-x^2})) 
-
-
-## <a id="-formula-bank"></a>⚡ Formula Bank
-
-$y = \sin^{-1}x$ means $\sin y = x$, $-\frac{\pi}{2} \leq y \leq \frac{\pi}{2}$, $y$ is the angle whose sine is $x$.$y = \cos^{-1}x$ means $\cos y = x$, $0 \leq y \leq \pi$, $y$ is the angle whose cosine is $x$. 
- $y = \tan^{-1}x$ means $\tan y = x$, $-\frac{\pi}{2} < y < \frac{\pi}{2}$, $y$ is the angle whose tangent is $x$.$y = \sec^{-1}x$ means $\sec y = x$, $0 \leq y \leq \pi$, $y$ is the angle whose secant is $x$. 
- $y = \csc^{-1}x$ means $\csc y = x$, $-\frac{\pi}{2} \leq y \leq \frac{\pi}{2}$, $y$ is the angle whose cosecant is $x$.$y = \cot^{-1}x$ means $\cot y = x$, $0 < y < \pi$, $y$ is the angle whose cotangent is $x$. 
- $\sin^{-1}x + \cos^{-1}x = \frac{\pi}{2}$.$\tan^{-1}x + \cot^{-1}x = \frac{\pi}{2}$.$\sec^{-1}x + \csc^{-1}x = \frac{\pi}{2}$.$\frac{{d}{dx}(\sin^{-1}x) = \frac{1}\sqrt{1-x^2}{. 
-} }$ \frac{d}{dx}(\cos^{-1}x) = -\frac{1}\sqrt{1-x^2}. \frac{d}{dx}$(\tan^{-1}x) = $\frac{1}{1+x^2}1 
-
- \frac{{d}{dx}$(\sec^{-1}x) = $\frac{1}{|x|\sqrt{x^2-1}$}}{$\frac{d}{dx}$(\csc^{-1}x) = -$\frac{1}{|x|\sqrt{x^2-1}$}} . 
- $. 
- \frac{{d}{dx}$(\cot^{-1}x) = -$\frac{1}{1+x^2}$}{\sin^{-1}($\frac{1}{x}$) = \cot^{-1}x} . 
- .\cos^{-1}(\frac{1}{x}) = \sec^{-1}x.\tan^{-1}(\frac{1}{x}) = \cot^{-1}x.\sin^{-1}(\cos x) = \frac{\pi}{2} - x.\cos^{-1}(\sin x) = \frac{\pi}{2} - x.\tan^{-1}(\cot x) = \frac{\pi}{2} - x.\sin^{-1}(\tan x) = \frac{\pi}{2} - \tan^{-1}(\frac{1}{x}).\cos^{-1}(\cot x) = \tan^{-1}(\frac{1}{x}).\tan^{-1}(\csc x) = \frac{\pi}{2} - \sin^{-1}(\frac{1}{x}).\sin^{-1}(\sec x) = \frac{\pi}{2} - \cos^{-1}(\frac{1}{x}).\cos^{-1}(\csc x) = \sin^{-1}(\frac{1}{x}). 
-
-
-| Function | Domain | Range |
-|
-
-
----
-
-### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/inverse-trigonometric-functions-class-12-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
-
-## <a id="-related-topics"></a>📚 Related Topics
-
-Continue your revision with these related guides:
-
-- 📖 [Matrices Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/matrices-class-12-notes)
-- 📖 [Alcohols, Phenols and Ethers Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alcohols-phenols-and-ethers-class-12-notes)
-- 📖 [Chemistry in Everyday Life Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/chemistry-in-everyday-life-class-12-notes)
-- 📖 [Polymers Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/polymers-class-12-notes)
-
+## 📝 Practice MCQs
+**1. Question:** Find the value of $\sin^{-1}\left( \sin\left( \frac{2\pi}{3} \right) \right)$.
+- A) $\frac{\pi}{3}$
+- B) $\frac{2\pi}{3}$
+- C) $\frac{4\pi}{3}$
+- D) $\frac{5\pi}{3}$
+**Answer:** A) $\frac{\pi}{3}$, since $\sin^{-1}\left( \sin\theta \right) = \theta$, $\theta \in \left[ -\frac{\pi}{2}, \frac{\pi}{2} \right]$.
+**2. Question:** Find the value of $\cos^{-1}\left( \cos\left( \frac{3\pi}{4} \right) \right)$.
+- A) $\frac{\pi}{4}$
+- B) $\frac{3\pi}{4}$
+- C) $\frac{5\pi}{4}$
+- D) $\frac{7\pi}{4}$
+**Answer:** B) $\frac{3\pi}{4}$, since $\cos^{-1}\left( \cos\theta \right) = \theta$, $\theta \in \left[ 0, \pi \right]$.
+**3. Question:** Find the value of $\tan^{-1}\left( \tan\left( \frac{\pi}{4} \right) \right)$.
+- A) $-\frac{\pi}{4}$
+- B) $\frac{\pi}{4}$
+- C) $\frac{3\pi}{4}$
+- D) $\frac{5\pi}{4}$
+**Answer:** B) $\frac{\pi}{4}$, since $\tan^{-1}\left( \tan\theta \right) = \theta$, $\theta \in \left( -\frac{\pi}{2}, \frac{\pi}{2} \right)$.
+**4. Question:** Find the value of $\sin^{-1}\left( \sin\left( \frac{5\pi}{4} \right) \right)$.
+- A) $-\frac{\pi}{4}$
+- B) $\frac{\pi}{4}$
+- C) $\frac{3\pi}{4}$
+- D) $\frac{5\pi}{4}$
+**Answer:** A) $-\frac{\pi}{4}$, since $\sin^{-1}\left( \sin\theta \right) = \theta$, $\theta \in \left[ -\frac{\pi}{2}, \frac{\pi}{2} \right]$.
+**5. Question:** Find the value of $\cos^{-1}\left( \cos\left( \frac{7\pi}{4} \right) \right)$.
+- A) $\frac{\pi}{4}$
+- B) $\frac{3\pi}{4}$
+- C) $\frac{5\pi}{4}$
+- D) $\frac{7\pi}{4}$
+**Answer:** C) $\frac{\pi}{4}$, since $\cos^{-1}\left( \cos\theta \right) = \theta$, $\theta \in \left[ 0, \pi \right]$.
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/inverse-trigonometric-functions-class-12-notes) now and track your progress against thousands of students.
-
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/inverse-trigonometric-functions-class-12-notes) now and track your progress against thousands of students.
 
 ---
-
-## 📚 Related Topics
-
-Continue your revision with these related guides:
-
-- 📖 [Matrices Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/matrices-class-12-notes)
-- 📖 [Relations and Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/relations-and-functions-class-11-notes)
-- 📖 [Alcohols, Phenols and Ethers Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alcohols-phenols-and-ethers-class-12-notes)
-- 📖 [Application of Derivatives Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
-
-$
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

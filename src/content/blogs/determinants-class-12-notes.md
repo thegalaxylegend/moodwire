@@ -1,340 +1,118 @@
 ---
 heroImage: "/blog-images/determinants-class-12-notes.webp"
-title: "Determinants Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
-description: "Determinants Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
-category: "Revision"
-date: "2026-04-01"
-practice_link: "/class-11/mathematics/determinants-class-12-notes"
+title: "Determinants Class 12 Exam Prep Revision — Grandmaster Guide"
+description: "Determinants Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20."
+category: "Exam Notes"
+date: "2026-04-20"
+practice_link: "/practice/determinants-class-12-notes"
+manualReview: false
 ---
 
-*Last Updated: 2026-04-01*
-
-
-
-
-## 📋 Table of Contents
-
-  - [⚡ Core Concept 1: Introduction to Determinants](#-core-concept-1-introduction-to-determinants)
-  - [⚡ Core Concept 2: Determinant Properties](#-core-concept-2-determinant-properties)
-  - [⚡ Core Concept 3: Expansion by Minors](#-core-concept-3-expansion-by-minors)
-  - [⚡ Core Concept 4: Cofactor Expansion](#-core-concept-4-cofactor-expansion)
-  - [⚡ Core Concept 5: Area of a Triangle](#-core-concept-5-area-of-a-triangle)
-  - [⚡ Core Concept 6: Volume of a Parallelepiped](#-core-concept-6-volume-of-a-parallelepiped)
-  - [⚡ Core Concept 7: Determinant of a 2x2 Matrix](#-core-concept-7-determinant-of-a-2x2-matrix)
-  - [⚡ Core Concept 8: Determinant of a 3x3 Matrix](#-core-concept-8-determinant-of-a-3x3-matrix)
-  - [⚡ Core Concept 9: Inverse of a Matrix](#-core-concept-9-inverse-of-a-matrix)
-  - [⚡ Core Concept 10: Solving Systems of Equations](#-core-concept-10-solving-systems-of-equations)
-  - [⚡ Core Concept 11: Linear Independence](#-core-concept-11-linear-independence)
-  - [⚡ Core Concept 12: Rank of a Matrix](#-core-concept-12-rank-of-a-matrix)
-  - [⚡ Core Concept 13: Advanced Properties of Determinants](#-core-concept-13-advanced-properties-of-determinants)
-- [🪤 The 5 Trap Mistakes](#-the-5-trap-mistakes)
-  - [⚡ Core Concept 14: Applications of Determinants](#-core-concept-14-applications-of-determinants)
-  - [⚡ Core Concept 15: Review and Practice](#-core-concept-15-review-and-practice)
-- [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-step-by-step-learning)
-- [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
-  - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
-- [📚 Related Topics](#-related-topics)
-
-
-
-
-
-##
-
-### <a id="-core-concept-1-introduction-to-determinants"></a>⚡ Core Concept 1: Introduction to Determinants
-
-- **Definition:** The determinant of a square matrix is a scalar value that can be used to describe the scaling effect of the matrix on a region of space.
-- **Importance:** Determinants are crucial in linear algebra and are used to find the inverse of a matrix, solve systems of equations, and determine the solvability of systems.
-
-#### Determinant of a 1x1 Matrix
-- **Formula:** \det(a) = a — a is the element of the 1x1 matrix.
-- **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a 1x1 matrix.
-
-### <a id="-core-concept-2-determinant-properties"></a>⚡ Core Concept 2: Determinant Properties
-
-- **Property 1:** \det(AB) = \det(A) \dot \det(B) — A and BY are square matrices of the same size.
-- **Property 2:** \det(A^{-1}) = $\franc{{1}{\det(A)} — }{ is an invertible square matrix.} A
-- **Property 3:** \det(A’T) = \det(A) — A^TO is the transpose of matrix A.
-
-#### Multiplicative Property
-- **Formula:** \det(ka) = k^n \dot \det(A) — OK is a scalar, A is an in \times no matrix.
-- **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a scaled matrix.
-
-### <a id="-core-concept-3-expansion-by-minors"></a>⚡ Core Concept 3: Expansion by Minors
-
-- **Formula:**
-
-\begin{vmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{vmatrix}
-
- = a_{11} 
-
-\begin{vmatrix} a_{22} & a_{23} \\ a_{32} & a_{33} \end{vmatrix}
-
-- a_{12}
-
-\begin{vmatrix} a_{21} & a_{23} \\ a_{31} & a_{33} \end{vmatrix}
-
-+ a_{13}
-
-\begin{vmatrix} a_{21} & a_{22} \\ a_{31} & a_{32} \end{vmatrix}
-
-— A_{ij}$ are elements of the matrix.
-- **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a matrix by expanding along a row or column.
-
-#### Expansion Along a Row
-- **Formula:** \det(A) = a_{i1}C_{i1} + a_{i2}C_{i2} + \dots + a_{in}C_{in} — a_{ij}$ are elements of the matrix, BC_{ij}$ are cofactors.
-- **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a matrix by expanding along a row.
-
-### <a id="-core-concept-4-cofactor-expansion"></a>⚡ Core Concept 4: Cofactor Expansion
-
-- **Formula:**
-
-\begin{vmatrix} a & b \\ c & d \end{vmatrix}
-
- = a \dot 
-
-\begin{vmatrix} d \end{vmatrix}
-
-- b \dot
-
-\begin{vmatrix} c \end{vmatrix}
-
-— Cofactor of a is $+
-
-\begin{vmatrix}
-
-D \end{vmatrix}$ and cofactor of by is $-\begin{vmatrix} c \end{vmatrix}$.
-- **Importance:** Used to calculate the determinant of a matrix by expanding along a row or column using cofactors.
-
-#### Cofactor of an Element
-- **Formula:** C_{ij} = (-1)^{i+j} \dot \det(M_{ij}) — KM_{ij}$ is the minor of the element a_{ij}$.
-- **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the cofactor of an element in a matrix.
-
-### <a id="-core-concept-5-area-of-a-triangle"></a>⚡ Core Concept 5: Area of a Triangle
-
-- **Formula:** $\text{Area} = \franc{{1}{2}$ \dot |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — (x_1, y_1), (x_2, y_2), (x_3, y_3)}{$\text{Area}$ = }  are vertices of the triangle.
-- **[application](/blog/application-of-integrals-class-12-notes):** Used to find the area of a triangle given the coordinates of its vertices.
-
-#### Shoelace Formula
-- **Formula:** $\franc{1}{2}$ \dot |x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3x_1| — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.
-- **[application](/blog/application-of-integrals-class-12-notes):** Used to find the area of a triangle given the coordinates of its vertices.
-
-### <a id="-core-concept-6-volume-of-a-parallelepiped"></a>⚡ Core Concept 6: Volume of a Parallelepiped
-
-- **Formula:** V = |\begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix}
-
-| — a, b, c, d, e, f, g, h, in are components of the edges of the parallelepiped.
-- **Importance:** Used to find the volume of a parallelepiped given the components of its edges.
-
-#### Volume of a Parallelepiped Using Determinants
-- **Formula:** V = |\det(A)| — A is the matrix whose columns are the edges of the parallelepiped.
-- **[application](/blog/application-of-integrals-class-12-notes):** Used to find the volume of a parallelepiped given the components of its edges.
-
-### <a id="-core-concept-7-determinant-of-a-2x2-matrix"></a>⚡ Core Concept 7: Determinant of a 2x2 Matrix
-
-- **Formula:**
-
-\begin{vmatrix} a & b \\ c & d \end{vmatrix}
-
-= ad - bc — a, b, c, do are elements of the matrix.
-- **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a 2x2 matrix.
-
-#### Determinant of a 2x2 Matrix with Variables
-- **Formula:**
-
-\begin{vmatrix} x & y \\ z & w \end{vmatrix}
-
-= DW - oz — ex, y, z, we are variables.
-- **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a 2x2 matrix with variables.
-
-### <a id="-core-concept-8-determinant-of-a-3x3-matrix"></a>⚡ Core Concept 8: Determinant of a 3x3 Matrix
-
-- **Formula:**
-
-\begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix}
-
-= a(a - FH) - b(DI - FG) + c(DH - e.g.) — a, b, c, d, e, f, g, h, in are elements of the matrix.
-- **Importance:** Used to calculate the determinant of a 3x3 matrix.
-
-#### Determinant of a 3x3 Matrix Using Cofactor Expansion
-- **Formula:** \det(A) = a_{11}C_{11} + a_{12}C_{12} + a_{13}C_{13} — a_{ij}$ are elements of the matrix, BC_{ij}$ are cofactors.
-- **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a 3x3 matrix using cofactor expansion.
-
-### <a id="-core-concept-9-inverse-of-a-matrix"></a>⚡ Core Concept 9: Inverse of a Matrix
-
-- **Formula:** A^{-1} = $\franc{{1}{\det(A)} \dot }{ is the adjugate (also known as the classical adjugate) of } \text{adj}(A) — \text{adj}(A)A.
-- **Importance:** Used to find the inverse of a matrix, which is essential for solving systems of equations.
-
-#### Finding the Inverse of a 2x2 Matrix
-
-- **Formula:** A^{-1} = $\franc{{1}{\det(A)}}{A}  \dot
-
-\begin{bmatrix} d & -b \\ -c & a \end{bmatrix}
-
-— $ is a 2x2 matrix.
-- **Application:** Used to find the inverse of a 2x2 matrix.
-
-### <a id="-core-concept-10-solving-systems-of-equations"></a>⚡ Core Concept 10: Solving Systems of Equations
-
-- **Method:** Use the inverse of the coefficient matrix to solve the system of equations.
-- **Importance:** Determinants are used to find the inverse of the coefficient matrix, which is then used to solve the system of equations.
-
-#### Solving a System of Linear Equations Using Cramer's Rule
-- **Formula:** x_i = $\franc{{\det(A_i)}{\det(A)} — }{ is the matrix obtained by replacing the } A_IRIS-T column of A with the constant vector.$
-- **Application:** Used to solve a system of linear equations using Cramer's rule.
-
-### <a id="-core-concept-11-linear-independence"></a>⚡ Core Concept 11: Linear Independence
-
-- **Definition:** A set of vectors is said to be linearly independent if none of the vectors can be written as a linear combination of the others.
-- **Importance:** Determinants are used to determine the linear independence of a set of vectors.
-
-#### Checking Linear Independence Using Determinants
-- **Formula:** \det(A) 
-EQ 0 — A is the matrix whose columns are the vectors.
-- **Application:** Used to check if a set of vectors is linearly independent.
-
-### <a id="-core-concept-12-rank-of-a-matrix"></a>⚡ Core Concept 12: Rank of a Matrix
-
-- **Definition:** The rank of a matrix is the maximum number of linearly independent rows or columns in the matrix.
-- **Importance:** Determinants are used to find the rank of a matrix, which is essential for determining the solvability of systems of equations.
-
-#### Finding the Rank of a Matrix Using Determinants
-- **Formula:** $\text{rank}$(A) = \max \{k : \det(A_k)
-EQ 0\} — A_km is the OK \times km submatrix of A.
-- **Application:** Used to find the rank of a matrix.
-
-### <a id="-core-concept-13-advanced-properties-of-determinants"></a>⚡ Core Concept 13: Advanced Properties of Determinants
-
-- **Property 4:** If a matrix has a zero row or column, its determinant is zero.
-- **Property 5:** If a matrix has two identical rows or columns, its determinant is zero.
-
-#### ⚡ Cofactor Expansion Along a Row or Column
-
-- **Formula:**
-
-\begin{vmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{vmatrix}
-
-= a_{11}C_{11} + a_{12}C_{12} + a_{13}C_{13} — BC_{ij}$ is the cofactor of a_{ij}$.
-- **Application:** Used to calculate the determinant of a matrix by expanding along a row or column using cofactors.
-
-#### ⚡ Determinant of a Matrix with a Zero Row or Column
-
-- **Property:** If a matrix has a zero row or column, its determinant is zero.
-- **Importance:** Used to simplify the calculation of determinants by identifying zero rows or columns.
-
-## <a id="-the-5-trap-mistakes"></a>🪤 The 5 Trap Mistakes
-
-- **Mistake 1:** Forgetting to calculate the determinant of a matrix before applying properties.
-- **Mistake 2:** Not using the correct formula for calculating the determinant of a $2 \times 2$ or $3 \times 3$ matrix.
-- **Mistake 3:** Expanding along the wrong row or column when calculating the determinant.
-- **Mistake 4:** Not using cofactor expansion correctly.
-- **Mistake 5:** Forgetting to use the property $\det(AB) = \det(A)\det(B)$ when calculating the determinant of a product of matrices.
-
-#### ⚡ Solving Systems of Equations Using Determinants
-
-- **Method:** Use the inverse of the coefficient matrix to solve the system of equations.
-- **Importance:** Determinants are used to find the inverse of the coefficient matrix, which is then used to solve the system of equations.
-
-#### ⚡ Linear Independence and Rank of a Matrix
-
-- **Definition:** A set of vectors is said to be linearly independent if none of the vectors can be written as a linear combination of the others.
-- **Importance:** Determinants are used to determine the linear independence of a set of vectors and the rank of a matrix.
-
-### <a id="-core-concept-14-applications-of-determinants"></a>⚡ Core Concept 14: Applications of Determinants
-
-- **Application 1:** Finding the area of a triangle given the coordinates of its vertices.
-- **Application 2:** Finding the volume of a parallelepiped given the components of its edges.
-- **Application 3:** Solving systems of equations using the inverse of the coefficient matrix.
-
-#### ⚡ Finding the Area of a Triangle
-
-- **Formula:** $\text{Area} = \franc{{1}{2}$}{(x_1, y_1), (x_2, y_2), (x_3, y_3)}  \dot |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — $ are vertices of the triangle.
-- **Application:** Used to find the area of a triangle given the coordinates of its vertices.
-
-#### ⚡ Finding the Volume of a Parallelepiped
-
-- **Formula:** V = |
-
-\begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix}
-
-| — a, b, c, d, e, f, g, h, in are components of the edges of the parallelepiped.
-- **Importance:** Used to find the volume of a parallelepiped given the components of its edges.
-
-### <a id="-core-concept-15-review-and-practice"></a>⚡ Core Concept 15: Review and Practice
-
-- **Tip:** Practice calculating determinants of $2 \times 2$ and $3 \times 3$ matrices, as well as applying properties of determinants.
-- **Importance:** Reviewing and practicing determinants is essential for mastering the concept and applying it to real-world problems.
-
-## <a id="-master-the-test-center-step-by-step-learning"></a>📝 Master the Test Center — Step-by-Step Learning
-To solidify your understanding of determinants and prepare for the JEE 2026, it's essential to practice with a variety of questions and problems. The Test Center at /[class](/blog/amines-class-12-notes)-11/mathematics/determinants-[class](/blog/amines-class-12-notes)-12-notes is an invaluable resource for this purpose. Here's why you should use it:
-
-1. **Comprehensive Coverage**: The Test Center covers all aspects of determinants, from basic properties to advanced applications, ensuring you have a thorough grasp of the subject.
-2. **Practice Questions**: With a vast collection of practice questions, you can test your knowledge, identify areas of weakness, and track your progress over time.
-3. **Step-by-Step Solutions**: Detailed, step-by-step solutions to each problem help you understand the thought process and methodology required to solve determinants-related questions.
-4. **Time Management**: The Test Center allows you to practice under timed conditions, simulating the actual exam experience and helping you manage your time effectively.
-5. **Performance Analysis**: By analyzing your performance, you can identify patterns, strengths, and weaknesses, enabling you to focus your study efforts on areas that need improvement.
-
-To get the most out of the Test Center:
-
-- **Start Early**: Begin practicing with the Test Center as soon as possible to get a head start on your preparation.
-- **Set Goals**: Set specific, achievable goals for each practice session to maintain motivation and direction.
-- **Review Regularly**: Regular review and practice help reinforce your understanding and prevent forgetting key concepts.
-- **Analyze Mistakes**: When you make a mistake, take the time to understand where you went wrong and how to correct it.
-
-By incorporating the Test Center into your study routine, you'll be well-prepared for the determinants section of the JEE 2026 and confident in your ability to tackle even the most challenging problems.
-
-## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
-In the last 5 minutes of your study session, quickly review the key concepts and formulas related to determinants. Focus on the most critical areas, such as:
-- Properties of determinants (e.g., $\det(AB) = \det(A)\det(B)$)
-- Expansion by minors and cofactor expansion
-- Calculating determinants of $2 \times 2$ and $3 \times 3$ matrices
-- Applications of determinants (e.g., area of a triangle, volume of a parallelepiped)
-
-Take a few deep breaths, stay calm, and remind yourself that you've prepared well. With consistent practice and dedication, you'll master determinants and achieve success in the JEE 2026.
-
-
----
-
-### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/determinants-class-12-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
-
-## <a id="-related-topics"></a>📚 Related Topics
-
-Continue your revision with these related guides:
-
-- 📖 [Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-integrals-class-12-notes)
-- 📖 [Continuity and Differentiability Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/continuity-and-differentiability-class-12-notes)
-- 📖 [Amines Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/amines-class-12-notes)
-- 📖 [Metallurgy Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/metallurgy-class-12-notes)
-
+## ⚡ Formula Bank
+- The determinant of a 2x2 matrix $\begin{bmatrix} a & b \\ c & d \end{bmatrix}$ is given by $\frac{ad}{1} - \frac{bc}{1} = ad - bc$
+- The determinant of a 3x3 matrix $\begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix}$ is given by $a(ei - fh) - b(di - fg) + c(dh - eg)$
+- $\begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg)$
+- The determinant of the product of two matrices is equal to the product of their determinants: $\begin{vmatrix} AB \end{vmatrix} = \begin{vmatrix} A \end{vmatrix} \begin{vmatrix} B \end{vmatrix}$
+- If a matrix has two identical rows or columns, its determinant is zero
+- The determinant of the transpose of a matrix is equal to the determinant of the original matrix: $\begin{vmatrix} A^T \end{vmatrix} = \begin{vmatrix} A \end{vmatrix}$
+- The determinant of the inverse of a matrix is equal to the reciprocal of the determinant of the original matrix: $\begin{vmatrix} A^{-1} \end{vmatrix} = \frac{1}{\begin{vmatrix} A \end{vmatrix}}$
+- For a 3x3 matrix, the determinant can also be found using the formula: $\begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix} = a \begin{vmatrix} e & f \\ h & i \end{vmatrix} - b \begin{vmatrix} d & f \\ g & i \end{vmatrix} + c \begin{vmatrix} d & e \\ g & h \end{vmatrix}$
+
+
+## 🪤 The 5 Mistakes That Cost Marks
+- Not expanding the determinant along the correct row or column
+- Forgetting to include the negative sign when expanding along a row or column
+- Not calculating the minors and cofactors correctly
+- Not applying the properties of determinants, such as the fact that the determinant of the product of two matrices is equal to the product of their determinants
+- Not checking for identical rows or columns, which would result in a determinant of zero
+
+
+## ✏️ 3 Solved PYQs
+- **Question 1:** Evaluate the determinant of the matrix $\begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{bmatrix}$
+  Step 1: Apply the formula for the determinant of a 3x3 matrix
+  Step 2: Calculate the minors and cofactors
+  Step 3: Simplify the expression to find the determinant
+  Answer: $\begin{vmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{vmatrix} = 1(5 \times 9 - 6 \times 8) - 2(4 \times 9 - 6 \times 7) + 3(4 \times 8 - 5 \times 7) = 1(45 - 48) - 2(36 - 42) + 3(32 - 35) = 1(-3) - 2(-6) + 3(-3) = -3 + 12 - 9 = 0$
+- **Question 2:** Find the value of $x$ for which the determinant of the matrix $\begin{bmatrix} 1 & x & 2 \\ 3 & 4 & 5 \\ 6 & 7 & 8 \end{bmatrix}$ is zero
+  Step 1: Apply the formula for the determinant of a 3x3 matrix
+  Step 2: Set the determinant equal to zero and solve for $x$
+  Step 3: Simplify the expression to find the value of $x$
+  Answer: $\begin{vmatrix} 1 & x & 2 \\ 3 & 4 & 5 \\ 6 & 7 & 8 \end{vmatrix} = 1(4 \times 8 - 5 \times 7) - x(3 \times 8 - 5 \times 6) + 2(3 \times 7 - 4 \times 6) = 1(32 - 35) - x(24 - 30) + 2(21 - 24) = 1(-3) - x(-6) + 2(-3) = -3 + 6x - 6 = 0$
+  $6x = 9$
+  $x = \frac{9}{6} = \frac{3}{2}$
+- **Question 3:** Evaluate the determinant of the matrix $\begin{bmatrix} 2 & 1 & 1 \\ 1 & 2 & 1 \\ 1 & 1 & 2 \end{bmatrix}$
+  Step 1: Apply the formula for the determinant of a 3x3 matrix
+  Step 2: Calculate the minors and cofactors
+  Step 3: Simplify the expression to find the determinant
+  Answer: $\begin{vmatrix} 2 & 1 & 1 \\ 1 & 2 & 1 \\ 1 & 1 & 2 \end{vmatrix} = 2(2 \times 2 - 1 \times 1) - 1(1 \times 2 - 1 \times 1) + 1(1 \times 1 - 2 \times 1) = 2(4 - 1) - 1(2 - 1) + 1(1 - 2) = 2(3) - 1(1) + 1(-1) = 6 - 1 - 1 = 4$
+
+
+## 🧠 The One Thing Most Students Get Wrong
+- Most students struggle with expanding the determinant along the correct row or column, and forgetting to include the negative sign when expanding along a row or column
+- To avoid this mistake, always remember to expand along the row or column with the most zeros, and to include the negative sign when expanding along a row or column
+- Additionally, make sure to calculate the minors and cofactors correctly, and to apply the properties of determinants, such as the fact that the determinant of the product of two matrices is equal to the product of their determinants
+
+
+## 👁️ Ayush's Note
+- To evaluate the determinant of a matrix, always expand along the row or column with the most zeros
+- When expanding along a row or column, always include the negative sign
+- Calculate the minors and cofactors correctly, and apply the properties of determinants
+- Check for identical rows or columns, which would result in a determinant of zero
+- Use the formula for the determinant of a 3x3 matrix: $\begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg)$
+
+
+## 🔁 Last 5 Minutes Box
+- Last minute tips:
+  - Expand along the row or column with the most zeros
+  - Include the negative sign when expanding along a row or column
+  - Calculate the minors and cofactors correctly
+  - Apply the properties of determinants
+  - Check for identical rows or columns
+- Common mistakes to avoid:
+  - Forgetting to include the negative sign when expanding along a row or column
+  - Not calculating the minors and cofactors correctly
+  - Not applying the properties of determinants
+  - Not checking for identical rows or columns
+
+
+## 📝 Practice MCQs
+**1. What is the value of the determinant of the matrix $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$?**
+- A) 2
+- B) -2
+- C) 4
+- D) -4
+**Answer: B) -2. The determinant of the matrix is given by $\frac{1}{1} \times \frac{4}{1} - \frac{2}{1} \times \frac{3}{1} = 4 - 6 = -2$**
+**2. Evaluate the determinant of the matrix $\begin{bmatrix} 2 & 1 & 1 \\ 1 & 2 & 1 \\ 1 & 1 & 2 \end{bmatrix}$**
+- A) 2
+- B) 4
+- C) 6
+- D) 8
+**Answer: B) 4. The determinant of the matrix is given by $\begin{vmatrix} 2 & 1 & 1 \\ 1 & 2 & 1 \\ 1 & 1 & 2 \end{vmatrix} = 2(2 \times 2 - 1 \times 1) - 1(1 \times 2 - 1 \times 1) + 1(1 \times 1 - 2 \times 1) = 2(4 - 1) - 1(2 - 1) + 1(1 - 2) = 2(3) - 1(1) + 1(-1) = 6 - 1 - 1 = 4$**
+**3. Find the value of $x$ for which the determinant of the matrix $\begin{bmatrix} 1 & x & 2 \\ 3 & 4 & 5 \\ 6 & 7 & 8 \end{bmatrix}$ is zero**
+- A) 1
+- B) 2
+- C) $\frac{3}{2}$
+- D) 3
+**Answer: C) $\frac{3}{2}$. The determinant of the matrix is given by $\begin{vmatrix} 1 & x & 2 \\ 3 & 4 & 5 \\ 6 & 7 & 8 \end{vmatrix} = 1(4 \times 8 - 5 \times 7) - x(3 \times 8 - 5 \times 6) + 2(3 \times 7 - 4 \times 6) = 1(32 - 35) - x(24 - 30) + 2(21 - 24) = 1(-3) - x(-6) + 2(-3) = -3 + 6x - 6 = 0$**
+  $6x = 9$
+  $x = \frac{9}{6} = \frac{3}{2}$
+**4. Evaluate the determinant of the matrix $\begin{bmatrix} 1 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 3 \end{bmatrix}$**
+- A) 1
+- B) 2
+- C) 6
+- D) 12
+**Answer: C) 6. The determinant of the matrix is given by $\begin{vmatrix} 1 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 3 \end{vmatrix} = 1 \times 2 \times 3 = 6$**
+**5. Find the value of the determinant of the matrix $\begin{bmatrix} 2 & 1 \\ 4 & 2 \end{bmatrix}$**
+- A) 0
+- B) 2
+- C) 4
+- D) 6
+**Answer: A) 0. The determinant of the matrix is given by $\frac{2}{1} \times \frac{2}{1} - \frac{1}{1} \times \frac{4}{1} = 4 - 4 = 0$**
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/determinants-class-12-notes) now and track your progress against thousands of students.
-
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/determinants-class-12-notes) now and track your progress against thousands of students.
 
 ---
-
-## 📚 Related Topics
-
-Continue your revision with these related guides:
-
-- 📖 [Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-integrals-class-12-notes)
-- 📖 [Continuity and Differentiability Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/continuity-and-differentiability-class-12-notes)
-- 📖 [Amines Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/amines-class-12-notes)
-- 📖 [Metallurgy Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/metallurgy-class-12-notes)
-
-## 🪤 The 5 Mistakes That Cost Marks
-
-* **Minor mistake in expansion by minors**: While expanding a determinant using minors, ensure that the correct sign pattern is followed. Many students forget to alternate signs, leading to incorrect results.
-* **Incorrect application of properties**: Properties like $|AB| = |A||B|$ or $|A’T| = |A|$ are often misapplied, especially when dealing with determinants of products or transposes of matrices.
-* **Not checking for zero determinant**: Before inverting a matrix, it's crucial to verify that its determinant is non-zero. Forgetting to do so can lead to incorrect conclusions about the existence of inverses.
-* **Expansion by minors along the wrong row or column**: Expanding along a row or column with more zeros can simplify calculations. However, many students overlook this and expand along any row or column, unnecessarily complicating the process.
-* **Miscalculation of cofactors**: When calculating cofactors, it's easy to make mistakes with the signs or the determinants of the sub-matrices. Double-checking these calculations is essential to avoid errors in the final determinant value.$
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

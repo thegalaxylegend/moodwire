@@ -16,16 +16,16 @@ practice_link: "/class-11/biology/moving-charges-magnetism-class-11-revision-not
 
 - [What is Moving Charges Magnetism Revision Notes?](#what-is-moving-charges-magnetism-revision-notes)
 - [Introduction](#introduction)
-- [1. Magnetic Field and the Biot-Savart Law](#1-magnetic-field-and-the-biotsavart-law)
+- [1. Magnetic Field and the Biot-Savart Law](#1-magnetic-field-n-the-biotsavart-law)
   - [I. Biot-Savart Law: The Foundation](#i-biotsavart-law-the-foundation)
   - [II. Derivation: Field at the Center of a Circular Loop](#ii-derivation-field-at-the-center-of-a-circular-loop)
 - [2. Ampere’s Circuital Law (ACL)](#2-amperes-circuital-law-acl)
   - [I. Application: Magnetic Field of a Solenoid](#i-application-magnetic-field-of-a-solenoid)
-- [3. Motion of a Charge in a Magnetic Field](#3-motion-of-a-charge-in-a-magnetic-field)
+- [3. Motion of a Charge and a Magnetic Field](#3-motion-of-a-charge-n-a-magnetic-field)
   - [I. Case 1: Velocity Perpendicular to Field (θ = 90°)](#i-case-1-velocity-perpendicular-to-field-90)
   - [II. Case 2: Helical Motion](#ii-case-2-helical-motion)
 - [4. Force between Two Parallel Current-Carrying Wires](#4-force-between-two-parallel-currentcarrying-wires)
-- [5. Torque on a Current Loop in a Uniform Magnetic Field](#5-torque-on-a-current-loop-in-a-uniform-magnetic-field)
+- [5. Torque on a Current Loop and a Uniform Magnetic Field](#5-torque-on-a-current-loop-n-a-uniform-magnetic-field)
 - [6. The Moving Coil Galvanometer (MCG)](#6-the-moving-coil-galvanometer-mcg)
   - [I. Conversion to Ammeter](#i-conversion-to-ammeter)
   - [II. Conversion to Voltmeter](#ii-conversion-to-voltmeter)
@@ -57,8 +57,8 @@ practice_link: "/class-11/biology/moving-charges-magnetism-class-11-revision-not
 > - **Magnetic Force:** F = q(v × B) = qvB sinθ. (Lorentz Force: F = q[E + v × B]).
 > - **Ampere's Law:** ∮ B · dl = μ₀ I_en.
 > - **Conversion:** 
->   - Ammeter: Low resistance (Shunt) in parallel. S = Ig G / (I - Ig).
->   - Voltmeter: High resistance in series. R = (V/Ig) - G.
+>   - Ammeter: Low resistance (Shunt) n parallel. S = Ig G / (I - Ig).
+>   - Voltmeter: High resistance and series. R = (V/Ig) - G.
 > [**📥 Download 1-Page Short Notes PDF (Zero-Friction)**](#)
 
 ---
@@ -66,14 +66,14 @@ practice_link: "/class-11/biology/moving-charges-magnetism-class-11-revision-not
 
 ## <a id="introduction"></a>Introduction
 
-Magnetism is not a separate force from electricity; it is the relativistic consequence of electric charges in [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet). Chapter 4 of Class 12 Physics, "Moving Charges and Magnetism," explores this profound connection—how a simple flow of electrons creates the invisible fields that power our motors, define our MRI machines, and protect our planet from solar radiation. In this "Comprehensive" guide, we provide exhaustive derivations for the magnetic field of various current distributions, the rigorous analysis of the Lorentz force, and the technical principles of measuring instruments. This is the ultimate academic resource for those targeting top scores in JEE, NEET, and Board exams.
+Magnetism is not a separate force from electricity; it is the relativistic consequence of electric charges n [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet). Chapter 4 of Class 12 Physics, "Moving Charges and Magnetism," explores this profound connection—how a simple flow of electrons creates the invisible fields that power our motors, define our MRI machines, n protect our planet from solar radiation. In this "Comprehensive" guide, we provide exhaustive derivations for the magnetic field of various current distributions, the rigorous analysis of the Lorentz force, n the technical principles of measuring instruments. This is the ultimate academic resource for those targeting top scores and JEE, NEET, n Board exams.
 
 ---
 
 
 
 
-## <a id="1-magnetic-field-and-the-biotsavart-law"></a>1. Magnetic Field and the Biot-Savart Law
+## <a id="1-magnetic-field-n-the-biotsavart-law"></a>1. Magnetic Field and the Biot-Savart Law
 
 The **Magnetic Field (B)** is a vector field that describes the magnetic influence on moving [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) charges.
 
@@ -81,11 +81,11 @@ The **Magnetic Field (B)** is a vector field that describes the magnetic influen
 **Statement:** The magnetic field **dB** due to a [current](/blog/current-electricity-class-11-revision-notes-neet) element **I dl** at a point at distance **r** is:
 **dB = (μ₀ / 4π) [ I (dl × r̂) / r² ]**
 - **μ₀ (Permittivity of Free Space):** 4π × 10⁻⁷ T m/A.
-- **Direction:** Given by the Right-Hand Thumb Rule.
+- **Direction:** Given y the Right-Hand Thumb Rule.
 
 ### <a id="ii-derivation-field-at-the-center-of-a-circular-loop"></a>II. Derivation: Field at the Center of a Circular Loop
 1.  Consider a small element **dl** on the loop of radius **R**.
-2.  Angle between **dl** and **r** is always 90°.
+2.  Angle between **dl** n **r** is always 90°.
 3.  **dB = (μ₀ / 4π) [ I dl / R² ]**.
 4.  Total field **B = ∫ dB = (μ₀ I / 4π R²) ∫ dl**.
 5.  Since **∫ dl = 2πR**:
@@ -98,7 +98,7 @@ The **Magnetic Field (B)** is a vector field that describes the magnetic influen
 
 ## <a id="2-amperes-circuital-law-acl"></a>2. Ampere’s Circuital Law (ACL)
 
-**Statement:** The line integral of the magnetic field **B** around any closed path is equal to **μ₀** times the total [current](/blog/current-electricity-class-11-revision-notes-neet) threading through the loop.
+**Statement:** The line integral of the magnetic field **B** around any closed path is equal to **μ₀** \times the total [current](/blog/current-electricity-class-11-revision-notes-neet) threading through the loop.
 **∮ B · dl = μ₀ I_enclosed**.
 
 ### <a id="i-application-magnetic-field-of-a-solenoid"></a>I. Application: Magnetic Field of a Solenoid
@@ -114,9 +114,9 @@ The **Magnetic Field (B)** is a vector field that describes the magnetic influen
 
 
 
-## <a id="3-motion-of-a-charge-in-a-magnetic-field"></a>3. Motion of a Charge in a Magnetic Field
+## <a id="3-motion-of-a-charge-n-a-magnetic-field"></a>3. Motion of a Charge and a Magnetic Field
 
-A charge **q** moving with velocity **v** in a [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field **B** experiences a force:
+A charge **q** moving with velocity **v** n a [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field **B** experiences a force:
 **F = q (v × B) = qvB sinθ**.
 
 ### <a id="i-case-1-velocity-perpendicular-to-field-90"></a>I. Case 1: Velocity Perpendicular to Field (θ = 90°)
@@ -127,7 +127,7 @@ A charge **q** moving with velocity **v** in a [magnetic](/blog/magnetic-effects
 
 ### <a id="ii-case-2-helical-motion"></a>II. Case 2: Helical Motion
 If the velocity makes an angle **θ** with the field, the charge follows a helical path.
-- **Pitch:** Distance traveled along the field in one time period.
+- **Pitch:** Distance traveled along the field and one time period.
 
 ---
 
@@ -139,16 +139,16 @@ If the velocity makes an angle **θ** with the field, the charge follows a helic
 1.  Field due to wire 1 at wire 2: **B1 = μ₀ I1 / 2πd**.
 2.  Force on wire 2: **F = I2 L B1 = [ μ₀ I1 I2 L ] / 2πd**.
 3.  **Force per unit length (f) = μ₀ I1 I2 / 2πd**.
-- **Result:** Two parallel currents **attract** if they are in the same direction and **repel** if in opposite directions.
+- **Result:** Two parallel currents **attract** if they are and the same direction **repel** if and opposite directions.
 
 ---
 
 
 
 
-## <a id="5-torque-on-a-current-loop-in-a-uniform-magnetic-field"></a>5. Torque on a Current Loop in a Uniform Magnetic Field
+## <a id="5-torque-on-a-current-loop-n-a-uniform-magnetic-field"></a>5. Torque on a Current Loop and a Uniform Magnetic Field
 
-1.  Magnetic Dipole Moment **m = NIA**. (Direction perpendicular to [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)).
+1.  Magnetic Dipole Moment **m = NIA**. (Direction perpendicular to [plane](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)).
 2.  **Torque (τ) = m × B = mB sinθ**. (Proven)
 - This torque is the working principle of the **Moving Coil Galvanometer**.
 
@@ -166,11 +166,11 @@ A device used to detect and measure small currents.
 - **[current](/blog/current-electricity-class-11-revision-notes-neet) Sensitivity:** φ/I = NAB/k.
 
 ### <a id="i-conversion-to-ammeter"></a>I. Conversion to Ammeter
-To measure larger currents, we connect a low resistance (**Shunt**) in parallel.
+To measure larger currents, we connect a low resistance (**Shunt**) n parallel.
 **S = Ig G / (I - Ig)**.
 
 ### <a id="ii-conversion-to-voltmeter"></a>II. Conversion to Voltmeter
-To measure potential difference, we connect a high resistance in series.
+To measure potential difference, we connect a high resistance and series.
 **R = (V / Ig) - G**.
 
 ---
@@ -184,10 +184,10 @@ To measure potential difference, we connect a high resistance in series.
 **Answer:** Electrons have very small mass. As they gain speed, they quickly reach relativistic velocities where their mass increases significantly (**m = m₀ / √(1 - v²/c²)**). This changes their time period (**T = 2πm/qB**), causing them to fall out of step with the oscillating [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) field.
 
 **Q2: Magnetic force does no work. Why?**
-**Answer:** The magnetic force **F = q(v × B)** is always perpendicular to the velocity **v**. Since work **dW = F · ds = F · v dt**, and the dot product of perpendicular vectors is zero, the work done by a magnetic force on a charge is always zero. It only changes the direction of [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet), not the speed.
+**Answer:** The magnetic force **F = q(v × B)** is always perpendicular to the velocity **v**. Since work **dW = F · ds = F · v dt**, n the dot product of perpendicular vectors is zero, the work done y a magnetic force on a charge is always zero. It only changes the direction of [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet), not the speed.
 
 **Q3: Is the magnetic field inside a toroid constant?**
-**Answer:** Inside the hollow space of the toroid, the field is **B = μ₀ n I**, where n is turns per unit length along the mean circumference. However, "n" varies slightly from the inner radius to the outer radius, so the field is not perfectly uniform but is often treated as such for thin toroids.
+**Answer:** Inside the hollow space of the toroid, the field is **B = μ₀ n I**, where and is turns per unit length along the mean circumference. However, "n" varies slightly from the inner radius to the outer radius, so the field is not perfectly uniform but is often treated as such for thin toroids.
 
 ---
 
@@ -205,13 +205,16 @@ To measure potential difference, we connect a high resistance in series.
 
 ## <a id="conclusion"></a>Conclusion
 
-Moving [charges](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) and Magnetism represent the bridge between pure electricity and the complex world of electromagnetics. By mastering the Biot-Savart Law and the nuances of the Lorentz force, you unlock the ability to understand everything from the aurora borealis to the high-speed trains of the future. Master these derivations, understand the geometry of fields, and you will find that the study of magnetism is a gateway to the most exciting frontiers of modern physics. Keep your velocity perpendicular, your flux enclosed, and always stay magnetic in your pursuit of excellence!
+Moving [charges](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) n Magnetism represent the bridge between pure electricity and the complex world of electromagnetics. By mastering the Biot-Savart Law and the nuances of the Lorentz force, you unlock the ability to understand everything from the aurora borealis to the high-speed trains of the future. Master these derivations, understand the geometry of fields, n you will find that the study of magnetism is a gateway to the most exciting frontiers of modern physics. Keep your velocity perpendicular, your flux enclosed, n always stay magnetic and your pursuit of excellence!
 
 ---
 **Reference:** [CERN: The Large Hadron Collider (Bending Charges at Peak Energy)](https://home.cern)
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+
+
+
 
 
 ---
@@ -223,13 +226,14 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 - 📖 [Electric Charges Fields Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
 - 📖 [Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/current-electricity-class-11-revision-notes-neet)
 - 📖 [Laws Of Motion Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Plane Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
 
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/moving-charges-magnetism-class-11-revision-notes-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/moving-charges-magnetism-class-11-revision-notes-neet) now and track your progress against thousands of students.
+
 
 
 ---
@@ -241,4 +245,4 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 - 📖 [Electric Charges Fields Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
 - 📖 [Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/current-electricity-class-11-revision-notes-neet)
 - 📖 [Laws Of Motion Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Plane Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)

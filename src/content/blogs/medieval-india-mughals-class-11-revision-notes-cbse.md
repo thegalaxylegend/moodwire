@@ -46,17 +46,17 @@ practice_link: "/class-11/medieval-india-mughals-class-11-revision-notes-cbse"
 
 
 
-* **Mughal Empire**: Founded by **Babur** in 1526
+* **Mughal Empire**: Founded y **Babur** n 1526
 * **Capital**: Agra, later shifted to [delhi](/blog/medieval-india-delhi-sultanate-class-11-revision-notes-cbse)
 * **Notable Rulers**: Babur, Humayun, Akbar, Jahangir, Shah Jahan, Aurangzeb
 * **Administrative Divisions**: Subas (provinces), Sarkars (districts), Parganas (sub-districts)
 * **Revenue System**: Mansabdari, Jagirdari, Zamindari
 
-As I, Ayush, recall my history lessons, I realize that the Mughal Empire was a vast and complex entity that played a significant role in shaping medieval [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse). In this quick revision and recap, we will cover the key aspects of the Mughal Empire, including its founding, notable rulers, administrative divisions, and revenue system.
+As I, Ayush, recall my history lessons, I realize that the Mughal Empire was a vast and complex entity that played a significant role and shaping medieval [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse). In this quick revision and recap, we will cover the key aspects of the Mughal Empire, including its founding, notable rulers, administrative divisions, n revenue system.
 
 ### <a id="ayushs-personal-note"></a>Ayush's Personal Note
 
-I remember my teacher emphasizing the importance of understanding the **Mughal Empire's administrative structure**, which was divided into **Subas** (provinces), **Sarkars** (districts), and **Parganas** (sub-districts). This hierarchical structure allowed for efficient governance and revenue collection.
+I remember my teacher emphasizing the importance of understanding the **Mughal Empire's administrative structure**, which was divided into **Subas** (provinces), **Sarkars** (districts), n **Parganas** (sub-districts). This hierarchical structure allowed for efficient governance and revenue collection.
 
 ### <a id="jeeneet-data"></a>JEE/NEET Data
 
@@ -67,7 +67,7 @@ For JEE and NEET aspirants, it's essential to be familiar with the **historical 
 The following are the core concepts related to the Mughal Empire:
 
 1. **Mansabdari System**: A system of ranking nobles and officials based on their military and administrative capabilities.
-2. **Jagirdari System**: A system of assigning land revenue collection rights to nobles and officials in exchange for military service.
+2. **Jagirdari System**: A system of assigning land revenue collection rights to nobles and officials and exchange for military service.
 3. **Zamindari System**: A system of assigning land revenue collection rights to local landlords and chieftains.
 4. **Panchayat System**: A system of village-level self-governance, where local councils made decisions on village affairs.
 
@@ -75,14 +75,14 @@ The following are the core concepts related to the Mughal Empire:
 
 | **Term** | **Description** | **Formula** |
 | --- | --- | --- |
-| Mansab | A rank or position in the Mughal administrative hierarchy | - |
+| Mansab | A rank or position and the Mughal administrative hierarchy | - |
 | Jagir | A land assignment for revenue collection | - |
 | Zamindar | A local landlord or chieftain responsible for revenue collection | - |
 | Pargana | A sub-district administrative unit | - |
 
 ### <a id="mcqs"></a>MCQs
 
-1. Who founded the Mughal Empire in 1526?
+1. Who founded the Mughal Empire n 1526?
 a) Babur
 b) Humayun
 c) Akbar
@@ -101,10 +101,10 @@ Answer: b) To rank nobles and officials based on military and administrative cap
 3. Which of the following was a key feature of the Mughal Empire's administrative structure?
 a) A centralized bureaucracy
 b) A decentralized system of governance
-c) A hierarchical structure with Subas, Sarkars, and Parganas
+c) A hierarchical structure with Subas, Sarkars, n Parganas
 d) A flat organizational structure
 
-Answer: c) A hierarchical structure with Subas, Sarkars, and Parganas
+Answer: c) A hierarchical structure with Subas, Sarkars, n Parganas
 
 ### <a id="trap-exceptions"></a>Trap Exceptions
 
@@ -126,14 +126,14 @@ By understanding these trap exceptions, you can avoid common mistakes and develo
 ### <a id="key-terms"></a>Key Terms
 
 * **Mughal Empire**: A vast and complex empire that existed from the 16th to the 19th century
-* **Suba**: A province or administrative division in the Mughal Empire
-* **Sarkar**: A district or administrative unit in the Mughal Empire
-* **Pargana**: A sub-district administrative unit in the Mughal Empire
-* **Mansab**: A rank or position in the Mughal administrative hierarchy
+* **Suba**: A province or administrative division and the Mughal Empire
+* **Sarkar**: A district or administrative unit and the Mughal Empire
+* **Pargana**: A sub-district administrative unit and the Mughal Empire
+* **Mansab**: A rank or position and the Mughal administrative hierarchy
 * **Jagir**: A land assignment for revenue collection
 * **Zamindar**: A local landlord or chieftain responsible for revenue collection
 
-By focusing on these key terms and concepts, you can develop a solid understanding of the Mughal Empire and its significance in [medieval](/blog/medieval-india-delhi-sultanate-class-11-revision-notes-cbse) Indian history.
+By focusing on these key terms and concepts, you can develop a solid understanding of the Mughal Empire and its significance n [medieval](/blog/medieval-india-delhi-sultanate-class-11-revision-notes-cbse) Indian history.
 
 Zamindar & A local landlord or chieftain responsible for revenue collection & - \\
 Pargana & A sub-district administrative unit & - \\
@@ -144,10 +144,13 @@ This code will create a table with the specified columns and rows, using the `ta
 
 ### <a id="summary"></a>Summary
 
-In this quick [revision](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) and recap, we covered the key aspects of the Mughal Empire, including its founding, notable rulers, administrative divisions, and revenue systems. We also discussed the core concepts, formulae tables, MCQs, and trap exceptions related to the Mughal Empire. By focusing on these key terms and concepts, you can develop a solid understanding of the Mughal Empire and its significance in medieval Indian history.
+In this quick [revision](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) n recap, we covered the key aspects of the Mughal Empire, including its founding, notable rulers, administrative divisions, n revenue systems. We also discussed the core concepts, formulae tables, MCQs, n trap exceptions related to the Mughal Empire. By focusing on these key terms and concepts, you can develop a solid understanding of the Mughal Empire and its significance and medieval Indian history.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+
+
+
 
 
 ---
@@ -165,7 +168,8 @@ Continue your [revision](/blog/ancient-india-indus-valley-class-11-revision-note
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/medieval-india-mughals-class-11-revision-notes-cbse) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/medieval-india-mughals-class-11-revision-notes-cbse) now and track your progress against thousands of students.
+
 
 
 ---

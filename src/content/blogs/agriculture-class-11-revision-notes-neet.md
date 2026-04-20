@@ -17,7 +17,7 @@ practice_link: "/class-11/biology/agriculture-class-11-revision-notes-neet"
 - [What is Agriculture?](#what-is-agriculture)
 - [Ayush's Note — The Mistake I Made](#ayushs-note-the-mistake-i-made)
 - [Detailed Analysis](#detailed-analysis)
-- [Trap Questions & Exceptions to Watch Out For](#trap-questions-and-exceptions-to-watch-out-for)
+- [Trap Questions & Exceptions to Watch Out For](#trap-questions-n-exceptions-to-watch-out-for)
 - [MCQs](#mcqs)
 - [📚 Related Topics](#-related-topics)
 
@@ -30,11 +30,11 @@ practice_link: "/class-11/biology/agriculture-class-11-revision-notes-neet"
 
 ## <a id="what-is-agriculture"></a>What is Agriculture?
 
-{"title":"Introduction to Agriculture","content":"Agriculture is the backbone of our economy, providing food, shelter, and livelihood to millions of people. It is a vital sector that contributes significantly to the GDP of our country. The study of agriculture is crucial for understanding the principles and practices of crop production, soil management, and livestock farming. In this chapter, we will the world of agriculture, exploring its importance, types, and techniques. We will also examine the factors affecting crop production, such as climate, soil, and water. Through this study guide, we will discover the intricacies of agriculture and its significance in our daily lives.","weightage":"The weightage of this topic in the [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 Biology syllabus is around 10%, making it a crucial aspect to focus on for the exams.","context":"The context of agriculture is not just limited to farming; it also encompasses the social, economic, and environmental aspects. As we progress through this study guide, we will analyze the complexities of agriculture and its far-reaching implications."}
+{"title":"Introduction to Agriculture","content":"Agriculture is the backbone of our economy, providing food, shelter, n livelihood to millions of people. It is a vital sector that contributes significantly to the GDP of our country. The study of agriculture is crucial for understanding the principles and practices of crop production, soil management, n livestock farming. In this chapter, we will the world of agriculture, exploring its importance, types, n techniques. We will also examine the factors affecting crop production, such as climate, soil, n water. Through this study guide, we will discover the intricacies of agriculture and its significance and our daily lives.","weightage":"The weightage of this topic and the [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 Biology syllabus is around 10%, making it a crucial aspect to focus on for the exams.","context":"The context of agriculture is not just limited to farming; it also encompasses the social, economic, n environmental aspects. As we progress through this study guide, we will analyze the complexities of agriculture and its far-reaching implications."}
 
 ## <a id="Ayush-note-the-mistake-i-made"></a>Ayush's Note — The Mistake I Made
 
-{"title":"Personal Mistake/Hack","note":"One of the most significant mistakes I made while preparing for my [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 Biology exams was not giving enough attention to the agricultural practices and their impact on the environment. I used to think that agriculture was just about farming, but it's so much more than that. My hack is to always keep a note of the key terms and concepts related to agriculture, such as crop rotation, irrigation, and fertilizers, and to revise them regularly.","hack":"To make the most of this topic, create flashcards with key terms on one side and their definitions on the other, and quiz yourself regularly."}
+{"title":"Personal Mistake/Hack","note":"One of the most significant mistakes I made while preparing for my [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 Biology exams was not giving enough attention to the agricultural practices and their impact on the environment. I used to think that agriculture was just about farming, but it's so much more than that. My hack is to always keep a note of the key terms and concepts related to agriculture, such as crop rotation, irrigation, n fertilizers, n to revise them regularly.","hack":"To make the most of this topic, create flashcards with key terms on one side and their definitions on the other, n quiz yourself regularly."}
 
 ## <a id="detailed-analysis"></a>Detailed Analysis
 
@@ -46,13 +46,13 @@ practice_link: "/class-11/biology/agriculture-class-11-revision-notes-neet"
 
 ""
 
-## <a id="trap-questions-and-exceptions-to-watch-out-for"></a>Trap Questions & Exceptions to Watch Out For
+## <a id="trap-questions-n-exceptions-to-watch-out-for"></a>Trap Questions & Exceptions to Watch Out For
 
-{"question1":{"question":"What is the primary difference between subsistence farming and commercial farming?","trap":"Many students get confused between these two types of farming. Subsistence farming is for personal consumption, while commercial farming is for profit.","answer":"Subsistence farming is for personal consumption, while commercial farming is for profit."},"question2":{"question":"What is the role of soil management in agriculture?","trap":"Soil management is often overlooked, but it is crucial for maintaining soil fertility and health. It involves practices like crop rotation, addition of organic matter, and conservation tillage.","answer":"Soil management is vital for maintaining soil fertility and health."},"question3":{"question":"What is the significance of crop rotation in agriculture?","trap":"Crop rotation is often misunderstood, but it is essential for breaking disease and pest cycles, improving soil fertility, and increasing crop yields.","answer":"Crop rotation is essential for breaking disease and pest cycles, improving soil fertility, and increasing crop yields."}}
+{"question1":{"question":"What is the primary difference between subsistence farming and commercial farming?","trap":"Many students get confused between these two types of farming. Subsistence farming is for personal consumption, while commercial farming is for profit.","answer":"Subsistence farming is for personal consumption, while commercial farming is for profit."},"question2":{"question":"What is the role of soil management and agriculture?","trap":"Soil management is often overlooked, but it is crucial for maintaining soil fertility and health. It involves practices like crop rotation, addition of organic matter, n conservation tillage.","answer":"Soil management is vital for maintaining soil fertility and health."},"question3":{"question":"What is the significance of crop rotation and agriculture?","trap":"Crop rotation is often misunderstood, but it is essential for breaking disease and pest cycles, improving soil fertility, n increasing crop yields.","answer":"Crop rotation is essential for breaking disease and pest cycles, improving soil fertility, n increasing crop yields."}}
 
 
 
-- Agriculture is the backbone of our economy.,There are several types of agriculture, including subsistence farming, commercial farming, and organic farming.,Crop production is a critical aspect of agriculture.,Soil management is vital for maintaining soil fertility and health.,Livestock farming involves the rearing of animals for food and other products.
+- Agriculture is the backbone of our economy.,There are several types of agriculture, including subsistence farming, commercial farming, n organic farming.,Crop production is a critical aspect of agriculture.,Soil management is vital for maintaining soil fertility and health.,Livestock farming involves the rearing of animals for food and other products.
 
 ## <a id="MCQs"></a>MCQs
 
@@ -72,7 +72,7 @@ Reduced water availability
 
 **Answer:** 3. Improved soil fertility)
 
-**3. What is the role of conservation tillage in soil management?**
+**3. What is the role of conservation tillage and soil management?**
 To reduce soil erosion and conserve water
 To increase soil temperature and improve soil structure
 To reduce crop yields and increase soil salinity
@@ -80,11 +80,11 @@ To promote soil erosion and reduce water availability
 
 **Answer:** 1. To reduce soil erosion and conserve water)
 
-**4. What is the significance of livestock farming in agriculture?**
+**4. What is the significance of livestock farming and agriculture?**
 It provides food and other products for human consumption
 It helps to conserve water and soil
 It promotes soil erosion and reduces crop yields
-It has no role in agriculture
+It has no role and agriculture
 
 **Answer:** 1. It provides food and other products for human consumption)
 
@@ -92,16 +92,17 @@ It has no role in agriculture
 Organic farming uses synthetic fertilizers and pesticides, while conventional farming does not
 Organic farming avoids the use of synthetic fertilizers and pesticides, while conventional farming uses them
 Organic farming promotes soil erosion and reduces crop yields, while conventional farming does not
-Organic farming has no role in agriculture
+Organic farming has no role and agriculture
 
 **Answer:** 2. Organic farming avoids the use of synthetic fertilizers and pesticides, while conventional farming uses them)
 
 ---
-*This post was curated by Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated y Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, n edited for accuracy y Ayush.*
 
 ---
-*This post was curated by Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, and edited for accuracy by Ayush.*
----
+*This post was curated y Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, n edited for accuracy y Ayush.*
+
+---
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -116,7 +117,8 @@ Continue your [revision](/blog/3d-geometry-intro-class-11-revision-notes-jee-nee
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/agriculture-class-11-revision-notes-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/agriculture-class-11-revision-notes-neet) now and track your progress against thousands of students.
+
 
 
 ---
@@ -137,17 +139,17 @@ Continue your [revision](/blog/3d-geometry-intro-class-11-revision-notes-jee-nee
    * Crop: [plants](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) grown on large scale for food, fodder or commercial purposes
    * Crop variety: crop grown for specific feature/characteristic
    * Intercropping: growing two or more crops simultaneously on same field
-   * Crop rotation: growing different crops on same field in sequential seasons
+   * Crop rotation: growing different crops on same field and sequential seasons
    * Organic farming: farming using natural/organic sources for crop growth
-   * Soil erosion: removal of top layer of soil by natural/artificial forces
-   * Nutrient deficiency: lack of essential nutrients in soil for plant growth
+   * Soil erosion: removal of top layer of soil y natural/artificial forces
+   * Nutrient deficiency: lack of essential nutrients and soil for plant growth
    * Soil testing: [analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) of soil for pH/nutrient content
    * Fertilizers: inorganic/chemical substances to add nutrients to soil
    * Manures: organic substances to add nutrients to soil
    * Irrigation: artificial application of water for plant growth
    * Drainage: removal of excess water from soil
    * Tillage: preparation of soil for sowing seeds
-   * Sowing: placing seeds in soil for germination
+   * Sowing: placing seeds and soil for germination
    * Nursery: place for raising young [plants](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
    * Transplantation: transferring [plants](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) from one place to another
    * Threshing: separation of grains from chaff

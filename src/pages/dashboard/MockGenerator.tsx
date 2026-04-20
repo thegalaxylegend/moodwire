@@ -47,7 +47,7 @@ export const MockGenerator = () => {
     const urlTopic = searchParams.get('topic');
     const isTestingUntimed = false;
 
-    const [mode, setMode] = useState<'quick' | 'topic' | 'full' | 'diagnostic'>('quick');
+    const [mode, setMode] = useState<'quick' | 'topic' | 'full' | 'diagnostic' | 'remediation'>('quick');
     const [difficulty, setDifficulty] = useState<'Exam_Level' | 'Slightly_Harder' | 'Mains' | 'Advanced'>('Exam_Level');
     const [step, setStep] = useState<'config' | 'loading' | 'preview' | 'exam' | 'result' | 'history' | 'review'>('config');
     const [questions, setQuestions] = useState<Question[]>([]);
@@ -298,7 +298,6 @@ export const MockGenerator = () => {
 
             if (status === 'completed') {
                 const questionResults = questions.map((q, i) => ({ topic: q.topic, isCorrect: answers[i] === q.correctAnswer }));
-                // updateLeaderboard(user.id, { displayName: user.name || 'Anonymous', avatar: user.avatarUrl, xp: user.xp + (currentScore * 10), rankName: user.prepLevel || 'Aspirant' }, currentScore, user.targetExam || 'General').catch(() => {});
                 addGains({ xp: currentScore * 10, pts: currentScore }).catch(() => {});
                 updateProfile({ lastTestDate: new Date().toISOString().split('T')[0] }).catch(() => {});
                 markTopicsAsCompletedFromResults(user.id, questionResults).catch(() => {});
@@ -358,11 +357,9 @@ export const MockGenerator = () => {
 
         try {
             const targetExam = user?.targetExam || 'General';
-            const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '');
-            const target = user?.targetExam?.toUpperCase() || '';
-            const isNeet = target.includes('NEET');
+            const { getAdaptiveQuestionBatch, mapStoredToUIQuestion } = await import('../../services/questionEngine');
 
-            let needs: Array<{ subject: string; topic: string; count: number }> = [];
+            let needs: Array<{ subject: string; topic: string; count: number; remediationFocus?: any }> = [];
 
             if (examMode === 'quick') {
                 setTimeRemaining(30 * 60);
@@ -370,11 +367,14 @@ export const MockGenerator = () => {
                 const prefetched = mockPrefetchService.consumePrefetch(targetExam, currentAbility);
                 if (prefetched && prefetched.length > 0) {
                     console.log("⚡ [MockGenerator] Instant Start: Using pre-fetched questions.");
-                    const mappedQs = mapRawToLocal(prefetched);
-                    setQuestions(mappedQs);
+                    setQuestions(mapStoredToUIQuestion(prefetched));
                     setStep('preview');
                     return;
                 }
+
+                const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '');
+                const target = user?.targetExam?.toUpperCase() || '';
+                const isNeet = target.includes('NEET');
 
                 if (isJunior) {
                     needs = [{ subject: 'General', topic: 'Mathematics and Science', count: 10 }];
@@ -393,6 +393,7 @@ export const MockGenerator = () => {
                 }
             } else if (examMode === 'diagnostic') {
                 setTimeRemaining(0);
+                const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '');
                 const subject = isJunior ? "Math, Science, English" : "Physics, Chemistry, Mathematics";
                 needs = [{ subject, topic: subject, count: 10 }];
             } else if (examMode === 'topic') {
@@ -426,7 +427,6 @@ export const MockGenerator = () => {
             }
 
             setLoadingMessage("Fetching Hybrid Questions...");
-            const { getAdaptiveQuestionBatch } = await import('../../services/questionEngine');
             const rawQuestions = await getAdaptiveQuestionBatch(
                 user!.id,
                 needs,
@@ -439,7 +439,7 @@ export const MockGenerator = () => {
                 throw new Error("No questions were generated successfully.");
             }
 
-            const mappedQs = mapRawToLocal(rawQuestions);
+            const mappedQs = mapStoredToUIQuestion(rawQuestions);
             setQuestions(mappedQs);
             setStep('preview');
 
@@ -448,33 +448,6 @@ export const MockGenerator = () => {
             alert("Failed to generate exam. Please try again.");
             navigate('/dashboard/test-center');
         }
-    };
-
-    const mapRawToLocal = (raw: any[]): Question[] => {
-        return raw.map((q, idx) => {
-            const optionsArray: string[] = Array.isArray(q.options)
-                ? q.options
-                : Object.values(q.options);
-            
-            let correctAnswerIndex = 0;
-            if (typeof q.correct_answer === 'string') {
-                if (q.correct_answer.length === 1 && /[A-D]/.test(q.correct_answer)) {
-                    correctAnswerIndex = q.correct_answer.charCodeAt(0) - 65;
-                } else {
-                    const foundIndex = optionsArray.indexOf(q.correct_answer);
-                    if (foundIndex !== -1) correctAnswerIndex = foundIndex;
-                }
-            }
-
-            return {
-                id: idx + 1,
-                text: q.question,
-                options: optionsArray,
-                correctAnswer: correctAnswerIndex,
-                explanation: q.explanation,
-                topic: q.topic,
-            };
-        });
     };
 
     const handleAnswer = (optionIdx: number) => {

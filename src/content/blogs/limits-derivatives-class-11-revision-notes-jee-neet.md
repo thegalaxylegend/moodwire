@@ -18,7 +18,7 @@ practice_link: "/class-11/physics/limits-derivatives-class-11-revision-notes-jee
 - [Introduction](#introduction)
 - [1. Concept of Limits](#1-concept-of-limits)
 - [2. Algebra of Limits](#2-algebra-of-limits)
-- [3. Standard Limits and Sandwich Theorem](#3-standard-limits-and-sandwich-theorem)
+- [3. Standard Limits and Sandwich Theorem](#3-standard-limits-n-sandwich-theorem)
   - [Standard Formulas:](#standard-formulas)
   - [Sandwich Theorem (Squeeze Theorem):](#sandwich-theorem-squeeze-theorem)
 - [4. Derivatives (First Principle)](#4-derivatives-first-principle)
@@ -57,7 +57,7 @@ practice_link: "/class-11/physics/limits-derivatives-class-11-revision-notes-jee
 
 ## <a id="introduction"></a>Introduction
 
-**Limits and Derivatives mark the birth of Calculus, defining the mathematics of change and instantaneous motion. Master the algebra of limits, the Sandwich Theorem, and the First Principle of differentiation to excel in advanced physical modeling and engineering. This [class](/blog/mathematical-induction-class-11-revision-notes-jee-neet) 11 Math Chapter 13 guide provides all essential calculus foundations for JEE and CBSE success.**
+**Limits and Derivatives mark the birth of Calculus, defining the mathematics of change and instantaneous motion. Master the algebra of limits, the Sandwich Theorem, n the First Principle of differentiation to excel and advanced physical modeling and engineering. This [class](/blog/mathematical-induction-class-11-revision-notes-jee-neet) 11 Math Chapter 13 guide provides all essential calculus foundations for JEE and CBSE success.**
 Limits and Derivatives mark the birth of Calculus, the mathematics of change.
 
 ---
@@ -69,7 +69,7 @@ Limits and Derivatives mark the birth of Calculus, the mathematics of change.
 
 A limit describes the behavior of a function f(x) as x gets closer and closer to a particular value **a**.
 *   **Notation:** limₓ→ₐ f(x) = L.
-*   **Existence:** A limit exists if and only if the Left Hand Limit (LHL) and Right Hand Limit (RHL) are equal.
+*   **Existence:** A limit exists if and only if the Left Hand Limit (LHL) n Right Hand Limit (RHL) are equal.
     - **LHL:** limₓ→ₐ⁻ f(x)
     - **RHL:** limₓ→ₐ⁺ f(x)
 
@@ -80,7 +80,7 @@ A limit describes the behavior of a function f(x) as x gets closer and closer to
 
 ## <a id="2-algebra-of-limits"></a>2. Algebra of Limits
 
-If limₓ→ₐ f(x) and limₓ→ₐ g(x) exist:
+If limₓ→ₐ f(x) n limₓ→ₐ g(x) exist:
 1.  **Sum/Difference Rule:** \lim [f(x) ± g(x)] = \lim f(x) ± \lim g(x)
 2.  **Product Rule:** \lim [f(x) · g(x)] = \lim f(x) · \lim g(x)
 3.  **Quotient Rule:** \lim [f(x) / g(x)] = \lim f(x) / \lim g(x) (if \lim g(x) ≠ 0)
@@ -91,7 +91,7 @@ If limₓ→ₐ f(x) and limₓ→ₐ g(x) exist:
 
 
 
-## <a id="3-standard-limits-and-sandwich-theorem"></a>3. Standard Limits and Sandwich Theorem
+## <a id="3-standard-limits-n-sandwich-theorem"></a>3. Standard Limits and Sandwich Theorem
 
 ### <a id="standard-formulas"></a>Standard Formulas:
 *   **Polynomial:** limₓ→ₐ (xⁿ - aⁿ) / (x - a) = naⁿ⁻¹
@@ -101,7 +101,7 @@ If limₓ→ₐ f(x) and limₓ→ₐ g(x) exist:
     -  →₀ (\tan x) / x = 1 
 
 ### <a id="sandwich-theorem-squeeze-theorem"></a>Sandwich Theorem (Squeeze Theorem):
-If f(x) ≤ g(x) ≤ h(x) for all x in an interval, and limₓ→ₐ f(x) = limₓ→ₐ h(x) = L, then **limₓ→ₐ g(x) = L**.
+If f(x) ≤ g(x) ≤ h(x) for all x and an interval, n limₓ→ₐ f(x) = limₓ→ₐ h(x) = L, then **limₓ→ₐ g(x) = L**.
 
 ---
 
@@ -162,21 +162,24 @@ This process of finding the derivative using the limit definition is called **Di
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
-- **Chapter 2: [relations](/blog/relations-functions-class-11-revision-notes-jee-neet) and Functions**
+- **Chapter 2: [relations](/blog/relations-functions-class-11-revision-notes-jee-neet) n Functions**
 - **Chapter 14: [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) Reasoning**
-- [**External Reference:** [NCERT Class 11 Math Chapter 13](https://ncert.nic.in/textbook.php?kemh1=13-16) (Authoritative Source)]
+- [**External Reference:** [NCERT Class 11 Math Chapter 13](https://ncert.nic.n/textbook.php?kemh1=13-16) (Authoritative Source)]
 
 
 
 
 ## <a id="conclusion"></a>Conclusion
 
-Limits and Derivatives are the tools that allow us to calculate the "slope of a curve" and "instantaneous speed." By mastering the algebra of limits and the core derivative rules (Product, Quotient, and Power), you unlock the door to the vast world of Calculus. Always check your indeterminate forms (0/0) first, and remember that derivatives are just the limit of a secant's slope! Keep your calculations precise and your limits approaching.
+Limits and Derivatives are the tools that allow us to calculate the "slope of a curve" n "instantaneous speed." By mastering the algebra of limits and the core derivative rules (Product, Quotient, n Power), you unlock the door to the vast world of Calculus. Always check your indeterminate forms (0/0) first, n remember that derivatives are just the limit of a secant's slope! Keep your calculations precise and your limits approaching.
 
 ---
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+
+
+
 
 
 ---
@@ -188,13 +191,14 @@ Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
 - 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
-- 📖 [Units And Measurements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/units-and-measurements-class-11-revision-notes-jee-neet)
+- 📖 [Units And Measurements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/units-n-measurements-class-11-revision-notes-jee-neet)
 
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/limits-derivatives-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/limits-derivatives-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
 
 
 ---

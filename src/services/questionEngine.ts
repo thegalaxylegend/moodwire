@@ -904,6 +904,84 @@ export const getAdaptiveQuestionBatch = async (
     return allQuestions;
 };
 
+/**
+ * Standard Mapping: Converts StoredQuestion (DB/AI) to UI-ready Question format.
+ * Matches the logic used in the Test Center.
+ */
+export const mapStoredToUIQuestion = (raw: any[], startId: number = 1) => {
+    return raw.map((q, idx) => {
+        const optionsArray: string[] = Array.isArray(q.options)
+            ? q.options
+            : Object.values(q.options || {});
+        
+        let correctAnswerIndex = 0;
+        if (typeof q.correct_answer === 'string') {
+            if (q.correct_answer.length === 1 && /[A-D]/.test(q.correct_answer)) {
+                correctAnswerIndex = q.correct_answer.charCodeAt(0) - 65;
+            } else {
+                const foundIndex = optionsArray.indexOf(q.correct_answer);
+                if (foundIndex !== -1) correctAnswerIndex = foundIndex;
+            }
+        }
+
+        return {
+            id: startId + idx,
+            text: q.question,
+            options: optionsArray,
+            correctAnswer: correctAnswerIndex,
+            explanation: q.explanation || q.hidden_derivation || '',
+            topic: q.topic,
+            subject: q.subject
+        };
+    });
+};
+
+/**
+ * Generates a standard batch of questions for a specific exam/class/subject combination.
+ * Follows the "Quick Test" distribution rules from the Test Center.
+ */
+export const generateStandardBatch = async (
+    uid: string,
+    targetExam: string,
+    userClass: string,
+    subject?: string,
+    count: number = 5,
+    abilityScore?: number
+) => {
+    const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(userClass);
+    const isNeet = targetExam.toUpperCase().includes('NEET');
+
+    let needs: Array<{ subject: string; topic: string; count: number }> = [];
+
+    if (subject && subject !== 'Mixed Topics') {
+        // Topic specific or Subject specific
+        needs = [{ subject, topic: subject, count }];
+    } else if (isJunior) {
+        needs = [{ subject: 'General', topic: 'Mathematics and Science', count }];
+    } else if (isNeet) {
+        // Balanced distribution
+        needs = [
+            { subject: 'Biology', topic: 'Biology', count: Math.ceil(count * 0.4) },
+            { subject: 'Physics', topic: 'Physics', count: Math.floor(count * 0.3) },
+            { subject: 'Chemistry', topic: 'Chemistry', count: Math.floor(count * 0.3) }
+        ];
+    } else {
+        needs = [
+            { subject: 'Mathematics', topic: 'Mathematics', count: Math.ceil(count * 0.4) },
+            { subject: 'Physics', topic: 'Physics', count: Math.floor(count * 0.3) },
+            { subject: 'Chemistry', topic: 'Chemistry', count: Math.floor(count * 0.3) }
+        ];
+    }
+
+    // Adjust total count if needed
+    const currentTotal = needs.reduce((s, n) => s + n.count, 0);
+    if (currentTotal > count) needs[0].count -= (currentTotal - count);
+    if (currentTotal < count) needs[0].count += (count - currentTotal);
+
+    const questions = await getAdaptiveQuestionBatch(uid, needs, targetExam, abilityScore);
+    return mapStoredToUIQuestion(questions);
+};
+
 
 /**
  * Pre-generate daily batch for weak topics.

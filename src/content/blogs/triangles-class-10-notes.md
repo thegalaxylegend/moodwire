@@ -1,159 +1,106 @@
 ---
 heroImage: "/blog-images/triangles-class-10-notes.webp"
-title: "Triangles Class 10 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
-description: "Triangles Class 10 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
-category: "Revision"
-date: "2026-04-07"
-practice_link: "/class-11/mathematics/triangles-class-10-notes"
-manual_review: true
+title: "Triangles Class 10 Exam Prep Revision — Grandmaster Guide"
+description: "Triangles Class 10 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20."
+category: "Exam Notes"
+date: "2026-04-20"
+practice_link: "/practice/triangles-class-10-notes"
+manualReview: false
 ---
 
-*Last Updated: 2026-04-07*
+## ⚡ Formula Bank
+- The sum of all interior angles of a triangle is $180^\circ$
+- The sum of any two sides of a triangle must be greater than the third side, given by $\left| a - b \right| < c < a + b$
+- The area of a triangle with base $b$ and height $h$ is $\frac{1}{2} \times b \times h$
+- The area of a triangle with sides $a$, $b$, and $c$ can be calculated using Heron's formula: $\sqrt{s(s-a)(s-b)(s-c)}$, where $s$ is the semi-perimeter, given by $\frac{a+b+c}{2}$
+- The Pythagorean theorem states that in a right-angled triangle, the square of the length of the hypotenuse $c$ is equal to the sum of the squares of the lengths of the other two sides $a$ and $b$, given by $c^2 = a^2 + b^2$
+- The distance between the circumcenter and the centroid of a triangle is given by $\frac{2}{3} \times \text{distance between orthocenter and circumcenter}$
 
-<div [class](/blog/polynomials-class-10-notes)="quick-summary">
 
-### 🚀 Quick Recall — Last Night Summary
+## 
+- A triangle with two equal sides is called an isosceles triangle
+- A triangle with all equal sides is called an equilateral triangle
+- A triangle with all unequal sides is called a scalene triangle
+- A triangle with one right angle is called a right-angled triangle
+- A triangle with all acute angles is called an acute-angled triangle
+- A triangle with one obtuse angle is called an obtuse-angled triangle
 
-- Properties of Triangles: 1 question on triangle inequality theorem — always
-- Special Triangles: 1 question on properties of 30-60-90 or 45-45-90 triangle — frequently
-- Area of Triangle: 1 question on Heron's formula or area using determinant — frequently
-- Congruent Triangles: 1 question on SAS, ASA, SSS, or RHS congruence — always
-- Similar Triangles: 1 question on AA or SSS similarity criterion — frequently
-- [trigonometry](/blog/introduction-to-trigonometry-class-10-notes): 1 question on trigonometric ratios in a right-angled triangle — always
-- Properties of Medians: 1 question on centroid or length of median to hypotenuse — frequently
-- Apollonius' Theorem: 1 question on Apollonius' theorem for median — frequently
-- Circumcircle: 1 question on circumcircle or circumradius of a triangle — frequently
-- Incircle: 1 question on incircle or inradius of a triangle — frequently
 
-</div>
+## 🪤 The 5 Mistakes That Cost Marks
+- Not checking if the given triangle is valid, i.e., the sum of any two sides must be greater than the third side
+- Not using the correct formula for calculating the area of a triangle
+- Not considering all possible cases when solving a problem
+- Not labeling the diagram correctly
+- Not using the properties of special triangles, such as isosceles and equilateral triangles
 
-## 📋 Table of Contents
 
-- [⚡ Formula Bank](#-formula-bank)
-- [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
-- [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
-- [👁️ Ayush's Note](#-ayushs-note)
-- [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
-- [📝 Practice MCQs](#-practice-mcqs)
+## ✏️ 3 Solved PYQs
+- **Question 1:** In a triangle $ABC$, the length of the side $AB$ is $5$ cm, the length of the side $BC$ is $6$ cm, and the length of the side $CA$ is $7$ cm. Find the area of the triangle.
+  - **Step 1:** Calculate the semi-perimeter of the triangle using the formula $s = \frac{a+b+c}{2}$
+  - **Step 2:** Substitute the values into the formula to get $s = \frac{5+6+7}{2} = 9$
+  - **Step 3:** Use Heron's formula to calculate the area of the triangle: $\sqrt{s(s-a)(s-b)(s-c)} = \sqrt{9(9-5)(9-6)(9-7)} = \sqrt{9 \times 4 \times 3 \times 2} = \sqrt{216} = 6\sqrt{6}$
+- **Question 2:** In a right-angled triangle $ABC$, the length of the side $AB$ is $3$ cm, and the length of the side $BC$ is $4$ cm. Find the length of the hypotenuse $AC$.
+  - **Step 1:** Use the Pythagorean theorem to find the length of the hypotenuse: $c^2 = a^2 + b^2$
+  - **Step 2:** Substitute the values into the formula to get $c^2 = 3^2 + 4^2 = 9 + 16 = 25$
+  - **Step 3:** Take the square root of both sides to get $c = \sqrt{25} = 5$
+- **Question 3:** In an isosceles triangle $ABC$, the length of the side $AB$ is $5$ cm, and the length of the side $BC$ is $5$ cm. Find the length of the side $CA$.
+  - **Step 1:** Since the triangle is isosceles, the length of the side $CA$ is equal to the length of the side $AB$ or $BC$
+  - **Step 2:** Therefore, the length of the side $CA$ is $5$ cm
 
-## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Ayush's Pattern Study:** This specific sub-topic is often overlooked, but the pattern of questions in the last 10 years shows it is critical for high-percenti\le scoring.
+## 🧠 The One Thing Most Students Get Wrong
+- The concept of similar triangles, which states that two triangles are similar if their corresponding angles are equal and their corresponding sides are proportional
+- Many students get confused between similar triangles and congruent triangles, which are triangles that have the same size and shape
 
-- **The Exam Hack:** Focus on understanding the derivation rather than just the final result.
 
-- **Mistake to Avoid:** Don't skip the numerical applications related to this concept.
+## 👁️ Ayush's Note
+- When solving problems related to triangles, always draw a diagram and label it correctly
+- Use the properties of special triangles, such as isosceles and equilateral triangles, to simplify the problem
+- Always check if the given triangle is valid, i.e., the sum of any two sides must be greater than the third side
 
-## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
-- **Ayush's Pattern Study:** This specific sub-topic is often overlooked, but the pattern of questions in the last 10 years shows it is critical for high-percenti\le scoring.
+## 🔁 Last 5 Minutes Box
+- Make sure to check all the formulas and theorems related to triangles
+- Go through the solved examples and practice problems to reinforce your understanding
+- Use the last 5 minutes to quickly review the key concepts and formulas
 
-- **The Exam Hack:** Focus on understanding the derivation rather than just the final result.
 
-- **Mistake to Avoid:** Don't skip the numerical applications related to this concept.
-
-## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
-
-- **Ayush's Pattern Study:** This specific sub-topic is often overlooked, but the pattern of questions in the last 10 years shows it is critical for high-percenti\le scoring.
-
-- **The Exam Hack:** Focus on understanding the derivation rather than just the final result.
-
-- **Mistake to Avoid:** Don't skip the numerical applications related to this concept.
-
-## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
-
-- **The Core Concept:** Triangles, specifically the concept of similarity and the relationship between their sides and angles. Understanding this deeply is what separates top scorers from the rest.
- - **What 85% scorers do:** They memorize basic properties of triangles, such as the Pythagorean theorem ($a^2 + b^2 = c^2$) for right-angled triangles, and basic similarity rules (AA, SSS, SAS). They can solve straightforward problems but strugg\le with complex applications.
- - **What 95% scorers do:** They master advanced concepts like the law of cosines ($c^2 = a^2 + b^2 - 2ab\cos(C)$) for any triang\le, and they understand how to apply similarity to solve complex problems, including those involving circumcenters, orthocenters, and centroids. They also know how to use trigonometric ratios in triangles, such as the law of sines ($\frac{{a}{\sin(A)} = \frac{b}{\sin(B)} = \frac{c}{\sin(C)}}{\cos(A) = \frac{b^2 + c^2 - a^2}{2bc}} ) and the law of cosines to find unknown sides and angles in any triang\le.
- - **Key Insight:** Understanding that similarity is not just about having the same shape but also about the proportional relationship between corresponding sides. This insight allows top scorers to tack\le problems that involve scaling, dilation, and geometric transformations with ease.
- - **[application](/blog/application-of-derivatives-class-12-notes):** In problems involving triangles, especially those that seem to require complex trigonometric calculations, 95% scorers look for opportunities to apply similarity and geometric properties to simplify the problem. They recognize patterns such as right-angled triangles within larger triangles and use these to their advanta\ge.
- - **Mistake to Avoid:** Assuming that all problems involving triangles require direct [application](/blog/application-of-derivatives-class-12-notes) of the Pythagorean theorem or basic trigonometry. Top scorers are adept at recognizing when a problem can be simplified through geometric reasoning and similarity.
- - **Formula Mastery:** Having $ and $\sin(A) = \frac$\sqrt{(b+c+a)(b+c-a)(b-c+a)(-b+c+a)}{2bc}$ at their fingertips for any ang\le $A$ in a triang\le with sides $a$, $b$, and $c$ opposite to angles $A$, $B$, and $C$, respectively.
- - **Practice Tip:** To become proficient, practice solving a variety of triang\le problems, focusing on those that require the application of similarity, the law of cosines, and the law of sines. Start with simpler problems and gradually move to more complex scenarios.
-
-## <a id="-ayushs-note"></a>👁️ Ayush's Note
-
-- **The Hidden Pattern:** In triangles, the ratio of areas of similar triangles is equal to the square of the ratio of their corresponding side lengths, i.e., $\frac{{[ABC]}{[DEF]} = \left(\frac{AB}{DE}\right)^2 = \left(\frac{BC}{EF}\right)^2 = \left(\frac{AC}{DF}\right)^2}{\frac{[ABC]}{[DEF]} = \left(\frac{AB}{DE}\right)^2} . This pattern is particularly useful in problems involving similar triangles and area calculations.
- - **How to Apply It:** To apply this pattern, first identify similar triangles in the given problem, then calculate the ratio of their corresponding side lengths. Use this ratio to find the ratio of their areas. This can be expressed as $, where $[ABC]$ and $[DEF]$ represent the areas of triangles $ABC$ and $DEF$ respectively.
- - **PYQ-Specific Trend:** A trend observed in previous years' questions is that problems involving triangles often require the application of trigonometric concepts, such as the law of sines or the law of cosines, in conjunction with the properties of triangles, like the incenter or circumcenter. The formula $\frac{{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R}{a}  is frequently used, where $, $b$, and $c$ are the side lengths of the triang\le, and $R$ is the radius of the circumcirc\le.
- - **Formulae to Remember:** Some key formulae to remember include the area of a triang\le given its base and height, $A = \frac{1}{2}bh$, and the area given two sides and the included ang\le, $A = \frac{1}{2}ab\sin C$. Also, the formula for the area of a triang\le given its sides $a$, $b$, and $c$ is $A = \sqrt{s(s-a)(s-b)(s-c)}$, where $s$ is the semi-perimeter, $s = \frac{a+b+c}{2}$.
-
-## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
-
-- **Ayush's Pattern Study:** This specific sub-topic is often overlooked, but the pattern of questions in the last 10 years shows it is critical for high-percenti\le scoring.
-
-- **The Exam Hack:** Focus on understanding the derivation rather than just the final result.
-
-- **Mistake to Avoid:** Don't skip the numerical applications related to this concept.
-
-## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
-**1. In a triang\le, the \sum of the lengths of any two sides is**
-A) less than the length of the third side
-B) greater than the length of the third side
-C) equal to the length of the third side
-D) less than or equal to the length of the third side
-
-**Answer:** B) According to the triang\le inequality theorem, the \sum of the lengths of any two sides of a triang\le must be greater than the length of the third side.
-
----
-
-**2. If the area of an equilateral triang\le is $16\sqrt{3}$, then the length of its side is**
-A) 2
-B) 4
-C) 6
-D) 8
-
-**Answer:** B) Area of an equilateral triang\le = $\frac{{\sqrt{3}}{4} 	imes (side)^2}{16\sqrt{3}} . Given area = $, we can solve for the side length.
-
----
-
-**3. The length of the median to the hypotenuse of a right-angled triang\le is**
-A) equal to the length of the hypotenuse
-B) half the length of the hypotenuse
-C) equal to the \sum of the lengths of the other two sides
-D) half the \sum of the lengths of the other two sides
-
-**Answer:** B) The length of the median to the hypotenuse of a right-angled triang\le is half the length of the hypotenuse.
-
----
-
-**4. In a triang\le, if $a$, $b$, and $c$ are the lengths of the sides opposite to angles $A$, $B$, and $C$ respectively, then**
-A) $a+b=c$
-B) $a+b>c$
-C) $a+b<c$
-D) $a^2+b^2=c^2$
-
-**Answer:** B) According to the triang\le inequality theorem, the \sum of the lengths of any two sides of a triang\le must be greater than the length of the third side.
-
----
-
-**5. If the ratio of the areas of two similar triangles is $1:4$, then the ratio of their corresponding sides is**
-A) $1:2$
-B) $1:4$
-C) $1:8$
-D) $2:3$
-
-**Answer:** A) The ratio of the areas of two similar triangles is the square of the ratio of their corresponding sides.
+## 📝 Practice MCQs
+**1. What is the sum of all interior angles of a triangle?**
+- A) $90^\circ$
+- B) $180^\circ$
+- C) $270^\circ$
+- D) $360^\circ$
+**Answer: B) $180^\circ$**
+**2. What is the formula for calculating the area of a triangle with base $b$ and height $h$?**
+- A) $\frac{1}{2} \times b \times h$
+- B) $\frac{1}{3} \times b \times h$
+- C) $\frac{2}{3} \times b \times h$
+- D) $\frac{3}{2} \times b \times h$
+**Answer: A) $\frac{1}{2} \times b \times h$**
+**3. What is the Pythagorean theorem?**
+- A) $c^2 = a^2 - b^2$
+- B) $c^2 = a^2 + b^2$
+- C) $c^2 = a^2 \times b^2$
+- D) $c^2 = a^2 \div b^2$
+**Answer: B) $c^2 = a^2 + b^2$**
+**4. What is an isosceles triangle?**
+- A) A triangle with all equal sides
+- B) A triangle with two equal sides
+- C) A triangle with all unequal sides
+- D) A triangle with one right angle
+**Answer: B) A triangle with two equal sides**
+**5. What is the formula for calculating the area of a triangle with sides $a$, $b$, and $c$?**
+- A) $\sqrt{s(s-a)(s-b)(s-c)}$
+- B) $\sqrt{s(s+a)(s+b)(s+c)}$
+- C) $\sqrt{s(s-a)(s+b)(s+c)}$
+- D) $\sqrt{s(s+a)(s-b)(s+c)}$
+**Answer: A) $\sqrt{s(s-a)(s-b)(s-c)}$**
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/triangles-class-10-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/triangles-class-10-notes) now and track your progress against thousands of students.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-
-## 📚 Related Topics
-
-Continue your revision with these related guides:
-
-- 📖 [Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/arithmetic-progressions-class-10-notes)
-- 📖 [Pair of Linear Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/pair-of-linear-equations-class-10-notes)
-- 📖 [Polynomials Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/polynomials-class-10-notes)
-- 📖 [Real Numbers Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/real-numbers-class-10-notes)
-
-$

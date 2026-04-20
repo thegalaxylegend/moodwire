@@ -1,176 +1,133 @@
 ---
 heroImage: "/blog-images/amines-class-12-notes.webp"
-title: "Amines Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
-description: "Amines Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
-category: "Revision"
-date: "2026-03-30"
-practice_link: "/class-11/chemistry/amines-class-12-notes"
+title: "Amines Class 12 Exam Prep Revision — Grandmaster Guide"
+description: "Amines Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20."
+category: "Exam Notes"
+date: "2026-04-20"
+practice_link: "/practice/amines-class-12-notes"
+manualReview: false
 ---
 
-*Last Updated: 2026-03-30*
-## 📋 Table of Contents
-  - [6. Reactions with Aldehydes and Ketones](#6-reactions-with-aldehydes-and-ketones)
-  - [7. Reactions with Acid Chlorides](#7-reactions-with-acid-chlorides)
-  - [8. Reactions with Isocyanates](#8-reactions-with-isocyanates)
-  - [9. Electrophilic Aromatic Substitution](#9-electrophilic-aromatic-substitution)
-  - [10. Spectroscopy](#10-spectroscopy)
-  - [11. Biochemical Importance](#11-biochemical-importance)
-  - [12. Environmental and Industrial Applications](#12-environmental-and-industrial-applications)
-  - [10. Spectroscopy of Amines (Continued)](#10-spectroscopy-of-amines-continued)
-- [🪤 The 5 Trap Mistakes](#-the-5-trap-mistakes)
-  - [15. Practice Questions and Solutions](#15-practice-questions-and-solutions)
-  - [10. Conclusion and Final Preparation](#10-conclusion-and-final-preparation)
-- [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-step-by-step-learning)
-- [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
-  - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
-- [📚 Related Topics](#-related-topics)
-##
+## ⚡ Formula Bank
+- Aliphatic amines are more basic than aromatic amines: $\frac{K_b \text{ of aliphatic amine}}{K_b \text{ of aromatic amine}} > 1$
+- Basicity of amines depends on the availability of lone pair of electrons on nitrogen atom: $\text{Basicity} \propto \text{availability of lone pair}$
+- Alkylamines are more basic than arylamines due to $+I$ effect of alkyl group: $\text{Basicity of alkylamine} > \text{basicity of arylamine}$
+- Electron withdrawing groups decrease the basicity of amines: $\text{Basicity} \propto \frac{1}{\text{electron withdrawing power}}$
+- $K_b$ values of amines can be calculated using the formula: $K_b = \frac{K_w}{K_a \text{ of conjugate acid}}$
+- $\text{p}K_b = -\log K_b$
+- $\text{p}K_a$ of conjugate acid of amine can be calculated using the formula: $\text{p}K_a = 14 - \text{p}K_b$
+- Amines react with water to form salts: $\text{RNH}_2 + \text{H}_2\text{O} \rightleftharpoons \text{RNH}_3^+ + \text{OH}^-$
+- Amines react with acids to form salts: $\text{RNH}_2 + \text{HCl} \rightarrow \text{RNH}_3^+ \text{Cl}^-$
+- Amines can be prepared by reduction of nitro compounds: $\text{RNO}_2 + 6\text{H} \rightarrow \text{RNH}_2 + 2\text{H}_2\text{O}$
+- Amines can be prepared by reduction of nitriles: $\text{RCN} + 2\text{H} \rightarrow \text{RNH}_2 + \text{HCN}$
+- Amines can be prepared by Gabriel phthalimide synthesis: $\text{Phthalimide} + \text{RX} \rightarrow \text{N-alkylphthalimide} \xrightarrow{\text{hydrazine}} \text{RNH}_2$
 
-### <a id="6-reactions-with-aldehydes-and-ketones"></a>6. Reactions with Aldehydes and Ketones
-- **Imine Formation**: Reaction of $1^\circa amines with aldehydes/ketones to form imines (Schiff's bases).
-- **Examine Formation**: Reaction of $2^\circa amines with aldehydes/ketones to form examines.
-- **Key Reactions**:
-    - $RCHO + R'NH_2 \right arrow RCH=NR' + H_2O$ (Imine formation)
-    - $RCHO + R'_2NH \right arrow RCH=CR' + H_2O$ (Examine formation)
-- **Mechanism**:
-    - Nucleophilic attack of amine on carbonyl carbon
-    - Loss of leaving group (HE_2$O)
-    - Formation of imine or examine
-### <a id="7-reactions-with-acid-chlorides"></a>7. Reactions with Acid Chlorides
-- **Amide Formation**: Reaction of amines with acid chlorides to form amides.
-- **Key Reaction**:
-    - conch + R'NH_2 \right arrow CONOR' + HCl
-- **Mechanism**:
-    - Nucleophilic attack of amine on acid chloride
-    - Loss of leaving group (CLR^-$)
-    - Formation of amide
-### <a id="8-reactions-with-isocyanates"></a>8. Reactions with Isocyanates
-- **Urethane Formation**: Reaction of amines with isocyanates to form urethanes.
-- **Key Reaction**:
-    - $RNCO + R'NH_2 \right arrow RNHCONHR'$
-- **Mechanism**:
-    - Nucleophilic attack of amine on isocyanate
-    - Loss of leaving group (none)
-    - Formation of urethane
-### <a id="9-electrophilic-aromatic-substitution"></a>9. Electrophilic Aromatic Substitution
-- **Nitration**: Reaction of aromatic amines with nitric acid to form nitro aromatic [compounds](/blog/coordination-compounds-class-12-notes).
-- **Alienation**: Reaction of aromatic amines with halogens to form halo aromatic [compounds](/blog/coordination-compounds-class-12-notes).
-- **Fried-Crafts Alkylating**: Reaction of aromatic amines with alkyl halides to form alkyl aromatic [compounds](/blog/coordination-compounds-class-12-notes).
-- **Key Reactions**:
-    - BC_6H_5NH_2 + NO_3 \right arrow C_6H_4NNO_2 + H_2O$ (Nitration)
-    - BC_6H_5NH_2 + Cl_2 \right arrow C_6H_4Cl + HCl (Alienation)
-    - BC_6H_5NH_2 + RTL \right arrow C_6H_4R +  ( )
-- **Mechanism**:
-    - Electrophilic attack on aromatic ring
-    - Loss of leaving group (^+$)
-    - Formation of substituted aromatic compound
-### <a id="10-spectroscopy"></a>10. Spectroscopy
-- **Infrared (IR) Spectroscopy**: Used to identify functional groups in amines.
-- **Nuclear Magnetic Resonance (NMR) Spectroscopy**: Used to determine the structure of amines.
-- **Mass Spectrometry (MS)**: Used to determine the molecular weight and fragmentation pattern of amines.
-- **Key Points**:
-    - IR: INCH stretch (3300-3500 \, $\text{cm}^{-1}), CAN stretch (1000-1200 \, \text{cm}$^{-1})
-    - NMR: INCH signal (0-5 \, $\text{ppm}$), ECHO signal (1-4 \, $\text{ppm}$)
-    - MS: Molecular ion peak, fragmentation peaks
-- **Interpretation**:
-    - IR: Identify functional groups, determine molecular structure
-    - NMR: Determine molecular structure, identify functional groups
-    - MS: Determine molecular weight, identify fragmentation pattern
-### <a id="11-biochemical-importance"></a>11. Biochemical Importance
-- **Neurotransmitters**: Amines play a crucial role in neurotransmission, e.g., dopamine, serotonin.
-- **Hormones**: Amines are involved in hormone regulation, e.g., adrenaline, noradrenaline.
-- **Enzyme Inhibition**: Amines can act as enzyme inhibitors, e.g., monoamine oxidase inhibitors.
-- **Key Points**:
-    - Neurotransmitters: dopamine, serotonin, adrenaline
-    - Hormones: adrenaline, noradrenaline
-    - Enzyme inhibitors: monoamine oxidase inhibitors
-- **Mechanisms**:
-    - Neurotransmission: amines bind to receptors, stimulate response
-    - Hormone regulation: amines bind to receptors, stimulate response
-    - Enzyme inhibition: amines bind to enzyme, prevent catalysis
-### <a id="12-environmental-and-industrial-applications"></a>12. Environmental and Industrial Applications
-- **Pesticides**: Amines are used as pesticides, e.g., neonicotinoids.
-- **Pharmaceuticals**: Amines are used as pharmaceuticals, e.g., antihistamines, anesthetics.
-- **Dyes and Pigments**: Amines are used as dyes and pigments, e.g., aniline dyes.
-- **Key Points**:
-    - Pesticides: neonicotinoids
-    - Pharmaceuticals: antihistamines, anesthetics
-    - Dyes and pigments: aniline dyes
-- **Applications**:
-    - Pesticides: control insects, protect crops
-    - Pharmaceuticals: treat diseases, relieve symptoms
-    - Dyes and pigments: color textiles, paints, and coatings
-### <a id="10-spectroscopy-of-amines-continued"></a>10. Spectroscopy of Amines (Continued)
-- **Mass Spectrometry (MS)**: Amines show characteristic fragmentation patterns that can be used to identify their structure.
-- **Ultraviolet-Visible (UV-Vis) Spectroscopy**: Amines can show absorption bands in the UV-Vis region due to the presence of chromophores.
-## <a id="-the-5-trap-mistakes"></a>🪤 The 5 Trap Mistakes
-When dealing with amines, there are several common mistakes that students tend to make. These mistakes can be costly in terms of marks and understanding. Here are the 5 trap mistakes to watch out for:
-#### 1. Confusion between Primary, Secondary, and Tertiary Amines
-Many students get confused between primary, secondary, and tertiary amines. It is essential to remember that primary amines have one alkyl group attached to the nitrogen, secondary amines have two alkyl groups, and tertiary amines have three alkyl groups.
-#### 2. Incorrect Identification of Amine Reactions
-Amines can undergo a wide range of reactions, and it is crucial to identify the correct reaction. For example, primary amines can undergo imine formation, while secondary amines can undergo examine formation.
-#### 3. Failure to Recognize the Importance of Stereochemistry
-Amines can exhibit stereochemistry, and it is vital to recognize the importance of stereochemistry in amine reactions. For example, the stereochemistry of an amine can affect its reactivity and the products formed.
-#### 4. Inability to Predict the Products of Amine Reactions
-Many students struggle to predict the products of amine reactions. It is essential to understand the reaction mechanisms and be able to predict the products formed.
-#### 5. Ignoring the Role of Solvents and Conditions
-The solvent and conditions used in an amine reaction can significantly impact the outcome. For example, the choice of solvent can affect the reaction rate, yield, and selectivity.
-### <a id="15-practice-questions-and-solutions"></a>15. Practice Questions and Solutions
-To master amines, it is essential to practice a wide range of questions. Here are some practice questions and solutions to help you get started:
-#### 16. Amine Synthesis
-- **Question**: How would you synthesize benzyl amine from benzaldehyde?
-- **Solution**: Benzyl amine can be synthesized by reducing benzaldehyde with sodium borohydride (NaBH4) in the presence of a catalyst.
-#### 17. Amine Reactions
-- **Question**: What is the product of the reaction between aniline and acetyl chloride?
-- **Solution**: The product of the reaction between aniline and acetyl chloride is N-acetyl aniline.
-#### 18. Spectroscopy
-- **Question**: What is the characteristic absorption band for the N-H bond in amines?
-- **Solution**: The characteristic absorption band for the N-H bond in amines is around 3300-3500 cm-1.
-By avoiding the 5 trap mistakes and practicing a wide range of questions, you can master amines and achieve success in your exams. Remember to always read the questions carefully, understand the reaction mechanisms, and practice regularly.
-### <a id="10-conclusion-and-final-preparation"></a>10. Conclusion and Final Preparation
-- **Revision of Key Concepts**: Reiterate the importance of understanding the structure, properties, and reactions of amines for success in JEE and MEET exams.
-- **Practice and Consistency**: Emphasize the need for consistent practice and review of amines and their reactions to reinforce learning and build problem-solving skills.
-- **Test Center Integration**: Direct students to utilize the Test Center at /class-11/[chemistry](/blog/surface-chemistry-class-12-notes)/amines-class-12-notes for comprehensive practice and assessment, highlighting its benefits in identifying knowledge gaps and improving exam readiness.
-## <a id="-master-the-test-center-step-by-step-learning"></a>📝 Master the Test Center — Step-by-Step Learning
-To master the concepts of amines and perform exceptionally in JEE and MEET exams, it is crucial to integrate the Test Center into your study routine. Here’s how you can do it effectively:
-1. **Familiarize Yourself with the Interface**: Spend some time navigating through the Test Center to understand its layout, features, and how it can be personalized for your learning needs.
-2. **Set Goals and Track Progress**: Utilize the goal-setting feature to outline your objectives and track your progress. This will help you stay motivated and focused on your targets.
-3. **Practice with Mock Tests**: Engage with the mock tests designed specifically for amines and related topics. These tests simulate the actual exam experience, helping you assess your knowledge, speed, and accuracy under timed conditions.
-4. **Analyze Performance and Identify Weaknesses**: After each test, analyze your performance to identify areas where you need improvement. Focus on understanding the concepts you struggled with and revisit those topics in your study materials.
-5. **Customize Your Learning Path**: The Test Center often includes features that allow you to customize your learning path based on your strengths, weaknesses, and learning style. Make use of these features to create a study plan that suits you best.
-6. **Regular Review and Practice**: Regularity is key. Ensure that you regularly \log in to the Test Center to practice and review. Consistency will help reinforce your learning and improve your retention of the material.
-By incorporating the Test Center into your daily study routine and following these steps, you will not only deepen your understanding of amines but also enhance your overall preparation for the JEE and MEET exams. This integrated approach will help you stay on track, identify and address knowledge gaps, and build the confidence you need to excel in your exams.
-## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
-- **Quick Recap**: Amines are crucial in organic [chemistry](/blog/surface-chemistry-class-12-notes), with applications in pharmaceuticals, dyes, and as neurotransmitters. Their reactions, including imine formation, ablation, and oxidation, are vital for JEE and MEET exams.
-- **Final Tip**: Use the Test Center at /[class](/blog/solid-state-class-12-notes)-11/chemistry/amines-[class](/blog/solid-state-class-12-notes)-12-notes daily to practice and review. It’s your key to mastering amines and acing your exams.
-- **Motivation**: You’ve made it this far, and with consistent effort, you can achieve your goals. Stay focused, keep practicing, and believe in yourself. Success in JEE and MEET is within your reach.
-### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/amines-class-12-notes) now and track your progress against thousands of students.
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-## <a id="-related-topics"></a>📚 Related Topics
-Continue your revision with these related guides:
-- 📖 [Metallurgy Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/metallurgy-class-12-notes)
-- 📖 [Solid State Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/solid-state-class-12-notes)
-- 📖 [Surface Chemistry Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/surface-chemistry-class-12-notes)
-- 📖 [Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-integrals-class-12-notes)
+## 
+- Common mistakes in amines include not considering the effect of electron withdrawing groups on basicity
+- Not remembering the preparation methods of amines
+- Not being able to calculate $K_b$ and $\text{p}K_b$ values
+- Not being able to distinguish between aliphatic and aromatic amines
+- Not being able to apply the concepts of amines to solve problems
+
+## ✏️ 3 Solved PYQs
+- **Question 1:** The correct order of basic strength of the following amines is
+- $\text{NH}_3$
+- $\text{CH}_3\text{NH}_2$
+- $\text{C}_6\text{H}_5\text{NH}_2$
+- $\text{C}_6\text{H}_5\text{CH}_2\text{NH}_2$
+- A) $\text{CH}_3\text{NH}_2 > \text{NH}_3 > \text{C}_6\text{H}_5\text{NH}_2 > \text{C}_6\text{H}_5\text{CH}_2\text{NH}_2$
+- B) $\text{NH}_3 > \text{CH}_3\text{NH}_2 > \text{C}_6\text{H}_5\text{NH}_2 > \text{C}_6\text{H}_5\text{CH}_2\text{NH}_2$
+- C) $\text{CH}_3\text{NH}_2 > \text{C}_6\text{H}_5\text{CH}_2\text{NH}_2 > \text{NH}_3 > \text{C}_6\text{H}_5\text{NH}_2$
+- D) $\text{C}_6\text{H}_5\text{NH}_2 > \text{NH}_3 > \text{CH}_3\text{NH}_2 > \text{C}_6\text{H}_5\text{CH}_2\text{NH}_2$
+- **Answer:** C) $\text{CH}_3\text{NH}_2 > \text{C}_6\text{H}_5\text{CH}_2\text{NH}_2 > \text{NH}_3 > \text{C}_6\text{H}_5\text{NH}_2$
+- **Explanation:** The basic strength of amines depends on the availability of lone pair of electrons on the nitrogen atom. Alkylamines are more basic than arylamines due to the $+I$ effect of the alkyl group. Among arylamines, the basicity decreases with the increase in the electron withdrawing power of the substituent.
+- **Question 2:** The product of the reaction of $\text{C}_6\text{H}_5\text{NO}_2$ with $\text{Sn}$ and $\text{HCl}$ is
+- A) $\text{C}_6\text{H}_5\text{N}_2\text{O}_4$
+- B) $\text{C}_6\text{H}_5\text{NH}_2$
+- C) $\text{C}_6\text{H}_5\text{NO}$
+- D) $\text{C}_6\text{H}_5\text{N}_2\text{O}_2$
+- **Answer:** B) $\text{C}_6\text{H}_5\text{NH}_2$
+- **Explanation:** The reaction of $\text{C}_6\text{H}_5\text{NO}_2$ with $\text{Sn}$ and $\text{HCl}$ is a reduction reaction, which results in the formation of $\text{C}_6\text{H}_5\text{NH}_2$.
+- **Question 3:** The $pK_b$ value of $\text{CH}_3\text{NH}_2$ is $3.36$. The $pK_a$ value of $\text{CH}_3\text{NH}_3^+$ is
+- A) $10.64$
+- B) $3.36$
+- C) $6.36$
+- D) $9.36$
+- **Answer:** A) $10.64$
+- **Explanation:** The $pK_b$ value of $\text{CH}_3\text{NH}_2$ is $3.36$. Using the formula $\text{p}K_a = 14 - \text{p}K_b$, we can calculate the $pK_a$ value of $\text{CH}_3\text{NH}_3^+$ as $10.64$.
+
+## 🧠 The One Thing Most Students Get Wrong
+- The one thing that most students get wrong is the concept of basicity of amines. They often confuse the basicity of amines with the basicity of other compounds.
+- The basicity of amines depends on the availability of lone pair of electrons on the nitrogen atom.
+- Alkylamines are more basic than arylamines due to the $+I$ effect of the alkyl group.
+- Electron withdrawing groups decrease the basicity of amines.
+- The $pK_b$ value of an amine can be calculated using the formula $\text{p}K_b = -\log K_b$.
+- The $pK_a$ value of the conjugate acid of an amine can be calculated using the formula $\text{p}K_a = 14 - \text{p}K_b$.
+
+## 👁️ Ayush's Note
+- Amines are an important class of compounds in organic chemistry.
+- They are used as starting materials for the synthesis of many other compounds.
+- The basicity of amines is an important property that determines their reactivity.
+- The $pK_b$ value of an amine is a measure of its basicity.
+- The $pK_a$ value of the conjugate acid of an amine is a measure of its acidity.
+- Amines can be prepared by reduction of nitro compounds, reduction of nitriles, and Gabriel phthalimide synthesis.
+
+## 🔁 Last 5 Minutes Box
+- Revision of important concepts and formulas
+- Practice of solving problems
+- Focus on weak areas
+- Use of shortcuts and tricks to solve problems quickly
+- Practice of solving previous year questions
+
+## 📝 Practice MCQs
+**1. Question:** The basicity of amines is affected by
+- A) $+I$ effect of alkyl groups
+- B) $-I$ effect of alkyl groups
+- C) $+I$ effect of aryl groups
+- D) $-I$ effect of aryl groups
+**Answer:** A) $+I$ effect of alkyl groups
+**Explanation:** The basicity of amines is affected by the $+I$ effect of alkyl groups, which increases the availability of lone pair of electrons on the nitrogen atom.
+
+**2. Question:** The $pK_b$ value of $\text{NH}_3$ is $4.75$. The $pK_a$ value of $\text{NH}_4^+$ is
+- A) $9.25$
+- B) $8.25$
+- C) $7.25$
+- D) $6.25$
+**Answer:** A) $9.25$
+**Explanation:** The $pK_b$ value of $\text{NH}_3$ is $4.75$. Using the formula $\text{p}K_a = 14 - \text{p}K_b$, we can calculate the $pK_a$ value of $\text{NH}_4^+$ as $9.25$.
+
+**3. Question:** The product of the reaction of $\text{C}_6\text{H}_5\text{NO}_2$ with $\text{Sn}$ and $\text{HCl}$ is
+- A) $\text{C}_6\text{H}_5\text{N}_2\text{O}_4$
+- B) $\text{C}_6\text{H}_5\text{NH}_2$
+- C) $\text{C}_6\text{H}_5\text{NO}$
+- D) $\text{C}_6\text{H}_5\text{N}_2\text{O}_2$
+**Answer:** B) $\text{C}_6\text{H}_5\text{NH}_2$
+**Explanation:** The reaction of $\text{C}_6\text{H}_5\text{NO}_2$ with $\text{Sn}$ and $\text{HCl}$ is a reduction reaction, which results in the formation of $\text{C}_6\text{H}_5\text{NH}_2$.
+
+**4. Question:** The correct order of basic strength of the following amines is
+- $\text{NH}_3$
+- $\text{CH}_3\text{NH}_2$
+- $\text{C}_6\text{H}_5\text{NH}_2$
+- $\text{C}_6\text{H}_5\text{CH}_2\text{NH}_2$
+- A) $\text{CH}_3\text{NH}_2 > \text{NH}_3 > \text{C}_6\text{H}_5\text{NH}_2 > \text{C}_6\text{H}_5\text{CH}_2\text{NH}_2$
+- B) $\text{NH}_3 > \text{CH}_3\text{NH}_2 > \text{C}_6\text{H}_5\text{NH}_2 > \text{C}_6\text{H}_5\text{CH}_2\text{NH}_2$
+- C) $\text{CH}_3\text{NH}_2 > \text{C}_6\text{H}_5\text{CH}_2\text{NH}_2 > \text{NH}_3 > \text{C}_6\text{H}_5\text{NH}_2$
+- D) $\text{C}_6\text{H}_5\text{NH}_2 > \text{NH}_3 > \text{CH}_3\text{NH}_2 > \text{C}_6\text{H}_5\text{CH}_2\text{NH}_2$
+**Answer:** C) $\text{CH}_3\text{NH}_2 > \text{C}_6\text{H}_5\text{CH}_2\text{NH}_2 > \text{NH}_3 > \text{C}_6\text{H}_5\text{NH}_2$
+**Explanation:** The basic strength of amines depends on the availability of lone pair of electrons on the nitrogen atom. Alkylamines are more basic than arylamines due to the $+I$ effect of the alkyl group.
+
+**5. Question:** The $pK_b$ value of $\text{CH}_3\text{NH}_2$ is $3.36$. The $pK_a$ value of $\text{CH}_3\text{NH}_3^+$ is
+- A) $10.64$
+- B) $3.36$
+- C) $6.36$
+- D) $9.36$
+**Answer:** A) $10.64$
+**Explanation:** The $pK_b$ value of $\text{CH}_3\text{NH}_2$ is $3.36$. Using the formula $\text{p}K_a = 14 - \text{p}K_b$, we can calculate the $pK_a$ value of $\text{CH}_3\text{NH}_3^+$ as $10.64$.
+
+---
+
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/amines-class-12-notes) now and track your progress against thousands of students.
-## 📚 Related Topics
-Continue your revision with these related guides:
-- 📖 [Metallurgy Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/metallurgy-class-12-notes)
-- 📖 [Solid State Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/solid-state-class-12-notes)
-- 📖 [Surface Chemistry Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/surface-chemistry-class-12-notes)
-- 📖 [Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-integrals-class-12-notes)
-## 🪤 The 5 Mistakes That Cost Marks
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/amines-class-12-notes) now and track your progress against thousands of students.
 
-* A common mistake in identifying the basic strength of amines is to overlook the effect of the alkyl group on the availability of the lone pair of electrons on the nitrogen atom, leading to incorrect ranking of basicity of different amines.
-* Students often forget that aryl amines are less basic than alkyl amines due to the delocalization of the lone pair of electrons on the nitrogen atom into the aromatic ring, resulting in a decrease in the basic strength.
-* Another trap is to assume that the basicity of amines always increases with the increase in the number of alkyl groups attached to the nitrogen atom, which is not the case when the alkyl groups are bulky and cause steric hindrance.
-* A common error is to neglect the role of solvation in determining the basic strength of amines, as the ability of the solvent to solvate the amine and its conjugate acid can significantly affect the basicity.
-* Many students incorrectly predict the product of the reaction of an amine with an alkyl halide, failing to consider the possibility of multiple alkylating reactions and the formation of quaternary ammonium salts.
-## ⚗️ Chemical Quick Reference (Verified via PubChem)
-
-| Compound | Formula | MOL. Weight | Source |
-|:---|:---:|:---:|:---:|
-| **nitric acid** | HNO3 | 63.013 g/MOL | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/944) |
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

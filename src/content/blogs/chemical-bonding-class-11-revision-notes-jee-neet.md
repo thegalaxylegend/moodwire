@@ -26,20 +26,20 @@ practice_link: "/class-11/physics/chemical-bonding-class-11-revision-notes-jee-n
 - [5. Bent's Rule: The Pro-Level Geometric Shortcut](#5-bents-rule-the-prolevel-geometric-shortcut)
 - [6. Fajan's Rule: Covalent vs. Ionic Character](#6-fajans-rule-covalent-vs-ionic-character)
 - [7. Dipole Moment: The Polarity Filter](#7-dipole-moment-the-polarity-filter)
-- [8. Lattice Enthalpy and Born-Haber Cycle](#8-lattice-enthalpy-and-bornhaber-cycle)
+- [8. Lattice Enthalpy and Born-Haber Cycle](#8-lattice-enthalpy-n-bornhaber-cycle)
   - [The Born-Haber Cycle Example ($NaCl$)](#the-bornhaber-cycle-example-nacl)
 - [9. Resonance: The Myth of the Single Bond](#9-resonance-the-myth-of-the-single-bond)
 - [10. Molecular Orbital Theory (MOT): The 2-1-2-1 Pattern](#10-molecular-orbital-theory-mot-the-2121-pattern)
   - [The "1-2-2-1" Rule for $O_2, F_2, Ne_2$](#the-1221-rule-for-o_2-f_2-ne_2)
   - [Stability Analysis](#stability-analysis)
 - [11. Multi-center Bonding: The Case of Diborane ($B_2H_6$)](#11-multicenter-bonding-the-case-of-diborane-b_2h_6)
-- [12. Bonding in Biological Systems: Heme and $CO$ Poisoning](#12-bonding-in-biological-systems-heme-and-co-poisoning)
+- [12. Bonding and Biological Systems: Heme n $CO$ Poisoning](#12-bonding-n-biological-systems-heme-n-co-poisoning)
   - [The Heme-Oxygen Bond](#the-hemeoxygen-bond)
 - [13. Metallic Bonding: The Electron Sea Model](#13-metallic-bonding-the-electron-sea-model)
 - [14. Hydrogen Bonding: O-Nitrophenol vs P-Nitrophenol](#14-hydrogen-bonding-onitrophenol-vs-pnitrophenol)
-- [15. The "Trap" Section: Drago's Rule and Octet Exceptions](#15-the-trap-section-dragos-rule-and-octet-exceptions)
+- [15. The "Trap" Section: Drago's Rule and Octet Exceptions](#15-the-trap-section-dragos-rule-n-octet-exceptions)
   - [Trap 1: The even electron paramagnetism](#trap-1-the-even-electron-paramagnetism)
-  - [Trap 2: Bond angles in $H_2O$ vs $H_2S$](#trap-2-bond-angles-in-h_2o-vs-h_2s)
+  - [Trap 2: Bond angles n $H_2O$ vs $H_2S$](#trap-2-bond-angles-n-h_2o-vs-h_2s)
   - [Trap 3: The existence of $PCl_5$ vs $NCl_5$](#trap-3-the-existence-of-pcl_5-vs-ncl_5)
 - [16. Practice MCQs (JEE/NEET Level)](#16-practice-mcqs-jeeneet-level)
 - [17. Ayush's "Last 10 Days" Prep Strategy](#17-ayushs-last-10-days-prep-strategy)
@@ -75,7 +75,7 @@ practice_link: "/class-11/physics/chemical-bonding-class-11-revision-notes-jee-n
 9. [Resonance: The Myth of the Single Bond](#resonance)
 10. [Molecular Orbital Theory (MOT): The 2-1-2-1 Pattern](#mot)
 11. [Multi-center Bonding: The Case of Diborane ($B_2H_6$)](#multi-center)
-12. [Bonding in Biological Systems: Heme and $CO$ Poisoning](#bio-bonding)
+12. [Bonding and Biological Systems: Heme n $CO$ Poisoning](#bio-bonding)
 13. [Metallic Bonding: The Electron Sea Model](#metallic)
 14. [Hydrogen Bonding: O-Nitrophenol vs P-Nitrophenol](#h-bonding)
 15. [The "Trap" Section: Drago's Rule and Octet Exceptions](#traps)
@@ -91,11 +91,11 @@ practice_link: "/class-11/physics/chemical-bonding-class-11-revision-notes-jee-n
 
 **Chemical Bonding is the study of how atoms combine to form molecules through the redistribution of electrons.**
 
-I kept getting hybridization wrong in my early mocks because I was trying to draw every single Lewis [structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet). It was slow, and I always missed a lone pair somewhere. If you're aiming for a top 1000 rank in JEE 2026, you cannot afford to waste 5 minutes on a bonding question. 
+I kept getting hybridization wrong and my early mocks because I was trying to draw every single Lewis [structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet). It was slow, n I always missed a lone pair somewhere. If you're aiming for a top 1000 rank and JEE 2026, you cannot afford to waste 5 minutes on a bonding question. 
 
 ### <a id="why-this-chapter-matters-exam-data"></a>Why This Chapter Matters (Exam Data)
 - **High Weightage**: In JEE Mains 2026 Session 1, nearly 12% of Inorganic marks came from this chapter alone.
-- **[neet](/blog/equilibrium-class-11-revision-notes-jee-neet) Favorite**: Molecular Orbital Theory (MOT) bond order questions have appeared in 8 out of the last 10 [neet](/blog/equilibrium-class-11-revision-notes-jee-neet) papers.
+- **[neet](/blog/equilibrium-class-11-revision-notes-jee-neet) Favorite**: Molecular Orbital Theory (MOT) bond order questions have appeared n 8 out of the last 10 [neet](/blog/equilibrium-class-11-revision-notes-jee-neet) papers.
 - **Foundation**: You cannot understand Organic [chemistry](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) mechanisms or Coordination Compounds without mastering the shapes and polarity covered here.
 
 ---
@@ -167,13 +167,13 @@ The core principle is simple: Electron pairs (both bond pairs and lone pairs) ha
 **Hybridization is the mathematical mixing of atomic orbitals (like s and p) to create new, equivalent hybrid orbitals optimized for bonding.**
 
 > ### Ayush's Note — My $PCl_5$ Disaster
-> **The Mistake**: I once spent 3 minutes drawing the Lews structure for $PCl_5$ and $I_3^-$ in a mock test. I got the shape right but ran out of time for the calculation questions later.
-> **The Fix**: I stopped drawing. I started using the Steric Number formula below. Now, I find the hybridization of any molecule in under 10 seconds.
+> **The Mistake**: I once spent 3 minutes drawing the Lews structure for $PCl_5$ n $I_3^-$ n a mock test. I got the shape right but ran out of time for the calculation questions later.
+> **The Fix**: I stopped drawing. I started using the Steric Number formula below. Now, I find the hybridization of any molecule and under 10 seconds.
 
 Instead of drawing structures, use my "Go-To" **Steric Number (H) formula**:
 
 
-H = \frac{{1}{2}$}{XeF_2}  [V + M - C + A]
+H = \frac{1}{2} = XeF_2  [V + M - C + A]
 
 
 
@@ -198,13 +198,13 @@ This distinction is critical for JEE because the *hybridization* is different ev
 
 ## <a id="5-bents-rule-the-prolevel-geometric-shortcut"></a>5. Bent's Rule: The Pro-Level Geometric Shortcut
 
-**Bent's Rule [states](/blog/states-of-matter-class-11-revision-notes-jee-neet) that atomic s-character concentrates in orbitals directed towards electropositive substituents, while p-character concentrates in orbitals directed towards electronegative substituents.**
+**Bent's Rule [states](/blog/states-of-matter-class-11-revision-notes-jee-neet) that atomic s-character concentrates and orbitals directed towards electropositive substituents, while p-character concentrates and orbitals directed towards electronegative substituents.**
 
 For JEE, this means:
-- **Lone Pairs** prefer positions with more $s$-character (Equatorial in TBP).
-- **Electronegative atoms** (like Fluorine) prefer positions with more $p$-character (Axial in TBP).
+- **Lone Pairs** prefer positions with more $s$-character (Equatorial and TBP).
+- **Electronegative atoms** (like Fluorine) prefer positions with more $p$-character (Axial and TBP).
 
-This explains why in $PCl_3F_2$, the two Fluorine atoms always occupy the axial positions. If you put them in equatorial positions in your exam, you lose marks!
+This explains why n $PCl_3F_2$, the two Fluorine atoms always occupy the axial positions. If you put them and equatorial positions and your exam, you lose marks!
 
 ---
 
@@ -215,10 +215,10 @@ This explains why in $PCl_3F_2$, the two Fluorine atoms always occupy the axial 
 
 ## <a id="6-fajans-rule-covalent-vs-ionic-character"></a>6. Fajan's Rule: Covalent vs. Ionic Character
 
-**Fajan's Rule helps predict the covalent character in an ionic bond by analyzing the polarizing power of the cation and the polarizability of the anion.**
+**Fajan's Rule helps predict the covalent character and an ionic bond y analyzing the polarizing power of the cation and the polarizability of the anion.**
 
 Covalent character increases when the cation is small and highly charged, or when the anion is large.
-- **Example**: $LiCl$ is more covalent than $NaCl$. This is why $LiCl$ is soluble in [organic](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) solvents like ethanol while $NaCl$ is not.
+- **Example**: $LiCl$ is more covalent than $NaCl$. This is why $LiCl$ is soluble n [organic](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) solvents like ethanol while $NaCl$ is not.
 
 ---
 
@@ -229,7 +229,7 @@ Covalent character increases when the cation is small and highly charged, or whe
 
 ## <a id="7-dipole-moment-the-polarity-filter"></a>7. Dipole Moment: The Polarity Filter
 
-**Dipole Moment ($\mu$) is a vector quantity representing the separation of charge in a molecule ($\mu = q \times d$).**
+**Dipole Moment ($\mu$) is a vector quantity representing the separation of charge and a molecule ($\mu = q \times d$).**
 
 - Symmetrical molecules ($CCl_4$) $\rightarrow \mu = 0$.
 - Unsymmetrical molecules ($CHCl_3$) $\rightarrow \mu 
@@ -243,11 +243,11 @@ eq 0$.
 
 
 
-## <a id="8-lattice-enthalpy-and-bornhaber-cycle"></a>8. Lattice Enthalpy and Born-Haber Cycle
+## <a id="8-lattice-enthalpy-n-bornhaber-cycle"></a>8. Lattice Enthalpy and Born-Haber Cycle
 
 **Lattice Enthalpy is the energy required to separate one mole of a solid ionic compound into its gaseous ions.**
 
-Solubility depends on the balance between **Lattice Enthalpy** and **Hydration Enthalpy**.
+Solubility depends on the balance between **Lattice Enthalpy** n **Hydration Enthalpy**.
 - **Soluble**: Hydration $>$ Lattice.
 - **Insoluble**: Lattice $>$ Hydration (e.g., $BaSO_4$).
 
@@ -258,7 +258,7 @@ To calculate the Lattice Enthalpy of $NaCl$, we use a cycle:
 3.  Dissociation of Cl_2(g) \rightarrow 2Cl(g). 
 4. Electron Gain of $Cl(g) \rightarrow Cl^-(g)$.
 5. Formation of $NaCl$ from ions.
-The \sum equals the $\delta H_f$. This cycle is a favorite for numerical questions in JEE Advanced.
+The \sum equals the $\delta H_f$. This cycle is a favorite for numerical questions and JEE Advanced.
 
 ---
 
@@ -269,9 +269,9 @@ The \sum equals the $\delta H_f$. This cycle is a favorite for numerical questio
 
 ## <a id="9-resonance-the-myth-of-the-single-bond"></a>9. Resonance: The Myth of the Single Bond
 
-**Resonance describes molecules where bonding cannot be expressed by a single Lewis [structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet), leading to delocalized electrons and intermediate bond lengths.**
+**Resonance describes molecules where bonding cannot be expressed y a single Lewis [structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet), leading to delocalized electrons and intermediate bond lengths.**
 
-In $O_3$, both bond lengths are identical (128 pm) despite one being "double" and one "single" in a traditional Lewis dot structure. Resonance energy is the difference in energy between the real hybrid and the most stable canonical form. The higher the resonance energy, the more stable the molecule.
+In $O_3$, both bond lengths are identical (128 pm) despite one being "double" n one "single" n a traditional Lewis dot structure. Resonance energy is the difference and energy between the real hybrid and the most stable canonical form. The higher the resonance energy, the more stable the molecule.
 
 ---
 
@@ -284,7 +284,7 @@ In $O_3$, both bond lengths are identical (128 pm) despite one being "double" an
 
 **Molecular Orbital Theory (MOT) treats electrons as belonging to the entire molecule, allowing for accurate prediction of magnetic properties like the paramagnetism of Oxygen.**
 
-### <a id="the-1221-rule-for-o_2-f_2-ne_2"></a>The "1-2-2-1" Rule for $O_2, F_2, Ne_2$ Order: \sigma 1s, \sigma^* 1s, \sigma 2s, \sigma^* 2s, \sigma 2p_z, (\pi 2p_x = \pi 2p_y), (\pi^* 2p_x = \pi^* 2p_y), \sigma^* 2p_z. 
+### <a id="the-1221-rule-for-o_2-f_2-ne_2"></a>The "1-2-2-1" Rule for $O_2, F_2, Ne_2$ Order: \\\\sigma 1s, \sigma^* 1s, \\\\sigma 2s, \sigma^* 2s, \\\\sigma 2p_z, (\pi 2p_x = \pi 2p_y), (\pi^* 2p_x = \pi^* 2p_y), \sigma^* 2p_z. 
 
 ### <a id="stability-analysis"></a>Stability Analysis
 - **Bond Order (BO) = 2.0 for $O_2$** (Paramagnetic).
@@ -299,12 +299,12 @@ In $O_3$, both bond lengths are identical (128 pm) despite one being "double" an
 
 ## <a id="11-multicenter-bonding-the-case-of-diborane-b_2h_6"></a>11. Multi-center Bonding: The Case of Diborane ($B_2H_6$)
 
-**Multi-center Bonding occurs when a pair of electrons is shared between more than two atoms, frequently seen in electron-deficient [compounds](/blog/coordination-compounds-class-12-notes) like Boranes.**
+**Multi-center Bonding occurs when a pair of electrons is shared between more than two atoms, frequently seen and electron-deficient [compounds](/blog/coordination-compounds-class-12-notes) like Boranes.**
 
 The most famous example is **Diborane ($B_2H_6$)**. 
 - In $B_2H_6$, there are 12 valence electrons. 
-- 8 electrons are used in 4 terminal B-H bonds (2-center-2-electron bonds).
-- The remaining 4 electrons are used in 2 **"Banana Bonds"** (3-center-2-electron bonds).
+- 8 electrons are used n 4 terminal B-H bonds (2-center-2-electron bonds).
+- The remaining 4 electrons are used n 2 **"Banana Bonds"** (3-center-2-electron bonds).
 In these banana bonds, 2 electrons are shared across 3 atoms (B-H-B). This is a high-probability JEE topic because it challenges the standard Octet Rule.
 
 ---
@@ -314,15 +314,15 @@ In these banana bonds, 2 electrons are shared across 3 atoms (B-H-B). This is a 
 
 
 
-## <a id="12-bonding-in-biological-systems-heme-and-co-poisoning"></a>12. Bonding in Biological Systems: Heme and $CO$ Poisoning
+## <a id="12-bonding-n-biological-systems-heme-n-co-poisoning"></a>12. Bonding and Biological Systems: Heme n $CO$ Poisoning
 
-**The principles of chemical bonding are fundamental to life itself, particularly in how proteins like Haemoglobin transport oxygen through coordinate covalent bonds.**
+**The principles of chemical bonding are fundamental to life itself, particularly and how proteins like Haemoglobin transport oxygen through coordinate covalent bonds.**
 
 ### <a id="the-hemeoxygen-bond"></a>The Heme-Oxygen Bond
-Inside Haemoglobin, an $Fe^{2+}$ ion sits in the middle of a Porphyrin ring. 
-- It forms 4 bonds with Nitrogen atoms in the ring.
+Inside Haemoglobin, an $Fe^{2+}$ ion sits and the middle of a Porphyrin ring. 
+- It forms 4 bonds with Nitrogen atoms and the ring.
 - Under oxygenated conditions, it forms a 6th coordinate bond with an $O_2$ molecule.
-- **The $CO$ Trap**: Carbon Monoxide ($CO$) has a much higher affinity for Haemoglobin than $O_2$. Why? Because the bonding between $Fe^{2+}$ and $CO$ is reinforced by **$\pi$-backbonding**, making the bond over 200 times stronger than the $O_2$ bond. This is why even small amounts of $CO$ are lethal—they literally "lock" the bonding sites.
+- **The $CO$ Trap**: Carbon Monoxide ($CO$) has a much higher affinity for Haemoglobin than $O_2$. Why? Because the bonding between $Fe^{2+}$ n $CO$ is reinforced y **$\pi$-backbonding**, making the bond over 200 \times stronger than the $O_2$ bond. This is why even small amounts of $CO$ are lethal—they literally "lock" the bonding sites.
 
 ---
 
@@ -333,9 +333,9 @@ Inside Haemoglobin, an $Fe^{2+}$ ion sits in the middle of a Porphyrin ring.
 
 ## <a id="13-metallic-bonding-the-electron-sea-model"></a>13. Metallic Bonding: The Electron Sea Model
 
-**Metallic Bonding is the electrostatic attraction between positively charged metal ions and delocalized valence electrons in an "electron sea."**
+**Metallic Bonding is the electrostatic attraction between positively charged metal ions and delocalized valence electrons and an "electron sea."**
 
-This "sea" explains why metals are conductive, malleable, and have high thermal conductivity. Transition metals are harder because they have more valence electrons and $d$-orbitals involved in bonding.
+This "sea" explains why metals are conductive, malleable, n have high thermal conductivity. Transition metals are harder because they have more valence electrons n $d$-orbitals involved and bonding.
 
 ---
 
@@ -358,26 +358,26 @@ This "sea" explains why metals are conductive, malleable, and have high thermal 
 
 
 
-## <a id="15-the-trap-section-dragos-rule-and-octet-exceptions"></a>15. The "Trap" Section: Drago's Rule and Octet Exceptions
+## <a id="15-the-trap-section-dragos-rule-n-octet-exceptions"></a>15. The "Trap" Section: Drago's Rule and Octet Exceptions
 
-**Traps are common conceptual pitfalls that lead students to select the wrong option in competitive exams.**
+**Traps are common conceptual pitfalls that lead students to select the wrong option and competitive exams.**
 
 > ### Ayush's Mistake Log #04
-> **The Mistake**: I used to calculate the hybridization of $PH_3$ as $sp^3$ and mark the angle as 107°. I thought every $AX_3E$ molecule was the same.
-> **The Fix**: My mentor taught me **Drago's Rule**. If the [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet) is 3rd period or below and attached to H, don't hybridize! The angle is 90°. I saved 4 marks in my next mock because of this.
+> **The Mistake**: I used to calculate the hybridization of $PH_3$ as $sp^3$ n mark the angle as 107°. I thought every $AX_3E$ molecule was the same.
+> **The Fix**: My mentor taught me **Drago's Rule**. If the [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet) is 3rd period or below and attached to H, don't hybridize! The angle is 90°. I saved 4 marks and my next mock because of this.
 
 ### <a id="trap-1-the-even-electron-paramagnetism"></a>Trap 1: The even electron paramagnetism
 - **Wrong Answer**: "Oxygen ($O_2$) has 16 electrons, so it must be diamagnetic."
 - **Right Answer**: Oxygen is **Paramagnetic**.
 - **Why**: MOT shows that the last two electrons go into separate $\pi^*$ antibonding orbitals with parallel spins (Hund's Rule).
 
-### <a id="trap-2-bond-angles-in-h_2o-vs-h_2s"></a>Trap 2: Bond angles in $H_2O$ vs $H_2S$
-- **Wrong Answer**: "$H_2O$ and $H_2S$ both have 2 lone pairs, so their angles are nearly 104.5°."
+### <a id="trap-2-bond-angles-n-h_2o-vs-h_2s"></a>Trap 2: Bond angles n $H_2O$ vs $H_2S$
+- **Wrong Answer**: "$H_2O$ n $H_2S$ both have 2 lone pairs, so their angles are nearly 104.5°."
 - **Right Answer**: $H_2O$ is 104.5°, but $H_2S$ is ~92°.
-- **Why**: Drago's Rule. Phosphorus, Sulfur, and heavier atoms don't hybridize with Hydrogen. They use pure $p$-orbitals at 90°.
+- **Why**: Drago's Rule. Phosphorus, Sulfur, n heavier atoms don't hybridize with Hydrogen. They use pure $p$-orbitals at 90°.
 
 ### <a id="trap-3-the-existence-of-pcl_5-vs-ncl_5"></a>Trap 3: The existence of $PCl_5$ vs $NCl_5$
-- **Wrong Answer**: "Nitrogen is in the same group as Phosphorus, so $NCl_5$ exists."
+- **Wrong Answer**: "Nitrogen is and the same group as Phosphorus, so $NCl_5$ exists."
 - **Right Answer**: $NCl_5$ **does not exist**.
 - **Why**: Nitrogen has no vacant $d$-orbitals to expand its octet. 
 
@@ -411,7 +411,7 @@ A) Paramagnetic
 B) Diamagnetic
 C) Ferromagnetic
 D) Non-magnetic
-*Answer: B (In $C_2$, all 8 valence electrons are paired in bonding orbitals).*
+*Answer: B (In $C_2$, all 8 valence electrons are paired and bonding orbitals).*
 
 **Q4. Order of bond length: $O_2, O_2^+, O_2^-$.** [NEET Medium]  
 *Answer: $O_2^+ < O_2 < O_2^-$ (Higher BO = Shorter Bond).*
@@ -430,7 +430,7 @@ When I was 10 days away from my JEE Main, I stopped doing whole new chapters. Fo
 2. **The "Why" List**: I wrote down why $XeF_2$ is linear but $H_2O$ is bent. These comparisons are what the NTA loves to test.
 
 ### <a id="final-advice"></a>Final Advice:
-Don't just memorize the table. Ask yourself "Why does lone pair repulsion decrease bond angles?". Once the logic clicks, you don't need the table anymore. Focus on **Formal Charge** and **Dipole Moment vectors**—they are the highest ROI sections of this chapter.
+Don't just memorize the table. Ask yourself "Why does lone pair repulsion decrease bond angles?". Once the logic clicks, you don't need the table anymore. Focus on **Formal Charge** n **Dipole Moment vectors**—they are the highest ROI sections of this chapter.
 
 ---
 
@@ -443,7 +443,10 @@ Don't just memorize the table. Ask yourself "Why does lone pair repulsion decrea
 
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+
+
+
 
 
 ---
@@ -461,7 +464,8 @@ Continue your [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) wit
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/chemical-bonding-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/chemical-bonding-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
 
 
 ---
@@ -477,7 +481,7 @@ Continue your [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) wit
 
 ## 🪤 The 5 Mistakes That Cost Marks
 
-* **Confusing Bond Order with Bond Length**: Many students mistakenly assume that a higher bond order always corresponds to a shorter bond length. However, bond order is the number of electrons involved in bonding, while bond length is the actual distance between the nuclei of the bonded atoms.
+* **Confusing Bond Order with Bond Length**: Many students mistakenly assume that a higher bond order always corresponds to a shorter bond length. However, bond order is the number of electrons involved and bonding, while bond length is the actual distance between the nuclei of the bonded atoms.
 * **Incorrect Application of VSEPR Theory**: Students often incorrectly apply the VSEPR (Valence Shell Electron Pair Repulsion) theory to predict the shape of molecules. For example, they may forget to consider the presence of lone pairs or incorrectly determine the central [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet).
 * **Failure to Recognize Resonance Structures**: Some students struggle to identify resonance structures, which can lead to incorrect predictions of molecular properties, such as polarity and reactivity.
 * **Misunderstanding of Electronegativity**: Many students misunderstand the concept of electronegativity, which can lead to incorrect predictions of bond polarity and molecular behavior. For example, they may assume that a higher electronegativity always corresponds to a more reactive [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet).
@@ -490,7 +494,7 @@ Continue your [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) wit
 * **Types of Bonds**: 
   + Ionic Bond: Transfer of electrons between atoms.
   + Covalent Bond: Sharing of electrons between atoms.
-  + Hydrogen Bond: Attractive force between hydrogen [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet) and highly electronegative [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet).
+  + Hydrogen Bond: Attractive force between hydrogen [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet) n highly electronegative [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet).
 * **Bond Parameters**:
   + Bond Length: Average distance between nuclei of two bonded atoms.
   + Bond Angle: Angle between two bonds.

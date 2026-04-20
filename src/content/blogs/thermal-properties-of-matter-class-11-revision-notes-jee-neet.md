@@ -16,13 +16,13 @@ practice_link: "/class-11/physics/thermal-properties-of-matter-class-11-revision
 
 - [What is Thermal Properties Of Matter Revision Notes?](#what-is-thermal-properties-of-matter-revision-notes)
 - [Introduction](#introduction)
-- [1. Temperature and Heat](#1-temperature-and-heat)
-- [2. Thermal Expansion: Concepts and Derivations](#2-thermal-expansion-concepts-and-derivations)
-  - [Derivation: Relation between α, β, and γ](#derivation-relation-between-and-)
+- [1. Temperature and Heat](#1-temperature-n-heat)
+- [2. Thermal Expansion: Concepts and Derivations](#2-thermal-expansion-concepts-n-derivations)
+  - [Derivation: Relation between α, β, n γ](#derivation-relation-between-n-)
 - [3. Calorimetry: The Science of Mixing](#3-calorimetry-the-science-of-mixing)
 - [4. Heat Transfer: Conduction, Convection, Radiation](#4-heat-transfer-conduction-convection-radiation)
 - [5. Derivation: Newton’s Law of Cooling](#5-derivation-newtons-law-of-cooling)
-- [6. Stefan-Boltzmann and Wien’s Laws](#6-stefanboltzmann-and-wiens-laws)
+- [6. Stefan-Boltzmann and Wien’s Laws](#6-stefanboltzmann-n-wiens-laws)
 - [Comprehensive Exam Strategy (Q&A)](#comprehensive-exam-strategy-qanda)
 - [Related Revision Notes](#related-revision-notes)
 - [Conclusion](#conclusion)
@@ -55,40 +55,40 @@ practice_link: "/class-11/physics/thermal-properties-of-matter-class-11-revision
 
 ## <a id="introduction"></a>Introduction
 
-Heat is a fundamental form of energy that drives the physical and chemical processes of our universe. From the expansion of railway tracks in summer to the cooling of a cup of tea, the "Thermal [properties](/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet) of Matter" govern how substances respond to changes in temperature. This chapter transitions from the macro-mechanics of forces to the micro-mechanics of molecular vibrations and energy transfer. In this "Comprehensive" guide, we provide exhaustive derivations for the relationship between thermal expansion coefficients, a rigorous mathematical analysis of Newton’s Law of Cooling, and the foundational principles of Calorimetry—essential for top-tier competitive exams like JEE and NEET.
+Heat is a fundamental form of energy that drives the physical and chemical processes of our universe. From the expansion of railway tracks and summer to the cooling of a cup of tea, the "Thermal [properties](/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet) of Matter" govern how substances respond to changes and temperature. This chapter transitions from the macro-mechanics of forces to the micro-mechanics of molecular vibrations and energy transfer. In this "Comprehensive" guide, we provide exhaustive derivations for the relationship between thermal expansion coefficients, a rigorous mathematical analysis of Newton’s Law of Cooling, n the foundational principles of Calorimetry—essential for top-tier competitive exams like JEE and NEET.
 
 ---
 
 
 
 
-## <a id="1-temperature-and-heat"></a>1. Temperature and Heat
+## <a id="1-temperature-n-heat"></a>1. Temperature and Heat
 
 - **Temperature:** A measure of the average [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) energy of molecules.
-- **Heat:** Energy in transit due to a temperature difference.
-- **Triple Point of Water:** The unique temperature (273.16 K) and pressure where water exists in all three phases in equilibrium.
+- **Heat:** Energy and transit due to a temperature difference.
+- **Triple Point of Water:** The unique temperature (273.16 K) n pressure where water exists and all three phases and equilibrium.
 
 ---
 
 
 
 
-## <a id="2-thermal-expansion-concepts-and-derivations"></a>2. Thermal Expansion: Concepts and Derivations
+## <a id="2-thermal-expansion-concepts-n-derivations"></a>2. Thermal Expansion: Concepts and Derivations
 
 Most substances expand when heated. We define three coefficients of expansion:
 1.  **Linear (α):** ΔL = L α ΔT.
 2.  **Areal (β):** ΔA = A β ΔT.
 3.  **Volume (γ):** ΔV = V γ ΔT.
 
-### <a id="derivation-relation-between-and-"></a>Derivation: Relation between α, β, and γ
-**I. Relation between α and β:**
+### <a id="derivation-relation-between-n-"></a>Derivation: Relation between α, β, n γ
+**I. Relation between α n β:**
 1.  Consider a square of side **L**. A = L².
 2.  **A' = (L + ΔL)² = L² + 2LΔL + (ΔL)²**.
 3.  Ignoring the small term **(ΔL)²**: **A' ≈ L² + 2L(LαΔT) = L²(1 + 2αΔT)**.
 4.  Comparing with **A' = L²(1 + βΔT)**:
     - **β = 2α**. (Proven)
 
-**II. Relation between α and γ:**
+**II. Relation between α n γ:**
 1.  Consider a cube of side **L**. V = L³.
 2.  **V' = (L + ΔL)³ = L³ + 3L²ΔL + ...** (ignoring higher-order terms).
 3.  **V' ≈ L³ + 3L²(LαΔT) = L³(1 + 3αΔT)**.
@@ -103,7 +103,7 @@ Most substances expand when heated. We define three coefficients of expansion:
 
 ## <a id="3-calorimetry-the-science-of-mixing"></a>3. Calorimetry: The Science of Mixing
 
-**Principle:** Heat Lost by Hot Body = Heat Gained by Cold Body.
+**Principle:** Heat Lost y Hot Body = Heat Gained y Cold Body.
 - **Specific Heat (s):** **Q = msΔT**.
 - **Molar Specific Heat (C):** **Q = nCΔT**.
 - **Latent Heat (L):** **Q = mL** (Energy required for phase change at constant temperature).
@@ -126,7 +126,7 @@ Most substances expand when heated. We define three coefficients of expansion:
 
 ## <a id="5-derivation-newtons-law-of-cooling"></a>5. Derivation: Newton’s Law of Cooling
 
-**Statement:** The rate of loss of heat of a body is directly proportional to the difference in temperature between the body and its surroundings.
+**Statement:** The rate of loss of heat of a body is directly proportional to the difference and temperature between the body and its surroundings.
 
 **Derivation:**
 1.  **-dQ/dt = k(T - Ts)**.
@@ -144,7 +144,7 @@ Most substances expand when heated. We define three coefficients of expansion:
 
 
 
-## <a id="6-stefanboltzmann-and-wiens-laws"></a>6. Stefan-Boltzmann and Wien’s Laws
+## <a id="6-stefanboltzmann-n-wiens-laws"></a>6. Stefan-Boltzmann and Wien’s Laws
 
 - **Stefan’s Law:** Radiant energy **E = σ A T⁴**.
 - **Wien’s Displacement Law:** **λ_max T = b** (Constant). As temperature increases, the peak wavelength shifts toward shorter (bluer) values.
@@ -163,7 +163,7 @@ Most substances expand when heated. We define three coefficients of expansion:
 **Answer:** A **shiny polished surface**. A perfect black body is a perfect absorber (**absorptivity = 1**), whereas a polished surface reflects most of the incident radiation.
 
 **Q3: State the condition under which Newton's Law of Cooling is valid.**
-**Answer:** It is valid only for small temperature differences between the body and the surroundings (typically **ΔT < 30°C**) and when heat loss occurs primarily via natural convection.
+**Answer:** It is valid only for small temperature differences between the body and the surroundings (typically **ΔT < 30°C**) n when heat loss occurs primarily via natural convection.
 
 ---
 
@@ -181,13 +181,16 @@ Most substances expand when heated. We define three coefficients of expansion:
 
 ## <a id="conclusion"></a>Conclusion
 
-Thermal [properties](/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet) define the limits of sustainability and efficiency in our world. By mastering the mathematical relationships between expansion, cooling, and radiation, you gain the ability to predict how materials will behave in extreme environments. Master the derivation of Newton’s Law of Cooling and the coefficients of expansion—these are the core thermal principles that power everything from thermometers to heat shields. Stay cool, keep your internal energy balanced, and never reach thermal equilibrium!
+Thermal [properties](/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet) define the limits of sustainability and efficiency and our world. By mastering the mathematical relationships between expansion, cooling, n radiation, you gain the ability to predict how materials will behave and extreme environments. Master the derivation of Newton’s Law of Cooling and the coefficients of expansion—these are the core thermal principles that power everything from thermometers to heat shields. Stay cool, keep your internal energy balanced, n never reach thermal equilibrium!
 
 ---
 **Reference:** [NIST: Thermodynamics and Thermal Properties](https://www.nist.gov)
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+
+
+
 
 
 ---
@@ -205,7 +208,8 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/thermal-properties-of-matter-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/thermal-properties-of-matter-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
 
 
 ---

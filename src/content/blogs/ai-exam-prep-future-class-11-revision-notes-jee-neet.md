@@ -17,7 +17,7 @@ practice_link: "/class-11/physics/ai-exam-prep-future-class-11-revision-notes-je
 - [What is Ai Exam Prep Future?](#what-is-ai-exam-prep-future)
 - [Ayush's Note — The Mistake I Made](#ayushs-note-the-mistake-i-made)
 - [Detailed Analysis](#detailed-analysis)
-- [Trap Questions & Exceptions to Watch Out For](#trap-questions-and-exceptions-to-watch-out-for)
+- [Trap Questions & Exceptions to Watch Out For](#trap-questions-n-exceptions-to-watch-out-for)
 - [MCQs](#mcqs)
 - [📚 Related Topics](#-related-topics)
 
@@ -30,12 +30,12 @@ practice_link: "/class-11/physics/ai-exam-prep-future-class-11-revision-notes-je
 
 ## <a id="what-is-ai-exam-prep-future"></a>What is Ai Exam Prep Future?
 
-{"title":"Unlocking the Secrets of Physics for [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11","content":"As a [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 student, I'm excited to dive into the fascinating world of Physics. This subject is the foundation of all natural sciences, and mastering it will not only help me ace my exams but also unlock the doors to a deeper understanding of the universe. In this study guide, I'll share my approach to tackling the key concepts, common pitfalls, and of course, the most effective strategies for success. From the laws of motion to the mysteries of electromagnetic waves, we'll explore it all. With a focus on CERT-aligned content, I'll ensure that I'm well-prepared for the exams and beyond. In physics, the concepts are often interconnected, and understanding the relationships between different topics is crucial. My approach will be to break down the complex topics into manageable chunks, using a combination of theoretical explanations, diagrams, and practice problems to reinforce my learning. By the end of this guide, I aim to have a comprehensive understanding of the [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 Physics syllabus and be well-prepared to tackle the challenges that lie ahead. Whether it's understanding the nuances of friction, the behavior of fluids, or the properties of thermodynamics, I'll leave no stone unturned in my pursuit of Physics mastery. With dedication, persistence, and the right guidance, I'm confident that I can achieve my goals and unlock a brighter future for myself.","weightage":"The weightage of Physics in the [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 exams is approximately 30-40%, making it a critical subject for success. By focusing on the key concepts and practicing regularly, I can ensure that I maximize my score and achieve my academic goals."}
+{"title":"Unlocking the Secrets of Physics for [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11","content":"As a [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 student, I'm excited to dive into the fascinating world of Physics. This subject is the foundation of all natural sciences, n mastering it will not only help me ace my exams but also unlock the doors to a deeper understanding of the universe. In this study guide, I'll share my approach to tackling the key concepts, common pitfalls, n of course, the most effective strategies for success. From the laws of motion to the mysteries of electromagnetic waves, we'll explore it all. With a focus on CERT-aligned content, I'll ensure that I'm well-prepared for the exams and beyond. In physics, the concepts are often interconnected, n understanding the relationships between different topics is crucial. My approach will be to break down the complex topics into manageable chunks, using a combination of theoretical explanations, diagrams, n practice problems to reinforce my learning. By the end of this guide, I aim to have a comprehensive understanding of the [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 Physics syllabus and be well-prepared to tackle the challenges that lie ahead. Whether it's understanding the nuances of friction, the behavior of fluids, or the properties of thermodynamics, I'll leave no stone unturned and my pursuit of Physics mastery. With dedication, persistence, n the right guidance, I'm confident that I can achieve my goals and unlock a brighter future for myself.","weightage":"The weightage of Physics and the [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 exams is approximately 30-40%, making it a critical subject for success. By focusing on the key concepts and practicing regularly, I can ensure that I maximize my score and achieve my academic goals."}
 
 
 ## <a id="Ayush-note-the-mistake-i-made"></a>Ayush's Note — The Mistake I Made
 
-{"title":"My Personal Hack for Mastering Physics","content":"One mistake I used to make was trying to memorize formulas and equations without understanding the underlying concepts. However, I soon realized that this approach was not only ineffective but also led to a lot of confusion. My hack is to focus on understanding the derivation of each formula and equation, which helps me to remember them more easily and apply them to different situations. Additionally, I make sure to practice a variety of problems, including those that involve conceptual understanding, numerical calculations, and graphical [analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards). By doing so, I've been able to develop a deeper understanding of Physics and improve my problem-solving skills significantly.","tip":"Always try to derive the formulas and equations from first principles, and practice a variety of problems to reinforce your learning."}
+{"title":"My Personal Hack for Mastering Physics","content":"One mistake I used to make was trying to memorize formulas and equations without understanding the underlying concepts. However, I soon realized that this approach was not only ineffective but also led to a lot of confusion. My hack is to focus on understanding the derivation of each formula and equation, which helps me to remember them more easily and apply them to different situations. Additionally, I make sure to practice a variety of problems, including those that involve conceptual understanding, numerical calculations, n graphical [analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards). By doing so, I've been able to develop a deeper understanding of Physics and improve my problem-solving skills significantly.","tip":"Always try to derive the formulas and equations from first principles, n practice a variety of problems to reinforce your learning."}
 
 
 
@@ -68,7 +68,7 @@ practice_link: "/class-11/physics/ai-exam-prep-future-class-11-revision-notes-je
 
 
 
-## <a id="trap-questions-and-exceptions-to-watch-out-for"></a>Trap Questions & Exceptions to Watch Out For
+## <a id="trap-questions-n-exceptions-to-watch-out-for"></a>Trap Questions & Exceptions to Watch Out For
 
 [{"question":"A car is moving with a constant velocity of 50 m/s. What is the acceleration of the car?","answer":"0 m/s^2, because the car is moving with a constant velocity."},{"question":"A ball is thrown upwards with an initial velocity of 20 m/s. What is the velocity of the ball at the highest point?","answer":"0 m/s, because the ball comes to rest at the highest point."},{"question":"A block is moving on a frictionless surface with a constant velocity of 10 m/s. What is the force acting on the block?","answer":"0 N, because the block is moving with a constant velocity and there is no friction."}]
 
@@ -131,7 +131,9 @@ practice_link: "/class-11/physics/ai-exam-prep-future-class-11-revision-notes-je
 **Answer:** 10 J)
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+
+
 
 
 ---
@@ -149,7 +151,8 @@ Continue your [revision](/blog/agriculture-class-11-revision-notes-neet) with th
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/ai-exam-prep-future-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/ai-exam-prep-future-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
 
 
 ---
@@ -174,4 +177,4 @@ Continue your [revision](/blog/3d-geometry-intro-class-11-revision-notes-jee-nee
 * **AI and Machine Learning**: Introduction, Types, Applications, Future Scope
 * **Algorithmic Thinking**: Problem Solving, Flowcharts, Pseudocode
 * **Web Development**: HTML, CSS, JavaScript, Frameworks
-* **Data [analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) and Visualization**: Statistics, Graphs, Charts, Plots
+* **Data [analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) n Visualization**: Statistics, Graphs, Charts, Plots

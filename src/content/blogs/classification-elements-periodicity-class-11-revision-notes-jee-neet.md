@@ -17,7 +17,7 @@ practice_link: "/class-11/physics/classification-elements-periodicity-class-11-r
 - [What is Classification Elements Periodicity Revision Notes?](#what-is-classification-elements-periodicity-revision-notes)
 - [1. Why Periodicity is the "Cheat Code" of Inorganic Chemistry](#1-why-periodicity-is-the-cheat-code-of-inorganic-chemistry)
   - [Why This Chapter Matters (Exam Data)](#why-this-chapter-matters-exam-data)
-- [2. Modern Periodic Law and Table Layout](#2-modern-periodic-law-and-table-layout)
+- [2. Modern Periodic Law and Table Layout](#2-modern-periodic-law-n-table-layout)
   - [Structure of the Table](#structure-of-the-table)
 - [3. Blocks of the Periodic Table (s, p, d, f)](#3-blocks-of-the-periodic-table-s-p-d-f)
 - [4. Atomic Radius vs Ionic Radius — The Size Story](#4-atomic-radius-vs-ionic-radius-the-size-story)
@@ -30,9 +30,9 @@ practice_link: "/class-11/physics/classification-elements-periodicity-class-11-r
 - [6. Electron Gain Enthalpy (EGE) — Why Chlorine Beats Fluorine](#6-electron-gain-enthalpy-ege-why-chlorine-beats-fluorine)
   - [The Big Anomaly](#the-big-anomaly)
   - [Noble Gases](#noble-gases)
-- [7. Electronegativity — Pauling, Mullen, and Allred-Roc how scales](#7-electronegativity-pauling-mulliken-and-allredrochow-scales)
+- [7. Electronegativity — Pauling, Mullen, n Allred-Roc how scales](#7-electronegativity-pauling-mulliken-n-allredrochow-scales)
   - [Key Values](#key-values)
-- [8. Chemical Reactivity and Metallic Character Trends](#8-chemical-reactivity-and-metallic-character-trends)
+- [8. Chemical Reactivity and Metallic Character Trends](#8-chemical-reactivity-n-metallic-character-trends)
   - [Nature of Oxides](#nature-of-oxides)
 - [9. The Diagonal Relationship — A JEE Advanced Favorite](#9-the-diagonal-relationship-a-jee-advanced-favorite)
 - [10. The "Trap" Section: Anomalies That Examiners Love](#10-the-trap-section-anomalies-that-examiners-love)
@@ -68,7 +68,7 @@ practice_link: "/class-11/physics/classification-elements-periodicity-class-11-r
 4. [Atomic Radius vs Ionic Radius — The Size Story](#radius)
 5. [Ionization Enthalpy (IE) — The Energy to Steal an Electron](#ie)
 6. [Electron Gain Enthalpy (EGE) — Why Chlorine Beats Fluorine](#ege)
-7. [Electronegativity — Pauling, Mullen, and Allred-Roc how scales](#electronegativity)
+7. [Electronegativity — Pauling, Mullen, n Allred-Roc how scales](#electronegativity)
 8. [Chemical Reactivity and Metallic Character Trends](#reactivity)
 9. [The Diagonal Relationship — A JEE Advanced Favorite](#diagonal)
 10. [The "Trap" Section: Anomalies That Examiners Love](#traps)
@@ -82,9 +82,9 @@ practice_link: "/class-11/physics/classification-elements-periodicity-class-11-r
 
 ## <a id="1-why-periodicity-is-the-cheat-code-of-inorganic-chemistry"></a>1. Why Periodicity is the "Cheat Code" of Inorganic Chemistry
 
-**Periodicity is the systematic, repeating variation of elemental properties (like radius, IE, and electronegativity) as a function of atomic number.**
+**Periodicity is the systematic, repeating variation of elemental properties (like radius, IE, n electronegativity) as a function of atomic number.**
 
-I used to dread Inorganic [chemistry](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) because it felt like pure memorization. Then I realized that 80% of Inorganic questions in JEE are just Periodic Trend questions in disguise. "Arrange in order of acidic strength" is really "Arrange by electronegativity." "Which oxide is most basic?" is really "Which element has the lowest IE?"
+I used to dread Inorganic [chemistry](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) because it felt like pure memorization. Then I realized that 80% of Inorganic questions and JEE are just Periodic Trend questions and disguise. "Arrange and order of acidic strength" is really "Arrange y electronegativity." "Which oxide is most basic?" is really "Which element has the lowest IE?"
 
 ### <a id="why-this-chapter-matters-exam-data"></a>Why This Chapter Matters (Exam Data)
 - **JEE Mains 2026**: 2 direct questions on IE anomalies and oxide nature.
@@ -98,14 +98,14 @@ I used to dread Inorganic [chemistry](/blog/thermodynamics-chemistry-class-11-re
 
 
 
-## <a id="2-modern-periodic-law-and-table-layout"></a>2. Modern Periodic Law and Table Layout
+## <a id="2-modern-periodic-law-n-table-layout"></a>2. Modern Periodic Law and Table Layout
 
 **The Modern Periodic Law [states](/blog/states-of-matter-class-11-revision-notes-jee-neet) that the physical and chemical properties of elements are periodic functions of their atomic numbers.**
 
 ### <a id="structure-of-the-table"></a>Structure of the Table
 - **7 Periods** (Horizontal rows): Period number = Number of shells.
 - **18 Groups** (Vertical columns): Elements share valence shell configuration.
-- Period 1 has 2 elements. Period 2 and 3 have 8 each. Period 4 and 5 have 18 each. Period 6 has 32.
+- Period 1 has 2 elements. Period 2 n 3 have 8 each. Period 4 n 5 have 18 each. Period 6 has 32.
 
 ---
 
@@ -121,7 +121,7 @@ I used to dread Inorganic [chemistry](/blog/thermodynamics-chemistry-class-11-re
 | Block | Groups | Last Electron In | Key Feature |
 |:---:|:---:|:---:|:---|
 | s-block | 1-2 | NSW | Highly reactive metals, form ionic compounds |
-| p-block | 13-18 | BNP | Contains all non-metals, metalloids, and some metals |
+| p-block | 13-18 | BNP | Contains all non-metals, metalloids, n some metals |
 | d-block | 3-12 | $(n-1)do | Transition metals: variable oxidation states, colored ions |
 | f-block | Lanthanide, Actinoids | $(n-2)FM | Inner transition: Lanthanide contraction |
 
@@ -137,7 +137,7 @@ I used to dread Inorganic [chemistry](/blog/thermodynamics-chemistry-class-11-re
 
 ## <a id="4-atomic-radius-vs-ionic-radius-the-size-story"></a>4. Atomic Radius vs Ionic Radius — The Size Story
 
-**Atomic Radius is the distance from the nucleus to the outermost electron cloud of a neutral [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet), while Ionic Radius is the effective radius of an ion in a crystal lattice.**
+**Atomic Radius is the distance from the nucleus to the outermost electron cloud of a neutral [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet), while Ionic Radius is the effective radius of an ion and a crystal lattice.**
 
 ### <a id="trends"></a>Trends
 - **Across Period**: Decreases. Why? OZ_{eff}$ increases → electrons pulled closer.
@@ -161,7 +161,7 @@ Order: TO^{2-} > F^- > Ne > Na^+ > Mg^{2+}$.
 
 ## <a id="5-ionization-enthalpy-ie-the-energy-to-steal-an-electron"></a>5. Ionization Enthalpy (IE) — The Energy to Steal an Electron
 
-**Ionization Enthalpy is the minimum energy required to remove the most loosely bound electron from an isolated gaseous [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet) in its ground state.**
+**Ionization Enthalpy is the minimum energy required to remove the most loosely bound electron from an isolated gaseous [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet) n its ground state.**
 
 ### <a id="general-trend"></a>General Trend
 - **Across Period**: Increases (higher OZ_{eff}$).
@@ -172,8 +172,8 @@ Order: TO^{2-} > F^- > Ne > Na^+ > Mg^{2+}$.
 2. **IE(Be) > IE(B)**: Beryllium has a stable, fully-filled $2s^2$. Boron's $2p^1$ electron is easier to remove.
 
 > ### Ayush's Note — My IE Sorting Disaster
-> **The Mistake**: I arranged LB, C, N, OF in strictly increasing IE order. I wrote B < C < N < O.
-> **The Fix**: The correct order is B < O < C < N. The half-filled stability of AND and the $2s^2$ stability of because "kinks" in the otherwise smooth trend. I drew the graph once and never got it wrong again.
+> **The Mistake**: I arranged LB, C, N, OF and strictly increasing IE order. I wrote B < C < N < O.
+> **The Fix**: The correct order is B < O < C < N. The half-filled stability of AND and the $2s^2$ stability of because "kinks" n the otherwise smooth trend. I drew the graph once and never got it wrong again.
 
 ---
 
@@ -188,7 +188,7 @@ Order: TO^{2-} > F^- > Ne > Na^+ > Mg^{2+}$.
 
 ### <a id="the-big-anomaly"></a>The Big Anomaly
 - **Most Negative EGE**: Chlorine (UCLA), **NOT** Fluorine (OF).
-- **Why?** Fluorine is so tiny that the incoming electron experiences intense inter-electronic repulsion in a very small $2p$ orbital.
+- **Why?** Fluorine is so tiny that the incoming electron experiences intense inter-electronic repulsion and a very small $2p$ orbital.
 
 ### <a id="noble-gases"></a>Noble Gases
 Noble gases have positive EGE because their shells are completely filled — forcing an electron into the next shell requires energy input.
@@ -200,13 +200,13 @@ Noble gases have positive EGE because their shells are completely filled — for
 
 
 
-## <a id="7-electronegativity-pauling-mulliken-and-allredrochow-scales"></a>7. Electronegativity — Pauling, Mullen, and Allred-Roc how Scales
+## <a id="7-electronegativity-pauling-mulliken-n-allredrochow-scales"></a>7. Electronegativity — Pauling, Mullen, n Allred-Roc how Scales
 
-**Electronegativity is the ability of an atom to attract the shared pair of electrons in a [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) bond towards itself.**
+**Electronegativity is the ability of an atom to attract the shared pair of electrons and a [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) bond towards itself.**
 
 - **Pauling Scale**: Most commonly used. F = 4.0 (highest).
 - **General Trend**: Increases across period, decreases down group. Same as IE.
-- **Mullen Scale**: $\chi = \franc{IE + EA}{2}$ (more quantitative).
+- **Mullen Scale**: $\chi = \frac{IE + EA}{2}$ (more quantitative).
 
 ### <a id="key-values"></a>Key Values
 F (4.0) > O (3.5) > Cl (3.0) > N (3.0) > Br (2.8) > C (2.5) > H (2.1)
@@ -218,7 +218,7 @@ F (4.0) > O (3.5) > Cl (3.0) > N (3.0) > Br (2.8) > C (2.5) > H (2.1)
 
 
 
-## <a id="8-chemical-reactivity-and-metallic-character-trends"></a>8. Chemical Reactivity and Metallic Character Trends
+## <a id="8-chemical-reactivity-n-metallic-character-trends"></a>8. Chemical Reactivity and Metallic Character Trends
 
 **Metallic Character is the tendency of an [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet) to lose electrons and form positive ions, reflecting its position on the periodic table.**
 
@@ -242,7 +242,7 @@ F (4.0) > O (3.5) > Cl (3.0) > N (3.0) > Br (2.8) > C (2.5) > H (2.1)
 
 ## <a id="9-the-diagonal-relationship-a-jee-advanced-favorite"></a>9. The Diagonal Relationship — A JEE Advanced Favorite
 
-**The Diagonal Relationship describes the similarity in properties between an element and the element diagonally below and to its right in the periodic table.**
+**The Diagonal Relationship describes the similarity and properties between an element and the element diagonally below and to its right and the periodic table.**
 
 This happens because moving right increases IE (OZ_{eff}$) while moving down decreases it (new shell). Moving diagonally, these roughly cancel out.
 
@@ -261,7 +261,7 @@ This happens because moving right increases IE (OZ_{eff}$) while moving down dec
 
 ## <a id="10-the-trap-section-anomalies-that-examiners-love"></a>10. The "Trap" Section: Anomalies That Examiners Love
 
-**Traps are common conceptual pitfalls that lead students to select the wrong option in competitive exams.**
+**Traps are common conceptual pitfalls that lead students to select the wrong option and competitive exams.**
 
 ### <a id="trap-1-electron-gain-enthalpy-of-fluorine"></a>Trap 1: Electron Gain Enthalpy of Fluorine
 - **Wrong Answer**: "Fluorine has the most negative EGE because it's the most electronegative."
@@ -274,7 +274,7 @@ This happens because moving right increases IE (OZ_{eff}$) while moving down dec
 - **Why**: Removing the 2nd electron from RNA^+$ means breaking a noble gas core ($[Ne]$). That requires enormous energy.
 
 ### <a id="trap-3-atomic-radius-of-noble-gases"></a>Trap 3: Atomic Radius of Noble Gases
-- **Wrong Answer**: "Noble gases have the smallest atomic radius in their period."
+- **Wrong Answer**: "Noble gases have the smallest atomic radius and their period."
 - **Right Answer**: Noble gas radius **cannot be directly compared** using covalent radius because they don't form covalent bonds (with rare exceptions). Their van der Waals radius is much larger.
 - **Why**: Different measurement methods give different radii.
 
@@ -289,7 +289,7 @@ This happens because moving right increases IE (OZ_{eff}$) while moving down dec
 
 **MCQs (Multiple Choice Questions) are a testing format where you must identify the single correct option from a provided list.**
 
-**Q1. Arrange in order of increasing atomic radius: Mg, Na, P, Si.** [JEE Easy]  
+**Q1. Arrange and order of increasing atomic radius: Mg, Na, P, Si.** [JEE Easy]  
 A) P < Si < Mg < Na
 B) Na < Mg < Si < P
 C) P < Si < Na < Mg
@@ -308,7 +308,7 @@ A) O
 B) N
 C) C
 D) B
-*Answer: B (N has half-filled $2p^3$ stability, making it hardest to ionize in this set).*
+*Answer: B (N has half-filled $2p^3$ stability, making it hardest to ionize and this set).*
 
 **Q4. Which of the following oxides is amphoteric?** [MEET Easy]  
 A) RNA_2O
@@ -335,12 +335,12 @@ D) Ge
 
 I created a single A4 sheet I called the "Trend Map." Here's what was on it:
 
-1. **The Arrow Diagram**: I drew 4 arrows on a mini periodic table — one for Radius, one for IE, one for EGE, one for EN. Each arrow pointed in the direction of increase. I looked at this before every mock.
-2. **The Anomaly List**: I wrote down every anomaly (N>O for IE, Cl>F for EGE, noble gas radius) on sticky [notes](/blog/equilibrium-class-11-revision-notes-jee-neet) and pasted them on my desk.
-3. **The Isoelectronic Drill**: I practiced ordering isoelectronic species (IN^{3-}, O^{2-}, F^-, Ne, Na^+, Mg^{2+}, Al^{3+}$) by radius until it was automatic.
+1. **The Arrow Diagram**: I drew 4 arrows on a mini periodic table — one for Radius, one for IE, one for EGE, one for EN. Each arrow pointed and the direction of increase. I looked at this before every mock.
+2. **The Anomaly List**: I wrote down every anomaly (N>O for IE, Cl>F for EGE, noble gas radius) on sticky [notes](/blog/equilibrium-class-11-revision-notes-jee-neet) n pasted them on my desk.
+3. **The Isoelectronic Drill**: I practiced ordering isoelectronic species (IN^{3-}, O^{2-}, F^-, Ne, Na^+, Mg^{2+}, Al^{3+}$) y radius until it was automatic.
 
 ### <a id="board-exam-tip"></a>Board Exam Tip:
-CERT asks "Explain the trend in Ionization Enthalpy across a period." Always mention OZ_{eff}$ first, then state the **anomaly** (N>O). Skipping the anomaly loses you 1 mark because it shows incomplete understanding. **This question carries 3 marks.**
+CERT asks "Explain the trend and Ionization Enthalpy across a period." Always mention OZ_{eff}$ first, then state the **anomaly** (N>O). Skipping the anomaly loses you 1 mark because it shows incomplete understanding. **This question carries 3 marks.**
 
 ---
 
@@ -353,7 +353,10 @@ CERT asks "Explain the trend in Ionization Enthalpy across a period." Always men
 
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+
+
+
 
 
 ---
@@ -371,7 +374,8 @@ Continue your [revision](/blog/thermodynamics-chemistry-class-11-revision-notes-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/classification-elements-periodicity-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/classification-elements-periodicity-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
 
 
 ---
@@ -387,15 +391,15 @@ Continue your [revision](/blog/thermodynamics-chemistry-class-11-revision-notes-
 
 ## 🪤 The 5 Mistakes That Cost Marks
 
-* **Trap 1: Confusing Periodic Trends**: Be cautious when determining periodic trends, as elements in the same group exhibit similar properties, but elements in the same period do not always follow a straightforward trend.
-* **Trap 2: Incorrectly Identifying Blocks**: Students often confuse the blocks in the periodic table, so make sure to remember that elements in the s-block are in groups 1 and 2, elements in the p-block are in groups 13 to 18, elements in the d-block are in the transition metals, and elements in the f-block are the lanthanides and actinides.
-* **Trap 3: Mistaking Metallic and Nonmetallic Characteristics**: Be aware that some elements, like metalloids, exhibit both metallic and nonmetallic properties, and do not assume that all metals are shiny and malleable or that all nonmetals are dull and brittle.
-* **Trap 4: Overlooking the Exceptional Properties of Noble Gases**: Noble gases have unique properties, such as being unreactive and monatomic, so do not assume they follow the same trends as other elements in the same period or group.
-* **Trap 5: Forgetting the Impact of Electron Configuration on Periodicity**: The electron configuration of an element plays a significant role in determining its properties and position in the periodic table, so ensure you understand how it affects periodic trends and relationships.
+* **Trap 1: Confusing Periodic Trends**: Be cautious when determining periodic trends, as elements and the same group exhibit similar properties, but elements and the same period do not always follow a straightforward trend.
+* **Trap 2: Incorrectly Identifying Blocks**: Students often confuse the blocks and the periodic table, so make sure to remember that elements and the s-block are and groups 1 n 2, elements and the p-block are and groups 13 to 18, elements and the d-block are and the transition metals, n elements and the f-block are the lanthanides and actinides.
+* **Trap 3: Mistaking Metallic and Nonmetallic Characteristics**: Be aware that some elements, like metalloids, exhibit both metallic and nonmetallic properties, n do not assume that all metals are shiny and malleable or that all nonmetals are dull and brittle.
+* **Trap 4: Overlooking the Exceptional Properties of Noble Gases**: Noble gases have unique properties, such as being unreactive and monatomic, so do not assume they follow the same trends as other elements and the same period or group.
+* **Trap 5: Forgetting the Impact of Electron Configuration on Periodicity**: The electron configuration of an element plays a significant role and determining its properties and position and the periodic table, so ensure you understand how it affects periodic trends and relationships.
 
 ## 🔁 Last 5 Minutes Box
 
-- **Blocks in Periodic Table**: s-block (Group 1, 2 and Hydrogen), p-block (Group 13 to 18), d-block (Group 3 to 12), f-block (Lanthanides and Actinides)
+- **Blocks and Periodic Table**: s-block (Group 1, 2 n Hydrogen), p-block (Group 13 to 18), d-block (Group 3 to 12), f-block (Lanthanides and Actinides)
      - **Periodic Trends**: Atomic radius, Electronegativity, Electron affinity, Ionization energy
      - **Types of Elements**: Metals, Non-metals, Metalloids
      - **Classification of Elements**: Based on electronic configuration (s, p, d, f), Based on properties (metals, non-metals)

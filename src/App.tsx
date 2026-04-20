@@ -60,7 +60,7 @@ const SubjectSyllabus = lazy(() => import('./pages/dashboard/SubjectSyllabus').t
 const RankInfo = lazy(() => import('./pages/dashboard/RankInfo').then(module => ({ default: module.RankInfo })));
 const ConceptMap = lazy(() => import('./pages/dashboard/ConceptMap').then(module => ({ default: module.ConceptMap })));
 const Arena = lazy(() => import('./pages/dashboard/Arena').then(module => ({ default: module.Arena })));
-const Clans = lazy(() => import('./pages/dashboard/Clans').then(module => ({ default: module.Clans })));
+const GroupBattle = lazy(() => import('./pages/dashboard/GroupBattle').then(module => ({ default: module.GroupBattle })));
 
 // Admin Routes
 const QuestionReview = lazy(() => import('./pages/admin/QuestionReview').then(module => ({ default: module.QuestionReview })));
@@ -174,7 +174,8 @@ function AppContent() {
                 <Route path="ranks" element={<RankInfo />} />
                 <Route path="concept-map" element={<ConceptMap />} />
                 <Route path="arena" element={<Arena />} />
-                <Route path="clans" element={<Clans />} />
+                <Route path="arena/group" element={<GroupBattle />} />
+                <Route path="arena/group/:sessionId" element={<GroupBattle />} />
               </Route>
             </Route>
 
