@@ -1,9 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { Lock, Mail, ArrowRight, AlertCircle, Loader2, GraduationCap, Target, Calendar } from 'lucide-react';
+import { Lock, Mail, ArrowRight, AlertCircle, Loader2 } from 'lucide-react';
 import { auth, googleProvider } from '../../lib/firebase';
 import { signInWithEmailAndPassword, createUserWithEmailAndPassword, signInWithPopup, setPersistence, browserLocalPersistence } from 'firebase/auth';
-import { CustomSelect } from '../../components/CustomSelect';
 import { useUserStore } from '../../store/userStore';
 import { SEO } from '../../components/SEO';
 
@@ -16,36 +15,6 @@ export const Login = () => {
     const [guestLoginAttempt, setGuestLoginAttempt] = useState(false);
     const [error, setError] = useState<string | null>(null);
     const [formData, setFormData] = useState({ email: '', password: '' });
-    const [selectedClass, setSelectedClass] = useState<string>('');
-    const [targetExam, setTargetExam] = useState<string>('');
-    const [targetYear, setTargetYear] = useState<string>('');
-
-    const handleClassChange = (val: string) => {
-        setSelectedClass(val);
-        const currentYear = new Date().getFullYear();
-        let detectedYear = currentYear;
-        
-        // Auto-detect target year based on class
-        if (val === 'Class 8th') detectedYear = currentYear + 4;
-        else if (val === 'Class 9th') detectedYear = currentYear + 3;
-        else if (val === 'Class 10th') detectedYear = currentYear + 2;
-        else if (val === 'Class 11th') detectedYear = currentYear + 1;
-        else if (val === 'Class 12th') detectedYear = currentYear;
-        else if (val === 'Dropper') detectedYear = currentYear;
-        
-        setTargetYear(detectedYear.toString());
-        
-        // Auto-select exam if empty (optional, but good UX)
-        if (!targetExam) {
-            setTargetExam('JEE');
-        }
-    };
-
-    const currentYearNum = new Date().getFullYear();
-    const yearOptions = [0, 1, 2, 3, 4, 5].map(offset => ({
-        value: (currentYearNum + offset).toString(),
-        label: (currentYearNum + offset).toString()
-    }));
 
     // Redirect if already authenticated
     useEffect(() => {
@@ -65,23 +34,7 @@ export const Login = () => {
     }, [isAuthenticated, navigate, user, guestLoginAttempt, location]);
 
     const persistIntentBeforeAuth = () => {
-        if (isSignUp && selectedClass) {
-            try {
-                const existing = localStorage.getItem('exam_compass_intent');
-                const intent = existing ? JSON.parse(existing) : { savedAt: Date.now() };
-                
-                // Only overwrite if it matches reality
-                intent.class = selectedClass;
-                intent.exam = targetExam;
-                intent.year = parseInt(targetYear);
-                intent.savedAt = Date.now();
-                
-                localStorage.setItem('exam_compass_intent', JSON.stringify(intent));
-                console.log("📝 [Auth] Persisted signup intent:", intent);
-            } catch (e) {
-                console.error("Failed to persist intent:", e);
-            }
-        }
+        // No longer capturing intent here as it's handled in onboarding
     };
 
     if (authLoading) {
@@ -155,12 +108,12 @@ export const Login = () => {
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/20 blur-[150px] rounded-full pointer-events-none -z-10" />
 
             <div className="glass-card relative z-10 w-full max-w-md p-8 animate-fade-in-up">
-                <div className="text-center mb-8">
-                    <h1 className="text-3xl font-heading font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
+                <div className="text-center mb-10">
+                    <h1 className="text-4xl font-black text-white uppercase tracking-tighter italic">
                         {isSignUp ? 'Join the Revolution' : 'Welcome Back'}
                     </h1>
-                    <p className="text-text-muted mt-2">
-                        {isSignUp ? 'Start your data-driven preparation.' : 'Enter the portal to your dream college.'}
+                    <p className="text-text-muted mt-2 text-sm font-bold uppercase tracking-widest opacity-60">
+                        {isSignUp ? 'Choose your entrance' : 'Enter the portal'}
                     </p>
                 </div>
 
@@ -170,15 +123,61 @@ export const Login = () => {
                     </div>
                 )}
 
-                <form onSubmit={handleAuth} className="space-y-6">
-                    <div className="space-y-2">
-                        <label className="text-sm font-medium text-text-main">Email Address</label>
+                {/* Primary Action: Google */}
+                <div className="space-y-4 mb-8">
+                    <button
+                        type="button"
+                        onClick={handleGoogleLogin}
+                        disabled={loading}
+                        className="relative z-50 w-full bg-white text-black font-bold py-4 rounded-xl flex items-center justify-center gap-3 hover:bg-gray-50 transition-all disabled:opacity-70 shadow-lg"
+                    >
+                        <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google" className="w-6 h-6" />
+                        Continue with Google
+                    </button>
+
+                    <button
+                        type="button"
+                        onClick={async () => {
+                            setLoading(true);
+                            try {
+                                if (isAuthenticated && user?.email?.startsWith('guest_')) {
+                                    navigate('/dashboard');
+                                    return;
+                                }
+                                const { setPersistence, browserLocalPersistence } = await import('firebase/auth');
+                                await setPersistence(auth, browserLocalPersistence);
+                                setGuestLoginAttempt(true);
+                                await useUserStore.getState().loginAsGuest();
+                            } catch (e: any) {
+                                console.error(e);
+                                setError("Guest login failed.");
+                                setGuestLoginAttempt(false);
+                                setLoading(false);
+                            }
+                        }}
+                        className="relative z-50 w-full bg-transparent border border-white/10 text-text-muted hover:text-white hover:border-white/30 py-3.5 rounded-xl text-sm font-bold transition-all flex items-center justify-center gap-2"
+                    >
+                        Continue as Guest
+                    </button>
+                </div>
+
+                <div className="relative mb-8">
+                    <div className="absolute inset-0 flex items-center">
+                        <span className="w-full border-t border-border"></span>
+                    </div>
+                    <div className="relative flex justify-center text-[10px] uppercase font-bold tracking-widest">
+                        <span className="bg-[#0a0a0f] px-4 text-text-muted">Or use email</span>
+                    </div>
+                </div>
+
+                <form onSubmit={handleAuth} className="space-y-4">
+                    <div className="space-y-1.5">
                         <div className="relative">
-                            <Mail className="absolute left-3 top-1/2 -translate-y-1/2 text-text-muted pointer-events-none" size={18} />
+                            <Mail className="absolute left-3 top-1/2 -translate-y-1/2 text-text-muted/50 pointer-events-none" size={16} />
                             <input
                                 type="email"
-                                placeholder="aspirant@example.com"
-                                className="w-full bg-surface border border-border rounded-lg py-3 pl-10 pr-4 text-text-main placeholder:text-text-muted/50 focus:outline-none focus:border-primary transition-colors"
+                                placeholder="Email Address"
+                                className="w-full bg-surface/50 border border-border rounded-xl py-3 pl-10 pr-4 text-text-main placeholder:text-text-muted/30 focus:outline-none focus:border-primary transition-colors text-sm"
                                 required
                                 value={formData.email}
                                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
@@ -186,14 +185,13 @@ export const Login = () => {
                         </div>
                     </div>
 
-                    <div className="space-y-2">
-                        <label className="text-sm font-medium text-text-main">Password</label>
+                    <div className="space-y-1.5">
                         <div className="relative">
-                            <Lock className="absolute left-3 top-1/2 -translate-y-1/2 text-text-muted pointer-events-none" size={18} />
+                            <Lock className="absolute left-3 top-1/2 -translate-y-1/2 text-text-muted/50 pointer-events-none" size={16} />
                             <input
                                 type="password"
-                                placeholder="••••••••"
-                                className="w-full bg-surface border border-border rounded-lg py-3 pl-10 pr-4 text-text-main placeholder:text-text-muted/50 focus:outline-none focus:border-primary transition-colors"
+                                placeholder="Password"
+                                className="w-full bg-surface/50 border border-border rounded-xl py-3 pl-10 pr-4 text-text-main placeholder:text-text-muted/30 focus:outline-none focus:border-primary transition-colors text-sm"
                                 required
                                 minLength={6}
                                 value={formData.password}
@@ -202,120 +200,21 @@ export const Login = () => {
                         </div>
                     </div>
 
-                    {isSignUp && (
-                        <div className="space-y-4">
-                            <CustomSelect
-                                label="Grade / Class"
-                                value={selectedClass}
-                                onChange={handleClassChange}
-                                options={[
-                                    { value: 'Class 8th', label: 'Class 8th' },
-                                    { value: 'Class 9th', label: 'Class 9th' },
-                                    { value: 'Class 10th', label: 'Class 10th' },
-                                    { value: 'Class 11th', label: 'Class 11th' },
-                                    { value: 'Class 12th', label: 'Class 12th' },
-                                    { value: 'Dropper', label: 'Dropper' }
-                                ]}
-                                placeholder="Select your class"
-                                icon={<GraduationCap size={18} />}
-                                required={isSignUp}
-                            />
-
-                            <div className="grid grid-cols-2 gap-4">
-                                <CustomSelect
-                                    label="Target Exam"
-                                    value={targetExam}
-                                    onChange={setTargetExam}
-                                    options={[
-                                        { value: 'JEE', label: 'JEE' },
-                                        { value: 'NEET', label: 'NEET' }
-                                    ]}
-                                    placeholder="Exam"
-                                    icon={<Target size={18} />}
-                                    required={isSignUp}
-                                />
-                                <CustomSelect
-                                    label="Target Year"
-                                    value={targetYear}
-                                    onChange={setTargetYear}
-                                    options={yearOptions}
-                                    placeholder="Year"
-                                    icon={<Calendar size={18} />}
-                                    required={isSignUp}
-                                />
-                            </div>
-                        </div>
-                    )}
-
                     <button
                         type="submit"
                         disabled={loading}
-                        className="relative z-50 w-full bg-primary hover:bg-primary/90 text-white font-bold py-3 rounded-lg transition-all flex items-center justify-center gap-2 group shadow-[0_0_20px_rgba(139,92,246,0.3)] disabled:opacity-50"
+                        className="relative z-50 w-full bg-primary/10 border border-primary/30 hover:bg-primary/20 text-primary font-bold py-3 rounded-xl transition-all flex items-center justify-center gap-2 group disabled:opacity-50 text-sm mt-2"
                     >
                         {loading ? (
-                            <Loader2 className="animate-spin" />
+                            <Loader2 className="animate-spin" size={18} />
                         ) : (
                             <>
-                                {isSignUp ? 'Create Account' : 'Enter Dashboard'} <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                                {isSignUp ? 'Create Account' : 'Sign In'} <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
                             </>
                         )}
                     </button>
                 </form>
 
-                <div className="relative my-4">
-                    <div className="absolute inset-0 flex items-center">
-                        <span className="w-full border-t border-border"></span>
-                    </div>
-                    <div className="relative flex justify-center text-xs uppercase">
-                        <span className="bg-surface px-2 text-text-muted">Or continue with</span>
-                    </div>
-                </div>
-
-                <div className="space-y-3">
-                    <button
-                        type="button"
-                        onClick={handleGoogleLogin}
-                        disabled={loading}
-                        className="relative z-50 w-full bg-white text-black font-semibold py-3 rounded-lg flex items-center justify-center gap-3 hover:bg-gray-100 transition-all disabled:opacity-70"
-                    >
-                        <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google" className="w-5 h-5" />
-                        Continue with Google
-                    </button>
-
-                    <div className="pt-2">
-                        <button
-                            type="button"
-                            onClick={async () => {
-                                setLoading(true);
-                                try {
-                                    // Resume if already guest
-                                    if (isAuthenticated && user?.email?.startsWith('guest_')) {
-                                        navigate('/dashboard');
-                                        return;
-                                    }
-
-                                    const { setPersistence, browserLocalPersistence } = await import('firebase/auth');
-                                    await setPersistence(auth, browserLocalPersistence);
-                                    const { useUserStore } = await import('../../store/userStore');
-                                    setGuestLoginAttempt(true);
-                                    await useUserStore.getState().loginAsGuest();
-                                    // Navigation handled by useEffect when auth state updates
-                                } catch (e: any) {
-                                    console.error(e);
-                                    setError("Guest login failed.");
-                                    setGuestLoginAttempt(false);
-                                    setLoading(false);
-                                }
-                            }}
-                            className="relative z-50 w-full bg-transparent border border-white/20 text-text-muted hover:text-white hover:border-white/40 py-2.5 rounded-lg text-sm font-medium transition-colors flex items-center justify-center gap-2"
-                        >
-                            Continue as Guest
-                        </button>
-                        <p className="text-[10px] text-center text-text-muted/60 mt-2">
-                            Login only to save progress & rank
-                        </p>
-                    </div>
-                </div>
 
                 <p className="text-center text-sm text-text-muted mt-4 relative z-50">
                     {isSignUp ? 'Already have an account?' : "Don't have an account?"}{' '}

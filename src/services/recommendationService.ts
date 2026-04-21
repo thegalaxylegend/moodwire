@@ -51,7 +51,8 @@ export const getActiveRecommendation = async (
             reason = `Weakest Topic (${weakTopics[0].score_percentage}%)`;
         } else {
             // Fallback: Random subject rotation
-            const subjects = ['Physics', 'Chemistry', 'Math'];
+            const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(userClass || '');
+            const subjects = isJunior ? ['Mathematics', 'Science', 'Social Science', 'English'] : ['Physics', 'Chemistry', 'Math'];
             targetTopic = subjects[Math.floor(Math.random() * subjects.length)];
             reason = 'General Improvement';
         }
@@ -151,13 +152,12 @@ export const getRecommendedVideos = async (
 
         // 3. Fallback: If still less than 3, add random subject videos
         if (recommendations.length < 3) {
-            const subjects = ['Physics', 'Chemistry', 'Math'];
+            const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(userClass || '');
+            const subjects = isJunior ? ['Mathematics', 'Science', 'Social Science', 'English'] : ['Physics', 'Chemistry', 'Math'];
+            const searchContext = isJunior ? (userClass || 'Class 10') : (targetExam || 'JEE');
 
             // Shuffle subjects
             const shuffled = subjects.sort(() => 0.5 - Math.random());
-
-            const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(userClass || '');
-            const searchContext = isJunior ? (userClass || 'Class 10') : (targetExam || 'JEE');
 
             for (const subject of shuffled) {
                 if (recommendations.length >= 3) break;

@@ -62,7 +62,7 @@ export const CustomSelect = ({
                 </label>
             )}
 
-            <div className="relative z-[100]">
+            <div className={`relative ${isOpen ? 'z-[200]' : 'z-[100]'}`}>
                 {/* Trigger Button */}
                 <button
                     type="button"

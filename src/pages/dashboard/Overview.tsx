@@ -422,9 +422,11 @@ export const Overview = () => {
 
     // Format numbers
 
-    const daysLeft = displayUser?.targetYear
-        ? Math.ceil((new Date(`${displayUser.targetYear}-01-24`).getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24))
-        : 365;
+    const daysLeft = displayUser?.userClass && ['Class 8th', 'Class 9th', 'Class 10th'].includes(displayUser.userClass)
+        ? Math.ceil((new Date(`${new Date().getMonth() > 2 ? new Date().getFullYear() + 1 : new Date().getFullYear()}-03-31`).getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24))
+        : (displayUser?.targetYear
+            ? Math.ceil((new Date(`${displayUser.targetYear}-01-24`).getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24))
+            : 365);
 
     const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(displayUser?.userClass || '');
 
@@ -595,7 +597,9 @@ export const Overview = () => {
                                     <>
                                         <h3 className="text-lg font-semibold text-text-muted">Days Left</h3>
                                         <p className="text-4xl font-bold text-text-main">{daysLeft}</p>
-                                        <p className="text-xs text-text-muted">Until Jan 24, {displayUser?.targetYear || '2026'}</p>
+                                        <p className="text-xs text-text-muted">
+                                            {isJunior ? 'Until Final Exams' : `Until Jan 24, ${displayUser?.targetYear || '2026'}`}
+                                        </p>
                                     </>
                                 )
                             )}
@@ -604,9 +608,12 @@ export const Overview = () => {
                 </div>
 
                 {/* Skill Profile */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    {(['physics', 'chemistry', 'math'] as const).map(subject => {
-                        const score = displayUser.skills?.[subject] || 0.5;
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+                    {(isJunior 
+                        ? ['Mathematics', 'Science', 'Social Science', 'English'] 
+                        : ['Physics', 'Chemistry', 'Math']
+                    ).map(subject => {
+                        const score = (displayUser.skills as any)?.[subject.toLowerCase()] || 0.5;
                         const percentage = Math.round(score * 100);
                         let color = 'text-yellow-500';
                         let bg = 'bg-yellow-500/10';
@@ -621,11 +628,11 @@ export const Overview = () => {
 
                         return (
                             <div key={subject} className={`glass-card oxygen-card p-4 border ${border} ${bg} flex items-center justify-between`}>
-                                <div>
-                                    <h4 className="capitalize font-bold text-text-main">{subject}</h4>
+                                <div className="min-w-0">
+                                    <h4 className="capitalize font-bold text-text-main truncate">{subject}</h4>
                                     <p className={`text-xs uppercase font-bold tracking-wider ${color}`}>{label}</p>
                                 </div>
-                                <div className="text-right">
+                                <div className="text-right shrink-0">
                                     <span className={`text-2xl font-bold ${color}`}>{percentage}%</span>
                                     <p className="text-[10px] text-text-muted">Proficiency</p>
                                 </div>
@@ -666,7 +673,7 @@ export const Overview = () => {
                                         </div>
                                     )}
 
-                                    {prediction?.collegeFitment && (
+                                    {!isJunior && prediction?.collegeFitment && (
                                         <div className="space-y-6">
                                             <CollegePredictorCard 
                                                 fitment={prediction.collegeFitment} 

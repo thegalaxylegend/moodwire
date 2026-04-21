@@ -464,7 +464,7 @@ export const GroupBattle = () => {
                                     <button 
                                         onClick={handleCreateRoom}
                                         disabled={loading}
-                                        className="w-full py-6 md:py-8 rounded-3xl bg-indigo-600 hover:bg-indigo-700 text-white font-black uppercase tracking-[4px] md:tracking-[8px] flex items-center justify-center gap-4 transition-all active:scale-95 shadow-2xl shadow-indigo-500/30 group relative overflow-hidden"
+                                        className="w-full py-4 md:py-8 rounded-3xl bg-indigo-600 hover:bg-indigo-700 text-white font-black uppercase tracking-[2px] md:tracking-[8px] flex items-center justify-center gap-4 transition-all active:scale-95 shadow-2xl shadow-indigo-500/30 group relative overflow-hidden"
                                     >
                                         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000" />
                                         {loading ? <Loader2 className="animate-spin" /> : <Play size={24} fill="currentColor" />}
@@ -485,14 +485,14 @@ export const GroupBattle = () => {
                                 <input 
                                     type="text"
                                     value={inviteCode}
-                                    onChange={(e) => setInviteCode(e.target.value.toUpperCase())}
+                                    onChange={(e) => setInviteCode(e.target.value.trim().toUpperCase())}
                                     placeholder="PASTE CODE"
-                                    className="w-full md:w-64 bg-surface/50 backdrop-blur-sm border border-border rounded-2xl px-6 py-4 text-center font-mono text-xl md:text-2xl tracking-[4px] md:tracking-[10px] text-white focus:border-indigo-500 outline-none transition-all placeholder:text-text-muted/30 placeholder:tracking-normal shadow-inner"
+                                    className="w-full md:w-64 bg-surface/50 backdrop-blur-sm border border-border rounded-2xl px-4 py-3 md:px-6 md:py-4 text-center font-mono text-lg md:text-2xl tracking-[2px] md:tracking-[10px] text-white focus:border-indigo-500 outline-none transition-all placeholder:text-text-muted/30 placeholder:tracking-normal shadow-inner"
                                 />
                                 <button 
                                     onClick={() => handleJoinByCode()}
                                     disabled={loading || !inviteCode}
-                                    className="px-10 py-4 md:py-5 rounded-2xl bg-white text-indigo-600 font-black uppercase tracking-widest hover:bg-indigo-50 transition-all text-sm shadow-lg active:scale-95 whitespace-nowrap"
+                                    className="px-6 py-3 md:px-10 md:py-5 rounded-2xl bg-white text-indigo-600 font-black uppercase tracking-widest hover:bg-indigo-50 transition-all text-sm shadow-lg active:scale-95 whitespace-nowrap"
                                 >
                                     Join Room
                                 </button>

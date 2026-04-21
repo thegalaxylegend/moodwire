@@ -375,9 +375,15 @@ export const MockGenerator = () => {
                 const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '');
                 const target = user?.targetExam?.toUpperCase() || '';
                 const isNeet = target.includes('NEET');
+                const isFoundation = target.includes('FOUNDATION');
 
-                if (isJunior) {
-                    needs = [{ subject: 'General', topic: 'Mathematics and Science', count: 10 }];
+                if (isJunior || isFoundation) {
+                    needs = [
+                        { subject: 'Mathematics', topic: 'Mathematics', count: 3 },
+                        { subject: 'Science', topic: 'Science', count: 3 },
+                        { subject: 'Social Science', topic: 'Social Science', count: 2 },
+                        { subject: 'English', topic: 'English', count: 2 }
+                    ];
                 } else if (isNeet) {
                     needs = [
                         { subject: 'Biology', topic: 'Biology', count: 4 },

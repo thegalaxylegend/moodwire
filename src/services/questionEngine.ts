@@ -462,10 +462,16 @@ If they don't match, YOUR OUTPUT IS INVALID and will be rejected.
     const MAX_GEN_RETRIES = 3;
     for (let attempt = 0; attempt <= MAX_GEN_RETRIES; attempt++) {
         try {
+            const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(subject) || ['foundation', 'school exams'].includes(exam.toLowerCase());
+            const persona = isJunior 
+                ? `Senior Secondary School Teacher with expertise in NCERT and Olympiads. You specialize in making complex concepts simple for middle and high school students.`
+                : `Senior ${subject} Professor with 20 years of JEE/NEET paper-setting experience. You specialize in high-level competitive exam questions.`;
+
             const response = await withTimeout(
                 askAI(
-                    `You are a Senior ${subject} Professor with 20 years of JEE/NEET paper-setting experience. You MUST solve every problem completely before stating the answer. Use ONLY standard NCERT-aligned formulas. JSON ONLY.`,
-                    generationPrompt, 'auto', [], {
+                    `${persona} You MUST solve every problem completely before stating the answer. JSON ONLY.`,
+                    generationPrompt + `\nSTUDENT GRADE: ${params.exam.includes('Class') ? params.exam : 'Class 10 (High School)'}`, 
+                    'auto', [], {
                     jsonMode: true,
                     stream: false,
                     max_tokens: 2500,

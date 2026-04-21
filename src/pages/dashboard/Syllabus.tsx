@@ -390,36 +390,36 @@ export const Syllabus = () => {
                 title={`Full Syllabus & Progress Tracker (${user?.targetExam || 'General'}) | Exam Compass`}
                 description="Track your exam preparation progress. View detailed syllabus, weightage analysis, and completion status for JEE, NEET, and more."
             />
-            <header className="flex justify-between items-end">
-                <div>
-                    <div className="flex items-center gap-2 mb-1">
-                        <h1 className="text-3xl font-heading font-bold text-text-main">Syllabus Tracker</h1>
+            <header className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-6">
+                <div className="space-y-1">
+                    <div className="flex items-center gap-2">
+                        <h1 className="text-2xl sm:text-3xl font-heading font-bold text-text-main">Syllabus Tracker</h1>
                         <button
                             onClick={() => loadSyllabus(true)}
-                            className="p-1 hover:bg-white/10 rounded-full transition-colors text-text-muted hover:text-primary"
+                            className="p-1.5 hover:bg-white/10 rounded-full transition-colors text-text-muted hover:text-primary"
                             title="Force Refresh Syllabus"
                             disabled={loading}
                         >
-                            <RefreshCw size={18} className={loading ? "animate-spin text-primary" : ""} />
+                            <RefreshCw size={16} className={loading ? "animate-spin text-primary" : ""} />
                         </button>
                     </div>
-                    <p className="text-text-muted">Comprehensive curriculum for <strong>{displayUser?.targetExam}</strong> ({displayUser?.userClass})</p>
+                    <p className="text-text-muted text-sm">Comprehensive curriculum for <strong>{displayUser?.targetExam}</strong> ({displayUser?.userClass})</p>
                 </div>
-                <div className="flex gap-2">
+                <div className="flex w-full sm:w-auto gap-2">
                     <button
                         onClick={() => navigate('/dashboard/concept-map')}
-                        className="flex items-center gap-2 px-4 py-2 bg-[#1a1b23] border border-white/10 hover:bg-white/10 text-white rounded-lg transition-all shadow-xl"
+                        className="flex-1 sm:flex-none flex items-center justify-center gap-2 px-4 py-2.5 bg-[#1a1b23] border border-white/10 hover:bg-white/10 text-white rounded-lg transition-all shadow-xl text-xs font-bold"
                     >
-                        <Network size={18} className="text-purple-400" />
+                        <Network size={16} className="text-purple-400" />
                         Concept Map
                     </button>
                     <button
                         onClick={handleDownloadPDF}
                         disabled={downloadingPdf || loading}
-                        className="flex items-center gap-2 px-4 py-2 bg-primary hover:bg-primary/90 text-white rounded-lg transition-all disabled:opacity-50"
+                        className="flex-1 sm:flex-none flex items-center justify-center gap-2 px-4 py-2.5 bg-primary hover:bg-primary/90 text-white rounded-lg transition-all disabled:opacity-50 text-xs font-bold"
                     >
-                        {downloadingPdf ? <Loader2 size={18} className="animate-spin" /> : <Download size={18} />}
-                        Download Syllabus PDF
+                        {downloadingPdf ? <Loader2 size={16} className="animate-spin" /> : <Download size={16} />}
+                        PDF
                     </button>
                 </div>
             </header>

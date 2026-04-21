@@ -259,7 +259,7 @@ export const Arena = () => {
                             
                             <button 
                                 onClick={handleJoinQueue}
-                                className="w-full py-4 rounded-xl bg-red-500 hover:bg-red-600 text-white font-black tracking-[4px] uppercase shadow-lg shadow-red-500/20 transition-all active:scale-95"
+                                className="w-full py-3.5 md:py-4 rounded-xl bg-red-500 hover:bg-red-600 text-white font-black tracking-[2px] md:tracking-[4px] uppercase shadow-lg shadow-red-500/20 transition-all active:scale-95"
                             >
                                 Find Opponent
                             </button>
@@ -310,9 +310,9 @@ export const Arena = () => {
                                             autoFocus
                                             type="text"
                                             value={joinCode}
-                                            onChange={(e) => setJoinCode(e.target.value.toUpperCase())}
+                                            onChange={(e) => setJoinCode(e.target.value.trim().toUpperCase())}
                                             placeholder="XXXXXX"
-                                            className="w-full bg-surface border border-border rounded-xl px-4 py-4 text-center font-mono text-2xl tracking-[8px] text-white focus:border-indigo-500 outline-none transition-all placeholder:tracking-normal placeholder:text-text-muted/20"
+                                            className="w-full bg-surface border border-border rounded-xl px-4 py-4 text-center font-mono text-2xl tracking-[4px] md:tracking-[8px] text-white focus:border-indigo-500 outline-none transition-all placeholder:tracking-normal placeholder:text-text-muted/20"
                                         />
 
                                         <div className="flex gap-3">

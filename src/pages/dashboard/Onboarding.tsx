@@ -91,12 +91,16 @@ export const Onboarding = () => {
                                     <button
                                         key={cls}
                                         onClick={() => {
+                                            const currentMonth = new Date().getMonth();
                                             const currentYear = new Date().getFullYear();
-                                            let detectedYear = currentYear;
-                                            if (cls === 'Class 8th') detectedYear = currentYear + 4;
-                                            else if (cls === 'Class 9th') detectedYear = currentYear + 3;
-                                            else if (cls === 'Class 10th') detectedYear = currentYear + 2;
-                                            else if (cls === 'Class 11th') detectedYear = currentYear + 1;
+                                            // If after June, most students are targeting the next academic cycle
+                                            const cycleOffset = currentMonth >= 6 ? 1 : 0; 
+                                            
+                                            let detectedYear = currentYear + cycleOffset;
+                                            if (cls === 'Class 8th') detectedYear = currentYear + 4 + cycleOffset;
+                                            else if (cls === 'Class 9th') detectedYear = currentYear + 3 + cycleOffset;
+                                            else if (cls === 'Class 10th') detectedYear = currentYear + 2 + cycleOffset;
+                                            else if (cls === 'Class 11th') detectedYear = currentYear + 1 + cycleOffset;
                                             
                                             setFormData({ 
                                                 ...formData, 
@@ -125,7 +129,10 @@ export const Onboarding = () => {
                             <p className="text-center text-text-muted">Select the mountain you want to conquer.</p>
 
                             <div className="grid grid-cols-2 gap-4 mt-6">
-                                {['JEE', 'NEET'].map((exam) => (
+                                {(formData.userClass === 'Class 8th' || formData.userClass === 'Class 9th' || formData.userClass === 'Class 10th' 
+                                    ? ['Foundation', 'JEE', 'NEET'] 
+                                    : ['JEE', 'NEET', 'CUET']
+                                ).map((exam) => (
                                     <button
                                         key={exam}
                                         onClick={() => setFormData({ ...formData, targetExam: exam })}
@@ -135,7 +142,9 @@ export const Onboarding = () => {
                                             }`}
                                     >
                                         <span className="font-bold text-lg block">{exam}</span>
-                                        <span className="text-xs opacity-70">National Level Exam</span>
+                                        <span className="text-xs opacity-70">
+                                            {exam === 'Foundation' ? 'Olympiads & NTSE' : 'National Level Exam'}
+                                        </span>
                                     </button>
                                 ))}
                             </div>
@@ -147,20 +156,27 @@ export const Onboarding = () => {
                             <h2 className="text-3xl font-heading font-bold text-text-main text-center">
                                 When is your <span className="text-accent">Attempt?</span>
                             </h2>
+                            <p className="text-center text-text-muted">We've pre-selected the most likely year based on your class.</p>
 
-                            <div className="grid grid-cols-3 gap-4 mt-8">
-                                {[0, 1, 2, 3, 4].map((offset) => {
+                            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-8">
+                                {[0, 1, 2, 3, 4, 5].map((offset) => {
                                     const year = new Date().getFullYear() + offset;
+                                    const isRecommended = formData.targetYear === year;
                                     return (
                                         <button
                                             key={year}
                                             onClick={() => setFormData({ ...formData, targetYear: year })}
-                                            className={`p-6 rounded-xl border text-center transition-all ${formData.targetYear === year
+                                            className={`p-6 rounded-xl border text-center transition-all relative ${formData.targetYear === year
                                                 ? 'bg-accent/20 border-accent text-accent shadow-[0_0_20px_rgba(236,72,153,0.2)]'
                                                 : 'bg-surface border-border text-text-muted hover:bg-white/5'
                                                 }`}
                                         >
-                                            <Calendar className="mx-auto mb-3" />
+                                            {isRecommended && (
+                                                <span className="absolute -top-2 left-1/2 -translate-x-1/2 bg-accent text-white text-[8px] font-black uppercase px-2 py-0.5 rounded-full shadow-lg">
+                                                    Recommended
+                                                </span>
+                                            )}
+                                            <Calendar className={`mx-auto mb-3 ${isRecommended ? 'text-accent' : 'opacity-20'}`} />
                                             <span className="font-bold text-xl">{year}</span>
                                         </button>
                                     );

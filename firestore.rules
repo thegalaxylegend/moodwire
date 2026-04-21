@@ -106,6 +106,47 @@ service cloud.firestore {
       allow create, update: if (isSignedIn() && request.resource.data.user_id == request.auth.uid) || isAdmin();
     }
 
+    // --- MULTIPLAYER BATTLES ---
+    
+    match /group_battles/{battleId} {
+      allow read, create, update: if isSignedIn();
+      allow delete: if isSignedIn() && resource.data.hostId == request.auth.uid;
+    }
+
+    match /battle_sessions/{sessionId} {
+      allow read, create, update: if isSignedIn();
+      allow delete: if isSignedIn() && (resource.data.player1.id == request.auth.uid || (resource.data.player2 != null && resource.data.player2.id == request.auth.uid));
+    }
+
+    // --- STUDENT RETENTION SYSTEM ---
+
+    match /review_cards/{cardId} {
+      allow read, delete: if isDataOwner() || isAdmin();
+      allow create, update: if (isSignedIn() && request.resource.data.user_id == request.auth.uid) || isAdmin();
+    }
+
+    match /mistake_notebook/{entryId} {
+      allow read, delete: if isDataOwner() || isAdmin();
+      allow create, update: if (isSignedIn() && request.resource.data.user_id == request.auth.uid) || isAdmin();
+    }
+
+    // --- REFERRAL & REWARDS ---
+
+    match /referral_codes/{code} {
+      allow read: if true;
+      allow create, update: if isSignedIn();
+    }
+
+    match /referral_stats/{userId} {
+      allow read: if isOwner(userId) || isAdmin();
+      allow write: if isSignedIn() || isAdmin(); 
+    }
+
+    match /referral_logs/{logId} {
+      allow create: if isSignedIn();
+      allow read, update, delete: if isAdmin();
+    }
+
     // Public Blog Metadata (Synced by Jules)
     match /content_metadata/{docId} {
       allow read: if true;

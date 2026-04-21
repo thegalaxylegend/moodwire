@@ -332,7 +332,7 @@ export const Notes = () => {
             <div className="flex-1 flex min-h-0 relative overflow-hidden">
                 <aside className={`
                     ${isSidebarOpen ? 'w-full lg:w-96' : 'w-0 overflow-hidden opacity-0'} 
-                    absolute lg:relative h-full bg-[#0a0a0f]/40 border-r border-white/5 backdrop-blur-md transition-all duration-500 ease-in-out z-40 flex flex-col shrink-0
+                    absolute lg:relative h-full bg-[#0a0a0f] lg:bg-[#0a0a0f]/40 border-r border-white/5 backdrop-blur-xl transition-all duration-500 ease-in-out z-40 flex flex-col shrink-0
                 `}>
                     <div className="p-6 space-y-4">
                         <div className="relative group">
