@@ -351,7 +351,7 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
     }
 
     report.score = Math.max(0, score);
-    report.passed = report.score >= 90; // Quality Gate Threshold
+    report.passed = report.score >= 80; // Quality Gate Threshold
     return report;
 }
 

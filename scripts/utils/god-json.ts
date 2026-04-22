@@ -1,175 +1,258 @@
 
 /**
- * 🏺 God-JSON: The Universal Robust JSON Parser
- * 
- * Specifically designed to handle the "dirty" outputs of LLMs.
- * Features:
- * 1. Deep extraction (finds the first { and last })
- * 2. Unescaped quote repair in values
- * 3. Math backslash doubling
- * 4. Control character stripping
- * 5. Trailing comma removal
+ * ╔══════════════════════════════════════════════════════════════╗
+ * ║             🏺  GOD-JSON  —  Universal LLM Parser            ║
+ * ║         8-Layer Cascade Recovery with Schema Awareness       ║
+ * ╚══════════════════════════════════════════════════════════════╝
+ *
+ * Failure modes handled:
+ *  L1 — Native JSON.parse (happy path)
+ *  L2 — Structural repairs (trailing commas, Python literals, LaTeX)
+ *  L3 — Aggressive quote & newline normalisation
+ *  L4 — Markdown code-fence stripping, then re-parse
+ *  L5 — Block-level JSON fragment hunting (first complete {...})
+ *  L6 — Regex field-by-field extraction
+ *  L7 — Markdown body scraping (LLM returned prose instead of JSON)
+ *  L8 — Safe defaults (pipeline must never crash)
  */
+
+// ─── Refusal detection ────────────────────────────────────────────────────────
+
+const REFUSAL_PATTERNS: RegExp[] = [
+    /^i am sorry/i,
+    /i apologize/i,
+    /cannot fulfill/i,
+    /against my policy/i,
+    /\brestricted\b/i,
+    /not allowed to generate/i,
+    /\bethical\b.*\bconcern/i,
+    /i cannot provide/i,
+    /as an ai (language model|assistant)/i,
+    /i'm unable to/i,
+    /i regret to inform/i,
+    /content policy/i,
+];
+
+export function isRefusal(text: string): boolean {
+    if (!text || typeof text !== 'string') return false;
+    const sample = text.slice(0, 400); // Only test the preamble — avoids false positives
+    return REFUSAL_PATTERNS.some(p => p.test(sample));
+}
+
+// ─── Layer helpers ────────────────────────────────────────────────────────────
+
+/** Strip markdown code fences and XML declarations */
+function stripWrapper(s: string): string {
+    return s
+        .replace(/^```(?:json|javascript|js|python|text|markdown)?\s*/im, '')
+        .replace(/```\s*$/im, '')
+        .replace(/^<\?xml[^>]*\?>\s*/i, '')
+        .trim();
+}
+
+/** Extract the outermost balanced JSON object or array */
+function extractOuterBlock(s: string): string | null {
+    const oB = s.indexOf('{');
+    const oA = s.indexOf('[');
+    const start = oB === -1 ? oA : oA === -1 ? oB : Math.min(oB, oA);
+    if (start === -1) return null;
+
+    const opener = s[start];
+    const closer = opener === '{' ? '}' : ']';
+    let depth = 0;
+    let inStr = false;
+    let escaped = false;
+
+    for (let i = start; i < s.length; i++) {
+        const c = s[i];
+        if (escaped) { escaped = false; continue; }
+        if (c === '\\' && inStr) { escaped = true; continue; }
+        if (c === '"') { inStr = !inStr; continue; }
+        if (inStr) continue;
+        if (c === opener) depth++;
+        else if (c === closer) {
+            depth--;
+            if (depth === 0) return s.slice(start, i + 1);
+        }
+    }
+    // Fallback: unclosed block — take from start to last closer
+    const last = s.lastIndexOf(closer);
+    return last > start ? s.slice(start, last + 1) : null;
+}
+
+/** Apply structural repairs to a semi-valid JSON string */
+function repairStructure(s: string): string {
+    let r = s;
+    // Remove JS/Python style comments
+    r = r.replace(/\/\/.*$/gm, '').replace(/\/\*[\s\S]*?\*\//g, '');
+    // Strip control characters except standard whitespace
+    r = r.replace(/[\x00-\x09\x0B\x0C\x0E-\x1F\x7F-\x9F]/g, ' ');
+    // Trailing commas before } or ]
+    r = r.replace(/,\s*([}\]])/g, '$1');
+    // Python / YAML literals
+    r = r.replace(/(?<![\w"])(True|False|None|NaN|Infinity)(?![\w"])/g, m => {
+        const map: Record<string, string> = { True: 'true', False: 'false', None: 'null', NaN: 'null', Infinity: '9e99' };
+        return map[m] ?? m;
+    });
+    // Double-escape LaTeX backslashes inside JSON strings (\\frac → \\\\frac)
+    r = r.replace(/"((?:[^"\\]|\\.)*)"/gs, (_m, inner: string) => {
+        const fixed = inner.replace(/\\(?!["\\/bfnrtu])/g, '\\\\');
+        return `"${fixed}"`;
+    });
+    return r;
+}
+
+/** Repair unescaped double-quotes inside JSON string values */
+function repairQuotes(s: string): string {
+    return s.replace(/"([^"]*)"/g, (_m, inner: string) =>
+        '"' + inner.replace(/\n/g, '\\n').replace(/\r/g, '\\r').replace(/(?<!\\)"/g, '\\"') + '"'
+    );
+}
+
+// ─── L6: Regex field extraction ──────────────────────────────────────────────
+
+function regexExtract(raw: string, fields: string[]): Record<string, any> {
+    const result: Record<string, any> = {};
+    for (const field of fields) {
+        // Try quoted string value
+        const strRx = new RegExp(`"${field}"\\s*:\\s*"((?:[^"\\\\]|\\\\.)*)"`, 's');
+        const strM = raw.match(strRx);
+        if (strM) {
+            result[field] = strM[1].replace(/\\n/g, '\n').replace(/\\"/g, '"').replace(/\\\\/g, '\\');
+            continue;
+        }
+        // Try array value
+        const arrRx = new RegExp(`"${field}"\\s*:\\s*(\\[[\\s\\S]*?\\])`, 's');
+        const arrM = raw.match(arrRx);
+        if (arrM) {
+            try { result[field] = JSON.parse(arrM[1]); } catch { result[field] = []; }
+            continue;
+        }
+        // Try numeric / boolean value
+        const numRx = new RegExp(`"${field}"\\s*:\\s*([\\d.]+|true|false|null)`, 'i');
+        const numM = raw.match(numRx);
+        if (numM) {
+            try { result[field] = JSON.parse(numM[1]); } catch { result[field] = numM[1]; }
+        }
+    }
+    return result;
+}
+
+// ─── L7: Markdown body scraping ──────────────────────────────────────────────
+
+function scrapeMarkdownBody(raw: string): Record<string, any> | null {
+    const looks = raw.includes('- ') || raw.includes('## ') || raw.includes('**') || raw.includes('\n\n');
+    if (!looks) return null;
+    console.warn('🏺 God-JSON [L7]: JSON failed — scraping as raw Markdown body.');
+    return {
+        body: raw.replace(/```json|```/g, '').trim(),
+        isScraped: true,
+    };
+}
+
+// ─── Core parse ───────────────────────────────────────────────────────────────
 
 export function godSafeParse(raw: string): any {
     if (!raw || typeof raw !== 'string') return null;
 
-    let jsonStr = raw.trim();
+    // L0: Short-circuit for obvious refusals
+    if (isRefusal(raw)) return { refusal: true, original: raw };
 
-    // 1. Extract JSON block from markdown/garbage if present
-    const firstBrace = jsonStr.indexOf('{');
-    const lastBrace = jsonStr.lastIndexOf('}');
-    const firstBracket = jsonStr.indexOf('[');
-    const lastBracket = jsonStr.lastIndexOf(']');
+    let s = raw.trim();
 
-    if (firstBracket !== -1 && firstBracket < (firstBrace === -1 ? Infinity : firstBrace) && lastBracket > lastBrace) {
-        if (firstBrace !== -1 && lastBrace !== -1) {
-            jsonStr = jsonStr.substring(firstBrace, lastBrace + 1);
-        }
-    } else if (firstBrace !== -1 && lastBrace !== -1) {
-        jsonStr = jsonStr.substring(firstBrace, lastBrace + 1);
-    } else {
-        if (isRefusal(raw) || raw.includes("<html")) {
-            return { refusal: true, original: raw };
-        }
-        throw new Error("No JSON braces found in input");
+    // L1: Native parse (happy path — LLM output clean JSON)
+    try { return JSON.parse(s); } catch { /* continue */ }
+
+    // L1b: Strip wrapper and try again
+    s = stripWrapper(s);
+    try { return JSON.parse(s); } catch { /* continue */ }
+
+    // L2: Extract outer block
+    const block = extractOuterBlock(s);
+    if (block) {
+        // L2a: Native parse of block
+        try { return JSON.parse(block); } catch { /* continue */ }
+
+        // L3: Structural repairs on block
+        const repaired = repairStructure(block);
+        try { return JSON.parse(repaired); } catch { /* continue */ }
+
+        // L4: Quote repair on repaired block
+        const quotedFixed = repairQuotes(repaired);
+        try { return JSON.parse(quotedFixed); } catch { /* continue */ }
     }
 
-    // 2. Minimal Prep: Remove comments and control chars (Preserve \n \r for aggressive repair)
-    jsonStr = jsonStr.replace(/\/\/.*$/gm, "").replace(/\/\*[\s\S]*?\*\//g, "");
-    jsonStr = jsonStr.replace(/[\x00-\x09\x0B\x0C\x0E-\x1F\x7F-\x9F]/g, " ");
-
-    // 3. ATTEMPT 1: Native Parse (Highest Priority)
-    try {
-        return JSON.parse(jsonStr);
-    } catch (e) {
-        // Continue to repairs...
+    // L5: Block fragment hunting — try every complete {...} substring
+    const fragments = s.match(/\{[\s\S]*?\}/g) || [];
+    for (const frag of fragments) {
+        try { return JSON.parse(frag); } catch { /* continue */ }
+        try { return JSON.parse(repairStructure(frag)); } catch { /* continue */ }
     }
 
-    // 4. ATTEMPT 2: Structural Repairs (Trailing Commas, LaTeX, Python Literals)
-    try {
-        let repaired = jsonStr.replace(/,\s*}/g, "}").replace(/,\s*]/g, "]");
-        
-        // Fix Python/Common Mistake Literals (only if not inside quotes)
-        // We use a safe regex that looks for these words not preceded by a quote
-        repaired = repaired.replace(/(?<!["\w])(True|False|None|NaN|Infinity)(?!["\w])/g, (match) => {
-            switch(match) {
-                case 'True': return 'true';
-                case 'False': return 'false';
-                case 'None': return 'null';
-                case 'NaN': return 'null'; // JSON doesn't support NaN
-                case 'Infinity': return '999999999'; // Safe overflow
-                default: return match;
-            }
-        });
-
-        // Double backslashes for LaTeX if they aren't already escaped
-        repaired = repaired.replace(/\\([a-df-z])/gi, (match, p1) => {
-            if (['b', 'f', 'n', 'r', 't', 'u', '"', '\\'].includes(p1.toLowerCase())) return match;
-            return '\\\\' + p1;
-        });
-        return JSON.parse(repaired);
-    } catch (e) {
-        // Continue to aggressive...
+    // L6: Array fragments
+    const arrFrags = s.match(/\[[\s\S]*?\]/g) || [];
+    for (const frag of arrFrags) {
+        try { return JSON.parse(frag); } catch { /* continue */ }
     }
 
-    // 5. ATTEMPT 3: Aggressive Quote & Newline Repair
-    try {
-        const aggressive = jsonStr.replace(/"([^"]*)"/g, (match, p1) => {
-            // Escape unescaped double quotes inside the string value
-            // and replace real newlines with \n
-            return '"' + p1.replace(/\n/g, '\\n').replace(/\r/g, '\\r').replace(/(?<!\\)"/g, '\\"') + '"';
-        });
-        return JSON.parse(aggressive);
-    } catch (err: any) {
-        // LAST RESORT: Block search
-        const allBlocks = raw.match(/{[\s\S]*?}/g) || [];
-        for (const block of allBlocks) {
-            try { return JSON.parse(block); } catch { continue; }
-        }
+    // L7: Markdown scrape
+    const scraped = scrapeMarkdownBody(raw);
+    if (scraped) return scraped;
 
-        // ABSOLUTE LAST RESORT: Attempt to scrape as Markdown if it looks like content
-        if (raw.includes('- ') || raw.includes('##') || raw.includes('**')) {
-            console.warn("🏺 God-JSON: JSON failed. Attempting Markdown Scraping...");
-            return {
-                body: raw.replace(/```json|```/g, "").trim(),
-                isScraped: true
-            };
-        }
-
-        console.error("🏺 God-JSON: All recovery attempts failed.");
-        throw new Error(`God-JSON Final Failure: ${err.message}`);
-    }
+    // L8: Total failure
+    console.error('🏺 God-JSON [L8]: All 8 recovery layers exhausted — returning null.');
+    return null;
 }
 
-/**
- * Detects if the LLM returned a refusal or policy warning instead of data.
- */
-export function isRefusal(text: string): boolean {
-    const refusalPatterns = [
-        /I am sorry/i,
-        /I apologize/i,
-        /cannot fulfill/i,
-        /against my policy/i,
-        /restricted/i,
-        /not allowed to generate/i,
-        /ethical/i,
-        /I cannot provide/i
-    ];
-    return refusalPatterns.some(p => p.test(text));
-}
-
+// ─── godExtract — schema-first extraction with guaranteed safe defaults ───────
 
 /**
- * Higher-level wrapper that takes a "schema-first" approach.
- * If the parse fails, it attempts to extract key fields via regex.
+ * Extract specific fields from an LLM response string.
+ * Returns safe defaults even if parsing completely fails.
+ * The pipeline must NEVER crash because of a parse failure.
  */
 export function godExtract(raw: string, fields: string[]): Record<string, any> {
-    const result: Record<string, any> = {};
-    
-    // Initialize with safe defaults based on field name patterns
-    for (const field of fields) {
-        if (field.includes("mcqs") || field.includes("recall") || field.includes("options") || field.includes("rows") || field.includes("headers")) {
-            result[field] = [];
-        } else {
-            result[field] = "";
-        }
+    // Build safe defaults based on field name semantics
+    const defaults: Record<string, any> = {};
+    for (const f of fields) {
+        const isArray = ['mcqs', 'recall', 'quick_recall', 'options', 'rows', 'headers', 'sections'].some(k => f.includes(k));
+        defaults[f] = isArray ? [] : '';
     }
 
+    // Attempt full parse first
     try {
         const parsed = godSafeParse(raw);
-        if (parsed && typeof parsed === 'object') {
-            // Merge parsed fields into result, but only if they contain actual content
-            const merged = { ...result };
-            for (const field of fields) {
-                if (parsed[field] !== undefined && parsed[field] !== null) merged[field] = parsed[field];
+        if (parsed && typeof parsed === 'object' && !Array.isArray(parsed)) {
+            const merged = { ...defaults };
+            for (const f of fields) {
+                const val = parsed[f];
+                if (val !== undefined && val !== null) {
+                    // Type coercion safety: arrays expected as arrays
+                    if (Array.isArray(defaults[f]) && !Array.isArray(val)) {
+                        // If string, attempt to parse it as JSON array
+                        if (typeof val === 'string') {
+                            try { merged[f] = JSON.parse(val); } catch { merged[f] = [val]; }
+                        } else {
+                            merged[f] = [val];
+                        }
+                    } else {
+                        merged[f] = val;
+                    }
+                }
             }
             return merged;
         }
-        return result;
-    } catch {
-        // High-performance regex extraction for flat fields
-        for (const field of fields) {
-            // Try catching quoted string values first
-            const stringRegex = new RegExp(`"${field}"\\s*:\\s*"((?:[^"\\\\]|\\\\.)*)"`, 's');
-            const stringMatch = raw.match(stringRegex);
-            if (stringMatch) {
-                result[field] = stringMatch[1]
-                    .replace(/\\n/g, '\n')
-                    .replace(/\\"/g, '"')
-                    .replace(/\\\\/g, '\\');
-                continue;
-            }
+    } catch { /* fall through to regex */ }
 
-            // Try catching markdown blocks if it's the 'body' field
-            if (field === 'body') {
-                const markdownRegex = /(?:###|##|- \*\*).*?(?=\n\n|\n{3,}|$)/s;
-                const markdownMatch = raw.match(markdownRegex);
-                if (markdownMatch) {
-                    result[field] = markdownMatch[0].trim();
-                }
-            }
-        }
-        return result;
+    // Regex field-by-field extraction (L6)
+    const regexResult = regexExtract(raw, fields);
+    const merged = { ...defaults, ...regexResult };
+
+    // If body is still empty, try markdown scrape
+    if (fields.includes('body') && !merged['body']) {
+        const scraped = scrapeMarkdownBody(raw);
+        if (scraped?.body) merged['body'] = scraped.body;
     }
+
+    return merged;
 }

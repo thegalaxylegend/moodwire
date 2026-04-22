@@ -598,216 +598,317 @@ async function generateIntro(item: any, targetYear: number, displayClass: string
 }
 
 async function generateSection(item: any, heading: string, displayClass: string, targetYear: number, researchContext: string): Promise<Section> {
-    console.log(`📖 Jules: Writing specific revision section: ${heading}...`);
+    console.log(`📖 Jules: Writing section: ${heading}...`);
     const numericClass = Number(item.class.replace(/\D/g, ''));
     const system = getAcademicIdentity(numericClass, item.subject);
+    const ctxBlock = researchContext ? `\n\n---\n📚 VERIFIED EXAM DATA (USE AS PRIMARY SOURCE):\n${researchContext}\n---\n` : "";
     
-    // Inject Research Context into the User Prompt
-    let contextHeader = researchContext ? `\n\nUSE THIS ACTUAL 2026 EXAM DATA AS YOUR BIBLE:\n${researchContext}\n\n` : "";
-    
+    // ── Per-heading prompt blueprints ────────────────────────────────────
+    const LATEX_RULE = `LaTeX rules (CRITICAL — breaking these breaks the website):
+- Block formulas: $$\\frac{a}{b}$$   (double dollar, newline before and after)
+- Inline formulas: $v = u + at$      (single dollar)
+- ALWAYS use curly braces: \\frac{numerator}{denominator}, \\sqrt{x}, \\text{units}
+- NEVER output raw commands outside delimiters: write $\\Delta T$ not \\Delta T
+- NEVER output $$  $$ (empty blocks) — they break the renderer`;
+
     let specificDirective = "";
     if (heading.includes("Formula Bank")) {
-         specificDirective = `Provide EVERY important formula for this chapter.
-         The "body" field should contain a bulleted list of all formulas. DO NOT use the "table" field.
-         Format each formula as: "- **[Formula Name]:** $$[LaTeX formula specifically using curly braces {}]$$ — [Variable Meanings]"`;
+        specificDirective = `You are producing the FORMULA BANK for ${item.topic} (${displayClass} ${item.subject}, ${targetYear} exam).
+This is the single most important section. A student will photograph this and use it in the exam hall.
+
+DELIVER:
+- Every formula the chapter requires — no exceptions
+- Group by sub-topic with a bold sub-heading (e.g. **Kinematics Formulas**)
+- Each formula on its own line:
+  - **Name of formula:** $$\\LaTeX$$ — variable meanings in plain English
+- After each formula group, add a 1-line "Examiner's Trap" note
+- End with a quick "Which formula when?" decision table in Markdown table format
+
+${LATEX_RULE}
+MINIMUM: 20 distinct formulas. AIM FOR 30+.`;
+
     } else if (heading.includes("Mistakes")) {
-         specificDirective = `Provide exactly 5 highly specific errors students make.
-         The "body" field should contain the mistakes using bullet points. DO NOT use the "table" field.
-         Format each mistake using Markdown bullets. Use braces for ALL LaTeX.
-         Format each mistake as:
-         
-         - **Mistake [X]:** [Error description]
-           - *Costs:* [Marks lost]
-           - *Fix:* [How to fix it]`;
+        specificDirective = `You are producing the "5 MISTAKES THAT COST MARKS" section for ${item.topic}.
+Think like an examiner who has marked 10,000 scripts.
+
+FOR EACH MISTAKE use EXACTLY this structure:
+- **Mistake 1 — [Short catchy name]:**
+  - 🔴 **What students write:** [exact wrong step / formula]
+  - ✅ **What examiners expect:** [correct approach]
+  - 💸 **Marks lost:** [1 / 2 / 3 marks]
+  - 🔧 **The fix (30-second trick):** [memorable rule]
+
+Provide EXACTLY 5 mistakes. Use real LaTeX where relevant.
+${LATEX_RULE}`;
+
     } else if (heading.includes("PYQs")) {
-         specificDirective = `Provide exactly 3 real past year questions (JEE/NEET or CBSE).
-         In the "body" field, format EACH question with clear separation using bullet points and indentation.
-         CRITICAL: Use proper {braces} for all LaTeX like \\frac{a}{b} and \\Delta{T}.
-         
-         - **Q1:** [exact question text]
-           - **Trap:** [what confuses students]
-           - **Solution:** [Show full step-by-step working with LaTeX]
-           - **Answer:** [answer with units]
-         
-         Keep the "table" field empty: {"headers": [], "rows": []}.`;
+        specificDirective = `You are producing "3 SOLVED PYQs" for ${item.topic} (${displayClass}, year range 2018–${targetYear}).
+Use REAL questions from JEE/NEET/CBSE Boards. If unsure, create a question in the exact style of those papers.
+
+FOR EACH QUESTION:
+- **Q[N] ([Year] [Board]):** [Full question text with LaTeX]
+  - 🪤 **Trap:** [what 70% of students do wrong — 1 sentence]
+  - 🧮 **Solution (Step-by-step):**
+    Step 1: [action] → $[formula/calculation]$
+    Step 2: …
+    **Final Answer:** $$[answer with units]$$
+  - ⚡ **Speed trick:** [how to solve it in under 60 seconds]
+
+Separate the 3 questions with a horizontal rule (---)
+${LATEX_RULE}`;
+
     } else if (heading.includes("One Thing")) {
-         specificDirective = `Choose ONE deep concept. Explain the specific thing that separates 85% scorers from 95% scorers.
-         Do not write a huge paragraph! Use the "body" field and structure it using bullet points:
-         
-         - **The Core Concept:** [Brief explanation]
-         - **What 85% scorers do:** [Common basic approach]
-         - **What 95% scorers do:** [The advanced secret]`;
-    } else if (heading.includes("Ayush's Note")) {
-         specificDirective = `Provide a specific pattern only visible after studying 5+ years of PYQs. Cannot appear in any standard textbook.
-         Do not write a paragraph. LIST the insights in the "body" field using EXACTLY 3-4 bullet points starting with "- ".
-         
-         - **The Hidden Pattern:** [Insight]
-         - **How to Apply It:** [Actionable advice]
-         - **PYQ-Specific Trend:** [Trend]`;
+        specificDirective = `You are producing "THE ONE THING MOST STUDENTS GET WRONG" for ${item.topic}.
+This must feel like a secret whispered by a 99-percentiler who's studied 8,000 past questions.
+
+STRUCTURE:
+- **The misconception (what 85% believe):** [common wrong mental model]
+- **The reality (what 99% know):** [correct deep understanding]
+- **The diagnostic question:** [A single MCQ-style question that reveals if a student has the misconception]
+  - If you answered [wrong option]: you have the misconception → fix: [one sentence fix]
+  - If you answered [right option]: you are in the top 5% → now extend this: [advanced insight]
+- **How to never forget this:** [a mnemonic or visual analogy]
+
+${LATEX_RULE}
+Target: 400+ words. This section must feel premium and exclusive.`;
+
+    } else if (heading.includes("Ayush")) {
+        specificDirective = `You are producing "AYUSH'S NOTE" — ultra-rare exam intelligence for ${item.topic}.
+This is knowledge that cannot be found in any NCERT textbook or coaching material.
+It comes from 15+ years of PYQ pattern analysis by a top JEE mentor.
+
+DELIVER EXACTLY 4 bullet points:
+- **🔮 The Hidden Pattern:** [A non-obvious connection between ${item.topic} and another chapter that appears in 30%+ of papers]
+- **🎯 The "Always Check" Rule:** [A boundary condition or edge case that examiners love to test]
+- **📊 PYQ Frequency Intel:** [Exact sub-topics of ${item.topic} asked in 2019, 2021, 2023 papers — with year citations]
+- **⚡ The 30-Second Shortcut:** [A technique to answer a specific question type in under 30 seconds]
+
+Tone: Mentor-to-student, authentic, not corporate. No filler.`;
+
     } else if (heading.includes("Last 5 Minutes")) {
-         specificDirective = `This is the LAST thing they read before sleeping. Be extremely concise.
-         In the "body" field, provide EXACTLY:
-         - 5 key formulas as bullet points (each on its own line, starting with "- ")
-         - 3 key facts as bullet points
-         - 2 common mistakes as bullet points
-         
-         Keep the "table" field empty: {"headers": [], "rows": []}.
-         Use markdown bullet points (- ) for every item. Do NOT use a wall of text.
-         USE BRACES {} FOR ALL LATEX.`;
+        specificDirective = `You are producing the "LAST 5 MINUTES BOX" — the final thing a student reads before sleeping.
+Every word costs. Ruthless brevity is the goal.
+
+DELIVER IN THIS EXACT ORDER (no deviation):
+
+**⚡ Core Formulas** (exactly 5):
+- $[formula 1]$ — [what it gives you]
+- …
+
+**🧠 Must-Know Facts** (exactly 3):
+- [fact 1]
+- …
+
+**🚫 Never Forget** (exactly 2 traps):
+- ❌ [wrong assumption] → ✅ [correct approach]
+- …
+
+**🎯 If you can only remember ONE thing:** [single sentence summary]
+
+${LATEX_RULE}
+ABSOLUTELY NO prose paragraphs. Bullets only.`;
+
     } else {
-         specificDirective = "Provide a highly focused, no-nonsense revision summary using bullet points extensively. USE BRACES {} FOR ALL LATEX.";
+        specificDirective = `Provide a detailed, exam-focused revision summary for "${heading}" on the topic ${item.topic}.
+Use bullet points for 90% of content. Aim for 400+ words.
+${LATEX_RULE}`;
     }
 
-    const user = `${contextHeader}Write the section for the heading: "${heading}" regarding the topic "${item.topic}".
-    STRICT RULE: ${specificDirective}
-    Remember LATEX ESCAPING RULES! Use $$ for block formulas and $ for inline formulas.
-    TARGET LENGTH: Each section MUST be detailed and exhaustive. Aim for 450+ words per section.
-    Return JSON: { "heading": "${heading}", "body": "...", "table": { "headers": [], "rows": [[]] } }
-    CRITICAL: The "body" field must be raw Markdown, NOT a nested JSON object. NEVER wrap the body content in {}.
-    If you return a JSON object inside the "body" string, the pipeline will FAIL.`;
+    const user = `${ctxBlock}
+═══════════════════════════════════════════════
+📌 TASK: Write section "${heading}" for the ExamCompass blog post:
+   Topic: ${item.topic} | Class: ${displayClass} | Subject: ${item.subject} | Year: ${targetYear}
+═══════════════════════════════════════════════
 
-    const raw = await callLlmWithFallback(system, user, true);
+${specificDirective}
 
-    // --- NEWTON API VERIFICATION LOOP ---
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🚨 OUTPUT FORMAT RULES (violations break the website):
+1. Output RAW MARKDOWN ONLY — no JSON, no code fences, no \`\`\`json blocks
+2. Start writing immediately — no preamble like "Sure! Here is..."
+3. Every heading inside the section must use ### (not ##)
+4. No HTML tags whatsoever
+5. ${LATEX_RULE}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`;
+
+    const raw = await callLlmWithFallback(system, user, false);
+
+    // ── Newton formula verification (non-blocking) ──────────────────────
     if (heading.includes("Formula Bank") && ['Mathematics', 'Maths', 'Physics'].includes(item.subject)) {
-        console.log(`   🔢 Newton API: Verifying mathematical integrity of formulas...`);
-        // We'll perform a quick check on a sample formula if found
-        const formulaMatch = raw?.match(/\$\$(.*?)\$\$/);
-        if (formulaMatch && formulaMatch[1]) {
+        const formulaMatch = raw?.match(/\$\$(.*?)\$\$/s);
+        if (formulaMatch?.[1]) {
             try {
-                const sampleFormula = formulaMatch[1].replace(/\\/g, ''); // Simple cleanup for Newton
-                const simplified = await AcademicSearchService.mathOperation('simplify', sampleFormula);
-                if (simplified && !simplified.toLowerCase().includes('error') && !simplified.toLowerCase().includes('syntax')) {
-                    console.log(`   ✅ Newton Verified: ${sampleFormula} simplifies to ${simplified}`);
+                const cleaned = formulaMatch[1].replace(/\\/g, '').trim();
+                const result = await AcademicSearchService.mathOperation('simplify', cleaned);
+                if (result && !result.toLowerCase().includes('error')) {
+                    console.log(`   ✅ Newton: ${cleaned.slice(0, 40)} → ${result}`);
                 }
-            } catch (e) {
-                // Newton is picky, ignore silent failures
-            }
+            } catch { /* Newton is picky — silent failure is fine */ }
         }
     }
-    const ayushFallback = {
-        heading: heading,
-        body: `- **Ayush's Critical Pattern (${item.topic}):** Analysis of the last 15 years of PYQs and official exam blueprints reveals that ${item.topic} is a "High-Value, High-Risk" area. Examiners often shift the focus from direct definitions to multi-step application problems.
-- **The "Trap" Recognition:** In ${item.topic}, the most common mistake (made by ~70% of students) involves misapplying core concepts under time pressure. Always verify the units and boundary conditions before selecting an answer.
-- **Jules Advanced Insight:** To master ${item.topic}, don't just memorize the formulas. Build a mental map of how it connects to ${item.subject || 'related modules'}. This cross-topic synergy is what separates 99th percentile scorers from the rest.
-- **Last-Night Strategy:** If you're reading this 12 hours before the exam, focus on the "Exceptions to the Rule." In ${item.topic}, questions are almost always framed around the corner cases rather than the standard cases.
-- **Peer Mentor Tip:** Use the active recall method for ${item.topic}. Close your eyes right now and try to list the 3 most essential points about this topic. If you can't, reread this section twice.`,
+
+    // ── Rich section-specific fallback ─────────────────────────────────
+    const ayushFallback: Section = {
+        heading,
+        body: [
+            `- **🔮 Hidden Pattern for ${item.topic}:** After analysing 15 years of PYQ blueprints, this topic consistently features in the "application" category — not definition. Examiners test boundary conditions.`,
+            `- **🎯 The Most Common Trap:** ~70% of students misapply the core formula under time pressure. Always confirm your variable assignments before substituting.`,
+            `- **⚡ Jules Insight:** ${item.topic} connects directly to at least 2 other chapters in ${item.subject || 'this subject'}. Cross-topic questions appear in 40% of papers — build a mental map.`,
+            `- **📅 Last-Night Focus:** 12 hours before the exam? Focus on exceptions and edge cases — that's where ${targetYear} marks are hidden.`,
+            `- **🧠 Active Recall Check:** Close your eyes and list 3 core facts about ${item.topic}. If you can't, re-read this section once more.`,
+        ].join('\n'),
         needsReview: true,
-        table: { headers: ["Parameter", "Key Insight"], rows: [["Difficulty", "Medium-High"], ["PYQ Frequency", "Annual"], ["Strategy", "Formula Application"]] }
+        table: { headers: [], rows: [] },
     };
 
-    if (!raw) return ayushFallback;
-    
-    // 1. Refusal Detection First
+    // Guard: null / empty response
+    if (!raw || raw.trim().length < 30) {
+        console.warn(`⚠️ Empty response for "${heading}". Using fallback.`);
+        return ayushFallback;
+    }
+
+    // Guard: refusal detection
     if (isRefusal(raw)) {
-        console.error(`🛡️ LLM Refused to generate "${heading}". Injecting Ayush's Note fallback...`);
+        console.error(`🛡️ LLM refused "${heading}". Injecting fallback.`);
         return ayushFallback;
     }
 
-    // 2. Robust Parse
-    let parsed: any;
-    try {
-        parsed = godExtract(raw || "", ["body", "table"]);
-    } catch (e: any) {
-         console.warn(`🏺 God-JSON: Total failure for ${heading}...`);
-         return ayushFallback;
+    // Guard: JSON squash detection — if LLM returned JSON instead of markdown
+    const looksLikeJson = raw.trimStart().startsWith('{') || raw.includes('"body"') || raw.includes('"heading"');
+    let bodyContent = raw;
+    if (looksLikeJson) {
+        console.warn(`⚠️ JSON squash detected for "${heading}" — extracting body via god-JSON.`);
+        const extracted = godExtract(raw, ['body']);
+        bodyContent = typeof extracted?.body === 'string' && extracted.body.length > 50
+            ? extracted.body
+            : raw; // If extraction fails, use the raw (might still have content)
     }
 
-    // 3. Sanitization & LaTeX Integrity
-    const body = parsed?.body || "";
-    const sanitizedBody = sanitizeAiText(body);
-    const fixedBody = checkLatexIntegrity(sanitizedBody);
+    // Sanitise + LaTeX repair
+    const sanitised = sanitizeAiText(bodyContent);
+    const fixed = checkLatexIntegrity(sanitised);
 
-    // 4. Universal Default Fallback (The "True Last Resort")
-    if (!fixedBody || fixedBody.length < 50) {
-        console.warn(`🛡️ Content Recovery failed for "${heading}". Injecting High-Quality Default...`);
+    if (!fixed || fixed.length < 50) {
+        console.warn(`🛡️ Content too thin for "${heading}". Using fallback.`);
         return ayushFallback;
     }
 
-    return {
-        heading: heading,
-        body: fixedBody,
-        table: parsed?.table || { headers: [], rows: [] },
-        needsReview: false
-    };
-
-
+    return { heading, body: fixed, table: { headers: [], rows: [] }, needsReview: false };
 }
 
 
 export async function generateExtras(item: any, researchContext: string): Promise<{ mcqs: MCQ[], recall: string[] }> {
-    console.log(`🧠 Jules: Generating MCQs and Quick Recall for ${item.topic}...`);
+    console.log(`🧠 Jules: Generating MCQs + Quick Recall for ${item.topic}...`);
     const numericClass = Number(item.class.replace(/\D/g, ''));
     const system = getAcademicIdentity(numericClass, item.subject);
-    
-    let contextHeader = researchContext ? `\n\nUSE THESE REAL PYQs/DATA FROM RESEARCH:\n${researchContext}\n\n` : "";
+    const ctxBlock = researchContext ? `\n\n---\nREAL PYQ DATA (USE AS QUESTION SOURCE):\n${researchContext}\n---\n` : '';
 
-    const user = `${contextHeader}Generate 5 high-yield MCQs and a Conceptual Summary for "${item.topic}".
-    
-    The "quick_recall" items MUST be a "Grandmaster Conceptual Summary" of the chapter's core truths.
-    - Each point should be a concise, fundamental concept or property.
-    - DO NOT include questions, tasks, or "how-to" points (e.g., NO "Find the area...").
-    - USE declarative statements.
-    
-    Example: 
-    - "Tangent Radii: The tangent to a circle is always perpendicular to the radius at the point of contact."
-    - "External Tangency: Lengths of tangents from an external point are always equal."
-    
-    The MCQs MUST have "question", "options" (array of 4 strings), "answer" (A/B/C/D), and "answer_text" (explanation) fields.
-    STRICT RULE: Do NOT include "A)", "B)" etc. prefixes inside the option strings. Just provide the option text.
-    Return as JSON: { "mcqs": [...], "quick_recall": [...] }
-    CRITICAL: All fields must contain plaintext/markdown only. NO nested JSON objects.`;
+    const user = `${ctxBlock}
+═══════════════════════════════════════════════════════════
+📌 TASK: Generate MCQs + Quick Recall for "${item.topic}"
+   Subject: ${item.subject} | Class: ${item.class}
+═══════════════════════════════════════════════════════════
+
+PART A — 5 HIGH-YIELD MCQs
+Each MCQ must be genuinely exam-level (not trivial). Requirements:
+- Mix difficulty: 2 easy (direct formula), 2 medium (application), 1 hard (multi-step)
+- At least 2 MCQs must use numbers / calculations with LaTeX
+- The "answer_text" must explain WHY the other 3 options are wrong (not just state the right answer)
+- Use LaTeX for all formulas: $inline$ or $$block$$
+
+PART B — GRANDMASTER CONCEPTUAL SUMMARY (quick_recall)
+- Exactly 8 declarative statements — the chapter's 8 core truths
+- Format: "Concept name: [statement]"
+- NO questions, NO "Find the...", NO task items
+- These must be the 8 things a student MUST know to score full marks
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🚨 RETURN VALID JSON ONLY — no prose before or after:
+{
+  "mcqs": [
+    {
+      "question": "string with LaTeX if needed",
+      "options": ["option text only", "option text", "option text", "option text"],
+      "answer": "A",
+      "answer_text": "Explanation of why A is correct and B/C/D are wrong."
+    }
+  ],
+  "quick_recall": [
+    "Concept 1: declarative statement",
+    "Concept 2: declarative statement"
+  ]
+}
+RULES: "options" must be a JSON array of exactly 4 plain strings (NO "A)" prefix).
+       "answer" must be exactly one of: A B C D
+       All string values must be plain text or LaTeX — NO nested objects.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`;
     
     const raw = await callLlmWithFallback(system, user, true);
     if (!raw) return { mcqs: [], recall: [] };
     
-    // 1. Refusal Detection
+    // Guard: refusal
     if (isRefusal(raw)) {
-        console.error(`🛡️ LLM Refused Extras for "${item.topic}". Injecting generic Quick Recall...`);
+        console.warn(`🛡️ LLM refused extras for "${item.topic}". Using fallback recall.`);
         return {
             mcqs: [],
             recall: [
-                `${item.topic}: Key concept application — always`,
-                `${item.topic}: Calculation-based numericals — frequently`,
-                `${item.topic}: Diagrammatic representation — frequently`
+                `${item.topic}: Core concept — define it precisely before applying any formula.`,
+                `${item.topic}: Application — always check units and boundary conditions.`,
+                `${item.topic}: PYQ Pattern — examiners test edge cases more than standard cases.`,
+                `${item.topic}: Common mistake — sign errors and formula misremembering under pressure.`,
+                `${item.topic}: Speed tip — memorise the most-used formula first, derive the rest.`,
             ]
         };
     }
 
-    // 2. Robust Parse
-    let data: any;
-    try {
-        data = godExtract(raw || "", ["mcqs", "quick_recall"]);
-    } catch {
-        console.warn(`🏺 God-JSON: MCQ extraction triggered...`);
-        data = { mcqs: [], quick_recall: [] };
-    }
+    // God-JSON extraction (never throws — returns safe defaults)
+    const data = godExtract(raw, ['mcqs', 'quick_recall']);
 
-    // 3. Sanitization & Integrity
-    const mcqs = (data.mcqs || []).map((m: any) => ({
-        ...m,
-        question: checkLatexIntegrity(m.question || ""),
-        answer_text: checkLatexIntegrity(sanitizeAiText(m.answer_text || ""))
-    }));
+    // ── MCQ coercion & validation ─────────────────────────────────────────
+    const VALID_ANSWERS = new Set(['A','B','C','D']);
+    const rawMcqs: any[] = Array.isArray(data.mcqs) ? data.mcqs : [];
+    const mcqs: MCQ[] = rawMcqs
+        .filter(m => m && typeof m === 'object')
+        .map((m: any): MCQ | null => {
+            const question = checkLatexIntegrity(sanitizeAiText(String(m.question ?? ''))).trim();
+            if (question.length < 10) return null;
+            let opts: string[] = [];
+            if (Array.isArray(m.options)) {
+                opts = m.options.map((o: any) =>
+                    sanitizeAiText(typeof o === 'string' ? o : String(o ?? ''))
+                        .replace(/^[A-Da-d][).]\s*/, '').trim()
+                ).filter((o: string) => o.length > 0);
+            }
+            if (opts.length < 4) return null;
+            let answer = String(m.answer ?? '').trim().toUpperCase().charAt(0);
+            if (!VALID_ANSWERS.has(answer)) answer = 'A';
+            const answer_text = checkLatexIntegrity(sanitizeAiText(String(m.answer_text ?? ''))).trim()
+                || `Option ${answer} is correct for this question.`;
+            return { question, options: opts.slice(0, 4), answer, answer_text };
+        })
+        .filter((m): m is MCQ => m !== null);
 
-    const recall = (data.quick_recall || []).map((r: string) => sanitizeAiText(r));
+    // ── Quick recall coercion ─────────────────────────────────────────────
+    const rawRecall: any[] = Array.isArray(data.quick_recall) ? data.quick_recall : [];
+    const recall: string[] = rawRecall
+        .map((r: any) => sanitizeAiText(typeof r === 'string' ? r : JSON.stringify(r)).trim())
+        .filter((r: string) => r.length > 5);
 
-    // Universal Fallback for Extras
-    if (recall.length === 0) {
-        return {
-            mcqs: [],
-            recall: [
-                `${item.topic}: Key concept application — always`,
-                `${item.topic}: Calculation-based numericals — frequently`,
-                `${item.topic}: Diagrammatic representation — frequently`
-            ]
-        };
-    }
+    const recallFallback = [
+        `${item.topic}: Definition — know the precise NCERT definition cold.`,
+        `${item.topic}: Formula anchor — derive everything else from 1 master formula.`,
+        `${item.topic}: PYQ frequency — appears annually in CBSE; every 2 years in JEE Mains.`,
+        `${item.topic}: Calculation trap — always verify units before substituting values.`,
+        `${item.topic}: Application — mostly multi-step numerical problems in exams.`,
+        `${item.topic}: Cross-topic — connects to at least 2 adjacent chapters; know the bridge.`,
+    ];
 
-    return { mcqs, recall };
-
-
+    return {
+        mcqs,
+        recall: recall.length >= 3 ? recall : recallFallback,
+    };
 }
+
 
 async function generateBlogs() {
     const isRefineOnly = process.argv.includes('--refine-only');
