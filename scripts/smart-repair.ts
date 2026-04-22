@@ -884,7 +884,7 @@ async function main() {
 
     const isDryRun = process.argv.includes('--dry-run');
     const limitArg = process.argv.find(a => a.startsWith('--limit='));
-    const repairLimit = limitArg ? parseInt(limitArg.split('=')[1]) : 6;
+    const repairLimit = limitArg ? parseInt(limitArg.split('=')[1]) : 50;
     
     if (isDryRun) console.log('🧪 DRY RUN MODE — No files will be modified.\n');
     console.log(`🔒 Active Repair Limit: ${repairLimit} blogs per run (to protect API quota).\n`);
@@ -918,9 +918,9 @@ async function main() {
         const regenReason = regenQueue[slug];
         
         const canUseAi = aiRepairsPerformed < repairLimit;
-        // Grammar audit is also capped to repairLimit blogs (same as AI), preventing
-        // 178 LanguageTool API calls/day. Only blogs being actively repaired get audited.
-        const canUseGrammar = canUseAi;
+        // Grammar audit now runs on ALL blogs — it's free (LanguageTool API) and
+        // the new v2.0 auditor handles chunking + LaTeX protection automatically.
+        const canUseGrammar = true;
         
         const result = await repairBlog(path.join(BLOG_DIR, file), isDryRun, canUseAi, canUseGrammar, regenReason);
         
