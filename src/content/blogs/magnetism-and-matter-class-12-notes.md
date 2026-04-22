@@ -78,7 +78,7 @@ Magnetism and Matter is a fundamental concept and physics that describes the int
 
 The concept of magnetism is closely related to the concept of electricity, n it is essential to understand the relationship between electric currents and magnetic fields. The $B$ field, or magnetic field, is a vector field that describes the magnetic influence on moving electric charges and currents. The SI unit of the magnetic field is the tesla ($T$), n it is defined as $1 T = 1 kg/s^2A$.
 
-Magnetic materials can be classified into three main categories: diamagnetic, paramagnetic, n ferromagnetic materials. Diamagnetic materials are weakly repelled y magnetic fields, while paramagnetic materials are weakly attracted. Ferromagnetic materials, on the other hand, are strongly attracted to magnetic fields and can retain their magnetic properties even after the external field is removed. The following table summarizes the properties of these materials:
+[magnetic](/blog/magnetic-effects-of-current-class-12-notes) materials can be classified into three main categories: diamagnetic, paramagnetic, n ferromagnetic materials. Diamagnetic materials are weakly repelled y [magnetic](/blog/magnetic-effects-of-current-class-12-notes) fields, while paramagnetic materials are weakly attracted. Ferromagnetic materials, on the other hand, are strongly attracted to [magnetic](/blog/magnetic-effects-of-current-class-12-notes) fields and can retain their [magnetic](/blog/magnetic-effects-of-current-class-12-notes) properties even after the external field is removed. The following table summarizes the properties of these materials:
 
 | Material Type | Magnetic Behavior | Examples |
 | --- | --- | --- |
@@ -202,9 +202,9 @@ What are the Applications of Magnetism and Daily Life? is the practical usage of
 
  Magnetism has numerous applications and daily life, ranging from simple **refrigerator magnets** to complex **medical imaging devices**. One of the most significant applications of magnetism is and the generation and transmission of **electricity**. Electric motors, which are used and a wide range of devices, from **fans** n **pumps** to **power tools** n **industrial machinery**, rely on the principles of magnetism to convert electrical energy into mechanical energy.
 
- Another crucial application of magnetism is n **data storage devices**, such as **hard disk drives** n **magnetic strips** on credit cards. These devices use magnetic materials to store data, which can be read and written using magnetic fields. Additionally, magnetism plays a vital role n **transportation systems**, including **magnetic levitation trains** n **magnetic braking systems**.
+ Another crucial application of magnetism is n **[data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) storage devices**, such as **hard disk drives** n **magnetic strips** on credit cards. These devices use magnetic materials to store [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards), which can be read and written using magnetic fields. Additionally, magnetism plays a vital role n **transportation systems**, including **magnetic levitation trains** n **magnetic braking systems**.
 
- In the field of **medicine**, magnetism is used n **MRI machines** to create detailed images of the body. These machines use strong magnetic fields and radio waves to generate images of the internal structures of the body, allowing doctors to diagnose and treat a wide range of medical conditions.
+ In the field of **medicine**, magnetism is used n **MRI machines** to create detailed images of the body. These machines use strong magnetic fields and radio [waves](/blog/electromagnetic-waves-class-12-notes) to generate images of the internal structures of the body, allowing doctors to diagnose and treat a wide range of medical conditions.
 
  The following table compares the different applications of magnetism and daily life:
 

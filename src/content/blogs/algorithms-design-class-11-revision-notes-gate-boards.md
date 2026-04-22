@@ -166,7 +166,7 @@ Recursive Algorithms is a programming technique where a function calls itself an
    
    To illustrate this, consider the example of the merge sort algorithm, which is a recursive algorithm that sorts an array of elements y dividing it into two halves, sorting each half, n then merging the two sorted halves. The time complexity of the merge sort algorithm can be analyzed using the master theorem, n it can be shown that the time complexity is $O(n \log n)$. 
    
-   In addition to the master theorem, there are other techniques for analyzing the time complexity of recursive algorithms, such as the recursion tree method and the substitution method. The recursion tree method involves constructing a tree that represents the recursive calls, n then analyzing the time complexity of each node and the tree. The substitution method involves substituting the recursive call with a closed-form expression, n then analyzing the time complexity of the resulting expression. 
+   In addition to the master theorem, there are other techniques for analyzing the time complexity of recursive [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards), such as the recursion tree method and the substitution method. The recursion tree method involves constructing a tree that represents the recursive calls, n then analyzing the time complexity of each node and the tree. The substitution method involves substituting the recursive call with a closed-form expression, n then analyzing the time complexity of the resulting expression. 
    
    Recursive algorithms have many applications and computer science, including sorting, searching, n graph algorithms. They are also used and many real-world applications, such as compiler design, operating systems, n artificial intelligence. 
    
@@ -313,7 +313,7 @@ How do you evaluate the Trade-offs between Algorithmic Approaches? is a critical
    
    One key component of evaluating trade-offs is understanding the $O$ notation, which is used to describe the time and space complexity of algorithms. The $O$ notation gives an upper bound on the number of steps an algorithm takes, relative to the size of the input. For example, an algorithm with a time complexity of $O(n)$ will take twice as long to complete if the size of the input is doubled. 
    
-   Another important aspect is understanding the trade-offs between different data structures, such as arrays, linked lists, stacks, n queues. Each data structure has its own strengths and weaknesses, n choosing the right one can greatly impact the efficiency of an algorithm. 
+   Another important aspect is understanding the trade-offs between different [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures, such as arrays, linked lists, stacks, n queues. Each [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structure has its own strengths and weaknesses, n choosing the right one can greatly impact the efficiency of an algorithm. 
    
    When evaluating trade-offs, it's also important to consider the scalability of an algorithm. An algorithm that is efficient for small inputs may become impractically slow for large inputs. This is where techniques such as divide and conquer, dynamic programming, n greedy algorithms come into play. 
    

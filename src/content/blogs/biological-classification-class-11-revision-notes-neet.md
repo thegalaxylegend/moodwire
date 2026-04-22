@@ -67,7 +67,7 @@ I still remember when I was preparing for my MEET exam, I used to get confused b
 $\text{Kingdom} = \text{highest level of classification}$
 
 ### <a id="phylum"></a>Phylum
-Phylum is the level of classification below the kingdom. It is a group of related classes. 
+Phylum is the level of classification below the [kingdom](/blog/animal-kingdom-class-11-revision-notes-neet). It is a group of related classes. 
 $\text{Phylum}$ = $\text{group of related classes}$
 
 ### <a id="class"></a>Class
@@ -123,7 +123,7 @@ D) Family
 Answer: A) Phylum
 Difficulty: Easy
 3. What is the level of classification below the phylum?
-A) Class
+A) [class](/blog/plant-growth-and-development-class-11-revision-notes-neet)
 B) Order
 C) Family
 D) Genus

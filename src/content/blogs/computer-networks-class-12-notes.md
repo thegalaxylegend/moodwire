@@ -9,7 +9,7 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- $TCP/IPA model has $4$ layers: $\text{Application}$, $\text{Transport}$, $\text{Internet}$, $\text{Network Access}$
+- $TCP/IPA model has $4$ layers: \text{Application}, \text{Transport}, \text{Internet}, \text{Network Access}
 - OSI model has $7$ layers: $\text{Physical}$, $\text{Data Link}$, $\text{Network}$, $\text{Transport}$, $\text{Session}$, $\text{Presentation}$, $\text{Application}$
 - $\text{IP Address}$ is a $32$-bit address in $IPv4$ and $128$-bit address in $IPv6$
 - $\text{Subnet Mask}$ is used to determine the scope of the $\text{IP Address}$
@@ -72,7 +72,7 @@ manualReview: false
 ## 📝 Practice MCQs
 **1. What is the primary function of the $\text{Network Layer}$?**
 -
-A) To provide reliable data transfer
+A) To provide reliable [data](/blog/data-handling-class-8-notes) transfer
 -
 B) To route $\text{Packets}$ between networks
 -
@@ -139,8 +139,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 *Content verified against peer-reviewed research:*
 
-1. *�Let the People Rap�: Cultural Rhetorics Pedagogy and Practices U...* — **Journal of Basic Writing** (2019) 🔓 — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.05)
-2. *Frustration and Hope: Examining Students� Emotional Responses to ...* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.03)
+1. *� Let the People Rap: Cultural Rhetorics Pedagogy and Practices U...* — **Journal of Basic Writing** (2019) 🔓 — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.05)
+2. *Frustration and Hope: Examining Students Emotional Responses to ...* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.03)
 3. *Editors' Column* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.01)
 
 *🔓 = Open Access article*
@@ -148,12 +148,11 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
-
 ---
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
 
 - 📖 [Compiler Design Class 12 Exam Prep Revision — Grandmaster Guide](/blog/compiler-design-class-12-notes)
 - 📖 [Areas Related To Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/areas-related-to-circles-class-10-notes)

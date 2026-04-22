@@ -23,7 +23,7 @@ manualReview: false
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not understanding the process of microsporogenesis and megasporogenesis, which are critical for the production of male and female gametes.
-- Failing to recognize the importance of pollination and fertilization in the process of sexual reproduction in flowering plants.
+- Failing to recognize the importance of pollination and fertilization in the process of sexual reproduction in [flowering](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) plants.
 - Not being able to distinguish between the male and female reproductive organs of the flower, which is essential for understanding the process of sexual reproduction.
 - Not knowing the role of the endosperm in the development of the embryo, which is critical for the formation of the seed.
 - Failing to understand the process of recombination during meiosis, which is essential for the formation of genetically distinct offspring.
@@ -129,7 +129,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

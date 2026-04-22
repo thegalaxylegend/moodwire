@@ -68,7 +68,7 @@ Electrostatics is the study of electric charges at rest, which involves the anal
 
  Electric Charge is a fundamental physical property of matter that causes it to experience a force when placed and an [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) field. It includes protons, electrons, n neutrons as key components. For Class 12 exam prep n 2026, the most important aspect is understanding the quantization of electric charge, which states that electric charge comes and discrete packets or quanta, n this concept is crucial for solving problems related to electrostatics.
 
- The concept of electric charge is based on the idea that like charges repel each other, while opposite charges attract. This phenomenon can be explained y the electric field, which is a vector field that surrounds charged particles and exerts a force on other charged particles. The electric field is a fundamental concept and understanding the behavior of charged particles and is essential for solving problems related to electrostatics.
+ The concept of [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) charge is based on the idea that like charges repel each other, while opposite charges attract. This phenomenon can be explained y the [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) field, which is a vector field that surrounds charged particles and exerts a force on other charged particles. The [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) field is a fundamental concept and understanding the behavior of charged particles and is essential for solving problems related to electrostatics.
 
  The quantization of electric charge can be expressed using the formula $q = ne$, where $q$ is the electric charge, $n$ is an integer, n $e$ is the elementary charge. The elementary charge is the smallest unit of electric charge and is equal to $1.602 	imes 10^{-19}$ Coulombs.
 
@@ -267,7 +267,7 @@ D W = q^2V
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/permutations-and-combinations-class-11-revision-notes-jee) with these related guides:
 
 - 📖 [Magnetic Effects of Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetic-effects-of-current-class-12-notes)
 - 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-n-combinations-class-11-revision-notes-jee)

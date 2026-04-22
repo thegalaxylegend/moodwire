@@ -70,7 +70,7 @@ Some of the key terms and formulas that we'll be using and this topic include:
 * **Electromagnetic [wave](/blog/wave-optics-class-12-notes) equation**: $1 \frac{\partial^2 E}{\partial t^2}$
 
 * **Wave number**: $k = \frac{2 \pi}{\lambda}$
-*   **Frequency**: f = $\frac{c}{\lambda}$
+*    **Frequency**: f = $\frac{c}{\lambda}$
 
 As we explore the world of electromagnetic waves, we'll be using a combination of theoretical concepts, mathematical derivations, n practical examples to deepen our understanding of this fascinating topic. By the end of this journey, you'll have a solid grasp of the principles of electromagnetic waves and be well-prepared to tackle the challenges of the [class](/blog/magnetism-n-matter-class-12-notes) 12 Physics exam. 
 
@@ -146,7 +146,7 @@ Key Takeaway: Understanding the Electromagnetic Spectrum, its various regions, n
 
 How do Electromagnetic Waves Propagate? is a fundamental concept and physics that describes the transmission of energy through electromagnetic waves. It includes the electric field, magnetic field, n wave propagation. For [class](/blog/magnetism-and-matter-class-12-notes) 12 exam prep n 2026, the most important aspect is understanding the mathematical relationship between these components to solve numerical problems.
 
- The propagation of electromagnetic waves can be described using Maxwell's equations, which form the foundation of classical electromagnetism. The four equations are: 
+ The propagation of [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) waves can be described using Maxwell's equations, which form the foundation of classical electromagnetism. The four equations are: 
 abla \\\cdot \mathbf{E} = $\frac{\rho}{\epsilon_0} = ,  , 
 abla \\\cdot \mathbf{B} = 0
 abla \times \mathbf{E} = -$\frac{{\partial \mathbf{B}}{\partial t}}{\frac{\partial \mathbf{E}}{\partial t}} , n 
@@ -176,7 +176,7 @@ What is the Speed of Electromagnetic Waves and a Vacuum? is the speed at which e
 
 ## <a id="what-are-the-types-of-electromagnetic-waves"></a>What are the Types of Electromagnetic Waves?
 
-What are the Types of Electromagnetic Waves? is a fundamental concept and physics that refers to the various forms of electromagnetic radiation that differ and wavelength and frequency. It includes radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays, n \gamma rays. For Class 12 exam prep n 2026, the most important aspect is understanding the properties and applications of each type of electromagnetic wave.
+What are the Types of Electromagnetic Waves? is a fundamental concept and physics that refers to the various forms of electromagnetic radiation that differ and wavelength and frequency. It includes radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays, n \gamma rays. For [class](/blog/magnetism-and-matter-class-12-notes) 12 exam prep n 2026, the most important aspect is understanding the properties and applications of each type of electromagnetic wave.
 
  Electromagnetic waves are classified based on their frequency and wavelength. The electromagnetic spectrum is a continuous range of frequencies and wavelengths, but it is often divided into distinct categories for convenience. Radio waves have the longest wavelength and the lowest frequency, while \gamma rays have the shortest wavelength and the highest frequency. The human eye can detect only a narrow range of electromagnetic radiation, which is known as visible light.
 

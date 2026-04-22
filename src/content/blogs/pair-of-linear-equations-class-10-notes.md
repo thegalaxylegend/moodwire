@@ -11,8 +11,8 @@ manualReview: false
 ## ⚡ Formula Bank
 - The general form of a linear equation is $ax + by + c = 0$, where $a$, $b$, and $c$ are constants.
 - To find the solution of a pair of linear [equations](/blog/quadratic-equations-class-10-notes), we can use the method of substitution or elimination.
-- The substitution method involves solving one equation for one variable and then substituting that expression into the other equation.
-- The elimination method involves adding or subtracting the two equations to eliminate one variable.
+- The substitution method involves solving one equation for one [variable](/blog/linear-equations-in-one-variable-class-8-notes) and then substituting that expression into the other equation.
+- The elimination method involves adding or subtracting the two [equations](/blog/quadratic-equations-class-10-notes) to eliminate one variable.
 - The equations $a_1x + b_1y + c_1 = 0$ and $a_2x + b_2y + c_2 = 0$ have a unique solution if $\frac{a_1}{a_2} 
 eq $\frac{b_1}{b_2}.
 - If $\frac{a_1}{a_2} = \frac{b_1}{b_2} = \frac{c_1}{c_2}$, then the equations have infinitely many solutions.
@@ -88,7 +88,7 @@ D) $x = 3$, $y = -2$
 -
 A) $x = 1$, $y = 1$
 -
-B) x = $\frac{23}{7}$, y = $\frac{1}{21}$
+B) x = \frac{23}{7}, y = \frac{1}{21}
 -
 C) $x = 2$, $y = -1$
 -
@@ -124,7 +124,7 @@ D) $x = 3$, $y = -2$
 -
 A) $x = 1$, $y = 1$
 -
-B) x = $\frac{23}{7}$, y = $\frac{1}{21}$
+B) x = \frac{23}{7}, y = \frac{1}{21}
 -
 C) $x = 2$, $y = -1$
 -
@@ -139,7 +139,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

@@ -11,16 +11,16 @@ manualReview: false
 ## ⚡ Formula Bank
 - The area under a curve by = f(x)$ between ex = a and ex = by is given by $\INT_{a}^{b} f(x) DX
 - The area of the region bounded by the curves by = f(x)$, by = g(x)$, ex = a, and ex = by is given by $\INT_{a}^{b} |f(x) - g(x)| DX
-- The volume of the solid formed by revolving the region under the curve by = f(x)$ between (suggestion limit reached) = (suggestion limit reached) and (suggestion limit reached) = (suggestion limit reached) about the (suggestion limit reached) is given by $\pi \(suggestion limit reached)_{a}^{b} (f(x))^2 (suggestion limit reached)
-- The volume of the solid formed by revolving the region under the curve (suggestion limit reached) = f(x)$ between (suggestion limit reached) = (suggestion limit reached) and (suggestion limit reached) = (suggestion limit reached) about the (suggestion limit reached) is given by $2\pi \(suggestion limit reached)_{a}^{b} x f(x) (suggestion limit reached)
-- The surface area of the solid formed by revolving the region under the curve (suggestion limit reached) = f(x)$ between (suggestion limit reached) = (suggestion limit reached) and (suggestion limit reached) = (suggestion limit reached) about the (suggestion limit reached) is given by $2\pi \(suggestion limit reached)_{a}^{b} f(x) \(suggestion limit reached){1 + \left(\(suggestion limit reached){dy}{dx}\right)^2} (suggestion limit reached)
+- The volume of the solid formed by revolving the region under the curve by = f(x)$ between  =  and  =  about the  is given by $\pi \_{a}^{b} (f(x))^2 
+- The volume of the solid formed by revolving the region under the curve  = f(x)$ between  =  and  =  about the  is given by $2\pi \_{a}^{b} x f(x) 
+- The surface area of the solid formed by revolving the region under the curve  = f(x)$ between  =  and  =  about the  is given by $2\pi \_{a}^{b} f(x) \{1 + \left(\{dy}{dx}\right)^2} 
 
 ## 
 - To find the area of a region bounded by two curves, first find the points of intersection of the two curves by setting them equal to each other and solving for ex
 - When finding the volume of a solid formed by revolving a region about an axis, make sure to use the correct formula for the volume of the solid
 - When finding the surface area of a solid formed by revolving a region about an axis, make sure to use the correct formula for the surface area of the solid
 - To evaluate a definite integral, first find the antiderivative of the function and then apply the Fundamental Theorem of Calculus
-- Use the substitution method to evaluate definite integrals when the integrand is a composite function
+- Use the substitution method to evaluate definite [integrals](/blog/integrals-class-12-notes) when the integrand is a composite function
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Forgetting to include the constant of integration when evaluating an indefinite integral
@@ -56,66 +56,44 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. Question:** Find the area of the region bounded by the curves by = $ and by = x^2$.
--
 A) $\franc{1}{6}$
--
 B) $\franc{1}{3}$
--
 C) $\franc{1}{2}$
--
 D) $\franc{2}{3}$
 
 **Answer:** B) $\franc{1}{3}$
 
 **2. Question:** Find the volume of the solid formed by revolving the region under the curve by = $ between ex = 0$ and ex = 2$ about the x-axis.
--
-A) $\franc{4\pi}{3}$
--
-B) $\franc{8\pi}{3}$
--
-C) $\franc{16\pi}{3}$
--
-D) $\franc{32\pi}{3}$
+A) \franc{4\pi}{3}
+B) \franc{8\pi}{3}
+C) \franc{16\pi}{3}
+D) \franc{32\pi}{3}
 
-**Answer:** B) $\franc{8\pi}{3}$
+**Answer:** B) \franc{8\pi}{3}
 
 **3. Question:** Find the surface area of the solid formed by revolving the region under the curve by = x^2$ between ex = 0$ and ex = 2$ about the x-axis.
--
-A) $\franc{4\pi}{3}$
--
-B) $\franc{8\pi}{3}$
--
-C) $\franc{16\pi}{3}$
--
-D) $\franc{32\pi}{3}$
+A) \franc{4\pi}{3}
+B) \franc{8\pi}{3}
+C) \franc{16\pi}{3}
+D) \franc{32\pi}{3}
 
-**Answer:** C) $\franc{16\pi}{3}$
+**Answer:** C) \franc{16\pi}{3}
 
 **4. Question:** Find the area of the region bounded by the curves by = $ and by = 2x$.
--
 A) $\franc{1}{2}$
--
 B) $\franc{2}{3}$
--
 C) $\franc{4}{3}$
--
 D) $\franc{8}{3}$
 
 **Answer:** A) $\franc{1}{2}$
 
 **5. Question:** Find the volume of the solid formed by revolving the region under the curve by = x^2$ between ex = 0$ and ex = 2$ about the y-axis.
--
-A) $\franc{4\pi}{3}$
--
-B) $\franc{8\pi}{3}$
--
-C) $\franc{16\pi}{3}$
--
-D) $\franc{32\pi}{3}$
+A) \franc{4\pi}{3}
+B) \franc{8\pi}{3}
+C) \franc{16\pi}{3}
+D) \franc{32\pi}{3}
 
-**Answer:** B) $\franc{8\pi}{3}$
-
----
+**Answer:** B) \franc{8\pi}{3}
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/application-of-integrals-class-12-notes) now and track your progress against thousands of students.
@@ -124,21 +102,17 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 *Content verified against peer-reviewed research:*
 
-1. *�Let the People Rap�: Cultural Rhetorics Pedagogy and Practices U...* — **Journal of Basic Writing** (2019) 🔓 — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.05)
-2. *Frustration and Hope: Examining Students� Emotional Responses to ...* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.03)
+1. *� Let the People Rap: Cultural Rhetorics Pedagogy and Practices U...* — **Journal of Basic Writing** (2019) 🔓 — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.05)
+2. *Frustration and Hope: Examining Students Emotional Responses to ...* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.03)
 3. *Editors' Column* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.01)
 
 *🔓 = Open Access article*
 
----
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
 
 - 📖 [Compiler Design Class 12 Exam Prep Revision — Grandmaster Guide](/blog/compiler-design-class-12-notes)
 - 📖 [Computer Networks Class 12 Exam Prep Revision — Grandmaster Guide](/blog/computer-networks-class-12-notes)

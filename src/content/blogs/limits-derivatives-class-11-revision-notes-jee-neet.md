@@ -74,9 +74,9 @@ If limₓ→ₐ f(x) n limₓ→ₐ g(x) exist:
 ### <a id="standard-formulas"></a>Standard Formulas:
 *   **Polynomial:** limₓ→ₐ (xⁿ - aⁿ) / (x - a) = naⁿ⁻¹
 *   **Trigonometric:** 
-    -   \sin x) / x = 1 
-    -   1 - \cos x) / x = 0 
-    -   \tan x) / x = 1 
+    -    x) / x = 1 
+    -    \cos x) / x = 0 
+    -    x) / x = 1 
 
 ### <a id="sandwich-theorem-squeeze-theorem"></a>Sandwich Theorem (Squeeze Theorem):
 If f(x) ≤ g(x) ≤ h(x) for all x and an interval, n limₓ→ₐ f(x) = limₓ→ₐ h(x) = L, then **limₓ→ₐ g(x) = L**.
@@ -96,8 +96,8 @@ This process of finding the derivative using the limit definition is called **Di
 1.  **Constant:** d/dx (c) = 0
 2.  **Power:** d/dx (xⁿ) = nxⁿ⁻¹
 3.  **Trigonometric:**
-    -   n x) = \cos x 
-    -   s x) = -\sin x 
+    -    = \cos x 
+    -    = -\sin x 
     -   n x) = sec² x 
 
 ---
@@ -115,14 +115,14 @@ This process of finding the derivative using the limit definition is called **Di
 - f(x+h) = (x+h)² + 2(x+h) + 1 = x² + 2xh + h² + 2x + 2h + 1
 - f(x+h) - f(x) = 2xh + h² + 2h
 - f'(x) = limₕ→₀ [h(2x + h + 2) / h] = limₕ→₀ [2x + h + 2]
--   **f'(x) = 2x + 2**. 
+-    **f'(x) = 2x + 2**. 
 
 **Q3: Differentiate y = x · \sin x using Product Rule.**
 **Answer:**
--   u = x, v = \sin x 
--   u' = 1, v' = \cos x 
--   y' = u'v + uv' = (1)(\sin x) + (x)(\cos x) 
--   **y' = \sin x + x \cos x**. 
+-    u = x, v = \sin x 
+-    u' = 1, v' = \cos x 
+-    y' = u'v + uv' = (1)(\sin x) + (x)(\cos x) 
+-    **y' = \sin x + x \cos x**. 
 
 ---
 

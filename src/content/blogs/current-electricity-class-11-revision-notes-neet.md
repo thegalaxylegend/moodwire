@@ -43,7 +43,7 @@ practice_link: "/class-11/biology/current-electricity-class-11-revision-notes-ne
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
 > - **Ohm's Law:** V = IR. R = (m/NE²τ) (L/A). Ρ = m/NE²τ.
 > - **Drift Velocity:** v’d = (EE/m) τ. I = nave’d.
-> - **Kirchhoff's Laws:** 
+> - **Kirchhoff's [laws](/blog/laws-of-motion-class-11-revision-notes-jee-neet):** 
 >   - KCL: Σ I = 0 (Charge conservation).
 >   - kV: Σ V = 0 (Energy conservation).
 > - **Wheatstone Bridge:** P/Q = R/S (Balance condition).

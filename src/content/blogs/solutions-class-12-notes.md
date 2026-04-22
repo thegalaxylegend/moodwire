@@ -13,8 +13,8 @@ manualReview: false
 - $\text{Molarity} = \frac{\text{Number of moles of solute}}{\text{Volume of solution in litres}}$
 - $\text{Molality} = \frac{\text{Number of moles of solute}}{\text{Mass of solvent in kg}}$
 - $\text{Normality} = \frac{\text{Number of gram equivalents of solute}}{\text{Volume of solution in litres}}$
--  $\frac{C_1 V_1}{n_1}$ = $\frac{C_2 V_2}{n_2}$
--  n = $\frac{W}{M}$
+-   $\frac{C_1 V_1}{n_1}$ = $\frac{C_2 V_2}{n_2}$
+-   n = $\frac{W}{M}$
 - $\text{Vapour pressure of solvent} = P^0 \times \frac{n_1}{n_1 + n_2}$
 - $\frac{\text{Vapour pressure of solvent}}{\text{Vapour pressure of solution}} = \frac{n_1 + n_2}{n_1}$
 - $\delta T_f = K_f \times m$
@@ -55,8 +55,8 @@ manualReview: false
 - Make sure to check the units of the given quantities and the required answer.
 - Use the correct formula for the given problem, and make sure to plug in the correct values.
 - Double-check the calculations and make sure to carry out the correct number of significant figures.
-- Make sure to understand the concept of mole fraction and its application in calculating vapour pressure of solutions.
-- Practice problems involving colligative properties and their applications to build a strong foundation in the topic.
+- Make sure to understand the concept of mole fraction and its [application](/blog/application-of-derivatives-class-12-notes) in calculating vapour pressure of solutions.
+- Practice problems involving colligative properties and their [applications](/blog/biotechnology-and-its-applications-class-12-notes) to build a strong foundation in the topic.
 
 ## 📝 Practice MCQs
 **1. What is the molarity of a solution containing 20g of sodium hydroxide in 500ml of water?**
@@ -128,7 +128,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

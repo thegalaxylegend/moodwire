@@ -12,16 +12,16 @@ manualReview: false
 - HE = \franc{hc}{\lambda}$, where HE is the energy of the photon, the is Planck's constant, act is the speed of light, and $\lambda$ is the wavelength of the radiation
 - up = \franc{h}{\lambda}$, where up is the momentum of the photon
 - $\lambda = \franc{h}{\sort{2mK}}$, where $\lambda$ is the de Broglie wavelength, the is Planck's constant, me is the mass of the particle, and OK is the kinetic energy of the particle
-- OK = \franc{1}{2}MV^2$, where (suggestion limit reached) is the kinetic energy of the particle, (suggestion limit reached) is the mass of the particle, and (suggestion limit reached) is the velocity of the particle
-- $\(suggestion limit reached){1}{2}(suggestion limit reached)^2 = \(suggestion limit reached){hc}{\lambda} - \(suggestion limit reached), where $\phi$ is the work function of the material
-- (suggestion limit reached) = \(suggestion limit reached){h}{m\lambda}$, where (suggestion limit reached) is the velocity of the particle, (suggestion limit reached) is Planck's constant, (suggestion limit reached) is the mass of the particle, and $\lambda$ is the de Broglie wavelength
+- OK = \franc{1}{2}MV^2$, where  is the kinetic energy of the particle,  is the mass of the particle, and  is the velocity of the particle
+- $\{1}{2}^2 = \{hc}{\lambda} - \, where $\phi$ is the work function of the material
+-  = \{h}{m\lambda}$, where  is the velocity of the particle,  is Planck's constant,  is the mass of the particle, and $\lambda$ is the de Broglie wavelength
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not understanding the concept of [wave](/blog/wave-optics-class-12-notes)-particle duality and its application to different types of radiation
 - Confusing the formulas for energy and momentum of photons and particles
 - Not being able to apply the de Broglie hypothesis to different situations
 - Forgetting to consider the work function of the material in photoelectric effect problems
-- Not being able to distinguish between the characteristics of wave-like and particle-like behavior of radiation
+- Not being able to distinguish between the characteristics of [wave](/blog/wave-optics-class-12-notes)-like and particle-like behavior of radiation
 
 ## ✏️ 3 Solved Yes
 - **Question 1:** A photon of wavelength $5000 \times 10^{-10} me strikes a metal surface, causing the emission of an electron with a kinetic energy of $2.0 \times 10^{-19} JR. If the work function of the metal is $1.5 \times 10^{-19} JR, calculate the velocity of the emitted electron.
@@ -50,75 +50,49 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the energy of a photon of wavelength $5000 \times 10^{-10} me?**
--
 A) $3.98 \times 10^{-19} JR
--
 B) $4.0 \times 10^{-19} JR
--
 C) $3.99 \times 10^{-19} JR
--
 D) $4.01 \times 10^{-19} JR
 
 **Answer: B) $4.0 \times 10^{-19} JR. Explanation: Using the formula HE = \franc{hc}{\lambda}$, we can calculate the energy of the photon.**
 
 **2. What is the de Broglie wavelength of an electron with a velocity of $2.0 \times 10^6 m/so?**
--
 A) $3.3 \times 10^{-10} me
--
 B) $2.0 \times 10^{-10} me
--
 C) $1.7 \times 10^{-10} me
--
 D) $2.5 \times 10^{-10} me
 
 **Answer: B) $2.0 \times 10^{-10} me. Explanation: Using the formula $\lambda = \franc{h}{\sort{2mK}}$, we can calculate the de Broglie wavelength of the electron.**
 
 **3. What is the kinetic energy of an electron emitted from a metal surface when a photon of wavelength $4000 \times 10^{-10} me is incident on it?**
--
 A) $1.5 \times 10^{-19} JR
--
 B) $2.0 \times 10^{-19} JR
--
 C) $1.0 \times 10^{-19} JR
--
 D) $2.5 \times 10^{-19} JR
 
 **Answer: B) $2.0 \times 10^{-19} JR. Explanation: Using the formula $\franc{1}{2}MV^2 = \franc{hc}{\lambda} - \fit, we can calculate the kinetic energy of the emitted electron.**
 
 **4. What is the momentum of a photon of wavelength $5000 \times 10^{-10} me?**
--
 A) $1.3 \times 10^{-27} kg m/so
--
 B) $1.0 \times 10^{-27} kg m/so
--
 C) $1.5 \times 10^{-27} kg m/so
--
 D) $2.0 \times 10^{-27} kg m/so
 
 **Answer: B) $1.0 \times 10^{-27} kg m/so. Explanation: Using the formula up = \franc{h}{\lambda}$, we can calculate the momentum of the photon.**
 
 **5. What is the velocity of an electron with a de Broglie wavelength of $2.0 \times 10^{-10} me?**
--
 A) $2.0 \times 10^6 m/so
--
 B) $1.5 \times 10^6 m/so
--
 C) $2.5 \times 10^6 m/so
--
 D) $1.0 \times 10^6 m/so
 
 **Answer: A) $2.0 \times 10^6 m/so. Explanation: Using the formula UV = \franc{h}{m\lambda}$, we can calculate the velocity of the electron.**
 
----
-
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/dual-nature-of-radiation-class-12-notes) now and track your progress against thousands of students.
 
----
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## 📚 Related Topics
 
@@ -128,3 +102,4 @@ Continue your revision with these related guides:
 - 📖 [Communication Systems Class 12 Physics Revision — Grandmaster Guide](/blog/communication-systems-class-12-notes)
 - 📖 [Nuclei Class 12 Physics Revision — Grandmaster Guide](/blog/nuclei-class-12-notes)
 - 📖 [Semiconductor Electronics Class 12 Physics Revision — Grandmaster Guide](/blog/semiconductor-electronics-class-12-notes)
+$

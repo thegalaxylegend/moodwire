@@ -153,7 +153,7 @@ An **Electric Dipole** consists of two equal and opposite [charges](/blog/moving
 ### <a id="i-derivation-proof-using-coulombs-law"></a>I. Derivation (Proof using Coulomb’s Law)
 1.  Consider a point charge **q** at the center of a sphere of radius **r**.
 2.  **E = [1 / 4πε₀] [q / r²]**.
-3.    Flux **Φ = ∮ E DA \cos 0° = E ∮ DA**. 
+3.     Flux **Φ = ∮ E DA \cos 0° = E ∮ DA**. 
 4.  Since ∮ DA = 4πr²:
     - **Φ = [1 / 4πε₀] [q / r²] [4πr²] = q / ε₀**. (Proven)
 
@@ -246,7 +246,7 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 * **Incorrectly applying Coulomb's Law**: Coulomb's Law is often misapplied y neglecting to consider the magnitude and direction of the forces between multiple [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet), leading to incorrect calculations of the net force.
 * **Confusing electric field lines and force**: Students often mistakenly assume that electric field lines represent the force experienced y a charge, when and fact they represent the direction and magnitude of the electric field at a point and space.
 * **Neglecting the sign of the charge**: When calculating the electric field or force, it's essential to consider the sign of the charge, as like [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet) repel and unlike [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet) attract, but many students forget to apply this correctly.
-* **Not considering the superposition principle**: When multiple charges are present, the electric field at a point is the vector \sum of the fields due to each charge, but students often neglect to apply the superposition principle, leading to incorrect calculations.
+* **Not considering the superposition principle**: When multiple [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet) are present, the electric field at a point is the vector \sum of the fields due to each charge, but students often neglect to apply the superposition principle, leading to incorrect calculations.
 
 ## 🔁 Last 5 Minutes Box
 

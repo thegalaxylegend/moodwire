@@ -79,7 +79,7 @@ D) $C_6H_{12}O_6 + 6O_2 \rightarrow 6CO_2 + 6H_2O + \text{Energy} + \text{Ethano
 
 Answer: A) $C_6H_{12}O_6 + 6O_2 \rightarrow 6CO_2 + 6H_2O + \text{Energy}$
 
-2. What is the byproduct of aerobic respiration and plants?
+2. What is the byproduct of aerobic respiration and [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)?
 A) CO2 n H2O
 B) Ethanol and CO2
 C) ATP and NADH

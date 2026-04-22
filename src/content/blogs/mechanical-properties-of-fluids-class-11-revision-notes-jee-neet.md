@@ -37,7 +37,7 @@ practice_link: "/class-11/physics/mechanical-properties-of-fluids-class-11-revis
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
 > - **Pascal's Law:** Pressure applied to an enclosed fluid is transmitted undiminished.
-> - **Bernoulli's Theorem:** P + ½ρv² + ρgh = Constant. (Conservation of energy).
+> - **Bernoulli's Theorem:** P + ½ρv² + ρgh = Constant. (Conservation of [energy](/blog/work-energy-and-power-class-11-revision-notes-neet)).
 > - **Equation of Continuity:** A1 v1 = A2 v2. (Conservation of mass).
 > - **Terminal Velocity:** v_t = 2r²(ρ - σ)g / 9η.
 > - **Surface Tension:** S = F/L. Excess pressure and drop = 2S/R; Bubble = 4S/R.

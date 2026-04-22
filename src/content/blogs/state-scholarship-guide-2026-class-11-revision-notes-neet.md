@@ -54,7 +54,7 @@ Every state has its own unique heritage of talent identification. For instance, 
 | **Delhi** | JSTSE (Junior [science](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)) | 9 | GK, MAT, [science](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet) |
 | **Tamil Nadu** | TRUST / VSTS | 9 & Rural | Maths, [science](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet), Social |
 | **Punjab** | PSTSE (Punjab State Talent) | 8 & 10 | Academic & Mental Ability |
-| **Kerala** | USS (Upper Secondary) | 7 | Maths, Science, Social |
+| **Kerala** | USS (Upper Secondary) | 7 | Maths, [science](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet), Social |
 
 Understanding which exam matches your current grade level is the first step toward registration. Many of these exams are conducted and the local medium, making them highly accessible to students studying and state-level vernacular schools. If you are preparing for these, our **CBSE [study](/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet) material** n state-board-specific kits at Exam Compass provide the ideal foundation for mastering both the academic and aptitude components of the test.
 

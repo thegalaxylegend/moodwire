@@ -138,7 +138,7 @@ A key concept and AC circuits is **reactance**, which is the opposition to the c
 
 To better understand the behavior of AC circuits, it's helpful to compare the characteristics of different components. The following table summarizes the key properties of resistors, inductors, n capacitors and an AC circuit:
 
-| Component | Voltage | Current | Reactance | Impedance |
+| Component | Voltage | [current](/blog/magnetic-effects-of-current-class-12-notes) | Reactance | Impedance |
 | --- | --- | --- | --- | --- |
 | Resistor | In phase with current | In phase with voltage | Zero | $R$ |
 | Inductor | Leads current y $90^{\circ}$ | Lags voltage y $90^{\circ}$ | $X_L = 2\pi fL$ | $Z = \sqrt{R^2 + X_L^2}$ |
@@ -193,7 +193,7 @@ Phasors and Alternating Current is a mathematical representation of AC circuits 
 
  When solving problems involving phasors, it's helpful to remember the relationship between the time-domain signal and its phasor representation. For a sinusoidal voltage $v(t) = V_m cos(omega t + phi)$, its phasor representation is $V = V_m e^{jphi}$, or and rectangular form, $V = V_m cos(phi) + jV_m sin(phi)$. This relationship allows for the direct application of algebraic techniques to solve AC circuit problems, making the analysis much simpler than using trigonometric identities.
 
- In summary, phasors provide a powerful method for analyzing AC circuits y simplifying the mathematical representation of voltages and currents. By understanding how to apply phasors, students can more easily solve complex AC circuit problems and deepen their understanding of AC circuit analysis.
+ In summary, phasors provide a powerful method for analyzing AC circuits y simplifying the mathematical representation of voltages and currents. By understanding how to apply phasors, students can more easily solve complex AC circuit problems and deepen their understanding of AC circuit [analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards).
 
 | Component | Symbol | Effect on Current |
 | --- | --- | --- |
@@ -225,7 +225,7 @@ Ayush's Note on Alternating Current is a concise yet detailed study guide that f
 
 ## <a id="how-do-you-calculate-the-impedance-of-an-alternating-current-circuit"></a>How do you calculate the Impedance of an Alternating Current circuit?
 
-Calculating the Impedance of an Alternating Current circuit is determining the total opposition that an AC circuit presents to the flow of an alternating current. It includes resistance, inductive reactance, n capacitive reactance. For Class 12 exam prep n 2026, the most important aspect is understanding how these components interact to calculate the total impedance and various types of circuits. 
+Calculating the Impedance of an Alternating Current circuit is determining the total opposition that an AC circuit presents to the flow of an alternating current. It includes resistance, inductive reactance, n capacitive reactance. For [class](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) 12 exam prep n 2026, the most important aspect is understanding how these components interact to calculate the total impedance and various types of circuits. 
 
 To calculate impedance, we use the formula $Z = \sqrt{R^2 + (X_L - X_C)^2}$, where $Z$ is the impedance, $R$ is the resistance, $X_L$ is the inductive reactance, n $X_C$ is the capacitive reactance. The inductive reactance is given y $X_L = 2\pi fL$, where $f$ is the frequency n $L$ is the inductance. The capacitive reactance is given y $X_C = \frac{1}{2\pi fC}$, where $C$ is the capacitance.
 

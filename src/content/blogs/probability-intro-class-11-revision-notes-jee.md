@@ -184,7 +184,7 @@ What is Ayush's Note on Probability (Intro) is a study guide that provides a fou
 
 ## <a id="what-are-the-key-concepts-of-sample-space-n-events"></a>What are the Key Concepts of Sample Space and Events?
 
-What are the Key Concepts of Sample Space and Events? is a fundamental concept and probability theory that deals with the set of all possible outcomes of a random experiment. It includes the sample space, events, n the probability of occurrence of these events. For Class 11 exam prep n 2026, the most important aspect is understanding the relationship between the sample space, events, n their respective probabilities.
+What are the Key Concepts of Sample Space and Events? is a fundamental concept and probability theory that deals with the set of all possible outcomes of a random experiment. It includes the sample space, events, n the probability of occurrence of these events. For [class](/blog/algorithms-design-class-11-revision-notes-gate-boards) 11 exam prep n 2026, the most important aspect is understanding the relationship between the sample space, events, n their respective probabilities.
 
 The sample space is the set of all possible outcomes of a random experiment, denoted y $S$. It is crucial to define the sample space carefully, as it forms the basis for all subsequent calculations. An event is a subset of the sample space, denoted y $E$, which contains all the outcomes that satisfy a specific condition. The probability of an event is a measure of the likelihood of its occurrence, calculated as the ratio of the number of favorable outcomes to the total number of possible outcomes.
 

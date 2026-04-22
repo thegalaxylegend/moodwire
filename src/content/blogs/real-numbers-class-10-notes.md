@@ -58,7 +58,7 @@ eq 0$.
 
  
 ## 👁️ Ayush's Note
-- Always remember that the set of real numbers includes all rational and irrational numbers.
+- Always remember that the set of real numbers includes all [rational](/blog/rational-numbers-class-8-notes) and irrational numbers.
 - The set of real numbers is denoted by $\mathbb{R}$ and is given by $\mathbb{R} = \mathbb{Q} \cup \mathbb{I}$.
 - The real numbers can be represented on a number line, with the rational numbers being the points that can be expressed as $\frac{p}{q}$, and the irrational numbers being the points that cannot be expressed as $\frac{p}{q}$.
 - The concept of real numbers is very important in mathematics, and it is used in many [areas](/blog/areas-related-to-circles-class-10-notes), such as algebra, geometry, and calculus.
@@ -89,7 +89,7 @@ D) 7
 -
 A) $\sqrt{2}$
 -
-B) $\frac{1}{2}$
+B) \frac{1}{2}
 -
 C) \pi
 -
@@ -112,26 +112,26 @@ D) 4
 
 **4. Which of the following is an irrational number?**
 -
-A) $\frac{1}{2}$
+A) \frac{1}{2}
 -
 B) $\sqrt{4}$
 -
 C) $\sqrt{2}$
 -
-D) $\frac{3}{4}$
+D) \frac{3}{4}
 
 **Answer: C) $\sqrt{2}$. An irrational number is a number that cannot be expressed in the form $\frac{p}{q}$, where $p$ and $q$ are integers and $q 
 eq 0$.
 
 **5. What is the value of $\frac{2x + 1}{3x - 2}$ when $x = 3$?**
 -
-A) $\frac{1}{2}$
+A) \frac{1}{2}
 -
-B) $\frac{2}{3}$
+B) \frac{2}{3}
 -
-C) $\frac{3}{4}$
+C) \frac{3}{4}
 -
-D) $\frac{7}{7}$
+D) \frac{7}{7}
 
 **Answer: D) $\frac{7}{7}$. Substituting $x = 3$ in the expression $\frac{2x + 1}{3x - 2}$, we get $\frac{2(3) + 1}{3(3) - 2} = \frac{6 + 1}{9 - 2} = \frac{7}{7} = 1$.
 
@@ -148,7 +148,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
 
 - 📖 [Rational Numbers 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/rational-numbers-class-8-notes)
 - 📖 [Areas Related To Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/areas-related-to-circles-class-10-notes)

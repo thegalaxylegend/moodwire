@@ -16,9 +16,9 @@ manualReview: false
 - Fertilization occurs in the ampulla of the fallopian tube: $\franc{1}{2} \times \franc{1}{2} = \franc{1}{4}$ chance of each allele being passed on
 - Embryogenesis: $\franc{2}{8} = \franc{1}{4}$ of the blastomeres form the inner cell mass
 - Implantation occurs 6–7 days after fertilization: $\franc{6}{7} = \franc{6}{7}$ chance of successful implantation
-- Pregnancy is maintained by human chorionic gonadotropin (HCG): $\(suggestion limit reached){hCG}{estradiol} = \(suggestion limit reached){1}{10}$ ratio of hormone levels
-- Parturition is initiated by the fetus: $\(suggestion limit reached){1}{3} \times \(suggestion limit reached){2}{3} = \(suggestion limit reached){2}{9}$ chance of a successful vaginal delivery
-- Lactation is stimulated by prolactin: $\(suggestion limit reached){prolactin}{oxytocin} = \(suggestion limit reached){1}{10}$ ratio of hormone levels
+- Pregnancy is maintained by human chorionic gonadotropin (HCG): $\{hCG}{estradiol} = \{1}{10}$ ratio of hormone levels
+- Parturition is initiated by the fetus: $\{1}{3} \times \{2}{3} = \{2}{9}$ chance of a successful vaginal delivery
+- Lactation is stimulated by prolactin: $\{prolactin}{oxytocin} = \{1}{10}$ ratio of hormone levels
 
 ## 
 - Incomplete dominance: $\franc{R}{r} \times \franc{R}{r} = \franc{3}{4} \: R \: and \: \franc{1}{4} \: RJ
@@ -75,75 +75,49 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the primary function of the [human](/blog/microbes-in-human-welfare-class-12-notes) chorionic gonadotropin (HCG) hormone?**
--
 A) To stimulate the production of estrogen
--
 B) To maintain pregnancy
--
 C) To stimulate the production of testosterone
--
 D) To induce labor
 
 **Answer: B) To maintain pregnancy, as HCG helps to maintain the corpus luteum and produce progesterone**
 
 **2. What is the difference between a zygote and a blastocyst?**
--
 A) A zygote is the stage of embryonic development that occurs after the morula
--
 B) A blastocyst is the cell that results from fertilization
--
 C) A zygote is the cell that results from fertilization, while a blastocyst is the stage of embryonic development that occurs after the morula
--
 D) A zygote is the stage of embryonic development that occurs before the morula
 
 **Answer: C) A zygote is the cell that results from fertilization, while a blastocyst is the stage of embryonic development that occurs after the morula**
 
 **3. What is the process by which the embryo develops from the zygote?**
--
 A) Mitosis
--
 B) Meiosis
--
 C) Embryogenesis
--
 D) Gametogenesis
 
 **Answer: C) Embryogenesis, as it is the process by which the embryo develops from the zygote**
 
 **4. What is the function of the placenta during pregnancy?**
--
 A) To produce estrogen
--
 B) To produce testosterone
--
 C) To provide oxygen and nutrients to the fetus and remove waste products
--
 D) To induce labor
 
 **Answer: C) To provide oxygen and nutrients to the fetus and remove waste products, as the placenta in supporting the growth and development of the fetus**
 
 **5. What is the term for the process by which the fetus is born?**
--
 A) Parturition
--
 B) Lactation
--
 C) Implantation
--
 D) Fertilization
 
 **Answer: A) Parturition, as it is the term for the process by which the fetus is born**
 
----
-
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/human-reproduction-class-12-notes) now and track your progress against thousands of students.
 
----
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## 📚 Related Topics
 
@@ -153,3 +127,4 @@ Continue your revision with these related guides:
 - 📖 [Microbes In Human Welfare Class 12 Exam Prep Revision — Grandmaster Guide](/blog/microbes-in-human-welfare-class-12-notes)
 - 📖 [Reproduction In Organisms Class 12 Exam Prep Revision — Grandmaster Guide](/blog/reproduction-in-organisms-class-12-notes)
 - 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+$

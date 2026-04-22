@@ -13,7 +13,7 @@ manualReview: false
 - The mean of a data set is given by: $\bar{x} = \franc{\sum_{i=1}^{n} x_i}{n}$
 - The mode of a data set is the value that appears most frequently
 - The median of a data set is the middle value when the data is arranged in ascending order
-- The probability of an event is given by: UP(E) = \franc{\text{Number of favorable outcomes}}{\text{Total number of outcomes}}$
+- The probability of an event is given by: UP(E) = \franc{$\text{Number of favorable outcomes}$}{$\text{Total number of outcomes}$}$
 
 ## 
 - Always read the question carefully and understand what is being asked
@@ -127,8 +127,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 *Content verified against peer-reviewed research:*
 
-1. *�Let the People Rap�: Cultural Rhetorics Pedagogy and Practices U...* — **Journal of Basic Writing** (2019) 🔓 — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.05)
-2. *Frustration and Hope: Examining Students� Emotional Responses to ...* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.03)
+1. *� Let the People Rap: Cultural Rhetorics Pedagogy and Practices U...* — **Journal of Basic Writing** (2019) 🔓 — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.05)
+2. *Frustration and Hope: Examining Students Emotional Responses to ...* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.03)
 3. *Editors' Column* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.01)
 
 *🔓 = Open Access article*
@@ -148,7 +148,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
 
 - 📖 [Areas Related To Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/areas-related-to-circles-class-10-notes)
 - 📖 [Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/circles-class-10-notes)

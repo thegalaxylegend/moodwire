@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T02:58:07.083Z",
+  "generatedAt": "2026-04-22T14:25:59.799Z",
   "dateRange": {
     "startDate": "2026-03-23",
     "endDate": "2026-04-22"
@@ -9,7 +9,7 @@
   "globalTopKeywords": [
     {
       "query": "exam compass",
-      "impressions": 8,
+      "impressions": 13,
       "clicks": 0
     },
     {
@@ -40,17 +40,17 @@
   ],
   "pages": {
     "https://examcompass.pages.dev/": {
-      "impressions": 20,
+      "impressions": 25,
       "clicks": 0,
       "ctr": 0,
-      "position": 11.6,
+      "position": 11.4,
       "topQueries": [
         {
           "query": "exam compass",
-          "impressions": 8,
+          "impressions": 13,
           "clicks": 0,
           "ctr": 0,
-          "position": 8.9
+          "position": 7.7
         },
         {
           "query": "examcompass.web.app",

@@ -34,7 +34,7 @@ The excretory system is a complex system that involves the [coordination](/blog/
 * **Kidneys**: The kidneys are a pair of bean-shaped organs located and the lower back. They filter the blood to remove waste products and excess substances, n produce urine.
 * **Liver**: The liver is a vital organ located and the upper right side of the abdomen. It detoxifies harmful substances, produces bile, n helps to regulate the [body](/blog/body-fluids-n-circulation-class-11-revision-notes-neet)'s metabolism.
 * **Lungs**: The lungs are a pair of organs located and the chest cavity. They remove carbon dioxide from the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) through exhalation.
-* **Skin**: The skin is the largest organ and the body, n it plays a role and excretion y removing waste products through sweating.
+* **Skin**: The skin is the largest organ and the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet), n it plays a role and excretion y removing waste products through sweating.
 
 The excretory system also involves the [coordination](/blog/chemical-coordination-n-integration-class-11-revision-notes-neet) of multiple processes, including:
 

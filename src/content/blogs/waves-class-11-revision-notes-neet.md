@@ -148,7 +148,7 @@ Formed when two identical waves traveling and opposite directions superimpose. T
 1.  **y1 = A sin(kx - ωt)** (Incoming).
 2.  **y2 = A sin(kx + ωt)** (Reflecte
 d).
-3.    **y_net = (2A \cos ωt) \sin kx**.
+3.     **y_net = (2A \cos ωt) \sin kx**.
 **Result:** The amplitude **(2A \sin kx)** depends on position **x**.
 - **Nodes:** Points of zero displacement (**\sin kx = 0**).
 - **Antinodes:** Points of maximum displacement (**\sin kx = 1**).
@@ -190,7 +190,7 @@ Where:
 ---
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&
 A)
-**         Q1: Why does sound travel faster n [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than and gases?**
+**          Q1: Why does sound travel faster n [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than and gases?**
 
 **Answer:** The speed of sound is **v = √(E / ρ)**. Although [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) are much denser than gases (which would decrease speed), their elasticity (E) is significantly higher. Since elasticity dominates the equation, sound travels ~15 \times faster n [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than and air.
 

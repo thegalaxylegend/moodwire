@@ -36,7 +36,7 @@ manualReview: false
 ## 🧠 The One Thing Most Students Get Wrong
 - The one thing most students get wrong is the concept of carrying capacity: the maximum number of individuals of a species that an environment can support indefinitely.
 - Many students think that carrying capacity is a fixed value, but it can vary depending on factors such as food availability, water quality, and habitat quality.
-- Carrying capacity is an important concept in ecology, as it helps us understand the impact of human activities on the environment and the importance of conservation.
+- Carrying capacity is an important concept in ecology, as it helps us understand the impact of human activities on the environment and the importance of [conservation](/blog/biodiversity-and-conservation-class-12-notes).
 
 ## 👁️ Ayush's Note
 - Ayush's note is that environmental issues are not just limited to pollution and climate change, but also include conservation of biodiversity and ecosystem services.
@@ -119,7 +119,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

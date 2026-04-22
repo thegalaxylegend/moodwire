@@ -47,7 +47,7 @@ manualReview: false
 - To avoid this mistake, always simplify expressions before finding the cube root, and use the correct formulas and identities.
 
 ## 👁️ Ayush's Note
-- When working with cubes and cube roots, it's essential to be careful with the units and to check the final answer to ensure it makes sense.
+- When working with cubes and cube [roots](/blog/squares-and-square-roots-class-8-notes), it's essential to be careful with the units and to check the final answer to ensure it makes sense.
 - Use the formulas and identities to simplify expressions and find the cube root of perfect cubes.
 - Practice, practice, practice! The more you practice working with cubes and cube roots, the more comfortable you'll become with the formulas and identities.
 
@@ -126,7 +126,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
-
 ---
 
 ## 📚 Related Topics
@@ -137,3 +136,4 @@ Continue your revision with these related guides:
 - 📖 [Comparing Quantities 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/comparing-quantities-class-8-notes)
 - 📖 [Data Handling 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/data-handling-class-8-notes)
 - 📖 [Exponents And Powers 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide](/blog/exponents-and-powers-class-8-notes)
+$

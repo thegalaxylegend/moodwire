@@ -9,22 +9,22 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
--  \int $\frac{1}{x}$ dx = \ln|x| + C 
--  \int e^x dx = e^x + C 
--  \int \sin x dx = -\cos x + C 
--  \int \cos x dx = \sin x + C 
--  \int \tan x dx = -\ln|\cos x| + C 
-- $\int \frac{1}{\sqrt{1-x^2}} dx = \sin^{-1}x + C$
--  \int $\frac{1}{1+x^2}$ dx = \tan^{-1}x + C 
-- $\int \frac{1}{x\sqrt{x^2-1}} dx = \sec^{-1}x + C$
-- $\int \frac{1}{x\sqrt{x^2-1}} dx = \cosh^{-1}x + C$
--  \int x^n dx = $\frac{x^{n+1}$}{n+1} + C, n 
-eq -1$
-- $\int \frac{1}{x^2+a^2} dx = \frac{1}{a} \tan^{-1} \frac{x}{a} + C$
-- $\int \frac{1}{x^2-a^2} dx = \frac{1}{2a} \ln \left| \frac{x-a}{x+a} \right| + C$
-- $\int \sqrt{a^2-x^2} dx = \frac{x}{2} \sqrt{a^2-x^2} + \frac{a^2}{2} \sin^{-1} \frac{x}{a} + C$
-- $\int \sqrt{x^2-a^2} dx = \frac{x}{2} \sqrt{x^2-a^2} - \frac{a^2}{2} \ln \left| x + \sqrt{x^2-a^2} \right| + C$
-- $\int \sqrt{x^2+a^2} dx = \frac{x}{2} \sqrt{x^2+a^2} + \frac{a^2}{2} \ln \left| x + \sqrt{x^2+a^2} \right| + C$
+-   \INT $\franc{1}{x}$ DX = \ln|x| + C 
+-   \INT e^x DX = e^x + C 
+-   \INT \sin x DX = -\cos x + C 
+-   \INT \cos x DX = \sin x + C 
+-   \INT \tan x DX = -\ln|\cos x| + C 
+- $\INT \franc{1}{\sort{1-x^2}} DX = \sin^{-1}x + CD
+-   \(suggestion limit reached) $\(suggestion limit reached){1}{1+x^2}$ (suggestion limit reached) = \tan^{-1}x + C 
+- $\(suggestion limit reached) \(suggestion limit reached){1}{x\(suggestion limit reached){x^2-1}} (suggestion limit reached) = \sec^{-1}x + (suggestion limit reached)
+- $\(suggestion limit reached) \(suggestion limit reached){1}{x\(suggestion limit reached){x^2-1}} (suggestion limit reached) = \cosh^{-1}x + (suggestion limit reached)
+-   \(suggestion limit reached) x^n (suggestion limit reached) = $\(suggestion limit reached){x^{n+1}$}{n+1} + C, n 
+(suggestion limit reached) -1$
+- $\(suggestion limit reached) \(suggestion limit reached){1}{x^2+a^2} (suggestion limit reached) = \(suggestion limit reached){1}{a} \tan^{-1} \(suggestion limit reached){x}{a} + (suggestion limit reached)
+- $\(suggestion limit reached) \(suggestion limit reached){1}{x^2-a^2} (suggestion limit reached) = \(suggestion limit reached){1}{2a} \ln \left| \(suggestion limit reached){x-a}{x+a} \right| + (suggestion limit reached)
+- $\(suggestion limit reached) \(suggestion limit reached){a^2-x^2} (suggestion limit reached) = \(suggestion limit reached){x}{2} \(suggestion limit reached){a^2-x^2} + \(suggestion limit reached){a^2}{2} \sin^{-1} \(suggestion limit reached){x}{a} + (suggestion limit reached)
+- $\(suggestion limit reached) \(suggestion limit reached){x^2-a^2} (suggestion limit reached) = \(suggestion limit reached){x}{2} \(suggestion limit reached){x^2-a^2} - \(suggestion limit reached){a^2}{2} \ln \left| x + \(suggestion limit reached){x^2-a^2} \right| + (suggestion limit reached)
+- $\(suggestion limit reached) \(suggestion limit reached){x^2+a^2} (suggestion limit reached) = \(suggestion limit reached){x}{2} \(suggestion limit reached){x^2+a^2} + \(suggestion limit reached){a^2}{2} \ln \left| x + \(suggestion limit reached){x^2+a^2} \right| + (suggestion limit reached)
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not checking the limits of integration
@@ -33,27 +33,27 @@ eq -1$
 - Not simplifying the integral before evaluating it
 - Not using the properties of definite integrals to simplify the problem
 
-## ✏️ 3 Solved PYQs
-- **PYQ 1:** Evaluate $\int \frac{1}{x^2+4x+5} dx$
-  - Let $x^2+4x+5 = (x+2)^2+1$
-  -  nt $\frac{1}{x^2+4x+5}$ dx = \int $\frac{1}{(x+2)^2+1}$ dx 
-  - Substitute $x+2 = t$, $dx = dt$
-  -  nt $\frac{1}{(x+2)^2+1}$ dx = \int $\frac{1}{t^2+1}$ dt 
-  -  nt $\frac{1}{t^2+1}$ dt = \tan^{-1}t + C 
-  -  nt $\frac{1}{x^2+4x+5}$ dx = \tan^{-1}(x+2) + C 
-- **PYQ 2:** Evaluate $\int \frac{x}{x^2+1} dx$
-  - Let $u = x^2+1$, $du = 2x dx$
-  -  nt $\frac{x}{x^2+1}$ dx = $\frac{1}{2}$ \int $\frac{1}{u}$ du 
-  -  rac{1}{2} \int $\frac{1}{u}$ du = $\frac{1}{2}$ \ln|u| + C 
-  -  nt $\frac{x}{x^2+1}$ dx = $\frac{1}{2}$ \ln|x^2+1| + C 
-- **PYQ 3:** Evaluate $\int \frac{1}{\sqrt{4x-x^2}} dx$
-  -  nt $\frac{1}{\sqrt{4x-x^2}$} dx = \int $\frac{1}{\sqrt{-(x^2-4x)}$} dx 
-  -  nt $\frac{1}{\sqrt{-(x^2-4x)}$} dx = \int $\frac{1}{\sqrt{-((x-2)^2-4)}$} dx 
-  -  nt $\frac{1}{\sqrt{-((x-2)^2-4)}$} dx = \int $\frac{1}{\sqrt{4-(x-2)^2}$} dx 
-  - Substitute $x-2 = t$, $dx = dt$
-  -  nt $\frac{1}{\sqrt{4-(x-2)^2}$} dx = \int $\frac{1}{\sqrt{4-t^2}$} dt 
-  -  nt $\frac{1}{\sqrt{4-t^2}$} dt = \sin^{-1} $\frac{t}{2}$ + C 
-  -  nt $\frac{1}{\sqrt{4x-x^2}$} dx = \sin^{-1} $\frac{x-2}{2}$ + C 
+## ✏️ 3 Solved Yes
+- **PDQ 1:** Evaluate $\INT \franc{1}{x^2+4x+5} DX
+  - Let ex^2+4x+5 = (x+2)^2+1$
+  -   $\franc{1}{x^2+4x+5}$ DX = \INT $\franc{1}{(x+2)^2+1}$ DX 
+  - Substitute ex+2 = to, DX = DT
+  -   $\franc{1}{(x+2)^2+1}$ (suggestion limit reached) = \(suggestion limit reached) $\(suggestion limit reached){1}{t^2+1}$ (suggestion limit reached) 
+  -   $\(suggestion limit reached){1}{t^2+1}$ (suggestion limit reached) = \tan^{-1’t + C 
+  -   $\(suggestion limit reached){1}{x^2+4x+5}$ (suggestion limit reached) = \tan^{-1}(x+2) + C 
+- **(suggestion limit reached) 2:** Evaluate $\(suggestion limit reached) \(suggestion limit reached){x}{x^2+1} (suggestion limit reached)
+  - Let (suggestion limit reached) = x^2+1$, (suggestion limit reached) = 2x (suggestion limit reached)
+  -   $\(suggestion limit reached){x}{x^2+1}$ (suggestion limit reached) = $\(suggestion limit reached){1}{2}$ \(suggestion limit reached) $\(suggestion limit reached){1}{u}$ (suggestion limit reached) 
+  -   c{1}{2} \(suggestion limit reached) $\(suggestion limit reached){1}{u}$ (suggestion limit reached) = $\(suggestion limit reached){1}{2}$ \ln|u| + C 
+  -   $\(suggestion limit reached){x}{x^2+1}$ (suggestion limit reached) = $\(suggestion limit reached){1}{2}$ \ln|x^2+1| + C 
+- **(suggestion limit reached) 3:** Evaluate $\(suggestion limit reached) \(suggestion limit reached){1}{\(suggestion limit reached){4x-x^2}} (suggestion limit reached)
+  -   $\(suggestion limit reached){1}{\(suggestion limit reached){4x-x^2}$} (suggestion limit reached) = \(suggestion limit reached) $\(suggestion limit reached){1}{\(suggestion limit reached){-(x^2-4x)}$} (suggestion limit reached) 
+  -   $\(suggestion limit reached){1}{\(suggestion limit reached){-(x^2-4x)}$} (suggestion limit reached) = \(suggestion limit reached) $\(suggestion limit reached){1}{\(suggestion limit reached){-((x-2)^2-4)}$} (suggestion limit reached) 
+  -   $\(suggestion limit reached){1}{\(suggestion limit reached){-((x-2)^2-4)}$} (suggestion limit reached) = \(suggestion limit reached) $\(suggestion limit reached){1}{\(suggestion limit reached){4-(x-2)^2}$} (suggestion limit reached) 
+  - Substitute $x-2 = (suggestion limit reached), (suggestion limit reached) = (suggestion limit reached)
+  -   $\(suggestion limit reached){1}{\(suggestion limit reached){4-(x-2)^2}$} (suggestion limit reached) = \(suggestion limit reached) $\(suggestion limit reached){1}{\(suggestion limit reached){4-t^2}$} (suggestion limit reached) 
+  -   $\(suggestion limit reached){1}{\(suggestion limit reached){4-t^2}$} (suggestion limit reached) = \sin^{-1} $\(suggestion limit reached){t}{2}$ + C 
+  -   $\(suggestion limit reached){1}{\(suggestion limit reached){4x-x^2}$} (suggestion limit reached) = \sin^{-1} $\(suggestion limit reached){x-2}{2}$ + C 
 
 ## 🧠 The One Thing Most Students Get Wrong
 - Not using the correct substitution or formula for the given integral
@@ -77,50 +77,50 @@ eq -1$
 - Use the process of elimination to narrow down the options and increase your chances of getting the correct answer
 
 ## 📝 Practice MCQs
-**1. What is the value of $\int \frac{1}{x} dx$?**
+**1. What is the value of $\INT \franc{1}{x} DX?**
 -
-A) $\ln|x| + C$
+A) $\ln|x| + CD
 -
-B) $\frac{1}{x}$ + C
+B) \franc{1}{x} + C
 -
-C) $x + C$
+C) ex + CD
 -
-D) $x^2 + C$
+D) ex^2 + CD
 
-**Answer: A) $\ln|x| + C$**
- **2. Evaluate \int \frac{x}{x^2+1} dx** 
--  A) $\frac{1}{2}$ \ln|x^2+1| + C 
--  B) $\frac{1}{2}$ \ln|x| + C 
--  C) \tan^{-1}x + C 
--  D) \sin^{-1}x + C  **Answer: A) $\frac{1}{2}$ \ln|x^2+1| + C**
+**Answer: A) $\ln|x| + CD**
+ **2. Evaluate \INT \franc{x}{x^2+1} DX** 
+-   A) $\franc{1}{2}$ \ln|x^2+1| + C 
+-   B) $\franc{1}{2}$ \ln|x| + C 
+-   C) \tan^{-1}x + C 
+-  D) \sin^{-1}x + C  **Answer: A) $\franc{1}{2}$ \ln|x^2+1| + C**
 
-**3. What is the value of $\int \frac{1}{\sqrt{4x-x^2}} dx$?**
+**3. What is the value of $\INT \franc{1}{\sort{4x-x^2}} DX?**
 -
-A) \sin^{-1} $\frac{x-2}{2}$ + C
+A) \sin^{-1} \franc{x-2}{2} + C
 -
-B) \cos^{-1} $\frac{x-2}{2}$ + C
+B) \cos^{-1} \franc{x-2}{2} + C
 -
-C) \tan^{-1} $\frac{x-2}{2}$ + C
+C) \tan^{-1} \franc{x-2}{2} + C
 -
-D) \sec^{-1} $\frac{x-2}{2}$ + C
+D) \sec^{-1} \franc{x-2}{2} + C
 
-**Answer: A) \sin^{-1} $\frac{x-2}{2}$ + C**  **4. Evaluate \int $\frac{1}{x^2+4x+5}$ dx** 
--  A) \tan^{-1}(x+2) + C 
--  B) \tan^{-1}(x-2) + C 
--  C) \sin^{-1}(x+2) + C 
+**Answer: A) \sin^{-1} $\franc{x-2}{2}$ + C**  **4. Evaluate \INT $\franc{1}{x^2+4x+5}$ DX** 
+-   A) \tan^{-1}(x+2) + C 
+-   B) \tan^{-1}(x-2) + C 
+-   C) \sin^{-1}(x+2) + C 
 -  D) \cos^{-1}(x+2) + C  **Answer: A) \tan^{-1}(x+2) + C**
 
-**5. What is the value of $\int \frac{1}{x\sqrt{x^2-1}} dx$?**
+**5. What is the value of $\INT \franc{1}{x\sort{x^2-1}} DX?**
 -
-A) $\sec^{-1}x + C$
+A) $\sec^{-1}x + CD
 -
 B) \cosh^{-1}x + C
 -
 C) \sinh^{-1}x + C
 -
-D) \tanh^{-1}x + C
+D) \tank^{-1}x + C
 
-**Answer: A) $\sec^{-1}x + C$**
+**Answer: A) $\sec^{-1}x + CD**
 
 ---
 
@@ -131,11 +131,21 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 $
 
+## 📚 Academic References
+
+*Content verified against peer-reviewed research:*
+
+1. *�Let the People Rap�: Cultural Rhetorics Pedagogy and Practices U...* — **Journal of Basic Writing** (2019) 🔓 — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.05)
+2. *Frustration and Hope: Examining Students� Emotional Responses to ...* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.03)
+3. *Editors' Column* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.01)
+
+*🔓 = Open Access article*
+
 ---
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
 
 - 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
 - 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)

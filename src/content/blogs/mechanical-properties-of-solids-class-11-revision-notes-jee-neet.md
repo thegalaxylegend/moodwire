@@ -97,7 +97,7 @@ When a wire is stretched, [work](/blog/work-energy-and-power-class-11-revision-n
 **Derivation:**
 1.  Consider a wire of length **L** n area **A** stretched y **l**.
 2.  Restoring force **F = YAl / L**.
-3.  Work done for a small extension **dl**: **dW = F dl = (YAl / L) dl**.
+3.  [work](/blog/work-energy-and-power-class-11-revision-notes-neet) done for a small extension **dl**: **dW = F dl = (YAl / L) dl**.
 4.  Integrating from 0 to total extension **L_ext**:
     - **U = ∫ [0 to L_ext] (YA/L) l dl**
     - **U = (YA/L) [l²/2]₀ᴸ_ext**

@@ -57,7 +57,7 @@ manualReview: false
   - Circular Wait: Ensure that there is no circular wait between processes.
 
 ## 👁️ Ayush's Note
-- To solve problems related to Operating Systems, always start by identifying the type of scheduling algorithm or page replacement algorithm used.
+- To solve problems related to Operating [systems](/blog/number-systems-class-9-notes), always start by identifying the type of scheduling algorithm or page replacement algorithm used.
 - Make sure to calculate the turnaround time, waiting time, and response time for each process.
 - Use the formula bank to calculate the average turnaround time, average waiting time, and throughput.
 - Always draw a diagram to visualize the problem and the solution.
@@ -140,7 +140,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

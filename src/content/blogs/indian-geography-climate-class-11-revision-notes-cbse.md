@@ -105,8 +105,8 @@ Continue your [revision](/blog/constitutional-framework-class-11-revision-notes-
 
 ## 🪤 The 5 Mistakes That Cost Marks
 
-* The Himalayan mountain range is often mistakenly considered the only factor affecting [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)'s climate, but other factors like the Thar Desert, the Western Ghats, and the Indian Ocean also play a crucial role.
-* Students often confuse the cold and hot desert climates of India, with the former being found in the Himalayan regions and the latter in the Thar Desert.
+* The Himalayan mountain range is often mistakenly considered the only factor affecting [India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)'s climate, but other factors like the Thar Desert, the Western Ghats, and the Indian Ocean also play a crucial role.
+* Students often confuse the cold and hot desert climates of [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee), with the former being found in the Himalayan regions and the latter in the Thar Desert.
 * The concept of the 'trade winds' and 'westerlies' is often mixed up by students, with the trade winds blowing from the northeast during winter and the westerlies bringing rain to India during the summer months.
 * Many students mistakenly believe that the monsoon rains are the primary source of rainfall in all parts of India, when in fact, some regions like the Andaman and Nicobar Islands receive significant rainfall from other sources.
 * India's climate is often oversimplified as being divided into just three main seasons (summer, monsoon, and winter), when in fact, there are actually four distinct seasons: winter, pre-monsoon, monsoon, and post-monsoon.

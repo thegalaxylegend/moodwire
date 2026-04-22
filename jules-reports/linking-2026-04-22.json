@@ -1,109 +1,53 @@
 {
   "date": "2026-04-22",
   "summary": {
-    "totalLinksAdded": 188,
-    "relatedSectionsAdded": 78,
-    "orphanPages": 97,
-    "totalBlogs": 204
+    "totalLinksAdded": 199,
+    "relatedSectionsAdded": 9,
+    "orphanPages": 41,
+    "totalBlogs": 207
   },
   "orphans": [
+    "acids-bases-and-salts-class-10-notes",
     "alcohols-phenols-and-ethers-class-12-notes",
-    "aldehydes-ketones-and-carboxylic-acids-class-12-notes",
-    "algebraic-expressions-class-8-notes",
-    "amines-class-12-notes",
-    "application-of-derivatives-class-12-notes",
     "application-of-integrals-class-12-notes",
-    "applications-of-trigonometry-class-10-notes",
-    "areas-related-to-circles-class-10-notes",
-    "arithmetic-progressions-class-10-notes",
-    "atoms-class-12-notes",
-    "biodiversity-and-conservation-class-12-notes",
     "biomolecules-class-11-revision-notes-neet",
-    "biotechnology-and-its-applications-class-12-notes",
-    "biotechnology-principles-and-processes-class-12-notes",
-    "body-fluids-and-circulation-class-11-revision-notes-neet",
-    "breathing-and-exchange-of-gases-class-11-revision-notes-neet",
     "cell-cycle-and-cell-division-class-11-revision-notes-neet",
-    "chemical-coordination-and-integration-class-11-revision-notes-neet",
-    "chemistry-in-everyday-life-class-12-notes",
-    "circles-class-10-notes",
+    "chemical-reactions-and-equations-class-10-notes",
     "climatology-class-11-revision-notes-jee-neet",
-    "communication-systems-class-12-notes",
-    "comparing-quantities-class-8-notes",
-    "compiler-design-class-12-notes",
-    "computer-networks-class-12-notes",
     "continuity-and-differentiability-class-12-notes",
-    "coordinate-geometry-class-10-notes",
-    "cubes-and-cube-roots-class-8-notes",
-    "data-handling-class-8-notes",
     "databases-dbms-class-12-notes",
     "determinants-class-12-notes",
-    "differential-equations-class-12-notes",
     "digestion-and-absorption-class-11-revision-notes-neet",
-    "dual-nature-of-radiation-class-12-notes",
     "ecosystem-class-12-notes",
     "environmental-issues-class-12-notes",
     "excretory-products-and-elimination-class-11-revision-notes-neet",
-    "exponents-and-powers-class-8-notes",
     "factorisation-class-8-notes",
     "haloalkanes-and-haloarenes-class-12-notes",
-    "human-health-and-disease-class-12-notes",
-    "human-reproduction-class-12-notes",
     "integrals-class-12-notes",
-    "introduction-to-trigonometry-class-10-notes",
     "jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet",
     "jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet",
     "laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet",
     "limits-and-derivatives-class-11-revision-notes-jee",
-    "linear-equations-in-one-variable-class-8-notes",
-    "linear-equations-in-two-variables-class-9-notes",
-    "linear-programming-class-12-notes",
-    "lines-and-angles-class-9-notes",
     "local-government-class-11-revision-notes-cbse",
     "locomotion-and-movement-class-11-revision-notes-neet",
-    "magnetism-and-matter-class-12-notes",
     "metallurgy-class-12-notes",
-    "microbes-in-human-welfare-class-12-notes",
+    "metals-and-non-metals-class-10-notes",
     "mineral-nutrition-class-11-revision-notes-neet",
-    "molecular-basis-of-inheritance-class-12-notes",
     "motion-in-a-plane-class-11-revision-notes-jee-neet",
     "motion-in-a-straight-line-class-11-revision-notes-jee-neet",
     "neet-2026-weightage-prediction-class-11-revision-notes-neet",
     "neet-biology-80-20-rule-class-11-revision-notes-neet",
-    "neural-control-and-coordination-class-11-revision-notes-neet",
-    "nuclei-class-12-notes",
-    "number-systems-class-9-notes",
-    "operating-systems-class-12-notes",
-    "organisms-and-populations-class-12-notes",
-    "pair-of-linear-equations-class-10-notes",
-    "permutations-and-combinations-class-11-revision-notes-jee",
-    "photosynthesis-in-higher-plants-class-11-revision-notes-neet",
     "planning-in-india-class-11-revision-notes-jee-neet",
-    "plant-growth-and-development-class-11-revision-notes-neet",
-    "polynomials-class-10-notes",
-    "principles-of-inheritance-and-variation-class-12-notes",
-    "quadratic-equations-class-10-notes",
-    "quadrilaterals-class-9-notes",
-    "real-numbers-class-10-notes",
-    "relations-and-functions-class-11-notes",
-    "reproduction-in-organisms-class-12-notes",
-    "reproductive-health-class-12-notes",
-    "respiration-in-plants-class-11-revision-notes-neet",
-    "semiconductor-electronics-class-12-notes",
     "sexual-reproduction-in-flowering-plants-class-12-notes",
     "solid-state-class-12-notes",
     "solutions-class-12-notes",
-    "squares-and-square-roots-class-8-notes",
     "statistics-class-11-revision-notes-jee",
     "strategies-for-enhancement-in-food-production-class-12-notes",
-    "structural-organisation-in-animals-class-11-revision-notes-neet",
     "surface-chemistry-class-12-notes",
     "theory-of-computation-class-12-notes",
     "transport-in-plants-class-11-revision-notes-neet",
     "triangles-class-10-notes",
-    "units-and-measurements-class-11-revision-notes-jee-neet",
-    "vector-algebra-class-12-notes",
-    "work-energy-and-power-class-11-revision-notes-neet"
+    "units-and-measurements-class-11-revision-notes-jee-neet"
   ],
   "knowledgeGraph": [
     {
@@ -121,7 +65,25 @@
         "thing",
         "students"
       ],
-      "incomingLinks": 19,
+      "incomingLinks": 23,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "acids-bases-and-salts-class-10-notes",
+      "category": "Exam Notes",
+      "keywords": [
+        "acids",
+        "bases",
+        "salts",
+        "science",
+        "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka",
+        "formula",
+        "idthe5mistakesthatcostmarksa"
+      ],
+      "incomingLinks": 0,
       "outgoingLinks": 0
     },
     {
@@ -194,7 +156,7 @@
         "contents"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 13
+      "outgoingLinks": 14
     },
     {
       "slug": "aldehydes-ketones-and-carboxylic-acids-class-12-notes",
@@ -211,8 +173,8 @@
         "mistakes",
         "marks"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 34,
+      "outgoingLinks": 5
     },
     {
       "slug": "algebraic-expressions-class-8-notes",
@@ -229,8 +191,8 @@
         "thing",
         "students"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 7,
+      "outgoingLinks": 4
     },
     {
       "slug": "algorithms-analysis-class-11-revision-notes-gate-boards",
@@ -247,8 +209,8 @@
         "grandmaster",
         "table"
       ],
-      "incomingLinks": 71,
-      "outgoingLinks": 33
+      "incomingLinks": 81,
+      "outgoingLinks": 36
     },
     {
       "slug": "algorithms-design-class-11-revision-notes-gate-boards",
@@ -265,8 +227,8 @@
         "grandmaster",
         "table"
       ],
-      "incomingLinks": 40,
-      "outgoingLinks": 37
+      "incomingLinks": 44,
+      "outgoingLinks": 40
     },
     {
       "slug": "alternating-current-class-12-notes",
@@ -283,8 +245,8 @@
         "idwhatisalternatingcurrentawhat",
         "idwhataretheadvantagesofalternatingcurrentoverdirectcurrentawhat"
       ],
-      "incomingLinks": 48,
-      "outgoingLinks": 40
+      "incomingLinks": 51,
+      "outgoingLinks": 43
     },
     {
       "slug": "amines-class-12-notes",
@@ -301,8 +263,8 @@
         "wrong",
         "ayushs"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 30,
+      "outgoingLinks": 5
     },
     {
       "slug": "anatomy-of-flowering-plants-class-11-revision-notes-neet",
@@ -311,15 +273,15 @@
         "anatomy",
         "flowering",
         "plants",
-        "biology",
+        "neet",
+        "exam",
         "grandmaster",
-        "formula",
-        "mistakes",
-        "marks",
-        "solved",
-        "thing"
+        "table",
+        "contents",
+        "idformulabanka",
+        "formula"
       ],
-      "incomingLinks": 35,
+      "incomingLinks": 36,
       "outgoingLinks": 0
     },
     {
@@ -337,7 +299,7 @@
         "table",
         "contents"
       ],
-      "incomingLinks": 53,
+      "incomingLinks": 55,
       "outgoingLinks": 26
     },
     {
@@ -355,7 +317,7 @@
         "contents",
         "idwhatisancientindiamahajanapadasawhat"
       ],
-      "incomingLinks": 49,
+      "incomingLinks": 52,
       "outgoingLinks": 19
     },
     {
@@ -373,7 +335,7 @@
         "contents",
         "idwhatisancientindiavedicageawhat"
       ],
-      "incomingLinks": 44,
+      "incomingLinks": 45,
       "outgoingLinks": 20
     },
     {
@@ -391,8 +353,8 @@
         "contents",
         "idwhatisanimalkingdomawhat"
       ],
-      "incomingLinks": 39,
-      "outgoingLinks": 33
+      "incomingLinks": 40,
+      "outgoingLinks": 34
     },
     {
       "slug": "application-of-derivatives-class-12-notes",
@@ -409,8 +371,8 @@
         "students",
         "wrong"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 31,
+      "outgoingLinks": 4
     },
     {
       "slug": "application-of-integrals-class-12-notes",
@@ -428,7 +390,7 @@
         "ayushs"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 0
+      "outgoingLinks": 4
     },
     {
       "slug": "applications-of-trigonometry-class-10-notes",
@@ -445,8 +407,8 @@
         "thing",
         "students"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 5,
+      "outgoingLinks": 5
     },
     {
       "slug": "areas-related-to-circles-class-10-notes",
@@ -463,8 +425,8 @@
         "marks",
         "solved"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 19,
+      "outgoingLinks": 4
     },
     {
       "slug": "arithmetic-progressions-class-10-notes",
@@ -481,8 +443,8 @@
         "solved",
         "thing"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 3,
+      "outgoingLinks": 5
     },
     {
       "slug": "art-culture-architecture-class-11-revision-notes-jee-neet",
@@ -517,8 +479,8 @@
         "students",
         "wrong"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 7,
+      "outgoingLinks": 4
     },
     {
       "slug": "binomial-theorem-class-11-revision-notes-jee",
@@ -553,8 +515,8 @@
         "solved",
         "thing"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 23,
+      "outgoingLinks": 4
     },
     {
       "slug": "biogeography-class-11-revision-notes-neet",
@@ -590,7 +552,7 @@
         "idwhatisbiologicalclassificationawhat"
       ],
       "incomingLinks": 64,
-      "outgoingLinks": 18
+      "outgoingLinks": 20
     },
     {
       "slug": "biomolecules-class-11-revision-notes-neet",
@@ -625,8 +587,8 @@
         "solved",
         "thing"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 8,
+      "outgoingLinks": 5
     },
     {
       "slug": "biotechnology-principles-and-processes-class-12-notes",
@@ -643,8 +605,8 @@
         "thing",
         "students"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 1,
+      "outgoingLinks": 6
     },
     {
       "slug": "body-fluids-and-circulation-class-11-revision-notes-neet",
@@ -661,8 +623,8 @@
         "table",
         "contents"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 23
+      "incomingLinks": 2,
+      "outgoingLinks": 24
     },
     {
       "slug": "breathing-and-exchange-of-gases-class-11-revision-notes-neet",
@@ -679,7 +641,7 @@
         "table",
         "contents"
       ],
-      "incomingLinks": 0,
+      "incomingLinks": 1,
       "outgoingLinks": 18
     },
     {
@@ -698,7 +660,7 @@
         "contents"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 49
+      "outgoingLinks": 50
     },
     {
       "slug": "cell-the-unit-of-life-class-11-revision-notes-neet",
@@ -715,7 +677,7 @@
         "table",
         "contents"
       ],
-      "incomingLinks": 48,
+      "incomingLinks": 51,
       "outgoingLinks": 17
     },
     {
@@ -733,8 +695,8 @@
         "contents",
         "idwhatischemicalbondingawhat"
       ],
-      "incomingLinks": 26,
-      "outgoingLinks": 27
+      "incomingLinks": 28,
+      "outgoingLinks": 28
     },
     {
       "slug": "chemical-coordination-and-integration-class-11-revision-notes-neet",
@@ -751,7 +713,7 @@
         "table",
         "contents"
       ],
-      "incomingLinks": 0,
+      "incomingLinks": 2,
       "outgoingLinks": 23
     },
     {
@@ -769,7 +731,25 @@
         "solved",
         "thing"
       ],
-      "incomingLinks": 2,
+      "incomingLinks": 4,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "chemical-reactions-and-equations-class-10-notes",
+      "category": "Exam Notes",
+      "keywords": [
+        "chemical",
+        "reactions",
+        "equations",
+        "science",
+        "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka",
+        "formula",
+        "idthe5mistakesthatcostmarksa"
+      ],
+      "incomingLinks": 0,
       "outgoingLinks": 0
     },
     {
@@ -787,8 +767,8 @@
         "thing",
         "students"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 6,
+      "outgoingLinks": 6
     },
     {
       "slug": "circles-class-10-notes",
@@ -805,8 +785,8 @@
         "thing",
         "students"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 8,
+      "outgoingLinks": 5
     },
     {
       "slug": "class-10-30-day-timetable-class-10-revision-notes-jee",
@@ -841,7 +821,7 @@
         "contents",
         "idwhatisclass10sciencepyqstrategyawhat"
       ],
-      "incomingLinks": 20,
+      "incomingLinks": 21,
       "outgoingLinks": 23
     },
     {
@@ -859,7 +839,7 @@
         "table",
         "contents"
       ],
-      "incomingLinks": 30,
+      "incomingLinks": 32,
       "outgoingLinks": 25
     },
     {
@@ -878,7 +858,7 @@
         "idwhatisclassificationofelementsawhat"
       ],
       "incomingLinks": 26,
-      "outgoingLinks": 27
+      "outgoingLinks": 29
     },
     {
       "slug": "climatology-class-11-revision-notes-jee-neet",
@@ -913,8 +893,8 @@
         "thing",
         "students"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 7,
+      "outgoingLinks": 4
     },
     {
       "slug": "comparing-quantities-class-8-notes",
@@ -931,8 +911,8 @@
         "solved",
         "thing"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 3,
+      "outgoingLinks": 4
     },
     {
       "slug": "compiler-design-class-12-notes",
@@ -949,8 +929,8 @@
         "solved",
         "thing"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 8,
+      "outgoingLinks": 4
     },
     {
       "slug": "complex-numbers-class-11-revision-notes-jee-neet",
@@ -985,8 +965,8 @@
         "solved",
         "thing"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 7,
+      "outgoingLinks": 6
     },
     {
       "slug": "computer-organization-class-11-notes",
@@ -1003,8 +983,8 @@
         "contents",
         "idwhatiscomputerorganizationawhat"
       ],
-      "incomingLinks": 17,
-      "outgoingLinks": 36
+      "incomingLinks": 18,
+      "outgoingLinks": 41
     },
     {
       "slug": "conic-sections-class-11-revision-notes-jee",
@@ -1039,8 +1019,8 @@
         "contents",
         "idwhatisconstitutionalframeworkawhat"
       ],
-      "incomingLinks": 16,
-      "outgoingLinks": 26
+      "incomingLinks": 17,
+      "outgoingLinks": 28
     },
     {
       "slug": "continuity-and-differentiability-class-12-notes",
@@ -1058,7 +1038,7 @@
         "thing"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 0
+      "outgoingLinks": 4
     },
     {
       "slug": "coordinate-geometry-class-10-notes",
@@ -1075,8 +1055,8 @@
         "thing",
         "students"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 4,
+      "outgoingLinks": 4
     },
     {
       "slug": "coordination-compounds-class-12-notes",
@@ -1094,7 +1074,7 @@
         "thing"
       ],
       "incomingLinks": 2,
-      "outgoingLinks": 0
+      "outgoingLinks": 4
     },
     {
       "slug": "cubes-and-cube-roots-class-8-notes",
@@ -1111,8 +1091,8 @@
         "marks",
         "solved"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 4,
+      "outgoingLinks": 5
     },
     {
       "slug": "cuet-2026-master-strategy-class-11-revision-notes-neet",
@@ -1130,7 +1110,7 @@
         "contents"
       ],
       "incomingLinks": 34,
-      "outgoingLinks": 31
+      "outgoingLinks": 32
     },
     {
       "slug": "current-electricity-class-11-revision-notes-neet",
@@ -1165,8 +1145,8 @@
         "students",
         "wrong"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 11,
+      "outgoingLinks": 4
     },
     {
       "slug": "data-structures-linear-class-11-revision-notes-gate-boards",
@@ -1183,8 +1163,8 @@
         "2026",
         "grandmaster"
       ],
-      "incomingLinks": 34,
-      "outgoingLinks": 42
+      "incomingLinks": 37,
+      "outgoingLinks": 45
     },
     {
       "slug": "data-structures-non-linear-class-11-revision-notes-gate-boards",
@@ -1201,8 +1181,8 @@
         "2026",
         "grandmaster"
       ],
-      "incomingLinks": 63,
-      "outgoingLinks": 42
+      "incomingLinks": 66,
+      "outgoingLinks": 45
     },
     {
       "slug": "databases-dbms-class-12-notes",
@@ -1220,7 +1200,7 @@
         "thing"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 0
+      "outgoingLinks": 5
     },
     {
       "slug": "determinants-class-12-notes",
@@ -1238,7 +1218,7 @@
         "students"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 0
+      "outgoingLinks": 4
     },
     {
       "slug": "differential-equations-class-12-notes",
@@ -1255,8 +1235,8 @@
         "solved",
         "thing"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 5,
+      "outgoingLinks": 5
     },
     {
       "slug": "digestion-and-absorption-class-11-revision-notes-neet",
@@ -1291,8 +1271,8 @@
         "grandmaster",
         "table"
       ],
-      "incomingLinks": 37,
-      "outgoingLinks": 24
+      "incomingLinks": 39,
+      "outgoingLinks": 26
     },
     {
       "slug": "dpsp-duties-class-11-revision-notes-jee-neet",
@@ -1327,8 +1307,8 @@
         "solved",
         "thing"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 3,
+      "outgoingLinks": 5
     },
     {
       "slug": "ecosystem-class-12-notes",
@@ -1346,7 +1326,7 @@
         "students"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 0
+      "outgoingLinks": 4
     },
     {
       "slug": "electric-charges-fields-class-11-revision-notes-jee-neet",
@@ -1363,8 +1343,8 @@
         "contents",
         "idwhatiselectricchargesfieldsrevisionnotesawhat"
       ],
-      "incomingLinks": 26,
-      "outgoingLinks": 27
+      "incomingLinks": 31,
+      "outgoingLinks": 29
     },
     {
       "slug": "electromagnetic-induction-class-12-revision-notes-jee-neet",
@@ -1381,8 +1361,8 @@
         "idwhatiselectromagneticinductionawhat",
         "idwhatarethefactorsaffectingelectromagneticinductionawhat"
       ],
-      "incomingLinks": 54,
-      "outgoingLinks": 39
+      "incomingLinks": 57,
+      "outgoingLinks": 42
     },
     {
       "slug": "electromagnetic-waves-class-12-notes",
@@ -1399,8 +1379,8 @@
         "idwhatiselectromagneticwavesawhat",
         "idwhatareelectromagneticwavesawhat"
       ],
-      "incomingLinks": 11,
-      "outgoingLinks": 44
+      "incomingLinks": 12,
+      "outgoingLinks": 45
     },
     {
       "slug": "electrostatics-class-12-revision-notes-jee-neet",
@@ -1418,7 +1398,7 @@
         "fundamental"
       ],
       "incomingLinks": 9,
-      "outgoingLinks": 23
+      "outgoingLinks": 29
     },
     {
       "slug": "environmental-chemistry-class-11-revision-notes-neet",
@@ -1454,7 +1434,7 @@
         "thing"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 0
+      "outgoingLinks": 6
     },
     {
       "slug": "equilibrium-class-11-revision-notes-jee-neet",
@@ -1490,7 +1470,7 @@
         "contents"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 24
+      "outgoingLinks": 25
     },
     {
       "slug": "exponents-and-powers-class-8-notes",
@@ -1507,8 +1487,8 @@
         "contents",
         "idformulabanka"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 5
+      "incomingLinks": 4,
+      "outgoingLinks": 6
     },
     {
       "slug": "factorisation-class-8-notes",
@@ -1526,7 +1506,7 @@
         "marks"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 0
+      "outgoingLinks": 5
     },
     {
       "slug": "federalism-class-11-revision-notes-cbse",
@@ -1544,7 +1524,7 @@
         "idwhatarethekeyfeaturesoffederalismawhat"
       ],
       "incomingLinks": 7,
-      "outgoingLinks": 21
+      "outgoingLinks": 23
     },
     {
       "slug": "fundamental-rights-class-11-revision-notes-cbse",
@@ -1561,8 +1541,8 @@
         "contents",
         "idwhatisfundamentalrightsawhat"
       ],
-      "incomingLinks": 19,
-      "outgoingLinks": 17
+      "incomingLinks": 20,
+      "outgoingLinks": 19
     },
     {
       "slug": "geomorphology-class-11-revision-notes-cbse",
@@ -1579,8 +1559,8 @@
         "idquickrevisionnrecapgeomorphologyaquick",
         "revision"
       ],
-      "incomingLinks": 14,
-      "outgoingLinks": 37
+      "incomingLinks": 15,
+      "outgoingLinks": 38
     },
     {
       "slug": "gravitation-class-11-revision-notes-jee-neet",
@@ -1616,7 +1596,7 @@
         "thing"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 0
+      "outgoingLinks": 4
     },
     {
       "slug": "heron-s-formula-class-9-notes",
@@ -1633,8 +1613,8 @@
         "thing",
         "students"
       ],
-      "incomingLinks": 1,
-      "outgoingLinks": 0
+      "incomingLinks": 4,
+      "outgoingLinks": 4
     },
     {
       "slug": "human-health-and-disease-class-12-notes",
@@ -1651,8 +1631,8 @@
         "marks",
         "solved"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 3,
+      "outgoingLinks": 6
     },
     {
       "slug": "human-reproduction-class-12-notes",
@@ -1669,8 +1649,8 @@
         "solved",
         "thing"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 4,
+      "outgoingLinks": 5
     },
     {
       "slug": "hydrocarbons-class-11-revision-notes-neet",
@@ -1687,7 +1667,7 @@
         "idwhatishydrocarbonsawhat",
         "idintroductiontohydrocarbonsaintroduction"
       ],
-      "incomingLinks": 10,
+      "incomingLinks": 11,
       "outgoingLinks": 15
     },
     {
@@ -1706,7 +1686,7 @@
         "idintroductiontohydrogenaintroduction"
       ],
       "incomingLinks": 25,
-      "outgoingLinks": 14
+      "outgoingLinks": 15
     },
     {
       "slug": "indian-geography-climate-class-11-revision-notes-cbse",
@@ -1723,8 +1703,8 @@
         "idwhatisindiangeographyclimateawhat",
         "idwhatisclimateawhat"
       ],
-      "incomingLinks": 16,
-      "outgoingLinks": 13
+      "incomingLinks": 19,
+      "outgoingLinks": 14
     },
     {
       "slug": "indian-geography-physical-class-11-revision-notes-jee-neet",
@@ -1741,8 +1721,8 @@
         "idwhatisindiangeographyphysicalawhat",
         "idwhatisphysicalgeographyawhat"
       ],
-      "incomingLinks": 25,
-      "outgoingLinks": 23
+      "incomingLinks": 26,
+      "outgoingLinks": 25
     },
     {
       "slug": "integrals-class-12-notes",
@@ -1760,7 +1740,7 @@
         "students"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 0
+      "outgoingLinks": 4
     },
     {
       "slug": "introduction-to-trigonometry-class-10-notes",
@@ -1777,8 +1757,8 @@
         "thing",
         "students"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 2,
+      "outgoingLinks": 5
     },
     {
       "slug": "inverse-trigonometric-functions-class-12-notes",
@@ -1795,8 +1775,8 @@
         "solved",
         "thing"
       ],
-      "incomingLinks": 1,
-      "outgoingLinks": 0
+      "incomingLinks": 2,
+      "outgoingLinks": 5
     },
     {
       "slug": "jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet",
@@ -1811,10 +1791,10 @@
         "grandmaster",
         "table",
         "contents",
-        "idwhatisjeeadvancedmathdifficultytrendsawhat"
+        "idwhatisseeadvancedmathdifficultytrendsawhat"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 13
+      "outgoingLinks": 14
     },
     {
       "slug": "jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet",
@@ -1829,7 +1809,7 @@
         "grandmaster",
         "table",
         "contents",
-        "idwhatisjeemainschemistryrepeatedconceptsawhat"
+        "idwhatisseemainschemistryrepeatedconceptsawhat"
       ],
       "incomingLinks": 0,
       "outgoingLinks": 16
@@ -1904,7 +1884,7 @@
         "table"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 15
+      "outgoingLinks": 16
     },
     {
       "slug": "limits-and-derivatives-class-11-revision-notes-jee",
@@ -1922,7 +1902,7 @@
         "concept"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 22
+      "outgoingLinks": 24
     },
     {
       "slug": "limits-derivatives-class-11-revision-notes-jee-neet",
@@ -1957,8 +1937,8 @@
         "marks",
         "solved"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 6,
+      "outgoingLinks": 5
     },
     {
       "slug": "linear-equations-in-two-variables-class-9-notes",
@@ -1975,8 +1955,8 @@
         "marks",
         "solved"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 9,
+      "outgoingLinks": 5
     },
     {
       "slug": "linear-inequalities-class-11-revision-notes-jee-neet",
@@ -2011,8 +1991,8 @@
         "solved",
         "thing"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 3,
+      "outgoingLinks": 7
     },
     {
       "slug": "lines-and-angles-class-9-notes",
@@ -2029,8 +2009,8 @@
         "solved",
         "thing"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 5,
+      "outgoingLinks": 4
     },
     {
       "slug": "local-government-class-11-revision-notes-cbse",
@@ -2038,14 +2018,14 @@
       "keywords": [
         "local",
         "government",
-        "political",
-        "science",
+        "cbse",
+        "exam",
         "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka",
         "formula",
-        "mistakes",
-        "marks",
-        "solved",
-        "thing"
+        "idthe5mistakesthatcostmarksa"
       ],
       "incomingLinks": 0,
       "outgoingLinks": 0
@@ -2083,8 +2063,8 @@
         "contents",
         "idwhatismagneticeffectsofcurrentawhat"
       ],
-      "incomingLinks": 60,
-      "outgoingLinks": 45
+      "incomingLinks": 64,
+      "outgoingLinks": 47
     },
     {
       "slug": "magnetism-and-matter-class-12-notes",
@@ -2101,8 +2081,8 @@
         "idwhatismagnetismnmatterawhat",
         "idwhatarethecharacteristicsofmagneticmaterialsawhat"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 45
+      "incomingLinks": 1,
+      "outgoingLinks": 48
     },
     {
       "slug": "mathematical-induction-class-11-revision-notes-jee-neet",
@@ -2156,7 +2136,7 @@
         "students"
       ],
       "incomingLinks": 1,
-      "outgoingLinks": 0
+      "outgoingLinks": 4
     },
     {
       "slug": "mechanical-properties-of-fluids-class-11-revision-notes-jee-neet",
@@ -2192,7 +2172,7 @@
         "idwhatismechanicalpropertiesofsolidsrevisionnotesawhat"
       ],
       "incomingLinks": 33,
-      "outgoingLinks": 15
+      "outgoingLinks": 17
     },
     {
       "slug": "medieval-india-bhakti-sufi-class-11-revision-notes-cbse",
@@ -2210,7 +2190,7 @@
         "contents"
       ],
       "incomingLinks": 17,
-      "outgoingLinks": 22
+      "outgoingLinks": 23
     },
     {
       "slug": "medieval-india-delhi-sultanate-class-11-revision-notes-cbse",
@@ -2263,8 +2243,8 @@
         "idformulabanka",
         "formula"
       ],
-      "incomingLinks": 1,
-      "outgoingLinks": 6
+      "incomingLinks": 2,
+      "outgoingLinks": 7
     },
     {
       "slug": "metallurgy-class-12-notes",
@@ -2280,6 +2260,24 @@
         "solved",
         "thing",
         "students"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "metals-and-non-metals-class-10-notes",
+      "category": "Exam Notes",
+      "keywords": [
+        "metals",
+        "nonmetals",
+        "science",
+        "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka",
+        "formula",
+        "idthe5mistakesthatcostmarksa",
+        "mistakes"
       ],
       "incomingLinks": 0,
       "outgoingLinks": 0
@@ -2299,8 +2297,8 @@
         "marks",
         "solved"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 4,
+      "outgoingLinks": 5
     },
     {
       "slug": "mineral-nutrition-class-11-revision-notes-neet",
@@ -2318,7 +2316,7 @@
         "idwhatismineralnutritionawhat"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 30
+      "outgoingLinks": 32
     },
     {
       "slug": "molecular-basis-of-inheritance-class-12-notes",
@@ -2335,8 +2333,8 @@
         "marks",
         "solved"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 2,
+      "outgoingLinks": 4
     },
     {
       "slug": "morphology-of-flowering-plants-class-11-revision-notes-neet",
@@ -2372,7 +2370,7 @@
         "revision"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 22
+      "outgoingLinks": 23
     },
     {
       "slug": "motion-in-a-straight-line-class-11-revision-notes-jee-neet",
@@ -2407,7 +2405,7 @@
         "contents",
         "idwhatismovingchargesmagnetismrevisionnotesawhat"
       ],
-      "incomingLinks": 28,
+      "incomingLinks": 31,
       "outgoingLinks": 22
     },
     {
@@ -2461,7 +2459,7 @@
         "table",
         "contents"
       ],
-      "incomingLinks": 0,
+      "incomingLinks": 2,
       "outgoingLinks": 29
     },
     {
@@ -2479,8 +2477,8 @@
         "students",
         "wrong"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 3,
+      "outgoingLinks": 4
     },
     {
       "slug": "number-systems-class-9-notes",
@@ -2497,8 +2495,8 @@
         "solved",
         "thing"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 5,
+      "outgoingLinks": 4
     },
     {
       "slug": "oceanography-class-11-revision-notes-jee-neet",
@@ -2533,8 +2531,8 @@
         "solved",
         "thing"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 1,
+      "outgoingLinks": 5
     },
     {
       "slug": "organic-chemistry-basic-principles-class-11-revision-notes-jee-neet",
@@ -2569,8 +2567,8 @@
         "solved",
         "thing"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 1,
+      "outgoingLinks": 5
     },
     {
       "slug": "oscillations-class-11-revision-notes-jee-neet",
@@ -2605,8 +2603,8 @@
         "marks",
         "solved"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 12,
+      "outgoingLinks": 5
     },
     {
       "slug": "permutations-and-combinations-class-11-revision-notes-jee",
@@ -2623,8 +2621,8 @@
         "contents",
         "idwhatispermutationsncombinationsawhat"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 35
+      "incomingLinks": 1,
+      "outgoingLinks": 36
     },
     {
       "slug": "permutations-combinations-class-11-revision-notes-jee",
@@ -2659,7 +2657,7 @@
         "contents",
         "idwhatisphotosynthesisnhigherplantsawhat"
       ],
-      "incomingLinks": 0,
+      "incomingLinks": 1,
       "outgoingLinks": 14
     },
     {
@@ -2678,7 +2676,7 @@
         "idintroductiontophysicalworldaintroduction"
       ],
       "incomingLinks": 33,
-      "outgoingLinks": 12
+      "outgoingLinks": 13
     },
     {
       "slug": "physics-heat-light-class-11-revision-notes-jee-neet",
@@ -2687,15 +2685,15 @@
         "physics",
         "heat",
         "light",
+        "neet",
         "exam",
-        "prep",
         "grandmaster",
-        "formula",
-        "solved",
-        "thing",
-        "students"
+        "table",
+        "contents",
+        "idformulabanka",
+        "formula"
       ],
-      "incomingLinks": 3,
+      "incomingLinks": 2,
       "outgoingLinks": 0
     },
     {
@@ -2704,14 +2702,14 @@
       "keywords": [
         "physics",
         "mechanics",
+        "neet",
         "exam",
-        "prep",
         "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka",
         "formula",
-        "mistakes",
-        "marks",
-        "solved",
-        "thing"
+        "idthe5mistakesthatcostmarksa"
       ],
       "incomingLinks": 3,
       "outgoingLinks": 0
@@ -2732,7 +2730,7 @@
         "idhowdoesplanningworknindiaahow"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 17
+      "outgoingLinks": 18
     },
     {
       "slug": "plant-growth-and-development-class-11-revision-notes-neet",
@@ -2749,8 +2747,8 @@
         "table",
         "contents"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 29
+      "incomingLinks": 4,
+      "outgoingLinks": 32
     },
     {
       "slug": "plant-kingdom-class-11-revision-notes-neet",
@@ -2767,8 +2765,8 @@
         "contents",
         "idwhatisplantkingdomawhat"
       ],
-      "incomingLinks": 10,
-      "outgoingLinks": 30
+      "incomingLinks": 11,
+      "outgoingLinks": 32
     },
     {
       "slug": "polymers-class-12-notes",
@@ -2786,7 +2784,7 @@
         "students"
       ],
       "incomingLinks": 1,
-      "outgoingLinks": 0
+      "outgoingLinks": 4
     },
     {
       "slug": "polynomials-class-10-notes",
@@ -2803,8 +2801,8 @@
         "thing",
         "students"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 1,
+      "outgoingLinks": 4
     },
     {
       "slug": "poverty-unemployment-class-11-revision-notes-jee-neet",
@@ -2812,16 +2810,16 @@
       "keywords": [
         "poverty",
         "unemployment",
-        "economics",
+        "neet",
+        "exam",
         "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka",
         "formula",
-        "mistakes",
-        "marks",
-        "solved",
-        "thing",
-        "students"
+        "idthe5mistakesthatcostmarksa"
       ],
-      "incomingLinks": 9,
+      "incomingLinks": 7,
       "outgoingLinks": 0
     },
     {
@@ -2840,7 +2838,7 @@
         "idwhatisthedefinitionofprincipleofmathematicalinductionawhat"
       ],
       "incomingLinks": 25,
-      "outgoingLinks": 19
+      "outgoingLinks": 20
     },
     {
       "slug": "principles-of-inheritance-and-variation-class-12-notes",
@@ -2857,8 +2855,8 @@
         "thing",
         "students"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 2,
+      "outgoingLinks": 5
     },
     {
       "slug": "probability-class-11-revision-notes-jee",
@@ -2875,7 +2873,7 @@
         "notes",
         "idintroductionaintroduction"
       ],
-      "incomingLinks": 12,
+      "incomingLinks": 13,
       "outgoingLinks": 13
     },
     {
@@ -2893,8 +2891,8 @@
         "contents",
         "idwhatisprobabilityintroawhat"
       ],
-      "incomingLinks": 7,
-      "outgoingLinks": 21
+      "incomingLinks": 8,
+      "outgoingLinks": 22
     },
     {
       "slug": "quadratic-equations-class-10-notes",
@@ -2911,8 +2909,8 @@
         "solved",
         "thing"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 3,
+      "outgoingLinks": 4
     },
     {
       "slug": "quadrilaterals-class-9-notes",
@@ -2929,8 +2927,8 @@
         "thing",
         "students"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 2,
+      "outgoingLinks": 6
     },
     {
       "slug": "rational-numbers-class-8-notes",
@@ -2947,8 +2945,8 @@
         "solved",
         "thing"
       ],
-      "incomingLinks": 3,
-      "outgoingLinks": 0
+      "incomingLinks": 6,
+      "outgoingLinks": 5
     },
     {
       "slug": "ray-optics-class-12-quick-class-12-revision-notes-jee-neet",
@@ -2983,8 +2981,8 @@
         "solved",
         "thing"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 2,
+      "outgoingLinks": 7
     },
     {
       "slug": "redox-reactions-class-11-revision-notes-neet",
@@ -3019,8 +3017,8 @@
         "contents",
         "idwhatisrelationsnfunctionsawhat"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 24
+      "incomingLinks": 1,
+      "outgoingLinks": 25
     },
     {
       "slug": "relations-functions-class-11-revision-notes-jee-neet",
@@ -3055,8 +3053,8 @@
         "solved",
         "thing"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 4,
+      "outgoingLinks": 4
     },
     {
       "slug": "reproductive-health-class-12-notes",
@@ -3073,8 +3071,8 @@
         "solved",
         "thing"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 2,
+      "outgoingLinks": 4
     },
     {
       "slug": "respiration-in-plants-class-11-revision-notes-neet",
@@ -3091,8 +3089,8 @@
         "idwhatisrespirationnplantsawhat",
         "idintroductiontorespirationnplantsaintroduction"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 27
+      "incomingLinks": 1,
+      "outgoingLinks": 29
     },
     {
       "slug": "rotational-motion-class-11-revision-notes-jee-neet",
@@ -3127,8 +3125,8 @@
         "thing",
         "students"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 2,
+      "outgoingLinks": 4
     },
     {
       "slug": "sequences-series-class-11-revision-notes-jee",
@@ -3182,7 +3180,7 @@
         "solved"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 0
+      "outgoingLinks": 5
     },
     {
       "slug": "solid-state-class-12-notes",
@@ -3200,7 +3198,7 @@
         "thing"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 0
+      "outgoingLinks": 5
     },
     {
       "slug": "solutions-class-12-notes",
@@ -3218,7 +3216,7 @@
         "students"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 0
+      "outgoingLinks": 6
     },
     {
       "slug": "some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet",
@@ -3253,8 +3251,8 @@
         "marks",
         "solved"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 2,
+      "outgoingLinks": 5
     },
     {
       "slug": "state-scholarship-guide-2026-class-11-revision-notes-neet",
@@ -3272,7 +3270,7 @@
         "contents"
       ],
       "incomingLinks": 28,
-      "outgoingLinks": 25
+      "outgoingLinks": 26
     },
     {
       "slug": "states-of-matter-class-11-revision-notes-jee-neet",
@@ -3344,7 +3342,7 @@
         "marks"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 0
+      "outgoingLinks": 4
     },
     {
       "slug": "structural-organisation-in-animals-class-11-revision-notes-neet",
@@ -3361,7 +3359,7 @@
         "contents",
         "idwhatisstructuralorganisationnanimalsawhat"
       ],
-      "incomingLinks": 0,
+      "incomingLinks": 2,
       "outgoingLinks": 14
     },
     {
@@ -3379,7 +3377,7 @@
         "contents",
         "idwhatisstructureofatomrevisionnotesawhat"
       ],
-      "incomingLinks": 35,
+      "incomingLinks": 37,
       "outgoingLinks": 19
     },
     {
@@ -3398,7 +3396,7 @@
         "idwhatisstructureoftheatomawhat"
       ],
       "incomingLinks": 8,
-      "outgoingLinks": 18
+      "outgoingLinks": 20
     },
     {
       "slug": "study-12-hours-daily-tips-class-11-revision-notes-jee-neet",
@@ -3415,7 +3413,7 @@
         "grandmaster",
         "table"
       ],
-      "incomingLinks": 16,
+      "incomingLinks": 17,
       "outgoingLinks": 18
     },
     {
@@ -3434,7 +3432,7 @@
         "wrong"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 0
+      "outgoingLinks": 5
     },
     {
       "slug": "the-living-world-class-11-revision-notes-neet",
@@ -3469,8 +3467,8 @@
         "contents",
         "idwhatisthepblockelements11awhat"
       ],
-      "incomingLinks": 32,
-      "outgoingLinks": 30
+      "incomingLinks": 33,
+      "outgoingLinks": 31
     },
     {
       "slug": "the-s-block-elements-class-11-revision-notes-jee-neet",
@@ -3487,8 +3485,8 @@
         "contents",
         "idwhatisthesblockelementsawhat"
       ],
-      "incomingLinks": 18,
-      "outgoingLinks": 26
+      "incomingLinks": 21,
+      "outgoingLinks": 27
     },
     {
       "slug": "theory-of-computation-class-12-notes",
@@ -3506,7 +3504,7 @@
         "thing"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 0
+      "outgoingLinks": 4
     },
     {
       "slug": "thermal-properties-of-matter-class-11-revision-notes-jee-neet",
@@ -3596,7 +3594,7 @@
         "idrelatedtopicsa"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 20
+      "outgoingLinks": 21
     },
     {
       "slug": "triangles-class-10-notes",
@@ -3614,7 +3612,7 @@
         "students"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 0
+      "outgoingLinks": 5
     },
     {
       "slug": "trigonometric-functions-class-11-revision-notes-jee-neet",
@@ -3622,8 +3620,8 @@
       "keywords": [
         "trigonometric",
         "functions",
-        "mathematics",
-        "2026",
+        "neet",
+        "exam",
         "grandmaster",
         "table",
         "contents",
@@ -3631,8 +3629,8 @@
         "formula",
         "idthe5mistakesthatcostmarksa"
       ],
-      "incomingLinks": 6,
-      "outgoingLinks": 5
+      "incomingLinks": 10,
+      "outgoingLinks": 0
     },
     {
       "slug": "units-and-measurements-class-11-revision-notes-jee-neet",
@@ -3668,7 +3666,7 @@
         "table"
       ],
       "incomingLinks": 7,
-      "outgoingLinks": 26
+      "outgoingLinks": 27
     },
     {
       "slug": "upsc-optional-selection-guide",
@@ -3686,7 +3684,7 @@
         "marks"
       ],
       "incomingLinks": 7,
-      "outgoingLinks": 0
+      "outgoingLinks": 4
     },
     {
       "slug": "vector-algebra-class-12-notes",
@@ -3703,8 +3701,8 @@
         "thing",
         "students"
       ],
-      "incomingLinks": 0,
-      "outgoingLinks": 0
+      "incomingLinks": 1,
+      "outgoingLinks": 4
     },
     {
       "slug": "wave-optics-class-12-notes",
@@ -3721,8 +3719,8 @@
         "thing",
         "students"
       ],
-      "incomingLinks": 18,
-      "outgoingLinks": 0
+      "incomingLinks": 19,
+      "outgoingLinks": 4
     },
     {
       "slug": "waves-class-11-revision-notes-neet",
@@ -3757,7 +3755,7 @@
         "contents",
         "idwhatisworkenergynpowerrevisionnotesawhat"
       ],
-      "incomingLinks": 0,
+      "incomingLinks": 2,
       "outgoingLinks": 21
     },
     {
@@ -3776,7 +3774,7 @@
         "table"
       ],
       "incomingLinks": 10,
-      "outgoingLinks": 23
+      "outgoingLinks": 25
     }
   ]
 }

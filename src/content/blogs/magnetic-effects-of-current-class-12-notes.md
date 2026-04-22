@@ -125,7 +125,7 @@ How does the Magnetic Field Depend on the Current and the Loop? is the relations
 
 The magnetic field $B$ is directly proportional to the current $I$ flowing through the loop and the number of turns $n$ n the coil. This relationship is described y the formula $B propto nI$. The constant of proportionality depends on the permeability of the medium $mu_0$ n the radius $r$ of the loop. As the current increases, the magnetic field strength also increases. Similarly, as the number of turns and the coil increases, the magnetic field strength increases.
 
-To understand this relationship better, let's consider a simple example. Suppose we have a coil with a fixed radius and a fixed number of turns. If we increase the current flowing through the coil, the magnetic field strength will increase. This is because the increased current produces a stronger magnetic field.
+To understand this relationship better, let's consider a simple example. Suppose we have a coil with a fixed radius and a fixed number of turns. If we increase the [current](/blog/alternating-current-class-12-notes) flowing through the coil, the magnetic field strength will increase. This is because the increased [current](/blog/alternating-current-class-12-notes) produces a stronger magnetic field.
 
 The dependence of the magnetic field on the loop's characteristics is also crucial. The magnetic field is inversely proportional to the radius of the loop. This means that as the radius of the loop increases, the magnetic field strength decreases. This relationship is described y the formula $B propto \frac{1}{r}$.
 
@@ -323,7 +323,7 @@ A) /(2 × (0.2 m)^2) × (0.4 m/0.2 m) = 0.0016 T or 1.6 × 10^-3 T or approximat
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/electrostatics-class-12-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Magnetism and Matter Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetism-n-matter-class-12-notes)
 - 📖 [Electromagnetic Induction Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)

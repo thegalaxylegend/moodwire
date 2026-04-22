@@ -14,7 +14,7 @@ manualReview: false
 - The feasible region is the set of all possible solutions that satisfy the constraints.
 - The optimal solution is the point in the feasible region that maximizes or minimizes the objective function.
 - The corner point theorem states that the optimal solution occurs at one of the corner points of the feasible region.
-- The simplex method is a popular algorithm for solving Linear Programming problems.
+- The simplex method is a popular algorithm for solving [linear](/blog/pair-of-linear-equations-class-10-notes) Programming problems.
 - The dual of a Linear Programming problem is another Linear Programming problem that is derived from the original problem.
 - The strong duality theorem states that the optimal values of the primal and dual problems are equal.
 - The weak duality theorem states that the optimal value of the dual problem is less than or equal to the optimal value of the primal problem.
@@ -70,13 +70,13 @@ D) To solve a system of linear equations.
 
 **2. What is the general form of a Linear Programming problem?**
 -
-A) $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i$, subject to $\sum_{i=1}^{n} a_{ij} x_i \leq \text{ or } \geq b_j$, $x_i \geq 0$.
+A) \max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i, subject to \sum_{i=1}^{n} a_{ij} x_i \leq \text{ or } \geq b_j, x_i \geq 0.
 -
-B) $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i$, subject to $\sum_{i=1}^{n} a_{ij} x_i = b_j$, $x_i \geq 0$.
+B) \max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i, subject to \sum_{i=1}^{n} a_{ij} x_i = b_j, x_i \geq 0.
 -
-C) $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i$, subject to $\sum_{i=1}^{n} a_{ij} x_i \leq \text{ or } \geq b_j$.
+C) \max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i, subject to \sum_{i=1}^{n} a_{ij} x_i \leq \text{ or } \geq b_j.
 -
-D) $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i$, subject to $x_i \geq 0$.
+D) \max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i, subject to x_i \geq 0.
 
 **Answer: A) $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i$, subject to $\sum_{i=1}^{n} a_{ij} x_i \leq \text{ or } \geq b_j$, $x_i \geq 0$.**
 
@@ -121,7 +121,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

@@ -340,7 +340,7 @@ By following this approach, I am confident that I can achieve academic success a
 I, Ayush, believe that continuous improvement is essential for academic success, n that it is essential to continually review and revise my [notes](/blog/neural-control-and-coordination-class-11-revision-notes-neet) and study materials. I make sure to practice MCQs to assess my knowledge and identify areas for improvement, n I use LaTeX to format my [notes](/blog/neural-control-and-coordination-class-11-revision-notes-neet) and make them more readable.
 
 ### <a id="future-academic-success"></a>Future Academic Success
-I, Ayush, look forward to my future academic success, n I am excited to continue learning and growing throughout my academic career. I believe that understanding the Industrial Revolution is essential for understanding the modern world, n I am committed to continuing my studies and revision throughout my academic career.
+I, Ayush, look forward to my future academic success, n I am excited to continue learning and growing throughout my academic career. I believe that understanding the Industrial Revolution is essential for understanding the modern world, n I am committed to continuing my studies and [revision](/blog/neural-control-and-coordination-class-11-revision-notes-neet) throughout my academic career.
 
 #### Ongoing Learning and Revision
 I, Ayush, make ongoing learning and revision a priority, n I review my notes and study materials regularly. I practice MCQs to assess my knowledge and identify areas for improvement, n I use LaTeX to format my notes and make them more readable.

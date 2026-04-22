@@ -26,7 +26,7 @@ manualReview: false
 - The steps of PCR are: denaturation, annealing, and extension.
 
 ## 
-- The 5 mistakes that cost marks in biotechnology are:
+- The 5 mistakes that cost marks in [biotechnology](/blog/biotechnology-and-its-applications-class-12-notes) are:
 - Not understanding the central dogma of molecular biology.
 - Not being able to identify the different types of RNA (mRNA, tRNA, rRNA).
 - Not being able to explain the process of DNA replication.
@@ -143,7 +143,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
-
 ---
 
 ## 📚 Related Topics
@@ -154,3 +153,4 @@ Continue your revision with these related guides:
 - 📖 [Principles Of Inheritance And Variation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/principles-of-inheritance-and-variation-class-12-notes)
 - 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
 - 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+$

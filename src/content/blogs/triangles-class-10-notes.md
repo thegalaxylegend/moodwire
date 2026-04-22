@@ -54,7 +54,7 @@ manualReview: false
 - Always check if the given triangle is valid, i.e., the sum of any two sides must be greater than the third side
 
 ## 🔁 Last 5 Minutes Box
-- Make sure to check all the formulas and theorems related to triangles
+- Make sure to check all the formulas and theorems [related](/blog/areas-related-to-circles-class-10-notes) to triangles
 - Go through the solved examples and practice problems to reinforce your understanding
 - Use the last 5 minutes to quickly review the key concepts and formulas
 
@@ -73,15 +73,15 @@ D) $360^\circ$
 
 **2. What is the formula for calculating the area of a triangle with base $b$ and height $h$?**
 -
-A) $\frac{1}{2}$ \times b \times h
+A) \frac{1}{2} \times b \times h
 -
-B) $\frac{1}{3}$ \times b \times h
+B) \frac{1}{3} \times b \times h
 -
-C) $\frac{2}{3}$ \times b \times h
+C) \frac{2}{3} \times b \times h
 -
-D) $\frac{3}{2}$ \times b \times h
+D) \frac{3}{2} \times b \times h
 
-**Answer: A) $\frac{1}{2}$ \times b \times h**
+**Answer: A) \frac{1}{2} \times b \times h**
 
 **3. What is the Pythagorean theorem?**
 -
@@ -126,7 +126,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

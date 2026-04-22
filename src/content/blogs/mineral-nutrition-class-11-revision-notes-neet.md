@@ -130,7 +130,7 @@ N - Nitrogen
 G - Calcium
 S - Sulfur
 
-This acronym helps to remember the essential elements required y plants.
+This acronym helps to remember the essential [elements](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) required y plants.
 
 ## <a id="trap-questionsexceptions"></a>Trap Questions/Exceptions
 
@@ -185,7 +185,7 @@ Answer: a) Yellowing of leaves
 a) Yellowing of leaves
 b) Stunted [growth](/blog/plant-growth-n-development-class-11-revision-notes-neet) n purple coloration of leaves
 c) Scorching of leaves and reduced [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet)
-d) Curling of leaves and reduced growth
+d) Curling of leaves and reduced [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet)
 
 Answer: b) Stunted growth and purple coloration of leaves
 

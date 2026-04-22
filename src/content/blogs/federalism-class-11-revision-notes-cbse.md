@@ -123,7 +123,7 @@ Continue your [revision](/blog/constitutional-framework-class-11-revision-notes-
   + Can be slower and responding to national issues 
 * **Types of Federalism**: 
   + Coming Together Federalism (USA) 
-  + Holding Together Federalism ([india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)) 
-* **Federalism and India**: 
+  + Holding Together Federalism ([India](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)) 
+* **Federalism and [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)**: 
   + Features: written constitution, independent judiciary, division of power 
   + Challenges: regionalism, communalism, casteism

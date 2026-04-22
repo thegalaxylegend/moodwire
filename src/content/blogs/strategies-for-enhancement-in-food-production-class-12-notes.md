@@ -67,13 +67,13 @@ D) Increases the use of chemical pesticides by $\frac{20-50}{100}$ percent
 
 **2. How does $\text{intercropping}$ increase the yield of crops?**
 -
-A) By $\frac{10-20}{100}$ percent
+A) By \frac{10-20}{100} percent
 -
-B) By $\frac{20-50}{100}$ percent
+B) By \frac{20-50}{100} percent
 -
-C) By $\frac{50-100}{100}$ percent
+C) By \frac{50-100}{100} percent
 -
-D) By $\frac{100-200}{100}$ percent
+D) By \frac{100-200}{100} percent
 
 **Answer: B) By $\frac{20-50}{100}$ percent.**
 
@@ -120,7 +120,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

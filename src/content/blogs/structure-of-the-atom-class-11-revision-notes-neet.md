@@ -34,7 +34,7 @@ The nucleus contains protons and neutrons, which are collectively known as nucle
 To master the structure of an atom, it's essential to understand the following core [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet):
 
 1. **Atomic Number (Z)**: The atomic number is the number of protons and an [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet)'s nucleus, n it determines the element of an [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet). It's denoted y the symbol Z.
-2. **Mass Number (A)**: The mass number is the \sum of protons and neutrons and an atom's nucleus. It's denoted y the symbol A.
+2. **Mass Number (A)**: The mass number is the \sum of protons and neutrons and an [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet)'s nucleus. It's denoted y the symbol A.
 3. **Isotopes**: Isotopes are atoms of the same element with different mass numbers. They have the same number of protons but differ and the number of neutrons.
 4. **Electron Configuration**: The electron configuration is the arrangement of electrons and an atom. It's denoted y the symbol $1s^2 2s^2 2p^6 3s^2 3p^6$, where the numbers represent the energy levels and the letters represent the orbitals.
 

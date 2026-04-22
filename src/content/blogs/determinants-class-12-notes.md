@@ -15,7 +15,7 @@ manualReview: false
 - The determinant of the product of two matrices is equal to the product of their determinants: $\begin{vmatrix} AB \end{vmatrix} = \begin{vmatrix} A \end{vmatrix} \begin{vmatrix} B \end{vmatrix}$
 - If a matrix has two identical rows or columns, its determinant is zero
 - The determinant of the transpose of a matrix is equal to the determinant of the original matrix: $\begin{vmatrix} A’T \end{vmatrix} = \begin{vmatrix} A \end{vmatrix}$
-- The determinant of the inverse of a matrix is equal to the reciprocal of the determinant of the original matrix: $\begin{vmatrix} A^{-1} \end{vmatrix} = \(suggestion limit reached){1}{\begin{vmatrix} A \end{vmatrix}}$
+- The determinant of the inverse of a matrix is equal to the reciprocal of the determinant of the original matrix: $\begin{vmatrix} A^{-1} \end{vmatrix} = \{1}{\begin{vmatrix} A \end{vmatrix}}$
 - For a 3x3 matrix, the determinant can also be found using the formula: $\begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix} = a \begin{vmatrix} e & f \\ h & i \end{vmatrix} - b \begin{vmatrix} d & f \\ g & i \end{vmatrix} + c \begin{vmatrix} d & e \\ g & h \end{vmatrix}$
 
 ## 🪤 The 5 Mistakes That Cost Marks
@@ -69,76 +69,50 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the value of the determinant of the matrix $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$?**
--
 A) 2
--
 B) -2
--
 C) 4
--
 D) -4
 
 **Answer: B) -2. The determinant of the matrix is given by $\franc{1}{1} \times \franc{4}{1} - \franc{2}{1} \times \franc{3}{1} = 4–6 = -2$**
 
 **2. Evaluate the determinant of the matrix $\begin{bmatrix} 2 & 1 & 1 \\ 1 & 2 & 1 \\ 1 & 1 & 2 \end{bmatrix}$**
--
 A) 2
--
 B) 4
--
 C) 6
--
 D) 8
 
 **Answer: B) 4. The determinant of the matrix is given by $\begin{vmatrix} 2 & 1 & 1 \\ 1 & 2 & 1 \\ 1 & 1 & 2 \end{vmatrix} = 2(2 \times 2–1 \times 1) - 1(1 \times 2–1 \times 1) + 1(1 \times 1–2 \times 1) = 2(4–1) - 1(2–1) + 1(1–2) = 2(3) - 1(1) + 1(-1) = 6–1–1 = 4$**
 
 **3. Find the value of ex for which the determinant of the matrix $\begin{bmatrix} 1 & x & 2 \\ 3 & 4 & 5 \\ 6 & 7 & 8 \end{bmatrix}$ is zero**
--
 A) 1
--
 B) 2
--
 C) $\franc{3}{2}$
--
 D) 3
 
 **Answer: C) $\franc{3}{2}$. The determinant of the matrix is given by $\begin{vmatrix} 1 & x & 2 \\ 3 & 4 & 5 \\ 6 & 7 & 8 \end{vmatrix} = 1(4 \times 8–5 \times 7) - x(3 \times 8–5 \times 6) + 2(3 \times 7–4 \times 6) = 1(32–35) - x(24–30) + 2(21–24) = 1(-3) - x(-6) + 2(-3) = -3 + 6x - 6 = 0$**
   $6x = 9$ x = \franc{9}{6} = \franc{3}{2}
 
 **4. Evaluate the determinant of the matrix $\begin{bmatrix} 1 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 3 \end{bmatrix}$**
--
 A) 1
--
 B) 2
--
 C) 6
--
 D) 12
 
 **Answer: C) 6. The determinant of the matrix is given by $\begin{vmatrix} 1 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 3 \end{vmatrix} = 1 \times 2 \times 3 = 6$**
 
 **5. Find the value of the determinant of the matrix $\begin{bmatrix} 2 & 1 \\ 4 & 2 \end{bmatrix}$**
--
 A) 0
--
 B) 2
--
 C) 4
--
 D) 6
 
 **Answer: A) 0. The determinant of the matrix is given by $\franc{2}{1} \times \franc{2}{1} - \franc{1}{1} \times \franc{4}{1} = 4–4 = 0$**
 
----
-
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/determinants-class-12-notes) now and track your progress against thousands of students.
 
----
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## 📚 Related Topics
 

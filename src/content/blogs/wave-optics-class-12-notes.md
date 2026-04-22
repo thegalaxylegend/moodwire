@@ -28,15 +28,15 @@ manualReview: false
 - **PYQ 1:** A single slit of width $0.1 \, \text{mm}$ is illuminated by a parallel beam of monochromatic light of wavelength $6000 \, \text{\AA}$. Find the width of the central maxima, if the distance between the slit and the screen is $1 \, \text{m}$.
   - $\sin \theta = \frac{\lambda}{a}$, where $\theta$ is angle of diffraction, $\lambda$ is wavelength, and $a$ is width of slit
   - $\sin \theta = \frac{y}{D}$, where $y$ is distance from central maxima, and $D$ is distance between screen and slit
-  -  rac{\lambda}{a} = $\frac{y}{D}$
-  -  = $\frac{\lambda D}{a}$
-  -  = $\frac{6000 \times 10^{-10}$ \times 1}{0.1 \times 10^{-3}} = 6 \times 10^{-3} \, $\text{m}$ = 6 \, $\text{mm}$
+  -   c{\lambda}{a} = $\frac{y}{D}$
+  -   $\frac{\lambda D}{a}$
+  -   $\frac{6000 \times 10^{-10}$ \times 1}{0.1 \times 10^{-3}} = 6 \times 10^{-3} \, $\text{m}$ = 6 \, $\text{mm}$
 - **PYQ 2:** In Young's double slit experiment, the distance between the slits is $0.1 \, \text{mm}$ and the distance between the screen and the slits is $1 \, \text{m}$. If the wavelength of light used is $6000 \, \text{\AA}$, find the distance between the consecutive bright fringes.
   - $\beta = \frac{\lambda D}{d}$, where $\beta$ is fringe width, $\lambda$ is wavelength, $D$ is distance between screen and slits, and $d$ is distance between slits
-  -  eta = $\frac{6000 \times 10^{-10}$ \times 1}{0.1 \times 10^{-3}} = 6 \times 10^{-3} \, $\text{m}$ = 6 \, $\text{mm}$
+  -   a = $\frac{6000 \times 10^{-10}$ \times 1}{0.1 \times 10^{-3}} = 6 \times 10^{-3} \, $\text{m}$ = 6 \, $\text{mm}$
 - **PYQ 3:** A convex lens of focal length $20 \, \text{cm}$ is placed in contact with a concave lens of focal length $30 \, \text{cm}$. Find the effective focal length of the combination.
   - $\frac{1}{f} = \frac{1}{f_1} + \frac{1}{f_2}$, where $f$ is effective focal length, $f_1$ is focal length of convex lens, and $f_2$ is focal length of concave lens
-  -  rac{1}{f} = $\frac{1}{20}$ - $\frac{1}{30}$ = $\frac{1}{60}$
+  -   c{1}{f} = $\frac{1}{20}$ - $\frac{1}{30}$ = $\frac{1}{60}$
   - $f = 60 \, \text{cm}$
 
 ## 🧠 The One Thing Most Students Get Wrong
@@ -120,7 +120,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

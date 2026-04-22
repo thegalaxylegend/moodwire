@@ -23,7 +23,7 @@ eq 0$.
 - To divide two rational numbers, we multiply the first rational number by the reciprocal of the second rational number, i.e., $\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c} = \frac{ad}{bc}$.
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not simplifying the rational numbers to their lowest terms.
+- Not simplifying the rational [numbers](/blog/real-numbers-class-10-notes) to their lowest terms.
 - Not finding the least common multiple (LCM) of the denominators while adding or subtracting rational numbers.
 - Not using the correct signs while adding or subtracting rational numbers.
 - Not using the distributive property of multiplication over addition while multiplying rational numbers.
@@ -32,11 +32,11 @@ eq 0$.
 ## ✏️ 3 Solved PYQs
 - **Question 1:** Simplify the expression $\frac{3}{4} + \frac{1}{6}$.
   - To add these two rational numbers, we need to have the same denominator, which is the LCM of $4$ and $6$, i.e., $12$.
-  -  , $\frac{3}{4}$ = $\frac{3 \times 3}{4 \times 3}$ = $\frac{9}{12}$ and $\frac{1}{6}$ = $\frac{1 \times 2}{6 \times 2}$ = $\frac{2}{12}$. 
+  -   $\frac{3}{4}$ = $\frac{3 \times 3}{4 \times 3}$ = $\frac{9}{12}$ and $\frac{1}{6}$ = $\frac{1 \times 2}{6 \times 2}$ = $\frac{2}{12}$. 
   - Now, we can add these two rational numbers: $\frac{9}{12} + \frac{2}{12} = \frac{11}{12}$.
 - **Question 2:** Subtract $\frac{2}{5}$ from $\frac{3}{4}$.
   - To subtract these two rational numbers, we need to have the same denominator, which is the LCM of $5$ and $4$, i.e., $20$.
-  -  , $\frac{3}{4}$ = $\frac{3 \times 5}{4 \times 5}$ = $\frac{15}{20}$ and $\frac{2}{5}$ = $\frac{2 \times 4}{5 \times 4}$ = $\frac{8}{20}$. 
+  -   $\frac{3}{4}$ = $\frac{3 \times 5}{4 \times 5}$ = $\frac{15}{20}$ and $\frac{2}{5}$ = $\frac{2 \times 4}{5 \times 4}$ = $\frac{8}{20}$. 
   - Now, we can subtract these two rational numbers: $\frac{15}{20} - \frac{8}{20} = \frac{7}{20}$.
 - **Question 3:** Multiply $\frac{2}{3}$ by $\frac{3}{4}$.
   - To multiply these two rational numbers, we multiply the numerators and denominators separately: $\frac{2}{3} \times \frac{3}{4} = \frac{2 \times 3}{3 \times 4} = \frac{6}{12} = \frac{1}{2}$.
@@ -64,63 +64,63 @@ eq 0$.
 ## 📝 Practice MCQs
 **1. What is the sum of $\frac{1}{2}$ and $\frac{1}{3}$?**
 -
-A) $\frac{2}{5}$
+A) \frac{2}{5}
 -
-B) $\frac{5}{6}$
+B) \frac{5}{6}
 -
-C) $\frac{1}{2} + \frac{1}{3} = \frac{3}{6} + \frac{2}{6} = \frac{5}{6}$
+C) \frac{1}{2} + \frac{1}{3} = \frac{3}{6} + \frac{2}{6} = \frac{5}{6}
 -
-D) $\frac{3}{4}$
+D) \frac{3}{4}
 
-**Answer: B) $\frac{1}{2}$ + $\frac{1}{3}$ = $\frac{3}{6}$ + $\frac{2}{6}$ = $\frac{5}{6}$**
+**Answer: B) \frac{1}{2} + \frac{1}{3} = \frac{3}{6} + \frac{2}{6} = \frac{5}{6}**
 
 **2. What is the product of $\frac{2}{3}$ and $\frac{3}{4}$?**
 -
-A) $\frac{1}{2}$
+A) \frac{1}{2}
 -
-B) $\frac{1}{6}$
+B) \frac{1}{6}
 -
-C) $\frac{2}{3} \times \frac{3}{4} = \frac{6}{12} = \frac{1}{2}$
+C) \frac{2}{3} \times \frac{3}{4} = \frac{6}{12} = \frac{1}{2}
 -
-D) $\frac{3}{4}$
+D) \frac{3}{4}
 
-**Answer: A) $\frac{2}{3}$ \times $\frac{3}{4}$ = $\frac{6}{12}$ = $\frac{1}{2}$**
+**Answer: A) \frac{2}{3} \times \frac{3}{4} = \frac{6}{12} = \frac{1}{2}**
 
 **3. What is the difference between $\frac{3}{4}$ and $\frac{1}{6}$?**
 -
-A) $\frac{1}{12}$
+A) \frac{1}{12}
 -
-B) $\frac{7}{12}$
+B) \frac{7}{12}
 -
-C) $\frac{3}{4} - \frac{1}{6} = \frac{9}{12} - \frac{2}{12} = \frac{7}{12}$
+C) \frac{3}{4} - \frac{1}{6} = \frac{9}{12} - \frac{2}{12} = \frac{7}{12}
 -
-D) $\frac{5}{6}$
+D) \frac{5}{6}
 
-**Answer: B) $\frac{3}{4}$ - $\frac{1}{6}$ = $\frac{9}{12}$ - $\frac{2}{12}$ = $\frac{7}{12}$**
+**Answer: B) \frac{3}{4} - \frac{1}{6} = \frac{9}{12} - \frac{2}{12} = \frac{7}{12}**
 
 **4. What is the sum of $\frac{2}{5}$ and $\frac{3}{10}$?**
 -
-A) $\frac{1}{2}$
+A) \frac{1}{2}
 -
-B) $\frac{7}{10}$
+B) \frac{7}{10}
 -
-C) $\frac{2}{5} + \frac{3}{10} = \frac{4}{10} + \frac{3}{10} = \frac{7}{10}$
+C) \frac{2}{5} + \frac{3}{10} = \frac{4}{10} + \frac{3}{10} = \frac{7}{10}
 -
-D) $\frac{3}{5}$
+D) \frac{3}{5}
 
-**Answer: B) $\frac{2}{5}$ + $\frac{3}{10}$ = $\frac{4}{10}$ + $\frac{3}{10}$ = $\frac{7}{10}$**
+**Answer: B) \frac{2}{5} + \frac{3}{10} = \frac{4}{10} + \frac{3}{10} = \frac{7}{10}**
 
 **5. What is the product of $\frac{3}{5}$ and $\frac{2}{3}$?**
 -
-A) $\frac{1}{5}$
+A) \frac{1}{5}
 -
-B) $\frac{2}{5}$
+B) \frac{2}{5}
 -
-C) $\frac{3}{5} \times \frac{2}{3} = \frac{6}{15} = \frac{2}{5}$
+C) \frac{3}{5} \times \frac{2}{3} = \frac{6}{15} = \frac{2}{5}
 -
-D) $\frac{3}{2}$
+D) \frac{3}{2}
 
-**Answer: B) $\frac{3}{5}$ \times $\frac{2}{3}$ = $\frac{6}{15}$ = $\frac{2}{5}$**
+**Answer: B) \frac{3}{5} \times \frac{2}{3} = \frac{6}{15} = \frac{2}{5}**
 
 ---
 
@@ -129,7 +129,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

@@ -13,14 +13,14 @@ manualReview: false
 - Integrated rate law: $\ln \left( \franc{a}{a - x} \right) = KTM for first order reactions
 - Half-life: at_{1/2} = \franc{\ln 2}{k}$ for first order reactions
 - Rate constant: OK = \franc{2.303}{t} \log \left( \franc{a}{a - x} \right)$
-- Activation energy: HE_a = 2.303 R \log \left( \franc{k_2}{k_1} \right) \left( \franc{T_2 T_1}{T_2 - T_1} \right)$
+- Activation energy: HE_a = 2.303 R \log \left( \franc{k_2}{k_1} \right) \left( \franc’T_2 T_1}{T_2 - T_1} \right)$
 - Arrhenius equation: OK = AE^{-E_a / RT}$
 - Collision theory: rate of reaction $\propto$ frequency of collisions $\propto$ concentration of reactants
 - Transition state theory: rate of reaction $\propto$ concentration of reactants $\proto e^{-E_a / RT}$
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not understanding the concept of rate of reaction and its dependence on concentration and time
-- Confusing between first order and second order reactions and their respective rate laws
+- Confusing between first order and second order [reactions](/blog/chemical-reactions-and-equations-class-10-notes) and their respective rate laws
 - Not being able to derive the integrated rate law for first order reactions
 - Not understanding the concept of half-[life](/blog/chemistry-in-everyday-life-class-12-notes) and its relationship with the rate constant
 - Not being able to apply the Arrhenius equation to solve problems related to temperature dependence of rate constant
@@ -39,12 +39,12 @@ manualReview: false
 ## 👁️ Ayush's Note
 - To solve problems related to [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) kinetics, it is essential to understand the concept of rate of reaction and its dependence on concentration and time. It is also crucial to be able to derive the integrated rate law for first order reactions and to apply the Arrhenius equation to solve problems related to temperature dependence of rate constant.
 - It is also important to be able to identify the order of the reaction and to determine the rate constant from the given data.
-- Practice is key to mastering chemical kinetics, so make sure to practice as many problems as possible to get a good grasp of the concepts.
+- Practice is key to mastering [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) kinetics, so make sure to practice as many problems as possible to get a good grasp of the concepts.
 
 ## 🔁 Last 5 Minutes Box
 - Make sure to review the formulas for rate of reaction, integrated rate law, and Arrhenius equation.
 - Practice deriving the integrated rate law for first order reactions.
-- Review the concept of half-life and its relationship with the rate constant.
+- Review the concept of half-[life](/blog/chemistry-in-everyday-life-class-12-notes) and its relationship with the rate constant.
 - Make sure to understand the concept of activation energy and its relationship with the rate constant.
 - Practice applying the Arrhenius equation to solve problems related to temperature dependence of rate constant.
 
@@ -111,9 +111,9 @@ D) Rate $\proto \franc{1}{\left[ \text{reactant} \right]^2}$
 
 ## ⚗️ Chemical Quick Reference (Verified via PubChem)
 
-| Compound | Formula | Mol. Weight | Source |
+| Compound | Formula | MOL. Weight | Source |
 |:---|:---:|:---:|:---:|
-| **water** | H2O | 18.015 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/962) |
+| **water** | H2O | 18.015 g/MOL | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/962) |
 
 ---
 
@@ -122,7 +122,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

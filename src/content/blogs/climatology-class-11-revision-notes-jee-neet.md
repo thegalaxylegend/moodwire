@@ -28,7 +28,7 @@ practice_link: "/class-11/chemistry/climatology-class-11-revision-notes-jee-neet
 
 ## <a id="core-concepts"></a>Core Concepts
 
-The following are the key concepts and climatology:
+The following are the key [concepts](/blog/jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet) and climatology:
 
 1. **Temperature**: The degree of heat or cold measured on a **temperature scale**.
 2. **Humidity**: The amount of **water vapor** present and the air.

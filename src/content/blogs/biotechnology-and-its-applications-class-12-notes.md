@@ -34,8 +34,8 @@ manualReview: false
 - $DNA \: fingerprinting
 -$ Polymerase \: chain \: reaction \: (PCR)$
 -$ Southern \: blotting
-(suggestion limit reached) \: (suggestion limit reached)
-(suggestion limit reached) \: (suggestion limit reached)
+ \: 
+ \: 
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not understanding the concept of rDNA \: technology and its applications.
@@ -69,75 +69,49 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the primary function of restriction \: endonucleases in rDNA \: technology?**
--
 A) To cut DNA at specific recognition sites
--
 B) To ligate DNA fragments
--
 C) To amplify DNA sequences
--
 D) To sequence DNA
 
 **Answer: A) To cut DNA at specific recognition sites**
 
 **2. What is the significance of the human \: Genome \: Project?**
--
 A) To develop new biotechnology products
--
 B) To sequence the entire human genome
--
 C) To create recombinant \: DNAs molecules
--
 D) To develop gene \: therapy
 
 **Answer: B) To sequence the entire human genome**
 
 **3. What is the role of stem \: cells in biotechnology?**
--
 A) To differentiate into different cell types
--
 B) To self-renew
--
 C) To produce monoclonal \: antibodies
--
 D) To sequence DNA
 
 **Answer: A) To differentiate into different cell types**
 
 **4. What is the principle behind $DNA \: fingerprinting?**
--
 A) southern \: blotting and PCR
--
 B) northern \: blotting and western \: blotting
--
 C) gene \: cloning and gene \: editing
--
 D) stem \: cell \: therapy and gene \: therapy
 
-**Answer: A) (suggestion limit reached) \: (suggestion limit reached) and (suggestion limit reached)**
+**Answer: A)  \:  and **
 
 **5. What is the regulatory mechanism of the lac \: operon?**
--
 A) It involves the use of repressor \: proteins to regulate gene expression
--
 B) It involves the use of inducer \: molecules to regulate gene expression
--
 C) It involves the use of $RNA \: polymerase to regulate gene expression
--
 D) It involves the use of restriction \: endonucleases to regulate gene expression
 
 **Answer: A) It involves the use of repressor \: proteins to regulate gene expression**
 
----
-
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/biotechnology-and-its-applications-class-12-notes) now and track your progress against thousands of students.
 
----
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## 📚 Related Topics
 

@@ -165,7 +165,7 @@ What is the key Shortcut or Trick for Algorithms: Analysis? is understanding the
    
    To solve algorithmic problems, one must understand the concept of time and space complexity. Time complexity refers to the amount of time an algorithm takes to complete as a function of the size of the input. Space complexity refers to the amount of memory an algorithm uses. The key shortcut or trick is to identify the complexity class of an algorithm, which can be constant time $O(1)$, logarithmic time $O(\log n)$, linear time $O(n)$, linearithmic time $O(n \log n)$, quadratic time $O(n^2)$, cubic time $O(n^3)$, n exponential time $O(2^n)$. 
    
-   Another crucial aspect is understanding the trade-offs between different algorithms. For instance, an algorithm with a lower time complexity might have a higher space complexity. Similarly, an algorithm with a higher time complexity might have a lower space complexity. The choice of algorithm depends on the specific problem and the available resources. 
+   Another crucial aspect is understanding the trade-offs between different [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards). For instance, an algorithm with a lower time complexity might have a higher space complexity. Similarly, an algorithm with a higher time complexity might have a lower space complexity. The choice of algorithm depends on the specific problem and the available resources. 
    
    Amortized analysis is also a key concept and algorithm analysis. It refers to the analysis of an algorithm's time or space complexity over a sequence of operations. This is particularly useful when the algorithm's performance varies over time. For example, if an algorithm has a high time complexity for a single operation but a low time complexity when averaged over a sequence of operations, it might be a good choice for a particular problem. 
    
@@ -174,7 +174,7 @@ What is the key Shortcut or Trick for Algorithms: Analysis? is understanding the
    The following table summarizes the different complexity classes and their characteristics:
    
 
-| Complexity Class | Time Complexity | Space Complexity | Example Algorithms |
+| Complexity [class](/blog/data-structures-linear-class-11-revision-notes-gate-boards) | Time Complexity | Space Complexity | Example Algorithms |
 | --- | --- | --- | --- |
 | Constant Time | $O(1)$ | $O(1)$ | Accessing an array y index |
 | Logarithmic Time | $O(\log n)$ | $O(\log n)$ | Binary search and an array |

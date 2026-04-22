@@ -21,7 +21,7 @@ manualReview: false
 
 ## 
 - Key properties of squares and square roots to remember: $\sqrt{a} \times \sqrt{a} = a$, $\sqrt{a} \times \sqrt{b} = \sqrt{a \times b}$, and $\frac{\sqrt{a}}{\sqrt{b}} = \sqrt{\frac{a}{b}}$
-- Common mistakes in simplifying square roots: not simplifying the square root of a fraction, not using the properties of square roots to simplify expressions
+- Common mistakes in simplifying square [roots](/blog/cubes-and-cube-roots-class-8-notes): not simplifying the square root of a fraction, not using the properties of square [roots](/blog/cubes-and-cube-roots-class-8-notes) to simplify expressions
 - Important identities to remember: $(a + b)^2 = a^2 + 2ab + b^2$, $(a - b)^2 = a^2 - 2ab + b^2$, and $a^2 - b^2 = (a + b)(a - b)$
 
 ## 🪤 The 5 Mistakes That Cost Marks
@@ -43,7 +43,7 @@ manualReview: false
 - **Question 3:** Simplify $\frac{\sqrt{4}}{\sqrt{9}}$
 - Step 1: Simplify the square roots separately, $\sqrt{4} = 2$ and $\sqrt{9} = 3$
 - Step 2: Divide the simplified square roots, $\frac{2}{3}$
--  **Answer:** $\frac{2}{3}$
+-   **Answer:** $\frac{2}{3}$
 
 ## 🧠 The One Thing Most Students Get Wrong
 - The most common mistake students make is not using the properties of square roots to simplify expressions
@@ -133,7 +133,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

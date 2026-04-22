@@ -52,7 +52,7 @@ manualReview: false
 ## 👁️ Ayush's Note
 - Always check if the given equation represents a circle before solving the problem.
 - Use the correct formula for the length of the tangent from an external point and the equation of the tangent to a circle at a point.
-- Use the properties of circles, such as the angle between a tangent and a chord, and the angle subtended by an arc at the center.
+- Use the properties of [circles](/blog/areas-related-to-circles-class-10-notes), such as the angle between a tangent and a chord, and the angle subtended by an arc at the center.
 - Practice solving problems to get a good understanding of the concepts.
 
  
@@ -134,15 +134,14 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 *Content verified against peer-reviewed research:*
 
-1. *�Let the People Rap�: Cultural Rhetorics Pedagogy and Practices U...* — **Journal of Basic Writing** (2019) 🔓 — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.05)
-2. *Frustration and Hope: Examining Students� Emotional Responses to ...* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.03)
+1. *� Let the People Rap: Cultural Rhetorics Pedagogy and Practices U...* — **Journal of Basic Writing** (2019) 🔓 — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.05)
+2. *Frustration and Hope: Examining Students Emotional Responses to ...* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.03)
 3. *Editors' Column* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.01)
 
 *🔓 = Open Access article*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -154,3 +153,4 @@ Continue your revision with these related guides:
 - 📖 [Compiler Design Class 12 Exam Prep Revision — Grandmaster Guide](/blog/compiler-design-class-12-notes)
 - 📖 [Computer Networks Class 12 Exam Prep Revision — Grandmaster Guide](/blog/computer-networks-class-12-notes)
 - 📖 [Data Handling 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/data-handling-class-8-notes)
+$

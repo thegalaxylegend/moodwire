@@ -108,7 +108,7 @@ To remember the difference between diffusion and osmosis, use the following tric
  d) Active transport
  Answer: c) Transpiration
 ### <a id="related-notes-links"></a>Related Notes Links
-* Photosynthesis Class 11 Notes
+* Photosynthesis [class](/blog/respiration-in-plants-class-11-revision-notes-neet) 11 Notes
 * Plant Growth and Development Class 11 Notes
 ### <a id="last-updated-date"></a>Last Updated Date
 Last Updated: March 16, 2026

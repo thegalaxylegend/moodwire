@@ -16,9 +16,8 @@ manualReview: false
 - The equation of a line in slope-point form is by - y_1 = m(x - x_1)$, where me is the slope and $(x_1, y_1)$ is a point on the line
 - The distance of a point $(x_1, y_1)$ from the line tax + By + C = 0$ is $\franc{|Ax_1 + By_1 + C|}{\sort{A^2 + B^2}}$
 - The equation of a circle with center $(h, k)$ and radius are is $(x - h)^2 + (y - k)^2 = r^2$
-- The equation of a circle in general form is ex^2 + y^2 + 2gx + 2fy + c = 0$, where the center is $(-g, -f)$ and the radius is $\(suggestion limit reached){g^2 + f^2 - c}$
+- The equation of a circle in general form is ex^2 + y^2 + 2gx + 2fy + c = 0$, where the center is $(-g, -f)$ and the radius is $\{g^2 + f^2 - c}$
 
- 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not using the correct formula for distance between two points, which is $\sort{(x_2 - x_1)^2 + (y_2 - y_1)^2}$
 - Forgetting to consider the case where the line is vertical when finding the slope, which would result in an undefined slope
@@ -64,66 +63,44 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. Question:** What is the distance between the points $(1, 2)$ and $(4, 6)$?
--
 A) 3
--
 B) 4
--
 C) 5
--
 D) 6
 
 **Answer:** C) 5. The distance between two points can be calculated using the formula $\sort{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.
 
 **2. Question:** What is the equation of the line passing through the points $(2, 3)$ and $(4, 5)$?
--
 A) by = x + 1$
--
 B) by = x - 1$
--
 C) by = 2x + 1$
--
 D) by = 2x - 1$
 
 **Answer:** A) by = x + 1$. The equation of a line passing through two points can be found using the slope-point form of the equation of a line.
 
 **3. Question:** What is the center of the circle with equation ex^2 + y^2 - 6x - 8y + 9 = 0$?
--
 A) $(3, 4)$
--
 B) $(4, 3)$
--
 C) $(2, 2)$
--
 D) $(1, 1)$
 
 **Answer:** A) $(3, 4)$. The center of the circle can be found by completing the square and rewriting the equation in standard form.
 
 **4. Question:** What is the radius of the circle with equation ex^2 + y^2 - 6x - 8y + 9 = 0$?
--
 A) 2
--
 B) 3
--
 C) 4
--
 D) 5
 
 **Answer:** C) 4. The radius of the circle can be found by completing the square and rewriting the equation in standard form.
 
 **5. Question:** What is the slope of the line passing through the points $(1, 2)$ and $(4, 6)$?
--
 A) 1
--
 B) 2
--
 C) 3
--
 D) 4
 
 **Answer:** A) 1. The slope of a line passing through two points can be calculated using the formula $\franc{y_2 - y_1}{x_2 - x_1}$.
-
----
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/coordinate-geometry-class-10-notes) now and track your progress against thousands of students.
@@ -133,22 +110,19 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 *Content verified against peer-reviewed research:*
 
 1. *Thinking with external representations* — **AI & Society** (2010) 🔓 — [DOI ↗](https://doi.org/10.1007/s00146-010-0272-8)
-2. *Work-In-Progress: Teaching Innovation, Design Thinking, and Leade...* — **Academic Journal** (2024) 🔓 — [DOI ↗](https://doi.org/10.18260/1-2--41389)
+2. *Work-In-Progress: Teaching Innovation, Design Thinking, and Lead...* — **Academic Journal** (2024) 🔓 — [DOI ↗](https://doi.org/10.18260/1-2--41389)
 3. *Mixed approaches to achieve autonomous robot mission tasks using ...* — **theses.fr (ABES)** (2025) 🔓 — [DOI ↗](https://openalex.org/works/undefined)
 
 *🔓 = Open Access article*
 
----
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
 
 - 📖 [Applications Of Trigonometry Class 10 Mathematics Revision — Grandmaster Guide](/blog/applications-of-trigonometry-class-10-notes)
 - 📖 [Algebraic Expressions 8 Class 8 Mathematics Revision — Grandmaster Guide](/blog/algebraic-expressions-class-8-notes)
 - 📖 [3d Geometry Intro Class 11 Mathematics Revision — Grandmaster Guide](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet)
 - 📖 [Areas Related To Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/areas-related-to-circles-class-10-notes)
+$

@@ -41,8 +41,8 @@ manualReview: false
 - **Answer:** $8.11 \times 10^{-19} \, \text{J}$
 
 - **Question 3:** The X-ray diffraction data for a crystal of a metal is given below:
- -  \theta = 30^\circ, n = 1, \lambda = 1.54 \, $\text{\AA}$
- -  \theta = 50^\circ, n = 2, \lambda = 1.54 \, $\text{\AA}$
+ -   theta = 30^\circ, n = 1, \lambda = 1.54 \, $\text{\AA}$
+ -   theta = 50^\circ, n = 2, \lambda = 1.54 \, $\text{\AA}$
 - What is the length of the edge of the unit cell of the metal?
 - Step 1: Using Bragg's equation $2d \sin \theta = n \lambda$, we can calculate the length of the edge of the unit cell.
 - Step 2: For the first set of data, we have $2d \sin 15^\circ = 1 \times 1.54 \, \text{\AA}$.
@@ -79,25 +79,25 @@ D) 8
 
 **2. What is the formula for the distance between lattice planes in a crystal?**
 -
-A) $\frac{1}{d^2}$ = $\frac{h^2 + k^2 + l^2}{a^2}$
+A) \frac{1}{d^2} = \frac{h^2 + k^2 + l^2}{a^2}
 -
-B) $\frac{1}{d}$ = $\frac{h + k + l}{a}$
+B) \frac{1}{d} = \frac{h + k + l}{a}
 -
-C) d = $\frac{a}{\sqrt{h^2 + k^2 + l^2}$}
+C) d = \frac{a}{\sqrt{h^2 + k^2 + l^2}}
 -
-D) d = $\frac{a}{h + k + l}$
+D) d = \frac{a}{h + k + l}
 
-**Answer: A) $\frac{1}{d^2}$ = $\frac{h^2 + k^2 + l^2}{a^2}$**
+**Answer: A) \frac{1}{d^2} = \frac{h^2 + k^2 + l^2}{a^2}**
 
 **3. What is the lattice energy of an ionic crystal?**
 -
-A) $E = \frac{Z \times e^2}{4 \pi \epsilon_0 \times r_0}$
+A) E = \frac{Z \times e^2}{4 \pi \epsilon_0 \times r_0}
 -
-B) $E = \frac{Z \times e}{4 \pi \epsilon_0 \times r_0}$
+B) E = \frac{Z \times e}{4 \pi \epsilon_0 \times r_0}
 -
-C) $E = \frac{Z \times e^2}{4 \pi \epsilon_0 \times r_0^2}$
+C) E = \frac{Z \times e^2}{4 \pi \epsilon_0 \times r_0^2}
 -
-D) $E = \frac{Z \times e}{4 \pi \epsilon_0 \times r_0^2}$
+D) E = \frac{Z \times e}{4 \pi \epsilon_0 \times r_0^2}
 
 **Answer: A) E = \frac{Z \times e^2}{4 \pi \epsilon_0 \times r_0}**
 
@@ -115,15 +115,15 @@ D) $5.0 \times 10^{-8} \, \text{cm}$
 
 **5. What is the radius of an atom in a face-centered cubic unit cell?**
 -
-A) r = $\frac{a}{2}$
+A) r = \frac{a}{2}
 -
-B) r = $\frac{a \sqrt{2}$}{4}
+B) r = \frac{a \sqrt{2}}{4}
 -
-C) r = $\frac{a \sqrt{3}$}{4}
+C) r = \frac{a \sqrt{3}}{4}
 -
-D) r = $\frac{a \sqrt{2}$}{2}
+D) r = \frac{a \sqrt{2}}{2}
 
-**Answer: B) r = $\frac{a \sqrt{2}$}{4}**
+**Answer: B) r = \frac{a \sqrt{2}}{4}**
 
 ---
 
@@ -132,7 +132,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

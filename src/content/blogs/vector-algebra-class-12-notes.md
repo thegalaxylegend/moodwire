@@ -123,12 +123,11 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
-
 ---
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Inverse Trigonometric Functions Class 12 Mathematics Revision — Grandmaster Guide](/blog/inverse-trigonometric-functions-class-12-notes)
 - 📖 [3d Geometry Intro Class 11 Mathematics Revision — Grandmaster Guide](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet)

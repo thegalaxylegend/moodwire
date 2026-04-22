@@ -22,7 +22,7 @@ manualReview: false
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
 - **Laws of Exponents:** a’m dot a^n = a^{m+n} — a is the base, me and n are exponents.
- - **Product of Powers:** a’m dot b^m = (a dot b)^m — a and y are bases, me is the exponent.
+ - **Product of Powers:** a’m dot b^m = (a dot b)^m — a and y are [bases](/blog/acids-bases-and-salts-class-10-notes), me is the exponent.
  - **Quotient of Powers:** $\franc{a’m}{a^n}$ = a^{m-n} — a is the base, me and n are exponents.
  - **Power of a Power:** \left(a’m
 light)^n = a^{m dot n} — a is the base, me and n are exponents.
@@ -116,50 +116,50 @@ EQ 0$)
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 
 **1. If the base of a power is a fraction, the power is calculated as the exponent on the denominator being inversely applied to the base.**
-**A)**     The exponent remains the same
-**B)**     The base remains the same
-**C)**     The power is calculated as the exponent on the denominator being inversely applied to the base
-**D)**     The power cancels out
+**A)**      The exponent remains the same
+**B)**      The base remains the same
+**C)**      The power is calculated as the exponent on the denominator being inversely applied to the base
+**D)**      The power cancels out
 
 **Answer:** C) When the base of a power is a fraction, the power is calculated as the exponent on the denominator being inversely applied to the base.
 
 ---
 
 **2. The value of a power with a negative exponent is the reciprocal of the value of the power with a positive exponent.**
-**A)**     True
-**B)**     False
-**C)**     The value of a power with a negative exponent is the reciprocal of the value of the power with a positive exponent
-**D)**     The value of a power with a negative exponent is the same as the value of the power with a positive exponent
+**A)**      True
+**B)**      False
+**C)**      The value of a power with a negative exponent is the reciprocal of the value of the power with a positive exponent
+**D)**      The value of a power with a negative exponent is the same as the value of the power with a positive exponent
 
 **Answer:** B) The value of a power with a negative exponent is the reciprocal of the value of the power with a positive exponent.
 
 ---
 
 **3. The product of two powers with the same base is the base raised to the \sum of the exponents.**
-**A)**     True
-**B)**     False
-**C)**     The product of two powers with the same base is the base raised to the \sum of the exponents
-**D)**     The product of two powers with the same base is the base raised to the difference of the exponents
+**A)**      True
+**B)**      False
+**C)**      The product of two powers with the same base is the base raised to the \sum of the exponents
+**D)**      The product of two powers with the same base is the base raised to the difference of the exponents
 
 **Answer:** A) The product of two powers with the same base is the base raised to the \sum of the exponents.
 
 ---
 
 **4. Any number raised to the power of 0 is 1.**
-**A)**     True
-**B)**     False
-**C)**     Any number raised to the power of 0 is 1
-**D)**     Any number raised to the power of 0 is 0
+**A)**      True
+**B)**      False
+**C)**      Any number raised to the power of 0 is 1
+**D)**      Any number raised to the power of 0 is 0
 
 **Answer:** A) Any number raised to the power of 0 is 1.
 
 ---
 
 **5. Any non-zero number raised to the power of 1 is the number itself.**
-**A)**     True
-**B)**     False
-**C)**     Any non-zero number raised to the power of 1 is the number itself
-**D)**     Any non-zero number raised to the power of 1 is zero
+**A)**      True
+**B)**      False
+**C)**      Any non-zero number raised to the power of 1 is the number itself
+**D)**      Any non-zero number raised to the power of 1 is zero
 
 **Answer:** C) Any non-zero number raised to the power of 1 is the number itself.
 

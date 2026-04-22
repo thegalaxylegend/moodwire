@@ -87,7 +87,7 @@ T - Telophase
 
 ## <a id="practice-MCQs"></a>Practice MCQs
 
-1. What is the longest stage of the cell cycle?
+1. What is the longest stage of the [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) cycle?
 a) Interphase
 b) Mitosis
 c) Cytokinesis

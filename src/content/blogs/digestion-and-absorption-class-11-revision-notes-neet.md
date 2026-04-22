@@ -89,7 +89,7 @@ $1 \text{Total Nutrient Intake}$ \times $\text{Absorption Efficiency}$
 
 For example, if the total carbohydrate intake is 300g and the absorption efficiency is 90%, the amount of carbohydrate absorbed would be:
 
-$\text{Carbohydrate Absorption} = 300g \times 0.9 = 270g
+\text{Carbohydrate Absorption}$ = 300g \times 0.9 = 270g
 
 ## <a id="trap-questions-common-misconceptions"></a>Trap Questions: Common Misconceptions
 

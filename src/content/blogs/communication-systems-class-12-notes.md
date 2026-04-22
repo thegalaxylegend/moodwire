@@ -15,11 +15,11 @@ manualReview: false
 - BC = 
 u \lambda, where act is speed of light, $
 up is frequency, and $\lambda$ is wavelength
-- at = \franc{d}{c}$, where to is time taken for signal to travel, (suggestion limit reached) is distance, and (suggestion limit reached) is speed of light
-- (suggestion limit reached) = \(suggestion limit reached){E}{t}$, where (suggestion limit reached) is power, (suggestion limit reached) is energy, and (suggestion limit reached) is time
-- (suggestion limit reached) = P \times (suggestion limit reached), where (suggestion limit reached) is energy, (suggestion limit reached) is power, and (suggestion limit reached) is time
-- $\(suggestion limit reached){P_t}{P_r} = \(suggestion limit reached){1}{\alpha^2}$, where (suggestion limit reached)_(suggestion limit reached) is transmitted power, (suggestion limit reached)_(suggestion limit reached) is received power, and $\alpha$ is attenuation
-- $SNR_{out} = \(suggestion limit reached){SNR_{in}}{1 + \(suggestion limit reached){1}{SNR_{in}}}$, where $SNR_{out}$ is output signal-to-noise ratio and $SNR_{in}$ is input signal-to-noise ratio
+- at = \franc{d}{c}$, where to is time taken for signal to travel,  is distance, and  is speed of light
+-  = \{E}{t}$, where  is power,  is energy, and  is time
+-  = P \times , where  is energy,  is power, and  is time
+- $\{P_t}{P_r} = \{1}{\alpha^2}$, where _ is transmitted power, _ is received power, and $\alpha$ is attenuation
+- $SNR_{out} = \{SNR_{in}}{1 + \{1}{SNR_{in}}}$, where $SNR_{out}$ is output signal-to-noise ratio and $SNR_{in}$ is input signal-to-noise ratio
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not understanding the concept of signal-to-noise ratio (SNR) and its importance in communication systems
@@ -59,66 +59,44 @@ up is frequency, and $\lambda$ is wavelength
 
 ## 📝 Practice MCQs
 **1. What is the bandwidth of a signal with a time period of $10 \: \mu so?**
--
 A) $50 \: kHz
--
 B) $100 \: kHz
--
 C) $20 \: kHz
--
 D) $50 \: MHz
 
 **Answer: B) $100 \: kHz. Explanation: The bandwidth of the signal is given by bandwidth = \franc{1}{2 \times time \: period} = \franc{1}{2 \times 10 \: \mu s} = 100 \: kHz**
 
 **2. A signal of frequency $100 \: kHz is amplitude modulated with a modulation frequency of $5 \: kHz. What is the bandwidth of the modulated signal?**
--
 A) $100 \: kHz
--
 B) $105 \: kHz
--
 C) $110 \: kHz
--
 D) $200 \: kHz
 
 **Answer: C) $110 \: kHz. Explanation: The bandwidth of the modulated signal is given by bandwidth = 2 \times modulation \: frequency = 2 \times 5 \: kHz = 10 \: kHz. The total bandwidth is the sum of the bandwidth of the modulated signal and the carrier frequency, $100 \: kHz + 10 \: kHz = 110 \: kHz**
 
 **3. What is the signal-to-noise ratio (SNR) of a communication system with a signal power of $100 \: MWC and a noise power of $1 \: MWC?**
--
 A) $100$
--
 B) $1000$
--
 C) $10000$
--
 D) $100000$
 
 **Answer: B) $1000$. Explanation: The SNR is given by $SNR = \franc{S}{N} = \franc{100 \: mW}{1 \: mW} = 1000$**
 
 **4. A signal of power $100 \: MWC is transmitted through a medium with an attenuation of $0.5 \: dB/me. What is the power of the signal after $10 \: me?**
--
 A) $100 \: MWC
--
 B) $50 \: MWC
--
 C) $10 \: MWC
--
 D) $1 \: MWC
 
 **Answer: B) $50 \: MWC. Explanation: The attenuation of the signal is given by $\franc{P_t}{P_r} = \franc{1}{\alpha^2}$. The attenuation in dB is given by $0.5 \: dB/m \times 10 \: m = 5 \: dB. The attenuation in ratio is given by $10^{-\franc{5}{10}} = 0.5$. The power of the signal after $10 \: me is given by UP_r = \franc{P_t}{\alpha^2} = \franc{100 \: mW}{0.5^2} = 50 \: MWC**
 
 **5. What is the wavelength of a signal with a frequency of $100 \: MHz?**
--
 A) $1 \: me
--
 B) $3 \: me
--
 C) $10 \: me
--
 D) $30 \: me
 
 **Answer: B) $3 \: me. Explanation: The wavelength of the signal is given by $\lambda = \franc{c}{f} = \franc{3 \times 10^8 \: m/s}{100 \times 10^6 \: Hz} = 3 \: me**
-
----
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/communication-systems-class-12-notes) now and track your progress against thousands of students.
@@ -127,17 +105,13 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 *Content verified against peer-reviewed research:*
 
-1. *Smart Substation Communications and Cybersecurity: A Comprehensiv...* — **IEEE Communications Surveys & Tutorials** (2023) 🔓 — [DOI ↗](https://doi.org/10.1109/comst.2023.3305468)
-2. *El Agente: An autonomous agent for quantum chemistry* — **Matter** (2025) 🔓 — [DOI ↗](https://doi.org/10.1016/j.matt.2025.102263)
-3. *The Era of Digital Transition in the Prism of the Existential Thr...* — **Sustainability** (2024) 🔓 — [DOI ↗](https://doi.org/10.3390/su16188019)
+1. *Smart Substation Communications and Cybersecurity: A Comprehensive...* — **IEEE Communications Surveys & Tutorials** (2023) 🔓 — [DOI ↗](https://doi.org/10.1109/comst.2023.3305468)
+2. *El Agent: An autonomous agent for quantum chemistry* — **Matter** (2025) 🔓 — [DOI ↗](https://doi.org/10.1016/j.matt.2025.102263)
+3. *The Era of Digital Transition in the Prism of the Existential The...* — **Sustainability** (2024) 🔓 — [DOI ↗](https://doi.org/10.3390/su16188019)
 
 *🔓 = Open Access article*
 
----
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## 📚 Related Topics
 
@@ -147,3 +121,4 @@ Continue your revision with these related guides:
 - 📖 [Chemistry In Everyday Life Class 12 Chemistry Revision — Grandmaster Guide](/blog/chemistry-in-everyday-life-class-12-notes)
 - 📖 [Compiler Design Class 12 Exam Prep Revision — Grandmaster Guide](/blog/compiler-design-class-12-notes)
 - 📖 [Computer Networks Class 12 Exam Prep Revision — Grandmaster Guide](/blog/computer-networks-class-12-notes)
+$

@@ -32,7 +32,7 @@ Fundamental Rights is a set of rights guaranteed y the Indian Constitution to al
 
 ## <a id="what-are-the-key-features-of-fundamental-rights"></a>What are the key features of Fundamental Rights?
 
-The key features of Fundamental Rights are their universality, equality, n justifiability. These rights are applicable to all citizens, irrespective of their caste, creed, or social status. The [indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Constitution has incorporated these rights to ensure that every individual has the opportunity to grow and develop without any restrictions or biases.
+The key features of Fundamental Rights are their universality, equality, n justifiability. These rights are applicable to all citizens, irrespective of their caste, creed, or social status. The [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Constitution has incorporated these rights to ensure that every individual has the opportunity to grow and develop without any restrictions or biases.
 
 ## <a id="what-is-the-historical-context-of-fundamental-rights"></a>What is the historical context of Fundamental Rights?
 
@@ -52,7 +52,7 @@ When studying Fundamental Rights, it's essential to be aware of the **exceptions
 
 ## <a id="what-are-the-implications-of-fundamental-rights-on-Indian-society"></a>What are the implications of Fundamental Rights on Indian society?
 
-The implications of Fundamental Rights on Indian society are far-reaching and profound. These rights have **empowered marginalized communities**, **promoted social justice**, n **protected human dignity**. By guaranteeing equal treatment before the law and protecting individuals from exploitation, Fundamental Rights have helped to create a more **just and equitable society**. As I reflect on the significance of these rights, I realize that they are essential for **upholding the values of democracy** n **promoting national unity**.
+The implications of Fundamental Rights on [indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) society are far-reaching and profound. These rights have **empowered marginalized communities**, **promoted social justice**, n **protected human dignity**. By guaranteeing equal treatment before the law and protecting individuals from exploitation, Fundamental Rights have helped to create a more **just and equitable society**. As I reflect on the significance of these rights, I realize that they are essential for **upholding the values of democracy** n **promoting national unity**.
 
 ## <a id="Ayush-personal-note"></a>Ayush's Personal Note
 

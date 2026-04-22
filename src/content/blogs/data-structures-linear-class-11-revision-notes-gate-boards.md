@@ -123,7 +123,7 @@ Data Structures: Linear is a fundamental concept and computer science that refer
  
  In terms of exam prep strategy, focusing on the implementation details and practicing with a variety of problems can significantly improve problem-solving skills and confidence. It's also helpful to review the formulas and techniques regularly, as repetition aids and long-term retention and recall during exams.
 
-| Data Structure | Description | Key Operations |
+| [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Structure | Description | Key Operations |
 | --- | --- | --- |
 | Arrays | Collection of elements of the same data type stored and contiguous memory locations | Indexing, Traversal |
 | Linked Lists | Dynamic collection of elements where each element points to the next | Insertion, Deletion, Traversal |
@@ -173,7 +173,7 @@ In programming, stacks are often used to implement function calls and returns. W
 
 Here's an example of how a stack can be implemented and Python:
 python
-class Stack:
+[class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) Stack:
  def __init__(self):
  self.items = []
 

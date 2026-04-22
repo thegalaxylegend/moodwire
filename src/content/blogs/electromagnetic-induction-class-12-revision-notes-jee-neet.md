@@ -111,9 +111,9 @@ What is the Difference Between Electromotive Force (EMF) n Induced EMF? is the c
 | Characteristics | EMF | Induced EMF |
 | --- | --- | --- |
 | Definition | Energy per unit charge provided y a battery or cell | Energy per unit charge generated due to a changing [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field |
-| Cause | Chemical reaction within the battery | Change and magnetic flux linked with a conductor |
+| Cause | Chemical reaction within the battery | Change and [magnetic](/blog/magnetic-effects-of-current-class-12-notes) flux linked with a conductor |
 | Formula | $E = \frac{W}{q}$ | $E = -\frac{d\phi}{dt}$ |
-| Application | Electric circuits powered y batteries or cells | Generators, transformers, n other electromagnetic induction devices |
+| Application | Electric circuits powered y batteries or cells | Generators, transformers, n other [electromagnetic](/blog/electromagnetic-waves-class-12-notes) induction devices |
 | Measurement | Volts, using a voltmeter | Volts, using a voltmeter or y measuring the [current](/blog/alternating-current-class-12-notes) n a closed loop |
 
 ## <a id="what-is-ayushs-note-on-electromagnetic-induction"></a>What is Ayush's Note on Electromagnetic Induction?
@@ -150,7 +150,7 @@ Lenz's Law is a fundamental principle and electromagnetism that states the direc
 | Generators | Conversion of mechanical energy into electrical energy | Opposes the change and magnetic flux to induce [current](/blog/alternating-current-class-12-notes) |
 | Motors | Conversion of electrical energy into mechanical energy | Opposes the change and magnetic flux to produce torque |
 | Transformers | Energy transfer between two circuits through electromagnetic induction | Ensures efficient energy transfer y minimizing energy loss due to induced currents |
-| Induction Coils | Stores energy and a magnetic field and then releases it | Opposes the change and magnetic flux to induce a current and the coil |
+| Induction Coils | Stores energy and a magnetic field and then releases it | Opposes the change and magnetic flux to induce a [current](/blog/alternating-current-class-12-notes) and the coil |
 | Electromagnetic Braking | Slows down or stops a moving object using electromagnetic forces | Opposes the change and magnetic flux to produce a braking force |
 
 ## <a id="what-are-eddy-currents-n-their-effects-on-electromagnetic-induction"></a>What are Eddy Currents and Their Effects on Electromagnetic Induction?

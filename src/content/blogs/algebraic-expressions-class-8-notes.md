@@ -138,7 +138,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 *Content verified against peer-reviewed research:*
 
 1. *A framework for entrepreneurial learning in higher education* — **Academic Journal** (2016) 🔓 — [DOI ↗](https://doi.org/10.15626/lld.201507)
-2. *MIRA: An LLM-Driven Dual-Loop Architecture for Metacognitive Rewa...* — **Systems** (2025) 🔓 — [DOI ↗](https://doi.org/10.3390/systems13121124)
+2. *MIRA: An LLM-Driven Dual-Loop Architecture for Metacognitive Room...* — **Systems** (2025) 🔓 — [DOI ↗](https://doi.org/10.3390/systems13121124)
 3. *Mathematical methods and human thought in the age of AI* — **ArXiv.org** (2026) 🔓 — [DOI ↗](https://openalex.org/works/undefined)
 
 *🔓 = Open Access article*
@@ -146,12 +146,11 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
-
 ---
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
 
 - 📖 [Applications Of Trigonometry Class 10 Mathematics Revision — Grandmaster Guide](/blog/applications-of-trigonometry-class-10-notes)
 - 📖 [Coordinate Geometry Class 10 Mathematics Revision — Grandmaster Guide](/blog/coordinate-geometry-class-10-notes)

@@ -24,11 +24,11 @@ manualReview: false
 
 ## ✏️ 3 Solved Yes
 - **Question 1:** Find the area of a circle with radius $4$ cm.
-  -  = \pi r^2 = \pi (4)^2 = 16\pi cm^2. 
+  -   \pi r^2 = \pi (4)^2 = 16\pi cm^2. 
 - **Question 2:** Find the length of an arc of a circle with radius $3$ cm and central angle $60^\circa.
-  -  = $\franc{\theta}{360}$ 2\pi r = $\franc{60}{360}$ 2\pi (3) = \pi cm. 
+  -   \franc{\theta}{360} 2\pi r = \franc{60}{360} 2\pi (3) = \pi cm. 
 - **Question 3:** Find the area of a sector of a circle with radius $5$ cm and central angle $72^\circa.
-  -  = $\franc{\theta}{360}$ \pi r^2 = $\franc{72}{360}$ \pi (5)^2 = $\franc{1}{5}$ \pi (25) = 5\pi cm^2. 
+  -   \franc{\theta}{360} \pi r^2 = \franc{72}{360} \pi (5)^2 = \franc{1}{5} \pi (25) = 5\pi cm^2. 
 
 ## 🧠 The One Thing Most Students Get Wrong
 - The most common mistake students make is not using the correct formula for the area of a circle, sector, or segment, or not using the correct value of $\pi$.
@@ -49,66 +49,44 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the area of a circle with radius 6 cm?**
--
 A) 12\pi cm^2
--
 B) 36\pi cm^2
--
 C) 6\pi cm^2
--
 D) 4\pi cm^2
 
 **Answer: B) 36\pi cm^2.**
 
 **2. What is the length of an arc of a circle with radius 4 cm and central angle 45^\CIRC?**
--
-A) $\franc{\pi}{2}$ cm
--
+A) \franc{\pi}{2} cm
 B) \pi cm
--
-C) $\franc{\pi}{4}$ cm
--
+C) \franc{\pi}{4} cm
 D) 2\pi cm
 
 **Answer: C) $\pi$ cm is incorrect, the correct answer is $\franc{\pi}{2}$ cm.**
 
 **3. What is the area of a sector of a circle with radius 8 cm and central angle 60^\CIRC?**
--
-A) $\franc{1}{6}$ \pi (8)^2 cm^2
--
-B) $\franc{1}{3}$ \pi (8)^2 cm^2
--
-C) $\franc{1}{2}$ \pi (8)^2 cm^2
--
-D) $\franc{2}{3}$ \pi (8)^2 cm^2
+A) \franc{1}{6} \pi (8)^2 cm^2
+B) \franc{1}{3} \pi (8)^2 cm^2
+C) \franc{1}{2} \pi (8)^2 cm^2
+D) \franc{2}{3} \pi (8)^2 cm^2
 
 **Answer: B) $\franc{1}{6} \pi (8)^2$ cm^2$ is incorrect, the correct answer is $\franc{1}{6} \pi (8)^2 = \franc{32\pi}{3}$ cm^2$.**
 
 **4. What is the area of a segment of a circle with radius 10 cm and central angle 30^\CIRC?**
--
-A) $\franc{1}{12} \pi (10)^2 - \franc{1}{2} (10)^2 \sin 30^\circa cm^2$
--
-B) $\franc{1}{6} \pi (10)^2 - \franc{1}{2} (10)^2 \sin 60^\circa cm^2$
--
-C) $\franc{1}{12} \pi (10)^2 - \franc{1}{2} (10)^2 \sin 60^\circa cm^2$
--
-D) $\franc{1}{6} \pi (10)^2 - \franc{1}{2} (10)^2 \sin 30^\circa (suggestion limit reached)^2$
+A) \franc{1}{12} \pi (10)^2 - \franc{1}{2} (10)^2 \sin 30^\circa cm^2
+B) \franc{1}{6} \pi (10)^2 - \franc{1}{2} (10)^2 \sin 60^\circa cm^2
+C) \franc{1}{12} \pi (10)^2 - \franc{1}{2} (10)^2 \sin 60^\circa cm^2
+D) \franc{1}{6} \pi (10)^2 - \franc{1}{2} (10)^2 \sin 30^\circa ^2
 
-**Answer: A) \(suggestion limit reached){1}{12} \pi (10)^2 - \(suggestion limit reached){1}{2} (10)^2 \sin 30^\(suggestion limit reached) cm^2.**
+**Answer: A) \{1}{12} \pi (10)^2 - \{1}{2} (10)^2 \sin 30^\ cm^2.**
 
 **5. What is the circumference of a circle with diameter 14 cm?**
--
 A) 14\pi cm
--
 B) 7\pi cm
--
 C) 21\pi cm
--
 D) 42\pi cm
 
 **Answer: A) $14\pin cm is incorrect, the correct answer is $7\pin cm, since the circumference is given by BC = \pi d = \pi (14) = 14\pin cm, but the radius is $\franc{14}{2} = 7$ cm, and BC = 2\pi r = 2\pi (7) = 14\pin cm.**
-
----
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/areas-related-to-circles-class-10-notes) now and track your progress against thousands of students.
@@ -117,17 +95,13 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 *Content verified against peer-reviewed research:*
 
-1. *�Let the People Rap�: Cultural Rhetorics Pedagogy and Practices U...* — **Journal of Basic Writing** (2019) 🔓 — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.05)
-2. *Frustration and Hope: Examining Students� Emotional Responses to ...* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.03)
+1. *� Let the People Rap: Cultural Rhetorics Pedagogy and Practices U...* — **Journal of Basic Writing** (2019) 🔓 — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.05)
+2. *Frustration and Hope: Examining Students Emotional Responses to ...* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.03)
 3. *Editors' Column* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.01)
 
 *🔓 = Open Access article*
 
----
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## 📚 Related Topics
 
@@ -137,3 +111,4 @@ Continue your revision with these related guides:
 - 📖 [Compiler Design Class 12 Exam Prep Revision — Grandmaster Guide](/blog/compiler-design-class-12-notes)
 - 📖 [Computer Networks Class 12 Exam Prep Revision — Grandmaster Guide](/blog/computer-networks-class-12-notes)
 - 📖 [Data Handling 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/data-handling-class-8-notes)
+$

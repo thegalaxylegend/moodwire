@@ -53,7 +53,7 @@ manualReview: false
 - Therefore, it is essential to consider the quadrant in which the angle lies when using trigonometric ratios.
 
 ## 👁️ Ayush's Note
-- To excel in trigonometry, it is crucial to practice, practice, practice.
+- To excel in [trigonometry](/blog/introduction-to-trigonometry-class-10-notes), it is crucial to practice, practice, practice.
 - Start by practicing simple problems, such as finding the length of a side in a right-angled triangle.
 - Gradually move on to more complex problems, such as applying the sine and cosine rules to solve triangles.
 - Make sure to label your diagrams clearly and use the correct formulas and trigonometric ratios.
@@ -77,7 +77,7 @@ D) 12 cm
 
 **Answer:** C) 8 cm. Using the Pythagorean theorem, we have a^2 + b^2 = c^2$, where a and b are the lengths of the other two sides, and c is the length of the hypotenuse. Given c = 10 cm and a = 6 cm, we can solve for b: $6^2 + b^2 = 10^2$. Simplifying, we get $36 + b^2 = 100$. Solving for b, we get lb^2 = 64$, so lb = \sort{64} = 8$ cm.
 
-**2. Question:** The angle of elevation of the top of a tower from a point on the ground is $30^\circ
+**2. Question:** The angle of elevation of the top of a tower from a point on the ground is $30^\CIRC
 a. If the height of the tower is 20 m, what is the distance of the point from the tower?
 -
 A) $10\sort{3}$ m
@@ -104,11 +104,11 @@ D) $\sort{41–5\sort{7}}$ cm
 
 **4. Question:** What is the formula for the area of a triangle given two sides and the included angle?
 -
-A) $\franc{1}{2}lab\sin C
+A) \franc{1}{2}lab\sin C
 -
-B) $\franc{1}{2}lab\cos C
+B) \franc{1}{2}lab\cos C
 -
-C) $\franc{1}{2}lab\tan C
+C) \franc{1}{2}lab\tan C
 -
 D) $\franc{1}{2}lab\cot C
 
@@ -135,7 +135,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 *Content verified against peer-reviewed research:*
 
-1. *Work-In-Progress: Teaching Innovation, Design Thinking, and Leade...* — **Academic Journal** (2024) 🔓 — [DOI ↗](https://doi.org/10.18260/1-2--41389)
+1. *Work-In-Progress: Teaching Innovation, Design Thinking, and Lead...* — **Academic Journal** (2024) 🔓 — [DOI ↗](https://doi.org/10.18260/1-2--41389)
 2. *The Primacy of Phenomenology Over Cognitivism. Towards a Critique...* — **Online Publication Service of Würzburg University (Würzburg University)** (2015) 🔓 — [DOI ↗](https://openalex.org/works/undefined)
 
 *🔓 = Open Access article*
@@ -143,12 +143,11 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
-
 ---
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
 
 - 📖 [Coordinate Geometry Class 10 Mathematics Revision — Grandmaster Guide](/blog/coordinate-geometry-class-10-notes)
 - 📖 [Algebraic Expressions 8 Class 8 Mathematics Revision — Grandmaster Guide](/blog/algebraic-expressions-class-8-notes)

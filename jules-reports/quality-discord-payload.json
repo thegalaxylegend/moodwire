@@ -6,12 +6,12 @@
       "fields": [
         {
           "name": "📊 All-Time Stats",
-          "value": "Total: 103 blogs\nPassed: 75\nFailed: 28\nPass Rate: 73%",
+          "value": "Total: 103 blogs\nPassed: 83\nFailed: 20\nPass Rate: 81%",
           "inline": true
         },
         {
           "name": "📈 Avg Quality Score",
-          "value": "84.2/100",
+          "value": "85.7/100",
           "inline": true
         },
         {
@@ -21,12 +21,12 @@
         },
         {
           "name": "🔴 Top Errors",
-          "value": "• JSON squashing detected: raw JSON objects in markdown body (×9)\n• Unknown Failure (×8)\n• 401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\": (×6)",
+          "value": "• JSON squashing detected: raw JSON objects in markdown body (×9)\n• 401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\": (×6)\n• Critically low word count: 330 (Min 800 for Patching) (×2)",
           "inline": false
         }
       ],
       "footer": {
-        "text": "Report generated: 2026-04-22T02:52:37.756Z"
+        "text": "Report generated: 2026-04-22T14:19:52.865Z"
       }
     }
   ]

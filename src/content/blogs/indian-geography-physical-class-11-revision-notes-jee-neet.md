@@ -90,7 +90,7 @@ Continue your [revision](/blog/ray-optics-class-12-quick-class-12-revision-notes
 
 ## 🪤 The 5 Mistakes That Cost Marks
 
-* The Himalayan mountain range is often confused with the other mountain ranges in [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse). Students tend to forget that the Himalayas are divided into three main parallel ranges: the Great Himalayas, the Middle Himalayas, and the Outer Himalayas.
+* The Himalayan mountain range is often confused with the other mountain ranges in [India](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse). Students tend to forget that the Himalayas are divided into three main parallel ranges: the Great Himalayas, the Middle Himalayas, and the Outer Himalayas.
 * Many students incorrectly identify the Western Ghats and the Eastern Ghats as separate mountain ranges. However, they are not separate ranges, but rather a single range with the Western Ghats being higher and more continuous than the Eastern Ghats.
 * The Into-Gangetic Plain is often misunderstood as a single unit, but it is actually divided into three parts: the Upper Into-Gangetic Plain, the Middle Into-Gangetic Plain, and the Lower Into-Gangetic Plain.
 * Students often get confused between the terms 'delta' and 'estuary'. A delta is formed when sediments carried by the river are deposited at its mouth, while an estuary is a partially enclosed coastal body of water, where freshwater from the river mixes with saltwater from the sea.
@@ -99,12 +99,12 @@ Continue your [revision](/blog/ray-optics-class-12-quick-class-12-revision-notes
 ## 🔁 Last 5 Minutes Box
 
 # Physical Features of India
-* The [indian](/blog/indian-geography-climate-class-11-revision-notes-cbse) subcontinent consists of the Himalayan Mountains, the Northern Plains, the Peninsular Plateau, the Coastal Plains, and the Islands.
+* The [Indian](/blog/indian-geography-climate-class-11-revision-notes-cbse) subcontinent consists of the Himalayan Mountains, the Northern Plains, the Peninsular Plateau, the Coastal Plains, and the Islands.
 # Himalayan Mountains
 * The Himalayas are divided into three main parallel ranges: the Great Himalayas, the Middle Himalayas, and the Outer Himalayas.
 * The Himalayas are home to several important mountain peaks, including Mount Everest and Kanchenjunga.
 # Northern Plains
-* The Northern Plains are formed by the rivers Gang, Indus, and Brahmaputra.
+* The Northern Plains are formed by the rivers Gang, [indus](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse), and Brahmaputra.
 * The Northern Plains are divided into three sections: the Hangar, the Khaddar, and the Terai.
 # Peninsular Plateau
 * The Peninsular Plateau is composed of old, stable rocks and is divided into two main parts: the Malta Plateau and the Deccan Plateau.

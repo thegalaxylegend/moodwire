@@ -37,7 +37,7 @@ manualReview: false
 - Passive: $\franc{Immunity}{Type} = \franc{Innate + Acquired + Active + Passive}{Total \: immunity}$
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not understanding the concept of health and disease: health 
+- Not understanding the concept of [health](/blog/reproductive-health-class-12-notes) and disease: [health](/blog/reproductive-health-class-12-notes) 
 EQ $\franc{1}{Disease}
 - Not being able to differentiate between the different types of diseases: infectious 
 EQ Non-infectious
@@ -152,7 +152,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

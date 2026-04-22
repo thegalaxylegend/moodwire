@@ -61,75 +61,49 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the product of the reaction between acetone and sodium hydroxide?**
--
 A) $\math{CH_3CH_2OH}$
--
 B) $\math{CH_3COCH_2OH}$
--
 C) $\math{CH_3COCH_3}$
--
 D) $\math{CH_3CH_2CH_3}$
 
 **Answer: B) The product is $\math{CH_3COCH_2OH}$, which is formed by the nucleophilic addition of the hydroxide ion to the carbonyl group.**
 
 **2. What is the OK_a value for formic acid, $\math{HCOOH}$?**
--
 A) $1.8 \times 10^{-5}$
--
 B) $1.8 \times 10^{-4}$
--
 C) $1.8 \times 10^{-3}$
--
 D) $1.8 \times 10^{-2}$
 
 **Answer: B) The OK_a value for formic acid is $1.8 \times 10^{-4}$.**
 
 **3. What is the product of the reaction between propane and methyl magnesium bromide?**
--
 A) $\math{C_2H_5CH_2OH}$
--
 B) $\math{C_2H_5CH_2CH_3}$
--
 C) $\math{C_2H_5CH(OH)CH_3}$
--
 D) $\math{C_2H_5CH_2COOH}$
 
 **Answer: C) The product is $\math{C_2H_5CH(OH)CH_3}$, which is formed by the nucleophilic addition of the methyl magnesium bromide to the carbonyl group.**
 
 **4. What is the equation for the dissociation of acetic acid, $\math{CH_3COOH}$?**
--
 A) $\math{CH_3COOH} \rightleftharpoons \math{CH_3COO^-} + \math{H^+}$
--
 B) $\math{CH_3COOH} \rightleftharpoons \math{CH_3COOH} + \math{H^+}$
--
 C) $\math{CH_3COOH} \rightleftharpoons \math{CH_3COO^-} + \math{OH^-}$
--
-D) $\math{CH_3COOH} \rightleftharpoons \math{CH_3COOH} + \(suggestion limit reached){OH^-}$
+D) $\math{CH_3COOH} \rightleftharpoons \math{CH_3COOH} + \{OH^-}$
 
-**Answer: A) The equation for the dissociation of acetic acid is $\(suggestion limit reached){CH_3COOH} \(suggestion limit reached) \(suggestion limit reached){CH_3COO^-} + \(suggestion limit reached){H^+}$.**
+**Answer: A) The equation for the dissociation of acetic acid is $\{CH_3COOH} \ \{CH_3COO^-} + \{H^+}$.**
 
 **5. What is the product of the reaction between benzaldehyde and hydroxylamine?**
--
 A) $\math{C_6H_5CH_2OH}$
--
 B) $\math{C_6H_5CH=NOT}$
--
 C) $\math{C_6H_5CH_2NH_2}$
--
 D) $\math{C_6H_5CH_2NO_2}$
 
 **Answer: B) The product is $\math{C_6H_5CH=NOT}$, which is formed by the nucleophilic addition of the hydroxylamine to the carbonyl group.**
 
----
-
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/aldehydes-ketones-and-carboxylic-acids-class-12-notes) now and track your progress against thousands of students.
 
----
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## 📚 Related Topics
 
@@ -139,3 +113,4 @@ Continue your revision with these related guides:
 - 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
 - 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
 - 📖 [Biotechnology And Its Applications Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)
+$

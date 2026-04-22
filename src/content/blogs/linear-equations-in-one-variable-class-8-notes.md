@@ -43,7 +43,7 @@ manualReview: false
   - Step 3: Write the final answer in the correct format.
 
 ## 🧠 The One Thing Most Students Get Wrong
-- The most common mistake students make when solving linear equations in one variable is not checking for any restrictions on the domain of the variable.
+- The most common mistake students make when solving linear [equations](/blog/differential-equations-class-12-notes) in one variable is not checking for any restrictions on the domain of the variable.
 - For example, in the equation $\frac{x}{x-2} = 3$, the variable $x$ cannot be equal to $2$, because this would result in division by zero.
 - To avoid this mistake, students should always check the equation for any restrictions on the domain of the variable before solving for $x$.
 
@@ -62,13 +62,13 @@ manualReview: false
 ## 📝 Practice MCQs
 **1. What is the value of $x$ in the equation $\frac{3x}{4} = \frac{9}{8}$?**
 -
-A) $\frac{3}{2}$
+A) \frac{3}{2}
 -
-B) $\frac{5}{2}$
+B) \frac{5}{2}
 -
-C) $\frac{9}{6}$
+C) \frac{9}{6}
 -
-D) $\frac{12}{8}$
+D) \frac{12}{8}
 
 **Answer: A) $\frac{3}{2}$, because cross-multiplying gives $24x = 36$, and dividing both sides by $24$ gives $x = \frac{36}{24} = \frac{3}{2}$.**
 
@@ -127,7 +127,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

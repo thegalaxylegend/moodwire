@@ -253,7 +253,7 @@ What is the key Shortcut or Trick for Relations and Functions? is a technique to
 
 ## <a id="how-to-solve-composite-functions-n-their-graphs"></a>How to Solve Composite Functions and their Graphs?
 
-How to Solve Composite Functions and their Graphs? is a mathematical concept that involves creating a new function y combining two or more existing functions. It includes understanding the composition of functions, identifying the inner and outer functions, n analyzing the behavior of the resulting composite function. For Class 11 exam prep n 2026, the most important aspect is recognizing the relationship between the original functions and the composite function to solve problems efficiently. 
+How to Solve Composite Functions and their Graphs? is a mathematical concept that involves creating a new function y combining two or more existing functions. It includes understanding the composition of functions, identifying the inner and outer functions, n analyzing the behavior of the resulting composite function. For [class](/blog/algorithms-design-class-11-revision-notes-gate-boards) 11 exam prep n 2026, the most important aspect is recognizing the relationship between the original functions and the composite function to solve problems efficiently. 
 
 To solve composite functions, we start with the definition: if we have two functions $f(x)$ n $g(x)$, the composite function $f circ g$ is defined as $(f circ g)(x) = f(g(x))$. This means we first apply $g$ to $x$, then apply $f$ to the result. Understanding this process is crucial for manipulating and solving composite functions.
 

@@ -79,7 +79,7 @@ One shortcut formula that can be used to remember the properties of the s-[block
 
  \text{Reactivity} \propto \frac{{1}}{} 
 
-This formula states that the reactivity of an element is inversely proportional to its ionization energy. This means that elements with low ionization energy are highly reactive, while elements with high ionization energy are less reactive.
+This formula states that the reactivity of an element is inversely proportional to its ionization energy. This means that [elements](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) with low ionization energy are highly reactive, while [elements](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) with high ionization energy are less reactive.
 
 ## <a id="trap-questions-exceptions"></a>Trap Questions / Exceptions
 

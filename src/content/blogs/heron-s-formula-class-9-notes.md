@@ -10,17 +10,17 @@ manualReview: false
 
 ## ⚡ Formula Bank
 - Heron's formula is used to find the area of a triangle when all three sides are known.
-- The formula is given by: A = \sort{s(s - a)(s - b)(s - c)}$, where A is the area of the triangle and is is the semi-perimeter.
+- The formula is given by: A = \sort’s(s - a)(s - b)(s - c)}$, where A is the area of the triangle and is is the semi-perimeter.
 - The semi-perimeter is is given by: is = \franc{a + b + c}{2}$, where a, by, and act are the sides of the triangle.
 - Heron's formula can be used to find the area of any triangle, whether it is a right-angled triangle or not.
 - The formula is also useful when we are given the lengths of all three sides of a triangle, and we need to find the area.
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not calculating the semi-perimeter correctly: is = \franc{a + b + c}{2}$.
-- Not using the correct formula: A = \sort{s(s - a)(s - b)(s - c)}$.
-- Forgetting to take the square root: A = \sort{s(s - a)(s - b)(s - c)}$.
+- Not using the correct formula: A = \sort’s(s - a)(s - b)(s - c)}$.
+- Forgetting to take the square root: A = \sort’s(s - a)(s - b)(s - c)}$.
 - Not using the correct values of a, by, and act in the formula.
-- Not simplifying the expression: A = \sort{s(s - a)(s - b)(s - c)}$ to get the final answer.
+- Not simplifying the expression: A = \sort’s(s - a)(s - b)(s - c)}$ to get the final answer.
 
 ## ✏️ 3 Solved Yes
 - **Question 1:** Find the area of a triangle with sides $5$ cm, $12$ cm, and $13$ cm.
@@ -45,9 +45,9 @@ manualReview: false
 
 ## 🔁 Last 5 Minutes Box
 - Make sure to calculate the semi-perimeter correctly: is = \franc{a + b + c}{2}$.
-- Use the correct formula: A = \sort{s(s - a)(s - b)(s - c)}$.
-- Take the square root: A = \sort{s(s - a)(s - b)(s - c)}$.
-- Simplify the expression: A = \sort{s(s - a)(s - b)(s - c)}$ to get the final answer.
+- Use the correct formula: A = \sort’s(s - a)(s - b)(s - c)}$.
+- Take the square root: A = \sort’s(s - a)(s - b)(s - c)}$.
+- Simplify the expression: A = \sort’s(s - a)(s - b)(s - c)}$ to get the final answer.
 - Check your units: the area should be in square units (e.g., square cm).
 
 ## 📝 Practice MCQs
@@ -118,7 +118,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

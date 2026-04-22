@@ -59,7 +59,7 @@ I still remember the mistake I made and my [class](/blog/morphology-of-flowering
 [plant](/blog/plant-kingdom-class-11-revision-notes-neet) hormones are chemical messengers that regulate [plant](/blog/plant-kingdom-class-11-revision-notes-neet) growth and development. The five major types of [plant](/blog/plant-kingdom-class-11-revision-notes-neet) hormones are:
 * Auxins: promote [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) elongation and [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division
 * Gibberellins: promote seed germination and stem elongation
-* Cytokinins: promote cell division and differentiation
+* Cytokinins: promote [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division and differentiation
 * Abscisic acid: inhibits growth and promotes dormancy
 * Ethylene: promotes fruit ripening and senescence
 
@@ -122,7 +122,7 @@ Answer: A) Photoperiodism
 
 4. Which type of [plant](/blog/plant-kingdom-class-11-revision-notes-neet) flowers and response to short days?
 A) Short-day [plant](/blog/plant-kingdom-class-11-revision-notes-neet)
-B) Long-day plant
+B) Long-day [plant](/blog/plant-kingdom-class-11-revision-notes-neet)
 C) Day-neutral plant
 D) Photoperiodic plant
 

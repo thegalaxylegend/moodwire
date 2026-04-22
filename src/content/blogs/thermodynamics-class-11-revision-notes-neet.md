@@ -126,7 +126,7 @@ The Second Law sets the direction of energy transfer and limits efficiency.
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
-- **Chapter 10: Thermal Properties of Matter**
+- **Chapter 10: [thermal](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet) Properties of Matter**
 - **Chapter 12: [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) Theory of Gases (Molecular Dynamics)**
 - **[thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) P-V Graph Solver Guide**
 

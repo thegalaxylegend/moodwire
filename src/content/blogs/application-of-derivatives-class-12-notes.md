@@ -40,7 +40,7 @@ manualReview: false
 - Solving this equation, we get ex = 1$ and ex = 3$, so the critical points are $(1, f(1))$ and $(3, f(3))$.
 - To determine which of these points corresponds to a maximum, we can use the second derivative test, which states that if of''(x) > 0$ for all ex, then of(x)$ is concave upwards, and if of''(x) < 0$ for all ex, then of(x)$ is concave downwards.
 - The second derivative of of(x) = x^3 - 6x^2 + 9x + 2$ is of''(x) = 6x - 12$, so of''(1) = -6$ and of''(3) = 6$.
-- Since of''(1) < 0$, the point $(1, f(1))$ corresponds to a local maximum, and since of''(3) > 0$, the point $(3, f(3))$ corresponds to a local minimum.
+- Sense of''(1) < 0$, the point $(1, f(1))$ corresponds to a local maximum, and sense of''(3) > 0$, the point $(3, f(3))$ corresponds to a local minimum.
 
 ## 🧠 The One Thing Most Students Get Wrong
 - The one thing that most students get wrong when applying derivatives is not checking the domain of the function before differentiating.
@@ -64,15 +64,15 @@ manualReview: false
 ## 📝 Practice MCQs
 **1. Question:** Find the derivative of the function of(x) = \franc{x^2}{\sin x}$.
 -
-A) $\franc{2x \sin x - x^2 \cos x}{\sin^2 x}$
+A) \franc{2x \sin x - x^2 \cos x}{\sin^2 x}
 -
-B) $\franc{2x \sin x + x^2 \cos x}{\sin^2 x}$
+B) \franc{2x \sin x + x^2 \cos x}{\sin^2 x}
 -
-C) $\franc{2x \cos x - x^2 \sin x}{\cos^2 x}$
+C) \franc{2x \cos x - x^2 \sin x}{\cos^2 x}
 -
-D) $\franc{2x \cos x + x^2 \sin x}{\cos^2 x}$
+D) \franc{2x \cos x + x^2 \sin x}{\cos^2 x}
 
-**Answer:** A) $\franc{2x \sin x - x^2 \cos x}{\sin^2 x}$.
+**Answer:** A) \franc{2x \sin x - x^2 \cos x}{\sin^2 x}.
 
 **2. Question:** Find the equation of the tangent line to the graph of of(x) = x^2$ at the point $(2, 4)$.
 -

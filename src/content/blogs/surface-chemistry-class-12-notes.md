@@ -33,11 +33,11 @@ manualReview: false
 
 ## ✏️ 3 Solved PYQs
 - **Question 1:** What is the surface tension of a liquid if a force of $6 \times 10^{-2}$ N is required to increase the surface area of the liquid film by $1 \times 10^{-2}$ m?
-  -  lution: \sigma = $\frac{F}{l}$ = $\frac{6 \times 10^{-2}$}{1 \times 10^{-2}} = 0.6 N/m 
+  -   tion: \sigma = $\frac{F}{l}$ = $\frac{6 \times 10^{-2}$}{1 \times 10^{-2}} = 0.6 N/m 
 - **Question 2:** A certain gas is adsorbed by a solid surface, and the amount of gas adsorbed is $1.5 \times 10^{-3}$ kg per kg of the solid surface at a pressure of $1 \times 10^{5}$ Pa. If the temperature is increased to $50^{\circ}$C, the amount of gas adsorbed decreases to $1 \times 10^{-3}$ kg per kg of the solid surface. What is the heat of adsorption?
   - Solution: $\delta H = 2.303 R \log \frac{P_1}{P_2} \frac{x_2}{x_1} = 2.303 \times 8.314 \times \log \frac{1 \times 10^{5}}{1 \times 10^{5}} \frac{1 \times 10^{-3}}{1.5 \times 10^{-3}} = -2.48$ kJ/mol
 - **Question 3:** A liquid of density $1 \times 10^{3}$ kg/m$^3$ is filled in a capillary tube of radius $1 \times 10^{-3}$ m. If the surface tension of the liquid is $7 \times 10^{-2}$ N/m and the angle of contact is $0^{\circ}$, what is the height of the liquid column?
-  -  lution: h = $\frac{2 \sigma \cos \theta}{r \rho g}$ = $\frac{2 \times 7 \times 10^{-2}$ \times \cos 0^{\circ}}{1 \times 10^{-3} \times 1 \times 10^{3} \times 9.8} = 0.143 m 
+  -   tion: h = $\frac{2 \sigma \cos \theta}{r \rho g}$ = $\frac{2 \times 7 \times 10^{-2}$ \times \cos 0^{\circ}}{1 \times 10^{-3} \times 1 \times 10^{3} \times 9.8} = 0.143 m 
 
 ## 🧠 The One Thing Most Students Get Wrong
 - The concept of adsorption and its distinction from absorption.
@@ -46,7 +46,7 @@ manualReview: false
 - The amount of gas adsorbed by a solid surface decreases with increase in temperature, whereas the amount of gas absorbed by a liquid increases with increase in temperature.
 
 ## 👁️ Ayush's Note
-- Surface chemistry is an important topic in physical chemistry, and it has many applications in our daily life.
+- Surface [chemistry](/blog/chemistry-in-everyday-life-class-12-notes) is an important topic in physical [chemistry](/blog/chemistry-in-everyday-life-class-12-notes), and it has many applications in our daily life.
 - The concept of surface tension and surface energy is crucial in understanding the behavior of liquids and solids.
 - The formula for surface tension and surface energy should be memorized, and problems related to these topics should be practiced regularly.
 - The concept of adsorption and its distinction from absorption should be understood clearly, and problems related to these topics should be practiced regularly.
@@ -54,7 +54,7 @@ manualReview: false
 ## 🔁 Last 5 Minutes Box
 - Surface tension: $\sigma = \frac{F}{l}$
 - Surface energy: $E = \sigma \times A$
--  Adsorption: $\frac{x}{m}$ = f(P, T, A) 
+-   Adsorption: $\frac{x}{m}$ = f(P, T, A) 
 - Capillary rise: $h = \frac{2 \sigma \cos \theta}{r \rho g}$
 - Viscosity: $\eta = \frac{F}{A \frac{\delta v}{\delta x}}$
 
@@ -85,15 +85,15 @@ D) It decreases with increase in pressure
 
 **3. What is the formula for capillary rise?**
 -
-A) h = $\frac{2 \sigma \cos \theta}{r \rho g}$
+A) h = \frac{2 \sigma \cos \theta}{r \rho g}
 -
-B) h = $\frac{2 \sigma \sin \theta}{r \rho g}$
+B) h = \frac{2 \sigma \sin \theta}{r \rho g}
 -
-C) h = $\frac{\sigma \cos \theta}{r \rho g}$
+C) h = \frac{\sigma \cos \theta}{r \rho g}
 -
-D) h = $\frac{\sigma \sin \theta}{r \rho g}$
+D) h = \frac{\sigma \sin \theta}{r \rho g}
 
-**Answer: A) h = $\frac{2 \sigma \cos \theta}{r \rho g}$**
+**Answer: A) h = \frac{2 \sigma \cos \theta}{r \rho g}**
 
 **4. What is the unit of viscosity?**
 -
@@ -126,7 +126,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

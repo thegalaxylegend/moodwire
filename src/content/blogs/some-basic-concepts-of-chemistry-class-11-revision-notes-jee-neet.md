@@ -79,7 +79,7 @@ For example, consider the reaction:
 2$\text{Na} + \text{Cl}$_2 \rightarrow 2$\text{NaCl}
 
 The mass of the reactants is:
-\text{Mass of Reactants}$ = 2 \times 23 + 71 = 117 $\text{ g}$
+$\text{Mass of Reactants} = 2 \times 23 + 71 = 117 \text{ g}
 
 The mass of the products is:
 $\text{Mass of Products} = 2 \times 58.5 = 117 \text{ g}$
@@ -92,10 +92,10 @@ As expected, the mass of the reactants is equal to the mass of the products.
 A balanced chemical equation has the same number of atoms of each element on both the reactant and product sides.
 
 For example, consider the reaction:
-$\text{H}$_2 + $\text{O}_2$ \rightarrow $\text{H}_2\text{O}$
+ \text{H}_2 + \text{O}_2 \rightarrow \text{H}_2\text{O} 
 
 This equation is not balanced. To balance it, we need to add coefficients:
-2$\text{H}$_2 + $\text{O}_2$ \rightarrow 2$\text{H}_2\text{O}$
+ 2\text{H}_2 + \text{O}_2 \rightarrow 2\text{H}_2\text{O} 
 
 Now the equation is balanced, with 4 hydrogen atoms n 2 oxygen atoms on both sides.
 

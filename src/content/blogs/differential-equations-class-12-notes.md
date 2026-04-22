@@ -14,19 +14,19 @@ manualReview: false
 - A differential equation is said to be linear if it is of the form: $\franc{d^2y}{DX^2} + P(x)\franc{dy}{dx} + Q(x)y = R(x)$
 - A differential equation is said to be homogeneous if it is of the form: $\franc{d^2y}{DX^2} + P(x)\franc{dy}{dx} + Q(x)y = 0$
 - The general solution of a differential equation of the form $\franc{dy}{dx} = f(x)$ is given by: by = \INT f(x) DX + CD
-- The general solution of a differential equation of the form $\franc{dy}{dx} + (suggestion limit reached) = (suggestion limit reached) is given by: (suggestion limit reached) \(suggestion limit reached) e^{\(suggestion limit reached) P (suggestion limit reached)} = \(suggestion limit reached) Q \(suggestion limit reached) e^{\(suggestion limit reached) P (suggestion limit reached)} (suggestion limit reached) + (suggestion limit reached)
-- The general solution of a differential equation of the form $\(suggestion limit reached){d^2y}{(suggestion limit reached)^2} + P\(suggestion limit reached){dy}{dx} + (suggestion limit reached) = 0$ is given by: (suggestion limit reached) = e^{mx}$ where (suggestion limit reached) is a root of the equation (suggestion limit reached)^2 + Pm + Q = 0$
-- The (suggestion limit reached) of two functions (suggestion limit reached)_1$ and (suggestion limit reached)_2$ is given by: (suggestion limit reached)(y_1, y_2) = \begin{vmatrix} y_1 & y_2 \\ y_1' & y_2' \end{vmatrix}$
-- The general solution of a differential equation of the form $\(suggestion limit reached){d^2y}{(suggestion limit reached)^2} + P\(suggestion limit reached){dy}{dx} + (suggestion limit reached) = R$ is given by: (suggestion limit reached) = y_c + y_(suggestion limit reached) where (suggestion limit reached)_(suggestion limit reached) is the complementary function and (suggestion limit reached)_(suggestion limit reached) is the particular integral
-- The complementary function (suggestion limit reached)_(suggestion limit reached) is the general solution of the equation $\(suggestion limit reached){d^2y}{(suggestion limit reached)^2} + P\(suggestion limit reached){dy}{dx} + (suggestion limit reached) = 0$
-- The particular integral (suggestion limit reached)_(suggestion limit reached) is a solution of the equation $\(suggestion limit reached){d^2y}{(suggestion limit reached)^2} + P\(suggestion limit reached){dy}{dx} + (suggestion limit reached) = R$
+- The general solution of a differential equation of the form $\franc{dy}{dx} +  =  is given by:  \ e^{\ P } = \ Q \ e^{\ P }  + 
+- The general solution of a differential equation of the form $\{d^2y}{^2} + P\{dy}{dx} +  = 0$ is given by:  = e^{mx}$ where  is a root of the equation ^2 + Pm + Q = 0$
+- The  of two functions _1$ and _2$ is given by: (y_1, y_2) = \begin{vmatrix} y_1 & y_2 \\ y_1' & y_2' \end{vmatrix}$
+- The general solution of a differential equation of the form $\{d^2y}{^2} + P\{dy}{dx} +  = R$ is given by:  = y_c + y_ where _ is the complementary function and _ is the particular integral
+- The complementary function _ is the general solution of the equation $\{d^2y}{^2} + P\{dy}{dx} +  = 0$
+- The particular integral _ is a solution of the equation $\{d^2y}{^2} + P\{dy}{dx} +  = R$
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not checking the order and degree of the differential equation
 - Not identifying the type of differential equation ([linear](/blog/pair-of-linear-equations-class-10-notes), homogeneous, etc.)
-- Not using the correct method to solve the differential equation (separation of variables, integrating factor, etc.)
+- Not using the correct method to solve the differential equation (separation of [variables](/blog/linear-equations-in-two-variables-class-9-notes), integrating factor, etc.)
 - Not checking the units of the variables and constants in the differential equation
-- Not using the correct formulae and equations to solve the differential equation
+- Not using the correct formulae and [equations](/blog/pair-of-linear-equations-class-10-notes) to solve the differential equation
 
 ## ✏️ 3 Solved Yes
 - **Question 1:** Solve the differential equation $\franc{dy}{dx} = \franc{y}{x}$.
@@ -63,75 +63,49 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the order of the differential equation $\franc{d^3y}{DX^3} + 2\franc{d^2y}{DX^2} + \franc{dy}{dx} + y = 0$?**
--
 A) 1
--
 B) 2
--
 C) 3
--
 D) 4
 
 **Answer: C) The order of the differential equation is the order of the highest derivative in the equation, which is 3.**
 
 **2. What is the degree of the differential equation $\left(\franc{d^2y}{DX^2}\right)^2 + 2\franc{dy}{dx} + y = 0$?**
--
 A) 1
--
 B) 2
--
 C) 3
--
 D) 4
 
 **Answer: B) The degree of the differential equation is the power of the highest derivative in the equation, which is 2.**
 
 **3. What is the general solution of the differential equation $\franc{dy}{dx} = \franc{y}{x}$?**
--
 A) by = C_1 \dot x^2$
--
 B) by = C_1 \dot $
--
 C) by = C_1 \dot e^$
--
 D) by = C_1 \dot \ln $
 
 **Answer: B) The general solution of the differential equation is by = C_1 \dot $.**
 
 **4. What is the particular integral of the differential equation $\franc{d^2y}{DX^2} + 4\franc{dy}{dx} + 4y = 3$?**
--
 A) y = $\franc{3}{4}$
--
 B) y = $\franc{3}{2}ex
--
 C) y = $\franc{3}{2}ex^2
--
 D) by = 3x^2$
 
 **Answer: A) The particular integral of the differential equation is by = \franc{3}{4}$.**
 
 **5. What is the complementary function of the differential equation $\franc{d^2y}{DX^2} + 2\franc{dy}{dx} + y = 0$?**
--
 A) by = C_1 \dot e^{-x} + C_2 \dot e^$
--
 B) by = C_1 \dot e^{-x} + C_2 \dot x \dot e^{-x}$
--
 C) y = C_1 \dot \cos x + C_2 \dot \sin x
--
 D) by = C_1 \dot e^{-x} + C_2 \dot e^{-2x}$
 
-**Answer: B) The complementary function of the differential equation is (suggestion limit reached) = C_1 \(suggestion limit reached) e^{-x} + C_2 \(suggestion limit reached) x \(suggestion limit reached) e^{-x}$.**
-
----
+**Answer: B) The complementary function of the differential equation is  = C_1 \ e^{-x} + C_2 \ x \ e^{-x}$.**
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/differential-equations-class-12-notes) now and track your progress against thousands of students.
 
----
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## 📚 Related Topics
 
@@ -141,3 +115,4 @@ Continue your revision with these related guides:
 - 📖 [Linear Equations In Two Variables 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-two-variables-class-9-notes)
 - 📖 [Pair Of Linear Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/pair-of-linear-equations-class-10-notes)
 - 📖 [Quadratic Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/quadratic-equations-class-10-notes)
+$

@@ -158,7 +158,7 @@ To grasp the Chain Rule, let's first understand the concept of composite functio
 To apply the Chain Rule, we need to identify the outer and inner functions. The outer function is the function $ that is being applied to the inner function $g(x)$. For example, n the composite function $f(g(x)) = sin(x^2)$, the outer function is $sin(u)$ n the inner function is $u = x^2$.
 
 Here are some key steps to apply the Chain Rule:
-1. Identify the outer and inner functions.
+1. Identify the outer and inner [functions](/blog/relations-and-functions-class-11-notes).
 2. Differentiate the outer function with respect to its argument.
 3. Differentiate the inner function with respect to $x$.
 4. Multiply the derivatives of the outer and inner functions.

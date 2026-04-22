@@ -25,7 +25,7 @@ manualReview: false
 - The [application](/blog/application-of-derivatives-class-12-notes) of microbes in human welfare is vast and diverse, including the production of food, biofuels, and pharmaceuticals.
 - The use of microbes in agriculture can increase crop yields and improve food security, which is essential for the growing global population.
 - The production of biofuels from microbial sources can reduce our dependence on fossil fuels and mitigate climate change.
-- The development of new pharmaceuticals and vaccines using microbes can improve human health and save lives.
+- The development of new pharmaceuticals and vaccines using microbes can improve [human](/blog/human-reproduction-class-12-notes) health and save lives.
 - The use of microbes in environmental remediation can clean up polluted soil and water, which is essential for maintaining ecosystem health.
 
 ## 🪤 The 5 Mistakes That Cost Marks
@@ -56,7 +56,7 @@ manualReview: false
 - **Answer:** The $\beta$-galactosidase enzyme in the production of dairy products by breaking down lactose into glucose and galactose.
 
 ## 
-- The application of microbes in human welfare is a complex and multifaceted field, requiring a deep understanding of microbial biology and ecology.
+- The [application](/blog/application-of-derivatives-class-12-notes) of microbes in human welfare is a complex and multifaceted field, requiring a deep understanding of microbial biology and ecology.
 - The use of microbes in agriculture, biofuel production, and pharmaceutical development requires a thorough understanding of microbial growth rates, $\alpha$-amylase activity, and $\beta$-galactosidase activity.
 - The development of new biotechnological products using microbes requires a strong foundation in microbial genetics, biochemistry, and ecology.
 
@@ -145,7 +145,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

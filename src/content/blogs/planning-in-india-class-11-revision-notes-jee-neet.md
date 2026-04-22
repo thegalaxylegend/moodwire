@@ -45,7 +45,7 @@ Planning n [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee
 | Sixth Five-Year Plan | Growth with stability | Increase and industrial production |
 
 - Planning and [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) is a process of formulating and implementing plans for the development of the country.
-- The Five-Year Plans are formulated y the Planning Commission of India.
+- The Five-Year Plans are formulated y the Planning Commission of [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee).
 - The plans are implemented y the central and state governments.
 
 ## <a id="mcqs"></a>MCQs

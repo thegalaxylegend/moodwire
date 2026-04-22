@@ -32,10 +32,10 @@ eq 0$
 
 ## ✏️ 3 Solved PYQs
 - **Question 1:** Simplify $\frac{3 + \sqrt{5}}{3 - \sqrt{5}}$.
-  -  rac{3 + $\sqrt{5}$}{3 - $\sqrt{5}$} = $\frac{(3 + \sqrt{5}$)(3 + $\sqrt{5}$)}{(3 - $\sqrt{5}$)(3 + $\sqrt{5}$)} 
-  -  $\frac{9 + 6\sqrt{5}$ + 5}{9 - 5} 
-  -  $\frac{14 + 6\sqrt{5}$}{4} 
-  -  $\frac{7}{2}$ + $\frac{3}{2}\sqrt{5}$
+  -   c{3 + $\sqrt{5}$}{3 - $\sqrt{5}$} = $\frac{(3 + \sqrt{5}$)(3 + $\sqrt{5}$)}{(3 - $\sqrt{5}$)(3 + $\sqrt{5}$)} 
+  -   rac{9 + 6$\sqrt{5}$ + 5}{9 - 5} 
+  -   rac{14 + 6$\sqrt{5}$}{4} 
+  -   rac{7}{2} + $\frac{3}{2}\sqrt{5}$
 - **Question 2:** Find the value of $x$ in $\sqrt{x} - \sqrt{3} = \sqrt{2}$.
   - $\sqrt{x} - \sqrt{3} = \sqrt{2}$
   - $\sqrt{x} = \sqrt{2} + \sqrt{3}$
@@ -43,9 +43,9 @@ eq 0$
   - $x = 2 + 2\sqrt{6} + 3$
   - $x = 5 + 2\sqrt{6}$
 - **Question 3:** Simplify $\frac{2 + \sqrt{3}}{2 - \sqrt{3}}$.
-  -  rac{2 + $\sqrt{3}$}{2 - $\sqrt{3}$} = $\frac{(2 + \sqrt{3}$)(2 + $\sqrt{3}$)}{(2 - $\sqrt{3}$)(2 + $\sqrt{3}$)} 
-  -  $\frac{4 + 4\sqrt{3}$ + 3}{4 - 3} 
-  -  $\frac{7 + 4\sqrt{3}$}{1} 
+  -   c{2 + $\sqrt{3}$}{2 - $\sqrt{3}$} = $\frac{(2 + \sqrt{3}$)(2 + $\sqrt{3}$)}{(2 - $\sqrt{3}$)(2 + $\sqrt{3}$)} 
+  -   rac{4 + 4$\sqrt{3}$ + 3}{4 - 3} 
+  -   rac{7 + 4$\sqrt{3}$}{1} 
   - $= 7 + 4\sqrt{3}$
 
 ## 🧠 The One Thing Most Students Get Wrong
@@ -109,9 +109,9 @@ D) $2 - \sqrt{3}$
 
 **4. What is the value of $\frac{3 + \sqrt{5}}{3 - \sqrt{5}}$?**
 -
-A) $\frac{7}{2}$ + $\frac{3}{2}\sqrt{5}$
+A) \frac{7}{2} + \frac{3}{2}\sqrt{5}
 -
-B) $\frac{7}{2}$ - $\frac{3}{2}\sqrt{5}$
+B) \frac{7}{2} - \frac{3}{2}\sqrt{5}
 -
 C) $2 + \sqrt{3}$
 -
@@ -139,8 +139,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
-
-
 ---
 
 ## 📚 Related Topics
@@ -151,3 +149,4 @@ Continue your revision with these related guides:
 - 📖 [Heron S Formula 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/heron-s-formula-class-9-notes)
 - 📖 [Linear Equations In Two Variables 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-two-variables-class-9-notes)
 - 📖 [Lines And Angles 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/lines-and-angles-class-9-notes)
+

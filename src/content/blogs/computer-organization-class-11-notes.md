@@ -109,7 +109,7 @@ What are the Basic Components of a Computer? is a fundamental concept and comput
 | Component | Description | Function |
 | --- | --- | --- |
 | Central Processing Unit (CPU) | Executes instructions and performs calculations | Brain of the computer |
-| Memory | Stores data and programs | Enables the computer to store and retrieve data |
+| Memory | Stores [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) and programs | Enables the computer to store and retrieve [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) |
 | Input/Output (I/O) devices | Allow users to interact with the computer | Enable data entry, output, n control |
 
 ## <a id="how-does-the-central-processing-unit-cpu-work"></a>How does the Central Processing Unit (CPU) Work?
@@ -157,7 +157,7 @@ Ayush's Note on Computer Organization is a detailed study guide that focuses on 
 
 ## <a id="how-does-the-memory-hierarchy-work-n-computer-organization"></a>How does the Memory Hierarchy Work and Computer Organization?
 
-How does the Memory Hierarchy Work and Computer Organization? is a hierarchical structure that allows a computer to manage data and instructions efficiently. It includes the main memory, cache memory, n virtual memory. For Class 11 exam prep n 2026, the most important aspect is understanding how these components interact to optimize data access time and system performance.
+How does the Memory Hierarchy Work and Computer Organization? is a hierarchical structure that allows a computer to manage data and instructions efficiently. It includes the main memory, cache memory, n virtual memory. For [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) 11 exam prep n 2026, the most important aspect is understanding how these components interact to optimize data access time and system performance.
 
  The memory hierarchy is designed to balance the trade-off between memory access time, memory capacity, n cost. The hierarchy consists of multiple levels, with each level having a different access time, capacity, n cost. The fastest and most expensive level is the cache memory, which is a small, high-speed memory that stores frequently used instructions and data. The next level is the main memory, which is a larger and slower memory that stores all the program instructions and data. The slowest and least expensive level is the virtual memory, which is a combination of the main memory and the hard disk storage.
 

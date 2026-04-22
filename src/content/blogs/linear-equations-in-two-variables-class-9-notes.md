@@ -18,7 +18,7 @@ manualReview: false
 - The slope of a linear equation in two variables can be found using the formula $m = -\frac{a}{b}$.
 
 ## 
-- A linear equation in two variables has infinitely many solutions.
+- A [linear](/blog/linear-programming-class-12-notes) equation in two variables has infinitely many solutions.
 - The graph of a linear equation in two variables can be drawn using the $x$ and $y$ intercepts.
 - The equation $ax + by + c = 0$ can be written in the form $\frac{x}{-\frac{c}{a}} + \frac{y}{-\frac{c}{b}} = 1$, which is the standard form of a linear equation in two variables.
 - The $x$ and $y$ intercepts of a linear equation in two variables can be used to draw the graph of the equation.
@@ -90,9 +90,9 @@ D) $y = 2x - 3$
 
 **3. What is the $y$-intercept of the equation $x - 2y + 3 = 0$?**
 -
-A) y = -$\frac{3}{2}$
+A) y = -\frac{3}{2}
 -
-B) y = $\frac{3}{2}$
+B) y = \frac{3}{2}
 -
 C) $y = 0$
 -
@@ -102,27 +102,27 @@ D) $y = 3$
 
 **4. What is the slope of the line that has the equation $2x + 3y - 6 = 0$?**
 -
-A) m = -$\frac{2}{3}$
+A) m = -\frac{2}{3}
 -
-B) m = $\frac{2}{3}$
+B) m = \frac{2}{3}
 -
-C) m = -$\frac{3}{2}$
+C) m = -\frac{3}{2}
 -
-D) m = $\frac{3}{2}$
+D) m = \frac{3}{2}
 
-**Answer: A) m = -$\frac{2}{3}$**
+**Answer: A) m = -\frac{2}{3}**
 
 **5. What is the equation of the line that has $x$ and $y$ intercepts of $-3$ and $-2$ respectively?**
 -
-A) $\frac{x}{-3}$ + $\frac{y}{-2}$ = 1
+A) \frac{x}{-3} + \frac{y}{-2} = 1
 -
-B) $\frac{x}{3}$ + $\frac{y}{2}$ = 1
+B) \frac{x}{3} + \frac{y}{2} = 1
 -
-C) $\frac{x}{-3}$ + $\frac{y}{2}$ = 1
+C) \frac{x}{-3} + \frac{y}{2} = 1
 -
-D) $\frac{x}{3}$ + $\frac{y}{-2}$ = 1
+D) \frac{x}{3} + \frac{y}{-2} = 1
 
-**Answer: A) $\frac{x}{-3}$ + $\frac{y}{-2}$ = 1**
+**Answer: A) \frac{x}{-3} + \frac{y}{-2} = 1**
 
 ---
 
@@ -131,7 +131,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
