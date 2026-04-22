@@ -49,7 +49,7 @@ practice_link: "/class-11/physics/oscillations-class-11-revision-notes-jee-neet"
 
 ## <a id="introduction"></a>Introduction
 
-Nature is rhythmic. From the beating of a heart and the vibration of a guitar string to the atomic oscillations and a crystal lattice, the study of "Oscillations" is the study of repetitive motion. At the heart of this chapter is **Simple Harmonic Motion (SHM)**—a special type of periodic motion where the restoring force is directly proportional to the displacement. Understanding SHM is critical for mastering Waves, Optics, n Alternating Current n [class](/blog/kinetic-theory-class-11-revision-notes-jee-neet) 12. In this "Comprehensive" guide, we provide exhaustive derivations for SHM equations, energy profiles, n the physics of pendulums and springs—providing the ultimate preparation for JEE, NEET, n Board exams.
+Nature is rhythmic. From the beating of a heart and the vibration of a guitar string to the atomic oscillations and a crystal lattice, the study of "Oscillations" is the study of repetitive motion. At the heart of this chapter is **Simple Harmonic Motion (SHM)**—a special type of periodic motion where the restoring force is directly proportional to the displacement. Understanding SHM is critical for mastering Waves, Optics, n Alternating Current n class 12. In this "Comprehensive" guide, we provide exhaustive derivations for SHM equations, energy profiles, n the physics of pendulums and springs—providing the ultimate preparation for JEE, NEET, n Board exams.
 
 ---
 

@@ -50,11 +50,11 @@ Photosynthesis is [the process y which green plants, algae, n some bacteria conv
 
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 
-Photosynthesis is a critical topic and the [class](/blog/environmental-chemistry-class-11-revision-notes-neet) 11 biology syllabus, n it has been a popular question and various competitive exams, including JEE and NEET. In the 2026 JEE Mains exam, 2 questions were asked from this topic, n and the 2026 NEET exam, 3 questions were asked. Therefore, it is essential to have a thorough understanding of this topic to score well and these exams.
+Photosynthesis is a critical topic and the class 11 biology syllabus, n it has been a popular question and various competitive exams, including JEE and NEET. In the 2026 JEE Mains exam, 2 questions were asked from this topic, n and the 2026 NEET exam, 3 questions were asked. Therefore, it is essential to have a thorough understanding of this topic to score well and these exams.
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div [class](/blog/physical-world-class-11-revision-notes-jee-neet)="callout-box">
+<div class="callout-box">
 I still remember when I was preparing for my JEE exam, I used to get confused between the light-dependent and light-independent reactions. I would often mix up the equations and the reactants. But then I realized that the light-dependent reactions are all about generating ATP and NADPH, while the light-independent reactions are all about fixing CO2 into glucose. Once I understood this, the entire process became much clearer, n I was able to answer questions with confidence. My advice to you would be to focus on understanding the concepts rather than just memorizing the equations.
 </div>
 
@@ -116,8 +116,8 @@ C) $H_2O \rightarrow ATP + NADPH + O_2$ D) CO_2 + H_2O \rightarrow Glucose + O_2
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Plant Physiology [class](/blog/environmental-chemistry-class-11-revision-notes-neet) 11 Notes
-* Cell Biology [class](/blog/environmental-chemistry-class-11-revision-notes-neet) 11 Notes
+* Plant Physiology class 11 Notes
+* Cell Biology class 11 Notes
 
 ## <a id="last-updated-date"></a>Last Updated Date
 

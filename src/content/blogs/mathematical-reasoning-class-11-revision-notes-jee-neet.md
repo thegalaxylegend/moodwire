@@ -43,7 +43,7 @@ practice_link: "/class-11/physics/mathematical-reasoning-class-11-revision-notes
 
 ## <a id="introduction"></a>Introduction
 
-**Mathematical Reasoning provides the formal logic required to verify mathematical truths and construct rigorous proofs. Master inductive and deductive reasoning, logical connectives like 'n'/'or', n contrapositive statements to sharpen your analytical thinking for competitive exams. This [class](/blog/complex-numbers-class-11-revision-notes-jee-neet) 11 Math Chapter 14 summary ensures you understand the fundamental language of mathematical certainty for JEE and Boards.**
+**Mathematical Reasoning provides the formal logic required to verify mathematical truths and construct rigorous proofs. Master inductive and deductive reasoning, logical connectives like 'n'/'or', n contrapositive statements to sharpen your analytical thinking for competitive exams. This class 11 Math Chapter 14 summary ensures you understand the fundamental language of mathematical certainty for JEE and Boards.**
 Mathematics is built on a foundation of absolute truth and rigorous logic.
 
 ---

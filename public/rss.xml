@@ -6,8 +6,15 @@
         <description>AI-powered exam preparation, notes, strategies, and PYQs for JEE, NEET, UPSC, and board exams.</description>
         <language>en-in</language>
         <atom:link href="https://examcompass.pages.dev/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Tue, 21 Apr 2026 16:22:57 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Apr 2026 17:18:32 GMT</lastBuildDate>
         
+        <item>
+            <title>Factorisation Class 8 Mathematics Recap — Grandmaster Guide</title>
+            <link>https://examcompass.pages.dev/blog/factorisation-class-8-notes</link>
+            <description>Factorisation Class 8 Mathematics Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-22.</description>
+            <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+            <guid isPermaLink="true">https://examcompass.pages.dev/blog/factorisation-class-8-notes</guid>
+        </item>
         <item>
             <title>3d Geometry Intro Class 11 Mathematics Revision — Grandmaster Guide</title>
             <link>https://examcompass.pages.dev/blog/3d-geometry-intro-class-11-revision-notes-jee-neet</link>
@@ -350,13 +357,6 @@
             <description>Nuclei Class 12 Physics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.</description>
             <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
             <guid isPermaLink="true">https://examcompass.pages.dev/blog/nuclei-class-12-notes</guid>
-        </item>
-        <item>
-            <title>Number Systems 9 Class 9 Exam Prep Revision — Grandmaster Guide</title>
-            <link>https://examcompass.pages.dev/blog/number-systems-class-9-notes</link>
-            <description>Number Systems 9 Class 9 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.</description>
-            <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-            <guid isPermaLink="true">https://examcompass.pages.dev/blog/number-systems-class-9-notes</guid>
         </item>
     </channel>
 </rss>

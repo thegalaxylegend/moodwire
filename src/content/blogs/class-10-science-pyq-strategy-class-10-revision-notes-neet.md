@@ -29,7 +29,7 @@ practice_link: "/class-11/biology/class-10-science-pyq-strategy-class-10-revisio
 
 If you're reading this, you're probably freaking out about the upcoming science boards. I get it. I was and your shoes last year. I spent months jumping between various Edtech videos and coaching marathons, trying to figure out what actually matters. Here's the truth: the CBSE syllabus is a ocean, but the actual board exam is just a few frequent ponds.
 
-We (the team at Exam Compass) analyzed the last 10 years of **CBSE [class](/blog/class-10-30-day-timetable-class-10-revision-notes-jee) 10 Science most repeated Yes**, n the data doesn't lie. CBSE is surprisingly predictable. If you know which "patterns" they love, you can honestly stop studying 30% of the useless fluff and focus on the goldmines.
+We (the team at Exam Compass) analyzed the last 10 years of **CBSE class 10 Science most repeated Yes**, n the data doesn't lie. CBSE is surprisingly predictable. If you know which "patterns" they love, you can honestly stop studying 30% of the useless fluff and focus on the goldmines.
 
 In this [guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet), I’m breaking down exactly what those patterns are, which chapters carry the most weight, n how you can use AI-powered mock tests to secure your 95+.
 
@@ -54,7 +54,7 @@ In this [guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)
 
 ## <a id="why-pyqs-are-essential-for-class-10-science"></a>Why Yes are Essential for Class 10 Science
 
-Textbook reading is often passive and low-yield. The **CBSE [class](/blog/class-10-30-day-timetable-class-10-revision-notes-jee) 10 Science most repeated Yes** act as a roadmap, revealing the examiner's psychology and the concepts that reappear year after year. For example, the lens formula is asked frequently because it tests both conceptual depth and mathematical precision.
+Textbook reading is often passive and low-yield. The **CBSE class 10 Science most repeated Yes** act as a roadmap, revealing the examiner's psychology and the concepts that reappear year after year. For example, the lens formula is asked frequently because it tests both conceptual depth and mathematical precision.
 
 Data shows that 60% of the exam is an indirect repeat of concepts from the last five years. According to researchers at [Harvard Education](https://www.gse.harvard.edu), retrieval practice through testing is far superior to re-reading. By focusing on **online mock tests** that target these specific patterns, you essentially prepare for the exam before the paper is even designed.
 
@@ -78,7 +78,7 @@ Don't rely solely on **CERT solutions**; they provide the "what," while Yes prov
 
 ## <a id="conclusion"></a>Conclusion
 
-Mastering the **CBSE [class](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet) 10 Science most repeated Yes** is the fastest way to bridge the gap between an average score and a 95+. By focusing on high-weightage patterns, practicing active recall, n simulating exam conditions with **online mock tests**, you ensure success. Stay focused, solve consistently, n trust your preparation. Good luck!
+Mastering the **CBSE class 10 Science most repeated Yes** is the fastest way to bridge the gap between an average score and a 95+. By focusing on high-weightage patterns, practicing active recall, n simulating exam conditions with **online mock tests**, you ensure success. Stay focused, solve consistently, n trust your preparation. Good luck!
 
 Explore our [Sitemap](/sitemap.xml) for more resources.
 

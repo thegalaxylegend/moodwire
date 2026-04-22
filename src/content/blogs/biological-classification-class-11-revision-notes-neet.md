@@ -52,12 +52,12 @@ Biological classification is the process of grouping living organisms based on t
 
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 
-Biological classification is an important topic for [class](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) 11 students, as it is a fundamental concept and biology. In the MEET exam, questions related to biological classification are often asked, n a good understanding of this topic can help students score well. For example, n the MEET 2026 exam, 5 questions were asked from this topic.
+Biological classification is an important topic for class 11 students, as it is a fundamental concept and biology. In the MEET exam, questions related to biological classification are often asked, n a good understanding of this topic can help students score well. For example, n the MEET 2026 exam, 5 questions were asked from this topic.
 
 ## <a id="Ayush-note"></a>Ayush's Note
 
-<\\DIV [class](/blog/the-s-block-elements-class-11-revision-notes-jee-neet)="callout-box">
-I still remember when I was preparing for my MEET exam, I used to get confused between the different levels of classification. I would often mix up the order of the levels, n it would lead to mistakes and my exams. But then I realized that if I just remembered the sentence "Some Genera Have Incredible Names" (Kingdom, Phylum, [class](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet), Order, Family, Genus, Species), I could easily recall the correct order. This trick helped me a lot, n I was able to answer questions related to biological classification with confidence.
+<\\DIV class="callout-box">
+I still remember when I was preparing for my MEET exam, I used to get confused between the different levels of classification. I would often mix up the order of the levels, n it would lead to mistakes and my exams. But then I realized that if I just remembered the sentence "Some Genera Have Incredible Names" (Kingdom, Phylum, class, Order, Family, Genus, Species), I could easily recall the correct order. This trick helped me a lot, n I was able to answer questions related to biological classification with confidence.
 </div>
 
 ## <a id="core-concepts"></a>Core Concepts
@@ -71,11 +71,11 @@ Phylum is the level of classification below the [kingdom](/blog/animal-kingdom-c
 $\text{Phylum}$ = $\text{group of related classes}$
 
 ### <a id="class"></a>Class
-[class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) is the level of classification below the phylum. It is a group of related orders. 
-$\text{[class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)} = \text{group of related orders}$
+class is the level of classification below the phylum. It is a group of related orders. 
+$\text{class} = \text{group of related orders}$
 
 ### <a id="order"></a>Order
-Order is the level of classification below the [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet). It is a group of related families. 
+Order is the level of classification below the class. It is a group of related families. 
 $\text{Order}$ = $\text{group of related families}$
 
 ### <a id="family"></a>Family
@@ -92,7 +92,7 @@ $1 \text{group of organisms that can interbreed}$
 
 ## <a id="shortcut-formula-trick"></a>Shortcut Formula / Trick
 
-One trick to remember the order of the levels of classification is to use the sentence "Some Genera Have Incredible Names" (Kingdom, Phylum, [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet), Order, Family, Genus, Species).
+One trick to remember the order of the levels of classification is to use the sentence "Some Genera Have Incredible Names" (Kingdom, Phylum, class, Order, Family, Genus, Species).
 
 ## <a id="trap-questions-exceptions"></a>Trap Questions / Exceptions
 
@@ -111,13 +111,13 @@ Why students get it wrong: Students may think that family is the highest level o
 1. What is the highest level of classification?
 A) Kingdom
 B) Phylum
-C) [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
+C) class
 D) Order
 Answer: A) Kingdom
 Difficulty: Easy
 2. What is the level of classification below the kingdom?
 A) Phylum
-B) [class](/blog/plant-growth-and-development-class-11-revision-notes-neet)
+B) class
 C) Order
 D) Family
 Answer: A) Phylum

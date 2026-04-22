@@ -65,7 +65,7 @@ manualReview: false
 - The APK_a value of the conjugate acid of an amine can be calculated using the formula $\text{p}OK_a = 14 - \text{p}OK_by.
 
 ## 👁️ Ayush's Note
-- Amines are an important [class](/blog/biodiversity-and-conservation-class-12-notes) of compounds in organic chemistry.
+- Amines are an important class of compounds in organic chemistry.
 - They are used as starting materials for the synthesis of many other compounds.
 - The basicity of amines is an important property that determines their reactivity.
 - The APK_by value of an amine is a measure of its basicity.

@@ -51,7 +51,7 @@ Hydrocarbons are an essential topic and organic chemistry, n understanding them 
 
 ## <a id="Ayush-note"></a>Ayush's Note
 
-<\\DIV [class](/blog/animal-kingdom-class-11-revision-notes-neet)="callout-box">
+<\\DIV class="callout-box">
 I still remember when I was preparing for my JEE exams, I used to get confused between alkanes, alkenes, n alkanes. One mistake I made was not being able to distinguish between the general formula of alkanes (CnH2n+2) n alkenes (CnH2n). However, I realized that understanding the general formula and the structural differences between these compounds is crucial. I made a cheat sheet with the general formulas and structures of different hydrocarbons, which helped me to quickly identify and solve problems.
 </div>
 
@@ -129,8 +129,8 @@ Answer: c) Ethane
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-- Alkyl Halides [class](/blog/hydrogen-class-11-revision-notes-neet) 11 Notes
-- Alcohols [class](/blog/hydrogen-class-11-revision-notes-neet) 11 Notes
+- Alkyl Halides class 11 Notes
+- Alcohols class 11 Notes
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*

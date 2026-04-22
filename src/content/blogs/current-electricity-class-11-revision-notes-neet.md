@@ -187,7 +187,7 @@ A voltmeter draws some current from the circuit, thereby measuring a terminal vo
 
 ## <a id="conclusion"></a>Conclusion
 
-Current Electricity is the foundation of energy conversion and electronics. By mastering the microscopic derivations of Ohm’s Law and the sophisticated rules of Kirchhoff, you gain the ability to analyze and design the complex circuits that define our era. This completes the first unit of [class](/blog/kinetic-theory-class-11-revision-notes-jee-neet) 12 Electromagnetism! Master the potentiometer principles and the Wheatstone bridge—these are the bridge-builders to advanced electrical engineering. Keep your current steady, your resistance managed, n your potential always at its peak!
+Current Electricity is the foundation of energy conversion and electronics. By mastering the microscopic derivations of Ohm’s Law and the sophisticated rules of Kirchhoff, you gain the ability to analyze and design the complex circuits that define our era. This completes the first unit of class 12 Electromagnetism! Master the potentiometer principles and the Wheatstone bridge—these are the bridge-builders to advanced electrical engineering. Keep your current steady, your resistance managed, n your potential always at its peak!
 
 ---
 **Reference:** [IEEE Spectrum: Electrotechnology News and Analysis](https://spectrum.ieee.org)

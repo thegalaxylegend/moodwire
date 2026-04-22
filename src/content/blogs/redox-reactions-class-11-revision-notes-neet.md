@@ -62,7 +62,7 @@ For example, n the human body, redox reactions are involved and the production o
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div [class](/blog/hydrocarbons-class-11-revision-notes-neet)="note-box">
+<div class="note-box">
 I still remember the time when I was preparing for my JEE exams. I was struggling to understand the concept of redox reactions. I used to get confused between the terms oxidation and reduction. But then I realized that oxidation is the loss of electrons, while reduction is the gain of electrons. This simple trick helped me to understand the concept of redox reactions and I was able to solve the questions with ease.
 </div>
 
@@ -129,8 +129,8 @@ Solution: a) $\text{Fe}^{2+}$
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Chemical Bonding [class](/blog/hydrogen-class-11-revision-notes-neet) 11 Notes
-* Electrochemistry [class](/blog/hydrogen-class-11-revision-notes-neet) 12 Notes
+* Chemical Bonding class 11 Notes
+* Electrochemistry class 12 Notes
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*

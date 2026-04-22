@@ -49,9 +49,9 @@ Quick [revision](/blog/hydrocarbons-class-11-revision-notes-neet) is key to achi
 
 ## <a id="Ayush-note"></a>Ayush's Note
 
-I still remember when I was preparing for my [class](/blog/hydrocarbons-class-11-revision-notes-neet) 11 exams, I used to struggle with understanding the cell cycle and cell division. I would often get confused between the different stages of mitosis and cytokinesis. One mistake I made was not practicing enough diagrams and flowcharts, which made it difficult for me to visualize the process. However, after practicing consistently and using online resources, I was able to grasp the concept and score well and my exams. My advice to students would be to practice regularly and use visual aids to understand complex concepts.
+I still remember when I was preparing for my class 11 exams, I used to struggle with understanding the cell cycle and cell division. I would often get confused between the different stages of mitosis and cytokinesis. One mistake I made was not practicing enough diagrams and flowcharts, which made it difficult for me to visualize the process. However, after practicing consistently and using online resources, I was able to grasp the concept and score well and my exams. My advice to students would be to practice regularly and use visual aids to understand complex concepts.
 ```markdown
-<\\DIV [class](/blog/animal-kingdom-class-11-revision-notes-neet)="note-box">
+<\\DIV class="note-box">
   <p>Ayush's Tip: Practice consistently and use visual aids to understand complex concepts.</p>
 </div>
 ```
@@ -120,8 +120,8 @@ Answer: a) Uncontrolled cell growth
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Cell Biology [class](/blog/hydrocarbons-class-11-revision-notes-neet) 11 Notes
-* Genetics [class](/blog/animal-kingdom-class-11-revision-notes-neet) 11 Notes
+* Cell Biology class 11 Notes
+* Genetics class 11 Notes
 
 ## <a id="last-updated-date"></a>Last Updated Date
 

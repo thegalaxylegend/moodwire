@@ -27,7 +27,7 @@ practice_link: "/class-11/mathematics/class-10-30-day-timetable-class-10-revisio
 
 ## <a id="what-is-class-10-30-day-timetable"></a>What is Class 10 30 Day Timetable?
 
-Last year, I was juggling my [class](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) 11 orientation while helping my younger cousin build a **30-day timetable for [class](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) 10 board exam** because his coaching center had basically given up on him. 
+Last year, I was juggling my class 11 orientation while helping my younger cousin build a **30-day timetable for class 10 board exam** because his coaching center had basically given up on him. 
 
 The truth is, most schools and big coaching brands will give you a generic "study 10 hours" schedule. But that’s useless if you don’t know *what* to study. After building my own AI tool, Exam Compass, I realized that the best students don't work harder—they work smarter. They know how to prioritize the [high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)-yield topics. 
 
@@ -78,7 +78,7 @@ In the final 48 hours, stop taking new tests. Review your "Mistake Journal," loo
 
 ## <a id="conclusion"></a>Conclusion
 
-A successful **30-day timetable for [class](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) 10 board exam** is about precision and endurance. By auditing your weaknesses, rotating subjects effectively, n simulating exam conditions, you can achieve remarkable results and just one month. Stay disciplined, use the right tools, n you will see your scores soar. Good luck!
+A successful **30-day timetable for class 10 board exam** is about precision and endurance. By auditing your weaknesses, rotating subjects effectively, n simulating exam conditions, you can achieve remarkable results and just one month. Stay disciplined, use the right tools, n you will see your scores soar. Good luck!
 
 Explore our [Sitemap](/sitemap.xml) for more resources.
 

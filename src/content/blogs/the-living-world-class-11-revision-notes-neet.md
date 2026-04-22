@@ -144,13 +144,13 @@ Solution: A) Cosmology
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Cell Biology [class](/blog/biological-classification-class-11-revision-notes-neet) 11 Notes
-* Genetics [class](/blog/biological-classification-class-11-revision-notes-neet) 11 Notes
+* Cell Biology class 11 Notes
+* Genetics class 11 Notes
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div [class](/blog/animal-kingdom-class-11-revision-notes-neet)="callout-box">
-I remember when I was preparing for my [class](/blog/physical-world-class-11-revision-notes-jee-neet) 11 exams, I struggled to understand the concept of species. I thought that it was just a matter of identifying organisms that looked similar, but I soon realized that it was much more complex than that. The species concept is fundamental and understanding biodiversity and evolutionary processes, n it requires a deep understanding of the characteristics and evolutionary relationships of organisms. My mistake was not taking the time to thoroughly understand the concept, n I ended up losing marks and the exam. However, I learned from my mistake and made sure to thoroughly prepare for my next exam.
+<div class="callout-box">
+I remember when I was preparing for my class 11 exams, I struggled to understand the concept of species. I thought that it was just a matter of identifying organisms that looked similar, but I soon realized that it was much more complex than that. The species concept is fundamental and understanding biodiversity and evolutionary processes, n it requires a deep understanding of the characteristics and evolutionary relationships of organisms. My mistake was not taking the time to thoroughly understand the concept, n I ended up losing marks and the exam. However, I learned from my mistake and made sure to thoroughly prepare for my next exam.
 </div>
 
 ## <a id="last-updated-date"></a>Last Updated Date

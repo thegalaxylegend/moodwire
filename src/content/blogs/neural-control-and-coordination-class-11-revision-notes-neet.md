@@ -56,7 +56,7 @@ A reflex action is an involuntary and immediate [movement](/blog/locomotion-n-mo
 
 ## <a id="formulae"></a>Formulae
 
-While there aren't direct mathematical formulae for neural control and coordination, understanding the basic principles of action potential is crucial. The action potential can be described y the Hodgkin-Huxley model, which uses differential equations to model how the electrical properties of the neuron's membrane change during an action potential. However, for the purpose of [class](/blog/body-fluids-n-circulation-class-11-revision-notes-neet) 11 biology, focusing on the qualitative aspects of action potential is sufficient.
+While there aren't direct mathematical formulae for neural control and coordination, understanding the basic principles of action potential is crucial. The action potential can be described y the Hodgkin-Huxley model, which uses differential equations to model how the electrical properties of the neuron's membrane change during an action potential. However, for the purpose of class 11 biology, focusing on the qualitative aspects of action potential is sufficient.
 
 ## <a id="jeeneet-relevance"></a>JEE/NEET Relevance
 
@@ -110,7 +110,7 @@ where:
 - $g_{Na}$, $g_K$, n $g_L$ are the conductances for sodium, potassium, n leak channels, respectively,
 - $V_{Na}$, $V_K$, n $V_L$ are the equilibrium potentials for sodium, potassium, n leak channels, respectively.
 
-This equation, part of the Hodgkin-Huxley model, demonstrates the complex interplay of ion channels and currents that underlie the generation and propagation of action potentials and neurons. While the mathematical details may be beyond the scope of [class](/blog/body-fluids-n-circulation-class-11-revision-notes-neet) 11 biology, understanding the biological principles behind such equations can deepen your appreciation for the intricate mechanisms of neural control and coordination.
+This equation, part of the Hodgkin-Huxley model, demonstrates the complex interplay of ion channels and currents that underlie the generation and propagation of action potentials and neurons. While the mathematical details may be beyond the scope of class 11 biology, understanding the biological principles behind such equations can deepen your appreciation for the intricate mechanisms of neural control and coordination.
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*

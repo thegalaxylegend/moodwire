@@ -56,7 +56,7 @@ practice_link: "/class-11/physics/electric-charges-fields-class-11-revision-note
 
 ## <a id="introduction"></a>Introduction
 
-The universe is fundamentally electric. From the bonds that hold DNA together to the lightning that tears through the sky, the interaction of electric charges is the primary driver of the physical world. [class](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 12 Physics begins with **Electrostatics**—the study of charges at rest. This first chapter, "Electric Charges and Fields," serves as the cornerstone for the entire field of Electromagnetism. In this "Comprehensive" guide, we transcend simple summaries to provide rigorous proofs for every major theorem, including the field of a dipole and the exhaustive applications of Gauss's Law. Whether you are aiming for a perfect score and Board exams or a top rank and JEE/MEET, these notes provide the technical precision and conceptual clarity required for academic mastery.
+The universe is fundamentally electric. From the bonds that hold DNA together to the lightning that tears through the sky, the interaction of electric charges is the primary driver of the physical world. class 12 Physics begins with **Electrostatics**—the study of charges at rest. This first chapter, "Electric Charges and Fields," serves as the cornerstone for the entire field of Electromagnetism. In this "Comprehensive" guide, we transcend simple summaries to provide rigorous proofs for every major theorem, including the field of a dipole and the exhaustive applications of Gauss's Law. Whether you are aiming for a perfect score and Board exams or a top rank and JEE/MEET, these notes provide the technical precision and conceptual clarity required for academic mastery.
 
 ---
 
@@ -201,11 +201,11 @@ An **Electric Dipole** consists of two equal and opposite [charges](/blog/moving
 
 - **Chapter 2: Electrostatic Potential and Capacitance**
 - **Chapter 3: [current](/blog/current-electricity-class-11-revision-notes-neet) Electricity**
-- **[class](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 12 Physics: JEE/MEET High-Weightage Chapter List**
+- **class 12 Physics: JEE/MEET High-Weightage Chapter List**
 
 ## <a id="conclusion"></a>Conclusion
 
-The field of Electrostatics is the foundation upon which all modern technology—from smartphones to medical imaging—is built. By mastering the mathematical derivations of Gauss's Law and the intricate geometry of dipoles, you move from being a student of physics to a practitioner of electrical science. Master these proofs, understand the symmetry of fields, n you will find that the rest of [class](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 12 Physics flows with logical elegance. Keep your potential high, your flux constant, n always stay grounded and the truth!
+The field of Electrostatics is the foundation upon which all modern technology—from smartphones to medical imaging—is built. By mastering the mathematical derivations of Gauss's Law and the intricate geometry of dipoles, you move from being a student of physics to a practitioner of electrical science. Master these proofs, understand the symmetry of fields, n you will find that the rest of class 12 Physics flows with logical elegance. Keep your potential high, your flux constant, n always stay grounded and the truth!
 
 ---
 **Reference:** [MIT OpenCourseWare: Electromagnetism](https://ocw.mit.edu)

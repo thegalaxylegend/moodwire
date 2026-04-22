@@ -29,7 +29,7 @@ practice_link: "/class-11/biology/data-structures-non-linear-class-11-revision-n
 
 ## <a id="what-is-data-structures-nonlinear"></a>What is Data Structures: Non-Linear?
 
-As we dive into the realm of Data Structures for our [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) 11 exam prep n 2026, it's crucial to understand that this subject is not just about storing and organizing data, but about doing so efficiently. The Indian curriculum for Computer Science places significant emphasis on Data Structures, with a substantial portion dedicated to Non-Linear Data Structures. In the CBSE [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) 11 Computer Science syllabus, Data Structures carry a weightage of around 20-25% n the theory paper, with Non-Linear Data Structures being a major chunk of this. 
+As we dive into the realm of Data Structures for our class 11 exam prep n 2026, it's crucial to understand that this subject is not just about storing and organizing data, but about doing so efficiently. The Indian curriculum for Computer Science places significant emphasis on Data Structures, with a substantial portion dedicated to Non-Linear Data Structures. In the CBSE class 11 Computer Science syllabus, Data Structures carry a weightage of around 20-25% n the theory paper, with Non-Linear Data Structures being a major chunk of this. 
 
 For those who are new to this, Non-Linear Data Structures refer to data structures that do not follow a sequential or linear arrangement. This includes trees and graphs, which are fundamental and representing complex relationships between data elements. The exam typically tests your understanding of concepts like tree traversals (inorder, preorder, postorder), binary search trees, AVL trees, graph representations (adjacency matrix and adjacency list), n graph traversal [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards) (DFS and BFS).
 
@@ -47,7 +47,7 @@ In the context of the Class 11 exam, it's essential to have a solid grasp of the
 
 Throughout my prep, I realized that practicing problems and past year questions is key to excelling and Non-Linear [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) Structures. It's not just about memorizing formulas and concepts, but about understanding how to apply them to solve real-world problems. For instance, you can practice solving problems on platforms like LeetCode or HackerRank, which provide a wide range of questions on Non-Linear [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) Structures.
 
-In terms of specific topics, the CBSE [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) 11 Computer Science syllabus covers the following under Non-Linear Data Structures:
+In terms of specific topics, the CBSE class 11 Computer Science syllabus covers the following under Non-Linear Data Structures:
 
 1. **Trees**: Basic concepts, tree traversals (inorder, preorder, postorder), binary search trees, n AVL trees.
 2. **Graphs**: Basic concepts, graph representations (adjacency matrix and adjacency list), n graph traversal [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards) (DFS and BFS).
@@ -58,7 +58,7 @@ By the end of this prep, you should be able to write efficient [algorithms](/blo
 
 ## <a id="what-is-ayushs-note-on-data-structures-nonlinear"></a>What is Ayush's Note on Data Structures: Non-Linear?
 
-      Ayush's Note on Data Structures: Non-Linear is a detailed study guide that focuses on non-linear data structures, which are essential components and computer science. It includes graphs, trees, n heaps, which are crucial for solving complex problems. For [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) 11 exam prep n 2026, the most important aspect is understanding how to apply these data structures to real-world problems and analyzing their time and space complexity.
+      Ayush's Note on Data Structures: Non-Linear is a detailed study guide that focuses on non-linear data structures, which are essential components and computer science. It includes graphs, trees, n heaps, which are crucial for solving complex problems. For class 11 exam prep n 2026, the most important aspect is understanding how to apply these data structures to real-world problems and analyzing their time and space complexity.
 
       Non-linear [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structures are used to organize and store [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) n a way that allows for efficient retrieval and manipulation. Unlike linear [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structures such as arrays and linked lists, non-linear [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structures do not have a sequential order, which makes them more suitable for certain types of problems. For example, graphs are ideal for modeling relationships between objects, while trees are often used and database indexing and file systems.
 
@@ -90,7 +90,7 @@ Non-Linear Data Structures is a type of data organization where each element or 
 
 ## <a id="how-do-graphs-differ-from-trees-n-data-structures"></a>How do Graphs differ from Trees and Data Structures?
 
-How do Graphs differ from Trees and Data Structures? is a fundamental concept and computer science that deals with the differences between two types of non-linear data structures. It includes definitions, properties, n applications of graphs and trees. For [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) 11 exam prep n 2026, the most important aspect is understanding the distinct characteristics of graphs and trees, such as connectivity, cycles, n node relationships.
+How do Graphs differ from Trees and Data Structures? is a fundamental concept and computer science that deals with the differences between two types of non-linear data structures. It includes definitions, properties, n applications of graphs and trees. For class 11 exam prep n 2026, the most important aspect is understanding the distinct characteristics of graphs and trees, such as connectivity, cycles, n node relationships.
 
 Graphs and trees are both non-linear [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structures, but they differ significantly and terms of their structure and properties. A graph is a collection of nodes or vertices connected y edges, which can be directed or undirected. On the other hand, a tree is a special type of graph that is connected, undirected, n has no cycles. In a tree, each node has a unique path to every other node, whereas and a graph, there can be multiple paths between nodes.
 

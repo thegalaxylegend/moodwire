@@ -94,7 +94,7 @@ Be cautious of these common exceptions and misconceptions:
 * **Trap 2**: Confusing salinity with density. While related, these two properties are distinct and have different units.
 * **Trap 3**: Overlooking the importance of marine life and oceanography. Phytoplankton, zooplankton, n benthic organisms are crucial components of the ocean's ecosystem.
 
-By focusing on these core concepts, formulae, n data, you'll be well-prepared to tackle oceanography and your [class](/blog/biogeography-class-11-revision-notes-neet) 11 geography studies. Remember to review and practice regularly to reinforce your understanding and avoid common pitfalls. Happy learning! 
+By focusing on these core concepts, formulae, n data, you'll be well-prepared to tackle oceanography and your class 11 geography studies. Remember to review and practice regularly to reinforce your understanding and avoid common pitfalls. Happy learning! 
 
 ### <a id="additional-tips-for-quick-revision"></a>Additional Tips for Quick Revision
 To make the most of this [revision](/blog/biogeography-class-11-revision-notes-neet) guide, follow these tips:
@@ -157,7 +157,7 @@ As you revise and practice oceanography, keep the following tips and mind:
 3. **Review and Reflect**: Regularly review what you've learned and reflect on areas where you need improvement.
 4. **Stay Organized**: Keep your study materials n [notes](/blog/biogeography-class-11-revision-notes-neet) organized, making it easier to review and practice.
 
-By following these tips, you'll be well on your way to mastering oceanography and achieving success and your [class](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) 11 geography studies. 
+By following these tips, you'll be well on your way to mastering oceanography and achieving success and your class 11 geography studies. 
 
 ### <a id="final-check"></a>Final Check
 Before moving on, ensure you can:

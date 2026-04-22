@@ -176,6 +176,47 @@ function generateFAQSchema(mcqs: MCQ[]): object | null {
     };
 }
 
+// NEXUS v2: Quiz schema (schema.org/Quiz) — richer snippets for practice problems
+function generateQuizSchema(mcqs: MCQ[], meta: BlogMeta): object | null {
+    if (mcqs.length < 2) return null;
+    
+    const quizQuestions = mcqs.slice(0, 5).map((mcq, index) => ({
+        "@type": "Question",
+        "eduQuestionType": "Multiple choice",
+        "learningResourceType": "Practice problem",
+        "text": mcq.question,
+        "comment": {
+            "@type": "Comment",
+            "text": `Correct Answer: ${mcq.answer}) ${mcq.answerText}`
+        },
+        "suggestedAnswer": mcq.options
+            .filter(opt => !opt.startsWith(mcq.answer + ')'))
+            .map(opt => ({
+                "@type": "Answer",
+                "text": opt
+            })),
+        "acceptedAnswer": {
+            "@type": "Answer",
+            "text": `${mcq.answer}) ${mcq.answerText}`
+        },
+        "position": index + 1
+    }));
+    
+    return {
+        "@context": "https://schema.org",
+        "@type": "Quiz",
+        "name": `${meta.title} — Practice MCQs`,
+        "about": {
+            "@type": "Thing",
+            "name": meta.category
+        },
+        "educationalLevel": meta.title.match(/class[- ]?(\d+)/i)?.[1] 
+            ? `Class ${meta.title.match(/class[- ]?(\d+)/i)?.[1]}` 
+            : "Competitive Exam",
+        "hasPart": quizQuestions
+    };
+}
+
 function generateBreadcrumbSchema(meta: BlogMeta): object {
     return {
         "@context": "https://schema.org",
@@ -267,6 +308,7 @@ async function main() {
 
     const schemaData: Record<string, object[]> = {};
     let faqCount = 0;
+    let quizCount = 0;
     let articleCount = 0;
 
     for (const file of files) {
@@ -293,6 +335,13 @@ async function main() {
             faqCount++;
         }
 
+        // 2.5 NEXUS v2: Quiz Schema (richer snippets for MCQs)
+        const quizSchema = generateQuizSchema(mcqs, meta);
+        if (quizSchema) {
+            schemas.push(quizSchema);
+            quizCount++;
+        }
+
         // 3. Breadcrumb Schema (always)
         schemas.push(generateBreadcrumbSchema(meta));
 
@@ -314,9 +363,10 @@ async function main() {
     console.log('═'.repeat(60));
     console.log(`  📄 Article schemas:    ${articleCount}`);
     console.log(`  ❓ FAQ schemas:        ${faqCount}`);
+    console.log(`  🧩 Quiz schemas:       ${quizCount}`);
     console.log(`  🧭 Breadcrumb schemas: ${articleCount}`);
     console.log(`  📚 Education schemas:  ${articleCount}`);
-    console.log(`  📊 Total schemas:      ${articleCount * 3 + faqCount}`);
+    console.log(`  📊 Total schemas:      ${articleCount * 3 + faqCount + quizCount}`);
     console.log(`  📁 Output: ${OUTPUT_FILE}`);
     console.log('═'.repeat(60));
     console.log('\n✨ Schema generation complete!\n');

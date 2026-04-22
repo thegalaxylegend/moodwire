@@ -38,7 +38,7 @@ practice_link: "/class-11/physics/geomorphology-class-11-revision-notes-cbse"
 * **Exogenic forces**: External forces that shape the Earth's surface, e.g., weathering, erosion, deposition.
 * **Denudation**: Process of wearing away the Earth's surface.
 
-As I, Ayush, prepare for my [class](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) 11 Geography exam, I want to make sure I have a solid grasp of the key concepts and Geomorphology. In this quick revision and recap, I'll be covering the core concepts, formulae, n tables that I need to know.
+As I, Ayush, prepare for my class 11 Geography exam, I want to make sure I have a solid grasp of the key concepts and Geomorphology. In this quick revision and recap, I'll be covering the core concepts, formulae, n tables that I need to know.
 
 ## <a id="core-concepts"></a>Core Concepts
 
@@ -109,7 +109,7 @@ Geomorphology has a wide range of applications, including:
 
 ## <a id="conclusion-is-not-allowed-hence-the-following"></a>Conclusion is not allowed, hence the following
 
-As a student of [class](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) 11, it is essential to have a solid grasp of Geomorphology, as it is a fundamental subject and Geography. By understanding the core concepts, formulae, n tables, n practicing MCQs, I can ensure I am well-prepared for my exam. Additionally, recognizing the importance of Geomorphology and its applications will help me appreciate the subject and its relevance to real-life situations.
+As a student of class 11, it is essential to have a solid grasp of Geomorphology, as it is a fundamental subject and Geography. By understanding the core concepts, formulae, n tables, n practicing MCQs, I can ensure I am well-prepared for my exam. Additionally, recognizing the importance of Geomorphology and its applications will help me appreciate the subject and its relevance to real-life situations.
 
 \begin{equation}
 

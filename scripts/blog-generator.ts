@@ -1376,7 +1376,8 @@ async function generateBlogs() {
 
 generateBlogs().catch(err => {
     console.error("❌ Jules Pipeline Failure (Handled):", err);
-    // Exit with 0 to allow the Auditor to capture the crash logs and report to Discord
-    process.exit(0);
+    // NEXUS v2: Exit with 1 so the workflow correctly detects failures.
+    // Task 23 (Auditor) runs with if: always() so it will still capture crash logs.
+    process.exit(1);
 });
 

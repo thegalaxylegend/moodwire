@@ -29,7 +29,7 @@ practice_link: "/class-11/biology/algorithms-design-class-11-revision-notes-gate
 
 ## <a id="what-is-algorithms-design"></a>What is Algorithms: Design?
 
-As we dive into the world of computer science for our [class](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) 11 exam prep n 2026, it's essential to acknowledge the significance of algorithms and the curriculum. Algorithms are the backbone of computer science, n their design is a crucial aspect of the subject. The Central Board of Secondary Education (CBSE) has allocated a substantial weightage to this topic, with approximately 15-20% of the total marks dedicated to algorithms and their applications.
+As we dive into the world of computer science for our class 11 exam prep n 2026, it's essential to acknowledge the significance of algorithms and the curriculum. Algorithms are the backbone of computer science, n their design is a crucial aspect of the subject. The Central Board of Secondary Education (CBSE) has allocated a substantial weightage to this topic, with approximately 15-20% of the total marks dedicated to algorithms and their applications.
 
 To put this into perspective, the CBSE Class 11 computer science syllabus is divided into six units, with Unit 4 focusing specifically on algorithms. This unit covers topics such as the introduction to algorithms, algorithmic complexity, n the design of algorithms for various problems. The exam will test our understanding of these concepts, as well as our ability to apply them to real-world scenarios. For instance, we'll be expected to analyze the $O(n^2)$ time complexity of a bubble sort algorithm and compare it to the $O(n \log n)$ time complexity of a merge sort algorithm.
 
@@ -47,7 +47,7 @@ The world of algorithms is vast and fascinating, with new developments and innov
 
 ## <a id="what-is-ayushs-note-on-algorithms-design"></a>What is Ayush's Note on Algorithms: Design?
 
-Ayush's Note on Algorithms: Design is a systematic approach to creating efficient and effective algorithms for solving computational problems. It includes problem definition, algorithmic techniques, n analysis of time and space complexity. For [class](/blog/data-structures-linear-class-11-revision-notes-gate-boards) 11 exam prep n 2026, the most important aspect is understanding the trade-offs between different algorithmic approaches and their applications and real-world scenarios.
+Ayush's Note on Algorithms: Design is a systematic approach to creating efficient and effective algorithms for solving computational problems. It includes problem definition, algorithmic techniques, n analysis of time and space complexity. For class 11 exam prep n 2026, the most important aspect is understanding the trade-offs between different algorithmic approaches and their applications and real-world scenarios.
 
 Algorithm design involves several key steps, starting with the definition of the problem to be solved. This includes identifying the input, output, n any constraints that must be satisfied. Next, the algorithmic technique to be used must be selected, such as divide-n-conquer, dynamic programming, or greedy [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards). Finally, the algorithm must be analyzed to determine its time and space complexity, which is typically expressed using Big O notation.
 
@@ -142,7 +142,7 @@ What is the key Shortcut or Trick for [algorithms](/blog/algorithms-analysis-cla
 
 ## <a id="what-are-the-different-types-of-algorithm-design-techniques"></a>What are the different types of Algorithm Design Techniques?
 
-Algorithm Design Techniques is a systematic approach to solving computational problems. It includes analysis of the problem, identification of suitable algorithms, n evaluation of their efficiency. For [class](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) 11 exam prep n 2026, the most important aspect is understanding the trade-offs between different techniques such as time complexity, space complexity, n scalability. Algorithm design techniques are crucial and computer science as they provide a framework for solving complex problems and an efficient and scalable manner. There are several types of algorithm design techniques, including Divide and Conquer, Dynamic Programming, Greedy Algorithms, n Backtracking. Each of these techniques has its own strengths and weaknesses and is suited for specific types of problems. The choice of technique depends on the nature of the problem, the size of the input, n the desired output. In this section, we will  the details of each technique, providing examples and illustrations to help solidify the concepts. The table below provides a summary of the different algorithm design techniques, their characteristics, n applications.
+Algorithm Design Techniques is a systematic approach to solving computational problems. It includes analysis of the problem, identification of suitable algorithms, n evaluation of their efficiency. For class 11 exam prep n 2026, the most important aspect is understanding the trade-offs between different techniques such as time complexity, space complexity, n scalability. Algorithm design techniques are crucial and computer science as they provide a framework for solving complex problems and an efficient and scalable manner. There are several types of algorithm design techniques, including Divide and Conquer, Dynamic Programming, Greedy Algorithms, n Backtracking. Each of these techniques has its own strengths and weaknesses and is suited for specific types of problems. The choice of technique depends on the nature of the problem, the size of the input, n the desired output. In this section, we will  the details of each technique, providing examples and illustrations to help solidify the concepts. The table below provides a summary of the different algorithm design techniques, their characteristics, n applications.
 
 | Technique | Description | Example | Time Complexity | Space Complexity |
 | --- | --- | --- | --- | --- |
@@ -154,7 +154,7 @@ Algorithm Design Techniques is a systematic approach to solving computational pr
 
 ## <a id="how-do-you-implement-recursive-algorithms"></a>How do you implement Recursive Algorithms?
 
-Recursive Algorithms is a programming technique where a function calls itself and its own definition. It includes the base case, recursive case, n the call stack. For [class](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) 11 exam prep n 2026, the most important aspect is understanding how to break down complex problems into smaller instances of the same problem, which is a crucial skill for solving recursive algorithm problems. 
+Recursive Algorithms is a programming technique where a function calls itself and its own definition. It includes the base case, recursive case, n the call stack. For class 11 exam prep n 2026, the most important aspect is understanding how to break down complex problems into smaller instances of the same problem, which is a crucial skill for solving recursive algorithm problems. 
    
    To implement recursive [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards), one must first identify the base case, which is the smallest possible input that can be solved directly. Then, the recursive case must be defined, which is the rule that breaks down the problem into smaller instances of the same problem. The call stack is also essential and recursive [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards), as it keeps track of the function calls and returns. 
    
@@ -210,7 +210,7 @@ What are common Trap Questions for Algorithms: Design? is a crucial aspect of te
 
 ## <a id="how-do-you-optimize-algorithm-performance-using-dynamic-programming"></a>How do you optimize Algorithm Performance using Dynamic Programming?
 
-How do you optimize Algorithm Performance using Dynamic Programming? is a method to optimize algorithm performance y breaking down complex problems into simpler subproblems. It includes memoization, tabulation, n state transition. For [class](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) 11 exam prep n 2026, the most important aspect is understanding how to apply dynamic programming to solve problems like the 0/1 Knapsack problem, Longest Common Subsequence, n Fibonacci series. 
+How do you optimize Algorithm Performance using Dynamic Programming? is a method to optimize algorithm performance y breaking down complex problems into simpler subproblems. It includes memoization, tabulation, n state transition. For class 11 exam prep n 2026, the most important aspect is understanding how to apply dynamic programming to solve problems like the 0/1 Knapsack problem, Longest Common Subsequence, n Fibonacci series. 
 
 Dynamic programming is particularly useful for problems that have overlapping subproblems or that can be decomposed into smaller subproblems. The key idea is to store the solutions to subproblems and a memory table, called a memoization table, to avoid redundant computation. This approach is and contrast to recursion, which solves the same subproblems multiple \times.
 
@@ -307,7 +307,7 @@ What is the role of Greedy Algorithms and Problem-Solving? is a fundamental conc
 
 ## <a id="how-do-you-evaluate-the-tradeoffs-between-algorithmic-approaches"></a>How do you evaluate the Trade-offs between Algorithmic Approaches?
 
-How do you evaluate the Trade-offs between Algorithmic Approaches? is a critical analysis of the advantages and disadvantages of different algorithmic methods. It includes understanding the time complexity, space complexity, n scalability of algorithms. For [class](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) 11 exam prep n 2026, the most important aspect is understanding how to apply these trade-offs to solve complex computational problems efficiently. 
+How do you evaluate the Trade-offs between Algorithmic Approaches? is a critical analysis of the advantages and disadvantages of different algorithmic methods. It includes understanding the time complexity, space complexity, n scalability of algorithms. For class 11 exam prep n 2026, the most important aspect is understanding how to apply these trade-offs to solve complex computational problems efficiently. 
    
    Evaluating trade-offs between algorithmic approaches requires a deep understanding of the problem being solved, the resources available, n the constraints of the system. This involves analyzing the time and space complexity of different algorithms, as well as their scalability and adaptability to different scenarios. 
    

@@ -66,7 +66,7 @@ Hydrogen has a wide range of applications, including energy production, transpor
 
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 
-Hydrogen is an important topic n [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) 11 chemistry, with 2–3 questions and JEE Mains and MEET exams. Mastering hydrogen concepts is crucial for students aiming to pursue a career and chemistry, physics, or engineering.
+Hydrogen is an important topic n class 11 chemistry, with 2–3 questions and JEE Mains and MEET exams. Mastering hydrogen concepts is crucial for students aiming to pursue a career and chemistry, physics, or engineering.
 
 ## <a id="Ayush-note"></a>Ayush's Note
 
@@ -125,8 +125,8 @@ Answer: D) All of the above
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Chemical Bonding [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) 11 Notes
-* Thermodynamics [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) 11 Notes
+* Chemical Bonding class 11 Notes
+* Thermodynamics class 11 Notes
 
 ## <a id="last-updated-date"></a>Last Updated Date
 

@@ -35,7 +35,14 @@ async function main() {
         process.exit(1);
     }
 
-    const key = JSON.parse(fs.readFileSync(KEY_FILE, 'utf-8'));
+    let key: any;
+    try {
+        key = JSON.parse(fs.readFileSync(KEY_FILE, 'utf-8'));
+    } catch (parseErr: any) {
+        console.error(`❌ Failed to parse service-account.json: ${parseErr.message}`);
+        process.exit(1);
+    }
+    
     const auth = new JWT({
         email: key.client_email,
         key: key.private_key,

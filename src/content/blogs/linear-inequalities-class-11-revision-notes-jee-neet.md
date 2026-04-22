@@ -44,7 +44,7 @@ practice_link: "/class-11/physics/linear-inequalities-class-11-revision-notes-je
 
 ## <a id="introduction"></a>Introduction
 
-**Linear Inequalities define the boundaries and ranges of mathematical solutions, forming the basis for optimization and Linear Programming. Master the rules of sign reversal, interval notation, n graphical shading and two variables to solve real-world economic and engineering constraints. This [class](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) 11 Math Chapter 6 guide provides the logic required for JEE and CBSE exams.**
+**Linear Inequalities define the boundaries and ranges of mathematical solutions, forming the basis for optimization and Linear Programming. Master the rules of sign reversal, interval notation, n graphical shading and two variables to solve real-world economic and engineering constraints. This class 11 Math Chapter 6 guide provides the logic required for JEE and CBSE exams.**
 Not every problem and mathematics results and a single "equal" answer.
 
 ---

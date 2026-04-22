@@ -43,7 +43,7 @@ practice_link: "/class-11/mathematics/probability-class-11-revision-notes-jee"
 
 ## <a id="introduction"></a>Introduction
 
-**Probability is the mathematical measurement of uncertainty, providing the framework for analyzing random experiments and events. Master the Axiomatic Approach, Sample Spaces, n the Addition Rule of sets to excel and advanced statistical modeling and Bayes' Theorem. This [class](/blog/conic-sections-class-11-revision-notes-jee) 11 Math Chapter 16 guide ensures you have all the essential foundations for JEE and CBSE exams.**
+**Probability is the mathematical measurement of uncertainty, providing the framework for analyzing random experiments and events. Master the Axiomatic Approach, Sample Spaces, n the Addition Rule of sets to excel and advanced statistical modeling and Bayes' Theorem. This class 11 Math Chapter 16 guide ensures you have all the essential foundations for JEE and CBSE exams.**
 Probability is the [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) way of measuring uncertainty.
 
 ---

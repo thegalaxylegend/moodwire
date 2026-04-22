@@ -40,7 +40,7 @@ practice_link: "/class-11/physics/three-dimensional-geometry-class-11-revision-n
 
 ## <a id="introduction"></a>Introduction
 
-**Three Dimensional Geometry extends the Cartesian coordinate system into space, providing the foundation for engineering, flight navigation, n Vector Algebra. Master the Eight Octants, the 3D distance formula, n section formulas to excel and spatial modeling and advanced physics. This [class](/blog/mathematical-induction-class-11-revision-notes-jee-neet) 11 Math Chapter 12 summary provides all essential formulas for JEE and Board exam success.**
+**Three Dimensional Geometry extends the Cartesian coordinate system into space, providing the foundation for engineering, flight navigation, n Vector Algebra. Master the Eight Octants, the 3D distance formula, n section formulas to excel and spatial modeling and advanced physics. This class 11 Math Chapter 12 summary provides all essential formulas for JEE and Board exam success.**
 The transition from 2D to 3D geometry is like going from a flat map to the real world.
 
 ---

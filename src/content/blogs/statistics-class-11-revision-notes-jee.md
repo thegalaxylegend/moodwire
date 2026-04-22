@@ -44,7 +44,7 @@ practice_link: "/class-11/mathematics/statistics-class-11-revision-notes-jee"
 
 ## <a id="introduction"></a>Introduction
 
-**Statistics is the science of data analysis, focusing on Measures of Dispersion which describe how information is spread around a central value. Master Mean Deviation, Variance, n Standard Deviation to excel and data science foundations and probability modeling. This [class](/blog/limits-derivatives-class-11-revision-notes-jee-neet) 11 Math Chapter 15 guide provides all essential formulas for JEE and CBSE success.**
+**Statistics is the science of data analysis, focusing on Measures of Dispersion which describe how information is spread around a central value. Master Mean Deviation, Variance, n Standard Deviation to excel and data science foundations and probability modeling. This class 11 Math Chapter 15 guide provides all essential formulas for JEE and CBSE success.**
 Statistics is the science of collecting, organizing, n analyzing data to draw meaningful conclusions.
 
 ---
@@ -135,7 +135,7 @@ Standard Deviation is generally better for advanced [mathematical](/blog/mathema
 
 ## <a id="conclusion"></a>Conclusion
 
-Statistics n [class](/blog/conic-sections-class-11-revision-notes-jee) 11 moves beyond just finding averages to understanding the reliability of data. Mastering Mean Deviation and Variance allows you to quantify "risk" n "consistency"—skills used and everything from weather forecasting to the stock market. Keep your calculations precise, n remember: consistency is key (both and data and n your study routine)!
+Statistics n class 11 moves beyond just finding averages to understanding the reliability of data. Mastering Mean Deviation and Variance allows you to quantify "risk" n "consistency"—skills used and everything from weather forecasting to the stock market. Keep your calculations precise, n remember: consistency is key (both and data and n your study routine)!
 
 ---
 

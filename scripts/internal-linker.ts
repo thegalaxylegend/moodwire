@@ -141,19 +141,38 @@ function injectContextualLinks(body: string, blog: BlogInfo, related: Array<{ sl
         for (const rel of related) {
             if (processedRelated.has(rel.slug)) continue;
 
-            const relKeywords = rel.slug.split('-').filter(w => w.length >= 4);
+            // NEXUS v2: Extract meaningful keywords from slug, excluding common stopwords
+            // Words like "class", "notes", "revision" appear in EVERY slug and should never be linked
+            const LINK_STOPWORDS = new Set([
+                'class', 'notes', 'revision', 'neet', 'jee', 'cbse', 'gate',
+                'board', 'boards', 'exam', 'exams', 'guide', 'chapter',
+                'part', 'unit', 'test', 'mock', 'tips', 'hack', 'hacks',
+                'strategy', 'master', 'prep', 'study', 'best', 'free',
+                'quick', 'easy', 'full', 'complete', 'basic', 'advanced',
+                'introduction', 'intro', 'overview', 'summary', 'important',
+                'toppers', 'topper', 'rank', 'marks', 'score',
+            ]);
+            const relKeywords = rel.slug.split('-').filter(w => w.length >= 4 && !LINK_STOPWORDS.has(w.toLowerCase()));
             for (const keyword of relKeywords) {
-                // Look for keyword not inside an existing link or math block
+                // NEXUS v2: Proper idempotency — only skip if keyword is INSIDE an existing link
                 // Case-insensitive, whole word
                 const keywordRegex = new RegExp(`\\b(${keyword})\\b`, 'gi');
                 
                 if (keywordRegex.test(line)) {
-                    // Check if it's already in a link or math
-                    // Simple check: if the line has [ ] ( ) or $ $, skip this line for now
-                    // to be extra safe since this is fully automatic.
-                    if (line.includes('[') || line.includes('$')) continue;
+                    // Skip lines with math blocks ($ delimiters) — never inject links into formulas
+                    if (line.includes('$')) continue;
+                    
+                    // Skip lines containing HTML tags — injecting markdown links into HTML corrupts rendering
+                    if (/<[a-zA-Z][^>]*>/.test(line)) continue;
+                    
+                    // Idempotency: check if this specific keyword is already inside a markdown link
+                    // Pattern: [text](/url) — check if keyword appears between [ and ](
+                    const linkCheck = new RegExp(`\\[([^\\]]*\\b${keyword}\\b[^\\]]*)\\]\\(`, 'gi');
+                    if (linkCheck.test(line)) continue; // keyword already linked, skip
 
-                    lines[i] = line.replace(keywordRegex, (match) => `[${match.toLowerCase()}](/blog/${rel.slug})`);
+                    // Safe to inject — only replace the FIRST occurrence to avoid double-linking
+                    keywordRegex.lastIndex = 0;
+                    lines[i] = line.replace(keywordRegex, (match) => `[${match}](/blog/${rel.slug})`);
                     linksAdded++;
                     processedRelated.add(rel.slug);
                     break;

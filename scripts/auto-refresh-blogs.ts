@@ -173,18 +173,32 @@ function refreshBlog(filePath: string, isDryRun: boolean): FreshnessResult {
 
     // === RULE 6: Update stale years in body text ===
     // Only update years that appear in exam-related contexts
+    // NEXUS v2: Protect LaTeX blocks from year replacement
     const bodyStart = content.indexOf('---', content.indexOf('---') + 3);
     if (bodyStart > 0) {
         let body = content.substring(bodyStart + 3);
         const originalBody = body;
         
+        // Step 1: Extract and protect LaTeX blocks with placeholders
+        const latexPlaceholders: string[] = [];
+        // Protect display math $$...$$ first (greedy but safe — these are multi-line blocks)
+        body = body.replace(/\$\$[\s\S]*?\$\$/g, (match) => {
+            latexPlaceholders.push(match);
+            return `%%LATEX_BLOCK_${latexPlaceholders.length - 1}%%`;
+        });
+        // Protect inline math $...$
+        body = body.replace(/\$[^$\n]+?\$/g, (match) => {
+            latexPlaceholders.push(match);
+            return `%%LATEX_BLOCK_${latexPlaceholders.length - 1}%%`;
+        });
+        // Protect code blocks ```...```
+        body = body.replace(/```[\s\S]*?```/g, (match) => {
+            latexPlaceholders.push(match);
+            return `%%LATEX_BLOCK_${latexPlaceholders.length - 1}%%`;
+        });
+        
+        // Step 2: Do year replacement on the protected body
         for (const staleYear of STALE_YEARS) {
-            // Only replace years that appear near exam keywords
-            const examContextRegex = new RegExp(
-                `(JEE|NEET|CBSE|Board|Exam|Session|NTA|GATE|${staleYear}\\s*(?:Main|Advanced|Prep|Guide|Revision|Syllabus))`,
-                'gi'
-            );
-            
             // Replace year in exam-context strings
             body = body.replace(
                 new RegExp(`((?:JEE|NEET|CBSE|Board|Exam|Session|NTA|GATE|Revision|Guide|Syllabus|Preparation)\\s+(?:Mains?\\s+)?)${staleYear}`, 'gi'),
@@ -196,10 +210,15 @@ function refreshBlog(filePath: string, isDryRun: boolean): FreshnessResult {
             );
         }
 
+        // Step 3: Restore LaTeX blocks from placeholders
+        for (let i = latexPlaceholders.length - 1; i >= 0; i--) {
+            body = body.replace(`%%LATEX_BLOCK_${i}%%`, latexPlaceholders[i]);
+        }
+
         if (body !== originalBody) {
             content = content.substring(0, bodyStart + 3) + body;
             yearUpdates++;
-            changes.push(`Body text year references updated`);
+            changes.push(`Body text year references updated (LaTeX-protected)`);
         }
     }
 

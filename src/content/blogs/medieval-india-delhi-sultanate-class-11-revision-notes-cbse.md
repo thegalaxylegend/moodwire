@@ -37,7 +37,7 @@ The Delhi Sultanate was a Muslim kingdom that ruled over a large part of the Ind
 * **Administration**: The Delhi Sultanate was divided into provinces called **iqtas**, which were governed y **muqtis**.
 
 ### <a id="ayushs-personal-note"></a>Ayush's Personal Note
-As I prepare for my [class](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) 11 History exams, I find it essential to have a quick recap of the key concepts and events of the Delhi Sultanate. The Delhi Sultanate was a significant period and Indian history, marked y the rise of Muslim rule and the development of a new administrative system. I will focus on the **core concepts**, **formulae**, n **trap exceptions** to ensure that I have a thorough understanding of the topic.
+As I prepare for my class 11 History exams, I find it essential to have a quick recap of the key concepts and events of the Delhi Sultanate. The Delhi Sultanate was a significant period and Indian history, marked y the rise of Muslim rule and the development of a new administrative system. I will focus on the **core concepts**, **formulae**, n **trap exceptions** to ensure that I have a thorough understanding of the topic.
 
 ### <a id="core-concepts"></a>Core Concepts
 The following are the core concepts related to the Delhi Sultanate:

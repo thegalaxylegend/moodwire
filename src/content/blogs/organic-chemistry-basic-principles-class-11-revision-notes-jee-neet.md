@@ -141,7 +141,7 @@ Answer: A) Butane
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Inorganic Chemistry Notes for [class](/blog/physical-world-class-11-revision-notes-jee-neet) 11
+* Inorganic Chemistry Notes for class 11
 * [physical](/blog/physical-world-class-11-revision-notes-jee-neet) Chemistry Notes for Class 11
 
 ## <a id="last-updated-date"></a>Last Updated Date

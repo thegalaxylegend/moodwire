@@ -132,6 +132,65 @@ function detectDecay(): DecayResult[] {
                 }
             }
 
+            // Signal 7 (NEXUS v2): ACTUAL DECAY DELTA — compare current vs previous week's data
+            // Loads the most recent archived search-intelligence.json to compute real decline
+            const archiveDir = path.join(REPORTS_DIR, 'archive');
+            if (fs.existsSync(archiveDir)) {
+                const archiveDirs = fs.readdirSync(archiveDir)
+                    .filter(d => /^\d{4}-\d{2}-\d{2}$/.test(d))
+                    .sort()
+                    .reverse();
+                
+                // Find the most recent archive that has search intelligence data
+                for (const dir of archiveDirs.slice(0, 7)) { // Look back up to 7 days
+                    const prevSearchPath = path.join(archiveDir, dir, 'search-intelligence.json');
+                    // Also check the main reports dir for last week's copy
+                    const altPaths = [
+                        prevSearchPath,
+                        path.join(PUBLIC_REPORTS, '..', 'jules-reports', 'archive', dir, 'search-intelligence.json')
+                    ];
+                    
+                    for (const tryPath of altPaths) {
+                        const prevSearch = loadJSON(tryPath);
+                        if (prevSearch?.pages?.[url]) {
+                            const prevData = prevSearch.pages[url];
+                            const prevImpressions = prevData.impressions || 0;
+                            const prevClicks = prevData.clicks || 0;
+                            const prevPosition = prevData.avgPosition || 0;
+                            
+                            // Compute deltas (only if previous data had meaningful volume)
+                            if (prevImpressions >= MIN_IMPRESSIONS_FOR_SIGNAL) {
+                                const impressionDelta = prevImpressions > 0 
+                                    ? (impressions - prevImpressions) / prevImpressions 
+                                    : 0;
+                                const clickDelta = prevClicks > 0 
+                                    ? (clicks - prevClicks) / prevClicks 
+                                    : 0;
+                                const positionDelta = avgPosition - prevPosition; // Positive = worse
+                                
+                                // Use the actual DECAY_THRESHOLD (25% decline)
+                                if (impressionDelta < -DECAY_THRESHOLD) {
+                                    signals.push(`📉 Measured decay: Impressions dropped ${Math.abs(impressionDelta * 100).toFixed(0)}% (${prevImpressions}→${impressions}) vs last week`);
+                                    severity = severity === 'critical' ? 'critical' : 'warning';
+                                }
+                                
+                                if (clickDelta < -DECAY_THRESHOLD && prevClicks >= 5) {
+                                    signals.push(`📉 Click decay: Clicks dropped ${Math.abs(clickDelta * 100).toFixed(0)}% (${prevClicks}→${clicks})`);
+                                    severity = 'critical';
+                                }
+                                
+                                if (positionDelta > 5) { // Position worsened by 5+ spots
+                                    signals.push(`📉 Ranking slip: Position worsened by ${positionDelta.toFixed(1)} spots (${prevPosition.toFixed(1)}→${avgPosition.toFixed(1)})`);
+                                    severity = severity === 'critical' ? 'critical' : 'warning';
+                                }
+                            }
+                            break; // Found previous data, stop looking
+                        }
+                    }
+                    if (signals.some(s => s.includes('Measured decay') || s.includes('Click decay') || s.includes('Ranking slip'))) break;
+                }
+            }
+
             // Signal 6: Content freshness — check if blog is old and thin
             const blogPath = path.join(BLOG_DIR, `${slug}.md`);
             if (fs.existsSync(blogPath)) {

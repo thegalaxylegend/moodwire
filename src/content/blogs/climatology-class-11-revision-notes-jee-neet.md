@@ -111,7 +111,7 @@ Here is a concept map to help you visualize the relationships between different 
 
 ```
 
-By mastering these core concepts, formulae, n climatic factors, you'll be well-prepared to tackle any question related to climatology and your [class](/blog/classification-of-elements-class-11-revision-notes-jee-neet) 11 Geography exams and JEE/MEET entrance exams. Remember to practice regularly and stay updated with the latest information to achieve success.
+By mastering these core concepts, formulae, n climatic factors, you'll be well-prepared to tackle any question related to climatology and your class 11 Geography exams and JEE/MEET entrance exams. Remember to practice regularly and stay updated with the latest information to achieve success.
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*

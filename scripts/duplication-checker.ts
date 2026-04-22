@@ -64,21 +64,68 @@ function computeOverlap(sentences1: string[], sentences2: string[]): { sharedCou
     const set2 = new Set(sentences2);
     const shared: string[] = [];
     
+    // NEXUS v2: Optimized fuzzy matching with word-set pre-filtering
+    // Instead of O(n×m) word-by-word comparison for every pair,
+    // build a word→sentences index for blog2 and only compare candidates
+    // that share enough vocabulary to possibly match.
+    
+    // Step 1: Build word→sentence index for blog2 (one-time O(m×w) cost)
+    const wordToSentences2 = new Map<string, Set<number>>();
+    const sentences2Words: Set<string>[] = [];
+    for (let j = 0; j < sentences2.length; j++) {
+        const words = new Set(sentences2[j].split(' ').filter(w => w.length > 2));
+        sentences2Words.push(words);
+        for (const w of words) {
+            if (!wordToSentences2.has(w)) wordToSentences2.set(w, new Set());
+            wordToSentences2.get(w)!.add(j);
+        }
+    }
+    
+    // Early termination: if overlap already exceeds threshold, stop scanning
+    const earlyStopThreshold = Math.ceil(Math.min(sentences1.length, sentences2.length) * 0.5);
+    
     for (const s of sentences1) {
+        // Early termination — we already have enough evidence
+        if (shared.length >= earlyStopThreshold) break;
+        
+        // Phase 1: Exact match (O(1) via Set)
         if (set2.has(s)) {
             shared.push(s);
-        } else {
-            // Fuzzy match: check if >80% of words match
-            for (const s2 of sentences2) {
-                const words1 = s.split(' ');
-                const words2 = s2.split(' ');
-                const commonWords = words1.filter(w => words2.includes(w)).length;
-                const similarity = commonWords / Math.max(words1.length, words2.length);
-                
-                if (similarity > 0.8 && words1.length > 5) {
-                    shared.push(s);
-                    break;
+            continue;
+        }
+        
+        // Phase 2: Fuzzy match with candidate pre-filtering
+        const words1 = s.split(' ').filter(w => w.length > 2);
+        if (words1.length <= 5) continue; // Skip very short sentences
+        const words1Set = new Set(words1);
+        
+        // Find candidate sentences that share at least some words
+        const candidateScores = new Map<number, number>();
+        for (const w of words1) {
+            const indices = wordToSentences2.get(w);
+            if (indices) {
+                for (const idx of indices) {
+                    candidateScores.set(idx, (candidateScores.get(idx) || 0) + 1);
                 }
+            }
+        }
+        
+        // Only check candidates with ≥40% word overlap (quick filter)
+        const minCandidateWords = Math.floor(words1.length * 0.4);
+        for (const [idx, score] of candidateScores) {
+            if (score < minCandidateWords) continue; // Skip low-overlap candidates
+            
+            // Full similarity check only on promising candidates
+            const words2Set = sentences2Words[idx];
+            let commonCount = 0;
+            for (const w of words1Set) {
+                if (words2Set.has(w)) commonCount++;
+            }
+            const similarity = commonCount / Math.max(words1Set.size, words2Set.size);
+            
+            if (similarity > 0.8) {
+                shared.push(s);
+                break;
             }
         }
     }

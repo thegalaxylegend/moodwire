@@ -43,7 +43,7 @@ practice_link: "/class-11/physics/mathematical-induction-class-11-revision-notes
 
 ## <a id="introduction"></a>Introduction
 
-**Mathematical Induction is a powerful logical proof technique used to verify the truth of infinite statements starting from a base case. Master the three-step process—Checking n=1, Assuming n=k, n Proving n=k+1—to solve rigorous identity proofs and algebra and sequence theory. This [class](/blog/limits-derivatives-class-11-revision-notes-jee-neet) 11 Math Chapter 4 summary provides the deductive logic essential for JEE level problem-solving.**
+**Mathematical Induction is a powerful logical proof technique used to verify the truth of infinite statements starting from a base case. Master the three-step process—Checking n=1, Assuming n=k, n Proving n=k+1—to solve rigorous identity proofs and algebra and sequence theory. This class 11 Math Chapter 4 summary provides the deductive logic essential for JEE level problem-solving.**
 [mathematical](/blog/mathematical-reasoning-class-11-revision-notes-jee-neet) Induction is a powerful "proof technique" used to establish the truth of [mathematical](/blog/mathematical-reasoning-class-11-revision-notes-jee-neet) statements for all natural numbers.
 
 ---

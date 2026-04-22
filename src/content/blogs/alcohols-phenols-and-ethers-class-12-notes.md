@@ -14,7 +14,7 @@ practice_link: "/class-11/chemistry/alcohols-phenols-n-ethers-class-12-notes"
   - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
 - [📚 Related Topics](#-related-topics)
 </div>
-<\\DIV [class](/blog/chemical-bonding-class-11-revision-notes-jee-neet)="quick-summary">
+<\\DIV class="quick-summary">
 #- [📋 Table of Contents](#-table-of-contents)
 ## <a id="-what-will-come-n-your-exam"></a>🎯 What WILL Come and Your Exam
 * 1–2 questions on [classification](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet), nomenclature, n isomerism of alcohols, phenols, n ethers — always focus on IUPAC naming conventions and practice identifying primary, secondary, n tertiary alcohols.

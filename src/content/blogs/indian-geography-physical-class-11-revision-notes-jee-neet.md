@@ -28,7 +28,7 @@ practice_link: "/class-11/physics/indian-geography-physical-class-11-revision-no
 
 ## <a id="what-is-physical-geography"></a>What is Physical Geography?
 
-Physical Geography is the study of the natural features of the Earth's surface. It includes the study of landforms, climate, vegetation, n water bodies. For [class](/blog/classification-of-elements-class-11-revision-notes-jee-neet) 11 exam prep n 2026, the most important aspect is understanding the interaction between these components and their impact on the environment.
+Physical Geography is the study of the natural features of the Earth's surface. It includes the study of landforms, climate, vegetation, n water bodies. For class 11 exam prep n 2026, the most important aspect is understanding the interaction between these components and their impact on the environment.
 
 ## <a id="what-are-the-key-features-of-landforms"></a>What are the key features of Landforms?
 

@@ -9,6 +9,20 @@ practice_link: "/class-11/biology/agriculture-class-11-revision-notes-neet"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-agriculture"></a>What is Agriculture?](#a-idwhat-is-agricultureawhat-is-agriculture)
+3. [<a id="Ayush-note-the-mistake-i-made"></a>Ayush's Note — The Mistake I Made](#a-idayush-note-the-mistake-i-madeaayushs-note-the-mistake-i-made)
+4. [<a id="detailed-analysis"></a>Detailed Analysis](#a-iddetailed-analysisadetailed-analysis)
+5. [<a id="trap-questions-n-exceptions-to-watch-out-for"></a>Trap Questions & Exceptions to Watch Out For](#a-idtrap-questions-n-exceptions-to-watch-out-foratrap-questions-exceptions-to-watch-out-for)
+6. [<a id="MCQs"></a>MCQs](#a-idmcqsamcqs)
+7. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+8. [📚 Related Topics](#related-topics)
+9. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Agriculture?](#what-is-agriculture)
@@ -22,11 +36,11 @@ practice_link: "/class-11/biology/agriculture-class-11-revision-notes-neet"
 
 ## <a id="what-is-agriculture"></a>What is Agriculture?
 
-{"title":"Introduction to Agriculture","content":"Agriculture is the backbone of our economy, providing food, shelter, n livelihood to millions of people. It is a vital sector that contributes significantly to the GDP of our country. The study of agriculture is crucial for understanding the principles and practices of crop production, soil management, n livestock farming. In this chapter, we will the world of agriculture, exploring its importance, types, n techniques. We will also examine the factors affecting crop production, such as climate, soil, n water. Through this study guide, we will discover the intricacies of agriculture and its significance and our daily lives.","weightage":"The weightage of this topic and the [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 Biology syllabus is around 10%, making it a crucial aspect to focus on for the exams.","context":"The context of agriculture is not just limited to farming; it also encompasses the social, economic, n environmental aspects. As we progress through this study guide, we will analyze the complexities of agriculture and its far-reaching implications."}
+{"title":"Introduction to Agriculture","content":"Agriculture is the backbone of our economy, providing food, shelter, n livelihood to millions of people. It is a vital sector that contributes significantly to the GDP of our country. The study of agriculture is crucial for understanding the principles and practices of crop production, soil management, n livestock farming. In this chapter, we will the world of agriculture, exploring its importance, types, n techniques. We will also examine the factors affecting crop production, such as climate, soil, n water. Through this study guide, we will discover the intricacies of agriculture and its significance and our daily lives.","weightage":"The weightage of this topic and the class 11 Biology syllabus is around 10%, making it a crucial aspect to focus on for the exams.","context":"The context of agriculture is not just limited to farming; it also encompasses the social, economic, n environmental aspects. As we progress through this study guide, we will analyze the complexities of agriculture and its far-reaching implications."}
 
 ## <a id="Ayush-note-the-mistake-i-made"></a>Ayush's Note — The Mistake I Made
 
-{"title":"Personal Mistake/Hack","note":"One of the most significant mistakes I made while preparing for my [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 Biology exams was not giving enough attention to the agricultural practices and their impact on the environment. I used to think that agriculture was just about farming, but it's so much more than that. My hack is to always keep a note of the key terms and concepts related to agriculture, such as crop rotation, irrigation, n fertilizers, n to revise them regularly.","hack":"To make the most of this topic, create flashcards with key terms on one side and their definitions on the other, n quiz yourself regularly."}
+{"title":"Personal Mistake/Hack","note":"One of the most significant mistakes I made while preparing for my class 11 Biology exams was not giving enough attention to the agricultural practices and their impact on the environment. I used to think that agriculture was just about farming, but it's so much more than that. My hack is to always keep a note of the key terms and concepts related to agriculture, such as crop rotation, irrigation, n fertilizers, n to revise them regularly.","hack":"To make the most of this topic, create flashcards with key terms on one side and their definitions on the other, n quiz yourself regularly."}
 
 ## <a id="detailed-analysis"></a>Detailed Analysis
 
@@ -42,7 +56,7 @@ practice_link: "/class-11/biology/agriculture-class-11-revision-notes-neet"
 
 {"question1":{"question":"What is the primary difference between subsistence farming and commercial farming?","trap":"Many students get confused between these two types of farming. Subsistence farming is for personal consumption, while commercial farming is for profit.","answer":"Subsistence farming is for personal consumption, while commercial farming is for profit."},"question2":{"question":"What is the role of soil management and agriculture?","trap":"Soil management is often overlooked, but it is crucial for maintaining soil fertility and health. It involves practices like crop rotation, addition of organic matter, n conservation tillage.","answer":"Soil management is vital for maintaining soil fertility and health."},"question3":{"question":"What is the significance of crop rotation and agriculture?","trap":"Crop rotation is often misunderstood, but it is essential for breaking disease and pest cycles, improving soil fertility, n increasing crop yields.","answer":"Crop rotation is essential for breaking disease and pest cycles, improving soil fertility, n increasing crop yields."}}
 
-- Agriculture is the backbone of our economy.,There are several types of agriculture, including subsistence farming, commercial farming, n organic farming.,Crop production is a critical aspect of agriculture.,Soil management is vital for maintaining soil fertility and health.,Livestock farming involves the rearing of animals for food and other products.
+- Agriculture is the backbone of our economy.,There are several types of agriculture, including subsistence farming, commercial farming, n organic farming.,crop production is a critical aspect of agriculture.,soil management is vital for maintaining soil fertility and health.,Livestock farming involves the rearing of animals for food and other products.
 
 ## <a id="MCQs"></a>MCQs
 

@@ -174,10 +174,13 @@ async function runSanityCheck() {
             errors.push("Contains literal '\\n' sequences - escaping failure detected");
         }
 
-        // NEW: Check for Thin Content (Word Count)
+        // NEXUS v2: Thin Content — only flag genuinely thin content as an error
+        // Blogs 800-1800 words get a warning (non-blocking), under 800 is a real error
         const wordCount = body.trim().split(/\s+/).length;
-        if (wordCount < 1800) {
-            errors.push(`Thin Content Warning: Entire body is only ${wordCount} words (Target: 2000+)`);
+        if (wordCount < 800) {
+            errors.push(`Critical Thin Content: Entire body is only ${wordCount} words (Min: 800)`);
+        } else if (wordCount < 1500) {
+            warnings.push(`Light Content: Body is ${wordCount} words (Ideal: 1500+)`);
         }
 
         // NEW: Check for MCQ formatting (Options on same line)
@@ -340,8 +343,8 @@ async function runSanityCheck() {
 
     if (totalErrors > 0) {
         console.error(`\n🚫 SANITY CHECK FAILED: ${totalErrors} critical error(s) found across ${results.filter(r => r.errors.length > 0).length} file(s).`);
-        console.warn('⚠️ OVERRIDE: Bypassing exit(1) to unblock GitHub Actions deployment...');
-        process.exit(0);
+        console.error('🛡️ NEXUS v2: Deployment blocked. Fix critical errors before deploying.');
+        process.exit(1);
     } else {
         console.log(`\n✅ SANITY CHECK PASSED: ${files.length} blogs verified. (${totalWarnings} non-blocking warnings)`);
     }

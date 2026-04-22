@@ -143,6 +143,10 @@ jobs:
         if: steps.firestore_sync.outcome == 'failure'
         run: echo "⚠️ Firestore sync failed — site may serve stale data"
 
+      - name: "Task 3.5 - NEXUS v2: Firestore Auto-Backup"
+        continue-on-error: true
+        run: npx tsx scripts/firestore-backup.ts
+
       - name: "Task 4 - Regenerate SEO Manifest"
         env:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_LEGENDSTECH001 }}
@@ -192,6 +196,10 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: node scripts/repair-images.js
 
+      - name: "Task 6.5 - NEXUS v2: Image Health Check"
+        continue-on-error: true
+        run: npx tsx scripts/image-health-check.ts
+
       # NOTE: Freshness check moved to Task 0.5 (before generation) so its
       # regen-queue feeds into the refine-only pass. This slot is now a no-op.
       - name: Task 7 - Content Freshness (Moved to Pre-Generation)
@@ -220,6 +228,14 @@ jobs:
         continue-on-error: true
         run: npx tsx scripts/generate-schema.ts
 
+      - name: "Task 9.5 - NEXUS v2: Auto Sitemap Regeneration"
+        continue-on-error: true
+        run: npx tsx scripts/auto-sitemap.ts
+
+      - name: "Task 9.6 - NEXUS v2: RSS Feed Generation"
+        continue-on-error: true
+        run: npx tsx scripts/generate-rss.ts
+
       - name: Task 10 - Quality Trends Analysis
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
@@ -231,6 +247,10 @@ jobs:
             echo "{\"task\":\"internal-linker\",\"exitCode\":$?,\"time\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" >> jules-reports/dead-letter-queue.json
             echo "⚠️ Task 11 failed — logged to dead-letter-queue"
           }
+
+      - name: "Task 11.5 - NEXUS v2: Broken Link Checker"
+        continue-on-error: true
+        run: npx tsx scripts/broken-link-checker.ts
 
       - name: Task 12 - Duplication Checker
         run: |
@@ -326,6 +346,51 @@ jobs:
             echo "⚠️ Task 21 failed — logged to dead-letter-queue"
           }
 
+      - name: "Task 21.5 - NEXUS v2: Dead Letter Queue Processor"
+        if: always()
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          DLQ="jules-reports/dead-letter-queue.json"
+          if [ -f "$DLQ" ] && [ "$(cat $DLQ | jq 'length')" -gt 0 ] 2>/dev/null; then
+            FAILED_COUNT=$(jq 'length' "$DLQ")
+            FAILED_TASKS=$(jq -r '.[].task // "unknown"' "$DLQ" | sort -u | tr '\n' ', ')
+            echo "🚨 DEAD LETTER QUEUE: $FAILED_COUNT failed task(s): $FAILED_TASKS"
+            
+            # Send Discord alert if webhook is configured
+            if [ -n "$DISCORD_WEBHOOK_URL" ]; then
+              TASK_LIST=$(jq -r '.[] | "• \(.task // "unknown") at \(.time // "unknown")"' "$DLQ" | head -n 10)
+              jq -n \
+                --arg count "$FAILED_COUNT" \
+                --arg tasks "$TASK_LIST" \
+                '{
+                  embeds: [{
+                    title: "🚨 Dead Letter Queue Alert",
+                    description: ("**" + $count + " task(s) failed silently:**\n" + $tasks),
+                    color: 15548997,
+                    footer: { text: "Jules Nexus v2 — Dead Letter Processor" }
+                  }]
+                }' > dlq-payload.json
+              curl -s -H "Content-Type: application/json" -d @dlq-payload.json "$DISCORD_WEBHOOK_URL" || true
+              rm -f dlq-payload.json
+              echo "📡 Dead Letter Queue alert sent to Discord."
+            fi
+          else
+            echo "✅ Dead Letter Queue is empty — all tasks completed successfully."
+          fi
+
+      - name: "Task 21.8 - NEXUS v2: Hindi Blog Translation (3/day)"
+        continue-on-error: true
+        env:
+          VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY }}
+          VITE_GEMINI_API_KEY_2: ${{ secrets.VITE_GEMINI_API_KEY_2 }}
+          VITE_GEMINI_API_KEY_3: ${{ secrets.VITE_GEMINI_API_KEY_3 }}
+          VITE_GEMINI_API_KEY_4: ${{ secrets.VITE_GEMINI_API_KEY_4 }}
+          VITE_GEMINI_API_KEY_5: ${{ secrets.VITE_GEMINI_API_KEY_5 }}
+          VITE_GEMINI_API_KEY_6: ${{ secrets.VITE_GEMINI_API_KEY_6 }}
+        run: npx tsx scripts/hindi-translator.ts
+
       - name: Task 22 - Final Sanity Guard
         id: sanity_guard
         run: npx tsx scripts/sanity-guard.ts
@@ -361,11 +426,14 @@ jobs:
           git config --global user.name 'Jules Blog Bot'
           git config --global user.email 'jules-bot@users.noreply.github.com'
           git add src/content/blogs/*.md
+          git add src/content/blogs-hi/*.md || true
           git add public/blog-images/*
           git add src/data/blogs.ts
           git add public/seo-manifest.json
           git add public/slug-registry.json
           git add public/schema-data.json || true
+          git add public/sitemap*.xml || true
+          git add public/feed.xml public/rss.xml || true
           git add public/jules-reports/*.json || true
           git add jules-reports/*.json || true
           git add jules-reports/archive/ || true
@@ -397,6 +465,27 @@ jobs:
                -d '{"branch": "main"}'
           echo "🚀 Triggered Cloudflare Pages deployment for new blogs!"
 
+      - name: "NEXUS v2: Ping Sitemaps to Search Engines"
+        if: steps.quality_gate.outputs.gate_passed == 'true'
+        continue-on-error: true
+        run: npx tsx scripts/auto-sitemap.ts --ping
+
+      - name: "NEXUS v2: Purge Cloudflare CDN Cache"
+        if: steps.quality_gate.outputs.gate_passed == 'true'
+        continue-on-error: true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
+        run: |
+          if [ -n "$CLOUDFLARE_ZONE_ID" ]; then
+            curl -s -X POST "https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONE_ID}/purge_cache" \
+              -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
+              -H "Content-Type: application/json" \
+              -d '{"purge_everything": true}'
+            echo "🧹 Cloudflare cache purged!"
+          else
+            echo "ℹ️ CLOUDFLARE_ZONE_ID not set — skipping cache purge."
+          fi
 
       - name: Task 7 - Ping Google Indexing API
         if: steps.quality_gate.outputs.gate_passed == 'true'
@@ -494,4 +583,11 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: npx tsx scripts/utils/discord-pulse.ts --pulse
+
+      - name: "Task 27 - NEXUS v2: Weekly Performance Report (Sundays Only)"
+        if: always()
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: npx tsx scripts/weekly-report.ts
 

@@ -325,6 +325,34 @@ async function repairBlog(filePath: string, isDryRun: boolean, canUseAi: boolean
     const titleMatch = frontmatter.match(/title:\s*["'](.+?)["']/);
     const title = titleMatch ? titleMatch[1] : slug.replace(/-/g, ' ');
 
+    // ========= NEXUS v2 FIX: Auto Table of Contents =========
+    // Extracts all ## headings and injects a clickable anchor TOC after the first paragraph.
+    // Zero API cost. Only runs if blog has 3+ headings and no TOC exists yet.
+    const hasToc = body.includes('## Table of Contents') || body.includes('## 📑') || body.includes('<!-- toc -->');
+    if (!hasToc) {
+        const h2Matches = [...body.matchAll(/^##\s+(.+)$/gm)];
+        if (h2Matches.length >= 3) {
+            const tocLines = h2Matches.map((m, i) => {
+                const heading = m[1].trim();
+                // Generate a slug-safe anchor ID from heading text
+                const anchor = heading.toLowerCase()
+                    .replace(/[^\w\s-]/g, '') // Remove emoji and special chars
+                    .replace(/\s+/g, '-')
+                    .replace(/^-+|-+$/g, '');
+                return `${i + 1}. [${heading}](#${anchor})`;
+            });
+            
+            const tocBlock = `\n## 📑 Table of Contents\n\n${tocLines.join('\n')}\n\n---\n\n`;
+            
+            // Inject after the first paragraph or first heading
+            const firstHeadingIdx = body.indexOf('\n## ');
+            if (firstHeadingIdx > 0) {
+                body = body.slice(0, firstHeadingIdx) + tocBlock + body.slice(firstHeadingIdx);
+                fixes.push(`Injected auto Table of Contents (${h2Matches.length} sections)`);
+            }
+        }
+    }
+
     // ========= STRATEGIC REFINEMENT (CTR/DECAY FIX) =========
     if (canUseAi && regenReason) {
         console.log(`🧬 STRATEGIC REFINEMENT: Deep-fixing ${slug}...`);
@@ -828,6 +856,55 @@ async function repairBlog(filePath: string, isDryRun: boolean, canUseAi: boolean
                     fixes.push('Enriched blog with Google-grounded FAQ section');
                 }
             }
+        }
+    }
+
+    // ========= NEXUS v2 FIX 13.5: YouTube Video Enrichment =========
+    // Embeds an educational video from a trusted YouTube channel.
+    // Only runs if blog doesn't already have a video embed.
+    const hasVideo = body.includes('youtube.com/embed') || body.includes('🎬 Watch');
+    if (canUseGrammar && !hasVideo) {
+        try {
+            const { findYouTubeVideo, buildVideoEmbed, buildYouTubeSearchLink } = await import('./utils/youtube-enricher.ts');
+            const subjectMatch = frontmatter.match(/category:\s*["']?(\w+)["']?/);
+            const subject = subjectMatch ? subjectMatch[1] : 'Physics';
+            
+            const video = await findYouTubeVideo(title, subject);
+            if (video) {
+                const videoBlock = buildVideoEmbed(video);
+                // Inject before the FAQ or references section
+                const anchor = body.includes('## ❓') ? '## ❓' : (body.includes('## 📚 Academic') ? '## 📚 Academic' : '');
+                if (anchor) {
+                    const splitIdx = body.lastIndexOf(anchor);
+                    if (splitIdx !== -1) {
+                        body = body.substring(0, splitIdx) + videoBlock + body.substring(splitIdx);
+                    }
+                } else {
+                    // Inject before the last horizontal rule (footer area)
+                    const lastHr = body.lastIndexOf('\n---\n');
+                    if (lastHr !== -1) {
+                        body = body.substring(0, lastHr) + videoBlock + body.substring(lastHr);
+                    } else {
+                        body += videoBlock;
+                    }
+                }
+                fixes.push(`Embedded YouTube video: "${video.title}" by ${video.channelTitle}`);
+            } else if (!process.env.YOUTUBE_API_KEY) {
+                // No API key: inject a search link instead (zero-cost fallback)
+                const searchLink = buildYouTubeSearchLink(title);
+                if (!body.includes('youtube.com/results')) {
+                    const lastHr = body.lastIndexOf('\n---\n');
+                    if (lastHr !== -1) {
+                        body = body.substring(0, lastHr) + searchLink + body.substring(lastHr);
+                    } else {
+                        body += searchLink;
+                    }
+                    fixes.push('Added YouTube search link (no API key for embed)');
+                }
+            }
+        } catch (ytErr: any) {
+            // YouTube enrichment is best-effort — never crash the repair pipeline
+            console.warn(`⚠️ YouTube enrichment skipped: ${ytErr.message}`);
         }
     }
 

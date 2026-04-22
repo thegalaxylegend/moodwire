@@ -27,7 +27,7 @@ practice_link: "/class-11/indian-geography-climate-class-11-revision-notes-cbse"
 
 ## <a id="what-is-climate"></a>What is Climate?
 
-Climate is a long-term average of atmospheric conditions and a particular region, including temperature, precipitation, n wind patterns. It includes the study of atmospheric conditions, the impact of climate on the environment, n the effects of human activities on climate change. For [class](/blog/constitutional-framework-class-11-revision-notes-cbse) 11 exam prep n 2026, the most important aspect is understanding the difference between weather and climate, as well as the various factors that influence climate.
+Climate is a long-term average of atmospheric conditions and a particular region, including temperature, precipitation, n wind patterns. It includes the study of atmospheric conditions, the impact of climate on the environment, n the effects of human activities on climate change. For class 11 exam prep n 2026, the most important aspect is understanding the difference between weather and climate, as well as the various factors that influence climate.
 
 ## <a id="what-are-the-key-factors-influencing-climate"></a>What are the key factors influencing Climate?
 

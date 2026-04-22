@@ -126,7 +126,7 @@ I, Ayush, make sure to remember these trap exceptions to avoid common mistakes a
 
 ## <a id="ayushs-personal-note"></a>Ayush's Personal Note
 
-As I prepare for my [class](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) 11 History exams, I find it essential to review the key concepts and dates related to the Industrial Revolution. I make sure to remember the core concepts, formulae, n tables, n to watch out for trap exceptions. I also practice MCQs to assess my knowledge and identify areas for improvement. By following this approach, I am confident that I can achieve a good grade and my exams.
+As I prepare for my class 11 History exams, I find it essential to review the key concepts and dates related to the Industrial Revolution. I make sure to remember the core concepts, formulae, n tables, n to watch out for trap exceptions. I also practice MCQs to assess my knowledge and identify areas for improvement. By following this approach, I am confident that I can achieve a good grade and my exams.
 
 ### <a id="important-terms"></a>Important Terms
 The following are some important terms related to the Industrial Revolution:
@@ -179,7 +179,7 @@ These formulae and tables help me, Ayush, understand the economic and technologi
 
 ## <a id="conclusion-is-not-allowed-as-per-the-guidelines-hence-the-response-will-continue"></a>Conclusion is not allowed as per the guidelines, hence the response will continue
 
-The Industrial Revolution was a complex and multifaceted phenomenon that transformed the way goods were produced, transported, n consumed. It had far-reaching impacts on the economy, society, n politics of Europe and beyond. As I, Ayush, prepare for my [class](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) 11 History exams, I find it essential to recall the key points and concepts related to the Industrial Revolution. 
+The Industrial Revolution was a complex and multifaceted phenomenon that transformed the way goods were produced, transported, n consumed. It had far-reaching impacts on the economy, society, n politics of Europe and beyond. As I, Ayush, prepare for my class 11 History exams, I find it essential to recall the key points and concepts related to the Industrial Revolution. 
 
 ### <a id="more-on-the-industrial-revolution"></a>More on the Industrial Revolution
 The Industrial Revolution was characterized y the development of new machines and manufacturing technologies, the growth of factories, n the expansion of transportation networks. It also led to significant social and economic changes, including the growth of cities and the development of new social classes.
@@ -268,7 +268,7 @@ I, Ayush, am excited to learn more about the Industrial Revolution and its ongoi
 
 ## <a id="final-thoughts"></a>Final Thoughts
 
-The Industrial Revolution was a complex and multifaceted phenomenon that transformed the way goods were produced, transported, n consumed. It had far-reaching impacts on the economy, society, n politics of Europe and beyond, n its legacy can still be seen today. As I, Ayush, prepare for my [class](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) 11 History exams, I find it essential to recall the key points and concepts related to the Industrial Revolution, n to understand its ongoing impact on our world. 
+The Industrial Revolution was a complex and multifaceted phenomenon that transformed the way goods were produced, transported, n consumed. It had far-reaching impacts on the economy, society, n politics of Europe and beyond, n its legacy can still be seen today. As I, Ayush, prepare for my class 11 History exams, I find it essential to recall the key points and concepts related to the Industrial Revolution, n to understand its ongoing impact on our world. 
 
 ### <a id="more-on-the-industrial-revolution"></a>More on the Industrial Revolution
 The Industrial Revolution was a time of significant change and transformation, as new machines and manufacturing technologies were developed and new industries emerged. It was also a time of great social and economic change, as the growth of factories and the expansion of transportation networks led to the growth of cities and the development of new social classes.
@@ -297,7 +297,7 @@ I, Ayush, am excited to learn more about the Industrial Revolution and its ongoi
 
 ## <a id="last-minute-revision"></a>Last Minute Revision
 
-As I, Ayush, prepare for my [class](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) 11 History exams, I find it essential to recall the key points and concepts related to the Industrial Revolution. I make sure to review the core concepts, formulae, n tables, n to practice MCQs to assess my knowledge and identify areas for improvement. I also watch out for trap exceptions to avoid common mistakes, n I use LaTeX to format my notes and make them more readable.
+As I, Ayush, prepare for my class 11 History exams, I find it essential to recall the key points and concepts related to the Industrial Revolution. I make sure to review the core concepts, formulae, n tables, n to practice MCQs to assess my knowledge and identify areas for improvement. I also watch out for trap exceptions to avoid common mistakes, n I use LaTeX to format my notes and make them more readable.
 
 ### <a id="final-check"></a>Final Check
 I, Ayush, make a final check of my [notes](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) n study materials to ensure that I am well-prepared for my exams. I review the key points and concepts related to the Industrial Revolution, n I practice MCQs to assess my knowledge and identify areas for improvement.
@@ -313,7 +313,7 @@ By following these tips, I am confident that I can achieve a good grade and my e
 
 ## <a id="final-preparation"></a>Final Preparation
 
-I, Ayush, make my final preparations for my [class](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) 11 History exams. I review my notes and study materials, n I practice MCQs to assess my knowledge and identify areas for improvement. I also watch out for trap exceptions to avoid common mistakes, n I use LaTeX to format my notes and make them more readable.
+I, Ayush, make my final preparations for my class 11 History exams. I review my notes and study materials, n I practice MCQs to assess my knowledge and identify areas for improvement. I also watch out for trap exceptions to avoid common mistakes, n I use LaTeX to format my notes and make them more readable.
 
 ### <a id="good-luck"></a>Good Luck
 I, Ayush, wish myself good luck as I prepare for my exams. I am confident that I have prepared well and that I will achieve a good grade.

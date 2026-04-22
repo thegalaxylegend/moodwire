@@ -47,7 +47,7 @@ Respiration [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-note
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div [class](/blog/hydrogen-class-11-revision-notes-neet)="callout-box">
+<div class="callout-box">
 I once struggled to understand the difference between aerobic and anaerobic respiration. I thought that [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) only underwent anaerobic respiration, but that's not true. [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet), like animals, require oxygen for aerobic respiration. I realized my mistake when I was solving a practice question that asked about the byproducts of aerobic respiration [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet). Now, I make sure to clearly distinguish between the two types of respiration.
 </div>
 

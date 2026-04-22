@@ -53,12 +53,12 @@ Cell is [the basic structural and functional unit of living organisms](https://e
 
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 
-This chapter is very important for students of [class](/blog/environmental-chemistry-class-11-revision-notes-neet) 11 because it forms the foundation of biology. In the JEE Mains 2026 Session 1, 2 questions came from this topic. In the MEET 2026 exam, 5 questions came from this topic.
+This chapter is very important for students of class 11 because it forms the foundation of biology. In the JEE Mains 2026 Session 1, 2 questions came from this topic. In the MEET 2026 exam, 5 questions came from this topic.
 
 ## <a id="Ayush-note"></a>Ayush's Note
 
-<\\DIV [class](/blog/the-s-block-elements-class-11-revision-notes-jee-neet)="Ayush-note">
-I still remember when I was n [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) 11, I found it very difficult to understand the structure of a cell. My teacher told me to focus on the functions of different parts of the cell, n that really helped me. I used to make a table of all the parts of the cell and their functions, which made it easier for me to remember. 
+<\\DIV class="Ayush-note">
+I still remember when I was n class 11, I found it very difficult to understand the structure of a cell. My teacher told me to focus on the functions of different parts of the cell, n that really helped me. I used to make a table of all the parts of the cell and their functions, which made it easier for me to remember. 
 </div>
 
 ## <a id="cell-structure"></a>Cell Structure
@@ -150,8 +150,8 @@ Solution: d) Controlling the cell's genetic material
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Cell Biology Notes for [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) 11
-* Biology Notes for [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) 11
+* Cell Biology Notes for class 11
+* Biology Notes for class 11
 
 ## <a id="last-updated-date"></a>Last Updated Date
 

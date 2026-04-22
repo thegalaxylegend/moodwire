@@ -46,7 +46,7 @@ const PROMPT_HISTORY_DIR = path.join(REPORTS_DIR, 'prompt-history');
 
 // Initialize Groq (the "meta-brain" that evolves prompts)
 const GROQ_KEYS = [
-    process.env.GROQ_API_KEY,
+    process.env.VITE_GROQ_API_KEY || process.env.GROQ_API_KEY,
     process.env.VITE_GROQ_API_KEY_2,
     process.env.VITE_GROQ_API_KEY_3,
     process.env.VITE_GROQ_API_KEY_4,
@@ -121,17 +121,30 @@ function gatherIntelligence(): IntelligenceReport {
 
 function getCurrentPrompt(): string {
     // Extract the current hardcoded system prompt from blog-generator.ts
+    // NEXUS v2 FIX: Match the actual variable name used in blog-generator.ts
     try {
         const generatorPath = path.join(__dirname, 'blog-generator.ts');
         const content = fs.readFileSync(generatorPath, 'utf-8');
-        const match = content.match(/SYSTEM_PROMPT_CORE\s*=\s*`([\s\S]*?)`;/);
-        if (match) return match[1].trim();
-    } catch { /* ignore */ }
+        // Try the actual variable name first (GRANDMASTER_IDENTITY_DEFAULT)
+        const match = content.match(/GRANDMASTER_IDENTITY_DEFAULT\s*=\s*`([\s\S]*?)`;/)
+            || content.match(/SYSTEM_PROMPT_CORE\s*=\s*`([\s\S]*?)`;/);
+        if (match) {
+            console.log(`✅ Extracted current prompt from blog-generator.ts (${match[1].trim().length} chars)`);
+            return match[1].trim();
+        }
+        console.warn('⚠️ Could not extract prompt from blog-generator.ts — variable not found.');
+    } catch (err: any) {
+        console.warn(`⚠️ Could not read blog-generator.ts: ${err.message}`);
+    }
 
-    return `You are a JEE/NEET exam preparation blog writer.
-Focus on high-yield exam content with bullet points, formulas, and MCQs.
-Voice: Authentic Peer Mentor (student-to-student).
-FORMATTING: NEVER WRITE LONG PARAGRAPHS. Use bullet points for almost everything.`;
+    // Fallback: use the actual GRANDMASTER prompt text (keep in sync manually)
+    return `You are a strict, top 1% JEE/NEET ranker creating a "Last-Night Revision Format" study guide.
+Your sole purpose is to provide exactly what a student needs to read 12 hours before their exam to maximize their score.
+Target Length: Aim for a comprehensive 1500 to 2000 words. Do not give thin content.
+Voice: Specific, data-driven, authentic student tone. NO FILLER. No fluff. No introductions.
+
+Format Rule: A student reads this once, closes the tab, and walks into the exam confident.
+DO NOT use phrases like "In conclusion", "delve into", "comprehensive", "embark on your journey".`;
 }
 
 // ════════════════════════════════════════════════════════
@@ -286,17 +299,23 @@ CRITICAL JSON RULES:
 2. You MUST escape all newlines within strings as \\n.
 
 {
-  "evolvedPrompt": "The complete new system prompt text (ready to use as-is) with escaped \\n newlines",
+  "evolvedPrompt": "The complete new system prompt text (ready to use as-is) with escaped \\n newlines. CRITICAL: You MUST preserve the 'top 1% JEE/NEET ranker' identity and 'Last-Night Revision Format' framing. Never downgrade to generic 'blog writer' tone.",
   "temperature": 0.7,
   "subjectTargets": {
     "Physics": { "minWords": 1500, "maxWords": 2000, "formulaDensity": "high", "mcqCount": 5 },
     "Chemistry": { "minWords": 1500, "maxWords": 2000, "formulaDensity": "medium", "mcqCount": 5 },
     "Biology": { "minWords": 1500, "maxWords": 2000, "formulaDensity": "low", "mcqCount": 5 },
-    "Mathematics": { "minWords": 1500, "maxWords": 2000, "formulaDensity": "high", "mcqCount": 5 }
+    "Mathematics": { "minWords": 1500, "maxWords": 2000, "formulaDensity": "high", "mcqCount": 5 },
+    "History": { "minWords": 1500, "maxWords": 2000, "formulaDensity": "none", "mcqCount": 5 },
+    "Geography": { "minWords": 1500, "maxWords": 2000, "formulaDensity": "low", "mcqCount": 5 },
+    "Social Science": { "minWords": 1200, "maxWords": 1800, "formulaDensity": "none", "mcqCount": 5 }
   },
   "changelog": ["List of specific changes you made and why"],
   "confidence": 0.85
 }
+
+CRITICAL IDENTITY RULE: The evolved prompt MUST maintain the exact identity: 'You are a strict, top 1% JEE/NEET ranker creating a Last-Night Revision Format study guide.' NEVER weaken this to 'blog writer' or 'content creator'. The identity drives the quality.
+CRITICAL KEY RULE: subjectTargets keys MUST be actual subject names (Physics, Chemistry, Biology, Mathematics, History, Geography, Social Science). NEVER use content-type names like 'Revision' or 'Exam Notes'.
 
 CRITICAL: The evolved prompt must be BETTER than the original. Don't just rephrase — ADD value based on the data.`;
 
@@ -580,6 +599,50 @@ async function main() {
     if (!evolved) {
         console.log('\n❌ Evolution failed. Current prompt remains unchanged.\n');
         return;
+    }
+
+    // ═══════════════════════════════════════════════════
+    // NEXUS v2: IDENTITY PROTECTION GATE
+    // Prevents the "Reverse Evolution" bug where THE BRAIN
+    // downgrades from "top 1% ranker" to generic "blog writer"
+    // ═══════════════════════════════════════════════════
+    const IDENTITY_MARKERS = [
+        { keyword: 'top 1%', label: 'Elite Ranker Identity' },
+        { keyword: 'JEE', label: 'JEE Exam Focus' },
+        { keyword: 'NEET', label: 'NEET Exam Focus' },
+        { keyword: 'revision', label: 'Revision Format' },
+    ];
+    
+    const BANNED_DOWNGRADES = [
+        'blog writer',
+        'content creator', 
+        'article writer',
+        'generic blog',
+        'write a blog',
+    ];
+    
+    const evolvedLower = evolved.evolvedPrompt.toLowerCase();
+    const missingMarkers = IDENTITY_MARKERS.filter(m => !evolvedLower.includes(m.keyword.toLowerCase()));
+    const foundDowngrades = BANNED_DOWNGRADES.filter(d => evolvedLower.includes(d));
+    
+    if (missingMarkers.length >= 3 || foundDowngrades.length > 0) {
+        console.log('\n🛡️ IDENTITY PROTECTION GATE — EVOLUTION BLOCKED');
+        if (missingMarkers.length > 0) {
+            console.log(`   ❌ Missing identity markers: ${missingMarkers.map(m => m.label).join(', ')}`);
+        }
+        if (foundDowngrades.length > 0) {
+            console.log(`   ❌ Contains banned downgrades: "${foundDowngrades.join('", "')}"`);
+        }
+        console.log('   ℹ️  The evolved prompt attempted to weaken the identity. Keeping current prompt.');
+        console.log('   ℹ️  This is the "Reverse Evolution" protection from NEXUS v2.\n');
+        return;
+    }
+    
+    if (missingMarkers.length > 0) {
+        console.log(`   ⚠️ Mild drift detected — missing: ${missingMarkers.map(m => m.label).join(', ')}`);
+        console.log('   ✅ Proceeding anyway (< 3 missing markers is acceptable).\n');
+    } else {
+        console.log('   ✅ Identity Protection Gate passed — all markers preserved.\n');
     }
 
     // Save with version history

@@ -56,7 +56,7 @@ This chapter is important because it helps us understand the properties and beha
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div [class](/blog/biological-classification-class-11-revision-notes-neet)="callout-box">
+<div class="callout-box">
 I still remember when I was preparing for JEE, I used to get confused between the alkali metals and alkaline earth metals. I would often mix up their properties and reactions. But then I realized that the key to understanding these elements is to focus on their electron configuration and the way they lose electrons to form positive ions. For example, the alkali metals have a single electron and their outermost shell, which they can easily lose to form a positive ion. On the other hand, the alkaline earth metals have two electrons and their outermost shell, which makes them less reactive than the alkali metals. By understanding these differences, I was able to solve problems related to the s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements with ease.
 </div>
 

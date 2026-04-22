@@ -9,6 +9,20 @@ practice_link: "/class-11/physics/ai-exam-prep-future-class-11-revision-notes-je
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-ai-exam-prep-future"></a>What is Ai Exam Prep Future?](#a-idwhat-is-ai-exam-prep-futureawhat-is-ai-exam-prep-future)
+3. [<a id="Ayush-note-the-mistake-i-made"></a>Ayush's Note — The Mistake I Made](#a-idayush-note-the-mistake-i-madeaayushs-note-the-mistake-i-made)
+4. [<a id="detailed-analysis"></a>Detailed Analysis](#a-iddetailed-analysisadetailed-analysis)
+5. [<a id="trap-questions-n-exceptions-to-watch-out-for"></a>Trap Questions & Exceptions to Watch Out For](#a-idtrap-questions-n-exceptions-to-watch-out-foratrap-questions-exceptions-to-watch-out-for)
+6. [<a id="MCQs"></a>MCQs](#a-idmcqsamcqs)
+7. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+8. [📚 Related Topics](#related-topics)
+9. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Ai Exam Prep Future?](#what-is-ai-exam-prep-future)
@@ -22,7 +36,7 @@ practice_link: "/class-11/physics/ai-exam-prep-future-class-11-revision-notes-je
 
 ## <a id="what-is-ai-exam-prep-future"></a>What is Ai Exam Prep Future?
 
-{"title":"Unlocking the Secrets of Physics for [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11","content":"As a [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 student, I'm excited to dive into the fascinating world of Physics. This subject is the foundation of all natural sciences, n mastering it will not only help me ace my exams but also unlock the doors to a deeper understanding of the universe. In this study guide, I'll share my approach to tackling the key concepts, common pitfalls, n of course, the most effective strategies for success. From the laws of motion to the mysteries of electromagnetic waves, we'll explore it all. With a focus on CERT-aligned content, I'll ensure that I'm well-prepared for the exams and beyond. In physics, the concepts are often interconnected, n understanding the relationships between different topics is crucial. My approach will be to break down the complex topics into manageable chunks, using a combination of theoretical explanations, diagrams, n practice problems to reinforce my learning. By the end of this guide, I aim to have a comprehensive understanding of the [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 Physics syllabus and be well-prepared to tackle the challenges that lie ahead. Whether it's understanding the nuances of friction, the behavior of fluids, or the properties of thermodynamics, I'll leave no stone unturned and my pursuit of Physics mastery. With dedication, persistence, n the right guidance, I'm confident that I can achieve my goals and unlock a brighter future for myself.","weightage":"The weightage of Physics and the [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 exams is approximately 30-40%, making it a critical subject for success. By focusing on the key concepts and practicing regularly, I can ensure that I maximize my score and achieve my academic goals."}
+{"title":"Unlocking the Secrets of Physics for class 11","content":"As a class 11 student, I'm excited to dive into the fascinating world of Physics. This subject is the foundation of all natural sciences, n mastering it will not only help me ace my exams but also unlock the doors to a deeper understanding of the universe. In this study guide, I'll share my approach to tackling the key concepts, common pitfalls, n of course, the most effective strategies for success. From the laws of motion to the mysteries of electromagnetic waves, we'll explore it all. With a focus on CERT-aligned content, I'll ensure that I'm well-prepared for the exams and beyond. In physics, the concepts are often interconnected, n understanding the relationships between different topics is crucial. My approach will be to break down the complex topics into manageable chunks, using a combination of theoretical explanations, diagrams, n practice problems to reinforce my learning. By the end of this guide, I aim to have a comprehensive understanding of the class 11 Physics syllabus and be well-prepared to tackle the challenges that lie ahead. Whether it's understanding the nuances of friction, the behavior of fluids, or the properties of thermodynamics, I'll leave no stone unturned and my pursuit of Physics mastery. With dedication, persistence, n the right guidance, I'm confident that I can achieve my goals and unlock a brighter future for myself.","weightage":"The weightage of Physics and the class 11 exams is approximately 30-40%, making it a critical subject for success. By focusing on the key concepts and practicing regularly, I can ensure that I maximize my score and achieve my academic goals."}
 
 ## <a id="Ayush-note-the-mistake-i-made"></a>Ayush's Note — The Mistake I Made
 
@@ -127,8 +141,8 @@ Continue your [revision](/blog/3d-geometry-intro-class-11-revision-notes-jee-nee
 * **Python Programming**: Lists, Tuples, Dictionaries, Functions, Modules
 * **Database Management**: DBMS, Tables, Queries, Indexing
 * **Networking Fundamentals**: LAN, WAN, Wi-Fi, TCP/IP, HTTP
-* **Cyber Security**: Threats, Vulnerabilities, Firewalls, Encryption
+* **Cybersecurity**: Threats, Vulnerabilities, Firewalls, Encryption
 * **AI and Machine Learning**: Introduction, Types, Applications, Future Scope
-* **Algorithmic Thinking**: Problem Solving, Flowcharts, Pseudocode
+* **Algorithmic Thinking**: Problem-Solving, Flowcharts, Pseudocode
 * **Web Development**: HTML, CSS, JavaScript, Frameworks
 * **Data [analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) n Visualization**: Statistics, Graphs, Charts, Plots

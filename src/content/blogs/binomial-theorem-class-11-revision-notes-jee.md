@@ -48,7 +48,7 @@ practice_link: "/class-11/mathematics/binomial-theorem-class-11-revision-notes-j
 
 ## <a id="introduction"></a>Introduction
 
-**The Binomial Theorem provides an elegant algebraic method for expanding expressions of the form (a + b)ⁿ using Pascal's Triangle and binomial coefficients. Master the General Term formula, Middle Term calculations, n properties of act to solve high-degree expansion problems and financial modeling and calculus. This [class](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 11 Math Chapter 8 guide ensures total mastery for JEE and CBSE assessments.**
+**The Binomial Theorem provides an elegant algebraic method for expanding expressions of the form (a + b)ⁿ using Pascal's Triangle and binomial coefficients. Master the General Term formula, Middle Term calculations, n properties of act to solve high-degree expansion problems and financial modeling and calculus. This class 11 Math Chapter 8 guide ensures total mastery for JEE and CBSE assessments.**
 The Binomial Theorem is a powerful tool for expanding expressions of the form (a + b)ⁿ.
 
 ---

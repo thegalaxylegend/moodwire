@@ -32,11 +32,11 @@ practice_link: "/class-11/chemistry/relations-n-functions-class-11-notes"
 ## <a id="what-is-relations-n-functions"></a>What is Relations and Functions?
 
 **Introduction to Relations and Functions**
-As we step into the realm of [class](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) 11 mathematics, it's essential to recognize the significance of **Relations and Functions** n the CBSE syllabus. This topic holds a substantial weightage of approximately 10-12% n the final exam, making it a crucial component of your overall preparation. In the 2026 exam, you can expect around 20-25 marks to be dedicated to this topic, with a mix of short answer and long answer questions.
+As we step into the realm of class 11 mathematics, it's essential to recognize the significance of **Relations and Functions** n the CBSE syllabus. This topic holds a substantial weightage of approximately 10-12% n the final exam, making it a crucial component of your overall preparation. In the 2026 exam, you can expect around 20-25 marks to be dedicated to this topic, with a mix of short answer and long answer questions.
 
-To set the stage, let's consider a real-life scenario where you're planning a trip with your friends. You want to book a hotel room, n the manager tells you that the cost of the room is directly proportional to the number of days you stay. This can be represented as a **function**, where the input is the number of days, n the output is the cost. However, if you want to find the number of rooms available on a specific date, you'll need to consider the **relation** between the date and the availability of rooms. This interplay between relations and functions is a fundamental concept and mathematics, n it's essential to grasp it to excel and the [class](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) 11 exam.
+To set the stage, let's consider a real-life scenario where you're planning a trip with your friends. You want to book a hotel room, n the manager tells you that the cost of the room is directly proportional to the number of days you stay. This can be represented as a **function**, where the input is the number of days, n the output is the cost. However, if you want to find the number of rooms available on a specific date, you'll need to consider the **relation** between the date and the availability of rooms. This interplay between relations and functions is a fundamental concept and mathematics, n it's essential to grasp it to excel and the class 11 exam.
 
-On a personal note, I still remember struggling to understand the difference between a relation and a function when I was n [class](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) 11. My teacher used a simple example to illustrate the concept: consider a relation between the number of hours you study and the marks you score and a test. While there might be a relation between the two, it's not necessarily a function, as studying for 2 hours might not always result and the same marks. This example helped me understand the concept, n I'm confident that with the right approach, you'll be able to grasp it as well.
+On a personal note, I still remember struggling to understand the difference between a relation and a function when I was n class 11. My teacher used a simple example to illustrate the concept: consider a relation between the number of hours you study and the marks you score and a test. While there might be a relation between the two, it's not necessarily a function, as studying for 2 hours might not always result and the same marks. This example helped me understand the concept, n I'm confident that with the right approach, you'll be able to grasp it as well.
 
 To tackle the topic of Relations and Functions, it's essential to have a solid foundation and the following prerequisites:
 
@@ -47,7 +47,7 @@ To tackle the topic of Relations and Functions, it's essential to have a solid f
 The topic of Relations and Functions can be broadly divided into two main sections: **Relations** n **Functions**.
 
 ### <a id="relations"></a>Relations
-A **relation** is a subset of the Cartesian product of two sets. In simpler terms, it's a way of associating elements from one set with elements from another set. For example, consider a relation between the set of students and a [class](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) n the set of their favorite sports. This relation can be represented as a subset of the Cartesian product of the two sets.
+A **relation** is a subset of the Cartesian product of two sets. In simpler terms, it's a way of associating elements from one set with elements from another set. For example, consider a relation between the set of students and a class n the set of their favorite sports. This relation can be represented as a subset of the Cartesian product of the two sets.
 
 Some key concepts related to relations include:
 
@@ -74,7 +74,7 @@ To excel and the topic of Relations and Functions, it's crucial to practice a va
 * Evaluating composite functions
 * Finding the inverse of a function
 
-In the next section, we'll dive deeper into the world of relations and functions, exploring the various concepts and formulas that you need to know to ace the [class](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) 11 exam. We'll use a combination of theoretical explanations, examples, n practice problems to help you develop a thorough understanding of the topic.
+In the next section, we'll dive deeper into the world of relations and functions, exploring the various concepts and formulas that you need to know to ace the class 11 exam. We'll use a combination of theoretical explanations, examples, n practice problems to help you develop a thorough understanding of the topic.
 
 **Key Concepts to Focus On:**
 
@@ -92,11 +92,11 @@ In the next section, we'll dive deeper into the world of relations and functions
 * $f^{-1}(x) = y$ (inverse function notation)
 * $(f \circ g)(x) = f(g(x))$ (composition of functions)
 
-By the end of this topic, you'll be well-equipped to tackle the challenges of Relations and Functions and the [class](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) 11 exam. With a solid understanding of the concepts, formulas, n practice problems, you'll be able to approach the topic with confidence and accuracy.
+By the end of this topic, you'll be well-equipped to tackle the challenges of Relations and Functions and the class 11 exam. With a solid understanding of the concepts, formulas, n practice problems, you'll be able to approach the topic with confidence and accuracy.
 
 ## <a id="what-is-a-relation-n-mathematics"></a>What is a Relation and Mathematics?
 
-Relation and Mathematics is a set of ordered pairs of objects, n which some relation holds. It includes the domain, codomain, n the set of ordered pairs. For [class](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) 11 exam prep n 2026, the most important aspect is understanding the difference between various types of relations such as reflexive, symmetric, n transitive relations.
+Relation and Mathematics is a set of ordered pairs of objects, n which some relation holds. It includes the domain, codomain, n the set of ordered pairs. For class 11 exam prep n 2026, the most important aspect is understanding the difference between various types of relations such as reflexive, symmetric, n transitive relations.
 
  A relation $R$ from a set $A$ to a set $B$ is a subset of the Cartesian product $A 	imes B$. It can be represented as $R = {(a, b) | a and A, b and B}$. The domain of $R$ is the set of all first elements of the ordered pairs n $R$, while the codomain is the set of all second elements. 
 
@@ -115,7 +115,7 @@ Relation and Mathematics is a set of ordered pairs of objects, n which some rela
 
 ## <a id="what-are-the-different-types-of-relations"></a>What are the Different Types of Relations?
 
-What are the Different Types of Relations? is a concept and mathematics that refers to the connection between two or more sets of entities. It includes the domain, codomain, n the relation itself, which can be represented as a set of ordered pairs. For [class](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) 11 exam prep n 2026, the most important aspect is understanding the properties of relations such as reflexivity, symmetry, n transitivity.
+What are the Different Types of Relations? is a concept and mathematics that refers to the connection between two or more sets of entities. It includes the domain, codomain, n the relation itself, which can be represented as a set of ordered pairs. For class 11 exam prep n 2026, the most important aspect is understanding the properties of relations such as reflexivity, symmetry, n transitivity.
 
 There are several types of relations, including reflexive, symmetric, transitive, n equivalence relations. A **reflexive relation** is one and which every element is related to itself, i.e., for all $a$ n the domain, $(a, a)$ is and the relation. A **symmetric relation** is one and which if $(a, b)$ is and the relation, then $(b, a)$ is also and the relation. A **transitive relation** is one and which if $(a, b)$ n $(b, c)$ are and the relation, then $(a, c)$ is also and the relation.
 
@@ -142,7 +142,7 @@ How to Determine if a Relation is Reflexive? is a method to check if a relation 
 
 ## <a id="what-is-ayushs-note-on-relations-n-functions"></a>What is Ayush's Note on Relations and Functions?
 
-Ayush's Note on Relations and Functions is a concise study guide that outlines the fundamental concepts of relations and functions and mathematics. It includes key definitions, types of relations such as reflexive, symmetric, n transitive relations, n various types of functions including injective, surjective, n bijective functions. For [class](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) 11 exam prep n 2026, the most important aspect is understanding how to identify and analyze relations and functions using their graphical representations, equations, n truth tables.
+Ayush's Note on Relations and Functions is a concise study guide that outlines the fundamental concepts of relations and functions and mathematics. It includes key definitions, types of relations such as reflexive, symmetric, n transitive relations, n various types of functions including injective, surjective, n bijective functions. For class 11 exam prep n 2026, the most important aspect is understanding how to identify and analyze relations and functions using their graphical representations, equations, n truth tables.
 
  To grasp the concept of relations, it's essential to understand the **domain** n **codomain** of a relation. The domain is the set of all input values, while the codomain is the set of all possible output values. A relation R from set A to set B is a subset of the Cartesian product A × B, denoted as R ⊆ A × B. There are several types of relations, including:
  * **Reflexive relation**: A relation R on set A is reflexive if for every a ∈ A, (a, a) ∈ R.
@@ -156,9 +156,9 @@ Ayush's Note on Relations and Functions is a concise study guide that outlines t
 
  A crucial concept and relations and functions is the idea of **composition of functions**. Given two functions f: A → B and g: B → C, the composition of f and g, denoted as g ∘ f, is a function from A to C, defined as (g ∘ f)(a) = g(f(a)) for every a ∈ A.
 
- **Student-Centric Tip**: To excel and the [class](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) 11 exam, practice identifying and analyzing relations and functions using their graphical representations and equations. Make sure to understand the properties of relations, such as reflexivity, symmetry, n transitivity, n the properties of functions, such as injectivity, surjectivity, n bijectivity. Use truth tables to verify the properties of relations and functions.
+ **Student-Centric Tip**: To excel and the class 11 exam, practice identifying and analyzing relations and functions using their graphical representations and equations. Make sure to understand the properties of relations, such as reflexivity, symmetry, n transitivity, n the properties of functions, such as injectivity, surjectivity, n bijectivity. Use truth tables to verify the properties of relations and functions.
 
- Understanding the types of relations and functions and their properties will help you tackle problems and the [class](/blog/algorithms-design-class-11-revision-notes-gate-boards) 11 exam with confidence. For instance, you can use the properties of relations to determine if a given relation is an equivalence relation or a partial order relation. Similarly, you can use the properties of functions to determine if a given function is injective, surjective, or bijective.
+ Understanding the types of relations and functions and their properties will help you tackle problems and the class 11 exam with confidence. For instance, you can use the properties of relations to determine if a given relation is an equivalence relation or a partial order relation. Similarly, you can use the properties of functions to determine if a given function is injective, surjective, or bijective.
 
 | Type of Relation | Definition | Example |
 | --- | --- | --- |
@@ -228,7 +228,7 @@ In comparison to other mathematical concepts, finding the inverse of a function 
 
 ## <a id="what-is-the-key-shortcut-or-trick-for-relations-n-functions"></a>What is the key Shortcut or Trick for Relations and Functions?
 
-What is the key Shortcut or Trick for Relations and Functions? is a technique to simplify the process of determining the type of relation between two sets. It includes identifying the **domain**, **codomain**, n **range** of a relation. For [class](/blog/algorithms-design-class-11-revision-notes-gate-boards) 11 exam prep n 2026, the most important aspect is understanding how to apply these components to classify relations into **injective**, **surjective**, or **bijective** functions.
+What is the key Shortcut or Trick for Relations and Functions? is a technique to simplify the process of determining the type of relation between two sets. It includes identifying the **domain**, **codomain**, n **range** of a relation. For class 11 exam prep n 2026, the most important aspect is understanding how to apply these components to classify relations into **injective**, **surjective**, or **bijective** functions.
 
  To tackle relations and functions efficiently, it's crucial to grasp the fundamental definitions. A **relation** from set A to set B is a subset of the Cartesian product A × B. This means for every element a and A, there is a corresponding element b and B, denoted as (a, b). A **function**, on the other hand, is a special type of relation where each element of the domain maps to exactly one element of the codomain.
 

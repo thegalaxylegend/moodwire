@@ -47,7 +47,7 @@ practice_link: "/class-11/chemistry/sets-class-11-revision-notes-jee-neet"
 
 ## <a id="introduction"></a>Introduction
 
-**Set theory is the fundamental framework of modern mathematics, providing the language to define collections, functions, n logic. Master the concepts of well-defined collections, subsets, n power sets to build a strong foundation for Calculus and Probability. This guide covers all essential [class](/blog/mathematical-induction-class-11-revision-notes-jee-neet) 11 Math Chapter 1 formulas and operations for JEE/CBSE exams.**
+**Set theory is the fundamental framework of modern mathematics, providing the language to define collections, functions, n logic. Master the concepts of well-defined collections, subsets, n power sets to build a strong foundation for Calculus and Probability. This guide covers all essential class 11 Math Chapter 1 formulas and operations for JEE/CBSE exams.**
 Set theory is the foundation of modern mathematics. Developed y Georg Cantor, it provides the language and framework for almost every mathematical structure, from functions n [relations](/blog/relations-functions-class-11-revision-notes-jee-neet) to probability and topology. 
 
 ---

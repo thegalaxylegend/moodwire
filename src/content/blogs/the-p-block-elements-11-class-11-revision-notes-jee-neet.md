@@ -52,7 +52,7 @@ The p-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) eleme
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div [class](/blog/plant-kingdom-class-11-revision-notes-neet)="ayush-note">
+<div class="ayush-note">
 I remember struggling with the p-block elements during my JEE preparation. One mistake I made was not understanding the electronic configuration of these elements. I used to get confused between the s- n p-orbitals, which led to incorrect answers. However, after practicing and revising the topic, I realized that the key to mastering the p-block elements is to understand their electronic configuration and how it affects their [physical](/blog/physical-world-class-11-revision-notes-jee-neet) n chemical properties.
 </div>
 
@@ -131,8 +131,8 @@ Solution: B) 150 pm
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Chemical Bonding Notes for [class](/blog/biological-classification-class-11-revision-notes-neet) 11
-* Periodic Table Notes for [class](/blog/biological-classification-class-11-revision-notes-neet) 11
+* Chemical Bonding Notes for class 11
+* Periodic Table Notes for class 11
 
 Note: The word count for this post is 2476 words, which meets the minimum word count requirement for chapter [revision](/blog/biological-classification-class-11-revision-notes-neet) notes.
 

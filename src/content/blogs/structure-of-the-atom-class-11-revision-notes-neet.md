@@ -97,3 +97,39 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
 - 📖 [Classification Of Elements Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-of-elements-class-11-revision-notes-jee-neet)
 - 📖 [Locomotion And Movement Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/locomotion-n-movement-class-11-revision-notes-neet)
 $
+
+## 🪤 Common Mistakes That Cost Marks
+When preparing for the Structure of the Atom exam, students often make mistakes that can cost them valuable marks. Here are some common mistakes to avoid:
+* Misunderstanding the concept of atomic number (Z) and mass number (A), where $Z$ represents the number of protons and $A$ represents the sum of protons and neutrons ($A = Z + N$), where $N$ is the number of neutrons.
+* Forgetting the key differences between isotopes and isotones, where isotopes have the same $Z$ but different $A$, and isotones have the same $N$ but different $Z$.
+* Incorrectly applying the rules for electron configuration, such as the Aufbau principle and the Pauli exclusion principle, which state that electrons fill the lowest available energy levels and no two electrons can have the same set of quantum numbers, respectively.
+* Confusing the terms 'atomic radius' and 'ionic radius', where the atomic radius refers to the distance between the nucleus and the outermost energy level of an atom, and the ionic radius refers to the distance between the nucleus and the outermost energy level of an ion.
+* Not being able to identify the key features of the quantum mechanical model of the atom, such as the principles of wave-particle duality and uncertainty.
+
+## 🔁 Last 5 Minutes Revision Box
+In the last 5 minutes of the exam, make sure to revise the following key formulas and facts:
+The atomic number ($Z$) is defined as $Z = 	ext{number of protons}$.
+The mass number ($A$) is defined as $A = Z + N$, where $N$ is the number of neutrons.
+The electron configuration of an atom can be determined using the Aufbau principle and the Pauli exclusion principle.
+The atomic radius ($r$) can be calculated using the formula $r = rac{n^2}{Z}$, where $n$ is the principal quantum number.
+
+## 📝 Practice MCQs
+Here are some practice MCQs to help you assess your knowledge of the Structure of the Atom:
+What is the atomic number of an atom with 12 protons and 12 neutrons?
+A) 10
+B) 12
+C) 14
+D) 16
+Answer: B) 12
+What is the electron configuration of a sodium atom?
+A) $1s^2 2s^2 2p^6 3s^1$
+B) $1s^2 2s^2 2p^6 3s^2$
+C) $1s^2 2s^2 2p^6 3p^1$
+D) $1s^2 2s^2 2p^6 3d^1$
+Answer: A) $1s^2 2s^2 2p^6 3s^1$
+What is the difference between an isotope and an isotone?
+A) An isotope has the same $Z$ but different $A$, while an isotone has the same $N$ but different $Z$.
+B) An isotope has the same $N$ but different $Z$, while an isotone has the same $Z$ but different $A$.
+C) An isotope has the same $A$ but different $Z$, while an isotone has the same $Z$ but different $N$.
+D) An isotope has the same $Z$ but different $N$, while an isotone has the same $A$ but different $Z$.
+Answer: A) An isotope has the same $Z$ but different $A$, while an isotone has the same $N$ but different $Z$.

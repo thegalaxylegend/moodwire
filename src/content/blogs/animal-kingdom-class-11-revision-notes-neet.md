@@ -58,7 +58,7 @@ The [classification](/blog/biological-classification-class-11-revision-notes-nee
 
 ## <a id="morphology-n-anatomy-of-animals"></a>Morphology and Anatomy of Animals
 
-The morphology and anatomy of animals vary greatly, depending on their phylum, [class](/blog/environmental-chemistry-class-11-revision-notes-neet), n order. For example, animals and the phylum Chordata have a notochord, dorsal nerve cord, n pharyngeal slits, while animals and the [class](/blog/environmental-chemistry-class-11-revision-notes-neet) Mammalia have hair, mammary glands, n produce milk to feed their young.
+The morphology and anatomy of animals vary greatly, depending on their phylum, class, n order. For example, animals and the phylum Chordata have a notochord, dorsal nerve cord, n pharyngeal slits, while animals and the class Mammalia have hair, mammary glands, n produce milk to feed their young.
 
 ## <a id="core-concepts"></a>Core Concepts
 
@@ -67,18 +67,18 @@ Phylum Chordata is a group of [animals](/blog/structural-organisation-n-animals-
 Phylum Chordata is defined as a group of [animals](/blog/structural-organisation-n-animals-class-11-revision-notes-neet) with a notochord, dorsal nerve cord, n pharyngeal slits.
 
 ### <a id="class-Mammalia"></a>Class Mammalia
-[class](/blog/environmental-chemistry-class-11-revision-notes-neet) Mammalia is a group of warm-blooded animals that have hair and mammary glands. This [class](/blog/environmental-chemistry-class-11-revision-notes-neet) includes humans, monkeys, n other primates, as well as carnivores, rodents, n many other groups of mammals.
-[class](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) Mammalia is defined as a group of warm-blooded animals with hair and mammary glands.
+class Mammalia is a group of warm-blooded animals that have hair and mammary glands. This class includes humans, monkeys, n other primates, as well as carnivores, rodents, n many other groups of mammals.
+class Mammalia is defined as a group of warm-blooded animals with hair and mammary glands.
 
 ## <a id="Ayush-note"></a>Ayush's Note
 
-I remember when I was studying for my [class](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) 11 exams, I had a hard time remembering the different phyla and classes of animals. I used to get confused between the characteristics of each group and would often mix them up. But then I realized that if I just focused on the key characteristics of each phylum n [class](/blog/cell-the-unit-of-life-class-11-revision-notes-neet), such as the presence of a notochord or mammary glands, I could easily distinguish between them. For example, I learned that all animals and the phylum Chordata have a notochord, dorsal nerve cord, n pharyngeal slits, while all animals and the [class](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) Mammalia have hair and mammary glands. By focusing on these key characteristics, I was able to master the topic and score well and my exams.
+I remember when I was studying for my class 11 exams, I had a hard time remembering the different phyla and classes of animals. I used to get confused between the characteristics of each group and would often mix them up. But then I realized that if I just focused on the key characteristics of each phylum n class, such as the presence of a notochord or mammary glands, I could easily distinguish between them. For example, I learned that all animals and the phylum Chordata have a notochord, dorsal nerve cord, n pharyngeal slits, while all animals and the class Mammalia have hair and mammary glands. By focusing on these key characteristics, I was able to master the topic and score well and my exams.
 
 ## <a id="shortcut-formula-trick"></a>Shortcut Formula / Trick
 
 To remember the different phyla and classes of [animals](/blog/structural-organisation-n-animals-class-11-revision-notes-neet), you can use the following shortcut formula:
 * Phylum Chordata: notochord, dorsal nerve cord, pharyngeal slits
-* [class](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) Mammalia: hair, mammary glands
+* class Mammalia: hair, mammary glands
 * Order Carnivora: meat-eating mammals
 
 ## <a id="trap-questions-exceptions"></a>Trap Questions / Exceptions
@@ -87,9 +87,9 @@ To remember the different phyla and classes of [animals](/blog/structural-organi
  Wrong answer: presence of a backbone
  Right answer: presence of a notochord, dorsal nerve cord, n pharyngeal slits
  Why students get it wrong: many students confuse the presence of a backbone with the presence of a notochord.
-* Which [class](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) of mammals includes animals that lay eggs?
- Wrong answer: [class](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) Mammalia
- Right answer: [class](/blog/structural-organisation-n-animals-class-11-revision-notes-neet) Monothematic
+* Which class of mammals includes animals that lay eggs?
+ Wrong answer: class Mammalia
+ Right answer: class Monothematic
  Why students get it wrong: many students are not aware of the existence of honorees, which are mammals that lay eggs.
 
 ## <a id="practice-MCQs"></a>Practice MCQs
@@ -100,9 +100,9 @@ B) Phylum Chordata
 C) Phylum Mollusca
 D) Phylum Echinodermata
  Answer: B) Phylum Chordata
-2. Which [class](/blog/plant-growth-n-development-class-11-revision-notes-neet) of mammals includes warm-blooded animals with hair and mammary glands?
- A) [class](/blog/plant-growth-and-development-class-11-revision-notes-neet) Reptilia
-B) [class](/blog/plant-growth-and-development-class-11-revision-notes-neet) Aves
+2. Which class of mammals includes warm-blooded animals with hair and mammary glands?
+ A) class Reptilia
+B) Class Aves
 C) Class Mammalia
 D) Class Amphibia
  Answer: C) Class Mammalia

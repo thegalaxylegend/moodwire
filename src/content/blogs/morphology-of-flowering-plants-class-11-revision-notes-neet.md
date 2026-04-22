@@ -49,12 +49,12 @@ Morphology of flowering plants is the study of the shape and structure of plants
 
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 
-This chapter is crucial for students preparing for [class](/blog/biological-classification-class-11-revision-notes-neet) 11 exams, as it covers a significant portion of the biology syllabus. In the 2022 [class](/blog/biological-classification-class-11-revision-notes-neet) 11 exams, 5 questions were asked from this topic, with a total of 20 marks. Understanding the morphology of flowering plants is also essential for students preparing for competitive exams like NEET and JEE.
+This chapter is crucial for students preparing for class 11 exams, as it covers a significant portion of the biology syllabus. In the 2022 class 11 exams, 5 questions were asked from this topic, with a total of 20 marks. Understanding the morphology of flowering plants is also essential for students preparing for competitive exams like NEET and JEE.
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div [class](/blog/physical-world-class-11-revision-notes-jee-neet)="note-box">
-I still remember the mistake I made and my [class](/blog/environmental-chemistry-class-11-revision-notes-neet) 11 exams. I confused the terms "raceme" n "spadix" while describing the inflorescence of a plant. It cost me 2 marks, but it taught me a valuable lesson. Always make sure to revise your notes thoroughly, n practice drawing diagrams of different plant structures. It will help you retain the information better and avoid silly mistakes.
+<div class="note-box">
+I still remember the mistake I made and my class 11 exams. I confused the terms "raceme" n "spadix" while describing the inflorescence of a plant. It cost me 2 marks, but it taught me a valuable lesson. Always make sure to revise your notes thoroughly, n practice drawing diagrams of different plant structures. It will help you retain the information better and avoid silly mistakes.
 </div>
 
 ## <a id="core-concepts"></a>Core Concepts

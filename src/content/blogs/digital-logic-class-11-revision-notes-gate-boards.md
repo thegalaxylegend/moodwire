@@ -32,7 +32,7 @@ As we step into the realm of Class 11, our curriculum undergoes a significant sh
 
 In terms of exam weightage, Digital Logic carries substantial significance and the Class 11 [computer](/blog/computer-organization-class-11-notes) Science syllabus. Typically, it accounts for around 20-25% of the total marks, making it a crucial component that can make or break our overall score. The exam usually tests our understanding of basic concepts such as logic gates, Boolean algebra, n combinational circuits, as well as our ability to apply these principles to solve problems. With a thorough grasp of Digital Logic, we can not only ace this section but also develop a solid foundation for more advanced topics n [computer](/blog/computer-organization-class-11-notes) Science.
 
-Personally, I found Digital Logic to be one of the most captivating subjects and my [class](/blog/computer-organization-class-11-notes) 11 journey. What initially seemed like a daunting array of symbols and rules gradually transformed into a logical and beautiful system. I vividly remember being amazed y the simplicity and elegance of Boolean algebra, which enables us to represent complex logical operations using just a few basic symbols. As I delved deeper into the subject, I began to appreciate the ingenuity of digital circuits, which can perform a wide range of tasks, from simple arithmetic to complex decision-making.
+Personally, I found Digital Logic to be one of the most captivating subjects and my class 11 journey. What initially seemed like a daunting array of symbols and rules gradually transformed into a logical and beautiful system. I vividly remember being amazed y the simplicity and elegance of Boolean algebra, which enables us to represent complex logical operations using just a few basic symbols. As I delved deeper into the subject, I began to appreciate the ingenuity of digital circuits, which can perform a wide range of tasks, from simple arithmetic to complex decision-making.
 
 One of the key concepts that I found particularly fascinating is the idea of binary number systems. The fact that all digital information can be represented using just two digits - 0 n 1 - is a testament to the power of simplicity and design. This fundamental concept has far-reaching implications, from the way we store [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) n computers to the manner and which we transmit information over the internet. As we explore Digital Logic, we will encounter numerous such concepts that will challenge our thinking and broaden our understanding of the digital world.
 
@@ -44,9 +44,9 @@ As we prepare for the Class 11 exam, it is essential to develop a deep understan
 
 Furthermore, the study of Digital Logic has numerous practical applications, from the design of digital circuits n [computer](/blog/computer-organization-class-11-notes) architecture to the development of artificial intelligence and machine learning algorithms. As we explore the world of Digital Logic, we will encounter numerous real-world examples that illustrate the significance of this subject and our daily lives.
 
-In the context of the [class](/blog/computer-organization-class-11-notes) 11 exam, it is crucial to recognize that Digital Logic is not just a theoretical subject, but also a practical one. The exam will test our ability to apply the concepts we have learned to solve problems and design digital circuits. Therefore, it is essential to practice solving problems and designing circuits to develop a deep understanding of the subject.
+In the context of the class 11 exam, it is crucial to recognize that Digital Logic is not just a theoretical subject, but also a practical one. The exam will test our ability to apply the concepts we have learned to solve problems and design digital circuits. Therefore, it is essential to practice solving problems and designing circuits to develop a deep understanding of the subject.
 
-By mastering Digital Logic, we can unlock the secrets of the digital world and develop a profound appreciation for the intricate beauty of digital systems. As we embark on this journey, we will encounter numerous challenges and opportunities to learn and grow. With dedication and practice, we can develop a deep understanding of Digital Logic and achieve success and the [class](/blog/computer-organization-class-11-notes) 11 exam. 
+By mastering Digital Logic, we can unlock the secrets of the digital world and develop a profound appreciation for the intricate beauty of digital systems. As we embark on this journey, we will encounter numerous challenges and opportunities to learn and grow. With dedication and practice, we can develop a deep understanding of Digital Logic and achieve success and the class 11 exam. 
 
 The formula for the $n$-bit binary counter is:
 
@@ -58,7 +58,7 @@ This formula illustrates the exponential relationship between the number of bina
 
 We will also explore the concept of Karnaugh maps, which are used to simplify digital circuits. The $K$-map is a graphical representation of a digital circuit, n it can be used to identify patterns and simplify the circuit. 
 
-As we delve deeper into the world of Digital Logic, we will encounter numerous concepts and techniques that will challenge our thinking and broaden our understanding of the digital world. With persistence and practice, we can develop a deep understanding of Digital Logic and achieve success and the [class](/blog/computer-organization-class-11-notes) 11 exam. 
+As we delve deeper into the world of Digital Logic, we will encounter numerous concepts and techniques that will challenge our thinking and broaden our understanding of the digital world. With persistence and practice, we can develop a deep understanding of Digital Logic and achieve success and the class 11 exam. 
 
 The $n$-bit binary counter is a classic example of how Digital Logic can be used to build complex digital circuits. The counter can count up to $2^n - 1$, n it is a fundamental component of many digital systems. 
 
@@ -88,7 +88,7 @@ We will also explore the concept of sequential circuits, which are digital circu
 
 As we prepare for the Class 11 exam, it is essential to recognize that Digital Logic is not just a theoretical subject, but also a practical one. The exam will test our ability to apply the concepts we have learned to solve problems n [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) digital circuits. 
 
-Therefore, it is crucial to practice solving problems and designing circuits to develop a deep understanding of the subject. With persistence and practice, we can develop a deep understanding of Digital Logic and achieve success and the [class](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) 11 exam. 
+Therefore, it is crucial to practice solving problems and designing circuits to develop a deep understanding of the subject. With persistence and practice, we can develop a deep understanding of Digital Logic and achieve success and the class 11 exam. 
 
 By mastering Digital Logic, we can unlock the secrets of the digital world and develop a profound appreciation for the intricate beauty of digital systems. As we embark on this journey, we will encounter numerous challenges and opportunities to learn and grow. 
 
@@ -96,7 +96,7 @@ The study of Digital Logic is a fascinating journey that will challenge our thin
 
 We will also explore the concept of digital circuit [design](/blog/algorithms-design-class-11-revision-notes-gate-boards), which involves creating digital circuits to perform specific tasks. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
 
-By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics and Computer Science and develop a keen appreciation for the intricate beauty of digital systems. With dedication and practice, we can master the concepts of Digital Logic and achieve success and the [class](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) 11 exam. 
+By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics and Computer Science and develop a keen appreciation for the intricate beauty of digital systems. With dedication and practice, we can master the concepts of Digital Logic and achieve success and the class 11 exam. 
 
 The formula for the $NOT$ gate is:
 

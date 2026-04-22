@@ -24,9 +24,9 @@ practice_link: "/class-11/physics/planning-n-india-class-11-revision-notes-jee-n
 
 ## <a id="what-is-planning-n-india"></a>What is Planning and India?
 
-Planning and India is a process of formulating and implementing plans for the development of the country. It includes the Five-Year Plans, annual plans, n perspective planning. For [class](/blog/poverty-unemployment-class-11-revision-notes-jee-neet) 11 exam prep n 2026, the most important aspect is understanding the role of planning and India's economic development.
+Planning and India is a process of formulating and implementing plans for the development of the country. It includes the Five-Year Plans, annual plans, n perspective planning. For class 11 exam prep n 2026, the most important aspect is understanding the role of planning and India's economic development.
 
-Planning and India is a process of formulating and implementing plans for the development of the country. It includes the Five-Year Plans, annual plans, n perspective planning. For [class](/blog/poverty-unemployment-class-11-revision-notes-jee-neet) 11 exam prep n 2026, the most important aspect is understanding the role of planning and India's economic development.
+Planning and India is a process of formulating and implementing plans for the development of the country. It includes the Five-Year Plans, annual plans, n perspective planning. For class 11 exam prep n 2026, the most important aspect is understanding the role of planning and India's economic development.
 
 | Plan | Duration | Focus |
 | --- | --- | --- |
@@ -79,3 +79,54 @@ Continue your [revision](/blog/poverty-unemployment-class-11-revision-notes-jee-
 - 📖 [Physics Mechanics Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physics-mechanics-class-11-revision-notes-jee-neet)
 - 📖 [Poverty Unemployment Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/poverty-unemployment-class-11-revision-notes-jee-neet)
 - 📖 [Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet)
+
+## 🪤 Common Mistakes That Cost Marks
+
+When studying Planning in India for Class 11 Economics, there are several common mistakes that students make, which can cost them valuable marks in the exams. Here are a few of these mistakes to watch out for:
+* Not understanding the difference between the Five-Year Plans, annual plans, and perspective planning, which can lead to confusion when answering questions.
+* Failing to recognize the importance of planning in India's economic development, which can result in incomplete or inaccurate answers.
+* Not being able to identify the focus areas of each Five-Year Plan, such as agriculture, rapid industrialization, or growth with stability.
+* Confusing the roles of different planning bodies and institutions in India, such as the Planning Commission and the NITI Aayog.
+* Not keeping up-to-date with current events and changes in planning policies and strategies in India, which can make answers seem outdated or irrelevant.
+
+## 🔁 Last 5 Minutes Revision Box
+
+In the last few minutes before the exam, it's essential to quickly revise some key formulas and facts related to Planning in India. Here are a few key points to remember:
+The Five-Year Plans can be represented by the formula: $GDP_{target} = GDP_{current} 	imes (1 + r)^n$, where $r$ is the annual growth rate and $n$ is the number of years.
+The main objectives of planning in India can be summarized as: $Maximize : GDP$, $Minimize : Poverty$, and $Optimize : Resource : Allocation$.
+Some key facts to remember include: the first Five-Year Plan focused on agriculture and irrigation, the second plan focused on rapid industrialization, and the third plan aimed for growth with stability.
+
+## 📝 Practice MCQs
+
+Here are a few practice MCQs to test your knowledge of Planning in India:
+1. What was the main focus of the First Five-Year Plan in India?
+a) Rapid industrialization
+b) Agriculture and irrigation
+c) Growth with stability
+d) Poverty reduction
+
+Answer: b) Agriculture and irrigation
+
+2. Which of the following is a key objective of planning in India?
+a) Maximizing GDP
+b) Minimizing poverty
+c) Optimizing resource allocation
+d) All of the above
+
+Answer: d) All of the above
+
+3. What is the formula for calculating the target GDP in a Five-Year Plan?
+a) $GDP_{target} = GDP_{current} 	imes (1 + r)^n$
+b) $GDP_{target} = GDP_{current} 	imes (1 - r)^n$
+c) $GDP_{target} = GDP_{current} 	imes r^n$
+d) $GDP_{target} = GDP_{current} 	imes n^r$
+
+Answer: a) $GDP_{target} = GDP_{current} 	imes (1 + r)^n$
+
+4. Which institution was responsible for formulating the Five-Year Plans in India until 2014?
+a) Planning Commission
+b) NITI Aayog
+c) Ministry of Finance
+d) Reserve Bank of India
+
+Answer: a) Planning Commission

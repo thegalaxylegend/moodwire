@@ -31,11 +31,11 @@ practice_link: "/class-11/biology/electromagnetic-waves-class-12-notes"
 
 **Introduction to [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) Waves**
 
-As we dive into the realm of physics for our [class](/blog/wave-optics-class-12-notes) 12 exam prep, it's essential to acknowledge the significance of **Electromagnetic Waves** n the syllabus. This topic carries a substantial weightage of around 10-12% n the CBSE [class](/blog/wave-optics-class-12-notes) 12 Physics exam, making it a crucial area of focus for students aiming to score high. The exam typically consists of 5-6 questions related to electromagnetic waves, with a mix of theoretical and numerical problems.
+As we dive into the realm of physics for our class 12 exam prep, it's essential to acknowledge the significance of **Electromagnetic Waves** n the syllabus. This topic carries a substantial weightage of around 10-12% n the CBSE class 12 Physics exam, making it a crucial area of focus for students aiming to score high. The exam typically consists of 5-6 questions related to electromagnetic waves, with a mix of theoretical and numerical problems.
 
 To put this into perspective, let's consider the vast array of electromagnetic waves that surround us. From the **radio waves** that enable our mobile phones to communicate with cell towers, to the **microwaves** that heat our food, n the **visible light** that illuminates our daily lives, electromagnetic waves are an integral part of our daily experiences. The fact that these waves can travel through a vacuum and have both electric n [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field components makes them a fascinating topic to explore.
 
-On a personal note, I still remember the first time I learned about the **electromagnetic spectrum**. It was during my [class](/blog/magnetism-n-matter-class-12-notes) 11 physics lessons, n our teacher used a simple diagram to illustrate the different types of electromagnetic waves, ranging from **\gamma rays** to **radio waves**. What struck me was the vast range of wavelengths and frequencies that these waves can have, n how each type of wave has its unique properties and applications.
+On a personal note, I still remember the first time I learned about the **electromagnetic spectrum**. It was during my class 11 physics lessons, n our teacher used a simple diagram to illustrate the different types of electromagnetic waves, ranging from **\gamma rays** to **radio waves**. What struck me was the vast range of wavelengths and frequencies that these waves can have, n how each type of wave has its unique properties and applications.
 
 To truly grasp the concept of [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) waves, it's essential to have a solid foundation and the following prerequisites:
 
@@ -72,13 +72,13 @@ Some of the key terms and formulas that we'll be using and this topic include:
 * **Wave number**: $k = \frac{2 \pi}{\lambda}$
 *    **Frequency**: f = $\frac{c}{\lambda}$
 
-As we explore the world of electromagnetic waves, we'll be using a combination of theoretical concepts, mathematical derivations, n practical examples to deepen our understanding of this fascinating topic. By the end of this journey, you'll have a solid grasp of the principles of electromagnetic waves and be well-prepared to tackle the challenges of the [class](/blog/magnetism-n-matter-class-12-notes) 12 Physics exam. 
+As we explore the world of electromagnetic waves, we'll be using a combination of theoretical concepts, mathematical derivations, n practical examples to deepen our understanding of this fascinating topic. By the end of this journey, you'll have a solid grasp of the principles of electromagnetic waves and be well-prepared to tackle the challenges of the class 12 Physics exam. 
 
-**Key Takeaway**: Electromagnetic waves are a crucial topic n [class](/blog/magnetism-n-matter-class-12-notes) 12 Physics, with a significant weightage and the exam. To succeed and this topic, it's essential to have a strong foundation and the prerequisites, including electric and magnetic fields, oscillations and waves, n Maxwell's equations. By mastering the concepts of electromagnetic waves, including wave propagation, reflection and refraction, interference and diffraction, n polarization, you'll be well-equipped to tackle the challenges of the exam and achieve a high score.
+**Key Takeaway**: Electromagnetic waves are a crucial topic n class 12 Physics, with a significant weightage and the exam. To succeed and this topic, it's essential to have a strong foundation and the prerequisites, including electric and magnetic fields, oscillations and waves, n Maxwell's equations. By mastering the concepts of electromagnetic waves, including wave propagation, reflection and refraction, interference and diffraction, n polarization, you'll be well-equipped to tackle the challenges of the exam and achieve a high score.
 
 ## <a id="what-are-electromagnetic-waves"></a>What are Electromagnetic Waves?
 
-Electromagnetic Waves are a form of energy that propagates through a medium, such as air or a vacuum, n includes electric and magnetic field components, as well as frequency and wavelength. It includes the electric field vector, magnetic field vector, n the direction of propagation. For [class](/blog/alternating-current-class-12-notes) 12 exam prep n 2026, the most important aspect is understanding the relationship between the speed of light, frequency, n wavelength of electromagnetic waves. 
+Electromagnetic Waves are a form of energy that propagates through a medium, such as air or a vacuum, n includes electric and magnetic field components, as well as frequency and wavelength. It includes the electric field vector, magnetic field vector, n the direction of propagation. For class 12 exam prep n 2026, the most important aspect is understanding the relationship between the speed of light, frequency, n wavelength of electromagnetic waves. 
 
 The classification of [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) waves is based on their frequency or wavelength. The [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) spectrum includes types such as radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays, n \gamma rays. Each type has a specific range of frequencies and wavelengths, n they are used and various applications. For example, radio waves are used and communication systems, microwaves are used and heating and cooking, n X-rays are used and medical imaging.
 
@@ -98,7 +98,7 @@ The properties of [electromagnetic](/blog/electromagnetic-induction-class-12-rev
 - They can be classified based on their frequency or wavelength.
 - They have a wide range of applications, including communication systems, medical imaging, n heating and cooking.
 
-To prepare for the [class](/blog/magnetism-n-matter-class-12-notes) 12 exam, it's essential to practice problems and questions that involve the calculation of frequency, wavelength, n speed of electromagnetic waves. Additionally, understanding the applications and properties of electromagnetic waves can help and solving problems and answering questions and the exam.
+To prepare for the class 12 exam, it's essential to practice problems and questions that involve the calculation of frequency, wavelength, n speed of electromagnetic waves. Additionally, understanding the applications and properties of electromagnetic waves can help and solving problems and answering questions and the exam.
 
 | Type of Electromagnetic [wave](/blog/wave-optics-class-12-notes) | Frequency Range | Wavelength Range | Applications |
 | --- | --- | --- | --- |
@@ -112,7 +112,7 @@ To prepare for the [class](/blog/magnetism-n-matter-class-12-notes) 12 exam, it'
 
 ## <a id="what-is-the-electromagnetic-spectrum"></a>What is the Electromagnetic Spectrum?
 
-The Electromagnetic Spectrum is a vast band of energy frequencies that includes various types of electromagnetic radiation. It includes radio waves, microwaves, n \gamma rays, among other forms of electromagnetic radiation. For [class](/blog/magnetism-n-matter-class-12-notes) 12 exam prep n 2026, the most important aspect is understanding the arrangement and properties of these different types of radiation and the spectrum. 
+The Electromagnetic Spectrum is a vast band of energy frequencies that includes various types of electromagnetic radiation. It includes radio waves, microwaves, n \gamma rays, among other forms of electromagnetic radiation. For class 12 exam prep n 2026, the most important aspect is understanding the arrangement and properties of these different types of radiation and the spectrum. 
 
 The Electromagnetic Spectrum is generally divided into seven main regions, each with distinct properties and applications. These regions, from longer wavelengths to shorter wavelengths, are radio waves, microwaves, infrared (IR) radiation, visible light, ultraviolet (UV) radiation, X-rays, n \gamma rays. Each of these regions has unique characteristics, such as wavelength, frequency, n energy, which determine their uses and effects on [matter](/blog/magnetism-n-matter-class-12-notes). 
 
@@ -122,7 +122,7 @@ Understanding the Electromagnetic Spectrum is crucial for various fields, includ
 u$, where $c$ is the speed of light, $lambda$ is the wavelength, n $
 u$ is the frequency. 
 
-For students preparing for the [class](/blog/magnetism-n-matter-class-12-notes) 12 exam, focusing on the properties of each region of the Electromagnetic Spectrum, their applications, n the formulas that relate wavelength, frequency, n energy will be beneficial. A student-centric tip is to create a diagram or chart that outlines the different regions of the spectrum, their wavelengths, frequencies, n examples of their applications. This visual aid can help and memorizing the key aspects of the Electromagnetic Spectrum and n understanding the relationships between its various components. 
+For students preparing for the class 12 exam, focusing on the properties of each region of the Electromagnetic Spectrum, their applications, n the formulas that relate wavelength, frequency, n energy will be beneficial. A student-centric tip is to create a diagram or chart that outlines the different regions of the spectrum, their wavelengths, frequencies, n examples of their applications. This visual aid can help and memorizing the key aspects of the Electromagnetic Spectrum and n understanding the relationships between its various components. 
 
 Moreover, it's essential to practice solving problems that involve calculating the wavelength, frequency, or energy of electromagnetic radiation, using formulas such as $E = h
 u$, where $E$ is the energy of the radiation, $h$ is Planck's constant, n $
@@ -130,7 +130,7 @@ u$ is the frequency. Being able to apply these formulas to real-world scenarios 
 
 In terms of exam preparation, students should also be aware of the common types of questions that are asked about the [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) Spectrum. These can range from simple recall questions about the order of the spectrum or the characteristics of specific types of radiation, to more complex questions that require the application of formulas or the analysis of scenarios involving [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) radiation. Practicing a variety of question types and reviewing the material regularly will help students to feel confident and prepared for the exam. 
 
-Key Takeaway: Understanding the Electromagnetic Spectrum, its various regions, n the properties and applications of each type of electromagnetic radiation is vital for [class](/blog/magnetism-n-matter-class-12-notes) 12 students. By focusing on the key concepts, practicing problem-solving, n using visual aids, students can achieve a deep understanding of this fundamental topic and physics.
+Key Takeaway: Understanding the Electromagnetic Spectrum, its various regions, n the properties and applications of each type of electromagnetic radiation is vital for class 12 students. By focusing on the key concepts, practicing problem-solving, n using visual aids, students can achieve a deep understanding of this fundamental topic and physics.
 
 | Type of Radiation | Wavelength | Frequency | Energy | Applications |
 | --- | --- | --- | --- | --- |
@@ -144,7 +144,7 @@ Key Takeaway: Understanding the Electromagnetic Spectrum, its various regions, n
 
 ## <a id="how-do-electromagnetic-waves-propagate"></a>How do Electromagnetic Waves Propagate?
 
-How do Electromagnetic Waves Propagate? is a fundamental concept and physics that describes the transmission of energy through electromagnetic waves. It includes the electric field, magnetic field, n wave propagation. For [class](/blog/magnetism-and-matter-class-12-notes) 12 exam prep n 2026, the most important aspect is understanding the mathematical relationship between these components to solve numerical problems.
+How do Electromagnetic Waves Propagate? is a fundamental concept and physics that describes the transmission of energy through electromagnetic waves. It includes the electric field, magnetic field, n wave propagation. For class 12 exam prep n 2026, the most important aspect is understanding the mathematical relationship between these components to solve numerical problems.
 
  The propagation of [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) waves can be described using Maxwell's equations, which form the foundation of classical electromagnetism. The four equations are: 
 abla \\\cdot \mathbf{E} = $\frac{\rho}{\epsilon_0} = ,  , 

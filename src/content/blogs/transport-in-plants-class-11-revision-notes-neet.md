@@ -50,7 +50,7 @@ Transport and plants is the process y which plants move water, minerals, n sugar
 ### <a id="why-transport-n-plants-matters"></a>Why Transport and Plants Matters
 Transport n [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) is crucial for plant survival. In the 2026 CBSE Class 11 Biology exam, 4 questions were asked from this topic, with a total of 12 marks. This highlights the importance of understanding transport n [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) for students preparing for the CBSE Class 11 Biology exam.
 ### <a id="ayushs-note"></a>Ayush's Note
-<div [class](/blog/respiration-n-plants-class-11-revision-notes-neet)="callout-box">
+<div class="callout-box">
 I still remember the mistake I made and my Class 11 Biology exam. I confused the terms "osmosis" n "diffusion". I thought they were the same thing, but they're not. Osmosis is the movement of water molecules from a region of high concentration to a region of low concentration through a partially permeable membrane, while diffusion is the movement of particles from a region of high concentration to a region of low concentration. I learned from my mistake and made sure to understand the difference between these two processes. Now, I can confidently say that I understand transport n [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet).
 </div>
 ### <a id="core-concepts"></a>Core Concepts

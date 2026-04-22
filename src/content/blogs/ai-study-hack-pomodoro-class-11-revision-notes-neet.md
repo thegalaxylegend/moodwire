@@ -9,6 +9,20 @@ practice_link: "/class-11/biology/ai-study-hack-pomodoro-class-11-revision-notes
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-ai-study-hack-pomodoro"></a>What is Ai Study Hack Pomodoro?](#a-idwhat-is-ai-study-hack-pomodoroawhat-is-ai-study-hack-pomodoro)
+3. [<a id="Ayush-note-the-mistake-i-made"></a>Ayush's Note — The Mistake I Made](#a-idayush-note-the-mistake-i-madeaayushs-note-the-mistake-i-made)
+4. [<a id="detailed-analysis"></a>Detailed Analysis](#a-iddetailed-analysisadetailed-analysis)
+5. [<a id="trap-questions-n-exceptions-to-watch-out-for"></a>Trap Questions & Exceptions to Watch Out For](#a-idtrap-questions-n-exceptions-to-watch-out-foratrap-questions-exceptions-to-watch-out-for)
+6. [<a id="MCQs"></a>MCQs](#a-idmcqsamcqs)
+7. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+8. [📚 Related Topics](#related-topics)
+9. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Ai Study Hack Pomodoro?](#what-is-ai-study-hack-pomodoro)
@@ -24,7 +38,7 @@ practice_link: "/class-11/biology/ai-study-hack-pomodoro-class-11-revision-notes
 
 ## <a id="Ayush-note-the-mistake-i-made"></a>Ayush's Note — The Mistake I Made
 
-{"personal_mistake":"One of the most significant mistakes I made during my [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 Biology studies was not effectively utilizing the Pomodoro Technique and conjunction with AI study hacks early on. I often found myself overwhelmed with the vast amount of material to cover, leading to inefficient study sessions and burnout. It wasn't until I started integrating the Pomodoro Technique with AI tools that I saw a marked improvement and my productivity and understanding of complex biological concepts.","hack":"My personal hack now involves not only using the Pomodoro Technique but also leveraging AI to analyze my weakest areas and Biology. This approach allows me to focus my Pomodoro sessions on topics where I need the most improvement, thereby maximizing the effectiveness of my study time."}
+{"personal_mistake":"One of the most significant mistakes I made during my class 11 Biology studies was not effectively utilizing the Pomodoro Technique and conjunction with AI study hacks early on. I often found myself overwhelmed with the vast amount of material to cover, leading to inefficient study sessions and burnout. It wasn't until I started integrating the Pomodoro Technique with AI tools that I saw a marked improvement and my productivity and understanding of complex biological concepts.","hack":"My personal hack now involves not only using the Pomodoro Technique but also leveraging AI to analyze my weakest areas and Biology. This approach allows me to focus my Pomodoro sessions on topics where I need the most improvement, thereby maximizing the effectiveness of my study time."}
 
 ## <a id="detailed-analysis"></a>Detailed Analysis
 
@@ -42,7 +56,7 @@ practice_link: "/class-11/biology/ai-study-hack-pomodoro-class-11-revision-notes
 
 - The Pomodoro Technique involves 25 minutes of focused study + 5 minutes of break.
 - AI study hacks can personalize your learning experience.
-- Cell biology, genetics, evolution, n plant biology are key areas of study n [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 Biology.
+- Cell biology, genetics, evolution, n plant biology are key areas of study n class 11 Biology.
 - Understanding the structure and function of cells is fundamental to Biology.
 - Genetics helps us understand how traits are passed down from one generation to the next.
 
@@ -124,7 +138,7 @@ Continue your [revision](/blog/3d-geometry-intro-class-11-revision-notes-jee-nee
 ## 🔁 Last 5 Minutes Box
 
 - **Pomodoro Technique**: 25 minutes focused study + 5 minutes break
-   - **CBSE [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) 11 CS Syllabus**: 
+   - **CBSE class 11 CS Syllabus**: 
      * Computer Systems and Networking
      * Python Programming
      * [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) Structures

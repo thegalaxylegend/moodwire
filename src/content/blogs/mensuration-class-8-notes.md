@@ -125,7 +125,7 @@ $1
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-- **The Core Concept:** In [class](/blog/rational-numbers-class-8-notes) 8 Mensuration, knowing individual formulas for areas like rectangles (A = L \times B), squares (A = s^2), or triangles (A = $\frac{1}{2}$ \times b \times h) is just the first step. The real game-changer for top scores is mastering how to find areas of *compound* or *complex* figures, especially those involving paths, borders, or regions within other shapes. It's not just about applying one formula; it's about strategic decomposition and the often overlooked *subtraction method* of finding areas.
+- **The Core Concept:** In class 8 Mensuration, knowing individual formulas for areas like rectangles (A = L \times B), squares (A = s^2), or triangles (A = $\frac{1}{2}$ \times b \times h) is just the first step. The real game-changer for top scores is mastering how to find areas of *compound* or *complex* figures, especially those involving paths, borders, or regions within other shapes. It's not just about applying one formula; it's about strategic decomposition and the often overlooked *subtraction method* of finding areas.
 
 - **What 85% scorers do:** Most students can easily}
 

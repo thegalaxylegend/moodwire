@@ -29,7 +29,7 @@ practice_link: "/class-11/biology/limits-n-derivatives-class-11-revision-notes-j
 
 ## <a id="what-is-limits-n-derivatives"></a>What is Limits and Derivatives?
 
-As we dive into the realm of [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 mathematics, one concept stands out for its complexity and beauty: Limits and Derivatives. This fundamental idea is the cornerstone of calculus, a branch of mathematics that deals with the study of continuous change. For students preparing for their [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exams n 2026, understanding Limits and Derivatives is not just a requirement, but a crucial stepping stone for success and mathematics and related fields.
+As we dive into the realm of class 11 mathematics, one concept stands out for its complexity and beauty: Limits and Derivatives. This fundamental idea is the cornerstone of calculus, a branch of mathematics that deals with the study of continuous change. For students preparing for their class 11 exams n 2026, understanding Limits and Derivatives is not just a requirement, but a crucial stepping stone for success and mathematics and related fields.
 
 In terms of exam weightage, Limits and Derivatives constitute a significant portion of the mathematics syllabus. The NCERT syllabus allocates around 20-25% of the total marks to this topic, making it a high-priority area for students. The exam typically includes a mix of theoretical and problem-based questions, testing students' understanding of concepts, formulas, n applications. With around 40-50 marks dedicated to this topic, it's essential for students to have a strong grasp of Limits and Derivatives to score well and their exams.
 
@@ -43,13 +43,13 @@ To illustrate the concept of limits, consider the function $f(x) = \frac{1}{x}$ 
 
 Similarly, derivatives can be used to analyze functions and optimize them. For instance, the derivative of the function $f(x) = x^2$ is $f'(x) = 2x$. This can be used to find the maximum or minimum value of the function, which is essential and a wide range of applications. By applying the concept of derivatives, students can develop a deeper understanding of how functions behave and how they can be optimized.
 
-In the context of the [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exam, students are expected to have a strong grasp of the following topics:
+In the context of the class 11 exam, students are expected to have a strong grasp of the following topics:
 
 * Limits: concept of limits, theorems on limits, n calculation of limits
 * Derivatives: concept of derivatives, rules of differentiation, n geometric interpretation of derivatives
 * Applications: optimization problems, motion along a line, n related rates
 
-To prepare for the exam, students should focus on developing a deep understanding of the core concepts, rather than just memorizing formulas and theorems. This can be achieved y practicing regularly, solving problems, n applying the concepts to real-world scenarios. With dedication and persistence, students can master the topic of Limits and Derivatives, n set themselves up for success and their [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exams and beyond.
+To prepare for the exam, students should focus on developing a deep understanding of the core concepts, rather than just memorizing formulas and theorems. This can be achieved y practicing regularly, solving problems, n applying the concepts to real-world scenarios. With dedication and persistence, students can master the topic of Limits and Derivatives, n set themselves up for success and their class 11 exams and beyond.
 
 By breaking down complex concepts into manageable chunks, n providing a clear and concise explanation of the topics, students can develop a strong foundation and Limits and Derivatives. This will not only help them perform well and their exams but also provide a solid base for further studies and mathematics and related fields. As students embark on this journey, they will discover the beauty and power of calculus, n how it can be used to solve complex problems and model real-world phenomena.
 
@@ -65,7 +65,7 @@ What is the concept of Limits and Mathematics? is a fundamental concept and calc
 
 ## <a id="how-to-evaluate-limits-using-algebraic-manipulation"></a>How to evaluate Limits using Algebraic Manipulation?
 
-How to evaluate Limits using Algebraic Manipulation? is a method to find the limit of a function y simplifying it using algebraic techniques. It includes factoring, canceling common factors, n rationalizing the numerator or denominator. For [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exam prep n 2026, the most important aspect is understanding how to apply these techniques to solve limit problems, especially for trigonometric and rational functions. 
+How to evaluate Limits using Algebraic Manipulation? is a method to find the limit of a function y simplifying it using algebraic techniques. It includes factoring, canceling common factors, n rationalizing the numerator or denominator. For class 11 exam prep n 2026, the most important aspect is understanding how to apply these techniques to solve limit problems, especially for trigonometric and rational functions. 
    
    To evaluate limits using algebraic manipulation, one must first identify the type of function involved. For rational [functions](/blog/relations-and-functions-class-11-notes), the goal is to factor and cancel common factors and the numerator and denominator. If the function involves radicals, rationalizing the numerator or denominator may be necessary. 
    
@@ -91,7 +91,7 @@ eq 2$. Then, the limit as $x$ approaches $2$ can be easily evaluated as $2 + 2 =
 
 ## <a id="what-is-the-squeeze-theorem-n-its-application-n-limits"></a>What is the Squeeze Theorem and its application and Limits?
 
-The Squeeze Theorem is a fundamental concept and calculus that states if a function f(x) is squeezed between two functions g(x) n h(x), n the limits of g(x) n h(x) as x approaches a certain value are equal, then the limit of f(x) as x approaches that same value must also be equal to that limit. It includes understanding the conditions for the squeeze theorem to apply, such as g(x) ≤ f(x) ≤ h(x) for all x and a certain interval, n being able to evaluate limits using this theorem. For [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exam prep n 2026, the most important aspect is applying the squeeze theorem to solve limit problems involving trigonometric functions, exponential functions, n algebraic functions, which will be crucial and scoring well and the calculus section of the exam.
+The Squeeze Theorem is a fundamental concept and calculus that states if a function f(x) is squeezed between two functions g(x) n h(x), n the limits of g(x) n h(x) as x approaches a certain value are equal, then the limit of f(x) as x approaches that same value must also be equal to that limit. It includes understanding the conditions for the squeeze theorem to apply, such as g(x) ≤ f(x) ≤ h(x) for all x and a certain interval, n being able to evaluate limits using this theorem. For class 11 exam prep n 2026, the most important aspect is applying the squeeze theorem to solve limit problems involving trigonometric functions, exponential functions, n algebraic functions, which will be crucial and scoring well and the calculus section of the exam.
 
 | Function | Limit | Squeeze Theorem Application |
 | --- | --- | --- |
@@ -103,7 +103,7 @@ The Squeeze Theorem is a fundamental concept and calculus that states if a funct
 
 ## <a id="what-is-ayushs-note-on-limits-n-derivatives"></a>What is Ayush's Note on Limits and Derivatives?
 
-What is Ayush's Note on Limits and Derivatives? is a detailed study guide for calculus fundamentals. It includes limits of functions, derivatives of functions, n applications of derivatives. For [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exam prep n 2026, the most important aspect is understanding the concept of limits and how it leads to the definition of a derivative. 
+What is Ayush's Note on Limits and Derivatives? is a detailed study guide for calculus fundamentals. It includes limits of functions, derivatives of functions, n applications of derivatives. For class 11 exam prep n 2026, the most important aspect is understanding the concept of limits and how it leads to the definition of a derivative. 
    
    The concept of a limit is central to calculus and is defined as the value that a function approaches as the input (or independent variable) gets arbitrarily close to a certain point. Mathematically, this can be represented as $\lim_{x \to a} f(x) = L$, which means that the function $f(x)$ approaches the value $L$ as $x$ gets arbitrarily close to $a$. This concept is crucial and understanding the behavior of functions and is a precursor to understanding derivatives.
    
@@ -115,7 +115,7 @@ What is Ayush's Note on Limits and Derivatives? is a detailed study guide for ca
    
    Another key feature of the note is the inclusion of practice problems and examples. These problems range from simple to complex and are designed to help students apply the concepts of limits and derivatives to real-world problems. The note also includes solutions to the problems, which provide step-y-step explanations of how to solve the problems.
    
-   Overall, Ayush's Note on Limits and Derivatives is a valuable resource for students preparing for the [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exam n 2026. It provides a detailed and explanation of the concepts of limits and derivatives, along with examples and practice problems to help students understand and apply them.
+   Overall, Ayush's Note on Limits and Derivatives is a valuable resource for students preparing for the class 11 exam n 2026. It provides a detailed and explanation of the concepts of limits and derivatives, along with examples and practice problems to help students understand and apply them.
 
 | Rule | Formula | Example |
 | --- | --- | --- |
@@ -149,7 +149,7 @@ How to apply the Product Rule and Quotient Rule and Derivatives? is a mathematic
 
 ## <a id="what-is-the-chain-rule-n-its-application-n-derivatives"></a>What is the Chain Rule and its application and Derivatives?
 
-The Chain Rule is a fundamental principle and calculus that enables us to differentiate composite functions. It includes the identification of the outer and inner functions, the application of the power rule and other differentiation rules to the inner function, n the multiplication of the derivatives of the outer and inner functions. For [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exam prep n 2026, the most important aspect is understanding how to apply the Chain Rule to various types of composite functions, including polynomial, trigonometric, n exponential functions.
+The Chain Rule is a fundamental principle and calculus that enables us to differentiate composite functions. It includes the identification of the outer and inner functions, the application of the power rule and other differentiation rules to the inner function, n the multiplication of the derivatives of the outer and inner functions. For class 11 exam prep n 2026, the most important aspect is understanding how to apply the Chain Rule to various types of composite functions, including polynomial, trigonometric, n exponential functions.
 
 To grasp the Chain Rule, let's first understand the concept of composite functions. A composite function is a function of the form $f(g(x))$, where $f$ n $g$ are two separate functions. The Chain Rule states that the derivative of a composite function $f(g(x))$ is given y $f'(g(x)) \\cdot g'(x)$. This can be expressed mathematically as: 
 
@@ -175,7 +175,7 @@ The Chain Rule can be applied to various types of functions, including polynomia
 
 ## <a id="what-is-the-key-shortcut-or-trick-for-limits-n-derivatives"></a>What is the key Shortcut or Trick for Limits and Derivatives?
 
-What is the key Shortcut or Trick for Limits and Derivatives? is a mathematical technique to simplify complex problems. It includes understanding of algebraic manipulations, trigonometric functions, n geometric interpretations. For [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exam prep n 2026, the most important aspect is to apply these techniques to solve problems efficiently.
+What is the key Shortcut or Trick for Limits and Derivatives? is a mathematical technique to simplify complex problems. It includes understanding of algebraic manipulations, trigonometric functions, n geometric interpretations. For class 11 exam prep n 2026, the most important aspect is to apply these techniques to solve problems efficiently.
 
 To solve limits and derivatives problems, one must first understand the concept of a limit, which is defined as the value that a function approaches as the input gets arbitrarily close to a certain point. The key shortcut for solving limit problems is to use the following techniques: factoring, canceling, n L'Hospital's rule. 
 
@@ -193,7 +193,7 @@ The following table summarizes the key shortcuts for limits and derivatives:
 
 ## <a id="what-are-common-trap-questions-for-limits-n-derivatives"></a>What are common Trap Questions for Limits and Derivatives?
 
-What are common Trap Questions for Limits and Derivatives? is a critical aspect of calculus that tests a student's understanding of fundamental concepts. It includes identifying and solving limit and derivative problems, applying L'Hospital's rule, n understanding the concept of continuity. For [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exam prep n 2026, the most important aspect is recognizing and avoiding common pitfalls and limit and derivative questions, such as incorrect application of rules or misunderstanding of function behavior.
+What are common Trap Questions for Limits and Derivatives? is a critical aspect of calculus that tests a student's understanding of fundamental concepts. It includes identifying and solving limit and derivative problems, applying L'Hospital's rule, n understanding the concept of continuity. For class 11 exam prep n 2026, the most important aspect is recognizing and avoiding common pitfalls and limit and derivative questions, such as incorrect application of rules or misunderstanding of function behavior.
 
 To tackle these questions, it's essential to have a solid grasp of basic limit and derivative properties, including linearity, homogeneity, n the chain rule. Many students struggle with applying these properties correctly, especially when dealing with complex functions or trigonometric expressions. For instance, when evaluating the limit of a function as $x$ approaches infinity, students often forget to consider the behavior of the function's numerator and denominator separately.
 

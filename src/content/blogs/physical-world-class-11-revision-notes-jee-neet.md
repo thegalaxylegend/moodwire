@@ -43,22 +43,22 @@ practice_link: "/class-11/physics/physical-world-class-11-revision-notes-jee-nee
 
 ## <a id="introduction-to-physical-world"></a>Introduction to Physical World
 
-Physical World is <span class="quick-summary">the first chapter and the [class](/blog/environmental-chemistry-class-11-revision-notes-neet) 11 Physics syllabus</span>. It sets the stage for understanding the principles of physics and its applications. The chapter covers various topics such as the scientific method, measurement, error analysis, dimensions, units, scalars, n vectors.
+Physical World is <span class="quick-summary">the first chapter and the class 11 Physics syllabus</span>. It sets the stage for understanding the principles of physics and its applications. The chapter covers various topics such as the scientific method, measurement, error analysis, dimensions, units, scalars, n vectors.
 
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 
-This chapter is crucial for [class](/blog/environmental-chemistry-class-11-revision-notes-neet) 11 students as it lays the foundation for understanding more complex physics concepts. In the JEE Mains 2026 Session 1, 2 questions came from this topic, highlighting its importance. Additionally, the chapter helps students develop problem-solving skills and understand the significance of measurement and error analysis and scientific experiments.
+This chapter is crucial for class 11 students as it lays the foundation for understanding more complex physics concepts. In the JEE Mains 2026 Session 1, 2 questions came from this topic, highlighting its importance. Additionally, the chapter helps students develop problem-solving skills and understand the significance of measurement and error analysis and scientific experiments.
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div [class](/blog/structural-organisation-n-animals-class-11-revision-notes-neet)="ayush-note">
-I still remember when I was preparing for my [class](/blog/environmental-chemistry-class-11-revision-notes-neet) 11 exams, I struggled to understand the concept of significant figures. I used to think that it was just a matter of rounding off numbers, but I soon realized that it was much more than that. Significant figures are crucial and scientific experiments as they help and reducing errors and increasing the accuracy of results. I made a mistake and one of my exams y not considering significant figures, which cost me a few marks. However, I learned from my mistake and made sure to practice more problems to understand the concept better.
+<div class="ayush-note">
+I still remember when I was preparing for my class 11 exams, I struggled to understand the concept of significant figures. I used to think that it was just a matter of rounding off numbers, but I soon realized that it was much more than that. Significant figures are crucial and scientific experiments as they help and reducing errors and increasing the accuracy of results. I made a mistake and one of my exams y not considering significant figures, which cost me a few marks. However, I learned from my mistake and made sure to practice more problems to understand the concept better.
 </div>
 
 ## <a id="core-concepts"></a>Core Concepts
 
 ### <a id="scientific-method"></a>Scientific Method
-The scientific method is a systematic approach to solving problems and understanding natural phenomena. It involves making observations, formulating hypotheses, n testing them through experiments. The scientific method is <span [class](/blog/structural-organisation-in-animals-class-11-revision-notes-neet)="definition">a systematic process used to develop and test scientific knowledge</span>.
+The scientific method is a systematic approach to solving problems and understanding natural phenomena. It involves making observations, formulating hypotheses, n testing them through experiments. The scientific method is <span class="definition">a systematic process used to develop and test scientific knowledge</span>.
 
 ### <a id="measurement-n-error-analysis"></a>Measurement and Error Analysis
 Measurement is a crucial aspect of scientific experiments. It involves assigning numbers to physical quantities using units. Error analysis is essential and understanding the accuracy and reliability of measurements. There are two types of errors: systematic and random. Systematic errors are <span [class](/blog/structural-organisation-in-animals-class-11-revision-notes-neet)="definition">errors that occur due to a flaw and the measurement process</span>, while random errors are <span [class](/blog/structural-organisation-in-animals-class-11-revision-notes-neet)="definition">errors that occur due to chance</span>.

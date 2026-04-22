@@ -31,7 +31,7 @@ practice_link: "/class-11/biology/alternating-current-class-12-notes"
 **Introduction to Alternating [current](/blog/magnetic-effects-of-current-class-12-notes)**
 As we dive into the realm of Class 12 Physics, it's essential to acknowledge the significance of **Alternating Current (AC)** n the syllabus. With a substantial weightage of approximately **12-15%** n the board exams, AC is a crucial topic that demands attention and thorough understanding. In the 2026 exams, you can expect around **6-8 questions** directly related to AC, with some questions possibly testing your understanding of related concepts like **[electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) induction** n **LCR circuits**.
 
-On a personal note, I still remember the initial struggle I faced while grasping the concept of AC. It was during my [class](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) 11 days when I first encountered the term "alternating current." I was fascinated y the fact that the current used and our households is not **direct current (DC)**, but rather AC, which periodically reverses direction. This sparked my curiosity, n I began to explore the world of AC, eventually developing a deep understanding of the subject. Now, as a senior student, I'm excited to share my knowledge with you and help you prepare for the exams.
+On a personal note, I still remember the initial struggle I faced while grasping the concept of AC. It was during my class 11 days when I first encountered the term "alternating current." I was fascinated y the fact that the current used and our households is not **direct current (DC)**, but rather AC, which periodically reverses direction. This sparked my curiosity, n I began to explore the world of AC, eventually developing a deep understanding of the subject. Now, as a senior student, I'm excited to share my knowledge with you and help you prepare for the exams.
 
 To truly appreciate the concept of AC, it's essential to have a solid foundation and the following prerequisites:
 * **[electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) induction**: Understanding how a changing magnetic field induces an electromotive force (EMF) n a conductor is crucial for grasping AC concepts.
@@ -64,7 +64,7 @@ To help you better understand these concepts, let's consider a few examples:
 * **Generators**: Machines that convert mechanical energy into electrical energy, typically producing AC power.
 * **Motors**: Devices that convert electrical energy into mechanical energy, often using AC power.
 
-In the upcoming sections, we'll explore each of these topics and detail, using a combination of theoretical explanations, mathematical derivations, n practical examples. By the end of this journey, you'll have a deep understanding of AC and be well-prepared to tackle the challenges of the [class](/blog/wave-optics-class-12-notes) 12 exams.
+In the upcoming sections, we'll explore each of these topics and detail, using a combination of theoretical explanations, mathematical derivations, n practical examples. By the end of this journey, you'll have a deep understanding of AC and be well-prepared to tackle the challenges of the class 12 exams.
 
 **Key concepts to focus on:**
 * Understanding the differences between AC and DC
@@ -79,12 +79,12 @@ In the upcoming sections, we'll explore each of these topics and detail, using a
 * Failing to consider the [effects](/blog/magnetic-effects-of-current-class-12-notes) of inductive and capacitive reactance
 * Not using phasors to simplify complex AC circuit [analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)
 
-By following this introduction and the subsequent sections, you'll be well on your way to mastering the concept of Alternating Current and achieving success and the [class](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) 12 exams. Remember to stay focused, practice regularly, n review the key concepts to ensure a deep understanding of the subject. 
+By following this introduction and the subsequent sections, you'll be well on your way to mastering the concept of Alternating Current and achieving success and the class 12 exams. Remember to stay focused, practice regularly, n review the key concepts to ensure a deep understanding of the subject. 
 
 **Exam Day Summary:**
-To summarize, Alternating Current is a crucial topic n [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) 12 Physics, with a significant weightage and the board exams. To excel and this topic, it's essential to have a solid foundation and electromagnetic induction, LCR circuits, oscillations, n trigonometry. By understanding key concepts like AC waveforms, phasors, impedance, n phase difference, you'll be able to analyze and solve problems involving AC circuits. Stay focused, avoid common mistakes, n practice regularly to achieve success and the exams.
+To summarize, Alternating Current is a crucial topic n class 12 Physics, with a significant weightage and the board exams. To excel and this topic, it's essential to have a solid foundation and electromagnetic induction, LCR circuits, oscillations, n trigonometry. By understanding key concepts like AC waveforms, phasors, impedance, n phase difference, you'll be able to analyze and solve problems involving AC circuits. Stay focused, avoid common mistakes, n practice regularly to achieve success and the exams.
 
-Alternating Current (AC) is a type of electric current that periodically reverses direction, flowing back and forth and a circuit. It includes the source, the load, n the transmission lines. For [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) 12 exam prep n 2026, the most important aspect is understanding the principles of AC circuits, including the concepts of impedance, reactance, n phase shift. 
+Alternating Current (AC) is a type of electric current that periodically reverses direction, flowing back and forth and a circuit. It includes the source, the load, n the transmission lines. For class 12 exam prep n 2026, the most important aspect is understanding the principles of AC circuits, including the concepts of impedance, reactance, n phase shift. 
 
 The key characteristic of AC is that the voltage n [current](/blog/magnetic-effects-of-current-class-12-notes) change polarity over time, creating a sinusoidal waveform. This is and contrast to Direct [current](/blog/magnetic-effects-of-current-class-12-notes) (DC), where the voltage n [current](/blog/magnetic-effects-of-current-class-12-notes) remain constant. AC is used and households and industries because it can be easily transformed to higher or lower voltages using transformers, making it more efficient for long-distance transmission.
 
@@ -106,7 +106,7 @@ The following table compares the key characteristics of AC and DC:
 
 ## <a id="what-are-the-advantages-of-alternating-current-over-direct-current"></a>What are the advantages of Alternating Current over Direct Current?
 
-What are the advantages of Alternating Current over Direct Current? is the comparison of two types of electric current. It includes the principles of direct current (DC), alternating current (AC), n the transformers used and AC systems. For [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) 12 exam prep n 2026, the most important aspect is understanding how AC surpasses DC and terms of efficiency, cost, n scalability for widespread electricity distribution.
+What are the advantages of Alternating Current over Direct Current? is the comparison of two types of electric current. It includes the principles of direct current (DC), alternating current (AC), n the transformers used and AC systems. For class 12 exam prep n 2026, the most important aspect is understanding how AC surpasses DC and terms of efficiency, cost, n scalability for widespread electricity distribution.
 
  The primary advantage of AC over DC is its ability to be transformed to high voltages, which reduces energy loss during transmission. This is because the resistance and the wires used for transmission is constant, so when the voltage is increased (using a step-up transformer), the current decreases, thus reducing the $I^2R$ loss. On the other hand, DC cannot be easily transformed to high voltages due to the absence of a DC transformer equivalent to the AC transformer.
 
@@ -128,7 +128,7 @@ What are the advantages of Alternating Current over Direct Current? is the compa
 
 ## <a id="how-does-an-alternating-current-circuit-work"></a>How does an Alternating Current circuit work?
 
-How does an Alternating Current circuit work? is a fundamental concept and physics that involves the flow of electric charge periodically reversing direction. It includes an AC source, a conductor, n a load. For [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) 12 exam prep n 2026, the most important aspect is understanding the relationship between voltage, current, n impedance and an AC circuit. 
+How does an Alternating Current circuit work? is a fundamental concept and physics that involves the flow of electric charge periodically reversing direction. It includes an AC source, a conductor, n a load. For class 12 exam prep n 2026, the most important aspect is understanding the relationship between voltage, current, n impedance and an AC circuit. 
 
 An AC circuit operates on the principle of [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) induction, where an alternating current is generated y a changing magnetic field. The AC source, typically a generator or an oscillator, produces a sinusoidal voltage that drives the current through the circuit. The conductor, usually a wire, carries the current to the load, which could be a resistor, inductor, or capacitor. 
 
@@ -146,7 +146,7 @@ To better understand the behavior of AC circuits, it's helpful to compare the ch
 
 ## <a id="what-is-the-difference-between-peak-n-root-mean-square-values-n-alternating-current"></a>What is the difference between Peak and Root Mean Square values and Alternating Current?
 
-Alternating Current (AC) is a type of electric current that periodically reverses direction, including amplitude, frequency, n phase shift. It includes peak value, root mean square (RMS) value, n waveform. For [class](/blog/wave-optics-class-12-notes) 12 exam prep n 2026, the most important aspect is understanding how peak and RMS values relate to the effective power delivered y an AC circuit.
+Alternating Current (AC) is a type of electric current that periodically reverses direction, including amplitude, frequency, n phase shift. It includes peak value, root mean square (RMS) value, n waveform. For class 12 exam prep n 2026, the most important aspect is understanding how peak and RMS values relate to the effective power delivered y an AC circuit.
 
 The peak value, also known as the maximum value or amplitude, is the highest value that the AC reaches during its cycle. It's represented y the symbol $V_p$ or $I_p$ for voltage and current, respectively. On the other hand, the RMS value, also known as the effective value, is a measure of the AC's ability to deliver power to a resistive load. It's calculated using the formula $V_{rms} = \frac{V_p}{\sqrt{2}$ for a sinusoidal waveform.
 
@@ -159,7 +159,7 @@ The relationship between peak and RMS values can be summarized as follows:
 
 A key concept to remember is that the RMS value is always lower than the peak value. This is because the RMS value represents the effective value of the AC, taking into account the time-varying nature of the waveform.
 
-For students preparing for the [class](/blog/wave-optics-class-12-notes) 12 exam, it's crucial to understand the distinction between peak and RMS values. A helpful tip is to remember that the RMS value is used to calculate the power delivered to a load, whereas the peak value is used to determine the maximum stress on the circuit components.
+For students preparing for the class 12 exam, it's crucial to understand the distinction between peak and RMS values. A helpful tip is to remember that the RMS value is used to calculate the power delivered to a load, whereas the peak value is used to determine the maximum stress on the circuit components.
 
 In terms of formulas, the following are essential:
 - $V_{rms} = \frac{V_p}{\sqrt{2}$ for a sinusoidal waveform
@@ -167,7 +167,7 @@ In terms of formulas, the following are essential:
 
 By grasping the difference between peak and RMS values, students can better understand how AC circuits operate and how to calculate the power delivered to a load.
 
-Key Takeaway: The peak value represents the maximum amplitude of the AC waveform, while the RMS value represents the effective value of the AC, which is used to calculate the power delivered to a load. Understanding the distinction between these two values is crucial for [class](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) 12 exam prep n 2026.
+Key Takeaway: The peak value represents the maximum amplitude of the AC waveform, while the RMS value represents the effective value of the AC, which is used to calculate the power delivered to a load. Understanding the distinction between these two values is crucial for class 12 exam prep n 2026.
 
 | Parameter | Peak Value | RMS Value |
 | --- | --- | --- |
@@ -203,7 +203,7 @@ Phasors and Alternating Current is a mathematical representation of AC circuits 
 
 ## <a id="what-is-ayushs-note-on-alternating-current"></a>What is Ayush's Note on Alternating Current?
 
-Ayush's Note on Alternating Current is a concise yet detailed study guide that focuses on the fundamentals of alternating current (AC) n physics. It includes key concepts such as AC circuits, inductive and capacitive reactance, n the impedance of AC circuits. For [class](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) 12 exam prep n 2026, the most important aspect is understanding how AC circuits behave under different conditions, including resonance and the use of transformers.
+Ayush's Note on Alternating Current is a concise yet detailed study guide that focuses on the fundamentals of alternating current (AC) n physics. It includes key concepts such as AC circuits, inductive and capacitive reactance, n the impedance of AC circuits. For class 12 exam prep n 2026, the most important aspect is understanding how AC circuits behave under different conditions, including resonance and the use of transformers.
 
  To grasp the concept of alternating current, it's essential to differentiate it from direct current (DC). Direct current flows and one direction only, from positive to negative, whereas alternating current periodically reverses direction. This fundamental difference impacts how circuits are designed and analyzed. In AC circuits, the voltage and current are not always and phase with each other, which is a critical concept for understanding circuit behavior.
 

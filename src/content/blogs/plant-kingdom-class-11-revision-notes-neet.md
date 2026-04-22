@@ -47,7 +47,7 @@ Plant Kingdom is a critical topic for JEE and NEET exams, with 3-4 questions ask
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div [class](/blog/the-s-block-elements-class-11-revision-notes-jee-neet)="ayush-note">
+<div class="ayush-note">
 I still remember when I was preparing for JEE, I used to get confused between the different plant groups. I would often mix up the characteristics of Bryophyta and Tracheophyta. But then I realized that the key to understanding Plant Kingdom is to focus on the vascular tissue. Once I understood the difference between vascular and non-vascular [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet), I was able to classify [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) easily. My advice to you is to practice, practice, practice! Make sure you practice at least 50-60 questions from this topic to get a good grip on it.
 </div>
 
@@ -104,7 +104,7 @@ d) Bryophyta
 
 Answer: a) Pteridophyta
 
-3. Which of the following is a type of vascular [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet)?
+3. Which of the following is a type of vascular plant?
 a) Bryophyta
 b) Tracheophyta
 c) Pteridophyta
@@ -130,8 +130,8 @@ Answer: d) All of the above
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Cell Biology [class](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) 11 Notes
-* Molecular Biology [class](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) 12 Notes
+* Cell Biology class 11 Notes
+* Molecular Biology Class 12 Notes
 
 Note: The above links are to existing posts only.
 

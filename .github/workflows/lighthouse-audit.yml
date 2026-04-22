@@ -1,0 +1,68 @@
+name: Weekly Lighthouse Audit
+
+on:
+  schedule:
+    - cron: '0 6 * * 0'  # Every Sunday at 6 AM UTC
+  workflow_dispatch:
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Lighthouse Audit — Homepage
+        uses: treosh/lighthouse-ci-action@v12
+        with:
+          urls: |
+            https://examcompass.pages.dev/
+            https://examcompass.pages.dev/blog
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+
+      - name: Parse Results & Notify Discord
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          if [ -z "$DISCORD_WEBHOOK_URL" ]; then
+            echo "ℹ️ No Discord webhook — skipping notification."
+            exit 0
+          fi
+
+          # Find the latest results
+          RESULT_DIR=$(find .lighthouseci -name "*.json" -type f | head -1 || true)
+          if [ -z "$RESULT_DIR" ]; then
+            echo "⚠️ No Lighthouse results found."
+            exit 0
+          fi
+
+          # Extract scores (they're 0-1, multiply by 100)
+          PERF=$(jq '.categories.performance.score * 100 | round' "$RESULT_DIR" 2>/dev/null || echo "??")
+          A11Y=$(jq '.categories.accessibility.score * 100 | round' "$RESULT_DIR" 2>/dev/null || echo "??")
+          BP=$(jq '.categories["best-practices"].score * 100 | round' "$RESULT_DIR" 2>/dev/null || echo "??")
+          SEO=$(jq '.categories.seo.score * 100 | round' "$RESULT_DIR" 2>/dev/null || echo "??")
+
+          # Determine color based on perf score
+          COLOR=3066993  # Green
+          if [ "$PERF" != "??" ] && [ "$PERF" -lt 50 ]; then COLOR=15158332; fi  # Red
+          if [ "$PERF" != "??" ] && [ "$PERF" -lt 90 ]; then COLOR=16776960; fi  # Yellow
+
+          # Post to Discord
+          curl -s -H "Content-Type: application/json" \
+            -d "{
+              \"embeds\": [{
+                \"title\": \"🔦 Weekly Lighthouse Audit\",
+                \"color\": $COLOR,
+                \"fields\": [
+                  {\"name\": \"⚡ Performance\", \"value\": \"$PERF/100\", \"inline\": true},
+                  {\"name\": \"♿ Accessibility\", \"value\": \"$A11Y/100\", \"inline\": true},
+                  {\"name\": \"✅ Best Practices\", \"value\": \"$BP/100\", \"inline\": true},
+                  {\"name\": \"🔍 SEO\", \"value\": \"$SEO/100\", \"inline\": true}
+                ],
+                \"footer\": {\"text\": \"Jules Nexus v2 — Lighthouse CI\"},
+                \"timestamp\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"
+              }]
+            }" "$DISCORD_WEBHOOK_URL"
+
+          echo "📡 Lighthouse results posted to Discord!"

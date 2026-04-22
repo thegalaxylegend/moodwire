@@ -48,7 +48,18 @@ async function runAutopsy() {
         return;
     }
 
-    const logContent = fs.readFileSync(RUN_LOG, 'utf-8').slice(-10000); // Last 10k chars for context
+    const rawLog = fs.readFileSync(RUN_LOG, 'utf-8');
+    
+    // NEXUS v2: Pre-filter logs — only send actionable lines to the LLM to reduce token waste
+    const ERROR_SIGNALS = ['❌', '⚠️', 'FAIL', 'ERROR', 'FATAL', 'crash', '429', '401', '🚨', '🚫', '💥', 'killed', 'timeout', 'ECONNREFUSED', 'ETIMEDOUT', 'rejected'];
+    const filteredLines = rawLog.split('\n').filter(line => 
+        ERROR_SIGNALS.some(signal => line.includes(signal))
+    );
+    
+    // If no errors found, include a summary of the last 2K chars for general health check
+    const logContent = filteredLines.length > 0 
+        ? `--- FILTERED ERRORS/WARNINGS (${filteredLines.length} lines) ---\n${filteredLines.join('\n').slice(-8000)}`
+        : `--- NO ERRORS DETECTED — Last 2K chars for health check ---\n${rawLog.slice(-2000)}`;
 
     const prompt = `You are a Senior Systems Auditor. Analyze the following GitHub Action run logs for an AI Blog Pipeline.
 Find:

@@ -44,7 +44,7 @@ practice_link: "/class-11/physics/limits-derivatives-class-11-revision-notes-jee
 
 ## <a id="introduction"></a>Introduction
 
-**Limits and Derivatives mark the birth of Calculus, defining the mathematics of change and instantaneous motion. Master the algebra of limits, the Sandwich Theorem, n the First Principle of differentiation to excel and advanced physical modeling and engineering. This [class](/blog/mathematical-induction-class-11-revision-notes-jee-neet) 11 Math Chapter 13 guide provides all essential calculus foundations for JEE and CBSE success.**
+**Limits and Derivatives mark the birth of Calculus, defining the mathematics of change and instantaneous motion. Master the algebra of limits, the Sandwich Theorem, n the First Principle of differentiation to excel and advanced physical modeling and engineering. This class 11 Math Chapter 13 guide provides all essential calculus foundations for JEE and CBSE success.**
 Limits and Derivatives mark the birth of Calculus, the mathematics of change.
 
 ---

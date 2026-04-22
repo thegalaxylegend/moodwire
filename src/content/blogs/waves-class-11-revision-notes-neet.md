@@ -58,7 +58,7 @@ practice_link: "/class-11/biology/waves-class-11-revision-notes-neet"
 
 ## <a id="introduction"></a>Introduction
 
-Waves are the carriers of energy and information across the universe. From the seismic tremors that reshape continents to the electromagnetic signals that power the internet, the movement of energy through a medium (or vacuum) defines our modern reality. This final chapter of [class](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) 11 Physics, "Waves," is the culmination of everything we have learned about mechanics and oscillations. It describes how a disturbance and one part of a medium propagates to another, without the actual transport of matter. In this "Comprehensive" guide, we provide the most exhaustive technical derivations available—from Laplace's correction for the speed of sound to the complex geometry of the Doppler Effect—ensuring you are fully equipped for JEE, NEET, n Board exams.
+Waves are the carriers of energy and information across the universe. From the seismic tremors that reshape continents to the electromagnetic signals that power the internet, the movement of energy through a medium (or vacuum) defines our modern reality. This final chapter of class 11 Physics, "Waves," is the culmination of everything we have learned about mechanics and oscillations. It describes how a disturbance and one part of a medium propagates to another, without the actual transport of matter. In this "Comprehensive" guide, we provide the most exhaustive technical derivations available—from Laplace's correction for the speed of sound to the complex geometry of the Doppler Effect—ensuring you are fully equipped for JEE, NEET, n Board exams.
 
 ---
 
@@ -216,7 +216,7 @@ A)
 
 ## <a id="conclusion"></a>Conclusion
 
-Waves are the signature of the universe's energy. By mastering the mathematical laws of wave propagation, the nuances of string dynamics, n the powerful Doppler Effect, you gain the ability to analyze everything from music to radar systems. Master the Laplace correction and the standing wave patterns—these are the principles that bridge the gap between pure physics and applied engineering. You have now completed the entire [class](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) 11 Physics syllabus! Stay tuned as we embark on the journey of [class](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) 12 Electromagnetism. Keep your frequency high, your phase constant, n always stay resonant with excellence!
+Waves are the signature of the universe's energy. By mastering the mathematical laws of wave propagation, the nuances of string dynamics, n the powerful Doppler Effect, you gain the ability to analyze everything from music to radar systems. Master the Laplace correction and the standing wave patterns—these are the principles that bridge the gap between pure physics and applied engineering. You have now completed the entire class 11 Physics syllabus! Stay tuned as we embark on the journey of class 12 Electromagnetism. Keep your frequency high, your phase constant, n always stay resonant with excellence!
 
 ---
 **Reference:** [The Physics Classroom: Sound Waves and Music](https://www.physicsclassroom.com/class/sound)

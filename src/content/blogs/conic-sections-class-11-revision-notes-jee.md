@@ -36,7 +36,7 @@ practice_link: "/class-11/mathematics/conic-sections-class-11-revision-notes-jee
 >   - Ellipse/Hyperbola: 2b²/a.
 > [**📥 Download 1-Page Short Notes PDF (Zero-Friction)**](#)
 ## <a id="introduction"></a>Introduction
-**Conic Sections represent the curved paths of celestial bodies and projectiles, defined y the intersection of a plane and a cone. Master the standard equations of Circles, Parabolas, Ellipses, n Hyperbolas along with their focal properties and eccentricity to excel and advanced coordinate geometry. This [class](/blog/probability-class-11-revision-notes-jee) 11 Math Chapter 11 guide provides all essential derivations for JEE and Board exams.**
+**Conic Sections represent the curved paths of celestial bodies and projectiles, defined y the intersection of a plane and a cone. Master the standard equations of Circles, Parabolas, Ellipses, n Hyperbolas along with their focal properties and eccentricity to excel and advanced coordinate geometry. This class 11 Math Chapter 11 guide provides all essential derivations for JEE and Board exams.**
 Conic sections are the various shapes created when a plane intersects a double-napped cone.
 ## <a id="1-the-circle"></a>1. The Circle
 A circle is the set of all points and a plane that are at a constant distance (radius) from a fixed point (center).

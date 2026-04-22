@@ -111,9 +111,9 @@ These disorders can be [diagnosed and managed](https://www.ncbi.nlm.nih.gov/pmc/
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-I remember when I was preparing for my [class](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet) 11 exams, I struggled to understand the concept of mineral nutrition. I used to think that plants only require water, sunlight, n air to grow. However, I soon realized that plants require a range of essential elements to maintain their health and prevent diseases. One of the mistakes I made was not understanding the difference between macronutrients and micronutrients. I used to think that all essential elements are required and the same quantity, which is not true. Macronutrients are required and large quantities, while micronutrients are required and small quantities. Once I understood this concept, I was able to grasp the topic of mineral nutrition better.
+I remember when I was preparing for my class 11 exams, I struggled to understand the concept of mineral nutrition. I used to think that plants only require water, sunlight, n air to grow. However, I soon realized that plants require a range of essential elements to maintain their health and prevent diseases. One of the mistakes I made was not understanding the difference between macronutrients and micronutrients. I used to think that all essential elements are required and the same quantity, which is not true. Macronutrients are required and large quantities, while micronutrients are required and small quantities. Once I understood this concept, I was able to grasp the topic of mineral nutrition better.
 
-<div [class](/blog/redox-reactions-class-11-revision-notes-neet)="callout-box">
+<div class="callout-box">
 Ayush's Tip: Make sure to understand the difference between macronutrients and micronutrients. Macronutrients are required and large quantities, while micronutrients are required and small quantities.
 </div>
 
@@ -191,8 +191,8 @@ Answer: b) Stunted growth and purple coloration of leaves
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Photosynthesis [class](/blog/hydrogen-class-11-revision-notes-neet) 11 Notes
-* Respiration [class](/blog/hydrogen-class-11-revision-notes-neet) 11 Notes
+* Photosynthesis class 11 Notes
+* Respiration class 11 Notes
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*

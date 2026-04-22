@@ -154,7 +154,7 @@ Surface tension is the result of cohesive forces between molecules at the surfac
 The physics of fluids is the physics of flow—from the blood and our veins to the hurricanes and our atmosphere. By mastering the mathematical [laws](/blog/laws-of-motion-class-11-revision-notes-jee-neet) of Bernoulli and the dynamics of terminal velocity, we gain the power to harness fluid energy and design everything from water pumps to spacecraft. Master the derivation of Bernoulli’s Theorem and the nuances of surface tension—these are the fluid principles that keep our world moving. Stay and the flow, watch your Reynolds number, n never let your pressure drop!
 
 ---
-**Reference:** [Physics Classroom: Fluid Mechanics](https://www.physics[class](/blog/kinetic-theory-class-11-revision-notes-jee-neet)room.com/class/fluids)
+**Reference:** [Physics Classroom: Fluid Mechanics](https://www.physicsclassroom.com/class/fluids)
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*

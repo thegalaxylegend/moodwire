@@ -327,7 +327,12 @@ async function main() {
     }
     
     // Save outputs
-    fs.writeFileSync(LESSONS_FILE, JSON.stringify(allLessons, null, 2));
+    // NEXUS v2: Cap lessons to prevent unbounded growth (keep latest 100)
+    const cappedLessons = allLessons.slice(-100);
+    if (allLessons.length > 100) {
+        console.log(`  ✂️ Trimmed lessons from ${allLessons.length} → 100 (oldest removed)`);
+    }
+    fs.writeFileSync(LESSONS_FILE, JSON.stringify(cappedLessons, null, 2));
     console.log(`\n📄 Lessons saved: ${LESSONS_FILE}`);
     
     const strategy: GenerationStrategy = {

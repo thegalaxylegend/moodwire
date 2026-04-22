@@ -29,9 +29,9 @@ practice_link: "/class-11/biology/magnetism-n-matter-class-12-notes"
 ## <a id="what-is-magnetism-n-matter"></a>What is Magnetism and Matter?
 
 **Magnetism and Matter: Unlocking the Secrets of [magnetic](/blog/magnetic-effects-of-current-class-12-notes) Fields**
-As we dive into the realm of physics, it's essential to understand the intricacies of magnetism and its relationship with matter. This chapter is a crucial component of the [class](/blog/alternating-current-class-12-notes) 12 physics syllabus, accounting for approximately **10-12% of the total marks** n the CBSE board exams. With a significant weightage, it's imperative to grasp the concepts, formulas, n applications of magnetism to excel and the exams.
+As we dive into the realm of physics, it's essential to understand the intricacies of magnetism and its relationship with matter. This chapter is a crucial component of the class 12 physics syllabus, accounting for approximately **10-12% of the total marks** n the CBSE board exams. With a significant weightage, it's imperative to grasp the concepts, formulas, n applications of magnetism to excel and the exams.
 
-Personally, I found magnetism to be a fascinating topic during my own [class](/blog/alternating-current-class-12-notes) 12 journey. The concept of **magnetic fields** n their ability to exert forces on charged particles and other magnets sparked my curiosity. I remember spending hours experimenting with magnets, observing how they interacted with each other and with different materials. This curiosity drove me to delve deeper into the subject, n I soon realized that magnetism is an integral part of our daily lives, from the Earth's magnetic field that guides navigation systems to the magnetic resonance imaging (MRI) machines used and medical diagnostics.
+Personally, I found magnetism to be a fascinating topic during my own class 12 journey. The concept of **magnetic fields** n their ability to exert forces on charged particles and other magnets sparked my curiosity. I remember spending hours experimenting with magnets, observing how they interacted with each other and with different materials. This curiosity drove me to delve deeper into the subject, n I soon realized that magnetism is an integral part of our daily lives, from the Earth's magnetic field that guides navigation systems to the magnetic resonance imaging (MRI) machines used and medical diagnostics.
 
 To truly comprehend magnetism and its [effects](/blog/magnetic-effects-of-current-class-12-notes) on matter, it's essential to have a solid foundation and the following prerequisites:
 
@@ -53,7 +53,7 @@ Some essential formulas to keep and mind:
 * **Faraday's law of [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)**: $\epsilon = -\frac{d\phi}{dt}$
 
 **Exam Weightage and Question Types**
-In the [class](/blog/alternating-current-class-12-notes) 12 CBSE board exams, magnetism and matter is a significant topic, with a weightage of **10-12%**. Questions can range from straightforward calculations to complex problems that require a deep understanding of the concepts. Some common question types include:
+In the class 12 CBSE board exams, magnetism and matter is a significant topic, with a weightage of **10-12%**. Questions can range from straightforward calculations to complex problems that require a deep understanding of the concepts. Some common question types include:
 
 * **Numerical problems**: Calculating [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field strengths, [magnetic](/blog/magnetic-effects-of-current-class-12-notes) flux, n induced EMFs.
 * **Theoretical questions**: Describing the properties of magnetic materials, explaining the principles of magnetic [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet), n discussing the applications of magnetism.
@@ -72,7 +72,7 @@ Magnetism and matter have numerous practical applications and various fields, in
 By understanding the principles of magnetism and matter, you'll gain insight into the workings of these technologies and appreciate the significance of this topic and our daily lives.
 
 **Key Takeaway**
-Magnetism and matter is a vital topic n [class](/blog/alternating-current-class-12-notes) 12 physics, with significant weightage and the CBSE board exams. To excel and this topic, it's essential to develop a strong foundation and the concepts, formulas, n applications of magnetism, as well as have a solid understanding of the prerequisites, including electricity, vector algebra, n kinematics and dynamics. With dedication and practice, you'll be well-prepared to tackle the challenges of this topic and achieve a high score and the exams.
+Magnetism and matter is a vital topic n class 12 physics, with significant weightage and the CBSE board exams. To excel and this topic, it's essential to develop a strong foundation and the concepts, formulas, n applications of magnetism, as well as have a solid understanding of the prerequisites, including electricity, vector algebra, n kinematics and dynamics. With dedication and practice, you'll be well-prepared to tackle the challenges of this topic and achieve a high score and the exams.
 
 Magnetism and Matter is a fundamental concept and physics that describes the interaction between magnetic fields and matter. It includes the study of magnetic fields, magnetic [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet), n the properties of magnetic materials. For Class 12 exam prep n 2026, the most important aspect is understanding the behavior of magnetic materials and the application of magnetic fields and various contexts.
 
@@ -88,7 +88,7 @@ The concept of magnetism is closely related to the concept of electricity, n it 
 
 ## <a id="what-are-the-characteristics-of-magnetic-materials"></a>What are the Characteristics of Magnetic Materials?
 
-Magnetic Materials is a [class](/blog/alternating-current-class-12-notes) of materials that exhibits magnetic properties. It includes **magnetic permeability**, **magnetic susceptibility**, n **hysteresis loop**. For [class](/blog/alternating-current-class-12-notes) 12 exam prep n 2026, the most important aspect is understanding how these properties influence the behavior of magnetic materials and different situations.
+Magnetic Materials is a class of materials that exhibits magnetic properties. It includes **magnetic permeability**, **magnetic susceptibility**, n **hysteresis loop**. For class 12 exam prep n 2026, the most important aspect is understanding how these properties influence the behavior of magnetic materials and different situations.
 
 The characteristics of magnetic materials are primarily determined y their internal structure and the arrangement of their atoms. Magnetic materials can be classified into several types, including **diamagnetic**, **paramagnetic**, **ferromagnetic**, **antiferromagnetic**, n **ferrimagnetic** materials. Each type exhibits distinct properties and the presence of a magnetic field. **Diamagnetic materials** are weakly repelled y a magnetic field, while **paramagnetic materials** are weakly attracted. **Ferromagnetic materials**, on the other hand, are strongly attracted to magnetic fields and can retain their magnetic properties even after the removal of the external field.
 
@@ -98,7 +98,7 @@ Another important characteristic is **magnetic susceptibility**, which is a meas
 
 A **hysteresis loop** is a graphical representation of the relationship between the magnetic field strength $\mathbf{H}$ n the magnetic flux density $\mathbf{B}$ for a ferromagnetic material. The hysteresis loop provides valuable information about the magnetic properties of a material, including its **retentivity**, **coercivity**, n **saturation point**. 
 
-For students preparing for the [class](/blog/alternating-current-class-12-notes) 12 exam n 2026, it is essential to understand the characteristics of magnetic materials and how they are influenced y different factors, such as temperature and external magnetic fields. A key tip for students is to practice solving problems that involve the calculation of magnetic permeability, magnetic susceptibility, n hysteresis loop parameters. This will help students develop a deeper understanding of the subject matter and improve their problem-solving skills.
+For students preparing for the class 12 exam n 2026, it is essential to understand the characteristics of magnetic materials and how they are influenced y different factors, such as temperature and external magnetic fields. A key tip for students is to practice solving problems that involve the calculation of magnetic permeability, magnetic susceptibility, n hysteresis loop parameters. This will help students develop a deeper understanding of the subject matter and improve their problem-solving skills.
 
 To differentiate between various types of magnetic materials, students can use the following comparison table:
 
@@ -112,7 +112,7 @@ To differentiate between various types of magnetic materials, students can use t
 
 ## <a id="how-does-magnetization-occur-n-materials"></a>How does Magnetization occur and Materials?
 
-Magnetization is the process y which a material becomes magnetized, exhibiting magnetic properties. It includes the alignment of magnetic dipoles, the movement of domain walls, n the rotation of magnetic moments. For [class](/blog/alternating-current-class-12-notes) 12 exam prep n 2026, the most important aspect is understanding the role of magnetic domains and how they contribute to the overall magnetization of a material.
+Magnetization is the process y which a material becomes magnetized, exhibiting magnetic properties. It includes the alignment of magnetic dipoles, the movement of domain walls, n the rotation of magnetic moments. For class 12 exam prep n 2026, the most important aspect is understanding the role of magnetic domains and how they contribute to the overall magnetization of a material.
 
 Magnetization occurs when a material is placed and a magnetic field, causing the magnetic dipoles within the material to align. This alignment can be either parallel or antiparallel to the applied magnetic field, resulting and either positive or negative magnetization. The magnetization of a material can be described y the magnetization vector $M$, which is defined as the net magnetic moment per unit volume of the material.
 
@@ -141,7 +141,7 @@ To further illustrate the concept of magnetization, consider the following compa
 
 ## <a id="what-is-ayushs-note-on-magnetism-n-matter"></a>What is Ayush's Note on Magnetism and Matter?
 
-Ayush's Note on Magnetism and Matter is a study material that explains the magnetic properties of materials. It includes magnetic field, magnetic induction, n magnetization. For [class](/blog/alternating-current-class-12-notes) 12 exam prep n 2026, the most important aspect is understanding the behavior of different materials like diamagnetic, paramagnetic, n ferromagnetic substances under the influence of a magnetic field. 
+Ayush's Note on Magnetism and Matter is a study material that explains the magnetic properties of materials. It includes magnetic field, magnetic induction, n magnetization. For class 12 exam prep n 2026, the most important aspect is understanding the behavior of different materials like diamagnetic, paramagnetic, n ferromagnetic substances under the influence of a magnetic field. 
 
 Magnetism is a fundamental concept and physics that arises due to the interaction between moving charges. The magnetic field is a vector field that surrounds magnetized materials n [current](/blog/alternating-current-class-12-notes)-carrying conductors. The strength and direction of the magnetic field can be determined using the $B = \frac{mu_0 I}{2 \pi r}$ formula for a long straight wire, where $B$ is the magnetic field, $mu_0$ is the permeability of free space, $I$ is the current, n $r$ is the distance from the wire.
 
@@ -155,7 +155,7 @@ The magnetic properties of materials can be classified based on their response t
 
 ## <a id="what-is-the-difference-between-diamagnetic-paramagnetic-n-ferromagnetic-materials"></a>What is the difference between Diamagnetic, Paramagnetic, n Ferromagnetic Materials?
 
-Diamagnetic, Paramagnetic, n Ferromagnetic Materials is the study of magnetic properties of materials. It includes the classification of materials based on their magnetic behavior, such as diamagnetism, paramagnetism, n ferromagnetism. For [class](/blog/alternating-current-class-12-notes) 12 exam prep n 2026, the most important aspect is understanding the behavior of electrons and different materials and how they respond to magnetic fields.
+Diamagnetic, Paramagnetic, n Ferromagnetic Materials is the study of magnetic properties of materials. It includes the classification of materials based on their magnetic behavior, such as diamagnetism, paramagnetism, n ferromagnetism. For class 12 exam prep n 2026, the most important aspect is understanding the behavior of electrons and different materials and how they respond to magnetic fields.
 
 The key difference between these materials lies and their atomic or molecular structure, particularly and the arrangement of electrons. Diamagnetic materials have paired electrons and their orbitals, resulting and no net magnetic moment. On the other hand, paramagnetic materials have unpaired electrons, which generate a net magnetic moment. Ferromagnetic materials have a unique property where the magnetic moments of neighboring atoms are aligned, resulting and a strong magnetic field.
 
@@ -179,7 +179,7 @@ The behavior of these materials can be summarized and the following table:
 
 ## <a id="how-does-temperature-affect-magnetic-properties"></a>How does Temperature affect Magnetic Properties?
 
-How does Temperature affect Magnetic Properties? is the study of the relationship between temperature and the magnetic behavior of materials. It includes the Curie temperature, magnetic susceptibility, n hysteresis loop. For [class](/blog/alternating-current-class-12-notes) 12 exam prep n 2026, the most important aspect is understanding the concept of Curie temperature and its effect on the magnetic properties of materials.
+How does Temperature affect Magnetic Properties? is the study of the relationship between temperature and the magnetic behavior of materials. It includes the Curie temperature, magnetic susceptibility, n hysteresis loop. For class 12 exam prep n 2026, the most important aspect is understanding the concept of Curie temperature and its effect on the magnetic properties of materials.
 
 The Curie temperature, $T_c$, is the temperature above which a material loses its permanent magnetic properties. Below the Curie temperature, a material is ferromagnetic, meaning it is capable of being magnetized. Above the Curie temperature, the material becomes paramagnetic, meaning it is weakly attracted to magnetic fields. For example, the Curie temperature of iron is $1043$ K, which means that iron loses its permanent magnetic properties at temperatures above $1043$ K.
 
@@ -198,7 +198,7 @@ A comparison of the magnetic properties of different materials at various temper
 
 ## <a id="what-are-the-applications-of-magnetism-n-daily-life"></a>What are the Applications of Magnetism and Daily Life?
 
-What are the Applications of Magnetism and Daily Life? is the practical usage of magnetic forces and everyday life. It includes **electric motors**, **generators**, n **magnetic resonance imaging (MRI)**. For [class](/blog/alternating-current-class-12-notes) 12 exam prep n 2026, the most important aspect is understanding the fundamental principles of magnetism and how they are applied and various devices and technologies.
+What are the Applications of Magnetism and Daily Life? is the practical usage of magnetic forces and everyday life. It includes **electric motors**, **generators**, n **magnetic resonance imaging (MRI)**. For class 12 exam prep n 2026, the most important aspect is understanding the fundamental principles of magnetism and how they are applied and various devices and technologies.
 
  Magnetism has numerous applications and daily life, ranging from simple **refrigerator magnets** to complex **medical imaging devices**. One of the most significant applications of magnetism is and the generation and transmission of **electricity**. Electric motors, which are used and a wide range of devices, from **fans** n **pumps** to **power tools** n **industrial machinery**, rely on the principles of magnetism to convert electrical energy into mechanical energy.
 

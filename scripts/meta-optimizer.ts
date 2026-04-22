@@ -14,6 +14,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { nodeRouter } from './utils/nodeRouter.js';
+import { godSafeParse } from './utils/god-json.js';
 import dotenv from 'dotenv';
 
 dotenv.config();
@@ -69,7 +70,13 @@ OUTPUT FORMAT (JSON ONLY):
             jsonMode: true 
         });
         
-        const optimized = JSON.parse(responseText);
+        const optimized = godSafeParse(responseText);
+
+        // NEXUS v2: Validate parsed output has required fields
+        if (!optimized?.optimizedTitle || !optimized?.optimizedDescription) {
+            console.warn(`⚠️ Meta optimization for [${slug}] returned invalid structure. Skipping.`);
+            return null;
+        }
 
         // Update frontmatter
         const updatedFrontmatter = frontmatter
@@ -143,8 +150,14 @@ async function main() {
     const PUBLIC_LOG_FILE = path.join(__dirname, '../public/jules-reports/seo-optimization-log.json');
     if (!fs.existsSync(path.dirname(PUBLIC_LOG_FILE))) fs.mkdirSync(path.dirname(PUBLIC_LOG_FILE), { recursive: true });
 
-    fs.writeFileSync(LOG_FILE, JSON.stringify(logs, null, 2));
-    fs.writeFileSync(PUBLIC_LOG_FILE, JSON.stringify(logs, null, 2));
+    // NEXUS v2: Cap log entries to prevent unbounded growth
+    const cappedLogs = logs.slice(-200);
+    if (logs.length > 200) {
+        console.log(`  ✂️ Trimmed SEO log from ${logs.length} → 200 entries`);
+    }
+
+    fs.writeFileSync(LOG_FILE, JSON.stringify(cappedLogs, null, 2));
+    fs.writeFileSync(PUBLIC_LOG_FILE, JSON.stringify(cappedLogs, null, 2));
 
     console.log(`\n✨ Optimization complete! Page updates logged.`);
     console.log(`📄 Log saved: jules-reports/seo-optimization-log.json`);

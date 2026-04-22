@@ -63,7 +63,7 @@ Environmental chemistry is [the study of the chemical and biochemical phenomena 
 
 ## <a id="Ayush-note"></a>Ayush's Note
 
-<\\DIV [class](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet)="Ayush-note">
+<\\DIV class="Ayush-note">
 I once made a mistake and my JEE preparation y not giving enough importance to environmental chemistry. I used to think that it's a simple topic and doesn't require much practice. But, I realized my mistake when I saw the weightage of environmental chemistry and the JEE exam. I had to work hard to catch up and make sure I didn't make the same mistake again. My advice to you is to not underestimate the importance of environmental chemistry and to practice it regularly.
 </div>
 
