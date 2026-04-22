@@ -53,7 +53,7 @@ manualReview: false
 - **The Core Concept:** The core concept that separates 85% scorers from 95% scorers and trigonometric functions is the ability to apply the $R$-formula or the transformation formula to simplify complex expressions and solve problems efficiently. This involves understanding how to express $a \sin x + b \cos x$ n the form $R \sin (x + \alpha)$ or $R \cos (x + \alpha)$, where $R = \sqrt{a^2 + b^2}$ n $\alpha = \tan^{-1\frac{b}{a}$.
 
 - **What 85% scorers do:** 
- * Most students who score around 85% are able to recall the basic trigonometric identities and formulas.
+ * Most students who score around 85% are able to recall the basic [trigonometric](/blog/inverse-trigonometric-functions-class-12-notes) identities and formulas.
  * They can apply these formulas to straightforward problems but often struggle with more complex expressions or problems that require a deeper understanding of the subject.
  * They might recognize the need to use the $R$-formula but may not always apply it correctly or efficiently.
 
@@ -96,7 +96,7 @@ manualReview: false
 - sin(A)sin(B)$
  
 
--  tan(A+B) = $\frac{tan(A) + tan(B)}${1 
+-   tan(A+B) = $\frac{tan(A) + tan(B)}${1 
 
 - tan(A)tan(B)}$
  
@@ -123,49 +123,49 @@ manualReview: false
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. Which of the following trigonometric functions is periodic?**
-**A)**   Sine Function
-**B)**   Cosine Function
-**C)**   Tangent Function
-**D)**   All of the above
+**A)**    Sine Function
+**B)**    Cosine Function
+**C)**    Tangent Function
+**D)**    All of the above
 
 **Answer:** D) All three trigonometric functions are periodic, but the tangent function has a period of π, whereas the sine and cosine functions have a period of 2π.
 
 ---
 
 **2. Which of the following is NOT a fundamental trigonometric identity?**
-**A)**   sin^2(x) + cos^2(x) = 1
-**B)**   tan(x) = sin(x)/cos(x)
-**C)**   cot(x) = cos(x)/sin(x)
+**A)**    sin^2(x) + cos^2(x) = 1
+**B)**    tan(x) = sin(x)/cos(x)
+**C)**    cot(x) = cos(x)/sin(x)
 
 **Answer:** D) The last option is not a fundamental trigonometric identity; the correct identity is cot(x) = cos(x)/sin(x).
 
 ---
 
 **3. Which of the following represents the radian measure of an angle?**
-**A)**   Degrees
-**B)**   Radians
-**C)**   Gradians
-**D)**   Steradians
+**A)**    Degrees
+**B)**    Radians
+**C)**    Gradians
+**D)**    Steradians
 
 **Answer:** B) The radian measure represents an angle and terms of the ratio of the arc length to the radius of a circle.
 
 ---
 
 **4. What is the value of sin(-x)?**
-**A)**   sin(x)
-**B)**   -sin(x)
-**C)**   sin(x)-x
-**D)**   sin(x)+x
+**A)**    sin(x)
+**B)**    -sin(x)
+**C)**    sin(x)-x
+**D)**    sin(x)+x
 
 **Answer:** B) Using the property of odd functions, we know that sin(-x) = -sin(x).
 
 ---
 
 **5. Which of the following represents the sine of a \sum of two angles?**
-**A)**   sin(x+y) = sin(x) + sin(y)
-**B)**   sin(x+y) = sin(x)cos(y) + cos(x)sin(y)
-**C)**   cos(x-y) = cos(x) - cos(y)
-**D)**   cos(x-y) = cos(x)cos(y) - sin(x)sin(y)
+**A)**    sin(x+y) = sin(x) + sin(y)
+**B)**    sin(x+y) = sin(x)cos(y) + cos(x)sin(y)
+**C)**    cos(x-y) = cos(x) - cos(y)
+**D)**    cos(x-y) = cos(x)cos(y) - sin(x)sin(y)
 
 **Answer:** C) Using the angle \sum identity, we can derive the correct formula sin(x+y) = sin(x)cos(y) + cos(x)sin(y).
 
@@ -188,3 +188,4 @@ Continue your [revision](/blog/poverty-unemployment-class-11-revision-notes-jee-
 - 📖 [poverty unemployment](/blog/poverty-unemployment-class-11-revision-notes-jee-neet)
 - 📖 [anatomy of flowering plants](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
 
+}

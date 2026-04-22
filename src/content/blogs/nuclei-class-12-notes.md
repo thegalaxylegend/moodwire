@@ -11,7 +11,7 @@ manualReview: false
 ## ⚡ Formula Bank
 - Nuclear radius: $r = r_0 \times A^{\frac{1}{3}}$, where $r_0 = 1.2 \times 10^{-15} m$
 - Nuclear density: $\rho = \frac{m}{V} = \frac{A \times m}{\frac{4}{3} \pi r^3} = \frac{3A \times m}{4 \pi r_0^3 \times A} = \frac{3m}{4 \pi r_0^3}$
-- Binding energy per nucleon: $\frac{B}{A} = \frac{\Delta mc^2}{A} = \frac{(Zm_p + (A-Z)m_n - m)c^2}{A}$
+- Binding energy per nucleon: $\frac{B}{A} = \frac{\delta mc^2}{A} = \frac{(Zm_p + (A-Z)m_n - m)c^2}{A}$
 - Nuclear stability: depends on $\frac{p}{n}$ ratio, $p$ = number of protons, $n$ = number of neutrons
 - Radioactive decay: $N = N_0 \times e^{-\lambda t}$, where $\lambda$ = decay constant, $t$ = time
 - Half-life: $t_{\frac{1}{2}} = \frac{\ln 2}{\lambda} = \frac{0.693}{\lambda}$
@@ -50,40 +50,69 @@ manualReview: false
 - When solving problems related to radioactive decay, make sure to use the correct units for time, such as seconds or hours, and decay constant, such as $s^{-1}$ or $h^{-1}$.
 
 ## 🔁 Last 5 Minutes Box
-- Revision of important formulas: $r = r_0 \times A^{\frac{1}{3}}$, $\rho = \frac{3m}{4 \pi r_0^3}$, $\frac{B}{A} = \frac{\Delta mc^2}{A}$
+- Revision of important formulas: $r = r_0 \times A^{\frac{1}{3}}$, $\rho = \frac{3m}{4 \pi r_0^3}$, $\frac{B}{A} = \frac{\delta mc^2}{A}$
 - Quick practice of solved problems: calculate the energy released in a nuclear reaction, find the disintegration constant, calculate the density of a nucleus
 - Focus on understanding the concepts of nuclear stability and binding energy
 
 ## 📝 Practice MCQs
 **1. What is the approximate value of the nuclear radius of $^{238}_{92}U$?**
-- A) $1.2 \times 10^{-15} m$
-- B) $6.8 \times 10^{-15} m$
-- C) $7.4 \times 10^{-15} m$
-- D) $8.1 \times 10^{-15} m$
+-
+A) $1.2 \times 10^{-15} m$
+-
+B) $6.8 \times 10^{-15} m$
+-
+C) $7.4 \times 10^{-15} m$
+-
+D) $8.1 \times 10^{-15} m$
+
 **Answer: C) $7.4 \times 10^{-15} m$**
+
 **2. The binding energy per nucleon for $^4_2He$ is 7.0 MeV. What is the total binding energy for $^4_2He$?**
-- A) 14 MeV
-- B) 20 MeV
-- C) 28 MeV
-- D) 32 MeV
+-
+A) 14 MeV
+-
+B) 20 MeV
+-
+C) 28 MeV
+-
+D) 32 MeV
+
 **Answer: C) 28 MeV**
+
 **3. The half-life of a radioactive substance is 5 hours. What is the disintegration constant?**
-- A) 0.038 h$^{-1}$
-- B) 0.069 h$^{-1}$
-- C) 0.138 h$^{-1}$
-- D) 0.2 h$^{-1}$
+-
+A) 0.038 h$^{-1}$
+-
+B) 0.069 h$^{-1}$
+-
+C) 0.138 h$^{-1}$
+-
+D) 0.2 h$^{-1}$
+
 **Answer: B) 0.069 h$^{-1}$**
+
 **4. What is the energy released when a proton and a neutron combine to form a deuteron?**
-- A) 0.5 MeV
-- B) 1.1 MeV
-- C) 2.2 MeV
-- D) 4.5 MeV
+-
+A) 0.5 MeV
+-
+B) 1.1 MeV
+-
+C) 2.2 MeV
+-
+D) 4.5 MeV
+
 **Answer: B) 1.1 MeV**
+
 **5. The density of a nucleus is approximately $2.3 \times 10^{17} kg/m^3$. What is the approximate value of the nuclear radius?**
-- A) $1.2 \times 10^{-15} m$
-- B) $3.6 \times 10^{-15} m$
-- C) $5.1 \times 10^{-15} m$
-- D) $6.8 \times 10^{-15} m$
+-
+A) $1.2 \times 10^{-15} m$
+-
+B) $3.6 \times 10^{-15} m$
+-
+C) $5.1 \times 10^{-15} m$
+-
+D) $6.8 \times 10^{-15} m$
+
 **Answer: B) $3.6 \times 10^{-15} m$**
 
 ---
@@ -93,3 +122,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Atoms Class 12 Physics Revision — Grandmaster Guide](/blog/atoms-class-12-notes)
+- 📖 [Communication Systems Class 12 Physics Revision — Grandmaster Guide](/blog/communication-systems-class-12-notes)
+- 📖 [Dual Nature Of Radiation Class 12 Physics Revision — Grandmaster Guide](/blog/dual-nature-of-radiation-class-12-notes)
+- 📖 [Semiconductor Electronics Class 12 Physics Revision — Grandmaster Guide](/blog/semiconductor-electronics-class-12-notes)

@@ -79,38 +79,64 @@ manualReview: false
  
 ## 📝 Practice MCQs
 **1. What is the most important factor in choosing an optional subject for UPSC?**
-- A) Interest in the subject
-- B) Scoring potential of the subject
-- C) Syllabus coverage of the subject
-- D) Weightage of the subject
+-
+A) Interest in the subject
+-
+B) Scoring potential of the subject
+-
+C) Syllabus coverage of the subject
+-
+D) Weightage of the subject
+
 **Answer:** B) Scoring potential of the subject. The scoring potential of a subject is the most important factor in choosing an optional subject for UPSC, as it determines how many marks you can score in the subject.
 
 **2. How can you calculate the scoring potential of a subject?**
-- A) By calculating the number of questions asked from the subject
-- B) By calculating the average marks per question
-- C) By calculating the total marks for the subject
-- D) By using the formula: $\frac{\text{Number of Questions} \times \text{Average Marks per Question}}{\text{Total Marks}} \times 100$
+-
+A) By calculating the number of questions asked from the subject
+-
+B) By calculating the average marks per question
+-
+C) By calculating the total marks for the subject
+-
+D) By using the formula: $\frac{\text{Number of Questions} \times \text{Average Marks per Question}}{\text{Total Marks}} \times 100$
+
 **Answer:** D) By using the formula: $\frac{\text{Number of Questions} \times \text{Average Marks per Question}}{\text{Total Marks}} \times 100$. This formula takes into account the number of questions asked from the subject, the average marks per question, and the total marks for the subject.
 
 **3. What is the weightage of Geography in UPSC?**
-- A) 20%
-- B) 25%
-- C) 30%
-- D) 35%
+-
+A) 20%
+-
+B) 25%
+-
+C) 30%
+-
+D) 35%
+
 **Answer:** C) 30%. The weightage of Geography in UPSC is 30%, which means that 30% of the total marks are allocated to Geography.
 
 **4. What is the formula to choose an optional subject?**
-- A) $\frac{\text{Interest} \times \text{Scoring Potential}}{\text{Syllabus Coverage}} \leq \frac{250}{400}$
-- B) $\frac{\text{Interest} \times \text{Scoring Potential}}{\text{Syllabus Coverage}} \geq \frac{250}{400}$
-- C) $\frac{\text{Interest} \times \text{Scoring Potential}}{\text{Syllabus Coverage}} = \frac{250}{400}$
-- D) $\frac{\text{Interest} \times \text{Scoring Potential}}{\text{Syllabus Coverage}} \neq \frac{250}{400}$
+-
+A) $\frac{\text{Interest} \times \text{Scoring Potential}}{\text{Syllabus Coverage}} \leq \frac{250}{400}$
+-
+B) $\frac{\text{Interest} \times \text{Scoring Potential}}{\text{Syllabus Coverage}} \geq \frac{250}{400}$
+-
+C) $\frac{\text{Interest} \times \text{Scoring Potential}}{\text{Syllabus Coverage}} = \frac{250}{400}$
+-
+D) $\frac{\text{Interest} \times \text{Scoring Potential}}{\text{Syllabus Coverage}}
+eq $\frac{250}{400}
+
 **Answer:** B) $\frac{\text{Interest} \times \text{Scoring Potential}}{\text{Syllabus Coverage}} \geq \frac{250}{400}$. This formula takes into account the interest in the subject, the scoring potential of the subject, and the syllabus coverage of the subject.
 
 **5. What is the most important topic in Geography for UPSC?**
-- A) Physical Geography
-- B) Human Geography
-- C) Economic Geography
-- D) Political Geography
+-
+A) Physical Geography
+-
+B) Human Geography
+-
+C) Economic Geography
+-
+D) Political Geography
+
 **Answer:** A) Physical Geography. Physical Geography is the most important topic in Geography for UPSC, as it covers a wide range of topics such as geomorphology, climatology, and oceanography.
 
 ---
@@ -120,3 +146,16 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+$
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Areas Related To Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/areas-related-to-circles-class-10-notes)

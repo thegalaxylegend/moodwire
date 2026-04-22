@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/motion-n-a-plane-class-11-revision-notes-jee-neet.webp"
+heroImage: "/blog-images/motion-in-a-plane-class-11-revision-notes-jee-neet.webp"
 title: "Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
@@ -8,9 +8,6 @@ practice_link: "/class-11/physics/motion-n-a-plane-class-11-revision-notes-jee-n
 ---
 
 *Last Updated: 2026-03-28*
-
-
-
 
 ## 📋 Table of Contents
 
@@ -34,18 +31,9 @@ practice_link: "/class-11/physics/motion-n-a-plane-class-11-revision-notes-jee-n
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-
-
-
-
 ## <a id="what-is-motion-n-a-plane-revision-notes"></a>What is Motion In A Plane Revision Notes?
-
-
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -58,15 +46,11 @@ practice_link: "/class-11/physics/motion-n-a-plane-class-11-revision-notes-jee-n
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 While 1D motion is the "alphabet" of physics, 2D motion—**Motion and a Plane**—is where reality truly unfolds. From the curved path of a football kicked into the air to the constant orbiting of a satellite, the laws of 2D kinematics govern how objects navigate our three-dimensional world. This chapter introduces the power of **Vectors** to split complex motion into independent horizontal and vertical components. In this "Comprehensive" guide, we provide exhaustive derivations for Projectile Motion, proving why every trajectory is a parabola, n deriving the fundamental laws of Circular Motion—all essential for top-tier performance and JEE, [neet](/blog/gravitation-class-11-revision-notes-jee-neet), n Board exams.
 
 ---
-
-
-
 
 ## <a id="1-the-power-of-vectors"></a>1. The Power of Vectors
 
@@ -79,9 +63,6 @@ In 2D [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet), we dea
 2.  **Cross Product (A × B):** AB sinθ n̂. (Result is a vector, e.g., Torque).
 
 ---
-
-
-
 
 ## <a id="2-projectile-motion-the-master-derivations"></a>2. Projectile Motion: The Master Derivations
 
@@ -117,9 +98,6 @@ Distance covered horizontally and time T.
 
 ---
 
-
-
-
 ## <a id="3-uniform-circular-motion-ucm"></a>3. Uniform Circular Motion (UCM)
 
 When an object moves and a circle at a constant speed, its direction changes continuously, meaning it is **accelerating**.
@@ -139,9 +117,6 @@ Consider a particle [moving](/blog/moving-charges-magnetism-class-11-revision-no
 
 ---
 
-
-
-
 ## <a id="4-relative-velocity-n-two-dimensions"></a>4. Relative Velocity and Two Dimensions
 
 When two objects A and B move and a plane:
@@ -158,9 +133,6 @@ If rain falls vertically (**v_r**) n a man moves horizontally (**v_m**):
 
 ---
 
-
-
-
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
 **Q1: Two projectiles are thrown at angles θ n (90-θ). Compare their ranges.**
@@ -172,24 +144,18 @@ If rain falls vertically (**v_r**) n a man moves horizontally (**v_m**):
 **Q2: Why is centripetal acceleration called 'center-seeking'?**
 **Answer:** In Uniform Circular [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet), while the speed is constant, the velocity vector is always changing its direction to turn the object. This change (Δv) always points toward the center of the circle, as derived using vector subtraction.
 
-**Q3: A ball is dropped from a moving train. What is its trajectory as seen from (a) ground, (b) inside train?**
+**Q3: A ball is dropped from a [moving](/blog/moving-charges-magnetism-class-11-revision-notes-neet) train. What is its trajectory as seen from (a) ground, (b) inside train?**
 **Answer:**
 - (a) **Ground:** A parabola, because it has horizontal velocity (inherited from the train) n vertical acceleration (gravity).
 - (b) **Inside Train:** A vertical [straight](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) line, because the horizontal velocities of the ball and the train are the same.
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 4: Laws of [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) (Forces & FBD)**
 - **Chapter 6: [rotational](/blog/rotational-motion-class-11-revision-notes-jee-neet) Motion (Centripetal vs Centrifugal)**
 - **Interactive Projectile [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) Simulator**
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -200,10 +166,6 @@ If rain falls vertically (**v_r**) n a man moves horizontally (**v_m**):
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
-
-
-
-
 
 ---
 
@@ -216,13 +178,10 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/motion-n-a-plane-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
-
 
 ---
 

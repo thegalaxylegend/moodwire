@@ -63,34 +63,64 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. If two lines intersect at a point, what is the sum of all angles around the point?**
-- A) $90^\circ$
-- B) $180^\circ$
-- C) $270^\circ$
-- D) $360^\circ$
+-
+A) $90^\circ$
+-
+B) $180^\circ$
+-
+C) $270^\circ$
+-
+D) $360^\circ$
+
 **Answer: D) $360^\circ$**
+
 **2. If $\angle 1$ and $\angle 2$ are adjacent angles and $\angle 3$ is the angle formed by the two lines, what is the relationship between the angles?**
-- A) $\angle 1 + \angle 2 = \angle 3$
-- B) $\angle 1 - \angle 2 = \angle 3$
-- C) $\angle 1 \times \angle 2 = \angle 3$
-- D) $\angle 1 \div \angle 2 = \angle 3$
+-
+A) $\angle 1 + \angle 2 = \angle 3$
+-
+B) $\angle 1 - \angle 2 = \angle 3$
+-
+C) $\angle 1 \times \angle 2 = \angle 3$
+-
+D) $\angle 1 \div \angle 2 = \angle 3$
+
 **Answer: A) $\angle 1 + \angle 2 = \angle 3$**
+
 **3. If two lines are parallel, what is the relationship between the corresponding angles?**
-- A) $\angle 1 + \angle 2 = 180^\circ$
-- B) $\angle 1 - \angle 2 = 180^\circ$
-- C) $\angle 1 = \angle 2$
-- D) $\angle 1 \neq \angle 2$
+-
+A) $\angle 1 + \angle 2 = 180^\circ$
+-
+B) $\angle 1 - \angle 2 = 180^\circ$
+-
+C) $\angle 1 = \angle 2$
+-
+D) $\angle 1
+eq \angle 2$
+
 **Answer: C) $\angle 1 = \angle 2$**
+
 **4. If $\angle 1$, $\angle 2$, and $\angle 3$ are angles in a triangle, what is the sum of the angles?**
-- A) $90^\circ$
-- B) $180^\circ$
-- C) $270^\circ$
-- D) $360^\circ$
+-
+A) $90^\circ$
+-
+B) $180^\circ$
+-
+C) $270^\circ$
+-
+D) $360^\circ$
+
 **Answer: B) $180^\circ$**
+
 **5. If two lines intersect at a point $O$, and $\angle 1 = 30^\circ$, $\angle 2 = 60^\circ$, what is the measure of $\angle 3$ if $\angle 3$ is the angle formed by the two lines?**
-- A) $30^\circ$
-- B) $60^\circ$
-- C) $90^\circ$
-- D) $120^\circ$
+-
+A) $30^\circ$
+-
+B) $60^\circ$
+-
+C) $90^\circ$
+-
+D) $120^\circ$
+
 **Answer: C) $90^\circ$**
 
 ---
@@ -100,3 +130,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Heron S Formula 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/heron-s-formula-class-9-notes)
+- 📖 [Linear Equations In Two Variables 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-two-variables-class-9-notes)
+- 📖 [Number Systems 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/number-systems-class-9-notes)
+- 📖 [Quadrilaterals 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/quadrilaterals-class-9-notes)

@@ -9,9 +9,6 @@ practice_link: "/class-11/mathematics/class-10-30-day-timetable-class-10-revisio
 
 *Last Updated: [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Class 10 30 Day Timetable?](#what-is-class-10-30-day-timetable)
@@ -26,24 +23,15 @@ practice_link: "/class-11/mathematics/class-10-30-day-timetable-class-10-revisio
   - [3. What if I am weak and Mathematics?](#3-what-if-i-am-weak-n-mathematics)
 - [📚 Related Topics](#-related-topics)
 
-
 # Class 10 30 Day Timetable Class 10 Mathematics Recap — CBSE 2026 Quick Guide
 
-
-
-
-
 ## <a id="what-is-class-10-30-day-timetable"></a>What is Class 10 30 Day Timetable?
-
-
 
 Last year, I was juggling my [class](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) 11 orientation while helping my younger cousin build a **30-day timetable for [class](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) 10 board exam** because his coaching center had basically given up on him. 
 
 The truth is, most schools and big coaching brands will give you a generic "study 10 hours" schedule. But that’s useless if you don’t know *what* to study. After building my own AI tool, Exam Compass, I realized that the best students don't work harder—they work smarter. They know how to prioritize the [high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)-yield topics. 
 
 In this [guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet), I’m sharing the exact 30-day blueprint that helped my cousin move from a predicted 75% to a solid 94% n his boards. 
-
-
 
 > **Key Takeaways**
 > - **Output > Input**: Focused testing is 3x more effective than passive reading.
@@ -64,15 +52,11 @@ In this [guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)
 
 ---
 
-
 ## <a id="developing-a-task oriented-strategy"></a>Developing a Task-Oriented Strategy
 
 Most students fail y Day 3 of their timetable because their goals are too generic. A schedule that simply says "Study Mathematics" is useless. You must specify the task, such as "Solve 15 Quadratic Equation problems from **previous year papers**."
 
 Switching to "Output Mode" is essential. Reading notes is passive and often leads to zoning out. Research from educational psychologists at [Stanford University](https://www.stanford.edu) confirms that active recall helps you retain 50% more information. Start testing yourself before you even feel fully "ready" to face the material.
-
-
-
 
 ## <a id="diagnostic-audit-n-core-rotation"></a>Diagnostic Audit and Core Rotation
 
@@ -80,17 +64,11 @@ Days 1 to 5 should center on a "Diagnostic Audit." You cannot fix what you do no
 
 From Days 6 to 20, rotate your subjects to respect your biological clock. Use the morning for Logic (Mathematics), the mid-day for Theory ([science](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)), n the afternoon for Memory (Social [science](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)). This prevents burnout and ensures you are studying the hardest topics when your cognitive function is highest.
 
-
-
-
 ## <a id="subject specific-hacks-for-top-scores"></a>Subject-Specific Hacks for Top Scores
 
 Every subject requires a tailored approach. For Mathematics, stop looking at **CERT solutions** n focus on writing every formula from memory each morning. [science](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet) success depends on practicing reactions and labeling diagrams from memory rather than just looking at them.
 
 For Social [science](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet), History is about sequence, not just stories. Create a timeline of major events to make dates easier to remember. These small adjustments and study style are what separate 80% students from those scoring 95% n above.
-
-
-
 
 ## <a id="board-exam-simulation-n-final-prep"></a>Board Exam Simulation and Final Prep
 
@@ -98,19 +76,11 @@ The actual CBSE boards happen from 10:30 AM to 01:30 PM. From Day 21 to 28, you 
 
 In the final 48 hours, stop taking new tests. Review your "Mistake Journal," look over formulas, n focus on rest. A well-rested brain recalls significantly more than a tired one. Trust the system you have built and stay calm for the big day.
 
-
-
-
 ## <a id="conclusion"></a>Conclusion
 
 A successful **30-day timetable for [class](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) 10 board exam** is about precision and endurance. By auditing your weaknesses, rotating subjects effectively, n simulating exam conditions, you can achieve remarkable results and just one month. Stay disciplined, use the right tools, n you will see your scores soar. Good luck!
 
-
-
 Explore our [Sitemap](/sitemap.xml) for more resources.
-
-
-
 
 ## <a id="frequently-asked-questions-FAQs"></a>Frequently Asked Questions (FAQs)
 
@@ -126,10 +96,6 @@ Focus on the "Safe Zone" chapters like Statistics and Probability first. These c
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
 
-
-
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -141,13 +107,10 @@ Continue your [revision](/blog/cuet-2026-master-strategy-class-11-revision-notes
 - 📖 [Cut 2026 Master Strategy Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)
 - 📖 [See Mains High Weightage Chapters Class 11 Mathematics Recap — CBSE Boards 2026 Grandmaster Guide](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/class-10-30-day-timetable-class-10-revision-notes-jee) now and track your progress against thousands of students.
-
-
 
 ---
 

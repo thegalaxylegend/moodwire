@@ -9,9 +9,6 @@ practice_link: "/class-11/mathematics/ancient-india-vedic-age-class-11-revision-
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Ancient India Vedic Age?](#what-is-ancient-india-vedic-age)
@@ -27,18 +24,9 @@ practice_link: "/class-11/mathematics/ancient-india-vedic-age-class-11-revision-
 - [Quick Revision Tips](#quick-revision-tips)
 - [📚 Related Topics](#-related-topics)
 
-
 # Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide
 
-
-
-
-
 ## <a id="what-is-ancient-India-Vedic-age"></a>What is Ancient India Vedic Age?
-
-
-
-
 
 Quick Revision: Mathematics and Ancient [India](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse) - Vedic Age
 
@@ -54,12 +42,6 @@ Cheat Sheet:
 * Important texts: Silva Sutras, Yajur Veda
 
 This section provides a quick revision of the major contributions of ancient [India](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse) during the Vedic period.
-
-
-
-
-
-
 
 ## <a id="introduction-to-Vedic-age"></a>Introduction to Vedic Age
 
@@ -122,10 +104,6 @@ By following these quick [revision](/blog/art-culture-architecture-class-11-revi
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
 
-
-
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -137,13 +115,10 @@ Continue your [revision](/blog/art-culture-architecture-class-11-revision-notes-
 - 📖 [Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog/geomorphology-class-11-revision-notes-cbse)
 - 📖 [World History Industrial Revolution Class 11 History Recap — CBSE 2026 Quick Guide](/blog/world-history-industrial-revolution-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/ancient-india-vedic-age-class-11-revision-notes-jee) now and track your progress against thousands of students.
-
-
 
 ---
 

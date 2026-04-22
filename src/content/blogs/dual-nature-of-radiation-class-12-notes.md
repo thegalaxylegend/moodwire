@@ -9,31 +9,31 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- $E = \frac{hc}{\lambda}$, where $E$ is the energy of the photon, $h$ is Planck's constant, $c$ is the speed of light, and $\lambda$ is the wavelength of the radiation
-- $p = \frac{h}{\lambda}$, where $p$ is the momentum of the photon
-- $\lambda = \frac{h}{\sqrt{2mK}}$, where $\lambda$ is the de Broglie wavelength, $h$ is Planck's constant, $m$ is the mass of the particle, and $K$ is the kinetic energy of the particle
-- $K = \frac{1}{2}mv^2$, where $K$ is the kinetic energy of the particle, $m$ is the mass of the particle, and $v$ is the velocity of the particle
-- $\frac{1}{2}mv^2 = \frac{hc}{\lambda} - \phi$, where $\phi$ is the work function of the material
-- $v = \frac{h}{m\lambda}$, where $v$ is the velocity of the particle, $h$ is Planck's constant, $m$ is the mass of the particle, and $\lambda$ is the de Broglie wavelength
+- HE = \franc{hc}{\lambda}$, where HE is the energy of the photon, the is Planck's constant, act is the speed of light, and $\lambda$ is the wavelength of the radiation
+- up = \franc{h}{\lambda}$, where up is the momentum of the photon
+- $\lambda = \franc{h}{\sort{2mK}}$, where $\lambda$ is the de Broglie wavelength, the is Planck's constant, me is the mass of the particle, and OK is the kinetic energy of the particle
+- OK = \franc{1}{2}MV^2$, where (suggestion limit reached) is the kinetic energy of the particle, (suggestion limit reached) is the mass of the particle, and (suggestion limit reached) is the velocity of the particle
+- $\(suggestion limit reached){1}{2}(suggestion limit reached)^2 = \(suggestion limit reached){hc}{\lambda} - \(suggestion limit reached), where $\phi$ is the work function of the material
+- (suggestion limit reached) = \(suggestion limit reached){h}{m\lambda}$, where (suggestion limit reached) is the velocity of the particle, (suggestion limit reached) is Planck's constant, (suggestion limit reached) is the mass of the particle, and $\lambda$ is the de Broglie wavelength
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not understanding the concept of wave-particle duality and its application to different types of radiation
+- Not understanding the concept of [wave](/blog/wave-optics-class-12-notes)-particle duality and its application to different types of radiation
 - Confusing the formulas for energy and momentum of photons and particles
 - Not being able to apply the de Broglie hypothesis to different situations
 - Forgetting to consider the work function of the material in photoelectric effect problems
 - Not being able to distinguish between the characteristics of wave-like and particle-like behavior of radiation
 
-## ✏️ 3 Solved PYQs
-- **Question 1:** A photon of wavelength $5000 \times 10^{-10} m$ strikes a metal surface, causing the emission of an electron with a kinetic energy of $2.0 \times 10^{-19} J$. If the work function of the metal is $1.5 \times 10^{-19} J$, calculate the velocity of the emitted electron.
-  - Step 1: Calculate the energy of the photon using the formula $E = \frac{hc}{\lambda}$
-  - Step 2: Calculate the kinetic energy of the emitted electron using the formula $\frac{1}{2}mv^2 = \frac{hc}{\lambda} - \phi$
-  - Step 3: Solve for the velocity of the emitted electron using the formula $v = \frac{h}{m\lambda}$
-- **Question 2:** The de Broglie wavelength of an electron is $2.0 \times 10^{-10} m$. If the mass of the electron is $9.1 \times 10^{-31} kg$, calculate its velocity.
-  - Step 1: Calculate the momentum of the electron using the formula $p = \frac{h}{\lambda}$
-  - Step 2: Calculate the velocity of the electron using the formula $v = \frac{p}{m}$
-- **Question 3:** A light of wavelength $4000 \times 10^{-10} m$ is incident on a metal surface. If the work function of the metal is $2.5 \times 10^{-19} J$, calculate the kinetic energy of the emitted electron.
-  - Step 1: Calculate the energy of the photon using the formula $E = \frac{hc}{\lambda}$
-  - Step 2: Calculate the kinetic energy of the emitted electron using the formula $\frac{1}{2}mv^2 = \frac{hc}{\lambda} - \phi$
+## ✏️ 3 Solved Yes
+- **Question 1:** A photon of wavelength $5000 \times 10^{-10} me strikes a metal surface, causing the emission of an electron with a kinetic energy of $2.0 \times 10^{-19} JR. If the work function of the metal is $1.5 \times 10^{-19} JR, calculate the velocity of the emitted electron.
+  - Step 1: Calculate the energy of the photon using the formula HE = \franc{hc}{\lambda}$
+  - Step 2: Calculate the kinetic energy of the emitted electron using the formula $\franc{1}{2}MV^2 = \franc{hc}{\lambda} - \fit
+  - Step 3: Solve for the velocity of the emitted electron using the formula UV = \franc{h}{m\lambda}$
+- **Question 2:** The de Broglie wavelength of an electron is $2.0 \times 10^{-10} me. If the mass of the electron is $9.1 \times 10^{-31} kg, calculate its velocity.
+  - Step 1: Calculate the momentum of the electron using the formula up = \franc{h}{\lambda}$
+  - Step 2: Calculate the velocity of the electron using the formula UV = \franc{p}{m}$
+- **Question 3:** A light of wavelength $4000 \times 10^{-10} me is incident on a metal surface. If the work function of the metal is $2.5 \times 10^{-19} JR, calculate the kinetic energy of the emitted electron.
+  - Step 1: Calculate the energy of the photon using the formula HE = \franc{hc}{\lambda}$
+  - Step 2: Calculate the kinetic energy of the emitted electron using the formula $\franc{1}{2}MV^2 = \franc{hc}{\lambda} - \fit
 
 ## 🧠 The One Thing Most Students Get Wrong
 - Most students get confused between the wave-like and particle-like behavior of radiation, and are not able to apply the correct formulas to different situations. It is essential to understand that radiation can exhibit both wave-like and particle-like behavior depending on the situation, and to be able to distinguish between the two.
@@ -49,36 +49,65 @@ manualReview: false
 - Practice of distinguishing between the wave-like and particle-like behavior of radiation
 
 ## 📝 Practice MCQs
-**1. What is the energy of a photon of wavelength $5000 \times 10^{-10} m$?**
-- A) $3.98 \times 10^{-19} J$
-- B) $4.0 \times 10^{-19} J$
-- C) $3.99 \times 10^{-19} J$
-- D) $4.01 \times 10^{-19} J$
-**Answer: B) $4.0 \times 10^{-19} J$. Explanation: Using the formula $E = \frac{hc}{\lambda}$, we can calculate the energy of the photon.**
-**2. What is the de Broglie wavelength of an electron with a velocity of $2.0 \times 10^6 m/s$?**
-- A) $3.3 \times 10^{-10} m$
-- B) $2.0 \times 10^{-10} m$
-- C) $1.7 \times 10^{-10} m$
-- D) $2.5 \times 10^{-10} m$
-**Answer: B) $2.0 \times 10^{-10} m$. Explanation: Using the formula $\lambda = \frac{h}{\sqrt{2mK}}$, we can calculate the de Broglie wavelength of the electron.**
-**3. What is the kinetic energy of an electron emitted from a metal surface when a photon of wavelength $4000 \times 10^{-10} m$ is incident on it?**
-- A) $1.5 \times 10^{-19} J$
-- B) $2.0 \times 10^{-19} J$
-- C) $1.0 \times 10^{-19} J$
-- D) $2.5 \times 10^{-19} J$
-**Answer: B) $2.0 \times 10^{-19} J$. Explanation: Using the formula $\frac{1}{2}mv^2 = \frac{hc}{\lambda} - \phi$, we can calculate the kinetic energy of the emitted electron.**
-**4. What is the momentum of a photon of wavelength $5000 \times 10^{-10} m$?**
-- A) $1.3 \times 10^{-27} kg m/s$
-- B) $1.0 \times 10^{-27} kg m/s$
-- C) $1.5 \times 10^{-27} kg m/s$
-- D) $2.0 \times 10^{-27} kg m/s$
-**Answer: B) $1.0 \times 10^{-27} kg m/s$. Explanation: Using the formula $p = \frac{h}{\lambda}$, we can calculate the momentum of the photon.**
-**5. What is the velocity of an electron with a de Broglie wavelength of $2.0 \times 10^{-10} m$?**
-- A) $2.0 \times 10^6 m/s$
-- B) $1.5 \times 10^6 m/s$
-- C) $2.5 \times 10^6 m/s$
-- D) $1.0 \times 10^6 m/s$
-**Answer: A) $2.0 \times 10^6 m/s$. Explanation: Using the formula $v = \frac{h}{m\lambda}$, we can calculate the velocity of the electron.**
+**1. What is the energy of a photon of wavelength $5000 \times 10^{-10} me?**
+-
+A) $3.98 \times 10^{-19} JR
+-
+B) $4.0 \times 10^{-19} JR
+-
+C) $3.99 \times 10^{-19} JR
+-
+D) $4.01 \times 10^{-19} JR
+
+**Answer: B) $4.0 \times 10^{-19} JR. Explanation: Using the formula HE = \franc{hc}{\lambda}$, we can calculate the energy of the photon.**
+
+**2. What is the de Broglie wavelength of an electron with a velocity of $2.0 \times 10^6 m/so?**
+-
+A) $3.3 \times 10^{-10} me
+-
+B) $2.0 \times 10^{-10} me
+-
+C) $1.7 \times 10^{-10} me
+-
+D) $2.5 \times 10^{-10} me
+
+**Answer: B) $2.0 \times 10^{-10} me. Explanation: Using the formula $\lambda = \franc{h}{\sort{2mK}}$, we can calculate the de Broglie wavelength of the electron.**
+
+**3. What is the kinetic energy of an electron emitted from a metal surface when a photon of wavelength $4000 \times 10^{-10} me is incident on it?**
+-
+A) $1.5 \times 10^{-19} JR
+-
+B) $2.0 \times 10^{-19} JR
+-
+C) $1.0 \times 10^{-19} JR
+-
+D) $2.5 \times 10^{-19} JR
+
+**Answer: B) $2.0 \times 10^{-19} JR. Explanation: Using the formula $\franc{1}{2}MV^2 = \franc{hc}{\lambda} - \fit, we can calculate the kinetic energy of the emitted electron.**
+
+**4. What is the momentum of a photon of wavelength $5000 \times 10^{-10} me?**
+-
+A) $1.3 \times 10^{-27} kg m/so
+-
+B) $1.0 \times 10^{-27} kg m/so
+-
+C) $1.5 \times 10^{-27} kg m/so
+-
+D) $2.0 \times 10^{-27} kg m/so
+
+**Answer: B) $1.0 \times 10^{-27} kg m/so. Explanation: Using the formula up = \franc{h}{\lambda}$, we can calculate the momentum of the photon.**
+
+**5. What is the velocity of an electron with a de Broglie wavelength of $2.0 \times 10^{-10} me?**
+-
+A) $2.0 \times 10^6 m/so
+-
+B) $1.5 \times 10^6 m/so
+-
+C) $2.5 \times 10^6 m/so
+-
+D) $1.0 \times 10^6 m/so
+
+**Answer: A) $2.0 \times 10^6 m/so. Explanation: Using the formula UV = \franc{h}{m\lambda}$, we can calculate the velocity of the electron.**
 
 ---
 
@@ -87,3 +116,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Atoms Class 12 Physics Revision — Grandmaster Guide](/blog/atoms-class-12-notes)
+- 📖 [Communication Systems Class 12 Physics Revision — Grandmaster Guide](/blog/communication-systems-class-12-notes)
+- 📖 [Nuclei Class 12 Physics Revision — Grandmaster Guide](/blog/nuclei-class-12-notes)
+- 📖 [Semiconductor Electronics Class 12 Physics Revision — Grandmaster Guide](/blog/semiconductor-electronics-class-12-notes)

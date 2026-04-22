@@ -9,9 +9,6 @@ practice_link: "/class-11/biology/redox-reactions-class-11-revision-notes-neet"
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Redox Reactions?](#what-is-redox-reactions)
@@ -34,22 +31,11 @@ practice_link: "/class-11/biology/redox-reactions-class-11-revision-notes-neet"
 - [Related Notes Links](#related-notes-links)
 - [📚 Related Topics](#-related-topics)
 
-
 # Redox Reactions Class 11 Biology Revision — NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-redox-reactions"></a>What is Redox Reactions?
 
-
-
-
 Last Updated: March 15, 2026
-
-
-
 
 1. [Introduction to Redox Reactions](#introduction-to-redox-reactions)
 2. [Why Redox Reactions Matter](#why-redox-reactions-matter)
@@ -60,17 +46,11 @@ Last Updated: March 15, 2026
 7. [Practice MCQs](#practice-mcqs)
 8. [Related Notes Links](#related-notes-links)
 
-
-
-
 ## <a id="introduction-to-redox-reactions"></a>Introduction to Redox Reactions
 
 Redox reactions are chemical reactions that involve the transfer of electrons between species. This transfer of electrons results and a change and the oxidation state of the species involved. Redox reactions are also known as oxidation-reduction reactions.
 
 Redox reactions are characterized y the presence of an oxidizing agent and a reducing agent. The oxidizing agent is the species that gains electrons, while the reducing agent is the species that loses electrons. The oxidizing agent is said to be reduced, while the reducing agent is said to be oxidized.
-
-
-
 
 ## <a id="why-redox-reactions-matter"></a>Why Redox Reactions Matter
 
@@ -80,17 +60,11 @@ For example, n the human body, redox reactions are involved and the production o
 
 3 questions and JEE Mains 2026 Session 1 came from this topic.
 
-
-
-
 ## <a id="ayushs-note"></a>Ayush's Note
 
 <div [class](/blog/hydrocarbons-class-11-revision-notes-neet)="note-box">
 I still remember the time when I was preparing for my JEE exams. I was struggling to understand the concept of redox reactions. I used to get confused between the terms oxidation and reduction. But then I realized that oxidation is the loss of electrons, while reduction is the gain of electrons. This simple trick helped me to understand the concept of redox reactions and I was able to solve the questions with ease.
 </div>
-
-
-
 
 ## <a id="core-concepts"></a>Core Concepts
 
@@ -110,26 +84,17 @@ For example, n the reaction:
  \text{Fe}^{2+} \rightarrow \text{Fe}^{3+} + \text{e}^- 
 The oxidation number of iron increases from +2 to +3, indicating that iron has lost an electron.
 
-
-
-
 ## <a id="shortcut-formulatrick"></a>Shortcut Formula/Trick
 
 To balance a redox reaction, we can use the following shortcut formula:
 $1 \text{Oxidation Half-Equation}$ + $\text{Reduction Half-Equation}$
 This formula helps us to balance the reaction y combining the oxidation and reduction half-equations.
 
-
-
-
 ## <a id="trap-questionsexceptions"></a>Trap Questions/Exceptions
 
 ### <a id="wrong-answer-textfe2-is-the-reducing-agent-n-the-reaction-textfe2-rightarrow-textfe3-texte"></a>Wrong Answer: $\text{Fe}^{2+}$ is the reducing agent and the reaction $\text{Fe}^{2+} \rightarrow \text{Fe}^{3+} + \text{e}^-$.
 ### <a id="right-answer-textfe2-is-the-oxidizing-agent-n-the-reaction-textfe2-rightarrow-textfe3-texte-but-it-is-being-oxidized-so-it-is-the-species-being-oxidized"></a>Right Answer: $\text{Fe}^{2+}$ is the oxidizing agent and the reaction $\text{Fe}^{2+} \rightarrow \text{Fe}^{3+} + \text{e}^-$, but it is being oxidized, so it is the species being oxidized.
 ### <a id="why-students-get-it-wrong-students-often-get-confused-between-the-terms-oxidation-n-reduction-they-think-that-the-species-that-loses-electrons-is-the-reducing-agent-but-it-is-actually-the-oxidizing-agent-that-gains-electrons"></a>Why Students Get it Wrong: Students often get confused between the terms oxidation and reduction. They think that the species that loses electrons is the reducing agent, but it is actually the oxidizing agent that gains electrons.
-
-
-
 
 ## <a id="practice-mcqs"></a>Practice MCQs
 
@@ -143,11 +108,11 @@ d) +4
 Solution: b) +2
 
 2. Which of the following is an example of a redox reaction?
-a) $\text{NaCl} + \text{H}_2\text{O} \rightarrow \text{NaOH} + \text{HCl}$ b) \text{Fe}^{2+} \rightarrow \text{Fe}^{3+} + \text{e}^- 
-c) $\text{CaCO}_3 \rightarrow \text{CaO} + \text{CO}_2$ d) \text{H}_2 + \text{O}_2 \rightarrow \text{H}_2\text{O}  Solution: b) \text{Fe}^{2+} \rightarrow \text{Fe}^{3+} + \text{e}^- 
+a) $\text{NaCl} + \text{H}_2\text{O} \rightarrow \text{NaOH} + \text{HCl}$ b) $\text{Fe}$^{2+} \rightarrow $\text{Fe}$^{3+} + $\text{e}$^- 
+c) $\text{CaCO}_3 \rightarrow \text{CaO} + \text{CO}_2$ d) $\text{H}$_2 + $\text{O}$_2 \rightarrow $\text{H}$_2$\text{O}$  Solution: b) $\text{Fe}$^{2+} \rightarrow $\text{Fe}$^{3+} + $\text{e}$^- 
 
 ### <a id="medium"></a>Medium
-3. Balance the following redox reaction: $\text{MnO}_4^- + \text{Fe}^{2+} \rightarrow \text{Mn}^{2+} + \text{Fe}^{3+}$ a) \text{MnO}_4^- + 5\text{Fe}^{2+} + 8\text{H}^+ \rightarrow \text{Mn}^{2+} + 5\text{Fe}^{3+} + 4\text{H}_2\text{O}  b) \text{MnO}_4^- + 3\text{Fe}^{2+} + 4\text{H}^+ \rightarrow \text{Mn}^{2+} + 3\text{Fe}^{3+} + 2\text{H}_2\text{O}  c) \text{MnO}_4^- + 2\text{Fe}^{2+} + 3\text{H}^+ \rightarrow \text{Mn}^{2+} + 2\text{Fe}^{3+} + \text{H}_2\text{O}  d) \text{MnO}_4^- + \text{Fe}^{2+} \rightarrow \text{Mn}^{2+} + \text{Fe}^{3+} 
+3. Balance the following redox reaction: $\text{MnO}_4^- + \text{Fe}^{2+} \rightarrow \text{Mn}^{2+} + \text{Fe}^{3+}$ a) $\text{MnO}$_4^- + 5$\text{Fe}$^{2+} + 8$\text{H}$^+ \rightarrow $\text{Mn}$^{2+} + 5$\text{Fe}$^{3+} + 4$\text{H}$_2$\text{O}$  b) $\text{MnO}$_4^- + 3$\text{Fe}$^{2+} + 4$\text{H}$^+ \rightarrow $\text{Mn}$^{2+} + 3$\text{Fe}$^{3+} + 2$\text{H}$_2$\text{O}$  c) $\text{MnO}$_4^- + 2$\text{Fe}$^{2+} + 3$\text{H}$^+ \rightarrow $\text{Mn}$^{2+} + 2$\text{Fe}$^{3+} + $\text{H}$_2$\text{O}$  d) $\text{MnO}$_4^- + $\text{Fe}$^{2+} \rightarrow $\text{Mn}$^{2+} + $\text{Fe}$^{3+} 
 
 Solution: a) $\text{MnO}_4^- + 5\text{Fe}^{2+} + 8\text{H}^+ \rightarrow \text{Mn}^{2+} + 5\text{Fe}^{3+} + 4\text{H}_2\text{O}$
 
@@ -160,10 +125,7 @@ d) None of the above
 Solution: a) $\text{Fe}^{2+}$
 
 ### <a id="hard"></a>Hard
-5. Balance the following redox reaction: $\text{Cr}_2\text{O}_7^{2-} + \text{Fe}^{2+} \rightarrow \text{Cr}^{3+} + \text{Fe}^{3+}$ a) \text{Cr}_2\text{O}_7^{2-} + 6\text{Fe}^{2+} + 14\text{H}^+ \rightarrow 2\text{Cr}^{3+} + 6\text{Fe}^{3+} + 7\text{H}_2\text{O}  b) \text{Cr}_2\text{O}_7^{2-} + 3\text{Fe}^{2+} + 4\text{H}^+ \rightarrow 2\text{Cr}^{3+} + 3\text{Fe}^{3+} + 2\text{H}_2\text{O}  c) \text{Cr}_2\text{O}_7^{2-} + 2\text{Fe}^{2+} + 3\text{H}^+ \rightarrow 2\text{Cr}^{3+} + 2\text{Fe}^{3+} + \text{H}_2\text{O}  d) \text{Cr}_2\text{O}_7^{2-} + \text{Fe}^{2+} \rightarrow 2\text{Cr}^{3+} + \text{Fe}^{3+}  Solution: a) \text{Cr}_2\text{O}_7^{2-} + 6\text{Fe}^{2+} + 14\text{H}^+ \rightarrow 2\text{Cr}^{3+} + 6\text{Fe}^{3+} + 7\text{H}_2\text{O} 
-
-
-
+5. Balance the following redox reaction: $\text{Cr}_2\text{O}_7^{2-} + \text{Fe}^{2+} \rightarrow \text{Cr}^{3+} + \text{Fe}^{3+}$ a) $\text{Cr}$_2$\text{O}$_7^{2-} + 6$\text{Fe}$^{2+} + 14$\text{H}$^+ \rightarrow 2$\text{Cr}$^{3+} + 6$\text{Fe}$^{3+} + 7$\text{H}$_2$\text{O}$  b) $\text{Cr}$_2$\text{O}$_7^{2-} + 3$\text{Fe}$^{2+} + 4$\text{H}$^+ \rightarrow 2$\text{Cr}$^{3+} + 3$\text{Fe}$^{3+} + 2$\text{H}$_2$\text{O}$  c) $\text{Cr}$_2$\text{O}$_7^{2-} + 2$\text{Fe}$^{2+} + 3$\text{H}$^+ \rightarrow 2$\text{Cr}$^{3+} + 2$\text{Fe}$^{3+} + $\text{H}$_2$\text{O}$  d) $\text{Cr}$_2$\text{O}$_7^{2-} + $\text{Fe}$^{2+} \rightarrow 2$\text{Cr}$^{3+} + $\text{Fe}$^{3+}  Solution: a) $\text{Cr}$_2$\text{O}$_7^{2-} + 6$\text{Fe}$^{2+} + 14$\text{H}$^+ \rightarrow 2$\text{Cr}$^{3+} + 6$\text{Fe}$^{3+} + 7$\text{H}$_2$\text{O}$ 
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
@@ -172,10 +134,6 @@ Solution: a) $\text{Fe}^{2+}$
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
-
-
-
-
 
 ---
 
@@ -188,13 +146,10 @@ Continue your [revision](/blog/hydrogen-class-11-revision-notes-neet) with these
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Hydrogen Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/redox-reactions-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
-
 
 ---
 

@@ -9,9 +9,6 @@ practice_link: "/class-11/physics/mathematical-induction-class-11-revision-notes
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Mathematical Induction Revision Notes?](#what-is-mathematical-induction-revision-notes)
@@ -28,24 +25,16 @@ practice_link: "/class-11/physics/mathematical-induction-class-11-revision-notes
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-
-
-
-
 ## <a id="what-is-mathematical-induction-revision-notes"></a>What is Mathematical Induction Revision Notes?
-
-
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
 > - **Principle:** If a statement $P(n)$ is true for $n=1$, n its truth for $n=k$ implies truth for $n=k+1$, then it is true for all natural numbers $n$.
 > - **Step 1 (Base Case):** Verify $P(1)$ is true.
-> - **Step 2 (Inductive Hypothesis):** Assume $P(k)$ is true for some $k \n N$.
+> - **Step 2 (Inductive Hypothesis):** Assume $P(k)$ is true for some $k 
+ N$.
 > - **Step 3 (Inductive Step):** Prove $P(k+1)$ is true using the assumption from Step 2.
 > - **Application:** Used to prove identities, divisibility rules, n inequalities.
 > [**📥 Download 1-Page Short Notes PDF (Zero-Friction)**](#)
@@ -136,10 +125,6 @@ You can still use induction to prove the statement for $n \geq 5$ y using $n=5$ 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
 
-
-
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -151,13 +136,10 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 - 📖 [Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)
 - 📖 [Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/mathematical-induction-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
-
 
 ---
 

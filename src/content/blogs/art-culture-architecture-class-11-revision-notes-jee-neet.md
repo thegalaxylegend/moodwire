@@ -9,9 +9,6 @@ practice_link: "/class-11/chemistry/art-culture-architecture-class-11-revision-n
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Art Culture Architecture?](#what-is-art-culture-architecture)
@@ -23,21 +20,11 @@ practice_link: "/class-11/chemistry/art-culture-architecture-class-11-revision-n
 - [Trap Exceptions](#trap-exceptions)
 - [📚 Related Topics](#-related-topics)
 
-
 # Art Culture Architecture Class 11 Chemistry Revision — CBSE Boards 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-art-culture-architecture"></a>What is Art Culture Architecture?
 
-
-
-
-
 ## <a id="quick-revision-n-recap-art-n-culture-architecture"></a>Quick Revision & Recap: Art & Culture - Architecture
-
 
 The history of architecture is a vast and fascinating field, spanning thousands of years. As a student of Class 11, it's essential to have a solid grasp of the key concepts, styles, n movements that have shaped the built environment. Here's a [quick](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) recall box to get you started:
 * **[ancient](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) Civilizations**: Egyptian, Greek, Roman, Chinese, Indian
@@ -104,10 +91,6 @@ By focusing on these key concepts, formulae, n trap exceptions, you'll be well o
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
 
-
-
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -119,13 +102,10 @@ Continue your [revision](/blog/ancient-india-mahajanapadas-class-11-revision-not
 - 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
 - 📖 [Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/art-culture-architecture-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
-
 
 ---
 

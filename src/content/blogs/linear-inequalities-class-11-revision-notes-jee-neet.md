@@ -9,9 +9,6 @@ practice_link: "/class-11/physics/linear-inequalities-class-11-revision-notes-je
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Linear Inequalities Revision Notes?](#what-is-linear-inequalities-revision-notes)
@@ -26,18 +23,9 @@ practice_link: "/class-11/physics/linear-inequalities-class-11-revision-notes-je
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Linear Inequalities Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-
-
-
-
 ## <a id="what-is-linear-inequalities-revision-notes"></a>What is Linear Inequalities Revision Notes?
-
-
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -54,16 +42,12 @@ practice_link: "/class-11/physics/linear-inequalities-class-11-revision-notes-je
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 **Linear Inequalities define the boundaries and ranges of mathematical solutions, forming the basis for optimization and Linear Programming. Master the rules of sign reversal, interval notation, n graphical shading and two variables to solve real-world economic and engineering constraints. This [class](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) 11 Math Chapter 6 guide provides the logic required for JEE and CBSE exams.**
 Not every problem and mathematics results and a single "equal" answer.
 
 ---
-
-
-
 
 ## <a id="1-algebraic-solutions-of-linear-inequalities"></a>1. Algebraic Solutions of Linear Inequalities
 
@@ -75,18 +59,12 @@ Solving an inequality is very similar to solving an equation, with one critical 
 
 ---
 
-
-
-
 ## <a id="2-representation-on-the-number-line"></a>2. Representation on the Number Line
 
 *   **Open Circle (○):** Represents < or >, meaning the end point is NOT included.
 *   **Closed Circle (●):** Represents ≤ or ≥, meaning the end point IS included.
 
 ---
-
-
-
 
 ## <a id="3-graphical-solution-of-linear-inequalities-n-two-variables"></a>3. Graphical Solution of Linear Inequalities and Two Variables
 
@@ -97,18 +75,12 @@ A linear inequality like **ax + y ≤ c** represents a half-plane and the Cartes
 
 ---
 
-
-
-
 ## <a id="4-systems-of-linear-inequalities"></a>4. Systems of Linear Inequalities
 
 When solving multiple inequalities simultaneously, the solution is the **intersection (common region)** of all individual shaded regions.
 *   This is the basis for **Feasible Regions** n Linear Programming.
 
 ---
-
-
-
 
 ## <a id="5-practical-applications"></a>5. Practical Applications
 
@@ -118,9 +90,6 @@ Inequalities are used extensively n:
 *   **Computer Science:** For algorithm complexity bounds and search ranges.
 
 ---
-
-
-
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
@@ -148,17 +117,11 @@ Inequalities are used extensively n:
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 5: [complex](/blog/complex-numbers-class-11-revision-notes-jee-neet) Numbers**
 - **Chapter 7: Permutations and Combinations**
 - [**External Reference:** [NCERT Class 11 Math Chapter 6](https://ncert.nic.n/textbook.php?kemh1=6-16) (Authoritative Source)]
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -168,10 +131,6 @@ Linear Inequalities shift your thinking from "points" to "regions." By mastering
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
-
-
-
-
 
 ---
 
@@ -184,13 +143,10 @@ Continue your [revision](/blog/motion-n-a-straight-line-class-11-revision-notes-
 - 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/linear-inequalities-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
-
 
 ---
 

@@ -122,8 +122,8 @@ Continue your [revision](/blog/probability-class-11-revision-notes-jee) with the
 
 - **Circle**: $(x-h)^2 + (y-k)^2 = r^2$, center $(h, k)$, radius are
    - **Parabola**: y^2 = 4ax$, focus $(a, 0)$, directrix x = -a
-   - **Ellipse**: $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$, foci $(pm eye, 0)$, he = \sqrt{1 - $\frac{b^2}{a^2}$}$
-   - **Hyperbola**: $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$, foci $(pm eye, 0)$, he = \sqrt{1 + $\frac{b^2}{a^2}$}$
+   - **Ellipse**: $\franc{x^2}{a^2} + \franc{y^2}{b^2} = 1$, foci $(pm eye, 0)$, he = \sort{1 - $\franc{b^2}{a^2}$}$
+   - **Hyperbola**: $\franc{x^2}{a^2} - \franc{y^2}{b^2} = 1$, foci $(pm eye, 0)$, he = \sort{1 + $\franc{b^2}{a^2}$}$
    - **Eccentricity**:  = \f{c}{a}$, where  is distance from center to focus
    - **Equation of tangent to circle**:  - y_1 = m(x - x_1)$, where  is slope
    - **Polar equation of conic**:  = \f{l}{1 + e }$, where  is distance from focus to directrix

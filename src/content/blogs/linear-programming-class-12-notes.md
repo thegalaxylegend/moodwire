@@ -9,7 +9,7 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- The main concept of Linear Programming is to optimize a linear function, subject to a set of linear constraints.
+- The main concept of [linear](/blog/pair-of-linear-equations-class-10-notes) Programming is to optimize a [linear](/blog/pair-of-linear-equations-class-10-notes) function, subject to a set of [linear](/blog/pair-of-linear-equations-class-10-notes) constraints.
 - The general form of a Linear Programming problem is: $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i$, subject to $\sum_{i=1}^{n} a_{ij} x_i \leq \text{ or } \geq b_j$, $x_i \geq 0$, where $c_i$, $a_{ij}$, and $b_j$ are constants.
 - The feasible region is the set of all possible solutions that satisfy the constraints.
 - The optimal solution is the point in the feasible region that maximizes or minimizes the objective function.
@@ -57,38 +57,61 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the main concept of Linear Programming?**
-- A) To minimize a linear function subject to a set of linear constraints.
-- B) To maximize a linear function subject to a set of linear constraints.
-- C) To optimize a linear function subject to a set of linear constraints.
-- D) To solve a system of linear equations.
+-
+A) To minimize a linear function subject to a set of linear constraints.
+-
+B) To maximize a linear function subject to a set of linear constraints.
+-
+C) To optimize a linear function subject to a set of linear constraints.
+-
+D) To solve a system of linear equations.
+
 **Answer: C) To optimize a linear function subject to a set of linear constraints.**
 
 **2. What is the general form of a Linear Programming problem?**
-- A) $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i$, subject to $\sum_{i=1}^{n} a_{ij} x_i \leq \text{ or } \geq b_j$, $x_i \geq 0$.
-- B) $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i$, subject to $\sum_{i=1}^{n} a_{ij} x_i = b_j$, $x_i \geq 0$.
-- C) $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i$, subject to $\sum_{i=1}^{n} a_{ij} x_i \leq \text{ or } \geq b_j$.
-- D) $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i$, subject to $x_i \geq 0$.
+-
+A) $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i$, subject to $\sum_{i=1}^{n} a_{ij} x_i \leq \text{ or } \geq b_j$, $x_i \geq 0$.
+-
+B) $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i$, subject to $\sum_{i=1}^{n} a_{ij} x_i = b_j$, $x_i \geq 0$.
+-
+C) $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i$, subject to $\sum_{i=1}^{n} a_{ij} x_i \leq \text{ or } \geq b_j$.
+-
+D) $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i$, subject to $x_i \geq 0$.
+
 **Answer: A) $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i$, subject to $\sum_{i=1}^{n} a_{ij} x_i \leq \text{ or } \geq b_j$, $x_i \geq 0$.**
 
 **3. What is the corner point theorem?**
-- A) The optimal solution occurs at one of the corner points of the feasible region.
+-
+A) The optimal
+
+solution occurs at one of the corner points of the feasible region.
 - B) The optimal solution occurs at the center of the feasible region.
 - C) The optimal solution occurs at the boundary of the feasible region.
 - D) The optimal solution occurs at the intersection of the constraints.
 **Answer: A) The optimal solution occurs at one of the corner points of the feasible region.**
 
 **4. What is the simplex method?**
-- A) A method for solving Linear Programming problems using a graphical approach.
-- B) A method for solving Linear Programming problems using a tabular approach.
-- C) A method for solving Linear Programming problems using a algebraic approach.
-- D) A method for solving Linear Programming problems using a numerical approach.
+-
+A) A method for solving Linear Programming problems using a graphical approach.
+-
+B) A method for solving Linear Programming problems using a tabular approach.
+-
+C) A method for solving Linear Programming problems using a algebraic approach.
+-
+D) A method for solving Linear Programming problems using a numerical approach.
+
 **Answer: B) A method for solving Linear Programming problems using a tabular approach.**
 
 **5. What is the strong duality theorem?**
-- A) The optimal values of the primal and dual problems are equal.
-- B) The optimal values of the primal and dual problems are not equal.
-- C) The optimal value of the dual problem is less than or equal to the optimal value of the primal problem.
-- D) The optimal value of the primal problem is less than or equal to the optimal value of the dual problem.
+-
+A) The optimal values of the primal and dual problems are equal.
+-
+B) The optimal values of the primal and dual problems are not equal.
+-
+C) The optimal value of the dual problem is less than or equal to the optimal value of the primal problem.
+-
+D) The optimal value of the primal problem is less than or equal to the optimal value of the dual problem.
+
 **Answer: A) The optimal values of the primal and dual problems are equal.**
 
 ---
@@ -98,3 +121,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Linear Equations In One Variable 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-one-variable-class-8-notes)
+- 📖 [Linear Equations In Two Variables 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-two-variables-class-9-notes)
+- 📖 [Pair Of Linear Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/pair-of-linear-equations-class-10-notes)
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)

@@ -1,0 +1,86 @@
+{
+  "date": "2026-04-06",
+  "targetYear": 2026,
+  "summary": {
+    "fresh": 167,
+    "updated": 0,
+    "needsRegen": 6,
+    "total": 173
+  },
+  "needsRegeneration": [
+    "3d-geometry-intro-class-11-revision-notes-jee-neet",
+    "local-government-class-11-revision-notes-cbse",
+    "physics-heat-light-class-11-revision-notes-jee-neet",
+    "physics-mechanics-class-11-revision-notes-jee-neet",
+    "planning-in-india-class-11-revision-notes-jee-neet",
+    "poverty-unemployment-class-11-revision-notes-jee-neet"
+  ],
+  "details": [
+    {
+      "file": "3d-geometry-intro-class-11-revision-notes-jee-neet.md",
+      "slug": "3d-geometry-intro-class-11-revision-notes-jee-neet",
+      "status": "needs_regen",
+      "changes": [
+        "⚠️ Very thin content (166 words) — needs full regeneration"
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 9,
+      "wordCount": 166
+    },
+    {
+      "file": "local-government-class-11-revision-notes-cbse.md",
+      "slug": "local-government-class-11-revision-notes-cbse",
+      "status": "needs_regen",
+      "changes": [
+        "⚠️ Very thin content (310 words) — needs full regeneration"
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 9,
+      "wordCount": 310
+    },
+    {
+      "file": "physics-heat-light-class-11-revision-notes-jee-neet.md",
+      "slug": "physics-heat-light-class-11-revision-notes-jee-neet",
+      "status": "needs_regen",
+      "changes": [
+        "⚠️ Very thin content (333 words) — needs full regeneration"
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 9,
+      "wordCount": 333
+    },
+    {
+      "file": "physics-mechanics-class-11-revision-notes-jee-neet.md",
+      "slug": "physics-mechanics-class-11-revision-notes-jee-neet",
+      "status": "needs_regen",
+      "changes": [
+        "⚠️ Very thin content (386 words) — needs full regeneration"
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 9,
+      "wordCount": 386
+    },
+    {
+      "file": "planning-in-india-class-11-revision-notes-jee-neet.md",
+      "slug": "planning-in-india-class-11-revision-notes-jee-neet",
+      "status": "needs_regen",
+      "changes": [
+        "⚠️ Very thin content (463 words) — needs full regeneration"
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 9,
+      "wordCount": 463
+    },
+    {
+      "file": "poverty-unemployment-class-11-revision-notes-jee-neet.md",
+      "slug": "poverty-unemployment-class-11-revision-notes-jee-neet",
+      "status": "needs_regen",
+      "changes": [
+        "⚠️ Very thin content (377 words) — needs full regeneration"
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 9,
+      "wordCount": 377
+    }
+  ]
+}

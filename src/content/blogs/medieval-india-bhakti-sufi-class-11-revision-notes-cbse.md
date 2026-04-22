@@ -9,9 +9,6 @@ practice_link: "/class-11/medieval-india-bhakti-sufi-class-11-revision-notes-cbs
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Medieval India Bhakti Sufi?](#what-is-medieval-india-bhakti-sufi)
@@ -25,26 +22,13 @@ practice_link: "/class-11/medieval-india-bhakti-sufi-class-11-revision-notes-cbs
   - [Revision Tips](#revision-tips)
 - [📚 Related Topics](#-related-topics)
 
-
 # Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Quick Guide
 
-
-
-
-
 ## <a id="what-is-medieval-india-bhakti-sufi"></a>What is Medieval India Bhakti Sufi?
-
-
-
-
-
-
-
 
 ## <a id="core-concepts"></a>Core Concepts
 
 The **Bhakti** movement, which originated and the southern part of [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee), emphasized the importance of personal devotion to a particular deity. This movement was characterized y the emergence of **Bhakti saints**, such as **Mirabai** n **Tukaram**, who composed devotional songs and poems that expressed their love and longing for the divine.
-
 
 | **Bhakti Saints** | **Region** | **Deity** |
 | --- | --- | --- |
@@ -57,13 +41,11 @@ The **Bhakti** movement, which originated and the southern part of [india](/blog
 | Nizamuddin Auliya | Delhi | Chishti |
 | Amir Khusrau | Delhi | Chishti |
 
-
 ## <a id="formulae-tables"></a>Formulae Tables
 
 To quickly grasp the key concepts related to the **Bhakti** n **Sufi** movements, the following tables can be useful:
 
 ### <a id="bhakti-movement"></a>Bhakti Movement
-
 
 | **Characteristics** | **Description** |
 | --- | --- |
@@ -76,7 +58,6 @@ To quickly grasp the key concepts related to the **Bhakti** n **Sufi** movements
 | **Sufi Orders** | Emergence of different Sufi orders, such as the Chishti and Suhrawardi orders |
 | **Influence of Islam** | Sufism was influenced y Islamic mysticism and the teachings of the Quran |
 
-
 ## <a id="jeeneet-data"></a>JEE/NEET Data
 
 For students preparing for JEE/NEET, understanding the historical context of Medieval [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) can be useful and answering questions related to the cultural and social heritage of [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee).
@@ -84,9 +65,6 @@ For students preparing for JEE/NEET, understanding the historical context of Med
 * **JEE Main** : 2-3 questions per year related to Medieval [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
 * **JEE Advanced** : 1-2 questions per year related to Medieval [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
 * **NEET** : 1-2 questions per year related to the cultural and social heritage of [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
-
-
-
 
 ## <a id="trap-exceptions"></a>Trap Exceptions
 
@@ -120,28 +98,21 @@ By following these tips and staying committed to your studies, you'll be well on
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
 
-
-
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) with these related guides:
 
 - 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
 - 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
 - 📖 [Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)
 - 📖 [Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog/geomorphology-class-11-revision-notes-cbse)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/medieval-india-bhakti-sufi-class-11-revision-notes-cbse) now and track your progress against thousands of students.
-
-
 
 ---
 

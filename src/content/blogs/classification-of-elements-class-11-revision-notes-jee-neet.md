@@ -9,9 +9,6 @@ practice_link: "/class-11/physics/classification-of-elements-class-11-revision-n
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Classification Of Elements?](#what-is-classification-of-elements)
@@ -24,20 +21,9 @@ practice_link: "/class-11/physics/classification-of-elements-class-11-revision-n
 - [LaTeX Equations](#latex-equations)
 - [📚 Related Topics](#-related-topics)
 
-
 # Classification Of Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-
-
-
-
 ## <a id="what-is-classification-of-elements"></a>What is Classification Of Elements?
-
-
-
-
-
-
 
 ## <a id="ayushs-personal-note"></a>Ayush's Personal Note
 
@@ -89,7 +75,7 @@ Here are some examples of LaTeX equations related to the classification of [elem
 
 * The electronic configuration of an element can be represented as: $1s^2 2s^2 2p^6$
 * The atomic radius of an element can be calculated using the formula: $r = \frac{a}{Z}$, where $r$ is the atomic radius, $a$ is a constant, n $Z$ is the atomic number
-* The ionization energy of an element can be represented as: $\Delta E = \frac{hc}{\lambda}$, where $\Delta E$ is the ionization energy, $h$ is Planck's constant, $c$ is the speed of light, n $\lambda$ is the wavelength
+* The ionization energy of an element can be represented as: $\delta E = \frac{hc}{\lambda}$, where $\delta E$ is the ionization energy, $h$ is Planck's constant, $c$ is the speed of light, n $\lambda$ is the wavelength
 
 As I continue to explore the world of [chemistry](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet), I realize that the classification of elements is a fundamental concept that underlies many of the principles and reactions that we study. By understanding the periodic table and the trends and physical and chemical properties, I can better appreciate the beauty and complexity of the chemical world. Whether I'm solving problems, practicing MCQs, or simply exploring the properties of different elements, I know that the classification of elements will remain a vital tool and my journey as a chemistry student. 
 
@@ -99,7 +85,7 @@ In my future studies, I plan to delve deeper into the world of [chemistry](/blog
 
 As I move forward and my studies, I'm confident that the classification of elements will remain a fundamental concept that underlies many of the principles and reactions that I will encounter. By continuing to explore and learn about the periodic table, I can develop a deeper understanding of the [chemical](/blog/chemical-coordination-n-integration-class-11-revision-notes-neet) world and how it relates to the world around us. 
 
-The classification of elements is a rich and complex field of study, with many different concepts and principles to explore. As I continue to learn and grow as a chemistry student, I'm excited to see where this journey will take me, n how the classification of elements will continue to play a central role and my understanding of the chemical world. 
+The classification of elements is a rich and complex field of study, with many different concepts and principles to explore. As I continue to learn and grow as a chemistry student, I'm excited to see where this journey will take me, n how the classification of elements will continue to play a central role and my understanding of the [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) world. 
 
 By mastering the classification of elements, I can develop a strong foundation and chemistry and prepare myself for future studies and the field. Whether I'm pursuing a career and research, industry, or education, I know that the classification of elements will remain a vital tool and my toolkit, helping me to navigate the complex and ever-evolving world of chemistry. 
 
@@ -272,10 +258,6 @@ As I continue to explore the world of chemistry, I realize that the classificati
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
 
-
-
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -287,19 +269,16 @@ Continue your [revision](/blog/geomorphology-class-11-revision-notes-cbse) with 
 - 📖 [Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet)
 - 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/classification-of-elements-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
-
-
 ---
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/geomorphology-class-11-revision-notes-cbse) with these related guides:
 
 - 📖 [Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet)
 - 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)

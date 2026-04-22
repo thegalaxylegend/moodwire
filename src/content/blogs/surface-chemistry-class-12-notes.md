@@ -11,12 +11,12 @@ manualReview: false
 ## ⚡ Formula Bank
 - Surface tension: $\sigma = \frac{F}{l}$
 - Surface energy: $E = \sigma \times A$
-- Work done in increasing surface area: $W = \sigma \times \Delta A$
+- Work done in increasing surface area: $W = \sigma \times \delta A$
 - Angle of contact: $\cos \theta = \frac{\sigma_{SG} - \sigma_{SL}}{\sigma_{LG}}$
 - Capillary rise: $h = \frac{2 \sigma \cos \theta}{r \rho g}$
 - Capillary depression: $h = \frac{2 \sigma \cos \theta}{r \rho g}$
-- Viscosity: $\eta = \frac{F}{A \frac{\Delta v}{\Delta x}}$
-- Poiseuille's formula: $Q = \frac{\pi \Delta P r^4}{8 \eta l}$
+- Viscosity: $\eta = \frac{F}{A \frac{\delta v}{\delta x}}$
+- Poiseuille's formula: $Q = \frac{\pi \delta P r^4}{8 \eta l}$
 
 ## 
 - Adsorption is the phenomenon of accumulation of molecules on the surface of a substance.
@@ -33,15 +33,15 @@ manualReview: false
 
 ## ✏️ 3 Solved PYQs
 - **Question 1:** What is the surface tension of a liquid if a force of $6 \times 10^{-2}$ N is required to increase the surface area of the liquid film by $1 \times 10^{-2}$ m?
-  - Solution: $\sigma = \frac{F}{l} = \frac{6 \times 10^{-2}}{1 \times 10^{-2}} = 0.6$ N/m
+  -  lution: \sigma = $\frac{F}{l}$ = $\frac{6 \times 10^{-2}$}{1 \times 10^{-2}} = 0.6 N/m 
 - **Question 2:** A certain gas is adsorbed by a solid surface, and the amount of gas adsorbed is $1.5 \times 10^{-3}$ kg per kg of the solid surface at a pressure of $1 \times 10^{5}$ Pa. If the temperature is increased to $50^{\circ}$C, the amount of gas adsorbed decreases to $1 \times 10^{-3}$ kg per kg of the solid surface. What is the heat of adsorption?
-  - Solution: $\Delta H = 2.303 R \log \frac{P_1}{P_2} \frac{x_2}{x_1} = 2.303 \times 8.314 \times \log \frac{1 \times 10^{5}}{1 \times 10^{5}} \frac{1 \times 10^{-3}}{1.5 \times 10^{-3}} = -2.48$ kJ/mol
+  - Solution: $\delta H = 2.303 R \log \frac{P_1}{P_2} \frac{x_2}{x_1} = 2.303 \times 8.314 \times \log \frac{1 \times 10^{5}}{1 \times 10^{5}} \frac{1 \times 10^{-3}}{1.5 \times 10^{-3}} = -2.48$ kJ/mol
 - **Question 3:** A liquid of density $1 \times 10^{3}$ kg/m$^3$ is filled in a capillary tube of radius $1 \times 10^{-3}$ m. If the surface tension of the liquid is $7 \times 10^{-2}$ N/m and the angle of contact is $0^{\circ}$, what is the height of the liquid column?
-  - Solution: $h = \frac{2 \sigma \cos \theta}{r \rho g} = \frac{2 \times 7 \times 10^{-2} \times \cos 0^{\circ}}{1 \times 10^{-3} \times 1 \times 10^{3} \times 9.8} = 0.143$ m
+  -  lution: h = $\frac{2 \sigma \cos \theta}{r \rho g}$ = $\frac{2 \times 7 \times 10^{-2}$ \times \cos 0^{\circ}}{1 \times 10^{-3} \times 1 \times 10^{3} \times 9.8} = 0.143 m 
 
 ## 🧠 The One Thing Most Students Get Wrong
 - The concept of adsorption and its distinction from absorption.
-- Many students confuse adsorption with absorption, and this can lead to incorrect answers in problems related to surface chemistry.
+- Many students confuse adsorption with absorption, and this can lead to incorrect answers in problems related to surface [chemistry](/blog/chemistry-in-everyday-life-class-12-notes).
 - Adsorption is a surface phenomenon, whereas absorption is a bulk phenomenon.
 - The amount of gas adsorbed by a solid surface decreases with increase in temperature, whereas the amount of gas absorbed by a liquid increases with increase in temperature.
 
@@ -54,44 +54,69 @@ manualReview: false
 ## 🔁 Last 5 Minutes Box
 - Surface tension: $\sigma = \frac{F}{l}$
 - Surface energy: $E = \sigma \times A$
-- Adsorption: $\frac{x}{m} = f(P, T, A)$
+-  Adsorption: $\frac{x}{m}$ = f(P, T, A) 
 - Capillary rise: $h = \frac{2 \sigma \cos \theta}{r \rho g}$
-- Viscosity: $\eta = \frac{F}{A \frac{\Delta v}{\Delta x}}$
+- Viscosity: $\eta = \frac{F}{A \frac{\delta v}{\delta x}}$
 
 ## 📝 Practice MCQs
 **1. What is the unit of surface tension?**
-- A) N/m$^2$
-- B) N/m
-- C) J/m$^2$
-- D) Pa
+-
+A) N/m$^2$
+-
+B) N/m
+-
+C) J/m$^2$
+-
+D) Pa
+
 **Answer: B) N/m**
 
 **2. Which of the following is a characteristic of adsorption?**
-- A) It is a bulk phenomenon
-- B) It is a surface phenomenon
-- C) It increases with increase in temperature
-- D) It decreases with increase in pressure
+-
+A) It is a bulk phenomenon
+-
+B) It is a surface phenomenon
+-
+C) It increases with increase in temperature
+-
+D) It decreases with increase in pressure
+
 **Answer: B) It is a surface phenomenon**
 
 **3. What is the formula for capillary rise?**
-- A) $h = \frac{2 \sigma \cos \theta}{r \rho g}$
-- B) $h = \frac{2 \sigma \sin \theta}{r \rho g}$
-- C) $h = \frac{\sigma \cos \theta}{r \rho g}$
-- D) $h = \frac{\sigma \sin \theta}{r \rho g}$
-**Answer: A) $h = \frac{2 \sigma \cos \theta}{r \rho g}$**
+-
+A) h = $\frac{2 \sigma \cos \theta}{r \rho g}$
+-
+B) h = $\frac{2 \sigma \sin \theta}{r \rho g}$
+-
+C) h = $\frac{\sigma \cos \theta}{r \rho g}$
+-
+D) h = $\frac{\sigma \sin \theta}{r \rho g}$
+
+**Answer: A) h = $\frac{2 \sigma \cos \theta}{r \rho g}$**
 
 **4. What is the unit of viscosity?**
-- A) Pa$\cdot$s
-- B) N$\cdot$s/m$^2$
-- C) kg/m$\cdot$s
-- D) N/m
+-
+A) Pa$\cdot$s
+-
+B) N$\cdot$s/m$^2$
+-
+C) kg/m$\cdot$s
+-
+D) N/m
+
 **Answer: C) kg/m$\cdot$s**
 
 **5. Which of the following is a factor that affects adsorption?**
-- A) Temperature
-- B) Pressure
-- C) Surface area
-- D) All of the above
+-
+A) Temperature
+-
+B) Pressure
+-
+C) Surface area
+-
+D) All of the above
+
 **Answer: D) All of the above**
 
 ---
@@ -101,3 +126,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Chemistry In Everyday Life Class 12 Chemistry Revision — Grandmaster Guide](/blog/chemistry-in-everyday-life-class-12-notes)
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)

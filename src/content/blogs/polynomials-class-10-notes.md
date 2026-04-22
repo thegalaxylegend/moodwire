@@ -9,7 +9,8 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- The general form of a polynomial is $a_nx^n + a_{n-1}x^{n-1} + \ldots + a_1x + a_0$, where $a_n \neq 0$.
+- The general form of a polynomial is $a_nx^n + a_{n-1}x^{n-1} + \ldots + a_1x + a_0$, where $a_n 
+eq 0$.
 - Degree of a polynomial is the highest power of the variable, denoted by $\deg(p(x))$.
 - If $p(x)$ is a polynomial and $a$ is a real number, then $p(a)$ is the value of the polynomial at $x = a$.
 - Factor theorem states that if $p(a) = 0$, then $(x - a)$ is a factor of $p(x)$.
@@ -60,38 +61,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the degree of the polynomial $x^3 + 2x^2 - 3x + 1$?**
-- A) 1
-- B) 2
-- C) 3
-- D) 4
+-
+A) 1
+-
+B) 2
+-
+C) 3
+-
+D) 4
+
 **Answer: C) 3. The degree of the polynomial is the highest power of the variable.**
 
 **2. If $x - 1$ is a factor of $x^2 + ax + 2$, then what is the value of $a$?**
-- A) 1
-- B) 2
-- C) 3
-- D) 4
+-
+A) 1
+-
+B) 2
+-
+C) 3
+-
+D) 4
+
 **Answer: C) 3. Use the factor theorem, which states that if $x - 1$ is a factor of $x^2 + ax + 2$, then $p(1) = 0$.**
 
 **3. What is the remainder when $x^3 - 2x^2 + 5x - 1$ is divided by $x - 1$?**
-- A) 1
-- B) 2
-- C) 3
-- D) 4
+-
+A) 1
+-
+B) 2
+-
+C) 3
+-
+D) 4
+
 **Answer: C) 3. Use the remainder theorem, which states that the remainder of the division is $p(1)$.**
 
 **4. What is the quotient when $x^4 + 2x^3 - 3x^2 + x - 1$ is divided by $x + 1$?**
-- A) $x^3 + x^2 - 4x + 5$
-- B) $x^3 + x^2 - 4x - 5$
-- C) $x^3 - x^2 - 4x + 5$
-- D) $x^3 - x^2 - 4x - 5$
+-
+A) $x^3 + x^2 - 4x + 5$
+-
+B) $x^3 + x^2 - 4x - 5$
+-
+C) $x^3 - x^2 - 4x + 5$
+-
+D) $x^3 - x^2 - 4x - 5$
+
 **Answer: A) $x^3 + x^2 - 4x + 5$. Use polynomial long division to divide $x^4 + 2x^3 - 3x^2 + x - 1$ by $x + 1$.**
 
 **5. If $p(x) = x^2 + ax + 2$ and $p(1) = 0$, then what is the value of $a$?**
-- A) 1
-- B) 2
-- C) 3
-- D) 4
+-
+A) 1
+-
+B) 2
+-
+C) 3
+-
+D) 4
+
 **Answer: C) 3. Use the factor theorem, which states that if $p(1) = 0$, then $x - 1$ is a factor of $p(x)$.**
 
 ---
@@ -101,3 +127,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Areas Related To Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/areas-related-to-circles-class-10-notes)
+- 📖 [Arithmetic Progressions Class 10 Exam Prep Revision — Grandmaster Guide](/blog/arithmetic-progressions-class-10-notes)
+- 📖 [Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/circles-class-10-notes)
+- 📖 [Pair Of Linear Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/pair-of-linear-equations-class-10-notes)

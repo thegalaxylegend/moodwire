@@ -9,9 +9,6 @@ practice_link: "/class-11/physics/oceanography-class-11-revision-notes-jee-neet"
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Oceanography?](#what-is-oceanography)
@@ -30,21 +27,11 @@ practice_link: "/class-11/physics/oceanography-class-11-revision-notes-jee-neet"
   - [Final Check](#final-check)
 - [📚 Related Topics](#-related-topics)
 
-
 # Oceanography Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-oceanography"></a>What is Oceanography?
 
-
-
-
-
 ## <a id="quick-revision-n-recap-oceanography"></a>Quick Revision & Recap: Oceanography
-
 
 Oceanography is the scientific study of the ocean, encompassing its properties, phenomena, n life forms. As a geography student, it's essential to grasp the core concepts of oceanography to excel and Class 11 n beyond. Here's a [quick](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) recap to get you started:
 
@@ -185,10 +172,6 @@ By confirming your understanding of these essential areas, you'll be confident a
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
 
-
-
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -200,13 +183,10 @@ Continue your [revision](/blog/classification-elements-periodicity-class-11-revi
 - 📖 [Biogeography Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biogeography-class-11-revision-notes-neet)
 - 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/oceanography-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
-
 
 ---
 

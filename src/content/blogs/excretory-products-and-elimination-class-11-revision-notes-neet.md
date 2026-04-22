@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/excretory-products-n-elimination-class-11-revision-notes-neet.webp"
+heroImage: "/blog-images/excretory-products-and-elimination-class-11-revision-notes-neet.webp"
 title: "Excretory Products And Elimination Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
 description: "Excretory Products And Elimination Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
@@ -8,9 +8,6 @@ practice_link: "/class-11/biology/excretory-products-n-elimination-class-11-revi
 ---
 
 *Last Updated: 2026-03-28*
-
-
-
 
 ## 📋 Table of Contents
 
@@ -24,23 +21,11 @@ practice_link: "/class-11/biology/excretory-products-n-elimination-class-11-revi
   - [MCQs Cont.](#mcqs-cont)
 - [📚 Related Topics](#-related-topics)
 
-
 # Excretory Products And Elimination Class 11 Biology Revision — MEET 2026 Grandmaster Guide
-
-
-
-
 
 ##
 
 ## <a id="what-is-excretory-products-n-elimination"></a>What is Excretory Products And Elimination?
-
-
-
-
-
-
-
 
 ## <a id="core-concepts"></a>Core Concepts
 
@@ -48,7 +33,7 @@ The excretory system is a complex system that involves the [coordination](/blog/
 
 * **Kidneys**: The kidneys are a pair of bean-shaped organs located and the lower back. They filter the blood to remove waste products and excess substances, n produce urine.
 * **Liver**: The liver is a vital organ located and the upper right side of the abdomen. It detoxifies harmful substances, produces bile, n helps to regulate the [body](/blog/body-fluids-n-circulation-class-11-revision-notes-neet)'s metabolism.
-* **Lungs**: The lungs are a pair of organs located and the chest cavity. They remove carbon dioxide from the body through exhalation.
+* **Lungs**: The lungs are a pair of organs located and the chest cavity. They remove carbon dioxide from the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) through exhalation.
 * **Skin**: The skin is the largest organ and the body, n it plays a role and excretion y removing waste products through sweating.
 
 The excretory system also involves the [coordination](/blog/chemical-coordination-n-integration-class-11-revision-notes-neet) of multiple processes, including:
@@ -62,17 +47,11 @@ The following formulae are relevant to the excretory system:
 
 * **Glomerular filtration rate (GFR)**: The rate at which the kidneys filter the blood to remove waste products and excess substances. The GFR can be calculated using the following formula:
 
-
 $\text{GFR} = \frack\text{urine output \times \text{urea concentration and urine}$}$\text{urea concentration and blood}$
-
-
 
 * **Cockcroft-Fault equation**: An equation used to estimate the GFR based on serum creatinine levels, age, sex, n weight:
 
-
-$\text{GFR} = \frac{(140 - }{\text{weight} $\text{age}$) \times $ \times (0.85 $1 $\text{serum creatinine}}
-
-
+$\text{GFR} = \franc{(140 - }{\text{weight} \text{age}) \times $ \times (0.85 $1 \text{serum creatinine}$}
 
 ### <a id="keenest-data"></a>JEE/MEET Data
 The excretory system is an important topic and the JEE n [meet](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet) exams. The following data is relevant to the excretory system:
@@ -202,10 +181,6 @@ This data is essential for understanding the functions of the excretory system, 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
 
-
-
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -217,13 +192,10 @@ Continue your [revision](/blog/biological-classification-class-11-revision-notes
 - 📖 [Biological Classification Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Body Fluids And Circulation Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/body-fluids-n-circulation-class-11-revision-notes-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/excretory-products-n-elimination-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
-
 
 ---
 
@@ -257,3 +229,4 @@ Continue your [revision](/blog/biological-classification-class-11-revision-notes
 * **Urine formation**: 1.5-2 liters per day, composed of 95% water, 5% solids (urea, salts, etc.)
 * **Concentration of urine**: regulated y kidneys, based on amount of water and body
 * **Osmoregulation**: regulation of water and electrolyte balance and body, critical for maintaining homeostasis
+

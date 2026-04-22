@@ -9,9 +9,6 @@ practice_link: "/class-11/physics/oscillations-class-11-revision-notes-jee-neet"
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Oscillations Revision Notes?](#what-is-oscillations-revision-notes)
@@ -35,18 +32,9 @@ practice_link: "/class-11/physics/oscillations-class-11-revision-notes-jee-neet"
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-
-
-
-
 ## <a id="what-is-oscillations-revision-notes"></a>What is Oscillations Revision Notes?
-
-
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -59,15 +47,11 @@ practice_link: "/class-11/physics/oscillations-class-11-revision-notes-jee-neet"
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 Nature is rhythmic. From the beating of a heart and the vibration of a guitar string to the atomic oscillations and a crystal lattice, the study of "Oscillations" is the study of repetitive motion. At the heart of this chapter is **Simple Harmonic Motion (SHM)**—a special type of periodic motion where the restoring force is directly proportional to the displacement. Understanding SHM is critical for mastering Waves, Optics, n Alternating Current n [class](/blog/kinetic-theory-class-11-revision-notes-jee-neet) 12. In this "Comprehensive" guide, we provide exhaustive derivations for SHM equations, energy profiles, n the physics of pendulums and springs—providing the ultimate preparation for JEE, NEET, n Board exams.
 
 ---
-
-
-
 
 ## <a id="1-periodic-n-oscillatory-motion"></a>1. Periodic and Oscillatory Motion
 
@@ -76,9 +60,6 @@ Nature is rhythmic. From the beating of a heart and the vibration of a guitar st
 - **Note:** Every oscillatory [motion](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) is periodic, but not every periodic [motion](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) is oscillatory.
 
 ---
-
-
-
 
 ## <a id="2-simple-harmonic-motion-shm"></a>2. Simple Harmonic Motion (SHM)
 
@@ -94,9 +75,6 @@ Nature is rhythmic. From the beating of a heart and the vibration of a guitar st
 This is the **General Equation of SHM**.
 
 ---
-
-
-
 
 ## <a id="3-derivations-mastersheet-kinematics-of-shm"></a>3. Derivations Master-Sheet: Kinematics of SHM
 
@@ -118,9 +96,6 @@ Starting from **x = A sin(ωt + φ)**:
 
 ---
 
-
-
-
 ## <a id="4-derivation-energy-n-shm"></a>4. Derivation: Energy and SHM
 
 ### <a id="i-potential-energy-u"></a>I. Potential Energy (U)
@@ -141,9 +116,6 @@ Starting from **x = A sin(ωt + φ)**:
 
 ---
 
-
-
-
 ## <a id="5-time-period-derivations"></a>5. Time Period Derivations
 
 ### <a id="i-simple-pendulum"></a>I. Simple Pendulum
@@ -160,9 +132,6 @@ Starting from **x = A sin(ωt + φ)**:
 
 ---
 
-
-
-
 ## <a id="6-free-damped-n-forced-oscillations"></a>6. Free, Damped, n Forced Oscillations
 
 - **Free:** Occur with the system's natural frequency under no external force.
@@ -171,9 +140,6 @@ Starting from **x = A sin(ωt + φ)**:
 - **Resonance:** When the external driving frequency matches the natural frequency, the amplitude reaches its maximum.
 
 ---
-
-
-
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
@@ -191,17 +157,11 @@ Starting from **x = A sin(ωt + φ)**:
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 2: [motion](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) n a Straight Line (Kinematic Kin)**
 - **Chapter 14: Waves (The Next Step)**
 - **SHM Phase and Phasor Diagram Masterclass**
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -212,10 +172,6 @@ Oscillations are the universal language of physical vibration. By mastering the 
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
-
-
-
-
 
 ---
 
@@ -228,13 +184,10 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 - 📖 [Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
 - 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/oscillations-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
-
 
 ---
 

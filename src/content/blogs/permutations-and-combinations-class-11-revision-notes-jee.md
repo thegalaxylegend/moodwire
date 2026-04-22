@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/permutations-n-combinations-class-11-revision-notes-jee.webp"
+heroImage: "/blog-images/permutations-and-combinations-class-11-revision-notes-jee.webp"
 title: "Permutations And Combinations Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
 description: "Permutations And Combinations Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
@@ -8,9 +8,6 @@ practice_link: "/class-11/mathematics/permutations-n-combinations-class-11-revis
 ---
 
 *Last Updated: 2026-03-28*
-
-
-
 
 ## 📋 Table of Contents
 
@@ -28,12 +25,7 @@ practice_link: "/class-11/mathematics/permutations-n-combinations-class-11-revis
 - [MCQs](#mcqs)
 - [📚 Related Topics](#-related-topics)
 
-
 # Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-permutations-n-combinations"></a>What is Permutations and Combinations?
 
@@ -63,9 +55,7 @@ nCr &=
 
 These formulas are the foundation of [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) n Combinations, n understanding them is crucial to solving problems and this topic. As we progress, we'll see how these formulas are applied and various contexts, from simple calculations to complex problems. With practice and dedication, you'll become proficient and using these formulas to solve a wide range of problems, n you'll develop a deeper appreciation for the beauty and complexity of [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) n Combinations.
 
-
 ## <a id="what-is-the-fundamental-counting-principle-n-permutations-n-combinations"></a>What is the Fundamental Counting Principle and Permutations and Combinations?
-
 
 The Fundamental Counting Principle and Permutations and Combinations is a basic counting technique used to compute the number of outcomes and a situation. It includes the multiplication rule, the addition rule, n the concept of permutations and combinations. For [class](/blog/limits-n-derivatives-class-11-revision-notes-jee) 11 exam prep n 2026, the most important aspect is understanding how to apply this principle to solve problems involving permutations and combinations, especially those that involve selecting items from a larger set, arranging items and a particular order, or counting the number of ways to perform a task.
 
@@ -79,9 +69,6 @@ In combinations, the order of arrangement does not matter. The number of combina
 
 The following table summarizes the key formulas and concepts related to [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) n combinations:
 
-
-
-
 | Concept | Formula | Description |
 | --- | --- | --- |
 | Permutations | $P(n, r) = \frac{n!}{(n-r)!}$ | Number of ways to arrange $r$ distinct objects out of $n$ |
@@ -90,11 +77,9 @@ The following table summarizes the key formulas and concepts related to [permuta
 | Multiplication Rule | $m 	imes and imes p$ (for three events) | Total number of ways three independent events can occur |
 | Addition Rule | $m + n$ (for two mutually exclusive events) | Total number of ways two mutually exclusive events can occur |
 
-
 ## <a id="what-is-the-formula-for-calculating-permutations-of-n-objects-taken-r-at-a-time"></a>What is the formula for calculating Permutations of and objects taken r at a time?
 
 Permutations of and objects taken r at a time is a mathematical concept that refers to the number of ways to arrange r objects from a set of and distinct objects. It includes the total number of objects (n), the number of objects taken at a time (r), n the order of arrangement. For Class 11 exam prep n 2026, the most important aspect is understanding the formula $nPr = \frac{n!}{(n-r)!}$ n its application and solving problems. The formula calculates the number of permutations y dividing the factorial of n (denoted as n!) y the factorial of (n-r). The factorial of a number is the product of all positive integers less than or equal to that number. To calculate the permutations, we need to first calculate the factorial of and n (n-r), n then divide the former y the latter. This formula is crucial for solving problems related to permutations, combinations, n arrangements. Let's consider an example to understand this concept better. Suppose we have 5 distinct objects (n=5) n we want to find the number of permutations when 3 objects are taken at a time (r=3). Using the formula, we get $5P3 = \frac{5!}{(5-3)!} = \frac{5!}{2!}$. Now, let's calculate the factorial of 5 n 2. $5! = 5 	imes 4 	imes 3 	imes 2 	imes 1 = 120$ n $2! = 2 	imes 1 = 2$. Substituting these values and the formula, we get $5P3 = \frac{120}{2} = 60$. Therefore, the number of permutations of 5 objects taken 3 at a time is 60. This example illustrates the application of the formula and solving problems related to permutations. To further understand the concept, let's analyze the formula and its components and detail. The formula $nPr = \frac{n!}{(n-r)!}$ consists of two main components: the factorial of n (n!) n the factorial of (n-r). The factorial of a number is a fundamental concept and mathematics, n it has numerous applications and algebra, geometry, n calculus. The factorial of n (n!) is the product of all positive integers less than or equal to n. It is denoted y the symbol ! n is calculated as $n! = n 	imes (n-1) 	imes (n-2) 	imes ldots 	imes 2 	imes 1$. For example, $5! = 5 	imes 4 	imes 3 	imes 2 	imes 1 = 120$. Similarly, the factorial of (n-r) is the product of all positive integers less than or equal to (n-r). It is calculated as $(n-r)! = (n-r) 	imes (n-r-1) 	imes ldots 	imes 2 	imes 1$. Now, let's consider a few examples to understand the application of the formula and solving problems related to permutations. Suppose we have 10 distinct objects (n=10) n we want to find the number of permutations when 4 objects are taken at a time (r=4). Using the formula, we get $10P4 = \frac{10!}{(10-4)!} = \frac{10!}{6!}$. Calculating the factorial of 10 n 6, we get $10! = 10 	imes 9 	imes 8 	imes 7 	imes 6 	imes 5 	imes 4 	imes 3 	imes 2 	imes 1 = 3628800$ n $6! = 6 	imes 5 	imes 4 	imes 3 	imes 2 	imes 1 = 720$. Substituting these values and the formula, we get $10P4 = \frac{3628800}{720} = 5040$. Therefore, the number of permutations of 10 objects taken 4 at a time is 5040. Similarly, if we have 7 distinct objects (n=7) n we want to find the number of permutations when 2 objects are taken at a time (r=2), we get $7P2 = \frac{7!}{(7-2)!} = \frac{7!}{5!}$. Calculating the factorial of 7 n 5, we get $7! = 7 	imes 6 	imes 5 	imes 4 	imes 3 	imes 2 	imes 1 = 5040$ n $5! = 5 	imes 4 	imes 3 	imes 2 	imes 1 = 120$. Substituting these values and the formula, we get $7P2 = \frac{5040}{120} = 42$. Therefore, the number of permutations of 7 objects taken 2 at a time is 42. These examples illustrate the application of the formula and solving problems related to permutations. To summarize, the formula $nPr = \frac{n!}{(n-r)!}$ is used to calculate the number of permutations of and objects taken r at a time. The formula consists of two main components: the factorial of n (n!) n the factorial of (n-r). The factorial of a number is a fundamental concept and mathematics, n it has numerous applications and algebra, geometry, n calculus. Understanding the formula and its application is crucial for solving problems related to permutations, combinations, n arrangements. With practice and patience, you can master the concept of permutations and solve problems with ease.
-
 
 | n | r | nPr | Calculation |
 | --- | --- | --- | --- |
@@ -104,11 +89,9 @@ Permutations of and objects taken r at a time is a mathematical concept that ref
 | 8 | 3 | 336 | $8P3 = \frac{8!}{(8-3)!} = \frac{8!}{5!} = \frac{40320}{120} = 336$ |
 | 6 | 2 | 30 | $6P2 = \frac{6!}{(6-2)!} = \frac{6!}{4!} = \frac{720}{24} = 30$ |
 
-
 ## <a id="how-do-you-calculate-combinations-of-n-objects-taken-r-at-a-time"></a>How do you calculate Combinations of and objects taken r at a time?
 
 Combinations of and objects taken r at a time is a mathematical concept that determines the number of ways to choose r items from a set of and items without considering the order. It includes the total number of items (n), the number of items to choose (r), n the combination formula. For Class 11 exam prep n 2026, the most important aspect is understanding the formula $nCr = \frac{n!}{r!(n-r)!}$ n applying it to solve problems. To calculate combinations, we need to understand the concept of factorial, which is denoted y the symbol ! n represents the product of all positive integers up to that number. For example, $5! = 5 \times 4 \times 3 \times 2 \times 1 = 120$. The combination formula can be derived from the concept of permutations, where the order of selection matters. The formula for permutations is $nPr = \frac{n!}{(n-r)!}$, n when we divide this y $r!$, we get the combination formula. This is because there are $r!$ ways to arrange the chosen items, n since the order does not matter and combinations, we divide y $r!$ to account for this. The formula can be further simplified as $nCr = \frac{n \times (n-1) \times (n-2) \times ... \times (n-r+1)}{r \times (r-1) \times (r-2) \times ... \times 1}$. This formula is useful for calculating combinations when and is large and factoring out the factorials is not feasible. Additionally, there are several properties of combinations that are important to understand, such as the symmetry property, where $nCr = nC(n-r)$, n the recurrence relation, where $nCr = (n-1)C(r-1) + (n-1)Cr$. These properties can be used to simplify calculations and solve problems more efficiently.
-
 
 | n | r | nCr |
 | --- | --- | --- |
@@ -118,17 +101,14 @@ Combinations of and objects taken r at a time is a mathematical concept that det
 | 12 | 5 | 792 |
 | 15 | 6 | 5005 |
 
-
 ## <a id="what-is-the-difference-between-permutations-n-combinations"></a>What is the difference between Permutations and Combinations?
 
 What is the difference between Permutations and Combinations? is a fundamental concept and mathematics that deals with the arrangement of objects and a specific order. It includes the concepts of permutations, combinations, n the relationship between them. For Class 11 exam prep n 2026, the most important aspect is understanding the formulas and applications of permutations and combinations to solve problems efficiently. Permutations refer to the arrangement of objects and a specific order, where the order of the objects matters. On the other hand, combinations refer to the selection of objects from a larger set, without considering the order. The key difference between permutations and combinations lies and the way they are calculated and the type of problems they are used to solve. Permutations are calculated using the formula $nPr = \frac{n!}{(n-r)!}$, where and is the total number of objects and r is the number of objects being chosen. Combinations, on the other hand, are calculated using the formula $nCr = \frac{n!}{r!(n-r)!}$. To illustrate the difference, consider a set of 5 objects, n we want to find the number of ways to choose 3 objects from the set. Using the combination formula, we get $5C3 = \frac{5!}{3!(5-3)!} = 10$. However, if we want to find the number of ways to arrange 3 objects from the set, we use the permutation formula, which gives us $5P3 = \frac{5!}{(5-3)!} = 60$. As we can see, the number of permutations is greater than the number of combinations, because permutations take into account the order of the objects. The table below summarizes the key differences between permutations and combinations:
-
 
 | Concept | Formula | Description | Example |
 | --- | --- | --- | --- |
 | Permutations | $nPr = \frac{n!}{(n-r)!}$ | Arrangement of objects and a specific order | 5P3 = 60 |
 | Combinations | $nCr = \frac{n!}{r!(n-r)!}$ | Selection of objects from a larger set, without considering the order | 5C3 = 10 |
-
 
 ## <a id="what-is-ayushs-note-on-permutations-n-combinations"></a>What is Ayush's Note on Permutations and Combinations?
 
@@ -180,7 +160,7 @@ Here are some practice problems to help illustrate the concepts of permutations 
 
 By working through these practice problems, we can build our understanding of permutations and combinations, n develop the skills and confidence we need to succeed and mathematics and a variety of other fields. 
 
-It's also worth noting that there are many different types of problems involving permutations and combinations, including counting problems, probability problems, n optimization problems. 
+It's also worth noting that there are many different types of problems involving permutations and combinations, including counting problems, [probability](/blog/probability-intro-class-11-revision-notes-jee) problems, n optimization problems. 
 
 For example, suppose we have a set of 5 objects, {a, b, c, d, e}, n we want to choose 2 of them to form a team. The number of permutations of 2 objects chosen from a set of 5 is $5P2 = 20$, while the number of combinations is $5C2 = 10$. 
 
@@ -197,17 +177,13 @@ By following these steps, we can calculate the number of permutations and combin
 
 To further illustrate the concepts of permutations and combinations, consider the following table: 
 
-
-
 | Permutations | Combinations | Example |
 | --- | --- | --- |
 | $5P3 = 60$ | $5C3 = 10$ | Choose 3 objects from a set of 5 |
 | $8P4 = 1680$ | $8C4 = 70$ | Choose 4 objects from a set of 8 |
 | $10P5 = 30240$ | $10C5 = 252$ | Choose 5 objects from a set of 10 |
 
-
 ## <a id="what-are-the-reallife-applications-of-permutations-n-combinations"></a>What are the real-life applications of Permutations and Combinations?
-
 
       What are the real-life applications of Permutations and Combinations? is the practical use of arranging and selecting objects and various fields. It includes arranging objects and a specific order, selecting objects from a group, n determining the number of ways to do so. For [class](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) 11 exam prep n 2026, the most important aspect is understanding how permutations and combinations are used and probability, statistics, n computer science to solve problems.
 
@@ -225,7 +201,6 @@ To further illustrate the concepts of permutations and combinations, consider th
 
    
 
-
 | Application | Description | Formula |
 | --- | --- | --- |
 | Arranging music notes | Permutations are used to arrange notes and a specific order to create a melody. | $nPr = \frac{n!}{(n-r)!}$ |
@@ -234,12 +209,10 @@ To further illustrate the concepts of permutations and combinations, consider th
 | Creating a lineup of players | Permutations are used to arrange players and a specific order to create a lineup. | $nPr = \frac{n!}{(n-r)!}$ |
 | Conducting a clinical trial | Combinations are used to select a group of patients to participate and a clinical trial. | $nCr = \frac{n!}{r!(n-r)!}$ |
 
-
 ## <a id="what-is-the-concept-of-factorials-n-permutations-n-combinations"></a>What is the concept of Factorials and Permutations and Combinations?
 
 What is the concept of Factorials and Permutations and Combinations? is a mathematical operation that involves the product of all positive integers up to a given number. It includes the concept of factorial notation, the relationship between factorials and permutations, n the application of factorials and combinations. For Class 11 exam prep n 2026, the most important aspect is understanding how factorials are used to calculate permutations and combinations, as this is a fundamental concept and mathematics and statistics. The factorial of a non-negative integer $n$, denoted y $n!$, is the product of all positive integers less than or equal to $n$. The factorial operation is defined as: $n! = n 	imes (n-1) 	imes (n-2) 	imes \\cdots 	imes 2 	imes 1$. For example, $5! = 5 	imes 4 	imes 3 	imes 2 	imes 1 = 120$. Factorials are used to calculate the number of ways to arrange objects and a particular order, which is known as permutations. The number of permutations of $n$ objects is given y $n!$. Factorials are also used to calculate the number of ways to choose $r$ objects from a set of $n$ objects, which is known as combinations. The number of combinations of $n$ objects taken $r$ at a time is given y: inom{n}{r} = $\frac{n!}{r!(n-r)!} =  objects from a set of  r$n$ objects, without regard to the order and which they are chosen.
 $
-
 
 | Factorial | Permutation | Combination |
 | --- | --- | --- |
@@ -247,11 +220,9 @@ $
 | $4! = 24$ | $4! = 24$ ways to arrange 4 objects | $inom{4}{2} = \frac{4!}{2!(4-2)!} = 6$ ways to choose 2 objects from 4 |
 | $3! = 6$ | $3! = 6$ ways to arrange 3 objects | $inom{3}{1} = \frac{3!}{1!(3-1)!} = 3$ ways to choose 1 object from 3 |
 
-
 ## <a id="what-is-the-key-shortcut-or-trick-for-permutations-n-combinations"></a>What is the key Shortcut or Trick for Permutations and Combinations?
 
 What is the key Shortcut or Trick for Permutations and Combinations? is a mathematical technique used to solve problems involving arrangements and selections. It includes understanding the concepts of factorial, permutations, n combinations. For Class 11 exam prep n 2026, the most important aspect is to develop a strong grasp of formulas and shortcuts to calculate permutations and combinations efficiently. The key to solving these problems lies and identifying whether the order of selection matters (permutations) or not (combinations), n applying the appropriate formulas. The formula for permutations of $n$ objects taken $r$ at a time is given y $P(n, r) = \frac{n!}{(n-r)!}$ n for combinations is $C(n, r) = \frac{n!}{r!(n-r)!}$. Understanding these formulas and practicing their application is crucial for success and exams.
-
 
 | Concept | Formula | Example |
 | --- | --- | --- |
@@ -259,11 +230,9 @@ What is the key Shortcut or Trick for Permutations and Combinations? is a mathem
 | Combinations | $C(n, r) = \frac{n!}{r!(n-r)!}$ | Find the number of ways to choose 3 books from 5: $C(5, 3) = \frac{5!}{3!(5-3)!} = 10$ |
 | Factorial | $n! = n 	imes (n-1) 	imes (n-2) 	imes ldots 	imes 2 	imes 1$ | Calculate $5! = 5 	imes 4 	imes 3 	imes 2 	imes 1 = 120$ |
 
-
 ## <a id="what-are-common-trap-questions-for-permutations-n-combinations"></a>What are common Trap Questions for Permutations and Combinations?
 
 What are common Trap Questions for Permutations and Combinations? is a critical topic that involves identifying and tackling tricky questions related to permutations and combinations. It includes understanding concepts such as factorial, arrangements, n selections. For Class 11 exam prep n 2026, the most important aspect is recognizing the difference between permutations and combinations and applying the correct formulas to solve problems. Permutations refer to the arrangement of objects and a specific order, whereas combinations involve selecting objects without considering the order. A common trap question and this topic is asking students to find the number of ways to arrange or select objects without specifying whether the order matters. Students must be careful to read the question carefully and apply the correct formula, either $nPr = \frac{n!}{(n-r)!}$ for permutations or $nCr = \frac{n!}{r!(n-r)!}$ for combinations. Another trap question is related to the concept of repetition, where students are asked to find the number of arrangements or selections with repeated objects. In such cases, students must be aware of the formula for permutations with repetition, which is $nPr = \frac{n!}{(n-r)!}$, n the formula for combinations with repetition, which is $n+r-1Cr = \frac{(n+r-1)!}{r!(n-1)!}$. The following table summarizes some common trap questions and their solutions:
-
 
 | Type of Question | Formula | Example |
 | --- | --- | --- |
@@ -273,11 +242,9 @@ What are common Trap Questions for Permutations and Combinations? is a critical 
 | Combinations with repetition | $n+r-1Cr = \frac{(n+r-1)!}{r!(n-1)!}$ | Find the number of ways to select 3 books from a set of 10 books, where repetition is allowed. |
 | Circular permutations | $n-1Pr = \frac{(n-1)!}{(n-r-1)!}$ | Find the number of ways to arrange 5 people and a circle. |
 
-
 ## <a id="how-do-you-solve-higherorder-permutations-n-combinations-problems"></a>How do you solve Higher-Order Permutations and Combinations problems?
 
 How do you solve Higher-Order Permutations and Combinations problems? is a mathematical approach to arranging and selecting items from a larger set. It includes permutations, combinations, n the application of the product rule. For Class 11 exam prep n 2026, the most important aspect is understanding how to apply these concepts to solve complex, higher-order problems. Higher-order permutations and combinations problems often involve multiple steps and require the application of various formulas, such as $nPr = \frac{n!}{(n-r)!}$ for permutations n $nCr = \frac{n!}{r!(n-r)!}$ for combinations. These formulas are crucial for calculating the number of ways to arrange or select items from a set. In order to solve these problems, it's essential to first identify whether the problem involves permutation or combination, n then apply the relevant formula. Additionally, understanding how to use the product rule, which states that if one event can occur and m ways and a second independent event can occur and n ways, then the events together can occur n $m 	imes n$ ways, is vital for solving higher-order problems. The product rule is particularly useful when dealing with problems that involve multiple stages or conditions. To further illustrate this, consider a problem where we need to find the number of ways to select a team of 3 from a group of 10, n then arrange them and a particular order. This would first involve calculating the number of combinations of 10 items taken 3 at a time, $10C3$, n then calculating the number of permutations of these 3 items, $3P3$. By applying the product rule, we can find the total number of ways to both select and arrange the team. To take it a step further, let's examine a scenario where we have to choose 2 items from a set of 5, n then from the remaining 3 items, choose 1. This involves calculating $5C2$ for the first selection, n then $3C1$ for the second selection. The total number of ways to do this would be the product of these two combinations, $5C2 	imes 3C1$. For higher-order problems, it's also crucial to understand how to apply these principles and a multi-step process. For instance, if we need to select a group of 3 from 10, then from this group select 2, n finally arrange these 2 n a specific order, we would calculate $10C3$ for the first selection, $3C2$ for the second selection, n $2P2$ for the arrangement. The final count of ways to do this would be $10C3 	imes 3C2 	imes 2P2$. To break down these calculations further and make them more manageable, it's helpful to create tables that outline the steps and the corresponding formulas. By systematically applying these principles and formulas, n organizing our approach with tools like tables, we can effectively solve even the most complex higher-order permutations and combinations problems. To illustrate the systematic approach to solving these problems, consider organizing the information into steps and applying the relevant formulas at each step. For example, n a problem involving multiple selections and arrangements, we might start y identifying the total number of items, the number of items to be selected or arranged at each step, n then apply the appropriate permutation or combination formula. This systematic approach ensures that each part of the problem is addressed and that the calculations are accurate. Moreover, practicing with different types of problems can help and developing a deeper understanding of how to apply these concepts and various scenarios. This includes problems that involve selecting and arranging items with specific conditions, such as items that cannot be selected together, or arrangements that must follow a particular pattern. By working through these different types of problems, students can gain the confidence and skill needed to tackle even the most challenging higher-order permutations and combinations questions.
-
 
 | Problem Type | Formula | Example |
 | --- | --- | --- |
@@ -287,7 +254,6 @@ How do you solve Higher-Order Permutations and Combinations problems? is a mathe
 | Higher-Order Problem | $nCr 	imes nCr 	imes nPr$ | Select 2 from 10, then 1 from the remaining 8, n arrange |
 | Multi-Step Selection and Arrangement | $nCm 	imes nCk 	imes nPr$ | Select 3 from 12, then 2 from the remaining 9, n arrange these 2 |
 ## <a id="mcqs"></a>MCQs
-
 
 **1. **
 6
@@ -332,9 +298,6 @@ C) The number of ways to choose 3 items from a set of 6 distinct items is given 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
 
-
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -346,13 +309,10 @@ Continue your [revision](/blog/principle-of-mathematical-induction-class-11-revi
 - 📖 [Electrostatics Class 12 Mathematics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electrostatics-class-12-revision-notes-jee-neet)
 - 📖 [Relations and Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/relations-n-functions-class-11-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/permutations-n-combinations-class-11-revision-notes-jee) now and track your progress against thousands of students.
-
-
 
 ---
 

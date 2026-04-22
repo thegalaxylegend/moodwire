@@ -10,12 +10,14 @@ manualReview: false
 
 ## ⚡ Formula Bank
 - The general form of a linear equation is $ax + by + c = 0$, where $a$, $b$, and $c$ are constants.
-- To find the solution of a pair of linear equations, we can use the method of substitution or elimination.
+- To find the solution of a pair of linear [equations](/blog/quadratic-equations-class-10-notes), we can use the method of substitution or elimination.
 - The substitution method involves solving one equation for one variable and then substituting that expression into the other equation.
 - The elimination method involves adding or subtracting the two equations to eliminate one variable.
-- The equations $a_1x + b_1y + c_1 = 0$ and $a_2x + b_2y + c_2 = 0$ have a unique solution if $\frac{a_1}{a_2} \neq \frac{b_1}{b_2}$.
+- The equations $a_1x + b_1y + c_1 = 0$ and $a_2x + b_2y + c_2 = 0$ have a unique solution if $\frac{a_1}{a_2} 
+eq $\frac{b_1}{b_2}.
 - If $\frac{a_1}{a_2} = \frac{b_1}{b_2} = \frac{c_1}{c_2}$, then the equations have infinitely many solutions.
-- If $\frac{a_1}{a_2} = \frac{b_1}{b_2} \neq \frac{c_1}{c_2}$, then the equations have no solution.
+- If $\frac{a_1}{a_2} = \frac{b_1}{b_2} 
+eq $\frac{c_1}{c_2}, then the equations have no solution.
 - The graph of a linear equation is a straight line, and the solution of a pair of linear equations is the point of intersection of the two lines.
 
 ## 🪤 The 5 Mistakes That Cost Marks
@@ -49,9 +51,11 @@ manualReview: false
 - The most common mistake students make when solving pairs of linear equations is not checking if the equations are consistent or inconsistent before solving them.
 - If the equations are inconsistent, there is no solution, and if the equations are consistent, there is either a unique solution or infinitely many solutions.
 - To check for consistency, we need to calculate the ratio of the coefficients of $x$ and $y$ in both equations and compare them with the ratio of the constants.
-- If $\frac{a_1}{a_2} \neq \frac{b_1}{b_2}$, the equations are consistent and have a unique solution.
+- If $\frac{a_1}{a_2} 
+eq $\frac{b_1}{b_2}, the equations are consistent and have a unique solution.
 - If $\frac{a_1}{a_2} = \frac{b_1}{b_2} = \frac{c_1}{c_2}$, the equations are consistent and have infinitely many solutions.
-- If $\frac{a_1}{a_2} = \frac{b_1}{b_2} \neq \frac{c_1}{c_2}$, the equations are inconsistent and have no solution.
+- If $\frac{a_1}{a_2} = \frac{b_1}{b_2} 
+eq $\frac{c_1}{c_2}, the equations are inconsistent and have no solution.
 
 ## 👁️ Ayush's Note
 - When solving pairs of linear equations, it is essential to check for consistency before solving them.
@@ -69,39 +73,64 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. Question:** Solve the equations $x + 2y - 3 = 0$ and $2x + 3y - 4 = 0$.
-- A) $x = 1$, $y = 1$
-- B) $x = -1$, $y = 2$
-- C) $x = 2$, $y = -1$
-- D) $x = 3$, $y = -2$
+-
+A) $x = 1$, $y = 1$
+-
+B) $x = -1$, $y = 2$
+-
+C) $x = 2$, $y = -1$
+-
+D) $x = 3$, $y = -2$
+
 **Answer:** B) $x = -1$, $y = 2$
 
 **2. Question:** Solve the equations $2x + 3y - 7 = 0$ and $x - 2y - 3 = 0$.
-- A) $x = 1$, $y = 1$
-- B) $x = \frac{23}{7}$, $y = \frac{1}{21}$
-- C) $x = 2$, $y = -1$
-- D) $x = 3$, $y = -2$
-**Answer:** B) $x = \frac{23}{7}$, $y = \frac{1}{21}$
+-
+A) $x = 1$, $y = 1$
+-
+B) x = $\frac{23}{7}$, y = $\frac{1}{21}$
+-
+C) $x = 2$, $y = -1$
+-
+D) $x = 3$, $y = -2$
+
+**Answer:** B) x = \frac{23}{7}, y = \frac{1}{21}
 
 **3. Question:** Solve the equations $x + y - 2 = 0$ and $2x + 2y - 5 = 0$.
-- A) $x = 1$, $y = 1$
-- B) $x = -1$, $y = 3$
-- C) $x = 2$, $y = 0$
-- D) $x = 3$, $y = -1$
+-
+A) $x = 1$, $y = 1$
+-
+B) $x = -1$, $y = 3$
+-
+C) $x = 2$, $y = 0$
+-
+D) $x = 3$, $y = -1$
+
 **Answer:** C) $x = 2$, $y = 0$
 
 **4. Question:** Solve the equations $x - y - 1 = 0$ and $2x + 3y - 12 = 0$.
-- A) $x = 1$, $y = 1$
-- B) $x = 3$, $y = 2$
-- C) $x = 2$, $y = -1$
-- D) $x = 3$, $y = -2$
+-
+A) $x = 1$, $y = 1$
+-
+B) $x = 3$, $y = 2$
+-
+C) $x = 2$, $y = -1$
+-
+D) $x = 3$, $y = -2$
+
 **Answer:** B) $x = 3$, $y = 2$
 
 **5. Question:** Solve the equations $2x + 3y - 7 = 0$ and $x - 2y - 3 = 0$.
-- A) $x = 1$, $y = 1$
-- B) $x = \frac{23}{7}$, $y = \frac{1}{21}$
-- C) $x = 2$, $y = -1$
-- D) $x = 3$, $y = -2$
-**Answer:** B) $x = \frac{23}{7}$, $y = \frac{1}{21}$
+-
+A) $x = 1$, $y = 1$
+-
+B) x = $\frac{23}{7}$, y = $\frac{1}{21}$
+-
+C) $x = 2$, $y = -1$
+-
+D) $x = 3$, $y = -2$
+
+**Answer:** B) x = \frac{23}{7}, y = \frac{1}{21}
 
 ---
 
@@ -110,3 +139,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Linear Equations In One Variable 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-one-variable-class-8-notes)
+- 📖 [Linear Equations In Two Variables 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-two-variables-class-9-notes)
+- 📖 [Quadratic Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/quadratic-equations-class-10-notes)
+- 📖 [Differential Equations Class 12 Exam Prep Revision — Grandmaster Guide](/blog/differential-equations-class-12-notes)

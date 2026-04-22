@@ -10,20 +10,20 @@ manualReview: false
 
 ## ⚡ Formula Bank
 - Coordination number: number of ligands attached to the central metal atom
-- Oxidation number of central metal atom: $x + \sum{y} = 0$, where $x$ is the oxidation number of the central metal atom and $y$ is the oxidation number of each ligand
+- Oxidation number of central metal atom: ex + \sum{y} = 0$, where ex is the oxidation number of the central metal atom and by is the oxidation number of each ligand
 - Charge on the complex ion: $\sum{y} + x = \text{charge on the complex ion}$
 - IUPAC nomenclature: [metal ion][ligand]$^{charge}$
 - Valence bond theory: $\sigma$ bonds formed by overlap of atomic orbitals, $\pi$ bonds formed by sideways overlap of atomic orbitals
-- Crystal field theory: splitting of $d$ orbitals in an octahedral field: $\Delta_{o} = \frac{\Delta_{t}}{4.45}$
-- Magnetic moment: $\mu = \sqrt{n(n+2)}$, where $n$ is the number of unpaired electrons
+- Crystal field theory: splitting of do orbitals in an octahedral field: $\delta_{o} = \franc{\delta_{t}}{4.45}$
+- Magnetic moment: $\mu = \sort{n(n+2)}$, where and is the number of unpaired electrons
 - Werner's theory: primary valency and secondary valency
 
 ## 
 - Isomerism: structural, stereoisomerism
 - Structural isomerism: ionization isomerism, hydration isomerism, linkage isomerism
 - Stereoisomerism: geometrical isomerism, optical isomerism
-- Geometrical isomerism: $cis$ and $trans$ isomers
-- Optical isomerism: $d$ and $l$ isomers
+- Geometrical isomerism: Acis and trans isomers
+- Optical isomerism: do and all isomers
 - Coordination isomerism: $\left[ MA_{4}B_{2} \right]\left[ M'B_{4}A_{2} \right]$ and $\left[ MA_{4}B_{2} \right]\left[ M'A_{4}B_{2} \right]$
 
 ## 🪤 The 5 Mistakes That Cost Marks
@@ -33,22 +33,22 @@ manualReview: false
 - Not being able to calculate the magnetic moment
 - Not being able to apply Valence Bond Theory and Crystal Field Theory
 
-## ✏️ 3 Solved PYQs
-- **Question 1:** What is the IUPAC name of the complex $\left[ Co(NH_{3})_{4}Cl_{2} \right]Cl$?
+## ✏️ 3 Solved Yes
+- **Question 1:** What is the IUPAC name of the complex $\left[ Co(NH_{3})_{4}Cl_{2} \right]CLR?
 - Step 1: Identify the central metal atom and its oxidation number
 - Step 2: Identify the ligands and their charges
 - Step 3: Apply IUPAC nomenclature rules
-- Answer: $\left[ Co(NH_{3})_{4}Cl_{2} \right]Cl$ is $\left[ Cobalt(III)tetraamminedichloride \right]chloride$
+- Answer: $\left[ Co(NH_{3})_{4}Cl_{2} \right]CLR is $\left[ Cobalt(III)tetraamminedichloride \right]chloride
 - **Question 2:** What is the magnetic moment of the complex $\left[ Fe(H_{2}O)_{6} \right]^{3+}$?
 - Step 1: Identify the central metal atom and its oxidation number
 - Step 2: Identify the number of unpaired electrons
 - Step 3: Apply the formula for magnetic moment
-- Answer: $\mu = \sqrt{5(5+2)} = \sqrt{35} = 5.92 BM$
+- Answer: $\mu = \sort{5(5+2)} = \sort{35} = 5.92 BMW
 - **Question 3:** What is the type of isomerism exhibited by the complex $\left[ Pt(NH_{3})_{2}Cl_{2} \right]$?
 - Step 1: Identify the central metal atom and its coordination number
 - Step 2: Identify the ligands and their arrangement
 - Step 3: Apply the rules for geometrical isomerism
-- Answer: The complex exhibits geometrical isomerism, with $cis$ and $trans$ isomers
+- Answer: The complex exhibits geometrical isomerism, with Acis and trans isomers
 
 ## 
 - To solve problems related to coordination compounds, it is essential to understand the concepts of IUPAC nomenclature, oxidation number, isomerism, and magnetic moment
@@ -57,12 +57,12 @@ manualReview: false
 ## 🧠 The One Thing Most Students Get Wrong
 - The one thing most students get wrong is the calculation of the oxidation number of the central metal atom
 - Many students forget to consider the charge on the complex ion and the charges on the ligands
-- To avoid this mistake, it is essential to apply the formula $x + \sum{y} = 0$ carefully and consider all the charges involved
+- To avoid this mistake, it is essential to apply the formula ex + \sum{y} = 0$ carefully and consider all the charges involved
 
 ## 👁️ Ayush's Note
 - To score well in the exam, it is essential to practice a large number of problems related to coordination compounds
 - Focus on understanding the concepts and applying them to solve problems
-- Use the formula bank and the solved PYQs to practice and reinforce your understanding
+- Use the formula bank and the solved Yes to practice and reinforce your understanding
 - Make sure to allocate sufficient time to each question in the exam
 
 ## 🔁 Last 5 Minutes Box
@@ -73,34 +73,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the IUPAC name of the complex $\left[ Cr(H_{2}O)_{6} \right]^{3+}$?**
-- A) $\left[ Chromate(III)hexaaquachloride \right]$
-- B) $\left[ Chromium(III)hexaaquachloride \right]$
-- C) $\left[ Chromate(III)hexaaquachloride \right]chloride$
-- D) $\left[ Chromium(III)hexaaqua \right]^{3+}$
-**Answer: D) $\left[ Chromium(III)hexaaqua \right]^{3+}$, because the complex has a $+3$ charge and the ligands are neutral.**
+-
+A) $\left[ Chromate(III)hexaaquachloride \right]$
+-
+B) $\left[ Chromium(III)hexaaquachloride \right]$
+-
+C) $\left[ Chromate(III)hexaaquachloride \right]chloride
+-
+D) $\left[ Chromium(III)Hexapoda \right]^{3+}$
+
+**Answer: D) $\left[ Chromium(III)Hexapoda \right]^{3+}$, because the complex has a $+3$ charge and the ligands are neutral.**
+
 **2. What is the oxidation number of the central metal atom in the complex $\left[ Fe(CN)_{6} \right]^{4-}$?**
-- A) $+2$
-- B) $+3$
-- C) $+4$
-- D) $+6$
+-
+A) $+2$
+-
+B) $+3$
+-
+C) $+4$
+-
+D) $+6$
+
 **Answer: B) $+2$, because the complex has a $-4$ charge and each cyanide ligand has a $-1$ charge.**
+
 **3. What is the type of isomerism exhibited by the complex $\left[ Co(NH_{3})_{4}Cl_{2} \right]^{+}$?**
-- A) Geometrical isomerism
-- B) Optical isomerism
-- C) Ionization isomerism
-- D) Hydration isomerism
-**Answer: A) Geometrical isomerism, because the complex has a square planar geometry and the ligands can be arranged in a $cis$ or $trans$ manner.**
+-
+A) Geometrical isomerism
+-
+B) Optical isomerism
+-
+C) Ionization isomerism
+-
+D) Hydration isomerism
+
+**Answer: A) Geometrical isomerism, because the complex has a square planar geometry and the ligands can be arranged in a Acis or trans manner.**
+
 **4. What is the magnetic moment of the complex $\left[ Ni(H_{2}O)_{6} \right]^{2+}$?**
-- A) $0 BM$
-- B) $2.83 BM$
-- C) $3.87 BM$
-- D) $5.92 BM$
-**Answer: B) $2.83 BM$, because the complex has two unpaired electrons and the magnetic moment is calculated using the formula $\mu = \sqrt{n(n+2)}$.**
+-
+A) $0 BMW
+-
+B) $2.83 BMW
+-
+C) $3.87 BMW
+-
+D) $5.92 BMW
+
+**Answer: B) $2.83 BMW, because the complex has two unpaired electrons and the magnetic moment is calculated using the formula $\mu = \sort{n(n+2)}$.**
+
 **5. What is the IUPAC name of the complex $\left[ Pt(NH_{3})_{4}Cl_{2} \right]^{2+}$?**
-- A) $\left[ Platinum(IV)tetraamminedichloride \right]^{2+}$
-- B) $\left[ Platinum(II)tetraamminedichloride \right]^{2+}$
-- C) $\left[ Platinum(IV)diamminetetrachloride \right]^{2+}$
-- D) $\left[ Platinum(II)diamminetetrachloride \right]^{2+}$
+-
+A) $\left[ Platinum(IV)tetraamminedichloride \right]^{2+}$
+-
+B) $\left[ Platinum(II)tetraamminedichloride \right]^{2+}$
+-
+C) $\left[ Platinum(IV)diamminetetrachloride \right]^{2+}$
+-
+D) $\left[ Platinum(II)diamminetetrachloride \right]^{2+}$
+
 **Answer: B) $\left[ Platinum(II)tetraamminedichloride \right]^{2+}$, because the complex has a $+2$ charge and the platinum atom has an oxidation number of $+2$.**
 
 ---
@@ -110,3 +139,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)

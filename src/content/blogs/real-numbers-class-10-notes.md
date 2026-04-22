@@ -12,8 +12,10 @@ manualReview: false
 - The set of natural numbers is denoted by $\mathbb{N}$ and is given by $\mathbb{N} = \{1, 2, 3, ...\}$
 - The set of whole numbers is denoted by $\mathbb{W}$ and is given by $\mathbb{W} = \{0, 1, 2, 3, ...\}$
 - The set of integers is denoted by $\mathbb{Z}$ and is given by $\mathbb{Z} = \{..., -3, -2, -1, 0, 1, 2, 3, ...\}$
-- The set of rational numbers is denoted by $\mathbb{Q}$ and is given by $\mathbb{Q} = \{\frac{p}{q} : p, q \in \mathbb{Z}, q \neq 0\}$
-- The set of irrational numbers is denoted by $\mathbb{I}$ and is given by $\mathbb{I} = \{x : x \notin \mathbb{Q}\}$
+- The set of rational numbers is denoted by $\mathbb{Q}$ and is given by $\mathbb{Q} = \{\frac{p}{q} : p, q \in \mathbb{Z}, q 
+eq 0\}$
+- The set of irrational numbers is denoted by $\mathbb{I}$ and is given by $\mathbb{I} = \{x : x 
+otin $\mathbb{Q}$\}$
 - $\sqrt{x}$ is the square root of $x$, where $x \geq 0$
 - $\sqrt{x}$ satisfies the equation $\sqrt{x} \times \sqrt{x} = x$
 - $a^2 - b^2 = (a + b)(a - b)$
@@ -47,9 +49,11 @@ manualReview: false
 
  
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students get wrong the concept of rational and irrational numbers, and they are not able to identify whether a given number is rational or irrational.
-- A rational number is a number that can be expressed in the form $\frac{p}{q}$, where $p$ and $q$ are integers and $q \neq 0$.
-- An irrational number is a number that cannot be expressed in the form $\frac{p}{q}$, where $p$ and $q$ are integers and $q \neq 0$.
+- Most students get wrong the concept of [rational](/blog/rational-numbers-class-8-notes) and irrational numbers, and they are not able to identify whether a given number is [rational](/blog/rational-numbers-class-8-notes) or irrational.
+- A rational number is a number that can be expressed in the form $\frac{p}{q}$, where $p$ and $q$ are integers and $q 
+eq 0$.
+- An irrational number is a number that cannot be expressed in the form $\frac{p}{q}$, where $p$ and $q$ are integers and $q 
+eq 0$.
 - For example, $\frac{1}{2}$ is a rational number, while $\sqrt{2}$ is an irrational number.
 
  
@@ -57,7 +61,7 @@ manualReview: false
 - Always remember that the set of real numbers includes all rational and irrational numbers.
 - The set of real numbers is denoted by $\mathbb{R}$ and is given by $\mathbb{R} = \mathbb{Q} \cup \mathbb{I}$.
 - The real numbers can be represented on a number line, with the rational numbers being the points that can be expressed as $\frac{p}{q}$, and the irrational numbers being the points that cannot be expressed as $\frac{p}{q}$.
-- The concept of real numbers is very important in mathematics, and it is used in many areas, such as algebra, geometry, and calculus.
+- The concept of real numbers is very important in mathematics, and it is used in many [areas](/blog/areas-related-to-circles-class-10-notes), such as algebra, geometry, and calculus.
 
  
 ## 🔁 Last 5 Minutes Box
@@ -70,38 +74,65 @@ manualReview: false
  
 ## 📝 Practice MCQs
 **1. What is the value of $\sqrt{25}$?**
-- A) 4
-- B) 5
-- C) 6
-- D) 7
+-
+A) 4
+-
+B) 5
+-
+C) 6
+-
+D) 7
+
 **Answer: B) 5. The square root of 25 is 5, since $5 \times 5 = 25$.
 
 **2. Which of the following is a rational number?**
-- A) $\sqrt{2}$
-- B) $\frac{1}{2}$
-- C) $\pi$
-- D) $\sqrt{3}$
-**Answer: B) $\frac{1}{2}$. A rational number is a number that can be expressed in the form $\frac{p}{q}$, where $p$ and $q$ are integers and $q \neq 0$.
+-
+A) $\sqrt{2}$
+-
+B) $\frac{1}{2}$
+-
+C) \pi
+-
+D) $\sqrt{3}$
+
+**Answer: B) $\frac{1}{2}$. A rational number is a number that can be expressed in the form $\frac{p}{q}$, where $p$ and $q$ are integers and $q 
+eq 0$.
 
 **3. What is the value of $(2 + \sqrt{3})(2 - \sqrt{3})$?**
-- A) 1
-- B) 2
-- C) 3
-- D) 4
+-
+A) 1
+-
+B) 2
+-
+C) 3
+-
+D) 4
+
 **Answer: A) 1. Using the formula $a^2 - b^2 = (a + b)(a - b)$, we get $(2 + \sqrt{3})(2 - \sqrt{3}) = 2^2 - (\sqrt{3})^2 = 4 - 3 = 1$.
 
 **4. Which of the following is an irrational number?**
-- A) $\frac{1}{2}$
-- B) $\sqrt{4}$
-- C) $\sqrt{2}$
-- D) $\frac{3}{4}$
-**Answer: C) $\sqrt{2}$. An irrational number is a number that cannot be expressed in the form $\frac{p}{q}$, where $p$ and $q$ are integers and $q \neq 0$.
+-
+A) $\frac{1}{2}$
+-
+B) $\sqrt{4}$
+-
+C) $\sqrt{2}$
+-
+D) $\frac{3}{4}$
+
+**Answer: C) $\sqrt{2}$. An irrational number is a number that cannot be expressed in the form $\frac{p}{q}$, where $p$ and $q$ are integers and $q 
+eq 0$.
 
 **5. What is the value of $\frac{2x + 1}{3x - 2}$ when $x = 3$?**
-- A) $\frac{1}{2}$
-- B) $\frac{2}{3}$
-- C) $\frac{3}{4}$
-- D) $\frac{7}{7}$
+-
+A) $\frac{1}{2}$
+-
+B) $\frac{2}{3}$
+-
+C) $\frac{3}{4}$
+-
+D) $\frac{7}{7}$
+
 **Answer: D) $\frac{7}{7}$. Substituting $x = 3$ in the expression $\frac{2x + 1}{3x - 2}$, we get $\frac{2(3) + 1}{3(3) - 2} = \frac{6 + 1}{9 - 2} = \frac{7}{7} = 1$.
 
 ---
@@ -111,3 +142,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+**
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Rational Numbers 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/rational-numbers-class-8-notes)
+- 📖 [Areas Related To Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/areas-related-to-circles-class-10-notes)
+- 📖 [Arithmetic Progressions Class 10 Exam Prep Revision — Grandmaster Guide](/blog/arithmetic-progressions-class-10-notes)
+- 📖 [Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/circles-class-10-notes)

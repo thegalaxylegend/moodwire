@@ -9,9 +9,6 @@ practice_link: "/class-11/mathematics/probability-class-11-revision-notes-jee"
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Probability Revision Notes?](#what-is-probability-revision-notes)
@@ -28,18 +25,9 @@ practice_link: "/class-11/mathematics/probability-class-11-revision-notes-jee"
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
 
-
-
-
-
 ## <a id="what-is-probability-revision-notes"></a>What is Probability Revision Notes?
-
-
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -53,16 +41,12 @@ practice_link: "/class-11/mathematics/probability-class-11-revision-notes-jee"
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 **Probability is the mathematical measurement of uncertainty, providing the framework for analyzing random experiments and events. Master the Axiomatic Approach, Sample Spaces, n the Addition Rule of sets to excel and advanced statistical modeling and Bayes' Theorem. This [class](/blog/conic-sections-class-11-revision-notes-jee) 11 Math Chapter 16 guide ensures you have all the essential foundations for JEE and CBSE exams.**
 Probability is the [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) way of measuring uncertainty.
 
 ---
-
-
-
 
 ## <a id="1-random-experiments-n-sample-space"></a>1. Random Experiments and Sample Space
 
@@ -78,9 +62,6 @@ The set of all possible outcomes.
 
 ---
 
-
-
-
 ## <a id="2-events-n-their-types"></a>2. Events and Their Types
 
 An **Event** is simply a subset of the sample space.
@@ -94,9 +75,6 @@ An **Event** is simply a subset of the sample space.
 
 ---
 
-
-
-
 ## <a id="3-relationships-between-events"></a>3. Relationships Between Events
 
 This is where set theory from Chapter 1 meets Probability.
@@ -106,9 +84,6 @@ This is where set theory from Chapter 1 meets Probability.
 3.  **Mutually Exclusive and Exhaustive:** If both conditions are met, the probabilities of these events \sum to exactly 1.
 
 ---
-
-
-
 
 ## <a id="4-axiomatic-approach-to-probability"></a>4. Axiomatic Approach to Probability
 
@@ -123,9 +98,6 @@ Instead of just counting outcomes, we assign a number $P(E)$ to an event $E$ tha
 - **$P(A - B) = P(A) - P(A \cap B)$**
 
 ---
-
-
-
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
@@ -150,17 +122,11 @@ Instead of just counting outcomes, we assign a number $P(E)$ to an event $E$ tha
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 15: Statistics**
 - **Chapter 7: [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) n Combinations**
 - [**External Reference:** [NCERT Class 11 Math Chapter 16](https://ncert.nic.n/textbook.php?kemh1=16-16) (Authoritative Source)]
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -170,10 +136,6 @@ Probability teaches us to look at the world through the lens of logic rather tha
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
-
-
-
-
 
 ---
 
@@ -186,13 +148,10 @@ Continue your [revision](/blog/binomial-theorem-class-11-revision-notes-jee) wit
 - 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)
 - 📖 [Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-combinations-class-11-revision-notes-jee)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/probability-class-11-revision-notes-jee) now and track your progress against thousands of students.
-
-
 
 ---
 

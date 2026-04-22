@@ -9,9 +9,6 @@ practice_link: "/class-11/biology/biogeography-class-11-revision-notes-neet"
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Biogeography?](#what-is-biogeography)
@@ -31,24 +28,11 @@ practice_link: "/class-11/biology/biogeography-class-11-revision-notes-neet"
   - [Ayush's Personal Note](#ayushs-personal-note)
 - [📚 Related Topics](#-related-topics)
 
-
 # Biogeography Class 11 Biology Revision — MEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-biogeography"></a>What is Biogeography?
 
-
-
-
-
-
-
-
 ## <a id="quick-revision-n-recap-biogeography"></a>Quick Revision & Recap: Biogeography
-
 
 Biogeography is the study of the geographical distribution of living organisms. It aims to understand the patterns and processes that have led to the [current](/blog/current-electricity-class-11-revision-notes-neet) distribution of species across the globe. Key terms to recall:
 * **Endemic species**: species found only and a specific geographical area
@@ -77,10 +61,7 @@ Some key formulae and tables to remember and biogeography include:
 
  MPH = -\sum_{i=1}^{S}p_i \ln p_in 
 
-
 where THE is the Shannon-Wiener index, IS is the number of species, n up_in is the proportion of individuals of species n
-
-
 
 ### <a id="MCQs"></a>MCQs
 Some practice MCQs to test your understanding of biogeography:
@@ -168,10 +149,6 @@ As I complete my review of biogeography, I am reminded of the importance of this
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
 
-
-
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -183,13 +160,10 @@ Continue your [revision](/blog/moving-charges-magnetism-class-11-revision-notes-
 - 📖 [Agriculture Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/agriculture-class-11-revision-notes-neet)
 - 📖 [Body Fluids And Circulation Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/body-fluids-n-circulation-class-11-revision-notes-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/biogeography-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
-
 
 ---
 

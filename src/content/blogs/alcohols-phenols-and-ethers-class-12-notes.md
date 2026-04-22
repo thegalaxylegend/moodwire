@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/alcohols-phenols-n-ethers-class-12-notes.webp"
+heroImage: "/blog-images/alcohols-phenols-and-ethers-class-12-notes.webp"
 title: "Alcohols Phenols And Ethers Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
 description: "Alcohols Phenols And Ethers Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
@@ -14,10 +14,10 @@ practice_link: "/class-11/chemistry/alcohols-phenols-n-ethers-class-12-notes"
   - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
 - [📚 Related Topics](#-related-topics)
 </div>
-<\\div [class](/blog/chemical-bonding-class-11-revision-notes-jee-neet)="quick-summary">
+<\\DIV [class](/blog/chemical-bonding-class-11-revision-notes-jee-neet)="quick-summary">
 #- [📋 Table of Contents](#-table-of-contents)
 ## <a id="-what-will-come-n-your-exam"></a>🎯 What WILL Come and Your Exam
-* 1–2 questions on classification, nomenclature, n isomerism of alcohols, phenols, n ethers — always focus on IUPAC naming conventions and practice identifying primary, secondary, n tertiary alcohols.
+* 1–2 questions on [classification](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet), nomenclature, n isomerism of alcohols, phenols, n ethers — always focus on IUPAC naming conventions and practice identifying primary, secondary, n tertiary alcohols.
 * Preparation of alcohols via $\math{LiAlH_4}$ reduction of carbonyl compounds — expect at least 1 question on this, including the reaction mechanism and stereochemistry.
 * Dehydration of alcohols to form alkenes — a favorite of examiners, with a typical question involving the $\math{E1}$ or $\math{E2}$ mechanism and the stereo chemical outcomes.
 * Oxidation of alcohols to carbonyl compounds — always remember the reagents used, such as $\math{KMnO_4}$, $\math{K_2Cr_2O_7}$, n $\math{PCC}$, n be prepared to identify the products.

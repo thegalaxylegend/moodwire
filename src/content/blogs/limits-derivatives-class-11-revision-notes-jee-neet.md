@@ -9,9 +9,6 @@ practice_link: "/class-11/physics/limits-derivatives-class-11-revision-notes-jee
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Limits Derivatives Revision Notes?](#what-is-limits-derivatives-revision-notes)
@@ -28,18 +25,9 @@ practice_link: "/class-11/physics/limits-derivatives-class-11-revision-notes-jee
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-
-
-
-
 ## <a id="what-is-limits-derivatives-revision-notes"></a>What is Limits Derivatives Revision Notes?
-
-
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -54,16 +42,12 @@ practice_link: "/class-11/physics/limits-derivatives-class-11-revision-notes-jee
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 **Limits and Derivatives mark the birth of Calculus, defining the mathematics of change and instantaneous motion. Master the algebra of limits, the Sandwich Theorem, n the First Principle of differentiation to excel and advanced physical modeling and engineering. This [class](/blog/mathematical-induction-class-11-revision-notes-jee-neet) 11 Math Chapter 13 guide provides all essential calculus foundations for JEE and CBSE success.**
 Limits and Derivatives mark the birth of Calculus, the mathematics of change.
 
 ---
-
-
-
 
 ## <a id="1-concept-of-limits"></a>1. Concept of Limits
 
@@ -75,9 +59,6 @@ A limit describes the behavior of a function f(x) as x gets closer and closer to
 
 ---
 
-
-
-
 ## <a id="2-algebra-of-limits"></a>2. Algebra of Limits
 
 If limₓ→ₐ f(x) n limₓ→ₐ g(x) exist:
@@ -88,25 +69,19 @@ If limₓ→ₐ f(x) n limₓ→ₐ g(x) exist:
 
 ---
 
-
-
-
 ## <a id="3-standard-limits-n-sandwich-theorem"></a>3. Standard Limits and Sandwich Theorem
 
 ### <a id="standard-formulas"></a>Standard Formulas:
 *   **Polynomial:** limₓ→ₐ (xⁿ - aⁿ) / (x - a) = naⁿ⁻¹
 *   **Trigonometric:** 
-    -  →₀ (\sin x) / x = 1 
-    -  →₀ (1 - \cos x) / x = 0 
-    -  →₀ (\tan x) / x = 1 
+    -   \sin x) / x = 1 
+    -   1 - \cos x) / x = 0 
+    -   \tan x) / x = 1 
 
 ### <a id="sandwich-theorem-squeeze-theorem"></a>Sandwich Theorem (Squeeze Theorem):
 If f(x) ≤ g(x) ≤ h(x) for all x and an interval, n limₓ→ₐ f(x) = limₓ→ₐ h(x) = L, then **limₓ→ₐ g(x) = L**.
 
 ---
-
-
-
 
 ## <a id="4-derivatives-first-principle"></a>4. Derivatives (First Principle)
 
@@ -116,22 +91,16 @@ This process of finding the derivative using the limit definition is called **Di
 
 ---
 
-
-
-
 ## <a id="5-basic-derivative-rules"></a>5. Basic Derivative Rules
 
 1.  **Constant:** d/dx (c) = 0
 2.  **Power:** d/dx (xⁿ) = nxⁿ⁻¹
 3.  **Trigonometric:**
-    -  (\sin x) = \cos x 
-    -  (\cos x) = -\sin x 
-    -  (\tan x) = sec² x 
+    -   n x) = \cos x 
+    -   s x) = -\sin x 
+    -   n x) = sec² x 
 
 ---
-
-
-
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
@@ -146,28 +115,22 @@ This process of finding the derivative using the limit definition is called **Di
 - f(x+h) = (x+h)² + 2(x+h) + 1 = x² + 2xh + h² + 2x + 2h + 1
 - f(x+h) - f(x) = 2xh + h² + 2h
 - f'(x) = limₕ→₀ [h(2x + h + 2) / h] = limₕ→₀ [2x + h + 2]
--  **f'(x) = 2x + 2**. 
+-   **f'(x) = 2x + 2**. 
 
 **Q3: Differentiate y = x · \sin x using Product Rule.**
 **Answer:**
--  u = x, v = \sin x 
--  u' = 1, v' = \cos x 
--  y' = u'v + uv' = (1)(\sin x) + (x)(\cos x) 
--  **y' = \sin x + x \cos x**. 
+-   u = x, v = \sin x 
+-   u' = 1, v' = \cos x 
+-   y' = u'v + uv' = (1)(\sin x) + (x)(\cos x) 
+-   **y' = \sin x + x \cos x**. 
 
 ---
-
-
-
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 2: [relations](/blog/relations-functions-class-11-revision-notes-jee-neet) n Functions**
 - **Chapter 14: [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) Reasoning**
 - [**External Reference:** [NCERT Class 11 Math Chapter 13](https://ncert.nic.n/textbook.php?kemh1=13-16) (Authoritative Source)]
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -177,10 +140,6 @@ Limits and Derivatives are the tools that allow us to calculate the "slope of a 
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
-
-
-
-
 
 ---
 
@@ -193,13 +152,10 @@ Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
 - 📖 [Units And Measurements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/units-n-measurements-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/limits-derivatives-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
-
 
 ---
 

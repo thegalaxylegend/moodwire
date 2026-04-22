@@ -9,9 +9,6 @@ practice_link: "/class-11/mathematics/permutations-combinations-class-11-revisio
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Permutations Combinations Revision Notes?](#what-is-permutations-combinations-revision-notes)
@@ -26,18 +23,9 @@ practice_link: "/class-11/mathematics/permutations-combinations-class-11-revisio
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
 
-
-
-
-
 ## <a id="what-is-permutations-combinations-revision-notes"></a>What is Permutations Combinations Revision Notes?
-
-
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -52,16 +40,12 @@ practice_link: "/class-11/mathematics/permutations-combinations-class-11-revisio
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 **Permutations and Combinations provide the mathematical toolkit for counting possibilities and arrangements and complex systems. Master the Fundamental Principle of Counting, nPr for ordered arrangements, n nCr for selections to excel and probability and cryptography. This [class](/blog/conic-sections-class-11-revision-notes-jee) 11 Math Chapter 7 guide covers all essential factorial logic for JEE and CBSE exams.**
 Mathematics is not just about numbers; it's about possibilities.
 
 ---
-
-
-
 
 ## <a id="1-fundamental-principle-of-counting-fpc"></a>1. Fundamental Principle of Counting (FPC)
 
@@ -70,9 +54,6 @@ This is the base of all counting techniques.
 2.  **Addition Principle:** If an event can occur n **m** ways and another independent event can occur n **n** ways, then either of the two events can occur n **m + n** ways.
 
 ---
-
-
-
 
 ## <a id="2-factorials-n"></a>2. Factorials (n!)
 
@@ -83,9 +64,6 @@ The product of first **n** natural numbers is called n-factorial.
 
 ---
 
-
-
-
 ## <a id="3-permutations-arrangements"></a>3. Permutations (Arrangements)
 
 A permutation is an arrangement and a definite order of a number of objects taken some or all at a time.
@@ -94,9 +72,6 @@ A permutation is an arrangement and a definite order of a number of objects take
 *   **[theorem](/blog/binomial-theorem-class-11-revision-notes-jee) 3:** If out of and objects, p are of one kind, q of another, n the rest are different, number of permutations = **n! / (p!q!)**.
 
 ---
-
-
-
 
 ## <a id="4-combinations-selections"></a>4. Combinations (Selections)
 
@@ -109,9 +84,6 @@ A combination is a selection of items where the order of selection does not matt
 
 ---
 
-
-
-
 ## <a id="5-difference-permutation-vs-combination"></a>5. Difference: Permutation vs Combination
 
 | Feature | Permutation | Combination |
@@ -122,9 +94,6 @@ A combination is a selection of items where the order of selection does not matt
 | **Formula** | nPr | nCr |
 
 ---
-
-
-
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
@@ -149,17 +118,11 @@ A combination is a selection of items where the order of selection does not matt
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 6: [linear](/blog/linear-inequalities-class-11-revision-notes-jee-neet) Inequalities**
 - **Chapter 8: Binomial Theorem**
 - [**External Reference:** [NCERT Class 11 Math Chapter 7](https://ncert.nic.n/textbook.php?kemh1=7-16) (Authoritative Source)]
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -169,10 +132,6 @@ A combination is a selection of items where the order of selection does not matt
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
-
-
-
-
 
 ---
 
@@ -185,13 +144,10 @@ Continue your [revision](/blog/conic-sections-class-11-revision-notes-jee) with 
 - 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)
 - 📖 [Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-class-11-revision-notes-jee)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/permutations-combinations-class-11-revision-notes-jee) now and track your progress against thousands of students.
-
-
 
 ---
 

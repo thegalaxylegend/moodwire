@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/work-energy-n-power-class-11-revision-notes-neet.webp"
+heroImage: "/blog-images/work-energy-and-power-class-11-revision-notes-neet.webp"
 title: "Work Energy And Power Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Work Energy And Power Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
@@ -8,9 +8,6 @@ practice_link: "/class-11/biology/work-energy-n-power-class-11-revision-notes-ne
 ---
 
 *Last Updated: 2026-03-28*
-
-
-
 
 ## 📋 Table of Contents
 
@@ -34,18 +31,9 @@ practice_link: "/class-11/biology/work-energy-n-power-class-11-revision-notes-ne
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Work Energy And Power Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-
-
-
-
 ## <a id="what-is-work-energy-n-power-revision-notes"></a>What is Work Energy And Power Revision Notes?
-
-
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -58,15 +46,11 @@ practice_link: "/class-11/biology/work-energy-n-power-class-11-revision-notes-ne
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 While forces describe the "how" of [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet), **Energy** n **Work** describe the "capability" of a system to undergo change. This chapter introduces the scalar approach to Mechanics, which often simplifies complex vector problems into straightforward energy balances. Whether we are analyzing the energy stored and a compressed spring or the impact of a high-speed collision, the rules of Work and Energy are universal. In this "Comprehensive" guide, we provide exhaustive derivations for the Work-Energy Theorem, Spring Potential Energy, n Power formulas, as well as a deep dive into the mechanics of elastic and inelastic collisions for JEE and NEET excellence.
 
 ---
-
-
-
 
 ## <a id="1-work-the-transfer-of-energy"></a>1. Work: The Transfer of Energy
 
@@ -81,9 +65,6 @@ In physics, **Work (W)** is done only when a force causes a displacement.
 3.  **Zero Work (θ = 90°):** Force is perpendicular (e.g., Work done y gravity on a person walking horizontally).
 
 ---
-
-
-
 
 ## <a id="2-the-workenergy-theorem-we-theorem"></a>2. The Work-Energy Theorem (WE Theorem)
 
@@ -100,9 +81,6 @@ In physics, **Work (W)** is done only when a force causes a displacement.
     - **W = 1/2 mv² - 1/2 mu²**. (Proven)
 
 ---
-
-
-
 
 ## <a id="3-kinetic-n-potential-energy"></a>3. Kinetic and Potential Energy
 
@@ -123,9 +101,6 @@ The "stored" energy due to an object’s position or configuration and a conserv
 
 ---
 
-
-
-
 ## <a id="4-conservation-of-mechanical-energy"></a>4. Conservation of Mechanical Energy
 
 **Theorem:** In the presence of only conservative forces, the total [mechanical](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) energy (**K + U**) of a system remains constant.
@@ -135,9 +110,6 @@ At descent height x: v² = 2gx. K = 1/2 m(2gx) = mgx. U = mg(H-x). Total = **mgH
 **Result:** Total energy is constant at every point and the flight.
 
 ---
-
-
-
 
 ## <a id="5-power-the-rate-of-work"></a>5. Power: The Rate of Work
 
@@ -151,9 +123,6 @@ At descent height x: v² = 2gx. K = 1/2 m(2gx) = mgx. U = mg(H-x). Total = **mgH
 
 ---
 
-
-
-
 ## <a id="6-collisions-momentum-meets-energy"></a>6. Collisions: Momentum Meets Energy
 
 ### <a id="i-elastic-collision-1d"></a>I. Elastic Collision (1D)
@@ -164,9 +133,6 @@ At descent height x: v² = 2gx. K = 1/2 m(2gx) = mgx. U = mg(H-x). Total = **mgH
 - **Perfectly Inelastic:** Objects stick together after impact (**e = 0**).
 
 ---
-
-
-
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
@@ -181,17 +147,11 @@ At descent height x: v² = 2gx. K = 1/2 m(2gx) = mgx. U = mg(H-x). Total = **mgH
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 4: Laws of [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet) (Momentum Concepts)**
 - **Chapter 6: System of Particles & Rotational [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet)**
 - **Mastering Collision Physics: Numerical Vault**
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -202,10 +162,6 @@ Energy is the invisible currency of the universe. By shifting our perspective fr
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
-
-
-
-
 
 ---
 
@@ -218,13 +174,10 @@ Continue your [revision](/blog/mechanical-properties-of-solids-class-11-revision
 - 📖 [Laws Of Motion Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
 - 📖 [Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/current-electricity-class-11-revision-notes-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/work-energy-n-power-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
-
 
 ---
 

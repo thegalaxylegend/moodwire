@@ -64,38 +64,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the value of the determinant of the matrix $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$?**
-- A) 2
-- B) -2
-- C) 10
-- D) -10
+-
+A) 2
+-
+B) -2
+-
+C) 10
+-
+D) -10
+
 **Answer: B) -2. Explanation: The determinant of the matrix is given by $\frac{1 \times 4}{1} - \frac{2 \times 3}{1} = 4 - 6 = -2$**
 
 **2. What is the value of the inverse of the matrix $\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$?**
-- A) $\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$
-- B) $\begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}$
-- C) $\begin{bmatrix} 1 & 1 \\ 1 & 1 \end{bmatrix}$
-- D) $\begin{bmatrix} 0 & 0 \\ 0 & 0 \end{bmatrix}$
+-
+A) $\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$
+-
+B) $\begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}$
+-
+C) $\begin{bmatrix} 1 & 1 \\ 1 & 1 \end{bmatrix}$
+-
+D) $\begin{bmatrix} 0 & 0 \\ 0 & 0 \end{bmatrix}$
+
 **Answer: A) $\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$. Explanation: The inverse of the identity matrix is the identity matrix itself**
 
 **3. What is the value of the adjoint of the matrix $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$?**
-- A) $\begin{bmatrix} 4 & -2 \\ -3 & 1 \end{bmatrix}$
-- B) $\begin{bmatrix} 4 & 2 \\ 3 & 1 \end{bmatrix}$
-- C) $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$
-- D) $\begin{bmatrix} 0 & 0 \\ 0 & 0 \end{bmatrix}$
+-
+A) $\begin{bmatrix} 4 & -2 \\ -3 & 1 \end{bmatrix}$
+-
+B) $\begin{bmatrix} 4 & 2 \\ 3 & 1 \end{bmatrix}$
+-
+C) $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$
+-
+D) $\begin{bmatrix} 0 & 0 \\ 0 & 0 \end{bmatrix}$
+
 **Answer: A) $\begin{bmatrix} 4 & -2 \\ -3 & 1 \end{bmatrix}$. Explanation: The adjoint of the matrix is given by $\begin{bmatrix} 4 & -2 \\ -3 & 1 \end{bmatrix}$**
 
 **4. What is the value of the inverse of the matrix $\begin{bmatrix} 2 & 1 \\ 4 & 2 \end{bmatrix}$?**
-- A) $\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$
-- B) $\begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}$
-- C) $\begin{bmatrix} 1 & 1 \\ 1 & 1 \end{bmatrix}$
-- D) The matrix is singular and does not have an inverse
+-
+A) $\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$
+-
+B) $\begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}$
+-
+C) $\begin{bmatrix} 1 & 1 \\ 1 & 1 \end{bmatrix}$
+-
+D) The matrix is singular and does not have an inverse
+
 **Answer: D) The matrix is singular and does not have an inverse. Explanation: The determinant of the matrix is zero, so the matrix is singular and does not have an inverse**
 
 **5. What is the value of the determinant of the matrix $\begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}$?**
-- A) 0
-- B) 1
-- C) 2
-- D) 3
+-
+A) 0
+-
+B) 1
+-
+C) 2
+-
+D) 3
+
 **Answer: B) 1. Explanation: The determinant of the identity matrix is 1**
 
 ---
@@ -105,3 +130,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)

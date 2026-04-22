@@ -54,34 +54,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the poverty line in India?**
-- A) $ \frac{2000}{\text{calories}} $
-- B) $ \frac{2400}{\text{calories}} $
-- C) $ \frac{2800}{\text{calories}} $
-- D) $ \frac{3000}{\text{calories}} $
+-
+A) $\frac{2000}{\text{calories}$}
+-
+B) $\frac{2400}{\text{calories}$}
+-
+C) $\frac{2800}{\text{calories}$}
+-
+D) $\frac{3000}{\text{calories}$}
+
 **Answer: B) $ \frac{2400}{\text{calories}} $, as it is the minimum level of income required to secure the basic necessities of life.**
+
 **2. What is the difference between unemployment and underemployment?**
-- A) Unemployment refers to the state of being without a job, while underemployment refers to the state of being employed, but not fully utilized.
-- B) Unemployment refers to the state of being employed, but not fully utilized, while underemployment refers to the state of being without a job.
-- C) Unemployment and underemployment are the same thing.
-- D) Unemployment is a type of underemployment.
+-
+A) Unemployment refers to the state of being without a job, while underemployment refers to the state of being employed, but not fully utilized.
+-
+B) Unemployment refers to the state of being employed, but not fully utilized, while underemployment refers to the state of being without a job.
+-
+C) Unemployment and underemployment are the same thing.
+-
+D) Unemployment is a type of underemployment.
+
 **Answer: A) Unemployment refers to the state of being without a job, while underemployment refers to the state of being employed, but not fully utilized.**
+
 **3. What is the Gini Coefficient?**
-- A) A measure of poverty
-- B) A measure of income inequality
-- C) A measure of unemployment
-- D) A measure of economic growth
+-
+A) A measure of poverty
+-
+B) A measure of income inequality
+-
+C) A measure of unemployment
+-
+D) A measure of economic growth
+
 **Answer: B) A measure of income inequality, as it provides a snapshot of the distribution of income within a population.**
+
 **4. What is the Headcount Ratio?**
-- A) The percentage of population living below the poverty line
-- B) The percentage of population living above the poverty line
-- C) The percentage of population that is unemployed
-- D) The percentage of population that is underemployed
+-
+A) The percentage of population living below the poverty line
+-
+B) The percentage of population living above the poverty line
+-
+C) The percentage of population that is unemployed
+-
+D) The percentage of population that is underemployed
+
 **Answer: A) The percentage of population living below the poverty line, as it is a measure of poverty.**
+
 **5. What is the Poverty Gap Index?**
-- A) A measure of the depth of poverty
-- B) A measure of the breadth of poverty
-- C) A measure of income inequality
-- D) A measure of economic growth
+-
+A) A measure of the depth of poverty
+-
+B) A measure of the breadth of poverty
+-
+C) A measure of income inequality
+-
+D) A measure of economic growth
+
 **Answer: A) A measure of the depth of poverty, as it calculates the poverty gap as a percentage of the poverty line.**
 
 ---
@@ -91,3 +120,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [3d Geometry Intro Class 11 Mathematics Revision — Grandmaster Guide](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet)
+- 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
+- 📖 [Physics Mechanics Class 11 Exam Prep Revision — Grandmaster Guide](/blog/physics-mechanics-class-11-revision-notes-jee-neet)
+- 📖 [Trigonometric Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)

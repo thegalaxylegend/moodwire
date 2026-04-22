@@ -9,9 +9,6 @@ practice_link: "/class-11/ancient-india-indus-valley-class-11-revision-notes-cbs
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Ancient India Indus Valley?](#what-is-ancient-india-indus-valley)
@@ -29,22 +26,9 @@ practice_link: "/class-11/ancient-india-indus-valley-class-11-revision-notes-cbs
 - [---](#)
 - [📚 Related Topics](#-related-topics)
 
-
 # Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide
 
-
-
-
-
 ## <a id="what-is-ancient-India-Indus-valley"></a>What is Ancient India Indus Valley?
-
-
-
-
-
-
-
-
 
 ## <a id="introduction-to-ancient-India"></a>Introduction to Ancient India
 
@@ -116,8 +100,7 @@ By focusing on these key points, I can quickly review and recap the Indus Valley
 
 The growth of the Indus Valley Civilization can be represented y the following equation:
 
- \frac{dP}{dt} = RP \left(1 - \frac{P}{K}\right) 
-
+ \franc{dP}{dt} = RP \left(1 - \franc{P}{K}\right) 
 
 Where UP is the population, are is the growth rate, n OK is the carrying capacity.
 
@@ -135,9 +118,6 @@ The Indus Valley Civilization has had a lasting impact on the cultural heritage 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
 
-
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -149,13 +129,10 @@ Continue your [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-j
 - 📖 [Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/fundamental-rights-class-11-revision-notes-cbse)
 - 📖 [Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog/geomorphology-class-11-revision-notes-cbse)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/ancient-india-indus-valley-class-11-revision-notes-cbse) now and track your progress against thousands of students.
-
-
 
 ---
 

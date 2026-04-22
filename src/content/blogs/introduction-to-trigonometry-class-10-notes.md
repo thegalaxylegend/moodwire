@@ -12,12 +12,12 @@ manualReview: false
 - $\sin \theta = \frac{\text{opposite side}}{\text{hypotenuse}}$
 - $\cos \theta = \frac{\text{adjacent side}}{\text{hypotenuse}}$
 - $\tan \theta = \frac{\text{opposite side}}{\text{adjacent side}}$
-- $\sin^2 \theta + \cos^2 \theta = 1$
-- $\tan \theta = \frac{\sin \theta}{\cos \theta}$
-- $\sin (90^\circ - \theta) = \cos \theta$
-- $\cos (90^\circ - \theta) = \sin \theta$
-- $\sin (180^\circ - \theta) = \sin \theta$
-- $\cos (180^\circ - \theta) = -\cos \theta$
+-  \sin^2 \theta + \cos^2 \theta = 1 
+-  \tan \theta = $\frac{\sin \theta}{\cos \theta}$
+-  \sin (90^\circ - \theta) = \cos \theta 
+-  \cos (90^\circ - \theta) = \sin \theta 
+-  \sin (180^\circ - \theta) = \sin \theta 
+-  \cos (180^\circ - \theta) = -\cos \theta 
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not using the correct quadrant to find the values of $\sin \theta$, $\cos \theta$, and $\tan \theta$
@@ -47,7 +47,7 @@ manualReview: false
 - Many students forget that the values of $\sin \theta$, $\cos \theta$, and $\tan \theta$ depend on the quadrant in which the angle lies.
 - For example, $\sin \theta$ is positive in the first and second quadrants, and negative in the third and fourth quadrants.
 - Similarly, $\cos \theta$ is positive in the first and fourth quadrants, and negative in the second and third quadrants.
-- It is essential to understand the concept of quadrants and the signs of trigonometric functions in each quadrant to solve problems in trigonometry.
+- It is essential to understand the concept of quadrants and the signs of trigonometric functions in each quadrant to solve problems in [trigonometry](/blog/applications-of-trigonometry-class-10-notes).
 
 ## 👁️ Ayush's Note
 - Always remember that the trigonometric functions $\sin \theta$, $\cos \theta$, and $\tan \theta$ are defined as ratios of the sides of a right-angled triangle.
@@ -64,38 +64,64 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. If $\sin \theta = \frac{1}{2}$, then the value of $\cos \theta$ is**
-- A) $\frac{1}{\sqrt{2}}$
-- B) $\frac{\sqrt{3}}{2}$
-- C) $\frac{1}{2}$
-- D) $\frac{\sqrt{2}}{2}$
+-
+A) $\frac{1}{\sqrt{2}$}
+-
+B) $\frac{\sqrt{3}$}{2}
+-
+C) $\frac{1}{2}$
+-
+D) $\frac{\sqrt{2}$}{2}
+
 **Answer: B) $\frac{\sqrt{3}}{2}$, since $\sin^2 \theta + \cos^2 \theta = 1$, we get $\left(\frac{1}{2}\right)^2 + \cos^2 \theta = 1$, which gives $\cos^2 \theta = \frac{3}{4}$, and therefore $\cos \theta = \frac{\sqrt{3}}{2}$**
 
 **2. The value of $\tan 45^\circ$ is**
-- A) $1$
-- B) $\frac{1}{\sqrt{2}}$
-- C) $\frac{\sqrt{2}}{2}$
-- D) $\frac{1}{2}$
+-
+A) $1$
+-
+B) $\frac{1}{\sqrt{2}$}
+-
+C) $\frac{\sqrt{2}$}{2}
+-
+D) $\frac{1}{2}$
+
 **Answer: A) $1$, since $\tan \theta = \frac{\sin \theta}{\cos \theta}$, and $\sin 45^\circ = \cos 45^\circ = \frac{1}{\sqrt{2}}$, we get $\tan 45^\circ = \frac{\frac{1}{\sqrt{2}}}{\frac{1}{\sqrt{2}}} = 1$**
 
 **3. If $\cos \theta = \frac{2}{3}$, then the value of $\sin \theta$ is**
-- A) $\frac{1}{3}$
-- B) $\frac{\sqrt{5}}{3}$
-- C) $\frac{2}{3}$
-- D) $\frac{1}{\sqrt{3}}$
+-
+A) $\frac{1}{3}$
+-
+B) $\frac{\sqrt{5}$}{3}
+-
+C) $\frac{2}{3}$
+-
+D) $\frac{1}{\sqrt{3}$}
+
 **Answer: B) $\frac{\sqrt{5}}{3}$, since $\sin^2 \theta + \cos^2 \theta = 1$, we get $\sin^2 \theta + \left(\frac{2}{3}\right)^2 = 1$, which gives $\sin^2 \theta = \frac{5}{9}$, and therefore $\sin \theta = \frac{\sqrt{5}}{3}$**
 
-**4. The value of $\sin (90^\circ - \theta)$ is**
-- A) $\sin \theta$
-- B) $\cos \theta$
-- C) $\tan \theta$
-- D) $\cos (90^\circ - \theta)$
+**4. The value of $\sin (90^\circ - \thet
+a)$ is**
+-
+A) \sin \theta
+-
+B) \cos \theta
+-
+C) \tan \theta
+-
+D) \cos (90^\circ - \theta)
+
 **Answer: B) $\cos \theta$, since $\sin (90^\circ - \theta) = \cos \theta$**
 
 **5. If $\tan \theta = \frac{3}{4}$, then the value of $\sin \theta$ is**
-- A) $\frac{3}{4}$
-- B) $\frac{3}{5}$
-- C) $\frac{4}{5}$
-- D) $\frac{1}{5}$
+-
+A) $\frac{3}{4}$
+-
+B) $\frac{3}{5}$
+-
+C) $\frac{4}{5}$
+-
+D) $\frac{1}{5}$
+
 **Answer: B) $\frac{3}{5}$, since $\tan \theta = \frac{\sin \theta}{\cos \theta}$, and $\tan \theta = \frac{3}{4}$, we get $\frac{\sin \theta}{\cos \theta} = \frac{3}{4}$, which gives $\sin \theta = \frac{3}{5}$**
 
 ---
@@ -105,3 +131,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Applications Of Trigonometry Class 10 Mathematics Revision — Grandmaster Guide](/blog/applications-of-trigonometry-class-10-notes)
+- 📖 [Coordinate Geometry Class 10 Mathematics Revision — Grandmaster Guide](/blog/coordinate-geometry-class-10-notes)
+- 📖 [3d Geometry Intro Class 11 Mathematics Revision — Grandmaster Guide](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet)
+- 📖 [Algebraic Expressions 8 Class 8 Mathematics Revision — Grandmaster Guide](/blog/algebraic-expressions-class-8-notes)

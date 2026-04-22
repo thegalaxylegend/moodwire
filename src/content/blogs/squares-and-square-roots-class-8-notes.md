@@ -12,12 +12,12 @@ manualReview: false
 - The square of a number is obtained by multiplying the number by itself, i.e., $a^2 = a \times a$
 - The square root of a number is a value that, when multiplied by itself, gives the original number, i.e., $\sqrt{a} \times \sqrt{a} = a$
 - $\sqrt{a} \times \sqrt{b} = \sqrt{a \times b}$
-- $\frac{\sqrt{a}}{\sqrt{b}} = \sqrt{\frac{a}{b}}$
+-  $\frac{\sqrt{a}$}{$\sqrt{b}$} = $\sqrt{\frac{a}{b}$} 
 - $(a + b)^2 = a^2 + 2ab + b^2$
 - $(a - b)^2 = a^2 - 2ab + b^2$
 - $a^2 - b^2 = (a + b)(a - b)$
 - To find the square root of a decimal number, convert it to a fraction and then find the square root
-- To find the square root of a fraction, find the square roots of the numerator and the denominator separately
+- To find the square root of a fraction, find the square [roots](/blog/cubes-and-cube-roots-class-8-notes) of the numerator and the denominator separately
 
 ## 
 - Key properties of squares and square roots to remember: $\sqrt{a} \times \sqrt{a} = a$, $\sqrt{a} \times \sqrt{b} = \sqrt{a \times b}$, and $\frac{\sqrt{a}}{\sqrt{b}} = \sqrt{\frac{a}{b}}$
@@ -43,7 +43,7 @@ manualReview: false
 - **Question 3:** Simplify $\frac{\sqrt{4}}{\sqrt{9}}$
 - Step 1: Simplify the square roots separately, $\sqrt{4} = 2$ and $\sqrt{9} = 3$
 - Step 2: Divide the simplified square roots, $\frac{2}{3}$
-- **Answer:** $\frac{2}{3}$
+-  **Answer:** $\frac{2}{3}$
 
 ## 🧠 The One Thing Most Students Get Wrong
 - The most common mistake students make is not using the properties of square roots to simplify expressions
@@ -67,34 +67,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the value of $\sqrt{25}$?**
-- A) 4
-- B) 5
-- C) 6
-- D) 7
+-
+A) 4
+-
+B) 5
+-
+C) 6
+-
+D) 7
+
 **Answer: B) The square root of 25 is 5, since $5 \times 5 = 25$**
+
 **2. What is the value of $(3 + 2)^2$?**
-- A) 15
-- B) 20
-- C) 25
-- D) 30
+-
+A) 15
+-
+B) 20
+-
+C) 25
+-
+D) 30
+
 **Answer: C) Using the formula $(a + b)^2 = a^2 + 2ab + b^2$, we get $(3 + 2)^2 = 3^2 + 2 \times 3 \times 2 + 2^2 = 9 + 12 + 4 = 25$**
+
 **3. What is the value of $\frac{\sqrt{16}}{\sqrt{4}}$?**
-- A) 1
-- B) 2
-- C) 3
-- D) 4
+-
+A) 1
+-
+B) 2
+-
+C) 3
+-
+D) 4
+
 **Answer: B) The square root of 16 is 4 and the square root of 4 is 2, so $\frac{\sqrt{16}}{\sqrt{4}} = \frac{4}{2} = 2$**
+
 **4. What is the value of $\sqrt{36}$?**
-- A) 5
-- B) 6
-- C) 7
-- D) 8
+-
+A) 5
+-
+B) 6
+-
+C) 7
+-
+D) 8
+
 **Answer: B) The square root of 36 is 6, since $6 \times 6 = 36$**
+
 **5. What is the value of $(4 - 3)^2$?**
-- A) 1
-- B) 4
-- C) 9
-- D) 16
+-
+A) 1
+-
+B) 4
+-
+C) 9
+-
+D) 16
+
 **Answer: A) Using the formula $(a - b)^2 = a^2 - 2ab + b^2$, we get $(4 - 3)^2 = 4^2 - 2 \times 4 \times 3 + 3^2 = 16 - 24 + 9 = 1$**
 
 ---
@@ -104,3 +133,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Cubes And Cube Roots 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/cubes-and-cube-roots-class-8-notes)
+- 📖 [Comparing Quantities 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/comparing-quantities-class-8-notes)
+- 📖 [Data Handling 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/data-handling-class-8-notes)
+- 📖 [Exponents And Powers 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide](/blog/exponents-and-powers-class-8-notes)

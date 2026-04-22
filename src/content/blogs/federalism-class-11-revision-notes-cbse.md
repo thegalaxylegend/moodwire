@@ -9,9 +9,6 @@ practice_link: "/class-11/federalism-class-11-revision-notes-cbse"
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Federalism?](#what-is-federalism)
@@ -23,33 +20,15 @@ practice_link: "/class-11/federalism-class-11-revision-notes-cbse"
 - [Ayush's Tips](#ayushs-tips)
 - [📚 Related Topics](#-related-topics)
 
-
 # Federalism Class 11 Social Science Recap — CBSE 2026 Quick Guide
-
-
-
-
 
 ## <a id="what-is-federalism"></a>What is Federalism?
 
-
-
-
-
-
-
-
-
-
 Federalism is a system of government and which power is divided between a central authority and constituent political units. It includes a clear division of powers, independent judiciary, n dual citizenship. For [class](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) 11 exam prep n 2026, the most important aspect is understanding the principles of federalism and its application and the Indian context.
-
-
-
 
 ## <a id="what-are-the-key-features-of-federalism"></a>What are the Key Features of Federalism?
 
 The key features of federalism include:
-
 
 | Feature | Description |
 | --- | --- |
@@ -58,20 +37,13 @@ The key features of federalism include:
 | **Dual Citizenship** | Citizens have dual citizenship, with [rights](/blog/fundamental-rights-class-11-revision-notes-cbse) n obligations at both the central and state levels |
 | **Bicameral Legislature** | A bicameral legislature with two houses, one representing the states and the other representing the people |
 
-
 ## <a id="what-is-the-historical-context-of-federalism-n-India"></a>What is the Historical Context of Federalism and India?
 
 The historical context of federalism n [India](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) dates back to the **British colonial period**, when the British government introduced the **Government of [India](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) Act, 1935**, which provided for a federal system with a strong center and weaker provinces. After independence, the **Constituent Assembly** drafted the Indian Constitution, which established a federal system with a strong center and weaker states. The **States Reorganization Act, 1956**, further reorganized the states on a linguistic basis.
 
-
-
-
 ## <a id="Ayush-personal-note"></a>Ayush's Personal Note
 
 As I prepare for the Class 11 exam n 2026, I realize the importance of understanding the principles of federalism and its application and the Indian context. I need to focus on the key features of federalism, including the division of powers, independent judiciary, n dual citizenship. I also need to study the historical context of federalism n [India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee), including the British colonial period and the post-independence era.
-
-
-
 
 ## <a id="what-are-the-core-concepts-of-federalism"></a>What are the Core Concepts of Federalism?
 
@@ -80,18 +52,12 @@ The core concepts of federalism include:
 - **Unitary Features**: The unitary features of the [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Constitution, including the strong center and the emergency provisions.
 - **State-Center Relations**: The relations between the center and the states, including the division of powers and the role of the judiciary.
 
-
-
-
 ## <a id="what-are-the-trap-exceptions"></a>What are the Trap Exceptions?
 
 Trap Exceptions:
 - **Emergency Provisions**: The emergency provisions and the [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Constitution, which allow the center to assume control over the states n \times of emergency.
 - **Centralized Tendencies**: The centralized tendencies and the [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) federal system, which can lead to a strong center and weaker states.
 - **State Autonomy**: The autonomy of the states, which can be compromised y the center's powers.
-
-
-
 
 ## <a id="Ayush-tips"></a>Ayush's Tips
 
@@ -104,10 +70,6 @@ As I prepare for the [class](/blog/ancient-india-mahajanapadas-class-11-revision
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
 
-
-
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -119,13 +81,10 @@ Continue your [revision](/blog/constitutional-framework-class-11-revision-notes-
 - 📖 [Constitutional Framework Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/constitutional-framework-class-11-revision-notes-cbse)
 - 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/federalism-class-11-revision-notes-cbse) now and track your progress against thousands of students.
-
-
 
 ---
 
@@ -154,7 +113,7 @@ Continue your [revision](/blog/constitutional-framework-class-11-revision-notes-
   + Independent judiciary 
   + Dual citizenship 
 * **Advantages of Federalism**: 
-  + Protects rights of minorities 
+  + Protects [rights](/blog/fundamental-rights-class-11-revision-notes-cbse) of minorities 
   + Promotes unity and stability 
   + Encourages political participation 
   + Allows for regional autonomy 
@@ -164,7 +123,7 @@ Continue your [revision](/blog/constitutional-framework-class-11-revision-notes-
   + Can be slower and responding to national issues 
 * **Types of Federalism**: 
   + Coming Together Federalism (USA) 
-  + Holding Together Federalism (India) 
+  + Holding Together Federalism ([india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)) 
 * **Federalism and India**: 
   + Features: written constitution, independent judiciary, division of power 
   + Challenges: regionalism, communalism, casteism

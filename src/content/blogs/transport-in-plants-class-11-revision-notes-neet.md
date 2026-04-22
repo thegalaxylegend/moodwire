@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/transport-n-plants-class-11-revision-notes-neet.webp"
+heroImage: "/blog-images/transport-in-plants-class-11-revision-notes-neet.webp"
 title: "Transport In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Transport In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
@@ -8,9 +8,6 @@ practice_link: "/class-11/biology/transport-n-plants-class-11-revision-notes-nee
 ---
 
 *Last Updated: 2026-03-28*
-
-
-
 
 ## 📋 Table of Contents
 
@@ -27,17 +24,9 @@ practice_link: "/class-11/biology/transport-n-plants-class-11-revision-notes-nee
   - [Last Updated Date](#last-updated-date)
 - [📚 Related Topics](#-related-topics)
 
-
 # Transport In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-
-
-
-
 ## <a id="what-is-transport-n-plants"></a>What is Transport In Plants?
-
-
-
 
 ### <a id="transport-n-plants-class-11-notes"></a>Transport and Plants Class 11 Notes
 #### Quick Recall Box
@@ -106,7 +95,7 @@ To remember the difference between diffusion and osmosis, use the following tric
  c) Diffusion and osmosis are the same thing
  d) None of the above
  Answer: a) Diffusion is the movement of particles from high to low concentration, while osmosis is the movement of water molecules from high to low concentration through a partially permeable membrane
-4. What is the role of active transport and plants?
+4. What is the role of active transport and [plants](/blog/respiration-in-plants-class-11-revision-notes-neet)?
  a) To move substances against their concentration gradient
  b) To move substances with their concentration gradient
  c) To absorb water from the soil
@@ -127,10 +116,6 @@ Last Updated: March 16, 2026
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
 
-
-
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -142,13 +127,10 @@ Continue your revision with these related guides:
 - 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet)
 - 📖 [Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/respiration-n-plants-class-11-revision-notes-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/transport-n-plants-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
-
 
 ---
 

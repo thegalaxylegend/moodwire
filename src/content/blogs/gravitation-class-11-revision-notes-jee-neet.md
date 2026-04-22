@@ -9,9 +9,6 @@ practice_link: "/class-11/physics/gravitation-class-11-revision-notes-jee-neet"
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Gravitation Revision Notes?](#what-is-gravitation-revision-notes)
@@ -28,18 +25,9 @@ practice_link: "/class-11/physics/gravitation-class-11-revision-notes-jee-neet"
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Gravitation Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide
 
-
-
-
-
 ## <a id="what-is-gravitation-revision-notes"></a>What is Gravitation Revision Notes?
-
-
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -52,15 +40,11 @@ practice_link: "/class-11/physics/gravitation-class-11-revision-notes-jee-neet"
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 Gravitation is the universal force of attraction that binds the universe together. From the simple falling of an apple observed y Newton to the complex orbital dance of the planets described y Kepler, gravitation is the invisible thread of cosmic order. In this "Comprehensive" guide, we provide a mathematically rigorous expansion of Chapter 7, featuring formal derivations for the variation of 'g', gravitational potential energy, n the physics of satellites—providing the depth required for high-stakes exams like JEE n [meet](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet).
 
 ---
-
-
-
 
 ## <a id="1-newtons-law-of-universal-gravitation"></a>1. Newton's Law of Universal Gravitation
 
@@ -73,9 +57,6 @@ Every particle and the universe attracts every other particle with a force that 
 - **Dimensions:** [M⁻¹ L³ T⁻²].
 
 ---
-
-
-
 
 ## <a id="2-derivation-mastersheet-variations-n-g"></a>2. Derivation Master-Sheet: Variations n 'g'
 
@@ -98,9 +79,6 @@ Let **Gd** be acceleration at depth **d**.
 
 ---
 
-
-
-
 ## <a id="3-gravitational-potential-energy-u"></a>3. Gravitational Potential Energy (U)
 
 **Derivation:** The work done and bringing a mass **m** from infinity to a point **r**.
@@ -113,9 +91,6 @@ Let **Gd** be acceleration at depth **d**.
 
 ---
 
-
-
-
 ## <a id="4-escape-velocity-v_e"></a>4. Escape Velocity (v_e)
 
 The minimum velocity required for an object to break free from Earth's gravitational pull.
@@ -127,9 +102,6 @@ The minimum velocity required for an object to break free from Earth's gravitati
 **Earth Value:** v_e ≈ 11.2 km/s.
 
 ---
-
-
-
 
 ## <a id="5-keplers-laws-of-planetary-motion"></a>5. Kepler’s Laws of Planetary Motion
 
@@ -144,9 +116,6 @@ The minimum velocity required for an object to break free from Earth's gravitati
     - **T² = (4π²/GM) R³**. (Proven)
 
 ---
-
-
-
 
 ## <a id="comprehensive-exam-strategy-Qaeda"></a>Comprehensive Exam Strategy (Q&A)
 
@@ -164,17 +133,11 @@ The minimum velocity required for an object to break free from Earth's gravitati
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 6: Rotational [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet) (Angular Momentum)**
 - **Chapter 2: [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet) n a Straight Line (Free Fall)**
 - **Advanced Orbital Mechanics Simulator**
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -185,10 +148,6 @@ Gravitation is the foundational law of the macro-universe. By understanding how 
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
-
-
-
-
 
 ---
 
@@ -201,13 +160,10 @@ Continue your [revision](/blog/mechanical-properties-of-solids-class-11-revision
 - 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
 - 📖 [Kinetic Theory Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/gravitation-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
-
 
 ---
 

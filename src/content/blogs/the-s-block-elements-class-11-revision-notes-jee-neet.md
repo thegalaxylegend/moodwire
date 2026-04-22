@@ -9,9 +9,6 @@ practice_link: "/class-11/physics/the-s-block-elements-class-11-revision-notes-j
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is The S Block Elements?](#what-is-the-s-block-elements)
@@ -28,18 +25,9 @@ practice_link: "/class-11/physics/the-s-block-elements-class-11-revision-notes-j
 - [Last Updated Date](#last-updated-date)
 - [📚 Related Topics](#-related-topics)
 
-
 # The S Block Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-
-
-
-
 ## <a id="what-is-the-s-block-elements"></a>What is The S Block Elements?
-
-
-
-
 
 * The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are and Group 1 n 2 of the periodic table.
 * They are also known as the alkali metals and alkaline earth metals.
@@ -58,29 +46,19 @@ practice_link: "/class-11/physics/the-s-block-elements-class-11-revision-notes-j
 8. [Related Notes Links](#related-notes-links)
 9. [Last Updated Date](#last-updated-date)
 
-
 ## <a id="introduction-to-the-sblock-elements"></a>Introduction to the S-Block Elements
 
 The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are a group of elements and the periodic table that are characterized y the filling of the s-orbitals. They are located and Group 1 n 2 of the periodic table and are also known as the alkali metals and alkaline earth metals. The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are highly reactive and have a tendency to lose electrons to form positive ions.
 
-
-
-
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 
 This chapter is important because it helps us understand the properties and behavior of the s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements. In JEE Mains 2026 Session 1, 3 questions came from this topic. Understanding the s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements is crucial for solving problems related to chemical bonding, electrochemistry, n chemical reactions.
-
-
-
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
 <div [class](/blog/biological-classification-class-11-revision-notes-neet)="callout-box">
 I still remember when I was preparing for JEE, I used to get confused between the alkali metals and alkaline earth metals. I would often mix up their properties and reactions. But then I realized that the key to understanding these elements is to focus on their electron configuration and the way they lose electrons to form positive ions. For example, the alkali metals have a single electron and their outermost shell, which they can easily lose to form a positive ion. On the other hand, the alkaline earth metals have two electrons and their outermost shell, which makes them less reactive than the alkali metals. By understanding these differences, I was able to solve problems related to the s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements with ease.
 </div>
-
-
-
 
 ## <a id="core-concepts"></a>Core Concepts
 
@@ -95,20 +73,13 @@ for the alkaline earth metals, where and is the principal quantum number.
 ### <a id="properties-of-sblock-elements"></a>Properties of S-Block Elements
 The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements have several properties that make them unique. They are highly reactive, soft, n have low melting points. They also have a tendency to lose electrons to form positive ions, which makes them highly electropositive.
 
-
-
-
 ## <a id="shortcut-formula-trick"></a>Shortcut Formula / Trick
 
-One shortcut formula that can be used to remember the properties of the s-block elements is:
+One shortcut formula that can be used to remember the properties of the s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements is:
 
-$\text{Reactivity} \propto \frac{{1}$}{}
-
+ \text{Reactivity} \propto \frac{{1}}{} 
 
 This formula states that the reactivity of an element is inversely proportional to its ionization energy. This means that elements with low ionization energy are highly reactive, while elements with high ionization energy are less reactive.
-
-
-
 
 ## <a id="trap-questions-exceptions"></a>Trap Questions / Exceptions
 
@@ -121,9 +92,6 @@ Why students get it wrong: Students often confuse the alkali metals with the alk
 * Wrong answer: The s-block elements are non-metals.
 Right answer: The s-block elements are metals.
 Why students get it wrong: Students often think that the s-block elements are non-metals because they are located and the same group as the non-metals.
-
-
-
 
 ## <a id="practice-mcqs"></a>Practice MCQs
 
@@ -169,17 +137,11 @@ D) Rubidium
 
 Solution: D) Rubidium
 
-
-
-
 ## <a id="related-notes-links"></a>Related Notes Links
 
 For more information on the s-block elements, you can refer to the following [notes](/blog/biological-classification-class-11-revision-notes-neet):
 * Chemical Bonding [notes](/blog/biological-classification-class-11-revision-notes-neet)
 * Electrochemistry [notes](/blog/biological-classification-class-11-revision-notes-neet)
-
-
-
 
 ## <a id="last-updated-date"></a>Last Updated Date
 
@@ -187,10 +149,6 @@ Last Updated: March 15, 2026
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
-
-
-
-
 
 ---
 
@@ -203,13 +161,10 @@ Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-n
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/the-s-block-elements-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
-
 
 ---
 

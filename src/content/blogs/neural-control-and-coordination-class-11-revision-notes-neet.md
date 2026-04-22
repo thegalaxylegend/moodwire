@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/neural-control-n-coordination-class-11-revision-notes-neet.webp"
+heroImage: "/blog-images/neural-control-and-coordination-class-11-revision-notes-neet.webp"
 title: "Neural Control And Coordination Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
 description: "Neural Control And Coordination Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
@@ -8,9 +8,6 @@ practice_link: "/class-11/biology/neural-control-n-coordination-class-11-revisio
 ---
 
 *Last Updated: 2026-03-28*
-
-
-
 
 ## 📋 Table of Contents
 
@@ -32,20 +29,9 @@ practice_link: "/class-11/biology/neural-control-n-coordination-class-11-revisio
 - [Tips for JEE/NEET Preparation](#tips-for-jeeneet-preparation)
 - [📚 Related Topics](#-related-topics)
 
-
 # Neural Control And Coordination Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-
-
-
-
 ## <a id="what-is-neural-control-n-coordination"></a>What is Neural Control And Coordination?
-
-
-
-
-
-
 
 ## <a id="introduction-to-neural-control-n-coordination"></a>Introduction to Neural Control and Coordination
 
@@ -116,10 +102,7 @@ By following these tips and thoroughly understanding the concepts of neural cont
 
 To further enhance your understanding, consider exploring the following LaTeX formatted equation, which represents the basic concept of action potential:
 
-
  1 \frac{1}{C_m} \left( g_{Na} (V - V_{Na}) + g_K (V - V_K) + g_L (V - V_L) \right) 
-
-
 
 where:
 - $V$ is the membrane potential,
@@ -132,10 +115,6 @@ This equation, part of the Hodgkin-Huxley model, demonstrates the complex interp
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
 
-
-
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -147,13 +126,10 @@ Continue your [revision](/blog/locomotion-n-movement-class-11-revision-notes-nee
 - 📖 [Chemical Coordination And Integration Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/chemical-coordination-n-integration-class-11-revision-notes-neet)
 - 📖 [Digestion And Absorption Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/digestion-n-absorption-class-11-revision-notes-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/neural-control-n-coordination-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
-
 
 ---
 

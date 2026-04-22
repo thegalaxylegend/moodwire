@@ -22,7 +22,7 @@ manualReview: false
 - Forgetting to use the formula $\frac{1}{2} \times d_1 \times d_2$ for the area of a kite or rhombus
 - Not using the properties of a rectangle to find the length of a diagonal
 - Not using the properties of a square to find the length of a diagonal
-- Not verifying if a quadrilateral is a square by checking if all sides are equal and all angles are right angles
+- Not verifying if a quadrilateral is a square by checking if all sides are equal and all [angles](/blog/lines-and-angles-class-9-notes) are right [angles](/blog/lines-and-angles-class-9-notes)
 
 ## ✏️ 3 Solved PYQs
 - **Question 1:** Find the area of a parallelogram with base 10 cm and height 5 cm
@@ -58,38 +58,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the area of a parallelogram with base 8 cm and height 6 cm?**
-- A) 20 square cm
-- B) 30 square cm
-- C) 40 square cm
-- D) 48 square cm
+-
+A) 20 square cm
+-
+B) 30 square cm
+-
+C) 40 square cm
+-
+D) 48 square cm
+
 **Answer: D) 48 square cm. Explanation: Use the formula $A = b \times h$**
 
 **2. What is the length of the diagonal of a rectangle with length 10 cm and width 8 cm?**
-- A) 10 cm
-- B) 12 cm
-- C) 12.8 cm
-- D) 13.6 cm
+-
+A) 10 cm
+-
+B) 12 cm
+-
+C) 12.8 cm
+-
+D) 13.6 cm
+
 **Answer: C) 12.8 cm. Explanation: Use the formula $d = \sqrt{l^2 + w^2}$**
 
 **3. What is the area of a square with side length 6 cm?**
-- A) 20 square cm
-- B) 30 square cm
-- C) 36 square cm
-- D) 40 square cm
+-
+A) 20 square cm
+-
+B) 30 square cm
+-
+C) 36 square cm
+-
+D) 40 square cm
+
 **Answer: C) 36 square cm. Explanation: Use the formula $A = s^2$**
 
 **4. What is the area of a kite with diagonals 10 cm and 8 cm?**
-- A) 20 square cm
-- B) 30 square cm
-- C) 40 square cm
-- D) 50 square cm
+-
+A) 20 square cm
+-
+B) 30 square cm
+-
+C) 40 square cm
+-
+D) 50 square cm
+
 **Answer: C) 40 square cm. Explanation: Use the formula $\frac{1}{2} \times d_1 \times d_2$**
 
 **5. What is the perimeter of a rectangle with length 8 cm and width 6 cm?**
-- A) 20 cm
-- B) 24 cm
-- C) 28 cm
-- D) 32 cm
+-
+A) 20 cm
+-
+B) 24 cm
+-
+C) 28 cm
+-
+D) 32 cm
+
 **Answer: C) 28 cm. Explanation: Use the formula $P = 2l + 2w$**
 
 ---
@@ -99,3 +124,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Heron S Formula 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/heron-s-formula-class-9-notes)
+- 📖 [Linear Equations In Two Variables 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-two-variables-class-9-notes)
+- 📖 [Lines And Angles 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/lines-and-angles-class-9-notes)
+- 📖 [Number Systems 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/number-systems-class-9-notes)

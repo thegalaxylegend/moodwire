@@ -9,9 +9,6 @@ practice_link: "/class-11/chemistry/climatology-class-11-revision-notes-jee-neet
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Climatology?](#what-is-climatology)
@@ -25,21 +22,9 @@ practice_link: "/class-11/chemistry/climatology-class-11-revision-notes-jee-neet
   - [Core Concept Map](#core-concept-map)
 - [📚 Related Topics](#-related-topics)
 
-
 # Climatology Class 11 Geography Recap — CBSE 2026 Quick Guide
 
-
-
-
-
 ## <a id="what-is-climatology"></a>What is Climatology?
-
-
-
-
-
-
-
 
 ## <a id="core-concepts"></a>Core Concepts
 
@@ -54,15 +39,13 @@ The following are the key concepts and climatology:
 ### <a id="formulae-tables"></a>Formulae Tables
 Here are some essential formulae related to climatology:
 
-
 | Formula | Description |
 | --- | --- |
-| AT = \frac{1}{2}(T_{max} + T_{min})$ | Average temperature |
-| $RH = \frac{e}{E}$ | Relative humidity |
-| UP = \frac{F}{A}$ | Atmospheric pressure |
-| DW = \frac{P_2 - P_1}{d}$ | Wind speed |
-| UP = \frac{m}{V}$ | Precipitation |
-
+| AT = \franc{1}{2}(T_{max} + T_{min})$ | Average temperature |
+| $RH = \franc{e}{E}$ | Relative humidity |
+| UP = \franc{F}{A}$ | Atmospheric pressure |
+| DW = \franc{P_2 - P_1}{d}$ | Wind speed |
+| UP = \franc{m}{V}$ | Precipitation |
 
 ## <a id="climatic-elements"></a>Climatic Elements
 
@@ -81,9 +64,6 @@ Be cautious of the following exceptions:
 * **Humidity Anomaly**: A situation where humidity is higher or lower than expected.
 * **Wind Shear**: A change and wind speed or direction with height.
 
-
-
-
 ## <a id="types-of-climates"></a>Types of Climates
 
 The following are the main types of climates:
@@ -99,9 +79,6 @@ For JEE/[meet](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) a
 * The **troposphere** is the lowest layer of the atmosphere, extending up to 12 km.
 * The **stratosphere** is the second layer of the atmosphere, extending from 12 km to 50 km.
 * The **mesosphere** is the third layer of the atmosphere, extending from 50 km to 80 km.
-
-
-
 
 ## <a id="climatic-factors"></a>Climatic Factors
 
@@ -139,10 +116,6 @@ By mastering these core concepts, formulae, n climatic factors, you'll be well-p
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
 
-
-
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -154,13 +127,10 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
 - 📖 [Classification Of Elements Class 11 Chemistry Revision — CBSE Boards 2026 Grandmaster Guide](/blog/classification-of-elements-class-11-revision-notes-jee-neet)
 - 📖 [Indian Geography Physical Class 11 Chemistry Revision — CBSE Boards 2026 Grandmaster Guide](/blog/indian-geography-physical-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/climatology-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
-
 
 ---
 

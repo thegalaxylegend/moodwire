@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/plant-growth-n-development-class-11-revision-notes-neet.webp"
+heroImage: "/blog-images/plant-growth-and-development-class-11-revision-notes-neet.webp"
 title: "Plant Growth And Development Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
 description: "Plant Growth And Development Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
@@ -8,9 +8,6 @@ practice_link: "/class-11/biology/plant-growth-n-development-class-11-revision-n
 ---
 
 *Last Updated: 2026-03-28*
-
-
-
 
 ## 📋 Table of Contents
 
@@ -28,19 +25,9 @@ practice_link: "/class-11/biology/plant-growth-n-development-class-11-revision-n
 - [Last Updated Date](#last-updated-date)
 - [📚 Related Topics](#-related-topics)
 
-
 # Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-
-
-
-
 ## <a id="what-is-plant-growth-n-development"></a>What is Plant Growth And Development?
-
-
-
-
-
 
 1. [Introduction to Plant Growth and Development](#introduction)
 2. [Why This Chapter Matters](#why-this-chapter-matters)
@@ -52,22 +39,13 @@ practice_link: "/class-11/biology/plant-growth-n-development-class-11-revision-n
 8. [Related Notes Links](#related-notes-links)
 9. [Last Updated Date](#last-updated-date)
 
-
-
-
 ## <a id="introduction-to-plant-growth-n-development"></a>Introduction to Plant Growth and Development
 
 Plant growth and development is a fundamental concept and biology that deals with the process y which [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) grow and mature. It involves a complex interplay of various factors, including hormones, light, temperature, n nutrients. Understanding plant growth and development is crucial for agriculture, horticulture, n ecology.
 
-
-
-
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 
 This chapter is essential for students preparing for the Class 11 biology exam, as it covers a significant portion of the syllabus. In the 2024 Class 11 biology exam, 3 questions were directly related to [plant](/blog/plant-kingdom-class-11-revision-notes-neet) growth and development. Moreover, this topic is also relevant for competitive exams like JEE and NEET, where questions on plant physiology are frequently asked.
-
-
-
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
@@ -75,14 +53,11 @@ This chapter is essential for students preparing for the Class 11 biology exam, 
 I still remember the mistake I made and my [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) 11 biology exam. I confused the terms "growth" n "development" n ended up losing marks. However, I learned from my mistake and made sure to understand the difference between the two. Growth refers to the increase and size, while development refers to the process of maturation. For example, a seedling grows into a plant, but it develops into a mature plant with flowers and fruits. I hope this helps you avoid the same mistake!
 </div>
 
-
-
-
 ## <a id="core-concepts"></a>Core Concepts
 
 ### <a id="plant-hormones"></a>Plant Hormones
 [plant](/blog/plant-kingdom-class-11-revision-notes-neet) hormones are chemical messengers that regulate [plant](/blog/plant-kingdom-class-11-revision-notes-neet) growth and development. The five major types of [plant](/blog/plant-kingdom-class-11-revision-notes-neet) hormones are:
-* Auxins: promote cell elongation and cell division
+* Auxins: promote [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) elongation and [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division
 * Gibberellins: promote seed germination and stem elongation
 * Cytokinins: promote cell division and differentiation
 * Abscisic acid: inhibits growth and promotes dormancy
@@ -98,9 +73,6 @@ Photoperiodism is the response of [plants](/blog/photosynthesis-n-higher-plants-
 
 The formula for photoperiodic response is: $\frac{dF}{dt} = dt}{F} , where $ is the flowering response, $D$ is the day length, n $k$ is a constant.
 
-
-
-
 ## <a id="shortcut-formula-trick"></a>Shortcut Formula / Trick
 
 To remember the different types of [plant](/blog/plant-kingdom-class-11-revision-notes-neet) hormones, you can use the acronym "AGACE":
@@ -109,9 +81,6 @@ To remember the different types of [plant](/blog/plant-kingdom-class-11-revision
 * A: Abscisic acid
 * C: Cytokinins
 * E: Ethylene
-
-
-
 
 ## <a id="trap-questions-exceptions"></a>Trap Questions / Exceptions
 
@@ -124,9 +93,6 @@ Why students get it wrong: Gibberellins and ethylene are both involved and fruit
 * Wrong answer: Abscisic acid promotes growth.
 Right answer: Abscisic acid inhibits growth.
 Why students get it wrong: Abscisic acid is often confused with auxins, which promote growth.
-
-
-
 
 ## <a id="practice-mcqs"></a>Practice MCQs
 
@@ -155,7 +121,7 @@ D) Chemoperiodism
 Answer: A) Photoperiodism
 
 4. Which type of [plant](/blog/plant-kingdom-class-11-revision-notes-neet) flowers and response to short days?
-A) Short-day plant
+A) Short-day [plant](/blog/plant-kingdom-class-11-revision-notes-neet)
 B) Long-day plant
 C) Day-neutral plant
 D) Photoperiodic plant
@@ -166,31 +132,19 @@ Answer: A) Short-day plant
 A) $\frac{dL}{dt} = dt}{\frac{dL}{dt} = k \\\cdot \frac{dC}{dt}} 
 B) 
 C) $\frac{dL}{dt} = dt}{\frac{dL}{dt} = k \\\cdot \frac{dE}{dt}} 
-D) $ Answer: A) \frac{dL}{dt} = k \\\cdot \frac{dA}{dt} 
-
-
-
+ D)  Answer: A) \frac{dL}{dt} = k \\\cdot \frac{dA}{dt} 
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
 * Plant Physiology [notes](/blog/biological-classification-class-11-revision-notes-neet)
 * Cell Biology [notes](/blog/biological-classification-class-11-revision-notes-neet)
 
-
-
-
 ## <a id="last-updated-date"></a>Last Updated Date
 
 Last Updated: March 16, 2026
 
-
-
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
-
-
-
-
 
 ---
 
@@ -203,13 +157,10 @@ Continue your [revision](/blog/morphology-of-flowering-plants-class-11-revision-
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/plant-growth-n-development-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
-
 
 ---
 
@@ -221,4 +172,3 @@ Continue your [revision](/blog/morphology-of-flowering-plants-class-11-revision-
 - 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet)
-$

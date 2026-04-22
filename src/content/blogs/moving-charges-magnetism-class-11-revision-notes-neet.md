@@ -9,9 +9,6 @@ practice_link: "/class-11/biology/moving-charges-magnetism-class-11-revision-not
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Moving Charges Magnetism Revision Notes?](#what-is-moving-charges-magnetism-revision-notes)
@@ -34,18 +31,9 @@ practice_link: "/class-11/biology/moving-charges-magnetism-class-11-revision-not
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-
-
-
-
 ## <a id="what-is-moving-charges-magnetism-revision-notes"></a>What is Moving Charges Magnetism Revision Notes?
-
-
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -63,15 +51,11 @@ practice_link: "/class-11/biology/moving-charges-magnetism-class-11-revision-not
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 Magnetism is not a separate force from electricity; it is the relativistic consequence of electric charges n [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet). Chapter 4 of Class 12 Physics, "Moving Charges and Magnetism," explores this profound connection—how a simple flow of electrons creates the invisible fields that power our motors, define our MRI machines, n protect our planet from solar radiation. In this "Comprehensive" guide, we provide exhaustive derivations for the magnetic field of various current distributions, the rigorous analysis of the Lorentz force, n the technical principles of measuring instruments. This is the ultimate academic resource for those targeting top scores and JEE, NEET, n Board exams.
 
 ---
-
-
-
 
 ## <a id="1-magnetic-field-n-the-biotsavart-law"></a>1. Magnetic Field and the Biot-Savart Law
 
@@ -93,9 +77,6 @@ The **Magnetic Field (B)** is a vector field that describes the magnetic influen
 
 ---
 
-
-
-
 ## <a id="2-amperes-circuital-law-acl"></a>2. Ampere’s Circuital Law (ACL)
 
 **Statement:** The line integral of the magnetic field **B** around any closed path is equal to **μ₀** \times the total [current](/blog/current-electricity-class-11-revision-notes-neet) threading through the loop.
@@ -110,9 +91,6 @@ The **Magnetic Field (B)** is a vector field that describes the magnetic influen
 6.  **B = μ₀ n I**. (Proven)
 
 ---
-
-
-
 
 ## <a id="3-motion-of-a-charge-n-a-magnetic-field"></a>3. Motion of a Charge and a Magnetic Field
 
@@ -131,9 +109,6 @@ If the velocity makes an angle **θ** with the field, the charge follows a helic
 
 ---
 
-
-
-
 ## <a id="4-force-between-two-parallel-currentcarrying-wires"></a>4. Force between Two Parallel Current-Carrying Wires
 
 1.  Field due to wire 1 at wire 2: **B1 = μ₀ I1 / 2πd**.
@@ -143,9 +118,6 @@ If the velocity makes an angle **θ** with the field, the charge follows a helic
 
 ---
 
-
-
-
 ## <a id="5-torque-on-a-current-loop-n-a-uniform-magnetic-field"></a>5. Torque on a Current Loop and a Uniform Magnetic Field
 
 1.  Magnetic Dipole Moment **m = NIA**. (Direction perpendicular to [plane](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)).
@@ -153,9 +125,6 @@ If the velocity makes an angle **θ** with the field, the charge follows a helic
 - This torque is the working principle of the **Moving Coil Galvanometer**.
 
 ---
-
-
-
 
 ## <a id="6-the-moving-coil-galvanometer-mcg"></a>6. The Moving Coil Galvanometer (MCG)
 
@@ -175,9 +144,6 @@ To measure potential difference, we connect a high resistance and series.
 
 ---
 
-
-
-
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
 **Q1: Why is a cyclotron not suitable for accelerating electrons?**
@@ -191,17 +157,11 @@ To measure potential difference, we connect a high resistance and series.
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 3: [current](/blog/current-electricity-class-11-revision-notes-neet) Electricity (The Source of Magnetism)**
 - **Chapter 5: Magnetism and Matter**
 - **The Cyclotron & Mass Spectrometer: Technical Deep-Dive**
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -212,10 +172,6 @@ Moving [charges](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
-
-
-
-
 
 ---
 
@@ -228,13 +184,10 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 - 📖 [Laws Of Motion Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
 - 📖 [Motion In A Plane Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/moving-charges-magnetism-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
-
 
 ---
 

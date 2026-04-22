@@ -9,9 +9,6 @@ practice_link: "/class-11/physics/chemical-bonding-class-11-revision-notes-jee-n
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Chemical Bonding?](#what-is-chemical-bonding)
@@ -46,23 +43,9 @@ practice_link: "/class-11/physics/chemical-bonding-class-11-revision-notes-jee-n
   - [Final Advice:](#final-advice)
 - [📚 Related Topics](#-related-topics)
 
-
 # Chemical Bonding Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-
-
-
-
 ## <a id="what-is-chemical-bonding"></a>What is Chemical Bonding?
-
-
-
-
-
-
-
-
-
 
 1. [Introduction: Why Chemical Bonding is a "Rank Decider"](#intro)
 2. [VBT vs. MOT: The Ultimate Theoretical Showdown](#vbt-vs-mot)
@@ -82,14 +65,9 @@ practice_link: "/class-11/physics/chemical-bonding-class-11-revision-notes-jee-n
 16. [Practice MCQs (JEE/NEET Level)](#mcqs)
 17. [Ayush's "Last 10 Days" Prep Strategy](#ayush-strategy)
 
-
-
-
-
-
 ## <a id="1-introduction-why-chemical-bonding-is-a-rank-decider"></a>1. Introduction: Why Chemical Bonding is a "Rank Decider"
 
-**Chemical Bonding is the study of how atoms combine to form molecules through the redistribution of electrons.**
+**[chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) Bonding is the study of how atoms combine to form molecules through the redistribution of electrons.**
 
 I kept getting hybridization wrong and my early mocks because I was trying to draw every single Lewis [structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet). It was slow, n I always missed a lone pair somewhere. If you're aiming for a top 1000 rank and JEE 2026, you cannot afford to waste 5 minutes on a bonding question. 
 
@@ -99,11 +77,6 @@ I kept getting hybridization wrong and my early mocks because I was trying to dr
 - **Foundation**: You cannot understand Organic [chemistry](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) mechanisms or Coordination Compounds without mastering the shapes and polarity covered here.
 
 ---
-
-
-
-
-
 
 ## <a id="2-vbt-vs-mot-the-ultimate-theoretical-showdown"></a>2. VBT vs. MOT: The Ultimate Theoretical Showdown
 
@@ -120,11 +93,6 @@ In JEE examinations, candidates often confuse when to use which theory. Here is 
 | **Hybridization** | Essential for shape prediction. | Not required for bond order/magnetism. |
 
 ---
-
-
-
-
-
 
 ## <a id="3-vsepr-theory-beyond-the-textbook"></a>3. VSEPR Theory: Beyond the Textbook
 
@@ -157,11 +125,6 @@ The core principle is simple: Electron pairs (both bond pairs and lone pairs) ha
 
 ---
 
-
-
-
-
-
 ## <a id="4-the-hybridization-shortcut-formula"></a>4. The Hybridization Shortcut Formula
 
 **Hybridization is the mathematical mixing of atomic orbitals (like s and p) to create new, equivalent hybrid orbitals optimized for bonding.**
@@ -172,10 +135,7 @@ The core principle is simple: Electron pairs (both bond pairs and lone pairs) ha
 
 Instead of drawing structures, use my "Go-To" **Steric Number (H) formula**:
 
-
-H = \frac{1}{2} = XeF_2  [V + M - C + A]
-
-
+ H = \frac{1}{2} = XeF_2  [V + M - C + A] 
 
 Where:
 - **V** = Valence electrons on central [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet) (e.g., C=4, N=5, O=6).
@@ -191,11 +151,6 @@ This distinction is critical for JEE because the *hybridization* is different ev
 
 ---
 
-
-
-
-
-
 ## <a id="5-bents-rule-the-prolevel-geometric-shortcut"></a>5. Bent's Rule: The Pro-Level Geometric Shortcut
 
 **Bent's Rule [states](/blog/states-of-matter-class-11-revision-notes-jee-neet) that atomic s-character concentrates and orbitals directed towards electropositive substituents, while p-character concentrates and orbitals directed towards electronegative substituents.**
@@ -208,11 +163,6 @@ This explains why n $PCl_3F_2$, the two Fluorine atoms always occupy the axial p
 
 ---
 
-
-
-
-
-
 ## <a id="6-fajans-rule-covalent-vs-ionic-character"></a>6. Fajan's Rule: Covalent vs. Ionic Character
 
 **Fajan's Rule helps predict the covalent character and an ionic bond y analyzing the polarizing power of the cation and the polarizability of the anion.**
@@ -221,11 +171,6 @@ Covalent character increases when the cation is small and highly charged, or whe
 - **Example**: $LiCl$ is more covalent than $NaCl$. This is why $LiCl$ is soluble n [organic](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) solvents like ethanol while $NaCl$ is not.
 
 ---
-
-
-
-
-
 
 ## <a id="7-dipole-moment-the-polarity-filter"></a>7. Dipole Moment: The Polarity Filter
 
@@ -238,11 +183,6 @@ eq 0$.
 
 ---
 
-
-
-
-
-
 ## <a id="8-lattice-enthalpy-n-bornhaber-cycle"></a>8. Lattice Enthalpy and Born-Haber Cycle
 
 **Lattice Enthalpy is the energy required to separate one mole of a solid ionic compound into its gaseous ions.**
@@ -253,19 +193,14 @@ Solubility depends on the balance between **Lattice Enthalpy** n **Hydration Ent
 
 ### <a id="the-bornhaber-cycle-example-nacl"></a>The Born-Haber Cycle Example ($NaCl$)
 To calculate the Lattice Enthalpy of $NaCl$, we use a cycle:
-1.  Sublimation of Na(s) \rightarrow Na(g). 
-2.  Ionization of Na(g) \rightarrow Na^+(g). 
-3.  Dissociation of Cl_2(g) \rightarrow 2Cl(g). 
+1.   Sublimation of Na(s) \rightarrow Na(g). 
+2.   Ionization of Na(g) \rightarrow Na^+(g). 
+3.   Dissociation of Cl_2(g) \rightarrow 2Cl(g). 
 4. Electron Gain of $Cl(g) \rightarrow Cl^-(g)$.
 5. Formation of $NaCl$ from ions.
 The \sum equals the $\delta H_f$. This cycle is a favorite for numerical questions and JEE Advanced.
 
 ---
-
-
-
-
-
 
 ## <a id="9-resonance-the-myth-of-the-single-bond"></a>9. Resonance: The Myth of the Single Bond
 
@@ -274,11 +209,6 @@ The \sum equals the $\delta H_f$. This cycle is a favorite for numerical questio
 In $O_3$, both bond lengths are identical (128 pm) despite one being "double" n one "single" n a traditional Lewis dot structure. Resonance energy is the difference and energy between the real hybrid and the most stable canonical form. The higher the resonance energy, the more stable the molecule.
 
 ---
-
-
-
-
-
 
 ## <a id="10-molecular-orbital-theory-mot-the-2121-pattern"></a>10. Molecular Orbital Theory (MOT): The 2-1-2-1 Pattern
 
@@ -292,11 +222,6 @@ In $O_3$, both bond lengths are identical (128 pm) despite one being "double" n 
 
 ---
 
-
-
-
-
-
 ## <a id="11-multicenter-bonding-the-case-of-diborane-b_2h_6"></a>11. Multi-center Bonding: The Case of Diborane ($B_2H_6$)
 
 **Multi-center Bonding occurs when a pair of electrons is shared between more than two atoms, frequently seen and electron-deficient [compounds](/blog/coordination-compounds-class-12-notes) like Boranes.**
@@ -308,11 +233,6 @@ The most famous example is **Diborane ($B_2H_6$)**.
 In these banana bonds, 2 electrons are shared across 3 atoms (B-H-B). This is a high-probability JEE topic because it challenges the standard Octet Rule.
 
 ---
-
-
-
-
-
 
 ## <a id="12-bonding-n-biological-systems-heme-n-co-poisoning"></a>12. Bonding and Biological Systems: Heme n $CO$ Poisoning
 
@@ -326,11 +246,6 @@ Inside Haemoglobin, an $Fe^{2+}$ ion sits and the middle of a Porphyrin ring.
 
 ---
 
-
-
-
-
-
 ## <a id="13-metallic-bonding-the-electron-sea-model"></a>13. Metallic Bonding: The Electron Sea Model
 
 **Metallic Bonding is the electrostatic attraction between positively charged metal ions and delocalized valence electrons and an "electron sea."**
@@ -338,11 +253,6 @@ Inside Haemoglobin, an $Fe^{2+}$ ion sits and the middle of a Porphyrin ring.
 This "sea" explains why metals are conductive, malleable, n have high thermal conductivity. Transition metals are harder because they have more valence electrons n $d$-orbitals involved and bonding.
 
 ---
-
-
-
-
-
 
 ## <a id="14-hydrogen-bonding-onitrophenol-vs-pnitrophenol"></a>14. Hydrogen Bonding: O-Nitrophenol vs P-Nitrophenol
 
@@ -352,11 +262,6 @@ This "sea" explains why metals are conductive, malleable, n have high thermal co
 - **Intermolecular**: Between molecules (p-nitrophenol). High boiling point and higher viscosity.
 
 ---
-
-
-
-
-
 
 ## <a id="15-the-trap-section-dragos-rule-n-octet-exceptions"></a>15. The "Trap" Section: Drago's Rule and Octet Exceptions
 
@@ -382,11 +287,6 @@ This "sea" explains why metals are conductive, malleable, n have high thermal co
 - **Why**: Nitrogen has no vacant $d$-orbitals to expand its octet. 
 
 ---
-
-
-
-
-
 
 ## <a id="16-practice-mcqs-jeeneet-level"></a>16. Practice MCQs (JEE/NEET Level)
 
@@ -418,11 +318,6 @@ D) Non-magnetic
 
 ---
 
-
-
-
-
-
 ## <a id="17-ayushs-last-10-days-prep-strategy"></a>17. Ayush's "Last 10 Days" Prep Strategy
 
 When I was 10 days away from my JEE Main, I stopped doing whole new chapters. For Chemical Bonding, I just did two things:
@@ -441,13 +336,8 @@ Don't just memorize the table. Ask yourself "Why does lone pair repulsion decrea
 
 ---
 
-
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
-
-
-
-
 
 ---
 
@@ -460,13 +350,10 @@ Continue your [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) wit
 - 📖 [Organic Chemistry Basic Principles Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet)
 - 📖 [Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/equilibrium-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/chemical-bonding-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
-
 
 ---
 
@@ -508,3 +395,4 @@ Continue your [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) wit
 |:---|:---:|:---:|:---:|
 | **ethanol** | C2H6O | 46.07 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/702) |
 
+$

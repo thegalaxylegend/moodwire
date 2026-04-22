@@ -9,9 +9,6 @@ practice_link: "/class-11/physics/complex-numbers-class-11-revision-notes-jee-ne
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Complex Numbers Revision Notes?](#what-is-complex-numbers-revision-notes)
@@ -26,18 +23,9 @@ practice_link: "/class-11/physics/complex-numbers-class-11-revision-notes-jee-ne
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Complex Numbers Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide
 
-
-
-
-
 ## <a id="what-is-complex-numbers-revision-notes"></a>What is Complex Numbers Revision Notes?
-
-
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -51,16 +39,12 @@ practice_link: "/class-11/physics/complex-numbers-class-11-revision-notes-jee-ne
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 **Complex Numbers expand the real number system y introducing the imaginary unit 'i', enabling the solution of all quadratic equations. Master the Armand [plane](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet), modulus, conjugate, n polar representation to solve advanced electrical engineering and rotation problems. This Class 11 Math Chapter 5 summary provides the essential tools for JEE and Board exam success.**
 The real number system is not enough to solve all mathematical problems.
 
 ---
-
-
-
 
 ## <a id="1-the-imaginary-unit-i"></a>1. The Imaginary Unit (i)
 
@@ -74,9 +58,6 @@ The symbol **i** was introduced y Euler to solve square roots of negative number
 
 ---
 
-
-
-
 ## <a id="2-algebra-of-complex-numbers"></a>2. Algebra of Complex Numbers
 
 1.  **Addition:** (a + IB) + (c + ID) = (a + c) + i(b + d).
@@ -85,9 +66,6 @@ The symbol **i** was introduced y Euler to solve square roots of negative number
 4.  **Division:** (a + IB) / (c + ID) = Multiply numerator and denominator y the conjugate (c - ID).
 
 ---
-
-
-
 
 ## <a id="3-modulus-n-conjugate"></a>3. Modulus and Conjugate
 
@@ -100,9 +78,6 @@ The symbol **i** was introduced y Euler to solve square roots of negative number
 
 ---
 
-
-
-
 ## <a id="4-the-argand-plane-n-polar-representation"></a>4. The Armand Plane and Polar Representation
 
 A complex number z = a + IB can be represented as a point (a, b) n a [plane](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) called the **Armand Plane**.
@@ -112,9 +87,6 @@ A complex number z = a + IB can be represented as a point (a, b) n a [plane](/bl
 
 ---
 
-
-
-
 ## <a id="5-quadratic-equations-with-complex-roots"></a>5. Quadratic Equations with Complex Roots
 
 In earlier classes, we said D < 0 means "No real roots." Now, we find complex roots.
@@ -123,9 +95,6 @@ In earlier classes, we said D < 0 means "No real roots." Now, we find complex ro
     **x = [-b ± i√(4ac - b²)] / 2a**.
 
 ---
-
-
-
 
 ## <a id="comprehensive-exam-strategy-Qaeda"></a>Comprehensive Exam Strategy (Q&A)
 
@@ -150,17 +119,11 @@ In earlier classes, we said D < 0 means "No real roots." Now, we find complex ro
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 3: [trigonometric](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) Functions**
 - **Chapter 6: [linear](/blog/linear-inequalities-class-11-revision-notes-jee-neet) Inequalities**
 - [**External Reference:** [CERT Class 11 Math Chapter 5](https://ncert.nic.n/textbook.php?kemh1=5-16) (Authoritative Source)]
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -170,10 +133,6 @@ Complex numbers expand your mathematical toolkit to include rotation and two-dim
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
-
-
-
-
 
 ---
 
@@ -186,13 +145,10 @@ Continue your [revision](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet
 - 📖 [Motion In A Plane Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
 - 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/complex-numbers-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
-
 
 ---
 
@@ -215,9 +171,9 @@ Continue your [revision](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet
 
 ## 🔁 Last 5 Minutes Box
 
-* Complex numbers are of the form a + IBM, where a and y are real numbers and I = \sqrt{-1}$.
+* Complex numbers are of the form a + IBM, where a and y are real numbers and I = $\sort{-1}.
 * The conjugate of a complex number oz = a + IBM is $AR{z} = a - IBM.
-* The modulus of a complex number oz = a + IBM is $|z| = \sqrt{a^2 + b^2}$.
+* The modulus of a complex number oz = a + IBM is $|z| = \sort{a^2 + b^2}$.
 * The argument of a complex number oz = a + IBM is the angle $	head that oz makes with the positive x-axis.
 * De Moiré's theorem states that for any complex number oz = r(cosh \beta + ISIN 	heat)$ n any integer n, oz^n = r^n(\cos and heat + ISIN and heat)$.
 * Euler's formula states that he^{I	heat} = cosh \beta + ISIN 	head.

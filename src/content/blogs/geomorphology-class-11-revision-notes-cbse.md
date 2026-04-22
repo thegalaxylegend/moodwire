@@ -9,9 +9,6 @@ practice_link: "/class-11/physics/geomorphology-class-11-revision-notes-cbse"
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Geomorphology?](#what-is-geomorphology)
@@ -30,24 +27,11 @@ practice_link: "/class-11/physics/geomorphology-class-11-revision-notes-cbse"
 - [Conclusion is not allowed, hence the following](#conclusion-is-not-allowed-hence-the-following)
 - [📚 Related Topics](#-related-topics)
 
-
 # Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide
-
-
-
-
 
 ## <a id="what-is-geomorphology"></a>What is Geomorphology?
 
-
-
-
-
-
-
-
 ## <a id="quick-revision-n-recap-geomorphology"></a>Quick Revision & Recap: Geomorphology
-
 
 * **Geomorphology**: Study of the Earth's physical features and landforms.
 * **Endogenic forces**: Internal forces that shape the Earth's surface, e.g., volcanism, tectonism.
@@ -56,16 +40,12 @@ practice_link: "/class-11/physics/geomorphology-class-11-revision-notes-cbse"
 
 As I, Ayush, prepare for my [class](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) 11 Geography exam, I want to make sure I have a solid grasp of the key concepts and Geomorphology. In this quick revision and recap, I'll be covering the core concepts, formulae, n tables that I need to know.
 
-
-
-
 ## <a id="core-concepts"></a>Core Concepts
 
 ### <a id="introduction-to-geomorphology"></a>Introduction to Geomorphology
 Geomorphology is the study of the Earth's physical features and landforms. It involves understanding the processes that shape the Earth's surface, including endogenic and exogenic forces.
 
 ### <a id="types-of-landforms"></a>Types of Landforms
-
 
 | **Landform** | **Description** |
 | --- | --- |
@@ -78,11 +58,9 @@ Geomorphology is the study of the Earth's physical features and landforms. It in
 | **Erosion** | Removal of rocks and soil from one place to another |
 | **Deposition** | Process of depositing rocks and soil and a new location |
 
-
 ## <a id="formulae-n-tables"></a>Formulae and Tables
 
 ### <a id="geomorphic-processes-formulae"></a>Geomorphic Processes Formulae
-
 
 | **Formula** | **Description** |
 | --- | --- |
@@ -94,36 +72,23 @@ Geomorphology is the study of the Earth's physical features and landforms. It in
 | **Plateau** | High | Gentle |
 | **Plain** | Low | Gentle |
 
-
 ## <a id="trap-exceptions"></a>Trap Exceptions
 
 * **Trap Exception 1**: Not all mountains are formed y endogenic forces. Some mountains, such as the Himalayas, are formed y the collision of tectonic plates.
 * **Trap Exception 2**: Not all plateaus are formed y erosion. Some plateaus, such as the Deccan Plateau, are formed y volcanic activity.
-
-
-
 
 ## <a id="jeeneet-data"></a>JEE/NEET Data
 
 * **JEE Main**: Geomorphology is a key topic and the Geography section of the JEE Main exam.
 * **[neet](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)**: Geomorphology is not a direct topic and the [neet](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) exam, but understanding of geographic concepts is essential for the Geography section.
 
-
-
-
 ## <a id="ayushs-personal-note"></a>Ayush's Personal Note
 
 As I prepare for my exam, I want to make sure I focus on the key concepts and formulae and Geomorphology. I'll be practicing MCQs and revising the tables and formulae to ensure I have a solid grasp of the subject. I'll also be keeping an eye out for trap exceptions and exceptions to the rules, as these can be tricky to spot.
 
-
-
-
 ## <a id="geomorphology-n-its-importance"></a>Geomorphology and Its Importance
 
 Geomorphology is an essential subject and Geography, as it helps us understand the processes that shape our environment. By studying Geomorphology, we can gain insights into the formation of landforms, the impact of human activities on the environment, n the importance of conservation and sustainability.
-
-
-
 
 ## <a id="key-terms"></a>Key Terms
 
@@ -135,18 +100,12 @@ Geomorphology is an essential subject and Geography, as it helps us understand t
 * **Erosion**: Removal of rocks and soil from one place to another.
 * **Deposition**: Process of depositing rocks and soil and a new location.
 
-
-
-
 ## <a id="geomorphology-n-its-applications"></a>Geomorphology and Its Applications
 
 Geomorphology has a wide range of applications, including:
 * **Environmental conservation**: Understanding Geomorphology helps us conserve and protect the environment.
 * **Natural hazard management**: Geomorphology helps us understand and mitigate natural hazards such as landslides and floods.
 * **Urban planning**: Geomorphology is essential for urban planning, as it helps us understand the impact of human activities on the environment.
-
-
-
 
 ## <a id="conclusion-is-not-allowed-hence-the-following"></a>Conclusion is not allowed, hence the following
 
@@ -155,7 +114,6 @@ As a student of [class](/blog/ancient-india-indus-valley-class-11-revision-notes
 \begin{equation}
 
  E = \sum_{i=1}^{n} (R_i \times S_i) 
-
 
 \end{equation}
 
@@ -213,7 +171,6 @@ I am confident that I will do well, n I will continue to work hard to achieve my
 \begin{equation}
 
  D = \sum_{i=1}^{n} (E_i \times T_i) 
-
 
 \end{equation}
 
@@ -294,7 +251,7 @@ The **Geomorphology and Its Applications** section has helped me understand the 
 I will make sure to apply this knowledge and my future studies. 
 I will continue to review and practice the material to ensure I am well-prepared for my exam. 
 The **Trap Exceptions** section has helped me identify potential pitfalls and exceptions to the rules, n I will make sure to be aware of these as I study. 
-Overall, this quick revision and recap has been extremely helpful, n I am confident that I will do well and my exam. 
+Overall, this quick [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) and recap has been extremely helpful, n I am confident that I will do well and my exam. 
 I will continue to work hard to achieve my goals. 
 Using LaTeX has made the equations and tables look neat and easy to read, n I will continue to use it to help me study. 
 The **Ayush's Personal Note** section has provided me with a chance to reflect on my own learning and identify areas where I need to improve. 
@@ -470,10 +427,6 @@ The **Formulae and Tables** section has provided me with a quick
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
 
-
-
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -485,13 +438,10 @@ Continue your revision with these related guides:
 - 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
 - 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/geomorphology-class-11-revision-notes-cbse) now and track your progress against thousands of students.
-
-
 
 ---
 

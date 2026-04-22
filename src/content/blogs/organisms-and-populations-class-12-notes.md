@@ -21,7 +21,7 @@ manualReview: false
 
 ## 
 - The key to solving population growth problems is to understand the concept of carrying capacity and how it affects population growth.
-- The species-area relationship is a fundamental concept in ecology, and understanding its implications is crucial for solving problems related to biodiversity.
+- The species-area relationship is a fundamental concept in ecology, and understanding its implications is crucial for solving problems related to [biodiversity](/blog/biodiversity-and-conservation-class-12-notes).
 - The Shannon-Wiener diversity index and Simpson's diversity index are two important measures of biodiversity, and knowing how to calculate them is essential for solving problems related to ecology.
 
 ## 🪤 The 5 Mistakes That Cost Marks
@@ -63,39 +63,64 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the formula for population growth rate?**
-- A) $\frac{dN}{dt} = rN$
-- B) $\frac{dN}{dt} = rK$
-- C) $\frac{dN}{dt} = r \left(1 - \frac{N}{K}\right)$
-- D) $\frac{dN}{dt} = r \left(\frac{N}{K}\right)$
-**Answer:** A) $\frac{dN}{dt} = rN$
+-
+A) $\frac{dN}{dt}$ = rN
+-
+B) $\frac{dN}{dt}$ = rK
+-
+C) $\frac{dN}{dt} = r \left(1 - \frac{N}{K}\right)$
+-
+D) $\frac{dN}{dt}$ = r \left($\frac{N}{K}$\right)
+
+**Answer:** A) $\frac{dN}{dt}$ = rN
 
 **2. What is the species-area relationship?**
-- A) $S = cA^z$
-- B) $S = cA^{-z}$
-- C) $S = cA^{1/z}$
-- D) $S = cA^{z/2}$
+-
+A) $S = cA^z$
+-
+B) $S = cA^{-z}$
+-
+C) $S = cA^{1/z}$
+-
+D) $S = cA^{z/2}$
+
 **Answer:** A) $S = cA^z$
 
 **3. What is the Shannon-Wiener diversity index?**
-- A) $H = - \sum_{i=1}^{S} p_i \ln p_i$
-- B) $H = - \sum_{i=1}^{S} p_i \ln (1-p_i)$
-- C) $H = \sum_{i=1}^{S} p_i \ln p_i$
-- D) $H = \sum_{i=1}^{S} p_i \ln (1-p_i)$
-**Answer:** A) $H = - \sum_{i=1}^{S} p_i \ln p_i$
+-
+A) H = - \sum_{i=1}^{S} p_i \ln p_i
+-
+B) H = - \sum_{i=1}^{S} p_i \ln (1-p_i)
+-
+C) H = \sum_{i=1}^{S} p_i \ln p_i
+-
+D) H = \sum_{i=1}^{S} p_i \ln (1-p_i)
+
+**Answer:** A) H = - \sum_{i=1}^{S} p_i \ln p_i
 
 **4. What is the Simpson's diversity index?**
-- A) $D = 1 - \sum_{i=1}^{S} \left(\frac{n_i}{N}\right)^2$
-- B) $D = 1 - \sum_{i=1}^{S} \left(\frac{n_i}{N}\right)$
-- C) $D = \sum_{i=1}^{S} \left(\frac{n_i}{N}\right)^2$
-- D) $D = \sum_{i=1}^{S} \left(\frac{n_i}{N}\right)$
-**Answer:** A) $D = 1 - \sum_{i=1}^{S} \left(\frac{n_i}{N}\right)^2$
+-
+A) $D = 1 - \sum_{i=1}^{S} \left(\frac{n_i}{N}\right)^2$
+-
+B) $D = 1 - \sum_{i=1}^{S} \left(\frac{n_i}{N}\right)$
+-
+C) $D = \sum_{i=1}^{S} \left(\frac{n_i}{N}\right)^2$
+-
+D) $D = \sum_{i=1}^{S} \left(\frac{n_i}{N}\right)$
+
+**Answer:** A) D = 1 - \sum_{i=1}^{S} \left(\frac{n_i}{N}\right)^2
 
 **5. What is the formula for population density?**
-- A) $\rho = \frac{N}{A}$
-- B) $\rho = \frac{A}{N}$
-- C) $\rho = \frac{N}{V}$
-- D) $\rho = \frac{V}{N}$
-**Answer:** A) $\rho = \frac{N}{A}$
+-
+A) \rho = $\frac{N}{A}$
+-
+B) \rho = $\frac{A}{N}$
+-
+C) \rho = $\frac{N}{V}$
+-
+D) \rho = $\frac{V}{N}$
+
+**Answer:** A) \rho = $\frac{N}{A}$
 
 ---
 
@@ -104,3 +129,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Reproduction In Organisms Class 12 Exam Prep Revision — Grandmaster Guide](/blog/reproduction-in-organisms-class-12-notes)
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)

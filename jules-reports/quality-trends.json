@@ -1,29 +1,28 @@
 {
-  "overallAvgScore": 84.3,
-  "totalBlogsAllTime": 94,
-  "totalPassed": 74,
-  "totalFailed": 20,
-  "overallPassRate": 79,
-  "trend": "improving",
-  "trendDelta": 11.6,
+  "overallAvgScore": 84.2,
+  "totalBlogsAllTime": 103,
+  "totalPassed": 75,
+  "totalFailed": 28,
+  "overallPassRate": 73,
+  "trend": "stable",
+  "trendDelta": 2,
   "dailyReports": [
     {
-      "date": "2026-04-19",
+      "date": "2026-04-22",
       "totalBlogs": 9,
-      "passed": 0,
-      "failed": 9,
-      "avgScore": 33.3,
-      "passRate": 0,
+      "passed": 1,
+      "failed": 8,
+      "avgScore": 82.8,
+      "passRate": 11,
       "errors": [
-        "JSON squashing detected: raw JSON objects in markdown body",
-        "JSON squashing detected: raw JSON objects in markdown body",
-        "JSON squashing detected: raw JSON objects in markdown body",
-        "JSON squashing detected: raw JSON objects in markdown body",
-        "JSON squashing detected: raw JSON objects in markdown body",
-        "JSON squashing detected: raw JSON objects in markdown body",
-        "JSON squashing detected: raw JSON objects in markdown body",
-        "JSON squashing detected: raw JSON objects in markdown body",
-        "JSON squashing detected: raw JSON objects in markdown body"
+        "Unknown Failure",
+        "Unknown Failure",
+        "Unknown Failure",
+        "Unknown Failure",
+        "Unknown Failure",
+        "Unknown Failure",
+        "Unknown Failure",
+        "Unknown Failure"
       ]
     },
     {
@@ -199,12 +198,35 @@
       "avgScore": 100,
       "passRate": 100,
       "errors": []
+    },
+    {
+      "date": "2026-04-19",
+      "totalBlogs": 9,
+      "passed": 0,
+      "failed": 9,
+      "avgScore": 33.3,
+      "passRate": 0,
+      "errors": [
+        "JSON squashing detected: raw JSON objects in markdown body",
+        "JSON squashing detected: raw JSON objects in markdown body",
+        "JSON squashing detected: raw JSON objects in markdown body",
+        "JSON squashing detected: raw JSON objects in markdown body",
+        "JSON squashing detected: raw JSON objects in markdown body",
+        "JSON squashing detected: raw JSON objects in markdown body",
+        "JSON squashing detected: raw JSON objects in markdown body",
+        "JSON squashing detected: raw JSON objects in markdown body",
+        "JSON squashing detected: raw JSON objects in markdown body"
+      ]
     }
   ],
   "topErrors": [
     {
       "error": "JSON squashing detected: raw JSON objects in markdown body",
       "count": 9
+    },
+    {
+      "error": "Unknown Failure",
+      "count": 8
     },
     {
       "error": "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":",
@@ -219,6 +241,6 @@
       "count": 1
     }
   ],
-  "alertNeeded": false,
-  "alertMessage": ""
+  "alertNeeded": true,
+  "alertMessage": "🚨 Last run had <50% pass rate! Only 0/9 blogs passed."
 }

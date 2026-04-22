@@ -9,29 +9,29 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- The greenhouse effect is given by: $\frac{I}{4} \times (1 - \alpha)$, where $I$ is the solar constant and $\alpha$ is the albedo of the Earth.
-- The concentration of a pollutant can be calculated using: $C = \frac{Q}{K \times A}$, where $C$ is the concentration, $Q$ is the amount of pollutant, $K$ is the decay constant, and $A$ is the area.
-- The air quality index can be calculated using: $AQI = \frac{C}{C_0} \times 100$, where $C$ is the concentration of the pollutant and $C_0$ is the standard concentration.
-- The global warming potential of a gas is given by: $GWP = \frac{\int_{0}^{t} a(t) dt}{\int_{0}^{t} a_{CO_2}(t) dt}$, where $a(t)$ is the radiative forcing of the gas and $a_{CO_2}(t)$ is the radiative forcing of $CO_2$.
-- The rate of climate change can be calculated using: $\frac{dT}{dt} = \frac{Q}{C_p \times m}$, where $dT$ is the change in temperature, $dt$ is the time, $Q$ is the amount of heat, $C_p$ is the specific heat capacity, and $m$ is the mass.
+- The greenhouse effect is given by: $\franc{I}{4} \times (1 - \alpha)$, where IN is the solar constant and $\alpha$ is the albedo of the Earth.
+- The concentration of a pollutant can be calculated using: BC = \franc{Q}{K \times A}$, where ACT is the concentration, HQ is the amount of pollutant, OK is the decay constant, and A is the area.
+- The air quality index can be calculated using: $AQI = \franc{C}{C_0} \times 100$, where ACT is the concentration of the pollutant and BC_0$ is the standard concentration.
+- The global warming potential of a gas is given by: $GWP = \franc{\INT_{0}^{t} a(t) DT}{\INT_{0}^{t} a_{CO_2}(t) DT}$, where a(t)$ is the radiative forcing of the gas and a_{CO_2}(t)$ is the radiative forcing of $CO_2$.
+- The rate of climate change can be calculated using: $\franc{dT}{dt} = \franc{Q}{C_p \times m}$, where DDT is the change in temperature, DDT is the time, HQ is the amount of heat, BC_PA is the specific heat capacity, and me is the mass.
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not understanding the difference between climate and weather: climate refers to long-term patterns, while weather refers to short-term conditions.
 - Confusing the greenhouse effect with the ozone layer depletion: the greenhouse effect is a natural process, while ozone layer depletion is a human-induced problem.
-- Not knowing the main causes of air pollution: particulate matter, $NO_x$, $SO_x$, $CO$, and $VOCs$ are the main causes of air pollution.
+- Not knowing the main causes of air pollution: particulate matter, $NO_$, $SO_$, COM, and vocal are the main causes of air pollution.
 - Not understanding the concept of sustainable development: meeting the needs of the present without compromising the ability of future generations to meet their own needs.
-- Not being able to identify the main environmental impacts of human activities: deforestation, pollution, climate change, and loss of biodiversity.
+- Not being able to identify the main environmental impacts of human activities: deforestation, pollution, climate change, and loss of [biodiversity](/blog/biodiversity-and-conservation-class-12-notes).
 
-## ✏️ 3 Solved PYQs
+## ✏️ 3 Solved Yes
 - What is the main cause of the formation of ground-level ozone?
-- The main cause of the formation of ground-level ozone is the reaction between $NO_x$ and $VOCs$ in the presence of sunlight.
-- The reaction is as follows: $NO_2 + hv \rightarrow NO + O$, followed by $O + O_2 \rightarrow O_3$.
+- The main cause of the formation of ground-level ozone is the reaction between $NO_$ and vocal in the presence of sunlight.
+- The reaction is as follows: $NO_2 + HV \right arrow NO + OF, followed by TO + O_2 \right arrow O_3$.
 - What is the difference between a hurricane and a typhoon?
 - The difference between a hurricane and a typhoon is the location in which they occur: hurricanes occur in the Atlantic and northeast Pacific, while typhoons occur in the northwest Pacific.
 - Both are types of tropical cyclones, characterized by strong winds and heavy rainfall.
 - What is the main advantage of using solar energy?
 - The main advantage of using solar energy is that it is a renewable and clean source of energy, producing no greenhouse gas emissions or pollution.
-- Solar energy can be used for heating, cooling, and generating electricity, and can be used in a variety of applications, from small-scale residential to large-scale industrial.
+- Solar energy can be used for heating, cooling, and generating electricity, and can be used in a variety of [applications](/blog/biotechnology-and-its-applications-class-12-notes), from small-scale residential to large-scale industrial.
 
 ## 🧠 The One Thing Most Students Get Wrong
 - The one thing most students get wrong is the concept of carrying capacity: the maximum number of individuals of a species that an environment can support indefinitely.
@@ -53,34 +53,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the main cause of the formation of acid rain?**
-- A) $NO_x$ emissions
-- B) $SO_x$ emissions
-- C) $CO$ emissions
-- D) $VOCs$ emissions
-**Answer: B) $SO_x$ emissions.**
+-
+A) $NO_$ emissions
+-
+B) $SO_$ emissions
+-
+C) COM emissions
+-
+D) vocal emissions
+
+**Answer: B) $SO_$ emissions.**
+
 **2. What is the main advantage of using wind energy?**
-- A) It is a non-renewable source of energy
-- B) It produces greenhouse gas emissions
-- C) It is a renewable and clean source of energy
-- D) It is expensive to install and maintain
+-
+A) It is a non-renewable source of energy
+-
+B) It produces greenhouse gas emissions
+-
+C) It is a renewable and clean source of energy
+-
+D) It is expensive to install and maintain
+
 **Answer: C) It is a renewable and clean source of energy.**
+
 **3. What is the main difference between a hurricane and a typhoon?**
-- A) The location in which they occur
-- B) The strength of the winds
-- C) The amount of rainfall
-- D) The time of year in which they occur
+-
+A) The location in which they occur
+-
+B) The strength of the winds
+-
+C) The amount of rainfall
+-
+D) The time of year in which they occur
+
 **Answer: A) The location in which they occur.**
+
 **4. What is the main effect of climate change on biodiversity?**
-- A) It increases biodiversity
-- B) It has no effect on biodiversity
-- C) It decreases biodiversity
-- D) It has a variable effect on biodiversity
+-
+A) It increases biodiversity
+-
+B) It has no effect on biodiversity
+-
+C) It decreases biodiversity
+-
+D) It has a variable effect on biodiversity
+
 **Answer: C) It decreases biodiversity.**
+
 **5. What is the main solution to environmental issues?**
-- A) Sustainable development
-- B) Conservation
-- C) Pollution control
-- D) All of the above
+-
+A) Sustainable development
+-
+B) Conservation
+-
+C) Pollution control
+-
+D) All of the above
+
 **Answer: D) All of the above.**
 
 ---
@@ -90,3 +119,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)

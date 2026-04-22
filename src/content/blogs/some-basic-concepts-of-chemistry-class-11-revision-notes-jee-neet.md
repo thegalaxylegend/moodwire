@@ -9,9 +9,6 @@ practice_link: "/class-11/physics/some-basic-concepts-of-chemistry-class-11-revi
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Some Basic Concepts Of Chemistry?](#what-is-some-basic-concepts-of-chemistry)
@@ -27,28 +24,13 @@ practice_link: "/class-11/physics/some-basic-concepts-of-chemistry-class-11-revi
 - [MCQs](#mcqs)
 - [📚 Related Topics](#-related-topics)
 
-
 # Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-
-
-
-
 ## <a id="what-is-some-basic-concepts-of-chemistry"></a>What is Some Basic Concepts Of Chemistry?
-
-
-
-
-
-
-
 
 ## <a id="ayushs-personal-note"></a>Ayush's Personal Note
 
 I still remember my school days when I struggled to understand the mole concept. It seemed complicated, but with practice and dedication, I was able to grasp it. My advice to students is to start with the basics and build upon them. Don't be afraid to ask questions or seek help when needed. [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) can be challenging, but with the right approach, it can also be very rewarding. I have seen many students who struggled initially but went on to score well and their exams with persistence and hard work.
-
-
-
 
 ## <a id="jeeneet-data"></a>JEE/NEET Data
 
@@ -60,9 +42,6 @@ For students preparing for JEE/NEET, it's essential to understand the importance
 - Equilibrium: 6-8%
 
 It's clear that a strong foundation and these concepts is essential for performing well and JEE/[neet](/blog/structure-of-the-atom-class-11-revision-notes-neet).
-
-
-
 
 ## <a id="core-concepts"></a>Core Concepts
 
@@ -85,13 +64,9 @@ The mole concept is used to calculate the number of moles of a substance:
 
 $\text{Number of Moles} = \frac$\text{Mass of Substance$}$\text{Molar Mass of Substance$}$
 
-
-
 For example, the number of moles of 10 g of sodium (Na) is:
 
 $\text{Number of Moles of Na} = \frac{10}{23}$}{$\text{Mass of Reactants}$ = } 
-
-
 
 ### <a id="stoichiometry"></a>Stoichiometry
 Stoichiometry is the study of the quantitative relationships between reactants and products n [chemical](/blog/chemical-coordination-n-integration-class-11-revision-notes-neet) reactions. It's used to calculate the amount of reactants required or the amount of products formed and a reaction.
@@ -104,7 +79,7 @@ For example, consider the reaction:
 2$\text{Na} + \text{Cl}$_2 \rightarrow 2$\text{NaCl}
 
 The mass of the reactants is:
-$\text{Mass of Reactants} = 2 \times 23 + 71 = 117 \text{ g}
+\text{Mass of Reactants}$ = 2 \times 23 + 71 = 117 $\text{ g}$
 
 The mass of the products is:
 $\text{Mass of Products} = 2 \times 58.5 = 117 \text{ g}$
@@ -136,11 +111,6 @@ For example, consider a gas with a pressure of 1 atm, a volume of 10 L, n a temp
 
 P = $\frac{nRT}{V} = \text{ atm\frac{2 \times 0.0821 \times 273}{10} = 4.46 $
 
-
-
-
-
-
 ## <a id="formulae"></a>Formulae
 
 Here are some essential formulae to remember:
@@ -148,11 +118,6 @@ Here are some essential formulae to remember:
 - Number of Moles = $\frac{\text{Mass of Substance}{1 }} }$
 - Ideal Gas Law: $PV = nRT$
 - Gas Density: $\rho = \frac{m}{V} = \frac{PM}{RT}$
-
-
-
-
-
 
 - Atomic mass and molecular mass
 - Mole concept
@@ -165,9 +130,6 @@ Here are some essential formulae to remember:
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
 
-
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -179,13 +141,10 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
 - 📖 [Organic Chemistry Basic Principles Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet)
 - 📖 [Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
-
 
 ---
 
@@ -198,3 +157,4 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
 - 📖 [Structure Of The Atom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/structure-of-the-atom-class-11-revision-notes-neet)
 - 📖 [Organic Chemistry Basic Principles Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet)
 
+$

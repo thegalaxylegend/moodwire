@@ -9,9 +9,6 @@ practice_link: "/class-11/biology/plant-kingdom-class-11-revision-notes-neet"
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Plant Kingdom?](#what-is-plant-kingdom)
@@ -25,22 +22,11 @@ practice_link: "/class-11/biology/plant-kingdom-class-11-revision-notes-neet"
 - [Related Notes Links](#related-notes-links)
 - [📚 Related Topics](#-related-topics)
 
-
 # Plant Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-plant-kingdom"></a>What is Plant Kingdom?
 
-
-
-
 Last Updated: March 15, 2026
-
-
-
 
 1. [Introduction to Plant Kingdom](#introduction-to-plant-kingdom)
 2. [Why This Chapter Matters](#why-this-chapter-matters)
@@ -51,31 +37,19 @@ Last Updated: March 15, 2026
 7. [Practice MCQs](#practice-mcqs)
 8. [Related Notes Links](#related-notes-links)
 
-
-
-
 ## <a id="introduction-to-plant-kingdom"></a>Introduction to Plant Kingdom
 
 Plant Kingdom is a taxonomic rank that includes all plants. It is a diverse group of organisms that includes everything from simple mosses to complex [flowering](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) plants. The Plant Kingdom is divided into two main groups: Bryophyta and Tracheophyta. Bryophyta includes non-vascular plants such as mosses and liverworts, while Tracheophyta includes vascular plants such as ferns, conifers, n flowering plants.
 
-
-
-
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 
 Plant Kingdom is a critical topic for JEE and NEET exams, with 3-4 questions asked every year. In JEE Mains 2026 Session 1, 3 questions came from this topic. Understanding the classification and characteristics of different plant groups is essential for answering questions and this topic. Additionally, knowledge of plant anatomy and physiology is crucial for understanding many [biological](/blog/biological-classification-class-11-revision-notes-neet) processes.
-
-
-
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
 <div [class](/blog/the-s-block-elements-class-11-revision-notes-jee-neet)="ayush-note">
 I still remember when I was preparing for JEE, I used to get confused between the different plant groups. I would often mix up the characteristics of Bryophyta and Tracheophyta. But then I realized that the key to understanding Plant Kingdom is to focus on the vascular tissue. Once I understood the difference between vascular and non-vascular [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet), I was able to classify [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) easily. My advice to you is to practice, practice, practice! Make sure you practice at least 50-60 questions from this topic to get a good grip on it.
 </div>
-
-
-
 
 ## <a id="core-concepts"></a>Core Concepts
 
@@ -91,9 +65,6 @@ The [classification](/blog/biological-classification-class-11-revision-notes-nee
 * Seeds: Presence or absence of seeds.
 * Flowers: Presence or absence of flowers.
 
-
-
-
 ## <a id="shortcut-formula-trick"></a>Shortcut Formula / Trick
 
 To remember the different [plant](/blog/plant-growth-n-development-class-11-revision-notes-neet) groups, you can use the following trick:
@@ -102,9 +73,6 @@ To remember the different [plant](/blog/plant-growth-n-development-class-11-revi
 * Pteridophyta: Vascular plants, produce spores.
 * Gymnosperms: Vascular plants, produce seeds, no flowers.
 * Angiosperms: Vascular plants, produce flowers and seeds.
-
-
-
 
 ## <a id="trap-questions-exceptions"></a>Trap Questions / Exceptions
 
@@ -118,9 +86,6 @@ Why students get it wrong: Students often assume that all plants produce flowers
 Right answer: Bryophyta is a type of non-vascular [plant](/blog/plant-growth-n-development-class-11-revision-notes-neet).
 Why students get it wrong: Students often confuse the different [plant](/blog/plant-growth-n-development-class-11-revision-notes-neet) groups and assume that Bryophyta is a type of vascular [plant](/blog/plant-growth-n-development-class-11-revision-notes-neet).
 
-
-
-
 ## <a id="practice-mcqs"></a>Practice MCQs
 
 1. Which of the following is a characteristic of Bryophyta?
@@ -131,7 +96,7 @@ d) Non-vascular tissue
 
 Answer: d) Non-vascular tissue
 
-2. Which of the following plant groups produces spores?
+2. Which of the following [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet) groups produces spores?
 a) Pteridophyta
 b) Gymnosperms
 c) Angiosperms
@@ -163,22 +128,15 @@ d) All of the above
 
 Answer: d) All of the above
 
-
-
-
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Cell Biology Class 11 Notes
+* Cell Biology [class](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) 11 Notes
 * Molecular Biology Class 12 Notes
 
 Note: The above links are to existing posts only.
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
-
-
-
-
 
 ---
 
@@ -191,13 +149,10 @@ Continue your revision with these related guides:
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/plant-kingdom-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
-
 
 ---
 

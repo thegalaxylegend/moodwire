@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/units-n-measurements-class-11-revision-notes-jee-neet.webp"
+heroImage: "/blog-images/units-and-measurements-class-11-revision-notes-jee-neet.webp"
 title: "Units And Measurements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Units And Measurements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
@@ -8,9 +8,6 @@ practice_link: "/class-11/physics/units-n-measurements-class-11-revision-notes-j
 ---
 
 *Last Updated: 2026-03-28*
-
-
-
 
 ## 📋 Table of Contents
 
@@ -34,18 +31,9 @@ practice_link: "/class-11/physics/units-n-measurements-class-11-revision-notes-j
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Units And Measurements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-
-
-
-
 ## <a id="what-is-units-n-measurements-revision-notes"></a>What is Units And Measurements Revision Notes?
-
-
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -194,10 +182,6 @@ Units and Measurements are not just "entry-level" topics; they are the filter th
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
 
-
-
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -209,13 +193,10 @@ Continue your [revision](/blog/limits-derivatives-class-11-revision-notes-jee-ne
 - 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
 - 📖 [Mathematical Reasoning Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-reasoning-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/units-n-measurements-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
-
 
 ---
 

@@ -54,38 +54,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the main advantage of using $\text{crop rotation}$ in agriculture?**
-- A) Increases the yield of crops by $\frac{20-50}{100}$ percent
-- B) Helps to maintain $\frac{1}{3}$ of the land under legumes, which replenishes the soil with $\frac{50-100}{1000}$ kg of nitrogen per hectare
-- C) Reduces pests and diseases by $\frac{10-20}{100}$ percent
-- D) Increases the use of chemical pesticides by $\frac{20-50}{100}$ percent
+-
+A) Increases the yield of crops by $\frac{20-50}{100}$ percent
+-
+B) Helps to maintain $\frac{1}{3}$ of the land under legumes, which replenishes the soil with $\frac{50-100}{1000}$ kg of nitrogen per hectare
+-
+C) Reduces pests and diseases by $\frac{10-20}{100}$ percent
+-
+D) Increases the use of chemical pesticides by $\frac{20-50}{100}$ percent
+
 **Answer: B) Helps to maintain $\frac{1}{3}$ of the land under legumes, which replenishes the soil with $\frac{50-100}{1000}$ kg of nitrogen per hectare.**
 
 **2. How does $\text{intercropping}$ increase the yield of crops?**
-- A) By $\frac{10-20}{100}$ percent
-- B) By $\frac{20-50}{100}$ percent
-- C) By $\frac{50-100}{100}$ percent
-- D) By $\frac{100-200}{100}$ percent
+-
+A) By $\frac{10-20}{100}$ percent
+-
+B) By $\frac{20-50}{100}$ percent
+-
+C) By $\frac{50-100}{100}$ percent
+-
+D) By $\frac{100-200}{100}$ percent
+
 **Answer: B) By $\frac{20-50}{100}$ percent.**
 
 **3. What is the role of $\text{biofertilizers}$ in agriculture?**
-- A) To increase the yield of crops by $\frac{20-50}{100}$ percent
-- B) To reduce pests and diseases by $\frac{10-20}{100}$ percent
-- C) To provide essential nutrients to the plants
-- D) To increase the use of chemical pesticides by $\frac{20-50}{100}$ percent
+-
+A) To increase the yield of crops by $\frac{20-50}{100}$ percent
+-
+B) To reduce pests and diseases by $\frac{10-20}{100}$ percent
+-
+C) To provide essential nutrients to the plants
+-
+D) To increase the use of chemical pesticides by $\frac{20-50}{100}$ percent
+
 **Answer: C) To provide essential nutrients to the plants.**
 
 **4. What is the difference between $\text{hydroponics}$ and $\text{aquaponics}$?**
-- A) $\text{Hydroponics}$ is a technique of growing plants in nutrient-rich water without using soil, while $\text{aquaponics}$ is a technique of growing plants and fish together in a recirculating system
-- B) $\text{Hydroponics}$ is a technique of growing plants and fish together in a recirculating system, while $\text{aquaponics}$ is a technique of growing plants in nutrient-rich water without using soil
-- C) $\text{Hydroponics}$ and $\text{aquaponics}$ are the same techniques
-- D) $\text{Hydroponics}$ and $\text{aquaponics}$ are two different techniques of growing plants in soil
+-
+A) $\text{Hydroponics}$ is a technique of growing plants in nutrient-rich water without using soil, while $\text{aquaponics}$ is a technique of growing plants and fish together in a recirculating system
+-
+B) $\text{Hydroponics}$ is a technique of growing plants and fish together in a recirculating system, while $\text{aquaponics}$ is a technique of growing plants in nutrient-rich water without using soil
+-
+C) $\text{Hydroponics}$ and $\text{aquaponics}$ are the same techniques
+-
+D) $\text{Hydroponics}$ and $\text{aquaponics}$ are two different techniques of growing plants in soil
+
 **Answer: A) $\text{Hydroponics}$ is a technique of growing plants in nutrient-rich water without using soil, while $\text{aquaponics}$ is a technique of growing plants and fish together in a recirculating system.**
 
 **5. What is the main advantage of using $\text{precision farming}$ in agriculture?**
-- A) Increases the yield of crops by $\frac{20-50}{100}$ percent
-- B) Reduces pests and diseases by $\frac{10-20}{100}$ percent
-- C) Increases the use of chemical pesticides by $\frac{20-50}{100}$ percent
-- D) Uses advanced technology to increase the yield by $\frac{10-20}{100}$ percent
+-
+A) Increases the yield of crops by $\frac{20-50}{100}$ percent
+-
+B) Reduces pests and diseases by $\frac{10-20}{100}$ percent
+-
+C) Increases the use of chemical pesticides by $\frac{20-50}{100}$ percent
+-
+D) Uses advanced technology to increase the yield by $\frac{10-20}{100}$ percent
+
 **Answer: D) Uses advanced technology to increase the yield by $\frac{10-20}{100}$ percent.**
 
 ---
@@ -95,3 +120,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)

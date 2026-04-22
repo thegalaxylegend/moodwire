@@ -19,7 +19,7 @@ manualReview: false
 ## 
 - A linear equation in one variable can be represented as a straight line on a graph, with the $x$-axis representing the variable and the $y$-axis representing the constant term.
 - The equation $y = mx + c$ represents a straight line with slope $m$ and $y$-intercept $c$.
-- However, in this syllabus, we are only concerned with linear equations in one variable, so we will not be using this equation.
+- However, in this syllabus, we are only concerned with linear [equations](/blog/differential-equations-class-12-notes) in one variable, so we will not be using this equation.
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not checking the units of the constants in the equation, which can lead to incorrect solutions.
@@ -61,34 +61,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the value of $x$ in the equation $\frac{3x}{4} = \frac{9}{8}$?**
-- A) $\frac{3}{2}$
-- B) $\frac{5}{2}$
-- C) $\frac{9}{6}$
-- D) $\frac{12}{8}$
+-
+A) $\frac{3}{2}$
+-
+B) $\frac{5}{2}$
+-
+C) $\frac{9}{6}$
+-
+D) $\frac{12}{8}$
+
 **Answer: A) $\frac{3}{2}$, because cross-multiplying gives $24x = 36$, and dividing both sides by $24$ gives $x = \frac{36}{24} = \frac{3}{2}$.**
+
 **2. What is the value of $x$ in the equation $2x + 5 = 11$?**
-- A) $2$
-- B) $3$
-- C) $4$
-- D) $5$
+-
+A) $2$
+-
+B) $3$
+-
+C) $4$
+-
+D) $5$
+
 **Answer: B) $3$, because subtracting $5$ from both sides gives $2x = 6$, and dividing both sides by $2$ gives $x = \frac{6}{2} = 3$.**
+
 **3. What is the value of $x$ in the equation $\frac{x}{2} = 7$?**
-- A) $12$
-- B) $14$
-- C) $16$
-- D) $18$
+-
+A) $12$
+-
+B) $14$
+-
+C) $16$
+-
+D) $18$
+
 **Answer: B) $14$, because multiplying both sides by $2$ gives $x = 14$.**
+
 **4. What is the value of $x$ in the equation $x - 3 = 7$?**
-- A) $5$
-- B) $10$
-- C) $12$
-- D) $15$
+-
+A) $5$
+-
+B) $10$
+-
+C) $12$
+-
+D) $15$
+
 **Answer: B) $10$, because adding $3$ to both sides gives $x = 10$.**
+
 **5. What is the value of $x$ in the equation $\frac{2x}{5} = \frac{8}{10}$?**
-- A) $2$
-- B) $4$
-- C) $6$
-- D) $8$
+-
+A) $2$
+-
+B) $4$
+-
+C) $6$
+-
+D) $8$
+
 **Answer: A) $2$, because cross-multiplying gives $20x = 40$, and dividing both sides by $20$ gives $x = \frac{40}{20} = 2$.**
 
 ---
@@ -98,3 +127,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Linear Equations In Two Variables 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-two-variables-class-9-notes)
+- 📖 [Pair Of Linear Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/pair-of-linear-equations-class-10-notes)
+- 📖 [Differential Equations Class 12 Exam Prep Revision — Grandmaster Guide](/blog/differential-equations-class-12-notes)
+- 📖 [Linear Programming Class 12 Exam Prep Revision — Grandmaster Guide](/blog/linear-programming-class-12-notes)

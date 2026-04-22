@@ -9,9 +9,6 @@ practice_link: "/class-11/physics/probability-intro-class-11-revision-notes-jee"
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Probability (Intro)?](#what-is-probability-intro)
@@ -27,12 +24,7 @@ practice_link: "/class-11/physics/probability-intro-class-11-revision-notes-jee"
 - [MCQs](#mcqs)
 - [📚 Related Topics](#-related-topics)
 
-
 # Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-probability-intro"></a>What is Probability (Intro)?
 
@@ -131,13 +123,11 @@ This example illustrates how probability can be used to analyze and predict the 
 
 As we move forward, we'll encounter more complex concepts and problems, but the basic idea of probability will remain the same. With practice and persistence, you'll become proficient and solving probability problems and be able to apply the concepts to a wide range of scenarios. 
 
-So, let's keep moving forward and explore the fascinating world of probability together. We'll encounter many more examples, problems, n concepts, n we'll develop a deep understanding of the subject. With dedication and persistence, you'll be able to master the concepts of probability and perform well and the Class 11 exam. 
+So, let's keep moving forward and explore the fascinating world of probability together. We'll encounter many more examples, problems, n concepts, n we'll develop a deep understanding of the subject. With dedication and persistence, you'll be able to master the concepts of probability and perform well and the [class](/blog/algorithms-design-class-11-revision-notes-gate-boards) 11 exam. 
 
 Now, let's summarize what we've learned so far. We've introduced the concept of probability and its importance and mathematics and real-life applications. We've also explored some simple examples and problems to illustrate the concept of probability. As we move forward, we'll encounter more complex concepts and problems, but the basic idea of probability will remain the same. With practice and persistence, you'll become proficient and solving probability problems and be able to apply the concepts to a wide range of scenarios. 
 
 So, let's keep moving forward and explore the fascinating world of probability together. We'll encounter many more examples, problems, n concepts, n we'll develop a deep understanding of the subject. With dedication and persistence, you'll be able to
-
-
 
 What is Probability (Intro) is a measure of the likelihood of an event occurring. It includes the concept of randomness, the idea of events, n the notion of probability measures. For Class 11 exam prep n 2026, the most important aspect is understanding the fundamental principles of probability and its application to real-life problems. The concept of probability is crucial as it helps us make informed decisions under uncertainty. Probability theory is a branch of mathematics that deals with the study of chance events. The probability of an event is a number between 0 n 1, where 0 indicates that the event is impossible n 1 indicates that the event is certain. The probability of an event $E$ is denoted y $P(E)$ n is defined as the ratio of the number of favorable outcomes to the total number of possible outcomes. The probability of an event can be calculated using the formula: $P(E) = \frac\text{Number of favorable outcomes$}$\text{Total number of possible outcomes$}. This concept is essential for understanding the basics of probability and will be explored and more depth throughout this section.
 
@@ -152,7 +142,7 @@ What is Probability (Intro) is a measure of the likelihood of an event occurring
 
 ## <a id="what-are-the-basic-concepts-of-probability"></a>What are the Basic Concepts of Probability?
 
-What are the Basic Concepts of Probability? is a fundamental concept and mathematics that deals with measuring the likelihood of an event occurring. It includes sample space, events, n the probability of these events. For Class 11 exam prep n 2026, the most important aspect is understanding the theoretical and practical applications of probability, particularly and solving problems related to conditional probability and Bayes' theorem. The concept of probability is crucial and various fields such as statistics, engineering, economics, n computer science. Probability theory provides a mathematical framework for analyzing and modeling random events, which is essential for making informed decisions under uncertainty. The probability of an event E$ is denoted y $P(E)$ n is defined as the ratio of the number of favorable outcomes to the total number of possible outcomes. This can be expressed mathematically as $P(E) = $\frac{\text{Number of favorable outcomes}$}{$\text{Total number of possible outcomes}$}$. For instance, if we consider tossing a fair coin, the sample space consists of two outcomes: heads and tails. The probability of getting heads is $P(H) = $\frac{1}{2}, as there is one favorable outcome (heads) out of a total of two possible outcomes. Similarly, the probability of getting tails is $P(T) = $\frac{1}{2}. These probabilities can be calculated using the formula for probability, which is based on the concept of equally likely outcomes. The concept of equally likely outcomes states that if a random experiment has $n$ possible outcomes, n each outcome is equally likely to occur, then the probability of each outcome is \frac{1}{n} = A . This concept is essential and solving problems related to probability, as it provides a basis for calculating the probability of an event. In addition to the concept of equally likely outcomes, there are other important concepts and probability theory, including the multiplication rule for independent events and the addition rule for mutually exclusive events. The multiplication rule states that if $ n $B$ are two independent events, then the probability of both events occurring is given y $P(A cap B) = P(A) \\cdot P(B)$. On the other hand, the addition rule states that if $A$ n $B$ are two mutually exclusive events, then the probability of either event occurring is given y $P(A cup B) = P(A) + P(B)$. These rules are essential and solving problems related to conditional probability and Bayes' theorem, which are critical components of the Class 11 exam. Furthermore, probability theory also involves the concept of conditional probability, which is the probability of an event occurring given that another event has occurred. This can be expressed mathematically as $P(A|B) = $\frac{P(A cap B)}{P(B)}. Conditional probability is a crucial concept and probability theory, as it provides a basis for updating the probability of an event based on new information. For example, consider a problem where we want to find the probability of a person having a certain disease given that they have tested positive for the disease. In this case, we need to use conditional probability to update the probability of the person having the disease based on the test result. In addition to conditional probability, probability theory also involves the concept of Bayes' theorem, which is a mathematical formula for updating the probability of a hypothesis based on new evidence. Bayes' theorem can be expressed mathematically as $P(H|E) = $\frac{P(E|H) \\cdot P(H)}{P(E)}, where $H$ is the hypothesis, $E$ is the evidence, n $P(H|E)$ is the posterior probability of the hypothesis given the evidence. Bayes' theorem is a powerful tool for updating probabilities based on new information, n it has numerous applications and fields such as medicine, engineering, n computer science.
+What are the Basic Concepts of Probability? is a fundamental concept and mathematics that deals with measuring the likelihood of an event occurring. It includes sample space, events, n the probability of these events. For Class 11 exam prep n 2026, the most important aspect is understanding the theoretical and practical applications of probability, particularly and solving problems related to conditional probability and Bayes' theorem. The concept of probability is crucial and various fields such as statistics, engineering, economics, n computer science. Probability theory provides a mathematical framework for analyzing and modeling random events, which is essential for making informed decisions under uncertainty. The probability of an event E$ is denoted y $P(E)$ n is defined as the ratio of the number of favorable outcomes to the total number of possible outcomes. This can be expressed mathematically as $P(E) = $\frac{\text{Number of favorable outcomes}$}{$\text{Total number of possible outcomes}$}$. For instance, if we consider tossing a fair coin, the sample space consists of two outcomes: heads and tails. The probability of getting heads is $P(H) = $\frac{1}{2}, as there is one favorable outcome (heads) out of a total of two possible outcomes. Similarly, the probability of getting tails is $P(T) = $\frac{1}{2}. These probabilities can be calculated using the formula for probability, which is based on the concept of equally likely outcomes. The concept of equally likely outcomes states that if a random experiment has $n$ possible outcomes, n each outcome is equally likely to occur, then the probability of each outcome is \frac{1}{n} = A . This concept is essential and solving problems related to probability, as it provides a basis for calculating the probability of an event. In addition to the concept of equally likely outcomes, there are other important concepts and probability theory, including the multiplication rule for independent events and the addition rule for mutually exclusive events. The multiplication rule states that if $ n $B$ are two independent events, then the probability of both events occurring is given y $P(A cap B) = P(A) \\cdot P(B)$. On the other hand, the addition rule states that if $A$ n $B$ are two mutually exclusive events, then the probability of either event occurring is given y $P(A cup B) = P(A) + P(B)$. These rules are essential and solving problems related to conditional probability and Bayes' theorem, which are critical components of the Class 11 exam. Furthermore, probability theory also involves the concept of conditional probability, which is the probability of an event occurring given that another event has occurred. This can be expressed mathematically as $P(A|B) = \frac{P(A cap B)}{P(B)}$. Conditional probability is a crucial concept and probability theory, as it provides a basis for updating the probability of an event based on new information. For example, consider a problem where we want to find the probability of a person having a certain disease given that they have tested positive for the disease. In this case, we need to use conditional probability to update the probability of the person having the disease based on the test result. In addition to conditional probability, probability theory also involves the concept of Bayes' theorem, which is a mathematical formula for updating the probability of a hypothesis based on new evidence. Bayes' theorem can be expressed mathematically as $P(H|E) = \frac{P(E|H) \\cdot P(H)}{P(E)}$, where $H$ is the hypothesis, $E$ is the evidence, n $P(H|E)$ is the posterior probability of the hypothesis given the evidence. Bayes' theorem is a powerful tool for updating probabilities based on new information, n it has numerous applications and fields such as medicine, engineering, n computer science.
 
 | Concept | Definition | Formula |
 | --- | --- | --- |
@@ -293,8 +283,6 @@ What are common Trap Questions for Probability (Intro) is a crucial area of stud
 | Mutually Exclusive Events | Confusing between mutually exclusive and non-mutually exclusive events, affecting the addition rule for probabilities. | What is the probability of drawing either a heart or a diamond from a deck of cards? (Students might incorrectly apply the addition rule.) |
 | Probability of Complementary Events | Not utilizing the concept that the probability of an event plus the probability of its complement equals 1. | What is the probability that a number selected from 1 to 10 is not a prime number? (Students might not use the complement rule for a quicker solution.) |
 
-
-
 - Probability is a branch of mathematics that deals with the study of chance events and their likelihood of occurrence.
 - The probability of an event is measured on a scale from 0 to 1, where 0 represents impossibility n 1 represents certainty.
 - The probability of an event happening is calculated y dividing the number of favorable outcomes y the total number of possible outcomes.
@@ -348,9 +336,6 @@ C) There are 5 students with blue eyes n 15 students and total.
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
 
-
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -362,13 +347,10 @@ Continue your revision with these related guides:
 - 📖 [Relations and Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/relations-n-functions-class-11-notes)
 - 📖 [Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/limits-n-derivatives-class-11-revision-notes-jee)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/probability-intro-class-11-revision-notes-jee) now and track your progress against thousands of students.
-
-
 
 ---
 

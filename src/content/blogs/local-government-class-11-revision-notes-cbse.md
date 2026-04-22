@@ -29,7 +29,7 @@ manualReview: false
 - Not understanding the difference between the 73rd and 74th Constitutional Amendment Acts.
 - Not knowing the composition of the Panchayat Samiti and Zila Parishad.
 - Not understanding the role of the Gram Sabha in the Panchayati Raj system.
-- Not knowing the powers and functions of the Municipal Corporation and Nagar Panchayat.
+- Not knowing the powers and [functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) of the Municipal Corporation and Nagar Panchayat.
 - Not understanding the significance of the 73rd and 74th Constitutional Amendment Acts in giving constitutional status to local government.
 
 ## ✏️ 3 Solved PYQs
@@ -74,38 +74,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the main objective of the 73rd Constitutional Amendment Act of 1992?**
-- A) To give constitutional status to the Municipalities
-- B) To give constitutional status to the three-tier Panchayati Raj system
-- C) To provide basic services such as healthcare, education, and sanitation
-- D) To establish the Gram Sabha as the foundation of the Panchayati Raj system
+-
+A) To give constitutional status to the Municipalities
+-
+B) To give constitutional status to the three-tier Panchayati Raj system
+-
+C) To provide basic services such as healthcare, education, and sanitation
+-
+D) To establish the Gram Sabha as the foundation of the Panchayati Raj system
+
 **Answer: B) To give constitutional status to the three-tier Panchayati Raj system**
 
 **2. What is the composition of the Panchayat Samiti?**
-- A) A body of elected members: $\frac{1}{2}$ of the total number of seats are filled by persons having the prescribed educational qualifications
-- B) A body of elected members: $\frac{1}{3}$ of the total number of seats are filled by persons having the prescribed educational qualifications
-- C) A body of nominated members: $\frac{1}{2}$ of the total number of seats are filled by persons having the prescribed educational qualifications
-- D) A body of nominated members: $\frac{1}{3}$ of the total number of seats are filled by persons having the prescribed educational qualifications
+-
+A) A body of elected members: $\frac{1}{2}$ of the total number of seats are filled by persons having the prescribed educational qualifications
+-
+B) A body of elected members: $\frac{1}{3}$ of the total number of seats are filled by persons having the prescribed educational qualifications
+-
+C) A body of nominated members: $\frac{1}{2}$ of the total number of seats are filled by persons having the prescribed educational qualifications
+-
+D) A body of nominated members: $\frac{1}{3}$ of the total number of seats are filled by persons having the prescribed educational qualifications
+
 **Answer: B) A body of elected members: $\frac{1}{3}$ of the total number of seats are filled by persons having the prescribed educational qualifications**
 
 **3. What is the role of the Gram Sabha in the Panchayati Raj system?**
-- A) To provide basic services such as healthcare, education, and sanitation
-- B) To establish the Panchayat Samiti and Zila Parishad
-- C) To give constitutional status to the Municipalities
-- D) To serve as the foundation of the Panchayati Raj system
+-
+A) To provide basic services such as healthcare, education, and sanitation
+-
+B) To establish the Panchayat Samiti and Zila Parishad
+-
+C) To give constitutional status to the Municipalities
+-
+D) To serve as the foundation of the Panchayati Raj system
+
 **Answer: D) To serve as the foundation of the Panchayati Raj system**
 
 **4. What is the significance of the 74th Constitutional Amendment Act of 1992?**
-- A) To give constitutional status to the three-tier Panchayati Raj system
-- B) To provide basic services such as healthcare, education, and sanitation
-- C) To establish the Gram Sabha as the foundation of the Panchayati Raj system
-- D) To give constitutional status to the Municipalities
+-
+A) To give constitutional status to the three-tier Panchayati Raj system
+-
+B) To provide basic services such as healthcare, education, and sanitation
+-
+C) To establish the Gram Sabha as the foundation of the Panchayati Raj system
+-
+D) To give constitutional status to the Municipalities
+
 **Answer: D) To give constitutional status to the Municipalities**
 
 **5. What is the responsibility of local government?**
-- A) To provide basic services such as healthcare, education, and sanitation
-- B) To establish the Panchayat Samiti and Zila Parishad
-- C) To give constitutional status to the Municipalities
-- D) To serve as the foundation of the Panchayati Raj system
+-
+A) To provide basic services such as healthcare, education, and sanitation
+-
+B) To establish the Panchayat Samiti and Zila Parishad
+-
+C) To give constitutional status to the Municipalities
+-
+D) To serve as the foundation of the Panchayati Raj system
+
 **Answer: A) To provide basic services such as healthcare, education, and sanitation**
 
 ---
@@ -115,3 +140,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [3d Geometry Intro Class 11 Mathematics Revision — Grandmaster Guide](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet)
+- 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
+- 📖 [Physics Mechanics Class 11 Exam Prep Revision — Grandmaster Guide](/blog/physics-mechanics-class-11-revision-notes-jee-neet)
+- 📖 [Poverty Unemployment Class 11 Economics Recap — Grandmaster Guide](/blog/poverty-unemployment-class-11-revision-notes-jee-neet)

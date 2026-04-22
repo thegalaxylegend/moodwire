@@ -9,9 +9,6 @@ practice_link: "/class-11/chemistry/data-structures-linear-class-11-revision-not
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Data Structures: Linear?](#what-is-data-structures-linear)
@@ -28,12 +25,7 @@ practice_link: "/class-11/chemistry/data-structures-linear-class-11-revision-not
 - [MCQs](#mcqs)
 - [📚 Related Topics](#-related-topics)
 
-
 # Data Structures: Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-data-structures-linear"></a>What is Data Structures: Linear?
 
@@ -125,7 +117,7 @@ Data Structures: Linear is a fundamental concept and computer science that refer
  
  Moving on to linked lists, these are dynamic collections of elements, where each element points to the next. The trick here is mastering the operations of insertion, deletion, n traversal. For insertion, it's essential to update the pointers correctly to maintain the list's integrity. Deletion involves handling edge cases such as removing the head or the last node, n ensuring the list remains connected. Traversal, especially and a singly linked list, requires keeping track of the current node and moving to the next node y following the pointer.
  
- Stacks, another form of linear data structure, follow the Last-In-First-Out (LIFO) principle. The key trick for stacks is understanding how to implement push, pop, n peek operations. Push involves adding an element to the top of the stack, pop removes the top element, n peek returns the value of the top element without removing it. Implementing these operations requires managing the stack pointer and handling overflow and underflow conditions.
+ Stacks, another form of linear [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structure, follow the Last-In-First-Out (LIFO) principle. The key trick for stacks is understanding how to implement push, pop, n peek operations. Push involves adding an element to the top of the stack, pop removes the top element, n peek returns the value of the top element without removing it. Implementing these operations requires managing the stack pointer and handling overflow and underflow conditions.
  
  For effective preparation, it's vital to practice solving problems that involve these linear data structures. This includes writing [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) for sorting arrays, reversing linked lists, n evaluating postfix expressions using stacks. Understanding the time and space complexities of these [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) is also critical, as it helps and choosing the most efficient approach for a given problem.
  
@@ -166,7 +158,7 @@ Here are some key terms related to stacks:
 Some common stack operations and their applications are:
 - Parsing: stacks are used to parse expressions and syntax and programming languages
 - Evaluating postfix expressions: stacks are used to evaluate postfix expressions
-- Implementing recursive algorithms iteratively: stacks are used to implement recursive algorithms iteratively
+- Implementing recursive [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) iteratively: stacks are used to implement recursive [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) iteratively
 
 For example, consider the postfix expression $3 4 + 2 *$. To evaluate this expression using a stack, we would perform the following steps:
 1. Push $3$ onto the stack
@@ -337,8 +329,6 @@ Optimizing the performance of Linear Data Structures is crucial for competitive 
 | Stack | Pop | $O(1)$ |
 | Stack | Search | $O(n)$ |
 
-
-
 - Arrays store elements and contiguous memory locations.
 - Linked lists store elements as separate objects, with each element pointing to the next.
 - Stacks follow Last-In-First-Out (LIFO) order.
@@ -392,9 +382,6 @@ Last-In-First-Out (LIFO) order is maintained
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
 
-
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -406,13 +393,10 @@ Continue your revision with these related guides:
 - 📖 [Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)
 - 📖 [Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/digital-logic-class-11-revision-notes-gate-boards)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/data-structures-linear-class-11-revision-notes-gate-boards) now and track your progress against thousands of students.
-
-
 
 ---
 

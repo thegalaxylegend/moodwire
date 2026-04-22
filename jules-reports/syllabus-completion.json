@@ -1,8 +1,8 @@
 {
   "overall": {
     "total": 320,
-    "completed": 174,
-    "percentage": 54
+    "completed": 175,
+    "percentage": 55
   },
   "bySubject": {
     "Physics": {
@@ -17,8 +17,8 @@
     },
     "Mathematics": {
       "total": 63,
-      "completed": 57,
-      "percentage": 90
+      "completed": 58,
+      "percentage": 92
     },
     "Biology": {
       "total": 38,
@@ -69,8 +69,8 @@
     },
     "Class 8": {
       "total": 64,
-      "completed": 11,
-      "percentage": 17
+      "completed": 12,
+      "percentage": 19
     }
   }
 }

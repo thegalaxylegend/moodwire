@@ -41,8 +41,8 @@ manualReview: false
 - **Answer:** $8.11 \times 10^{-19} \, \text{J}$
 
 - **Question 3:** The X-ray diffraction data for a crystal of a metal is given below:
-  - $2 \theta = 30^\circ$, $n = 1$, $\lambda = 1.54 \, \text{\AA}$
-  - $2 \theta = 50^\circ$, $n = 2$, $\lambda = 1.54 \, \text{\AA}$
+ -  \theta = 30^\circ, n = 1, \lambda = 1.54 \, $\text{\AA}$
+ -  \theta = 50^\circ, n = 2, \lambda = 1.54 \, $\text{\AA}$
 - What is the length of the edge of the unit cell of the metal?
 - Step 1: Using Bragg's equation $2d \sin \theta = n \lambda$, we can calculate the length of the edge of the unit cell.
 - Step 2: For the first set of data, we have $2d \sin 15^\circ = 1 \times 1.54 \, \text{\AA}$.
@@ -57,48 +57,73 @@ manualReview: false
 
 ## 👁️ Ayush's Note
 - To solve problems related to solid state, it is essential to understand the concept of unit cell and its types, as well as the formulas related to crystal structure and its properties.
-- Practice is key to mastering this topic, so make sure to practice a variety of problems to get a good grasp of the concepts.
+- Practice is key to topic, so make sure to practice a variety of problems to get a good grasp of the concepts.
 
 ## 🔁 Last 5 Minutes Box
 - Make sure to review the formulas related to crystal structure and its properties.
 - Practice a few problems to get a good grasp of the concepts.
-- Go through the solved PYQs to understand the application of the concepts.
+- Go through the solved PYQs to understand the [application](/blog/application-of-derivatives-class-12-notes) of the concepts.
 
 ## 📝 Practice MCQs
 **1. What is the number of atoms per unit cell in a face-centered cubic structure?**
-- A) 2
-- B) 4
-- C) 6
-- D) 8
+-
+A) 2
+-
+B) 4
+-
+C) 6
+-
+D) 8
+
 **Answer: B) 4**
 
 **2. What is the formula for the distance between lattice planes in a crystal?**
-- A) $\frac{1}{d^2} = \frac{h^2 + k^2 + l^2}{a^2}$
-- B) $\frac{1}{d} = \frac{h + k + l}{a}$
-- C) $d = \frac{a}{\sqrt{h^2 + k^2 + l^2}}$
-- D) $d = \frac{a}{h + k + l}$
-**Answer: A) $\frac{1}{d^2} = \frac{h^2 + k^2 + l^2}{a^2}$**
+-
+A) $\frac{1}{d^2}$ = $\frac{h^2 + k^2 + l^2}{a^2}$
+-
+B) $\frac{1}{d}$ = $\frac{h + k + l}{a}$
+-
+C) d = $\frac{a}{\sqrt{h^2 + k^2 + l^2}$}
+-
+D) d = $\frac{a}{h + k + l}$
+
+**Answer: A) $\frac{1}{d^2}$ = $\frac{h^2 + k^2 + l^2}{a^2}$**
 
 **3. What is the lattice energy of an ionic crystal?**
-- A) $E = \frac{Z \times e^2}{4 \pi \epsilon_0 \times r_0}$
-- B) $E = \frac{Z \times e}{4 \pi \epsilon_0 \times r_0}$
-- C) $E = \frac{Z \times e^2}{4 \pi \epsilon_0 \times r_0^2}$
-- D) $E = \frac{Z \times e}{4 \pi \epsilon_0 \times r_0^2}$
-**Answer: A) $E = \frac{Z \times e^2}{4 \pi \epsilon_0 \times r_0}$**
+-
+A) $E = \frac{Z \times e^2}{4 \pi \epsilon_0 \times r_0}$
+-
+B) $E = \frac{Z \times e}{4 \pi \epsilon_0 \times r_0}$
+-
+C) $E = \frac{Z \times e^2}{4 \pi \epsilon_0 \times r_0^2}$
+-
+D) $E = \frac{Z \times e}{4 \pi \epsilon_0 \times r_0^2}$
+
+**Answer: A) E = \frac{Z \times e^2}{4 \pi \epsilon_0 \times r_0}**
 
 **4. What is the length of the edge of a unit cell of a metal having a body-centered cubic structure and a density of $7.0 \, \text{g/cm}^3$? The atomic mass of the metal is $55.0 \, \text{g/mol}$.**
-- A) $2.0 \times 10^{-8} \, \text{cm}$
-- B) $3.0 \times 10^{-8} \, \text{cm}$
-- C) $4.0 \times 10^{-8} \, \text{cm}$
-- D) $5.0 \times 10^{-8} \, \text{cm}$
+-
+A) $2.0 \times 10^{-8} \, \text{cm}$
+-
+B) $3.0 \times 10^{-8} \, \text{cm}$
+-
+C) $4.0 \times 10^{-8} \, \text{cm}$
+-
+D) $5.0 \times 10^{-8} \, \text{cm}$
+
 **Answer: C) $4.0 \times 10^{-8} \, \text{cm}$**
 
 **5. What is the radius of an atom in a face-centered cubic unit cell?**
-- A) $r = \frac{a}{2}$
-- B) $r = \frac{a \sqrt{2}}{4}$
-- C) $r = \frac{a \sqrt{3}}{4}$
-- D) $r = \frac{a \sqrt{2}}{2}$
-**Answer: B) $r = \frac{a \sqrt{2}}{4}$**
+-
+A) r = $\frac{a}{2}$
+-
+B) r = $\frac{a \sqrt{2}$}{4}
+-
+C) r = $\frac{a \sqrt{3}$}{4}
+-
+D) r = $\frac{a \sqrt{2}$}{2}
+
+**Answer: B) r = $\frac{a \sqrt{2}$}{4}**
 
 ---
 
@@ -107,3 +132,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)

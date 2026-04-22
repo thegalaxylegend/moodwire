@@ -56,38 +56,63 @@ manualReview: false
  
 ## 📝 Practice MCQs
 **1. What is the type of polymerization reaction that involves the combination of monomers with the elimination of a small molecule?**
-- A) Addition polymerization
-- B) Condensation polymerization
-- C) Free radical polymerization
-- D) Anionic polymerization
+-
+A) Addition polymerization
+-
+B) Condensation polymerization
+-
+C) Free radical polymerization
+-
+D) Anionic polymerization
+
 **Answer: B) Condensation polymerization.**
 
 **2. What is the molecular weight of a polymer with a degree of polymerization of 500 and a monomer molecular weight of 50 g/mol?**
-- A) 25,000 g/mol
-- B) 50,000 g/mol
-- C) 100,000 g/mol
-- D) 250,000 g/mol
+-
+A) 25,000 g/mol
+-
+B) 50,000 g/mol
+-
+C) 100,000 g/mol
+-
+D) 250,000 g/mol
+
 **Answer: B) 25,000 g/mol.**
 
 **3. What is the polydispersity index of a polymer with a number average molecular weight of 20,000 g/mol and a weight average molecular weight of 40,000 g/mol?**
-- A) 1
-- B) 2
-- C) 3
-- D) 4
+-
+A) 1
+-
+B) 2
+-
+C) 3
+-
+D) 4
+
 **Answer: B) 2.**
 
 **4. What is the type of tacticity that has a regular arrangement of atoms?**
-- A) Isotactic
-- B) Syndiotactic
-- C) Atactic
-- D) Random
+-
+A) Isotactic
+-
+B) Syndiotactic
+-
+C) Atactic
+-
+D) Random
+
 **Answer: A) Isotactic.**
 
 **5. What is the rate of polymerization for a free radical polymerization reaction with a rate constant of 0.05 min$^{-1}$, a monomer concentration of 2 M, and an initiator concentration of 0.2 M?**
-- A) 0.01 M min$^{-1}$
-- B) 0.05 M min$^{-1}$
-- C) 0.1 M min$^{-1}$
-- D) 0.2 M min$^{-1}$
+-
+A) 0.01 M min$^{-1}$
+-
+B) 0.05 M min$^{-1}$
+-
+C) 0.1 M min$^{-1}$
+-
+D) 0.2 M min$^{-1}$
+
 **Answer: B) 0.05 M min$^{-1}$.**
 
 ---
@@ -97,3 +122,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)

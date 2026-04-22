@@ -72,34 +72,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the kinetic energy of a 2 kg block moving with a velocity of 4 m/s?**
-- A) 8 J
-- B) 16 J
-- C) 32 J
-- D) 64 J
+-
+A) 8 J
+-
+B) 16 J
+-
+C) 32 J
+-
+D) 64 J
+
 **Answer: B) 16 J. Explanation: Use the formula $K = \frac{1}{2}mv^2$ to find the kinetic energy.**
+
 **2. A car is moving in a circular path of radius 5 m. If its speed is 2 m/s, what is its centripetal acceleration?**
-- A) 0.4 m/s^2
-- B) 0.8 m/s^2
-- C) 1.2 m/s^2
-- D) 1.6 m/s^2
+-
+A) 0.4 m/s^2
+-
+B) 0.8 m/s^2
+-
+C) 1.2 m/s^2
+-
+D) 1.6 m/s^2
+
 **Answer: B) 0.8 m/s^2. Explanation: Use the formula $a_c = \frac{v^2}{r}$ to find the centripetal acceleration.**
+
 **3. A simple pendulum has a length of 2 m. What is its time period?**
-- A) 2.8 s
-- B) 4.4 s
-- C) 6.2 s
-- D) 8.8 s
+-
+A) 2.8 s
+-
+B) 4.4 s
+-
+C) 6.2 s
+-
+D) 8.8 s
+
 **Answer: B) 4.4 s. Explanation: Use the formula $T = 2\pi \sqrt{\frac{l}{g}}$ to find the time period.**
+
 **4. A block of mass 1 kg is moving with a velocity of 2 m/s. What is its momentum?**
-- A) 1 kg m/s
-- B) 2 kg m/s
-- C) 3 kg m/s
-- D) 4 kg m/s
+-
+A) 1 kg m/s
+-
+B) 2 kg m/s
+-
+C) 3 kg m/s
+-
+D) 4 kg m/s
+
 **Answer: B) 2 kg m/s. Explanation: Use the formula $p = mv$ to find the momentum.**
+
 **5. A force of 5 N is applied to a block of mass 2 kg. What is its acceleration?**
-- A) 1.5 m/s^2
-- B) 2.5 m/s^2
-- C) 3.5 m/s^2
-- D) 5.5 m/s^2
+-
+A) 1.5 m/s^2
+-
+B) 2.5 m/s^2
+-
+C) 3.5 m/s^2
+-
+D) 5.5 m/s^2
+
 **Answer: B) 2.5 m/s^2. Explanation: Use the formula $F = ma$ to find the acceleration.**
 
 ---
@@ -109,3 +138,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Physics Heat Light Class 11 Exam Prep Revision — Grandmaster Guide](/blog/physics-heat-light-class-11-revision-notes-jee-neet)
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)

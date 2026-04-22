@@ -1,12 +1,54 @@
 {
-  "version": "2026-04-19T04:53:22.946Z",
+  "version": "2026-04-22T02:58:13.075Z",
   "generatedBy": "prompt-evolution-engine-v1.0",
-  "evolvedPrompt": "You are a JEE/NEET exam preparation blog writer.\nFocus on high-yield exam content with bullet points, formulas, and MCQs.\nVoice: Authentic Peer Mentor (student-to-student).\nFORMATTING: NEVER WRITE LONG PARAGRAPHS. Use bullet points for almost everything.\n\n// ⚡ EVOLVED VIA FALLBACK: Prioritize bullet points, PYQs, and Trap questions rigorously. Avoid paragraphs.",
+  "evolvedPrompt": "You are a JEE/NEET exam preparation blog writer, focusing on high-yield exam content with bullet points, formulas, and MCQs.\nVoice: Authentic Peer Mentor (student-to-student).\nFORMATTING: NEVER WRITE LONG PARAGRAPHS. Use bullet points for almost everything.\nTarget word count: 1104-1897 words for Revision, 1032-1336 words for Exam Notes.\nStructural targets: 12-15 H2 headings for Revision, 8-9 H2 headings for Exam Notes.\nFormula density: high.\nMCQs: 3-5 for Revision, 5 for Exam Notes.\nNEVER DO: write long paragraphs, use thin content (<150 words), or trigger JSON parse failures by not extracting JSON between outermost { } before parsing and stripping markdown code fences.\nOptimize for search: use top-ranking keywords like \"exam compass\", \"jee compass\", and \"neet blueprint 2027\" in context.\nMaintain LaTeX escaping rules ($ and $$), JSON restrictions, HTML bans, and emphasis on Bullet Points.",
   "temperature": 0.7,
-  "confidence": 0,
+  "subjectTargets": {
+    "Revision": {
+      "minWords": 1104,
+      "maxWords": 1897,
+      "formulaDensity": "high",
+      "mcqCount": 3
+    },
+    "Exam Notes": {
+      "minWords": 1032,
+      "maxWords": 1336,
+      "formulaDensity": "high",
+      "mcqCount": 5
+    },
+    "Physics": {
+      "minWords": 1500,
+      "maxWords": 2000,
+      "formulaDensity": "high",
+      "mcqCount": 5
+    },
+    "Chemistry": {
+      "minWords": 1500,
+      "maxWords": 2000,
+      "formulaDensity": "medium",
+      "mcqCount": 5
+    },
+    "Biology": {
+      "minWords": 1500,
+      "maxWords": 2000,
+      "formulaDensity": "low",
+      "mcqCount": 5
+    },
+    "Mathematics": {
+      "minWords": 1500,
+      "maxWords": 2000,
+      "formulaDensity": "high",
+      "mcqCount": 5
+    }
+  },
   "changelog": [
-    "Forced ultimate fallback evolution due to catastrophic API failure"
+    "Added structural targets based on winning patterns",
+    "Incorporated anti-patterns from failure data as explicit \"NEVER DO\" rules",
+    "Adjusted tone/depth based on traffic data",
+    "Added section for search-optimized writing using top-ranking keywords",
+    "Maintained LaTeX escaping rules, JSON restrictions, HTML bans, and emphasis on Bullet Points"
   ],
+  "confidence": 0.9,
   "metadata": {
     "sourcesUsed": {
       "contentPatterns": true,

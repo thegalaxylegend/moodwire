@@ -9,16 +9,17 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- $\int \frac{1}{x} dx = \ln|x| + C$
-- $\int e^x dx = e^x + C$
-- $\int \sin x dx = -\cos x + C$
-- $\int \cos x dx = \sin x + C$
-- $\int \tan x dx = -\ln|\cos x| + C$
+-  \int $\frac{1}{x}$ dx = \ln|x| + C 
+-  \int e^x dx = e^x + C 
+-  \int \sin x dx = -\cos x + C 
+-  \int \cos x dx = \sin x + C 
+-  \int \tan x dx = -\ln|\cos x| + C 
 - $\int \frac{1}{\sqrt{1-x^2}} dx = \sin^{-1}x + C$
-- $\int \frac{1}{1+x^2} dx = \tan^{-1}x + C$
+-  \int $\frac{1}{1+x^2}$ dx = \tan^{-1}x + C 
 - $\int \frac{1}{x\sqrt{x^2-1}} dx = \sec^{-1}x + C$
 - $\int \frac{1}{x\sqrt{x^2-1}} dx = \cosh^{-1}x + C$
-- $\int x^n dx = \frac{x^{n+1}}{n+1} + C$, $n \neq -1$
+-  \int x^n dx = $\frac{x^{n+1}$}{n+1} + C, n 
+eq -1$
 - $\int \frac{1}{x^2+a^2} dx = \frac{1}{a} \tan^{-1} \frac{x}{a} + C$
 - $\int \frac{1}{x^2-a^2} dx = \frac{1}{2a} \ln \left| \frac{x-a}{x+a} \right| + C$
 - $\int \sqrt{a^2-x^2} dx = \frac{x}{2} \sqrt{a^2-x^2} + \frac{a^2}{2} \sin^{-1} \frac{x}{a} + C$
@@ -35,24 +36,24 @@ manualReview: false
 ## ✏️ 3 Solved PYQs
 - **PYQ 1:** Evaluate $\int \frac{1}{x^2+4x+5} dx$
   - Let $x^2+4x+5 = (x+2)^2+1$
-  - $\int \frac{1}{x^2+4x+5} dx = \int \frac{1}{(x+2)^2+1} dx$
+  -  nt $\frac{1}{x^2+4x+5}$ dx = \int $\frac{1}{(x+2)^2+1}$ dx 
   - Substitute $x+2 = t$, $dx = dt$
-  - $\int \frac{1}{(x+2)^2+1} dx = \int \frac{1}{t^2+1} dt$
-  - $\int \frac{1}{t^2+1} dt = \tan^{-1}t + C$
-  - $\int \frac{1}{x^2+4x+5} dx = \tan^{-1}(x+2) + C$
+  -  nt $\frac{1}{(x+2)^2+1}$ dx = \int $\frac{1}{t^2+1}$ dt 
+  -  nt $\frac{1}{t^2+1}$ dt = \tan^{-1}t + C 
+  -  nt $\frac{1}{x^2+4x+5}$ dx = \tan^{-1}(x+2) + C 
 - **PYQ 2:** Evaluate $\int \frac{x}{x^2+1} dx$
   - Let $u = x^2+1$, $du = 2x dx$
-  - $\int \frac{x}{x^2+1} dx = \frac{1}{2} \int \frac{1}{u} du$
-  - $\frac{1}{2} \int \frac{1}{u} du = \frac{1}{2} \ln|u| + C$
-  - $\int \frac{x}{x^2+1} dx = \frac{1}{2} \ln|x^2+1| + C$
+  -  nt $\frac{x}{x^2+1}$ dx = $\frac{1}{2}$ \int $\frac{1}{u}$ du 
+  -  rac{1}{2} \int $\frac{1}{u}$ du = $\frac{1}{2}$ \ln|u| + C 
+  -  nt $\frac{x}{x^2+1}$ dx = $\frac{1}{2}$ \ln|x^2+1| + C 
 - **PYQ 3:** Evaluate $\int \frac{1}{\sqrt{4x-x^2}} dx$
-  - $\int \frac{1}{\sqrt{4x-x^2}} dx = \int \frac{1}{\sqrt{-(x^2-4x)}} dx$
-  - $\int \frac{1}{\sqrt{-(x^2-4x)}} dx = \int \frac{1}{\sqrt{-((x-2)^2-4)}} dx$
-  - $\int \frac{1}{\sqrt{-((x-2)^2-4)}} dx = \int \frac{1}{\sqrt{4-(x-2)^2}} dx$
+  -  nt $\frac{1}{\sqrt{4x-x^2}$} dx = \int $\frac{1}{\sqrt{-(x^2-4x)}$} dx 
+  -  nt $\frac{1}{\sqrt{-(x^2-4x)}$} dx = \int $\frac{1}{\sqrt{-((x-2)^2-4)}$} dx 
+  -  nt $\frac{1}{\sqrt{-((x-2)^2-4)}$} dx = \int $\frac{1}{\sqrt{4-(x-2)^2}$} dx 
   - Substitute $x-2 = t$, $dx = dt$
-  - $\int \frac{1}{\sqrt{4-(x-2)^2}} dx = \int \frac{1}{\sqrt{4-t^2}} dt$
-  - $\int \frac{1}{\sqrt{4-t^2}} dt = \sin^{-1} \frac{t}{2} + C$
-  - $\int \frac{1}{\sqrt{4x-x^2}} dx = \sin^{-1} \frac{x-2}{2} + C$
+  -  nt $\frac{1}{\sqrt{4-(x-2)^2}$} dx = \int $\frac{1}{\sqrt{4-t^2}$} dt 
+  -  nt $\frac{1}{\sqrt{4-t^2}$} dt = \sin^{-1} $\frac{t}{2}$ + C 
+  -  nt $\frac{1}{\sqrt{4x-x^2}$} dx = \sin^{-1} $\frac{x-2}{2}$ + C 
 
 ## 🧠 The One Thing Most Students Get Wrong
 - Not using the correct substitution or formula for the given integral
@@ -77,34 +78,48 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the value of $\int \frac{1}{x} dx$?**
-- A) $\ln|x| + C$
-- B) $\frac{1}{x} + C$
-- C) $x + C$
-- D) $x^2 + C$
+-
+A) $\ln|x| + C$
+-
+B) $\frac{1}{x}$ + C
+-
+C) $x + C$
+-
+D) $x^2 + C$
+
 **Answer: A) $\ln|x| + C$**
-**2. Evaluate $\int \frac{x}{x^2+1} dx$**
-- A) $\frac{1}{2} \ln|x^2+1| + C$
-- B) $\frac{1}{2} \ln|x| + C$
-- C) $\tan^{-1}x + C$
-- D) $\sin^{-1}x + C$
-**Answer: A) $\frac{1}{2} \ln|x^2+1| + C$**
+ **2. Evaluate \int \frac{x}{x^2+1} dx** 
+-  A) $\frac{1}{2}$ \ln|x^2+1| + C 
+-  B) $\frac{1}{2}$ \ln|x| + C 
+-  C) \tan^{-1}x + C 
+-  D) \sin^{-1}x + C  **Answer: A) $\frac{1}{2}$ \ln|x^2+1| + C**
+
 **3. What is the value of $\int \frac{1}{\sqrt{4x-x^2}} dx$?**
-- A) $\sin^{-1} \frac{x-2}{2} + C$
-- B) $\cos^{-1} \frac{x-2}{2} + C$
-- C) $\tan^{-1} \frac{x-2}{2} + C$
-- D) $\sec^{-1} \frac{x-2}{2} + C$
-**Answer: A) $\sin^{-1} \frac{x-2}{2} + C$**
-**4. Evaluate $\int \frac{1}{x^2+4x+5} dx$**
-- A) $\tan^{-1}(x+2) + C$
-- B) $\tan^{-1}(x-2) + C$
-- C) $\sin^{-1}(x+2) + C$
-- D) $\cos^{-1}(x+2) + C$
-**Answer: A) $\tan^{-1}(x+2) + C$**
+-
+A) \sin^{-1} $\frac{x-2}{2}$ + C
+-
+B) \cos^{-1} $\frac{x-2}{2}$ + C
+-
+C) \tan^{-1} $\frac{x-2}{2}$ + C
+-
+D) \sec^{-1} $\frac{x-2}{2}$ + C
+
+**Answer: A) \sin^{-1} $\frac{x-2}{2}$ + C**  **4. Evaluate \int $\frac{1}{x^2+4x+5}$ dx** 
+-  A) \tan^{-1}(x+2) + C 
+-  B) \tan^{-1}(x-2) + C 
+-  C) \sin^{-1}(x+2) + C 
+-  D) \cos^{-1}(x+2) + C  **Answer: A) \tan^{-1}(x+2) + C**
+
 **5. What is the value of $\int \frac{1}{x\sqrt{x^2-1}} dx$?**
-- A) $\sec^{-1}x + C$
-- B) $\cosh^{-1}x + C$
-- C) $\sinh^{-1}x + C$
-- D) $\tanh^{-1}x + C$
+-
+A) $\sec^{-1}x + C$
+-
+B) \cosh^{-1}x + C
+-
+C) \sinh^{-1}x + C
+-
+D) \tanh^{-1}x + C
+
 **Answer: A) $\sec^{-1}x + C$**
 
 ---
@@ -114,3 +129,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+$
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)

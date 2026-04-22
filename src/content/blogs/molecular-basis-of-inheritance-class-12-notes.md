@@ -94,38 +94,61 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the function of the lac repressor protein in the lac operon?**
-- A) To promote transcription of the lac genes
-- B) To prevent transcription of the lac genes
-- C) To regulate translation of the lac genes
-- D) To control replication of the lac genes
+-
+A) To promote transcription of the lac genes
+-
+B) To prevent transcription of the lac genes
+-
+C) To regulate translation of the lac genes
+-
+D) To control replication of the lac genes
+
 **Answer: B) To prevent transcription of the lac genes**
 
 **2. What is the difference between a gene and a cistron?**
-- A) A gene is a unit of heredity, while a cistron is a unit of genetic function
-- B) A gene is a unit of genetic function, while a cistron is a unit of heredity
-- C) A gene and a cistron are the same thing
-- D) A gene is a type of cistron
+-
+A) A gene is a unit of heredity, while a cistron is a unit of genetic function
+-
+B) A gene is a unit of genetic function, while a cistron is a unit of heredity
+-
+C) A gene and a cistron are the same thing
+-
+D) A gene is a type of cistron
+
 **Answer: A) A gene is a unit of heredity, while a cistron is a unit of genetic function**
 
 **3. What is the purpose of the proofreading function in DNA replication?**
-- A) To correct errors in the newly synthesized strand
+-
+A) To
+
+correct errors in the newly synthesized strand
 - B) To promote transcription of the newly synthesized strand
 - C) To regulate translation of the newly synthesized strand
 - D) To control replication of the newly synthesized strand
 **Answer: A) To correct errors in the newly synthesized strand**
 
 **4. What is the structure of DNA?**
-- A) A double helix with a sugar and phosphate backbone
-- B) A single helix with a sugar and phosphate backbone
-- C) A double helix with a protein backbone
-- D) A single helix with a protein backbone
+-
+A) A double helix with a sugar and phosphate backbone
+-
+B) A single helix with a sugar and phosphate backbone
+-
+C) A double helix with a protein backbone
+-
+D) A single helix with a protein backbone
+
 **Answer: A) A double helix with a sugar and phosphate backbone**
 
 **5. What is the wobble hypothesis?**
-- A) A theory that explains how tRNA molecules recognize codons
-- B) A theory that explains how DNA molecules recognize proteins
-- C) A theory that explains how proteins recognize DNA molecules
-- D) A theory that explains how DNA molecules recognize other DNA molecules
+-
+A) A theory that explains how tRNA molecules recognize codons
+-
+B) A theory that explains how DNA molecules recognize proteins
+-
+C) A theory that explains how proteins recognize DNA molecules
+-
+D) A theory that explains how DNA molecules recognize other DNA molecules
+
 **Answer: A) A theory that explains how tRNA molecules recognize codons**
 
 ---
@@ -135,3 +158,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)

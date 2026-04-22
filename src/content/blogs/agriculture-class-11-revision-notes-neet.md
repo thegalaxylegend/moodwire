@@ -9,9 +9,6 @@ practice_link: "/class-11/biology/agriculture-class-11-revision-notes-neet"
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Agriculture?](#what-is-agriculture)
@@ -21,12 +18,7 @@ practice_link: "/class-11/biology/agriculture-class-11-revision-notes-neet"
 - [MCQs](#mcqs)
 - [📚 Related Topics](#-related-topics)
 
-
 # Agriculture Class 11 Biology Revision — MEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-agriculture"></a>What is Agriculture?
 
@@ -49,8 +41,6 @@ practice_link: "/class-11/biology/agriculture-class-11-revision-notes-neet"
 ## <a id="trap-questions-n-exceptions-to-watch-out-for"></a>Trap Questions & Exceptions to Watch Out For
 
 {"question1":{"question":"What is the primary difference between subsistence farming and commercial farming?","trap":"Many students get confused between these two types of farming. Subsistence farming is for personal consumption, while commercial farming is for profit.","answer":"Subsistence farming is for personal consumption, while commercial farming is for profit."},"question2":{"question":"What is the role of soil management and agriculture?","trap":"Soil management is often overlooked, but it is crucial for maintaining soil fertility and health. It involves practices like crop rotation, addition of organic matter, n conservation tillage.","answer":"Soil management is vital for maintaining soil fertility and health."},"question3":{"question":"What is the significance of crop rotation and agriculture?","trap":"Crop rotation is often misunderstood, but it is essential for breaking disease and pest cycles, improving soil fertility, n increasing crop yields.","answer":"Crop rotation is essential for breaking disease and pest cycles, improving soil fertility, n increasing crop yields."}}
-
-
 
 - Agriculture is the backbone of our economy.,There are several types of agriculture, including subsistence farming, commercial farming, n organic farming.,Crop production is a critical aspect of agriculture.,Soil management is vital for maintaining soil fertility and health.,Livestock farming involves the rearing of animals for food and other products.
 
@@ -113,13 +103,10 @@ Continue your [revision](/blog/3d-geometry-intro-class-11-revision-notes-jee-nee
 - 📖 [3d Geometry Intro Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet)
 - 📖 [Animal Kingdom Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/agriculture-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
-
 
 ---
 
@@ -132,9 +119,7 @@ Continue your [revision](/blog/3d-geometry-intro-class-11-revision-notes-jee-nee
 - 📖 [3d Geometry Intro Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet)
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
 
-
 ## 🔁 Last 5 Minutes Box
-
 
    * Crop: [plants](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) grown on large scale for food, fodder or commercial purposes
    * Crop variety: crop grown for specific feature/characteristic

@@ -9,7 +9,7 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- The anatomy of flowering plants can be understood by studying the structure of roots, stems, and leaves.
+- The anatomy of [flowering](/blog/sexual-reproduction-in-flowering-plants-class-12-notes) plants can be understood by studying the structure of roots, stems, and leaves.
 - The primary root is the first root to emerge from a seed, and it grows downward into the soil, anchoring the plant and absorbing water and minerals.
 - The root system can be categorized into two main types: taproot system and fibrous root system.
 - The taproot system consists of a single primary root that grows straight down into the soil, while the fibrous root system consists of many small roots that branch out in all directions.
@@ -27,7 +27,7 @@ manualReview: false
 - Not understanding the arrangement of leaves on the stem, such as alternate and opposite.
 - Not being able to apply the knowledge of anatomy of flowering plants to solve problems and answer questions.
 
-## ✏️ 3 Solved PYQs
+## ✏️ 3 Solved Yes
 - **Question 1:** Describe the structure of a root.
 - The root is a underground part of the plant that anchors the plant and absorbs water and minerals from the soil.
 - The root consists of three main parts: root cap, root hair, and root meristem.
@@ -43,12 +43,12 @@ manualReview: false
 ## 🧠 The One Thing Most Students Get Wrong
 - The one thing that most students get wrong is the concept of root and shoot apical meristem.
 - The root apical meristem is a region of actively dividing cells at the root tip that produces new root tissue, while the shoot apical meristem is a region of actively dividing cells at the shoot tip that produces new shoot tissue.
-- Many students confuse the two and think that they are the same thing, but they are actually two separate regions of the plant that have different functions.
+- Many students confuse the two and think that they are the same thing, but they are actually two separate regions of the plant that have different [functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet).
 
 ## 👁️ Ayush's Note
-- To remember the different parts of the root, use the formula: $ \frac{R}{C} = \frac{R}{H} + \frac{R}{M} $, where R is the root, C is the root cap, H is the root hair, and M is the root meristem.
-- To remember the different types of stems, use the formula: $ \frac{S}{H} = \frac{S}{W} + \frac{S}{H} $, where S is the stem, H is the herbaceous stem, and W is the woody stem.
-- To remember the arrangement of leaves on the stem, use the formula: $ \frac{L}{A} = \frac{L}{O} + \frac{L}{A} $, where L is the leaf, A is the alternate arrangement, and O is the opposite arrangement.
+- To remember the different parts of the root, use the formula: $ \franc{R}{C} = \franc{R}{H} + \franc{R}{M} $, where R is the root, C is the root cap, H is the root hair, and M is the root meristem.
+- To remember the different types of stems, use the formula: $ \franc{S}{H} = \franc{S}{W} + \franc{S}{H} $, where S is the stem, H is the herbaceous stem, and W is the woody stem.
+- To remember the arrangement of leaves on the stem, use the formula: $ \franc{L}{A} = \franc{L}{O} + \franc{L}{A} $, where L is the leaf, A is the alternate arrangement, and O is the opposite arrangement.
 
 ## 🔁 Last 5 Minutes Box
 - In the last 5 minutes of the exam, make sure to review all the formulas and concepts that you have learned.
@@ -59,38 +59,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the main function of the root cap?**
-- A) To absorb water and minerals from the soil
-- B) To protect the root tip from damage
-- C) To produce new root tissue
-- D) To anchor the plant in the soil
+-
+A) To absorb water and minerals from the soil
+-
+B) To protect the root tip from damage
+-
+C) To produce new root tissue
+-
+D) To anchor the plant in the soil
+
 **Answer: B) To protect the root tip from damage.**
 
 **2. Which of the following is an example of a plant with a taproot system?**
-- A) Carrot
-- B) Grass
-- C) Wheat
-- D) Beet
+-
+A) Carrot
+-
+B) Grass
+-
+C) Wheat
+-
+D) Beet
+
 **Answer: A) Carrot.**
 
 **3. What is the main function of the leaf?**
-- A) To absorb water and minerals from the soil
-- B) To produce new plant tissue
-- C) To perform photosynthesis
-- D) To anchor the plant in the soil
+-
+A) To absorb water and minerals from the soil
+-
+B) To produce new plant tissue
+-
+C) To perform photosynthesis
+-
+D) To anchor the plant in the soil
+
 **Answer: C) To perform photosynthesis.**
 
 **4. Which of the following is an example of a plant with a fibrous root system?**
-- A) Carrot
-- B) Beet
-- C) Grass
-- D) Wheat
+-
+A) Carrot
+-
+B) Beet
+-
+C) Grass
+-
+D) Wheat
+
 **Answer: C) Grass.**
 
 **5. What is the main function of the shoot apical meristem?**
-- A) To produce new root tissue
-- B) To produce new shoot tissue
-- C) To absorb water and minerals from the soil
-- D) To anchor the plant in the soil
+-
+A) To produce new root tissue
+-
+B) To produce new shoot tissue
+-
+C) To absorb water and minerals from the soil
+-
+D) To anchor the plant in the soil
+
 **Answer: B) To produce new shoot tissue.**
 
 ---
@@ -100,3 +125,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Sexual Reproduction In Flowering Plants Class 12 Biology Revision — Grandmaster Guide](/blog/sexual-reproduction-in-flowering-plants-class-12-notes)
+- 📖 [3d Geometry Intro Class 11 Mathematics Revision — Grandmaster Guide](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet)
+- 📖 [Physics Mechanics Class 11 Exam Prep Revision — Grandmaster Guide](/blog/physics-mechanics-class-11-revision-notes-jee-neet)
+- 📖 [Poverty Unemployment Class 11 Economics Recap — Grandmaster Guide](/blog/poverty-unemployment-class-11-revision-notes-jee-neet)

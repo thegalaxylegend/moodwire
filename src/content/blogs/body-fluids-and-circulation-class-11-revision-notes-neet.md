@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/body-fluids-n-circulation-class-11-revision-notes-neet.webp"
+heroImage: "/blog-images/body-fluids-and-circulation-class-11-revision-notes-neet.webp"
 title: "Body Fluids And Circulation Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
 description: "Body Fluids And Circulation Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
@@ -8,9 +8,6 @@ practice_link: "/class-11/biology/body-fluids-n-circulation-class-11-revision-no
 ---
 
 *Last Updated: [2026](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)-03-28*
-
-
-
 
 ## 📋 Table of Contents
 
@@ -31,42 +28,15 @@ practice_link: "/class-11/biology/body-fluids-n-circulation-class-11-revision-no
 - [Step 15: Recent Advances](#step-15-recent-advances)
 - [📚 Related Topics](#-related-topics)
 
-
 # Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-body-fluids-n-circulation"></a>What is Body Fluids And Circulation?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 The human body is composed of approximately 60% water, with a significant portion of it being distributed among various body fluids. These fluids play a crucial role and maintaining homeostasis, regulating body temperature, n facilitating the [exchange](/blog/breathing-n-exchange-of-gases-class-11-revision-notes-neet) of nutrients and waste products. The primary body fluids are blood, lymph, n interstitial fluid. Blood, which accounts for about 8% of the total body weight, is a connective tissue that consists of plasma and formed elements, such as red blood cells, white blood cells, n platelets.
-
-
-
 
 ## <a id="step-2-core-concepts"></a>Step 2: Core Concepts
 
 The circulatory system, also known as the cardiovascular system, is responsible for transporting blood throughout the body. It comprises the heart, arteries, veins, n capillaries. The heart, a muscular organ, pumps blood through the circulatory system, while the arteries, veins, n capillaries serve as the conduits for blood flow. The circulatory system is further divided into two main circuits: the pulmonary circuit and the systemic circuit. The pulmonary circuit transports deoxygenated blood from the heart to the lungs, where it becomes oxygenated, n then returns it to the heart. The systemic circuit, on the other hand, carries oxygenated blood from the heart to the rest of the body and returns deoxygenated blood back to the heart.
-
-
-
 
 ## <a id="step-3-blood-composition"></a>Step 3: Blood Composition
 
@@ -76,15 +46,9 @@ Blood is a complex fluid that consists of several components, including:
 - White Blood Cells (WBCs): WBCs, or leukocytes, play a vital role and the immune system, helping to protect the body against infection and disease.
 - Platelets: These small, irregularly-shaped cells are involved and blood clotting, which helps to prevent excessive bleeding when a blood vessel is injured.
 
-
-
-
 ## <a id="step-4-blood-groups-n-rh-factor"></a>Step 4: Blood Groups and Rh Factor
 
 Blood groups are classified based on the presence or absence of specific antigens on the surface of red blood cells. The major blood groups are A, B, AB, n O. The Rh factor is another important antigen that can be either present (Rh+) or absent (Rh-). The combination of blood group and Rh factor determines an individual's blood type, which is crucial for blood transfusions and pregnancy.
-
-
-
 
 ## <a id="step-5-lymphatic-system"></a>Step 5: Lymphatic System
 
@@ -93,15 +57,9 @@ The lymphatic system, also known as the lymphoid system, is a network of vessels
 - Aiding and the transport of fats and fat-soluble vitamins from the digestive system to the bloodstream.
 - Producing immune cells, such as lymphocytes, which help to fight infection and disease.
 
-
-
-
 ## <a id="step-6-circulation-n-blood-pressure"></a>Step 6: Circulation and Blood Pressure
 
 The circulatory system is driven y the heart's pumping action, which creates blood pressure. Blood pressure is the force exerted y blood against the walls of blood vessels. It is measured and millimeters of mercury (mmHg) n is typically expressed as systolic pressure (the highest pressure during a heartbeat) over diastolic pressure (the lowest pressure between heartbeats). The average blood pressure for a healthy adult is approximately 120/80 mmHg.
-
-
-
 
 ## <a id="step-7-jeeneet-data"></a>Step 7: JEE/NEET Data
 
@@ -111,17 +69,11 @@ For JEE n [neet](/blog/locomotion-n-movement-class-11-revision-notes-neet) aspir
 - The composition and functions of blood, including plasma, RBCs, WBCs, n platelets.
 - The lymphatic system, including the structure and function of lymph nodes, lymph vessels, n lymphoid organs.
 
-
-
-
 ## <a id="step-8-formulae"></a>Step 8: Formulae
 
 Some important formulae related to body fluids and circulation include:
 - Blood pressure (BP) = $\frac{Cardiac \: Output \: (CO) \: \times \: Peripheral \: Resistance \: (PR)}{1} = \frac{Stroke \: Volume \: (SV) \: \times \: Heart \: Rate \: (HR){1}} , where CO is the volume of blood pumped y the heart per minute, n PR is the resistance to blood flow and the blood vessels.
 - Cardiac output (CO) = $, where SV is the volume of blood pumped y the heart per beat, n HR is the number of heartbeats per minute.
-
-
-
 
 ## <a id="step-9-mcqs"></a>Step 9: MCQs
 
@@ -150,9 +102,6 @@ d) 160/100 mmHg
 
 Answer: b) 120/80 mmHg
 
-
-
-
 ## <a id="step-10-core-concept-map"></a>Step 10: Core Concept Map
 
 To better understand the concepts related to body fluids and circulation, it is helpful to create a concept map that illustrates the relationships between different ideas. A concept map for this topic might include the following nodes and connections:
@@ -164,9 +113,6 @@ To better understand the concepts related to body fluids and circulation, it is 
 - Blood pressure: the force exerted y blood against the walls of blood vessels
 - Cardiac output: the volume of blood pumped y the heart per minute
 
-
-
-
 ## <a id="step-11-practice-questions"></a>Step 11: Practice Questions
 
 To reinforce understanding and prepare for JEE n [neet](/blog/locomotion-n-movement-class-11-revision-notes-neet) exams, practice questions and past-year papers should be solved regularly. Some sample practice questions include:
@@ -174,9 +120,6 @@ To reinforce understanding and prepare for JEE n [neet](/blog/locomotion-n-movem
 2. Explain the different types of blood vessels, including arteries, veins, n capillaries, n their respective functions.
 3. What is the composition and function of blood, including plasma, RBCs, WBCs, n platelets?
 4. Describe the lymphatic system, including the structure and function of lymph nodes, lymph vessels, n lymphoid organs.
-
-
-
 
 ## <a id="step-12-important-terms"></a>Step 12: Important Terms
 
@@ -191,9 +134,6 @@ Some important terms related to body fluids and circulation include:
 - Systole: the period of contraction during a heartbeat
 - Thrombosis: the formation of a blood clot within a blood vessel
 
-
-
-
 ## <a id="step-13-diagrams-n-illustrations"></a>Step 13: Diagrams and Illustrations
 
 Diagrams and illustrations can be helpful and understanding the concepts related to body fluids and circulation. Some examples include:
@@ -202,9 +142,6 @@ Diagrams and illustrations can be helpful and understanding the concepts related
 - A picture of the lymphatic system, including lymph nodes, lymph vessels, n lymphoid organs
 - A graph showing the relationship between blood pressure and cardiac output
 
-
-
-
 ## <a id="step-14-case-studies"></a>Step 14: Case Studies
 
 Case studies can provide real-[world](/blog/the-living-world-class-11-revision-notes-neet) examples of how body fluids and circulation are affected y different conditions and diseases. Some examples include:
@@ -212,9 +149,6 @@ Case studies can provide real-[world](/blog/the-living-world-class-11-revision-n
 - A person with anemia, who may require blood transfusions to increase their red blood cell count
 - An individual with atherosclerosis, who must manage their condition through lifestyle changes and medication to prevent further buildup of plaque and the arteries
 - A patient with lymphoma, who must undergo treatment to manage their cancer and prevent further damage to the lymphatic system.
-
-
-
 
 ## <a id="step-15-recent-advances"></a>Step 15: Recent Advances
 
@@ -382,7 +316,7 @@ Artery & Carries oxygenated blood away from the heart & Aorta \\
 \hline
 Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
 \hline
-Capillary & Allows for the exchange of oxygen and nutrients with the body's tissues & Lung capillaries \\
+Capillary & Allows for the [exchange](/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet) of oxygen and nutrients with the body's tissues & Lung capillaries \\
 \hline
 \end{tabular}
 
@@ -609,10 +543,6 @@ In addition to its use and creating visual aids n
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
 
-
-
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -624,13 +554,10 @@ Continue your [revision](/blog/locomotion-n-movement-class-11-revision-notes-nee
 - 📖 [Structure Of The Atom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/structure-of-the-atom-class-11-revision-notes-neet)
 - 📖 [Digestion And Absorption Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/digestion-n-absorption-class-11-revision-notes-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/body-fluids-n-circulation-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
-
 
 ---
 

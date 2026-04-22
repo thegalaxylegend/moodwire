@@ -9,43 +9,43 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- The order of a differential equation is the order of the highest derivative in the equation: $\frac{d^2y}{dx^2}$
-- The degree of a differential equation is the power of the highest derivative in the equation: $\left(\frac{d^2y}{dx^2}\right)^3$
-- A differential equation is said to be linear if it is of the form: $\frac{d^2y}{dx^2} + P(x)\frac{dy}{dx} + Q(x)y = R(x)$
-- A differential equation is said to be homogeneous if it is of the form: $\frac{d^2y}{dx^2} + P(x)\frac{dy}{dx} + Q(x)y = 0$
-- The general solution of a differential equation of the form $\frac{dy}{dx} = f(x)$ is given by: $y = \int f(x) dx + C$
-- The general solution of a differential equation of the form $\frac{dy}{dx} + Py = Q$ is given by: $y \cdot e^{\int P dx} = \int Q \cdot e^{\int P dx} dx + C$
-- The general solution of a differential equation of the form $\frac{d^2y}{dx^2} + P\frac{dy}{dx} + Qy = 0$ is given by: $y = e^{mx}$ where $m$ is a root of the equation $m^2 + Pm + Q = 0$
-- The Wronskian of two functions $y_1$ and $y_2$ is given by: $W(y_1, y_2) = \begin{vmatrix} y_1 & y_2 \\ y_1' & y_2' \end{vmatrix}$
-- The general solution of a differential equation of the form $\frac{d^2y}{dx^2} + P\frac{dy}{dx} + Qy = R$ is given by: $y = y_c + y_p$ where $y_c$ is the complementary function and $y_p$ is the particular integral
-- The complementary function $y_c$ is the general solution of the equation $\frac{d^2y}{dx^2} + P\frac{dy}{dx} + Qy = 0$
-- The particular integral $y_p$ is a solution of the equation $\frac{d^2y}{dx^2} + P\frac{dy}{dx} + Qy = R$
+- The order of a differential equation is the order of the highest derivative in the equation: $\franc{d^2y}{DX^2}$
+- The degree of a differential equation is the power of the highest derivative in the equation: $\left(\franc{d^2y}{DX^2}\right)^3$
+- A differential equation is said to be linear if it is of the form: $\franc{d^2y}{DX^2} + P(x)\franc{dy}{dx} + Q(x)y = R(x)$
+- A differential equation is said to be homogeneous if it is of the form: $\franc{d^2y}{DX^2} + P(x)\franc{dy}{dx} + Q(x)y = 0$
+- The general solution of a differential equation of the form $\franc{dy}{dx} = f(x)$ is given by: by = \INT f(x) DX + CD
+- The general solution of a differential equation of the form $\franc{dy}{dx} + (suggestion limit reached) = (suggestion limit reached) is given by: (suggestion limit reached) \(suggestion limit reached) e^{\(suggestion limit reached) P (suggestion limit reached)} = \(suggestion limit reached) Q \(suggestion limit reached) e^{\(suggestion limit reached) P (suggestion limit reached)} (suggestion limit reached) + (suggestion limit reached)
+- The general solution of a differential equation of the form $\(suggestion limit reached){d^2y}{(suggestion limit reached)^2} + P\(suggestion limit reached){dy}{dx} + (suggestion limit reached) = 0$ is given by: (suggestion limit reached) = e^{mx}$ where (suggestion limit reached) is a root of the equation (suggestion limit reached)^2 + Pm + Q = 0$
+- The (suggestion limit reached) of two functions (suggestion limit reached)_1$ and (suggestion limit reached)_2$ is given by: (suggestion limit reached)(y_1, y_2) = \begin{vmatrix} y_1 & y_2 \\ y_1' & y_2' \end{vmatrix}$
+- The general solution of a differential equation of the form $\(suggestion limit reached){d^2y}{(suggestion limit reached)^2} + P\(suggestion limit reached){dy}{dx} + (suggestion limit reached) = R$ is given by: (suggestion limit reached) = y_c + y_(suggestion limit reached) where (suggestion limit reached)_(suggestion limit reached) is the complementary function and (suggestion limit reached)_(suggestion limit reached) is the particular integral
+- The complementary function (suggestion limit reached)_(suggestion limit reached) is the general solution of the equation $\(suggestion limit reached){d^2y}{(suggestion limit reached)^2} + P\(suggestion limit reached){dy}{dx} + (suggestion limit reached) = 0$
+- The particular integral (suggestion limit reached)_(suggestion limit reached) is a solution of the equation $\(suggestion limit reached){d^2y}{(suggestion limit reached)^2} + P\(suggestion limit reached){dy}{dx} + (suggestion limit reached) = R$
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not checking the order and degree of the differential equation
-- Not identifying the type of differential equation (linear, homogeneous, etc.)
+- Not identifying the type of differential equation ([linear](/blog/pair-of-linear-equations-class-10-notes), homogeneous, etc.)
 - Not using the correct method to solve the differential equation (separation of variables, integrating factor, etc.)
 - Not checking the units of the variables and constants in the differential equation
 - Not using the correct formulae and equations to solve the differential equation
 
-## ✏️ 3 Solved PYQs
-- **Question 1:** Solve the differential equation $\frac{dy}{dx} = \frac{y}{x}$.
-  - **Step 1:** Separate the variables: $\frac{dy}{y} = \frac{dx}{x}$
-  - **Step 2:** Integrate both sides: $\int \frac{dy}{y} = \int \frac{dx}{x}$
-  - **Step 3:** Evaluate the integrals: $\ln y = \ln x + C$
-  - **Step 4:** Simplify the equation: $y = e^{\ln x + C} = e^C \cdot e^{\ln x} = C_1 \cdot x$
-- **Question 2:** Solve the differential equation $\frac{d^2y}{dx^2} + 4\frac{dy}{dx} + 4y = 0$.
-  - **Step 1:** Assume a solution of the form $y = e^{mx}$: $\frac{d^2y}{dx^2} = m^2e^{mx}$, $\frac{dy}{dx} = me^{mx}$
-  - **Step 2:** Substitute into the differential equation: $m^2e^{mx} + 4me^{mx} + 4e^{mx} = 0$
-  - **Step 3:** Simplify the equation: $(m^2 + 4m + 4)e^{mx} = 0$
-  - **Step 4:** Solve for $m$: $m^2 + 4m + 4 = 0$, $(m + 2)^2 = 0$, $m = -2$
-  - **Step 5:** Write the general solution: $y = (C_1 + C_2x)e^{-2x}$
-- **Question 3:** Solve the differential equation $\frac{dy}{dx} + 2y = 3$.
-  - **Step 1:** Use an integrating factor: $I(x) = e^{\int 2 dx} = e^{2x}$
-  - **Step 2:** Multiply both sides of the differential equation by the integrating factor: $e^{2x}\frac{dy}{dx} + 2e^{2x}y = 3e^{2x}$
-  - **Step 3:** Recognize the left-hand side as a total derivative: $\frac{d}{dx}(e^{2x}y) = 3e^{2x}$
-  - **Step 4:** Integrate both sides: $e^{2x}y = \int 3e^{2x} dx = \frac{3}{2}e^{2x} + C$
-  - **Step 5:** Solve for $y$: $y = \frac{3}{2} + Ce^{-2x}$
+## ✏️ 3 Solved Yes
+- **Question 1:** Solve the differential equation $\franc{dy}{dx} = \franc{y}{x}$.
+  - **Step 1:** Separate the variables: $\franc{dy}{y} = \franc{dx}{x}$
+  - **Step 2:** Integrate both sides: $\INT \franc{dy}{y} = \INT \franc{dx}{x}$
+  - **Step 3:** Evaluate the integrals: $\ln y = \ln x + CD
+  - **Step 4:** Simplify the equation: by = e^{\ln x + C} = e^C \dot e^{\ln x} = C_1 \dot $
+- **Question 2:** Solve the differential equation $\franc{d^2y}{DX^2} + 4\franc{dy}{dx} + 4y = 0$.
+  - **Step 1:** Assume a solution of the form by = e^{mx}$: $\franc{d^2y}{DX^2} = m^2e^{mx}$, $\franc{dy}{dx} = me^{mx}$
+  - **Step 2:** Substitute into the differential equation: km^2e^{mx} + 4me^{mx} + 4e^{mx} = 0$
+  - **Step 3:** Simplify the equation: $’m^2 + 4m + 4)e^{mx} = 0$
+  - **Step 4:** Solve for me: km^2 + 4m + 4 = 0$, $(m + 2)^2 = 0$, km = -2$
+  - **Step 5:** Write the general solution: by = (C_1 + C_2x)e^{-2x}$
+- **Question 3:** Solve the differential equation $\franc{dy}{dx} + 2y = 3$.
+  - **Step 1:** Use an integrating factor: I(x) = e^{\INT 2 DX} = e^{2x}$
+  - **Step 2:** Multiply both sides of the differential equation by the integrating factor: he^{2x}\franc{dy}{dx} + 2e^{2x}y = 3e^{2x}$
+  - **Step 3:** Recognize the left-hand side as a total derivative: $\franc{d}{dx}(e^{2x}y) = 3e^{2x}$
+  - **Step 4:** Integrate both sides: he^{2x}y = \INT 3e^{2x} DX = \franc{3}{2}e^{2x} + CD
+  - **Step 5:** Solve for by: by = \franc{3}{2} + Ce^{-2x}$
 
 ## 🧠 The One Thing Most Students Get Wrong
 - Not using the correct method to solve the differential equation. Many students try to use the same method for all differential equations, without considering the type of equation and the best approach to solve it.
@@ -62,40 +62,65 @@ manualReview: false
 - Use the correct formulae and equations to solve the differential equation
 
 ## 📝 Practice MCQs
-**1. What is the order of the differential equation $\frac{d^3y}{dx^3} + 2\frac{d^2y}{dx^2} + \frac{dy}{dx} + y = 0$?**
-- A) 1
-- B) 2
-- C) 3
-- D) 4
+**1. What is the order of the differential equation $\franc{d^3y}{DX^3} + 2\franc{d^2y}{DX^2} + \franc{dy}{dx} + y = 0$?**
+-
+A) 1
+-
+B) 2
+-
+C) 3
+-
+D) 4
+
 **Answer: C) The order of the differential equation is the order of the highest derivative in the equation, which is 3.**
 
-**2. What is the degree of the differential equation $\left(\frac{d^2y}{dx^2}\right)^2 + 2\frac{dy}{dx} + y = 0$?**
-- A) 1
-- B) 2
-- C) 3
-- D) 4
+**2. What is the degree of the differential equation $\left(\franc{d^2y}{DX^2}\right)^2 + 2\franc{dy}{dx} + y = 0$?**
+-
+A) 1
+-
+B) 2
+-
+C) 3
+-
+D) 4
+
 **Answer: B) The degree of the differential equation is the power of the highest derivative in the equation, which is 2.**
 
-**3. What is the general solution of the differential equation $\frac{dy}{dx} = \frac{y}{x}$?**
-- A) $y = C_1 \cdot x^2$
-- B) $y = C_1 \cdot x$
-- C) $y = C_1 \cdot e^x$
-- D) $y = C_1 \cdot \ln x$
-**Answer: B) The general solution of the differential equation is $y = C_1 \cdot x$.**
+**3. What is the general solution of the differential equation $\franc{dy}{dx} = \franc{y}{x}$?**
+-
+A) by = C_1 \dot x^2$
+-
+B) by = C_1 \dot $
+-
+C) by = C_1 \dot e^$
+-
+D) by = C_1 \dot \ln $
 
-**4. What is the particular integral of the differential equation $\frac{d^2y}{dx^2} + 4\frac{dy}{dx} + 4y = 3$?**
-- A) $y = \frac{3}{4}$
-- B) $y = \frac{3}{2}x$
-- C) $y = \frac{3}{2}x^2$
-- D) $y = 3x^2$
-**Answer: A) The particular integral of the differential equation is $y = \frac{3}{4}$.**
+**Answer: B) The general solution of the differential equation is by = C_1 \dot $.**
 
-**5. What is the complementary function of the differential equation $\frac{d^2y}{dx^2} + 2\frac{dy}{dx} + y = 0$?**
-- A) $y = C_1 \cdot e^{-x} + C_2 \cdot e^x$
-- B) $y = C_1 \cdot e^{-x} + C_2 \cdot x \cdot e^{-x}$
-- C) $y = C_1 \cdot \cos x + C_2 \cdot \sin x$
-- D) $y = C_1 \cdot e^{-x} + C_2 \cdot e^{-2x}$
-**Answer: B) The complementary function of the differential equation is $y = C_1 \cdot e^{-x} + C_2 \cdot x \cdot e^{-x}$.**
+**4. What is the particular integral of the differential equation $\franc{d^2y}{DX^2} + 4\franc{dy}{dx} + 4y = 3$?**
+-
+A) y = $\franc{3}{4}$
+-
+B) y = $\franc{3}{2}ex
+-
+C) y = $\franc{3}{2}ex^2
+-
+D) by = 3x^2$
+
+**Answer: A) The particular integral of the differential equation is by = \franc{3}{4}$.**
+
+**5. What is the complementary function of the differential equation $\franc{d^2y}{DX^2} + 2\franc{dy}{dx} + y = 0$?**
+-
+A) by = C_1 \dot e^{-x} + C_2 \dot e^$
+-
+B) by = C_1 \dot e^{-x} + C_2 \dot x \dot e^{-x}$
+-
+C) y = C_1 \dot \cos x + C_2 \dot \sin x
+-
+D) by = C_1 \dot e^{-x} + C_2 \dot e^{-2x}$
+
+**Answer: B) The complementary function of the differential equation is (suggestion limit reached) = C_1 \(suggestion limit reached) e^{-x} + C_2 \(suggestion limit reached) x \(suggestion limit reached) e^{-x}$.**
 
 ---
 
@@ -104,3 +129,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Linear Equations In One Variable 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-one-variable-class-8-notes)
+- 📖 [Linear Equations In Two Variables 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-two-variables-class-9-notes)
+- 📖 [Pair Of Linear Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/pair-of-linear-equations-class-10-notes)
+- 📖 [Quadratic Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/quadratic-equations-class-10-notes)

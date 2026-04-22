@@ -13,15 +13,15 @@ manualReview: false
 - The range of $\sin^{-1}x$ is $\left[ -\frac{\pi}{2}, \frac{\pi}{2} \right]$.
 - The range of $\cos^{-1}x$ is $\left[ 0, \pi \right]$.
 - The range of $\tan^{-1}x$ is $\left( -\frac{\pi}{2}, \frac{\pi}{2} \right)$.
-- $\sin^{-1}x = \frac{\pi}{2} - \cos^{-1}x$.
-- $\cos^{-1}x = \frac{\pi}{2} - \sin^{-1}x$.
+-  \sin^{-1}x = $\frac{\pi}{2}$ - \cos^{-1}x. 
+-  \cos^{-1}x = $\frac{\pi}{2}$ - \sin^{-1}x. 
 - $\tan^{-1}x = \sin^{-1}\left( \frac{x}{\sqrt{1 + x^2}} \right)$.
-- $\sin^{-1}x + \cos^{-1}x = \frac{\pi}{2}$.
+-  \sin^{-1}x + \cos^{-1}x = $\frac{\pi}{2}$. 
 - $\tan^{-1}x + \tan^{-1}y = \tan^{-1}\left( \frac{x + y}{1 - xy} \right)$, $xy < 1$.
 - $\tan^{-1}x - \tan^{-1}y = \tan^{-1}\left( \frac{x - y}{1 + xy} \right)$, $xy > -1$.
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not checking the domain of the inverse trigonometric function.
+- Not checking the domain of the inverse [trigonometric](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) function.
 - Not using the correct range of the inverse trigonometric function.
 - Forgetting to use the $\pm$ sign when taking the square root.
 - Not simplifying the expression fully.
@@ -29,19 +29,19 @@ manualReview: false
 
 ## ✏️ 3 Solved PYQs
 - **Question 1:** Find the value of $\sin^{-1}\left( \sin\left( \frac{3\pi}{4} \right) \right)$.
-  - Solution: $\sin^{-1}\left( \sin\left( \frac{3\pi}{4} \right) \right) = \sin^{-1}\left( \sin\left( \pi - \frac{\pi}{4} \right) \right)$.
-  - $= \sin^{-1}\left( \sin\left( \frac{\pi}{4} \right) \right)$, since $\sin(\pi - \theta) = \sin\theta$.
-  - $= \frac{\pi}{4}$, since $\sin^{-1}\left( \sin\theta \right) = \theta$, $\theta \in \left[ -\frac{\pi}{2}, \frac{\pi}{2} \right]$.
+  -  lution: \sin^{-1}\left( \sin\left( $\frac{3\pi}{4}$ \right) \right) = \sin^{-1}\left( \sin\left( \pi - $\frac{\pi}{4}$ \right) \right). 
+  -  \sin^{-1}\left( \sin\left( $\frac{\pi}{4}$ \right) \right), since \sin(\pi - \theta) = \sin\theta. 
+  -  $\frac{\pi}{4}$, since \sin^{-1}\left( \sin\theta \right) = \theta, \theta \in \left[ -$\frac{\pi}{2}$, $\frac{\pi}{2}$ \right]. 
 - **Question 2:** Find the value of $\cos^{-1}\left( \cos\left( \frac{5\pi}{4} \right) \right)$.
-  - Solution: $\cos^{-1}\left( \cos\left( \frac{5\pi}{4} \right) \right) = \cos^{-1}\left( \cos\left( \pi + \frac{\pi}{4} \right) \right)$.
-  - $= \cos^{-1}\left( -\cos\left( \frac{\pi}{4} \right) \right)$, since $\cos(\pi + \theta) = -\cos\theta$.
-  - $= \cos^{-1}\left( \cos\left( \pi - \frac{\pi}{4} \right) \right)$, since $\cos(\pi - \theta) = -\cos\theta$.
-  - $= \pi - \frac{\pi}{4}$, since $\cos^{-1}\left( \cos\theta \right) = \theta$, $\theta \in \left[ 0, \pi \right]$.
-  - $= \frac{3\pi}{4}$.
+  -  lution: \cos^{-1}\left( \cos\left( $\frac{5\pi}{4}$ \right) \right) = \cos^{-1}\left( \cos\left( \pi + $\frac{\pi}{4}$ \right) \right). 
+  -  \cos^{-1}\left( -\cos\left( $\frac{\pi}{4}$ \right) \right), since \cos(\pi + \theta) = -\cos\theta. 
+  -  \cos^{-1}\left( \cos\left( \pi - $\frac{\pi}{4}$ \right) \right), since \cos(\pi - \theta) = -\cos\theta. 
+  -  \pi - $\frac{\pi}{4}$, since \cos^{-1}\left( \cos\theta \right) = \theta, \theta \in \left[ 0, \pi \right]. 
+  -  $\frac{3\pi}{4}$. 
 - **Question 3:** Find the value of $\tan^{-1}\left( \tan\left( \frac{3\pi}{4} \right) \right)$.
-  - Solution: $\tan^{-1}\left( \tan\left( \frac{3\pi}{4} \right) \right) = \tan^{-1}\left( \tan\left( \pi - \frac{\pi}{4} \right) \right)$.
-  - $= \tan^{-1}\left( -\tan\left( \frac{\pi}{4} \right) \right)$, since $\tan(\pi - \theta) = -\tan\theta$.
-  - $= -\frac{\pi}{4}$, since $\tan^{-1}\left( \tan\theta \right) = \theta$, $\theta \in \left( -\frac{\pi}{2}, \frac{\pi}{2} \right)$.
+  -  lution: \tan^{-1}\left( \tan\left( $\frac{3\pi}{4}$ \right) \right) = \tan^{-1}\left( \tan\left( \pi - $\frac{\pi}{4}$ \right) \right). 
+  -  \tan^{-1}\left( -\tan\left( $\frac{\pi}{4}$ \right) \right), since \tan(\pi - \theta) = -\tan\theta. 
+  -  -$\frac{\pi}{4}$, since \tan^{-1}\left( \tan\theta \right) = \theta, \theta \in \left( -$\frac{\pi}{2}$, $\frac{\pi}{2}$ \right). 
 
 ## 🧠 The One Thing Most Students Get Wrong
 - The one thing most students get wrong is not using the correct range of the inverse trigonometric function.
@@ -66,34 +66,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. Question:** Find the value of $\sin^{-1}\left( \sin\left( \frac{2\pi}{3} \right) \right)$.
-- A) $\frac{\pi}{3}$
-- B) $\frac{2\pi}{3}$
-- C) $\frac{4\pi}{3}$
-- D) $\frac{5\pi}{3}$
+-
+A) $\frac{\pi}{3}$
+-
+B) $\frac{2\pi}{3}$
+-
+C) $\frac{4\pi}{3}$
+-
+D) $\frac{5\pi}{3}$
+
 **Answer:** A) $\frac{\pi}{3}$, since $\sin^{-1}\left( \sin\theta \right) = \theta$, $\theta \in \left[ -\frac{\pi}{2}, \frac{\pi}{2} \right]$.
+
 **2. Question:** Find the value of $\cos^{-1}\left( \cos\left( \frac{3\pi}{4} \right) \right)$.
-- A) $\frac{\pi}{4}$
-- B) $\frac{3\pi}{4}$
-- C) $\frac{5\pi}{4}$
-- D) $\frac{7\pi}{4}$
+-
+A) $\frac{\pi}{4}$
+-
+B) $\frac{3\pi}{4}$
+-
+C) $\frac{5\pi}{4}$
+-
+D) $\frac{7\pi}{4}$
+
 **Answer:** B) $\frac{3\pi}{4}$, since $\cos^{-1}\left( \cos\theta \right) = \theta$, $\theta \in \left[ 0, \pi \right]$.
+
 **3. Question:** Find the value of $\tan^{-1}\left( \tan\left( \frac{\pi}{4} \right) \right)$.
-- A) $-\frac{\pi}{4}$
-- B) $\frac{\pi}{4}$
-- C) $\frac{3\pi}{4}$
-- D) $\frac{5\pi}{4}$
+-
+A) -$\frac{\pi}{4}$
+-
+B) $\frac{\pi}{4}$
+-
+C) $\frac{3\pi}{4}$
+-
+D) $\frac{5\pi}{4}$
+
 **Answer:** B) $\frac{\pi}{4}$, since $\tan^{-1}\left( \tan\theta \right) = \theta$, $\theta \in \left( -\frac{\pi}{2}, \frac{\pi}{2} \right)$.
+
 **4. Question:** Find the value of $\sin^{-1}\left( \sin\left( \frac{5\pi}{4} \right) \right)$.
-- A) $-\frac{\pi}{4}$
-- B) $\frac{\pi}{4}$
-- C) $\frac{3\pi}{4}$
-- D) $\frac{5\pi}{4}$
+-
+A) -$\frac{\pi}{4}$
+-
+B) $\frac{\pi}{4}$
+-
+C) $\frac{3\pi}{4}$
+-
+D) $\frac{5\pi}{4}$
+
 **Answer:** A) $-\frac{\pi}{4}$, since $\sin^{-1}\left( \sin\theta \right) = \theta$, $\theta \in \left[ -\frac{\pi}{2}, \frac{\pi}{2} \right]$.
+
 **5. Question:** Find the value of $\cos^{-1}\left( \cos\left( \frac{7\pi}{4} \right) \right)$.
-- A) $\frac{\pi}{4}$
-- B) $\frac{3\pi}{4}$
-- C) $\frac{5\pi}{4}$
-- D) $\frac{7\pi}{4}$
+-
+A) $\frac{\pi}{4}$
+-
+B) $\frac{3\pi}{4}$
+-
+C) $\frac{5\pi}{4}$
+-
+D) $\frac{7\pi}{4}$
+
 **Answer:** C) $\frac{\pi}{4}$, since $\cos^{-1}\left( \cos\theta \right) = \theta$, $\theta \in \left[ 0, \pi \right]$.
 
 ---
@@ -103,3 +132,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Trigonometric Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)
+- 📖 [Vector Algebra Class 12 Mathematics Revision — Grandmaster Guide](/blog/vector-algebra-class-12-notes)
+- 📖 [3d Geometry Intro Class 11 Mathematics Revision — Grandmaster Guide](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet)
+- 📖 [Algebraic Expressions 8 Class 8 Mathematics Revision — Grandmaster Guide](/blog/algebraic-expressions-class-8-notes)

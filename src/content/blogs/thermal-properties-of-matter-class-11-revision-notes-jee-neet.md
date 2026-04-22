@@ -9,9 +9,6 @@ practice_link: "/class-11/physics/thermal-properties-of-matter-class-11-revision
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Thermal Properties Of Matter Revision Notes?](#what-is-thermal-properties-of-matter-revision-notes)
@@ -28,18 +25,9 @@ practice_link: "/class-11/physics/thermal-properties-of-matter-class-11-revision
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Thermal Properties Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-
-
-
-
 ## <a id="what-is-thermal-properties-of-matter-revision-notes"></a>What is Thermal Properties Of Matter Revision Notes?
-
-
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -52,15 +40,11 @@ practice_link: "/class-11/physics/thermal-properties-of-matter-class-11-revision
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 Heat is a fundamental form of energy that drives the physical and chemical processes of our universe. From the expansion of railway tracks and summer to the cooling of a cup of tea, the "Thermal [properties](/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet) of Matter" govern how substances respond to changes and temperature. This chapter transitions from the macro-mechanics of forces to the micro-mechanics of molecular vibrations and energy transfer. In this "Comprehensive" guide, we provide exhaustive derivations for the relationship between thermal expansion coefficients, a rigorous mathematical analysis of Newton’s Law of Cooling, n the foundational principles of Calorimetry—essential for top-tier competitive exams like JEE and NEET.
 
 ---
-
-
-
 
 ## <a id="1-temperature-n-heat"></a>1. Temperature and Heat
 
@@ -69,9 +53,6 @@ Heat is a fundamental form of energy that drives the physical and chemical proce
 - **Triple Point of Water:** The unique temperature (273.16 K) n pressure where water exists and all three phases and equilibrium.
 
 ---
-
-
-
 
 ## <a id="2-thermal-expansion-concepts-n-derivations"></a>2. Thermal Expansion: Concepts and Derivations
 
@@ -98,9 +79,6 @@ Most substances expand when heated. We define three coefficients of expansion:
 
 ---
 
-
-
-
 ## <a id="3-calorimetry-the-science-of-mixing"></a>3. Calorimetry: The Science of Mixing
 
 **Principle:** Heat Lost y Hot Body = Heat Gained y Cold Body.
@@ -110,9 +88,6 @@ Most substances expand when heated. We define three coefficients of expansion:
 
 ---
 
-
-
-
 ## <a id="4-heat-transfer-conduction-convection-radiation"></a>4. Heat Transfer: Conduction, Convection, Radiation
 
 - **Conduction:** Heat flow through [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet). **dQ/dt = KA (T1-T2) / d**.
@@ -120,9 +95,6 @@ Most substances expand when heated. We define three coefficients of expansion:
 - **Radiation:** Heat flow via electromagnetic [waves](/blog/waves-class-11-revision-notes-neet). (**Prevents need for a medium**).
 
 ---
-
-
-
 
 ## <a id="5-derivation-newtons-law-of-cooling"></a>5. Derivation: Newton’s Law of Cooling
 
@@ -141,18 +113,12 @@ Most substances expand when heated. We define three coefficients of expansion:
 
 ---
 
-
-
-
 ## <a id="6-stefanboltzmann-n-wiens-laws"></a>6. Stefan-Boltzmann and Wien’s Laws
 
 - **Stefan’s Law:** Radiant energy **E = σ A T⁴**.
 - **Wien’s Displacement Law:** **λ_max T = b** (Constant). As temperature increases, the peak wavelength shifts toward shorter (bluer) values.
 
 ---
-
-
-
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
@@ -167,17 +133,11 @@ Most substances expand when heated. We define three coefficients of expansion:
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 11: Thermodynamics (Heat Engines)**
 - **Chapter 12: [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) Theory of Gases (Molecular Proofs)**
 - **Thermal Physics: JEE Formula Master-Sheet**
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -188,10 +148,6 @@ Thermal [properties](/blog/mechanical-properties-of-fluids-class-11-revision-not
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
-
-
-
-
 
 ---
 
@@ -204,13 +160,10 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 - 📖 [Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/thermal-properties-of-matter-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
-
 
 ---
 

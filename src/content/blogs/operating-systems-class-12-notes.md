@@ -37,7 +37,7 @@ manualReview: false
   - Completion Time: 5, 8, 10
   - Turnaround Time: 5, 6, 6
   - Average Turnaround Time: $\frac{5+6+6}{3} = \frac{17}{3} = 5.67$
-- **Question 2:** A computer system has 4 pages with page sizes 1, 2, 3, and 4. The page reference string is 1, 2, 3, 4, 2, 1, 3, 2. Calculate the number of page faults using the LRU page replacement algorithm.
+- **Question 2:** A computer system has 4 pages with page sizes 1, 2, 3, and 4. The page reference string is 1, 2, 3, 4, 2, 1, 3, 2. Calculate the [number](/blog/number-systems-class-9-notes) of page faults using the LRU page replacement algorithm.
   - Page Reference String: 1, 2, 3, 4, 2, 1, 3, 2
   - Page Faults: 4 (initial pages), 0 (page 2 already in memory), 0 (page 1 already in memory), 0 (page 3 already in memory), 0 (page 2 already in memory)
   - Total Page Faults: 4
@@ -72,40 +72,65 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. Which of the following scheduling algorithms is non-preemptive?**
-- A) FCFS
-- B) SJF
-- C) RR
-- D) Priority Scheduling
+-
+A) FCFS
+-
+B) SJF
+-
+C) RR
+-
+D) Priority Scheduling
+
 **Answer: A) FCFS. Explanation: FCFS is a non-preemptive scheduling algorithm, meaning that once a process is started, it will run to completion before the next process is started.**
 
 **2. Which of the following page replacement algorithms replaces the page that has not been used recently?**
-- A) LRU
-- B) Optimal
-- C) FIFO
-- D) Priority
+-
+A) LRU
+-
+B) Optimal
+-
+C) FIFO
+-
+D) Priority
+
 **Answer: A) LRU. Explanation: LRU replaces the page that has not been used recently.**
 
 **3. What is the average turnaround time for the following processes using the FCFS scheduling algorithm?**
 - Arrival Time: 0, 2, 4
 - Burst Time: 5, 3, 2
-- A) 5.67
-- B) 6.33
-- C) 7.00
-- D) 8.00
+-
+A) 5.67
+-
+B) 6.33
+-
+C) 7.00
+-
+D) 8.00
+
 **Answer: A) 5.67. Explanation: The average turnaround time is calculated by summing the turnaround times for each process and dividing by the number of processes.**
 
 **4. Which of the following is a method to prevent deadlock?**
-- A) Mutual Exclusion
-- B) Hold and Wait
-- C) No Preemption
-- D) All of the above
+-
+A) Mutual Exclusion
+-
+B) Hold and Wait
+-
+C) No Preemption
+-
+D) All of the above
+
 **Answer: D) All of the above. Explanation: Mutual Exclusion, Hold and Wait, No Preemption, and Circular Wait are all methods to prevent deadlock.**
 
 **5. What is the purpose of a semaphore in Operating Systems?**
-- A) To synchronize processes
-- B) To allocate memory
-- C) To handle interrupts
-- D) To manage files
+-
+A) To synchronize processes
+-
+B) To allocate memory
+-
+C) To handle interrupts
+-
+D) To manage files
+
 **Answer: A) To synchronize processes. Explanation: A semaphore is a variable that is used to synchronize processes and prevent them from accessing a shared resource simultaneously.**
 
 ---
@@ -115,3 +140,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Number Systems 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/number-systems-class-9-notes)
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)

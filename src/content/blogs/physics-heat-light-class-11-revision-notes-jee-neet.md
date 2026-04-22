@@ -9,16 +9,16 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- $Q = mc\Delta T$ for heat transfer
-- $Q = \frac{K \times A \times \Delta T \times t}{d}$ for conduction
-- $Q = \sigma \times A \times \epsilon \times \Delta T^4 \times t$ for radiation
-- $Q = h \times A \times \Delta T \times t$ for convection
+- $Q = mc\delta T$ for heat transfer
+- $Q = \frac{K \times A \times \delta T \times t}{d}$ for conduction
+- $Q = \sigma \times A \times \epsilon \times \delta T^4 \times t$ for radiation
+- $Q = h \times A \times \delta T \times t$ for convection
 - $\frac{1}{f} = \frac{1}{c} + \frac{1}{v} - \frac{1}{u}$ for lens maker's formula
 - $f = \frac{R}{\mu - 1}$ for focal length of a sphere
 - $v = \frac{h}{t}$ for speed of light in a medium
 - $n = \frac{c}{v}$ for refractive index
 - $T = \frac{2 \times T_0}{1 + \mu}$ for temperature of a gas
-- $\Delta \theta = \frac{\alpha \times \Delta T \times L}{2}$ for thermal expansion
+- $\delta \theta = \frac{\alpha \times \delta T \times L}{2}$ for thermal expansion
 - $E = \frac{hc}{\lambda}$ for energy of a photon
 - $p = \frac{h}{\lambda}$ for momentum of a photon
 
@@ -54,7 +54,7 @@ manualReview: false
 - Also, make sure to use the correct formula for a given situation, and always check the units of the given quantities.
 
 ## 👁️ Ayush's Note
-- To solve problems related to heat and light, make sure to first identify the given quantities and the unknown quantity.
+- To solve problems [related](/blog/areas-related-to-circles-class-10-notes) to heat and light, make sure to first identify the given quantities and the unknown quantity.
 - Then, use the relevant formula to solve for the unknown quantity.
 - Always consider the sign conventions for heat transfer, and make sure to use the correct formula for a given situation.
 - Also, make sure to check the units of the given quantities, and use the correct units for the unknown quantity.
@@ -69,34 +69,65 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the energy transferred to a block of mass 2 kg when it is heated from 20°C to 50°C, given that the specific heat capacity of the block is 200 J/kg°C?**
-- A) 8000 J
-- B) 12000 J
-- C) 16000 J
-- D) 20000 J
+-
+A) 8000 J
+-
+B) 12000 J
+-
+C) 16000 J
+-
+D) 20000 J
+
 **Answer: B) 12000 J. The energy transferred to the block can be calculated using the formula Q = mcΔT.**
+
 **2. A lens has a focal length of 20 cm. If an object is placed 30 cm from the lens, what is the image distance?**
-- A) 20 cm
-- B) 30 cm
-- C) 40 cm
-- D) 60 cm
+-
+A) 20 cm
+-
+B) 30 cm
+-
+C) 40 cm
+-
+D) 60 cm
+
 **Answer: D) 60 cm. The image distance can be calculated using the formula 1/f = 1/v + 1/u.**
-**3. A gas is heated from 20°C to 50°C. If the initial pressure is 1 atm, what is the final pressure?**
-- A) 0.9 atm
-- B) 1 atm
-- C) 1.1 atm
-- D) 1.2 atm
+
+**3. A gas is heated from 20°C to 50°
+C. If the initial pressure is 1 atm, what is the final pressure?**
+-
+A) 0.9 atm
+-
+B) 1 atm
+-
+C) 1.1 atm
+-
+D) 1.2 atm
+
 **Answer: C) 1.1 atm. The final pressure can be calculated using the formula P1/T1 = P2/T2.**
+
 **4. What is the refractive index of a medium if the speed of light in the medium is 2 × 10^8 m/s?**
-- A) 1.5
-- B) 1.7
-- C) 1.9
-- D) 2.1
+-
+A) 1.5
+-
+B) 1.7
+-
+C) 1.9
+-
+D) 2.1
+
 **Answer: A) 1.5. The refractive index can be calculated using the formula n = c/v.**
-**5. A block of mass 1 kg is heated from 20°C to 40°C. If the specific heat capacity of the block is 200 J/kg°C, what is the energy transferred to the block?**
-- A) 4000 J
-- B) 6000 J
-- C) 8000 J
-- D) 10000 J
+
+**5. A block of mass 1 kg is heated from 20°C to 40°
+C. If the specific heat capacity of the block is 200 J/kg°C, what is the energy transferred to the block?**
+-
+A) 4000 J
+-
+B) 6000 J
+-
+C) 8000 J
+-
+D) 10000 J
+
 **Answer: A) 4000 J. The energy transferred to the block can be calculated using the formula Q = mcΔT.**
 
 ---
@@ -106,3 +137,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Physics Mechanics Class 11 Exam Prep Revision — Grandmaster Guide](/blog/physics-mechanics-class-11-revision-notes-jee-neet)
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)

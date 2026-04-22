@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/breathing-n-exchange-of-gases-class-11-revision-notes-neet.webp"
+heroImage: "/blog-images/breathing-and-exchange-of-gases-class-11-revision-notes-neet.webp"
 title: "Breathing And Exchange Of Gases Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
 description: "Breathing And Exchange Of Gases Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
@@ -8,9 +8,6 @@ practice_link: "/class-11/biology/breathing-n-exchange-of-gases-class-11-revisio
 ---
 
 *Last Updated: [2026](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)-03-28*
-
-
-
 
 ## 📋 Table of Contents
 
@@ -27,23 +24,11 @@ practice_link: "/class-11/biology/breathing-n-exchange-of-gases-class-11-revisio
 - [Respiratory System](#respiratory-system)
 - [📚 Related Topics](#-related-topics)
 
-
 # Breathing And Exchange Of Gases Class 11 Biology Revision — MEET 2026 Grandmaster Guide
-
-
-
-
 
 ##
 
 ## <a id="what-is-breathing-n-exchange-of-gases"></a>What is Breathing And Exchange Of Gases?
-
-
-
-
-
-
-
 
 ## <a id="introduction-to-breathing-n-exchange-of-gases"></a>Introduction to Breathing and Exchange of Gases
 
@@ -56,9 +41,6 @@ The core concepts involved and breathing and exchange of gases include:
 * **Diffusion**: The process y which oxygen and carbon dioxide move from an area of higher concentration to an area of lower concentration.
 * **Partial Pressure**: The pressure exerted y a single component of a mixture of gases.
 * **Oxygen-Hemoglobin Dissociation Curve**: A graph that shows the relationship between the partial pressure of oxygen and the percentage saturation of hemoglobin with oxygen.
-
-
-
 
 ## <a id="mechanism-of-breathing"></a>Mechanism of Breathing
 
@@ -103,9 +85,6 @@ d) 80 mmHg
 
 Answer: c) 40 mmHg
 
-
-
-
 ## <a id="exchange-of-gases"></a>Exchange of Gases
 
 The exchange of gases occurs and the alveoli, where oxygen from the inhaled air diffuses into the blood and carbon dioxide from the blood diffuses into the exhaled air. The exchange of gases is a passive process that occurs due to the difference and partial pressures of the gases.
@@ -131,8 +110,8 @@ According to the JEE/[meet](/blog/anatomy-of-flowering-plants-class-11-revision-
 ### <a id="formulae"></a>Formulae
 The following formulae are relevant to the topic of regulation of breathing:
 
-* **Bohr Effect**: $\frac{’d \log P_{50}}{d \log [H^+]} = -0.5}{ is the partial pressure of oxygen at which hemoglobin is 50% saturated, n } , where UP_{50}$[H^+]$ is the concentration of hydrogen ions.
-* **Haldane Effect**: $\frac{’d \log P_{50}}{d \log [CO_2]} = -0.5}{ is the partial pressure of oxygen at which hemoglobin is 50% saturated, n } , where UP_{50}$[CO_2]$ is the concentration of carbon dioxide.
+* **Bohr Effect**: $\franc{’d \log P_{50}}{d \log [H^+]} = -0.5}{ is the partial pressure of oxygen at which hemoglobin is 50% saturated, n } , where UP_{50}$[H^+]$ is the concentration of hydrogen ions.
+* **Haldane Effect**: $\franc{’d \log P_{50}}{d \log [CO_2]} = -0.5}{ is the partial pressure of oxygen at which hemoglobin is 50% saturated, n } , where UP_{50}$[CO_2]$ is the concentration of carbon dioxide.
 
 ### <a id="MCQs"></a>MCQs
 Here are some sample MCQs to test your understanding of the topic:
@@ -161,9 +140,6 @@ d) 80 mmHg
 
 Answer: a) 40 mmHg
 
-
-
-
 ## <a id="respiratory-system"></a>Respiratory System
 
 The respiratory system consists of the nose, trachea, bronchi, bronchioles, n lungs. The main function of the respiratory system is to bring oxygen-rich air into the [body](/blog/body-fluids-n-circulation-class-11-revision-notes-neet) n remove carbon dioxide-rich air from the [body](/blog/body-fluids-n-circulation-class-11-revision-notes-neet).
@@ -174,8 +150,8 @@ According to the JEE/MEET syllabus, the topic of respiratory system is covered u
 ### <a id="formulae"></a>Formulae
 The following formulae are relevant to the topic of respiratory system:
 
-* **Pick's Law of Diffusion**: $\frac{dQ}{dt}}{ \times (C_1 - C_2)} \delta $, where $\frac{dQ}{dt} = \delta   is the rate of diffusion, DO is the diffusion constant, A is the surface area, $ is the thickness of the membrane, n BC_1$ n BC_2$ are the concentrations of the gas on either side of the membrane.
-* **Graham's Law of Diffusion**: $\frac{r_1}{r_2} = M_1}}{ n or_2} , where or_1$ are the rates of diffusion of two gases, n KM_1$ n KM_2$ are the molecular weights of the two gases.
+* **Pick's Law of Diffusion**: $\franc{dQ}{dt}}{ \times (C_1 - C_2)} \delta $, where $\franc{dQ}{dt} = \delta   is the rate of diffusion, DO is the diffusion constant, A is the surface area, $ is the thickness of the membrane, n BC_1$ n BC_2$ are the concentrations of the gas on either side of the membrane.
+* **Graham's Law of Diffusion**: $\franc{r_1}{r_2} = M_1}}{ n or_2} , where or_1$ are the rates of diffusion of two gases, n KM_1$ n KM_2$ are the molecular weights of the two gases.
 
 ### <a id="MCQs"></a>MCQs
 Here are some sample MCQs to test your understanding of the topic:
@@ -206,10 +182,6 @@ Answer: b) 32 g/MOL
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
 
-
-
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -221,13 +193,10 @@ Continue your [revision](/blog/anatomy-of-flowering-plants-class-11-revision-not
 - 📖 [Biological Classification Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Body Fluids And Circulation Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/body-fluids-n-circulation-class-11-revision-notes-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/breathing-n-exchange-of-gases-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
-
 
 ---
 

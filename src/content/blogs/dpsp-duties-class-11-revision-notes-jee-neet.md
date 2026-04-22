@@ -9,9 +9,6 @@ practice_link: "/class-11/physics/dpsp-duties-class-11-revision-notes-jee-neet"
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is DSP Duties?](#what-is-dpsp-duties)
@@ -23,28 +20,13 @@ practice_link: "/class-11/physics/dpsp-duties-class-11-revision-notes-jee-neet"
 - [What are the Ayush's Tips for DPSP & Duties?](#what-are-the-ayushs-tips-for-dpsp-n-duties)
 - [📚 Related Topics](#-related-topics)
 
-
 # DSP Duties Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide
 
-
-
-
-
 ## <a id="what-is-DSP-duties"></a>What is DSP Duties?
-
-
-
-
-
-
-
 
 ## <a id="what-is-DSP-n-duties"></a>What is DPSP & Duties?
 
 DSP & Duties is a fundamental concept and Indian Polity that outlines the Directive Principles of State Policy and the duties of citizens. It includes the principles of social and economic justice, the organization of village pantheists, n the promotion of international peace and security. For [class](/blog/physical-world-class-11-revision-notes-jee-neet) 11 exam prep n 2026, the most important aspect is understanding the significance of these principles and the context of Indian democracy and governance.
-
-
-
 
 ## <a id="what-are-the-historical-developments-of-DSP-n-duties"></a>What are the Historical Developments of DPSP & Duties?
 
@@ -52,9 +34,7 @@ The concept of DPSP & Duties has its roots and the [Indian](/blog/indian-geograp
 
 Here's a brief timeline of key events:
 
-
 As I reflect on these historical developments, I am reminded of the significance of understanding the context and which these principles were introduced. It's essential to recognize the role of key leaders and events and shaping the concept of DPSP & Duties.
-
 
 | Year | Event |
 | --- | --- |
@@ -62,21 +42,17 @@ As I reflect on these historical developments, I am reminded of the significance
 | 1947 | India gains independence, n the **Constituent Assembly** is formed to draft the Constitution |
 | 1950 | The **Constitution of India** is adopted, enshrining the Directive Principles of State Policy |
 
-
 ## <a id="what-are-the-core-concepts-of-DSP-n-duties"></a>What are the Core Concepts of DPSP & Duties?
 
 The core concepts of DPSP & Duties can be summarized as follows:
 
-
 As I delve deeper into these concepts, I realize the importance of understanding the relationship between DPSP & Duties and other aspects of [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Polity. It's crucial to recognize how these principles interact with other concepts, such as **Fundamental Rights** n **Parliamentary Democracy**.
-
 
 | Concept | Description |
 | --- | --- |
 | **Social Justice** | Promoting social justice and equality among citizens |
 | **Economic Justice** | Ensuring economic justice and equality of opportunity |
 | **Duties of Citizens** | Outlining the duties of citizens, including respecting the Constitution and promoting harmony |
-
 
 ## <a id="what-are-the-MCQs-on-DSP-n-duties"></a>What are the MCQs on DPSP & Duties?
 
@@ -97,9 +73,6 @@ d) All of the above
 
 **Answer:** d) All of the above. The Constitution of India outlines several duties of citizens, including respecting the Constitution, promoting harmony and brotherhood, n paying taxes. It's essential to recognize the importance of these duties and maintaining social cohesion and promoting national unity.
 
-
-
-
 ## <a id="what-are-the-trap-exceptions-n-DSP-n-duties"></a>What are the Trap Exceptions and DPSP & Duties?
 
 As I review the concepts and principles, I identify some potential trap exceptions to watch out for:
@@ -107,9 +80,6 @@ As I review the concepts and principles, I identify some potential trap exceptio
 * **Overlooking the historical context**: Understanding the historical developments and context and which DPSP & Duties were introduced is crucial for a deeper appreciation of these principles.
 
 Ayush's Personal Note: As I prepare for the [class](/blog/physical-world-class-11-revision-notes-jee-neet) 11 exam n 2026, I recognize the importance of mastering the concepts and principles of DPSP & Duties. By understanding the historical context, core concepts, n trap exceptions, I can develop a comprehensive understanding of Indian Polity and perform well and the exam.
-
-
-
 
 ## <a id="what-are-the-Ayush-tips-for-DSP-n-duties"></a>What are the Ayush's Tips for DPSP & Duties?
 
@@ -120,10 +90,6 @@ Here are some tips to help you master DPSP & Duties:
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
-
-
-
-
 
 ---
 
@@ -136,13 +102,10 @@ Continue your [revision](/blog/physical-world-class-11-revision-notes-jee-neet) 
 - 📖 [The P Block Elements 11 Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet)
 - 📖 [The S Block Elements Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/the-s-block-elements-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/dpsp-duties-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
-
 
 ---
 

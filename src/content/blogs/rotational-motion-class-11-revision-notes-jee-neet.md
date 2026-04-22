@@ -9,9 +9,6 @@ practice_link: "/class-11/physics/rotational-motion-class-11-revision-notes-jee-
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Rotational Motion Revision Notes?](#what-is-rotational-motion-revision-notes)
@@ -33,18 +30,9 @@ practice_link: "/class-11/physics/rotational-motion-class-11-revision-notes-jee-
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Rotational Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-
-
-
-
 ## <a id="what-is-rotational-motion-revision-notes"></a>What is Rotational Motion Revision Notes?
-
-
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -59,15 +47,11 @@ practice_link: "/class-11/physics/rotational-motion-class-11-revision-notes-jee-
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 While the previous chapters dealt with the motion of "point masses," reality involves systems of particles and extended "rigid bodies." In Rotational Motion, every point on a body moves and a circle around an axis, creating a symphony of motion that requires new concepts: **Centre of Mass**, **Torque**, n **Moment of Inertia**. This chapter is widely considered one of the most challenging n [class](/blog/oscillations-class-11-revision-notes-jee-neet) 11 Physics, but it is also the most rewarding for those aiming for top scores and JEE and NEET. In this "Comprehensive" guide, we provide exhaustive derivations for the Parallel and Perpendicular Axes Theorems, the relation between Torque and Angular Momentum, n the physics of pure rolling motion.
 
 ---
-
-
-
 
 ## <a id="1-centre-of-mass-com"></a>1. Centre of Mass (CoM)
 
@@ -80,9 +64,6 @@ The position of the CoM is defined as:
 - For an extended body (continuous mass), use integration: **X_com = (1/M) ∫ x dm**.
 
 ---
-
-
-
 
 ## <a id="2-torque-n-angular-momentum"></a>2. Torque and Angular Momentum
 
@@ -107,9 +88,6 @@ The rotational equivalent of linear momentum.
 
 ---
 
-
-
-
 ## <a id="3-moment-of-inertia-i-rotational-mass"></a>3. Moment of Inertia (I): Rotational Mass
 
 Moment of Inertia resists changes and rotational [motion](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet).
@@ -126,9 +104,6 @@ Moment of Inertia resists changes and rotational [motion](/blog/motion-n-a-strai
 
 ---
 
-
-
-
 ## <a id="4-moment-of-inertia-mastersheet"></a>4. Moment of Inertia Master-Sheet
 
 | Body | Axis | MoI (I) |
@@ -141,9 +116,6 @@ Moment of Inertia resists changes and rotational [motion](/blog/motion-n-a-strai
 
 ---
 
-
-
-
 ## <a id="5-dynamics-of-rolling-motion"></a>5. Dynamics of Rolling Motion
 
 When an object rolls, it has both translational and rotational kinetic energy.
@@ -154,9 +126,6 @@ For a body rolling without slipping: **v = R ω**.
 If this condition is met, the point of contact is momentarily at rest.
 
 ---
-
-
-
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
@@ -171,17 +140,11 @@ If this condition is met, the point of contact is momentarily at rest.
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 4: Laws of [motion](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) (Inertia Basics)**
 - **Chapter 7: [gravitation](/blog/gravitation-class-11-revision-notes-jee-neet) (Orbital Angular Momentum)**
 - **Mastering Rotational Mechanics: Advanced Problem Set**
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -192,10 +155,6 @@ Rotational [motion](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) is 
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
-
-
-
-
 
 ---
 
@@ -208,13 +167,10 @@ Continue your [revision](/blog/oscillations-class-11-revision-notes-jee-neet) wi
 - 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
 - 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/rotational-motion-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
-
 
 ---
 

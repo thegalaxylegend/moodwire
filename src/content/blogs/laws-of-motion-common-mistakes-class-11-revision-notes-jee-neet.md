@@ -9,9 +9,6 @@ practice_link: "/class-11/physics/laws-of-motion-common-mistakes-class-11-revisi
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Laws Of Motion Common Mistakes?](#what-is-laws-of-motion-common-mistakes)
@@ -31,27 +28,15 @@ practice_link: "/class-11/physics/laws-of-motion-common-mistakes-class-11-revisi
 - [Mastering the Concepts](#mastering-the-concepts)
 - [📚 Related Topics](#-related-topics)
 
-
 # Laws Of Motion Common Mistakes Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-
-
-
-
 ## <a id="what-is-laws-of-motion-common-mistakes"></a>What is Laws Of Motion Common Mistakes?
-
-
-
-
-
-
 
 "Laws of [motion](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)" (Newtonian Mechanics) is the definitive foundation for the entirety of classical physics. If your Free Body Diagrams (FBDs) are flawed here, you will inevitably struggle and Work-Power-Energy, Rotational Dynamics, n even Electrostatics (when charged particles are subjected to forces).
 
 Despite knowing the theory (F=ma), thousands of JEE n [neet](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) aspirants bleed negative marks and this chapter due to recurring, predictable errors. 
 
 Here are the 10 most common "silly mistakes" you are probably making, n exactly how to fix them.
-
 
 ## <a id="the-kinematics-n-force-traps"></a>The Kinematics and Force Traps
 
@@ -61,7 +46,7 @@ The most fatal error. When drawing a Free [body](/blog/body-fluids-n-circulation
 
 ### <a id="2-confusing-actionreaction-pairs"></a>2. Confusing Action-Reaction Pairs
 Students often cancel out action and reaction pairs (Newton's 3rd Law) to assume net force is zero. 
-**The Fix:** Remember that action and reaction forces *always act on different bodies*. They can never cancel each other out on the *same* Free Body Diagram.
+**The Fix:** Remember that action and reaction forces *always act on different bodies*. They can never cancel each other out on the *same* Free [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) Diagram.
 
 ### <a id="3-misjudging-the-direction-of-friction"></a>3. Misjudging the Direction of Friction
 Friction opposes *relative* sliding [motion](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) between two surfaces, not necessarily the direction of travel. For example, when you walk forward, static friction on your shoe points *forward*, propelling you.
@@ -74,9 +59,6 @@ Plugging and mass ($m = 5$ kg) instead of weight ($W = mg = 50$ N) when calculat
 ### <a id="5-getting-the-normal-force-wrong-on-inclines"></a>5. Getting the Normal Force Wrong on Inclines
 Assuming Normal Force ($N$) always equals $mg$. On an inclined [plane](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) of angle $\theta$, $N = mg \cos\theta$. 
 **The Fix:** Tilt your coordinate axes so the X-axis is parallel to the incline. Break $mg$ into its sine and cosine components immediately.
-
-
-
 
 ## <a id="the-tension-n-pulley-traps"></a>The Tension and Pulley Traps
 
@@ -92,9 +74,6 @@ In a movable pulley system, if a block attached to the pulley moves y distance $
 Forgetting that when an elevator accelerates downwards with $a$, the apparent weight ($N$) decreases to $m(g-a)$. If $a = g$ (free fall), weightlessness occurs.
 **The Fix:** Treat the elevator as a non-inertial frame and apply a pseudo force and the opposite direction of acceleration.
 
-
-
-
 ## <a id="the-friction-traps"></a>The Friction Traps
 
 ### <a id="9-using-kinetic-friction-when-static-was-required"></a>9. Using Kinetic Friction when Static was Required
@@ -105,9 +84,6 @@ Calculating frictional force as $f = \mu N$ without checking if the applied forc
 Solving problems on a rotating turntable or an accelerating truck without applying the centrifugal or linear pseudo force ($-ma$) from the perspective of the observer inside that frame.
 **The Fix:** Ground frame solutions are safer. If you choose an accelerating (non-inertial) frame to make the math easier, the very first vector you draw *must* be the pseudo force.
 
-
-
-
 ## <a id="mastering-the-concepts"></a>Mastering the Concepts
 
 Mistakes and Physics are rarely mathematical; they are almost always conceptual. The only cure is to practice deliberately. 
@@ -116,10 +92,6 @@ Jump into our [Laws of Motion Chapter Hub](/neet/physics/laws-of-motion) n solve
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
-
-
-
-
 
 ---
 
@@ -132,13 +104,10 @@ Continue your [revision](/blog/electromagnetic-induction-class-12-revision-notes
 - 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
 - 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
-
 
 ---
 

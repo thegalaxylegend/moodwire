@@ -13,5 +13,17 @@
     "priority": "medium",
     "learnedFrom": "introduction-to-trigonometry-class-10-notes",
     "addedDate": "2026-04-08"
+  },
+  {
+    "type": "LEARNED_UNKNOWN",
+    "keywords": [
+      "unknown",
+      "failure"
+    ],
+    "rootCause": "Auto-learned pattern from General failure: Unknown Failure",
+    "fix": "Review this auto-learned pattern and refine the fix recommendation.",
+    "priority": "medium",
+    "learnedFrom": "chemical-reactions-and-equations-class-10-notes",
+    "addedDate": "2026-04-22"
   }
 ]
