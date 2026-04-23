@@ -9,6 +9,15 @@ practice_link: "/class-11/medieval-india-delhi-sultanate-class-11-revision-notes
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-medieval-india-delhi-sultanate"></a>What is Medieval India Delhi Sultanate?](#a-idwhat-is-medieval-india-delhi-sultanateawhat-is-medieval-india-delhi-sultanate)
+3. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+4. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Medieval India Delhi Sultanate?](#what-is-medieval-india-delhi-sultanate)
@@ -138,7 +147,9 @@ Continue your [revision](/blog/ancient-india-indus-valley-class-11-revision-note
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/medieval-india-delhi-sultanate-class-11-revision-notes-cbse) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/medieval-[india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)-delhi-sultanate-class-11-revision-notes-cbse) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Medieval%20India%20Delhi%20Sultanate%20Class%2011%20History%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 
@@ -150,3 +161,22 @@ Continue your [revision](/blog/ancient-india-indus-valley-class-11-revision-note
 - 📖 [Medieval India Mughals Class 11 History Recap — CBSE 2026 Quick Guide](/blog/medieval-india-mughals-class-11-revision-notes-cbse)
 - 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
 - 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Confusing the Delhi Sultanate with the Mughal Empire**: A common mistake is to conflate the Delhi Sultanate with the Mughal Empire, which was a later period in Indian history. The Delhi Sultanate was a separate period that preceded the Mughal Empire.
+* **Misidentifying the First Sultan of Delhi**: Some students might mistakenly identify Qutb-ud-din Aibak as the founder of the Delhi Sultanate, when in fact he was the first Sultan of Delhi but not the founder of the empire that led to the Sultanate.
+* **Failure to Recognize the Significance of the Khalji Dynasty**: The Khalji dynasty is often overlooked, but it was crucial in expanding the Delhi Sultanate's borders and implementing important administrative reforms.
+* **Overlooking the Role of Women in the Delhi Sultanate**: Students often neglect the significant roles women played in the Delhi Sultanate, including Razia Sultana, who was the only female Sultan of Delhi and played a critical role in the political landscape.
+* **Mistaking the Decline of the Delhi Sultanate with the End of Medieval India**: The decline of the Delhi Sultanate marked the beginning of the end of the medieval period in India, but it did not immediately lead to the end of the medieval era; regional kingdoms and the Vijayanagara Empire still flourished afterward.
+
+## 🔁 Last 5 Minutes Box
+
+- **Delhi Sultanate (1206-1526)**: Founded by Qutub-ud-din Aibak, first Sultan of Delhi.
+   - **Sultans of Delhi**: Qutub-ud-din Aibak, Iltutmish, Razia Sultan, Balban, Alauddin Khalji, Muhammad bin Tughlaq, Firuz Shah Tughlaq.
+   - **Administrative Divisions**: Sultanate divided into **Iqta** (provinces) governed by **Muqti** (governors), further divided into **Shiq** (districts), **Parganas** (tehsils).
+   - **Revenue System**: **Iqta System** where **Muqti** collected revenue, **Khams** (1/5th of revenue) given to Sultan, **Jizya** (tax on non-Muslims), **Kharaj** (land tax).
+   - **Military Organization**: Sultans maintained large standing armies with **Turkish**, **Persian**, **Indian** soldiers, cavalry, infantry, **slave-soldiers** or **Bande**.
+   - **Economy and Trade**: Delhi Sultanate established trade relations with **Central Asia**, **Mongols**, **China**, **Middle East**, India's **textile**, **agriculture**, **crafts** flourished.
+   - **Architectural Developments**: Qutub Minar, Quwwat-ul-Islam Mosque, Alai Darwaza, Sultan Ghari, Tughlaqabad Fort.
+   - **Social and Cultural Developments**: Emergence of **Sufi** and **Bhakti movements**, **Persian**, **Arabic**, **Turkish** influence on Indian languages, **art**, **literature**, **music**.

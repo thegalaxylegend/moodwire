@@ -9,6 +9,26 @@ practice_link: "/class-11/physics/gravitation-class-11-revision-notes-jee-neet"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-gravitation-revision-notes"></a>What is Gravitation Revision Notes?](#a-idwhat-is-gravitation-revision-notesawhat-is-gravitation-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-newtons-law-of-universal-gravitation"></a>1. Newton's Law of Universal Gravitation](#a-id1-newtons-law-of-universal-gravitationa1-newtons-law-of-universal-gravitation)
+5. [<a id="2-derivation-mastersheet-variations-n-g"></a>2. Derivation Master-Sheet: Variations n 'g'](#a-id2-derivation-mastersheet-variations-n-ga2-derivation-master-sheet-variations-n-g)
+6. [<a id="3-gravitational-potential-energy-u"></a>3. Gravitational Potential Energy (U)](#a-id3-gravitational-potential-energy-ua3-gravitational-potential-energy-u)
+7. [<a id="4-escape-velocity-v_e"></a>4. Escape Velocity (v_e)](#a-id4-escape-velocity-v_ea4-escape-velocity-v_e)
+8. [<a id="5-keplers-laws-of-planetary-motion"></a>5. Kepler’s Laws of Planetary Motion](#a-id5-keplers-laws-of-planetary-motiona5-keplers-laws-of-planetary-motion)
+9. [<a id="comprehensive-exam-strategy-Qaeda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qaedaacomprehensive-exam-strategy-qa)
+10. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+11. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+12. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+13. [📚 Related Topics](#related-topics)
+14. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+15. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Gravitation Revision Notes?](#what-is-gravitation-revision-notes)
@@ -48,7 +68,7 @@ Gravitation is the universal force of attraction that binds the universe togethe
 
 ## <a id="1-newtons-law-of-universal-gravitation"></a>1. Newton's Law of Universal Gravitation
 
-Every particle and the universe attracts every other particle with a force that is:
+Every particle and the universe attract every other particle with a force that is:
 1.  Directly proportional to the product of their masses (**m1 m2**).
 2.  Inversely proportional to the square of the distance between them (**r²**).
 
@@ -164,6 +184,8 @@ Continue your [revision](/blog/mechanical-properties-of-solids-class-11-revision
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/gravitation-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Gravitation%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

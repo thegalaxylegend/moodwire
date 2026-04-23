@@ -83,7 +83,7 @@ This formula states that the reactivity of an element is inversely proportional 
 
 ## <a id="trap-questions-exceptions"></a>Trap Questions / Exceptions
 
-Here are a few trap questions and exceptions that students often encounter when studying the s-block elements:
+Here are a few trap questions and exceptions that students often encounter when studying the s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements:
 
 * Wrong answer: The alkali metals are less reactive than the alkaline earth metals.
 Right answer: The alkali metals are more reactive than the alkaline earth metals.

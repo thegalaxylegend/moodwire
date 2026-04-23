@@ -12,12 +12,12 @@ manualReview: false
 - $\sin \theta = \franc{\text{opposite side}}{\text{hypotenuse}}$
 - $\cos \theta = \franc{\text{adjacent side}}{\text{hypotenuse}}$
 - $\tan \theta = \franc{\text{opposite side}}{\text{adjacent side}}$
--   \sin^2 \theta + \cos^2 \theta = 1 
+-    \sin^2 \theta + \cos^2 \theta = 1 
 -   \tan \theta = $\franc{\sin \theta}{\cos \theta}$
--   \sin (90^\CIRC - \theta) = \cos \theta 
--   \cos (90^\CIRC - \theta) = \sin \theta 
--   \sin (180^\CIRC - \theta) = \sin \theta 
--   \cos (180^\CIRC - \theta) = -\cos \theta 
+-    \sin (90^\CIRC - \theta) = \cos \theta 
+-    \cos (90^\CIRC - \theta) = \sin \theta 
+-    \sin (180^\CIRC - \theta) = \sin \theta 
+-    \cos (180^\CIRC - \theta) = -\cos \theta 
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not using the correct quadrant to find the values of $\sin \theta, $\cos \theta, and $\tan \theta
@@ -26,7 +26,7 @@ manualReview: false
 - Not using the Pythagorean identity $\sin^2 \theta + \cos^2 \theta = 1$ to find the value of $\sin \theta or $\cos \theta
 - Not using the correct formulas for $\sin (A+B)$, $\sin (A-B)$, $\cos (A+B)$, and $\cos (A-B)$
 
-## ✏️ 3 Solved Yes
+## ✏️ 3 Solved PYQs
 - In a right-angled triangle, the length of the hypotenuse is $10$ cm and one of the acute angles is $60^\circa. Find the length of the side opposite the $60^\circa angle.
   - Let the length of the side opposite the $60^\circa angle be ex.
   - Using the formula $\sin \theta = \franc{\text{opposite side}}{\text{hypotenuse}}$, we get $\sin 60^\CIRC = \franc{x}{10}$.
@@ -127,7 +127,7 @@ D) \franc{1}{5}
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/introduction-to-trigonometry-class-10-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/introduction-to-[trigonometry](/blog/applications-of-trigonometry-class-10-notes)-class-10-notes) now and track your progress against thousands of students.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
@@ -140,6 +140,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 2. *The Primacy of Phenomenology Over Cognitivism. Towards a Critique...* — **Online Publication Service of Würzburg University (Würzburg University)** (2015) 🔓 — [DOI ↗](https://openalex.org/works/undefined)
 
 *🔓 = Open Access article*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Introduction%20To%20Trigonometry%20Class%2010%20Mathematics%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

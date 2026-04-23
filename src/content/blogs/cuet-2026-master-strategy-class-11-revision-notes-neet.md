@@ -9,6 +9,24 @@ practice_link: "/class-11/biology/cuet-2026-master-strategy-class-11-revision-no
 
 *Last Updated: [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-cuet-2026-master-strategy"></a>What is Cut 2026 Master Strategy?](#a-idwhat-is-cuet-2026-master-strategyawhat-is-cut-2026-master-strategy)
+3. [<a id="understanding-the-cut-exam-structure"></a>Understanding the CUT Exam Structure](#a-idunderstanding-the-cut-exam-structureaunderstanding-the-cut-exam-structure)
+4. [<a id="the-niche-domain-strategy-beating-the-competition"></a>The 'Niche Domain' Strategy: Beating the Competition](#a-idthe-niche-domain-strategy-beating-the-competitionathe-niche-domain-strategy-beating-the-competition)
+5. [<a id="why-starting-n-class-11-is-nonnegotiable"></a>Why Starting and Class 11 is Non-Negotiable](#a-idwhy-starting-n-class-11-is-nonnegotiableawhy-starting-and-class-11-is-non-negotiable)
+6. [<a id="mastering-section-iii-the-general-test-roadmap"></a>Mastering Section III: The General Test Roadmap](#a-idmastering-section-iii-the-general-test-roadmapamastering-section-iii-the-general-test-roadmap)
+7. [<a id="monthwise-timeline-for-cuet-2026-success"></a>Month-Wise Timeline for CUT 2026 Success](#a-idmonthwise-timeline-for-cuet-2026-successamonth-wise-timeline-for-cut-2026-success)
+8. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+9. [<a id="frequently-asked-questions-FAQs"></a>Frequently Asked Questions (FAQs)](#a-idfrequently-asked-questions-faqsafrequently-asked-questions-faqs)
+10. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+11. [📚 Related Topics](#related-topics)
+12. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+13. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Cut 2026 Master Strategy?](#what-is-cuet-2026-master-strategy)
@@ -30,7 +48,7 @@ practice_link: "/class-11/biology/cuet-2026-master-strategy-class-11-revision-no
 
 The year 2026 marks a paradigm shift and the Indian higher education landscape. Gone are the days when a 98% n your Board exams was the golden ticket to prestigious institutions like Delhi University (DU), BHU, or NU. Today, the **Common University Entrance Test (CUT)** stands as the sole gateway to India's premier central universities. This transition has redefined how students approach their [high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) school years, demanding a broader focus beyond traditional rote learning. I’m Ayush, n at Exam Compass, we’ve analyzed the data from previous cycles to build a roadmap that ensures you don't just participate but dominate the competition.
 
-Most students make the critical mistake of waiting until their Board exams conclude and March to begin their CUT preparation. With nearly 20 lakh applicants vying for a limited number of seats, this delay can be fatal to your aspirations. To succeed and CUT 2026, you need a strategy that integrates your Board prep with entrance requirements, starting as early as class 11. This guide will walk you through the nuances of the exam structure, the "Niche Domain" strategy, n the essential timelines you must follow to guarantee your success.
+Most students make the critical mistake of waiting until their Board exams conclude and March to begin their CUT preparation. With nearly 20 lakh applicants vying for a limited number of seats, this delay can be fatal to your aspirations. To succeed and CUT [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet), you need a strategy that integrates your Board prep with entrance requirements, starting as early as class 11. This guide will walk you through the nuances of the exam structure, the "Niche Domain" strategy, n the essential timelines you must follow to guarantee your success.
 
 > **Key Takeaways**
 > - **Early Start**: Building foundations n class 11 is crucial for both Domains and the General Test.
@@ -48,7 +66,7 @@ Section II consists of the Domain Subjects, where you can select up to six subje
 
 The biggest mistake students make is following the herd and picking only the most popular domain subjects. Subjects like Physics, Economics, n History are highly saturated, leading to incredibly [high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) cut-offs. To gain an edge, consider the "Niche Domain" strategy. By selecting at least one niche subject—such as Legal Studies, Psychology, or Fine Arts—you can often secure admission to top-tier colleges with a lower overall percentile compared to more traditional subjects.
 
-Niche domains often have less competition, but they still require a solid understanding of the **CBSE study material**. If your school offers these subjects, or if you can manage them through self-study, they provide an excellent safety net and a unique academic profile that stands out during the admission process. According to data from the [National Testing Agency (NTA)](https://www.nta.ac.n), these subjects often show a more favorable distribution of top scores, making them a strategic choice for high-ranking aspirants.
+Niche domains often have less competition, but they still require a solid understanding of the **CBSE study material**. If your school offers these subjects, or if you can manage them through self-study, they provide an excellent safety net and a unique academic profile that stands out during the admission process. According to data from the [National Testing Agency (NTA)](https://www.nta.ac.n), these subjects often show a more favorable distribution of top scores, making them a strategic choice for [high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)-ranking aspirants.
 
 ## <a id="why-starting-n-class-11-is-nonnegotiable"></a>Why Starting and Class 11 is Non-Negotiable
 
@@ -83,7 +101,7 @@ CERT is the absolute authority for the Domain subjects (Section II). However, fo
 Most major universities, including Delhi University, require you to appear only and the subjects you have studied n class 12. If you attempt a subject and CUT that was not part of your class 12 Board exams, you might be disqualified from admission to those universities. Always check the specific eligibility criteria of your target institutions before finalizing your subjects.
 
 ### <a id="3-how-many-subjects-should-i-ideally-pick-for-cuet"></a>3. How many subjects should I ideally pick for CUT?
-To maximize your eligibility across various courses and universities, we recommend choosing one Language, three or four Domain subjects, n the General Test. This combination (total 5–6 subjects) ensures you meet the criteria for a wide range of degrees, from specialized honors courses to multi-disciplinary vocational programs.
+To maximize your eligibility across various courses and universities, we recommend choosing one Language, three or four Domain subjects, n the General Test. This combination (total 5–6 subjects) ensures you meet the criteria for a wide range of degrees, from specialized honors courses to multidisciplinary vocational programs.
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
@@ -103,6 +121,8 @@ Continue your [revision](/blog/class-10-30-day-timetable-class-10-revision-notes
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/cuet-2026-master-strategy-class-11-revision-notes-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Cuet%202026%20Master%20Strategy%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

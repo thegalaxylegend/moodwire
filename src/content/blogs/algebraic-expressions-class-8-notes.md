@@ -31,7 +31,7 @@ manualReview: false
 - Not using the correct identity for addition or multiplication.
 - Not following the order of operations (PEMDAS/BODMAS) while solving the problems.
 
-## ✏️ 3 Solved Yes
+## ✏️ 3 Solved PYQs
 - **Question 1:** Simplify the expression $2x + 3x$.
   - Step 1: Identify the like terms, which are $2x$ and $3x$.
   - Step 2: Combine the like terms using addition, which gives $2x + 3x = 5x$.
@@ -104,7 +104,7 @@ D) ex
 
 **Answer: A) $3x$.**
 
-**4. What are like terms in an algebraic expression?**
+**4. What is like terms in an algebraic expression?**
 -
 A) Terms with different variables
 -
@@ -145,6 +145,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Algebraic%20Expressions%208%20Class%208%20Mathematics%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

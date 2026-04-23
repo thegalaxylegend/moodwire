@@ -85,7 +85,7 @@ D) 7
 
 **Answer: B) 5. The square root of 25 is 5, since $5 \times 5 = 25$.
 
-**2. Which of the following is a rational number?**
+**2. Which of the following is a [rational](/blog/rational-numbers-class-8-notes) number?**
 -
 A) $\sqrt{2}$
 -

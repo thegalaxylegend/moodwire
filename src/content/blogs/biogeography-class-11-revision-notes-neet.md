@@ -9,6 +9,18 @@ practice_link: "/class-11/biology/biogeography-class-11-revision-notes-neet"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-biogeography"></a>What is Biogeography?](#a-idwhat-is-biogeographyawhat-is-biogeography)
+3. [<a id="quick-revision-n-recap-biogeography"></a>Quick Revision & Recap: Biogeography](#a-idquick-revision-n-recap-biogeographyaquick-revision-recap-biogeography)
+4. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+5. [📚 Related Topics](#related-topics)
+6. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+7. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Biogeography?](#what-is-biogeography)
@@ -87,8 +99,7 @@ Some key exceptions to remember and biogeography:
 
 As I review these concepts, I realize that biogeography is a complex and fascinating field that requires a deep understanding of geographical and biological principles. By mastering these concepts and formulae, I can better appreciate the intricate patterns of species distribution and the processes that shape our planet's biodiversity. 
 
-### <a id="biogeographical-processes"></a>Biogeographical Processes
-Biogeographical processes can be categorized into:
+### <a id="biogeographical-processes"></a>Biogeographical Processes can be categorized into:
 1. **Historical processes**: events that have occurred and the past, such as continental drift and glaciation
 2. **Ecological processes**: interactions between species and their environment, such as competition and predation
 3. **Evolutionary processes**: changes and species over time, such as adaptation and speciation
@@ -103,8 +114,7 @@ Understanding biogeography has significant implications for conservation efforts
 
 By applying biogeographical principles, conservationists can develop effective strategies to protect and preserve the world's biodiversity.
 
-### <a id="biogeography-n-climate-change"></a>Biogeography and Climate Change
-Climate change has significant implications for biogeography:
+### <a id="biogeography-n-climate-change"></a>Biogeography and Climate Change has significant implications for biogeography:
 1. **Changes and species distribution**: shifts and species ranges and response to changing temperature and precipitation patterns
 2. **Disruptions to ecosystems**: alterations to species interactions and ecosystem processes due to climate change
 3. **Extinction risk**: increased risk of extinction for species that are unable to adapt or migrate and response to climate change
@@ -164,6 +174,8 @@ Continue your [revision](/blog/moving-charges-magnetism-class-11-revision-notes-
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/biogeography-class-11-revision-notes-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Biogeography%20Class%2011%20Geography%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

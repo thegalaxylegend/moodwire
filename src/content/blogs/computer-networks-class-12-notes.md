@@ -9,7 +9,7 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- $TCP/IPA model has $4$ layers: \text{Application}, \text{Transport}, \text{Internet}, \text{Network Access}
+- $TCP/IPA model has $4$ layers: $\text{Application}$, $\text{Transport}$, $\text{Internet}$, $\text{Network Access}$
 - OSI model has $7$ layers: $\text{Physical}$, $\text{Data Link}$, $\text{Network}$, $\text{Transport}$, $\text{Session}$, $\text{Presentation}$, $\text{Application}$
 - $\text{IP Address}$ is a $32$-bit address in $IPv4$ and $128$-bit address in $IPv6$
 - $\text{Subnet Mask}$ is used to determine the scope of the $\text{IP Address}$
@@ -34,7 +34,7 @@ manualReview: false
 - Not understanding the concept of $\text{NAT}$ and DHCP
 - Not being able to explain the difference between $\text{Router}$, $\text{Switch}$, and $\text{Hub}$
 
-## ✏️ 3 Solved Yes
+## ✏️ 3 Solved PYQs
 - **Question 1:** What is the main function of the $\text{Transport Layer}$?
 - The $\text{Transport Layer}$ is responsible for providing reliable data transfer between devices
 - It ensures that [data](/blog/data-handling-class-8-notes) is delivered in the correct order and that there is no duplication or loss of [data](/blog/data-handling-class-8-notes)
@@ -147,6 +147,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Computer%20Networks%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

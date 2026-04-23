@@ -10,7 +10,7 @@ manualReview: false
 
 ## ⚡ Formula Bank
 - Coordination number: number of ligands attached to the central metal atom
-- Oxidation number of central metal atom: ex + \sum{y} = 0$, where ex is the oxidation number of the central metal atom and by is the oxidation number of each ligand
+- Oxidation number of central metal atom: ex + \sum{y} = $0, where ex is the oxidation number of the central metal atom and by is the oxidation number of each ligand
 - Charge on the complex ion: $\sum{y} + x = \text{charge on the complex ion}$
 - IUPAC nomenclature: [metal ion][ligand]$^{charge}$
 - Valence bond theory: $\sigma$ bonds formed by overlap of atomic orbitals, $\pi$ bonds formed by sideways overlap of atomic orbitals
@@ -33,7 +33,7 @@ manualReview: false
 - Not being able to calculate the magnetic moment
 - Not being able to apply Valence Bond Theory and Crystal Field Theory
 
-## ✏️ 3 Solved Yes
+## ✏️ 3 Solved PYQs
 - **Question 1:** What is the IUPAC name of the complex $\left[ Co(NH_{3})_{4}Cl_{2} \right]CLR?
 - Step 1: Identify the central metal atom and its oxidation number
 - Step 2: Identify the ligands and their charges
@@ -57,10 +57,10 @@ manualReview: false
 ## 🧠 The One Thing Most Students Get Wrong
 - The one thing most students get wrong is the calculation of the oxidation number of the central metal atom
 - Many students forget to consider the charge on the complex ion and the charges on the ligands
-- To avoid this mistake, it is essential to apply the formula ex + \sum{y} = 0$ carefully and consider all the charges involved
+- To avoid this mistake, it is essential to apply the formula ex + \sum{y} = $0 carefully and consider all the charges involved
 
 ## 👁️ Ayush's Note
-- To score well in the exam, it is essential to practice a large number of problems related to coordination compounds
+- To score well in the exam, it is essential to practice many problems related to coordination compounds
 - Focus on understanding the concepts and applying them to solve problems
 - Use the formula bank and the solved Yes to practice and reinforce your understanding
 - Make sure to allocate sufficient time to each question in the exam
@@ -106,7 +106,7 @@ C) Ionization isomerism
 -
 D) Hydration isomerism
 
-**Answer: A) Geometrical isomerism, because the complex has a square planar geometry and the ligands can be arranged in a Acis or trans manner.**
+**Answer: A) Geometrical isomerism, because the complex has a square planar geometry and the ligands can be arranged in an Acis or trans manner.**
 
 **4. What is the magnetic moment of the complex $\left[ Ni(H_{2}O)_{6} \right]^{2+}$?**
 -
@@ -139,6 +139,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Coordination%20Compounds%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

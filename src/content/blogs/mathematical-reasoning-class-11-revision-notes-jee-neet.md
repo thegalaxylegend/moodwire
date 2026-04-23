@@ -9,6 +9,23 @@ practice_link: "/class-11/physics/mathematical-reasoning-class-11-revision-notes
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-mathematical-reasoning-revision-notes"></a>What is Mathematical Reasoning Revision Notes?](#a-idwhat-is-mathematical-reasoning-revision-notesawhat-is-mathematical-reasoning-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-mathematical-statements"></a>1. Mathematical Statements](#a-id1-mathematical-statementsa1-mathematical-statements)
+5. [<a id="2-logical-connectives"></a>2. Logical Connectives](#a-id2-logical-connectivesa2-logical-connectives)
+6. [<a id="3-implications-n-conditional-statements"></a>3. Implications and Conditional Statements](#a-id3-implications-n-conditional-statementsa3-implications-and-conditional-statements)
+7. [<a id="4-validating-mathematical-statements"></a>4. Validating Mathematical Statements](#a-id4-validating-mathematical-statementsa4-validating-mathematical-statements)
+8. [<a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qandaacomprehensive-exam-strategy-qa)
+9. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+10. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+11. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+12. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Mathematical Reasoning Revision Notes?](#what-is-mathematical-reasoning-revision-notes)
@@ -30,7 +47,7 @@ practice_link: "/class-11/physics/mathematical-reasoning-class-11-revision-notes
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
-> - **Statement:** A sentence that is either true or false, but not both.
+> - **statement:** A sentence that is either true or false, but not both.
 > - **Negation (~p):** The opposite of a statement.
 > - **Connectives:** 'And' (conjunction), 'Or' (disjunction).
 > - **Implication (p ⇒ q):** "If p, then q."
@@ -43,7 +60,7 @@ practice_link: "/class-11/physics/mathematical-reasoning-class-11-revision-notes
 
 ## <a id="introduction"></a>Introduction
 
-**Mathematical Reasoning provides the formal logic required to verify mathematical truths and construct rigorous proofs. Master inductive and deductive reasoning, logical connectives like 'n'/'or', n contrapositive statements to sharpen your analytical thinking for competitive exams. This class 11 Math Chapter 14 summary ensures you understand the fundamental language of mathematical certainty for JEE and Boards.**
+**[Mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) Reasoning provides the formal logic required to verify [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) truths and construct rigorous proofs. Master inductive and deductive reasoning, logical connectives like 'n'/'or', n contrapositive statements to sharpen your analytical thinking for competitive exams. This class 11 Math Chapter 14 summary ensures you understand the fundamental language of [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) certainty for JEE and Boards.**
 Mathematics is built on a foundation of absolute truth and rigorous logic.
 
 ---
@@ -80,7 +97,7 @@ For an implication $p \\\\Rightarrow q$:
 - **Contrapositive:** $\sim q \\\\Rightarrow \sim p$. (IMPORTANT: This is logically identical to the original statement!)
 - **Inverse:** $\sim p \\\\Rightarrow \sim q$.
 
-*Example:* If "If it rains, then the ground is wet":
+*Example:* If "Is it rains, then the ground is wet":
 - **Contrapositive:** "If the ground is not wet, then it did not rain" (This is always true if the original is true).
 
 ---
@@ -142,6 +159,8 @@ Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/mathematical-reasoning-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Mathematical%20Reasoning%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20JEE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -152,3 +171,11 @@ Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Units And Measurements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/units-n-measurements-class-11-revision-notes-jee-neet)
 - 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* A common mistake in mathematical reasoning is to assume that 'if p, then q' is equivalent to 'if q, then p', which is not true. For example, 'if it is raining, then the sky is cloudy' does not imply 'if the sky is cloudy, then it is raining'.
+* Many students incorrectly assume that the negation of 'p and q' is 'not p and not q', whereas the correct negation is 'not p or not q' (De Morgan's Law).
+* When using a proof by contradiction, a common mistake is to not clearly state the assumption being made or to not properly derive a contradiction from that assumption.
+* In conditional statements, students often confuse 'if p, then q' with 'p only if q', which are not equivalent statements. 'p only if q' is actually equivalent to 'if p, then q' and 'if not q, then not p'.
+* A trap question in mathematical reasoning involves using quantifiers, such as 'for all' and 'there exists', and asking students to determine the validity or truth of a given statement. For example, 'for all x, if x is a real number, then x^2 ≥ 0' is a true statement, but 'there exists a real number x such that x^2 < 0' is false.

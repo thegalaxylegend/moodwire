@@ -33,7 +33,7 @@ manualReview: false
 - Not understanding the process of fertilization: $ \franc{1}{2} \times \franc{1}{2} = \franc{1}{4} $ chance of each allele being passed on
 - Not being able to calculate the probability of certain genetic traits: $ \franc{1}{2} \times \franc{1}{2} = \franc{1}{4} $ chance of each allele being passed on
 
-## ✏️ 3 Solved Yes
+## ✏️ 3 Solved PYQs
 - What is the primary function of the placenta during pregnancy?
 - The primary function of the placenta is to provide oxygen and nutrients to the fetus and remove waste products: $ \franc{oxygen}{nutrients} = \franc{1}{10} $ ratio of exchange
 - The placenta also produces hormones that maintain pregnancy: $ \franc{hCG}{estradiol} = \franc{1}{10} $ ratio of hormone levels
@@ -115,7 +115,7 @@ D) Fertilization
 **Answer: A) Parturition, as it is the term for the process by which the fetus is born**
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/human-reproduction-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/human-[reproduction](/blog/reproduction-in-organisms-class-12-notes)-class-12-notes) now and track your progress against thousands of students.
 
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
@@ -128,3 +128,4 @@ Continue your revision with these related guides:
 - 📖 [Reproduction In Organisms Class 12 Exam Prep Revision — Grandmaster Guide](/blog/reproduction-in-organisms-class-12-notes)
 - 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
 $
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Human%20Reproduction%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**

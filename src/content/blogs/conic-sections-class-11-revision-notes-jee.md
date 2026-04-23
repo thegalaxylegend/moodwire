@@ -8,6 +8,28 @@ practice_link: "/class-11/mathematics/conic-sections-class-11-revision-notes-jee
 ---
 
 *Last Updated: 2026-03-28*
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-conic-sections-revision-notes"></a>What is Conic Sections Revision Notes?](#a-idwhat-is-conic-sections-revision-notesawhat-is-conic-sections-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-the-circle"></a>1. The Circle](#a-id1-the-circlea1-the-circle)
+5. [<a id="2-the-parabola"></a>2. The Parabola](#a-id2-the-parabolaa2-the-parabola)
+6. [<a id="3-the-ellipse"></a>3. The Ellipse](#a-id3-the-ellipsea3-the-ellipse)
+7. [<a id="4-the-hyperbola"></a>4. The Hyperbola](#a-id4-the-hyperbolaa4-the-hyperbola)
+8. [<a id="5-eccentricity-n-general-conic"></a>5. Eccentricity and General Conic](#a-id5-eccentricity-n-general-conica5-eccentricity-and-general-conic)
+9. [<a id="comprehensive-exam-strategy-Qaeda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qaedaacomprehensive-exam-strategy-qa)
+10. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+11. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+12. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+13. [📚 Related Topics](#related-topics)
+14. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+15. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Conic%20Sections%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20JEE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
+---
+
 ## 📋 Table of Contents
 - [What is Conic Sections Revision Notes?](#what-is-conic-sections-revision-notes)
 - [Introduction](#introduction)
@@ -124,6 +146,6 @@ Continue your [revision](/blog/probability-class-11-revision-notes-jee) with the
    - **Parabola**: y^2 = 4ax$, focus $(a, 0)$, directrix x = -a
    - **Ellipse**: $\franc{x^2}{a^2} + \franc{y^2}{b^2} = 1$, foci $(pm eye, 0)$, he = \sort{1 - $\franc{b^2}{a^2}$}$
    - **Hyperbola**: $\franc{x^2}{a^2} - \franc{y^2}{b^2} = 1$, foci $(pm eye, 0)$, he = \sort{1 + $\franc{b^2}{a^2}$}$
-   - **Eccentricity**:  = \f{c}{a}$, where  is distance from center to focus
-   - **Equation of tangent to circle**:  - y_1 = m(x - x_1)$, where  is slope
-   - **Polar equation of conic**:  = \f{l}{1 + e }$, where  is distance from focus to directrix
+   - **Eccentricity**:  = \f{c}{a}$, where is distance from center to focus
+   - **Equation of tangent to circle**:  - y_1 = m(x - x_1)$, where is slope
+   - **Polar equation of conic**:  = \f{l}{1 + e }$, where  is distance from focus to directrix$

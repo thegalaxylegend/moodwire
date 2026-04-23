@@ -11,7 +11,7 @@ manualReview: false
 ## ⚡ Formula Bank
 - Biotechnology is the use of biological systems, living organisms, or [derivatives](/blog/application-of-derivatives-class-12-notes) thereof, to develop new products, technologies, and processes.
 - Or = \franc{\delta N}{\delta t}$, where are is the growth rate, $\delta NO is the change in population size, and $\delta to is the change in time.
-- The formula for exponential growth is IN(t) = N_0 \times e^{rt}$, where IN(t)$ is the population size at time to, IN_0$ is the initial population size, are is the growth rate, and to is time.
+- The formula for exponential growth is IN(t) = N_0 \times e^{rt}$, where IN(t)$ is the population size at time to, IN_$0 is the initial population size, are is the growth rate, and to is time.
 - The formula for the carrying capacity is OK = \franc{r}{\alpha}$, where OK is the carrying capacity, are is the growth rate, and $\alpha$ is the competition coefficient.
 - DNA fingerprinting involves the use of southern \: blotting and PCR to analyze DNA samples.
 - The process of PCR involves three main steps: denaturation, annealing, and extension.
@@ -44,7 +44,7 @@ manualReview: false
 - Not being familiar with the lac \: operon and its regulatory mechanism.
 - Not understanding the concept of stem \: cells and their potential applications.
 
-## ✏️ 3 Solved Yes
+## ✏️ 3 Solved PYQs
 - **Question 1:** What is the principle behind $DNA \: fingerprinting?
   - Answer: $DNA \: fingerprinting involves the use of southern \: blotting and PCR to analyze DNA samples.
 - **Question 2:** What is the role of restriction \: endonucleases in rDNA \: technology?
@@ -121,3 +121,5 @@ Continue your revision with these related guides:
 - 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
 - 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
 - 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Biotechnology%20And%20Its%20Applications%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**

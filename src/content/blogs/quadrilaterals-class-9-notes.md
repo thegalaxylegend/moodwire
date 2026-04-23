@@ -52,7 +52,7 @@ manualReview: false
 ## 🔁 Last 5 Minutes Box
 - Check if a quadrilateral is a parallelogram by verifying opposite sides are equal
 - Check if a quadrilateral is a rectangle by verifying opposite sides are equal and all [angles](/blog/lines-and-angles-class-9-notes) are right [angles](/blog/lines-and-angles-class-9-notes)
-- Check if a quadrilateral is a square by verifying all sides are equal and all angles are right angles
+- Check if a quadrilateral is a square by verifying all sides are equal and all [angles](/blog/lines-and-angles-class-9-notes) are right [angles](/blog/lines-and-angles-class-9-notes)
 - Use the formula $\frac{1}{2} \times d_1 \times d_2$ for the area of a kite or rhombus
 - Use the formula $A = b \times h$ for the area of a parallelogram
 

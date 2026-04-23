@@ -158,7 +158,7 @@ D) To produce $\text{gonadotropins}$
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/reproduction-in-organisms-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/reproduction-in-[organisms](/blog/organisms-and-populations-class-12-notes)-class-12-notes) now and track your progress against thousands of students.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

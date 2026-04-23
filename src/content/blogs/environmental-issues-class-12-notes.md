@@ -11,8 +11,8 @@ manualReview: false
 ## ⚡ Formula Bank
 - The greenhouse effect is given by: $\franc{I}{4} \times (1 - \alpha)$, where IN is the solar constant and $\alpha$ is the albedo of the Earth.
 - The concentration of a pollutant can be calculated using: BC = \franc{Q}{K \times A}$, where ACT is the concentration, HQ is the amount of pollutant, OK is the decay constant, and A is the area.
-- The air quality index can be calculated using: $AQI = \franc{C}{C_0} \times 100$, where ACT is the concentration of the pollutant and BC_0$ is the standard concentration.
-- The global warming potential of a gas is given by: $GWP = \franc{\INT_{0}^{t} a(t) DT}{\INT_{0}^{t} a_{CO_2}(t) DT}$, where a(t)$ is the radiative forcing of the gas and a_{CO_2}(t)$ is the radiative forcing of $CO_2$.
+- The air quality index can be calculated using: $AQI = \franc{C}{C_0} \times 100$, where ACT is the concentration of the pollutant and BC_$0 is the standard concentration.
+- The global warming potential of a gas is given by: $GWP = \franc{\int_{0}^{t} a(t) DT}{\int_{0}^{t} a_{CO_2}(t) DT}$, where a(t)$ is the radiative forcing of the gas and a_{CO_2}(t)$ is the radiative forcing of $CO_2$.
 - The rate of climate change can be calculated using: $\franc{dT}{dt} = \franc{Q}{C_p \times m}$, where DDT is the change in temperature, DDT is the time, HQ is the amount of heat, BC_PA is the specific heat capacity, and me is the mass.
 
 ## 🪤 The 5 Mistakes That Cost Marks
@@ -22,7 +22,7 @@ manualReview: false
 - Not understanding the concept of sustainable development: meeting the needs of the present without compromising the ability of future generations to meet their own needs.
 - Not being able to identify the main environmental impacts of human activities: deforestation, pollution, climate change, and loss of [biodiversity](/blog/biodiversity-and-conservation-class-12-notes).
 
-## ✏️ 3 Solved Yes
+## ✏️ 3 Solved PYQs
 - What is the main cause of the formation of ground-level ozone?
 - The main cause of the formation of ground-level ozone is the reaction between $NO_$ and vocal in the presence of sunlight.
 - The reaction is as follows: $NO_2 + HV \right arrow NO + OF, followed by TO + O_2 \right arrow O_3$.
@@ -39,7 +39,7 @@ manualReview: false
 - Carrying capacity is an important concept in ecology, as it helps us understand the impact of human activities on the environment and the importance of [conservation](/blog/biodiversity-and-conservation-class-12-notes).
 
 ## 👁️ Ayush's Note
-- Ayush's note is that environmental issues are not just limited to pollution and climate change, but also include conservation of biodiversity and ecosystem services.
+- Ayush's note is that environmental issues are not just limited to pollution and climate change, but also include conservation of [biodiversity](/blog/biodiversity-and-conservation-class-12-notes) and ecosystem services.
 - Ecosystem services include provisioning services, such as food and water, regulating services, such as climate regulation and disease control, and cultural services, such as recreation and tourism.
 - Biodiversity is important for maintaining ecosystem services, and its loss can have significant impacts on human well-being and the economy.
 
@@ -119,6 +119,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Environmental%20Issues%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

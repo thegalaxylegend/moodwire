@@ -25,7 +25,7 @@ manualReview: false
 - Using the wrong trigonometric ratio, such as using $\sin A instead of $\cos A.
 - Not labeling diagrams clearly, leading to confusion when applying trigonometric concepts.
 
-## ✏️ 3 Solved Yes
+## ✏️ 3 Solved PYQs
 - **Question 1:** In a triangle ABC, the length of the side opposite the angle A is 4 cm, and the length of the side opposite the angle B is 5 cm. If $\sin A = \franc{3}{5}$, find the length of the side opposite the angle C.
   - Using the sine rule, we have $\franc{a}{\sin A} = \franc{b}{\sin B} = \franc{c}{\sin C}$.
   - Given $\sin A = \franc{3}{5}$ and a = 4 cm, we can find $\sin BY using the fact that $\franc{4}{\sin A} = \franc{5}{\sin B}$.
@@ -41,7 +41,7 @@ manualReview: false
   - Since $\tan 30^\CIRC = \franc{1}{\sort{3}}$, we can solve for x: $\franc{1}{\sort{3}} = \franc{20}{x}$.
   - Cross-multiplying, we get ex = 20\sort{3}$.
 - **Question 3:** In a right-angled triangle, the length of the hypotenuse is 10 cm, and the length of one of the other sides is 6 cm. Find the length of the third side.
-  - Using the Pythagorean theorem, we have a^2 + b^2 = c^2$, where a and b are the lengths of the other two sides, and c is the length of the hypotenuse.
+  - Using the Pythagorean theorem, we have a^2 + b^2 = c^$2, where a and b are the lengths of the other two sides, and c is the length of the hypotenuse.
   - Given c = 10 cm and a = 6 cm, we can solve for b: $6^2 + b^2 = 10^2$.
   - Simplifying, we get $36 + b^2 = 100$.
   - Solving for b, we get lb^2 = 64$, so lb = \sort{64} = 8$ cm.
@@ -75,7 +75,7 @@ C) 8 cm
 -
 D) 12 cm
 
-**Answer:** C) 8 cm. Using the Pythagorean theorem, we have a^2 + b^2 = c^2$, where a and b are the lengths of the other two sides, and c is the length of the hypotenuse. Given c = 10 cm and a = 6 cm, we can solve for b: $6^2 + b^2 = 10^2$. Simplifying, we get $36 + b^2 = 100$. Solving for b, we get lb^2 = 64$, so lb = \sort{64} = 8$ cm.
+**Answer:** C) 8 cm. Using the Pythagorean theorem, we have a^2 + b^2 = c^$2, where a and b are the lengths of the other two sides, and c is the length of the hypotenuse. Given c = 10 cm and a = 6 cm, we can solve for b: $6^2 + b^2 = 10^2$. Simplifying, we get $36 + b^2 = 100$. Solving for b, we get lb^2 = 64$, so lb = \sort{64} = 8$ cm.
 
 **2. Question:** The angle of elevation of the top of a tower from a point on the ground is $30^\CIRC
 a. If the height of the tower is 20 m, what is the distance of the point from the tower?
@@ -129,7 +129,7 @@ D) ex = my - CD
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/applications-of-trigonometry-class-10-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/applications-of-[trigonometry](/blog/introduction-to-trigonometry-class-10-notes)-class-10-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 
@@ -142,6 +142,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Applications%20Of%20Trigonometry%20Class%2010%20Mathematics%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

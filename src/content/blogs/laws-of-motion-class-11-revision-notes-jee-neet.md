@@ -9,6 +9,27 @@ practice_link: "/class-11/physics/laws-of-motion-class-11-revision-notes-jee-nee
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-laws-of-motion-revision-notes"></a>What is Laws Of Motion Revision Notes?](#a-idwhat-is-laws-of-motion-revision-notesawhat-is-laws-of-motion-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-newtons-three-laws-the-principles-of-force"></a>1. Newton's Three Laws: The Principles of Force](#a-id1-newtons-three-laws-the-principles-of-forcea1-newtons-three-laws-the-principles-of-force)
+5. [<a id="2-proof-the-second-law-is-the-real-law"></a>2. Proof: The Second Law is the "Real Law"](#a-id2-proof-the-second-law-is-the-real-lawa2-proof-the-second-law-is-the-real-law)
+6. [<a id="3-impulse-n-momentum"></a>3. Impulse and Momentum](#a-id3-impulse-n-momentuma3-impulse-and-momentum)
+7. [<a id="4-equilibrium-of-forces-n-lamis-theorem"></a>4. Equilibrium of Forces & Lamp’s Theorem](#a-id4-equilibrium-of-forces-n-lamis-theorema4-equilibrium-of-forces-lamps-theorem)
+8. [<a id="5-the-physics-of-friction"></a>5. The Physics of Friction](#a-id5-the-physics-of-frictiona5-the-physics-of-friction)
+9. [<a id="6-circular-dynamics-banking-of-roads"></a>6. Circular Dynamics: Banking of Roads](#a-id6-circular-dynamics-banking-of-roadsa6-circular-dynamics-banking-of-roads)
+10. [<a id="comprehensive-exam-strategy-Qaeda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qaedaacomprehensive-exam-strategy-qa)
+11. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+12. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+13. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+14. [📚 Related Topics](#related-topics)
+15. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+16. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Laws Of Motion Revision Notes?](#what-is-laws-of-motion-revision-notes)
@@ -66,7 +87,7 @@ If Kinematics is the "What" of [motion](/blog/motion-n-a-plane-class-11-revision
 
 ### <a id="iii-third-law-action reaction"></a>III. Third Law (Action-Reaction)
 **Theorem:** For every action, there is an equal and opposite reaction.
-- **Key Note:** Action and reaction never act on the same body; therefore, they never cancel each other out.
+- **keynote:** Action and reaction never act on the same body; therefore, they never cancel each other out.
 
 ---
 
@@ -166,7 +187,9 @@ Continue your [revision](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/laws-of-motion-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/laws-of-[motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Laws%20Of%20Motion%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 
@@ -191,7 +214,7 @@ Continue your [revision](/blog/rotational-motion-class-11-revision-notes-jee-nee
 
 ### Laws of Motion
    * **First Law of Motion**: An object at rest remains at rest, and an object in motion remains in motion with a constant velocity, unless acted upon by an external force.
-   * **Second Law of Motion**: F = ma, where F is the net force applied to an object, m is its mass, and a is the acceleration produced.
+   * **Second Law of Motion**: F = ma, where F is the net force applied to an object, m is its mass, and an is the acceleration produced.
    * **Third Law of Motion**: For every action, there is an equal and opposite reaction.
    * **Friction**: Static Friction (FS ≤ MSN), [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) Friction (OK = AKN), where is and OK are coefficients of static and [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) friction, and N is the normal force.
    * **Newton's Law of [gravitation](/blog/gravitation-class-11-revision-notes-jee-neet)**: F = G(m1m2)/r^2, where F is the gravitational force between two objects, G is the gravitational constant, m1 and m2 are the masses of the objects, and r is the distance between their centers.

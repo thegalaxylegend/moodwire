@@ -9,6 +9,30 @@ practice_link: "/class-11/biology/jee-mains-chemistry-repeated-concepts-class-11
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-jee-mains-chemistry-repeated-concepts"></a>What is Jee Mains Chemistry Repeated Concepts?](#a-idwhat-is-jee-mains-chemistry-repeated-conceptsawhat-is-jee-mains-chemistry-repeated-concepts)
+3. [<a id="physical-chemistry-the-high-roi-formulae"></a>Physical Chemistry: The High ROI Formulae](#a-idphysical-chemistry-the-high-roi-formulaeaphysical-chemistry-the-high-roi-formulae)
+4. [<a id="inorganic-chemistry-the-ncert-monopoly"></a>Inorganic Chemistry: The NCERT Monopoly](#a-idinorganic-chemistry-the-ncert-monopolyainorganic-chemistry-the-ncert-monopoly)
+5. [<a id="organic-chemistry-reaction-mechanism-mastery"></a>Organic Chemistry: Reaction Mechanism Mastery](#a-idorganic-chemistry-reaction-mechanism-masteryaorganic-chemistry-reaction-mechanism-mastery)
+6. [<a id="how-to-use-this-list"></a>How to use this list](#a-idhow-to-use-this-listahow-to-use-this-list)
+7. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+8. [📚 Related Topics](#related-topics)
+9. [🪤 Common Mistakes That Cost Marks](#common-mistakes-that-cost-marks)
+10. [🔁 Last 5 Minutes Revision Box](#last-5-minutes-revision-box)
+11. [📝 Practice MCQs](#practice-mcqs)
+
+## ⚗️ Chemical Quick Reference (Verified via PubChem)
+
+| Compound | Formula | Mol. Weight | Source |
+|:---|:---:|:---:|:---:|
+| **benzene** | C6H6 | 78.11 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/241) |
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Mains%20Chemistry%20Repeated%20Concepts%20Class%2011%20Chemistry%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Jee Mains Chemistry Repeated Concepts?](#what-is-jee-mains-chemistry-repeated-concepts)
@@ -22,7 +46,7 @@ practice_link: "/class-11/biology/jee-mains-chemistry-repeated-concepts-class-11
 
 ## <a id="what-is-jee-mains-chemistry-repeated-concepts"></a>What is Jee Mains Chemistry Repeated Concepts?
 
-While Physics demands conceptual intuition and Mathematics requires intense practice, JEE [mains](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) Chemistry is entirely about pattern recognition.
+While physics demands conceptual intuition and Mathematics requires intense practice, JEE [mains](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) Chemistry is entirely about pattern recognition.
 
 After breaking down every single shift of the JEE [mains](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) exam from 2019 to 2025, we discovered a stunning reality: **The National Testing Agency (NTA) repeats the same 15 exact concepts and over 85% of their papers.** 
 
@@ -33,7 +57,7 @@ If you master these specific subtopics, scoring 80+ n [chemistry](/blog/environm
 1. **Moles and Limiting Reagent:** Often the very first question and Section A. The trick is identifying the limiting reagent quickly.
 2. **First Law of [thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) (Work Done Graphs):** A staple. Expect an expanding/compressing gas curve where you must calculate the area under the PV diagram.
 3. **Nernst Equation and Electrochemical Cells:** Focus on the relationship between standard cell potential, Gibbs free energy, n the equilibrium constant.
-4. **First-Order Chemical Kinetics:** The half-life equation for first-order reactions appears and almost every single shift.
+4. **First-Order [Chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) Kinetics:** The half-life equation for first-order reactions appears and almost every single shift.
 5. **Colligative Properties (Depression and Freezing Point):** Usually linked to finding the Van't Hoff factor (i) for a dissociating/associating solute.
 
 ## <a id="inorganic-chemistry-the-ncert-monopoly"></a>Inorganic Chemistry: The NCERT Monopoly
@@ -77,7 +101,7 @@ Continue your [revision](/blog/body-fluids-n-circulation-class-11-revision-notes
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/jee-mains-[chemistry](/blog/environmental-chemistry-class-11-revision-notes-neet)-repeated-concepts-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 ---
 
@@ -124,3 +148,24 @@ B) $10^5$
 C) $10^7$
 D) $10^9$
 Answer: A) $10^3$, using the formula $K_p = K_c(RT)^{Delta n}$.
+
+## 🔁 Last 5 Minutes Box
+
+* **Periodic Trends**: 
+       + Atomic Radius: Decreases across a period, Increases down a group
+       + Electron Gain Enthalpy: Generally becomes more negative across a period
+       + Electronegativity: Increases across a period, Decreases down a group
+     * **Chemical Bonding**: 
+       + Lewis Structures: Used to represent covalent bonds
+       + VSEPR Theory: Predicts shape of molecules based on electron pair repulsions
+       + Hybridization: sp, sp2, sp3 hybrid orbitals
+     * **Thermodynamics**: 
+       + Laws of Thermodynamics: Zeroth, First, Second, Third laws
+       + Thermodynamic Properties: Internal Energy (U), Enthalpy (H), Entropy (S), Gibbs Free Energy (G)
+     * **Kinetics**: 
+       + Rate Law: Expresses rate of reaction in terms of reactant concentrations
+       + Integrated Rate Laws: Zero-order, First-order, Second-order reactions
+       + Catalysts: Speed up reactions without being consumed
+     * **Equilibrium**: 
+       + Law of Mass Action: Relates equilibrium constant to concentrations of reactants and products
+       + Le Chatelier's Principle: Predicts effects of changes in concentration, temperature, or pressure on equilibrium

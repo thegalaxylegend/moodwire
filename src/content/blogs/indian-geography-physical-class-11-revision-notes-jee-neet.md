@@ -9,6 +9,25 @@ practice_link: "/class-11/physics/indian-geography-physical-class-11-revision-no
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-Indian-geography-physical"></a>What is Indian Geography Physical?](#a-idwhat-is-indian-geography-physicalawhat-is-indian-geography-physical)
+3. [<a id="what-is-physical-geography"></a>What is Physical Geography?](#a-idwhat-is-physical-geographyawhat-is-physical-geography)
+4. [<a id="what-are-the-key-features-of-landforms"></a>What are the key features of Landforms?](#a-idwhat-are-the-key-features-of-landformsawhat-are-the-key-features-of-landforms)
+5. [<a id="Ayush-personal-note"></a>Ayush's Personal Note](#a-idayush-personal-noteaayushs-personal-note)
+6. [<a id="what-is-the-significance-of-climate-n-physical-geography"></a>What is the significance of Climate and Physical Geography?](#a-idwhat-is-the-significance-of-climate-n-physical-geographyawhat-is-the-significance-of-climate-and-physical-geography)
+7. [<a id="trap-exceptions"></a>Trap Exceptions](#a-idtrap-exceptionsatrap-exceptions)
+8. [<a id="what-are-the-core-concepts-n-physical-geography"></a>What are the Core Concepts and Physical Geography?](#a-idwhat-are-the-core-concepts-n-physical-geographyawhat-are-the-core-concepts-and-physical-geography)
+9. [<a id="historical-timelines"></a>Historical Timelines](#a-idhistorical-timelinesahistorical-timelines)
+10. [<a id="what-is-the-context-of-maps-n-physical-geography"></a>What is the context of Maps and Physical Geography?](#a-idwhat-is-the-context-of-maps-n-physical-geographyawhat-is-the-context-of-maps-and-physical-geography)
+11. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+12. [📚 Related Topics](#related-topics)
+13. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+14. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Indian Geography Physical?](#what-is-indian-geography-physical)
@@ -28,7 +47,7 @@ practice_link: "/class-11/physics/indian-geography-physical-class-11-revision-no
 
 ## <a id="what-is-physical-geography"></a>What is Physical Geography?
 
-Physical Geography is the study of the natural features of the Earth's surface. It includes the study of landforms, climate, vegetation, n water bodies. For class 11 exam prep n 2026, the most important aspect is understanding the interaction between these components and their impact on the environment.
+Physical [Geography](/blog/indian-geography-climate-class-11-revision-notes-cbse) is the study of the natural features of the Earth's surface. It includes the study of landforms, climate, vegetation, n water bodies. For class 11 exam prep n 2026, the most important aspect is understanding the interaction between these components and their impact on the environment.
 
 ## <a id="what-are-the-key-features-of-landforms"></a>What are the key features of Landforms?
 
@@ -77,6 +96,8 @@ Continue your [revision](/blog/ray-optics-class-12-quick-class-12-revision-notes
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/indian-geography-physical-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Indian%20Geography%20Physical%20Class%2011%20Geography%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -110,6 +131,6 @@ Continue your [revision](/blog/ray-optics-class-12-quick-class-12-revision-notes
 * The Peninsular Plateau is composed of old, stable rocks and is divided into two main parts: the Malta Plateau and the Deccan Plateau.
 * The Western Ghats and the Eastern Ghats are the two main mountain ranges of the Peninsular Plateau.
 # Coastal Plains
-* The Coastal Plains are narrow strips of land along the coast of India and are divided into the Eastern Coastal Plains and the Western Coastal Plains.
+* The Coastal Plains are narrow strips of land along the coast of [India](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) and are divided into the Eastern Coastal Plains and the Western Coastal Plains.
 # Islands
 * The two main island groups of India are the Andaman and Nicobar Islands and the Lakshadweep Islands.

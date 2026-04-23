@@ -9,6 +9,26 @@ practice_link: "/class-11/biology/mineral-nutrition-class-11-revision-notes-neet
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-mineral-nutrition"></a>What is Mineral Nutrition?](#a-idwhat-is-mineral-nutritionawhat-is-mineral-nutrition)
+3. [<a id="class-11-notes"></a>Class 11 Notes](#a-idclass-11-notesaclass-11-notes)
+4. [<a id="introduction-to-mineral-nutrition"></a>Introduction to Mineral Nutrition](#a-idintroduction-to-mineral-nutritionaintroduction-to-mineral-nutrition)
+5. [<a id="essential-elements-for-plant-growth"></a>Essential Elements for Plant Growth](#a-idessential-elements-for-plant-growthaessential-elements-for-plant-growth)
+6. [<a id="macronutrients"></a>Macronutrients](#a-idmacronutrientsamacronutrients)
+7. [<a id="micronutrients"></a>Micronutrients](#a-idmicronutrientsamicronutrients)
+8. [<a id="mineral-deficiency-disorders"></a>Mineral Deficiency Disorders](#a-idmineral-deficiency-disordersamineral-deficiency-disorders)
+9. [<a id="ayushs-note"></a>Ayush's Note](#a-idayushs-noteaayushs-note)
+10. [<a id="shortcut-formulatrick"></a>Shortcut Formula/Trick](#a-idshortcut-formulatrickashortcut-formulatrick)
+11. [<a id="trap-questionsexceptions"></a>Trap Questions/Exceptions](#a-idtrap-questionsexceptionsatrap-questionsexceptions)
+12. [<a id="practice-mcqs"></a>Practice MCQs](#a-idpractice-mcqsapractice-mcqs)
+13. [<a id="related-notes-links"></a>Related Notes Links](#a-idrelated-notes-linksarelated-notes-links)
+14. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+15. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Mineral Nutrition?](#what-is-mineral-nutrition)
@@ -71,7 +91,7 @@ The 16 essential elements required y [plants](/blog/anatomy-of-flowering-plants-
 15. Chlorine (Cl)
 16. Molybdenum (Mo)
 
-These elements are [essential for plant growth and development](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7123155/), n their deficiency can lead to various disorders.
+These [elements](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) are [essential for plant growth and development](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7123155/), n their deficiency can lead to various disorders.
 
 ## <a id="macronutrients"></a>Macronutrients
 
@@ -187,7 +207,7 @@ b) Stunted [growth](/blog/plant-growth-n-development-class-11-revision-notes-nee
 c) Scorching of leaves and reduced [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet)
 d) Curling of leaves and reduced [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet)
 
-Answer: b) Stunted growth and purple coloration of leaves
+Answer: b) Stunted [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet) and purple coloration of leaves
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
@@ -213,6 +233,8 @@ Continue your [revision](/blog/hydrogen-class-11-revision-notes-neet) with these
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/mineral-nutrition-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Mineral%20Nutrition%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -223,3 +245,22 @@ Continue your [revision](/blog/hydrogen-class-11-revision-notes-neet) with these
 - 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet)
 - 📖 [Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrocarbons-class-11-revision-notes-neet)
 - 📖 [Hydrogen Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)
+
+## 🔁 Last 5 Minutes Box
+
+### Essential Mineral Elements
+   * 17 essential elements required by plants: C, H, O, N, P, S, K, Ca, Mg, Fe, Cu, B, Mn, Mo, Zn, Cl
+   * Macronutrients: C, H, O, N, P, S, K, Ca, Mg
+   * Micronutrients: Fe, Cu, B, Mn, Mo, Zn, Cl
+   ### Functions of Essential Mineral Elements
+   * Nitrogen: amino acids, proteins, nucleic acids
+   * Phosphorus: nucleic acids, ATP, NADP
+   * Potassium: maintenance of membrane potential
+   * Calcium: cell wall, membrane structure
+   * Magnesium: photosynthesis, ATP production
+   ### Mechanism of Absorption of Mineral Nutrients
+   * Passive absorption: diffusion, osmosis
+   * Active absorption: ATP-driven transport
+   ### Translocation of Mineral Nutrients
+   * Xylem: uptake and transport to leaves
+   * Phloem: transport to storage organs

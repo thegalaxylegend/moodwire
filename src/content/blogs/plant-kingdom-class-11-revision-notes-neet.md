@@ -104,7 +104,7 @@ d) Bryophyta
 
 Answer: a) Pteridophyta
 
-3. Which of the following is a type of vascular plant?
+3. Which of the following is a type of vascular [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet)?
 a) Bryophyta
 b) Tracheophyta
 c) Pteridophyta
@@ -152,7 +152,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/plant-kingdom-class-11-revision-notes-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/plant-[kingdom](/blog/animal-kingdom-class-11-revision-notes-neet)-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 ---
 

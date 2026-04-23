@@ -40,7 +40,7 @@ To master the structure of an atom, it's essential to understand the following c
 
 ## <a id="formulae"></a>Formulae
 
-The following formulae are essential for understanding the structure of an atom:
+The following formulae are essential for understanding the [structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet) of an atom:
 
 1. **Atomic Mass**: The atomic mass is the average mass of an atom, n it's calculated using the formula:
 

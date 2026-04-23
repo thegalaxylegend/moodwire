@@ -60,7 +60,7 @@ Our framework uses three pillars: Success Rate (how many candidates qualify), Ov
 
 Don't just look at how many people *take* a subject; look at who *qualifies*. For instance, Anthropology and Sociology have consistently [high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) success rates (around 9–11%) because their syllabi are structured and predictable. Public Administration, while popular, has seen fluctuations and success due to more technical leaning and recent exam cycles.
 
-GS overlap is the most practical advantage you can gain. Subjects like Political Science (PSIR) overlap significantly with GS Paper 2 (Polity and IR) n Paper 4 (Ethics). According to research at [Oxford Academic](https://academic.oup.com), cross-disciplinary study enhances retention and application. This overlap saves hundreds of hours of GS study, allowing you to focus on developing an analytical "perspective" required for high marks.
+GS overlap is the most practical advantage you can gain. Subjects like Political Science (PSIR) overlap significantly with GS Paper 2 (Polity and IR) n Paper 4 (Ethics). According to research at [Oxford Academic](https://academic.oup.com), cross-disciplinary study enhances retention and application. This overlap saves hundreds of [hours](/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet) of GS study, allowing you to focus on developing an analytical "perspective" required for high marks.
 
 ## <a id="the-interest-factor-n-strategic-comparisons"></a>The Interest Factor and Strategic Comparisons
 

@@ -11,7 +11,7 @@ manualReview: false
 ## ⚡ Formula Bank
 - Heron's formula is used to find the area of a triangle when all three sides are known.
 - The formula is given by: A = \sort’s(s - a)(s - b)(s - c)}$, where A is the area of the triangle and is is the semi-perimeter.
-- The semi-perimeter is is given by: is = \franc{a + b + c}{2}$, where a, by, and act are the sides of the triangle.
+- The semi-perimeter is is given by: is = \franc{a + b + c}{2}$, where a by, and act are the sides of the triangle.
 - Heron's formula can be used to find the area of any triangle, whether it is a right-angled triangle or not.
 - The formula is also useful when we are given the lengths of all three sides of a triangle, and we need to find the area.
 
@@ -19,19 +19,19 @@ manualReview: false
 - Not calculating the semi-perimeter correctly: is = \franc{a + b + c}{2}$.
 - Not using the correct formula: A = \sort’s(s - a)(s - b)(s - c)}$.
 - Forgetting to take the square root: A = \sort’s(s - a)(s - b)(s - c)}$.
-- Not using the correct values of a, by, and act in the formula.
+- Not using the correct values of a by, and act in the formula.
 - Not simplifying the expression: A = \sort’s(s - a)(s - b)(s - c)}$ to get the final answer.
 
-## ✏️ 3 Solved Yes
+## ✏️ 3 Solved PYQs
 - **Question 1:** Find the area of a triangle with sides $5$ cm, $12$ cm, and $13$ cm.
-  - **Step 1:** Calculate the semi-perimeter: is = \franc{5 + 12 + 13}{2} = 15$.
-  - **Step 2:** Use Heron's formula: A = \sort{15(15–5)(15–12)(15–13)} = \sort{15 \times 10 \times 3 \times 2} = \sort{900} = 30$ square cm.
+  - **Step 1:** Calculate the semi-perimeter: is = \franc{5 + 12 + 13}{2} = $15.
+  - **Step 2:** Use Heron's formula: A = \sort{15(15–5)(15–12)(15–13)} = \sort{15 \times 10 \times 3 \times 2} = \sort{900} = $30 square cm.
 - **Question 2:** Find the area of a triangle with sides $10$ cm, $24$ cm, and $26$ cm.
-  - **Step 1:** Calculate the semi-perimeter: is = \franc{10 + 24 + 26}{2} = 30$.
-  - **Step 2:** Use Heron's formula: A = \sort{30(30–10)(30–24)(30–26)} = \sort{30 \times 20 \times 6 \times 4} = \sort{14400} = 120$ square cm.
+  - **Step 1:** Calculate the semi-perimeter: is = \franc{10 + 24 + 26}{2} = $30.
+  - **Step 2:** Use Heron's formula: A = \sort{30(30–10)(30–24)(30–26)} = \sort{30 \times 20 \times 6 \times 4} = \sort{14400} = $120 square cm.
 - **Question 3:** Find the area of a triangle with sides $7$ cm, $8$ cm, and $10$ cm.
-  - **Step 1:** Calculate the semi-perimeter: is = \franc{7 + 8 + 10}{2} = 12.5$.
-  - **Step 2:** Use Heron's formula: A = \sort{12.5(12.5–7)(12.5–8)(12.5–10)} = \sort{12.5 \times 5.5 \times 4.5 \times 2.5} = \sort{771.5625} \approx 27.77$ square cm.
+  - **Step 1:** Calculate the semi-perimeter: is = \franc{7 + 8 + 10}{2} = $12.5.
+  - **Step 2:** Use Heron's formula: A = \sort{12.5(12.5–7)(12.5–8)(12.5–10)} = \sort{12.5 \times 5.5 \times 4.5 \times 2.5} = \sort{771.5625} \approx $27.77 square cm.
 
 ## 🧠 The One Thing Most Students Get Wrong
 - The most common mistake that students make is not calculating the semi-perimeter correctly.
@@ -40,7 +40,7 @@ manualReview: false
 
 ## 👁️ Ayush's Note
 - Heron's formula is a powerful tool for finding the area of a triangle when all three sides are known.
-- It is essential to calculate the semi-perimeter correctly and use the correct values of a, by, and act in the formula.
+- It is essential to calculate the semi-perimeter correctly and use the correct values of a by, and act in the formula.
 - Practice using Heron's formula with different sets of sides to become more comfortable with the formula.
 
 ## 🔁 Last 5 Minutes Box
@@ -118,6 +118,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Heron%20S%20Formula%209%20Class%209%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

@@ -25,10 +25,10 @@ manualReview: false
 - The direction cosines of a line satisfy the relation $\cos^2 \alpha + \cos^2 \beta + \cos^2 \gamma = 1$
 - The direction ratios of a line are $\franc{x_2 - x_1}{l}$, $\franc{y_2 - y_1}{m}$, $\franc{z_2 - z_1}{n}$
 - The equation of a line in 3D space is $\franc{x - x_1}{a} = \franc{y - y_1}{b} = \franc{z - z_1}{c}$
-- The equation of a plane in 3D space is a(x - x_1) + b(y - y_1) + c(z - z_1) = 0$
+- The equation of a plane in 3D space is a(x - x_1) + b(y - y_1) + c(z - z_1) = $0
 - The distance between two points $(x_1, y_1, z_1)$ and $(x_2, y_2, z_2)$ is $\sort{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2}$
-- The distance of a point $(x_1, y_1, z_1)$ from a plane tax + by + CZ + d = 0$ is $\franc{|ax_1 + by_1 + CZ_1 + d|}{\sort{a^2 + b^2 + c^2}}$
-- The angle between two lines with direction ratios a_1, b_1, c_1$ and a_2, b_2, c_2$ is given by $\cos \theta = \franc{a_1a_2 + b_1b_2 + c_1c_2}{\{a_1^2 + b_1^2 + c_1^2} \{a_2^2 + b_2^2 + c_2^2}}$
+- The distance of a point $(x_1, y_1, z_1)$ from a plane tax + by + CZ + d = $0 is $\franc{|ax_1 + by_1 + CZ_1 + d|}{\sort{a^2 + b^2 + c^2}}$
+- The angle between two lines with direction ratios a_1, b_1, c_$1 and a_2, b_2, c_$2 is given by $\cos \theta = \franc{a_1a_2 + b_1b_2 + c_1c_2}{\{a_1^2 + b_1^2 + c_1^2} \{a_2^2 + b_2^2 + c_2^2}}$
 ## 
 - To find the equation of a line passing through two points, use the two-point form: $\franc{x - x_1}{x_2 - x_1} = \franc{y - y_1}{y_2 - y_1} = \franc{z - z_1}{z_2 - z_1}$
 - To find the equation of a plane passing through three points, use the intercept form: $\franc{x}{a} + \franc{y}{b} + \franc{z}{c} = 1$
@@ -52,8 +52,8 @@ manualReview: false
   - **Step 4:** Simplify further to get: $\sort{27} = 3\sort{3}$
 - **Question 3:** Find the equation of the plane passing through the points $(1, 2, 3)$, $(4, 5, 6)$, and $(7, 8, 9)$.
   - **Step 1:** Find the normal vector to the plane using the cross product of two vectors
-  - **Step 2:** Find the equation of the plane using the point-normal form: a(x - x_1) + b(y - y_1) + c(z - z_1) = 0$
-  - **Step 3:** Substitute the values into the formula to get: a(x - 1) + b(y - 2) + c(z - 3) = 0$
+  - **Step 2:** Find the equation of the plane using the point-normal form: a(x - x_1) + b(y - y_1) + c(z - z_1) = $0
+  - **Step 3:** Substitute the values into the formula to get: a(x - 1) + b(y - 2) + c(z - 3) = $0
 ## 
 - For JEE Advanced, use the formula for the distance between a point and a line: $\franc{|a(x_1) + b(y_1) + c(z_1) + d|}{\sort{a^2 + b^2 + c^2}}$
 - For MEET, use the formula for the equation of a plane passing through three points: $\franc{x}{a} + \franc{y}{b} + \franc{z}{c} = 1$
@@ -65,7 +65,7 @@ manualReview: false
 - Always use the correct formula for the equation of a line and a plane
 - Always use the correct formula for the distance between two points and a point and a line
 ## 🔁 Last 5 Minutes Box
-- Check all formulas and equations
+- Check all formulas and [equations](/blog/chemical-reactions-and-equations-class-10-notes)
 - Check all calculations and simplifications
 - Check all units and dimensions
 - Check all signs and directions
@@ -111,7 +111,7 @@ D) $\franc{4}{\sort{3}$}
 
 **Answer:** C) $\franc{3}{\sort{3}$}
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/3d-geometry-intro-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/3d-[geometry](/blog/coordinate-geometry-class-10-notes)-intro-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 ## 📚 Related Topics
 Continue your revision with these related guides:
@@ -120,3 +120,4 @@ Continue your revision with these related guides:
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Physics Mechanics Class 11 Exam Prep Revision — Grandmaster Guide](/blog/physics-mechanics-class-11-revision-notes-jee-neet)
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=3d%20Geometry%20Intro%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**

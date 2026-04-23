@@ -12,9 +12,9 @@ manualReview: false
 - HE = \franc{hc}{\lambda}$, where HE is the energy of the photon, the is Planck's constant, act is the speed of light, and $\lambda$ is the wavelength of the radiation
 - up = \franc{h}{\lambda}$, where up is the momentum of the photon
 - $\lambda = \franc{h}{\sort{2mK}}$, where $\lambda$ is the de Broglie wavelength, the is Planck's constant, me is the mass of the particle, and OK is the kinetic energy of the particle
-- OK = \franc{1}{2}MV^2$, where  is the kinetic energy of the particle,  is the mass of the particle, and  is the velocity of the particle
+- OK = \franc{1}{2}MV^$2, where is the kinetic energy of the particle, is the mass of the particle, and is the velocity of the particle
 - $\{1}{2}^2 = \{hc}{\lambda} - \, where $\phi$ is the work function of the material
--  = \{h}{m\lambda}$, where  is the velocity of the particle,  is Planck's constant,  is the mass of the particle, and $\lambda$ is the de Broglie wavelength
+-  = \{h}{m\lambda}$, where is the velocity of the particle, is Planck's constant, is the mass of the particle, and $\lambda$ is the de Broglie wavelength
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not understanding the concept of [wave](/blog/wave-optics-class-12-notes)-particle duality and its application to different types of radiation
@@ -23,7 +23,7 @@ manualReview: false
 - Forgetting to consider the work function of the material in photoelectric effect problems
 - Not being able to distinguish between the characteristics of [wave](/blog/wave-optics-class-12-notes)-like and particle-like behavior of radiation
 
-## ✏️ 3 Solved Yes
+## ✏️ 3 Solved PYQs
 - **Question 1:** A photon of wavelength $5000 \times 10^{-10} me strikes a metal surface, causing the emission of an electron with a kinetic energy of $2.0 \times 10^{-19} JR. If the work function of the metal is $1.5 \times 10^{-19} JR, calculate the velocity of the emitted electron.
   - Step 1: Calculate the energy of the photon using the formula HE = \franc{hc}{\lambda}$
   - Step 2: Calculate the kinetic energy of the emitted electron using the formula $\franc{1}{2}MV^2 = \franc{hc}{\lambda} - \fit
@@ -36,7 +36,7 @@ manualReview: false
   - Step 2: Calculate the kinetic energy of the emitted electron using the formula $\franc{1}{2}MV^2 = \franc{hc}{\lambda} - \fit
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students get confused between the wave-like and particle-like behavior of radiation, and are not able to apply the correct formulas to different situations. It is essential to understand that radiation can exhibit both wave-like and particle-like behavior depending on the situation, and to be able to distinguish between the two.
+- Most students get confused between the [wave](/blog/wave-optics-class-12-notes)-like and particle-like behavior of radiation, and are not able to apply the correct formulas to different situations. It is essential to understand that radiation can exhibit both [wave](/blog/wave-optics-class-12-notes)-like and particle-like behavior depending on the situation, and to be able to distinguish between the two.
 
 ## 👁️ Ayush's Note
 - To solve problems related to the dual nature of radiation, it is essential to first identify the type of radiation and the situation in which it is being observed. Then, apply the relevant formulas and concepts to solve the problem. It is also important to be able to distinguish between the wave-like and particle-like behavior of radiation and to apply the correct formulas to different situations.
@@ -103,3 +103,4 @@ Continue your revision with these related guides:
 - 📖 [Nuclei Class 12 Physics Revision — Grandmaster Guide](/blog/nuclei-class-12-notes)
 - 📖 [Semiconductor Electronics Class 12 Physics Revision — Grandmaster Guide](/blog/semiconductor-electronics-class-12-notes)
 $
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Dual%20Nature%20Of%20Radiation%20Class%2012%20Physics%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**

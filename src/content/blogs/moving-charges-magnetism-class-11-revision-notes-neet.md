@@ -9,6 +9,25 @@ practice_link: "/class-11/biology/moving-charges-magnetism-class-11-revision-not
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-moving-charges-magnetism-revision-notes"></a>What is Moving Charges Magnetism Revision Notes?](#a-idwhat-is-moving-charges-magnetism-revision-notesawhat-is-moving-charges-magnetism-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-magnetic-field-n-the-biotsavart-law"></a>1. Magnetic Field and the Biot-Savart Law](#a-id1-magnetic-field-n-the-biotsavart-lawa1-magnetic-field-and-the-biot-savart-law)
+5. [<a id="2-amperes-circuital-law-acl"></a>2. Ampere’s Circuital Law (ACL)](#a-id2-amperes-circuital-law-acla2-amperes-circuital-law-acl)
+6. [<a id="3-motion-of-a-charge-n-a-magnetic-field"></a>3. Motion of a Charge and a Magnetic Field](#a-id3-motion-of-a-charge-n-a-magnetic-fielda3-motion-of-a-charge-and-a-magnetic-field)
+7. [<a id="4-force-between-two-parallel-currentcarrying-wires"></a>4. Force between Two Parallel Current-Carrying Wires](#a-id4-force-between-two-parallel-currentcarrying-wiresa4-force-between-two-parallel-current-carrying-wires)
+8. [<a id="5-torque-on-a-current-loop-n-a-uniform-magnetic-field"></a>5. Torque on a Current Loop and a Uniform Magnetic Field](#a-id5-torque-on-a-current-loop-n-a-uniform-magnetic-fielda5-torque-on-a-current-loop-and-a-uniform-magnetic-field)
+9. [<a id="6-the-moving-coil-galvanometer-mcg"></a>6. The Moving Coil Galvanometer (MCG)](#a-id6-the-moving-coil-galvanometer-mcga6-the-moving-coil-galvanometer-mcg)
+10. [<a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qandaacomprehensive-exam-strategy-qa)
+11. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+12. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+13. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+14. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Moving Charges Magnetism Revision Notes?](#what-is-moving-charges-magnetism-revision-notes)
@@ -62,7 +81,7 @@ Magnetism is not a separate force from electricity; it is the relativistic conse
 The **Magnetic Field (B)** is a vector field that describes the magnetic influence on moving [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) charges.
 
 ### <a id="i-biotsavart-law-the-foundation"></a>I. Biot-Savart Law: The Foundation
-**Statement:** The magnetic field **dB** due to a [current](/blog/current-electricity-class-11-revision-notes-neet) element **I dl** at a point at distance **r** is:
+**statement:** The magnetic field **dB** due to a [current](/blog/current-electricity-class-11-revision-notes-neet) element **I dl** at a point at distance **r** is:
 **dB = (μ₀ / 4π) [ I (dl × r̂) / r² ]**
 - **μ₀ (Permittivity of Free Space):** 4π × 10⁻⁷ T m/A.
 - **Direction:** Given y the Right-Hand Thumb Rule.
@@ -85,7 +104,7 @@ The **Magnetic Field (B)** is a vector field that describes the magnetic influen
 ### <a id="i-application-magnetic-field-of-a-solenoid"></a>I. Application: Magnetic Field of a Solenoid
 1.  Assume a long solenoid with **n** turns per unit length carrying [current](/blog/current-electricity-class-11-revision-notes-neet) **I**.
 2.  Taking a rectangular path (Amperean loop):
-3.  Line integral **∮ B · dl = B L** (field is only inside).
+3.  [Line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) integral **∮ B · dl = B L** (field is only inside).
 4.  Charge enclosed **I_en = n L I**.
 5.  By Ampere's Law: **B L = μ₀ (n L I)**.
 6.  **B = μ₀ n I**. (Proven)
@@ -187,7 +206,9 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/moving-charges-magnetism-class-11-revision-notes-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/moving-[charges](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)-magnetism-class-11-revision-notes-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Moving%20Charges%20Magnetism%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 
@@ -199,3 +220,21 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 - 📖 [Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/current-electricity-class-11-revision-notes-neet)
 - 📖 [Laws Of Motion Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
 - 📖 [Motion In A Plane Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* Confusing the direction of the magnetic field with the direction of the force experienced by a moving charge: Many students get confused between the direction of the magnetic field and the force experienced by a moving charge. Remember, the force experienced by a moving charge is perpendicular to both the magnetic field and the velocity of the charge.
+* Forgetting to use the right-hand rule: The right-hand rule is essential in determining the direction of the magnetic field or the force experienced by a moving charge. Forgetting to use it can lead to incorrect answers.
+* Not considering the velocity of the charge: Some students forget to consider the velocity of the charge when calculating the force experienced by it. The force experienced by a moving charge is directly proportional to its velocity.
+* Incorrectly applying the formula F = q(v x B): Many students incorrectly apply the formula F = q(v x B) by not considering the cross product of the velocity and the magnetic field. The cross product is essential in determining the direction of the force experienced by a moving charge.
+* Not distinguishing between a static charge and a moving charge: Some students do not distinguish between a static charge and a moving charge. A static charge does not experience a magnetic force, while a moving charge experiences a magnetic force due to its velocity.
+
+## 🔁 Last 5 Minutes Box
+
+- **Magnetic Field**: B = μ₀ * (I / 2πr) 
+   - **Force on Moving Charge**: F = qvB sin(θ) 
+   - **Biot-Savart Law**: dB = (μ₀ * Idl sin(θ)) / 4πr² 
+   - **Ampere's Law**: ∮B · dl = μ₀I 
+   - **Magnetic Field due to [Current](/blog/current-electricity-class-11-revision-notes-neet) in a Solenoid**: B = μ₀nI 
+   - **Torque on a Current Loop**: τ = nBIAsin(θ) 
+   - **Magnetic Moment**: M = IA

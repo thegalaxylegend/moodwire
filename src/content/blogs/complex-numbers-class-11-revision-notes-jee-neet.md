@@ -9,6 +9,26 @@ practice_link: "/class-11/physics/complex-numbers-class-11-revision-notes-jee-ne
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-complex-numbers-revision-notes"></a>What is Complex Numbers Revision Notes?](#a-idwhat-is-complex-numbers-revision-notesawhat-is-complex-numbers-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-the-imaginary-unit-i"></a>1. The Imaginary Unit (i)](#a-id1-the-imaginary-unit-ia1-the-imaginary-unit-i)
+5. [<a id="2-algebra-of-complex-numbers"></a>2. Algebra of Complex Numbers](#a-id2-algebra-of-complex-numbersa2-algebra-of-complex-numbers)
+6. [<a id="3-modulus-n-conjugate"></a>3. Modulus and Conjugate](#a-id3-modulus-n-conjugatea3-modulus-and-conjugate)
+7. [<a id="4-the-argand-plane-n-polar-representation"></a>4. The Armand Plane and Polar Representation](#a-id4-the-argand-plane-n-polar-representationa4-the-armand-plane-and-polar-representation)
+8. [<a id="5-quadratic-equations-with-complex-roots"></a>5. Quadratic Equations with Complex Roots](#a-id5-quadratic-equations-with-complex-rootsa5-quadratic-equations-with-complex-roots)
+9. [<a id="comprehensive-exam-strategy-Qaeda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qaedaacomprehensive-exam-strategy-qa)
+10. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+11. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+12. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+13. [📚 Related Topics](#related-topics)
+14. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+15. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Complex Numbers Revision Notes?](#what-is-complex-numbers-revision-notes)
@@ -30,8 +50,8 @@ practice_link: "/class-11/physics/complex-numbers-class-11-revision-notes-jee-ne
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
 > - **Imaginary Unit (i):** i = √(-1). I² = -1, i³ = -i, i⁴ = 1.
-> - **Complex Number:** z = a + IB, where a is Real Part **Re(z)** n b is Imaginary Part **I'm(z)**.
-> - **Conjugate (Zn):** Zn = a - ib.
+> - **Complex Number:** z = a + IB, where an is Real Part **Re(z)** n b is Imaginary Part **I'm(z)**.
+> - **Conjugate (Zn):** Zn = an - ib.
 > - **Modulus (|z|):** |z| = √(a² + b²).
 > - **Multiplicative Inverse:** z⁻¹ = Zn / |z|².
 > - **Quadratic Equations:** If D = b² - 4ac < 0, roots are complex: x = (-b ± i√|D|) / 2a.
@@ -62,14 +82,14 @@ The symbol **i** was introduced y Euler to solve square roots of negative number
 
 1.  **Addition:** (a + IB) + (c + ID) = (a + c) + i(b + d).
 2.  **Subtraction:** (a + IB) - (c + ID) = (a - c) + i(b - d).
-3.  **Multiplication:** (a + IB)(c + ID) = (ac - BD) + i(ad + bc).
+3.  **Multiplication:** (a + IB)(c + ID) = (ac - BD) + i (ad + bc).
 4.  **Division:** (a + IB) / (c + ID) = Multiply numerator and denominator y the conjugate (c - ID).
 
 ---
 
 ## <a id="3-modulus-n-conjugate"></a>3. Modulus and Conjugate
 
-*   **Conjugate (Zn):** The mirror image of z = a + IB and the real axis is Zn = a - ib.
+*   **Conjugate (Zn):** The mirror image of z = a + IB and the real axis is Zn = an - ib.
 *   **Modulus (|z|):** The distance of the point (a, b) from the origin is |z| = √(a² + b²).
 *   **Properties:**
     *   |z₁z₂| = |z₁||z₂|
@@ -150,6 +170,8 @@ Continue your [revision](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/complex-numbers-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Complex%20Numbers%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20JEE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -163,7 +185,7 @@ Continue your [revision](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet
 
 ## 🪤 The 5 Mistakes That Cost Marks
 
-* **Misinterpreting i^2 as a variable**: Many students mistakenly treat I^2$ as a variable that can take any value, rather than I^2 = -1$.
+* **Misinterpreting i^2 as a variable**: Many students mistakenly treat I^$2 as a variable that can take any value, rather than I^2 = -$1.
 * **Forgetting to rationalize the denominator**: When dividing complex numbers, it's essential to rationalize the denominator y multiplying the numerator and denominator y the conjugate of the denominator to avoid mistakes.
 * **Mixing up the polar and rectangular forms**: Be cautious when converting between polar and rectangular forms of complex numbers, as it's easy to confuse the two and make calculation errors.
 * **Incorrectly applying De Moiré's [theorem](/blog/binomial-theorem-class-11-revision-notes-jee)**: De Moiré's [theorem](/blog/binomial-theorem-class-11-revision-notes-jee) is often misapplied or misunderstood, leading to errors and finding powers and roots of complex numbers.
@@ -172,7 +194,7 @@ Continue your [revision](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet
 ## 🔁 Last 5 Minutes Box
 
 * Complex numbers are of the form a + IBM, where a and y are real numbers and I = $\sort{-1}.
-* The conjugate of a complex number oz = a + IBM is $AR{z} = a - IBM.
+* The conjugate of a complex number oz = a + IBM is $AR{z} = an - IBM.
 * The modulus of a complex number oz = a + IBM is $|z| = \sort{a^2 + b^2}$.
 * The argument of a complex number oz = a + IBM is the angle $	head that oz makes with the positive x-axis.
 * De Moiré's theorem states that for any complex number oz = r(cosh \beta + ISIN 	heat)$ n any integer n, oz^n = r^n(\cos and heat + ISIN and heat)$.

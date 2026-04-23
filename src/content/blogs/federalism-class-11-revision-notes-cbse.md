@@ -9,6 +9,23 @@ practice_link: "/class-11/federalism-class-11-revision-notes-cbse"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-federalism"></a>What is Federalism?](#a-idwhat-is-federalismawhat-is-federalism)
+3. [<a id="what-are-the-key-features-of-federalism"></a>What are the Key Features of Federalism?](#a-idwhat-are-the-key-features-of-federalismawhat-are-the-key-features-of-federalism)
+4. [<a id="what-is-the-historical-context-of-federalism-n-India"></a>What is the Historical Context of Federalism and India?](#a-idwhat-is-the-historical-context-of-federalism-n-indiaawhat-is-the-historical-context-of-federalism-and-india)
+5. [<a id="Ayush-personal-note"></a>Ayush's Personal Note](#a-idayush-personal-noteaayushs-personal-note)
+6. [<a id="what-are-the-core-concepts-of-federalism"></a>What are the Core Concepts of Federalism?](#a-idwhat-are-the-core-concepts-of-federalismawhat-are-the-core-concepts-of-federalism)
+7. [<a id="what-are-the-trap-exceptions"></a>What are the Trap Exceptions?](#a-idwhat-are-the-trap-exceptionsawhat-are-the-trap-exceptions)
+8. [<a id="Ayush-tips"></a>Ayush's Tips](#a-idayush-tipsaayushs-tips)
+9. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+10. [📚 Related Topics](#related-topics)
+11. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+12. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Federalism?](#what-is-federalism)
@@ -24,7 +41,7 @@ practice_link: "/class-11/federalism-class-11-revision-notes-cbse"
 
 ## <a id="what-is-federalism"></a>What is Federalism?
 
-Federalism is a system of government and which power is divided between a central authority and constituent political units. It includes a clear division of powers, independent judiciary, n dual citizenship. For class 11 exam prep n 2026, the most important aspect is understanding the principles of federalism and its application and the Indian context.
+Federalism is a system of government and which power is divided between a central authority and constituent political units. It includes a clear division of powers, independent judiciary, n dual citizenship. For class 11 exam prep n 2026, the most important aspect is understanding the principles of federalism and its application and the [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) context.
 
 ## <a id="what-are-the-key-features-of-federalism"></a>What are the Key Features of Federalism?
 
@@ -85,6 +102,8 @@ Continue your [revision](/blog/constitutional-framework-class-11-revision-notes-
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/federalism-class-11-revision-notes-cbse) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Federalism%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

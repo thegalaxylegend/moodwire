@@ -9,6 +9,24 @@ practice_link: "/class-11/biology/hydrocarbons-class-11-revision-notes-neet"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-hydrocarbons"></a>What is Hydrocarbons?](#a-idwhat-is-hydrocarbonsawhat-is-hydrocarbons)
+3. [<a id="introduction-to-hydrocarbons"></a>Introduction to Hydrocarbons](#a-idintroduction-to-hydrocarbonsaintroduction-to-hydrocarbons)
+4. [<a id="why-hydrocarbons-matter"></a>Why Hydrocarbons Matter](#a-idwhy-hydrocarbons-matterawhy-hydrocarbons-matter)
+5. [<a id="Ayush-note"></a>Ayush's Note](#a-idayush-noteaayushs-note)
+6. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+7. [<a id="shortcut-formula trick"></a>Shortcut Formula/Trick](#a-idshortcut-formula-trickashortcut-formulatrick)
+8. [<a id="trap-questions exceptions"></a>Trap Questions/Exceptions](#a-idtrap-questions-exceptionsatrap-questionsexceptions)
+9. [<a id="practice-MCQs"></a>Practice MCQs](#a-idpractice-mcqsapractice-mcqs)
+10. [<a id="related-notes-links"></a>Related Notes Links](#a-idrelated-notes-linksarelated-notes-links)
+11. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+12. [📚 Related Topics](#related-topics)
+13. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Hydrocarbons?](#what-is-hydrocarbons)
@@ -66,8 +84,7 @@ Alkenes are unsaturated hydrocarbons with the general formula CnH2n. They contai
 ### <a id="alkanes"></a>Alkynes
 Alkynes are unsaturated hydrocarbons with the general formula CnH2n-2. They contain at least one triple bond between two carbon atoms.
 
-### <a id="aromatic-hydrocarbons"></a>Aromatic Hydrocarbons
-Aromatic hydrocarbons contain a benzene ring, which is a planar, ring-shaped molecule with six carbon atoms. The general formula for benzene is C6H6.
+### <a id="aromatic-hydrocarbons"></a>Aromatic Hydrocarbons contain a benzene ring, which is a planar, ring-shaped molecule with six carbon atoms. The general formula for benzene is C6H6.
 
 ## <a id="shortcut-formula trick"></a>Shortcut Formula/Trick
 
@@ -150,6 +167,8 @@ Continue your [revision](/blog/cell-cycle-n-cell-division-class-11-revision-note
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/hydrocarbons-class-11-revision-notes-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Hydrocarbons%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

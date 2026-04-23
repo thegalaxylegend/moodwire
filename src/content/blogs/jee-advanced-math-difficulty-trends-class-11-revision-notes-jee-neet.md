@@ -9,6 +9,24 @@ practice_link: "/class-11/physics/jee-advanced-math-difficulty-trends-class-11-r
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-jee-advanced-math-difficulty-trends"></a>What is Jee Advanced Math Difficulty Trends?](#a-idwhat-is-jee-advanced-math-difficulty-trendsawhat-is-jee-advanced-math-difficulty-trends)
+3. [<a id="1-the-decline-of-pure-calculus"></a>1. The Decline of Pure Calculus](#a-id1-the-decline-of-pure-calculusa1-the-decline-of-pure-calculus)
+4. [<a id="2-the-rise-of-combinatorics-n-probability"></a>2. The Rise of Combinatorics and Probability](#a-id2-the-rise-of-combinatorics-n-probabilitya2-the-rise-of-combinatorics-and-probability)
+5. [<a id="3-matrices-n-determinants-the-new-heavyweights"></a>3. Matrices and Determinants: The New Heavyweights](#a-id3-matrices-n-determinants-the-new-heavyweightsa3-matrices-and-determinants-the-new-heavyweights)
+6. [<a id="4-coordinate-geometry-escaping-the-time-sink"></a>4. Coordinate Geometry: Escaping the Time Sink](#a-id4-coordinate-geometry-escaping-the-time-sinka4-coordinate-geometry-escaping-the-time-sink)
+7. [<a id="5-the-introduction-of-paragraph-n-matrixmatch-evolutions"></a>5. The Introduction of Paragraph and Matrix-Match Evolutions](#a-id5-the-introduction-of-paragraph-n-matrixmatch-evolutionsa5-the-introduction-of-paragraph-and-matrix-match-evolutions)
+8. [<a id="preparing-for-2026"></a>Preparing for 2026](#a-idpreparing-for-2026apreparing-for-2026)
+9. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+10. [📚 Related Topics](#related-topics)
+11. [🪤 Common Mistakes That Cost Marks](#common-mistakes-that-cost-marks)
+12. [🔁 Last 5 Minutes Revision Box](#last-5-minutes-revision-box)
+13. [📝 Practice MCQs](#practice-mcqs)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Jee Advanced Math Difficulty Trends?](#what-is-jee-advanced-math-difficulty-trends)
@@ -56,7 +74,7 @@ The format of questions has adapted to punish rote learning. Partial marking and
 
 To adapt to this shifting curve:
 1. **Never Study Chapters and Isolation:** Mix your practice. Solve questions that combine Complex Numbers with Vectors, or Probability with Progressions.
-2. **Focus on Proofs and Properties:** Niche properties often provide the "shortcut" required to solve Advanced problems under time pressure.
+2. **Focus on Proofs and Properties:** Niche properties often provide the "shortcut" required to solve advanced problems under time pressure.
 3. **Practice Time Management:** Some problems are deliberately designed as traps to waste your time. Learning when to skip is as crucial as learning how to solve.
 
 Mastering JEE Advanced Mathematics is no longer about doing 500 repetitive problems from a coaching module; it's about doing 50 high-quality, multi-conceptual problems and deeply analyzing the underlying logic.
@@ -80,6 +98,8 @@ Continue your [revision](/blog/structure-of-atom-class-11-revision-notes-jee-nee
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Advanced%20Math%20Difficulty%20Trends%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20JEE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -102,7 +122,7 @@ When tackling JEE Advanced Mathematics, being aware of common pitfalls is crucia
 
 ## 🔁 Last 5 Minutes Revision Box
 
-In the last few minutes of the exam, revisiting key formulas and concepts can significantly boost your confidence and performance. Keep in mind:
+In the last few minutes of the exam, revisiting key formulas and [concepts](/blog/jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet) can significantly boost your confidence and performance. Keep in mind:
 - The formula for the derivative of $e^x$: $\frac{d}{dx}e^x = e^x$.
 - The relationship between the roots and coefficients of a polynomial equation: for $a_nx^n + a_{n-1}x^{n-1} + \ldots + a_1x + a_0 = 0$, the sum of the roots is $-\frac{a_{n-1}}{a_n}$.
 - The definition of the sine and cosine functions in terms of the unit circle: $\sin(\theta) = \frac{y}{r}$ and $\cos(\theta) = \frac{x}{r}$.
@@ -118,14 +138,23 @@ Testing your understanding with practice questions is essential for strengthenin
    - D) -4
    Answer: C) $f(-2) = (-2)^2 + 3(-2) + 2 = 4 - 6 + 2 = 0$, so the correct answer is A) 0.
 2. What is the value of $\sin(\frac{\pi}{3})$?
-   - A) $\frac{1}{2}$
-   - B) $\frac{\sqrt{3}}{2}$
-   - C) $\frac{\sqrt{2}}{2}$
-   - D) $1$
-   Answer: B) $\sin(\frac{\pi}{3}) = \frac{\sqrt{3}}{2}$.
+   -  $\frac{1}{2}$
+   -  $\frac{\sqrt{3}$}{2} 
+   -  $\frac{\sqrt{2}$}{2} 
+   - D) $1$ Answer: B) \sin(\frac{\pi}{3}) = \frac{\sqrt{3}}{2}. 
 3. The equation $x^2 - 5x + 6 = 0$ has roots $x_1$ and $x_2$. What is $x_1 + x_2$?
    - A) 5
    - B) 6
    - C) -5
    - D) -6
    Answer: A) By Vieta's formulas, $x_1 + x_2 = 5$.
+
+## 🔁 Last 5 Minutes Box
+
+- **Quadratic Equations**: $ax^2 + bx + c = 0$, $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ 
+   - **Trigonometric Identities**: $sin^2(x) + cos^2(x) = 1$, $sin(2x) = 2sin(x)cos(x)$ 
+   - **Vectors**: $mathbf{a} = (a_1, a_2, a_3)$, $mathbf{a} cdot mathbf{b} = a_1b_1 + a_2b_2 + a_3b_3$, $|mathbf{a}| = sqrt{a_1^2 + a_2^2 + a_3^2}$ 
+   - **Calculus**: $rac{d}{dx}x^n = nx^{n-1}$, $int x^n dx = \frac{x^{n+1}}{n+1} + C$ 
+   - **Probability**: $P(A cup B) = P(A) + P(B) - P(A cap B)$, $P(A|B) = \frac{P(A cap B)}{P(B)}$ 
+   - **Permutations and Combinations**: $n! = n \times (n-1) \times ... \times 2 \times 1$, $^nC_r = \frac{n!}{r!(n-r)!}$ 
+   - **Complex Numbers**: $z = x + iy$, $|z| = sqrt{x^2 + y^2}$, $z^{-1} = \frac{1}{z} = \frac{x - iy}{x^2 + y^2}$

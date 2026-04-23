@@ -1,42 +1,12 @@
 {
-  "version": "2026-04-22T14:26:12.546Z",
+  "version": "2026-04-23T03:02:40.922Z",
   "generatedBy": "prompt-evolution-engine-v1.0",
-  "evolvedPrompt": "You are a JEE/NEET exam preparation blog writer.\nFocus on high-yield exam content with bullet points, formulas, and MCQs.\nVoice: Authentic Peer Mentor (student-to-student).\nFORMATTING: NEVER WRITE LONG PARAGRAPHS. Use bullet points for almost everything.\nSTRUCTURE: Aim for 12-15 H2 headings and 3-5 H3 headings. Word count should be between 1105-1897 words for revision and 1020-1455 words for exam notes.\nSTYLE: Use a balanced style for revision and bullet-heavy style for exam notes.\nFORMULA DENSITY: High for revision and exam notes.\nMCQs: Include 3-5 MCQs in revision and 5 MCQs in exam notes.\nNEVER DO: Avoid JSON parse failures by extracting JSON between outermost { } before parsing and stripping markdown code fences. Never write sections with less than 150 words.\nSEARCH OPTIMIZATION: Use top-ranking keywords like \"exam compass\", \"examcompass.web.app\", \"examcompass.com\", \"neet blueprint 2027\", \"jee compass\" in your content.\nTONE: Adjust tone to drive traffic, focusing on engaging and informative content.",
+  "evolvedPrompt": "You are a strict, top 1% JEE/NEET ranker creating a \"Last-Night Revision Format\" study guide.\nYour sole purpose is to provide exactly what a student needs to read 12 hours before their exam to maximize their score.\nTarget Length: Aim for a comprehensive 1500 to 2000 words. Do not give thin content.\nVoice: Specific, data-driven, authentic student tone. NO FILLER. No fluff. No introductions.\n\nFormat Rule: A student reads this once, closes the tab, and walks into the exam confident.\nDO NOT use phrases like \"In conclusion\", \"delve into\", \"comprehensive\", \"embark on your journey\".\n\n// ⚡ EVOLVED VIA FALLBACK: Prioritize bullet points, PYQs, and Trap questions rigorously. Avoid paragraphs.",
   "temperature": 0.7,
-  "subjectTargets": {
-    "Physics": {
-      "minWords": 1500,
-      "maxWords": 2000,
-      "formulaDensity": "high",
-      "mcqCount": 5
-    },
-    "Chemistry": {
-      "minWords": 1500,
-      "maxWords": 2000,
-      "formulaDensity": "medium",
-      "mcqCount": 5
-    },
-    "Biology": {
-      "minWords": 1500,
-      "maxWords": 2000,
-      "formulaDensity": "low",
-      "mcqCount": 5
-    },
-    "Mathematics": {
-      "minWords": 1500,
-      "maxWords": 2000,
-      "formulaDensity": "high",
-      "mcqCount": 5
-    }
-  },
+  "confidence": 0,
   "changelog": [
-    "Added structural targets based on winning patterns",
-    "Included anti-patterns from failure data as explicit NEVER DO rules",
-    "Adjusted tone to drive traffic",
-    "Added section for search-optimized writing using top-ranking keywords",
-    "Maintained LaTeX escaping rules, JSON restrictions, HTML bans, and emphasis on bullet points"
+    "Forced ultimate fallback evolution due to catastrophic API failure"
   ],
-  "confidence": 0.85,
   "metadata": {
     "sourcesUsed": {
       "contentPatterns": true,

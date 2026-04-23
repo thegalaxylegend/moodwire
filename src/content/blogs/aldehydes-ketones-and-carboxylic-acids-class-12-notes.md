@@ -23,7 +23,7 @@ manualReview: false
 - Misidentifying the products of nucleophilic addition reactions involving aldehydes and ketones.
 - Not being able to distinguish between the reactions of aldehydes and ketones, such as the Pollens' test and the Feeling's test.
 
-## ✏️ 3 Solved Yes
+## ✏️ 3 Solved PYQs
 - **Question 1:** What is the product of the reaction between benzaldehyde and sodium hydroxide?
 - Step 1: Identify the reactants and the type of reaction.
 - Step 2: Determine the product of the reaction, considering the nucleophilic addition of the hydroxide ion to the carbonyl group.
@@ -114,3 +114,4 @@ Continue your revision with these related guides:
 - 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
 - 📖 [Biotechnology And Its Applications Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)
 $
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Aldehydes%20Ketones%20And%20Carboxylic%20Acids%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**

@@ -9,6 +9,35 @@ practice_link: "/class-11/physics/chemical-bonding-class-11-revision-notes-jee-n
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-chemical-bonding"></a>What is Chemical Bonding?](#a-idwhat-is-chemical-bondingawhat-is-chemical-bonding)
+3. [<a id="1-introduction-why-chemical-bonding-is-a-rank-decider"></a>1. Introduction: Why Chemical Bonding is a "Rank Decider"](#a-id1-introduction-why-chemical-bonding-is-a-rank-decidera1-introduction-why-chemical-bonding-is-a-rank-decider)
+4. [<a id="2-vbt-vs-mot-the-ultimate-theoretical-showdown"></a>2. VBT vs. MOT: The Ultimate Theoretical Showdown](#a-id2-vbt-vs-mot-the-ultimate-theoretical-showdowna2-vbt-vs-mot-the-ultimate-theoretical-showdown)
+5. [<a id="3-vsepr-theory-beyond-the-textbook"></a>3. VSEPR Theory: Beyond the Textbook](#a-id3-vsepr-theory-beyond-the-textbooka3-vsepr-theory-beyond-the-textbook)
+6. [<a id="4-the-hybridization-shortcut-formula"></a>4. The Hybridization Shortcut Formula](#a-id4-the-hybridization-shortcut-formulaa4-the-hybridization-shortcut-formula)
+7. [<a id="5-bents-rule-the-prolevel-geometric-shortcut"></a>5. Bent's Rule: The Pro-Level Geometric Shortcut](#a-id5-bents-rule-the-prolevel-geometric-shortcuta5-bents-rule-the-pro-level-geometric-shortcut)
+8. [<a id="6-fajans-rule-covalent-vs-ionic-character"></a>6. Fajan's Rule: Covalent vs. Ionic Character](#a-id6-fajans-rule-covalent-vs-ionic-charactera6-fajans-rule-covalent-vs-ionic-character)
+9. [<a id="7-dipole-moment-the-polarity-filter"></a>7. Dipole Moment: The Polarity Filter](#a-id7-dipole-moment-the-polarity-filtera7-dipole-moment-the-polarity-filter)
+10. [<a id="8-lattice-enthalpy-n-bornhaber-cycle"></a>8. Lattice Enthalpy and Born-Haber Cycle](#a-id8-lattice-enthalpy-n-bornhaber-cyclea8-lattice-enthalpy-and-born-haber-cycle)
+11. [<a id="9-resonance-the-myth-of-the-single-bond"></a>9. Resonance: The Myth of the Single Bond](#a-id9-resonance-the-myth-of-the-single-bonda9-resonance-the-myth-of-the-single-bond)
+12. [<a id="10-molecular-orbital-theory-mot-the-2121-pattern"></a>10. Molecular Orbital Theory (MOT): The 2-1-2-1 Pattern](#a-id10-molecular-orbital-theory-mot-the-2121-patterna10-molecular-orbital-theory-mot-the-2-1-2-1-pattern)
+13. [<a id="11-multicenter-bonding-the-case-of-diborane-b_2h_6"></a>11. Multi-center Bonding: The Case of Diborane ($B_2H_6$)](#a-id11-multicenter-bonding-the-case-of-diborane-b_2h_6a11-multi-center-bonding-the-case-of-diborane-b_2h_6)
+14. [<a id="12-bonding-n-biological-systems-heme-n-co-poisoning"></a>12. Bonding and Biological Systems: Heme n $CO$ Poisoning](#a-id12-bonding-n-biological-systems-heme-n-co-poisoninga12-bonding-and-biological-systems-heme-n-co-poisoning)
+15. [<a id="13-metallic-bonding-the-electron-sea-model"></a>13. Metallic Bonding: The Electron Sea Model](#a-id13-metallic-bonding-the-electron-sea-modela13-metallic-bonding-the-electron-sea-model)
+16. [<a id="14-hydrogen-bonding-onitrophenol-vs-pnitrophenol"></a>14. Hydrogen Bonding: O-Nitrophenol vs P-Nitrophenol](#a-id14-hydrogen-bonding-onitrophenol-vs-pnitrophenola14-hydrogen-bonding-o-nitrophenol-vs-p-nitrophenol)
+17. [<a id="15-the-trap-section-dragos-rule-n-octet-exceptions"></a>15. The "Trap" Section: Drago's Rule and Octet Exceptions](#a-id15-the-trap-section-dragos-rule-n-octet-exceptionsa15-the-trap-section-dragos-rule-and-octet-exceptions)
+18. [<a id="16-practice-mcqs-jeeneet-level"></a>16. Practice MCQs (JEE/NEET Level)](#a-id16-practice-mcqs-jeeneet-levela16-practice-mcqs-jeeneet-level)
+19. [<a id="17-ayushs-last-10-days-prep-strategy"></a>17. Ayush's "Last 10 Days" Prep Strategy](#a-id17-ayushs-last-10-days-prep-strategya17-ayushs-last-10-days-prep-strategy)
+20. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+21. [📚 Related Topics](#related-topics)
+22. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+23. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+24. [⚗️ Chemical Quick Reference (Verified via PubChem)](#chemical-quick-reference-verified-via-pubchem)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Chemical Bonding?](#what-is-chemical-bonding)
@@ -88,7 +117,7 @@ In JEE examinations, candidates often confuse when to use which theory. Here is 
 |:---|:---|:---|
 | **Concept** | Overlapping of atomic orbitals. | Formation of molecular orbitals. |
 | **Electron Identity** | Electrons remain localized to specific atoms. | Electrons are delocalized over the whole molecule. |
-| **Magnetic Nature** | Fails to explain paramagnetic nature ($O_2$). | Accurately predicts magnetism (Paramagnetic $O_2$). |
+| **Magnetic Nature** | fails to explain paramagnetic nature ($O_2$). | Accurately predicts magnetism (Paramagnetic $O_2$). |
 | **Complexity** | Simple for small molecules. | Mathematically complex but universally applicable. |
 | **Hybridization** | Essential for shape prediction. | Not required for bond order/magnetism. |
 
@@ -178,7 +207,7 @@ Covalent character increases when the cation is small and highly charged, or whe
 
 - Symmetrical molecules ($CCl_4$) $\rightarrow \mu = 0$.
 - Unsymmetrical molecules ($CHCl_3$) $\rightarrow \mu 
-eq 0$.
+eq $0.
 - **$NH_3$ vs. $NF_3$**: $NH_3$ has a much higher dipole moment because the lone pair and bond pair dipoles reinforce each other. In $NF_3$, the F atoms pull electrons away from the N, opposing the lone pair dipole.
 
 ---
@@ -193,9 +222,9 @@ Solubility depends on the balance between **Lattice Enthalpy** n **Hydration Ent
 
 ### <a id="the-bornhaber-cycle-example-nacl"></a>The Born-Haber Cycle Example ($NaCl$)
 To calculate the Lattice Enthalpy of $NaCl$, we use a cycle:
-1.    Sublimation of Na(s) \rightarrow Na(g). 
-2.    Ionization of Na(g) \rightarrow Na^+(g). 
-3.    Dissociation of Cl_2(g) \rightarrow 2Cl(g). 
+1.     Sublimation of Na(s) \rightarrow Na(g). 
+2.     Ionization of Na(g) \rightarrow Na^+(g). 
+3.     Dissociation of Cl_2(g) \rightarrow 2Cl(g). 
 4. Electron Gain of $Cl(g) \rightarrow Cl^-(g)$.
 5. Formation of $NaCl$ from ions.
 The \sum equals the $\delta H_f$. This cycle is a favorite for numerical questions and JEE Advanced.
@@ -320,7 +349,7 @@ D) Non-magnetic
 
 ## <a id="17-ayushs-last-10-days-prep-strategy"></a>17. Ayush's "Last 10 Days" Prep Strategy
 
-When I was 10 days away from my JEE Main, I stopped doing whole new chapters. For Chemical Bonding, I just did two things:
+When I was 10 days away from my JEE Main, I stopped doing whole new chapters. For [Chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) Bonding, I just did two things:
 1. **The Grid**: I made a grid of all MOT bond orders from 10 to 20 electrons. 
 2. **The "Why" List**: I wrote down why $XeF_2$ is linear but $H_2O$ is bent. These comparisons are what the NTA loves to test.
 
@@ -354,6 +383,8 @@ Continue your [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) wit
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/chemical-bonding-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Chemical%20Bonding%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

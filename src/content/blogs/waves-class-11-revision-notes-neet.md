@@ -58,7 +58,7 @@ practice_link: "/class-11/biology/waves-class-11-revision-notes-neet"
 
 ## <a id="introduction"></a>Introduction
 
-Waves are the carriers of energy and information across the universe. From the seismic tremors that reshape continents to the electromagnetic signals that power the internet, the movement of energy through a medium (or vacuum) defines our modern reality. This final chapter of class 11 Physics, "Waves," is the culmination of everything we have learned about mechanics and oscillations. It describes how a disturbance and one part of a medium propagates to another, without the actual transport of matter. In this "Comprehensive" guide, we provide the most exhaustive technical derivations available—from Laplace's correction for the speed of sound to the complex geometry of the Doppler Effect—ensuring you are fully equipped for JEE, NEET, n Board exams.
+Waves are the carriers of energy and information across the universe. From the seismic tremors that reshape continents to the electromagnetic signals that power the internet, the movement of energy through a medium (or vacuum) defines our modern reality. This final chapter of class 11 Physics, "Waves," is the culmination of everything we have learned about mechanics and oscillations. It describes how a disturbance and one part of a medium propagates to another, without the actual transport of [matter](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet). In this "Comprehensive" guide, we provide the most exhaustive technical derivations available—from Laplace's correction for the speed of sound to the complex geometry of the Doppler Effect—ensuring you are fully equipped for JEE, NEET, n Board exams.
 
 ---
 

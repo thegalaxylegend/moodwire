@@ -9,6 +9,25 @@ practice_link: "/class-11/biology/locomotion-n-movement-class-11-revision-notes-
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-locomotion-n-movement"></a>What is Locomotion And Movement?](#a-idwhat-is-locomotion-n-movementawhat-is-locomotion-and-movement)
+3. [<a id="introduction-to-locomotion-n-movement"></a>Introduction to Locomotion and Movement](#a-idintroduction-to-locomotion-n-movementaintroduction-to-locomotion-and-movement)
+4. [<a id="types-of-locomotion-n-movement"></a>Types of Locomotion and Movement](#a-idtypes-of-locomotion-n-movementatypes-of-locomotion-and-movement)
+5. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+6. [<a id="formulae-n-equations"></a>Formulae and Equations](#a-idformulae-n-equationsaformulae-and-equations)
+7. [<a id="jeeneet-data"></a>JEE/NEET Data](#a-idjeeneet-dataajeeneet-data)
+8. [<a id="core-concepts-n-formulae-summary"></a>Core Concepts and Formulae Summary](#a-idcore-concepts-n-formulae-summaryacore-concepts-and-formulae-summary)
+9. [<a id="practice-questions"></a>Practice Questions](#a-idpractice-questionsapractice-questions)
+10. [<a id="answer-key"></a>Answer Key](#a-idanswer-keyaanswer-key)
+11. [<a id="summary-of-key-points"></a>Summary of Key Points](#a-idsummary-of-key-pointsasummary-of-key-points)
+12. [<a id="jeeneet-preparation-tips"></a>JEE/NEET Preparation Tips](#a-idjeeneet-preparation-tipsajeeneet-preparation-tips)
+13. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+14. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Locomotion And Movement?](#what-is-locomotion-n-movement)
@@ -45,7 +64,7 @@ There are several types of locomotion and movement, each with its unique charact
 
 To understand locomotion and movement, it is essential to grasp some core concepts, including:
 
-* **Muscle Structure and Function**: Muscles are the primary organs responsible for movement and locomotion. They consist of contractile units called sarcomeres, which generate force through the sliding filament theory.
+* **Muscle [Structure](/blog/structure-of-the-atom-class-11-revision-notes-neet) and Function**: Muscles are the primary organs responsible for movement and locomotion. They consist of contractile units called sarcomeres, which generate force through the sliding filament theory.
 * **Nervous System [control](/blog/neural-control-n-coordination-class-11-revision-notes-neet)**: The nervous system and controlling movement and locomotion. It transmits signals from the brain to the muscles, allowing for coordinated and precise movement.
 * **Skeletal System Support**: The skeletal system provides support and structure for movement and locomotion. It consists of bones, cartilage, n ligaments that work together to facilitate movement.
 
@@ -135,6 +154,8 @@ Continue your [revision](/blog/animal-kingdom-class-11-revision-notes-neet) with
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/locomotion-n-movement-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Locomotion%20And%20Movement%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -145,3 +166,35 @@ Continue your [revision](/blog/animal-kingdom-class-11-revision-notes-neet) with
 - 📖 [Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/body-fluids-n-circulation-class-11-revision-notes-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+- **Incorrectly identifying the type of joint**: Students often confuse between different types of joints such as ball and socket, hinge, pivot, and plane joints. 
+   - **Forgetting the difference between voluntary and involuntary movements**: It's essential to understand that voluntary movements are under conscious [control](/blog/neural-control-and-coordination-class-11-revision-notes-neet), while involuntary movements are not. 
+   - **Not understanding the role of muscles in locomotion**: Muscles play a crucial role in movement, and it's vital to know how different types of muscles (skeletal, smooth, and cardiac) contribute to locomotion. 
+   - **Mixing up the functions of bones and cartilages**: Bones provide support and protection, while cartilages provide flexibility and reduce friction between joints. 
+   - **Overlooking the importance of the nervous system in controlling movement**: The nervous system, including the brain, spinal cord, and nerves, plays a critical role in controlling and coordinating movement
+
+## 🔁 Last 5 Minutes Box
+
+* **Types of Movement**: 
+     + Amoeboid movement 
+     + Ciliary movement 
+     + Muscular movement 
+   * **Muscular Movement**: 
+     + Skeletal muscles 
+     + Smooth muscles 
+     + Cardiac muscles 
+   * **Human Skeleton**: 
+     + Axial skeleton (80 bones) 
+     + Appendicular skeleton (126 bones) 
+   * **Joints**: 
+     + Fibrous joints 
+     + Cartilaginous joints 
+     + Synovial joints 
+   * **Muscle Fibers**: 
+     + Red fibers (slow-twitch) 
+     + White fibers (fast-twitch) 
+   * **Neuromuscular Junction**: 
+     + Synaptic cleft 
+     + Neurotransmitters (acetylcholine)

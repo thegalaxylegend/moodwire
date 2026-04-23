@@ -23,12 +23,12 @@ manualReview: false
 - Confusing the terms 'endemic' and 'indigenous'.
 - Not knowing the importance of biodiversity hotspots and their locations.
 
-## ✏️ 3 Solved Yes
+## ✏️ 3 Solved PYQs
 - **Question 1:** What is the significance of biodiversity hotspots?
-- Biodiversity hotspots are areas with high levels of endemism, where a large number of species are found only in that particular area.
-- These areas are significant because they support a large number of endemic species and are often threatened by human activities such as deforestation and habitat destruction.
+- Biodiversity hotspots are areas with high levels of endemism, where many species are found only in that particular area.
+- These areas are significant because they support many endemic species and are often threatened by human activities such as deforestation and habitat destruction.
 - **Question 2:** Calculate the species density of a forest with 50 species of trees in an area of 100 $km^2$.
-- Species density = $\franc{Species\ Richness}{Area}$ = $\franc{50}{100}$ = 0.5 species per km^2$.
+- Species density = $\franc{Species\ Richness}{Area}$ = $\franc{50}{100}$ = 0.5 species per km^$2.
 - **Question 3:** What is the difference between the Shannon-Wiener Diversity Index and Simpson's Diversity Index?
 - The Shannon-Wiener Diversity Index takes into account the proportion of each species in the community, while Simpson's Diversity Index takes into account the probability that two individuals randomly selected from the community belong to the same species.
 
@@ -98,7 +98,7 @@ D) Asian lion
 
 **5. What is the significance of biodiversity hotspots?**
 -
-A) They support a large number of endemic species
+A) They support many endemic species
 -
 B) They are areas with low levels of endemism
 -
@@ -106,7 +106,7 @@ C) They are areas with high levels of species richness
 -
 D) They are areas with low levels of species density
 
-**Answer: A) They support a large number of endemic species.**
+**Answer: A) They support many endemic species.**
 
 ---
 
@@ -115,6 +115,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Biodiversity%20And%20Conservation%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

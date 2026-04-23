@@ -28,7 +28,7 @@ practice_link: "/class-11/physics/probability-intro-class-11-revision-notes-jee"
 
 ## <a id="what-is-probability-intro"></a>What is Probability (Intro)?
 
-As we begin our journey through the realm of probability, it's essential to understand the significance of this concept and our daily lives and its weightage and the class 11 exam. Probability is a fundamental concept and mathematics that deals with chance events, n its applications are vast and diverse. From predicting the outcome of a coin toss to analyzing complex data and fields like medicine and finance, probability .
+As we begin our journey through the realm of probability, it's essential to understand the significance of this concept and our daily lives and its weightage and the class 11 exam. Probability is a fundamental concept and mathematics that deals with chance events, n its applications are vast and diverse. From predicting the outcome of a coin toss to analyzing complex [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) and fields like medicine and finance, probability .
 
 In the class 11 exam, probability carries a significant weightage of around 10-12% n the mathematics paper. This means that out of the total 100 marks, 10-12 marks are allocated to probability-related questions. The questions can range from simple probability problems to more complex ones involving conditional probability, independence, n the concept of random variables. The exam typically includes a mix of theoretical and numerical problems, with some questions requiring the application of probability concepts to real-life scenarios.
 

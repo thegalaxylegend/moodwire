@@ -9,6 +9,24 @@ practice_link: "/class-11/biology/morphology-of-flowering-plants-class-11-revisi
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-morphology-of-flowering-plants"></a>What is Morphology Of Flowering Plants?](#a-idwhat-is-morphology-of-flowering-plantsawhat-is-morphology-of-flowering-plants)
+3. [<a id="introduction-to-morphology-of-flowering-plants"></a>Introduction to Morphology of Flowering Plants](#a-idintroduction-to-morphology-of-flowering-plantsaintroduction-to-morphology-of-flowering-plants)
+4. [<a id="why-this-chapter-matters"></a>Why This Chapter Matters](#a-idwhy-this-chapter-mattersawhy-this-chapter-matters)
+5. [<a id="ayushs-note"></a>Ayush's Note](#a-idayushs-noteaayushs-note)
+6. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+7. [<a id="shortcut-formula-trick"></a>Shortcut Formula / Trick](#a-idshortcut-formula-trickashortcut-formula-trick)
+8. [<a id="trap-questions-exceptions"></a>Trap Questions / Exceptions](#a-idtrap-questions-exceptionsatrap-questions-exceptions)
+9. [<a id="practice-mcqs"></a>Practice MCQs](#a-idpractice-mcqsapractice-mcqs)
+10. [<a id="related-notes-links"></a>Related Notes Links](#a-idrelated-notes-linksarelated-notes-links)
+11. [<a id="last-updated-date"></a>Last Updated Date](#a-idlast-updated-datealast-updated-date)
+12. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+13. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Morphology Of Flowering Plants?](#what-is-morphology-of-flowering-plants)
@@ -49,7 +67,7 @@ Morphology of flowering plants is the study of the shape and structure of plants
 
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 
-This chapter is crucial for students preparing for class 11 exams, as it covers a significant portion of the biology syllabus. In the 2022 class 11 exams, 5 questions were asked from this topic, with a total of 20 marks. Understanding the morphology of flowering plants is also essential for students preparing for competitive exams like NEET and JEE.
+This chapter is crucial for students preparing for class 11 exams, as it covers a significant portion of the biology syllabus. In the 2022 class 11 exams, 5 questions were asked from this topic, with a total of 20 marks. Understanding the morphology of flowering [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) is also essential for students preparing for competitive exams like NEET and JEE.
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
@@ -165,6 +183,8 @@ Continue your [revision](/blog/biological-classification-class-11-revision-notes
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/morphology-of-flowering-plants-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Morphology%20Of%20Flowering%20Plants%20Class%2011%20Biology%20Revision%20%E2%80%94%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -175,3 +195,15 @@ Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-n
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
 - 📖 [Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/plant-growth-n-development-class-11-revision-notes-neet)
+
+## 🔁 Last 5 Minutes Box
+
+* **Root**: Tap root, adventitious, modification of root (storage, mechanical, respiratory, assimilatory, reproductive)
+   * **Stem**: Herbaceous, woody, climber, twiners, tendrils, thorns, phylloclade
+   * **Leaf**: Simple, compound, venation (reticulate, parallel), phyllotaxy (alternate, opposite, whorled), leaf modification (scale leaf, spine, tendrils)
+   * **Inflorescence**: Raceme, spike, catkin, corymb, umbel, head, capitulum
+   * **Flower**: Complete, incomplete, unisexual, bisexual, actinomorphic, zygomorphic, asclepiadous
+   * **Androecium**: Monadelphous, diadelphous, polyadelphous, synantherous
+   * **Gynoecium**: Apocarpous, syncarpous, monomerous, dimorous, trimerous
+   * **Fruit**: Simple (drupe, berry, pome), aggregate, multiple, accessory
+   * **Seed**: Epicotyl, hypocotyl, radicle, cotyledon, embryo

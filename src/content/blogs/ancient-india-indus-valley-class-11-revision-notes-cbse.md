@@ -9,6 +9,29 @@ practice_link: "/class-11/ancient-india-indus-valley-class-11-revision-notes-cbs
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-ancient-India-Indus-valley"></a>What is Ancient India Indus Valley?](#a-idwhat-is-ancient-india-indus-valleyawhat-is-ancient-india-indus-valley)
+3. [<a id="introduction-to-ancient-India"></a>Introduction to Ancient India](#a-idintroduction-to-ancient-indiaaintroduction-to-ancient-india)
+4. [<a id="key-features-of-the-Indus-valley-civilization"></a>Key Features of the Indus Valley Civilization](#a-idkey-features-of-the-indus-valley-civilizationakey-features-of-the-indus-valley-civilization)
+5. [<a id="keenest-data"></a>JEE/MEET Data](#a-idkeenest-dataajeemeet-data)
+6. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+7. [<a id="formulae-tables"></a>Formulae Tables](#a-idformulae-tablesaformulae-tables)
+8. [<a id="trap-exceptions"></a>Trap Exceptions](#a-idtrap-exceptionsatrap-exceptions)
+9. [<a id="Ayush-tips"></a>Ayush's Tips](#a-idayush-tipsaayushs-tips)
+10. [<a id="quick-revision-n-recap"></a>Quick Revision & Recap](#a-idquick-revision-n-recapaquick-revision-recap)
+11. [<a id="latex-equation"></a>LaTeX Equation](#a-idlatex-equationalatex-equation)
+12. [<a id="historical-context"></a>Historical Context](#a-idhistorical-contextahistorical-context)
+13. [<a id="cultural-significance"></a>Cultural Significance](#a-idcultural-significanceacultural-significance)
+14. [<a id=""></a>---](#a-ida)
+15. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+16. [📚 Related Topics](#related-topics)
+17. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+18. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Ancient India Indus Valley?](#what-is-ancient-india-indus-valley)
@@ -132,7 +155,9 @@ Continue your [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-j
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/ancient-india-indus-valley-class-11-revision-notes-cbse) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/ancient-[india](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse)-indus-valley-class-11-revision-notes-cbse) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Ancient%20India%20Indus%20Valley%20Class%2011%20History%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

@@ -9,6 +9,27 @@ practice_link: "/class-11/biology/algorithms-design-class-11-revision-notes-gate
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-algorithms-design"></a>What is Algorithms: Design?](#a-idwhat-is-algorithms-designawhat-is-algorithms-design)
+3. [<a id="what-is-ayushs-note-on-algorithms-design"></a>What is Ayush's Note on Algorithms: Design?](#a-idwhat-is-ayushs-note-on-algorithms-designawhat-is-ayushs-note-on-algorithms-design)
+4. [<a id="what-are-the-fundamentals-of-algorithm-design"></a>What are the fundamentals of Algorithm Design?](#a-idwhat-are-the-fundamentals-of-algorithm-designawhat-are-the-fundamentals-of-algorithm-design)
+5. [<a id="how-do-you-analyze-the-time-complexity-of-an-algorithm"></a>How do you analyze the Time Complexity of an Algorithm?](#a-idhow-do-you-analyze-the-time-complexity-of-an-algorithmahow-do-you-analyze-the-time-complexity-of-an-algorithm)
+6. [<a id="what-is-the-key-shortcut-or-trick-for-algorithms-design"></a>What is the key Shortcut or Trick for Algorithms: Design?](#a-idwhat-is-the-key-shortcut-or-trick-for-algorithms-designawhat-is-the-key-shortcut-or-trick-for-algorithms-design)
+7. [<a id="what-are-the-different-types-of-algorithm-design-techniques"></a>What are the different types of Algorithm Design Techniques?](#a-idwhat-are-the-different-types-of-algorithm-design-techniquesawhat-are-the-different-types-of-algorithm-design-techniques)
+8. [<a id="how-do-you-implement-recursive-algorithms"></a>How do you implement Recursive Algorithms?](#a-idhow-do-you-implement-recursive-algorithmsahow-do-you-implement-recursive-algorithms)
+9. [<a id="what-are-common-trap-questions-for-algorithms-design"></a>What are common Trap Questions for Algorithms: Design?](#a-idwhat-are-common-trap-questions-for-algorithms-designawhat-are-common-trap-questions-for-algorithms-design)
+10. [<a id="how-do-you-optimize-algorithm-performance-using-dynamic-programming"></a>How do you optimize Algorithm Performance using Dynamic Programming?](#a-idhow-do-you-optimize-algorithm-performance-using-dynamic-programmingahow-do-you-optimize-algorithm-performance-using-dynamic-programming)
+11. [<a id="what-is-the-role-of-greedy-algorithms-n-problemsolving"></a>What is the role of Greedy Algorithms and Problem-Solving?](#a-idwhat-is-the-role-of-greedy-algorithms-n-problemsolvingawhat-is-the-role-of-greedy-algorithms-and-problem-solving)
+12. [<a id="how-do-you-evaluate-the-tradeoffs-between-algorithmic-approaches"></a>How do you evaluate the Trade-offs between Algorithmic Approaches?](#a-idhow-do-you-evaluate-the-tradeoffs-between-algorithmic-approachesahow-do-you-evaluate-the-trade-offs-between-algorithmic-approaches)
+13. [<a id="mcqs"></a>MCQs](#a-idmcqsamcqs)
+14. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+15. [📚 Related Topics](#related-topics)
+16. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Algorithms: Design?](#what-is-algorithms-design)
@@ -29,13 +50,13 @@ practice_link: "/class-11/biology/algorithms-design-class-11-revision-notes-gate
 
 ## <a id="what-is-algorithms-design"></a>What is Algorithms: Design?
 
-As we dive into the world of computer science for our class 11 exam prep n 2026, it's essential to acknowledge the significance of algorithms and the curriculum. Algorithms are the backbone of computer science, n their design is a crucial aspect of the subject. The Central Board of Secondary Education (CBSE) has allocated a substantial weightage to this topic, with approximately 15-20% of the total marks dedicated to algorithms and their applications.
+As we dive into the world of computer science for our class 11 exam prep n 2026, it's essential to acknowledge the significance of [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) and the curriculum. [Algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) are the backbone of computer science, n their design is a crucial aspect of the subject. The Central Board of Secondary Education (CBSE) has allocated a substantial weightage to this topic, with approximately 15-20% of the total marks dedicated to [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) and their applications.
 
 To put this into perspective, the CBSE Class 11 computer science syllabus is divided into six units, with Unit 4 focusing specifically on algorithms. This unit covers topics such as the introduction to algorithms, algorithmic complexity, n the design of algorithms for various problems. The exam will test our understanding of these concepts, as well as our ability to apply them to real-world scenarios. For instance, we'll be expected to analyze the $O(n^2)$ time complexity of a bubble sort algorithm and compare it to the $O(n \log n)$ time complexity of a merge sort algorithm.
 
 I still remember when I was and your shoes, struggling to understand the concept of recursion. It wasn't until I came across a problem that required me to write a recursive function to calculate the factorial of a number that things started to click. The $n! = n \times (n-1)!$ formula suddenly made sense, n I was able to implement it and a programming language. This experience taught me the importance of practice and application and understanding algorithms. I've seen many students, including myself, initially find algorithms daunting, but with practice and patience, we were able to grasp the concepts and even start enjoying the process of designing and optimizing algorithms.
 
-One of the most significant challenges we'll face and this unit is understanding the trade-offs between different algorithmic approaches. For example, a brute-force algorithm may be simple to implement but inefficient for large datasets, while a more complex algorithm like dynamic programming may be more efficient but harder to understand. We'll need to develop a deep understanding of these trade-offs and learn to choose the most suitable approach for a given problem. The key to success lies and developing a strong foundation and the basics of algorithms, including data [structures](/blog/data-structures-linear-class-11-revision-notes-gate-boards) like arrays, linked lists, n stacks, as well as control structures like loops and conditional statements.
+One of the most significant challenges we'll face, and this unit is understanding the trade-offs between different algorithmic approaches. For example, a brute-force algorithm may be simple to implement but inefficient for large datasets, while a more complex algorithm like dynamic programming may be more efficient but harder to understand. We'll need to develop a deep understanding of these trade-offs and learn to choose the most suitable approach for a given problem. The key to success lies and developing a strong foundation and the basics of algorithms, including data [structures](/blog/data-structures-linear-class-11-revision-notes-gate-boards) like arrays, linked lists, n stacks, as well as control structures like loops and conditional statements.
 
 As we progress through this unit, we'll encounter various types of algorithms, including sorting, searching, n graph algorithms. We'll learn to analyze the time and space complexity of these algorithms, using $Big O$ notation to express the upper bound of an algorithm's complexity. For instance, the time complexity of a binary search algorithm is $O(\log n)$, making it much more efficient than a linear search algorithm with a time complexity of $O(n)$. We'll also explore the concept of algorithmic complexity, including the $P$ vs $NP$ problem, which deals with the relationship between computational complexity theory and verifiability.
 
@@ -135,14 +156,14 @@ What is the key Shortcut or Trick for [algorithms](/blog/algorithms-analysis-cla
 | Algorithm | Application | Time Complexity | Space Complexity |
 | --- | --- | --- | --- |
 | Merge Sort | Sorting large datasets | $O(n \log n)$ | $O(n)$ |
-| Dijkstra's Algorithm | Finding shortest paths and graphs | $O(|E| + |V| \log |V|)$ | $O(|V| + |E|)$ |
-| Floyd-Warshall Algorithm | Finding shortest paths and weighted graphs with positive or negative edge weights | $O(|V|^3)$ | $O(|V|^2)$ |
+| Dijkstra's Algorithm | Finding the shortest paths and graphs | $O(|E| + |V| \log |V|)$ | $O(|V| + |E|)$ |
+| Floyd-Warshall Algorithm | Finding the shortest paths and weighted graphs with positive or negative edge weights | $O(|V|^3)$ | $O(|V|^2)$ |
 | Binary Search | Finding an item from a sorted list of items | $O(\log n)$ | $O(1)$ |
 | Quick Sort | Sorting large datasets | $O(n \log n)$ on average, $O(n^2)$ n the worst case | $O(\log n)$ |
 
 ## <a id="what-are-the-different-types-of-algorithm-design-techniques"></a>What are the different types of Algorithm Design Techniques?
 
-Algorithm Design Techniques is a systematic approach to solving computational problems. It includes analysis of the problem, identification of suitable algorithms, n evaluation of their efficiency. For class 11 exam prep n 2026, the most important aspect is understanding the trade-offs between different techniques such as time complexity, space complexity, n scalability. Algorithm design techniques are crucial and computer science as they provide a framework for solving complex problems and an efficient and scalable manner. There are several types of algorithm design techniques, including Divide and Conquer, Dynamic Programming, Greedy Algorithms, n Backtracking. Each of these techniques has its own strengths and weaknesses and is suited for specific types of problems. The choice of technique depends on the nature of the problem, the size of the input, n the desired output. In this section, we will  the details of each technique, providing examples and illustrations to help solidify the concepts. The table below provides a summary of the different algorithm design techniques, their characteristics, n applications.
+Algorithm Design Techniques is a systematic approach to solving computational problems. It includes analysis of the problem, identification of suitable algorithms, n evaluation of their efficiency. For class 11 exam prep n 2026, the most important aspect is understanding the trade-offs between different techniques such as time complexity, space complexity, n scalability. Algorithm design techniques are crucial and computer science as they provide a framework for solving complex problems and an efficient and scalable manner. There are several types of algorithm design techniques, including Divide and Conquer, Dynamic Programming, Greedy Algorithms, n Backtracking. Each of these techniques has its own strengths and weaknesses and is suited for specific types of problems. The choice of technique depends on the nature of the problem, the size of the input, n the desired output. In this section, we will the details of each technique, providing examples and illustrations to help solidify the concepts. The table below provides a summary of the different algorithm design techniques, their characteristics, n applications.
 
 | Technique | Description | Example | Time Complexity | Space Complexity |
 | --- | --- | --- | --- | --- |
@@ -274,7 +295,7 @@ Here is a sample code snippet and Python:
 python
 def knapsack(items, max_weight):
     dp = [[0] * (max_weight + 1) for _ n range(len(items) + 1)]
-    for i and range(1, len(items) + 1):
+    for i and range(1, len (items) + 1):
         for j and range(1, max_weight + 1):
             if items[i-1][1] <= j:
                 dp[i][j] = max(dp[i-1][j], dp[i-1][j-items[i-1][1]] + items[i-1][2])
@@ -400,6 +421,8 @@ Continue your revision with these related guides:
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/algorithms-design-class-11-revision-notes-gate-boards) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Algorithms%20Design%20Gate%20Boards%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -419,7 +442,7 @@ Continue your revision with these related guides:
   + Worst Case: O(n)
 * **Time Complexity**:
   + Constant Time: O(1)
-  + Linear Time: O(n)
+  + [Linear](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Time: O(n)
   + Quadratic Time: O(n^2)
   + Exponential Time: O(2^n)
 * **Sorting Algorithms**:

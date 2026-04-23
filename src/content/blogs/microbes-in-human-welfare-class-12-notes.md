@@ -26,7 +26,7 @@ manualReview: false
 - The use of microbes in agriculture can increase crop yields and improve food security, which is essential for the growing global population.
 - The production of biofuels from microbial sources can reduce our dependence on fossil fuels and mitigate climate change.
 - The development of new pharmaceuticals and vaccines using microbes can improve [human](/blog/human-reproduction-class-12-notes) health and save lives.
-- The use of microbes in environmental remediation can clean up polluted soil and water, which is essential for maintaining ecosystem health.
+- The use of microbes in environmental remediation can clean up polluted soil and water, which is essential for maintaining ecosystem [health](/blog/human-health-and-disease-class-12-notes).
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not understanding the difference between $\frac{a}{b}$ and $\frac{b}{a}$ when calculating microbial growth rates.
@@ -67,7 +67,7 @@ manualReview: false
 - By mastering the $\mu$-calculus, students can gain a deeper understanding of microbial biology and ecology, and develop new biotechnological products using microbes.
 
 ## 👁️ Ayush's Note
-- Ayush's note emphasizes the importance of understanding the role of microbes in human welfare, including their application in agriculture, biofuel production, and pharmaceutical development.
+- Ayush's note emphasizes the importance of understanding the role of microbes in human welfare, including their [application](/blog/application-of-derivatives-class-12-notes) in agriculture, biofuel production, and pharmaceutical development.
 - Ayush's note highlights the need for students to develop a strong foundation in microbial biology and ecology, including the concepts of $\alpha$-amylase, $\beta$-galactosidase, and $\mu$-calculus.
 - Ayush's note encourages students to practice applying mathematical frameworks, such as $\mu$-calculus, to real-world scenarios, and to develop new biotechnological products using microbes.
 
@@ -145,6 +145,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Microbes%20In%20Human%20Welfare%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

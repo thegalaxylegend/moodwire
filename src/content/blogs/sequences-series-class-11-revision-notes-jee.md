@@ -45,7 +45,7 @@ practice_link: "/class-11/mathematics/sequences-series-class-11-revision-notes-j
 
 ## <a id="introduction"></a>Introduction
 
-**Sequences and Series describe mathematical patterns and progressions, forming the basis for growth modeling and summation and calculus and finance. Master Arithmetic Progression (AP), Geometric Progression (GP), n the powerful AM-GM relationship to solve complex numerical patterns and competitive exams. This class 11 Math Chapter 9 summary provides all essential formulas for JEE and CBSE success.**
+**Sequences and Series describe [mathematical](/blog/mathematical-reasoning-class-11-revision-notes-jee-neet) patterns and progressions, forming the basis for growth modeling and summation and calculus and finance. Master Arithmetic Progression (AP), Geometric Progression (GP), n the powerful AM-GM relationship to solve complex numerical patterns and competitive exams. This class 11 Math Chapter 9 summary provides all essential formulas for JEE and CBSE success.**
 Sequences and Series are the [mathematical](/blog/mathematical-reasoning-class-11-revision-notes-jee-neet) representation of progression and patterns.
 
 ---

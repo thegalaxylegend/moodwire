@@ -18,7 +18,7 @@ eq $\frac{b_1}{b_2}.
 - If $\frac{a_1}{a_2} = \frac{b_1}{b_2} = \frac{c_1}{c_2}$, then the equations have infinitely many solutions.
 - If $\frac{a_1}{a_2} = \frac{b_1}{b_2} 
 eq $\frac{c_1}{c_2}, then the equations have no solution.
-- The graph of a linear equation is a straight line, and the solution of a pair of linear equations is the point of intersection of the two lines.
+- The graph of a linear equation is a straight line, and the solution of a pair of linear [equations](/blog/quadratic-equations-class-10-notes) is the point of intersection of the two lines.
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not checking if the equations are consistent or inconsistent before solving them.

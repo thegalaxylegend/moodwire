@@ -59,7 +59,7 @@ practice_link: "/class-11/physics/structure-of-atom-class-11-revision-notes-jee-
 
 ## <a id="1-introduction-from-billiard-balls-to-probability-clouds"></a>1. Introduction: From Billiard Balls to Probability Clouds
 
-**Atomic Structure is the study of the composition, arrangement, n behavior of subatomic particles within an atom.**
+**Atomic [Structure](/blog/structure-of-the-atom-class-11-revision-notes-neet) is the study of the composition, arrangement, n behavior of subatomic particles within an atom.**
 
 Most students treat this chapter as a bunch of formulas to memorize. I did the same until I realized that every single formula (like Bohr's energy or de Broglie's wavelength) is a tool to solve a specific type of JEE problem. You don't need to be a theoretical physicist; you just need to understand the *transition* from classical models that failed (like Rutherford's) to the quantum reality that defines modern [chemistry](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet).
 

@@ -9,22 +9,22 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
--   \INT $\franc{1}{x}$ DX = \ln|x| + C 
--   \INT e^x DX = e^x + C 
--   \INT \sin x DX = -\cos x + C 
--   \INT \cos x DX = \sin x + C 
--   \INT \tan x DX = -\ln|\cos x| + C 
-- $\INT \franc{1}{\sort{1-x^2}} DX = \sin^{-1}x + CD
--   \(suggestion limit reached) $\(suggestion limit reached){1}{1+x^2}$ (suggestion limit reached) = \tan^{-1}x + C 
-- $\(suggestion limit reached) \(suggestion limit reached){1}{x\(suggestion limit reached){x^2-1}} (suggestion limit reached) = \sec^{-1}x + (suggestion limit reached)
-- $\(suggestion limit reached) \(suggestion limit reached){1}{x\(suggestion limit reached){x^2-1}} (suggestion limit reached) = \cosh^{-1}x + (suggestion limit reached)
--   \(suggestion limit reached) x^n (suggestion limit reached) = $\(suggestion limit reached){x^{n+1}$}{n+1} + C, n 
-(suggestion limit reached) -1$
-- $\(suggestion limit reached) \(suggestion limit reached){1}{x^2+a^2} (suggestion limit reached) = \(suggestion limit reached){1}{a} \tan^{-1} \(suggestion limit reached){x}{a} + (suggestion limit reached)
-- $\(suggestion limit reached) \(suggestion limit reached){1}{x^2-a^2} (suggestion limit reached) = \(suggestion limit reached){1}{2a} \ln \left| \(suggestion limit reached){x-a}{x+a} \right| + (suggestion limit reached)
-- $\(suggestion limit reached) \(suggestion limit reached){a^2-x^2} (suggestion limit reached) = \(suggestion limit reached){x}{2} \(suggestion limit reached){a^2-x^2} + \(suggestion limit reached){a^2}{2} \sin^{-1} \(suggestion limit reached){x}{a} + (suggestion limit reached)
-- $\(suggestion limit reached) \(suggestion limit reached){x^2-a^2} (suggestion limit reached) = \(suggestion limit reached){x}{2} \(suggestion limit reached){x^2-a^2} - \(suggestion limit reached){a^2}{2} \ln \left| x + \(suggestion limit reached){x^2-a^2} \right| + (suggestion limit reached)
-- $\(suggestion limit reached) \(suggestion limit reached){x^2+a^2} (suggestion limit reached) = \(suggestion limit reached){x}{2} \(suggestion limit reached){x^2+a^2} + \(suggestion limit reached){a^2}{2} \ln \left| x + \(suggestion limit reached){x^2+a^2} \right| + (suggestion limit reached)
+-    \int \franc{1}{x} DX = \ln|x| + C 
+-    \int e^x DX = e^x + C 
+-    \int \sin x DX = -\cos x + C 
+-    \int \cos x DX = \sin x + C 
+-    \int \tan x DX = -\ln|\cos x| + C 
+- $\int \franc{1}{\sort{1-x^2}} DX = \sin^{-1}x + CD
+-    \ \{1}{1+x^2}  = \tan^{-1}x + C 
+- $\ \{1}{x\{x^2-1}}  = \sec^{-1}x + 
+-  \ \{1}{x\{x^2-1}}  = \cosh^{-1}x + 
+-   \ x^n  = $\{x^{n+1}$}{n+1} + C, n 
+ -$1
+-  \ \{1}{x^2+a^2}  = \{1}{a} \tan^{-1} \{x}{a} + 
+- $\ \{1}{x^2-a^2}  = \{1}{2a} \ln \left| \{x-a}{x+a} \right| + 
+- $\ \{a^2-x^2}  = \{x}{2} \{a^2-x^2} + \{a^2}{2} \sin^{-1} \{x}{a} + 
+- $\ \{x^2-a^2}  = \{x}{2} \{x^2-a^2} - \{a^2}{2} \ln \left| x + \{x^2-a^2} \right| + 
+- $\ \{x^2+a^2}  = \{x}{2} \{x^2+a^2} + \{a^2}{2} \ln \left| x + \{x^2+a^2} \right| + 
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not checking the limits of integration
@@ -33,27 +33,27 @@ manualReview: false
 - Not simplifying the integral before evaluating it
 - Not using the properties of definite integrals to simplify the problem
 
-## ✏️ 3 Solved Yes
-- **PDQ 1:** Evaluate $\INT \franc{1}{x^2+4x+5} DX
-  - Let ex^2+4x+5 = (x+2)^2+1$
-  -   $\franc{1}{x^2+4x+5}$ DX = \INT $\franc{1}{(x+2)^2+1}$ DX 
+## ✏️ 3 Solved PYQs
+- **PDQ 1:** Evaluate $\int \franc{1}{x^2+4x+5} DX
+  - Let ex^2+4x+5 = (x+2)^2+$1
+  -    ranc{1}{x^2+4x+5} DX = \int \franc{1}{(x+2)^2+1} DX 
   - Substitute ex+2 = to, DX = DT
-  -   $\franc{1}{(x+2)^2+1}$ (suggestion limit reached) = \(suggestion limit reached) $\(suggestion limit reached){1}{t^2+1}$ (suggestion limit reached) 
-  -   $\(suggestion limit reached){1}{t^2+1}$ (suggestion limit reached) = \tan^{-1’t + C 
-  -   $\(suggestion limit reached){1}{x^2+4x+5}$ (suggestion limit reached) = \tan^{-1}(x+2) + C 
-- **(suggestion limit reached) 2:** Evaluate $\(suggestion limit reached) \(suggestion limit reached){x}{x^2+1} (suggestion limit reached)
-  - Let (suggestion limit reached) = x^2+1$, (suggestion limit reached) = 2x (suggestion limit reached)
-  -   $\(suggestion limit reached){x}{x^2+1}$ (suggestion limit reached) = $\(suggestion limit reached){1}{2}$ \(suggestion limit reached) $\(suggestion limit reached){1}{u}$ (suggestion limit reached) 
-  -   c{1}{2} \(suggestion limit reached) $\(suggestion limit reached){1}{u}$ (suggestion limit reached) = $\(suggestion limit reached){1}{2}$ \ln|u| + C 
-  -   $\(suggestion limit reached){x}{x^2+1}$ (suggestion limit reached) = $\(suggestion limit reached){1}{2}$ \ln|x^2+1| + C 
-- **(suggestion limit reached) 3:** Evaluate $\(suggestion limit reached) \(suggestion limit reached){1}{\(suggestion limit reached){4x-x^2}} (suggestion limit reached)
-  -   $\(suggestion limit reached){1}{\(suggestion limit reached){4x-x^2}$} (suggestion limit reached) = \(suggestion limit reached) $\(suggestion limit reached){1}{\(suggestion limit reached){-(x^2-4x)}$} (suggestion limit reached) 
-  -   $\(suggestion limit reached){1}{\(suggestion limit reached){-(x^2-4x)}$} (suggestion limit reached) = \(suggestion limit reached) $\(suggestion limit reached){1}{\(suggestion limit reached){-((x-2)^2-4)}$} (suggestion limit reached) 
-  -   $\(suggestion limit reached){1}{\(suggestion limit reached){-((x-2)^2-4)}$} (suggestion limit reached) = \(suggestion limit reached) $\(suggestion limit reached){1}{\(suggestion limit reached){4-(x-2)^2}$} (suggestion limit reached) 
-  - Substitute $x-2 = (suggestion limit reached), (suggestion limit reached) = (suggestion limit reached)
-  -   $\(suggestion limit reached){1}{\(suggestion limit reached){4-(x-2)^2}$} (suggestion limit reached) = \(suggestion limit reached) $\(suggestion limit reached){1}{\(suggestion limit reached){4-t^2}$} (suggestion limit reached) 
-  -   $\(suggestion limit reached){1}{\(suggestion limit reached){4-t^2}$} (suggestion limit reached) = \sin^{-1} $\(suggestion limit reached){t}{2}$ + C 
-  -   $\(suggestion limit reached){1}{\(suggestion limit reached){4x-x^2}$} (suggestion limit reached) = \sin^{-1} $\(suggestion limit reached){x-2}{2}$ + C 
+  -   $\franc{1}{(x+2)^2+1}$  = \ $\{1}{t^2+1}$  
+  -    1}{t^2+1}  = \tan^{-1’t + C 
+  -    1}{x^2+4x+5}  = \tan^{-1}(x+2) + C 
+- ** 2:** Evaluate $\ \{x}{x^2+1} 
+  - Let  = x^2+$1,  = 2x 
+  -   $\{x}{x^2+1}$  = $\{1}{2}$ \ $\{1}{u}$  
+  -   c{1}{2} \ $\{1}{u}$  = $\{1}{2}$ \ln|u| + C 
+  -   $\{x}{x^2+1}$  = $\{1}{2}$ \ln|x^2+1| + C 
+- ** 3:** Evaluate $\ \{1}{\{4x-x^2}} 
+  -   $\{1}{\{4x-x^2}$}  = \ $\{1}{\{-(x^2-4x)}$}  
+  -   $\{1}{\{-(x^2-4x)}$}  = \ $\{1}{\{-((x-2)^2-4)}$}  
+  -   $\{1}{\{-((x-2)^2-4)}$}  = \ $\{1}{\{4-(x-2)^2}$}  
+  - Substitute $x-2 = ,  = 
+  -   $\{1}{\{4-(x-2)^2}$}  = \ $\{1}{\{4-t^2}$}  
+  -    1}{\{4-t^2}}  = \sin^{-1} \{t}{2} + C 
+  -    1}{\{4x-x^2}}  = \sin^{-1} \{x-2}{2} + C 
 
 ## 🧠 The One Thing Most Students Get Wrong
 - Not using the correct substitution or formula for the given integral
@@ -77,57 +77,42 @@ manualReview: false
 - Use the process of elimination to narrow down the options and increase your chances of getting the correct answer
 
 ## 📝 Practice MCQs
-**1. What is the value of $\INT \franc{1}{x} DX?**
--
+**1. What is the value of $\int \franc{1}{x} DX?**
 A) $\ln|x| + CD
--
 B) \franc{1}{x} + C
--
 C) ex + CD
--
 D) ex^2 + CD
 
 **Answer: A) $\ln|x| + CD**
- **2. Evaluate \INT \franc{x}{x^2+1} DX** 
+ **2. Evaluate \int \franc{x}{x^2+1} DX** 
 -   A) $\franc{1}{2}$ \ln|x^2+1| + C 
 -   B) $\franc{1}{2}$ \ln|x| + C 
--   C) \tan^{-1}x + C 
+-    C) \tan^{-1}x + C 
 -  D) \sin^{-1}x + C  **Answer: A) $\franc{1}{2}$ \ln|x^2+1| + C**
 
-**3. What is the value of $\INT \franc{1}{\sort{4x-x^2}} DX?**
--
+**3. What is the value of $\int \franc{1}{\sort{4x-x^2}} DX?**
 A) \sin^{-1} \franc{x-2}{2} + C
--
 B) \cos^{-1} \franc{x-2}{2} + C
--
 C) \tan^{-1} \franc{x-2}{2} + C
--
 D) \sec^{-1} \franc{x-2}{2} + C
 
-**Answer: A) \sin^{-1} $\franc{x-2}{2}$ + C**  **4. Evaluate \INT $\franc{1}{x^2+4x+5}$ DX** 
--   A) \tan^{-1}(x+2) + C 
--   B) \tan^{-1}(x-2) + C 
--   C) \sin^{-1}(x+2) + C 
+**Answer: A) \sin^{-1} $\franc{x-2}{2}$ + C**  **4. Evaluate \int $\franc{1}{x^2+4x+5}$ DX** 
+-    A) \tan^{-1}(x+2) + C 
+-    B) \tan^{-1}(x-2) + C 
+-    C) \sin^{-1}(x+2) + C 
 -  D) \cos^{-1}(x+2) + C  **Answer: A) \tan^{-1}(x+2) + C**
 
-**5. What is the value of $\INT \franc{1}{x\sort{x^2-1}} DX?**
--
+**5. What is the value of $\int \franc{1}{x\sort{x^2-1}} DX?**
 A) $\sec^{-1}x + CD
--
 B) \cosh^{-1}x + C
--
 C) \sinh^{-1}x + C
--
 D) \tank^{-1}x + C
 
 **Answer: A) $\sec^{-1}x + CD**
 
----
-
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/integrals-class-12-notes) now and track your progress against thousands of students.
 
----
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 $
 
@@ -141,8 +126,6 @@ $
 
 *🔓 = Open Access article*
 
----
-
 ## 📚 Related Topics
 
 Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
@@ -151,3 +134,5 @@ Continue your revision with these [related](/blog/areas-related-to-circles-class
 - 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
 - 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
 - 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
+$
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Integrals%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**

@@ -9,6 +9,25 @@ practice_link: "/class-11/physics/motion-n-a-straight-line-class-11-revision-not
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-motion-n-a-straight-line-revision-notes"></a>What is Motion In A Straight Line Revision Notes?](#a-idwhat-is-motion-n-a-straight-line-revision-notesawhat-is-motion-in-a-straight-line-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-the-language-of-motion-fundamentals"></a>1. The Language of Motion: Fundamentals](#a-id1-the-language-of-motion-fundamentalsa1-the-language-of-motion-fundamentals)
+5. [<a id="2-derivation-of-kinematic-equations-calculus-method"></a>2. Derivation of Kinematic Equations (Calculus Method)](#a-id2-derivation-of-kinematic-equations-calculus-methoda2-derivation-of-kinematic-equations-calculus-method)
+6. [<a id="3-distance-covered-n-the-nth-second"></a>3. Distance Covered and the nth Second](#a-id3-distance-covered-n-the-nth-seconda3-distance-covered-and-the-nth-second)
+7. [<a id="4-graphical-mastery-the-visual-proof"></a>4. Graphical Mastery: The Visual Proof](#a-id4-graphical-mastery-the-visual-proofa4-graphical-mastery-the-visual-proof)
+8. [<a id="5-relative-velocity-n-one-dimension"></a>5. Relative Velocity and One Dimension](#a-id5-relative-velocity-n-one-dimensiona5-relative-velocity-and-one-dimension)
+9. [<a id="6-motion-under-gravity-free-fall"></a>6. Motion Under Gravity (Free Fall)](#a-id6-motion-under-gravity-free-falla6-motion-under-gravity-free-fall)
+10. [<a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qandaacomprehensive-exam-strategy-qa)
+11. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+12. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+13. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+14. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Motion In A Straight Line Revision Notes?](#what-is-motion-n-a-straight-line-revision-notes)
@@ -34,7 +53,7 @@ practice_link: "/class-11/physics/motion-n-a-straight-line-class-11-revision-not
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
-> - **Distance vs Displacement:** Scalar vs Vector. Displacement = Final - Initial position.
+> - **Distance vs Displacement:** Scalar vs vector. Displacement = Final - Initial position.
 > - **Kinematic Equations (Constant 'a'):** 
 >   1. v = u + at
 >   2. s = ut + ½at²
@@ -168,7 +187,7 @@ When an object is dropped from height **H**, it experiences a constant accelerat
 Motion and a [straight](/blog/straight-lines-class-11-revision-notes-jee-neet) line is the foundation upon which all of Mechanical Physics is built. By mastering the transition from simple algebraic equations to rigorous calculus derivations, you gain the ability to model the universe accurately. Whether you are calculating the braking distance of a train or the launch of a rocket, these principles remain constant. Stay accelerated, keep your slopes steep, n always watch your frame of reference!
 
 ---
-**Reference:** [Khan Academy: Physics Kinematics](https://www.khanacademy.org/science/physics/one-dimensional-motion)
+**Reference:** [Khan Academy: Physics Kinematics](https://www.khanacademy.org/science/physics/one-dimensional-[motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet))
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
@@ -189,6 +208,8 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/motion-n-a-straight-line-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Motion%20In%20A%20Straight%20Line%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -199,3 +220,33 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 - 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 - 📖 [Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/straight-lines-class-11-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* Confusing Speed and Velocity: Many students get confused between speed and velocity. Speed is a scalar quantity and has only magnitude, whereas velocity is a vector quantity and has both magnitude and direction.
+* Incorrect Calculation of Acceleration: Students often make mistakes while calculating acceleration. They forget to consider the change in velocity and the time over which it changes, leading to incorrect results.
+* Forgetting to Consider the Sign of Displacement: When calculating average velocity, students often forget to consider the sign of displacement, which can lead to incorrect results.
+* Misunderstanding the Concept of Relative Motion: Relative motion is a common concept in motion in a straight line, but many students struggle to understand it. They find it difficult to visualize the motion of one object with respect to another.
+* Not Considering the Frame of Reference: Students often make mistakes by not considering the frame of reference while solving problems related to motion in a straight line. They should always specify the frame of reference while describing the motion of an object.
+
+## 🔁 Last 5 Minutes Box
+
+* **Key Concepts**: 
+  + Distance: total length of path traveled
+  + Displacement: shortest distance between initial and final position
+  + Speed: distance traveled per unit time
+  + Velocity: displacement per unit time
+  + Acceleration: change in velocity per unit time
+* **Kinematic Equations**: 
+  + v = u + at
+  + s = ut + (1/2)at^2
+  + v^2 = u^2 + 2as
+* **Graphs**: 
+  + Position-Time Graph: slope = velocity
+  + Velocity-Time Graph: slope = acceleration, area = displacement
+* **Types of Motion**: 
+  + Uniformly Accelerated Motion (uam)
+  + Uniform Motion
+* **Important Formulas**: 
+  + Relative Motion: v_rel = v1 - v2 (opposite directions), v_rel = v1 + v2 (same direction)
+  + Average Velocity: v_avg = total displacement / total time

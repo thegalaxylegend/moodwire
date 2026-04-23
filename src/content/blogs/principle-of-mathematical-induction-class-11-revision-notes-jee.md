@@ -29,7 +29,7 @@ practice_link: "/class-11/physics/principle-of-mathematical-induction-class-11-r
 
 ## <a id="what-is-principle-of-mathematical-induction"></a>What is Principle of Mathematical Induction?
 
-As we dive into the world of mathematics for our class 11 exam prep n 2026, one concept stands out for its beauty and utility: the Principle of Mathematical Induction (PMI). This powerful tool allows us to prove that a statement is true for all positive integers, making it a cornerstone of discrete mathematics. But before we explore the intricacies of PMI, let's set the stage for its importance and our exam.
+As we dive into the world of mathematics for our class 11 exam prep n 2026, one concept stands out for its beauty and utility: the Principle of Mathematical [Induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) (PMI). This powerful tool allows us to prove that a statement is true for all positive integers, making it a cornerstone of discrete mathematics. But before we explore the intricacies of PMI, let's set the stage for its importance and our exam.
 
 The Class 11 mathematics syllabus is divided into several key areas, including sets, [relations](/blog/relations-n-functions-class-11-notes), functions, algebra, n geometry. Within the algebra section, the Principle of Mathematical Induction holds significant weightage, with a dedicated section and the CBSE syllabus. Typically, 2-3 questions are asked and the exam, with a total weightage of around 10-12 marks. This might seem like a small fraction of the overall exam, but trust me, mastering PMI can make all the difference and your overall score.
 
@@ -101,7 +101,7 @@ By the end of this journey, you'll have a deep understanding of the Principle of
 
 ## <a id="what-is-the-definition-of-principle-of-mathematical-induction"></a>What is the definition of Principle of Mathematical Induction?
 
-Principle of Mathematical Induction is a fundamental concept and mathematics that allows us to prove a statement is true for all positive integers. It includes the base case, the inductive hypothesis, n the inductive step. For Class 11 exam prep n 2026, the most important aspect is understanding how to apply the principle to various mathematical statements and sequences, such as arithmetic and geometric progressions, n recognizing its application and solving recurrence relations and combinatorial problems. 
+Principle of Mathematical Induction is a fundamental concept and mathematics that allows us to prove a statement is true for all positive integers. It includes the base case, the inductive hypothesis, n the inductive step. For Class 11 exam prep n 2026, the most important aspect is understanding how to apply the principle to various mathematical statements and sequences, such as arithmetic and geometric progressions, n recognizing its application and solving recurrence [relations](/blog/relations-and-functions-class-11-notes) and combinatorial problems. 
 
 The principle of mathematical induction can be defined as a method of proof that involves two main steps: the base case and the inductive step. The base case involves proving that the statement is true for the smallest possible value, usually $n = 1$. The inductive step involves assuming that the statement is true for $n = k$ n then proving that it is true for $n = k + 1$. This process can be continued indefinitely, allowing us to prove that the statement is true for all positive integers. 
 
@@ -109,7 +109,7 @@ To illustrate this concept, consider the statement $1 + 2 + 3 + ldots + n = \fra
 
 We can rewrite the left-hand side of the equation as $(1 + 2 + 3 + ldots + k) + (k + 1)$, n using the inductive hypothesis, we can substitute $\frac{k(k+1)}{2} = 1 + 2 + 3 + ldots + k  for $. This gives us $\frac{k(k+1)}{2} = \frac{k^2 + k + 2k + 2{2} = \frac{k^2 + 3k + 2}{2} = \frac{(k+1)(k+2)}{2}} , which can be simplified to $. This shows that the statement is true for $n = k + 1$, n therefore, y mathematical induction, the statement is true for all positive integers $n$. 
 
-Mathematical induction has numerous applications and mathematics, computer science, n other fields. It is used to prove the correctness of algorithms, to establish the validity of mathematical statements, n to solve complex problems. In computer science, mathematical induction is used to prove the correctness of recursive algorithms and to establish the complexity of algorithms. 
+Mathematical induction has numerous applications and mathematics, computer science, n other fields. It is used to prove the correctness of [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards), to establish the validity of mathematical statements, n to solve complex problems. In computer science, mathematical induction is used to prove the correctness of recursive [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) and to establish the complexity of [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards). 
 
 Here is a table summarizing the key components of the principle of mathematical induction: 
 

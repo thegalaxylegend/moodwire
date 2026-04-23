@@ -9,6 +9,23 @@ practice_link: "/class-11/biology/neural-control-n-coordination-class-11-revisio
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-neural-control-n-coordination"></a>What is Neural Control And Coordination?](#a-idwhat-is-neural-control-n-coordinationawhat-is-neural-control-and-coordination)
+3. [<a id="introduction-to-neural-control-n-coordination"></a>Introduction to Neural Control and Coordination](#a-idintroduction-to-neural-control-n-coordinationaintroduction-to-neural-control-and-coordination)
+4. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+5. [<a id="formulae"></a>Formulae](#a-idformulaeaformulae)
+6. [<a id="jeeneet-relevance"></a>JEE/NEET Relevance](#a-idjeeneet-relevanceajeeneet-relevance)
+7. [<a id="detailed-explanation-of-key-concepts"></a>Detailed Explanation of Key Concepts](#a-iddetailed-explanation-of-key-conceptsadetailed-explanation-of-key-concepts)
+8. [<a id="important-terms-n-concepts"></a>Important Terms and Concepts](#a-idimportant-terms-n-conceptsaimportant-terms-and-concepts)
+9. [<a id="practice-questions-for-jeeneet"></a>Practice Questions for JEE/NEET](#a-idpractice-questions-for-jeeneetapractice-questions-for-jeeneet)
+10. [<a id="tips-for-jeeneet-preparation"></a>Tips for JEE/NEET Preparation](#a-idtips-for-jeeneet-preparationatips-for-jeeneet-preparation)
+11. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+12. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Neural Control And Coordination?](#what-is-neural-control-n-coordination)
@@ -39,8 +56,7 @@ Neural control n [coordination](/blog/chemical-coordination-n-integration-class-
 
 ## <a id="core-concepts"></a>Core Concepts
 
-### <a id="structure-of-a-neuron"></a>Structure of a Neuron
-A neuron consists of three main parts: dendrites, cell [body](/blog/body-fluids-n-circulation-class-11-revision-notes-neet), n axon. Dendrites receive signals from other neurons, the cell [body](/blog/body-fluids-n-circulation-class-11-revision-notes-neet) contains the nucleus and the machinery for protein synthesis, n the axon transmits signals away from the cell [body](/blog/body-fluids-n-circulation-class-11-revision-notes-neet). The axon terminal is specialized for the release of neurotransmitters.
+### <a id="structure-of-a-neuron"></a>Structure of a Neuron consists of three main parts: dendrites, cell [body](/blog/body-fluids-n-circulation-class-11-revision-notes-neet), n axon. Dendrites receive signals from other neurons, the cell [body](/blog/body-fluids-n-circulation-class-11-revision-notes-neet) contains the nucleus and the machinery for protein synthesis, n the axon transmits signals away from the cell [body](/blog/body-fluids-n-circulation-class-11-revision-notes-neet). The axon terminal is specialized for the release of neurotransmitters.
 
 ### <a id="types-of-neurons"></a>Types of Neurons
 There are three main types of neurons based on their functions:
@@ -48,15 +64,14 @@ There are three main types of neurons based on their functions:
 - **Motor (Efferent) Neurons**: Carry signals away from the CNS to effectors such as muscles and glands.
 - **Interneurons**: These are found within the CNS and are involved and the [integration](/blog/chemical-coordination-n-integration-class-11-revision-notes-neet) of information.
 
-### <a id="synaptic-transmission"></a>Synaptic Transmission
-Synaptic transmission is the process y which neurons communicate with each other. It involves the release of neurotransmitters from the axon terminal of one neuron, which then bind to receptors on the dendrite of another neuron. This binding can either excite the neuron (excitatory neurotransmitters) or inhibit it (inhibitory neurotransmitters).
+### <a id="synaptic-transmission"></a>Synaptic Transmission is the process y which neurons communicate with each other. It involves the release of neurotransmitters from the axon terminal of one neuron, which then bind to receptors on the dendrite of another neuron. This binding can either excite the neuron (excitatory neurotransmitters) or inhibit it (inhibitory neurotransmitters).
 
 ### <a id="reflex-action"></a>Reflex Action
 A reflex action is an involuntary and immediate [movement](/blog/locomotion-n-movement-class-11-revision-notes-neet) n response to a stimulus. It involves a reflex arc, which consists of a sensory neuron, a motor neuron, n some\times an interneuron. The simplest reflex pathway is a monosynaptic reflex, which involves only two neurons: a sensory neuron and a motor neuron.
 
 ## <a id="formulae"></a>Formulae
 
-While there aren't direct mathematical formulae for neural control and coordination, understanding the basic principles of action potential is crucial. The action potential can be described y the Hodgkin-Huxley model, which uses differential equations to model how the electrical properties of the neuron's membrane change during an action potential. However, for the purpose of class 11 biology, focusing on the qualitative aspects of action potential is sufficient.
+While there aren't direct mathematical formulae for neural control and [coordination](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet), understanding the basic principles of action potential is crucial. The action potential can be described y the Hodgkin-Huxley model, which uses differential equations to model how the electrical properties of the neuron's membrane change during an action potential. However, for the purpose of class 11 biology, focusing on the qualitative aspects of action potential is sufficient.
 
 ## <a id="jeeneet-relevance"></a>JEE/NEET Relevance
 
@@ -84,7 +99,7 @@ The spinal cord is a long, thin, tube-like structure made up of nervous tissue, 
 
 ## <a id="practice-questions-for-jeeneet"></a>Practice Questions for JEE/NEET
 
-1. Describe the structure of a neuron and explain how neurons communicate with each other.
+1. Describe the [structure](/blog/structure-of-the-atom-class-11-revision-notes-neet) of a neuron and explain how neurons communicate with each other.
 2. What is a reflex action? Explain the reflex arc.
 3. Describe the functions of the CNS and PNS.
 4. Explain the role of neurotransmitters and synaptic transmission.
@@ -131,6 +146,8 @@ Continue your [revision](/blog/locomotion-n-movement-class-11-revision-notes-nee
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/neural-control-n-coordination-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Neural%20Control%20And%20Coordination%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -141,3 +158,32 @@ Continue your [revision](/blog/locomotion-n-movement-class-11-revision-notes-nee
 - 📖 [Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/body-fluids-n-circulation-class-11-revision-notes-neet)
 - 📖 [Locomotion And Movement Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/locomotion-n-movement-class-11-revision-notes-neet)
 - 📖 [Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+- **Misconception about Reflex Action**: Many students assume that reflex action is a voluntary process, but it's actually an involuntary action that occurs without the involvement of the brain. 
+   - **Confusion between Dendrite and Axon**: Students often get confused between the dendrite and axon, remembering that dendrites are the branching extensions of a neuron that receive signals, while the axon is the long, threadlike part of a neuron that carries signals away from the cell [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet).
+   - **Understanding the Role of Synapses**: A common mistake is assuming that synapses are physical structures, when in fact, they are small gaps between two neurons where chemical signals are exchanged.
+   - **Mixing Up the Types of Neurons**: It's easy to get confused between the three types of neurons: sensory (afferent) neurons, motor (efferent) neurons, and interneurons, each having distinct functions in the neural control and coordination process.
+   - **Incorrectly Identifying the Functions of the Central Nervous System (CNS)**: Students may mistakenly attribute functions of the peripheral nervous system (PNS) to the CNS or vice versa, so it's crucial to clearly understand the roles of the brain and spinal cord in controlling and coordinating body activities.
+
+## 🔁 Last 5 Minutes Box
+
+### Neural Control and Coordination Revision
+   * **Central Nervous System (CNS)**: Brain and spinal cord
+   * **Peripheral Nervous System (PNS)**: Connects CNS to the limbs and organs
+   * **Neuron Structure**:
+     + Dendrite: Receive signals
+     + Cell body: Contains nucleus
+     + Axon: Transmits signals
+   * **Synapse**: Junction between two neurons
+   * **Neurotransmitters**: Chemicals that transmit signals across synapses
+   * **Reflex Action**: Automatic response to a stimulus
+   * **Voluntary Action**: Conscious decision to perform an action
+   * **Brain Regions**:
+     + Cerebrum: Controls higher brain functions
+     + Cerebellum: Coordinates muscle movements
+     + Brainstem: Connects cerebrum to spinal cord
+   * **Spinal Cord Functions**:
+     + Transmits messages between brain and body
+     + Coordinates reflexes

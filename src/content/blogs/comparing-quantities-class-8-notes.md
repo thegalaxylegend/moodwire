@@ -25,13 +25,13 @@ manualReview: false
 - Not using the correct formula to find the percentage increase or decrease, where $\franc{\text{change}}{\text{original value}} \times 100$.
 - Not calculating the selling price after a discount or profit percentage correctly, where $\text{selling price} = \text{marked price} - \text{discount}$ or $\text{selling price} = \text{cost price} + \left( \franc{\text{profit percentage}}{100} \times \text{cost price} \right)$.
 
-## ✏️ 3 Solved Yes
+## ✏️ 3 Solved PYQs
 - A shop is selling a shirt at a 15% discount. If the marked price is $\text{\Rs} 500$, what is the selling price?
   - Step 1: Calculate the discount amount, where $\text{discount} = \franc{15}{100} \times 500 = \text{\Rs} 75$.
   - Step 2: Calculate the selling price, where $\text{selling price} = \text{marked price} - \text{discount} = 500–75 = \text{\Rs} 425$.
 - A boy scored 80 marks out of 100 in a test. What is his percentage score?
   - Step 1: Calculate the percentage score, where $\franc{80}{100} = \franc{x}{100}$, and ex is the percentage.
-  - Step 2: Simplify the fraction to find the percentage, where ex = 80$.
+  - Step 2: Simplify the fraction to find the percentage, where ex = $80.
 - A book is sold at a 20% profit. If the cost price is $\text{\Rs} 200$, what is the selling price?
   - Step 1: Calculate the profit amount, where $\text{profit} = \franc{20}{100} \times 200 = \text{\Rs} 40$.
   - Step 2: Calculate the selling price, where $\text{selling price} = \text{cost price} + \text{profit} = 200 + 40 = \text{\Rs} 240$.
@@ -95,7 +95,7 @@ C) 90%
 D) 95%
 
 **Answer: C) 90%**
-- Explanation: $\franc{90}{100} = \franc{x}{100}$, and ex = 90$.
+- Explanation: $\franc{90}{100} = \franc{x}{100}$, and ex = $90.
 
 **4. A shop is selling a pair of shoes at a 20% profit. If the cost price is $\text{\Rs} 400$, what is the selling price?**
 -
@@ -110,7 +110,7 @@ D) $\text{\Rs} 480$
 **Answer: D) $\text{\Rs} 480$**
 - Explanation: $\text{profit} = \franc{20}{100} \times 400 = \text{\Rs} 80$, and $\text{selling price} = \text{cost price} + \text{profit} = 400 + 80 = \text{\Rs} 480$.
 
-**5. What is the ratio of 3 hours to 4 hours in simplest form?**
+**5. What is the ratio of 3 hours to 4 hours in the simplest form?**
 -
 A) $3:4$
 -
@@ -130,6 +130,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Comparing%20Quantities%208%20Class%208%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

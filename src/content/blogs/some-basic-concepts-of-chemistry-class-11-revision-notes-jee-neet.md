@@ -144,7 +144,7 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/some-basic-concepts-of-[chemistry](/blog/environmental-chemistry-class-11-revision-notes-neet)-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 ---
 

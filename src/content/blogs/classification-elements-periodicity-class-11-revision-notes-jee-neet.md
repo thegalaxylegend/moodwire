@@ -9,6 +9,29 @@ practice_link: "/class-11/physics/classification-elements-periodicity-class-11-r
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-classification-elements-periodicity-revision-notes"></a>What is Classification Elements Periodicity Revision Notes?](#a-idwhat-is-classification-elements-periodicity-revision-notesawhat-is-classification-elements-periodicity-revision-notes)
+3. [<a id="1-why-periodicity-is-the-cheat-code-of-inorganic-chemistry"></a>1. Why Periodicity is the "Cheat Code" of Inorganic Chemistry](#a-id1-why-periodicity-is-the-cheat-code-of-inorganic-chemistrya1-why-periodicity-is-the-cheat-code-of-inorganic-chemistry)
+4. [<a id="2-modern-periodic-law-n-table-layout"></a>2. Modern Periodic Law and Table Layout](#a-id2-modern-periodic-law-n-table-layouta2-modern-periodic-law-and-table-layout)
+5. [<a id="3-blocks-of-the-periodic-table-s-p-d-f"></a>3. Blocks of the Periodic Table (s, p, d, f)](#a-id3-blocks-of-the-periodic-table-s-p-d-fa3-blocks-of-the-periodic-table-s-p-d-f)
+6. [<a id="4-atomic-radius-vs-ionic-radius-the-size-story"></a>4. Atomic Radius vs Ionic Radius — The Size Story](#a-id4-atomic-radius-vs-ionic-radius-the-size-storya4-atomic-radius-vs-ionic-radius-the-size-story)
+7. [<a id="5-ionization-enthalpy-ie-the-energy-to-steal-an-electron"></a>5. Ionization Enthalpy (IE) — The Energy to Steal an Electron](#a-id5-ionization-enthalpy-ie-the-energy-to-steal-an-electrona5-ionization-enthalpy-ie-the-energy-to-steal-an-electron)
+8. [<a id="6-electron-gain-enthalpy-ege-why-chlorine-beats-fluorine"></a>6. Electron Gain Enthalpy (EGE) — Why Chlorine Beats Fluorine](#a-id6-electron-gain-enthalpy-ege-why-chlorine-beats-fluorinea6-electron-gain-enthalpy-ege-why-chlorine-beats-fluorine)
+9. [<a id="7-electronegativity-pauling-mulliken-n-allredrochow-scales"></a>7. Electronegativity — Pauling, Mullen, n Allred-Roc how Scales](#a-id7-electronegativity-pauling-mulliken-n-allredrochow-scalesa7-electronegativity-pauling-mullen-n-allred-roc-how-scales)
+10. [<a id="8-chemical-reactivity-n-metallic-character-trends"></a>8. Chemical Reactivity and Metallic Character Trends](#a-id8-chemical-reactivity-n-metallic-character-trendsa8-chemical-reactivity-and-metallic-character-trends)
+11. [<a id="9-the-diagonal-relationship-a-jee-advanced-favorite"></a>9. The Diagonal Relationship — A JEE Advanced Favorite](#a-id9-the-diagonal-relationship-a-jee-advanced-favoritea9-the-diagonal-relationship-a-jee-advanced-favorite)
+12. [<a id="10-the-trap-section-anomalies-that-examiners-love"></a>10. The "Trap" Section: Anomalies That Examiners Love](#a-id10-the-trap-section-anomalies-that-examiners-lovea10-the-trap-section-anomalies-that-examiners-love)
+13. [<a id="11-practice-mcqs-jeeneet-level"></a>11. Practice MCQs (JEE/MEET Level)](#a-id11-practice-mcqs-jeeneet-levela11-practice-mcqs-jeemeet-level)
+14. [<a id="12-ayushs-trend-map-strategy"></a>12. Ayush's "Trend Map" Strategy](#a-id12-ayushs-trend-map-strategya12-ayushs-trend-map-strategy)
+15. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+16. [📚 Related Topics](#related-topics)
+17. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+18. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Classification Elements Periodicity Revision Notes?](#what-is-classification-elements-periodicity-revision-notes)
@@ -127,7 +150,7 @@ Order: TO^{2-} > F^- > Ne > Na^+ > Mg^{2+}$.
 
 ### <a id="the-anomalies-see-favorites"></a>The Anomalies (JEE Favorites)
 1. **IE(N) > IE(O)**: Nitrogen has a stable, half-filled $2p^3$ configuration. Removing an electron from this is harder.
-2. **IE(Be) > IE(B)**: Beryllium has a stable, fully-filled $2s^2$. Boron's $2p^1$ electron is easier to remove.
+2. **IE (Be) > IE(B)**: Beryllium has a stable, fully-filled $2s^2$. Boron's $2p^1$ electron is easier to remove.
 
 > ### Ayush's Note — My IE Sorting Disaster
 > **The Mistake**: I arranged LB, C, N, OF and strictly increasing IE order. I wrote B < C < N < O.
@@ -143,8 +166,7 @@ Order: TO^{2-} > F^- > Ne > Na^+ > Mg^{2+}$.
 - **Most Negative EGE**: Chlorine (UCLA), **NOT** Fluorine (OF).
 - **Why?** Fluorine is so tiny that the incoming electron experiences intense inter-electronic repulsion and a very small $2p$ orbital.
 
-### <a id="noble-gases"></a>Noble Gases
-Noble gases have positive EGE because their shells are completely filled — forcing an electron into the next shell requires energy input.
+### <a id="noble-gases"></a>Noble Gases have positive EGE because their shells are completely filled — forcing an electron into the next shell requires energy input.
 
 ---
 
@@ -292,6 +314,8 @@ Continue your [revision](/blog/thermodynamics-chemistry-class-11-revision-notes-
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/classification-elements-periodicity-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Classification%20Elements%20Periodicity%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

@@ -9,6 +9,29 @@ practice_link: "/class-11/biology/current-electricity-class-11-revision-notes-ne
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-current-electricity-revision-notes"></a>What is Current Electricity Revision Notes?](#a-idwhat-is-current-electricity-revision-notesawhat-is-current-electricity-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-electric-current-the-flow-of-charge"></a>1. Electric Current: The Flow of Charge](#a-id1-electric-current-the-flow-of-chargea1-electric-current-the-flow-of-charge)
+5. [<a id="2-microscopic-view-of-current-drift-velocity"></a>2. Microscopic View of Current: Drift Velocity](#a-id2-microscopic-view-of-current-drift-velocitya2-microscopic-view-of-current-drift-velocity)
+6. [<a id="3-ohms-law-the-microscopic-proof"></a>3. Ohm’s Law: The Microscopic Proof](#a-id3-ohms-law-the-microscopic-proofa3-ohms-law-the-microscopic-proof)
+7. [<a id="4-temperature-dependence-of-resistivity"></a>4. Temperature Dependence of Resistivity](#a-id4-temperature-dependence-of-resistivitya4-temperature-dependence-of-resistivity)
+8. [<a id="5-cells-emf-n-internal-resistance"></a>5. Cells, EMF, n Internal Resistance](#a-id5-cells-emf-n-internal-resistancea5-cells-emf-n-internal-resistance)
+9. [<a id="6-kirchhoffs-laws-the-circuit-rules"></a>6. Kirchhoff’s Laws: The Circuit Rules](#a-id6-kirchhoffs-laws-the-circuit-rulesa6-kirchhoffs-laws-the-circuit-rules)
+10. [<a id="7-the-wheatstone-bridge"></a>7. The Wheatstone Bridge](#a-id7-the-wheatstone-bridgea7-the-wheatstone-bridge)
+11. [<a id="8-the-potentiometer-the-ideal-voltmeter"></a>8. The Potentiometer: The Ideal Voltmeter](#a-id8-the-potentiometer-the-ideal-voltmetera8-the-potentiometer-the-ideal-voltmeter)
+12. [<a id="comprehensive-exam-strategy-Qaeda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qaedaacomprehensive-exam-strategy-qa)
+13. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+14. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+15. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+16. [📚 Related Topics](#related-topics)
+17. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+18. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Current Electricity Revision Notes?](#what-is-current-electricity-revision-notes)
@@ -91,7 +114,7 @@ Where **τ** (tau) is the **Relaxation Time**—the average time between two suc
 
 **[theorem](/blog/binomial-theorem-class-11-revision-notes-jee):** For constant physical conditions (like temperature), the current flow is directly proportional to the potential difference. **V = IR**.
 
-### <a id="i-derivation-of-ohmic-resistance-r"></a>I. Derivation of Ohmic Resistance (R)
+### <a id="i-derivation-of-ohmic-resistance-r"></a>I. Derivation of Ohmic Resistance ®
 1.  We have **I = nave’d**.
 2.  Substitute **v’d = (EE / m) τ**:
     - **I = nae [(EE / m) τ] = (nae²τ / m) E**.
@@ -211,6 +234,8 @@ Continue your [revision](/blog/kinetic-theory-class-11-revision-notes-jee-neet) 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/current-electricity-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Current%20Electricity%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -228,13 +253,13 @@ Continue your [revision](/blog/kinetic-theory-class-11-revision-notes-jee-neet) 
 * Another mistake is forgetting to consider the internal resistance of a battery when calculating the total resistance of a circuit, which can lead to incorrect calculations of current and voltage.
 * Students often struggle to distinguish between resistors and series and resistors and parallel, which can lead to incorrect calculations of total resistance and current and a circuit.
 * A common trap question and current electricity is related to the formula for power (P = VI), where students forget that power is not only dependent on voltage and current but also on the resistance of the circuit.
-* When solving problems involving Kirchhoff's laws, a common mistake is not considering the sign conventions for voltage changes across resistors and voltage sources, which can lead to incorrect calculations of current and voltage.
+* When solving problems involving Kirchhoff's [laws](/blog/laws-of-motion-class-11-revision-notes-jee-neet), a common mistake is not considering the sign conventions for voltage changes across resistors and voltage sources, which can lead to incorrect calculations of current and voltage.
 
 ## 🔁 Last 5 Minutes Box
 
 * [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) current flows from **positive to negative** terminal
 * **Ohm's Law**: V = IR, where V = voltage, I = current, R = resistance
-* **Resistance (R)**: R = ρ(L/A), where ρ = resistivity, L = length, A = cross-sectional area
+* **Resistance ®**: R = ρ(L/A), where ρ = resistivity, L = length, A = cross-sectional area
 * **Power (P)**: P = VI, where V = voltage, I = current
 * **Kilowatt-hour (kWh)**: 1 kWh = 3.6 × 10^6 J, unit of energy consumption
 * **Series Circuit**: V_total = V1 + V2 + ... + VN, I_total = I1 = I2 = ... = In

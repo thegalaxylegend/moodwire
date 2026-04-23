@@ -9,6 +9,25 @@ practice_link: "/class-11/biology/digestion-n-absorption-class-11-revision-notes
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-digestion-n-absorption"></a>What is Digestion And Absorption?](#a-idwhat-is-digestion-n-absorptionawhat-is-digestion-and-absorption)
+3. [<a id="introduction-to-digestion-n-absorption"></a>Introduction to Digestion and Absorption](#a-idintroduction-to-digestion-n-absorptionaintroduction-to-digestion-and-absorption)
+4. [<a id="core-concepts-digestion"></a>Core Concepts: Digestion](#a-idcore-concepts-digestionacore-concepts-digestion)
+5. [<a id="core-concepts-absorption"></a>Core Concepts: Absorption](#a-idcore-concepts-absorptionacore-concepts-absorption)
+6. [<a id="Ayush-note-key-points-for-keenest"></a>Ayush's Note: Key Points for JEE/MEET](#a-idayush-note-key-points-for-keenestaayushs-note-key-points-for-jeemeet)
+7. [<a id="shortcut-formula-calculating-nutrient-uptake"></a>Shortcut Formula: Calculating Nutrient Uptake](#a-idshortcut-formula-calculating-nutrient-uptakeashortcut-formula-calculating-nutrient-uptake)
+8. [<a id="trap-questions-common-misconceptions"></a>Trap Questions: Common Misconceptions](#a-idtrap-questions-common-misconceptionsatrap-questions-common-misconceptions)
+9. [<a id="practice-MCQs-digestion-n-absorption"></a>Practice MCQs: Digestion and Absorption](#a-idpractice-mcqs-digestion-n-absorptionapractice-mcqs-digestion-and-absorption)
+10. [<a id="related-notes-links"></a>Related Notes Links](#a-idrelated-notes-linksarelated-notes-links)
+11. [<a id="final-expert-insight"></a>Final Expert Insight](#a-idfinal-expert-insightafinal-expert-insight)
+12. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+13. [📚 Related Topics](#related-topics)
+14. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Digestion And Absorption?](#what-is-digestion-n-absorption)
@@ -89,7 +108,7 @@ $1 \text{Total Nutrient Intake}$ \times $\text{Absorption Efficiency}$
 
 For example, if the total carbohydrate intake is 300g and the absorption efficiency is 90%, the amount of carbohydrate absorbed would be:
 
-\text{Carbohydrate Absorption}$ = 300g \times 0.9 = 270g
+$\text{Carbohydrate Absorption} = 300g \times 0.9 = 270g
 
 ## <a id="trap-questions-common-misconceptions"></a>Trap Questions: Common Misconceptions
 
@@ -159,6 +178,8 @@ Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-n
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/digestion-n-absorption-class-11-revision-notes-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Digestion%20And%20Absorption%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

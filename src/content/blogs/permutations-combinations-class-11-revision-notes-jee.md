@@ -42,7 +42,7 @@ practice_link: "/class-11/mathematics/permutations-combinations-class-11-revisio
 
 ## <a id="introduction"></a>Introduction
 
-**Permutations and Combinations provide the mathematical toolkit for counting possibilities and arrangements and complex systems. Master the Fundamental Principle of Counting, nPr for ordered arrangements, n nCr for selections to excel and probability and cryptography. This class 11 Math Chapter 7 guide covers all essential factorial logic for JEE and CBSE exams.**
+**Permutations and Combinations provide the [mathematical](/blog/mathematical-reasoning-class-11-revision-notes-jee-neet) toolkit for counting possibilities and arrangements and complex systems. Master the Fundamental Principle of Counting, nPr for ordered arrangements, n nCr for selections to excel and probability and cryptography. This class 11 Math Chapter 7 guide covers all essential factorial logic for JEE and CBSE exams.**
 Mathematics is not just about numbers; it's about possibilities.
 
 ---

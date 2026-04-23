@@ -42,7 +42,7 @@ practice_link: "/class-11/physics/straight-lines-class-11-revision-notes-jee-nee
 
 ## <a id="introduction"></a>Introduction
 
-**Straight Lines are the simplest geometric paths and the Cartesian plane, representing linear relationships and physics, navigation, n data science. Master the slope formula, various forms of line equations (point-slope, intercept), n the distance from a point to a line to excel and coordinate geometry. This class 11 Math Chapter 10 summary provides all essential concepts for JEE and Board exams.**
+**Straight Lines are the simplest geometric paths and the Cartesian plane, representing [linear](/blog/linear-inequalities-class-11-revision-notes-jee-neet) relationships and physics, navigation, n data science. Master the slope formula, various forms of line equations (point-slope, intercept), n the distance from a point to a line to excel and coordinate geometry. This class 11 Math Chapter 10 summary provides all essential concepts for JEE and Board exams.**
 Straight lines are the fundamental paths and Euclidean [geometry](/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet).
 
 ---

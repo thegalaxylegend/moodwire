@@ -9,6 +9,27 @@ practice_link: "/class-11/physics/geomorphology-class-11-revision-notes-cbse"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-geomorphology"></a>What is Geomorphology?](#a-idwhat-is-geomorphologyawhat-is-geomorphology)
+3. [<a id="quick-revision-n-recap-geomorphology"></a>Quick Revision & Recap: Geomorphology](#a-idquick-revision-n-recap-geomorphologyaquick-revision-recap-geomorphology)
+4. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+5. [<a id="formulae-n-tables"></a>Formulae and Tables](#a-idformulae-n-tablesaformulae-and-tables)
+6. [<a id="trap-exceptions"></a>Trap Exceptions](#a-idtrap-exceptionsatrap-exceptions)
+7. [<a id="jeeneet-data"></a>JEE/NEET Data](#a-idjeeneet-dataajeeneet-data)
+8. [<a id="ayushs-personal-note"></a>Ayush's Personal Note](#a-idayushs-personal-noteaayushs-personal-note)
+9. [<a id="geomorphology-n-its-importance"></a>Geomorphology and Its Importance](#a-idgeomorphology-n-its-importanceageomorphology-and-its-importance)
+10. [<a id="key-terms"></a>Key Terms](#a-idkey-termsakey-terms)
+11. [<a id="geomorphology-n-its-applications"></a>Geomorphology and Its Applications](#a-idgeomorphology-n-its-applicationsageomorphology-and-its-applications)
+12. [<a id="conclusion-is-not-allowed-hence-the-following"></a>Conclusion is not allowed, hence the following](#a-idconclusion-is-not-allowed-hence-the-followingaconclusion-is-not-allowed-hence-the-following)
+13. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+14. [📚 Related Topics](#related-topics)
+15. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+16. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Geomorphology?](#what-is-geomorphology)
@@ -109,7 +130,7 @@ Geomorphology has a wide range of applications, including:
 
 ## <a id="conclusion-is-not-allowed-hence-the-following"></a>Conclusion is not allowed, hence the following
 
-As a student of class 11, it is essential to have a solid grasp of Geomorphology, as it is a fundamental subject and Geography. By understanding the core concepts, formulae, n tables, n practicing MCQs, I can ensure I am well-prepared for my exam. Additionally, recognizing the importance of Geomorphology and its applications will help me appreciate the subject and its relevance to real-life situations.
+As a student of class 11, it is essential to have a solid grasp of Geomorphology, as it is a [fundamental](/blog/fundamental-rights-class-11-revision-notes-cbse) subject and Geography. By understanding the core concepts, formulae, n tables, n practicing MCQs, I can ensure I am well-prepared for my exam. Additionally, recognizing the importance of Geomorphology and its applications will help me appreciate the subject and its relevance to real-life situations.
 
 \begin{equation}
 
@@ -443,6 +464,8 @@ Continue your revision with these related guides:
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/geomorphology-class-11-revision-notes-cbse) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Geomorphology%20Class%2011%20Geography%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -469,5 +492,5 @@ Continue your revision with these related guides:
 * **External Processes**: Weathering, Erosion, n Deposition.
 * **Denudation**: Wearing away of the Earth's surface y external forces.
 * **Gradation**: Process of reducing highlands and filling up lowlands to achieve a balance.
-* **Cycle of Erosion** (W.M. Davis): Youth, Mature, n Old stages.
+* **Cycle of Erosion** (W.M. Davis): Youth, mature, n Old stages.
 * **Types of Coasts**: Submergent, Emergent, n Deltaic coasts.

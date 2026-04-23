@@ -95,7 +95,7 @@ D) All of the above
 
 Answer: D) All of the above
 
-4. What is the energy yield of aerobic respiration and plants?
+4. What is the energy yield of aerobic respiration and [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)?
 A) 2 ATP
 B) 4 ATP
 C) 36-38 ATP

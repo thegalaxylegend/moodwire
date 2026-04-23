@@ -31,9 +31,9 @@ manualReview: false
 - Not being able to identify the different types of RNA (mRNA, tRNA, rRNA).
 - Not being able to explain the process of DNA replication.
 - Not being able to explain the process of transcription and translation.
-- Not being able to identify the different types of biotechnology products (recombinant DNA, monoclonal antibodies).
+- Not being able to identify the different types of [biotechnology](/blog/biotechnology-and-its-applications-class-12-notes) products (recombinant DNA, monoclonal antibodies).
 
-## ✏️ 3 Solved Yes
+## ✏️ 3 Solved PYQs
 - **Question 1:** What is the function of DNA ligase in the process of DNA replication?
 - Answer: DNA ligase is used to join two DNA fragments together, sealing the gaps between the nucleotides.
 - **Step 1:** DNA replication is the process by which a cell makes an exact copy of its DNA.
@@ -71,7 +71,7 @@ manualReview: false
 - Review the questions and make sure you have answered all of them.
 - Check your calculations and make sure they are correct.
 - Make sure you have labeled all of your diagrams and graphs.
-- Make sure you have answered all of the questions in the correct format.
+- Make sure you have answered all the questions in the correct format.
 - Use any remaining time to review your answers and make sure you are confident in your responses.
 
 ## 📝 Practice MCQs
@@ -138,10 +138,12 @@ D) To amplify a specific DNA sequence
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/biotechnology-principles-and-processes-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/biotechnology-[principles](/blog/principles-of-inheritance-and-variation-class-12-notes)-and-processes-class-12-notes) now and track your progress against thousands of students.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Biotechnology%20Principles%20And%20Processes%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

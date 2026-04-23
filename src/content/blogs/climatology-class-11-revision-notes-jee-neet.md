@@ -9,6 +9,22 @@ practice_link: "/class-11/chemistry/climatology-class-11-revision-notes-jee-neet
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-climatology"></a>What is Climatology?](#a-idwhat-is-climatologyawhat-is-climatology)
+3. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+4. [<a id="climatic-elements"></a>Climatic Elements](#a-idclimatic-elementsaclimatic-elements)
+5. [<a id="types-of-climates"></a>Types of Climates](#a-idtypes-of-climatesatypes-of-climates)
+6. [<a id="climatic-factors"></a>Climatic Factors](#a-idclimatic-factorsaclimatic-factors)
+7. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+8. [📚 Related Topics](#related-topics)
+9. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+10. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+11. [⚗️ Chemical Quick Reference (Verified via PubChem)](#chemical-quick-reference-verified-via-pubchem)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Climatology?](#what-is-climatology)
@@ -111,7 +127,7 @@ Here is a concept map to help you visualize the relationships between different 
 
 ```
 
-By mastering these core concepts, formulae, n climatic factors, you'll be well-prepared to tackle any question related to climatology and your class 11 Geography exams and JEE/MEET entrance exams. Remember to practice regularly and stay updated with the latest information to achieve success.
+By mastering these core [concepts](/blog/jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet), formulae, n climatic factors, you'll be well-prepared to tackle any question related to climatology and your class 11 Geography exams and JEE/MEET entrance exams. Remember to practice regularly and stay updated with the latest information to achieve success.
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
@@ -131,6 +147,8 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/climatology-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Climatology%20Class%2011%20Geography%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

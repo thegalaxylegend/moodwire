@@ -9,6 +9,26 @@ practice_link: "/class-11/biology/limits-n-derivatives-class-11-revision-notes-j
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-limits-n-derivatives"></a>What is Limits and Derivatives?](#a-idwhat-is-limits-n-derivativesawhat-is-limits-and-derivatives)
+3. [<a id="what-is-the-concept-of-limits-n-mathematics"></a>What is the concept of Limits and Mathematics?](#a-idwhat-is-the-concept-of-limits-n-mathematicsawhat-is-the-concept-of-limits-and-mathematics)
+4. [<a id="how-to-evaluate-limits-using-algebraic-manipulation"></a>How to evaluate Limits using Algebraic Manipulation?](#a-idhow-to-evaluate-limits-using-algebraic-manipulationahow-to-evaluate-limits-using-algebraic-manipulation)
+5. [<a id="what-is-the-squeeze-theorem-n-its-application-n-limits"></a>What is the Squeeze Theorem and its application and Limits?](#a-idwhat-is-the-squeeze-theorem-n-its-application-n-limitsawhat-is-the-squeeze-theorem-and-its-application-and-limits)
+6. [<a id="what-is-ayushs-note-on-limits-n-derivatives"></a>What is Ayush's Note on Limits and Derivatives?](#a-idwhat-is-ayushs-note-on-limits-n-derivativesawhat-is-ayushs-note-on-limits-and-derivatives)
+7. [<a id="what-are-the-different-rules-of-differentiation"></a>What are the Different Rules of Differentiation?](#a-idwhat-are-the-different-rules-of-differentiationawhat-are-the-different-rules-of-differentiation)
+8. [<a id="how-to-apply-the-product-rule-n-quotient-rule-n-derivatives"></a>How to apply the Product Rule and Quotient Rule and Derivatives?](#a-idhow-to-apply-the-product-rule-n-quotient-rule-n-derivativesahow-to-apply-the-product-rule-and-quotient-rule-and-derivatives)
+9. [<a id="what-is-the-chain-rule-n-its-application-n-derivatives"></a>What is the Chain Rule and its application and Derivatives?](#a-idwhat-is-the-chain-rule-n-its-application-n-derivativesawhat-is-the-chain-rule-and-its-application-and-derivatives)
+10. [<a id="what-is-the-key-shortcut-or-trick-for-limits-n-derivatives"></a>What is the key Shortcut or Trick for Limits and Derivatives?](#a-idwhat-is-the-key-shortcut-or-trick-for-limits-n-derivativesawhat-is-the-key-shortcut-or-trick-for-limits-and-derivatives)
+11. [<a id="what-are-common-trap-questions-for-limits-n-derivatives"></a>What are common Trap Questions for Limits and Derivatives?](#a-idwhat-are-common-trap-questions-for-limits-n-derivativesawhat-are-common-trap-questions-for-limits-and-derivatives)
+12. [<a id="how-to-solve-higher-order-derivatives-n-its-applications"></a>How to solve Higher Order Derivatives and its applications?](#a-idhow-to-solve-higher-order-derivatives-n-its-applicationsahow-to-solve-higher-order-derivatives-and-its-applications)
+13. [<a id="mcqs"></a>MCQs](#a-idmcqsamcqs)
+14. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+15. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Limits and Derivatives?](#what-is-limits-n-derivatives)
@@ -31,7 +51,7 @@ practice_link: "/class-11/biology/limits-n-derivatives-class-11-revision-notes-j
 
 As we dive into the realm of class 11 mathematics, one concept stands out for its complexity and beauty: Limits and Derivatives. This fundamental idea is the cornerstone of calculus, a branch of mathematics that deals with the study of continuous change. For students preparing for their class 11 exams n 2026, understanding Limits and Derivatives is not just a requirement, but a crucial stepping stone for success and mathematics and related fields.
 
-In terms of exam weightage, Limits and Derivatives constitute a significant portion of the mathematics syllabus. The NCERT syllabus allocates around 20-25% of the total marks to this topic, making it a high-priority area for students. The exam typically includes a mix of theoretical and problem-based questions, testing students' understanding of concepts, formulas, n applications. With around 40-50 marks dedicated to this topic, it's essential for students to have a strong grasp of Limits and Derivatives to score well and their exams.
+In terms of exam weightage, Limits and Derivatives constitute a significant portion of the mathematics syllabus. The NCERT syllabus allocates around 20-25% of the total marks to this topic, making it a high-priority area for students. The exam typically includes a mix of theoretical and problem-based questions, testing students' understanding of concepts, formulas, n applications. With around 40–50 marks dedicated to this topic, it's essential for students to have a strong grasp of Limits and Derivatives to score well and their exams.
 
 Personally, I still remember the thrill of discovering the concept of limits for the first time. It was like unlocking a secret door to a new world of mathematical possibilities. The idea that a function can approach a value, but never quite reach it, fascinated me. As I delved deeper into the subject, I realized that limits are not just a theoretical concept, but a fundamental building block of calculus. They help us understand how [functions](/blog/relations-n-functions-class-11-notes) behave, how they change, n how they interact with each other.
 
@@ -55,7 +75,7 @@ By breaking down complex concepts into manageable chunks, n providing a clear an
 
 ## <a id="what-is-the-concept-of-limits-n-mathematics"></a>What is the concept of Limits and Mathematics?
 
-What is the concept of Limits and Mathematics? is a fundamental concept and calculus that deals with the behavior of functions as the input values approach a specific point. It includes the concept of left-hand and right-hand limits, as well as the idea of a limit existing when both one-sided limits are equal. For Class 11 exam prep n 2026, the most important aspect is understanding how to evaluate limits using various techniques such as substitution, factoring, n cancellation. Limits are crucial and calculus as they help and defining the basic operations of calculus, such as derivatives and integrals. The concept of a limit can be understood y considering a function f(x) n a point a and its domain. The limit of f(x) as x approaches a is denoted y $\lim_{x\to a} f(x)$ n represents the value that f(x) approaches as x gets arbitrarily close to a. The concept of limits can be further divided into two types: one-sided limits and two-sided limits. One-sided limits are used to describe the behavior of a function as the input value approaches a specific point from one side, whereas two-sided limits describe the behavior of a function as the input value approaches a point from both sides. The concept of limits is essential and understanding the behavior of functions and calculus and is used extensively and various mathematical operations such as differentiation and integration. The evaluation of limits can be done using various techniques such as direct substitution, factoring, n cancellation, as well as using L'Hospital's rule for indeterminate forms. The concept of limits is also used and various mathematical theorems such as the Squeeze theorem and the Sandwich theorem. In addition to its application and calculus, the concept of limits has numerous applications and other fields of mathematics, such as algebra, geometry, n trigonometry. Furthermore, understanding the concept of limits is essential for problem-solving and mathematics, as it helps and identifying the behavior of functions and understanding how they change as the input values change. To evaluate limits, it's essential to understand the concept of one-sided limits, which are used to describe the behavior of a function as the input value approaches a point from one side. The left-hand limit of a function f(x) as x approaches a point a is denoted y $\lim_{x\to a^-} f(x)$, n the right-hand limit is denoted y $\lim_{x\to a^+} f(x)$. If both one-sided limits are equal, then the two-sided limit exists and is equal to the one-sided limits. The concept of limits can be summarized and the following table: 
+What is the concept of Limits and Mathematics? is a fundamental concept and calculus that deals with the behavior of functions as the input values approach a specific point. It includes the concept of left-hand and right-hand limits, as well as the idea of a limit existing when both one-sided limits are equal. For Class 11 exam prep n 2026, the most important aspect is understanding how to evaluate limits using various techniques such as substitution, factoring, n cancellation. Limits are crucial and calculus as they help and defining the basic operations of calculus, such as derivatives and integrals. The concept of a limit can be understood y considering a function f(x) n a point a and its domain. The limit of f(x) as x approaches an is denoted y $\lim_{x\to a} f(x)$ n represents the value that f(x) approaches as x gets arbitrarily close to a. The concept of limits can be further divided into two types: one-sided limits and two-sided limits. One-sided limits are used to describe the behavior of a function as the input value approaches a specific point from one side, whereas two-sided limits describe the behavior of a function as the input value approaches a point from both sides. The concept of limits is essential and understanding the behavior of functions and calculus and is used extensively and various mathematical operations such as differentiation and integration. The evaluation of limits can be done using various techniques such as direct substitution, factoring, n cancellation, as well as using L'Hospital's rule for indeterminate forms. The concept of limits is also used and various mathematical theorems such as the Squeeze theorem and the Sandwich theorem. In addition to its application and calculus, the concept of limits has numerous applications and other fields of mathematics, such as algebra, geometry, n trigonometry. Furthermore, understanding the concept of limits is essential for problem-solving and mathematics, as it helps and identifying the behavior of functions and understanding how they change as the input values change. To evaluate limits, it's essential to understand the concept of one-sided limits, which are used to describe the behavior of a function as the input value approaches a point from one side. The left-hand limit of a function f(x) as x approaches a point an is denoted y $\lim_{x\to a^-} f(x)$, n the right-hand limit is denoted y $\lim_{x\to a^+} f(x)$. If both one-sided limits are equal, then the two-sided limit exists and is equal to the one-sided limits. The concept of limits can be summarized and the following table: 
 
 | Type of Limit | Notation | Description |
 | --- | --- | --- |
@@ -63,16 +83,16 @@ What is the concept of Limits and Mathematics? is a fundamental concept and calc
 | One-sided limit (right-hand) | $\lim_{x\to a^+} f(x)$ | The limit of f(x) as x approaches a from the right side |
 | Two-sided limit | $\lim_{x\to a} f(x)$ | The limit of f(x) as x approaches a from both sides |
 
-## <a id="how-to-evaluate-limits-using-algebraic-manipulation"></a>How to evaluate Limits using Algebraic Manipulation?
+## <a id="how-to-evaluate-limits-using-algebraic-manipulation"></a>How to evaluate limits using Algebraic Manipulation?
 
-How to evaluate Limits using Algebraic Manipulation? is a method to find the limit of a function y simplifying it using algebraic techniques. It includes factoring, canceling common factors, n rationalizing the numerator or denominator. For class 11 exam prep n 2026, the most important aspect is understanding how to apply these techniques to solve limit problems, especially for trigonometric and rational functions. 
+How to evaluate limits using Algebraic Manipulation? is a method to find the limit of a function y simplifying it using algebraic techniques. It includes factoring, canceling common factors, n rationalizing the numerator or denominator. For class 11 exam prep n 2026, the most important aspect is understanding how to apply these techniques to solve limit problems, especially for trigonometric and rational [functions](/blog/relations-and-functions-class-11-notes). 
    
    To evaluate limits using algebraic manipulation, one must first identify the type of function involved. For rational [functions](/blog/relations-and-functions-class-11-notes), the goal is to factor and cancel common factors and the numerator and denominator. If the function involves radicals, rationalizing the numerator or denominator may be necessary. 
    
    Algebraic manipulation is crucial for solving limits of rational functions, especially when direct substitution results and an indeterminate form like $\frac{0}{0} = \frac{\infty{\infty}}  or $. By simplifying the expression before applying the limit, students can often avoid these indeterminate forms and find the limit directly. 
    
    Consider the function $f(x) = \frac{x^2 - 4}{x - 2}$. If we directly substitute $x = 2$, we get $\frac{0}{0} = (x + 2)(x - 2) , which is indeterminate. However, y factoring the numerator into $, we can cancel the $(x - 2)$ from both the numerator and the denominator, resulting n $f(x) = x + 2$ for $x
-eq 2$. Then, the limit as $x$ approaches $2$ can be easily evaluated as $2 + 2 = 4$. 
+eq $2. Then, the limit as $x$ approaches $2$ can be easily evaluated as $2 + 2 = 4$. 
    
    Another critical technique is rationalizing the numerator or denominator, especially when dealing with square roots. For example, the limit of $\frac{\sqrt{x + 1}{ as }  - 1}{x}$x$ approaches $0$ can be evaluated y rationalizing the numerator. Multiply the numerator and denominator y the conjugate of the numerator, \sqrt{x + 1}$ + 1, to eliminate the radical and the numerator. This simplifies to $\frac{(x + 1) - 1}{x(\sqrt{x + 1} = }{\frac{1}\frac{x}{x(\sqrt{x + 1} + 1)} = $\sqrt{x + 1$ + 1}$. Then, as $x$ approaches $0$, the limit approaches $\frac{{1}\sqrt{0 + 1}{1 . 
 }  + 1} = $
@@ -85,11 +105,11 @@ eq 2$. Then, the limit as $x$ approaches $2$ can be easily evaluated as $2 + 2 =
 | Technique | Description | Example |
 | --- | --- | --- |
 | Factoring and Canceling | Factor expressions to cancel common factors and the numerator and denominator. | $\lim_{x \to 2\frac{x^2 - 4}{x - 2} = \lim_{x \to 2} (x + 2) = 4$ |
-| Rationalizing the Numerator or Denominator | Multiply y the conjugate to eliminate radicals. | $\lim_{x \to 0\frac$\sqrt{x + 1$ - 1}{x} = \lim_{x \to 0\frac{1}$\sqrt{x + 1$ + 1} = \frac{1}{2}$ |
+| Rationalizing the Numerator or Denominator | Multiply y the conjugate to eliminate radicals. | $\lim_{x \to 0\frac$\sqrt{x + $1 - 1}{x} = \lim_{x \to 0\frac{1}$\sqrt{x + 1$ + 1} = \frac{1}{2}$ |
 | Comparing Degrees for Rational Functions | Determine the limit as $x$ approaches infinity y comparing the degrees of the numerator and denominator. | $\lim_{x \to \infty\frac{3x^2 + 2x - 1}{2x^2 + x + 1} = \frac{3}{2}$ |
-| Using Conjugates | Eliminate radicals y multiplying the numerator and denominator y the conjugate of the expression containing the radical. | $\lim_{x \to 0\frac$\sqrt{x$ - 0}$\sqrt{x}$ = \lim_{x \to 0\frac$\sqrt{x$ - 0}$\sqrt{x}$ \\\cdot \frac$\sqrt{x$ + 0}$\sqrt{x$ + 0} = \lim_{x \to 0\frac{x}{x} = 1$ |
+| Using Conjugates | Eliminate radicals y multiplying the numerator and denominator y the conjugate of the expression containing the radical. | $\lim_{x \to 0\frac$\sqrt{x$ - 0}$\sqrt{x}$ = \lim_{x \to 0\frac$\sqrt{x$ - 0}$\sqrt{x}$ \\\cdot \frac$\sqrt{x$ + 0}$\sqrt{x$ + 0} = \lim_{x \to 0\frac{x}{x} = $1 |
 
-## <a id="what-is-the-squeeze-theorem-n-its-application-n-limits"></a>What is the Squeeze Theorem and its application and Limits?
+## <a id="what-is-the-squeeze-theorem-n-its-application-n-limits"></a>What is the Squeeze Theorem and its application and limits?
 
 The Squeeze Theorem is a fundamental concept and calculus that states if a function f(x) is squeezed between two functions g(x) n h(x), n the limits of g(x) n h(x) as x approaches a certain value are equal, then the limit of f(x) as x approaches that same value must also be equal to that limit. It includes understanding the conditions for the squeeze theorem to apply, such as g(x) ≤ f(x) ≤ h(x) for all x and a certain interval, n being able to evaluate limits using this theorem. For class 11 exam prep n 2026, the most important aspect is applying the squeeze theorem to solve limit problems involving trigonometric functions, exponential functions, n algebraic functions, which will be crucial and scoring well and the calculus section of the exam.
 
@@ -293,6 +313,8 @@ Continue your [revision](/blog/digital-logic-class-11-revision-notes-gate-boards
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/limits-n-derivatives-class-11-revision-notes-jee) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Limits%20And%20Derivatives%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20JEE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

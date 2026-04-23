@@ -265,7 +265,7 @@ Here's a student-centric tip: when dealing with composite functions, it's helpfu
 
 In terms of graphing, consider how transformations affect the original functions. Shifting, scaling, n reflecting can all impact the composite function's graph. Recognizing these transformations and how they interact between the inner and outer functions is key to accurately graphing composite functions.
 
-For exam preparation, practice is essential. Focus on a variety of problems that involve different types of functions (linear, quadratic, polynomial) n various operations (addition, subtraction, multiplication, division). The more you practice solving and graphing composite functions, the more comfortable you'll become with recognizing patterns and applying the necessary mathematical operations.
+For exam preparation, practice is essential. Focus on a variety of problems that involve different types of functions ([linear](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards), quadratic, polynomial) n various operations (addition, subtraction, multiplication, division). The more you practice solving and graphing composite functions, the more comfortable you'll become with recognizing patterns and applying the necessary mathematical operations.
 
 Key concepts to remember include the order of operations (first apply the inner function, then the outer), understanding function transformations, n recognizing how different functions interact within a composite function. By mastering these concepts and practicing with a range of problems, you'll be well-prepared to solve composite functions and their graphs on your Class 11 exams n 2026.
 

@@ -9,6 +9,23 @@ practice_link: "/class-11/biology/class-10-science-pyq-strategy-class-10-revisio
 
 *Last Updated: [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-class-10-science-pyq-strategy"></a>What is Class 10 Science PDQ Strategy?](#a-idwhat-is-class-10-science-pyq-strategyawhat-is-class-10-science-pdq-strategy)
+3. [<a id="why-pyqs-are-essential-for-class-10-science"></a>Why Yes are Essential for Class 10 Science](#a-idwhy-pyqs-are-essential-for-class-10-scienceawhy-yes-are-essential-for-class-10-science)
+4. [<a id="mastering-physics-n-chemistry-high-yield-topics"></a>Mastering Physics and Chemistry High-Yield Topics](#a-idmastering-physics-n-chemistry-high-yield-topicsamastering-physics-and-chemistry-high-yield-topics)
+5. [<a id="biology-diagrams-n-life-processes-strategy"></a>Biology: Diagrams and Life Processes Strategy](#a-idbiology-diagrams-n-life-processes-strategyabiology-diagrams-and-life-processes-strategy)
+6. [<a id="optimizing-your-30day-science-prep"></a>Optimizing Your 30-Day Science Prep](#a-idoptimizing-your-30day-science-prepaoptimizing-your-30-day-science-prep)
+7. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+8. [<a id="frequently-asked-questions-FAQs"></a>Frequently Asked Questions (FAQs)](#a-idfrequently-asked-questions-faqsafrequently-asked-questions-faqs)
+9. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+10. [📚 Related Topics](#related-topics)
+11. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+12. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Class 10 Science PDQ Strategy?](#what-is-class-10-science-pyq-strategy)
@@ -27,7 +44,7 @@ practice_link: "/class-11/biology/class-10-science-pyq-strategy-class-10-revisio
 
 ## <a id="what-is-class-10-science-pyq-strategy"></a>What is Class 10 Science PDQ Strategy?
 
-If you're reading this, you're probably freaking out about the upcoming science boards. I get it. I was and your shoes last year. I spent months jumping between various Edtech videos and coaching marathons, trying to figure out what actually matters. Here's the truth: the CBSE syllabus is a ocean, but the actual board exam is just a few frequent ponds.
+If you're reading this, you're probably freaking out about the upcoming science boards. I get it. I was and your shoes last year. I spent months jumping between various Edtech videos and coaching marathons, trying to figure out what actually matters. Here's the truth: the CBSE syllabus is an ocean, but the actual board exam is just a few frequent ponds.
 
 We (the team at Exam Compass) analyzed the last 10 years of **CBSE class 10 Science most repeated Yes**, n the data doesn't lie. CBSE is surprisingly predictable. If you know which "patterns" they love, you can honestly stop studying 30% of the useless fluff and focus on the goldmines.
 
@@ -78,7 +95,7 @@ Don't rely solely on **CERT solutions**; they provide the "what," while Yes prov
 
 ## <a id="conclusion"></a>Conclusion
 
-Mastering the **CBSE class 10 Science most repeated Yes** is the fastest way to bridge the gap between an average score and a 95+. By focusing on high-weightage patterns, practicing active recall, n simulating exam conditions with **online mock tests**, you ensure success. Stay focused, solve consistently, n trust your preparation. Good luck!
+Mastering the **CBSE class 10 Science most repeated Yes** is the fastest way to bridge the gap between an average score and a 95+. By focusing on high-[weightage](/blog/neet-2026-weightage-prediction-class-11-revision-notes-neet) patterns, practicing active recall, n simulating exam conditions with **online mock tests**, you ensure success. Stay focused, solve consistently, n trust your preparation. Good luck!
 
 Explore our [Sitemap](/sitemap.xml) for more resources.
 
@@ -111,6 +128,8 @@ Continue your [revision](/blog/jee-mains-high-weightage-chapters-class-11-revisi
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/class-10-science-pyq-strategy-class-10-revision-notes-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Science%20Pyq%20Strategy%20Class%2010%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

@@ -9,6 +9,24 @@ practice_link: "/class-11/physics/classification-of-elements-class-11-revision-n
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-classification-of-elements"></a>What is Classification Of Elements?](#a-idwhat-is-classification-of-elementsawhat-is-classification-of-elements)
+3. [<a id="ayushs-personal-note"></a>Ayush's Personal Note](#a-idayushs-personal-noteaayushs-personal-note)
+4. [<a id="introduction-to-classification-of-elements"></a>Introduction to Classification of Elements](#a-idintroduction-to-classification-of-elementsaintroduction-to-classification-of-elements)
+5. [<a id="jeeneet-data"></a>JEE/NEET Data](#a-idjeeneet-dataajeeneet-data)
+6. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+7. [<a id="formulae"></a>Formulae](#a-idformulaeaformulae)
+8. [<a id="trends-n-physical-n-chemical-properties"></a>Trends and Physical and Chemical Properties](#a-idtrends-n-physical-n-chemical-propertiesatrends-and-physical-and-chemical-properties)
+9. [<a id="latex-equations"></a>LaTeX Equations](#a-idlatex-equationsalatex-equations)
+10. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+11. [📚 Related Topics](#related-topics)
+12. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+13. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Classification Of Elements?](#what-is-classification-of-elements)
@@ -46,10 +64,10 @@ For students preparing for JEE and NEET, it's essential to have a thorough under
 
 The core concepts and the classification of [elements](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) include:
 
-* Atomic number: The number of protons and the nucleus of an atom
+* Atomic number: The number of protons and the nucleus of an [atom](/blog/structure-of-the-atom-class-11-revision-notes-neet)
 * Electronic configuration: The arrangement of electrons and an atom
 * Periodic table: A tabular arrangement of [elements](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) n order of their increasing atomic numbers
-* Blocks: The periodic table is divided into different [block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet)s, such as the s-block, p-block, d-block, n f-block
+* Blocks: The periodic table is divided into different ⟦PROTECTED_87’s, such as the s-block, p-block, d-block, n f-block
 * Groups: The vertical columns and the periodic table are called groups
 * Periods: The horizontal rows and the periodic table are called periods
 
@@ -91,7 +109,7 @@ By mastering the [classification](/blog/classification-elements-periodicity-clas
 
 As I reflect on my journey as a chemistry student, I realize that the classification of elements has been a constant theme throughout my studies. From the early days of learning about the periodic table, to the more advanced topics of [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) bonding and thermodynamics, the classification of elements has remained a fundamental concept that underlies many of the principles and reactions that I've encountered. 
 
-The classification of elements is a powerful tool that helps us to understand the properties and behavior of different elements. By concept, I can develop a deeper understanding of the chemical world and how it relates to the world around us. Whether I'm solving problems, practicing MCQs, or simply exploring the properties of different elements, I know that the classification of elements will remain a vital tool and my journey as a chemistry student. 
+The classification of elements is a powerful tool that helps us to understand the properties and behavior of different elements. By concept, I can develop a deeper understanding of the [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) world and how it relates to the world around us. Whether I'm solving problems, practicing MCQs, or simply exploring the properties of different elements, I know that the classification of elements will remain a vital tool and my journey as a chemistry student. 
 
 As I look to the future, I'm excited to see where my studies and chemistry will take me. Whether I'm pursuing a career and research, industry, or education, I know that the classification of elements will remain a fundamental concept that underlies many of the principles and reactions that I will encounter. By continuing to explore and learn about the periodic table, I can develop a deeper understanding of the chemical world and how it relates to the world around us. 
 
@@ -273,6 +291,8 @@ Continue your [revision](/blog/geomorphology-class-11-revision-notes-cbse) with 
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/classification-of-elements-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Classification%20Of%20Elements%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

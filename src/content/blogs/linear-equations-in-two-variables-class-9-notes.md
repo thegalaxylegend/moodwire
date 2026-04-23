@@ -22,14 +22,14 @@ manualReview: false
 - The graph of a linear equation in two variables can be drawn using the $x$ and $y$ intercepts.
 - The equation $ax + by + c = 0$ can be written in the form $\frac{x}{-\frac{c}{a}} + \frac{y}{-\frac{c}{b}} = 1$, which is the standard form of a linear equation in two variables.
 - The $x$ and $y$ intercepts of a linear equation in two variables can be used to draw the graph of the equation.
-- The slope of a linear equation in two variables is the same at all points on the line.
+- The slope of a [linear](/blog/linear-programming-class-12-notes) equation in two variables is the same at all points on the line.
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not checking if the equation is linear or not before solving it.
 - Not using the correct method to solve the equation, such as substitution or elimination.
 - Not checking for any restrictions on the variables, such as $x 
-eq 0$ or $y 
-eq 0$.
+eq $0 or $y 
+eq $0.
 - Not graphing the equation correctly, such as not using the correct scale or not labeling the axes.
 - Not interpreting the results correctly, such as not identifying the $x$ and $y$ intercepts or the slope of the line.
 
@@ -56,8 +56,8 @@ eq 0$.
 
 ## 🔁 Last 5 Minutes Box
 - Make sure to check the equation for any restrictions on the variables, such as $x 
-eq 0$ or $y 
-eq 0$.
+eq $0 or $y 
+eq $0.
 - Use the correct method to solve the equation, such as substitution or elimination.
 - Check the graph of the equation for any errors, such as not using the correct scale or not labeling the axes.
 - Interpret the results correctly, such as identifying the $x$ and $y$ intercepts or the slope of the line.
@@ -131,6 +131,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Linear%20Equations%20In%20Two%20Variables%209%20Class%209%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

@@ -120,7 +120,7 @@ D) To determine the effects of gene interaction and epigenetic factors on gene e
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/principles-of-inheritance-and-variation-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/principles-of-[inheritance](/blog/molecular-basis-of-inheritance-class-12-notes)-and-variation-class-12-notes) now and track your progress against thousands of students.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

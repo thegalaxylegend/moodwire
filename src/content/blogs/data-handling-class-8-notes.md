@@ -22,15 +22,15 @@ manualReview: false
 - Check for any missing values or outliers in the data set
 - Practice, practice, practice to get a good grasp of the concepts
 
-## ✏️ 3 Solved Yes
+## ✏️ 3 Solved PYQs
 - **Question 1:** Find the mean of the following data set: 12, 15, 18, 20, 22
   - Step 1: Add up all the values in the data set: $12 + 15 + 18 + 20 + 22 = 87$
-  - Step 2: Count the number of values in the data set: in = 5$
+  - Step 2: Count the number of values in the data set: in = $5
   - Step 3: Calculate the mean using the formula: $\bar{x} = \franc{87}{5} = 17.4$
 - **Question 2:** Find the range of the following data set: 10, 12, 15, 18, 20
   - Step 1: Find the maximum value in the data set: $\max \{x_i\} = 20$
   - Step 2: Find the minimum value in the data set: $\min \{x_i\} = 10$
-  - Step 3: Calculate the range using the formula: OR = 20–10 = 10$
+  - Step 3: Calculate the range using the formula: OR = 20–10 = $10
 - **Question 3:** Find the mode of the following data set: 12, 15, 15, 18, 20
   - Step 1: Identify the values that appear most frequently: $15$ appears twice
   - Step 2: Check if any other value appears more than twice: No
@@ -68,7 +68,7 @@ C) 15
 -
 D) 20
 
-**Answer: B) The range is calculated by subtracting the minimum value from the maximum value: OR = 20–10 = 10$**
+**Answer: B) The range is calculated by subtracting the minimum value from the maximum value: OR = 20–10 = $10**
 
 **2. What is the mean of the data set: 12, 15, 18, 20, 22?**
 -
@@ -143,6 +143,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 * **Confusing Median and Mode**: Many students confuse the mode (the most frequently occurring value) with the median (the middle value in a sorted dataset), resulting in incorrect calculations. 
 * **Not Considering All Data Points for Range**: While calculating the range, some students overlook the highest or lowest value in the dataset, leading to an incorrect range. 
 * **Miscalculating the Median of an Even Set**: When dealing with an even number of data points, students often make errors in finding the median by not taking the average of the two middle numbers.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Data%20Handling%208%20Class%208%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

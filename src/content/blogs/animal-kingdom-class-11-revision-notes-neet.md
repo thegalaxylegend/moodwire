@@ -9,6 +9,27 @@ practice_link: "/class-11/biology/animal-kingdom-class-11-revision-notes-neet"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-animal-kingdom"></a>What is Animal Kingdom?](#a-idwhat-is-animal-kingdomawhat-is-animal-kingdom)
+3. [<a id="introduction-to-animal-kingdom"></a>Introduction to Animal Kingdom](#a-idintroduction-to-animal-kingdomaintroduction-to-animal-kingdom)
+4. [<a id="characteristics-of-animals"></a>Characteristics of Animals](#a-idcharacteristics-of-animalsacharacteristics-of-animals)
+5. [<a id="classification-of-animals"></a>Classification of Animals](#a-idclassification-of-animalsaclassification-of-animals)
+6. [<a id="morphology-n-anatomy-of-animals"></a>Morphology and Anatomy of Animals](#a-idmorphology-n-anatomy-of-animalsamorphology-and-anatomy-of-animals)
+7. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+8. [<a id="Ayush-note"></a>Ayush's Note](#a-idayush-noteaayushs-note)
+9. [<a id="shortcut-formula-trick"></a>Shortcut Formula / Trick](#a-idshortcut-formula-trickashortcut-formula-trick)
+10. [<a id="trap-questions-exceptions"></a>Trap Questions / Exceptions](#a-idtrap-questions-exceptionsatrap-questions-exceptions)
+11. [<a id="practice-MCQs"></a>Practice MCQs](#a-idpractice-mcqsapractice-mcqs)
+12. [<a id="related-notes-links"></a>Related Notes Links](#a-idrelated-notes-linksarelated-notes-links)
+13. [<a id="last-updated-date"></a>Last Updated Date](#a-idlast-updated-datealast-updated-date)
+14. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+15. [📚 Related Topics](#related-topics)
+16. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Animal Kingdom?](#what-is-animal-kingdom)
@@ -62,12 +83,10 @@ The morphology and anatomy of animals vary greatly, depending on their phylum, c
 
 ## <a id="core-concepts"></a>Core Concepts
 
-### <a id="phylum-Chordata"></a>Phylum Chordata
-Phylum Chordata is a group of [animals](/blog/structural-organisation-n-animals-class-11-revision-notes-neet) that have a notochord, dorsal nerve cord, n pharyngeal slits. This phylum includes vertebrates such as humans, fish, n birds, as well as some invertebrates such as tunicates and lancelets.
+### <a id="phylum-Chordata"></a>Phylum Chordata is a group of [animals](/blog/structural-organisation-n-animals-class-11-revision-notes-neet) that have a notochord, dorsal nerve cord, n pharyngeal slits. This phylum includes vertebrates such as humans, fish, n birds, as well as some invertebrates such as tunicates and lancelets.
 Phylum Chordata is defined as a group of [animals](/blog/structural-organisation-n-animals-class-11-revision-notes-neet) with a notochord, dorsal nerve cord, n pharyngeal slits.
 
-### <a id="class-Mammalia"></a>Class Mammalia
-class Mammalia is a group of warm-blooded animals that have hair and mammary glands. This class includes humans, monkeys, n other primates, as well as carnivores, rodents, n many other groups of mammals.
+### <a id="class-Mammalia"></a>Class Mammalia is a group of warm-blooded animals that have hair and mammary glands. This class includes humans, monkeys, n other primates, as well as carnivores, rodents, n many other groups of mammals.
 class Mammalia is defined as a group of warm-blooded animals with hair and mammary glands.
 
 ## <a id="Ayush-note"></a>Ayush's Note
@@ -153,6 +172,8 @@ Continue your revision with these related guides:
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/animal-kingdom-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Animal%20Kingdom%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -167,7 +188,7 @@ Continue your revision with these related guides:
 ## 🔁 Last 5 Minutes Box
 
 * Kingdom Animalia characteristics: eukaryotic, multicellular, heterotrophic
-* Classification bases: structural, functional, phylogenetic
+* [Classification](/blog/biological-classification-class-11-revision-notes-neet) bases: structural, functional, phylogenetic
 * Animal kingdom divisions: Porifera, Coelenterata, Platyhelminthes, Aschelminthes, Annelida, Arthropoda, Mollusca, Echinodermata, Chordata
 * Phylum Chordata classes: Pisces, Amphibia, Reptilia, Aves, Mammalia
 * Important terms: radial symmetry, bilateral symmetry, cephalization, appendages, notochord, dorsal hollow nerve cord

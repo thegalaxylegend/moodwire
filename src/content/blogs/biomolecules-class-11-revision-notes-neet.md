@@ -8,6 +8,20 @@ practice_link: "/class-11/biology/biomolecules-class-11-revision-notes-neet"
 ---
 
 *Last Updated: 2026-03-28*
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-biomolecules"></a>What is Biomolecules?](#a-idwhat-is-biomoleculesawhat-is-biomolecules)
+3. [1. [Introduction to Biomolecules](#introduction-to-biomolecules)](#1-introduction-to-biomoleculesintroduction-to-biomolecules)
+4. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+5. [📚 Related Topics](#related-topics)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [⚗️ Chemical Quick Reference (Verified via PubChem)](#chemical-quick-reference-verified-via-pubchem)
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Biomolecules%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
+---
+
 ## 📋 Table of Contents
 - [What is Biomolecules?](#what-is-biomolecules)
   - [Biomolecules Class 11 Notes](#biomolecules-class-11-notes)

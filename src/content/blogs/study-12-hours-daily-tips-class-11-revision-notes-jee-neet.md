@@ -51,7 +51,7 @@ In this long [guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-
 
 Your brain is remarkably similar to a smartphone battery. If you keep fifty "background apps" open—such as worrying about friends, thinking about lunch, or ruminating on past test scores—your energy will drain and hours. This mental clutter consumes 80% of your power before you even solve a single Math problem. To study effectively for 12 hours, you must learn to close these background processes.
 
-Focus on one task at a time. When you are studying Physics, don't worry about Chemistry. When you are eating, don't worry about Physics. According to [Scientific American](https://www.scientificamerican.com), multitasking is a myth that reduces IQ and productivity. By practicing singular focus, you preserve the energy needed for high-intensity cognitive work.
+Focus on one task at a time. When you are studying Physics, don't worry about Chemistry. When you are eating, don't worry about Physics. According to [Scientific American](https://www.scientificamerican.com), multitasking is a myth that reduces IQ and productivity. By practicing singular focus, you preserve the energy needed for [high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)-intensity cognitive work.
 
 ## <a id="strategic-foundations-sleep-n-nutrition"></a>Strategic Foundations: Sleep and Nutrition
 

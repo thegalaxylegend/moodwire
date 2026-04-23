@@ -9,6 +9,30 @@ practice_link: "/class-11/biology/cell-the-unit-of-life-class-11-revision-notes-
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-cell-the-unit-of-life"></a>What is Cell The Unit Of Life?](#a-idwhat-is-cell-the-unit-of-lifeawhat-is-cell-the-unit-of-life)
+3. [<a id="introduction-to-cells"></a>Introduction to Cells](#a-idintroduction-to-cellsaintroduction-to-cells)
+4. [<a id="why-this-chapter-matters"></a>Why This Chapter Matters](#a-idwhy-this-chapter-mattersawhy-this-chapter-matters)
+5. [<a id="Ayush-note"></a>Ayush's Note](#a-idayush-noteaayushs-note)
+6. [<a id="cell-structure"></a>Cell Structure](#a-idcell-structureacell-structure)
+7. [<a id="cell-membrane"></a>Cell Membrane](#a-idcell-membraneacell-membrane)
+8. [<a id="cytoplasm"></a>Cytoplasm](#a-idcytoplasmacytoplasm)
+9. [<a id="nucleus"></a>Nucleus](#a-idnucleusanucleus)
+10. [<a id="mitochondria"></a>Mitochondria](#a-idmitochondriaamitochondria)
+11. [<a id="cell-division"></a>Cell Division](#a-idcell-divisionacell-division)
+12. [<a id="shortcut-formula-trick"></a>Shortcut Formula / Trick](#a-idshortcut-formula-trickashortcut-formula-trick)
+13. [<a id="trap-questions-exceptions"></a>Trap Questions / Exceptions](#a-idtrap-questions-exceptionsatrap-questions-exceptions)
+14. [<a id="practice-MCQs"></a>Practice MCQs](#a-idpractice-mcqsapractice-mcqs)
+15. [<a id="related-notes-links"></a>Related Notes Links](#a-idrelated-notes-linksarelated-notes-links)
+16. [<a id="last-updated-date"></a>Last Updated Date](#a-idlast-updated-datealast-updated-date)
+17. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+18. [📚 Related Topics](#related-topics)
+19. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Cell The Unit Of Life?](#what-is-cell-the-unit-of-life)
@@ -175,6 +199,8 @@ Continue your [revision](/blog/morphology-of-flowering-plants-class-11-revision-
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/cell-the-unit-of-life-class-11-revision-notes-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Cell%20The%20Unit%20Of%20Life%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

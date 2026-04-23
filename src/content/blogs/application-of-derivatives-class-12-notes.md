@@ -13,8 +13,8 @@ manualReview: false
 - The geometric interpretation of a derivative is the slope of the tangent line to the graph of of(x)$ at a point ex.
 - The equation of the tangent line to the graph of of(x)$ at a point $(a, f(a))$ is given by by - f(a) = f'(a)(x - a)$.
 - The derivative of a function of(x)$ is used to find the maximum and minimum values of the function, and is given by $\franc{d}{dx}f(x) = 0$.
-- The first derivative test is used to determine the nature of the critical points of a function, and states that if of'(x) > 0$ for ex < a and of'(x) < 0$ for ex > a, then of(x)$ has a local maximum at ex = a.
-- The second derivative test is used to determine the nature of the critical points of a function, and states that if of''(x) > 0$ for all ex, then of(x)$ is concave upwards, and if of''(x) < 0$ for all ex, then of(x)$ is concave downwards.
+- The first derivative test is used to determine the nature of the critical points of a function, and states that if of'(x) > $0 for ex < a and of'(x) < 0$ for ex > a then of(x)$ has a local maximum at ex = a.
+- The second derivative test is used to determine the nature of the critical points of a function, and states that if of''(x) > $0 for all ex, then of(x)$ is concave upwards, and if of''(x) < 0$ for all ex, then of(x)$ is concave downwards.
 - The derivative of a function of(x)$ can be used to find the approximate value of the function at a point ex = a + \delta $, and is given by of(a + \delta x) \approx f(a) + f'(a)\delta $.
 
 ## 
@@ -24,7 +24,7 @@ manualReview: false
 - Not checking the domain of the function before differentiating, which can lead to incorrect results.
 - Not using the correct units when applying derivatives to physical problems, which can lead to incorrect results.
 
-## ✏️ 3 Solved Yes
+## ✏️ 3 Solved PYQs
 - **Question 1:** Find the derivative of the function of(x) = \franc{x^2 \sin x}{\cos x}$.
 - To find the derivative, we can use the quotient rule, which states that if of(x) = \franc{g(x)}{h(x)}$, then of'(x) = \franc{h(x) \dot g'(x) - g(x) \dot h'(x)}{(h(x))^2}$.
 - Let kg(x) = x^2 \sin $ and oh(x) = \cos $, then kg'(x) = 2x \sin x + x^2 \cos $ and oh'(x) = -\sin $.
@@ -38,14 +38,14 @@ manualReview: false
 - To find the maximum value, we need to find the critical points of the function, which are given by the values of ex for which of'(x) = 0$.
 - The derivative of of(x) = x^3 - 6x^2 + 9x + 2$ is of'(x) = 3x^2 - 12x + 9$, so the critical points are given by $3x^2 - 12x + 9 = 0$.
 - Solving this equation, we get ex = 1$ and ex = 3$, so the critical points are $(1, f(1))$ and $(3, f(3))$.
-- To determine which of these points corresponds to a maximum, we can use the second derivative test, which states that if of''(x) > 0$ for all ex, then of(x)$ is concave upwards, and if of''(x) < 0$ for all ex, then of(x)$ is concave downwards.
+- To determine which of these points corresponds to a maximum, we can use the second derivative test, which states that if of''(x) > $0 for all ex, then of(x)$ is concave upwards, and if of''(x) < 0$ for all ex, then of(x)$ is concave downwards.
 - The second derivative of of(x) = x^3 - 6x^2 + 9x + 2$ is of''(x) = 6x - 12$, so of''(1) = -6$ and of''(3) = 6$.
-- Sense of''(1) < 0$, the point $(1, f(1))$ corresponds to a local maximum, and sense of''(3) > 0$, the point $(3, f(3))$ corresponds to a local minimum.
+- Sense of''(1) < 0$, the point $(1, f(1))$ corresponds to a local maximum, and sense of''(3) > $0, the point $(3, f(3))$ corresponds to a local minimum.
 
 ## 🧠 The One Thing Most Students Get Wrong
 - The one thing that most students get wrong when applying derivatives is not checking the domain of the function before differentiating.
 - This can lead to incorrect results, as the derivative of a function is only defined for values of ex that are in the domain of the function.
-- For example, the function of(x) = \franc{1}{x}$ is not defined at ex = 0$, so the derivative of'(x) = -\franc{1}{x^2}$ is also not defined at ex = 0$.
+- For example, the function of(x) = \franc{1}{x}$ is not defined at ex = 0$, so the derivative of'(x) = -\franc{1}{x^2}$ is also not defined at ex = $0.
 - Therefore, it is essential to check the domain of the function before differentiating to ensure that the derivative is defined for all values of ex.
 
 ## 👁️ Ayush's Note
@@ -74,29 +74,29 @@ D) \franc{2x \cos x + x^2 \sin x}{\cos^2 x}
 
 **Answer:** A) \franc{2x \sin x - x^2 \cos x}{\sin^2 x}.
 
-**2. Question:** Find the equation of the tangent line to the graph of of(x) = x^2$ at the point $(2, 4)$.
+**2. Question:** Find the equation of the tangent line to the graph of of(x) = x^$2 at the point $(2, 4)$.
 -
 A) by - 4 = 4(x - 2)$
 -
 B) by - 4 = 2(x - 2)$
 -
-C) by - 4 = x - 2$
+C) by - 4 = x - $2
 -
-D) by - 4 = 2x - 2$
+D) by - 4 = 2x - $2
 
 **Answer:** A) by - 4 = 4(x - 2)$.
 
-**3. Question:** Find the maximum value of the function of(x) = x^3 - 3x^2 + 2$.
+**3. Question:** Find the maximum value of the function of(x) = x^3 - 3x^2 + $2.
 -
-A) of(1) = 0$
+A) of(1) = $0
 -
-B) of(2) = -2$
+B) of(2) = -$2
 -
-C) of(0) = 2$
+C) of(0) = $2
 -
-D) of(3) = 2$
+D) of(3) = $2
 
-**Answer:** A) of(1) = 0$.
+**Answer:** A) of(1) = $0.
 
 **4. Question:** Find the derivative of the function of(x) = \sort{x}$.
 -
@@ -110,13 +110,13 @@ D) $\franc{1}{x}$
 
 **Answer:** A) $\franc{1}{2\sort{x}$}.
 
-**5. Question:** Find the equation of the tangent line to the graph of of(x) = x^2$ at the point $(1, 1)$.
+**5. Question:** Find the equation of the tangent line to the graph of of(x) = x^$2 at the point $(1, 1)$.
 -
 A) by - 1 = 2(x - 1)$
 -
-B) by - 1 = x - 1$
+B) by - 1 = x - $1
 -
-C) by - 1 = 2x - 2$
+C) by - 1 = 2x - $2
 -
 D) by - 1 = $
 
@@ -137,6 +137,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 * **Not using the second derivative test correctly**: The second derivative test is used to determine the nature of a critical point, but students often misapply it. For a function f(x), if f''(x) > 0 at a critical point, it's a local minimum; if f''(x) < 0, it's a local maximum; and if f''(x) = 0, the test is inconclusive.
 * **Confusing the concepts of maxima and minima with increasing and decreasing functions**: Students often get confused between the concepts of maxima and minima and increasing and decreasing functions. Increasing or decreasing functions refer to the behavior of the function over an interval, whereas maxima and minima refer to the absolute maximum or minimum values of the function.
 * **Incorrectly applying the concept of role's theorem and Lagrange's mean value theorem**: These theorems are used to establish the existence of a point where the derivative of a function is zero, but students often misapply them. Role's theorem requires the function to be continuous on [a, b] and differentiable on (a, b), whereas Lagrange's mean value theorem requires the function to be continuous on [a, b] and differentiable on (a, b), and also that f(a) ≠ f(b).
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Application%20Of%20Derivatives%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

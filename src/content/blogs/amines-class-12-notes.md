@@ -15,7 +15,7 @@ manualReview: false
 - Electron withdrawing groups decrease the basicity of amines: $\text{Basicity} \proto \franc{1}{\text{electron withdrawing power}}$
 - OK_by values of amines can be calculated using the formula: OK_b = \franc{K_w}{K_a $\text{ of conjugate acid}$}$
 - $\text{p}OK_b = -\log K_by
-- $\text{p}K_a of conjugate acid of amine can be calculated using the formula: \text{p}OK_a = 14 - $\text{p}OK_by
+- $\text{p}K_a of conjugate acid of amine can be calculated using the formula: \text{p}OK_a = 14 - \text{p}$OK_by
 - Amines react with water to form salts: $\text{RNH}_2 + \text{H}_2\text{O} \ \text{RNH}_3^+ + \text{OH}^-$
 - Amines react with acids to form salts: $\text{RNH}_2 + \text{HCl} \ \text{RNH}_3^+ \text{Cl}^-$
 - Amines can be prepared by reduction of nitro compounds: $\text{RNO}_2 + 6\text{H} \ \text{RNH}_2 + 2\text{H}_2\text{O}$
@@ -29,7 +29,7 @@ manualReview: false
 - Not being able to distinguish between aliphatic and aromatic amines
 - Not being able to apply the concepts of amines to solve problems
 
-## ✏️ 3 Solved Yes
+## ✏️ 3 Solved PYQs
 - **Question 1:** The correct order of basic strength of the following amines is
 - $\text{NH}_3$
 - $\text{CH}_3\text{NH}_2$
@@ -150,3 +150,6 @@ Continue your revision with these related guides:
 - 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
 - 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
 - 📖 [Biotechnology And Its Applications Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)
+
+$
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Amines%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**

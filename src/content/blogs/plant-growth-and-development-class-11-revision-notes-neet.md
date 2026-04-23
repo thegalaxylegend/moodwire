@@ -50,7 +50,7 @@ This chapter is essential for students preparing for the Class 11 biology exam, 
 ## <a id="ayushs-note"></a>Ayush's Note
 
 <div class="callout-box">
-I still remember the mistake I made and my class 11 biology exam. I confused the terms "growth" n "development" n ended up losing marks. However, I learned from my mistake and made sure to understand the difference between the two. Growth refers to the increase and size, while development refers to the process of maturation. For example, a seedling grows into a plant, but it develops into a mature plant with flowers and fruits. I hope this helps you avoid the same mistake!
+I still remember the mistake I made and my class 11 biology exam. I confused the terms "growth" n "development" n ended up losing marks. However, I learned from my mistake and made sure to understand the difference between the two. Growth refers to the increase and size, while development refers to the process of maturation. For example, a seedling grows into a [plant](/blog/plant-kingdom-class-11-revision-notes-neet), but it develops into a mature [plant](/blog/plant-kingdom-class-11-revision-notes-neet) with flowers and fruits. I hope this helps you avoid the same mistake!
 </div>
 
 ## <a id="core-concepts"></a>Core Concepts
@@ -84,7 +84,7 @@ To remember the different types of [plant](/blog/plant-kingdom-class-11-revision
 
 ## <a id="trap-questions-exceptions"></a>Trap Questions / Exceptions
 
-* Wrong answer: Auxins promote cell division.
+* Wrong answer: Auxins promote [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division.
 Right answer: Cytokinins promote cell division.
 Why students get it wrong: Auxins and cytokinins are both involved and cell growth, but they have different functions.
 * Wrong answer: Gibberellins promote fruit ripening.

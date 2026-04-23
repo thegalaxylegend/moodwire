@@ -17,7 +17,7 @@ manualReview: false
 - Hydrometallurgy involves the use of aqueous solutions to extract metals from their ores, and is represented by the equation: $\delta G = \delta H - T\delta S$.
 - Electrometallurgy involves the use of electricity to extract metals from their ores, and is represented by the equation: $E = E^{\circ} - \frac{RT}{nF} \ln Q$.
 - The main types of ores are: Oxide ores, Sulphide ores, and Carbonate ores.
-- The main types of furnaces used in metallurgy are: Reverberatory furnace, Blast furnace, and Electric arc furnace.
+- The main types of furnaces used in metallurgy are: Reverberatory furnace, blast furnace, and Electric arc furnace.
 - The main types of refining processes are: Distillation, Crystallization, and Electrolysis.
 
 ## 
@@ -31,7 +31,7 @@ manualReview: false
 - Not understanding the difference between Roasting and Calcination: Roasting is the process of heating the ore in the presence of air to convert it into a suitable form for reduction, while Calcination is the process of heating the ore in the absence of air to remove the volatile impurities.
 - Not knowing the types of metallurgical processes: Pyrometallurgy, Hydrometallurgy, and Electrometallurgy are the main types of metallurgical processes.
 - Not understanding the concept of $\delta G$ and $\delta H$: $\delta G$ is the change in Gibbs free energy, while $\delta H$ is the change in enthalpy.
-- Not knowing the types of furnaces used in metallurgy: Reverberatory furnace, Blast furnace, and Electric arc furnace are the main types of furnaces used in metallurgy.
+- Not knowing the types of furnaces used in metallurgy: Reverberatory furnace, blast furnace, and Electric arc furnace are the main types of furnaces used in metallurgy.
 - Not understanding the concept of refining: Refining involves the purification of the metal, and is represented by the equation: $\frac{Pure\ metal}{Impure\ metal}$.
 
 ## ✏️ 3 Solved PYQs
@@ -138,6 +138,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Metallurgy%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

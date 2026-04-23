@@ -130,7 +130,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/transport-n-plants-class-11-revision-notes-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/transport-n-[plants](/blog/respiration-in-plants-class-11-revision-notes-neet)-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 ---
 

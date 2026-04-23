@@ -9,6 +9,28 @@ practice_link: "/class-11/biology/environmental-chemistry-class-11-revision-note
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-environmental-chemistry"></a>What is Environmental Chemistry?](#a-idwhat-is-environmental-chemistryawhat-is-environmental-chemistry)
+3. [<a id="environmental-chemistry-class-11-notes"></a>Environmental Chemistry Class 11 Notes](#a-idenvironmental-chemistry-class-11-notesaenvironmental-chemistry-class-11-notes)
+4. [<a id="introduction-to-environmental-chemistry"></a>Introduction to Environmental Chemistry](#a-idintroduction-to-environmental-chemistryaintroduction-to-environmental-chemistry)
+5. [<a id="why-this-chapter-matters"></a>Why This Chapter Matters](#a-idwhy-this-chapter-mattersawhy-this-chapter-matters)
+6. [<a id="Ayush-note"></a>Ayush's Note](#a-idayush-noteaayushs-note)
+7. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+8. [<a id="shortcut-formula-trick"></a>Shortcut Formula / Trick](#a-idshortcut-formula-trickashortcut-formula-trick)
+9. [<a id="trap-questions-exceptions"></a>Trap Questions / Exceptions](#a-idtrap-questions-exceptionsatrap-questions-exceptions)
+10. [<a id="practice-MCQs"></a>Practice MCQs](#a-idpractice-mcqsapractice-mcqs)
+11. [<a id="related-notes-links"></a>Related Notes Links](#a-idrelated-notes-linksarelated-notes-links)
+12. [<a id="last-updated-date"></a>Last Updated Date](#a-idlast-updated-datealast-updated-date)
+13. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+14. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+15. [📚 Related Topics](#related-topics)
+16. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+17. [⚗️ Chemical Quick Reference (Verified via PubChem)](#chemical-quick-reference-verified-via-pubchem)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Environmental Chemistry?](#what-is-environmental-chemistry)
@@ -34,7 +56,7 @@ practice_link: "/class-11/biology/environmental-chemistry-class-11-revision-note
 
 ## <a id="environmental-chemistry-class-11-notes"></a>Environmental Chemistry Class 11 Notes
 
-Environmental Chemistry is [the study of the chemical and biochemical phenomena that occur and the environment](https://en.wikipedia.org/wiki/Environmental_chemistry). 
+Environmental [Chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) is [the study of the chemical and biochemical phenomena that occur and the environment](https://en.wikipedia.org/wiki/Environmental_chemistry). 
 
 * Environmental chemistry is the study of the chemical and biochemical phenomena that occur and the environment.
 * It involves the study of the sources, reactions, transport, n effects of chemical species and the environment.
@@ -70,12 +92,9 @@ I once made a mistake and my JEE preparation y not giving enough importance to e
 ## <a id="core-concepts"></a>Core Concepts
 
 Environmental chemistry is [the study of the chemical and biochemical phenomena that occur and the environment](https://en.wikipedia.org/wiki/Environmental_chemistry). It involves the study of the sources, reactions, transport, n effects of chemical species and the environment. The main branches of environmental chemistry are air, water, n soil pollution.
-### <a id="air-pollution"></a>Air Pollution
-Air pollution is [the presence of contaminants or pollutant substances and the air that can harm human health and the environment](https://en.wikipedia.org/wiki/Air_pollution). The main sources of air pollution are vehicles, industrial activities, n natural disasters. The effects of air pollution include respiratory problems, cardiovascular disease, n climate change.
-### <a id="water-pollution"></a>Water Pollution
-Water pollution is [the presence of contaminants or pollutant substances and water that can harm human health and the environment](https://en.wikipedia.org/wiki/Water_pollution). The main sources of water pollution are industrial activities, agricultural runoff, n domestic waste. The effects of water pollution include the spread of waterborne diseases, the death of aquatic life, n the contamination of drinking water.
-### <a id="soil-pollution"></a>Soil Pollution
-Soil pollution is [the presence of contaminants or pollutant substances and soil that can harm human health and the environment](https://en.wikipedia.org/wiki/Soil_pollution). The main sources of soil pollution are industrial activities, agricultural runoff, n domestic waste. The effects of soil pollution include the contamination of groundwater, the death of [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) n animals, n the reduction of soil fertility.
+### <a id="air-pollution"></a>Air Pollution is [the presence of contaminants or pollutant substances and the air that can harm human health and the environment](https://en.wikipedia.org/wiki/Air_pollution). The main sources of air pollution are vehicles, industrial activities, n natural disasters. The effects of air pollution include respiratory problems, cardiovascular disease, n climate change.
+### <a id="water-pollution"></a>Water Pollution is [the presence of contaminants or pollutant substances and water that can harm human health and the environment](https://en.wikipedia.org/wiki/Water_pollution). The main sources of water pollution are industrial activities, agricultural runoff, n domestic waste. The effects of water pollution include the spread of waterborne diseases, the death of aquatic life, n the contamination of drinking water.
+### <a id="soil-pollution"></a>Soil Pollution is [the presence of contaminants or pollutant substances and soil that can harm human health and the environment](https://en.wikipedia.org/wiki/Soil_pollution). The main sources of soil pollution are industrial activities, agricultural runoff, n domestic waste. The effects of soil pollution include the contamination of groundwater, the death of [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) n animals, n the reduction of soil fertility.
 
 ## <a id="shortcut-formula-trick"></a>Shortcut Formula / Trick
 
@@ -162,6 +181,8 @@ Continue your [revision](/blog/photosynthesis-n-higher-plants-class-11-revision-
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/environmental-chemistry-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Environmental%20Chemistry%20Class%2011%20Chemistry%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -184,7 +205,7 @@ Continue your [revision](/blog/plant-growth-n-development-class-11-revision-note
 * Formulas: 
   + **Global Warming Potential (GWP)**: GWP = (Σ[Qi xi]) / (Σ[To to])
   + **Pollution Standards Index (PSI)**: PSI = (Io / Is) x 100
-  + **BOD (Biochemical Oxygen Demand)**: BOD = (Do - DF) / (1 + (a x t))
+  + **BOD (Biochemical Oxygen Demand)**: BOD = (Do - DF) / (1 + (an x t))
 * **Key Terms**: Biomagnification, Biodegradable, Non-biodegradable, Persistent Organic Pollutants (Pops)
 ## ⚗️ Chemical Quick Reference (Verified via PubChem)
 

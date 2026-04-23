@@ -9,6 +9,23 @@ practice_link: "/class-11/mathematics/class-10-30-day-timetable-class-10-revisio
 
 *Last Updated: [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-class-10-30-day-timetable"></a>What is Class 10 30 Day Timetable?](#a-idwhat-is-class-10-30-day-timetableawhat-is-class-10-30-day-timetable)
+3. [<a id="developing-a-task oriented-strategy"></a>Developing a Task-Oriented Strategy](#a-iddeveloping-a-task-oriented-strategyadeveloping-a-task-oriented-strategy)
+4. [<a id="diagnostic-audit-n-core-rotation"></a>Diagnostic Audit and Core Rotation](#a-iddiagnostic-audit-n-core-rotationadiagnostic-audit-and-core-rotation)
+5. [<a id="subject specific-hacks-for-top-scores"></a>Subject-Specific Hacks for Top Scores](#a-idsubject-specific-hacks-for-top-scoresasubject-specific-hacks-for-top-scores)
+6. [<a id="board-exam-simulation-n-final-prep"></a>Board Exam Simulation and Final Prep](#a-idboard-exam-simulation-n-final-prepaboard-exam-simulation-and-final-prep)
+7. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+8. [<a id="frequently-asked-questions-FAQs"></a>Frequently Asked Questions (FAQs)](#a-idfrequently-asked-questions-faqsafrequently-asked-questions-faqs)
+9. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+10. [📚 Related Topics](#related-topics)
+11. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+12. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Class 10 30 Day Timetable?](#what-is-class-10-30-day-timetable)
@@ -62,7 +79,7 @@ Switching to "Output Mode" is essential. Reading notes is passive and often lead
 
 Days 1 to 5 should center on a "Diagnostic Audit." You cannot fix what you do not measure. Take three full-length **online mock tests** for Math, [science](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet), n SST. Mark them mercilessly and identify why you lost every single mark. This list of weaknesses becomes your actual syllabus for the next two weeks.
 
-From Days 6 to 20, rotate your subjects to respect your biological clock. Use the morning for Logic (Mathematics), the mid-day for Theory ([science](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)), n the afternoon for Memory (Social [science](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)). This prevents burnout and ensures you are studying the hardest topics when your cognitive function is highest.
+From Days 6 to 20, rotate your subjects to respect your biological clock. Use the morning for Logic (Mathematics), the midday for Theory ([science](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)), n the afternoon for Memory (Social [science](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)). This prevents burnout and ensures you are studying the hardest topics when your cognitive function is highest.
 
 ## <a id="subject specific-hacks-for-top-scores"></a>Subject-Specific Hacks for Top Scores
 
@@ -112,6 +129,8 @@ Continue your [revision](/blog/cuet-2026-master-strategy-class-11-revision-notes
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/class-10-30-day-timetable-class-10-revision-notes-jee) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=30%20Day%20Timetable%20Class%2010%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -133,7 +152,7 @@ Continue your [revision](/blog/cuet-2026-master-strategy-class-11-revision-notes
 
 ## 🔁 Last 5 Minutes Box
 
-- **Algebra**: Quadratic equations, polynomials, pair of linear equations
+- **Algebra**: Quadratic equations, polynomials, a pair of linear equations
    - **Geometry**: Triangles (similar, congruent), circles, trigonometry
    - **Trigonometry**: Introduce trigonometric ratios, tables, identities
    - **Mensuration**: Area, volume of various shapes

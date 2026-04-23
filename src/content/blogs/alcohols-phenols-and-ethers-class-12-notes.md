@@ -8,6 +8,21 @@ practice_link: "/class-11/chemistry/alcohols-phenols-n-ethers-class-12-notes"
 ---
 
 *Last Updated: 2026-03-29*
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="-what-will-come-n-your-exam"></a>🎯 What WILL Come and Your Exam](#a-id-what-will-come-n-your-exama-what-will-come-and-your-exam)
+3. [<a id="-formula-bank"></a>⚡ Formula Bank](#a-id-formula-banka-formula-bank)
+4. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+5. [📚 Related Topics](#related-topics)
+6. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+7. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+8. [⚗️ Chemical Quick Reference (Verified via PubChem)](#chemical-quick-reference-verified-via-pubchem)
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Alcohols%20Phenols%20And%20Ethers%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
+---
+
 ## 📋 Table of Contents
 - [🎯 What WILL Come and Your Exam](#-what-will-come-n-your-exam)
 - [⚡ Formula Bank](#-formula-bank)
@@ -26,7 +41,7 @@ practice_link: "/class-11/chemistry/alcohols-phenols-n-ethers-class-12-notes"
 * Numerical problems involving the boiling points and solubilities of alcohols, phenols, n ethers — use $\delta \math{H_{vap}}$ n intermolecular forces to explain the trends.
 * Reaction of phenols with $\math{FeCl_3}$ — a common question, where you need to identify the product and explain the test for phenols.
 * 1 question on the distinction between alcohols, phenols, n ethers using chemical tests — practice identifying the reagents used and the expected outcomes, such as the $\math{Lucas}$ test and the $\math{Victor}\math{Meyer}$ test.
-* Stereo chemical aspects of alcohol and ether reactions — at least 1 question on the  outcomes of $\{SN1}$ n $\{SN2}$ reactions involving these compounds.
+* Stereo chemical aspects of alcohol and ether reactions — at least 1 question on the outcomes of $\{SN1}$ n $\{SN2}$ reactions involving these compounds.
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 $RCH(OH) + PCL_5 \right arrow Rock + Poll_3 + HCl - Conversion of alcohol to acyl chloride. 
  $RCH(OH) + Soil_2 \right arrow Rock + SO_2 + HCl - Thinly chloride reaction. 

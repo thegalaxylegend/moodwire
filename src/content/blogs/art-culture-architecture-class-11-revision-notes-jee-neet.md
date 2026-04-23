@@ -9,6 +9,28 @@ practice_link: "/class-11/chemistry/art-culture-architecture-class-11-revision-n
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-art-culture-architecture"></a>What is Art Culture Architecture?](#a-idwhat-is-art-culture-architectureawhat-is-art-culture-architecture)
+3. [<a id="quick-revision-n-recap-art-n-culture-architecture"></a>Quick Revision & Recap: Art & Culture - Architecture](#a-idquick-revision-n-recap-art-n-culture-architectureaquick-revision-recap-art-culture---architecture)
+4. [<a id="history-of-architecture"></a>History of Architecture](#a-idhistory-of-architectureahistory-of-architecture)
+5. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+6. [<a id="formulae-tables"></a>Formulae Tables](#a-idformulae-tablesaformulae-tables)
+7. [<a id="trap-exceptions"></a>Trap Exceptions](#a-idtrap-exceptionsatrap-exceptions)
+8. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+9. [📚 Related Topics](#related-topics)
+10. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+11. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+## ⚗️ Chemical Quick Reference (Verified via PubChem)
+
+| Compound | Formula | Mol. Weight | Source |
+|:---|:---:|:---:|:---:|
+| **urea** | CH4N2O | 60.056 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/1176) |
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Art Culture Architecture?](#what-is-art-culture-architecture)
@@ -77,7 +99,7 @@ While there are no specific formulae and architecture, understanding the mathema
 * **Area of a rectangle**: A = l \times we
 * **Volume of a rectangular prism**: V = l \times w \times he
 * **Circumference of a circle**: BC = 2\pi RJ
-* **Area of a circle**: A = \pi r^2$
+* **Area of a circle**: A = \pi r^$2
 
 ## <a id="trap-exceptions"></a>Trap Exceptions
 
@@ -107,6 +129,8 @@ Continue your [revision](/blog/ancient-india-mahajanapadas-class-11-revision-not
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/art-culture-architecture-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Art%20Culture%20Architecture%20Class%2011%20History%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -128,7 +152,7 @@ Continue your [revision](/blog/ancient-india-mahajanapadas-class-11-revision-not
 
 ## 🔁 Last 5 Minutes Box
 
-* **Chemical Bonding**: Ionic (electrostatic), Covalent (sharing), Hydrogen bonding
+* **[Chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) Bonding**: Ionic (electrostatic), Covalent (sharing), Hydrogen bonding
 * **Periodic Table**: Metals (s-block), Non-metals (p-block), Metalloids (border)
 * **Chemical Reactions**: Synthesis, Decomposition, Single displacement, Double displacement
 * **Atomic Structure**: Protons, Neutrons, Electrons, Orbitals (s, p, d, f)

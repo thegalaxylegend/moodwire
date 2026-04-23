@@ -9,6 +9,27 @@ practice_link: "/class-11/mathematics/ancient-india-vedic-age-class-11-revision-
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-ancient-India-Vedic-age"></a>What is Ancient India Vedic Age?](#a-idwhat-is-ancient-india-vedic-ageawhat-is-ancient-india-vedic-age)
+3. [<a id="introduction-to-Vedic-age"></a>Introduction to Vedic Age](#a-idintroduction-to-vedic-ageaintroduction-to-vedic-age)
+4. [<a id="Ayush-personal-note"></a>Ayush's Personal Note](#a-idayush-personal-noteaayushs-personal-note)
+5. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+6. [<a id="formulae-tables"></a>Formulae Tables](#a-idformulae-tablesaformulae-tables)
+7. [<a id="keenest-data"></a>JEE/MEET Data](#a-idkeenest-dataajeemeet-data)
+8. [<a id="trap-exceptions"></a>Trap Exceptions](#a-idtrap-exceptionsatrap-exceptions)
+9. [<a id="social-n-economic-life"></a>Social and Economic Life](#a-idsocial-n-economic-lifeasocial-and-economic-life)
+10. [<a id="political-life"></a>Political Life](#a-idpolitical-lifeapolitical-life)
+11. [<a id="cultural-life"></a>Cultural Life](#a-idcultural-lifeacultural-life)
+12. [<a id="quick-revision-tips"></a>Quick Revision Tips](#a-idquick-revision-tipsaquick-revision-tips)
+13. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+14. [📚 Related Topics](#related-topics)
+15. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+16. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Ancient India Vedic Age?](#what-is-ancient-india-vedic-age)
@@ -118,7 +139,9 @@ Continue your [revision](/blog/art-culture-architecture-class-11-revision-notes-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/ancient-india-vedic-age-class-11-revision-notes-jee) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/ancient-[india](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse)-vedic-age-class-11-revision-notes-jee) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Ancient%20India%20Vedic%20Age%20Class%2011%20History%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

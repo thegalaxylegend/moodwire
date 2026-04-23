@@ -163,7 +163,7 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/thermal-properties-of-matter-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/thermal-[properties](/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet)-of-matter-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 ---
 

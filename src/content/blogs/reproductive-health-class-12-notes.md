@@ -135,7 +135,7 @@ D) $\omega$-dependent relationship between $contraception$ methods and $STIs$ is
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/reproductive-health-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/reproductive-[health](/blog/human-health-and-disease-class-12-notes)-class-12-notes) now and track your progress against thousands of students.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

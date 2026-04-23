@@ -25,7 +25,7 @@ manualReview: false
 - Not applying the properties of determinants, such as the fact that the determinant of the product of two matrices is equal to the product of their determinants
 - Not checking for identical rows or columns, which would result in a determinant of zero
 
-## ✏️ 3 Solved Yes
+## ✏️ 3 Solved PYQs
 - **Question 1:** Evaluate the determinant of the matrix $\begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{bmatrix}$
   Step 1: Apply the formula for the determinant of a 3x3 matrix
   Step 2: Calculate the minors and cofactors
@@ -122,3 +122,5 @@ Continue your revision with these related guides:
 - 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
 - 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
 - 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Determinants%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**

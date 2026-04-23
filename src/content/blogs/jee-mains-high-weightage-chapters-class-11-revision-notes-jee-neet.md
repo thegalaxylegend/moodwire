@@ -9,6 +9,23 @@ practice_link: "/class-11/physics/jee-mains-high-weightage-chapters-class-11-rev
 
 *Last Updated: [2026](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-see-mains-high-weightage-chapters"></a>What is See Mains High Weightage Chapters?](#a-idwhat-is-see-mains-high-weightage-chaptersawhat-is-see-mains-high-weightage-chapters)
+3. [<a id="the-philosophy-of-highbrow-preparation"></a>The Philosophy of High-ROI Preparation](#a-idthe-philosophy-of-highbrow-preparationathe-philosophy-of-high-roi-preparation)
+4. [<a id="physics-n-chemistry-the-formula-goldmines"></a>Physics and Chemistry: The Formula Goldmines](#a-idphysics-n-chemistry-the-formula-goldminesaphysics-and-chemistry-the-formula-goldmines)
+5. [<a id="mathematics-high-yield-strategic-chapters"></a>Mathematics: High-Yield Strategic Chapters](#a-idmathematics-high-yield-strategic-chaptersamathematics-high-yield-strategic-chapters)
+6. [<a id="effort-vs-marks-a-tactical-comparison"></a>Effort vs. Marks: A Tactical Comparison](#a-ideffort-vs-marks-a-tactical-comparisonaeffort-vs-marks-a-tactical-comparison)
+7. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+8. [<a id="frequently-asked-questions-FAQs"></a>Frequently Asked Questions (FAQs)](#a-idfrequently-asked-questions-faqsafrequently-asked-questions-faqs)
+9. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+10. [📚 Related Topics](#related-topics)
+11. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+12. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is See Mains High Weightage Chapters?](#what-is-jee-mains-high-weightage-chapters)
@@ -66,7 +83,7 @@ Chemistry is where you secure your rank. Chapters like [environmental](/blog/env
 
 JEE Math has become increasingly lengthy, but you can still find strategic wins. Mathematical Reasoning and Statistics are "safe" chapters that can be mastered and a single afternoon. These provide 8 marks through simple formula application and truth tables, yet many students overlook them.
 
-Vector n 3D Geometry is another heavyweight unit. Unlike Calculus, it doesn't require creative "flair"—it requires visualization and systematic formula application. Mastering these ensures you have a solid "floor" for your Math score, allowing you to tackle tougher problems with reduced pressure.
+Vector n 3D Geometry is another heavyweight unit. Unlike Calculus, it doesn't require creative "flair"—it requires visualization and systematic formula application. Mastering this ensures you have a solid "floor" for your Math score, allowing you to tackle tougher problems with reduced pressure.
 
 ## <a id="effort-vs-marks-a-tactical-comparison"></a>Effort vs. Marks: A Tactical Comparison
 
@@ -109,7 +126,9 @@ Continue your [revision](/blog/class-10-science-pyq-strategy-class-10-revision-n
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/jee-mains-high-[weightage](/blog/neet-2026-weightage-prediction-class-11-revision-notes-neet)-chapters-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Mains%20High%20Weightage%20Chapters%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

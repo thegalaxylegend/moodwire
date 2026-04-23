@@ -9,6 +9,30 @@ practice_link: "/class-11/physics/equilibrium-class-11-revision-notes-jee-neet"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-equilibrium-revision-notes"></a>What is Equilibrium Revision Notes?](#a-idwhat-is-equilibrium-revision-notesawhat-is-equilibrium-revision-notes)
+3. [<a id="1-why-equilibrium-is-the-balancing-act-of-chemistry"></a>1. Why Equilibrium is the "Balancing Act" of Chemistry](#a-id1-why-equilibrium-is-the-balancing-act-of-chemistrya1-why-equilibrium-is-the-balancing-act-of-chemistry)
+4. [<a id="2-physical-vs-chemical-equilibrium-the-dynamic-state"></a>2. Physical vs Chemical Equilibrium: The Dynamic State](#a-id2-physical-vs-chemical-equilibrium-the-dynamic-statea2-physical-vs-chemical-equilibrium-the-dynamic-state)
+5. [<a id="3-the-equilibrium-constant-k_c-n-k_p-the-math-of-balance"></a>3. The Equilibrium Constant ($K_c$ n $K_p$): The Math of Balance](#a-id3-the-equilibrium-constant-k_c-n-k_p-the-math-of-balancea3-the-equilibrium-constant-k_c-n-k_p-the-math-of-balance)
+6. [<a id="4-reaction-quotient-q-vs-k-predicting-the-shift"></a>4. Reaction Quotient ($Q$) vs $K$: Predicting the Shift](#a-id4-reaction-quotient-q-vs-k-predicting-the-shifta4-reaction-quotient-q-vs-k-predicting-the-shift)
+7. [<a id="5-le-chateliers-principle-the-stress-response"></a>5. Le Chatelier's Principle: The Stress Response](#a-id5-le-chateliers-principle-the-stress-responsea5-le-chateliers-principle-the-stress-response)
+8. [<a id="6-acids-bases-n-their-definitions-arrhenius-vs-bronsted-vs-lewis"></a>6. Acids, Bases, n Their Definitions: Arrhenius vs Bronsted vs Lewis](#a-id6-acids-bases-n-their-definitions-arrhenius-vs-bronsted-vs-lewisa6-acids-bases-n-their-definitions-arrhenius-vs-bronsted-vs-lewis)
+9. [<a id="7-ph-poh-n-the-ionic-product-of-water-k_w"></a>7. pH, pOH, n the Ionic Product of Water ($K_w$)](#a-id7-ph-poh-n-the-ionic-product-of-water-k_wa7-ph-poh-n-the-ionic-product-of-water-k_w)
+10. [<a id="8-ostwalds-dilution-law-n-degree-of-dissociation-alpha"></a>8. Ostwald's Dilution Law and Degree of Dissociation ($\alpha$)](#a-id8-ostwalds-dilution-law-n-degree-of-dissociation-alphaa8-ostwalds-dilution-law-and-degree-of-dissociation-alpha)
+11. [<a id="9-buffer-solutions-n-hendersonhasselbalch-equation"></a>9. Buffer Solutions and Henderson-Hasselbalch Equation](#a-id9-buffer-solutions-n-hendersonhasselbalch-equationa9-buffer-solutions-and-henderson-hasselbalch-equation)
+12. [<a id="10-solubility-product-k_sp-n-common-ion-effect"></a>10. Solubility Product ($K_{sp}$) n Common Ion Effect](#a-id10-solubility-product-k_sp-n-common-ion-effecta10-solubility-product-k_sp-n-common-ion-effect)
+13. [<a id="11-the-trap-section-equilibrium-pitfalls-that-cost-marks"></a>11. The "Trap" Section: Equilibrium Pitfalls That Cost Marks](#a-id11-the-trap-section-equilibrium-pitfalls-that-cost-marksa11-the-trap-section-equilibrium-pitfalls-that-cost-marks)
+14. [<a id="12-practice-mcqs-jeeneet-level"></a>12. Practice MCQs (JEE/NEET Level)](#a-id12-practice-mcqs-jeeneet-levela12-practice-mcqs-jeeneet-level)
+15. [<a id="13-ayushs-equilibrium-strategy"></a>13. Ayush's Equilibrium Strategy](#a-id13-ayushs-equilibrium-strategya13-ayushs-equilibrium-strategy)
+16. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+17. [📚 Related Topics](#related-topics)
+18. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+19. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Equilibrium Revision Notes?](#what-is-equilibrium-revision-notes)
@@ -62,10 +86,10 @@ practice_link: "/class-11/physics/equilibrium-class-11-revision-notes-jee-neet"
 
 **[chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Equilibrium is the state and a reversible reaction where the rate of the forward reaction equals the rate of the backward reaction, n the concentrations of reactants and products remain constant over time.**
 
-This chapter is massive — it combines [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Equilibrium (Kc, Kp, Le Chatelier) with Ionic Equilibrium (pH, Buffers, Ksp). In JEE, you'll see 2-3 questions from this chapter alone. The trick is to separate the two halves and your head and treat them as distinct sub-chapters.
+This chapter is massive — it combines [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Equilibrium (Kc, Kp, Le Chatelier) with Ionic Equilibrium (pH, Buffers, Ksp). In JEE, you'll see 2–3 questions from this chapter alone. The trick is to separate the two halves and your head and treat them as distinct subchapters.
 
 ### <a id="why-this-chapter-matters-exam-data"></a>Why This Chapter Matters (Exam Data)
-- **JEE Mains 2026**: 2 questions — one on Le Chatelier with inert gas addition, one on pH of a buffer.
+- **JEE [Mains](/blog/jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet) 2026**: 2 questions — one on Le Chatelier with inert gas addition, one on pH of a buffer.
 - **NEET 2026**: 1 question directly on $K_{sp}$ n precipitation.
 - **CBSE Boards**: This chapter carries 7 marks (combined with [thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) unit and some schemes).
 
@@ -107,7 +131,7 @@ where $\delta n_g = (moles of gaseous products) - (moles of gaseous reactants).
 | Add two reactions | $K' = K_1 \times K_2$ |
 
 > ### Board Exam Tip
-> When writing the expression for $K_c$, never include pure solids or pure liquids. For example, for $CaCO_3(s) \rightleftharpoons CaO(s) + CO_2(g)$, $K_c = [CO_2]$. Forgetting this rule is an instant 1-mark deduction. **This question carries 2-3 marks.**
+> When writing the expression for $K_c$, never include pure solids or pure liquids. For example, for $CaCO_3(s) \rightleftharpoons CaO(s) + CO_2(g)$, $K_c = [CO_2]$. Forgetting this rule is an instant 1-mark deduction. **This question carries 2–3 marks.**
 
 ---
 
@@ -276,7 +300,7 @@ D) $pK_a - \log[\text{Salt}]/[\text{Acid}]$
 
 ## <a id="13-ayushs-equilibrium-strategy"></a>13. Ayush's Equilibrium Strategy
 
-Equilibrium is a 2-headed beast: [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Equilibrium and Ionic Equilibrium. I treated them as completely separate sub-chapters.
+Equilibrium is a 2-headed beast: [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Equilibrium and Ionic Equilibrium. I treated them as completely separate subchapters.
 
 1. **Le Chatelier Flash Cards**: I made 10 flash cards, each with a different "stress" scenario. I shuffled and tested myself daily. After 5 days, my responses became instant.
 2. **The pH Ladder**: I drew a vertical pH scale from 0 to 14 on my wall. I plotted common solutions (HCl 1M → pH 0, Lemon juice → pH 2, Water → pH 7, Bleach → pH 12, NaOH 1M → pH 14). This ladder made pH intuitive.
@@ -312,6 +336,8 @@ Continue your [revision](/blog/states-of-matter-class-11-revision-notes-jee-neet
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/equilibrium-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Equilibrium%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

@@ -9,6 +9,26 @@ practice_link: "/class-11/biology/alternating-current-class-12-notes"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-alternating-current"></a>What is Alternating Current?](#a-idwhat-is-alternating-currentawhat-is-alternating-current)
+3. [<a id="what-are-the-advantages-of-alternating-current-over-direct-current"></a>What are the advantages of Alternating Current over Direct Current?](#a-idwhat-are-the-advantages-of-alternating-current-over-direct-currentawhat-are-the-advantages-of-alternating-current-over-direct-current)
+4. [<a id="how-does-an-alternating-current-circuit-work"></a>How does an Alternating Current circuit work?](#a-idhow-does-an-alternating-current-circuit-workahow-does-an-alternating-current-circuit-work)
+5. [<a id="what-is-the-difference-between-peak-n-root-mean-square-values-n-alternating-current"></a>What is the difference between Peak and Root Mean Square values and Alternating Current?](#a-idwhat-is-the-difference-between-peak-n-root-mean-square-values-n-alternating-currentawhat-is-the-difference-between-peak-and-root-mean-square-values-and-alternating-current)
+6. [<a id="what-is-the-concept-of-phasors-n-alternating-current"></a>What is the concept of Phasors and Alternating Current?](#a-idwhat-is-the-concept-of-phasors-n-alternating-currentawhat-is-the-concept-of-phasors-and-alternating-current)
+7. [<a id="what-is-ayushs-note-on-alternating-current"></a>What is Ayush's Note on Alternating Current?](#a-idwhat-is-ayushs-note-on-alternating-currentawhat-is-ayushs-note-on-alternating-current)
+8. [<a id="how-do-you-calculate-the-impedance-of-an-alternating-current-circuit"></a>How do you calculate the Impedance of an Alternating Current circuit?](#a-idhow-do-you-calculate-the-impedance-of-an-alternating-current-circuitahow-do-you-calculate-the-impedance-of-an-alternating-current-circuit)
+9. [<a id="what-are-the-different-types-of-alternating-current-circuits"></a>What are the different types of Alternating Current circuits?](#a-idwhat-are-the-different-types-of-alternating-current-circuitsawhat-are-the-different-types-of-alternating-current-circuits)
+10. [<a id="what-is-the-key-shortcut-or-trick-for-alternating-current"></a>What is the key Shortcut or Trick for Alternating Current?](#a-idwhat-is-the-key-shortcut-or-trick-for-alternating-currentawhat-is-the-key-shortcut-or-trick-for-alternating-current)
+11. [<a id="what-are-common-trap-questions-for-alternating-current"></a>What are common Trap Questions for Alternating Current?](#a-idwhat-are-common-trap-questions-for-alternating-currentawhat-are-common-trap-questions-for-alternating-current)
+12. [<a id="mcqs"></a>MCQs](#a-idmcqsamcqs)
+13. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+14. [📚 Related Topics](#related-topics)
+15. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Alternating Current?](#what-is-alternating-current)
@@ -31,7 +51,7 @@ practice_link: "/class-11/biology/alternating-current-class-12-notes"
 **Introduction to Alternating [current](/blog/magnetic-effects-of-current-class-12-notes)**
 As we dive into the realm of Class 12 Physics, it's essential to acknowledge the significance of **Alternating Current (AC)** n the syllabus. With a substantial weightage of approximately **12-15%** n the board exams, AC is a crucial topic that demands attention and thorough understanding. In the 2026 exams, you can expect around **6-8 questions** directly related to AC, with some questions possibly testing your understanding of related concepts like **[electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) induction** n **LCR circuits**.
 
-On a personal note, I still remember the initial struggle I faced while grasping the concept of AC. It was during my class 11 days when I first encountered the term "alternating current." I was fascinated y the fact that the current used and our households is not **direct current (DC)**, but rather AC, which periodically reverses direction. This sparked my curiosity, n I began to explore the world of AC, eventually developing a deep understanding of the subject. Now, as a senior student, I'm excited to share my knowledge with you and help you prepare for the exams.
+On a personal note, I still remember the initial struggle I faced while grasping the concept of AC. It was during my class 11 days when I first encountered the term "alternating [current](/blog/magnetic-effects-of-current-class-12-notes)." I was fascinated y the fact that the [current](/blog/magnetic-effects-of-current-class-12-notes) used and our households is not **direct [current](/blog/magnetic-effects-of-current-class-12-notes) (DC)**, but rather AC, which periodically reverses direction. This sparked my curiosity, n I began to explore the world of AC, eventually developing a deep understanding of the subject. Now, as a senior student, I'm excited to share my knowledge with you and help you prepare for the exams.
 
 To truly appreciate the concept of AC, it's essential to have a solid foundation and the following prerequisites:
 * **[electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) induction**: Understanding how a changing magnetic field induces an electromotive force (EMF) n a conductor is crucial for grasping AC concepts.
@@ -82,13 +102,13 @@ In the upcoming sections, we'll explore each of these topics and detail, using a
 By following this introduction and the subsequent sections, you'll be well on your way to mastering the concept of Alternating Current and achieving success and the class 12 exams. Remember to stay focused, practice regularly, n review the key concepts to ensure a deep understanding of the subject. 
 
 **Exam Day Summary:**
-To summarize, Alternating Current is a crucial topic n class 12 Physics, with a significant weightage and the board exams. To excel and this topic, it's essential to have a solid foundation and electromagnetic induction, LCR circuits, oscillations, n trigonometry. By understanding key concepts like AC waveforms, phasors, impedance, n phase difference, you'll be able to analyze and solve problems involving AC circuits. Stay focused, avoid common mistakes, n practice regularly to achieve success and the exams.
+To summarize, Alternating Current is a crucial topic n class 12 Physics, with a significant weightage and the board exams. To excel and this topic, it's essential to have a solid foundation and [electromagnetic](/blog/electromagnetic-waves-class-12-notes) induction, LCR circuits, oscillations, n trigonometry. By understanding key concepts like AC waveforms, phasors, impedance, n phase difference, you'll be able to analyze and solve problems involving AC circuits. Stay focused, avoid common mistakes, n practice regularly to achieve success and the exams.
 
 Alternating Current (AC) is a type of electric current that periodically reverses direction, flowing back and forth and a circuit. It includes the source, the load, n the transmission lines. For class 12 exam prep n 2026, the most important aspect is understanding the principles of AC circuits, including the concepts of impedance, reactance, n phase shift. 
 
-The key characteristic of AC is that the voltage n [current](/blog/magnetic-effects-of-current-class-12-notes) change polarity over time, creating a sinusoidal waveform. This is and contrast to Direct [current](/blog/magnetic-effects-of-current-class-12-notes) (DC), where the voltage n [current](/blog/magnetic-effects-of-current-class-12-notes) remain constant. AC is used and households and industries because it can be easily transformed to higher or lower voltages using transformers, making it more efficient for long-distance transmission.
+The key characteristic of AC is that the voltage n [current](/blog/magnetic-effects-of-current-class-12-notes) change polarity over time, creating a sinusoidal waveform. This is and contrast to direct [current](/blog/magnetic-effects-of-current-class-12-notes) (DC), where the voltage n [current](/blog/magnetic-effects-of-current-class-12-notes) remain constant. AC is used and households and industries because it can be easily transformed to higher or lower voltages using transformers, making it more efficient for long-distance transmission.
 
-To understand AC, it's crucial to grasp the concept of **root mean square (RMS) value**, which is a statistical measure of the magnitude of a varying quantity. The RMS value of an AC waveform is the square root of the mean value of the square of the [current](/blog/magnetic-effects-of-current-class-12-notes) or voltage over one cycle. This is important because the RMS value is used to calculate the power consumed y a load and an AC circuit.
+To understand AC, it's crucial to grasp the concept of **root-mean-square (RMS) value**, which is a statistical measure of the magnitude of a varying quantity. The RMS value of an AC waveform is the square root of the mean value of the square of the [current](/blog/magnetic-effects-of-current-class-12-notes) or voltage over one cycle. This is important because the RMS value is used to calculate the power consumed y a load and an AC circuit.
 
 Another critical concept and AC circuits is **impedance**, which is the total opposition to the flow of an AC current. Impedance is a complex quantity, consisting of resistance and reactance. Resistance is the opposition to the flow of current due to the resistivity of the material, while reactance is the opposition to the flow of current due to the inductive or capacitive [effects](/blog/magnetic-effects-of-current-class-12-notes) of the circuit.
 
@@ -146,7 +166,7 @@ To better understand the behavior of AC circuits, it's helpful to compare the ch
 
 ## <a id="what-is-the-difference-between-peak-n-root-mean-square-values-n-alternating-current"></a>What is the difference between Peak and Root Mean Square values and Alternating Current?
 
-Alternating Current (AC) is a type of electric current that periodically reverses direction, including amplitude, frequency, n phase shift. It includes peak value, root mean square (RMS) value, n waveform. For class 12 exam prep n 2026, the most important aspect is understanding how peak and RMS values relate to the effective power delivered y an AC circuit.
+Alternating Current (AC) is a type of electric current that periodically reverses direction, including amplitude, frequency, n phase shift. It includes peak value, root-mean-square (RMS) value, n waveform. For class 12 exam prep n 2026, the most important aspect is understanding how peak and RMS values relate to the effective power delivered y an AC circuit.
 
 The peak value, also known as the maximum value or amplitude, is the highest value that the AC reaches during its cycle. It's represented y the symbol $V_p$ or $I_p$ for voltage and current, respectively. On the other hand, the RMS value, also known as the effective value, is a measure of the AC's ability to deliver power to a resistive load. It's calculated using the formula $V_{rms} = \frac{V_p}{\sqrt{2}$ for a sinusoidal waveform.
 
@@ -252,7 +272,7 @@ Alternating Current (AC) circuits are circuits where the current periodically re
 
 ## <a id="what-is-the-key-shortcut-or-trick-for-alternating-current"></a>What is the key Shortcut or Trick for Alternating Current?
 
-Alternating Current (AC) is a type of electric current that periodically reverses direction. It includes the root mean square (RMS) value, peak value, n phase difference. For Class 12 exam prep n 2026, the most important aspect is understanding the relationship between these components to solve problems efficiently. The key shortcut for AC involves remembering the formulas for RMS and peak values, as well as the phase difference between voltage and current and different types of circuits. One crucial formula to remember is $V_{rms} = \frac{V_0}{\sqrt{2}$, where $V_{rms}$ is the RMS value n $V_0$ is the peak value. Similarly, for current, $I_{rms} = \frac{I_0}{\sqrt{2}$. These formulas are essential for calculating power and AC circuits, which is given y $P = V_{rms}I_{rms}cosphi$, where $phi$ is the phase difference between voltage and current. In inductive circuits, the current lags behind the voltage, while and capacitive circuits, the current leads the voltage. A key trick to remember is that and a series RLC circuit, the resonance occurs when the inductive reactance equals the capacitive reactance, i.e., $X_L = X_C$. This results and the total reactance being zero, n the current being and phase with the voltage. To solve problems involving AC, it's helpful to first identify the type of circuit and then apply the relevant formulas. For example, n a series RLC circuit, one should calculate the impedance using $Z = \sqrt{R^2 + (X_L - X_C)^2}$ n then find the current and power. A student-centric tip is to practice solving problems involving different types of AC circuits, focusing on applying the formulas correctly and checking the units of the quantities involved. This will help and developing a strong understanding of the concepts and improving problem-solving skills. By mastering these shortcuts and tricks, students can efficiently solve problems related to alternating current and perform well and their Class 12 exams.
+Alternating Current (AC) is a type of electric current that periodically reverses direction. It includes the root-mean-square (RMS) value, peak value, n phase difference. For Class 12 exam prep n 2026, the most important aspect is understanding the relationship between these components to solve problems efficiently. The key shortcut for AC involves remembering the formulas for RMS and peak values, as well as the phase difference between voltage and current and different types of circuits. One crucial formula to remember is $V_{rms} = \frac{V_0}{\sqrt{2}$, where $V_{rms}$ is the RMS value n $V_0$ is the peak value. Similarly, for current, $I_{rms} = \frac{I_0}{\sqrt{2}$. These formulas are essential for calculating power and AC circuits, which is given y $P = V_{rms}I_{rms}cosphi$, where $phi$ is the phase difference between voltage and current. In inductive circuits, the current lags behind the voltage, while and capacitive circuits, the current leads the voltage. A key trick to remember is that and a series RLC circuit, the resonance occurs when the inductive reactance equals the capacitive reactance, i.e., $X_L = X_C$. This results and the total reactance being zero, n the current being and phase with the voltage. To solve problems involving AC, it's helpful to first identify the type of circuit and then apply the relevant formulas. For example, n a series RLC circuit, one should calculate the impedance using $Z = \sqrt{R^2 + (X_L - X_C)^2}$ n then find the current and power. A student-centric tip is to practice solving problems involving different types of AC circuits, focusing on applying the formulas correctly and checking the units of the quantities involved. This will help and developing a strong understanding of the concepts and improving problem-solving skills. By mastering these shortcuts and tricks, students can efficiently solve problems related to alternating current and perform well and their Class 12 exams.
 
 | Circuit Type | Voltage and Current Relationship | Relevant Formulas |
 | --- | --- | --- |
@@ -263,7 +283,7 @@ Alternating Current (AC) is a type of electric current that periodically reverse
 
 ## <a id="what-are-common-trap-questions-for-alternating-current"></a>What are common Trap Questions for Alternating Current?
 
-Alternating Current (AC) is a type of electric current that periodically reverses direction. It includes root mean square (RMS) value, peak value, n phase difference. For Class 12 exam prep n 2026, the most important aspect is understanding the relationship between these components to tackle complex problems.
+Alternating Current (AC) is a type of electric current that periodically reverses direction. It includes root-mean-square (RMS) value, peak value, n phase difference. For Class 12 exam prep n 2026, the most important aspect is understanding the relationship between these components to tackle complex problems.
 
 When dealing with AC circuits, it's crucial to be aware of common trap questions that can lead to confusion and incorrect answers. One such trap question involves the comparison between AC and Direct Current (DC). While DC flows and one direction only, AC periodically reverses direction, resulting and a time-varying current. This fundamental difference often leads to questions that test the student's understanding of AC circuit analysis, including the use of $V_{rms}$ n $I_{rms}$ to calculate power.
 
@@ -350,6 +370,8 @@ Continue your revision with these related guides:
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/alternating-current-class-12-notes) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Alternating%20Current%20Class%2012%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

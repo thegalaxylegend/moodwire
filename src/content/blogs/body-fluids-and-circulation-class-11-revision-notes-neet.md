@@ -9,6 +9,31 @@ practice_link: "/class-11/biology/body-fluids-n-circulation-class-11-revision-no
 
 *Last Updated: [2026](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-body-fluids-n-circulation"></a>What is Body Fluids And Circulation?](#a-idwhat-is-body-fluids-n-circulationawhat-is-body-fluids-and-circulation)
+3. [<a id="step-2-core-concepts"></a>Step 2: Core Concepts](#a-idstep-2-core-conceptsastep-2-core-concepts)
+4. [<a id="step-3-blood-composition"></a>Step 3: Blood Composition](#a-idstep-3-blood-compositionastep-3-blood-composition)
+5. [<a id="step-4-blood-groups-n-rh-factor"></a>Step 4: Blood Groups and Rh Factor](#a-idstep-4-blood-groups-n-rh-factorastep-4-blood-groups-and-rh-factor)
+6. [<a id="step-5-lymphatic-system"></a>Step 5: Lymphatic System](#a-idstep-5-lymphatic-systemastep-5-lymphatic-system)
+7. [<a id="step-6-circulation-n-blood-pressure"></a>Step 6: Circulation and Blood Pressure](#a-idstep-6-circulation-n-blood-pressureastep-6-circulation-and-blood-pressure)
+8. [<a id="step-7-jeeneet-data"></a>Step 7: JEE/NEET Data](#a-idstep-7-jeeneet-dataastep-7-jeeneet-data)
+9. [<a id="step-8-formulae"></a>Step 8: Formulae](#a-idstep-8-formulaeastep-8-formulae)
+10. [<a id="step-9-mcqs"></a>Step 9: MCQs](#a-idstep-9-mcqsastep-9-mcqs)
+11. [<a id="step-10-core-concept-map"></a>Step 10: Core Concept Map](#a-idstep-10-core-concept-mapastep-10-core-concept-map)
+12. [<a id="step-11-practice-questions"></a>Step 11: Practice Questions](#a-idstep-11-practice-questionsastep-11-practice-questions)
+13. [<a id="step-12-important-terms"></a>Step 12: Important Terms](#a-idstep-12-important-termsastep-12-important-terms)
+14. [<a id="step-13-diagrams-n-illustrations"></a>Step 13: Diagrams and Illustrations](#a-idstep-13-diagrams-n-illustrationsastep-13-diagrams-and-illustrations)
+15. [<a id="step-14-case-studies"></a>Step 14: Case Studies](#a-idstep-14-case-studiesastep-14-case-studies)
+16. [<a id="step-15-recent-advances"></a>Step 15: Recent Advances](#a-idstep-15-recent-advancesastep-15-recent-advances)
+17. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+18. [📚 Related Topics](#related-topics)
+19. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+20. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Body Fluids And Circulation?](#what-is-body-fluids-n-circulation)
@@ -64,7 +89,7 @@ The circulatory system is driven y the heart's pumping action, which creates blo
 ## <a id="step-7-jeeneet-data"></a>Step 7: JEE/NEET Data
 
 For JEE n [neet](/blog/locomotion-n-movement-class-11-revision-notes-neet) aspirants, it is essential to have a thorough understanding of the concepts related to body fluids and circulation. Some key points to focus on include:
-- The structure and function of the heart, including the atria, ventricles, septa, n valves.
+- The [structure](/blog/structure-of-the-atom-class-11-revision-notes-neet) and function of the heart, including the atria, ventricles, septa, n valves.
 - The different types of blood vessels, such as arteries, veins, n capillaries, n their respective functions.
 - The composition and functions of blood, including plasma, RBCs, WBCs, n platelets.
 - The lymphatic system, including the structure and function of lymph nodes, lymph vessels, n lymphoid organs.
@@ -558,6 +583,8 @@ Continue your [revision](/blog/locomotion-n-movement-class-11-revision-notes-nee
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/body-fluids-n-circulation-class-11-revision-notes-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Body%20Fluids%20And%20Circulation%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

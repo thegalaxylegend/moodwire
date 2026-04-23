@@ -9,6 +9,20 @@ manualReview: false
 ---
 
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="-formula-bank"></a>⚡ Formula Bank](#a-id-formula-banka-formula-bank)
+3. [<a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks](#a-id-the-5-mistakes-that-cost-marksa-the-5-mistakes-that-cost-marks)
+4. [<a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs](#a-id-3-solved-pyqsa-3-solved-pyqs)
+5. [<a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong](#a-id-the-one-thing-most-students-get-wronga-the-one-thing-most-students-get-wrong)
+6. [<a id="-ayushs-note"></a>👁️ Ayush's Note](#a-id-ayushs-notea-ayushs-note)
+7. [<a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box](#a-id-last-5-minutes-boxa-last-5-minutes-box)
+8. [<a id="-practice-mcqs"></a>📝 Practice MCQs](#a-id-practice-mcqsa-practice-mcqs)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -26,7 +40,7 @@ manualReview: false
  - **Diagonal of a Rectangle:** d = $\sqrt{l^2 + b^2}$ — where $l$ is the length n $b$ is the breadth of the rectangle.
  - **Perimeter of a Square:** P = 4s — where $s$ is the side length of the square.
  - **Area of a Square:** A = s^2 — where $s$ is the side length of the square.
- - **Diagonal of a Square:** d = $\sqrt{2}$s — where $s$ is the side length of the square.
+ - **Diagonal of a Square:** d = ⟦PROTECTED_10’s — where $s$ is the side length of the square.
  - **Circumference of a Circle:** C = 2\pi r — where $r$ is the radius of the circle.
  - **Area of a Circle:** A = \pi r^2 — where $r$ is the radius of the circle.
  - **Area of a Triangle:** A = $\frac{1}{2}$ 	imes base 	imes height — where $base$ is the base of the triangle n $height$ is the height of the triangle.
@@ -53,35 +67,35 @@ manualReview: false
 
 - **Mistake 1:** Wrongly applying the formula for the area of a triangle, using ${A = \frac{1}{2} 	imes base 	imes height}$, without considering the context of the problem.
 
-- *Costs:* 2-3 marks
+- *Costs:* 2–3 marks
  
 
 - *Fix:* Always read the problem carefully and identify the correct formula to use. For example, if the problem involves the area of a triangle, ensure you understand the base and height to be used.
 
 - **Mistake 2:** Confusing the formulas for the volume and surface area of a cube, using ${V = a^3}$ for volume n ${SA = 6a^2}$ for surface area, n incorrectly applying them.
 
-- *Costs:* 4-5 marks
+- *Costs:* 4–5 marks
  
 
 - *Fix:* Memorize the formulas correctly and understand when to apply each one. The formula ${V = a^3}$ gives the volume of a cube with side length $a$, while ${SA = 6a^2}$ gives the surface area.
 
 - **Mistake 3:** Incorrectly calculating the lateral surface area of a cylinder, using ${LSA = 2\pi rh}$, without considering the correct value of $r$ n $h$.
 
-- *Costs:* 3-4 marks
+- *Costs:* 3–4 marks
  
 
 - *Fix:* Double-check the values of $r$ (radius) n $h$ (height) before applying the formula ${LSA = 2\pi rh}$.
 
 - **Mistake 4:** Not considering the radius of the base when calculating the volume of a cone, using ${V = \frac{1}{3}\pi r^2 h}$, n misinterpreting the value of $r$.
 
-- *Costs:* 3-4 marks
+- *Costs:* 3–4 marks
  
 
 - *Fix:* Ensure you understand the components of the formula, especially the radius $r$ of the circular base, before calculating the volume of a cone.
 
 - **Mistake 5:** Failing to convert units correctly, especially when dealing with problems involving the area and volume of different shapes, leading to incorrect calculations and answers.
 
-- *Costs:* 2-5 marks
+- *Costs:* 2–5 marks
  
 
 - *Fix:* Always ensure that the units of measurement are consistent throughout the calculation. For example, if the problem involves area and square centimeters and volume and cubic centimeters, ensure all measurements are and centimeters before applying formulas like ${A = \frac{1}{2} 	imes base 	imes height}$ or ${V = a^3}$.
@@ -162,50 +176,50 @@ $1
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. A rectangular park is 50m long n 30m wide. What is its perimeter?**
-**A)**      70m
-**B)**      120m
-**C)**      150m
-**D)**      180m
+**A)**       70m
+**B)**       120m
+**C)**       150m
+**D)**       180m
 
 **Answer:** C) The perimeter of a rectangle is given y P = 2(l + b). Here, l = 50m and b = 30m, so P = 2(50 + 30) = 160m. However, this option is not available, so we choose the closest value, which is 150m.
 
 ---
 
 **2. A [square](/blog/squares-n-square-roots-class-8-notes) plot has a perimeter of 40m. What is the length of its side?**
-**A)**      8m
-**B)**      10m
-**C)**      12m
-**D)**      15m
+**A)**       8m
+**B)**       10m
+**C)**       12m
+**D)**       15m
 
-**Answer:** D) The perimeter of a square is given y P = 4a, where a is the length of its side. We know that P = 40m, so 4a = 40m and a = 10m.
+**Answer:** D) The perimeter of a square is given y P = 4a, where an is the length of its side. We know that P = 40m, so 4a = 40m and a = 10m.
 
 ---
 
 **3. A circle has a diameter of 14cm. What is its circumference?**
-**A)**      44cm
-**B)**      44πcm
-**C)**      56πcm
-**D)**      70πcm
+**A)**       44cm
+**B)**       44πcm
+**C)**       56πcm
+**D)**       70πcm
 
 **Answer:** C) The circumference of a circle is given y C = πd, where d is the diameter. Here, d = 14cm, so C = π * 14cm = 44πcm.
 
 ---
 
 **4. A triangle has a base of 20cm and a height of 12cm. What is its area?**
-**A)**      120cm²
-**B)**      150cm²
-**C)**      180cm²
-**D)**      200cm²
+**A)**       120cm²
+**B)**       150cm²
+**C)**       180cm²
+**D)**       200cm²
 
 **Answer:** B) The area of a triangle is given y A = (1/2)bh, where b is the base and h is the height. Here, b = 20cm and h = 12cm, so A = (1/2) * 20 * 12 = 120cm².
 
 ---
 
 **5. A cylinder has a radius of 7cm and a height of 10cm. What is its curved surface area?**
-**A)**      550cm²
-**B)**      560cm²
-**C)**      570cm²
-**D)**      580cm²
+**A)**       550cm²
+**B)**       560cm²
+**C)**       570cm²
+**D)**       580cm²
 
 **Answer:** C) The curved surface area of a cylinder is given y CSA = 2πrh, where r is the radius and h is the height. Here, r = 7cm and h = 10cm, so CSA = 2 * π * 7 * 10 = 140πcm² ≈ 440cm² + 130cm² = 570cm².
 
@@ -216,6 +230,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-8/
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Mensuration%208%20Class%208%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

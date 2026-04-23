@@ -9,6 +9,19 @@ practice_link: "/class-11/medieval-india-bhakti-sufi-class-11-revision-notes-cbs
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-medieval-india-bhakti-sufi"></a>What is Medieval India Bhakti Sufi?](#a-idwhat-is-medieval-india-bhakti-sufiawhat-is-medieval-india-bhakti-sufi)
+3. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+4. [<a id="formulae-tables"></a>Formulae Tables](#a-idformulae-tablesaformulae-tables)
+5. [<a id="jeeneet-data"></a>JEE/NEET Data](#a-idjeeneet-dataajeeneet-data)
+6. [<a id="trap-exceptions"></a>Trap Exceptions](#a-idtrap-exceptionsatrap-exceptions)
+7. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+8. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Medieval India Bhakti Sufi?](#what-is-medieval-india-bhakti-sufi)
@@ -62,9 +75,9 @@ To quickly grasp the key concepts related to the **Bhakti** n **Sufi** movements
 
 For students preparing for JEE/NEET, understanding the historical context of Medieval [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) can be useful and answering questions related to the cultural and social heritage of [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee).
 
-* **JEE Main** : 2-3 questions per year related to Medieval [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
-* **JEE Advanced** : 1-2 questions per year related to Medieval [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
-* **NEET** : 1-2 questions per year related to the cultural and social heritage of [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
+* **JEE Main** : 2–3 questions per year related to Medieval [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
+* **JEE Advanced** : 1–2 questions per year related to Medieval [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
+* **NEET** : 1–2 questions per year related to the cultural and social heritage of [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
 
 ## <a id="trap-exceptions"></a>Trap Exceptions
 
@@ -112,7 +125,9 @@ Continue your [revision](/blog/ancient-india-mahajanapadas-class-11-revision-not
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/medieval-india-bhakti-sufi-class-11-revision-notes-cbse) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/medieval-[india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)-bhakti-sufi-class-11-revision-notes-cbse) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Medieval%20India%20Bhakti%20Sufi%20Class%2011%20History%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 
@@ -124,3 +139,31 @@ Continue your [revision](/blog/ancient-india-mahajanapadas-class-11-revision-not
 - 📖 [Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)
 - 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
 - 📖 [Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog/geomorphology-class-11-revision-notes-cbse)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* The Bhakti movement is often confused with the Sufi movement, but they were two distinct spiritual movements that co-existed during the medieval period in India.
+   * Many students mistakenly believe that Kabir was a devotee of Ram, whereas he was a devotee of the Supreme Being, often referred to as 'Rama' in a more abstract sense.
+   * A common mistake is to overlook the role of women saints like Mirabai and Lal Ded in the Bhakti movement, who made significant contributions to the literary and spiritual landscape of medieval India.
+   * Some students tend to conflate the Sufi concept of 'Wahdat al-Wujud' (Unity of Existence) with the Bhakti concept of 'Advaita' (Non-Dualism), which are related but distinct philosophical ideas.
+   * It's a trap to assume that the Bhakti and Sufi movements were restricted to Hinduism and Islam, respectively, when in fact they both influenced and interacted with each other, as well as with other religious traditions in medieval India.
+
+## 🔁 Last 5 Minutes Box
+
+   * Medieval India: 8th-18th century
+   * Bhakti movement: emphasis on devotion, emotional connection with God
+   * Sufism: mystical form of Islam, love and devotion for God
+   * Bhakti movement saints: 
+     + Kabir: rejection of caste system, Hindu-Muslim unity
+     + Nanak: founder of Sikhism, emphasized equality, justice
+     + Mirabai: female saint, devotion to Krishna
+   * Sufi silsilas: 
+     + Chishti: most influential, stressed love, devotion
+     + Suhrawardi: emphasized spiritual guidance
+     + Naqshbandi: focused on spiritual purification
+   * Bhakti-Sufi intersection: shared goals, mutual respect, syncretic traditions
+   * Key figures: 
+     + Basava: founder of Lingayat movement
+     + Tukaram: Marathi poet, devotional songs
+     + Guru Arjan: fifth Sikh Guru, compiled Adi Granth
+   

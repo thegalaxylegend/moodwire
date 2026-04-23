@@ -9,6 +9,24 @@ practice_link: "/class-11/physics/mechanical-properties-of-solids-class-11-revis
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-mechanical-properties-of-solids-revision-notes"></a>What is Mechanical Properties Of Solids Revision Notes?](#a-idwhat-is-mechanical-properties-of-solids-revision-notesawhat-is-mechanical-properties-of-solids-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-elasticity-n-plasticity"></a>1. Elasticity and Plasticity](#a-id1-elasticity-n-plasticitya1-elasticity-and-plasticity)
+5. [<a id="2-stress-n-strain-the-core-metrics"></a>2. Stress and Strain: The Core Metrics](#a-id2-stress-n-strain-the-core-metricsa2-stress-and-strain-the-core-metrics)
+6. [<a id="3-hookes-law-n-moduli-of-elasticity"></a>3. Hooke’s Law and Moduli of Elasticity](#a-id3-hookes-law-n-moduli-of-elasticitya3-hookes-law-and-moduli-of-elasticity)
+7. [<a id="4-derivation-mastersheet-elastic-potential-energy"></a>4. Derivation Master-Sheet: Elastic Potential Energy](#a-id4-derivation-mastersheet-elastic-potential-energya4-derivation-master-sheet-elastic-potential-energy)
+8. [<a id="5-the-stressstrain-curve-technical-breakdown"></a>5. The Stress-Strain Curve: Technical Breakdown](#a-id5-the-stressstrain-curve-technical-breakdowna5-the-stress-strain-curve-technical-breakdown)
+9. [<a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qandaacomprehensive-exam-strategy-qa)
+10. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+11. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+12. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+13. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Mechanical Properties Of Solids Revision Notes?](#what-is-mechanical-properties-of-solids-revision-notes)
@@ -119,7 +137,7 @@ A plot of stress vs strain reveals a material's journey from elastic to failure.
 4.  **Fracture Point:** The point where the material physically breaks.
 
 > [!NOTE]
-> **Ductile Materials:** Have a large gap between yield point and fracture point (e.g., Copper).
+> **Ductile Materials:** Have a large gap between yield point and fracture point (e.g., copper).
 > **Brittle Materials:** Yield and fracture points are close (e.g., Glass).
 
 ---
@@ -129,7 +147,7 @@ A plot of stress vs strain reveals a material's journey from elastic to failure.
 **Q1: Why is Steel more elastic than Rubber?**
 **Answer:**
 In Physics, elasticity is measured y the Modulus (resistance to deformation), not how much it can stretch.
-- For the same Stress (F/A), Steel undergoes very little Strain (ΔL/L) compared to Rubber.
+- For the same stress (F/A), Steel undergoes very little strain (ΔL/L) compared to Rubber.
 - Since **Y = Stress / Strain**, a smaller strain means a larger **Y**.
 - **Conclusion:** Because Y_steel ≫ Y_rubber, Steel is considered highly elastic.
 
@@ -171,7 +189,9 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/[mechanical](/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet)-properties-of-solids-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Mechanical%20Properties%20Of%20Solids%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 
@@ -183,3 +203,22 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 - 📖 [Mechanical Properties Of Fluids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
 - 📖 [Thermal Properties Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Confusing Stress with Pressure**: Many students tend to confuse stress with pressure. However, stress is the force applied per unit area within an object, whereas pressure is the external force applied per unit area on the surface of an object.
+* **Forgetting the Difference between Ductile and Brittle Materials**: Students often mix up ductile and brittle materials. Ductile materials can be drawn into wires and can undergo significant deformation without breaking, whereas brittle materials break or shatter when subjected to stress.
+* **Incorrectly Applying Hooke's Law**: Some students incorrectly apply Hooke's Law, which states that the force needed to extend or compress a spring by some distance is proportional to that distance. This law only applies to the proportional limit of the material.
+* **Mistaking Strain for Strain Rate**: It's common for students to confuse strain (a measure of deformation) with strain rate (a measure of how quickly an object is deforming). Strain is calculated as the ratio of change in length to the original length.
+* **Overlooking the Importance of Elastic Modulus**: Students may overlook the significance of elastic modulus (Young's modulus) in determining the mechanical properties of solids. Elastic modulus is crucial in understanding the relationship between stress and strain within the proportional limit of a material.
+
+## 🔁 Last 5 Minutes Box
+
+* **Stress**: Force per unit area (σ = F/A)
+     * **Strain**: Ratio of change in length to original length (ε = ΔL/L)
+     * **Hooke's Law**: Stress ∝ Strain (σ = Eε)
+     * **Young's Modulus**: E = (σ/ε) = (F/A)/(ΔL/L) = (FL)/(AΔL)
+     * **Poisson's Ratio**: ν = (lateral strain)/(longitudinal strain)
+     * **Bulk Modulus**: B = (VΔP)/(ΔV)
+     * **Shear Modulus**: η = (F/A)/(Δx/L)
+     * **Elastic Energy**: U = (1/2)×(stress)×(strain)×(volume)

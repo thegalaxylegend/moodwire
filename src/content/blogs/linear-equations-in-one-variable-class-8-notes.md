@@ -48,7 +48,7 @@ manualReview: false
 - To avoid this mistake, students should always check the equation for any restrictions on the domain of the variable before solving for $x$.
 
 ## 👁️ Ayush's Note
-- When solving linear equations in one variable, it is essential to follow the order of operations (PEMDAS) to avoid mistakes.
+- When solving linear [equations](/blog/differential-equations-class-12-notes) in one variable, it is essential to follow the order of operations (PEMDAS) to avoid mistakes.
 - Students should also make sure to simplify the equation before solving for $x$, and to check for any restrictions on the domain of the variable.
 - Additionally, students should practice solving a variety of linear equations to become proficient in this topic.
 
@@ -127,6 +127,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Linear%20Equations%20In%20One%20Variable%208%20Class%208%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-23",
+  "totalImages": 210,
+  "totalSizeMB": 12,
+  "issues": {
+    "missing": 0,
+    "oversized": 1,
+    "nonWebp": 1
+  },
+  "details": [
+    {
+      "slug": "thermodynamics-class-11-revision-notes-neet",
+      "issue": "oversized",
+      "details": "thermodynamics-class-11-revision-notes-neet.png: 661 KB (over 500 KB)"
+    },
+    {
+      "slug": "thermodynamics-class-11-revision-notes-neet",
+      "issue": "non-webp",
+      "details": "thermodynamics-class-11-revision-notes-neet.png — converting to WebP would save ~60% bandwidth"
+    }
+  ]
+}

@@ -24,7 +24,7 @@ eq 0$.
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not simplifying the rational [numbers](/blog/real-numbers-class-10-notes) to their lowest terms.
-- Not finding the least common multiple (LCM) of the denominators while adding or subtracting rational numbers.
+- Not finding the least common multiple (LCM) of the denominators while adding or subtracting rational [numbers](/blog/real-numbers-class-10-notes).
 - Not using the correct signs while adding or subtracting rational numbers.
 - Not using the distributive property of multiplication over addition while multiplying rational numbers.
 - Not using the correct order of operations while performing calculations involving rational numbers.

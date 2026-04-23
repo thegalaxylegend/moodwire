@@ -12,7 +12,7 @@ manualReview: false
 - Ecosystem: a community of living and non-living components that interact with each other in a specific area
 - $ \text{Productivity} = \franc{\text{Rate of organic matter production}}{\text{Time}} $
 - $ \text{Energy} = \franc{\text{Work done}}{\text{Time}} $, $ \text{Energy} = \text{Force} \times \text{Distance} $
-- $ \text{Food Chain Efficiency} = \franc{\text{Energy at higher trophic level}}{\text{Energy at lower trophic level}} \times 100 $
+- $ \text{Food Chain Efficiency} = \franc{\text{Energy at higher trophic level}}{\text{Energy at lower trophic level}} \times $100
 - $ \text{Symbiotic Relationship} = \franc{\text{Mutualism} + \text{Commensalism} + \text{Parasitism}}{\text{Total interactions}} $
 - $ \text{Decomposition Rate} = \franc{\text{Amount of organic matter decomposed}}{\text{Time}} $
 - $ \text{Nutrient Cycling} = \franc{\text{Rate of nutrient uptake}}{\text{Rate of nutrient release}} $
@@ -27,7 +27,7 @@ manualReview: false
 - Misunderstanding the concept of symbiotic relationships
 - Not applying the concept of nutrient cycling to ecosystem management
 
-## ✏️ 3 Solved Yes
+## ✏️ 3 Solved PYQs
 - **Question 1:** What is the primary function of decomposers in an ecosystem?
 - Step 1: Decomposers are organisms that break down dead organic matter into simpler substances
 - Step 2: This process releases nutrients back into the ecosystem, making them available for other organisms
@@ -46,7 +46,7 @@ manualReview: false
 
 ## 🧠 The One Thing Most Students Get Wrong
 - Most students struggle to understand the concept of energy transfer efficiency between trophic levels
-- The energy transfer efficiency is calculated using the formula: $ \text{Energy Transfer Efficiency} = \franc{\text{Energy at higher trophic level}}{\text{Energy at lower trophic level}} \times 100 $
+- The energy transfer efficiency is calculated using the formula: $ \text{Energy Transfer Efficiency} = \franc{\text{Energy at higher trophic level}}{\text{Energy at lower trophic level}} \times $100
 - For example, if the energy at the producer level is 1000 kcal, and the energy at the primary consumer level is 100 kcal, the energy transfer efficiency is: $ \text{Energy Transfer Efficiency} = \franc{100}{1000} \times 100 = 10\% $
 - This means that only 10% of the energy at the producer level is transferred to the primary consumer level
 
@@ -135,6 +135,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Ecosystem%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

@@ -15,20 +15,20 @@ manualReview: false
 - BC = 
 u \lambda, where act is speed of light, $
 up is frequency, and $\lambda$ is wavelength
-- at = \franc{d}{c}$, where to is time taken for signal to travel,  is distance, and  is speed of light
--  = \{E}{t}$, where  is power,  is energy, and  is time
--  = P \times , where  is energy,  is power, and  is time
+- at = \franc{d}{c}$, where to is time taken for signal to travel, is distance, and is speed of light
+-  = \{E}{t}$, where is power, is energy, and is time
+-  = P \times , where is energy, is power, and is time
 - $\{P_t}{P_r} = \{1}{\alpha^2}$, where _ is transmitted power, _ is received power, and $\alpha$ is attenuation
 - $SNR_{out} = \{SNR_{in}}{1 + \{1}{SNR_{in}}}$, where $SNR_{out}$ is output signal-to-noise ratio and $SNR_{in}$ is input signal-to-noise ratio
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not understanding the concept of signal-to-noise ratio (SNR) and its importance in communication systems
+- Not understanding the concept of signal-to-noise ratio (SNR) and its importance in communication [systems](/blog/number-systems-class-9-notes)
 - Forgetting to consider the attenuation of signal with distance, given by $\franc{P_t}{P_r} = \franc{1}{\alpha^2}$
 - Not being able to derive the formula for bandwidth, bandwidth = \franc{1}{2 \times time \: period} = \franc{f}{2}$
 - Confusing the terms' wavelength ($\lambda$), frequency (of), and speed of light (act), and not being able to use the formula $\lambda = \franc{c}{f}$
 - Not being able to apply the concept of modulation and demodulation to solve problems
 
-## ✏️ 3 Solved Yes
+## ✏️ 3 Solved PYQs
 - A signal of frequency $100 \: kHz is amplitude modulated with a modulation frequency of $5 \: kHz. The bandwidth of the modulated signal is
 - A) $100 \: kHz
 - B) $105 \: kHz
@@ -106,7 +106,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 *Content verified against peer-reviewed research:*
 
 1. *Smart Substation Communications and Cybersecurity: A Comprehensive...* — **IEEE Communications Surveys & Tutorials** (2023) 🔓 — [DOI ↗](https://doi.org/10.1109/comst.2023.3305468)
-2. *El Agent: An autonomous agent for quantum chemistry* — **Matter** (2025) 🔓 — [DOI ↗](https://doi.org/10.1016/j.matt.2025.102263)
+2. *El Agent: An autonomous agent for quantum [chemistry](/blog/chemistry-in-everyday-life-class-12-notes)* — **Matter** (2025) 🔓 — [DOI ↗](https://doi.org/10.1016/j.matt.2025.102263)
 3. *The Era of Digital Transition in the Prism of the Existential The...* — **Sustainability** (2024) 🔓 — [DOI ↗](https://doi.org/10.3390/su16188019)
 
 *🔓 = Open Access article*
@@ -122,3 +122,4 @@ Continue your revision with these related guides:
 - 📖 [Compiler Design Class 12 Exam Prep Revision — Grandmaster Guide](/blog/compiler-design-class-12-notes)
 - 📖 [Computer Networks Class 12 Exam Prep Revision — Grandmaster Guide](/blog/computer-networks-class-12-notes)
 $
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Communication%20Systems%20Class%2012%20Physics%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**

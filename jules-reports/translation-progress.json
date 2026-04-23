@@ -1,0 +1,12 @@
+{
+  "date": "2026-04-23T03:03:13.394Z",
+  "thisRun": {
+    "translated": 0,
+    "failed": 3
+  },
+  "total": {
+    "english": 210,
+    "hindi": 0,
+    "coverage": "0%"
+  }
+}

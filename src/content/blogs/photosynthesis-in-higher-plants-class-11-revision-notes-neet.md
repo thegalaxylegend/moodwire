@@ -116,7 +116,7 @@ C) $H_2O \rightarrow ATP + NADPH + O_2$ D) CO_2 + H_2O \rightarrow Glucose + O_2
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Plant Physiology class 11 Notes
+* [Plant](/blog/plant-growth-and-development-class-11-revision-notes-neet) Physiology class 11 Notes
 * Cell Biology class 11 Notes
 
 ## <a id="last-updated-date"></a>Last Updated Date
@@ -140,7 +140,7 @@ Continue your [revision](/blog/plant-growth-n-development-class-11-revision-note
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/photosynthesis-n-higher-plants-class-11-revision-notes-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/photosynthesis-n-higher-[plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 ---
 

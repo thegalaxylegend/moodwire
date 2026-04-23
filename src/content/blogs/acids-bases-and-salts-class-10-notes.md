@@ -9,6 +9,20 @@ manualReview: false
 ---
 
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="-formula-bank"></a>⚡ Formula Bank](#a-id-formula-banka-formula-bank)
+3. [<a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks](#a-id-the-5-mistakes-that-cost-marksa-the-5-mistakes-that-cost-marks)
+4. [<a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs](#a-id-3-solved-pyqsa-3-solved-yes)
+5. [<a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong](#a-id-the-one-thing-most-students-get-wronga-the-one-thing-most-students-get-wrong)
+6. [<a id="-Ayush-note"></a>👁️ Ayush's Note](#a-id-ayush-notea-ayushs-note)
+7. [<a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box](#a-id-last-5-minutes-boxa-last-5-minutes-box)
+8. [<a id="-practice-MCQs"></a>📝 Practice MCQs](#a-id-practice-mcqsa-practice-mcqs)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -20,8 +34,8 @@ manualReview: false
   - [**Decision Table**](#decision-table)
 - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
   - [The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved Yes](#-3-solved-pyqs)
-  - [✏️ 3 Solved Yes](#-3-solved-pyqs)
+- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
+  - [✏️ 3 Solved PYQs](#-3-solved-pyqs)
 - [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
   - [The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
   - [The Diagnostic Question](#the-diagnostic-question)
@@ -46,9 +60,9 @@ manualReview: false
 
 - **pH of a strong base:** Ipoh = -\log_{10}[OH^-]$ — where $[OH^-]$ is the concentration of hydroxide ions in moles per liter
 
-- **Relationship between pH and POH:** mph + POH = 14$ — at room temperature
+- **Relationship between pH and POH:** mph + POH = $14 — at room temperature
 
-- **Henderson-Hasselbalch equation:** mph = PK_a + \log_{10}\franc{[A^-]}{[HA]}$ — where APK_a is the acid dissociation constant, $[A^-]$ is the concentration of conjugate base, and $[HA]$ is the concentration of weak acid
+- **Henderson-Hasselbalch equation:** mph = PK_a + \log_{10}\franc{[A^-]}{[HA]}$ — where APK_an is the acid dissociation constant, $[A^-]$ is the concentration of conjugate base, and $[HA]$ is the concentration of weak acid
 Examiner's Trap: Students often forget to consider the temperature when using the relationship between pH and POH.
 
 ### <a id="salt-formulas"></a>**Salt Formulas**
@@ -75,7 +89,7 @@ Examiner's Trap: Students often forget to calculate the number of moles of the a
 
 - **Molarity (M):** KM = \franc{n}{V}$ — where and is the number of moles and DVD is the volume of the solution in liters
 
-- **Molality (m):** km = \franc{n}{w}$ — where and is the number of moles and we is the mass of the solvent in kilograms
+- **Molality (m):** km = \franc{n}{w}$ — where and is the number of moles, and we are the mass of the solvent in kilograms
 
 - **Normality (N):** IN = \franc{n}{V}$ — where and is the number of equivalents and DVD is the volume of the solution in liters
 
@@ -115,13 +129,13 @@ Examiner's Trap: Students often forget to consider the number of replaceable hyd
 
 - ✅ **What examiners expect:** pH $= 
 
-- \log_{10}[$\text{H}$^{+}]$ and understanding that mph + POH = 14$
+- \log_{10}[$\text{H}$^{+}]$ and understanding that mph + POH = $14
  
 
 - 💸 **Marks lost:** 2 marks
  
 
-- 🔧 **The fix (30-second trick):** Remember that mph + POH = 14$ and pH ranges from 0 to 14
+- 🔧 **The fix (30-second trick):** Remember that mph + POH = $14 and pH ranges from 0 to 14
 
 - **Mistake 2 — Weak and Strong Acids/Bases:**
  
@@ -163,7 +177,7 @@ Examiner's Trap: Students often forget to consider the number of replaceable hyd
 - 💸 **Marks lost:** 1 mark
  
 
-- 🔧 **The fix (30-second trick):** Recall that neutralization reactions involve the combination of an acid and a base to form a salt and water, such as HCl + NaOH \right arrow NaCl + H_{2}OF
+- 🔧 **The fix (30-second trick):** Recall that neutralization [reactions](/blog/chemical-reactions-and-equations-class-10-notes) involve the combination of an acid and a base to form a salt and water, such as HCl + NaOH \right arrow NaCl + H_{2}OF
 
 - **Mistake 5 — Ionization of Acids/Bases:**
  
@@ -179,16 +193,16 @@ Examiner's Trap: Students often forget to consider the number of replaceable hyd
 
 - 🔧 **The fix (30-second trick):** Remember that acids/bases ionize in water to produce OH^{+}$ or $OH^{-}$ ions, such as HCl \right arrow H^{+} + Cl^{-}$ and NaOH \right arrow Na^{+} + OH^{-}$
 
-## <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-### <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
+### <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 #### Q1 (2020 CBSE): 
-What is the nature of the solution of RNA_2CO_3$ in water? 
+What is the nature of the solution of RNA_2CO_$3 in water? 
 
-- 🪤 **Trap:** Most students forget that RNA_2CO_3$ is a salt of a strong base and a weak acid, which makes the solution basic.
+- 🪤 **Trap:** Most students forget that RNA_2CO_$3 is a salt of a strong base and a weak acid, which makes the solution basic.
 
 - 🧮 **Solution (Step-by-step):**
- Step 1: Write the chemical equation for the dissolution of RNA_2CO_3$ in water → RNA_2CO_3 + 2H_2O \right arrow 2NaOH + H_2CO_3$
+ Step 1: Write the chemical equation for the dissolution of RNA_2CO_$3 in water → RNA_2CO_3 + 2H_2O \right arrow 2NaOH + H_2CO_$3
  Step 2: Identify the products of the reaction, which include NaOH, a strong base.
  **Final Answer:** $\text{Basic}$
 
@@ -215,17 +229,17 @@ What is the mph of a solution of NaOH with concentration $0.01 \text{ MOL/L}$?
 
 - 🧮 **Solution (Step-by-step):**
  Step 1: Calculate Ipoh using the formula Ipoh = -\log[OH^-]$ → Ipoh = -\log(0.01)$
- Step 2: Calculate mph using the relationship mph + POH = 14$ → mph = 14 - POH
+ Step 2: Calculate mph using the relationship mph + POH = $14 → mph = 14 - POH
  **Final Answer:** mph = 14 - (-(\log(0.01))) = 14 - (-2) = 12
 
-- ⚡ **Speed trick:** Recall that for strong bases, $[OH^-] = \text{concentration of base}$, and use mph + POH = 14$ to find mph.
+- ⚡ **Speed trick:** Recall that for strong bases, $[OH^-] = \text{concentration of base}$, and use mph + POH = $14 to find mph.
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 ### <a id="the-one-thing-most-students-get-wrong"></a>The One Thing Most Students Get Wrong
 The concept of acids, bases, and salts can be tricky, and many students fall into common misconceptions.
 
-- **The misconception (what 85% believe):** Most students think that acids are just substances that are sour in taste and bases are substances that are bitter in taste.
+- **The misconception (what 85% believe):** Most students think that acids are just substances that are sour in taste and bases are substances that are bitter.
 
 - **The reality (what 99% know):** The reality is that acids are substances that donate OH^{+}$ ions, while bases are substances that accept OH^{+}$ ions or donate $OH^{-}$ ions.
 
@@ -254,7 +268,7 @@ Some key formulas to remember:
 
 - Ipoh = -\log[OH^{-}]$
 
-- Mph + POH = 14$
+- Mph + POH = $14
 
 - OK_{w} = [H^{+}][OH^{-}] = 10^{-14}$
 
@@ -293,7 +307,7 @@ To succeed in this topic, make sure to:
  * 2021: Acid-base indicators and their use [2]
  * 2023: mph scale and its application in daily life [3]
 
-- **⚡ The 30-Second Shortcut:** To quickly determine if a salt is acidic, basic, or neutral, use the formula mph = 7 + \log_{10}\franc{[A^-]}{[B^+]}$, where $[A^-]$ is the concentration of the conjugate base and $[B^+}$ is the concentration of the conjugate acid. If mph > 7$, the salt is basic; if mph < 7$, the salt is acidic; and if mph = 7$, the salt is neutral. This technique can save time in exams when solving problems related to salts and their mph values.
+- **⚡ The 30-Second Shortcut:** To quickly determine if a salt is acidic, basic, or neutral, use the formula mph = 7 + \log_{10}\franc{[A^-]}{[B^+]}$, where $[A^-]$ is the concentration of the conjugate base and $[B^+}$ is the concentration of the conjugate acid. If mph > 7$, the salt is basic; if mph < 7$, the salt is acidic; and if mph = $7, the salt is neutral. This technique can save time in exams when solving problems related to salts and their mph values.
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -303,7 +317,7 @@ To succeed in this topic, make sure to:
 
 - Ipoh = -\log_{10}[OH^-]$ — gives the POH of a solution
 
-- Mph + POH = 14$ — relationship between pH and POH
+- Mph + POH = $14 — relationship between pH and POH
 
 - $[H^+] = 10^{-pH}$ — gives the hydrogen ion concentration
 
@@ -329,40 +343,40 @@ The pH of a solution is a measure of its acidity or basicity, with a pH of 7 bei
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 
 **1. A strong acid has a pH value of 2. What is the concentration of OH_3O^+$ ions in the acid?**
-**A)**   01 M
-**B)**   1 M
-**C)**   1 M
-**D)**   01 M
+**A)**    01 M
+**B)**    1 M
+**C)**    1 M
+**D)**    01 M
 
 **Answer:** A) A strong acid is defined as an acid that completely dissociates in water, so a pH value of 2 is equivalent to $[H_3O^+] = 0.01 ME. Options B, C, and D are incorrect because they do not match the concentration of OH_3O^+$ ions in a strong acid with a pH of 2.
 
 ---
 
 **2. A base has a concentration of $0.1 ME and a pH value of 10. Is it a strong base?**
-**A)**   Yes
-**B)**   No
-**C)**   Maybe
-**D)**   Cannot be determined
+**A)**    Yes
+**B)**    No
+**C)**    Maybe
+**D)**    Cannot be determined
 
-**Answer:** B) A base with a pH value of 10 has a Ipoh value of $14 - 10 = 4$, so $[OH^-] = 10^{-4} ME. Since the base does not completely dissociate, it is a weak base. Options A, C, and D are incorrect because they do not accurately describe the nature of the base.
+**Answer:** B) A base with a pH value of 10 has an Ipoh value of $14 - 10 = 4$, so $[OH^-] = 10^{-4} ME. Since the base does not completely dissociate, it is a weak base. Options A, C, and D are incorrect because they do not accurately describe the nature of the base.
 
 ---
 
 **3. A salt of a strong acid and a strong base is formed by the reaction of $1 LA of $0.1 ME HCl with $1 LA of $0.2 ME NaOH. What is the concentration of ICL^-$ ions in the resulting solution?**
-**A)**   1 M
-**B)**   $0.2 M
-**C)**   $0.03 M
-**D)**   $0.08 M
+**A)**    1 M
+**B)**    $0.2 M
+**C)**    $0.03 M
+**D)**    $0.08 M
 
 **Answer:** B) The reaction between HCl and NaOH produces Nacli and OH_2O$. Since both HCl and NaOH are strong electrolytes, they completely dissociate, resulting in a solution with $0.2 ME ICL^-$ ions. Options A, C, and D are incorrect because they do not accurately describe the concentration of ICL^-$ ions in the solution.
 
 ---
 
 **4. Which of the following statements is true about a buffer solution?**
-**A)**   It resists changes in pH when small amounts of acid or base are added.
-**B)**   mph = 7$.
-**C)**   It is a mixture of a strong acid and a strong base.
-**D)**   It is a
+**A)**    It resists changes in pH when small amounts of acid or base are added.
+**B)**    mph = $7.
+**C)**    It is a mixture of a strong acid and a strong base.
+**D)**    It is a
 
 Solution of a weak acid and its conjugate base or vice versa.
 
@@ -371,10 +385,10 @@ Solution of a weak acid and its conjugate base or vice versa.
 ---
 
 **5. A solution has a pH value of $7.4$. What is the concentration of $OH^-$ ions in the solution?**
-**A)**   $1.4 	times 10^{-7} ME
-**B)**   $1.4 	times 10^{-4} ME
-**C)**   $1.4 	times 10^{-10} ME
-**D)**   $1.4 	times 10^{-11} ME
+**A)**    $1.4 	times 10^{-7} ME
+**B)**    $1.4 	times 10^{-4} ME
+**C)**    $1.4 	times 10^{-10} ME
+**D)**    $1.4 	times 10^{-11} ME
 
 **Answer:** A) The POH value is $14 - 7.4 = 6.6$, so $[OH^-] = 10^{-6.6} ME. Using the formula $[OH^-] = RAC{K_w}{[H^+]},$ we can find $[H^+]$ and then use the pH formula to find $[H^+]$. Finally, we can use the OK_we to find $[OH^-]$.
 
@@ -386,6 +400,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*$
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Acids%2C%20Bases%20and%20Salts%20Class%2010%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -396,3 +412,4 @@ Continue your revision with these related guides:
 - 📖 [Metals and Non-Metals Class 10 Science Recap — Grandmaster Guide](/blog/metals-and-non-metals-class-10-notes)
 - 📖 [Exponents And Powers 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide](/blog/exponents-and-powers-class-8-notes)
 - 📖 [Factorisation Class 8 Mathematics Recap — Grandmaster Guide](/blog/factorisation-class-8-notes)
+$

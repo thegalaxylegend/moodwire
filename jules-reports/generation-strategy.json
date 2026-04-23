@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-04-22T14:25:53.361Z",
+  "lastUpdated": "2026-04-23T03:01:59.933Z",
   "lessonsApplied": 23,
   "adjustments": [
     {
       "rule": "ENFORCE_JSON_REPAIR: Extract JSON between outermost { } before parsing. Strip markdown code fences.",
       "reason": "9 JSON parse failures detected.",
-      "appliedDate": "2026-04-22",
+      "appliedDate": "2026-04-23",
       "impactedSubjects": [
         "All"
       ]
@@ -13,7 +13,7 @@
     {
       "rule": "MIN_WORD_ENFORCEMENT: If any section < 150 words, trigger targeted expansion pass.",
       "reason": "3 thin content failures detected.",
-      "appliedDate": "2026-04-22",
+      "appliedDate": "2026-04-23",
       "impactedSubjects": [
         "All"
       ]

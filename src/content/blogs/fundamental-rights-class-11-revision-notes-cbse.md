@@ -9,6 +9,27 @@ practice_link: "/class-11/fundamental-rights-class-11-revision-notes-cbse"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-fundamental-rights"></a>What is Fundamental Rights?](#a-idwhat-is-fundamental-rightsawhat-is-fundamental-rights)
+3. [<a id="what-are-the-key-features-of-fundamental-rights"></a>What are the key features of Fundamental Rights?](#a-idwhat-are-the-key-features-of-fundamental-rightsawhat-are-the-key-features-of-fundamental-rights)
+4. [<a id="what-is-the-historical-context-of-fundamental-rights"></a>What is the historical context of Fundamental Rights?](#a-idwhat-is-the-historical-context-of-fundamental-rightsawhat-is-the-historical-context-of-fundamental-rights)
+5. [<a id="Ayush-tips"></a>Ayush's Tips](#a-idayush-tipsaayushs-tips)
+6. [<a id="what-are-the-core-concepts-related-to-fundamental-rights"></a>What are the Core Concepts related to Fundamental Rights?](#a-idwhat-are-the-core-concepts-related-to-fundamental-rightsawhat-are-the-core-concepts-related-to-fundamental-rights)
+7. [<a id="trap-exceptions"></a>Trap Exceptions](#a-idtrap-exceptionsatrap-exceptions)
+8. [<a id="what-are-the-implications-of-fundamental-rights-on-Indian-society"></a>What are the implications of Fundamental Rights on Indian society?](#a-idwhat-are-the-implications-of-fundamental-rights-on-indian-societyawhat-are-the-implications-of-fundamental-rights-on-indian-society)
+9. [<a id="Ayush-personal-note"></a>Ayush's Personal Note](#a-idayush-personal-noteaayushs-personal-note)
+10. [<a id="what-are-the-key-challenges-n-implementing-fundamental-rights"></a>What are the key challenges and implementing Fundamental Rights?](#a-idwhat-are-the-key-challenges-n-implementing-fundamental-rightsawhat-are-the-key-challenges-and-implementing-fundamental-rights)
+11. [<a id="what-is-the-role-of-the-judiciary-n-protecting-fundamental-rights"></a>What is the role of the judiciary and protecting Fundamental Rights?](#a-idwhat-is-the-role-of-the-judiciary-n-protecting-fundamental-rightsawhat-is-the-role-of-the-judiciary-and-protecting-fundamental-rights)
+12. [<a id="quick-revision-n-recap"></a>Quick Revision & Recap](#a-idquick-revision-n-recapaquick-revision-recap)
+13. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+14. [📚 Related Topics](#related-topics)
+15. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+16. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Fundamental Rights?](#what-is-fundamental-rights)
@@ -40,7 +61,7 @@ The concept of Fundamental Rights has its roots and the Indian independence move
 
 ## <a id="Ayush-tips"></a>Ayush's Tips
 
-As a student preparing for the class 11 exam n 2026, it's essential to have a thorough understanding of the Fundamental Rights enshrined and the Indian Constitution. I always make it a point to **read the Constitution** n **analyze the provisions** related to each right. I also **create concept maps** to visualize the relationships between different rights and their applications. By doing so, I'm able to **identify the key concepts** n **retain the information** more effectively.
+As a student preparing for the class 11 exam n 2026, it's essential to have a thorough understanding of the Fundamental Rights enshrined and the [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Constitution. I always make it a point to **read the Constitution** n **analyze the provisions** related to each right. I also **create concept maps** to visualize the relationships between different rights and their applications. By doing so, I'm able to **identify the key concepts** n **retain the information** more effectively.
 
 ## <a id="what-are-the-core-concepts-related-to-fundamental-rights"></a>What are the Core Concepts related to Fundamental Rights?
 
@@ -56,7 +77,7 @@ The implications of Fundamental Rights on [indian](/blog/indian-geography-physic
 
 ## <a id="Ayush-personal-note"></a>Ayush's Personal Note
 
-As I prepare for the class 11 exam n 2026, I'm reminded of the importance of Fundamental Rights and shaping the country's democratic framework. I've been studying the subject for several months now, n I'm beginning to appreciate the **complexities and nuances** of these rights. I've been **creating flashcards** to help me remember key concepts n **practicing with sample questions** to assess my understanding. By doing so, I'm confident that I'll be able to **excel and the exam** n **develop a deeper understanding** of the subject. I've also been **exploring historical timelines** n **maps contexts** to gain a better understanding of the subject.
+As I prepare for the class 11 exam n 2026, I'm reminded of the importance of Fundamental Rights and shaping the country's democratic [framework](/blog/constitutional-framework-class-11-revision-notes-cbse). I've been studying the subject for several months now, n I'm beginning to appreciate the **complexities and nuances** of these rights. I've been **creating flashcards** to help me remember key concepts n **practicing with sample questions** to assess my understanding. By doing so, I'm confident that I'll be able to **excel and the exam** n **develop a deeper understanding** of the subject. I've also been **exploring historical timelines** n **maps contexts** to gain a better understanding of the subject.
 
 ## <a id="what-are-the-key-challenges-n-implementing-fundamental-rights"></a>What are the key challenges and implementing Fundamental Rights?
 
@@ -88,6 +109,8 @@ Continue your [revision](/blog/ancient-india-indus-valley-class-11-revision-note
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/fundamental-rights-class-11-revision-notes-cbse) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Fundamental%20Rights%20Class%2011%20Political%20Science%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

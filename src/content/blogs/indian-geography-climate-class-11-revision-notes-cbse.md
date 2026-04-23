@@ -9,6 +9,24 @@ practice_link: "/class-11/indian-geography-climate-class-11-revision-notes-cbse"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-Indian-geography-climate"></a>What is Indian Geography Climate?](#a-idwhat-is-indian-geography-climateawhat-is-indian-geography-climate)
+3. [<a id="what-is-climate"></a>What is Climate?](#a-idwhat-is-climateawhat-is-climate)
+4. [<a id="what-are-the-key-factors-influencing-climate"></a>What are the key factors influencing Climate?](#a-idwhat-are-the-key-factors-influencing-climateawhat-are-the-key-factors-influencing-climate)
+5. [<a id="what-are-the-different-types-of-climate"></a>What are the different types of Climate?](#a-idwhat-are-the-different-types-of-climateawhat-are-the-different-types-of-climate)
+6. [<a id="what-is-the-historical-context-of-climate-change"></a>What is the historical context of Climate Change?](#a-idwhat-is-the-historical-context-of-climate-changeawhat-is-the-historical-context-of-climate-change)
+7. [<a id="what-are-the-core-concepts-of-climate"></a>What are the Core Concepts of Climate?](#a-idwhat-are-the-core-concepts-of-climateawhat-are-the-core-concepts-of-climate)
+8. [<a id="what-are-the-trap-exceptions-n-climate"></a>What are the Trap Exceptions and Climate?](#a-idwhat-are-the-trap-exceptions-n-climateawhat-are-the-trap-exceptions-and-climate)
+9. [<a id="MCQs"></a>MCQs](#a-idmcqsamcqs)
+10. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+11. [📚 Related Topics](#related-topics)
+12. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+13. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Indian Geography Climate?](#what-is-indian-geography-climate)
@@ -77,7 +95,7 @@ The core concepts of climate include **atmospheric circulation**, **ocean curren
 Continue your [revision](/blog/fundamental-rights-class-11-revision-notes-cbse) with these related guides:
 
 - 📖 [Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/fundamental-rights-class-11-revision-notes-cbse)
-- 📖 [Indian Geography Physical Class 11 Indian Geography Climate Class 11 Revision Notes CBSE"
+- 📖 [[Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Geography Physical Class 11 [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Geography Climate Class 11 Revision Notes CBSE"
    
 
 ![Indian Geography Climate Class 11 Geography Recap — CBSE 2026 Quick Guide]( Revision — CBSE Boards 2026 Grandmaster Guide](/blog/indian-geography-physical-class-11-revision-notes-jee-neet)
@@ -88,6 +106,8 @@ Continue your [revision](/blog/fundamental-rights-class-11-revision-notes-cbse) 
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/indian-geography-climate-class-11-revision-notes-cbse) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Indian%20Geography%20Climate%20Class%2011%20Geography%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 
@@ -107,7 +127,7 @@ Continue your [revision](/blog/constitutional-framework-class-11-revision-notes-
 
 * The Himalayan mountain range is often mistakenly considered the only factor affecting [India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)'s climate, but other factors like the Thar Desert, the Western Ghats, and the Indian Ocean also play a crucial role.
 * Students often confuse the cold and hot desert climates of [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee), with the former being found in the Himalayan regions and the latter in the Thar Desert.
-* The concept of the 'trade winds' and 'westerlies' is often mixed up by students, with the trade winds blowing from the northeast during winter and the westerlies bringing rain to India during the summer months.
+* The concept of the 'trade winds' and 'westerlies' is often mixed up by students, with the trade winds blowing from the northeast during winter and the westerlies bringing rain to [India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) during the summer months.
 * Many students mistakenly believe that the monsoon rains are the primary source of rainfall in all parts of India, when in fact, some regions like the Andaman and Nicobar Islands receive significant rainfall from other sources.
 * India's climate is often oversimplified as being divided into just three main seasons (summer, monsoon, and winter), when in fact, there are actually four distinct seasons: winter, pre-monsoon, monsoon, and post-monsoon.
 

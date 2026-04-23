@@ -174,7 +174,7 @@ Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-n
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/the-living-world-class-11-revision-notes-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/the-living-[world](/blog/physical-world-class-11-revision-notes-jee-neet)-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 ---
 

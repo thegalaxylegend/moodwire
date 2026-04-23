@@ -9,6 +9,29 @@ practice_link: "/class-11/biology/hydrogen-class-11-revision-notes-neet"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-hydrogen"></a>What is Hydrogen?](#a-idwhat-is-hydrogenawhat-is-hydrogen)
+3. [<a id="introduction-to-hydrogen"></a>Introduction to Hydrogen](#a-idintroduction-to-hydrogenaintroduction-to-hydrogen)
+4. [<a id="occurrence-n-extraction-of-hydrogen"></a>Occurrence and Extraction of Hydrogen](#a-idoccurrence-n-extraction-of-hydrogenaoccurrence-and-extraction-of-hydrogen)
+5. [<a id="properties-of-hydrogen"></a>Properties of Hydrogen](#a-idproperties-of-hydrogenaproperties-of-hydrogen)
+6. [<a id="hydrogen-compounds"></a>Hydrogen Compounds](#a-idhydrogen-compoundsahydrogen-compounds)
+7. [<a id="applications-of-hydrogen"></a>Applications of Hydrogen](#a-idapplications-of-hydrogenaapplications-of-hydrogen)
+8. [<a id="why-this-chapter-matters"></a>Why This Chapter Matters](#a-idwhy-this-chapter-mattersawhy-this-chapter-matters)
+9. [<a id="Ayush-note"></a>Ayush's Note](#a-idayush-noteaayushs-note)
+10. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+11. [<a id="shortcut-formula trick"></a>Shortcut Formula/Trick](#a-idshortcut-formula-trickashortcut-formulatrick)
+12. [<a id="trap-questions exceptions"></a>Trap Questions/Exceptions](#a-idtrap-questions-exceptionsatrap-questionsexceptions)
+13. [<a id="practice-MCQs"></a>Practice MCQs](#a-idpractice-mcqsapractice-mcqs)
+14. [<a id="related-notes-links"></a>Related Notes Links](#a-idrelated-notes-linksarelated-notes-links)
+15. [<a id="last-updated-date"></a>Last Updated Date](#a-idlast-updated-datealast-updated-date)
+16. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+17. [📚 Related Topics](#related-topics)
+18. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Hydrogen?](#what-is-hydrogen)
@@ -74,8 +97,7 @@ I remember struggling with hydrogen concepts during my JEE preparation. I used t
 
 ## <a id="core-concepts"></a>Core Concepts
 
-### <a id="hydrogen-bonding"></a>Hydrogen Bonding
-Hydrogen bonding is a type of intermolecular force that occurs between molecules with a hydrogen atom bonded to a highly electronegative atom, such as oxygen, nitrogen, or fluorine. Hydrogen bonds are responsible for the high boiling point of water and the structure of DNA.
+### <a id="hydrogen-bonding"></a>Hydrogen Bonding is a type of intermolecular force that occurs between molecules with a hydrogen atom bonded to a highly electronegative atom, such as oxygen, nitrogen, or fluorine. Hydrogen bonds are responsible for the high boiling point of water and the structure of DNA.
 
 ### <a id="hydrogen-fuel-cells"></a>Hydrogen Fuel Cells
 Hydrogen fuel cells are devices that convert the chemical energy of hydrogen into electrical energy. They have a wide range of applications, including power generation, transportation, n industrial processes.
@@ -150,6 +172,8 @@ Continue your [revision](/blog/morphology-of-flowering-plants-class-11-revision-
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/hydrogen-class-11-revision-notes-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Hydrogen%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

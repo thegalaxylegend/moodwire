@@ -1,14 +1,14 @@
 {
-  "overallAvgScore": 85.7,
-  "totalBlogsAllTime": 103,
-  "totalPassed": 83,
-  "totalFailed": 20,
-  "overallPassRate": 81,
+  "overallAvgScore": 85.5,
+  "totalBlogsAllTime": 112,
+  "totalPassed": 84,
+  "totalFailed": 28,
+  "overallPassRate": 75,
   "trend": "stable",
-  "trendDelta": 2,
+  "trendDelta": -0.4,
   "dailyReports": [
     {
-      "date": "2026-04-22",
+      "date": "2026-04-23",
       "totalBlogs": 9,
       "passed": 9,
       "failed": 0,
@@ -208,12 +208,34 @@
         "JSON squashing detected: raw JSON objects in markdown body",
         "JSON squashing detected: raw JSON objects in markdown body"
       ]
+    },
+    {
+      "date": "2026-04-22",
+      "totalBlogs": 9,
+      "passed": 1,
+      "failed": 8,
+      "avgScore": 82.8,
+      "passRate": 11,
+      "errors": [
+        "Unknown Failure",
+        "Unknown Failure",
+        "Unknown Failure",
+        "Unknown Failure",
+        "Unknown Failure",
+        "Unknown Failure",
+        "Unknown Failure",
+        "Unknown Failure"
+      ]
     }
   ],
   "topErrors": [
     {
       "error": "JSON squashing detected: raw JSON objects in markdown body",
       "count": 9
+    },
+    {
+      "error": "Unknown Failure",
+      "count": 8
     },
     {
       "error": "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":",
@@ -229,5 +251,5 @@
     }
   ],
   "alertNeeded": true,
-  "alertMessage": "🚨 Last run had <50% pass rate! Only 0/9 blogs passed."
+  "alertMessage": "🚨 Last run had <50% pass rate! Only 1/9 blogs passed."
 }

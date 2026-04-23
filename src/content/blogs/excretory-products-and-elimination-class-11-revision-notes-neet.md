@@ -9,6 +9,18 @@ practice_link: "/class-11/biology/excretory-products-n-elimination-class-11-revi
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [## <a id="what-is-excretory-products-n-elimination"></a>What is Excretory Products And Elimination?](#a-idwhat-is-excretory-products-n-eliminationawhat-is-excretory-products-and-elimination)
+3. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+4. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+5. [📚 Related Topics](#related-topics)
+6. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+7. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Excretory Products And Elimination?](#what-is-excretory-products-n-elimination)
@@ -197,6 +209,8 @@ Continue your [revision](/blog/biological-classification-class-11-revision-notes
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/excretory-products-n-elimination-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Excretory%20Products%20And%20Elimination%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -211,7 +225,7 @@ Continue your [revision](/blog/biological-classification-class-11-revision-notes
 ## 🪤 The 5 Mistakes That Cost Marks
 
 * **Confusing nephron with Malpighian tubule**: Students often get confused between the nephron, the functional unit of the kidney and vertebrates, n the Malpighian tubule, the excretory unit and insects. Remember, nephrons are specific to vertebrate kidneys and are involved and the filtration of blood and formation of urine, while Malpighian tubules are found and insects and work y removing waste products from the hemolytic.
-* **Forgetting that urea is a primary excretory product and humans but not and all animals**: It's crucial to recognize that different organisms have different primary excretory products. For example, urea is the primary excretory product and humans, but and some organisms like birds, the primary excretory product is uric acid. This understanding helps and avoiding confusion across different biological systems.
+* **Forgetting that urea is a primary excretory product and humans but not and all animals**: It's crucial to recognize that different organisms have different primary excretory products. For example, urea is the primary excretory product and humans, but some organisms like birds, the primary excretory product is uric acid. This understanding helps and avoiding confusion across different biological systems.
 * **Misunderstanding the term 'excretion' with 'election' or 'defecation'**: Excretion refers to the removal of metabolic waste products from the body. Election, on the other hand, refers to the removal of undigested food material from the digestive system. Defecation is the specific process of removing feces from the body. Distinguishing between these terms is vital for clarity and understanding physiological processes.
 * **Not recognizing the role of other organs besides the kidneys and excretion**: While the kidneys are the primary organs of excretion, other organs like the liver (which metabolizes toxins), the lungs (which expel CO2), n the skin (which can excrete waste through sweat) also play significant roles and the excretory process. Acknowledging these roles helps and understanding the comprehensive nature of excretion and the body.
 * **Confusing osmoregulation with excretion**: Osmoregulation refers to the regulation of water and salt balance and the body, which is closely related to but distinct from excretion. While excretion involves the removal of waste products, osmoregulation involves maintaining the proper balance of fluids and electrolytes. Both processes are vital but serve different physiological needs.

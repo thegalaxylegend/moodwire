@@ -27,7 +27,7 @@ EQ DBMS.
 - Not understanding the concept of normalization: $\franc{1NF}{2NF}$, $\franc{3NF}{BCNF}$.
 - Not being able to explain the advantages and disadvantages of a database: $\franc{Advantages}{Disadvantages}$.
 
-## ✏️ 3 Solved Yes
+## ✏️ 3 Solved PYQs
 - **Question 1:** What is the difference between a DBMS and a RDBMS?
   - Step 1: Define DBMS and RDBMS.
   - Step 2: Explain the difference between DBMS and RDBMS.
@@ -133,6 +133,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Databases%20Dbms%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

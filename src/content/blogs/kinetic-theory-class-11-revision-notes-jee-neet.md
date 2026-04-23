@@ -9,6 +9,26 @@ practice_link: "/class-11/physics/kinetic-theory-class-11-revision-notes-jee-nee
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-kinetic-theory-revision-notes"></a>What is Kinetic Theory Revision Notes?](#a-idwhat-is-kinetic-theory-revision-notesawhat-is-kinetic-theory-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-postulates-of-the-kinetic-theory"></a>1. Postulates of the Kinetic Theory](#a-id1-postulates-of-the-kinetic-theorya1-postulates-of-the-kinetic-theory)
+5. [<a id="2-derivation-mastersheet-pressure-of-an-ideal-gas"></a>2. Derivation Master-Sheet: Pressure of an Ideal Gas](#a-id2-derivation-mastersheet-pressure-of-an-ideal-gasa2-derivation-master-sheet-pressure-of-an-ideal-gas)
+6. [<a id="3-kinetic-interpretation-of-temperature"></a>3. Kinetic Interpretation of Temperature](#a-id3-kinetic-interpretation-of-temperaturea3-kinetic-interpretation-of-temperature)
+7. [<a id="4-degrees-of-freedom-n-equipartition"></a>4. Degrees of Freedom and Equipartition](#a-id4-degrees-of-freedom-n-equipartitiona4-degrees-of-freedom-and-equipartition)
+8. [<a id="5-specific-heat-capacities-n-mayers-relation"></a>5. Specific Heat Capacities & Mayer's Relation](#a-id5-specific-heat-capacities-n-mayers-relationa5-specific-heat-capacities-mayers-relation)
+9. [<a id="comprehensive-exam-strategy-Qaeda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qaedaacomprehensive-exam-strategy-qa)
+10. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+11. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+12. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+13. [📚 Related Topics](#related-topics)
+14. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+15. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Kinetic Theory Revision Notes?](#what-is-kinetic-theory-revision-notes)
@@ -137,7 +157,7 @@ Helium has a higher ratio of specific heats than Oxygen.
 
 - **Chapter 11: Thermodynamics (Internal Energy Deep-Dive)**
 - **Chapter 10: Thermal [properties](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) (Specific Heat Basics)**
-- **KTG and Gas Laws: Advanced Numerical Vault**
+- **KTG and Gas [Laws](/blog/laws-of-motion-class-11-revision-notes-jee-neet): Advanced Numerical Vault**
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -158,6 +178,7 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 ---
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/kinetic-theory-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Kinetic%20Theory%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 ---
 ## 📚 Related Topics
 Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) with these related guides:
@@ -172,7 +193,7 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 * Not accounting for the fact that the kinetic theory of gases assumes that the gas molecules are point particles with no intermolecular forces, which can lead to in
 
 correct calculations for real gases.
-* Confusing the concept of root mean square (RMS) speed with the average speed of gas molecules, and not understanding the difference between the two.
+* Confusing the concept of root-mean-square (RMS) speed with the average speed of gas molecules, and not understanding the difference between the two.
 * Not recognizing that the kinetic theory of gases is based on the principles of statistical mechanics, and therefore, not considering the probabilistic nature of the theory when solving problems.
 
 ## 🔁 Last 5 Minutes Box

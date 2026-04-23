@@ -9,6 +9,23 @@ practice_link: "/class-11/physics/dpsp-duties-class-11-revision-notes-jee-neet"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-DSP-duties"></a>What is DSP Duties?](#a-idwhat-is-dsp-dutiesawhat-is-dsp-duties)
+3. [<a id="what-is-DSP-n-duties"></a>What is DPSP & Duties?](#a-idwhat-is-dsp-n-dutiesawhat-is-dpsp-duties)
+4. [<a id="what-are-the-historical-developments-of-DSP-n-duties"></a>What are the Historical Developments of DPSP & Duties?](#a-idwhat-are-the-historical-developments-of-dsp-n-dutiesawhat-are-the-historical-developments-of-dpsp-duties)
+5. [<a id="what-are-the-core-concepts-of-DSP-n-duties"></a>What are the Core Concepts of DPSP & Duties?](#a-idwhat-are-the-core-concepts-of-dsp-n-dutiesawhat-are-the-core-concepts-of-dpsp-duties)
+6. [<a id="what-are-the-MCQs-on-DSP-n-duties"></a>What are the MCQs on DPSP & Duties?](#a-idwhat-are-the-mcqs-on-dsp-n-dutiesawhat-are-the-mcqs-on-dpsp-duties)
+7. [<a id="what-are-the-trap-exceptions-n-DSP-n-duties"></a>What are the Trap Exceptions and DPSP & Duties?](#a-idwhat-are-the-trap-exceptions-n-dsp-n-dutiesawhat-are-the-trap-exceptions-and-dpsp-duties)
+8. [<a id="what-are-the-Ayush-tips-for-DSP-n-duties"></a>What are the Ayush's Tips for DPSP & Duties?](#a-idwhat-are-the-ayush-tips-for-dsp-n-dutiesawhat-are-the-ayushs-tips-for-dpsp-duties)
+9. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+10. [📚 Related Topics](#related-topics)
+11. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+12. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is DSP Duties?](#what-is-dpsp-duties)
@@ -106,6 +123,8 @@ Continue your [revision](/blog/physical-world-class-11-revision-notes-jee-neet) 
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/dpsp-duties-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Dpsp%20Duties%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

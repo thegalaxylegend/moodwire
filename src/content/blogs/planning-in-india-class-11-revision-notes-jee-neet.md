@@ -24,7 +24,7 @@ practice_link: "/class-11/physics/planning-n-india-class-11-revision-notes-jee-n
 
 ## <a id="what-is-planning-n-india"></a>What is Planning and India?
 
-Planning and India is a process of formulating and implementing plans for the development of the country. It includes the Five-Year Plans, annual plans, n perspective planning. For class 11 exam prep n 2026, the most important aspect is understanding the role of planning and India's economic development.
+Planning and [India](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) is a process of formulating and implementing plans for the development of the country. It includes the Five-Year Plans, annual plans, n perspective planning. For class 11 exam prep n 2026, the most important aspect is understanding the role of planning and [India](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)'s economic development.
 
 Planning and India is a process of formulating and implementing plans for the development of the country. It includes the Five-Year Plans, annual plans, n perspective planning. For class 11 exam prep n 2026, the most important aspect is understanding the role of planning and India's economic development.
 

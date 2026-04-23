@@ -9,6 +9,23 @@ practice_link: "/class-11/physics/motion-n-a-plane-class-11-revision-notes-jee-n
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-motion-n-a-plane-revision-notes"></a>What is Motion In A Plane Revision Notes?](#a-idwhat-is-motion-n-a-plane-revision-notesawhat-is-motion-in-a-plane-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-the-power-of-vectors"></a>1. The Power of Vectors](#a-id1-the-power-of-vectorsa1-the-power-of-vectors)
+5. [<a id="2-projectile-motion-the-master-derivations"></a>2. Projectile Motion: The Master Derivations](#a-id2-projectile-motion-the-master-derivationsa2-projectile-motion-the-master-derivations)
+6. [<a id="3-uniform-circular-motion-ucm"></a>3. Uniform Circular Motion (UCM)](#a-id3-uniform-circular-motion-ucma3-uniform-circular-motion-ucm)
+7. [<a id="4-relative-velocity-n-two-dimensions"></a>4. Relative Velocity and Two Dimensions](#a-id4-relative-velocity-n-two-dimensionsa4-relative-velocity-and-two-dimensions)
+8. [<a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qandaacomprehensive-exam-strategy-qa)
+9. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+10. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+11. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+12. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Motion In A Plane Revision Notes?](#what-is-motion-n-a-plane-revision-notes)
@@ -37,8 +54,8 @@ practice_link: "/class-11/physics/motion-n-a-plane-class-11-revision-notes-jee-n
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
-> - **Projectile [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet):** Max Height H = (u² sin²θ)/2g; Range R = (u² sin2θ)/g; Time of Flight T = (2u sinθ)/g.
-> - **Max Range:** Occurs at θ = 45°.
+> - **Projectile [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet):** Max Height H = (u² sin²θ)/2g; Range R = (u² sing)/g; Time of Flight T = (2u sinθ)/g.
+> - **Max Range:** occurs at θ = 45°.
 > - **Equation of Trajectory:** y = x tanθ - [gx² / (2u² cos²θ)].
 > - **Uniform Circular [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet):** Centripetal Acceleration a_c = v²/r = ω²r.
 > - **Vectors:** Resolution R = √(A² + B² + 2AB cosθ).
@@ -48,7 +65,7 @@ practice_link: "/class-11/physics/motion-n-a-plane-class-11-revision-notes-jee-n
 
 ## <a id="introduction"></a>Introduction
 
-While 1D motion is the "alphabet" of physics, 2D motion—**Motion and a Plane**—is where reality truly unfolds. From the curved path of a football kicked into the air to the constant orbiting of a satellite, the laws of 2D kinematics govern how objects navigate our three-dimensional world. This chapter introduces the power of **Vectors** to split complex motion into independent horizontal and vertical components. In this "Comprehensive" guide, we provide exhaustive derivations for Projectile Motion, proving why every trajectory is a parabola, n deriving the fundamental laws of Circular Motion—all essential for top-tier performance and JEE, [neet](/blog/gravitation-class-11-revision-notes-jee-neet), n Board exams.
+While 1D motion is the "alphabet" of physics, 2D motion—**Motion and a plane**—is where reality truly unfolds. From the curved path of a football kicked into the air to the constant orbiting of a satellite, the laws of 2D kinematics govern how objects navigate our three-dimensional world. This chapter introduces the power of **Vectors** to split complex motion into independent horizontal and vertical components. In this "Comprehensive" guide, we provide exhaustive derivations for Projectile Motion, proving why every trajectory is a parabola, n deriving the fundamental laws of Circular Motion—all essential for top-tier performance and JEE, [neet](/blog/gravitation-class-11-revision-notes-jee-neet), n Board exams.
 
 ---
 
@@ -59,8 +76,8 @@ In 2D [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet), we dea
 - **Velocity Vector (v):** **v = vx î + vy ĵ**.
 
 ### <a id="vector-multiplication"></a>Vector Multiplication:
-1.  **Dot Product (A · B):** AB cosθ. (Result is a scalar, e.g., Work).
-2.  **Cross Product (A × B):** AB sinθ n̂. (Result is a vector, e.g., Torque).
+1.  **Dot Product (A · B):** AB cosθ. (Result is a scalar, e.g., work).
+2.  **Cross Product (A × B):** AB sinθ n̂. (Result is a vector, e.g., torque).
 
 ---
 
@@ -87,14 +104,14 @@ At the peak, vertical velocity is zero (**v_y = 0**).
 - 0 = (u sinθ)² - 2gH
 - **H = (u² sin²θ) / 2g**.
 
-### <a id="iv-horizontal-range-r"></a>IV. Horizontal Range (R)
+### <a id="iv-horizontal-range-r"></a>IV. Horizontal Range ®
 Distance covered horizontally and time T.
 - R = (u cosθ) × T = (u cosθ) × (2u sinθ / g)
 - R = (u² / g) (2 sinθ cosθ)
-- **R = (u² sin2θ) / g**.
+- **R = (u² sing) / g**.
 
 > [!IMPORTANT]
-> **Maximum Range:** The range is maximum when **sin2θ = 1**, which occurs at **θ = 45°**.
+> **Maximum Range:** The range is maximum when **sing = 1**, which occurs at **θ = 45°**.
 
 ---
 
@@ -123,9 +140,9 @@ When two objects A and B move and a plane:
 **V_AB = V_A - V_B**
 
 ### <a id="i-rainman-problems"></a>I. Rain-Man Problems
-If rain falls vertically (**v_r**) n a man moves horizontally (**v_m**):
-- **Relative velocity of rain wrt man:** **v_rm = v_r - v_m**.
-- The man should hold his umbrella at an angle **tanθ = v_m / v_r** with the vertical.
+If rain falls vertically (**v_r**) n a man moves horizontally (**v’m**):
+- **Relative velocity of rain wrt man:** **v_rm = v_r - v’m**.
+- The man should hold his umbrella at an angle **tanθ = v’m / v_r** with the vertical.
 
 ### <a id="ii-riverboat-problems"></a>II. River-Boat Problems
 - **Crossing and Shortest Time:** Boat must head directly across the river (**θ = 0°**). **t = d / v_b**.
@@ -137,8 +154,8 @@ If rain falls vertically (**v_r**) n a man moves horizontally (**v_m**):
 
 **Q1: Two projectiles are thrown at angles θ n (90-θ). Compare their ranges.**
 **Answer:**
-- R1 = (u² sin2θ) / g.
-- R2 = (u² sin[2(90-θ)]) / g = (u² sin[180-2θ]) / g = (u² sin2θ) / g.
+- R1 = (u² sing) / g.
+- R2 = (u² sin[2(90-θ)]) / g = (u² sin[180-2θ]) / g = (u² sing) / g.
 - **Conclusion:** The Horizontal Range is identical for complementary angles.
 
 **Q2: Why is centripetal acceleration called 'center-seeking'?**
@@ -181,7 +198,9 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/motion-n-a-plane-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/[motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet)-n-a-plane-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Motion%20In%20A%20Plane%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 
@@ -193,3 +212,19 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Incorrect assumption of velocity and speed**: Many students assume velocity and speed are the same, but velocity is a vector quantity with both magnitude (speed) and direction.
+* **Forgetting to consider the sign of displacement and velocity**: When calculating displacement and velocity, it's crucial to consider their signs to avoid incorrect results, especially when dealing with motions in opposite directions.
+* **Mixing up the concepts of distance and displacement**: Students often confuse distance (the total length of the path traveled) with displacement (the shortest distance between initial and final positions), leading to incorrect calculations.
+* **Not considering the frame of reference**: Relative motion problems can be tricky, and not accounting for the frame of reference can lead to incorrect answers, especially when dealing with [moving](/blog/moving-charges-magnetism-class-11-revision-notes-neet) platforms or observers.
+* **Misapplying the concept of projectile motion**: Students often misapply the formulas for projectile motion, especially when dealing with non-horizontal projections, and forget to consider the initial velocity, angle of projection, and acceleration due to gravity.
+
+## 🔁 Last 5 Minutes Box
+
+- **Projectile Motion**: range = (u^2 * sin(2θ)) / g, time of flight = (2 * u * sin(θ)) / g, maximum height = (u^2 * sin^2(θ)) / (2 * g)
+   - **Equations of Motion**: v = u + at, s = ut + (1/2)at^2, v^2 = u^2 + 2as
+   - **Relative Motion**: vрел = vБ - vА, aрел = aБ - aА
+   - **Circular Motion**: v = rω, a = rω^2, F_c = (m * v^2) / r
+   - **Vector Addition**: A + B = sqrt(A^2 + B^2 + 2 ABcos(θ)), A - B = sqrt(A^2 + B^2 - 2 ABcos(θ))

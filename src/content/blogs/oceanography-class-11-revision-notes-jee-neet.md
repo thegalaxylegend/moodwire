@@ -9,6 +9,16 @@ practice_link: "/class-11/physics/oceanography-class-11-revision-notes-jee-neet"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-oceanography"></a>What is Oceanography?](#a-idwhat-is-oceanographyawhat-is-oceanography)
+3. [<a id="quick-revision-n-recap-oceanography"></a>Quick Revision & Recap: Oceanography](#a-idquick-revision-n-recap-oceanographyaquick-revision-recap-oceanography)
+4. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+5. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Oceanography?](#what-is-oceanography)
@@ -188,6 +198,8 @@ Continue your [revision](/blog/classification-elements-periodicity-class-11-revi
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/oceanography-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Oceanography%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -198,3 +210,24 @@ Continue your [revision](/blog/classification-elements-periodicity-class-11-revi
 - 📖 [Art Culture Architecture Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/art-culture-architecture-class-11-revision-notes-jee-neet)
 - 📖 [Biogeography Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biogeography-class-11-revision-notes-neet)
 - 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Mistaking ocean currents for tides**: Many students mix up ocean currents with tides. Ocean currents refer to the movement of water in the ocean, while tides are the periodic rising and falling of the sea level caused by the gravitational pull of the moon and sun.
+* **Incorrectly identifying the deepest part of the ocean**: Some students may think that the deepest part of the ocean is the Mariana Trench, but they may not know that it is located in the Pacific Ocean, to the east of the Mariana Islands.
+* **Confusing upwelling with downwelling**: Students may struggle to distinguish between upwelling, which is the process by which deep, cold water moves to the surface, and downwelling, which is the process by which surface water moves to the depths.
+* **Forgetting the importance of thermohaline circulation**: Thermohaline circulation is a critical component of oceanography, as it helps to distribute heat and nutrients across the globe. However, some students may overlook its significance or fail to understand how it works.
+* **Overlooking the role of salinity in ocean dynamics**: Salinity plays a crucial role in ocean dynamics, affecting everything from ocean currents to marine life. However, some students may neglect to consider its impact or fail to understand how it interacts with other factors, such as temperature and pressure.
+
+## 🔁 Last 5 Minutes Box
+
+- **Ocean Relief Features**: Continental Shelf, Continental Slope, Deep-Sea Trenches, Mid-Ocean Ridges
+   - **Ocean Deposits**: Terrigenous, Biogenous, Hydrogenous, Cosmogenous
+   - **Water Movements**: Waves, Tides, Ocean Currents
+   - **Marine Ecosystems**: Coral Reefs, Open Ocean, Estuaries, Mangroves
+   - **Ocean Resources**: Fish, Pearls, Coral, Seaweed, Minerals
+   - **Ocean Water**: Salinity, Density, Temperature, Pressure
+   - Formulas: 
+     * Salinity = (Chloride ions / Total weight of seawater) * 1.80655
+     * Density = Mass / Volume
+   - **Important Theories**: Continental Drift, Seafloor Spreading, Plate Tectonics

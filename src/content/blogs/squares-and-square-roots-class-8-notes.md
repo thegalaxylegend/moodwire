@@ -26,7 +26,7 @@ manualReview: false
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not checking if the square root of a number is a whole number or a decimal
-- Not using the properties of square roots to simplify expressions
+- Not using the properties of square [roots](/blog/cubes-and-cube-roots-class-8-notes) to simplify expressions
 - Not simplifying the square root of a fraction
 - Not using the correct formula for finding the square of a binomial expression
 - Not using the correct formula for finding the difference of squares

@@ -9,6 +9,20 @@ manualReview: false
 ---
 
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="-formula-bank"></a>⚡ Formula Bank](#a-id-formula-banka-formula-bank)
+3. [<a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks](#a-id-the-5-mistakes-that-cost-marksa-the-5-mistakes-that-cost-marks)
+4. [<a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs](#a-id-3-solved-pyqsa-3-solved-pyqs)
+5. [<a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong](#a-id-the-one-thing-most-students-get-wronga-the-one-thing-most-students-get-wrong)
+6. [<a id="-ayushs-note"></a>👁️ Ayush's Note](#a-id-ayushs-notea-ayushs-note)
+7. [<a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box](#a-id-last-5-minutes-boxa-last-5-minutes-box)
+8. [<a id="-practice-mcqs"></a>📝 Practice MCQs](#a-id-practice-mcqsa-practice-mcqs)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -67,7 +81,7 @@ Examiner's Trap: Remember that not all metals react with [acids](/blog/acids-bas
 
 ### <a id="electrochemistry"></a>**Electrochemistry**
 
-- **Electrode Potential:** E = E^{\circ} - $\frac{RT}{nF}$ \ln Q — potential of an electrode, where $E$ is electrode potential, $E^{\circ}$ is standard electrode potential, $R$ is gas constant, $T$ is temperature, $n$ is number of electrons, $F$ is Faraday's constant, and $Q$ is reaction quotient
+- **Electrode Potential:** E = E^{\circ} - $\frac{RT}{nF}$ \ln Q — potential of an electrode, where $E$ is electrode potential, $E^{\circ}$ is standard electrode potential, $R$ is gas constant, $T$ is temperature, $n$ is a number of electrons, $F$ is Faraday's constant, and $Q$ is reaction quotient
 
 - **Cell Potential:** E_{cell} = E_{cathode} - E_{anode} — potential of a cell, where $E_{cell}$ is cell potential, $E_{cathode}$ is cathode potential, and $E_{anode}$ is anode potential
 
@@ -78,7 +92,7 @@ Examiner's Trap: Be careful with the sign convention when calculating cell poten
 
 - **Corrosion Rate:** $\text{Corrosion Rate}$ = $\frac{m}{t}$ — rate of corrosion, where $m$ is mass lost, and $t$ is time
 
-- **Protection Potential:** E_{prot} = E_{corr} - $\frac{RT}{nF}$ \ln $\frac{i_{corr}$}{i_{prot}} — potential required to protect a metal, where $E_{prot}$ is protection potential, $E_{corr}$ is corrosion potential, $R$ is gas constant, $T$ is temperature, $n$ is number of electrons, $F$ is Faraday's constant, $i_{corr}$ is corrosion current, and $i_{prot}$ is protection current
+- **Protection Potential:** E_{prot} = E_{corr} - $\frac{RT}{nF}$ \ln $\frac{i_{corr}$}{i_{prot}} — potential required to protect a metal, where $E_{prot}$ is protection potential, $E_{corr}$ is corrosion potential, $R$ is gas constant, $T$ is temperature, $n$ is a number of electrons, $F$ is Faraday's constant, $i_{corr}$ is corrosion current, and $i_{prot}$ is protection current
 Examiner's Trap: Remember that corrosion is a complex process involving multiple factors.
 
 ### <a id="decision-table"></a>**Decision Table**
@@ -144,7 +158,7 @@ Examiner's Trap: Remember that corrosion is a complex process involving multiple
 - 🔴 **What students write:** Amphoteric oxides are both basic and highly reactive
  
 
-- ✅ **What examiners expect:** Amphoteric oxides can react with both acids and bases, e.g.
+- ✅ **What examiners expect:** Amphoteric oxides can react with both [acids](/blog/acids-bases-and-salts-class-10-notes) and bases, e.g.
 
 - $Al_2O_3 + 6HCl \rightarrow 2AlCl_3 + 3H_2O$ and $Al_2O_3 + 2NaOH \rightarrow 2NaAlO_2 + H_2O$
  
@@ -189,7 +203,7 @@ Q2 (2019 CBSE): A metal 'M' reacts with $Cl_2$ to form $MCl_2$. If the oxidation
  Step 2: Calculate the oxidation number of 'M' in $MCl_2$ → $O.N. + 2(-1) = 0$ → $O.N. = +2$
  Step 3: Apply the same rule for $MCl_4$ → $O.N. + 4(-1) = 0$ → $O.N. = +4$
  **Final Answer:** +4
- - ⚡ **Speed trick:** Use the rules of calculating oxidation numbers and apply it to both compounds.
+ - ⚡ **Speed trick:** Use the rules of calculating oxidation numbers and apply it to both [compounds](/blog/carbon-and-its-compounds-class-10-notes).
 
 ---
 #### Question 3
@@ -213,7 +227,7 @@ Q3 (2018 CBSE): Which one of the following metals does not react with cold water
 
 ### <a id="the-reality"></a>The Reality
 
-- The reality is that the distinction between metals and non-metals is based on their electronic configuration and chemical properties, not just physical properties.
+- The reality is that the distinction between metals and non-metals is based on their electronic configuration and [chemical](/blog/chemical-reactions-and-equations-class-10-notes) properties, not just physical properties.
 
 - Metals tend to have a few electrons in their outermost energy level, which they can easily lose to form a positive ion.
 
@@ -300,7 +314,7 @@ To maximize your score in Metals and Non-Metals, remember these high-yield point
 
 - ❌ All metals are not sonorous → ✅ Some metals like mercury are not sonorous
 
-- ❌ All non-metals are brittle → ✅ Some non-metals like sulphur are brittle but some like carbon (in form of graphite) are not
+- ❌ All non-metals are brittle → ✅ Some non-metals like sulphur are brittle, but some like carbon (in form of graphite) are not
 
 ### <a id="-if-you-can-only-remember-one-thing"></a>🎯 If you can only remember ONE thing:
 Metals tend to lose electrons to form positive ions, known as cations, whereas non-metals tend to gain electrons to form negative ions, known as anions.
@@ -308,16 +322,16 @@ Metals tend to lose electrons to form positive ions, known as cations, whereas n
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. Which metal has the highest melting point among the following?**
-**A)**   Tungsten ($1900,^circ$
+**A)**    Tungsten ($1900,^circ$
 C)
 **
-B)**   Silver ($962,^circ$
+B)**    Silver ($962,^circ$
 C)
 **
-C)**   Copper ($1085,^circ$
+C)**    Copper ($1085,^circ$
 C)
 **
-D)**   Gold ($1064,^circ$
+D)**    Gold ($1064,^circ$
 C)
 
 **Answer:** A) Tungsten has the highest melting point among the given options. The other options, Silver, Copper, and Gold, have lower melting points.
@@ -325,40 +339,40 @@ C)
 ---
 
 **2. What is the density of $Na$?**
-**A)**   $0.5,g/cm^3$
-**B)**   $0.9,g/cm^3$
-**C)**   $2.5,g/cm^3$
-**D)**   $1.0,g/cm^3$
+**A)**    $0.5,g/cm^3$
+**B)**    $0.9,g/cm^3$
+**C)**    $2.5,g/cm^3$
+**D)**    $1.0,g/cm^3$
 
 **Answer:** D) The density of $Na$ is $0.9,g/cm^3$. The other options are incorrect as they do not represent the correct density of $Na$.
 
 ---
 
 **3. Which of the following metals is most likely to react with water?**
-**A)**   K
-**B)**   Na
-**C)**   Mg
-**D)**   Fe
+**A)**    K
+**B)**    Na
+**C)**    Mg
+**D)**    Fe
 
-**Answer:** A) Potassium ($K$) is most likely to react with water due to its low ionization energy. The other options, Sodium ($Na$), Magnesium ($Mg$), and Iron ($Fe$), are less reactive with water.
+**Answer:** A) Potassium ($K$) is most likely to react with water due to its low ionization energy. The other options, Sodium ($Na$), Magnesium ($Mg$), and iron ($Fe$), are less reactive with water.
 
 ---
 
 **4. What is the molar mass of $Al$?**
-**A)**   25.9,g/mol
-**B)**   26.9,g/mol
-**C)**   27.9,g/mol
-**D)**   28.9,g/mol
+**A)**    25.9,g/mol
+**B)**    26.9,g/mol
+**C)**    27.9,g/mol
+**D)**    28.9,g/mol
 
 **Answer:** B) The molar mass of $Al$ is $26.98,g/mol$, which is close to 26.9,g/mol. The other options are incorrect as they do not represent the correct molar mass of $Al$.
 
 ---
 
 **5. Which of the following metals has a high ionization energy?**
-**A)**   Be
-**B)**   Ca
-**C)**   Mg
-**D)**   K
+**A)**    Be
+**B)**    Ca
+**C)**    Mg
+**D)**    K
 
 **Answer:** A) Beryllium ($Be$) has a high ionization energy due to its small atomic size and high effective nuclear charge. The other options, Calcium ($Ca$), Magnesium ($Mg$), and Potassium ($K$), have lower ionization energies.
 
@@ -369,6 +383,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Metals%20and%20Non-Metals%20Class%2010%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

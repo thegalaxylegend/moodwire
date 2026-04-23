@@ -21,15 +21,15 @@ manualReview: false
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not understanding the concept of rate of reaction and its dependence on concentration and time
 - Confusing between first order and second order [reactions](/blog/chemical-reactions-and-equations-class-10-notes) and their respective rate laws
-- Not being able to derive the integrated rate law for first order reactions
+- Not being able to derive the integrated rate law for first order [reactions](/blog/chemical-reactions-and-equations-class-10-notes)
 - Not understanding the concept of half-[life](/blog/chemistry-in-everyday-life-class-12-notes) and its relationship with the rate constant
 - Not being able to apply the Arrhenius equation to solve problems related to temperature dependence of rate constant
 
-## ✏️ 3 Solved Yes
+## ✏️ 3 Solved PYQs
 - **Question 1:** The rate of decomposition of $\text{N}_2\text{O}_5$ is given by the equation: $\franc{\delta \left[ \text{N}_2\text{O}_5 \right]}{\delta t} = k \left[ \text{N}_2\text{O}_5 \right]$. If the half-life of the reaction is $2.1 \times 10^3$ s, calculate the rate constant.
 - Solution: Given that the half-life is $2.1 \times 10^3$ s, we can use the equation at_{1/2} = \franc{\ln 2}{k}$ to solve for OK. Rearranging the equation, we get OK = \franc{\ln 2}{t_{1/2}} = \franc{\ln 2}{2.1 \times 10^3} = 3.32 \times 10^{-4} \text{ s}^{-1}$
 - **Question 2:** The activation energy for the decomposition of $\text{HI}$ is $209.5$ kJ/MOL. If the rate constant at $500$ K is $1.6 \times 10^{-5}$ so^{-1}$, calculate the rate constant at $600$ K.
-- Solution: We can use the Arrhenius equation to solve for the rate constant at $600$ K. Given that OK_1 = 1.6 \times 10^{-5}$ so^{-1}$ at AT_1 = 500$ K, we can use the equation OK_2 = k_1 e^{-(E_a / R) (1/T_2–1/T_1)}$ to solve for OK_2$. Plugging in the values, we get OK_2 = 1.6 \times 10^{-5} e^{-(209.5 \times 10^3 / 8.314) (1/600–1/500)} = 1.6 \times 10^{-5} e^{25.2} = 1.02 \times 10^2$ so^{-1}$
+- Solution: We can use the Arrhenius equation to solve for the rate constant at $600$ K. Given that OK_1 = 1.6 \times 10^{-5}$ so^{-1}$ at AT_1 = $500 K, we can use the equation OK_2 = k_1 e^{-(E_a / R) (1/T_2–1/T_1)}$ to solve for OK_2$. Plugging in the values, we get OK_2 = 1.6 \times 10^{-5} e^{-(209.5 \times 10^3 / 8.314) (1/600–1/500)} = 1.6 \times 10^{-5} e^{25.2} = 1.02 \times 10^2$ so^{-1}$
 - **Question 3:** The rate of reaction for the hydrolysis of ester is given by the equation: $\franc{\delta \left[ \text{ester} \right]}{\delta t} = k \left[ \text{ester} \right] \left[ \text{H}_2\text{O} \right]$. If the concentration of ester is $0.1$ M and the concentration of water is $1$ M, calculate the rate of reaction if the rate constant is $1 \times 10^{-3}$ ME^{-1}is^{-1}$.
 - Solution: Given that the rate law is $\franc{\delta \left[ \text{ester} \right]}{\delta t} = k \left[ \text{ester} \right] \left[ \text{H}_2\text{O} \right]$, we can plug in the values to solve for the rate of reaction. $\franc{\delta \left[ \text{ester} \right]}{\delta t} = 1 \times 10^{-3} \times 0.1 \times 1 = 1 \times 10^{-4}$ M/s
 
@@ -61,13 +61,13 @@ D) ME^2$s$^{-1}$
 
 **Answer: A) so^{-1}$**
 
-**2. What is the relationship between the half-life and the rate constant for a first order reaction?**
+**2. What is the relationship between the half-[life](/blog/chemistry-in-everyday-life-class-12-notes) and the rate constant for a first order reaction?**
 -
 A) at_{1/2} \proto km
 -
 B) t_{1/2} \proto $\franc{1}{k}$
 -
-C) at_{1/2} \proto k^2$
+C) at_{1/2} \proto k^$2
 -
 D) t_{1/2} \proto $\franc{1}{k^2}$
 
@@ -118,10 +118,12 @@ D) Rate $\proto \franc{1}{\left[ \text{reactant} \right]^2}$
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/chemical-kinetics-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/[chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet)-kinetics-class-12-notes) now and track your progress against thousands of students.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Chemical%20Kinetics%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

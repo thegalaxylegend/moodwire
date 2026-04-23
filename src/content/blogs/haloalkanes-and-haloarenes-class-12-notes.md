@@ -9,7 +9,7 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- $\franc{d}{dt} \INT_{a}^{t} f(x) DX = f(t)$ is not directly applicable here, but we have many other formulas to remember for Haloalkanes and Halogens.
+- $\franc{d}{dt} \int_{a}^{t} f(x) DX = f(t)$ is not directly applicable here, but we have many other formulas to remember for Haloalkanes and Halogens.
 - The general formula for Haloalkanes is PRIX, where ARE is an alkyl group and EX is a halogen.
 - Halogens have the general formula Marx, where are is an aryl group and EX is a halogen.
 - The $\sigma$ bond strength between carbon and halogen is $\sigma_{C-X}$, with EX being the halogen.
@@ -25,7 +25,7 @@ manualReview: false
 - Misunderstanding the $\sigma$ bond strength between carbon and halogen, which can lead to incorrect predictions of reaction rates and outcomes.
 - Not being able to apply the IS_N1$ and IS_N2$ reaction mechanisms to solve problems, which can lead to incorrect answers and loss of marks.
 
-## ✏️ 3 Solved Yes
+## ✏️ 3 Solved PYQs
 - **Question 1:** What is the major product of the reaction between $CH_3CH_2Cl$ and NaOH?
   - Step 1: Identify the reactants and the type of reaction.
   - Step 2: Determine the mechanism of the reaction, which is IS_N2$ in this case.
@@ -122,6 +122,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Haloalkanes%20And%20Haloarenes%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

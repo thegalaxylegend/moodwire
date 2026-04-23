@@ -9,6 +9,27 @@ practice_link: "/class-11/physics/algorithms-analysis-class-11-revision-notes-ga
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-algorithms-analysis"></a>What is Algorithms: Analysis?](#a-idwhat-is-algorithms-analysisawhat-is-algorithms-analysis)
+3. [<a id="what-is-ayushs-note-on-algorithms-analysis"></a>What is Ayush's Note on Algorithms: Analysis?](#a-idwhat-is-ayushs-note-on-algorithms-analysisawhat-is-ayushs-note-on-algorithms-analysis)
+4. [<a id="what-are-the-fundamentals-of-algorithms-analysis-for-class-11"></a>What are the fundamentals of Algorithms: Analysis for Class 11?](#a-idwhat-are-the-fundamentals-of-algorithms-analysis-for-class-11awhat-are-the-fundamentals-of-algorithms-analysis-for-class-11)
+5. [<a id="how-do-you-calculate-time-n-space-complexity-n-algorithms-analysis"></a>How do you calculate time and space complexity and Algorithms: Analysis?](#a-idhow-do-you-calculate-time-n-space-complexity-n-algorithms-analysisahow-do-you-calculate-time-and-space-complexity-and-algorithms-analysis)
+6. [<a id="what-are-the-different-types-of-algorithm-complexities"></a>What are the different types of algorithm complexities?](#a-idwhat-are-the-different-types-of-algorithm-complexitiesawhat-are-the-different-types-of-algorithm-complexities)
+7. [<a id="what-is-the-key-shortcut-or-trick-for-algorithms-analysis"></a>What is the key Shortcut or Trick for Algorithms: Analysis?](#a-idwhat-is-the-key-shortcut-or-trick-for-algorithms-analysisawhat-is-the-key-shortcut-or-trick-for-algorithms-analysis)
+8. [<a id="how-do-you-analyze-the-efficiency-of-an-algorithm"></a>How do you analyze the efficiency of an algorithm?](#a-idhow-do-you-analyze-the-efficiency-of-an-algorithmahow-do-you-analyze-the-efficiency-of-an-algorithm)
+9. [<a id="what-are-the-tradeoffs-between-time-n-space-complexity-n-algorithms-analysis"></a>What are the trade-offs between time and space complexity and Algorithms: Analysis?](#a-idwhat-are-the-tradeoffs-between-time-n-space-complexity-n-algorithms-analysisawhat-are-the-trade-offs-between-time-and-space-complexity-and-algorithms-analysis)
+10. [<a id="what-are-common-trap-questions-for-algorithms-analysis"></a>What are common Trap Questions for Algorithms: Analysis?](#a-idwhat-are-common-trap-questions-for-algorithms-analysisawhat-are-common-trap-questions-for-algorithms-analysis)
+11. [<a id="how-do-you-apply-algorithms-to-realworld-problems-n-class-11"></a>How do you apply algorithms to real-world problems and Class 11?](#a-idhow-do-you-apply-algorithms-to-realworld-problems-n-class-11ahow-do-you-apply-algorithms-to-real-world-problems-and-class-11)
+12. [<a id="what-are-the-best-practices-for-solving-algorithmic-problems-n-algorithms-analysis"></a>What are the best practices for solving algorithmic problems and Algorithms: Analysis?](#a-idwhat-are-the-best-practices-for-solving-algorithmic-problems-n-algorithms-analysisawhat-are-the-best-practices-for-solving-algorithmic-problems-and-algorithms-analysis)
+13. [<a id="mcqs"></a>MCQs](#a-idmcqsamcqs)
+14. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+15. [📚 Related Topics](#related-topics)
+16. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Algorithms: Analysis?](#what-is-algorithms-analysis)
@@ -29,9 +50,9 @@ practice_link: "/class-11/physics/algorithms-analysis-class-11-revision-notes-ga
 
 ## <a id="what-is-algorithms-analysis"></a>What is Algorithms: Analysis?
 
-As we step into the realm of class 11 computer science, one concept stands out for its sheer complexity and significance: Algorithms. The term itself might seem daunting, but trust me, it's a game-changer. I still remember my first encounter with algorithms - it was like trying to solve a puzzle blindfolded. But as I progressed, I realized that algorithms are the backbone of computer science, n analyzing them is an art that can make or break your exam prep.
+As we step into the realm of class 11 [computer](/blog/computer-organization-class-11-notes) science, one concept stands out for its sheer complexity and significance: Algorithms. The term itself might seem daunting, but trust me, it's a game-changer. I still remember my first encounter with algorithms - it was like trying to solve a puzzle blindfolded. But as I progressed, I realized that algorithms are the backbone of [computer](/blog/computer-organization-class-11-notes) science, n analyzing them is an art that can make or break your exam prep.
 
-The weightage of algorithms and the class 11 exam is substantial, with around 20-25% of the questions dedicated to this topic. The exam typically consists of 3-4 questions that test your understanding of algorithm analysis, including time and space complexity, trade-offs, n optimization techniques. To give you a better idea, the exam pattern usually looks like this: 1-2 short answer questions (around 2-3 marks each) that test your understanding of basic concepts, 1-2 long answer questions (around 5-6 marks each) that test your ability to analyze and optimize algorithms, n 1-2 numerical problems (around 4-5 marks each) that test your ability to apply algorithmic concepts to real-world problems.
+The weightage of algorithms and the class 11 exam is substantial, with around 20-25% of the questions dedicated to this topic. The exam typically consists of 3–4 questions that test your understanding of algorithm analysis, including time and space complexity, trade-offs, n optimization techniques. To give you a better idea, the exam pattern usually looks like this: 1-2 short answer questions (around 2–3 marks each) that test your understanding of basic concepts, 1-2 long answer questions (around 5–6 marks each) that test your ability to analyze and optimize algorithms, n 1-2 numerical problems (around 4–5 marks each) that test your ability to apply algorithmic concepts to real-world problems.
 
 Now, let's talk about why algorithm analysis is crucial. When I was preparing for my exams, I used to think that writing code was the most important aspect of computer science. But as I delved deeper, I realized that it's not just about writing code; it's about writing efficient code. And that's where algorithm analysis comes n. It's the process of evaluating an algorithm's performance, identifying its strengths and weaknesses, n optimizing it to solve real-world problems. For instance, consider a simple algorithm like binary search. On the surface, it seems like a straightforward concept, but when you analyze its time complexity ($O(\log n)$), you realize that it's much more efficient than a [linear](/blog/data-structures-linear-class-11-revision-notes-gate-boards) search ($O(n)$) for large datasets.
 
@@ -213,7 +234,7 @@ What are the trade-offs between time and space complexity and Algorithms: Analys
 
 ## <a id="what-are-common-trap-questions-for-algorithms-analysis"></a>What are common Trap Questions for Algorithms: Analysis?
 
-What are common Trap Questions for Algorithms: Analysis? is a crucial aspect of competitive programming that involves identifying and tackling complex algorithmic problems. It includes data structures, time complexity analysis, n problem-solving strategies. For Class 11 exam prep n 2026, the most important aspect is understanding how to approach problems methodically, breaking them down into manageable parts, n applying algorithms efficiently. 
+What are common Trap Questions for Algorithms: Analysis? is a crucial aspect of competitive programming that involves identifying and tackling complex algorithmic problems. It includes [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structures, time complexity analysis, n problem-solving strategies. For Class 11 exam prep n 2026, the most important aspect is understanding how to approach problems methodically, breaking them down into manageable parts, n applying algorithms efficiently. 
    
    Trap questions and algorithms often revolve around common pitfalls such as incorrect assumptions about the input data, misunderstanding of the problem statement, or overlooking edge cases. A key strategy to tackle these questions is to develop a systematic approach to problem-solving, which includes reading the problem statement carefully, identifying the key constraints and requirements, n selecting the most appropriate algorithm or data structure to solve the problem. 
    
@@ -345,6 +366,8 @@ Continue your revision with these related guides:
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/algorithms-analysis-class-11-revision-notes-gate-boards) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Algorithms%20Analysis%20Gate%20Boards%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

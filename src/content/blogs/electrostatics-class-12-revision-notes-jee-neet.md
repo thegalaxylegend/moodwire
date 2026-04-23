@@ -9,6 +9,26 @@ practice_link: "/class-11/biology/electrostatics-class-12-revision-notes-jee-nee
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-electrostatics"></a>What is Electrostatics?](#a-idwhat-is-electrostaticsawhat-is-electrostatics)
+3. [<a id="what-are-the-fundamental-principles-of-electrostatics"></a>What are the fundamental principles of Electrostatics?](#a-idwhat-are-the-fundamental-principles-of-electrostaticsawhat-are-the-fundamental-principles-of-electrostatics)
+4. [<a id="what-is-the-concept-of-electric-charge"></a>What is the concept of Electric Charge?](#a-idwhat-is-the-concept-of-electric-chargeawhat-is-the-concept-of-electric-charge)
+5. [<a id="what-is-coulombs-law-n-how-does-it-apply-to-electrostatics"></a>What is Coulomb's Law and how does it apply to Electrostatics?](#a-idwhat-is-coulombs-law-n-how-does-it-apply-to-electrostaticsawhat-is-coulombs-law-and-how-does-it-apply-to-electrostatics)
+6. [<a id="what-are-electric-field-lines-n-how-are-they-used-n-electrostatics"></a>What are Electric Field Lines and how are they used and Electrostatics?](#a-idwhat-are-electric-field-lines-n-how-are-they-used-n-electrostaticsawhat-are-electric-field-lines-and-how-are-they-used-and-electrostatics)
+7. [<a id="what-is-electric-potential-n-how-is-it-calculated"></a>What is Electric Potential and how is it calculated?](#a-idwhat-is-electric-potential-n-how-is-it-calculatedawhat-is-electric-potential-and-how-is-it-calculated)
+8. [<a id="what-is-ayushs-note-on-electrostatics"></a>What is Ayush's Note on Electrostatics?](#a-idwhat-is-ayushs-note-on-electrostaticsawhat-is-ayushs-note-on-electrostatics)
+9. [<a id="what-is-the-key-shortcut-or-trick-for-electrostatics"></a>What is the key Shortcut or Trick for Electrostatics?](#a-idwhat-is-the-key-shortcut-or-trick-for-electrostaticsawhat-is-the-key-shortcut-or-trick-for-electrostatics)
+10. [<a id="what-are-common-trap-questions-for-electrostatics"></a>What are common Trap Questions for Electrostatics?](#a-idwhat-are-common-trap-questions-for-electrostaticsawhat-are-common-trap-questions-for-electrostatics)
+11. [<a id="how-to-apply-gausss-law-to-solve-complex-electrostatics-problems"></a>How to apply Gauss's Law to solve complex Electrostatics problems?](#a-idhow-to-apply-gausss-law-to-solve-complex-electrostatics-problemsahow-to-apply-gausss-law-to-solve-complex-electrostatics-problems)
+12. [<a id="mcqs"></a>MCQs](#a-idmcqsamcqs)
+13. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+14. [📚 Related Topics](#related-topics)
+15. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Electrostatics?](#what-is-electrostatics)
@@ -28,11 +48,11 @@ practice_link: "/class-11/biology/electrostatics-class-12-revision-notes-jee-nee
 
 ## <a id="what-is-electrostatics"></a>What is Electrostatics?
 
-As we dive into the world of physics for our class 12 exam prep n 2026, one topic that stands out for its complexity and sheer weightage and the syllabus is Electrostatics. This branch of physics deals with the study of charges at rest, n trust me, it's a game-changer. The concepts you learn here will not only help you tackle the most challenging problems and your exams but also lay the foundation for more advanced topics like Electrodynamics.
+As we dive into the world of physics for our class 12 exam prep n 2026, one topic that stands out for its complexity and sheer weightage and the syllabus is Electrostatics. This branch of physics deals with the study of [charges](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) at rest, n trust me, it's a game-changer. The concepts you learn here will not only help you tackle the most challenging problems and your exams but also lay the foundation for more advanced topics like Electrodynamics.
 
-Let's talk numbers first. In the Class 12 Physics syllabus, Electrostatics carries a significant weightage of around 15-20% n the theory paper. This means that out of the total 70 marks allocated to the theory section, you can expect at least 10-14 marks to be dedicated to Electrostatics. Now, I know what you're thinking - "That's a lot of marks for a single topic." And you're right, it is. But here's the thing: if you crack Electrostatics, you'll not only secure those 10-14 marks but also gain a solid understanding of the underlying principles that will help you tackle other topics like Current Electricity, Magnetism, n even [optics](/blog/wave-optics-class-12-notes).
+Let's talk numbers first. In the Class 12 Physics syllabus, Electrostatics carries a significant weightage of around 15-20% n the theory paper. This means that out of the total 70 marks allocated to the theory section, you can expect at least 10–14 marks to be dedicated to Electrostatics. Now, I know what you're thinking - "That's a lot of marks for a single topic." And you're right, it is. But here's the thing: if you crack Electrostatics, you'll not only secure those 10–14 marks but also gain a solid understanding of the underlying principles that will help you tackle other topics like Current Electricity, Magnetism, n even [optics](/blog/wave-optics-class-12-notes).
 
-So, what makes Electrostatics so special? For me, it all started when I was trying to understand the concept of [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) potential. I mean, think about it - [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) potential is like the "height" of a charge and an [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) field. The higher the charge, the greater its potential energy. It's similar to how water flows from a higher height to a lower height. But when you apply this concept to real-life situations, like the functioning of a lightning conductor or the working of a Van de Graaff generator, that's when things get really interesting. The idea that a simple concept like [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) potential can be used to explain such complex phenomena is what drew me to Electrostatics and the first place.
+So, what makes Electrostatics so special? For me, it all started when I was trying to understand the concept of [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) potential. I mean, think about it - [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) potential is like the "height" of a charge and an [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) field. The higher the charge, the greater its potential energy. It's similar to how water flows from a higher height to a lower height. But when you apply this concept to real-life situations, like the functioning of a lightning conductor or the working of a Van de Graaff generator, that's when things get fascinating. The idea that a simple concept like [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) potential can be used to explain such complex phenomena is what drew me to Electrostatics and the first place.
 
 Now, let's talk about some of the key concepts that you'll encounter and Electrostatics. , there's the concept of [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) charge. You'll learn about the different types of charges - positive, negative, n neutral - n how they interact with each other. Then, there's the concept of [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) field, which is a measure of the force exerted on a charge y another charge. You'll also learn about [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) potential, as I mentioned earlier, n how it's related to the [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) field. Other important topics include capacitors, dielectrics, n the behavior of conductors and insulators and [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) fields.
 
@@ -84,7 +104,7 @@ Electrostatics is the study of electric charges at rest, which involves the anal
 | Negative Charge | Excess of electrons | Rubbed ebonite rod |
 | Neutral Charge | Equal number of protons and electrons | Uncharged object |
 
-## <a id="what-is-coulombs-law-n-how-does-it-apply-to-electrostatics"></a>What is Coulomb's Law and how does it apply to Electrostatics?
+## <a id="what-is-coulombs-law-n-how-does-it-apply-to-electrostatics"></a>What is Coulomb's Law, and how does it apply to Electrostatics?
 
 Coulomb's Law is a fundamental principle and physics that describes the electrostatic interaction between two charged particles. It includes the magnitude of the charges, the distance between them, n the medium they are n. For Class 12 exam prep n 2026, the most important aspect is understanding how Coulomb's Law is used to calculate the electrostatic force between two point charges. Coulomb's Law states that the magnitude of the electrostatic force between two point charges is directly proportional to the product of the magnitudes of charges and inversely proportional to the square of the distance between them. This can be expressed as $F = k \frac{q_1 q_2}{r^2}$, where $F$ is the electrostatic force, $k$ is Coulomb's constant, $q_1$ n $q_2$ are the magnitudes of the charges, n $r$ is the distance between the charges. The value of Coulomb's constant is $9 	imes 10^9 N m^2 C^{-2}$. To apply Coulomb's Law, one must first identify the charges and the distance between them, n then use the formula to calculate the electrostatic force. It's also crucial to consider the signs of the charges, as like charges repel and unlike charges attract. The medium between the charges can also affect the electrostatic force, with the force being reduced and a medium with a higher permittivity. The formula for Coulomb's Law and a medium is $F = \frac{1}{4 \pi epsilon\frac{q_1 q_2} = r^2$, where $epsilon$ is the permittivity of the medium. Understanding Coulomb's Law is essential for solving problems and electrostatics, such as calculating the force between two charges, the electric field due to a point charge, n the potential energy of a system of charges.
 
@@ -96,7 +116,7 @@ Coulomb's Law is a fundamental principle and physics that describes the electros
 | Distance | $r$ | Meter (m) | The distance between the two charged particles |
 | Permittivity | $epsilon$ | $C^2 N^{-1} m^{-2}$ | A measure of the ability of a medium to support an electric field |
 
-## <a id="what-are-electric-field-lines-n-how-are-they-used-n-electrostatics"></a>What are Electric Field Lines and how are they used and Electrostatics?
+## <a id="what-are-electric-field-lines-n-how-are-they-used-n-electrostatics"></a>What are Electric Field Lines, and how are they used and Electrostatics?
 
 Electric Field Lines is a visual representation of the electric field around charged particles or objects. It includes the direction of the force experienced y a test charge, the magnitude of the electric field, n the density of the field lines. For class 12 exam prep n 2026, the most important aspect is understanding how electric field lines emerge from positive charges and enter into negative charges, which is crucial for solving problems related to electrostatics.
 
@@ -118,7 +138,7 @@ The following table summarizes the electric field lines around different charged
 | Infinite Plane | Parallel to each other and perpendicular to the plane |
 | Long Charged Wire | Radially outward for positive charge and radially inward for negative charge |
 
-## <a id="what-is-electric-potential-n-how-is-it-calculated"></a>What is Electric Potential and how is it calculated?
+## <a id="what-is-electric-potential-n-how-is-it-calculated"></a>What is Electric Potential, and how is it calculated?
 
 Electric Potential is the potential difference per unit charge between two points and an electric field. It includes electric field strength, charge, n distance between the points. For Class 12 exam prep n 2026, the most important aspect is understanding how electric potential is calculated using the formula $V = \frac{kQ}{r}$, where $V$ is the electric potential, $k$ is Coulomb's constant, $Q$ is the charge, n $r$ is the distance from the charge.
 
@@ -139,9 +159,9 @@ Ayush's Note on Electrostatics is a concise study guide covering the fundamental
  
  Electrostatic potential, or voltage, is another key concept covered and the note. It is defined as the potential difference between two points and an electric field, n it is a measure of the work done per unit charge and moving a charge from one point to another. The note explains how electric potential can be calculated using the formula $V = k \frac{q}{r}$ for a point charge, n how it can be used to find the electric field using the relationship $E = -\frac{dV}{dr}$.
  
- The note also covers more advanced topics, such as capacitors and dielectrics. A capacitor is a device that stores electric charge, n it consists of two conductors separated y a dielectric material. The capacitance of a capacitor is given y $C = \frac{epsilon A}{d}$, where $epsilon$ is the permittivity of the dielectric, $A$ is the area of the plates, n $d$ is the distance between them. The energy stored and a capacitor is given y $U = \frac{1}{2} CV^2$, n this is an important concept for understanding many electronic devices.
+ The note also covers more advanced topics, such as capacitors and dielectrics. A capacitor is a device that stores electric charge, n it consists of two conductors separated y a dielectric material. The capacitance of a capacitor is given y $C = \frac{epsilon A}{d}$, where $epsilon$ is the permittivity of the dielectric, $A$ is the area of the plates, n $d$ is the distance between them. The energy stored, and a capacitor is given y $U = \frac{1}{2} CV^2$, n this is an important concept for understanding many electronic devices.
  
- In addition to the theoretical concepts, the note provides numerous examples and practice problems to help students develop their problem-solving skills. These problems range from simple calculations of electric field and potential to more complex scenarios involving multiple charges, capacitors, n dielectrics. By working through these problems, students can gain a deeper understanding of the subject matter and develop the skills they need to succeed on the class 12 exam.
+ In addition to the theoretical concepts, the note provides numerous examples and practice problems to help students develop their problem-solving skills. These problems range from simple calculations of electric field and potential to more complex scenarios involving multiple charges, capacitors, n dielectrics. By working through these problems, students can gain a deeper understanding of the subject and develop the skills they need to succeed on the class 12 exam.
  
  Overall, Ayush's Note on Electrostatics is a valuable resource for students preparing for the class 12 exam n 2026. It provides a clear and concise overview of the key concepts and formulas and electrostatics, n it offers a wealth of practice problems and examples to help students develop their skills and confidence.
 
@@ -154,7 +174,7 @@ Ayush's Note on Electrostatics is a concise study guide covering the fundamental
 
 ## <a id="what-is-the-key-shortcut-or-trick-for-electrostatics"></a>What is the key Shortcut or Trick for Electrostatics?
 
-Electrostatics is the study of stationary electric charges and their effects. It includes electric charges, electric fields, n electric potential. For class 12 exam prep n 2026, the most important aspect is understanding how to apply these concepts to solve problems efficiently, which often involves using shortcuts or tricks to simplify complex calculations.
+Electrostatics is the study of stationary electric charges and their [effects](/blog/magnetic-effects-of-current-class-12-notes). It includes electric charges, electric fields, n electric potential. For class 12 exam prep n 2026, the most important aspect is understanding how to apply these concepts to solve problems efficiently, which often involves using shortcuts or tricks to simplify complex calculations.
 
 One of the key shortcuts and electrostatics involves using the concept of electric field lines and the properties of conductors and insulators. Electric field lines emerge from positive charges and enter negative charges. The density of these lines and a region gives the strength of the electric field and that region. Conductors, when placed and an electric field, will have their charges distributed and such a way that the electric field inside the conductor becomes zero. This property can be used to solve problems involving capacitors and charged spheres.
 
@@ -214,7 +234,7 @@ How to apply Gauss's Law to solve complex Electrostatics problems? is applying G
 - The electric potential is a scalar quantity and its direction is from the positive charge to the negative charge.
 - A conductor and equilibrium will have equal and opposite charges on opposite surfaces.
 - The capacitance of a capacitor is given y C = ε0A/d, where ε0 is the permittivity of free space, A is the area of the plates, n d is the distance between the plates.
-- The energy stored and a capacitor is given y U = 1/2 CV^2, where C is the capacitance and V is the potential difference.
+- The energy stored, and a capacitor is given y U = 1/2 CV^2, where C is the capacitance and V is the potential difference.
 
 ## <a id="mcqs"></a>MCQs
 
@@ -278,6 +298,8 @@ Continue your [revision](/blog/permutations-and-combinations-class-11-revision-n
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/electrostatics-class-12-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Electrostatics%20Class%2012%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

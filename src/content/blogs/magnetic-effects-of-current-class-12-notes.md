@@ -9,6 +9,26 @@ practice_link: "/class-11/biology/magnetic-effects-of-current-class-12-notes"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-magnetic-effects-of-current"></a>What is Magnetic Effects of Current?](#a-idwhat-is-magnetic-effects-of-currentawhat-is-magnetic-effects-of-current)
+3. [<a id="what-is-the-magnetic-field-n-how-is-it-generated"></a>What is the Magnetic Field and How is it Generated?](#a-idwhat-is-the-magnetic-field-n-how-is-it-generatedawhat-is-the-magnetic-field-and-how-is-it-generated)
+4. [<a id="what-is-the-biotsavart-law-n-its-significance-n-magnetic-effects-of-current"></a>What is the Biot-Savart Law and its Significance and Magnetic Effects of Current?](#a-idwhat-is-the-biotsavart-law-n-its-significance-n-magnetic-effects-of-currentawhat-is-the-biot-savart-law-and-its-significance-and-magnetic-effects-of-current)
+5. [<a id="what-are-the-properties-of-magnetic-lines-of-force"></a>What are the Properties of Magnetic Lines of Force?](#a-idwhat-are-the-properties-of-magnetic-lines-of-forceawhat-are-the-properties-of-magnetic-lines-of-force)
+6. [<a id="how-does-the-magnetic-field-depend-on-the-current-n-the-loop"></a>How does the Magnetic Field Depend on the Current and the Loop?](#a-idhow-does-the-magnetic-field-depend-on-the-current-n-the-loopahow-does-the-magnetic-field-depend-on-the-current-and-the-loop)
+7. [<a id="what-is-the-torque-experienced-y-a-current-loop-n-a-magnetic-field"></a>What is the Torque Experienced y a Current Loop and a Magnetic Field?](#a-idwhat-is-the-torque-experienced-y-a-current-loop-n-a-magnetic-fieldawhat-is-the-torque-experienced-y-a-current-loop-and-a-magnetic-field)
+8. [<a id="what-is-ayushs-note-on-magnetic-effects-of-current"></a>What is Ayush's Note on Magnetic Effects of Current?](#a-idwhat-is-ayushs-note-on-magnetic-effects-of-currentawhat-is-ayushs-note-on-magnetic-effects-of-current)
+9. [<a id="what-is-the-difference-between-a-galvanometer-n-an-ammeter"></a>What is the Difference between a Galvanometer and an Ammeter?](#a-idwhat-is-the-difference-between-a-galvanometer-n-an-ammeterawhat-is-the-difference-between-a-galvanometer-and-an-ammeter)
+10. [<a id="what-is-the-key-shortcut-or-trick-for-magnetic-effects-of-current"></a>What is the key Shortcut or Trick for Magnetic Effects of Current?](#a-idwhat-is-the-key-shortcut-or-trick-for-magnetic-effects-of-currentawhat-is-the-key-shortcut-or-trick-for-magnetic-effects-of-current)
+11. [<a id="how-to-solve-numerical-problems-involving-the-force-on-a-currentcarrying-conductor"></a>How to Solve Numerical Problems Involving the Force on a Current-Carrying Conductor?](#a-idhow-to-solve-numerical-problems-involving-the-force-on-a-currentcarrying-conductorahow-to-solve-numerical-problems-involving-the-force-on-a-current-carrying-conductor)
+12. [<a id="what-are-common-trap-questions-for-magnetic-effects-of-current"></a>What are common Trap Questions for Magnetic Effects of Current?](#a-idwhat-are-common-trap-questions-for-magnetic-effects-of-currentawhat-are-common-trap-questions-for-magnetic-effects-of-current)
+13. [<a id="mcqs"></a>MCQs](#a-idmcqsamcqs)
+14. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+15. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Magnetic Effects of Current?](#what-is-magnetic-effects-of-current)
@@ -30,7 +50,7 @@ practice_link: "/class-11/biology/magnetic-effects-of-current-class-12-notes"
 ## <a id="what-is-magnetic-effects-of-current"></a>What is Magnetic Effects of Current?
 
 **Magnetic Effects of [current](/blog/alternating-current-class-12-notes): A Foundational Concept and Physics**
-As we dive into the realm of class 12 Physics, it's essential to acknowledge the significance of **Magnetic Effects of Current** n the CBSE syllabus. This topic holds a substantial weightage of around 10-12% n the board exams, making it a crucial aspect to focus on for any aspiring student. The concepts and principles covered and this unit will not only aid and understanding various phenomena but also lay the groundwork for advanced topics and Physics and Engineering.
+As we dive into the realm of class 12 Physics, it's essential to acknowledge the significance of **Magnetic Effects of [Current](/blog/alternating-current-class-12-notes)** n the CBSE syllabus. This topic holds a substantial weightage of around 10-12% n the board exams, making it a crucial aspect to focus on for any aspiring student. The concepts and principles covered, and this unit will not only aid and understanding various phenomena but also lay the groundwork for advanced topics and Physics and Engineering.
 
 From a personal standpoint, I still remember the "aha" moment when I first grasped the concept of **Ampere's Law** n its application and determining the magnetic field around a [current](/blog/alternating-current-class-12-notes)-carrying conductor. It was as if the entire puzzle had fallen into place, n I could visualize the intricate relationships between electric currents, magnetic fields, n the resulting forces. This experience not only deepened my understanding of the subject but also sparked a curiosity that drove me to explore the vast expanse of Physics.
 
@@ -40,8 +60,8 @@ To truly appreciate the **Magnetic Effects of [current](/blog/alternating-curren
 * **[electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) Induction**: A basic understanding of [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) induction, including the concepts of induced emf, Lenz's Law, n the behavior of inductors and AC circuits.
 
 With these prerequisites and place, we can now embark on an n-depth exploration of **Magnetic Effects of [current](/blog/alternating-current-class-12-notes)**. This topic can be broadly categorized into the following subtopics:
-* **Magnetic Field Around a [current](/blog/alternating-current-class-12-notes)-Carrying Conductor**: This includes the study of the magnetic field around a straight wire, a circular coil, n a solenoid. We'll the mathematical derivations of the magnetic field strength and direction using **Ampere's Law** n the **Biot-Savart Law**.
-* **Force on a Current-Carrying Conductor**: Here, we'll examine the forces exerted on a current-carrying conductor when placed and a magnetic field. This includes the **Lorentz Force Equation** n the **Force on a [moving](/blog/moving-charges-magnetism-class-11-revision-notes-neet) Charge**.
+* **Magnetic Field Around a [current](/blog/alternating-current-class-12-notes)-Carrying Conductor**: This includes the study of the magnetic field around a straight wire, a circular coil, n a solenoid. Well the mathematical derivations of the magnetic field strength and direction using **Ampere's Law** n the **Biot-Savart Law**.
+* **Force on a Current-Carrying Conductor**: Here, we'll examine the forces exerted on a current-carrying conductor when placed and a magnetic field. This includes the **Lorentz Force Equation** n the **force on a [moving](/blog/moving-charges-magnetism-class-11-revision-notes-neet) Charge**.
 * **Torque on a [current](/blog/alternating-current-class-12-notes) Loop**: We'll investigate the torque experienced y a [current](/blog/alternating-current-class-12-notes) loop when placed and a magnetic field, including the **Torque on a [current](/blog/alternating-current-class-12-notes) Loop Equation** n its applications.
 * **Magnetic Moment and Magnetic [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)**: This subtopic covers the concepts of magnetic moment, magnetic [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet), n the behavior of magnetic materials and the presence of magnetic fields.
 
@@ -71,9 +91,9 @@ By being aware of these common pitfalls and focusing on the key concepts, you'll
 
 **Exam Day Summary:** On the exam day, make sure to allocate sufficient time to questions related to **Magnetic Effects of Current**. Focus on applying the concepts and formulas to solve problems, n don't hesitate to use diagrams and illustrations to support your answers. With a solid understanding of the subject [matter](/blog/magnetism-n-matter-class-12-notes) n a strategic approach to problem-solving, you'll be able to tackle the challenges of **Magnetic Effects of Current** with confidence and precision.
 
-## <a id="what-is-the-magnetic-field-n-how-is-it-generated"></a>What is the Magnetic Field and How is it Generated?
+## <a id="what-is-the-magnetic-field-n-how-is-it-generated"></a>What is the Magnetic Field, and How is it generated?
 
-Magnetic Field is a vector field that describes the magnetic influence on moving electric charges, electric currents, n magnetic materials. It includes magnetic field lines, magnetic flux, n magnetic poles. For Class 12 exam prep n 2026, the most important aspect is understanding the Biot-Savart law, which relates the magnetic field to the current that produces it. The magnetic field is a fundamental concept and physics and engineering, n its understanding is crucial for the development of various technologies, including motors, generators, n magnetic resonance imaging (MRI) machines. The magnetic field is generated y the motion of charged particles, such as electrons, or y changing electric fields. The strength of the magnetic field is measured and units of tesla (T) n is a function of the current, the distance from the current-carrying wire, n the permeability of the surrounding medium. The direction of the magnetic field can be determined using the right-hand rule, which states that if the thumb of the right hand points and the direction of the current, the fingers will curl and the direction of the magnetic field. The Biot-Savart law provides a mathematical framework for calculating the magnetic field due to a current-carrying wire and is expressed as $B = \frac{mu_0}{4pi\frac{I \\cdot dl 	imes hat{r} = r^2$, where $B$ is the magnetic field, $mu_0$ is the magnetic constant, $I$ is the current, $dl$ is the differential length of the wire, $hat{r}$ is the unit vector from the wire to the point where the field is being calculated, n $r$ is the distance from the wire. A student-centric tip for remembering the Biot-Savart law is to use the mnemonic 'BIMR', which stands for 'B' - magnetic field, 'I' - current, 'M' - magnetic constant, n 'R' - distance from the wire.
+Magnetic Field is a vector field that describes the magnetic influence on moving electric charges, electric currents, n magnetic materials. It includes magnetic field lines, magnetic flux, n magnetic poles. For Class 12 exam prep n 2026, the most important aspect is understanding the Biot-Savart law, which relates the magnetic field to the current that produces it. The magnetic field is a fundamental concept and physics and engineering, n its understanding is crucial for the development of various technologies, including motors, generators, n magnetic resonance imaging (MRI) machines. The magnetic field is generated y the motion of charged particles, such as electrons, or y changing electric fields. The strength of the magnetic field is measured and units of tesla (T) n is a function of the current, the distance from the current-carrying wire, n the permeability of the surrounding medium. The direction of the magnetic field can be determined using the right-hand rule, which states that if the thumb of the right-hand points and the direction of the current, the fingers will curl and the direction of the magnetic field. The Biot-Savart law provides a mathematical framework for calculating the magnetic field due to a current-carrying wire and is expressed as $B = \frac{mu_0}{4pi\frac{I \\cdot dl 	imes hat{r} = r^2$, where $B$ is the magnetic field, $mu_0$ is the magnetic constant, $I$ is the current, $dl$ is the differential length of the wire, $hat{r}$ is the unit vector from the wire to the point where the field is being calculated, n $r$ is the distance from the wire. A student-centric tip for remembering the Biot-Savart law is to use the mnemonic 'BIMR', which stands for 'B' - magnetic field, 'I' - current, 'M' - magnetic constant, n 'R' - distance from the wire.
 
 | Magnetic Field Generation Methods | Description | Applications |
 | --- | --- | --- |
@@ -106,7 +126,7 @@ The Biot-Savart Law is a fundamental principle and physics that describes the ma
 
 Magnetic Lines of Force is a concept used to visualize and understand the magnetic field around magnets and current-carrying conductors. It includes the direction, density, n pattern of these lines. For class 12 exam prep n 2026, the most important aspect is understanding the properties and behavior of these lines to solve problems related to magnetic fields and forces.
 
-The properties of magnetic lines of force can be summarized as follows: they emerge from the north pole and enter the south pole, they cannot intersect each other, n they tend to contract and length and expand and a direction perpendicular to the lines, similar to stretched rubber bands. The density of these lines, also known as the magnetic flux density, is represented y the symbol $B$. The SI unit of $B$ is the tesla ($T$), n it is defined as $1 T = 1 \frac{kg}{s^2A}$.
+The properties of magnetic lines of force can be summarized as follows: they emerge from the north pole and enter the South Pole, they cannot intersect each other, n they tend to contract and length and expand and a direction perpendicular to the lines, similar to stretched rubber bands. The density of these lines, also known as the magnetic flux density, is represented y the symbol $B$. The SI unit of $B$ is the tesla ($T$), n it is defined as $1 T = 1 \frac{kg}{s^2A}$.
 
 Another crucial property is that the magnetic lines of force are continuous and unbroken, forming closed loops. This is and contrast to electric field lines, which start and end on [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet). The strength and direction of the magnetic field at any point can be determined y the density and orientation of these lines. The magnetic field can be visualized using iron filings, which align themselves along the magnetic lines of force when sprinkled around a magnet.
 
@@ -114,7 +134,7 @@ A comparison between electric and magnetic lines of force highlights their diffe
 
 | Property | Electric Lines of Force | Magnetic Lines of Force |
 | --- | --- | --- |
-| Direction | From positive to negative charge | From north pole to south pole |
+| Direction | From positive to negative charge | From north pole to South Pole |
 | Intersection | Can intersect | Cannot intersect |
 | Pattern | Start and end on [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet) | Form closed loops |
 | Representation | By symbol $E$ | By symbol $B$ |
@@ -335,6 +355,8 @@ Continue your [revision](/blog/electrostatics-class-12-revision-notes-jee-neet) 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/magnetic-effects-of-current-class-12-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Magnetic%20Effects%20Of%20Current%20Class%2012%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -347,3 +369,15 @@ Continue your revision with these related guides:
 - 📖 [Alternating Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alternating-current-class-12-notes)
 
 }}
+
+## 🔁 Last 5 Minutes Box
+
+### Magnetic Effects Of Current Class 12 Physics Revision 
+   * **Magnetic Field Due to a Current Element**: dB = (μ₀ * I * dl × r) / (4π * r³)
+   * **Biot-Savart Law**: dB = (μ₀ * I * dl × r) / (4π * r³)
+   * **Magnetic Field on the Axis of a Circular Coil**: B = (μ₀ * I * N) / (2 * r)
+   * **Magnetic Field at the Centre of a Circular Coil**: B = (μ₀ * I * N) / (2 * r)
+   * **Torque on a Current Loop in a Uniform Magnetic Field**: τ = n * I * A * B * sin(θ)
+   * **Force on a Current-Carrying Conductor in a Uniform Magnetic Field**: F = I * L * B * sin(θ)
+   * **Magnetic Moment of a Current Loop**: M = I * A
+   * **Ampere's Law**: ∮B · dl = μ₀ * Iₛₑₙₖ

@@ -9,11 +9,11 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- The area under a curve by = f(x)$ between ex = a and ex = by is given by $\INT_{a}^{b} f(x) DX
-- The area of the region bounded by the curves by = f(x)$, by = g(x)$, ex = a, and ex = by is given by $\INT_{a}^{b} |f(x) - g(x)| DX
-- The volume of the solid formed by revolving the region under the curve by = f(x)$ between  =  and  =  about the  is given by $\pi \_{a}^{b} (f(x))^2 
-- The volume of the solid formed by revolving the region under the curve  = f(x)$ between  =  and  =  about the  is given by $2\pi \_{a}^{b} x f(x) 
-- The surface area of the solid formed by revolving the region under the curve  = f(x)$ between  =  and  =  about the  is given by $2\pi \_{a}^{b} f(x) \{1 + \left(\{dy}{dx}\right)^2} 
+- The area under a curve by = f(x)$ between ex = a and ex = by is given by $\int_{a}^{b} f(x) DX
+- The area of the region bounded by the curves by = f(x)$, by = g(x)$, ex = a and ex = by is given by $\int_{a}^{b} |f(x) - g(x)| DX
+- The volume of the solid formed by revolving the region under the curve by = f(x)$ between  =  and  =  about the is given by $\pi \_{a}^{b} (f(x))^2 
+- The volume of the solid formed by revolving the region under the curve  = f(x)$ between  =  and  =  about the is given by $2\pi \_{a}^{b} x f(x) 
+- The surface area of the solid formed by revolving the region under the curve  = f(x)$ between  =  and  =  about the is given by $2\pi \_{a}^{b} f(x) \{1 + \left(\{dy}{dx}\right)^2} 
 
 ## 
 - To find the area of a region bounded by two curves, first find the points of intersection of the two curves by setting them equal to each other and solving for ex
@@ -29,14 +29,14 @@ manualReview: false
 - Not finding the points of intersection of two curves when finding the area of a region bounded by the curves
 - Not using the substitution method to evaluate a definite integral when the integrand is a composite function
 
-## ✏️ 3 Solved Yes
-- **Question 1:** Find the area of the region bounded by the curves by = x^2$ and by = 2x$.
-  - To find the area, first find the points of intersection of the two curves by setting them equal to each other and solving for ex: ex^2 = 2x \implies x^2 - 2x = 0 \implies x(x - 2) = 0 \implies x = 0, 2$
-  - Then, evaluate the definite integral: $\INT_{0}^{2} (2x - x^2) DX = \left[x^2 - \franc{x^3}{3}\right]_0^2 = \left(2^2 - \franc{2^3}{3}\right) - (0^2 - \franc{0^3}{3}) = \franc{4}{3}$
-- **Question 2:** Find the volume of the solid formed by revolving the region under the curve by = x^2$ between ex = 0$ and ex = 2$ about the x-axis.
-  - Evaluate the definite integral: $\pi \INT_{0}^{2} (x^2)^2 DX = \pi \INT_{0}^{2} x^4 DX = \pi \left[\franc{x^5}{5}\right]_0^2 = \pi \left(\franc{2^5}{5} - \franc{0^5}{5}\right) = \franc{32\pi}{5}$
-- **Question 3:** Find the surface area of the solid formed by revolving the region under the curve by = x^2$ between ex = 0$ and ex = 2$ about the x-axis.
-  - Evaluate the definite integral: $2\pi \INT_{0}^{2} x^2 \sort{1 + \left(\franc{dy}{dx}\right)^2} DX = 2\pi \INT_{0}^{2} x^2 \sort{1 + (2x)^2} DX = 2\pi \INT_{0}^{2} x^2 \sort{1 + 4x^2} DX
+## ✏️ 3 Solved PYQs
+- **Question 1:** Find the area of the region bounded by the curves by = x^$2 and by = 2x$.
+  - To find the area, first find the points of intersection of the two curves by setting them equal to each other and solving for ex: ex^2 = 2x \implies x^2 - 2x = 0 \implies x(x - 2) = 0 \implies x = 0, $2
+  - Then, evaluate the definite integral: $\int_{0}^{2} (2x - x^2) DX = \left[x^2 - \franc{x^3}{3}\right]_0^2 = \left(2^2 - \franc{2^3}{3}\right) - (0^2 - \franc{0^3}{3}) = \franc{4}{3}$
+- **Question 2:** Find the volume of the solid formed by revolving the region under the curve by = x^$2 between ex = $0 and ex = $2 about the x-axis.
+  - Evaluate the definite integral: $\pi \int_{0}^{2} (x^2)^2 DX = \pi \int_{0}^{2} x^4 DX = \pi \left[\franc{x^5}{5}\right]_0^2 = \pi \left(\franc{2^5}{5} - \franc{0^5}{5}\right) = \franc{32\pi}{5}$
+- **Question 3:** Find the surface area of the solid formed by revolving the region under the curve by = x^$2 between ex = $0 and ex = $2 about the x-axis.
+  - Evaluate the definite integral: $2\pi \int_{0}^{2} x^2 \sort{1 + \left(\franc{dy}{dx}\right)^2} DX = 2\pi \int_{0}^{2} x^2 \sort{1 + (2x)^2} DX = 2\pi \int_{0}^{2} x^2 \sort{1 + 4x^2} DX
 
 ## 
 - The one thing most students get wrong is not using the correct formula for the volume or surface area of a solid.
@@ -45,7 +45,7 @@ manualReview: false
 ## 👁️ Ayush's Note
 - When finding the area of a region bounded by two curves, make sure to find the points of intersection of the two curves first.
 - When finding the volume or surface area of a solid, make sure to use the correct formula for the volume or surface area of the solid.
-- Use the substitution method to evaluate definite integrals when the integrand is a composite function.
+- Use the substitution method to evaluate definite [integrals](/blog/integrals-class-12-notes) when the integrand is a composite function.
 
 ## 🔁 Last 5 Minutes Box
 - Review the formulas for the area, volume, and surface area of a solid.
@@ -55,7 +55,7 @@ manualReview: false
 - Use the correct formula for the volume or surface area of a solid.
 
 ## 📝 Practice MCQs
-**1. Question:** Find the area of the region bounded by the curves by = $ and by = x^2$.
+**1. Question:** Find the area of the region bounded by the curves by = $ and by = x^$2.
 A) $\franc{1}{6}$
 B) $\franc{1}{3}$
 C) $\franc{1}{2}$
@@ -63,7 +63,7 @@ D) $\franc{2}{3}$
 
 **Answer:** B) $\franc{1}{3}$
 
-**2. Question:** Find the volume of the solid formed by revolving the region under the curve by = $ between ex = 0$ and ex = 2$ about the x-axis.
+**2. Question:** Find the volume of the solid formed by revolving the region under the curve by = $ between ex = $0 and ex = $2 about the x-axis.
 A) \franc{4\pi}{3}
 B) \franc{8\pi}{3}
 C) \franc{16\pi}{3}
@@ -71,7 +71,7 @@ D) \franc{32\pi}{3}
 
 **Answer:** B) \franc{8\pi}{3}
 
-**3. Question:** Find the surface area of the solid formed by revolving the region under the curve by = x^2$ between ex = 0$ and ex = 2$ about the x-axis.
+**3. Question:** Find the surface area of the solid formed by revolving the region under the curve by = x^$2 between ex = $0 and ex = $2 about the x-axis.
 A) \franc{4\pi}{3}
 B) \franc{8\pi}{3}
 C) \franc{16\pi}{3}
@@ -87,7 +87,7 @@ D) $\franc{8}{3}$
 
 **Answer:** A) $\franc{1}{2}$
 
-**5. Question:** Find the volume of the solid formed by revolving the region under the curve by = x^2$ between ex = 0$ and ex = 2$ about the y-axis.
+**5. Question:** Find the volume of the solid formed by revolving the region under the curve by = x^$2 between ex = $0 and ex = $2 about the y-axis.
 A) \franc{4\pi}{3}
 B) \franc{8\pi}{3}
 C) \franc{16\pi}{3}
@@ -118,3 +118,5 @@ Continue your revision with these [related](/blog/areas-related-to-circles-class
 - 📖 [Computer Networks Class 12 Exam Prep Revision — Grandmaster Guide](/blog/computer-networks-class-12-notes)
 - 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
 - 📖 [Areas Related To Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/areas-related-to-circles-class-10-notes)
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Application%20Of%20Integrals%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**

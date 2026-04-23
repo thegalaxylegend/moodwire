@@ -9,6 +9,33 @@ practice_link: "/class-11/physics/organic-chemistry-basic-principles-class-11-re
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-organic-chemistry-basic-principles"></a>What is Organic Chemistry Basic Principles?](#a-idwhat-is-organic-chemistry-basic-principlesawhat-is-organic-chemistry-basic-principles)
+3. [<a id="introduction-to-organic-chemistry"></a>Introduction to Organic Chemistry](#a-idintroduction-to-organic-chemistryaintroduction-to-organic-chemistry)
+4. [<a id="atomic-structure"></a>Atomic Structure](#a-idatomic-structureaatomic-structure)
+5. [<a id="chemical-bonding"></a>Chemical Bonding](#a-idchemical-bondingachemical-bonding)
+6. [<a id="molecular-structure"></a>Molecular Structure](#a-idmolecular-structureamolecular-structure)
+7. [<a id="stereochemistry"></a>Stereochemistry](#a-idstereochemistryastereochemistry)
+8. [<a id="chemical-reactions"></a>Chemical Reactions](#a-idchemical-reactionsachemical-reactions)
+9. [<a id="ayushs-note"></a>Ayush's Note](#a-idayushs-noteaayushs-note)
+10. [<a id="shortcut-formula-trick"></a>Shortcut Formula / Trick](#a-idshortcut-formula-trickashortcut-formula-trick)
+11. [<a id="trap-questions-exceptions"></a>Trap Questions / Exceptions](#a-idtrap-questions-exceptionsatrap-questions-exceptions)
+12. [<a id="practice-mcqs"></a>Practice MCQs](#a-idpractice-mcqsapractice-mcqs)
+13. [<a id="related-notes-links"></a>Related Notes Links](#a-idrelated-notes-linksarelated-notes-links)
+14. [<a id="last-updated-date"></a>Last Updated Date](#a-idlast-updated-datealast-updated-date)
+15. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+16. [📚 Related Topics](#related-topics)
+
+## ⚗️ Chemical Quick Reference (Verified via PubChem)
+
+| Compound | Formula | Mol. Weight | Source |
+|:---|:---:|:---:|:---:|
+| **urea** | CH4N2O | 60.056 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/1176) |
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Organic Chemistry Basic Principles?](#what-is-organic-chemistry-basic-principles)
@@ -45,7 +72,7 @@ practice_link: "/class-11/physics/organic-chemistry-basic-principles-class-11-re
 
 Organic [chemistry](/blog/environmental-chemistry-class-11-revision-notes-neet) is the study of carbon-containing compounds. It is a vast and complex field that deals with the properties, reactions, n synthesis of organic compounds. Understanding the basic principles of organic [chemistry](/blog/environmental-chemistry-class-11-revision-notes-neet) is essential for students preparing for JEE and NEET exams.
 
-Organic chemistry is [the study of carbon-containing compounds](https://en.wikipedia.org/wiki/Organic_chemistry). Organic compounds can be found and all living organisms and are an essential part of our daily lives.
+Organic [chemistry](/blog/environmental-chemistry-class-11-revision-notes-neet) is [the study of carbon-containing compounds](https://en.wikipedia.org/wiki/Organic_chemistry). Organic compounds can be found and all living organisms and are an essential part of our daily lives.
 
 ## <a id="atomic-structure"></a>Atomic Structure
 
@@ -167,6 +194,8 @@ Continue your [revision](/blog/physical-world-class-11-revision-notes-jee-neet) 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Organic%20Chemistry%20Basic%20Principles%20Class%2011%20Chemistry%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -177,3 +206,14 @@ Continue your [revision](/blog/physical-world-class-11-revision-notes-jee-neet) 
 - 📖 [Cell The Unit Of Life Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cell-the-unit-of-life-class-11-revision-notes-neet)
 - 📖 [Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physical-world-class-11-revision-notes-jee-neet)
 - 📖 [The S Block Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/the-s-block-elements-class-11-revision-notes-jee-neet)
+
+## 🔁 Last 5 Minutes Box
+
+# Basic Principles of Organic Chemistry: 
+* **Isomerism**: same molecular formula, different structural formula 
+* **Homologous Series**: same functional group, differs by CH2 
+* **IUPAC Nomenclature**: International Union of Pure and Applied Chemistry naming convention 
+* **Stereochemistry**: study of 3D arrangement of atoms 
+* **Hybridization**: mixing of atomic orbitals to form hybrid orbitals 
+* **Polarity**: separation of electric charge within a molecule 
+* **Acid-Base Theory**: classification of compounds based on acid-base properties
