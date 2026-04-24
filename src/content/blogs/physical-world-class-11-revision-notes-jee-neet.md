@@ -149,7 +149,7 @@ Continue your revision with these related guides:
 - 📖 [The P Block Elements 11 Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet)
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
-- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet)
+- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
 
 ---
 

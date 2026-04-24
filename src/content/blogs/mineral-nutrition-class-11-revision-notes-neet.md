@@ -67,7 +67,7 @@ practice_link: "/class-11/biology/mineral-nutrition-class-11-revision-notes-neet
 
 ## <a id="introduction-to-mineral-nutrition"></a>Introduction to Mineral Nutrition
 
-Mineral nutrition is the study of the essential elements required y plants for growth and development. Plants require 16 essential elements, which are divided into macronutrients and micronutrients. Macronutrients are required and large quantities, while micronutrients are required and small quantities. Mineral nutrition is critical for maintaining [plant](/blog/plant-growth-n-development-class-11-revision-notes-neet) health and preventing diseases.
+Mineral nutrition is the study of the essential elements required y plants for growth and development. Plants require 16 essential elements, which are divided into macronutrients and micronutrients. Macronutrients are required and large quantities, while micronutrients are required and small quantities. Mineral nutrition is critical for maintaining [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet) health and preventing diseases.
 
 Mineral nutrition is [the process y which plants absorb and utilize essential elements from the soil](https://en.wikipedia.org/wiki/Plant_nutrition). Plants have evolved complex mechanisms to absorb and utilize these elements, which are essential for various physiological processes.
 
@@ -103,7 +103,7 @@ Macronutrients are required y [plants](/blog/anatomy-of-flowering-plants-class-1
 5. Magnesium (Mg)
 6. Sulfur (S)
 
-These elements are [involved and various physiological processes](https://www.sciencedirect.com/topics/agricultural-n-biological-sciences/macronutrient), such as photosynthesis, respiration, n cell [division](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet).
+These elements are [involved and various physiological processes](https://www.sciencedirect.com/topics/agricultural-n-biological-sciences/macronutrient), such as photosynthesis, respiration, n cell [division](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet).
 
 ## <a id="micronutrients"></a>Micronutrients
 
@@ -122,10 +122,10 @@ These [elements](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) ar
 
 Deficiency of essential elements can lead to various disorders n [plants](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet). Some common mineral deficiency disorders are:
 1. Nitrogen deficiency: causes yellowing of leaves
-2. Phosphorus deficiency: causes stunted [growth](/blog/plant-growth-n-development-class-11-revision-notes-neet) n purple coloration of leaves
-3. Potassium deficiency: causes scorching of leaves and reduced [growth](/blog/plant-growth-n-development-class-11-revision-notes-neet)
-4. Calcium deficiency: causes curling of leaves and reduced [growth](/blog/plant-growth-n-development-class-11-revision-notes-neet)
-5. Magnesium deficiency: causes yellowing of leaves and reduced [growth](/blog/plant-growth-n-development-class-11-revision-notes-neet)
+2. Phosphorus deficiency: causes stunted [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet) n purple coloration of leaves
+3. Potassium deficiency: causes scorching of leaves and reduced [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet)
+4. Calcium deficiency: causes curling of leaves and reduced [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet)
+5. Magnesium deficiency: causes yellowing of leaves and reduced [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet)
 
 These disorders can be [diagnosed and managed](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7123155/) y providing the deficient element.
 
@@ -195,15 +195,15 @@ Answer: a) Maintaining cell turgor pressure and regulating stomatal movement
 
 4. What is the effect of nitrogen deficiency on plants?
 a) Yellowing of leaves
-b) Stunted [growth](/blog/plant-growth-n-development-class-11-revision-notes-neet) n purple coloration of leaves
-c) Scorching of leaves and reduced [growth](/blog/plant-growth-n-development-class-11-revision-notes-neet)
-d) Curling of leaves and reduced [growth](/blog/plant-growth-n-development-class-11-revision-notes-neet)
+b) Stunted [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet) n purple coloration of leaves
+c) Scorching of leaves and reduced [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet)
+d) Curling of leaves and reduced [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet)
 
 Answer: a) Yellowing of leaves
 
 5. What is the effect of phosphorus deficiency on plants?
 a) Yellowing of leaves
-b) Stunted [growth](/blog/plant-growth-n-development-class-11-revision-notes-neet) n purple coloration of leaves
+b) Stunted [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet) n purple coloration of leaves
 c) Scorching of leaves and reduced [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet)
 d) Curling of leaves and reduced [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet)
 
@@ -224,7 +224,7 @@ Answer: b) Stunted [growth](/blog/plant-growth-and-development-class-11-revision
 Continue your [revision](/blog/hydrogen-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
-- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet)
+- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)
 - 📖 [Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrocarbons-class-11-revision-notes-neet)
 - 📖 [Hydrogen Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)
 
@@ -242,7 +242,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 Continue your [revision](/blog/hydrogen-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
-- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet)
+- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)
 - 📖 [Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrocarbons-class-11-revision-notes-neet)
 - 📖 [Hydrogen Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)
 

@@ -65,17 +65,17 @@ Plant Kingdom is a critical topic for JEE and NEET exams, with 3–4 questions a
 ## <a id="ayushs-note"></a>Ayush's Note
 
 <div class="ayush-note">
-I still remember when I was preparing for JEE, I used to get confused between the different plant groups. I would often mix up the characteristics of Bryophyta and Tracheophyta. But then I realized that the key to understanding Plant Kingdom is to focus on the vascular tissue. Once I understood the difference between vascular and non-vascular [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet), I was able to classify [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) easily. My advice to you is to practice, practice, practice! Make sure you practice at least 50–60 questions from this topic to get a good grip on it.
+I still remember when I was preparing for JEE, I used to get confused between the different plant groups. I would often mix up the characteristics of Bryophyta and Tracheophyta. But then I realized that the key to understanding Plant Kingdom is to focus on the vascular tissue. Once I understood the difference between vascular and non-vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet), I was able to classify [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) easily. My advice to you is to practice, practice, practice! Make sure you practice at least 50–60 questions from this topic to get a good grip on it.
 </div>
 
 ## <a id="core-concepts"></a>Core Concepts
 
-[plant](/blog/plant-growth-n-development-class-11-revision-notes-neet) Kingdom is divided into several divisions based on characteristics such as vascular tissue, seeds, n flowers. The main divisions are:
-* Bryophyta: Non-vascular [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) such as mosses and liverworts.
-* Tracheophyta: Vascular [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) such as ferns, conifers, n flowering [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet).
-* Pteridophyta: Vascular [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) that produce spores, such as ferns.
-* Gymnosperms: Vascular [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) that produce seeds, such as conifers.
-* Angiosperms: Vascular [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) that produce flowers and seeds, such as flowering [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet).
+[plant](/blog/plant-growth-and-development-class-11-revision-notes-neet) Kingdom is divided into several divisions based on characteristics such as vascular tissue, seeds, n flowers. The main divisions are:
+* Bryophyta: Non-vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) such as mosses and liverworts.
+* Tracheophyta: Vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) such as ferns, conifers, n flowering [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet).
+* Pteridophyta: Vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) that produce spores, such as ferns.
+* Gymnosperms: Vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) that produce seeds, such as conifers.
+* Angiosperms: Vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) that produce flowers and seeds, such as flowering [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet).
 
 The [classification](/blog/biological-classification-class-11-revision-notes-neet) of plants is based on the following characteristics:
 * Vascular tissue: Presence or absence of vascular tissue, such as xylem and phloem.
@@ -84,9 +84,9 @@ The [classification](/blog/biological-classification-class-11-revision-notes-nee
 
 ## <a id="shortcut-formula-trick"></a>Shortcut Formula / Trick
 
-To remember the different [plant](/blog/plant-growth-n-development-class-11-revision-notes-neet) groups, you can use the following trick:
-* Bryophyta: Non-vascular [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet), no seeds, no flowers.
-* Tracheophyta: Vascular [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet), may or may not have seeds, may or may not have flowers.
+To remember the different [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet) groups, you can use the following trick:
+* Bryophyta: Non-vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet), no seeds, no flowers.
+* Tracheophyta: Vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet), may or may not have seeds, may or may not have flowers.
 * Pteridophyta: Vascular plants, produce spores.
 * Gymnosperms: Vascular plants, produce seeds, no flowers.
 * Angiosperms: Vascular plants, produce flowers and seeds.
@@ -95,13 +95,13 @@ To remember the different [plant](/blog/plant-growth-n-development-class-11-revi
 
 * Wrong answer: All plants produce seeds.
 Right answer: Only some plants, such as gymnosperms and angiosperms, produce seeds.
-Why students get it wrong: Students often confuse the different [plant](/blog/plant-growth-n-development-class-11-revision-notes-neet) groups and assume that all plants produce seeds.
+Why students get it wrong: Students often confuse the different [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet) groups and assume that all plants produce seeds.
 * Wrong answer: All plants produce flowers.
 Right answer: Only some plants, such as angiosperms, produce flowers.
 Why students get it wrong: Students often assume that all plants produce flowers, but this is not the case.
-* Wrong answer: Bryophyta is a type of vascular [plant](/blog/plant-growth-n-development-class-11-revision-notes-neet).
-Right answer: Bryophyta is a type of non-vascular [plant](/blog/plant-growth-n-development-class-11-revision-notes-neet).
-Why students get it wrong: Students often confuse the different [plant](/blog/plant-growth-n-development-class-11-revision-notes-neet) groups and assume that Bryophyta is a type of vascular [plant](/blog/plant-growth-n-development-class-11-revision-notes-neet).
+* Wrong answer: Bryophyta is a type of vascular [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet).
+Right answer: Bryophyta is a type of non-vascular [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet).
+Why students get it wrong: Students often confuse the different [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet) groups and assume that Bryophyta is a type of vascular [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet).
 
 ## <a id="practice-mcqs"></a>Practice MCQs
 
@@ -161,10 +161,10 @@ Note: The above links are existing posts only.
 
 Continue your revision with these related guides:
 
-- 📖 [Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/plant-growth-n-development-class-11-revision-notes-neet)
+- 📖 [Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/plant-growth-and-development-class-11-revision-notes-neet)
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
-- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet)
+- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
 
 ---
 
@@ -179,7 +179,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your revision with these related guides:
 
-- 📖 [Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/plant-growth-n-development-class-11-revision-notes-neet)
+- 📖 [Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/plant-growth-and-development-class-11-revision-notes-neet)
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)

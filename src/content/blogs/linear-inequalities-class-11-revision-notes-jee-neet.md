@@ -53,8 +53,8 @@ practice_link: "/class-11/physics/linear-inequalities-class-11-revision-notes-je
 >   - (a, b) -> x is between a and b (excluding a, b).
 >   - [a, b] -> x is between a and b (including a, b).
 > - **Graphical Solution:** 
->   - Use a dashed [line](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) for < or >.
->   - Use a solid [line](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) for ≤ or ≥.
+>   - Use a dashed [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) for < or >.
+>   - Use a solid [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) for ≤ or ≥.
 >   - Shade the region that satisfies the inequality.
 > [**📥 Download 1-Page Short Notes PDF (Zero-Friction)**](#)
 
@@ -87,9 +87,9 @@ Solving an inequality is very similar to solving an equation, with one critical 
 ## <a id="3-graphical-solution-of-linear-inequalities-n-two-variables"></a>3. Graphical Solution of Linear Inequalities and Two Variables
 
 A linear inequality like **ax + y ≤ c** represents a half-plane and the Cartesian coordinate system.
-1.  **Draw the [line](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet):** Replace the inequality sign with '=' n draw the [line](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet).
-2.  **Dashed vs Solid:** If strict (< or >), use a dashed [line](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet). If slack (≤ or ≥), use a solid [line](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet).
-3.  **Test Point:** Pick a point not on the [line](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) (usually (0,0)). If it satisfies the inequality, shade the region containing it; otherwise, shade the other side.
+1.  **Draw the [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet):** Replace the inequality sign with '=' n draw the [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
+2.  **Dashed vs Solid:** If strict (< or >), use a dashed [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet). If slack (≤ or ≥), use a solid [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
+3.  **Test Point:** Pick a point not on the [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) (usually (0,0)). If it satisfies the inequality, shade the region containing it; otherwise, shade the other side.
 
 ---
 
@@ -128,8 +128,8 @@ Inequalities are used extensively n:
 
 **Q3: Represent the solution of x/2 + y/3 > 1 graphically.**
 **Answer:**
-- Draw the [line](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) x/2 + y/3 = 1 (intercepts are (2,0) n (0,3)).
-- Since it is '>', use a **dashed [line](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)**.
+- Draw the [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) x/2 + y/3 = 1 (intercepts are (2,0) n (0,3)).
+- Since it is '>', use a **dashed [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)**.
 - Test point (0,0): 0/2 + 0/3 > 1 is **False**.
 - **Result:** Shade the region **not containing** the origin.
 
@@ -154,11 +154,11 @@ Linear Inequalities shift your thinking from "points" to "regions." By mastering
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your [revision](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) with these related guides:
+Continue your [revision](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 
 ---
@@ -176,7 +176,7 @@ Continue your [revision](/blog/electric-charges-fields-class-11-revision-notes-j
 
 - 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 
 ## 🪤 The 5 Mistakes That Cost Marks

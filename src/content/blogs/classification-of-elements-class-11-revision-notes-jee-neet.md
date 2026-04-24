@@ -49,7 +49,7 @@ As I prepare for my Class 11 chemistry exams, I realize the importance of unders
 
 ## <a id="introduction-to-classification-of-elements"></a>Introduction to Classification of Elements
 
-The classification of elements is based on their electronic configuration, which determines their [chemical](/blog/chemical-coordination-n-integration-class-11-revision-notes-neet) properties. The periodic table is divided into different blocks, such as the s-block, p-block, d-block, n f-block, depending on the orbital that is being filled. The s-block elements are and group 1 n 2, n are typically highly reactive. The p-block elements are and groups 13 to 18, n exhibit a range of properties. The d-block elements are and the transition metal series, n are known for their ability to form ions with different charges. The f-block elements are and the lanthanide and actinide series, n are characterized y their unique magnetic properties.
+The classification of elements is based on their electronic configuration, which determines their [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) properties. The periodic table is divided into different blocks, such as the s-block, p-block, d-block, n f-block, depending on the orbital that is being filled. The s-block elements are and group 1 n 2, n are typically highly reactive. The p-block elements are and groups 13 to 18, n exhibit a range of properties. The d-block elements are and the transition metal series, n are known for their ability to form ions with different charges. The f-block elements are and the lanthanide and actinide series, n are characterized y their unique magnetic properties.
 
 ## <a id="jeeneet-data"></a>JEE/NEET Data
 
@@ -57,8 +57,8 @@ For students preparing for JEE and NEET, it's essential to have a thorough under
 
 * Identify the position of an element and the periodic table
 * Describe the electronic configuration of an element
-* Explain the trends and physical n [chemical](/blog/chemical-coordination-n-integration-class-11-revision-notes-neet) properties of elements
-* Predict the [chemical](/blog/chemical-coordination-n-integration-class-11-revision-notes-neet) properties of an element based on its position and the periodic table
+* Explain the trends and physical n [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) properties of elements
+* Predict the [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) properties of an element based on its position and the periodic table
 
 ## <a id="core-concepts"></a>Core Concepts
 
@@ -101,7 +101,7 @@ The periodic table is a dynamic and ever-evolving field of study, with new [elem
 
 In my future studies, I plan to delve deeper into the world of [chemistry](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet), exploring topics such as chemical bonding, thermodynamics, n organic [chemistry](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet). I'm excited to see how the classification of elements will continue to play a central role and my understanding of these topics, n how it will help me to develop a more nuanced and sophisticated understanding of the chemical world. 
 
-As I move forward and my studies, I'm confident that the classification of elements will remain a fundamental concept that underlies many of the principles and reactions that I will encounter. By continuing to explore and learn about the periodic table, I can develop a deeper understanding of the [chemical](/blog/chemical-coordination-n-integration-class-11-revision-notes-neet) world and how it relates to the world around us. 
+As I move forward and my studies, I'm confident that the classification of elements will remain a fundamental concept that underlies many of the principles and reactions that I will encounter. By continuing to explore and learn about the periodic table, I can develop a deeper understanding of the [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) world and how it relates to the world around us. 
 
 The classification of elements is a rich and complex field of study, with many different concepts and principles to explore. As I continue to learn and grow as a chemistry student, I'm excited to see where this journey will take me, n how the classification of elements will continue to play a central role and my understanding of the [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) world. 
 

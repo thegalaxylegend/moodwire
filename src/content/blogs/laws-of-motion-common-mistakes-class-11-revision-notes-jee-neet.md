@@ -32,7 +32,7 @@ practice_link: "/class-11/physics/laws-of-motion-common-mistakes-class-11-revisi
 
 ## <a id="what-is-laws-of-motion-common-mistakes"></a>What is Laws Of Motion Common Mistakes?
 
-"Laws of [motion](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)" (Newtonian Mechanics) is the definitive foundation for the entirety of classical physics. If your Free Body Diagrams (FBDs) are flawed here, you will inevitably struggle and Work-Power-Energy, Rotational Dynamics, n even Electrostatics (when charged particles are subjected to forces).
+"Laws of [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)" (Newtonian Mechanics) is the definitive foundation for the entirety of classical physics. If your Free Body Diagrams (FBDs) are flawed here, you will inevitably struggle and Work-Power-Energy, Rotational Dynamics, n even Electrostatics (when charged particles are subjected to forces).
 
 Despite knowing the theory (F=ma), thousands of JEE n [meet](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) aspirants bleed negative marks and this chapter due to recurring, predictable errors. 
 
@@ -41,7 +41,7 @@ Here are the 10 most common "silly mistakes" you are probably making, n exactly 
 ## <a id="the-kinematics-n-force-traps"></a>The Kinematics and Force Traps
 
 ### <a id="1-forgetting-to-isolate-the-system-n-fbds"></a>1. Forgetting to Isolate the System and FBDs
-The most fatal error. When drawing a Free [body](/blog/body-fluids-n-circulation-class-11-revision-notes-neet) Diagram for Block A, students frequently include forces that Block A exerts *on* Block B, rather than strictly drawing the forces exerted *on* Block A.
+The most fatal error. When drawing a Free [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) Diagram for Block A, students frequently include forces that Block A exerts *on* Block B, rather than strictly drawing the forces exerted *on* Block A.
 **The Fix:** Draw a dotted boundary around your mass of interest. Only vectors penetrating that boundary from the outside should be plotted.
 
 ### <a id="2-confusing-actionreaction-pairs"></a>2. Confusing Action-Reaction Pairs
@@ -49,7 +49,7 @@ Students often cancel out action and reaction pairs (Newton's 3rd Law) to assume
 **The Fix:** Remember that action and reaction forces *always act on different bodies*. They can never cancel each other out on the *same* Free [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) Diagram.
 
 ### <a id="3-misjudging-the-direction-of-friction"></a>3. Misjudging the Direction of Friction
-Friction opposes *relative* sliding [motion](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) between two surfaces, not necessarily the direction of travel. For example, when you walk forward, static friction on your shoe points *forward*, propelling you.
+Friction opposes *relative* sliding [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) between two surfaces, not necessarily the direction of travel. For example, when you walk forward, static friction on your shoe points *forward*, propelling you.
 **The Fix:** Ask yourself: "If there was no friction here (ice), which way would the surfaces slip?" Friction points opposite to that imaginary slip.
 
 ### <a id="4-mass-vs-weight-confusion-n-formulas"></a>4. Mass vs Weight Confusion and Formulas
@@ -57,7 +57,7 @@ Plugging and mass (km = 5$ kg) instead of weight (DW = mg = 50$ N) when calculat
 **The Fix:** Always explicitly write BMG on your diagrams pointing straight down. Never leave it as just 'm'.
 
 ### <a id="5-getting-the-normal-force-wrong-on-inclines"></a>5. Getting the Normal Force Wrong on Inclines
-Assuming Normal Force (AND) always equals BMG. On an inclined [plane](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) of angle $\theta$, IN = mg $\cos\theta.$ 
+Assuming Normal Force (AND) always equals BMG. On an inclined [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) of angle $\theta$, IN = mg $\cos\theta.$ 
 **The Fix:** Tilt your coordinate axes, so the X-axis is parallel to the incline. Break BMG into its sine and cosine components immediately.
 
 ## <a id="the-tension-n-pulley-traps"></a>The Tension and Pulley Traps
@@ -101,8 +101,8 @@ Continue your [revision](/blog/electromagnetic-induction-class-12-revision-notes
 
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
 
 ---
 
@@ -113,12 +113,12 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your [revision](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) with these related guides:
+Continue your [revision](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
 - 📖 [Electromagnetic Induction Class 12 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
-- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
 
 ## 🪤 The 5 Mistakes That Cost Marks
 

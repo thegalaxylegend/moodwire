@@ -114,7 +114,7 @@ To prepare for the class 12 exam, it's essential to practice problems and questi
 
 The Electromagnetic Spectrum is a vast band of energy frequencies that includes various types of electromagnetic radiation. It includes radio waves, microwaves, n $\gamma rays$, among other forms of electromagnetic radiation. For class 12 exam prep n 2026, the most important aspect is understanding the arrangement and properties of these different types of radiation and the spectrum. 
 
-The Electromagnetic Spectrum is generally divided into seven main regions, each with distinct properties and applications. These regions, from longer wavelengths to shorter wavelengths, are radio waves, microwaves, infrared (IR) radiation, visible light, ultraviolet (UV) radiation, X-rays, n $\gamma rays. Each of these regions has unique characteristics$, such as wavelength, frequency, n energy, which determine their uses and effects on [matter](/blog/magnetism-n-matter-class-12-notes). 
+The Electromagnetic Spectrum is generally divided into seven main regions, each with distinct properties and applications. These regions, from longer wavelengths to shorter wavelengths, are radio waves, microwaves, infrared (IR) radiation, visible light, ultraviolet (UV) radiation, X-rays, n $\gamma rays. Each of these regions has unique characteristics$, such as wavelength, frequency, n energy, which determine their uses and effects on [matter](/blog/magnetism-and-matter-class-12-notes). 
 
 Radio waves, for instance, have the longest wavelengths and the lowest energies, n they are used extensively and wireless communication, such as radio broadcasting and mobile phone networks. Microwaves, with wavelengths shorter than radio waves, are used and heating and cooking, as well as and wireless communication technologies like Wi-Fi and Bluetooth. Infrared radiation, which includes heat, is felt as warmth and is used and thermal imaging and heating applications. Visible light, the part of the spectrum that humans can see, spans from approximately 380 nanometers (violet) to 740 nanometers (red) n is crucial for vision and photosynthesis. Ultraviolet radiation, with shorter wavelengths than visible light, is known for causing sunburn and is used and applications such as sterilization and water purification. X-rays, with even shorter wavelengths, are used and medical imaging to visualize the internal structures of the body. Gamma rays have the shortest wavelengths and the highest energies, n they are used and medical treatments, scientific research, n industrial applications.
 
@@ -363,7 +363,7 @@ Absorption
 
 Continue your revision with these related guides:
 
-- 📖 [Magnetism and Matter Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetism-n-matter-class-12-notes)
+- 📖 [Magnetism and Matter Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetism-and-matter-class-12-notes)
 - 📖 [Electromagnetic Induction Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
 - 📖 [Wave Optics Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/wave-optics-class-12-notes)
 - 📖 [Alternating Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alternating-current-class-12-notes)
@@ -379,7 +379,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your revision with these related guides:
 
-- 📖 [Magnetism and Matter Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetism-n-matter-class-12-notes)
+- 📖 [Magnetism and Matter Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetism-and-matter-class-12-notes)
 - 📖 [Wave Optics Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/wave-optics-class-12-notes)
 - 📖 [Electromagnetic Induction Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
 - 📖 [Alternating Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alternating-current-class-12-notes)

@@ -74,19 +74,19 @@ Nature is rhythmic. From the beating of a heart and the vibration of a guitar st
 
 ## <a id="1-periodic-n-oscillatory-motion"></a>1. Periodic and Oscillatory Motion
 
-- **Periodic [motion](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet):** [motion](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) that repeats itself at regular intervals of time (e.g., Earth's orbit).
-- **Oscillatory [motion](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet):** To-n-fro [motion](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) about a fixed mean position (e.g., Pendulum).
-- **Note:** Every oscillatory [motion](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) is periodic, but not every periodic [motion](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) is oscillatory.
+- **Periodic [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet):** [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) that repeats itself at regular intervals of time (e.g., Earth's orbit).
+- **Oscillatory [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet):** To-n-fro [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) about a fixed mean position (e.g., Pendulum).
+- **Note:** Every oscillatory [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) is periodic, but not every periodic [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) is oscillatory.
 
 ---
 
 ## <a id="2-simple-harmonic-motion-shm"></a>2. Simple Harmonic Motion (SHM)
 
-**Statement:** A type of [motion](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) where the restoring force **F** acting on the particle is proportional to displacement **x** from the mean position and points toward it.
+**Statement:** A type of [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) where the restoring force **F** acting on the particle is proportional to displacement **x** from the mean position and points toward it.
 **Formula: F = -kx** (where k is the force constant).
 
 ### <a id="derivation-projection-of-uniform-circular-motion-ucm"></a>Derivation: Projection of Uniform Circular Motion (UCM)
-**Theorem:** SHM can be defined as the projection of Uniform Circular [motion](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) on any diameter of the reference circle.
+**Theorem:** SHM can be defined as the projection of Uniform Circular [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) on any diameter of the reference circle.
 1.  Consider a particle moving and a circle of radius **A** with angular velocity **ω**.
 2.  At any time **t**, its angular position is **θ = ωt + φ**.
 3.  The projection of its position on the Y-axis is **y = A sinθ**.
@@ -178,7 +178,7 @@ Starting from **x = A sin(ωt + φ)**:
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
-- **Chapter 2: [motion](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) n a Straight Line (Kinematic Kin)**
+- **Chapter 2: [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) n a Straight Line (Kinematic Kin)**
 - **Chapter 14: Waves (The Next Step)**
 - **SHM Phase and Phasor Diagram Masterclass**
 
@@ -201,7 +201,7 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 - 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
 - 📖 [Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
 
 ---
 
@@ -219,7 +219,7 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 - 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
 - 📖 [Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
 
 ## 🪤 The 5 Mistakes That Cost Marks
 

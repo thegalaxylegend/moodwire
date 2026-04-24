@@ -331,7 +331,7 @@ I, Ayush, believe that learning is an ongoing process, n that it is essential to
 I, Ayush, look forward to my future studies, n I am excited to learn more about the Industrial Revolution and its ongoing impact on our world. I believe that understanding the Industrial Revolution is essential for understanding the modern world, n I am committed to continuing my studies n [revision](/blog/geomorphology-class-11-revision-notes-cbse) throughout my academic career.
 
 #### Ongoing Revision
-I, Ayush, make ongoing [revision](/blog/neural-control-n-coordination-class-11-revision-notes-neet) a priority, n I review my notes and study materials regularly. I practice MCQs to assess my knowledge and identify areas for improvement, n I use LaTeX to format my notes and make them more readable.
+I, Ayush, make ongoing [revision](/blog/neural-control-and-coordination-class-11-revision-notes-neet) a priority, n I review my notes and study materials regularly. I practice MCQs to assess my knowledge and identify areas for improvement, n I use LaTeX to format my notes and make them more readable.
 
 By following this approach, I am confident that I can achieve academic success and continue to learn and grow throughout my academic career.
 

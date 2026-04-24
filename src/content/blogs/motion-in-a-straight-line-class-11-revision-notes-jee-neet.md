@@ -74,7 +74,7 @@ Mechanics is the study of motion, n its first branch, **Kinematics**, allows us 
 ## <a id="1-the-language-of-motion-fundamentals"></a>1. The Language of Motion: Fundamentals
 
 Before deriving equations, we must be precise with our definitions.
-- **Frame of Reference:** A coordinate system with a clock used to observe [motion](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet).
+- **Frame of Reference:** A coordinate system with a clock used to observe [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet).
 - **Distance (Path Length):** The total length covered. It is a **Scalar** n always positive.
 - **Displacement (Δx):** The change and position (**X_final - X_initial**). It is a **Vector** n can be positive, negative, or zero.
 
@@ -178,8 +178,8 @@ When an object is dropped from height **H**, it experiences a constant accelerat
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
-- **Chapter 3: [motion](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) n a Plane (Projectile Theory)**
-- **Chapter 4: Laws of [motion](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) (Force Dynamics)**
+- **Chapter 3: [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) n a Plane (Projectile Theory)**
+- **Chapter 4: Laws of [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) (Force Dynamics)**
 - **Mastering Kinematics Practice Problems**
 
 ## <a id="conclusion"></a>Conclusion
@@ -199,7 +199,7 @@ Motion and a [straight](/blog/straight-lines-class-11-revision-notes-jee-neet) l
 Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 - 📖 [Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/straight-lines-class-11-revision-notes-jee-neet)
 
@@ -217,7 +217,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 - 📖 [Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/straight-lines-class-11-revision-notes-jee-neet)
 

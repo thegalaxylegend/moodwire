@@ -24,9 +24,8 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import Groq from 'groq-sdk';
-import { godSafeParse } from './utils/god-json.js';
 import dotenv from 'dotenv';
+import { nodeRouter } from './utils/nodeRouter.js';
 import { 
     hasAyushNoteRegex, 
     hasMistakesRegex, 
@@ -44,7 +43,7 @@ const PUBLIC_REPORTS = path.join(__dirname, '../public/jules-reports');
 const EVOLVED_PROMPT_FILE = path.join(REPORTS_DIR, 'evolved-prompt.json');
 const PROMPT_HISTORY_DIR = path.join(REPORTS_DIR, 'prompt-history');
 
-// Initialize Groq (the "meta-brain" that evolves prompts)
+// Initialize Groq keys (kept for legacy context if needed, but primary routing via nodeRouter)
 const GROQ_KEYS = [
     process.env.VITE_GROQ_API_KEY || process.env.GROQ_API_KEY,
     process.env.VITE_GROQ_API_KEY_2,
@@ -54,14 +53,6 @@ const GROQ_KEYS = [
     process.env.VITE_GROQ_API_KEY_6
 ].filter(Boolean) as string[];
 
-let currentGroqKeyIndex = 0;
-let groq = new Groq({ apiKey: GROQ_KEYS[0] });
-
-function rotateGroqKey() {
-    currentGroqKeyIndex = (currentGroqKeyIndex + 1) % GROQ_KEYS.length;
-    groq = new Groq({ apiKey: GROQ_KEYS[currentGroqKeyIndex] });
-    console.log(`🔄 Rotating to Groq Key #${currentGroqKeyIndex + 1}...`);
-}
 
 const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
 
@@ -253,7 +244,7 @@ function synthesizeInsights(intel: IntelligenceReport): EvolutionInsights {
 // ════════════════════════════════════════════════════════
 
 async function evolvePrompt(currentPrompt: string, insights: EvolutionInsights, attempt: number = 1): Promise<any> {
-    console.log(`🧬 Evolving system prompt using Gemini meta-cognition (Attempt ${attempt})...\n`);
+    console.log(`🧬 Evolving system prompt using Gemma-4-31B Meta-Cognition (Tier T1)...\n`);
 
     const metaPrompt = `You are a Prompt Engineering Grandmaster. Your job is to EVOLVE a system prompt for an AI blog generator.
 
@@ -320,18 +311,16 @@ CRITICAL KEY RULE: subjectTargets keys MUST be actual subject names (Physics, Ch
 CRITICAL: The evolved prompt must be BETTER than the original. Don't just rephrase — ADD value based on the data.`;
 
     try {
-        const result = await groq.chat.completions.create({
-            model: "llama-3.3-70b-versatile",
-            messages: [{ role: "user", content: metaPrompt }],
-            temperature: 0.7,
-            max_tokens: 6000,
-            response_format: { type: "json_object" }
+        // Switch to NodeRouter Tier T1 (Primary: Gemma-4-31B-it)
+        const responseText = await nodeRouter.route([
+            { role: "user", content: metaPrompt }
+        ], 'T1', { 
+            jsonMode: true, 
+            temperature: 0.7 
         });
 
         let evolved;
         try {
-            const responseText = result.choices[0]?.message?.content?.trim() || "";
-            
             // Aggressive pre-cleaning to handle LLM unescaped newlines inside JSON
             let cleanedJson = responseText.replace(/```json|```/g, '').trim();
             
@@ -340,7 +329,7 @@ CRITICAL: The evolved prompt must be BETTER than the original. Don't just rephra
             if (firstBrace === -1 || lastBrace === -1) throw new Error("No JSON braces found in response.");
             
             cleanedJson = cleanedJson.substring(firstBrace, lastBrace + 1);
-            evolved = godSafeParse(cleanedJson);
+            evolved = JSON.parse(cleanedJson); // NodeRouter handles the heavy lifting
             
             if (!evolved || !evolved.evolvedPrompt) {
                 throw new Error("Invalid structure in evolved prompt JSON.");
@@ -348,7 +337,6 @@ CRITICAL: The evolved prompt must be BETTER than the original. Don't just rephra
         } catch (parseError: any) {
             console.warn(`⚠️ JSON Parse failed: ${parseError.message}. Attempting aggressive regex extraction...`);
             
-            const responseText = result.choices[0]?.message?.content || "";
             // Aggressively match anything between "evolvedPrompt": " and the next unescaped quote followed by comma/brace
             const promptMatch = responseText.match(/"evolvedPrompt"\s*:\s*"(.*?)(?="(?:(?:\s*,)|(?:\s*\})))/s);
             
@@ -371,13 +359,7 @@ CRITICAL: The evolved prompt must be BETTER than the original. Don't just rephra
 
         return evolved;
     } catch (err: any) {
-        console.error(`❌ Prompt evolution failed on key #${currentGroqKeyIndex + 1}:`, err.message);
-        
-        if ((err.message.includes("429") || err.message.includes("rate_limit") || err.message.includes("503")) && attempt < GROQ_KEYS.length) {
-            rotateGroqKey();
-            await sleep(2000 * attempt);
-            return evolvePrompt(currentPrompt, insights, attempt + 1);
-        }
+        console.error(`❌ Prompt evolution failed even after NodeRouter waterfall:`, err.message);
         
         // ULTIMATE FALLBACK: 100% guarantee an update is returned
         console.warn('⚠️ All API attempts failed. Returning fallback augmented prompt to guarantee 100% update.');

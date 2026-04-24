@@ -156,9 +156,9 @@ Answer: c) Ethane
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your [revision](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet) with these related guides:
+Continue your [revision](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) with these related guides:
 
-- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet)
+- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)
 - 📖 [Redox Reactions Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/redox-reactions-class-11-revision-notes-neet)
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Hydrogen Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)
@@ -174,9 +174,9 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your [revision](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet) with these related guides:
+Continue your [revision](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) with these related guides:
 
-- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet)
+- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)
 - 📖 [Redox Reactions Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/redox-reactions-class-11-revision-notes-neet)
 - 📖 [Hydrogen Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)

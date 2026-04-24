@@ -9,33 +9,63 @@ import { JWT } from 'google-auth-library';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const SLUGS_FILE = path.join(__dirname, '../generated-slugs.txt');
 const HOST = 'https://examcompass.pages.dev';
 const MANIFEST_FILE = path.join(__dirname, '../public/seo-manifest.json');
+const HISTORY_FILE = path.join(__dirname, '../public/jules-reports/indexing-history.json');
 const MAX_DAILY_INDEXING = 200;
 
 async function indexNewUrls() {
     console.log('🚀 Checking for new URLs to index via Google Indexing API...');
 
-    if (!fs.existsSync(SLUGS_FILE)) {
-        console.log('📭 No generated-slugs.txt found. Skipping.');
-        return;
+    // 1. Load SEO Manifest (Contains all 10,000+ URLs)
+    let manifest: any = {};
+    if (fs.existsSync(MANIFEST_FILE)) {
+        manifest = JSON.parse(fs.readFileSync(MANIFEST_FILE, 'utf-8'));
+    } else {
+        console.error('❌ seo-manifest.json not found! Run npm run seo:regen first.');
+        process.exit(1);
     }
 
-    // Remove null bytes caused if powershell generated the UTF-16LE text file
-    const raw = fs.readFileSync(SLUGS_FILE, 'utf8').replace(/\0/g, '').replace(/^\uFEFF/, '');
+    const allPaths = Object.keys(manifest);
+    console.log(`📦 Found ${allPaths.length} total URLs in manifest.`);
+
+    // 2. Load History (To avoid wasting daily quota on already indexed URLs)
+    let history: any[] = [];
+    if (fs.existsSync(HISTORY_FILE)) {
+        try {
+            history = JSON.parse(fs.readFileSync(HISTORY_FILE, 'utf8'));
+        } catch (e) {
+            console.warn('⚠️ Could not parse indexing-history.json. Starting fresh.');
+        }
+    }
+
+    // Keep track of URLs we have successfully indexed
+    const indexedUrls = new Set(
+        history
+            .filter(item => item.status === 'Success')
+            .map(item => item.url)
+    );
+
+    // 3. Find un-indexed URLs and prioritize them
+    const unindexedPaths = allPaths.filter(p => !indexedUrls.has(`${HOST}${p}`));
     
-    const slugs = raw
-        .split('\n')
-        .map(s => s.trim())
-        .filter(Boolean);
+    // Sort logic: Blogs first, then Topics, then Questions, then core pages
+    unindexedPaths.sort((a, b) => {
+        const scoreA = a.startsWith('/blog/') ? 4 : a.startsWith('/topic/') ? 3 : a.startsWith('/q/') ? 2 : 1;
+        const scoreB = b.startsWith('/blog/') ? 4 : b.startsWith('/topic/') ? 3 : b.startsWith('/q/') ? 2 : 1;
+        return scoreB - scoreA;
+    });
 
-    if (slugs.length === 0) {
-        console.log('📭 No new slugs to index today.');
+    const targetPaths = unindexedPaths.slice(0, MAX_DAILY_INDEXING);
+
+    if (targetPaths.length === 0) {
+        console.log('📭 No new un-indexed URLs to push today. The site is fully indexed!');
         return;
     }
 
-    // Load credentials from environment variable or local file
+    console.log(`🎯 Selected ${targetPaths.length} high-priority URLs for today's quota.`);
+
+    // 4. Authenticate with Google
     const KEY_FILE = path.join(__dirname, '../service-account.json');
     let credentials;
     
@@ -54,8 +84,6 @@ async function indexNewUrls() {
         process.exit(1);
     }
 
-    console.log(`📦 Found ${slugs.length} new URLs. Authenticating with Google...`);
-
     const auth = new JWT({
         email: credentials.client_email,
         key: credentials.private_key,
@@ -63,64 +91,60 @@ async function indexNewUrls() {
     });
 
     const indexing = google.indexing({ version: 'v3', auth });
-
-    // Load SEO Manifest to check types
-    let manifest: any = {};
-    if (fs.existsSync(MANIFEST_FILE)) {
-        manifest = JSON.parse(fs.readFileSync(MANIFEST_FILE, 'utf-8'));
-    }
-
     const results: any[] = [];
     let indexingCount = 0;
-    let sitemapPingSent = false;
 
-    for (const slug of slugs) {
-        const url = `${HOST}/blog/${slug}`;
-        // Directly push blog URLs to the Indexing API instead of basic sitemap pings
+    // 5. Push to Google Indexing API
+    for (const targetPath of targetPaths) {
+        const url = `${HOST}${targetPath}`;
 
-        if (indexingCount >= MAX_DAILY_INDEXING) {
-            console.log(`⚠️ Daily Indexing API quota reached (${MAX_DAILY_INDEXING}). Skipping ${slug}.`);
-            results.push({ slug, url, status: 'Quota-Exceeded', timestamp: new Date().toISOString() });
-            continue;
-        }
-
-        console.log(`📡 Pinging Google Indexing API for: ${url}...`);
+        console.log(`[${indexingCount + 1}/${targetPaths.length}] 📡 Pinging API for: ${url}`);
 
         try {
             const res = await indexing.urlNotifications.publish({
                 auth,
                 requestBody: {
                     url: url,
-                    type: 'URL_UPDATED'
+                    type: 'URL_UPDATED' // Triggers Googlebot to crawl and index
                 }
             });
-            console.log(`✅ Success for ${slug} (Status: ${res.status})`);
+            console.log(`  ✅ Success (Status: ${res.status})`);
+            results.push({ path: targetPath, url, status: 'Success', timestamp: new Date().toISOString() });
             indexingCount++;
-            results.push({ slug, url, status: 'Success', timestamp: new Date().toISOString() });
         } catch (err: any) {
             const errorMsg = err.response?.data?.error?.message || err.message;
-            console.error(`❌ Indexing failed for ${slug}:`, errorMsg);
-            results.push({ slug, url, status: 'Failed', error: errorMsg, timestamp: new Date().toISOString() });
+            
+            if (errorMsg.includes('Quota exceeded')) {
+                console.log(`⚠️ Daily quota officially exceeded during push. Stopping here.`);
+                break;
+            }
+            
+            console.error(`  ❌ Indexing failed:`, errorMsg);
+            results.push({ path: targetPath, url, status: 'Failed', error: errorMsg, timestamp: new Date().toISOString() });
         }
         
+        // Small delay to prevent rate-limiting spikes
         await new Promise(r => setTimeout(r, 1000));
     }
 
-    // Save history to jules-reports
-    const HISTORY_FILE = path.join(__dirname, '../public/jules-reports/indexing-history.json');
-    let history: any[] = [];
-    if (fs.existsSync(HISTORY_FILE)) {
-        try {
-            history = JSON.parse(fs.readFileSync(HISTORY_FILE, 'utf8'));
-        } catch (e) {}
+    // 6. Save history so we don't duplicate work tomorrow
+    const finalHistory = [...results, ...history];
+    // Keep a robust log, maybe up to 100,000 entries so we don't forget old successes
+    // But trim if it gets absurdly massive. 20,000 is safe.
+    if (finalHistory.length > 20000) {
+        finalHistory.length = 20000; 
     }
     
-    // Add new results and keep last 50
-    const finalHistory = [...results, ...history].slice(0, 50);
+    // Ensure jules-reports directory exists
+    const reportsDir = path.dirname(HISTORY_FILE);
+    if (!fs.existsSync(reportsDir)) {
+        fs.mkdirSync(reportsDir, { recursive: true });
+    }
+
     fs.writeFileSync(HISTORY_FILE, JSON.stringify(finalHistory, null, 2));
     
     console.log(`\n📄 Indexing history updated: ${HISTORY_FILE}`);
-    console.log('🏁 Google Indexing API task complete.');
+    console.log(`🏁 Google Indexing API task complete. Successfully pushed ${indexingCount} URLs today.`);
 }
 
 indexNewUrls();

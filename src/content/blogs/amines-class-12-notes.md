@@ -8,19 +8,33 @@ practice_link: "/practice/amines-class-12-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [- Common mistakes in amines include not considering the effect of electron withdrawing groups on basicity](#common-mistakes-in-amines-include-not-considering-the-effect-of-electron-withdrawing-groups-on-basicity)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
-- Aliphatic amines are more basic than aromatic amines: $\frac{K_b \text{$ of aliphatic amine}}{K_b $\text{$ of aromatic amine}} > 1$
+- Aliphatic amines are more basic than aromatic amines: $\frac{K_b \text{$ of aliphatic amine}}{K_b $\text{$ of aromatic amine}} > $1
 - Basicity of amines depends on the availability of lone pair of electrons on nitrogen atom: $\text{Basicity} \propto \text{availability$ of lone pair}$
 - Alkyl amines are more basic than aryl amines due to $+I$ effect of alkyl group: $\text{Basicity of alkyl amine}$ > $\text{basicity$ of aryl amine}$
 - Electron withdrawing groups decrease the basicity of amines: $\text{Basicity} \propto \frac{1}{\text{electron withdrawing power}}$
-- K_b values of amines can be calculated using the formula: K_b = $\frac{K_w}{K_a$ $\text{$ of conjugate acid}}$
+- K_b values of amines can be calculated using the formula: K_b = $\frac{K_w}{K_a\text{$ of conjugate acid}}$
 - $\text{p}K_b = -\log K_b$
-- $\text{p}K_a$ of conjugate acid of amine can be calculated using the formula: $\text{p}K_a = 14 -$ $\text{p}K_b$
+- $\text{p}K_a$ of conjugate acid of amine can be calculated using the formula: $\text{p}K_a = 14 -\text{p}K_b$
 - Amines react with water to form salts: $\text{RNH}_2 + \text{H}_2\text{O} \ \text{RNH}_3^+ + \text{OH}^-$
 - Amines react with acids to form salts: $\text{RNH}_2 + \text{HCl} \ \text{RNH}_3^+ \text{Cl}^-$
 - Amines can be prepared by reduction of nitro compounds: $\text{RNO}_2 + 6\text{H} \ \text{RNH}_2 + 2\text{H}_2\text{O}$
 - Amines can be prepared by reduction of nitriles: $\text{RCN} + 2\text{H} \ \text{RNH}_2 + \text{HCN}$
-- Amines can be prepared by Gabriel  synthesis: $\text{Phthalimide} + \text{RX} \ \text{N-alkylphthalimide} \{\text{hydrazine}} \text{RNH}_2$
+- Amines can be prepared by Gabriel synthesis: $\text{Phthalimide} + \text{RX} \ \text{N-alkylphthalimide} \{\text{hydrazine}} \text{RNH}_2$
 
 ## 
 - Common mistakes in amines include not considering the effect of electron withdrawing groups on basicity
@@ -150,3 +164,5 @@ Continue your revision with these related guides:
 - 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
 - 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
 - 📖 [Biotechnology And Its Applications Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)
+$
+

@@ -139,7 +139,7 @@ If the velocity makes an angle **θ** with the field, the charge follows a helic
 
 ## <a id="5-torque-on-a-current-loop-n-a-uniform-magnetic-field"></a>5. Torque on a Current Loop and a Uniform Magnetic Field
 
-1.  Magnetic Dipole Moment **m = NIA**. (Direction perpendicular to [plane](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)).
+1.  Magnetic Dipole Moment **m = NIA**. (Direction perpendicular to [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)).
 2.  **Torque (τ) = m × B = mB sinθ**. (Proven)
 - This torque is the working principle of the **Moving Coil Galvanometer**.
 
@@ -201,7 +201,7 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 - 📖 [Electric Charges Fields Class 11 Biology Revision$ — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
 - 📖 [Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/current-electricity-class-11-revision-notes-neet)
 - 📖 [Laws Of Motion Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Plane Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
 
 ---
 
@@ -219,7 +219,7 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 - 📖 [Electric Charges Fields Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
 - 📖 [Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/current-electricity-class-11-revision-notes-neet)
 - 📖 [Laws Of Motion Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Plane Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
 
 ## 🪤 The 5 Mistakes That Cost Marks
 

@@ -172,7 +172,7 @@ Formed y the superposition of two waves of slightly different frequencies (**ν1
 - Used for tuning musical instruments and detecting gas leaks and mines.
 ---
 ## <a id="7-the-doppler-effect-master-derivation"></a>7. The Doppler Effect (Master Derivation)
-The apparent change and frequency of a wave due to the relative [motion](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) between the source and the observer.
+The apparent change and frequency of a wave due to the relative [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) between the source and the observer.
 ### <a id="i-the-general-formula"></a>I. The General Formula
 **f' = f [ (v ± v_o) / (v ∓ v_s) ]**
 Where:
@@ -228,12 +228,12 @@ Waves are the signature of the universe's energy. By mastering the mathematical 
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your [revision](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) with these related guides:
+Continue your [revision](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Thermodynamics Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/thermodynamics-class-11-revision-notes-neet)
 - 📖 [Mathematical Induction Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
 - 📖 [Mechanical Properties Of Solids Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Plane Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
 
 ---
 
@@ -244,10 +244,10 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your [revision](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) with these related guides:
+Continue your [revision](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Mathematical Induction Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
 - 📖 [Mechanical Properties Of Solids Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Plane Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
 

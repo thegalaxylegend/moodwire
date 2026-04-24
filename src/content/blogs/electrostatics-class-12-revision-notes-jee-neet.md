@@ -290,9 +290,9 @@ D W = q^2V
 Continue your [revision](/blog/permutations-and-combinations-class-11-revision-notes-jee) with these related guides:
 
 - 📖 [Magnetic Effects of Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetic-effects-of-current-class-12-notes)
-- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-n-combinations-class-11-revision-notes-jee)
+- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
 - 📖 [Electromagnetic Induction Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
-- 📖 [Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/limits-n-derivatives-class-11-revision-notes-jee)
+- 📖 [Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/limits-and-derivatives-class-11-revision-notes-jee)
 
 ---
 
@@ -308,7 +308,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 Continue your revision with these related guides:
 
 - 📖 [Magnetic Effects of Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetic-effects-of-current-class-12-notes)
-- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-n-combinations-class-11-revision-notes-jee)
+- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
 - 📖 [Wave Optics Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/wave-optics-class-12-notes)
 - 📖 [Electromagnetic Induction Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
 

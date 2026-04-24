@@ -130,7 +130,7 @@ A combination is a selection of items where the order of selection does not matt
 
 **Q3: A committee of 3 persons is to be constituted from a group of 2 men 3 women. In how many ways can this be done?**
 **Answer:**
-- Order doesn't matter, so use [combinations](/blog/permutations-n-combinations-class-11-revision-notes-jee).
+- Order doesn't matter, so use [combinations](/blog/permutations-and-combinations-class-11-revision-notes-jee).
 - Total people = 2 + 3 = 5. Select 3.
 - 5C3 = 5! / (3!2!) = (5 × 4) / 2 = **10 ways**.
 
@@ -144,7 +144,7 @@ A combination is a selection of items where the order of selection does not matt
 
 ## <a id="conclusion"></a>Conclusion
 
-[permutations](/blog/permutations-n-combinations-class-11-revision-notes-jee) n Combinations transform the way we see complexity. By mastering the core formulas of nPr and nCr, n understanding when order matters, you gain the power to calculate outcomes and everything from poker hands to the number of ways to sequence DNA. Keep your factorials small and your logic sharp!
+[permutations](/blog/permutations-and-combinations-class-11-revision-notes-jee) n Combinations transform the way we see complexity. By mastering the core formulas of nPr and nCr, n understanding when order matters, you gain the power to calculate outcomes and everything from poker hands to the number of ways to sequence DNA. Keep your factorials small and your logic sharp!
 
 ---
 
@@ -157,7 +157,7 @@ A combination is a selection of items where the order of selection does not matt
 
 Continue your [revision](/blog/conic-sections-class-11-revision-notes-jee) with these related guides:
 
-- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-n-combinations-class-11-revision-notes-jee)
+- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
 - 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)
 - 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)
 - 📖 [Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-class-11-revision-notes-jee)
@@ -175,7 +175,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your [revision](/blog/conic-sections-class-11-revision-notes-jee) with these related guides:
 
-- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-n-combinations-class-11-revision-notes-jee)
+- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
 - 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)
 - 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)
 - 📖 [Electric Charges Fields Class 11 Mathematics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)

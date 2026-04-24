@@ -98,7 +98,7 @@ This formula is an extension of the Pythagorean theorem into three dimensions.
 
 ## <a id="4-section-formula"></a>4. Section Formula
 
-If a point R divides the [line](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) segment joining P(x₁, y₁, z₁) n Q(x₂, y₂, z₂) n the ratio **m : n**:
+If a point R divides the [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) segment joining P(x₁, y₁, z₁) n Q(x₂, y₂, z₂) n the ratio **m : n**:
 1.  **Internal Division:**
     R = [(mx₂ + nx₁) / (m+n), (my₂ + ny₁) / (m+n), (mz₂ + nz₁) / (m+n)]
 2.  **External Division:**
@@ -128,9 +128,9 @@ The centroid of a triangle with vertices (x₁, y₁, z₁), (x₂, y₂, z₂),
 - d = √[(-4 - 1)² + (1 - (-3))² + (2 - 4)²]
 - d = √[(-5)² + (4)² + (-2)²]
 - d = √[25 + 16 + 4] = √45
-- **d = 3√5 [units](/blog/units-n-measurements-class-11-revision-notes-jee-neet)**.
+- **d = 3√5 [units](/blog/units-and-measurements-class-11-revision-notes-jee-neet)**.
 
-**Q3: Find the coordinates of the point which divides the [line](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) joining (1, -2, 3) n (3, 4, -5) internally and the ratio 2 : 3.**
+**Q3: Find the coordinates of the point which divides the [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) joining (1, -2, 3) n (3, 4, -5) internally and the ratio 2 : 3.**
 **Answer:**
 - x = [2(3) + 3(1)] / 5 = 9/5
 - y = [2(4) + 3(-2)] / 5 = 2/5
@@ -163,7 +163,7 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 - 📖 [Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/straight-lines-class-11-revision-notes-jee-neet)
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
 - 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
 
 ---
 
@@ -181,7 +181,7 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 - 📖 [Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/straight-lines-class-11-revision-notes-jee-neet)
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
 - 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
 
 ## 🪤 The 5 Mistakes That Cost Marks
 

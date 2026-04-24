@@ -171,7 +171,7 @@ $1$
 
 ---
 
-**2. A [square](/blog/squares-n-square-roots-class-8-notes) plot has a perimeter of 40m. What is the length of its side?**
+**2. A [square](/blog/squares-and-square-roots-class-8-notes) plot has a perimeter of 40m. What is the length of its side?**
 **A)**      8m
 **B)**      10m
 **C)**      12m
@@ -223,7 +223,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-8/
 
 Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
 
-- 📖 [Exponents and Powers Class 8 Mathematics Recap — Grandmaster Guide](/blog/exponents-n-powers-class-8-notes)
-- 📖 [Linear Equations and One Variable Class 8 Mathematics Recap — Grandmaster Guide](/blog/linear-equations-n-one-variable-class-8-notes)
+- 📖 [Exponents and Powers Class 8 Mathematics Recap — Grandmaster Guide](/blog/exponents-and-powers-class-8-notes)
+- 📖 [Linear Equations and One Variable Class 8 Mathematics Recap — Grandmaster Guide](/blog/linear-equations-in-one-variable-class-8-notes)
 - 📖 [Rational Numbers Class 8 Mathematics Recap — Grandmaster Guide](/blog/rational-numbers-class-8-notes)
-- 📖 [Squares and Square Roots Class 8 Mathematics Recap — Grandmaster Guide](/blog/squares-n-square-roots-class-8-notes)
+- 📖 [Squares and Square Roots Class 8 Mathematics Recap — Grandmaster Guide](/blog/squares-and-square-roots-class-8-notes)

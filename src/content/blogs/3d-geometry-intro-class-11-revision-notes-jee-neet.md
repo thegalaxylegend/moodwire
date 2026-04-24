@@ -22,13 +22,13 @@ manualReview: false
 10. [📚 Related Topics](#related-topics)
 
 ## ⚡ Formula Bank
-- The direction cosines of a line satisfy the relation $\cos^2 \alpha + \cos^2 \beta + \cos^2 \gamma = 1$
+- The direction cosines of a line satisfy the relation $\\cos^2 \alpha + \\cos^2 \beta + \\cos^2 \gamma = 1$
 - The direction ratios of a line are $\frac{x_2 - x_1}{l}$, $\frac{y_2 - y_1}{m}$, $\frac{z_2 - z_1}{n}$
 - The equation of a line in 3D space is $\frac{x - x_1}{a} = \frac{y - y_1}{b} = \frac{z - z_1}{c}$
-- The equation of a plane in 3D space is a(x - x_1) + b(y - y_1) + c(z - z_1) = 0$
+- The equation of a plane in 3D space is a(x - x_1) + b(y - y_1) + c(z - z_1) = $0
 - The distance between two points $(x_1, y_1, z_1)$ and $(x_2, y_2, z_2)$ is $\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2}$
-- The distance of a point $(x_1, y_1, z_1)$ from a plane tax + by + CZ + d = 0$ is $\frac{|ax_1 + by_1 + CZ_1 + d|}{\sqrt{a^2 + b^2 + c^2}}$
-- The angle between two lines with direction ratios a_1, b_1, c_1$ and a_2, b_2, c_2$ is given by $\cos \theta = \frac{a_1a_2 + b_1b_2 + c_1c_2}{\{a_1^2 + b_1^2 + c_1^2} \{a_2^2 + b_2^2 + c_2^2}}$
+- The distance of a point $(x_1, y_1, z_1)$ from a plane tax + by + CZ + d = $0 is \frac{|ax_1 + by_1 + CZ_1 + d|}{\sqrt{a^2 + b^2 + c^2}$}$
+- The angle between two lines with direction ratios a_1, b_1, c_1$ and a_2, b_2, c_2$ is given by $\\cos \theta = \frac{a_1a_2 + b_1b_2 + c_1c_2}{\{a_1^2 + b_1^2 + c_1^2} \{a_2^2 + b_2^2 + c_2^2}}$
 ## 
 - To find the equation of a line passing through two points, use the two-point form: $\frac{x - x_1}{x_2 - x_1} = \frac{y - y_1}{y_2 - y_1} = \frac{z - z_1}{z_2 - z_1}$
 - To find the equation of a plane passing through three points, use the intercept form: $\frac{x}{a} + \frac{y}{b} + \frac{z}{c} = 1$
@@ -72,12 +72,12 @@ manualReview: false
 - Check all answers and solutions
 ## 📝 Practice MCQs
 **1. Question:** Find the equation of the line passing through the points $(1, 2, 3)$ and $(4, 5, 6)$.
-A) $\frac{x - 1}{2} = \frac{y - 2}{2} = \frac{z - 3}{2}$
-B) $\frac{x - 1}{3} = \frac{y - 2}{3} = \frac{z - 3}{3}$
-C) $\frac{x - 1}{4} = \frac{y - 2}{4} = \frac{z - 3}{4}$
-D) $\frac{x - 1}{5} = \frac{y - 2}{5} = \frac{z - 3}{5}$
+A) \frac{x - 1}{2} = \frac{y - 2}{2} = \frac{z - 3}{2}
+B) \frac{x - 1}{3} = \frac{y - 2}{3} = \frac{z - 3}{3}
+C) \frac{x - 1}{4} = \frac{y - 2}{4} = \frac{z - 3}{4}
+D) \frac{x - 1}{5} = \frac{y - 2}{5} = \frac{z - 3}{5}
 
-**Answer:** B) $\frac{x - 1}{3} = $\frac{y - 2}{3} = \frac{z - 3}{3}$
+**Answer:** B) $\frac{x - 1}{3} = \frac{y - 2}{3}$ = $\frac{z - 3}${3}$
 
 **2. Question:** Find the distance between the points $(1, 2, 3)$ and $(4, 5, 6)$.
 A) $3\sqrt{2}$
@@ -96,20 +96,20 @@ D) ex + y + z = $24$
 **Answer:** B) ex + y + z = $12$
 
 **4. Question:** Find the angle between the lines with direction ratios $1, 2, 3$ and $4, 5, 6$.
-A) $\frac{\pi}{2}$
-B) $\frac{\pi}{3}$
-C) $\frac{\pi}{4}$
-D) $\frac{\pi}{6}$
+A) \frac{\pi}{2}
+B) \frac{\pi}{3}
+C) \frac{\pi}{4}
+D) \frac{\pi}{6}
 
-**Answer:** A) $\frac{\pi}{2}$
+**Answer:** A) \frac{\pi}{2}
 
 **5. Question:** Find the distance of the point $(1, 2, 3)$ from the plane ex + y + z = $6.$
-A) $\frac{1}{\sqrt{3}}$
-B) $\frac{2}{\sqrt{3}}$
-C) $\frac{3}{\sqrt{3}}$
-D) $\frac{4}{\sqrt{3}}$
+A) \frac{1}{\sqrt{3}}
+B) \frac{2}{\sqrt{3}}
+C) \frac{3}{\sqrt{3}}
+D) \frac{4}{\sqrt{3}}
 
-**Answer:** C) $\frac{3}{\sqrt{3}}$
+**Answer:** C) \frac{3}{\sqrt{3}} 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/3d-geometry-intro-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

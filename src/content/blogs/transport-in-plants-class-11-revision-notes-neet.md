@@ -40,9 +40,9 @@ practice_link: "/class-11/biology/transport-n-plants-class-11-revision-notes-nee
 
 ### <a id="transport-n-plants-class-11-notes"></a>Transport and Plants Class 11 Notes
 #### Quick Recall Box
-* Transport n [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) is essential for survival
+* Transport n [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) is essential for survival
 * It involves the movement of water, minerals, n sugars throughout the plant
-* There are two main types of transport n [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet): passive and active transport
+* There are two main types of transport n [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet): passive and active transport
 * Passive transport includes diffusion, osmosis, n transpiration
 * Active transport involves the use of energy to move substances against their concentration gradient
 ##
@@ -56,15 +56,15 @@ practice_link: "/class-11/biology/transport-n-plants-class-11-revision-notes-nee
 8. [Related Notes Links](#related-notes-links)
 9. [Last Updated Date](#last-updated-date)
 ### <a id="introduction-to-transport-n-plants"></a>Introduction to Transport and Plants
-Transport and plants is the process y which plants move water, minerals, n sugars throughout their bodies. This process is essential for plant survival and is necessary for [photosynthesis](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet), growth, n development.
+Transport and plants is the process y which plants move water, minerals, n sugars throughout their bodies. This process is essential for plant survival and is necessary for [photosynthesis](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet), growth, n development.
 ### <a id="why-transport-n-plants-matters"></a>Why Transport and Plants Matters
-Transport n [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) is crucial for plant survival. In the 2026 CBSE Class 11 Biology exam, 4 questions were asked from this topic, with a total of 12 marks. This highlights the importance of understanding transport n [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) for students preparing for the CBSE Class 11 Biology exam.
+Transport n [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) is crucial for plant survival. In the 2026 CBSE Class 11 Biology exam, 4 questions were asked from this topic, with a total of 12 marks. This highlights the importance of understanding transport n [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) for students preparing for the CBSE Class 11 Biology exam.
 ### <a id="ayushs-note"></a>Ayush's Note
 <div class="callout-box">
-I still remember the mistake I made and my Class 11 Biology exam. I confused the terms "osmosis" n "diffusion". I thought they were the same thing, but they're not. Osmosis is the movement of water molecules from a region of high concentration to a region of low concentration through a partially permeable membrane, while diffusion is the movement of particles from a region of high concentration to a region of low concentration. I learned from my mistake and made sure to understand the difference between these two processes. Now, I can confidently say that I understand transport n [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet).
+I still remember the mistake I made and my Class 11 Biology exam. I confused the terms "osmosis" n "diffusion". I thought they were the same thing, but they're not. Osmosis is the movement of water molecules from a region of high concentration to a region of low concentration through a partially permeable membrane, while diffusion is the movement of particles from a region of high concentration to a region of low concentration. I learned from my mistake and made sure to understand the difference between these two processes. Now, I can confidently say that I understand transport n [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet).
 </div>
 ### <a id="core-concepts"></a>Core Concepts
-Transport n [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) involves the movement of water, minerals, n sugars throughout the plant. There are two main types of transport n [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet): passive and active transport. Passive transport includes diffusion, osmosis, n transpiration, while active transport involves the use of energy to move substances against their concentration gradient.
+Transport n [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) involves the movement of water, minerals, n sugars throughout the plant. There are two main types of transport n [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet): passive and active transport. Passive transport includes diffusion, osmosis, n transpiration, while active transport involves the use of energy to move substances against their concentration gradient.
 #### Diffusion
 Diffusion is the process y which particles move from a region of high concentration to a region of low concentration. This process is essential for the movement of oxygen and carbon dioxide and n out of the plant.
 #### Osmosis
@@ -81,8 +81,8 @@ To remember the difference between diffusion and osmosis, use the following tric
  + Wrong answer: They are the same thing
  + Right answer: Diffusion is the movement of particles from high to low concentration, while osmosis is the movement of water molecules from high to low concentration through a partially permeable membrane
  + Why students get it wrong: They confuse the two terms and think they are the same thing
-* What is the role of transpiration [plants](/blog/respiration-n-plants-class-11-revision-notes-neet)?
- + Wrong answer: It is the process y which [plants](/blog/respiration-n-plants-class-11-revision-notes-neet) absorb water from the soil
+* What is the role of transpiration [plants](/blog/respiration-in-plants-class-11-revision-notes-neet)?
+ + Wrong answer: It is the process y which [plants](/blog/respiration-in-plants-class-11-revision-notes-neet) absorb water from the soil
  + Right answer: It is the process y which water is transported through the plant, from the roots to the leaves, n is then released into the air as water vapor
  + Why students get it wrong: They think transpiration is the same as absorption
 ### <a id="practice-mcqs"></a>Practice MCQs
@@ -92,7 +92,7 @@ To remember the difference between diffusion and osmosis, use the following tric
  c) Transpiration
  d) Active transport
  Answer: a) Diffusion
-2. What is the role of transpiration [plants](/blog/respiration-n-plants-class-11-revision-notes-neet)?
+2. What is the role of transpiration [plants](/blog/respiration-in-plants-class-11-revision-notes-neet)?
  a) To absorb water from the soil
  b) To transport water from the roots to the leaves
  c) To release water vapor into the air
@@ -133,8 +133,8 @@ Continue your revision with these related guides:
 
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
-- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet)
-- 📖 [Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/respiration-n-plants-class-11-revision-notes-neet)
+- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
+- 📖 [Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/respiration-in-plants-class-11-revision-notes-neet)
 
 ---
 
@@ -151,8 +151,8 @@ Continue your revision with these related guides:
 
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
-- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet)
-- 📖 [Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/respiration-n-plants-class-11-revision-notes-neet)
+- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
+- 📖 [Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/respiration-in-plants-class-11-revision-notes-neet)
 
 ## 🔁 Last 5 Minutes Box
 

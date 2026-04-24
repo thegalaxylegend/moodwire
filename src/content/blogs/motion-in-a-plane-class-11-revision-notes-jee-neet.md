@@ -164,7 +164,7 @@ If rain falls vertically (**v_r**) n a man moves horizontally (**v’m**):
 **Q3: A ball is dropped from a [moving](/blog/moving-charges-magnetism-class-11-revision-notes-neet) train. What is its trajectory as seen from (a) ground, (b) inside train?**
 **Answer:**
 - (a) **Ground:** A parabola, because it has horizontal velocity (inherited from the train) n vertical acceleration (gravity).
-- (b) **Inside Train:** A vertical [straight](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) line, because the horizontal velocities of the ball and the train are the same.
+- (b) **Inside Train:** A vertical [straight](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) line, because the horizontal velocities of the ball and the train are the same.
 
 ---
 
@@ -190,7 +190,7 @@ If rain falls vertically (**v_r**) n a man moves horizontally (**v’m**):
 
 Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) with these related guides:
 
-- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
@@ -208,7 +208,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) with these related guides:
 
-- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)

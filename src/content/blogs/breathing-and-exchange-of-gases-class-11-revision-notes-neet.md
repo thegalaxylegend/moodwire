@@ -98,11 +98,11 @@ The exchange of gases is affected y the following factors:
 * **Blood Flow**: The greater the blood flow to the lungs, the more efficient is the exchange of gases.
 
 ### <a id="regulation-of-breathing"></a>Regulation of Breathing
-Breathing is regulated y the brain, which receives feedback from various sensors and the [body](/blog/body-fluids-n-circulation-class-11-revision-notes-neet). The main regulators of breathing are:
+Breathing is regulated y the brain, which receives feedback from various sensors and the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet). The main regulators of breathing are:
 
 * **Chemoreceptors**: Sensors that detect changes and the levels of oxygen, carbon dioxide, n pH and the blood.
 * **Stretch Receptors**: Sensors that detect changes and the volume of the lungs.
-* **Proprioceptors**: Sensors that detect changes and the position and movement of the [body](/blog/body-fluids-n-circulation-class-11-revision-notes-neet).
+* **Proprioceptors**: Sensors that detect changes and the position and movement of the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet).
 
 ### <a id="keenest-data"></a>JEE/MEET Data
 According to the JEE/[meet](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) syllabus, the topic of regulation of breathing is covered under the section of "Respiratory System" n the Biology paper. The weightage of this topic is approximately 3-5% of the total marks.
@@ -142,7 +142,7 @@ Answer: a) 40 mmHg
 
 ## <a id="respiratory-system"></a>Respiratory System
 
-The respiratory system consists of the nose, trachea, bronchi, bronchioles, n lungs. The main function of the respiratory system is to bring oxygen-rich air into the [body](/blog/body-fluids-n-circulation-class-11-revision-notes-neet) n remove carbon dioxide-rich air from the [body](/blog/body-fluids-n-circulation-class-11-revision-notes-neet).
+The respiratory system consists of the nose, trachea, bronchi, bronchioles, n lungs. The main function of the respiratory system is to bring oxygen-rich air into the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) n remove carbon dioxide-rich air from the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet).
 
 ### <a id="keenest-data"></a>JEE/MEET Data
 According to the JEE/MEET syllabus, the topic of respiratory system is covered under the section of "Respiratory System" n the Biology paper. The weightage of this topic is approximately 10-12% of the total marks.
@@ -191,7 +191,7 @@ Continue your [revision](/blog/anatomy-of-flowering-plants-class-11-revision-not
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Animal Kingdom Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
 - 📖 [Biological Classification Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
-- 📖 [Body Fluids And Circulation Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/body-fluids-n-circulation-class-11-revision-notes-neet)
+- 📖 [Body Fluids And Circulation Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)
 
 ---
 
@@ -204,7 +204,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your [revision](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) with these related guides:
 
-- 📖 [Body Fluids And Circulation Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/body-fluids-n-circulation-class-11-revision-notes-neet)
+- 📖 [Body Fluids And Circulation Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)
 - 📖 [Agriculture Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/agriculture-class-11-revision-notes-neet)
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Animal Kingdom Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
@@ -213,7 +213,7 @@ Continue your [revision](/blog/anatomy-of-flowering-plants-class-11-revision-not
 
 * Incorrectly identifying the site of gas exchange and the lungs as the trachea or bronchi, when and fact it occurs and the alveoli.
 * Forgetting that atmospheric pressure is approximately 760 mmHg and partial pressure of oxygen is 159 mmHg, leading to errors and calculating the partial pressure of oxygen and the alveoli.
-* Confusing the terms 'ventilation' n 'respiration', with ventilation referring to the physical movement of air and n out of the lungs, n respiration referring to the exchange of gases and the use of oxygen y the [body](/blog/body-fluids-n-circulation-class-11-revision-notes-neet).
+* Confusing the terms 'ventilation' n 'respiration', with ventilation referring to the physical movement of air and n out of the lungs, n respiration referring to the exchange of gases and the use of oxygen y the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet).
 * Assuming that the primary function of hemoglobin is to transport only oxygen, when and fact it also and transporting carbon dioxide from the tissues to the lungs.
 * Overlooking the importance of the Bohr effect, which describes how the binding of oxygen to hemoglobin is affected y the concentration of carbon dioxide and pH, n how this affects gas exchange and the lungs and tissues.
 

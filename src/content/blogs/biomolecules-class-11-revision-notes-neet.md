@@ -40,7 +40,7 @@ practice_link: "/class-11/biology/biomolecules-class-11-revision-notes-neet"
 ### <a id="biomolecules-class-11-notes"></a>Biomolecules Class 11 Notes
 #### Quick Recall Box
 * Biomolecules are the building blocks of life.
-* Carbohydrates, proteins, lipids, n nucleic [acids](/blog/aldehydes-ketones-n-carboxylic-acids-class-12-notes) are the main types of biomolecules.
+* Carbohydrates, proteins, lipids, n nucleic [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes) are the main types of biomolecules.
 * Biomolecules perform a wide range of functions and living organisms.
 * Biomolecules are composed of carbon, hydrogen, oxygen, nitrogen, n phosphorus.
 * Biomolecules are essential for the structure and function of cells.
@@ -56,7 +56,7 @@ practice_link: "/class-11/biology/biomolecules-class-11-revision-notes-neet"
 9. [Last Updated Date](#last-updated-date)
 ### <a id="introduction-to-biomolecules"></a>Introduction to Biomolecules
 Biomolecules are the building blocks of life. They are the molecules that make up all living things, from the simplest bacteria to the most complex organisms. Biomolecules are composed of carbon, hydrogen, oxygen, nitrogen, n phosphorus, n they perform a wide range of functions and living organisms.
-Biomolecules are classified into four main types: carbohydrates, proteins, lipids, n nucleic [acids](/blog/aldehydes-ketones-n-carboxylic-acids-class-12-notes). Each type of biomolecule has its own unique structure and function, n they all work together to maintain the structure and function of cells.
+Biomolecules are classified into four main types: carbohydrates, proteins, lipids, n nucleic [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes). Each type of biomolecule has its own unique structure and function, n they all work together to maintain the structure and function of cells.
 ### <a id="why-biomolecules-matter"></a>Why Biomolecules Matter
 Biomolecules are essential for the structure and function of cells. They provide the energy and nutrients that cells need to function, n they play a critical role and the transmission of genetic information. Biomolecules are also involved and the regulation of cellular processes, such as metabolism, growth, n differentiation.
 In the context of the JEE n [meet](/blog/animal-kingdom-class-11-revision-notes-neet) exams, biomolecules are an important topic. In the 2026 JEE Mains exam, 3 questions came from this topic, n and the 2026 [meet](/blog/animal-kingdom-class-11-revision-notes-neet) exam, 5 questions came from this topic. Therefore, it is essential to have a thorough understanding of biomolecules to perform well and these exams.
@@ -65,16 +65,16 @@ In the context of the JEE n [meet](/blog/animal-kingdom-class-11-revision-notes-
 Carbohydrates are the primary source of energy for cells. They are composed of carbon, hydrogen, n oxygen, n they are classified into two main types: simple sugars (monosaccharides) n complex sugars (polysaccharides).
 The general formula for carbohydrates is BC_x(H_2O)_yo, where x and y are integers. The most common monosaccharides are glucose, fructose, n ribose, n the most common polysaccharides are starch, cellulose, n glycogen.
 #### Proteins
-Proteins are complex biomolecules that are composed of amino [acids](/blog/aldehydes-ketones-n-carboxylic-acids-class-12-notes). They are involved and a wide range of cellular processes, including metabolism, growth, n differentiation.
+Proteins are complex biomolecules that are composed of amino [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes). They are involved and a wide range of cellular processes, including metabolism, growth, n differentiation.
 The general formula for proteins is BC_oh_n_ZO_we, where x, y, oz, n we are integers. Proteins are classified into two main types: fibrous proteins and globular proteins. Fibrous proteins are long, filamentous proteins that provide structural support, while globular proteins are spherical proteins that are involved and a wide range of cellular processes.
 #### Lipids
 Lipids are a diverse group of biomolecules that are composed of carbon, hydrogen, n oxygen. They are involved and the storage of energy, the transmission of signals, n the maintenance of cellular membranes.
 The general formula for lipids is BC_oh_yo_Zn, where x, y, n oz are integers. Lipids are classified into two main types: saturated lipids and unsaturated lipids. Saturated lipids are solid at room temperature, while unsaturated lipids are liquid at room temperature.
 #### Nucleic Acids
-Nucleic [acids](/blog/aldehydes-ketones-n-carboxylic-acids-class-12-notes) are complex biomolecules that are composed of nucleotides. They are involved and the transmission of genetic information and the regulation of cellular processes.
+Nucleic [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes) are complex biomolecules that are composed of nucleotides. They are involved and the transmission of genetic information and the regulation of cellular processes.
 The general formula for nucleic acids is $(C_oh_n_ZO_WP_v)_no,$ where x, y, oz, we, n DVD are integers, n and is the number of nucleotides. Nucleic acids are classified into two main types: DNA (deoxyribonucleic acid) n RNA (ribonucleic acid).
 ### <a id="shortcut-formula trick"></a>Shortcut Formula/Trick
-To remember the types of biomolecules, use the acronym "CLIP": Carbohydrates, Lipids, Nucleic [acids](/blog/aldehydes-ketones-n-carboxylic-acids-class-12-notes), n Proteins.
+To remember the types of biomolecules, use the acronym "CLIP": Carbohydrates, Lipids, Nucleic [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes), n Proteins.
 ### <a id="trap-questions exceptions"></a>Trap Questions/Exceptions
 * Wrong answer: Biomolecules are only composed of carbon, hydrogen, n oxygen.
 Right answer: Biomolecules are composed of carbon, hydrogen, oxygen, nitrogen, n phosphorus.
@@ -82,7 +82,7 @@ Why students get it wrong: Students often forget to include nitrogen and phospho
 * Wrong answer: Carbohydrates are only used for energy storage.
 Right answer: Carbohydrates are used for energy storage, but they are also used for other cellular processes, such as cell signaling and cell adhesion.
 Why students get it wrong: Students often oversimplify the functions of carbohydrates.
-* Wrong answer: Proteins are only composed of amino [acids](/blog/aldehydes-ketones-n-carboxylic-acids-class-12-notes).
+* Wrong answer: Proteins are only composed of amino [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes).
 Right answer: Proteins are composed of amino acids, but they can also contain other molecules, such as lipids and carbohydrates.
 Why students get it wrong: Students often forget to include other molecules and the composition of proteins.
 ### <a id="practice-MCQs"></a>Practice MCQs
@@ -150,7 +150,7 @@ Continue your [revision](/blog/animal-kingdom-class-11-revision-notes-neet) with
     * **Lipids**: Triglycerides, Phospholipids, Steroids (Cholesterol), Waxes
     * **Nucleic acids**: DNA (Deoxyribonucleic acid), RNA (Ribonucleic acid), Nucleotide structure (Sugar, Phosphate, Nitrogenous base)
     * **Enzymes**: Biological catalysts, Active site, Substrate, Coenzymes, Cofactors
-    * ** Hormones**: [chemical](/blog/chemical-coordination-n-integration-class-11-revision-notes-neet) messengers, Peptide hormones, Steroid hormones
+    * ** Hormones**: [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) messengers, Peptide hormones, Steroid hormones
 ## ⚗️ Chemical Quick Reference (Verified via PubChem)
 
 | Compound | Formula | MOL. Weight | Source |

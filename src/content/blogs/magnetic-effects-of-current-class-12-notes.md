@@ -89,7 +89,7 @@ By mastering these concepts and formulas, you'll be well-equipped to tackle the 
 
 By being aware of these common pitfalls and focusing on the key concepts, you'll be able to navigate the complexities of **Magnetic Effects of [current](/blog/alternating-current-class-12-notes)** with confidence. As we delve deeper into this topic, remember to stay curious, ask questions, n seek clarification when needed. With persistence and practice, you'll be well on your way to achieving excellence and Physics. 
 
-**Exam Day Summary:** On the exam day, make sure to allocate sufficient time to questions related to **Magnetic Effects of Current**. Focus on applying the concepts and formulas to solve problems, n don't hesitate to use diagrams and illustrations to support your answers. With a solid understanding of the subject [matter](/blog/magnetism-n-matter-class-12-notes) n a strategic approach to problem-solving, you'll be able to tackle the challenges of **Magnetic Effects of Current** with confidence and precision.
+**Exam Day Summary:** On the exam day, make sure to allocate sufficient time to questions related to **Magnetic Effects of Current**. Focus on applying the concepts and formulas to solve problems, n don't hesitate to use diagrams and illustrations to support your answers. With a solid understanding of the subject [matter](/blog/magnetism-and-matter-class-12-notes) n a strategic approach to problem-solving, you'll be able to tackle the challenges of **Magnetic Effects of Current** with confidence and precision.
 
 ## <a id="what-is-the-magnetic-field-n-how-is-it-generated"></a>What is the Magnetic Field, and How is it generated?
 
@@ -345,7 +345,7 @@ A) /(2 × (0.2 m)^2) × (0.4 m/0.2 m) = 0.0016 T or 1.6 × 10^-3 T or approximat
 
 Continue your [revision](/blog/electrostatics-class-12-revision-notes-jee-neet) with these related guides:
 
-- 📖 [Magnetism and Matter Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetism-n-matter-class-12-notes)
+- 📖 [Magnetism and Matter Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetism-and-matter-class-12-notes)
 - 📖 [Electromagnetic Induction Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
 - 📖 [Electrostatics Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electrostatics-class-12-revision-notes-jee-neet)
 - 📖 [Alternating Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alternating-current-class-12-notes)
@@ -363,7 +363,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your revision with these related guides:
 
-- 📖 [Magnetism and Matter Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetism-n-matter-class-12-notes)
+- 📖 [Magnetism and Matter Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetism-and-matter-class-12-notes)
 - 📖 [Electromagnetic Induction Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
 - 📖 [Electrostatics Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electrostatics-class-12-revision-notes-jee-neet)
 - 📖 [Alternating Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alternating-current-class-12-notes)

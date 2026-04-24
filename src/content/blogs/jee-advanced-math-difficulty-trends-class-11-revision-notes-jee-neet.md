@@ -91,7 +91,7 @@ Continue your [revision](/blog/structure-of-atom-class-11-revision-notes-jee-nee
 - 📖 [Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet)
 - 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
 - 📖 [Classification Of Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-of-elements-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
 
 ---
 

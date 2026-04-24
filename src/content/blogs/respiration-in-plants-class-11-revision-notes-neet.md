@@ -43,19 +43,19 @@ Respiration and plants is a vital process that occurs and cells, where glucose i
 
 ## <a id="why-respiration-n-plants-matters"></a>Why Respiration and Plants Matters
 
-Respiration [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) is important because it provides energy for various cellular activities, such as growth, development, n maintenance. In the JEE Mains 2026 Session 1, 2 questions were asked from this topic. Understanding respiration [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) is crucial for students preparing for competitive exams like JEE and NEET.
+Respiration [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) is important because it provides energy for various cellular activities, such as growth, development, n maintenance. In the JEE Mains 2026 Session 1, 2 questions were asked from this topic. Understanding respiration [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) is crucial for students preparing for competitive exams like JEE and NEET.
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
 <div class="callout-box">
-I once struggled to understand the difference between aerobic and anaerobic respiration. I thought that [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) only underwent anaerobic respiration, but that's not true. [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet), like animals, require oxygen for aerobic respiration. I realized my mistake when I was solving a practice question that asked about the byproducts of aerobic respiration [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet). Now, I make sure to clearly distinguish between the two types of respiration.
+I once struggled to understand the difference between aerobic and anaerobic respiration. I thought that [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) only underwent anaerobic respiration, but that's not true. [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet), like animals, require oxygen for aerobic respiration. I realized my mistake when I was solving a practice question that asked about the byproducts of aerobic respiration [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet). Now, I make sure to clearly distinguish between the two types of respiration.
 </div>
 
 ## <a id="core-concepts-of-respiration-n-plants"></a>Core Concepts of Respiration and Plants
 
-Respiration [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) occurs and three stages: glycolysis, citric acid cycle, n oxidative phosphorylation.
-* **Glycolysis**: This stage occurs and the cytosol of the [cell](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet) n involves the breakdown of glucose into pyruvate.
-* **Citric Acid [cycle](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet)**: This stage occurs and the mitochondria and involves the breakdown of pyruvate into acetyl-CoA, which then enters the citric acid [cycle](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet).
+Respiration [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) occurs and three stages: glycolysis, citric acid cycle, n oxidative phosphorylation.
+* **Glycolysis**: This stage occurs and the cytosol of the [cell](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) n involves the breakdown of glucose into pyruvate.
+* **Citric Acid [cycle](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)**: This stage occurs and the mitochondria and involves the breakdown of pyruvate into acetyl-CoA, which then enters the citric acid [cycle](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet).
 * **Oxidative Phosphorylation**: This stage occurs and the mitochondria and involves the transfer of electrons through a series of electron transport chains, resulting and the production of ATP.
 
 ## <a id="shortcut-formulatrick-for-respiration-n-plants"></a>Shortcut Formula/Trick for Respiration and Plants
@@ -66,10 +66,10 @@ To remember the equation for respiration, use the following trick: "C6H12O6 + 6O
 
 * **Wrong answer**: Respiration [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) only occurs and the presence of light.
 * **Right answer**: Respiration [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) occurs and the presence and absence of light.
-* **Why students get it wrong**: Students often confuse respiration with [photosynthesis](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet), which occurs and the presence of light.
+* **Why students get it wrong**: Students often confuse respiration with [photosynthesis](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet), which occurs and the presence of light.
 * **Wrong answer**: The byproduct of anaerobic respiration [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) is CO2 n H2O.
-* **Right answer**: The byproduct of anaerobic respiration [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) is ethanol and CO2.
-* **Why students get it wrong**: Students often forget that anaerobic respiration [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) produces ethanol, not CO2 n H2O.
+* **Right answer**: The byproduct of anaerobic respiration [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) is ethanol and CO2.
+* **Why students get it wrong**: Students often forget that anaerobic respiration [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) produces ethanol, not CO2 n H2O.
 
 ## <a id="practice-mcqs-for-respiration-n-plants"></a>Practice MCQs for Respiration and Plants
 
@@ -89,7 +89,7 @@ Answer: A) CO2 n H2O
 
 3. What is the stage of respiration that occurs and the mitochondria?
 A) Glycolysis
-B) Citric Acid [cycle](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet)
+B) Citric Acid [cycle](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)
 C) Oxidative Phosphorylation
 D) All of the above
 
@@ -114,7 +114,7 @@ Answer: B) Aerobic respiration occurs and the presence of oxygen, while anaerobi
 ## <a id="related-notes-links"></a>Related Notes Links
 
 * Photosynthesis and Plants
-* [cell](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet) Respiration
+* [cell](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) Respiration
 
 ## <a id="last-updated-date"></a>Last Updated Date
 
@@ -132,7 +132,7 @@ Continue your [revision](/blog/hydrogen-class-11-revision-notes-neet) with these
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Hydrogen Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
-- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet)
+- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
 
 ---
 
@@ -148,4 +148,4 @@ Continue your [revision](/blog/structural-organisation-in-animals-class-11-revis
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Hydrogen Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
-- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet)
+- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)

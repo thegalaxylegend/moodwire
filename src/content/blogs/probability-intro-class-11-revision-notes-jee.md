@@ -344,8 +344,8 @@ Continue your revision with these related guides:
 
 - 📖 [Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)
 - 📖 [Principle of Mathematical Induction Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee)
-- 📖 [Relations and Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/relations-n-functions-class-11-notes)
-- 📖 [Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/limits-n-derivatives-class-11-revision-notes-jee)
+- 📖 [Relations and Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/relations-and-functions-class-11-notes)
+- 📖 [Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/limits-and-derivatives-class-11-revision-notes-jee)
 
 ---
 
@@ -358,7 +358,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your revision with these related guides:
 
-- 📖 [Relations and Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/relations-n-functions-class-11-notes)
+- 📖 [Relations and Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/relations-and-functions-class-11-notes)
 - 📖 [Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)
-- 📖 [Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/limits-n-derivatives-class-11-revision-notes-jee)
-- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-n-combinations-class-11-revision-notes-jee)
+- 📖 [Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/limits-and-derivatives-class-11-revision-notes-jee)
+- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)

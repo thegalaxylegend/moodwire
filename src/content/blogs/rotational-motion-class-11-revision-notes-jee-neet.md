@@ -60,7 +60,7 @@ practice_link: "/class-11/physics/rotational-motion-class-11-revision-notes-jee-
 > - **Theorems:** 
 >   - Parallel: I = I_cm + Md²
 >   - Perpendicular: I_z = I_x + I_y
-> - **Rolling [motion](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet):** v_cm = ωR. Total K.E. = ½mv_cm² + ½Iω².
+> - **Rolling [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet):** v_cm = ωR. Total K.E. = ½mv_cm² + ½Iω².
 > [**📥 Download 1-Page Short Notes PDF (Zero-Friction)**](#)
 
 ---
@@ -73,7 +73,7 @@ While the previous chapters dealt with the [motion](/blog/motion-in-a-straight-l
 
 ## <a id="1-centre-of-mass-com"></a>1. Centre of Mass (CoM)
 
-The Centre of Mass is the unique point where the entire mass of a system may be considered to be concentrated for describing its translational [motion](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet).
+The Centre of Mass is the unique point where the entire mass of a system may be considered to be concentrated for describing its translational [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
 
 ### <a id="derivation-com-of-a-2particle-system"></a>Derivation: CoM of a 2-Particle System
 Consider two masses **m1** n **m2** at positions **x1** n **x2**.
@@ -108,7 +108,7 @@ The rotational equivalent of linear momentum.
 
 ## <a id="3-moment-of-inertia-i-rotational-mass"></a>3. Moment of Inertia (I): Rotational Mass
 
-Moment of Inertia resists changes and rotational [motion](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet).
+Moment of Inertia resists changes and rotational [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
 **Formula: I = Σ mi ri² = ∫ r² dm**.
 
 ### <a id="parallel-axes-theorem-proof"></a>Parallel Axes Theorem (Proof)
@@ -148,7 +148,7 @@ If this condition is met, the point of contact is momentarily at rest.
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
 **Q1: Why are the spokes of a bicycle wheel made thin?**
-**Answer:** The bulk of the mass is concentrated at the **rim** (far from the axis). According to **I = mr²**, this maximizes the Moment of Inertia for a given weight, providing the wheel with greater stability and helping it maintain [motion](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) once started.
+**Answer:** The bulk of the mass is concentrated at the **rim** (far from the axis). According to **I = mr²**, this maximizes the Moment of Inertia for a given weight, providing the wheel with greater stability and helping it maintain [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) once started.
 
 **Q2: A ballet dancer pulls her arms and while spinning. Why does her speed increase?**
 **Answer:** According to the **Law of Conservation of Angular Momentum (L = Iω = Constant)**, when she pulls her arms n, her mass moves closer to the axis, decreasing her **Moment of Inertia (I)**. To keep **L** constant, her angular velocity **(ω)** must increase.
@@ -160,13 +160,13 @@ If this condition is met, the point of contact is momentarily at rest.
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
-- **Chapter 4: Laws of [motion](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) (Inertia Basics)**
+- **Chapter 4: Laws of [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) (Inertia Basics)**
 - **Chapter 7: [gravitation](/blog/gravitation-class-11-revision-notes-jee-neet) (Orbital Angular Momentum)**
 - **Mastering Rotational Mechanics: Advanced Problem Set**
 
 ## <a id="conclusion"></a>Conclusion
 
-Rotational [motion](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) is the ultimate test of a physicist's understanding of symmetry and conservation laws. By mastering the mathematical bridge between linear and angular quantities, you gain the ability to analyze everything from a spinning top to the rotation of entire galaxies. Master the parallel axes theorem and the conservation of angular momentum—these are the pillars of advanced mechanics and mechanical engineering. Stay centered, keep your torque high, n maintain your momentum!
+Rotational [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) is the ultimate test of a physicist's understanding of symmetry and conservation laws. By mastering the mathematical bridge between linear and angular quantities, you gain the ability to analyze everything from a spinning top to the rotation of entire galaxies. Master the parallel axes theorem and the conservation of angular momentum—these are the pillars of advanced mechanics and mechanical engineering. Stay centered, keep your torque high, n maintain your momentum!
 
 ---
 **Reference:** [Physics World: The Secrets of Angular Momentum](https://physicsworld.com)
@@ -183,7 +183,7 @@ Continue your [revision](/blog/oscillations-class-11-revision-notes-jee-neet) wi
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
 
 ---
 
@@ -201,7 +201,7 @@ Continue your [revision](/blog/oscillations-class-11-revision-notes-jee-neet) wi
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
 
 ## 🪤 The 5 Mistakes That Cost Marks
 

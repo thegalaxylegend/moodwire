@@ -31,7 +31,7 @@ practice_link: "/class-11/physics/principle-of-mathematical-induction-class-11-r
 
 As we dive into the world of mathematics for our class 11 exam prep n 2026, one concept stands out for its beauty and utility: the Principle of Mathematical Induction (PMI). This powerful tool allows us to prove that a statement is true for all positive integers, making it a cornerstone of discrete mathematics. But before we explore the intricacies of PMI, let's set the stage for its importance and our exam.
 
-The Class 11 mathematics syllabus is divided into several key areas, including sets, [relations](/blog/relations-n-functions-class-11-notes), functions, algebra, n geometry. Within the algebra section, the Principle of Mathematical Induction holds significant weightage, with a dedicated section and the CBSE syllabus. Typically, 2-3 questions are asked and the exam, with a total weightage of around 10-12 marks. This might seem like a small fraction of the overall exam, but trust me, mastering PMI can make all the difference and your overall score.
+The Class 11 mathematics syllabus is divided into several key areas, including sets, [relations](/blog/relations-and-functions-class-11-notes), functions, algebra, n geometry. Within the algebra section, the Principle of Mathematical Induction holds significant weightage, with a dedicated section and the CBSE syllabus. Typically, 2-3 questions are asked and the exam, with a total weightage of around 10-12 marks. This might seem like a small fraction of the overall exam, but trust me, mastering PMI can make all the difference and your overall score.
 
 I still remember when I was and your shoes, struggling to understand the concept of PMI. It seemed like a daunting task, with complex notation and abstract ideas. But as I delved deeper into the subject, I realized the beauty and simplicity of PMI. It's a concept that can be applied to a wide range of problems, from simple arithmetic sequences to complex number theory. And once you grasp the basics, you'll start to see the world of mathematics and a new light.
 
@@ -373,10 +373,10 @@ D
 
 Continue your revision with these related guides:
 
-- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-n-combinations-class-11-revision-notes-jee)
+- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
 - 📖 [Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-intro-class-11-revision-notes-jee)
 - 📖 [Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
-- 📖 [Relations and Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/relations-n-functions-class-11-notes)
+- 📖 [Relations and Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/relations-and-functions-class-11-notes)
 
 ---
 
@@ -389,8 +389,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your revision with these related guides:
 
-- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-n-combinations-class-11-revision-notes-jee)
+- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
 - 📖 [Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
-- 📖 [Relations and Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/relations-n-functions-class-11-notes)
+- 📖 [Relations and Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/relations-and-functions-class-11-notes)
 - 📖 [Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-intro-class-11-revision-notes-jee)
 

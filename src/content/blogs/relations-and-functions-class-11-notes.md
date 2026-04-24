@@ -347,7 +347,7 @@ options. The closest is x^2 - 3x - 1.
 Continue your revision with these related guides:
 
 - 📖 [Data Structures: Non-Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards)
-- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-n-combinations-class-11-revision-notes-jee)
+- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
 - 📖 [Principle of Mathematical Induction Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee)
 - 📖 [Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-intro-class-11-revision-notes-jee)
 
@@ -363,7 +363,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 Continue your revision with these related guides:
 
 - 📖 [Data Structures: Non-Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards)
-- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-n-combinations-class-11-revision-notes-jee)
+- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
 - 📖 [Principle of Mathematical Induction Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee)
 - 📖 [Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-intro-class-11-revision-notes-jee)
 

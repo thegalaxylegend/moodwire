@@ -57,7 +57,7 @@ practice_link: "/class-11/biology/body-fluids-n-circulation-class-11-revision-no
 
 ## <a id="what-is-body-fluids-n-circulation"></a>What is Body Fluids And Circulation?
 
-The human body is composed of approximately 60% water, with a significant portion of it being distributed among various body fluids. These fluids play a crucial role and maintaining homeostasis, regulating body temperature, n facilitating the [exchange](/blog/breathing-n-exchange-of-gases-class-11-revision-notes-neet) of nutrients and waste products. The primary body fluids are blood, lymph, n interstitial fluid. Blood, which accounts for about 8% of the total body weight, is a connective tissue that consists of plasma and formed elements, such as red blood cells, white blood cells, n platelets.
+The human body is composed of approximately 60% water, with a significant portion of it being distributed among various body fluids. These fluids play a crucial role and maintaining homeostasis, regulating body temperature, n facilitating the [exchange](/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet) of nutrients and waste products. The primary body fluids are blood, lymph, n interstitial fluid. Blood, which accounts for about 8% of the total body weight, is a connective tissue that consists of plasma and formed elements, such as red blood cells, white blood cells, n platelets.
 
 ## <a id="step-2-core-concepts"></a>Step 2: Core Concepts
 
@@ -66,7 +66,7 @@ The circulatory system, also known as the cardiovascular system, is responsible 
 ## <a id="step-3-blood-composition"></a>Step 3: Blood Composition
 
 Blood is a complex fluid that consists of several components, including:
-- Plasma: The liquid portion of blood, which accounts for approximately 55% of its total volume. Plasma is composed of water, proteins, nutrients, hormones, [gases](/blog/breathing-n-exchange-of-gases-class-11-revision-notes-neet), waste products, n other substances.
+- Plasma: The liquid portion of blood, which accounts for approximately 55% of its total volume. Plasma is composed of water, proteins, nutrients, hormones, [gases](/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet), waste products, n other substances.
 - Red Blood Cells (RBCs): Also known as erythrocytes, RBCs are responsible for transporting oxygen from the lungs to the body's tissues. They contain the protein hemoglobin, which binds to oxygen, allowing it to be carried throughout the body.
 - White Blood Cells (WBCs): WBCs, or leukocytes, play a vital role and the immune system, helping to protect the body against infection and disease.
 - Platelets: These small, irregularly-shaped cells are involved and blood clotting, which helps to prevent excessive bleeding when a blood vessel is injured.
@@ -88,7 +88,7 @@ The circulatory system is driven y the heart's pumping action, which creates blo
 
 ## <a id="step-7-jeeneet-data"></a>Step 7: JEE/NEET Data
 
-For JEE n [neet](/blog/locomotion-n-movement-class-11-revision-notes-neet) aspirants, it is essential to have a thorough understanding of the concepts related to body fluids and circulation. Some key points to focus on include:
+For JEE n [neet](/blog/locomotion-and-movement-class-11-revision-notes-neet) aspirants, it is essential to have a thorough understanding of the concepts related to body fluids and circulation. Some key points to focus on include:
 - The [structure](/blog/structure-of-the-atom-class-11-revision-notes-neet) and function of the heart, including the atria, ventricles, septa, n valves.
 - The different types of blood vessels, such as arteries, veins, n capillaries, n their respective functions.
 - The composition and functions of blood, including plasma, RBCs, WBCs, n platelets.
@@ -133,14 +133,14 @@ To better understand the concepts related to body fluids and circulation, it is 
 - Heart: pumps blood throughout the body
 - Arteries: carry oxygenated blood away from the heart
 - Veins: carry deoxygenated blood back to the heart
-- Capillaries: allow for the [exchange](/blog/breathing-n-exchange-of-gases-class-11-revision-notes-neet) of oxygen and nutrients with the body's tissues
+- Capillaries: allow for the [exchange](/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet) of oxygen and nutrients with the body's tissues
 - Lymphatic system: filters lymph and aids and the transport of fats and fat-soluble vitamins
 - Blood pressure: the force exerted y blood against the walls of blood vessels
 - Cardiac output: the volume of blood pumped y the heart per minute
 
 ## <a id="step-11-practice-questions"></a>Step 11: Practice Questions
 
-To reinforce understanding and prepare for JEE n [neet](/blog/locomotion-n-movement-class-11-revision-notes-neet) exams, practice questions and past-year papers should be solved regularly. Some sample practice questions include:
+To reinforce understanding and prepare for JEE n [neet](/blog/locomotion-and-movement-class-11-revision-notes-neet) exams, practice questions and past-year papers should be solved regularly. Some sample practice questions include:
 1. Describe the structure and function of the heart, including the atria, ventricles, septa, n valves.
 2. Explain the different types of blood vessels, including arteries, veins, n capillaries, n their respective functions.
 3. What is the composition and function of blood, including plasma, RBCs, WBCs, n platelets?
@@ -154,7 +154,7 @@ Some important terms related to body fluids and circulation include:
 - Diastole: the period of relaxation between heartbeats
 - Hypertension: high blood pressure
 - Isotonic: having the same concentration of solutes as blood plasma
-- Osmosis: the [movement](/blog/locomotion-n-movement-class-11-revision-notes-neet) of water molecules from an area of high concentration to an area of low concentration through a semipermeable membrane
+- Osmosis: the [movement](/blog/locomotion-and-movement-class-11-revision-notes-neet) of water molecules from an area of high concentration to an area of low concentration through a semipermeable membrane
 - Phlebotomy: the removal of blood from the body, often for medical testing or donation
 - Systole: the period of contraction during a heartbeat
 - Thrombosis: the formation of a blood clot within a blood vessel
@@ -183,7 +183,7 @@ Recent advances and the field of body fluids and circulation include:
 - The creation of artificial blood vessels and organs, such as artificial hearts and lungs
 - The development of new diagnostic techniques, such as imaging tests and biomarkers, to detect and monitor cardiovascular disease.
 
-By understanding the concepts related to body fluids and circulation, individuals can better appreciate the importance of maintaining a healthy cardiovascular system and take steps to prevent and manage cardiovascular disease. Regular exercise, a balanced diet, n stress management can all help to promote cardiovascular health and reduce the risk of disease. Additionally, staying informed about recent advances and breakthroughs and the field can provide individuals with the knowledge and tools they need to take [control](/blog/neural-control-n-coordination-class-11-revision-notes-neet) of their health and make informed decisions about their care. 
+By understanding the concepts related to body fluids and circulation, individuals can better appreciate the importance of maintaining a healthy cardiovascular system and take steps to prevent and manage cardiovascular disease. Regular exercise, a balanced diet, n stress management can all help to promote cardiovascular health and reduce the risk of disease. Additionally, staying informed about recent advances and breakthroughs and the field can provide individuals with the knowledge and tools they need to take [control](/blog/neural-control-and-coordination-class-11-revision-notes-neet) of their health and make informed decisions about their care. 
 
 The equation for blood pressure can be written and LaTeX as $BP = \frac{CO \times PR}{1}$, n the equation for cardiac output can be written as $CO = SV \times HR$. The structure of the heart can be represented using the following LaTeX equation:$\boxed{Heart} = \boxed{Atria} + \boxed{Ventricles} + \boxed{Septa} + \boxed{Valves}$. 
 
@@ -201,7 +201,7 @@ Artery & Carries oxygenated blood away from the heart & Aorta \\
 \hline
 Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
 \hline
-Capillary & Allows for the [exchange](/blog/breathing-n-exchange-of-gases-class-11-revision-notes-neet) of oxygen and nutrients with the body's tissues & Lung capillaries \\
+Capillary & Allows for the [exchange](/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet) of oxygen and nutrients with the body's tissues & Lung capillaries \\
 \hline
 \end{tabular}
 
@@ -236,7 +236,7 @@ Artery & Carries oxygenated blood away from the heart & Aorta \\
 \hline
 Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
 \hline
-Capillary & Allows for the [exchange](/blog/breathing-n-exchange-of-gases-class-11-revision-notes-neet) of oxygen and nutrients with the body's tissues & Lung capillaries \\
+Capillary & Allows for the [exchange](/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet) of oxygen and nutrients with the body's tissues & Lung capillaries \\
 \hline
 \end{tabular}
 
@@ -271,7 +271,7 @@ Artery & Carries oxygenated blood away from the heart & Aorta \\
 \hline
 Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
 \hline
-Capillary & Allows for the [exchange](/blog/breathing-n-exchange-of-gases-class-11-revision-notes-neet) of oxygen and nutrients with the body's tissues & Lung capillaries \\
+Capillary & Allows for the [exchange](/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet) of oxygen and nutrients with the body's tissues & Lung capillaries \\
 \hline
 \end{tabular}
 
@@ -306,7 +306,7 @@ Artery & Carries oxygenated blood away from the heart & Aorta \\
 \hline
 Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
 \hline
-Capillary & Allows for the [exchange](/blog/breathing-n-exchange-of-gases-class-11-revision-notes-neet) of oxygen and nutrients with the body's tissues & Lung capillaries \\
+Capillary & Allows for the [exchange](/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet) of oxygen and nutrients with the body's tissues & Lung capillaries \\
 \hline
 \end{tabular}
 
@@ -572,12 +572,12 @@ In addition to its use and creating visual aids n
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your [revision](/blog/locomotion-n-movement-class-11-revision-notes-neet) with these related guides:
+Continue your [revision](/blog/locomotion-and-movement-class-11-revision-notes-neet) with these related guides:
 
-- 📖 [Neural Control And Coordination Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/neural-control-n-coordination-class-11-revision-notes-neet)
-- 📖 [Locomotion And Movement Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/locomotion-n-movement-class-11-revision-notes-neet)
+- 📖 [Neural Control And Coordination Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/neural-control-and-coordination-class-11-revision-notes-neet)
+- 📖 [Locomotion And Movement Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/locomotion-and-movement-class-11-revision-notes-neet)
 - 📖 [Structure Of The Atom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/structure-of-the-atom-class-11-revision-notes-neet)
-- 📖 [Digestion And Absorption Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/digestion-n-absorption-class-11-revision-notes-neet)
+- 📖 [Digestion And Absorption Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/digestion-and-absorption-class-11-revision-notes-neet)
 
 ---
 
@@ -590,11 +590,11 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your [revision](/blog/neural-control-n-coordination-class-11-revision-notes-neet) with these related guides:
+Continue your [revision](/blog/neural-control-and-coordination-class-11-revision-notes-neet) with these related guides:
 
-- 📖 [Neural Control And Coordination Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/neural-control-n-coordination-class-11-revision-notes-neet)
-- 📖 [Digestion And Absorption Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/digestion-n-absorption-class-11-revision-notes-neet)
-- 📖 [Locomotion And Movement Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/locomotion-n-movement-class-11-revision-notes-neet)
+- 📖 [Neural Control And Coordination Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/neural-control-and-coordination-class-11-revision-notes-neet)
+- 📖 [Digestion And Absorption Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/digestion-and-absorption-class-11-revision-notes-neet)
+- 📖 [Locomotion And Movement Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/locomotion-and-movement-class-11-revision-notes-neet)
 - 📖 [The Living World Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/the-living-world-class-11-revision-notes-neet)
 
 ## 🪤 The 5 Mistakes That Cost Marks

@@ -140,7 +140,7 @@ Continue your [revision](/blog/physical-world-class-11-revision-notes-jee-neet) 
 ## 🪤 The 5 Mistakes That Cost Marks
 
 * In the concept of duties of a physically disabled person, a common mistake is **not considering the effect of friction** on the normal force, which can alter the perceived weight and duties of the person.
-* Another trap question is **assuming the center of mass of a person is at their geometric center**, when and reality, it can be affected y the distribution of mass and the [body](/blog/body-fluids-n-circulation-class-11-revision-notes-neet) n the position of the limbs.
+* Another trap question is **assuming the center of mass of a person is at their geometric center**, when and reality, it can be affected y the distribution of mass and the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) n the position of the limbs.
 * Students often **forget to account for the torque and rotational motion** when determining the duties of a physically disabled person, leading to incorrect calculations of the forces and moments involved.
 * A common mistake is **not considering the effect of the angle of inclination** on the normal force and frictional force, which can significantly impact the duties of a physically disabled person on an inclined plane.
 * Trap question: **assuming the acceleration due to gravity is the only force acting on a physically disabled person**, when and reality, other forces such as friction, normal force, n air resistance can also play a significant role and determining their duties.

@@ -72,7 +72,7 @@ practice_link: "/class-11/biology/cell-the-unit-of-life-class-11-revision-notes-
 
 ## <a id="introduction-to-cells"></a>Introduction to Cells
 
-Cell is the basic structural and functional unit of living organisms. Cells are the building blocks of life, n all living organisms are composed of one or more cells. Cells are capable of reproducing themselves, n they are the site of various biological processes such as metabolism, [growth](/blog/plant-growth-n-development-class-11-revision-notes-neet), n response to stimuli. Cell is defined as "the unit of life" because it is the smallest unit of life that can maintain its vital functions. 
+Cell is the basic structural and functional unit of living organisms. Cells are the building blocks of life, n all living organisms are composed of one or more cells. Cells are capable of reproducing themselves, n they are the site of various biological processes such as metabolism, [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet), n response to stimuli. Cell is defined as "the unit of life" because it is the smallest unit of life that can maintain its vital functions. 
 Cell is [the basic structural and functional unit of living organisms](https://en.wikipedia.org/wiki/Cell_(biology)).
 
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
@@ -192,8 +192,8 @@ Continue your [revision](/blog/morphology-of-flowering-plants-class-11-revision-
 
 - 📖 [Biological Classification Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
-- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet)
-- 📖 [Plant Growth And Development Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/plant-growth-n-development-class-11-revision-notes-neet)
+- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
+- 📖 [Plant Growth And Development Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/plant-growth-and-development-class-11-revision-notes-neet)
 
 ---
 
@@ -211,8 +211,8 @@ Continue your [revision](/blog/morphology-of-flowering-plants-class-11-revision-
 - 📖 [Biological Classification Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Environmental Chemistry Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
-- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet)
+- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
 
 ## 🔁 Last 5 Minutes Box
 
-* Cell membrane: Semi-permeable, phospholipid bilayer,* Cell wall: Rigid, outer layer n [plant](/blog/plant-growth-n-development-class-11-revision-notes-neet), bacterial, n fungal cells,* Prokaryotes: Lack true nucleus and membrane-bound organelles,* Eukaryotes: Have true nucleus and membrane-bound organelles,* Cell organelles: Mitochondria (powerhouse), chloroplast (photosynthesis), endoplasmic reticulum, Golgi apparatus, lysosomes, ribosomes,* Cytoskeleton: Microtubules, microfilaments, intermediate filaments,* Cell division: Mitosis (somatic cells), meiosis (reproductive cells),* Cell signaling: Hormones, neurotransmitters, growth factors,* Cell transport: Passive (diffusion, osmosis), active (endocytosis, exocytosis)
+* Cell membrane: Semi-permeable, phospholipid bilayer,* Cell wall: Rigid, outer layer n [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet), bacterial, n fungal cells,* Prokaryotes: Lack true nucleus and membrane-bound organelles,* Eukaryotes: Have true nucleus and membrane-bound organelles,* Cell organelles: Mitochondria (powerhouse), chloroplast (photosynthesis), endoplasmic reticulum, Golgi apparatus, lysosomes, ribosomes,* Cytoskeleton: Microtubules, microfilaments, intermediate filaments,* Cell division: Mitosis (somatic cells), meiosis (reproductive cells),* Cell signaling: Hormones, neurotransmitters, growth factors,* Cell transport: Passive (diffusion, osmosis), active (endocytosis, exocytosis)

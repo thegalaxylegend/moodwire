@@ -245,7 +245,7 @@ Continue your [revision](/blog/kinetic-theory-class-11-revision-notes-jee-neet) 
 - 📖 [Moving Charges Magnetism Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/moving-charges-magnetism-class-11-revision-notes-neet)
 - 📖 [Electric Charges Fields Class 11 Biology Revision — JEE & MEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
 - 📖 [Kinetic Theory Class 11 Biology Revision — JEE & MEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Straight Line Class 11 Biology Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Biology Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
 
 ## 🪤 The 5 Mistakes That Cost Marks
 

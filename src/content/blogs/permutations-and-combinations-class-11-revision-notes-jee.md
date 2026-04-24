@@ -323,10 +323,10 @@ C) The number of ways to choose 3 items from a set of 6 distinct items is given 
 
 Continue your [revision](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) with these related guides:
 
-- 📖 [Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/limits-n-derivatives-class-11-revision-notes-jee)
+- 📖 [Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/limits-and-derivatives-class-11-revision-notes-jee)
 - 📖 [Principle of Mathematical Induction Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee)
 - 📖 [Electrostatics Class 12 Mathematics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electrostatics-class-12-revision-notes-jee-neet)
-- 📖 [Relations and Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/relations-n-functions-class-11-notes)
+- 📖 [Relations and Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/relations-and-functions-class-11-notes)
 
 ---
 
@@ -341,7 +341,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your [revision](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) with these related guides:
 
-- 📖 [Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/limits-n-derivatives-class-11-revision-notes-jee)
+- 📖 [Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/limits-and-derivatives-class-11-revision-notes-jee)
 - 📖 [Principle of Mathematical Induction Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee)
 - 📖 [Electrostatics Class 12 Mathematics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electrostatics-class-12-revision-notes-jee-neet)
 - 📖 [Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-combinations-class-11-revision-notes-jee)

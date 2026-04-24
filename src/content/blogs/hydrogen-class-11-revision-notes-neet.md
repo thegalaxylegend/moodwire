@@ -164,9 +164,9 @@ Last Updated: March 15, 2026
 Continue your [revision](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
-- 📖 [Respiration In Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/respiration-n-plants-class-11-revision-notes-neet)
+- 📖 [Respiration In Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/respiration-in-plants-class-11-revision-notes-neet)
 - 📖 [Biological Classification Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
-- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet)
+- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)
 
 ---
 
@@ -179,12 +179,12 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your [revision](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) with these related guides:
+Continue your [revision](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Biological Classification Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Environmental Chemistry Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
-- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet)
+- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
 
 
 ## 🔁 Last 5 Minutes Box

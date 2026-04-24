@@ -8,6 +8,20 @@ practice_link: "/practice/algebraic-expressions-class-8-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Academic References](#academic-references)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - Algebraic expressions are the expressions that have variables and constants combined using mathematical operations.
 - The variables are the alphabets or letters that take the place of numbers.
@@ -132,6 +146,23 @@ D) $3$
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/algebraic-expressions-class-8-notes) now and track your progress against thousands of students.
+
+---
+
+## 🎬 Watch: Visual Explanation
+
+> 📺 **How to Study Maths ? Ramanujan Technique by Vineet Khatri Sir** — by *Vineet Khatri*
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;border-radius:12px;margin:1rem 0;">
+<iframe src="https://www.youtube.com/embed/BAns0ZVqNuY?rel=0" 
+  style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" 
+  allowfullscreen loading="lazy" 
+  title="How to Study Maths ? Ramanujan Technique by Vineet Khatri Sir">
+</iframe>
+</div>
+
+<!-- VideoObject Schema (consumed by generate-schema.ts) -->
+<!-- VIDEO_SCHEMA:{"id":"BAns0ZVqNuY","title":"How to Study Maths ? Ramanujan Technique by Vineet Khatri Sir","channel":"Vineet Khatri","thumb":"https://i.ytimg.com/vi/BAns0ZVqNuY/mqdefault.jpg"} -->
 
 ## 📚 Academic References
 

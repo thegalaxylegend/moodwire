@@ -91,12 +91,12 @@ Create a checklist of these 15 topics. Do not proceed to obscure corners of the 
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your [revision](/blog/body-fluids-n-circulation-class-11-revision-notes-neet) with these related guides:
+Continue your [revision](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
 - 📖 [Some Basic Concepts Of Chemistry Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet)
-- 📖 [Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/body-fluids-n-circulation-class-11-revision-notes-neet)
-- 📖 [Chemical Coordination And Integration Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/chemical-coordination-n-integration-class-11-revision-notes-neet)
+- 📖 [Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)
+- 📖 [Chemical Coordination And Integration Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet)
 
 ---
 
@@ -107,12 +107,12 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your [revision](/blog/body-fluids-n-circulation-class-11-revision-notes-neet) with these related guides:
+Continue your [revision](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
 - 📖 [Some Basic Concepts Of Chemistry Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet)
-- 📖 [Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/body-fluids-n-circulation-class-11-revision-notes-neet)
-- 📖 [Locomotion And Movement Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/locomotion-n-movement-class-11-revision-notes-neet)
+- 📖 [Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)
+- 📖 [Locomotion And Movement Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/locomotion-and-movement-class-11-revision-notes-neet)
 
 ## 🪤 Common Mistakes That Cost Marks
 When revising for JEE Mains [Chemistry](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet), it's crucial to avoid common mistakes that can lead to a loss of marks. Here are five key areas to watch out for:

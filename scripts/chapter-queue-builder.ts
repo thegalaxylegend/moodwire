@@ -54,11 +54,7 @@ const REPORTS_DIR = path.join(__dirname, '../jules-reports');
 const QUEUE_FILE = path.join(__dirname, '../queue.json');
 const SEARCH_INTEL_FILE = path.join(REPORTS_DIR, 'search-intelligence.json');
 
-function slugify(text: string) {
-    return text.toLowerCase()
-        .replace(/[^a-z0-9]+/g, '-')
-        .replace(/(^-|-$)+/g, '');
-}
+import { slugify } from './utils/slug-utils.js';
 
 /**
  * 🕵️ Scout Mode: Reads GSC intelligence to find "Rising Stars"

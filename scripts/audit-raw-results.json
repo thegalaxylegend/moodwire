@@ -11,6 +11,22 @@
   {
     "modelId": "models/gemini-2.5-flash",
     "provider": "gemini",
+    "status": "WORKING",
+    "latencyMs": 13052,
+    "tokens": 328,
+    "tps": 25.1
+  },
+  {
+    "modelId": "models/gemini-2.5-flash-lite",
+    "provider": "gemini",
+    "status": "WORKING",
+    "latencyMs": 2091,
+    "tokens": 411,
+    "tps": 196.5
+  },
+  {
+    "modelId": "models/gemma-4-31b-it",
+    "provider": "gemini",
     "status": "FAILED",
     "latencyMs": 0,
     "tokens": 0,
@@ -18,28 +34,12 @@
     "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/mod"
   },
   {
-    "modelId": "models/gemini-2.5-flash-lite",
-    "provider": "gemini",
-    "status": "WORKING",
-    "latencyMs": 2762,
-    "tokens": 356,
-    "tps": 129
-  },
-  {
-    "modelId": "models/gemma-4-31b-it",
-    "provider": "gemini",
-    "status": "WORKING",
-    "latencyMs": 26339,
-    "tokens": 784,
-    "tps": 29.8
-  },
-  {
     "modelId": "models/gemma-4-26b-a4b-it",
     "provider": "gemini",
     "status": "WORKING",
-    "latencyMs": 24334,
-    "tokens": 957,
-    "tps": 39.3
+    "latencyMs": 24633,
+    "tokens": 961,
+    "tps": 39
   },
   {
     "modelId": "models/gemini-3.1-pro-preview",
@@ -53,33 +53,36 @@
   {
     "modelId": "llama-3.3-70b-versatile",
     "provider": "groq",
-    "status": "WORKING",
-    "latencyMs": 1805,
-    "tokens": 424,
-    "tps": 234.8
+    "status": "FAILED",
+    "latencyMs": 0,
+    "tokens": 0,
+    "tps": 0,
+    "error": "403 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` is blocked at the project level. Please"
   },
   {
     "modelId": "llama-3.1-8b-instant",
     "provider": "groq",
     "status": "WORKING",
-    "latencyMs": 1235,
-    "tokens": 355,
-    "tps": 287.4
+    "latencyMs": 1132,
+    "tokens": 412,
+    "tps": 364
   },
   {
     "modelId": "meta-llama/llama-4-scout-17b-16e-instruct",
     "provider": "groq",
-    "status": "WORKING",
-    "latencyMs": 1136,
-    "tokens": 458,
-    "tps": 402.8
+    "status": "FAILED",
+    "latencyMs": 0,
+    "tokens": 0,
+    "tps": 0,
+    "error": "403 {\"error\":{\"message\":\"The model `meta-llama/llama-4-scout-17b-16e-instruct` is blocked at the pro"
   },
   {
     "modelId": "qwen/qwen3-32b",
     "provider": "groq",
-    "status": "WORKING",
-    "latencyMs": 3405,
-    "tokens": 818,
-    "tps": 240.1
+    "status": "FAILED",
+    "latencyMs": 0,
+    "tokens": 0,
+    "tps": 0,
+    "error": "403 {\"error\":{\"message\":\"The model `qwen/qwen3-32b` is blocked at the project level. Please have a p"
   }
 ]

@@ -168,7 +168,7 @@ Continue your [revision](/blog/moving-charges-magnetism-class-11-revision-notes-
 - 📖 [Art Culture Architecture Class 11 Chemistry Revision — CBSE Boards 2026 Grandmaster Guide](/blog/art-culture-architecture-class-11-revision-notes-jee-neet)
 - 📖 [Oceanography Class 11 Biology Revision — CBSE Boards 2026 Grandmaster Guide](/blog/oceanography-class-11-revision-notes-jee-neet)
 - 📖 [Agriculture Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/agriculture-class-11-revision-notes-neet)
-- 📖 [Body Fluids And Circulation Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/body-fluids-n-circulation-class-11-revision-notes-neet)
+- 📖 [Body Fluids And Circulation Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)
 
 ---
 

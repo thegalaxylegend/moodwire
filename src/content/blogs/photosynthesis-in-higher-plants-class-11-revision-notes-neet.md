@@ -130,12 +130,12 @@ Last Updated: March 16, 2026
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your [revision](/blog/plant-growth-n-development-class-11-revision-notes-neet) with these related guides:
+Continue your [revision](/blog/plant-growth-and-development-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
-- 📖 [Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/plant-growth-n-development-class-11-revision-notes-neet)
-- 📖 [Structural Organisation In Animals Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/structural-organisation-n-animals-class-11-revision-notes-neet)
+- 📖 [Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/plant-growth-and-development-class-11-revision-notes-neet)
+- 📖 [Structural Organisation In Animals Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/structural-organisation-in-animals-class-11-revision-notes-neet)
 
 ---
 
@@ -146,9 +146,9 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your [revision](/blog/plant-growth-n-development-class-11-revision-notes-neet) with these related guides:
+Continue your [revision](/blog/plant-growth-and-development-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
-- 📖 [Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/plant-growth-n-development-class-11-revision-notes-neet)
+- 📖 [Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/plant-growth-and-development-class-11-revision-notes-neet)

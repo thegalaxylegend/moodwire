@@ -177,7 +177,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-8/
 
 Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
 
-- 📖 [Linear Equations and One Variable Class 8 Mathematics Recap — Grandmaster Guide](/blog/linear-equations-n-one-variable-class-8-notes)
+- 📖 [Linear Equations and One Variable Class 8 Mathematics Recap — Grandmaster Guide](/blog/linear-equations-in-one-variable-class-8-notes)
 - 📖 [Mensuration Class 8 Mathematics Recap — Grandmaster Guide](/blog/mensuration-class-8-notes)
 - 📖 [Rational Numbers Class 8 Mathematics Recap — Grandmaster Guide](/blog/rational-numbers-class-8-notes)
-- 📖 [Squares and Square Roots Class 8 Mathematics Recap — Grandmaster Guide](/blog/squares-n-square-roots-class-8-notes)
+- 📖 [Squares and Square Roots Class 8 Mathematics Recap — Grandmaster Guide](/blog/squares-and-square-roots-class-8-notes)

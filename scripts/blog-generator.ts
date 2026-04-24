@@ -385,17 +385,18 @@ DO NOT use phrases like "In conclusion", "delve into", "comprehensive", "embark 
 const CROSS_SECTION_RULES_DEFAULT = `
 RULES FOR THE LAST-NIGHT REVISION FORMAT:
 1. NO INTRODUCTIONS. NO DEFINITIONS. NO PREREQUISITES. Start directly with high-yield exam insights.
-2. LATEX RULE (CRITICAL FOR RENDERING): 
-   - Every formula MUST be rendered cleanly. You MUST wrap ALL inline math in $...$ and block math in $$...$$. 
-   - NEVER output raw commands like \\frac, \\sum, \\alpha, \\beta, or \\rightarrow without $ delimiters. Every single math symbol must be in $.
+2. LATEX RULE (ZERO TOLERANCE — BREAKING THIS BREAKS THE SITE): 
+   - Every single mathematical symbol, formula, or variable MUST be wrapped in dollar signs.
+   - ❌ NEVER WRITE: \frac{a}{b}, \sum, \Delta, T_initial, or \alpha
+   - ✅ ALWAYS WRITE: $\frac{a}{b}$, $\sum$, $\Delta$, $T_{initial}$, or $\alpha$
+   - Block formulas: $$\\frac{a}{b}$$ (Use for major equations, ensure newline before/after).
+   - Inline formulas: $E=mc^2$ (Use for variables and short relations).
    - NEVER use \\( ... \\) or \\[ ... \\]. ONLY use $...$ and $$...$$.
-   - NEVER escape dollar signs for math (do not write \\$).
-   - NEVER put markdown bolding/italics inside math blocks (do not do $**x**$ or $$**y**$$). Use \\mathbf{} instead.
-3. BULLET POINTS OVER PARAGRAPHS: NEVER WRITE WALLS OF TEXT. Use bullet points (- ) for 80% of your content. If you must use paragraphs (like in PYQ explanations), keep them under 3 sentences.
-4. NO HTML TAGS: Never output malformed HTML like <div [class]="...">. Use pure markdown.
-5. NO JSON SQUASHING: Do not output {"heading": "...", "body": "..."} inside your markdown output. Output raw, clean Github-Flavored Markdown.
-6. TABLES AND STRUCTURE: If you generate comparisons or tabular data, you MUST use strict Github-Flavored Markdown tables with pipes (|).
-7. STRICT RULE: Focus entirely on what's examined, not just general knowledge.
+   - NEVER put markdown bolding/italics inside math blocks.
+3. BULLET POINTS OVER PARAGRAPHS: NEVER WRITE WALLS OF TEXT. Use bullet points (- ) for 80% of your content.
+4. NO HTML TAGS: Use pure markdown.
+5. NO JSON SQUASHING: Output raw, clean Github-Flavored Markdown.
+6. TABLES AND STRUCTURE: Use strict Github-Flavored Markdown tables with pipes (|).
 `;
 
 // Dynamic temperature — evolved or default 0.7
@@ -609,14 +610,13 @@ async function generateSection(item: any, heading: string, displayClass: string,
     const ctxBlock = researchContext ? `\n\n---\n📚 VERIFIED EXAM DATA (USE AS PRIMARY SOURCE):\n${researchContext}\n---\n` : "";
     
     // ── Per-heading prompt blueprints ────────────────────────────────────
-    const LATEX_RULE = `LaTeX rules (CRITICAL — breaking these breaks the website):
-- Block formulas: $$\\frac{a}{b}$$   (double dollar, newline before and after)
-- Inline formulas: $v = u + at$      (single dollar)
-- ALWAYS use curly braces: \\frac{numerator}{denominator}, \\sqrt{x}, \\text{units}
-- NEVER output raw commands outside delimiters: write $\\Delta T$ not \\Delta T
-- NEVER output $$  $$ (empty blocks) — they break the renderer
+    const LATEX_RULE = `LATEX RULES (ZERO TOLERANCE):
+- 🚨 EVERY formula/variable/symbol MUST be in $...$ or $$...$$
+- ❌ WRONG: \\sum Q = 0, T_{initial}, \Delta, \frac{a}{b}
+- ✅ RIGHT: $\\sum Q = 0$, $T_{initial}$, $\\Delta$, $\\frac{a}{b}$
+- ALWAYS use curly braces: \\frac{numerator}{denominator}
+- NEVER output $$  $$ (empty blocks).
 - NEVER use \\( \\) or \\[ \\]. Use $ and $$.
-- NEVER mix markdown with math: do not write $**E=mc^2**$. Use $\\mathbf{E=mc^2}$.
 - NEVER escape dollar signs for formulas (no \\$).`;
 
     let specificDirective = "";

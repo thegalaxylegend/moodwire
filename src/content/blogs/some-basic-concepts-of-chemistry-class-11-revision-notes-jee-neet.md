@@ -36,7 +36,7 @@ I still remember my school days when I struggled to understand the mole concept.
 
 For students preparing for JEE/NEET, it's essential to understand the importance of these concepts. According to the JEE/NEET syllabus, some basic concepts of [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) carry a significant weightage. Here's a breakdown of the topics and their weightage:
 - Atomic [structure](/blog/structure-of-the-atom-class-11-revision-notes-neet): 10-12%
-- [chemical](/blog/chemical-coordination-n-integration-class-11-revision-notes-neet) bonding: 8-10%
+- [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) bonding: 8-10%
 - Thermodynamics: 8-10%
 - Kinetics: 6-8%
 - Equilibrium: 6-8%
@@ -69,9 +69,9 @@ For example, the number of moles of 10 g of sodium (Na) is:
 $\text{Number$ of Moles of Na} = $\frac{10}{23}}${$\text{Mass$ of Reactants}$ = } 
 
 ### <a id="stoichiometry"></a>Stoichiometry
-Stoichiometry is the study of the quantitative relationships between reactants and products n [chemical](/blog/chemical-coordination-n-integration-class-11-revision-notes-neet) reactions. It's used to calculate the amount of reactants required or the amount of products formed and a reaction.
+Stoichiometry is the study of the quantitative relationships between reactants and products n [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) reactions. It's used to calculate the amount of reactants required or the amount of products formed and a reaction.
 
-The law of conservation of mass states that matter cannot be created or destroyed and a [chemical](/blog/chemical-coordination-n-integration-class-11-revision-notes-neet) reaction. This means that the total mass of the reactants is equal to the total mass of the products.
+The law of conservation of mass states that matter cannot be created or destroyed and a [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) reaction. This means that the total mass of the reactants is equal to the total mass of the products.
 
 $\text{Mass$ of Products}$
 
@@ -83,7 +83,7 @@ $\text{Mass$ of Products} = 2 $\times 58.5 = 117 \text{ g}$$
 As expected, the mass of the reactants is equal to the mass of the products.
 
 ### <a id="chemical-reactions-n-equations"></a>Chemical Reactions and Equations
-[chemical](/blog/chemical-coordination-n-integration-class-11-revision-notes-neet) reactions involve the transformation of one or more substances into another substance or substances. [chemical](/blog/chemical-coordination-n-integration-class-11-revision-notes-neet) equations are used to represent [chemical](/blog/chemical-coordination-n-integration-class-11-revision-notes-neet) reactions.
+[chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) reactions involve the transformation of one or more substances into another substance or substances. [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) equations are used to represent [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) reactions.
 
 A balanced chemical equation has the same number of atoms of each element on both the reactant and product sides.
 

@@ -82,14 +82,14 @@ Here's a block of code to illustrate the concept:
 
 \begin{aligned}
 &$\text{Quicksort Algorithm}$ \\
-&$\text{Time Complexity: }$ $O(n \log n)$ \\
-&$\text{Space Complexity: }$ $O(\log n)$ \\
-&$\text{Worst-Case Time Complexity: }$ $O(n^2)$ \\\\
+&$\text{Time Complexity: }O(n \log n)$ \\
+&$\text{Space Complexity: }O(\log n)$ \\
+&$\text{Worst-Case Time Complexity: }O(n^2)$ \\\\
 
 &$\text{Mergesort Algorithm}$ \\
-&$\text{Time Complexity: }$ $O(n \log n)$ \\
+&$\text{Time Complexity: }O(n \log n)$ \\
 &$\text{Space Complexity: }$ O(n) \\
-&$\text{Worst-Case Time Complexity: }$ $O(n \log n)$ \\\end{aligned}
+&$\text{Worst-Case Time Complexity: }O(n \log n)$ \\\end{aligned}
 
 As you can see, the quicksort algorithm has a faster average time complexity, but a worse worst-case time complexity. On the other hand, the mergesort algorithm has a slower average time complexity, but a better worst-case time complexity. Which algorithm would you choose, n why? 
 
@@ -310,9 +310,7 @@ What are the best practices for solving algorithmic problems and Algorithms: Ana
 
 **1. What is the time complexity of the Bubble Sort algorithm and Big O notation?**
 O(n)
-$O(n^2)$
-$O(n \log n)$
-$O(\log n)$
+$O(n^2)O(n \log n)O(\log n)$
 
 **Answer:**
 B) Bubble Sort has a worst-case and average time complexity of $O(n^2)$, where and is the number of items being sorted.
@@ -334,16 +332,13 @@ Efficiency
 A) Time complexity refers to the number of operations an algorithm takes to complete as the input size increases.
 **4. What is the worst-case time complexity of the Quick Sort algorithm?**
 O(n)
-$O(n \log n)$
-$O(n^2)$
-$O(\log n)$
+$O(n \log n)O(n^2)O(\log n)$
 
 **Answer:** C) The worst-case time complexity of Quick Sort is $O(n^2)$, which occurs when the pivot is the smallest or largest element and the array.
 
 **5. What is the time complexity of the Binary Search algorithm?**
 O(n)
-$O(n \log n)$
-$O(\log n)$
+$O(n \log n)O(\log n)$
 O(1)
 
 **Answer:** C) The time complexity of Binary Search is $O(\log n)$, where and is the number of items and the array.

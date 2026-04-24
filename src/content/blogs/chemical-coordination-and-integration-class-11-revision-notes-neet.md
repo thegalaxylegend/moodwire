@@ -47,7 +47,7 @@ practice_link: "/class-11/biology/chemical-coordination-n-integration-class-11-r
 
 ## <a id="introduction-to-chemical-coordination-n-integration"></a>Introduction to Chemical Coordination and Integration
 
-Chemical [coordination](/blog/neural-control-n-coordination-class-11-revision-notes-neet) n integration are essential for the survival of living organisms. The endocrine system, which comprises various glands and organs, n maintaining homeostasis and responding to changes and the internal and external environment. The endocrine system works and conjunction with the nervous system to regulate various bodily functions, such as growth and development, metabolism, n reproductive processes.
+Chemical [coordination](/blog/neural-control-and-coordination-class-11-revision-notes-neet) n integration are essential for the survival of living organisms. The endocrine system, which comprises various glands and organs, n maintaining homeostasis and responding to changes and the internal and external environment. The endocrine system works and conjunction with the nervous system to regulate various bodily functions, such as growth and development, metabolism, n reproductive processes.
 
 ## <a id="endocrine-glands-n-hormones"></a>Endocrine Glands and Hormones
 
@@ -62,7 +62,7 @@ The endocrine system consists of several glands and organs that secrete hormones
 Hormones can be classified into several types, including:
 
 * Steroid hormones: Derived from cholesterol, these hormones can diffuse across cell membranes and bind to intracellular receptors.
-* Peptide hormones: Composed of short chains of amino [acids](/blog/aldehydes-ketones-n-carboxylic-acids-class-12-notes), these hormones bind to receptors on the surface of target cells.
+* Peptide hormones: Composed of short chains of amino [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes), these hormones bind to receptors on the surface of target cells.
 * Amine hormones: Derived from amino acids, these hormones bind to receptors on the surface of target cells.
 
 ## <a id="core-concepts"></a>Core Concepts
@@ -75,7 +75,7 @@ Understanding the core [concepts](/blog/some-basic-concepts-of-chemistry-class-1
 
 ## <a id="formulae"></a>Formulae
 
-While there are no specific formulae to remember and chemical [coordination](/blog/neural-control-n-coordination-class-11-revision-notes-neet) n integration, understanding the relationships between different hormones and their regulatory mechanisms is crucial. For example:
+While there are no specific formulae to remember and chemical [coordination](/blog/neural-control-and-coordination-class-11-revision-notes-neet) n integration, understanding the relationships between different hormones and their regulatory mechanisms is crucial. For example:
 
 * The regulation of blood sugar levels y insulin and glucagon can be represented y the following equation:
 
@@ -123,8 +123,8 @@ Hormones are regulated y various factors, including feedback mechanisms, hormona
 
 Continue your [revision](/blog/classification-of-elements-class-11-revision-notes-jee-neet) with these related guides:
 
-- 📖 [Neural Control And Coordination Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/neural-control-n-coordination-class-11-revision-notes-neet)
-- 📖 [Locomotion And Movement Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/locomotion-n-movement-class-11-revision-notes-neet)
+- 📖 [Neural Control And Coordination Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/neural-control-and-coordination-class-11-revision-notes-neet)
+- 📖 [Locomotion And Movement Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/locomotion-and-movement-class-11-revision-notes-neet)
 - 📖 [Structure Of The Atom Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/structure-of-the-atom-class-11-revision-notes-neet)
 - 📖 [Classification Of Elements Class 11 Biology Revision — JEE & MEET 2026 Grandmaster Guide](/blog/classification-of-elements-class-11-revision-notes-jee-neet)
 
@@ -141,17 +141,17 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your [revision](/blog/classification-of-elements-class-11-revision-notes-jee-neet) with these related guides:
 
-- 📖 [Neural Control And Coordination Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/neural-control-n-coordination-class-11-revision-notes-neet)
+- 📖 [Neural Control And Coordination Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/neural-control-and-coordination-class-11-revision-notes-neet)
 - 📖 [Classification Of Elements Class 11 Biology Revision — JEE & MEET 2026 Grandmaster Guide](/blog/classification-of-elements-class-11-revision-notes-jee-neet)
 - 📖 [Structure Of The Atom Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/structure-of-the-atom-class-11-revision-notes-neet)
-- 📖 [Locomotion And Movement Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/locomotion-n-movement-class-11-revision-notes-neet)
+- 📖 [Locomotion And Movement Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/locomotion-and-movement-class-11-revision-notes-neet)
 
 ## 🪤 The 5 Mistakes That Cost Marks
 
 * **Mistaking Hormones for Neurotransmitters**: Many students fail to distinguish between hormones and neurotransmitters. Hormones are [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) messengers secreted y endocrine glands that travel through the bloodstream to reach their target cells, while neurotransmitters are [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) messengers secreted y neurons that transmit signals across synapses.
 * **Confusing Positive and Negative Feedback Mechanisms**: Students often get confused between positive and negative feedback mechanisms. Positive feedback amplifies a response, whereas negative feedback reduces it. For example, the blood clotting mechanism is an example of positive feedback, while the regulation of blood sugar levels is an example of negative feedback.
 * **Overlooking the Importance of Threshold Stimulus**: [Some](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) students overlook the importance of threshold stimulus and hormone secretion. A threshold stimulus is the minimum intensity of a stimulus required to trigger a response. If the stimulus is below the threshold, no response will occur.
-* **Failing to Recognize the Role of Hormone Receptors**: Many students fail to recognize the crucial role of hormone receptors and chemical [coordination](/blog/neural-control-n-coordination-class-11-revision-notes-neet). Hormone receptors are specific proteins on the surface of or inside target cells that bind to hormones, allowing them to exert their effects.
+* **Failing to Recognize the Role of Hormone Receptors**: Many students fail to recognize the crucial role of hormone receptors and chemical [coordination](/blog/neural-control-and-coordination-class-11-revision-notes-neet). Hormone receptors are specific proteins on the surface of or inside target cells that bind to hormones, allowing them to exert their effects.
 * **Not Understanding the Difference between Up-Regulation and Down-Regulation**: Students often struggle to understand the difference between up-regulation and down-regulation of hormone receptors. Up-regulation increases the number of receptors, making the cell more sensitive to the hormone, while down-regulation decreases the number of receptors, making the cell less sensitive to the hormone.
 ## ⚗️ Chemical Quick Reference (Verified via PubChem)
 

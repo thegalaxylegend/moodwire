@@ -58,7 +58,7 @@ practice_link: "/class-11/biology/digestion-n-absorption-class-11-revision-notes
 
 ## <a id="introduction-to-digestion-n-absorption"></a>Introduction to Digestion and Absorption
 
-The human digestive system is designed to break down the food we consume into smaller molecules that can be absorbed and utilized y the body for energy, [growth](/blog/plant-growth-n-development-class-11-revision-notes-neet), n repair. This process begins and the mouth, where food is chewed and mixed with saliva that contains the enzyme amylase, which breaks down carbohydrates into simpler sugars. The food then passes through the esophagus into the stomach, where it is mixed with gastric juice containing hydrochloric acid and the enzyme pepsin, which breaks down proteins into smaller peptides and amino acids.
+The human digestive system is designed to break down the food we consume into smaller molecules that can be absorbed and utilized y the body for energy, [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet), n repair. This process begins and the mouth, where food is chewed and mixed with saliva that contains the enzyme amylase, which breaks down carbohydrates into simpler sugars. The food then passes through the esophagus into the stomach, where it is mixed with gastric juice containing hydrochloric acid and the enzyme pepsin, which breaks down proteins into smaller peptides and amino acids.
 
 The partially digested food then enters the small intestine, also known as the small bowel, where most of the nutrient absorption takes place. The walls of the small intestine are lined with finger-like projections called villi, which increase the surface area for absorption. Pancreatic juice and bile from the liver and gallbladder, respectively, are released into the small intestine to facilitate the digestion of carbohydrates, proteins, n fats.
 
@@ -172,7 +172,7 @@ Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-n
 - 📖 [Animal Kingdom Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
 - 📖 [Biological Classification Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
-- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet)
+- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
 
 ---
 

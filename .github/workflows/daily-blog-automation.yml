@@ -20,7 +20,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
           cache: 'npm'
 
       - name: Install dependencies
@@ -380,16 +380,7 @@ jobs:
             echo "✅ Dead Letter Queue is empty — all tasks completed successfully."
           fi
 
-      - name: "Task 21.8 - NEXUS v2: Hindi Blog Translation (3/day)"
-        continue-on-error: true
-        env:
-          VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY }}
-          VITE_GEMINI_API_KEY_2: ${{ secrets.VITE_GEMINI_API_KEY_2 }}
-          VITE_GEMINI_API_KEY_3: ${{ secrets.VITE_GEMINI_API_KEY_3 }}
-          VITE_GEMINI_API_KEY_4: ${{ secrets.VITE_GEMINI_API_KEY_4 }}
-          VITE_GEMINI_API_KEY_5: ${{ secrets.VITE_GEMINI_API_KEY_5 }}
-          VITE_GEMINI_API_KEY_6: ${{ secrets.VITE_GEMINI_API_KEY_6 }}
-        run: npx tsx scripts/hindi-translator.ts
+
 
       - name: Task 22 - Final Sanity Guard
         id: sanity_guard

@@ -234,7 +234,7 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
         'without further ado', 'game-changer', 'cutting-edge', 'groundbreaking',
         'unlock the secrets', 'dive deep', 'explore the world', 'journey through',
         'let\'s explore', 'in the realm of', 'it\'s important to note',
-        'in today\'s world', 'as we navigate'
+        'in today\'s world', 'as we navigate', ' n '
     ];
     const contentStr = JSON.stringify(post.content).toLowerCase();
     const foundKillPhrases = killListPhrases.filter(phrase => contentStr.includes(phrase));
@@ -301,10 +301,11 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
     // Root Cause #3: LaTeX commands like \frac{...} without $...$ wrapping render as plaintext.
     const nakedFracCount = (contentStr.match(/(?<!\$)\\frac\{/g) || []).length;
     const nakedTextCount = (contentStr.match(/(?<!\$)\\text\{/g) || []).length;
-    const totalNaked = nakedFracCount + nakedTextCount;
-    if (totalNaked > 3) {
-        score -= 15;
-        report.warnings.push(`${totalNaked} naked LaTeX commands without $ delimiters (will render as plaintext)`);
+    const nakedSumCount = (contentStr.match(/(?<!\$)\\sum\b/g) || []).length;
+    const totalNaked = nakedFracCount + nakedTextCount + nakedSumCount;
+    if (totalNaked > 0) {
+        score -= (totalNaked * 5); // 5 points per naked command
+        report.critical_failures.push(`${totalNaked} naked LaTeX commands (\frac, \text, \sum) without $ delimiters found. This breaks rendering.`);
     }
 
     // 11d. JSON Squashing Detection & REPAIR (Root Cause #4)
@@ -683,10 +684,23 @@ export function checkFormattingIntegrity(text: string): string {
         return match;
     });
 
+    // ========= NEW: Deep-clean mangled LLM artifacts =========
+    // LLMs sometimes output weird characters when they fail at LaTeX escaping
+    repaired = repaired.replace(/rac/g, '\\frac')
+                       .replace(/	imes/g, '\\times')
+                       .replace(/lnleft\(/g, '\\ln\\left(')
+                       .replace(/ight\)/g, '\\right)')
+                       .replace(/sin\^\{-1\}/g, '\\sin^{-1}')
+                       .replace(/sin\b/g, '\\sin')
+                       .replace(/cos\b/g, '\\cos')
+                       .replace(/	heta/g, '\\theta')
+                       .replace(/^{circ}/g, '^{\\circ}')
+                       .replace(/lambda/g, '\\lambda');
+
     // ========= NEW: Wrap naked LaTeX in $ delimiters =========
-    // Detects \frac{...}, \text{...} etc. not inside existing $...$ and wraps them.
-    const nakedLatexCommands = /(?<!\$)\\(frac|text|sqrt|overline|underline|vec|hat|bar|boxed|mathrm|mathbb|binom)\{/g;
-    if (nakedLatexCommands.test(repaired)) {
+    // Detects \frac{...}, \text{...}, \sum, \Delta etc. not inside existing $...$ and wraps them.
+    const nakedLatexRegex = /(?<!\$)\\(frac|text|sqrt|sum|Delta|theta|alpha|beta|gamma|phi|overline|underline|vec|hat|bar|boxed|mathrm|mathbb|binom)/g;
+    if (nakedLatexRegex.test(repaired)) {
         // Process line by line to avoid breaking existing inline math
         const lines = repaired.split('\n');
         for (let i = 0; i < lines.length; i++) {
@@ -700,8 +714,8 @@ export function checkFormattingIntegrity(text: string): string {
             for (let s = 0; s < segments.length; s++) {
                 if (s % 2 === 0) { // Outside $...$
                     const fixed = segments[s].replace(
-                        /\\(frac|text|sqrt|overline|underline|vec|hat|bar|boxed|mathrm|mathbb|binom)(\{[^}]*\}(?:\{[^}]*\})*)/g,
-                        (m) => { modified = true; return '$' + m + '$'; }
+                        /\\(frac|text|sqrt|sum|Delta|theta|alpha|beta|gamma|phi|overline|underline|vec|hat|bar|boxed|mathrm|mathbb|binom)(\{[^}]*\}|(?:\s|$))/g,
+                        (m) => { modified = true; return '$' + m.trim() + '$'; }
                     );
                     if (fixed !== segments[s]) segments[s] = fixed;
                 }
@@ -716,6 +730,14 @@ export function checkFormattingIntegrity(text: string): string {
 
     // ========= NEW: Fix "Solved Yes" → "Solved PYQs" =========
     repaired = repaired.replace(/Solved Yes/g, 'Solved PYQs');
+
+    // ========= NEW: Fix mangled "-n-" internal links =========
+    // Prevents the 430 broken links issue from recurring
+    repaired = repaired.replace(/(\]\(\/blog\/[a-z0-9-]+)-n-([a-z0-9-]+\))/gi, '$1-and-$2');
+    
+    // Fix "n" as shorthand for "and" in prose
+    repaired = repaired.replace(/\b n \b/g, ' and ');
+    repaired = repaired.replace(/\b N \b/g, ' And ');
 
     // 1. Math Blocks ($$ and $)
     const blockMathCount = (repaired.match(/\$\$/g) || []).length;

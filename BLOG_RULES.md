@@ -120,6 +120,7 @@ These are Google SpamBrain triggers.
 ❌ Generic opening: "X is one of the most important topics..." — Replace with data/personal hook.
 ❌ Identical structure across all posts — Vary section names and layout.
 ❌ Raw placeholders: "Featured Image Idea:", "External Reference Placeholder:", "[INSERT DATE]"
+❌ "n" as shorthand for "and" — Never use "n" (e.g., "Breathing n Exchange"). Always use full "and".
 ❌ False authority: "Written with 10+ years experience" — Authentic student voice is better.
 ❌ Broken internal links — Never link to posts that don't exist.
 ❌ Hardcoded years that will expire — Use dynamic variables or verify before publish.

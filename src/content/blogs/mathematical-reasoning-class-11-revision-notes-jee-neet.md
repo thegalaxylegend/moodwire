@@ -150,7 +150,7 @@ Yes, it is a statement because it is a [mathematical](/blog/mathematical-inducti
 Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
-- 📖 [Units And Measurements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/units-n-measurements-class-11-revision-notes-jee-neet)
+- 📖 [Units And Measurements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/units-and-measurements-class-11-revision-notes-jee-neet)
 - 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
 
@@ -168,7 +168,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
-- 📖 [Units And Measurements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/units-n-measurements-class-11-revision-notes-jee-neet)
+- 📖 [Units And Measurements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/units-and-measurements-class-11-revision-notes-jee-neet)
 - 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
 

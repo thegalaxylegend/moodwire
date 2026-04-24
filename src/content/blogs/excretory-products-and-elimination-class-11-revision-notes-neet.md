@@ -41,14 +41,14 @@ practice_link: "/class-11/biology/excretory-products-n-elimination-class-11-revi
 
 ## <a id="core-concepts"></a>Core Concepts
 
-The excretory system is a complex system that involves the [coordination](/blog/chemical-coordination-n-integration-class-11-revision-notes-neet) of multiple organs and processes. The main organs involved and the excretory system are:
+The excretory system is a complex system that involves the [coordination](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) of multiple organs and processes. The main organs involved and the excretory system are:
 
 * **Kidneys**: The kidneys are a pair of bean-shaped organs located and the lower back. They filter the blood to remove waste products and excess substances, n produce urine.
-* **Liver**: The liver is a vital organ located and the upper right side of the abdomen. It detoxifies harmful substances, produces bile, n helps to regulate the [body](/blog/body-fluids-n-circulation-class-11-revision-notes-neet)'s metabolism.
+* **Liver**: The liver is a vital organ located and the upper right side of the abdomen. It detoxifies harmful substances, produces bile, n helps to regulate the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)'s metabolism.
 * **Lungs**: The lungs are a pair of organs located and the chest cavity. They remove carbon dioxide from the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) through exhalation.
 * **Skin**: The skin is the largest organ and the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet), n it plays a role and excretion y removing waste products through sweating.
 
-The excretory system also involves the [coordination](/blog/chemical-coordination-n-integration-class-11-revision-notes-neet) of multiple processes, including:
+The excretory system also involves the [coordination](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) of multiple processes, including:
 
 * **Filtration**: The process of removing waste products and excess substances from the blood.
 * **Reabsorption**: The process of returning nutrients and substances to the bloodstream.
@@ -66,7 +66,7 @@ $\text{GFR} = \frack\text{urine output \times \text{urea concentration$ and urin
 $\text{GFR} = \frac{(140 - }{\text{weight} \text{age}) \times $ $\times (0.85$ $1 \text{serum creatinine}}$
 
 ### <a id="keenest-data"></a>JEE/MEET Data
-The excretory system is an important topic and the JEE n [meet](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet) exams. The following data is relevant to the excretory system:
+The excretory system is an important topic and the JEE n [meet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams. The following data is relevant to the excretory system:
 
 * **Kidney function**: The kidneys filter approximately 180 liters of blood per day, n produce approximately 1.5 liters of urine.
 * **Liver function**: The liver detoxifies approximately 1 liter of blood per minute.
@@ -115,7 +115,7 @@ d) All of the above
 
 Answer: d) All of the above
 
-The excretory system is a complex system that involves the coordination of multiple organs and processes. Understanding the core concepts, formulae, n JEE/[meet](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet) data relevant to the excretory system is essential for success and the JEE n [meet](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet) exams. By practicing MCQs and reviewing the relevant data, students can develop a deep understanding of the excretory system and its functions.
+The excretory system is a complex system that involves the coordination of multiple organs and processes. Understanding the core concepts, formulae, n JEE/[meet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) data relevant to the excretory system is essential for success and the JEE n [meet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams. By practicing MCQs and reviewing the relevant data, students can develop a deep understanding of the excretory system and its functions.
 
 ### <a id="core-concepts-cont"></a>Core Concepts Cont.
 The excretory system is also involved and the regulation of the body's acid-base balance. The kidneys play a crucial role and this process y removing excess hydrogen ions from the body. The liver also plays a role and acid-base balance y detoxifying harmful substances and producing bile.
@@ -123,13 +123,13 @@ The excretory system is also involved and the regulation of the body's acid-base
 The excretory system is also involved and the regulation of the body's electrolyte balance. The kidneys play a crucial role and this process y removing excess electrolytes from the body. The liver also plays a role and electrolyte balance y producing bile and helping to regulate the body's metabolism.
 
 ### <a id="keenest-data-cont"></a>JEE/MEET Data Cont.
-The following JEE/[meet](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet) data is relevant to the excretory system:
+The following JEE/[meet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) data is relevant to the excretory system:
 
 * **Kidney function**: The kidneys filter approximately 180 liters of blood per day, n produce approximately 1.5 liters of urine.
 * **Liver function**: The liver detoxifies approximately 1 liter of blood per minute.
 * **Lung function**: The lungs remove approximately 200 milliliters of carbon dioxide per minute.
 
-This data is essential for understanding the functions of the excretory system, n for success and the JEE n [meet](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet) exams.
+This data is essential for understanding the functions of the excretory system, n for success and the JEE n [meet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams.
 
 ### <a id="MCQs-cont"></a>MCQs Cont.
 The following MCQs are relevant to the excretory system:
@@ -174,21 +174,21 @@ d) All of the above
 
 Answer: d) All of the above
 
-By practicing these MCQs, students can develop a deep understanding of the excretory system and its functions, n can prepare for success and the JEE n [meet](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet) exams.
+By practicing these MCQs, students can develop a deep understanding of the excretory system and its functions, n can prepare for success and the JEE n [meet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams.
 
 ### <a id="core-concepts-cont"></a>Core Concepts Cont.
-The excretory system is a complex system that involves the [coordination](/blog/chemical-coordination-n-integration-class-11-revision-notes-neet) of multiple organs and processes. The kidneys, liver, lungs, n skin all play important roles and the excretory system, n work together to remove waste products and excess substances from the body. The excretory system is also involved and the regulation of the body's acid-base balance and electrolyte balance.
+The excretory system is a complex system that involves the [coordination](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) of multiple organs and processes. The kidneys, liver, lungs, n skin all play important roles and the excretory system, n work together to remove waste products and excess substances from the body. The excretory system is also involved and the regulation of the body's acid-base balance and electrolyte balance.
 
 The excretory system is essential for maintaining homeostasis and the body, n for overall health and well-being. Understanding the core concepts, formulae, n JEE/[meet](/blog/biological-classification-class-11-revision-notes-neet) data relevant to the excretory system is essential for success and the JEE n [meet](/blog/biological-classification-class-11-revision-notes-neet) exams, n for a career and medicine or a related field.
 
 ### <a id="keenest-data-cont"></a>JEE/MEET Data Cont.
-The following JEE/[meet](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet) data is relevant to the excretory system:
+The following JEE/[meet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) data is relevant to the excretory system:
 
 * **Kidney function**: The kidneys filter approximately 180 liters of blood per day, n produce approximately 1.5 liters of urine.
 * **Liver function**: The liver detoxifies approximately 1 liter of blood per minute.
 * **Lung function**: The lungs remove approximately 200 milliliters of carbon dioxide per minute.
 
-This data is essential for understanding the functions of the excretory system, n for success and the JEE n [meet](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet) exams.
+This data is essential for understanding the functions of the excretory system, n for success and the JEE n [meet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams.
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
@@ -202,7 +202,7 @@ Continue your [revision](/blog/biological-classification-class-11-revision-notes
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Animal Kingdom Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
 - 📖 [Biological Classification Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
-- 📖 [Body Fluids And Circulation Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/body-fluids-n-circulation-class-11-revision-notes-neet)
+- 📖 [Body Fluids And Circulation Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)
 
 ---
 
@@ -219,8 +219,8 @@ Continue your [revision](/blog/biological-classification-class-11-revision-notes
 
 - 📖 [Animal Kingdom Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
 - 📖 [Biological Classification Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
-- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet)
-- 📖 [Chemical Coordination And Integration Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/chemical-coordination-n-integration-class-11-revision-notes-neet)
+- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)
+- 📖 [Chemical Coordination And Integration Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet)
 
 ## 🪤 The 5 Mistakes That Cost Marks
 

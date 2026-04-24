@@ -143,15 +143,15 @@ D) Natural disasters
 Answer: A) Industrial activities
 5. What is the effect of soil pollution on the environment?
 A) It can cause the contamination of groundwater
-B) It can cause the death of [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) n animals
+B) It can cause the death of [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) n animals
 C) It can cause the reduction of soil fertility
 D) All of the above
 Answer: D) All of the above
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Chapter [revision](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) Notes: Atomic Structure
-* Chapter [revision](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) Notes: Chemical Bonding
+* Chapter [revision](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) Notes: Atomic Structure
+* Chapter [revision](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) Notes: Chemical Bonding
 
 ## <a id="last-updated-date"></a>Last Updated Date
 
@@ -168,12 +168,12 @@ Environmental chemistry is [the study of the chemical and biochemical phenomena 
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your [revision](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) with these related guides:
+Continue your [revision](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Biological Classification Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
-- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet)
-- 📖 [Plant Growth And Development Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/plant-growth-n-development-class-11-revision-notes-neet)
+- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
+- 📖 [Plant Growth And Development Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/plant-growth-and-development-class-11-revision-notes-neet)
 
 ---
 
@@ -186,12 +186,12 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your [revision](/blog/plant-growth-n-development-class-11-revision-notes-neet) with these related guides:
+Continue your [revision](/blog/plant-growth-and-development-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Biological Classification Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
-- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet)
-- 📖 [Plant Growth And Development Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/plant-growth-n-development-class-11-revision-notes-neet)
+- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
+- 📖 [Plant Growth And Development Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/plant-growth-and-development-class-11-revision-notes-neet)
 
 ## 🔁 Last 5 Minutes Box
 
@@ -200,7 +200,7 @@ Continue your [revision](/blog/plant-growth-n-development-class-11-revision-note
 * **Soil Pollution**: Soil degradation due to addition of pollutants like pesticides, fertilizers, n industrial wastes.
 * **Greenhouse Effect**: Warming of Earth's surface due to increased CO2 levels, water vapor, methane, n other greenhouse gases.
 * **Ozone Layer Depletion**: Thinning of ozone layer due to chlorofluorocarbons (CFCs) n other alienated compounds, leading to increased V radiation.
-* **Eutrophication**: Excessive [growth](/blog/plant-growth-n-development-class-11-revision-notes-neet) of algae and oxygenation of water bodies due to excess nutrients, especially phosphates and nitrates.
+* **Eutrophication**: Excessive [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet) of algae and oxygenation of water bodies due to excess nutrients, especially phosphates and nitrates.
 * Formulas: 
   + **Global Warming Potential (GWP)**: GWP = (Σ[Qi xi]) / (Σ[To to])
   + **Pollution Standards Index (PSI)**: PSI = (Io / Is) x 100

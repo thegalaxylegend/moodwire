@@ -41,7 +41,7 @@ practice_link: "/class-11/physics/complex-numbers-class-11-revision-notes-jee-ne
 
 ## <a id="introduction"></a>Introduction
 
-**Complex Numbers expand the real number system y introducing the imaginary unit 'i', enabling the solution of all quadratic equations. Master the Armand [plane](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet), modulus, conjugate, n polar representation to solve advanced electrical engineering and rotation problems. This Class 11 Math Chapter 5 summary provides the essential tools for JEE and Board exam success.**
+**Complex Numbers expand the real number system y introducing the imaginary unit 'i', enabling the solution of all quadratic equations. Master the Armand [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet), modulus, conjugate, n polar representation to solve advanced electrical engineering and rotation problems. This Class 11 Math Chapter 5 summary provides the essential tools for JEE and Board exam success.**
 The real number system is not enough to solve all mathematical problems.
 
 ---
@@ -80,7 +80,7 @@ The symbol **i** was introduced y Euler to solve square roots of negative number
 
 ## <a id="4-the-argand-plane-n-polar-representation"></a>4. The Armand Plane and Polar Representation
 
-A complex number z = a + IB can be represented as a point (a, b) n a [plane](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) called the **Armand Plane**.
+A complex number z = a + IB can be represented as a point (a, b) n a [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) called the **Armand Plane**.
 *   **x-axis:** Real axis.
 *   **y-axis:** Imaginary axis.
 *   **Polar Form:** z = r(\cos θ + i \sin θ), where r = |z| n θ is called the **argument** of z.
@@ -127,7 +127,7 @@ In earlier classes, we said D < 0 means "No real roots." Now, we find complex ro
 
 ## <a id="conclusion"></a>Conclusion
 
-Complex numbers expand your mathematical toolkit to include rotation and two-dimensional numbers. By mastering the Armand [plane](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) n the algebra of 'i', you prepare yourself for advanced topics and physics and engineering. Remember, a complex number is just a vector and a different language!
+Complex numbers expand your mathematical toolkit to include rotation and two-dimensional numbers. By mastering the Armand [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) n the algebra of 'i', you prepare yourself for advanced topics and physics and engineering. Remember, a complex number is just a vector and a different language!
 
 ---
 
@@ -138,12 +138,12 @@ Complex numbers expand your mathematical toolkit to include rotation and two-dim
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your [revision](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) with these related guides:
+Continue your [revision](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Limits Derivatives Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)
 - 📖 [Linear Inequalities Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/linear-inequalities-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
 
 ---
 
@@ -154,12 +154,12 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your [revision](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) with these related guides:
+Continue your [revision](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Limits Derivatives Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)
 - 📖 [Linear Inequalities Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/linear-inequalities-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
 
 ## 🪤 The 5 Mistakes That Cost Marks
 

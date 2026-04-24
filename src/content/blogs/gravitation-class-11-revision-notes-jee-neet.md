@@ -62,7 +62,7 @@ practice_link: "/class-11/physics/gravitation-class-11-revision-notes-jee-neet"
 
 ## <a id="introduction"></a>Introduction
 
-Gravitation is the universal force of attraction that binds the universe together. From the simple falling of an apple observed y Newton to the complex orbital dance of the planets described y Kepler, gravitation is the invisible thread of cosmic order. In this "Comprehensive" guide, we provide a mathematically rigorous expansion of Chapter 7, featuring formal derivations for the variation of 'g', gravitational potential energy, n the physics of satellites—providing the depth required for high-stakes exams like JEE n [meet](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet).
+Gravitation is the universal force of attraction that binds the universe together. From the simple falling of an apple observed y Newton to the complex orbital dance of the planets described y Kepler, gravitation is the invisible thread of cosmic order. In this "Comprehensive" guide, we provide a mathematically rigorous expansion of Chapter 7, featuring formal derivations for the variation of 'g', gravitational potential energy, n the physics of satellites—providing the depth required for high-stakes exams like JEE n [meet](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
 
 ---
 
@@ -126,7 +126,7 @@ The minimum velocity required for an object to break free from Earth's gravitati
 ## <a id="5-keplers-laws-of-planetary-motion"></a>5. Kepler’s Laws of Planetary Motion
 
 1.  **Law of Orbits:** Planets move and elliptical orbits with the Sun at one focus.
-2.  **Law of Areas:** A [line](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) joining a planet and the Sun sweeps out equal areas and equal intervals of time. (**Proves Conservation of Angular Momentum**).
+2.  **Law of Areas:** A [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) joining a planet and the Sun sweeps out equal areas and equal intervals of time. (**Proves Conservation of Angular Momentum**).
 3.  **Law of Periods (T² ∝ R³):**
     **Derivation for Circular Orbits:**
     - Centripetal Force = Gravitational Force
@@ -177,7 +177,7 @@ Continue your [revision](/blog/mechanical-properties-of-solids-class-11-revision
 
 - 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
 - 📖 [Kinetic Theory Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
 
 ---
@@ -195,7 +195,7 @@ Continue your [revision](/blog/mechanical-properties-of-solids-class-11-revision
 
 - 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
 - 📖 [Kinetic Theory Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
 
 ## 🪤 The 5 Mistakes That Cost Marks

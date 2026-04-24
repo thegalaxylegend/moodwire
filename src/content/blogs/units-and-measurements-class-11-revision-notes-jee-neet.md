@@ -84,7 +84,7 @@ In 1971, the General Conference on Weights and Measures (CGPM) established the S
 7. **Luminous Intensity (Candela, cd):** measures the perceived power of light.
 
 ### <a id="supplementary-units"></a>Supplementary Units:
-- **[plane](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) Angle (θ):** $Measured n **Radian (rad)**. θ = Arc / Radius.
+- **[plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) Angle (θ):** $Measured n **Radian (rad)**. θ = Arc / Radius.
 - **Solid Angle (Ω):** Measured n **Steradian (sr)**. Ω = Area / Radius².
 
 ---
@@ -186,8 +186,8 @@ This is the standard approach for competitive exams like JEE Main.
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
-- **Chapter 2: [motion](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) n a Straight Line (Kinematics)**
-- **Chapter 3: [motion](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) n a Plane (Vectors)**
+- **Chapter 2: [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) n a Straight Line (Kinematics)**
+- **Chapter 3: [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) n a Plane (Vectors)**
 - **Advanced Error Analysis Calculator**
 
 ## <a id="conclusion"></a>Conclusion

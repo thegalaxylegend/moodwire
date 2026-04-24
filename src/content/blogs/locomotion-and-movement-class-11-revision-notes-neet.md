@@ -56,16 +56,16 @@ Locomotion and movement are vital aspects of an organism's survival and interact
 There are several types of locomotion and movement, each with its unique characteristics and advantages. These include:
 
 * **Walking and Running**: These are the most common forms of locomotion and humans and many animals. Walking involves the alternating movement of legs, while running involves a more rapid and energetic movement.
-* **Jumping**: Jumping is a form of locomotion that involves the use of powerful leg muscles to propel the [body](/blog/body-fluids-n-circulation-class-11-revision-notes-neet) into the air. Examples of jumping animals include frogs, grasshoppers, n kangaroos.
-* **Flying**: Flying is a unique form of locomotion that involves the use of wings to generate lift and propel the [body](/blog/body-fluids-n-circulation-class-11-revision-notes-neet) through the air. Examples of flying animals include birds, insects, n bats.
-* **Swimming**: Swimming is a form of locomotion that involves the use of flippers, fins, or other appendages to propel the [body](/blog/body-fluids-n-circulation-class-11-revision-notes-neet) through water. Examples of swimming animals include fish, dolphins, n whales.
+* **Jumping**: Jumping is a form of locomotion that involves the use of powerful leg muscles to propel the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) into the air. Examples of jumping animals include frogs, grasshoppers, n kangaroos.
+* **Flying**: Flying is a unique form of locomotion that involves the use of wings to generate lift and propel the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) through the air. Examples of flying animals include birds, insects, n bats.
+* **Swimming**: Swimming is a form of locomotion that involves the use of flippers, fins, or other appendages to propel the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) through water. Examples of swimming animals include fish, dolphins, n whales.
 
 ## <a id="core-concepts"></a>Core Concepts
 
 To understand locomotion and movement, it is essential to grasp some core concepts, including:
 
 * **Muscle [Structure](/blog/structure-of-the-atom-class-11-revision-notes-neet) and Function**: Muscles are the primary organs responsible for movement and locomotion. They consist of contractile units called sarcomeres, which generate force through the sliding filament theory.
-* **Nervous System [control](/blog/neural-control-n-coordination-class-11-revision-notes-neet)**: The nervous system and controlling movement and locomotion. It transmits signals from the brain to the muscles, allowing for coordinated and precise movement.
+* **Nervous System [control](/blog/neural-control-and-coordination-class-11-revision-notes-neet)**: The nervous system and controlling movement and locomotion. It transmits signals from the brain to the muscles, allowing for coordinated and precise movement.
 * **Skeletal System Support**: The skeletal system provides support and [structure](/blog/structure-of-the-atom-class-11-revision-notes-neet) for movement and locomotion. It consists of bones, cartilage, n ligaments that work together to facilitate movement.
 
 ## <a id="formulae-n-equations"></a>Formulae and Equations
@@ -90,7 +90,7 @@ Some important JEE/[neet](/blog/animal-kingdom-class-11-revision-notes-neet) que
 
 ## <a id="core-concepts-n-formulae-summary"></a>Core Concepts and Formulae Summary
 
-To summarize, the core concepts related to locomotion and movement include muscle structure and function, nervous system [control](/blog/neural-control-n-coordination-class-11-revision-notes-neet), n skeletal system support. The formulae and equations relevant to this topic include force, work, n power. Understanding these concepts and formulae is essential for answering JEE/NEET questions related to locomotion and movement.
+To summarize, the core concepts related to locomotion and movement include muscle structure and function, nervous system [control](/blog/neural-control-and-coordination-class-11-revision-notes-neet), n skeletal system support. The formulae and equations relevant to this topic include force, work, n power. Understanding these concepts and formulae is essential for answering JEE/NEET questions related to locomotion and movement.
 
 ## <a id="practice-questions"></a>Practice Questions
 
@@ -107,7 +107,7 @@ Here are some practice questions related to locomotion and movement:
 Here are the answers to the practice questions:
 
 1. Walking involves the alternating movement of legs, while running involves a more rapid and energetic movement.
-2. Jumping involves the use of powerful leg muscles to propel the [body](/blog/body-fluids-n-circulation-class-11-revision-notes-neet) into the air.
+2. Jumping involves the use of powerful leg muscles to propel the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) into the air.
 3. The primary function of the skeletal system is to provide support and structure for movement and locomotion.
 4. Muscles consist of contractile units called sarcomeres, which generate force through the sliding filament theory.
 5. The nervous system transmits signals from the brain to the muscles, allowing for coordinated and precise movement.
@@ -118,7 +118,7 @@ To summarize, the key points related to locomotion and movement include:
 
 * Locomotion and movement are essential functions and living organisms.
 * There are several types of locomotion and movement, including walking, running, jumping, flying, n swimming.
-* The core concepts related to locomotion and movement include muscle structure and function, nervous system [control](/blog/neural-control-n-coordination-class-11-revision-notes-neet), n skeletal system support.
+* The core concepts related to locomotion and movement include muscle structure and function, nervous system [control](/blog/neural-control-and-coordination-class-11-revision-notes-neet), n skeletal system support.
 * The formulae and equations relevant to this topic include force, work, n power.
 * Understanding these concepts and formulae is essential for answering JEE/[neet](/blog/animal-kingdom-class-11-revision-notes-neet) questions related to locomotion and movement.
 
@@ -144,9 +144,9 @@ The study of locomotion and movement is a fascinating and complex topic that req
 
 Continue your [revision](/blog/animal-kingdom-class-11-revision-notes-neet) with these related guides:
 
-- 📖 [Neural Control And Coordination Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/neural-control-n-coordination-class-11-revision-notes-neet)
-- 📖 [Digestion And Absorption Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/digestion-n-absorption-class-11-revision-notes-neet)
-- 📖 [Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/body-fluids-n-circulation-class-11-revision-notes-neet)
+- 📖 [Neural Control And Coordination Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/neural-control-and-coordination-class-11-revision-notes-neet)
+- 📖 [Digestion And Absorption Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/digestion-and-absorption-class-11-revision-notes-neet)
+- 📖 [Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)
 - 📖 [World History Industrial Revolution Class 11 History Recap — CBSE 2026 Quick Guide](/blog/world-history-industrial-revolution-class-11-revision-notes-jee-neet)
 
 ---
@@ -162,10 +162,10 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your [revision](/blog/animal-kingdom-class-11-revision-notes-neet) with these related guides:
 
-- 📖 [Neural Control And Coordination Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/neural-control-n-coordination-class-11-revision-notes-neet)
+- 📖 [Neural Control And Coordination Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/neural-control-and-coordination-class-11-revision-notes-neet)
 - 📖 [Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
-- 📖 [Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/body-fluids-n-circulation-class-11-revision-notes-neet)
+- 📖 [Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)
 
 ## 🪤 The 5 Mistakes That Cost Marks
 

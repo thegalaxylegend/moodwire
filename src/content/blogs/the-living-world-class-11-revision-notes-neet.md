@@ -69,10 +69,10 @@ The living world is a vast and diverse array of organisms that inhabit our plane
 ## <a id="characteristics-of-living-organisms"></a>Characteristics of Living Organisms
 
 Living organisms exhibit several key characteristics, including:
-* **Organization**: Living organisms are composed of cells, which are the basic [structural](/blog/structural-organisation-n-animals-class-11-revision-notes-neet) n functional units of life.
+* **Organization**: Living organisms are composed of cells, which are the basic [structural](/blog/structural-organisation-in-animals-class-11-revision-notes-neet) n functional units of life.
 * **Metabolism**: Living organisms carry out a series of chemical reactions that involve the breakdown and synthesis of organic molecules.
 * **Homeostasis**: Living organisms maintain a stable internal environment despite changes and the external environment.
-* **[growth](/blog/plant-growth-n-development-class-11-revision-notes-neet) n Development**: Living organisms grow and develop through an increase and size and complexity.
+* **[growth](/blog/plant-growth-and-development-class-11-revision-notes-neet) n Development**: Living organisms grow and develop through an increase and size and complexity.
 * **Reproduction**: Living organisms produce offspring, either sexually or asexually, to ensure the continuation of their species.
 * **Response to Stimuli**: Living organisms respond to changes and their environment, such as light, temperature, n touch.
 * **Evolution**: Living organisms evolve over time through the process of natural selection, genetic drift, n other mechanisms.
@@ -83,7 +83,7 @@ The classification of living organisms is based on their characteristics and evo
 * **Monera**: Prokaryotic organisms, such as bacteria and archaea.
 * **Protista**: Eukaryotic organisms that do not fit into any of the other kingdoms, such as protozoa and algae.
 * **Fungi**: Organisms that obtain their nutrients y decomposing organic matter or forming symbiotic relationships with other organisms.
-* **Plantae**: Organisms that carry out [photosynthesis](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) n are typically multicellular.
+* **Plantae**: Organisms that carry out [photosynthesis](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) n are typically multicellular.
 * **Animalia**: Organisms that are multicellular, eukaryotic, n heterotrophic.
 
 ## <a id="binomial-nomenclature"></a>Binomial Nomenclature
@@ -108,7 +108,7 @@ One shortcut formula that can be used to remember the characteristics of living 
 * **M**: Metabolism
 * **R**: Response to stimuli
 * **H**: Homeostasis
-* **G**: [growth](/blog/plant-growth-n-development-class-11-revision-notes-neet) n development
+* **G**: [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet) n development
 * **R**: Reproduction
 * **E**: Evolution
 * **P**: Photosynthesis (n [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet))
@@ -142,7 +142,7 @@ Solution: A) Monera
 3. What is the term for the process y which living organisms maintain a stable internal environment despite changes and the external environment?
 A) Homeostasis
 B) Metabolism
-C) [growth](/blog/plant-growth-n-development-class-11-revision-notes-neet) n development
+C) [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet) n development
 D) Reproduction
 
 Solution: A) Homeostasis
@@ -190,7 +190,7 @@ Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-n
 - 📖 [Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
-- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet)
+- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
 
 ---
 

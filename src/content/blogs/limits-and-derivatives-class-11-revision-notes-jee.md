@@ -33,7 +33,7 @@ As we dive into the realm of class 11 mathematics, one concept stands out for it
 
 In terms of exam weightage, Limits and Derivatives constitute a significant portion of the mathematics syllabus. The NCERT syllabus allocates around 20-25% of the total marks to this topic, making it a high-priority area for students. The exam typically includes a mix of theoretical and problem-based questions, testing students' understanding of concepts, formulas, n applications. With around 40-50 marks dedicated to this topic, it's essential for students to have a strong grasp of Limits and Derivatives to score well and their exams.
 
-Personally, I still remember the thrill of discovering the concept of limits for the first time. It was like unlocking a secret door to a new world of mathematical possibilities. The idea that a function can approach a value, but never quite reach it, fascinated me. As I delved deeper into the subject, I realized that limits are not just a theoretical concept, but a fundamental building block of calculus. They help us understand how [functions](/blog/relations-n-functions-class-11-notes) behave, how they change, n how they interact with each other.
+Personally, I still remember the thrill of discovering the concept of limits for the first time. It was like unlocking a secret door to a new world of mathematical possibilities. The idea that a function can approach a value, but never quite reach it, fascinated me. As I delved deeper into the subject, I realized that limits are not just a theoretical concept, but a fundamental building block of calculus. They help us understand how [functions](/blog/relations-and-functions-class-11-notes) behave, how they change, n how they interact with each other.
 
 The concept of derivatives, on the other hand, is like having a superpower. It allows us to analyze functions, optimize them, n predict their behavior. Derivatives are used and a wide range of fields, from physics and engineering to economics and computer science. They help us model real-world phenomena, make predictions, n solve complex problems. For instance, derivatives are used and physics to describe the motion of objects, n economics to model supply and demand, n and computer science to optimize [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards).
 
@@ -284,7 +284,7 @@ D. 28x^3 + 6x^2 - 10x + 1 + 0
 
 Continue your [revision](/blog/digital-logic-class-11-revision-notes-gate-boards) with these related guides:
 
-- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-n-combinations-class-11-revision-notes-jee)
+- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
 - 📖 [Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-design-class-11-revision-notes-gate-boards)
 - 📖 [Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/digital-logic-class-11-revision-notes-gate-boards)
 - 📖 [Electrostatics Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electrostatics-class-12-revision-notes-jee-neet)
@@ -300,7 +300,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your [revision](/blog/digital-logic-class-11-revision-notes-gate-boards) with these related guides:
 
-- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-n-combinations-class-11-revision-notes-jee)
+- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
 - 📖 [Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-design-class-11-revision-notes-gate-boards)
 - 📖 [Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/digital-logic-class-11-revision-notes-gate-boards)
 - 📖 [Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-intro-class-11-revision-notes-jee)
