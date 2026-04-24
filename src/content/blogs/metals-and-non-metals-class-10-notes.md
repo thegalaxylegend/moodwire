@@ -9,20 +9,6 @@ manualReview: false
 ---
 
 
-## 📑 Table of Contents
-
-1. [📋 Table of Contents](#table-of-contents)
-2. [<a id="-formula-bank"></a>⚡ Formula Bank](#a-id-formula-banka-formula-bank)
-3. [<a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks](#a-id-the-5-mistakes-that-cost-marksa-the-5-mistakes-that-cost-marks)
-4. [<a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs](#a-id-3-solved-pyqsa-3-solved-pyqs)
-5. [<a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong](#a-id-the-one-thing-most-students-get-wronga-the-one-thing-most-students-get-wrong)
-6. [<a id="-ayushs-note"></a>👁️ Ayush's Note](#a-id-ayushs-notea-ayushs-note)
-7. [<a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box](#a-id-last-5-minutes-boxa-last-5-minutes-box)
-8. [<a id="-practice-mcqs"></a>📝 Practice MCQs](#a-id-practice-mcqsa-practice-mcqs)
-9. [📚 Related Topics](#related-topics)
-
----
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -54,45 +40,45 @@ manualReview: false
 
 ### <a id="physical-properties-of-metals"></a>**Physical Properties of Metals**
 
-- **Density:** \rho = $\frac{m}{V}$ — mass per unit volume, where $\rho$ is density, $m$ is mass, and $V$ is volume
+- **Density:** $\rho = \frac{m}{V}$ — mass per unit volume, where $\rho$ is density, $m$ is mass, and $V$ is volume
 
-- **Melting Point:** T_m = $\frac{\delta H_{fus}$}{\delta S_{fus}} — temperature at which a metal melts, where $T_m$ is melting point, $\delta H_{fus}$ is enthalpy of fusion, and $\delta S_{fus}$ is entropy of fusion
+- **Melting Point:** $T_m = \frac{\delta H_{fus}}{\delta S_{fus}}$ — temperature$ at which a metal melts, where $T_m$ is melting point, $\delta H_{fus}$ is enthalpy of fusion, and $\delta S_{fus}$ is entropy of fusion$
 
-- **Boiling Point:** T_b = $\frac{\delta H_{vap}$}{\delta S_{vap}} — temperature at which a metal boils, where $T_b$ is boiling point, $\delta H_{vap}$ is enthalpy of vaporization, and $\delta S_{vap}$ is entropy of vaporization
+- **Boiling Point:** $T_b = \frac{\delta H_{vap}}{\delta S_{vap}}$ — temperature$ at which a metal boils, where $T_b$ is boiling point, $\delta H_{vap}$ is enthalpy of vaporization, and $\delta S_{vap}$ is entropy of vaporization$
 Examiner's Trap: Be careful with units when calculating density and temperatures.
 
 ### <a id="chemical-properties-of-metals"></a>**Chemical Properties of Metals**
 
-- **Reactivity Series:** M + X_2 \rightarrow MX_2 — reaction of a metal with a non-metal, where $M$ is metal, $X$ is non-metal, and $MX_2$ is compound formed
+- **Reactivity Series:** $M + X_2 \rightarrow MX_2$ — reaction of a metal with a non-metal, where $M$ is metal, $X$ is non-metal, and $MX_2$ is compound formed
 
-- **Oxidation:** 2M + O_2 \rightarrow 2MO — reaction of a metal with oxygen, where $M$ is metal, $O$ is oxygen, and $MO$ is oxide formed
+- **Oxidation:** $2M + O_2 \rightarrow 2MO$ — reaction of a metal with oxygen, where $M$ is metal, $O$ is oxygen, and $MO$ is oxide formed
 
-- **Reduction:** 2MO + 2H_2 \rightarrow 2M + 2H_2O — reaction of an oxide with hydrogen, where $M$ is metal, $O$ is oxygen, and $H$ is hydrogen
+- **Reduction:** $2MO + 2H_2 \rightarrow 2M + 2H_2O$ — reaction of an oxide with hydrogen, where $M$ is metal, $O$ is oxygen, and $H$ is hydrogen
 Examiner's Trap: Pay attention to the stoichiometry of [reactions](/blog/chemical-reactions-and-equations-class-10-notes) when solving problems.
 
 ### <a id="acidbase-reactions"></a>**Acid-Base Reactions**
 
-- **Metal-Acid Reaction:** M + 2H^+ \rightarrow M^{2+} + H_2 — reaction of a metal with an acid, where $M$ is metal, $H^+$ is hydrogen ion, and $M^{2+}$ is metal ion
+- **Metal-Acid Reaction:** $M + 2H^+ \rightarrow M^{2+} + H_2$ — reaction of a metal with an acid, where $M$ is metal, $H^+$ is hydrogen ion, and $M^{2+}$ is metal ion
 
-- **Metal-Base Reaction:** M + 2OH^- \rightarrow M(OH)_2 — reaction of a metal with a base, where $M$ is metal, $OH^-$ is hydroxide ion, and $M(OH)_2$ is hydroxide formed
+- **Metal-Base Reaction:** $M + 2OH^- \rightarrow M(OH)_2$ — reaction of a metal with a base, where $M$ is metal, $OH^-$ is hydroxide ion, and $M(OH)_2$ is hydroxide formed
 
-- **Neutralization:** H^+ + OH^- \rightarrow H_2O — reaction of an acid with a base, where $H^+$ is hydrogen ion, $OH^-$ is hydroxide ion, and $H_2O$ is water formed
+- **Neutralization:** $H^+ + OH^- \rightarrow H_2O$ — reaction of an acid with a base, where $H^+$ is hydrogen ion, $OH^-$ is hydroxide ion, and $H_2O$ is water formed
 Examiner's Trap: Remember that not all metals react with [acids](/blog/acids-bases-and-salts-class-10-notes) and bases.
 
 ### <a id="electrochemistry"></a>**Electrochemistry**
 
-- **Electrode Potential:** E = E^{\circ} - $\frac{RT}{nF}$ \ln Q — potential of an electrode, where $E$ is electrode potential, $E^{\circ}$ is standard electrode potential, $R$ is gas constant, $T$ is temperature, $n$ is a number of electrons, $F$ is Faraday's constant, and $Q$ is reaction quotient
+- **Electrode Potential:** $E = E^{\circ} - \frac{RT}{nF} \ln Q$ — potential$ of an electrode, where $E$ is electrode potential, $E^{\circ}$ is standard electrode potential, $R$ is gas constant, $T$ is temperature, $n$ is number of electrons, $F$ is Faraday's constant, and $Q$ is reaction quotient$
 
 - **Cell Potential:** E_{cell} = E_{cathode} - E_{anode} — potential of a cell, where $E_{cell}$ is cell potential, $E_{cathode}$ is cathode potential, and $E_{anode}$ is anode potential
 
-- **Faraday's Law:** m = $\frac{Q}{F}$ \cdot $\frac{M}{n}$ — mass of a substance deposited, where $m$ is mass, $Q$ is charge, $F$ is Faraday's constant, $M$ is molar mass, and $n$ is number of electrons
+- **Faraday's Law:** $m = \frac{Q}{F} \cdot \frac{M}{n}$ — mass of a substance deposited, where $m$ is mass, $Q$ is charge, $F$ is Faraday's constant, $M$ is molar mass, and $n$ is number of electrons
 Examiner's Trap: Be careful with the sign convention when calculating cell potentials.
 
 ### <a id="corrosion"></a>**Corrosion**
 
-- **Corrosion Rate:** $\text{Corrosion Rate}$ = $\frac{m}{t}$ — rate of corrosion, where $m$ is mass lost, and $t$ is time
+- **Corrosion Rate:** $\text{Corrosion Rate} = \frac{m}{t}$ — rate of corrosion, where $m$ is mass lost, and $t$ is time
 
-- **Protection Potential:** E_{prot} = E_{corr} - $\frac{RT}{nF}$ \ln $\frac{i_{corr}$}{i_{prot}} — potential required to protect a metal, where $E_{prot}$ is protection potential, $E_{corr}$ is corrosion potential, $R$ is gas constant, $T$ is temperature, $n$ is a number of electrons, $F$ is Faraday's constant, $i_{corr}$ is corrosion current, and $i_{prot}$ is protection current
+- **Protection Potential:** $E_{prot} = E_{corr} - \frac{RT}{nF} \ln \frac{i_{corr}}{i_{prot}}$ — potential required to protect a metal,$ where $E_{prot}$ is protection potential, $E_{corr}$ is corrosion potential, $R$ is gas constant, $T$ is temperature, $n$ is number of electrons, $F$ is Faraday's constant, $i_{corr}$ is corrosion current, and $i_{prot}$ is protection current$
 Examiner's Trap: Remember that corrosion is a complex process involving multiple factors.
 
 ### <a id="decision-table"></a>**Decision Table**
@@ -158,7 +144,7 @@ Examiner's Trap: Remember that corrosion is a complex process involving multiple
 - 🔴 **What students write:** Amphoteric oxides are both basic and highly reactive
  
 
-- ✅ **What examiners expect:** Amphoteric oxides can react with both [acids](/blog/acids-bases-and-salts-class-10-notes) and bases, e.g.
+- ✅ **What examiners expect:** Amphoteric oxides can react with both acids and bases, e.g.
 
 - $Al_2O_3 + 6HCl \rightarrow 2AlCl_3 + 3H_2O$ and $Al_2O_3 + 2NaOH \rightarrow 2NaAlO_2 + H_2O$
  
@@ -187,7 +173,7 @@ Examiner's Trap: Remember that corrosion is a complex process involving multiple
 ### <a id="3-solved-pyqs"></a>3 Solved PYQs
 #### Question 1
 Q1 (2020 [cbse](/blog/local-government-class-11-revision-notes-cbse)): What is the nature of the oxide of element with atomic number 19? 
- - 🪤 **Trap:** Most students forget to recall the [periodic](/blog/periodic-classification-of-elements-class-10-notes) table and identify the element.
+ - 🪤 **Trap:** Most students forget to recall the periodic table and identify the element.
  - 🧮 **Solution (Step-by-step):**
  Step 1: Identify the element with atomic number 19 → $19 = \text{Potassium (K)}$
  Step 2: Recall the nature of oxide of Potassium → $2K + O_2 \rightarrow 2K_2O$ (basic oxide)
@@ -203,7 +189,7 @@ Q2 (2019 CBSE): A metal 'M' reacts with $Cl_2$ to form $MCl_2$. If the oxidation
  Step 2: Calculate the oxidation number of 'M' in $MCl_2$ → $O.N. + 2(-1) = 0$ → $O.N. = +2$
  Step 3: Apply the same rule for $MCl_4$ → $O.N. + 4(-1) = 0$ → $O.N. = +4$
  **Final Answer:** +4
- - ⚡ **Speed trick:** Use the rules of calculating oxidation numbers and apply it to both [compounds](/blog/carbon-and-its-compounds-class-10-notes).
+ - ⚡ **Speed trick:** Use the rules of calculating oxidation numbers and apply it to both compounds.
 
 ---
 #### Question 3
@@ -223,11 +209,11 @@ Q3 (2018 CBSE): Which one of the following metals does not react with cold water
 
 - They think that if a substance is shiny, malleable, and ductile, it must be a metal, and if it's dull and brittle, it's a non-metal.
 
-- This misconception leads to incorrect classification of certain elements, such as [carbon](/blog/carbon-and-its-compounds-class-10-notes), which can exist in both metallic and non-metallic forms.
+- This misconception leads to incorrect classification of certain elements, such as carbon, which can exist in both metallic and non-metallic forms.
 
 ### <a id="the-reality"></a>The Reality
 
-- The reality is that the distinction between metals and non-metals is based on their electronic configuration and [chemical](/blog/chemical-reactions-and-equations-class-10-notes) properties, not just physical properties.
+- The reality is that the distinction between metals and non-metals is based on their electronic configuration and chemical properties, not just physical properties.
 
 - Metals tend to have a few electrons in their outermost energy level, which they can easily lose to form a positive ion.
 
@@ -278,7 +264,7 @@ Q3 (2018 CBSE): Which one of the following metals does not react with cold water
 ### <a id="ayushs-note"></a>Ayush's Note
 To maximize your score in Metals and Non-Metals, remember these high-yield points:
 
-* **🔮 The Hidden Pattern:** There's a strong connection between Metals and Non-Metals and the chapter on [Chemical](/blog/chemical-reactions-and-equations-class-10-notes) Reactions.
+* **🔮 The Hidden Pattern:** There's a strong connection between Metals and Non-Metals and the chapter on Chemical Reactions.
 
 - **In over 30% of papers, you'll find questions that link these two topics, especially in the context of oxidation and reduction reactions, so make sure you understand the $Redox$ equation:** $Oxidation + Reduction$.
 
@@ -314,7 +300,7 @@ To maximize your score in Metals and Non-Metals, remember these high-yield point
 
 - ❌ All metals are not sonorous → ✅ Some metals like mercury are not sonorous
 
-- ❌ All non-metals are brittle → ✅ Some non-metals like sulphur are brittle, but some like carbon (in form of graphite) are not
+- ❌ All non-metals are brittle → ✅ Some non-metals like sulphur are brittle but some like carbon (in form of graphite) are not
 
 ### <a id="-if-you-can-only-remember-one-thing"></a>🎯 If you can only remember ONE thing:
 Metals tend to lose electrons to form positive ions, known as cations, whereas non-metals tend to gain electrons to form negative ions, known as anions.
@@ -322,16 +308,16 @@ Metals tend to lose electrons to form positive ions, known as cations, whereas n
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. Which metal has the highest melting point among the following?**
-**A)**     Tungsten ($1900,^circ$
+**A)**   Tungsten ($1900,^circ$
 C)
 **
-B)**     Silver ($962,^circ$
+B)**   Silver ($962,^circ$
 C)
 **
-C)**     Copper ($1085,^circ$
+C)**   Copper ($1085,^circ$
 C)
 **
-D)**     Gold ($1064,^circ$
+D)**   Gold ($1064,^circ$
 C)
 
 **Answer:** A) Tungsten has the highest melting point among the given options. The other options, Silver, Copper, and Gold, have lower melting points.
@@ -339,40 +325,40 @@ C)
 ---
 
 **2. What is the density of $Na$?**
-**A)**     $0.5,g/cm^3$
-**B)**     $0.9,g/cm^3$
-**C)**     $2.5,g/cm^3$
-**D)**     $1.0,g/cm^3$
+**A)**   $0.5,g/cm^3$
+**B)**   $0.9,g/cm^3$
+**C)**   $2.5,g/cm^3$
+**D)**   $1.0,g/cm^3$
 
 **Answer:** D) The density of $Na$ is $0.9,g/cm^3$. The other options are incorrect as they do not represent the correct density of $Na$.
 
 ---
 
 **3. Which of the following metals is most likely to react with water?**
-**A)**     K
-**B)**     Na
-**C)**     Mg
-**D)**     Fe
+**A)**   K
+**B)**   Na
+**C)**   Mg
+**D)**   Fe
 
-**Answer:** A) Potassium ($K$) is most likely to react with water due to its low ionization energy. The other options, Sodium ($Na$), Magnesium ($Mg$), and iron ($Fe$), are less reactive with water.
+**Answer:** A) Potassium ($K$) is most likely to react with water due to its low ionization energy. The other options, Sodium ($Na$), Magnesium ($Mg$), and Iron ($Fe$), are less reactive with water.
 
 ---
 
 **4. What is the molar mass of $Al$?**
-**A)**     25.9,g/mol
-**B)**     26.9,g/mol
-**C)**     27.9,g/mol
-**D)**     28.9,g/mol
+**A)**   25.9,g/mol
+**B)**   26.9,g/mol
+**C)**   27.9,g/mol
+**D)**   28.9,g/mol
 
 **Answer:** B) The molar mass of $Al$ is $26.98,g/mol$, which is close to 26.9,g/mol. The other options are incorrect as they do not represent the correct molar mass of $Al$.
 
 ---
 
 **5. Which of the following metals has a high ionization energy?**
-**A)**     Be
-**B)**     Ca
-**C)**     Mg
-**D)**     K
+**A)**   Be
+**B)**   Ca
+**C)**   Mg
+**D)**   K
 
 **Answer:** A) Beryllium ($Be$) has a high ionization energy due to its small atomic size and high effective nuclear charge. The other options, Calcium ($Ca$), Magnesium ($Mg$), and Potassium ($K$), have lower ionization energies.
 
@@ -383,8 +369,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Metals%20and%20Non-Metals%20Class%2010%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

@@ -10,25 +10,25 @@ manualReview: false
 
 ## ⚡ Formula Bank
 - Biodiversity is the variety of different species of plants, animals, and microorganisms that live in an ecosystem or on Earth as a whole.
-- $\franc{Species\ Richness}{Area}$ gives the species density.
-- Shannon-Wiener\ Diversity\ Index = - \sum_{i=1}^{s} \franc{n_i}{N} \ln \franc{n_i}{N}$, where in_in is the number of individuals of the I^{th}$ species and AND is the total number of individuals.
--$ Simpson's\ Diversity\ Index = 1 - \sum_{i=1}^{s} \franc{n_i(n_i - 1)}{N(N - 1)}$, where in_in is the number of individuals of the I^{th}$ species and AND is the total number of individuals.
+- $\frac{Species\ Richness}{Area}$ gives the species density.
+- Shannon-Wiener\ Diversity\ Index = - $\sum_{i=1}^{s} \frac{n_i}{N} \ln \frac{n_i}{N}$, where in_in is the number of individuals of the I^{th}$ species and AND is the total number of individuals.
+-$ Simpson's\ Diversity\ Index = 1 - \sum_{i=1}^{s} \frac{n_i(n_i - 1)}{N(N - 1)}$, where in_in is the number of individuals of the I^{th}$ species and AND is the total number of individuals.$
 - $\beta$ diversity is the diversity between two habitats or ecosystems.
 - $\gamma$ diversity is the diversity of a larger area, such as a landscape or region.
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not understanding the difference between $\alpha$, $\beta$, and $\gamma$ diversity.
-- Forgetting to calculate species density using the formula $\franc{Species\ Richness}{Area}$.
+- Forgetting to calculate species density using the formula $\frac{Species\ Richness}{Area}$.
 - Not applying the Shannon-Wiener Diversity Index and Simpson's Diversity Index correctly.
 - Confusing the terms 'endemic' and 'indigenous'.
 - Not knowing the importance of biodiversity hotspots and their locations.
 
 ## ✏️ 3 Solved PYQs
 - **Question 1:** What is the significance of biodiversity hotspots?
-- Biodiversity hotspots are areas with high levels of endemism, where many species are found only in that particular area.
-- These areas are significant because they support many endemic species and are often threatened by human activities such as deforestation and habitat destruction.
+- Biodiversity hotspots are areas with high levels of endemism, where a large number of species are found only in that particular area.
+- These areas are significant because they support a large number of endemic species and are often threatened by human activities such as deforestation and habitat destruction.
 - **Question 2:** Calculate the species density of a forest with 50 species of trees in an area of 100 $km^2$.
-- Species density = $\franc{Species\ Richness}{Area}$ = $\franc{50}{100}$ = 0.5 species per km^$2.
+- Species density = $\frac{Species\ Richness}{Area}$ = $\frac{50}{100}$ = 0.5 species per km^2$.$
 - **Question 3:** What is the difference between the Shannon-Wiener Diversity Index and Simpson's Diversity Index?
 - The Shannon-Wiener Diversity Index takes into account the proportion of each species in the community, while Simpson's Diversity Index takes into account the probability that two individuals randomly selected from the community belong to the same species.
 
@@ -44,7 +44,7 @@ manualReview: false
 
 ## 🔁 Last 5 Minutes Box
 - Revision of key terms: biodiversity, species richness, species density, $\alpha$ diversity, $\beta$ diversity, $\gamma$ diversity.
-- Quick recall of formulas: $\franc{Species\ Richness}{Area}$, Shannon-Wiener\ Diversity\ Index = - \sum_{i=1}^{s} \franc{n_i}{N} \ln \franc{n_i}{N}$, Simpson's\ Diversity\ Index = 1 - \sum_{i=1}^{s} \franc{n_i(n_i - 1)}{N(N - 1)}$.
+- Quick recall of formulas: $\frac{Species\ Richness}{Area}$, Shannon-Wiener\ Diversity\ Index = - $\sum_{i=1}^{s} \frac{n_i}{N} \ln \frac{n_i}{N}$, Simpson's\ Diversity\ Index = 1 - \sum_{i=1}^{s} \frac{n_i(n_i - 1)}{N(N - 1)}$.
 - Last-minute practice of solving problems related to biodiversity and conservation.
 
 ## 📝 Practice MCQs
@@ -66,19 +66,19 @@ A) Simpson's Diversity Index
 -
 B) Shannon-Wiener Diversity Index
 -
-C) \alpha diversity
+C) $\alpha diversity$
 -
-D) \beta diversity
+D) $\beta diversity$
 
 **Answer: B) Shannon-Wiener Diversity Index.**
 
 **3. What is the term for the diversity between two habitats or ecosystems?**
 -
-A) \alpha diversity
+A) $\alpha diversity$
 -
-B) \beta diversity
+B) $\beta diversity$
 -
-C) \gamma diversity
+C) $\gamma diversity$
 -
 D) Species richness
 
@@ -98,7 +98,7 @@ D) Asian lion
 
 **5. What is the significance of biodiversity hotspots?**
 -
-A) They support many endemic species
+A) They support a large number of endemic species
 -
 B) They are areas with low levels of endemism
 -
@@ -106,7 +106,7 @@ C) They are areas with high levels of species richness
 -
 D) They are areas with low levels of species density
 
-**Answer: A) They support many endemic species.**
+**Answer: A) They support a large number of endemic species.**
 
 ---
 
@@ -115,8 +115,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Biodiversity%20And%20Conservation%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

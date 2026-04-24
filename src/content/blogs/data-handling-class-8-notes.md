@@ -10,10 +10,10 @@ manualReview: false
 
 ## ⚡ Formula Bank
 - The range of a data set is given by: OR = \max \{x_i\} - \min \{x_i\}$
-- The mean of a data set is given by: $\bar{x} = \franc{\sum_{i=1}^{n} x_i}{n}$
+- The mean of a data set is given by: $\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}$
 - The mode of a data set is the value that appears most frequently
 - The median of a data set is the middle value when the data is arranged in ascending order
-- The probability of an event is given by: UP(E) = \franc{$\text{Number of favorable outcomes}$}{$\text{Total number of outcomes}$}$
+- The probability of an event is given by: UP(E) = $\frac{$$\text{Number$ of favorable outcomes}}${$\text{Total number$ of outcomes}}$$
 
 ## 
 - Always read the question carefully and understand what is being asked
@@ -25,12 +25,12 @@ manualReview: false
 ## ✏️ 3 Solved PYQs
 - **Question 1:** Find the mean of the following data set: 12, 15, 18, 20, 22
   - Step 1: Add up all the values in the data set: $12 + 15 + 18 + 20 + 22 = 87$
-  - Step 2: Count the number of values in the data set: in = $5
-  - Step 3: Calculate the mean using the formula: $\bar{x} = \franc{87}{5} = 17.4$
+  - Step 2: Count the number of values in the data set: in = 5$
+  - Step 3: Calculate the mean using the formula: $\bar{x} = \frac{87}{5} = 17.4$
 - **Question 2:** Find the range of the following data set: 10, 12, 15, 18, 20
   - Step 1: Find the maximum value in the data set: $\max \{x_i\} = 20$
   - Step 2: Find the minimum value in the data set: $\min \{x_i\} = 10$
-  - Step 3: Calculate the range using the formula: OR = 20–10 = $10
+  - Step 3: Calculate the range using the formula: OR = 20–10 = 10$
 - **Question 3:** Find the mode of the following data set: 12, 15, 15, 18, 20
   - Step 1: Identify the values that appear most frequently: $15$ appears twice
   - Step 2: Check if any other value appears more than twice: No
@@ -44,7 +44,7 @@ manualReview: false
 - Check your work carefully to avoid mistakes
 
 ## 👁️ Ayush's Note
-- Data handling is all about working with [numbers](/blog/rational-numbers-class-8-notes) and making sense of them
+- Data handling is all about working with numbers and making sense of them
 - It's like solving a puzzle, and the more you practice, the better you'll get
 - Don't be afraid to ask for help if you're stuck
 - Use visual aids like graphs and charts to help you understand the data
@@ -68,7 +68,7 @@ C) 15
 -
 D) 20
 
-**Answer: B) The range is calculated by subtracting the minimum value from the maximum value: OR = 20–10 = $10**
+**Answer: B) The range is calculated by subtracting the minimum value from the maximum value: OR = 20–10 = 10$**
 
 **2. What is the mean of the data set: 12, 15, 18, 20, 22?**
 -
@@ -80,7 +80,7 @@ C) 20
 -
 D) 25
 
-**Answer: B) The mean is calculated by adding up all the values and dividing by the number of values: $\bar{x} = \franc{87}{5} = 17.4$**
+**Answer: B) The mean is calculated by adding up all the values and dividing by the number of values: $\bar{x} = \frac{87}{5} = 17.4$**
 
 **3. What is the mode of the data set: 12, 15, 15, 18, 20?**
 -
@@ -96,15 +96,15 @@ D) 20
 
 **4. What is the probability of rolling a 6 on a fair die?**
 -
-A) $\franc{1}{2}$
+A) $\frac{1}{2}$
 -
-B) $\franc{1}{3}$
+B) $\frac{1}{3}$
 -
-C) $\franc{1}{6}$
+C) $\frac{1}{6}$
 -
-D) $\franc{2}{3}$
+D) $\frac{2}{3}$
 
-**Answer: C) The probability is calculated by dividing the number of favorable outcomes by the total number of outcomes: UP(E) = \franc{1}{6}$**
+**Answer: C) The probability is calculated by dividing the number of favorable outcomes by the total number of outcomes: UP(E) = $\frac{1}{6}$**
 
 **5. What is the median of the data set: 10, 12, 15, 18, 20?**
 -
@@ -143,8 +143,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 * **Confusing Median and Mode**: Many students confuse the mode (the most frequently occurring value) with the median (the middle value in a sorted dataset), resulting in incorrect calculations. 
 * **Not Considering All Data Points for Range**: While calculating the range, some students overlook the highest or lowest value in the dataset, leading to an incorrect range. 
 * **Miscalculating the Median of an Even Set**: When dealing with an even number of data points, students often make errors in finding the median by not taking the average of the two middle numbers.
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Data%20Handling%208%20Class%208%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

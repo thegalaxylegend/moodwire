@@ -9,8 +9,8 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- The general form of a quadratic equation is $ax^2 + bx + c = 0$, where $a$, $b$, and $c$ are constants and $a 
-eq $0.
+- The general form of a quadratic equation is $ax^2 + bx + c = 0$, where $a$, $b$, and $c$ are constants and $a$ 
+eq 0$.$
 - The roots of the quadratic equation $ax^2 + bx + c = 0$ can be found using the quadratic formula: $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$.
 - The discriminant of the quadratic equation $ax^2 + bx + c = 0$ is given by $\delta = b^2 - 4ac$.
 - If $\delta > 0$, the equation has two distinct real roots.
@@ -130,12 +130,10 @@ D) 1
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/quadratic-[equations](/blog/linear-equations-in-one-variable-class-8-notes)-class-10-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/quadratic-equations-class-10-notes) now and track your progress against thousands of students.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Quadratic%20Equations%20Class%2010%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

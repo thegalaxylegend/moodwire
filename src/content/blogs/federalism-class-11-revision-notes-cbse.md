@@ -72,7 +72,7 @@ The core concepts of federalism include:
 ## <a id="what-are-the-trap-exceptions"></a>What are the Trap Exceptions?
 
 Trap Exceptions:
-- **Emergency Provisions**: The emergency provisions and the [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Constitution, which allow the center to assume control over the states n \times of emergency.
+- **Emergency Provisions**: The emergency provisions and the [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Constitution, which allow the center to assume control over the states n $\times of emergency.$
 - **Centralized Tendencies**: The centralized tendencies and the [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) federal system, which can lead to a strong center and weaker states.
 - **State Autonomy**: The autonomy of the states, which can be compromised y the center's powers.
 

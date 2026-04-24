@@ -68,11 +68,11 @@ Mathematics is built on a foundation of absolute truth and rigorous logic.
 ## <a id="1-mathematical-statements"></a>1. Mathematical Statements
 
 Not every sentence is a "statement" n the [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) sense. 
-- **Is a Statement:** "10 is an even number" (True), "The \sum of angles and a triangle is 180°" (True).
+- **Is a Statement:** "10 is an even number" (True), "The $\sum of angles and a triangle is 180$°" (True).
 - **NOT a Statement:** "How are you?" (Question), "Mathematics is difficult" (Subjective), "Open the door" (Command), "He is a tall man" (Relative).
 
 ### <a id="negation-of-a-statement-p"></a>Negation of a Statement (~p):
-Denial of a statement. If $p$ is "The number 2 is prime," then $\sim p$ is "The number 2 is not prime" or "It is false that the number 2 is prime."
+Denial of a statement. If $p$ is "The number 2$ is prime," then $\sim p$ is "The number 2$ is not prime" or "It is false that the number 2 is prime."
 
 ---
 

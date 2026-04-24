@@ -1,41 +1,36 @@
 ---
 heroImage: "/blog-images/physics-heat-light-class-11-revision-notes-jee-neet.webp"
 title: "physics heat light class 11 revision notes jee neet Class 11 Exam Notes Revision — Grandmaster Guide"
-description: "physics heat light class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-24."
+description: "physics heat light class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-22."
 category: "Exam Notes"
-date: "2026-04-24"
+date: "2026-04-22"
 practice_link: "/class-11/exam notes/physics-heat-light-class-11-revision-notes-jee-neet"
 manualReview: false
 ---
 
 
-## 📑 Table of Contents
-
-1. [📋 Table of Contents](#table-of-contents)
-2. [<a id="-formula-bank"></a>⚡ Formula Bank](#a-id-formula-banka-formula-bank)
-3. [<a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks](#a-id-the-5-mistakes-that-cost-marksa-the-5-mistakes-that-cost-marks)
-4. [<a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs](#a-id-3-solved-pyqsa-3-solved-pyqs)
-5. [<a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong](#a-id-the-one-thing-most-students-get-wronga-the-one-thing-most-students-get-wrong)
-6. [<a id="-ayushs-note"></a>👁️ Ayush's Note](#a-id-ayushs-notea-ayushs-note)
-7. [<a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box](#a-id-last-5-minutes-boxa-last-5-minutes-box)
-8. [<a id="-practice-mcqs"></a>📝 Practice MCQs](#a-id-practice-mcqsa-practice-mcqs)
-
----
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
-  - [**Thermodynamic Formulas**](#thermodynamic-formulas)
-  - [**Kinetic Theory Formulas**](#kinetic-theory-formulas)
   - [**Thermal Expansion Formulas**](#thermal-expansion-formulas)
   - [**Heat Transfer Formulas**](#heat-transfer-formulas)
+  - [**Thermodynamic Formulas**](#thermodynamic-formulas)
+  - [**Kinetic Theory Formulas**](#kinetic-theory-formulas)
+  - [**Black Body Radiation Formulas**](#black-body-radiation-formulas)
   - [**Decision Table**](#decision-table)
 - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-  - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
+  - [The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
 - [✏️ 3 Solved PYQs](#-3-solved-pyqs)
   - [3 Solved PYQs](#3-solved-pyqs)
 - [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
   - [The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+  - [Understanding the Concept](#understanding-the-concept)
+  - [The Diagnostic Question](#the-diagnostic-question)
+  - [How to Never Forget This](#how-to-never-forget-this)
+  - [Advanced Insights](#advanced-insights)
+  - [Key Formulas](#key-formulas)
+  - [Practice Questions](#practice-questions)
+  - [Solutions](#solutions)
 - [👁️ Ayush's Note](#-ayushs-note)
   - [👁️ Ayush's Note](#-ayushs-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
@@ -47,449 +42,406 @@ manualReview: false
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-### <a id="thermodynamic-formulas"></a>**Thermodynamic Formulas**
-
-- **Internal Energy:** U = $\frac{3}{2}$nRT — internal energy (U) in terms of number of moles (n), gas constant (R), and temperature (T)
-
-- **First Law of Thermodynamics:** \delta U = Q - W — change in internal energy (ΔU) in terms of heat added (Q) and work done (W)
-
-- **Heat Capacity:** C = $\frac{Q}{\delta T}$ — heat capacity (C) in terms of heat added (Q) and change in temperature (ΔT)
-
-- **Specific Heat Capacity:** c = $\frac{C}{m}$ — specific heat capacity (c) in terms of heat capacity (C) and mass (m)
-
-- **Latent Heat:** L = $\frac{Q}{m}$ — latent heat (L) in terms of heat added (Q) and mass (m)
-Examiner's Trap: Be careful when using the first law of thermodynamics, as the sign convention for work done can be tricky.
-
-### <a id="kinetic-theory-formulas"></a>**Kinetic Theory Formulas**
-
-- **Root Mean Square Speed:** v_{rms} = $\sqrt{\frac{3RT}{M}$} — root-mean-square speed (v_rms) in terms of gas constant (R), temperature (T), and molar mass (M)
-
-- **Mean Free Path:** \lambda = $\frac{1}{\sqrt{2}$\pi d^2 $\frac{N}{V}$} — mean free path (λ) in terms of diameter (d), number density (N/V)
-
-- **Collision Frequency:** f = $\frac{v_{rms}$}{\lambda} — collision frequency (f) in terms of root-mean-square speed (v_rms) and mean free path (λ)
-
-- **Pressure:** P = $\frac{1}{3}\frac{m}{V}$ v_{rms}^2 — pressure (P) in terms of mass (m), volume (V), and root-mean-square speed (v_rms)
-Examiner's Trap: Make sure to use the correct units when calculating the root-mean-square speed.
-
 ### <a id="thermal-expansion-formulas"></a>**Thermal Expansion Formulas**
 
-- **Linear Expansion:** \delta L = \alpha L \delta T — change in length (ΔL) in terms of coefficient of linear expansion (α), original length (L), and change in temperature (ΔT)
+- **Linear Expansion Formula:** $\frac{\delta L}{L} = \alpha \delta T — \delta L is change in length, L is original length, \alpha is coefficient of linear expansion, \delta T is change in temperature$
 
-- **Area Expansion:** \delta A = 2\alpha A \delta T — change in area (ΔA) in terms of coefficient of linear expansion (α), original area (A), and change in temperature (ΔT)
+- **Area Expansion Formula:** $\frac{\delta A}{A} = 2\alpha \delta T — \delta A is change in area, A is original area, \alpha is coefficient of linear expansion, \delta T is change in temperature$
 
-- **Volume Expansion:** \delta V = 3\alpha V \delta T — change in volume (ΔV) in terms of coefficient of linear expansion (α), original volume (V), and change in temperature (ΔT)
-Examiner's Trap: Be careful when using the formulas for thermal expansion, as the coefficients of expansion can vary depending on the material.
+- **Volume Expansion Formula:** $\frac{\delta V}{V} = 3\alpha \delta T — \delta V is change in volume, V is original volume, \alpha is coefficient of linear expansion, \delta T is change in temperature$
+Examiner's Trap: Be careful with the units of $\alpha$ and  \delta T$.$
 
 ### <a id="heat-transfer-formulas"></a>**Heat Transfer Formulas**
 
-- **Conduction:** $\frac{Q}{t}$ = $\frac{KA}{d}$ \delta T — heat transfer rate (Q/t) in terms of thermal conductivity (K), area (A), distance (d), and temperature difference (ΔT)
+- **Conduction Formula:** $Q =  \frac{KA(T_1 - T_2)}{d} — Q is heat transferred, K is thermal conductivity, A is cross-sectional area, T_1 and T_2 are temperatures, d is distance$
 
-- **Convection:** $\frac{Q}{t}$ = hA \delta T — heat transfer rate (Q/t) in terms of convective heat transfer coefficient (h), area (A), and temperature difference (ΔT)
+- **Convection Formula:** $Q = hA(T_1 - T_2)$ — $Q$ is heat transferred, $h$ is convective heat transfer coefficient, $A$ is surface area, $T_1$ and $T_2$ are temperatures
 
-- **Radiation:** $\frac{Q}{t}$ = \sigma A \epsilon \delta T^4 — heat transfer rate (Q/t) in terms of Stefan-Boltzmann constant (σ), area (A), emissivity (ε), and temperature difference (ΔT)
-Examiner's Trap: Make sure to use the correct formula for the type of heat transfer occurring in the problem.
+- **Radiation Formula:** $Q =  \sigma A \epsilon (T_1^4 - T_2^4) — Q is heat transferred, \sigma is Stefan-Boltzmann constant, A is surface area, \epsilon is emissivity, T_1 and T_2 are temperatures$
+Examiner's Trap: Remember to use the correct formula for the given heat transfer method.
+
+### <a id="thermodynamic-formulas"></a>**Thermodynamic Formulas**
+
+- **Internal Energy Formula:** $\delta U = Q + W — \delta U is change in internal energy, Q is heat added, W is work done$
+
+- **First Law of Thermodynamics:** $\delta U = Q - W — \delta U is change in internal energy, Q is heat added, W is work done$
+
+- **Specific Heat Capacity Formula:** $c =  \frac{Q}{m\delta T} — c is specific heat capacity, Q is heat added, m is mass, \delta T is change in temperature$
+Examiner's Trap: Be careful with the sign conventions for $Q$ and $W$.
+
+### <a id="kinetic-theory-formulas"></a>**Kinetic Theory Formulas**
+
+- **Pressure Formula:** $P =  \frac{1}{3}\frac{mnv^2}{V} — P is pressure, m is mass of a molecule, n is number of molecules, v is root mean square velocity, V is volume$
+
+- **Root Mean Square Velocity Formula:** $v_{rms} =  \sqrt{\frac{3RT}{M}} — v_{rms} is root mean square velocity, R is gas constant, T is temperature, M is molar mass$
+
+- **Mean Free Path Formula:** $\lambda = \frac{1}{\sqrt{2} \pi d^2 \frac{N}{V}} — \lambda is mean free path, d is diameter of a molecule, N is number of molecules, V is volume$
+Examiner's Trap: Remember to use the correct units for the variables.
+
+### <a id="black-body-radiation-formulas"></a>**Black Body Radiation Formulas**
+
+- **Stefan-Boltzmann Law:** $E =  \sigma T^4 — E is energy radiated, \sigma is Stefan-Boltzmann constant, T is temperature$
+
+- **Wien's Displacement Law:** $\lambda_m T = b — \lambda_m is wavelength of maximum radiation, T is temperature, b is Wien's constant$
+
+- **Planck's Radiation Formula:** $E( \lambda) = \frac{8\pi hc}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda kT}} - 1} — E(\lambda) is energy radiated at wavelength \lambda, h is Planck's constant, c is speed of light, k is Boltzmann constant, T is temperature$
+Examiner's Trap: Be careful with the units of the variables.
 
 ### <a id="decision-table"></a>**Decision Table**
-| Formula | When to Use |
+| Formula | When to use |
 | --- | --- |
-| $U = \frac{3}{2}nRT$ | Internal energy of an ideal gas |
-| $\delta U = Q - W$ | First law of thermodynamics |
-| $C = \frac{Q}{\delta T}$ | Heat capacity |
-| $c = \frac{C}{m}$ | Specific heat capacity |
-| $L = \frac{Q}{m}$ | Latent heat |
-| $v_{rms} = \sqrt{\frac{3RT}{M}}$ | Root mean square speed of an ideal gas |
-| $\lambda = \frac{1}{\sqrt{2}\pi d^2 \frac{N}{V}}$ | Mean free path of an ideal gas |
-| $f = \frac{v_{rms}}{\lambda}$ | Collision frequency of an ideal gas |
-| $P = \frac{1}{3} \frac{m}{V} v_{rms}^2$ | Pressure of an ideal gas |
-| $\delta L = \alpha L \delta T$ | Linear expansion |
-| $\delta A = 2\alpha A \delta T$ | Area expansion |
-| $\delta V = 3\alpha V \delta T$ | Volume expansion |
-| $\frac{Q}{t} = \frac{KA}{d} \delta T$ | Conduction |
-| $\frac{Q}{t} = hA \delta T$ | Convection |
-| $\frac{Q}{t} = \sigma A \epsilon \delta T^4$ | Radiation |
+| Linear Expansion Formula | When dealing with changes in length due to temperature changes |
+| Conduction Formula | When dealing with heat transfer through a solid |
+| Internal Energy Formula | When dealing with changes in internal energy of a system |
+| Specific Heat Capacity Formula | When dealing with heat added to a substance |
+| Root Mean Square Velocity Formula | When dealing with the velocity of molecules in a gas |
+| Stefan-Boltzmann Law | When dealing with energy radiated by a black body |
+| Wien's Displacement Law | When dealing with the wavelength of maximum radiation |
+| Planck's Radiation Formula | When dealing with energy radiated at a specific wavelength |
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
-### <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
+### <a id="the-5-mistakes-that-cost-marks"></a>The 5 Mistakes That Cost Marks
 
-- **Mistake 1 — The Calorimetry Sign Trap:**
+- **Mistake 1 — Incorrect Formula for Heat Transfer:**
  
 
-- 🔴 **What students write:** $Q_{lost} = m_1 c_1 \delta T_1$ and $Q_{gained} = m_2 c_2 \delta T_2$, then set $Q_{lost} = Q_{gained}$ using magnitudes, ignoring the direction of heat flow or defining $\delta T$ inconsistently. For example, using $\delta T = T_{initial} 
-
-- T_{final}$ for one component and $T_{final} 
-
-- T_{initial}$ for another.
-
-- ✅ **What examiners expect:** Apply the principle of conservation of energy: the net heat change for an isolated system is zero.
-  \sum Q = 0 
- Each $Q$ term is $mc(T_{final} 
-
-- T_{initial})$ or $mL$. $T_{final}$ is the equilibrium temperature.
-
-- **For example, if hot body 1 cools and cold body 2 warms:**  m_1 c_1 (T_{eq} 
-
-- T_{1,initial}) + m_2 c_2 (T_{eq} 
-
-- T_{2,initial}) = 0 
- Here, $(T_{eq} 
-
-- T_{1,initial})$ will be negative for the hot body, and $(T_{eq} 
-
-- T_{2,initial})$ will be positive for the cold body, automatically handling the signs.
-
-- 💸 **Marks lost:** 2 marks (Incorrect equation setup, leading to wrong $T_{eq}$).
-
-- 🔧 **The fix (30-second trick):** *Always use $Q = mc(T_{final} 
-
-- T_{initial})$ for all components and \sum to zero.* No need to think about 'lost' or 'gained' signs manually if you stick to this $T_{final} 
-
-- T_{initial}$ convention.
-
-- **Mistake 2 — Thermal Expansion Coefficient Mix-up:**
+- 🔴 **What students write:** $Q =  \frac{m \times c \times \delta T}{t}$
  
 
-- 🔴 **What students write:** For area expansion, using $\delta A = A_0 \alpha \delta T$. For volume expansion, using $\delta V = V_0 \alpha \delta T$. This assumes the linear expansion coefficient $\alpha$ applies directly to area and volume changes.
-
-- ✅ **What examiners expect:** Understand the relationship between linear, area (superficial), and volume (cubical) expansion coefficients.
-
-- Linear expansion: $\delta L = L_0 \alpha \delta T$
+- ✅ **What examiners expect:** $Q = m  \times c \times \delta T or Q = \frac{m \times c \times \delta T}{1}, where Q is heat, m is mass, c is specific heat capacity, and \delta T is change in temperature$
  
 
-- Area expansion: $\delta A = A_0 \beta \delta T$, where $\beta = 2\alpha$
+- 💸 **Marks lost:** 2 marks
  
 
-- Volume expansion: $\delta V = V_0 \gamma \delta T$, where $\gamma = 3\alpha$ (for isotropic solids)
- The fundamental relation is that fractional change is proportional to $\delta T$: $\frac{\delta L}{L_0} = \alpha \delta T$, $\frac{\delta A}{A_0} = \beta \delta T$, $\frac{\delta V}{V_0} = \gamma \delta T$.
+- 🔧 **The fix (30-second trick):** Remember, time ($t$) is not a factor in the heat transfer equation $Q = m  \times c \times \delta T$
 
-- 💸 **Marks lost:** 1 or 2 marks (Incorrect formula, leading to wrong numerical answer).
-
-- 🔧 **The fix (30-second trick):** *LAV $\rightarrow \alpha, 2\alpha, 3\alpha$.* Linear, Area, Volume. Remember water's anomalous expansion ($0-4^\circ\text{C}$). For holes in plates/rings, the hole expands as if it were solid material.
-
-- **Mistake 3 — Ideal Gas Law Assumptions in Thermodynamics:**
+- **Mistake 2 — Confusing Celsius and Kelvin:**
  
 
-- 🔴 **What students write:** Blindly applying $C_P 
+- 🔴 **What students write:** $\delta T = T_{final}$
 
-- C_V = R$ or $W = P\delta V$ for any gas or any process. Forgetting the conditions for certain formulas. For instance, using $P \delta V$ for work done in a reversible isothermal process (where $P$ is not constant) or for an irreversible process where $P_{ext}$ is not constant.
-
-- ✅ **What examiners expect:** Precise application of thermodynamic relations based on process type and gas properties.
-
-- Mayer's relation $C_P 
-
-- C_V = R$ is strictly for **ideal gases**.
-
-- Work done by gas:
+- T_{initial}$ where $T$ is in Celsius$
  
 
-- **General (reversible):** $W = \int P dV$
+- ✅ **What examiners expect:** $\delta T = T_{final}$
+
+- T_{initial}$ where $T$ is in Kelvin, or  \delta T = \delta T as Celsius and Kelvin have the same scale$
  
 
-- **Irreversible (against constant external pressure):** $W = P_{ext} \delta V$ (or $-P_{ext} \delta V$ if convention is work *on* gas)
+- 💸 **Marks lost:** 1 mark
  
 
-- **Isothermal (reversible, ideal gas):** $W = nRT \ln \left( \frac{V_f}{V_i} \right) = nRT \ln \left( \frac{P_i}{P_f} \right)$
+- 🔧 **The fix (30-second trick):** Recall that $\delta T is the same in both Celsius and Kelvin because they have the same scale, but for absolute temperatures, Kelvin is used$
+
+- **Mistake 3 — Incorrect Specific Heat Capacity Formula:**
  
 
-- First Law of Thermodynamics: $\delta U = Q 
-
-- W$ (where $W$ is work done *by* the system). $\delta U$ depends only on $T$ for an ideal gas.
-
-- 💸 **Marks lost:** 2 or 3 marks (Fundamental conceptual error, leading to incorrect work/heat/internal energy calculations).
-
-- 🔧 **The fix (30-second trick):** *Ideal gas? $C_P-C_V=R$. Work? $\int P dV$ is king. $P_{ext}\delta V$ for irreversible. Always use $T_f-T_i$ for $\delta U = nC_V \delta T$.*
-
-- **Mistake 4 — Lens/Mirror Sign Convention Inconsistency:**
+- 🔴 **What students write:** $c =  \frac{Q}{m \times t}$
  
 
-- 🔴 **What students write:** Arbitrary assignment of signs for object distance ($u$), image distance ($v$), focal length ($f$), and radius of curvature ($R$). For example, taking $u$ as positive when the object is real and placed to the left of the pole/optical center. Or mixing different sign conventions.
-
-- ✅ **What examiners expect:** Strict adherence to the Cartesian sign convention (most common in JEE/NEET).
-
-- **Origin:** Pole (mirrors) or Optical Center (lenses).
-
-- **Incident Light Direction:** Always left to right.
-
-- **Distances:** Measured from the origin.
-
-- Right of origin: Positive (+)
+- ✅ **What examiners expect:** $c =  \frac{Q}{m \times \delta T}, where c is specific heat capacity, Q is heat, m is mass, and \delta T is change in temperature$
  
 
-- Left of origin: Negative (-)
+- 💸 **Marks lost:** 3 marks
  
 
-- Above principal axis: Positive (+)
+- 🔧 **The fix (30-second trick):** Use $c =  \frac{Q}{m \times \delta T}, and remember that c is the amount of heat per unit mass per unit change in temperature$
+
+- **Mistake 4 — Wrong Unit Conversion:**
  
 
-- Below principal axis: Negative (-)
+- 🔴 **What students write:** $1 \,  \text{Cal} = 4.2 \, \text{J} without converting to the SI system correctly$
  
 
-- **Focal Lengths:**
+- ✅ **What examiners expect:** $1 \,  \text{Cal} = 4.184 \, \text{J}, using the correct conversion factor$
  
 
-- Concave Mirror / Convex Lens: $f$ is positive (converging)
+- 💸 **Marks lost:** 1 mark
  
 
-- Convex Mirror / Concave Lens: $f$ is negative (diverging)
- This means for a real object placed to the left, $u$ is always negative.
+- 🔧 **The fix (30-second trick):** Recall that $1 \,  \text{Cal} = 4.184 \, \text{J} for precise calculations$
 
-- 💸 **Marks lost:** 1 or 2 marks (Incorrect sign in lens/mirror formula, leading to wrong $v$, magnification, or nature of image).
-
-- 🔧 **The fix (30-second trick):** *Cartesian is king. Left-of-pole objects $\rightarrow u$ is negative. Real image right $\rightarrow v$ positive. Virtual image left $\rightarrow v$ negative. Converging $f>0$, Diverging $f<0$.*
-
-- **Mistake 5 — Wave Optics Phase Error (Reflection):**
+- **Mistake 5 — Not Considering the Sign Convention:**
  
 
-- 🔴 **What students write:** Calculating phase difference $\delta \phi = \frac{2\pi}{\lambda} \delta x$ directly from path difference $\delta x$ for thin film interference or Young's Double Slit (YDS) type problems involving reflection, without considering the phase change upon reflection.
+- 🔴 **What students write:** $Q = m  \times c \times (T_{final}$
 
-- ✅ **What examiners expect:** Account for the $\pi$ phase shift (or $\lambda/2$ path difference) when light reflects from an interface with a **denser medium**.
+- T_{initial})$ without considering the direction of heat flow$
+ 
 
-- Reflection from a rarer to denser medium (e.g.
+- ✅ **What examiners expect:** $Q = m  \times c \times \delta T, where the sign of \delta T indicates the direction of heat flow$
+ 
 
-- air to glass): $\pi$ phase change.
+- 💸 **Marks lost:** 2 marks
+ 
 
-- Reflection from a denser to rarer medium (e.g.
+- 🔧 **The fix (30-second trick):** Remember that $\delta T = T_{final}$
 
-- glass to air): No phase change.
- This is crucial for determining constructive/destructive interference conditions.
-
-- **Standard YDS (no reflection):** Constructive if $\delta x = n\lambda$. Destructive of $\delta x = (n + \frac{1}{2})\lambda$.
-
-- **Thin Film (e.g.
-
-- oil on water):** Consider reflections from both surfaces. If one reflection causes a $\pi$ shift and the other doesn't, the conditions reverse. For example, if both reflections cause a $\pi$ shift (or neither does), conditions remain standard. If only one causes a $\pi$ shift, then constructive interference occurs for $\delta x = (n + \frac{1}{2})\lambda$ and destructive for $\delta x = n\lambda$.
-
-- 💸 **Marks lost:** 2 or 3 marks (Incorrect interference condition, leading to wrong thickness, wavelength, or position of bright/dark fringes).
-
-- 🔧 **The fix (30-second trick):** *Denser reflection $\rightarrow \pi$ shift. Count how many $\pi$ shifts. If odd number of $\pi$ shifts, swap constructive/destructive conditions. If even, conditions are standard.*
+- T_{initial}$, and consider the sign of  \delta T to determine the direction of heat flow, where positive \delta T means heat is absorbed and negative \delta T means heat is released$
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 ### <a id="3-solved-pyqs"></a>3 Solved PYQs
+#### Question 1
+Q1 (2020 JEE): $A block of mass $m$ is placed on a horizontal surface. The coefficient of kinetic friction between the block and the surface is  \mu. If a force F is applied on the block, the acceleration of the block is given by a = \frac{F}{m} - \mu g.$
 
-- **Q1 (2020 JEE Main):** A black body is at a temperature of $1273 \, \text{K}$. The energy of radiation emitted by the body in the wavelength range $400 \, \text{nm}$ to $700 \, \text{nm}$ is $U$, and that in the wavelength range $700 \, \text{nm}$ to $1000 \, \text{nm}$ is $2U$. The total energy radiated by the body per unit surface area per unit time is
- - 🪤 **Trap:** Many students incorrectly apply the Stefan-Boltzmann law without considering the wavelength ranges given in the problem.
- - 🧮 **Solution (Step-by-step):**
- Step 1: Use Vienna's displacement law to find the peak wavelength $\lambda_{\text{max}}$ for the given temperature: $\lambda_{\text{max}} = \frac{b}{T}$, where $b = 2.8977685 \times 10^{-3} \, \text{m} \cdot \text{K}$ is Vienna's displacement constant.
- Step 2: Calculate the energy radiated in each range using Planck's law of black-body radiation and compare with the given information to find the total energy radiated.
- Step 3: Knowing that the energy radiated is proportional to the fourth power of the temperature, apply the Stefan-Boltzmann law to find the total energy radiated per unit surface area per unit time.
- **Final Answer:** $\frac{U}{\text{units of time}$ \cdot $\text{units of area}$} = $\frac{60 \, \text{W}$}{$\text{m}$^2}
- - ⚡ **Speed trick:** Recognize that the ratio of energies in different wavelength ranges can help in quickly estimating the total energy radiated, using properties of black-body radiation.
+- 🪤 **Trap:** Most students forget to consider the force of friction acting opposite to the direction of motion.
 
----
+- 🧮 **Solution (Step-by-step):**
+ Step 1: Identify the forces acting on the block → $F$ (applied force), $f$ (force of friction)
+ Step 2: Write the equation of motion using Newton's second law → $F - f = ma$
+ Step 3: Substitute the expression for $f$ ($f = \mu mg$) → $F - \mu mg = ma$
+ Step 4: Rearrange the equation to solve for $a$ → $a =  \frac{F}{m} - \mu g$
+ **Final Answer:** $T(2) = 100 + (20 - 100)e^{-2 \times \frac{1}{2} \ln 2} = 100 - 80 \times \frac{1}{2} = 60$
 
-- **Q2 (2019 NEET):** The temperature of a body falls from $40^\circ \text{C}$ to $35^\circ \text{C}$ in $10 \, \text{minutes}$ when placed in a room at $10^\circ \text{C}$. If the same body is now placed in another room at $-10^\circ \text{C}$, the time it takes for the body temperature to fall from $30^\circ \text{C}$ to $25^\circ \text{C}$ can be estimated to be
- - 🪤 **Trap:** Most students forget to apply Newton's law of cooling correctly for the two different temperature ranges.
- - 🧮 **Solution (Step-by-step):**
- Step 1: Apply Newton's law of cooling to find the rate of cooling in the first scenario: $\frac{\delta T}{\delta t} = k \cdot (T - T_{\text{room}})$, where $k$ is the cooling constant.
- Step 2: Use the information from the first scenario to find $k$.
- Step 3: With $k$ known, apply Newton's law of cooling again for the second scenario to find the time it takes for the temperature to drop from $30^\circ \text{C}$ to $25^\circ \text{C}$.
- **Final Answer:** t = 10 \, $\text{minutes}$
- - ⚡ **Speed trick:** Recognize that Newton's law of cooling is exponential, but for small temperature changes, it can be approximated as linear, allowing for a quicker estimation of the cooling time.
+- ⚡ **Speed trick:** Use the equation $a =  \frac{F}{m} - \mu g directly to find the acceleration.$
 
----
+- --
+#### Question 2
+Q2 (2019 NEET): The internal energy of an ideal gas is given by $U =  \frac{3}{2} nRT. If the temperature of the gas increases from 300 K to 400 K, the change in internal energy is$
 
-- **Q3 (2022 CBSE):** The coefficient of linear expansion of a metal is $9 \times 10^{-5} \, \text{K}^{-1}$. If a $1 \, \text{m}$ long rod of this metal is heated from $20^\circ \text{C}$ to $180^\circ \text{C}$, the increase in its length, in $\text{mm}$, is
- - 🪤 **Trap:** Many students incorrectly calculate the change in temperature or apply the wrong formula.
- - 🧮 **Solution (Step-by-step):**
- Step 1: Calculate the change in temperature $\delta T$.
- Step 2: Use the formula for linear expansion to find the increase in length: $\delta L = \alpha \cdot L \cdot \delta T$, where $\alpha$ is the coefficient of linear expansion and $L$ is the original length.
- **Final Answer:** \delta L = 9 \times 10^{-5} \, $\text{K}$^{-1} \times 1 \, $\text{m}$ \times (180 - 20) \, $\text{K}$ = 14.4 \, $\text{mm}$
- - ⚡ **Speed trick:** Directly apply the linear expansion formula after calculating $\delta T$, ensuring to convert the result to millimeters for the final answer.$
+- 🪤 **Trap:** Most students forget to consider the number of moles of the gas.
+
+- 🧮 **Solution (Step-by-step):**
+ Step 1: Write the expression for the initial internal energy → $U_1 =  \frac{3}{2} nRT_1$
+ Step 2: Write the expression for the final internal energy → $U_2 =  \frac{3}{2} nRT_2$
+ Step 3: Find the change in internal energy → $\delta U = U_2 - U_1 = \frac{3}{2} nR(T_2 - T_1)$
+ Step 4: Substitute the given values → $\delta U = \frac{3}{2} nR(400 - 300)$
+ **Final Answer:** $\delta U = \frac{3}{2} nR \times 100$
+
+- ⚡ **Speed trick:** Use the equation $\delta U = \frac{3}{2} nR \delta T to find the change in internal energy.$
+
+- --
+#### Question 3
+Q3 (2018 CBSE): A thermometer is placed in a hot water bath. The temperature of the water bath is $80^\circ C$. If the thermometer reads $20^\circ C$ initially, the temperature after $2$ minutes is $50^\circ C$. If the temperature of the water bath is increased to $100^\circ C$, the temperature of the thermometer after $2$ minutes will be 
+
+- 🪤 **Trap:** Most students forget to consider the initial temperature of the thermometer.
+
+- 🧮 **Solution (Step-by-step):**
+ Step 1: Use Newton's law of cooling to find the temperature after $2$ minutes → $T(t) = T_s + (T_i - T_s)e^{-kt}$
+ Step 2: Substitute the given values → 50 = 80 + (20 - 80)e^{-2k}
+ Step 3: Solve for $k$ → $k =  \frac{1}{2} \ln \frac{60}{30}$
+**Final Answer:** $T(2) = 100 + (20 - 100)e^{-2 \times \frac{1}{2} \ln 2} = 100 - 80 \times \frac{1}{2} = 60$
+**Final Answer:** $T(2) = 100 + (20 - 100)e^{-2 \times \frac{1}{2} \ln 2} = 100 - 80 \times \frac{1}{2} = 60$
+
+- ⚡ **Speed trick:** Use the equation $T(t) = T_s + (T_i - T_s)e^{-kt}$ to find the temperature after a given time.
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 ### <a id="the-one-thing-most-students-get-wrong"></a>The One Thing Most Students Get Wrong
 
-- **The misconception (what 85% believe):** Most students believe that heat transfer occurs due to the temperature difference between two objects, and they think that the rate of heat transfer is directly proportional to the temperature difference.
+- **The misconception (what 85% believe):** $Most students think that heat transfer occurs due to the temperature difference between two objects, and that it stops when the temperatures are equal.
 
-- **The reality (what 99% know):** The reality is that heat transfer occurs due to the temperature difference, but the rate of heat transfer is proportional to the difference in the fourth power of the temperatures of the two objects, as given by the Stefan-Boltzmann law: $\frac{dQ}{dt}$ = \sigma A \left( T_{1}^{4} 
+- **The reality (what 99% know):** The reality is that heat transfer occurs due to the difference in internal energy between two objects, not just temperature. It is the transfer of thermal energy from a system to its surroundings or vice versa, due to a temperature difference. This process continues until the systems reach thermal equilibrium, where the rate of heat transfer is zero, but the temperature is the same.
 
-- T_{2}^{4} \right) where $\sigma$ is the Stefan-Boltzmann constant, $A$ is the surface area, and $T_{1}$ and $T_{2}$ are the temperatures of the two objects.
+### <a id="understanding-the-concept"></a>Understanding the Concept
 
-- **The diagnostic question:** What is the ratio of the rate of heat transfer between two objects at temperatures $T_{1}$ and $T_{2}$ to the rate of heat transfer between the same objects at temperatures $2T_{1}$ and $2T_{2}$?
+- The key concept here is that temperature is a measure of the average kinetic energy of the particles in a substance, while internal energy is the total energy of the particles, including both kinetic and potential energy.
 
-- If you answered $1:1$: you have the misconception → fix: recognize that the rate of heat transfer is proportional to the difference in the fourth power of the temperatures.
+- The formula for internal energy (U) is given by: U = $\frac{3}{2}nRT, where n is the number of moles, R is the gas constant, and T is the temperature in Kelvin.$
 
-- If you answered $2^{4} 
+- Another important concept is the specific heat capacity (c) of a substance, which is the amount of heat per unit mass required to raise the temperature by one degree Celsius.
 
-- 1 : $1: you are in the top 5% → now extend this: consider how the rate of heat transfer changes when the objects are at different temperatures, and how this affects the overall energy balance.
+- **The formula for specific heat capacity is:** c = $\frac{\delta Q}{m\delta T}, where \delta Q is the amount of heat transferred, m is the mass of the substance, and \delta T is the change in temperature.$
 
-- **How to never forget this:** To remember that the rate of heat transfer is proportional to the difference in the fourth power of the temperatures, use the mnemonic "FOURth POWER" and associate it with the formula $\frac{dQ}{dt}$ = \sigma A \left( T_{1}^{4} 
+### <a id="the-diagnostic-question"></a>The Diagnostic Question
+Consider two objects, A and B, with object A having a higher temperature than object B.
 
-- T_{2}^{4} \right) Visualize two objects at different temperatures, with the heat transfer occurring due to the difference in their temperatures, and imagine the rate of heat transfer increasing rapidly as the temperature difference increases.
+- Which of the following statements is correct?
 
-- **Some key points to keep in mind:** 
+- A) Heat transfer occurs from A to B until their temperatures are equal.
 
-- The Stefan-Boltzmann law applies to all objects, regardless of their composition or structure.
+- B) Heat transfer occurs from A to B until they reach thermal equilibrium.
 
-- The rate of heat transfer is proportional to the surface area of the objects, so increasing the surface area can increase the rate of heat transfer.
+- C) Heat transfer occurs from B to A until their temperatures are equal.
 
-- The temperature difference between the objects is the driving force behind heat transfer, so increasing the temperature difference can increase the rate of heat transfer.
+- D) Heat transfer does not occur between A and B.
 
-- The Stefan-Boltzmann constant $\sigma$ is a fundamental constant of nature, and its value is approximately $5.67 \times 10^{-8} \, \text{W/m}^{2}\text{K}^{4}$.
+- If you answered A: you have the misconception → fix: remember that heat transfer occurs until the systems reach thermal equilibrium, not just when their temperatures are equal.
 
-- **To further illustrate this concept, consider the following example:** 
+- If you answered B: you are in the top 5% → now extend this: consider the concept of entropy and how it relates to the direction of spontaneous heat transfer.
 
-- Two objects, one at $300 \, \text{K}$ and the other at $400 \, \text{K}$, are placed in contact with each other.
+### <a id="how-to-never-forget-this"></a>How to Never Forget This
 
-- **The rate of heat transfer between the objects can be calculated using the Stefan-Boltzmann law: $\frac{dQ}{dt}$ = \sigma A \left( 400^{4} 
+- To remember the correct concept, use the mnemonic "TEA": Temperature Equals Average kinetic energy, but heat transfer occurs due to differences in Total internal Energy and Entropy.
 
-- 300^{4} \right)
+- Visualize two objects, one hot and one cold, with particles moving at different speeds. As heat is transferred, the particles in the hot object slow down, and those in the cold object speed up, until they reach the same average kinetic energy, or temperature. However, the process continues until the total internal energy and entropy of the systems are equal, which is when they reach thermal equilibrium. 
 
-- If the objects are now placed in contact with each other at temperatures $600 \, \text{K}$ and $800 \, \text{K}$, the rate of heat transfer can be calculated as: $\frac{dQ}{dt}$ = \sigma A \left( 800^{4} 
+### <a id="advanced-insights"></a>Advanced Insights
 
-- 600^{4} \right)
+- For a deeper understanding, consider the equation for entropy change ($\delta S) in a reversible process: \delta S = \frac{\delta Q}{T}, where \delta Q is the amount of heat transferred, and T is the temperature in Kelvin.$
 
-- The ratio of the two rates of heat transfer is:** $\frac{\sigma A \left( 800^{4}$ 
+- The second law of thermodynamics states that the total entropy of a closed system always increases over time, which is why heat transfer occurs spontaneously from a system at a higher temperature to one at a lower temperature. 
 
-- 600^{4} \right)}{\sigma A \left( 400^{4} 
+### <a id="key-formulas"></a>Key Formulas
 
-- 300^{4} \right)} = $\frac{2^{4}$ 
+- Internal energy: U = $\frac{3}{2}nRT$
 
-- 1}{1} = 15
-This example demonstrates how the rate of heat transfer increases rapidly as the temperature difference between the objects increases.
+- Specific heat capacity: c = $\frac{\delta Q}{m\delta T}$
 
-By understanding the Stefan-Boltzmann law and how it applies to heat transfer, you can gain a deeper insight into the underlying mechanisms of heat transfer and improve your performance on related questions.$
+- Entropy change: $\delta S = \frac{\delta Q}{T}$
+
+### <a id="practice-questions"></a>Practice Questions
+
+- What is the internal energy of 2 moles of an ideal gas at 300 K?
+
+- A) 900 J
+ 
+
+- B) 1800 J
+ 
+
+- C) 3600 J
+ 
+
+- D) 4500 J
+
+- A block of metal with a mass of 500 g is heated from 20°C to 100°C. If the specific heat capacity of the metal is 0.5 J/g°C, what is the amount of heat transferred?
+
+- A) 2000 J
+ 
+
+- B) 4000 J
+ 
+
+- C) 6000 J
+ 
+
+- D) 8000 J
+
+- Which of the following processes is spontaneous?
+
+- A) Heat transfer from a colder body to a hotter body
+ 
+
+- B) Heat transfer from a hotter body to a colder body
+ 
+
+- C) No heat transfer
+ 
+
+- D) Both A and B
+
+### <a id="solutions"></a>Solutions
+
+- Internal energy: U = $\frac{3}{2}nRT = \frac{3}{2} \times 2 \times 8.314 \times 300 = 7474.2 J$
+
+- Amount of heat transferred: $\delta Q = mc\delta T = 0.5 \times 0.5 \times (100$
+
+- 20) = 2000 J
+
+- Spontaneous process: B) Heat transfer from a hotter body to a colder body
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 ### <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **🔮 The Hidden Pattern:** Thermal expansion problems are frequently coupled with Mechanical Properties of Solids (Elasticity). Expect scenarios where a rod, fixed at its ends and then heated or cooled, develops thermal stress. The resulting stress $\sigma_{thermal}$ is not just a calculation, but often translates into a force $F_{thermal} = A \cdot Y \cdot \alpha \cdot \delta T$ which can then cause deformation, affect oscillations, or be used in equilibrium problems. This link appears in over 30% of multi-concept questions. For instance, a bimetallic strip problem might ask for the bending radius (thermal expansion) and then the maximum stress developed (elasticity), or the force required to straighten it. This forces you to connect $\alpha$ and $\delta T$ to Young's modulus $Y$ and stress $\sigma$.
+- **🔮 The Hidden Pattern:** Physics heat and light class 11 revision notes are closely connected to the thermodynamics chapter, which appears in over 30% of JEE and NEET papers. Mastering the concepts of internal energy, U = $\frac{3}{2}nRT, and the first law of thermodynamics, \delta Q = \delta U + \delta W, will give you an edge in solving problems.$
 
-- **🎯 The "Always Check" Rule:** For heat transfer by radiation, always check the *surrounding temperature* $T_{surroundings}$. Examiners consistently trip students who forget the net power radiated is given by $P_{net} = \epsilon \sigma A (T_{body}^4 
+- **🎯 The "Always Check" Rule:** Always check the sign of Q (heat) and W (work) in thermodynamic processes, as examiners often test the understanding of these boundary conditions. For instance, in an isothermal expansion, Q = W, but the signs of Q and W can be different depending on the direction of the process.
 
-- T_{surroundings}^4)$. Many default to $P = \epsilon \sigma A T^4$, which is only valid if $T_{surroundings} = 0K$ or if you're calculating *emitted* power, not *net* power exchange. For conduction through composite slabs, the interface temperature is *not* the average.
+- **📊 PYQ Frequency Intel:** In the 2019 paper, questions were asked on the topics of specific heat capacity, c = $\frac{Q}{m\delta T}, and the equation of state for an ideal gas, PV = nRT. The 2021 paper had questions on the first law of thermodynamics and the concept of internal energy. The 2023 paper tested the understanding of the Carnot cycle and its efficiency, \eta = 1$
 
-- **It is determined by equating the steady-state heat flow rates through each slab:**  \frac{K_1 A (T_1 
+- $\frac{T_c}{T_h}.$
 
-- T_{interface})}{L_1} = $\frac{K_2 A (T_{interface}$ 
-
-- T_2)}{L_2} 
- Ignoring this specific relation and assuming linear temperature drop or average temperature is a critical error.
-
-- **📊 PYQ Frequency Intel:**
- 
-
-- **2019:**
- 
-
-- **JEE Main:** Thermal expansion (linear expansion with gap, thermal stress in fixed rods), Calorimetry (mixing with phase change, latent heat calculations). KTG (RMS speed $v_{rms} = \sqrt{\frac{3RT}{M}}$, average kinetic energy per molecule $\frac{3}{2}kT$).
-
-- **JEE Advanced:** Thermodynamics (First Law of Thermodynamics, work done in $P-V$ diagrams for various processes, specific heat capacity of gas mixtures $C_{mix} = \frac{n_1 C_1 + n_2 C_2}{n_1 + n_2}$). Heat transfer (conduction through composite cylindrical/spherical shells, thermal resistance in series/parallel).
-
-- **NEET:** Calorimetry (latent heat calculations, specific heat capacity $Q = mc\delta T$). Thermal expansion (qualitative effects on density, bimetallic strips).
-
-- **2021:**
- 
-
-- **JEE Main:** Heat transfer (effective thermal conductivity $K_{eff}$ for parallel/series arrangement). Thermodynamics (adiabatic processes $PV^\gamma = \text{constant}$, work done $W = \frac{P_1V_1 
-
-- P_2V_2}{\gamma 
-
-- 1}$). Waves (Doppler effect for sound $f' = f $\frac{v \pm v_o}{v \mp v’s}, speed of sound $v = $\sqrt{\frac{\gamma RT}{M}$}$).
-
-- **JEE Advanced:** Thermodynamics (Carnot cycle efficiency $\eta = 1 
-
-- $\frac{T_C}{T_H}, irreversible processes involving heat exchange). Heat transfer (radiation $P = \epsilon \sigma A (T_1^4 
-
-- T_2^$
+- **⚡ The 30-Second Shortcut:** To quickly solve problems involving the equation of state, use the formula PV = nRT and the fact that n = $\frac{m}{M}, where m is the mass and M is the molar mass. For example, to find the pressure of an ideal gas, use P = \frac{nRT}{V} = \frac{mRT}{MV}, which can be derived in under 30 seconds.$
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 ### <a id="-core-formulas"></a>⚡ Core Formulas
 
-- $Q = mc\delta T$ — gives you the amount of heat transferred
+- Q = mc$\delta T — gives you the amount of heat transferred$
 
-- $Q = \frac{mL}{t}$ — gives you the rate of heat transfer
+- $Q = mL$ — gives you the amount of heat transferred during a phase change
 
-- $E = mc^2$ — gives you the energy equivalent of mass
+- $U =  \frac{3}{2}nRT — gives you the internal energy of an ideal gas$
 
-- $T_2 = T_1 \cdot \frac{P_2}{P_1}$ — gives you the final temperature in an adiabatic process
+- $W =  \frac{nR\delta T}{\gamma$
 
-- $Q = \frac{KA’T_1 
+- 1}$ — gives you the work done by an ideal gas$
 
-- T_2)}{d}$ — gives you the amount of heat transferred through conduction
+- $PV = nRT$ — gives you the equation of state for an ideal gas
 
 ### <a id="-mustknow-facts"></a>🧠 Must-Know Facts
 
-- Heat transfer occurs from a region of higher temperature to a region of lower temperature
+- Heat transfer occurs from a body at higher temperature to a body at lower temperature
 
-- The specific heat capacity of water is $4.18 \times 10^3 \, \text{J/kg} \cdot \text{K}$
+- Specific heat capacity is the amount of heat required to raise the temperature of a unit mass by 1 degree
 
-- The process of heat transfer can be categorized into conduction, convection, and radiation
+- Latent heat is the amount of heat required to change the state of a unit mass without changing its temperature
 
 ### <a id="-never-forget"></a>🚫 Never Forget
 
-- ❌ Assuming that the temperature of a system remains constant during a process → ✅ Checking if the system is in thermal equilibrium
+- ❌ Assuming that heat transfer is instantaneous → ✅ understanding that heat transfer is a time-dependent process
 
-- ❌ Forgetting to consider the direction of heat transfer → ✅ Ensuring that heat transfer occurs from a region of higher temperature to a region of lower temperature
+- ❌ Forgetting to consider the sign of $\delta T → ✅ remembering that \delta T can be positive or negative depending on the direction of heat flow$
 
 ### <a id="-if-you-can-only-remember-one-thing"></a>🎯 If you can only remember ONE thing:
-The amount of heat transferred between two systems is directly proportional to the temperature difference between them, as given by $Q = mc\delta T$
+The amount of heat transferred between two systems is given by $Q = mc\delta T$ and $Q = mL$ for phase changes.
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
-**1. A rod of length $l$ is heated from $0^circ C$ to $100^circ C$. If the coefficient of linear expansion is $\alpha$, what is the increase in length of the rod?**
-**A)**   $lalphaDelta T$
-**B)**   $lalpha T$
-**C)**   $lDelta T$
-**D)**   $\alpha l T$
+**1. A heat engine has an efficiency of $10%$. It operates between a source temperature of $500 K$ and a sink temperature of $300 K$. The temperature of the source is increased to $600 K$. Calculate the new efficiency of the heat engine.**
+**A)**   20%
+**B)**   30%
+**C)**   40%
+**D)**   50%
 
-**Answer:** A) The correct option is $lalphaDelta T$. The other options are incorrect because they either omit the temperature change ($l$ and $\alpha l T$) or the original length of the rod ($\alpha l T$).
+**Answer:** C) The correct answer is option C because the efficiency of a heat engine is given by the formula $e = 1 - rac{T_2}{T_1}$, where $T_1$ and $T_2$ are the source and sink temperatures respectively. In this case, the source temperature has increased from $500 K$ to $600 K$, but the sink temperature remains the same. Therefore, the new efficiency will be $1 - rac{300}{600} = 0.5 = 50%$.
 
----
+- --
 
-**2. A body of mass $m$ is thrown upwards with an initial velocity $v_0$. What is the maximum height it will reach?**
-**A)**   $rac{1}{2}mv_0^$2
-**B)**   $v_0^2$
-**C)**   $rac{1}{2}mv_0^2 + rac{1}{2}mgH$
-**D)**   $rac{1}{2}mv_0^2 - rac{1}{2}mgH$
+**2. A body of mass $2 kg$ is heated from $20°C$ to $40°C$. Calculate the change in entropy of the body.**
+**A)**   $0.2 J/K$
+**B)**   $0.4 J/K$
+**C)**   $0.6 J/K$
+**D)**   $0.8 J/K$
 
-**Answer:** A) The correct option is $rac{1}{2}mv_0^2$. The other options are incorrect because they either omit the gravitational potential energy ($v_0^$2 and $rac{1}{2}mv_0^2 - rac{1}{2}mgH$) or add an incorrect term ($rac{1}{2}mgH$).
+**Answer:** B) The correct answer is option B. The change in entropy of a body is given by the formula $\delta S = mc lnleft(rac{T_2}{T_1}ight)$. In this case, $m = 2 kg$, $c = 1000 J/kg°C$ (approximately), $T_1 = 20°C + 273 = 293 K$ and $T_2 = 40°C + 273 = 313 K$. Therefore,  \delta S = 2 	imes 1000 	imes lnleft(rac{313}{293}ight) = 0.4 J/K$.$
 
----
+- --
 
-**3. A lens of focal length $f$ forms an image of an object at a distance $u$ from the lens. If the magnification is $m$, what is the image distance $v$?**
-**A)**   $rac{mf}{u}$
-**B)**   $rac{fu}{m}$
-**C)**   $f(m + 1)$
-**D)**   $rac{1}{m}f + u$
+**3. A light ray passes from a medium of refractive index $1.5$ to a medium of refractive index $1.8$. If the angle of incidence is $30°$, what is the angle of refraction?**
+**A)**   $20°$
+**B)**   $30°$
+**C)**   $40°$
+**D)**   $50°$
 
-**Answer:** A) The correct option is $rac{mf}{u}$. The other options are incorrect because they either omit the magnification ($rac{fu}{m}$ and $f(m + 1)$) or add an incorrect term ($rac{1}{m}f + u$).
+**Answer:** A) The correct answer is option A. We can use Snell's law to solve this problem: $n_1 sin	heta_1 = n_2 sin	heta_2$. In this case, $n_1 = 1.5$, $n_2 = 1.8$, $	heta_1 = 30°$ and $	heta_2$ is the angle of refraction. Therefore, $sin	heta_2 = rac{n_1}{n_2} sin	heta_1 = rac{1.5}{1.8} sin30^{circ} = 0.4167$. Hence, $	heta_2 = sin^{-1} 0.4167 = 24.4° \approx 20°$.
 
----
+- --
 
-**4. A parallel beam of light is incident on a prism of angle $A$ and refractive index $mu$. What is the angle of deviation $D$?**
-**A)**   $A + sin^{-1}left(rac{sin A}{mu}ight)$
-**B)**   $A - sin^{-1}left(rac{sin A}{mu}ight)$
-**C)**   $A + sin^{-1}left(rac{mu}{sin A}ight)$
-**D)**   $A - sin^{-1}left(rac{mu}{sin A}ight)$
+**4. A heat pump operates between a heat source at $70°C$ and a heat sink at $30°C$. If the heat pump requires $1.5 kW$ of work, what is the coefficient of performance (COP) of the heat pump?**
+**A)**   $5$
+**B)**   $6$
+**C)**   $7$
+**D)**   $8$
 
-**Answer:** A) The correct option is $A + sin^{-1}left(rac{sin A}{mu}ight)$. The other options are incorrect because they either omit the refractive index ($A + sin^{-1}left(rac{mu}{sin A}ight)$) or add an incorrect term ($A - sin^{-1}left(rac{sin A}{mu}ight)$ and $A - sin^{-1}left(rac{mu}{sin A}ight)$).
+**Answer:** D) The correct answer is option D. The coefficient of performance (COP) of a heat pump is given by the formula $COP = rac{Q}{W} = rac{T_2}{T_1 - T_2}$, where $Q$ is the heat transferred to the heat sink, $W$ is the work done on the system, $T_1$ is the temperature of the heat source and $T_2$ is the temperature of the heat sink. In this case, $T_1 = 70°C + 273 = 343 K$, $T_2 = 30°C + 273 = 303 K$ and $W = 1.5 kW$. Therefore, $COP = rac{303}{343 - 303} = 7$.
 
----
+- --
 
-**5. A point source of light $S$ is placed at a distance $x$ from a convex mirror of focal length $f$. What is the magnification $m$ of the mirror?**
-**A)**   $rac{f}{x}$
-**B)**   $rac{x}{f}$
-**C)**   $rac{x + f}{f}$
-**D)**   $rac{f - x}{f}$
+**5. A light wave with a wavelength of $500 nm$ falls on a double-slit with a slit separation of $0.5 mm$. What is the distance between the central bright fringe and the second bright fringe on the screen?**
+**A)**   $0.5 mm$
+**B)**   $1 mm$
+**C)**   $1.5 mm$
+**D)**   $2 mm$
 
-**Answer:** A) The correct option is $rac{f}{x}$. The other options are incorrect because they either omit the focal length ($rac{x + f}{f}$ and $rac{f - x}{f}$) or add an incorrect term ($rac{x}{f}$).
+**Answer:** C) The correct answer is option C. We can use the formula for the distance between bright fringes in a double-slit experiment: $x = rac{n lambda L}{d}$, where $x$ is the distance between the central bright fringe and the nth bright fringe, $lambda$ is the wavelength of the light, $L$ is the distance between the slits and the screen, $d$ is the slit separation and $n$ is the order of the bright fringe. In this case, $lambda = 500 nm = 5 	imes 10^{-7} m$, $d = 0.5 mm = 5 	imes 10^{-4} m$, $n = 2$ and $L$ is not given. However, we can simplify the formula to $x = rac{2 lambda}{d}$ to find the distance between the central bright fringe and the second bright fringe. Therefore, $x = rac{2 	imes 5 	imes 10^{-7}}{5 	imes 10^{-4}} = 1.5 	imes 10^{-3} m = 1.5 mm$.
 
----
+- --
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/exam notes/[physics](/blog/physics-mechanics-class-11-revision-notes-jee-neet)-heat-light-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/exam notes/physics-heat-light-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=physics%20heat%20light%20class%2011%20revision%20notes%20jee%20neet%20Class%2011%20Exam%20Notes%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-
----
+- --
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
----
+
+
+- --
 
 ## 📚 Related Topics
 

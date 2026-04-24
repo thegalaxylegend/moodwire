@@ -12,7 +12,7 @@ manualReview: false
 - The square of a number is obtained by multiplying the number by itself, i.e., $a^2 = a \times a$
 - The square root of a number is a value that, when multiplied by itself, gives the original number, i.e., $\sqrt{a} \times \sqrt{a} = a$
 - $\sqrt{a} \times \sqrt{b} = \sqrt{a \times b}$
--  $\frac{\sqrt{a}$}{$\sqrt{b}$} = $\sqrt{\frac{a}{b}$} 
+-  $\frac{\sqrt{a}}${$\sqrt{b}}$ = $\sqrt{\frac{a}{b}}$ 
 - $(a + b)^2 = a^2 + 2ab + b^2$
 - $(a - b)^2 = a^2 - 2ab + b^2$
 - $a^2 - b^2 = (a + b)(a - b)$

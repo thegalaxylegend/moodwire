@@ -81,7 +81,7 @@ I still remember the mistake I made and my class 11 biology exam. I confused the
 * Abscisic acid: inhibits growth and promotes dormancy
 * Ethylene: promotes fruit ripening and senescence
 
-The formula for auxin-induced cell elongation is: $\frac{dL}{dt} = dt}{L} , where $ is the cell length, $A$ is the auxin concentration, n $k$ is a constant.
+The formula for auxin-induced cell elongation is: $\frac{dL}{dt} = dt}{L} ,$ where $ is the cell length, $A$ is the auxin concentration, n $k$ is a constant.$
 
 ### <a id="photoperiodism"></a>Photoperiodism
 Photoperiodism is the response of [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) to the length of daylight. [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) can be classified into three categories based on their photoperiodic response:
@@ -89,7 +89,7 @@ Photoperiodism is the response of [plants](/blog/photosynthesis-n-higher-plants-
 * Long-day [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet): flower and response to long days
 * Day-neutral [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet): flower regardless of day length
 
-The formula for photoperiodic response is: $\frac{dF}{dt} = dt}{F} , where $ is the flowering response, $D$ is the day length, n $k$ is a constant.
+The formula for photoperiodic response is: $\frac{dF}{dt} = dt}{F} ,$ where $ is the flowering response, $D$ is the day length, n $k$ is a constant.$
 
 ## <a id="shortcut-formula-trick"></a>Shortcut Formula / Trick
 
@@ -147,10 +147,10 @@ D) Photoperiodic plant
 Answer: A) Short-day plant
 
 5. What is the formula for auxin-induced cell elongation?
-A) $\frac{dL}{dt} = dt}{\frac{dL}{dt} = k \\\cdot \frac{dC}{dt}} 
+A) $\frac{dL}{dt} = dt}{\frac{dL}{dt} = k \\\cdot \frac{dC}{dt}}$ 
 B) 
-C) $\frac{dL}{dt} = dt}{\frac{dL}{dt} = k \\\cdot \frac{dE}{dt}} 
- D)  Answer: A) \frac{dL}{dt} = k \\\cdot \frac{dA}{dt} 
+C) $\frac{dL}{dt} = dt}{\frac{dL}{dt} = k \\\cdot \frac{dE}{dt}}$ 
+ D)  Answer: A) $\frac{dL}{dt} = k \\\cdot \frac{dA}{dt}$ 
 
 ## <a id="related-notes-links"></a>Related Notes Links
 

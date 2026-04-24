@@ -80,9 +80,9 @@ I still remember when I was preparing for my class 11 exams, I used to struggle 
 [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) cycle is the series of events that take place and a [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet), leading to its division and duplication. It consists of three main stages: interphase, mitosis, n cytokinesis. Interphase is the longest stage of the [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) cycle, during which the [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) grows, replicates its DNA, n prepares for [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division. Mitosis is the process of [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division that results and two daughter cells with the same number of chromosomes as the parent [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet). Cytokinesis is the final stage of [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division, during which the cytoplasm divides and the [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) splits into two daughter cells.
 
 The [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) cycle can be represented y the following equation:
-$\text{Interphase} \right arrow \text{Mitosis}$ \right arrow $\text{Cytokinesis}
+$\text{Interphase} \right arrow \text{Mitosis}$ \right arrow $\text{Cytokinesis}$
 Mitosis can be further divided into four stages: prophase, metaphase, anaphase, n telophase.
-$\text{Prophase} \right arrow \text{Metaphase} \right arrow $1 $\text{Telophase}
+$\text{Prophase} \right arrow \text{Metaphase} \right arrow $1 $\text{Telophase}$
 
 ## <a id="shortcut-formula trick"></a>Shortcut Formula/Trick
 

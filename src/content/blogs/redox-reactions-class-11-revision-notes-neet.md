@@ -93,10 +93,10 @@ The half-equation method is a method used to balance redox reactions. In this me
 ### <a id="oxidation-numbers"></a>Oxidation Numbers are used to keep track of the electrons and a redox reaction. The oxidation number of an element is the charge that the element would have if the electrons and the bond were assigned to the more electronegative atom.
 
 The formula to calculate the oxidation number is:
-$\text{Oxidation Number} = \text{Number of electrons gained or lost}$
+$\text{Oxidation Number} = \text{Number$ of electrons gained or lost}$
 
 For example, n the reaction:
- \text{Fe}^{2+} \rightarrow \text{Fe}^{3+} + \text{e}^- 
+ $\text{Fe}^{2+} \rightarrow \text{Fe}^{3+} + \text{e}^-$ 
 The oxidation number of iron increases from +2 to +3, indicating that iron has lost an electron.
 
 ## <a id="shortcut-formulatrick"></a>Shortcut Formula/Trick
@@ -123,11 +123,11 @@ d) +4
 Solution: b) +2
 
 2. Which of the following is an example of a redox reaction?
-a) $\text{NaCl} + \text{H}_2\text{O} \rightarrow \text{NaOH} + \text{HCl}$ b) $\text{Fe}$^{2+} \rightarrow $\text{Fe}$^{3+} + $\text{e}$^- 
-c) $\text{CaCO}_3 \rightarrow \text{CaO} + \text{CO}_2$ d) $\text{H}$_2 + $\text{O}$_2 \rightarrow $\text{H}$_2$\text{O}$  Solution: b) $\text{Fe}$^{2+} \rightarrow $\text{Fe}$^{3+} + $\text{e}$^- 
+a) $\text{NaCl} + \text{H}_2\text{O} \rightarrow \text{NaOH} + \text{HCl}$ b) $\text{Fe}$^{2+} $\rightarrow$ $\text{Fe}$^{3+} + $\text{e}$^- 
+c) $\text{CaCO}_3 \rightarrow \text{CaO} + \text{CO}_2$ d) $\text{H}$_2 + $\text{O}$_2 $\rightarrow$ $\text{H}$_2$\text{O}$  Solution: b) $\text{Fe}$^{2+} $\rightarrow$ $\text{Fe}$^{3+} + $\text{e}$^- 
 
 ### <a id="medium"></a>Medium
-3. Balance the following redox reaction: $\text{MnO}_4^- + \text{Fe}^{2+} \rightarrow \text{Mn}^{2+} + \text{Fe}^{3+}$ a) $\text{MnO}$_4^- + 5$\text{Fe}$^{2+} + 8$\text{H}$^+ \rightarrow $\text{Mn}$^{2+} + 5$\text{Fe}$^{3+} + 4$\text{H}$_2$\text{O}$  b) $\text{MnO}$_4^- + 3$\text{Fe}$^{2+} + 4$\text{H}$^+ \rightarrow $\text{Mn}$^{2+} + 3$\text{Fe}$^{3+} + 2$\text{H}$_2$\text{O}$  c) $\text{MnO}$_4^- + 2$\text{Fe}$^{2+} + 3$\text{H}$^+ \rightarrow $\text{Mn}$^{2+} + 2$\text{Fe}$^{3+} + $\text{H}$_2$\text{O}$  d) $\text{MnO}$_4^- + $\text{Fe}$^{2+} \rightarrow $\text{Mn}$^{2+} + $\text{Fe}$^{3+} 
+3. Balance the following redox reaction: $\text{MnO}_4^- + \text{Fe}^{2+} \rightarrow \text{Mn}^{2+} + \text{Fe}^{3+}$ a) $\text{MnO}$_4^- + 5$\text{Fe}$^{2+} + 8$\text{H}$^+ $\rightarrow$ $\text{Mn}$^{2+} + 5$\text{Fe}$^{3+} + 4$\text{H}$_2$\text{O}$  b) $\text{MnO}$_4^- + 3$\text{Fe}$^{2+} + 4$\text{H}$^+ $\rightarrow$ $\text{Mn}$^{2+} + 3$\text{Fe}$^{3+} + 2$\text{H}$_2$\text{O}$  c) $\text{MnO}$_4^- + 2$\text{Fe}$^{2+} + 3$\text{H}$^+ $\rightarrow$ $\text{Mn}$^{2+} + 2$\text{Fe}$^{3+} + $\text{H}$_2$\text{O}$  d) $\text{MnO}$_4^- + $\text{Fe}$^{2+} $\rightarrow$ $\text{Mn}$^{2+} + $\text{Fe}$^{3+} 
 
 Solution: a) $\text{MnO}_4^- + 5\text{Fe}^{2+} + 8\text{H}^+ \rightarrow \text{Mn}^{2+} + 5\text{Fe}^{3+} + 4\text{H}_2\text{O}$
 
@@ -140,7 +140,7 @@ d) None of the above
 Solution: a) $\text{Fe}^{2+}$
 
 ### <a id="hard"></a>Hard
-5. Balance the following redox reaction: $\text{Cr}_2\text{O}_7^{2-} + \text{Fe}^{2+} \rightarrow \text{Cr}^{3+} + \text{Fe}^{3+}$ a) $\text{Cr}$_2$\text{O}$_7^{2-} + 6$\text{Fe}$^{2+} + 14$\text{H}$^+ \rightarrow 2$\text{Cr}$^{3+} + 6$\text{Fe}$^{3+} + 7$\text{H}$_2$\text{O}$  b) $\text{Cr}$_2$\text{O}$_7^{2-} + 3$\text{Fe}$^{2+} + 4$\text{H}$^+ \rightarrow 2$\text{Cr}$^{3+} + 3$\text{Fe}$^{3+} + 2$\text{H}$_2$\text{O}$  c) $\text{Cr}$_2$\text{O}$_7^{2-} + 2$\text{Fe}$^{2+} + 3$\text{H}$^+ \rightarrow 2$\text{Cr}$^{3+} + 2$\text{Fe}$^{3+} + $\text{H}$_2$\text{O}$  d) $\text{Cr}$_2$\text{O}$_7^{2-} + $\text{Fe}$^{2+} \rightarrow 2$\text{Cr}$^{3+} + $\text{Fe}$^{3+}  Solution: a) $\text{Cr}$_2$\text{O}$_7^{2-} + 6$\text{Fe}$^{2+} + 14$\text{H}$^+ \rightarrow 2$\text{Cr}$^{3+} + 6$\text{Fe}$^{3+} + 7$\text{H}$_2$\text{O}$ 
+5. Balance the following redox reaction: $\text{Cr}_2\text{O}_7^{2-} + \text{Fe}^{2+} \rightarrow \text{Cr}^{3+} + \text{Fe}^{3+}$ a) $\text{Cr}$_2$\text{O}$_7^{2-} + 6$\text{Fe}$^{2+} + 14$\text{H}$^+ $\rightarrow 2$\text{Cr}$^{3+} + 6$\text{Fe}$^{3+} + 7$\text{H}$_2$\text{O}$  b) $\text{Cr}$_2$\text{O}$_7^{2-} + 3$\text{Fe}$^{2+} + 4$\text{H}$^+ $\rightarrow 2$\text{Cr}$^{3+} + 3$\text{Fe}$^{3+} + 2$\text{H}$_2$\text{O}$  c) $\text{Cr}$_2$\text{O}$_7^{2-} + 2$\text{Fe}$^{2+} + 3$\text{H}$^+ $\rightarrow 2$\text{Cr}$^{3+} + 2$\text{Fe}$^{3+} + $\text{H}$_2$\text{O}$  d) $\text{Cr}$_2$\text{O}$_7^{2-} + $\text{Fe}$^{2+} $\rightarrow 2$\text{Cr}$^{3+} + $\text{Fe}$^{3+}  Solution: a) $\text{Cr}$_2$\text{O}$_7^{2-} + 6$\text{Fe}$^{2+} + 14$\text{H}$^+ $\rightarrow 2$\text{Cr}$^{3+} + 6$\text{Fe}$^{3+} + 7$\text{H}$_2$\text{O}$ 
 
 ## <a id="related-notes-links"></a>Related Notes Links
 

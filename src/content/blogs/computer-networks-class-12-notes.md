@@ -9,7 +9,7 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- $TCP/IPA model has $4$ layers: \text{Application}, \text{Transport}, \text{Internet}, \text{Network Access}
+- $TCP/IPA model has $4$ layers: \text{Application}, \text{Transport}, \text{Internet}, \text{Network Access}$
 - OSI model has $7$ layers: $\text{Physical}$, $\text{Data Link}$, $\text{Network}$, $\text{Transport}$, $\text{Session}$, $\text{Presentation}$, $\text{Application}$
 - $\text{IP Address}$ is a $32$-bit address in $IPv4$ and $128$-bit address in $IPv6$
 - $\text{Subnet Mask}$ is used to determine the scope of the $\text{IP Address}$
@@ -29,7 +29,7 @@ manualReview: false
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not understanding the difference between TCP and UDP
-- Not knowing the OSI and $TCP/IPA models
+- Not knowing the OSI and $TCP/IPA models$
 - Not being able to calculate $\text{Subnet Mask}$
 - Not understanding the concept of $\text{NAT}$ and DHCP
 - Not being able to explain the difference between $\text{Router}$, $\text{Switch}$, and $\text{Hub}$
@@ -50,7 +50,7 @@ manualReview: false
 - **Answer:** The purpose of DHCP is to assign $\text{IP Addresses}$ to devices on a network
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students get confused between the OSI and $TCP/IPA models
+- Most students get confused between the OSI and $TCP/IPA models$
 - They find it difficult to remember the layers of each model and their functions
 - To avoid this, it is essential to understand the basics of each model and practice remembering the layers and their functions
 - It is also important to understand how the layers interact with each other
@@ -63,7 +63,7 @@ manualReview: false
 - Use diagrams and flowcharts to help you understand complex concepts
 
 ## 🔁 Last 5 Minutes Box
-- Make sure to review the OSI and $TCP/IPA models
+- Make sure to review the OSI and $TCP/IPA models$
 - Practice calculating $\text{Subnet Mask}$
 - Review the functions of each layer
 - Go through the important concepts and formulas

@@ -97,8 +97,8 @@ For JEE n [neet](/blog/locomotion-n-movement-class-11-revision-notes-neet) aspir
 ## <a id="step-8-formulae"></a>Step 8: Formulae
 
 Some important formulae related to body fluids and circulation include:
-- Blood pressure (BP) = $\frac{Cardiac \: Output \: (CO) \: \times \: Peripheral \: Resistance \: (PR)}{1} = \frac{Stroke \: Volume \: (SV) \: \times \: Heart \: Rate \: (HR){1}} , where CO is the volume of blood pumped y the heart per minute, n PR is the resistance to blood flow and the blood vessels.
-- Cardiac output (CO) = $, where SV is the volume of blood pumped y the heart per beat, n HR is the number of heartbeats per minute.
+- Blood pressure (BP) = $\frac{Cardiac \: Output \: (CO) \: \times \: Peripheral \: Resistance \: (PR)}{1} = \frac{Stroke \: Volume \: (SV) \: \times \: Heart \: Rate \: (HR){1}}$, where CO is the volume of blood pumped y the heart per minute, n PR is the resistance to blood flow and the blood vessels.
+- Cardiac output (CO) = $, where SV is the volume of blood pumped y the heart per beat, n HR is the number of heartbeats per minute.$
 
 ## <a id="step-9-mcqs"></a>Step 9: MCQs
 
@@ -619,4 +619,3 @@ Continue your [revision](/blog/neural-control-n-coordination-class-11-revision-n
  * Double circulation: pulmonary and systemic
  * Lymphatic system: transports lymph, helps and immune response
 
-$

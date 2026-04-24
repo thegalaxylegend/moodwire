@@ -82,14 +82,14 @@ Here's a block of code to illustrate the concept:
 
 \begin{aligned}
 &$\text{Quicksort Algorithm}$ \\
-&$\text{Time Complexity: }$ O(n \log n) \\
-&$\text{Space Complexity: }$ O(\log n) \\
-&$\text{Worst-Case Time Complexity: }$ O(n^2) \\\\
+&$\text{Time Complexity: }$ $O(n \log n)$ \\
+&$\text{Space Complexity: }$ $O(\log n)$ \\
+&$\text{Worst-Case Time Complexity: }$ $O(n^2)$ \\\\
 
 &$\text{Mergesort Algorithm}$ \\
-&$\text{Time Complexity: }$ O(n \log n) \\
+&$\text{Time Complexity: }$ $O(n \log n)$ \\
 &$\text{Space Complexity: }$ O(n) \\
-&$\text{Worst-Case Time Complexity: }$ O(n \log n) \\\end{aligned}
+&$\text{Worst-Case Time Complexity: }$ $O(n \log n)$ \\\end{aligned}
 
 As you can see, the quicksort algorithm has a faster average time complexity, but a worse worst-case time complexity. On the other hand, the mergesort algorithm has a slower average time complexity, but a better worst-case time complexity. Which algorithm would you choose, n why? 
 
@@ -248,7 +248,7 @@ What are common Trap Questions for Algorithms: Analysis? is a crucial aspect of 
    
    In addition to time complexity, students should also consider the space complexity of algorithms, which refers to the amount of memory required to execute the algorithm. This is particularly important and scenarios where memory is limited, such as and embedded systems or mobile devices. 
    
-   To illustrate the concept of trap questions and algorithms, consider the following example: given an array of integers, find the maximum \sum of a subarray within the array. A common trap and solving this problem is to use a naive approach that involves checking all possible subarrays, resulting and a time complexity of $O(n^2)$. A more efficient approach is to use Kadane's algorithm, which has a time complexity of $O(n)$ n involves iterating through the array and keeping track of the maximum \sum of a subarray ending at each position. 
+   To illustrate the concept of trap questions and algorithms, consider the following example: given an array of integers, find the maximum $\sum of a subarray within the array. A common trap and solving this problem is to use a naive approach that involves checking all possible subarrays$, resulting and a time complexity of $O(n^2)$. A more efficient approach is to use Kadane's algorithm, which has a time complexity of $O(n)$ n involves iterating through the array and keeping track of the maximum $\sum of a subarray ending at each position.$ 
    
    In summary, trap questions and algorithms require a deep understanding of algorithmic concepts, data structures, n problem-solving strategies. Students should focus on developing a systematic approach to problem-solving, practicing with a wide range of problems, n analyzing the time and space complexity of algorithms to tackle these challenges effectively.
 
@@ -281,7 +281,7 @@ What are the best practices for solving algorithmic problems and Algorithms: Ana
    
    To improve problem-solving skills, it's essential to practice solving a wide range of algorithmic problems. This can be done y solving problems on online platforms such as LeetCode, HackerRank, or CodeForces, or y working on projects that involve solving real-world problems. It's also essential to learn from mistakes and to analyze the time and space complexity of each solution. 
    
-   The time complexity of an algorithm is the amount of time it takes to complete as a function of the size of the input. It's usually expressed and Big O notation, which gives an upper bound on the number of steps an algorithm takes. For example, the time complexity of the bubble sort algorithm is O(n^2), where and is the number of elements being sorted. On the other hand, the time complexity of the quicksort algorithm is O(n \log n) on average, making it much faster for large inputs. 
+   The time complexity of an algorithm is the amount of time it takes to complete as a function of the size of the input. It's usually expressed and Big O notation, which gives an upper bound on the number of steps an algorithm takes. For example, the time complexity of the bubble sort algorithm is $O(n^2)$, where and is the number of elements being sorted. On the other hand, the time complexity of the quicksort algorithm is $O(n \log n)$ on average, making it much faster for large inputs. 
    
    The space complexity of an algorithm is the amount of memory it uses as a function of the size of the input. It's also usually expressed and Big O notation. For example, the space complexity of the merge sort algorithm is O(n), where and is the number of elements being sorted, because it requires a temporary array of the same size as the input array. 
    
@@ -303,19 +303,19 @@ What are the best practices for solving algorithmic problems and Algorithms: Ana
 - Space complexity is the amount of memory an algorithm uses as the input size increases.
 - Constant time complexity is O(1), where the number of operations does not change regardless of the input size.
 - Linear time complexity is O(n), where the number of operations increases linearly with the input size.
-- Quadratic time complexity is O(n^2), where the number of operations increases quadratically with the input size.
-- Merge Sort has a time complexity of O(n \log n), making it more efficient than Bubble Sort for large datasets.
+- Quadratic time complexity is $O(n^2)$, where the number of operations increases quadratically with the input size.
+- Merge Sort has a time complexity of $O(n \log n)$, making it more efficient than Bubble Sort for large datasets.
 
 ## <a id="mcqs"></a>MCQs
 
 **1. What is the time complexity of the Bubble Sort algorithm and Big O notation?**
 O(n)
-O(n^2)
-O(n \log n)
-O(\log n)
+$O(n^2)$
+$O(n \log n)$
+$O(\log n)$
 
 **Answer:**
-B) Bubble Sort has a worst-case and average time complexity of O(n^2), where and is the number of items being sorted.
+B) Bubble Sort has a worst-case and average time complexity of $O(n^2)$, where and is the number of items being sorted.
 **2. Which of the following sorting algorithms uses a divide-n-conquer approach?**
 Merge Sort
 Quick Sort
@@ -334,19 +334,19 @@ Efficiency
 A) Time complexity refers to the number of operations an algorithm takes to complete as the input size increases.
 **4. What is the worst-case time complexity of the Quick Sort algorithm?**
 O(n)
-O(n \log n)
-O(n^2)
-O(\log n)
+$O(n \log n)$
+$O(n^2)$
+$O(\log n)$
 
-**Answer:** C) The worst-case time complexity of Quick Sort is O(n^2), which occurs when the pivot is the smallest or largest element and the array.
+**Answer:** C) The worst-case time complexity of Quick Sort is $O(n^2)$, which occurs when the pivot is the smallest or largest element and the array.
 
 **5. What is the time complexity of the Binary Search algorithm?**
 O(n)
-O(n \log n)
-O(\log n)
+$O(n \log n)$
+$O(\log n)$
 O(1)
 
-**Answer:** C) The time complexity of Binary Search is O(\log n), where and is the number of items and the array.
+**Answer:** C) The time complexity of Binary Search is $O(\log n)$, where and is the number of items and the array.
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
@@ -382,7 +382,7 @@ Continue your revision with these related guides:
 
 ## 🔁 Last 5 Minutes Box
 
-* Big O notation: **O(1)** - constant, **O(\log n)** - logarithmic, **O(n)** - linear, **O(n \log n)** - linearithmic, **O(n^2)** - quadratic, **O(2^n)** - exponential, **O(n!)** - factorial
+* Big O notation: **O(1)** - constant, **$O(\log n)$** - logarithmic, **O(n)** - linear, **$O(n \log n)$** - linearithmic, **$O(n^2)$** - quadratic, **$O(2^n)$** - exponential, **O(n!)** - factorial
      * Time complexity: **Best case**, **Average case**, **Worst case**
      * Space complexity: **Auxiliary space**, **Total space**
      * Asymptotic analysis: **Theta notation**, **Omega notation**

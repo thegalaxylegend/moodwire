@@ -120,7 +120,7 @@ Continue your [revision](/blog/class-10-science-pyq-strategy-class-10-revision-n
 
 - 📖 [Study 12 Hours Daily Tips Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet)
 - 📖 [State Scholarship Guide 2026 Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)
-- 📖 [Class 10 Science PDQ Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)
+- 📖 [Class 10 Science PYQ Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)
 - 📖 [Organic Chemistry Basic Principles Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet)
 
 ---
@@ -137,7 +137,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 Continue your [revision](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Study 12 Hours Daily Tips Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet)
-- 📖 [Class 10 Science PDQ Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)
+- 📖 [Class 10 Science PYQ Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)
 - 📖 [Cut 2026 Master Strategy Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)
 - 📖 [Environmental Chemistry Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
 

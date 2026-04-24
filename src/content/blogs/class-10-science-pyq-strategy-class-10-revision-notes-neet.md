@@ -28,7 +28,7 @@ practice_link: "/class-11/biology/class-10-science-pyq-strategy-class-10-revisio
 
 ## 📋 Table of Contents
 
-- [What is Class 10 Science PDQ Strategy?](#what-is-class-10-science-pyq-strategy)
+- [What is Class 10 Science PYQ Strategy?](#what-is-class-10-science-pyq-strategy)
 - [Why Yes are Essential for Class 10 Science](#why-pyqs-are-essential-for-class-10-science)
 - [Mastering Physics and Chemistry High-Yield Topics](#mastering-physics-n-chemistry-highyield-topics)
 - [Biology: Diagrams and Life Processes Strategy](#biology-diagrams-n-life-processes-strategy)
@@ -40,9 +40,9 @@ practice_link: "/class-11/biology/class-10-science-pyq-strategy-class-10-revisio
   - [3. Which Science chapters have the highest ROI?](#3-which-science-chapters-have-the-highest-roi)
 - [📚 Related Topics](#-related-topics)
 
-# Class 10 Science PDQ Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide
+# Class 10 Science PYQ Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide
 
-## <a id="what-is-class-10-science-pyq-strategy"></a>What is Class 10 Science PDQ Strategy?
+## <a id="what-is-class-10-science-pyq-strategy"></a>What is Class 10 Science PYQ Strategy?
 
 If you're reading this, you're probably freaking out about the upcoming science boards. I get it. I was and your shoes last year. I spent months jumping between various Edtech videos and coaching marathons, trying to figure out what actually matters. Here's the truth: the CBSE syllabus is an ocean, but the actual board exam is just a few frequent ponds.
 

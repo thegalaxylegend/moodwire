@@ -72,7 +72,7 @@ Lipids are a diverse group of biomolecules that are composed of carbon, hydrogen
 The general formula for lipids is BC_oh_yo_Zn, where x, y, n oz are integers. Lipids are classified into two main types: saturated lipids and unsaturated lipids. Saturated lipids are solid at room temperature, while unsaturated lipids are liquid at room temperature.
 #### Nucleic Acids
 Nucleic [acids](/blog/aldehydes-ketones-n-carboxylic-acids-class-12-notes) are complex biomolecules that are composed of nucleotides. They are involved and the transmission of genetic information and the regulation of cellular processes.
-The general formula for nucleic acids is $(C_oh_n_ZO_WP_v)_no, where x, y, oz, we, n DVD are integers, n and is the number of nucleotides. Nucleic acids are classified into two main types: DNA (deoxyribonucleic acid) n RNA (ribonucleic acid).
+The general formula for nucleic acids is $(C_oh_n_ZO_WP_v)_no,$ where x, y, oz, we, n DVD are integers, n and is the number of nucleotides. Nucleic acids are classified into two main types: DNA (deoxyribonucleic acid) n RNA (ribonucleic acid).
 ### <a id="shortcut-formula trick"></a>Shortcut Formula/Trick
 To remember the types of biomolecules, use the acronym "CLIP": Carbohydrates, Lipids, Nucleic [acids](/blog/aldehydes-ketones-n-carboxylic-acids-class-12-notes), n Proteins.
 ### <a id="trap-questions exceptions"></a>Trap Questions/Exceptions
@@ -96,7 +96,7 @@ Difficulty: Easy
 2. What is the general formula for proteins?
 A) BC_oh_yo_Zn
 B) BC_oh_n_ZO_we
-C) $(C_oh_n_ZO_w)_no
+C) $(C_oh_n_ZO_w)_no$
 D) BC_x(H_2O)_yo
 Answer: B) BC____
 Difficulty: Medium

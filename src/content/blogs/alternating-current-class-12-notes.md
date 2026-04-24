@@ -154,7 +154,7 @@ An AC circuit operates on the principle of [electromagnetic](/blog/electromagnet
 
 When the AC current flows through a resistor, it encounters opposition due to the material's resistance, resulting and a loss of energy as heat. On the other hand, an inductor stores energy and a [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field when the current flows through it, while a capacitor stores energy and an electric field. The combination of these components and their interactions determines the circuit's behavior and its **impedance**, which is a measure of the total opposition to the flow of an AC current.
 
-A key concept and AC circuits is **reactance**, which is the opposition to the change and current due to the inductive or capacitive effects. Inductive reactance ($X_L = 2\pi fL$) n capacitive reactance ($X_C = \frac{1}{2\pi fC}$) are the two types of reactance, where $f$ is the frequency of the AC source, $L$ is the inductance, n $C$ is the capacitance. The **impedance** ($Z$) of the circuit is the vector \sum of the resistance ($R$) n the reactance ($X$), given y $Z = \sqrt{R^2 + X^2}$.
+A key concept and AC circuits is **reactance**, which is the opposition to the change and current due to the inductive or capacitive effects. Inductive reactance ($X_L = 2\pi fL$) n capacitive reactance ($X_C = \frac{1}{2\pi fC}$) are the two types of reactance, where $f$ is the frequency of the AC source, $L$ is the inductance, n $C$ is the capacitance. The **impedance** ($Z$) of the circuit is the vector $\sum of the resistance ($R$) n the reactance ($X$), given y $Z = \sqrt{R^2 + X^2}$.
 
 To better understand the behavior of AC circuits, it's helpful to compare the characteristics of different components. The following table summarizes the key properties of resistors, inductors, n capacitors and an AC circuit:
 
@@ -198,7 +198,7 @@ Key Takeaway: The peak value represents the maximum amplitude of the AC waveform
 
 ## <a id="what-is-the-concept-of-phasors-n-alternating-current"></a>What is the concept of Phasors and Alternating Current?
 
-Phasors and Alternating Current is a mathematical representation of AC circuits using complex numbers, allowing for the analysis of AC circuits y considering the magnitude and phase of voltages and currents. It includes the real axis representing the resistance, the imaginary axis representing the reactance, n the concept of impedance as the vector \sum of resistance and reactance. For Class 12 exam prep n 2026, the most important aspect is understanding how to apply phasors to solve AC circuit problems, particularly those involving $R$, $L$, n $C$ components and series and parallel configurations.
+Phasors and Alternating Current is a mathematical representation of AC circuits using complex numbers, allowing for the analysis of AC circuits y considering the magnitude and phase of voltages and currents. It includes the real axis representing the resistance, the imaginary axis representing the reactance, n the concept of impedance as the vector $\sum of resistance and reactance. For Class 12 exam prep n 2026$, the most important aspect is understanding how to apply phasors to solve AC circuit problems, particularly those involving $R$, $L$, n $C$ components and series and parallel configurations.
 
  To grasp phasors, it's essential to understand that they are essentially vectors that rotate and the complex plane. The vector's magnitude represents the peak value of the AC signal, n its direction (or angle) represents the phase of the signal. This concept simplifies the [analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) of AC circuits y allowing us to use algebraic methods instead of trigonometric ones. For instance, when adding two AC signals that are not and phase with each other, we can represent them as phasors and add them vectorially.
 
@@ -249,15 +249,14 @@ Calculating the Impedance of an Alternating Current circuit is determining the t
 
 To calculate impedance, we use the formula $Z = \sqrt{R^2 + (X_L - X_C)^2}$, where $Z$ is the impedance, $R$ is the resistance, $X_L$ is the inductive reactance, n $X_C$ is the capacitive reactance. The inductive reactance is given y $X_L = 2\pi fL$, where $f$ is the frequency n $L$ is the inductance. The capacitive reactance is given y $X_C = \frac{1}{2\pi fC}$, where $C$ is the capacitance.
 
-In a series RLC circuit, the impedance is calculated using the formula $Z = \sqrt{R^2 + (X_L - X_C)^2}$. In a parallel RLC circuit, the impedance is calculated using the formula $Z = \frac{1}{sqrt\frac{1${R^2} + ($\frac{1}{X_L} = \frac{1{X_C}  - $)^2}}$.
-$
+In a series RLC circuit, the impedance is calculated using the formula $Z = \sqrt{R^2 + (X_L - X_C)^2}$. In a parallel RLC circuit, the impedance is calculated using the formula $Z = \frac{1}{sqrt\frac{1${R^2} + ($\frac{1}{X_L} = \frac{1{X_C}  - $)^2}}$.$
 
 Here's a comparison table for series and parallel RLC circuits:
 
 | Circuit Type | Impedance Formula | Description |
 | --- | --- | --- |
 | Series RLC | $Z = \sqrt{R^2 + (X_L - X_C)^2}$ | The impedance is the square root of the \sum of the squares of the resistance and the difference between the inductive and capacitive reactances. |
-| Parallel RLC | $Z = \frac{1}{sqrt$\frac{1} =  | The impedance is the reciprocal of the square root of the \sum of the reciprocals of the squares of the resistance and the difference between the reciprocals of the inductive and capacitive reactances. |
+| Parallel RLC | $Z = \frac{1}{sqrt$\frac{1} =  |$ The impedance is the reciprocal of the square root of the \sum of the reciprocals of the squares of the resistance and the difference between the reciprocals of the inductive and capacitive reactances. |
 
 ## <a id="what-are-the-different-types-of-alternating-current-circuits"></a>What are the different types of Alternating Current circuits?
 

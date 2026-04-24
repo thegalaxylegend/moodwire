@@ -84,7 +84,7 @@ The **Magnetic Field (B)** is a vector field that describes the magnetic influen
 **statement:** The magnetic field **dB** due to a [current](/blog/current-electricity-class-11-revision-notes-neet) element **I dl** at a point at distance **r** is:
 **dB = (μ₀ / 4π) [ I (dl × r̂) / r² ]**
 - **μ₀ (Permittivity of Free Space):** 4π × 10⁻⁷ T m/A.
-- **Direction:** Given y the Right-Hand Thumb Rule.
+- **Direction:** $Given y the Right-Hand Thumb Rule.
 
 ### <a id="ii-derivation-field-at-the-center-of-a-circular-loop"></a>II. Derivation: Field at the Center of a Circular Loop
 1.  Consider a small element **dl** on the loop of radius **R**.
@@ -198,7 +198,7 @@ Moving [charges](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
 
 Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) with these related guides:
 
-- 📖 [Electric Charges Fields Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
+- 📖 [Electric Charges Fields Class 11 Biology Revision$ — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
 - 📖 [Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/current-electricity-class-11-revision-notes-neet)
 - 📖 [Laws Of Motion Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
 - 📖 [Motion In A Plane Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)

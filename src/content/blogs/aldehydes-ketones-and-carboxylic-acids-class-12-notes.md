@@ -11,7 +11,7 @@ manualReview: false
 ## ⚡ Formula Bank
 - Aldehydes and ketones are functional group isomers, with the general formula $\math{RCHO}$ for aldehydes and $\math{COR'}$ for ketones.
 - Carboxylic acids have the general formula $\math{RCOOH}$, with a carbonyl group $\math{C=O}$ and a hydroxyl group $\math{OH}$.
-- The acidity of carboxylic acids can be represented by the equation $\math{RCOOH} \rightleftharpoons \math{COO^-} + \math{H^+}$, with an acid dissociation constant OK_a = \franc{[\math{COO^-}][\math{H^+}]}{[\math{RCOOH}]}$.
+- The acidity of carboxylic acids can be represented by the equation $\math{RCOOH} \rightleftharpoons \math{COO^-} + \math{H^+}$, with an acid dissociation constant K_a = $\frac{[\math{COO^-}][\math{H^+}]}{[\math{RCOOH}]}$.
 - Aldehydes and ketones can undergo nucleophilic addition reactions, with the general equation $\math{RCHO} + \math{Nu^-} \right arrow \math{RCHONu}$.
 - The Wolff-Kissner reduction of aldehydes and ketones can be represented by the equation $\math{RCHO} + \math{NH_2NH_2} \right arrow \math{RCH_3} + \math{N_2}$.
 - The ALGOL condensation reaction can be represented by the equation $\math{RCHO} + \math{R'CHO} \right arrow \math{RCH=CHR'} + \math{H_2O}$.
@@ -19,7 +19,7 @@ manualReview: false
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not recognizing the difference between aldehydes and ketones, and their respective reactions.
 - Forgetting to consider the stereochemistry of reactions involving aldehydes and ketones.
-- Not understanding the concept of acidity in carboxylic acids and its relation to OK_a values.
+- Not understanding the concept of acidity in carboxylic acids and its relation to K_a values.
 - Misidentifying the products of nucleophilic addition reactions involving aldehydes and ketones.
 - Not being able to distinguish between the reactions of aldehydes and ketones, such as the Pollens' test and the Feeling's test.
 
@@ -29,11 +29,11 @@ manualReview: false
 - Step 2: Determine the product of the reaction, considering the nucleophilic addition of the hydroxide ion to the carbonyl group.
 - Step 3: Write the equation for the reaction, including the product and any byproducts.
 - Answer: The product is benzyl alcohol, $\math{C_6H_5CH_2OH}$.
-- **Question 2:** What is the OK_a value for acetic acid, $\math{CH_3COOH}$?
-- Step 1: Recall the definition of OK_a and its relation to the dissociation of carboxylic acids.
-- Step 2: Look up the OK_a value for acetic acid, or calculate it using the given data.
-- Step 3: Write the equation for the dissociation of acetic acid, including the OK_a value.
-- Answer: The OK_a value for acetic acid is $1.8 \times 10^{-5}$.
+- **Question 2:** What is the K_a value for acetic acid, $\math{CH_3COOH}$?
+- Step 1: Recall the definition of K_a and its relation to the dissociation of carboxylic acids.
+- Step 2: Look up the K_a value for acetic acid, or calculate it using the given data.
+- Step 3: Write the equation for the dissociation of acetic acid, including the K_a value.
+- Answer: The K_a value for acetic acid is $1.8 \times 10^{-5}$.
 - **Question 3:** What is the product of the reaction between prop anal and hydrogen cyanide?
 - Step 1: Identify the reactants and the type of reaction.
 - Step 2: Determine the product of the reaction, considering the nucleophilic addition of the cyanide ion to the carbonyl group.
@@ -68,13 +68,13 @@ D) $\math{CH_3CH_2CH_3}$
 
 **Answer: B) The product is $\math{CH_3COCH_2OH}$, which is formed by the nucleophilic addition of the hydroxide ion to the carbonyl group.**
 
-**2. What is the OK_a value for formic acid, $\math{HCOOH}$?**
+**2. What is the K_a value for formic acid, $\math{HCOOH}$?**
 A) $1.8 \times 10^{-5}$
 B) $1.8 \times 10^{-4}$
 C) $1.8 \times 10^{-3}$
 D) $1.8 \times 10^{-2}$
 
-**Answer: B) The OK_a value for formic acid is $1.8 \times 10^{-4}$.**
+**Answer: B) The K_a value for formic acid is $1.8 \times 10^{-4}$.**
 
 **3. What is the product of the reaction between propane and methyl magnesium bromide?**
 A) $\math{C_2H_5CH_2OH}$
@@ -113,5 +113,3 @@ Continue your revision with these related guides:
 - 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
 - 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
 - 📖 [Biotechnology And Its Applications Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)
-$
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Aldehydes%20Ketones%20And%20Carboxylic%20Acids%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**

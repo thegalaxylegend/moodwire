@@ -95,7 +95,7 @@ The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) el
 
 One shortcut formula that can be used to remember the properties of the s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements is:
 
- \text{Reactivity} \propto \frac{{1}}{} 
+ $\text{Reactivity} \propto \frac{{1}}{}$ 
 
 This formula states that the reactivity of an element is inversely proportional to its ionization energy. This means that [elements](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) with low ionization energy are highly reactive, while [elements](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) with high ionization energy are less reactive.
 
@@ -132,7 +132,7 @@ D) Phosphorus
 Solution: A) Magnesium
 
 3. What is the electronic configuration of the alkali metals?
-A) } \text{Ionization Energy$ns^1$
+A) } $\text{Ionization Energy$ns^1$
 B) $ns^2$
 C) $np^1$
 D) $np^2$

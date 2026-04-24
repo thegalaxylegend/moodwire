@@ -137,7 +137,7 @@ Venn diagrams are geometric representations use to illustrate the relationships 
 
 **Q2: Find the intersection of A = {x : x is a prime number < 10} n B = {x : x is an even natural number < 10}.**
 **Answer:**
-- A = {2, 3, 5, 7}
+- $A = {2, 3, 5, 7}
 - B = {2, 4, 6, 8}
 - A ∩ B = {2}.
 
@@ -168,7 +168,7 @@ Sets are more than just lists of [numbers](/blog/complex-numbers-class-11-revisi
 
 Continue your [revision](/blog/linear-inequalities-class-11-revision-notes-jee-neet) with these related guides:
 
-- 📖 [Relations Functions Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/relations-functions-class-11-revision-notes-jee-neet)
+- 📖 [Relations Functions Class 11 Chemistry Revision$ — JEE & NEET 2026 Grandmaster Guide](/blog/relations-functions-class-11-revision-notes-jee-neet)
 - 📖 [Complex Numbers Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Linear Inequalities Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/linear-inequalities-class-11-revision-notes-jee-neet)
 - 📖 [Mathematical Induction Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)

@@ -9,11 +9,11 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- The greenhouse effect is given by: $\franc{I}{4} \times (1 - \alpha)$, where IN is the solar constant and $\alpha$ is the albedo of the Earth.
-- The concentration of a pollutant can be calculated using: BC = \franc{Q}{K \times A}$, where ACT is the concentration, HQ is the amount of pollutant, OK is the decay constant, and A is the area.
-- The air quality index can be calculated using: $AQI = \franc{C}{C_0} \times 100$, where ACT is the concentration of the pollutant and BC_$0 is the standard concentration.
-- The global warming potential of a gas is given by: $GWP = \franc{\int_{0}^{t} a(t) DT}{\int_{0}^{t} a_{CO_2}(t) DT}$, where a(t)$ is the radiative forcing of the gas and a_{CO_2}(t)$ is the radiative forcing of $CO_2$.
-- The rate of climate change can be calculated using: $\franc{dT}{dt} = \franc{Q}{C_p \times m}$, where DDT is the change in temperature, DDT is the time, HQ is the amount of heat, BC_PA is the specific heat capacity, and me is the mass.
+- The greenhouse effect is given by: $\frac{I}{4} \times (1 - \alpha)$, where IN is the solar constant and $\alpha$ is the albedo of the Earth.
+- The concentration of a pollutant can be calculated using: BC = $\frac{Q}{$K \times A$}$, where ACT is the concentration, HQ is the amount of pollutant, OK is the decay constant, and A is the area.$
+- The air quality index can be calculated using: $AQI = \frac{C}{C_0} \times 100$, where ACT is the concentration of the pollutant and BC_0$ is the standard concentration.$
+- The global warming potential of a gas is given by: $GWP = \frac{\int_{0}^{t} a(t) DT}{\int_{0}^{t} a_{CO_2}(t) DT}$, where a(t)$ is the radiative forcing of the gas and a_{CO_2}(t)$ is the radiative forcing of $CO_2$.
+- The rate of climate change can be calculated using: $\frac{dT}{dt} = \frac{Q}{C_p \times m}$, where DDT is the change in temperature, DDT is the time, HQ is the amount of heat, BC_PA is the specific heat capacity, and me is the mass.
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not understanding the difference between climate and weather: climate refers to long-term patterns, while weather refers to short-term conditions.
@@ -25,7 +25,7 @@ manualReview: false
 ## ✏️ 3 Solved PYQs
 - What is the main cause of the formation of ground-level ozone?
 - The main cause of the formation of ground-level ozone is the reaction between $NO_$ and vocal in the presence of sunlight.
-- The reaction is as follows: $NO_2 + HV \right arrow NO + OF, followed by TO + O_2 \right arrow O_3$.
+- The reaction is as follows: $NO_2 + HV \right arrow NO + OF$, followed$ by TO + O_2 \right arrow O_3$.
 - What is the difference between a hurricane and a typhoon?
 - The difference between a hurricane and a typhoon is the location in which they occur: hurricanes occur in the Atlantic and northeast Pacific, while typhoons occur in the northwest Pacific.
 - Both are types of tropical cyclones, characterized by strong winds and heavy rainfall.
@@ -39,9 +39,9 @@ manualReview: false
 - Carrying capacity is an important concept in ecology, as it helps us understand the impact of human activities on the environment and the importance of [conservation](/blog/biodiversity-and-conservation-class-12-notes).
 
 ## 👁️ Ayush's Note
-- Ayush's note is that environmental issues are not just limited to pollution and climate change, but also include conservation of [biodiversity](/blog/biodiversity-and-conservation-class-12-notes) and ecosystem services.
+- Ayush's note is that environmental issues are not just limited to pollution and climate change, but also include conservation of biodiversity and ecosystem services.
 - Ecosystem services include provisioning services, such as food and water, regulating services, such as climate regulation and disease control, and cultural services, such as recreation and tourism.
-- [Biodiversity](/blog/biodiversity-and-conservation-class-12-notes) is important for maintaining ecosystem services, and its loss can have significant impacts on human well-being and the economy.
+- Biodiversity is important for maintaining ecosystem services, and its loss can have significant impacts on human well-being and the economy.
 
 ## 🔁 Last 5 Minutes Box
 - Last 5 minutes revision tips:
@@ -119,8 +119,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Environmental%20Issues%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

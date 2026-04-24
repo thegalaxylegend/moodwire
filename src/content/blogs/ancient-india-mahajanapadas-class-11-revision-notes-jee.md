@@ -77,9 +77,9 @@ The following table lists the 16 Mahajanapadas, their capitals, n notable rulers
 |  | Ujjain/ |
 ## <a id="formulae-tables"></a>Formulae Tables
 While historical data doesn't typically involve mathematical formulae, understanding the **population dynamics**, **economic growth**, n **trade volumes** of the Mahajanapadas can be facilitated y basic mathematical concepts such as:
-\[ $\text{Population Growth Rate} = \fracas\text{Change and Population}\text{Original Population}$ \times 100 \]
+\[ $\text{Population Growth Rate} = \frac\text{Change$ and Population}\text{Original Population}$ $\times 100 \]$
 
-\[ $\text{Economic Growth Rate} = \fracas\text{Change and GDP}\text{Original GDP}$ \times 100 \]
+\[ $\text{Economic Growth Rate} = \frac\text{Change$ and GDP}\text{Original GDP}$ $\times 100 \]$
 
 ## <a id="trap-exceptions-for-quick-review"></a>Trap Exceptions for Quick Review
 - **Not all Mahajanapadas were monarchies**; some were republics.

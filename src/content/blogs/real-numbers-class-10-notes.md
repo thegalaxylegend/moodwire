@@ -12,9 +12,9 @@ manualReview: false
 - The set of natural numbers is denoted by $\mathbb{N}$ and is given by $\mathbb{N} = \{1, 2, 3, ...\}$
 - The set of whole numbers is denoted by $\mathbb{W}$ and is given by $\mathbb{W} = \{0, 1, 2, 3, ...\}$
 - The set of integers is denoted by $\mathbb{Z}$ and is given by $\mathbb{Z} = \{..., -3, -2, -1, 0, 1, 2, 3, ...\}$
-- The set of rational numbers is denoted by $\mathbb{Q}$ and is given by $\mathbb{Q} = \{\frac{p}{q} : p, q \in \mathbb{Z}, q 
+- The set of rational numbers is denoted by $\mathbb{Q}$ and is given by $\mathbb{Q} = \{\frac{p}{q} : p$, q \in $\mathbb{Z}$, q$ 
 eq 0\}$
-- The set of irrational numbers is denoted by $\mathbb{I}$ and is given by $\mathbb{I} = \{x : x 
+- The set of irrational numbers is denoted by $\mathbb{I}$ and is given by $\mathbb{I} = \{x : x$ 
 otin $\mathbb{Q}$\}$
 - $\sqrt{x}$ is the square root of $x$, where $x \geq 0$
 - $\sqrt{x}$ satisfies the equation $\sqrt{x} \times \sqrt{x} = x$
@@ -50,10 +50,10 @@ otin $\mathbb{Q}$\}$
  
 ## 🧠 The One Thing Most Students Get Wrong
 - Most students get wrong the concept of [rational](/blog/rational-numbers-class-8-notes) and irrational numbers, and they are not able to identify whether a given number is [rational](/blog/rational-numbers-class-8-notes) or irrational.
-- A rational number is a number that can be expressed in the form $\frac{p}{q}$, where $p$ and $q$ are integers and $q 
-eq $0.
-- An irrational number is a number that cannot be expressed in the form $\frac{p}{q}$, where $p$ and $q$ are integers and $q 
-eq $0.
+- A rational number is a number that can be expressed in the form $\frac{p}{q}$, where $p$ and $q$ are integers and $q$ 
+eq 0$.$
+- An irrational number is a number that cannot be expressed in the form $\frac{p}{q}$, where $p$ and $q$ are integers and $q$ 
+eq 0$.$
 - For example, $\frac{1}{2}$ is a rational number, while $\sqrt{2}$ is an irrational number.
 
  
@@ -83,20 +83,20 @@ C) 6
 -
 D) 7
 
-**Answer: B) 5. The square root of 25 is ±5, since $5 \times 5 = 25$.
+**Answer: B) 5. The square root of 25 is 5, since $5 \times 5 = 25$.
 
-**2. Which of the following is a [rational](/blog/rational-numbers-class-8-notes) number?**
+**2. Which of the following is a rational number?**
 -
 A) $\sqrt{2}$
 -
-B) \frac{1}{2}
+B) $\frac{1}{2}$
 -
-C) \pi
+C) $\pi$
 -
 D) $\sqrt{3}$
 
-**Answer: B) $\frac{1}{2}$. A rational number is a number that can be expressed in the form $\frac{p}{q}$, where $p$ and $q$ are integers and $q 
-eq $0.
+**Answer: B) $\frac{1}{2}$. A rational number is a number that can be expressed in the form $\frac{p}{q}$, where $p$ and $q$ are integers and $q$ 
+eq 0$.$
 
 **3. What is the value of $(2 + \sqrt{3})(2 - \sqrt{3})$?**
 -
@@ -112,49 +112,37 @@ D) 4
 
 **4. Which of the following is an irrational number?**
 -
-A) \frac{1}{2}
+A) $\frac{1}{2}$
 -
 B) $\sqrt{4}$
 -
 C) $\sqrt{2}$
 -
-D) \frac{3}{4}
+D) $\frac{3}{4}$
 
-**Answer: C) $\sqrt{2}$. An irrational number is a number that cannot be expressed in the form $\frac{p}{q}$, where $p$ and $q$ are integers and $q 
-eq $0.
+**Answer: C) $\sqrt{2}$. An irrational number is a number that cannot be expressed in the form $\frac{p}{q}$, where $p$ and $q$ are integers and $q$ 
+eq 0$.$
 
 **5. What is the value of $\frac{2x + 1}{3x - 2}$ when $x = 3$?**
 -
-A) \frac{1}{2}
+A) $\frac{1}{2}$
 -
-B) \frac{2}{3}
+B) $\frac{2}{3}$
 -
-C) \frac{3}{4}
+C) $\frac{3}{4}$
 -
-D) \frac{7}{7}
+D) $\frac{7}{7}$
 
 **Answer: D) $\frac{7}{7}$. Substituting $x = 3$ in the expression $\frac{2x + 1}{3x - 2}$, we get $\frac{2(3) + 1}{3(3) - 2} = \frac{6 + 1}{9 - 2} = \frac{7}{7} = 1$.
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/real-[numbers](/blog/rational-numbers-class-8-notes)-class-10-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/real-numbers-class-10-notes) now and track your progress against thousands of students.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 **
-
-## 📚 Academic References
-
-*Content verified against peer-reviewed research:*
-
-1. *�Let the People Rap�: Cultural Rhetorics Pedagogy and Practices U...* — **Journal of Basic Writing** (2019) 🔓 — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.05)
-2. *Frustration and Hope: Examining Students� Emotional Responses to ...* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.03)
-3. *Editors' Column* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.01)
-
-*🔓 = Open Access article*
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Real%20Numbers%20Class%2010%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

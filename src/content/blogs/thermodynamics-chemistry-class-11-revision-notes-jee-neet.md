@@ -155,11 +155,11 @@ At constant volume: $\delta U = q_v$.
 
 ### <a id="the-bridge-formula"></a>The Bridge Formula
 
-\delta H = \delta U + \delta n_g RT
+$\delta H = \delta U + \delta n_g RT$
 
-where $\delta n_g = (moles of gaseous products) - (moles of gaseous reactants).
+where $\delta n_g = (moles$ of gaseous products) - (moles of gaseous reactants).
 
- **Example**: CH_4(g) + 2O_2(g) \rightarrow CO_2(g) + 2H_2O(l): 
+ **Example**: CH_4(g) + 2O_2(g) $\rightarrow CO_2(g) + 2H_2O(l)$: 
 - $\delta n_g = 1 - (1+2) = -2$.
 - $\delta H = \delta U + (-2)RT = \delta U - 2RT$.
 - $|\delta H| < |\delta U|$ for this reaction.
@@ -175,10 +175,10 @@ This is because Enthalpy is a **State Function** — it depends only on the stat
 ### <a id="application-bornhaber-cycle"></a>Application: Born-Haber Cycle
 To find the Lattice Enthalpy of $NaCl$:
 
-\delta H_f = \delta H_{sub} + \delta H_{IE} + $\frac{1}{2} = \delta H \delta H_{diss} + \delta H_{EA} + U_{lattice}
+\delta H_f = \delta H_{sub} + \delta H_{IE} + $\frac{1}{2} = \delta H \delta H_{diss} + \delta H_{EA} + U_{lattice}$
 
 **JEE Trick**: If a question asks you to calculate the enthalpy of a reaction you don't know directly, try:
-1. Reverse a known reaction (flip the sign of $).
+1. Reverse a known reaction (flip the sign of $).$
 2. Multiply a reaction y a factor (multiply $\delta H$ y the same factor).
 3. Add the modified reactions to get the target reaction.
 
@@ -194,7 +194,7 @@ To find the Lattice Enthalpy of $NaCl$:
 
 ### <a id="bond-enthalpy-method"></a>Bond Enthalpy Method
 
-\delta H_{rxn} = \sum ($1 \text{Bond Enthalpies of Formed Bonds}$)
+$\delta H_{rxn} = \sum ($1 \text{Bond Enthalpies$ of Formed Bonds}$)$
 
 Remember: Breaking bonds = **absorbs** energy (+). Forming bonds = **releases** energy (-).
 

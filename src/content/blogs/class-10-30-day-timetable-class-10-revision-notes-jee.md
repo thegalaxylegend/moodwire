@@ -119,7 +119,7 @@ Focus on the "Safe Zone" chapters like Statistics and Probability first. These c
 
 Continue your [revision](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet) with these related guides:
 
-- 📖 [Class 10 Science PDQ Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)
+- 📖 [Class 10 Science PYQ Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)
 - 📖 [UPSC Optional Selection Guide Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee)
 - 📖 [Cut 2026 Master Strategy Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)
 - 📖 [See Mains High Weightage Chapters Class 11 Mathematics Recap — CBSE Boards 2026 Grandmaster Guide](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)
@@ -137,7 +137,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your [revision](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet) with these related guides:
 
-- 📖 [Class 10 Science PDQ Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)
+- 📖 [Class 10 Science PYQ Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)
 - 📖 [Cut 2026 Master Strategy Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)
 - 📖 [UPSC Optional Selection Guide Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee)
 - 📖 [See Mains High Weightage Chapters Class 11 Mathematics Recap — CBSE Boards 2026 Grandmaster Guide](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)

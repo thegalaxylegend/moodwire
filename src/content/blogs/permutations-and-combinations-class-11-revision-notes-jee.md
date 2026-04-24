@@ -69,7 +69,7 @@ To further illustrate the concept, let's consider a block of math:
 
 \begin{aligned}
 
-nPr &= $\frac{n!}{(n-r)!} = \frac{n!{r!(n-r)!}\end{aligned}}  \\
+nPr &= $\frac{n!}{(n-r)!} = \frac{n!{r!(n-r)!}\end{aligned}}  \\$
 
 nCr &= 
 
@@ -231,14 +231,13 @@ To further illustrate the concepts of permutations and combinations, consider th
 
 ## <a id="what-is-the-concept-of-factorials-n-permutations-n-combinations"></a>What is the concept of Factorials and Permutations and Combinations?
 
-What is the concept of Factorials and Permutations and Combinations? is a mathematical operation that involves the product of all positive integers up to a given number. It includes the concept of factorial notation, the relationship between factorials and permutations, n the application of factorials and combinations. For Class 11 exam prep n 2026, the most important aspect is understanding how factorials are used to calculate permutations and combinations, as this is a fundamental concept and mathematics and statistics. The factorial of a non-negative integer $n$, denoted y $n!$, is the product of all positive integers less than or equal to $n$. The factorial operation is defined as: $n! = n 	imes (n-1) 	imes (n-2) 	imes \\cdots 	imes 2 	imes 1$. For example, $5! = 5 	imes 4 	imes 3 	imes 2 	imes 1 = 120$. Factorials are used to calculate the number of ways to arrange objects and a particular order, which is known as permutations. The number of permutations of $n$ objects is given y $n!$. Factorials are also used to calculate the number of ways to choose $r$ objects from a set of $n$ objects, which is known as combinations. The number of combinations of $n$ objects taken $r$ at a time is given y: inom{n}{r} = $\frac{n!}{r!(n-r)!} =  objects from a set of  r$n$ objects, without regard to the order and which they are chosen.
-$
+What is the concept of Factorials and Permutations and Combinations? is a mathematical operation that involves the product of all positive integers up to a given number. It includes the concept of factorial notation, the relationship between factorials and permutations, n the application of factorials and combinations. For Class 11 exam prep n 2026, the most important aspect is understanding how factorials are used to calculate permutations and combinations, as this is a fundamental concept and mathematics and statistics. The factorial of a non-negative integer $n$, denoted y $n!$, is the product of all positive integers less than or equal to $n$. The factorial operation is defined as: $n! = n 	imes (n-1) 	imes (n-2) 	imes \\cdots 	imes 2 	imes 1$. For example, $5! = 5 	imes 4 	imes 3 	imes 2 	imes 1 = 120$. Factorials are used to calculate the number of ways to arrange objects and a particular order, which is known as permutations. The number of permutations of $n$ objects is given y $n!$. Factorials are also used to calculate the number of ways to choose $r$ objects from a set of $n$ objects, which is known as combinations. The number of combinations of $n$ objects taken $r$ at a time is given y: inom{n}{r} = $\frac{n!}{r!(n-r)!} =  objects$ from a set of  r$n$ objects, without regard to the order and which they are chosen.
 
 | Factorial | Permutation | Combination |
 | --- | --- | --- |
-| $5! = 120$ | $5! = 120$ ways to arrange 5 objects | $inom{5}{3} = \frac{5!}{3!(5-3)!} = 10$ ways to choose 3 objects from 5 |
-| $4! = 24$ | $4! = 24$ ways to arrange 4 objects | $inom{4}{2} = \frac{4!}{2!(4-2)!} = 6$ ways to choose 2 objects from 4 |
-| $3! = 6$ | $3! = 6$ ways to arrange 3 objects | $inom{3}{1} = \frac{3!}{1!(3-1)!} = 3$ ways to choose 1 object from 3 |
+| $5! = 120$ | $5! = 120$ ways to arrange 5 objects | $inom{5}{3} = \frac{5!}{3!(5-3)!} = 10$ ways to choose 3 objects$ from 5 |
+| $4! = 24$ | $4! = 24$ ways to arrange 4 objects | $inom{4}{2} = \frac{4!}{2!(4-2)!} = 6$ ways to choose 2 objects$ from 4 |
+| $3! = 6$ | $3! = 6$ ways to arrange 3 objects | $inom{3}{1} = \frac{3!}{1!(3-1)!} = 3$ ways to choose 1 object$ from 3 |
 
 ## <a id="what-is-the-key-shortcut-or-trick-for-permutations-n-combinations"></a>What is the key Shortcut or Trick for Permutations and Combinations?
 
@@ -268,11 +267,11 @@ How do you solve Higher-Order Permutations and Combinations problems? is a mathe
 
 | Problem Type | Formula | Example |
 | --- | --- | --- |
-| Permutation | $nPr = \frac{n!}{(n-r)!}$ | Arrange 3 items from a set of 5 |
-| Combination | $nCr = \frac{n!}{r!(n-r)!}$ | Select 2 items from a group of 8 |
-| Product Rule | $m 	imes n$ | 2 independent events with 3 n 4 outcomes |
-| Higher-Order Problem | $nCr 	imes nCr 	imes nPr$ | Select 2 from 10, then 1 from the remaining 8, n arrange |
-| Multi-Step Selection and Arrangement | $nCm 	imes nCk 	imes nPr$ | Select 3 from 12, then 2 from the remaining 9, n arrange these 2 |
+| Permutation | $nPr = \frac{n!}{(n-r)!}$ | Arrange 3 items$ from a set of 5 |
+| Combination | $nCr = \frac{n!}{r!(n-r)!}$ | Select 2 items$ from a group of 8 |
+| Product Rule | $m 	imes n$ | 2 independent events$ with 3 n 4 outcomes |
+| Higher-Order Problem | $nCr 	imes nCr 	imes nPr$ | Select 2$ from 10,$ then 1$ from the remaining 8, n arrange |
+| Multi-Step Selection and Arrangement | $nCm 	imes nCk 	imes nPr$ | Select 3$ from 12,$ then 2$ from the remaining 9, n arrange these 2 |
 ## <a id="mcqs"></a>MCQs
 
 **1. **
@@ -298,14 +297,14 @@ A) The number of ways to arrange 4 different items and a circle is given y (4-1)
 36
 
 **Answer:**
-C) The number of ways to choose 3 items from a set of 6 distinct items is given y 6C3 = 6! / (3! * (6-3)!) = 20, but one of the items is repeated 3 \times, so the number is 6C3 * 3! / 3! = 6C3 = 20.
+C) The number of ways to choose 3 items from a set of 6 distinct items is given y 6C3 = 6! / (3! * (6-3)!) = 20, but one of the items is repeated 3 $\times$, so the number is 6C3 * 3! / 3! = 6C3 = 20.
 **4. **
 24
 36
 48
 60
 
-**Answer:** A) The total number of ways to choose 4 items from a set of 5 distinct items and then arrange them and a particular order is given y 5C4 * 4P4 = 5 * 24 = 120, but one of the items is repeated 4 \times, so the number is 5C3 * 4! / 4! = 5C3 = 10, n then arrange them n 4P4 = 24 ways, so total number of ways is 10 * 24 = 240.
+**Answer:** A) The total number of ways to choose 4 items from a set of 5 distinct items and then arrange them and a particular order is given y 5C4 * 4P4 = 5 * 24 = 120, but one of the items is repeated 4 $\times$, so the number is 5C3 * 4! / 4! = 5C3 = 10, n then arrange them n 4P4 = 24 ways, so total number of ways is 10 * 24 = 240.
 
 **5. **
 120
@@ -313,7 +312,7 @@ C) The number of ways to choose 3 items from a set of 6 distinct items is given 
 360
 480
 
-**Answer:** A) The total number of ways to choose 5 items from a set of 7 distinct items and then arrange them and a particular order is given y 7C5 * 5P5 = 21 * 120 = 2520, but one of the items is repeated 5 \times, so the number is 7C2 * 5! / 5! = 21, n then arrange them n 5P5 = 120 ways, so total number of ways is 21 * 120 = 2520.
+**Answer:** A) The total number of ways to choose 5 items from a set of 7 distinct items and then arrange them and a particular order is given y 7C5 * 5P5 = 21 * 120 = 2520, but one of the items is repeated 5 $\times$, so the number is 7C2 * 5! / 5! = 21, n then arrange them n 5P5 = 120 ways, so total number of ways is 21 * 120 = 2520.
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*

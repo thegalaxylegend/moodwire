@@ -10,10 +10,10 @@ manualReview: false
 
 ## ⚡ Formula Bank
 - [biotechnology](/blog/biotechnology-and-its-applications-class-12-notes) is the use of biological systems to develop new products and technologies.
-- $DNA \right arrow RNA \right arrow Protein is the central dogma of molecular biology.
+- $DNA \right arrow RNA \right arrow Protein$ is the central dogma of molecular biology.
 - The structure of DNA is a double helix, with sugar and phosphate molecules making up the backbone, and nitrogenous bases paired in the center.
-- The four nitrogenous bases in DNA are $\alpha$denine (A), $\gamma$uanine (G), $\cytosine (C), and $\thymine (T).
-- The base pairing rules are: $\alpha$denine (A) pairs with $\thymine (T), and $\gamma$uanine (G) pairs with $\cytosine (C).
+- The four nitrogenous bases in DNA are $\alpha$denine (A), $\gamma$uanine (G), $\cytosine (C),$ and $\thymine (T).$
+- The base pairing rules are: $\alpha$denine (A) pairs with $\thymine (T),$ and $\gamma$uanine (G) pairs with $\cytosine (C).$
 - The process of DNA replication is semi-conservative, meaning that each new DNA molecule contains one old strand and one new strand.
 - The steps of DNA replication are: initiation, unwinding, synthesis, and ligation.
 - RNA is synthesized from EDNA through the process of transcription.
@@ -155,4 +155,3 @@ Continue your revision with these related guides:
 - 📖 [Principles Of Inheritance And Variation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/principles-of-inheritance-and-variation-class-12-notes)
 - 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
 - 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
-$

@@ -84,7 +84,7 @@ The set of all possible outcomes.
 An **Event** is simply a subset of the sample space.
 
 ### <a id="types-of-events"></a>Types of Events:
-1.  **Impossible Event:** The empty set $\phi$. (e.g., getting a 7 on a standard die).
+1.  **Impossible Event:** The empty set $\phi$. (e.g., getting a 7$ on a standard die).$
 2.  **Sure Event:** The entire sample space $S$.
 3.  **Simple Event:** An event containing only one sample point.
 4.  **Compound Event:** An event containing more than one sample point.
@@ -98,7 +98,7 @@ This is where set theory from Chapter 1 meets Probability.
 
 1.  **Mutually Exclusive Events:** Events $A$ n $B$ are mutually exclusive if they cannot occur at the same time. Mathematically, **$A \cap B = \phi$**.
 2.  **Exhaustive Events:** Events $E_1, E_2, \dots, E_n$ are exhaustive if their union equals the sample space. Mathematically, **$E_1 \cup E_2 \cup \dots \cup E_n = S$**.
-3.  **Mutually Exclusive and Exhaustive:** If both conditions are met, the probabilities of these events \sum to exactly 1.
+3.  **Mutually Exclusive and Exhaustive:** If both conditions are met, the probabilities of these events $\sum to exactly 1.$
 
 ---
 
@@ -110,7 +110,7 @@ Instead of just counting outcomes, we assign a number $P(E)$ to an event $E$ tha
 3.  If $A$ n $B$ are mutually exclusive, $P(A \cup B) = P(A) + P(B)$.
 
 ### <a id="fundamental-formulas"></a>Fundamental Formulas:
-- **$P(A \text{ or } B) = P(A \cup B) = P(A) + P(B) - P(A \cap B)$**
+- **$P(A \text{$ or } B) = P(A \cup B) = P(A) + P(B) - P(A \cap B)$**
 - **$P(\text{not } A) = P(A') = 1 - P(A)$**
 - **$P(A - B) = P(A) - P(A \cap B)$**
 
@@ -118,10 +118,10 @@ Instead of just counting outcomes, we assign a number $P(E)$ to an event $E$ tha
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
-**Q1: Two dice are thrown. What is the probability that the \sum is exactly 7?**
+**Q1: Two dice are thrown. What is the probability that the $\sum is exactly 7$?**
 **Answer:**
 - Total outcomes ($n(S)$) = $6 \times 6 = 36$.
-- Event $E$ (\sum is 7) = {(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)}.
+- Event $E$ ($\sum$ is 7) = {(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)}.$
 - $n(E) = 6$.
 - $P(E) = 6/36 = \mathbf{1/6}$.
 

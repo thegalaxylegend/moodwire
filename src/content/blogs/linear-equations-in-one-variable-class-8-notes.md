@@ -62,13 +62,13 @@ manualReview: false
 ## 📝 Practice MCQs
 **1. What is the value of $x$ in the equation $\frac{3x}{4} = \frac{9}{8}$?**
 -
-A) \frac{3}{2}
+A) $\frac{3}{2}$
 -
-B) \frac{5}{2}
+B) $\frac{5}{2}$
 -
-C) \frac{9}{6}
+C) $\frac{9}{6}$
 -
-D) \frac{12}{8}
+D) $\frac{12}{8}$
 
 **Answer: A) $\frac{3}{2}$, because cross-multiplying gives $24x = 36$, and dividing both sides by $24$ gives $x = \frac{36}{24} = \frac{3}{2}$.**
 

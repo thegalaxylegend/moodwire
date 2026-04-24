@@ -10,7 +10,7 @@ manualReview: false
 
 ## ⚡ Formula Bank
 - The main concept of [linear](/blog/pair-of-linear-equations-class-10-notes) Programming is to optimize a [linear](/blog/pair-of-linear-equations-class-10-notes) function, subject to a set of [linear](/blog/pair-of-linear-equations-class-10-notes) constraints.
-- The general form of a Linear Programming problem is: $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i$, subject to $\sum_{i=1}^{n} a_{ij} x_i \leq \text{ or } \geq b_j$, $x_i \geq 0$, where $c_i$, $a_{ij}$, and $b_j$ are constants.
+- The general form of a Linear Programming problem is: $\max \text{$ or } \min z = $\sum_{i=1}^{n} c_i x_i$, subject to $\sum_{i=1}^{n} a_{ij} x_i \leq \text{$ or } \geq b_j$, $x_i \geq 0$, where $c_i$, $a_{ij}$, and $b_j$ are constants.
 - The feasible region is the set of all possible solutions that satisfy the constraints.
 - The optimal solution is the point in the feasible region that maximizes or minimizes the objective function.
 - The corner point theorem states that the optimal solution occurs at one of the corner points of the feasible region.
@@ -70,15 +70,15 @@ D) To solve a system of linear equations.
 
 **2. What is the general form of a Linear Programming problem?**
 -
-A) \max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i, subject to \sum_{i=1}^{n} a_{ij} x_i \leq \text{ or } \geq b_j, x_i \geq 0.
+A) $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i, subject to \sum_{i=1}^{n} a_{ij} x_i \leq \text{ or } \geq b_j, x_i \geq 0.$
 -
-B) \max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i, subject to \sum_{i=1}^{n} a_{ij} x_i = b_j, x_i \geq 0.
+B) $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i, subject to \sum_{i=1}^{n} a_{ij} x_i = b_j, x_i \geq 0.$
 -
-C) \max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i, subject to \sum_{i=1}^{n} a_{ij} x_i \leq \text{ or } \geq b_j.
+C) $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i, subject to \sum_{i=1}^{n} a_{ij} x_i \leq \text{ or } \geq b_j.$
 -
-D) \max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i, subject to x_i \geq 0.
+D) $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i, subject to x_i \geq 0.$
 
-**Answer: A) $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i$, subject to $\sum_{i=1}^{n} a_{ij} x_i \leq \text{ or } \geq b_j$, $x_i \geq 0$.**
+**Answer: A) $\max \text{$ or } \min z = $\sum_{i=1}^{n} c_i x_i$, subject to $\sum_{i=1}^{n} a_{ij} x_i \leq \text{$ or } \geq b_j$, $x_i \geq 0$.**
 
 **3. What is the corner point theorem?**
 -

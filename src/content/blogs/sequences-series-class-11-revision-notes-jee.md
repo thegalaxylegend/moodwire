@@ -71,7 +71,7 @@ Sequences and Series are the [mathematical](/blog/mathematical-reasoning-class-1
 ## <a id="1-sequences-n-series-basics"></a>1. Sequences and Series Basics
 
 *   **Sequence:** An ordered list of numbers following a specific rule. Often denoted y {aₙ}.
-*   **Series:** The \sum of the terms of a sequence (a₁ + a₂ + a₃ + ... + aₙ).
+*   **Series:** The $\sum of the terms of a sequence (a$₁ + a₂ + a₃ + ... + aₙ).
 *   **Finite vs. Infinite:** If the number of terms is limited, it's finite; otherwise, it's infinite.
 
 ---
@@ -113,7 +113,7 @@ Equality holds only if a = b. This principle is extremely useful and solving ine
 
 ## <a id="5-infinite-geometric-series"></a>5. Infinite Geometric Series
 
-If |r| < 1, the \sum of an infinite geometric progression is finite and given y:
+If |r| < 1, the $\sum of an infinite geometric progression is finite and given y$:
 **S∞ = a / (1 - r)**
 This formula is the basis for many converging series and higher-level mathematics.
 
@@ -131,7 +131,7 @@ This formula is the basis for many converging series and higher-level mathematic
 
 **Q2: Insert 3 geometric means between 1 n 256.**
 **Answer:**
-- a = 1, b = 256, n = 3. 
+- $a = 1, b = 256, n = 3. 
 - Common ratio r = (b/a)^(1/(n+1)) = (256/1)^(1/4) = 4.
 - G₁ = ar = 4
 - G₂ = ar² = 16
@@ -167,7 +167,7 @@ Sequences and Series are not just lists of numbers; they are the language of gro
 
 Continue your [revision](/blog/conic-sections-class-11-revision-notes-jee) with these related guides:
 
-- 📖 [Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-class-11-revision-notes-jee)
+- 📖 [Probability Class 11 Mathematics Revision$ — JEE 2026 Grandmaster Guide](/blog/probability-class-11-revision-notes-jee)
 - 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)
 - 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)
 - 📖 [Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-combinations-class-11-revision-notes-jee)

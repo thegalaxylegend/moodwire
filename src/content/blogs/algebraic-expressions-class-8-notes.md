@@ -16,11 +16,11 @@ manualReview: false
 - Unlike terms are the terms that have different variables or different exponents.
 - To add or subtract algebraic expressions, we need to combine like terms.
 - To multiply algebraic expressions, we need to use the distributive property, which states that a(b + c) = ab + act.
-- To divide algebraic expressions, we need to use the fact that $\franc{a}{b} \times \franc{c}{d} = \franc{ac}{bd}$.
+- To divide algebraic expressions, we need to use the fact that $\frac{a}{b} \times \frac{c}{d} = \frac{ac}{bd}$.
 - The identity for addition is $0$, because a + 0 = a.
-- The identity for multiplication is $1$, because a \times 1 = a.
+- The identity for multiplication is $1$, because a $\times 1 = a.$
 - The commutative property of addition states that a + b = b + a.
-- The commutative property of multiplication states that a \times b = b \times a.
+- The commutative property of multiplication states that $a \times b = b \times a$.
 - The associative property of addition states that $(a + b) + c = a + (b + c)$.
 - The associative property of multiplication states that $(a \times b) \times c = a \times (b \times c)$.
 
@@ -41,7 +41,7 @@ manualReview: false
   - Step 2: Simplify the expression, which gives $6x^2 + 8x$.
   - Answer: $6x^2 + 8x$.
 - **Question 3:** Divide the expression $12x^2$ by $4x$.
-  - Step 1: Use the fact that $\franc{a}{b} \times \franc{c}{d} = \franc{ac}{bd}$ to divide the expressions, which gives $\franc{12x^2}{4x} = \franc{12}{4} \times \franc{x^2}{x}$.
+  - Step 1: Use the fact that $\frac{a}{b} \times \frac{c}{d} = \frac{ac}{bd}$ to divide the expressions, which gives $\frac{12x^2}{4x} = \frac{12}{4} \times \frac{x^2}{x}$.
   - Step 2: Simplify the expression, which gives $3x$.
   - Answer: $3x$.
 

@@ -12,16 +12,16 @@ manualReview: false
 - The decimal expansion of a rational number is either terminating or non-terminating recurring.
 - The decimal expansion of an irrational number is non-terminating non-recurring.
 - $a = \sqrt{b}$ is irrational if $b$ is not a perfect square.
-- $a = \frac{p}{q}$ is rational if $p$ and $q$ are integers and $q 
-eq $0.
+- $a = \frac{p}{q}$ is rational if $p$ and $q$ are integers and $q$ 
+eq 0$.$
 - $\sqrt{a} \times \sqrt{b} = \sqrt{ab}$
--  $\frac{\sqrt{a}$}{$\sqrt{b}$} = $\sqrt{\frac{a}{b}$} 
+-  $\frac{\sqrt{a}}${$\sqrt{b}}$ = $\sqrt{\frac{a}{b}}$ 
 - $(\sqrt{a} + \sqrt{b})^2 = a + 2\sqrt{ab} + b$
 - $(\sqrt{a} - \sqrt{b})^2 = a - 2\sqrt{ab} + b$
 - $a^2 - b^2 = (a + b)(a - b)$
 - $a^2 + b^2 = (a + b)^2 - 2ab$
-- $\frac{a}{b} = \frac{a \times c}{b \times c}$, where $c 
-eq $0
+- $\frac{a}{b} = \frac{a \times c}{b \times c}$, where $c$ 
+eq 0$
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not checking if the number is rational or irrational before solving the problem.
@@ -32,10 +32,10 @@ eq $0
 
 ## ✏️ 3 Solved PYQs
 - **Question 1:** Simplify $\frac{3 + \sqrt{5}}{3 - \sqrt{5}}$.
-  -     + $\sqrt{5}$}{3 - $\sqrt{5}$} = $\frac{(3 + \sqrt{5}$)(3 + $\sqrt{5}$)}{(3 - $\sqrt{5}$)(3 + $\sqrt{5}$)} 
+  -   c{3 + $\sqrt{5}}${3 - $\sqrt{5}}$ = $\frac{(3 + \sqrt{5}$)(3 + $\sqrt{5}$)}{(3 - $\sqrt{5}$)(3 + $\sqrt{5}$)} 
   -   rac{9 + 6$\sqrt{5}$ + 5}{9 - 5} 
-  -   rac{14 + 6$\sqrt{5}$}{4} 
-  -     7}{2} + $\frac{3}{2}\sqrt{5}$
+  -   rac{14 + 6$\sqrt{5}}${4} 
+  -   rac{7}{2} + $\frac{3}{2}\sqrt{5}$
 - **Question 2:** Find the value of $x$ in $\sqrt{x} - \sqrt{3} = \sqrt{2}$.
   - $\sqrt{x} - \sqrt{3} = \sqrt{2}$
   - $\sqrt{x} = \sqrt{2} + \sqrt{3}$
@@ -43,17 +43,17 @@ eq $0
   - $x = 2 + 2\sqrt{6} + 3$
   - $x = 5 + 2\sqrt{6}$
 - **Question 3:** Simplify $\frac{2 + \sqrt{3}}{2 - \sqrt{3}}$.
-  -     + $\sqrt{3}$}{2 - $\sqrt{3}$} = $\frac{(2 + \sqrt{3}$)(2 + $\sqrt{3}$)}{(2 - $\sqrt{3}$)(2 + $\sqrt{3}$)} 
+  -   c{2 + $\sqrt{3}}${2 - $\sqrt{3}}$ = $\frac{(2 + \sqrt{3}$)(2 + $\sqrt{3}$)}{(2 - $\sqrt{3}$)(2 + $\sqrt{3}$)} 
   -   rac{4 + 4$\sqrt{3}$ + 3}{4 - 3} 
-  -   rac{7 + 4$\sqrt{3}$}{1} 
+  -   rac{7 + 4$\sqrt{3}}${1} 
   - $= 7 + 4\sqrt{3}$
 
 ## 🧠 The One Thing Most Students Get Wrong
 - Not understanding the difference between rational and irrational numbers.
-- Rational numbers can be expressed as $\frac{p}{q}$, where $p$ and $q$ are integers and $q 
-eq 0$.
-- Irrational numbers cannot be expressed as $\frac{p}{q}$, where $p$ and $q$ are integers and $q 
-eq 0$.
+- Rational numbers can be expressed as $\frac{p}{q}$, where $p$ and $q$ are integers and $q$ 
+eq 0$.$
+- Irrational numbers cannot be expressed as $\frac{p}{q}$, where $p$ and $q$ are integers and $q$ 
+eq 0$.$
 - Example: $\sqrt{4}$ is rational because it can be expressed as $\frac{2}{1}$, but $\sqrt{2}$ is irrational because it cannot be expressed as a fraction.
 
 ## 👁️ Ayush's Note
@@ -109,9 +109,9 @@ D) $2 - \sqrt{3}$
 
 **4. What is the value of $\frac{3 + \sqrt{5}}{3 - \sqrt{5}}$?**
 -
-A) \frac{7}{2} + \frac{3}{2}\sqrt{5}
+A) $\frac{7}{2} + \frac{3}{2}\sqrt{5}$
 -
-B) \frac{7}{2} - \frac{3}{2}\sqrt{5}
+B) $\frac{7}{2} - \frac{3}{2}\sqrt{5}$
 -
 C) $2 + \sqrt{3}$
 -
@@ -134,28 +134,16 @@ D) $2 - \sqrt{3}$
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/number-[systems](/blog/operating-systems-class-12-notes)-class-9-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/number-systems-class-9-notes) now and track your progress against thousands of students.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-## 📚 Academic References
-
-*Content verified against peer-reviewed research:*
-
-1. *�Let the People Rap�: Cultural Rhetorics Pedagogy and Practices U...* — **Journal of Basic Writing** (2019) 🔓 — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.05)
-2. *Frustration and Hope: Examining Students� Emotional Responses to ...* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.03)
-3. *Selected Performance Indicators of University-Model Schools* — **Aquila Digital Community (University of Southern Mississippi)** (2019) 🔓 — [DOI ↗](https://openalex.org/works/undefined)
-
-*🔓 = Open Access article*
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Number%20Systems%209%20Class%209%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 
 ## 📚 Related Topics
 
-Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
+Continue your revision with these related guides:
 
 - 📖 [Operating Systems Class 12 Exam Prep Revision — Grandmaster Guide](/blog/operating-systems-class-12-notes)
 - 📖 [Heron S Formula 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/heron-s-formula-class-9-notes)

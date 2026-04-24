@@ -14,7 +14,7 @@ manualReview: false
 - The area of a triangle with base $b$ and height $h$ is $\frac{1}{2} \times b \times h$
 - The area of a triangle with sides $a$, $b$, and $c$ can be calculated using Heron's formula: $\sqrt{s(s-a)(s-b)(s-c)}$, where $s$ is the semi-perimeter, given by $\frac{a+b+c}{2}$
 - The Pythagorean theorem states that in a right-angled triangle, the square of the length of the hypotenuse $c$ is equal to the sum of the squares of the lengths of the other two sides $a$ and $b$, given by $c^2 = a^2 + b^2$
-- The distance between the circumcenter and the centroid of a triangle is given by $\frac{2}{3} \times \text{distance between orthocenter and circumcenter}$
+- The distance between the circumcenter and the centroid of a triangle is given by $\frac{2}{3} \times \text{distance between orthocenter$ and circumcenter}$
 
 ## 
 - A triangle with two equal sides is called an isosceles triangle
@@ -73,15 +73,15 @@ D) $360^\circ$
 
 **2. What is the formula for calculating the area of a triangle with base $b$ and height $h$?**
 -
-A) \frac{1}{2} \times b \times h
+A) $\frac{1}{2} \times b \times h$
 -
-B) \frac{1}{3} \times b \times h
+B) $\frac{1}{3} \times b \times h$
 -
-C) \frac{2}{3} \times b \times h
+C) $\frac{2}{3} \times b \times h$
 -
-D) \frac{3}{2} \times b \times h
+D) $\frac{3}{2} \times b \times h$
 
-**Answer: A) \frac{1}{2} \times b \times h**
+**Answer: A) $\frac{1}{2} \times $b \times h$**$
 
 **3. What is the Pythagorean theorem?**
 -

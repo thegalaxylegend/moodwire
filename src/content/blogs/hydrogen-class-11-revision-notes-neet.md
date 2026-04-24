@@ -106,9 +106,9 @@ Hydrogen fuel cells are devices that convert the chemical energy of hydrogen int
 
 To calculate the number of moles of hydrogen and a given mass of a compound, use the formula:
 
- n = \franc{m}{M} = n 
+ n = $\frac{m}{M} = n$ 
 
-Where $ is the number of moles, me is the mass of the compound, n ME is the molar mass of the compound.
+Where $ is the number of moles, me is the mass of the compound, n ME is the molar mass of the compound.$
 
 ## <a id="trap-questions exceptions"></a>Trap Questions/Exceptions
 
@@ -186,7 +186,6 @@ Continue your [revision](/blog/photosynthesis-n-higher-plants-class-11-revision-
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet)
 
-$
 
 ## 🔁 Last 5 Minutes Box
 

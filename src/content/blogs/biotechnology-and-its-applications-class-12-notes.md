@@ -10,30 +10,30 @@ manualReview: false
 
 ## ⚡ Formula Bank
 - Biotechnology is the use of biological systems, living organisms, or [derivatives](/blog/application-of-derivatives-class-12-notes) thereof, to develop new products, technologies, and processes.
-- Or = \franc{\delta N}{\delta t}$, where are is the growth rate, $\delta NO is the change in population size, and $\delta to is the change in time.
-- The formula for exponential growth is IN(t) = N_0 \times e^{rt}$, where IN(t)$ is the population size at time to, IN_$0 is the initial population size, are is the growth rate, and to is time.
-- The formula for the carrying capacity is OK = \franc{r}{\alpha}$, where OK is the carrying capacity, are is the growth rate, and $\alpha$ is the competition coefficient.
+- Or = $\frac{\delta N}{\delta t}$, where are is the growth rate, $\delta NO$ is the change in population size, and $\delta to$ is the change in time.$
+- The formula for exponential growth is IN(t) = N_0 $\times e^{rt}$, where IN(t)$ is the population size at time to, IN_0$ is the initial population size, are is the growth rate, and to is time.$
+- The formula for the carrying capacity is OK = $\frac{r}{\alpha}$, where OK is the carrying capacity, are is the growth rate, and $\alpha$ is the competition coefficient.$
 - DNA fingerprinting involves the use of southern \: blotting and PCR to analyze DNA samples.
 - The process of PCR involves three main steps: denaturation, annealing, and extension.
--$ rDNA \: technology involves the use of restriction \: endonucleases, ligases, and vectors to manipulate DNA sequences.
-- The central \: Dogma states that genetic information flows from $DNA \right arrow RNA \right arrow proteins.
+-$ rDNA \: technology involves$ the use of restriction \: endonucleases, ligases, and vectors to manipulate DNA sequences.
+- The central \: Dogma states that genetic information flows from $DNA \right arrow RNA \right arrow proteins.$
 - The lac \: operon is a regulatory system that controls the expression of genes involved in lactose metabolism.
--$ Stem \: cells have the ability to differentiate into different cell types and can self-renew.
--$ Gene \: therapy involves the use of genes to treat or prevent diseases.
--$ Monoclonal \: antibodies are identical antibodies produced by a single clone of cells.
+-$ Stem \: cells$ have the ability to differentiate into different cell types and can self-renew.
+-$ Gene \: therapy involves$ the use of genes to treat or prevent diseases.
+-$ Monoclonal \: antibodies$ are identical antibodies produced by a single clone of cells.
 - The human \: Genome \: Project involved the sequencing of the entire human genome.
 
 ## 
 ### Key Concepts
--$ Recombinant \: DNAs technology
--$ Gene \: cloning
--$ Gene \: editing
--$ Stem \: cell \: therapy
--$ Gene \: therapy
--$ Monoclonal \: antibodies
-- $DNA \: fingerprinting
+-$ Recombinant \: DNAs technology$
+-$ Gene \: cloning$
+-$ Gene \: editing$
+-$ Stem \: cell \: therapy$
+-$ Gene \: therapy$
+-$ Monoclonal \: antibodies$
+- $DNA \: fingerprinting$
 -$ Polymerase \: chain \: reaction \: (PCR)$
--$ Southern \: blotting
+-$ Southern \: blotting$
  \: 
  \: 
 
@@ -46,7 +46,7 @@ manualReview: false
 
 ## ✏️ 3 Solved PYQs
 - **Question 1:** What is the principle behind $DNA \: fingerprinting?
-  - Answer: $DNA \: fingerprinting involves the use of southern \: blotting and PCR to analyze DNA samples.
+  - Answer: $DNA \: fingerprinting involves$ the use of southern \: blotting and PCR to analyze DNA samples.
 - **Question 2:** What is the role of restriction \: endonucleases in rDNA \: technology?
   - Answer: restriction \: endonucleases are enzymes that cut DNA at specific recognition sites, allowing for the creation of recombinant \: DNAs molecules.
 - **Question 3:** What is the significance of the human \: Genome \: Project?
@@ -103,7 +103,7 @@ D) stem \: cell \: therapy and gene \: therapy
 **5. What is the regulatory mechanism of the lac \: operon?**
 A) It involves the use of repressor \: proteins to regulate gene expression
 B) It involves the use of inducer \: molecules to regulate gene expression
-C) It involves the use of $RNA \: polymerase to regulate gene expression
+C) It involves the use of $RNA \: polymerase to regulate gene expression$
 D) It involves the use of restriction \: endonucleases to regulate gene expression
 
 **Answer: A) It involves the use of repressor \: proteins to regulate gene expression**
@@ -121,5 +121,3 @@ Continue your revision with these related guides:
 - 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
 - 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
 - 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Biotechnology%20And%20Its%20Applications%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**

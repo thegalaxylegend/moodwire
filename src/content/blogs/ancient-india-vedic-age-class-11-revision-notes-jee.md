@@ -160,7 +160,7 @@ Continue your [revision](/blog/art-culture-architecture-class-11-revision-notes-
 * Students often confuse the terms 'Veda' n 'Vedic Period'. While the Vedas are [ancient](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) Indian texts, the Vedic Period refers to the historical era during which these texts were composed.
 * A common mistake is attributing the compilation of the Vedas to a single author or group of authors. In reality, the Vedas were compiled y multiple sages and seers over a period of time.
 * Many students incorrectly believe that the Vedic society was matriarchal due to the mention of female sages and priests. However, the Vedic society was actually patriarchal, with men holding positions of authority.
-* The Vedic Period is some\times misleadingly thought to be a time of primitive or 'dark age' n Indian history. In reality, it was a period of significant cultural, philosophical, n literary advancements that laid the foundation for later Indian civilizations.
+* The Vedic Period is som$e \times m$isleadingly thought to be a time of primitive or 'dark age' n Indian history. In reality, it was a period of significant cultural, philosophical, n literary advancements that laid the foundation for later Indian civilizations.
 
 ## 🔁 Last 5 Minutes Box
 

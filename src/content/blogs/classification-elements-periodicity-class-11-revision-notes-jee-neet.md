@@ -126,7 +126,7 @@ I used to dread Inorganic [chemistry](/blog/thermodynamics-chemistry-class-11-re
 **Atomic Radius is the distance from the nucleus to the outermost electron cloud of a neutral [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet), while Ionic Radius is the effective radius of an ion and a crystal lattice.**
 
 ### <a id="trends"></a>Trends
-- **Across Period**: Decreases. Why? OZ_{eff}$ increases → electrons pulled closer.
+- **Across Period**: Decreases. Why? OZ_{eff}$ increases → electrons pulled closer.$
 - **Down Group**: Increases. Why? New shells are added → larger electron cloud.
 
 ### <a id="ionic-radius-vs-atomic-radius"></a>Ionic Radius vs Atomic Radius
@@ -136,7 +136,7 @@ I used to dread Inorganic [chemistry](/blog/thermodynamics-chemistry-class-11-re
 ### <a id="the-isoelectronic-series-trick"></a>The Isoelectronic Series Trick
 For species with the same number of electrons (e.g., TO^{2-}, F^-, Ne, Na^+, Mg^{2+}$ — all 10 electrons):
 **Higher nuclear charge = Smaller radius**.
-Order: TO^{2-} > F^- > Ne > Na^+ > Mg^{2+}$.
+Order: TO^{2-} > F^- > Ne > Na^+ > Mg^{2+}$.$
 
 ---
 
@@ -145,7 +145,7 @@ Order: TO^{2-} > F^- > Ne > Na^+ > Mg^{2+}$.
 **Ionization Enthalpy is the minimum energy required to remove the most loosely bound electron from an isolated gaseous [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet) n its ground state.**
 
 ### <a id="general-trend"></a>General Trend
-- **Across Period**: Increases (higher OZ_{eff}$).
+- **Across Period**: Increases (higher OZ_{eff}$).$
 - **Down Group**: Decreases (electron is farther from nucleus).
 
 ### <a id="the-anomalies-see-favorites"></a>The Anomalies (JEE Favorites)
@@ -176,7 +176,7 @@ Order: TO^{2-} > F^- > Ne > Na^+ > Mg^{2+}$.
 
 - **Pauling Scale**: Most commonly used. F = 4.0 (highest).
 - **General Trend**: Increases across period, decreases down group. Same as IE.
-- **Mullen Scale**: $\chi = \franc{IE + EA}{2}$ (more quantitative).
+- **Mullen Scale**: $\chi = \frac{IE + EA}{2}$ (more quantitative).
 
 ### <a id="key-values"></a>Key Values
 F (4.0) > O (3.5) > Cl (3.0) > N (3.0) > Br (2.8) > C (2.5) > H (2.1)
@@ -204,7 +204,7 @@ F (4.0) > O (3.5) > Cl (3.0) > N (3.0) > Br (2.8) > C (2.5) > H (2.1)
 
 **The Diagonal Relationship describes the similarity and properties between an element and the element diagonally below and to its right and the periodic table.**
 
-This happens because moving right increases IE (OZ_{eff}$) while moving down decreases it (new shell). Moving diagonally, these roughly cancel out.
+This happens because moving right increases IE (OZ_{eff}$) while moving down decreases it (new shell). Moving diagonally, these roughly cancel out.$
 
 | Pair | Shared Properties |
 |:---|:---|
@@ -282,7 +282,7 @@ I created a single A4 sheet I called the "Trend Map." Here's what was on it:
 
 1. **The Arrow Diagram**: I drew 4 arrows on a mini periodic table — one for Radius, one for IE, one for EGE, one for EN. Each arrow pointed and the direction of increase. I looked at this before every mock.
 2. **The Anomaly List**: I wrote down every anomaly (N>O for IE, Cl>F for EGE, noble gas radius) on sticky [notes](/blog/equilibrium-class-11-revision-notes-jee-neet) n pasted them on my desk.
-3. **The Isoelectronic Drill**: I practiced ordering isoelectronic species (IN^{3-}, O^{2-}, F^-, Ne, Na^+, Mg^{2+}, Al^{3+}$) y radius until it was automatic.
+3. **The Isoelectronic Drill**: I practiced ordering isoelectronic species (IN^{3-}, O^{2-}, F^-, Ne, Na^+, Mg^{2+}, Al^{3+}$) y radius until it was automatic.$
 
 ### <a id="board-exam-tip"></a>Board Exam Tip:
 CERT asks "Explain the trend and Ionization Enthalpy across a period." Always mention OZ_{eff}$ first, then state the **anomaly** (N>O). Skipping the anomaly loses you 1 mark because it shows incomplete understanding. **This question carries 3 marks.**

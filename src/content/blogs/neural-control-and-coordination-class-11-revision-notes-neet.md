@@ -67,7 +67,7 @@ There are three main types of neurons based on their functions:
 ### <a id="synaptic-transmission"></a>Synaptic Transmission is the process y which neurons communicate with each other. It involves the release of neurotransmitters from the axon terminal of one neuron, which then bind to receptors on the dendrite of another neuron. This binding can either excite the neuron (excitatory neurotransmitters) or inhibit it (inhibitory neurotransmitters).
 
 ### <a id="reflex-action"></a>Reflex Action
-A reflex action is an involuntary and immediate [movement](/blog/locomotion-n-movement-class-11-revision-notes-neet) n response to a stimulus. It involves a reflex arc, which consists of a sensory neuron, a motor neuron, n some\times an interneuron. The simplest reflex pathway is a monosynaptic reflex, which involves only two neurons: a sensory neuron and a motor neuron.
+A reflex action is an involuntary and immediate [movement](/blog/locomotion-n-movement-class-11-revision-notes-neet) n response to a stimulus. It involves a reflex arc, which consists of a sensory neuron, a motor neuron, n som$e \times a$n interneuron. The simplest reflex pathway is a monosynaptic reflex, which involves only two neurons: a sensory neuron and a motor neuron.
 
 ## <a id="formulae"></a>Formulae
 
@@ -117,7 +117,7 @@ By following these tips and thoroughly understanding the concepts of neural cont
 
 To further enhance your understanding, consider exploring the following LaTeX formatted equation, which represents the basic concept of action potential:
 
- 1 \frac{1}{C_m} \left( g_{Na} (V - V_{Na}) + g_K (V - V_K) + g_L (V - V_L) \right) 
+ 1 $\frac{1}{C_m} \left( g_{Na} (V - V_{Na}) + g_K (V - V_K) + g_L (V - V_L) \right)$ 
 
 where:
 - $V$ is the membrane potential,

@@ -64,15 +64,15 @@ manualReview: false
 ## 📝 Practice MCQs
 **1. What is the formula for population growth rate?**
 -
-A) \frac{dN}{dt} = rN
+A) $\frac{dN}{dt} = rN$
 -
-B) \frac{dN}{dt} = rK
+B) $\frac{dN}{dt} = rK$
 -
-C) \frac{dN}{dt} = r \left(1 - \frac{N}{K}\right)
+C) $\frac{dN}{dt} = r \left(1 - \frac{N}{K}\right)$
 -
-D) \frac{dN}{dt} = r \left(\frac{N}{K}\right)
+D) $\frac{dN}{dt} = r \left(\frac{N}{K}\right)$
 
-**Answer:** A) \frac{dN}{dt} = rN
+**Answer:** A) $\frac{dN}{dt} = rN$
 
 **2. What is the species-area relationship?**
 -
@@ -88,39 +88,39 @@ D) $S = cA^{z/2}$
 
 **3. What is the Shannon-Wiener diversity index?**
 -
-A) H = - \sum_{i=1}^{S} p_i \ln p_i
+A) H = - $\sum_{i=1}^{S} p_i \ln p_i$
 -
-B) H = - \sum_{i=1}^{S} p_i \ln (1-p_i)
+B) H = - $\sum_{i=1}^{S} p_i \ln (1-p_i)$
 -
-C) H = \sum_{i=1}^{S} p_i \ln p_i
+C) H = $\sum_{i=1}^{S} p_i \ln p_i$
 -
-D) H = \sum_{i=1}^{S} p_i \ln (1-p_i)
+D) H = $\sum_{i=1}^{S} p_i \ln (1-p_i)$
 
-**Answer:** A) H = - \sum_{i=1}^{S} p_i \ln p_i
+**Answer:** A) H = - $\sum_{i=1}^{S} p_i \ln p_i$
 
 **4. What is the Simpson's diversity index?**
 -
-A) D = 1 - \sum_{i=1}^{S} \left(\frac{n_i}{N}\right)^2
+A) D = 1 - $\sum_{i=1}^{S} \left(\frac{n_i}{N}\right)^2$
 -
-B) D = 1 - \sum_{i=1}^{S} \left(\frac{n_i}{N}\right)
+B) D = 1 - $\sum_{i=1}^{S} \left(\frac{n_i}{N}\right)$
 -
-C) D = \sum_{i=1}^{S} \left(\frac{n_i}{N}\right)^2
+C) D = $\sum_{i=1}^{S} \left(\frac{n_i}{N}\right)^2$
 -
-D) D = \sum_{i=1}^{S} \left(\frac{n_i}{N}\right)
+D) D = $\sum_{i=1}^{S} \left(\frac{n_i}{N}\right)$
 
-**Answer:** A) D = 1 - \sum_{i=1}^{S} \left(\frac{n_i}{N}\right)^2
+**Answer:** A) D = 1 - $\sum_{i=1}^{S} \left(\frac{n_i}{N}\right)^2$
 
 **5. What is the formula for population density?**
 -
-A) \rho = \frac{N}{A}
+A) $\rho = \frac{N}{A}$
 -
-B) \rho = \frac{A}{N}
+B) $\rho = \frac{A}{N}$
 -
-C) \rho = \frac{N}{V}
+C) $\rho = \frac{N}{V}$
 -
-D) \rho = \frac{V}{N}
+D) $\rho = \frac{V}{N}$
 
-**Answer:** A) \rho = \frac{N}{A}
+**Answer:** A) $\rho = $\frac{N}{A}$
 
 ---
 

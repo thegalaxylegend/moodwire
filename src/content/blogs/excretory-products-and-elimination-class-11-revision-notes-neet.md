@@ -59,11 +59,11 @@ The following formulae are relevant to the excretory system:
 
 * **Glomerular filtration rate (GFR)**: The rate at which the kidneys filter the blood to remove waste products and excess substances. The GFR can be calculated using the following formula:
 
-$\text{GFR} = \frack\text{urine output \times \text{urea concentration and urine}$}$\text{urea concentration and blood}$
+$\text{GFR} = \frack\text{urine output \times \text{urea concentration$ and urine}}$\text{urea concentration$ and blood}$
 
 * **Cockcroft-Fault equation**: An equation used to estimate the GFR based on serum creatinine levels, age, sex, n weight:
 
-$\text{GFR} = \franc{(140 - }{\text{weight} \text{age}) \times $ \times (0.85 $1 \text{serum creatinine}$}
+$\text{GFR} = \frac{(140 - }{\text{weight} \text{age}) \times $ $\times (0.85$ $1 \text{serum creatinine}}$
 
 ### <a id="keenest-data"></a>JEE/MEET Data
 The excretory system is an important topic and the JEE n [meet](/blog/cell-cycle-n-cell-division-class-11-revision-notes-neet) exams. The following data is relevant to the excretory system:

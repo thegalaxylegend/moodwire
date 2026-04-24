@@ -9,25 +9,6 @@ practice_link: "/class-11/biology/biological-classification-class-11-revision-no
 
 *Last Updated: 2026-03-28*
 
-## 📑 Table of Contents
-
-1. [📋 Table of Contents](#table-of-contents)
-2. [<a id="what-is-biological-classification"></a>What is Biological Classification?](#a-idwhat-is-biological-classificationawhat-is-biological-classification)
-3. [<a id="introduction-to-biological-classification"></a>Introduction to Biological Classification](#a-idintroduction-to-biological-classificationaintroduction-to-biological-classification)
-4. [<a id="why-this-chapter-matters"></a>Why This Chapter Matters](#a-idwhy-this-chapter-mattersawhy-this-chapter-matters)
-5. [<a id="Ayush-note"></a>Ayush's Note](#a-idayush-noteaayushs-note)
-6. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
-7. [<a id="shortcut-formula-trick"></a>Shortcut Formula / Trick](#a-idshortcut-formula-trickashortcut-formula-trick)
-8. [<a id="trap-questions-exceptions"></a>Trap Questions / Exceptions](#a-idtrap-questions-exceptionsatrap-questions-exceptions)
-9. [<a id="practice-MCQs"></a>Practice MCQs](#a-idpractice-mcqsapractice-mcqs)
-10. [<a id="related-notes-links"></a>Related Notes Links](#a-idrelated-notes-linksarelated-notes-links)
-11. [<a id="last-updated-date"></a>Last Updated Date](#a-idlast-updated-datealast-updated-date)
-12. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
-13. [📚 Related Topics](#related-topics)
-14. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
-
----
-
 ## 📋 Table of Contents
 
 - [What is Biological Classification?](#what-is-biological-classification)
@@ -76,41 +57,42 @@ Biological classification is an important topic for class 11 students, as it is 
 ## <a id="Ayush-note"></a>Ayush's Note
 
 <\\DIV class="callout-box">
-I still remember when I was preparing for my MEET exam, I used to get confused between the different levels of classification. I would often mix up the order of the levels, n it would lead to mistakes and my exams. But then I realized that if I just remembered the sentence "Some Genera Have Incredible Names" ([Kingdom](/blog/animal-kingdom-class-11-revision-notes-neet), Phylum, class, Order, Family, Genus, Species), I could easily recall the correct order. This trick helped me a lot, n I was able to answer questions related to biological classification with confidence.
+I still remember when I was preparing for my MEET exam, I used to get confused between the different levels of classification. I would often mix up the order of the levels, n it would lead to mistakes and my exams. But then I realized that if I just remembered the sentence "Some Genera Have Incredible Names" (Kingdom, Phylum, class, Order, Family, Genus, Species), I could easily recall the correct order. This trick helped me a lot, n I was able to answer questions related to biological classification with confidence.
 </div>
 
 ## <a id="core-concepts"></a>Core Concepts
 
 ### <a id="kingdom"></a>Kingdom
 [kingdom](/blog/animal-kingdom-class-11-revision-notes-neet) is the highest level of classification. There are six kingdoms: Animalia, Plantar, Fungi, Protista, Christa, n Monera. 
-$\text{Kingdom} = \text{highest level of classification}$
+$\text{Kingdom} = \text{highest level$ of classification}$
 
 ### <a id="phylum"></a>Phylum
 Phylum is the level of classification below the [kingdom](/blog/animal-kingdom-class-11-revision-notes-neet). It is a group of related classes. 
-$\text{Phylum}$ = $\text{group of related classes}$
+$\text{Phylum}$ = $\text{group$ of related classes}$
 
 ### <a id="class"></a>Class
 class is the level of classification below the phylum. It is a group of related orders. 
-$\text{class} = \text{group of related orders}$
+$\text{class} = \text{group$ of related orders}$
 
-### <a id="order"></a>Order, Order is the level of classification below the class. It is a group of related families. 
-$\text{Order}$ = $\text{group of related families}$
+### <a id="order"></a>Order
+Order is the level of classification below the class. It is a group of related families. 
+$\text{Order}$ = $\text{group$ of related families}$
 
 ### <a id="family"></a>Family
 Family is the level of classification below the order. It is a group of related genera. 
-$\text{Family} = \text{group of related genera}$
+$\text{Family} = \text{group$ of related genera}$
 
 ### <a id="genus"></a>Genus
 Genus is the level of classification below the family. It is a group of related species. 
-$\text{Genus}$ = $\text{group of related species}$
+$\text{Genus}$ = $\text{group$ of related species}$
 
 ### <a id="species"></a>Species
 Species is the lowest level of classification. It is a group of organisms that can interbreed and produce fertile offspring. 
-$1 \text{group of organisms that can interbreed}$
+$1 \text{group$ of organisms that can interbreed}$
 
 ## <a id="shortcut-formula-trick"></a>Shortcut Formula / Trick
 
-One trick to remember the order of the levels of classification is to use the sentence "Some Genera Have Incredible Names" ([Kingdom](/blog/animal-kingdom-class-11-revision-notes-neet), Phylum, class, Order, Family, Genus, Species).
+One trick to remember the order of the levels of classification is to use the sentence "Some Genera Have Incredible Names" (Kingdom, Phylum, class, Order, Family, Genus, Species).
 
 ## <a id="trap-questions-exceptions"></a>Trap Questions / Exceptions
 
@@ -164,7 +146,7 @@ Difficulty: Easy
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* [Cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) Structure and Functions Class 11 Notes
+* Cell Structure and Functions Class 11 Notes
 * Biology Notes for MEET
 
 ## <a id="last-updated-date"></a>Last Updated Date
@@ -189,8 +171,6 @@ Continue your revision with these related guides:
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/biological-classification-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Biological%20Classification%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

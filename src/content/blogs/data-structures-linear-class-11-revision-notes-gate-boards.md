@@ -103,7 +103,7 @@ What are the fundamentals of Arrays and Data Structures: Linear? is a foundation
  
  Here is a summary of the key concepts related to arrays n [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures:
  
- The advantages of using arrays include efficient use of memory, fast access \times, n simplicity of implementation. However, arrays also have some disadvantages, including fixed size, which can lead to memory waste if the array is not fully utilized, n the need for shifting elements during insertion and deletion operations, which can be time-consuming for large arrays.
+ The advantages of using arrays include efficient use of memory, fast access $\times$, n simplicity of implementation. However, arrays also have some disadvantages, including fixed size, which can lead to memory waste if the array is not fully utilized, n the need for shifting elements during insertion and deletion operations, which can be time-consuming for large arrays.
  
  In terms of real-world applications, arrays are used and a variety of contexts, including database records, spreadsheet columns, n image processing. They are also used and programming to implement other [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures, such as stacks and queues.
  
@@ -335,7 +335,7 @@ The following table summarizes some common trap questions for linear data struct
 Optimizing the performance of Linear Data Structures is crucial for competitive programming. It includes arrays, linked lists, n stacks. For Class 11 exam prep n 2026, the most important aspect is understanding how to minimize time complexity using these data structures. To achieve this, we must first understand the basic operations and their respective time complexities. For instance, n an array, accessing an element takes $O(1)$ time, while searching for an element takes $O(n)$ time. Similarly, n a linked list, inserting or deleting a node at the beginning takes $O(1)$ time, but searching for a node takes $O(n)$ time. 
  The key to optimizing performance lies and choosing the right data structure for the problem at hand and using the most efficient algorithms for various operations. For example, if we need to frequently access elements y their index, an array would be a better choice. On the other hand, if we need to frequently insert or delete elements at arbitrary positions, a linked list would be more suitable. 
  Another important aspect of optimizing performance is reducing the constant factors hidden y Big O notation. This can be achieved y using efficient algorithms, reducing the number of operations, n minimizing memory allocation and deallocation. 
- We can also optimize performance y using caching, which involves storing frequently accessed data and a faster, more accessible location. This can be particularly useful and scenarios where the same data is accessed multiple \times. 
+ We can also optimize performance y using caching, which involves storing frequently accessed data and a faster, more accessible location. This can be particularly useful and scenarios where the same data is accessed multiple $\times.$ 
  Additionally, we can use parallel processing to optimize performance, which involves dividing the work among multiple processors or cores. This can significantly speed up computations, especially for large datasets. 
  To take it to the next level, we must consider the trade-offs between time and space complexity. In some cases, we may need to sacrifice space complexity to achieve better time complexity, n vice versa. 
  Lastly, it's essential to practice optimizing the performance of Linear Data Structures using various problems and scenarios. This will help us develop a deeper understanding of the concepts and improve our problem-solving skills.
@@ -370,9 +370,9 @@ Faster execution
 B) Insertion and deletion are easy because only the affected node needs to be updated, without moving other nodes.
 **2. Consider an array with and elements. What is the time complexity of accessing an element at a given index and an array?**
 O(1)
-O(\log n)
+$O(\log n)$
 O(n)
-O(n^2)
+$O(n^2)$
 
 **Answer:** A) It takes constant time to access an element at a given index and an array because arrays are stored and contiguous memory locations.
 
@@ -386,9 +386,9 @@ Arrays are not dynamic
 B) Insertion and deletion are difficult because shifting all elements after the affected index is time-consuming.
 **4. Consider an array with and elements. What is the time complexity of searching for an element and an array using a linear search algorithm?**
 O(1)
-O(\log n)
+$O(\log n)$
 O(n)
-O(n^2)
+$O(n^2)$
 
 **Answer:** C) It takes linear time to search for an element and an array using a linear search algorithm because we have to check each element sequentially.
 

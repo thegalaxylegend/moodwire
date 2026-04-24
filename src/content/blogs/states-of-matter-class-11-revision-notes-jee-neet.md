@@ -9,27 +9,6 @@ practice_link: "/class-11/physics/states-of-matter-class-11-revision-notes-jee-n
 
 *Last Updated: 2026-03-28*
 
-## 📑 Table of Contents
-
-1. [📋 Table of Contents](#table-of-contents)
-2. [<a id="what-is-states-of-matter-revision-notes"></a>What is States Of Matter Revision Notes?](#a-idwhat-is-states-of-matter-revision-notesawhat-is-states-of-matter-revision-notes)
-3. [<a id="1-why-states-of-matter-is-your-physics-n-chemistry-chapter"></a>1. Why States of Matter is Your "Physics and Chemistry" Chapter](#a-id1-why-states-of-matter-is-your-physics-n-chemistry-chaptera1-why-states-of-matter-is-your-physics-and-chemistry-chapter)
-4. [<a id="2-intermolecular-forces-the-root-cause-of-physical-states"></a>2. Intermolecular Forces: The Root Cause of Physical States](#a-id2-intermolecular-forces-the-root-cause-of-physical-statesa2-intermolecular-forces-the-root-cause-of-physical-states)
-5. [<a id="3-boyles-charless-n-gay-lussacs-laws-the-foundation"></a>3. Boyle's, Charles's, n Gay Lussac's Laws — The Foundation](#a-id3-boyles-charless-n-gay-lussacs-laws-the-foundationa3-boyles-charless-n-gay-lussacs-laws-the-foundation)
-6. [<a id="4-the-ideal-gas-equation-combining-everything-pvnrt"></a>4. The Ideal Gas Equation: Combining Everything ($PV=nRT$)](#a-id4-the-ideal-gas-equation-combining-everything-pvnrta4-the-ideal-gas-equation-combining-everything-pvnrt)
-7. [<a id="5-daltons-law-n-grahams-law-mixtures-n-diffusion"></a>5. Dalton's Law & Graham's Law: Mixtures and Diffusion](#a-id5-daltons-law-n-grahams-law-mixtures-n-diffusiona5-daltons-law-grahams-law-mixtures-and-diffusion)
-8. [<a id="6-kinetic-molecular-theory-kmt-the-microscopic-view"></a>6. Kinetic Molecular Theory (KMT): The Microscopic View](#a-id6-kinetic-molecular-theory-kmt-the-microscopic-viewa6-kinetic-molecular-theory-kmt-the-microscopic-view)
-9. [<a id="7-real-gases-vs-ideal-gases-when-reality-breaks-the-rules"></a>7. Real Gases vs Ideal Gases: When Reality Breaks the Rules](#a-id7-real-gases-vs-ideal-gases-when-reality-breaks-the-rulesa7-real-gases-vs-ideal-gases-when-reality-breaks-the-rules)
-10. [<a id="8-the-van-der-waals-equation-correcting-for-reality"></a>8. The van der Waals Equation: Correcting for Reality](#a-id8-the-van-der-waals-equation-correcting-for-realitya8-the-van-der-waals-equation-correcting-for-reality)
-11. [<a id="9-critical-temperature-boyle-temperature-n-liquefaction"></a>9. Critical Temperature, Boyle Temperature, n Liquefaction](#a-id9-critical-temperature-boyle-temperature-n-liquefactiona9-critical-temperature-boyle-temperature-n-liquefaction)
-12. [<a id="10-the-trap-section-gas-law-pitfalls"></a>10. The "Trap" Section: Gas Law Pitfalls](#a-id10-the-trap-section-gas-law-pitfallsa10-the-trap-section-gas-law-pitfalls)
-13. [<a id="11-practice-mcqs-jeeneet-level"></a>11. Practice MCQs (JEE/NEET Level)](#a-id11-practice-mcqs-jeeneet-levela11-practice-mcqs-jeeneet-level)
-14. [<a id="12-ayushs-gas-laws-strategy"></a>12. Ayush's Gas Laws Strategy](#a-id12-ayushs-gas-laws-strategya12-ayushs-gas-laws-strategy)
-15. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
-16. [📚 Related Topics](#related-topics)
-
----
-
 ## 📋 Table of Contents
 
 - [What is States Of Matter Revision Notes?](#what-is-states-of-matter-revision-notes)
@@ -86,9 +65,9 @@ practice_link: "/class-11/physics/states-of-matter-class-11-revision-notes-jee-n
 This chapter is where Physics and Chemistry merge. If you're comfortable with [thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) n Kinetic Energy and Physics, you'll fly through this. The key challenge isn't the concepts — it's the **unit conversions**. I've seen students who understand Boyle's Law perfectly but get 0 marks because they forgot to convert Celsius to Kelvin.
 
 ### <a id="why-this-chapter-matters-exam-data"></a>Why This Chapter Matters (Exam Data)
-- **JEE Mains 2026 Session 1**: 1 question on Compressibility Factor ($Z$) n 1 on Graham's Law.
+- **JEE Mains 2026 Session 1**: 1 question on Compressibility Factor ($Z$) n 1$ on Graham's Law.$
 - **[neet](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) 2026**: 1 question on van der Waals constants and liquefaction ease.
-- **CBSE Boards**: This unit carries 4–5 marks and is often paired with [thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) n the paper.
+- **CBSE Boards**: This unit carries 4-5 marks and is often paired with [thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) n the paper.
 
 ---
 
@@ -114,10 +93,10 @@ This chapter is where Physics and Chemistry merge. If you're comfortable with [t
 $P_1V_1 = P_2V_2$. The P-V graph is a **hyperbola** (isotherm).
 
 ### <a id="charless-law-constant-p"></a>Charles's Law (Constant P)
-$\frac{V_1}{T_1}$ = T_$2}{\frac{P_1}{T_1} = \frac{P_2}{T_2}} . **Temperature MUST be and Kelvin.** The V-T graph is a **straight line** through the origin when plotted and Kelvin.
+$\frac{V_1}{T_1}$ = T_2}${\frac{P_1}{T_1} = \frac{P_2}{T_2}} . **Temperature MUST$ be and Kelvin.** The V-T graph is a **straight line** through the origin when plotted and Kelvin.
 
 ### <a id="gay-lussacs-law-constant-v"></a>Gay Lussac's Law (Constant V)
-$. The P-T graph is a straight line (isochore).
+$. The P-T graph is a straight line (isochore).$
 
 ### <a id="avogadros-law-constant-t-p"></a>Avogadro's Law (Constant T, P)
 $V \propto n$. Equal volumes of all gases at same T and P contain equal number of molecules.
@@ -140,23 +119,23 @@ $V \propto n$. Equal volumes of all gases at same T and P contain equal number o
 | $2$ | $\text{cal mol}^{-1}\text{ K}^{-1}$ | Energy and calories |
 
 ### <a id="the-density-shortcut"></a>The Density Shortcut
-From $PV = nRT$ n $n = W/M$: PM = dRT where $d = density. This is a high-yield JEE formula for "find the molar mass of a gas" questions.
+From $PV = nRT$ n $n = W/M$: PM = dRT where $d = density. This is a high-yield JEE formula for "find the molar mass of a gas" questions.$
 
 ---
 
 ## <a id="5-daltons-law-n-grahams-law-mixtures-n-diffusion"></a>5. Dalton's Law & Graham's Law: Mixtures and Diffusion
 
-**Dalton's Law of Partial Pressures states that the total pressure of a mixture of non-reacting gases is equal to the \sum of individual partial pressures of each component gas.**
+**Dalton's Law of Partial Pressures states that the total pressure of a mixture of non-reacting gases is equal to the $\sum of individual partial pressures of each component gas.**$
 
-P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i \times P_{total} where $X_i = mole fraction.
+P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i $\times P_{total} where$ $X_i = mole fraction.$
 
 ### <a id="grahams-law-of-diffusion"></a>Graham's Law of Diffusion
 
 **Graham's Law states that the rate of diffusion or effusion of a gas is inversely proportional to the square root of its molar mass.**
 
- \frac{r_1}{r_2} = {M_1\frac{M_2} 
+ $\frac{r_1}{r_2} = {M_1\frac{M_2}$ 
 
-**JEE Trick**: This means lighter gases diffuse faster. $H_2$ diffuses 4× faster than $O_2$ (since $\sqrt{32/2} = 4$).
+**JEE Trick**: This means lighter gases diffuse faster. $H_2$ diffuses 4× faster$ than $O_2$ (since $\sqrt{32/2} = 4$).$
 
 ---
 
@@ -169,7 +148,7 @@ P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i \times P_{total} where $X_i = mole fr
 2. Molecules are and constant, **random motion** n all directions.
 3. Collisions between molecules and container walls are **perfectly elastic** (no energy loss).
 4. There are **no intermolecular forces** of attraction or repulsion.
-5. Average Kinetic Energy is proportional to temperature: $KE_{avg} = \frac{3}{2}kT$ (per molecule) or $\frac{3}{2} = u_{rms}  (per mole).
+5. Average Kinetic Energy is proportional to temperature: $KE_{avg} = \frac{3}{2}kT$ (per molecule) or $\frac{3}{2} = u_{rms}  (per mole).$
 
 ### <a id="molecular-speeds-jee-advanced"></a>Molecular Speeds (JEE Advanced)
 | Speed | Symbol | Formula | Relative Value |
@@ -188,7 +167,7 @@ P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i \times P_{total} where $X_i = mole fr
 
 ### <a id="the-compressibility-factor-z"></a>The Compressibility Factor (Z)
 
-Z = $\frac{PV}{nRT} = Z = 1 
+Z = $\frac{PV}{nRT} = Z = 1$ 
 
 | Z Value | Meaning | Dominant Force | Condition |
 |:---:|:---|:---|:---|
@@ -204,7 +183,7 @@ Z = $\frac{PV}{nRT} = Z = 1
 
 **The van der Waals Equation is a modified form of the ideal gas equation that accounts for the finite size of molecules (volume correction 'b') n intermolecular attractions (pressure correction 'a').**
 
-\left[P + $\frac{an^2}{V^2} = SO_2 \right](V - nb) = nRT
+\left[P + $\frac{an^2}{V^2} = SO_2 \right](V - nb) = nRT$
 
 | Constant | Meaning | Higher value means |
 |:---|:---|:---|
@@ -235,7 +214,7 @@ Z = $\frac{PV}{nRT} = Z = 1
 ### <a id="trap-2-z-for-h_2-n-he"></a>Trap 2: $Z$ for $H_2$ n $He$
 - **Wrong Answer**: "$H_2$ shows $Z < 1$ at some pressures."
 - **Right Answer**: For $H_2$ n $He$, $Z \geq 1$ always.
-- **Why**: Their molecules are so small ('an' is negligible) that only repulsive forces (volume exclusion) operate.
+- **Why**: Their molecules are so small ('a' is negligible) that only repulsive forces (volume exclusion) operate.
 
 ### <a id="trap-3-daltons-law-requires-nonreacting-gases"></a>Trap 3: Dalton's Law requires non-reacting gases
 - **Wrong Answer**: "Total pressure of a mixture of $HCl$ n $NH_3$ is $P_{HCl} + P_{NH_3}$."
@@ -290,11 +269,11 @@ D) $a/27b^2$
 This chapter is one of the easiest to score full marks and if you have your basics right.
 
 1. **The Unit Check**: Before solving any problem, I write down the value of $R$ I'm going to use and make sure all other values match its unit system. This single habit eliminated 90% of my errors.
-2. **Z-Plot Visualization**: I sketched the $Z$ vs $P$ graph for $H_2$, $N_2$, n $CO_2$ three \times. Once you see the curves, you intuitively know when $Z<1$ (dip) n when $Z>1$ (rise).
+2. **Z-Plot Visualization**: I sketched the $Z$ vs $P$ graph for $H_2$, $N_2$, n $CO_2$ three \times. Once you see$ the curves, you intuitively know when $Z<1$ (dip) n when $Z>1$ (rise).$
 3. **The Critical Constants Triangle**: I memorized $T_c, P_c, V_c$ n terms of $a$ n $b$ as a triangle: $T_c$ at top, $P_c$ n $V_c$ at the base. The relationships flow naturally from there.
 
 ### <a id="board-exam-tip"></a>Board Exam Tip:
-In CBSE boards, always draw the $PV$ vs $P$ graph or the $Z$ vs $P$ graph if the question asks about real gas deviations. Diagrams carry dedicated marks and theory papers. **This topic typically carries 3–5 marks.**
+In CBSE boards, always draw the $PV$ vs $P$ graph or the $Z$ vs $P$ graph if the question asks about real gas deviations. Diagrams carry dedicated marks and theory papers. **This topic typically carries 3-5 marks.**
 
 ---
 
@@ -324,8 +303,6 @@ Continue your [revision](/blog/structure-of-atom-class-11-revision-notes-jee-nee
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/states-of-matter-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=States%20Of%20Matter%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-
 ---
 
 ## 📚 Related Topics
@@ -337,26 +314,3 @@ Continue your [revision](/blog/classification-elements-periodicity-class-11-revi
 - 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
 - 📖 [Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)
 
-$
-
-## 🪤 The 5 Mistakes That Cost Marks
-
-* Be careful when identifying the state of matter for a given substance at a particular temperature and pressure. A common mistake is to assume that a substance is always in the same state under standard conditions, when in fact its state can change depending on the specific conditions. For example, water can exist as a solid (ice), liquid (water), or gas (water vapor) at different temperatures and pressures.
-* Students often get confused between the terms 'evaporation' and 'boiling'. Evaporation occurs at the surface of a liquid, while boiling occurs throughout the bulk of the liquid. Make sure to distinguish between these two processes when discussing the behavior of liquids.
-* When solving problems related to the ideal gas law, a common mistake is to forget to convert the given values to the appropriate units. Ensure that you are using the correct units for pressure (Pascals or atmospheres), volume (meters cubed or liters), and temperature (Kelvin).
-* A trap question in the topic of states of matter is related to the concept of 'triple point'. Many students are unable to identify the unique characteristics of the triple point, where the three phases (solid, liquid, and gas) of a substance coexist in [equilibrium](/blog/equilibrium-class-11-revision-notes-jee-neet). Be sure to recognize the significance of this concept.
-* When discussing the properties of real gases, a common error is to assume that they behave ideally under all conditions. In reality, real gases deviate from ideal behavior, especially at high pressures and low temperatures. Be aware of the limitations of the ideal gas law and the factors that contribute to non-ideal behavior.
-
-## 🔁 Last 5 Minutes Box
-
-* **Solids**: Have a fixed shape and volume, particles are closely packed.
-* **Liquids**: Have a fixed volume but take the shape of the container, particles are close but can move.
-* **Gases**: Neither have a fixed shape nor volume, particles are widely spaced and move freely.
-* ** Plasma**: Ionized gas, contains ions and free electrons.
-* ** Boyle's Law**: P1V1 = P2V2 at constant temperature.
-* ** Charles' Law**: V1/T1 = V2/T2 at constant pressure.
-* **Avogadro's Law**: V1/n1 = V2/n2 at constant temperature and pressure.
-* **Ideal Gas Equation**: PV = nRT, where R is gas constant.
-* **Real Gases**: Deviate from ideal behavior, follow **Van der Waals Equation**: (P + a/V^2)(V - b) = RT.
-* **Surface Tension**: Force acting along the surface of a liquid, causing it to behave as an elastic sheet.
-* **Viscosity**: Measure of a fluid's resistance to flow, depends on intermolecular forces.

@@ -59,9 +59,9 @@ manualReview: false
 ## 📝 Practice MCQs
 **1. What is the probability that an offspring will express the dominant phenotype if the parents have the genotypes $RR$ and $rr$?**
 -
-A) \frac{1}{2}
+A) $\frac{1}{2}$
 -
-B) \frac{1}{4}
+B) $\frac{1}{4}$
 -
 C) $1$
 -
@@ -71,15 +71,15 @@ D) $0$
 
 **2. A cross between two parents with the genotypes $AaBb$ and $AaBb$ produces offspring with the following genotypes: $25\%AABB$, $25\%aabb$, $25\%Aabb$, and $25\%aaBb$. What is the probability that an offspring will have the genotype $AaBb$?**
 -
-A) \frac{1}{4}
+A) $\frac{1}{4}$
 -
-B) \frac{1}{16}
+B) $\frac{1}{16}$
 -
-C) \frac{1}{8}
+C) $\frac{1}{8}$
 -
-D) \frac{1}{2}
+D) $\frac{1}{2}$
 
-**Answer: A) \frac{1}{4}**
+**Answer: A) $\frac{1}{4}**$
 
 **3. A population of bacteria has a gene with two alleles, $B$ and $b$. The frequency of the $B$ allele is $0.6$ and the frequency of the $b$ allele is $0.4$. What is the frequency of the genotype $BB$?**
 -

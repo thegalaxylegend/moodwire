@@ -147,7 +147,7 @@ Continue your [revision](/blog/3d-geometry-intro-class-11-revision-notes-jee-nee
      * Object-Oriented Programming
      * Database Management
    - **Key Formulas**:
-     * Time Complexity: O(1), O(\log n), O(n), O(n \log n), O(n^2)
+     * Time Complexity: O(1), $O(\log n)$, O(n), $O(n \log n)$, $O(n^2)$
      * Big-O Notation
    - **Python Basics**:
      * Variables: sum, STR, list, dict

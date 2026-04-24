@@ -14,7 +14,7 @@ manualReview: false
 - The use of biofertilizers like $\text{Rhizobium}$ and $\text{Azotobacter}$ can increase the yield by $\frac{10-20}{100}$ percent.
 - Organic farming uses natural substances like $\text{compost}$ and $\text{green manure}$ to maintain soil fertility.
 - Hybridization is a technique used to increase the yield by $\frac{20-50}{100}$ percent by crossing two different varieties of crops.
-- The use of $\text{system of rice intensification}$ (SRI) can increase the yield of rice by $\frac{20-50}{100}$ percent.
+- The use of $\text{system$ of rice intensification}$ (SRI) can increase the yield of rice by $\frac{20-50}{100}$ percent.$
 - The use of $\text{precision farming}$ can increase the yield by $\frac{10-20}{100}$ percent by using advanced technology.
 - Integrated pest management (IPM) is a technique used to reduce the use of $\frac{20-50}{100}$ percent of chemical pesticides.
 - The use of $\text{hydroponics}$ and $\text{aquaponics}$ can increase the yield by $\frac{20-50}{100}$ percent by using nutrient-rich water.
@@ -50,7 +50,7 @@ manualReview: false
 - Quick glance at the $\text{important notes}$ and $\text{summaries}$.
 - Revision of $\text{previous year questions}$ and $\text{practice papers}$.
 - Focus on $\text{weak areas}$ and $\text{difficult topics}$.
-- Stay $\text{calm and confident}$ during the exam.
+- Stay $\text{calm$ and confident}$ during the exam.$
 
 ## 📝 Practice MCQs
 **1. What is the main advantage of using $\text{crop rotation}$ in agriculture?**
@@ -67,13 +67,13 @@ D) Increases the use of chemical pesticides by $\frac{20-50}{100}$ percent
 
 **2. How does $\text{intercropping}$ increase the yield of crops?**
 -
-A) By \frac{10-20}{100} percent
+A) By $\frac{10-20}{100} percent$
 -
-B) By \frac{20-50}{100} percent
+B) By $\frac{20-50}{100} percent$
 -
-C) By \frac{50-100}{100} percent
+C) By $\frac{50-100}{100} percent$
 -
-D) By \frac{100-200}{100} percent
+D) By $\frac{100-200}{100} percent$
 
 **Answer: B) By $\frac{20-50}{100}$ percent.**
 

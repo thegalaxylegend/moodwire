@@ -155,13 +155,8 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
         regenerate_all: false
     };
 
-    const today = new Date().toISOString().split('T')[0];
-
-    // 1. Auto-fix: Date
-    if (post.last_updated !== today) {
-        report.auto_fixed.push({ field: 'last_updated', old: post.last_updated, new: today });
-        post.last_updated = today;
-    }
+    // 1. Date — NO LONGER AUTO-CHANGED (preserve original publish dates)
+    // Dates are only set at blog creation time, never mutated by quality checks.
 
     // 2. Word Count Check
     const totalWords = (post.content?.sections || []).reduce((acc, sec) => acc + (sec.body ? String(sec.body).split(/\s+/).length : 0), 0);
@@ -344,10 +339,80 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
     }
 
     // 11e. Heading Hallucination: "Solved Yes" instead of "Solved PYQs"
-    // Root Cause #5: LLM consistently hallucinates this heading.
     if (contentStr.includes('solved yes')) {
         score -= 3;
         report.warnings.push('Heading hallucination: "Solved Yes" should be "Solved PYQs"');
+    }
+
+    // ========= 12. ULTRA RAW MATH RENDERING DETECTION =========
+
+    // 12a. Bare Greek symbols inside $...$ without backslash
+    // e.g. $cos(theta)$ instead of $\cos(\theta)$
+    const bareGreekInMath = (contentStr.match(/\$[^$]*(?<!\\)\b(theta|alpha|beta|gamma|delta|omega|phi|psi|epsilon|sigma|lambda|mu|rho|pi|infty|nabla)\b[^$]*\$/g) || []).length;
+    if (bareGreekInMath > 0) {
+        score -= Math.min(10, bareGreekInMath * 2);
+        report.warnings.push(`${bareGreekInMath} bare Greek symbols without backslash inside math`);
+    }
+
+    // 12b. Split \neq across lines (renders as linebreak + "eq")
+    const splitNeq = (contentStr.match(/\$\s*\n\s*eq\s/g) || []).length;
+    if (splitNeq > 0) {
+        score -= splitNeq * 3;
+        report.warnings.push(`${splitNeq} split \\neq across lines (renders as linebreak + "eq")`);
+    }
+
+    // 12c. Split dollar fractions: $\frac{...$}{$...$}
+    const splitFrac = (contentStr.match(/\$\\frac\{[^$]*?\$\}\{\$/g) || []).length;
+    if (splitFrac > 0) {
+        score -= splitFrac * 5;
+        report.critical_failures.push(`${splitFrac} split dollar fractions (\$\\frac{..\$}{\$..\$})`);
+    }
+
+    // 12d. \sum used as English word "sum" in prose
+    const sumAsWord = (contentStr.match(/(?<!\$[^$]*)\\sum\b(?![_{^])/g) || []).length;
+    if (sumAsWord > 3) {
+        score -= 5;
+        report.warnings.push(`${sumAsWord} instances of \\sum used as English word "sum"`);
+    }
+
+    // 12e. \times in prose (not inside $...$)
+    const timesInProse = (contentStr.match(/(?<!\$[^$]*)\\times\b(?![^$]*\$)/g) || []).length;
+    if (timesInProse > 0) {
+        score -= Math.min(5, timesInProse);
+        report.warnings.push(`${timesInProse} \\times in prose (should be × or inside $...$)`);
+    }
+
+    // 12f. Unclosed braces in inline math $...$
+    const inlineMathBlocks = contentStr.match(/\$[^$]+\$/g) || [];
+    let unclosedBraceCount = 0;
+    for (const block of inlineMathBlocks) {
+        const opens = (block.match(/\{/g) || []).length;
+        const closes = (block.match(/\}/g) || []).length;
+        if (opens > closes) unclosedBraceCount++;
+    }
+    if (unclosedBraceCount > 0) {
+        score -= unclosedBraceCount * 3;
+        report.warnings.push(`${unclosedBraceCount} inline math blocks with unclosed braces`);
+    }
+
+    // 12g. Trailing orphan braces/dollars at end of content
+    if (/\}{3,}\s*$/.test(contentStr)) {
+        score -= 5;
+        report.warnings.push('Trailing orphan braces at end of content');
+    }
+
+    // 12h. Raw LaTeX in MCQ options (\frac without $ in option lines)
+    const rawMcqLatex = (contentStr.match(/\*\*[A-D]\)\*\*\s+\\(?:frac|sqrt|text)\{/g) || []).length;
+    if (rawMcqLatex > 0) {
+        score -= rawMcqLatex * 3;
+        report.warnings.push(`${rawMcqLatex} MCQ options with raw LaTeX (missing $ delimiters)`);
+    }
+
+    // 12i. Double-escaped backslashes (\\\\cdot etc)
+    const doubleEscaped = (contentStr.match(/\\\\[a-z]+/g) || []).length;
+    if (doubleEscaped > 2) {
+        score -= 5;
+        report.warnings.push(`${doubleEscaped} double-escaped LaTeX commands`);
     }
 
     report.score = Math.max(0, score);

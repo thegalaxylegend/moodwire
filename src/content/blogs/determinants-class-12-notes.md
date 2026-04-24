@@ -9,7 +9,7 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- The determinant of a 2x2 matrix $\begin{bmatrix} a & b \\ c & d \end{bmatrix}$ is given by $\franc{ad}{1} - \franc{bc}{1} = ad - BC
+- The determinant of a 2x2 matrix $\begin{bmatrix} a & b \\ c & d \end{bmatrix}$ is given by $\frac{ad}{1} - \frac{bc}{1} = ad - BC$
 - The determinant of a 3x3 matrix $\begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix}$ is given by a(a - FH) - b(DI - FG) + c(DH - e.g.)$
 - $\begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix} = a(a - FH) - b(DI - FG) + c(DH - e.g.)$
 - The determinant of the product of two matrices is equal to the product of their determinants: $\begin{vmatrix} AB \end{vmatrix} = \begin{vmatrix} A \end{vmatrix} \begin{vmatrix} B \end{vmatrix}$
@@ -33,9 +33,9 @@ manualReview: false
   Answer: $\begin{vmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{vmatrix} = 1(5 \times 9–6 \times 8) - 2(4 \times 9–6 \times 7) + 3(4 \times 8–5 \times 7) = 1(45–48) - 2(36–42) + 3(32–35) = 1(-3) - 2(-6) + 3(-3) = -3 + 12–9 = 0$
 - **Question 2:** Find the value of ex for which the determinant of the matrix $\begin{bmatrix} 1 & x & 2 \\ 3 & 4 & 5 \\ 6 & 7 & 8 \end{bmatrix}$ is zero
   Step 1: Apply the formula for the determinant of a 3x3 matrix
-  Step 2: Set the determinant equal to zero and solve for ex
+  Step 2: Set the determinant equal to zero and solve for $x$
   Step 3: Simplify the expression to find the value of ex
-  Answer: $\begin{vmatrix} 1 & x & 2 \\ 3 & 4 & 5 \\ 6 & 7 & 8 \end{vmatrix} = 1(4 \times 8–5 \times 7) - x(3 \times 8–5 \times 6) + 2(3 \times 7–4 \times 6) = 1(32–35) - x(24–30) + 2(21–24) = 1(-3) - x(-6) + 2(-3) = -3 + 6x - 6 = 06x = 9$ x = \franc{9}{6} = \franc{3}{2} 
+  Answer: $\begin{vmatrix} 1 & x & 2 \\ 3 & 4 & 5 \\ 6 & 7 & 8 \end{vmatrix} = 1(4 \times 8–5 \times 7) - x(3 \times 8–5 \times 6) + 2(3 \times 7–4 \times 6) = 1(32–35) - x(24–30) + 2(21–24) = 1(-3) - x(-6) + 2(-3) = -3 + 6x - 6 = 06x = 9$ x = $\frac{9}{6} = \frac{3}{2}$ 
 - **Question 3:** Evaluate the determinant of the matrix $\begin{bmatrix} 2 & 1 & 1 \\ 1 & 2 & 1 \\ 1 & 1 & 2 \end{bmatrix}$
   Step 1: Apply the formula for the determinant of a 3x3 matrix
   Step 2: Calculate the minors and cofactors
@@ -74,7 +74,7 @@ B) -2
 C) 4
 D) -4
 
-**Answer: B) -2. The determinant of the matrix is given by $\franc{1}{1} \times \franc{4}{1} - \franc{2}{1} \times \franc{3}{1} = 4–6 = -2$**
+**Answer: B) -2. The determinant of the matrix is given by $\frac{1}{1} \times \frac{4}{1} - \frac{2}{1} \times \frac{3}{1} = 4–6 = -2$**
 
 **2. Evaluate the determinant of the matrix $\begin{bmatrix} 2 & 1 & 1 \\ 1 & 2 & 1 \\ 1 & 1 & 2 \end{bmatrix}$**
 A) 2
@@ -87,11 +87,11 @@ D) 8
 **3. Find the value of ex for which the determinant of the matrix $\begin{bmatrix} 1 & x & 2 \\ 3 & 4 & 5 \\ 6 & 7 & 8 \end{bmatrix}$ is zero**
 A) 1
 B) 2
-C) $\franc{3}{2}$
+C) $\frac{3}{2}$
 D) 3
 
-**Answer: C) $\franc{3}{2}$. The determinant of the matrix is given by $\begin{vmatrix} 1 & x & 2 \\ 3 & 4 & 5 \\ 6 & 7 & 8 \end{vmatrix} = 1(4 \times 8–5 \times 7) - x(3 \times 8–5 \times 6) + 2(3 \times 7–4 \times 6) = 1(32–35) - x(24–30) + 2(21–24) = 1(-3) - x(-6) + 2(-3) = -3 + 6x - 6 = 0$**
-  $6x = 9$ x = \franc{9}{6} = \franc{3}{2}
+**Answer: C) $\frac{3}{2}$. The determinant of the matrix is given by $\begin{vmatrix} 1 & x & 2 \\ 3 & 4 & 5 \\ 6 & 7 & 8 \end{vmatrix} = 1(4 \times 8–5 \times 7) - x(3 \times 8–5 \times 6) + 2(3 \times 7–4 \times 6) = 1(32–35) - x(24–30) + 2(21–24) = 1(-3) - x(-6) + 2(-3) = -3 + 6x - 6 = 0$**
+  $6x = 9$ x = $\frac{9}{6} = \frac{3}{2}$
 
 **4. Evaluate the determinant of the matrix $\begin{bmatrix} 1 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 3 \end{bmatrix}$**
 A) 1
@@ -107,7 +107,7 @@ B) 2
 C) 4
 D) 6
 
-**Answer: A) 0. The determinant of the matrix is given by $\franc{2}{1} \times \franc{2}{1} - \franc{1}{1} \times \franc{4}{1} = 4–4 = 0$**
+**Answer: A) 0. The determinant of the matrix is given by $\frac{2}{1} \times \frac{2}{1} - \frac{1}{1} \times \frac{4}{1} = 4–4 = 0$**
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/determinants-class-12-notes) now and track your progress against thousands of students.

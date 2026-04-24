@@ -1,0 +1,1007 @@
+{
+  "date": "2026-04-23T11:29:51.341Z",
+  "mode": "live",
+  "summary": {
+    "scanned": 207,
+    "repaired": 133,
+    "totalFixes": 330,
+    "datesChanged": 0
+  },
+  "repairs": [
+    {
+      "slug": "3d-geometry-intro-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 4 corruption artifacts from previous repair",
+        "Closed 16 unclosed brace groups in inline math",
+        "Wrapped 3 naked LaTeX commands safely",
+        "Wrapped 3 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "acids-bases-and-salts-class-10-notes",
+      "fixes": [
+        "Cleaned 14 corruption artifacts from previous repair",
+        "Wrapped 6 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "alcohols-phenols-and-ethers-class-12-notes",
+      "fixes": [
+        "Cleaned 46 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "aldehydes-ketones-and-carboxylic-acids-class-12-notes",
+      "fixes": [
+        "Cleaned 3 corruption artifacts from previous repair",
+        "Closed 6 unclosed brace groups in inline math",
+        "Wrapped 1 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "algorithms-analysis-class-11-revision-notes-gate-boards",
+      "fixes": [
+        "Cleaned 30 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "algorithms-design-class-11-revision-notes-gate-boards",
+      "fixes": [
+        "Cleaned 38 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "alternating-current-class-12-notes",
+      "fixes": [
+        "Cleaned 14 corruption artifacts from previous repair",
+        "Wrapped 9 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "amines-class-12-notes",
+      "fixes": [
+        "Closed 1 unclosed brace groups in inline math",
+        "Wrapped 1 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "anatomy-of-flowering-plants-class-11-revision-notes-neet",
+      "fixes": [
+        "Cleaned 12 corruption artifacts from previous repair",
+        "Closed 4 unclosed brace groups in inline math",
+        "Wrapped 4 naked LaTeX commands safely",
+        "Wrapped 6 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "application-of-derivatives-class-12-notes",
+      "fixes": [
+        "Cleaned 15 corruption artifacts from previous repair",
+        "Closed 1 unclosed brace groups in inline math",
+        "Wrapped 1 naked LaTeX commands safely"
+      ]
+    },
+    {
+      "slug": "application-of-integrals-class-12-notes",
+      "fixes": [
+        "Cleaned 5 corruption artifacts from previous repair",
+        "Closed 1 unclosed brace groups in inline math",
+        "Wrapped 6 naked LaTeX commands safely",
+        "Wrapped 1 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "applications-of-trigonometry-class-10-notes",
+      "fixes": [
+        "Cleaned 9 corruption artifacts from previous repair",
+        "Wrapped 11 naked LaTeX commands safely",
+        "Wrapped 11 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "areas-related-to-circles-class-10-notes",
+      "fixes": [
+        "Cleaned 28 corruption artifacts from previous repair",
+        "Wrapped 2 naked LaTeX commands safely",
+        "Wrapped 4 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "arithmetic-progressions-class-10-notes",
+      "fixes": [
+        "Wrapped 4 naked LaTeX commands safely",
+        "Wrapped 7 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "art-culture-architecture-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 2 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "atoms-class-12-notes",
+      "fixes": [
+        "Cleaned 9 corruption artifacts from previous repair",
+        "Wrapped 3 naked LaTeX commands safely",
+        "Wrapped 26 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "biodiversity-and-conservation-class-12-notes",
+      "fixes": [
+        "Cleaned 14 corruption artifacts from previous repair",
+        "Wrapped 3 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "biological-classification-class-11-revision-notes-neet",
+      "fixes": [
+        "Cleaned 1 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "biotechnology-and-its-applications-class-12-notes",
+      "fixes": [
+        "Cleaned 7 corruption artifacts from previous repair",
+        "Closed 1 unclosed brace groups in inline math",
+        "Wrapped 2 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "biotechnology-principles-and-processes-class-12-notes",
+      "fixes": [
+        "Cleaned 10 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "body-fluids-and-circulation-class-11-revision-notes-neet",
+      "fixes": [
+        "Wrapped 1 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "breathing-and-exchange-of-gases-class-11-revision-notes-neet",
+      "fixes": [
+        "Cleaned 4 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "cell-cycle-and-cell-division-class-11-revision-notes-neet",
+      "fixes": [
+        "Cleaned 3 corruption artifacts from previous repair",
+        "Closed 2 unclosed brace groups in inline math",
+        "Wrapped 1 naked LaTeX commands safely"
+      ]
+    },
+    {
+      "slug": "cell-the-unit-of-life-class-11-revision-notes-neet",
+      "fixes": [
+        "Cleaned 1 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "chemical-bonding-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 8 corruption artifacts from previous repair",
+        "Wrapped 1 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "chemical-kinetics-class-12-notes",
+      "fixes": [
+        "Cleaned 39 corruption artifacts from previous repair",
+        "Closed 2 unclosed brace groups in inline math",
+        "Wrapped 7 naked LaTeX commands safely",
+        "Wrapped 9 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "chemical-reactions-and-equations-class-10-notes",
+      "fixes": [
+        "Cleaned 28 corruption artifacts from previous repair",
+        "Closed 4 unclosed brace groups in inline math",
+        "Wrapped 2 naked LaTeX commands safely",
+        "Wrapped 4 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "chemistry-in-everyday-life-class-12-notes",
+      "fixes": [
+        "Cleaned 24 corruption artifacts from previous repair",
+        "Closed 10 unclosed brace groups in inline math",
+        "Wrapped 5 naked LaTeX commands safely",
+        "Wrapped 12 post-colon raw LaTeX formulas",
+        "Fixed 1 \\sum used as English word \"sum\""
+      ]
+    },
+    {
+      "slug": "circles-class-10-notes",
+      "fixes": [
+        "Cleaned 10 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "classification-elements-periodicity-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 3 corruption artifacts from previous repair",
+        "Wrapped 1 naked LaTeX commands safely"
+      ]
+    },
+    {
+      "slug": "classification-of-elements-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 4 corruption artifacts from previous repair",
+        "Wrapped 1 naked LaTeX commands safely",
+        "Wrapped 2 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "climatology-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 12 corruption artifacts from previous repair",
+        "Wrapped 5 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "communication-systems-class-12-notes",
+      "fixes": [
+        "Cleaned 8 corruption artifacts from previous repair",
+        "Wrapped 4 naked LaTeX commands safely",
+        "Wrapped 6 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "compiler-design-class-12-notes",
+      "fixes": [
+        "Cleaned 18 corruption artifacts from previous repair",
+        "Wrapped 2 naked LaTeX commands safely",
+        "Wrapped 4 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "complex-numbers-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 6 corruption artifacts from previous repair",
+        "Wrapped 1 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "continuity-and-differentiability-class-12-notes",
+      "fixes": [
+        "Cleaned 17 corruption artifacts from previous repair",
+        "Closed 2 unclosed brace groups in inline math",
+        "Wrapped 3 naked LaTeX commands safely",
+        "Wrapped 3 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "coordinate-geometry-class-10-notes",
+      "fixes": [
+        "Wrapped 1 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "coordination-compounds-class-12-notes",
+      "fixes": [
+        "Cleaned 53 corruption artifacts from previous repair",
+        "Wrapped 2 naked LaTeX commands safely",
+        "Wrapped 2 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "cubes-and-cube-roots-class-8-notes",
+      "fixes": [
+        "Cleaned 12 corruption artifacts from previous repair",
+        "Wrapped 3 naked LaTeX commands safely"
+      ]
+    },
+    {
+      "slug": "data-handling-class-8-notes",
+      "fixes": [
+        "Closed 1 unclosed brace groups in inline math"
+      ]
+    },
+    {
+      "slug": "data-structures-linear-class-11-revision-notes-gate-boards",
+      "fixes": [
+        "Cleaned 2 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "data-structures-non-linear-class-11-revision-notes-gate-boards",
+      "fixes": [
+        "Cleaned 35 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "databases-dbms-class-12-notes",
+      "fixes": [
+        "Closed 14 unclosed brace groups in inline math"
+      ]
+    },
+    {
+      "slug": "determinants-class-12-notes",
+      "fixes": [
+        "Wrapped 1 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "differential-equations-class-12-notes",
+      "fixes": [
+        "Cleaned 21 corruption artifacts from previous repair",
+        "Closed 2 unclosed brace groups in inline math",
+        "Wrapped 1 naked LaTeX commands safely",
+        "Wrapped 6 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "digital-logic-class-11-revision-notes-gate-boards",
+      "fixes": [
+        "Cleaned 36 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "dual-nature-of-radiation-class-12-notes",
+      "fixes": [
+        "Cleaned 9 corruption artifacts from previous repair",
+        "Wrapped 2 naked LaTeX commands safely",
+        "Wrapped 11 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "electromagnetic-induction-class-12-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 20 corruption artifacts from previous repair",
+        "Closed 7 unclosed brace groups in inline math",
+        "Wrapped 6 naked LaTeX commands safely",
+        "Added backslash to 1 bare Greek/math symbols",
+        "Wrapped 6 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "electromagnetic-waves-class-12-notes",
+      "fixes": [
+        "Cleaned 32 corruption artifacts from previous repair",
+        "Closed 2 unclosed brace groups in inline math",
+        "Wrapped 2 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "electrostatics-class-12-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 23 corruption artifacts from previous repair",
+        "Closed 12 unclosed brace groups in inline math",
+        "Wrapped 4 naked LaTeX commands safely",
+        "Wrapped 24 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "environmental-chemistry-class-11-revision-notes-neet",
+      "fixes": [
+        "Cleaned 1 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "environmental-issues-class-12-notes",
+      "fixes": [
+        "Cleaned 3 corruption artifacts from previous repair",
+        "Wrapped 3 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "equilibrium-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 15 corruption artifacts from previous repair",
+        "Wrapped 6 naked LaTeX commands safely",
+        "Wrapped 5 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "exponents-and-powers-class-8-notes",
+      "fixes": [
+        "Cleaned 5 corruption artifacts from previous repair",
+        "Closed 2 unclosed brace groups in inline math",
+        "Wrapped 2 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "haloalkanes-and-haloarenes-class-12-notes",
+      "fixes": [
+        "Cleaned 2 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "heron-s-formula-class-9-notes",
+      "fixes": [
+        "Cleaned 8 corruption artifacts from previous repair",
+        "Wrapped 4 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "human-health-and-disease-class-12-notes",
+      "fixes": [
+        "Wrapped 4 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "human-reproduction-class-12-notes",
+      "fixes": [
+        "Wrapped 23 naked LaTeX commands safely"
+      ]
+    },
+    {
+      "slug": "hydrocarbons-class-11-revision-notes-neet",
+      "fixes": [
+        "Cleaned 1 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "hydrogen-class-11-revision-notes-neet",
+      "fixes": [
+        "Wrapped 1 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "integrals-class-12-notes",
+      "fixes": [
+        "Cleaned 6 corruption artifacts from previous repair",
+        "Closed 8 unclosed brace groups in inline math",
+        "Wrapped 11 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "introduction-to-trigonometry-class-10-notes",
+      "fixes": [
+        "Cleaned 53 corruption artifacts from previous repair",
+        "Wrapped 30 naked LaTeX commands safely",
+        "Wrapped 2 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "inverse-trigonometric-functions-class-12-notes",
+      "fixes": [
+        "Cleaned 33 corruption artifacts from previous repair",
+        "Wrapped 10 naked LaTeX commands safely",
+        "Wrapped 15 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 2 corruption artifacts from previous repair",
+        "Closed 2 unclosed brace groups in inline math",
+        "Wrapped 3 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 4 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "limits-and-derivatives-class-11-revision-notes-jee",
+      "fixes": [
+        "Cleaned 37 corruption artifacts from previous repair",
+        "Closed 4 unclosed brace groups in inline math",
+        "Wrapped 11 naked LaTeX commands safely",
+        "Wrapped 6 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "limits-derivatives-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 10 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "linear-equations-in-one-variable-class-8-notes",
+      "fixes": [
+        "Closed 2 unclosed brace groups in inline math",
+        "Wrapped 5 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "linear-equations-in-two-variables-class-9-notes",
+      "fixes": [
+        "Cleaned 4 corruption artifacts from previous repair",
+        "Closed 2 unclosed brace groups in inline math",
+        "Wrapped 9 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "linear-programming-class-12-notes",
+      "fixes": [
+        "Cleaned 26 corruption artifacts from previous repair",
+        "Closed 6 unclosed brace groups in inline math",
+        "Wrapped 4 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "lines-and-angles-class-9-notes",
+      "fixes": [
+        "Cleaned 94 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "local-government-class-11-revision-notes-cbse",
+      "fixes": [
+        "Cleaned 9 corruption artifacts from previous repair",
+        "Closed 1 unclosed brace groups in inline math",
+        "Wrapped 1 naked LaTeX commands safely",
+        "Wrapped 5 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "locomotion-and-movement-class-11-revision-notes-neet",
+      "fixes": [
+        "Wrapped 1 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "magnetic-effects-of-current-class-12-notes",
+      "fixes": [
+        "Cleaned 31 corruption artifacts from previous repair",
+        "Closed 5 unclosed brace groups in inline math",
+        "Wrapped 1 naked LaTeX commands safely",
+        "Added backslash to 4 bare Greek/math symbols",
+        "Wrapped 5 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "magnetism-and-matter-class-12-notes",
+      "fixes": [
+        "Cleaned 21 corruption artifacts from previous repair",
+        "Closed 4 unclosed brace groups in inline math",
+        "Wrapped 3 naked LaTeX commands safely",
+        "Wrapped 5 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "mathematical-induction-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 3 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "mathematical-reasoning-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 10 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "matrices-class-12-notes",
+      "fixes": [
+        "Cleaned 3 corruption artifacts from previous repair",
+        "Wrapped 3 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "mensuration-class-8-notes",
+      "fixes": [
+        "Cleaned 19 corruption artifacts from previous repair",
+        "Wrapped 3 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "metallurgy-class-12-notes",
+      "fixes": [
+        "Cleaned 45 corruption artifacts from previous repair",
+        "Closed 1 unclosed brace groups in inline math",
+        "Wrapped 1 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "metals-and-non-metals-class-10-notes",
+      "fixes": [
+        "Cleaned 39 corruption artifacts from previous repair",
+        "Closed 6 unclosed brace groups in inline math",
+        "Wrapped 1 naked LaTeX commands safely",
+        "Wrapped 2 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "microbes-in-human-welfare-class-12-notes",
+      "fixes": [
+        "Cleaned 3 corruption artifacts from previous repair",
+        "Closed 1 unclosed brace groups in inline math"
+      ]
+    },
+    {
+      "slug": "molecular-basis-of-inheritance-class-12-notes",
+      "fixes": [
+        "Cleaned 18 corruption artifacts from previous repair",
+        "Closed 5 unclosed brace groups in inline math",
+        "Wrapped 8 naked LaTeX commands safely",
+        "Added backslash to 1 bare Greek/math symbols",
+        "Wrapped 3 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "neural-control-and-coordination-class-11-revision-notes-neet",
+      "fixes": [
+        "Cleaned 1 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "nuclei-class-12-notes",
+      "fixes": [
+        "Cleaned 10 corruption artifacts from previous repair",
+        "Closed 2 unclosed brace groups in inline math",
+        "Wrapped 6 naked LaTeX commands safely",
+        "Wrapped 4 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "number-systems-class-9-notes",
+      "fixes": [
+        "Cleaned 4 corruption artifacts from previous repair",
+        "Wrapped 4 naked LaTeX commands safely",
+        "Wrapped 12 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "oceanography-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 2 corruption artifacts from previous repair",
+        "Wrapped 1 naked LaTeX commands safely"
+      ]
+    },
+    {
+      "slug": "operating-systems-class-12-notes",
+      "fixes": [
+        "Closed 1 unclosed brace groups in inline math",
+        "Wrapped 3 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "organisms-and-populations-class-12-notes",
+      "fixes": [
+        "Cleaned 5 corruption artifacts from previous repair",
+        "Closed 3 unclosed brace groups in inline math",
+        "Wrapped 4 naked LaTeX commands safely",
+        "Wrapped 8 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "pair-of-linear-equations-class-10-notes",
+      "fixes": [
+        "Cleaned 7 corruption artifacts from previous repair",
+        "Closed 1 unclosed brace groups in inline math",
+        "Wrapped 3 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "permutations-and-combinations-class-11-revision-notes-jee",
+      "fixes": [
+        "Cleaned 2 corruption artifacts from previous repair",
+        "Closed 7 unclosed brace groups in inline math",
+        "Wrapped 2 naked LaTeX commands safely",
+        "Wrapped 29 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "photosynthesis-in-higher-plants-class-11-revision-notes-neet",
+      "fixes": [
+        "Cleaned 14 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "physics-heat-light-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 84 corruption artifacts from previous repair",
+        "Closed 5 unclosed brace groups in inline math",
+        "Wrapped 1 naked LaTeX commands safely",
+        "Wrapped 11 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "physics-mechanics-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 25 corruption artifacts from previous repair",
+        "Closed 13 unclosed brace groups in inline math",
+        "Wrapped 7 naked LaTeX commands safely",
+        "Wrapped 20 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "plant-growth-and-development-class-11-revision-notes-neet",
+      "fixes": [
+        "Closed 2 unclosed brace groups in inline math"
+      ]
+    },
+    {
+      "slug": "polymers-class-12-notes",
+      "fixes": [
+        "Cleaned 4 corruption artifacts from previous repair",
+        "Closed 2 unclosed brace groups in inline math",
+        "Wrapped 5 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "polynomials-class-10-notes",
+      "fixes": [
+        "Cleaned 4 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "poverty-unemployment-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 4 corruption artifacts from previous repair",
+        "Closed 17 unclosed brace groups in inline math",
+        "Wrapped 2 naked LaTeX commands safely",
+        "Wrapped 9 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "principle-of-mathematical-induction-class-11-revision-notes-jee",
+      "fixes": [
+        "Cleaned 17 corruption artifacts from previous repair",
+        "Closed 1 unclosed brace groups in inline math",
+        "Wrapped 13 naked LaTeX commands safely",
+        "Wrapped 12 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "probability-class-11-revision-notes-jee",
+      "fixes": [
+        "Cleaned 18 corruption artifacts from previous repair",
+        "Wrapped 1 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "probability-intro-class-11-revision-notes-jee",
+      "fixes": [
+        "Cleaned 9 corruption artifacts from previous repair",
+        "Fixed 1 split dollar fractions",
+        "Closed 2 unclosed brace groups in inline math",
+        "Wrapped 3 naked LaTeX commands safely",
+        "Wrapped 1 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "quadratic-equations-class-10-notes",
+      "fixes": [
+        "Cleaned 22 corruption artifacts from previous repair",
+        "Closed 2 unclosed brace groups in inline math",
+        "Wrapped 2 naked LaTeX commands safely",
+        "Wrapped 7 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "quadrilaterals-class-9-notes",
+      "fixes": [
+        "Wrapped 2 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "rational-numbers-class-8-notes",
+      "fixes": [
+        "Cleaned 2 corruption artifacts from previous repair",
+        "Closed 5 unclosed brace groups in inline math",
+        "Wrapped 12 naked LaTeX commands safely"
+      ]
+    },
+    {
+      "slug": "ray-optics-class-12-quick-class-12-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 4 corruption artifacts from previous repair",
+        "Closed 2 unclosed brace groups in inline math",
+        "Wrapped 4 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "real-numbers-class-10-notes",
+      "fixes": [
+        "Cleaned 6 corruption artifacts from previous repair",
+        "Closed 3 unclosed brace groups in inline math",
+        "Wrapped 4 naked LaTeX commands safely",
+        "Wrapped 2 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "redox-reactions-class-11-revision-notes-neet",
+      "fixes": [
+        "Cleaned 2 corruption artifacts from previous repair",
+        "Closed 19 unclosed brace groups in inline math",
+        "Wrapped 13 naked LaTeX commands safely"
+      ]
+    },
+    {
+      "slug": "relations-and-functions-class-11-notes",
+      "fixes": [
+        "Cleaned 3 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "reproduction-in-organisms-class-12-notes",
+      "fixes": [
+        "Cleaned 19 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "reproductive-health-class-12-notes",
+      "fixes": [
+        "Cleaned 2 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "respiration-in-plants-class-11-revision-notes-neet",
+      "fixes": [
+        "Cleaned 6 corruption artifacts from previous repair",
+        "Wrapped 1 naked LaTeX commands safely",
+        "Wrapped 1 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "semiconductor-electronics-class-12-notes",
+      "fixes": [
+        "Cleaned 16 corruption artifacts from previous repair",
+        "Closed 7 unclosed brace groups in inline math",
+        "Wrapped 3 naked LaTeX commands safely",
+        "Wrapped 12 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "sexual-reproduction-in-flowering-plants-class-12-notes",
+      "fixes": [
+        "Wrapped 1 naked LaTeX commands safely",
+        "Wrapped 1 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "solid-state-class-12-notes",
+      "fixes": [
+        "Cleaned 6 corruption artifacts from previous repair",
+        "Closed 12 unclosed brace groups in inline math",
+        "Wrapped 1 naked LaTeX commands safely",
+        "Wrapped 23 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "solutions-class-12-notes",
+      "fixes": [
+        "Cleaned 4 corruption artifacts from previous repair",
+        "Closed 7 unclosed brace groups in inline math",
+        "Wrapped 4 naked LaTeX commands safely",
+        "Wrapped 7 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Closed 8 unclosed brace groups in inline math",
+        "Wrapped 3 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "squares-and-square-roots-class-8-notes",
+      "fixes": [
+        "Closed 2 unclosed brace groups in inline math",
+        "Wrapped 6 naked LaTeX commands safely"
+      ]
+    },
+    {
+      "slug": "states-of-matter-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 8 corruption artifacts from previous repair",
+        "Wrapped 1 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "statistics-class-11-revision-notes-jee",
+      "fixes": [
+        "Cleaned 2 corruption artifacts from previous repair",
+        "Closed 4 unclosed brace groups in inline math",
+        "Wrapped 1 naked LaTeX commands safely",
+        "Fixed 1 \\sum used as English word \"sum\""
+      ]
+    },
+    {
+      "slug": "straight-lines-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 4 corruption artifacts from previous repair"
+      ]
+    },
+    {
+      "slug": "strategies-for-enhancement-in-food-production-class-12-notes",
+      "fixes": [
+        "Wrapped 8 naked LaTeX commands safely"
+      ]
+    },
+    {
+      "slug": "structure-of-atom-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 17 corruption artifacts from previous repair",
+        "Closed 1 unclosed brace groups in inline math",
+        "Wrapped 6 naked LaTeX commands safely",
+        "Wrapped 4 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "structure-of-the-atom-class-11-revision-notes-neet",
+      "fixes": [
+        "Cleaned 1 corruption artifacts from previous repair",
+        "Wrapped 1 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "surface-chemistry-class-12-notes",
+      "fixes": [
+        "Cleaned 23 corruption artifacts from previous repair",
+        "Closed 1 unclosed brace groups in inline math",
+        "Wrapped 7 naked LaTeX commands safely"
+      ]
+    },
+    {
+      "slug": "the-s-block-elements-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Wrapped 1 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "theory-of-computation-class-12-notes",
+      "fixes": [
+        "Cleaned 36 corruption artifacts from previous repair",
+        "Closed 1 unclosed brace groups in inline math"
+      ]
+    },
+    {
+      "slug": "thermodynamics-chemistry-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 87 corruption artifacts from previous repair",
+        "Closed 3 unclosed brace groups in inline math",
+        "Wrapped 1 naked LaTeX commands safely",
+        "Wrapped 1 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "triangles-class-10-notes",
+      "fixes": [
+        "Cleaned 1 corruption artifacts from previous repair",
+        "Wrapped 1 naked LaTeX commands safely"
+      ]
+    },
+    {
+      "slug": "trigonometric-functions-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Cleaned 76 corruption artifacts from previous repair",
+        "Closed 10 unclosed brace groups in inline math",
+        "Wrapped 18 naked LaTeX commands safely",
+        "Wrapped 5 post-colon raw LaTeX formulas",
+        "Removed 1 empty LaTeX blocks"
+      ]
+    },
+    {
+      "slug": "upsc-optional-selection-guide",
+      "fixes": [
+        "Closed 10 unclosed brace groups in inline math",
+        "Wrapped 2 naked LaTeX commands safely"
+      ]
+    },
+    {
+      "slug": "vector-algebra-class-12-notes",
+      "fixes": [
+        "Cleaned 198 corruption artifacts from previous repair",
+        "Closed 11 unclosed brace groups in inline math",
+        "Wrapped 2 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "wave-optics-class-12-notes",
+      "fixes": [
+        "Cleaned 15 corruption artifacts from previous repair",
+        "Closed 25 unclosed brace groups in inline math",
+        "Wrapped 3 naked LaTeX commands safely",
+        "Wrapped 9 post-colon raw LaTeX formulas"
+      ]
+    },
+    {
+      "slug": "waves-class-11-revision-notes-neet",
+      "fixes": [
+        "Cleaned 3 corruption artifacts from previous repair"
+      ]
+    }
+  ]
+}

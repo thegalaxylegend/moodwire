@@ -10,19 +10,19 @@ manualReview: false
 
 ## ⚡ Formula Bank
 - Automata: $L = \{0, 1\}^*$ is the set of all binary strings
-- $M = (Q, \sigma, \delta, q_0, F)$ is the 5-tuple for a finite automaton
-- $\delta(q, a) = p$ means the next state is $p$ when the current state is $q$ and the input symbol is $a$
+- $M = (Q, \sigma, \delta$, q_0, F)$ is the 5-tuple for a finite automaton$
+- $\delta(q$, a) = p$ means the next state is $p$ when the current state is $q$ and the input symbol is $a$
 - $L(M)$ denotes the language accepted by the machine $M$
 - $L = \{w \in \sigma^* | M \text{ accepts } w\}$
 - Regular Languages: $\sigma^*$, $\phi$, $\{a\}$, $\{0, 1\}^*$
 - Context-Free Languages: $\{a^n b^n | n \geq 0\}$, $\{a^n b^{2n} | n \geq 0\}$
 - $\lambda$-transition: $\delta(q, \lambda) = p$ means the next state is $p$ when the current state is $q$ and no input symbol is read
-- $NFA = (Q, \sigma, \delta, q_0, F)$ is the 5-tuple for a nondeterministic finite automaton
-- $\delta(q, a) = \{p_1, p_2, \ldots, p_k\}$ means the next states are $p_1, p_2, \ldots, p_k$ when the current state is $q$ and the input symbol is $a$
-- $PDA = (Q, \sigma, \gamma, \delta, q_0, F)$ is the 6-tuple for a pushdown automaton
-- $\delta(q, a, b) = \{(p_1, c_1), (p_2, c_2), \ldots, (p_k, c_k)\}$ means the next states and stack symbols are $p_1, p_2, \ldots, p_k$ and $c_1, c_2, \ldots, c_k$ when the current state is $q$, the input symbol is $a$, and the top stack symbol is $b$
-- Turing Machine: $TM = (Q, \sigma, \gamma, \delta, q_0, F)$ is the 6-tuple for a Turing machine
-- $\delta(q, a) = (p, b, d)$ means the next state is $p$, the symbol written is $b$, and the direction of the head is $d$ when the current state is $q$ and the symbol read is $a$
+- $NFA = (Q, \sigma, \delta$, q_0, F)$ is the 5-tuple for a nondeterministic finite automaton$
+- $\delta(q$, a) = \{p_1, p_2, \ldots$, p_k\}$ means the next states are $p_1, p_2, \ldots$, p_k$ when the current state is $q$ and the input symbol is $a$
+- $PDA = (Q, \sigma, \gamma, \delta$, q_0, F)$ is the 6-tuple for a pushdown automaton$
+- $\delta(q$, a, b) = \{(p_1, c_1), (p_2, c_2), \ldots, (p_k$, c_k)\}$ means the next states and stack symbols are $p_1, p_2, \ldots$, p_k$ and $c_1, c_2, \ldots$, c_k$ when the current state is $q$, the input symbol is $a$, and the top stack symbol is $b$
+- Turing Machine: $TM = (Q, \sigma, \gamma, \delta$, q_0, F)$ is the 6-tuple for a Turing machine$
+- $\delta(q$, a) = (p, b, d)$ means the next state is $p$, the symbol written is $b$, and the direction of the head is $d$ when the current state is $q$ and the symbol read is $a$
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not understanding the difference between deterministic and nondeterministic finite automata
@@ -40,11 +40,11 @@ manualReview: false
 - Step 1: Assume that $L$ is regular and $p$ is the pumping length
 - Step 2: Choose a string $w = a^p b^p \in L$
 - Step 3: Divide $w$ into $x$, $y$, and $z$ such that $|y| > 0$ and $|xy| \leq p$
-- Step 4: Show that $xy^i z 
-otin L$ for some $i \geq 0$
+- Step 4: Show that $xy^i z$ 
+otin L$ for some $i $\geq 0$
 - **Question 3:** Construct a pushdown automaton that accepts the language $L = \{a^n b^{2n} | n \geq 0\}$
 - Step 1: Define the states $Q = \{q_0, q_1\}$
-- Step 2: Define the transition function $\delta(q_0, a, \lambda) = (q_0, a)$, $\delta(q_0, b, a) = (q_1, \lambda)$, $\delta(q_1, b, a) = (q_1, \lambda)$
+- Step 2: Define the transition function $\delta(q_0$, a, $\lambda) = (q_0$, a)$, $\delta(q_0$, b, a) = (q_1, $\lambda)$, $\delta(q_1$, b, a) = (q_1, \lambda)$
 - Step 3: Define the initial state $q_0$ and the final state $F = \{q_1\}$
 
 ## 🧠 The One Thing Most Students Get Wrong
@@ -107,15 +107,15 @@ D) To stay in the same state by reading an input symbol
 
 **4. Which of the following is a pushdown automaton?**
 -
-A) PDA = (Q, \sigma, \gamma, \delta, q_0, F)
+A) PDA = (Q, $\sigma$, $\gamma$, $\delta$, q_0, F)
 -
-B) $PDA = (Q, \sigma, \delta, q_0, F)$
+B) $PDA = (Q, \sigma, \delta$, q_0, F)$
 -
-C) PDA = (Q, \sigma, \gamma, q_0, F)
+C) PDA = (Q, $\sigma$, $\gamma$, q_0, F)
 -
-D) $PDA = (Q, \sigma, \delta, q_0)$
+D) $PDA = (Q, \sigma, \delta$, q_0)$
 
-**Answer: A) $PDA = (Q, \sigma, \gamma, \delta, q_0, F)$**
+**Answer: A) $PDA = (Q, \sigma, \gamma, \delta$, q_0, F)$**
 
 **5. What is the pumping lemma used for?**
 -

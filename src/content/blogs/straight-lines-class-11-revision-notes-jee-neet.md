@@ -69,7 +69,7 @@ Straight lines are the fundamental paths and Euclidean [geometry](/blog/three-di
 
 The slope (also called gradient) of a non-vertical [line](/blog/motion-n-a-straight-line-class-11-revision-notes-jee-neet) passing through (x₁, y₁) n (x₂, y₂) is given y:
 **m = (y₂ - y₁) / (x₂ - x₁)**
-*   **Angle of Inclination (θ):** If θ is the angle with the positive x-axis, then **m = \tan θ**.
+*   **Angle of Inclination (θ):** If θ is the angle with the positive x-axis, then **m = $\tan$ θ**.
 *   **Conditions:**
     - If two lines are **parallel**, their slopes are equal (**m₁ = m₂**).
     - If two lines are **perpendicular**, the product of their slopes is **-1** (**m₁m₂ = -1**).
@@ -85,7 +85,7 @@ Depending on the given information, we use different forms:
 4.  **Two-Point Form:** (y - y₁) / (y₂ - y₁) = (x - x₁) / (x₂ - x₁).
 5.  **Slope-Intercept Form:** y = mx + c (where c is the y-intercept).
 6.  **Intercept Form:** x/a + y/b = 1 (where a and b are x and y-intercepts).
-7.  **Normal Form:** x \cos ω + y \sin ω = p (p is the perpendicular distance from the origin).
+7.  $**Normal Form:** x \cos ω + y \sin ω = p (p is the perpendicular distance from the origin).$
 
 ---
 

@@ -70,7 +70,7 @@ The process of digestion can be summarized and the following table:
 
 The chemical reactions involved and digestion can be represented y the following equations:
 
-$\text{Carbohydrates} \xrightarrow$\text{Amylase$} \text{Maltose}$ \xrightarrow\text{Maltase$} \text{Glucose}\text{Proteins}$ \xrightarrow$\text{Pepsin$} $\text{Peptides} \xrightarrow$\text{Trypsin$} \text{Amino Acids}\text{Fats} \xrightarrow$\text{Lipase$} \text{Fatty Acids}$ + $\text{Glycerol}
+$\text{Carbohydrates} \xrightarrow$\text{Amylase}$ \text{Maltose}$ \xrightarrow\text{Maltase}$ \text{Glucose}\text{Proteins}$ \xrightarrow$\text{Pepsin}$ $\text{Peptides} \xrightarrow$\text{Trypsin}$ \text{Amino Acids}\text{Fats} \xrightarrow$\text{Lipase}$ \text{Fatty Acids}$ + $\text{Glycerol}$
 
 | **Organ** | **Digestive Enzymes** | **Function** |
 | --- | --- | --- |
@@ -89,7 +89,7 @@ The process of absorption primarily occurs and the small intestine and can be su
 
 The absorption of nutrients can be represented y the following equation:
 
-$\text{Nutrient}_\text{intestinal lumen} \xrightarrow$1 $\text{Nutrient}$_$\text{bloodstream$}
+$\text{Nutrient}_\text{intestinal lumen} \xrightarrow$1 $\text{Nutrient}$_$\text{bloodstream}$
 
 ## <a id="Ayush-note-key-points-for-keenest"></a>Ayush's Note: Key Points for JEE/MEET
 
@@ -104,11 +104,11 @@ For JEE/[meet](/blog/environmental-chemistry-class-11-revision-notes-neet) aspir
 
 To calculate the amount of a nutrient absorbed, you can use the following formula:
 
-$1 \text{Total Nutrient Intake}$ \times $\text{Absorption Efficiency}$
+$1 \text{Total Nutrient Intake}$ $\times$ $\text{Absorption Efficiency}$
 
 For example, if the total carbohydrate intake is 300g and the absorption efficiency is 90%, the amount of carbohydrate absorbed would be:
 
-\text{Carbohydrate Absorption}$ = 300g \times 0.9 = 270g
+$\text{Carbohydrate Absorption}$ = 300g \times 0.9 = 270g$
 
 ## <a id="trap-questions-common-misconceptions"></a>Trap Questions: Common Misconceptions
 
@@ -204,4 +204,3 @@ Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-n
    - **Minerals**: Macro (Na, K, Ca, Mg) n micro (Fe, Zn, Cu).
    - **Digestion and Absorption Disorders**: Diarrhea, constipation, malabsorption syndrome, n gastrointestinal infections.
 
-$

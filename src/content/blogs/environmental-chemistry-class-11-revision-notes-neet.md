@@ -99,8 +99,7 @@ Environmental chemistry is [the study of the chemical and biochemical phenomena 
 ## <a id="shortcut-formula-trick"></a>Shortcut Formula / Trick
 
 One shortcut formula to remember, and environmental chemistry is the [formula for calculating the pH of a solution](https://en.wikipedia.org/wiki/PH):
-\[ $1 \text{H}^+$] \]
-where $[\text{H}^+]$ is the concentration of hydrogen ions and the solution.
+\[ $1 \text{H}^+$] \]$ where $[\text{H}^+]$ is the concentration of hydrogen ions and the solution.
 
 ## <a id="trap-questions-exceptions"></a>Trap Questions / Exceptions
 

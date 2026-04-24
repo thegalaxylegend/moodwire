@@ -10,7 +10,7 @@ manualReview: false
 
 ## ⚡ Formula Bank
 - $F_{1}$ generation is the first filial generation, resulting from a cross between two parents
-- The probability of an event is given by $\frac{Number \: of \: favorable \: outcomes}{Total \: number \: of \: possible \: outcomes}$
+- The probability of an event is given by $\frac{Number \:$ of \: favorable \: outcomes}{Total \: number \:$ of \: possible \: outcomes}$
 - The Punnett square is a graphical representation of the possible genotypes of offspring from a cross, using $\alpha$ and $\beta$ to represent different alleles
 - The Hardy-Weinberg principle states that allele and genotype frequencies in a population will remain constant from generation to generation in the absence of other evolutionary influences, with the equation $p^2 + 2pq + q^2 = 1$, where $p$ and $q$ are the frequencies of the two alleles
 - The process of reproduction involves the fusion of $\gamma$-spermatogonium and $\delta$-oocyte, resulting in the formation of a zygote
@@ -35,7 +35,7 @@ manualReview: false
 ## 
 ### Common Mistakes
 - Not using the correct terminology when describing the reproductive system, resulting in $\leq$ clarity and $
-eq$ accuracy
+eq$ accuracy$
 - Failing to recognize the importance of $\vec{F}$-forces and $\bar{v}$-velocities in the movement of sperm cells
 - Not being able to apply the principles of $\hat{p}$-probability and $\overline{x}$-statistics to questions about reproduction
 
@@ -49,7 +49,7 @@ eq$ accuracy
 - **Answer:** The process of $\text{spermatogenesis}$ involves the $\partial$-differentiation of $\gamma$-spermatogonium into $\delta$-sperm cells
 - **Question 3:** What is the role of $\mu$-estrogen in the human reproductive system, including its effects on the $\text{endometrium}$ and $\text{cervix}$?
 - $\mu$-Estrogen helps to regulate the $\text{menstrual cycle}$ and maintain the $\text{endometrium}$, with $\leq$ levels of $\mu$-estrogen resulting in $
-eq$ fertility
+eq$ fertility$
 - **Answer:** The role of $\mu$-estrogen is to regulate the $\text{menstrual cycle}$ and maintain the $\text{endometrium}$
 
 ## 
@@ -63,7 +63,7 @@ eq$ fertility
 - $\text{Mitosis}$ involves the $\partial$-division of a single cell into two daughter cells, with the same number of $\lambda$-chromosomes
 - $\text{Meiosis}$ involves the $\partial$-division of a single cell into four daughter cells, with $\leq$ number of $\lambda$-chromosomes
 - Not understanding this concept can result in $\leq$ marks and $
-eq$ performance in exams
+eq$ performance in exams$
 
 ## 
 ### Key Concept

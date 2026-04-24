@@ -113,7 +113,7 @@ To maximize your eligibility across various courses and universities, we recomme
 Continue your [revision](/blog/class-10-30-day-timetable-class-10-revision-notes-jee) with these related guides:
 
 - 📖 [State Scholarship Guide 2026 Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)
-- 📖 [Class 10 Science PDQ Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)
+- 📖 [Class 10 Science PYQ Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)
 - 📖 [Environmental Chemistry Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
 - 📖 [Waves Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/waves-class-11-revision-notes-neet)
 
@@ -131,7 +131,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 Continue your [revision](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [State Scholarship Guide 2026 Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)
-- 📖 [Class 10 Science PDQ Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)
+- 📖 [Class 10 Science PYQ Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)
 - 📖 [Environmental Chemistry Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
 - 📖 [See Mains High Weightage Chapters Class 11 Biology Revision — CBSE Boards 2026 Grandmaster Guide](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)
 

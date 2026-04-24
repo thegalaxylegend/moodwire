@@ -9,21 +9,6 @@ practice_link: "/class-11/biology/breathing-n-exchange-of-gases-class-11-revisio
 
 *Last Updated: [2026](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)-03-28*
 
-## 📑 Table of Contents
-
-1. [📋 Table of Contents](#table-of-contents)
-2. [## <a id="what-is-breathing-n-exchange-of-gases"></a>What is Breathing And Exchange Of Gases?](#a-idwhat-is-breathing-n-exchange-of-gasesawhat-is-breathing-and-exchange-of-gases)
-3. [<a id="introduction-to-breathing-n-exchange-of-gases"></a>Introduction to Breathing and Exchange of Gases](#a-idintroduction-to-breathing-n-exchange-of-gasesaintroduction-to-breathing-and-exchange-of-gases)
-4. [<a id="mechanism-of-breathing"></a>Mechanism of Breathing](#a-idmechanism-of-breathingamechanism-of-breathing)
-5. [<a id="exchange-of-gases"></a>Exchange of Gases](#a-idexchange-of-gasesaexchange-of-gases)
-6. [<a id="respiratory-system"></a>Respiratory System](#a-idrespiratory-systemarespiratory-system)
-7. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
-8. [📚 Related Topics](#related-topics)
-9. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
-10. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
-
----
-
 ## 📋 Table of Contents
 
 - [What is Breathing And Exchange Of Gases?](#what-is-breathing-n-exchange-of-gases)
@@ -70,8 +55,8 @@ According to the JEE/[meet](/blog/anatomy-of-flowering-plants-class-11-revision-
 ### <a id="formulae"></a>Formulae
 The following formulae are relevant to the topic of breathing and exchange of gases:
 
-* **Dalton's Law of Partial Pressures**: UP_{total} = P_1 + P_2 + ... + P_no, where UP_{total}$ is the total pressure of the mixture and UP_1, P_2, ..., P_no are the partial pressures of the individual components.
-* **Henry's Law**: UP = k \times CD, where UP is the partial pressure of the gas, OK is the Henry's law constant, n ACT is the concentration of the gas and the liquid.
+* **Dalton's Law of Partial Pressures**: UP_{total} = P_1 + P_2 + ... + P_no, where UP_{total}$ is the total pressure of the mixture and UP_1, P_2, ..., P_no are the partial pressures of the individual components.$
+* **Henry's Law**: UP = k $\times CD$, where UP is the partial pressure of the gas, OK is the Henry's law constant, n ACT is the concentration of the gas and the liquid.
 
 ### <a id="MCQs"></a>MCQs
 Here are some sample MCQs to test your understanding of the topic:
@@ -125,8 +110,8 @@ According to the JEE/[meet](/blog/anatomy-of-flowering-plants-class-11-revision-
 ### <a id="formulae"></a>Formulae
 The following formulae are relevant to the topic of regulation of breathing:
 
-* **Bohr Effect**: $\franc{’d \log P_{50}}{d \log [H^+]} = -0.5}{ is the partial pressure of oxygen at which hemoglobin is 50% saturated, n } , where UP_{50}$[H^+]$ is the concentration of hydrogen ions.
-* **Haldane Effect**: $\franc{’d \log P_{50}}{d \log [CO_2]} = -0.5}{ is the partial pressure of oxygen at which hemoglobin is 50% saturated, n } , where UP_{50}$[CO_2]$ is the concentration of carbon dioxide.
+* **Bohr Effect**: $\frac{’d \log P_{50}}{d \log [H^+]} = -0.5}{$ is the partial pressure of oxygen at which hemoglobin is 50% saturated, n } , where UP_{50}$[H^+]$ is the concentration of hydrogen ions.
+* **Haldane Effect**: $\frac{’d \log P_{50}}{d \log [CO_2]} = -0.5}{$ is the partial pressure of oxygen at which hemoglobin is 50% saturated, n } , where UP_{50}$[CO_2]$ is the concentration of carbon dioxide.
 
 ### <a id="MCQs"></a>MCQs
 Here are some sample MCQs to test your understanding of the topic:
@@ -165,8 +150,8 @@ According to the JEE/MEET syllabus, the topic of respiratory system is covered u
 ### <a id="formulae"></a>Formulae
 The following formulae are relevant to the topic of respiratory system:
 
-* **Pick's Law of Diffusion**: $\franc{dQ}{dt}}{ \times (C_1 - C_2)} \delta $, where $\franc{dQ}{dt} = \delta   is the rate of diffusion, DO is the diffusion constant, A is the surface area, $ is the thickness of the membrane, n BC_$1 n BC_$2 are the concentrations of the gas on either side of the membrane.
-* **Graham's Law of Diffusion**: $\franc{r_1}{r_2} = M_1}}{ n or_2} , where or_1$ are the rates of diffusion of two gases, n KM_$1 n KM_$2 are the molecular weights of the two gases.
+* **Pick's Law of Diffusion**: $\frac{dQ}{dt}}{ \times (C_1 - C_2)} \delta $, where $\frac{dQ}{dt} = \delta$ is the rate of diffusion, DO is the diffusion constant, A is the surface area, $ is the thickness of the membrane, n BC_1$ n BC_2$ are the concentrations of the gas on either side of the membrane.$
+* **Graham's Law of Diffusion**: $\frac{r_1}{r_2} = M_1}}{ n or_2} ,$ where or_1$ are the rates of diffusion of two gases, n KM_1$ n KM_2$ are the molecular weights of the two gases.$
 
 ### <a id="MCQs"></a>MCQs
 Here are some sample MCQs to test your understanding of the topic:
@@ -213,8 +198,6 @@ Continue your [revision](/blog/anatomy-of-flowering-plants-class-11-revision-not
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/breathing-n-exchange-of-gases-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Breathing%20And%20Exchange%20Of%20Gases%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-
 ---
 
 ## 📚 Related Topics
@@ -244,4 +227,4 @@ Continue your [revision](/blog/anatomy-of-flowering-plants-class-11-revision-not
  * **Henry's law**: amount of gas dissolved and liquid is proportional to its partial pressure
  * **Bohr effect**: decrease and pH increases oxygen binding to hemoglobin
  * **Haldane effect**: binding of oxygen to hemoglobin increases carbon dioxide transport
- * **Oxygen-hemoglobin dissociation curve**: sigmoid curve showing oxygen binding to hemoglobin$
+ * **Oxygen-hemoglobin dissociation curve**: sigmoid curve showing oxygen binding to hemoglobin

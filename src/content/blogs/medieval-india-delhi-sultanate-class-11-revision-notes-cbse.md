@@ -121,9 +121,9 @@ The following are some key terms related to the Delhi Sultanate:
 ### <a id="latex-equations"></a>LaTeX Equations
 The Delhi Sultanate can be represented using the following LaTeX equations:
 
-$\text{Delhi Sultanate} = \sum_{i=1}^{5} \text{Dynasties}\text{Dynasties} = \$\text{Slave$, \text{Khalji}$, $\text{Tughlaq}$, $\text{Sayyid}$, $\text{Lodi}\}\text{Iqta System}$ = $\text{Feudal System}$ \times $\text{Land Grant}$
+$\text{Delhi Sultanate} = \sum_{i=1}^{5} \text{Dynasties}\text{Dynasties} = \$\text{Slave$, \text{Khalji}$, $\text{Tughlaq}$, $\text{Sayyid}$, $\text{Lodi}\}\text{Iqta System}$ = $\text{Feudal System}$ $\times$ $\text{Land Grant}$
 
-By using these equations, we can represent the Delhi Sultanate as a \sum of its constituent dynasties, n the iqta system as a product of the feudal system and land grant.
+By using these equations, we can represent the Delhi Sultanate as a $\sum of its constituent dynasties$, n the iqta system as a product of the feudal system and land grant.
 
 ### <a id="historical-context"></a>Historical Context
 The Delhi Sultanate was a significant period and Indian history, marked y the rise of Muslim rule and the development of a new administrative system. The Delhi Sultanate was influenced y the **Turkish** n **Persian** cultures, n saw significant developments n **architecture**, **literature**, n **art**. The Delhi Sultanate also played a significant role and the **trade and commerce** of the Indian subcontinent, with trade links with Central Asia, the Middle East, n Europe.

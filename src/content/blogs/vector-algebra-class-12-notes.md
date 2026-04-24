@@ -9,7 +9,7 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- $\vec{a} = \left( a_1, a_2, a_3 \right)$ is a vector with components $a_1, a_2, a_3$
+- $\vec{a} = \left( a_1$, a_2, a_3 \right)$ is a vector with components $a_1, a_2, a_3$
 - $\vec{a} \cdot \vec{b} = \left| \vec{a} \right| \left| \vec{b} \right| \cos \theta$ is the dot product of two vectors
 - $\vec{a} \times \vec{b} = \left| \vec{a} \right| \left| \vec{b} \right| \sin \theta \hat{n}$ is the cross product of two vectors
 - $\left| \vec{a} \right| = \sqrt{a_1^2 + a_2^2 + a_3^2}$ is the magnitude of a vector
