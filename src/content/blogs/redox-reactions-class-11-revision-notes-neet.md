@@ -9,6 +9,23 @@ practice_link: "/class-11/biology/redox-reactions-class-11-revision-notes-neet"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-redox-reactions"></a>What is Redox Reactions?](#a-idwhat-is-redox-reactionsawhat-is-redox-reactions)
+3. [<a id="introduction-to-redox-reactions"></a>Introduction to Redox Reactions](#a-idintroduction-to-redox-reactionsaintroduction-to-redox-reactions)
+4. [<a id="why-redox-reactions-matter"></a>Why Redox Reactions Matter](#a-idwhy-redox-reactions-matterawhy-redox-reactions-matter)
+5. [<a id="ayushs-note"></a>Ayush's Note](#a-idayushs-noteaayushs-note)
+6. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+7. [<a id="shortcut-formulatrick"></a>Shortcut Formula/Trick](#a-idshortcut-formulatrickashortcut-formulatrick)
+8. [<a id="trap-questionsexceptions"></a>Trap Questions/Exceptions](#a-idtrap-questionsexceptionsatrap-questionsexceptions)
+9. [<a id="practice-mcqs"></a>Practice MCQs](#a-idpractice-mcqsapractice-mcqs)
+10. [<a id="related-notes-links"></a>Related Notes Links](#a-idrelated-notes-linksarelated-notes-links)
+11. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+12. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Redox Reactions?](#what-is-redox-reactions)
@@ -63,19 +80,17 @@ For example, n the human body, redox reactions are involved and the production o
 ## <a id="ayushs-note"></a>Ayush's Note
 
 <div class="note-box">
-I still remember the time when I was preparing for my JEE exams. I was struggling to understand the concept of redox reactions. I used to get confused between the terms oxidation and reduction. But then I realized that oxidation is the loss of electrons, while reduction is the gain of electrons. This simple trick helped me to understand the concept of redox reactions and I was able to solve the questions with ease.
+I still remember the time when I was preparing for my JEE exams. I was struggling to understand the concept of redox reactions. I used to get confused between the terms oxidation and reduction. But then I realized that oxidation is the loss of electrons, while reduction is the gain of electrons. This simple trick helped me to understand the concept of redox reactions, and I was able to solve the questions with ease.
 </div>
 
 ## <a id="core-concepts"></a>Core Concepts
 
-### <a id="definition-of-redox-reactions"></a>Definition of Redox Reactions
-Redox reactions are chemical reactions that involve the transfer of electrons between species. Redox reaction is defined as a chemical reaction and which a change and the oxidation state of a species occurs.
+### <a id="definition-of-redox-reactions"></a>Definition of Redox Reactions are chemical reactions that involve the transfer of electrons between species. Redox reaction is defined as a chemical reaction and which a change and the oxidation state of a species occurs.
 
 ### <a id="halfequation-method"></a>Half-Equation Method
 The half-equation method is a method used to balance redox reactions. In this method, the reaction is divided into two half-equations: the oxidation half-equation and the reduction half-equation. The oxidation half-equation involves the loss of electrons, while the reduction half-equation involves the gain of electrons.
 
-### <a id="oxidation-numbers"></a>Oxidation Numbers
-Oxidation numbers are used to keep track of the electrons and a redox reaction. The oxidation number of an element is the charge that the element would have if the electrons and the bond were assigned to the more electronegative atom.
+### <a id="oxidation-numbers"></a>Oxidation Numbers are used to keep track of the electrons and a redox reaction. The oxidation number of an element is the charge that the element would have if the electrons and the bond were assigned to the more electronegative atom.
 
 The formula to calculate the oxidation number is:
 $\text{Oxidation Number} = \text{Number of electrons gained or lost}$
@@ -151,6 +166,8 @@ Continue your [revision](/blog/hydrogen-class-11-revision-notes-neet) with these
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/redox-reactions-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Redox%20Reactions%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -162,3 +179,15 @@ Continue your [revision](/blog/cell-cycle-n-cell-division-class-11-revision-note
 - 📖 [Hydrogen Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
 
+## 🔁 Last 5 Minutes Box
+
+### Redox Reactions Revision
+   * **Oxidation**: Loss of electrons
+   * **Reduction**: Gain of electrons
+   * **Oxidizing Agent**: Accepts electrons
+   * **Reducing Agent**: Donates electrons
+   * **Redox Reaction**: Combination of oxidation and reduction
+   * **Half Equation**: Separate equations for oxidation and reduction
+   * **Balancing Redox Equations**: Balance electrons, then atoms
+   * **Standard Electrode Potential (E°)**: Measure of reduction potential
+   * **Galvanic [Cell](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)**: Spontaneous redox reaction

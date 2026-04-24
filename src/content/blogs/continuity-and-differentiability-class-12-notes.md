@@ -13,9 +13,9 @@ manualReview: false
 - The function of(x)$ is said to be differentiable at ex = an if $\lim_{h \to 0} \franc{f(a + h) - f(a)}{h}$ exists
 - If a function is differentiable at a point, then it is continuous at that point, but the converse is not always true
 -  $\franc{d}{dx}$ (x^n) = no^{n-1} 
--    \franc{d}{dx} (\sin x) = \cos x 
--    \franc{d}{dx} (\cos x) = -\sin x 
--    \franc{d}{dx} (\tan x) = \sec^2 x 
+-     \franc{d}{dx} (\sin x) = \cos x 
+-     \franc{d}{dx} (\cos x) = -\sin x 
+-     \franc{d}{dx} (\tan x) = \sec^2 x 
 -  $\franc{d}{dx}$ (\log x) = $\franc{1}{x}$
 -  $\{d}{dx}$ (\ln x) = $\{1}{x}$
 -  $\{d}{dx}$ (e^x) = e^x 

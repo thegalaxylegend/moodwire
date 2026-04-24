@@ -158,7 +158,7 @@ Continue your [revision](/blog/ancient-india-indus-valley-class-11-revision-note
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/medieval-[india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)-mughals-class-11-revision-notes-cbse) now and track your progress against thousands of students.
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Medieval%20India%20Mughals%20Class%2011%20History%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Medieval](/blog/medieval-india-delhi-sultanate-class-11-revision-notes-cbse)%20India%20Mughals%20Class%2011%20History%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 
@@ -177,7 +177,7 @@ Continue your [revision](/blog/ancient-india-indus-valley-class-11-revision-note
 * Incorrectly attributing the **introduction of the mansabdari system** to Akbar, when in fact it was earlier implemented by Babur, and failing to understand its reforms and evolution under different Mughal emperors.
 * Overlooking the **role of women in Mughal court politics**, such as Nur Jahan and Mumtaz Mahal, and their influence on the emperors' decisions, resulting in an incomplete understanding of the dynamics of the Mughal court.
 * Misunderstanding the **characteristics of the Mughal administrative system**, including the jagirdari system, and its effects on the economy and social structure of the empire, leading to incorrect conclusions about the Mughal state's strengths and weaknesses.
-* Failing to distinguish between the **Sufi and Bhakti movements** during the Mughal period, and their interactions with the Mughal court, resulting in a lack of comprehension of the complex religious and cultural landscape of medieval India.
+* Failing to distinguish between the **Sufi and Bhakti movements** during the Mughal period, and their interactions with the Mughal court, resulting in a lack of comprehension of the complex religious and cultural landscape of medieval [India](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse).
 
 ## 🔁 Last 5 Minutes Box
 

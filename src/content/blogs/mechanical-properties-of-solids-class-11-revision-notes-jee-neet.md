@@ -191,7 +191,7 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/[mechanical](/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet)-properties-of-solids-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Mechanical%20Properties%20Of%20Solids%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Mechanical](/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet)%20Properties%20Of%20Solids%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 
@@ -210,7 +210,7 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 * **Forgetting the Difference between Ductile and Brittle Materials**: Students often mix up ductile and brittle materials. Ductile materials can be drawn into wires and can undergo significant deformation without breaking, whereas brittle materials break or shatter when subjected to stress.
 * **Incorrectly Applying Hooke's Law**: Some students incorrectly apply Hooke's Law, which states that the force needed to extend or compress a spring by some distance is proportional to that distance. This law only applies to the proportional limit of the material.
 * **Mistaking Strain for Strain Rate**: It's common for students to confuse strain (a measure of deformation) with strain rate (a measure of how quickly an object is deforming). Strain is calculated as the ratio of change in length to the original length.
-* **Overlooking the Importance of Elastic Modulus**: Students may overlook the significance of elastic modulus (Young's modulus) in determining the mechanical properties of solids. Elastic modulus is crucial in understanding the relationship between stress and strain within the proportional limit of a material.
+* **Overlooking the Importance of Elastic Modulus**: Students may overlook the significance of elastic modulus (Young's modulus) in determining the mechanical [properties](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet) of solids. Elastic modulus is crucial in understanding the relationship between stress and strain within the proportional limit of a material.
 
 ## 🔁 Last 5 Minutes Box
 

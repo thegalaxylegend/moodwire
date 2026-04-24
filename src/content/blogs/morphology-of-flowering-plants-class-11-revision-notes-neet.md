@@ -72,7 +72,7 @@ This chapter is crucial for students preparing for class 11 exams, as it covers 
 ## <a id="ayushs-note"></a>Ayush's Note
 
 <div class="note-box">
-I still remember the mistake I made and my class 11 exams. I confused the terms "raceme" n "spadix" while describing the inflorescence of a plant. It cost me 2 marks, but it taught me a valuable lesson. Always make sure to revise your notes thoroughly, n practice drawing diagrams of different plant structures. It will help you retain the information better and avoid silly mistakes.
+I still remember the mistake I made and my class 11 exams. I confused the terms "raceme" n "spadix" while describing the inflorescence of a [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet). It cost me 2 marks, but it taught me a valuable lesson. Always make sure to revise your notes thoroughly, n practice drawing diagrams of different [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet) structures. It will help you retain the information better and avoid silly mistakes.
 </div>
 
 ## <a id="core-concepts"></a>Core Concepts
@@ -181,7 +181,7 @@ Continue your [revision](/blog/biological-classification-class-11-revision-notes
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/morphology-of-flowering-plants-class-11-revision-notes-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/morphology-of-flowering-[plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Morphology%20Of%20Flowering%20Plants%20Class%2011%20Biology%20Revision%20%E2%80%94%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

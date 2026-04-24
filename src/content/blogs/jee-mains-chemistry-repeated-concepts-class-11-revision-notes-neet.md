@@ -64,7 +64,7 @@ If you master these specific subtopics, scoring 80+ n [chemistry](/blog/environm
 
 Inorganic [chemistry](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) questions are directly lifted—word for word—from NCERT. Do not waste time on advanced reference books.
 6. **Coordination Compounds (VBT and CFT):** Predicting magnetic moments (spin-only formula) n identifying hybridization (inner vs outer orbital complexes).
-7. **Chemical Bonding (Molecular Orbital Theory - MOT):** Bond order calculations and identifying paramagnetic/diamagnetic nature for homonuclear diatomic molecules (like O2, N2, n their ions).
+7. **[Chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Bonding (Molecular Orbital Theory - MOT):** Bond order calculations and identifying paramagnetic/diamagnetic nature for homonuclear diatomic molecules (like O2, N2, n their ions).
 8. **Periodic Table Trends (Ionization Energy Exceptions):** Focus heavily on the anomalies caused y half-filled and fully-filled orbitals (e.g., Nitrogen vs Oxygen).
 9. **F-Block Elements (Lanthanoid Contraction):** The consequences of Lanthanoid contraction on atomic radii (Zr/Hf similarity).
 10. **The p-Block (Inert Pair Effect):** The stability of lower oxidation states as you move down groups 13, 14, n 15.
@@ -115,7 +115,7 @@ Continue your [revision](/blog/body-fluids-n-circulation-class-11-revision-notes
 - 📖 [Locomotion And Movement Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/locomotion-n-movement-class-11-revision-notes-neet)
 
 ## 🪤 Common Mistakes That Cost Marks
-When revising for JEE Mains Chemistry, it's crucial to avoid common mistakes that can lead to a loss of marks. Here are five key areas to watch out for:
+When revising for JEE Mains [Chemistry](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet), it's crucial to avoid common mistakes that can lead to a loss of marks. Here are five key areas to watch out for:
 * Misinterpreting the $pH$ scale: Remember that $pH = -log_{10}[H^+]$, and make sure to apply this formula correctly.
 * Forgetting to consider the stoichiometry of reactions: Always balance equations and consider the mole ratios of reactants and products.
 * Confusing thermodynamic and kinetic stability: Recall that thermodynamic stability refers to the energy change of a reaction, while kinetic stability refers to the rate of reaction.

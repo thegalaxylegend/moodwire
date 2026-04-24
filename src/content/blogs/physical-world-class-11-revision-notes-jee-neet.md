@@ -9,6 +9,24 @@ practice_link: "/class-11/physics/physical-world-class-11-revision-notes-jee-nee
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-physical-world"></a>What is Physical World?](#a-idwhat-is-physical-worldawhat-is-physical-world)
+3. [<a id="introduction-to-physical-world"></a>Introduction to Physical World](#a-idintroduction-to-physical-worldaintroduction-to-physical-world)
+4. [<a id="why-this-chapter-matters"></a>Why This Chapter Matters](#a-idwhy-this-chapter-mattersawhy-this-chapter-matters)
+5. [<a id="ayushs-note"></a>Ayush's Note](#a-idayushs-noteaayushs-note)
+6. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+7. [<a id="shortcut-formula-trick"></a>Shortcut Formula / Trick](#a-idshortcut-formula-trickashortcut-formula-trick)
+8. [<a id="trap-questions-exceptions"></a>Trap Questions / Exceptions](#a-idtrap-questions-exceptionsatrap-questions-exceptions)
+9. [<a id="practice-mcqs"></a>Practice MCQs](#a-idpractice-mcqsapractice-mcqs)
+10. [<a id="related-notes-links"></a>Related Notes Links](#a-idrelated-notes-linksarelated-notes-links)
+11. [<a id="last-updated-date"></a>Last Updated Date](#a-idlast-updated-datealast-updated-date)
+12. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+13. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Physical World?](#what-is-physical-world)
@@ -138,6 +156,8 @@ Continue your revision with these related guides:
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/physical-world-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Physical%20World%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -148,3 +168,11 @@ Continue your revision with these related guides:
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
+
+## 🔁 Last 5 Minutes Box
+
+- **Laws of Motion**: F = ma, Newton's 3 laws, 
+   - **Work, Energy, Power**: W = F.s, KE = (1/2)mv^2, P = W/t, 
+   - **Rotational Motion**: τ = r x F, L = Iω, ω = θ/t, 
+   - **Gravitation**: F = G(m1m2)/r^2, g = GM/r^2, 
+   - **Waves and Oscillations**: v = λf, T = 2π/ω, ω = √(k/m)

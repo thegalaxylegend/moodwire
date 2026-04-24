@@ -51,7 +51,7 @@ manualReview: false
 - Not using the correct method to solve the differential equation. Many students try to use the same method for all differential [equations](/blog/pair-of-linear-equations-class-10-notes), without considering the type of equation and the best approach to solve it.
 
 ## 👁️ Ayush's Note
-- To solve differential equations, it is essential to identify the type of equation and use the correct method to solve it. This requires a good understanding of the different types of differential equations and the various methods used to solve them.
+- To solve differential [equations](/blog/pair-of-linear-equations-class-10-notes), it is essential to identify the type of equation and use the correct method to solve it. This requires a good understanding of the different types of differential [equations](/blog/pair-of-linear-equations-class-10-notes) and the various methods used to solve them.
 - Practice is key to mastering differential equations. Try to solve as many problems as possible, and make sure to check your work and understand where you went wrong.
 
 ## 🔁 Last 5 Minutes Box

@@ -9,7 +9,7 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- $TCP/IPA model has $4$ layers: $\text{Application}$, $\text{Transport}$, $\text{Internet}$, $\text{Network Access}$
+- $TCP/IPA model has $4$ layers: \text{Application}, \text{Transport}, \text{Internet}, \text{Network Access}
 - OSI model has $7$ layers: $\text{Physical}$, $\text{Data Link}$, $\text{Network}$, $\text{Transport}$, $\text{Session}$, $\text{Presentation}$, $\text{Application}$
 - $\text{IP Address}$ is a $32$-bit address in $IPv4$ and $128$-bit address in $IPv6$
 - $\text{Subnet Mask}$ is used to determine the scope of the $\text{IP Address}$

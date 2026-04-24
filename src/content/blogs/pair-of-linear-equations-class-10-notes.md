@@ -21,7 +21,7 @@ eq $\frac{c_1}{c_2}, then the equations have no solution.
 - The graph of a linear equation is a straight line, and the solution of a pair of linear [equations](/blog/quadratic-equations-class-10-notes) is the point of intersection of the two lines.
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not checking if the equations are consistent or inconsistent before solving them.
+- Not checking if the [equations](/blog/quadratic-equations-class-10-notes) are consistent or inconsistent before solving them.
 - Not using the correct method of solution, such as using substitution when elimination is more efficient.
 - Making calculation errors, such as adding or subtracting coefficients incorrectly.
 - Not checking the solution by plugging it back into both original equations.
@@ -139,6 +139,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Pair%20Of%20Linear%20Equations%20Class%2010%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

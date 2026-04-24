@@ -9,6 +9,21 @@ practice_link: "/class-11/physics/ray-optics-class-12-quick-class-12-revision-no
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [## <a id="what-is-ray-optics-class-12-quick-revision-notes"></a>What is Ray Optics Class 12 Quick Revision Notes?](#a-idwhat-is-ray-optics-class-12-quick-revision-notesawhat-is-ray-optics-class-12-quick-revision-notes)
+3. [<a id="quick-revision-n-recap-ray-optics"></a>Quick Revision & Recap: Ray Optics](#a-idquick-revision-n-recap-ray-opticsaquick-revision-recap-ray-optics)
+4. [<a id="ayushs-personal-note"></a>Ayush's Personal Note](#a-idayushs-personal-noteaayushs-personal-note)
+5. [<a id="jeeneet-data"></a>JEE/NEET Data](#a-idjeeneet-dataajeeneet-data)
+6. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+7. [<a id="formulae-tables"></a>Formulae Tables](#a-idformulae-tablesaformulae-tables)
+8. [<a id="trap-exceptions"></a>Trap Exceptions](#a-idtrap-exceptionsatrap-exceptions)
+9. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+10. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Ray Optics Class 12 Quick Revision Notes?](#what-is-ray-optics-class-12-quick-revision-notes)
@@ -37,7 +52,7 @@ practice_link: "/class-11/physics/ray-optics-class-12-quick-class-12-revision-no
 
 - **Reflection**: Change and direction of light at a surface that causes it to bounce back.
 - **Refraction**: Bending of light as it passes from one medium to another.
-- **Total Internal Reflection**: A phenomenon where light is completely reflected back into the first medium.
+- **Total Internal Reflection**: A phenomenon where light is completely reflected into the first medium.
 - **Snell's Law**: $n_1 \sin \theta_1 = n_2 \sin \theta_2$, where $n_1$ n $n_2$ are refractive indices of the two media n $\theta_1$ n $\theta_2$ are the angles of incidence and refraction.
 - **Mirror Formula**: $\frac{1}{v} = u = \frac{1}{f}}{v} , where $ is the image distance, $u$ is the object distance, n $f$ is the focal length.
 
@@ -49,9 +64,9 @@ I've found that understanding the basics of reflection, refraction, n total inte
 
 ## <a id="jeeneet-data"></a>JEE/NEET Data
 
-- **Reflection and Refraction**: 1-2 questions and JEE Main, 1 question and JEE Advanced, n 1-2 questions n [neet](/blog/art-culture-architecture-class-11-revision-notes-jee-neet).
-- **Mirrors and Lenses**: 2-3 questions and JEE Main, 1-2 questions and JEE Advanced, n 2-3 questions n [neet](/blog/art-culture-architecture-class-11-revision-notes-jee-neet).
-- **Optical Instruments**: 1-2 questions and JEE Main, 1 question and JEE Advanced, n 1-2 questions n [neet](/blog/indian-geography-physical-class-11-revision-notes-jee-neet).
+- **Reflection and Refraction**: 1–2 questions and JEE Main, 1 question and JEE Advanced, n 1–2 questions n [neet](/blog/art-culture-architecture-class-11-revision-notes-jee-neet).
+- **Mirrors and Lenses**: 2–3 questions and JEE Main, 1–2 questions and JEE Advanced, n 2–3 questions n [neet](/blog/art-culture-architecture-class-11-revision-notes-jee-neet).
+- **Optical Instruments**: 1–2 questions and JEE Main, 1 question and JEE Advanced, n 1–2 questions n [neet](/blog/indian-geography-physical-class-11-revision-notes-jee-neet).
 
 ## <a id="core-concepts"></a>Core Concepts
 
@@ -91,7 +106,7 @@ I've found that understanding the basics of reflection, refraction, n total inte
 
 ## <a id="trap-exceptions"></a>Trap Exceptions
 
-- **Total Internal Reflection**: When $\theta_1 > \theta_c$, light is completely reflected back into the first medium.
+- **Total Internal Reflection**: When $\theta_1 > \theta_c$, light is completely reflected into the first medium.
 - **Critical Angle**: $\theta_c = \sin^{-1} \left( \frac{n_2}{n_1} \right)$, where $n_1$ n $n_2$ are the refractive indices of the two media.
 - **Lens Maker's Formula**: $\frac{1}{f} = R_1 - \frac{1}{R_2} \right)}{f} , where $ is the focal length, $n$ is the refractive index, n $R_1$ n $R_2$ are the radii of curvature.
 
@@ -124,7 +139,7 @@ Let's summarize the key points:
 
 * **Reflection**: Change and direction of light at a surface that causes it to bounce back.
 * **Refraction**: Bending of light as it passes from one medium to another.
-* **Total Internal Reflection**: A phenomenon where light is completely reflected back into the first medium.
+* **Total Internal Reflection**: A phenomenon where light is completely reflected into the first medium.
 * **Snell's Law**: $
 * **Lens Maker's Formula**: $\frac{1}{f} = R_1 - \frac{1}{R_2} \right)}{n_1 \sin \theta_1 = n_2 \sin \theta_2} 
 
@@ -152,8 +167,7 @@ By utilizing these resources and staying committed to your studies, you can achi
 Now, let's review some of the key concepts and formulae using LaTeX:
 
 ### <a id="latex-examples"></a>LaTeX Examples
-1. **Snell's Law**: $
-2. **Lens Maker's Formula**: $\frac{1}{f} = R_1 - \frac{1}{R_2} \right)}{\frac{1}{v} + \frac{1}{u} = \frac{1}{f}} 
+1. **Snell's Law**: $2. **Lens Maker's Formula**: $\frac{1}{f} = R_1 - \frac{1}{R_2} \right)}{\frac{1}{v} + \frac{1}{u} = \frac{1}{f}} 
 3. **Mirror Formula**: $
 
 By using LaTeX to format the equations, we can clearly visualize the mathematical relationships between the variables.
@@ -164,7 +178,7 @@ Here's a final summary of the key points:
 
 * **Reflection**: Change and direction of light at a surface that causes it to bounce back.
 * **Refraction**: Bending of light as it passes from one medium to another.
-* **Total Internal Reflection**: A phenomenon where light is completely reflected back into the first medium.
+* **Total Internal Reflection**: A phenomenon where light is completely reflected into the first medium.
 * **Snell's Law**: $n_1 \sin \theta_1 = n_2 \sin \theta_2$
 * **Lens Maker's Formula**: $\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)$
 
@@ -191,6 +205,8 @@ Continue your [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-j
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Ray%20Optics%20Quick%20Class%2012%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -202,3 +218,24 @@ Continue your [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-j
 - 📖 [Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)
 - 📖 [Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog/geomorphology-class-11-revision-notes-cbse)
 $
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Mirage Formation**: A common mistake is to assume that mirage is formed due to the refraction of light only. However, it is actually formed due to the total internal reflection of light.
+* **Lens Makers Formula**: Students often forget to use the correct sign convention while using the lens makers formula, which can lead to incorrect results.
+* **Focal Length of Concave Lens**: Many students mistakenly consider the focal length of a concave lens to be positive, whereas it is actually negative.
+* **Image Formation by Spherical Mirrors**: A common error is to assume that the image formed by a spherical mirror is always virtual. However, the type of image formed depends on the position of the object.
+* **Refraction through a Prism**: Students often forget to consider the angle of deviation while calculating the refractive index of a prism, leading to incorrect results.
+
+## 🔁 Last 5 Minutes Box
+
+* **Reflection**: Angle of incidence = Angle of reflection
+     * **Refraction**: Snell's law: n1 sinθ1 = n2 sinθ2
+     * **Mirror formula**: 1/f = 1/v + 1/u
+     * **Lens formula**: 1/f = 1/v - 1/u
+     * **Power of lens**: P = 1/f (in dioptre)
+     * **Focal length of combination of lenses**: 1/F = 1/f1 + 1/f2
+     * **Magnification for mirror**: m = -v/u
+     * **Magnification for lens**: m = -v/u = h'/h
+     * **Total internal reflection**: sinθc = n2/n1
+     * **Critical angle**: θc = sin^-1 (n2/n1)

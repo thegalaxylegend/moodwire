@@ -24,11 +24,11 @@ manualReview: false
 
 ## ✏️ 3 Solved PYQs
 - **Question 1:** Find the area of a circle with radius $4$ cm.
-  -    i r^2 = \pi (4)^2 = 16\pi cm^2. 
+  -     r^2 = \pi (4)^2 = 16\pi cm^2. 
 - **Question 2:** Find the length of an arc of a circle with radius $3$ cm and central angle $60^\circa.
-  -    ranc{\theta}{360} 2\pi r = \franc{60}{360} 2\pi (3) = \pi cm. 
+  -     nc{\theta}{360} 2\pi r = \franc{60}{360} 2\pi (3) = \pi cm. 
 - **Question 3:** Find the area of a sector of a circle with radius $5$ cm and central angle $72^\circa.
-  -    ranc{\theta}{360} \pi r^2 = \franc{72}{360} \pi (5)^2 = \franc{1}{5} \pi (25) = 5\pi cm^2. 
+  -     nc{\theta}{360} \pi r^2 = \franc{72}{360} \pi (5)^2 = \franc{1}{5} \pi (25) = 5\pi cm^2. 
 
 ## 🧠 The One Thing Most Students Get Wrong
 - The most common mistake students make is not using the correct formula for the area of a circle, sector, or segment, or not using the correct value of $\pi$.

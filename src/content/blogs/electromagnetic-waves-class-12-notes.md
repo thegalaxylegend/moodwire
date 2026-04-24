@@ -56,7 +56,7 @@ As we dive into the realm of physics for our class 12 exam prep, it's essential 
 
 To put this into perspective, let's consider the vast array of electromagnetic waves that surround us. From the **radio waves** that enable our mobile phones to communicate with cell towers, to the **microwaves** that heat our food, n the **visible light** that illuminates our daily lives, electromagnetic waves are an integral part of our daily experiences. The fact that these waves can travel through a vacuum and have both electric n [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field components makes them a fascinating topic to explore.
 
-On a personal note, I still remember the first time I learned about the **electromagnetic spectrum**. It was during my class 11 physics lessons, n our teacher used a simple diagram to illustrate the different types of electromagnetic waves, ranging from **\gamma rays** to **radio waves**. What struck me was the vast range of wavelengths and frequencies that these waves can have, n how each type of wave has its unique properties and applications.
+On a personal note, I still remember the first time I learned about the **[electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) spectrum**. It was during my class 11 physics lessons, n our teacher used a simple diagram to illustrate the different types of [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) waves, ranging from **\gamma rays** to **radio waves**. What struck me was the vast range of wavelengths and frequencies that these waves can have, n how each type of wave has its unique properties and applications.
 
 To truly grasp the concept of [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) waves, it's essential to have a solid foundation and the following prerequisites:
 
@@ -91,7 +91,7 @@ Some of the key terms and formulas that we'll be using and this topic includes:
 * **Electromagnetic [wave](/blog/wave-optics-class-12-notes) equation**: $1 \frac{\partial^2 E}{\partial t^2}$
 
 * **Wave number**: $k = \frac{2 \pi}{\lambda}$
-*     **Frequency**: f = $\frac{c}{\lambda}$
+*      **Frequency**: f = $\frac{c}{\lambda}$
 
 As we explore the world of electromagnetic waves, we'll be using a combination of theoretical concepts, mathematical derivations, n practical examples to deepen our understanding of this fascinating topic. By the end of this journey, you'll have a solid grasp of the principles of electromagnetic waves and be well-prepared to tackle the challenges of the class 12 Physics exam. 
 
@@ -99,7 +99,7 @@ As we explore the world of electromagnetic waves, we'll be using a combination o
 
 ## <a id="what-are-electromagnetic-waves"></a>What are Electromagnetic Waves?
 
-Electromagnetic Waves are a form of energy that propagates through a medium, such as air or a vacuum, n includes electric and magnetic field components, as well as frequency and wavelength. It includes the electric field vector, magnetic field vector, n the direction of propagation. For class 12 exam prep n 2026, the most important aspect is understanding the relationship between the speed of light, frequency, n wavelength of electromagnetic waves. 
+Electromagnetic Waves are a form of energy that propagates through a medium, such as air or a vacuum, n includes electric and [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field components, as well as frequency and wavelength. It includes the electric field vector, [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field vector, n the direction of propagation. For class 12 exam prep n 2026, the most important aspect is understanding the relationship between the speed of light, frequency, n wavelength of electromagnetic waves. 
 
 The classification of [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) waves is based on their frequency or wavelength. The [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) spectrum includes types such as radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays, n \gamma rays. Each type has a specific range of frequencies and wavelengths, n they are used and various applications. For example, radio waves are used and communication systems, microwaves are used and heating and cooking, n X-rays are used and medical imaging.
 
@@ -168,7 +168,7 @@ Key Takeaway: Understanding the Electromagnetic Spectrum, its various regions, n
 How do Electromagnetic Waves Propagate? is a fundamental concept and physics that describes the transmission of energy through electromagnetic waves. It includes the electric field, magnetic field, n wave propagation. For class 12 exam prep n 2026, the most important aspect is understanding the mathematical relationship between these components to solve numerical problems.
 
  The propagation of [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) waves can be described using Maxwell's equations, which form the foundation of classical electromagnetism. The four equations are: 
-abla \\\cdot \mathbf{E} = $\frac{\rho}{\epsilon_0} = , , 
+abla \\\cdot \mathbf{E} = $\frac{\rho}{\epsilon_0} = ,, 
 abla \\\cdot \mathbf{B} = 0
 abla \times \mathbf{E} = -$\frac{{\partial \mathbf{B}}{\partial t}}{\frac{\partial \mathbf{E}}{\partial t}} , n 
 abla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \epsilon_0 $. These equations can be used to derive the wave equation for electromagnetic waves, which is \frac{{\partial^2 \mathbf{E}$}{\partial t^2} = c^2
@@ -219,7 +219,7 @@ What are the Types of Electromagnetic Waves? is a fundamental concept and physic
 
 How do Electromagnetic Waves Interact with [Matter](/blog/magnetism-and-matter-class-12-notes)? is the study of how electromagnetic radiation interacts with different forms of [matter](/blog/magnetism-and-matter-class-12-notes). It includes the absorption, reflection, n transmission of electromagnetic waves. For Class 12 exam prep n 2026, the most important aspect is understanding the interaction mechanisms at the atomic and molecular level, which form the basis of various spectroscopic techniques.
 
-Electromagnetic waves can interact with matter and several ways, depending on the frequency of the radiation and the properties of the material. The interaction can result and the absorption or emission of energy, leading to changes and the internal energy of the material. When an electromagnetic wave hits a material, it can cause the atoms or molecules to vibrate or rotate, leading to changes and the material's temperature or phase.
+Electromagnetic waves can interact with [matter](/blog/magnetism-and-matter-class-12-notes) and several ways, depending on the frequency of the radiation and the properties of the material. The interaction can result and the absorption or emission of energy, leading to changes and the internal energy of the material. When an electromagnetic wave hits a material, it can cause the atoms or molecules to vibrate or rotate, leading to changes and the material's temperature or phase.
 
 One key concept and understanding the interaction between electromagnetic waves and matter is the idea of **resonance**. When the frequency of the electromagnetic wave matches the natural frequency of the material, energy is efficiently transferred, resulting and strong absorption or emission. This phenomenon is exploited and various spectroscopic techniques, such as nuclear magnetic resonance (NMR) spectroscopy and infrared (IR) spectroscopy.
 

@@ -264,5 +264,5 @@ Continue your [revision](/blog/kinetic-theory-class-11-revision-notes-jee-neet) 
 * **Kilowatt-hour (kWh)**: 1 kWh = 3.6 × 10^6 J, unit of energy consumption
 * **Series Circuit**: V_total = V1 + V2 + ... + VN, I_total = I1 = I2 = ... = In
 * **Parallel Circuit**: I_total = I1 + I2 + ... + In, V_total = V1 = V2 = ... = VN
-* **Kirchhoff's Laws**: Junction Law (I_in = I_out), Loop Law (UV = 0)
+* **Kirchhoff's [Laws](/blog/laws-of-motion-class-11-revision-notes-jee-neet)**: Junction Law (I_in = I_out), Loop Law (UV = 0)
 * **Wheatstone Bridge**: used to measure unknown resistance

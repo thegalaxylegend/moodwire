@@ -157,7 +157,7 @@ Continue your [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-j
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/ancient-[india](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse)-indus-valley-class-11-revision-notes-cbse) now and track your progress against thousands of students.
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Ancient%20India%20Indus%20Valley%20Class%2011%20History%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Ancient](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)%20India%20Indus%20Valley%20Class%2011%20History%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

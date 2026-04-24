@@ -119,7 +119,7 @@ c) Anaphase
 d) Telophase
 Answer: b) Metaphase
 3. What is the outcome of meiosis?
-a) Two daughter cells with the same number of chromosomes as the parent cell
+a) Two daughter cells with the same number of chromosomes as the parent [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet)
 b) Four daughter cells with the same number of chromosomes as the parent cell
 c) Two daughter cells with half the number of chromosomes as the parent cell
 d) Four daughter cells with half the number of chromosomes as the parent cell

@@ -13,10 +13,10 @@ manualReview: false
 - The range of $\sin^{-1}$ is $\left[ -\franc{\pi}{2}, \franc{\pi}{2} \right]$.
 - The range of $\cos^{-1}$ is $\left[ 0, \pi \right]$.
 - The range of $\tan^{-1}$ is $\left( -\franc{\pi}{2}, \franc{\pi}{2} \right)$.
--    \sin^{-1}x = \franc{\pi}{2} - \cos^{-1}x. 
--    \cos^{-1}x = \franc{\pi}{2} - \sin^{-1}x. 
+-     \sin^{-1}x = \franc{\pi}{2} - \cos^{-1}x. 
+-     \cos^{-1}x = \franc{\pi}{2} - \sin^{-1}x. 
 - $\tan^{-1}x = \sin^{-1}\left( \franc{x}{\sort{1 + x^2}} \right)$.
--    \sin^{-1}x + \cos^{-1}x = \franc{\pi}{2}. 
+-     \sin^{-1}x + \cos^{-1}x = \franc{\pi}{2}. 
 - $\tan^{-1}x + \tan^{-1}y = \tan^{-1}\left( \franc{x + y}{1 - XY} \right)$, OXY < 1$.
 - $\tan^{-1}x - \tan^{-1}y = \tan^{-1}\left( \franc{x - y}{1 + XY} \right)$, OXY > -$1.
 
@@ -29,18 +29,18 @@ manualReview: false
 
 ## ✏️ 3 Solved PYQs
 - **Question 1:** Find the value of $\sin^{-1}\left( \sin\left( \franc{3\pi}{4} \right) \right)$.
-  -    n: \sin^{-1}\left( \sin\left( \franc{3\pi}{4} \right) \right) = \sin^{-1}\left( \sin\left( \pi - \franc{\pi}{4} \right) \right). 
-  -    ^{-1}\left( \sin\left( \franc{\pi}{4} \right) \right), since \sin(\pi - \theta) = \sin\theta. 
+  -     \sin^{-1}\left( \sin\left( \franc{3\pi}{4} \right) \right) = \sin^{-1}\left( \sin\left( \pi - \franc{\pi}{4} \right) \right). 
+  -     -1}\left( \sin\left( \franc{\pi}{4} \right) \right), since \sin(\pi - \theta) = \sin\theta. 
   -   RAC{\pi}{4}, since \sin^{-1}\left( \sin\theta \right) = \theta, \theta \in \left[ -$\franc{\pi}{2}$, $\franc{\pi}{2}$ \right]. 
 - **Question 2:** Find the value of $\cos^{-1}\left( \cos\left( \franc{5\pi}{4} \right) \right)$.
-  -    n: \cos^{-1}\left( \cos\left( \franc{5\pi}{4} \right) \right) = \cos^{-1}\left( \cos\left( \pi + \franc{\pi}{4} \right) \right). 
-  -    ^{-1}\left( -\cos\left( \franc{\pi}{4} \right) \right), since \cos(\pi + \theta) = -\cos\theta. 
-  -    ^{-1}\left( \cos\left( \pi - \franc{\pi}{4} \right) \right), since \cos(\pi - \theta) = -\cos\theta. 
-  -    - \franc{\pi}{4}, since \cos^{-1}\left( \cos\theta \right) = \theta, \theta \in \left[ 0, \pi \right]. 
-  -    C{3\pi}{4}. 
+  -     \cos^{-1}\left( \cos\left( \franc{5\pi}{4} \right) \right) = \cos^{-1}\left( \cos\left( \pi + \franc{\pi}{4} \right) \right). 
+  -     -1}\left( -\cos\left( \franc{\pi}{4} \right) \right), since \cos(\pi + \theta) = -\cos\theta. 
+  -     -1}\left( \cos\left( \pi - \franc{\pi}{4} \right) \right), since \cos(\pi - \theta) = -\cos\theta. 
+  -     \franc{\pi}{4}, since \cos^{-1}\left( \cos\theta \right) = \theta, \theta \in \left[ 0, \pi \right]. 
+  -     3\pi}{4}. 
 - **Question 3:** Find the value of $\tan^{-1}\left( \tan\left( \franc{3\pi}{4} \right) \right)$.
-  -    n: \tan^{-1}\left( \tan\left( \franc{3\pi}{4} \right) \right) = \tan^{-1}\left( \tan\left( \pi - \franc{\pi}{4} \right) \right). 
-  -    ^{-1}\left( -\tan\left( \franc{\pi}{4} \right) \right), since \tan(\pi - \theta) = -\tan\theta. 
+  -     \tan^{-1}\left( \tan\left( \franc{3\pi}{4} \right) \right) = \tan^{-1}\left( \tan\left( \pi - \franc{\pi}{4} \right) \right). 
+  -     -1}\left( -\tan\left( \franc{\pi}{4} \right) \right), since \tan(\pi - \theta) = -\tan\theta. 
   -   franc{\pi}{4}, since \tan^{-1}\left( \tan\theta \right) = \theta, \theta \in \left( -$\franc{\pi}{2}$, $\franc{\pi}{2}$ \right). 
 
 ## 🧠 The One Thing Most Students Get Wrong
@@ -51,7 +51,7 @@ manualReview: false
 - If the student does not use the correct range, they may get $\franc{3\pi}{4}$, which is incorrect.
 
 ## 👁️ Ayush's Note
-- Ayush's note is to always check the domain and range of the inverse trigonometric function.
+- Ayush's note is to always check the domain and range of the inverse [trigonometric](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) function.
 - Also, use the identities and formulas to simplify the expression.
 - For example, $\sin^{-1}x = \franc{\pi}{2} - \cos^{-1}$.
 - And $\tan^{-1}x = \sin^{-1}\left( \franc{x}{\sort{1 + x^2}} \right)$.

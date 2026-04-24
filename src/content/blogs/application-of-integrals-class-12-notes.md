@@ -49,7 +49,7 @@ manualReview: false
 
 ## 🔁 Last 5 Minutes Box
 - Review the formulas for the area, volume, and surface area of a solid.
-- Make sure to evaluate definite integrals correctly.
+- Make sure to evaluate definite [integrals](/blog/integrals-class-12-notes) correctly.
 - Use the substitution method to evaluate definite integrals when the integrand is a composite function.
 - Find the points of intersection of two curves when finding the area of a region bounded by the curves.
 - Use the correct formula for the volume or surface area of a solid.

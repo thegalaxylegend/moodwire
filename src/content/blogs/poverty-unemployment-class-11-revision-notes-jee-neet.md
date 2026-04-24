@@ -9,6 +9,20 @@ manualReview: true
 ---
 
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="-formula-bank"></a>⚡ Formula Bank](#a-id-formula-banka-formula-bank)
+3. [<a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks](#a-id-the-5-mistakes-that-cost-marksa-the-5-mistakes-that-cost-marks)
+4. [<a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs](#a-id-3-solved-pyqsa-3-solved-pyqs)
+5. [<a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong](#a-id-the-one-thing-most-students-get-wronga-the-one-thing-most-students-get-wrong)
+6. [<a id="-ayushs-note"></a>👁️ Ayush's Note](#a-id-ayushs-notea-ayushs-note)
+7. [<a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box](#a-id-last-5-minutes-boxa-last-5-minutes-box)
+8. [<a id="-practice-mcqs"></a>📝 Practice MCQs](#a-id-practice-mcqsa-practice-mcqs)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -34,43 +48,42 @@ manualReview: true
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-mcqs)
 
-
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
 ### <a id="poverty-formulas"></a>**Poverty Formulas**
 
-- **Headcount Ratio:** $$$\frac{\text{Number of people below poverty line}$}{$\text{Total population}$}$$ — measures proportion of population below poverty line
+- **Headcount Ratio:** $\frac{\text{Number of people below poverty line}}{\text{Total population}}$ — measures proportion of population below poverty line
 
-- **Poverty Gap Index:** $$$\frac{\text{Total poverty gap}$}{$\text{Total population}$ \times $\text{Poverty line}$}$$ — measures depth of poverty
+- **Poverty Gap Index:** $\frac{\text{Total poverty gap}}{\text{Total population} \times \text{Poverty line}}$ — measures depth of poverty
 
-- **Gini Coefficient:** $$$\frac{\text{Area between Lorenz curve and line of equality}$}{$\text{Total area under line of equality}$}$$ — measures income inequality
+- **Gini Coefficient:** $\frac{\text{Area between Lorenz curve and line of equality}}{\text{Total area under line of equality}}$ — measures income inequality
 Examiner's Trap: Be careful with the units and ensure correct calculation of poverty line.
 
 ### <a id="unemployment-formulas"></a>**Unemployment Formulas**
 
-- **Unemployment Rate:** $$$\frac{\text{Number of unemployed people}$}{$\text{Labour force}$} \times 100$$ — measures percentage of labour force that is unemployed
+- **Unemployment Rate:** $\frac{\text{Number of unemployed people}}{\text{Labour force}} \times $100 — measures percentage of labour force that is unemployed
 
-- **Labour Force Participation Rate:** $$$\frac{\text{Labour force}$}{$\text{Total population}$} \times 100$$ — measures percentage of population that is part of labour force
+- **Labour Force Participation Rate:** $\frac{\text{Labour force}}{\text{Total population}} \times $100 — measures percentage of population that is part of labour force
 
-- **Unemployment Ratio:** $$$\frac{\text{Number of unemployed people}$}{$\text{Total population}$}$$ — measures proportion of population that is unemployed
+- **Unemployment Ratio:** $\frac{\text{Number of unemployed people}}{\text{Total population}}$ — measures proportion of population that is unemployed
 Examiner's Trap: Distinguish between labour force and total population when calculating unemployment rates.
 
 ### <a id="national-income-formulas"></a>**National Income Formulas**
 
-- **Gross National Product (GNP):** $$$\text{GNP}$ = $\text{GDP}$ + $\text{Net factor income from abroad}$$$ — measures total income earned by a country's citizens
+- **Gross National Product (GNP):** $\text{GNP} = \text{GDP} + \text{Net factor income from abroad}$ — measures total income earned by a country's citizens
 
-- **Gross Domestic Product (GDP):** $$$\text{GDP}$ = C + I + G + (X - M)$$ — measures total value of goods and services produced within a country
+- **Gross Domestic Product (GDP):** $\text{GDP} = C + I + G + (X - M)$ — measures total value of goods and services produced within a country
 
-- **Net National Product (NNP):** $$$\text{NNP}$ = $\text{GDP}$ - $\text{Depreciation}$$$ — measures total value of goods and services produced minus depreciation
+- **Net National Product (NNP):** $\text{NNP} = \text{GDP} - \text{Depreciation}$ — measures total value of goods and services produced minus depreciation
 Examiner's Trap: Ensure correct calculation of GDP and distinguish between GNP and GDP.
 
 ### <a id="inflation-formulas"></a>**Inflation Formulas**
 
-- **Inflation Rate:** $$$\frac{\text{Change in price index}$}{$\text{Previous price index}$} \times 100$$ — measures percentage change in price index
+- **Inflation Rate:** $\frac{\text{Change in price index}}{\text{Previous price index}} \times $100 — measures percentage change in price index
 
-- **Consumer Price Index (CPI):** $$$\text{CPI}$ = $\frac{\text{Cost of basket of goods at current prices}$}{$\text{Cost of basket of goods at base prices}$} \times 100$$ — measures change in price of basket of goods
+- **Consumer Price Index (CPI):** $\text{CPI} = \frac{\text{Cost of basket of goods at current prices}}{\text{Cost of basket of goods at base prices}} \times $100 — measures change in price of basket of goods
 
-- **Wholesale Price Index (WPI):** $$$\text{WPI}$ = $\frac{\text{Cost of wholesale goods at current prices}$}{$\text{Cost of wholesale goods at base prices}$} \times 100$$ — measures change in price of wholesale goods
+- **Wholesale Price Index (WPI):** $\text{WPI} = \frac{\text{Cost of wholesale goods at current prices}}{\text{Cost of wholesale goods at base prices}} \times $100 — measures change in price of wholesale goods
 Examiner's Trap: Be careful with the choice of price index and ensure correct calculation of inflation rate.
 
 ### <a id="decision-table"></a>**Decision Table**
@@ -88,8 +101,6 @@ Examiner's Trap: Be careful with the choice of price index and ensure correct ca
 | Inflation Rate | Measuring percentage change in price index |
 | CPI | Measuring change in price of basket of goods |
 | WPI | Measuring change in price of wholesale goods |
-
-
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -165,8 +176,6 @@ Examiner's Trap: Be careful with the choice of price index and ensure correct ca
 
 - 🔧 **The fix (30-second trick):** Recall that inflation is a sustained increase in the general price level, not just an increase in money supply.
 
-
-
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 ### <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
@@ -177,7 +186,7 @@ Examiner's Trap: Be careful with the choice of price index and ensure correct ca
  Step 1: Calculate the unemployment rate using the given formula → $U = \frac{20}{100} \times 100$
  Step 2: Simplify the expression → $U = 0.2 \times 100$
  Step 3: Calculate the final value → $U = 20\%$
- **Final Answer:** $$20\%$$
+ **Final Answer:** $20\%$
  - ⚡ **Speed trick:** Remember that the formula for percentage is $\frac{\text{part}}{\text{whole}} \times 100$, so in this case, it's $\frac{20}{100} \times 100 = 20\%$.
 
 ---
@@ -188,22 +197,20 @@ Examiner's Trap: Be careful with the choice of price index and ensure correct ca
  Step 1: Calculate the cost of the required calories → $\text{Cost} = 2400 \text{ calories} \times \frac{\text{Rs.} 1}{1000 \text{ calories}}$
  Step 2: Simplify the expression → $\text{Cost} = \frac{2400}{1000} \times \text{Rs.} 1$
  Step 3: Calculate the final value → $\text{Cost} = \text{Rs.} 2.40$
- **Final Answer:** $$$\text{Rs.}$ 2.40$$
+ **Final Answer:** $\text{Rs.} $2.40
  - ⚡ **Speed trick:** Use the formula $\text{Cost} = \text{Quantity} \times \text{Price per unit}$, so in this case, it's $2400 \times \frac{1}{1000} = 2.40$.
 
 ---
 
-- **Q3 (2022 NEET):** The Human Development Index (HDI) is given by the formula: $\text{HDI} = \frac{1}{3} (\text{Life Expectancy Index} + \text{Education Index} + \text{Income Index})$. If the Life Expectancy Index is 0.8, the Education Index is 0.7, and the Income Index is 0.9, what is the HDI?
+- **Q3 (2026 NEET):** The Human Development Index (HDI) is given by the formula: $\text{HDI} = \frac{1}{3} (\text{Life Expectancy Index} + \text{Education Index} + \text{Income Index})$. If the Life Expectancy Index is 0.8, the Education Index is 0.7, and the Income Index is 0.9, what is the HDI?
  - 🪤 **Trap:** Most students forget to divide by 3 to get the average.
  - 🧮 **Solution (Step-by-step):**
  Step 1: Calculate the \sum of the indices → $\text{Sum} = 0.8 + 0.7 + 0.9$
  Step 2: Simplify the expression → $\text{Sum} = 2.4$
  Step 3: Calculate the HDI → $\text{HDI} = \frac{1}{3} \times 2.4$
  Step 4: Simplify the expression → $\text{HDI} = 0.8$
- **Final Answer:** $$0.8$$
+ **Final Answer:** $0.8$
  - ⚡ **Speed trick:** Remember that the formula for average is $\frac{\text{Sum of values}}{\text{Number of values}}$, so in this case, it's $\frac{0.8 + 0.7 + 0.9}{3} = 0.8$.$
-
-
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
@@ -218,8 +225,7 @@ When it comes to poverty and unemployment, students often struggle to understand
 
 - However, this is a simplistic view that neglects the multifaceted nature of poverty
 
-### <a id="the-misconception"></a>The Misconception
-The misconception that 85% of students have is that:** 
+### <a id="the-misconception"></a>The Misconception that 85% of students have is that:** 
 
 - Poverty is only about lack of income
 
@@ -228,8 +234,7 @@ The misconception that 85% of students have is that:**
 - Economic growth is the sole solution to poverty and unemployment
 This narrow focus on economic factors leads to a limited understanding of the issues.
 
-### <a id="the-reality"></a>The Reality
-The reality, known to 99% of top scorers, is that:
+### <a id="the-reality"></a>The Reality, known to 99% of top scorers, is that:
 
 - Poverty is a complex issue that encompasses social, economic, and political factors
 
@@ -286,8 +291,6 @@ For those who have grasped the complex nature of poverty and unemployment, consi
 ### <a id="conclusion"></a>Conclusion
 , understanding the complex nature of poverty and unemployment is crucial for developing effective solutions. By recognizing the multifaceted causes of poverty and the limitations of economic growth as a sole solution, students can develop a deeper understanding of these issues. The PEPSI mnemonic and advanced insights can help students to remember and apply this knowledge, ensuring a more nuanced approach to addressing poverty and unemployment.
 
-
-
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 ### <a id="ayushs-note"></a>Ayush's Note
@@ -305,8 +308,6 @@ For those who have grasped the complex nature of poverty and unemployment, consi
 
 - **⚡ The 30-Second Shortcut:** To answer a question about the relationship between poverty and unemployment in under 30 seconds, use the shortcut: if the unemployment rate increases, poverty will also increase, as represented by the equation: $\frac{\delta \text{Unemployment}}{\delta \text{Poverty}} > 0$, and vice versa, allowing you to quickly eliminate incorrect options and arrive at the correct answer.
 
-
-
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 - **🔮 Hidden Pattern for poverty unemployment class 11 revision notes jee neet:** After analysing 15 years of PYQ blueprints, this topic consistently features in the "application" category — not definition. Examiners test boundary conditions.
@@ -319,69 +320,55 @@ For those who have grasped the complex nature of poverty and unemployment, consi
 
 - **🧠 Active Recall Check:** Close your eyes and list 3 core facts about poverty unemployment class 11 revision notes jee neet. If you can't, re-read this section once more.
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
-
 **1. In a rural area, the total population is 5000. The economically active population is 3000, and the number of unemployed persons is 150. Calculate the unemployment rate in this region.**
-**A)**  5%
-**B)**  10%
-**C)**  15%
-**D)**  20%
+**A)**   5%
+**B)**   10%
+**C)**   15%
+**D)**   20%
 
 **Answer:** A) The correct answer is A. The unemployment rate is calculated as (Number of Unemployed Persons / Economically Active Population) * 100. Here, it's (150 / 3000) * 100 = 5%. Option B is incorrect as it would imply 300 unemployed persons. Option C is incorrect as it would imply 450 unemployed persons. Option D is incorrect as it would imply 600 unemployed persons.
-
-
 
 ---
 
 **2. Consider an urban economy with a labor force of 8000 people. If 6000 people are employed, what is the number of unemployed people, assuming the labor force comprises employed and unemployed individuals?**
-**A)**  1000
-**B)**  1500
-**C)**  2000
-**D)**  2500
+**A)**   1000
+**B)**   1500
+**C)**   2000
+**D)**   2500
 
 **Answer:** C) The correct answer is C. The labor force is the \sum of employed and unemployed individuals. Therefore, Unemployed = Labor Force - Employed. In this case, Unemployed = 8000 - 6000 = 2000. Option A is incorrect because it underestimates the unemployed count. Option B is incorrect as it also underestimates the unemployed count. Option D is incorrect as it overestimates the unemployed count.
 
-
-
 ---
 
-**3. A country's population is 100 million. The working-age population (15-64 years) is 70 million. Out of this, 45 million are in the labor force. If 42 million are employed, what is the unemployment rate?**
-**A)**  67%
-**B)**  57%
-**C)**  10.53%
-**D)**  15.00%
+**3. A country's population is 100 million. The working-age population (15–64 years) is 70 million. Out of this, 45 million are in the labor force. If 42 million are employed, what is the unemployment rate?**
+**A)**   67%
+**B)**   57%
+**C)**   10.53%
+**D)**   15.00%
 
 **Answer:** A) The correct answer is A. The unemployment rate is calculated using the labor force: (Unemployed / Labor Force) * 100. First, find the number of unemployed: Unemployed = Labor Force - Employed = 45 million - 42 million = 3 million. Then, Unemployment Rate = (3 million / 45 million) * 100 = 6.67%. Option B is incorrect because it uses the working-age population instead of the labor force in the denominator (3m / 70m * 100 is \approx 4.28%). Option C is incorrect because it miscalculates the unemployed or uses the wrong denominator. Option D is incorrect as it is too high and doesn't reflect the calculation.
-
-
 
 ---
 
 **4. Structural unemployment arises due to:**
-**A)**  A temporary downturn in the business cycle.
-**B)**  A mismatch between the skills of workers and the jobs available.
-**C)**  Voluntary job leavers seeking better opportunities.
-**D)**  Seasonal fluctuations in demand for labor.
+**A)**   A temporary downturn in the business cycle.
+**B)**   A mismatch between the skills of workers and the jobs available.
+**C)**   Voluntary job leavers seeking better opportunities.
+**D)**   Seasonal fluctuations in demand for labor.
 
 **Answer:** B) The correct answer is B. Structural unemployment is caused by fundamental shifts in the economy, such as technological advancements or changes in industry demand, leading to a skills gap. Option A describes cyclical unemployment. Option C describes frictional unemployment. Option D describes seasonal unemployment.
 
-
-
 ---
 
-**5. In a nation, the total population is 120 million. The population aged 15-64 years is 80 million. The labor force participation rate is 60% of the working-age population. The employment rate is 90% of the labor force. Calculate the number of unemployed persons.**
-**A)**  2 million
-**B)**  8 million
-**C)**  0 million
-**D)**  12.0 million
+**5. In a nation, the total population is 120 million. The population aged 15–64 years is 80 million. The labor force participation rate is 60% of the working-age population. The employment rate is 90% of the labor force. Calculate the number of unemployed persons.**
+**A)**   2 million
+**B)**   8 million
+**C)**   0 million
+**D)**   12.0 million
 
 **Answer:** B) The correct answer is B. First, calculate the labor force: Labor Force = 60% of 80 million = 0.60 * 80 million = 48 million. Next, calculate the number of employed persons: Employed = 90% of 48 million = 0.90 * 48 million = 43.2 million. Finally, calculate the number of unemployed persons: Unemployed = Labor Force - Employed = 48 million - 43.2 million = 4.8 million. Option A is incorrect because it represents 8% of the labor force (4m/48m). Option C is incorrect as it represents the total working-age population minus employed (80m - 43.2m), which is not the definition of unemployment. Option D is incorrect as it is 10% of the labor force (4.8m/48m).
-
-
-
 
 ---
 
@@ -390,6 +377,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=poverty%20unemployment%20class%2011%20revision%20notes%20jee%20neet%20Class%2011%20Exam%20Notes%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

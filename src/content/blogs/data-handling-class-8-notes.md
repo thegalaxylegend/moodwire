@@ -44,7 +44,7 @@ manualReview: false
 - Check your work carefully to avoid mistakes
 
 ## 👁️ Ayush's Note
-- Data handling is all about working with numbers and making sense of them
+- Data handling is all about working with [numbers](/blog/rational-numbers-class-8-notes) and making sense of them
 - It's like solving a puzzle, and the more you practice, the better you'll get
 - Don't be afraid to ask for help if you're stuck
 - Use visual aids like graphs and charts to help you understand the data

@@ -65,7 +65,7 @@ For students preparing for JEE and NEET, it's essential to have a thorough under
 The core concepts and the classification of [elements](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) include:
 
 * Atomic number: The number of protons and the nucleus of an [atom](/blog/structure-of-the-atom-class-11-revision-notes-neet)
-* Electronic configuration: The arrangement of electrons and an atom
+* Electronic configuration: The arrangement of electrons and an [atom](/blog/structure-of-the-atom-class-11-revision-notes-neet)
 * Periodic table: A tabular arrangement of [elements](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) n order of their increasing atomic numbers
 * Blocks: The periodic table is divided into different ⟦PROTECTED_87’s, such as the s-block, p-block, d-block, n f-block
 * Groups: The vertical columns and the periodic table are called groups
@@ -111,7 +111,7 @@ As I reflect on my journey as a chemistry student, I realize that the classifica
 
 The classification of elements is a powerful tool that helps us to understand the properties and behavior of different elements. By concept, I can develop a deeper understanding of the [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) world and how it relates to the world around us. Whether I'm solving problems, practicing MCQs, or simply exploring the properties of different elements, I know that the classification of elements will remain a vital tool and my journey as a chemistry student. 
 
-As I look to the future, I'm excited to see where my studies and chemistry will take me. Whether I'm pursuing a career and research, industry, or education, I know that the classification of elements will remain a fundamental concept that underlies many of the principles and reactions that I will encounter. By continuing to explore and learn about the periodic table, I can develop a deeper understanding of the chemical world and how it relates to the world around us. 
+As I look to the future, I'm excited to see where my studies and chemistry will take me. Whether I'm pursuing a career and research, industry, or education, I know that the classification of elements will remain a fundamental concept that underlies many of the principles and reactions that I will encounter. By continuing to explore and learn about the periodic table, I can develop a deeper understanding of the [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) world and how it relates to the world around us. 
 
 The classification of elements is a rich and complex field of study, with many different concepts and principles to explore. As I continue to learn and grow as a chemistry student, I'm excited to see where this journey will take me, n how the classification of elements will continue to play a central role and my understanding of the chemical world. 
 

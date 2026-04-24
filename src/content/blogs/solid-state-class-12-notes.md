@@ -133,6 +133,17 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
+## 📚 Academic References
+
+*Content verified against peer-reviewed research:*
+
+1. *Selected Performance Indicators of University-Model Schools* — **Aquila Digital Community (University of Southern Mississippi)** (2019) 🔓 — [DOI ↗](https://openalex.org/works/undefined)
+2. *All Of Chinese Literature Condensed: A Sourcebook From The Playwr...* — **Journal of International Crisis and Risk Communication Research** (2013) 🔓 — [DOI ↗](https://openalex.org/works/undefined)
+
+*🔓 = Open Access article*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Solid%20State%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics

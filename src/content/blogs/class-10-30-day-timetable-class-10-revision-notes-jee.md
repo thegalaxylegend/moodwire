@@ -89,7 +89,7 @@ For Social [science](/blog/class-10-science-pyq-strategy-class-10-revision-notes
 
 ## <a id="board-exam-simulation-n-final-prep"></a>Board Exam Simulation and Final Prep
 
-The actual CBSE boards happen from 10:30 AM to 01:30 PM. From Day 21 to 28, you must solve a full paper every day at exactly this time. This trains your brain to be at "peak power" during the actual exam hours. No music or phones; just you and the paper.
+The actual CBSE boards happen from 10:30 AM to 01:30 PM. From Day 21 to 28, you must solve a full paper every day at exactly this time. This trains your brain to be at "peak power" during the actual exam [hours](/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet). No music or phones; just you and the paper.
 
 In the final 48 hours, stop taking new tests. Review your "Mistake Journal," look over formulas, n focus on rest. A well-rested brain recalls significantly more than a tired one. Trust the system you have built and stay calm for the big day.
 

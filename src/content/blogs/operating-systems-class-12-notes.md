@@ -41,7 +41,7 @@ manualReview: false
   - Page Reference String: 1, 2, 3, 4, 2, 1, 3, 2
   - Page Faults: 4 (initial pages), 0 (page 2 already in memory), 0 (page 1 already in memory), 0 (page 3 already in memory), 0 (page 2 already in memory)
   - Total Page Faults: 4
-- **Question 3:** A computer system has 2 processes with arrival times 0 and 2, and burst times 5 and 3. Calculate the average waiting time using the SJF scheduling algorithm.
+- **Question 3:** A [computer](/blog/computer-networks-class-12-notes) system has 2 processes with arrival times 0 and 2, and burst times 5 and 3. Calculate the average waiting time using the SJF scheduling algorithm.
   - Arrival Time: 0, 2
   - Burst Time: 5, 3
   - Completion Time: 5, 8
@@ -107,7 +107,7 @@ C) 7.00
 -
 D) 8.00
 
-**Answer: A) 5.67. Explanation: The average turnaround time is calculated by summing the turnaround times for each process and dividing by the number of processes.**
+**Answer: A) 5.67. Explanation: The average turnaround time is calculated by summing the turnaround times for each process and dividing by the [number](/blog/number-systems-class-9-notes) of processes.**
 
 **4. Which of the following is a method to prevent deadlock?**
 -

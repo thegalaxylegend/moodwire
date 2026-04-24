@@ -10,7 +10,7 @@ manualReview: false
 
 ## ⚡ Formula Bank
 - The general form of a polynomial is $a_nx^n + a_{n-1}x^{n-1} + \ldots + a_1x + a_0$, where $a_n 
-eq 0$.
+eq $0.
 - Degree of a polynomial is the highest power of the variable, denoted by $\deg(p(x))$.
 - If $p(x)$ is a polynomial and $a$ is a real number, then $p(a)$ is the value of the polynomial at $x = a$.
 - Factor theorem states that if $p(a) = 0$, then $(x - a)$ is a factor of $p(x)$.
@@ -127,6 +127,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Polynomials%20Class%2010%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

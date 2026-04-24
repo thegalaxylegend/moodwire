@@ -142,7 +142,7 @@ Continue your [revision](/blog/ancient-india-mahajanapadas-class-11-revision-not
 
 ## 🪤 The 5 Mistakes That Cost Marks
 
-* The Bhakti movement is often confused with the Sufi movement, but they were two distinct spiritual movements that co-existed during the medieval period in India.
+* The Bhakti movement is often confused with the Sufi movement, but they were two distinct spiritual movements that co-existed during the medieval period in [India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee).
    * Many students mistakenly believe that Kabir was a devotee of Ram, whereas he was a devotee of the Supreme Being, often referred to as 'Rama' in a more abstract sense.
    * A common mistake is to overlook the role of women saints like Mirabai and Lal Ded in the Bhakti movement, who made significant contributions to the literary and spiritual landscape of medieval India.
    * Some students tend to conflate the Sufi concept of 'Wahdat al-Wujud' (Unity of Existence) with the Bhakti concept of 'Advaita' (Non-Dualism), which are related but distinct philosophical ideas.

@@ -9,6 +9,16 @@ practice_link: "/class-11/biology/transport-n-plants-class-11-revision-notes-nee
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-transport-n-plants"></a>What is Transport In Plants?](#a-idwhat-is-transport-n-plantsawhat-is-transport-in-plants)
+3. [1. [Introduction to Transport and Plants](#introduction-to-transport-n-plants)](#1-introduction-to-transport-and-plantsintroduction-to-transport-n-plants)
+4. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+5. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Transport In Plants?](#what-is-transport-n-plants)
@@ -61,8 +71,7 @@ Diffusion is the process y which particles move from a region of high concentrat
 Osmosis is the movement of water molecules from a region of high concentration to a region of low concentration through a partially permeable membrane. This process is essential for the movement of water and n out of the plant cells.
 #### Transpiration
 Transpiration is the process y which water is transported through the plant, from the roots to the leaves, n is then released into the air as water vapor. This process is essential for the movement of water and minerals and the plant.
-#### Active Transport
-Active transport involves the use of energy to move substances against their concentration gradient. This process is essential for the movement of minerals and sugars and the plant.
+#### Active Transport involves the use of energy to move substances against their concentration gradient. This process is essential for the movement of minerals and sugars and the plant.
 ### <a id="shortcut-formulatrick"></a>Shortcut Formula/Trick
 To remember the difference between diffusion and osmosis, use the following trick:
 * Diffusion: particles move from high to low concentration
@@ -132,6 +141,8 @@ Continue your revision with these related guides:
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/transport-n-[plants](/blog/respiration-in-plants-class-11-revision-notes-neet)-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Transport%20In%20Plants%20Class%2011%20Biology%20Revision%20%E2%80%94%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -142,3 +153,24 @@ Continue your revision with these related guides:
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet)
 - 📖 [Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/respiration-n-plants-class-11-revision-notes-neet)
+
+## 🔁 Last 5 Minutes Box
+
+### Transport in Plants
+   * **Types of Transport**: 
+     + Passive transport (osmosis, diffusion, facilitated diffusion)
+     + Active transport (against concentration gradient, requires energy)
+   * **Water Absorption**: 
+     + Osmosis: water enters root hair cells through plasma membrane
+     + Root pressure theory: responsible for guttation
+   * **Xylem Transport**: 
+     + Cohesion-tension theory: water rises due to transpiration pull
+     + Xylem sap: water, minerals, some organic compounds
+   * **Phloem Transport**: 
+     + Mass flow or pressure flow hypothesis: loading, transport, unloading
+     + Phloem sap: sugars, amino acids, hormones
+   * **Key Terms**: 
+     + Turgor pressure
+     + Osmotic potential
+     + Plasmolysis
+     + Deplasmolysis

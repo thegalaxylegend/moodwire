@@ -163,6 +163,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Reproduction](/blog/human-reproduction-class-12-notes)%20In%20Organisms%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics

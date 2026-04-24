@@ -75,7 +75,7 @@ manualReview: false
 - In the last 5 minutes of the exam, make sure to review the key concepts, including $\alpha$-amylase, $\beta$-galactosidase, and $\mu$-calculus.
 - Check your calculations for microbial growth rates and population dynamics.
 - Ensure that you have answered all the questions, including the ones on $\frac{a}{b}$ and $\frac{b}{a}$ ratios.
-- Review your notes on Ayush's note and the importance of understanding the role of microbes in human welfare.
+- Review your notes on Ayush's note and the importance of understanding the role of microbes in [human](/blog/human-reproduction-class-12-notes) welfare.
 
 ## 📝 Practice MCQs
 **1. What is the role of $\alpha$-amylase in the production of biofuels?**
@@ -84,7 +84,7 @@ A) To break down cellulose into simpler sugars
 -
 B) To break down starch into simpler sugars
 -
-C) To break down proteins into simpler amino acids
+C) To break down proteins into simpler amino [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
 -
 D) To break down lipids into simpler fatty acids
 

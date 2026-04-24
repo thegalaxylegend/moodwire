@@ -99,7 +99,7 @@ In the upcoming sections, we'll explore each of these topics and detail, using a
 * Failing to consider the [effects](/blog/magnetic-effects-of-current-class-12-notes) of inductive and capacitive reactance
 * Not using phasors to simplify complex AC circuit [analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)
 
-By following this introduction and the subsequent sections, you'll be well on your way to mastering the concept of Alternating Current and achieving success and the class 12 exams. Remember to stay focused, practice regularly, n review the key concepts to ensure a deep understanding of the subject. 
+By following this introduction and the subsequent sections, you'll be well on your way to mastering the concept of Alternating [Current](/blog/magnetic-effects-of-current-class-12-notes) and achieving success and the class 12 exams. Remember to stay focused, practice regularly, n review the key concepts to ensure a deep understanding of the subject. 
 
 **Exam Day Summary:**
 To summarize, Alternating Current is a crucial topic n class 12 Physics, with a significant weightage and the board exams. To excel and this topic, it's essential to have a solid foundation and [electromagnetic](/blog/electromagnetic-waves-class-12-notes) induction, LCR circuits, oscillations, n trigonometry. By understanding key concepts like AC waveforms, phasors, impedance, n phase difference, you'll be able to analyze and solve problems involving AC circuits. Stay focused, avoid common mistakes, n practice regularly to achieve success and the exams.
@@ -239,7 +239,7 @@ Ayush's Note on Alternating Current is a concise yet detailed study guide that f
 | Characteristic | AC | DC |
 | --- | --- | --- |
 | Direction of Current | Periodically reverses direction | Flows and one direction only |
-| Circuit Analysis | More complex due to phase shifts and reactance | Simpler, with voltage and current and phase |
+| Circuit [Analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) | More complex due to phase shifts and reactance | Simpler, with voltage and current and phase |
 | Applications | Power distribution, electronic circuits | Electronic devices, battery-powered devices |
 | Efficiency | Can be higher due to the use of transformers | Generally lower due to energy loss and transmission |
 

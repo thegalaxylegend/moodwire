@@ -43,7 +43,7 @@ manualReview: false
 
 ## 🔁 Last 5 Minutes Box
 - Make sure to review the formulas for rate of reaction, integrated rate law, and Arrhenius equation.
-- Practice deriving the integrated rate law for first order reactions.
+- Practice deriving the integrated rate law for first order [reactions](/blog/chemical-reactions-and-equations-class-10-notes).
 - Review the concept of half-[life](/blog/chemistry-in-everyday-life-class-12-notes) and its relationship with the rate constant.
 - Make sure to understand the concept of activation energy and its relationship with the rate constant.
 - Practice applying the Arrhenius equation to solve problems related to temperature dependence of rate constant.
@@ -123,7 +123,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Chemical%20Kinetics%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet)%20Kinetics%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

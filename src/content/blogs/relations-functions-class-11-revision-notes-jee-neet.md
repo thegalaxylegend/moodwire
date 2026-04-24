@@ -9,6 +9,24 @@ practice_link: "/class-11/chemistry/relations-functions-class-11-revision-notes-
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-relations-functions-revision-notes"></a>What is Relations Functions Revision Notes?](#a-idwhat-is-relations-functions-revision-notesawhat-is-relations-functions-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-cartesian-product-of-sets"></a>1. Cartesian Product of Sets](#a-id1-cartesian-product-of-setsa1-cartesian-product-of-sets)
+5. [<a id="2-relations"></a>2. Relations](#a-id2-relationsa2-relations)
+6. [<a id="3-functions"></a>3. Functions](#a-id3-functionsa3-functions)
+7. [<a id="4-some-standard-functions-n-their-graphs"></a>4. Some Standard Functions and Their Graphs](#a-id4-some-standard-functions-n-their-graphsa4-some-standard-functions-and-their-graphs)
+8. [<a id="5-algebra-of-real-functions"></a>5. Algebra of Real Functions](#a-id5-algebra-of-real-functionsa5-algebra-of-real-functions)
+9. [<a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qandaacomprehensive-exam-strategy-qa)
+10. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+11. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+12. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+13. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Relations Functions Revision Notes?](#what-is-relations-functions-revision-notes)
@@ -127,7 +145,7 @@ If f and g are two real [functions](/blog/trigonometric-functions-class-11-revis
 
 ## <a id="conclusion"></a>Conclusion
 
-Functions are the heartbeat of Calculus and higher mathematics. By distinguishing between simple relations and precise functions, n y internalizing the graphs of "parent" functions, you build a mental map of mathematical behavior. Always check your domain constraints and visualize your ranges!
+Functions are the heartbeat of Calculus and higher mathematics. By distinguishing between simple relations and precise functions, n y internalizing the graphs of "parent" functions, you build a mental map of [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) behavior. Always check your domain constraints and visualize your ranges!
 
 ---
 
@@ -150,6 +168,8 @@ Continue your [revision](/blog/limits-derivatives-class-11-revision-notes-jee-ne
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/relations-functions-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Relations%20Functions%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20JEE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -160,3 +180,23 @@ Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Trigonometric Functions Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)
 - 📖 [Complex Numbers Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Sets Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/sets-class-11-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* A common mistake in identifying one-to-one and onto functions is not considering the co-domain of the function. For a function to be onto, every element in the co-domain must have a corresponding element in the domain that maps to it.
+* When checking for injectivity (one-to-one), many students forget that the condition f(x) = f(y) implies x = y must hold for all x, y in the domain of f, not just for some specific values.
+* Students often confuse the definition of a function with that of a relation, incorrectly assuming that any relation is a function, ignoring the requirement that each element of the domain must map to exactly one element in the co-domain.
+* In determining the inverse of a function, a critical error is not verifying that the original function is indeed one-to-one, as only one-to-one functions have inverses.
+* Another trap in functions, especially when dealing with composite functions, is not paying attention to the order of operations and the domains and ranges at each step, which can lead to incorrect composite functions or conclusions about their properties.
+
+## 🔁 Last 5 Minutes Box
+
+- **Types of Relations**: Reflexive, Symmetric, Transitive, Equivalence Relations
+
+   - **Function Properties**: One-One (Injective), Onto (Surjective), Bijective
+
+   - **Composition of Functions**: (fog)(x) = f(g(x)), (gof)(x) = g(f(x))
+
+   - **Inverse of Functions**: f^(-1)(x) exists if f is Bijective, f(f^(-1)(x)) = x
+
+   - **Domain, Codomain, Range**: D(f), C(f), R(f) for function f

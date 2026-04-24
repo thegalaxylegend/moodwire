@@ -53,7 +53,7 @@ The following are the key [concepts](/blog/jee-mains-chemistry-repeated-concepts
 5. **Precipitation**: Water that falls to the Earth's surface, including **rain**, **snow**, **sleet**, n **hail**.
 
 ### <a id="formulae-tables"></a>Formulae Tables
-Here are some essential formulae related to climatology:
+Here are [some](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) essential formulae related to climatology:
 
 | Formula | Description |
 | --- | --- |
@@ -146,7 +146,7 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/climatology-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/[chemistry](/blog/jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet)/climatology-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Climatology%20Class%2011%20Geography%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

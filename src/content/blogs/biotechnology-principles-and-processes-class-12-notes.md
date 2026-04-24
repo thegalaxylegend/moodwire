@@ -51,7 +51,7 @@ manualReview: false
 - **Step 3:** The resulting recombinant DNA molecule can be used to produce a desired protein or other product.
 
 ## 🧠 The One Thing Most Students Get Wrong
-- The one thing most students get wrong in biotechnology is the difference between DNA and RNA.
+- The one thing most students get wrong in [biotechnology](/blog/biotechnology-and-its-applications-class-12-notes) is the difference between DNA and RNA.
 - DNA (deoxyribonucleic acid) is a double-stranded molecule that contains the genetic instructions for an organism.
 - RNA (ribonucleic acid) is a single-stranded molecule that in the process of gene expression.
 - The main differences between DNA and RNA are:

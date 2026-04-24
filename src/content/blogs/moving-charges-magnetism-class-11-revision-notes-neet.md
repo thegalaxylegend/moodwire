@@ -236,5 +236,5 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
    - **Biot-Savart Law**: dB = (μ₀ * Idl sin(θ)) / 4πr² 
    - **Ampere's Law**: ∮B · dl = μ₀I 
    - **Magnetic Field due to [Current](/blog/current-electricity-class-11-revision-notes-neet) in a Solenoid**: B = μ₀nI 
-   - **Torque on a Current Loop**: τ = nBIAsin(θ) 
+   - **Torque on a [Current](/blog/current-electricity-class-11-revision-notes-neet) Loop**: τ = nBIAsin(θ) 
    - **Magnetic Moment**: M = IA

@@ -9,6 +9,24 @@ practice_link: "/class-11/chemistry/sets-class-11-revision-notes-jee-neet"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-sets-revision-notes"></a>What is Sets Revision Notes?](#a-idwhat-is-sets-revision-notesawhat-is-sets-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-representation-of-sets"></a>1. Representation of Sets](#a-id1-representation-of-setsa1-representation-of-sets)
+5. [<a id="2-types-of-sets"></a>2. Types of Sets](#a-id2-types-of-setsa2-types-of-sets)
+6. [<a id="3-subsets-n-power-sets"></a>3. Subsets and Power Sets](#a-id3-subsets-n-power-setsa3-subsets-and-power-sets)
+7. [<a id="4-operations-on-sets"></a>4. Operations on Sets](#a-id4-operations-on-setsa4-operations-on-sets)
+8. [<a id="5-venn-diagrams"></a>5. Venn Diagrams](#a-id5-venn-diagramsa5-venn-diagrams)
+9. [<a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qandaacomprehensive-exam-strategy-qa)
+10. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+11. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+12. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+13. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Sets Revision Notes?](#what-is-sets-revision-notes)
@@ -39,7 +57,7 @@ practice_link: "/class-11/chemistry/sets-class-11-revision-notes-jee-neet"
 > - **Operations:** 
 >   - **Union (A ∪ B):** Elements and A OR B.
 >   - **Intersection (A ∩ B):** Elements and BOTH A and B.
->   - **Difference (A - B):** Elements and A but NOT and B.
+>   - **Difference (A - B):** Elements and A bit NOT and B.
 > - **Complement (A'):** Elements and Universal Set U but NOT and A.
 > [**📥 Download 1-Page Short Notes PDF (Zero-Friction)**](#)
 
@@ -91,7 +109,7 @@ The collection of all subsets of a set A is called the power set of A, denoted y
 1.  **Union of Sets (A ∪ B):** The set of all those elements which belong either to A or to B or to both.
 2.  **Intersection of Sets (A ∩ B):** The set of all elements which are common to both A and B.
 3.  **Disjoint Sets:** If A ∩ B = Φ, then A and B are called disjoint sets.
-4.  **Difference of Sets (A - B):** The set of elements which belong to A but not to B.
+4.  **Difference of Sets (A - B):** The set of elements which belong to A bit not to B.
 5.  **Complement of a Set (A'):** Let U be the universal set. Then A' = U - A.
 
 ---
@@ -160,6 +178,8 @@ Continue your [revision](/blog/linear-inequalities-class-11-revision-notes-jee-n
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/sets-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Sets%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20JEE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -170,3 +190,29 @@ Continue your [revision](/blog/linear-inequalities-class-11-revision-notes-jee-n
 - 📖 [Linear Inequalities Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/linear-inequalities-class-11-revision-notes-jee-neet)
 - 📖 [Mathematical Induction Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
 - 📖 [Motion In A Plane Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* A common mistake in set operations is forgetting to consider the empty set as a subset of every set. 
+* Students often mistakenly assume that the union of two sets is always greater than or equal to the intersection of the two sets, without considering cases where one set is a subset of the other. 
+* Many students incorrectly apply De Morgan's laws by swapping the union and intersection operations without negating the sets. 
+* A trap question in set theory is to determine the number of elements in the power set of a given set. Students often forget to use the formula 2^n, where n is the number of elements in the original set. 
+* When working with set relations, a common error is to assume that a relation is an equivalence relation without verifying that it satisfies all three properties: reflexivity, symmetry, and transitivity.
+
+## 🔁 Last 5 Minutes Box
+
+- **Sets**: A set is an unordered collection of unique objects, known as elements or members, that can be anything ([numbers](/blog/complex-numbers-class-11-revision-notes-jee-neet), letters, people, etc.). 
+      - **Notation**: A set is often represented by a capital letter (e.g., A, B, C), and its elements are denoted by lowercase letters (e.g., a, b, c).
+      - **Types of Sets**: 
+        * **Empty Set**: A set with no elements, denoted by {} or ϕ.
+        * **Singleton Set**: A set with only one element.
+        * **Finite Set**: A set with a finite number of elements.
+        * **Infinite Set**: A set with an infinite number of elements.
+      - **Set Operations**:
+        * **Union**: The union of two sets A and B, denoted by A ∪ B, is the set of all elements that are in A, in B, or in both.
+        * **Intersection**: The intersection of two sets A and B, denoted by A ∩ B, is the set of all elements that are in both A and B.
+        * **Difference**: The difference of two sets A and B, denoted by A - B or A ∖ B, is the set of all elements that are in A bit not in B.
+      - **Laws of Set Operations**:
+        * **Commutative Law**: A ∪ B = B ∪ A, A ∩ B = B ∩ A.
+        * **Associative Law**: (A ∪ B) ∪ C = A ∪ (B ∪ C), (A ∩ B) ∩ C = A ∩ (B ∩ C).
+        * **Distributive Law**: A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C), A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C).

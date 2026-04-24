@@ -9,6 +9,24 @@ practice_link: "/class-11/biology/thermodynamics-class-11-revision-notes-neet"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-thermodynamics-revision-notes"></a>What is Thermodynamics Revision Notes?](#a-idwhat-is-thermodynamics-revision-notesawhat-is-thermodynamics-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-thermodynamic-systems-n-state"></a>1. Thermodynamic Systems and State](#a-id1-thermodynamic-systems-n-statea1-thermodynamic-systems-and-state)
+5. [<a id="2-the-first-law-of-thermodynamics"></a>2. The First Law of Thermodynamics](#a-id2-the-first-law-of-thermodynamicsa2-the-first-law-of-thermodynamics)
+6. [<a id="3-derivations-work-done-n-different-processes"></a>3. Derivations: Work Done and Different Processes](#a-id3-derivations-work-done-n-different-processesa3-derivations-work-done-and-different-processes)
+7. [<a id="4-the-carnot-cycle-the-ideal-heat-engine"></a>4. The Carnot Cycle: The Ideal Heat Engine](#a-id4-the-carnot-cycle-the-ideal-heat-enginea4-the-carnot-cycle-the-ideal-heat-engine)
+8. [<a id="5-the-second-law-of-thermodynamics"></a>5. The Second Law of Thermodynamics](#a-id5-the-second-law-of-thermodynamicsa5-the-second-law-of-thermodynamics)
+9. [<a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qandaacomprehensive-exam-strategy-qa)
+10. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+11. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+12. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+13. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Thermodynamics Revision Notes?](#what-is-thermodynamics-revision-notes)
@@ -32,7 +50,7 @@ practice_link: "/class-11/biology/thermodynamics-class-11-revision-notes-neet"
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
-> - **Zeroth Law:** Leads to the concept of Temperature.
+> - **Zeroth Law:** leads to the concept of Temperature.
 > - **1st Law:** ΔQ = ΔU + ΔW. (Conservation of energy).
 > - **Isothermal:** T = constant; ΔU = 0; W = nRT ln(V2/V1).
 > - **Adiabatic:** ΔQ = 0; PVᵞ = const; W = (P1V1 - P2V2) / (γ - 1).
@@ -68,7 +86,7 @@ practice_link: "/class-11/biology/thermodynamics-class-11-revision-notes-neet"
 
 Work done y a gas is given y the integral: **W = ∫ P dV**.
 
-### <a id="i-isothermal-process-t-constant"></a>I. Isothermal Process (T = Constant)
+### <a id="i-isothermal-process-t-constant"></a>I. Isothermal process (T = Constant)
 1.  For an ideal gas: **P = nRT / V**.
 2.  **W = ∫ [V1 to V2] (nRT / V) dV**
 3.  **W = nRT [ln V]_V1^V2**
@@ -88,7 +106,7 @@ In an adiabatic process, **PVᵞ = K** (where γ = Cp/Cv).
 ## <a id="4-the-carnot-cycle-the-ideal-heat-engine"></a>4. The Carnot Cycle: The Ideal Heat Engine
 
 The Carnot Cycle is a theoretical cycle consisting of four reversible steps:
-1.  **Isothermal Expansion (Step 1):** Heat **Q1** is absorbed at **T1**.
+1.  **Isothermal Expansion (Step 1):** Heat **Q1** is absorbed in **T1**.
 2.  **Adiabatic Expansion (Step 2):** Temperature drops from **T1** to **T2**.
 3.  **Isothermal Compression (Step 3):** Heat **Q2** is rejected at **T2**.
 4.  **Adiabatic Compression (Step 4):** Temperature rises back to **T1**.
@@ -156,6 +174,8 @@ Continue your [revision](/blog/current-electricity-class-11-revision-notes-neet)
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/thermodynamics-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Thermodynamics%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -166,3 +186,29 @@ Continue your [revision](/blog/waves-class-11-revision-notes-neet) with these re
 - 📖 [Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/waves-class-11-revision-notes-neet)
 - 📖 [Thermodynamics Chemistry Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)
 - 📖 [Kinetic Theory Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Mistaking the sign of work done**: In thermodynamics, work done by the system is given a negative sign, while work done on the system is given a positive sign. Many students get this sign convention wrong, leading to incorrect calculations.
+* **Confusing internal energy and enthalpy**: Internal energy (U) and enthalpy (H) are often confused with each other. However, internal energy is the total energy of the system, while enthalpy is the total energy of the system plus the energy associated with the pressure and volume of a system.
+* **Forgetting to account for the surroundings**: Thermodynamics is not just about the system, but also about the surroundings. Students often forget to consider the energy changes in the surroundings, leading to incorrect calculations of entropy and other thermodynamic [properties](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet).
+* **Incorrectly applying the first law of thermodynamics**: The first law of thermodynamics states that energy cannot be created or destroyed, only converted from one form to another. Many students incorrectly apply this law, forgetting that the total energy of the system and surroundings must remain constant.
+* **Not considering the direction of spontaneous processes**: Many students forget that spontaneous processes always proceed in the direction of increasing entropy. This can lead to incorrect predictions of the feasibility of a reaction or process.
+
+## 🔁 Last 5 Minutes Box
+
+* **Laws of Thermodynamics**: 
+  + Zeroth Law: If two systems are in thermal equilibrium with a third system, then they are in thermal equilibrium with each other.
+  + First Law: Energy can't be created or destroyed, only converted from one form to another (ΔE = Q - W).
+  + Second Law: Total entropy of an isolated system always increases over time (ΔS = ΔQ / T).
+  + Third Law: As temperature approaches absolute zero, entropy of a system approaches a minimum value.
+* **Thermodynamic Processes**: 
+  + Isothermal: Constant temperature (ΔT = 0).
+  + Adiabatic: No heat transfer (Q = 0).
+  + Isobaric: Constant pressure (ΔP = 0).
+  + Isochoric: Constant volume (ΔV = 0).
+* **Thermodynamic Variables**: 
+  + Internal Energy (U): Total energy of a system.
+  + Enthalpy (H): Total energy of a system including pressure and volume (H = U + PV).
+  + Entropy (S): Measure of disorder or randomness of a system.
+  + Gibbs Free Energy (G): Energy available to do work at constant temperature and pressure (G = H - TS).

@@ -9,6 +9,24 @@ practice_link: "/class-11/mathematics/permutations-combinations-class-11-revisio
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-permutations-combinations-revision-notes"></a>What is Permutations Combinations Revision Notes?](#a-idwhat-is-permutations-combinations-revision-notesawhat-is-permutations-combinations-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-fundamental-principle-of-counting-fpc"></a>1. Fundamental Principle of Counting (FPC)](#a-id1-fundamental-principle-of-counting-fpca1-fundamental-principle-of-counting-fpc)
+5. [<a id="2-factorials-n"></a>2. Factorials (n!)](#a-id2-factorials-na2-factorials-n)
+6. [<a id="3-permutations-arrangements"></a>3. Permutations (Arrangements)](#a-id3-permutations-arrangementsa3-permutations-arrangements)
+7. [<a id="4-combinations-selections"></a>4. Combinations (Selections)](#a-id4-combinations-selectionsa4-combinations-selections)
+8. [<a id="5-difference-permutation-vs-combination"></a>5. Difference: Permutation vs Combination](#a-id5-difference-permutation-vs-combinationa5-difference-permutation-vs-combination)
+9. [<a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qandaacomprehensive-exam-strategy-qa)
+10. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+11. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+12. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+13. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Permutations Combinations Revision Notes?](#what-is-permutations-combinations-revision-notes)
@@ -149,6 +167,8 @@ Continue your [revision](/blog/conic-sections-class-11-revision-notes-jee) with 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/permutations-combinations-class-11-revision-notes-jee) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Permutations%20Combinations%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20JEE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -159,3 +179,15 @@ Continue your [revision](/blog/conic-sections-class-11-revision-notes-jee) with 
 - 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)
 - 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)
 - 📖 [Electric Charges Fields Class 11 Mathematics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Forgetting to Apply the Formula for Permutations with Repetition**: When items can be repeated, the formula for permutations is n^r, where n is the number of items to choose from and r is the number of items being chosen. Many students forget to apply this formula, leading to incorrect answers.
+* **Confusing Permutations and Combinations**: Permutations consider the order of selection, while combinations do not. A common mistake is to use the combination formula when the problem requires permutations, and vice versa.
+* **Not Considering the Case of Non-Distinct Objects**: When dealing with permutations of non-distinct objects, the formula for permutations needs to be adjusted. Many students fail to account for this, resulting in incorrect calculations.
+* **Incorrectly Applying the Formula for Combinations with Repetition**: The formula for combinations with repetition is (n+r-1) choose r, where n is the number of items to choose from and r is the number of items being chosen. A common mistake is to misapply this formula, leading to incorrect answers.
+* **Failing to Account for Overcounting**: In certain problems, overcounting can occur when the same arrangement is counted multiple times. Students often forget to adjust for overcounting, resulting in an incorrect final answer.
+
+## 🔁 Last 5 Minutes Box
+
+* Permutations: nPr = n! / (n-r)!,* Combinations: nCr = n! / (r!(n-r)!),* Important Identities: nCr + nC(r-1) = (n+1)Cr, nCr = nC(n-r),* Properties: nC0 = nCn = 1, nC1 = n, nCn = 1,* Applications: Dividing objects into groups, Selecting items from a set

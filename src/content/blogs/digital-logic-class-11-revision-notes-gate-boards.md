@@ -136,7 +136,7 @@ By mastering Digital Logic, we can unlock the secrets of the digital world and d
 
 The study of Digital Logic is a fascinating journey that will challenge our thinking and broaden our understanding of the digital world. As we explore the world of Digital Logic, we will encounter numerous concepts and techniques that will help us develop a deep understanding of digital systems. 
 
-We will also explore the concept of computer architecture, which involves the design of computer systems to perform specific tasks. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
+We will also explore the concept of [computer](/blog/computer-organization-class-11-notes) architecture, which involves the design of [computer](/blog/computer-organization-class-11-notes) systems to perform specific tasks. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
 
 By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics and Computer Science and develop a keen appreciation for the intricate beauty of digital systems. With dedication and practice, we can master the concepts of Digital Logic and achieve success and the Class 11 exam. 
 
@@ -192,7 +192,7 @@ A \oplus B &= Y \\
 
 This equation represents the $XOR$ gate, which produces an output of $1$ when the inputs are different. 
 
-We will also explore the concept of database systems, which involves the storage and retrieval of data and a systematic and efficient manner. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
+We will also explore the concept of database systems, which involves the storage and retrieval of [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) and a systematic and efficient manner. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
 
 As we prepare for the Class 11 exam, it is essential to recognize that Digital Logic is not just a theoretical subject, but also a practical one. The exam will test our ability to apply the concepts we have learned to solve problems and design digital circuits. 
 

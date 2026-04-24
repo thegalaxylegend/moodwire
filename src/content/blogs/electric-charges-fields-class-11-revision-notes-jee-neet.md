@@ -175,7 +175,7 @@ An **Electric Dipole** consists of two equal and opposite [charges](/blog/moving
 ### <a id="i-derivation-proof-using-coulombs-law"></a>I. Derivation (Proof using Coulomb’s Law)
 1.  Consider a point charge **q** at the center of a sphere of radius **r**.
 2.  **E = [1 / 4πε₀] [q / r²]**.
-3.      Flux **Φ = ∮ E DA \cos 0° = E ∮ DA**. 
+3.       Flux **Φ = ∮ E DA \cos 0° = E ∮ DA**. 
 4.  Since ∮ DA = 4πr²:
     - **Φ = [1 / 4πε₀] [q / r²] [4πr²] = q / ε₀**. (Proven)
 
@@ -249,7 +249,7 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/electric-charges-fields-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/electric-[charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet)-fields-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Electric%20Charges%20Fields%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

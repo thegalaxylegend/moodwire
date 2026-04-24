@@ -9,6 +9,24 @@ practice_link: "/class-11/physics/straight-lines-class-11-revision-notes-jee-nee
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-straight-lines-revision-notes"></a>What is Straight Lines Revision Notes?](#a-idwhat-is-straight-lines-revision-notesawhat-is-straight-lines-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-slope-of-a-line"></a>1. Slope of a Line](#a-id1-slope-of-a-linea1-slope-of-a-line)
+5. [<a id="2-various-forms-of-the-equation-of-a-line"></a>2. Various Forms of the Equation of a Line](#a-id2-various-forms-of-the-equation-of-a-linea2-various-forms-of-the-equation-of-a-line)
+6. [<a id="3-general-equation-of-a-line"></a>3. General Equation of a Line](#a-id3-general-equation-of-a-linea3-general-equation-of-a-line)
+7. [<a id="4-distance-of-a-point-from-a-line"></a>4. Distance of a Point from a Line](#a-id4-distance-of-a-point-from-a-linea4-distance-of-a-point-from-a-line)
+8. [<a id="5-shifting-of-origin"></a>5. Shifting of Origin](#a-id5-shifting-of-origina5-shifting-of-origin)
+9. [<a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qandaacomprehensive-exam-strategy-qa)
+10. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+11. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+12. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+13. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Straight Lines Revision Notes?](#what-is-straight-lines-revision-notes)
@@ -151,7 +169,9 @@ Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/straight-lines-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/[straight](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)-lines-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Straight%20Lines%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20JEE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 
@@ -163,3 +183,23 @@ Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet)
 - 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+    * The equation $ax + by + c = 0$ represents a line if $a$ and $b$ are not both zero. However, a common mistake is assuming the equation is always a line, forgetting that if $a = b = 0$, it doesn't represent a line.
+    * When finding the equation of a line given two points, students often forget to check if the line is vertical, in which case the equation would be of the form $x = a$.
+    * A frequent error occurs when calculating the slope of a line given two points $(x_1, y_1)$ and $(x_2, y_2)$, where students forget that the slope $m$ is given by $(y_2 - y_1) / (x_2 - x_1)$ and not the other way around.
+    * In the context of the angle between two lines, a common oversight is forgetting that the formula $	a 	heta = left| rac{m_2 - m_1}{1 + m_1m_2} ight|$ applies only when the lines are not perpendicular; for perpendicular lines, $	heta = 90^circ$.
+    * When applying the formula for the distance of a point $(x_1, y_1)$ from a line $ax + by + c = 0$, students often neglect the absolute value sign, leading to incorrect signs for the distance; the correct formula is $rac{|ax_1 + by_1 + c|}{sqrt{a^2 + b^2}}$.
+
+## 🔁 Last 5 Minutes Box
+
+### Straight Lines Formulas
+   * Slope (m) of a line = (y2 - y1) / (x2 - x1)
+   * Slope-intercept form: y = mx + c
+   * Point-slope form: y - y1 = m(x - x1)
+   * Two-point form: y - y1 = ((y2 - y1) / (x2 - x1))(x - x1)
+   * Normal form: x*cos(α) + y*sin(α) = p
+   * Distance of a point (x1, y1) from a line Ax + By + C = 0: |Ax1 + By1 + C| / √(A² + B²)
+   * Equation of a line passing through (x1, y1) and having slope m: y - y1 = m(x - x1)
+   * Equation of a line with slope m and y-intercept c: y = mx + c

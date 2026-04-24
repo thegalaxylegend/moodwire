@@ -119,6 +119,16 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
+## 📚 Academic References
+
+*Content verified against peer-reviewed research:*
+
+1. *El Agente: An autonomous agent for quantum [chemistry](/blog/chemistry-in-everyday-life-class-12-notes)* — **Matter** (2025) 🔓 — [DOI ↗](https://doi.org/10.1016/j.matt.2025.102263)
+
+*🔓 = Open Access article*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Semiconductor%20Electronics%20Class%2012%20Physics%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics

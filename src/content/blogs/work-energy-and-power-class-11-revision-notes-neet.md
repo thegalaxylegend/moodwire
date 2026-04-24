@@ -9,6 +9,25 @@ practice_link: "/class-11/biology/work-energy-n-power-class-11-revision-notes-ne
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-work-energy-n-power-revision-notes"></a>What is Work Energy And Power Revision Notes?](#a-idwhat-is-work-energy-n-power-revision-notesawhat-is-work-energy-and-power-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-work-the-transfer-of-energy"></a>1. Work: The Transfer of Energy](#a-id1-work-the-transfer-of-energya1-work-the-transfer-of-energy)
+5. [<a id="2-the-workenergy-theorem-we-theorem"></a>2. The Work-Energy Theorem (WE Theorem)](#a-id2-the-workenergy-theorem-we-theorema2-the-work-energy-theorem-we-theorem)
+6. [<a id="3-kinetic-n-potential-energy"></a>3. Kinetic and Potential Energy](#a-id3-kinetic-n-potential-energya3-kinetic-and-potential-energy)
+7. [<a id="4-conservation-of-mechanical-energy"></a>4. Conservation of Mechanical Energy](#a-id4-conservation-of-mechanical-energya4-conservation-of-mechanical-energy)
+8. [<a id="5-power-the-rate-of-work"></a>5. Power: The Rate of Work](#a-id5-power-the-rate-of-worka5-power-the-rate-of-work)
+9. [<a id="6-collisions-momentum-meets-energy"></a>6. Collisions: Momentum Meets Energy](#a-id6-collisions-momentum-meets-energya6-collisions-momentum-meets-energy)
+10. [<a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qandaacomprehensive-exam-strategy-qa)
+11. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+12. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+13. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+14. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Work Energy And Power Revision Notes?](#what-is-work-energy-n-power-revision-notes)
@@ -57,11 +76,11 @@ While forces describe the "how" of [motion](/blog/laws-of-motion-class-11-revisi
 In physics, **Work (W)** is done only when a force causes a displacement.
 **Formula: W = F · d = Fd cosθ**
 - **Unit:** Joule (J).
-- **Dimension:** [ML²T⁻²].
+- **Dimension:** [ML’T⁻²].
 
 ### <a id="three-face-of-work"></a>Three Face of Work:
 1.  **Positive Work (θ < 90°):** Force and displacement are and the same direction (e.g., Kicking a ball).
-2.  **Negative Work (θ > 90°):** Force opposes displacement (e.g., Friction, Braking).
+2.  **Negative Work (θ > 90°):** Force opposes displacement (e.g., Friction, braking).
 3.  **Zero Work (θ = 90°):** Force is perpendicular (e.g., Work done y gravity on a person walking horizontally).
 
 ---
@@ -106,7 +125,7 @@ The "stored" energy due to an object’s position or configuration and a conserv
 **Theorem:** In the presence of only conservative forces, the total [mechanical](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) energy (**K + U**) of a system remains constant.
 **Proof (Free Fall):**
 At height H: K=0, U=mgH. Total = **mgH**.
-At descent height x: v² = 2gx. K = 1/2 m(2gx) = mgx. U = mg(H-x). Total = **mgH**.
+At decent height x: v² = 2gx. K = 1/2 m(2gx) = mgx. U = mg(H-x). Total = **mgH**.
 **Result:** Total energy is constant at every point and the flight.
 
 ---
@@ -179,6 +198,8 @@ Continue your [revision](/blog/mechanical-properties-of-solids-class-11-revision
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/work-energy-n-power-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Work%20Energy%20And%20Power%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -189,3 +210,11 @@ Continue your [revision](/blog/mechanical-properties-of-solids-class-11-revision
 - 📖 [Gravitation Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 - 📖 [Laws Of Motion Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
 - 📖 [Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/current-electricity-class-11-revision-notes-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Forgetting to consider the sign of work done**: Many students forget to consider the sign of work done by a force. Work done by a force is positive if the force and displacement are in the same direction, and negative if they are in opposite directions.
+* **Confusing kinetic energy and potential energy**: Students often get confused between kinetic energy (energy of [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)) and potential energy (stored energy). Make sure to identify the type of energy associated with a given situation.
+* **Not accounting for non-conservative forces**: In problems involving work-energy theorem, students often forget to account for non-conservative forces like friction. Non-conservative forces can convert [mechanical](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) energy into other forms, affecting the overall energy of the system.
+* **Incorrect application of the work-energy theorem**: The work-energy theorem states that the net work done on an object is equal to the change in its kinetic energy. However, students often misapply this theorem by forgetting to consider the initial and final kinetic energies of the object.
+* **Mistaking power for energy**: Power and energy are related but distinct concepts. Power is the rate at which energy is transferred or converted, while energy is the capacity to do work. Make sure to distinguish between these two quantities in problems involving work, energy, and power.

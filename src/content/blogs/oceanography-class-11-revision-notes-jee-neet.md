@@ -23,18 +23,18 @@ practice_link: "/class-11/physics/oceanography-class-11-revision-notes-jee-neet"
 
 - [What is Oceanography?](#what-is-oceanography)
 - [Quick Revision & Recap: Oceanography](#quick-revision-n-recap-oceanography)
-  - [Ayush's Personal Note](#ayushs-personal-note)
-  - [Core Concepts](#core-concepts)
-  - [Formulae Tables](#formulae-tables)
-  - [JEE/NEET Data](#jeeneet-data)
-  - [MCQs](#mcqs)
-  - [Trap Exceptions](#trap-exceptions)
-  - [Additional Tips for Quick Revision](#additional-tips-for-quick-revision)
-  - [Core Concept Connections](#core-concept-connections)
-  - [Formulae Derivations](#formulae-derivations)
-  - [JEE/NEET Practice Questions](#jeeneet-practice-questions)
-  - [Ayush's Advice](#ayushs-advice)
-  - [Final Check](#final-check)
+ - [Ayush's Personal Note](#ayushs-personal-note)
+ - [Core Concepts](#core-concepts)
+ - [Formulae Tables](#formulae-tables)
+ - [JEE/NEET Data](#jeeneet-data)
+ - [MCQs](#mcqs)
+ - [Trap Exceptions](#trap-exceptions)
+ - [Additional Tips for Quick Revision](#additional-tips-for-quick-revision)
+ - [Core Concept Connections](#core-concept-connections)
+ - [Formulae Derivations](#formulae-derivations)
+ - [JEE/NEET Practice Questions](#jeeneet-practice-questions)
+ - [Ayush's Advice](#ayushs-advice)
+ - [Final Check](#final-check)
 - [📚 Related Topics](#-related-topics)
 
 # Oceanography Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
@@ -217,17 +217,17 @@ Continue your [revision](/blog/classification-elements-periodicity-class-11-revi
 * **Incorrectly identifying the deepest part of the ocean**: Some students may think that the deepest part of the ocean is the Mariana Trench, but they may not know that it is located in the Pacific Ocean, to the east of the Mariana Islands.
 * **Confusing upwelling with downwelling**: Students may struggle to distinguish between upwelling, which is the process by which deep, cold water moves to the surface, and downwelling, which is the process by which surface water moves to the depths.
 * **Forgetting the importance of thermohaline circulation**: Thermohaline circulation is a critical component of oceanography, as it helps to distribute heat and nutrients across the globe. However, some students may overlook its significance or fail to understand how it works.
-* **Overlooking the role of salinity in ocean dynamics**: Salinity plays a crucial role in ocean dynamics, affecting everything from ocean currents to marine life. However, some students may neglect to consider its impact or fail to understand how it interacts with other factors, such as temperature and pressure.
+* **Overlooking the role of salinity in ocean dynamics**: Salinity in ocean dynamics, affecting everything from ocean currents to marine life. However, some students may neglect to consider its impact or fail to understand how it interacts with other factors, such as temperature and pressure.
 
 ## 🔁 Last 5 Minutes Box
 
 - **Ocean Relief Features**: Continental Shelf, Continental Slope, Deep-Sea Trenches, Mid-Ocean Ridges
-   - **Ocean Deposits**: Terrigenous, Biogenous, Hydrogenous, Cosmogenous
-   - **Water Movements**: Waves, Tides, Ocean Currents
-   - **Marine Ecosystems**: Coral Reefs, Open Ocean, Estuaries, Mangroves
-   - **Ocean Resources**: Fish, Pearls, Coral, Seaweed, Minerals
-   - **Ocean Water**: Salinity, Density, Temperature, Pressure
-   - Formulas: 
-     * Salinity = (Chloride ions / Total weight of seawater) * 1.80655
-     * Density = Mass / Volume
-   - **Important Theories**: Continental Drift, Seafloor Spreading, Plate Tectonics
+ - **Ocean Deposits**: Terrigenous, Biogenous, Hydrogenous, Cosmogenous
+ - **Water Movements**: Waves, Tides, Ocean Currents
+ - **Marine Ecosystems**: Coral Reefs, Open Ocean, Estuaries, Mangroves
+ - **Ocean Resources**: Fish, Pearls, Coral, Seaweed, Minerals
+ - **Ocean Water**: Salinity, Density, Temperature, Pressure
+ - Formulas: 
+ * Salinity = (Chloride ions / Total weight of seawater) * 1.80655
+ * Density = Mass / Volume
+ - **Important Theories**: Continental Drift, Seafloor Spreading, Plate Tectonics

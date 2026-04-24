@@ -9,6 +9,20 @@ manualReview: false
 ---
 
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="-formula-bank"></a>⚡ Formula Bank](#a-id-formula-banka-formula-bank)
+3. [<a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks](#a-id-the-5-mistakes-that-cost-marksa-the-5-mistakes-that-cost-marks)
+4. [<a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs](#a-id-3-solved-pyqsa-3-solved-pyqs)
+5. [<a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong](#a-id-the-one-thing-most-students-get-wronga-the-one-thing-most-students-get-wrong)
+6. [<a id="-ayushs-note"></a>👁️ Ayush's Note](#a-id-ayushs-notea-ayushs-note)
+7. [<a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box](#a-id-last-5-minutes-boxa-last-5-minutes-box)
+8. [<a id="-practice-mcqs"></a>📝 Practice MCQs](#a-id-practice-mcqsa-practice-mcqs)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -24,7 +38,7 @@ manualReview: false
   - [✏️ 3 Solved PYQs](#-3-solved-pyqs)
   - [Q1 (2020 CBSE): An element 'X' belongs to Group 2 and Period 3 of the Modern Periodic Table.](#q1-2020-cbse-an-element-x-belongs-to-group-2-and-period-3-of-the-modern-periodic-table)
   - [Q2 (2019 CBSE): How does the metallic character of elements vary:](#q2-2019-cbse-how-does-the-metallic-character-of-elements-vary)
-  - [Q3 (2022 CBSE): Three elements A, B and C have atomic numbers 12, 17 and 18 respectively.](#q3-2022-cbse-three-elements-a-b-and-c-have-atomic-numbers-12-17-and-18-respectively)
+  - [Q3 (2026 CBSE): Three elements A, B and C have atomic numbers 12, 17 and 18 respectively.](#q3-2022-cbse-three-elements-a-b-and-c-have-atomic-numbers-12-17-and-18-respectively)
 - [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
   - [The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
   - [The Reality](#the-reality)
@@ -42,61 +56,58 @@ manualReview: false
   - [🎯 If you can only remember ONE thing:](#-if-you-can-only-remember-one-thing)
 - [📝 Practice MCQs](#-practice-mcqs)
 
-
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
+- **Mendeleev's Periodic Law:** $\text{Properties of elements are periodic function of their atomic weights}$ — relates elements' properties to their atomic weights
 
+- **Period:** $\text{Horizontal row of elements in the periodic table}$ — elements with same valence shell
 
-- **Mendeleev's Periodic Law:** $$$\text{Properties of elements are periodic function of their atomic weights}$$$ — relates elements' properties to their atomic weights
-
-- **Period:** $$$\text{Horizontal row of elements in the periodic table}$$$ — elements with same valence shell
-
-- **Group:** $$$\text{Vertical column of elements in the periodic table}$$$ — elements with same number of valence electrons
+- **Group:** $\text{Vertical column of elements in the periodic table}$ — elements with same number of valence electrons
 Examiner's Trap: Be aware of the difference between period and group in the periodic table.
 
 ### <a id="atomic-number-and-mass-formulas"></a>**Atomic Number and Mass Formulas**
 
-- **Atomic Number (Z):** $$Z = $\text{Number of protons in the nucleus}$$$ — unique identifier for an element
+- **Atomic Number (Z):** $Z = \text{Number of protons in the nucleus}$ — unique identifier for an element
 
-- **Mass Number (A):** $$A = $\text{Number of protons and neutrons in the nucleus}$$$ — total number of nucleons in an atom
+- **Mass Number (A):** $A = \text{Number of protons and neutrons in the nucleus}$ — total number of nucleons in an atom
 
-- **Number of Neutrons (N):** $$N = A - Z$$ — difference between mass number and atomic number
+- **Number of Neutrons (N):** $N = A - Z$ — difference between mass number and atomic number
 Examiner's Trap: Remember that atomic number determines the element, not mass number.
 
 ### <a id="electron-configuration-formulas"></a>**Electron Configuration Formulas**
 
-- **Electron Configuration:** $$$\text{Arrangement of electrons in an atom}$$$ — shows distribution of electrons in shells and subshells
+- **Electron Configuration:** $\text{Arrangement of electrons in an atom}$ — shows distribution of electrons in shells and subshells
 
-- **Aufbau Principle:** $$$\text{Electrons occupy the lowest available energy levels}$$$ — guides the filling of electrons in an atom
+- **Aufbau Principle:** $\text{Electrons occupy the lowest available energy levels}$ — guides the filling of electrons in an atom
 
-- **Hund's Rule:** $$$\text{Electrons occupy empty orbitals before pairing up}$$$ — explains the filling of electrons in degenerate orbitals
+- **Hund's Rule:** $\text{Electrons occupy empty orbitals before pairing up}$ — explains the filling of electrons in degenerate orbitals
 Examiner's Trap: Understand the Aufbau principle and Hund's rule for electron configuration.
 
 ### <a id="block-formulas"></a>**Block Formulas**
 
-- **s-Block Elements:** $$$\text{Elements in groups 1 and 2, and hydrogen}$$$ — characterized by s-orbital filling
+- **s-Block Elements:** $\text{Elements in groups 1 and 2, and hydrogen}$ — characterized by s-orbital filling
 
-- **p-Block Elements:** $$$\text{Elements in groups 13 to 18}$$$ — characterized by p-orbital filling
+- **p-Block Elements:** $\text{Elements in groups 13 to 18}$ — characterized by p-orbital filling
 
-- **d-Block Elements:** $$$\text{Elements in groups 3 to 12}$$$ — characterized by d-orbital filling
+- **d-Block Elements:** $\text{Elements in groups 3 to 12}$ — characterized by d-orbital filling
 
-- **f-Block Elements:** $$$\text{Elements in the bottom two rows of the periodic table}$$$ — characterized by f-orbital filling
+- **f-Block Elements:** $\text{Elements in the bottom two rows of the periodic table}$ — characterized by f-orbital filling
 Examiner's Trap: Identify the blocks of elements in the periodic table.
 
 ### <a id="metallic-and-nonmetallic-formulas"></a>**Metallic and Non-Metallic Formulas**
 
-- **Metallic Character:** $$$\text{Ability of an element to lose electrons}$$$ — increases down a group and decreases across a period
+- **Metallic Character:** $\text{Ability of an element to lose electrons}$ — increases down a group and decreases across a period
 
-- **Non-Metallic Character:** $$$\text{Ability of an element to gain electrons}$$$ — decreases down a group and increases across a period
+- **Non-Metallic Character:** $\text{Ability of an element to gain electrons}$ — decreases down a group and increases across a period
 Examiner's Trap: Recognize the trends in metallic and non-metallic character.
 
 ### <a id="periodic-trends-formulas"></a>**Periodic Trends Formulas**
 
-- **Atomic Radius:** $$$\text{Distance between the nucleus and the outermost electron}$$$ — decreases across a period and increases down a group
+- **Atomic Radius:** $\text{Distance between the nucleus and the outermost electron}$ — decreases across a period and increases down a group
 
-- **Electronegativity:** $$$\text{Ability of an element to attract electrons}$$$ — increases across a period and decreases down a group
+- **Electronegativity:** $\text{Ability of an element to attract electrons}$ — increases across a period and decreases down a group
 
-- **Electron Affinity:** $$$\text{Energy change when an electron is added to an atom}$$$ — becomes more negative across a period and less negative down a group
+- **Electron Affinity:** $\text{Energy change when an electron is added to an atom}$ — becomes more negative across a period and less negative down a group
 Examiner's Trap: Understand the periodic trends in atomic radius, electronegativity, and electron affinity.
 
 ### <a id="decision-table-for-formulas"></a>**Decision Table for Formulas**
@@ -111,8 +122,6 @@ Examiner's Trap: Understand the periodic trends in atomic radius, electronegativ
 | Metallic and Non-Metallic Character | Recognizing trends in metallic and non-metallic properties |
 | Periodic Trends Formulas | Understanding trends in atomic radius, electronegativity, and electron affinity |
 
-
-
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 ### <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
@@ -120,9 +129,9 @@ Examiner's Trap: Understand the periodic trends in atomic radius, electronegativ
 - **Mistake 1 — Periodic Table Structure:**
  
 
-- 🔴 **What students write:** Elements are arranged in the periodic table based on their $molecular$ $mass$.
+- 🔴 **What students write:** Elements are arranged in the periodic table based on their $molecularmass$.
 
-- ✅ **What examiners expect:** Elements are arranged in the periodic table based on their $atomic$ $number$ ($Z$) or $proton$ $number$.
+- ✅ **What examiners expect:** Elements are arranged in the periodic table based on their $atomicnumber$ ($Z$) or $protonnumber$.
 
 - 💸 **Marks lost:** 2 marks
  
@@ -132,7 +141,7 @@ Examiner's Trap: Understand the periodic trends in atomic radius, electronegativ
 - **Mistake 2 — [Metals](/blog/metals-and-non-metals-class-10-notes), Non-[metals](/blog/metals-and-non-metals-class-10-notes), and Metalloids:**
  
 
-- 🔴 **What students write:** All elements are either metals or non-metals.
+- 🔴 **What students write:** All elements are either [metals](/blog/metals-and-non-metals-class-10-notes) or non-[metals](/blog/metals-and-non-metals-class-10-notes).
 
 - ✅ **What examiners expect:** Elements can be classified into metals, non-metals, and metalloids based on their properties.
 
@@ -176,8 +185,6 @@ Examiner's Trap: Understand the periodic trends in atomic radius, electronegativ
  
 
 - 🔧 **The fix (30-second trick):** Recall the block elements' electron configurations: $s$-block ($ns^1$ or $ns^2$), $p$-block ($ns^2 np^1$ to $ns^2 np^6$), $d$-block ($ns^1$ or $ns^2 (n-1)d^1$ to $ns^2 (n-1)d^{10}$), and $f$-block ($ns^2 (n-2)f^1$ to $ns^2 (n-2)f^{14}$).
-
-
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -242,7 +249,7 @@ Give reasons for your answer.
 
 ---
 
-### <a id="q3-2022-cbse-three-elements-a-b-and-c-have-atomic-numbers-12-17-and-18-respectively"></a>Q3 (2022 CBSE): Three elements A, B and C have atomic numbers 12, 17 and 18 respectively.
+### <a id="q3-2022-cbse-three-elements-a-b-and-c-have-atomic-numbers-12-17-and-18-respectively"></a>Q3 (2026 CBSE): Three elements A, B and C have atomic numbers 12, 17 and 18 respectively.
 (a) Which two elements belong to the same period?
 (b) Which element is a noble gas?
 (c) What is the valency of element B?
@@ -279,8 +286,6 @@ Give reasons for your answer.
 - (d) Element A has the largest atomic size.
 ⚡ **Speed trick:** Quickly write electronic configurations to determine period/group. Remember that noble gases have 8 valence electrons (except He). Atomic size is largest on the left side of a period.
 
-
-
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 ### <a id="the-one-thing-most-students-get-wrong"></a>The One Thing Most Students Get Wrong
@@ -290,14 +295,13 @@ The most common misconception among students is that the periodic table is just 
 
 - They think that the elements are arranged based on their atomic masses, but this is not entirely correct.
 
-### <a id="the-reality"></a>The Reality
-The reality is that the periodic table is a beautifully organized table of elements, arranged based on their atomic numbers and recurring [chemical](/blog/chemical-reactions-and-equations-class-10-notes) properties.
+### <a id="the-reality"></a>The Reality is that the periodic table is a beautifully organized table of elements, arranged based on their atomic numbers and recurring [chemical](/blog/chemical-reactions-and-equations-class-10-notes) properties.
 
 - The elements are arranged in order of increasing atomic number (number of protons in the nucleus).
 
 - The periodic table is divided into rows called periods and columns called groups or families.
 
-- Elements in the same group have similar chemical properties due to the same number of electrons in their outermost shell.
+- Elements in the same group have similar [chemical](/blog/chemical-reactions-and-equations-class-10-notes) properties due to the same number of electrons in their outermost shell.
 
 ### <a id="the-diagnostic-question"></a>The Diagnostic Question
 What is the main basis for the classification of elements in the periodic table?
@@ -356,11 +360,9 @@ For students who have a good grasp of the periodic table, some advanced insights
 
 - The formula to calculate the number of valence electrons is: $V = G 
 
-- 2$, where $V$ is the number of valence electrons and $G$ is the group number.
+- $2, where $V$ is the number of valence electrons and $G$ is the group number.
 
 - The relationship between the periodic table and the chemical bonding of elements can be expressed as: $\delta T = \frac{Q}{m \cdot c}$, where $\delta T$ is the change in temperature, $Q$ is the heat transferred, $m$ is the mass of the substance, and $c$ is the specific heat capacity.
-
-
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
@@ -376,8 +378,6 @@ For students who have a good grasp of the periodic table, some advanced insights
  * 2023: Metals and non-metals, and their properties based on their position in the periodic table
 
 - **⚡ The 30-Second Shortcut:** To quickly determine if an element is a metal or non-metal, use the formula for the position of an element in the periodic table: if the element's position is on the left side of the periodic table (Group 1, 2, and part of 13 to 15), it's likely a metal; otherwise, it's likely a non-metal, with some exceptions like metalloids.
-
-
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -410,69 +410,55 @@ For students who have a good grasp of the periodic table, some advanced insights
 ### <a id="-if-you-can-only-remember-one-thing"></a>🎯 If you can only remember ONE thing:
 The periodic table is arranged based on the atomic number of elements, which determines their position and properties.
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
-
 **1. An element with atomic number 20 has an electronic configuration of $[2, 8, 8, 2]$. Which period does it belong to?**
-**A)**  3rd period
-**B)**  4th period
-**C)**  5th period
-**D)**  6th period
+**A)**   3rd period
+**B)**   4th period
+**C)**   5th period
+**D)**   6th period
 
 **Answer:** B) The element is in the 4th period because the outermost energy level has 8 electrons. The correct formula to find the period is $n = l + 1$, where $l$ is the outermost energy level. Here, $l = 3$, so $n = 4$.
-
-
 
 ---
 
 **2. Which of the following elements is a noble gas? $Ca$, $Na$, $Mg$, $Ar$**
-**A)**  $Ca$
-**B)**  $Na$
-**C)**  $Mg$
-**D)**  $Ar$
+**A)**   $Ca$
+**B)**   $Na$
+**C)**   $Mg$
+**D)**   $Ar$
 
 **Answer:** D) The noble gases are unreactive elements in the 18th group of the periodic table. $Ar$ is a noble gas because it has 8 electrons in its outermost energy level and is located in group 18.
-
-
 
 ---
 
 **3. An element has an atomic number of 24. Find the total number of electrons it has when it loses 2 electrons.**
-**A)**  22
-**B)**  22
-**C)**  22
-**D)**  24
+**A)**   22
+**B)**   22
+**C)**   22
+**D)**   24
 
 **Answer:** A) The number of electrons an element has when it loses 2 electrons can be found by subtracting 2 from its atomic number. So, $24 - 2 = 22$.
-
-
 
 ---
 
 **4. What is the electronic configuration of iron (atomic number 26)?**
-**A)**  $[2, 8, 14, 2]$
-**B)**  $[2, 8, 8, 5, 1]$
-**C)**  $[2, 8, 8, 6]$
-**D)**  $[2, 8, 7]$
+**A)**   $[2, 8, 14, 2]$
+**B)**   $[2, 8, 8, 5, 1]$
+**C)**   $[2, 8, 8, 6]$
+**D)**   $[2, 8, 7]$
 
 **Answer:** D) The electronic configuration of iron can be found by filling up the electrons in the energy levels. The correct configuration is $[2, 8, 7]$.
-
-
 
 ---
 
 **5. Which of the following elements belongs to the s-block of the periodic table?**
-**A)**  $Be$
-**B)**  $Na$
-**C)**  $K$
-**D)**  $Cl$
+**A)**   $Be$
+**B)**   $Na$
+**C)**   $K$
+**D)**   $Cl$
 
 **Answer:** B) The s-block elements are located in group 1 and 2 of the periodic table. $Na$ is an s-block element because it is in group 1 and has one electron in its outermost energy level.
-
-
-
 
 ---
 
@@ -481,6 +467,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Periodic%20Classification%20of%20Elements%20Class%2010%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

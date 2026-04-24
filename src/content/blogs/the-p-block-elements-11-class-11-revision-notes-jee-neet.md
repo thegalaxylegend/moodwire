@@ -9,6 +9,26 @@ practice_link: "/class-11/physics/the-p-block-elements-11-class-11-revision-note
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-the-p-block-elements-11"></a>What is The P Block Elements 11?](#a-idwhat-is-the-p-block-elements-11awhat-is-the-p-block-elements-11)
+3. [<a id="introduction-to-the-pblock-elements"></a>Introduction to the P-Block Elements](#a-idintroduction-to-the-pblock-elementsaintroduction-to-the-p-block-elements)
+4. [<a id="why-this-chapter-matters"></a>Why This Chapter Matters](#a-idwhy-this-chapter-mattersawhy-this-chapter-matters)
+5. [<a id="ayushs-note"></a>Ayush's Note](#a-idayushs-noteaayushs-note)
+6. [<a id="electronic-configuration-of-the-pblock-elements"></a>Electronic Configuration of the P-Block Elements](#a-idelectronic-configuration-of-the-pblock-elementsaelectronic-configuration-of-the-p-block-elements)
+7. [<a id="physical-properties-of-the-pblock-elements"></a>Physical Properties of the P-Block Elements](#a-idphysical-properties-of-the-pblock-elementsaphysical-properties-of-the-p-block-elements)
+8. [<a id="chemical-properties-of-the-pblock-elements"></a>Chemical Properties of the P-Block Elements](#a-idchemical-properties-of-the-pblock-elementsachemical-properties-of-the-p-block-elements)
+9. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+10. [<a id="shortcut-formula-trick"></a>Shortcut Formula / Trick](#a-idshortcut-formula-trickashortcut-formula-trick)
+11. [<a id="trap-questions-exceptions"></a>Trap Questions / Exceptions](#a-idtrap-questions-exceptionsatrap-questions-exceptions)
+12. [<a id="practice-mcqs"></a>Practice MCQs](#a-idpractice-mcqsapractice-mcqs)
+13. [<a id="related-notes-links"></a>Related Notes Links](#a-idrelated-notes-linksarelated-notes-links)
+14. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+15. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is The P Block Elements 11?](#what-is-the-p-block-elements-11)
@@ -48,7 +68,7 @@ The p-block elements are a group of elements found and the periodic table, chara
 
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 
-The p-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) elements are crucial for various JEE and NEET exams, with 2-3 questions and each session coming from this topic. In the 2026 JEE Mains Session 1, 3 questions were asked from the p-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) elements, highlighting the importance of this topic for competitive exams.
+The p-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) elements are crucial for various JEE and NEET exams, with 2–3 questions and each session coming from this topic. In the 2026 JEE Mains Session 1, 3 questions were asked from the p-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) elements, highlighting the importance of this topic for competitive exams.
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
@@ -89,7 +109,7 @@ One shortcut formula for the p-block elements is to remember the electronic conf
 
 Some common trap questions and exceptions for the p-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) elements include:
 * Wrong answer: The p-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) elements are only found and groups 13 to 15.
-Right answer: The p-block elements are found and groups 13 to 18.
+Right answer: The p-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) elements are found and groups 13 to 18.
 Why students get it wrong: Students often confuse the p-block elements with the d-block elements.
 * Wrong answer: The p-block elements are all non-metals.
 Right answer: The p-block elements include non-metals, metalloids, n noble gases.
@@ -155,6 +175,8 @@ Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-n
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/the-p-block-elements-11-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=The%20P%20Block%20Elements%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -165,3 +187,25 @@ Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-n
 - 📖 [Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physical-world-class-11-revision-notes-jee-neet)
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
+
+## 🔁 Last 5 Minutes Box
+
+### P Block Elements Revision Notes
+   * **Group 13 Elements**: Boron group, electronic configuration: **ns²np¹**
+   * **Group 14 Elements**: Carbon group, electronic configuration: **ns²np²**
+   * **Group 15 Elements**: Nitrogen group, electronic configuration: **ns²np³**
+   * **Group 16 Elements**: Chalcogens, electronic configuration: **ns²np⁴**
+   * **Group 17 Elements**: Halogens, electronic configuration: **ns²np⁵**
+   * **Group 18 Elements**: Noble gases, electronic configuration: **ns²np⁶**
+   * **Properties of P Block Elements**:
+     + Ionization energy increases across a period
+     + Electron affinity increases across a period
+     + Metallic character decreases across a period
+     + Reducing character increases down a group
+   * **Important Reactions**:
+     + Burning of elements in air and oxygen
+     + Reaction with water and acids
+     + Reaction with other non-metals
+   * **Ores and Metallurgy**:
+     + Occurrence of p block elements
+     + Extraction of metals from ores

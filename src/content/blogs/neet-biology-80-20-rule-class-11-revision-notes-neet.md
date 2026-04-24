@@ -42,28 +42,28 @@ With Botany and Zoology accounting for exactly 50% of your total NEET score, [bi
 
 Enter the Pareto Principle, commonly known as the **80/20 Rule**. In the context of the National Eligibility cum Entrance Test, data proves that roughly 80% of your Biology marks are generated from just 20% of the syllabus [chapters](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet). 
 
-Here is the exact breakdown of the "20% High-Yield" topics that guarantee a 340+ score.
+Here is the exact breakdown of the "20% [High](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)-Yield" topics that guarantee a 340+ score.
 
 ## <a id="the-highyield-matrix-the-20-syllabus"></a>The High-Yield Matrix (The 20% Syllabus)
 
 Based on frequency analysis from the 2018–2026 NTA papers, the following chapters must form the core of your [revision](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) strategy.
 
-### <a id="1-genetics-n-evolution-1518-questions"></a>1. Genetics and Evolution (15–18 Questions)
+### <a id="1-genetics-n-evolution-1518-questions"></a>1. Genetics and Evolution (15–18 questions)
 This unit is the undisputed heavyweight champion of [neet](/blog/animal-kingdom-class-11-revision-notes-neet). 
 * **Principles of Inheritance and Variation:** Focus on Mendelian disorders (pedigree analysis), chromosomal disorders, n co-dominance.
 * **Molecular Basis of Inheritance:** Extremely high ROI. Master the DNA replication fork, transcription unit (promoter, [structural](/blog/structural-organisation-n-animals-class-11-revision-notes-neet) gene, terminator), n the Lac Operon model.
 
-### <a id="2-human-physiology-1214-questions"></a>2. Human Physiology (12–14 Questions)
+### <a id="2-human-physiology-1214-questions"></a>2. Human Physiology (12–14 questions)
 Despite the syllabus rationalization, Human Physiology remains central.
 * **Chemical Coordination and Integration:** Memorize every hormone secreted y the Pituitary, Thyroid, n Adrenal glands, alongside their deficiency disorders.
 * **Neural Control and Coordination:** Focus on the transmission of nerve impulses (action potential graphs) n reflex arcs.
 
-### <a id="3-ecology-n-environment-1012-questions"></a>3. Ecology and Environment (10–12 Questions)
+### <a id="3-ecology-n-environment-1012-questions"></a>3. Ecology and Environment (10–12 questions)
 Often neglected y students who focus too heavily on human/plant systems, Ecology is surprisingly scoring.
 * **Organisms and Populations:** Focus on population attributes (age pyramids) n population interactions (mutualism, competition, parasitism).
 * **Biodiversity and Conservation:** The 'Evil Quartet' of biodiversity loss and n-situ vs x-situ conservation methods.
 
-### <a id="4-cell-structure-n-function-911-questions"></a>4. Cell Structure and Function (9–11 Questions)
+### <a id="4-cell-structure-n-function-911-questions"></a>4. Cell Structure and Function (9–11 questions)
 This is the foundational unit upon which Genetics and Biotechnology are built.
 * **Cell Cycle and Cell Division:** Master the events of Prophase I inside Meiosis I (Leptotene, Zygotene, Pachytene, Diplotene, Diakinesis).
 * **Cell: The Unit of Life:** Organelle functions (Mitochondria, Chloroplasts, Ribosomes, Endomembrane system).
@@ -129,7 +129,7 @@ Continue your [revision](/blog/animal-kingdom-class-11-revision-notes-neet) with
 
 * In the context of the 80/20 rule, also known as the Pareto principle, students often mistakenly apply it to all biological systems without considering the specific context or the type of distribution (e.g., species abundance, energy transfer) being discussed.
 * A common mistake is not recognizing that the 80/20 rule is an empirical observation rather than a strict law, and its applicability can vary widely among different biological phenomena and ecosystems.
-* Some students confuse the 80/20 rule with other principles, such as the law of diminishing returns, and fail to distinguish between these concepts in their application to biological systems.
+* Some students confuse the 80/20 rule with other principles, such as the law of diminishing returns, and fail to distinguish between these [concepts](/blog/jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet) in their application to biological systems.
 * Another trap is assuming that the 80/20 rule only applies at a single level of organization (e.g., ecosystem, species population) and neglecting its relevance at other levels, such as the cellular or molecular level, where key principles like the distribution of metabolic flux can also follow similar patterns.
 * Students often overlook the importance of understanding the mechanisms underlying the 80/20 rule, such as competitive interactions, predation, and environmental constraints, which are crucial for predicting when and how the principle might apply or fail to apply in different biological scenarios.
 

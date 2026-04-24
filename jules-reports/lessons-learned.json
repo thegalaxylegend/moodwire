@@ -182,5 +182,13 @@
     "rootCause": "Auto-learned pattern from General failure: Unknown Failure",
     "fix": "Review this auto-learned pattern and refine the fix recommendation.",
     "priority": "medium"
+  },
+  {
+    "date": "2026-04-24",
+    "slug": "poverty-unemployment-class-11-revision-notes-jee-neet",
+    "failureType": "LEARNED_UNKNOWN",
+    "rootCause": "Auto-learned pattern from General failure: Unknown Failure",
+    "fix": "Review this auto-learned pattern and refine the fix recommendation.",
+    "priority": "medium"
   }
 ]

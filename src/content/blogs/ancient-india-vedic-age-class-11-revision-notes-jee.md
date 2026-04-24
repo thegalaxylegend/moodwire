@@ -141,7 +141,7 @@ Continue your [revision](/blog/art-culture-architecture-class-11-revision-notes-
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/ancient-[india](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse)-vedic-age-class-11-revision-notes-jee) now and track your progress against thousands of students.
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Ancient%20India%20Vedic%20Age%20Class%2011%20History%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Ancient](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)%20India%20Vedic%20Age%20Class%2011%20History%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

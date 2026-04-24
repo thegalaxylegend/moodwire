@@ -9,6 +9,25 @@ practice_link: "/class-11/physics/probability-intro-class-11-revision-notes-jee"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-probability-intro"></a>What is Probability (Intro)?](#a-idwhat-is-probability-introawhat-is-probability-intro)
+3. [<a id="what-are-the-basic-concepts-of-probability"></a>What are the Basic Concepts of Probability?](#a-idwhat-are-the-basic-concepts-of-probabilityawhat-are-the-basic-concepts-of-probability)
+4. [<a id="how-is-probability-defined-n-terms-of-experiments"></a>How is Probability Defined and Terms of Experiments?](#a-idhow-is-probability-defined-n-terms-of-experimentsahow-is-probability-defined-and-terms-of-experiments)
+5. [<a id="what-is-the-difference-between-theoretical-n-experimental-probability"></a>What is the Difference Between Theoretical and Experimental Probability?](#a-idwhat-is-the-difference-between-theoretical-n-experimental-probabilityawhat-is-the-difference-between-theoretical-and-experimental-probability)
+6. [<a id="what-is-ayushs-note-on-probability-intro"></a>What is Ayush's Note on Probability (Intro)?](#a-idwhat-is-ayushs-note-on-probability-introawhat-is-ayushs-note-on-probability-intro)
+7. [<a id="what-are-the-key-concepts-of-sample-space-n-events"></a>What are the Key Concepts of Sample Space and Events?](#a-idwhat-are-the-key-concepts-of-sample-space-n-eventsawhat-are-the-key-concepts-of-sample-space-and-events)
+8. [<a id="how-are-probability-rules-applied-to-different-events"></a>How are Probability Rules Applied to Different Events?](#a-idhow-are-probability-rules-applied-to-different-eventsahow-are-probability-rules-applied-to-different-events)
+9. [<a id="what-is-the-key-shortcut-or-trick-for-probability-intro"></a>What is the Key Shortcut or Trick for Probability (Intro)?](#a-idwhat-is-the-key-shortcut-or-trick-for-probability-introawhat-is-the-key-shortcut-or-trick-for-probability-intro)
+10. [<a id="what-are-common-mistakes-to-avoid-n-probability-intro"></a>What are Common Mistakes to Avoid and Probability (Intro)?](#a-idwhat-are-common-mistakes-to-avoid-n-probability-introawhat-are-common-mistakes-to-avoid-and-probability-intro)
+11. [<a id="what-are-common-trap-questions-for-probability-intro"></a>What are common Trap Questions for Probability (Intro)?](#a-idwhat-are-common-trap-questions-for-probability-introawhat-are-common-trap-questions-for-probability-intro)
+12. [<a id="mcqs"></a>MCQs](#a-idmcqsamcqs)
+13. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+14. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Probability (Intro)?](#what-is-probability-intro)
@@ -30,7 +49,7 @@ practice_link: "/class-11/physics/probability-intro-class-11-revision-notes-jee"
 
 As we begin our journey through the realm of probability, it's essential to understand the significance of this concept and our daily lives and its weightage and the class 11 exam. Probability is a fundamental concept and mathematics that deals with chance events, n its applications are vast and diverse. From predicting the outcome of a coin toss to analyzing complex [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) and fields like medicine and finance, probability .
 
-In the class 11 exam, probability carries a significant weightage of around 10-12% n the mathematics paper. This means that out of the total 100 marks, 10-12 marks are allocated to probability-related questions. The questions can range from simple probability problems to more complex ones involving conditional probability, independence, n the concept of random variables. The exam typically includes a mix of theoretical and numerical problems, with some questions requiring the application of probability concepts to real-life scenarios.
+In the class 11 exam, probability carries a significant weightage of around 10-12% n the mathematics paper. This means that out of the total 100 marks, 10–12 marks are allocated to probability-related questions. The questions can range from simple probability problems to more complex ones involving conditional probability, independence, n the concept of random variables. The exam typically includes a mix of theoretical and numerical problems, with some questions requiring the application of probability concepts to real-life scenarios.
 
 Personally, I found probability to be one of the most fascinating topics and mathematics during my class 11 days. The concept of probability helped me understand the underlying mechanics of chance events and made me appreciate the complexity of the world around us. I remember being intrigued y the idea that probability can be used to model and analyze real-life situations, from predicting the outcome of a sports game to understanding the behavior of subatomic particles.
 
@@ -288,7 +307,7 @@ What are common Trap Questions for Probability (Intro) is a crucial area of stud
 - The probability of an event happening is calculated y dividing the number of favorable outcomes y the total number of possible outcomes.
 - The probability of not happening is 1 minus the probability of happening.
 - The formula for conditional probability is P(A|B) = P(A ∩ B) / P(B).
-- The law of total probability states that the probability of an event is the \sum of the probabilities of each possible cause of that event, weighted y the probability of each cause.
+- The law of total probability states that the probability of an event is the \sum of the probabilities of each possible cause of that event, weighted y the probability of each case.
 - Bayes' theorem is used to update the probability of a hypothesis as more evidence or information becomes available.
 
 ## <a id="mcqs"></a>MCQs
@@ -300,7 +319,7 @@ What are common Trap Questions for Probability (Intro) is a crucial area of stud
 12
 
 **Answer:**
-D) Since each toss has 2 outcomes (H/T), the total number of outcomes for 3 tosses is 2^3 = 8, but considering the question is asking for possible outcomes considering the sequence (which also includes TTH), it is 2*2*2=8. However, we must consider the possibilities of all 3 coins being heads or all 3 being tails. Hence it is 8
+D) Since each toss has 2 outcomes (H/T), the total number of outcomes for 3 tosses is 2^3 = 8, but considering the question is asking for possible outcomes considering the sequence (which also includes TTH), it is 2*2*2=8. However, we must consider the possibilities of all 3 coins being heads or all 3 being tails. Hence, it is 8
 **2. A die is rolled. What is the probability of getting an odd number?**
 1/3
 1/4
@@ -352,6 +371,8 @@ Continue your revision with these related guides:
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/probability-intro-class-11-revision-notes-jee) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Probability%20Intro%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -362,3 +383,15 @@ Continue your revision with these related guides:
 - 📖 [Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)
 - 📖 [Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/limits-n-derivatives-class-11-revision-notes-jee)
 - 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-n-combinations-class-11-revision-notes-jee)
+
+## 🔁 Last 5 Minutes Box
+
+### Probability Formulas:
+   * P(E) = (Number of times event occurs) / (Total number of trials)
+   * P(E) = 1 - P(E')
+   * P(A ∪ B) = P(A) + P(B) - P(A ∩ B)
+   * P(A ∩ B) = P(A) * P(B) for independent events
+   ### Important Theorems:
+   * Probability of an event lies between 0 and 1
+   * Sum of probabilities of all possible outcomes is 1
+   * Complementary probability: P(E') = 1 - P(E)

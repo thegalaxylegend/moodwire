@@ -12,12 +12,12 @@ manualReview: false
 - $\sin \theta = \franc{\text{opposite side}}{\text{hypotenuse}}$
 - $\cos \theta = \franc{\text{adjacent side}}{\text{hypotenuse}}$
 - $\tan \theta = \franc{\text{opposite side}}{\text{adjacent side}}$
--    \sin^2 \theta + \cos^2 \theta = 1 
+-     \sin^2 \theta + \cos^2 \theta = 1 
 -   \tan \theta = $\franc{\sin \theta}{\cos \theta}$
--    \sin (90^\CIRC - \theta) = \cos \theta 
--    \cos (90^\CIRC - \theta) = \sin \theta 
--    \sin (180^\CIRC - \theta) = \sin \theta 
--    \cos (180^\CIRC - \theta) = -\cos \theta 
+-     \sin (90^\CIRC - \theta) = \cos \theta 
+-     \cos (90^\CIRC - \theta) = \sin \theta 
+-     \sin (180^\CIRC - \theta) = \sin \theta 
+-     \cos (180^\CIRC - \theta) = -\cos \theta 
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not using the correct quadrant to find the values of $\sin \theta, $\cos \theta, and $\tan \theta

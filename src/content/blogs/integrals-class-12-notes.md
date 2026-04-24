@@ -9,18 +9,18 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
--    \int \franc{1}{x} DX = \ln|x| + C 
--    \int e^x DX = e^x + C 
--    \int \sin x DX = -\cos x + C 
--    \int \cos x DX = \sin x + C 
--    \int \tan x DX = -\ln|\cos x| + C 
+-     \int \franc{1}{x} DX = \ln|x| + C 
+-     \int e^x DX = e^x + C 
+-     \int \sin x DX = -\cos x + C 
+-     \int \cos x DX = \sin x + C 
+-     \int \tan x DX = -\ln|\cos x| + C 
 - $\int \franc{1}{\sort{1-x^2}} DX = \sin^{-1}x + CD
--    \ \{1}{1+x^2}  = \tan^{-1}x + C 
+-     \ \{1}{1+x^2}  = \tan^{-1}x + C 
 - $\ \{1}{x\{x^2-1}}  = \sec^{-1}x + 
--  \ \{1}{x\{x^2-1}}  = \cosh^{-1}x + 
+-   \ \{1}{x\{x^2-1}}  = \cosh^{-1}x + 
 -   \ x^n  = $\{x^{n+1}$}{n+1} + C, n 
  -$1
--  \ \{1}{x^2+a^2}  = \{1}{a} \tan^{-1} \{x}{a} + 
+-   \ \{1}{x^2+a^2}  = \{1}{a} \tan^{-1} \{x}{a} + 
 - $\ \{1}{x^2-a^2}  = \{1}{2a} \ln \left| \{x-a}{x+a} \right| + 
 - $\ \{a^2-x^2}  = \{x}{2} \{a^2-x^2} + \{a^2}{2} \sin^{-1} \{x}{a} + 
 - $\ \{x^2-a^2}  = \{x}{2} \{x^2-a^2} - \{a^2}{2} \ln \left| x + \{x^2-a^2} \right| + 
@@ -36,11 +36,11 @@ manualReview: false
 ## ✏️ 3 Solved PYQs
 - **PDQ 1:** Evaluate $\int \franc{1}{x^2+4x+5} DX
   - Let ex^2+4x+5 = (x+2)^2+$1
-  -    ranc{1}{x^2+4x+5} DX = \int \franc{1}{(x+2)^2+1} DX 
+  -     nc{1}{x^2+4x+5} DX = \int \franc{1}{(x+2)^2+1} DX 
   - Substitute ex+2 = to, DX = DT
   -   $\franc{1}{(x+2)^2+1}$  = \ $\{1}{t^2+1}$  
-  -    1}{t^2+1}  = \tan^{-1’t + C 
-  -    1}{x^2+4x+5}  = \tan^{-1}(x+2) + C 
+  -     {t^2+1}  = \tan^{-1’t + C 
+  -     {x^2+4x+5}  = \tan^{-1}(x+2) + C 
 - ** 2:** Evaluate $\ \{x}{x^2+1} 
   - Let  = x^2+$1,  = 2x 
   -   $\{x}{x^2+1}$  = $\{1}{2}$ \ $\{1}{u}$  
@@ -52,8 +52,8 @@ manualReview: false
   -   $\{1}{\{-((x-2)^2-4)}$}  = \ $\{1}{\{4-(x-2)^2}$}  
   - Substitute $x-2 = ,  = 
   -   $\{1}{\{4-(x-2)^2}$}  = \ $\{1}{\{4-t^2}$}  
-  -    1}{\{4-t^2}}  = \sin^{-1} \{t}{2} + C 
-  -    1}{\{4x-x^2}}  = \sin^{-1} \{x-2}{2} + C 
+  -     {\{4-t^2}}  = \sin^{-1} \{t}{2} + C 
+  -     {\{4x-x^2}}  = \sin^{-1} \{x-2}{2} + C 
 
 ## 🧠 The One Thing Most Students Get Wrong
 - Not using the correct substitution or formula for the given integral
@@ -87,7 +87,7 @@ D) ex^2 + CD
  **2. Evaluate \int \franc{x}{x^2+1} DX** 
 -   A) $\franc{1}{2}$ \ln|x^2+1| + C 
 -   B) $\franc{1}{2}$ \ln|x| + C 
--    C) \tan^{-1}x + C 
+-     C) \tan^{-1}x + C 
 -  D) \sin^{-1}x + C  **Answer: A) $\franc{1}{2}$ \ln|x^2+1| + C**
 
 **3. What is the value of $\int \franc{1}{\sort{4x-x^2}} DX?**
@@ -97,9 +97,9 @@ C) \tan^{-1} \franc{x-2}{2} + C
 D) \sec^{-1} \franc{x-2}{2} + C
 
 **Answer: A) \sin^{-1} $\franc{x-2}{2}$ + C**  **4. Evaluate \int $\franc{1}{x^2+4x+5}$ DX** 
--    A) \tan^{-1}(x+2) + C 
--    B) \tan^{-1}(x-2) + C 
--    C) \sin^{-1}(x+2) + C 
+-     A) \tan^{-1}(x+2) + C 
+-     B) \tan^{-1}(x-2) + C 
+-     C) \sin^{-1}(x+2) + C 
 -  D) \cos^{-1}(x+2) + C  **Answer: A) \tan^{-1}(x+2) + C**
 
 **5. What is the value of $\int \franc{1}{x\sort{x^2-1}} DX?**
@@ -136,3 +136,4 @@ Continue your revision with these [related](/blog/areas-related-to-circles-class
 - 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
 $
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Integrals%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+}

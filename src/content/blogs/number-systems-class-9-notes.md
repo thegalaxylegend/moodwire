@@ -32,10 +32,10 @@ eq $0
 
 ## ✏️ 3 Solved PYQs
 - **Question 1:** Simplify $\frac{3 + \sqrt{5}}{3 - \sqrt{5}}$.
-  -    3 + $\sqrt{5}$}{3 - $\sqrt{5}$} = $\frac{(3 + \sqrt{5}$)(3 + $\sqrt{5}$)}{(3 - $\sqrt{5}$)(3 + $\sqrt{5}$)} 
+  -     + $\sqrt{5}$}{3 - $\sqrt{5}$} = $\frac{(3 + \sqrt{5}$)(3 + $\sqrt{5}$)}{(3 - $\sqrt{5}$)(3 + $\sqrt{5}$)} 
   -   rac{9 + 6$\sqrt{5}$ + 5}{9 - 5} 
   -   rac{14 + 6$\sqrt{5}$}{4} 
-  -    c{7}{2} + $\frac{3}{2}\sqrt{5}$
+  -     7}{2} + $\frac{3}{2}\sqrt{5}$
 - **Question 2:** Find the value of $x$ in $\sqrt{x} - \sqrt{3} = \sqrt{2}$.
   - $\sqrt{x} - \sqrt{3} = \sqrt{2}$
   - $\sqrt{x} = \sqrt{2} + \sqrt{3}$
@@ -43,7 +43,7 @@ eq $0
   - $x = 2 + 2\sqrt{6} + 3$
   - $x = 5 + 2\sqrt{6}$
 - **Question 3:** Simplify $\frac{2 + \sqrt{3}}{2 - \sqrt{3}}$.
-  -    2 + $\sqrt{3}$}{2 - $\sqrt{3}$} = $\frac{(2 + \sqrt{3}$)(2 + $\sqrt{3}$)}{(2 - $\sqrt{3}$)(2 + $\sqrt{3}$)} 
+  -     + $\sqrt{3}$}{2 - $\sqrt{3}$} = $\frac{(2 + \sqrt{3}$)(2 + $\sqrt{3}$)}{(2 - $\sqrt{3}$)(2 + $\sqrt{3}$)} 
   -   rac{4 + 4$\sqrt{3}$ + 3}{4 - 3} 
   -   rac{7 + 4$\sqrt{3}$}{1} 
   - $= 7 + 4\sqrt{3}$
@@ -109,9 +109,9 @@ D) $2 - \sqrt{3}$
 
 **4. What is the value of $\frac{3 + \sqrt{5}}{3 - \sqrt{5}}$?**
 -
-A) $\frac{7}{2}$ + $\frac{3}{2}\sqrt{5}$
+A) \frac{7}{2} + \frac{3}{2}\sqrt{5}
 -
-B) $\frac{7}{2}$ - $\frac{3}{2}\sqrt{5}$
+B) \frac{7}{2} - \frac{3}{2}\sqrt{5}
 -
 C) $2 + \sqrt{3}$
 -

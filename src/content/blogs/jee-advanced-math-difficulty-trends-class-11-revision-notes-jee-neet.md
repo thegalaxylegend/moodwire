@@ -130,7 +130,7 @@ In the last few minutes of the exam, revisiting key formulas and [concepts](/blo
 
 ## 📝 Practice MCQs
 
-Testing your understanding with practice questions is essential for strengthening your grasp of JEE Advanced Mathematics concepts. Consider the following:
+Testing your understanding with practice questions is essential for strengthening your grasp of JEE Advanced Mathematics [concepts](/blog/jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet). Consider the following:
 1. If $f(x) = x^2 + 3x + 2$, what is $f(-2)$?
    - A) 0
    - B) -2
@@ -138,10 +138,10 @@ Testing your understanding with practice questions is essential for strengthenin
    - D) -4
    Answer: C) $f(-2) = (-2)^2 + 3(-2) + 2 = 4 - 6 + 2 = 0$, so the correct answer is A) 0.
 2. What is the value of $\sin(\frac{\pi}{3})$?
-   -  $\frac{1}{2}$
-   -  $\frac{\sqrt{3}$}{2} 
-   -  $\frac{\sqrt{2}$}{2} 
-   - D) $1$ Answer: B) \sin(\frac{\pi}{3}) = \frac{\sqrt{3}}{2}. 
+   -   ac{1}{2} 
+   -   ac{$\sqrt{3}$}{2} 
+   -   ac{$\sqrt{2}$}{2} 
+   -  1 Answer: B) \sin($\frac{\pi}{3}$) = $\frac{\sqrt{3}$}{2}. 
 3. The equation $x^2 - 5x + 6 = 0$ has roots $x_1$ and $x_2$. What is $x_1 + x_2$?
    - A) 5
    - B) 6

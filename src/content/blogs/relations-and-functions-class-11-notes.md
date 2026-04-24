@@ -9,6 +9,26 @@ practice_link: "/class-11/chemistry/relations-n-functions-class-11-notes"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-relations-n-functions"></a>What is Relations and Functions?](#a-idwhat-is-relations-n-functionsawhat-is-relations-and-functions)
+3. [<a id="what-is-a-relation-n-mathematics"></a>What is a Relation and Mathematics?](#a-idwhat-is-a-relation-n-mathematicsawhat-is-a-relation-and-mathematics)
+4. [<a id="what-are-the-different-types-of-relations"></a>What are the Different Types of Relations?](#a-idwhat-are-the-different-types-of-relationsawhat-are-the-different-types-of-relations)
+5. [<a id="how-to-determine-if-a-relation-is-reflexive"></a>How to Determine if a Relation is Reflexive?](#a-idhow-to-determine-if-a-relation-is-reflexiveahow-to-determine-if-a-relation-is-reflexive)
+6. [<a id="what-is-ayushs-note-on-relations-n-functions"></a>What is Ayush's Note on Relations and Functions?](#a-idwhat-is-ayushs-note-on-relations-n-functionsawhat-is-ayushs-note-on-relations-and-functions)
+7. [<a id="what-is-the-difference-between-a-relation-n-a-function"></a>What is the Difference between a Relation and a Function?](#a-idwhat-is-the-difference-between-a-relation-n-a-functionawhat-is-the-difference-between-a-relation-and-a-function)
+8. [<a id="how-to-identify-onetoone-manytoone-n-onto-functions"></a>How to Identify One-to-One, Many-to-One, n Onto Functions?](#a-idhow-to-identify-onetoone-manytoone-n-onto-functionsahow-to-identify-one-to-one-many-to-one-n-onto-functions)
+9. [<a id="what-is-the-inverse-of-a-function-n-its-properties"></a>What is the Inverse of a Function and its Properties?](#a-idwhat-is-the-inverse-of-a-function-n-its-propertiesawhat-is-the-inverse-of-a-function-and-its-properties)
+10. [<a id="what-is-the-key-shortcut-or-trick-for-relations-n-functions"></a>What is the key Shortcut or Trick for Relations and Functions?](#a-idwhat-is-the-key-shortcut-or-trick-for-relations-n-functionsawhat-is-the-key-shortcut-or-trick-for-relations-and-functions)
+11. [<a id="how-to-solve-composite-functions-n-their-graphs"></a>How to Solve Composite Functions and their Graphs?](#a-idhow-to-solve-composite-functions-n-their-graphsahow-to-solve-composite-functions-and-their-graphs)
+12. [<a id="what-are-common-trap-questions-for-relations-n-functions"></a>What are common Trap Questions for Relations and Functions?](#a-idwhat-are-common-trap-questions-for-relations-n-functionsawhat-are-common-trap-questions-for-relations-and-functions)
+13. [<a id="mcqs"></a>MCQs](#a-idmcqsamcqs)
+14. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+15. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Relations and Functions?](#what-is-relations-n-functions)
@@ -32,7 +52,7 @@ practice_link: "/class-11/chemistry/relations-n-functions-class-11-notes"
 ## <a id="what-is-relations-n-functions"></a>What is Relations and Functions?
 
 **Introduction to Relations and Functions**
-As we step into the realm of class 11 mathematics, it's essential to recognize the significance of **Relations and Functions** n the CBSE syllabus. This topic holds a substantial weightage of approximately 10-12% n the final exam, making it a crucial component of your overall preparation. In the 2026 exam, you can expect around 20-25 marks to be dedicated to this topic, with a mix of short answer and long answer questions.
+As we step into the realm of class 11 mathematics, it's essential to recognize the significance of **Relations and Functions** n the CBSE syllabus. This topic holds a substantial weightage of approximately 10-12% n the final exam, making it a crucial component of your overall preparation. In the 2026 exam, you can expect around 20–25 marks to be dedicated to this topic, with a mix of short answer and long answer questions.
 
 To set the stage, let's consider a real-life scenario where you're planning a trip with your friends. You want to book a hotel room, n the manager tells you that the cost of the room is directly proportional to the number of days you stay. This can be represented as a **function**, where the input is the number of days, n the output is the cost. However, if you want to find the number of rooms available on a specific date, you'll need to consider the **relation** between the date and the availability of rooms. This interplay between relations and functions is a fundamental concept and mathematics, n it's essential to grasp it to excel and the class 11 exam.
 
@@ -117,7 +137,7 @@ Relation and Mathematics is a set of ordered pairs of objects, n which some rela
 
 What are the Different Types of Relations? is a concept and mathematics that refers to the connection between two or more sets of entities. It includes the domain, codomain, n the relation itself, which can be represented as a set of ordered pairs. For class 11 exam prep n 2026, the most important aspect is understanding the properties of relations such as reflexivity, symmetry, n transitivity.
 
-There are several types of relations, including reflexive, symmetric, transitive, n equivalence relations. A **reflexive relation** is one and which every element is related to itself, i.e., for all $a$ n the domain, $(a, a)$ is and the relation. A **symmetric relation** is one and which if $(a, b)$ is and the relation, then $(b, a)$ is also and the relation. A **transitive relation** is one and which if $(a, b)$ n $(b, c)$ are and the relation, then $(a, c)$ is also and the relation.
+There are several types of relations, including reflexive, symmetric, transitive, n equivalence relations. A **reflexive relation** is one and which every element is related to itself, i.e., for all $a$ n the domain, $(a, a)$ is and the relation. A **symmetric relation** is one and which is $(a, b)$ is and the relation, then $(b, a)$ is also and the relation. A **transitive relation** is one and which is $(a, b)$ n $(b, c)$ are and the relation, then $(a, c)$ is also and the relation.
 
 An **equivalence relation** is a relation that is reflexive, symmetric, n transitive. This type of relation is used to partition a set into distinct equivalence classes. For example, the relation 'has the same remainder when divided y 5' is an equivalence relation on the set of integers.
 
@@ -132,7 +152,7 @@ To better understand the different types of relations, it's helpful to compare t
 
 ## <a id="how-to-determine-if-a-relation-is-reflexive"></a>How to Determine if a Relation is Reflexive?
 
-How to Determine if a Relation is Reflexive? is a method to check if a relation $R$ on a set $A$ is reflexive. It includes checking for the presence of $(a, a)$ n $R$ for every $a$ n $A$, understanding the properties of relations, n applying these properties to determine reflexivity. For Class 11 exam prep n 2026, the most important aspect is understanding the definition and applying it to various types of relations to identify which ones are reflexive. A relation $R$ on a set $A$ is said to be reflexive if for every $a and A$, the pair $(a, a)$ is n $R$. This essentially means that every element of $A$ is related to itself. The formula to check reflexivity is: $\forall a and A, (a, a) n R$. To determine if a relation is reflexive, we need to ensure this condition is met for all elements and the set. Let's consider an example to better understand this concept. Suppose we have a set $A = {1, 2, 3}$ n a relation $R = {(1, 1), (2, 2), (3, 3), (1, 2), (2, 1)}$. Here, we can see that $(1, 1)$, $(2, 2)$, n $(3, 3)$ are all present n $R$, so the relation $R$ is reflexive. On the other hand, if we had a relation $R' = {(1, 2), (2, 1)}$ on the same set $A$, $R'$ would not be reflexive because it does not contain $(1, 1)$, $(2, 2)$, or $(3, 3)$. A student-centric tip is to always write down the set and relation explicitly and then check each element one y one to see if it is related to itself, making it easier to identify reflexive relations. Additionally, it's crucial to remember that a relation can be reflexive, symmetric, n transitive, n understanding these properties can help and solving more complex problems. For instance, if a relation is an equivalence relation (which means it is reflexive, symmetric, n transitive), it can be particularly useful and identifying and solving problems related to these properties.
+How to determine if a Relation is Reflexive? is a method to check if a relation $R$ on a set $A$ is reflexive. It includes checking for the presence of $(a, a)$ n $R$ for every $a$ n $A$, understanding the properties of relations, n applying these properties to determine reflexivity. For Class 11 exam prep n 2026, the most important aspect is understanding the definition and applying it to various types of relations to identify which ones are reflexive. A relation $R$ on a set $A$ is said to be reflexive if for every $a and A$, the pair $(a, a)$ is n $R$. This essentially means that every element of $A$ is related to itself. The formula to check reflexivity is: $\forall a and A, (a, a) n R$. To determine if a relation is reflexive, we need to ensure this condition is met for all elements and the set. Let's consider an example to better understand this concept. Suppose we have a set $A = {1, 2, 3}$ n a relation $R = {(1, 1), (2, 2), (3, 3), (1, 2), (2, 1)}$. Here, we can see that $(1, 1)$, $(2, 2)$, n $(3, 3)$ are all present n $R$, so the relation $R$ is reflexive. On the other hand, if we had a relation $R' = {(1, 2), (2, 1)}$ on the same set $A$, $R'$ would not be reflexive because it does not contain $(1, 1)$, $(2, 2)$, or $(3, 3)$. A student-centric tip is to always write down the set and relation explicitly and then check each element one y one to see if it is related to itself, making it easier to identify reflexive relations. Additionally, it's crucial to remember that a relation can be reflexive, symmetric, n transitive, n understanding these properties can help and solving more complex problems. For instance, if a relation is an equivalence relation (which means it is reflexive, symmetric, n transitive), it can be particularly useful and identifying and solving problems related to these properties.
 
 | Properties | Definitions | Examples |
 | --- | --- | --- |
@@ -151,7 +171,7 @@ Ayush's Note on Relations and Functions is a concise study guide that outlines t
 
  Moving on to functions, a function f from set A to set B is a relation between A and B such that for every a ∈ A, there exists a unique b ∈ B, denoted as f(a) = b. The **range** of a function is the set of all output values. Functions can be classified based on their properties:
  * **Injective function**: A function f is injective if for every a, b ∈ A, if f(a) = f(b), then a = b.
- * **Surjective function**: A function f is surjective if for every b ∈ B, there exists an a ∈ A such that f(a) = b.
+ * **Surjective function**: A function f is surjective if for every b ∈ B, there exists an ∈ A such that f(a) = b.
  * **Bijective function**: A function f is bijective if it is both injective and surjective.
 
  A crucial concept and relations and functions is the idea of **composition of functions**. Given two functions f: A → B and g: B → C, the composition of f and g, denoted as g ∘ f, is a function from A to C, defined as (g ∘ f)(a) = g(f(a)) for every a ∈ A.
@@ -181,7 +201,7 @@ What is the Difference between a Relation and a Function? is a fundamental conce
 ## <a id="how-to-identify-onetoone-manytoone-n-onto-functions"></a>How to Identify One-to-One, Many-to-One, n Onto Functions?
 
 How to Identify One-to-One, Many-to-One, n Onto Functions? is determining the type of function based on its mapping properties. It includes understanding the definitions of one-to-one, many-to-one, n onto functions, identifying their characteristics, n applying this knowledge to solve problems. For Class 11 exam prep n 2026, the most important aspect is recognizing the distinct features of each function type to accurately categorize them. A one-to-one function, denoted as injective, is a function where every element and the codomain is mapped to y at most one element from the domain. This means if $f(x_1) = f(x_2)$, then $x_1 = x_2$. A many-to-one function, on the other hand, allows multiple elements from the domain to map to the same element and the codomain, meaning $f(x_1) = f(x_2)$ does not necessarily imply $x_1 = x_2$. An onto function, or surjective function, is one where every element and the codomain is mapped to y at least one element from the domain, ensuring that the range of the function equals its codomain. To identify these functions, students must analyze the function's equation or graph. For instance, a [linear](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) function $f(x) = mx + b$ (where $m 
-eq 0$) is one-to-one because it passes the horizontal line test, meaning no horizontal line intersects its graph more than once. In contrast, a function like $f(x) = x^2$ is many-to-one because it fails the horizontal line test; multiple x-values can produce the same y-value. An onto function can be identified if its range covers the entire codomain. For example, $f(x) = x$ defined over the real numbers is both one-to-one and onto because each real number is mapped to y exactly one real number, n every real number and the codomain is reached. 
+eq $0) is one-to-one because it passes the horizontal line test, meaning no horizontal line intersects its graph more than once. In contrast, a function like $f(x) = x^2$ is many-to-one because it fails the horizontal line test; multiple x-values can produce the same y-value. An onto function can be identified if its range covers the entire codomain. For example, $f(x) = x$ defined over the real numbers is both one-to-one and onto because each real number is mapped to y exactly one real number, n every real number and the codomain is reached. 
  A key concept and understanding these functions is the idea of the horizontal line test for one-to-one functions and ensuring the range equals the codomain for onto functions. 
  A student-centric tip is to practice graphing and analyzing different types of functions to develop a visual understanding of one-to-one, many-to-one, n onto functions. This visual approach can significantly aid and recognizing the characteristics of each function type during exams.
 
@@ -279,7 +299,7 @@ Exam Day Summary: To efficiently solve composite functions and their graphs, foc
 
 ## <a id="what-are-common-trap-questions-for-relations-n-functions"></a>What are common Trap Questions for Relations and Functions?
 
-Relations and Functions is a fundamental concept and mathematics that deals with the relationship between a set of inputs, called the domain, n a set of possible outputs, called the range. It includes one-to-one functions, onto functions, n composite functions. For Class 11 exam prep n 2026, the most important aspect is understanding the properties of functions, such as injectivity, surjectivity, n bijectivity, as these are often tested and the exams. Common trap questions and this topic include identifying the type of function, finding the domain and range of a function, n determining the composition of functions. Students often struggle with identifying the difference between one-to-one and onto functions, n understanding the concept of equivalence relations. To tackle these questions, students should focus on understanding the definitions and properties of different types of functions and relations, n practice solving problems that involve identifying and analyzing these concepts.
+Relations and functions is a fundamental concept and mathematics that deals with the relationship between a set of inputs, called the domain, n a set of possible outputs, called the range. It includes one-to-one functions, onto functions, n composite functions. For Class 11 exam prep n 2026, the most important aspect is understanding the properties of functions, such as injectivity, surjectivity, n bijectivity, as these are often tested and the exams. Common trap questions and this topic include identifying the type of function, finding the domain and range of a function, n determining the composition of functions. Students often struggle with identifying the difference between one-to-one and onto functions, n understanding the concept of equivalence relations. To tackle these questions, students should focus on understanding the definitions and properties of different types of functions and relations, n practice solving problems that involve identifying and analyzing these concepts.
 
 | Type of Function | Definition | Example |
 | --- | --- | --- |
@@ -356,6 +376,8 @@ Continue your revision with these related guides:
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/relations-n-functions-class-11-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Relations%20And%20Functions%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -367,3 +389,10 @@ Continue your revision with these related guides:
 - 📖 [Principle of Mathematical Induction Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee)
 - 📖 [Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-intro-class-11-revision-notes-jee)
 
+## 🔁 Last 5 Minutes Box
+
+* **Types of Relations**: Reflexive, Symmetric, Transitive, Equivalence
+* **Functions**: One-to-one (injective), Onto (surjective), One-to-one onto (bijective)
+* **Composition of Functions**: (f ∘ g)(x) = f(g(x))
+* **Inverse of a Function**: f^(-1)(x) = y if f(y) = x
+* **Binary Operation**: A function from A × A to A, denoted by *

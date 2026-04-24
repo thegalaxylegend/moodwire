@@ -54,7 +54,7 @@ manualReview: false
 ## 👁️ Ayush's Note
 - To solve problems related to population growth, it is essential to understand the concept of carrying capacity and its implications.
 - The species-area relationship is a fundamental concept in ecology, and understanding its implications is crucial for solving problems related to [biodiversity](/blog/biodiversity-and-conservation-class-12-notes).
-- The Shannon-Wiener diversity index and Simpson's diversity index are two important measures of biodiversity, and knowing how to calculate them is essential for solving problems related to ecology.
+- The Shannon-Wiener diversity index and Simpson's diversity index are two important measures of [biodiversity](/blog/biodiversity-and-conservation-class-12-notes), and knowing how to calculate them is essential for solving problems related to ecology.
 
 ## 🔁 Last 5 Minutes Box
 - Revision of key concepts: population growth rate, carrying capacity, species-area relationship, Shannon-Wiener diversity index, and Simpson's diversity index.
@@ -130,7 +130,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Organisms%20And%20Populations%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Organisms](/blog/reproduction-in-organisms-class-12-notes)%20And%20Populations%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

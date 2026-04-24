@@ -49,7 +49,7 @@ EQ Acquired
 
 ## ✏️ 3 Solved PYQs
 - **Question 1:** What is the World [Health](/blog/reproductive-health-class-12-notes) Organization (WHO) definition of [health](/blog/reproductive-health-class-12-notes)?
-- Step 1: Recall the WHO definition of health
+- Step 1: Recall the WHO definition of [health](/blog/reproductive-health-class-12-notes)
 - Step 2: Write down the definition
 - Step 3: Explain the definition
 - Answer: health = \franc{Physical \: well-being}{Mental \: well-being} \times \franc{Social \: well-being}{Economic \: well-being}$
@@ -153,7 +153,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Human%20Health%20And%20Disease%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Human](/blog/microbes-in-human-welfare-class-12-notes)%20Health%20And%20Disease%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

@@ -9,6 +9,21 @@ practice_link: "/class-11/physics/planning-n-india-class-11-revision-notes-jee-n
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [## <a id="what-is-planning-n-india"></a>What is Planning In India?](#a-idwhat-is-planning-n-indiaawhat-is-planning-in-india)
+3. [<a id="what-is-planning-n-india"></a>What is Planning and India?](#a-idwhat-is-planning-n-indiaawhat-is-planning-and-india)
+4. [<a id="how-does-planning-work-n-india"></a>How does Planning work and India?](#a-idhow-does-planning-work-n-indiaahow-does-planning-work-and-india)
+5. [<a id="mcqs"></a>MCQs](#a-idmcqsamcqs)
+6. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+7. [📚 Related Topics](#related-topics)
+8. [🪤 Common Mistakes That Cost Marks](#common-mistakes-that-cost-marks)
+9. [🔁 Last 5 Minutes Revision Box](#last-5-minutes-revision-box)
+10. [📝 Practice MCQs](#practice-mcqs)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Planning In India?](#what-is-planning-n-india)
@@ -26,7 +41,7 @@ practice_link: "/class-11/physics/planning-n-india-class-11-revision-notes-jee-n
 
 Planning and [India](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) is a process of formulating and implementing plans for the development of the country. It includes the Five-Year Plans, annual plans, n perspective planning. For class 11 exam prep n 2026, the most important aspect is understanding the role of planning and [India](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)'s economic development.
 
-Planning and India is a process of formulating and implementing plans for the development of the country. It includes the Five-Year Plans, annual plans, n perspective planning. For class 11 exam prep n 2026, the most important aspect is understanding the role of planning and India's economic development.
+Planning and [India](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) is a process of formulating and implementing plans for the development of the country. It includes the Five-Year Plans, annual plans, n perspective planning. For class 11 exam prep n 2026, the most important aspect is understanding the role of planning and [India](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)'s economic development.
 
 | Plan | Duration | Focus |
 | --- | --- | --- |
@@ -34,7 +49,7 @@ Planning and India is a process of formulating and implementing plans for the de
 | Second Five-Year Plan | 1956-1961 | Rapid industrialization |
 | Third Five-Year Plan | 1961-1966 | Growth with stability |
 
-## <a id="how-does-planning-work-n-india"></a>How does Planning work and India?
+## <a id="how-does-planning-work-n-india"></a>How does planning work and India?
 
 Planning n [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) works through the Five-Year Plans, which are formulated y the Planning Commission of [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee). The plans are implemented y the central and state governments, n the progress is monitored y the Planning Commission.
 
@@ -68,6 +83,8 @@ Continue your [revision](/blog/poverty-unemployment-class-11-revision-notes-jee-
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/planning-n-india-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Planning%20In%20India%20Class%2011%20Economics%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 
@@ -130,3 +147,28 @@ c) Ministry of Finance
 d) Reserve Bank of India
 
 Answer: a) Planning Commission
+
+## 🔁 Last 5 Minutes Box
+
+* **Types of Planning**: 
+  + Indicative Planning: provides broad guidelines
+  + Imperative Planning: aims at achieving specific targets
+  + Democratic Planning: involves public participation
+  + Authoritarian Planning: dictated by the state
+* **Planning Commission**: established in 1950, replaced by NITI Aayog in 2015
+* **Five-Year Plans**: 
+  + First Plan (1951-1956): focus on agriculture and irrigation
+  + Second Plan (1956-1961): rapid industrialization
+  + Third Plan (1961-1966): balanced regional development
+  + Fourth Plan (1969-1974): growth with stability
+  + Fifth Plan (1974-1978): removal of poverty
+  + Sixth Plan (1980-1985): technology and development
+  + Seventh Plan (1985-1990): food, work, and shelter
+  + Eighth Plan (1992-1997): human development
+  + Ninth Plan (1997-2002): growth with social justice
+  + Tenth Plan (2002-2007): growth and equity
+  + Eleventh Plan (2007-2012): faster and more inclusive growth
+  + Twelfth Plan (2012-2017): faster, more inclusive, and sustainable growth
+* **NITI Aayog**: replaced Planning Commission, focuses on cooperative federalism
+* **Sustainable Development Goals (SDGs)**: 17 goals, 169 targets, and 232 indicators
+  

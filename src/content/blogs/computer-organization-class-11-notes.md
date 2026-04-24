@@ -185,7 +185,7 @@ How does the Memory Hierarchy Work and Computer Organization? is a hierarchical 
 
  A key concept and the memory hierarchy is the concept of blocks and words. A block is a group of words that are stored together and the cache memory. The size of the block can vary depending on the system, but it is typically a power of 2, such as 4, 8, or 16 words. Each block has a unique tag that identifies it, n the cache memory uses a mapping function to map the tag to a specific location and the cache.
 
- To optimize the performance of the memory hierarchy, computer architects use various techniques such as cache line size, block size, n mapping functions. The cache line size is the number of bytes that are transferred between the cache memory and the main memory. The block size is the number of words that are stored together and the cache memory. The mapping function determines how the cache memory is organized and how the blocks are mapped to specific locations.
+ To optimize the performance of the memory hierarchy, computer architects use various techniques such as cache line size, block size, n mapping [functions](/blog/relations-and-functions-class-11-notes). The cache line size is the number of bytes that are transferred between the cache memory and the main memory. The block size is the number of words that are stored together and the cache memory. The mapping function determines how the cache memory is organized and how the blocks are mapped to specific locations.
 
  Here's a student-centric tip: to understand the memory hierarchy, try to visualize it as a series of concentric circles, with the cache memory at the center and the virtual memory at the outermost circle. This will help you to understand how the different levels of the hierarchy interact with each other and how the data and instructions flow through the system.
 
@@ -226,7 +226,7 @@ What are the Different Types of Computer Instructions? is a set of commands that
 
 ## <a id="what-is-the-best-mnemonic-or-timeline-tip-for-computer-organization"></a>What is the best Mnemonic or Timeline Tip for Computer Organization?
 
-Computer Organization is the study of the structure and operation of a computer's internal components. It includes the control unit, arithmetic logic unit, n registers. For Class 11 exam prep n 2026, the most important aspect is understanding how these components interact to execute instructions, which is crucial for designing and optimizing computer systems.
+Computer Organization is the study of the structure and operation of a computer's internal components. It includes the control unit, arithmetic [logic](/blog/digital-logic-class-11-revision-notes-gate-boards) unit, n registers. For Class 11 exam prep n 2026, the most important aspect is understanding how these components interact to execute instructions, which is crucial for designing and optimizing computer systems.
 
  To excel and Computer Organization, creating a timeline or using mnemonics can significantly aid and remembering key concepts and their sequence. A popular mnemonic for remembering the steps involved and the fetch-decode-execute cycle is $FETCH$: $F$ for fetch, $E$ for execute, $T$ for Transfer, $C$ for Compute, n $H$ for hold. This mnemonic helps and recalling the critical steps and the instruction cycle.
 
@@ -249,7 +249,7 @@ Computer Organization is the study of the structure and operation of a computer'
  | Main Memory (RAM) | Medium | Medium | Medium |
  | Secondary Memory (HDD/SSD) | Slow | Large | Low |
 
- This table highlights the trade-offs between different types of memory and terms of access time, capacity, n cost, which is essential for understanding computer organization and design decisions.
+ This table highlights the trade-offs between different types of memory and terms of access time, capacity, n cost, which is essential for understanding computer organization and [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) decisions.
 
 | Memory Type | Access Time | Capacity | Cost |
 | --- | --- | --- | --- |

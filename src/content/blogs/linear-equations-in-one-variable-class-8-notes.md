@@ -50,7 +50,7 @@ manualReview: false
 ## 👁️ Ayush's Note
 - When solving linear [equations](/blog/differential-equations-class-12-notes) in one variable, it is essential to follow the order of operations (PEMDAS) to avoid mistakes.
 - Students should also make sure to simplify the equation before solving for $x$, and to check for any restrictions on the domain of the variable.
-- Additionally, students should practice solving a variety of linear equations to become proficient in this topic.
+- Additionally, students should practice solving a variety of linear [equations](/blog/differential-equations-class-12-notes) to become proficient in this topic.
 
 ## 🔁 Last 5 Minutes Box
 - Make sure to check the units of the constants in the equation.

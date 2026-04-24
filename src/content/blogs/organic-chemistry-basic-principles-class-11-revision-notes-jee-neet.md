@@ -96,7 +96,7 @@ The molecular structure of a compound can be represented using various technique
 
 Stereochemistry is the study of the three-dimensional arrangement of atoms and a molecule. It deals with the spatial arrangement of atoms and the resulting properties of the molecule.
 
-[Stereochemistry](https://en.wikipedia.org/wiki/Stereochemistry) is an important aspect of organic chemistry, as it can affect the properties and reactions of a compound.
+[Stereochemistry](https://en.wikipedia.org/wiki/Stereochemistry) is an important aspect of organic [chemistry](/blog/environmental-chemistry-class-11-revision-notes-neet), as it can affect the properties and reactions of a compound.
 
 ## <a id="chemical-reactions"></a>Chemical Reactions
 
@@ -210,7 +210,7 @@ Continue your [revision](/blog/physical-world-class-11-revision-notes-jee-neet) 
 ## 🔁 Last 5 Minutes Box
 
 # Basic Principles of Organic Chemistry: 
-* **Isomerism**: same molecular formula, different structural formula 
+* **Isomerism**: same molecular formula, different [structural](/blog/structural-organisation-in-animals-class-11-revision-notes-neet) formula 
 * **Homologous Series**: same functional group, differs by CH2 
 * **IUPAC Nomenclature**: International Union of Pure and Applied Chemistry naming convention 
 * **Stereochemistry**: study of 3D arrangement of atoms 

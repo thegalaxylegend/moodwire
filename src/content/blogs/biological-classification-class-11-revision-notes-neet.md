@@ -110,7 +110,7 @@ $1 \text{group of organisms that can interbreed}$
 
 ## <a id="shortcut-formula-trick"></a>Shortcut Formula / Trick
 
-One trick to remember the order of the levels of classification is to use the sentence "Some Genera Have Incredible Names" (Kingdom, Phylum, class, Order, Family, Genus, Species).
+One trick to remember the order of the levels of classification is to use the sentence "Some Genera Have Incredible Names" ([Kingdom](/blog/animal-kingdom-class-11-revision-notes-neet), Phylum, class, Order, Family, Genus, Species).
 
 ## <a id="trap-questions-exceptions"></a>Trap Questions / Exceptions
 

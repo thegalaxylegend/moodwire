@@ -9,6 +9,23 @@ practice_link: "/class-11/mathematics/probability-class-11-revision-notes-jee"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-probability-revision-notes"></a>What is Probability Revision Notes?](#a-idwhat-is-probability-revision-notesawhat-is-probability-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-random-experiments-n-sample-space"></a>1. Random Experiments and Sample Space](#a-id1-random-experiments-n-sample-spacea1-random-experiments-and-sample-space)
+5. [<a id="2-events-n-their-types"></a>2. Events and Their Types](#a-id2-events-n-their-typesa2-events-and-their-types)
+6. [<a id="3-relationships-between-events"></a>3. Relationships Between Events](#a-id3-relationships-between-eventsa3-relationships-between-events)
+7. [<a id="4-axiomatic-approach-to-probability"></a>4. Axiomatic Approach to Probability](#a-id4-axiomatic-approach-to-probabilitya4-axiomatic-approach-to-probability)
+8. [<a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qandaacomprehensive-exam-strategy-qa)
+9. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+10. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+11. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+12. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Probability Revision Notes?](#what-is-probability-revision-notes)
@@ -153,6 +170,8 @@ Continue your [revision](/blog/binomial-theorem-class-11-revision-notes-jee) wit
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/probability-class-11-revision-notes-jee) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Probability%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20JEE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -163,3 +182,11 @@ Continue your [revision](/blog/conic-sections-class-11-revision-notes-jee) with 
 - 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)
 - 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)
 - 📖 [Mathematical Induction Class 11 Mathematics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Independent Events Confusion**: Many students get confused between independent and dependent events. For independent events, the occurrence or non-occurrence of one does not affect the probability of the occurrence of the other, whereas in dependent events, the probability of one event is affected by the occurrence of the other.
+* **Neglecting the Concept of Equally Likely Outcomes**: A common mistake is not considering the concept of equally likely outcomes when calculating probabilities. If all outcomes are not equally likely, the probability of an event cannot be determined by simply dividing the number of favorable outcomes by the total number of outcomes.
+* **Incorrect Usage of Conditional Probability Formula**: Students often incorrectly apply the conditional probability formula P(A|B) = P(A ∩ B) / P(B), forgetting that it's only applicable when P(B) is not equal to 0.
+* **Not Considering the Sample Space**: A significant mistake is not carefully defining the sample space for the experiment, leading to incorrect calculations of probabilities. The sample space should include all possible outcomes of the experiment.
+* **Misinterpretation of the Concept of Mutual Exclusivity**: Some students mistakenly assume that if two events are mutually exclusive, they cannot occur at the same time, which is correct, but they also incorrectly conclude that if two events cannot occur at the same time, they must be mutually exclusive, ignoring the possibility of dependent events.

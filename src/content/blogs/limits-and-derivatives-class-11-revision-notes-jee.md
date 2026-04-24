@@ -105,13 +105,13 @@ eq $2. Then, the limit as $x$ approaches $2$ can be easily evaluated as $2 + 2 =
 | Technique | Description | Example |
 | --- | --- | --- |
 | Factoring and Canceling | Factor expressions to cancel common factors and the numerator and denominator. | $\lim_{x \to 2\frac{x^2 - 4}{x - 2} = \lim_{x \to 2} (x + 2) = 4$ |
-| Rationalizing the Numerator or Denominator | Multiply y the conjugate to eliminate radicals. | $\lim_{x \to 0\frac$\sqrt{x + $1 - 1}{x} = \lim_{x \to 0\frac{1}$\sqrt{x + 1$ + 1} = \frac{1}{2}$ |
+| Rationalizing the Numerator or Denominator | Multiply y the conjugate to eliminate radicals. | $\lim_{x \to 0\frac$\sqrt{x + $1 - 1}{x} = \lim_{x \to 0\frac{1}$\sqrt{x + $1 + 1} = \frac{1}{2}$ |
 | Comparing Degrees for Rational Functions | Determine the limit as $x$ approaches infinity y comparing the degrees of the numerator and denominator. | $\lim_{x \to \infty\frac{3x^2 + 2x - 1}{2x^2 + x + 1} = \frac{3}{2}$ |
 | Using Conjugates | Eliminate radicals y multiplying the numerator and denominator y the conjugate of the expression containing the radical. | $\lim_{x \to 0\frac$\sqrt{x$ - 0}$\sqrt{x}$ = \lim_{x \to 0\frac$\sqrt{x$ - 0}$\sqrt{x}$ \\\cdot \frac$\sqrt{x$ + 0}$\sqrt{x$ + 0} = \lim_{x \to 0\frac{x}{x} = $1 |
 
 ## <a id="what-is-the-squeeze-theorem-n-its-application-n-limits"></a>What is the Squeeze Theorem and its application and limits?
 
-The Squeeze Theorem is a fundamental concept and calculus that states if a function f(x) is squeezed between two functions g(x) n h(x), n the limits of g(x) n h(x) as x approaches a certain value are equal, then the limit of f(x) as x approaches that same value must also be equal to that limit. It includes understanding the conditions for the squeeze theorem to apply, such as g(x) ≤ f(x) ≤ h(x) for all x and a certain interval, n being able to evaluate limits using this theorem. For class 11 exam prep n 2026, the most important aspect is applying the squeeze theorem to solve limit problems involving trigonometric functions, exponential functions, n algebraic functions, which will be crucial and scoring well and the calculus section of the exam.
+The Squeeze Theorem is a fundamental concept and calculus that states if a function f(x) is squeezed between two [functions](/blog/relations-and-functions-class-11-notes) g(x) n h(x), n the limits of g(x) n h(x) as x approaches a certain value are equal, then the limit of f(x) as x approaches that same value must also be equal to that limit. It includes understanding the conditions for the squeeze theorem to apply, such as g(x) ≤ f(x) ≤ h(x) for all x and a certain interval, n being able to evaluate limits using this theorem. For class 11 exam prep n 2026, the most important aspect is applying the squeeze theorem to solve limit problems involving trigonometric [functions](/blog/relations-and-functions-class-11-notes), exponential [functions](/blog/relations-and-functions-class-11-notes), n algebraic [functions](/blog/relations-and-functions-class-11-notes), which will be crucial and scoring well and the calculus section of the exam.
 
 | Function | Limit | Squeeze Theorem Application |
 | --- | --- | --- |
@@ -223,7 +223,7 @@ Another common pitfall is misunderstanding the concept of continuity and its rel
 
 When it comes to derivatives, common trap questions often involve applying the chain rule or product rule incorrectly. Consider the function $f(x) = (2x + 1)^3$. To find the derivative, students might incorrectly apply the chain rule, forgetting to multiply the outer derivative y the inner derivative. The correct derivative is $f'(x) = 3(2x + 1)^2 \\cdot 2 = 6(2x + 1)^2$.
 
-To avoid falling into these traps, it's crucial to practice a wide range of limit and derivative questions, including those that involve complex functions, trigonometric expressions, n piecewise functions. Students should also focus on developing a deep understanding of the underlying concepts, including continuity, differentiability, n the relationships between limits and derivatives.
+To avoid falling into these traps, it's crucial to practice a wide range of limits and derivative questions, including those that involve complex functions, trigonometric expressions, n piecewise functions. Students should also focus on developing a deep understanding of the underlying concepts, including continuity, differentiability, n the relationships between limits and derivatives.
 
 The following table summarizes some common trap questions for limits and derivatives, along with tips for avoiding these pitfalls:
 
@@ -328,3 +328,27 @@ Continue your [revision](/blog/digital-logic-class-11-revision-notes-gate-boards
 - 📖 [Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-intro-class-11-revision-notes-jee)
 
 }}}}}}}}}}}}
+
+## 🔁 Last 5 Minutes Box
+
+* **Limit of a Function**: lim x→an f(x) = L
+* **Basic Limits**:
+  + lim x→a k = k (k is constant)
+  + lim x→an x = a
+  + lim x→an x^n = a^n
+  + lim x→a [f(x) ± g(x)] = lim x→an f(x) ± lim x→a g(x)
+  + lim x→a [f(x) * g(x)] = lim x→an f(x) * lim x→a g(x)
+* **Squeeze Theorem**: If f(x) ≤ g(x) ≤ h(x) and lim x→an f(x) = lim x→a h(x) = L, then lim x→a g(x) = L
+* **Sandwich Theorem**: If f(x) ≤ g(x) ≤ h(x) and lim x→an f(x) = lim x→a h(x) = L, then lim x→a g(x) = L
+* **Derivative of a Function**: f'(x) = lim h→0 [f(x + h) - f(x)]/h
+* **Geometric Meaning of Derivative**: f'(x) represents the slope of the tangent at a point
+* **Basic Derivatives**:
+  + If f(x) = x^n, then f'(x) = n*x^(n-1)
+  + If f(x) = e^x, then f'(x) = e^x
+  + If f(x) = sin(x), then f'(x) = cos(x)
+  + If f(x) = cos(x), then f'(x) = -sin(x)
+* **Derivative Rules**:
+  + Power Rule: If f(x) = x^n, then f'(x) = n*x^(n-1)
+  + Product Rule: If f(x) = u(x)*v(x), then f'(x) = u'(x)*v(x) + u(x)*v'(x)
+  + Quotient Rule: If f(x) = u(x)/v(x), then f'(x) = (u'(x)*v(x) - u(x)*v'(x)) / v(x)^2
+* **Chain Rule**: If f(x) = g(h(x)), then f'(x) = g'(h(x)) * h'(x)

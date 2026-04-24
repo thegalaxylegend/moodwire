@@ -94,7 +94,7 @@ Continue your [revision](/blog/ray-optics-class-12-quick-class-12-revision-notes
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/indian-geography-physical-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/[indian](/blog/indian-geography-climate-class-11-revision-notes-cbse)-geography-physical-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Indian%20Geography%20Physical%20Class%2011%20Geography%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
@@ -133,4 +133,4 @@ Continue your [revision](/blog/ray-optics-class-12-quick-class-12-revision-notes
 # Coastal Plains
 * The Coastal Plains are narrow strips of land along the coast of [India](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) and are divided into the Eastern Coastal Plains and the Western Coastal Plains.
 # Islands
-* The two main island groups of India are the Andaman and Nicobar Islands and the Lakshadweep Islands.
+* The two main island groups of [India](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) are the Andaman and Nicobar Islands and the Lakshadweep Islands.

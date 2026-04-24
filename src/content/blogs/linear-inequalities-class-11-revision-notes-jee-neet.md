@@ -184,7 +184,7 @@ Continue your [revision](/blog/electric-charges-fields-class-11-revision-notes-j
 * Be cautious when multiplying or dividing both sides of an inequality by a negative number, as this reverses the direction of the inequality sign.
 * When dealing with inequalities involving absolute values, remember that |x| < a is equivalent to -a < x < a, and |x| > an is equivalent to x < -a or x > a.
 * Inequalities involving fractions require special attention, particularly when the sign of the fraction is not immediately clear, such as when the numerator and denominator have different signs.
-* When solving systems of linear inequalities, ensure that the solution set is the intersection of the individual solution sets, and be aware that the intersection may result in an empty set if the inequalities are mutually exclusive.
+* When solving systems of linear inequalities, ensure that the solution set is the intersection of the individual solution [sets](/blog/sets-class-11-revision-notes-jee-neet), and be aware that the intersection may result in an empty set if the inequalities are mutually exclusive.
 * When simplifying [complex](/blog/complex-numbers-class-11-revision-notes-jee-neet) inequalities, be mindful of the algebraic manipulations and avoid canceling terms that may be zero, as this can lead to extraneous or lost solutions.
 
 ## 🔁 Last 5 Minutes Box

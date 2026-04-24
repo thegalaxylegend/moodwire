@@ -9,6 +9,24 @@ practice_link: "/class-11/biology/respiration-n-plants-class-11-revision-notes-n
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-respiration-n-plants"></a>What is Respiration In Plants?](#a-idwhat-is-respiration-n-plantsawhat-is-respiration-in-plants)
+3. [<a id="introduction-to-respiration-n-plants"></a>Introduction to Respiration and Plants](#a-idintroduction-to-respiration-n-plantsaintroduction-to-respiration-and-plants)
+4. [<a id="why-respiration-n-plants-matters"></a>Why Respiration and Plants Matters](#a-idwhy-respiration-n-plants-mattersawhy-respiration-and-plants-matters)
+5. [<a id="ayushs-note"></a>Ayush's Note](#a-idayushs-noteaayushs-note)
+6. [<a id="core-concepts-of-respiration-n-plants"></a>Core Concepts of Respiration and Plants](#a-idcore-concepts-of-respiration-n-plantsacore-concepts-of-respiration-and-plants)
+7. [<a id="shortcut-formulatrick-for-respiration-n-plants"></a>Shortcut Formula/Trick for Respiration and Plants](#a-idshortcut-formulatrick-for-respiration-n-plantsashortcut-formulatrick-for-respiration-and-plants)
+8. [<a id="trap-questionsexceptions-for-respiration-n-plants"></a>Trap Questions/Exceptions for Respiration and Plants](#a-idtrap-questionsexceptions-for-respiration-n-plantsatrap-questionsexceptions-for-respiration-and-plants)
+9. [<a id="practice-mcqs-for-respiration-n-plants"></a>Practice MCQs for Respiration and Plants](#a-idpractice-mcqs-for-respiration-n-plantsapractice-mcqs-for-respiration-and-plants)
+10. [<a id="related-notes-links"></a>Related Notes Links](#a-idrelated-notes-linksarelated-notes-links)
+11. [<a id="last-updated-date"></a>Last Updated Date](#a-idlast-updated-datealast-updated-date)
+12. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+13. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Respiration In Plants?](#what-is-respiration-n-plants)
@@ -74,7 +92,7 @@ To remember the equation for respiration, use the following trick: "C6H12O6 + 6O
 ## <a id="practice-mcqs-for-respiration-n-plants"></a>Practice MCQs for Respiration and Plants
 
 1. What is the equation for respiration and [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)?
- A) C_6H_{12}O_6 + 6O_2 \rightarrow 6CO_2 + 6H_2O + $\text{Energy}$  B) C_6H_{12}O_6 + 6O_2 \rightarrow 6CO_2 + 6H_2O  C) C_6H_{12}O_6 \rightarrow 6CO_2 + 6H_2O + $\text{Energy}$ 
+ A) C_6H_{12}O_6 + 6O_2 \rightarrow 6CO_2 + 6H_2O + $\text{Energy}$  B) C_6H_{12}O_6 + 6O_2 \rightarrow 6CO_2 + 6H_2O C) C_6H_{12}O_6 \rightarrow 6CO_2 + 6H_2O + $\text{Energy}$ 
 D) $C_6H_{12}O_6 + 6O_2 \rightarrow 6CO_2 + 6H_2O + \text{Energy} + \text{Ethanol}$
 
 Answer: A) $C_6H_{12}O_6 + 6O_2 \rightarrow 6CO_2 + 6H_2O + \text{Energy}$
@@ -103,7 +121,7 @@ D) 12 ATP
 
 Answer: C) 36-38 ATP
 
-5. What is the difference between aerobic and anaerobic respiration and plants?
+5. What is the difference between aerobic and anaerobic respiration and [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)?
 A) Aerobic respiration occurs and the presence of light, while anaerobic respiration occurs and the absence of light.
 B) Aerobic respiration occurs and the presence of oxygen, while anaerobic respiration occurs and the absence of oxygen.
 C) Aerobic respiration produces CO2 n H2O, while anaerobic respiration produces ethanol and CO2.
@@ -139,6 +157,8 @@ Continue your [revision](/blog/hydrogen-class-11-revision-notes-neet) with these
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/respiration-n-plants-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Respiration%20In%20Plants%20Class%2011%20Biology%20Revision%20%E2%80%94%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -149,3 +169,16 @@ Continue your [revision](/blog/structural-organisation-in-animals-class-11-revis
 - 📖 [Hydrogen Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet)
+
+## 🔁 Last 5 Minutes Box
+
+### Respiration in Plants Class 11 Biology Revision
+   * **Respiration**: Process of breakdown of glucose to release energy
+   * **Types of Respiration**: Aerobic, Anaerobic
+   * **Aerobic Respiration**: Glucose + O2 → CO2 + H2O + Energy (ATP)
+   * **Anaerobic Respiration**: Glucose → Ethanol + CO2 + Energy (ATP)
+   * **Respiratory Quotient (RQ)**: Volume of CO2 released / Volume of O2 consumed
+   * **Fermentation**: Anaerobic breakdown of glucose to produce ethanol and CO2
+   * **Glycolysis**: Breakdown of glucose to pyruvate
+   * **Krebs Cycle**: Breakdown of pyruvate to CO2 and Energy (ATP, NADH, FADH2)
+   * **Electron Transport Chain**: Generation of ATP from NADH and FADH2

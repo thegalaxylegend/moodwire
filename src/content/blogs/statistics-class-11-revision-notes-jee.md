@@ -9,6 +9,23 @@ practice_link: "/class-11/mathematics/statistics-class-11-revision-notes-jee"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-statistics-revision-notes"></a>What is Statistics Revision Notes?](#a-idwhat-is-statistics-revision-notesawhat-is-statistics-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-measures-of-dispersion"></a>1. Measures of Dispersion](#a-id1-measures-of-dispersiona1-measures-of-dispersion)
+5. [<a id="2-mean-deviation-md"></a>2. Mean Deviation (M.D.)](#a-id2-mean-deviation-mda2-mean-deviation-md)
+6. [<a id="3-variance-n-standard-deviation"></a>3. Variance and Standard Deviation](#a-id3-variance-n-standard-deviationa3-variance-and-standard-deviation)
+7. [<a id="4-analysis-of-frequency-distributions"></a>4. Analysis of Frequency Distributions](#a-id4-analysis-of-frequency-distributionsa4-analysis-of-frequency-distributions)
+8. [<a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qandaacomprehensive-exam-strategy-qa)
+9. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+10. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+11. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+12. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Statistics Revision Notes?](#what-is-statistics-revision-notes)
@@ -66,7 +83,7 @@ Dispersion refers to the scattering of data around a central value. Two sets of 
 Mean deviation can be calculated about the **Mean** or the **Median**.
 
 ### <a id="calculation-steps"></a>Calculation Steps:
-1.  Find the Mean ($) or Median ($M$) of the data.
+1.  Find the mean ($) or Median ($M$) of the data.
 2.  Find the absolute differences $|x_i - \bar{x}|$ or $|x_i - M|$.
 3.  Calculated the average of these absolute differences.
 
@@ -158,6 +175,8 @@ Continue your [revision](/blog/limits-derivatives-class-11-revision-notes-jee-ne
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/statistics-class-11-revision-notes-jee) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Statistics%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20JEE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -168,3 +187,27 @@ Continue your [revision](/blog/limits-derivatives-class-11-revision-notes-jee-ne
 - 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)
 - 📖 [Limits Derivatives Class 11 Mathematics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)
 - 📖 [Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-combinations-class-11-revision-notes-jee)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Mean of grouped data**: A common mistake is using the mid-point of the class interval as the value of the variable, instead of using the class mark. To avoid this, use the class mark, which is the average of the upper and lower [limits](/blog/limits-derivatives-class-11-revision-notes-jee-neet) of the class interval.
+* **Median of ungrouped data**: A trap question is when students are asked to find the median of an even number of observations, and they forget to take the average of the two middle terms.
+* **Mode**: A common error is when students calculate the mode of a dataset with multiple modes, and they only report one of the modes. Make sure to report all the modes if the dataset is multimodal.
+* **Variance and Standard Deviation**: A mistake is when students forget to subtract the mean from each data point before squaring and averaging to calculate the variance and standard deviation. 
+* **Co-efficient of variation**: A trap is when students forget to take the absolute value of the standard deviation before calculating the coefficient of variation, which can lead to a negative result.
+
+## 🔁 Last 5 Minutes Box
+
+### Measures of Central Tendency
+   * Mean: (ar{x} = \frac{\sum x_i}{n})
+   * Median: Middle value of arranged data
+   * Mode: Most frequently occurring value
+   ### Measures of Dispersion
+   * Range: (R = x_{max} - x_{min})
+   * Variance: (sigma^2 = \frac{\sum (x_i - \bar{x})^2}{n})
+   * Standard Deviation: (sigma = \sqrt{\frac{\sum (x_i - \bar{x})^2}{n}}
+
+   ### Probability
+   * Probability of an event: (P(A) = \frac{\text{Number of favorable outcomes}}{\text{Total number of outcomes}})
+   * Addition Theorem: (P(A \cup B) = P(A) + P(B) - P(A \cap B))
+   * Multiplication Theorem: (P(A \cap B) = P(A) \cdot P(B))

@@ -9,6 +9,27 @@ practice_link: "/class-11/biology/the-living-world-class-11-revision-notes-neet"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-the-living-world"></a>What is The Living World?](#a-idwhat-is-the-living-worldawhat-is-the-living-world)
+3. [<a id="introduction-to-the-living-world"></a>Introduction to the Living World](#a-idintroduction-to-the-living-worldaintroduction-to-the-living-world)
+4. [<a id="characteristics-of-living-organisms"></a>Characteristics of Living Organisms](#a-idcharacteristics-of-living-organismsacharacteristics-of-living-organisms)
+5. [<a id="classification-of-living-organisms"></a>Classification of Living Organisms](#a-idclassification-of-living-organismsaclassification-of-living-organisms)
+6. [<a id="binomial-nomenclature"></a>Binomial Nomenclature](#a-idbinomial-nomenclatureabinomial-nomenclature)
+7. [<a id="species-concept"></a>Species Concept](#a-idspecies-conceptaspecies-concept)
+8. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+9. [<a id="shortcut-formula-trick"></a>Shortcut Formula / Trick](#a-idshortcut-formula-trickashortcut-formula-trick)
+10. [<a id="trap-questions-exceptions"></a>Trap Questions / Exceptions](#a-idtrap-questions-exceptionsatrap-questions-exceptions)
+11. [<a id="practice-mcqs"></a>Practice MCQs](#a-idpractice-mcqsapractice-mcqs)
+12. [<a id="related-notes-links"></a>Related Notes Links](#a-idrelated-notes-linksarelated-notes-links)
+13. [<a id="ayushs-note"></a>Ayush's Note](#a-idayushs-noteaayushs-note)
+14. [<a id="last-updated-date"></a>Last Updated Date](#a-idlast-updated-datealast-updated-date)
+15. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+16. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is The Living World?](#what-is-the-living-world)
@@ -176,6 +197,8 @@ Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-n
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/the-living-[world](/blog/physical-world-class-11-revision-notes-jee-neet)-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=The%20Living%20World%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -186,3 +209,28 @@ Continue your [revision](/blog/morphology-of-flowering-plants-class-11-revision-
 - 📖 [Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
+
+## 🔁 Last 5 Minutes Box
+
+# The Living World Class 11 Exam Prep Revision
+* **Characteristics of Living Organisms**: 
+     + [Growth](/blog/plant-growth-and-development-class-11-revision-notes-neet) 
+     + Reproduction 
+     + Consciousness 
+     + Metabolism 
+     + Response to stimuli 
+     + Adaptation 
+     + Movement 
+     + Evolution
+* **[Biological](/blog/biological-classification-class-11-revision-notes-neet) Classification**: 
+     + Taxonomic Hierarchy: Species, Genus, Family, Order, Class, Phylum, [Kingdom](/blog/animal-kingdom-class-11-revision-notes-neet), Domain 
+     + Binomial Nomenclature
+* **Plant Kingdom**: 
+     + Algae 
+     + Bryophyta 
+     + Pteridophyta 
+     + Gymnosperms 
+     + Angiosperms
+* **Animal Kingdom**: 
+     + Non-Chordates: Porifera, Coelenterata, Helminthes, Annelida, Arthropoda, Mollusca, Echinodermata 
+     + Chordates: Protochordata, Vertebrata

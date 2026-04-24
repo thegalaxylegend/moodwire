@@ -9,6 +9,23 @@ practice_link: "/class-11/biology/plant-kingdom-class-11-revision-notes-neet"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-plant-kingdom"></a>What is Plant Kingdom?](#a-idwhat-is-plant-kingdomawhat-is-plant-kingdom)
+3. [<a id="introduction-to-plant-kingdom"></a>Introduction to Plant Kingdom](#a-idintroduction-to-plant-kingdomaintroduction-to-plant-kingdom)
+4. [<a id="why-this-chapter-matters"></a>Why This Chapter Matters](#a-idwhy-this-chapter-mattersawhy-this-chapter-matters)
+5. [<a id="ayushs-note"></a>Ayush's Note](#a-idayushs-noteaayushs-note)
+6. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+7. [<a id="shortcut-formula-trick"></a>Shortcut Formula / Trick](#a-idshortcut-formula-trickashortcut-formula-trick)
+8. [<a id="trap-questions-exceptions"></a>Trap Questions / Exceptions](#a-idtrap-questions-exceptionsatrap-questions-exceptions)
+9. [<a id="practice-mcqs"></a>Practice MCQs](#a-idpractice-mcqsapractice-mcqs)
+10. [<a id="related-notes-links"></a>Related Notes Links](#a-idrelated-notes-linksarelated-notes-links)
+11. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+12. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Plant Kingdom?](#what-is-plant-kingdom)
@@ -43,12 +60,12 @@ Plant Kingdom is a taxonomic rank that includes all plants. It is a diverse grou
 
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 
-Plant Kingdom is a critical topic for JEE and NEET exams, with 3-4 questions asked every year. In JEE Mains 2026 Session 1, 3 questions came from this topic. Understanding the classification and characteristics of different plant groups is essential for answering questions and this topic. Additionally, knowledge of plant anatomy and physiology is crucial for understanding many [biological](/blog/biological-classification-class-11-revision-notes-neet) processes.
+Plant Kingdom is a critical topic for JEE and NEET exams, with 3–4 questions asked every year. In JEE Mains 2026 Session 1, 3 questions came from this topic. Understanding the classification and characteristics of different plant groups is essential for answering questions and this topic. Additionally, knowledge of plant anatomy and physiology is crucial for understanding many [biological](/blog/biological-classification-class-11-revision-notes-neet) processes.
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
 <div class="ayush-note">
-I still remember when I was preparing for JEE, I used to get confused between the different plant groups. I would often mix up the characteristics of Bryophyta and Tracheophyta. But then I realized that the key to understanding Plant Kingdom is to focus on the vascular tissue. Once I understood the difference between vascular and non-vascular [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet), I was able to classify [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) easily. My advice to you is to practice, practice, practice! Make sure you practice at least 50-60 questions from this topic to get a good grip on it.
+I still remember when I was preparing for JEE, I used to get confused between the different plant groups. I would often mix up the characteristics of Bryophyta and Tracheophyta. But then I realized that the key to understanding Plant Kingdom is to focus on the vascular tissue. Once I understood the difference between vascular and non-vascular [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet), I was able to classify [plants](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet) easily. My advice to you is to practice, practice, practice! Make sure you practice at least 50–60 questions from this topic to get a good grip on it.
 </div>
 
 ## <a id="core-concepts"></a>Core Concepts
@@ -133,7 +150,7 @@ Answer: d) All of the above
 * Cell Biology class 11 Notes
 * Molecular Biology Class 12 Notes
 
-Note: The above links are to existing posts only.
+Note: The above links are existing posts only.
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
@@ -154,6 +171,8 @@ Continue your revision with these related guides:
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/plant-[kingdom](/blog/animal-kingdom-class-11-revision-notes-neet)-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Plant](/blog/plant-growth-and-development-class-11-revision-notes-neet)%20Kingdom%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -164,3 +183,14 @@ Continue your revision with these related guides:
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
+
+## 🔁 Last 5 Minutes Box
+
+* **Algae**: Simple, multicellular, autotrophic, mostly aquatic plants
+    * **Bryophyta**: Non-vascular, land-dwelling plants (e.g., mosses, liverworts)
+    * **Pteridophyta**: Vascular, spore-producing plants (e.g., ferns, horsetails)
+    * **Gymnosperms**: Vascular, seed-producing plants with naked seeds (e.g., conifers, cycads)
+    * **Angiosperms**: Vascular, seed-producing plants with covered seeds (e.g., flowering plants)
+    * **Plant Cell**: Cell wall, plasma membrane, cytoplasm, nucleus, mitochondria, chloroplasts
+    * **Photosynthesis**: 6CO2 + 6H2O + light energy → C6H12O6 (glucose) + 6O2
+    * **Respiration**: C6H12O6 (glucose) + 6O2 → 6CO2 + 6H2O + energy (ATP)

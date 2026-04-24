@@ -9,6 +9,24 @@ practice_link: "/class-11/mathematics/sequences-series-class-11-revision-notes-j
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-sequences-series-revision-notes"></a>What is Sequences Series Revision Notes?](#a-idwhat-is-sequences-series-revision-notesawhat-is-sequences-series-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-sequences-n-series-basics"></a>1. Sequences and Series Basics](#a-id1-sequences-n-series-basicsa1-sequences-and-series-basics)
+5. [<a id="2-arithmetic-progression-ap"></a>2. Arithmetic Progression (AP)](#a-id2-arithmetic-progression-apa2-arithmetic-progression-ap)
+6. [<a id="3-geometric-progression-gp"></a>3. Geometric Progression (GP)](#a-id3-geometric-progression-gpa3-geometric-progression-gp)
+7. [<a id="4-relationship-between-am-n-gm"></a>4. Relationship Between AM and GM](#a-id4-relationship-between-am-n-gma4-relationship-between-am-and-gm)
+8. [<a id="5-infinite-geometric-series"></a>5. Infinite Geometric Series](#a-id5-infinite-geometric-seriesa5-infinite-geometric-series)
+9. [<a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qandaacomprehensive-exam-strategy-qa)
+10. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+11. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+12. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+13. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Sequences Series Revision Notes?](#what-is-sequences-series-revision-notes)
@@ -34,7 +52,7 @@ practice_link: "/class-11/mathematics/sequences-series-class-11-revision-notes-j
 > - **Arithmetic Progression (AP):** a, a+d, a+2d ... Common difference **d**.
 >   - **nᵗʰ Term (aₙ):** a + (n-1)d.
 >   - **Sum (Sₙ):** (n/2)[2a + (n-1)d] or (n/2)[a + l].
-> - **Geometric Progression (GP):** a, ar, ar² ... Common ratio **r**.
+> - **Geometric Progression (GP):** a ar, ar² ... Common ratio **r**.
 >   - **nᵗʰ Term (aₙ):** arⁿ⁻¹.
 >   - **Sum (Sₙ):** a(rⁿ-1)/(r-1) for r≠1.
 >   - **Sum to Infinity (S∞):** a/(1-r) for |r|<1.
@@ -159,6 +177,8 @@ Continue your [revision](/blog/conic-sections-class-11-revision-notes-jee) with 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/sequences-series-class-11-revision-notes-jee) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Sequences%20Series%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20JEE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -169,3 +189,21 @@ Continue your [revision](/blog/conic-sections-class-11-revision-notes-jee) with 
 - 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)
 - 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)
 - 📖 [Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/moving-charges-magnetism-class-11-revision-notes-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* Always remember that the sum of an infinite geometric series is only valid when the common ratio lies between -1 and 1. If |r| ≥ 1, the series diverges.
+* A common mistake in finding the nth term of an arithmetic progression (AP) is forgetting to add the first term after multiplying the common difference by (n-1). The correct formula is: an = a + (n-1)d.
+* When determining convergence of a series, be aware that the terms of the series must approach zero for the series to converge. However, this is not a sufficient condition on its own, and further tests like the ratio test or root test may be needed.
+* In a geometric series, the formula for the sum of the first n terms is Sn = a(1 - r^n) / (1 - r), where 'a' is the first term and 'r' is the common ratio. Be cautious of the special case when r = 1, as this formula does not apply.
+* When applying the formula for the sum of an arithmetic series, Sn = n/2 * [2a + (n-1)d], ensure that 'n' represents the number of terms, 'a' is the first term, and 'd' is the common difference. Incorrectly substituting these values can lead to incorrect results.
+
+## 🔁 Last 5 Minutes Box
+
+- **Arithmetic Sequence**: a sequence of numbers in which the difference between consecutive terms is constant. 
+   - **Geometric Sequence**: a sequence of numbers in which the ratio between consecutive terms is constant. 
+   - **Harmonic Sequence**: a sequence of numbers in which the reciprocals of the terms form an arithmetic sequence. 
+   - Formula for nth term of an **Arithmetic Sequence**: $a_n = a_1 + (n-1)d$, where $a_n$ is the nth term, $a_1$ is the first term, $n$ is the term number, and $d$ is the common difference. 
+   - Formula for nth term of a **Geometric Sequence**: $a_n = a_1 cdot r^{(n-1)}$, where $a_n$ is the nth term, $a_1$ is the first term, $r$ is the common ratio, and $n$ is the term number. 
+   - **Sum of n terms of an Arithmetic Sequence**: $S_n = \frac{n}{2}(2a_1 + (n-1)d)$, where $S_n$ is the sum of n terms, $a_1$ is the first term, $n$ is the number of terms, and $d$ is the common difference. 
+   - **Sum of n terms of a Geometric Sequence**: $S_n = a_1 \cdot \frac{(1 - r^n)}{(1 - r)}$, where $S_n$ is the sum of n terms, $a_1$ is the first term, $r$ is the common ratio, and $n$ is the number of terms.

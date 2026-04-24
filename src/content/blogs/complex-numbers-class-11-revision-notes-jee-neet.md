@@ -189,7 +189,7 @@ Continue your [revision](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet
 * **Forgetting to rationalize the denominator**: When dividing complex numbers, it's essential to rationalize the denominator y multiplying the numerator and denominator y the conjugate of the denominator to avoid mistakes.
 * **Mixing up the polar and rectangular forms**: Be cautious when converting between polar and rectangular forms of complex numbers, as it's easy to confuse the two and make calculation errors.
 * **Incorrectly applying De Moiré's [theorem](/blog/binomial-theorem-class-11-revision-notes-jee)**: De Moiré's [theorem](/blog/binomial-theorem-class-11-revision-notes-jee) is often misapplied or misunderstood, leading to errors and finding powers and roots of complex numbers.
-* **Not considering the principal argument**: When dealing with complex numbers and polar form, it's crucial to consider the principal argument to avoid errors and calculations involving inverse trigonometric functions.
+* **Not considering the principal argument**: When dealing with complex numbers and polar form, it's crucial to consider the principal argument to avoid errors and calculations involving inverse trigonometric [functions](/blog/relations-functions-class-11-revision-notes-jee-neet).
 
 ## 🔁 Last 5 Minutes Box
 

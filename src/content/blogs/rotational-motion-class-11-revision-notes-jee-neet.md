@@ -9,6 +9,24 @@ practice_link: "/class-11/physics/rotational-motion-class-11-revision-notes-jee-
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-rotational-motion-revision-notes"></a>What is Rotational Motion Revision Notes?](#a-idwhat-is-rotational-motion-revision-notesawhat-is-rotational-motion-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-centre-of-mass-com"></a>1. Centre of Mass (CoM)](#a-id1-centre-of-mass-coma1-centre-of-mass-com)
+5. [<a id="2-torque-n-angular-momentum"></a>2. Torque and Angular Momentum](#a-id2-torque-n-angular-momentuma2-torque-and-angular-momentum)
+6. [<a id="3-moment-of-inertia-i-rotational-mass"></a>3. Moment of Inertia (I): Rotational Mass](#a-id3-moment-of-inertia-i-rotational-massa3-moment-of-inertia-i-rotational-mass)
+7. [<a id="4-moment-of-inertia-mastersheet"></a>4. Moment of Inertia Master-Sheet](#a-id4-moment-of-inertia-mastersheeta4-moment-of-inertia-master-sheet)
+8. [<a id="5-dynamics-of-rolling-motion"></a>5. Dynamics of Rolling Motion](#a-id5-dynamics-of-rolling-motiona5-dynamics-of-rolling-motion)
+9. [<a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qandaacomprehensive-exam-strategy-qa)
+10. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+11. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+12. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+13. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Rotational Motion Revision Notes?](#what-is-rotational-motion-revision-notes)
@@ -170,7 +188,9 @@ Continue your [revision](/blog/oscillations-class-11-revision-notes-jee-neet) wi
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/rotational-motion-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/rotational-[motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Rotational%20Motion%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 
@@ -182,3 +202,22 @@ Continue your [revision](/blog/oscillations-class-11-revision-notes-jee-neet) wi
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
 - 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* Confusing angular velocity and angular frequency: Many students get confused between angular velocity (ω) and angular frequency (ω = 2πf), where f is the frequency of rotation. Remember, angular velocity is the rate of change of angular displacement, while angular frequency is related to the periodic motion.
+* Forgetting to convert degrees to radians: In rotational motion, angles are often given in degrees, but the formulas require angles in radians. Make sure to convert degrees to radians using the formula: radians = degrees × (π/180).
+* Incorrectly applying the right-hand rule: The right-hand rule is used to determine the direction of angular quantities like angular velocity and angular momentum. However, students often apply it incorrectly, leading to wrong directions and signs.
+* Mixing up moment of inertia formulas: There are different formulas for the moment of inertia of various objects, such as rings, disks, and spheres. Students often mix up these formulas or use the wrong one, resulting in incorrect calculations.
+* Not considering the reference frame: Rotational motion problems often involve different reference frames. Students must ensure they are using the correct reference frame, as the angular velocity and acceleration can vary depending on the chosen frame.
+
+## 🔁 Last 5 Minutes Box
+
+* **Kinetic Energy of Rotating Body**: K = (1/2)Iω²
+* **Moment of Inertia (I)**: I = mr² for point mass, I = (1/2)mr² for disc, I = (2/5)mr² for sphere
+* **Torque (τ)**: τ = r x F = rFsinθ
+* **Angular Momentum (L)**: L = Iω = r x p
+* **Equations of Rotational Motion**: θ = ω₀t + (1/2)αt², ω = ω₀ + αt, ω² = ω₀² + 2αθ
+* **Relationship between Linear and Angular Quantities**: v = rω, a = rα, F = (m/r)τ
+* **Conservation of Angular Momentum**: L₁ = L₂, I₁ω₁ = I₂ω₂
+* **Rotational Kinetic Energy**: K = (1/2)Iω² = (1/2)(mr²)ω² = (1/2)mv²

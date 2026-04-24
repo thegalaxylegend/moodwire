@@ -9,6 +9,24 @@ practice_link: "/class-11/biology/structural-organisation-n-animals-class-11-rev
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-structural-organisation-n-animals"></a>What is Structural Organisation In Animals?](#a-idwhat-is-structural-organisation-n-animalsawhat-is-structural-organisation-in-animals)
+3. [<a id="introduction-to-structural-organisation-n-animals"></a>Introduction to Structural Organisation and Animals](#a-idintroduction-to-structural-organisation-n-animalsaintroduction-to-structural-organisation-and-animals)
+4. [<a id="why-this-chapter-matters"></a>Why This Chapter Matters](#a-idwhy-this-chapter-mattersawhy-this-chapter-matters)
+5. [<a id="ayushs-note"></a>Ayush's Note](#a-idayushs-noteaayushs-note)
+6. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+7. [<a id="shortcut-formula-trick"></a>Shortcut Formula / Trick](#a-idshortcut-formula-trickashortcut-formula-trick)
+8. [<a id="trap-questions-exceptions"></a>Trap Questions / Exceptions](#a-idtrap-questions-exceptionsatrap-questions-exceptions)
+9. [<a id="practice-mcqs"></a>Practice MCQs](#a-idpractice-mcqsapractice-mcqs)
+10. [<a id="related-notes-links"></a>Related Notes Links](#a-idrelated-notes-linksarelated-notes-links)
+11. [<a id="last-updated-date"></a>Last Updated Date](#a-idlast-updated-datealast-updated-date)
+12. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+13. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Structural Organisation In Animals?](#what-is-structural-organisation-n-animals)
@@ -145,6 +163,8 @@ Continue your [revision](/blog/photosynthesis-n-higher-plants-class-11-revision-
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/structural-organisation-n-animals-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Structural%20Organisation%20In%20Animals%20Class%2011%20Biology%20Revision%20%E2%80%94%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -155,3 +175,16 @@ Continue your [revision](/blog/photosynthesis-n-higher-plants-class-11-revision-
 - 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet)
+
+## 🔁 Last 5 Minutes Box
+
+# Tissues: 
+      * Epithelial tissue: forms lining of organs and glands, provides protection and regulation of exchange. 
+      * Connective tissue: provides support, connects other tissues, and transports substances. 
+      * Muscular tissue: responsible for movement and contraction. 
+      * Nervous tissue: controls and coordinates body functions. 
+     # Organ System: 
+      * Nervous system: controls and coordinates body activities. 
+      * Circulatory system: transports oxygen and nutrients. 
+      * Digestive system: breaks down food into nutrients. 
+      * Respiratory system: brings oxygen into the body, removes carbon dioxide.

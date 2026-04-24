@@ -192,7 +192,7 @@ Continue your [revision](/blog/thermal-properties-of-matter-class-11-revision-no
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/[mechanical](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)-properties-of-fluids-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Mechanical%20Properties%20Of%20Fluids%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Mechanical](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)%20Properties%20Of%20Fluids%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

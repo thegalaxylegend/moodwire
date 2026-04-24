@@ -125,6 +125,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Principles%20Of%20Inheritance%20And%20Variation%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -135,3 +137,11 @@ Continue your revision with these related guides:
 - 📖 [Molecular Basis Of Inheritance Class 12 Exam Prep Revision — Grandmaster Guide](/blog/molecular-basis-of-inheritance-class-12-notes)
 - 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
 - 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* A common mistake in solving genetics problems is **not considering the genotype of the parents**, which is essential to determine the probability of certain traits being inherited by the offspring.
+* **Confusing between dominant and recessive alleles**: Many students mistakenly assume that a dominant allele will always be expressed, forgetting that it can also be masked by another dominant allele.
+* **Not understanding the difference between incomplete dominance and codominance**: Students often get confused between these two concepts, which are crucial in predicting the phenotypic ratios of offspring.
+* **Forgetting to consider multiple alleles and their interactions**: When dealing with multiple alleles, students often overlook the interactions between them, leading to incorrect predictions of genotypic and phenotypic ratios.
+* **Not accounting for linkage and crossing over**: Many students neglect to consider the effects of linkage and crossing over on the [inheritance](/blog/molecular-basis-of-inheritance-class-12-notes) of genes, leading to errors in predicting the probability of certain traits being inherited

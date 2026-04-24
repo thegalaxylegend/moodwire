@@ -9,6 +9,24 @@ practice_link: "/class-11/biology/plant-growth-n-development-class-11-revision-n
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-plant-growth-n-development"></a>What is Plant Growth And Development?](#a-idwhat-is-plant-growth-n-developmentawhat-is-plant-growth-and-development)
+3. [<a id="introduction-to-plant-growth-n-development"></a>Introduction to Plant Growth and Development](#a-idintroduction-to-plant-growth-n-developmentaintroduction-to-plant-growth-and-development)
+4. [<a id="why-this-chapter-matters"></a>Why This Chapter Matters](#a-idwhy-this-chapter-mattersawhy-this-chapter-matters)
+5. [<a id="ayushs-note"></a>Ayush's Note](#a-idayushs-noteaayushs-note)
+6. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+7. [<a id="shortcut-formula-trick"></a>Shortcut Formula / Trick](#a-idshortcut-formula-trickashortcut-formula-trick)
+8. [<a id="trap-questions-exceptions"></a>Trap Questions / Exceptions](#a-idtrap-questions-exceptionsatrap-questions-exceptions)
+9. [<a id="practice-mcqs"></a>Practice MCQs](#a-idpractice-mcqsapractice-mcqs)
+10. [<a id="related-notes-links"></a>Related Notes Links](#a-idrelated-notes-linksarelated-notes-links)
+11. [<a id="last-updated-date"></a>Last Updated Date](#a-idlast-updated-datealast-updated-date)
+12. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+13. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Plant Growth And Development?](#what-is-plant-growth-n-development)
@@ -85,7 +103,7 @@ To remember the different types of [plant](/blog/plant-kingdom-class-11-revision
 ## <a id="trap-questions-exceptions"></a>Trap Questions / Exceptions
 
 * Wrong answer: Auxins promote [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division.
-Right answer: Cytokinins promote cell division.
+Right answer: Cytokinins promote [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division.
 Why students get it wrong: Auxins and cytokinins are both involved and cell growth, but they have different functions.
 * Wrong answer: Gibberellins promote fruit ripening.
 Right answer: Ethylene promotes fruit ripening.
@@ -123,7 +141,7 @@ Answer: A) Photoperiodism
 4. Which type of [plant](/blog/plant-kingdom-class-11-revision-notes-neet) flowers and response to short days?
 A) Short-day [plant](/blog/plant-kingdom-class-11-revision-notes-neet)
 B) Long-day [plant](/blog/plant-kingdom-class-11-revision-notes-neet)
-C) Day-neutral plant
+C) Day-neutral [plant](/blog/plant-kingdom-class-11-revision-notes-neet)
 D) Photoperiodic plant
 
 Answer: A) Short-day plant
@@ -162,6 +180,8 @@ Continue your [revision](/blog/morphology-of-flowering-plants-class-11-revision-
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/plant-growth-n-development-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Plant%20Growth%20And%20Development%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -172,3 +192,13 @@ Continue your [revision](/blog/morphology-of-flowering-plants-class-11-revision-
 - 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-n-higher-plants-class-11-revision-notes-neet)
+
+## 🔁 Last 5 Minutes Box
+
+- **Photoperiodism**: Response of plants to the duration of light and darkness.
+   - **Vernalisation**: Promotion of flowering by a period of cold.
+   - **Auxins**: Indole acetic acid (IAA), indole butyric acid (IBA), naphthalene acetic acid (NAA).
+   - **Gibberellins**: GA3 (gibberellic acid), breaks seed dormancy, promotes stem elongation.
+   - **Cytokinins**: Promote cell division, example: kinetin, BAP (benzyl amino purine).
+   - **Ethylene**: A gaseous hormone, promotes fruit ripening.
+   - **Abscisic acid (ABA)**: Inhibits growth, promotes seed dormancy, stomatal closure.

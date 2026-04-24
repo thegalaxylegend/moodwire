@@ -125,7 +125,7 @@ where:
 - $g_{Na}$, $g_K$, n $g_L$ are the conductances for sodium, potassium, n leak channels, respectively,
 - $V_{Na}$, $V_K$, n $V_L$ are the equilibrium potentials for sodium, potassium, n leak channels, respectively.
 
-This equation, part of the Hodgkin-Huxley model, demonstrates the complex interplay of ion channels and currents that underlie the generation and propagation of action potentials and neurons. While the mathematical details may be beyond the scope of class 11 biology, understanding the biological principles behind such equations can deepen your appreciation for the intricate mechanisms of neural control and coordination.
+This equation, part of the Hodgkin-Huxley model, demonstrates the complex interplay of ion channels and currents that underlie the generation and propagation of action potentials and neurons. While the mathematical details may be beyond the scope of class 11 biology, understanding the biological principles behind such equations can deepen your appreciation for the intricate mechanisms of neural control and [coordination](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet).
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
@@ -165,7 +165,7 @@ Continue your [revision](/blog/locomotion-n-movement-class-11-revision-notes-nee
    - **Confusion between Dendrite and Axon**: Students often get confused between the dendrite and axon, remembering that dendrites are the branching extensions of a neuron that receive signals, while the axon is the long, threadlike part of a neuron that carries signals away from the cell [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet).
    - **Understanding the Role of Synapses**: A common mistake is assuming that synapses are physical structures, when in fact, they are small gaps between two neurons where chemical signals are exchanged.
    - **Mixing Up the Types of Neurons**: It's easy to get confused between the three types of neurons: sensory (afferent) neurons, motor (efferent) neurons, and interneurons, each having distinct functions in the neural control and coordination process.
-   - **Incorrectly Identifying the Functions of the Central Nervous System (CNS)**: Students may mistakenly attribute functions of the peripheral nervous system (PNS) to the CNS or vice versa, so it's crucial to clearly understand the roles of the brain and spinal cord in controlling and coordinating body activities.
+   - **Incorrectly Identifying the Functions of the Central Nervous System (CNS)**: Students may mistakenly attribute functions of the peripheral nervous system (PNS) to the CNS or vice versa, so it's crucial to clearly understand the roles of the brain and spinal cord in controlling and coordinating [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) activities.
 
 ## 🔁 Last 5 Minutes Box
 

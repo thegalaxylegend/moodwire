@@ -9,6 +9,22 @@ practice_link: "/class-11/biology/state-scholarship-guide-2026-class-11-revision
 
 *Last Updated: [2026](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-state-scholarship-guide-2026"></a>What is State Scholarship Guide 2026?](#a-idwhat-is-state-scholarship-guide-2026awhat-is-state-scholarship-guide-2026)
+3. [<a id="the-nmms-powerhouse-a-universal-funding-door"></a>The NMMS Powerhouse: A Universal Funding Door](#a-idthe-nmms-powerhouse-a-universal-funding-doorathe-nmms-powerhouse-a-universal-funding-door)
+4. [<a id="statelevel-talent-search-exams-a-comprehensive-directory"></a>State-Level Talent Search Exams: A Comprehensive Directory](#a-idstatelevel-talent-search-exams-a-comprehensive-directoryastate-level-talent-search-exams-a-comprehensive-directory)
+5. [<a id="strategic-deep-dive-top-highimpact-state-exams"></a>Strategic Deep Dive: Top High-Impact State Exams](#a-idstrategic-deep-dive-top-highimpact-state-examsastrategic-deep-dive-top-high-impact-state-exams)
+6. [<a id="preparation-roadmap-mastering-mat-n-sat-sections"></a>Preparation Roadmap: Mastering MAT and SAT Sections](#a-idpreparation-roadmap-mastering-mat-n-sat-sectionsapreparation-roadmap-mastering-mat-and-sat-sections)
+7. [<a id="administrative-protips-for-students-n-parents"></a>Administrative Pro-Tips for Students and Parents](#a-idadministrative-protips-for-students-n-parentsaadministrative-pro-tips-for-students-and-parents)
+8. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+9. [<a id="frequently-asked-questions-faqs"></a>Frequently Asked Questions (FAQs)](#a-idfrequently-asked-questions-faqsafrequently-asked-questions-faqs)
+10. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+11. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is State Scholarship Guide 2026?](#what-is-state-scholarship-guide-2026)
@@ -46,7 +62,7 @@ The selection process for NMMS is standardized across states, consisting of the 
 
 ## <a id="statelevel-talent-search-exams-a-comprehensive-directory"></a>State-Level Talent Search Exams: A Comprehensive Directory
 
-Every state has its own unique heritage of talent identification. For instance, Maharashtra holds the MSCE Pune Scholarship (PUP/PSS) for Classes 5 n 8, focusing heavily on intelligence and language proficiency. Delhi’s JSTSE is a prestigious gateway for class 9 students, offering a rigorous test of general awareness and science. In the south, Tamil Nadu offers the TRUST and VSTS exams, specifically designed to identify and support bright minds from rural local bodies who might lack access to urban coaching centers.
+Every state has its own unique heritage of talent identification. For instance, Maharashtra holds the MSCE Pune Scholarship (PUP/PSS) for Classes 5 n 8, focusing heavily on intelligence and language proficiency. Delhi’s JSTSE is a prestigious gateway for class 9 students, offering a rigorous test of general awareness and [science](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet). In the south, Tamil Nadu offers the TRUST and VSTS exams, specifically designed to identify and support bright minds from rural local bodies who might lack access to urban coaching centers.
 
 | State | Primary Exam Name | Eligible Classes | Key Subjects |
 | :--- | :--- | :--- | :--- |
@@ -72,7 +88,7 @@ The MAT (Mental Ability Test), however, is where approximately 70% of students f
 
 ## <a id="administrative-protips-for-students-n-parents"></a>Administrative Pro-Tips for Students and Parents
 
-Preparing for the exam is only half the battle; navigating the bureaucracy of scholarship applications is the other half. Notifications for these exams are often released and local newspapers or SCERT websites without much fanfare. Parents must stay vigilant, especially around the middle of the academic year. Furthermore, many scholarships have a "Income Certificate" requirement—usually an annual family income of less than ₹3.5 Lakh. Since these certificates can take months to process, it is wise to have your documents ready well before the application window opens.
+Preparing for the exam is only half the battle; navigating the bureaucracy of scholarship applications is the other half. Notifications for these exams are often released and local newspapers or SCERT websites without much fanfare. Parents must stay vigilant, especially around the middle of the academic year. Furthermore, many scholarships have an "Income Certificate" requirement—usually an annual family income of less than ₹3.5 Lakh. Since these certificates can take months to process, it is wise to have your documents ready well before the application window opens.
 
 Additionally, most scholarship disbursements are now handled via Direct Benefit Transfer (DBT). This means you must have a bank account linked to your Aadhar card. We’ve seen many deserving students miss out on their financial awards simply because of administrative mismatches. Double-check your spelling on all official documents—Aadhar, Bank Account, n School Registration—to ensure a smooth transfer of funds once you clear the merit list. Success and these exams is a team effort between the student's academic drive and the parent's administrative foresight.
 
@@ -110,7 +126,9 @@ Continue your [revision](/blog/study-12-hours-daily-tips-class-11-revision-notes
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/state-scholarship-guide-2026-class-11-revision-notes-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/state-scholarship-guide-[2026](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)-class-11-revision-notes-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=State%20Scholarship%20Guide%202026%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 
@@ -122,3 +140,19 @@ Continue your [revision](/blog/study-12-hours-daily-tips-class-11-revision-notes
 - 📖 [Jee Mains High Weightage Chapters Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)
 - 📖 [Study 12 Hours Daily Tips Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet)
 - 📖 [Upsc Optional Selection Guide Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Inconsistent units**: Students often forget to ensure that all units are consistent while solving problems, leading to incorrect calculations and answers.
+* **Ignoring eligibility criteria**: Many students overlook the eligibility criteria for scholarships, such as income limits, academic requirements, and residential guidelines, resulting in wasted time and effort.
+* **Insufficient documentation**: Failing to gather and submit required documents, like income certificates, caste certificates, and mark sheets, can lead to rejection of scholarship applications.
+* **Missing deadlines**: Procrastination and lack of awareness about application deadlines can cause students to miss out on scholarship opportunities, so it's essential to stay organized and informed.
+* **Inaccurate information**: Providing false or inaccurate information in the application form can lead to disqualification, so students must ensure that all details are correct and verifiable.
+
+## 🔁 Last 5 Minutes Box
+
+* **Scholarship Types**: National Means Cum Merit Scholarship (NMMSS), National Talent Search Examination (NTSE), Inspire Scholarship
+   * **Eligibility Criteria**: 55% marks in Class 10 for SC/ST, 60% for others, Family income below 1.5 lakhs for NMMSS 
+   * **Exam Pattern**: NTSE - 2 stages, 90 minutes each, 100 questions, MAT and SAT 
+   * **Key Formulas and Concepts**: Mental Ability Test (MAT) - analogy, coding, series, pattern perception, Scholorship Award Amounts - Rs 1000 per month for NMMSS 
+   * **Application Dates and Websites**: [NTSE Website](https://ncert.nic.in/), [NMMSS Website](https://www.ncert.nic.in/scholarships.php)

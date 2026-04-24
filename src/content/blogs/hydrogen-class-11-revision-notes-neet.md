@@ -81,7 +81,7 @@ Hydrogen has several unique properties that make it an important element. It is 
 
 ## <a id="hydrogen-compounds"></a>Hydrogen Compounds
 
-Hydrogen forms compounds with most elements, including oxygen, nitrogen, carbon, n sulfur. Some common hydrogen compounds include water (H2O), ammonia (NH3), methane (CH4), n hydrogen sulfide (H2S). These compounds have a wide range of applications, including energy production, transportation, n industrial processes.
+Hydrogen forms compounds with most [elements](/blog/the-s-block-elements-class-11-revision-notes-jee-neet), including oxygen, nitrogen, carbon, n sulfur. Some common hydrogen compounds include water (H2O), ammonia (NH3), methane (CH4), n hydrogen sulfide (H2S). These compounds have a wide range of applications, including energy production, transportation, n industrial processes.
 
 ## <a id="applications-of-hydrogen"></a>Applications of Hydrogen
 

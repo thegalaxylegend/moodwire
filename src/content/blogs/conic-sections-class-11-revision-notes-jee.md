@@ -112,7 +112,7 @@ The eccentricity **e** is the ratio of the distance from the focus to the distan
 - e = √(1 - b²/a²) = √(1–4/9) = √(5/9)
 - **e = √5 / 3**.
 ## <a id="related-revision-notes"></a>Related Revision Notes
-- **Chapter 10: Straight Lines**
+- **Chapter 10: [Straight](/blog/straight-lines-class-11-revision-notes-jee-neet) Lines**
 - **Chapter 12: Three Dimensional Geometry**
 - [**External Reference:** [CERT Class 11 Math Chapter 11](https://ncert.nic.n/textbook.php?kemh1=11-16) (Authoritative Source)]
 ## <a id="conclusion"></a>Conclusion

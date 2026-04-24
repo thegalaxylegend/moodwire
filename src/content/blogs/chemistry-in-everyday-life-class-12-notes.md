@@ -46,7 +46,7 @@ manualReview: false
 ## 👁️ Ayush's Note
 - When solving problems, make sure to read the question carefully and understand what is being asked
 - Use the given information to identify the key concepts and formulas that need to be applied
-- Break down complex problems into simpler steps, and use the formulas and equations to solve each step
+- Break down complex problems into simpler steps, and use the formulas and [equations](/blog/chemical-reactions-and-equations-class-10-notes) to solve each step
 - Always check your units and make sure they are consistent
 - Practice, practice, practice - the more you practice, the more comfortable you will become with the material and the better you will be at solving problems
 
@@ -110,7 +110,7 @@ D) $\delta H = 285.8$ J/MOL
 | **water** | H2O | 18.015 g/MOL | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/962) |
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/chemistry-in-everyday-life-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/chemistry-in-everyday-[life](/blog/life-processes-class-10-notes)-class-12-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

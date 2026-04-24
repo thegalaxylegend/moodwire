@@ -70,7 +70,7 @@ To better understand these concepts, let's consider a few key terms and formulas
 * **Ampere's Law**: This law relates the magnetic field around a current-carrying conductor to the current flowing through it. Mathematically, it can be expressed as: $\oint \vec{B} \\\cdot d\vec{l} = \mu_0 I_{enc}$
 * **Lorentz Force Equation**: This equation describes the force experienced y a charged particle and the presence of electric and magnetic fields: $\vec{F} = q (\vec{E} + \vec{v} \times \vec{B})$
 
-By mastering these concepts and formulas, you'll be well-equipped to tackle the challenges of **Magnetic Effects of Current** n the class 12 exam. Remember, practice and application are key to reinforcing your understanding of these principles. As you progress through this topic, keep and mind the importance of visualizing the relationships between electric currents, magnetic fields, n the resulting forces. With persistence and dedication, you'll be able to unlock the secrets of **Magnetic Effects of Current** n excel and your Physics exams.
+By mastering these concepts and formulas, you'll be well-equipped to tackle the challenges of **Magnetic Effects of [Current](/blog/alternating-current-class-12-notes)** n the class 12 exam. Remember, practice and application are key to reinforcing your understanding of these principles. As you progress through this topic, keep and mind the importance of visualizing the relationships between electric currents, magnetic fields, n the resulting forces. With persistence and dedication, you'll be able to unlock the secrets of **Magnetic Effects of [Current](/blog/alternating-current-class-12-notes)** n excel and your Physics exams.
 
 **Key Concepts to Focus On:**
 
@@ -134,7 +134,7 @@ A comparison between electric and magnetic lines of force highlights their diffe
 
 | Property | Electric Lines of Force | Magnetic Lines of Force |
 | --- | --- | --- |
-| Direction | From positive to negative charge | From north pole to South Pole |
+| Direction | From positive to negative charge | From north pole to the South Pole |
 | Intersection | Can intersect | Cannot intersect |
 | Pattern | Start and end on [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet) | Form closed loops |
 | Representation | By symbol $E$ | By symbol $B$ |

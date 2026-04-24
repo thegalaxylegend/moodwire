@@ -224,7 +224,7 @@ Examiner's Trap: Understand the relationship between cardiac output, heart rate,
 - **The reality (what 99% know):** 
  
 
-- Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy, usually from the sun, into chemical energy stored in glucose, a type of sugar.
+- Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy, usually from the sun, into [chemical](/blog/chemical-reactions-and-equations-class-10-notes) energy stored in glucose, a type of sugar.
 
 - Respiration, on the other hand, is the process by which cells break down glucose to release energy, which is then used by the cell.
 
@@ -256,9 +256,9 @@ To remember the difference, consider a simple mnemonic:
 
 ### <a id="key-formulas"></a>Key Formulas
 To solidify your understanding, remember these key formulas:
-\frac{\text{Glucose produced}}{\text{Light energy absorbed}} = \frac{C_6H_{12}O_6}{6CO_2 + 6H_2O}
+$\frac{\text{Glucose produced}$}{$\text{Light energy absorbed}$} = $\frac{C_6H_{12}$O_6}{6CO_2 + 6H_2O}
 for photosynthesis, and 
-\frac{\text{Energy released}}{\text{Glucose consumed}} = \frac{6CO_2 + 6H_2O}{C_6H_{12}O_6 + 6O_2}
+$\frac{\text{Energy released}$}{$\text{Glucose consumed}$} = $\frac{6CO_2 + 6H_2O}{C_6H_{12}$O_6 + 6O_2}
 for respiration.
 
 ### <a id="visual-analogy"></a>Visual Analogy
@@ -313,30 +313,30 @@ Photosynthesis and respiration are two essential life processes that occur in li
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. A cell divides to produce $2^3 = 8$ daughter cells. How many cells were present before division?**
-**A)**  4
-**B)**  5
-**C)**  6
-**D)**  7
+**A)**   4
+**B)**   5
+**C)**   6
+**D)**   7
 
 **Answer:** D) The other options are incorrect because they don't correctly calculate the number of daughter cells. Option A is incorrect because 2^3 = 8, not 4. Option B is incorrect because it doesn't account for the daughter cells produced during division. Option C is incorrect because it's one less than the correct answer.
 
 ---
 
 **2. What is the function of the Golgi apparatus in a cell?**
-**A)**  To synthesize proteins
-**B)**  To store genetic information
-**C)**  To modify and package proteins for transport
-**D)**  To break down cellular waste
+**A)**   To synthesize proteins
+**B)**   To store genetic information
+**C)**   To modify and package proteins for transport
+**D)**   To break down cellular waste
 
 **Answer:** C) The other options are incorrect because they don't accurately describe the function of the Golgi apparatus. Option A is incorrect because protein synthesis occurs in the ribosomes. Option B is incorrect because genetic information is stored in the DNA and chromatin. Option D is incorrect because breaking down cellular waste is the function of lysosomes.
 
 ---
 
 **3. A plant cell has a vacuole with a pH of $5.5$. How will it affect the cell's ability to transport water?**
-**A)**  It will increase the rate of water transport
-**B)**  It will decrease the rate of water transport
-**C)**  It will have no effect on water transport
-**D)**  It will increase the rate of water loss
+**A)**   It will increase the rate of water transport
+**B)**   It will decrease the rate of water transport
+**C)**   It will have no effect on water transport
+**D)**   It will increase the rate of water loss
 
 **Answer:** B) The other options are incorrect because a pH of 5.5 in the vacuole will increase the concentration of hydrogen ions, making it more difficult for water to enter the cell. Option A is incorrect because it would require a decrease in hydrogen ion concentration. Option C is incorrect because the pH of the vacuole will indeed affect the cell's ability to transport water. Option D is incorrect because it would require a decrease in hydrogen ion concentration.
 
@@ -344,20 +344,20 @@ Photosynthesis and respiration are two essential life processes that occur in li
 
 **4. $0.5%$ of a plant's leaf surface is covered with stomat
 a. If the leaf surface area is $12,cm^2$, how many stomata are present?**
-**A)**  6
-**B)**  12
-**C)**  24
-**D)**  36
+**A)**   6
+**B)**   12
+**C)**   24
+**D)**   36
 
-**Answer:** C) The other options are incorrect because 0.5% of 12 cm^2 is equal to 0.06 cm^2. Since each stomata covers 1 square millimeter, we need to convert 0.06 cm^2 to mm^2: 0.06 cm^2 = 60 mm^2 (1 cm = 10 mm). Since each stomata covers 1 mm^2, the number of stomata is equal to 60. However, this option is not available. The closest answer is 24, which is 2 \times 12 but it is still not the correct answer.
+**Answer:** C) The other options are incorrect because 0.5% of 12 cm^2 is equal to 0.06 cm^2. Since all stomata cover 1 square millimeter, we need to convert 0.06 cm^2 to mm^2: 0.06 cm^2 = 60 mm^2 (1 cm = 10 mm). Since all stomata cover 1 mm^2, the number of stomata is equal to 60. However, this option is not available. The closest answer is 24, which is 2 \times 12, but it is still not the correct answer.
 
 ---
 
 **5. What is the primary function of the mitochondria in a cell?**
-**A)**  To synthesize proteins
-**B)**  To store genetic information
-**C)**  To break down cellular waste
-**D)**  To generate energy for the cell through cellular respiration
+**A)**   To synthesize proteins
+**B)**   To store genetic information
+**C)**   To break down cellular waste
+**D)**   To generate energy for the cell through cellular respiration
 
 **Answer:** D) The other options are incorrect because they don't accurately describe the primary function of the mitochondria. Option A is incorrect because protein synthesis occurs in the ribosomes. Option B is incorrect because genetic information is stored in the DNA and chromatin. Option C is incorrect because breaking down cellular waste is the function of lysosomes.
 
@@ -391,3 +391,4 @@ Continue your revision with these related guides:
 - 📖 [Carbon and its Compounds Class 10 Science Recap — Grandmaster Guide](/blog/carbon-and-its-compounds-class-10-notes)
 - 📖 [Metals and Non-Metals Class 10 Science Recap — Grandmaster Guide](/blog/metals-and-non-metals-class-10-notes)
 - 📖 [Periodic Classification of Elements Class 10 Science Recap — Grandmaster Guide](/blog/periodic-classification-of-elements-class-10-notes)
+$

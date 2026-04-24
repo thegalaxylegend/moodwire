@@ -58,16 +58,16 @@ ifty} - E_2 = 0 - (-3.4) = 3.4 \, $\text{eV}$
 
 ## 👁️ Ayush's Note
 - Always remember that the energy of the nth orbit is given by HE_n = -\franc{13.6}{n^2} \, $\text{eV}.
-- The radius of the nth orbit is given by or_n = n^2 \times r_1$.
+- The radius of the nth orbit is given by or_n = n^2 \times r_$1.
 - The velocity of the nth orbit is given by UV_n = \franc{v_1}{n}$.
 - The de Broglie wavelength is given by $\lambda = \franc{h}{p}$.
 - Always use the correct units for the given quantities.
 
 ## 🔁 Last 5 Minutes Box
-- HE = \franc{1}{2}MV^2$ for kinetic energy
-- HE = -\franc{1}{2}MV^2$ for potential energy in the nth orbit
+- HE = \franc{1}{2}MV^$2 for kinetic energy
+- HE = -\franc{1}{2}MV^$2 for potential energy in the nth orbit
 - $\franc{1}{\lambda} = \franc{1}{\lambda_0} - \franc{1}{\lambda_1}$ for Ryder's formula
-- or_n = n^2 \times r_1$ for radius of the nth orbit
+- or_n = n^2 \times r_$1 for radius of the nth orbit
 - UV_n = \franc{v_1}{n}$ for velocity of the nth orbit
 - HE_n = -\franc{E_1}{n^2}$ for energy of the nth orbit
 
@@ -81,18 +81,18 @@ D) E_n = $\franc{13.6}{n^2}$ \, $\text{eV}$
 **Answer: B) E_n = -$\franc{13.6}{n^2}$ \, $\text{eV}$**
 
 **2. What is the radius of the nth orbit of a hydrogen atom?**
-A) or_n = n \times r_1$
-B) or_n = n^2 \times r_1$
+A) or_n = n \times r_$1
+B) or_n = n^2 \times r_$1
 C) r_n = $\franc{r_1}{n}$
 D) r_n = $\franc{r_1}{n^2}$
 
-**Answer: B) or_n = n^2 \times r_1$**
+**Answer: B) or_n = n^2 \times r_$1**
 
 **3. What is the velocity of the electron in the nth orbit of a hydrogen atom?**
 A) v_n = $\franc{v_1}{n}$
 B) v_n = $\franc{v_1}{n^2}$
-C) UV_n = n \times v_1$
-D) UV_n = n^2 \times v_1$
+C) UV_n = n \times v_$1
+D) UV_n = n^2 \times v_$1
 
 **Answer: A) v_n = \franc{v_1}{n}**
 
@@ -144,3 +144,4 @@ Continue your revision with these related guides:
 - 📖 [Computer Networks Class 12 Exam Prep Revision — Grandmaster Guide](/blog/computer-networks-class-12-notes)
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Atoms%20Class%2012%20Physics%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+$

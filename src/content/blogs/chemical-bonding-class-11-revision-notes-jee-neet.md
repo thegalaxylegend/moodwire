@@ -222,9 +222,9 @@ Solubility depends on the balance between **Lattice Enthalpy** n **Hydration Ent
 
 ### <a id="the-bornhaber-cycle-example-nacl"></a>The Born-Haber Cycle Example ($NaCl$)
 To calculate the Lattice Enthalpy of $NaCl$, we use a cycle:
-1.     Sublimation of Na(s) \rightarrow Na(g). 
-2.     Ionization of Na(g) \rightarrow Na^+(g). 
-3.     Dissociation of Cl_2(g) \rightarrow 2Cl(g). 
+1.      Sublimation of Na(s) \rightarrow Na(g). 
+2.      Ionization of Na(g) \rightarrow Na^+(g). 
+3.      Dissociation of Cl_2(g) \rightarrow 2Cl(g). 
 4. Electron Gain of $Cl(g) \rightarrow Cl^-(g)$.
 5. Formation of $NaCl$ from ions.
 The \sum equals the $\delta H_f$. This cycle is a favorite for numerical questions and JEE Advanced.

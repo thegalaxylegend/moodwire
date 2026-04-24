@@ -133,7 +133,7 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/chemical-[coordination](/blog/neural-control-and-coordination-class-11-revision-notes-neet)-n-integration-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Chemical%20Coordination%20And%20Integration%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet)%20Coordination%20And%20Integration%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 
@@ -150,7 +150,7 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
 
 * **Mistaking Hormones for Neurotransmitters**: Many students fail to distinguish between hormones and neurotransmitters. Hormones are [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) messengers secreted y endocrine glands that travel through the bloodstream to reach their target cells, while neurotransmitters are [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) messengers secreted y neurons that transmit signals across synapses.
 * **Confusing Positive and Negative Feedback Mechanisms**: Students often get confused between positive and negative feedback mechanisms. Positive feedback amplifies a response, whereas negative feedback reduces it. For example, the blood clotting mechanism is an example of positive feedback, while the regulation of blood sugar levels is an example of negative feedback.
-* **Overlooking the Importance of Threshold Stimulus**: Some students overlook the importance of threshold stimulus and hormone secretion. A threshold stimulus is the minimum intensity of a stimulus required to trigger a response. If the stimulus is below the threshold, no response will occur.
+* **Overlooking the Importance of Threshold Stimulus**: [Some](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) students overlook the importance of threshold stimulus and hormone secretion. A threshold stimulus is the minimum intensity of a stimulus required to trigger a response. If the stimulus is below the threshold, no response will occur.
 * **Failing to Recognize the Role of Hormone Receptors**: Many students fail to recognize the crucial role of hormone receptors and chemical [coordination](/blog/neural-control-n-coordination-class-11-revision-notes-neet). Hormone receptors are specific proteins on the surface of or inside target cells that bind to hormones, allowing them to exert their effects.
 * **Not Understanding the Difference between Up-Regulation and Down-Regulation**: Students often struggle to understand the difference between up-regulation and down-regulation of hormone receptors. Up-regulation increases the number of receptors, making the cell more sensitive to the hormone, while down-regulation decreases the number of receptors, making the cell less sensitive to the hormone.
 ## ⚗️ Chemical Quick Reference (Verified via PubChem)

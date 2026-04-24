@@ -66,7 +66,7 @@ To understand locomotion and movement, it is essential to grasp some core concep
 
 * **Muscle [Structure](/blog/structure-of-the-atom-class-11-revision-notes-neet) and Function**: Muscles are the primary organs responsible for movement and locomotion. They consist of contractile units called sarcomeres, which generate force through the sliding filament theory.
 * **Nervous System [control](/blog/neural-control-n-coordination-class-11-revision-notes-neet)**: The nervous system and controlling movement and locomotion. It transmits signals from the brain to the muscles, allowing for coordinated and precise movement.
-* **Skeletal System Support**: The skeletal system provides support and structure for movement and locomotion. It consists of bones, cartilage, n ligaments that work together to facilitate movement.
+* **Skeletal System Support**: The skeletal system provides support and [structure](/blog/structure-of-the-atom-class-11-revision-notes-neet) for movement and locomotion. It consists of bones, cartilage, n ligaments that work together to facilitate movement.
 
 ## <a id="formulae-n-equations"></a>Formulae and Equations
 

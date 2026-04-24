@@ -37,7 +37,7 @@ manualReview: false
   - The endosperm is a tissue produced by the fusion of the male gamete with the two polar nuclei.
   - The endosperm provides nutrients to the developing embryo and helps to nourish it.
   - The endosperm is also involved in the regulation of seed development and germination.
-- **Question 3:** Describe the process of fertilization in flowering plants.
+- **Question 3:** Describe the process of fertilization in [flowering](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) plants.
   - Fertilization is the process by which the male gamete fuses with the egg cell to form the zygote.
   - The pollen tube grows down the style and into the ovary, where it releases the male gamete.
   - The male gamete then fuses with the egg cell to form the zygote.
@@ -48,7 +48,7 @@ manualReview: false
 - This process is critical for the development of the embryo and the formation of the seed.
 
 ## 👁️ Ayush's Note
-- To excel in the topic of sexual reproduction in flowering plants, it is essential to have a clear understanding of the process of microsporogenesis and megasporogenesis.
+- To excel in the topic of sexual [reproduction](/blog/reproduction-in-organisms-class-12-notes) in flowering plants, it is essential to have a clear understanding of the process of microsporogenesis and megasporogenesis.
 - It is also crucial to understand the role of pollination and fertilization in the process of sexual reproduction.
 - The process of double fertilization is unique to flowering plants, and it is essential to understand its significance in the development of the embryo and the formation of the seed.
 - Practice is key, and it is essential to practice drawing diagrams and labeling the different parts of the flower.
@@ -129,6 +129,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Sexual%20Reproduction%20In%20Flowering%20Plants%20Class%2012%20Biology%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

@@ -58,7 +58,7 @@ practice_link: "/class-11/biology/environmental-chemistry-class-11-revision-note
 
 Environmental [Chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) is [the study of the chemical and biochemical phenomena that occur and the environment](https://en.wikipedia.org/wiki/Environmental_chemistry). 
 
-* Environmental chemistry is the study of the chemical and biochemical phenomena that occur and the environment.
+* Environmental [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) is the study of the chemical and biochemical phenomena that occur and the environment.
 * It involves the study of the sources, reactions, transport, n effects of chemical species and the environment.
 * The main branches of environmental chemistry are air, water, n soil pollution.
 * Environmental chemistry is important for understanding and mitigating the impact of human activities on the environment.

@@ -9,6 +9,25 @@ practice_link: "/class-11/physics/oscillations-class-11-revision-notes-jee-neet"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-oscillations-revision-notes"></a>What is Oscillations Revision Notes?](#a-idwhat-is-oscillations-revision-notesawhat-is-oscillations-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-periodic-n-oscillatory-motion"></a>1. Periodic and Oscillatory Motion](#a-id1-periodic-n-oscillatory-motiona1-periodic-and-oscillatory-motion)
+5. [<a id="2-simple-harmonic-motion-shm"></a>2. Simple Harmonic Motion (SHM)](#a-id2-simple-harmonic-motion-shma2-simple-harmonic-motion-shm)
+6. [<a id="3-derivations-mastersheet-kinematics-of-shm"></a>3. Derivations Master-Sheet: Kinematics of SHM](#a-id3-derivations-mastersheet-kinematics-of-shma3-derivations-master-sheet-kinematics-of-shm)
+7. [<a id="4-derivation-energy-n-shm"></a>4. Derivation: Energy and SHM](#a-id4-derivation-energy-n-shma4-derivation-energy-and-shm)
+8. [<a id="5-time-period-derivations"></a>5. Time Period Derivations](#a-id5-time-period-derivationsa5-time-period-derivations)
+9. [<a id="6-free-damped-n-forced-oscillations"></a>6. Free, Damped, n Forced Oscillations](#a-id6-free-damped-n-forced-oscillationsa6-free-damped-n-forced-oscillations)
+10. [<a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qandaacomprehensive-exam-strategy-qa)
+11. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+12. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+13. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+14. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Oscillations Revision Notes?](#what-is-oscillations-revision-notes)
@@ -165,7 +184,7 @@ Starting from **x = A sin(ωt + φ)**:
 
 ## <a id="conclusion"></a>Conclusion
 
-Oscillations are the universal language of physical vibration. By mastering the derivations of the SHM equations and the energy profile of an oscillator, you unlock the key to understanding all of wave physics. Master the simple pendulum proof and the concept of resonance—these are the principles that safeguard bridges, fine-tune musical instruments, n explain the behavior of light itself. Stay rhythmic, keep your amplitude constant, n always stay and phase with the universe!
+Oscillations are the universal language of physical vibration. By mastering the derivations of the SHM equations and the energy profile of an oscillator, you unlock the key to understanding all wave physics. Master the simple pendulum proof and the concept of resonance—these are the principles that safeguard bridges, fine-tune musical instruments, n explain the behavior of light itself. Stay rhythmic, keep your amplitude constant, n always stay and phase with the universe!
 
 ---
 **Reference:** [Journal of Sound and Vibration](https://www.journals.elsevier.com/journal-of-sound-n-vibration)
@@ -189,6 +208,8 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/oscillations-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Oscillations%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -199,3 +220,27 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 - 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
 - 📖 [Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
 - 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* Confusing **simple harmonic [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) (SHM)** with **simple pendulum [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet)**: Students often assume that any [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) that repeats itself is SHM, but fail to check if the [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) also satisfies the condition of the acceleration being proportional to the displacement from the mean position.
+* **Forgetting to consider the phase difference** in SHM: When two SHMs are given, students often forget to consider the phase difference between them, leading to incorrect results.
+* **Incorrect calculation of the time period** of a simple pendulum: Students often make mistakes in calculating the time period of a simple pendulum by not considering the correct formula or by neglecting the approximation for small angles.
+* **Not considering the damping factor** in damped oscillations: In damped oscillations, students often forget to consider the damping factor, which leads to incorrect results for the decay of amplitude over time.
+* **Mixing up the terms 'frequency' and 'angular frequency'**: Students often confuse the terms 'frequency' (number of oscillations per second) and 'angular frequency' (rate of change of phase angle), leading to incorrect calculations and results.
+
+## 🔁 Last 5 Minutes Box
+
+### Key Concepts
+   * Time period (T): Time taken to complete one oscillation
+   * Frequency (f): Number of oscillations per second
+   * Angular frequency (ω): Related to frequency by ω = 2πf
+   * Simple Harmonic Motion (SHM): Acceleration proportional to displacement from equilibrium
+   * Equation of SHM: x(t) = A cos(ωt + φ)
+   * Velocity and acceleration in SHM: v(t) = -Aω sin(ωt + φ), a(t) = -Aω^2 cos(ωt + φ)
+   * Energy in SHM: Total energy = kinetic energy + potential energy, E = (1/2)kA^2
+   ### Important Formulas
+   * Time period of a simple pendulum: T = 2π √(l/g)
+   * Time period of a physical pendulum: T = 2π √(I/mgd)
+   * Frequency of a mass-spring system: f = (1/2π) √(k/m)
+   * Angular frequency of a mass-spring system: ω = √(k/m)

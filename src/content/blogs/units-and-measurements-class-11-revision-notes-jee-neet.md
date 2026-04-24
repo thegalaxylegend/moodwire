@@ -9,6 +9,24 @@ practice_link: "/class-11/physics/units-n-measurements-class-11-revision-notes-j
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-units-n-measurements-revision-notes"></a>What is Units And Measurements Revision Notes?](#a-idwhat-is-units-n-measurements-revision-notesawhat-is-units-and-measurements-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-the-international-system-of-units-si"></a>1. The International System of Units (SI)](#a-id1-the-international-system-of-units-sia1-the-international-system-of-units-si)
+5. [<a id="2-dimensional-analysis-theorems-n-derivations"></a>2. Dimensional Analysis: Theorems and Derivations](#a-id2-dimensional-analysis-theorems-n-derivationsa2-dimensional-analysis-theorems-and-derivations)
+6. [<a id="3-error-analysis-mathematical-proofs"></a>3. Error Analysis: Mathematical Proofs](#a-id3-error-analysis-mathematical-proofsa3-error-analysis-mathematical-proofs)
+7. [<a id="4-measurement-of-space-n-time"></a>4. Measurement of Space and Time](#a-id4-measurement-of-space-n-timea4-measurement-of-space-and-time)
+8. [<a id="5-significant-figures-n-rounding-rules"></a>5. Significant Figures & Rounding Rules](#a-id5-significant-figures-n-rounding-rulesa5-significant-figures-rounding-rules)
+9. [<a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qandaacomprehensive-exam-strategy-qa)
+10. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+11. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+12. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+13. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Units And Measurements Revision Notes?](#what-is-units-n-measurements-revision-notes)
@@ -39,7 +57,7 @@ practice_link: "/class-11/physics/units-n-measurements-class-11-revision-notes-j
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
 > - **Fundamental Quantities:** Length (m), Mass (kg), Time (s), Current (A), Temp (K), Amount (mol), Intensity (cd).
 > - **Dimensional Analysis:** Used to check formula correctness (LHS = RHS) n derive relations.
-> - **Significant Figures:** Zeros between non-zeros are sig; trailing zeros after decimal are sig.
+> - **Significant Figures:** zeros between non-zeros are sig; trailing zeros after decimal are sig.
 > - **Error Propagation:** Δ(A+B) = ΔA + ΔB; Relative Error and multiplication/division is constant: ΔZ/Z = ΔA/A + ΔB/B.
 > - **Parallax Method:** Used for astronomical distances: D = b / θ.
 > [**📥 Download 1-Page Short Notes PDF (Zero-Friction)**](#)
@@ -48,7 +66,7 @@ practice_link: "/class-11/physics/units-n-measurements-class-11-revision-notes-j
 
 ## <a id="introduction"></a>Introduction
 
-Measurement is the cornerstone of all experimental and theoretical sciences. Physics is an exact science that relies on the precise quantification of physical phenomena. Whether we are probing the subatomic scale of a proton or the cosmic scale of a galaxy, we need a , standardized system of units and a rigorous understanding of measurement errors. These "Comprehensive" revision notes provide more than just a summary—they offer deep theoretical insights, [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) proofs for error propagation, n advanced applications of dimensional analysis. chapter is the first step toward becoming a world-class physicist.
+Measurement is the cornerstone of all experimental and theoretical sciences. Physics is an exact science that relies on the precise quantification of physical phenomena. Whether we are probing the subatomic scale of a proton or the cosmic scale of a galaxy, we need a standardized system of units and a rigorous understanding of measurement errors. These "Comprehensive" revision notes provide more than just a summary—they offer deep theoretical insights, [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) proofs for error propagation, n advanced applications of dimensional analysis. chapter is the first step toward becoming a world-class physicist.
 
 ---
 
@@ -63,7 +81,7 @@ In 1971, the General Conference on Weights and Measures (CGPM) established the S
 4. **[electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) Current (Ampere, A):** Defined y the elementary charge **e**.
 5. **Thermodynamic Temperature (Kelvin, K):** Defined y the Boltzmann constant **k**.
 6. **Amount of Substance (Mole, mol):** Contains exactly 6.02214076 × 10²³ elementary entities (Avogadro number).
-7. **Luminous Intensity (Candela, cd):** Measures the perceived power of light.
+7. **Luminous Intensity (Candela, cd):** measures the perceived power of light.
 
 ### <a id="supplementary-units"></a>Supplementary Units:
 - **[plane](/blog/motion-n-a-plane-class-11-revision-notes-jee-neet) Angle (θ):** Measured n **Radian (rad)**. θ = Arc / Radius.
@@ -198,6 +216,8 @@ Continue your [revision](/blog/limits-derivatives-class-11-revision-notes-jee-ne
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/units-n-measurements-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Units%20And%20Measurements%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -208,3 +228,23 @@ Continue your [revision](/blog/limits-derivatives-class-11-revision-notes-jee-ne
 - 📖 [Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)
 - 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
 - 📖 [Mathematical Reasoning Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-reasoning-class-11-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Confusing Precision with Accuracy**: Many students get confused between precision and accuracy. Precision refers to the consistency of measurements, while accuracy refers to how close a measurement is to the true value. 
+* **Incorrect Unit Conversions**: Failing to convert units correctly is a common mistake. Students must ensure that they convert units carefully to avoid errors in calculations.
+* **Error in Rounding Off**: Rounding off measurements incorrectly can lead to significant errors. Students must round off measurements correctly, considering the number of significant figures.
+* **Not Considering The Least Count**: Not considering the least count of an instrument can lead to incorrect measurements. Students must always consider the least count of the instrument used to make measurements.
+* **Incorrect Application of Significant Figures**: Incorrect application of significant figures can lead to incorrect calculations. Students must apply the rules of significant figures correctly to avoid errors in calculations.
+
+## 🔁 Last 5 Minutes Box
+
+- **SI Units**: Length (m), Mass (kg), Time (s), Temperature (K), Current (A), Luminous Intensity (cd), Amount of Substance (mol)
+   - **Dimensional Formula**: [M] Mass, [L] Length, [T] Time, [I] Current
+   - **Error**: Absolute Error, Relative Error, Percentage Error
+   - **Significant Figures**: Rules for addition, subtraction, multiplication, division
+   - **Rounding Off**: Rounding off the same number of significant figures
+   - **The Least Count**: Smallest measurement that can be made
+   - **Parallax Method**: Measure distance using parallax angle
+   - **Screw Gauge**: Measure diameter using pitch and least count
+   - **Vernier Calipers**: Measure length using vernier constant and least count

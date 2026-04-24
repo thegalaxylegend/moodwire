@@ -9,6 +9,23 @@ practice_link: "/class-11/biology/structure-of-the-atom-class-11-revision-notes-
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-structure-of-the-atom"></a>What is Structure Of The Atom?](#a-idwhat-is-structure-of-the-atomawhat-is-structure-of-the-atom)
+3. [<a id="introduction-to-the-structure-of-an-atom"></a>Introduction to the Structure of an Atom](#a-idintroduction-to-the-structure-of-an-atomaintroduction-to-the-structure-of-an-atom)
+4. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+5. [<a id="formulae"></a>Formulae](#a-idformulaeaformulae)
+6. [<a id="jeeneet-data"></a>JEE/NEET Data](#a-idjeeneet-dataajeeneet-data)
+7. [<a id="mcqs"></a>MCQs](#a-idmcqsamcqs)
+8. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+9. [📚 Related Topics](#related-topics)
+10. [🪤 Common Mistakes That Cost Marks](#common-mistakes-that-cost-marks)
+11. [🔁 Last 5 Minutes Revision Box](#last-5-minutes-revision-box)
+12. [📝 Practice MCQs](#practice-mcqs)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Structure Of The Atom?](#what-is-structure-of-the-atom)
@@ -42,7 +59,7 @@ To master the structure of an atom, it's essential to understand the following c
 
 The following formulae are essential for understanding the [structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet) of an atom:
 
-1. **Atomic Mass**: The atomic mass is the average mass of an atom, n it's calculated using the formula:
+1. **Atomic Mass**: The atomic mass is the average mass of an [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet), n it's calculated using the formula:
 
 \[ $\text{Atomic Mass} = \frac$\text{Mass of Protons$1 \text{Mass of Neutrons}$}$\text{Number of Atoms$} \]
 
@@ -85,6 +102,8 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/structure-of-the-atom-class-11-revision-notes-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Structure%20Of%20The%20Atom%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 
@@ -133,3 +152,19 @@ B) An isotope has the same $N$ but different $Z$, while an isotone has the same 
 C) An isotope has the same $A$ but different $Z$, while an isotone has the same $Z$ but different $N$.
 D) An isotope has the same $Z$ but different $N$, while an isotone has the same $A$ but different $Z$.
 Answer: A) An isotope has the same $Z$ but different $A$, while an isotone has the same $N$ but different $Z$.
+
+## 🔁 Last 5 Minutes Box
+
+- **Atomic Number (Z)**: Number of protons in an atom's nucleus, defines the element.
+
+    - **Mass Number (A)**: Sum of protons and neutrons in an atom's nucleus.
+
+    - **Isotopes**: Atoms of the same element with different numbers of neutrons.
+
+    - **Electron Configuration**: Distribution of electrons in an atom's orbitals.
+
+    - **Aufbau Principle**: Electrons fill the lowest available energy levels.
+
+    - **Pauli's Exclusion Principle**: No two electrons in an atom can have the same set of quantum numbers.
+
+    - **Hund's Rule**: Electrons occupy each available orbital singly before pairing up.

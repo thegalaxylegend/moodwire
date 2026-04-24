@@ -208,7 +208,7 @@ Continue your [revision](/blog/rotational-motion-class-11-revision-notes-jee-nee
 * **Assuming normal force is always equal to weight**: Many students assume that the normal force (N) is always equal to the weight (mg) of an object, but this is only true when the object is at rest on a horizontal surface. If the surface is inclined or the object is accelerating, N ≠ mg.
 * **Forgetting to consider friction**: In problems involving [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet), especially those with inclined planes or moving objects, it's easy to forget to account for friction. Make sure to always consider the effects of friction, even if it's just to confirm that it's negligible.
 * **Incorrect application of Newton's third law**: Newton's third law states that every action has an equal and opposite reaction. However, the forces in an action-reaction pair always act on different objects, not the same object. A common mistake is to apply Newton's third law to the same object, which can lead to incorrect conclusions about the net force.
-* **Not converting units properly**: In calculations involving the laws of motion, it's essential to use consistent units. Failing to convert between units, such as Newtons to kilograms or meters per second squared to meters per second, can result in incorrect answers and lost marks.
+* **Not converting units properly**: In calculations involving the laws of [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet), it's essential to use consistent units. Failing to convert between units, such as Newtons to kilograms or meters per second squared to meters per second, can result in incorrect answers and lost marks.
 
 ## 🔁 Last 5 Minutes Box
 

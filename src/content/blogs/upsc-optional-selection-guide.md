@@ -149,6 +149,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 $
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Upsc%20Optional%20Selection%20Guide%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics

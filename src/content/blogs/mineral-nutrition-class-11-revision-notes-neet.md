@@ -116,7 +116,7 @@ Micronutrients are required y [plants](/blog/anatomy-of-flowering-plants-class-1
 6. Chlorine (Cl)
 7. Molybdenum (Mo)
 
-These elements are [involved and various physiological processes](https://www.sciencedirect.com/topics/agricultural-n-biological-sciences/micronutrient), such as enzyme activity, hormone regulation, n stress tolerance.
+These [elements](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) are [involved and various physiological processes](https://www.sciencedirect.com/topics/agricultural-n-biological-sciences/micronutrient), such as enzyme activity, hormone regulation, n stress tolerance.
 
 ## <a id="mineral-deficiency-disorders"></a>Mineral Deficiency Disorders
 

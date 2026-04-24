@@ -109,7 +109,7 @@ B) Equal to twice the angle in the alternate segment
 -
 C) Equal to half the angle in the alternate segment
 -
-D) Not related to the angle in the alternate segment
+D) Not [related](/blog/areas-related-to-circles-class-10-notes) to the angle in the alternate segment
 
 **Answer: A) Equal to the angle in the alternate segment**
 

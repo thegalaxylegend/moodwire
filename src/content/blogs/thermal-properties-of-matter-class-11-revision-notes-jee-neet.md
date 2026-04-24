@@ -9,6 +9,25 @@ practice_link: "/class-11/physics/thermal-properties-of-matter-class-11-revision
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-thermal-properties-of-matter-revision-notes"></a>What is Thermal Properties Of Matter Revision Notes?](#a-idwhat-is-thermal-properties-of-matter-revision-notesawhat-is-thermal-properties-of-matter-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-temperature-n-heat"></a>1. Temperature and Heat](#a-id1-temperature-n-heata1-temperature-and-heat)
+5. [<a id="2-thermal-expansion-concepts-n-derivations"></a>2. Thermal Expansion: Concepts and Derivations](#a-id2-thermal-expansion-concepts-n-derivationsa2-thermal-expansion-concepts-and-derivations)
+6. [<a id="3-calorimetry-the-science-of-mixing"></a>3. Calorimetry: The Science of Mixing](#a-id3-calorimetry-the-science-of-mixinga3-calorimetry-the-science-of-mixing)
+7. [<a id="4-heat-transfer-conduction-convection-radiation"></a>4. Heat Transfer: Conduction, Convection, Radiation](#a-id4-heat-transfer-conduction-convection-radiationa4-heat-transfer-conduction-convection-radiation)
+8. [<a id="5-derivation-newtons-law-of-cooling"></a>5. Derivation: Newton’s Law of Cooling](#a-id5-derivation-newtons-law-of-coolinga5-derivation-newtons-law-of-cooling)
+9. [<a id="6-stefanboltzmann-n-wiens-laws"></a>6. Stefan-Boltzmann and Wien’s Laws](#a-id6-stefanboltzmann-n-wiens-lawsa6-stefan-boltzmann-and-wiens-laws)
+10. [<a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qandaacomprehensive-exam-strategy-qa)
+11. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+12. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+13. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+14. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Thermal Properties Of Matter Revision Notes?](#what-is-thermal-properties-of-matter-revision-notes)
@@ -113,10 +132,10 @@ Most substances expand when heated. We define three coefficients of expansion:
 
 ---
 
-## <a id="6-stefanboltzmann-n-wiens-laws"></a>6. Stefan-Boltzmann and Wien’s Laws
+## <a id="6-stefanboltzmann-n-wiens-laws"></a>6. Stefan-Boltzmann and Vienna’s Laws
 
 - **Stefan’s Law:** Radiant energy **E = σ A T⁴**.
-- **Wien’s Displacement Law:** **λ_max T = b** (Constant). As temperature increases, the peak wavelength shifts toward shorter (bluer) values.
+- **Vienna’s Displacement Law:** **λ_max T = b** (Constant). As temperature increases, the peak wavelength shifts toward shorter (bluer) values.
 
 ---
 
@@ -165,6 +184,8 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/thermal-[properties](/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet)-of-matter-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Thermal%20Properties%20Of%20Matter%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -175,3 +196,20 @@ Continue your [revision](/blog/kinetic-theory-class-11-revision-notes-jee-neet) 
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 - 📖 [Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Trap 1: Confusing Heat Transfer and Temperature**: Many students often confuse heat transfer with temperature. Remember, heat transfer is the transfer of thermal energy from one body to another due to a temperature difference, whereas temperature is a measure of the average kinetic energy of the particles in a substance.
+* **Trap 2: Forgetting to Consider the Sign Convention for Heat**: When solving problems related to heat transfer, it's essential to consider the sign convention. Heat absorbed by a system is positive, while heat released is negative. Failing to do so can lead to incorrect calculations.
+* **Trap 3: Not Accounting for the Specific Heat Capacity of Substances**: Specific heat capacity is the amount of heat required to raise the temperature of a unit mass of a substance by 1 degree Celsius. Not considering the specific heat capacity of substances can lead to errors in calculations, especially when dealing with problems involving temperature changes.
+* **Trap 4: Misunderstanding the Concept of Thermal Equilibrium**: Thermal equilibrium occurs when the temperature is uniform throughout a system. Many students assume that thermal equilibrium means that there is no heat transfer, which is incorrect. In thermal equilibrium, heat transfer may still occur, but the net heat transfer is zero.
+* **Trap 5: Ignoring the Effects of Latent Heat in Phase Transitions**: Latent heat is the energy required to change the state of a substance without changing its temperature. Failing to consider latent heat can lead to incorrect calculations, especially when dealing with problems involving phase transitions such as melting or boiling.
+
+## 🔁 Last 5 Minutes Box
+
+- **Specific Heat Capacity**: $c = \frac{Q}{m\Delta T}$, 
+      - **Latent Heat**: $L = \frac{Q}{m}$, 
+      - **Heat Transfer**: $Q = mc\Delta T$, 
+      - **Thermal Expansion**: $\Delta L = \alpha L_0 \Delta T$, 
+      - **Calorimetry**: $Q_{gain} = Q_{loss}$, 
+      - **Newton's Law of Cooling**: $\frac{dT}{dt} = -k(T - T_0)$

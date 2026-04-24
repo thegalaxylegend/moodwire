@@ -133,14 +133,14 @@ This process of finding the derivative using the limit definition is called **Di
 - f(x+h) = (x+h)² + 2(x+h) + 1 = x² + 2xh + h² + 2x + 2h + 1
 - f(x+h) - f(x) = 2xh + h² + 2h
 - f'(x) = limₕ→₀ [h(2x + h + 2) / h] = limₕ→₀ [2x + h + 2]
--     **f'(x) = 2x + 2**. 
+-      **f'(x) = 2x + 2**. 
 
 **Q3: Differentiate y = x · \sin x using Product Rule.**
 **Answer:**
--     u = x, v = \sin x 
--     u' = 1, v' = \cos x 
--     y' = u'v + uv' = (1)(\sin x) + (x)(\cos x) 
--     **y' = \sin x + x \cos x**. 
+-      u = x, v = \sin x 
+-      u' = 1, v' = \cos x 
+-      y' = u'v + uv' = (1)(\sin x) + (x)(\cos x) 
+-      **y' = \sin x + x \cos x**. 
 
 ---
 
@@ -192,7 +192,7 @@ Continue your [revision](/blog/mathematical-induction-class-11-revision-notes-je
 
 * When finding the limit of a function, a common mistake is to directly substitute the value of x without checking if the function is defined at that point, potentially leading to incorrect results.
 * Forgetting to apply the sum, product, or chain rule when finding derivatives can lead to errors, so it's crucial to identify which rules apply to the given function.
-* A common trap in differentiation is neglecting to consider the domains of the functions involved, which can affect the existence and value of the derivative at certain points.
+* A common trap in differentiation is neglecting to consider the domains of the [functions](/blog/relations-functions-class-11-revision-notes-jee-neet) involved, which can affect the existence and value of the derivative at certain points.
 * In problems involving trigonometric functions, a frequent mistake is to misuse trigonometric identities or forget to consider the periodic nature of these functions when evaluating limits or derivatives.
 * When applying L'Hôpital's Rule to evaluate indeterminate forms, a common error is to apply it incorrectly or unnecessarily, failing to check if the conditions for its application are met, which can lead to incorrect conclusions about the limit.
 

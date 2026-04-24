@@ -20,7 +20,7 @@ manualReview: false
 - Amines react with acids to form salts: $\text{RNH}_2 + \text{HCl} \ \text{RNH}_3^+ \text{Cl}^-$
 - Amines can be prepared by reduction of nitro compounds: $\text{RNO}_2 + 6\text{H} \ \text{RNH}_2 + 2\text{H}_2\text{O}$
 - Amines can be prepared by reduction of nitriles: $\text{RCN} + 2\text{H} \ \text{RNH}_2 + \text{HCN}$
-- Amines can be prepared by Gabriel  synthesis: $\text{Phthalimide} + \text{RX} \ \text{N-alkylphthalimide} \{\text{hydrazine}} \text{RNH}_2$
+- Amines can be prepared by Gabriel synthesis: $\text{Phthalimide} + \text{RX} \ \text{N-alkylphthalimide} \{\text{hydrazine}} \text{RNH}_2$
 
 ## 
 - Common mistakes in amines include not considering the effect of electron withdrawing groups on basicity

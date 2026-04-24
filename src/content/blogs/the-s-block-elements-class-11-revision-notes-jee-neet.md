@@ -9,6 +9,24 @@ practice_link: "/class-11/physics/the-s-block-elements-class-11-revision-notes-j
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-the-s-block-elements"></a>What is The S Block Elements?](#a-idwhat-is-the-s-block-elementsawhat-is-the-s-block-elements)
+3. [<a id="introduction-to-the-sblock-elements"></a>Introduction to the S-Block Elements](#a-idintroduction-to-the-sblock-elementsaintroduction-to-the-s-block-elements)
+4. [<a id="why-this-chapter-matters"></a>Why This Chapter Matters](#a-idwhy-this-chapter-mattersawhy-this-chapter-matters)
+5. [<a id="ayushs-note"></a>Ayush's Note](#a-idayushs-noteaayushs-note)
+6. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+7. [<a id="shortcut-formula-trick"></a>Shortcut Formula / Trick](#a-idshortcut-formula-trickashortcut-formula-trick)
+8. [<a id="trap-questions-exceptions"></a>Trap Questions / Exceptions](#a-idtrap-questions-exceptionsatrap-questions-exceptions)
+9. [<a id="practice-mcqs"></a>Practice MCQs](#a-idpractice-mcqsapractice-mcqs)
+10. [<a id="related-notes-links"></a>Related Notes Links](#a-idrelated-notes-linksarelated-notes-links)
+11. [<a id="last-updated-date"></a>Last Updated Date](#a-idlast-updated-datealast-updated-date)
+12. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+13. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is The S Block Elements?](#what-is-the-s-block-elements)
@@ -89,7 +107,7 @@ Here are a few trap questions and exceptions that students often encounter when 
 Right answer: The alkali metals are more reactive than the alkaline earth metals.
 Why students get it wrong: Students often confuse the alkali metals with the alkaline earth metals and think that the alkaline earth metals are more reactive.
 
-* Wrong answer: The s-block elements are non-metals.
+* Wrong answer: The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are non-metals.
 Right answer: The s-block elements are metals.
 Why students get it wrong: Students often think that the s-block elements are non-metals because they are located and the same group as the non-metals.
 
@@ -166,6 +184,8 @@ Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-n
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/the-s-block-elements-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=The%20S%20Block%20Elements%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -177,3 +197,14 @@ Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-n
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
 
+## 🔁 Last 5 Minutes Box
+
+* **Alkali Metals (Group 1)**: Highly reactive, soft, and have 1 valence electron. Examples: Li, Na, K, Rb, Cs, Fr.
+     * **Alkaline Earth Metals (Group 2)**: Less reactive than alkali metals, have 2 valence electrons. Examples: Be, Mg, Ca, Sr, Ba, Ra.
+     * **General Electronic Configuration**: ns^1 for alkali metals, ns^2 for alkaline earth metals.
+     * **Atomic Radius**: Increases down the group, decreases across a period.
+     * **Ionization Energy**: Decreases down the group, increases across a period.
+     * **Reactivity with Water**: Increases down the group for both alkali and alkaline earth metals.
+     * **Solubility of Hydroxides**: Increases down the group for both alkali and alkaline earth metals.
+     * **Solubility of Sulphates**: Decreases down the group for alkaline earth metals.
+     * **Anomalous Behavior of Lithium**: Due to its small size and high ionization energy, lithium shows similarities with magnesium.

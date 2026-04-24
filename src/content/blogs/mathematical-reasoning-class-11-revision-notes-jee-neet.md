@@ -157,7 +157,7 @@ Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/mathematical-reasoning-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/[mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet)-reasoning-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Mathematical%20Reasoning%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20JEE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
@@ -179,3 +179,16 @@ Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 * When using a proof by contradiction, a common mistake is to not clearly state the assumption being made or to not properly derive a contradiction from that assumption.
 * In conditional statements, students often confuse 'if p, then q' with 'p only if q', which are not equivalent statements. 'p only if q' is actually equivalent to 'if p, then q' and 'if not q, then not p'.
 * A trap question in mathematical reasoning involves using quantifiers, such as 'for all' and 'there exists', and asking students to determine the validity or truth of a given statement. For example, 'for all x, if x is a real number, then x^2 ≥ 0' is a true statement, but 'there exists a real number x such that x^2 < 0' is false.
+
+## 🔁 Last 5 Minutes Box
+
+- **[Sets](/blog/sets-class-11-revision-notes-jee-neet)**: A = {1, 2, 3}, A ∪ B, A ∩ B, A - B, A ⊂ B, A ⊃ B
+   - **[Relations](/blog/relations-functions-class-11-revision-notes-jee-neet)**: R = {(1, 1), (1, 2)}, reflexive, symmetric, transitive, equivalence relation
+   - **Functions**: f(x) = x^2, injective, surjective, bijective, composite functions
+   - **Permutations**: nPr = n! / (n-r)!, nPr = n * (n-1) * ... * (n-r+1)
+   - **Combinations**: nCr = n! / (r!(n-r)!), Pascal's Triangle, nCr + nC(r-1) = (n+1)Cr
+   - **Binomial Theorem**: (a+b)^n = ∑[nCk * a^(n-k) * b^k] from k=0 to n
+   - **Sequences and Series**: AP, GP, HP, arithmetic mean, geometric mean, harmonic mean
+   - **Limits**: lim x→an f(x) = L, left-hand limit, right-hand limit, Sandwich Theorem
+   - **Derivatives**: f'(x) = lim h→0 [f(x+h) - f(x)]/h, product rule, quotient rule, chain rule
+   - **Statistics**: mean, median, mode, standard deviation, variance, correlation coefficient

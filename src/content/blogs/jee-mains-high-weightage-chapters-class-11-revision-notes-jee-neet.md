@@ -35,9 +35,9 @@ practice_link: "/class-11/physics/jee-mains-high-weightage-chapters-class-11-rev
 - [Effort vs. Marks: A Tactical Comparison](#effort-vs-marks-a-tactical-comparison)
 - [Conclusion](#conclusion)
 - [Frequently Asked Questions (FAQs)](#frequently-asked-questions-faqs)
-  - [1. Can I clear JEE Mains y only studying high-weightage chapters?](#1-can-i-clear-jee-mains-y-only-studying-highweightage-chapters)
-  - [2. Is Rotational Dynamics a low-ROI chapter?](#2-is-rotational-dynamics-a-lowroi-chapter)
-  - [3. Which subject is the easiest to score n?](#3-which-subject-is-the-easiest-to-score-n)
+ - [1. Can I clear JEE Mains y only studying high-weightage chapters?](#1-can-i-clear-jee-mains-y-only-studying-highweightage-chapters)
+ - [2. Is Rotational Dynamics a low-ROI chapter?](#2-is-rotational-dynamics-a-lowroi-chapter)
+ - [3. Which subject is the easiest to score n?](#3-which-subject-is-the-easiest-to-score-n)
 - [📚 Related Topics](#-related-topics)
 
 # See Mains High Weightage Chapters Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide
@@ -83,7 +83,7 @@ Chemistry is where you secure your rank. Chapters like [environmental](/blog/env
 
 JEE Math has become increasingly lengthy, but you can still find strategic wins. Mathematical Reasoning and Statistics are "safe" chapters that can be mastered and a single afternoon. These provide 8 marks through simple formula application and truth tables, yet many students overlook them.
 
-Vector n 3D Geometry is another heavyweight unit. Unlike Calculus, it doesn't require creative "flair"—it requires visualization and systematic formula application. Mastering this ensures you have a solid "floor" for your Math score, allowing you to tackle tougher problems with reduced pressure.
+Vector n 3D Geometry is another heavyweight unit. Unlike Calculus, it doesn't require creative "flair"—it requires visualization and systematic formula application. ensures you have a solid "floor" for your Math score, allowing you to tackle tougher problems with reduced pressure.
 
 ## <a id="effort-vs-marks-a-tactical-comparison"></a>Effort vs. Marks: A Tactical Comparison
 
@@ -152,12 +152,12 @@ Continue your [revision](/blog/cuet-2026-master-strategy-class-11-revision-notes
 ## 🔁 Last 5 Minutes Box
 
 - **Kinematics**: Equations of motion, relative motion, projectile motion
-   - **Laws of Motion**: Newton's laws, friction, inertia
-   - **Work, Energy and Power**: Work done, kinetic and potential energy, power
-   - **Rotational Motion**: Angular velocity, torque, moment of inertia
-   - **Gravitation**: Kepler's laws, gravitational potential energy, orbital velocity
-   - **Thermodynamics**: Laws of thermodynamics, internal energy, entropy
-   - **Oscillations and Waves**: Simple harmonic motion, wave equation, superposition
-   - **Electric Charges and Fields**: Coulomb's law, electric field, Gauss's law
-   - **Electrostatic Potential and Capacitance**: Potential difference, capacitance, dielectrics
-   - **Current Electricity**: Ohm's law, resistivity, Kirchhoff's laws
+ - **Laws of Motion**: Newton's laws, friction, inertia
+ - **Work, Energy and Power**: Work done, kinetic and potential energy, power
+ - **Rotational Motion**: Angular velocity, torque, moment of inertia
+ - **Gravitation**: Kepler's laws, gravitational potential energy, orbital velocity
+ - **Thermodynamics**: Laws of thermodynamics, internal energy, entropy
+ - **Oscillations and Waves**: Simple harmonic motion, wave equation, superposition
+ - **Electric Charges and Fields**: Coulomb's law, electric field, Gauss's law
+ - **Electrostatic Potential and Capacitance**: Potential difference, capacitance, dielectrics
+ - **Current Electricity**: Ohm's law, resistivity, Kirchhoff's laws

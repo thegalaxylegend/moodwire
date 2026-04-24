@@ -9,6 +9,33 @@ practice_link: "/class-11/physics/thermodynamics-chemistry-class-11-revision-not
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-thermodynamics-chemistry-revision-notes"></a>What is Thermodynamics Chemistry Revision Notes?](#a-idwhat-is-thermodynamics-chemistry-revision-notesawhat-is-thermodynamics-chemistry-revision-notes)
+3. [<a id="1-why-thermodynamics-is-the-judge-of-chemistry"></a>1. Why Thermodynamics is the "Judge" of Chemistry](#a-id1-why-thermodynamics-is-the-judge-of-chemistrya1-why-thermodynamics-is-the-judge-of-chemistry)
+4. [<a id="2-systems-surroundings-n-types-of-processes"></a>2. Systems, Surroundings, n Types of Processes](#a-id2-systems-surroundings-n-types-of-processesa2-systems-surroundings-n-types-of-processes)
+5. [<a id="3-the-first-law-energy-conservation-n-action"></a>3. The First Law: Energy Conservation and Action](#a-id3-the-first-law-energy-conservation-n-actiona3-the-first-law-energy-conservation-and-action)
+6. [<a id="4-work-done-n-reversible-vs-irreversible-expansion"></a>4. Work Done and Reversible vs Irreversible Expansion](#a-id4-work-done-n-reversible-vs-irreversible-expansiona4-work-done-and-reversible-vs-irreversible-expansion)
+7. [<a id="5-enthalpy-h-n-the-delta-h-vs-delta-u-relationship"></a>5. Enthalpy ($H$) n the $\delta H$ vs $\delta U$ Relationship](#a-id5-enthalpy-h-n-the-delta-h-vs-delta-u-relationshipa5-enthalpy-h-n-the-delta-h-vs-delta-u-relationship)
+8. [<a id="6-hesss-law-the-circle-of-enthalpy"></a>6. Hess's Law: The Circle of Enthalpy](#a-id6-hesss-law-the-circle-of-enthalpya6-hesss-law-the-circle-of-enthalpy)
+9. [<a id="7-standard-enthalpy-of-formation-combustion-n-bond-enthalpy"></a>7. Standard Enthalpy of Formation, Combustion, n Bond Enthalpy](#a-id7-standard-enthalpy-of-formation-combustion-n-bond-enthalpya7-standard-enthalpy-of-formation-combustion-n-bond-enthalpy)
+10. [<a id="8-entropy-s-n-the-second-law"></a>8. Entropy ($S$) n the Second Law](#a-id8-entropy-s-n-the-second-lawa8-entropy-s-n-the-second-law)
+11. [<a id="9-gibbs-free-energy-g-the-spontaneity-predictor"></a>9. Gibbs Free Energy ($G$): The Spontaneity Predictor](#a-id9-gibbs-free-energy-g-the-spontaneity-predictora9-gibbs-free-energy-g-the-spontaneity-predictor)
+12. [<a id="10-the-trap-section-sign-convention-nightmares"></a>10. The "Trap" Section: Sign Convention Nightmares](#a-id10-the-trap-section-sign-convention-nightmaresa10-the-trap-section-sign-convention-nightmares)
+13. [<a id="11-practice-mcqs-jeeneet-level"></a>11. Practice MCQs (JEE/NEET Level)](#a-id11-practice-mcqs-jeeneet-levela11-practice-mcqs-jeeneet-level)
+14. [<a id="12-ayushs-thermodynamics-strategy"></a>12. Ayush's Thermodynamics Strategy](#a-id12-ayushs-thermodynamics-strategya12-ayushs-thermodynamics-strategy)
+15. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+16. [📚 Related Topics](#related-topics)
+
+## ⚗️ Chemical Quick Reference (Verified via PubChem)
+
+| Compound | Formula | Mol. Weight | Source |
+|:---|:---:|:---:|:---:|
+| **water** | H2O | 18.015 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/962) |
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Thermodynamics Chemistry Revision Notes?](#what-is-thermodynamics-chemistry-revision-notes)
@@ -272,7 +299,7 @@ D) $\delta U = 0$
 This chapter has a split personality. Half is conceptual (Laws, Spontaneity), half is numerical (Hess's Law, $\delta n_g$ problems). Here's how I tackled it:
 
 1. **The Sign Convention Drill**: I wrote 10 reactions and determined the sign of $q$, $w$, $\delta H$, n $\delta G$ for each. I did this drill once a week. After 3 weeks, sign conventions became instinctive.
-2. **The Spontaneity Matrix**: I made a 2×2 grid ($\delta H$ vs $\delta S$) n pasted it inside my notebook cover. Before every spontaneity problem, I glanced at it. Memorizing this table is worth 4-8 marks across JEE and NEET combined.
+2. **The Spontaneity Matrix**: I made a 2×2 grid ($\delta H$ vs $\delta S$) n pasted it inside my notebook cover. Before every spontaneity problem, I glanced at it. Memorizing this table is worth 4–8 marks across JEE and NEET combined.
 3. **Hess's Law on Paper**: I never tried to do Hess's Law calculations mentally. I always drew the cycle diagram, labeled every arrow with $\delta H$, n then solved.
 
 ### <a id="board-exam-tip"></a>Board Exam Tip:
@@ -283,7 +310,7 @@ CBSE loves "Derive the Gibbs-Helmholtz equation" as a 5-mark question. Write the
 **Related [revision](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) Notes:**
 - **[chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Equilibrium — Le Chatelier's Principle Tricks**
 - **[states](/blog/states-of-matter-class-11-revision-notes-jee-neet) of Matter — Gas Laws & Real Gases Tricks**
-- **Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry**
+- **Some Basic Concepts of [Chemistry](/blog/jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet) — Mole Concept & Stoichiometry**
 
 ---
 
@@ -306,6 +333,8 @@ Continue your [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) wit
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/[thermodynamics](/blog/thermodynamics-class-11-revision-notes-neet)-chemistry-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Thermodynamics%20Chemistry%20Class%2011%20Chemistry%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -316,3 +345,35 @@ Continue your [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) wit
 - 📖 [States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/states-of-matter-class-11-revision-notes-jee-neet)
 - 📖 [Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/equilibrium-class-11-revision-notes-jee-neet)
 - 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* Not considering the sign convention for work done in thermodynamics, where work done by the system is negative and work done on the system is positive, can lead to incorrect calculations of internal energy change and enthalpy change.
+* Forgetting to convert between different units of energy, such as joules (J) and calories (cal), can lead to incorrect calculations in thermodynamic problems.
+* Confusing the terms 'heat capacity' and 'specific heat capacity', where heat capacity refers to the amount of heat required to change the temperature of an object by 1 degree, and specific heat capacity is the amount of heat required to change the temperature of 1 gram of a substance by 1 degree.
+* Not accounting for the change in the number of moles of gases in a reaction when calculating the entropy change, as the entropy change also depends on the change in the number of moles of gases.
+* Assuming that the internal energy change (ΔU) is always equal to the enthalpy change (ΔH), when in fact ΔU = ΔH - ΔnRT, where Δn is the change in the number of moles of gases, R is the gas constant, and T is the temperature in Kelvin.
+
+## 🔁 Last 5 Minutes Box
+
+    * **Laws of Thermodynamics**: 
+      + Zeroth Law: If two systems are in thermal [equilibrium](/blog/equilibrium-class-11-revision-notes-jee-neet) with a third system, then they are also in thermal [equilibrium](/blog/equilibrium-class-11-revision-notes-jee-neet) with each other.
+      + First Law: ΔE = q + w, where ΔE is the change in internal energy, q is the heat added, and w is the work done.
+      + Second Law: The total entropy of an isolated system always increases over time.
+      + Third Law: As the temperature of a system approaches absolute zero, its entropy approaches a minimum value.
+    * **Thermodynamic Processes**: 
+      + Isothermal: Constant temperature
+      + Adiabatic: No heat transfer
+      + Isobaric: Constant pressure
+      + Isochoric: Constant volume
+    * **Thermodynamic Properties**: 
+      + Internal Energy (U): The total energy of a system
+      + Enthalpy (H): U + pV, where p is pressure and V is volume
+      + Entropy (S): A measure of disorder or randomness
+      + Gibbs Free Energy (G): H - TS, where T is temperature
+    * **Equations and Formulas**: 
+      + ΔE = q + w
+      + ΔH = ΔU + Δ(pV)
+      + ΔG = ΔH - TΔS
+      + ΔS = q / T
+    
