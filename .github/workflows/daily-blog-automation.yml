@@ -114,7 +114,7 @@ jobs:
       - name: Task 2.2 - Sync Blog Registry
         run: |
           echo "🔄 Syncing blog registry (blogs.ts) from content directory..."
-          node scripts/sync-blogs.js
+          npx tsx scripts/sync-blogs.ts
           echo "✅ Blog registry synced"
 
       - name: Task 2.5 - Patch Generator (Self-Healing)
