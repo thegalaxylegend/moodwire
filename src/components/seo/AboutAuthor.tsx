@@ -67,18 +67,24 @@ export const AboutAuthor = ({ compact = false }: AboutAuthorProps) => {
                     </script>
                 </Helmet>
                 <div
-                    className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm text-gray-400"
+                    className="flex items-center gap-3 py-2 px-4 group transition-opacity"
                     itemScope
                     itemType="https://schema.org/Person"
                 >
-                    <div className="w-6 h-6 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex-shrink-0" />
-                    <span>
-                        Built by{' '}
-                        <span itemProp="name" className="text-white font-medium">
-                            Ayush Kumar
+                    {/* Vertical Accent Line */}
+                    <div className="w-px h-6 bg-gradient-to-b from-primary to-accent opacity-30 group-hover:opacity-100 transition-opacity" />
+                    
+                    <div className="flex flex-col leading-none">
+                        <div className="flex items-center gap-2">
+                            <span className="text-[10px] uppercase tracking-widest text-gray-500 font-bold">Built by</span>
+                            <span itemProp="name" className="text-text-main font-heading font-bold text-sm tracking-tight">
+                                Ayush Kumar
+                            </span>
+                        </div>
+                        <span className="text-[8px] uppercase tracking-[0.2em] text-primary/60 font-bold mt-0.5">
+                            Architect of the Neural Engine
                         </span>
-                        {' '}— Class 11, KV Darbhanga
-                    </span>
+                    </div>
                 </div>
             </>
         );
@@ -109,21 +115,18 @@ export const AboutAuthor = ({ compact = false }: AboutAuthorProps) => {
                                 <span itemProp="name">Ayush Kumar</span>
                             </h3>
                             <p
-                                className="text-sm text-purple-400 mb-4 font-medium"
+                                className="text-sm text-primary mb-4 font-bold"
                                 itemProp="jobTitle"
                             >
-                                Class 11 Student & Founder — KV Darbhanga
+                                JEE Aspirant & Founder — KV Darbhanga
                             </p>
                             <p
                                 className="text-gray-300 leading-relaxed text-sm md:text-base"
                                 itemProp="description"
                             >
-                                I'm a Class 11 student at Kendriya Vidyalaya Darbhanga, building
-                                Exam Compass while preparing for JEE myself. Every feature — from
-                                the AI mock test generator to the fatigue-aware study planner —
-                                exists because I needed it. This isn't a corporate product; it's
-                                a tool built by a student who's in the trenches, designed to give
-                                every student honest data about their preparation.
+                                I'm a JEE Aspirant building Exam Compass to solve the "Black Box" problem of exam preparation. 
+                                Every feature—from the Neural Mock Engine to the Cognitive Decay Maps—exists because I needed a way to verify my readiness with mathematical certainty. 
+                                This isn't just a platform; it's the infrastructure I built to win, and now it's open to every student in the trenches.
                             </p>
 
                             <div className="mt-6 flex flex-wrap justify-center md:justify-start gap-2">

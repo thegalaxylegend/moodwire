@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { motion, useScroll, useInView } from 'framer-motion';
+import { motion, useScroll, useInView, useSpring } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import { useUserStore } from '../store/userStore';
 import { Hero } from '../components/Hero';
@@ -74,6 +74,11 @@ export const LandingPage = () => {
     }, [isAuthenticated, isLoading, navigate, isServer]);
 
     const { scrollYProgress } = useScroll();
+    const scaleX = useSpring(scrollYProgress, {
+        stiffness: 100,
+        damping: 30,
+        restDelta: 0.001
+    });
 
     // Counter hooks for stats
     const pyqs = useCountUp(9000);
@@ -85,18 +90,23 @@ export const LandingPage = () => {
 
     return (
         <div className={`min-h-screen bg-black text-white relative overflow-hidden perf-tier-${tier}`}>
-            {/* Scroll Progress Bar */}
+            {/* Premium Scroll Progress Bar */}
             <motion.div 
-                className="fixed top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-primary via-secondary to-accent z-[100] origin-left will-change-transform"
-                style={{ scaleX: scrollYProgress }}
-                initial={false}
+                className="fixed top-0 left-0 right-0 h-1.5 bg-primary z-[100] origin-left shadow-[0_0_20px_rgba(139,92,246,0.5)]"
+                style={{ scaleX }}
+            />
+
+            {/* Dynamic Neural Pulse Line */}
+            <motion.div 
+                className="fixed left-6 top-0 bottom-0 w-px bg-gradient-to-b from-primary/50 to-transparent z-40 hidden lg:block opacity-20"
+                style={{ scaleY: scrollYProgress, originY: 0 }}
             />
 
             {/* Global ParallaxBackground is now managed in App.tsx */}
 
             <SEO
-                title="Exam Compass | Elite AI-Powered Prep for JEE Main & Adv, NEET, Boards (8-12)"
-                description="Experience the future of competitive exam prep. Adaptive Elo-rated mocks, root-cause AI diagnosis, and predictive analytics for Classes 8-12, JEE & NEET aspirants."
+                title="Exam Compass | The Neural Engine for JEE & NEET Selection"
+                description="Experience the only Adaptive Neural Engine for competitive exams. Featuring Elo-calibrated mocks, SM-2 memory retention scheduling, and 100% verified NTA pattern analytics."
                 canonical={`${SITE_URL}/`}
                 image={SITE_OG_IMAGE}
                 schema={{
@@ -208,7 +218,7 @@ export const LandingPage = () => {
                         viewport={{ once: true }}
                         className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-tight"
                     >
-                        <TextReveal>Master the Machine.</TextReveal>
+                        <TextReveal>The Science of Your Selection.</TextReveal>
                     </motion.h2>
                     <motion.p 
                         initial={{ opacity: 0 }}
@@ -217,7 +227,7 @@ export const LandingPage = () => {
                         viewport={{ once: true }}
                         className="text-xl text-gray-400 max-w-2xl mx-auto"
                     >
-                        <TextReveal delay={0.3}>Not another quiz app. We've built a 100% free analytics companion for your coaching classes.</TextReveal>
+                        <TextReveal delay={0.3}>We didn't build another quiz app. We built a Neural Framework that understands how you think, how you forget, and how you win.</TextReveal>
                     </motion.p>
                 </div>
 
@@ -225,20 +235,20 @@ export const LandingPage = () => {
                     {[
                         {
                             icon: <Target className="text-primary" size={32} />,
-                            title: "PYQ Mastery Tracker",
-                            desc: "We match PYQ difficulty to your current skill level so you don't waste time on questions that are too easy or too hard.",
+                            title: "Elo-Rank Calibration",
+                            desc: "In Chess, your rank depends on who you beat. In Exam Compass, your rank depends on the Concept Difficulty. Calibrate your mastery in real-time.",
                             gradient: "from-primary/10 via-transparent to-transparent"
                         },
                         {
                             icon: <Brain className="text-secondary" size={32} />,
-                            title: "Root-Cause Analysis",
-                            desc: "Failing Torque? Our AI traces back to find the real gap — usually prerequisites like Vectors or Cross Products. We fix the source.",
+                            title: "Stochastic Diagnosis",
+                            desc: "Failing Torque? We don't just say 'study more.' We trace your concept graph back to prerequisites like Vectors or Cross-Products to find the root-cause.",
                             gradient: "from-secondary/10 via-transparent to-transparent"
                         },
                         {
                             icon: <Zap className="text-cyan-400" size={32} />,
-                            title: "PYQ Intelligence",
-                            desc: "Mapped 9,000+ Previous Year Questions (2015–2025). We predict high-probability topics for 2026 based on NTA's shifting patterns.",
+                            title: "Neural Decay Tracking",
+                            desc: "Uses the SM-2 algorithm to predict when you'll forget a topic. We force-recirculate questions exactly when your neural pathways begin to fade.",
                             gradient: "from-cyan-400/10 via-transparent to-transparent"
                         }
                     ].map((feature, i) => (
@@ -287,7 +297,7 @@ export const LandingPage = () => {
                         viewport={{ once: true }}
                         className="text-4xl md:text-6xl font-bold text-white mb-6"
                     >
-                        <TextReveal>Data, Not Guesswork.</TextReveal>
+                        <TextReveal>Neural Infrastructure, Not Guesswork.</TextReveal>
                     </motion.h2>
                     <motion.p 
                         initial={{ opacity: 0 }}
@@ -295,7 +305,7 @@ export const LandingPage = () => {
                         viewport={{ once: true }}
                         className="text-xl text-gray-400"
                     >
-                        <TextReveal delay={0.2}>No vague "AI Rank Predictions". We give you the raw analytics you need to verify your prep.</TextReveal>
+                        <TextReveal delay={0.2}>While others give you scores, we give you a Strategy Engine. Experience the most technically sound prep in India.</TextReveal>
                     </motion.p>
                 </div>
                 
@@ -305,20 +315,20 @@ export const LandingPage = () => {
                     
                     {[
                         {
-                            title: "Calibrated Practice",
-                            desc: "AI generates questions matching YOUR current Elo rating. No generic question banks — every test is a precision-strike at your skill level.",
+                            title: "Stochastic Calibration",
+                            desc: "Our engine utilizes a Dynamic Elo-Rating system to tailor every session to your precise skill level. No generic banks—just precision-targeted challenges.",
                             icon: <Target className="text-primary" />,
                             step: "01"
                         },
                         {
-                            title: "Root-Cause Diagnosis",
-                            desc: "Our Concept Graph maps mistakes to their deepest prerequisites. Instead of 'study more,' we tell you exactly which foundation is cracked.",
+                            title: "Neural Root-Cause Diagnosis",
+                            desc: "Our Concept Graph maps mistakes to their deepest cognitive prerequisites. We identify if the foundation is cracked before you build higher.",
                             icon: <Brain className="text-secondary" />,
                             step: "02"
                         },
                         {
-                            title: "Prove Your Readiness",
-                            desc: "Track real-time topic mastery and NTA pattern alignment. Stop guessing your rank and start measuring your actual PYQ data.",
+                            title: "Predictive Mastery Analytics",
+                            desc: "Verify your readiness with NTA-pattern alignment and logarithmic rank forecasts. Stop guessing your rank—start measuring your neural data.",
                             icon: <Award className="text-accent" />,
                             step: "03"
                         }
@@ -327,7 +337,7 @@ export const LandingPage = () => {
                             key={i}
                             initial={{ opacity: 0, x: i % 2 === 0 ? -60 : 60 }}
                             whileInView={{ opacity: 1, x: 0 }}
-                            viewport={{ once: true, margin: "-50px" }}
+                            viewport={{ once: true, margin: "-20px" }}
                             transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
                             whileHover={{ x: 10, transition: { type: 'spring', stiffness: 300, damping: 20 } }}
                             className="glass-card flex flex-col md:flex-row gap-8 items-center md:items-start p-10 group relative overflow-hidden"
@@ -391,7 +401,9 @@ export const LandingPage = () => {
                 </motion.div>
             </section>
 
-            <AboutAuthor compact />
+            <div className="flex justify-center pb-16">
+                <AboutAuthor compact />
+            </div>
             <DemoModal isOpen={showDemo} onClose={() => setShowDemo(false)} />
             <Footer />
         </div>

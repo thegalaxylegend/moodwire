@@ -1,4 +1,4 @@
-import { ArrowRight, Play, Brain, ShieldCheck, Globe, BarChart2, Sparkles } from 'lucide-react';
+import { ArrowRight, Play, Brain, ShieldCheck, Globe, BarChart2 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 
@@ -53,24 +53,14 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
                     variants={containerVariants}
                     className="space-y-8 text-center lg:text-left"
                 >
-                    {/* Status badge */}
-                    <motion.div 
-                        variants={itemVariants}
-                        className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-surface/60 backdrop-blur-sm border border-white/10 text-xs font-medium text-text-muted"
-                    >
-                        <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-                        <Sparkles size={12} className="text-primary" />
-                        AI System Operating — v2.0
-                    </motion.div>
-
                     {/* Main heading with animated gradient */}
                     <motion.h1 
                         variants={itemVariants}
-                        className="text-5xl md:text-7xl font-heading font-bold text-text-main leading-[1.1]" id="main-content"
+                        className="text-3xl sm:text-5xl md:text-7xl font-heading font-bold text-text-main leading-[1.1]" id="main-content"
                     >
-                        Master Your Exams with <br />
+                        Stop Guessing What to <br />
                         <span className="animate-gradient-text bg-gradient-to-r from-primary via-secondary to-accent">
-                            AI-Powered Preparation
+                            Study Next Start Scoring
                         </span>
                     </motion.h1>
 
@@ -79,8 +69,8 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
                         variants={itemVariants}
                         className="text-lg text-gray-300 max-w-xl mx-auto lg:mx-0 leading-relaxed"
                     >
-                        Adaptive Elo-rated mocks that match YOUR level. Root-cause AI that finds WHY you fail, not just where. Real-time mastery analytics based on 9,000+ NTA Verified PYQs.
-                        <span className="text-text-main font-semibold block mt-2">The free analytics companion to your PW / Allen test series.</span>
+                        Experience the only <span className="text-primary font-bold">Neural Performance Engine</span> that identifies your "Growth Gaps" and predicts your rank with data-backed precision. Stop wasting time on random mocks—train like your selection depends on it
+                        <span className="text-text-main font-semibold block mt-2">The ultimate analytics companion for your selection journey</span>
                     </motion.p>
 
                     {/* CTA buttons — simplified for performance */}

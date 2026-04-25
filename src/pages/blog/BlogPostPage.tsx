@@ -153,13 +153,17 @@ export const BlogPostPage: React.FC = () => {
             />
             <Navbar />
 
-            {/* Reading Progress Bar - Ultra-smooth 120fps physics */}
-            <div className="fixed top-0 left-0 w-full h-1 z-50 pointer-events-none">
-                <motion.div 
-                    className="h-full bg-gradient-to-r from-purple-500 via-pink-500 to-purple-500 origin-left"
-                    style={{ scaleX }}
-                />
-            </div>
+            {/* Premium Scroll Progress Bar */}
+            <motion.div 
+                className="fixed top-0 left-0 right-0 h-1.5 bg-primary z-[100] origin-left shadow-[0_0_20px_rgba(139,92,246,0.5)]"
+                style={{ scaleX }}
+            />
+
+            {/* Dynamic Neural Pulse Line */}
+            <motion.div 
+                className="fixed left-6 top-0 bottom-0 w-px bg-gradient-to-b from-primary/50 to-transparent z-40 hidden lg:block opacity-20"
+                style={{ scaleY: scrollYProgress, originY: 0 }}
+            />
 
             <motion.article 
                 initial={isLow ? { opacity: 1 } : { opacity: 0, y: 10 }}

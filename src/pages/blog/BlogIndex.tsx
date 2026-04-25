@@ -4,7 +4,7 @@ import { SEO } from '../../components/SEO';
 import { Navbar } from '../../components/Navbar';
 import { blogs } from '../../data/blogs';
 import { SITE_URL } from '../../lib/siteConfig';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion, useScroll, useTransform, useSpring } from 'framer-motion';
 import { usePerformance } from '../../context/PerformanceProvider';
 
 const Footer = lazy(() => import('../../components/Footer').then(module => ({ default: module.Footer })));
@@ -14,7 +14,12 @@ export const BlogIndex: React.FC = () => {
     const isElite = tier === 'elite';
     const isLow = tier === 'low';
 
-    const { scrollY } = useScroll();
+    const { scrollY, scrollYProgress } = useScroll();
+    const scaleX = useSpring(scrollYProgress, {
+        stiffness: 100,
+        damping: 30,
+        restDelta: 0.001
+    });
     const heroY = useTransform(scrollY, [0, 500], [0, isElite ? 80 : 0]);
     const heroOpacity = useTransform(scrollY, [0, 300], [1, 0]);
     
@@ -34,6 +39,18 @@ export const BlogIndex: React.FC = () => {
                 canonical={`${SITE_URL}/blog`}
             />
             <Navbar />
+            
+            {/* Premium Scroll Progress Bar */}
+            <motion.div 
+                className="fixed top-0 left-0 right-0 h-1.5 bg-primary z-[100] origin-left shadow-[0_0_20px_rgba(139,92,246,0.5)]"
+                style={{ scaleX }}
+            />
+
+            {/* Dynamic Neural Pulse Line */}
+            <motion.div 
+                className="fixed left-6 top-0 bottom-0 w-px bg-gradient-to-b from-primary/50 to-transparent z-40 hidden lg:block opacity-20"
+                style={{ scaleY: scrollYProgress, originY: 0 }}
+            />
 
             <main className="pt-16 md:pt-28 pb-20 px-6 max-w-7xl mx-auto animate-fade-in">
                 <motion.header 
@@ -78,7 +95,7 @@ export const BlogIndex: React.FC = () => {
                             key={blog.id}
                             initial={isLow ? { opacity: 1 } : { opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true, margin: "-10%" }}
+                            viewport={{ once: true, margin: "-20px" }}
                             transition={{ delay: isLow ? 0 : index * 0.1, duration: 0.8, ease: "circOut" }}
                             className="h-full"
                         >
