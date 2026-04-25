@@ -248,7 +248,7 @@ To remember the difference, consider a simple mnemonic:
 
 - Photosynthesis is like "Photo" 
 
-- it uses light to synthesize glucose, so it's like taking a picture (using light) to create something new.
+- it uses [light](/blog/light-reflection-and-refraction-class-10-notes) to synthesize glucose, so it's like taking a picture (using l\right) to create something new.
 
 - Respiration is like "Respir" 
 
@@ -305,7 +305,7 @@ For the ExamCompass, remember that Life Processes questions often require you to
 
 - ❌ Assuming that all cells have the same structure and function → ✅ Remembering that cells have specialized structures and functions
 
-- ❌ Forgetting that photosynthesis and respiration are interrelated processes → ✅ Understanding that they are opposite processes that occur in different organisms
+- ❌ Forgetting that photosynthesis and respiration are interrelated processes → ✅ Understanding that they are opposite processes that occur in different [organisms](/blog/how-do-organisms-reproduce-class-10-notes)
 
 ### <a id="-if-you-can-only-remember-one-thing"></a>🎯 If you can only remember ONE thing:
 Photosynthesis and respiration are two essential life processes that occur in living organisms, with photosynthesis producing $O_{2}$ and respiration producing $CO_{2}$, and both are crucial for the survival of life on Earth.
@@ -313,30 +313,30 @@ Photosynthesis and respiration are two essential life processes that occur in li
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. A cell divides to produce $2^3 = 8$ daughter cells. How many cells were present before division?**
-**A)**   4
-**B)**   5
-**C)**   6
-**D)**   7
+**A)**    4
+**B)**    5
+**C)**    6
+**D)**    7
 
 **Answer:** D) The other options are incorrect because they don't correctly calculate the number of daughter cells. Option A is incorrect because 2^3 = 8, not 4. Option B is incorrect because it doesn't account for the daughter cells produced during division. Option C is incorrect because it's one less than the correct answer.
 
 ---
 
 **2. What is the function of the Golgi apparatus in a cell?**
-**A)**   To synthesize proteins
-**B)**   To store genetic information
-**C)**   To modify and package proteins for transport
-**D)**   To break down cellular waste
+**A)**    To synthesize proteins
+**B)**    To store genetic information
+**C)**    To modify and package proteins for transport
+**D)**    To break down cellular waste
 
 **Answer:** C) The other options are incorrect because they don't accurately describe the function of the Golgi apparatus. Option A is incorrect because protein synthesis occurs in the ribosomes. Option B is incorrect because genetic information is stored in the DNA and chromatin. Option D is incorrect because breaking down cellular waste is the function of lysosomes.
 
 ---
 
 **3. A plant cell has a vacuole with a pH of $5.5$. How will it affect the cell's ability to transport water?**
-**A)**   It will increase the rate of water transport
-**B)**   It will decrease the rate of water transport
-**C)**   It will have no effect on water transport
-**D)**   It will increase the rate of water loss
+**A)**    It will increase the rate of water transport
+**B)**    It will decrease the rate of water transport
+**C)**    It will have no effect on water transport
+**D)**    It will increase the rate of water loss
 
 **Answer:** B) The other options are incorrect because a pH of 5.5 in the vacuole will increase the concentration of hydrogen ions, making it more difficult for water to enter the cell. Option A is incorrect because it would require a decrease in hydrogen ion concentration. Option C is incorrect because the pH of the vacuole will indeed affect the cell's ability to transport water. Option D is incorrect because it would require a decrease in hydrogen ion concentration.
 
@@ -344,20 +344,20 @@ Photosynthesis and respiration are two essential life processes that occur in li
 
 **4. $0.5%$ of a plant's leaf surface is covered with stomat
 a. If the leaf surface area is $12,cm^2$, how many stomata are present?**
-**A)**   6
-**B)**   12
-**C)**   24
-**D)**   36
+**A)**    6
+**B)**    12
+**C)**    24
+**D)**    36
 
 **Answer:** C) The other options are incorrect because 0.5% of 12 cm^2 is equal to 0.06 cm^2. Since all stomata cover 1 square millimeter, we need to convert 0.06 cm^2 to mm^2: 0.06 cm^2 = 60 mm^2 (1 cm = 10 mm). Since all stomata cover 1 mm^2, the number of stomata is equal to 60. However, this option is not available. The closest answer is 24, which is 2 \times 12, but it is still not the correct answer.
 
 ---
 
 **5. What is the primary function of the mitochondria in a cell?**
-**A)**   To synthesize proteins
-**B)**   To store genetic information
-**C)**   To break down cellular waste
-**D)**   To generate energy for the cell through cellular respiration
+**A)**    To synthesize proteins
+**B)**    To store genetic information
+**C)**    To break down cellular waste
+**D)**    To generate energy for the cell through cellular respiration
 
 **Answer:** D) The other options are incorrect because they don't accurately describe the primary function of the mitochondria. Option A is incorrect because protein synthesis occurs in the ribosomes. Option B is incorrect because genetic information is stored in the DNA and chromatin. Option C is incorrect because breaking down cellular waste is the function of lysosomes.
 

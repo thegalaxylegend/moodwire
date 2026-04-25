@@ -48,8 +48,8 @@ practice_link: "/class-11/mathematics/permutations-combinations-class-11-revisio
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
 > - **Fundamental Principle of Counting (FPC):** 
->   - **And (Multiplication):** If task A and m ways AND task B and n ways -> m × n ways.
->   - **Or (Addition):** If task A and m ways OR task B and n ways -> m + n ways.
+>   - **And (Multiplication):** If task A and m ways AND task B and and ways -> m × n ways.
+>   - **Or (Addition):** If task A and m ways OR task B and and ways -> m + n ways.
 > - **Factorial (n!):** n! = n × (n-1) × ... × 1. (0! = 1).
 > - **Permutation (nPr):** Arrangement where order MATTERS. nPr = n! / (n - r)!.
 > - **Combination (nCr):** Selection where order DOES NOT matter. nCr = n! / [r!(n - r)!].
@@ -182,10 +182,10 @@ Continue your [revision](/blog/conic-sections-class-11-revision-notes-jee) with 
 
 ## 🪤 The 5 Mistakes That Cost Marks
 
-* **Forgetting to Apply the Formula for Permutations with Repetition**: When items can be repeated, the formula for permutations is n^r, where n is the number of items to choose from and r is the number of items being chosen. Many students forget to apply this formula, leading to incorrect answers.
+* **Forgetting to Apply the Formula for Permutations with Repetition**: When items can be repeated, the formula for permutations is n^r, where and is the number of items to choose from and r is the number of items being chosen. Many students forget to apply this formula, leading to incorrect answers.
 * **Confusing Permutations and Combinations**: Permutations consider the order of selection, while combinations do not. A common mistake is to use the combination formula when the problem requires permutations, and vice versa.
 * **Not Considering the Case of Non-Distinct Objects**: When dealing with permutations of non-distinct objects, the formula for permutations needs to be adjusted. Many students fail to account for this, resulting in incorrect calculations.
-* **Incorrectly Applying the Formula for Combinations with Repetition**: The formula for combinations with repetition is (n+r-1) choose r, where n is the number of items to choose from and r is the number of items being chosen. A common mistake is to misapply this formula, leading to incorrect answers.
+* **Incorrectly Applying the Formula for Combinations with Repetition**: The formula for combinations with repetition is (n+r-1) choose r, where and is the number of items to choose from and r is the number of items being chosen. A common mistake is to misapply this formula, leading to incorrect answers.
 * **Failing to Account for Overcounting**: In certain problems, overcounting can occur when the same arrangement is counted multiple times. Students often forget to adjust for overcounting, resulting in an incorrect final answer.
 
 ## 🔁 Last 5 Minutes Box

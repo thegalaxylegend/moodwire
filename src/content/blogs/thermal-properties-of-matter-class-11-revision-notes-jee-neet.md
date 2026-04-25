@@ -207,9 +207,9 @@ Continue your [revision](/blog/kinetic-theory-class-11-revision-notes-jee-neet) 
 
 ## 🔁 Last 5 Minutes Box
 
-- **Specific Heat Capacity**: $c = \frac{Q}{m\Delta T}$, 
+- **Specific Heat Capacity**: $c = \frac{Q}{m\delta T}$, 
       - **Latent Heat**: $L = \frac{Q}{m}$, 
-      - **Heat Transfer**: $Q = mc\Delta T$, 
-      - **Thermal Expansion**: $\Delta L = \alpha L_0 \Delta T$, 
+      - **Heat Transfer**: $Q = mc\delta T$, 
+      - **Thermal Expansion**: $\delta L = \alpha L_0 \delta T$, 
       - **Calorimetry**: $Q_{gain} = Q_{loss}$, 
       - **Newton's Law of Cooling**: $\frac{dT}{dt} = -k(T - T_0)$

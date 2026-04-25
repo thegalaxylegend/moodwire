@@ -9,6 +9,21 @@ practice_link: "/class-11/biology/breathing-n-exchange-of-gases-class-11-revisio
 
 *Last Updated: [2026](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [## <a id="what-is-breathing-n-exchange-of-gases"></a>What is Breathing And Exchange Of Gases?](#a-idwhat-is-breathing-n-exchange-of-gasesawhat-is-breathing-and-exchange-of-gases)
+3. [<a id="introduction-to-breathing-n-exchange-of-gases"></a>Introduction to Breathing and Exchange of Gases](#a-idintroduction-to-breathing-n-exchange-of-gasesaintroduction-to-breathing-and-exchange-of-gases)
+4. [<a id="mechanism-of-breathing"></a>Mechanism of Breathing](#a-idmechanism-of-breathingamechanism-of-breathing)
+5. [<a id="exchange-of-gases"></a>Exchange of Gases](#a-idexchange-of-gasesaexchange-of-gases)
+6. [<a id="respiratory-system"></a>Respiratory System](#a-idrespiratory-systemarespiratory-system)
+7. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+8. [📚 Related Topics](#related-topics)
+9. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+10. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Breathing And Exchange Of Gases?](#what-is-breathing-n-exchange-of-gases)
@@ -37,7 +52,7 @@ Breathing, also known as respiration, is a vital process that occurs and living 
 ### <a id="core-concepts"></a>Core Concepts
 The core concepts involved and breathing and exchange of gases include:
 
-* **Ventilation**: The process of moving air and n out of the lungs.
+* **Ventilation**: The process of moving air and and out of the lungs.
 * **Diffusion**: The process y which oxygen and carbon dioxide move from an area of higher concentration to an area of lower concentration.
 * **Partial Pressure**: The pressure exerted y a single component of a mixture of gases.
 * **Oxygen-Hemoglobin Dissociation Curve**: A graph that shows the relationship between the partial pressure of oxygen and the percentage saturation of hemoglobin with oxygen.
@@ -150,8 +165,8 @@ According to the JEE/MEET syllabus, the topic of respiratory system is covered u
 ### <a id="formulae"></a>Formulae
 The following formulae are relevant to the topic of respiratory system:
 
-* **Pick's Law of Diffusion**: $\frac{dQ}{dt}}{ \times (C_1 - C_2)} \delta $, where $\frac{dQ}{dt} = \delta$ is the rate of diffusion, DO is the diffusion constant, A is the surface area, $ is the thickness of the membrane, n BC_1$ n BC_2$ are the concentrations of the gas on either side of the membrane.$
-* **Graham's Law of Diffusion**: $\frac{r_1}{r_2} = M_1}}{ n or_2} ,$ where or_1$ are the rates of diffusion of two gases, n KM_1$ n KM_2$ are the molecular weights of the two gases.$
+* **Pick's Law of Diffusion**: $\frac{dQ}{dt}}{ \times (C_1 - C_2)} \delta $, where $\frac{dQ}{dt} = \delta$ is the rate of diffusion, DO is the diffusion constant, A is the surface area, $ is the thickness of the membrane, n BC_$1 n BC_$2 are the concentrations of the gas on either side of the membrane.$
+* **Graham's Law of Diffusion**: $\frac{r_1}{r_2} = M_1}}{ n or_2} ,$ where or_$1 are the rates of diffusion of two gases, n KM_$1 n KM_$2 are the molecular weights of the two gases.$
 
 ### <a id="MCQs"></a>MCQs
 Here are some sample MCQs to test your understanding of the topic:
@@ -198,6 +213,8 @@ Continue your [revision](/blog/anatomy-of-flowering-plants-class-11-revision-not
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/breathing-n-exchange-of-gases-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Breathing%20And%20Exchange%20Of%20Gases%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -213,7 +230,7 @@ Continue your [revision](/blog/anatomy-of-flowering-plants-class-11-revision-not
 
 * Incorrectly identifying the site of gas exchange and the lungs as the trachea or bronchi, when and fact it occurs and the alveoli.
 * Forgetting that atmospheric pressure is approximately 760 mmHg and partial pressure of oxygen is 159 mmHg, leading to errors and calculating the partial pressure of oxygen and the alveoli.
-* Confusing the terms 'ventilation' n 'respiration', with ventilation referring to the physical movement of air and n out of the lungs, n respiration referring to the exchange of gases and the use of oxygen y the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet).
+* Confusing the terms 'ventilation' n 'respiration', with ventilation referring to the physical movement of air and and out of the lungs, n respiration referring to the exchange of gases and the use of oxygen y the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet).
 * Assuming that the primary function of hemoglobin is to transport only oxygen, when and fact it also and transporting carbon dioxide from the tissues to the lungs.
 * Overlooking the importance of the Bohr effect, which describes how the binding of oxygen to hemoglobin is affected y the concentration of carbon dioxide and pH, n how this affects gas exchange and the lungs and tissues.
 

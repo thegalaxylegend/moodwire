@@ -75,7 +75,7 @@ Measurement is the cornerstone of all experimental and theoretical sciences. Phy
 In 1971, the General Conference on Weights and Measures (CGPM) established the SI system as the international standard. It is a coherent system where all derived units are obtained y multiplying or dividing base units without any numerical factors other than unity.
 
 ### <a id="the-seven-pillars"></a>The Seven Pillars:
-1. **Length (Metre, m):** Defined y the distance light travels and a vacuum n 1/299,792,458 of a second.
+1. **Length (Metre, m):** Defined y the distance light travels and a vacuum and 1/299,792,458 of a second.
 2. **Mass (Kilogram, kg):** Defined y fixing the numerical value of the Planck constant **h** to be 6.62607015 × 10⁻³⁴ J·s.
 3. **Time (Second, s):** Defined y the frequency of radiation from the transition between hyperfine levels of the ground state of the Cesium-133 atom.
 4. **[electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) Current (Ampere, A):** Defined y the elementary charge **e**.

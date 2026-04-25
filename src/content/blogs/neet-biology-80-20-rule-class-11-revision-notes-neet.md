@@ -15,7 +15,7 @@ practice_link: "/class-11/biology/neet-biology-80-20-rule-class-11-revision-note
 2. [<a id="what-is-neet-biology-80-20-rule"></a>What is Neet Biology 80 20 Rule?](#a-idwhat-is-neet-biology-80-20-ruleawhat-is-neet-biology-80-20-rule)
 3. [<a id="the-highyield-matrix-the-20-syllabus"></a>The High-Yield Matrix (The 20% Syllabus)](#a-idthe-highyield-matrix-the-20-syllabusathe-high-yield-matrix-the-20-syllabus)
 4. [<a id="the-lowyield-time-sink-matrix"></a>The Low-Yield "Time Sink" Matrix](#a-idthe-lowyield-time-sink-matrixathe-low-yield-time-sink-matrix)
-5. [<a id="applying-the-8020-rule-n-2026"></a>Applying the 80/20 Rule n 2026](#a-idapplying-the-8020-rule-n-2026aapplying-the-8020-rule-n-2026)
+5. [<a id="applying-the-8020-rule-n-2026"></a>Applying the 80/20 Rule and 2026](#a-idapplying-the-8020-rule-n-2026aapplying-the-8020-rule-n-2026)
 6. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
 7. [📚 Related Topics](#related-topics)
 
@@ -31,7 +31,7 @@ practice_link: "/class-11/biology/neet-biology-80-20-rule-class-11-revision-note
   - [4. Cell Structure and Function (9-11 Questions)](#4-cell-structure-n-function-911-questions)
   - [5. Biotechnology (7-9 Questions)](#5-biotechnology-79-questions)
 - [The Low-Yield "Time Sink" Matrix](#the-lowyield-time-sink-matrix)
-- [Applying the 80/20 Rule n 2026](#applying-the-8020-rule-n-2026)
+- [Applying the 80/20 Rule and 2026](#applying-the-8020-rule-n-2026)
 - [📚 Related Topics](#-related-topics)
 
 # Neet Biology 80 20 Rule Class 11 Biology Revision — NEET 2026 Grandmaster Guide
@@ -81,11 +81,11 @@ The following chapters require massive memorization but yield very few questions
 * Morphology of [flowering](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) Plants (extreme rote learning required for floral formulas)
 * [anatomy](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) of Flowering Plants
 
-## <a id="applying-the-8020-rule-n-2026"></a>Applying the 80/20 Rule n 2026
+## <a id="applying-the-8020-rule-n-2026"></a>Applying the 80/20 Rule and 2026
 
 Your [revision](/blog/agriculture-class-11-revision-notes-neet) cycles should not be linear (Chapter 1 to Chapter 38). They should be prioritized.
 
-1. **Iteration 1.** Master the High-Yield Matrix (Genetics, Physiology, Cell, Biotech, Ecology). This secures your first 280–300 marks.
+1. **Iteration 1.** Master the [High](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)-Yield Matrix (Genetics, Physiology, Cell, Biotech, Ecology). This secures your first 280–300 marks.
 2. **Iteration 2.** Cover the moderate yield topics (Reproduction, Microbes, Human Health).
 3. **Iteration 3.** Skim the Low-Yield "Time Sink" chapters right before the exam, relying strictly on NCERT summaries and past year questions. 
 

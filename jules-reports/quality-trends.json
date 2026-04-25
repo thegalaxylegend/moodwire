@@ -1,21 +1,29 @@
 {
-  "overallAvgScore": 86.2,
-  "totalBlogsAllTime": 121,
+  "overallAvgScore": 80.3,
+  "totalBlogsAllTime": 130,
   "totalPassed": 92,
-  "totalFailed": 29,
-  "overallPassRate": 76,
+  "totalFailed": 38,
+  "overallPassRate": 71,
   "trend": "stable",
-  "trendDelta": -0.4,
+  "trendDelta": -2.9,
   "dailyReports": [
     {
-      "date": "2026-04-24",
+      "date": "2026-04-25",
       "totalBlogs": 9,
-      "passed": 8,
-      "failed": 1,
-      "avgScore": 95.7,
-      "passRate": 89,
+      "passed": 0,
+      "failed": 9,
+      "avgScore": 0,
+      "passRate": 0,
       "errors": [
-        "Unknown Failure"
+        "96 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "118 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "99 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "184 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "70 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "55 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "136 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "110 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "46 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering."
       ]
     },
     {
@@ -237,15 +245,26 @@
       "avgScore": 100,
       "passRate": 100,
       "errors": []
+    },
+    {
+      "date": "2026-04-24",
+      "totalBlogs": 9,
+      "passed": 8,
+      "failed": 1,
+      "avgScore": 95.7,
+      "passRate": 89,
+      "errors": [
+        "Unknown Failure"
+      ]
     }
   ],
   "topErrors": [
     {
-      "error": "Unknown Failure",
+      "error": "JSON squashing detected: raw JSON objects in markdown body",
       "count": 9
     },
     {
-      "error": "JSON squashing detected: raw JSON objects in markdown body",
+      "error": "Unknown Failure",
       "count": 9
     },
     {
@@ -257,7 +276,27 @@
       "count": 2
     },
     {
-      "error": "Critically low word count: 714 (Min 800 for Patching)",
+      "error": "96 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This break",
+      "count": 1
+    },
+    {
+      "error": "118 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This brea",
+      "count": 1
+    },
+    {
+      "error": "99 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This break",
+      "count": 1
+    },
+    {
+      "error": "184 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This brea",
+      "count": 1
+    },
+    {
+      "error": "70 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This break",
+      "count": 1
+    },
+    {
+      "error": "55 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This break",
       "count": 1
     }
   ],

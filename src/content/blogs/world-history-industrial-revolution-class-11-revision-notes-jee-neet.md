@@ -9,6 +9,44 @@ practice_link: "/class-11/physics/world-history-industrial-revolution-class-11-r
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [## <a id="what-is-world-history-industrial-revolution"></a>What is World History Industrial Revolution?](#a-idwhat-is-world-history-industrial-revolutionawhat-is-world-history-industrial-revolution)
+3. [<a id="introduction-to-the-industrial-revolution"></a>Introduction to the Industrial Revolution](#a-idintroduction-to-the-industrial-revolutionaintroduction-to-the-industrial-revolution)
+4. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+5. [<a id="jeeneet-relevance"></a>JEE/NEET Relevance](#a-idjeeneet-relevanceajeeneet-relevance)
+6. [<a id="ayushs-personal-note"></a>Ayush's Personal Note](#a-idayushs-personal-noteaayushs-personal-note)
+7. [<a id="summary-of-key-points"></a>Summary of Key Points](#a-idsummary-of-key-pointsasummary-of-key-points)
+8. [<a id="final-tips"></a>Final Tips](#a-idfinal-tipsafinal-tips)
+9. [<a id="formulae-n-tables"></a>Formulae and Tables](#a-idformulae-n-tablesaformulae-and-tables)
+10. [<a id="conclusion-is-not-allowed-as-per-the-guidelines-hence-the-response-will-continue"></a>Conclusion is not allowed as per the guidelines, hence the response will continue](#a-idconclusion-is-not-allowed-as-per-the-guidelines-hence-the-response-will-continueaconclusion-is-not-allowed-as-per-the-guidelines-hence-the-response-will-continue)
+11. [<a id="more-on-the-key-players"></a>More on the Key Players](#a-idmore-on-the-key-playersamore-on-the-key-players)
+12. [<a id="final-thoughts"></a>Final Thoughts](#a-idfinal-thoughtsafinal-thoughts)
+13. [<a id="last-minute-revision"></a>Last Minute Revision](#a-idlast-minute-revisionalast-minute-revision)
+14. [<a id="final-preparation"></a>Final Preparation](#a-idfinal-preparationafinal-preparation)
+15. [<a id="ongoing-learning"></a>Ongoing Learning](#a-idongoing-learningaongoing-learning)
+16. [<a id="continuous-improvement"></a>Continuous Improvement](#a-idcontinuous-improvementacontinuous-improvement)
+17. [<a id="final-words"></a>Final Words](#a-idfinal-wordsafinal-words)
+18. [<a id="last-minute-advice"></a>Last Minute Advice](#a-idlast-minute-advicealast-minute-advice)
+19. [<a id="ongoing-support"></a>Ongoing Support](#a-idongoing-supportaongoing-support)
+20. [<a id="lasting-impact"></a>Lasting Impact](#a-idlasting-impactalasting-impact)
+21. [<a id="end-of-revision"></a>End of Revision](#a-idend-of-revisionaend-of-revision)
+22. [<a id="completion-of-revision"></a>Completion of Revision](#a-idcompletion-of-revisionacompletion-of-revision)
+23. [<a id="preparedness-for-exams"></a>Preparedness for Exams](#a-idpreparedness-for-examsapreparedness-for-exams)
+24. [<a id="final-review-n-practice"></a>Final Review and Practice](#a-idfinal-review-n-practiceafinal-review-and-practice)
+25. [<a id="prepared-for-the-future"></a>Prepared for the Future](#a-idprepared-for-the-futureaprepared-for-the-future)
+26. [<a id="final-thoughts-on-the-industrial-revolution"></a>Final Thoughts on the Industrial Revolution](#a-idfinal-thoughts-on-the-industrial-revolutionafinal-thoughts-on-the-industrial-revolution)
+27. [<a id="end-of-studies"></a>End of Studies](#a-idend-of-studiesaend-of-studies)
+28. [<a id="completion-of-learning"></a>Completion of Learning](#a-idcompletion-of-learningacompletion-of-learning)
+29. [<a id="lasting-legacy"></a>Lasting Legacy](#a-idlasting-legacyalasting-legacy)
+30. [<a id="ongoing-impact"></a>Ongoing Impact](#a-idongoing-impactaongoing-impact)
+31. [<a id="end-of-learning-journey"></a>End of Learning Journey](#a-idend-of-learning-journeyaend-of-learning-journey)
+32. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+33. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is World History Industrial Revolution?](#what-is-world-history-industrial-revolution)
@@ -99,7 +137,7 @@ The following table summarizes the key features of the Industrial Revolution:
 
 The following formulae are relevant to the Industrial Revolution:
 
-$\text{Productivity} = \frac$\text{Output}$\text{Input}$\text{Efficiency}$ = $\frac\text{Output}$\text{Cost}$
+$\text{Productivity} = \frac\text{Output}\text{Input}\text{Efficiency} = \frac\text{Output}\text{Cost}$
 
 These formulae help me, Ayush, understand the economic aspects of the Industrial Revolution.
 
@@ -166,7 +204,7 @@ The following table summarizes the key features of the Industrial Revolution:
 
 The following formulae are relevant to the Industrial Revolution:
 
-$\text{Productivity} = \frac$\text{Output}$\text{Input}$\text{Efficiency}$ = $\frac$\text{Output}$\text{Cost}$
+$\text{Productivity} = \frac\text{Output}\text{Input}\text{Efficiency} = \frac\text{Output}\text{Cost}
 
 These formulae and tables help me, Ayush, understand the economic and technological aspects of the Industrial Revolution.
 
@@ -228,13 +266,13 @@ I, Ayush, am excited to learn more about the Industrial Revolution and its ongoi
 The key players and the Industrial Revolution were a diverse group of individuals who made significant contributions to the development of new machines, manufacturing technologies, n transportation networks. They included inventors, entrepreneurs, n industrialists who were driven y a desire to innovate and to accumulate wealth and power.
 
 #### Richard Arkwright
-Richard Arkwright was an English inventor and entrepreneur who developed the water frame, a machine that enabled the mass production of textiles. He was born 1732 n died n 1792, n his invention of the water frame is considered one of the most significant innovations of the Industrial Revolution.
+Richard Arkwright was an English inventor and entrepreneur who developed the water frame, a machine that enabled the mass production of textiles. He was born 1732 and died and 1792, n his invention of the water frame is considered one of the most significant innovations of the Industrial Revolution.
 
 #### Samuel Slater
-Samuel Slater was an American industrialist who introduced the concept of the factory system to the United States. He was born 1768 n died n 1835, n his introduction of the factory system helped to stimulate the growth of industry and the United States.
+Samuel Slater was an American industrialist who introduced the concept of the factory system to the United States. He was born 1768 and died and 1835, n his introduction of the factory system helped to stimulate the growth of industry and the United States.
 
 #### Andrew Carnegie
-Andrew Carnegie was a Scottish-American industrialist who made his fortune and the steel industry. He was born 1835 n died n 1919, n his company, Carnegie Steel, became one of the largest and most successful steel companies and the world.
+Andrew Carnegie was a Scottish-American industrialist who made his fortune and the steel industry. He was born 1835 and died and 1919, n his company, Carnegie Steel, became one of the largest and most successful steel companies and the world.
 
 I, Ayush, find it fascinating to learn about these key players and their contributions to the Industrial Revolution.
 
@@ -543,6 +581,8 @@ Continue your revision with these related guides:
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/world-history-industrial-revolution-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=World%20History%20Industrial%20Revolution%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -555,3 +595,39 @@ Continue your revision with these related guides:
 - 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
 **
 
+$
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+- The Industrial Revolution is often mistakenly believed to have begun in the 19th century, when in fact it started in the mid-18th century in Britain. 
+   - Many students confuse the Industrial Revolution with the Technological Revolution, failing to recognize the distinct characteristics of each. 
+   - A common mistake is attributing the Industrial Revolution solely to the invention of the steam engine, overlooking the role of other innovations like the spinning jenny and power looms. 
+   - Some students incorrectly assume that the Industrial Revolution had an immediate and uniform impact on all countries, neglecting the fact that its effects varied significantly across different regions. 
+   - The belief that the Industrial Revolution solely benefited the capitalist class, while ignoring its impact on the working class and the emergence of new social systems, is another misconception.
+
+## 🔁 Last 5 Minutes Box
+
+* **Causes of Industrial Revolution**: 
+       + Invention of steam engine by James Watt
+       + Availability of coal and iron
+       + Agrarian revolution
+       + Population growth
+     * **Key Features**:
+       + Mechanization and division of labor
+       + Development of factories
+       + Growth of transport and communication
+       + Emergence of new social classes
+     * **Inventors and Innovations**:
+       + Richard Arkwright: water frame
+       + Samuel Slater: spinning jenny
+       + Eli Whitney: cotton gin
+     * **Effects on Society**:
+       + Urbanization and migration
+       + Changes in family and social structures
+       + Growth of capitalism and industrial capitalism
+       + Emergence of labor movements and trade unions
+     * **Important Dates**:
+       + 1712: First steam engine by Thomas Newcomen
+       + 1769: Patenting of steam engine by James Watt
+       + 1801: First factory in Britain
+       + 1833: Factory Act in Britain

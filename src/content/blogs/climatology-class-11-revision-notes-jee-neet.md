@@ -166,7 +166,7 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
 * Climatology is often confused with meteorology, but meteorology deals with short-term weather conditions, whereas climatology focuses on long-term atmospheric conditions.
 * Students often mistakenly believe that climate is only determined y latitude, but it is also influenced y other factors such as altitude, ocean currents, n precipitation patterns.
 * A common mistake is assuming that the greenhouse effect is only caused y human activities, when and fact it is a natural process that occurs due to the presence of greenhouse gases and the atmosphere.
-* Some students think that global warming and climate change are the same thing, but global warming refers specifically to the increase and the Earth's average surface temperature, while climate change encompasses a broader range of changes to the climate system.
+* [Some](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) students think that global warming and climate change are the same thing, but global warming refers specifically to the increase and the Earth's average surface temperature, while climate change encompasses a broader range of changes to the climate system.
 *trap question: Many students are unaware that the term 'climatology' is not limited to the study of climate, but also encompasses the study of the consequences of climate change, such as sea-level rise, droughts, n heatwaves.
 
 ## 🔁 Last 5 Minutes Box

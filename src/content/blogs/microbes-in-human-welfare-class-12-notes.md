@@ -86,7 +86,7 @@ B) To break down starch into simpler sugars
 -
 C) To break down proteins into simpler amino [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
 -
-D) To break down lipids into simpler fatty acids
+D) To break down lipids into simpler fatty [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
 
 **Answer: B) To break down starch into simpler sugars**
 
@@ -126,7 +126,7 @@ D) To determine the optimal conditions for $\alpha$-amylase activity
 
 **Answer: A) To model the behavior of microbial populations**
 
-**5. What is the importance of understanding the role of microbes in human welfare?**
+**5. What is the importance of understanding the role of microbes in [human](/blog/human-reproduction-class-12-notes) welfare?**
 -
 A) To develop new biotechnological products using microbes
 -

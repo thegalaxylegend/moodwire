@@ -12,10 +12,10 @@ manualReview: false
 - The first step in choosing an optional subject for UPSC is to understand the syllabus and weightage of each subject.
 - The most popular optional subjects are Geography, History, Public Administration, and Sociology.
 - The formula to choose an optional subject is: $\frac{\text{Interest} \times \text{Scoring Potential}}{\text{Syllabus Coverage}} \geq \frac{250}{400}$
-- The scoring potential of a subject can be calculated using the formula: $\frac{\text{Number$ of Questions} $\times \text{Average Marks per Question}}{\text{Total Marks}} \times 100$$
-- The syllabus coverage of a subject can be calculated using the formula: $\frac{\text{Number$ of Topics Covered}}{\text{Total Number$ of Topics}} \times 100$
-- The interest in a subject can be calculated using the formula: $\frac{\text{Number$ of Hours Studied}}{\text{Total Number$ of Hours Available}} \times 100$
-- The weightage of each subject can be calculated using the formula: $\frac{\text{Number$ of Questions Asked}}{\text{Total Number$ of Questions}} \times 100$
+- The scoring potential of a subject can be calculated using the formula: $\frac{\text{Number$ of Questions} $\times \text{Average Marks per Question}}{\text{Total Marks}} \times 100$
+- The syllabus coverage of a subject can be calculated using the formula: $\frac{\text{Number$ of Topics Covered}}{\text{Total Number$ of Topics}} \times $100
+- The interest in a subject can be calculated using the formula: $\frac{\text{Number$ of Hours Studied}}{\text{Total Number$ of Hours Available}} \times $100
+- The weightage of each subject can be calculated using the formula: $\frac{\text{Number$ of Questions Asked}}{\text{Total Number$ of Questions}} \times $100
 - The most important subjects for UPSC are: 
 - Geography: $\frac{30}{100} \times \frac{250}{400} = 18.75$
 - History: $\frac{25}{100} \times \frac{250}{400} = 15.625$
@@ -43,12 +43,12 @@ manualReview: false
 - Step 1: Calculate the number of questions asked from the subject.
 - Step 2: Calculate the average marks per question.
 - Step 3: Calculate the total marks for the subject.
-- Step 4: Use the formula: $\frac{\text{Number$ of Questions} $\times \text{Average Marks per Question}}{\text{Total Marks}} \times 100$$
+- Step 4: Use the formula: $\frac{\text{Number$ of Questions} $\times \text{Average Marks per Question}}{\text{Total Marks}} \times 100$
 - **Answer:** The scoring potential of a subject can be calculated using the above formula.
 - **Question 3:** What is the weightage of Geography in UPSC?
 - Step 1: Calculate the number of questions asked from Geography.
 - Step 2: Calculate the total number of questions asked.
-- Step 3: Use the formula: $\frac{\text{Number$ of Questions Asked}}{\text{Total Number$ of Questions}} \times 100$
+- Step 3: Use the formula: $\frac{\text{Number$ of Questions Asked}}{\text{Total Number$ of Questions}} \times $100
 - **Answer:** The weightage of Geography is $\frac{30}{100} \times 100 = 30\%$
 
  
@@ -65,7 +65,7 @@ manualReview: false
 - He also recommends that students focus on the most important topics in the subject, and practice answering questions from those topics.
 - Additionally, he recommends that students use the $\frac{\text{Interest} \times \text{Scoring Potential}}{\text{Syllabus Coverage}} \geq \frac{250}{400}$ formula to choose an optional subject.
 - He also recommends that students use the $\frac{\text{Number$ of Questions} $\times \text{Average Marks per Question}}{\text{Total Marks}} \times 100$ formula to calculate the scoring potential of a subject.$
-- Finally, he recommends that students use the $\frac{\text{Number$ of Topics Covered}}{\text{Total Number$ of Topics}} \times 100$ formula to calculate the syllabus coverage of a subject.
+- Finally, he recommends that students use the $\frac{\text{Number$ of Topics Covered}}{\text{Total Number$ of Topics}} \times $100 formula to calculate the syllabus coverage of a subject.
 
  
 ## 🔁 Last 5 Minutes Box
@@ -122,8 +122,7 @@ B) $\frac{\text{Interest} \times \text{Scoring Potential}}{\text{Syllabus Covera
 -
 C) $\frac{\text{Interest} \times \text{Scoring Potential}}{\text{Syllabus Coverage}} = \frac{250}{400}$
 -
-D) $\frac{\text{Interest} \times \text{Scoring Potential}}{\text{Syllabus Coverage}}$
-eq $\frac{250}{400}$
+D) $\frac{\text{Interest} \times \text{Scoring Potential}}{\text{Syllabus Coverage}}$ eq \frac{250}{400}
 
 **Answer:** B) $\frac{\text{Interest} \times \text{Scoring Potential}}{\text{Syllabus Coverage}} \geq \frac{250}{400}$. This formula takes into account the interest in the subject, the scoring potential of the subject, and the syllabus coverage of the subject.
 
@@ -146,7 +145,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Upsc%20Optional%20Selection%20Guide%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

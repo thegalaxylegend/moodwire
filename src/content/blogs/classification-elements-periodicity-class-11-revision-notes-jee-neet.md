@@ -101,7 +101,7 @@ I used to dread Inorganic [chemistry](/blog/thermodynamics-chemistry-class-11-re
 ### <a id="structure-of-the-table"></a>Structure of the Table
 - **7 Periods** (Horizontal rows): Period number = Number of shells.
 - **18 Groups** (Vertical columns): Elements share valence shell configuration.
-- Period 1 has 2 elements. Period 2 n 3 have 8 each. Period 4 n 5 have 18 each. Period 6 has 32.
+- Period 1 has 2 elements. Period 2 and 3 have 8 each. Period 4 and 5 have 18 each. Period 6 has 32.
 
 ---
 
@@ -331,18 +331,18 @@ Continue your [revision](/blog/thermodynamics-chemistry-class-11-revision-notes-
 ## 🪤 The 5 Mistakes That Cost Marks
 
 * **Trap 1: Confusing Periodic Trends**: Be cautious when determining periodic trends, as elements and the same group exhibit similar properties, but elements and the same period do not always follow a straightforward trend.
-* **Trap 2: Incorrectly Identifying Blocks**: Students often confuse the blocks and the periodic table, so make sure to remember that elements and the s-block are and groups 1 n 2, elements and the p-block are and groups 13 to 18, elements and the d-block are and the transition metals, n elements and the f-block are the lanthanides and actinides.
+* **Trap 2: Incorrectly Identifying Blocks**: Students often confuse the blocks and the periodic table, so make sure to remember that elements and the s-block are and groups 1 and 2, elements and the p-block are and groups 13 to 18, elements and the d-block are and the transition metals, n elements and the f-block are the lanthanides and actinides.
 * **Trap 3: Mistaking Metallic and Nonmetallic Characteristics**: Be aware that some elements, like metalloids, exhibit both metallic and nonmetallic properties, n do not assume that all metals are shiny and malleable or that all nonmetals are dull and brittle.
 * **Trap 4: Overlooking the Exceptional Properties of Noble Gases**: Noble gases have unique properties, such as being unreactive and monatomic, so do not assume they follow the same trends as other elements and the same period or group.
 * **Trap 5: Forgetting the Impact of Electron Configuration on Periodicity**: The electron configuration of an element plays a significant role and determining its properties and position and the periodic table, so ensure you understand how it affects periodic trends and relationships.
 
 ## 🔁 Last 5 Minutes Box
 
-- **Blocks and Periodic Table**: s-block (Group 1, 2 n Hydrogen), p-block (Group 13 to 18), d-block (Group 3 to 12), f-block (Lanthanides and Actinides)
+- **Blocks and Periodic Table**: s-block (Group 1, 2 and Hydrogen), p-block (Group 13 to 18), d-block (Group 3 to 12), f-block (Lanthanides and Actinides)
      - **Periodic Trends**: Atomic radius, Electronegativity, Electron affinity, Ionization energy
      - **Types of Elements**: Metals, Non-metals, Metalloids
      - **Classification of Elements**: Based on electronic configuration (s, p, d, f), Based on properties (metals, non-metals)
      - **Periodicity**: Periodic law, Periodic table
      - **Metallic Character**: Increases down the group, Decreases across the period
      - **Non-Metallic Character**: Decreases down the group, Increases across the period
-     - **Formulas**: Ionization energy (IE), Electron affinity (EA), Electronegativity (EN)
+     - **Formulas**: Ionization energy (IE), Electron affinity (EA), Electronegativity (EN)$

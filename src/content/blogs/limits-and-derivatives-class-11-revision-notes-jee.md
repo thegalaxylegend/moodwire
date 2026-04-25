@@ -9,6 +9,26 @@ practice_link: "/class-11/biology/limits-n-derivatives-class-11-revision-notes-j
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-limits-n-derivatives"></a>What is Limits and Derivatives?](#a-idwhat-is-limits-n-derivativesawhat-is-limits-and-derivatives)
+3. [<a id="what-is-the-concept-of-limits-n-mathematics"></a>What is the concept of Limits and Mathematics?](#a-idwhat-is-the-concept-of-limits-n-mathematicsawhat-is-the-concept-of-limits-and-mathematics)
+4. [<a id="how-to-evaluate-limits-using-algebraic-manipulation"></a>How to evaluate Limits using Algebraic Manipulation?](#a-idhow-to-evaluate-limits-using-algebraic-manipulationahow-to-evaluate-limits-using-algebraic-manipulation)
+5. [<a id="what-is-the-squeeze-theorem-n-its-application-n-limits"></a>What is the Squeeze Theorem and its application and Limits?](#a-idwhat-is-the-squeeze-theorem-n-its-application-n-limitsawhat-is-the-squeeze-theorem-and-its-application-and-limits)
+6. [<a id="what-is-ayushs-note-on-limits-n-derivatives"></a>What is Ayush's Note on Limits and Derivatives?](#a-idwhat-is-ayushs-note-on-limits-n-derivativesawhat-is-ayushs-note-on-limits-and-derivatives)
+7. [<a id="what-are-the-different-rules-of-differentiation"></a>What are the Different Rules of Differentiation?](#a-idwhat-are-the-different-rules-of-differentiationawhat-are-the-different-rules-of-differentiation)
+8. [<a id="how-to-apply-the-product-rule-n-quotient-rule-n-derivatives"></a>How to apply the Product Rule and Quotient Rule and Derivatives?](#a-idhow-to-apply-the-product-rule-n-quotient-rule-n-derivativesahow-to-apply-the-product-rule-and-quotient-rule-and-derivatives)
+9. [<a id="what-is-the-chain-rule-n-its-application-n-derivatives"></a>What is the Chain Rule and its application and Derivatives?](#a-idwhat-is-the-chain-rule-n-its-application-n-derivativesawhat-is-the-chain-rule-and-its-application-and-derivatives)
+10. [<a id="what-is-the-key-shortcut-or-trick-for-limits-n-derivatives"></a>What is the key Shortcut or Trick for Limits and Derivatives?](#a-idwhat-is-the-key-shortcut-or-trick-for-limits-n-derivativesawhat-is-the-key-shortcut-or-trick-for-limits-and-derivatives)
+11. [<a id="what-are-common-trap-questions-for-limits-n-derivatives"></a>What are common Trap Questions for Limits and Derivatives?](#a-idwhat-are-common-trap-questions-for-limits-n-derivativesawhat-are-common-trap-questions-for-limits-and-derivatives)
+12. [<a id="how-to-solve-higher-order-derivatives-n-its-applications"></a>How to solve Higher Order Derivatives and its applications?](#a-idhow-to-solve-higher-order-derivatives-n-its-applicationsahow-to-solve-higher-order-derivatives-and-its-applications)
+13. [<a id="mcqs"></a>MCQs](#a-idmcqsamcqs)
+14. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+15. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Limits and Derivatives?](#what-is-limits-n-derivatives)
@@ -29,9 +49,9 @@ practice_link: "/class-11/biology/limits-n-derivatives-class-11-revision-notes-j
 
 ## <a id="what-is-limits-n-derivatives"></a>What is Limits and Derivatives?
 
-As we dive into the realm of class 11 mathematics, one concept stands out for its complexity and beauty: Limits and Derivatives. This fundamental idea is the cornerstone of calculus, a branch of mathematics that deals with the study of continuous change. For students preparing for their class 11 exams n 2026, understanding Limits and Derivatives is not just a requirement, but a crucial stepping stone for success and mathematics and related fields.
+As we dive into the realm of class 11 mathematics, one concept stands out for its complexity and beauty: Limits and Derivatives. This fundamental idea is the cornerstone of calculus, a branch of mathematics that deals with the study of continuous change. For students preparing for their class 11 exams and 2026, understanding Limits and Derivatives is not just a requirement, but a crucial stepping stone for success and mathematics and related fields.
 
-In terms of exam weightage, Limits and Derivatives constitute a significant portion of the mathematics syllabus. The NCERT syllabus allocates around 20-25% of the total marks to this topic, making it a high-priority area for students. The exam typically includes a mix of theoretical and problem-based questions, testing students' understanding of concepts, formulas, n applications. With around 40-50 marks dedicated to this topic, it's essential for students to have a strong grasp of Limits and Derivatives to score well and their exams.
+In terms of exam weightage, Limits and Derivatives constitute a significant portion of the mathematics syllabus. The NCERT syllabus allocates around 20-25% of the total marks to this topic, making it a high-priority area for students. The exam typically includes a mix of theoretical and problem-based questions, testing students' understanding of concepts, formulas, n applications. With around 40–50 marks dedicated to this topic, it's essential for students to have a strong grasp of Limits and Derivatives to score well and their exams.
 
 Personally, I still remember the thrill of discovering the concept of limits for the first time. It was like unlocking a secret door to a new world of mathematical possibilities. The idea that a function can approach a value, but never quite reach it, fascinated me. As I delved deeper into the subject, I realized that limits are not just a theoretical concept, but a fundamental building block of calculus. They help us understand how [functions](/blog/relations-and-functions-class-11-notes) behave, how they change, n how they interact with each other.
 
@@ -39,7 +59,7 @@ The concept of derivatives, on the other hand, is like having a superpower. It a
 
 One of the most significant challenges students face when learning Limits and Derivatives is the abstract nature of the concepts. It's easy to get lost and the sea of formulas and theorems, without fully understanding the underlying principles. However, with the right approach, Limits and Derivatives can be a fascinating and rewarding topic. By focusing on the core concepts, practicing regularly, n applying the concepts to real-world problems, students can develop a deep understanding of the subject.
 
-To illustrate the concept of limits, consider the function $f(x) = \frac{1}{x}$ as $x$ approaches infinity. Using the concept of limits, we can calculate that $\lim_{x \to \infty\frac{1}{x} = 0$. This concept can be further extended to more complex functions, such as $\lim_{x \to 0\frac{\sin x}{x} = 1$. These examples demonstrate the power of limits and understanding the behavior of functions.
+To illustrate the concept of limits, consider the function $f(x) = \frac{1}{x}$ as $x$ approaches infinity. Using the concept of limits, we can calculate that $\lim_{x \to \infty\frac{1}{x} = 0$. This concept can be further extended to more complex functions, such as $\lim_{x \to 0\frac{\\sin x}{x} = 1$. These examples demonstrate the power of limits and understanding the behavior of functions.
 
 Similarly, derivatives can be used to analyze functions and optimize them. For instance, the derivative of the function $f(x) = x^2$ is $f'(x) = 2x$. This can be used to find the maximum or minimum value of the function, which is essential and a wide range of applications. By applying the concept of derivatives, students can develop a deeper understanding of how functions behave and how they can be optimized.
 
@@ -55,7 +75,7 @@ By breaking down complex concepts into manageable chunks, n providing a clear an
 
 ## <a id="what-is-the-concept-of-limits-n-mathematics"></a>What is the concept of Limits and Mathematics?
 
-What is the concept of Limits and Mathematics? is a fundamental concept and calculus that deals with the behavior of functions as the input values approach a specific point. It includes the concept of left-hand and right-hand limits, as well as the idea of a limit existing when both one-sided limits are equal. For Class 11 exam prep n 2026, the most important aspect is understanding how to evaluate limits using various techniques such as substitution, factoring, n cancellation. Limits are crucial and calculus as they help and defining the basic operations of calculus, such as derivatives and integrals. The concept of a limit can be understood y considering a function f(x) n a point a and its domain. The limit of f(x) as x approaches a is denoted y $\lim_{x\to a} f(x)$ n represents the value that f(x) approaches as x gets arbitrarily close to a. The concept of limits can be further divided into two types: one-sided limits and two-sided limits. One-sided limits are used to describe the behavior of a function as the input value approaches a specific point from one side, whereas two-sided limits describe the behavior of a function as the input value approaches a point from both sides. The concept of limits is essential and understanding the behavior of functions and calculus and is used extensively and various mathematical operations such as differentiation and integration. The evaluation of limits can be done using various techniques such as direct substitution, factoring, n cancellation, as well as using L'Hospital's rule for indeterminate forms. The concept of limits is also used and various mathematical theorems such as the Squeeze theorem and the Sandwich theorem. In addition to its application and calculus, the concept of limits has numerous applications and other fields of mathematics, such as algebra, geometry, n trigonometry. Furthermore, understanding the concept of limits is essential for problem-solving and mathematics, as it helps and identifying the behavior of functions and understanding how they change as the input values change. To evaluate limits, it's essential to understand the concept of one-sided limits, which are used to describe the behavior of a function as the input value approaches a point from one side. The left-hand limit of a function f(x) as x approaches a point a is denoted y $\lim_{x\to a^-} f(x)$, n the right-hand limit is denoted y $\lim_{x\to a^+} f(x)$. If both one-sided limits are equal, then the two-sided limit exists and is equal to the one-sided limits. The concept of limits can be summarized and the following table: 
+What is the concept of Limits and Mathematics? is a fundamental concept and calculus that deals with the behavior of functions as the input values approach a specific point. It includes the concept of left-hand and right-hand limits, as well as the idea of a limit existing when both one-sided limits are equal. For Class 11 exam prep and 2026, the most important aspect is understanding how to evaluate limits using various techniques such as substitution, factoring, n cancellation. Limits are crucial and calculus as they help and defining the basic operations of calculus, such as derivatives and integrals. The concept of a limit can be understood y considering a function f(x) n a point a and its domain. The limit of f(x) as x approaches an is denoted y $\lim_{x\to a} f(x)$ n represents the value that f(x) approaches as x gets arbitrarily close to a. The concept of limits can be further divided into two types: one-sided limits and two-sided limits. One-sided limits are used to describe the behavior of a function as the input value approaches a specific point from one side, whereas two-sided limits describe the behavior of a function as the input value approaches a point from both sides. The concept of limits is essential and understanding the behavior of functions and calculus and is used extensively and various mathematical operations such as differentiation and integration. The evaluation of limits can be done using various techniques such as direct substitution, factoring, n cancellation, as well as using L'Hospital's rule for indeterminate forms. The concept of limits is also used and various mathematical theorems such as the Squeeze theorem and the Sandwich theorem. In addition to its application and calculus, the concept of limits has numerous applications and other fields of mathematics, such as algebra, geometry, n trigonometry. Furthermore, understanding the concept of limits is essential for problem-solving and mathematics, as it helps and identifying the behavior of functions and understanding how they change as the input values change. To evaluate limits, it's essential to understand the concept of one-sided limits, which are used to describe the behavior of a function as the input value approaches a point from one side. The left-hand limit of a function f(x) as x approaches a point an is denoted y $\lim_{x\to a^-} f(x)$, n the right-hand limit is denoted y $\lim_{x\to a^+} f(x)$. If both one-sided limits are equal, then the two-sided limit exists and is equal to the one-sided limits. The concept of limits can be summarized and the following table: 
 
 | Type of Limit | Notation | Description |
 | --- | --- | --- |
@@ -63,18 +83,18 @@ What is the concept of Limits and Mathematics? is a fundamental concept and calc
 | One-sided limit (right-hand) | $\lim_{x\to a^+} f(x)$ | The limit of f(x) as x approaches a from the right side |
 | Two-sided limit | $\lim_{x\to a} f(x)$ | The limit of f(x) as x approaches a from both sides |
 
-## <a id="how-to-evaluate-limits-using-algebraic-manipulation"></a>How to evaluate Limits using Algebraic Manipulation?
+## <a id="how-to-evaluate-limits-using-algebraic-manipulation"></a>How to evaluate limits using Algebraic Manipulation?
 
-How to evaluate Limits using Algebraic Manipulation? is a method to find the limit of a function y simplifying it using algebraic techniques. It includes factoring, canceling common factors, n rationalizing the numerator or denominator. For class 11 exam prep n 2026, the most important aspect is understanding how to apply these techniques to solve limit problems, especially for trigonometric and rational functions. 
+How to evaluate limits using Algebraic Manipulation? is a method to find the limit of a function y simplifying it using algebraic techniques. It includes factoring, canceling common factors, n rationalizing the numerator or denominator. For class 11 exam prep and 2026, the most important aspect is understanding how to apply these techniques to solve limit problems, especially for trigonometric and rational [functions](/blog/relations-and-functions-class-11-notes). 
    
    To evaluate limits using algebraic manipulation, one must first identify the type of function involved. For rational [functions](/blog/relations-and-functions-class-11-notes), the goal is to factor and cancel common factors and the numerator and denominator. If the function involves radicals, rationalizing the numerator or denominator may be necessary. 
    
    Algebraic manipulation is crucial for solving limits of rational functions, especially when direct substitution results and an indeterminate form like $\frac{0}{0} = \frac{\infty{\infty}}$ or $. By simplifying the expression before applying the limit, students can often avoid these indeterminate forms and find the limit directly.$ 
    
    Consider the function $f(x) = \frac{x^2 - 4}{x - 2}$. If we directly substitute $x = 2$, we get $\frac{0}{0} = (x + 2)(x - 2) ,$ which is indeterminate. However, y factoring the numerator into $, we can cancel the $(x - 2)$ from both the numerator and the denominator, resulting n $f(x) = x + 2$ for $x
-eq 2$. Then, the limit as $x$ approaches $2$ can be easily evaluated as $2 + 2 = 4$.$ 
+eq $2. Then, the limit as $x$ approaches $2$ can be easily evaluated as $2 + 2 = 4$.$ 
    
-   Another critical technique is rationalizing the numerator or denominator, especially when dealing with square roots. For example, the limit of $\frac{\sqrt{x + 1}{$ as }  - 1}{x}$x$ approaches $0$ can be evaluated y rationalizing the numerator. Multiply the numerator and denominator y the conjugate of the numerator, $\sqrt{x + 1}$ + 1, to eliminate$ the radical and the numerator. This simplifies to $\frac{(x + 1) - 1}{x(\sqrt{x + 1} = }{\frac{1}\frac{x}{x(\sqrt{x + 1} + 1)} = $\sqrt{x + 1$ + 1}$. Then, as $x$ approaches $0$, the limit approaches $\frac{{1}\sqrt{0 + 1}{1 .$ 
+   Another critical technique is rationalizing the numerator or denominator, especially when dealing with square roots. For example, the limit of $\frac{\sqrt{x + 1}{$ as }  - 1}{x}$x$ approaches $0$ can be evaluated y rationalizing the numerator. Multiply the numerator and denominator y the conjugate of the numerator, $\sqrt{x + 1}$ + 1, to eliminate$ the radical and the numerator. This simplifies to \frac{(x + 1) - 1}{x(\sqrt{x + 1}$ = }{$\frac{1}\frac{x}{x(\sqrt{x + 1}$ + 1)} = $\sqrt{x + 1$ + 1}$. Then, as $x$ approaches $0$, the limit approaches \frac{{1}\sqrt{0 + 1}${1 .$ 
 }  + 1} = $
    
    Understanding the behavior of limits as $x$ approaches positive or negative infinity is also vital. For rational functions, compare the degrees of the polynomials and the numerator and denominator. If the degrees are the same, the limit as $x$ approaches infinity is the ratio of the leading coefficients. If the degree of the numerator is less than that of the denominator, the limit is $0$. If the degree of the numerator is greater, the limit is either positive or negative infinity, depending on the signs of the leading coefficients. 
@@ -85,25 +105,25 @@ eq 2$. Then, the limit as $x$ approaches $2$ can be easily evaluated as $2 + 2 =
 | Technique | Description | Example |
 | --- | --- | --- |
 | Factoring and Canceling | Factor expressions to cancel common factors and the numerator and denominator. | $\lim_{x \to 2\frac{x^2 - 4}{x - 2} = \lim_{x \to 2} (x + 2) = 4$ |
-| Rationalizing the Numerator or Denominator | Multiply y the conjugate to eliminate radicals. | $\lim_{x \to 0\frac$\sqrt{x + 1$ - 1}{x} = \lim_{x \to 0\frac{1}$\sqrt{x + 1$ + 1} = \frac{1}{2}$ |
+| Rationalizing the Numerator or Denominator | Multiply y the conjugate to eliminate radicals. | $\lim_{x \to 0\frac$\sqrt{x + $1 - 1}{x} = \lim_{x \to 0\frac{1}$\sqrt{x + 1$ + 1} = \frac{1}{2}$ |
 | Comparing Degrees for Rational Functions | Determine the limit as $x$ approaches infinity y comparing the degrees of the numerator and denominator. | $\lim_{x \to \infty\frac{3x^2 + 2x - 1}{2x^2 + x + 1} = \frac{3}{2}$ |
-| Using Conjugates | Eliminate radicals y multiplying the numerator and denominator y the conjugate of the expression containing the radical. | $\lim_{x \to 0\frac$\sqrt{x$ - 0}$\sqrt{x}$ = \lim_{x \to 0\frac$\sqrt{x$ - 0}$\sqrt{x}$ \\\cdot \frac$\sqrt{x$ + 0}$\sqrt{x$ + 0} = \lim_{x \to 0\frac{x}{x} = 1$ |
+| Using Conjugates | Eliminate radicals y multiplying the numerator and denominator y the conjugate of the expression containing the radical. | $\lim_{x \to 0\frac$\sqrt{x$ - 0}$\sqrt{x}$ = \lim_{x \to 0\frac$\sqrt{x$ - 0}$\sqrt{x}$ \\\cdot \frac$\sqrt{x$ + 0}$\sqrt{x$ + 0} = \lim_{x \to 0\frac{x}{x} = $1 |
 
-## <a id="what-is-the-squeeze-theorem-n-its-application-n-limits"></a>What is the Squeeze Theorem and its application and Limits?
+## <a id="what-is-the-squeeze-theorem-n-its-application-n-limits"></a>What is the Squeeze Theorem and its application and limits?
 
-The Squeeze Theorem is a fundamental concept and calculus that states if a function f(x) is squeezed between two functions g(x) n h(x), n the limits of g(x) n h(x) as x approaches a certain value are equal, then the limit of f(x) as x approaches that same value must also be equal to that limit. It includes understanding the conditions for the squeeze theorem to apply, such as g(x) ≤ f(x) ≤ h(x) for all x and a certain interval, n being able to evaluate limits using this theorem. For class 11 exam prep n 2026, the most important aspect is applying the squeeze theorem to solve limit problems involving trigonometric functions, exponential functions, n algebraic functions, which will be crucial and scoring well and the calculus section of the exam.
+The Squeeze Theorem is a fundamental concept and calculus that states if a function f(x) is squeezed between two functions g(x) n h(x), n the limits of g(x) n h(x) as x approaches a certain value are equal, then the limit of f(x) as x approaches that same value must also be equal to that limit. It includes understanding the conditions for the squeeze theorem to apply, such as g(x) ≤ f(x) ≤ h(x) for all x and a certain interval, n being able to evaluate limits using this theorem. For class 11 exam prep and 2026, the most important aspect is applying the squeeze theorem to solve limit problems involving trigonometric functions, exponential functions, n algebraic functions, which will be crucial and scoring well and the calculus section of the exam.
 
 | Function | Limit | Squeeze Theorem Application |
 | --- | --- | --- |
-| $sin(x)/x$ | $1$ | Squeeze between $1 - (x^2)/2!$ n $1$ |
-| $(1 - cos(x))/x^2$ | $1/2$ | Squeeze between $(1 - cos(x))/x^2$ n $(x^2)/2!$ |
+| $\sin(x)/x$ | $1$ | Squeeze between $1 - (x^2)/2!$ n $1$ |
+| $(1 - \cos(x))/x^2$ | $1/2$ | Squeeze between $(1 - \cos(x))/x^2$ n $(x^2)/2!$ |
 | $e^x - 1$ | $x$ | Squeeze between $(1 + x)$ n $1 + x + (x^2)/2!$ |
 | $tan(x)$ | $0$ | Squeeze between $-x$ n $x$ |
 | $(x^3 + 2x^2 + x + 1)/(x^3 + x^2)$ | $1$ | Squeeze between $(x^3 + x^2)/(x^3 + x^2)$ n $(x^3 + 2x^2 + x + 1)/(x^3 + 2x^2)$ |
 
 ## <a id="what-is-ayushs-note-on-limits-n-derivatives"></a>What is Ayush's Note on Limits and Derivatives?
 
-What is Ayush's Note on Limits and Derivatives? is a detailed study guide for calculus fundamentals. It includes limits of functions, derivatives of functions, n applications of derivatives. For class 11 exam prep n 2026, the most important aspect is understanding the concept of limits and how it leads to the definition of a derivative. 
+What is Ayush's Note on Limits and Derivatives? is a detailed study guide for calculus fundamentals. It includes limits of functions, derivatives of functions, n applications of derivatives. For class 11 exam prep and 2026, the most important aspect is understanding the concept of limits and how it leads to the definition of a derivative. 
    
    The concept of a limit is central to calculus and is defined as the value that a function approaches as the input (or independent variable) gets arbitrarily close to a certain point. Mathematically, this can be represented as $\lim_{x \to a} f(x) = L$, which means that the function $f(x)$ approaches the value $L$ as $x$ gets arbitrarily close to $a$. This concept is crucial and understanding the behavior of functions and is a precursor to understanding derivatives.
    
@@ -115,17 +135,17 @@ What is Ayush's Note on Limits and Derivatives? is a detailed study guide for ca
    
    Another key feature of the note is the inclusion of practice problems and examples. These problems range from simple to complex and are designed to help students apply the concepts of limits and derivatives to real-world problems. The note also includes solutions to the problems, which provide step-y-step explanations of how to solve the problems.
    
-   Overall, Ayush's Note on Limits and Derivatives is a valuable resource for students preparing for the class 11 exam n 2026. It provides a detailed and explanation of the concepts of limits and derivatives, along with examples and practice problems to help students understand and apply them.
+   Overall, Ayush's Note on Limits and Derivatives is a valuable resource for students preparing for the class 11 exam and 2026. It provides a detailed and explanation of the concepts of limits and derivatives, along with examples and practice problems to help students understand and apply them.
 
 | Rule | Formula | Example |
 | --- | --- | --- |
 | Power Rule | $\frac{d}{dx}}{\frac{d}{dx} x^2 = 2x}  | $ |
-| Product Rule | $\frac{d}{dx} = \frac{d{dx} (x^2 \sin x) = 2x \sin x + x^2 \cos x}  | $ |
-| Quotient Rule | $\frac{d}{dx} = g(x) = \frac{f'(x)g(x) - f(x)g'(x)}{g(x)^2}}{\frac{d}{dx\frac{x^2} = \sin x = \frac{2x \sin x - x^2 \cos x}{\sin^2 x}}  | $ |
+| Product Rule | $\frac{d}{dx} = \frac{d{dx} (x^2 \\sin x) = 2x \\sin x + x^2 \\cos x}  | $ |
+| Quotient Rule | $\frac{d}{dx} = g(x) = \frac{f'(x)g(x) - f(x)g'(x)}{g(x)^2}}{\frac{d}{dx\frac{x^2} = \\sin x = \frac{2x \\sin x - x^2 \\cos x}{\\sin^2 x}}  | $ |
 
 ## <a id="what-are-the-different-rules-of-differentiation"></a>What are the Different Rules of Differentiation?
 
-What are the Different Rules of Differentiation? is a fundamental concept and calculus that deals with the rules used to differentiate functions. It includes the power rule, product rule, n quotient rule. For Class 11 exam prep n 2026, the most important aspect is understanding how to apply these rules to various functions, including trigonometric, exponential, n logarithmic functions. The power rule states that if $f(x) = x^n$, then $f'(x) = nx^{n-1}$. This rule can be applied to any function that can be written and the form $x^n$, where $n$ is a real number. The product rule states that if $f(x) = u(x)v(x)$, then $f'(x) = u'(x)v(x) + u(x)v'(x)$. This rule can be used to differentiate any function that can be written as the product of two functions. The quotient rule states that if $f(x) = \frac{u(x)}{v(x)}$, then $f'(x) = \frac{u'(x)v(x) - u(x)v'(x)}{v(x)^2}$. This rule can be used to differentiate any function that can be written as the quotient of two functions.
+What are the Different Rules of Differentiation? is a fundamental concept and calculus that deals with the rules used to differentiate functions. It includes the power rule, product rule, n quotient rule. For Class 11 exam prep and 2026, the most important aspect is understanding how to apply these rules to various functions, including trigonometric, exponential, n logarithmic functions. The power rule states that if $f(x) = x^n$, then $f'(x) = nx^{n-1}$. This rule can be applied to any function that can be written and the form $x^n$, where $n$ is a real number. The product rule states that if $f(x) = u(x)v(x)$, then $f'(x) = u'(x)v(x) + u(x)v'(x)$. This rule can be used to differentiate any function that can be written as the product of two functions. The quotient rule states that if $f(x) = \frac{u(x)}{v(x)}$, then $f'(x) = \frac{u'(x)v(x) - u(x)v'(x)}{v(x)^2}$. This rule can be used to differentiate any function that can be written as the quotient of two functions.
 
 | Rule | Function | Derivative |
 | --- | --- | --- |
@@ -136,26 +156,26 @@ What are the Different Rules of Differentiation? is a fundamental concept and ca
 
 ## <a id="how-to-apply-the-product-rule-n-quotient-rule-n-derivatives"></a>How to apply the Product Rule and Quotient Rule and Derivatives?
 
-How to apply the Product Rule and Quotient Rule and Derivatives? is a mathematical concept that deals with finding the derivative of a function that can be expressed as the product or quotient of two functions. It includes the product rule formula $\frac{d}{dx} = \frac{d{dx}(\frac{u}{v}) = \frac{vu' - uv'}{v^2}}  n$ the quotient rule formula $. For Class 11 exam prep n 2026, the most important aspect is understanding how to apply these formulas to solve complex derivative problems. The product rule is used to find the derivative of a product of two functions, while the quotient rule is used to find the derivative of a quotient of two functions. Both rules are crucial and calculus and are used extensively and various mathematical and real-world applications. To apply these rules effectively, one must first identify the functions u and v, n then find their derivatives. The product rule formula is then used to find the derivative of the product of the two functions, n the quotient rule formula is used to find the derivative of the quotient of the two functions. It is essential to practice applying these rules to different types of functions, including polynomial, trigonometric, n exponential functions. By mastering the product and quotient rules, students can develop a strong foundation and calculus and improve their problem-solving skills. The following table illustrates the application of the product and quotient rules to different types of functions.$
+How to apply the Product Rule and Quotient Rule and Derivatives? is a mathematical concept that deals with finding the derivative of a function that can be expressed as the product or quotient of two functions. It includes the product rule formula $\frac{d}{dx} = \frac{d{dx}(\frac{u}{v}) = \frac{vu' - uv'}{v^2}}  n$ the quotient rule formula $. For Class 11 exam prep and 2026, the most important aspect is understanding how to apply these formulas to solve complex derivative problems. The product rule is used to find the derivative of a product of two functions, while the quotient rule is used to find the derivative of a quotient of two functions. Both rules are crucial and calculus and are used extensively and various mathematical and real-world applications. To apply these rules effectively, one must first identify the functions u and v, n then find their derivatives. The product rule formula is then used to find the derivative of the product of the two functions, n the quotient rule formula is used to find the derivative of the quotient of the two functions. It is essential to practice applying these rules to different types of functions, including polynomial, trigonometric, n exponential functions. By mastering the product and quotient rules, students can develop a strong foundation and calculus and improve their problem-solving skills. The following table illustrates the application of the product and quotient rules to different types of functions.$
 
 | Function | Product Rule | Quotient Rule |
 | --- | --- | --- |
-| $f(x) = x^2 \\\cdot sin(x)$ | $f'(x) = x^2 \\\cdot cos(x) + 2x \\\cdot sin(x)$ | - |
-| $f(x) = \frac{sin(x)}{x^2}$ | - | $f'(x) = \frac{x^2 \\\cdot cos(x) - sin(x) \\\cdot 2x}{x^4}$ |
+| $f(x) = x^2 \\\cdot \sin(x)$ | $f'(x) = x^2 \\\cdot \cos(x) + 2x \\\cdot \sin(x)$ | - |
+| $f(x) = \frac{\sin(x)}{x^2}$ | - | $f'(x) = \frac{x^2 \\\cdot \cos(x) - \sin(x) \\\cdot 2x}{x^4}$ |
 | $f(x) = x^3 \\\cdot e^x$ | $f'(x) = x^3 \\\cdot e^x + 3x^2 \\\cdot e^x$ | - |
 | $f(x) = \frac{e^x}{x^2 + 1}$ | - | $f'(x) = \frac{(x^2 + 1) \\\cdot e^x - e^x \\\cdot 2x}{(x^2 + 1)^2}$ |
-| $f(x) = sin(x) \\\cdot cos(x)$ | $f'(x) = sin(x) \\\cdot (-sin(x)) + cos(x) \\\cdot cos(x)$ | - |
-| $f(x) = \frac{cos(x)}{sin(x)}$ | - | $f'(x) = \frac{sin(x) \\\cdot (-sin(x)) - cos(x) \\\cdot cos(x)}{sin^2(x)}$ |
+| $f(x) = \sin(x) \\\cdot \cos(x)$ | $f'(x) = \sin(x) \\\cdot (-\sin(x)) + \cos(x) \\\cdot \cos(x)$ | - |
+| $f(x) = \frac{\cos(x)}{\sin(x)}$ | - | $f'(x) = \frac{\sin(x) \\\cdot (-\sin(x)) - \cos(x) \\\cdot \cos(x)}{\sin^2(x)}$ |
 
 ## <a id="what-is-the-chain-rule-n-its-application-n-derivatives"></a>What is the Chain Rule and its application and Derivatives?
 
-The Chain Rule is a fundamental principle and calculus that enables us to differentiate composite functions. It includes the identification of the outer and inner functions, the application of the power rule and other differentiation rules to the inner function, n the multiplication of the derivatives of the outer and inner functions. For class 11 exam prep n 2026, the most important aspect is understanding how to apply the Chain Rule to various types of composite functions, including polynomial, trigonometric, n exponential functions.
+The Chain Rule is a fundamental principle and calculus that enables us to differentiate composite functions. It includes the identification of the outer and inner functions, the application of the power rule and other differentiation rules to the inner function, n the multiplication of the derivatives of the outer and inner functions. For class 11 exam prep and 2026, the most important aspect is understanding how to apply the Chain Rule to various types of composite functions, including polynomial, trigonometric, n exponential functions.
 
 To grasp the Chain Rule, let's first understand the concept of composite functions. A composite function is a function of the form $f(g(x))$, where $f$ n $g$ are two separate functions. The Chain Rule states that the derivative of a composite function $f(g(x))$ is given y $f'(g(x)) \\cdot g'(x)$. This can be expressed mathematically as: 
 
- $\frac{d}{dx} = f f(g(x)) = f$'(g(x)) \\cdot g'(x) 
+ \frac{d}{dx} = f f(g(x)) = f'(g(x)) \\cdot g'(x) 
 
-To apply the Chain Rule, we need to identify the outer and inner functions. The outer function is the function $ that is being applied to the inner function $g(x)$. For example, n the composite function $f(g(x)) = sin(x^2)$, the outer function is $sin(u)$ n the inner function is $u = x^2$.$
+To apply the Chain Rule, we need to identify the outer and inner functions. The outer function is the function $ that is being applied to the inner function $g(x)$. For example, n the composite function $f(g(x)) = \sin(x^2)$, the outer function is $\sin(u)$ n the inner function is $u = x^2$.$
 
 Here are some key steps to apply the Chain Rule:
 1. Identify the outer and inner [functions](/blog/relations-and-functions-class-11-notes).
@@ -167,15 +187,15 @@ The Chain Rule can be applied to various types of functions, including polynomia
 
 | Function | Outer Function | Inner Function | Derivative of Outer Function | Derivative of Inner Function | Final Derivative |
 | --- | --- | --- | --- | --- | --- |
-| $f(x) = sin(x^2)$ | $sin(u)$ | $u = x^2$ | $cos(u)$ | $2x$ | $2xcos(x^2)$ |
-| $f(x) = cos(3x)$ | $cos(u)$ | $u = 3x$ | $-sin(u)$ | $3$ | $-3sin(3x)$ |
+| $f(x) = \sin(x^2)$ | $\sin(u)$ | $u = x^2$ | $\cos(u)$ | $2x$ | $2x\cos(x^2)$ |
+| $f(x) = \cos(3x)$ | $\cos(u)$ | $u = 3x$ | $-\sin(u)$ | $3$ | $-3\sin(3x)$ |
 | $f(x) = e^{2x}$ | $e^u$ | $u = 2x$ | $e^u$ | $2$ | $2e^{2x}$ |
 | $f(x) = (2x+1)^5$ | $u^5$ | $u = 2x+1$ | $5u^4$ | $2$ | $10(2x+1)^4$ |
 | $f(x) = \tan(x^2)$ | $\tan(u)$ | $u = x^2$ | $sec^2(u)$ | $2x$ | $2xsec^2(x^2)$ |
 
 ## <a id="what-is-the-key-shortcut-or-trick-for-limits-n-derivatives"></a>What is the key Shortcut or Trick for Limits and Derivatives?
 
-What is the key Shortcut or Trick for Limits and Derivatives? is a mathematical technique to simplify complex problems. It includes understanding of algebraic manipulations, trigonometric functions, n geometric interpretations. For class 11 exam prep n 2026, the most important aspect is to apply these techniques to solve problems efficiently.
+What is the key Shortcut or Trick for Limits and Derivatives? is a mathematical technique to simplify complex problems. It includes understanding of algebraic manipulations, trigonometric functions, n geometric interpretations. For class 11 exam prep and 2026, the most important aspect is to apply these techniques to solve problems efficiently.
 
 To solve limits and derivatives problems, one must first understand the concept of a limit, which is defined as the value that a function approaches as the input gets arbitrarily close to a certain point. The key shortcut for solving limit problems is to use the following techniques: factoring, canceling, n L'Hospital's rule. 
 
@@ -186,37 +206,37 @@ The following table summarizes the key shortcuts for limits and derivatives:
 | Technique | Formula | Example |
 | --- | --- | --- |
 | Factoring | Cancel common factors | \lim (x->2) (x^2-4)/(x-2) = \lim (x->2) (x+2) = 4 |
-| L'Hospital's rule | \lim (x->a) f(x)/g(x) = \lim (x->a) f'(x)/g'(x) | \lim (x->0) sin(x)/x = \lim (x->0) cos(x) = 1 |
+| L'Hospital's rule | \lim (x->a) f(x)/g(x) = \lim (x->a) f'(x)/g'(x) | \lim (x->0) \sin(x)/x = \lim (x->0) \cos(x) = 1 |
 | Power rule | f'(x) = nx^{n-1} | if f(x) = x^2, then f'(x) = 2x |
-| Product rule | f'(x) = u'(x)v(x) + u(x)v'(x) | if f(x) = x^2sin(x), then f'(x) = 2xsin(x) + x^2cos(x) |
-| Quotient rule | f'(x) = (u'(x)v(x) - u(x)v'(x))/v(x)^2 | if f(x) = sin(x)/x, then f'(x) = (xcos(x) - sin(x))/x^2 |
+| Product rule | f'(x) = u'(x)v(x) + u(x)v'(x) | if f(x) = x^2\sin(x), then f'(x) = 2x\sin(x) + x^2\cos(x) |
+| Quotient rule | f'(x) = (u'(x)v(x) - u(x)v'(x))/v(x)^2 | if f(x) = \sin(x)/x, then f'(x) = (x\cos(x) - \sin(x))/x^2 |
 
 ## <a id="what-are-common-trap-questions-for-limits-n-derivatives"></a>What are common Trap Questions for Limits and Derivatives?
 
-What are common Trap Questions for Limits and Derivatives? is a critical aspect of calculus that tests a student's understanding of fundamental concepts. It includes identifying and solving limit and derivative problems, applying L'Hospital's rule, n understanding the concept of continuity. For class 11 exam prep n 2026, the most important aspect is recognizing and avoiding common pitfalls and limit and derivative questions, such as incorrect application of rules or misunderstanding of function behavior.
+What are common Trap Questions for Limits and Derivatives? is a critical aspect of calculus that tests a student's understanding of fundamental concepts. It includes identifying and solving limit and derivative problems, applying L'Hospital's rule, n understanding the concept of continuity. For class 11 exam prep and 2026, the most important aspect is recognizing and avoiding common pitfalls and limit and derivative questions, such as incorrect application of rules or misunderstanding of function behavior.
 
 To tackle these questions, it's essential to have a solid grasp of basic limit and derivative properties, including linearity, homogeneity, n the chain rule. Many students struggle with applying these properties correctly, especially when dealing with complex functions or trigonometric expressions. For instance, when evaluating the limit of a function as $x$ approaches infinity, students often forget to consider the behavior of the function's numerator and denominator separately.
 
-One common trap question involves evaluating the limit of a function that appears to be and an indeterminate form. Consider the function $f(x) = \frac{\sin x}{x}$ as $x$ approaches 0.$ Many students might incorrectly apply L'Hospital's rule, which states that for certain types of indeterminate forms, the limit can be evaluated y taking the derivative of the numerator and denominator separately. However, n this case, the function is not and an indeterminate form, n the limit can be evaluated directly using the fundamental trigonometric limit $lim_{x 	o 0\frac{\sin x}{x} = 1$.$
+One common trap question involves evaluating the limit of a function that appears to be and an indeterminate form. Consider the function $f(x) = \frac{\\sin x}{x}$ as $x$ approaches 0.$ Many students might incorrectly apply L'Hospital's rule, which states that for certain types of indeterminate forms, the limit can be evaluated y taking the derivative of the numerator and denominator separately. However, n this case, the function is not and an indeterminate form, n the limit can be evaluated directly using the fundamental trigonometric limit $lim_{x 	o 0$\frac{\\sin x}{x}$ = 1$.$
 
 Another common pitfall is misunderstanding the concept of continuity and its relationship to limits. A function $f(x)$ is said to be continuous at a point $x = a$ if the following conditions are met: (1) $f(a)$ is defined, (2) $lim_{x 	o a} f(x)$ exists, n (3) $lim_{x 	o a} f(x) = f(a)$. Students often struggle to apply these conditions correctly, especially when dealing with piecewise functions or functions with removable discontinuities.
 
 When it comes to derivatives, common trap questions often involve applying the chain rule or product rule incorrectly. Consider the function $f(x) = (2x + 1)^3$. To find the derivative, students might incorrectly apply the chain rule, forgetting to multiply the outer derivative y the inner derivative. The correct derivative is $f'(x) = 3(2x + 1)^2 \\cdot 2 = 6(2x + 1)^2$.
 
-To avoid falling into these traps, it's crucial to practice a wide range of limit and derivative questions, including those that involve complex functions, trigonometric expressions, n piecewise functions. Students should also focus on developing a deep understanding of the underlying concepts, including continuity, differentiability, n the relationships between limits and derivatives.
+To avoid falling into these traps, it's crucial to practice a wide range of limits and derivative questions, including those that involve complex functions, trigonometric expressions, n piecewise functions. Students should also focus on developing a deep understanding of the underlying concepts, including continuity, differentiability, n the relationships between limits and derivatives.
 
 The following table summarizes some common trap questions for limits and derivatives, along with tips for avoiding these pitfalls:
 
 | Trap Question | Common Mistake | Correct Approach |
 | --- | --- | --- |
-| Evaluating the limit of $f(x) = \frac{\sin x}{x}$ as $x$ approaches 0 | Applying L'Hospital's rule incorrectly | Using$ the fundamental trigonometric limit $lim_{x 	o 0\frac{\sin x}{x} = 1$ |
+| Evaluating the limit of $f(x) = \frac{\\sin x}{x}$ as $x$ approaches 0 | Applying L'Hospital's rule incorrectly | Using$ the fundamental trigonometric limit $lim_{x 	o 0\frac{\\sin x}{x} = 1$ |
 | Determining the continuity of a piecewise function | Forgetting to check the conditions for continuity | Verifying that $f(a)$ is defined, $lim_{x 	o a} f(x)$ exists, n $lim_{x 	o a} f(x) = f(a)$ |
 | Applying the chain rule to find the derivative of $f(x) = (2x + 1)^3$ | Forgetting to multiply the outer derivative y the inner derivative | Using the correct chain rule formula: $f'(x) = 3(2x + 1)^2 \\cdot 2 = 6(2x + 1)^2$ |
 | Evaluating the limit of $f(x) = \frac{1}{x}$ as $x$ approaches infinity | Forgetting to consider the behavior of the function's numerator and denominator | Recognizing that the limit approaches 0 as $x$ approaches infinity |
 
 ## <a id="how-to-solve-higher-order-derivatives-n-its-applications"></a>How to solve Higher Order Derivatives and its applications?
 
-How to solve Higher Order Derivatives and its applications? is solving derivatives of a function that itself is a derivative of another function. It includes finding the first, second, n higher-order derivatives, understanding the concept of maxima and minima, n applying these to solve real-world problems. For Class 11 exam prep n 2026, the most important aspect is understanding the application of higher-order derivatives and physics, particularly and the fields of mechanics and electromagnetism. To start solving higher-order derivatives, we first need to grasp the concept of a derivative. The derivative of a function $f(x)$ is denoted as $f'(x)$ n represents the rate of change of the function with respect to $x$. The second derivative, denoted as $f''(x)$, is the derivative of the first derivative. Higher-order derivatives are obtained y differentiating the function multiple $\times. For instance$, the third derivative is the derivative of the second derivative, n so on. The process of finding higher-order derivatives involves applying the power rule, product rule, n quotient rule repeatedly. The power rule states that if $f(x) = x^n$, then $f'(x) = nx^{n-1}$. The product rule states that if $f(x) = u(x)v(x)$, then $f'(x) = u'(x)v(x) + u(x)v'(x)$. The quotient rule states that if $f(x) = $\frac{u(x)}{v(x)}$, then $f'(x) = $\frac{u'(x)v(x) - u(x)v$'(x)}{v(x)^2}$. These rules are essential for finding higher-order derivatives. The application of higher-order derivatives can be seen and various fields such as physics, engineering, n economics. In physics, higher-order derivatives are used to describe the motion of an object. The first derivative of the position function gives the velocity function, the second derivative gives the acceleration function, n the third derivative gives the jerk function. In engineering, higher-order derivatives are used to optimize systems and model complex phenomena. In economics, higher-order derivatives are used to model economic systems and understand the behavior of economic variables. To illustrate this, consider a function $f(x) = x^4$. To find the first derivative, we apply the power rule: $f'(x) = 4x^3$. To find the second derivative, we differentiate the first derivative: $f''(x) = 12x^2$. To find the third derivative, we differentiate the second derivative: $f'''(x) = 24x$. We can continue this process to find higher-order derivatives. The table below summarizes the derivatives of the function $f(x) = x^n$ up to the fourth order.$
+How to solve Higher Order Derivatives and its applications? is solving derivatives of a function that itself is a derivative of another function. It includes finding the first, second, n higher-order derivatives, understanding the concept of maxima and minima, n applying these to solve real-world problems. For Class 11 exam prep and 2026, the most important aspect is understanding the application of higher-order derivatives and physics, particularly and the fields of mechanics and electromagnetism. To start solving higher-order derivatives, we first need to grasp the concept of a derivative. The derivative of a function $f(x)$ is denoted as $f'(x)$ n represents the rate of change of the function with respect to $x$. The second derivative, denoted as $f''(x)$, is the derivative of the first derivative. Higher-order derivatives are obtained y differentiating the function multiple $\times. For instance$, the third derivative is the derivative of the second derivative, n so on. The process of finding higher-order derivatives involves applying the power rule, product rule, n quotient rule repeatedly. The power rule states that if $f(x) = x^n$, then $f'(x) = nx^{n-1}$. The product rule states that if $f(x) = u(x)v(x)$, then $f'(x) = u'(x)v(x) + u(x)v'(x)$. The quotient rule states that if $f(x) = \frac{u(x)}{v(x)}, then $f'(x) = $\frac{u'(x)v(x) - u(x)v$'(x)}{v(x)^2}$. These rules are essential for finding higher-order derivatives. The application of higher-order derivatives can be seen and various fields such as physics, engineering, n economics. In physics, higher-order derivatives are used to describe the motion of an object. The first derivative of the position function gives the velocity function, the second derivative gives the acceleration function, n the third derivative gives the jerk function. In engineering, higher-order derivatives are used to optimize systems and model complex phenomena. In economics, higher-order derivatives are used to model economic systems and understand the behavior of economic variables. To illustrate this, consider a function $f(x) = x^4$. To find the first derivative, we apply the power rule: $f'(x) = 4x^3$. To find the second derivative, we differentiate the first derivative: $f''(x) = 12x^2$. To find the third derivative, we differentiate the second derivative: $f'''(x) = 24x$. We can continue this process to find higher-order derivatives. The table below summarizes the derivatives of the function $f(x) = x^n$ up to the fourth order.$
 
 | Derivative Order | Derivative |
 | --- | --- |
@@ -226,8 +246,8 @@ How to solve Higher Order Derivatives and its applications? is solving derivativ
 | Fourth Derivative | $n(n-1)(n-2)(n-3)x^{n-4}$ |
 
 - The derivative of e^x is e^x
-- The derivative of sin(x) is cos(x)
-- The derivative of cos(x) is -sin(x)
+- The derivative of \sin(x) is \cos(x)
+- The derivative of \cos(x) is -\sin(x)
 - The power rule states that if f(x) = x^n, then f'(x) = nx^(n-1)
 - L'Hopital's rule states that if a limit is and the form 0/0 or ∞/∞, we can take the derivative of the numerator and denominator separately and then take the limit.
 - The derivative of x^n is nx^(n-1)
@@ -241,7 +261,7 @@ B. 4
 C. 2
 D. undefined
 
-**Answer:** A) This limit can be solved y direct substitution, which will result n 0/0. To solve this, you can use L'Hopital's rule or factor the numerator to (x+2)(x-2) which results n (x+2)
+**Answer:** A) This limit can be solved y direct substitution, which will result and 0/0. To solve this, you can use L'Hopital's rule or factor the numerator to (x+2)(x-2) which results n (x+2)
 
  **2. If f(x) = 3x^2 + 2x - 5, what is f'(x)?**
 A. 6x + 2
@@ -251,13 +271,13 @@ D. 6x + 2 - 5
 
 **Answer:** A) To find the derivative of the function, we need to apply the power rule, which states that if f(x) = x^n, then f'(x) = nx^(n-1).
 
-**3. What is the limit as x approaches pi/2 of (sin(2x)) / (2x)?**
+**3. What is the limit as x approaches pi/2 of (\sin(2x)) / (2x)?**
 A. π/2
 B. 1
 C. 0
 D. undefined
 
-**Answer:** B) We can rewrite the function as (sin(2x)) / (2x) which is and the form 1/x. This is a classic limit that approaches 1 as x approaches 0
+**Answer:** B) We can rewrite the function as (\sin(2x)) / (2x) which is and the form 1/x. This is a classic limit that approaches 1 as x approaches 0
 
 **4. What is the derivative of f(x) = e^(2x)?**
 A. 2e^(2x)
@@ -294,6 +314,8 @@ Continue your [revision](/blog/digital-logic-class-11-revision-notes-gate-boards
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/limits-n-derivatives-class-11-revision-notes-jee) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Limits%20And%20Derivatives%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20JEE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -305,4 +327,22 @@ Continue your [revision](/blog/digital-logic-class-11-revision-notes-gate-boards
 - 📖 [Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/digital-logic-class-11-revision-notes-gate-boards)
 - 📖 [Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-intro-class-11-revision-notes-jee)
 
-}}}}}}}}}}}}
+}}}}}}}}}}}}$
+
+## 🔁 Last 5 Minutes Box
+
+* **Limit of a Function**: lim x→an f(x) = L, if for every ε > 0, there exists a δ > 0 such that |f(x) - L| < ε whenever 0 < |x - a| < δ.
+* **Squeeze Theorem**: If f(x) ≤ g(x) ≤ h(x) and lim x→an f(x) = lim x→a h(x) = L, then lim x→a g(x) = L.
+* **Sum, Difference, Product and Quotient Rules**: If lim x→an f(x) = L and lim x→a g(x) = M, then:
+  + lim x→a [f(x) ± g(x)] = L ± M
+  + lim x→a [f(x) × g(x)] = L × M
+  + lim x→a [f(x) / g(x)] = L / M, if M ≠ 0
+* **Chain Rule**: If g is differentiable at a and f is differentiable at g(a), then (f ∘ g)'(a) = f'(g(a)) × g'(a).
+* **Derivative of a Function**: f'(x) = lim h→0 [f(x + h) - f(x)]/h, if the limit exists.
+* **Geometric Interpretation of Derivative**: f'(x) represents the rate of change of the function f with respect to x, and is the slope of the tangent to the curve at the point (x, f(x)).
+* **Derivatives of Basic Functions**:
+  + If f(x) = x^n, then f'(x) = nx^(n-1)
+  + If f(x) = sin(x), then f'(x) = cos(x)
+  + If f(x) = cos(x), then f'(x) = -sin(x)
+  + If f(x) = e^x, then f'(x) = e^x
+  + If f(x) = log(x), then f'(x) = 1/x

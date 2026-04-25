@@ -9,6 +9,22 @@ manualReview: false
 ---
 
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="-formula-bank"></a>⚡ Formula Bank](#a-id-formula-banka-formula-bank)
+3. [<a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks](#a-id-the-5-mistakes-that-cost-marksa-the-5-mistakes-that-cost-marks)
+4. [<a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs](#a-id-3-solved-pyqsa-3-solved-pyqs)
+5. [<a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong](#a-id-the-one-thing-most-students-get-wronga-the-one-thing-most-students-get-wrong)
+6. [<a id="-ayushs-note"></a>👁️ Ayush's Note](#a-id-ayushs-notea-ayushs-note)
+7. [<a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box](#a-id-last-5-minutes-boxa-last-5-minutes-box)
+8. [<a id="-practice-mcqs"></a>📝 Practice MCQs](#a-id-practice-mcqsa-practice-mcqs)
+9. [📚 Related Topics](#related-topics)
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[physics](/blog/physics-mechanics-class-11-revision-notes-jee-neet)%20heat%20light%20class%2011%20revision%20notes%20jee%20neet%20Class%2011%20Exam%20Notes%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
+---
+
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -75,16 +91,16 @@ Examiner's Trap: Be careful with the sign conventions for $Q$ and $W$.
 
 - **Root Mean Square Velocity Formula:** $v_{rms} =  \sqrt{\frac{3RT}{M}} — v_{rms} is root mean square velocity, R is gas constant, T is temperature, M is molar mass$
 
-- **Mean Free Path Formula:** $\lambda = \frac{1}{\sqrt{2} \pi d^2 \frac{N}{V}} — \lambda is mean free path, d is diameter of a molecule, N is number of molecules, V is volume$
+- **Mean Free Path Formula:** $\\lambda = \frac{1}{\sqrt{2} \pi d^2 \frac{N}{V}} — \\lambda is mean free path, d is diameter of a molecule, N is number of molecules, V is volume$
 Examiner's Trap: Remember to use the correct units for the variables.
 
 ### <a id="black-body-radiation-formulas"></a>**Black Body Radiation Formulas**
 
 - **Stefan-Boltzmann Law:** $E =  \sigma T^4 — E is energy radiated, \sigma is Stefan-Boltzmann constant, T is temperature$
 
-- **Wien's Displacement Law:** $\lambda_m T = b — \lambda_m is wavelength of maximum radiation, T is temperature, b is Wien's constant$
+- **Vienna's Displacement Law:** $\\lambda_m T = b — \\lambda_m is wavelength of maximum radiation, T is temperature, b is Wien's constant$
 
-- **Planck's Radiation Formula:** $E( \lambda) = \frac{8\pi hc}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda kT}} - 1} — E(\lambda) is energy radiated at wavelength \lambda, h is Planck's constant, c is speed of light, k is Boltzmann constant, T is temperature$
+- **Planck's Radiation Formula:** $E( \\lambda) = \frac{8\pi hc}{\\lambda^5}\frac{1}{e^{\frac{hc}{\\lambda kT}} - 1} — E(\\lambda) is energy radiated at wavelength \\lambda, h is Planck's constant, c is speed of light, k is Boltzmann constant, T is temperature$
 Examiner's Trap: Be careful with the units of the variables.
 
 ### <a id="decision-table"></a>**Decision Table**
@@ -96,7 +112,7 @@ Examiner's Trap: Be careful with the units of the variables.
 | Specific Heat Capacity Formula | When dealing with heat added to a substance |
 | Root Mean Square Velocity Formula | When dealing with the velocity of molecules in a gas |
 | Stefan-Boltzmann Law | When dealing with energy radiated by a black body |
-| Wien's Displacement Law | When dealing with the wavelength of maximum radiation |
+| Vienna's Displacement Law | When dealing with the wavelength of maximum radiation |
 | Planck's Radiation Formula | When dealing with energy radiated at a specific wavelength |
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
@@ -240,7 +256,7 @@ Q3 (2018 CBSE): A thermometer is placed in a hot water bath. The temperature of 
 
 - The key concept here is that temperature is a measure of the average kinetic energy of the particles in a substance, while internal energy is the total energy of the particles, including both kinetic and potential energy.
 
-- The formula for internal energy (U) is given by: U = $\frac{3}{2}nRT, where n is the number of moles, R is the gas constant, and T is the temperature in Kelvin.$
+- The formula for internal energy (U) is given by: U = $\frac{3}{2}nRT, where and is the number of moles, R is the gas constant, and T is the temperature in Kelvin.$
 
 - Another important concept is the specific heat capacity (c) of a substance, which is the amount of heat per unit mass required to raise the temperature by one degree Celsius.
 
@@ -344,7 +360,7 @@ Consider two objects, A and B, with object A having a higher temperature than ob
 
 - **📊 PYQ Frequency Intel:** In the 2019 paper, questions were asked on the topics of specific heat capacity, c = $\frac{Q}{m\delta T}, and the equation of state for an ideal gas, PV = nRT. The 2021 paper had questions on the first law of thermodynamics and the concept of internal energy. The 2023 paper tested the understanding of the Carnot cycle and its efficiency, \eta = 1$
 
-- $\frac{T_c}{T_h}.$
+-  $\frac{T_c}${T_h}. 
 
 - **⚡ The 30-Second Shortcut:** To quickly solve problems involving the equation of state, use the formula PV = nRT and the fact that n = $\frac{m}{M}, where m is the mass and M is the molar mass. For example, to find the pressure of an ideal gas, use P = \frac{nRT}{V} = \frac{mRT}{MV}, which can be derived in under 30 seconds.$
 
@@ -358,7 +374,7 @@ Consider two objects, A and B, with object A having a higher temperature than ob
 
 - $U =  \frac{3}{2}nRT — gives you the internal energy of an ideal gas$
 
-- $W =  \frac{nR\delta T}{\gamma$
+-  W =  $\frac{nR\delta T}${$\gamma$
 
 - 1}$ — gives you the work done by an ideal gas$
 
@@ -384,52 +400,52 @@ The amount of heat transferred between two systems is given by $Q = mc\delta T$ 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. A heat engine has an efficiency of $10%$. It operates between a source temperature of $500 K$ and a sink temperature of $300 K$. The temperature of the source is increased to $600 K$. Calculate the new efficiency of the heat engine.**
-**A)**   20%
-**B)**   30%
-**C)**   40%
-**D)**   50%
+**A)**    20%
+**B)**    30%
+**C)**    40%
+**D)**    50%
 
-**Answer:** C) The correct answer is option C because the efficiency of a heat engine is given by the formula $e = 1 - rac{T_2}{T_1}$, where $T_1$ and $T_2$ are the source and sink temperatures respectively. In this case, the source temperature has increased from $500 K$ to $600 K$, but the sink temperature remains the same. Therefore, the new efficiency will be $1 - rac{300}{600} = 0.5 = 50%$.
+**Answer:** C) The correct answer is option C because the efficiency of a heat engine is given by the formula $e = 1 - \frac{T_2}{T_1}$, where $T_1$ and $T_2$ are the source and sink temperatures respectively. In this case, the source temperature has increased from $500 K$ to $600 K$, but the sink temperature remains the same. Therefore, the new efficiency will be $1 - \frac{300}{600} = 0.5 = 50%$.
 
 - --
 
 **2. A body of mass $2 kg$ is heated from $20°C$ to $40°C$. Calculate the change in entropy of the body.**
-**A)**   $0.2 J/K$
-**B)**   $0.4 J/K$
-**C)**   $0.6 J/K$
-**D)**   $0.8 J/K$
+**A)**    $0.2 J/K$
+**B)**    $0.4 J/K$
+**C)**    $0.6 J/K$
+**D)**    $0.8 J/K$
 
-**Answer:** B) The correct answer is option B. The change in entropy of a body is given by the formula $\delta S = mc lnleft(rac{T_2}{T_1}ight)$. In this case, $m = 2 kg$, $c = 1000 J/kg°C$ (approximately), $T_1 = 20°C + 273 = 293 K$ and $T_2 = 40°C + 273 = 313 K$. Therefore,  \delta S = 2 	imes 1000 	imes lnleft(rac{313}{293}ight) = 0.4 J/K$.$
+**Answer:** B) The correct answer is option B. The change in entropy of a body is given by the formula $\delta S = mc \ln\left(\frac{T_2}{T_1}\right)$. In this case, $m = 2 kg$, $c = 1000 J/kg°C$ (approximately), $T_1 = 20°C + 273 = 293 K$ and $T_2 = 40°C + 273 = 313 K$. Therefore,  \delta S = 2 \times 1000 \times \ln\left($\frac{313}${293}\right) = 0.4 J/K$.$
 
 - --
 
 **3. A light ray passes from a medium of refractive index $1.5$ to a medium of refractive index $1.8$. If the angle of incidence is $30°$, what is the angle of refraction?**
-**A)**   $20°$
-**B)**   $30°$
-**C)**   $40°$
-**D)**   $50°$
+**A)**    $20°$
+**B)**    $30°$
+**C)**    $40°$
+**D)**    $50°$
 
-**Answer:** A) The correct answer is option A. We can use Snell's law to solve this problem: $n_1 sin	heta_1 = n_2 sin	heta_2$. In this case, $n_1 = 1.5$, $n_2 = 1.8$, $	heta_1 = 30°$ and $	heta_2$ is the angle of refraction. Therefore, $sin	heta_2 = rac{n_1}{n_2} sin	heta_1 = rac{1.5}{1.8} sin30^{circ} = 0.4167$. Hence, $	heta_2 = sin^{-1} 0.4167 = 24.4° \approx 20°$.
+**Answer:** A) The correct answer is option A. We can use Snell's law to solve this problem: $n_1 \sin\theta_1 = n_2 \sin\theta_2$. In this case, $n_1 = 1.5$, $n_2 = 1.8$, $\theta_1 = 30°$ and $\theta_2$ is the angle of refraction. Therefore, $\sin\theta_2 = \frac{n_1}{n_2} \sin\theta_1 = \frac{1.5}{1.8} sin30^{circ} = 0.4167$. Hence, $\theta_2 = \\sin^{-1} 0.4167 = 24.4° \approx 20°$.
 
 - --
 
 **4. A heat pump operates between a heat source at $70°C$ and a heat sink at $30°C$. If the heat pump requires $1.5 kW$ of work, what is the coefficient of performance (COP) of the heat pump?**
-**A)**   $5$
-**B)**   $6$
-**C)**   $7$
-**D)**   $8$
+**A)**    $5$
+**B)**    $6$
+**C)**    $7$
+**D)**    $8$
 
-**Answer:** D) The correct answer is option D. The coefficient of performance (COP) of a heat pump is given by the formula $COP = rac{Q}{W} = rac{T_2}{T_1 - T_2}$, where $Q$ is the heat transferred to the heat sink, $W$ is the work done on the system, $T_1$ is the temperature of the heat source and $T_2$ is the temperature of the heat sink. In this case, $T_1 = 70°C + 273 = 343 K$, $T_2 = 30°C + 273 = 303 K$ and $W = 1.5 kW$. Therefore, $COP = rac{303}{343 - 303} = 7$.
+**Answer:** D) The correct answer is option D. The coefficient of performance (COP) of a heat pump is given by the formula $COP = \frac{Q}{W} = \frac{T_2}{T_1 - T_2}$, where $Q$ is the heat transferred to the heat sink, $W$ is the work done on the system, $T_1$ is the temperature of the heat source and $T_2$ is the temperature of the heat sink. In this case, $T_1 = 70°C + 273 = 343 K$, $T_2 = 30°C + 273 = 303 K$ and $W = 1.5 kW$. Therefore, $COP = \frac{303}{343 - 303} = 7$.
 
 - --
 
 **5. A light wave with a wavelength of $500 nm$ falls on a double-slit with a slit separation of $0.5 mm$. What is the distance between the central bright fringe and the second bright fringe on the screen?**
-**A)**   $0.5 mm$
-**B)**   $1 mm$
-**C)**   $1.5 mm$
-**D)**   $2 mm$
+**A)**    $0.5 mm$
+**B)**    $1 mm$
+**C)**    $1.5 mm$
+**D)**    $2 mm$
 
-**Answer:** C) The correct answer is option C. We can use the formula for the distance between bright fringes in a double-slit experiment: $x = rac{n lambda L}{d}$, where $x$ is the distance between the central bright fringe and the nth bright fringe, $lambda$ is the wavelength of the light, $L$ is the distance between the slits and the screen, $d$ is the slit separation and $n$ is the order of the bright fringe. In this case, $lambda = 500 nm = 5 	imes 10^{-7} m$, $d = 0.5 mm = 5 	imes 10^{-4} m$, $n = 2$ and $L$ is not given. However, we can simplify the formula to $x = rac{2 lambda}{d}$ to find the distance between the central bright fringe and the second bright fringe. Therefore, $x = rac{2 	imes 5 	imes 10^{-7}}{5 	imes 10^{-4}} = 1.5 	imes 10^{-3} m = 1.5 mm$.
+**Answer:** C) The correct answer is option C. We can use the formula for the distance between bright fringes in a double-slit experiment: $x = \frac{n \lambda L}{d}$, where $x$ is the distance between the central bright fringe and the nth bright fringe, $\lambda$ is the wavelength of the light, $L$ is the distance between the slits and the screen, $d$ is the slit separation and $n$ is the order of the bright fringe. In this case, $\lambda = 500 nm = 5 \times 10^{-7} m$, $d = 0.5 mm = 5 \times 10^{-4} m$, $n = 2$ and $L$ is not given. However, we can simplify the formula to $x = \frac{2 \lambda}{d}$ to find the distance between the central bright fringe and the second bright fringe. Therefore, $x = \frac{2 \times 5 \times 10^{-7}}{5 \times 10^{-4}} = 1.5 \times 10^{-3} m = 1.5 mm$.
 
 - --
 
@@ -438,8 +454,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 - --
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
 
 - --
 

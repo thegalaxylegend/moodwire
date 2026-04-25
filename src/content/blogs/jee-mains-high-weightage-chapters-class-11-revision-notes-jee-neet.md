@@ -83,7 +83,7 @@ Chemistry is where you secure your rank. Chapters like [environmental](/blog/env
 
 JEE Math has become increasingly lengthy, but you can still find strategic wins. Mathematical Reasoning and Statistics are "safe" chapters that can be mastered and a single afternoon. These provide 8 marks through simple formula application and truth tables, yet many students overlook them.
 
-Vector n 3D Geometry is another heavyweight unit. Unlike Calculus, it doesn't require creative "flair"—it requires visualization and systematic formula application. ensures you have a solid "floor" for your Math score, allowing you to tackle tougher problems with reduced pressure.
+Vector and 3D Geometry is another heavyweight unit. Unlike Calculus, it doesn't require creative "flair"—it requires visualization and systematic formula application. ensures you have a solid "floor" for your Math score, allowing you to tackle tougher problems with reduced pressure.
 
 ## <a id="effort-vs-marks-a-tactical-comparison"></a>Effort vs. Marks: A Tactical Comparison
 

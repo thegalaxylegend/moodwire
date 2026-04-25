@@ -63,7 +63,7 @@ $\text{GFR} = \frack\text{urine output \times \text{urea concentration$ and urin
 
 * **Cockcroft-Fault equation**: An equation used to estimate the GFR based on serum creatinine levels, age, sex, n weight:
 
-$\text{GFR} = \frac{(140 - }{\text{weight} \text{age}) \times $ $\times (0.85$ $1 \text{serum creatinine}}$
+$\text{GFR} = \frac{(140 - }{\text{weight} \text{age}) \times \times (0.851 \text{serum creatinine}}$
 
 ### <a id="keenest-data"></a>JEE/MEET Data
 The excretory system is an important topic and the JEE n [meet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams. The following data is relevant to the excretory system:
@@ -244,3 +244,4 @@ Continue your [revision](/blog/biological-classification-class-11-revision-notes
 * **Concentration of urine**: regulated y kidneys, based on amount of water and body
 * **Osmoregulation**: regulation of water and electrolyte balance and body, critical for maintaining homeostasis
 
+$

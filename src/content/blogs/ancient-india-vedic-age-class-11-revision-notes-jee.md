@@ -58,7 +58,7 @@ Some notable contributions of the Vedic Age include the concept of zero, the dec
 Key terms to remember include Silva Sutras, Mantra-based calculations, n the introduction of geometric shapes such as the right-angled triangle and circle.
 
 Cheat Sheet:
-* Key formulas: Pythagoras Theorem (a^2 + b^2 = c^2), Area of Triangle = (base * height)/2
+* Key formulas: Pythagoras Theorem (a^2 + b^2 = c^2), Area of Triangle = (base * he\right)/2
 * Famous mathematicians: Baudhayana, Apastambha, Canada
 * Important texts: Silva Sutras, Yajur Veda
 
@@ -165,7 +165,7 @@ Continue your [revision](/blog/art-culture-architecture-class-11-revision-notes-
 ## 🔁 Last 5 Minutes Box
 
 * **Vedic Period**: 1500 BCE - 500 BCE
-* **Rig Veda**: Oldest of the Vedas, contains 1027 suits n 10 mandalas
+* **Rig Veda**: Oldest of the Vedas, contains 1027 suits and 10 mandalas
 * **Vedic Society**: Divided into 4 Vargas: Brahmins, Kshatriyas, Vaisyas, n Sudras
 * **Economic Life**: Primarily pastoral, with the emergence of agriculture
 * **Political Organization**: Tribal republics and monarchies, with the king as the highest authority

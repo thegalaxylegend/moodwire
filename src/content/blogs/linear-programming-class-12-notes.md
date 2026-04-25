@@ -70,13 +70,13 @@ D) To solve a system of linear equations.
 
 **2. What is the general form of a Linear Programming problem?**
 -
-A) $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i, subject to \sum_{i=1}^{n} a_{ij} x_i \leq \text{ or } \geq b_j, x_i \geq 0.$
+A) \max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i, subject to \sum_{i=1}^{n} a_{ij} x_i \leq \text{ or } \geq b_j, x_i \geq 0.
 -
-B) $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i, subject to \sum_{i=1}^{n} a_{ij} x_i = b_j, x_i \geq 0.$
+B) \max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i, subject to \sum_{i=1}^{n} a_{ij} x_i = b_j, x_i \geq 0.
 -
-C) $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i, subject to \sum_{i=1}^{n} a_{ij} x_i \leq \text{ or } \geq b_j.$
+C) \max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i, subject to \sum_{i=1}^{n} a_{ij} x_i \leq \text{ or } \geq b_j.
 -
-D) $\max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i, subject to x_i \geq 0.$
+D) \max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i, subject to x_i \geq 0.
 
 **Answer: A) $\max \text{$ or } \min z = $\sum_{i=1}^{n} c_i x_i$, subject to $\sum_{i=1}^{n} a_{ij} x_i \leq \text{$ or } \geq b_j$, $x_i \geq 0$.**
 

@@ -9,6 +9,20 @@ manualReview: false
 ---
 
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="-formula-bank"></a>⚡ Formula Bank](#a-id-formula-banka-formula-bank)
+3. [<a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks](#a-id-the-5-mistakes-that-cost-marksa-the-5-mistakes-that-cost-marks)
+4. [<a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs](#a-id-3-solved-pyqsa-3-solved-pyqs)
+5. [<a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong](#a-id-the-one-thing-most-students-get-wronga-the-one-thing-most-students-get-wrong)
+6. [<a id="-Ayush-note"></a>👁️ Ayush's Note](#a-id-ayush-notea-ayushs-note)
+7. [<a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box](#a-id-last-5-minutes-boxa-last-5-minutes-box)
+8. [<a id="-practice-MCQs"></a>📝 Practice MCQs](#a-id-practice-mcqsa-practice-mcqs)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -21,17 +35,17 @@ manualReview: false
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Laws of Exponents:** a’m dot a^n = a^{m+n} — a is the base, me and n are exponents.
+- **Laws of Exponents:** a’m dot a^n = a^{m+n} — a is the base, me and and are exponents.
  - **Product of Powers:** a’m dot b^m = (a dot b)^m — a and y are [bases](/blog/acids-bases-and-salts-class-10-notes), me is the exponent.
- - **Quotient of Powers:** $\frac{a’m}{a^n} = a^{m-n}$ — a$ is the base, me and n are exponents.$
+ - **Quotient of Powers:** $\frac{a’m}{a^n} = a^{m-n}$ — a$ is the base, me and and are exponents.$
  - $**Power of a Power:** \left(a’m$
-light)^n = a^{m dot n} — a is the base, me and n are exponents.
- - **Power of a Product:** $\left(a dot bight)^n = a^n dot b^n$ — a and y are bases, n is the exponent.
+l\right)^n = a^{m dot n} — a is the base, me and and are exponents.
+ - **Power of a Product:** $\left(a dot b\right)^n = a^n dot b^n$ — a and y are bases, n is the exponent.
  - **Power of a Quotient:** \left($\frac{a}{b}$
-light)^n = $\frac{a^n}{b^n}$ — a and y are bases, n is the exponent.
+l\right)^n = $\frac{a^n}{b^n}$ — a and y are bases, n is the exponent.
  - **Zero Exponent:** a^0 = 1 — a is any non-zero base.
  - **Negative Exponent:** $a^{-n} = \frac{1}{a^n}$ — a is the base, n is the exponent.
- - **Fractional Exponent:** $a^{\frac{m}{n}} = sort[n]{a’m}$ — a$ is the base, me and n are integers.
+ - **Fractional Exponent:** $a^{\frac{m}{n}} = sort[n]{a’m}$ — a$ is the base, me and and are integers.
  - **Rational Exponent:** $a^{\frac{p}{q}} = sort[q]{a^p}$ — a$ is the base, up and HQ are integers.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
@@ -88,7 +102,7 @@ light)^n = $\frac{a^n}{b^n}$ — a and y are bases, n is the exponent.
 - $(a’m)^n = a^{mn}$
  
 
--   a^{-m} = $\frac{1}{a’m}$ (for a 
+-    a^{-m} = $\frac{1}${a’m} (for a 
 EQ 0$)$
  
 
@@ -111,55 +125,55 @@ EQ 0$)$
 
 - A negative exponent a^{-m}$ does NOT make the number negative.$
 
-- **It means taking the reciprocal:** a^{-m} = $\frac{1}{a’m}.$ For example, $2^{-3} = $\frac{1}{8}$,$ not $-8$.$
+- **It means taking the reciprocal:** a^{-m} = $\frac{1}{a’m}.$ For example, $2^{-3} = \frac{1}{8},$ not $-8$.$
 
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 
 **1. If the base of a power is a fraction, the power is calculated as the exponent on the denominator being inversely applied to the base.**
-**A)**      The exponent remains the same
-**B)**      The base remains the same
-**C)**      The power is calculated as the exponent on the denominator being inversely applied to the base
-**D)**      The power cancels out
+**A)**       The exponent remains the same
+**B)**       The base remains the same
+**C)**       The power is calculated as the exponent on the denominator being inversely applied to the base
+**D)**       The power cancels out
 
 **Answer:** C) When the base of a power is a fraction, the power is calculated as the exponent on the denominator being inversely applied to the base.
 
 ---
 
 **2. The value of a power with a negative exponent is the reciprocal of the value of the power with a positive exponent.**
-**A)**      True
-**B)**      False
-**C)**      The value of a power with a negative exponent is the reciprocal of the value of the power with a positive exponent
-**D)**      The value of a power with a negative exponent is the same as the value of the power with a positive exponent
+**A)**       True
+**B)**       False
+**C)**       The value of a power with a negative exponent is the reciprocal of the value of the power with a positive exponent
+**D)**       The value of a power with a negative exponent is the same as the value of the power with a positive exponent
 
 **Answer:** B) The value of a power with a negative exponent is the reciprocal of the value of the power with a positive exponent.
 
 ---
 
 **3. The product of two powers with the same base is the base raised to the $\sum of the exponents.**$
-**A)**      True
-**B)**      False
-**C)**      The product of two powers with the same base is the base raised to the $\sum of the exponents$
-**D)**      The product of two powers with the same base is the base raised to the difference of the exponents
+**A)**       True
+**B)**       False
+**C)**       The product of two powers with the same base is the base raised to the $\sum of the exponents$
+**D)**       The product of two powers with the same base is the base raised to the difference of the exponents
 
 **Answer:** A) The product of two powers with the same base is the base raised to the $\sum of the exponents.$
 
 ---
 
 **4. Any number raised to the power of 0 is 1.**
-**A)**      True
-**B)**      False
-**C)**      Any number raised to the power of 0 is 1
-**D)**      Any number raised to the power of 0 is 0
+**A)**       True
+**B)**       False
+**C)**       Any number raised to the power of 0 is 1
+**D)**       Any number raised to the power of 0 is 0
 
 **Answer:** A) Any number raised to the power of 0 is 1.
 
 ---
 
 **5. Any non-zero number raised to the power of 1 is the number itself.**
-**A)**      True
-**B)**      False
-**C)**      Any non-zero number raised to the power of 1 is the number itself
-**D)**      Any non-zero number raised to the power of 1 is zero
+**A)**       True
+**B)**       False
+**C)**       Any non-zero number raised to the power of 1 is the number itself
+**D)**       Any non-zero number raised to the power of 1 is zero
 
 **Answer:** C) Any non-zero number raised to the power of 1 is the number itself.
 
@@ -170,6 +184,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-8/
 
 ---
 *This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Exponents%20And%20Powers%208%20Class%208%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

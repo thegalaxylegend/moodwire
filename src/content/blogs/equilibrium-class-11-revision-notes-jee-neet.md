@@ -115,7 +115,7 @@ This chapter is massive — it combines [chemical](/blog/chemical-bonding-class-
 
 For $aA + bB \rightleftharpoons cC + dD$:
 
-K_c = $\frac{[C]^c [D]^d}{[A]^a [B]^b} = K_p$ 
+ K_c = \frac{[C]^c [D]^d}{[A]^a [B]^b} = K_p 
 
 ### <a id="k_p-vs-k_c-relationship"></a>$ vs $K_c$ Relationship
 
@@ -213,7 +213,7 @@ This means: **Lower concentration → Higher dissociation**. This is counterintu
 
 ### <a id="hendersonhasselbalch-equation"></a>Henderson-Hasselbalch Equation
 
-pH = pK_a + $\log$ $\frac{[}{]} \text{Salt}]}{[\text{Acid\frac{[\text{Salt}$]}{[$\text{Base}$]} (Basic Buffer)
+pH = pK_a + $\log\frac{[}{]} \text{Salt}]}{[\text{Acid\frac{[\text{Salt}$]}{[$\text{Base}$]} (Basic Buffer)
 
 **JEE Trick**: Buffer capacity is maximum when $[\text{Salt}] = [\text{Acid}]$, i.e., when $pH = pK_a$.
 
@@ -370,4 +370,4 @@ Continue your [revision](/blog/states-of-matter-class-11-revision-notes-jee-neet
    - **Viscosity**: Measure of a fluid's resistance to flow
    - **Surface Tension**: Force acting on surface of a liquid due to intermolecular attraction
 
-}
+}$

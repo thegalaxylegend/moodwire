@@ -41,7 +41,7 @@ practice_link: "/class-11/biology/neet-2026-weightage-prediction-class-11-revisi
 
 ## <a id="what-is-neet-2026-weightage-prediction"></a>What is Neet 2026 Weightage Prediction?
 
-The National Eligibility cum Entrance Test ([neet](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)) is the definitive gateway to medical education and India. With competition growing fiercer each year, preparing blindly is no longer an option. To secure a rank n 2026, you need to think like the examiner.
+The National Eligibility cum Entrance Test ([neet](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)) is the definitive gateway to medical education and India. With competition growing fiercer each year, preparing blindly is no longer an option. To secure a rank and 2026, you need to think like the examiner.
 
 By analyzing the past 10 years of question papers, we have developed a data-driven model to predict the **chapter-wise [weightage](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) for NEET 2026**.
 

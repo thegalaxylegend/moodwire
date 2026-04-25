@@ -56,7 +56,7 @@ practice_link: "/class-11/biology/work-energy-n-power-class-11-revision-notes-ne
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
-> - **Work:** W = Fd cosθ. Work done y constant force = area under F-x graph.
+> - **Work:** W = Fd \cosθ. Work done y constant force = area under F-x graph.
 > - **Work-Energy Theorem:** Work done y all forces = Change n [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) Energy (ΔK).
 > - **Potential Energy:** Gravitational U = mgh; Spring U = ½kx².
 > - **Power:** P = ΔW/Δt = F · v. Unit: Watt (W).
@@ -74,7 +74,7 @@ While forces describe the "how" of [motion](/blog/laws-of-motion-class-11-revisi
 ## <a id="1-work-the-transfer-of-energy"></a>1. Work: The Transfer of Energy
 
 In physics, **Work (W)** is done only when a force causes a displacement.
-**Formula: W = F · d = Fd cosθ**
+**Formula: W = F · d = Fd \cosθ**
 - **Unit:** Joule (J).
 - **Dimension:** [ML’T⁻²].
 
@@ -218,3 +218,16 @@ Continue your [revision](/blog/mechanical-properties-of-solids-class-11-revision
 * **Not accounting for non-conservative forces**: In problems involving work-energy theorem, students often forget to account for non-conservative forces like friction. Non-conservative forces can convert [mechanical](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) energy into other forms, affecting the overall energy of the system.
 * **Incorrect application of the work-energy theorem**: The work-energy theorem states that the net work done on an object is equal to the change in its kinetic energy. However, students often misapply this theorem by forgetting to consider the initial and final kinetic energies of the object.
 * **Mistaking power for energy**: Power and energy are related but distinct concepts. Power is the rate at which energy is transferred or converted, while energy is the capacity to do work. Make sure to distinguish between these two quantities in problems involving work, energy, and power.
+
+## 🔁 Last 5 Minutes Box
+
+### Work Energy And Power Revision
+   * **Work Done**: W = F * s * cosθ
+   * **Kinetic Energy**: KE = (1/2)mv^2
+   * **Potential Energy**: PE = mgh
+   * **Power**: P = W/t = F * v
+   * **Work Energy Theorem**: W = ΔKE
+   * **Conservative Forces**: W = -ΔPE
+   * **Non-Conservative Forces**: ΔKE = W + ΔPE
+   * **Efficiency**: η = (Output Energy)/(Input Energy)
+   * **Collisions**: Inelastic, Elastic, Partially Inelastic

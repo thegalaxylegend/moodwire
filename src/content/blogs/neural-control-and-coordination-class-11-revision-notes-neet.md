@@ -117,7 +117,7 @@ By following these tips and thoroughly understanding the concepts of neural cont
 
 To further enhance your understanding, consider exploring the following LaTeX formatted equation, which represents the basic concept of action potential:
 
- 1 $\frac{1}{C_m} \left( g_{Na} (V - V_{Na}) + g_K (V - V_K) + g_L (V - V_L) \right)$ 
+ 1 \frac{1}{C_m} \left( g_{Na} (V - V_{Na}) + g_K (V - V_K) + g_L (V - V_L) \r\right) 
 
 where:
 - $V$ is the membrane potential,
@@ -144,7 +144,7 @@ Continue your [revision](/blog/locomotion-and-movement-class-11-revision-notes-n
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/neural-control-n-coordination-class-11-revision-notes-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/neural-control-n-[coordination](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet)-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Neural%20Control%20And%20Coordination%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
@@ -174,7 +174,7 @@ Continue your [revision](/blog/locomotion-and-movement-class-11-revision-notes-n
    * **Peripheral Nervous System (PNS)**: Connects CNS to the limbs and organs
    * **Neuron Structure**:
      + Dendrite: Receive signals
-     + Cell body: Contains nucleus
+     + Cell [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet): Contains nucleus
      + Axon: Transmits signals
    * **Synapse**: Junction between two neurons
    * **Neurotransmitters**: Chemicals that transmit signals across synapses

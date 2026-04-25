@@ -9,8 +9,8 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- $E = \frac{hc}{\lambda}$, where $E$ is the energy of the photon, $h$ is Planck's constant, $c$ is the speed of light, and $\lambda$ is the wavelength of the photon.
-- $E_g = \frac{hc}{\lambda}$, where $E_g$ is the band gap energy, $h$ is Planck's constant, $c$ is the speed of light, and $\lambda$ is the wavelength of the photon.
+- $E = \frac{hc}{\\lambda}$, where $E$ is the energy of the photon, $h$ is Planck's constant, $c$ is the speed of light, and $\\lambda$ is the wavelength of the photon.
+- $E_g = \frac{hc}{\\lambda}$, where $E_g$ is the band gap energy, $h$ is Planck's constant, $c$ is the speed of light, and $\\lambda$ is the wavelength of the photon.
 - $\sigma = \frac{ne^2 \tau}{m}$, where $\sigma$ is the conductivity, $n$ is the number of electrons, $e$ is the charge of an electron, $\tau$ is the relaxation time, and $m$ is the mass of an electron.
 - $I = \frac{V}{R}$, where $I$ is the current, $V$ is the voltage, and $R$ is the resistance.
 - $R = \frac{\rho l}{A}$, where $R$ is the resistance, $\rho$ is the resistivity, $l$ is the length, and $A$ is the area.
@@ -26,9 +26,9 @@ manualReview: false
 
 ## ✏️ 3 Solved PYQs
 - **Question 1:** A semiconductor has a band gap of $1.1 \, \text{eV}$. Find the wavelength of light that can excite an electron from the valence band to the conduction band.
-- Step 1: Use the formula $E = \frac{hc}{\lambda}$ to find the wavelength.
+- Step 1: Use the formula $E = \frac{hc}{\\lambda}$ to find the wavelength.
 - Step 2: Plug in the values $E = 1.1 \, \text{eV} = 1.1 \times 1.6 \times 10^{-19} \, \text{J}$, $h = 6.626 \times 10^{-34} \, \text{J s}$, and $c = 3 \times 10^8 \, \text{m/s}$.
-- Step 3: Solve for $\lambda$ to get $\lambda = \frac{hc}{E} = \frac{6.626 \times 10^{-34} \times 3 \times 10^8}{1.1 \times 1.6 \times 10^{-19}} = 1.13 \times 10^{-6} \, \text{m} = 1130 \, \text{nm}$.
+- Step 3: Solve for $\\lambda$ to get $\\lambda = \frac{hc}{E} = \frac{6.626 \times 10^{-34} \times 3 \times 10^8}{1.1 \times 1.6 \times 10^{-19}} = 1.13 \times 10^{-6} \, \text{m} = 1130 \, \text{nm}$.
 - **Question 2:** A p-n junction diode has a forward bias of $0.5 \, \text{V}$. Find the current flowing through the diode if the resistance of the circuit is $100 \, \omega$.
 - Step 1: Use the formula $I = \frac{V}{R}$ to find the current.
 - Step 2: Plug in the values $V = 0.5 \, \text{V}$ and $R = 100 \, \omega$.
@@ -46,7 +46,7 @@ manualReview: false
 - Practice problems related to the applications of semiconductors, such as solar cells, LEDs, and diodes.
 
 ## 🔁 Last 5 Minutes Box
-- Make sure to revise the formulas related to semiconductors, such as $E = \frac{hc}{\lambda}$ and $\sigma = \frac{ne^2 \tau}{m}$.
+- Make sure to revise the formulas related to semiconductors, such as $E = \frac{hc}{\\lambda}$ and $\sigma = \frac{ne^2 \tau}{m}$.
 - Go through the properties of p-type and n-type semiconductors.
 - Practice solving problems related to the working of a p-n junction diode.
 
@@ -97,7 +97,7 @@ C) $1200 \, \text{nm}$
 -
 D) $1300 \, \text{nm}$
 
-**Answer: B) $1100 \, \text{nm}$, as it can be calculated using the formula $E = \frac{hc}{\lambda}$.**
+**Answer: B) $1100 \, \text{nm}$, as it can be calculated using the formula $E = \frac{hc}{\\lambda}$.**
 
 **5. What is the type of semiconductor material that is created by introducing impurities into an intrinsic semiconductor material?**
 -

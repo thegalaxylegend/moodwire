@@ -25,10 +25,10 @@ manualReview: false
 ## ✏️ 3 Solved PYQs
 - **Question 1:** Find the area of a triangle with sides $5$ cm, $12$ cm, and $13$ cm.
   - **Step 1:** Calculate the semi-perimeter: is = $\frac{5 + 12 + 13}{2} = 15$.$
-  - **Step 2:** Use Heron's formula: A = $\sqrt{15(15–5)(15–12)(15–13)} = \sqrt{1$5 \times 1$0 \times 3$ \times 2} = \sqrt{900} = 30$ square cm.$
+  - **Step 2:** Use Heron's formula: A = $\sqrt{15(15–5)(15–12)(15–13)} = \sqrt{1$5 \times 1$0 \times 3$ \times 2} = $\sqrt{900}$ = 30$ square cm.$
 - **Question 2:** Find the area of a triangle with sides $10$ cm, $24$ cm, and $26$ cm.
   - **Step 1:** Calculate the semi-perimeter: is = $\frac{10 + 24 + 26}{2} = 30$.$
-  - **Step 2:** Use Heron's formula: A = $\sqrt{30(30–10)(30–24)(30–26)} = \sqrt{3$0 \times 2$0 \times 6$ \times 4} = \sqrt{14400} = 120$ square cm.$
+  - **Step 2:** Use Heron's formula: A = $\sqrt{30(30–10)(30–24)(30–26)} = \sqrt{3$0 \times 2$0 \times 6$ \times 4} = $\sqrt{14400}$ = 120$ square cm.$
 - **Question 3:** Find the area of a triangle with sides $7$ cm, $8$ cm, and $10$ cm.
   - **Step 1:** Calculate the semi-perimeter: is = $\frac{7 + 8 + 10}{2} = 12.5$.$
   - **Step 2:** Use Heron's formula: A = $\sqrt{12.5(12.5$–7)(12.5–8)(12.5–10)} = $\sqrt{12.$5 \times 5$.$5 \times 4$.$5 \times 2$.5} = \sqrt{771.5625} \approx 27.77$ square cm.$
@@ -109,7 +109,7 @@ C) $60$ square cm
 -
 D) $70$ square cm
 
-**Answer: C) $54$ square cm is not an option, but we can calculate it using Heron's formula: is = $\frac{9 + 12 + 15}{2} = 18$, A = \sqrt{18(18–9)(18–12)(18–15)} = \sqrt{18 \times 9 \times 6 \times 3} = \sqrt{2916} = 54$ square cm.**
+**Answer: C) $54$ square cm is not an option, but we can calculate it using Heron's formula: is = $\frac{9 + 12 + 15}{2} = 18$, A = $\sqrt{18(18–9)(18–12)(18–15)}$ = $\sqrt{18 \times 9 \times 6 \times 3}$ = $\sqrt{2916}$ = 54$ square cm.**
 
 ---
 
@@ -118,6 +118,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Heron%20S%20Formula%209%20Class%209%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 
@@ -129,3 +131,4 @@ Continue your revision with these related guides:
 - 📖 [Lines And Angles 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/lines-and-angles-class-9-notes)
 - 📖 [Number Systems 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/number-systems-class-9-notes)
 - 📖 [Quadrilaterals 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/quadrilaterals-class-9-notes)
+$

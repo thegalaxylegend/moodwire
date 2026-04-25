@@ -47,7 +47,7 @@ manualReview: false
 
 ## 
 - The process of spermatogenesis: $ \frac{1}{4} \times \frac{1}{4} = \frac{1}{16} $ chance of each allele being passed on
-- The structure and function of the human female reproductive system: $ \frac{28}{14} = 2 $ times the number of days in a menstrual cycle
+- The structure and function of the human female reproductive system: $ \frac{28}{14} = $2 times the number of days in a menstrual cycle
 - The process of fertilization and implantation: $ \frac{1}{2} \times \frac{1}{2} = \frac{1}{4} $ chance of each allele being passed on
 - The development of the embryo and fetus: $ \frac{2}{8} = \frac{1}{4} $ of the blastomeres form the inner cell mass
 - The process of parturition and lactation: $ \frac{1}{3} \times \frac{2}{3} = \frac{2}{9} $ chance of a successful vaginal delivery
@@ -115,7 +115,7 @@ D) Fertilization
 **Answer: A) Parturition, as it is the term for the process by which the fetus is born**
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/human-reproduction-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/human-[reproduction](/blog/reproduction-in-organisms-class-12-notes)-class-12-notes) now and track your progress against thousands of students.
 
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
@@ -127,3 +127,5 @@ Continue your revision with these related guides:
 - 📖 [Microbes In Human Welfare Class 12 Exam Prep Revision — Grandmaster Guide](/blog/microbes-in-human-welfare-class-12-notes)
 - 📖 [Reproduction In Organisms Class 12 Exam Prep Revision — Grandmaster Guide](/blog/reproduction-in-organisms-class-12-notes)
 - 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+$
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Human%20Reproduction%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**

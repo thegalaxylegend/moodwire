@@ -11,21 +11,21 @@ manualReview: false
 ## ⚡ Formula Bank
 - $SNR = \frac{S}{N}$, where IS is signal power and AND is noise power
 -$ Bandwidth = \frac{1}{2 \times time \: period} = \frac{f}{2}$
-- $\lambda = \frac{c}{f}$, where $\lambda$ is wavelength, act is speed of light, and of is frequency
+- $\\lambda = \frac{c}{f}$, where $\\lambda$ is wavelength, act is speed of light, and of is frequency
 - BC = 
-u $\lambda$, where act is speed of light, $
-up is frequency, and $\lambda$ is wavelength
-- at = $\frac{d}{c}$, where to is time taken for signal to travel,  is distance, and  is speed of light$
+u $\\lambda$, where act is speed of light, $
+up is frequency, and $\\lambda$ is wavelength
+- at = $\frac{d}{c}$, where to is time taken for signal to travel, is distance, and is speed of light$
 -  = \{E}{t}$, where  is power,  is energy, and  is time$
--  = P $\times$ , where  is energy,  is power, and  is time
+-  = P $\times$ , where is energy, is power, and is time
 - $\{P_t}{P_r} = \{1}{\alpha^2}$, where _ is transmitted power, _ is received power, and $\alpha$ is attenuation
 - $SNR_{out} = \{SNR_{in}}{1 + \{1}{SNR_{in}}}$, where $SNR_{out}$ is output signal-to-noise ratio and $SNR_{in}$ is input signal-to-noise ratio
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not understanding the concept of signal-to-noise ratio (SNR) and its importance in communication systems
+- Not understanding the concept of signal-to-noise ratio (SNR) and its importance in communication [systems](/blog/number-systems-class-9-notes)
 - Forgetting to consider the attenuation of signal with distance, given by $\frac{P_t}{P_r} = \frac{1}{\alpha^2}$
 - Not being able to derive the formula for bandwidth, bandwidth = $\frac{1}{$2 \times t$ime \$: period} = $\frac{f}{2}$
-- Confusing the terms' wavelength ($\lambda$), frequency (of), and speed of light (act), and not being able to use the formula $\lambda = \frac{c}{f}$
+- Confusing the terms' wavelength ($\\lambda$), frequency (of), and speed of light (act), and not being able to use the formula $\\lambda = \frac{c}{f}$
 - Not being able to apply the concept of modulation and demodulation to solve problems
 
 ## ✏️ 3 Solved PYQs
@@ -96,7 +96,7 @@ B) $3 \: me$
 C) $10 \: me$
 D) $30 \: me$
 
-**Answer: B) $3 \: me. Explanation:$ The wavelength of the signal is given by $\lambda = \frac{c}{f} = \frac{$3 \times 1$0^8 \$: m/s}{100 $\times 10^6 \$: Hz} = 3 \: me**
+**Answer: B) $3 \: me. Explanation:$ The wavelength of the signal is given by $\\lambda = \frac{c}{f} = \frac{$3 \times 1$0^8 \$: m/s}{100 $\times 10^6 \$: Hz} = 3 \: me**
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/communication-systems-class-12-notes) now and track your progress against thousands of students.
@@ -121,3 +121,5 @@ Continue your revision with these related guides:
 - 📖 [Chemistry In Everyday Life Class 12 Chemistry Revision — Grandmaster Guide](/blog/chemistry-in-everyday-life-class-12-notes)
 - 📖 [Compiler Design Class 12 Exam Prep Revision — Grandmaster Guide](/blog/compiler-design-class-12-notes)
 - 📖 [Computer Networks Class 12 Exam Prep Revision — Grandmaster Guide](/blog/computer-networks-class-12-notes)
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Communication%20Systems%20Class%2012%20Physics%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**

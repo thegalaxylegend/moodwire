@@ -47,7 +47,7 @@ practice_link: "/class-11/physics/the-s-block-elements-class-11-revision-notes-j
 
 ## <a id="what-is-the-s-block-elements"></a>What is The S Block Elements?
 
-* The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are and Group 1 n 2 of the periodic table.
+* The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are and Group 1 and 2 of the periodic table.
 * They are also known as the alkali metals and alkaline earth metals.
 * These [elements](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) have a tendency to lose electrons to form positive ions.
 * The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are highly reactive.
@@ -66,7 +66,7 @@ practice_link: "/class-11/physics/the-s-block-elements-class-11-revision-notes-j
 
 ## <a id="introduction-to-the-sblock-elements"></a>Introduction to the S-Block Elements
 
-The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are a group of elements and the periodic table that are characterized y the filling of the s-orbitals. They are located and Group 1 n 2 of the periodic table and are also known as the alkali metals and alkaline earth metals. The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are highly reactive and have a tendency to lose electrons to form positive ions.
+The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are a group of elements and the periodic table that are characterized y the filling of the s-orbitals. They are located and Group 1 and 2 of the periodic table and are also known as the alkali metals and alkaline earth metals. The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are highly reactive and have a tendency to lose electrons to form positive ions.
 
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 
@@ -95,7 +95,7 @@ The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) el
 
 One shortcut formula that can be used to remember the properties of the s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements is:
 
- $\text{Reactivity} \propto \frac{{1}}{}$ 
+ \text{Reactivity} \propto \frac{{1}}{} 
 
 This formula states that the reactivity of an element is inversely proportional to its ionization energy. This means that [elements](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) with low ionization energy are highly reactive, while [elements](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) with high ionization energy are less reactive.
 
@@ -108,7 +108,7 @@ Right answer: The alkali metals are more reactive than the alkaline earth metals
 Why students get it wrong: Students often confuse the alkali metals with the alkaline earth metals and think that the alkaline earth metals are more reactive.
 
 * Wrong answer: The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are non-metals.
-Right answer: The s-block elements are metals.
+Right answer: The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are metals.
 Why students get it wrong: Students often think that the s-block elements are non-metals because they are located and the same group as the non-metals.
 
 ## <a id="practice-mcqs"></a>Practice MCQs
@@ -132,7 +132,7 @@ D) Phosphorus
 Solution: A) Magnesium
 
 3. What is the electronic configuration of the alkali metals?
-A) } $\text{Ionization Energy$ns^1$
+A) } $\text{Ionization Energy$ns^$1
 B) $ns^2$
 C) $np^1$
 D) $np^2$
@@ -207,4 +207,4 @@ Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-n
      * **Reactivity with Water**: Increases down the group for both alkali and alkaline earth metals.
      * **Solubility of Hydroxides**: Increases down the group for both alkali and alkaline earth metals.
      * **Solubility of Sulphates**: Decreases down the group for alkaline earth metals.
-     * **Anomalous Behavior of Lithium**: Due to its small size and high ionization energy, lithium shows similarities with magnesium.
+     * **Anomalous Behavior of Lithium**: Due to its small size and high ionization energy, lithium shows similarities with magnesium.$

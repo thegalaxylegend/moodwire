@@ -41,7 +41,7 @@ practice_link: "/class-11/constitutional-framework-class-11-revision-notes-cbse"
 
 ## <a id="what-is-constitutional-framework"></a>What is Constitutional Framework?
 
-Constitutional Framework is a set of principles and rules that govern the functioning of a country's government and institutions. It includes the structure of the government, the powers and limitations of the different branches, n the rights and responsibilities of citizens. For Class 11 exam prep n 2026, the most important aspect is understanding the key features of the [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Constitution and how they impact the country's governance.
+Constitutional Framework is a set of principles and rules that govern the functioning of a country's government and institutions. It includes the structure of the government, the powers and limitations of the different branches, n the rights and responsibilities of citizens. For Class 11 exam prep and 2026, the most important aspect is understanding the key features of the [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Constitution and how they impact the country's governance.
 
 ## <a id="what-are-the-key-features-of-the-Indian-constitution"></a>What are the Key Features of the Indian Constitution?
 
@@ -51,7 +51,7 @@ The [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) C
 * **Independence of the Judiciary**: The separation of the judiciary from the other branches of government
 * **Secularism**: The principle of separating religion from the state
 
-As I delve deeper into these features, I notice that the Constitution has undergone several amendments since its adoption. The first amendment, for example, was made n 1951, n it introduced changes to the provisions related to freedom of speech and expression.
+As I delve deeper into these features, I notice that the Constitution has undergone several amendments since its adoption. The first amendment, for example, was made and 1951, n it introduced changes to the provisions related to freedom of speech and expression.
 
 ## <a id="what-is-the-significance-of-the-preamble"></a>What is the Significance of the Preamble?
 
@@ -77,12 +77,12 @@ As I review these concepts, I realize how important it is to understand the hist
 
 ## <a id="Ayush-personal-note"></a>Ayush's Personal Note
 
-As I prepare for the Class 11 exam n 2026, I find it helpful to create a timeline of the major events n [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) history. This helps me to understand the context and which the Constitution was drafted and how it has evolved over time. I also make sure to review the key features of the Constitution, including the Preamble, the Fundamental Rights, n the Directive Principles.
+As I prepare for the Class 11 exam and 2026, I find it helpful to create a timeline of the major events n [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) history. This helps me to understand the context and which the Constitution was drafted and how it has evolved over time. I also make sure to review the key features of the Constitution, including the Preamble, the Fundamental Rights, n the Directive Principles.
 
 ## <a id="what-are-the-trap-exceptions"></a>What are the Trap Exceptions?
 
 **Trap Exceptions** are concepts or provisions that are often misunderstood or overlooked. Some examples of trap exceptions and the Constitutional Framework include:
-* **The concept of "reasonable restrictions"**: The idea that the government can impose restrictions on individual [rights](/blog/fundamental-rights-class-11-revision-notes-cbse), but only if they are reasonable and n the interest of the public
+* **The concept of "reasonable restrictions"**: The idea that the government can impose restrictions on individual [rights](/blog/fundamental-rights-class-11-revision-notes-cbse), but only if they are reasonable and and the interest of the public
 * **The distinction between "citizens" n "persons"**: The difference between the [rights](/blog/fundamental-rights-class-11-revision-notes-cbse) n privileges available to citizens and non-citizens
 * **The role of the **Judiciary** n interpreting the Constitution**: The power of the courts to interpret the Constitution and declare laws and government actions as unconstitutional
 

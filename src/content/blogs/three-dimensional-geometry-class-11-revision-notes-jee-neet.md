@@ -14,9 +14,9 @@ practice_link: "/class-11/physics/three-dimensional-geometry-class-11-revision-n
 1. [📋 Table of Contents](#table-of-contents)
 2. [<a id="what-is-three-dimensional-geometry-revision-notes"></a>What is Three Dimensional Geometry Revision Notes?](#a-idwhat-is-three-dimensional-geometry-revision-notesawhat-is-three-dimensional-geometry-revision-notes)
 3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
-4. [<a id="1-coordinate-planes-n-axes-n-3d"></a>1. Coordinate Planes and Axes n 3D](#a-id1-coordinate-planes-n-axes-n-3da1-coordinate-planes-and-axes-n-3d)
+4. [<a id="1-coordinate-planes-n-axes-n-3d"></a>1. Coordinate Planes and Axes and 3D](#a-id1-coordinate-planes-n-axes-n-3da1-coordinate-planes-and-axes-n-3d)
 5. [<a id="2-coordinates-of-a-point-n-octants"></a>2. Coordinates of a Point and Octants](#a-id2-coordinates-of-a-point-n-octantsa2-coordinates-of-a-point-and-octants)
-6. [<a id="3-distance-formula-n-3d"></a>3. Distance Formula n 3D](#a-id3-distance-formula-n-3da3-distance-formula-n-3d)
+6. [<a id="3-distance-formula-n-3d"></a>3. Distance Formula and 3D](#a-id3-distance-formula-n-3da3-distance-formula-n-3d)
 7. [<a id="4-section-formula"></a>4. Section Formula](#a-id4-section-formulaa4-section-formula)
 8. [<a id="5-centroid-of-a-triangle"></a>5. Centroid of a Triangle](#a-id5-centroid-of-a-trianglea5-centroid-of-a-triangle)
 9. [<a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qandaacomprehensive-exam-strategy-qa)
@@ -31,9 +31,9 @@ practice_link: "/class-11/physics/three-dimensional-geometry-class-11-revision-n
 
 - [What is Three Dimensional Geometry Revision Notes?](#what-is-three-dimensional-geometry-revision-notes)
 - [Introduction](#introduction)
-- [1. Coordinate Planes and Axes n 3D](#1-coordinate-planes-n-axes-n-3d)
+- [1. Coordinate Planes and Axes and 3D](#1-coordinate-planes-n-axes-n-3d)
 - [2. Coordinates of a Point and Octants](#2-coordinates-of-a-point-n-octants)
-- [3. Distance Formula n 3D](#3-distance-formula-n-3d)
+- [3. Distance Formula and 3D](#3-distance-formula-n-3d)
 - [4. Section Formula](#4-section-formula)
 - [5. Centroid of a Triangle](#5-centroid-of-a-triangle)
 - [Comprehensive Exam Strategy (Q&A)](#comprehensive-exam-strategy-qanda)
@@ -63,7 +63,7 @@ The transition from 2D to 3D geometry is like going from a flat map to the real 
 
 ---
 
-## <a id="1-coordinate-planes-n-axes-n-3d"></a>1. Coordinate Planes and Axes n 3D
+## <a id="1-coordinate-planes-n-axes-n-3d"></a>1. Coordinate Planes and Axes and 3D
 
 In three dimensions, we use three mutually perpendicular [lines](/blog/straight-lines-class-11-revision-notes-jee-neet) passing through the origin: the X, Y, n Z axes.
 *   **Coordinate Planes:**
@@ -88,7 +88,7 @@ A point P and space is represented y (x, y, z). These axes divide the space into
 
 ---
 
-## <a id="3-distance-formula-n-3d"></a>3. Distance Formula n 3D
+## <a id="3-distance-formula-n-3d"></a>3. Distance Formula and 3D
 
 The distance between two points P₁(x₁, y₁, z₁) n P₂(x₂, y₂, z₂) is given y:
 **d = √[(x₂ - x₁)² + (y₂ - y₁)² + (z₂ - z₁)²]**
@@ -189,12 +189,12 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 * **Confusion between direction cosines and direction ratios**: Direction cosines and direction ratios are often confused with each other, which can result in incorrect calculations, especially when dealing with the direction of [lines](/blog/straight-lines-class-11-revision-notes-jee-neet) and planes in 3D space.
 * **Inadequate consideration of quadrants**: In 3D geometry, it's essential to consider the quadrants in which the coordinates of a point lie, as it can affect the sign of the coordinates and the resulting calculations, especially when dealing with distance, direction, and orientation.
 * **Misapplication of distance and section formulas**: The distance and section formulas in 3D geometry have specific conditions and constraints that must be met before they can be applied, and misapplying these formulas can lead to incorrect results and loss of marks.
-* **Ignoring the orientation of planes and lines**: Failing to consider the orientation of planes and lines in 3D space can result in incorrect calculations, especially when dealing with angles between planes, perpendicular distances, and projections of points and lines onto planes and other lines.
+* **Ignoring the orientation of planes and [lines](/blog/straight-lines-class-11-revision-notes-jee-neet)**: Failing to consider the orientation of planes and [lines](/blog/straight-lines-class-11-revision-notes-jee-neet) in 3D space can result in incorrect calculations, especially when dealing with angles between planes, perpendicular distances, and projections of points and [lines](/blog/straight-lines-class-11-revision-notes-jee-neet) onto planes and other [lines](/blog/straight-lines-class-11-revision-notes-jee-neet).
 
 ## 🔁 Last 5 Minutes Box
 
-* **Direction Cosines**: cos α, cos β, cos γ are direction cosines of a line, where α, β, γ are angles made with x, y, z axes.
-* **Direction Ratios**: a, b, c are direction ratios of a line, related to direction cosines by a = λcos α, b = λcos β, c = λcos γ.
+* **Direction Cosines**: \cos α, \cos β, \cos γ are direction cosines of a line, where α, β, γ are angles made with x, y, z axes.
+* **Direction Ratios**: a, b, c are direction ratios of a line, related to direction cosines by a = λ\cos α, b = λ\cos β, c = λ\cos γ.
 * **Distance between two points**: √((x2 - x1)^2 + (y2 - y1)^2 + (z2 - z1)^2).
 * **Section Formula**: point (x, y, z) divides line joining (x1, y1, z1) and (x2, y2, z2) in ratio m:n, then x = (mx2 + nx1)/(m+n), y = (my2 + ny1)/(m+n), z = (mz2 + nz1)/(m+n).
 * **Midpoint**: ((x1 + x2)/2, (y1 + y2)/2, (z1 + z2)/2).
@@ -202,6 +202,6 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 * **Equation of a plane**: ax + by + cz + d = 0, where a^2 + b^2 + c^2 ≠ 0.
 * **Normal to a plane**: (a, b, c).
 * **Distance of a point (x1, y1, z1) from a plane**: |ax1 + by1 + cz1 + d| / √(a^2 + b^2 + c^2).
-* **Angle between two planes**: cos θ = |a1a2 + b1b2 + c1c2| / (√(a1^2 + b1^2 + c1^2) * √(a2^2 + b2^2 + c2^2)).
+* **Angle between two planes**: \cos θ = |a1a2 + b1b2 + c1c2| / (√(a1^2 + b1^2 + c1^2) * √(a2^2 + b2^2 + c2^2)).
 * **Equation of a line**: (x - x1)/a = (y - y1)/b = (z - z1)/c.
 * **Shortest distance between two lines**: |(x2 - x1)b1*c2 - (y2 - y1)c1*a2 + (z2 - z1)a1*b2| / √((b1*c2 - c1*b2)^2 + (c1*a2 - a1*c2)^2 + (a1*b2 - b1*a2)^2)

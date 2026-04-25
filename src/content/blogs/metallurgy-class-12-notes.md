@@ -109,13 +109,13 @@ D) Biometallurgy
 
 **4. What is the equation for the electromotive force?**
 -
-A) E = E^{\circ} + $\frac{RT}{nF} \ln Q$
+A) E = E^{\circ} + \frac{RT}{nF} \ln Q
 -
-B) E = E^{\circ} - $\frac{RT}{nF} \ln Q$
+B) E = E^{\circ} - \frac{RT}{nF} \ln Q
 -
-C) E = E^{\circ} $\times \frac{RT}{nF} \ln Q$
+C) E = E^{\circ} \times \frac{RT}{nF} \ln Q
 -
-D) E = E^{\circ} $\div \frac{RT}{nF} \ln Q$
+D) E = E^{\circ} \div \frac{RT}{nF} \ln Q
 
 **Answer: B) $E = E^{\circ} - \frac{RT}{nF} \ln Q$.** The equation for the electromotive force is $E = E^{\circ} - \frac{RT}{nF} \ln Q$.
 

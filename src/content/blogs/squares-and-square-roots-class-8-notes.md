@@ -43,7 +43,7 @@ manualReview: false
 - **Question 3:** Simplify $\frac{\sqrt{4}}{\sqrt{9}}$
 - Step 1: Simplify the square roots separately, $\sqrt{4} = 2$ and $\sqrt{9} = 3$
 - Step 2: Divide the simplified square roots, $\frac{2}{3}$
--    **Answer:** $\frac{2}{3}$
+-     **Answer:** $\frac{2}${3} 
 
 ## 🧠 The One Thing Most Students Get Wrong
 - The most common mistake students make is not using the properties of square roots to simplify expressions

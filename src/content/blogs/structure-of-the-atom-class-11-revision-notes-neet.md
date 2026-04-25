@@ -71,7 +71,7 @@ The following formulae are essential for understanding the [structure](/blog/str
 
 The structure of an atom is a crucial topic for JEE/[neet](/blog/classification-of-elements-class-11-revision-notes-jee-neet) exams, n it's essential to have a strong grasp of the concepts. Here are some key statistics:
 
-* The average weightage of the structure of an atom and JEE mains is around 10-15%.
+* The average weightage of the [structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet) of an atom and JEE mains is around 10-15%.
 * The average weightage of the structure of an atom n [neet](/blog/classification-of-elements-class-11-revision-notes-jee-neet) is around 12-18%.
 * The most common topics asked and JEE/[neet](/blog/classification-of-elements-class-11-revision-notes-jee-neet) exams are atomic number, mass number, isotopes, n electron configuration.
 
@@ -127,7 +127,7 @@ In the last 5 minutes of the exam, make sure to revise the following key formula
 The atomic number ($Z$) is defined as $Z = 	ext{number$ of protons}$.$
 The mass number ($A$) is defined as $A = Z + N$, where $N$ is the number of neutrons.
 The electron configuration of an atom can be determined using the Aufbau principle and the Pauli exclusion principle.
-The atomic radius ($r$) can be calculated using the formula $r = rac{n^2}{Z}$, where $n$ is the principal quantum number.
+The atomic radius ($r$) can be calculated using the formula $r = \frac{n^2}{Z}$, where $n$ is the principal quantum number.
 
 ## 📝 Practice MCQs
 Here are some practice MCQs to help you assess your knowledge of the Structure of the Atom:

@@ -20,6 +20,8 @@ manualReview: false
 8. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
 9. [📚 Related Topics](#related-topics)
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Amines%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## ⚡ Formula Bank

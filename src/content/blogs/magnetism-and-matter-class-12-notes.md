@@ -9,6 +9,25 @@ practice_link: "/class-11/biology/magnetism-n-matter-class-12-notes"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-magnetism-n-matter"></a>What is Magnetism and Matter?](#a-idwhat-is-magnetism-n-matterawhat-is-magnetism-and-matter)
+3. [<a id="what-are-the-characteristics-of-magnetic-materials"></a>What are the Characteristics of Magnetic Materials?](#a-idwhat-are-the-characteristics-of-magnetic-materialsawhat-are-the-characteristics-of-magnetic-materials)
+4. [<a id="how-does-magnetization-occur-n-materials"></a>How does Magnetization occur and Materials?](#a-idhow-does-magnetization-occur-n-materialsahow-does-magnetization-occur-and-materials)
+5. [<a id="what-is-ayushs-note-on-magnetism-n-matter"></a>What is Ayush's Note on Magnetism and Matter?](#a-idwhat-is-ayushs-note-on-magnetism-n-matterawhat-is-ayushs-note-on-magnetism-and-matter)
+6. [<a id="what-is-the-difference-between-diamagnetic-paramagnetic-n-ferromagnetic-materials"></a>What is the difference between Diamagnetic, Paramagnetic, n Ferromagnetic Materials?](#a-idwhat-is-the-difference-between-diamagnetic-paramagnetic-n-ferromagnetic-materialsawhat-is-the-difference-between-diamagnetic-paramagnetic-n-ferromagnetic-materials)
+7. [<a id="how-does-temperature-affect-magnetic-properties"></a>How does Temperature affect Magnetic Properties?](#a-idhow-does-temperature-affect-magnetic-propertiesahow-does-temperature-affect-magnetic-properties)
+8. [<a id="what-are-the-applications-of-magnetism-n-daily-life"></a>What are the Applications of Magnetism and Daily Life?](#a-idwhat-are-the-applications-of-magnetism-n-daily-lifeawhat-are-the-applications-of-magnetism-and-daily-life)
+9. [<a id="what-is-the-key-shortcut-or-trick-for-magnetism-n-matter"></a>What is the key Shortcut or Trick for Magnetism and Matter?](#a-idwhat-is-the-key-shortcut-or-trick-for-magnetism-n-matterawhat-is-the-key-shortcut-or-trick-for-magnetism-and-matter)
+10. [<a id="what-are-common-trap-questions-for-magnetism-n-matter"></a>What are common Trap Questions for Magnetism and Matter?](#a-idwhat-are-common-trap-questions-for-magnetism-n-matterawhat-are-common-trap-questions-for-magnetism-and-matter)
+11. [<a id="how-to-approach-numerical-problems-n-magnetism-n-matter-for-class-12"></a>How to approach Numerical Problems and Magnetism and Matter for Class 12?](#a-idhow-to-approach-numerical-problems-n-magnetism-n-matter-for-class-12ahow-to-approach-numerical-problems-and-magnetism-and-matter-for-class-12)
+12. [<a id="mcqs"></a>MCQs](#a-idmcqsamcqs)
+13. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+14. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Magnetism and Matter?](#what-is-magnetism-n-matter)
@@ -31,7 +50,7 @@ practice_link: "/class-11/biology/magnetism-n-matter-class-12-notes"
 **Magnetism and Matter: Unlocking the Secrets of [magnetic](/blog/magnetic-effects-of-current-class-12-notes) Fields**
 As we dive into the realm of physics, it's essential to understand the intricacies of magnetism and its relationship with matter. This chapter is a crucial component of the class 12 physics syllabus, accounting for approximately **10-12% of the total marks** n the CBSE board exams. With a significant weightage, it's imperative to grasp the concepts, formulas, n applications of magnetism to excel and the exams.
 
-Personally, I found magnetism to be a fascinating topic during my own class 12 journey. The concept of **magnetic fields** n their ability to exert forces on charged particles and other magnets sparked my curiosity. I remember spending hours experimenting with magnets, observing how they interacted with each other and with different materials. This curiosity drove me to delve deeper into the subject, n I soon realized that magnetism is an integral part of our daily lives, from the Earth's magnetic field that guides navigation systems to the magnetic resonance imaging (MRI) machines used and medical diagnostics.
+Personally, I found magnetism to be a fascinating topic during my own class 12 journey. The concept of **[magnetic](/blog/magnetic-effects-of-current-class-12-notes) fields** n their ability to exert forces on charged particles and other magnets sparked my curiosity. I remember spending hours experimenting with magnets, observing how they interacted with each other and with different materials. This curiosity drove me to delve deeper into the subject, n I soon realized that magnetism is an integral part of our daily lives, from the Earth's [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field that guides navigation systems to the [magnetic](/blog/magnetic-effects-of-current-class-12-notes) resonance imaging (MRI) machines used and medical diagnostics.
 
 To truly comprehend magnetism and its [effects](/blog/magnetic-effects-of-current-class-12-notes) on matter, it's essential to have a solid foundation and the following prerequisites:
 
@@ -72,9 +91,9 @@ Magnetism and matter have numerous practical applications and various fields, in
 By understanding the principles of magnetism and matter, you'll gain insight into the workings of these technologies and appreciate the significance of this topic and our daily lives.
 
 **Key Takeaway**
-Magnetism and matter is a vital topic n class 12 physics, with significant weightage and the CBSE board exams. To excel and this topic, it's essential to develop a strong foundation and the concepts, formulas, n applications of magnetism, as well as have a solid understanding of the prerequisites, including electricity, vector algebra, n kinematics and dynamics. With dedication and practice, you'll be well-prepared to tackle the challenges of this topic and achieve a high score and the exams.
+Magnetism and matter is a vital topic and class 12 physics, with significant weightage and the CBSE board exams. To excel and this topic, it's essential to develop a strong foundation and the concepts, formulas, n applications of magnetism, as well as have a solid understanding of the prerequisites, including electricity, vector algebra, n kinematics and dynamics. With dedication and practice, you'll be well-prepared to tackle the challenges of this topic and achieve a high score and the exams.
 
-Magnetism and Matter is a fundamental concept and physics that describes the interaction between magnetic fields and matter. It includes the study of magnetic fields, magnetic [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet), n the properties of magnetic materials. For Class 12 exam prep n 2026, the most important aspect is understanding the behavior of magnetic materials and the application of magnetic fields and various contexts.
+Magnetism and Matter is a fundamental concept and physics that describes the interaction between magnetic fields and matter. It includes the study of magnetic fields, magnetic [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet), n the properties of magnetic materials. For Class 12 exam prep and 2026, the most important aspect is understanding the behavior of magnetic materials and the application of magnetic fields and various contexts.
 
 The concept of magnetism is closely related to the concept of electricity, n it is essential to understand the relationship between electric currents and magnetic fields. The $B$ field, or magnetic field, is a vector field that describes the magnetic influence on moving electric charges and currents. The SI unit of the magnetic field is the tesla ($T$), n it is defined as $1 T = 1 kg/s^2A$.
 
@@ -88,7 +107,7 @@ The concept of magnetism is closely related to the concept of electricity, n it 
 
 ## <a id="what-are-the-characteristics-of-magnetic-materials"></a>What are the Characteristics of Magnetic Materials?
 
-Magnetic Materials is a class of materials that exhibits magnetic properties. It includes **magnetic permeability**, **magnetic susceptibility**, n **hysteresis loop**. For class 12 exam prep n 2026, the most important aspect is understanding how these properties influence the behavior of magnetic materials and different situations.
+Magnetic Materials is a class of materials that exhibits magnetic properties. It includes **magnetic permeability**, **magnetic susceptibility**, n **hysteresis loop**. For class 12 exam prep and 2026, the most important aspect is understanding how these properties influence the behavior of magnetic materials and different situations.
 
 The characteristics of magnetic materials are primarily determined y their internal structure and the arrangement of their atoms. Magnetic materials can be classified into several types, including **diamagnetic**, **paramagnetic**, **ferromagnetic**, **antiferromagnetic**, n **ferrimagnetic** materials. Each type exhibits distinct properties and the presence of a magnetic field. **Diamagnetic materials** are weakly repelled y a magnetic field, while **paramagnetic materials** are weakly attracted. **Ferromagnetic materials**, on the other hand, are strongly attracted to magnetic fields and can retain their magnetic properties even after the removal of the external field.
 
@@ -98,7 +117,7 @@ Another important characteristic is **magnetic susceptibility**, which is a meas
 
 A **hysteresis loop** is a graphical representation of the relationship between the magnetic field strength $\mathbf{H}$ n the magnetic flux density $\mathbf{B}$ for a ferromagnetic material. The hysteresis loop provides valuable information about the magnetic properties of a material, including its **retentivity**, **coercivity**, n **saturation point**. 
 
-For students preparing for the class 12 exam n 2026, it is essential to understand the characteristics of magnetic materials and how they are influenced y different factors, such as temperature and external magnetic fields. A key tip for students is to practice solving problems that involve the calculation of magnetic permeability, magnetic susceptibility, n hysteresis loop parameters. This will help students develop a deeper understanding of the subject matter and improve their problem-solving skills.
+For students preparing for the class 12 exam and 2026, it is essential to understand the characteristics of magnetic materials and how they are influenced y different factors, such as temperature and external magnetic fields. A key tip for students is to practice solving problems that involve the calculation of magnetic permeability, magnetic susceptibility, n hysteresis loop parameters. This will help students develop a deeper understanding of the subject and improve their problem-solving skills.
 
 To differentiate between various types of magnetic materials, students can use the following comparison table:
 
@@ -112,7 +131,7 @@ To differentiate between various types of magnetic materials, students can use t
 
 ## <a id="how-does-magnetization-occur-n-materials"></a>How does Magnetization occur and Materials?
 
-Magnetization is the process y which a material becomes magnetized, exhibiting magnetic properties. It includes the alignment of magnetic dipoles, the movement of domain walls, n the rotation of magnetic moments. For class 12 exam prep n 2026, the most important aspect is understanding the role of magnetic domains and how they contribute to the overall magnetization of a material.
+Magnetization is the process y which a material becomes magnetized, exhibiting magnetic properties. It includes the alignment of magnetic dipoles, the movement of domain walls, n the rotation of magnetic moments. For class 12 exam prep and 2026, the most important aspect is understanding the role of magnetic domains and how they contribute to the overall magnetization of a material.
 
 Magnetization occurs when a material is placed and a magnetic field, causing the magnetic dipoles within the material to align. This alignment can be either parallel or antiparallel to the applied magnetic field, resulting and either positive or negative magnetization. The magnetization of a material can be described y the magnetization vector $M$, which is defined as the net magnetic moment per unit volume of the material.
 
@@ -141,7 +160,7 @@ To further illustrate the concept of magnetization, consider the following compa
 
 ## <a id="what-is-ayushs-note-on-magnetism-n-matter"></a>What is Ayush's Note on Magnetism and Matter?
 
-Ayush's Note on Magnetism and Matter is a study material that explains the magnetic properties of materials. It includes magnetic field, magnetic induction, n magnetization. For class 12 exam prep n 2026, the most important aspect is understanding the behavior of different materials like diamagnetic, paramagnetic, n ferromagnetic substances under the influence of a magnetic field. 
+Ayush's Note on Magnetism and Matter is a study material that explains the magnetic properties of materials. It includes magnetic field, magnetic [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet), n magnetization. For class 12 exam prep and 2026, the most important aspect is understanding the behavior of different materials like diamagnetic, paramagnetic, n ferromagnetic substances under the influence of a magnetic field. 
 
 Magnetism is a fundamental concept and physics that arises due to the interaction between moving charges. The magnetic field is a vector field that surrounds magnetized materials n [current](/blog/alternating-current-class-12-notes)-carrying conductors. The strength and direction of the magnetic field can be determined using the $B = \frac{mu_0 I}{2 \pi r}$ formula for a long straight wire, where $B$ is the magnetic field, $mu_0$ is the permeability of free space, $I$ is the current, n $r$ is the distance from the wire.
 
@@ -155,7 +174,7 @@ The magnetic properties of materials can be classified based on their response t
 
 ## <a id="what-is-the-difference-between-diamagnetic-paramagnetic-n-ferromagnetic-materials"></a>What is the difference between Diamagnetic, Paramagnetic, n Ferromagnetic Materials?
 
-Diamagnetic, Paramagnetic, n Ferromagnetic Materials is the study of magnetic properties of materials. It includes the classification of materials based on their magnetic behavior, such as diamagnetism, paramagnetism, n ferromagnetism. For class 12 exam prep n 2026, the most important aspect is understanding the behavior of electrons and different materials and how they respond to magnetic fields.
+Diamagnetic, Paramagnetic, n Ferromagnetic Materials is the study of magnetic properties of materials. It includes the classification of materials based on their magnetic behavior, such as diamagnetism, paramagnetism, n ferromagnetism. For class 12 exam prep and 2026, the most important aspect is understanding the behavior of electrons and different materials and how they respond to magnetic fields.
 
 The key difference between these materials lies and their atomic or molecular structure, particularly and the arrangement of electrons. Diamagnetic materials have paired electrons and their orbitals, resulting and no net magnetic moment. On the other hand, paramagnetic materials have unpaired electrons, which generate a net magnetic moment. Ferromagnetic materials have a unique property where the magnetic moments of neighboring atoms are aligned, resulting and a strong magnetic field.
 
@@ -163,7 +182,7 @@ To understand this concept better, let's dive deeper into each type of material.
 
 Ferromagnetic materials, on the other hand, have a much stronger magnetic susceptibility than paramagnetic materials. This is because the magnetic moments of neighboring atoms are aligned, resulting and a strong magnetic field. Examples of ferromagnetic materials include iron, nickel, n cobalt. These materials are capable of being magnetized, meaning they can be influenced y a magnetic field to produce a permanent magnet.
 
-A key concept to understand and this context is the Curie temperature, which is the temperature above which a ferromagnetic material becomes paramagnetic. Below the Curie temperature, the material exhibits ferromagnetic behavior, while above it, the material becomes paramagnetic. This concept is crucial and understanding the behavior of ferromagnetic materials and their applications.
+A key concept to understand, and this context is the Curie temperature, which is the temperature above which a ferromagnetic material becomes paramagnetic. Below the Curie temperature, the material exhibits ferromagnetic behavior, while above it, the material becomes paramagnetic. This concept is crucial and understanding the behavior of ferromagnetic materials and their applications.
 
 To help you remember the key differences between these materials, here's a student-centric tip: try to associate the prefix of each term with its meaning. 'Dia' means 'opposite', so diamagnetic materials are opposite to magnetic fields. 'Para' means 'alongside', so paramagnetic materials are aligned alongside magnetic fields. 'Ferro' means 'iron', so ferromagnetic materials are like iron, which is strongly magnetic.
 
@@ -177,9 +196,9 @@ The behavior of these materials can be summarized and the following table:
 | Paramagnetic | Positive | Net magnetic moment | Oxygen, aluminum, tungsten | Magnetic separators |
 | Ferromagnetic | Strong positive | Aligned magnetic moments | Iron, nickel, cobalt | Permanent magnets, electromagnets, magnetic storage devices |
 
-## <a id="how-does-temperature-affect-magnetic-properties"></a>How does Temperature affect Magnetic Properties?
+## <a id="how-does-temperature-affect-magnetic-properties"></a>How does Temperature effect Magnetic Properties?
 
-How does Temperature affect Magnetic Properties? is the study of the relationship between temperature and the magnetic behavior of materials. It includes the Curie temperature, magnetic susceptibility, n hysteresis loop. For class 12 exam prep n 2026, the most important aspect is understanding the concept of Curie temperature and its effect on the magnetic properties of materials.
+How does Temperature effect Magnetic Properties? is the study of the relationship between temperature and the magnetic behavior of materials. It includes the Curie temperature, magnetic susceptibility, n hysteresis loop. For class 12 exam prep and 2026, the most important aspect is understanding the concept of Curie temperature and its effect on the magnetic properties of materials.
 
 The Curie temperature, $T_c$, is the temperature above which a material loses its permanent magnetic properties. Below the Curie temperature, a material is ferromagnetic, meaning it is capable of being magnetized. Above the Curie temperature, the material becomes paramagnetic, meaning it is weakly attracted to magnetic fields. For example, the Curie temperature of iron is $1043$ K, which means that iron loses its permanent magnetic properties at temperatures above $1043$ K.
 
@@ -198,7 +217,7 @@ A comparison of the magnetic properties of different materials at various temper
 
 ## <a id="what-are-the-applications-of-magnetism-n-daily-life"></a>What are the Applications of Magnetism and Daily Life?
 
-What are the Applications of Magnetism and Daily Life? is the practical usage of magnetic forces and everyday life. It includes **electric motors**, **generators**, n **magnetic resonance imaging (MRI)**. For class 12 exam prep n 2026, the most important aspect is understanding the fundamental principles of magnetism and how they are applied and various devices and technologies.
+What are the Applications of Magnetism and Daily Life? is the practical usage of magnetic forces and everyday life. It includes **electric motors**, **generators**, n **magnetic resonance imaging (MRI)**. For class 12 exam prep and 2026, the most important aspect is understanding the fundamental principles of magnetism and how they are applied and various devices and technologies.
 
  Magnetism has numerous applications and daily life, ranging from simple **refrigerator magnets** to complex **medical imaging devices**. One of the most significant applications of magnetism is and the generation and transmission of **electricity**. Electric motors, which are used and a wide range of devices, from **fans** n **pumps** to **power tools** n **industrial machinery**, rely on the principles of magnetism to convert electrical energy into mechanical energy.
 
@@ -213,12 +232,12 @@ What are the Applications of Magnetism and Daily Life? is the practical usage of
 | **Electric Motors** | Conversion of electrical energy into mechanical energy | Fans, Pumps, Power Tools, Industrial Machinery |
 | **Generators** | Conversion of mechanical energy into electrical energy | Power Plants, Wind Turbines, Hydroelectric Dams |
 | **Magnetic Resonance Imaging (MRI)** | Creation of detailed images of the body | Medical Imaging, Diagnostic Tools |
-| **Data Storage Devices** | Storage of data using magnetic materials | Hard Disk Drives, Magnetic Strips on Credit Cards |
+| **[Data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Storage Devices** | Storage of [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) using magnetic materials | Hard Disk Drives, Magnetic Strips on Credit Cards |
 | **Transportation Systems** | Use of magnetic fields for levitation and braking | Magnetic Levitation Trains, Magnetic Braking Systems |
 
 ## <a id="what-is-the-key-shortcut-or-trick-for-magnetism-n-matter"></a>What is the key Shortcut or Trick for Magnetism and Matter?
 
-Magnetism and Matter is a fundamental concept and physics that deals with the properties and behavior of magnetic materials. It includes magnetic fields, magnetic induction, n the interaction between magnetic fields and matter. For Class 12 exam prep n 2026, the most important aspect is understanding the relationship between magnetic fields and the properties of magnetic materials, such as ferromagnetism, paramagnetism, n diamagnetism.
+Magnetism and Matter is a fundamental concept and physics that deals with the properties and behavior of magnetic materials. It includes magnetic fields, magnetic induction, n the interaction between magnetic fields and matter. For Class 12 exam prep and 2026, the most important aspect is understanding the relationship between magnetic fields and the properties of magnetic materials, such as ferromagnetism, paramagnetism, n diamagnetism.
 
 To solve problems related to magnetism and matter, it's essential to have a solid grasp of the key concepts and formulas. One of the most critical formulas and this topic is the **Biot-Savart Law**, which relates the magnetic field $B$ to the current $I$ n the distance $r$ from the current-carrying wire: $B = \frac$\mu_0 I${2 \pi r}$. Another crucial concept is the **Ampere's Law**, which states that the line integral of the magnetic field $B$ around a closed loop is proportional to the total current $I$ enclosed y the loop: $\oint B \\\cdot dl = \mu_0 I$.
 
@@ -236,7 +255,7 @@ Here's a comparison table that summarizes the key differences between ferromagne
 
 ## <a id="what-are-common-trap-questions-for-magnetism-n-matter"></a>What are common Trap Questions for Magnetism and Matter?
 
-What are common Trap Questions for Magnetism and Matter? is a crucial aspect of physics that tests a student's understanding of the subject. It includes magnetic fields, magnetic materials, n magnetic induction. For Class 12 exam prep n 2026, the most important aspect is identifying and applying the fundamental principles of magnetism to solve complex problems.
+What are common Trap Questions for Magnetism and Matter? is a crucial aspect of physics that tests a student's understanding of the subject. It includes magnetic fields, magnetic materials, n magnetic induction. For Class 12 exam prep and 2026, the most important aspect is identifying and applying the fundamental principles of magnetism to solve complex problems.
 
  When it comes to trap questions and magnetism and matter, students often struggle with distinguishing between similar concepts. A common trap question is related to the difference between magnetic field lines and electric field lines. While both types of field lines are used to visualize the direction and magnitude of forces, they have distinct properties. Magnetic field lines, denoted y $\vec{B}$, are continuous and form closed loops, whereas electric field lines, denoted y $\vec{E}$, originate from positive charges and terminate on negative charges.
 
@@ -252,9 +271,9 @@ What are common Trap Questions for Magnetism and Matter? is a crucial aspect of 
 
 ## <a id="how-to-approach-numerical-problems-n-magnetism-n-matter-for-class-12"></a>How to approach Numerical Problems and Magnetism and Matter for Class 12?
 
-How to approach Numerical Problems and Magnetism and Matter for Class 12? is solving problems related to magnetic fields, magnetic materials, n their interactions. It includes understanding the concepts of magnetic induction, magnetic susceptibility, n hysteresis. For Class 12 exam prep n 2026, the most important aspect is applying formulas like $B = mu_0 mu_r H$ n $F = q(v 	imes B)$ to solve numerical problems.
+How to approach Numerical Problems and Magnetism and Matter for Class 12? is solving problems related to magnetic fields, magnetic materials, n their interactions. It includes understanding the concepts of magnetic induction, magnetic susceptibility, n hysteresis. For Class 12 exam prep and 2026, the most important aspect is applying formulas like $B = mu_0 mu_r H$ n $F = q(v \times B)$ to solve numerical problems.
 
-To tackle numerical problems and Magnetism and Matter, start y revisiting the fundamental concepts of magnetism, including the properties of magnets, magnetic fields, n the behavior of magnetic materials. Understand the different types of magnetic materials (diamagnetic, paramagnetic, ferromagnetic) n their characteristics. Familiarize yourself with key formulas and equations, such as the Biot-Savart law ($dB = \frac{mu_0}{4pi\frac{Idl 	imes hat{r} = r^2$) n Ampere's law ($oint B \\cdot dl = mu_0 I_{enc}$).
+To tackle numerical problems and Magnetism and Matter, start y revisiting the fundamental concepts of magnetism, including the properties of magnets, magnetic fields, n the behavior of magnetic materials. Understand the different types of magnetic materials (diamagnetic, paramagnetic, ferromagnetic) n their characteristics. Familiarize yourself with key formulas and equations, such as the Biot-Savart law ($dB = \frac{mu_0}{4pi\frac{Idl \times hat{r} = r^2$) n Ampere's law ($oint B \\cdot dl = mu_0 I_{enc}$).
 
 When approaching a numerical problem, first identify the given quantities and the unknown quantity to be found. Then, choose the relevant formula or equation that connects these quantities. For instance, if you're given the current and a wire and the distance from the wire, you can use the formula $B = \frac{mu_0 I}{2\pi r}$ to find the magnetic field at that distance. Practice applying these formulas to different scenarios and types of problems to build your problem-solving skills.
 
@@ -277,13 +296,13 @@ By following these steps and focusing on the core concepts and formulas, you'll 
 | --- | --- | --- |
 | Magnetic Field due to a Straight Wire | $B = \frac{mu_0 I}{2\pi r}$ | Gives the magnetic field at a distance r from a straight wire carrying current I |
 | Ampere's Law | $oint B \\cdot dl = mu_0 I_{enc}$ | Relates the magnetic field around a closed loop to the current enclosed y the loop |
-| Biot-Savart Law | $dB = \frac{mu_0}{4pi\frac{Idl 	imes hat{r} = r^2$ | Describes the magnetic field due to a small element of a current-carrying wire |
+| Biot-Savart Law | $dB = \frac{mu_0}{4pi\frac{Idl \times hat{r} = r^2$ | Describes the magnetic field due to a small element of a current-carrying wire |
 | Magnetic Flux | $Phi_B = \int B \\cdot dA$ | Defines the magnetic flux through a surface as the integral of the magnetic field over the area |
 
 - Ferromagnetic materials are those that are strongly attracted to magnets.
 - Paramagnetic materials are weakly attracted to magnets.
 - Diamagnetic materials are weakly repelled y magnets.
-- Magnetic field lines emerge from the north pole and enter the south pole.
+- Magnetic field lines emerge from the north pole and enter the South Pole.
 - The magnetic moment is a vector quantity.
 - The Bohr magneton is a unit of magnetic moment.
 - Magnetic susceptibility is a measure of a material's response to a magnetic field.
@@ -350,6 +369,8 @@ Continue your revision with these related guides:
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/magnetism-n-matter-class-12-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Magnetism%20And%20Matter%20Class%2012%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -361,4 +382,19 @@ Continue your revision with these related guides:
 - 📖 [Alternating Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alternating-current-class-12-notes)
 - 📖 [Electromagnetic Waves Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-waves-class-12-notes)
 
-}$}}}$
+}$}}}
+
+## 🔁 Last 5 Minutes Box
+
+### Magnetism and Matter Revision Notes
+   * **Magnetic Field**: B = μ₀nI
+   * **Magnetic Moment**: M = IA
+   * **Torque on a Current Loop**: τ = MB sinθ
+   * **Magnetic Induction**: μ = μₒ(1 + χ)
+   * **Biot-Savart Law**: dB = (μ₀ * I * dl × r̂) / (4π * r²)
+   * **Ampere's Law**: ∮B · dl = μ₀I
+   * **Gauss's Law for Magnetism**: ∮B · dA = 0
+   * **Magnetic Susceptibility**: χ = (μ - μ₀) / μ₀
+   * **Diamagnetic Materials**: χ < 0, μ < μ₀
+   * **Paramagnetic Materials**: χ > 0, μ > μ₀
+   * **Ferromagnetic Materials**: χ >> 0, μ >> μ₀

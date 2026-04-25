@@ -96,7 +96,7 @@ Selecting your UPSC optional is a strategic decision that bridges the gap betwee
 ## <a id="frequently-asked-questions-faqs"></a>Frequently Asked Questions (FAQs)
 
 ### <a id="1-is-geography-a-highrisk-optional"></a>1. Is Geography a high-risk optional?
-Geography is not inherently [high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)-risk, but it is massive. The syllabus is nearly double that of Sociology. However, it provides a significant advantage and GS Paper 1 n Prelims. If you are diligent and enjoy scientific humanities, it remains a strong choice for those who can manage its breadth.
+Geography is not inherently [high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)-risk, but it is massive. The syllabus is nearly double that of Sociology. However, it provides a significant advantage and GS Paper 1 and Prelims. If you are diligent and enjoy scientific humanities, it remains a strong choice for those who can manage its breadth.
 
 ### <a id="2-can-i-take-an-optional-different-from-my-graduation-subject"></a>2. Can I take an optional different from my graduation subject?
 Yes, approximately 70% of successful candidates choose an optional that is different from their college degree. UPSC optionals are designed to be generalist, meaning anyone with strong analytical skills can [master](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet) them using **NCERT solutions** level readings as a starting point.
@@ -144,3 +144,17 @@ Continue your [revision](/blog/state-scholarship-guide-2026-class-11-revision-no
 * **Overlooking the importance of previous years' question papers**: Not practicing previous years' question papers can lead to a lack of familiarity with the exam format and types of questions asked, making it difficult to perform well.
 * **Insufficient focus on building a strong foundation in the chosen subject**: Weak fundamentals in the chosen optional subject can hinder a student's ability to tackle complex questions and understand advanced concepts, ultimately affecting their overall score.
 * **Not seeking guidance from experienced mentors or teachers**: Failing to seek guidance from experienced mentors or teachers can lead to a lack of direction and strategy in preparing for the exam, resulting in suboptimal performance.
+
+## 🔁 Last 5 Minutes Box
+
+- **Sociology Optional**: 400 marks, syllabus includes Sociology of India, Social Institutions, and Social Change.
+   - **Geography Optional**: 400 marks, syllabus includes Physical Geography, Human Geography, and Geography of India.
+   - **Public Administration Optional**: 400 marks, syllabus includes Administrative Theory, Public Organizations, and Public Policy.
+   - **Psychology Optional**: 400 marks, syllabus includes Foundations of Psychology, Cognitive Psychology, and Social Psychology.
+   - **Philosophy Optional**: 400 marks, syllabus includes Western Philosophy, Indian Philosophy, and Logic.
+   - **Anthropology Optional**: 400 marks, syllabus includes Physical Anthropology, Social Anthropology, and Archaeological Anthropology.
+   - **Mathematics Optional**: 400 marks, syllabus includes Algebra, Analysis, and Geometry.
+   - **Statistics Optional**: 400 marks, syllabus includes Probability, Statistical Inference, and Data Analysis.
+   - **Physics Optional**: 400 marks, syllabus includes Mechanics, Electromagnetism, and Thermodynamics.
+   - **Chemistry Optional**: 400 marks, syllabus includes Inorganic Chemistry, Organic Chemistry, and Physical Chemistry.
+   - **Biology Optional**: 400 marks, syllabus includes Botany, Zoology, and Biotechnology.

@@ -45,7 +45,7 @@ practice_link: "/class-11/indian-geography-climate-class-11-revision-notes-cbse"
 
 ## <a id="what-is-climate"></a>What is Climate?
 
-Climate is a long-term average of atmospheric conditions and a particular region, including temperature, precipitation, n wind patterns. It includes the study of atmospheric conditions, the impact of climate on the environment, n the effects of human activities on climate change. For class 11 exam prep n 2026, the most important aspect is understanding the difference between weather and climate, as well as the various factors that influence climate.
+Climate is a long-term average of atmospheric conditions and a particular region, including temperature, precipitation, n wind patterns. It includes the study of atmospheric conditions, the impact of climate on the environment, n the effects of human activities on climate change. For class 11 exam prep and 2026, the most important aspect is understanding the difference between weather and climate, as well as the various factors that influence climate.
 
 ## <a id="what-are-the-key-factors-influencing-climate"></a>What are the key factors influencing Climate?
 
@@ -107,7 +107,7 @@ Continue your [revision](/blog/fundamental-rights-class-11-revision-notes-cbse) 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/[indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet)-geography-climate-class-11-revision-notes-cbse) now and track your progress against thousands of students.
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Indian%20Geography%20Climate%20Class%2011%20Geography%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet)%20Geography%20Climate%20Class%2011%20Geography%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 
@@ -129,7 +129,7 @@ Continue your [revision](/blog/constitutional-framework-class-11-revision-notes-
 * Students often confuse the cold and hot desert climates of [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee), with the former being found in the Himalayan regions and the latter in the Thar Desert.
 * The concept of the 'trade winds' and 'westerlies' is often mixed up by students, with the trade winds blowing from the northeast during winter and the westerlies bringing rain to [India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) during the summer months.
 * Many students mistakenly believe that the monsoon rains are the primary source of rainfall in all parts of [India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee), when in fact, some regions like the Andaman and Nicobar Islands receive significant rainfall from other sources.
-* India's climate is often oversimplified as being divided into just three main seasons (summer, monsoon, and winter), when in fact, there are actually four distinct seasons: winter, pre-monsoon, monsoon, and post-monsoon.
+* [India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)'s climate is often oversimplified as being divided into just three main seasons (summer, monsoon, and winter), when in fact, there are actually four distinct seasons: winter, pre-monsoon, monsoon, and post-monsoon.
 
 ## 🔁 Last 5 Minutes Box
 

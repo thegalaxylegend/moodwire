@@ -9,6 +9,26 @@ practice_link: "/class-11/biology/waves-class-11-revision-notes-neet"
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-waves-revision-notes"></a>What is Waves Revision Notes?](#a-idwhat-is-waves-revision-notesawhat-is-waves-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-the-nature-of-waves-classifications-n-definitions"></a>1. The Nature of Waves: Classifications and Definitions](#a-id1-the-nature-of-waves-classifications-n-definitionsa1-the-nature-of-waves-classifications-and-definitions)
+5. [<a id="2-mathematical-representation-of-a-progressive-wave"></a>2. Mathematical Representation of a Progressive Wave](#a-id2-mathematical-representation-of-a-progressive-wavea2-mathematical-representation-of-a-progressive-wave)
+6. [<a id="3-speed-of-waves-the-technical-derivations"></a>3. Speed of Waves: The Technical Derivations](#a-id3-speed-of-waves-the-technical-derivationsa3-speed-of-waves-the-technical-derivations)
+7. [<a id="4-the-principle-of-superposition"></a>4. The Principle of Superposition](#a-id4-the-principle-of-superpositiona4-the-principle-of-superposition)
+8. [<a id="5-standing-waves-stationary-waves"></a>5. Standing Waves (Stationary Waves)](#a-id5-standing-waves-stationary-wavesa5-standing-waves-stationary-waves)
+9. [<a id="6-beats-interference-n-time"></a>6. Beats: Interference and Time](#a-id6-beats-interference-n-timea6-beats-interference-and-time)
+10. [<a id="7-the-doppler-effect-master-derivation"></a>7. The Doppler Effect (Master Derivation)](#a-id7-the-doppler-effect-master-derivationa7-the-doppler-effect-master-derivation)
+11. [<a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&](#a-idcomprehensive-exam-strategy-qandaacomprehensive-exam-strategy-q)
+12. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+13. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+14. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+15. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Waves Revision Notes?](#what-is-waves-revision-notes)
@@ -46,19 +66,19 @@ practice_link: "/class-11/biology/waves-class-11-revision-notes-neet"
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
 > - **Wave Speed:** v = ν λ. String v = √(T/μ). Gas v = √(γP/ρ).
-> - **Progressive Wave:** y = A sin(kx - ωt).
+> - **Progressive Wave:** y = A \sin(kx - ωt).
 > - **Standing Waves:** 
 >   - Open Pipe: All harmonics (f_n = n v/2L).
 >   - Closed Pipe: Odd harmonics (f_n = (2n-1) v/4L).
 > - **Beats:** Beat frequency f = |f1 - f2|.
-> - **Doppler Effect:** f' = f [ (v ± v_o) / (v ∓ v_s) ].
+> - **Doppler Effect:** f' = f [ (v ± v_o) / (v ∓ v’s) ].
 > [**📥 Download 1-Page Short Notes PDF (Zero-Friction)**](#)
 
 ---
 
 ## <a id="introduction"></a>Introduction
 
-Waves are the carriers of energy and information across the universe. From the seismic tremors that reshape continents to the electromagnetic signals that power the internet, the movement of energy through a medium (or vacuum) defines our modern reality. This final chapter of class 11 Physics, "Waves," is the culmination of everything we have learned about mechanics and oscillations. It describes how a disturbance and one part of a medium propagates to another, without the actual transport of matter. In this "Comprehensive" guide, we provide the most exhaustive technical derivations available—from Laplace's correction for the speed of sound to the complex geometry of the Doppler Effect—ensuring you are fully equipped for JEE, NEET, n Board exams.
+Waves are the carriers of energy and information across the universe. From the seismic tremors that reshape continents to the electromagnetic signals that power the internet, the movement of energy through a medium (or vacuum) defines our modern reality. This final chapter of class 11 Physics, "Waves," is the culmination of everything we have learned about mechanics and oscillations. It describes how a disturbance and one part of a medium propagates to another, without the actual transport of [matter](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet). In this "Comprehensive" guide, we provide the most exhaustive technical derivations available—from Laplace's correction for the speed of sound to the complex geometry of the Doppler Effect—ensuring you are fully equipped for JEE, NEET, n Board exams.
 
 ---
 
@@ -67,8 +87,8 @@ Waves are the carriers of energy and information across the universe. From the s
 A **Wave** is a disturbance that travels through a medium, transporting energy from one point to another without causing permanent displacement of the particles of the medium.
 
 ### <a id="i-mechanical-vs-nonmechanical-waves"></a>I. Mechanical vs. Non-Mechanical Waves
-- **[mechanical](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) Waves:** Require a material medium (Elasticity and Inertia) for propagation (e.g., Sound, Water waves).
-- **Non-[mechanical](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) (Electromagnetic) Waves:** Do not require a medium; they propagate via oscillating electric and magnetic fields (e.g., Light, Radio waves).
+- **[mechanical](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) Waves:** require a material medium (Elasticity and Inertia) for propagation (e.g., Sound, water waves).
+- **Non-[mechanical](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) (Electromagnetic) Waves:** Do not require a medium; they propagate via oscillating electric and magnetic fields (e.g., light, radio waves).
 
 ### <a id="ii-transverse-vs-longitudinal-waves"></a>II. Transverse vs. Longitudinal Waves
 - **Transverse Waves:** Particles of the medium vibrate perpendicular to the direction of wave propagation. They consist of **Crests** n **Troughs**. (e.g., Waves on a string).
@@ -92,7 +112,7 @@ A **Progressive Wave** is a wave that moves continuously and a specific directio
 
 ### <a id="i-the-wave-equation"></a>I. The Wave Equation
 For a wave traveling and the positive X-direction:
-**y(x, t) = A sin(kx - ωt + φ)**
+**y(x, t) = A \sin(kx - ωt + φ)**
 Where:
 - **y:** Displacement at position x and time t.
 - **φ:** Initial phase constant.
@@ -131,7 +151,7 @@ Laplace argued that sound propagation is so fast that no heat exchange occurs; i
 
 ## <a id="4-the-principle-of-superposition"></a>4. The Principle of Superposition
 
-**Statement:** When two or more waves overlap and a medium, the resultant displacement at any point is the vector \sum of the individual displacements.
+**Statement:** When two or more waves overlap and a medium, the resultant displacement at any point is the vector $\sum$of the individual displacements.
 **y_net = y1 + y2 + y3 + ...**
 
 ### <a id="i-interference"></a>I. Interference
@@ -145,19 +165,19 @@ Laplace argued that sound propagation is so fast that no heat exchange occurs; i
 Formed when two identical waves traveling and opposite directions superimpose. They do not transport energy.
 
 ### <a id="i-analytical-treatment"></a>I. Analytical Treatment
-1.  **y1 = A sin(kx - ωt)** (Incoming).
-2.  **y2 = A sin(kx + ωt)** (Reflecte
+1.  **y1 = A \sin(kx - ωt)** (Incoming).
+2.  **y2 = A \sin(kx + ωt)** (Reflecte
 d).
-3.     **y_net = (2A $\cos$ ωt) $\sin kx**.$
-**Result:** The amplitude **(2A $\sin kx)** depends on position **x**.$
-- $**Nodes:** Points of zero displacement (**\sin kx = 0**).$
-- $**Antinodes:** Points of maximum displacement (**\sin kx = 1**).$
+3.      **y_net = (2A \\cos ωt) \\sin kx**.
+**Result:** The amplitude **(2A $\\sin kx)** depends on position **x**.$
+- $**Nodes:** Points of zero displacement (**\\sin kx = 0**).$
+- $**Antinodes:** Points of maximum displacement (**\\sin kx = 1**).$
 ### <a id="ii-standing-waves-n-a-stretched-string"></a>II. Standing Waves and a Stretched String
 Both ends are fixed, so they must be Nodes.
 **Fundamental Frequency (f1) = v / 2L = (1/2L) √(T/μ)**.
 **Harmonics:** f2 = 2f1, f3 = 3f1... (All harmonics are present).
 ### <a id="iii-organ-pipes-the-physics-of-air-columns"></a>III. Organ Pipes: The Physics of Air Columns
-1.  **Closed Pipe (One end closed):** Closed end is a Node, Open end is an Antinode.
+1.  **Closed Pipe (One end closed):** Closed end is a Node, open end is an Antinode.
 - **Fundamental:** f1 = v / 4L.
 - **Harmonics:** 1 : 3 : 5 : ... (**Only odd harmonics**).
 2.  **Open Pipe (Both ends open):** Both ends are Antinodes.
@@ -174,23 +194,23 @@ Formed y the superposition of two waves of slightly different frequencies (**ν1
 ## <a id="7-the-doppler-effect-master-derivation"></a>7. The Doppler Effect (Master Derivation)
 The apparent change and frequency of a wave due to the relative [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) between the source and the observer.
 ### <a id="i-the-general-formula"></a>I. The General Formula
-**f' = f [ (v ± v_o) / (v ∓ v_s) ]**
+**f' = f [ (v ± v_o) / (v ∓ v’s) ]**
 Where:
 - **f':** Observed frequency.
 - **f:** Actual frequency.
 - **v:** Speed of sound.
 - **v_o:** Velocity of observer.
-- **v_s:** Velocity of source.
+- **v’s:** Velocity of source.
 ### <a id="ii-derivation-steps"></a>II. Derivation Steps
-1.  Let the source move toward the observer with **v_s**. The wave is "compressed" n front of the source.
-2.  The effective wavelength becomes **λ' = (v - v_s) / f**.
-3.  The observer (stationary) sees frequency **f' = v / λ' = f [v / (v - v_s)]**.
+1.  Let the source move toward the observer with **v’s**. The wave is "compressed" n front of the source.
+2.  The effective wavelength becomes **λ' = (v - v’s) / f**.
+3.  The observer (stationary) sees frequency **f' = v / λ' = f [v / (v - v’s)]**.
 4.  If the observer also moves toward the source with **v_o**, the relative speed of the wave wrt observer is **(v + v_o)**.
-5.  **f_final = (v + v_o) / λ' = f [ (v + v_o) / (v - v_s) ]**.
+5.  **f_final = (v + v_o) / λ' = f [ (v + v_o) / (v - v’s) ]**.
 ---
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&
 A)
-**          Q1: Why does sound travel faster n [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than and gases?**
+**           Q1: Why does sound travel faster n [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than and gases?**
 
 **Answer:** The speed of sound is **v = √(E / ρ)**. Although [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) are much denser than gases (which would decrease speed), their elasticity (E) is significantly higher. Since elasticity dominates the equation, sound travels ~15 \times faster n [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than and air.
 
@@ -240,6 +260,8 @@ Continue your [revision](/blog/motion-in-a-plane-class-11-revision-notes-jee-nee
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/waves-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Waves%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -251,3 +273,28 @@ Continue your [revision](/blog/motion-in-a-plane-class-11-revision-notes-jee-nee
 - 📖 [Motion In A Plane Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
 
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Confusing wave speed and particle speed**: Many students confuse the speed of a wave with the speed of the particles that make up the wave. Remember, the speed of a wave is the speed at which the disturbance travels, while the speed of the particles is the speed at which the individual particles oscillate.
+* **Forgetting to consider the medium**: When solving problems related to wave speed, it's essential to consider the [properties](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) of the medium through which the wave is traveling. The speed of a wave can depend on the density and elasticity of the medium.
+* **Incorrectly applying the wave equation**: The wave equation is a fundamental concept in physics, but it's often misapplied. Make sure to double-check the units and variables when using the equation to solve problems.
+* **Not distinguishing between transverse and longitudinal waves**: Transverse and longitudinal waves have different properties and behaviors. Be careful not to confuse the two, especially when dealing with problems related to wave polarization and reflection.
+* **Mistaking wave frequency for wave period**: Frequency and period are related but distinct concepts. Frequency is the number of oscillations per second, while period is the time taken for one complete oscillation. Make sure to use the correct units and formulas when working with these concepts.
+
+## 🔁 Last 5 Minutes Box
+
+### Wave Motion Formulas
+   * Speed of Transverse Wave in String: $v = sqrt{rac{T}{mu}}$
+   * Speed of Longitudinal Wave: $v = sqrt{rac{B}{ho}}$
+   * Speed of Wave in Medium: $v = rac{omega}{k} = lambda f$
+   * Refractive Index: $n = rac{v_1}{v_2} = rac{lambda_1}{lambda_2}$
+   * Reflection and Refraction Formulas:
+     + $Z_1 = rac{ho_1 v_1}{ho_2 v_2}$
+     + $rac{I_1}{I_2} = left( rac{Z_1 + Z_2}{Z_1 - Z_2} ight)^$2
+   ### Types of Waves
+   * Progressive Wave: $y(x, t) = a sin (kx - omega t)$
+   * Standing Wave: $y(x, t) = 2a sin kx cos omega t$
+   ### Sound Wave
+   * Speed of Sound: $v = 331 + 0.6t$
+   * Intensity of Sound Wave: $I = rac{P}{A} = rac{E}{At} = 10 log rac{I}{I_0}$
+   * Frequency Range: $20 Hz - 20,000 Hz (Human Ear)

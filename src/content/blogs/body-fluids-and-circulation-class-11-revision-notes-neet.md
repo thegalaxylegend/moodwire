@@ -608,7 +608,7 @@ Continue your [revision](/blog/neural-control-and-coordination-class-11-revision
 ## 🔁 Last 5 Minutes Box
 
 ### Body Fluids and Circulation
- * Blood: 5 liters (7% body weight), 55% plasma n 45% cells
+ * Blood: 5 liters (7% body we\right), 55% plasma and 45% cells
  * Plasma: 92% water, 7% proteins, 1% nutrients, waste, gases, etc.
  * Erythrocytes (RBCs): 5 million/mm^3
  * Leucocytes (WBCs): 6,000-8,000/mm^3

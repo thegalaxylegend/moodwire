@@ -219,7 +219,7 @@ A student drops HCl in NaOH solution. The student measures the initial and final
  Step 2: Understand that the increase in temperature indicates the release of heat energy → HQ = MC\delta TO, where $\delta TO$ is positive.
  **Final Answer:** $\text{Exothermic}$
 
-- ⚡ **Speed trick:** Remember that neutralization reactions between acids and bases are exothermic.
+- ⚡ **Speed trick:** Remember that neutralization [reactions](/blog/chemical-reactions-and-equations-class-10-notes) between acids and bases are exothermic.
 
 ---
 #### Q3 (2018 CBSE): 
@@ -305,7 +305,7 @@ To succeed in this topic, make sure to:
 - **📊 PYQ Frequency Intel:** The following sub-topics of Acids, Bases and Salts were asked in previous years: 
  * 2019: Types of salts and their formation [1]
  * 2021: Acid-base indicators and their use [2]
- * 2023: pH scale and its application in daily life [3]
+ * 2023: pH scale and its application in daily [life](/blog/life-processes-class-10-notes) [3]
 
 - **⚡ The 30-Second Shortcut:** To quickly determine if a salt is acidic, basic, or neutral, use the formula pH = 7 + $\log_{10}\frac{[A^-]}{[B^+]}$, where $[A^-]$ is the concentration of the conjugate base and $[B^+}$ is the concentration of the conjugate acid. If pH > 7$, the salt is basic; if pH < 7$, the salt is acidic; and if pH = $7, the salt is neutral. This technique can save time in exams when solving problems related to salts and their pH values.
 
@@ -343,40 +343,40 @@ The pH of a solution is a measure of its acidity or basicity, with a pH of 7 bei
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 
 **1. A strong acid has a pH value of 2. What is the concentration of OH_3O^+$ ions in the acid?**
-**A)**     01 M
-**B)**     1 M
-**C)**     1 M
-**D)**     01 M
+**A)**      01 M
+**B)**      1 M
+**C)**      1 M
+**D)**      01 M
 
 **Answer:** A) A strong acid is defined as an acid that completely dissociates in water, so a pH value of 2 is equivalent to $[H_3O^+] = 0.01 ME. Options B, C,$ and D are incorrect because they do not match the concentration of OH_3O^+$ ions in a strong acid with a pH of 2.
 
 ---
 
 **2. A base has a concentration of $0.1 ME$ and a pH value of 10. Is it a strong base?**
-**A)**     Yes
-**B)**     No
-**C)**     Maybe
-**D)**     Cannot be determined
+**A)**      Yes
+**B)**      No
+**C)**      Maybe
+**D)**      Cannot be determined
 
 **Answer:** B) A base with a pH value of 10 has a pOH value of $14 - 10 = 4$, so $[OH^-] = 10^{-4} ME.$ Since the base does not completely dissociate, it is a weak base. Options A, C, and D are incorrect because they do not accurately describe the nature of the base.
 
 ---
 
 **3. A salt of a strong acid and a strong base is formed by the reaction of $1 LA$ of $0.1 ME HCl$ with $1 LA$ of $0.2 ME NaOH. What$ is the concentration of ICL^-$ ions in the resulting solution?**
-**A)**     1 M
-**B)**     $0.2 M$
-**C)**     $0.03 M$
-**D)**     $0.08 M$
+**A)**      1 M
+**B)**      $0.2 M$
+**C)**      $0.03 M$
+**D)**      $0.08 M$
 
 **Answer:** B) The reaction between HCl and NaOH produces Nacli and OH_2O$. Since both HCl and NaOH are strong electrolytes, they completely dissociate, resulting in a solution with $0.2 ME ICL^-$ ions. Options A, C, and D are incorrect because they do not accurately describe the concentration of ICL^-$ ions in the solution.
 
 ---
 
 **4. Which of the following statements is true about a buffer solution?**
-**A)**     It resists changes in pH when small amounts of acid or base are added.
-**B)**     pH = 7$.$
-**C)**     It is a mixture of a strong acid and a strong base.
-**D)**     It is a
+**A)**      It resists changes in pH when small amounts of acid or base are added.
+**B)**      pH = 7$.$
+**C)**      It is a mixture of a strong acid and a strong base.
+**D)**      It is a
 
 Solution of a weak acid and its conjugate base or vice versa.
 
@@ -385,10 +385,10 @@ Solution of a weak acid and its conjugate base or vice versa.
 ---
 
 **5. A solution has a pH value of $7.4$. What is the concentration of $OH^-$ ions in the solution?**
-**A)**     $1.4 	times 10^{-7} ME$
-**B)**     $1.4 	times 10^{-4} ME$
-**C)**     $1.4 	times 10^{-10} ME$
-**D)**     $1.4 	times 10^{-11} ME$
+**A)**      $1.4 	times 10^{-7} ME$
+**B)**      $1.4 	times 10^{-4} ME$
+**C)**      $1.4 	times 10^{-10} ME$
+**D)**      $1.4 	times 10^{-11} ME$
 
 **Answer:** A) The pOH value is $14 - 7.4 = 6.6$, so $[OH^-] = 10^{-6.6} ME. Using$ the formula $[OH^-] = RAC{K_w}{[H^+]},$ we can find $[H^+]$ and then use the pH formula to find $[H^+]$. Finally, we can use the OK_we to find $[OH^-]$.
 
@@ -399,6 +399,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*$
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Acids%2C%20Bases%20and%20Salts%20Class%2010%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

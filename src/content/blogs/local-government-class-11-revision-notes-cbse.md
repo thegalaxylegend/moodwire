@@ -9,6 +9,20 @@ manualReview: false
 ---
 
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="-formula-bank"></a>⚡ Formula Bank](#a-id-formula-banka-formula-bank)
+3. [<a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks](#a-id-the-5-mistakes-that-cost-marksa-the-5-mistakes-that-cost-marks)
+4. [<a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs](#a-id-3-solved-pyqsa-3-solved-pyqs)
+5. [<a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong](#a-id-the-one-thing-most-students-get-wronga-the-one-thing-most-students-get-wrong)
+6. [<a id="-ayushs-note"></a>👁️ Ayush's Note](#a-id-ayushs-notea-ayushs-note)
+7. [<a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box](#a-id-last-5-minutes-boxa-last-5-minutes-box)
+8. [<a id="-practice-mcqs"></a>📝 Practice MCQs](#a-id-practice-mcqsa-practice-mcqs)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -186,7 +200,7 @@ A local government decides to increase the tax on a certain commodity by $p\%$. 
 
 - 🧮 **Solution (Step-by-step):**
  Step 1: Calculate the increase in price due to the tax → $\text{Rs. } 110 - \text{Rs. } 100 = \text{Rs. } 10$
- Step 2: Use the formula for percentage increase to find $p$ → $p = \frac{\text{increase$ in price}}{\text{original price}} \times 100 = \frac{10}{100} \times 100 = 10\%$
+ Step 2: Use the formula for percentage increase to find $p$ → $p = \frac{\text{increase$ in price}}{$\text{original price}$} \times 100 = $\frac{10}{100}$ \times 100 = 10\%$
  **Final Answer:** $10\%$
 
 - ⚡ **Speed trick:** Use the formula for percentage increase to directly calculate $p$.
@@ -237,7 +251,7 @@ In a local government election, a candidate wins with $55\%$ of the total votes.
 
 ### <a id="how-to-never-forget-this"></a>How to Never Forget This
 
-- A mnemonic or visual analogy: Think of local government as the "roots" of a tree, providing the foundation and basic necessities for the growth and development of a country.
+- A mnemonic or visual analogy: Think of local government as the "roots" of a tree, providing the foundation and necessities for the growth and development of a country.
 
 - Another way to remember this is to use the formula: $L = P + S + E$, where $L$ represents local government, $P$ represents providing basic amenities, $S$ represents implementing national policies, and $E$ represents contributing to the economy.
 
@@ -317,50 +331,50 @@ Local government in India has been strengthened through the 73rd and 74th Consti
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. In a local government, what is the ratio of the population to the number of members in the local self-government body?**
-**A)**  10
-**B)**  100
-**C)**  1
-**D)**  1000
+**A)**   10
+**B)**   100
+**C)**   1
+**D)**   1000
 
 **Answer:** C) Option C is correct because the Panchayat Extension to the Scheduled Areas (PESA) Act, 1996, mandates a ratio of 1:1 for rural areas. Option A is incorrect because it overestimates the number of members, while options B and D are incorrect because they underestimate the number of members.
 
 ---
 
  **2. \frac{d}{dt} (log_{10} x^3) = ?**
-**A)**  3x^2/x
-**B)**  3x^2/x^2
-**C)**  3x^2/x^3
-**D)**  3x^2/x^4
+**A)**   3x^2/x
+**B)**   3x^2/x^2
+**C)**   3x^2/x^3
+**D)**   3x^2/x^4
 
 **Answer:** B) Option B is correct because the derivative of log_{10} x^3 is $\frac{3}{x}$ * x^2 = 3x^2/x^2. Option A$ is incorrect because it fails to account for the logarithm, while options C and D are incorrect because they incorrectly apply the power rule or the chain rule.$
 
 ---
 
 **3. According to the 73rd Constitutional Amendment Act, 1992, what is the reservation of seats in the Panchayats for the Scheduled Castes and Scheduled Tribes?**
-**A)**  1/3rd for SC, 1/3rd for ST, 1/3rd for Women
-**B)**  1/3rd for SC, 1/2 for ST, 1/4th for Women
-**C)**  1/2 for SC, 1/2 for ST, 1/4th for Women
-**D)**  1/4th for SC, 1/4th for ST, 1/2 for Women
+**A)**   1/3rd for SC, 1/3rd for ST, 1/3rd for Women
+**B)**   1/3rd for SC, 1/2 for ST, 1/4th for Women
+**C)**   1/2 for SC, 1/2 for ST, 1/4th for Women
+**D)**   1/4th for SC, 1/4th for ST, 1/2 for Women
 
 **Answer:** B) Option B is correct because the 73rd Constitutional Amendment Act, 1992, mandates a reservation of 1/3rd for SC, 1/2 for ST, and 1/4th for women. Option A is incorrect because it misrepresents the reservation for women, while options C and D are incorrect because they misrepresent the reservations for SC and ST respectively.
 
 ---
 
- **4. \frac{1}{2} \pi r^2 \times 10 \cos (\frac{\pi}{4}) = ?**
-**A)**  5\pi r^2
-**B)**  10\pi r^2
-**C)**  20\pi r^2
-**D)**  25\pi r^2
+ **4. \frac{1}{2} \pi r^2 \times 10 \\cos (\frac{\pi}{4}) = ?**
+**A)**   5\pi r^2
+**B)**   10\pi r^2
+**C)**   20\pi r^2
+**D)**   25\pi r^2
 
-**Answer:** C) Option C is correct because $\frac{1}{2}$ \pi r^2 \times 10 \cos ($\frac{\pi}{4}$) simplifies to 5\pi r^2 \times 2 = 10\pi r^2. Option A$ is incorrect because it fails to account for the cosine term, while options B and D are incorrect because they incorrectly multiply or add terms.$
+**Answer:** C) Option C is correct because $\frac{1}{2}$ \pi r^2 \times 10 \\cos ($\frac{\pi}{4}$) simplifies to 5\pi r^2 \times 2 = 10\pi r^2. Option A$ is incorrect because it fails to account for the cosine term, while options B and D are incorrect because they incorrectly multiply or add terms.$
 
 ---
 
 **5. What is the main purpose of the 74th Constitutional Amendment Act, 1992?**
-**A)**  To provide for the establishment of the New Delhi Municipal Council
-**B)**  To provide for the establishment of the Municipal Corporation of Delhi
-**C)**  To provide for the establishment of the Gram Panchayats and Municipalities
-**D)**  To provide for the establishment of the Panchayat Samitis and Zilla Parishads
+**A)**   To provide for the establishment of the New Delhi Municipal Council
+**B)**   To provide for the establishment of the Municipal Corporation of Delhi
+**C)**   To provide for the establishment of the Gram Panchayats and Municipalities
+**D)**   To provide for the establishment of the Panchayat Samitis and Zilla Parishads
 
 **Answer:** D) Option D is correct because the 74th Constitutional Amendment Act, 1992, provides for the establishment of the Panchayat Samitis and Zilla Parishads. Option A is incorrect because it refers to the New Delhi Municipal Council, which is already established, while options B and C are incorrect because they refer to the Municipal Corporation of Delhi and Gram Panchayats and Municipalities respectively.
 
@@ -372,6 +386,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=local%20government%20class%2011%20revision%20notes%20cbse%20Class%2011%20Exam%20Notes%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -382,3 +398,4 @@ Continue your revision with these related guides:
 - 📖 [Mensuration 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide](/blog/mensuration-class-8-notes)
 - 📖 [physics heat light](/blog/physics-heat-light-class-11-revision-notes-jee-neet)
 - 📖 [physics mechanics](/blog/physics-mechanics-class-11-revision-notes-jee-neet)
+$

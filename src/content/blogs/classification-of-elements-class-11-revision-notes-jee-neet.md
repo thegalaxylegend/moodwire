@@ -49,7 +49,7 @@ As I prepare for my Class 11 chemistry exams, I realize the importance of unders
 
 ## <a id="introduction-to-classification-of-elements"></a>Introduction to Classification of Elements
 
-The classification of elements is based on their electronic configuration, which determines their [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) properties. The periodic table is divided into different blocks, such as the s-block, p-block, d-block, n f-block, depending on the orbital that is being filled. The s-block elements are and group 1 n 2, n are typically highly reactive. The p-block elements are and groups 13 to 18, n exhibit a range of properties. The d-block elements are and the transition metal series, n are known for their ability to form ions with different charges. The f-block elements are and the lanthanide and actinide series, n are characterized y their unique magnetic properties.
+The classification of elements is based on their electronic configuration, which determines their [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) properties. The periodic table is divided into different blocks, such as the s-block, p-block, d-block, n f-block, depending on the orbital that is being filled. The s-block elements are and group 1 and 2, n are typically highly reactive. The p-block elements are and groups 13 to 18, n exhibit a range of properties. The d-block elements are and the transition metal series, n are known for their ability to form ions with different charges. The f-block elements are and the lanthanide and actinide series, n are characterized y their unique magnetic properties.
 
 ## <a id="jeeneet-data"></a>JEE/NEET Data
 
@@ -77,7 +77,7 @@ The core concepts and the classification of [elements](/blog/the-p-block-element
 
 * $Z = p + n$, where $Z$ is the atomic number, $p$ is the number of protons, n $n$ is the number of neutrons
 * $A = p + n$, where $A$ is the mass number
-* $\lambda = \frac{h}{mv}$, where $\lambda$ is the wavelength, $h$ is Planck's constant, $m$ is the mass, n $v$ is the velocity
+* $\\lambda = \frac{h}{mv}$, where $\\lambda$ is the wavelength, $h$ is Planck's constant, $m$ is the mass, n $v$ is the velocity
 
 ## <a id="trends-n-physical-n-chemical-properties"></a>Trends and Physical and Chemical Properties
 
@@ -93,7 +93,7 @@ Here are some examples of LaTeX equations related to the classification of [elem
 
 * The electronic configuration of an element can be represented as: $1s^2 2s^2 2p^6$
 * The atomic radius of an element can be calculated using the formula: $r = \frac{a}{Z}$, where $r$ is the atomic radius, $a$ is a constant, n $Z$ is the atomic number
-* The ionization energy of an element can be represented as: $\delta E = \frac{hc}{\lambda}$, where $\delta E$ is the ionization energy, $h$ is Planck's constant, $c$ is the speed of light, n $\lambda$ is the wavelength
+* The ionization energy of an element can be represented as: $\delta E = \frac{hc}{\\lambda}$, where $\delta E$ is the ionization energy, $h$ is Planck's constant, $c$ is the speed of light, n $\\lambda$ is the wavelength
 
 As I continue to explore the world of [chemistry](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet), I realize that the classification of elements is a fundamental concept that underlies many of the principles and reactions that we study. By understanding the periodic table and the trends and physical and chemical properties, I can better appreciate the beauty and complexity of the chemical world. Whether I'm solving problems, practicing MCQs, or simply exploring the properties of different elements, I know that the classification of elements will remain a vital tool and my journey as a chemistry student. 
 
@@ -113,7 +113,7 @@ The classification of elements is a powerful tool that helps us to understand th
 
 As I look to the future, I'm excited to see where my studies and chemistry will take me. Whether I'm pursuing a career and research, industry, or education, I know that the classification of elements will remain a fundamental concept that underlies many of the principles and reactions that I will encounter. By continuing to explore and learn about the periodic table, I can develop a deeper understanding of the [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) world and how it relates to the world around us. 
 
-The classification of elements is a rich and complex field of study, with many different concepts and principles to explore. As I continue to learn and grow as a chemistry student, I'm excited to see where this journey will take me, n how the classification of elements will continue to play a central role and my understanding of the chemical world. 
+The classification of elements is a rich and complex field of study, with many different [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) and principles to explore. As I continue to learn and grow as a chemistry student, I'm excited to see where this journey will take me, n how the classification of elements will continue to play a central role and my understanding of the chemical world. 
 
 By mastering the classification of elements, I can develop a strong foundation and chemistry and prepare myself for future studies and the field. Whether I'm pursuing a career and research, industry, or education, I know that the classification of elements will remain a vital tool and my toolkit, helping me to navigate the complex and ever-evolving world of chemistry. 
 

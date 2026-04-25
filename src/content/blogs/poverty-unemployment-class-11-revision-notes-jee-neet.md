@@ -9,6 +9,20 @@ manualReview: false
 ---
 
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="-formula-bank"></a>⚡ Formula Bank](#a-id-formula-banka-formula-bank)
+3. [<a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks](#a-id-the-5-mistakes-that-cost-marksa-the-5-mistakes-that-cost-marks)
+4. [<a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs](#a-id-3-solved-pyqsa-3-solved-pyqs)
+5. [<a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong](#a-id-the-one-thing-most-students-get-wronga-the-one-thing-most-students-get-wrong)
+6. [<a id="-ayushs-note"></a>👁️ Ayush's Note](#a-id-ayushs-notea-ayushs-note)
+7. [<a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box](#a-id-last-5-minutes-boxa-last-5-minutes-box)
+8. [<a id="-practice-mcqs"></a>📝 Practice MCQs](#a-id-practice-mcqsa-practice-mcqs)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -259,11 +273,11 @@ For students who want to extend their knowledge, it's essential to understand th
 
 - **Frictional unemployment:** U_f = $\frac{Number \ of \ frictional \ unemployed}{Total \ labor \ force} \times 100$
 
-- **Structural unemployment:** U_s = $\frac{Number \ of \ structural \ unemployed}{Total \ labor \ force} \times 100$
+- **Structural unemployment:** U’s = $\frac{Number \ of \ structural \ unemployed}{Total \ labor \ force} \times 100$
 
 - **Cyclical unemployment:** U_c = $\frac{Number \ of \ cyclical \ unemployed}{Total \ labor \ force} \times 100$
 
-By mastering these concepts and formulas, students can develop a understanding of poverty and unemployment, setting themselves apart from their peers. 
+By mastering these concepts and formulas, students can develop an understanding of poverty and unemployment, setting themselves apart from their peers. 
 
 ### <a id="calculating-poverty-line"></a>Calculating Poverty Line
 To calculate the poverty line, use the following formula:
@@ -321,20 +335,20 @@ Poverty and unemployment are complex issues that require a multifaceted approach
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. If the national income is $500 billion,$ and the poverty line is $1,000 per person. If 20%$ of the population is below the poverty line, what is the total number of people below the poverty line?**
-**A)**   10^8
-**B)**   10^9
-**C)**   2 x 10^8
-**D)**   5 x 10^8
+**A)**    10^8
+**B)**    10^9
+**C)**    2 x 10^8
+**D)**    5 x 10^8
 
 **Answer:** B) Option A is incorrect because it only accounts for 1% of the population. Option C is incorrect because it assumes 20% of the population is at the poverty line. Option D is incorrect because it is an overestimation.
 
 ---
 
 **2. An economy is growing at a rate of 5% per annum. If the current GDP is $10^11, what$ will be the GDP after 2 years?$**
-**A)**   $1.1 x 10^{11}$
-**B)**   $1.05^2 x 10^{11}$
-**C)**   $1.05 x 10^{11}$
-**D)**   $2.1 x 10^{11}$
+**A)**    $1.1 x 10^{11}$
+**B)**    $1.05^2 x 10^{11}$
+**C)**    $1.05 x 10^{11}$
+**D)**    $2.1 x 10^{11}$
 ],
 "
 
@@ -345,10 +359,10 @@ answer
 ---
 
 **3. A country has an unemployment rate of 10% and a growth rate of 4%. What is the expected change in the unemployment rate after one year?**
-**A)**   $\dfrac{4}{10} (1 - 0.10)$
-**B)**   $\dfrac{4}{10} (1 + 0.10)$
-**C)**   $\dfrac{4}{10} (1 - 0.04)$
-**D)**   $\dfrac{4}{10} (1 + 0.04)$
+**A)**    $\dfrac{4}{10} (1 - 0.10)$
+**B)**    $\dfrac{4}{10} (1 + 0.10)$
+**C)**    $\dfrac{4}{10} (1 - 0.04)$
+**D)**    $\dfrac{4}{10} (1 + 0.04)$
 ],
 "
 
@@ -359,10 +373,10 @@ answer
 ---
 
 **4. A person who earns $5,000 per month$ is considered to be above the poverty line. If he spends $3,000$ on necessities, what is the amount he saves?**
-**A)**   $\boxed{2,000}$
-**B)**   $\boxed{5,000}$
-**C)**   $\boxed{3,000}$
-**D)**   $\boxed{10,000}$
+**A)**    $\boxed{2,000}$
+**B)**    $\boxed{5,000}$
+**C)**    $\boxed{3,000}$
+**D)**    $\boxed{10,000}$
 ],
 "
 
@@ -373,10 +387,10 @@ answer
 ---
 
 **5. An economy is experiencing a recession, and the unemployment rate increases by 5%. If the current GDP is $10^11, what$ is the new GDP?$**
-**A)**   $10^{10}$
-**B)**   $10^{11} (1 - 0.05)$
-**C)**   $10^{11} (1 + 0.05)$
-**D)**   $10^{12}$
+**A)**    $10^{10}$
+**B)**    $10^{11} (1 - 0.05)$
+**C)**    $10^{11} (1 + 0.05)$
+**D)**    $10^{12}$
 ],
 "
 
@@ -392,6 +406,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*$
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=poverty%20unemployment%20class%2011%20revision%20notes%20jee%20neet%20Class%2011%20Exam%20Notes%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -402,3 +418,4 @@ Continue your revision with these related guides:
 - 📖 [physics heat light](/blog/physics-heat-light-class-11-revision-notes-jee-neet)
 - 📖 [physics mechanics](/blog/physics-mechanics-class-11-revision-notes-jee-neet)
 - 📖 [trigonometric functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)
+$

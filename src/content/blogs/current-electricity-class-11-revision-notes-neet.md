@@ -152,12 +152,12 @@ Where **τ** (tau) is the **Relaxation Time**—the average time between two suc
 Used for solving [complex](/blog/complex-numbers-class-11-revision-notes-jee-neet) electrical networks where Ohm’s Law alone is insufficient.
 
 ### <a id="i-Kirchhoff-first-law-KCL-junction-rule"></a>I. Kirchhoff’s First Law (KCL - Junction Rule)
-**statement:** The algebraic \sum of currents meeting at a junction is zero.
+**statement:** The algebraic $\sum$of currents meeting at a junction is zero.
 **Σ I = 0**.
 - Based on the **Conservation of Charge**.
 
 ### <a id="ii-Kirchhoff-second-law-kV-loop-rule"></a>II. Kirchhoff’s Second Law (KVL - Loop Rule)
-**statement:** In a closed loop, the algebraic \sum of products of current and resistance is equal to the algebraic \sum of Emfs.
+**statement:** In a closed loop, the algebraic $\sum$of products of current and resistance is equal to the algebraic $\sum$of Emfs.
 **Σ IR = Σ ε**.
 - Based on the **Conservation of Energy**.
 

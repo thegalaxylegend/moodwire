@@ -16,14 +16,14 @@ manualReview: false
 - Discount is a reduction in the price of an item, where $\text{discount} = \text{marked price} - \text{selling price}$.
 - To find the selling price after a discount, we can use the formula: $\text{selling price} = \text{marked price} - \text{discount}$.
 - Profit is the amount gained from selling an item, where $\text{profit} = \text{selling price} - \text{cost price}$.
-- To find the selling price to gain a certain profit percentage, we can use the formula: $\text{selling price} = \text{cost price} + \left( \frac{\text{profit percentage}}{100} \times \text{cost price} \right)$.
+- To find the selling price to gain a certain profit percentage, we can use the formula: $\text{selling price} = \text{cost price} + \left( \frac{\text{profit percentage}}{100} \times \text{cost price} \r\right)$.
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not simplifying ratios to their simplest form, where $\frac{a}{b}$ can be simplified to $\frac{c}{d}$ if a and by have a common factor.
 - Not using the concept of equivalent ratios to compare two ratios, where $\frac{a}{b} = \frac{c}{d}$ if had = BC.
 - Not converting fractions to percentages correctly, where $\frac{a}{b} = \frac{x}{100}$, and ex is the percentage.
 - Not using the correct formula to find the percentage increase or decrease, where $\frac{\text{change}}{\text{original value}} \times 100$.
-- Not calculating the selling price after a discount or profit percentage correctly, where $\text{selling price} = \text{marked price} - \text{discount}$ or $\text{selling price} = \text{cost price} + \left( \frac{\text{profit percentage}}{100} \times \text{cost price} \right)$.
+- Not calculating the selling price after a discount or profit percentage correctly, where $\text{selling price} = \text{marked price} - \text{discount}$ or $\text{selling price} = \text{cost price} + \left( \frac{\text{profit percentage}}{100} \times \text{cost price} \r\right)$.
 
 ## ✏️ 3 Solved PYQs
 - A shop is selling a shirt at a 15% discount. If the marked price is $\text{\Rs} 500$, what is the selling price?
@@ -41,7 +41,7 @@ manualReview: false
 - Many students fail to simplify ratios to their simplest form, where $\frac{a}{b}$ can be simplified to $\frac{c}{d}$ if a and by have a common factor.
 - Students often struggle to convert fractions to percentages correctly, where $\frac{a}{b} = \frac{x}{100}$, and ex is the percentage.
 - The formula to find the percentage increase or decrease is often misused, where $\frac{\text{change}}{\text{original value}} \times 100$.
-- Calculating the selling price after a discount or profit percentage is often done incorrectly, where $\text{selling price} = \text{marked price} - \text{discount}$ or $\text{selling price} = \text{cost price} + \left( \frac{\text{profit percentage}}{100} \times \text{cost price} \right)$.
+- Calculating the selling price after a discount or profit percentage is often done incorrectly, where $\text{selling price} = \text{marked price} - \text{discount}$ or $\text{selling price} = \text{cost price} + \left( \frac{\text{profit percentage}}{100} \times \text{cost price} \r\right)$.
 
 ## 👁️ Ayush's Note
 - Always simplify ratios to their simplest form to avoid confusion.
@@ -110,7 +110,7 @@ D) $\text{\Rs} 480$
 **Answer: D) $\text{\Rs} 480$**
 - Explanation: $\text{profit} = \frac{20}{100} \times 400 = \text{\Rs} 80$, and $\text{selling price} = \text{cost price} + \text{profit} = 400 + 80 = \text{\Rs} 480$.
 
-**5. What is the ratio of 3 hours to 4 hours in simplest form?**
+**5. What is the ratio of 3 hours to 4 hours in the simplest form?**
 -
 A) $3:4$
 -
@@ -130,6 +130,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Comparing%20Quantities%208%20Class%208%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

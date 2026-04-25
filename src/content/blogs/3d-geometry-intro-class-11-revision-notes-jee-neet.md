@@ -22,13 +22,13 @@ manualReview: false
 10. [📚 Related Topics](#related-topics)
 
 ## ⚡ Formula Bank
-- The direction cosines of a line satisfy the relation $\\cos^2 \alpha + \\cos^2 \beta + \\cos^2 \gamma = 1$
+- The direction cosines of a line satisfy the relation $\\\cos^2 \alpha + \\\cos^2 \beta + \\\cos^2 \gamma = 1$
 - The direction ratios of a line are $\frac{x_2 - x_1}{l}$, $\frac{y_2 - y_1}{m}$, $\frac{z_2 - z_1}{n}$
 - The equation of a line in 3D space is $\frac{x - x_1}{a} = \frac{y - y_1}{b} = \frac{z - z_1}{c}$
 - The equation of a plane in 3D space is a(x - x_1) + b(y - y_1) + c(z - z_1) = $0
 - The distance between two points $(x_1, y_1, z_1)$ and $(x_2, y_2, z_2)$ is $\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2}$
 - The distance of a point $(x_1, y_1, z_1)$ from a plane tax + by + CZ + d = $0 is \frac{|ax_1 + by_1 + CZ_1 + d|}{\sqrt{a^2 + b^2 + c^2}$}$
-- The angle between two lines with direction ratios a_1, b_1, c_1$ and a_2, b_2, c_2$ is given by $\\cos \theta = \frac{a_1a_2 + b_1b_2 + c_1c_2}{\{a_1^2 + b_1^2 + c_1^2} \{a_2^2 + b_2^2 + c_2^2}}$
+- The angle between two lines with direction ratios a_1, b_1, c_$1 and a_2, b_2, c_$2 is given by $\\\cos \theta = \frac{a_1a_2 + b_1b_2 + c_1c_2}{\{a_1^2 + b_1^2 + c_1^2} \{a_2^2 + b_2^2 + c_2^2}}$
 ## 
 - To find the equation of a line passing through two points, use the two-point form: $\frac{x - x_1}{x_2 - x_1} = \frac{y - y_1}{y_2 - y_1} = \frac{z - z_1}{z_2 - z_1}$
 - To find the equation of a plane passing through three points, use the intercept form: $\frac{x}{a} + \frac{y}{b} + \frac{z}{c} = 1$
@@ -52,8 +52,8 @@ manualReview: false
   - **Step 4:** Simplify further to get: $\sqrt{27} = 3\sqrt{3}$
 - **Question 3:** Find the equation of the plane passing through the points $(1, 2, 3)$, $(4, 5, 6)$, and $(7, 8, 9)$.
   - **Step 1:** Find the normal vector to the plane using the cross product of two vectors
-  - **Step 2:** Find the equation of the plane using the point-normal form: a(x - x_1) + b(y - y_1) + c(z - z_1) = 0$
-  - **Step 3:** Substitute the values into the formula to get: a(x - 1) + b(y - 2) + c(z - 3) = 0$
+  - **Step 2:** Find the equation of the plane using the point-normal form: a(x - x_1) + b(y - y_1) + c(z - z_1) = $0
+  - **Step 3:** Substitute the values into the formula to get: a(x - 1) + b(y - 2) + c(z - 3) = $0
 ## 
 - For JEE Advanced, use the formula for the distance between a point and a line: $\frac{|a(x_1) + b(y_1) + c(z_1) + d|}{\sqrt{a^2 + b^2 + c^2}}$
 - For MEET, use the formula for the equation of a plane passing through three points: $\frac{x}{a} + \frac{y}{b} + \frac{z}{c} = 1$
@@ -77,7 +77,7 @@ B) \frac{x - 1}{3} = \frac{y - 2}{3} = \frac{z - 3}{3}
 C) \frac{x - 1}{4} = \frac{y - 2}{4} = \frac{z - 3}{4}
 D) \frac{x - 1}{5} = \frac{y - 2}{5} = \frac{z - 3}{5}
 
-**Answer:** B) $\frac{x - 1}{3} = \frac{y - 2}{3}$ = $\frac{z - 3}${3}$
+**Answer:** B) \frac{x - 1}{3} = \frac{y - 2}{3} = \frac{z - 3}{3}
 
 **2. Question:** Find the distance between the points $(1, 2, 3)$ and $(4, 5, 6)$.
 A) $3\sqrt{2}$
@@ -120,3 +120,4 @@ Continue your revision with these related guides:
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Physics Mechanics Class 11 Exam Prep Revision — Grandmaster Guide](/blog/physics-mechanics-class-11-revision-notes-jee-neet)
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=3d%20Geometry%20Intro%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**

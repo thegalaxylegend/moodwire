@@ -225,7 +225,7 @@ Continue your [revision](/blog/morphology-of-flowering-plants-class-11-revision-
 * **[Biological](/blog/biological-classification-class-11-revision-notes-neet) Classification**: 
      + Taxonomic Hierarchy: Species, Genus, Family, Order, Class, Phylum, [Kingdom](/blog/animal-kingdom-class-11-revision-notes-neet), Domain 
      + Binomial Nomenclature
-* **Plant Kingdom**: 
+* **Plant [Kingdom](/blog/animal-kingdom-class-11-revision-notes-neet)**: 
      + Algae 
      + Bryophyta 
      + Pteridophyta 

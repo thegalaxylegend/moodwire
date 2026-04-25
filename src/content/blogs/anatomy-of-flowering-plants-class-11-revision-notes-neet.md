@@ -9,6 +9,20 @@ manualReview: false
 ---
 
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="-formula-bank"></a>⚡ Formula Bank](#a-id-formula-banka-formula-bank)
+3. [<a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks](#a-id-the-5-mistakes-that-cost-marksa-the-5-mistakes-that-cost-marks)
+4. [<a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs](#a-id-3-solved-pyqsa-3-solved-pyqs)
+5. [<a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong](#a-id-the-one-thing-most-students-get-wronga-the-one-thing-most-students-get-wrong)
+6. [<a id="-ayushs-note"></a>👁️ Ayush's Note](#a-id-ayushs-notea-ayushs-note)
+7. [<a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box](#a-id-last-5-minutes-boxa-last-5-minutes-box)
+8. [<a id="-practice-mcqs"></a>📝 Practice MCQs](#a-id-practice-mcqsa-practice-mcqs)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -216,7 +230,7 @@ Examiner's Trap: Be aware of the different parts of the seed, including the embr
 #### Anatomy of Flowering Plants
 
 - Q3 (2018 JEE): The process by which water moves through a plant, from the roots to the leaves, and is then released into the air as water vapor is known as _______________________, and the energy required for this process can be calculated using the equation $E = \frac{m \times \delta H_{\text{vap}}}{t}$, where $E$ is the energy required, $m$ is the mass of water, $\delta H_{\text{vap}}$ is the heat of vaporization, and $t$ is the time.
- - 🪤 **Trap:** Most students forget to include the heat of vaporization in the equation for the energy required for transpiration.
+ - 🪤 **Trap:** Most students forget to include the [heat](/blog/physics-heat-light-class-11-revision-notes-jee-neet) of vaporization in the equation for the energy required for transpiration.
  - 🧮 **Solution (Step-by-step):**
  Step 1: Identify the process by which water moves through a plant and is released into the air → Transpiration
  Step 2: Recall the equation for the energy required for transpiration → $E = \frac{m \times \delta H_{\text{vap}}}{t}$
@@ -247,7 +261,7 @@ Examiner's Trap: Be aware of the different parts of the seed, including the embr
  * If you answered B: you are in the top 5% → now extend this: The epidermis also plays a role in regulating gas exchange and preventing pathogens from entering the plant.
 
 - How to never forget this: 
- * A simple mnemonic to remember the functions of different plant tissues is to associate the first letter of each tissue with a word that describes its function. For example, "E" for epidermis can be associated with "External protection", "C" for cortex can be associated with "Cellular storage", and so on.
+ * A simple mnemonic to remember the [functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) of different plant tissues is to associate the first letter of each tissue with a word that describes its function. For example, "E" for epidermis can be associated with "External protection", "C" for cortex can be associated with "Cellular storage", and so on.
  * Visualizing the plant tissue as a multilayered structure, with each layer having a specific function, can also help in remembering the functions of different tissues.
 
 ### <a id="key-formulas-and-concepts"></a>Key Formulas and Concepts
@@ -294,7 +308,7 @@ Understanding the anatomy of flowering plants is crucial for NEET and JEE exams.
 
 ### <a id="ayushs-note"></a>Ayush's Note
 
-- **🔮 The Hidden Pattern:** $Anatomy of flowering plants is closely related to the topic of Plant Growth and Development, as seen in 30%+ of papers, where knowledge of root and shoot anatomy helps in understanding tropic movements and plant hormone functions, such as v = u + at, where v is the final velocity, u is the initial velocity, a is the acceleration, and t is the time.
+- **🔮 The Hidden Pattern:** $Anatomy of flowering plants is closely related to the topic of Plant Growth and Development, as seen in 30%+ of papers, where knowledge of root and shoot anatomy helps in understanding tropic movements and plant hormone functions, such as v = u + at, where v is the final velocity, u is the initial velocity, an is the acceleration, and t is the time.
 
 - **🎯 The "Always Check" Rule:** Always check the boundary conditions for plant anatomy questions, such as the difference between dicot and monocot roots, where dicot roots have a taproot system and monocot roots have a fibrous root system, and examiners love to test the edge cases, like the presence of xylem and phloem in both.
 
@@ -309,7 +323,7 @@ Understanding the anatomy of flowering plants is crucial for NEET and JEE exams.
 
 ### <a id="-core-formulas"></a>⚡ Core Formulas
 
--  x = $\frac{-b \pm \sqrt{b^2$ 
+-   x = \frac{-b \pm \sqrt{b^2 
 
 - 4ac}}{2a}$ — quadratic formula for solving equations$
 
@@ -341,50 +355,50 @@ The anatomy of flowering plants is crucial for understanding how plants function
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. Which part of the flower develops into a fruit?**
-**A)**  Sepals
-**B)**  Petals
-**C)**  Stamen
-**D)**  Pistil
+**A)**   Sepals
+**B)**   Petals
+**C)**   Stamen
+**D)**   Pistil
 
 **Answer:** D) The other options are incorrect because sepals are green, leaf-like structures that protect the flower, petals are the colorful parts of the flower that attract pollinators, and stamen are the male reproductive organs of the flower. Only the pistil develops into a fruit after fertilization.
 
 ---
 
 **2. A flower has 12 stamens in a ring of 12 and a central column of 3 stamens. What is the ratio of stamens?**
-**A)**  1
-**B)**  2
-**C)**  3
-**D)**  1
+**A)**   1
+**B)**   2
+**C)**   3
+**D)**   1
 
 **Answer:** A) The other options are incorrect because 1:1 is not possible given the configuration, 1:2 is incorrect because the ratio of stamens in the ring to the central column is not 2:1, and 3:1 is incorrect because the ratio of stamens in the ring to the central column is not 3:1. The correct ratio is 1:1, where the ring and central column are equal.
 
 ---
 
 **3. What is the function of the taproot in a plant?**
-**A)**  To store food
-**B)**  To absorb water and minerals
-**C)**  To produce flowers
-**D)**  To support the plant
+**A)**   To store food
+**B)**   To absorb water and minerals
+**C)**   To produce flowers
+**D)**   To support the plant
 
 **Answer:** B) The other options are incorrect because while taproots do store food, this is not their primary function, taproots do not produce flowers, and taproots do not support the plant in the same way that a stem does.
 
 ---
 
 **4. A plant has a hypocotyl that is 20	ext{ cm} long and a radicle that is 10	ext{ cm} long. What is the ratio of the hypocotyl to the radicle?**
-**A)**  1
-**B)**  1
-**C)**  2
-**D)**  1
+**A)**   1
+**B)**   1
+**C)**   2
+**D)**   1
 
 **Answer:** B) The other options are incorrect because 1:1 is not possible given the lengths, 1:2 is incorrect because the ratio of the hypocotyl to the radicle is not 1:2, and 3:1 is incorrect because the ratio of the hypocotyl to the radicle is not 3:1. The correct ratio is 2:1, where the hypocotyl is twice as long as the radicle.
 
 ---
 
 **5. What is the term for the process by which plants make their own food?**
-**A)**  Respiration
-**B)**  Photosynthesis
-**C)**  Transpiration
-**D)**  Osmosis
+**A)**   Respiration
+**B)**   Photosynthesis
+**C)**   Transpiration
+**D)**   Osmosis
 
 **Answer:** B) The other options are incorrect because respiration is the process by which plants break down glucose to produce energy, transpiration is the process by which plants release water vapor into the air, and osmosis is the process by which plants absorb water from the soil.
 
@@ -395,6 +409,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*$
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=anatomy%20of%20flowering%20plants%20class%2011%20revision%20notes%20neet%20Class%2011%20Exam%20Notes%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

@@ -9,6 +9,24 @@ practice_link: "/class-11/biology/photosynthesis-n-higher-plants-class-11-revisi
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-photosynthesis-n-higher-plants"></a>What is Photosynthesis In Higher Plants?](#a-idwhat-is-photosynthesis-n-higher-plantsawhat-is-photosynthesis-in-higher-plants)
+3. [<a id="introduction-to-photosynthesis"></a>Introduction to Photosynthesis](#a-idintroduction-to-photosynthesisaintroduction-to-photosynthesis)
+4. [<a id="why-this-chapter-matters"></a>Why This Chapter Matters](#a-idwhy-this-chapter-mattersawhy-this-chapter-matters)
+5. [<a id="ayushs-note"></a>Ayush's Note](#a-idayushs-noteaayushs-note)
+6. [<a id="core-concepts"></a>Core Concepts](#a-idcore-conceptsacore-concepts)
+7. [<a id="shortcut-formula-trick"></a>Shortcut Formula / Trick](#a-idshortcut-formula-trickashortcut-formula-trick)
+8. [<a id="trap-questions-exceptions"></a>Trap Questions / Exceptions](#a-idtrap-questions-exceptionsatrap-questions-exceptions)
+9. [<a id="practice-mcqs"></a>Practice MCQs](#a-idpractice-mcqsapractice-mcqs)
+10. [<a id="related-notes-links"></a>Related Notes Links](#a-idrelated-notes-linksarelated-notes-links)
+11. [<a id="last-updated-date"></a>Last Updated Date](#a-idlast-updated-datealast-updated-date)
+12. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+13. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Photosynthesis In Higher Plants?](#what-is-photosynthesis-n-higher-plants)
@@ -110,13 +128,13 @@ Answer: B) Glucose
 
 ### <a id="mcq-3"></a>MCQ 3
 What is the equation for photosynthesis?
- A) 6CO_2 + 6H_2O $\rightarrow C_6H_{12}O_6 + 6O_2$ 
+ A) 6CO_2 + 6H_2O \rightarrow C_6H_{12}O_6 + 6O_2 
 B) $3CO_2 + 9ATP + 6NADPH \rightarrow C_3H_6O_3 + 9ADP + 6NADP^+$
 C) $H_2O \rightarrow ATP + NADPH + O_2$ D) CO_2 + H_2O $\rightarrow Glucose + O_2  Answer$: A) 6CO_2 + 6H_2O $\rightarrow C_6H_{12}O_6 + 6O_2$ 
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Plant Physiology class 11 Notes
+* [Plant](/blog/plant-growth-and-development-class-11-revision-notes-neet) Physiology class 11 Notes
 * Cell Biology class 11 Notes
 
 ## <a id="last-updated-date"></a>Last Updated Date
@@ -140,7 +158,9 @@ Continue your [revision](/blog/plant-growth-and-development-class-11-revision-no
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/photosynthesis-n-higher-plants-class-11-revision-notes-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/photosynthesis-n-higher-[plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)-class-11-revision-notes-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Photosynthesis%20In%20Higher%20Plants%20Class%2011%20Biology%20Revision%20%E2%80%94%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 
@@ -152,3 +172,15 @@ Continue your [revision](/blog/plant-growth-and-development-class-11-revision-no
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
 - 📖 [Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/plant-growth-and-development-class-11-revision-notes-neet)
+
+## 🔁 Last 5 Minutes Box
+
+    * **Photosynthesis**: Process by which plants, algae, and some bacteria convert light energy from the sun into chemical energy in the form of organic compounds.
+    * **Equation**: 6CO2 + 6H2O + Light Energy → C6H12O6 (glucose) + 6O2
+    * **Chloroplast**: Organelle found in plant cells where photosynthesis takes place
+    * **Stomata**: Small openings on the surface of leaves that allow for gas exchange
+    * **Light-Dependent Reactions**: Occur in the thylakoid membranes of chloroplasts and produce ATP and NADPH
+    * **Light-Independent Reactions (Calvin Cycle)**: Occur in the stroma of chloroplasts and produce glucose from CO2 using ATP and NADPH
+    * **C3, C4, and CAM Pathways**: Different types of photosynthetic pathways that plants use to fix CO2
+    * **Factors Affecting Photosynthesis**: Light intensity, temperature, water, CO2 concentration
+    

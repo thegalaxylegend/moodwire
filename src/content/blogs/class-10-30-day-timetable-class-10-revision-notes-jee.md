@@ -44,11 +44,11 @@ practice_link: "/class-11/mathematics/class-10-30-day-timetable-class-10-revisio
 
 ## <a id="what-is-class-10-30-day-timetable"></a>What is Class 10 30 Day Timetable?
 
-Last year, I was juggling my class 11 orientation while helping my younger cousin build a **30-day timetable for class 10 board exam** because his coaching center had basically given up on him. 
+Last year, I was juggling my class 11 orientation while helping my younger cou\sin build a **30-day timetable for class 10 board exam** because his coaching center had basically given up on him. 
 
 The truth is, most schools and big coaching brands will give you a generic "study 10 hours" schedule. But that’s useless if you don’t know *what* to study. After building my own AI tool, Exam Compass, I realized that the best students don't work harder—they work smarter. They know how to prioritize the [high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)-yield topics. 
 
-In this [guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet), I’m sharing the exact 30-day blueprint that helped my cousin move from a predicted 75% to a solid 94% n his boards. 
+In this [guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet), I’m sharing the exact 30-day blueprint that helped my cou\sin move from a predicted 75% to a solid 94% n his boards. 
 
 > **Key Takeaways**
 > - **Output > Input**: Focused testing is 3x more effective than passive reading.

@@ -85,7 +85,7 @@ Depending on the given information, we use different forms:
 4.  **Two-Point Form:** (y - y₁) / (y₂ - y₁) = (x - x₁) / (x₂ - x₁).
 5.  **Slope-Intercept Form:** y = mx + c (where c is the y-intercept).
 6.  **Intercept Form:** x/a + y/b = 1 (where a and b are x and y-intercepts).
-7.  $**Normal Form:** x \cos ω + y \sin ω = p (p is the perpendicular distance from the origin).$
+7.  $**Normal Form:** x \\cos ω + y \\sin ω = p (p is the perpendicular distance from the origin).$
 
 ---
 
@@ -104,7 +104,7 @@ The perpendicular distance (d) from a point P(x₁, y₁) to the [line](/blog/mo
 **d = |Ax₁ + By₁ + C| / √(A² + B²)**
 
 ### <a id="distance-between-parallel-lines"></a>Distance Between Parallel Lines:
-The distance between two parallel lines Ax + By + C₁ = 0 n Ax + By + C₂ = 0 is:
+The distance between two parallel lines Ax + By + C₁ = 0 and Ax + By + C₂ = 0 is:
 **d = |C₁ - C₂| / √(A² + B²)**
 
 ---
@@ -171,7 +171,7 @@ Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/[straight](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)-lines-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Straight%20Lines%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20JEE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Straight](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)%20Lines%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20JEE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 
@@ -189,8 +189,8 @@ Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet)
     * The equation $ax + by + c = 0$ represents a line if $a$ and $b$ are not both zero. However, a common mistake is assuming the equation is always a line, forgetting that if $a = b = 0$, it doesn't represent a line.
     * When finding the equation of a line given two points, students often forget to check if the line is vertical, in which case the equation would be of the form $x = a$.
     * A frequent error occurs when calculating the slope of a line given two points $(x_1, y_1)$ and $(x_2, y_2)$, where students forget that the slope $m$ is given by $(y_2 - y_1) / (x_2 - x_1)$ and not the other way around.
-    * In the context of the angle between two lines, a common oversight is forgetting that the formula $	a 	heta = left| rac{m_2 - m_1}{1 + m_1m_2} ight|$ applies only when the lines are not perpendicular; for perpendicular lines, $	heta = 90^circ$.
-    * When applying the formula for the distance of a point $(x_1, y_1)$ from a line $ax + by + c = 0$, students often neglect the absolute value sign, leading to incorrect signs for the distance; the correct formula is $rac{|ax_1 + by_1 + c|}{sqrt{a^2 + b^2}}$.
+    * In the context of the angle between two lines, a common oversight is forgetting that the formula $	a \theta = left| \frac{m_2 - m_1}{1 + m_1m_2} ight|$ applies only when the lines are not perpendicular; for perpendicular lines, $\theta = 90^circ$.
+    * When applying the formula for the distance of a point $(x_1, y_1)$ from a line $ax + by + c = 0$, students often neglect the absolute value sign, leading to incorrect signs for the distance; the correct formula is $\frac{|ax_1 + by_1 + c|}{sqrt{a^2 + b^2}}$.
 
 ## 🔁 Last 5 Minutes Box
 
@@ -199,7 +199,7 @@ Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet)
    * Slope-intercept form: y = mx + c
    * Point-slope form: y - y1 = m(x - x1)
    * Two-point form: y - y1 = ((y2 - y1) / (x2 - x1))(x - x1)
-   * Normal form: x*cos(α) + y*sin(α) = p
+   * Normal form: x*\cos(α) + y*\sin(α) = p
    * Distance of a point (x1, y1) from a line Ax + By + C = 0: |Ax1 + By1 + C| / √(A² + B²)
    * Equation of a line passing through (x1, y1) and having slope m: y - y1 = m(x - x1)
    * Equation of a line with slope m and y-intercept c: y = mx + c

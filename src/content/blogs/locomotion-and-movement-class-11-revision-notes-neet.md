@@ -85,7 +85,7 @@ Locomotion and movement are essential topics and the JEE n [neet](/blog/animal-k
 Some important JEE/[neet](/blog/animal-kingdom-class-11-revision-notes-neet) questions related to locomotion and movement include:
 
 * What is the primary function of the skeletal system and movement and locomotion?
-* Describe the structure and function of muscles and movement and locomotion.
+* Describe the [structure](/blog/structure-of-the-atom-class-11-revision-notes-neet) and function of muscles and movement and locomotion.
 * Explain the role of the nervous system and controlling movement and locomotion.
 
 ## <a id="core-concepts-n-formulae-summary"></a>Core Concepts and Formulae Summary

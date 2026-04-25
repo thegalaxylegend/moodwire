@@ -43,13 +43,13 @@ manualReview: false
   - The male gamete then fuses with the egg cell to form the zygote.
 
 ## 🧠 The One Thing Most Students Get Wrong
-- The one thing that most students get wrong is the process of double fertilization, which is unique to flowering plants.
+- The one thing that most students get wrong is the process of double fertilization, which is unique to [flowering](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) plants.
 - Double fertilization involves the fusion of one male gamete with the egg cell to form the zygote, and the fusion of the second male gamete with the two polar nuclei to form the endosperm.
 - This process is critical for the development of the embryo and the formation of the seed.
 
 ## 👁️ Ayush's Note
 - To excel in the topic of sexual [reproduction](/blog/reproduction-in-organisms-class-12-notes) in flowering plants, it is essential to have a clear understanding of the process of microsporogenesis and megasporogenesis.
-- It is also crucial to understand the role of pollination and fertilization in the process of sexual reproduction.
+- It is also crucial to understand the role of pollination and fertilization in the process of sexual [reproduction](/blog/reproduction-in-organisms-class-12-notes).
 - The process of double fertilization is unique to flowering plants, and it is essential to understand its significance in the development of the embryo and the formation of the seed.
 - Practice is key, and it is essential to practice drawing diagrams and labeling the different parts of the flower.
 - It is also essential to practice solving problems and answering questions related to the topic.

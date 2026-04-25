@@ -110,7 +110,7 @@ One shortcut formula for the p-block elements is to remember the electronic conf
 Some common trap questions and exceptions for the p-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) elements include:
 * Wrong answer: The p-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) elements are only found and groups 13 to 15.
 Right answer: The p-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) elements are found and groups 13 to 18.
-Why students get it wrong: Students often confuse the p-block elements with the d-block elements.
+Why students get it wrong: Students often confuse the p-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) elements with the d-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) elements.
 * Wrong answer: The p-block elements are all non-metals.
 Right answer: The p-block elements include non-metals, metalloids, n noble gases.
 Why students get it wrong: Students often overlook the metalloids and noble gases and the p-block.

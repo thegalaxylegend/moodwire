@@ -91,7 +91,7 @@ class Mammalia is defined as a group of warm-blooded animals with hair and mamma
 
 ## <a id="Ayush-note"></a>Ayush's Note
 
-I remember when I was studying for my class 11 exams, I had a hard time remembering the different phyla and classes of animals. I used to get confused between the characteristics of each group and would often mix them up. But then I realized that if I just focused on the key characteristics of each phylum n class, such as the presence of a notochord or mammary glands, I could easily distinguish between them. For example, I learned that all animals and the phylum Chordata have a notochord, dorsal nerve cord, n pharyngeal slits, while all animals and the class Mammalia have hair and mammary glands. By focusing on these key characteristics, I was able to master the topic and score well and my exams.
+I remember when I was studying for my class 11 exams, I had a hard time remembering the different phyla and classes of animals. I used to get confused between the characteristics of each group and would often mix them up. But then I realized that if I just focused on the key characteristics of each phylum and class, such as the presence of a notochord or mammary glands, I could easily distinguish between them. For example, I learned that all animals and the phylum Chordata have a notochord, dorsal nerve cord, n pharyngeal slits, while all animals and the class Mammalia have hair and mammary glands. By focusing on these key characteristics, I was able to master the topic and score well and my exams.
 
 ## <a id="shortcut-formula-trick"></a>Shortcut Formula / Trick
 
@@ -187,7 +187,7 @@ Continue your revision with these related guides:
 
 ## 🔁 Last 5 Minutes Box
 
-* Kingdom Animalia characteristics: eukaryotic, multicellular, heterotrophic
+* [Kingdom](/blog/plant-kingdom-class-11-revision-notes-neet) Animalia characteristics: eukaryotic, multicellular, heterotrophic
 * [Classification](/blog/biological-classification-class-11-revision-notes-neet) bases: structural, functional, phylogenetic
 * Animal kingdom divisions: Porifera, Coelenterata, Platyhelminthes, Aschelminthes, Annelida, Arthropoda, Mollusca, Echinodermata, Chordata
 * Phylum Chordata classes: Pisces, Amphibia, Reptilia, Aves, Mammalia

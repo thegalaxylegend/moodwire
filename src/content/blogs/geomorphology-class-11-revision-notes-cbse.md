@@ -134,7 +134,7 @@ As a student of class 11, it is essential to have a solid grasp of Geomorphology
 
 \begin{equation}
 
- E = $\sum_{i=1}^{n} (R_$i \times S$_i)$ 
+ E = \sum_{i=1}^{n} (R_i \times S_i) 
 
 \end{equation}
 
@@ -191,7 +191,7 @@ I am confident that I will do well, n I will continue to work hard to achieve my
 
 \begin{equation}
 
- D = $\sum_{i=1}^{n} (E_$i \times T$_i)$ 
+ D = \sum_{i=1}^{n} (E_i \times T_i) 
 
 \end{equation}
 

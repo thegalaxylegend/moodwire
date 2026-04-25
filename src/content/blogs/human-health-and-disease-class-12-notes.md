@@ -38,7 +38,7 @@ manualReview: false
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not understanding the concept of [health](/blog/reproductive-health-class-12-notes) and disease: [health](/blog/reproductive-health-class-12-notes) 
-EQ $\frac{1}{Disease}$
+ EQ \frac{1}{Disease} 
 - Not being able to differentiate between the different types of diseases: infectious 
 EQ Non-infectious
 - Not knowing the different modes of transmission of diseases: airborne 
@@ -49,7 +49,7 @@ EQ Acquired
 
 ## ✏️ 3 Solved PYQs
 - **Question 1:** $What is the World Health Organization (WHO) definition of health?
-- Step 1: Recall the WHO definition of health
+- Step 1: Recall the WHO definition of [health](/blog/reproductive-health-class-12-notes)
 - Step 2: Write down the definition
 - Step 3: Explain the definition
 - Answer: health = $\frac{Physical \$: well-being}{Mental \: well-being} $\times \frac{Social \$: well-being}{Economic \: well-being}
@@ -66,7 +66,7 @@ EQ Acquired
 
 ## 🧠 The One Thing Most Students Get Wrong
 - The concept of health and disease is often misunderstood by students, with many thinking that health is the absence of disease: health 
-EQ $\frac{1}{Disease}$
+ EQ \frac{1}{Disease} 
 - However, health is a state of complete physical, mental, and social well-being, and not just the absence of disease or infirmity: health = $\frac{Physical \$: well-being}{Mental \: well-being} $\times \frac{Social \$: well-being}{Economic \: well-being}
 - Students must understand that health and disease are two separate concepts, and that health is a broader concept that encompasses physical, mental, and social well-being: $\frac{Health}{Disease} = \frac{Well-being}{Infirmity}$
 
@@ -148,10 +148,12 @@ D) Health and disease are two separate concepts
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/human-health-and-disease-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/[human](/blog/microbes-in-human-welfare-class-12-notes)-health-and-disease-class-12-notes) now and track your progress against thousands of students.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Human%20Health%20And%20Disease%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 
@@ -163,3 +165,4 @@ Continue your revision with these related guides:
 - 📖 [Microbes In Human Welfare Class 12 Exam Prep Revision — Grandmaster Guide](/blog/microbes-in-human-welfare-class-12-notes)
 - 📖 [Reproductive Health Class 12 Exam Prep Revision — Grandmaster Guide](/blog/reproductive-health-class-12-notes)
 - 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+$

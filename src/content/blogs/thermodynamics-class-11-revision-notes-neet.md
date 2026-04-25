@@ -75,7 +75,7 @@ practice_link: "/class-11/biology/thermodynamics-class-11-revision-notes-neet"
 
 ## <a id="2-the-first-law-of-thermodynamics"></a>2. The First Law of Thermodynamics
 
-**Statement:** The heat supplied to a system (**ΔQ**) is equal to the \sum of the increase and its internal energy (**ΔU**) n the work done y the system (**ΔW**).
+**Statement:** The heat supplied to a system (**ΔQ**) is equal to the $\sum$of the increase and its internal energy (**ΔU**) n the work done y the system (**ΔW**).
 **Formula: ΔQ = ΔU + ΔW**
 - **Internal Energy (U):** A state function depending only on temperature.
 - **Sign Convention:** Work done *y* the system is Positive (+); Work done *on* the system is Negative (-).
@@ -198,7 +198,7 @@ Continue your [revision](/blog/waves-class-11-revision-notes-neet) with these re
 ## 🔁 Last 5 Minutes Box
 
 * **Laws of Thermodynamics**: 
-  + Zeroth Law: If two systems are in thermal equilibrium with a third system, then they are in thermal equilibrium with each other.
+  + Zeroth Law: If two systems are in [thermal](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet) equilibrium with a third system, then they are in [thermal](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet) equilibrium with each other.
   + First Law: Energy can't be created or destroyed, only converted from one form to another (ΔE = Q - W).
   + Second Law: Total entropy of an isolated system always increases over time (ΔS = ΔQ / T).
   + Third Law: As temperature approaches absolute zero, entropy of a system approaches a minimum value.

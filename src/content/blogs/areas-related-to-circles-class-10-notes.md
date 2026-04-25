@@ -12,7 +12,7 @@ manualReview: false
 - The area of a circle is given by the formula: A = $\pi r^2$, where are is the radius of the circle.$
 - $The circumference of a circle is given by the formula: BC = 2\pi RJ, where are is the radius of the circle.$
 - The area of a sector of a circle is given by the formula: A = $\frac{\theta}{360} \pi r^2$, where $\theta$ is the angle subtended by the sector at the center and are is the radius of the circle.$
-- The area of a segment of a circle is given by the formula: A = $\frac{1}{2} r^2 (\theta - \sin \theta)$, where $\theta$ is the angle subtended by the segment at the center and are is the radius of the circle.$
+- The area of a segment of a circle is given by the formula: A = $\frac{1}{2} r^2 (\theta - \\sin \theta)$, where $\theta$ is the angle subtended by the segment at the center and are is the radius of the circle.$
 - The length of an arc of a circle is given by the formula: SL = $\frac{\theta}{360} 2\pi RJ$, where $\theta$ is the angle subtended by the arc at the center and are is the radius of the circle.
 
 ## 🪤 The 5 Mistakes That Cost Marks
@@ -24,11 +24,11 @@ manualReview: false
 
 ## ✏️ 3 Solved PYQs
 - **Question 1:** $Find the area of a circle with radius 4 cm.
-  -   $\pi r^2 = \pi (4)^2 = 16\pi cm^2.$ 
+  -    i r^2 = \pi (4)^2 = 16\pi cm^2. 
 - **Question 2:** Find the length of an arc of a circle with radius 3 cm and central angle 60^\circ.
-  -   $\frac{\theta}{360} 2\pi r = \frac{60}{360} 2\pi (3) = \pi cm.$ 
+  -    rac{\theta}{360} 2\pi r = $\frac{60}${360} 2\pi (3) = \pi cm. 
 - **Question 3:** Find the area of a sector of a circle with radius 5 cm and central angle 72^\circ.
-  -   $\frac{\theta}{360} \pi r^2 = \frac{72}{360} \pi (5)^2 = \frac{1}{5} \pi (25) = 5\pi cm^2.$ 
+  -    rac{\theta}{360} \pi r^2 = $\frac{72}${360} \pi (5)^2 = $\frac{1}${5} \pi (25) = 5\pi cm^2. 
 
 ## 🧠 The One Thing Most Students Get Wrong
 - The most common mistake students make is not using the correct formula for the area of a circle, sector, or segment, or not using the correct value of $\pi.$
@@ -57,28 +57,28 @@ D) 4\pi cm^2
 **Answer: B) 36\pi cm^2.**
 
 **2. What is the length of an arc of a circle with radius 4 cm and central angle 45^\circ?**
-A) $\frac{\pi}{2} cm$
-B) $\pi cm$
-C) $\frac{\pi}{4} cm$
+A) \frac{\pi}{2} cm
+B) \pi cm
+C) \frac{\pi}{4} cm
 D) 2\pi cm
 
 **Answer: C) $\pi cm is incorrect$, the correct answer is $\frac{\pi}{2} cm.**$
 
 **3. What is the area of a sector of a circle with radius 8 cm and central angle 60^\circ?**
-A) $\frac{1}{6} \pi (8)^2 cm^2$
-B) $\frac{1}{3} \pi (8)^2 cm^2$
-C) $\frac{1}{2} \pi (8)^2 cm^2$
-D) $\frac{2}{3} \pi (8)^2 cm^2$
+A) \frac{1}{6} \pi (8)^2 cm^2
+B) \frac{1}{3} \pi (8)^2 cm^2
+C) \frac{1}{2} \pi (8)^2 cm^2
+D) \frac{2}{3} \pi (8)^2 cm^2
 
 **Answer: B) $\frac{1}{6} \pi (8)^2 cm^2 is incorrect$, the correct answer is $\frac{1}{6} \pi (8)^2 = \frac{32\pi}{3} cm^2.**$
 
 **4. What is the area of a segment of a circle with radius 10 cm and central angle 30^\circ?**
-A) $\frac{1}{12} \pi (10)^2 - \frac{1}{2} (10)^2 \sin 30^\circ cm^2$
-B) $\frac{1}{6} \pi (10)^2 - \frac{1}{2} (10)^2 \sin 60^\circ cm^2$
-C) $\frac{1}{12} \pi (10)^2 - \frac{1}{2} (10)^2 \sin 60^\circ cm^2$
-D) $\frac{1}{6} \pi (10)^2 - \frac{1}{2} (10)^2 \sin 30^\circ ^2$
+A) \frac{1}{12} \pi (10)^2 - \frac{1}{2} (10)^2 \\sin 30^\circ cm^2
+B) \frac{1}{6} \pi (10)^2 - \frac{1}{2} (10)^2 \\sin 60^\circ cm^2
+C) \frac{1}{12} \pi (10)^2 - \frac{1}{2} (10)^2 \\sin 60^\circ cm^2
+D) \frac{1}{6} \pi (10)^2 - \frac{1}{2} (10)^2 \\sin 30^\circ ^2
 
-**Answer: A) \{1}{12} $\pi (10)^2 - \{1}{2} (10)^2 \sin 30^\ cm^2.**$
+**Answer: A) \{1}{12} \pi (10)^2 - \{1}{2} (10)^2 \\sin 30^\ cm^2.**
 
 **5. What is the circumference of a circle with diameter 14 cm?**
 A) 14\pi cm
@@ -89,7 +89,7 @@ D) 42\pi cm
 **Answer: A) 14\pin cm is incorrect, the correct answer is 7\pin cm, since the circumference is given by BC = $\pi d = \pi (14) = 14\pin cm$, but the radius is $\frac{14}{2} = 7 cm$, and BC = 2\pi r = 2\pi (7) = 14\pin cm.**
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/areas-related-to-circles-class-10-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/areas-related-to-[circles](/blog/circles-class-10-notes)-class-10-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 
@@ -111,3 +111,5 @@ Continue your revision with these related guides:
 - 📖 [Compiler Design Class 12 Exam Prep Revision — Grandmaster Guide](/blog/compiler-design-class-12-notes)
 - 📖 [Computer Networks Class 12 Exam Prep Revision — Grandmaster Guide](/blog/computer-networks-class-12-notes)
 - 📖 [Data Handling 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/data-handling-class-8-notes)
+$
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Areas%20Related%20To%20Circles%20Class%2010%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**

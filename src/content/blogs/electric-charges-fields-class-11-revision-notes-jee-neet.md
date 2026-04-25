@@ -9,6 +9,28 @@ practice_link: "/class-11/physics/electric-charges-fields-class-11-revision-note
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-electric-charges-fields-revision-notes"></a>What is Electric Charges Fields Revision Notes?](#a-idwhat-is-electric-charges-fields-revision-notesawhat-is-electric-charges-fields-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-electric-charge-the-fundamental-property"></a>1. Electric Charge: The Fundamental Property](#a-id1-electric-charge-the-fundamental-propertya1-electric-charge-the-fundamental-property)
+5. [<a id="2-coulombs-law-the-force-of-interaction"></a>2. Coulomb’s Law: The Force of Interaction](#a-id2-coulombs-law-the-force-of-interactiona2-coulombs-law-the-force-of-interaction)
+6. [<a id="3-electric-field-the-sphere-of-influence"></a>3. Electric Field: The Sphere of Influence](#a-id3-electric-field-the-sphere-of-influencea3-electric-field-the-sphere-of-influence)
+7. [<a id="4-the-electric-dipole-a-system-of-two-charges"></a>4. The Electric Dipole: A System of Two Charges](#a-id4-the-electric-dipole-a-system-of-two-chargesa4-the-electric-dipole-a-system-of-two-charges)
+8. [<a id="5-torque-on-a-dipole-n-a-uniform-electric-field"></a>5. Torque on a Dipole and a Uniform Electric Field](#a-id5-torque-on-a-dipole-n-a-uniform-electric-fielda5-torque-on-a-dipole-and-a-uniform-electric-field)
+9. [<a id="6-gausss-law-the-revolutionary-tool"></a>6. Gauss’s Law: The Revolutionary Tool](#a-id6-gausss-law-the-revolutionary-toola6-gausss-law-the-revolutionary-tool)
+10. [<a id="7-applications-of-gausss-law-technical-mastery"></a>7. Applications of Gauss’s Law (Technical Mastery)](#a-id7-applications-of-gausss-law-technical-masterya7-applications-of-gausss-law-technical-mastery)
+11. [<a id="comprehensive-exam-strategy-Qaeda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qaedaacomprehensive-exam-strategy-qa)
+12. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+13. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+14. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+15. [📚 Related Topics](#related-topics)
+16. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+17. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Electric Charges Fields Revision Notes?](#what-is-electric-charges-fields-revision-notes)
@@ -56,7 +78,7 @@ practice_link: "/class-11/physics/electric-charges-fields-class-11-revision-note
 
 ## <a id="introduction"></a>Introduction
 
-The universe is fundamentally electric. From the bonds that hold DNA together to the lightning that tears through the sky, the interaction of electric charges is the primary driver of the physical world. class 12 Physics begins with **Electrostatics**—the study of charges at rest. This first chapter, "Electric Charges and Fields," serves as the cornerstone for the entire field of Electromagnetism. In this "Comprehensive" guide, we transcend simple summaries to provide rigorous proofs for every major theorem, including the field of a dipole and the exhaustive applications of Gauss's Law. Whether you are aiming for a perfect score and Board exams or a top rank and JEE/MEET, these notes provide the technical precision and conceptual clarity required for academic mastery.
+The universe is fundamentally electric. From the bonds that hold DNA together to the lightning that tears through the sky, the interaction of electric [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet) is the primary driver of the physical world. class 12 Physics begins with **Electrostatics**—the study of [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet) at rest. This first chapter, "Electric [Charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet) and Fields," serves as the cornerstone for the entire field of Electromagnetism. In this "Comprehensive" guide, we transcend simple summaries to provide rigorous proofs for every major theorem, including the field of a dipole and the exhaustive applications of Gauss's Law. Whether you are aiming for a perfect score and Board exams or a top rank and JEE/MEET, these notes provide the technical precision and conceptual clarity required for academic mastery.
 
 ---
 
@@ -153,7 +175,7 @@ An **Electric Dipole** consists of two equal and opposite [charges](/blog/moving
 ### <a id="i-derivation-proof-using-coulombs-law"></a>I. Derivation (Proof using Coulomb’s Law)
 1.  Consider a point charge **q** at the center of a sphere of radius **r**.
 2.  **E = [1 / 4πε₀] [q / r²]**.
-3.     $Flux **Φ = ∮ E DA \cos 0° = E ∮ DA**. $
+3.      Flux **Φ = ∮ E DA \\cos 0° = E ∮ DA**. 
 4.  Since ∮ DA = 4πr²:
     - **Φ = [1 / 4πε₀] [q / r²] [4πr²] = q / ε₀**. (Proven)
 
@@ -229,6 +251,8 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/electric-charges-fields-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Electric%20Charges%20Fields%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -246,16 +270,16 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 * **Incorrectly applying Coulomb's Law**: Coulomb's Law is often misapplied y neglecting to consider the magnitude and direction of the forces between multiple [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet), leading to incorrect calculations of the net force.
 * **Confusing electric field lines and force**: Students often mistakenly assume that electric field lines represent the force experienced y a charge, when and fact they represent the direction and magnitude of the electric field at a point and space.
 * **Neglecting the sign of the charge**: When calculating the electric field or force, it's essential to consider the sign of the charge, as like [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet) repel and unlike [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet) attract, but many students forget to apply this correctly.
-* **Not considering the superposition principle**: When multiple [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet) are present, the electric field at a point is the vector \sum of the fields due to each charge, but students often neglect to apply the superposition principle, leading to incorrect calculations.
+* **Not considering the superposition principle**: When multiple [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet) are present, the electric field at a point is the vector $\sum$of the fields due to each charge, but students often neglect to apply the superposition principle, leading to incorrect calculations.
 
 ## 🔁 Last 5 Minutes Box
 
-* **Coulomb's Law**: F = (k * q1 * q2) / r^2, where k = 8.99 x 10^9 N m^2/C^2
+* **Coulomb's Law**: F = (k * q1 * q2) / r^2, where k = 8.99 x 10^9 And m^2/C^2
    * **Electric Field**: E = F / q, E = k * q / r^2
-   * **Electric Flux**: Φ = E * A * cos(θ)
+   * **Electric Flux**: Φ = E * A * \cos(θ)
    * **Gauss's Law**: Φ = Q / ε0, where ε0 = 8.85 x 10^-12 C^2/N m^2
    * **Electric Potential**: V = k * q / r, V = W / q
    * **Equipotential Surface**: V = constant
    * **Electric Dipole Moment**: p = q * d
-   * **Torque on Dipole**: τ = p * E * sin(θ)
+   * **Torque on Dipole**: τ = p * E * \sin(θ)
    * **Electric Field due to Dipole**: E = (k * p) / r^3

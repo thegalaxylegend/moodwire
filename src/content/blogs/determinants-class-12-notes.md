@@ -87,11 +87,11 @@ D) 8
 **3. Find the value of ex for which the determinant of the matrix $\begin{bmatrix} 1 & x & 2 \\ 3 & 4 & 5 \\ 6 & 7 & 8 \end{bmatrix}$ is zero**
 A) 1
 B) 2
-C) $\frac{3}{2}$
+C) \frac{3}{2}
 D) 3
 
 **Answer: C) $\frac{3}{2}$. The determinant of the matrix is given by $\begin{vmatrix} 1 & x & 2 \\ 3 & 4 & 5 \\ 6 & 7 & 8 \end{vmatrix} = 1(4 \times 8–5 \times 7) - x(3 \times 8–5 \times 6) + 2(3 \times 7–4 \times 6) = 1(32–35) - x(24–30) + 2(21–24) = 1(-3) - x(-6) + 2(-3) = -3 + 6x - 6 = 0$**
-  $6x = 9$ x = $\frac{9}{6} = \frac{3}{2}$
+ 6x = 9 x = \frac{9}{6} = \frac{3}{2}
 
 **4. Evaluate the determinant of the matrix $\begin{bmatrix} 1 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 3 \end{bmatrix}$**
 A) 1
@@ -124,3 +124,4 @@ Continue your revision with these related guides:
 - 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Determinants%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+$

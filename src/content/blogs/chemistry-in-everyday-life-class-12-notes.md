@@ -11,8 +11,8 @@ manualReview: false
 ## ⚡ Formula Bank
 - Chemical reactions occur all around us, and understanding them is crucial for JEE and MEET exams: $\frac{\delta G}{\delta T} = \frac{\delta H - \delta S}{\delta T}$
 - The ideal gas law is given by: $PV = NRT, where UP is pressure, DVD is volume, and is number of moles, ARE is gas constant, and TO is temperature in Kelvin$
-- The first law of thermodynamics states that energy cannot be created or destroyed, only converted from one form to another: $\delta E = q +$ we, where $\delta EX$ is change in energy, HQ is heat added, and we is work done
-- The equilibrium constant for a reaction is given by: OK = $\frac{[$\text{products}$]}{[$\text{reactants}$]}$, where OK is equilibrium constant, and $[$\text{products}$]$ and $[$\text{reactants}$]$ are concentrations of products and reactants respectively$
+- The first law of thermodynamics states that energy cannot be created or destroyed, only converted from one form to another: $\delta E = q +$ we, where $\delta EX$ is change in energy, HQ is heat added, and we are work done
+- The equilibrium constant for a reaction is given by: OK = $\frac{[\text{products}]}{[\text{reactants}]}$, where OK is equilibrium constant, and $[\text{products}]$ and $[\text{reactants}]$ are concentrations of products and reactants respectively$
 - The rate of a reaction is given by: $\text{rate} = \{\delta [\text{reactant}]}{\delta t}$, where $\text{rate}$ is rate of reaction, $\delta [\text{reactant}]$ is change in concentration of reactant, and $\delta$ is change in time
 
 ## 🪤 The 5 Mistakes That Cost Marks
@@ -24,13 +24,13 @@ manualReview: false
 
 ## ✏️ 3 Solved PYQs
 - **Question 1:** What is the equilibrium constant for the reaction: $2\text{NO}_2 \rightleftharpoons \text{N}_2\text{O}_4$?
-- Step 1: Write down the equilibrium expression: OK = $\frac{[$\text{N}$_2$\text{O}$_4]}{[$\text{NO}$_2]^2}$
+- Step 1: Write down the equilibrium expression: OK = $\frac{[\text{N}_2\text{O}_4]}{[\text{NO}_2]^2}$
 - Step 2: Plug in the given concentrations: OK = $\frac{0.1}{(0.2)^2} = \frac{0.1}{0.04} = 2.5$
-- **Answer:** OK = 2.5$
+- **Answer:** OK = $2.5
 - **Question 2:** A sample of oxygen gas is collected over water at a temperature of $25^\circ\text{C}$ and a pressure of $1.0$ atm. What is the partial pressure of oxygen in the sample?
-- Step 1: Calculate the vapor pressure of water at $25^\circ\text{C}$: UP_{$\text{H}$_2$\text{O}}$ = 0.0313$ atm$
-- Step 2: Calculate the partial pressure of oxygen: UP_{$\text{O}$_2} = P_{$\text{total}}$ - P_{$\text{H}$_2$\text{O}}$ = 1.0–0.0313 = 0.9687$ atm$
-- **Answer:** UP_{$\text{O}$_2} = 0.9687$ atm$
+- Step 1: Calculate the vapor pressure of water at $25^\circ\text{C}$: UP_{$\text{H}$_2$\text{O}}$ = $0.0313 atm$
+- Step 2: Calculate the partial pressure of oxygen: UP_{$\text{O}$_2} = P_{$\text{total}}$ - P_{$\text{H}$_2$\text{O}}$ = 1.0–0.0313 = $0.9687 atm$
+- **Answer:** UP_{$\text{O}$_2} = $0.9687 atm$
 - **Question 3:** A solution of $\text{HCl}$ has a pH of $2.0$. What is the concentration of $\text{H}^+$ ions in the solution?
 - Step 1: Use the definition of pH: $\text{pH} = -\log[\text{H}^+]$
 - Step 2: Plug in the given pH: $2.0 = -\log[\text{H}^+]$
@@ -39,7 +39,7 @@ manualReview: false
 
 ## 🧠 The One Thing Most Students Get Wrong
 - Many students struggle with understanding the concept of [chemical](/blog/chemical-reactions-and-equations-class-10-notes) equilibrium, and how to calculate the equilibrium constant for a reaction
-- The key is to understand that equilibrium is a dynamic state, where the rates of forward and reverse reactions are equal
+- The key is to understand that equilibrium is a dynamic state, where the rates of forward and reverse [reactions](/blog/chemical-reactions-and-equations-class-10-notes) are equal
 - The equilibrium constant is a measure of the ratio of products to reactants at equilibrium, and can be calculated using the law of mass action
 - It's also important to understand the concept of Le Ch atelier's principle, which states that if a system at equilibrium is subjected to a change in concentration, temperature, or pressure, the equilibrium will shift in a direction that tends to counteract the change
 
@@ -68,12 +68,12 @@ D) $4.0$
 - Explanation: Use the definition of pH: $\text{pH} = -\log[\text{H}^+] = -\log(0.01) = 2.0$
 
 **2. What is the equilibrium constant for the reaction: $\text{N}_2 + 3\text{H}_2 \rightleftharpoons 2\text{NH}_3$?**
-A) OK = $\frac{[$\text{NH}$_3]^2}{[$\text{N}$_2][$\text{H}$_2]^3}$
-B) OK = $\frac{[$\text{NH}$_3]^2}{[$\text{N}$_2]^2[$\text{H}$_2]^3}$
-C) OK = $\frac{[$\text{NH}$_3]}{[$\text{N}$_2][$\text{H}$_2]^3}$
-D) OK = $\frac{[$\text{NH}$_3]}{[$\text{N}$_2]^2[$\text{H}$_2]^3}$
+A) OK = $\frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3}$
+B) OK = $\frac{[\text{NH}_3]^2}{[\text{N}_2]^2[\text{H}_2]^3}$
+C) OK = $\frac{[\text{NH}_3]}{[\text{N}_2][\text{H}_2]^3}$
+D) OK = $\frac{[\text{NH}_3]}{[\text{N}_2]^2[\text{H}_2]^3}$
 
-**Answer: A) K = $\frac{[$\text{NH}$_3]^2}{[$\text{N}$_2][$\text{H}$_2]^3}** 
+**Answer: A) K = $\frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3}** 
 - Explanation: Use the law of mass action to write the equilibrium expression
 
 **3. What is the vapor pressure of a solution that is $20\%\text{H}_2\text{O}$ and $80\%\text{CH}_3\text{OH}$ by mole?**
@@ -83,13 +83,13 @@ C) $0.6$ atm
 D) $0.8$ atm
 
 **Answer: B) $0.4$ atm**
-- Explanation: Use Raoult's law: UP_{$\text{total}}$ = P_{$\text{H}$_2$\text{O}}$ + P_{$\text{CH}$_3$\text{OH}}$ = x_{$\text{H}$_2$\text{O}}$P_{$\text{H}$_2$\text{O}}$^0 + x_{$\text{CH}$_3$\text{OH}}$P_{$\text{CH}$_3$\text{OH}}$^0$
+- Explanation: Use Raoult's law: UP_{$\text{total}}$ = P_{$\text{H}$_2$\text{O}}$ + P_{$\text{CH}$_3$\text{OH}}$ = x_{$\text{H}$_2$\text{O}}$P_{$\text{H}$_2$\text{O}}$^0 + x_{$\text{CH}$_3$\text{OH}}$P_{$\text{CH}$_3$\text{OH}}$^$0
 
 **4. What is the rate of reaction for the reaction: $2\text{NO}_2 \right arrow \text{N}_2\text{O}_4$?**
-A) $\text{rate} = \frac{\delta [\text{NO}_2]}{\delta t}$
-B) $\text{rate} = \frac{\delta [\text{N}_2\text{O}_4]}{\delta t}$
-C) $\text{rate} = \frac{\delta [\text{NO}_2]^2}{\delta t}$
-D) $\text{rate} = \frac{\delta [\text{N}_2\text{O}_4]^2}{\delta t}$
+A) \text{rate} = \frac{\delta [\text{NO}_2]}{\delta t}
+B) \text{rate} = \frac{\delta [\text{N}_2\text{O}_4]}{\delta t}
+C) \text{rate} = \frac{\delta [\text{NO}_2]^2}{\delta t}
+D) \text{rate} = \frac{\delta [\text{N}_2\text{O}_4]^2}{\delta t}
 
 **Answer: A) $\text{rate} = \frac{\delta [\text{NO}_2]}{\delta t}$**
 - Explanation: Use the definition of rate: $\text{rate} = \frac{\delta [\text{reactant}]}{\delta t}$
@@ -110,7 +110,7 @@ D) $\delta H = 285.8$ J/MOL
 | **water** | H2O | 18.015 g/MOL | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/962) |
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/chemistry-in-everyday-life-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/chemistry-in-everyday-[life](/blog/life-processes-class-10-notes)-class-12-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 
@@ -132,3 +132,5 @@ Continue your revision with these related guides:
 - 📖 [Atoms Class 12 Physics Revision — Grandmaster Guide](/blog/atoms-class-12-notes)
 - 📖 [Communication Systems Class 12 Physics Revision — Grandmaster Guide](/blog/communication-systems-class-12-notes)
 - 📖 [Compiler Design Class 12 Exam Prep Revision — Grandmaster Guide](/blog/compiler-design-class-12-notes)
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Chemistry%20In%20Everyday%20Life%20Class%2012%20Chemistry%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**

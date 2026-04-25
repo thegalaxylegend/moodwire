@@ -75,7 +75,7 @@ The following are the core concepts related to the Mughal Empire:
 
 ### <a id="mcqs"></a>MCQs
 
-1. Who founded the Mughal Empire n 1526?
+1. Who founded the Mughal Empire and 1526?
 a) Babur
 b) Humayun
 c) Akbar
@@ -183,7 +183,7 @@ Continue your [revision](/blog/ancient-india-indus-valley-class-11-revision-note
 
 ### Mughal Emperors
    * Babur (1526-1530): Founder of Mughal Empire
-   * Humayun (1530-1540, 1555-1556): Established Mughal rule in India
+   * Humayun (1530-1540, 1555-1556): Established Mughal rule in [India](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
    * Akbar (1556-1605): Consolidated empire, introduced Mansabdari system
    * Jahangir (1605-1627): Expanded empire, patronized arts
    * Shah Jahan (1628-1658): Built Taj Mahal, established efficient administration

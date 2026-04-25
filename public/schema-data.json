@@ -20,7 +20,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.095Z",
+      "dateModified": "2026-04-25T14:50:19.324Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/3d-geometry-intro-class-11-revision-notes-jee-neet"
@@ -145,13 +145,13 @@
         }
       },
       "datePublished": "2026-04-22T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.095Z",
+      "dateModified": "2026-04-25T14:50:19.325Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/acids-bases-and-salts-class-10-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 3065,
+      "wordCount": 3064,
       "keywords": ""
     },
     {
@@ -270,7 +270,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.096Z",
+      "dateModified": "2026-04-25T14:50:19.325Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/agriculture-class-11-revision-notes-neet"
@@ -395,7 +395,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.097Z",
+      "dateModified": "2026-04-25T14:50:19.325Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet"
@@ -520,7 +520,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.097Z",
+      "dateModified": "2026-04-25T14:50:19.326Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/ai-study-hack-pomodoro-class-11-revision-notes-neet"
@@ -645,13 +645,13 @@
         }
       },
       "datePublished": "2026-03-29T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.098Z",
+      "dateModified": "2026-04-25T14:50:19.327Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/alcohols-phenols-and-ethers-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 1523,
+      "wordCount": 1510,
       "keywords": ""
     },
     {
@@ -765,13 +765,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.098Z",
+      "dateModified": "2026-04-25T14:50:19.327Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1046,
+      "wordCount": 1095,
       "keywords": ""
     },
     {
@@ -890,13 +890,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.098Z",
+      "dateModified": "2026-04-25T14:50:19.327Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/algebraic-expressions-class-8-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 969,
+      "wordCount": 1088,
       "keywords": ""
     },
     {
@@ -988,13 +988,18 @@
         },
         {
           "@type": "LearningResource",
-          "name": "📚 Academic References",
+          "name": "🎬 Watch: Visual Explanation",
           "position": 8
         },
         {
           "@type": "LearningResource",
-          "name": "📚 Related Topics",
+          "name": "📚 Academic References",
           "position": 9
+        },
+        {
+          "@type": "LearningResource",
+          "name": "📚 Related Topics",
+          "position": 10
         }
       ]
     }
@@ -1020,13 +1025,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.099Z",
+      "dateModified": "2026-04-25T14:50:19.328Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/algorithms-analysis-class-11-revision-notes-gate-boards"
       },
       "articleSection": "Revision",
-      "wordCount": 6548,
+      "wordCount": 6538,
       "keywords": ""
     },
     {
@@ -1180,13 +1185,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.101Z",
+      "dateModified": "2026-04-25T14:50:19.329Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/algorithms-design-class-11-revision-notes-gate-boards"
       },
       "articleSection": "Revision",
-      "wordCount": 7176,
+      "wordCount": 7165,
       "keywords": ""
     },
     {
@@ -1340,7 +1345,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.101Z",
+      "dateModified": "2026-04-25T14:50:19.330Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/alternating-current-class-12-notes"
@@ -1495,13 +1500,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.102Z",
+      "dateModified": "2026-04-25T14:50:19.330Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/amines-class-12-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1342,
+      "wordCount": 1407,
       "keywords": ""
     },
     {
@@ -1604,7 +1609,7 @@
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "anatomy of flowering plants class 11 revision notes neet Class 11 Exam Notes Revision — Grandmaster Guide",
-      "description": "anatomy of flowering plants class 11 revision notes neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-24.",
+      "description": "anatomy of flowering plants class 11 revision notes neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-22.",
       "image": "https://examcompass.pages.dev/blog-images/anatomy-of-flowering-plants-class-11-revision-notes-neet.webp",
       "author": {
         "@type": "Person",
@@ -1619,14 +1624,14 @@
           "url": "https://examcompass.pages.dev/logo.png"
         }
       },
-      "datePublished": "2026-04-24T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.102Z",
+      "datePublished": "2026-04-22T00:00:00.000Z",
+      "dateModified": "2026-04-25T14:50:19.331Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 3786,
+      "wordCount": 3359,
       "keywords": ""
     },
     {
@@ -1663,7 +1668,7 @@
       "@context": "https://schema.org",
       "@type": "LearningResource",
       "name": "anatomy of flowering plants class 11 revision notes neet Class 11 Exam Notes Revision — Grandmaster Guide",
-      "description": "anatomy of flowering plants class 11 revision notes neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-24.",
+      "description": "anatomy of flowering plants class 11 revision notes neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-22.",
       "educationalLevel": "Class 11",
       "learningResourceType": "Revision Notes",
       "author": {
@@ -1715,6 +1720,11 @@
           "@type": "LearningResource",
           "name": "Practice MCQs",
           "position": 7
+        },
+        {
+          "@type": "LearningResource",
+          "name": "📚 Related Topics",
+          "position": 8
         }
       ]
     }
@@ -1740,7 +1750,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.103Z",
+      "dateModified": "2026-04-25T14:50:19.331Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/ancient-india-indus-valley-class-11-revision-notes-cbse"
@@ -1910,7 +1920,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.103Z",
+      "dateModified": "2026-04-25T14:50:19.331Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee"
@@ -2050,13 +2060,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.103Z",
+      "dateModified": "2026-04-25T14:50:19.332Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/ancient-india-vedic-age-class-11-revision-notes-jee"
       },
       "articleSection": "Revision",
-      "wordCount": 1511,
+      "wordCount": 1512,
       "keywords": ""
     },
     {
@@ -2210,7 +2220,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.103Z",
+      "dateModified": "2026-04-25T14:50:19.332Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/animal-kingdom-class-11-revision-notes-neet"
@@ -2370,13 +2380,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.104Z",
+      "dateModified": "2026-04-25T14:50:19.332Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/application-of-derivatives-class-12-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1871,
+      "wordCount": 1868,
       "keywords": ""
     },
     {
@@ -2495,13 +2505,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.104Z",
+      "dateModified": "2026-04-25T14:50:19.332Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/application-of-integrals-class-12-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1145,
+      "wordCount": 1156,
       "keywords": ""
     },
     {
@@ -2620,7 +2630,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.104Z",
+      "dateModified": "2026-04-25T14:50:19.333Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/applications-of-trigonometry-class-10-notes"
@@ -2750,13 +2760,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.104Z",
+      "dateModified": "2026-04-25T14:50:19.333Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/areas-related-to-circles-class-10-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1007,
+      "wordCount": 1008,
       "keywords": ""
     },
     {
@@ -2880,7 +2890,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.104Z",
+      "dateModified": "2026-04-25T14:50:19.333Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/arithmetic-progressions-class-10-notes"
@@ -3005,13 +3015,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.105Z",
+      "dateModified": "2026-04-25T14:50:19.333Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/art-culture-architecture-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1479,
+      "wordCount": 1478,
       "keywords": ""
     },
     {
@@ -3145,13 +3155,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.106Z",
+      "dateModified": "2026-04-25T14:50:19.333Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/atoms-class-12-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1014,
+      "wordCount": 1032,
       "keywords": ""
     },
     {
@@ -3275,13 +3285,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.106Z",
+      "dateModified": "2026-04-25T14:50:19.334Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/binomial-theorem-class-11-revision-notes-jee"
       },
       "articleSection": "Revision",
-      "wordCount": 1463,
+      "wordCount": 1462,
       "keywords": ""
     },
     {
@@ -3435,13 +3445,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.106Z",
+      "dateModified": "2026-04-25T14:50:19.334Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/biodiversity-and-conservation-class-12-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 850,
+      "wordCount": 855,
       "keywords": ""
     },
     {
@@ -3560,7 +3570,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.106Z",
+      "dateModified": "2026-04-25T14:50:19.335Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/biogeography-class-11-revision-notes-neet"
@@ -3675,13 +3685,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.106Z",
+      "dateModified": "2026-04-25T14:50:19.335Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/biological-classification-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1339,
+      "wordCount": 1340,
       "keywords": ""
     },
     {
@@ -3825,7 +3835,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.107Z",
+      "dateModified": "2026-04-25T14:50:19.335Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/biomolecules-class-11-revision-notes-neet"
@@ -3935,13 +3945,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.107Z",
+      "dateModified": "2026-04-25T14:50:19.335Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/biotechnology-and-its-applications-class-12-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1020,
+      "wordCount": 1021,
       "keywords": ""
     },
     {
@@ -4060,13 +4070,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.107Z",
+      "dateModified": "2026-04-25T14:50:19.335Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/biotechnology-principles-and-processes-class-12-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1300,
+      "wordCount": 1299,
       "keywords": ""
     },
     {
@@ -4180,13 +4190,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.108Z",
+      "dateModified": "2026-04-25T14:50:19.336Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/body-fluids-and-circulation-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 6777,
+      "wordCount": 6775,
       "keywords": ""
     },
     {
@@ -4360,7 +4370,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.108Z",
+      "dateModified": "2026-04-25T14:50:19.336Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet"
@@ -4490,7 +4500,7 @@
         }
       },
       "datePublished": "2026-04-23T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.109Z",
+      "dateModified": "2026-04-25T14:50:19.337Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/carbon-and-its-compounds-class-10-notes"
@@ -4620,7 +4630,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.109Z",
+      "dateModified": "2026-04-25T14:50:19.337Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet"
@@ -4770,7 +4780,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.109Z",
+      "dateModified": "2026-04-25T14:50:19.337Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/cell-the-unit-of-life-class-11-revision-notes-neet"
@@ -4945,13 +4955,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.110Z",
+      "dateModified": "2026-04-25T14:50:19.338Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/chemical-bonding-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 3415,
+      "wordCount": 3413,
       "keywords": ""
     },
     {
@@ -5145,7 +5155,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.110Z",
+      "dateModified": "2026-04-25T14:50:19.338Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/chemical-coordination-and-integration-class-11-revision-notes-neet"
@@ -5290,7 +5300,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.111Z",
+      "dateModified": "2026-04-25T14:50:19.338Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/chemical-kinetics-class-12-notes"
@@ -5420,13 +5430,13 @@
         }
       },
       "datePublished": "2026-04-22T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.111Z",
+      "dateModified": "2026-04-25T14:50:19.339Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/chemical-reactions-and-equations-class-10-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 3118,
+      "wordCount": 3116,
       "keywords": ""
     },
     {
@@ -5555,13 +5565,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.111Z",
+      "dateModified": "2026-04-25T14:50:19.340Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/chemistry-in-everyday-life-class-12-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1318,
+      "wordCount": 1317,
       "keywords": ""
     },
     {
@@ -5690,13 +5700,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.112Z",
+      "dateModified": "2026-04-25T14:50:19.340Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/circles-class-10-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1472,
+      "wordCount": 1471,
       "keywords": ""
     },
     {
@@ -5820,7 +5830,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.112Z",
+      "dateModified": "2026-04-25T14:50:19.340Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/class-10-30-day-timetable-class-10-revision-notes-jee"
@@ -5960,7 +5970,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.112Z",
+      "dateModified": "2026-04-25T14:50:19.340Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet"
@@ -6023,7 +6033,7 @@
       "hasPart": [
         {
           "@type": "LearningResource",
-          "name": "What is Class 10 Science PDQ Strategy?",
+          "name": "What is Class 10 Science PYQ Strategy?",
           "position": 1
         },
         {
@@ -6100,7 +6110,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.112Z",
+      "dateModified": "2026-04-25T14:50:19.340Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet"
@@ -6270,7 +6280,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.113Z",
+      "dateModified": "2026-04-25T14:50:19.341Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/classification-of-elements-class-11-revision-notes-jee-neet"
@@ -6415,7 +6425,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.114Z",
+      "dateModified": "2026-04-25T14:50:19.341Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/climatology-class-11-revision-notes-jee-neet"
@@ -6550,13 +6560,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.114Z",
+      "dateModified": "2026-04-25T14:50:19.342Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/communication-systems-class-12-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1270,
+      "wordCount": 1269,
       "keywords": ""
     },
     {
@@ -6680,7 +6690,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.114Z",
+      "dateModified": "2026-04-25T14:50:19.342Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/comparing-quantities-class-8-notes"
@@ -6805,13 +6815,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.114Z",
+      "dateModified": "2026-04-25T14:50:19.342Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/compiler-design-class-12-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1304,
+      "wordCount": 1327,
       "keywords": ""
     },
     {
@@ -6935,13 +6945,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.114Z",
+      "dateModified": "2026-04-25T14:50:19.342Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/complex-numbers-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1435,
+      "wordCount": 1432,
       "keywords": ""
     },
     {
@@ -7090,7 +7100,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.115Z",
+      "dateModified": "2026-04-25T14:50:19.343Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/computer-networks-class-12-notes"
@@ -7220,13 +7230,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.116Z",
+      "dateModified": "2026-04-25T14:50:19.343Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/computer-organization-class-11-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 6381,
+      "wordCount": 6359,
       "keywords": ""
     },
     {
@@ -7375,13 +7385,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.116Z",
+      "dateModified": "2026-04-25T14:50:19.344Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/conic-sections-class-11-revision-notes-jee"
       },
       "articleSection": "Revision",
-      "wordCount": 1420,
+      "wordCount": 1418,
       "keywords": ""
     },
     {
@@ -7530,7 +7540,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.117Z",
+      "dateModified": "2026-04-25T14:50:19.344Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/constitutional-framework-class-11-revision-notes-cbse"
@@ -7670,13 +7680,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.117Z",
+      "dateModified": "2026-04-25T14:50:19.345Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/continuity-and-differentiability-class-12-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 819,
+      "wordCount": 813,
       "keywords": ""
     },
     {
@@ -7795,13 +7805,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.117Z",
+      "dateModified": "2026-04-25T14:50:19.345Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/coordinate-geometry-class-10-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1356,
+      "wordCount": 1355,
       "keywords": ""
     },
     {
@@ -7925,7 +7935,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.117Z",
+      "dateModified": "2026-04-25T14:50:19.345Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/coordination-compounds-class-12-notes"
@@ -8050,13 +8060,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.117Z",
+      "dateModified": "2026-04-25T14:50:19.345Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/cubes-and-cube-roots-class-8-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 998,
+      "wordCount": 997,
       "keywords": ""
     },
     {
@@ -8175,7 +8185,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.117Z",
+      "dateModified": "2026-04-25T14:50:19.345Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/cuet-2026-master-strategy-class-11-revision-notes-neet"
@@ -8320,13 +8330,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.118Z",
+      "dateModified": "2026-04-25T14:50:19.346Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/current-electricity-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 2009,
+      "wordCount": 2006,
       "keywords": ""
     },
     {
@@ -8490,13 +8500,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.118Z",
+      "dateModified": "2026-04-25T14:50:19.346Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/data-handling-class-8-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1096,
+      "wordCount": 1097,
       "keywords": ""
     },
     {
@@ -8620,7 +8630,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.119Z",
+      "dateModified": "2026-04-25T14:50:19.346Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/data-structures-linear-class-11-revision-notes-gate-boards"
@@ -8780,13 +8790,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.120Z",
+      "dateModified": "2026-04-25T14:50:19.347Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/data-structures-non-linear-class-11-revision-notes-gate-boards"
       },
       "articleSection": "Revision",
-      "wordCount": 8495,
+      "wordCount": 8494,
       "keywords": ""
     },
     {
@@ -8940,13 +8950,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.120Z",
+      "dateModified": "2026-04-25T14:50:19.347Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/databases-dbms-class-12-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1018,
+      "wordCount": 1017,
       "keywords": ""
     },
     {
@@ -9065,13 +9075,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.121Z",
+      "dateModified": "2026-04-25T14:50:19.348Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/determinants-class-12-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1523,
+      "wordCount": 1524,
       "keywords": ""
     },
     {
@@ -9190,13 +9200,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.121Z",
+      "dateModified": "2026-04-25T14:50:19.348Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/differential-equations-class-12-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1172,
+      "wordCount": 1171,
       "keywords": ""
     },
     {
@@ -9315,13 +9325,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.121Z",
+      "dateModified": "2026-04-25T14:50:19.348Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/digestion-and-absorption-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1499,
+      "wordCount": 1496,
       "keywords": ""
     },
     {
@@ -9465,7 +9475,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.122Z",
+      "dateModified": "2026-04-25T14:50:19.350Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/digital-logic-class-11-revision-notes-gate-boards"
@@ -9620,7 +9630,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.122Z",
+      "dateModified": "2026-04-25T14:50:19.350Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/dpsp-duties-class-11-revision-notes-jee-neet"
@@ -9760,7 +9770,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.123Z",
+      "dateModified": "2026-04-25T14:50:19.350Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/dual-nature-of-radiation-class-12-notes"
@@ -9885,13 +9895,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.123Z",
+      "dateModified": "2026-04-25T14:50:19.350Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/ecosystem-class-12-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1126,
+      "wordCount": 1127,
       "keywords": ""
     },
     {
@@ -10010,13 +10020,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.123Z",
+      "dateModified": "2026-04-25T14:50:19.350Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/electric-charges-fields-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 2364,
+      "wordCount": 2363,
       "keywords": ""
     },
     {
@@ -10175,13 +10185,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.125Z",
+      "dateModified": "2026-04-25T14:50:19.351Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/electromagnetic-induction-class-12-revision-notes-jee-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 7113,
+      "wordCount": 7110,
       "keywords": ""
     },
     {
@@ -10330,13 +10340,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.125Z",
+      "dateModified": "2026-04-25T14:50:19.352Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/electromagnetic-waves-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 6784,
+      "wordCount": 6780,
       "keywords": ""
     },
     {
@@ -10490,7 +10500,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.126Z",
+      "dateModified": "2026-04-25T14:50:19.353Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/electrostatics-class-12-revision-notes-jee-neet"
@@ -10645,13 +10655,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.126Z",
+      "dateModified": "2026-04-25T14:50:19.353Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/environmental-chemistry-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1618,
+      "wordCount": 1619,
       "keywords": ""
     },
     {
@@ -10810,13 +10820,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.126Z",
+      "dateModified": "2026-04-25T14:50:19.353Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/environmental-issues-class-12-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1060,
+      "wordCount": 1061,
       "keywords": ""
     },
     {
@@ -10935,13 +10945,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.127Z",
+      "dateModified": "2026-04-25T14:50:19.354Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/equilibrium-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 2810,
+      "wordCount": 2809,
       "keywords": ""
     },
     {
@@ -11110,13 +11120,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.127Z",
+      "dateModified": "2026-04-25T14:50:19.354Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/excretory-products-and-elimination-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 2037,
+      "wordCount": 2036,
       "keywords": ""
     },
     {
@@ -11225,13 +11235,13 @@
         }
       },
       "datePublished": "2026-04-17T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.127Z",
+      "dateModified": "2026-04-25T14:50:19.354Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/exponents-and-powers-class-8-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1448,
+      "wordCount": 1437,
       "keywords": ""
     },
     {
@@ -11350,13 +11360,13 @@
         }
       },
       "datePublished": "2026-04-22T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.127Z",
+      "dateModified": "2026-04-25T14:50:19.354Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/factorisation-class-8-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1803,
+      "wordCount": 1801,
       "keywords": ""
     },
     {
@@ -11475,7 +11485,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.128Z",
+      "dateModified": "2026-04-25T14:50:19.354Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/federalism-class-11-revision-notes-cbse"
@@ -11615,7 +11625,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.128Z",
+      "dateModified": "2026-04-25T14:50:19.355Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/fundamental-rights-class-11-revision-notes-cbse"
@@ -11775,7 +11785,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.129Z",
+      "dateModified": "2026-04-25T14:50:19.355Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/geomorphology-class-11-revision-notes-cbse"
@@ -11935,7 +11945,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.130Z",
+      "dateModified": "2026-04-25T14:50:19.355Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/gravitation-class-11-revision-notes-jee-neet"
@@ -12090,7 +12100,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.130Z",
+      "dateModified": "2026-04-25T14:50:19.356Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/haloalkanes-and-haloarenes-class-12-notes"
@@ -12215,13 +12225,13 @@
         }
       },
       "datePublished": "2026-04-24T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.130Z",
+      "dateModified": "2026-04-25T14:50:19.357Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/heredity-and-evolution-class-10-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 5176,
+      "wordCount": 5239,
       "keywords": ""
     },
     {
@@ -12310,6 +12320,11 @@
           "@type": "LearningResource",
           "name": "Practice MCQs",
           "position": 7
+        },
+        {
+          "@type": "LearningResource",
+          "name": "📚 Related Topics",
+          "position": 8
         }
       ]
     }
@@ -12335,13 +12350,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.131Z",
+      "dateModified": "2026-04-25T14:50:19.357Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/heron-s-formula-class-9-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 938,
+      "wordCount": 939,
       "keywords": ""
     },
     {
@@ -12460,13 +12475,13 @@
         }
       },
       "datePublished": "2026-04-24T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.131Z",
+      "dateModified": "2026-04-25T14:50:19.358Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/how-do-organisms-reproduce-class-10-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 4744,
+      "wordCount": 4806,
       "keywords": ""
     },
     {
@@ -12555,6 +12570,11 @@
           "@type": "LearningResource",
           "name": "Practice MCQs",
           "position": 7
+        },
+        {
+          "@type": "LearningResource",
+          "name": "📚 Related Topics",
+          "position": 8
         }
       ]
     }
@@ -12580,13 +12600,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.131Z",
+      "dateModified": "2026-04-25T14:50:19.358Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/human-health-and-disease-class-12-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1093,
+      "wordCount": 1094,
       "keywords": ""
     },
     {
@@ -12705,7 +12725,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.131Z",
+      "dateModified": "2026-04-25T14:50:19.358Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/human-reproduction-class-12-notes"
@@ -12830,7 +12850,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.132Z",
+      "dateModified": "2026-04-25T14:50:19.358Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/hydrocarbons-class-11-revision-notes-neet"
@@ -12975,13 +12995,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.132Z",
+      "dateModified": "2026-04-25T14:50:19.359Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/hydrogen-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1205,
+      "wordCount": 1204,
       "keywords": ""
     },
     {
@@ -13145,7 +13165,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.132Z",
+      "dateModified": "2026-04-25T14:50:19.359Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/indian-geography-climate-class-11-revision-notes-cbse"
@@ -13290,7 +13310,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.132Z",
+      "dateModified": "2026-04-25T14:50:19.359Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/indian-geography-physical-class-11-revision-notes-jee-neet"
@@ -13440,13 +13460,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.132Z",
+      "dateModified": "2026-04-25T14:50:19.359Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/integrals-class-12-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 925,
+      "wordCount": 940,
       "keywords": ""
     },
     {
@@ -13570,13 +13590,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.133Z",
+      "dateModified": "2026-04-25T14:50:19.359Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/introduction-to-trigonometry-class-10-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1099,
+      "wordCount": 1097,
       "keywords": ""
     },
     {
@@ -13700,13 +13720,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.133Z",
+      "dateModified": "2026-04-25T14:50:19.359Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/inverse-trigonometric-functions-class-12-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 873,
+      "wordCount": 872,
       "keywords": ""
     },
     {
@@ -13825,13 +13845,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.133Z",
+      "dateModified": "2026-04-25T14:50:19.360Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1396,
+      "wordCount": 1394,
       "keywords": ""
     },
     {
@@ -13975,7 +13995,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.133Z",
+      "dateModified": "2026-04-25T14:50:19.360Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet"
@@ -14120,7 +14140,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.134Z",
+      "dateModified": "2026-04-25T14:50:19.360Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet"
@@ -14260,7 +14280,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.134Z",
+      "dateModified": "2026-04-25T14:50:19.360Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/kinetic-theory-class-11-revision-notes-jee-neet"
@@ -14415,7 +14435,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.134Z",
+      "dateModified": "2026-04-25T14:50:19.360Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/laws-of-motion-class-11-revision-notes-jee-neet"
@@ -14575,13 +14595,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.135Z",
+      "dateModified": "2026-04-25T14:50:19.361Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1448,
+      "wordCount": 1449,
       "keywords": ""
     },
     {
@@ -14705,7 +14725,7 @@
         }
       },
       "datePublished": "2026-04-23T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.135Z",
+      "dateModified": "2026-04-25T14:50:19.361Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/life-processes-class-10-notes"
@@ -14835,13 +14855,13 @@
         }
       },
       "datePublished": "2026-04-24T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.136Z",
+      "dateModified": "2026-04-25T14:50:19.362Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/light-reflection-and-refraction-class-10-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 4370,
+      "wordCount": 4414,
       "keywords": ""
     },
     {
@@ -14930,6 +14950,11 @@
           "@type": "LearningResource",
           "name": "Practice MCQs",
           "position": 7
+        },
+        {
+          "@type": "LearningResource",
+          "name": "📚 Related Topics",
+          "position": 8
         }
       ]
     }
@@ -14955,13 +14980,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.137Z",
+      "dateModified": "2026-04-25T14:50:19.363Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/limits-and-derivatives-class-11-revision-notes-jee"
       },
       "articleSection": "Revision",
-      "wordCount": 6105,
+      "wordCount": 6111,
       "keywords": ""
     },
     {
@@ -15115,13 +15140,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.137Z",
+      "dateModified": "2026-04-25T14:50:19.363Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/limits-derivatives-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1370,
+      "wordCount": 1343,
       "keywords": ""
     },
     {
@@ -15270,7 +15295,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.137Z",
+      "dateModified": "2026-04-25T14:50:19.363Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/linear-equations-in-one-variable-class-8-notes"
@@ -15395,7 +15420,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.137Z",
+      "dateModified": "2026-04-25T14:50:19.363Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/linear-equations-in-two-variables-class-9-notes"
@@ -15520,7 +15545,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.137Z",
+      "dateModified": "2026-04-25T14:50:19.363Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/linear-inequalities-class-11-revision-notes-jee-neet"
@@ -15675,7 +15700,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.138Z",
+      "dateModified": "2026-04-25T14:50:19.364Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/linear-programming-class-12-notes"
@@ -15805,13 +15830,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.138Z",
+      "dateModified": "2026-04-25T14:50:19.364Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/lines-and-angles-class-9-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1158,
+      "wordCount": 1159,
       "keywords": ""
     },
     {
@@ -15919,7 +15944,7 @@
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "local government class 11 revision notes cbse Class 11 Exam Notes Revision — Grandmaster Guide",
-      "description": "local government class 11 revision notes cbse Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-24.",
+      "description": "local government class 11 revision notes cbse Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-22.",
       "image": "https://examcompass.pages.dev/blog-images/local-government-class-11-revision-notes-cbse.webp",
       "author": {
         "@type": "Person",
@@ -15934,14 +15959,14 @@
           "url": "https://examcompass.pages.dev/logo.png"
         }
       },
-      "datePublished": "2026-04-24T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.139Z",
+      "datePublished": "2026-04-22T00:00:00.000Z",
+      "dateModified": "2026-04-25T14:50:19.365Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/local-government-class-11-revision-notes-cbse"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 3910,
+      "wordCount": 3025,
       "keywords": ""
     },
     {
@@ -15978,7 +16003,7 @@
       "@context": "https://schema.org",
       "@type": "LearningResource",
       "name": "local government class 11 revision notes cbse Class 11 Exam Notes Revision — Grandmaster Guide",
-      "description": "local government class 11 revision notes cbse Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-24.",
+      "description": "local government class 11 revision notes cbse Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-22.",
       "educationalLevel": "Class 11",
       "learningResourceType": "Revision Notes",
       "author": {
@@ -16030,6 +16055,11 @@
           "@type": "LearningResource",
           "name": "Practice MCQs",
           "position": 7
+        },
+        {
+          "@type": "LearningResource",
+          "name": "📚 Related Topics",
+          "position": 8
         }
       ]
     }
@@ -16055,7 +16085,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.139Z",
+      "dateModified": "2026-04-25T14:50:19.365Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/locomotion-and-movement-class-11-revision-notes-neet"
@@ -16215,7 +16245,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.140Z",
+      "dateModified": "2026-04-25T14:50:19.366Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/magnetic-effects-of-current-class-12-notes"
@@ -16375,13 +16405,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.141Z",
+      "dateModified": "2026-04-25T14:50:19.367Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/magnetism-and-matter-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 5684,
+      "wordCount": 5720,
       "keywords": ""
     },
     {
@@ -16530,13 +16560,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.141Z",
+      "dateModified": "2026-04-25T14:50:19.367Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/mathematical-induction-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1412,
+      "wordCount": 1439,
       "keywords": ""
     },
     {
@@ -16680,7 +16710,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.141Z",
+      "dateModified": "2026-04-25T14:50:19.368Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/mathematical-reasoning-class-11-revision-notes-jee-neet"
@@ -16830,7 +16860,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.142Z",
+      "dateModified": "2026-04-25T14:50:19.368Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/matrices-class-12-notes"
@@ -16955,13 +16985,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.142Z",
+      "dateModified": "2026-04-25T14:50:19.368Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1771,
+      "wordCount": 1770,
       "keywords": ""
     },
     {
@@ -17105,7 +17135,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.142Z",
+      "dateModified": "2026-04-25T14:50:19.369Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet"
@@ -17260,7 +17290,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.142Z",
+      "dateModified": "2026-04-25T14:50:19.369Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse"
@@ -17390,13 +17420,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.142Z",
+      "dateModified": "2026-04-25T14:50:19.369Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/medieval-india-delhi-sultanate-class-11-revision-notes-cbse"
       },
       "articleSection": "Revision",
-      "wordCount": 1629,
+      "wordCount": 1627,
       "keywords": ""
     },
     {
@@ -17500,7 +17530,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.143Z",
+      "dateModified": "2026-04-25T14:50:19.369Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/medieval-india-mughals-class-11-revision-notes-cbse"
@@ -17610,13 +17640,13 @@
         }
       },
       "datePublished": "2026-04-17T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.143Z",
+      "dateModified": "2026-04-25T14:50:19.369Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/mensuration-class-8-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 2386,
+      "wordCount": 2380,
       "keywords": ""
     },
     {
@@ -17735,7 +17765,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.143Z",
+      "dateModified": "2026-04-25T14:50:19.370Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/metallurgy-class-12-notes"
@@ -17860,7 +17890,7 @@
         }
       },
       "datePublished": "2026-04-22T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.144Z",
+      "dateModified": "2026-04-25T14:50:19.370Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/metals-and-non-metals-class-10-notes"
@@ -17985,7 +18015,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.144Z",
+      "dateModified": "2026-04-25T14:50:19.370Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/microbes-in-human-welfare-class-12-notes"
@@ -18110,7 +18140,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.144Z",
+      "dateModified": "2026-04-25T14:50:19.370Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/mineral-nutrition-class-11-revision-notes-neet"
@@ -18270,7 +18300,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.144Z",
+      "dateModified": "2026-04-25T14:50:19.371Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/molecular-basis-of-inheritance-class-12-notes"
@@ -18395,7 +18425,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.145Z",
+      "dateModified": "2026-04-25T14:50:19.371Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/morphology-of-flowering-plants-class-11-revision-notes-neet"
@@ -18545,7 +18575,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.145Z",
+      "dateModified": "2026-04-25T14:50:19.371Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/motion-in-a-plane-class-11-revision-notes-jee-neet"
@@ -18695,7 +18725,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.145Z",
+      "dateModified": "2026-04-25T14:50:19.371Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet"
@@ -18855,7 +18885,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.146Z",
+      "dateModified": "2026-04-25T14:50:19.372Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/moving-charges-magnetism-class-11-revision-notes-neet"
@@ -19015,7 +19045,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.146Z",
+      "dateModified": "2026-04-25T14:50:19.372Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/neet-2026-weightage-prediction-class-11-revision-notes-neet"
@@ -19145,7 +19175,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.146Z",
+      "dateModified": "2026-04-25T14:50:19.372Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/neet-biology-80-20-rule-class-11-revision-notes-neet"
@@ -19223,7 +19253,7 @@
         },
         {
           "@type": "LearningResource",
-          "name": "Applying the 80/20 Rule n 2026",
+          "name": "Applying the 80/20 Rule and 2026",
           "position": 4
         },
         {
@@ -19270,13 +19300,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.147Z",
+      "dateModified": "2026-04-25T14:50:19.372Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/neural-control-and-coordination-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1790,
+      "wordCount": 1791,
       "keywords": ""
     },
     {
@@ -19420,7 +19450,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.147Z",
+      "dateModified": "2026-04-25T14:50:19.372Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/nuclei-class-12-notes"
@@ -19545,13 +19575,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.147Z",
+      "dateModified": "2026-04-25T14:50:19.373Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/number-systems-class-9-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 985,
+      "wordCount": 988,
       "keywords": ""
     },
     {
@@ -19675,7 +19705,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.148Z",
+      "dateModified": "2026-04-25T14:50:19.373Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/oceanography-class-11-revision-notes-jee-neet"
@@ -19790,7 +19820,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.148Z",
+      "dateModified": "2026-04-25T14:50:19.373Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/operating-systems-class-12-notes"
@@ -19920,7 +19950,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.149Z",
+      "dateModified": "2026-04-25T14:50:19.373Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet"
@@ -20090,13 +20120,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.149Z",
+      "dateModified": "2026-04-25T14:50:19.374Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/organisms-and-populations-class-12-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1040,
+      "wordCount": 1041,
       "keywords": ""
     },
     {
@@ -20215,7 +20245,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.149Z",
+      "dateModified": "2026-04-25T14:50:19.374Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/oscillations-class-11-revision-notes-jee-neet"
@@ -20375,7 +20405,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.150Z",
+      "dateModified": "2026-04-25T14:50:19.374Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/pair-of-linear-equations-class-10-notes"
@@ -20500,7 +20530,7 @@
         }
       },
       "datePublished": "2026-04-23T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.150Z",
+      "dateModified": "2026-04-25T14:50:19.375Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/periodic-classification-of-elements-class-10-notes"
@@ -20625,13 +20655,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.152Z",
+      "dateModified": "2026-04-25T14:50:19.376Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/permutations-and-combinations-class-11-revision-notes-jee"
       },
       "articleSection": "Revision",
-      "wordCount": 7277,
+      "wordCount": 7276,
       "keywords": ""
     },
     {
@@ -20785,7 +20815,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.152Z",
+      "dateModified": "2026-04-25T14:50:19.376Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/permutations-combinations-class-11-revision-notes-jee"
@@ -20940,13 +20970,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.152Z",
+      "dateModified": "2026-04-25T14:50:19.376Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1163,
+      "wordCount": 1202,
       "keywords": ""
     },
     {
@@ -21090,7 +21120,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.153Z",
+      "dateModified": "2026-04-25T14:50:19.376Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/physical-world-class-11-revision-notes-jee-neet"
@@ -21224,7 +21254,7 @@
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "physics heat light class 11 revision notes jee neet Class 11 Exam Notes Revision — Grandmaster Guide",
-      "description": "physics heat light class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-24.",
+      "description": "physics heat light class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-22.",
       "image": "https://examcompass.pages.dev/blog-images/physics-heat-light-class-11-revision-notes-jee-neet.webp",
       "author": {
         "@type": "Person",
@@ -21239,14 +21269,14 @@
           "url": "https://examcompass.pages.dev/logo.png"
         }
       },
-      "datePublished": "2026-04-24T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.153Z",
+      "datePublished": "2026-04-22T00:00:00.000Z",
+      "dateModified": "2026-04-25T14:50:19.377Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/physics-heat-light-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 4238,
+      "wordCount": 3909,
       "keywords": ""
     },
     {
@@ -21283,7 +21313,7 @@
       "@context": "https://schema.org",
       "@type": "LearningResource",
       "name": "physics heat light class 11 revision notes jee neet Class 11 Exam Notes Revision — Grandmaster Guide",
-      "description": "physics heat light class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-24.",
+      "description": "physics heat light class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-22.",
       "educationalLevel": "Class 11",
       "learningResourceType": "Revision Notes",
       "author": {
@@ -21335,6 +21365,11 @@
           "@type": "LearningResource",
           "name": "Practice MCQs",
           "position": 7
+        },
+        {
+          "@type": "LearningResource",
+          "name": "📚 Related Topics",
+          "position": 8
         }
       ]
     }
@@ -21344,7 +21379,7 @@
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "physics mechanics class 11 revision notes jee neet Class 11 Exam Notes Revision — Grandmaster Guide",
-      "description": "physics mechanics class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-24.",
+      "description": "physics mechanics class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-22.",
       "image": "https://examcompass.pages.dev/blog-images/physics-mechanics-class-11-revision-notes-jee-neet.webp",
       "author": {
         "@type": "Person",
@@ -21359,14 +21394,14 @@
           "url": "https://examcompass.pages.dev/logo.png"
         }
       },
-      "datePublished": "2026-04-24T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.154Z",
+      "datePublished": "2026-04-22T00:00:00.000Z",
+      "dateModified": "2026-04-25T14:50:19.378Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/physics-mechanics-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 4738,
+      "wordCount": 4158,
       "keywords": ""
     },
     {
@@ -21403,7 +21438,7 @@
       "@context": "https://schema.org",
       "@type": "LearningResource",
       "name": "physics mechanics class 11 revision notes jee neet Class 11 Exam Notes Revision — Grandmaster Guide",
-      "description": "physics mechanics class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-24.",
+      "description": "physics mechanics class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-22.",
       "educationalLevel": "Class 11",
       "learningResourceType": "Revision Notes",
       "author": {
@@ -21455,6 +21490,11 @@
           "@type": "LearningResource",
           "name": "Practice MCQs",
           "position": 7
+        },
+        {
+          "@type": "LearningResource",
+          "name": "📚 Related Topics",
+          "position": 8
         }
       ]
     }
@@ -21480,7 +21520,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.154Z",
+      "dateModified": "2026-04-25T14:50:19.379Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/planning-in-india-class-11-revision-notes-jee-neet"
@@ -21615,7 +21655,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.154Z",
+      "dateModified": "2026-04-25T14:50:19.379Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/plant-growth-and-development-class-11-revision-notes-neet"
@@ -21765,7 +21805,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.154Z",
+      "dateModified": "2026-04-25T14:50:19.379Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/plant-kingdom-class-11-revision-notes-neet"
@@ -21910,7 +21950,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.154Z",
+      "dateModified": "2026-04-25T14:50:19.379Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/polymers-class-12-notes"
@@ -22035,7 +22075,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.154Z",
+      "dateModified": "2026-04-25T14:50:19.379Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/polynomials-class-10-notes"
@@ -22144,7 +22184,7 @@
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "poverty unemployment class 11 revision notes jee neet Class 11 Exam Notes Revision — Grandmaster Guide",
-      "description": "poverty unemployment class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-23.",
+      "description": "poverty unemployment class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-22.",
       "image": "https://examcompass.pages.dev/blog-images/poverty-unemployment-class-11-revision-notes-jee-neet.webp",
       "author": {
         "@type": "Person",
@@ -22159,14 +22199,14 @@
           "url": "https://examcompass.pages.dev/logo.png"
         }
       },
-      "datePublished": "2026-04-23T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.155Z",
+      "datePublished": "2026-04-22T00:00:00.000Z",
+      "dateModified": "2026-04-25T14:50:19.380Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/poverty-unemployment-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 3264,
+      "wordCount": 3069,
       "keywords": ""
     },
     {
@@ -22203,7 +22243,7 @@
       "@context": "https://schema.org",
       "@type": "LearningResource",
       "name": "poverty unemployment class 11 revision notes jee neet Class 11 Exam Notes Revision — Grandmaster Guide",
-      "description": "poverty unemployment class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-23.",
+      "description": "poverty unemployment class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-22.",
       "educationalLevel": "Class 11",
       "learningResourceType": "Revision Notes",
       "author": {
@@ -22285,13 +22325,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.156Z",
+      "dateModified": "2026-04-25T14:50:19.381Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/principle-of-mathematical-induction-class-11-revision-notes-jee"
       },
       "articleSection": "Revision",
-      "wordCount": 9401,
+      "wordCount": 9417,
       "keywords": ""
     },
     {
@@ -22445,7 +22485,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.156Z",
+      "dateModified": "2026-04-25T14:50:19.381Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/principles-of-inheritance-and-variation-class-12-notes"
@@ -22570,13 +22610,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.156Z",
+      "dateModified": "2026-04-25T14:50:19.381Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/probability-class-11-revision-notes-jee"
       },
       "articleSection": "Revision",
-      "wordCount": 1331,
+      "wordCount": 1391,
       "keywords": ""
     },
     {
@@ -22690,6 +22730,11 @@
           "@type": "LearningResource",
           "name": "The 5 Mistakes That Cost Marks",
           "position": 12
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Last 5 Minutes Box",
+          "position": 13
         }
       ]
     }
@@ -22715,13 +22760,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.157Z",
+      "dateModified": "2026-04-25T14:50:19.382Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/probability-intro-class-11-revision-notes-jee"
       },
       "articleSection": "Revision",
-      "wordCount": 8993,
+      "wordCount": 8995,
       "keywords": ""
     },
     {
@@ -22870,7 +22915,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.157Z",
+      "dateModified": "2026-04-25T14:50:19.382Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/quadratic-equations-class-10-notes"
@@ -22995,7 +23040,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.157Z",
+      "dateModified": "2026-04-25T14:50:19.382Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/quadrilaterals-class-9-notes"
@@ -23120,7 +23165,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.158Z",
+      "dateModified": "2026-04-25T14:50:19.382Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/rational-numbers-class-8-notes"
@@ -23250,13 +23295,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.158Z",
+      "dateModified": "2026-04-25T14:50:19.382Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1907,
+      "wordCount": 1928,
       "keywords": ""
     },
     {
@@ -23390,13 +23435,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.158Z",
+      "dateModified": "2026-04-25T14:50:19.383Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/real-numbers-class-10-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1125,
+      "wordCount": 1126,
       "keywords": ""
     },
     {
@@ -23520,13 +23565,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.158Z",
+      "dateModified": "2026-04-25T14:50:19.383Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/redox-reactions-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1397,
+      "wordCount": 1390,
       "keywords": ""
     },
     {
@@ -23665,13 +23710,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.160Z",
+      "dateModified": "2026-04-25T14:50:19.383Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/relations-and-functions-class-11-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 6574,
+      "wordCount": 6606,
       "keywords": ""
     },
     {
@@ -23825,7 +23870,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.160Z",
+      "dateModified": "2026-04-25T14:50:19.384Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/relations-functions-class-11-revision-notes-jee-neet"
@@ -23980,13 +24025,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.161Z",
+      "dateModified": "2026-04-25T14:50:19.384Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/reproduction-in-organisms-class-12-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1420,
+      "wordCount": 1421,
       "keywords": ""
     },
     {
@@ -24105,7 +24150,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.161Z",
+      "dateModified": "2026-04-25T14:50:19.384Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/reproductive-health-class-12-notes"
@@ -24230,13 +24275,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.161Z",
+      "dateModified": "2026-04-25T14:50:19.384Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/respiration-in-plants-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1208,
+      "wordCount": 1209,
       "keywords": ""
     },
     {
@@ -24380,7 +24425,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.161Z",
+      "dateModified": "2026-04-25T14:50:19.384Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/rotational-motion-class-11-revision-notes-jee-neet"
@@ -24535,7 +24580,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.161Z",
+      "dateModified": "2026-04-25T14:50:19.385Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/semiconductor-electronics-class-12-notes"
@@ -24665,13 +24710,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.162Z",
+      "dateModified": "2026-04-25T14:50:19.385Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/sequences-series-class-11-revision-notes-jee"
       },
       "articleSection": "Revision",
-      "wordCount": 1595,
+      "wordCount": 1594,
       "keywords": ""
     },
     {
@@ -24820,7 +24865,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.162Z",
+      "dateModified": "2026-04-25T14:50:19.385Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/sets-class-11-revision-notes-jee-neet"
@@ -24975,7 +25020,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.162Z",
+      "dateModified": "2026-04-25T14:50:19.385Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/sexual-reproduction-in-flowering-plants-class-12-notes"
@@ -25100,7 +25145,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.162Z",
+      "dateModified": "2026-04-25T14:50:19.385Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/solid-state-class-12-notes"
@@ -25230,7 +25275,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.162Z",
+      "dateModified": "2026-04-25T14:50:19.385Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/solutions-class-12-notes"
@@ -25360,13 +25405,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.162Z",
+      "dateModified": "2026-04-25T14:50:19.386Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1395,
+      "wordCount": 1446,
       "keywords": ""
     },
     {
@@ -25500,7 +25545,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.163Z",
+      "dateModified": "2026-04-25T14:50:19.386Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/squares-and-square-roots-class-8-notes"
@@ -25630,7 +25675,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.163Z",
+      "dateModified": "2026-04-25T14:50:19.387Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/state-scholarship-guide-2026-class-11-revision-notes-neet"
@@ -25775,13 +25820,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.163Z",
+      "dateModified": "2026-04-25T14:50:19.387Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/states-of-matter-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 2905,
+      "wordCount": 2821,
       "keywords": ""
     },
     {
@@ -25945,13 +25990,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.163Z",
+      "dateModified": "2026-04-25T14:50:19.387Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/statistics-class-11-revision-notes-jee"
       },
       "articleSection": "Revision",
-      "wordCount": 1349,
+      "wordCount": 1323,
       "keywords": ""
     },
     {
@@ -26095,13 +26140,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.164Z",
+      "dateModified": "2026-04-25T14:50:19.388Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/straight-lines-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1552,
+      "wordCount": 1550,
       "keywords": ""
     },
     {
@@ -26250,7 +26295,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.164Z",
+      "dateModified": "2026-04-25T14:50:19.388Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/strategies-for-enhancement-in-food-production-class-12-notes"
@@ -26380,7 +26425,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.164Z",
+      "dateModified": "2026-04-25T14:50:19.388Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/structural-organisation-in-animals-class-11-revision-notes-neet"
@@ -26530,13 +26575,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.164Z",
+      "dateModified": "2026-04-25T14:50:19.388Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/structure-of-atom-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 2763,
+      "wordCount": 2925,
       "keywords": ""
     },
     {
@@ -26685,6 +26730,11 @@
           "@type": "LearningResource",
           "name": "The 5 Mistakes That Cost Marks",
           "position": 19
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Last 5 Minutes Box",
+          "position": 20
         }
       ]
     }
@@ -26710,13 +26760,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.164Z",
+      "dateModified": "2026-04-25T14:50:19.388Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/structure-of-the-atom-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1444,
+      "wordCount": 1443,
       "keywords": ""
     },
     {
@@ -26855,7 +26905,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.165Z",
+      "dateModified": "2026-04-25T14:50:19.389Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet"
@@ -26995,7 +27045,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.165Z",
+      "dateModified": "2026-04-25T14:50:19.389Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/surface-chemistry-class-12-notes"
@@ -27125,7 +27175,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.165Z",
+      "dateModified": "2026-04-25T14:50:19.389Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/the-living-world-class-11-revision-notes-neet"
@@ -27290,7 +27340,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.165Z",
+      "dateModified": "2026-04-25T14:50:19.389Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet"
@@ -27450,7 +27500,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.165Z",
+      "dateModified": "2026-04-25T14:50:19.389Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/the-s-block-elements-class-11-revision-notes-jee-neet"
@@ -27600,7 +27650,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.166Z",
+      "dateModified": "2026-04-25T14:50:19.390Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/theory-of-computation-class-12-notes"
@@ -27725,7 +27775,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.166Z",
+      "dateModified": "2026-04-25T14:50:19.390Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet"
@@ -27885,13 +27935,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.166Z",
+      "dateModified": "2026-04-25T14:50:19.390Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 2889,
+      "wordCount": 2890,
       "keywords": ""
     },
     {
@@ -28060,13 +28110,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.166Z",
+      "dateModified": "2026-04-25T14:50:19.390Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/thermodynamics-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1673,
+      "wordCount": 1672,
       "keywords": ""
     },
     {
@@ -28215,7 +28265,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.167Z",
+      "dateModified": "2026-04-25T14:50:19.391Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet"
@@ -28288,7 +28338,7 @@
         },
         {
           "@type": "LearningResource",
-          "name": "1. Coordinate Planes and Axes n 3D",
+          "name": "1. Coordinate Planes and Axes and 3D",
           "position": 3
         },
         {
@@ -28298,7 +28348,7 @@
         },
         {
           "@type": "LearningResource",
-          "name": "3. Distance Formula n 3D",
+          "name": "3. Distance Formula and 3D",
           "position": 5
         },
         {
@@ -28370,7 +28420,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.167Z",
+      "dateModified": "2026-04-25T14:50:19.391Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/transport-in-plants-class-11-revision-notes-neet"
@@ -28475,13 +28525,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.167Z",
+      "dateModified": "2026-04-25T14:50:19.391Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/triangles-class-10-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1054,
+      "wordCount": 1055,
       "keywords": ""
     },
     {
@@ -28584,7 +28634,7 @@
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "trigonometric functions class 11 revision notes jee neet Class 11 Exam Notes Revision — Grandmaster Guide",
-      "description": "trigonometric functions class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-24.",
+      "description": "trigonometric functions class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-22.",
       "image": "https://examcompass.pages.dev/blog-images/trigonometric-functions-class-11-revision-notes-jee-neet.webp",
       "author": {
         "@type": "Person",
@@ -28599,14 +28649,14 @@
           "url": "https://examcompass.pages.dev/logo.png"
         }
       },
-      "datePublished": "2026-04-24T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.167Z",
+      "datePublished": "2026-04-22T00:00:00.000Z",
+      "dateModified": "2026-04-25T14:50:19.391Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/trigonometric-functions-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 4046,
+      "wordCount": 2882,
       "keywords": ""
     },
     {
@@ -28643,7 +28693,7 @@
       "@context": "https://schema.org",
       "@type": "LearningResource",
       "name": "trigonometric functions class 11 revision notes jee neet Class 11 Exam Notes Revision — Grandmaster Guide",
-      "description": "trigonometric functions class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-24.",
+      "description": "trigonometric functions class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-22.",
       "educationalLevel": "Class 11",
       "learningResourceType": "Revision Notes",
       "author": {
@@ -28695,6 +28745,11 @@
           "@type": "LearningResource",
           "name": "Practice MCQs",
           "position": 7
+        },
+        {
+          "@type": "LearningResource",
+          "name": "📚 Related Topics",
+          "position": 8
         }
       ]
     }
@@ -28720,7 +28775,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.168Z",
+      "dateModified": "2026-04-25T14:50:19.391Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/units-and-measurements-class-11-revision-notes-jee-neet"
@@ -28875,13 +28930,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.168Z",
+      "dateModified": "2026-04-25T14:50:19.392Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/upsc-optional-selection-guide-class-11-revision-notes-jee"
       },
       "articleSection": "Revision",
-      "wordCount": 1542,
+      "wordCount": 1695,
       "keywords": ""
     },
     {
@@ -28985,6 +29040,11 @@
           "@type": "LearningResource",
           "name": "The 5 Mistakes That Cost Marks",
           "position": 10
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Last 5 Minutes Box",
+          "position": 11
         }
       ]
     }
@@ -29010,13 +29070,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.169Z",
+      "dateModified": "2026-04-25T14:50:19.392Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/upsc-optional-selection-guide"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1274,
+      "wordCount": 1272,
       "keywords": ""
     },
     {
@@ -29135,13 +29195,13 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.170Z",
+      "dateModified": "2026-04-25T14:50:19.392Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/vector-algebra-class-12-notes"
       },
       "articleSection": "Exam Notes",
-      "wordCount": 1600,
+      "wordCount": 1601,
       "keywords": ""
     },
     {
@@ -29265,7 +29325,7 @@
         }
       },
       "datePublished": "2026-04-20T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.170Z",
+      "dateModified": "2026-04-25T14:50:19.392Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/wave-optics-class-12-notes"
@@ -29395,13 +29455,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.170Z",
+      "dateModified": "2026-04-25T14:50:19.393Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/waves-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 2450,
+      "wordCount": 2511,
       "keywords": ""
     },
     {
@@ -29560,13 +29620,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.170Z",
+      "dateModified": "2026-04-25T14:50:19.393Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/work-energy-and-power-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1593,
+      "wordCount": 1670,
       "keywords": ""
     },
     {
@@ -29690,6 +29750,11 @@
           "@type": "LearningResource",
           "name": "The 5 Mistakes That Cost Marks",
           "position": 14
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Last 5 Minutes Box",
+          "position": 15
         }
       ]
     }
@@ -29715,13 +29780,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-24T03:16:42.171Z",
+      "dateModified": "2026-04-25T14:50:19.393Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/world-history-industrial-revolution-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 7378,
+      "wordCount": 7334,
       "keywords": ""
     },
     {

@@ -16,7 +16,7 @@ manualReview: false
 - $L = \{w \in \sigma^* | M \text{ accepts } w\}$
 - Regular Languages: $\sigma^*$, $\phi$, $\{a\}$, $\{0, 1\}^*$
 - Context-Free Languages: $\{a^n b^n | n \geq 0\}$, $\{a^n b^{2n} | n \geq 0\}$
-- $\lambda$-transition: $\delta(q, \lambda) = p$ means the next state is $p$ when the current state is $q$ and no input symbol is read
+- $\\lambda$-transition: $\delta(q, \\lambda) = p$ means the next state is $p$ when the current state is $q$ and no input symbol is read
 - $NFA = (Q, \sigma, \delta$, q_0, F)$ is the 5-tuple for a nondeterministic finite automaton$
 - $\delta(q$, a) = \{p_1, p_2, \ldots$, p_k\}$ means the next states are $p_1, p_2, \ldots$, p_k$ when the current state is $q$ and the input symbol is $a$
 - $PDA = (Q, \sigma, \gamma, \delta$, q_0, F)$ is the 6-tuple for a pushdown automaton$
@@ -28,7 +28,7 @@ manualReview: false
 - Not understanding the difference between deterministic and nondeterministic finite automata
 - Confusing the transition function $\delta$ with the language $L$
 - Not knowing how to construct a regular expression from a finite automaton
-- Forgetting to include the $\lambda$-transition in the transition function
+- Forgetting to include the $\\lambda$-transition in the transition function
 - Not being able to prove that a language is not regular using the pumping lemma
 
 ## ✏️ 3 Solved PYQs
@@ -44,19 +44,19 @@ manualReview: false
 otin L$ for some $i $\geq 0$
 - **Question 3:** Construct a pushdown automaton that accepts the language $L = \{a^n b^{2n} | n \geq 0\}$
 - Step 1: Define the states $Q = \{q_0, q_1\}$
-- Step 2: Define the transition function $\delta(q_0$, a, $\lambda) = (q_0$, a)$, $\delta(q_0$, b, a) = (q_1, $\lambda)$, $\delta(q_1$, b, a) = (q_1, \lambda)$
+- Step 2: Define the transition function $\delta(q_0$, a, $\\lambda) = (q_0$, a)$, $\delta(q_0$, b, a) = (q_1, $\\lambda)$, $\delta(q_1$, b, a) = (q_1, \\lambda)$
 - Step 3: Define the initial state $q_0$ and the final state $F = \{q_1\}$
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Not understanding the concept of $\lambda$-transition and its importance in finite automata
-- $\lambda$-transition allows the machine to move to a new state without reading any input symbol
-- This is crucial in constructing finite automata for languages that have $\lambda$ as a substring
-- For example, the language $L = \{0, 1\}^* \lambda \{0, 1\}^*$ requires a $\lambda$-transition to accept the $\lambda$ substring
+- Not understanding the concept of $\\lambda$-transition and its importance in finite automata
+- $\\lambda$-transition allows the machine to move to a new state without reading any input symbol
+- This is crucial in constructing finite automata for languages that have $\\lambda$ as a substring
+- For example, the language $L = \{0, 1\}^* \\lambda \{0, 1\}^*$ requires a $\\lambda$-transition to accept the $\\lambda$ substring
 
 ## 👁️ Ayush's Note
 - To construct a finite automaton for a given language, start by defining the states and the transition function
 - Use the transition function to determine the next state based on the current state and the input symbol
-- Make sure to include the $\lambda$-transition in the transition function if necessary
+- Make sure to include the $\\lambda$-transition in the transition function if necessary
 - Use the pumping lemma to prove that a language is not regular
 - To construct a pushdown automaton, define the states, the transition function, and the stack symbols
 - Use the transition function to determine the next state and the stack symbol based on the current state, the input symbol, and the top stack symbol
@@ -64,7 +64,7 @@ otin L$ for some $i $\geq 0$
 ## 🔁 Last 5 Minutes Box
 - Review the formula bank and make sure to understand each concept
 - Go through the solved PYQs and make sure to understand each step
-- Review the concept of $\lambda$-transition and its importance in finite automata
+- Review the concept of $\\lambda$-transition and its importance in finite automata
 - Make sure to understand how to construct a finite automaton and a pushdown automaton
 - Review the pumping lemma and how to use it to prove that a language is not regular
 
@@ -93,7 +93,7 @@ D) $L = \phi$
 
 **Answer: B) $L = \{a^n b^n | n \geq 0\}$**
 
-**3. What is the purpose of the $\lambda$-transition in a finite automaton?**
+**3. What is the purpose of the $\\lambda$-transition in a finite automaton?**
 -
 A) To move to a new state without reading any input symbol
 -
@@ -107,11 +107,11 @@ D) To stay in the same state by reading an input symbol
 
 **4. Which of the following is a pushdown automaton?**
 -
-A) PDA = (Q, $\sigma$, $\gamma$, $\delta$, q_0, F)
+A) PDA = (Q, \sigma, \gamma, \delta, q_0, F)
 -
 B) $PDA = (Q, \sigma, \delta$, q_0, F)$
 -
-C) PDA = (Q, $\sigma$, $\gamma$, q_0, F)
+C) PDA = (Q, \sigma, \gamma, q_0, F)
 -
 D) $PDA = (Q, \sigma, \delta$, q_0)$
 

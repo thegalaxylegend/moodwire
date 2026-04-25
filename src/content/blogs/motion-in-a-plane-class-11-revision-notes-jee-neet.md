@@ -54,11 +54,11 @@ practice_link: "/class-11/physics/motion-n-a-plane-class-11-revision-notes-jee-n
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
-> - **Projectile [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet):** Max Height H = (u² sin²θ)/2g; Range R = (u² sing)/g; Time of Flight T = (2u sinθ)/g.
+> - **Projectile [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet):** Max Height H = (u² \sin²θ)/2g; Range R = (u² sing)/g; Time of Flight T = (2u \sinθ)/g.
 > - **Max Range:** occurs at θ = 45°.
-> - **Equation of Trajectory:** y = x tanθ - [gx² / (2u² cos²θ)].
+> - **Equation of Trajectory:** y = x tanθ - [gx² / (2u² \cos²θ)].
 > - **Uniform Circular [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet):** Centripetal Acceleration a_c = v²/r = ω²r.
-> - **Vectors:** Resolution R = √(A² + B² + 2AB cosθ).
+> - **Vectors:** Resolution R = √(A² + B² + 2AB \cosθ).
 > [**📥 Download 1-Page Short Notes PDF (Zero-Friction)**](#)
 
 ---
@@ -76,8 +76,8 @@ In 2D [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet), we dea
 - **Velocity Vector (v):** **v = vx î + vy ĵ**.
 
 ### <a id="vector-multiplication"></a>Vector Multiplication:
-1.  **Dot Product (A · B):** AB cosθ. (Result is a scalar, e.g., work).
-2.  **Cross Product (A × B):** AB sinθ n̂. (Result is a vector, e.g., torque).
+1.  **Dot Product (A · B):** AB \cosθ. (Result is a scalar, e.g., work).
+2.  **Cross Product (A × B):** AB \sinθ n̂. (Result is a vector, e.g., torque).
 
 ---
 
@@ -86,28 +86,28 @@ In 2D [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet), we dea
 A projectile is an object thrown with an initial velocity **u** at an angle **θ** with the horizontal. We assume gravity is the only force acting on it (**a_x = 0, a_y = -g**).
 
 ### <a id="i-equation-of-trajectory-the-parabola-proof"></a>I. Equation of Trajectory (The Parabola Proof)
-1.  **Horizontal Position:** x = (u cosθ) t  => **t = x / (u cosθ)**.
-2.  **Vertical Position:** y = (u sinθ) t - 1/2 gt².
+1.  **Horizontal Position:** x = (u \cosθ) t  => **t = x / (u \cosθ)**.
+2.  **Vertical Position:** y = (u \sinθ) t - 1/2 gt².
 3.  Substituting **t**:
-    - **y = (u sinθ) [x / (u cosθ)] - 1/2 g [x / (u cosθ)]²**
-    - **y = x tanθ - [g / (2u² cos²θ)] x²**.
+    - **y = (u \sinθ) [x / (u \cosθ)] - 1/2 g [x / (u \cosθ)]²**
+    - **y = x tanθ - [g / (2u² \cos²θ)] x²**.
 **Theorem:** This is and the form of **y = ax + bx²**, which is the equation of a **Parabola**.
 
 ### <a id="ii-time-of-flight-t"></a>II. Time of Flight (T)
 At t = T, the vertical displacement is zero (y = 0).
-- 0 = (u sinθ) T - 1/2 gT²
-- 1/2 gT² = (u sinθ) T
-- **T = (2u sinθ) / g**.
+- 0 = (u \sinθ) T - 1/2 gT²
+- 1/2 gT² = (u \sinθ) T
+- **T = (2u \sinθ) / g**.
 
 ### <a id="iii-maximum-height-h"></a>III. Maximum Height (H)
 At the peak, vertical velocity is zero (**v_y = 0**).
-- 0 = (u sinθ)² - 2gH
-- **H = (u² sin²θ) / 2g**.
+- 0 = (u \sinθ)² - 2gH
+- **H = (u² \sin²θ) / 2g**.
 
 ### <a id="iv-horizontal-range-r"></a>IV. Horizontal Range ®
 Distance covered horizontally and time T.
-- R = (u cosθ) × T = (u cosθ) × (2u sinθ / g)
-- R = (u² / g) (2 sinθ cosθ)
+- R = (u \cosθ) × T = (u \cosθ) × (2u \sinθ / g)
+- R = (u² / g) (2 \sinθ \cosθ)
 - **R = (u² sing) / g**.
 
 > [!IMPORTANT]
@@ -146,7 +146,7 @@ If rain falls vertically (**v_r**) n a man moves horizontally (**v’m**):
 
 ### <a id="ii-riverboat-problems"></a>II. River-Boat Problems
 - **Crossing and Shortest Time:** Boat must head directly across the river (**θ = 0°**). **t = d / v_b**.
-- **Crossing and Shortest Path (Zero Drift):** Boat must head at an upstream angle θ such that **v_b sinθ = v_river**.
+- **Crossing and Shortest Path (Zero Drift):** Boat must head at an upstream angle θ such that **v_b \sinθ = v_river**.
 
 ---
 
@@ -155,7 +155,7 @@ If rain falls vertically (**v_r**) n a man moves horizontally (**v’m**):
 **Q1: Two projectiles are thrown at angles θ n (90-θ). Compare their ranges.**
 **Answer:**
 - R1 = (u² sing) / g.
-- R2 = (u² sin[2(90-θ)]) / g = (u² sin[180-2θ]) / g = (u² sing) / g.
+- R2 = (u² \sin[2(90-θ)]) / g = (u² \sin[180-2θ]) / g = (u² sing) / g.
 - **Conclusion:** The Horizontal Range is identical for complementary angles.
 
 **Q2: Why is centripetal acceleration called 'center-seeking'?**
@@ -219,12 +219,12 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 * **Forgetting to consider the sign of displacement and velocity**: When calculating displacement and velocity, it's crucial to consider their signs to avoid incorrect results, especially when dealing with motions in opposite directions.
 * **Mixing up the concepts of distance and displacement**: Students often confuse distance (the total length of the path traveled) with displacement (the shortest distance between initial and final positions), leading to incorrect calculations.
 * **Not considering the frame of reference**: Relative motion problems can be tricky, and not accounting for the frame of reference can lead to incorrect answers, especially when dealing with [moving](/blog/moving-charges-magnetism-class-11-revision-notes-neet) platforms or observers.
-* **Misapplying the concept of projectile motion**: Students often misapply the formulas for projectile motion, especially when dealing with non-horizontal projections, and forget to consider the initial velocity, angle of projection, and acceleration due to gravity.
+* **Misapplying the concept of projectile [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet)**: Students often misapply the formulas for projectile [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet), especially when dealing with non-horizontal projections, and forget to consider the initial velocity, angle of projection, and acceleration due to gravity.
 
 ## 🔁 Last 5 Minutes Box
 
-- **Projectile Motion**: range = (u^2 * sin(2θ)) / g, time of flight = (2 * u * sin(θ)) / g, maximum height = (u^2 * sin^2(θ)) / (2 * g)
+- **Projectile Motion**: range = (u^2 * \sin(2θ)) / g, time of flight = (2 * u * \sin(θ)) / g, maximum height = (u^2 * \sin^2(θ)) / (2 * g)
    - **Equations of Motion**: v = u + at, s = ut + (1/2)at^2, v^2 = u^2 + 2as
    - **Relative Motion**: vрел = vБ - vА, aрел = aБ - aА
    - **Circular Motion**: v = rω, a = rω^2, F_c = (m * v^2) / r
-   - **Vector Addition**: A + B = sqrt(A^2 + B^2 + 2 ABcos(θ)), A - B = sqrt(A^2 + B^2 - 2 ABcos(θ))
+   - **Vector Addition**: A + B = sqrt(A^2 + B^2 + 2 AB\cos(θ)), A - B = sqrt(A^2 + B^2 - 2 AB\cos(θ))

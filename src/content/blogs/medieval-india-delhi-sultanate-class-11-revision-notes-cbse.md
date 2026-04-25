@@ -40,7 +40,7 @@ practice_link: "/class-11/medieval-india-delhi-sultanate-class-11-revision-notes
 **Quick Recall Box**
 ### <a id="medieval-india-delhi-sultanate"></a>Medieval India: Delhi Sultanate
 The Delhi Sultanate was a Muslim kingdom that ruled over a large part of the Indian subcontinent from the 13th to the 16th century. Here are some key points to recall:
-* **Founding**: The Delhi Sultanate was founded y Qutb-ud-din Aibak n 1192.
+* **Founding**: The Delhi Sultanate was founded y Qutb-ud-din Aibak and 1192.
 * **Rulers**: The Delhi Sultanate was ruled y five dynasties: Slave, Khalji, Tughlaq, Sayyid, n Lodi.
 * **Capital**: The capital of the Delhi Sultanate was Delhi.
 * **Administration**: The Delhi Sultanate was divided into provinces called **iqtas**, which were governed y **muqtis**.
@@ -121,7 +121,7 @@ The following are some key terms related to the Delhi Sultanate:
 ### <a id="latex-equations"></a>LaTeX Equations
 The Delhi Sultanate can be represented using the following LaTeX equations:
 
-$\text{Delhi Sultanate} = \sum_{i=1}^{5} \text{Dynasties}\text{Dynasties} = \$\text{Slave$, \text{Khalji}$, $\text{Tughlaq}$, $\text{Sayyid}$, $\text{Lodi}\}\text{Iqta System}$ = $\text{Feudal System}$ $\times$ $\text{Land Grant}$
+$\text{Delhi Sultanate} = \sum_{i=1}^{5} \text{Dynasties}\text{Dynasties} = \$\text{Slave$, \text{Khalji}$, $\text{Tughlaq}$, $\text{Sayyid}$, $\text{Lodi}\}\text{Iqta System}$ = $\text{Feudal System}\times\text{Land Grant}$
 
 By using these equations, we can represent the Delhi Sultanate as a $\sum of its constituent dynasties$, n the iqta system as a product of the feudal system and land grant.
 
@@ -177,6 +177,6 @@ Continue your [revision](/blog/ancient-india-indus-valley-class-11-revision-note
    - **Administrative Divisions**: Sultanate divided into **Iqta** (provinces) governed by **Muqti** (governors), further divided into **Shiq** (districts), **Parganas** (tehsils).
    - **Revenue System**: **Iqta System** where **Muqti** collected revenue, **Khams** (1/5th of revenue) given to Sultan, **Jizya** (tax on non-Muslims), **Kharaj** (land tax).
    - **Military Organization**: Sultans maintained large standing armies with **Turkish**, **Persian**, **Indian** soldiers, cavalry, infantry, **slave-soldiers** or **Bande**.
-   - **Economy and Trade**: Delhi Sultanate established trade relations with **Central Asia**, **Mongols**, **China**, **Middle East**, India's **textile**, **agriculture**, **crafts** flourished.
+   - **Economy and Trade**: Delhi Sultanate established trade relations with **Central Asia**, **Mongols**, **China**, **Middle East**, [India](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)'s **textile**, **agriculture**, **crafts** flourished.
    - **Architectural Developments**: Qutub Minar, Quwwat-ul-Islam Mosque, Alai Darwaza, Sultan Ghari, Tughlaqabad Fort.
    - **Social and Cultural Developments**: Emergence of **Sufi** and **Bhakti movements**, **Persian**, **Arabic**, **Turkish** influence on Indian languages, **art**, **literature**, **music**.

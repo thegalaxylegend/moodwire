@@ -9,6 +9,27 @@ practice_link: "/class-11/physics/states-of-matter-class-11-revision-notes-jee-n
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-states-of-matter-revision-notes"></a>What is States Of Matter Revision Notes?](#a-idwhat-is-states-of-matter-revision-notesawhat-is-states-of-matter-revision-notes)
+3. [<a id="1-why-states-of-matter-is-your-physics-n-chemistry-chapter"></a>1. Why States of Matter is Your "Physics and Chemistry" Chapter](#a-id1-why-states-of-matter-is-your-physics-n-chemistry-chaptera1-why-states-of-matter-is-your-physics-and-chemistry-chapter)
+4. [<a id="2-intermolecular-forces-the-root-cause-of-physical-states"></a>2. Intermolecular Forces: The Root Cause of Physical States](#a-id2-intermolecular-forces-the-root-cause-of-physical-statesa2-intermolecular-forces-the-root-cause-of-physical-states)
+5. [<a id="3-boyles-charless-n-gay-lussacs-laws-the-foundation"></a>3. Boyle's, Charles's, n Gay Lussac's Laws — The Foundation](#a-id3-boyles-charless-n-gay-lussacs-laws-the-foundationa3-boyles-charless-n-gay-lussacs-laws-the-foundation)
+6. [<a id="4-the-ideal-gas-equation-combining-everything-pvnrt"></a>4. The Ideal Gas Equation: Combining Everything ($PV=nRT$)](#a-id4-the-ideal-gas-equation-combining-everything-pvnrta4-the-ideal-gas-equation-combining-everything-pvnrt)
+7. [<a id="5-daltons-law-n-grahams-law-mixtures-n-diffusion"></a>5. Dalton's Law & Graham's Law: Mixtures and Diffusion](#a-id5-daltons-law-n-grahams-law-mixtures-n-diffusiona5-daltons-law-grahams-law-mixtures-and-diffusion)
+8. [<a id="6-kinetic-molecular-theory-kmt-the-microscopic-view"></a>6. Kinetic Molecular Theory (KMT): The Microscopic View](#a-id6-kinetic-molecular-theory-kmt-the-microscopic-viewa6-kinetic-molecular-theory-kmt-the-microscopic-view)
+9. [<a id="7-real-gases-vs-ideal-gases-when-reality-breaks-the-rules"></a>7. Real Gases vs Ideal Gases: When Reality Breaks the Rules](#a-id7-real-gases-vs-ideal-gases-when-reality-breaks-the-rulesa7-real-gases-vs-ideal-gases-when-reality-breaks-the-rules)
+10. [<a id="8-the-van-der-waals-equation-correcting-for-reality"></a>8. The van der Waals Equation: Correcting for Reality](#a-id8-the-van-der-waals-equation-correcting-for-realitya8-the-van-der-waals-equation-correcting-for-reality)
+11. [<a id="9-critical-temperature-boyle-temperature-n-liquefaction"></a>9. Critical Temperature, Boyle Temperature, n Liquefaction](#a-id9-critical-temperature-boyle-temperature-n-liquefactiona9-critical-temperature-boyle-temperature-n-liquefaction)
+12. [<a id="10-the-trap-section-gas-law-pitfalls"></a>10. The "Trap" Section: Gas Law Pitfalls](#a-id10-the-trap-section-gas-law-pitfallsa10-the-trap-section-gas-law-pitfalls)
+13. [<a id="11-practice-mcqs-jeeneet-level"></a>11. Practice MCQs (JEE/NEET Level)](#a-id11-practice-mcqs-jeeneet-levela11-practice-mcqs-jeeneet-level)
+14. [<a id="12-ayushs-gas-laws-strategy"></a>12. Ayush's Gas Laws Strategy](#a-id12-ayushs-gas-laws-strategya12-ayushs-gas-laws-strategy)
+15. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+16. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is States Of Matter Revision Notes?](#what-is-states-of-matter-revision-notes)
@@ -65,9 +86,9 @@ practice_link: "/class-11/physics/states-of-matter-class-11-revision-notes-jee-n
 This chapter is where Physics and Chemistry merge. If you're comfortable with [thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) n Kinetic Energy and Physics, you'll fly through this. The key challenge isn't the concepts — it's the **unit conversions**. I've seen students who understand Boyle's Law perfectly but get 0 marks because they forgot to convert Celsius to Kelvin.
 
 ### <a id="why-this-chapter-matters-exam-data"></a>Why This Chapter Matters (Exam Data)
-- **JEE Mains 2026 Session 1**: 1 question on Compressibility Factor ($Z$) n 1$ on Graham's Law.$
+- **JEE Mains 2026 Session 1**: 1 question on Compressibility Factor ($Z$) n $1 on Graham's Law.$
 - **[neet](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) 2026**: 1 question on van der Waals constants and liquefaction ease.
-- **CBSE Boards**: This unit carries 4-5 marks and is often paired with [thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) n the paper.
+- **CBSE Boards**: This unit carries 4–5 marks and is often paired with [thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) n the paper.
 
 ---
 
@@ -127,15 +148,15 @@ From $PV = nRT$ n $n = W/M$: PM = dRT where $d = density. This is a high-yield J
 
 **Dalton's Law of Partial Pressures states that the total pressure of a mixture of non-reacting gases is equal to the $\sum of individual partial pressures of each component gas.**$
 
-P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i $\times P_{total} where$ $X_i = mole fraction.$
+P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i $\times P_{total} whereX_i = mole fraction.$
 
 ### <a id="grahams-law-of-diffusion"></a>Graham's Law of Diffusion
 
 **Graham's Law states that the rate of diffusion or effusion of a gas is inversely proportional to the square root of its molar mass.**
 
- $\frac{r_1}{r_2} = {M_1\frac{M_2}$ 
+ \frac{r_1}{r_2} = {M_1\frac{M_2} 
 
-**JEE Trick**: This means lighter gases diffuse faster. $H_2$ diffuses 4× faster$ than $O_2$ (since $\sqrt{32/2} = 4$).$
+**JEE Trick**: This means lighter gases diffuse faster. $H_2$ diffuses 4× faster$ than $O_2$ (since \sqrt{32/2}$ = 4$).$
 
 ---
 
@@ -167,7 +188,7 @@ P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i $\times P_{total} where$ $X_i = mole 
 
 ### <a id="the-compressibility-factor-z"></a>The Compressibility Factor (Z)
 
-Z = $\frac{PV}{nRT} = Z = 1$ 
+ Z = \frac{PV}{nRT} = Z = 1 
 
 | Z Value | Meaning | Dominant Force | Condition |
 |:---:|:---|:---|:---|
@@ -183,7 +204,7 @@ Z = $\frac{PV}{nRT} = Z = 1$
 
 **The van der Waals Equation is a modified form of the ideal gas equation that accounts for the finite size of molecules (volume correction 'b') n intermolecular attractions (pressure correction 'a').**
 
-\left[P + $\frac{an^2}{V^2} = SO_2 \right](V - nb) = nRT$
+ \left[P + \frac{an^2}{V^2} = SO_2 \right](V - nb) = nRT 
 
 | Constant | Meaning | Higher value means |
 |:---|:---|:---|
@@ -303,6 +324,8 @@ Continue your [revision](/blog/structure-of-atom-class-11-revision-notes-jee-nee
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/states-of-matter-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=States%20Of%20Matter%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -314,3 +337,23 @@ Continue your [revision](/blog/classification-elements-periodicity-class-11-revi
 - 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
 - 📖 [Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)
 
+$
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Incorrect assumption of ideal gas behavior**: Many students assume that all gases behave like ideal gases under all conditions, which is not true. Real gases deviate from ideal gas behavior, especially at high pressures and low temperatures.
+* **Confusion between evaporation and boiling**: Students often confuse evaporation and boiling, not realizing that evaporation occurs at the surface of a liquid, while boiling occurs throughout the bulk of the liquid.
+* **Misunderstanding of the term 'critical point'**: Some students think that the critical point is the point where a gas can no longer be liquefied, which is partially correct. However, they often fail to recognize that it's the point where the distinction between liquid and vapor phases disappears.
+* **Failure to consider intermolecular forces**: Students may overlook the importance of intermolecular forces, such as van der Waals and hydrogen [bonding](/blog/chemical-bonding-class-11-revision-notes-jee-neet), in determining the physical properties of substances, like boiling point and viscosity.
+* **Incorrect application of the kinetic molecular theory**: Some students misapply the kinetic molecular theory, not appreciating that it's a simplified model that assumes molecules are point particles with no intermolecular forces, which can lead to incorrect predictions and calculations.
+
+## 🔁 Last 5 Minutes Box
+
+* **Solids**: Have a fixed shape and volume, particles are closely packed and vibrate about their fixed positions.
+     * **Liquids**: Have a fixed volume but take the shape of the container, particles are close but can move freely.
+     * **Gases**: Neither have a fixed shape nor a fixed volume, particles are far apart and are free to move in any direction.
+     * **Plasma**: Ionized gas consisting of positive ions and free electrons.
+     * **Boiling Point**: Temperature at which a liquid changes state to become a gas.
+     * **Melting Point**: Temperature at which a solid changes state to become a liquid.
+     * **Latent Heat of Vaporization**: Amount of heat required to change 1g of a liquid to gas at its boiling point.
+     * **Latent Heat of Fusion**: Amount of heat required to change 1g of a solid to liquid at its melting point.

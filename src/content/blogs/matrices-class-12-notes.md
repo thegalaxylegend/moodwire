@@ -16,8 +16,8 @@ manualReview: false
 - The adjoint of a 3x3 matrix $\begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix}$ is given by $\begin{bmatrix} \frac{ei-fh}{1} & \frac{-di+fg}{1} & \frac{dh-eg}{1} \\ \frac{-bi+ch}{1} & \frac{ai-cg}{1} & \frac{-ah+bg}{1} \\ \frac{bf-ce}{1} & \frac{-af+cd}{1} & \frac{ae-bd}{1} \end{bmatrix} = \begin{bmatrix} ei-fh & -di+fg & dh-eg \\ -bi+ch & ai-cg & -ah+bg \\ bf-ce & -af+cd & ae-bd \end{bmatrix}$
 - The transpose of a matrix is obtained by interchanging its rows into columns
 - The rank of a matrix is the maximum number of linearly independent rows or columns
-- The eigenvalues of a matrix are the values of $\lambda$ that satisfy the equation $\left| \begin{bmatrix} a & b \\ c & d \end{bmatrix} - \lambda \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} \right| = 0$
-- The eigenvectors of a matrix are the non-zero vectors that satisfy the equation $(A - \lambda I)v = 0$, where $A$ is the matrix, $\lambda$ is the eigenvalue, $I$ is the identity matrix, and $v$ is the eigenvector
+- The eigenvalues of a matrix are the values of $\\lambda$ that satisfy the equation $\left| \begin{bmatrix} a & b \\ c & d \end{bmatrix} - \\lambda \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} \right| = 0$
+- The eigenvectors of a matrix are the non-zero vectors that satisfy the equation $(A - \\lambda I)v = 0$, where $A$ is the matrix, $\\lambda$ is the eigenvalue, $I$ is the identity matrix, and $v$ is the eigenvector
 
  
 

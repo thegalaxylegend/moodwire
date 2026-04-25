@@ -25,7 +25,7 @@ manualReview: false
 - Forgetting to include the $\mu$-dependent effects of $environmental$ factors on reproductive health, such as $\mu$-pollution.
 - Not recognizing the importance of $\pi$-dependent $lifestyle$ choices, such as $\pi$-nutrition and $\pi$-exercise, on reproductive health.
 - Misunderstanding the $\omega$-dependent relationship between $contraception$ methods and $STIs$, leading to $\omega$-dependent errors.
-- Failing to consider the $\lambda$-dependent effects of $\infty$-dependent factors, such as $\infty$-dependent $age$ and $\infty$-dependent $genetics$, on reproductive health.
+- Failing to consider the $\\lambda$-dependent effects of $\infty$-dependent factors, such as $\infty$-dependent $age$ and $\infty$-dependent $genetics$, on reproductive health.
 
 ## 
  
@@ -56,7 +56,7 @@ manualReview: false
 - Always remember to consider the $\mu$-dependent effects of $environmental$ factors on reproductive health, such as $\mu$-pollution.
 - Never forget to include the $\pi$-dependent effects of $lifestyle$ choices, such as $\pi$-nutrition and $\pi$-exercise, on reproductive health.
 - Always recognize the importance of $\omega$-dependent relationship between $contraception$ methods and $STIs$, leading to $\omega$-dependent errors.
-- Never misunderstand the $\lambda$-dependent effects of $\infty$-dependent factors, such as $\infty$-dependent $age$ and $\infty$-dependent $genetics$, on reproductive health.
+- Never misunderstand the $\\lambda$-dependent effects of $\infty$-dependent factors, such as $\infty$-dependent $age$ and $\infty$-dependent $genetics$, on reproductive health.
 
 ## 
  

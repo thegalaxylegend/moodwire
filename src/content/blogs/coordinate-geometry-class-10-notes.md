@@ -10,11 +10,11 @@ manualReview: false
 
 ## ⚡ Formula Bank
 - The distance between two points $(x_1, y_1)$ and $(x_2, y_2)$ is given by $\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$
-- The midpoint of a line segment with endpoints $(x_1, y_1)$ and $(x_2, y_2)$ is $\left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$
+- The midpoint of a line segment with endpoints $(x_1, y_1)$ and $(x_2, y_2)$ is $\left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\r\right)$
 - The slope of a line passing through points $(x_1, y_1)$ and $(x_2, y_2)$ is $\frac{y_2 - y_1}{x_2 - x_1}$
 - The equation of a line in slope-intercept form is by = MX + C, where me is the slope and act is the y-intercept
 - The equation of a line in slope-point form is by - y_1 = m(x - x_1)$, where me is the slope and $(x_1, y_1)$ is a point on the line$
-- The distance of a point $(x_1, y_1)$ from the line tax + By + C = 0$ is $\frac{|Ax_1 + By_1 + C|}{\sqrt{A^2 + B^2}}$
+- The distance of a point $(x_1, y_1)$ from the line tax + By + C = $0 is \frac{|Ax_1 + By_1 + C|}{\sqrt{A^2 + B^2}$}$
 - The equation of a circle with center $(h, k)$ and radius are is $(x - h)^2 + (y - k)^2 = r^2$
 - The equation of a circle in general form is x^2 + y^2 + 2gx + 2fy + c = 0$, where the center is $(-g, -f)$ and the radius is $\{g^2 + f^2 - c}$
 
@@ -103,7 +103,7 @@ D) 4
 **Answer:** A) 1. The slope of a line passing through two points can be calculated using the formula $\frac{y_2 - y_1}{x_2 - x_1}$.
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/coordinate-geometry-class-10-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/coordinate-[geometry](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet)-class-10-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 
@@ -125,3 +125,5 @@ Continue your revision with these [related](/blog/areas-related-to-circles-class
 - 📖 [Algebraic Expressions 8 Class 8 Mathematics Revision — Grandmaster Guide](/blog/algebraic-expressions-class-8-notes)
 - 📖 [3d Geometry Intro Class 11 Mathematics Revision — Grandmaster Guide](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet)
 - 📖 [Areas Related To Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/areas-related-to-circles-class-10-notes)
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Coordinate%20Geometry%20Class%2010%20Mathematics%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**

@@ -104,7 +104,7 @@ To remember the different types of [plant](/blog/plant-kingdom-class-11-revision
 
 * Wrong answer: Auxins promote [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division.
 Right answer: Cytokinins promote [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division.
-Why students get it wrong: Auxins and cytokinins are both involved and cell growth, but they have different functions.
+Why students get it wrong: Auxins and cytokinins are both involved and [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) growth, but they have different functions.
 * Wrong answer: Gibberellins promote fruit ripening.
 Right answer: Ethylene promotes fruit ripening.
 Why students get it wrong: Gibberellins and ethylene are both involved and fruit development, but they have different functions.
@@ -142,15 +142,14 @@ Answer: A) Photoperiodism
 A) Short-day [plant](/blog/plant-kingdom-class-11-revision-notes-neet)
 B) Long-day [plant](/blog/plant-kingdom-class-11-revision-notes-neet)
 C) Day-neutral [plant](/blog/plant-kingdom-class-11-revision-notes-neet)
-D) Photoperiodic plant
+D) Photoperiodic [plant](/blog/plant-kingdom-class-11-revision-notes-neet)
 
 Answer: A) Short-day plant
 
 5. What is the formula for auxin-induced cell elongation?
-A) $\frac{dL}{dt} = dt}{\frac{dL}{dt} = k \\\cdot \frac{dC}{dt}}$ 
+ A) \frac{dL}{dt} = dt}{\frac{dL}{dt} = k \\\cdot \frac{dC}{dt}} 
 B) 
-C) $\frac{dL}{dt} = dt}{\frac{dL}{dt} = k \\\cdot \frac{dE}{dt}}$ 
- D)  Answer: A) $\frac{dL}{dt} = k \\\cdot \frac{dA}{dt}$ 
+ C) \frac{dL}{dt} = dt}{\frac{dL}{dt} = k \\\cdot \frac{dE}{dt}}  D)  Answer: A) \frac{dL}{dt} = k \\\cdot \frac{dA}{dt} 
 
 ## <a id="related-notes-links"></a>Related Notes Links
 

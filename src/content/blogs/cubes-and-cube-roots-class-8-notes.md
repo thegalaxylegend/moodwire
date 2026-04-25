@@ -9,7 +9,7 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- The cube of a number and is denoted by in^3$ and is calculated as in \times n \times no.$
+- The cube of a number and is denoted by in^$3 and is calculated as in \times n \times no.$
 - The cube root of a number and is denoted by $\sqrt[3]{n}$ and is a value that, when multiplied by itself twice, gives the original number and.
 - A^3 - b^3 = (a - b)(a^2 + ab + b^2)$
 - a^3 + b^3 = (a + b)(a^2 - ab + b^2)$
@@ -22,7 +22,7 @@ manualReview: false
 - Not simplifying expressions before finding the cube root
 - Not using the correct formula for the cube of a number or the cube root of a number
 - Not expanding expressions correctly using the identities $(a + b)^3$ and $(a - b)^3$
-- Not factoring expressions correctly using the formulas a^3 - b^3$ and a^3 + b^3$
+- Not factoring expressions correctly using the formulas a^3 - b^$3 and a^3 + b^$3
 - Not checking the units of the final answer to ensure they are correct
 
 ## ✏️ 3 Solved PYQs
@@ -49,13 +49,13 @@ manualReview: false
 ## 👁️ Ayush's Note
 - When working with cubes and cube [roots](/blog/squares-and-square-roots-class-8-notes), it's essential to be careful with the units and to check the final answer to ensure it makes sense.
 - Use the formulas and identities to simplify expressions and find the cube root of perfect cubes.
-- Practice, practice, practice! The more you practice working with cubes and cube roots, the more comfortable you'll become with the formulas and identities.
+- Practice, practice, practice! The more you practice working with cubes and cube [roots](/blog/squares-and-square-roots-class-8-notes), the more comfortable you'll become with the formulas and identities.
 
 ## 🔁 Last 5 Minutes Box
 - Make sure to review the formulas for the cube of a number and the cube root of a number.
 - Review the identities $(a + b)^3$ and $(a - b)^3$ and practice expanding expressions.
 - Check that you have simplified expressions before finding the cube root.
-- Review the formulas a^3 - b^3$ and a^3 + b^3$ and practice factoring expressions.
+- Review the formulas a^3 - b^$3 and a^3 + b^$3 and practice factoring expressions.
 
 ## 📝 Practice MCQs
 **1. What is the value of $\sqrt[3]{64}$?**
@@ -125,6 +125,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Cubes%20And%20Cube%20Roots%208%20Class%208%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

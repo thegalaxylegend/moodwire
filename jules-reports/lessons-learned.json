@@ -190,5 +190,77 @@
     "rootCause": "Auto-learned pattern from General failure: Unknown Failure",
     "fix": "Review this auto-learned pattern and refine the fix recommendation.",
     "priority": "medium"
+  },
+  {
+    "date": "2026-04-25",
+    "slug": "human-eye-and-colourful-world-class-10-notes",
+    "failureType": "LATEX_ERROR",
+    "rootCause": "LaTeX formulas malformed or unrenderable.",
+    "fix": "Add LaTeX validation pass. Use simpler formula syntax.",
+    "priority": "high"
+  },
+  {
+    "date": "2026-04-25",
+    "slug": "magnetic-effects-of-electric-current-class-10-notes",
+    "failureType": "LATEX_ERROR",
+    "rootCause": "LaTeX formulas malformed or unrenderable.",
+    "fix": "Add LaTeX validation pass. Use simpler formula syntax.",
+    "priority": "high"
+  },
+  {
+    "date": "2026-04-25",
+    "slug": "sources-of-energy-class-10-notes",
+    "failureType": "LATEX_ERROR",
+    "rootCause": "LaTeX formulas malformed or unrenderable.",
+    "fix": "Add LaTeX validation pass. Use simpler formula syntax.",
+    "priority": "high"
+  },
+  {
+    "date": "2026-04-25",
+    "slug": "trigonometric-functions-class-11-revision-notes-jee-neet",
+    "failureType": "LATEX_ERROR",
+    "rootCause": "LaTeX formulas malformed or unrenderable.",
+    "fix": "Add LaTeX validation pass. Use simpler formula syntax.",
+    "priority": "high"
+  },
+  {
+    "date": "2026-04-25",
+    "slug": "local-government-class-11-revision-notes-cbse",
+    "failureType": "LATEX_ERROR",
+    "rootCause": "LaTeX formulas malformed or unrenderable.",
+    "fix": "Add LaTeX validation pass. Use simpler formula syntax.",
+    "priority": "high"
+  },
+  {
+    "date": "2026-04-25",
+    "slug": "physics-heat-light-class-11-revision-notes-jee-neet",
+    "failureType": "LATEX_ERROR",
+    "rootCause": "LaTeX formulas malformed or unrenderable.",
+    "fix": "Add LaTeX validation pass. Use simpler formula syntax.",
+    "priority": "high"
+  },
+  {
+    "date": "2026-04-25",
+    "slug": "physics-mechanics-class-11-revision-notes-jee-neet",
+    "failureType": "LATEX_ERROR",
+    "rootCause": "LaTeX formulas malformed or unrenderable.",
+    "fix": "Add LaTeX validation pass. Use simpler formula syntax.",
+    "priority": "high"
+  },
+  {
+    "date": "2026-04-25",
+    "slug": "poverty-unemployment-class-11-revision-notes-jee-neet",
+    "failureType": "LATEX_ERROR",
+    "rootCause": "LaTeX formulas malformed or unrenderable.",
+    "fix": "Add LaTeX validation pass. Use simpler formula syntax.",
+    "priority": "high"
+  },
+  {
+    "date": "2026-04-25",
+    "slug": "anatomy-of-flowering-plants-class-11-revision-notes-neet",
+    "failureType": "LATEX_ERROR",
+    "rootCause": "LaTeX formulas malformed or unrenderable.",
+    "fix": "Add LaTeX validation pass. Use simpler formula syntax.",
+    "priority": "high"
   }
 ]

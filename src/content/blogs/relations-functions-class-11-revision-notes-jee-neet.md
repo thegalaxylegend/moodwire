@@ -133,7 +133,7 @@ If f and g are two real [functions](/blog/trigonometric-functions-class-11-revis
 
 **Q3: Is the relation R = {(1, 2), (1, 3), (2, 4)} a function? Explain.**
 **Answer:**
-- **No.** The element **1** from the domain has two different images (2 n 3). By definition, a function must have exactly one image for every element and the domain.
+- **No.** The element **1** from the domain has two different images (2 and 3). By definition, a function must have exactly one image for every element and the domain.
 
 ---
 

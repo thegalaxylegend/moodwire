@@ -43,7 +43,7 @@ practice_link: "/class-11/physics/oceanography-class-11-revision-notes-jee-neet"
 
 ## <a id="quick-revision-n-recap-oceanography"></a>Quick Revision & Recap: Oceanography
 
-Oceanography is the scientific study of the ocean, encompassing its properties, phenomena, n life forms. As a geography student, it's essential to grasp the core concepts of oceanography to excel and Class 11 n beyond. Here's a [quick](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) recap to get you started:
+Oceanography is the scientific study of the ocean, encompassing its properties, phenomena, n life forms. As a geography student, it's essential to grasp the core concepts of oceanography to excel and Class 11 and beyond. Here's a [quick](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) recap to get you started:
 
 * **Oceanography**: Study of the ocean and its components
 * **Hydrosphere**: The region of the Earth where water is present and all its forms

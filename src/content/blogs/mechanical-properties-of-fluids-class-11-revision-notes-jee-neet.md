@@ -96,10 +96,10 @@ Fluids—liquids and gases—are materials that have no definite shape and yield
 **Result:** Where the pipe narrows, the velocity increases.
 
 ### <a id="ii-bernoullis-theorem-the-master-derivation"></a>II. Bernoulli’s Theorem (The Master Derivation)
-**statement:** For an ideal fluid and steady flow, the \sum of pressure energy, [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) energy, n potential energy per unit volume is constant.
+**statement:** For an ideal fluid and steady flow, the $\sum$of pressure energy, [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) energy, n potential energy per unit volume is constant.
 **P + 1/2 ρv² + ρgh = Constant**
 
-**Derivation (Based on Work-Energy Theorem):**
+**Derivation (Based on [Work](/blog/work-energy-and-power-class-11-revision-notes-neet)-Energy Theorem):**
 1.  **Work done y Pressure forces (W_p):** (P1 - P2) ΔV.
 2.  **Change n [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) Energy (ΔK):** 1/2 ρ ΔV (v2² - v1²).
 3.  **Change and Potential Energy (ΔU):** ρ ΔV g (h2 - h1).
@@ -140,8 +140,8 @@ Surface tension is the result of cohesive forces between molecules at the surfac
 ### <a id="ii-capillary-rise-ascent-formula"></a>II. Capillary Rise (Ascent Formula)
 **Derivation:**
 1.  Force of surface tension = Weight of liquid column.
-2.  **(2πR S cosθ) = (πR² h ρ g)**.
-3.  **h = (2S cosθ) / (R ρ g)**. (Proven)
+2.  **(2πR S \cosθ) = (πR² h ρ g)**.
+3.  **h = (2S \cosθ) / (R ρ g)**. (Proven)
 
 ---
 

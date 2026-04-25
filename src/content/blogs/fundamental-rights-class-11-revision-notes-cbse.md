@@ -49,7 +49,7 @@ practice_link: "/class-11/fundamental-rights-class-11-revision-notes-cbse"
 
 ## <a id="what-is-fundamental-rights"></a>What is Fundamental Rights?
 
-Fundamental Rights is a set of rights guaranteed y the Indian Constitution to all citizens, providing them with the freedom to live with dignity and respect. It includes the right to equality, freedom of speech and expression, n protection against exploitation. For Class 11 exam prep n 2026, the most important aspect is understanding the significance of these rights and shaping the country's democratic [framework](/blog/constitutional-framework-class-11-revision-notes-cbse).
+Fundamental Rights is a set of rights guaranteed y the Indian Constitution to all citizens, providing them with the freedom to live with dignity and respect. It includes the right to equality, freedom of speech and expression, n protection against exploitation. For Class 11 exam prep and 2026, the most important aspect is understanding the significance of these rights and shaping the country's democratic [framework](/blog/constitutional-framework-class-11-revision-notes-cbse).
 
 ## <a id="what-are-the-key-features-of-fundamental-rights"></a>What are the key features of Fundamental Rights?
 
@@ -61,7 +61,7 @@ The concept of Fundamental Rights has its roots and the Indian independence move
 
 ## <a id="Ayush-tips"></a>Ayush's Tips
 
-As a student preparing for the class 11 exam n 2026, it's essential to have a thorough understanding of the Fundamental Rights enshrined and the [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Constitution. I always make it a point to **read the Constitution** n **analyze the provisions** related to each right. I also **create concept maps** to visualize the relationships between different rights and their applications. By doing so, I'm able to **identify the key concepts** n **retain the information** more effectively.
+As a student preparing for the class 11 exam and 2026, it's essential to have a thorough understanding of the Fundamental Rights enshrined and the [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Constitution. I always make it a point to **read the Constitution** n **analyze the provisions** related to each right. I also **create concept maps** to visualize the relationships between different rights and their applications. By doing so, I'm able to **identify the key concepts** n **retain the information** more effectively.
 
 ## <a id="what-are-the-core-concepts-related-to-fundamental-rights"></a>What are the Core Concepts related to Fundamental Rights?
 
@@ -77,7 +77,7 @@ The implications of Fundamental Rights on [indian](/blog/indian-geography-physic
 
 ## <a id="Ayush-personal-note"></a>Ayush's Personal Note
 
-As I prepare for the class 11 exam n 2026, I'm reminded of the importance of Fundamental Rights and shaping the country's democratic [framework](/blog/constitutional-framework-class-11-revision-notes-cbse). I've been studying the subject for several months now, n I'm beginning to appreciate the **complexities and nuances** of these rights. I've been **creating flashcards** to help me remember key concepts n **practicing with sample questions** to assess my understanding. By doing so, I'm confident that I'll be able to **excel and the exam** n **develop a deeper understanding** of the subject. I've also been **exploring historical timelines** n **maps contexts** to gain a better understanding of the subject.
+As I prepare for the class 11 exam and 2026, I'm reminded of the importance of Fundamental Rights and shaping the country's democratic [framework](/blog/constitutional-framework-class-11-revision-notes-cbse). I've been studying the subject for several months now, n I'm beginning to appreciate the **complexities and nuances** of these rights. I've been **creating flashcards** to help me remember key concepts n **practicing with sample questions** to assess my understanding. By doing so, I'm confident that I'll be able to **excel and the exam** n **develop a deeper understanding** of the subject. I've also been **exploring historical timelines** n **maps contexts** to gain a better understanding of the subject.
 
 ## <a id="what-are-the-key-challenges-n-implementing-fundamental-rights"></a>What are the key challenges and implementing Fundamental Rights?
 

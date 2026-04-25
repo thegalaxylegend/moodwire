@@ -43,11 +43,11 @@ practice_link: "/class-11/physics/dpsp-duties-class-11-revision-notes-jee-neet"
 
 ## <a id="what-is-DSP-n-duties"></a>What is DPSP & Duties?
 
-DSP & Duties is a fundamental concept and Indian Polity that outlines the Directive Principles of State Policy and the duties of citizens. It includes the principles of social and economic justice, the organization of village pantheists, n the promotion of international peace and security. For class 11 exam prep n 2026, the most important aspect is understanding the significance of these principles and the context of Indian democracy and governance.
+DSP & Duties is a fundamental concept and Indian Polity that outlines the Directive Principles of State Policy and the duties of citizens. It includes the principles of social and economic justice, the organization of village pantheists, n the promotion of international peace and security. For class 11 exam prep and 2026, the most important aspect is understanding the significance of these principles and the context of Indian democracy and governance.
 
 ## <a id="what-are-the-historical-developments-of-DSP-n-duties"></a>What are the Historical Developments of DPSP & Duties?
 
-The concept of DPSP & Duties has its roots and the [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) independence movement. The **[Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) National Congress** played a significant role and shaping these principles, with leaders like **Jawaharlal Nehru** n **Mahatma Gandhi** advocating for social and economic justice. The **Constitution of India**, adopted n 1950, enshrined these principles and the Directive Principles of State Policy.
+The concept of DPSP & Duties has its roots and the [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) independence movement. The **[Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) National Congress** played a significant role and shaping these principles, with leaders like **Jawaharlal Nehru** n **Mahatma Gandhi** advocating for social and economic justice. The **Constitution of India**, adopted and 1950, enshrined these principles and the Directive Principles of State Policy.
 
 Here's a brief timeline of key events:
 
@@ -96,7 +96,7 @@ As I review the concepts and principles, I identify some potential trap exceptio
 * **Confusing DPSP with Fundamental Rights**: While both concepts are essential n [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Polity, they serve distinct purposes. DPSP outlines the principles of social and economic justice, whereas Fundamental Rights guarantee individual freedoms and protections.
 * **Overlooking the historical context**: Understanding the historical developments and context and which DPSP & Duties were introduced is crucial for a deeper appreciation of these principles.
 
-Ayush's Personal Note: As I prepare for the class 11 exam n 2026, I recognize the importance of mastering the concepts and principles of DPSP & Duties. By understanding the historical context, core concepts, n trap exceptions, I can develop a comprehensive understanding of Indian Polity and perform well and the exam.
+Ayush's Personal Note: As I prepare for the class 11 exam and 2026, I recognize the importance of mastering the concepts and principles of DPSP & Duties. By understanding the historical context, core concepts, n trap exceptions, I can develop a comprehensive understanding of Indian Polity and perform well and the exam.
 
 ## <a id="what-are-the-Ayush-tips-for-DSP-n-duties"></a>What are the Ayush's Tips for DPSP & Duties?
 

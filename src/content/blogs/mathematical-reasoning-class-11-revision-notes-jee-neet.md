@@ -72,7 +72,7 @@ Not every sentence is a "statement" n the [mathematical](/blog/mathematical-indu
 - **NOT a Statement:** "How are you?" (Question), "Mathematics is difficult" (Subjective), "Open the door" (Command), "He is a tall man" (Relative).
 
 ### <a id="negation-of-a-statement-p"></a>Negation of a Statement (~p):
-Denial of a statement. If $p$ is "The number 2$ is prime," then $\sim p$ is "The number 2$ is not prime" or "It is false that the number 2 is prime."
+Denial of a statement. If $p$ is "The number $2 is prime," then $\sim p$ is "The number $2 is not prime" or "It is false that the number 2 is prime."
 
 ---
 
@@ -159,7 +159,7 @@ Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/[mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet)-reasoning-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Mathematical%20Reasoning%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20JEE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet)%20Reasoning%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20JEE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 
@@ -184,11 +184,11 @@ Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 
 - **[Sets](/blog/sets-class-11-revision-notes-jee-neet)**: A = {1, 2, 3}, A ∪ B, A ∩ B, A - B, A ⊂ B, A ⊃ B
    - **[Relations](/blog/relations-functions-class-11-revision-notes-jee-neet)**: R = {(1, 1), (1, 2)}, reflexive, symmetric, transitive, equivalence relation
-   - **Functions**: f(x) = x^2, injective, surjective, bijective, composite functions
+   - **[Functions](/blog/relations-functions-class-11-revision-notes-jee-neet)**: f(x) = x^2, injective, surjective, bijective, composite [functions](/blog/relations-functions-class-11-revision-notes-jee-neet)
    - **Permutations**: nPr = n! / (n-r)!, nPr = n * (n-1) * ... * (n-r+1)
    - **Combinations**: nCr = n! / (r!(n-r)!), Pascal's Triangle, nCr + nC(r-1) = (n+1)Cr
    - **Binomial Theorem**: (a+b)^n = ∑[nCk * a^(n-k) * b^k] from k=0 to n
    - **Sequences and Series**: AP, GP, HP, arithmetic mean, geometric mean, harmonic mean
-   - **Limits**: lim x→an f(x) = L, left-hand limit, right-hand limit, Sandwich Theorem
+   - **[Limits](/blog/limits-derivatives-class-11-revision-notes-jee-neet)**: lim x→an f(x) = L, left-hand limit, right-hand limit, Sandwich Theorem
    - **Derivatives**: f'(x) = lim h→0 [f(x+h) - f(x)]/h, product rule, quotient rule, chain rule
    - **Statistics**: mean, median, mode, standard deviation, variance, correlation coefficient

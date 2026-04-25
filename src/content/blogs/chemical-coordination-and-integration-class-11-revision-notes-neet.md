@@ -79,7 +79,7 @@ While there are no specific formulae to remember and chemical [coordination](/bl
 
 * The regulation of blood sugar levels y insulin and glucagon can be represented y the following equation:
 
-$\text{Glucose} \xrightarrow$\text{Insulin}$ \text{Glycogen}\text{Glycogen} \xrightarrow$\text{Glucagon$1 \text{Glucose}$
+$\text{Glucose} \xrightarrow\text{Insulin} \text{Glycogen}\text{Glycogen} \xrightarrow$\text{Glucagon$1 \text{Glucose}$
 
 ## <a id="keenest-data"></a>JEE/MEET Data
 

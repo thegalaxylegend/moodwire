@@ -73,15 +73,15 @@ D) $360^\circ$
 
 **2. What is the formula for calculating the area of a triangle with base $b$ and height $h$?**
 -
-A) $\frac{1}{2} \times b \times h$
+A) \frac{1}{2} \times b \times h
 -
-B) $\frac{1}{3} \times b \times h$
+B) \frac{1}{3} \times b \times h
 -
-C) $\frac{2}{3} \times b \times h$
+C) \frac{2}{3} \times b \times h
 -
-D) $\frac{3}{2} \times b \times h$
+D) \frac{3}{2} \times b \times h
 
-**Answer: A) $\frac{1}{2} \times $b \times h$**$
+**Answer: A) \frac{1}{2} \times b \times h**
 
 **3. What is the Pythagorean theorem?**
 -
@@ -139,3 +139,4 @@ Continue your revision with these [related](/blog/areas-related-to-circles-class
 - 📖 [Arithmetic Progressions Class 10 Exam Prep Revision — Grandmaster Guide](/blog/arithmetic-progressions-class-10-notes)
 - 📖 [Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/circles-class-10-notes)
 - 📖 [Pair Of Linear Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/pair-of-linear-equations-class-10-notes)
+$

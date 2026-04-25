@@ -191,6 +191,6 @@ Continue your revision with these related guides:
     * **Pteridophyta**: Vascular, spore-producing plants (e.g., ferns, horsetails)
     * **Gymnosperms**: Vascular, seed-producing plants with naked seeds (e.g., conifers, cycads)
     * **Angiosperms**: Vascular, seed-producing plants with covered seeds (e.g., flowering plants)
-    * **Plant Cell**: Cell wall, plasma membrane, cytoplasm, nucleus, mitochondria, chloroplasts
+    * **[Plant](/blog/plant-growth-and-development-class-11-revision-notes-neet) Cell**: Cell wall, plasma membrane, cytoplasm, nucleus, mitochondria, chloroplasts
     * **Photosynthesis**: 6CO2 + 6H2O + light energy → C6H12O6 (glucose) + 6O2
     * **Respiration**: C6H12O6 (glucose) + 6O2 → 6CO2 + 6H2O + energy (ATP)

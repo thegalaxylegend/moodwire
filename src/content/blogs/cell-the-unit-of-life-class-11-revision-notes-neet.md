@@ -82,17 +82,17 @@ This chapter is very important for students of class 11 because it forms the fou
 ## <a id="Ayush-note"></a>Ayush's Note
 
 <\\DIV class="Ayush-note">
-I still remember when I was n class 11, I found it very difficult to understand the structure of a cell. My teacher told me to focus on the functions of different parts of the cell, n that really helped me. I used to make a table of all the parts of the cell and their functions, which made it easier for me to remember. 
+I still remember when I was and class 11, I found it very difficult to understand the structure of a cell. My teacher told me to focus on the functions of different parts of the cell, n that really helped me. I used to make a table of all the parts of the cell and their functions, which made it easier for me to remember. 
 </div>
 
 ## <a id="cell-structure"></a>Cell Structure
 
 The cell structure includes the cell membrane, cytoplasm, nucleus, n various organelles such as mitochondria, ribosomes, etc.
-The cell membrane is [a thin layer of lipid and protein molecules that surrounds the cell and regulates the movement of materials and n out of the cell](https://en.wikipedia.org/wiki/Cell_membrane).
+The cell membrane is [a thin layer of lipid and protein molecules that surrounds the cell and regulates the movement of materials and and out of the cell](https://en.wikipedia.org/wiki/Cell_membrane).
 
 ## <a id="cell-membrane"></a>Cell Membrane
 
-The cell membrane is a thin layer of lipid and protein molecules that surrounds the cell and regulates the movement of materials and n out of the cell. It is also known as the plasma membrane. The cell membrane is semi-permeable, meaning that it allows certain substances to pass through while keeping others out. The cell membrane is composed of a phospholipid bilayer, with the hydrophilic (water-loving) heads of the phospholipid molecules facing outwards and the hydrophobic (water-fearing) tails facing inwards.
+The cell membrane is a thin layer of lipid and protein molecules that surrounds the cell and regulates the movement of materials and and out of the cell. It is also known as the plasma membrane. The cell membrane is semi-permeable, meaning that it allows certain substances to pass through while keeping others out. The cell membrane is composed of a phospholipid bilayer, with the hydrophilic (water-loving) heads of the phospholipid molecules facing outwards and the hydrophobic (water-fearing) tails facing inwards.
 
 ## <a id="cytoplasm"></a>Cytoplasm
 
@@ -126,7 +126,7 @@ O - Other organelles
  Right answer: A prokaryotic cell does not have a nucleus, while a eukaryotic cell has a nucleus.
 * What is the function of the cell membrane?
  Wrong answer: The cell membrane is responsible for cellular respiration.
- Right answer: The cell membrane is responsible for regulating the movement of materials and n out of the cell.
+ Right answer: The cell membrane is responsible for regulating the movement of materials and and out of the cell.
 
 ## <a id="practice-MCQs"></a>Practice MCQs
 
@@ -155,8 +155,8 @@ Solution: b) Prokaryotic cells do not have a nucleus, while eukaryotic cells hav
 a) Cellular respiration
 b) Protein synthesis
 c) DNA replication
-d) Regulating the movement of materials and n out of the cell
-Solution: d) Regulating the movement of materials and n out of the cell
+d) Regulating the movement of materials and and out of the cell
+Solution: d) Regulating the movement of materials and and out of the cell
 
 ### <a id="hard"></a>Hard
 1. What is the process y which a cell divides into two daughter cells?

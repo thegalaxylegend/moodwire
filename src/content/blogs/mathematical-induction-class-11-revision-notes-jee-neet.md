@@ -9,6 +9,23 @@ practice_link: "/class-11/physics/mathematical-induction-class-11-revision-notes
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-mathematical-induction-revision-notes"></a>What is Mathematical Induction Revision Notes?](#a-idwhat-is-mathematical-induction-revision-notesawhat-is-mathematical-induction-revision-notes)
+3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
+4. [<a id="1-the-principle-of-mathematical-induction-pmi"></a>1. The Principle of Mathematical Induction (PMI)](#a-id1-the-principle-of-mathematical-induction-pmia1-the-principle-of-mathematical-induction-pmi)
+5. [<a id="2-the-three-pillars-of-execution"></a>2. The Three Pillars of Execution](#a-id2-the-three-pillars-of-executiona2-the-three-pillars-of-execution)
+6. [<a id="3-types-of-induction-problems"></a>3. Types of Induction Problems](#a-id3-types-of-induction-problemsa3-types-of-induction-problems)
+7. [<a id="4-common-pitfalls-to-avoid"></a>4. Common Pitfalls to Avoid](#a-id4-common-pitfalls-to-avoida4-common-pitfalls-to-avoid)
+8. [<a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qandaacomprehensive-exam-strategy-qa)
+9. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
+10. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
+11. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+12. [📚 Related Topics](#related-topics)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Mathematical Induction Revision Notes?](#what-is-mathematical-induction-revision-notes)
@@ -43,7 +60,7 @@ practice_link: "/class-11/physics/mathematical-induction-class-11-revision-notes
 
 ## <a id="introduction"></a>Introduction
 
-**Mathematical Induction is a powerful logical proof technique used to verify the truth of infinite statements starting from a base case. Master the three-step process—Checking n=1, Assuming n=k, n Proving n=k+1—to solve rigorous identity proofs and algebra and sequence theory. This class 11 Math Chapter 4 summary provides the deductive logic essential for JEE level problem-solving.**
+**Mathematical Induction is a powerful logical proof technique used to verify the truth of infinite statements starting from a base case. Master the [three](/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet)-step process—Checking n=1, assuming n=k, n proving n=k+1—to solve rigorous identity proofs and algebra and sequence theory. This class 11 Math Chapter 4 summary provides the deductive logic essential for JEE level problem-solving.**
 [mathematical](/blog/mathematical-reasoning-class-11-revision-notes-jee-neet) Induction is a powerful "proof technique" used to establish the truth of [mathematical](/blog/mathematical-reasoning-class-11-revision-notes-jee-neet) statements for all natural numbers.
 
 ---
@@ -77,16 +94,16 @@ Prove that the statement holds for $n = k+1$ using the assumption from Pillar 2.
 
 ## <a id="3-types-of-induction-problems"></a>3. Types of Induction Problems
 
-1. **Summation Identities:** Proving the $\sum of a series (e.g.$, $\sum of squares$ $1^2+2^2+...+n^2$).
-2. **Divisibility Rules:** Proving that an expression is divisible y a certain number for all $n$ (e.g., $7^n - 3^n$ is divisible y 4).
-3. **Inequalities:** Proving that one expression grows faster than another (e.g., $2^n > n$).
+1. **Summation Identities:** proving the $\sum of a series (e.g.$, $\sum of squares1^2+2^2+...+n^2$).
+2. **Divisibility Rules:** proving that an expression is divisible y a certain number for all $n$ (e.g., $7^n - 3^n$ is divisible y 4).
+3. **Inequalities:** proving that one expression grows faster than another (e.g., $2^n > n$).
 
 ---
 
 ## <a id="4-common-pitfalls-to-avoid"></a>4. Common Pitfalls to Avoid
 
 - **Skipping the Base Case:** Even if the logic holds for $k \to k+1$, the statement is false if it doesn't start at $n=1$.
-- **Assuming $n=k$ leads to $n=k+1$ without Proof:** You must show the algebraic link between the two.
+- **Assuming $n=k$ leads to $n=k+1$ without proof:** You must show the algebraic link between the two.
 - **Not using the Inductive Hypothesis:** The proof of $P(k+1)$ **must** utilize the assumption that $P(k)$ is true.
 
 ---
@@ -141,6 +158,8 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/mathematical-induction-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Mathematical%20Induction%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20JEE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## 📚 Related Topics
@@ -151,3 +170,22 @@ Continue your [revision](/blog/limits-derivatives-class-11-revision-notes-jee-ne
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
 - 📖 [Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)
 - 📖 [Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Incorrect Base Case**: A common mistake is to prove the base case for $n = 0$ when the statement is true for $n = 1$. Make sure to identify the correct base case.
+* **Insufficient Inductive Hypothesis**: Failing to assume the inductive hypothesis for $n = k$ before proving it for $n = k + 1$ can lead to incorrect proofs. Always clearly state the inductive hypothesis.
+* **Incorrect Inductive Step**: Not properly proving the statement for $n = k + 1$ using the inductive hypothesis can result in a flawed proof. Ensure that each step in the inductive process is carefully justified.
+* **False Generalization**: Assuming that a statement is true for all $n$ based on a limited number of specific cases can lead to false conclusions. Mathematical induction requires a rigorous proof, not just examples.
+* **Omitting the Inductive Step**: Proving the base case but failing to complete the inductive step can make the proof incomplete. Always ensure that both the base case and the inductive step are properly addressed.
+
+## 🔁 Last 5 Minutes Box
+
+# Mathematical Induction Revision Notes
+    * **Principle of Mathematical Induction (PMI)**: To prove that a statement P(n) is true for all n ∈ N, show that P(1) is true and P(k) being true implies P(k + 1) is true.
+    * **Formula for PMI**: 1. Prove P(1) is true (Base case), 2. Assume P(k) is true, 3. Prove P(k+1) is true using the assumption from step 2.
+    * **Example PMI Proof**: 
+        + For all n ≥ 1, prove 1 + 2 + 3 + ... + n = n(n+1)/2
+        + Base case: 1 = 1(1+1)/2, thus P(1) is true
+        + Assume for some k, 1 + 2 + 3 + ... + k = k(k+1)/2
+        + Then for k+1: 1 + 2 + ... + k + (k+1) = k(k+1)/2 + (k+1) = (k+1)(k+2)/2, proving P(k+1) is true

@@ -121,7 +121,7 @@ D) All of the above
 
 **Answer: D) All of the above. Explanation: Mutual Exclusion, Hold and Wait, No Preemption, and Circular Wait are all methods to prevent deadlock.**
 
-**5. What is the purpose of a semaphore in Operating Systems?**
+**5. What is the purpose of a semaphore in Operating [Systems](/blog/number-systems-class-9-notes)?**
 -
 A) To synchronize processes
 -

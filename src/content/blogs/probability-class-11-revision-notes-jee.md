@@ -84,8 +84,7 @@ The set of all possible outcomes.
 An **Event** is simply a subset of the sample space.
 
 ### <a id="types-of-events"></a>Types of Events:
-1.  **Impossible Event:** The empty set $\phi$. (e.g., getting a 7$ on a standard die).$
-2.  **Sure Event:** The entire sample space $S$.
+1.  **Impossible Event:** The empty set $\phi$. (e.g., getting a $7 on a standard die).$2.  **Sure Event:** The entire sample space $S$.
 3.  **Simple Event:** An event containing only one sample point.
 4.  **Compound Event:** An event containing more than one sample point.
 5.  **Complementary Event ($E'$):** The event "not E", calculated as $S - E$.
@@ -190,3 +189,12 @@ Continue your [revision](/blog/conic-sections-class-11-revision-notes-jee) with 
 * **Incorrect Usage of Conditional Probability Formula**: Students often incorrectly apply the conditional probability formula P(A|B) = P(A ∩ B) / P(B), forgetting that it's only applicable when P(B) is not equal to 0.
 * **Not Considering the Sample Space**: A significant mistake is not carefully defining the sample space for the experiment, leading to incorrect calculations of probabilities. The sample space should include all possible outcomes of the experiment.
 * **Misinterpretation of the Concept of Mutual Exclusivity**: Some students mistakenly assume that if two events are mutually exclusive, they cannot occur at the same time, which is correct, but they also incorrectly conclude that if two events cannot occur at the same time, they must be mutually exclusive, ignoring the possibility of dependent events.
+
+## 🔁 Last 5 Minutes Box
+
+### Probability Formulas:
+    * P(E) = (Number of times event occurs) / (Total number of trials)
+    * P(E) = 1 - P(E') 
+    * P(A ∪ B) = P(A) + P(B) - P(A ∩ B)
+    * P(A ∩ B) = P(A) * P(B) for independent events
+    * Bayes' Theorem: P(A|B) = P(B|A) * P(A) / P(B)

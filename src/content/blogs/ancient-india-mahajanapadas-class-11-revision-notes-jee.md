@@ -77,9 +77,9 @@ The following table lists the 16 Mahajanapadas, their capitals, n notable rulers
 |  | Ujjain/ |
 ## <a id="formulae-tables"></a>Formulae Tables
 While historical data doesn't typically involve mathematical formulae, understanding the **population dynamics**, **economic growth**, n **trade volumes** of the Mahajanapadas can be facilitated y basic mathematical concepts such as:
-\[ $\text{Population Growth Rate} = \frac\text{Change$ and Population}\text{Original Population}$ $\times 100 \]$
+\[ $\text{Population Growth Rate} = \frac\text{Change$ and Population}$\text{Original Population} $\times 100 \]$
 
-\[ $\text{Economic Growth Rate} = \frac\text{Change$ and GDP}\text{Original GDP}$ $\times 100 \]$
+\[ $\text{Economic Growth Rate} = \frac\text{Change$ and GDP}$\text{Original GDP} $\times 100 \]$
 
 ## <a id="trap-exceptions-for-quick-review"></a>Trap Exceptions for Quick Review
 - **Not all Mahajanapadas were monarchies**; some were republics.
@@ -119,5 +119,5 @@ Continue your [revision](/blog/ray-optics-class-12-quick-class-12-revision-notes
 * **Gandhara**:  capital
 * **Republics**: , , , 
 * ** (24)**: , , ,  (599-527 BCE)
-* **Buddha**: Born 563 BCE n , Enlightened n 528 BCE at Gaya
+* **Buddha**: Born 563 BCE n , Enlightened and 528 BCE at Gaya
 * **Chandragupta Maurya (324-298 BCE)**: Founder of Mauryan Empire, Conquered [India](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse) with 

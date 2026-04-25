@@ -60,7 +60,7 @@ Environmental [Chemistry](/blog/organic-chemistry-basic-principles-class-11-revi
 
 * Environmental [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) is the study of the chemical and biochemical phenomena that occur and the environment.
 * It involves the study of the sources, reactions, transport, n effects of chemical species and the environment.
-* The main branches of environmental chemistry are air, water, n soil pollution.
+* The main branches of environmental [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) are air, water, n soil pollution.
 * Environmental chemistry is important for understanding and mitigating the impact of human activities on the environment.
 * The main goal of environmental chemistry is to develop sustainable solutions for environmental problems.
 #
@@ -99,7 +99,7 @@ Environmental chemistry is [the study of the chemical and biochemical phenomena 
 ## <a id="shortcut-formula-trick"></a>Shortcut Formula / Trick
 
 One shortcut formula to remember, and environmental chemistry is the [formula for calculating the pH of a solution](https://en.wikipedia.org/wiki/PH):
-\[ $1 \text{H}^+$] \]$ where $[\text{H}^+]$ is the concentration of hydrogen ions and the solution.
+\[ $1 \text{H}^+$] \]$ where $[$\text{H}$^+]$ is the concentration of hydrogen ions and the solution.
 
 ## <a id="trap-questions-exceptions"></a>Trap Questions / Exceptions
 
@@ -211,3 +211,4 @@ Continue your [revision](/blog/plant-growth-and-development-class-11-revision-no
 | Compound | Formula | MOL. Weight | Source |
 |:---|:---:|:---:|:---:|
 | **water** | H2O | 18.015 g/MOL | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/962) |
+$

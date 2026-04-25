@@ -66,9 +66,9 @@ I still remember the mistake I made and my Class 11 Biology exam. I confused the
 ### <a id="core-concepts"></a>Core Concepts
 Transport n [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) involves the movement of water, minerals, n sugars throughout the plant. There are two main types of transport n [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet): passive and active transport. Passive transport includes diffusion, osmosis, n transpiration, while active transport involves the use of energy to move substances against their concentration gradient.
 #### Diffusion
-Diffusion is the process y which particles move from a region of high concentration to a region of low concentration. This process is essential for the movement of oxygen and carbon dioxide and n out of the plant.
+Diffusion is the process y which particles move from a region of high concentration to a region of low concentration. This process is essential for the movement of oxygen and carbon dioxide and and out of the plant.
 #### Osmosis
-Osmosis is the movement of water molecules from a region of high concentration to a region of low concentration through a partially permeable membrane. This process is essential for the movement of water and n out of the plant cells.
+Osmosis is the movement of water molecules from a region of high concentration to a region of low concentration through a partially permeable membrane. This process is essential for the movement of water and and out of the plant cells.
 #### Transpiration
 Transpiration is the process y which water is transported through the plant, from the roots to the leaves, n is then released into the air as water vapor. This process is essential for the movement of water and minerals and the plant.
 #### Active Transport involves the use of energy to move substances against their concentration gradient. This process is essential for the movement of minerals and sugars and the plant.

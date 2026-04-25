@@ -64,16 +64,16 @@ Examiner's Trap: Be careful with the signs of distances and heights in mirror fo
 
 ### <a id="refraction-formulas"></a>Refraction Formulas
 
-- **Snell's Law:** $n_1 \sin{\theta_1} = n_2 \sin{\theta_2}$ — for refractive indices $n_1$ and $n_2$, and angles of incidence $\theta_1$ and refraction $\theta_2$
+- **Snell's Law:** $n_1 \\sin{\theta_1} = n_2 \\sin{\theta_2}$ — for refractive indices $n_1$ and $n_2$, and angles of incidence $\theta_1$ and refraction $\theta_2$
 
 - **Refractive Index:** $n = \frac{c}{v}$ — for speed of light in vacuum $c$ and speed of light in medium $v$
 
-- **Lens Maker's Formula:** $\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)$ — for focal length $f$, refractive index $n$, and radii of curvature $R_1$ and $R_2$
+- **Lens Maker's Formula:** $\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \r\right)$ — for focal length $f$, refractive index $n$, and radii of curvature $R_1$ and $R_2$
 Examiner's Trap: Remember that the lens maker's formula assumes the lens is in air.
 
 ### <a id="total-internal-reflection-formulas"></a>Total Internal Reflection Formulas
 
-- **Critical Angle:** $\sin{\theta_c} = \frac{n_2}{n_1}$ — for critical angle $\theta_c$, and refractive indices $n_1$ and $n_2$
+- **Critical Angle:** $\\sin{\theta_c} = \frac{n_2}{n_1}$ — for critical angle $\theta_c$, and refractive indices $n_1$ and $n_2$
 
 - **Total Internal Reflection Condition:** $\theta_1 > \theta_c$ — for angle of incidence $\theta_1$ and critical angle $\theta_c$
 Examiner's Trap: Ensure you understand the conditions for total internal reflection to occur.
@@ -94,7 +94,7 @@ Examiner's Trap: Remember that the sign convention for lenses is opposite to tha
 
 ### <a id="optical-fiber-formulas"></a>Optical Fiber Formulas
 
-- **Acceptance Angle:** $\sin{\theta_a} = \frac{n_2}{n_1}$ — for acceptance angle $\theta_a$, and refractive indices $n_1$ and $n_2$
+- **Acceptance Angle:** $\\sin{\theta_a} = \frac{n_2}{n_1}$ — for acceptance angle $\theta_a$, and refractive indices $n_1$ and $n_2$
 
 - **Numerical Aperture:** $NA = \sqrt{n_1^2 - n_2^2}$ — for numerical aperture $NA$, and refractive indices $n_1$ and $n_2$
 Examiner's Trap: Understand the concept of numerical aperture and its relation to acceptance angle.
@@ -103,12 +103,12 @@ Examiner's Trap: Understand the concept of numerical aperture and its relation t
 | Situation | Formula to Use |
 | --- | --- |
 | Finding image distance in reflection | $\frac{1}{v} + \frac{1}{u} = \frac{1}{f}$ |
-| Finding angle of refraction | $n_1 \sin{\theta_1} = n_2 \sin{\theta_2}$ |
-| Calculating focal length of a lens | $\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)$ |
-| Determining critical angle | $\sin{\theta_c} = \frac{n_2}{n_1}$ |
+| Finding angle of refraction | $n_1 \\sin{\theta_1} = n_2 \\sin{\theta_2}$ |
+| Calculating focal length of a lens | $\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \r\right)$ |
+| Determining critical angle | $\\sin{\theta_c} = \frac{n_2}{n_1}$ |
 | Finding deviation by a prism | $\delta = i + e - A$ |
 | Calculating power of a lens | $P = \frac{1}{f}$ |
-| Finding acceptance angle in optical fibers | $\sin{\theta_a} = \frac{n_2}{n_1}$ |
+| Finding acceptance angle in optical fibers | $\\sin{\theta_a} = \frac{n_2}{n_1}$ |
 | Calculating numerical aperture | $NA = \sqrt{n_1^2 - n_2^2}$ |
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
@@ -153,7 +153,7 @@ Examiner's Trap: Understand the concept of numerical aperture and its relation t
 
 - At least two principal rays drawn accurately using a ruler.
 
-- Arrows clearly marked on all rays to indicate the direction of light propagation.
+- Arrows clearly marked on all rays to indicate the direction of [light](/blog/physics-heat-light-class-11-revision-notes-jee-neet) propagation.
 
 - Virtual rays (extensions of reflected/refracted rays) drawn as dashed lines. Real rays drawn as solid lines.
 
@@ -174,21 +174,21 @@ Examiner's Trap: Understand the concept of numerical aperture and its relation t
 - **Lens):**
  
 
-- 🔴 **What students write:** ** Interchanging the mirror formula and the lens formula. For instance, using $\frac{1}{v} + \frac{1}{u} = \frac{1}{f}$ for a lens numerical, or using $\frac{1}{v} 
+- 🔴 **What students write:** ** Interchanging the mirror formula and the lens formula. For instance, using $\frac{1}{v} + \frac{1}{u} = \frac{1}{f}$ for a lens numerical, or using $\frac{1}${v}$ 
 
-- $\frac{1}{u}$ = $\frac{1}{f} for a mirror numerical.
+- $\frac{1}{u}$ = $\frac{1}${f}$ for a mirror numerical.
 
 - ✅ **What examiners expect:** Correct application of the specific formula for the given optical device:
  
 
 - **Mirror Formula:**
- \frac{1}{v} + \frac{1}{u} = \frac{1}{f}
+ \frac{1}{v} + \frac{1}{u} = \frac{1}{f} 
  
 
 - **Lens Formula:**
  \frac{1}{v} 
 
-- $\frac{1}{u}$ = $\frac{1}{f}$
+-  $\frac{1}${u} = $\frac{1}${f} 
  
 
 - 💸 **Marks lost:** 1-2 marks for applying the incorrect formula, leading to a completely wrong answer even if sign conventions are correct.
@@ -292,12 +292,12 @@ This ensures you correctly link $v$ to device type and $M$ to image orientation,
  * Radius of curvature ($R$): Concave mirror is negative, Convex mirror is positive.
 
 * **Mirror Formula:**
-  \frac{1}{f} = \frac{1}{v} + \frac{1}{u} 
+ \frac{1}{f} = \frac{1}{v} + \frac{1}{u} 
  * Where $u$ = object distance, $v$ = image distance, $f$ = focal length.
  * **Mandatory:** Apply sign conventions strictly for $u, v, f$ when substituting values.
 
 * **Magnification ($m$):**
-  m = \frac{\text{Height of image} (h')}{\text{Height of object} (h)} = -\frac{v}{u} 
+  m = $\frac{\text{Height of image}$ (h')}{$\text{Height of object}$ (h)} = -$\frac{v}{u}$ 
  * **Interpretation of $m$:**
  * $|m| > 1$: Image is magnified.
  * $|m| < 1$: Image is diminished.
@@ -309,7 +309,7 @@ This ensures you correctly link $v$ to device type and $M$ to image orientation,
 * **Ray Diagrams for Concave Mirror (High-Yield Cases):**
  * **Rule 1:** Ray parallel to principal axis passes through F after reflection.
  * **Rule 2:** Ray passing through F becomes parallel to principal axis after reflection.
- * **Rule 3:** Ray passing through C reflects back along the same path.
+ * **Rule 3:** Ray passing through C reflects along the same path.
  * **Rule 4:** Ray incident obliquely to P is reflected obliquely, making equal angles with the principal axis.
  * **Cases to master (Image Characteristics):**
  * **Object at infinity:** Image at F, Real, Inverted, Highly Diminished. (Used in solar furnaces).
@@ -323,11 +323,11 @@ This ensures you correctly link $v$ to device type and $M$ to image orientation,
 * **Ray Diagrams for Convex Mirror (Simpler, but commonly tested for properties):**
  * **Rule 1:** Ray parallel to principal axis appears to diverge from F after reflection.
  * **Rule 2:** Ray directed towards F becomes parallel to principal axis after reflection.
- * **Rule 3:** Ray directed towards C reflects back along the same path.
+ * **Rule 3:** Ray directed towards C reflects along the same path.
  * **Cases to master (Image Characteristics):**
  * **Object at infinity:** Image at F (behind mirror), Virtual, Erect, Highly Diminished.
  * **Object anywhere between P and infinity:** Image between P and F (behind mirror), Virtual, Erect, Diminished.
- * **Key takeaway:** Convex mirrors *always* form virtual, erect, and diminished images. This is why they are used as rear-view mirrors.
+ * **Key takeaway:** Convex mirrors *always* form virtual, erect, and diminished images. This is why they are used as rearview mirrors.
 
 * **Applications of Spherical Mirrors:**
  * **Concave:** Shaving mirrors, dentist mirrors (magnified virtual image), headlights, searchlights, solar furnaces (real, inverted, highly magnified/diminished images depending on use).
@@ -338,7 +338,7 @@ This ensures you correctly link $v$ to device type and $M$ to image orientation,
 * **Laws of Refraction:**
  * Incident ray, refracted ray, and normal to the interface at the point of incidence all lie in the same plane.
  * **Snell's Law:** For a given pair of media and a given colour of light, the ratio of the sine of the angle of incidence to the sine of the angle of refraction is constant.
-  \frac{\sin i}{\sin r} = \text{constant} = n_{21} 
+ \frac{\\sin i}{\\sin r} = \text{constant} = n_{21} 
  * Where $n_{21}$ is the refractive index of medium 2 with respect to medium 1.
  * **Optical Density:** Denser medium (higher $n$) means light bends towards the normal. Rarer medium (lower $n$) means light bends away from the normal.
  * Light from rarer to denser: $r < i$.
@@ -346,7 +346,7 @@ This ensures you correctly link $v$ to device type and $M$ to image orientation,
 
 * **Refractive Index ($n$):**
  * $ n = \frac{\text{Speed of light in vacuum (or air)} (c)}{\text{Speed of light in medium} (v)} $
- * Absolute refractive index ($n_m$): $ n_m = \frac{c}{v_m} $.
+ * Absolute refractive index ($n_m$): $ n’m = \frac{c}{v’m} $.
  * Relative refractive index ($n_{21}$): $ n_{21} = \frac{n_2}{n_1} = \frac{v_1}{v_2} $. (Refractive index of medium 2 with respect to medium 1).
  * **Inverse Relation:** $ n_{12} = \frac{1}{n_{21}} $.
  * No units, it's a ratio. Value is always $\ge 1$.
@@ -371,20 +371,20 @@ This ensures you correctly link $v$ to device type and $M$ to image orientation,
  * Focal length ($f$): Convex lens is positive, Concave lens is negative.
 
 * **Lens Formula:**
-  \frac{1}{f} = \frac{1}{v} 
+ \frac{1}{f} = \frac{1}{v} 
 
-- $\frac{1}{u}$
+-  $\frac{1}${u} 
  * Where $u$ = object distance, $v$ = image distance, $f$ = focal length.
  * **Mandatory:** Apply sign conventions strictly for $u, v, f$ when substituting values.
 
 * **Magnification ($m$):**
-  m = \frac{\text{Height of image} (h')}{\text{Height of object} (h)} = \frac{v}{u} 
+  m = $\frac{\text{Height of image}$ (h')}{$\text{Height of object}$ (h)} = $\frac{v}{u}$ 
  * **Interpretation of $m$:** Same as for mirrors, but sign correlation with $v/u$ changes.
  * $m > 0$ (positive): Image is virtual and erect.
  * $m < 0$ (negative): Image is real and inverted.
 
 * **Power of a Lens ($P$):**
-  P = \frac{1}{f} 
+ P = \frac{1}{f} 
  * Where $f$ is the focal length in **metres**.
  * Unit: Dioptre (D). $1 \text{ D} = 1 \text{ m}^{-1}$.
  * Convex lens: Positive power (converging).
@@ -401,17 +401,17 @@ This ensures you correctly link $v$ to device type and $M$ to image orientation,
 
 - $v = \frac{c}{\mu}$ — gives you the relationship between speed of light in a medium and refractive index
 
-- $\frac{1}{f} = \frac{1}{v} 
+- $\frac{1}${f}$ = \frac{1}${v}$ 
 
-- $\frac{1}{u} — gives you the lens formula
+- $\frac{1}${u}$ — gives you the lens formula
 
 - $m = \frac{h}{f}$ — gives you the magnification of a lens
 
 - $\mu = \frac{\text{real depth}}{\text{apparent depth}}$ — gives you the relationship between refractive index and depth
 
--  R = \frac{n_1 \sin \theta_1 
+-   R = \frac{n_1 \\sin \theta_1 
 
-- n_2 \sin \theta_2}{n_1 \sin \theta_1 + n_2 \sin \theta_2}$ — gives you the reflectance of light at an interface
+- n_2 \\sin \theta_2}{n_1 \\sin \theta_1 + n_2 \\sin \theta_2}$ — gives you the reflectance of light at an interface
 
 ### <a id="-mustknow-facts"></a>🧠 Must-Know Facts
 
@@ -428,57 +428,57 @@ This ensures you correctly link $v$ to device type and $M$ to image orientation,
 - ❌ Forgetting to consider the sign conventions for lenses → ✅ Using the correct sign conventions for convex and concave lenses
 
 ### <a id="-if-you-can-only-remember-one-thing"></a>🎯 If you can only remember ONE thing:
-The law of refraction, $n_1 \sin \theta_1 = n_2 \sin \theta_2$, is fundamental to understanding how light behaves when passing from one medium to another.
+The law of refraction, $n_1 \\sin \theta_1 = n_2 \\sin \theta_2$, is fundamental to understanding how light behaves when passing from one medium to another.
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
-**1. The speed of light in a vacuum is given by $c = 3 	imes 10^8 , 	ext{m/s}$. If the speed of light in a certain medium is $v = 2 	imes 10^8 , 	ext{m/s}$, then the refractive index of that medium is $n = ?$**
-**A)**   5
-**B)**   2
-**C)**   5
-**D)**   3
+**1. The speed of light in a vacuum is given by $c = 3 \times 10^8 , 	ext{m/s}$. If the speed of light in a certain medium is $v = 2 \times 10^8 , 	ext{m/s}$, then the refractive index of that medium is $n = ?$**
+**A)**    5
+**B)**    2
+**C)**    5
+**D)**    3
 
-**Answer:** A) Speed of light in the medium is given by the formula $v = rac{c}{n}$. Rearranging the formula to find the refractive index, we get $n = rac{c}{v} = rac{3 	imes 10^8}{2 	imes 10^8} = 1.5$. Therefore, option A is the correct answer, as it is the only option that equals $rac{3}{2}$.
+**Answer:** A) Speed of light in the medium is given by the formula $v = \frac{c}{n}$. Rearranging the formula to find the refractive index, we get $n = \frac{c}{v} = \frac{3 \times 10^8}{2 \times 10^8} = 1.5$. Therefore, option A is the correct answer, as it is the only option that equals $\frac{3}{2}$.
 
 ---
 
 **2. A ray of light is incident on a plane mirror at an angle of $30^circ$. If the reflected ray makes an angle of $60^circ$ with the normal, then the angle of incidence is $ ? $**
-**A)**   30
-**B)**   45
-**C)**   60
-**D)**   90
+**A)**    30
+**B)**    45
+**C)**    60
+**D)**    90
 
 **Answer:** B) From the laws of reflection, we know that the angle of incidence is equal to the angle of reflection. Since the angle of incidence is given as $30^circ$, the angle of reflection is also $30^circ$. The angle between the reflected ray and the normal is given as $60^circ$. Since the angle of incidence is equal to the angle of reflection, the angle between the incident ray and the normal is $30^circ$. Therefore, options C and D can be eliminated, as they are greater than $30^circ$. Option A is also incorrect, as it is less than $30^circ$. Therefore, the correct answer is option B.
 
 ---
 
 **3. A point source of light $S$ is placed at a distance of $15 , 	ext{cm}$ from a convex lens of focal length $10 , 	ext{cm}$. The lens forms an image of $S$ on a screen placed $20 , 	ext{cm}$ away from the lens. If the image is real and inverted, then the magnification of the lens is $ ? $**
-**A)**   -0.5
-**B)**   -1
-**C)**   -1.5
-**D)**   1
+**A)**    -0.5
+**B)**    -1
+**C)**    -1.5
+**D)**    1
 
-**Answer:** B) From the lens formula, we know that $rac{1}{f} = rac{1}{v} + rac{1}{u}$. Rearranging the formula to find the magnification, we get $m = rac{v}{u} = rac{-v}{u} = rac{-(-20)}{-15} = -rac{4}{3}$. Therefore, option B is the correct answer, as it is the only option that equals $-rac{4}{3}$.
+**Answer:** B) From the lens formula, we know that $\frac{1}{f} = \frac{1}{v} + \frac{1}{u}$. Rearranging the formula to find the magnification, we get $m = \frac{v}{u} = \frac{-v}{u} = \frac{-(-20)}{-15} = -\frac{4}{3}$. Therefore, option B is the correct answer, as it is the only option that equals $-\frac{4}{3}$.
 
 ---
 
 **4. A ray of light is incident on a prism at an angle of $30^circ$. If the angle of deviation is $40^circ$, then the angle of the prism is $ ? $**
-**A)**   20
-**B)**   30
-**C)**   40
-**D)**   50
+**A)**    20
+**B)**    30
+**C)**    40
+**D)**    50
 
 **Answer:** C) From the prism formula, we know that $delta = (i - e) + A$. Rearranging the formula to find the angle of the prism, we get $A = delta - (i - e)$. We know that $delta = 40^circ$ and $i = 30^circ$. The angle of emergence $e$ is equal to the angle of incidence $i$. Therefore, $e = 30^circ$. Substituting these values, we get $A = 40 - (30 - 30) = 40$. Therefore, option C is the correct answer, as it is the only option that equals $40^circ$.
 
 ---
 
 **5. A concave mirror has a focal length of $-15 , 	ext{cm}$. If an object is placed $20 , 	ext{cm}$ away from the mirror, then the image distance is $ ? $**
-**A)**   -30
-**B)**   -15
-**C)**   15
-**D)**   30
+**A)**    -30
+**B)**    -15
+**C)**    15
+**D)**    30
 
-**Answer:** C) From the mirror formula, we know that $rac{1}{f} = rac{1}{v} + rac{1}{u}$. Rearranging the formula to find the image distance, we get $rac{1}{v} = rac{1}{f} - rac{1}{u}$. We know that $f = -15$ and $u = -20$. Substituting these values, we get $rac{1}{v} = rac{1}{-15} - rac{1}{-20} = -rac{1}{15} + rac{1}{20} = -rac{4}{60} + rac{3}{60} = -rac{1}{60}$. Therefore, $v = -60$. Therefore, option C is the correct answer, as it is the only option that equals $-60$.
+**Answer:** C) From the mirror formula, we know that $\frac{1}{f} = \frac{1}{v} + \frac{1}{u}$. Rearranging the formula to find the image distance, we get $\frac{1}{v} = \frac{1}{f} - \frac{1}{u}$. We know that $f = -15$ and $u = -20$. Substituting these values, we get $\frac{1}{v} = \frac{1}{-15} - \frac{1}{-20} = -\frac{1}{15} + \frac{1}{20} = -\frac{4}{60} + \frac{3}{60} = -\frac{1}{60}$. Therefore, $v = -60$. Therefore, option C is the correct answer, as it is the only option that equals $-60$.
 
 ---
 
@@ -500,3 +500,5 @@ Continue your revision with these related guides:
 - 📖 [Carbon and its Compounds Class 10 Science Recap — Grandmaster Guide](/blog/carbon-and-its-compounds-class-10-notes)
 - 📖 [Heredity and Evolution Class 10 Science Recap — Grandmaster Guide](/blog/heredity-and-evolution-class-10-notes)
 - 📖 [How do Organisms Reproduce? Class 10 Science Recap — Grandmaster Guide](/blog/how-do-organisms-reproduce-class-10-notes)
+
+$

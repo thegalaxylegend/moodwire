@@ -9,6 +9,21 @@ practice_link: "/class-11/physics/laws-of-motion-common-mistakes-class-11-revisi
 
 *Last Updated: 2026-03-28*
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="what-is-laws-of-motion-common-mistakes"></a>What is Laws Of Motion Common Mistakes?](#a-idwhat-is-laws-of-motion-common-mistakesawhat-is-laws-of-motion-common-mistakes)
+3. [<a id="the-kinematics-n-force-traps"></a>The Kinematics and Force Traps](#a-idthe-kinematics-n-force-trapsathe-kinematics-and-force-traps)
+4. [<a id="the-tension-n-pulley-traps"></a>The Tension and Pulley Traps](#a-idthe-tension-n-pulley-trapsathe-tension-and-pulley-traps)
+5. [<a id="the-friction-traps"></a>The Friction Traps](#a-idthe-friction-trapsathe-friction-traps)
+6. [<a id="mastering-the-concepts"></a>Mastering the Concepts](#a-idmastering-the-conceptsamastering-the-concepts)
+7. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
+8. [📚 Related Topics](#related-topics)
+9. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+10. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## 📋 Table of Contents
 
 - [What is Laws Of Motion Common Mistakes?](#what-is-laws-of-motion-common-mistakes)
@@ -53,25 +68,25 @@ Friction opposes *relative* sliding [motion](/blog/motion-in-a-straight-line-cla
 **The Fix:** Ask yourself: "If there was no friction here (ice), which way would the surfaces slip?" Friction points opposite to that imaginary slip.
 
 ### <a id="4-mass-vs-weight-confusion-n-formulas"></a>4. Mass vs Weight Confusion and Formulas
-Plugging and mass (km = 5$ kg) instead of weight (DW = mg = 50$ N) when calculating Normal Force or Tension.
+Plugging and mass (km = $5 kg) instead of weight (DW = mg = $50 N) when calculating Normal Force or Tension.
 **The Fix:** Always explicitly write BMG on your diagrams pointing straight down. Never leave it as just 'm'.
 
 ### <a id="5-getting-the-normal-force-wrong-on-inclines"></a>5. Getting the Normal Force Wrong on Inclines
-Assuming Normal Force (AND) always equals BMG. On an inclined [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) of angle $\theta$, IN = mg $\cos\theta.$ 
+Assuming Normal Force (AND) always equals BMG. On an inclined [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) of angle $\theta$, IN = mg $\\cos\theta.$ 
 **The Fix:** Tilt your coordinate axes, so the X-axis is parallel to the incline. Break BMG into its sine and cosine components immediately.
 
 ## <a id="the-tension-n-pulley-traps"></a>The Tension and Pulley Traps
 
 ### <a id="6-variable-tension-n-accelerating-ropes"></a>6. Variable Tension and Accelerating Ropes
 Assuming tension is uniform throughout a rope that has mass and is accelerating.
-**The Fix:** Tension is only constant n *massless* or ideal ropes. If the rope has mass ME n accelerates, tension decreases linearly from the pulling end to the trailing end.
+**The Fix:** Tension is only constant n *massless* or ideal ropes. If the rope has massed ME and accelerates, tension decreases linearly from the pulling end to the trailing end.
 
 ### <a id="7-the-movable-pulley-constraint-error"></a>7. The Movable Pulley Constraint Error
 In a movable pulley system, if a block attached to the pulley moves y distance $x$, the string must be pulled y distance $2x$. Students often assume both blocks have the same acceleration (a).
 **The Fix:** Always write out the length constraint equation (SL = x_1 + 2x_2$) n differentiate twice to find the relationship between accelerations (a_1 = -2a_2$).
 
 ### <a id="8-apparent-weight-n-elevators"></a>8. Apparent Weight and Elevators
-Forgetting that when an elevator accelerates downwards with a, the apparent weight (AND) decreases to km(g-a)$. If a = go (free fall), weightlessness occurs.$
+Forgetting that when an elevator accelerates downwards with a the apparent weight (AND) decreases to km(g-a)$. If a = go (free fall), weightlessness occurs.$
 **The Fix:** Treat the elevator as a non-inertial frame and apply a pseudo force and the opposite direction of acceleration.
 
 ## <a id="the-friction-traps"></a>The Friction Traps
@@ -107,7 +122,9 @@ Continue your [revision](/blog/electromagnetic-induction-class-12-revision-notes
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/[laws](/blog/laws-of-motion-class-11-revision-notes-jee-neet)-of-motion-common-mistakes-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Laws%20Of%20Motion%20Common%20Mistakes%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

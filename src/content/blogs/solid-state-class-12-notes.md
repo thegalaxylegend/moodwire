@@ -15,7 +15,7 @@ manualReview: false
 - $\rho = \frac{Z \times M}{N_A \times a^3}$ for density of a crystal
 - $Z = \frac{V}{a^3}$ for number of atoms per unit cell
 - $\frac{1}{d^2} = \frac{h^2 + k^2 + l^2}{a^2}$ for distance between lattice planes
-- $2d \sin \theta = n \lambda$ for Bragg's equation
+- $2d \\sin \theta = n \\lambda$ for Bragg's equation
 - $r = \frac{a \sqrt{3}}{4}$ for radius of an atom in FCC unit cell
 - $r = \frac{a \sqrt{2}}{4}$ for radius of an atom in BCC unit cell
 
@@ -30,8 +30,8 @@ manualReview: false
 - **Question 1:** What is the length of the edge of a unit cell of a metal having a face-centered cubic structure and a density of $8.0 \, \text{g/cm}^3$? The atomic mass of the metal is $60.0 \, \text{g/mol}$.
 - Step 1: Given that the metal has a face-centered cubic structure, we know that $Z = 4$.
 - Step 2: Using the formula $\rho = \frac{Z \times M}{N_A \times a^3}$, we can calculate the length of the edge of the unit cell.
-- Step 3: Rearranging the formula to solve for $a$, we get $a = \left( \frac{Z \times M}{N_A \times \rho} \right)^{1/3}$.
-- Step 4: Plugging in the values, we get $a = \left( \frac{4 \times 60.0}{6.022 \times 10^{23} \times 8.0} \right)^{1/3} = 4.0 \times 10^{-8} \, \text{cm}$.
+- Step 3: Rearranging the formula to solve for $a$, we get $a = \left( \frac{Z \times M}{N_A \times \rho} \r\right)^{1/3}$.
+- Step 4: Plugging in the values, we get $a = \left( \frac{4 \times 60.0}{6.022 \times 10^{23} \times 8.0} \r\right)^{1/3} = 4.0 \times 10^{-8} \, \text{cm}$.
 - **Answer:** $4.0 \times 10^{-8} \, \text{cm}$
 
 - **Question 2:** The ionic radii of $\text{Na}^+$ and $\text{Cl}^-$ ions are $95 \, \text{pm}$ and $181 \, \text{pm}$ respectively. What is the lattice energy of $\text{NaCl}$?
@@ -41,14 +41,14 @@ manualReview: false
 - **Answer:** $8.11 \times 10^{-19} \, \text{J}$
 
 - **Question 3:** The X-ray diffraction data for a crystal of a metal is given below:
- -   theta = 30^\circ, n = 1, $\lambda = 1.54 \$, $\text{\AA}$
- -   theta = 50^\circ, n = 2, $\lambda = 1.54 \$, $\text{\AA}$
+ -   theta = 30^\circ, n = 1, $\\lambda = 1.54 \$, $\text{\AA}$
+ -   theta = 50^\circ, n = 2, $\\lambda = 1.54 \$, $\text{\AA}$
 - What is the length of the edge of the unit cell of the metal?
-- Step 1: Using Bragg's equation $2d \sin \theta = n \lambda$, we can calculate the length of the edge of the unit cell.
-- Step 2: For the first set of data, we have $2d \sin 15^\circ = 1 \times 1.54 \, \text{\AA}$.
-- Step 3: Solving for $d$, we get $d = \frac{1.54 \, \text{\AA}}{2 \sin 15^\circ} = 2.99 \, \text{\AA}$.
-- Step 4: For the second set of data, we have $2d \sin 25^\circ = 2 \times 1.54 \, \text{\AA}$.
-- Step 5: Solving for $d$, we get $d = \frac{2 \times 1.54 \, \text{\AA}}{2 \sin 25^\circ} = 2.99 \, \text{\AA}$.
+- Step 1: Using Bragg's equation $2d \\sin \theta = n \\lambda$, we can calculate the length of the edge of the unit cell.
+- Step 2: For the first set of data, we have $2d \\sin 15^\circ = 1 \times 1.54 \, \text{\AA}$.
+- Step 3: Solving for $d$, we get $d = \frac{1.54 \, \text{\AA}}{2 \\sin 15^\circ} = 2.99 \, \text{\AA}$.
+- Step 4: For the second set of data, we have $2d \\sin 25^\circ = 2 \times 1.54 \, \text{\AA}$.
+- Step 5: Solving for $d$, we get $d = \frac{2 \times 1.54 \, \text{\AA}}{2 \\sin 25^\circ} = 2.99 \, \text{\AA}$.
 - Step 6: Since the length of the edge of the unit cell is equal to $d$, we have $a = 2.99 \, \text{\AA}$.
 - **Answer:** $2.99 \, \text{\AA}$
 
@@ -79,27 +79,27 @@ D) 8
 
 **2. What is the formula for the distance between lattice planes in a crystal?**
 -
-A) $\frac{1}{d^2} = \frac{h^2 + k^2 + l^2}{a^2}$
+A) \frac{1}{d^2} = \frac{h^2 + k^2 + l^2}{a^2}
 -
-B) $\frac{1}{d} = \frac{h + k + l}{a}$
+B) \frac{1}{d} = \frac{h + k + l}{a}
 -
-C) d = $\frac{a}{\sqrt{h^2 + k^2 + l^2}}$
+C) d = \frac{a}{\sqrt{h^2 + k^2 + l^2}}
 -
-D) d = $\frac{a}{h + k + l}$
+D) d = \frac{a}{h + k + l}
 
-**Answer: A) $\frac{1}{d^2} = \frac{h^2 + k^2 + l^2}{a^2}**$
+**Answer: A) \frac{1}{d^2} = \frac{h^2 + k^2 + l^2}{a^2}**
 
 **3. What is the lattice energy of an ionic crystal?**
 -
-A) E = $\frac{$Z \times e$^2}{4 \pi \epsilon_$0 \times r$_0}$
+A) E = \frac{Z \times e^2}{4 \pi \epsilon_0 \times r_0}
 -
-B) E = $\frac{$Z \times e$}{4 \pi \epsilon_$0 \times r$_0}$
+B) E = \frac{Z \times e}{4 \pi \epsilon_0 \times r_0}
 -
-C) E = $\frac{$Z \times e$^2}{4 \pi \epsilon_$0 \times r$_0^2}$
+C) E = \frac{Z \times e^2}{4 \pi \epsilon_0 \times r_0^2}
 -
-D) E = $\frac{$Z \times e$}{4 \pi \epsilon_$0 \times r$_0^2}$
+D) E = \frac{Z \times e}{4 \pi \epsilon_0 \times r_0^2}
 
-**Answer: A) E = $\frac{$Z \times e$^2}{4 \pi \epsilon_$0 \times r$_0}**$
+**Answer: A) E = \frac{Z \times e^2}{4 \pi \epsilon_0 \times r_0}**
 
 **4. What is the length of the edge of a unit cell of a metal having a body-centered cubic structure and a density of $7.0 \, \text{g/cm}^3$? The atomic mass of the metal is $55.0 \, \text{g/mol}$.**
 -
@@ -115,15 +115,15 @@ D) $5.0 \times 10^{-8} \, \text{cm}$
 
 **5. What is the radius of an atom in a face-centered cubic unit cell?**
 -
-A) r = $\frac{a}{2}$
+A) r = \frac{a}{2}
 -
-B) r = $\frac{a \sqrt{2}}{4}$
+B) r = \frac{a \sqrt{2}}{4}
 -
-C) r = $\frac{a \sqrt{3}}{4}$
+C) r = \frac{a \sqrt{3}}{4}
 -
-D) r = $\frac{a \sqrt{2}}{2}$
+D) r = \frac{a \sqrt{2}}{2}
 
-**Answer: B) r = $\frac{a \sqrt{2}}{4}**$
+**Answer: B) r = \frac{a \sqrt{2}}{4}**
 
 ---
 

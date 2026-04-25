@@ -56,7 +56,7 @@ practice_link: "/class-11/biology/ai-study-hack-pomodoro-class-11-revision-notes
 
 - The Pomodoro Technique involves 25 minutes of focused study + 5 minutes of break.
 - AI study hacks can personalize your learning experience.
-- Cell biology, genetics, evolution, n plant biology are key areas of study n class 11 Biology.
+- Cell biology, genetics, evolution, n plant biology are key areas of study and class 11 Biology.
 - Understanding the structure and function of cells is fundamental to Biology.
 - Genetics helps us understand how traits are passed down from one generation to the next.
 

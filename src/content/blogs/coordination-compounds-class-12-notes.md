@@ -60,7 +60,7 @@ manualReview: false
 - To avoid this mistake, it is essential to apply the formula ex + $\sum{y} = 0 carefully and consider all the charges involved$
 
 ## 👁️ Ayush's Note
-- To score well in the exam, it is essential to practice a large number of problems related to coordination compounds
+- To score well in the exam, it is essential to practice many problems related to coordination compounds
 - Focus on understanding the concepts and applying them to solve problems
 - Use the formula bank and the solved Yes to practice and reinforce your understanding
 - Make sure to allocate sufficient time to each question in the exam
@@ -106,7 +106,7 @@ C) Ionization isomerism
 -
 D) Hydration isomerism
 
-**Answer: A) Geometrical isomerism, because the complex has a square planar geometry and the ligands can be arranged in a Acis or trans manner.**
+**Answer: A) Geometrical isomerism, because the complex has a square planar geometry and the ligands can be arranged in an Acis or trans manner.**
 
 **4. What is the magnetic moment of the complex \left[ Ni(H_{2}O)_{6} \right]^{2+}?**
 -
@@ -139,6 +139,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Coordination%20Compounds%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

@@ -130,7 +130,7 @@ The Arrhenius equation: $k = Ae^{-E_a/RT}$, where $k$ is the rate constant, $A$ 
 
 ## 📝 Practice MCQs
 Test your knowledge with these practice MCQs:
-1. What is the $pH$ of a solution with a $[H^+]$ concentration of $1 	imes 10^{-4}$ M?
+1. What is the $pH$ of a solution with a $[H^+]$ concentration of $1 \times 10^{-4}$ M?
 A) 4
 B) 10
 C) 2
@@ -155,11 +155,11 @@ Answer: A) $10^3$, using the formula $K_p = K_c(RT)^{Delta n}$.
        + Atomic Radius: Decreases across a period, Increases down a group
        + Electron Gain Enthalpy: Generally becomes more negative across a period
        + Electronegativity: Increases across a period, Decreases down a group
-     * **Chemical Bonding**: 
+     * **[Chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Bonding**: 
        + Lewis Structures: Used to represent covalent bonds
        + VSEPR Theory: Predicts shape of molecules based on electron pair repulsions
        + Hybridization: sp, sp2, sp3 hybrid orbitals
-     * **Thermodynamics**: 
+     * **[Thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)**: 
        + Laws of Thermodynamics: Zeroth, First, Second, Third laws
        + Thermodynamic Properties: Internal Energy (U), Enthalpy (H), Entropy (S), Gibbs Free Energy (G)
      * **Kinetics**: 

@@ -196,7 +196,7 @@ Continue your [revision](/blog/linear-inequalities-class-11-revision-notes-jee-n
 * A common mistake in set operations is forgetting to consider the empty set as a subset of every set. 
 * Students often mistakenly assume that the union of two sets is always greater than or equal to the intersection of the two sets, without considering cases where one set is a subset of the other. 
 * Many students incorrectly apply De Morgan's laws by swapping the union and intersection operations without negating the sets. 
-* A trap question in set theory is to determine the number of elements in the power set of a given set. Students often forget to use the formula 2^n, where n is the number of elements in the original set. 
+* A trap question in set theory is to determine the number of elements in the power set of a given set. Students often forget to use the formula 2^n, where and is the number of elements in the original set. 
 * When working with set relations, a common error is to assume that a relation is an equivalence relation without verifying that it satisfies all three properties: reflexivity, symmetry, and transitivity.
 
 ## 🔁 Last 5 Minutes Box

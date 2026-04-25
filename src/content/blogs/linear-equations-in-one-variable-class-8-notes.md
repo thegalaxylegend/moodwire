@@ -62,13 +62,13 @@ manualReview: false
 ## 📝 Practice MCQs
 **1. What is the value of $x$ in the equation $\frac{3x}{4} = \frac{9}{8}$?**
 -
-A) $\frac{3}{2}$
+A) \frac{3}{2}
 -
-B) $\frac{5}{2}$
+B) \frac{5}{2}
 -
-C) $\frac{9}{6}$
+C) \frac{9}{6}
 -
-D) $\frac{12}{8}$
+D) \frac{12}{8}
 
 **Answer: A) $\frac{3}{2}$, because cross-multiplying gives $24x = 36$, and dividing both sides by $24$ gives $x = \frac{36}{24} = \frac{3}{2}$.**
 
@@ -123,7 +123,7 @@ D) $8$
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/linear-equations-in-one-variable-class-8-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/linear-[equations](/blog/differential-equations-class-12-notes)-in-one-variable-class-8-notes) now and track your progress against thousands of students.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

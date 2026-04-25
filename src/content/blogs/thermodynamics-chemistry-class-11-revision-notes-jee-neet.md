@@ -93,7 +93,7 @@ Thermodynamics doesn't care about speed — that's Kinetics. Thermodynamics answ
 
 ### <a id="why-this-chapter-matters-exam-data"></a>Why This Chapter Matters (Exam Data)
 - **JEE Mains 2026**: 2 questions — one on $\delta H$ vs $\delta U$ using $\delta n_g$, one on Gibbs and spontaneity.
-- **[neet](/blog/equilibrium-class-11-revision-notes-jee-neet) 2026**: 1 question on Hess's Law n 1 on the Third Law.
+- **[neet](/blog/equilibrium-class-11-revision-notes-jee-neet) 2026**: 1 question on Hess's Law and 1 on the Third Law.
 - **CBSE Boards**: This unit carries 7 marks and is a classic long-answer question topic.
 
 ---
@@ -159,7 +159,7 @@ $\delta H = \delta U + \delta n_g RT$
 
 where $\delta n_g = (moles$ of gaseous products) - (moles of gaseous reactants).
 
- **Example**: CH_4(g) + 2O_2(g) $\rightarrow CO_2(g) + 2H_2O(l)$: 
+ **Example**: CH_4(g) + 2O_2(g) \rightarrow CO_2(g) + 2H_2O(l): 
 - $\delta n_g = 1 - (1+2) = -2$.
 - $\delta H = \delta U + (-2)RT = \delta U - 2RT$.
 - $|\delta H| < |\delta U|$ for this reaction.
@@ -376,4 +376,4 @@ Continue your [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) wit
       + ΔH = ΔU + Δ(pV)
       + ΔG = ΔH - TΔS
       + ΔS = q / T
-    
+    $

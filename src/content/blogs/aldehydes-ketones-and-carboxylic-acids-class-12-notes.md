@@ -19,6 +19,8 @@ manualReview: false
 7. [📝 Practice MCQs](#practice-mcqs)
 8. [📚 Related Topics](#related-topics)
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Aldehydes%20Ketones%20And%20Carboxylic%20Acids%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## ⚡ Formula Bank
@@ -32,7 +34,7 @@ manualReview: false
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not recognizing the difference between aldehydes and ketones, and their respective reactions.
 - Forgetting to consider the stereochemistry of reactions involving aldehydes and ketones.
-- Not understanding the concept of acidity in carboxylic acids and its relation to K_a values.
+- Not understanding the concept of acidity in carboxylic [acids](/blog/acids-bases-and-salts-class-10-notes) and its relation to K_a values.
 - Misidentifying the products of nucleophilic addition reactions involving aldehydes and ketones.
 - Not being able to distinguish between the reactions of aldehydes and ketones, such as the Pollens' test and the Feeling's test.
 

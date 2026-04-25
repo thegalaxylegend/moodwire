@@ -64,7 +64,7 @@ Quick [revision](/blog/hydrocarbons-class-11-revision-notes-neet) is key to achi
 
 ## <a id="why-cell-cycle-n-cell-division-matter"></a>Why Cell Cycle and Cell Division Matter
 
-[cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) cycle n [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division are essential processes and living organisms, n their dysregulation can lead to various diseases. For example, cancer is a disease characterized y uncontrolled [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) growth and division. Understanding the [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) cycle n [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division is crucial for developing effective cancer treatments. Additionally, [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) cycle regulation is important for maintaining tissue homeostasis and preventing aging. In the JEE exam, 2 questions n 2022 came from this topic, highlighting its importance.
+[cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) cycle n [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division are essential processes and living organisms, n their dysregulation can lead to various diseases. For example, cancer is a disease characterized y uncontrolled [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) growth and division. Understanding the [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) cycle n [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division is crucial for developing effective cancer treatments. Additionally, [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) cycle regulation is important for maintaining tissue homeostasis and preventing aging. In the JEE exam, 2 questions and 2022 came from this topic, highlighting its importance.
 
 ## <a id="Ayush-note"></a>Ayush's Note
 
@@ -120,7 +120,7 @@ d) Telophase
 Answer: b) Metaphase
 3. What is the outcome of meiosis?
 a) Two daughter cells with the same number of chromosomes as the parent [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet)
-b) Four daughter cells with the same number of chromosomes as the parent cell
+b) Four daughter cells with the same number of chromosomes as the parent [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet)
 c) Two daughter cells with half the number of chromosomes as the parent cell
 d) Four daughter cells with half the number of chromosomes as the parent cell
 Answer: d) Four daughter cells with half the number of chromosomes as the parent cell

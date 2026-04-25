@@ -67,7 +67,7 @@ practice_link: "/class-11/physics/rotational-motion-class-11-revision-notes-jee-
 
 ## <a id="introduction"></a>Introduction
 
-While the previous chapters dealt with the [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) of "point masses," reality involves systems of particles and extended "rigid bodies." In Rotational [Motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet), every point on a body moves and a circle around an axis, creating a symphony of [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) that requires new concepts: **Centre of Mass**, **Torque**, n **Moment of Inertia**. This chapter is widely considered one of the most challenging n class 11 Physics, but it is also the most rewarding for those aiming for top scores and JEE and NEET. In this "Comprehensive" guide, we provide exhaustive derivations for the Parallel and Perpendicular Axes Theorems, the relation between Torque and Angular Momentum, n the physics of pure rolling [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
+While the previous chapters dealt with the [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) of "point masses," reality involves systems of particles and extended "rigid bodies." In Rotational [Motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet), every point on a body moves and a circle around an axis, creating a symphony of [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) that requires new concepts: **Centre of Mass**, **Torque**, n **Moment of Inertia**. This chapter is widely considered one of the most challenging and class 11 Physics, but it is also the most rewarding for those aiming for top scores and JEE and NEET. In this "Comprehensive" guide, we provide exhaustive derivations for the Parallel and Perpendicular Axes Theorems, the relation between Torque and Angular Momentum, n the physics of pure rolling [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
 
 ---
 
@@ -87,7 +87,7 @@ The position of the CoM is defined as:
 
 ### <a id="i-torque-the-rotational-force"></a>I. Torque (τ) - The Rotational Force
 Torque is the "turning effect" of a force.
-**Formula: τ = r × F = r F sinθ**.
+**Formula: τ = r × F = r F \sinθ**.
 **Derivation and Cartesian Coordinates:**
 1.  Let **r = x î + y ĵ** n **F = Fx î + Fy ĵ**.
 2.  **τ = r × F = (x Fy - y Fx) k̂**.
@@ -154,7 +154,7 @@ If this condition is met, the point of contact is momentarily at rest.
 **Answer:** According to the **Law of Conservation of Angular Momentum (L = Iω = Constant)**, when she pulls her arms n, her mass moves closer to the axis, decreasing her **Moment of Inertia (I)**. To keep **L** constant, her angular velocity **(ω)** must increase.
 
 **Q3: Which will reach the bottom of an incline first: A solid sphere or a circular ring?**
-**Answer:** The **Solid Sphere**. Acceleration of a rolling body is **a = g sinθ / (1 + k²/R²)**. The solid sphere has a smaller radius of gyration (k), leading to a higher acceleration.
+**Answer:** The **Solid Sphere**. Acceleration of a rolling body is **a = g \sinθ / (1 + k²/R²)**. The solid sphere has a smaller radius of gyration (k), leading to a higher acceleration.
 
 ---
 
@@ -205,7 +205,7 @@ Continue your [revision](/blog/oscillations-class-11-revision-notes-jee-neet) wi
 
 ## 🪤 The 5 Mistakes That Cost Marks
 
-* Confusing angular velocity and angular frequency: Many students get confused between angular velocity (ω) and angular frequency (ω = 2πf), where f is the frequency of rotation. Remember, angular velocity is the rate of change of angular displacement, while angular frequency is related to the periodic motion.
+* Confusing angular velocity and angular frequency: Many students get confused between angular velocity (ω) and angular frequency (ω = 2πf), where f is the frequency of rotation. Remember, angular velocity is the rate of change of angular displacement, while angular frequency is related to the periodic [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
 * Forgetting to convert degrees to radians: In rotational motion, angles are often given in degrees, but the formulas require angles in radians. Make sure to convert degrees to radians using the formula: radians = degrees × (π/180).
 * Incorrectly applying the right-hand rule: The right-hand rule is used to determine the direction of angular quantities like angular velocity and angular momentum. However, students often apply it incorrectly, leading to wrong directions and signs.
 * Mixing up moment of inertia formulas: There are different formulas for the moment of inertia of various objects, such as rings, disks, and spheres. Students often mix up these formulas or use the wrong one, resulting in incorrect calculations.
@@ -215,7 +215,7 @@ Continue your [revision](/blog/oscillations-class-11-revision-notes-jee-neet) wi
 
 * **Kinetic Energy of Rotating Body**: K = (1/2)Iω²
 * **Moment of Inertia (I)**: I = mr² for point mass, I = (1/2)mr² for disc, I = (2/5)mr² for sphere
-* **Torque (τ)**: τ = r x F = rFsinθ
+* **Torque (τ)**: τ = r x F = rF\sinθ
 * **Angular Momentum (L)**: L = Iω = r x p
 * **Equations of Rotational Motion**: θ = ω₀t + (1/2)αt², ω = ω₀ + αt, ω² = ω₀² + 2αθ
 * **Relationship between Linear and Angular Quantities**: v = rω, a = rα, F = (m/r)τ

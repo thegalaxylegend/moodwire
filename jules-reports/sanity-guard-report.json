@@ -1,17 +1,17 @@
 {
-  "date": "2026-04-24T16:03:02.381Z",
+  "date": "2026-04-25T14:51:26.322Z",
   "summary": {
     "total": 213,
     "errors": 0,
-    "warnings": 232,
-    "clean": 45
+    "warnings": 241,
+    "clean": 40
   },
   "issues": [
     {
       "file": "3d-geometry-intro-class-11-revision-notes-jee-neet.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1206 words (Ideal: 1500+)",
+        "Light Content: Body is 1214 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -47,7 +47,7 @@
       "file": "aldehydes-ketones-and-carboxylic-acids-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1087 words (Ideal: 1500+)"
+        "Light Content: Body is 1095 words (Ideal: 1500+)"
       ]
     },
     {
@@ -69,7 +69,7 @@
       "file": "amines-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1399 words (Ideal: 1500+)",
+        "Light Content: Body is 1407 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -114,7 +114,7 @@
       "file": "application-of-integrals-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1138 words (Ideal: 1500+)",
+        "Light Content: Body is 1156 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -129,7 +129,7 @@
       "file": "areas-related-to-circles-class-10-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 999 words (Ideal: 1500+)",
+        "Light Content: Body is 1008 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -144,14 +144,14 @@
       "file": "art-culture-architecture-class-11-revision-notes-jee-neet.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1371 words (Ideal: 1500+)"
+        "Light Content: Body is 1478 words (Ideal: 1500+)"
       ]
     },
     {
       "file": "atoms-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1027 words (Ideal: 1500+)",
+        "Light Content: Body is 1032 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -159,7 +159,7 @@
       "file": "binomial-theorem-class-11-revision-notes-jee.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1356 words (Ideal: 1500+)",
+        "Light Content: Body is 1462 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -167,7 +167,7 @@
       "file": "biodiversity-and-conservation-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 854 words (Ideal: 1500+)",
+        "Light Content: Body is 855 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -182,14 +182,14 @@
       "file": "biological-classification-class-11-revision-notes-neet.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1253 words (Ideal: 1500+)"
+        "Light Content: Body is 1340 words (Ideal: 1500+)"
       ]
     },
     {
       "file": "biotechnology-and-its-applications-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1012 words (Ideal: 1500+)"
+        "Light Content: Body is 1021 words (Ideal: 1500+)"
       ]
     },
     {
@@ -238,7 +238,7 @@
       "file": "chemical-kinetics-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1127 words (Ideal: 1500+)",
+        "Light Content: Body is 1135 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -253,7 +253,7 @@
       "file": "chemistry-in-everyday-life-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1309 words (Ideal: 1500+)",
+        "Light Content: Body is 1317 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -261,7 +261,8 @@
       "file": "circles-class-10-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1463 words (Ideal: 1500+)"
+        "Light Content: Body is 1471 words (Ideal: 1500+)",
+        "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
     {
@@ -304,7 +305,7 @@
       "file": "communication-systems-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1261 words (Ideal: 1500+)",
+        "Light Content: Body is 1269 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -312,7 +313,7 @@
       "file": "comparing-quantities-class-8-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1092 words (Ideal: 1500+)",
+        "Light Content: Body is 1101 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -320,7 +321,7 @@
       "file": "compiler-design-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1316 words (Ideal: 1500+)",
+        "Light Content: Body is 1327 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -328,7 +329,7 @@
       "file": "complex-numbers-class-11-revision-notes-jee-neet.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1330 words (Ideal: 1500+)",
+        "Light Content: Body is 1432 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -343,7 +344,7 @@
       "file": "conic-sections-class-11-revision-notes-jee.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1326 words (Ideal: 1500+)",
+        "Light Content: Body is 1418 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -358,7 +359,7 @@
       "file": "continuity-and-differentiability-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 806 words (Ideal: 1500+)",
+        "Light Content: Body is 813 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -366,7 +367,7 @@
       "file": "coordinate-geometry-class-10-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1347 words (Ideal: 1500+)",
+        "Light Content: Body is 1355 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -374,7 +375,7 @@
       "file": "coordination-compounds-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1020 words (Ideal: 1500+)",
+        "Light Content: Body is 1025 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -382,14 +383,14 @@
       "file": "cubes-and-cube-roots-class-8-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 989 words (Ideal: 1500+)"
+        "Light Content: Body is 997 words (Ideal: 1500+)"
       ]
     },
     {
       "file": "data-handling-class-8-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1088 words (Ideal: 1500+)",
+        "Light Content: Body is 1097 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -411,7 +412,7 @@
       "file": "differential-equations-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1163 words (Ideal: 1500+)",
+        "Light Content: Body is 1171 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -419,7 +420,7 @@
       "file": "digestion-and-absorption-class-11-revision-notes-neet.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1498 words (Ideal: 1500+)"
+        "Light Content: Body is 1496 words (Ideal: 1500+)"
       ]
     },
     {
@@ -433,7 +434,7 @@
       "file": "dual-nature-of-radiation-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1066 words (Ideal: 1500+)",
+        "Light Content: Body is 1075 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -441,7 +442,7 @@
       "file": "ecosystem-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1120 words (Ideal: 1500+)",
+        "Light Content: Body is 1127 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -470,7 +471,7 @@
       "file": "environmental-issues-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1052 words (Ideal: 1500+)",
+        "Light Content: Body is 1061 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -492,7 +493,7 @@
       "file": "exponents-and-powers-class-8-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1367 words (Ideal: 1500+)",
+        "Light Content: Body is 1437 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -504,10 +505,17 @@
       ]
     },
     {
+      "file": "geomorphology-class-11-revision-notes-cbse.md",
+      "errors": [],
+      "warnings": [
+        "Potential raw LaTeX detected outside of $...$ delimiters"
+      ]
+    },
+    {
       "file": "haloalkanes-and-haloarenes-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1053 words (Ideal: 1500+)",
+        "Light Content: Body is 1062 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -522,7 +530,7 @@
       "file": "heron-s-formula-class-9-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 930 words (Ideal: 1500+)",
+        "Light Content: Body is 939 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -530,7 +538,7 @@
       "file": "human-health-and-disease-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1085 words (Ideal: 1500+)",
+        "Light Content: Body is 1094 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -552,7 +560,8 @@
       "file": "hydrogen-class-11-revision-notes-neet.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1204 words (Ideal: 1500+)"
+        "Light Content: Body is 1204 words (Ideal: 1500+)",
+        "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
     {
@@ -573,7 +582,7 @@
       "file": "integrals-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 934 words (Ideal: 1500+)",
+        "Light Content: Body is 940 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -581,7 +590,7 @@
       "file": "introduction-to-trigonometry-class-10-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1090 words (Ideal: 1500+)",
+        "Light Content: Body is 1097 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -589,7 +598,7 @@
       "file": "inverse-trigonometric-functions-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 870 words (Ideal: 1500+)",
+        "Light Content: Body is 872 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -597,7 +606,7 @@
       "file": "jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1396 words (Ideal: 1500+)",
+        "Light Content: Body is 1394 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -619,7 +628,7 @@
       "file": "laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1374 words (Ideal: 1500+)"
+        "Light Content: Body is 1449 words (Ideal: 1500+)"
       ]
     },
     {
@@ -647,7 +656,7 @@
       "file": "limits-derivatives-class-11-revision-notes-jee-neet.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1005 words (Ideal: 1500+)"
+        "Light Content: Body is 1343 words (Ideal: 1500+)"
       ]
     },
     {
@@ -662,7 +671,7 @@
       "file": "linear-equations-in-two-variables-class-9-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1295 words (Ideal: 1500+)",
+        "Light Content: Body is 1303 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -684,7 +693,7 @@
       "file": "lines-and-angles-class-9-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1084 words (Ideal: 1500+)",
+        "Light Content: Body is 1159 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -713,7 +722,7 @@
       "file": "mathematical-induction-class-11-revision-notes-jee-neet.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1032 words (Ideal: 1500+)",
+        "Light Content: Body is 1439 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -797,6 +806,13 @@
       ]
     },
     {
+      "file": "motion-in-a-plane-class-11-revision-notes-jee-neet.md",
+      "errors": [],
+      "warnings": [
+        "Potential raw LaTeX detected outside of $...$ delimiters"
+      ]
+    },
+    {
       "file": "neet-2026-weightage-prediction-class-11-revision-notes-neet.md",
       "errors": [],
       "warnings": [
@@ -811,6 +827,13 @@
       ]
     },
     {
+      "file": "neural-control-and-coordination-class-11-revision-notes-neet.md",
+      "errors": [],
+      "warnings": [
+        "Potential raw LaTeX detected outside of $...$ delimiters"
+      ]
+    },
+    {
       "file": "nuclei-class-12-notes.md",
       "errors": [],
       "warnings": [
@@ -822,7 +845,7 @@
       "file": "number-systems-class-9-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 905 words (Ideal: 1500+)",
+        "Light Content: Body is 988 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -852,7 +875,7 @@
       "file": "organisms-and-populations-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1040 words (Ideal: 1500+)",
+        "Light Content: Body is 1041 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -860,7 +883,7 @@
       "file": "pair-of-linear-equations-class-10-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1371 words (Ideal: 1500+)",
+        "Light Content: Body is 1379 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -889,7 +912,7 @@
       "file": "photosynthesis-in-higher-plants-class-11-revision-notes-neet.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 990 words (Ideal: 1500+)"
+        "Light Content: Body is 1202 words (Ideal: 1500+)"
       ]
     },
     {
@@ -947,7 +970,7 @@
       "file": "polynomials-class-10-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 992 words (Ideal: 1500+)"
+        "Light Content: Body is 1000 words (Ideal: 1500+)"
       ]
     },
     {
@@ -976,7 +999,7 @@
       "file": "probability-class-11-revision-notes-jee.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1331 words (Ideal: 1500+)"
+        "Light Content: Body is 1391 words (Ideal: 1500+)"
       ]
     },
     {
@@ -990,7 +1013,7 @@
       "file": "quadratic-equations-class-10-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1164 words (Ideal: 1500+)",
+        "Light Content: Body is 1172 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -1006,7 +1029,7 @@
       "file": "rational-numbers-class-8-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 980 words (Ideal: 1500+)",
+        "Light Content: Body is 1054 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -1021,7 +1044,7 @@
       "file": "real-numbers-class-10-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1051 words (Ideal: 1500+)",
+        "Light Content: Body is 1126 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -1029,7 +1052,7 @@
       "file": "redox-reactions-class-11-revision-notes-neet.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1397 words (Ideal: 1500+)"
+        "Light Content: Body is 1390 words (Ideal: 1500+)"
       ]
     },
     {
@@ -1043,7 +1066,7 @@
       "file": "reproduction-in-organisms-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1420 words (Ideal: 1500+)"
+        "Light Content: Body is 1421 words (Ideal: 1500+)"
       ]
     },
     {
@@ -1057,7 +1080,7 @@
       "file": "respiration-in-plants-class-11-revision-notes-neet.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1004 words (Ideal: 1500+)"
+        "Light Content: Body is 1209 words (Ideal: 1500+)"
       ]
     },
     {
@@ -1095,7 +1118,7 @@
       "file": "solutions-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1094 words (Ideal: 1500+)",
+        "Light Content: Body is 1176 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -1103,7 +1126,7 @@
       "file": "some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1046 words (Ideal: 1500+)",
+        "Light Content: Body is 1446 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -1126,7 +1149,14 @@
       "file": "statistics-class-11-revision-notes-jee.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 982 words (Ideal: 1500+)",
+        "Light Content: Body is 1323 words (Ideal: 1500+)",
+        "Potential raw LaTeX detected outside of $...$ delimiters"
+      ]
+    },
+    {
+      "file": "straight-lines-class-11-revision-notes-jee-neet.md",
+      "errors": [],
+      "warnings": [
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -1134,7 +1164,8 @@
       "file": "strategies-for-enhancement-in-food-production-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1087 words (Ideal: 1500+)"
+        "Light Content: Body is 1087 words (Ideal: 1500+)",
+        "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
     {
@@ -1155,14 +1186,15 @@
       "file": "structure-of-the-atom-class-11-revision-notes-neet.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1443 words (Ideal: 1500+)"
+        "Light Content: Body is 1443 words (Ideal: 1500+)",
+        "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
     {
       "file": "surface-chemistry-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 971 words (Ideal: 1500+)",
+        "Light Content: Body is 1052 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -1213,7 +1245,7 @@
       "file": "triangles-class-10-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1054 words (Ideal: 1500+)",
+        "Light Content: Body is 1055 words (Ideal: 1500+)",
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
@@ -1243,7 +1275,14 @@
       "file": "wave-optics-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1118 words (Ideal: 1500+)",
+        "Light Content: Body is 1181 words (Ideal: 1500+)",
+        "Potential raw LaTeX detected outside of $...$ delimiters"
+      ]
+    },
+    {
+      "file": "world-history-industrial-revolution-class-11-revision-notes-jee-neet.md",
+      "errors": [],
+      "warnings": [
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     }

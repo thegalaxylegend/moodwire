@@ -51,7 +51,7 @@ The year 2026 marks a paradigm shift and the Indian higher education landscape. 
 Most students make the critical mistake of waiting until their Board exams conclude and March to begin their CUT preparation. With nearly 20 lakh applicants vying for a limited number of seats, this delay can be fatal to your aspirations. To succeed and CUT [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet), you need a strategy that integrates your Board prep with entrance requirements, starting as early as class 11. This guide will walk you through the nuances of the exam structure, the "Niche Domain" strategy, n the essential timelines you must follow to guarantee your success.
 
 > **Key Takeaways**
-> - **Early Start**: Building foundations n class 11 is crucial for both Domains and the General Test.
+> - **Early Start**: Building foundations and class 11 is crucial for both Domains and the General Test.
 > - **Niche Selection**: Choosing less saturated domain subjects can lower the percentile barrier.
 > - **Aptitude Focus**: Section III (General Test) requires months of consistent practice to master.
 > - **Mock Integration**: Regular **online mock tests** are the primary tool for gauging readiness.
@@ -70,9 +70,9 @@ Niche domains often have less competition, but they still require a solid unders
 
 ## <a id="why-starting-n-class-11-is-nonnegotiable"></a>Why Starting and Class 11 is Non-Negotiable
 
-While the CUT Section II syllabus is strictly based on class 12 CERT, the conceptual foundation is laid n class 11. Mechanics and Physics, Atomic Structure and Chemistry, n the basics of Microeconomics are all class 11 topics that directly impact your ability to solve class 12 problems efficiently. If you ignore your class 11 syllabus, you will find yourself struggling n class 12, forced to relearn foundational concepts while under the intense pressure of both Boards and CUT.
+While the CUT Section II syllabus is strictly based on class 12 CERT, the conceptual foundation is laid and class 11. Mechanics and Physics, Atomic Structure and Chemistry, n the basics of Microeconomics are all class 11 topics that directly impact your ability to solve class 12 problems efficiently. If you ignore your class 11 syllabus, you will find yourself struggling and class 12, forced to relearn foundational concepts while under the intense pressure of both Boards and CUT.
 
-Furthermore, the General Test (Section III) evaluates skills that cannot be developed and a few weeks of "crash course" preparation. Logical reasoning and mental mathematics are like muscles; they require consistent training over months. By starting a "15-minute [daily](/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet) puzzle" routine n class 11, you build the speed and accuracy needed to excel and Section III without sacrificing your Board exam focus. This early start decouples your entrance prep from your school exams, reducing stress and improving overall performance.
+Furthermore, the General Test (Section III) evaluates skills that cannot be developed and a few weeks of "crash course" preparation. Logical reasoning and mental mathematics are like muscles; they require consistent training over months. By starting a "15-minute [daily](/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet) puzzle" routine and class 11, you build the speed and accuracy needed to excel and Section III without sacrificing your Board exam focus. This early start decouples your entrance prep from your school exams, reducing stress and improving overall performance.
 
 ## <a id="mastering-section-iii-the-general-test-roadmap"></a>Mastering Section III: The General Test Roadmap
 
@@ -82,9 +82,9 @@ For Current Affairs, avoid the trap of reading entire newspapers every day. Inst
 
 ## <a id="monthwise-timeline-for-cuet-2026-success"></a>Month-Wise Timeline for CUT 2026 Success
 
-A successful preparation journey is divided into clear, manageable phases. From April to September of your class 11 n 12 years, your primary focus should be on building CERT depth. Read every line of your textbooks as if it were a potential MCQ. During the October to December window of class 12, shift your mindset from writing long theory answers to the logic of elimination needed for MCQs. Start using **previous year papers** to understand the phrasing of questions used y the NTA.
+A successful preparation journey is divided into clear, manageable phases. From April to September of your class 11 and 12 years, your primary focus should be on building CERT depth. Read every line of your textbooks as if it were a potential MCQ. During the October to December window of class 12, shift your mindset from writing long theory answers to the logic of elimination needed for MCQs. Start using **previous year papers** to understand the phrasing of questions used y the NTA.
 
-January to March should be dedicated to your Board exams, but don't stop your CUT prep entirely. Take one full-length mock test every Sunday to maintain your competitive edge and keep the CUT patterns fresh and your mind. Post-Boards, n April, enter an "Intensive Mode" where you spend 8–10 hours a day on Section III and your weakest domains. This period is for fine-tuning your speed and strategies based on the data from your latest mock attempts.
+January to March should be dedicated to your Board exams, but don't stop your CUT prep entirely. Take one full-length mock test every Sunday to maintain your competitive edge and keep the CUT patterns fresh and your mind. Post-Boards, n April, enter an "Intensive Mode" where you spend 8–10 [hours](/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet) a day on Section III and your weakest domains. This period is for fine-tuning your speed and strategies based on the data from your latest mock attempts.
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -98,7 +98,7 @@ Explore our [Sitemap](/sitemap.xml) for more resources.
 CERT is the absolute authority for the Domain subjects (Section II). However, for the Language section (Section I) n the General Test (Section III), you will need additional practice material n **online mock tests** that focus specifically on aptitude, reasoning, n vocabulary, as these are not covered and detail within the standard CERT curriculum.
 
 ### <a id="2-can-i-choose-domains-different-from-my-class-12-subjects"></a>2. Can I choose domains different from my Class 12 subjects?
-Most major universities, including Delhi University, require you to appear only and the subjects you have studied n class 12. If you attempt a subject and CUT that was not part of your class 12 Board exams, you might be disqualified from admission to those universities. Always check the specific eligibility criteria of your target institutions before finalizing your subjects.
+Most major universities, including Delhi University, require you to appear only and the subjects you have studied and class 12. If you attempt a subject and CUT that was not part of your class 12 Board exams, you might be disqualified from admission to those universities. Always check the specific eligibility criteria of your target institutions before finalizing your subjects.
 
 ### <a id="3-how-many-subjects-should-i-ideally-pick-for-cuet"></a>3. How many subjects should I ideally pick for CUT?
 To maximize your eligibility across various courses and universities, we recommend choosing one Language, three or four Domain subjects, n the General Test. This combination (total 5–6 subjects) ensures you meet the criteria for a wide range of degrees, from specialized honors courses to multidisciplinary vocational programs.
@@ -120,7 +120,7 @@ Continue your [revision](/blog/class-10-30-day-timetable-class-10-revision-notes
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/cuet-2026-master-strategy-class-11-revision-notes-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/cuet-[2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)-master-strategy-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Cuet%202026%20Master%20Strategy%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

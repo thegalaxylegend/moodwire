@@ -22,7 +22,7 @@ manualReview: false
 ### Key Concepts
 - The reproductive system is essential for the continuation of a species, with the ultimate goal of producing offspring that are $\geq$ genetically diverse
 - The human reproductive system involves the coordination of multiple organs and hormones, including the $\pi$-pituitary gland and $\omega$-ovaries
-- The process of fertilization involves the fusion of a single sperm cell with a single egg cell, resulting in the formation of a zygote with a unique combination of $\lambda$-alleles
+- The process of fertilization involves the fusion of a single sperm cell with a single egg cell, resulting in the formation of a zygote with a unique combination of $\\lambda$-alleles
 
  
 ## 🪤 The 5 Mistakes That Cost Marks
@@ -60,8 +60,8 @@ eq$ fertility$
  
 ## 🧠 The One Thing Most Students Get Wrong
 - The most common mistake made by students is not understanding the difference between $\text{mitosis}$ and $\text{meiosis}$, resulting in incorrect answers to questions about cell division
-- $\text{Mitosis}$ involves the $\partial$-division of a single cell into two daughter cells, with the same number of $\lambda$-chromosomes
-- $\text{Meiosis}$ involves the $\partial$-division of a single cell into four daughter cells, with $\leq$ number of $\lambda$-chromosomes
+- $\text{Mitosis}$ involves the $\partial$-division of a single cell into two daughter cells, with the same number of $\\lambda$-chromosomes
+- $\text{Meiosis}$ involves the $\partial$-division of a single cell into four daughter cells, with $\leq$ number of $\\lambda$-chromosomes
 - Not understanding this concept can result in $\leq$ marks and $
 eq$ performance in exams$
 
@@ -133,15 +133,15 @@ D) $\mu$-Estrogen helps to regulate the $\text{pregnancy}$ and maintain the $\te
 
 **4. What is the difference between $\text{mitosis}$ and $\text{meiosis}$?**
 -
-A) $\text{Mitosis}$ involves the $\partial$-division of a single cell into two daughter cells, with $\leq$ number of $\lambda$-chromosomes
+A) $\text{Mitosis}$ involves the $\partial$-division of a single cell into two daughter cells, with $\leq$ number of $\\lambda$-chromosomes
 -
-B) $\text{Meiosis}$ involves the $\partial$-division of a single cell into two daughter cells, with $\leq$ number of $\lambda$-chromosomes
+B) $\text{Meiosis}$ involves the $\partial$-division of a single cell into two daughter cells, with $\leq$ number of $\\lambda$-chromosomes
 -
-C) $\text{Mitosis}$ involves the $\partial$-division of a single cell into four daughter cells, with $\geq$ number of $\lambda$-chromosomes
+C) $\text{Mitosis}$ involves the $\partial$-division of a single cell into four daughter cells, with $\geq$ number of $\\lambda$-chromosomes
 -
-D) $\text{Meiosis}$ involves the $\partial$-division of a single cell into four daughter cells, with $\leq$ number of $\lambda$-chromosomes
+D) $\text{Meiosis}$ involves the $\partial$-division of a single cell into four daughter cells, with $\leq$ number of $\\lambda$-chromosomes
 
-**Answer:** D) $\text{Meiosis}$ involves the $\partial$-division of a single cell into four daughter cells, with $\leq$ number of $\lambda$-chromosomes
+**Answer:** D) $\text{Meiosis}$ involves the $\partial$-division of a single cell into four daughter cells, with $\leq$ number of $\\lambda$-chromosomes
 
 **5. What is the primary function of the $\alpha$-pituitary gland in the human reproductive system?**
 -
@@ -175,3 +175,4 @@ Continue your revision with these related guides:
 - 📖 [Organisms And Populations Class 12 Exam Prep Revision — Grandmaster Guide](/blog/organisms-and-populations-class-12-notes)
 - 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
 - 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+$

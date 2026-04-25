@@ -147,7 +147,7 @@ Graphs are not just diagrams; they are data visualizations that provide geometri
 Relative velocity is the velocity of one object as observed y another moving object.
 **V_AB = Velocity of A with respect to B = V_A - V_B**
 - **Case 1 (Same Direction):** Subtract the speeds. (A train at 80 overtaking one at 60 feels like 20 km/h).
-- **Case 2 (Opposite Direction):** Add the speeds. (A head-on approach at 50 n 50 feels like 100 km/h).
+- **Case 2 (Opposite Direction):** Add the speeds. (A head-on approach at 50 and 50 feels like 100 km/h).
 
 ---
 
@@ -167,7 +167,7 @@ When an object is dropped from height **H**, it experiences a constant accelerat
 **Q2: If an object has zero velocity, can it still have a non-zero acceleration?**
 **Answer:** **Yes.** At the peak of a vertical throw, the velocity is momentarily zero, but the acceleration due to gravity **g** is still acting downward at 9.8 m/s².
 
-**Q3: Derive the formula for Average Speed when an object covers two equal halves of a distance with velocities v1 n v2.**
+**Q3: Derive the formula for Average Speed when an object covers two equal halves of a distance with velocities v1 and v2.**
 **Answer:**
 - Total Distance = 2D.
 - Time 1 = D / v1. Time 2 = D / v2.
@@ -208,7 +208,7 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/[motion](/blog/rotational-motion-class-11-revision-notes-jee-neet)-n-a-straight-line-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Motion%20In%20A%20Straight%20Line%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Motion](/blog/rotational-motion-class-11-revision-notes-jee-neet)%20In%20A%20Straight%20Line%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-04-24T03:17:16.059Z",
-  "lessonsApplied": 24,
+  "lastUpdated": "2026-04-25T14:50:51.333Z",
+  "lessonsApplied": 33,
   "adjustments": [
     {
       "rule": "ENFORCE_JSON_REPAIR: Extract JSON between outermost { } before parsing. Strip markdown code fences.",
       "reason": "9 JSON parse failures detected.",
-      "appliedDate": "2026-04-24",
+      "appliedDate": "2026-04-25",
       "impactedSubjects": [
         "All"
       ]
@@ -13,9 +13,19 @@
     {
       "rule": "MIN_WORD_ENFORCEMENT: If any section < 150 words, trigger targeted expansion pass.",
       "reason": "3 thin content failures detected.",
-      "appliedDate": "2026-04-24",
+      "appliedDate": "2026-04-25",
       "impactedSubjects": [
         "All"
+      ]
+    },
+    {
+      "rule": "LATEX_SAFETY: Use \\text{} wrappers for all units. Prefer simple notation over complex LaTeX.",
+      "reason": "9 LaTeX rendering failures detected.",
+      "appliedDate": "2026-04-25",
+      "impactedSubjects": [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
       ]
     }
   ]

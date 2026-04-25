@@ -39,9 +39,9 @@ practice_link: "/class-11/physics/planning-n-india-class-11-revision-notes-jee-n
 
 ## <a id="what-is-planning-n-india"></a>What is Planning and India?
 
-Planning and [India](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) is a process of formulating and implementing plans for the development of the country. It includes the Five-Year Plans, annual plans, n perspective planning. For class 11 exam prep n 2026, the most important aspect is understanding the role of planning and [India](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)'s economic development.
+Planning and [India](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) is a process of formulating and implementing plans for the development of the country. It includes the Five-Year Plans, annual plans, n perspective planning. For class 11 exam prep and 2026, the most important aspect is understanding the role of planning and [India](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)'s economic development.
 
-Planning and [India](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) is a process of formulating and implementing plans for the development of the country. It includes the Five-Year Plans, annual plans, n perspective planning. For class 11 exam prep n 2026, the most important aspect is understanding the role of planning and [India](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)'s economic development.
+Planning and [India](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) is a process of formulating and implementing plans for the development of the country. It includes the Five-Year Plans, annual plans, n perspective planning. For class 11 exam prep and 2026, the most important aspect is understanding the role of planning and [India](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)'s economic development.
 
 | Plan | Duration | Focus |
 | --- | --- | --- |
@@ -82,7 +82,7 @@ Continue your [revision](/blog/poverty-unemployment-class-11-revision-notes-jee-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/planning-n-india-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/planning-n-[india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Planning%20In%20India%20Class%2011%20Economics%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
@@ -109,7 +109,7 @@ When studying Planning in India for Class 11 Economics, there are several common
 ## 🔁 Last 5 Minutes Revision Box
 
 In the last few minutes before the exam, it's essential to quickly revise some key formulas and facts related to Planning in India. Here are a few key points to remember:
-The Five-Year Plans can be represented by the formula: $GDP_{target} = GDP_{current} 	imes (1 + r)^n$, where $r$ is the annual growth rate and $n$ is the number of years.
+The Five-Year Plans can be represented by the formula: $GDP_{target} = GDP_{current} \times (1 + r)^n$, where $r$ is the annual growth rate and $n$ is the number of years.
 The main objectives of planning in India can be summarized as: $Maximize : GDP$, $Minimize : Poverty$, and $Optimize : Resource : Allocation$.
 Some key facts to remember include: the first Five-Year Plan focused on agriculture and irrigation, the second plan focused on rapid industrialization, and the third plan aimed for growth with stability.
 
@@ -133,12 +133,12 @@ d) All of the above
 Answer: d) All of the above
 
 3. What is the formula for calculating the target GDP in a Five-Year Plan?
-a) $GDP_{target} = GDP_{current} 	imes (1 + r)^n$
-b) $GDP_{target} = GDP_{current} 	imes (1 - r)^n$
-c) $GDP_{target} = GDP_{current} 	imes r^n$
-d) $GDP_{target} = GDP_{current} 	imes n^r$
+a) $GDP_{target} = GDP_{current} \times (1 + r)^n$
+b) $GDP_{target} = GDP_{current} \times (1 - r)^n$
+c) $GDP_{target} = GDP_{current} \times r^n$
+d) $GDP_{target} = GDP_{current} \times n^r$
 
-Answer: a) $GDP_{target} = GDP_{current} 	imes (1 + r)^n$
+Answer: a) $GDP_{target} = GDP_{current} \times (1 + r)^n$
 
 4. Which institution was responsible for formulating the Five-Year Plans in India until 2014?
 a) Planning Commission

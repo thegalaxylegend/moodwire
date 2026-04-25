@@ -52,7 +52,7 @@ practice_link: "/class-11/mathematics/sequences-series-class-11-revision-notes-j
 > - **Arithmetic Progression (AP):** a, a+d, a+2d ... Common difference **d**.
 >   - **nᵗʰ Term (aₙ):** a + (n-1)d.
 >   - **Sum (Sₙ):** (n/2)[2a + (n-1)d] or (n/2)[a + l].
-> - **Geometric Progression (GP):** a ar, ar² ... Common ratio **r**.
+> - **Geometric Progression (GP):** an ar, ar² ... Common ratio **r**.
 >   - **nᵗʰ Term (aₙ):** arⁿ⁻¹.
 >   - **Sum (Sₙ):** a(rⁿ-1)/(r-1) for r≠1.
 >   - **Sum to Infinity (S∞):** a/(1-r) for |r|<1.
@@ -121,7 +121,7 @@ This formula is the basis for many converging series and higher-level mathematic
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
-**Q1: Find the 10th term of the AP where the 3rd term is 5 n the 7th term is 13.**
+**Q1: Find the 10th term of the AP where the 3rd term is 5 and the 7th term is 13.**
 **Answer:**
 - a₃ = a + 2d = 5
 - a₇ = a + 6d = 13
@@ -129,7 +129,7 @@ This formula is the basis for many converging series and higher-level mathematic
 - Substitute d=2 n (1): a + 4 = 5 => **a = 1**.
 - a₁₀ = a + 9d = 1 + 9(2) = **19**.
 
-**Q2: Insert 3 geometric means between 1 n 256.**
+**Q2: Insert 3 geometric means between 1 and 256.**
 **Answer:**
 - $a = 1, b = 256, n = 3. 
 - Common ratio r = (b/a)^(1/(n+1)) = (256/1)^(1/4) = 4.
@@ -138,7 +138,7 @@ This formula is the basis for many converging series and higher-level mathematic
 - G₃ = ar³ = 64
 - **Means are 4, 16, 64**.
 
-**Q3: Find the \sum to infinity of the GP: 1, 1/3, 1/9, ...**
+**Q3: Find the $\sum$to infinity of the GP: 1, 1/3, 1/9, ...**
 **Answer:**
 - a = 1, r = 1/3. Since |r| < 1, S∞ exists.
 - S∞ = a / (1 - r) = 1 / (1 - 1/3) = 1 / (2/3)
@@ -195,7 +195,7 @@ Continue your [revision](/blog/conic-sections-class-11-revision-notes-jee) with 
 * Always remember that the sum of an infinite geometric series is only valid when the common ratio lies between -1 and 1. If |r| ≥ 1, the series diverges.
 * A common mistake in finding the nth term of an arithmetic progression (AP) is forgetting to add the first term after multiplying the common difference by (n-1). The correct formula is: an = a + (n-1)d.
 * When determining convergence of a series, be aware that the terms of the series must approach zero for the series to converge. However, this is not a sufficient condition on its own, and further tests like the ratio test or root test may be needed.
-* In a geometric series, the formula for the sum of the first n terms is Sn = a(1 - r^n) / (1 - r), where 'a' is the first term and 'r' is the common ratio. Be cautious of the special case when r = 1, as this formula does not apply.
+* In a geometric series, the formula for the sum of the first and terms is Sn = a(1 - r^n) / (1 - r), where 'a' is the first term and 'r' is the common ratio. Be cautious of the special case when r = 1, as this formula does not apply.
 * When applying the formula for the sum of an arithmetic series, Sn = n/2 * [2a + (n-1)d], ensure that 'n' represents the number of terms, 'a' is the first term, and 'd' is the common difference. Incorrectly substituting these values can lead to incorrect results.
 
 ## 🔁 Last 5 Minutes Box
@@ -205,5 +205,5 @@ Continue your [revision](/blog/conic-sections-class-11-revision-notes-jee) with 
    - **Harmonic Sequence**: a sequence of numbers in which the reciprocals of the terms form an arithmetic sequence. 
    - Formula for nth term of an **Arithmetic Sequence**: $a_n = a_1 + (n-1)d$, where $a_n$ is the nth term, $a_1$ is the first term, $n$ is the term number, and $d$ is the common difference. 
    - Formula for nth term of a **Geometric Sequence**: $a_n = a_1 cdot r^{(n-1)}$, where $a_n$ is the nth term, $a_1$ is the first term, $r$ is the common ratio, and $n$ is the term number. 
-   - **Sum of n terms of an Arithmetic Sequence**: $S_n = \frac{n}{2}(2a_1 + (n-1)d)$, where $S_n$ is the sum of n terms, $a_1$ is the first term, $n$ is the number of terms, and $d$ is the common difference. 
-   - **Sum of n terms of a Geometric Sequence**: $S_n = a_1 \cdot \frac{(1 - r^n)}{(1 - r)}$, where $S_n$ is the sum of n terms, $a_1$ is the first term, $r$ is the common ratio, and $n$ is the number of terms.
+   - **Sum of and terms of an Arithmetic Sequence**: $S_n = \frac{n}{2}(2a_1 + (n-1)d)$, where $S_n$ is the sum of and terms, $a_1$ is the first term, $n$ is the number of terms, and $d$ is the common difference. 
+   - **Sum of and terms of a Geometric Sequence**: $S_n = a_1 \cdot \frac{(1 - r^n)}{(1 - r)}$, where $S_n$ is the sum of and terms, $a_1$ is the first term, $r$ is the common ratio, and $n$ is the number of terms.

@@ -89,7 +89,7 @@ Hydrogen has a wide range of applications, including energy production, transpor
 
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 
-Hydrogen is an important topic n class 11 chemistry, with 2–3 questions and JEE Mains and MEET exams. Mastering hydrogen concepts is crucial for students aiming to pursue a career and chemistry, physics, or engineering.
+Hydrogen is an important topic and class 11 chemistry, with 2–3 questions and JEE Mains and MEET exams. Mastering hydrogen concepts is crucial for students aiming to pursue a career and chemistry, physics, or engineering.
 
 ## <a id="Ayush-note"></a>Ayush's Note
 
@@ -106,7 +106,7 @@ Hydrogen fuel cells are devices that convert the chemical energy of hydrogen int
 
 To calculate the number of moles of hydrogen and a given mass of a compound, use the formula:
 
- n = $\frac{m}{M} = n$ 
+ n = \frac{m}{M} = n 
 
 Where $ is the number of moles, me is the mass of the compound, n ME is the molar mass of the compound.$
 
@@ -185,7 +185,6 @@ Continue your [revision](/blog/photosynthesis-in-higher-plants-class-11-revision
 - 📖 [Environmental Chemistry Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
-
 
 ## 🔁 Last 5 Minutes Box
 

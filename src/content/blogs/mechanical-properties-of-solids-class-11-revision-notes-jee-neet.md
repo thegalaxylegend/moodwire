@@ -122,7 +122,7 @@ When a wire is stretched, [work](/blog/work-energy-and-power-class-11-revision-n
     - **U = 1/2 (YAL_ext / L) · L_ext**
 5.  Since **F = YAL_ext / L**:
     - **U = 1/2 × Force × Extension**. (Proven)
-6.  **Energy Density (u):** Energy per unit volume.
+6.  **[Energy](/blog/work-energy-and-power-class-11-revision-notes-neet) Density (u):** [Energy](/blog/work-energy-and-power-class-11-revision-notes-neet) per unit volume.
     - **u = U / (AL) = 1/2 × (F/A) × (L_ext/L)**
     - **u = 1/2 × Stress × Strain**.
 
@@ -155,7 +155,7 @@ In Physics, elasticity is measured y the Modulus (resistance to deformation), no
 **Answer:** The area under the **Stress-Strain graph** represents the **Energy Density** (Energy per unit volume) stored and the material during the deformation process.
 
 **Q3: Can a material have a Poisson's ratio greater than 0.5?**
-**Answer:** Theoretical limits for Poisson's ratio (σ) are -1 to 0.5. For most stable, isotropic materials, it is between 0 n 0.5. A value > 0.5 would mean the volume *decreases* when the material is compressed and all directions, which is physically impossible for simple solids.
+**Answer:** Theoretical limits for Poisson's ratio (σ) are -1 to 0.5. For most stable, isotropic materials, it is between 0 and 0.5. A value > 0.5 would mean the volume *decreases* when the material is compressed and all directions, which is physically impossible for simple solids.
 
 ---
 
