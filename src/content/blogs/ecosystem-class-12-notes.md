@@ -8,17 +8,30 @@ practice_link: "/practice/ecosystem-class-12-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - Ecosystem: a community of living and non-living components that interact with each other in a specific area
-- $ \text{Productivity} = \frac{\text{Rate$ of organic matter production}}{$\text{Time}$} $
+- $ \text{Productivity} = \frac{\text{Rate$ of organic matter production}}{$\text{Time}$} 
 - $ \text{Energy} = \frac{\text{Work done}}{\text{Time}} $, $ \text{Energy} = \text{Force} \times \text{Distance} $
 - $ \text{Food Chain Efficiency} = \frac{\text{Energy$ at higher trophic level}}{\text{Energy$ at lower trophic level}} \times $100
 - $ \text{Symbiotic Relationship} = \frac{\text{Mutualism} + \text{Commensalism} + \text{Parasitism}}{\text{Total interactions}} $
-- $ \text{Decomposition Rate} = \frac{\text{Amount$ of organic matter decomposed}}{$\text{Time}$} $
+- $ \text{Decomposition Rate} = \frac{\text{Amount$ of organic matter decomposed}}{$\text{Time}$} 
 - $ \text{Nutrient Cycling} = \frac{\text{Rate$ of nutrient uptake}}{\text{Rate$ of nutrient release}} $
 - $ \text{Population Growth Rate} = \frac{\text{Birth rate} - \text{Death rate}}{\text{Population size}} $
 - $ \text{Carrying Capacity} = \frac{\text{Maximum population size}}{\text{Resource availability}} $
-- $ \text{Species Diversity} = \frac{\text{Number$ of species}}{$\text{Total area}$} $
+- $ \text{Species Diversity} = \frac{\text{Number$ of species}}{$\text{Total area}$} 
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not understanding the difference between a food chain and a food web
@@ -148,4 +161,4 @@ Continue your revision with these related guides:
 - 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
 - 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
 - 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
-$
+

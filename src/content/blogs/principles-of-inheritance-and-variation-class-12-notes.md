@@ -8,6 +8,20 @@ practice_link: "/practice/principles-of-inheritance-and-variation-class-12-notes
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [- Not understanding the difference between genotype and phenotype: genotype is the genetic makeup of an individual, while phenotype is the physical expression of the genotype](#not-understanding-the-difference-between-genotype-and-phenotype-genotype-is-the-genetic-makeup-of-an-individual-while-phenotype-is-the-physical-expression-of-the-genotype)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Related Topics](#related-topics)
+9. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+
+---
+
 ## ⚡ Formula Bank
 - Mendel's Law of Segregation: $\frac{1}{2}$ of the gametes carry the dominant allele and $\frac{1}{2}$ carry the recessive allele
 - Mendel's Law of Independent Assortment: alleles of different genes are sorted independently of each other during gamete formation
@@ -145,3 +159,4 @@ Continue your revision with these related guides:
 * **Not understanding the difference between incomplete dominance and codominance**: Students often get confused between these two concepts, which are crucial in predicting the phenotypic ratios of offspring.
 * **Forgetting to consider multiple alleles and their interactions**: When dealing with multiple alleles, students often overlook the interactions between them, leading to incorrect predictions of genotypic and phenotypic ratios.
 * **Not accounting for linkage and crossing over**: Many students neglect to consider the effects of linkage and crossing over on the [inheritance](/blog/molecular-basis-of-inheritance-class-12-notes) of genes, leading to errors in predicting the probability of certain traits being inherited
+

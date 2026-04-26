@@ -316,7 +316,7 @@ By understanding the concept of allotropy in carbon and avoiding common misconce
 
 - **🎯 The "Always Check" Rule:** Before attempting any reaction question involving hydrocarbons, **always check if the compound is saturated or unsaturated.** Saturated compounds (like alkanes) predominantly undergo **substitution reactions** (e.g.
 
-- with $\text{Cl}_2$ in sunl\right), where one atom replaces another. Unsaturated compounds (alkenes and alkynes) are characterized by **addition reactions** (e.g.
+- with $\text{Cl}_2$ in sunl\r\r\right), where one atom replaces another. Unsaturated compounds (alkenes and alkynes) are characterized by **addition reactions** (e.g.
 
 - with $\text{H}_2$, $\text{Br}_2$, $\text{Cl}_2$), where atoms are added across double or triple bonds. Examiners love to test this fundamental difference by giving a compound and asking for its characteristic reaction or product, or to distinguish between them using tests like bromine water.
 
@@ -374,20 +374,20 @@ Carbon is the basis of all [life](/blog/life-processes-class-10-notes) on Earth 
 **1. A 12 g sample of $\text{C}_2	ext{H}_6$ is burned in oxygen. The products are $\text{CO}_2$ and $\text{H}_2	ext{O}$. The reaction is:\
 $\text{C}_2	ext{H}_6 + \frac{7}{2}	ext{O}_2 \rightarrow 2\text{CO}_2 + 3\text{H}_2	ext{O}$
 The volume of $\text{O}_2$ consumed is $2.0 \,\text{dm}^3$ at $25\,\text{°C}$ and $1.0 \,\text{atm}$. The volume of $\text{CO}_2$ produced is $1.5\,\text{dm}^3$ at the same conditions. What is the percentage yield of $\text{CO}_2$ if the theoretical yield is $2.25\,\text{g}$?**
-**A)**     The reaction is exothermic.
-**B)**     The reaction is endothermic.
-**C)**     The volume of $\text{CO}_2$ produced is $2.0\,\text{dm}^3$.
-**D)**     The percentage yield of $\text{CO}_2$ is $80%$.
+**A)**       The reaction is exothermic.
+**B)**       The reaction is endothermic.
+**C)**       The volume of $\text{CO}_2$ produced is $2.0\,\text{dm}^3$.
+**D)**       The percentage yield of $\text{CO}_2$ is $80%$.
 
 **Answer:** D) A and C are incorrect because the volume of CO$_2$ produced is not $2.0\,\text{dm}^3$ and the reaction is neither exothermic nor endothermic. B is incorrect because the reaction is endothermic. E and F are incorrect because the percentage yield of CO$_2$ is not $88%$ and $76%$.
 
 ---
 
 **2. What is the empirical formula of the simplest carbohydrate that contains $\text{C}$, $\text{H}$, and $\text{O}$ in the ratio $1:2:1$?**
-**A)**     CH$_2$O
-**B)**     CH$_2$O$_2$
-**C)**     CH$_3$O
-**D)**     CH$_4$O
+**A)**       CH$_2$O
+**B)**       CH$_2$O$_2$
+**C)**       CH$_3$O
+**D)**       CH$_4$O
 
 **Answer:** A) B and C are incorrect because they do not contain $\text{C}$, $\text{H}$, and $\text{O}$ in the ratio $1:2:1$. D is incorrect because it does not contain $\text{O}$.
 
@@ -396,20 +396,20 @@ The volume of $\text{O}_2$ consumed is $2.0 \,\text{dm}^3$ at $25\,\text{°C}$ a
 **3. A 16 g sample of $\text{C}_2	ext{H}_6$ is burned in oxygen. The products are $\text{CO}_2$ and $\text{H}_2	ext{O}$. The reaction is:\
 $\text{C}_2	ext{H}_6 + \frac{7}{2}	ext{O}_2 \rightarrow 2\text{CO}_2 + 3\text{H}_2	ext{O}$
 The volume of $\text{O}_2$ consumed is $V$ at $25\,\text{°C}$ and $1.0 \,\text{atm}$. The volume of $\text{CO}_2$ produced is $1.5\,\text{dm}^3$ at the same conditions. What is the volume of $\text{O}_2$ consumed if the mass of $\text{C}_2	ext{H}_6$ is $16\,\text{g}$?**
-**A)**     $1.5\\,\text{dm}^3$
-**B)**     $2.0\\,\text{dm}^3$
-**C)**     $2.5\\,\text{dm}^3$
-**D)**     $3.0\\,\text{dm}^3$
+**A)**       $1.5\\,\text{dm}^3$
+**B)**       $2.0\\,\text{dm}^3$
+**C)**       $2.5\\,\text{dm}^3$
+**D)**       $3.0\\,\text{dm}^3$
 
 **Answer:** B) A and D are incorrect because the volume of O$_2$ consumed is not $1.5\,\text{dm}^3$ and $3.0\,\text{dm}^3$. C is incorrect because the volume of O$_2$ consumed is not $2.5\,\text{dm}^3$.
 
 ---
 
 **4. The empirical formula of a compound is $\text{CH}_2	ext{O}$. The molar mass of the compound is $60\,\text{g/mol}$. What is the molar mass of the simplest carbohydrate that contains $\text{C}$, $\text{H}$, and $\text{O}$?**
-**A)**     $30\\,\text{g/mol}$
-**B)**     $40\\,\text{g/mol}$
-**C)**     $50\\,\text{g/mol}$
-**D)**     $60\\,\text{g/mol}$
+**A)**       $30\\,\text{g/mol}$
+**B)**       $40\\,\text{g/mol}$
+**C)**       $50\\,\text{g/mol}$
+**D)**       $60\\,\text{g/mol}$
 
 **Answer:** B) A and C are incorrect because the molar mass of the simplest carbohydrate is not $30\,\text{g/mol}$ and $50\,\text{g/mol}$. D is the molar mass of the compound itself.
 
@@ -418,10 +418,10 @@ The volume of $\text{O}_2$ consumed is $V$ at $25\,\text{°C}$ and $1.0 \,\text{
 **5. A 12 g sample of $\text{C}_2	ext{H}_6$ is burned in oxygen. The products are $\text{CO}_2$ and $\text{H}_2	ext{O}$. The reaction is:\
 $\text{C}_2	ext{H}_6 + \frac{7}{2}	ext{O}_2 \rightarrow 2\text{CO}_2 + 3\text{H}_2	ext{O}$
 What is the percentage yield of $\text{CO}_2$ if the theoretical yield is $2.25\,\text{g}$ and the actual yield is $1.8\,\text{g}$?**
-**A)**     $80%$
-**B)**     $84%$
-**C)**     $88%$
-**D)**     $92%$
+**A)**       $80%$
+**B)**       $84%$
+**C)**       $88%$
+**D)**       $92%$
 
 **Answer:** A) B and C are incorrect because the percentage yield of CO$_2$ is not $84%$ and $88%$. D is incorrect because the percentage yield of CO$_2$ is not $92%$.
 
@@ -445,3 +445,4 @@ Continue your revision with these related guides:
 - 📖 [Life Processes Class 10 Science Recap — Grandmaster Guide](/blog/life-processes-class-10-notes)
 - 📖 [Metals and Non-Metals Class 10 Science Recap — Grandmaster Guide](/blog/metals-and-non-metals-class-10-notes)
 - 📖 [Periodic Classification of Elements Class 10 Science Recap — Grandmaster Guide](/blog/periodic-classification-of-elements-class-10-notes)
+

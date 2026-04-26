@@ -165,8 +165,8 @@ According to the JEE/MEET syllabus, the topic of respiratory system is covered u
 ### <a id="formulae"></a>Formulae
 The following formulae are relevant to the topic of respiratory system:
 
-* **Pick's Law of Diffusion**: $\frac{dQ}{dt}}{ \times (C_1 - C_2)} \delta $, where $\frac{dQ}{dt} = \delta$ is the rate of diffusion, DO is the diffusion constant, A is the surface area, $ is the thickness of the membrane, n BC_$1 n BC_$2 are the concentrations of the gas on either side of the membrane.$
-* **Graham's Law of Diffusion**: $\frac{r_1}{r_2} = M_1}}{ n or_2} ,$ where or_$1 are the rates of diffusion of two gases, n KM_$1 n KM_$2 are the molecular weights of the two gases.$
+* **Pick's Law of Diffusion**: $\frac{dQ}{dt}}{ \times (C_1 - C_2)} \delta $, where $\frac{dQ}{dt} = \delta$ is the rate of diffusion, DO is the diffusion constant, A is the surface area, $ is the thickness of the membrane, n BC_$1 and BC_$2 are the concentrations of the gas on either side of the membrane.$
+* **Graham's Law of Diffusion**: $\frac{r_1}{r_2} = M_1}}{ n or_2} ,$ where or_$1 are the rates of diffusion of two gases, n KM_$1 and KM_$2 are the molecular weights of the two gases.$
 
 ### <a id="MCQs"></a>MCQs
 Here are some sample MCQs to test your understanding of the topic:

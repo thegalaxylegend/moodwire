@@ -8,9 +8,23 @@ practice_link: "/practice/linear-programming-class-12-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Academic References](#academic-references)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - The main concept of [linear](/blog/pair-of-linear-equations-class-10-notes) Programming is to optimize a [linear](/blog/pair-of-linear-equations-class-10-notes) function, subject to a set of [linear](/blog/pair-of-linear-equations-class-10-notes) constraints.
-- The general form of a Linear Programming problem is: $\max \text{$ or } \min z = $\sum_{i=1}^{n} c_i x_i$, subject to $\sum_{i=1}^{n} a_{ij} x_i \leq \text{$ or } \geq b_j$, $x_i \geq 0$, where $c_i$, $a_{ij}$, and $b_j$ are constants.
+- The general form of a Linear Programming problem is: $\max \text{$ or } \min z = $\sum_{i=1}^{n} c_i x_i$, subject to $\sum_{i=1}^{n} a_{ij} x_i \leq \text{$ or } \geq b_j$, $x_i \geq 0$, where $c_i$, $a_{ij}$, and $b_j$ are constants.$
 - The feasible region is the set of all possible solutions that satisfy the constraints.
 - The optimal solution is the point in the feasible region that maximizes or minimizes the objective function.
 - The corner point theorem states that the optimal solution occurs at one of the corner points of the feasible region.
@@ -78,7 +92,7 @@ C) \max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i, subject to \sum_{i=1}^{n} a
 -
 D) \max \text{ or } \min z = \sum_{i=1}^{n} c_i x_i, subject to x_i \geq 0.
 
-**Answer: A) $\max \text{$ or } \min z = $\sum_{i=1}^{n} c_i x_i$, subject to $\sum_{i=1}^{n} a_{ij} x_i \leq \text{$ or } \geq b_j$, $x_i \geq 0$.**
+**Answer: A) $\max \text{$ or } \min z = $\sum_{i=1}^{n} c_i x_i$, subject to $\sum_{i=1}^{n} a_{ij} x_i \leq \text{$ or } \geq b_j$, $x_i \geq 0$.**$
 
 **3. What is the corner point theorem?**
 -
@@ -144,3 +158,4 @@ Continue your revision with these [related](/blog/areas-related-to-circles-class
 - 📖 [Linear Equations In Two Variables 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-two-variables-class-9-notes)
 - 📖 [Pair Of Linear Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/pair-of-linear-equations-class-10-notes)
 - 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+

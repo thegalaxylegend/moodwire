@@ -8,16 +8,30 @@ practice_link: "/practice/circles-class-10-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Academic References](#academic-references)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - The equation of a circle with center $(h, k)$ and radius are is given by $(x - h)^2 + (y - k)^2 = r^2$
-- The equation of a circle with center $(0, 0)$ and radius are is given by x^2 + y^2 = r^$2
-- The general equation of a circle is given by x^2 + y^2 + 2gx + 2fy + c = $0, where the center is $(-g, -f)$ and the radius is \sqrt{g^2 + f^2 - c}
+- The equation of a circle with center $(0, 0)$ and radius are is given by x^2 + y^2 = r^2
+- The general equation of a circle is given by x^2 + y^2 + 2gx + 2fy + c = $0, where the center is $(-g, -f)$ and the radius is \sqrt{g^2 + f^2 - c}$
 - The equation of a circle passing through the points $(x_1, y_1)$ and $(x_2, y_2)$ is given by $(x - x_1)(x - x_2) + (y - y_1)(y - y_2) = 0$
 - The length of the tangent from an external point $(x_1, y_1)$ to a circle with center $(h, k)$ and radius are is given by $\sqrt{(x_1 - h)^2 + (y_1 - k)^2 - r^2}$
-- The length of the tangent from an external point $(x_1, y_1)$ to a circle with equation x^2 + y^2 + 2gx + 2fy + c = $0 is given by \sqrt{x_1^2 + y_1^2 + 2gx_1 + 2fy_1 + c}
+- The length of the tangent from an external point $(x_1, y_1)$ to a circle with equation x^2 + y^2 + 2gx + 2fy + c = $0 is given by \sqrt{x_1^2 + y_1^2 + 2gx_1 + 2fy_1 + c}$
 - The angle between a tangent and a chord is equal to the angle in the alternate segment
 - The angle subtended by an arc at the center is twice the angle subtended by the arc at any point on the circumference
-- The equation of the tangent to a circle at a point $(x_1, y_1)$ is given by AXX_1 + yy_1 + g(x + x_1) + f(y + y_1) + c = $0
+- The equation of the tangent to a circle at a point $(x_1, y_1)$ is given by AXX_1 + yy_1 + g(x + x_1) + f(y + y_1) + c = 0
 
  
 ## 🪤 The 5 Mistakes That Cost Marks
@@ -67,17 +81,17 @@ manualReview: false
 ## 📝 Practice MCQs
 **1. What is the equation of the circle with center $(0, 0)$ and radius $5$?**
 -
-A) x^2 + y^2 = $25
+A) x^2 + y^2 = 25
 -
-B) x^2 + y^2 = $10
+B) x^2 + y^2 = 10
 -
-C) x^2 + y^2 = $15
+C) x^2 + y^2 = 15
 -
-D) x^2 + y^2 = $20
+D) x^2 + y^2 = 20
 
-**Answer: A) x^2 + y^2 = $25**
+**Answer: A) x^2 + y^2 = $25**$
 
-**2. What is the length of the tangent from the point $(3, 4)$ to the circle x^2 + y^2 - 4x - 6y - 3 = $0?**
+**2. What is the length of the tangent from the point $(3, 4)$ to the circle x^2 + y^2 - 4x - 6y - 3 = $0?**$
 -
 A) $\sqrt{3^2 + 4^2–4 \dot 3–6 \dot 4–3}$
 -
@@ -89,17 +103,17 @@ D) $\sqrt{3^2 + 4^2 + 4 \dot 3–6 \dot 4–3}$
 
 **Answer: A) $\sqrt{3^2 + 4^2–4 \dot 3–6 \dot 4–3}$**
 
-**3. What is the equation of the tangent to the circle x^2 + y^2 - 4x - 6y - 3 = $0 at the point $(2, 1)$?**
+**3. What is the equation of the tangent to the circle x^2 + y^2 - 4x - 6y - 3 = $0 at the point $(2, 1)$?**$
 -
-A) AXX_1 + yy_1 + g(x + x_1) + f(y + y_1) + c = $0
+A) AXX_1 + yy_1 + g(x + x_1) + f(y + y_1) + c = 0
 -
-B) AXX_1 - yy_1 + g(x - x_1) + f(y - y_1) + c = $0
+B) AXX_1 - yy_1 + g(x - x_1) + f(y - y_1) + c = 0
 -
-C) AXX_1 + yy_1 - g(x + x_1) - f(y + y_1) + c = $0
+C) AXX_1 + yy_1 - g(x + x_1) - f(y + y_1) + c = 0
 -
-D) AXX_1 - yy_1 - g(x - x_1) - f(y - y_1) + c = $0
+D) AXX_1 - yy_1 - g(x - x_1) - f(y - y_1) + c = 0
 
-**Answer: A) AXX_1 + yy_1 + g(x + x_1) + f(y + y_1) + c = $0**
+**Answer: A) AXX_1 + yy_1 + g(x + x_1) + f(y + y_1) + c = $0**$
 
 **4. What is the angle between a tangent and a chord?**
 -
@@ -129,6 +143,23 @@ D) Not related to the angle subtended by the arc at any point on the circumferen
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/circles-class-10-notes) now and track your progress against thousands of students.
+
+---
+
+## 🎬 Watch: Visual Explanation
+
+> 📺 **How to Study Maths ? Ramanujan Technique by Vineet Khatri Sir** — by *Vineet Khatri*
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;border-radius:12px;margin:1rem 0;">
+<iframe src="https://www.youtube.com/embed/BAns0ZVqNuY?rel=0" 
+  style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" 
+  allowfullscreen loading="lazy" 
+  title="How to Study Maths ? Ramanujan Technique by Vineet Khatri Sir">
+</iframe>
+</div>
+
+<!-- VideoObject Schema (consumed by generate-schema.ts) -->
+<!-- VIDEO_SCHEMA:{"id":"BAns0ZVqNuY","title":"How to Study Maths ? Ramanujan Technique by Vineet Khatri Sir","channel":"Vineet Khatri","thumb":"https://i.ytimg.com/vi/BAns0ZVqNuY/mqdefault.jpg"} -->
 
 ## 📚 Academic References
 

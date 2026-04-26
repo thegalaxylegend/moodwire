@@ -8,27 +8,41 @@ practice_link: "/practice/compiler-design-class-12-notes"
 manualReview: true
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Academic References](#academic-references)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
-- A compiler is a program that translates source code into machine code: compiler = $\frac{Source \$: Code}{Machine \: Code}$
+- A compiler is a program that translates source code into machine code: compiler = $\frac{Source \$: Code}{Machine \: Code}
 - The compiler design process involves several stages: $\alpha$ - Lexical Analysis, $\beta$ - Syntax Analysis, $\gamma$ - Semantic Analysis, $\delta$ - Intermediate Code Generation, $\theta$ - Optimization, $\sigma$ - Code Generation
 - Lexical analysis is the process of breaking the source code into tokens: $\frac{Source \: Code}{Tokens} = \frac{1}{\\lambda} \times \frac{1}{\pi}$
 - Syntax analysis is the process of parsing the tokens into a parse tree: syntax \: Analysis = $\frac{Tokens}{Parse \$: Tree} = $\frac{1}{\omega} \times \frac{1}{\mu}$
-- Semantic analysis is the process of checking the parse tree for semantic errors: semantic \: Analysis = $\frac{Parse \$: Tree}{Semantic \: Errors} = $\frac{1}{$ ifty} \times \frac{1}{\partial} 
-- Intermediate code generation is the process of generating intermediate code from the parse tree: intermediate \: Code = $\frac{Parse \$: Tree}{Intermediate \: Code} = \{1}{\\sin} $\times \{1}{\\cos}$
+- Semantic analysis is the process of checking the parse tree for semantic errors: semantic \: Analysis = $\frac{Parse \$: Tree}{Semantic \: Errors} = $\frac{1}{$ ifty} \times $\frac{1}${\partial} 
+- Intermediate code generation is the process of generating intermediate code from the parse tree: intermediate \: Code = $\frac{Parse \$: Tree}{Intermediate \: Code} = \{1}{\\\\sin} $\times \{1}{\\\\cos}$
 - Optimization is the process of optimizing the intermediate code:  = \{Intermediate \: Code}{Optimized \: Code} = \{1}{\tan} $\times \{1}{\log}$
 - Code generation is the process of generating machine code from the optimized intermediate code:  \: Generation = \{Optimized \: Code}{Machine \: Code} = \{1}{\ln} $\times \{1}{\}$
-- The time complexity of a compiler is measured in terms of Big O notation:  \: Complexity = O(n^2)$
-- The space complexity of a compiler is measured in terms of Big O notation:  \: Complexity = O(n)$
+- The time complexity of a compiler is measured in terms of Big O notation:  \: Complexity = O(n^2)
+- The space complexity of a compiler is measured in terms of Big O notation:  \: Complexity = O(n)
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not understanding the difference between a compiler and an interpreter: $\frac{Compiler}{Interpreter} = \frac{1}{\\lambda} \times \frac{1}{\pi}$
 - Not being able to explain the compiler design process: $\frac{Compiler \: Design}{Stages} = \frac{1}{\alpha} \times \frac{1}{\beta} \times \frac{1}{\gamma} \times \frac{1}{\delta} \times \frac{1}{\theta} \times \frac{1}{\sigma}$
 - Not being able to write a simple lever: $\frac{Lexer}{Tokens} = \frac{1}{\omega} \times \frac{1}{\mu}$
 - Not being able to write a simple parser: $\frac{Parser}{Parse \: Tree} = \frac{1}{\} \times \{1}{\partial}$
-- Not being able to optimize the intermediate code: $\{Optimization}{Intermediate \: Code} = \{1}{\\sin} \times \{1}{\\cos}$
+- Not being able to optimize the intermediate code: $\{Optimization}{Intermediate \: Code} = \{1}{\\\\sin} \times \{1}{\\\\cos}$
 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** $What is the primary function of a compiler?
+- **Question 1:** $What is the primary function of a compiler?$
 - Step 1: Define what a compiler is
 - Step 2: Explain the primary function of a compiler
 - Step 3: Provide examples of compilers
@@ -64,7 +78,7 @@ manualReview: true
 - Make sure to review the time complexity of a compiler: time \: Complexity = $O(n^2)$
 - Make sure to review the space complexity of a compiler: space \: Complexity = O(n)
 - Make sure to review how to write a simple lever: $\frac{Lexer}{Tokens} = \frac{1}{\omega} \times \frac{1}{\mu}$
-- Make sure to review how to write a simple parser: $\frac{Parser}{Parse \$: Tree} = $\frac{1}{$ ifty} \times \frac{1}{\partial} 
+- Make sure to review how to write a simple parser: $\frac{Parser}{Parse \$: Tree} = $\frac{1}{$ ifty} \times $\frac{1}${\partial} 
 
 ## 📝 Practice MCQs
 **1. What is the primary function of a compiler?**
@@ -136,8 +150,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 *Content verified against peer-reviewed research:*
 
-1. *�Let the People Rap�: Cultural Rhetorics Pedagogy and Practices U...*$ — **Journal of Basic Writing** (2019) 🔓 — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.05)
-2. *Frustration and Hope: Examining Students� Emotional Responses to ...* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.03)
+1. *�Let the People Rap�: Cultural Rhetorics Pedagogy and Practices U...*$ — **Journal of Basic Writing** (2019) 🔓 — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.05)$2. *Frustration and Hope: Examining Students� Emotional Responses to ...* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.03)
 3. *Selected Performance Indicators of University-Model Schools* — **Aquila Digital Community (University of Southern Mississippi)** (2019) 🔓 — [DOI ↗](https://openalex.org/works/undefined)
 
 *🔓 = Open Access article*
@@ -157,4 +170,4 @@ Continue your revision with these related guides:
 - 📖 [Areas Related To Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/areas-related-to-circles-class-10-notes)
 - 📖 [Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/circles-class-10-notes)
 - 📖 [Data Handling 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/data-handling-class-8-notes)
-$
+

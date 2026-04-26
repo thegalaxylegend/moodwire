@@ -8,6 +8,20 @@ practice_link: "/practice/semiconductor-electronics-class-12-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Academic References](#academic-references)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - $E = \frac{hc}{\\lambda}$, where $E$ is the energy of the photon, $h$ is Planck's constant, $c$ is the speed of light, and $\\lambda$ is the wavelength of the photon.
 - $E_g = \frac{hc}{\\lambda}$, where $E_g$ is the band gap energy, $h$ is Planck's constant, $c$ is the speed of light, and $\\lambda$ is the wavelength of the photon.
@@ -139,3 +153,4 @@ Continue your revision with these related guides:
 - 📖 [Communication Systems Class 12 Physics Revision — Grandmaster Guide](/blog/communication-systems-class-12-notes)
 - 📖 [Dual Nature Of Radiation Class 12 Physics Revision — Grandmaster Guide](/blog/dual-nature-of-radiation-class-12-notes)
 - 📖 [Nuclei Class 12 Physics Revision — Grandmaster Guide](/blog/nuclei-class-12-notes)
+

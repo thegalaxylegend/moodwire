@@ -8,6 +8,20 @@ practice_link: "/practice/rational-numbers-class-8-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Academic References](#academic-references)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - A rational number is a number that can be expressed as $\frac{p}{q}$, where $p$ and $q$ are integers and $q$ 
 eq 0$.$
@@ -120,7 +134,7 @@ C) \frac{3}{5} \times \frac{2}{3} = \frac{6}{15} = \frac{2}{5}
 -
 D) \frac{3}{2}
 
-**Answer: B) \frac{3}{5} \times \frac{2}{3} = \frac{6}{15} = \frac{2}{5}**
+**Answer: B) \frac{3}{5} \times \frac{2}{3} = \frac{6}{15} = \frac{2}{5}** 
 
 ---
 
@@ -152,3 +166,4 @@ Continue your revision with these [related](/blog/areas-related-to-circles-class
 - 📖 [Comparing Quantities 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/comparing-quantities-class-8-notes)
 - 📖 [Cubes And Cube Roots 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/cubes-and-cube-roots-class-8-notes)
 - 📖 [Data Handling 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/data-handling-class-8-notes)
+

@@ -8,6 +8,19 @@ practice_link: "/practice/comparing-quantities-class-8-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - Ratio of two quantities can be expressed as $\frac{a}{b}$, where a and by are the two quantities.
 - To compare two ratios, we can use the concept of equivalent ratios, where $\frac{a}{b} = \frac{c}{d}$ if had = BC.
@@ -16,14 +29,14 @@ manualReview: false
 - Discount is a reduction in the price of an item, where $\text{discount} = \text{marked price} - \text{selling price}$.
 - To find the selling price after a discount, we can use the formula: $\text{selling price} = \text{marked price} - \text{discount}$.
 - Profit is the amount gained from selling an item, where $\text{profit} = \text{selling price} - \text{cost price}$.
-- To find the selling price to gain a certain profit percentage, we can use the formula: $\text{selling price} = \text{cost price} + \left( \frac{\text{profit percentage}}{100} \times \text{cost price} \r\right)$.
+- To find the selling price to gain a certain profit percentage, we can use the formula: $\text{selling price} = \text{cost price} + \left( \frac{\text{profit percentage}}{100} \times \text{cost price} \r\r\r\right)$.
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not simplifying ratios to their simplest form, where $\frac{a}{b}$ can be simplified to $\frac{c}{d}$ if a and by have a common factor.
 - Not using the concept of equivalent ratios to compare two ratios, where $\frac{a}{b} = \frac{c}{d}$ if had = BC.
 - Not converting fractions to percentages correctly, where $\frac{a}{b} = \frac{x}{100}$, and ex is the percentage.
 - Not using the correct formula to find the percentage increase or decrease, where $\frac{\text{change}}{\text{original value}} \times 100$.
-- Not calculating the selling price after a discount or profit percentage correctly, where $\text{selling price} = \text{marked price} - \text{discount}$ or $\text{selling price} = \text{cost price} + \left( \frac{\text{profit percentage}}{100} \times \text{cost price} \r\right)$.
+- Not calculating the selling price after a discount or profit percentage correctly, where $\text{selling price} = \text{marked price} - \text{discount}$ or $\text{selling price} = \text{cost price} + \left( \frac{\text{profit percentage}}{100} \times \text{cost price} \r\r\r\right)$.
 
 ## ✏️ 3 Solved PYQs
 - A shop is selling a shirt at a 15% discount. If the marked price is $\text{\Rs} 500$, what is the selling price?
@@ -41,7 +54,7 @@ manualReview: false
 - Many students fail to simplify ratios to their simplest form, where $\frac{a}{b}$ can be simplified to $\frac{c}{d}$ if a and by have a common factor.
 - Students often struggle to convert fractions to percentages correctly, where $\frac{a}{b} = \frac{x}{100}$, and ex is the percentage.
 - The formula to find the percentage increase or decrease is often misused, where $\frac{\text{change}}{\text{original value}} \times 100$.
-- Calculating the selling price after a discount or profit percentage is often done incorrectly, where $\text{selling price} = \text{marked price} - \text{discount}$ or $\text{selling price} = \text{cost price} + \left( \frac{\text{profit percentage}}{100} \times \text{cost price} \r\right)$.
+- Calculating the selling price after a discount or profit percentage is often done incorrectly, where $\text{selling price} = \text{marked price} - \text{discount}$ or $\text{selling price} = \text{cost price} + \left( \frac{\text{profit percentage}}{100} \times \text{cost price} \r\r\r\right)$.
 
 ## 👁️ Ayush's Note
 - Always simplify ratios to their simplest form to avoid confusion.
@@ -143,3 +156,4 @@ Continue your revision with these related guides:
 - 📖 [Data Handling 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/data-handling-class-8-notes)
 - 📖 [Exponents And Powers 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide](/blog/exponents-and-powers-class-8-notes)
 - 📖 [Linear Equations In One Variable 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-one-variable-class-8-notes)
+

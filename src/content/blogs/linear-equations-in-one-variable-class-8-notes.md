@@ -8,6 +8,20 @@ practice_link: "/practice/linear-equations-in-one-variable-class-8-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [- A linear equation in one variable can be represented as a straight line on a graph, with the $x$-axis representing the variable and the $y$-axis representing the constant term.](#a-linear-equation-in-one-variable-can-be-represented-as-a-straight-line-on-a-graph-with-the-x-axis-representing-the-variable-and-the-y-axis-representing-the-constant-term)
+3. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+4. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+5. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+6. [👁️ Ayush's Note](#ayushs-note)
+7. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+8. [📝 Practice MCQs](#practice-mcqs)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - The general form of a linear equation in one variable is $\frac{ax}{b} = \frac{c}{d}$, where $a$, $b$, $c$, and $d$ are constants, and $x$ is the variable.
 - To solve for $x$, we can use the formula $x = \frac{c}{a}$, after simplifying the equation.
@@ -140,3 +154,4 @@ Continue your revision with these related guides:
 - 📖 [Pair Of Linear Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/pair-of-linear-equations-class-10-notes)
 - 📖 [Differential Equations Class 12 Exam Prep Revision — Grandmaster Guide](/blog/differential-equations-class-12-notes)
 - 📖 [Linear Programming Class 12 Exam Prep Revision — Grandmaster Guide](/blog/linear-programming-class-12-notes)
+

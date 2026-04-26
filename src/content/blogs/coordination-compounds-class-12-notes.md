@@ -8,10 +8,25 @@ practice_link: "/practice/coordination-compounds-class-12-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [- Isomerism: structural, stereoisomerism](#isomerism-structural-stereoisomerism)
+3. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+4. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+5. [- To solve problems related to coordination compounds, it is essential to understand the concepts of IUPAC nomenclature, oxidation number, isomerism, and magnetic moment](#to-solve-problems-related-to-coordination-compounds-it-is-essential-to-understand-the-concepts-of-iupac-nomenclature-oxidation-number-isomerism-and-magnetic-moment)
+6. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+7. [👁️ Ayush's Note](#ayushs-note)
+8. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+9. [📝 Practice MCQs](#practice-mcqs)
+10. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - Coordination number: number of ligands attached to the central metal atom
-- Oxidation number of central metal atom: ex + $\sum{y} = 0$, where ex is the oxidation number of the central metal atom and by is the oxidation number of each ligand$
-- Charge on the complex ion: $\sum{y} + x = \text{charge$ on the complex ion}$
+- Oxidation number of central metal atom: ex + $\sum{y} = 0$, where ex is the oxidation number of the central metal atom and by is the oxidation number of each ligand
+- Charge on the complex ion: $\sum{y} + x = \text{charge$ on the complex ion}
 - IUPAC nomenclature: [metal ion][ligand]$^{charge}$
 - Valence bond theory: $\sigma$ bonds formed by overlap of atomic orbitals, $\pi$ bonds formed by sideways overlap of atomic orbitals
 - Crystal field theory: splitting of do orbitals in an octahedral field: $\delta_{o} = \frac{\delta_{t}}{4.45}$
@@ -34,7 +49,7 @@ manualReview: false
 - Not being able to apply Valence Bond Theory and Crystal Field Theory
 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** $What is the IUPAC name of the complex \left[ Co(NH_{3})_{4}Cl_{2} \right]CLR?
+- **Question 1:** $What is the IUPAC name of the complex \left[ Co($NH_{$3})_{4}Cl_{2} \right]CLR?$
 - Step 1: Identify the central metal atom and its oxidation number
 - Step 2: Identify the ligands and their charges
 - Step 3: Apply IUPAC nomenclature rules
@@ -72,7 +87,7 @@ manualReview: false
 - Make sure to fill in all the answers, even if you are not sure, as there is no negative marking
 
 ## 📝 Practice MCQs
-**1. What is the IUPAC name of the complex \left[ Cr(H_{2}O)_{6} \right]^{3+}?**
+**1. What is the IUPAC name of the complex \left[ Cr($H_{2}O$)_{6} \right]^{3+}?**
 -
 A) \left[ Chromate(III)hexaaquachloride \right]
 -
@@ -96,7 +111,7 @@ D) +6
 
 **Answer: B) +2, because the complex has a -4 charge and each cyanide ligand has a -1 charge.**
 
-**3. What is the type of isomerism exhibited by the complex \left[ Co(NH_{3})_{4}Cl_{2} \right]^{+}?**
+**3. What is the type of isomerism exhibited by the complex \left[ Co($NH_{3$})_{4}Cl_{2} \right]^{+}?**
 -
 A) Geometrical isomerism
 -
@@ -108,7 +123,7 @@ D) Hydration isomerism
 
 **Answer: A) Geometrical isomerism, because the complex has a square planar geometry and the ligands can be arranged in an Acis or trans manner.**
 
-**4. What is the magnetic moment of the complex \left[ Ni(H_{2}O)_{6} \right]^{2+}?**
+**4. What is the magnetic moment of the complex \left[ Ni($H_{2}O$)_{6} \right]^{2+}?**
 -
 A) 0 BMW
 -
@@ -120,7 +135,7 @@ D) 5.92 BMW
 
 **Answer: B) 2.83 BMW, because the complex has two unpaired electrons and the magnetic moment is calculated using the formula $\mu = \sqrt{n(n+2)}.**$
 
-**5. What is the IUPAC name of the complex \left[ Pt(NH_{3})_{4}Cl_{2} \right]^{2+}?**
+**5. What is the IUPAC name of the complex \left[ Pt($NH_{3$})_{4}Cl_{2} \right]^{2+}?**
 -
 A) \left[ Platinum(IV)tetraamminedichloride \right]^{2+}
 -
@@ -148,7 +163,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 Continue your revision with these related guides:
 
-- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision$ — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision$ — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)$
 - 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
 - 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
 - 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
+

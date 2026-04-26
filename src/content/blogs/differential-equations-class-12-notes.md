@@ -8,15 +8,28 @@ practice_link: "/practice/differential-equations-class-12-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - The order of a differential equation is the order of the highest derivative in the equation: $\frac{d^2y}{DX^2}$
-- The degree of a differential equation is the power of the highest derivative in the equation: $\left(\frac{d^2y}{DX^2}\r\right)^3$
+- The degree of a differential equation is the power of the highest derivative in the equation: $\left(\frac{d^2y}{DX^2}\r\r\right)^3$
 - A differential equation is said to be linear if it is of the form: $\frac{d^2y}{DX^2} + P(x)\frac{dy}{dx} + Q(x)y = R(x)$
 - A differential equation is said to be homogeneous if it is of the form: $\frac{d^2y}{DX^2} + P(x)\frac{dy}{dx} + Q(x)y = 0$
 - The general solution of a differential equation of the form $\frac{dy}{dx} = f(x)$ is given by: by = $\int f(x) dx + C$
 - The general solution of a differential equation of the form $\frac{dy}{dx} +  =$ is given by:  \ e^{\ P } = \ Q \ e^{\ P }  + 
 - The general solution of a differential equation of the form $\{d^2y}{^2} + P\{dy}{dx} +  = 0$ is given by:  = e^{mx}$ where is a root of the equation ^2 + Pm + Q = $0
-- The of two functions _$1 and _$2 is given by: (y_1, y_2) = \begin{vmatrix} y_1 & y_2 \\ y_1' & y_2' \end{vmatrix}$
+- The of two functions _$1 and _$2 is given by: (y_1, y_2) = \begin{vmatrix} y_1 & y_2 \\ y_1' & y_2' \end{vmatrix}
 - The general solution of a differential equation of the form $\{d^2y}{^2} + P\{dy}{dx} +  = R$ is given by:  = y_c + y_$ where _$ is the complementary function and _ is the particular integral
 - The complementary function _ is the general solution of the equation $\{d^2y}{^2} + P\{dy}{dx} +  = 0$
 - The particular integral _ is a solution of the equation $\{d^2y}{^2} + P\{dy}{dx} +  = R$
@@ -33,16 +46,16 @@ manualReview: false
   - **Step 1:** Separate the variables: $\frac{dy}{y} = \frac{dx}{x}$
   - **Step 2:** Integrate both sides: $\int \frac{dy}{y} = \int \frac{dx}{x}$
   - **Step 3:** Evaluate the integrals: $\ln y = \ln x + C$
-  - **Step 4:** Simplify the equation: by = e^{\ln x + C} = e^C \dot e^{\ln x} = C_1 \dot $
+  - **Step 4:** Simplify the equation: by = e^{\ln x + C} = e^C \dot e^{\ln x} = C_1 \dot 
 - **Question 2:** Solve the differential equation $\frac{d^2y}{DX^2} + 4\frac{dy}{dx} + 4y = 0$.
-  - **Step 1:** Assume a solution of the form by = e^{mx}$: \frac{d^2y}{DX^2}$ = m^2e^{mx}$, \frac{dy}{dx}$ = me^{mx}$
-  - **Step 2:** Substitute into the differential equation: km^2e^{mx} + 4me^{mx} + 4e^{mx} = $0
+  - **Step 1:** Assume a solution of the form by = e^{mx}$: \frac{d^2y}{DX^2}$ = m^2e^{mx}$, \frac{dy}{dx}$ = me^{mx}
+  - **Step 2:** Substitute into the differential equation: km^2e^{mx} + 4me^{mx} + 4e^{mx} = 0
   - **Step 3:** Simplify the equation: $’m^2 + 4m + 4)e^{mx} = 0$
   - **Step 4:** Solve for me: km^2 + 4m + 4 = $0, $(m + 2)^2 = 0$, km = -$2
-  - **Step 5:** Write the general solution: by = (C_1 + C_2x)e^{-2x}$
+  - **Step 5:** Write the general solution: by = (C_1 + C_2x)e^{-2x}
 - **Question 3:** Solve the differential equation $\frac{dy}{dx} + 2y = 3$.
-  - **Step 1:** Use an integrating factor: I(x) = e^{\int 2 dx} = e^{2x}$
-  - **Step 2:** Multiply both sides of the differential equation by the integrating factor: he^{2x}$\frac{dy}{dx}$ + 2e^{2x}y = 3e^{2x}$
+  - **Step 1:** Use an integrating factor: I(x) = e^{\int 2 dx} = e^{2x}
+  - **Step 2:** Multiply both sides of the differential equation by the integrating factor: he^{2x}$\frac{dy}{dx}$ + 2e^{2x}y = 3e^{2x}
   - **Step 3:** Recognize the left-hand side as a total derivative: $\frac{d}{dx}(e^{2x}y) = 3e^{2x}$
   - **Step 4:** Integrate both sides: he^{2x}y = $\int 3e^{2x} dx = \frac{3}{2}e^{2x} + C$
   - $**Step 5:** Solve for by: by = \frac{3}{2} + Ce^{-2x}$
@@ -70,7 +83,7 @@ D) 4
 
 **Answer: C) The order of the differential equation is the order of the highest derivative in the equation, which is 3.**
 
-**2. What is the degree of the differential equation $\left(\frac{d^2y}{DX^2}\r\right)^2 + 2\frac{dy}{dx} + y = 0$?**
+**2. What is the degree of the differential equation $\left(\frac{d^2y}{DX^2}\r\r\right)^2 + 2\frac{dy}{dx} + y = 0$?**
 A) 1
 B) 2
 C) 3
@@ -79,28 +92,28 @@ D) 4
 **Answer: B) The degree of the differential equation is the power of the highest derivative in the equation, which is 2.**
 
 **3. What is the general solution of the differential equation $\frac{dy}{dx} = \frac{y}{x}$?**
-A) by = C_1 \dot x^$2
-B) by = C_1 \dot $
-C) by = C_1 \dot e^$
-D) by = C_1 \dot $\ln
+A) by = C_1 \dot x^2
+B) by = C_1 \dot
+C) by = C_1 \dot e^
+D) by = C_1 \dot $\ln$
 
-**Answer: B) The general solution of the differential equation is by = C_1 \dot $.**
+**Answer: B) The general solution of the differential equation is by = C_1 \dot $.**$
 
 **4. What is the particular integral of the differential equation $\frac{d^2y}{DX^2} + 4\frac{dy}{dx} + 4y = 3$?**
 A) y = \frac{3}{4}
 B) y = \frac{3}{2}ex
 C) y = \frac{3}{2}x^2
-D) by = 3x^$2
+D) by = 3x^2
 
 **Answer: A) The particular integral of the differential equation is by = $\frac{3}{4}$.**
 
 **5. What is the complementary function of the differential equation $\frac{d^2y}{DX^2} + 2\frac{dy}{dx} + y = 0$?**
-A) by = C_1 \dot e^{-x} + C_2 \dot e^$
-B) by = C_1 \dot e^{-x} + C_2 \dot x \dot e^{-x}$
-C) y = C_1 \dot \\cos x + C_2 \dot \\sin x
-D) by = C_1 \dot e^{-x} + C_2 \dot e^{-2x}$
+A) by = C_1 \dot e^{-x} + C_2 \dot e^
+B) by = C_1 \dot e^{-x} + C_2 \dot x \dot e^{-x}
+C) y = C_1 \dot \\\cos x + C_2 \dot \\\sin x
+D) by = C_1 \dot e^{-x} + C_2 \dot e^{-2x}
 
-**Answer: B) The complementary function of the differential equation is  = C_1 \ e^{-x} + C_2 \ x \ e^{-x}$.**
+**Answer: B) The complementary function of the differential equation is  = C_1 \ e^{-x} + C_2 \ x \ e^{-x}$.**$
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/differential-equations-class-12-notes) now and track your progress against thousands of students.
@@ -115,5 +128,6 @@ Continue your revision with these related guides:
 - 📖 [Linear Equations In Two Variables 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-two-variables-class-9-notes)
 - 📖 [Pair Of Linear Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/pair-of-linear-equations-class-10-notes)
 - 📖 [Quadratic Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/quadratic-equations-class-10-notes)
-$
+
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Differential%20Equations%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+

@@ -8,15 +8,29 @@ practice_link: "/practice/coordinate-geometry-class-10-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Academic References](#academic-references)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - The distance between two points $(x_1, y_1)$ and $(x_2, y_2)$ is given by $\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$
-- The midpoint of a line segment with endpoints $(x_1, y_1)$ and $(x_2, y_2)$ is $\left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\r\right)$
+- The midpoint of a line segment with endpoints $(x_1, y_1)$ and $(x_2, y_2)$ is $\left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\r\r\right)$
 - The slope of a line passing through points $(x_1, y_1)$ and $(x_2, y_2)$ is $\frac{y_2 - y_1}{x_2 - x_1}$
 - The equation of a line in slope-intercept form is by = MX + C, where me is the slope and act is the y-intercept
 - The equation of a line in slope-point form is by - y_1 = m(x - x_1)$, where me is the slope and $(x_1, y_1)$ is a point on the line$
-- The distance of a point $(x_1, y_1)$ from the line tax + By + C = $0 is \frac{|Ax_1 + By_1 + C|}{\sqrt{A^2 + B^2}$}$
+- The distance of a point $(x_1, y_1)$ from the line tax + By + C = $0 is \frac{|Ax_1 + By_1 + C|}{\sqrt{A^2 + B^2}$}
 - The equation of a circle with center $(h, k)$ and radius are is $(x - h)^2 + (y - k)^2 = r^2$
-- The equation of a circle in general form is x^2 + y^2 + 2gx + 2fy + c = 0$, where the center is $(-g, -f)$ and the radius is $\{g^2 + f^2 - c}$
+- The equation of a circle in general form is x^2 + y^2 + 2gx + 2fy + c = $0, where the center is $(-g, -f)$ and the radius is $\{g^2 + f^2 - c}
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not using the correct formula for distance between two points, which is $\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$
@@ -71,14 +85,14 @@ D) 6
 **Answer:** C) 5. The distance between two points can be calculated using the formula $\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.
 
 **2. Question:** What is the equation of the line passing through the points $(2, 3)$ and $(4, 5)$?
-A) by = x + 1$
-B) by = x - 1$
-C) by = 2x + 1$
-D) by = 2x - 1$
+A) by = x + 1
+B) by = x - 1
+C) by = 2x + 1
+D) by = 2x - 1
 
 **Answer:** A) by = x + 1$. The equation of a line passing through two points can be found using the slope-point form of the equation of a line.$
 
-**3. Question:** What is the center of the circle with equation x^2 + y^2 - 6x - 8y + 9 = 0$?
+**3. Question:** What is the center of the circle with equation x^2 + y^2 - 6x - 8y + 9 = $0?$
 A) $(3, 4)$
 B) $(4, 3)$
 C) $(2, 2)$
@@ -86,7 +100,7 @@ D) $(1, 1)$
 
 **Answer:** A) $(3, 4)$. The center of the circle can be found by completing the square and rewriting the equation in standard form.
 
-**4. Question:** What is the radius of the circle with equation x^2 + y^2 - 6x - 8y + 9 = 0$?
+**4. Question:** What is the radius of the circle with equation x^2 + y^2 - 6x - 8y + 9 = $0?$
 A) 2
 B) 3
 C) 4
@@ -127,3 +141,4 @@ Continue your revision with these [related](/blog/areas-related-to-circles-class
 - 📖 [Areas Related To Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/areas-related-to-circles-class-10-notes)
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Coordinate%20Geometry%20Class%2010%20Mathematics%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+

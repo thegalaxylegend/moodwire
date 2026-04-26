@@ -8,12 +8,27 @@ practice_link: "/practice/data-handling-class-8-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [- Always read the question carefully and understand what is being asked](#always-read-the-question-carefully-and-understand-what-is-being-asked)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Academic References](#academic-references)
+9. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+10. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
-- The range of a data set is given by: OR = \max \{x_i\} - \min \{x_i\}$
+- The range of a data set is given by: OR = \max \{x_i\} - \min \{x_i\}
 - The mean of a data set is given by: $\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}$
 - The mode of a data set is the value that appears most frequently
 - The median of a data set is the middle value when the data is arranged in ascending order
-- The probability of an event is given by: UP(E) = $\frac{$\text{Number$ of favorable outcomes}}${$\text{Total number$ of outcomes}}$
+- The probability of an event is given by: UP(E) = $\frac{$\text{Number$ of favorable outcomes}}${$\text{Total number$ of outcomes}}
 
 ## 
 - Always read the question carefully and understand what is being asked
@@ -25,12 +40,12 @@ manualReview: false
 ## ✏️ 3 Solved PYQs
 - **Question 1:** Find the mean of the following data set: 12, 15, 18, 20, 22
   - Step 1: Add up all the values in the data set: $12 + 15 + 18 + 20 + 22 = 87$
-  - Step 2: Count the number of values in the data set: in = $5
+  - Step 2: Count the number of values in the data set: in = 5
   - Step 3: Calculate the mean using the formula: $\bar{x} = \frac{87}{5} = 17.4$
 - **Question 2:** Find the range of the following data set: 10, 12, 15, 18, 20
   - Step 1: Find the maximum value in the data set: $\max \{x_i\} = 20$
   - Step 2: Find the minimum value in the data set: $\min \{x_i\} = 10$
-  - Step 3: Calculate the range using the formula: OR = 20–10 = $10
+  - Step 3: Calculate the range using the formula: OR = 20–10 = 10
 - **Question 3:** Find the mode of the following data set: 12, 15, 15, 18, 20
   - Step 1: Identify the values that appear most frequently: $15$ appears twice
   - Step 2: Check if any other value appears more than twice: No
@@ -68,7 +83,7 @@ C) 15
 -
 D) 20
 
-**Answer: B) The range is calculated by subtracting the minimum value from the maximum value: OR = 20–10 = $10**
+**Answer: B) The range is calculated by subtracting the minimum value from the maximum value: OR = 20–10 = $10**$
 
 **2. What is the mean of the data set: 12, 15, 18, 20, 22?**
 -
@@ -156,4 +171,4 @@ Continue your revision with these [related](/blog/areas-related-to-circles-class
 - 📖 [Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/circles-class-10-notes)
 - 📖 [Compiler Design Class 12 Exam Prep Revision — Grandmaster Guide](/blog/compiler-design-class-12-notes)
 - 📖 [Computer Networks Class 12 Exam Prep Revision — Grandmaster Guide](/blog/computer-networks-class-12-notes)
-$
+

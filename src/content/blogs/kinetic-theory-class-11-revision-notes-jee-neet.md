@@ -212,3 +212,4 @@ correct calculations for real gases.
    - **Molecular Speeds**:
      * **Most Probable Speed (v_mp)**: v_mp = sqrt(2RT/M)
      * **Average Speed (v_avg)**: v_avg = sqrt(8RT/km)
+

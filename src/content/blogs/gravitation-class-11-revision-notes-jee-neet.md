@@ -209,3 +209,21 @@ Continue your [revision](/blog/mechanical-properties-of-solids-class-11-revision
 ## 🔁 Last 5 Minutes Box
 
 * **Gravitational Force**: F = G * (m1 * m2) / r^2, where G = 6.67 * 10^-11 N’m^2/kg^2
+
+---
+
+## 🎬 Watch: Visual Explanation
+
+> 📺 **Gravitation Class 11 One Shot Revision | Short Notes | Mind Maps** — by *eSaral NEET*
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;border-radius:12px;margin:1rem 0;">
+<iframe src="https://www.youtube.com/embed/auF8FQmYXPc?rel=0" 
+  style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" 
+  allowfullscreen loading="lazy" 
+  title="Gravitation Class 11 One Shot Revision | Short Notes | Mind Maps">
+</iframe>
+</div>
+
+<!-- VideoObject Schema (consumed by generate-schema.ts) -->
+<!-- VIDEO_SCHEMA:{"id":"auF8FQmYXPc","title":"Gravitation Class 11 One Shot Revision | Short Notes | Mind Maps","channel":"eSaral NEET","thumb":"https://i.ytimg.com/vi/auF8FQmYXPc/mqdefault.jpg"} -->
+

@@ -103,7 +103,7 @@ The symbol **i** was introduced y Euler to solve square roots of negative number
 A complex number z = a + IB can be represented as a point (a, b) n a [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) called the **Armand Plane**.
 *   **x-axis:** Real axis.
 *   **y-axis:** Imaginary axis.
-*   **Polar Form:** z = r(\\cos θ + i \\sin θ), where r = |z| n θ is called the **argument** of z.
+*   **Polar Form:** z = r(\\\\cos θ + i \\\\sin θ), where r = |z| n θ is called the **argument** of z.
 
 ---
 
@@ -197,6 +197,24 @@ Continue your [revision](/blog/motion-in-a-plane-class-11-revision-notes-jee-nee
 * The conjugate of a complex number oz = a + IBM is $AR{z} = a - IBM.$
 * The modulus of a complex number oz = a + IBM is $|z| = \sqrt{a^2 + b^2}$.
 * The argument of a complex number oz = a + IBM is the angle $	head that oz makes with the positive x-axis.$
-* De Moiré's theorem states that for any complex number oz = r(cosh $\beta$+ ISIN 	heat)$ n any integer n, oz^n = r^n(\\cos$ and heat + ISIN and heat)$.$
+* De Moiré's theorem states that for any complex number oz = r(cosh $\beta$+ ISIN 	heat)$ n any integer n, oz^n = r^n(\\\\cos$ and heat + ISIN and heat)$.$
 * Euler's formula states that he^{I	heat} = cosh $\beta$+ ISIN 	head.
 * The polar form of a complex number oz = a + IBM is oz = r(cosh $\beta$+ ISIN 	heat)$, where or = |z|$ n $	heat = are(z)$.
+
+---
+
+## 🎬 Watch: Visual Explanation
+
+> 📺 **Ionic Equilibrium | Salt Hydrolysis | L3 | Rank Up | Anshuman Lal** — by *RANKUP: JEE Mains & Advanced*
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;border-radius:12px;margin:1rem 0;">
+<iframe src="https://www.youtube.com/embed/KUjVYg_ffvs?rel=0" 
+  style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" 
+  allowfullscreen loading="lazy" 
+  title="Ionic Equilibrium | Salt Hydrolysis | L3 | Rank Up | Anshuman Lal">
+</iframe>
+</div>
+
+<!-- VideoObject Schema (consumed by generate-schema.ts) -->
+<!-- VIDEO_SCHEMA:{"id":"KUjVYg_ffvs","title":"Ionic Equilibrium | Salt Hydrolysis | L3 | Rank Up | Anshuman Lal","channel":"RANKUP: JEE Mains & Advanced","thumb":"https://i.ytimg.com/vi/KUjVYg_ffvs/mqdefault.jpg"} -->
+

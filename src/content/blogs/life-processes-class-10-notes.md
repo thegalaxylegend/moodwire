@@ -63,7 +63,7 @@ Examiner's Trap: Be careful with units of measurement for transpiration rates.
 
 ### <a id="photosynthesis-formulas"></a>**Photosynthesis Formulas**
 
-- **Photosynthesis Equation:** 6$\text{CO}$_2 + 6$\text{H}$_2$\text{O}$ \rightarrow $\text{C}$_6$\text{H}$_{12}$\text{O}$_6 + 6$\text{O}$_2 — carbon dioxide, water, glucose, oxygen
+- **Photosynthesis Equation:** 6$\text{CO}$_2 + 6$\text{H}$_2$\text{O}\rightarrow\text{C}$_6$\text{H}$_{12}$\text{O}$_6 + 6$\text{O}$_2 — carbon dioxide, water, glucose, oxygen
 
 - **Gross Primary Productivity:** $\text{GPP}$ = $\frac{\text{Total biomass produced}$}{$\text{Time}$ \times $\text{Area}$} — total biomass produced, time taken, area
 
@@ -72,11 +72,11 @@ Examiner's Trap: Do not confuse photosynthesis equation with respiration equatio
 
 ### <a id="respiration-formulas"></a>**Respiration Formulas**
 
-- **Respiration Equation:** $\text{C}$_6$\text{H}$_{12}$\text{O}$_6 + 6$\text{O}$_2 \rightarrow 6$\text{CO}$_2 + 6$\text{H}$_2$\text{O}$ + $\text{Energy}$ — glucose, oxygen, carbon dioxide, water, energy
+- **Respiration Equation:** $\text{C}$_6$\text{H}$_{12}$\text{O}$_6 + 6$\text{O}$_2 $\rightarrow$6$\text{CO}$_2 + 6$\text{H}$_2$\text{O}$ + $\text{Energy}$ — glucose, oxygen, carbon dioxide, water, energy
 
-- **Aerobic Respiration:** $\text{C}$_6$\text{H}$_{12}$\text{O}$_6 + 6$\text{O}$_2 \rightarrow 6$\text{CO}$_2 + 6$\text{H}$_2$\text{O}$ + 36$\text{ATP}$ — glucose, oxygen, carbon dioxide, water, ATP
+- **Aerobic Respiration:** $\text{C}$_6$\text{H}$_{12}$\text{O}$_6 + 6$\text{O}$_2 $\rightarrow$6$\text{CO}$_2 + 6$\text{H}$_2$\text{O}$ + 36$\text{ATP}$ — glucose, oxygen, carbon dioxide, water, ATP
 
-- **Anaerobic Respiration:** $\text{C}$_6$\text{H}$_{12}$\text{O}$_6 \rightarrow 2$\text{C}$_2$\text{H}$_5$\text{OH}$ + 2$\text{CO}$_2 + 2$\text{ATP}$ — glucose, ethanol, carbon dioxide, ATP
+- **Anaerobic Respiration:** $\text{C}$_6$\text{H}$_{12}$\text{O}$_6 $\rightarrow$2$\text{C}$_2$\text{H}$_5$\text{OH}$ + 2$\text{CO}$_2 + 2$\text{ATP}$ — glucose, ethanol, carbon dioxide, ATP
 Examiner's Trap: Know the difference between aerobic and anaerobic respiration [equations](/blog/chemical-reactions-and-equations-class-10-notes).
 
 ### <a id="circulatory-system-formulas"></a>**Circulatory System Formulas**
@@ -184,7 +184,7 @@ Examiner's Trap: Understand the relationship between cardiac output, heart rate,
  - 🧮 **Solution (Step-by-step):**
  Step 1: Identify the process of photosynthesis → $6CO_2 + 6H_2O \rightarrow C_6H_{12}O_6 + 6O_2$
  Step 2: Explain the role of $CO_2$ in the Calvin cycle → $CO_2$ is fixed into a 3-carbon molecule
- **Final Answer:** CO_2 $\text{ is the source of carbon atoms in glucose}$
+ **Final Answer:** $CO_2\text{ is the source of carbon atoms in glucose}$
  - ⚡ **Speed trick:** Recall that $CO_2$ is necessary for photosynthesis to occur.
 
 ---
@@ -207,7 +207,7 @@ Examiner's Trap: Understand the relationship between cardiac output, heart rate,
  Step 2: Recall the equation for anaerobic respiration in muscles → $C_6H_{12}O_6 \rightarrow 2C_2H_5OH + 2CO_2 + \text{energy}$
  Step 3: Identify the by-product → $C_2H_5OH$ (ethanol) and $CO_2$ are produced, but in muscles, it's lactic acid
  **Final Answer:** $\text{lactic acid}$
- - ⚡ **Speed trick:** Remember that anaerobic respiration in muscles produces lactic acid, not ethanol.$
+ - ⚡ **Speed trick:** Remember that anaerobic respiration in muscles produces lactic acid, not ethanol.
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
@@ -248,7 +248,7 @@ To remember the difference, consider a simple mnemonic:
 
 - Photosynthesis is like "Photo" 
 
-- it uses [light](/blog/light-reflection-and-refraction-class-10-notes) to synthesize glucose, so it's like taking a picture (using l\right) to create something new.
+- it uses [light](/blog/light-reflection-and-refraction-class-10-notes) to synthesize glucose, so it's like taking a picture (using l\r\right) to create something new.
 
 - Respiration is like "Respir" 
 
@@ -313,30 +313,30 @@ Photosynthesis and respiration are two essential life processes that occur in li
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. A cell divides to produce $2^3 = 8$ daughter cells. How many cells were present before division?**
-**A)**    4
-**B)**    5
-**C)**    6
-**D)**    7
+**A)**     4
+**B)**     5
+**C)**     6
+**D)**     7
 
 **Answer:** D) The other options are incorrect because they don't correctly calculate the number of daughter cells. Option A is incorrect because 2^3 = 8, not 4. Option B is incorrect because it doesn't account for the daughter cells produced during division. Option C is incorrect because it's one less than the correct answer.
 
 ---
 
 **2. What is the function of the Golgi apparatus in a cell?**
-**A)**    To synthesize proteins
-**B)**    To store genetic information
-**C)**    To modify and package proteins for transport
-**D)**    To break down cellular waste
+**A)**     To synthesize proteins
+**B)**     To store genetic information
+**C)**     To modify and package proteins for transport
+**D)**     To break down cellular waste
 
 **Answer:** C) The other options are incorrect because they don't accurately describe the function of the Golgi apparatus. Option A is incorrect because protein synthesis occurs in the ribosomes. Option B is incorrect because genetic information is stored in the DNA and chromatin. Option D is incorrect because breaking down cellular waste is the function of lysosomes.
 
 ---
 
 **3. A plant cell has a vacuole with a pH of $5.5$. How will it affect the cell's ability to transport water?**
-**A)**    It will increase the rate of water transport
-**B)**    It will decrease the rate of water transport
-**C)**    It will have no effect on water transport
-**D)**    It will increase the rate of water loss
+**A)**     It will increase the rate of water transport
+**B)**     It will decrease the rate of water transport
+**C)**     It will have no effect on water transport
+**D)**     It will increase the rate of water loss
 
 **Answer:** B) The other options are incorrect because a pH of 5.5 in the vacuole will increase the concentration of hydrogen ions, making it more difficult for water to enter the cell. Option A is incorrect because it would require a decrease in hydrogen ion concentration. Option C is incorrect because the pH of the vacuole will indeed affect the cell's ability to transport water. Option D is incorrect because it would require a decrease in hydrogen ion concentration.
 
@@ -344,20 +344,20 @@ Photosynthesis and respiration are two essential life processes that occur in li
 
 **4. $0.5%$ of a plant's leaf surface is covered with stomat
 a. If the leaf surface area is $12,cm^2$, how many stomata are present?**
-**A)**    6
-**B)**    12
-**C)**    24
-**D)**    36
+**A)**     6
+**B)**     12
+**C)**     24
+**D)**     36
 
 **Answer:** C) The other options are incorrect because 0.5% of 12 cm^2 is equal to 0.06 cm^2. Since all stomata cover 1 square millimeter, we need to convert 0.06 cm^2 to mm^2: 0.06 cm^2 = 60 mm^2 (1 cm = 10 mm). Since all stomata cover 1 mm^2, the number of stomata is equal to 60. However, this option is not available. The closest answer is 24, which is 2 \times 12, but it is still not the correct answer.
 
 ---
 
 **5. What is the primary function of the mitochondria in a cell?**
-**A)**    To synthesize proteins
-**B)**    To store genetic information
-**C)**    To break down cellular waste
-**D)**    To generate energy for the cell through cellular respiration
+**A)**     To synthesize proteins
+**B)**     To store genetic information
+**C)**     To break down cellular waste
+**D)**     To generate energy for the cell through cellular respiration
 
 **Answer:** D) The other options are incorrect because they don't accurately describe the primary function of the mitochondria. Option A is incorrect because protein synthesis occurs in the ribosomes. Option B is incorrect because genetic information is stored in the DNA and chromatin. Option C is incorrect because breaking down cellular waste is the function of lysosomes.
 
@@ -391,4 +391,4 @@ Continue your revision with these related guides:
 - 📖 [Carbon and its Compounds Class 10 Science Recap — Grandmaster Guide](/blog/carbon-and-its-compounds-class-10-notes)
 - 📖 [Metals and Non-Metals Class 10 Science Recap — Grandmaster Guide](/blog/metals-and-non-metals-class-10-notes)
 - 📖 [Periodic Classification of Elements Class 10 Science Recap — Grandmaster Guide](/blog/periodic-classification-of-elements-class-10-notes)
-$
+

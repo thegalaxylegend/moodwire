@@ -8,6 +8,19 @@ practice_link: "/practice/sexual-reproduction-in-flowering-plants-class-12-notes
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - The process of sexual [reproduction](/blog/reproduction-in-organisms-class-12-notes) in flowering plants involves the fusion of male and female gametes, resulting in the formation of a zygote.
 - The male gamete is produced in the anther, which is the male reproductive organ of the flower, through the process of microsporogenesis: $\frac{1}{4}$ of the microspore mother cells undergo meiosis to produce microspores.
@@ -142,3 +155,4 @@ Continue your revision with these related guides:
 - 📖 [Human Reproduction Class 12 Exam Prep Revision — Grandmaster Guide](/blog/human-reproduction-class-12-notes)
 - 📖 [Reproduction In Organisms Class 12 Exam Prep Revision — Grandmaster Guide](/blog/reproduction-in-organisms-class-12-notes)
 - 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+

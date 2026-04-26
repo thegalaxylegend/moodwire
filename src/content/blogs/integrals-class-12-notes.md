@@ -8,21 +8,35 @@ practice_link: "/practice/integrals-class-12-notes"
 manualReview: true
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Academic References](#academic-references)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
--    \int $\frac{1}${x} dx = \ln|x| + C 
--  \int e^x dx = e^x + C 
--    \int \\sin x dx = -\\cos x + C 
--  \int \\cos x dx = \\sin x + C 
--    \int \tan x dx = -\ln|\\cos x| + C 
-- $\int \frac{1}{\sqrt{1-x^2}} dx = \\\sin^{-1}x + C$
--    \ \{1}{1+x^2}  = \tan^{-1}x + C 
-- $\ \{1}{x\{x^2-1}}  = \sec^{-1}x +
--  \ \{1}{x\{x^2-1}}  =  \cosh^{-1}x + 
--   \ x^n  = \{x^{n+1}}${n+1} + C, n 
- -$1
+-     \int $\frac{1}${x} dx = \ln|x| + C 
+-   \int e^x dx = e^x + C 
+-     \int \\\sin x dx = -\\\cos x + C 
+-   \int \\\cos x dx = \\\sin x + C 
+-     \int \tan x dx = -\ln|\\\cos x| + C 
+- $\int \frac{1}{\sqrt{1-x^2}} dx = \\\\\sin^{-1}x + C$
+-     \ \{1}{1+x^2}  = \tan^{-1}x + C 
+- $\ \{1}{x\{x^2-1}}  = \sec^{-1}x +$
+-   \ \{1}{x\{x^2-1}}  =  \cosh^{-1}x + 
+-   \ x^n  = \{x^{n+1}}${n+1} + C, n $
+ -1
 -  \ \{1}{x^2+a^2}  = \{1}{a} \tan^{-1} \{x}{a} + 
 - $\ \{1}{x^2-a^2}  = \{1}{2a} \ln \left| \{x-a}{x+a} \right| +$
-- $\ \{a^2-x^2}  = \{x}{2} \{a^2-x^2} + \{a^2}{2}  \\\sin^{-1} \{x}{a} +$
+- $\ \{a^2-x^2}  = \{x}{2} \{a^2-x^2} + \{a^2}{2}  \\\\\sin^{-1} \{x}{a} +$
 - \ \{x^2-a^2}  = \{x}{2} \{x^2-a^2} - \{a^2}{2} $\ln \left| x + \{x^2-a^2} \right| +$
 - $\ \{x^2+a^2}  = \{x}{2} \{x^2+a^2} + \{a^2}{2} \ln \left| x + \{x^2+a^2} \right| +$
 
@@ -36,11 +50,11 @@ manualReview: true
 ## ✏️ 3 Solved PYQs
 - **PYQ 1:** $Evaluate \int \frac{1}{x^2+4x+5} dx$
   - Let x^2+4x+5 = (x+2)^2+1
-  -    rac{1}{x^2+4x+5} dx = \int $\frac{1}${(x+2)^2+1} dx 
+  -     c{1}{x^2+4x+5} dx = \int $\frac{1}${(x+2)^2+1} dx 
   - Substitute ex+2 = to, dx = DT
   -    rac{1}{(x+2)^2+1}  = \ \{1}{t^2+1} 
-  -    1}{t^2+1}  = \tan^{-1’t + C 
-  -    1}{x^2+4x+5}  = \tan^{-1}(x+2) + C 
+  -     {t^2+1}  = \tan^{-1’t + C 
+  -     {x^2+4x+5}  = \tan^{-1}(x+2) + C 
 - ** 2:** Evaluate \ \{x}{x^2+1} 
   - Let  = x^2+1,  = 2x 
   -   \{x}{x^2+1}  = \{1}{2} \ \{1}{u}  
@@ -52,8 +66,8 @@ manualReview: true
   -   \{1}{\{-((x-2)^2-4)}}  = \ \{1}{\{4-(x-2)^2}}  
   - Substitute x-2 = ,  = 
   -   \{1}{\{4-(x-2)^2}}  = \ \{1}{\{4-t^2}}  
-  -    1}{\{4-t^2}}  = \\\sin^{-1} \{t}{2} + C 
-  -    1}{\{4x-x^2}}  = \\\sin^{-1} \{x-2}{2} + C 
+  -     {\{4-t^2}}  = \\\\\sin^{-1} \{t}{2} + C 
+  -     {\{4x-x^2}}  = \\\\\sin^{-1} \{x-2}{2} + C 
 
 ## 🧠 The One Thing Most Students Get Wrong
 - Not using the correct substitution or formula for the given integral
@@ -89,26 +103,26 @@ D) x^2 + C
 
 **Answer: A) \ln|x| + C**
  **2. Evaluate \int \frac{x}{x^2+1} dx** 
--    A) $\frac{1}${2} \ln|x^2+1| + C 
--    B) $\frac{1}${2} \ln|x| + C 
--    C) \tan^{-1}x + C 
--  D) $\\\sin^{-1}x + C  **Answer: A) \frac{1}{2} \ln|x^2+1| + C**$
+-     A) $\frac{1}${2} \ln|x^2+1| + C 
+-     B) $\frac{1}${2} \ln|x| + C 
+-     C) \tan^{-1}x + C 
+-  D) $\\\\\sin^{-1}x + C  **Answer: A) \frac{1}{2} \ln|x^2+1| + C**$
 
 **3. What is the value of \int $\frac{1}{\sqrt{4x-x^2}$} dx?**
 -
-A) \\\sin^{-1} \frac{x-2}{2} + C
+A) \\\\\sin^{-1} \frac{x-2}{2} + C
 -
-B) \\cos^{-1} \frac{x-2}{2} + C
+B) \\\cos^{-1} \frac{x-2}{2} + C
 -
 C) \tan^{-1} \frac{x-2}{2} + C
 -
 D) \sec^{-1} \frac{x-2}{2} + C
 
-**Answer: A) $\\\sin^{-1} \frac{x-2}{2} + C**  **4. Evaluate \int \frac{1}{x^2+4x+5} dx**$
--    A) \tan^{-1}(x+2) + C 
--    B) \tan^{-1}(x-2) + C 
--    C) \\\sin^{-1}(x+2) + C 
--  D) $\\cos^{-1}(x+2) + C  **Answer: A) \tan^{-1}(x+2) + C**$
+**Answer: A) $\\\\\sin^{-1} \frac{x-2}{2} + C**  **4. Evaluate \int \frac{1}{x^2+4x+5} dx**$
+-     A) \tan^{-1}(x+2) + C 
+-     B) \tan^{-1}(x-2) + C 
+-     C) \\\\\sin^{-1}(x+2) + C 
+-  D) $\\\cos^{-1}(x+2) + C  **Answer: A) \tan^{-1}(x+2) + C**$
 
 **5. What is the value of \int $\frac{1}{x\sqrt{x^2-1}$} dx?**
 -
@@ -130,12 +144,28 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 - --
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
+---
+
+## 🎬 Watch: Visual Explanation
+
+> 📺 **(L-2) Chemical kinetics | GMP solutions | FIITJEE | IIT | NEET | by Mahesh sir** — by *Chemistry by Mahesh sir*
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;border-radius:12px;margin:1rem 0;">
+<iframe src="https://www.youtube.com/embed/M1OT7nsDDWM?rel=0" 
+  style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" 
+  allowfullscreen loading="lazy" 
+  title="(L-2) Chemical kinetics | GMP solutions | FIITJEE | IIT | NEET | by Mahesh sir">
+</iframe>
+</div>
+
+<!-- VideoObject Schema (consumed by generate-schema.ts) -->
+<!-- VIDEO_SCHEMA:{"id":"M1OT7nsDDWM","title":"(L-2) Chemical kinetics | GMP solutions | FIITJEE | IIT | NEET | by Mahesh sir","channel":"Chemistry by Mahesh sir","thumb":"https://i.ytimg.com/vi/M1OT7nsDDWM/mqdefault.jpg"} -->
+
 ## 📚 Academic References
 
 *Content verified against peer-reviewed research:*
 
-1. *�Let the People Rap�: Cultural Rhetorics Pedagogy and Practices U...*$ — **Journal of Basic Writing** (2019) 🔓 — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.05)
-2. *Frustration and Hope: Examining Students� Emotional Responses to ...* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.03)
+1. *�Let the People Rap�: Cultural Rhetorics Pedagogy and Practices U...*$ — **Journal of Basic Writing** (2019) 🔓 — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.05)$2. *Frustration and Hope: Examining Students� Emotional Responses to ...* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.03)
 3. *Editors' Column* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.01)
 
 *🔓 = Open Access article*
@@ -152,3 +182,4 @@ Continue your revision with these [related](/blog/areas-related-to-circles-class
 - 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Integrals%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+}

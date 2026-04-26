@@ -8,14 +8,28 @@ practice_link: "/practice/real-numbers-class-10-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Academic References](#academic-references)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - The set of natural numbers is denoted by $\mathbb{N}$ and is given by $\mathbb{N} = \{1, 2, 3, ...\}$
 - The set of whole numbers is denoted by $\mathbb{W}$ and is given by $\mathbb{W} = \{0, 1, 2, 3, ...\}$
 - The set of integers is denoted by $\mathbb{Z}$ and is given by $\mathbb{Z} = \{..., -3, -2, -1, 0, 1, 2, 3, ...\}$
-- The set of rational numbers is denoted by $\mathbb{Q}$ and is given by $\mathbb{Q} = \{\frac{p}{q} : p$, q \in $\mathbb{Z}$, q$ 
-eq 0\}$
+- The set of rational numbers is denoted by $\mathbb{Q}$ and is given by $\mathbb{Q} = \{\frac{p}{q} : p$, q \in $\mathbb{Z}$, q 
+eq 0\}
 - The set of irrational numbers is denoted by $\mathbb{I}$ and is given by $\mathbb{I} = \{x : x$ 
-otin $\mathbb{Q}$\}$
+otin $\mathbb{Q}$\}
 - $\sqrt{x}$ is the square root of $x$, where $x \geq 0$
 - $\sqrt{x}$ satisfies the equation $\sqrt{x} \times \sqrt{x} = x$
 - $a^2 - b^2 = (a + b)(a - b)$
@@ -166,4 +180,4 @@ Continue your revision with these [related](/blog/areas-related-to-circles-class
 - 📖 [Areas Related To Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/areas-related-to-circles-class-10-notes)
 - 📖 [Arithmetic Progressions Class 10 Exam Prep Revision — Grandmaster Guide](/blog/arithmetic-progressions-class-10-notes)
 - 📖 [Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/circles-class-10-notes)
-$
+

@@ -8,9 +8,22 @@ practice_link: "/practice/human-health-and-disease-class-12-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - Human health is defined as a state of complete physical, mental, and social well-being and not merely the absence of disease or infirmity: $\frac{Health}{Disease} = \frac{Well-being}{Infirmity}$
-- The World Health Organization (WHO) definition of health is: health = $\frac{Physical \$: well-being}{Mental \: well-being} $\times \frac{Social \$: well-being}{Economic \: well-being}$
+- The World Health Organization (WHO) definition of health is: health = $\frac{Physical \$: well-being}{Mental \: well-being} $\times \frac{Social \$: well-being}{Economic \: well-being}
 - The determinants of [health](/blog/reproductive-health-class-12-notes) are: 
 - Genetic 
 - Environmental 
@@ -48,7 +61,7 @@ EQ Acquired
 - Not being able to apply the concepts to real-life situations: $\frac{Concept}{Application} = \frac{Theory}{Practice}$
 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** $What is the World Health Organization (WHO) definition of health?
+- **Question 1:** $What is the World Health Organization (WHO) definition of health?$
 - Step 1: Recall the WHO definition of [health](/blog/reproductive-health-class-12-notes)
 - Step 2: Write down the definition
 - Step 3: Explain the definition
@@ -161,8 +174,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 Continue your revision with these related guides:
 
-- 📖 [Human Reproduction Class 12 Exam Prep Revision$ — Grandmaster Guide](/blog/human-reproduction-class-12-notes)
+- 📖 [Human Reproduction Class 12 Exam Prep Revision$ — Grandmaster Guide](/blog/human-reproduction-class-12-notes)$
 - 📖 [Microbes In Human Welfare Class 12 Exam Prep Revision — Grandmaster Guide](/blog/microbes-in-human-welfare-class-12-notes)
 - 📖 [Reproductive Health Class 12 Exam Prep Revision — Grandmaster Guide](/blog/reproductive-health-class-12-notes)
 - 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
-$
+

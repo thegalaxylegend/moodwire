@@ -8,6 +8,21 @@ practice_link: "/practice/microbes-in-human-welfare-class-12-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [- The [application](/blog/application-of-derivatives-class-12-notes) of microbes in human welfare is vast and diverse, including the production of food, biofuels, and pharmaceuticals.](#the-applicationblogapplication-of-derivatives-class-12-notes-of-microbes-in-human-welfare-is-vast-and-diverse-including-the-production-of-food-biofuels-and-pharmaceuticals)
+3. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+4. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+5. [- The [application](/blog/application-of-derivatives-class-12-notes) of microbes in human welfare is a complex and multifaceted field, requiring a deep understanding of microbial biology and ecology.](#the-applicationblogapplication-of-derivatives-class-12-notes-of-microbes-in-human-welfare-is-a-complex-and-multifaceted-field-requiring-a-deep-understanding-of-microbial-biology-and-ecology)
+6. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+7. [👁️ Ayush's Note](#ayushs-note)
+8. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+9. [📝 Practice MCQs](#practice-mcqs)
+10. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - Microbes are microscopic organisms that are too small to be seen with the naked eye, and they play a crucial role in human welfare, including $\frac{1}{3}$ of the global food production.
 - The formula for calculating the population growth of microbes is given by: $\frac{dN}{dt} = \mu \times N$, where $\mu$ is the growth rate and $N$ is the population size.
@@ -158,3 +173,4 @@ Continue your revision with these related guides:
 - 📖 [Human Reproduction Class 12 Exam Prep Revision — Grandmaster Guide](/blog/human-reproduction-class-12-notes)
 - 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
 - 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+

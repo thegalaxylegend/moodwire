@@ -116,7 +116,7 @@ manualReview: false
 
 - y^2 + 2yz 
 
-- z^$2:** 
+- z^$2:** $
  
 
 - 85% scorers might try $(x^2-y^2) + (2yz-z^2)$, which doesn't lead to a common factor.
@@ -140,7 +140,7 @@ manualReview: false
 
 - **Nested forms:** $(2x+3y)^2$ 
 
-- (x-y)^2$. Here, A = (2x+3y)$ and LB = (x-y)$. The factorisation is $[(2x+3y)+(x-y)][(2x+3y)-(x-y)] = (3x+2y)(2x+3$
+- (x-y)^2$. Here, A = (2x+3y)$ and LB = (x-y)$. The factorisation is $[(2x+3y)+(x-y)][(2x+3y)-(x-y)] = (3x+2y)(2x+3
 
 ## <a id="-Ayush-note"></a>👁️ Ayush's Note
 
@@ -159,10 +159,10 @@ manualReview: false
 
 - A^2 
 
-- b^2 = (a+b)(a-b)$ 
+- b^2 = (a+b)(a-b) 
  
 
-- A^2 + b^2 = (a+IB)(A-fib)$ 
+- A^2 + b^2 = (a+IB)(A-fib) 
  
 
 - $(a+b)^2 = a^2 + 2ab + b^2$ 
@@ -170,12 +170,12 @@ manualReview: false
 
 - $(a-b)^2 = a^2$ 
 
-- 2ab + b^$2 
+- 2ab + b^$2 $
  
 
 - A^3 + b^3 = (a+b)(a^2 
 
-- ab + b^2)$
+- ab + b^2)
  
 
 - Factorisation is different from simplification.
@@ -191,53 +191,53 @@ manualReview: false
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 
 **1. If x^2 + 4x + $3 can be factored as $(x +
-a)(x + b)$, then what is the value of a + by?**
-**A)**     3
-**B)**     4
-**C)**     5
-**D)**     6
+a)(x + b)$, then what is the value of a + by?**$
+**A)**      3
+**B)**      4
+**C)**      5
+**D)**      6
 
 **Answer:** D) The value of a + b is obtained by adding the roots of the quadratic equation. Here, we can factor the quadratic as (x + 1)(x + 3), so the roots are 1 and 3, and the $\sum is 4.$
 
 ---
 
-**2. If $2x^2 + 5x + 3$ can be factored as $(2x +
-a)(x + b)$, then what is the value of ab?**
-**A)**     1
-**B)**     2
-**C)**     3
-**D)**     6
+**2. If $2x^2 + 5x + 3$ can be factored as $(2x +$
+a)(x + b)$, then what is the value of ab?**$
+**A)**      1
+**B)**      2
+**C)**      3
+**D)**      6
 
 **Answer:** D) The value of ab is obtained by multiplying the two numbers a and b. We can factor the quadratic as (2x + 1)(x + 3), so the values of a and b are 1 and 3, and their product is 3.
 
 ---
 
-**3. What is the product of the roots of the quadratic equation x^2 + 5x + $6?**
-**A)**     9
-**B)**     10
-**C)**     12
-**D)**     13
+**3. What is the product of the roots of the quadratic equation x^2 + 5x + $6?**$
+**A)**      9
+**B)**      10
+**C)**      12
+**D)**      13
 
 **Answer:** D) The product of the roots of a quadratic equation ax^2 + bx + c is given by c/a. Here, we can factor the quadratic as (x + 2)(x + 3), so the roots are 2 and 3, and their product is 6.
 
 ---
 
 **4. If x^2 + x + $1 can be factored as $(x +
-a)(x + b)$, then what is the value of a^2 + b^2?**
-**A)**     2
-**B)**     3
-**C)**     5
-**D)**     7
+a)(x + b)$, then what is the value of a^2 + b^2?**$
+**A)**      2
+**B)**      3
+**C)**      5
+**D)**      7
 
 **Answer:** B) The value of a^2 + b^2 is obtained by squaring the $\sum$of a and b, and then subtracting the product of a and b. We can factor the quadratic as (x + 1/2 + sort(3)/2)(x + 1/2 - sort(3)/2), so the values of a and b are 1/2 + sort(3)/2 and 1/2 - sort(3)/2, respectively. Their $\sum$is 1, and their product is -1/2, so a^2 + b^2 = 1^2 - (-1/2) = 1 + 1/2 = 3/2.
 
 ---
 
 **5. What is the value of the $\sum of the roots of the quadratic equation x^2 + 4x + 4$?**
-**A)**     2
-**B)**     3
-**C)**     4
-**D)**     6
+**A)**      2
+**B)**      3
+**C)**      4
+**D)**      6
 
 **Answer:** C) The $\sum of the roots of a quadratic equation ax^2 + bx + c is given by -b/a. Here$, we can factor the quadratic as (x + 2)^2, so the root is 2, and the $\sum of the roots is 2.$
 
@@ -261,4 +261,4 @@ Continue your [revision](/blog/anatomy-of-flowering-plants-class-11-revision-not
 - 📖 [Trigonometric Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)
 - 📖 [Mensuration 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide](/blog/mensuration-class-8-notes)
 - 📖 [Algebraic Expressions 8 Class 8 Mathematics Revision — Grandmaster Guide](/blog/algebraic-expressions-class-8-notes)
-$
+

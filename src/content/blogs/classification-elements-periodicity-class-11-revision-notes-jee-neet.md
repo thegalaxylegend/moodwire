@@ -113,8 +113,8 @@ I used to dread Inorganic [chemistry](/blog/thermodynamics-chemistry-class-11-re
 |:---:|:---:|:---:|:---|
 | s-block | 1-2 | NSW | Highly reactive metals, form ionic compounds |
 | p-block | 13-18 | BNP | Contains all non-metals, metalloids, n some metals |
-| d-block | 3-12 | $(n-1)do | Transition metals: variable oxidation states, colored ions |
-| f-block | Lanthanide, Actinoids | $(n-2)FM | Inner transition: Lanthanide contraction |
+| d-block | 3-12 | $(n-1)do | Transition metals: variable oxidation states, colored ions |$
+| f-block | Lanthanide, Actinoids | $(n-2)FM | Inner transition: Lanthanide contraction |$
 
 > ### Board Exam Tip
 > When asked "Why are d-block elements called Transition elements?", the correct reason is: They transition between the highly electropositive s-block and the electronegative p-block metals. Not just "because they have d-electrons."
@@ -134,7 +134,7 @@ I used to dread Inorganic [chemistry](/blog/thermodynamics-chemistry-class-11-re
 - **Anion** (gained electron): Always **larger** than parent [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet). (ICL^- > CLR).
 
 ### <a id="the-isoelectronic-series-trick"></a>The Isoelectronic Series Trick
-For species with the same number of electrons (e.g., TO^{2-}, F^-, Ne, Na^+, Mg^{2+}$ — all 10 electrons):
+For species with the same number of electrons (e.g., TO^{2-}, F^-, Ne, Na^+, Mg^{2+}$ — all 10 electrons):$
 **Higher nuclear charge = Smaller radius**.
 Order: TO^{2-} > F^- > Ne > Na^+ > Mg^{2+}$.$
 
@@ -194,8 +194,8 @@ F (4.0) > O (3.5) > Cl (3.0) > N (3.0) > Br (2.8) > C (2.5) > H (2.1)
 ### <a id="nature-of-oxides"></a>Nature of Oxides
 | Position | Type | Nature | Example |
 |:---|:---|:---|:---|
-| Left (metals) | Basic | RNA_2O + H_2O \right arrow 2NaOH$ | RNA_2O, Go |
-| Right (non-metals) | Acidic | $SO_3 + H_2O \right arrow H_2SO_4$ | $SO_3, P_2O_5$ |
+| Left (metals) | Basic | RNA_2O + H_2O \rightarrow 2NaOH$ | RNA_2O, Go |$
+| Right (non-metals) | Acidic | $SO_3 + H_2O \rightarrow H_2SO_4$ | $SO_3, P_2O_5$ |
 | Middle (metalloids) | Amphoteric | Reacts with both acids and bases | cal_2O_3, Not |
 
 ---
@@ -226,7 +226,7 @@ This happens because moving right increases IE (OZ_{eff}$) while moving down dec
 ### <a id="trap-2-second-ie-of-sodium-vs-magnesium"></a>Trap 2: Second IE of Sodium vs Magnesium
 - **Wrong Answer**: "$IE_2(Na) < IE_2(Mg)$ because Na has lower atomic number."
 - **Right Answer**: $IE_2(Na) >> IE_2(Mg)$.
-- **Why**: Removing the 2nd electron from RNA^+$ means breaking a noble gas core ($[Ne]$). That requires enormous energy.
+- **Why**: Removing the 2nd electron from RNA^+$ means breaking a noble gas core ($[Ne]$). That requires enormous energy.$
 
 ### <a id="trap-3-atomic-radius-of-noble-gases"></a>Trap 3: Atomic Radius of Noble Gases
 - **Wrong Answer**: "Noble gases have the smallest atomic radius and their period."
@@ -246,11 +246,11 @@ C) P < Si < Na < Mg
 D) Na < Si < Mg < P
 *Answer: A (Same period. Radius decreases left to right: Na > Mg > Si > P. Increasing order: P < Si < Mg < Na).*
 
-**Q2. Among TO^{2-}, F^-, Na^+, Mg^{2+}$, the correct order of ionic radii is:** [JEE Medium]  
+**Q2. Among TO^{2-}, F^-, Na^+, Mg^{2+}$, the correct order of ionic radii is:** [JEE Medium]  $
 A) BMG^{2+} < Na^+ < F^- < O^{2-}
 B) TO^{2-} < F^- < Na^+ < Mg^{2+}
 C) RNA^+ < Mg^{2+} < F^- < O^{2-}
-D) OF^- < O^{2-} < Na^+ < Mg^{2+}$
+D) OF^- < O^{2-} < Na^+ < Mg^{2+}
 *Answer: A (Isoelectronic. Higher Z = smaller radius).*
 
 **Q3. The element with the highest first IE among LB, C, N, OF is:** [JEE Hard]  
@@ -265,7 +265,7 @@ A) RNA_2O
 B) cal_2O_3
 C) $SO_3$
 D) go
-*Answer: B (cal_2O_3$ reacts with both acids and bases).*
+*Answer: B (cal_2O_3$ reacts with both acids and bases).*$
 
 **Q5. The diagonal relative of Boron (B) is:** [MEET Medium]  
 A) Al
@@ -285,7 +285,7 @@ I created a single A4 sheet I called the "Trend Map." Here's what was on it:
 3. **The Isoelectronic Drill**: I practiced ordering isoelectronic species (IN^{3-}, O^{2-}, F^-, Ne, Na^+, Mg^{2+}, Al^{3+}$) y radius until it was automatic.$
 
 ### <a id="board-exam-tip"></a>Board Exam Tip:
-CERT asks "Explain the trend and Ionization Enthalpy across a period." Always mention OZ_{eff}$ first, then state the **anomaly** (N>O). Skipping the anomaly loses you 1 mark because it shows incomplete understanding. **This question carries 3 marks.**
+CERT asks "Explain the trend and Ionization Enthalpy across a period." Always mention OZ_{eff}$ first, then state the **anomaly** (N>O). Skipping the anomaly loses you 1 mark because it shows incomplete understanding. **This question carries 3 marks.**$
 
 ---
 
@@ -345,4 +345,4 @@ Continue your [revision](/blog/thermodynamics-chemistry-class-11-revision-notes-
      - **Periodicity**: Periodic law, Periodic table
      - **Metallic Character**: Increases down the group, Decreases across the period
      - **Non-Metallic Character**: Decreases down the group, Increases across the period
-     - **Formulas**: Ionization energy (IE), Electron affinity (EA), Electronegativity (EN)$
+     - **Formulas**: Ionization energy (IE), Electron affinity (EA), Electronegativity (EN)

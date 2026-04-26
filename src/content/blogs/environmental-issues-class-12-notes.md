@@ -8,9 +8,22 @@ practice_link: "/practice/environmental-issues-class-12-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - The greenhouse effect is given by: $\frac{I}{4} \times (1 - \alpha)$, where IN is the solar constant and $\alpha$ is the albedo of the Earth.
-- The concentration of a pollutant can be calculated using: BC = $\frac{Q}{$K \times A$}$, where ACT is the concentration, HQ is the amount of pollutant, OK is the decay constant, and A is the area.$
+- The concentration of a pollutant can be calculated using: BC = $\frac{Q}{$K \times A$}$, where ACT is the concentration, HQ is the amount of pollutant, OK is the decay constant, and A is the area.
 - The air quality index can be calculated using: $AQI = \frac{C}{C_0} \times 100$, where ACT is the concentration of the pollutant and BC_$0 is the standard concentration.$
 - The global warming potential of a gas is given by: $GWP = \frac{\int_{0}^{t} a(t) DT}{\int_{0}^{t} a_{CO_2}(t) DT}$, where a(t)$ is the radiative forcing of the gas and a_{CO_2}(t)$ is the radiative forcing of $CO_2$.
 - The rate of climate change can be calculated using: $\frac{dT}{dt} = \frac{Q}{C_p \times m}$, where DDT is the change in temperature, DDT is the time, HQ is the amount of heat, BC_PA is the specific heat capacity, and me is the mass.
@@ -25,7 +38,7 @@ manualReview: false
 ## ✏️ 3 Solved PYQs
 - What is the main cause of the formation of ground-level ozone?
 - The main cause of the formation of ground-level ozone is the reaction between $NO_$ and vocal in the presence of sunlight.
-- The reaction is as follows: $NO_2 + HV \right arrow NO + OF$, followed$ by TO + O_2 \right arrow O_$3.
+- The reaction is as follows: $NO_2 + HV \rightarrow NO + OF$, followed$ by TO + O_2 \rightarrow O_$3.
 - What is the difference between a hurricane and a typhoon?
 - The difference between a hurricane and a typhoon is the location in which they occur: hurricanes occur in the Atlantic and northeast Pacific, while typhoons occur in the northwest Pacific.
 - Both are types of tropical cyclones, characterized by strong winds and heavy rainfall.
@@ -132,4 +145,4 @@ Continue your revision with these related guides:
 - 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
 - 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
 - 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
-$
+

@@ -8,6 +8,19 @@ practice_link: "/practice/nuclei-class-12-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - Nuclear radius: $r = r_0 \times A^{\frac{1}{3}}$, where $r_0 = 1.2 \times 10^{-15} m$
 - Nuclear density: $\rho = \frac{m}{V} = \frac{A \times m}{\frac{4}{3} \pi r^3} = \frac{3A \times m}{4 \pi r_0^3 \times A} = \frac{3m}{4 \pi r_0^3}$
@@ -27,7 +40,7 @@ manualReview: false
 - Not using the correct units for nuclear reactions, such as MeV for energy and $m$ for mass
 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** $The binding energy per nucleon for deuteron (^2_1H) and helium (^4_2He) are 1.1 MeV and 7.0 MeV respectively. Calculate the energy released when two deuterons fuse to form a helium nucleus.
+- **Question 1:** $The binding energy per nucleon for deuteron (^2_1H) and helium (^4_2He) are 1.1 MeV and 7.0 MeV respectively. Calculate the energy released when two deuterons fuse to form a helium nucleus.$
 - Step 1: Calculate the total binding energy for deuteron and helium
 - Step 2: Calculate the energy released using the formula Q = (m_1 + m_2 - m_3 - m_4)c^2
 - Step 3: Substitute the values and calculate the energy released
@@ -131,7 +144,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 Continue your revision with these related guides:
 
-- 📖 [Atoms Class 12 Physics Revision$ — Grandmaster Guide](/blog/atoms-class-12-notes)
+- 📖 [Atoms Class 12 Physics Revision$ — Grandmaster Guide](/blog/atoms-class-12-notes)$
 - 📖 [Communication Systems Class 12 Physics Revision — Grandmaster Guide](/blog/communication-systems-class-12-notes)
 - 📖 [Dual Nature Of Radiation Class 12 Physics Revision — Grandmaster Guide](/blog/dual-nature-of-radiation-class-12-notes)
 - 📖 [Semiconductor Electronics Class 12 Physics Revision — Grandmaster Guide](/blog/semiconductor-electronics-class-12-notes)
+

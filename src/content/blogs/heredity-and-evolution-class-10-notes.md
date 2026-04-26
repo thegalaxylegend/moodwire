@@ -329,7 +329,7 @@ Step 5: Answer the specific questions.
  - a) Genotype of F1 generation: All $Rr$.
  - b) Phenotypic ratio of F2 generation: $3:1$ (Round : Wrinkled).
  - c) Percentage of F2 plants heterozygous: From the Punnett square, 2 out of 4 genotypes are $Rr$.
- -   rcentage = $\frac{2}${4} \times 100\% 
+ -    centage = $\frac{2}${4} \times 100\% 
 
 **Final Answer:**
 a) Rr
@@ -483,7 +483,7 @@ D) His children will be unable to develop strong lung capacity or muscle enduran
  * **Gene:** Unit of inheritance, segment of DNA.
  * **Allele:** Alternative forms of a gene (e.g.
 
-- T and t for he\right).
+- T and t for he\r\right).
  * **Dominant Allele:** Expresses itself in both homozygous (TT) and heterozygous (Tt) conditions.
  * **Recessive Allele:** Expresses itself only in the homozygous (tt) condition.
  * **Genotype:** Genetic constitution of an organism (e.g.
@@ -515,8 +515,8 @@ D) His children will be unable to develop strong lung capacity or muscle enduran
 - **Inherited Traits:**
  * **Inherited Traits:** **
  * Controlled by genes (DNA).
- * Passed on from parents to offspring.
- * Influence the fundamental genetic makeup.
+ * passed on from parents to offspring.
+ * influence the fundamental genetic makeup.
  * Examples: Eye colour, hair type, blood group, genetic diseases.
  * **Acquired Traits:**
  * Developed during an individual's lifetime due to environmental influences or personal experiences.
@@ -588,50 +588,50 @@ Genetic information is passed from parents to offspring through the transmission
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. How many types of mutations are there? (1, 2, or 3)**
-**A)**    Point mutation
-**B)**    Displacement mutation
-**C)**    Frameshift mutation
-**D)**    Gene duplication
+**A)**     Point mutation
+**B)**     Displacement mutation
+**C)**     Frameshift mutation
+**D)**     Gene duplication
 
 **Answer:** D) The correct answer is D) Gene duplication. The other options are all types of mutations, but the question asks for the number of types, which is 3 (point, displacement, and frameshift).
 
 ---
 
 **2. The frequency of a trait in a population can be described by the Hardy-Weinberg principle. Which of the following is NOT a necessary condition for the Hardy-Weinberg principle to hold?**
-**A)**    Large population size
-**B)**    No mutation
-**C)**    $p^2 + 2pq + q^2 = 1$
-**D)**    Random mating
+**A)**     Large population size
+**B)**     No mutation
+**C)**     $p^2 + 2pq + q^2 = 1$
+**D)**     Random mating
 
 **Answer:** A) The correct answer is A) Large population size, because the Hardy-Weinberg principle assumes a large population size, not that it is NOT a necessary condition. The other options are all correct conditions for the Hardy-Weinberg principle to hold.
 
 ---
 
 **3. A population of 1000 birds has a frequency of $p = 0.6$ for the dominant allele for a certain trait. If the birds are randomly mated, what is the expected frequency of the recessive homozygous genotype?**
-**A)**    60%
-**B)**    40%
-**C)**    20%
-**D)**    10%
+**A)**     60%
+**B)**     40%
+**C)**     20%
+**D)**     10%
 
 **Answer:** B) The correct answer is B) 40%. Using the Hardy-Weinberg principle, we can calculate the frequency of the recessive homozygous genotype as $q^2 = (1-p)^2 = (1-0.6)^2 = 0.04 = 4%$. However, since this is a multiple-choice question, we can also use the fact that $p^2 + 2pq + q^2 = 1$ to find $q^2$, and then convert to a percentage.
 
 ---
 
 **4. The process of genetic drift can lead to the loss of genetic variation in a population. Which of the following is an example of genetic drift?**
-**A)**    Artificial selection
-**B)**    Mutation
-**C)**    Gene flow
-**D)**    Random sampling error
+**A)**     Artificial selection
+**B)**     Mutation
+**C)**     Gene flow
+**D)**     Random sampling error
 
 **Answer:** D) The correct answer is D) Random sampling error. The other options are not examples of genetic drift. Artificial selection is a human-driven process, mutation is a random change in the DNA sequence, and gene flow is the movement of genes from one population to another.
 
 ---
 
 **5. The concept of homologous chromosomes is related to what phenomenon?**
-**A)**    Punnett square
-**B)**    $p^2 + 2pq + q^2 = 1$
-**C)**    Meiosis
-**D)**    Mendelian traits
+**A)**     Punnett square
+**B)**     $p^2 + 2pq + q^2 = 1$
+**C)**     Meiosis
+**D)**     Mendelian traits
 
 **Answer:** C) The correct answer is C) Meiosis. Homologous chromosomes are pairs of chromosomes that have the same genes in the same order, and are separated during meiosis. The other options are not related to homologous chromosomes.
 
@@ -655,3 +655,21 @@ Continue your revision with these related guides:
 - 📖 [How do Organisms Reproduce? Class 10 Science Recap — Grandmaster Guide](/blog/how-do-organisms-reproduce-class-10-notes)
 - 📖 [Life Processes Class 10 Science Recap — Grandmaster Guide](/blog/life-processes-class-10-notes)
 - 📖 [Light – Reflection and Refraction Class 10 Science Recap — Grandmaster Guide](/blog/light-reflection-and-refraction-class-10-notes)
+
+---
+
+## 🎬 Watch: Visual Explanation
+
+> 📺 **Class 10th Biology | Chapter 15 | Our Environment | Complete explanation in English** — by *Adhyyan with flow*
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;border-radius:12px;margin:1rem 0;">
+<iframe src="https://www.youtube.com/embed/QGyZHsXSSdQ?rel=0" 
+  style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" 
+  allowfullscreen loading="lazy" 
+  title="Class 10th Biology | Chapter 15 | Our Environment | Complete explanation in English">
+</iframe>
+</div>
+
+<!-- VideoObject Schema (consumed by generate-schema.ts) -->
+<!-- VIDEO_SCHEMA:{"id":"QGyZHsXSSdQ","title":"Class 10th Biology | Chapter 15 | Our Environment | Complete explanation in English","channel":"Adhyyan with flow","thumb":"https://i.ytimg.com/vi/QGyZHsXSSdQ/mqdefault.jpg"} -->
+

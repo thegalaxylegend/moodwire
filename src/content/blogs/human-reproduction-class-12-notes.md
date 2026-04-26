@@ -8,6 +8,38 @@ practice_link: "/practice/human-reproduction-class-12-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [- Incomplete dominance: $\frac{R}{r} \times \frac{R}{r} = \frac{3}{4} \: R \:$ and \: $\frac{1}{4} \$: RJ](#incomplete-dominance-fracrr-times-fracrr-frac34-r-and-frac14-rj)
+3. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+4. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+5. [- The process of spermatogenesis: $ \frac{1}{4} \times \frac{1}{4} = \frac{1}{16} $ chance of each allele being passed on](#the-process-of-spermatogenesis-frac14-times-frac14-frac116-chance-of-each-allele-being-passed-on)
+6. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+7. [👁️ Ayush's Note](#ayushs-note)
+8. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+9. [📝 Practice MCQs](#practice-mcqs)
+10. [📚 Related Topics](#related-topics)
+
+---
+
+## 🎬 Watch: Visual Explanation
+
+> 📺 **MODERN&#39;s abc and abc of Bio, Chem, Phy, Math IX–XII Video** — by *HFI Sekar*
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;border-radius:12px;margin:1rem 0;">
+<iframe src="https://www.youtube.com/embed/vtdec87kQGU?rel=0" 
+  style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" 
+  allowfullscreen loading="lazy" 
+  title="MODERN&#39;s abc and abc of Bio, Chem, Phy, Math IX–XII Video">
+</iframe>
+</div>
+
+<!-- VideoObject Schema (consumed by generate-schema.ts) -->
+<!-- VIDEO_SCHEMA:{"id":"vtdec87kQGU","title":"MODERN&#39;s abc and abc of Bio, Chem, Phy, Math IX–XII Video","channel":"HFI Sekar","thumb":"https://i.ytimg.com/vi/vtdec87kQGU/mqdefault.jpg"} -->
+
+---
+
 ## ⚡ Formula Bank
 - Human reproduction involves the fusion of male and female gametes, resulting in the formation of a zygote: $\frac{1}{2} \times \frac{1}{2} = \frac{1}{4}$ chance of each allele being passed on
 - The human male reproductive system consists of testes, epididymis, vas deferens, seminal vesicles, prostate gland, and urethra: $1 \times 2 \times 3 \times 4 \times 5 \times 6 = 720$ possible combinations of ducts
@@ -55,7 +87,7 @@ manualReview: false
 ## 🧠 The One Thing Most Students Get Wrong
 - Not understanding the concept of genetic inheritance: $ \frac{1}{2} \times \frac{1}{2} = \frac{1}{4} $ chance of each allele being passed on
 - Many students struggle with calculating the probability of certain genetic traits: $ \frac{1}{2} \times \frac{1}{2} = \frac{1}{4} $ chance of each allele being passed on
-- It is essential to understand the basics of genetics, including the laws of Mendel: $ \frac{3}{4} \: R \:$ and \: $\frac{1}{4} \$: r $
+- It is essential to understand the basics of genetics, including the laws of Mendel: $ \frac{3}{4} \: R \:$ and \: $\frac{1}{4} \$: r 
 - Students should also be familiar with the different modes of inheritance, including autosomal dominant and recessive: $ \frac{1}{2} \times \frac{1}{2} = \frac{1}{4} $ chance of each allele being passed on
 - Practice problems and past year questions can help students improve their understanding of genetic inheritance: $ \frac{1}{2} \times \frac{1}{2} = \frac{1}{4} $ chance of each allele being passed on
 
@@ -127,5 +159,6 @@ Continue your revision with these related guides:
 - 📖 [Microbes In Human Welfare Class 12 Exam Prep Revision — Grandmaster Guide](/blog/microbes-in-human-welfare-class-12-notes)
 - 📖 [Reproduction In Organisms Class 12 Exam Prep Revision — Grandmaster Guide](/blog/reproduction-in-organisms-class-12-notes)
 - 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
-$
+
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Human%20Reproduction%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+

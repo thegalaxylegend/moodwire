@@ -7,615 +7,178 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/body-fluids-n-circulation-class-11-revision-notes-neet"
 ---
 
-*Last Updated: [2026](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)-03-28*
+## Table of Contents
+1. [Introduction to Body Fluids and Circulation](#introduction-to-body-fluids-and-circulation)
+2. [Components of Blood](#components-of-blood)
+3. [Circulatory System](#circulatory-system)
+4. [Blood Vessels](#blood-vessels)
+5. [Blood Pressure](#blood-pressure)
+6. [Regulation of Blood Pressure](#regulation-of-blood-pressure)
+7. [Lymphatic System](#lymphatic-system)
+8. [High-Yield Key Points (Anatomy & Physiology)](#high-yield-key-points-anatomy-&-physiology)
+9. [Ayush's Note](#ayushs-note)
+10. [The 5 Marks-Crushing Traps](#the-5-marks-crushing-traps)
+11. [Advanced Practice MCQs](#advanced-practice-mcqs)
+12. [Solved High-Yield Questions](#solved-high-yield-questions)
+13. [Last 5 Minutes Box](#last-5-minutes-box)
 
-## 📑 Table of Contents
+## Introduction to Body Fluids and Circulation
+The human body is composed of approximately 60% water, which is distributed among various body fluids. These fluids play a crucial role in maintaining homeostasis, regulating body temperature, and facilitating the exchange of nutrients and waste products. The circulatory system, also known as the cardiovascular system, is responsible for transporting these fluids throughout the body. It consists of the heart, blood vessels, and blood, which work together to maintain the overall health and function of the body.
 
-1. [📋 Table of Contents](#table-of-contents)
-2. [<a id="what-is-body-fluids-n-circulation"></a>What is Body Fluids And Circulation?](#a-idwhat-is-body-fluids-n-circulationawhat-is-body-fluids-and-circulation)
-3. [<a id="step-2-core-concepts"></a>Step 2: Core Concepts](#a-idstep-2-core-conceptsastep-2-core-concepts)
-4. [<a id="step-3-blood-composition"></a>Step 3: Blood Composition](#a-idstep-3-blood-compositionastep-3-blood-composition)
-5. [<a id="step-4-blood-groups-n-rh-factor"></a>Step 4: Blood Groups and Rh Factor](#a-idstep-4-blood-groups-n-rh-factorastep-4-blood-groups-and-rh-factor)
-6. [<a id="step-5-lymphatic-system"></a>Step 5: Lymphatic System](#a-idstep-5-lymphatic-systemastep-5-lymphatic-system)
-7. [<a id="step-6-circulation-n-blood-pressure"></a>Step 6: Circulation and Blood Pressure](#a-idstep-6-circulation-n-blood-pressureastep-6-circulation-and-blood-pressure)
-8. [<a id="step-7-jeeneet-data"></a>Step 7: JEE/NEET Data](#a-idstep-7-jeeneet-dataastep-7-jeeneet-data)
-9. [<a id="step-8-formulae"></a>Step 8: Formulae](#a-idstep-8-formulaeastep-8-formulae)
-10. [<a id="step-9-mcqs"></a>Step 9: MCQs](#a-idstep-9-mcqsastep-9-mcqs)
-11. [<a id="step-10-core-concept-map"></a>Step 10: Core Concept Map](#a-idstep-10-core-concept-mapastep-10-core-concept-map)
-12. [<a id="step-11-practice-questions"></a>Step 11: Practice Questions](#a-idstep-11-practice-questionsastep-11-practice-questions)
-13. [<a id="step-12-important-terms"></a>Step 12: Important Terms](#a-idstep-12-important-termsastep-12-important-terms)
-14. [<a id="step-13-diagrams-n-illustrations"></a>Step 13: Diagrams and Illustrations](#a-idstep-13-diagrams-n-illustrationsastep-13-diagrams-and-illustrations)
-15. [<a id="step-14-case-studies"></a>Step 14: Case Studies](#a-idstep-14-case-studiesastep-14-case-studies)
-16. [<a id="step-15-recent-advances"></a>Step 15: Recent Advances](#a-idstep-15-recent-advancesastep-15-recent-advances)
-17. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
-18. [📚 Related Topics](#related-topics)
-19. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
-20. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+## Components of Blood
+Blood is a complex fluid composed of:
+* **Plasma**: The liquid portion of blood, making up approximately 55% of its total content. Plasma is mostly water, with the remaining 45% consisting of:
+  + **Proteins**: such as albumin, globulins, and fibrinogen
+  + **Nutrients**: like glucose, amino acids, and fatty acids
+  + **Hormones**: like insulin, adrenaline, and thyroxine
+  + **Waste products**: like urea, creatinine, and bilirubin
+* **Formed elements**: The solid portion of blood, making up approximately 45% of its total content. Formed elements include:
+  + **Red blood cells (RBCs)**: responsible for transporting oxygen from the lungs to the body's tissues
+  + **White blood cells (WBCs)**: play a crucial role in the immune system, helping to fight infections
+  + **Platelets**: involved in blood clotting, preventing excessive bleeding
 
----
+## Circulatory System
+The circulatory system is a closed system, meaning that blood is pumped throughout the body in a continuous loop. It consists of:
+* **Arteries**: Blood vessels that carry oxygenated blood away from the heart to the rest of the body
+* **Veins**: Blood vessels that carry deoxygenated blood back to the heart
+* **Capillaries**: Tiny blood vessels where the exchange of oxygen, nutrients, and waste products occurs between the blood and the body's tissues
+* **Heart**: A muscular organ that pumps blood throughout the body
 
-## 📋 Table of Contents
+## Blood Vessels
+Blood vessels are classified into three main types:
+* **Arteries**: Thick-walled vessels that carry oxygenated blood away from the heart. Arteries have a thick muscular layer, allowing them to withstand high blood pressure.
+* **Veins**: Thin-walled vessels that carry deoxygenated blood back to the heart. Veins have one-way valves to prevent blood from flowing backwards.
+* **Capillaries**: Tiny, thin-walled vessels where the exchange of oxygen, nutrients, and waste products occurs between the blood and the body's tissues.
 
-- [What is Body Fluids And Circulation?](#what-is-body-fluids-n-circulation)
-- [Step 2: Core Concepts](#step-2-core-concepts)
-- [Step 3: Blood Composition](#step-3-blood-composition)
-- [Step 4: Blood Groups and Rh Factor](#step-4-blood-groups-n-rh-factor)
-- [Step 5: Lymphatic System](#step-5-lymphatic-system)
-- [Step 6: Circulation and Blood Pressure](#step-6-circulation-n-blood-pressure)
-- [Step 7: JEE/NEET Data](#step-7-jeeneet-data)
-- [Step 8: Formulae](#step-8-formulae)
-- [Step 9: MCQs](#step-9-mcqs)
-- [Step 10: Core Concept Map](#step-10-core-concept-map)
-- [Step 11: Practice Questions](#step-11-practice-questions)
-- [Step 12: Important Terms](#step-12-important-terms)
-- [Step 13: Diagrams and Illustrations](#step-13-diagrams-n-illustrations)
-- [Step 14: Case Studies](#step-14-case-studies)
-- [Step 15: Recent Advances](#step-15-recent-advances)
-- [📚 Related Topics](#-related-topics)
+## Blood Pressure
+Blood pressure is the force exerted by blood on the walls of blood vessels. It is measured in millimeters of mercury (mmHg) and is typically expressed as two values:
+* **Systolic blood pressure**: The pressure in the arteries when the heart beats (contracts)
+* **Diastolic blood pressure**: The pressure in the arteries when the heart relaxes (between beats)
 
-# Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide
+## Regulation of Blood Pressure
+Blood pressure is regulated by:
+* **Baroreceptors**: Specialized sensory receptors located in the walls of blood vessels, which detect changes in blood pressure and send signals to the brain
+* **Autonomic nervous system**: The sympathetic and parasympathetic nervous systems, which work together to regulate blood pressure
+* **Renin-angioten\sin-aldosterone system**: A complex system involving the kidneys, liver, and adrenal glands, which helps to regulate blood pressure by controlling the amount of fluid in the bloodstream
 
-## <a id="what-is-body-fluids-n-circulation"></a>What is Body Fluids And Circulation?
+## Lymphatic System
+The lymphatic system is a network of vessels, organs, and tissues that help to defend the body against infection and disease. It plays a crucial role in:
+* **Removing waste products**: The lymphatic system helps to remove waste products, such as proteins, bacteria, and other foreign substances, from the body's tissues
+* **Transporting lymph**: The lymphatic system transports lymph, a clear fluid that carries immune cells, nutrients, and waste products, throughout the body
+* **Filtering lymph**: The lymphatic system filters lymph through lymph nodes, which help to remove pathogens and other foreign substances from the body
 
-The human body is composed of approximately 60% water, with a significant portion of it being distributed among various body fluids. These fluids play a crucial role and maintaining homeostasis, regulating body temperature, n facilitating the [exchange](/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet) of nutrients and waste products. The primary body fluids are blood, lymph, n interstitial fluid. Blood, which accounts for about 8% of the total body weight, is a connective tissue that consists of plasma and formed elements, such as red blood cells, white blood cells, n platelets.
+## High-Yield Key Points (Anatomy & Physiology)
+* The average adult human body contains approximately 5 liters of blood
+* The heart pumps around 2,000 gallons of blood per day
+* The circulatory system is a closed system, meaning that blood is pumped throughout the body in a continuous loop
+* Arteries carry oxygenated blood away from the heart, while veins carry deoxygenated blood back to the heart
+* Capillaries are the smallest blood vessels, where the exchange of oxygen, nutrients, and waste products occurs between the blood and the body's tissues
+* Blood pressure is regulated by baroreceptors, the autonomic nervous system, and the renin-angioten\sin-aldosterone system
 
-## <a id="step-2-core-concepts"></a>Step 2: Core Concepts
+## Ayush's Note
+When studying body fluids and circulation, it's essential to understand the relationships between the different components of the circulatory system. Focus on the functions of each type of blood vessel, the regulation of blood pressure, and the role of the lymphatic system in defending the body against infection and disease. Practice questions and diagrams can help to reinforce your knowledge and improve your understanding of these complex concepts.
 
-The circulatory system, also known as the cardiovascular system, is responsible for transporting blood throughout the body. It comprises the heart, arteries, veins, n capillaries. The heart, a muscular organ, pumps blood through the circulatory system, while the arteries, veins, n capillaries serve as the conduits for blood flow. The circulatory system is further divided into two main circuits: the pulmonary circuit and the systemic circuit. The pulmonary circuit transports deoxygenated blood from the heart to the lungs, where it becomes oxygenated, n then returns it to the heart. The systemic circuit, on the other hand, carries oxygenated blood from the heart to the rest of the body and returns deoxygenated blood back to the heart.
+## The 5 Marks-Crushing Traps
+1. **Confusing arteries and veins**: Make sure to remember that arteries carry oxygenated blood away from the heart, while veins carry deoxygenated blood back to the heart.
+2. **Forgetting the role of capillaries**: Capillaries are the smallest blood vessels, where the exchange of oxygen, nutrients, and waste products occurs between the blood and the body's tissues.
+3. **Not understanding blood pressure regulation**: Blood pressure is regulated by baroreceptors, the autonomic nervous system, and the renin-angioten\sin-aldosterone system.
+4. **Overlooking the lymphatic system**: The lymphatic system plays a crucial role in defending the body against infection and disease, and is responsible for removing waste products and transporting lymph throughout the body.
+5. **Not recognizing the clinical significance of body fluids and circulation**: Understanding the relationships between body fluids and circulation is essential for diagnosing and treating a range of medical conditions, from hypertension to heart failure.
 
-## <a id="step-3-blood-composition"></a>Step 3: Blood Composition
-
-Blood is a complex fluid that consists of several components, including:
-- Plasma: The liquid portion of blood, which accounts for approximately 55% of its total volume. Plasma is composed of water, proteins, nutrients, hormones, [gases](/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet), waste products, n other substances.
-- Red Blood Cells (RBCs): Also known as erythrocytes, RBCs are responsible for transporting oxygen from the lungs to the body's tissues. They contain the protein hemoglobin, which binds to oxygen, allowing it to be carried throughout the body.
-- White Blood Cells (WBCs): WBCs, or leukocytes, play a vital role and the immune system, helping to protect the body against infection and disease.
-- Platelets: These small, irregularly-shaped cells are involved and blood clotting, which helps to prevent excessive bleeding when a blood vessel is injured.
-
-## <a id="step-4-blood-groups-n-rh-factor"></a>Step 4: Blood Groups and Rh Factor
-
-Blood groups are classified based on the presence or absence of specific antigens on the surface of red blood cells. The major blood groups are A, B, AB, n O. The Rh factor is another important antigen that can be either present (Rh+) or absent (Rh-). The combination of blood group and Rh factor determines an individual's blood type, which is crucial for blood transfusions and pregnancy.
-
-## <a id="step-5-lymphatic-system"></a>Step 5: Lymphatic System
-
-The lymphatic system, also known as the lymphoid system, is a network of vessels, organs, n tissues that help defend the body against infection and disease. The lymphatic system is responsible for:
-- Filtering lymph, a clear fluid that originates from blood plasma, to remove waste products, bacteria, n other foreign substances.
-- Aiding and the transport of fats and fat-soluble vitamins from the digestive system to the bloodstream.
-- Producing immune cells, such as lymphocytes, which help to fight infection and disease.
-
-## <a id="step-6-circulation-n-blood-pressure"></a>Step 6: Circulation and Blood Pressure
-
-The circulatory system is driven y the heart's pumping action, which creates blood pressure. Blood pressure is the force exerted y blood against the walls of blood vessels. It is measured and millimeters of mercury (mmHg) n is typically expressed as systolic pressure (the highest pressure during a heartbeat) over diastolic pressure (the lowest pressure between heartbeats). The average blood pressure for a healthy adult is approximately 120/80 mmHg.
-
-## <a id="step-7-jeeneet-data"></a>Step 7: JEE/NEET Data
-
-For JEE n [neet](/blog/locomotion-and-movement-class-11-revision-notes-neet) aspirants, it is essential to have a thorough understanding of the concepts related to body fluids and circulation. Some key points to focus on include:
-- The [structure](/blog/structure-of-the-atom-class-11-revision-notes-neet) and function of the heart, including the atria, ventricles, septa, n valves.
-- The different types of blood vessels, such as arteries, veins, n capillaries, n their respective functions.
-- The composition and functions of blood, including plasma, RBCs, WBCs, n platelets.
-- The lymphatic system, including the structure and function of lymph nodes, lymph vessels, n lymphoid organs.
-
-## <a id="step-8-formulae"></a>Step 8: Formulae
-
-Some important formulae related to body fluids and circulation include:
-- Blood pressure (BP) = $\frac{Cardiac \: Output \: (CO) \: \times \: Peripheral \: Resistance \: (PR)}{1} = \frac{Stroke \: Volume \: (SV) \: \times \: Heart \: Rate \: (HR){1}}$, where CO is the volume of blood pumped y the heart per minute, n PR is the resistance to blood flow and the blood vessels.
-- Cardiac output (CO) = $, where SV is the volume of blood pumped y the heart per beat, n HR is the number of heartbeats per minute.$
-
-## <a id="step-9-mcqs"></a>Step 9: MCQs
-
-Some sample MCQs related to body fluids and circulation include:
+## Advanced Practice MCQs
 1. What is the primary function of the lymphatic system?
-a) To transport oxygen and nutrients to the body's tissues
-b) To remove waste products and foreign substances from the body
-c) To produce immune cells and aid and the fight against infection and disease
-d) To regulate body temperature
-
-Answer: c) To produce immune cells and aid and the fight against infection and disease
-
-2. Which of the following blood vessels has the thinnest walls?
-a) Artery
-b) Vein
-c) Capillary
-d) Lymph vessel
-
-Answer: c) Capillary
-
-3. What is the average blood pressure for a healthy adult?
-a) 100/60 mmHg
-b) 120/80 mmHg
-c) 140/90 mmHg
-d) 160/100 mmHg
-
-Answer: b) 120/80 mmHg
-
-## <a id="step-10-core-concept-map"></a>Step 10: Core Concept Map
-
-To better understand the concepts related to body fluids and circulation, it is helpful to create a concept map that illustrates the relationships between different ideas. A concept map for this topic might include the following nodes and connections:
-- Heart: pumps blood throughout the body
-- Arteries: carry oxygenated blood away from the heart
-- Veins: carry deoxygenated blood back to the heart
-- Capillaries: allow for the [exchange](/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet) of oxygen and nutrients with the body's tissues
-- Lymphatic system: filters lymph and aids and the transport of fats and fat-soluble vitamins
-- Blood pressure: the force exerted y blood against the walls of blood vessels
-- Cardiac output: the volume of blood pumped y the heart per minute
-
-## <a id="step-11-practice-questions"></a>Step 11: Practice Questions
-
-To reinforce understanding and prepare for JEE n [neet](/blog/locomotion-and-movement-class-11-revision-notes-neet) exams, practice questions and past-year papers should be solved regularly. Some sample practice questions include:
-1. Describe the structure and function of the heart, including the atria, ventricles, septa, n valves.
-2. Explain the different types of blood vessels, including arteries, veins, n capillaries, n their respective functions.
-3. What is the composition and function of blood, including plasma, RBCs, WBCs, n platelets?
-4. Describe the lymphatic system, including the structure and function of lymph nodes, lymph vessels, n lymphoid organs.
-
-## <a id="step-12-important-terms"></a>Step 12: Important Terms
-
-Some important terms related to body fluids and circulation include:
-- Angiogenesis: the formation of new blood vessels
-- Atherosclerosis: the buildup of plaque and the arteries, leading to hardening and narrowing of the blood vessels
-- Diastole: the period of relaxation between heartbeats
-- Hypertension: high blood pressure
-- Isotonic: having the same concentration of solutes as blood plasma
-- Osmosis: the [movement](/blog/locomotion-and-movement-class-11-revision-notes-neet) of water molecules from an area of high concentration to an area of low concentration through a semipermeable membrane
-- Phlebotomy: the removal of blood from the body, often for medical testing or donation
-- Systole: the period of contraction during a heartbeat
-- Thrombosis: the formation of a blood clot within a blood vessel
-
-## <a id="step-13-diagrams-n-illustrations"></a>Step 13: Diagrams and Illustrations
-
-Diagrams and illustrations can be helpful and understanding the concepts related to body fluids and circulation. Some examples include:
-- A diagram of the heart, showing the atria, ventricles, septa, n valves
-- An illustration of the blood vessels, including arteries, veins, n capillaries
-- A picture of the lymphatic system, including lymph nodes, lymph vessels, n lymphoid organs
-- A graph showing the relationship between blood pressure and cardiac output
-
-## <a id="step-14-case-studies"></a>Step 14: Case Studies
-
-Case studies can provide real-[world](/blog/the-living-world-class-11-revision-notes-neet) examples of how body fluids and circulation are affected y different conditions and diseases. Some examples include:
-- A patient with hypertension, who must manage their blood pressure through lifestyle changes and medication
-- A person with anemia, who may require blood transfusions to increase their red blood cell count
-- An individual with atherosclerosis, who must manage their condition through lifestyle changes and medication to prevent further buildup of plaque and the arteries
-- A patient with lymphoma, who must undergo treatment to manage their cancer and prevent further damage to the lymphatic system.
-
-## <a id="step-15-recent-advances"></a>Step 15: Recent Advances
-
-Recent advances and the field of body fluids and circulation include:
-- The development of new medications and treatments for cardiovascular disease
-- The use of stem cells to repair damaged blood vessels and heart tissue
-- The creation of artificial blood vessels and organs, such as artificial hearts and lungs
-- The development of new diagnostic techniques, such as imaging tests and biomarkers, to detect and monitor cardiovascular disease.
-
-By understanding the concepts related to body fluids and circulation, individuals can better appreciate the importance of maintaining a healthy cardiovascular system and take steps to prevent and manage cardiovascular disease. Regular exercise, a balanced diet, n stress management can all help to promote cardiovascular health and reduce the risk of disease. Additionally, staying informed about recent advances and breakthroughs and the field can provide individuals with the knowledge and tools they need to take [control](/blog/neural-control-and-coordination-class-11-revision-notes-neet) of their health and make informed decisions about their care. 
-
-The equation for blood pressure can be written and LaTeX as $BP = \frac{CO \times PR}{1}$, n the equation for cardiac output can be written as $CO = SV \times HR$. The structure of the heart can be represented using the following LaTeX equation:$\boxed{Heart} = \boxed{Atria} + \boxed{Ventricles} + \boxed{Septa} + \boxed{Valves}$. 
-
-Using LaTeX to create equations and diagrams can help to make complex concepts more accessible and easier to understand, n can be a valuable tool for students and researchers and the field of biology and medicine. 
-
-Furthermore, the use of LaTeX can help to create professional-looking documents and presentations, n can be used to create a wide range of visual aids, including diagrams, charts, n graphs. 
-
-In addition to its use and creating equations and diagrams, LaTeX can also be used to create tables, such as the following table showing the different types of blood vessels:
-
-\begin{tabular}{|c|c|c|}
-\hline
-Type of Blood Vessel & Function & Example \\
-\hline
-Artery & Carries oxygenated blood away from the heart & Aorta \\
-\hline
-Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
-\hline
-Capillary & Allows for the [exchange](/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet) of oxygen and nutrients with the body's tissues & Lung capillaries \\
-\hline
-\end{tabular}
-
-This table can be used to help illustrate the different types of blood vessels and their functions, n can be a useful tool for students and researchers and the field of biology and medicine. 
-
-Overall, the use of LaTeX can be a valuable tool for creating professional-looking documents and presentations, n can help to make complex concepts more accessible and easier to understand. 
-
-Moreover, the use of LaTeX can help to create a wide range of visual aids, including diagrams, charts, n graphs, n can be used to create tables and other types of visual aids. 
-
-The use of LaTeX can also help to create equations and formulas, such as the equation for blood pressure, n can be used to create a wide range of mathematical expressions. 
-
-In addition to its use and creating visual aids and equations, LaTeX can also be used to create a wide range of documents, including articles, reports, n presentations. 
-
-The use of LaTeX can help to create professional-looking documents and presentations, n can be a valuable tool for students and researchers and the field of biology and medicine. 
-
-Furthermore, the use of LaTeX can help to make complex concepts more accessible and easier to understand, n can be used to create a wide range of visual aids and equations. 
-
-The equation for cardiac output can be written and LaTeX as $CO = SV \times HR$, n the structure of the heart can be represented using the following LaTeX equation:
-$\boxed{Heart} = \boxed{Atria} + \boxed{Ventricles} + \boxed{Septa} + \boxed{Valves}$. 
-
-Using LaTeX to create equations and diagrams can help to make complex concepts more accessible and easier to understand, n can be a valuable tool for students and researchers and the field of biology and medicine. 
-
-The use of LaTeX can also help to create professional-looking documents and presentations, n can be used to create a wide range of visual aids, including diagrams, charts, n graphs. 
-
-In addition to its use and creating equations and diagrams, LaTeX can also be used to create tables, such as the following table showing the different types of blood vessels:
-
-\begin{tabular}{|c|c|c|}
-\hline
-Type of Blood Vessel & Function & Example \\
-\hline
-Artery & Carries oxygenated blood away from the heart & Aorta \\
-\hline
-Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
-\hline
-Capillary & Allows for the [exchange](/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet) of oxygen and nutrients with the body's tissues & Lung capillaries \\
-\hline
-\end{tabular}
-
-This table can be used to help illustrate the different types of blood vessels and their functions, n can be a useful tool for students and researchers and the field of biology and medicine. 
-
-Overall, the use of LaTeX can be a valuable tool for creating professional-looking documents and presentations, n can help to make complex concepts more accessible and easier to understand. 
-
-Moreover, the use of LaTeX can help to create a wide range of visual aids, including diagrams, charts, n graphs, n can be used to create tables and other types of visual aids. 
-
-The use of LaTeX can also help to create equations and formulas, such as the equation for blood pressure, n can be used to create a wide range of mathematical expressions. 
-
-In addition to its use and creating visual aids and equations, LaTeX can also be used to create a wide range of documents, including articles, reports, n presentations. 
-
-The use of LaTeX can help to create professional-looking documents and presentations, n can be a valuable tool for students and researchers and the field of biology and medicine. 
-
-Furthermore, the use of LaTeX can help to make complex concepts more accessible and easier to understand, n can be used to create a wide range of visual aids and equations. 
-
-The equation for cardiac output can be written and LaTeX as $CO = SV \times HR$, n the structure of the heart can be represented using the following LaTeX equation:
-$\boxed{Heart} = \boxed{Atria} + \boxed{Ventricles} + \boxed{Septa} + \boxed{Valves}$. 
-
-Using LaTeX to create equations and diagrams can help to make complex concepts more accessible and easier to understand, n can be a valuable tool for students and researchers and the field of biology and medicine. 
-
-The use of LaTeX can also help to create professional-looking documents and presentations, n can be used to create a wide range of visual aids, including diagrams, charts, n graphs. 
-
-In addition to its use and creating equations and diagrams, LaTeX can also be used to create tables, such as the following table showing the different types of blood vessels:
-
-\begin{tabular}{|c|c|c|}
-\hline
-Type of Blood Vessel & Function & Example \\
-\hline
-Artery & Carries oxygenated blood away from the heart & Aorta \\
-\hline
-Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
-\hline
-Capillary & Allows for the [exchange](/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet) of oxygen and nutrients with the body's tissues & Lung capillaries \\
-\hline
-\end{tabular}
-
-This table can be used to help illustrate the different types of blood vessels and their functions, n can be a useful tool for students and researchers and the field of biology and medicine. 
-
-Overall, the use of LaTeX can be a valuable tool for creating professional-looking documents and presentations, n can help to make complex concepts more accessible and easier to understand. 
-
-Moreover, the use of LaTeX can help to create a wide range of visual aids, including diagrams, charts, n graphs, n can be used to create tables and other types of visual aids. 
-
-The use of LaTeX can also help to create equations and formulas, such as the equation for blood pressure, n can be used to create a wide range of mathematical expressions. 
-
-In addition to its use and creating visual aids and equations, LaTeX can also be used to create a wide range of documents, including articles, reports, n presentations. 
-
-The use of LaTeX can help to create professional-looking documents and presentations, n can be a valuable tool for students and researchers and the field of biology and medicine. 
-
-Furthermore, the use of LaTeX can help to make complex concepts more accessible and easier to understand, n can be used to create a wide range of visual aids and equations. 
-
-The equation for cardiac output can be written and LaTeX as $CO = SV \times HR$, n the structure of the heart can be represented using the following LaTeX equation:
-$\boxed{Heart} = \boxed{Atria} + \boxed{Ventricles} + \boxed{Septa} + \boxed{Valves}$. 
-
-Using LaTeX to create equations and diagrams can help to make complex concepts more accessible and easier to understand, n can be a valuable tool for students and researchers and the field of biology and medicine. 
-
-The use of LaTeX can also help to create professional-looking documents and presentations, n can be used to create a wide range of visual aids, including diagrams, charts, n graphs. 
-
-In addition to its use and creating equations and diagrams, LaTeX can also be used to create tables, such as the following table showing the different types of blood vessels:
-
-\begin{tabular}{|c|c|c|}
-\hline
-Type of Blood Vessel & Function & Example \\
-\hline
-Artery & Carries oxygenated blood away from the heart & Aorta \\
-\hline
-Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
-\hline
-Capillary & Allows for the [exchange](/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet) of oxygen and nutrients with the body's tissues & Lung capillaries \\
-\hline
-\end{tabular}
-
-This table can be used to help illustrate the different types of blood vessels and their functions, n can be a useful tool for students and researchers and the field of biology and medicine. 
-
-Overall, the use of LaTeX can be a valuable tool for creating professional-looking documents and presentations, n can help to make complex concepts more accessible and easier to understand. 
-
-Moreover, the use of LaTeX can help to create a wide range of visual aids, including diagrams, charts, n graphs, n can be used to create tables and other types of visual aids. 
-
-The use of LaTeX can also help to create equations and formulas, such as the equation for blood pressure, n can be used to create a wide range of mathematical expressions. 
-
-In addition to its use and creating visual aids and equations, LaTeX can also be used to create a wide range of documents, including articles, reports, n presentations. 
-
-The use of LaTeX can help to create professional-looking documents and presentations, n can be a valuable tool for students and researchers and the field of biology and medicine. 
-
-Furthermore, the use of LaTeX can help to make complex concepts more accessible and easier to understand, n can be used to create a wide range of visual aids and equations. 
-
-The equation for cardiac output can be written and LaTeX as $CO = SV \times HR$, n the structure of the heart can be represented using the following LaTeX equation:
-$\boxed{Heart} = \boxed{Atria} + \boxed{Ventricles} + \boxed{Septa} + \boxed{Valves}$. 
-
-Using LaTeX to create equations and diagrams can help to make complex concepts more accessible and easier to understand, n can be a valuable tool for students and researchers and the field of biology and medicine. 
-
-The use of LaTeX can also help to create professional-looking documents and presentations, n can be used to create a wide range of visual aids, including diagrams, charts, n graphs. 
-
-In addition to its use and creating equations and diagrams, LaTeX can also be used to create tables, such as the following table showing the different types of blood vessels:
-
-\begin{tabular}{|c|c|c|}
-\hline
-Type of Blood Vessel & Function & Example \\
-\hline
-Artery & Carries oxygenated blood away from the heart & Aorta \\
-\hline
-Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
-\hline
-Capillary & Allows for the [exchange](/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet) of oxygen and nutrients with the body's tissues & Lung capillaries \\
-\hline
-\end{tabular}
-
-This table can be used to help illustrate the different types of blood vessels and their functions, n can be a useful tool for students and researchers and the field of biology and medicine. 
-
-Overall, the use of LaTeX can be a valuable tool for creating professional-looking documents and presentations, n can help to make complex concepts more accessible and easier to understand. 
-
-Moreover, the use of LaTeX can help to create a wide range of visual aids, including diagrams, charts, n graphs, n can be used to create tables and other types of visual aids. 
-
-The use of LaTeX can also help to create equations and formulas, such as the equation for blood pressure, n can be used to create a wide range of mathematical expressions. 
-
-In addition to its use and creating visual aids and equations, LaTeX can also be used to create a wide range of documents, including articles, reports, n presentations. 
-
-The use of LaTeX can help to create professional-looking documents and presentations, n can be a valuable tool for students and researchers and the field of biology and medicine. 
-
-Furthermore, the use of LaTeX can help to make complex concepts more accessible and easier to understand, n can be used to create a wide range of visual aids and equations. 
-
-The equation for cardiac output can be written and LaTeX as $CO = SV \times HR$, n the structure of the heart can be represented using the following LaTeX equation:
-$\boxed{Heart} = \boxed{Atria} + \boxed{Ventricles} + \boxed{Septa} + \boxed{Valves}$. 
-
-Using LaTeX to create equations and diagrams can help to make complex concepts more accessible and easier to understand, n can be a valuable tool for students and researchers and the field of biology and medicine. 
-
-The use of LaTeX can also help to create professional-looking documents and presentations, n can be used to create a wide range of visual aids, including diagrams, charts, n graphs. 
-
-In addition to its use and creating equations and diagrams, LaTeX can also be used to create tables, such as the following table showing the different types of blood vessels:
-
-\begin{tabular}{|c|c|c|}
-\hline
-Type of Blood Vessel & Function & Example \\
-\hline
-Artery & Carries oxygenated blood away from the heart & Aorta \\
-\hline
-Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
-\hline
-Capillary & Allows for the [exchange](/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet) of oxygen and nutrients with the body's tissues & Lung capillaries \\
-\hline
-\end{tabular}
-
-This table can be used to help illustrate the different types of blood vessels and their functions, n can be a useful tool for students and researchers and the field of biology and medicine. 
-
-Overall, the use of LaTeX can be a valuable tool for creating professional-looking documents and presentations, n can help to make complex concepts more accessible and easier to understand. 
-
-Moreover, the use of LaTeX can help to create a wide range of visual aids, including diagrams, charts, n graphs, n can be used to create tables and other types of visual aids. 
-
-The use of LaTeX can also help to create equations and formulas, such as the equation for blood pressure, n can be used to create a wide range of mathematical expressions. 
-
-In addition to its use and creating visual aids and equations, LaTeX can also be used to create a wide range of documents, including articles, reports, n presentations. 
-
-The use of LaTeX can help to create professional-looking documents and presentations, n can be a valuable tool for students and researchers and the field of biology and medicine. 
-
-Furthermore, the use of LaTeX can help to make complex concepts more accessible and easier to understand, n can be used to create a wide range of visual aids and equations. 
-
-The equation for cardiac output can be written and LaTeX as $CO = SV \times HR$, n the structure of the heart can be represented using the following LaTeX equation:
-$\boxed{Heart} = \boxed{Atria} + \boxed{Ventricles} + \boxed{Septa} + \boxed{Valves}$. 
-
-Using LaTeX to create equations and diagrams can help to make complex concepts more accessible and easier to understand, n can be a valuable tool for students and researchers and the field of biology and medicine. 
-
-The use of LaTeX can also help to create professional-looking documents and presentations, n can be used to create a wide range of visual aids, including diagrams, charts, n graphs. 
-
-In addition to its use and creating equations and diagrams, LaTeX can also be used to create tables, such as the following table showing the different types of blood vessels:
-
-\begin{tabular}{|c|c|c|}
-\hline
-Type of Blood Vessel & Function & Example \\
-\hline
-Artery & Carries oxygenated blood away from the heart & Aorta \\
-\hline
-Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
-\hline
-Capillary & Allows for the exchange of oxygen and nutrients with the body's tissues & Lung capillaries \\
-\hline
-\end{tabular}
-
-This table can be used to help illustrate the different types of blood vessels and their functions, n can be a useful tool for students and researchers and the field of biology and medicine. 
-
-Overall, the use of LaTeX can be a valuable tool for creating professional-looking documents and presentations, n can help to make complex concepts more accessible and easier to understand. 
-
-Moreover, the use of LaTeX can help to create a wide range of visual aids, including diagrams, charts, n graphs, n can be used to create tables and other types of visual aids. 
-
-The use of LaTeX can also help to create equations and formulas, such as the equation for blood pressure, n can be used to create a wide range of mathematical expressions. 
-
-In addition to its use and creating visual aids and equations, LaTeX can also be used to create a wide range of documents, including articles, reports, n presentations. 
-
-The use of LaTeX can help to create professional-looking documents and presentations, n can be a valuable tool for students and researchers and the field of biology and medicine. 
-
-Furthermore, the use of LaTeX can help to make complex concepts more accessible and easier to understand, n can be used to create a wide range of visual aids and equations. 
-
-The equation for cardiac output can be written and LaTeX as $CO = SV \times HR$, n the structure of the heart can be represented using the following LaTeX equation:
-$\boxed{Heart} = \boxed{Atria} + \boxed{Ventricles} + \boxed{Septa} + \boxed{Valves}$. 
-
-Using LaTeX to create equations and diagrams can help to make complex concepts more accessible and easier to understand, n can be a valuable tool for students and researchers and the field of biology and medicine. 
-
-The use of LaTeX can also help to create professional-looking documents and presentations, n can be used to create a wide range of visual aids, including diagrams, charts, n graphs. 
-
-In addition to its use and creating equations and diagrams, LaTeX can also be used to create tables, such as the following table showing the different types of blood vessels:
-
-\begin{tabular}{|c|c|c|}
-\hline
-Type of Blood Vessel & Function & Example \\
-\hline
-Artery & Carries oxygenated blood away from the heart & Aorta \\
-\hline
-Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
-\hline
-Capillary & Allows for the exchange of oxygen and nutrients with the body's tissues & Lung capillaries \\
-\hline
-\end{tabular}
-
-This table can be used to help illustrate the different types of blood vessels and their functions, n can be a useful tool for students and researchers and the field of biology and medicine. 
-
-Overall, the use of LaTeX can be a valuable tool for creating professional-looking documents and presentations, n can help to make complex concepts more accessible and easier to understand. 
-
-Moreover, the use of LaTeX can help to create a wide range of visual aids, including diagrams, charts, n graphs, n can be used to create tables and other types of visual aids. 
-
-The use of LaTeX can also help to create equations and formulas, such as the equation for blood pressure, n can be used to create a wide range of mathematical expressions. 
-
-In addition to its use and creating visual aids and equations, LaTeX can also be used to create a wide range of documents, including articles, reports, n presentations. 
-
-The use of LaTeX can help to create professional-looking documents and presentations, n can be a valuable tool for students and researchers and the field of biology and medicine. 
-
-Furthermore, the use of LaTeX can help to make complex concepts more accessible and easier to understand, n can be used to create a wide range of visual aids and equations. 
-
-The equation for cardiac output can be written and LaTeX as $CO = SV \times HR$, n the structure of the heart can be represented using the following LaTeX equation:
-$\boxed{Heart} = \boxed{Atria} + \boxed{Ventricles} + \boxed{Septa} + \boxed{Valves}$. 
-
-Using LaTeX to create equations and diagrams can help to make complex concepts more accessible and easier to understand, n can be a valuable tool for students and researchers and the field of biology and medicine. 
-
-The use of LaTeX can also help to create professional-looking documents and presentations, n can be used to create a wide range of visual aids, including diagrams, charts, n graphs. 
-
-In addition to its use and creating equations and diagrams, LaTeX can also be used to create tables, such as the following table showing the different types of blood vessels:
-
-\begin{tabular}{|c|c|c|}
-\hline
-Type of Blood Vessel & Function & Example \\
-\hline
-Artery & Carries oxygenated blood away from the heart & Aorta \\
-\hline
-Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
-\hline
-Capillary & Allows for the exchange of oxygen and nutrients with the body's tissues & Lung capillaries \\
-\hline
-\end{tabular}
-
-This table can be used to help illustrate the different types of blood vessels and their functions, n can be a useful tool for students and researchers and the field of biology and medicine. 
-
-Overall, the use of LaTeX can be a valuable tool for creating professional-looking documents and presentations, n can help to make complex concepts more accessible and easier to understand. 
-
-Moreover, the use of LaTeX can help to create a wide range of visual aids, including diagrams, charts, n graphs, n can be used to create tables and other types of visual aids. 
-
-The use of LaTeX can also help to create equations and formulas, such as the equation for blood pressure, n can be used to create a wide range of mathematical expressions. 
-
-In addition to its use and creating visual aids and equations, LaTeX can also be used to create a wide range of documents, including articles, reports, n presentations. 
-
-The use of LaTeX can help to create professional-looking documents and presentations, n can be a valuable tool for students and researchers and the field of biology and medicine. 
-
-Furthermore, the use of LaTeX can help to make complex concepts more accessible and easier to understand, n can be used to create a wide range of visual aids and equations. 
-
-The equation for cardiac output can be written and LaTeX as $CO = SV \times HR$, n the structure of the heart can be represented using the following LaTeX equation:
-$\boxed{Heart} = \boxed{Atria} + \boxed{Ventricles} + \boxed{Septa} + \boxed{Valves}$. 
-
-Using LaTeX to create equations and diagrams can help to make complex concepts more accessible and easier to understand, n can be a valuable tool for students and researchers and the field of biology and medicine. 
-
-The use of LaTeX can also help to create professional-looking documents and presentations, n can be used to create a wide range of visual aids, including diagrams, charts, n graphs. 
-
-In addition to its use and creating equations and diagrams, LaTeX can also be used to create tables, such as the following table showing the different types of blood vessels:
-
-\begin{tabular}{|c|c|c|}
-\hline
-Type of Blood Vessel & Function & Example \\
-\hline
-Artery & Carries oxygenated blood away from the heart & Aorta \\
-\hline
-Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
-\hline
-Capillary & Allows for the exchange of oxygen and nutrients with the body's tissues & Lung capillaries \\
-\hline
-\end{tabular}
-
-This table can be used to help illustrate the different types of blood vessels and their functions, n can be a useful tool for students and researchers and the field of biology and medicine. 
-
-Overall, the use of LaTeX can be a valuable tool for creating professional-looking documents and presentations, n can help to make complex concepts more accessible and easier to understand. 
-
-Moreover, the use of LaTeX can help to create a wide range of visual aids, including diagrams, charts, n graphs, n can be used to create tables and other types of visual aids. 
-
-The use of LaTeX can also help to create equations and formulas, such as the equation for blood pressure, n can be used to create a wide range of mathematical expressions. 
-
-In addition to its use and creating visual aids and equations, LaTeX can also be used to create a wide range of documents, including articles, reports, n presentations. 
-
-The use of LaTeX can help to create professional-looking documents and presentations, n can be a valuable tool for students and researchers and the field of biology and medicine. 
-
-Furthermore, the use of LaTeX can help to make complex concepts more accessible and easier to understand, n can be used to create a wide range of visual aids and equations. 
-
-The equation for cardiac output can be written and LaTeX as $CO = SV \times HR$, n the structure of the heart can be represented using the following LaTeX equation:
-$\boxed{Heart} = \boxed{Atria} + \boxed{Ventricles} + \boxed{Septa} + \boxed{Valves}$. 
-
-Using LaTeX to create equations and diagrams can help to make complex concepts more accessible and easier to understand, n can be a valuable tool for students and researchers and the field of biology and medicine. 
-
-The use of LaTeX can also help to create professional-looking documents and presentations, n can be used to create a wide range of visual aids, including diagrams, charts, n graphs. 
-
-In addition to its use and creating equations and diagrams, LaTeX can also be used to create tables, such as the following table showing the different types of blood vessels:
-
-\begin{tabular}{|c|c|c|}
-\hline
-Type of Blood Vessel & Function & Example \\
-\hline
-Artery & Carries oxygenated blood away from the heart & Aorta \\
-\hline
-Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
-\hline
-Capillary & Allows for the exchange of oxygen and nutrients with the body's tissues & Lung capillaries \\
-\hline
-\end{tabular}
-
-This table can be used to help illustrate the different types of blood vessels and their functions, n can be a useful tool for students and researchers and the field of biology and medicine. 
-
-Overall, the use of LaTeX can be a valuable tool for creating professional-looking documents and presentations, n can help to make complex concepts more accessible and easier to understand. 
-
-Moreover, the use of LaTeX can help to create a wide range of visual aids, including diagrams, charts, n graphs, n can be used to create tables and other types of visual aids. 
-
-The use of LaTeX can also help to create equations and formulas, such as the equation for blood pressure, n can be used to create a wide range of mathematical expressions. 
-
-In addition to its use and creating visual aids n
-
----
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
-
----
-
-## <a id="-related-topics"></a>📚 Related Topics
-
-Continue your [revision](/blog/locomotion-and-movement-class-11-revision-notes-neet) with these related guides:
-
-- 📖 [Neural Control And Coordination Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/neural-control-and-coordination-class-11-revision-notes-neet)
-- 📖 [Locomotion And Movement Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/locomotion-and-movement-class-11-revision-notes-neet)
-- 📖 [Structure Of The Atom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/structure-of-the-atom-class-11-revision-notes-neet)
-- 📖 [Digestion And Absorption Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/digestion-and-absorption-class-11-revision-notes-neet)
-
----
-
-### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/body-fluids-n-circulation-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Body%20Fluids%20And%20Circulation%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-
----
-
-## 📚 Related Topics
-
-Continue your [revision](/blog/neural-control-and-coordination-class-11-revision-notes-neet) with these related guides:
-
-- 📖 [Neural Control And Coordination Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/neural-control-and-coordination-class-11-revision-notes-neet)
-- 📖 [Digestion And Absorption Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/digestion-and-absorption-class-11-revision-notes-neet)
-- 📖 [Locomotion And Movement Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/locomotion-and-movement-class-11-revision-notes-neet)
-- 📖 [The Living World Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/the-living-world-class-11-revision-notes-neet)
-
-## 🪤 The 5 Mistakes That Cost Marks
-
-* Not understanding the concept of blood pressure, students often get confused between systolic and diastolic pressures. Systolic pressure is the pressure exerted y blood upon the vessel wall during ventricular systole, while diastolic pressure is the pressure exerted y blood upon the vessel wall during ventricular diastole.
-* Many students struggle to differentiate between open and closed circulatory systems. In an open circulatory system, blood bathes the organs directly, whereas and a closed circulatory system, blood never leaves the blood vessels.
-* Students often find it challenging to understand the concept of double circulation and humans, which includes both pulmonary and systemic circulation. Double circulation ensures that oxygenated and deoxygenated blood are kept separate, allowing for more efficient oxygen delivery to tissues.
-* A common mistake is not recognizing the importance of lymphatic circulation, which and the immune system and the return of interstitial fluid to the blood.
-* Another mistake is not being able to describe the regulation of blood flow and blood pressure, including the role of the autonomic nervous system, hormones like adrenaline, n local factors such as pH and carbon dioxide levels.
-
-## 🔁 Last 5 Minutes Box
-
-### Body Fluids and Circulation
- * Blood: 5 liters (7% body we\right), 55% plasma and 45% cells
- * Plasma: 92% water, 7% proteins, 1% nutrients, waste, gases, etc.
- * Erythrocytes (RBCs): 5 million/mm^3
- * Leucocytes (WBCs): 6,000-8,000/mm^3
- * Thrombocytes (Platelets): 1,50,000-3,50,000/mm^3
- * Blood groups: ABO and Rh
- * Heart: muscular, four-chambered (2 atria, 2 ventricles)
- * Circulatory pathway: heart → arteries → arterioles → capillaries → venules → veins → heart
- * Double circulation: pulmonary and systemic
- * Lymphatic system: transports lymph, helps and immune response
-
+a) To transport oxygenated blood throughout the body
+b) To remove waste products from the body's tissues
+c) To filter lymph and remove pathogens from the body
+d) To regulate blood pressure
+
+Answer: c) To filter lymph and remove pathogens from the body
+
+2. Which of the following blood vessels has the thickest walls?
+a) Arteries
+b) Veins
+c) Capillaries
+d) Lymphatic vessels
+
+Answer: a) Arteries
+
+3. What is the term for the force exerted by blood on the walls of blood vessels?
+a) Blood flow
+b) Blood pressure
+c) Heart rate
+d) Cardiac output
+
+Answer: b) Blood pressure
+
+4. Which of the following systems helps to regulate blood pressure?
+a) Nervous system
+b) Endocrine system
+c) Renin-angioten\sin-aldosterone system
+d) All of the above
+
+Answer: d) All of the above
+
+5. What is the name of the fluid that carries immune cells, nutrients, and waste products throughout the body?
+a) Blood
+b) Lymph
+c) Plasma
+d) Interstitial fluid
+
+Answer: b) Lymph
+
+6. Which of the following is a function of the circulatory system?
+a) To transport oxygenated blood throughout the body
+b) To remove waste products from the body's tissues
+c) To regulate body temperature
+d) All of the above
+
+Answer: d) All of the above
+
+7. What is the term for the smallest blood vessels, where the exchange of oxygen, nutrients, and waste products occurs between the blood and the body's tissues?
+a) Arterioles
+b) Venules
+c) Capillaries
+d) Sinusoids
+
+Answer: c) Capillaries
+
+8. Which of the following is a type of white blood cell?
+a) Red blood cell
+b) Platelet
+c) Neutrophil
+d) Erythrocyte
+
+Answer: c) Neutrophil
+
+9. What is the name of the system that helps to defend the body against infection and disease?
+a) Circulatory system
+b) Lymphatic system
+c) Nervous system
+d) Endocrine system
+
+Answer: b) Lymphatic system
+
+10. Which of the following is a function of the heart?
+a) To pump blood throughout the body
+b) To filter lymph and remove pathogens from the body
+c) To regulate body temperature
+d) To produce immune cells
+
+Answer: a) To pump blood throughout the body
+
+## Solved High-Yield Questions
+1. What is the primary function of the circulatory system?
+Answer: The primary function of the circulatory system is to transport oxygenated blood throughout the body, remove waste products from the body's tissues, and regulate body temperature.
+
+2. Describe the structure and function of capillaries.
+Answer: Capillaries are the smallest blood vessels, with walls that are only one cell layer thick. They are responsible for the exchange of oxygen, nutrients, and waste products between the blood and the body's tissues.
+
+3. What is the role of the lymphatic system in defending the body against infection and disease?
+Answer: The lymphatic system plays a crucial role in defending the body against infection and disease by removing waste products, transporting lymph throughout the body, and filtering lymph to remove pathogens.
+
+## Last 5 Minutes Box
+* The circulatory system is a closed system, with blood being pumped throughout the body in a continuous loop.
+* Arteries carry oxygenated blood away from the heart, while veins carry deoxygenated blood back to the heart.
+* Capillaries are the smallest blood vessels, where the exchange of oxygen, nutrients, and waste products occurs between the blood and the body's tissues.
+* Blood pressure is regulated by baroreceptors, the autonomic nervous system, and the renin-angioten\sin-aldosterone system.
+* The lymphatic system plays a crucial role in defending the body against infection and disease, and is responsible for removing waste products and transporting lymph throughout the body.

@@ -74,7 +74,7 @@ manualReview: false
 
 ## 🔁 Last 5 Minutes Box
 - Revision of key terms: biodiversity, species richness, species density, $\alpha$ diversity, $\beta$ diversity, $\gamma$ diversity.
-- Quick recall of formulas: $\frac{Species\ Richness}{Area}$, Shannon-Wiener\ Diversity\ Index = - $\sum_{i=1}^{s} \frac{n_i}{N} \ln \frac{n_i}{N}$, Simpson's\ Diversity\ Index = 1 - \sum_{i=1}^{s} \frac{n_i(n_i - 1)}${N(N - 1)}.
+- Quick recall of formulas: $\frac{Species\ Richness}{Area}$, Shannon-Wiener\ Diversity\ Index = - $\sum_{i=1}^{s} \frac{n_i}{N} \ln \frac{n_i}{N}$, Simpson's\ Diversity\ Index = 1 - \sum_{i=1}^{s} $\frac{n_i(n_i - 1)}{N(N - 1)}.
 - Last-minute practice of solving problems related to biodiversity and conservation.
 
 ## 📝 Practice MCQs

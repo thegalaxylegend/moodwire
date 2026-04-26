@@ -8,6 +8,20 @@ practice_link: "/practice/linear-equations-in-two-variables-class-9-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [- A [linear](/blog/linear-programming-class-12-notes) equation in two variables has infinitely many solutions.](#a-linearbloglinear-programming-class-12-notes-equation-in-two-variables-has-infinitely-many-solutions)
+3. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+4. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+5. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+6. [👁️ Ayush's Note](#ayushs-note)
+7. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+8. [📝 Practice MCQs](#practice-mcqs)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - The general form of a linear equation in two variables is $ax + by + c = 0$, where $a$, $b$, and $c$ are constants, and $x$ and $y$ are variables.
 - The standard form of a linear equation in two variables is $\frac{x}{a} + \frac{y}{b} = 1$, where $a$ and $b$ are the $x$ and $y$ intercepts respectively.
@@ -122,7 +136,7 @@ C) \frac{x}{-3} + \frac{y}{2} = 1
 -
 D) \frac{x}{3} + \frac{y}{-2} = 1
 
-**Answer: A) \frac{x}{-3} + \frac{y}{-2} = 1**
+**Answer: A) \frac{x}{-3} + \frac{y}{-2} = 1** 
 
 ---
 
@@ -144,3 +158,4 @@ Continue your revision with these related guides:
 - 📖 [Pair Of Linear Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/pair-of-linear-equations-class-10-notes)
 - 📖 [Differential Equations Class 12 Exam Prep Revision — Grandmaster Guide](/blog/differential-equations-class-12-notes)
 - 📖 [Linear Programming Class 12 Exam Prep Revision — Grandmaster Guide](/blog/linear-programming-class-12-notes)
+

@@ -175,7 +175,7 @@ An **Electric Dipole** consists of two equal and opposite [charges](/blog/moving
 ### <a id="i-derivation-proof-using-coulombs-law"></a>I. Derivation (Proof using Coulomb’s Law)
 1.  Consider a point charge **q** at the center of a sphere of radius **r**.
 2.  **E = [1 / 4πε₀] [q / r²]**.
-3.      Flux **Φ = ∮ E DA \\cos 0° = E ∮ DA**. 
+3.       Flux **Φ = ∮ E DA \\\cos 0° = E ∮ DA**. 
 4.  Since ∮ DA = 4πr²:
     - **Φ = [1 / 4πε₀] [q / r²] [4πr²] = q / ε₀**. (Proven)
 
@@ -276,10 +276,10 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 
 * **Coulomb's Law**: F = (k * q1 * q2) / r^2, where k = 8.99 x 10^9 And m^2/C^2
    * **Electric Field**: E = F / q, E = k * q / r^2
-   * **Electric Flux**: Φ = E * A * \cos(θ)
+   * **Electric Flux**: Φ = E * A * \\cos(θ)
    * **Gauss's Law**: Φ = Q / ε0, where ε0 = 8.85 x 10^-12 C^2/N m^2
    * **Electric Potential**: V = k * q / r, V = W / q
    * **Equipotential Surface**: V = constant
    * **Electric Dipole Moment**: p = q * d
-   * **Torque on Dipole**: τ = p * E * \sin(θ)
+   * **Torque on Dipole**: τ = p * E * \\sin(θ)
    * **Electric Field due to Dipole**: E = (k * p) / r^3

@@ -117,7 +117,7 @@ For $aA + bB \rightleftharpoons cC + dD$:
 
  K_c = \frac{[C]^c [D]^d}{[A]^a [B]^b} = K_p 
 
-### <a id="k_p-vs-k_c-relationship"></a>$ vs $K_c$ Relationship
+### <a id="k_p-vs-k_c-relationship"></a>$ vs $K_c$ Relationship$
 
 K_p = K_c (RT)^$\delta n_g$
 
@@ -186,7 +186,7 @@ where $\delta n_g = (moles$ of gaseous products) - (moles of gaseous reactants).
 pH = -\log[H^+]pOH = -\log[OH^-]pH + pOH = pK_w = 14 $\text{ (at 298 K)}$
 
 ### <a id="the-autoprotolysis-of-water"></a>The Autoprotolysis of Water
-$K_w = [H^+][OH^-] = 10^{-14} \text{$ at 298 K}$.
+$K_w = [H^+][OH^-] = 10^{-14} \text{$ at 298 K}$.$
 At neutral pH: $[H^+] = [OH^-] = 10^{-7} M$, so $pH = 7$.
 
 ### <a id="very-dilute-acid-the-108-m-hcl-trap-see-traps-section"></a>Very Dilute Acid: The $10^{-8}$ M HCl Trap (See Traps Section)
@@ -304,7 +304,7 @@ Equilibrium is a 2-headed beast: [chemical](/blog/chemical-bonding-class-11-revi
 
 1. **Le Chatelier Flash Cards**: I made 10 flash cards, each with a different "stress" scenario. I shuffled and tested myself daily. After 5 days, my responses became instant.
 2. **The pH Ladder**: I drew a vertical pH scale from 0 to 14 on my wall. I plotted common solutions (HCl 1M → pH 0, Lemon juice → pH 2, Water → pH 7, Bleach → pH 12, NaOH 1M → pH 14). This ladder made pH intuitive.
-3. **The $10^{-8}$ Drill**: I solved the "pH of $10^{-8}$ M HCl" problem 3 $\times$ from scratch until the reasoning was automatic. This exact question appears and nearly every mock test.$
+3. **The $10^{-8}$ Drill**: I solved the "pH of $10^{-8}$ M HCl" problem 3 $\times$ from scratch until the reasoning was automatic. This exact question appears and nearly every mock test.
 
 ### <a id="board-exam-tip"></a>Board Exam Tip:
 For CBSE, always state Le Chatelier's Principle and full before applying it. Then show the shift with an arrow. For example: "According to Le Chatelier's Principle, increasing temperature shifts the equilibrium and the endothermic direction → Forward → $K$ increases." This structured approach guarantees full marks. **This long-answer question carries 5 marks.**
@@ -370,4 +370,5 @@ Continue your [revision](/blog/states-of-matter-class-11-revision-notes-jee-neet
    - **Viscosity**: Measure of a fluid's resistance to flow
    - **Surface Tension**: Force acting on surface of a liquid due to intermolecular attraction
 
-}$
+}
+

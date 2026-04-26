@@ -57,11 +57,11 @@ Here are [some](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-j
 
 | Formula | Description |
 | --- | --- |
-| AT = \frac{1}{2}(T_{max} + T_{min})$ | Average temperature |
+| AT = \frac{1}{2}(T_{max} + T_{min})$ | Average temperature |$
 | $RH = \frac{e}{E}$ | Relative humidity |
-| UP = \frac{F}{A}$ | Atmospheric pressure |
-| DW = \frac{P_2 - P_1}{d}$ | Wind speed |
-| UP = \frac{m}{V}$ | Precipitation |
+| UP = \frac{F}{A}$ | Atmospheric pressure |$
+| DW = \frac{P_2 - P_1}{d}$ | Wind speed |$
+| UP = \frac{m}{V}$ | Precipitation |$
 
 ## <a id="climatic-elements"></a>Climatic Elements
 

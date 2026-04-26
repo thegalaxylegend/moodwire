@@ -8,6 +8,19 @@ practice_link: "/practice/polymers-class-12-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - The polymerization process can be expressed as: $\frac{dp}{dt} = k \times [M] \times [I]$, where $dp$ is the degree of polymerization, $dt$ is time, $k$ is the rate constant, $[M]$ is the monomer concentration, and $[I]$ is the initiator concentration.
 - The number average molecular weight is given by: $\overline{M}_n = \frac{\sum N_i M_i}{\sum N_i}$, where $N_i$ is the number of molecules of molecular weight $M_i$.
@@ -135,3 +148,4 @@ Continue your revision with these related guides:
 - 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
 - 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
 - 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
+

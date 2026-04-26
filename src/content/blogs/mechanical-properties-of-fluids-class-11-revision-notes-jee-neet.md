@@ -140,8 +140,8 @@ Surface tension is the result of cohesive forces between molecules at the surfac
 ### <a id="ii-capillary-rise-ascent-formula"></a>II. Capillary Rise (Ascent Formula)
 **Derivation:**
 1.  Force of surface tension = Weight of liquid column.
-2.  **(2πR S \cosθ) = (πR² h ρ g)**.
-3.  **h = (2S \cosθ) / (R ρ g)**. (Proven)
+2.   **(2πR S \\cosθ) = (πR² h ρ g)**. 
+3.   **h = (2S \\cosθ) / (R ρ g)**. (Proven) 
 
 ---
 

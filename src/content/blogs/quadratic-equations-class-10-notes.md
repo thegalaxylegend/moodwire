@@ -8,6 +8,19 @@ practice_link: "/practice/quadratic-equations-class-10-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - The general form of a quadratic equation is $ax^2 + bx + c = 0$, where $a$, $b$, and $c$ are constants and $a$ 
 eq 0$.$
@@ -147,3 +160,4 @@ Continue your revision with these [related](/blog/areas-related-to-circles-class
 - 📖 [Differential Equations Class 12 Exam Prep Revision — Grandmaster Guide](/blog/differential-equations-class-12-notes)
 - 📖 [Linear Equations In One Variable 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-one-variable-class-8-notes)
 - 📖 [Linear Equations In Two Variables 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-two-variables-class-9-notes)
+

@@ -8,13 +8,27 @@ practice_link: "/practice/solutions-class-12-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Academic References](#academic-references)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - $C = \frac{\text{Amount$ of solute}}{\text{Amount$ of solvent}} \times $100
-- $\text{Molarity} = \frac{\text{Number$ of moles of solute}}{$\text{Volume of solution in litres}$}$
-- $\text{Molality} = \frac{\text{Number$ of moles of solute}}{$\text{Mass of solvent in kg}$}$
-- $\text{Normality} = \frac{\text{Number$ of gram equivalents of solute}}{$\text{Volume of solution in litres}$}$
+- $\text{Molarity} = \frac{\text{Number$ of moles of solute}}{$\text{Volume of solution in litres}$}
+- $\text{Molality} = \frac{\text{Number$ of moles of solute}}{$\text{Mass of solvent in kg}$}
+- $\text{Normality} = \frac{\text{Number$ of gram equivalents of solute}}{$\text{Volume of solution in litres}$}
 -    $\frac{C_1 V_1}${n_1} = $\frac{C_2 V_2}${n_2} 
--    n = $\frac{W}${M} 
+-     n = $\frac{W}${M} 
 - $\text{Vapour pressure$ of solvent} = P^0 $\times \frac{n_1}{n_1 + n_2}$
 - $\frac{\text{Vapour pressure$ of solvent}}{\text{Vapour pressure$ of solution}} = \frac{n_1 + n_2}{n_1}$
 - $\delta T_f = K_f \times m$
@@ -31,7 +45,7 @@ manualReview: false
 - Not being able to solve problems involving colligative properties and their [applications](/blog/biotechnology-and-its-applications-class-12-notes)
 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** $What is the molality of a solution containing 18g of glucose in 1000g of water?
+- **Question 1:** $What is the molality of a solution containing 18g of glucose in 1000g of water?$
 - Step 1: Calculate the number of moles of glucose using the formula n = $\frac{W}{M}$
 - Step 2: Calculate the molality using the formula $\text{Molality} = \frac{\text{Number of moles of solute}}{\text{Mass of solvent in kg}}$
 - Answer: $\text{Molality} = \frac{\frac{18}{180}}{\frac{1000}{1000}} = 0.1m$
@@ -40,7 +54,7 @@ manualReview: false
 - Step 2: Calculate the mole fraction of the solute using the formula x_2 = $\frac{n_2}{n_1 + n_2}$
 - Answer: x_2 = $\frac{1}{\frac{50}{40} - 1} = \frac{2}{3}$
 - **Question 3:** The freezing point of a solution containing 10g of a solute in 1000g of water is -0.3°C. What is the molar mass of the solute?
-- Step 1: Calculate the molality of the solution using the formula $\delta T_f = K_$f \times m$
+- Step 1: Calculate the molality of the solution using the formula $\delta T_f = K_$f \times m
 - Step 2: Calculate the number of moles of the solute using the formula n = $\frac{W}{M}$
 - Step 3: Calculate the molar mass of the solute using the formula M = $\frac{W}{n}$
 - Answer: M = $\frac{10}{\frac{0.3}{1.86}} = 62g/mol$
@@ -147,7 +161,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 Continue your revision with these related guides:
 
-- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision$ — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision$ — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)$
 - 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
 - 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
 - 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
+

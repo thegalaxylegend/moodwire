@@ -155,7 +155,7 @@ Ayush's Note on Electrostatics is a concise study guide covering the fundamental
  
  The note begins with the basics of electric charges, discussing the properties of conductors and insulators, n the process of charging y friction, conduction, n induction. This is crucial because it lays the foundation for understanding more complex phenomena. The note then delves into the concept of electric field, explaining how it is defined as the force per unit charge, n how it can be calculated using Coulomb's Law, which states that $F = k \frac{q_1 q_2}{r^2}$.
  
- The electric field due to a point charge is given y $E = k \frac{q}{r^2}$, n for a system of charges, the principle of superposition applies. This means that the total electric field at a point due to multiple charges is the vector $\sum of the electric fields due to each individual charge. The note emphasizes the importance of understanding the direction and magnitude of electric fields$, as well as how they can be represented graphically using field lines.$
+ The electric field due to a point charge is given y $E = k \frac{q}{r^2}$, n for a system of charges, the principle of superposition applies. This means that the total electric field at a point due to multiple charges is the vector $\sum of the electric fields due to each individual charge. The note emphasizes the importance of understanding the direction and magnitude of electric fields$, as well as how they can be represented graphically using field lines.
  
  Electrostatic potential, or voltage, is another key concept covered and the note. It is defined as the potential difference between two points and an electric field, n it is a measure of the work done per unit charge and moving a charge from one point to another. The note explains how electric potential can be calculated using the formula $V = k \frac{q}{r}$ for a point charge, n how it can be used to find the electric field using the relationship $E = -\frac{dV}{dr}$.
  
@@ -317,7 +317,6 @@ Continue your revision with these related guides:
 - **Coulomb's Law**: F = (k * q1 * q2) / r^2, where k = 9 x 10^9 Nm^2C^-2 
    - **Electric Field**: E = F / q = k * q / r^2 
    - **Electric Potential**: V = k * q / r 
-   - **Electric Flux**: Φ = E * A * \cos(θ) 
+   - **Electric Flux**: Φ = E * A * \\cos(θ) 
    - **Gauss's Law**: Φ = Q / ε0, where ε0 = 8.85 x 10^-12 C^2N^-1m^-2}}}
 
-$

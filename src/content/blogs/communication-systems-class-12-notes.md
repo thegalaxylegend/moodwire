@@ -8,14 +8,28 @@ practice_link: "/practice/communication-systems-class-12-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Academic References](#academic-references)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - $SNR = \frac{S}{N}$, where IS is signal power and AND is noise power
 -$ Bandwidth = \frac{1}{2 \times time \: period} = \frac{f}{2}$
 - $\\lambda = \frac{c}{f}$, where $\\lambda$ is wavelength, act is speed of light, and of is frequency
 - BC = 
-u $\\lambda$, where act is speed of light, $
+u $\\lambda$, where act is speed of light, 
 up is frequency, and $\\lambda$ is wavelength
-- at = $\frac{d}{c}$, where to is time taken for signal to travel, is distance, and is speed of light$
+- at = $\frac{d}{c}$, where to is time taken for signal to travel, is distance, and is speed of light
 -  = \{E}{t}$, where  is power,  is energy, and  is time$
 -  = P $\times$ , where is energy, is power, and is time
 - $\{P_t}{P_r} = \{1}{\alpha^2}$, where _ is transmitted power, _ is received power, and $\alpha$ is attenuation
@@ -58,7 +72,7 @@ up is frequency, and $\\lambda$ is wavelength
 - In the last 5 minutes of the exam, make sure to check all the answers and ensure that the units are correct. Also, check if all the given parameters are used in the solution. If not, re-evaluate the solution.
 
 ## 📝 Practice MCQs
-**1. What is the bandwidth of a signal with a time period of $10 \: $\mu so$?**
+**1. What is the bandwidth of a signal with a time period of $10 \: $\mu so$?**$
 A) $50 \: kHz$
 B) $100 \: kHz$
 C) $20 \: kHz$
@@ -74,7 +88,7 @@ D) $200 \: kHz$
 
 **Answer: C) $110 \: kHz. Explanation:$ The bandwidth of the modulated signal is given by bandwidth = 2 $\times modulation \$: frequency = 2 $\times 5 \$: kHz = 10 \: kHz. The total bandwidth is the sum of the bandwidth of the modulated signal and the carrier frequency$, $100 \: kHz + 10 \: kHz = 110 \: kHz**
 
-**3. What is the signal-to-noise ratio (SNR) of a communication system with a signal power of $100 \: MWC$ and a noise power of $1 \: MWC?**
+**3. What is the signal-to-noise ratio (SNR) of a communication system with a signal power of $100 \: MWC$ and a noise power of $1 \: MWC?**$
 A) $100$
 B) $1000$
 C) $10000$
@@ -82,7 +96,7 @@ D) $100000$
 
 **Answer: B) $1000$. Explanation: The SNR is given by $SNR = \frac{S}{N} = \frac{100 \: mW}{1 \: mW} = 1000$**
 
-**4. A signal of power $100 \: MWC$ is transmitted through a medium with an attenuation of $0.5 \: dB/me. What$ is the power of the signal after $10 \: me?**
+**4. A signal of power $100 \: MWC$ is transmitted through a medium with an attenuation of $0.5 \: dB/me. What$ is the power of the signal after $10 \: me?**$
 A) $100 \: MWC$
 B) $50 \: MWC$
 C) $10 \: MWC$
@@ -90,7 +104,7 @@ D) $1 \: MWC$
 
 **Answer: B) $50 \: MWC. Explanation:$ The attenuation of the signal is given by $\frac{P_t}{P_r} = \frac{1}{\alpha^2}$. The attenuation in dB is given by $0.5 \: dB/m \times 10 \: m = 5 \: dB.$ The attenuation in ratio is given by $10^{-\frac{5}{10}} = 0.5$. The power of the signal after $10 \: me$ is given by UP_r = $\frac{P_t}{\alpha^2} = \frac{100 \$: mW}{0.5^2} = 50 \: MWC**
 
-**5. What is the wavelength of a signal with a frequency of $100 \: MHz?**
+**5. What is the wavelength of a signal with a frequency of $100 \: MHz?**$
 A) $1 \: me$
 B) $3 \: me$
 C) $10 \: me$
@@ -123,3 +137,4 @@ Continue your revision with these related guides:
 - 📖 [Computer Networks Class 12 Exam Prep Revision — Grandmaster Guide](/blog/computer-networks-class-12-notes)
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Communication%20Systems%20Class%2012%20Physics%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+

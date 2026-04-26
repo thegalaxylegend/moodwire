@@ -132,7 +132,7 @@ The core principle is simple: Electron pairs (both bond pairs and lone pairs) ha
 ### <a id="the-repulsion-hierarchy"></a>The Repulsion Hierarchy
 > [!IMPORTANT]
 > **LP-LP > LP-BP > BP-BP**
-> This hierarchy explains why $H_2O$ (with 2 lone pairs)$ has a smaller bond angle (104.5°) than $NH_3$ (with 1 lone pair, 107°), even though both$ are based on a tetrahedral arrangement.
+> This hierarchy explains why $H_2O$ (with 2 lone pairs)$ has a smaller bond angle (104.5°) than NH_3 (with 1 lone pair, 107°), even though both$ are based on a tetrahedral arrangement.
 
 ### <a id="the-vsepr-shapes-table-the-master-list"></a>The VSEPR Shapes Table (The Master List)
 
@@ -172,7 +172,7 @@ Where:
 - **C** = Cation charge (subtract).
 - **A** = Anion charge (add).
 
-### <a id="ayushs-comparison-xef_2-vs-co_2"></a>Ayush's Comparison: $ vs $CO_2$
+### <a id="ayushs-comparison-xef_2-vs-co_2"></a>Ayush's Comparison: $ vs $CO_2
 Both are linear. But are they the same?
 1. **$CO_2$**: No lone pairs on C. $sp$ hybridized.
 2. **$XeF_2$**: 3 lone pairs$ on Xe. $sp^3d$ hybridized.$
@@ -222,9 +222,9 @@ Solubility depends on the balance between **Lattice Enthalpy** n **Hydration Ent
 
 ### <a id="the-bornhaber-cycle-example-nacl"></a>The Born-Haber Cycle Example ($NaCl$)
 To calculate the Lattice Enthalpy of $NaCl$, we use a cycle:
-1.     Sublimation of Na(s) \rightarrow Na(g). 
-2.     Ionization of Na(g) \rightarrow Na^+(g). 
-3.     Dissociation of Cl_2(g) \rightarrow 2Cl(g). 
+1.       Sublimation of Na(s) \rightarrowNa(g). 
+2.       Ionization of Na(g) \rightarrowNa^+(g). 
+3.       Dissociation of Cl_2(g) \rightarrow2Cl(g). 
 4. Electron Gain of $Cl(g) \rightarrow Cl^-(g)$.
 5. Formation of $NaCl$ from ions.
 The $\sum$equals the $\delta H_f$. This cycle is a favorite for numerical questions and JEE Advanced.
@@ -340,7 +340,7 @@ A) Paramagnetic
 B) Diamagnetic
 C) Ferromagnetic
 D) Non-magnetic
-*Answer: B (In $C_2$, all 8 valence electrons$ are paired and bonding orbitals).*
+*Answer: B (In $C_2$, all 8 valence electrons$ are paired and bonding orbitals).*$
 
 **Q4. Order of bond length: $O_2, O_2^+, O_2^-$.** [NEET Medium]  
 *Answer: $O_2^+ < O_2 < O_2^-$ (Higher BO = Shorter Bond).*

@@ -53,7 +53,7 @@ practice_link: "/class-11/physics/ray-optics-class-12-quick-class-12-revision-no
 - **Reflection**: Change and direction of light at a surface that causes it to bounce back.
 - **Refraction**: Bending of light as it passes from one medium to another.
 - **Total Internal Reflection**: A phenomenon where light is completely reflected into the first medium.
-- **Snell's Law**: $n_1 \\sin \theta_1 = n_2 \\sin \theta_2$, where $n_1$ n $n_2$ are refractive indices of the two media n $\theta_1$ n $\theta_2$ are the angles of incidence and refraction.
+- **Snell's Law**: $n_1 \\\sin \theta_1 = n_2 \\\sin \theta_2$, where $n_1$ n $n_2$ are refractive indices of the two media n $\theta_1$ n $\theta_2$ are the angles of incidence and refraction.
 - **Mirror Formula**: $\frac{1}{v} = u = \frac{1}{f}}{v} ,$ where $ is the image distance, $u$ is the object distance, n $f$ is the focal length.$
 
 As I, Ayush, prepare for my JEE/NEET exams, I find it crucial to have a solid grasp of ray optics. In this quick [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) n recap, we'll cover the core concepts, formulae, n some practice questions to help reinforce our understanding.
@@ -73,7 +73,7 @@ I've found that understanding the basics of reflection, refraction, n total inte
 ### <a id="reflection"></a>Reflection
 - **Law of Reflection**: The angle of incidence is equal to the angle of reflection.
 - **Types of Mirrors**: Plane mirror, concave mirror, convex mirror.
-- **Mirror Formula**: $\frac{1}{v} = u = \frac{1}{f}}{n_1 \\sin \theta_1 = n_2 \\sin \theta_2} .$
+- **Mirror Formula**: $\frac{1}{v} = u = \frac{1}{f}}{n_1 \\\sin \theta_1 = n_2 \\\sin \theta_2} .$
 
 ### <a id="refraction"></a>Refraction
 - **Snell's Law**: $.$
@@ -81,7 +81,7 @@ I've found that understanding the basics of reflection, refraction, n total inte
 - **Refraction through a Prism**: $\delta = i + e - A$, where $\delta$ is the angle of deviation, $i$ is the angle of incidence, $e$ is the angle of emergence, n $A$ is the angle of the prism.
 
 ### <a id="lenses"></a>Lenses
-- **Lens Maker's Formula**: $\frac{1}{f} = R_1 - \frac{1}{R_2} \r\right)}{f} ,$ where $ is the focal length, $n$ is the refractive index, n $R_1$ n $R_2$ are the radii of curvature.$
+- **Lens Maker's Formula**: $\frac{1}{f} = R_1 - \frac{1}{R_2} \r\r\right)}{f} ,$ where $ is the focal length, $n$ is the refractive index, n $R_1$ n $R_2$ are the radii of curvature.$
 - **Lens Formula**: $\frac{1}{v} = u = \frac{1}{f}}{\frac{1}{v} + \frac{1}{u} = \frac{1}{f}} .$
 
 ## <a id="formulae-tables"></a>Formulae Tables
@@ -90,25 +90,25 @@ I've found that understanding the basics of reflection, refraction, n total inte
 
 | Formula | Description |
 | --- | --- |
-| $ | Mirror formula |
+| $ | Mirror formula |$
 | $m = -\frac{v}{u}$ | Magnification |
 | $f = \frac{R}{2}$ | Focal length of a mirror |
 | Formula | Description |
 | --- | --- |
-| $n_1 \\sin \theta_1 = n_2 \\sin \theta_2$ | Snell's law |
-| $\theta_c = \\\sin^{-1} \left( \frac{n_2}{n_1} \r\right)$ | Critical angle |
+| $n_1 \\\sin \theta_1 = n_2 \\\sin \theta_2$ | Snell's law |
+| $\theta_c = \\\\\sin^{-1} \left( \frac{n_2}{n_1} \r\r\right)$ | Critical angle |
 | $\delta = i + e - A$ | Angle of deviation through a prism |
 | Formula | Description |
 | --- | --- |
-| $\frac{1}{f} = R_1 - \frac{1}{R_2} \r\right)}{\frac{1}{v} - \frac{1}{u} = \frac{1}{f}}  | Lens maker's formula |
-| $ | Lens formula |
+| $\frac{1}{f} = R_1 - \frac{1}{R_2} \r\r\right)}{\frac{1}{v} - \frac{1}{u} = \frac{1}{f}}  | Lens maker's formula |$
+| $ | Lens formula |$
 | $m = -\frac{v}{u}$ | Magnification |
 
 ## <a id="trap-exceptions"></a>Trap Exceptions
 
 - **Total Internal Reflection**: When $\theta_1 > \theta_c$, light is completely reflected into the first medium.
-- **Critical Angle**: $\theta_c = \\\sin^{-1} \left( \frac{n_2}{n_1} \r\right)$, where $n_1$ n $n_2$ are the refractive indices of the two media.
-- **Lens Maker's Formula**: $\frac{1}{f} = R_1 - \frac{1}{R_2} \r\right)}{f} ,$ where $ is the focal length, $n$ is the refractive index, n $R_1$ n $R_2$ are the radii of curvature.$
+- **Critical Angle**: $\theta_c = \\\\\sin^{-1} \left( \frac{n_2}{n_1} \r\r\right)$, where $n_1$ n $n_2$ are the refractive indices of the two media.
+- **Lens Maker's Formula**: $\frac{1}{f} = R_1 - \frac{1}{R_2} \r\r\right)}{f} ,$ where $ is the focal length, $n$ is the refractive index, n $R_1$ n $R_2$ are the radii of curvature.$
 
 By focusing on these key concepts, formulae, n practice questions, I'm confident that I can master ray optics and perform well and my JEE/[neet](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) exams. Remember to review the **Trap Exceptions** section carefully to avoid common pitfalls and the exams. 
 
@@ -119,8 +119,8 @@ To further reinforce our understanding, let's consider some examples and derivat
 2. A concave mirror has a focal length of $20$ cm. If an object is placed $30$ cm and front of the mirror, find the image distance and magnification.
 
 ### <a id="derivations"></a>Derivations
-1. **Snell's Law**: $n_1 \\sin \theta_1 = n_2 \\sin \theta_2$
-2. **Lens Maker's Formula**: $\frac{1}{f} = R_1 - \frac{1}{R_2} \r\right)}{n_1 \\sin \theta_1 = n_2 \\sin \theta_2}$ 
+1. **Snell's Law**: $n_1 \\\sin \theta_1 = n_2 \\\sin \theta_2$
+2. **Lens Maker's Formula**: $\frac{1}{f} = R_1 - \frac{1}{R_2} \r\r\right)}{n_1 \\\sin \theta_1 = n_2 \\\sin \theta_2}$ 
 
 By working through these examples and derivations, we can gain a deeper understanding of the [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) n formulae and ray optics.
 
@@ -140,8 +140,8 @@ Let's summarize the key points:
 * **Reflection**: Change and direction of light at a surface that causes it to bounce back.
 * **Refraction**: Bending of light as it passes from one medium to another.
 * **Total Internal Reflection**: A phenomenon where light is completely reflected into the first medium.
-* **Snell's Law**: $
-* **Lens Maker's Formula**: $\frac{1}{f} = R_1 - \frac{1}{R_2} \r\right)}{n_1 \\sin \theta_1 = n_2 \\sin \theta_2}$ 
+* **Snell's Law**: 
+* **Lens Maker's Formula**: $\frac{1}{f} = R_1 - \frac{1}{R_2} \r\r\right)}{n_1 \\\sin \theta_1 = n_2 \\\sin \theta_2}$ 
 
 By reviewing these key points and practicing with MCQs, we can reinforce our understanding of ray optics and achieve success and our exams.
 
@@ -167,8 +167,8 @@ By utilizing these resources and staying committed to your studies, you can achi
 Now, let's review some of the key concepts and formulae using LaTeX:
 
 ### <a id="latex-examples"></a>LaTeX Examples
-1. **Snell's Law**: $2. **Lens Maker's Formula**: $\frac{1}{f} = R_1 - \frac{1}{R_2} \r\right)}{\frac{1}{v} + \frac{1}{u} = \frac{1}{f}}$ 
-3. **Mirror Formula**: $
+1. **Snell's Law**: $2. **Lens Maker's Formula**: \frac{1}${f} = R_1 - $\frac{1}${R_2} \r\r\right)}{$\frac{1}${v} + $\frac{1}${u} = $\frac{1}${f}}$ 
+3. **Mirror Formula**: 
 
 By using LaTeX to format the equations, we can clearly visualize the mathematical relationships between the variables.
 
@@ -179,8 +179,8 @@ Here's a final summary of the key points:
 * **Reflection**: Change and direction of light at a surface that causes it to bounce back.
 * **Refraction**: Bending of light as it passes from one medium to another.
 * **Total Internal Reflection**: A phenomenon where light is completely reflected into the first medium.
-* **Snell's Law**: $n_1 \\sin \theta_1 = n_2 \\sin \theta_2$
-* **Lens Maker's Formula**: $\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \r\right)$
+* **Snell's Law**: $n_1 \\\sin \theta_1 = n_2 \\\sin \theta_2$
+* **Lens Maker's Formula**: $\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \r\r\right)$
 
 By reviewing these key points and practicing with MCQs, you can reinforce your understanding of ray optics and achieve success and your exams.
 
@@ -229,10 +229,11 @@ Continue your [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-j
 ## 🔁 Last 5 Minutes Box
 
 * **Reflection**: ∠i = ∠r, 
-       * **Refraction**: n1 sin(θ1) = n2 sin(θ2), 
+       * **Refraction**: n1 \sin(θ1) = n2 \sin(θ2), 
        * **Mirror Formula**: 1/f = 1/v + 1/u, 
        * **Lens Formula**: 1/f = 1/v - 1/u, 
        * **Focal Length**: f = R/2, 
        * **Magnification**: m = -v/u, 
-       * **Snell's Law**: n1 sin(θ1) = n2 sin(θ2), 
-       * **Total Internal Reflection**: sin(θc) = n2/n1
+       * **Snell's Law**: n1 \sin(θ1) = n2 \sin(θ2), 
+       * **Total Internal Reflection**: \sin(θc) = n2/n1
+

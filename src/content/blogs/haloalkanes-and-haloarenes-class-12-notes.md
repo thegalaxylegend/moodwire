@@ -8,6 +8,19 @@ practice_link: "/practice/haloalkanes-and-haloarenes-class-12-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - $\frac{d}{dt} \int_{a}^{t} f(x) dx = f(t)$ is not directly applicable here, but we have many other formulas to remember for Haloalkanes and Halogens.
 - The general formula for Haloalkanes is PRIX, where ARE is an alkyl group and EX is a halogen.
@@ -30,11 +43,11 @@ manualReview: false
   - Step 1: Identify the reactants and the type of reaction.
   - Step 2: Determine the mechanism of the reaction, which is IS_N$2 in this case.$
   - Step 3: Predict the major product of the reaction, which is $CH_3CH_2OH$.
-- **Question 2:** What is the major product of the reaction between BC_6H_5Cl$ and NaOH?
+- **Question 2:** What is the major product of the reaction between BC_6H_5Cl$ and NaOH?$
   - Step 1: Identify the reactants and the type of reaction.
   - Step 2: Determine the mechanism of the reaction, which is not IS_N$1 or IS_N$2 in this case due to the low reactivity of Halogens.
   - Step 3: Predict the major product of the reaction, which is BC_6H_5OH$ through an IS_N$1 mechanism, but this reaction is not favorable due to the stability of the benzene ring.
-- **Question 3:** What is the order of reactivity of the following Haloalkanes in an IS_N$2 reaction: $CH_3Cl$, $CH_3CH_2Cl$, $CH_3CH_2CH_2Cl$?
+- **Question 3:** What is the order of reactivity of the following Haloalkanes in an IS_N$2 reaction: $CH_3Cl$, $CH_3CH_2Cl$, $CH_3CH_2CH_2Cl$?$
   - Step 1: Identify the reactants and the type of reaction.
   - Step 2: Determine the mechanism of the reaction, which is IS_N$2 in this case.$
   - Step 3: Predict the order of reactivity of the Haloalkanes, which is $CH_3Cl > CH_3CH_2Cl > CH_3CH_2CH_2Cl$ due to the increase in steric hindrance.
@@ -67,7 +80,7 @@ D) $CH_3CH_2Cl$
 
 **Answer: A) $CH_3OH$**
 
-**2. What is the order of reactivity of the following Haloalkanes in an IS_N$2 reaction: $CH_3Cl$, $CH_3CH_2Cl$, $CH_3CH_2CH_2Cl$?**
+**2. What is the order of reactivity of the following Haloalkanes in an IS_N$2 reaction: $CH_3Cl$, $CH_3CH_2Cl$, $CH_3CH_2CH_2Cl$?**$
 -
 A) $CH_3Cl > CH_3CH_2Cl > CH_3CH_2CH_2Cl$
 -
@@ -79,31 +92,31 @@ D) $CH_3Cl = CH_3CH_2Cl = CH_3CH_2CH_2Cl$
 
 **Answer: A) $CH_3Cl > CH_3CH_2Cl > CH_3CH_2CH_2Cl$**
 
-**3. What is the major product of the reaction between BC_6H_5Cl$ and NaOH?**
+**3. What is the major product of the reaction between BC_6H_5Cl$ and NaOH?**$
 -
-A) BC_6H_5OH$
+A) BC_6H_5OH
 -
-B) BC_6H_5ONa$
+B) BC_6H_5ONa
 -
-C) BC_6H_5Cl$
+C) BC_6H_5Cl
 -
-D) BC_6H_5CH_2Cl$
+D) BC_6H_5CH_2Cl
 
-**Answer: C) BC_6H_5Cl$**
+**Answer: C) BC_6H_5Cl$**$
 
 **4. What is the mechanism of the reaction between $CH_3Cl$ and NaOH?**
 -
-A) IS_N$1
+A) IS_N1
 -
-B) IS_N$2
+B) IS_N2
 -
 C) $E1$
 -
 D) $E2$
 
-**Answer: B) IS_N$2**
+**Answer: B) IS_N$2**$
 
-**5. What is the role of the nucleophile in the IS_N$2 reaction?**
+**5. What is the role of the nucleophile in the IS_N$2 reaction?**$
 -
 A) To attack the carbon atom and replace the leaving group
 -
@@ -135,4 +148,4 @@ Continue your revision with these related guides:
 - 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
 - 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
 - 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
-$
+

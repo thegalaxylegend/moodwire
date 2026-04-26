@@ -87,7 +87,7 @@ The position of the CoM is defined as:
 
 ### <a id="i-torque-the-rotational-force"></a>I. Torque (τ) - The Rotational Force
 Torque is the "turning effect" of a force.
-**Formula: τ = r × F = r F \sinθ**.
+ **Formula: τ = r × F = r F \\sinθ**. 
 **Derivation and Cartesian Coordinates:**
 1.  Let **r = x î + y ĵ** n **F = Fx î + Fy ĵ**.
 2.  **τ = r × F = (x Fy - y Fx) k̂**.
@@ -154,7 +154,7 @@ If this condition is met, the point of contact is momentarily at rest.
 **Answer:** According to the **Law of Conservation of Angular Momentum (L = Iω = Constant)**, when she pulls her arms n, her mass moves closer to the axis, decreasing her **Moment of Inertia (I)**. To keep **L** constant, her angular velocity **(ω)** must increase.
 
 **Q3: Which will reach the bottom of an incline first: A solid sphere or a circular ring?**
-**Answer:** The **Solid Sphere**. Acceleration of a rolling body is **a = g \sinθ / (1 + k²/R²)**. The solid sphere has a smaller radius of gyration (k), leading to a higher acceleration.
+**Answer:** The **Solid Sphere**. Acceleration of a rolling body is **a = g \\sinθ / (1 + k²/R²)**. The solid sphere has a smaller radius of gyration (k), leading to a higher acceleration.
 
 ---
 
@@ -215,7 +215,7 @@ Continue your [revision](/blog/oscillations-class-11-revision-notes-jee-neet) wi
 
 * **Kinetic Energy of Rotating Body**: K = (1/2)Iω²
 * **Moment of Inertia (I)**: I = mr² for point mass, I = (1/2)mr² for disc, I = (2/5)mr² for sphere
-* **Torque (τ)**: τ = r x F = rF\sinθ
+*  **Torque (τ)**: τ = r x F = rF\\sinθ 
 * **Angular Momentum (L)**: L = Iω = r x p
 * **Equations of Rotational Motion**: θ = ω₀t + (1/2)αt², ω = ω₀ + αt, ω² = ω₀² + 2αθ
 * **Relationship between Linear and Angular Quantities**: v = rω, a = rα, F = (m/r)τ

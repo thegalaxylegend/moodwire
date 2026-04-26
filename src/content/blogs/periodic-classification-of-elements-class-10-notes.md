@@ -358,9 +358,9 @@ For students who have a good grasp of the periodic table, some advanced insights
 
 - The concept of valence electrons and how they determine the chemical properties of elements
 
-- The formula to calculate the number of valence electrons is: $V = G 
+- The formula to calculate the number of valence electrons is: $V = G $
 
-- $2, where $V$ is the number of valence electrons and $G$ is the group number.
+- $2, where $V$ is the number of valence electrons and $G$ is the group number.$
 
 - The relationship between the periodic table and the chemical bonding of elements can be expressed as: $\delta T = \frac{Q}{m \cdot c}$, where $\delta T$ is the change in temperature, $Q$ is the heat transferred, $m$ is the mass of the substance, and $c$ is the specific heat capacity.
 
@@ -413,50 +413,50 @@ The periodic table is arranged based on the atomic number of elements, which det
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. An element with atomic number 20 has an electronic configuration of $[2, 8, 8, 2]$. Which period does it belong to?**
-**A)**    3rd period
-**B)**    4th period
-**C)**    5th period
-**D)**    6th period
+**A)**     3rd period
+**B)**     4th period
+**C)**     5th period
+**D)**     6th period
 
 **Answer:** B) The element is in the 4th period because the outermost energy level has 8 electrons. The correct formula to find the period is $n = l + 1$, where $l$ is the outermost energy level. Here, $l = 3$, so $n = 4$.
 
 ---
 
 **2. Which of the following elements is a noble gas? $Ca$, $Na$, $Mg$, $Ar$**
-**A)**    $Ca$
-**B)**    $Na$
-**C)**    $Mg$
-**D)**    $Ar$
+**A)**     $Ca$
+**B)**     $Na$
+**C)**     $Mg$
+**D)**     $Ar$
 
 **Answer:** D) The noble gases are unreactive elements in the 18th group of the periodic table. $Ar$ is a noble gas because it has 8 electrons in its outermost energy level and is located in group 18.
 
 ---
 
 **3. An element has an atomic number of 24. Find the total number of electrons it has when it loses 2 electrons.**
-**A)**    22
-**B)**    22
-**C)**    22
-**D)**    24
+**A)**     22
+**B)**     22
+**C)**     22
+**D)**     24
 
 **Answer:** A) The number of electrons an element has when it loses 2 electrons can be found by subtracting 2 from its atomic number. So, $24 - 2 = 22$.
 
 ---
 
 **4. What is the electronic configuration of iron (atomic number 26)?**
-**A)**    $[2, 8, 14, 2]$
-**B)**    $[2, 8, 8, 5, 1]$
-**C)**    $[2, 8, 8, 6]$
-**D)**    $[2, 8, 7]$
+**A)**     $[2, 8, 14, 2]$
+**B)**     $[2, 8, 8, 5, 1]$
+**C)**     $[2, 8, 8, 6]$
+**D)**     $[2, 8, 7]$
 
 **Answer:** D) The electronic configuration of iron can be found by filling up the electrons in the energy levels. The correct configuration is $[2, 8, 7]$.
 
 ---
 
 **5. Which of the following elements belongs to the s-block of the periodic table?**
-**A)**    $Be$
-**B)**    $Na$
-**C)**    $K$
-**D)**    $Cl$
+**A)**     $Be$
+**B)**     $Na$
+**C)**     $K$
+**D)**     $Cl$
 
 **Answer:** B) The s-block elements are located in group 1 and 2 of the periodic table. $Na$ is an s-block element because it is in group 1 and has one electron in its outermost energy level.
 
@@ -480,3 +480,4 @@ Continue your revision with these related guides:
 - 📖 [Life Processes Class 10 Science Recap — Grandmaster Guide](/blog/life-processes-class-10-notes)
 - 📖 [Metals and Non-Metals Class 10 Science Recap — Grandmaster Guide](/blog/metals-and-non-metals-class-10-notes)
 - 📖 [Acids, Bases and Salts Class 10 Science Recap — Grandmaster Guide](/blog/acids-bases-and-salts-class-10-notes)
+

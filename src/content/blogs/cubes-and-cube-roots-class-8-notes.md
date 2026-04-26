@@ -8,13 +8,26 @@ practice_link: "/practice/cubes-and-cube-roots-class-8-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - The cube of a number and is denoted by in^$3 and is calculated as in \times n \times no.$
 - The cube root of a number and is denoted by $\sqrt[3]{n}$ and is a value that, when multiplied by itself twice, gives the original number and.
-- A^3 - b^3 = (a - b)(a^2 + ab + b^2)$
-- a^3 + b^3 = (a + b)(a^2 - ab + b^2)$
+- A^3 - b^3 = (a - b)(a^2 + ab + b^2)
+- a^3 + b^3 = (a + b)(a^2 - ab + b^2)
 - To find the cube root of a perfect cube, we can use the formula $\sqrt[3]{a^3} = a$
-- To find the cube of a number, we can use the formula a^3 = a $\times $a \times a$
+- To find the cube of a number, we can use the formula a^3 = a $\times $a \times a
 - We can also use the identity $(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$ to expand expressions
 - Similarly, we can use the identity $(a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$ to expand expressions
 
@@ -31,7 +44,7 @@ manualReview: false
   - Step 2: Rewrite 125 as a perfect cube, $125 = 5^3$
   - Step 3: Use the formula to find the cube root, $\sqrt[3]{125} = \sqrt[3]{5^3} = 5$
 - **Question 2:** Find the value of $2^3 + 3^3$.
-  - Step 1: Recall the formula for the cube of a number, a^3 = a $\times $a \times a$
+  - Step 1: Recall the formula for the cube of a number, a^3 = a $\times $a \times a
   - Step 2: Calculate the cube of 2, $2^3 = 2 \times 2 \times 2 = 8$
   - Step 3: Calculate the cube of 3, $3^3 = 3 \times 3 \times 3 = 27$
   - Step 4: Add the two values, $2^3 + 3^3 = 8 + 27 = 35$
@@ -138,3 +151,4 @@ Continue your revision with these related guides:
 - 📖 [Comparing Quantities 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/comparing-quantities-class-8-notes)
 - 📖 [Data Handling 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/data-handling-class-8-notes)
 - 📖 [Exponents And Powers 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide](/blog/exponents-and-powers-class-8-notes)
+

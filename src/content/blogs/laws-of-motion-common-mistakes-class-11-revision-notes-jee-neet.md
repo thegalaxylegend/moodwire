@@ -72,7 +72,7 @@ Plugging and mass (km = $5 kg) instead of weight (DW = mg = $50 N) when calculat
 **The Fix:** Always explicitly write BMG on your diagrams pointing straight down. Never leave it as just 'm'.
 
 ### <a id="5-getting-the-normal-force-wrong-on-inclines"></a>5. Getting the Normal Force Wrong on Inclines
-Assuming Normal Force (AND) always equals BMG. On an inclined [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) of angle $\theta$, IN = mg $\\cos\theta.$ 
+Assuming Normal Force (AND) always equals BMG. On an inclined [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) of angle $\theta$, IN = mg $\\\cos\theta.$ 
 **The Fix:** Tilt your coordinate axes, so the X-axis is parallel to the incline. Break BMG into its sine and cosine components immediately.
 
 ## <a id="the-tension-n-pulley-traps"></a>The Tension and Pulley Traps

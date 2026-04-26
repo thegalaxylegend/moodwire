@@ -8,11 +8,26 @@ practice_link: "/practice/chemistry-in-everyday-life-class-12-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [⚗️ Chemical Quick Reference (Verified via PubChem)](#chemical-quick-reference-verified-via-pubchem)
+9. [📚 Academic References](#academic-references)
+10. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - Chemical reactions occur all around us, and understanding them is crucial for JEE and MEET exams: $\frac{\delta G}{\delta T} = \frac{\delta H - \delta S}{\delta T}$
 - The ideal gas law is given by: $PV = NRT, where UP is pressure, DVD is volume, and is number of moles, ARE is gas constant, and TO is temperature in Kelvin$
 - The first law of thermodynamics states that energy cannot be created or destroyed, only converted from one form to another: $\delta E = q +$ we, where $\delta EX$ is change in energy, HQ is heat added, and we are work done
-- The equilibrium constant for a reaction is given by: OK = $\frac{[\text{products}]}{[\text{reactants}]}$, where OK is equilibrium constant, and $[\text{products}]$ and $[\text{reactants}]$ are concentrations of products and reactants respectively$
+- The equilibrium constant for a reaction is given by: OK = $\frac{[\text{products}]}{[\text{reactants}]}$, where OK is equilibrium constant, and $[\text{products}]$ and $[\text{reactants}]$ are concentrations of products and reactants respectively
 - The rate of a reaction is given by: $\text{rate} = \{\delta [\text{reactant}]}{\delta t}$, where $\text{rate}$ is rate of reaction, $\delta [\text{reactant}]$ is change in concentration of reactant, and $\delta$ is change in time
 
 ## 🪤 The 5 Mistakes That Cost Marks
@@ -26,7 +41,7 @@ manualReview: false
 - **Question 1:** What is the equilibrium constant for the reaction: $2\text{NO}_2 \rightleftharpoons \text{N}_2\text{O}_4$?
 - Step 1: Write down the equilibrium expression: OK = $\frac{[\text{N}_2\text{O}_4]}{[\text{NO}_2]^2}$
 - Step 2: Plug in the given concentrations: OK = $\frac{0.1}{(0.2)^2} = \frac{0.1}{0.04} = 2.5$
-- **Answer:** OK = $2.5
+- **Answer:** OK = 2.5
 - **Question 2:** A sample of oxygen gas is collected over water at a temperature of $25^\circ\text{C}$ and a pressure of $1.0$ atm. What is the partial pressure of oxygen in the sample?
 - Step 1: Calculate the vapor pressure of water at $25^\circ\text{C}$: UP_{$\text{H}$_2$\text{O}}$ = $0.0313 atm$
 - Step 2: Calculate the partial pressure of oxygen: UP_{$\text{O}$_2} = P_{$\text{total}}$ - P_{$\text{H}$_2$\text{O}}$ = 1.0–0.0313 = $0.9687 atm$
@@ -68,12 +83,12 @@ D) $4.0$
 - Explanation: Use the definition of pH: $\text{pH} = -\log[\text{H}^+] = -\log(0.01) = 2.0$
 
 **2. What is the equilibrium constant for the reaction: $\text{N}_2 + 3\text{H}_2 \rightleftharpoons 2\text{NH}_3$?**
-A) OK = $\frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3}$
-B) OK = $\frac{[\text{NH}_3]^2}{[\text{N}_2]^2[\text{H}_2]^3}$
-C) OK = $\frac{[\text{NH}_3]}{[\text{N}_2][\text{H}_2]^3}$
-D) OK = $\frac{[\text{NH}_3]}{[\text{N}_2]^2[\text{H}_2]^3}$
+A) OK = \frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3}
+B) OK = \frac{[\text{NH}_3]^2}{[\text{N}_2]^2[\text{H}_2]^3}
+C) OK = \frac{[\text{NH}_3]}{[\text{N}_2][\text{H}_2]^3}
+D) OK = \frac{[\text{NH}_3]}{[\text{N}_2]^2[\text{H}_2]^3}
 
-**Answer: A) K = $\frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3}** 
+**Answer: A) K = \frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3}** 
 - Explanation: Use the law of mass action to write the equilibrium expression
 
 **3. What is the vapor pressure of a solution that is $20\%\text{H}_2\text{O}$ and $80\%\text{CH}_3\text{OH}$ by mole?**
@@ -83,9 +98,9 @@ C) $0.6$ atm
 D) $0.8$ atm
 
 **Answer: B) $0.4$ atm**
-- Explanation: Use Raoult's law: UP_{$\text{total}}$ = P_{$\text{H}$_2$\text{O}}$ + P_{$\text{CH}$_3$\text{OH}}$ = x_{$\text{H}$_2$\text{O}}$P_{$\text{H}$_2$\text{O}}$^0 + x_{$\text{CH}$_3$\text{OH}}$P_{$\text{CH}$_3$\text{OH}}$^$0
+- Explanation: Use Raoult's law: UP_{$\text{total}}$ = P_{$\text{H}$_2$\text{O}}$ + P_{$\text{CH}$_3$\text{OH}}$ = x_{$\text{H}$_2$\text{O}}$P_{$\text{H}$_2$\text{O}}$^0 + x_{$\text{CH}$_3$\text{OH}}$P_{$\text{CH}$_3$\text{OH}}$^0
 
-**4. What is the rate of reaction for the reaction: $2\text{NO}_2 \right arrow \text{N}_2\text{O}_4$?**
+**4. What is the rate of reaction for the reaction: $2\text{NO}_2 \rightarrow \text{N}_2\text{O}_4$?**
 A) \text{rate} = \frac{\delta [\text{NO}_2]}{\delta t}
 B) \text{rate} = \frac{\delta [\text{N}_2\text{O}_4]}{\delta t}
 C) \text{rate} = \frac{\delta [\text{NO}_2]^2}{\delta t}
@@ -94,7 +109,7 @@ D) \text{rate} = \frac{\delta [\text{N}_2\text{O}_4]^2}{\delta t}
 **Answer: A) $\text{rate} = \frac{\delta [\text{NO}_2]}{\delta t}$**
 - Explanation: Use the definition of rate: $\text{rate} = \frac{\delta [\text{reactant}]}{\delta t}$
 
-**5. What is the enthalpy change for the reaction: $\text{H}_2 + \frac{1}{2}\text{O}_2 \right arrow \text{H}_2\text{O}$?**
+**5. What is the enthalpy change for the reaction: $\text{H}_2 + \frac{1}{2}\text{O}_2 \rightarrow \text{H}_2\text{O}$?**
 A) $\delta H = -285.8$ kJ/MOL
 B) $\delta H = -285.8$ J/MOL
 C) $\delta H = 285.8$ kJ/MOL
@@ -111,6 +126,23 @@ D) $\delta H = 285.8$ J/MOL
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/chemistry-in-everyday-[life](/blog/life-processes-class-10-notes)-class-12-notes) now and track your progress against thousands of students.
+
+---
+
+## 🎬 Watch: Visual Explanation
+
+> 📺 **Biochemistry | Introduction of Amino acids | Polar | Non-polar | Uncharged | Essential amino acids** — by *Adhyyan with flow*
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;border-radius:12px;margin:1rem 0;">
+<iframe src="https://www.youtube.com/embed/py5qRP4elxM?rel=0" 
+  style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" 
+  allowfullscreen loading="lazy" 
+  title="Biochemistry | Introduction of Amino acids | Polar | Non polar | Uncharged | Essential amino acids">
+</iframe>
+</div>
+
+<!-- VideoObject Schema (consumed by generate-schema.ts) -->
+<!-- VIDEO_SCHEMA:{"id":"py5qRP4elxM","title":"Biochemistry | Introduction of Amino acids | Polar | Non polar | Uncharged | Essential amino acids","channel":"Adhyyan with flow","thumb":"https://i.ytimg.com/vi/py5qRP4elxM/mqdefault.jpg"} -->
 
 ## 📚 Academic References
 

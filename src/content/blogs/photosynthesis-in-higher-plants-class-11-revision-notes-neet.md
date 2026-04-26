@@ -102,7 +102,7 @@ Answer: B) ATP and NADPH
 ### <a id="trap-question-2"></a>Trap Question 2
 What is the equation for the Calvin cycle?
 A) $3CO_2 + 9ATP + 6NADPH \rightarrow C_3H_6O_3 + 9ADP + 6NADP^+$ B) 6CO_2 + 6H_2O $\rightarrow C_6H_{12}O_6 + 6O_2$ 
-C) $H_2O \rightarrow ATP + NADPH + O_2$ D) CO_2 + H_2O $\rightarrow Glucose + O_2$ 
+C) $H_2O \rightarrow ATP + NADPH + O_2$ D) $CO_2$ + $H_2O\rightarrow Glucose + O_2$ 
 
 Answer: A) $3CO_2 + 9ATP + 6NADPH \rightarrow C_3H_6O_3 + 9ADP + 6NADP^+$
 
@@ -130,7 +130,7 @@ Answer: B) Glucose
 What is the equation for photosynthesis?
  A) 6CO_2 + 6H_2O \rightarrow C_6H_{12}O_6 + 6O_2 
 B) $3CO_2 + 9ATP + 6NADPH \rightarrow C_3H_6O_3 + 9ADP + 6NADP^+$
-C) $H_2O \rightarrow ATP + NADPH + O_2$ D) CO_2 + H_2O $\rightarrow Glucose + O_2  Answer$: A) 6CO_2 + 6H_2O $\rightarrow C_6H_{12}O_6 + 6O_2$ 
+C) $H_2O \rightarrow ATP + NADPH + O_2$ D) $CO_2$ + $H_2O\rightarrow Glucose + O_2  Answer$: A) 6CO_2 + 6H_2O $\rightarrow C_6H_{12}O_6 + 6O_2$ 
 
 ## <a id="related-notes-links"></a>Related Notes Links
 

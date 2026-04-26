@@ -8,6 +8,20 @@ practice_link: "/practice/metallurgy-class-12-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [- Metallurgy is a complex process that involves the extraction of metals from their ores using various techniques.](#metallurgy-is-a-complex-process-that-involves-the-extraction-of-metals-from-their-ores-using-various-techniques)
+3. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+4. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+5. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+6. [👁️ Ayush's Note](#ayushs-note)
+7. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+8. [📝 Practice MCQs](#practice-mcqs)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - Metallurgy involves the extraction of metals from their ores using various processes.
 - The process of extracting metals from their ores is known as metallurgy, which involves the following steps: mining, crushing and grinding, concentration, separation, and refining.
@@ -151,3 +165,4 @@ Continue your revision with these related guides:
 - 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
 - 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
 - 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
+

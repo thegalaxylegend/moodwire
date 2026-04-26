@@ -61,18 +61,18 @@ Examiner's Trap: Be careful when distinguishing between mitosis and meiosis in q
 
 - **Fertilization Formula:** $\text{Zygote}$ = $\text{Sperm}$ + $\text{Egg}$ — represents the union of male and female gametes
 
-- **Gamete Formation:** 2n \rightarrow n — reduction of chromosome number during gamete formation
+- **Gamete Formation:** 2n $\rightarrow$n — reduction of chromosome number during gamete formation
 
-- **Fertilization Result:** n + n \rightarrow 2n — restoration of chromosome number after fertilization
+- **Fertilization Result:** n + n $\rightarrow$2n — restoration of chromosome number after fertilization
 Examiner's Trap: Understand the role of fertilization in restoring the diploid number of chromosomes.
 
 ### <a id="asexual-reproduction-formulas"></a>**Asexual Reproduction Formulas**
 
-- **Binary Fission Formula:** 1 \rightarrow 2 — represents the division of one parent cell into two daughter cells
+- **Binary Fission Formula:** 1 $\rightarrow$2 — represents the division of one parent cell into two daughter cells
 
-- **Budding Formula:** 1 \rightarrow 1 + $\text{bud}$ — represents the formation of a new individual from a bud
+- **Budding Formula:** 1 $\rightarrow$1 + $\text{bud}$ — represents the formation of a new individual from a bud
 
-- **Regeneration Formula:** $\text{Lost part}$ \rightarrow $\text{Regenerated part}$ — represents the ability of some organisms to regrow lost parts
+- **Regeneration Formula:** $\text{Lost part}\rightarrow\text{Regenerated part}$ — represents the ability of some organisms to regrow lost parts
 Examiner's Trap: Recognize the differences between binary fission, budding, and regeneration.
 
 ### <a id="human-reproduction-formulas"></a>**Human Reproduction Formulas**
@@ -88,9 +88,9 @@ Examiner's Trap: Understand the timing and events of the human menstrual cycle a
 
 - **Flower Structure:** $\text{Petal}$ + $\text{Sepal}$ + $\text{Stamen}$ + $\text{Pistil}$ — components of a complete flower
 
-- **Pollination Formula:** $\text{Pollen}$ + $\text{Stigma}$ \rightarrow $\text{Fertilization}$ — process of transferring pollen for fertilization
+- **Pollination Formula:** $\text{Pollen}$ + $\text{Stigma}\rightarrow\text{Fertilization}$ — process of transferring pollen for fertilization
 
-- **Seed Formation:** $\text{Ovule}$ \rightarrow $\text{Seed}$ — development of seeds from ovules after fertilization
+- **Seed Formation:** $\text{Ovule}\rightarrow\text{Seed}$ — development of seeds from ovules after fertilization
 Examiner's Trap: Identify the parts of a flower and their roles in plant reproduction.
 
 ### <a id="reproductive-health-formulas"></a>**Reproductive Health Formulas**
@@ -118,7 +118,7 @@ Examiner's Trap: Understand the importance of reproductive health and family pla
 | Process of transferring pollen | Pollination Formula |
 | Development of seeds from ovules | Seed Formation |
 | Calculation of birth control effectiveness | Birth Control Formula |
-| Measure of contraceptive use | Contraceptive Prevalence |$
+| Measure of contraceptive use | Contraceptive Prevalence |
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -511,50 +511,50 @@ Reproduction is the process by which organisms produce offspring, and it can be 
 
 **1. The human male reproductive system consists of two testes which produce $\frac{1}{2}$ mL of semen per milliliter of bloo
 d. What percentage of blood is this in terms of semen production?**
-**A)**    5%
-**B)**    10%
-**C)**    15%
-**D)**    20%
+**A)**     5%
+**B)**     10%
+**C)**     15%
+**D)**     20%
 
 **Answer:** C) This is because 2 testes produce $\frac{1}{2}$ mL of semen per milliliter of blood. Therefore, semen production is $\frac{1}{2}$% of blood. Option B is wrong because $\frac{1}{2}$ mL of semen is 50% of milliliter of blood, not 10%. Option D is wrong because it's half of 20%, which equals 10%. Option A is wrong because $\frac{1}{2}$ mL of semen is more than 5% of milliliter of blood.
 
 ---
 
 **2. What is the function of the stigma in a flower?**
-**A)**    Reproduction
-**B)**    Pollination
-**C)**    Seed dispersal
-**D)**    Nourishment
+**A)**     Reproduction
+**B)**     Pollination
+**C)**     Seed dispersal
+**D)**     Nourishment
 
 **Answer:** A) This is because reproduction is the process of producing offspring through the fusion of male and female gametes. Stigma is the part of the flower that receives pollen grains, which is essential for reproduction. Option B is wrong because pollination is the process of transferring pollen from the male reproductive organ to the female reproductive organ. Option C is wrong because seed dispersal is the process of spreading seeds away from the parent plant. Option D is wrong because nourishment is the process of providing food to the plants.
 
 ---
 
 **3. How many types of gametes are formed in human reproduction?**
-**A)**    One
-**B)**    Two
-**C)**    Three
-**D)**    Four
+**A)**     One
+**B)**     Two
+**C)**     Three
+**D)**     Four
 
 **Answer:** B) This is because human reproduction involves the formation of two types of gametes: sperm and egg. Sperm is a male gamete, while egg is a female gamete. Option A is wrong because human reproduction involves the formation of two types of gametes, not one. Option C is wrong because there are only two types of gametes in human reproduction, not three. Option D is wrong because there are only two types of gametes in human reproduction, not four.
 
 ---
 
 **4. What is the primary function of the placenta in human reproduction?**
-**A)**    Nutrition
-**B)**    Respiration
-**C)**    Circulation
-**D)**    Detoxification
+**A)**     Nutrition
+**B)**     Respiration
+**C)**     Circulation
+**D)**     Detoxification
 
 **Answer:** D) This is because the primary function of the placenta is to remove waste products from the mother's blood and transfer them to the fetus. This process is known as detoxification. Option A is wrong because the placenta does provide nutrients to the fetus, but it's not its primary function. Option B is wrong because the placenta doesn't facilitate respiration. Option C is wrong because the placenta doesn't facilitate circulation.
 
 ---
 
 **5. $\frac{1}{4}$ mL of semen is produced by one testis per hour. If the total semen production is $\frac{1}{4}$ mL, how many hours does it take to produce this amount?**
-**A)**    1 hour
-**B)**    2 hours
-**C)**    3 hours
-**D)**    4 hours
+**A)**     1 hour
+**B)**     2 hours
+**C)**     3 hours
+**D)**     4 hours
 
 **Answer:** C) This is because if one testis produces $\frac{1}{4}$ mL of semen per hour, then two testes will produce $\frac{1}{2}$ mL of semen per hour. Therefore, it takes 2 hours to produce $\frac{1}{2}$ mL. Option A is wrong because it takes more than 1 hour to produce $\frac{1}{4}$ mL from one testis. Option B is wrong because it takes more than 2 hours to produce $\frac{1}{4}$ mL from one testis. Option D is wrong because it takes more than 4 hours to produce $\frac{1}{4}$ mL from one testis.
 
@@ -578,4 +578,21 @@ Continue your revision with these related guides:
 - 📖 [Heredity and Evolution Class 10 Science Recap — Grandmaster Guide](/blog/heredity-and-evolution-class-10-notes)
 - 📖 [Life Processes Class 10 Science Recap — Grandmaster Guide](/blog/life-processes-class-10-notes)
 - 📖 [Light – Reflection and Refraction Class 10 Science Recap — Grandmaster Guide](/blog/light-reflection-and-refraction-class-10-notes)
-$
+
+---
+
+## 🎬 Watch: Visual Explanation
+
+> 📺 **Rapid Revision Series |How Do Organisms Reproduce Class 10|CBSE Class 10 Biology | #shivangichauhan** — by *10th Titans by Unacademy*
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;border-radius:12px;margin:1rem 0;">
+<iframe src="https://www.youtube.com/embed/oL6a06Oe0o4?rel=0" 
+  style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" 
+  allowfullscreen loading="lazy" 
+  title="Rapid Revision Series |How Do Organisms Reproduce Class 10|CBSE Class 10 Biology | #shivangichauhan">
+</iframe>
+</div>
+
+<!-- VideoObject Schema (consumed by generate-schema.ts) -->
+<!-- VIDEO_SCHEMA:{"id":"oL6a06Oe0o4","title":"Rapid Revision Series |How Do Organisms Reproduce Class 10|CBSE Class 10 Biology | #shivangichauhan","channel":"10th Titans by Unacademy","thumb":"https://i.ytimg.com/vi/oL6a06Oe0o4/mqdefault.jpg"} -->
+

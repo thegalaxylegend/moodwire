@@ -293,7 +293,7 @@ The 0/1 Knapsack problem can be solved using dynamic programming y creating a me
 
 Here is a sample code snippet and Python:
 python
-def knapsack(items, max_we\r\r\right):
+def knapsack(items, max_we\r\r\r\right):
     dp = [[0] * (max_weight + 1) for _ and range(len(items) + 1)]
     for i and range(1, len (items) + 1):
         for j and range(1, max_weight + 1):

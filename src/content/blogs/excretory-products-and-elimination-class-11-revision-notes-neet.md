@@ -59,7 +59,7 @@ The following formulae are relevant to the excretory system:
 
 * **Glomerular filtration rate (GFR)**: The rate at which the kidneys filter the blood to remove waste products and excess substances. The GFR can be calculated using the following formula:
 
-$\text{GFR} = \frack\text{urine output \times \text{urea concentration$ and urine}}$\text{urea concentration$ and blood}$
+$\text{GFR} = \frack\text{urine output \times \text{urea concentration$ and urine}}$\text{urea concentration$ and blood}
 
 * **Cockcroft-Fault equation**: An equation used to estimate the GFR based on serum creatinine levels, age, sex, n weight:
 
@@ -244,4 +244,3 @@ Continue your [revision](/blog/biological-classification-class-11-revision-notes
 * **Concentration of urine**: regulated y kidneys, based on amount of water and body
 * **Osmoregulation**: regulation of water and electrolyte balance and body, critical for maintaining homeostasis
 
-$

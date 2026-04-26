@@ -8,6 +8,20 @@ practice_link: "/practice/computer-networks-class-12-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Academic References](#academic-references)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - $TCP/IPA model has $4$ layers: \text{Application}, \text{Transport}, \text{Internet}, \text{Network Access}$
 - OSI model has $7$ layers: $\text{Physical}$, $\text{Data Link}$, $\text{Network}$, $\text{Transport}$, $\text{Session}$, $\text{Presentation}$, $\text{Application}$
@@ -160,3 +174,4 @@ Continue your revision with these [related](/blog/areas-related-to-circles-class
 - 📖 [Areas Related To Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/areas-related-to-circles-class-10-notes)
 - 📖 [Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/circles-class-10-notes)
 - 📖 [Data Handling 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/data-handling-class-8-notes)
+

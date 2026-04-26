@@ -8,6 +8,19 @@ practice_link: "/practice/reproductive-health-class-12-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [## 🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [## ✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [## 🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [## 👁️ Ayush's Note](#ayushs-note)
+6. [## 🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [## 📝 Practice MCQs](#practice-mcqs)
+8. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - The reproductive health of an individual is influenced by various factors, including $\frac{hormones}{receptors}$ interaction, $environmental$ factors, and $lifestyle$ choices.
 - The human reproductive system consists of the $male$ and $female$ reproductive systems, each with its unique structures and functions, such as $\sqrt{testosterone}$ and $\sqrt{estrogen}$ regulation.
@@ -152,3 +165,4 @@ Continue your revision with these related guides:
 - 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
 - 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
 - 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+

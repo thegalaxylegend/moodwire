@@ -8,9 +8,22 @@ practice_link: "/practice/determinants-class-12-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - The determinant of a 2x2 matrix $\begin{bmatrix} a & b \\ c & d \end{bmatrix}$ is given by $\frac{ad}{1} - \frac{bc}{1} = ad - BC$
-- The determinant of a 3x3 matrix $\begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix}$ is given by a(a - FH) - b(DI - FG) + c(DH - e.g.)$
+- The determinant of a 3x3 matrix $\begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix}$ is given by a(a - FH) - b(DI - FG) + c(DH - e.g.)
 - $\begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix} = a(a - FH) - b(DI - FG) + c(DH - e.g.)$
 - The determinant of the product of two matrices is equal to the product of their determinants: $\begin{vmatrix} AB \end{vmatrix} = \begin{vmatrix} A \end{vmatrix} \begin{vmatrix} B \end{vmatrix}$
 - If a matrix has two identical rows or columns, its determinant is zero
@@ -124,4 +137,4 @@ Continue your revision with these related guides:
 - 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Determinants%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-$
+

@@ -8,6 +8,25 @@ practice_link: "/practice/reproduction-in-organisms-class-12-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [### Key Concepts](#key-concepts)
+3. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+4. [### Common Mistakes](#common-mistakes)
+5. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+6. [### PYQ Analysis](#pyq-analysis)
+7. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+8. [### Key Concept](#key-concept)
+9. [👁️ Ayush's Note](#ayushs-note)
+10. [### Tips and Tricks](#tips-and-tricks)
+11. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+12. [### Last Minute Tips](#last-minute-tips)
+13. [📝 Practice MCQs](#practice-mcqs)
+14. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - $F_{1}$ generation is the first filial generation, resulting from a cross between two parents
 - The probability of an event is given by $\frac{Number \:$ of \: favorable \: outcomes}{Total \: number \:$ of \: possible \: outcomes}$
@@ -34,7 +53,7 @@ manualReview: false
 
 ## 
 ### Common Mistakes
-- Not using the correct terminology when describing the reproductive system, resulting in $\leq$ clarity and $
+- Not using the correct terminology when describing the reproductive system, resulting in $\leq$ clarity and 
 eq$ accuracy$
 - Failing to recognize the importance of $\vec{F}$-forces and $\bar{v}$-velocities in the movement of sperm cells
 - Not being able to apply the principles of $\hat{p}$-probability and $\overline{x}$-statistics to questions about reproduction
@@ -48,7 +67,7 @@ eq$ accuracy$
 - $\text{Spermatogenesis}$ involves the $\partial$-differentiation of $\gamma$-spermatogonium into $\delta$-sperm cells, with the process occurring in the $\text{seminal vesicles}$
 - **Answer:** The process of $\text{spermatogenesis}$ involves the $\partial$-differentiation of $\gamma$-spermatogonium into $\delta$-sperm cells
 - **Question 3:** What is the role of $\mu$-estrogen in the human reproductive system, including its effects on the $\text{endometrium}$ and $\text{cervix}$?
-- $\mu$-Estrogen helps to regulate the $\text{menstrual cycle}$ and maintain the $\text{endometrium}$, with $\leq$ levels of $\mu$-estrogen resulting in $
+- $\mu$-Estrogen helps to regulate the $\text{menstrual cycle}$ and maintain the $\text{endometrium}$, with $\leq$ levels of $\mu$-estrogen resulting in 
 eq$ fertility$
 - **Answer:** The role of $\mu$-estrogen is to regulate the $\text{menstrual cycle}$ and maintain the $\text{endometrium}$
 
@@ -62,7 +81,7 @@ eq$ fertility$
 - The most common mistake made by students is not understanding the difference between $\text{mitosis}$ and $\text{meiosis}$, resulting in incorrect answers to questions about cell division
 - $\text{Mitosis}$ involves the $\partial$-division of a single cell into two daughter cells, with the same number of $\\lambda$-chromosomes
 - $\text{Meiosis}$ involves the $\partial$-division of a single cell into four daughter cells, with $\leq$ number of $\\lambda$-chromosomes
-- Not understanding this concept can result in $\leq$ marks and $
+- Not understanding this concept can result in $\leq$ marks and 
 eq$ performance in exams$
 
 ## 
@@ -175,4 +194,4 @@ Continue your revision with these related guides:
 - 📖 [Organisms And Populations Class 12 Exam Prep Revision — Grandmaster Guide](/blog/organisms-and-populations-class-12-notes)
 - 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
 - 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
-$
+

@@ -8,6 +8,19 @@ practice_link: "/practice/quadrilaterals-class-9-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - Types of quadrilaterals: $\frac{1}{2} \times d_1 \times d_2$ for area of a kite or rhombus, where $d_1$ and $d_2$ are diagonals
 - Perimeter of a quadrilateral: $P = a + b + c + d$, where $a, b, c, d$ are sides
@@ -137,3 +150,4 @@ Continue your revision with these related guides:
 - 📖 [Linear Equations In Two Variables 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-two-variables-class-9-notes)
 - 📖 [Lines And Angles 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/lines-and-angles-class-9-notes)
 - 📖 [Number Systems 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/number-systems-class-9-notes)
+

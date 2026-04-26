@@ -265,7 +265,7 @@ What are common Trap Questions for Magnetism and Matter? is a crucial aspect of 
 
 | Concept | Description | Formula |
 | --- | --- | --- |
-| Magnetic Field Lines | Continuous, closed loops | $\mu_0I${2\pi r}$ |
+| Magnetic Field Lines | Continuous, closed loops | $\mu_0I${2\pi r}$ |$
 | Electric Field Lines | Originate from positive charges, terminate on negative charges | $\vec{E} = \frac{kQ}{r^2}$ |
 | Magnetic Induction | Induced current flows to oppose change and magnetic field | $\epsilon = -N\frac{d\phi}{dt}$ |
 
@@ -382,14 +382,14 @@ Continue your revision with these related guides:
 - 📖 [Alternating Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alternating-current-class-12-notes)
 - 📖 [Electromagnetic Waves Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-waves-class-12-notes)
 
-}$}}}
+}$}}}$
 
 ## 🔁 Last 5 Minutes Box
 
 ### Magnetism and Matter Revision Notes
    * **Magnetic Field**: B = μ₀nI
    * **Magnetic Moment**: M = IA
-   * **Torque on a Current Loop**: τ = MB sinθ
+   * **Torque on a Current Loop**: τ = MB \sinθ
    * **Magnetic Induction**: μ = μₒ(1 + χ)
    * **Biot-Savart Law**: dB = (μ₀ * I * dl × r̂) / (4π * r²)
    * **Ampere's Law**: ∮B · dl = μ₀I
@@ -398,3 +398,4 @@ Continue your revision with these related guides:
    * **Diamagnetic Materials**: χ < 0, μ < μ₀
    * **Paramagnetic Materials**: χ > 0, μ > μ₀
    * **Ferromagnetic Materials**: χ >> 0, μ >> μ₀
+

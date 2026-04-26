@@ -109,7 +109,7 @@ Instead of just counting outcomes, we assign a number $P(E)$ to an event $E$ tha
 3.  If $A$ n $B$ are mutually exclusive, $P(A \cup B) = P(A) + P(B)$.
 
 ### <a id="fundamental-formulas"></a>Fundamental Formulas:
-- **$P(A \text{$ or } B) = P(A \cup B) = P(A) + P(B) - P(A \cap B)$**
+- **$P(A \text{$ or } B) = P(A \cup B) = P(A) + P(B) - P(A \cap B)$**$
 - **$P(\text{not } A) = P(A') = 1 - P(A)$**
 - **$P(A - B) = P(A) - P(A \cap B)$**
 
@@ -120,7 +120,7 @@ Instead of just counting outcomes, we assign a number $P(E)$ to an event $E$ tha
 **Q1: Two dice are thrown. What is the probability that the $\sum is exactly 7$?**
 **Answer:**
 - Total outcomes ($n(S)$) = $6 \times 6 = 36$.
-- Event $E$ ($\sum$ is 7) = {(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)}.$
+- Event $E$ ($\sum$ is 7) = {(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)}.
 - $n(E) = 6$.
 - $P(E) = 6/36 = \mathbf{1/6}$.
 

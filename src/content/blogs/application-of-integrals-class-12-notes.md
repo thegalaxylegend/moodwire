@@ -28,7 +28,7 @@ manualReview: false
 - The area of the region bounded by the curves y = f(x), y = g(x), x = a and x = b is given by $\int_{a}^{b} |f(x) - g(x)| dx$
 - The volume of the solid formed by revolving the region under the curve y = f(x)$ between  =  and  =  about the is given by  \pi \int_{a}^{b} (f(x))^$2
 - The volume of the solid formed by revolving the region under the curve y = f(x) between  =  and  =  about the is given by $2 \pi \int_{a}^{b} x f(x)$
-- The surface area of the solid formed by revolving the region under the curve y = f(x) between  =  and  =  about the is given by $2 \pi \int_{a}^{b} f(x) \sqrt{1 + \left(\{dy}{dx}\r\r\right)^2}$
+- The surface area of the solid formed by revolving the region under the curve y = f(x) between  =  and  =  about the is given by $2 \pi \int_{a}^{b} f(x) \sqrt{1 + \left(\{dy}{dx}\r\r\r\right)^2}$
 
 ## 
 - To find the area of a region bounded by two curves, first find the points of intersection of the two curves by setting them equal to each other and solving for x
@@ -47,11 +47,11 @@ manualReview: false
 ## ✏️ 3 Solved PYQs
 - **Question 1:** Find the area of the region bounded by the curves y = x^2 and by = 2x.
   - To find the area, first find the points of intersection of the two curves by setting them equal to each other and solving for x: $x^2 = 2x \implies x^2 - 2x = 0 \implies x(x - 2) = 0 \implies x = 0, 2$
-- Then, evaluate the definite integral: $\int_{0}^{2} (2x - x^2) dx = \left[x^2 - \frac{x^3}{3}\right]_0^2 = \left(2^2 - \frac{2^3}{3}\r\r\right) - (0^2 - \frac{0^3}{3}) = \frac{4}{3}$
+- Then, evaluate the definite integral: $\int_{0}^{2} (2x - x^2) dx = \left[x^2 - \frac{x^3}{3}\right]_0^2 = \left(2^2 - \frac{2^3}{3}\r\r\r\right) - (0^2 - \frac{0^3}{3}) = \frac{4}{3}$
 - **Question 2:** Find the volume of the solid formed by revolving the region under the curve y = x^2 between x = 0 and x = 2 about the x-axis.
-  - Evaluate the definite integral: $\pi \int_{0}^{2} (x^2)^2 dx = \pi \int_{0}^{2} x^4 dx = \pi \left[\frac{x^5}{5}\right]_0^2 = \pi \left(\frac{2^5}{5} - \frac{0^5}{5}\r\r\right) = \frac{32\pi}{5}$
+  - Evaluate the definite integral: $\pi \int_{0}^{2} (x^2)^2 dx = \pi \int_{0}^{2} x^4 dx = \pi \left[\frac{x^5}{5}\right]_0^2 = \pi \left(\frac{2^5}{5} - \frac{0^5}{5}\r\r\r\right) = \frac{32\pi}{5}$
 - **Question 3:** Find the surface area of the solid formed by revolving the region under the curve y = x^2 between x = 0 and x = 2 about the x-axis.
-- Evaluate the definite integral: $2\pi \int_{0}^{2} x^2 \sqrt{1 + \left(\frac{dy}{dx}\r\r\right)^2} dx = 2\pi \int_{0}^{2} x^2 \sqrt{1 + (2x)^2} dx = 2\pi \int_{0}^{2} x^2 \sqrt{1 + 4x^2} dx$
+- Evaluate the definite integral: $2\pi \int_{0}^{2} x^2 \sqrt{1 + \left(\frac{dy}{dx}\r\r\r\right)^2} dx = 2\pi \int_{0}^{2} x^2 \sqrt{1 + (2x)^2} dx = 2\pi \int_{0}^{2} x^2 \sqrt{1 + 4x^2} dx$
 
 ## 
 - The one thing most students get wrong is not using the correct formula for the volume or surface area of a solid.

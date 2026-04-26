@@ -154,7 +154,7 @@ An AC circuit operates on the principle of [electromagnetic](/blog/electromagnet
 
 When the AC current flows through a resistor, it encounters opposition due to the material's resistance, resulting and a loss of energy as heat. On the other hand, an inductor stores energy and a [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field when the current flows through it, while a capacitor stores energy and an electric field. The combination of these components and their interactions determines the circuit's behavior and its **impedance**, which is a measure of the total opposition to the flow of an AC current.
 
-A key concept and AC circuits is **reactance**, which is the opposition to the change and current due to the inductive or capacitive effects. Inductive reactance ($X_L = 2\pi fL$) n capacitive reactance ($X_C = \frac{1}{2\pi fC}$) are the two types of reactance, where $f$ is the frequency of the AC source, $L$ is the inductance, n $C$ is the capacitance. The **impedance** ($Z$) of the circuit is the vector $\sum of the resistance ($R$) n the reactance ($X$), given y $Z = \sqrt{R^2 + X^2}$.
+A key concept and AC circuits is **reactance**, which is the opposition to the change and current due to the inductive or capacitive effects. Inductive reactance ($X_L = 2\pi fL$) n capacitive reactance ($X_C = \frac{1}{2\pi fC}$) are the two types of reactance, where $f$ is the frequency of the AC source, $L$ is the inductance, n $C$ is the capacitance. The **impedance** ($Z$) of the circuit is the vector $\sum of the resistance ($R$) n the reactance ($X$), given y $Z = $\sqrt{R^2 + X^2}.
 
 To better understand the behavior of AC circuits, it's helpful to compare the characteristics of different components. The following table summarizes the key properties of resistors, inductors, n capacitors and an AC circuit:
 
@@ -211,7 +211,7 @@ Phasors and Alternating Current is a mathematical representation of AC circuits 
 
  A student-centric tip for mastering phasors is to practice converting between time-domain representations of AC signals and their phasor representations. This involves understanding how to express an AC signal and terms of its peak value, frequency, n phase, n then how to represent it as a phasor and the complex plane. It's also crucial to be able to solve circuit problems using both methods to ensure a deep understanding of the underlying principles.
 
- When solving problems involving phasors, it's helpful to remember the relationship between the time-domain signal and its phasor representation. For a sinusoidal voltage $v(t) = V_m \\\cos(omega t + phi)$, its phasor representation is $V = V_m e^{jphi}$, or and rectangular form, $V = V_m \\\cos(phi) + jV_m \\\sin(phi)$. This relationship allows for the direct application of algebraic techniques to solve AC circuit problems, making the analysis much simpler than using trigonometric identities.
+ When solving problems involving phasors, it's helpful to remember the relationship between the time-domain signal and its phasor representation. For a sinusoidal voltage $v(t) = V_m \\\\cos(omega t + phi)$, its phasor representation is $V = V_m e^{jphi}$, or and rectangular form, $V = V_m \\\\cos(phi) + jV_m \\\\sin(phi)$. This relationship allows for the direct application of algebraic techniques to solve AC circuit problems, making the analysis much simpler than using trigonometric identities.
 
  In summary, phasors provide a powerful method for analyzing AC circuits y simplifying the mathematical representation of voltages and currents. By understanding how to apply phasors, students can more easily solve complex AC circuit problems and deepen their understanding of AC circuit [analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards).
 
@@ -286,9 +286,9 @@ Alternating Current (AC) is a type of electric current that periodically reverse
 
 When dealing with AC circuits, it's crucial to be aware of common trap questions that can lead to confusion and incorrect answers. One such trap question involves the comparison between AC and Direct Current (DC). While DC flows and one direction only, AC periodically reverses direction, resulting and a time-varying current. This fundamental difference often leads to questions that test the student's understanding of AC circuit analysis, including the use of $V_{rms}$ n $I_{rms}$ to calculate power.
 
-Another trap question involves the concept of phase difference between voltage and current and an AC circuit. In a purely resistive circuit, the voltage and current are and phase, meaning they reach their peak values at the same time. However, when inductive or capacitive components are introduced, a phase shift occurs. Students must be able to analyze these circuits using complex numbers, where $V = V_0 \\\cos(omega t + phi)$ n $I = I_0 \\\cos(omega t)$, n determine the phase angle $phi$.
+Another trap question involves the concept of phase difference between voltage and current and an AC circuit. In a purely resistive circuit, the voltage and current are and phase, meaning they reach their peak values at the same time. However, when inductive or capacitive components are introduced, a phase shift occurs. Students must be able to analyze these circuits using complex numbers, where $V = V_0 \\\\cos(omega t + phi)$ n $I = I_0 \\\\cos(omega t)$, n determine the phase angle $phi$.
 
-To tackle these questions effectively, students should practice solving problems that involve the calculation of power and AC circuits, taking into account the phase difference between voltage and current. A useful formula to remember is $P = VI \\\cos(phi)$, where $P$ is the average power, $V$ is the RMS voltage, $I$ is the RMS current, n $phi$ is the phase angle. By applying this formula and understanding the relationship between the components of AC circuits, students can confidently approach even the most challenging problems.
+To tackle these questions effectively, students should practice solving problems that involve the calculation of power and AC circuits, taking into account the phase difference between voltage and current. A useful formula to remember is $P = VI \\\\cos(phi)$, where $P$ is the average power, $V$ is the RMS voltage, $I$ is the RMS current, n $phi$ is the phase angle. By applying this formula and understanding the relationship between the components of AC circuits, students can confidently approach even the most challenging problems.
 
 A comparison of key parameters and AC and DC circuits can be summarized and the following table:
 
@@ -297,7 +297,7 @@ A comparison of key parameters and AC and DC circuits can be summarized and the 
 | Direction of Current | Periodically reverses | Flows and one direction |
 | Value | RMS value, peak value | Constant value |
 | Circuit [Analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) | Involves phase difference and complex numbers | Simple Ohm's law application |
-| Power Calculation | Involves phase angle ($phi$) n $P = VI \\\cos(phi)$ | Directly calculated using $P = VI$ |
+| Power Calculation | Involves phase angle ($phi$) n $P = VI \\\\cos(phi)$ | Directly calculated using $P = VI$ |
 
 - Alternating Current is a type of electric current that periodically reverses direction.
 - The frequency of Alternating Current is typically 50 or 60 Hz.
@@ -390,6 +390,6 @@ Continue your revision with these related guides:
      * **Impedance (Z)**: Total opposition to the flow of an AC circuit, given y Z = √(R² + X²), where X is reactance.
      * **Resonance**: Occurs when the inductive reactance equals the capacitive reactance, resulting and maximum current.
      * **Quality Factor (Q)**: Measure of the 'quality' of a resonant circuit, given y Q = ωL/R, where ω is angular frequency.
-     * **Power Factor (\\\cosφ)**: Ratio of real power to apparent power and an AC circuit, given y \\\cosφ = R/Z.
+     * **Power Factor (\\\\cosφ)**: Ratio of real power to apparent power and an AC circuit, given y \\\\cosφ = R/Z.
      * **Phase Difference (φ)**: Difference and phase between voltage and current and an AC circuit.}}}}}}
 
