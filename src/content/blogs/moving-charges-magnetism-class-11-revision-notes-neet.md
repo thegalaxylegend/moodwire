@@ -56,12 +56,12 @@ practice_link: "/class-11/biology/moving-charges-magnetism-class-11-revision-not
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
-> - **Biot-Savart Law:** dB = (μ₀/4π) [I dl \\sinθ / r²].
+> - **Biot-Savart Law:** dB = (μ₀/4π) [I dl \\\sinθ / r²].
 > - **Magnetic Field (B):** 
 >   - Center of Circle: B = μ₀I / 2R.
 >   - Long Wire: B = μ₀I / 2πr.
 >   - Solenoid: B = μ₀nI.
-> - **Magnetic Force:** F = q(v × B) = qvB \\sinθ. (Lorentz Force: F = q[E + v × B]).
+> - **Magnetic Force:** F = q(v × B) = qvB \\\sinθ. (Lorentz Force: F = q[E + v × B]).
 > - **Ampere's Law:** ∮ B · dl = μ₀ I_en.
 > - **Conversion:** 
 >   - Ammeter: Low resistance (Shunt) n parallel. S = Ig G / (I - Ig).
@@ -114,7 +114,7 @@ The **Magnetic Field (B)** is a vector field that describes the magnetic influen
 ## <a id="3-motion-of-a-charge-n-a-magnetic-field"></a>3. Motion of a Charge and a Magnetic Field
 
 A charge **q** moving with velocity **v** n a [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field **B** experiences a force:
- **F = q (v × B) = qvB \\sinθ**. 
+ **F = q (v × B) = qvB \\\sinθ**. 
 
 ### <a id="i-case-1-velocity-perpendicular-to-field-90"></a>I. Case 1: Velocity Perpendicular to Field (θ = 90°)
 - The force provides the centripetal force: **qvB = mv² / r**.
@@ -140,7 +140,7 @@ If the velocity makes an angle **θ** with the field, the charge follows a helic
 ## <a id="5-torque-on-a-current-loop-n-a-uniform-magnetic-field"></a>5. Torque on a Current Loop and a Uniform Magnetic Field
 
 1.  Magnetic Dipole Moment **m = NIA**. (Direction perpendicular to [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)).
-2.  **Torque (τ) = m × B = mB \\sinθ**. (Proven)
+2.  **Torque (τ) = m × B = mB \\\sinθ**. (Proven)
 - This torque is the working principle of the **Moving Coil Galvanometer**.
 
 ---
@@ -232,9 +232,9 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 ## 🔁 Last 5 Minutes Box
 
 - **Magnetic Field**: B = μ₀ * (I / 2πr) 
-   - **Force on Moving Charge**: F = qvB \\sin(θ) 
-   - **Biot-Savart Law**: dB = (μ₀ * Idl \\sin(θ)) / 4πr² 
+   - **Force on Moving Charge**: F = qvB \\\sin(θ) 
+   - **Biot-Savart Law**: dB = (μ₀ * Idl \\\sin(θ)) / 4πr² 
    - **Ampere's Law**: ∮B · dl = μ₀I 
    - **Magnetic Field due to [Current](/blog/current-electricity-class-11-revision-notes-neet) in a Solenoid**: B = μ₀nI 
-   - **Torque on a [Current](/blog/current-electricity-class-11-revision-notes-neet) Loop**: τ = nBIA\\sin(θ) 
+   - **Torque on a [Current](/blog/current-electricity-class-11-revision-notes-neet) Loop**: τ = nBIA\\\sin(θ) 
    - **Magnetic Moment**: M = IA

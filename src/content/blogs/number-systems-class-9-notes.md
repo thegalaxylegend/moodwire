@@ -30,7 +30,7 @@ gcd(a, b) = gcd(b, a mod b)
   - A number is divisible by 3 if the sum of its digits is divisible by 3.
   - A number is divisible by 4 if the number formed by its last two digits is divisible by 4.
 - The **the least common multiple (LCM)** of two integers $a$ and $b$ is given by:
-	ext{lcm}(a, b) = \frac{|ab|}{gcd(a, b)}
+	ext{lcm}(a, b) = $\frac{|ab|}${gcd(a, b)}
 
 ## 🪤 The 5 Mistakes That Cost Marks
 When solving problems related to number systems, students often make mistakes that can cost them valuable marks. Here are five common mistakes to avoid:
@@ -47,7 +47,7 @@ gcd(48, 18) = gcd(18, 48 mod 18) = gcd(18, 12) = gcd(12, 18 mod 12) = gcd(12, 6)
 2. **PYQ 2**: Determine if 1234 is divisible by 4.
 The last two digits of 1234 are 34, which is not divisible by 4. Therefore, 1234 is not divisible by 4.
 3. **PYQ 3**: Find the LCM of 12 and 15.
-	ext{lcm}(12, 15) = \frac{|12 \times 15|}{gcd(12, 15)} = \frac{180}{3} = 60
+	ext{lcm}(12, 15) = $\frac{|12 \times 15|}${gcd(12, 15)} = $\frac{180}${3} = 60
 
 ## 🧠 The One Thing Most Students Get Wrong
 The one thing that most students get wrong when solving problems related to number systems is **not using the fundamental theorem of arithmetic**. This theorem states that every integer greater than 1 is either prime itself or can be factorized as a product of prime numbers uniquely, except for the order in which the prime numbers occur.

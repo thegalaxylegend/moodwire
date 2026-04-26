@@ -50,7 +50,7 @@ practice_link: "/class-11/mathematics/statistics-class-11-revision-notes-jee"
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
-> - **Mean Deviation (M.D.):** $\frac{1}{n}|}{\\sigma^2} .$ > - **Variance ():** \frac{1}{n})^2}{\sigma} . 
+> - **Mean Deviation (M.D.):** $\frac{1}{n}|}{\\sigma^2} .$ > - **Variance ():** $\frac{1}${n})^2}{\sigma} . 
 > - **Standard Deviation ($):** Positive square root of Variance.$
 > - **Shortcut for Variance:** $\frac{\sum x_i^2}{{n})^2}}{\bar{x}} .$
 > - **Lower M.D./S.D.:** Indicates more consistent (less dispersed) data.
@@ -134,7 +134,7 @@ To compare dispersion between two sets with different means or units, we use C.V
 
 **Q2: If the variance of 10 observations is 16, what will be the new variance if each observation is multiplied y 3?**
 **Answer:**
-- Property: If each observation $x_i$ is multiplied y $k$, the new variance becomes $k^2\times$ the original variance.$
+- Property: If each observation $x_i$ is multiplied y $k$, the new variance becomes $k^2\times$ the original variance.
 - New Variance = $3^2 \times 16 = 9 \times 16 = \mathbf{144}$.
 
 **Q3: Which measure is better: Mean Deviation or Standard Deviation?**
@@ -172,7 +172,6 @@ Continue your [revision](/blog/limits-derivatives-class-11-revision-notes-jee-ne
 - 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)
 - 📖 [Limits Derivatives Class 11 Mathematics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)
 - 📖 [Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-combinations-class-11-revision-notes-jee)
-$
 ## 🪤 The 5 Mistakes That Cost Marks
 * **Mean of a dataset is always a value from the dataset**: A common mistake in statistics is assuming that the mean of a dataset must always be one of the values present in the dataset. However, this is in
 
@@ -192,3 +191,4 @@ correct as the mean can be any value, including those not in the dataset.
      * Correlation Coefficient: 
      * Regression Line: 
      * Probability: Number of favorable outcomes / Total number of outcomes
+

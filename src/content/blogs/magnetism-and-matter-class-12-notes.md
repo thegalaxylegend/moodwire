@@ -389,7 +389,7 @@ Continue your revision with these related guides:
 ### Magnetism and Matter Revision Notes
    * **Magnetic Field**: B = μ₀nI
    * **Magnetic Moment**: M = IA
-   * **Torque on a Current Loop**: τ = MB \sinθ
+   * **Torque on a Current Loop**: τ = MB \\sinθ
    * **Magnetic Induction**: μ = μₒ(1 + χ)
    * **Biot-Savart Law**: dB = (μ₀ * I * dl × r̂) / (4π * r²)
    * **Ampere's Law**: ∮B · dl = μ₀I

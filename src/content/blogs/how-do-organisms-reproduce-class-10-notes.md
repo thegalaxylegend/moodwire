@@ -389,7 +389,7 @@ Imagine a **"Blueprint Analogy"**:
 
 * **Regeneration:**
  * Ability of an organism to regrow lost body parts or develop a whole new organism from a cut or injured body part.
- * Carried out by specialized cells that proliferate and differentiate.
+ * carried out by specialized cells that proliferate and differentiate.
  * Not all organisms can regenerate fully; complex organisms have limited regenerative capacity (e.g.
 
 - lizard's tail).
@@ -511,50 +511,50 @@ Reproduction is the process by which organisms produce offspring, and it can be 
 
 **1. The human male reproductive system consists of two testes which produce $\frac{1}{2}$ mL of semen per milliliter of bloo
 d. What percentage of blood is this in terms of semen production?**
-**A)**     5%
-**B)**     10%
-**C)**     15%
-**D)**     20%
+**A)**      5%
+**B)**      10%
+**C)**      15%
+**D)**      20%
 
 **Answer:** C) This is because 2 testes produce $\frac{1}{2}$ mL of semen per milliliter of blood. Therefore, semen production is $\frac{1}{2}$% of blood. Option B is wrong because $\frac{1}{2}$ mL of semen is 50% of milliliter of blood, not 10%. Option D is wrong because it's half of 20%, which equals 10%. Option A is wrong because $\frac{1}{2}$ mL of semen is more than 5% of milliliter of blood.
 
 ---
 
 **2. What is the function of the stigma in a flower?**
-**A)**     Reproduction
-**B)**     Pollination
-**C)**     Seed dispersal
-**D)**     Nourishment
+**A)**      Reproduction
+**B)**      Pollination
+**C)**      Seed dispersal
+**D)**      Nourishment
 
 **Answer:** A) This is because reproduction is the process of producing offspring through the fusion of male and female gametes. Stigma is the part of the flower that receives pollen grains, which is essential for reproduction. Option B is wrong because pollination is the process of transferring pollen from the male reproductive organ to the female reproductive organ. Option C is wrong because seed dispersal is the process of spreading seeds away from the parent plant. Option D is wrong because nourishment is the process of providing food to the plants.
 
 ---
 
 **3. How many types of gametes are formed in human reproduction?**
-**A)**     One
-**B)**     Two
-**C)**     Three
-**D)**     Four
+**A)**      One
+**B)**      Two
+**C)**      Three
+**D)**      Four
 
 **Answer:** B) This is because human reproduction involves the formation of two types of gametes: sperm and egg. Sperm is a male gamete, while egg is a female gamete. Option A is wrong because human reproduction involves the formation of two types of gametes, not one. Option C is wrong because there are only two types of gametes in human reproduction, not three. Option D is wrong because there are only two types of gametes in human reproduction, not four.
 
 ---
 
 **4. What is the primary function of the placenta in human reproduction?**
-**A)**     Nutrition
-**B)**     Respiration
-**C)**     Circulation
-**D)**     Detoxification
+**A)**      Nutrition
+**B)**      Respiration
+**C)**      Circulation
+**D)**      Detoxification
 
 **Answer:** D) This is because the primary function of the placenta is to remove waste products from the mother's blood and transfer them to the fetus. This process is known as detoxification. Option A is wrong because the placenta does provide nutrients to the fetus, but it's not its primary function. Option B is wrong because the placenta doesn't facilitate respiration. Option C is wrong because the placenta doesn't facilitate circulation.
 
 ---
 
 **5. $\frac{1}{4}$ mL of semen is produced by one testis per hour. If the total semen production is $\frac{1}{4}$ mL, how many hours does it take to produce this amount?**
-**A)**     1 hour
-**B)**     2 hours
-**C)**     3 hours
-**D)**     4 hours
+**A)**      1 hour
+**B)**      2 hours
+**C)**      3 hours
+**D)**      4 hours
 
 **Answer:** C) This is because if one testis produces $\frac{1}{4}$ mL of semen per hour, then two testes will produce $\frac{1}{2}$ mL of semen per hour. Therefore, it takes 2 hours to produce $\frac{1}{2}$ mL. Option A is wrong because it takes more than 1 hour to produce $\frac{1}{4}$ mL from one testis. Option B is wrong because it takes more than 2 hours to produce $\frac{1}{4}$ mL from one testis. Option D is wrong because it takes more than 4 hours to produce $\frac{1}{4}$ mL from one testis.
 

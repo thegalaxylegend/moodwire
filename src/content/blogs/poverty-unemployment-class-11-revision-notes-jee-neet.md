@@ -13,6 +13,18 @@ manualReview: false
 
 As a Class 11 student preparing for JEE and NEET exams, understanding the concepts of poverty and unemployment is crucial. In this grandmaster guide, we will the world of economics, exploring the intricacies of these two interconnected issues. By the end of this revision guide, you will be well-equipped to tackle any question related to poverty and unemployment with confidence.
 
+## 📑 Table of Contents
+
+1. [Introduction to Poverty and Unemployment](#introduction-to-poverty-and-unemployment)
+2. [The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [3 Solved PYQs](#3-solved-pyqs)
+4. [The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [Formula Bank](#formula-bank)
+6. [Conclusion](#conclusion)
+7. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## Introduction to Poverty and Unemployment
 ------------------------------------------
 

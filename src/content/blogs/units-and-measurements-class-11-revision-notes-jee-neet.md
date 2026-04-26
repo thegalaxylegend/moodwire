@@ -84,7 +84,7 @@ In 1971, the General Conference on Weights and Measures (CGPM) established the S
 7. **Luminous Intensity (Candela, cd):** measures the perceived power of light.
 
 ### <a id="supplementary-units"></a>Supplementary Units:
-- **[plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) Angle (θ):** $Measured n **Radian (rad)**. θ = Arc / Radius.
+- **[plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) Angle (θ):** $Measured n **Radian (rad)**. θ = Arc / Radius.$
 - **Solid Angle (Ω):** Measured n **Steradian (sr)**. Ω = Area / Radius².
 
 ---
@@ -206,7 +206,7 @@ Units and Measurements are not just "entry-level" topics; they are the filter th
 
 Continue your [revision](/blog/limits-derivatives-class-11-revision-notes-jee-neet) with these related guides:
 
-- 📖 [Electric Charges Fields Class 11 Physics Revision$ — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
+- 📖 [Electric Charges Fields Class 11 Physics Revision$ — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)$
 - 📖 [Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)
 - 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
 - 📖 [Mathematical Reasoning Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-reasoning-class-11-revision-notes-jee-neet)

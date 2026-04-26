@@ -174,7 +174,7 @@ P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i $\times P_{total} whereX_i = mole fra
 ### <a id="molecular-speeds-jee-advanced"></a>Molecular Speeds (JEE Advanced)
 | Speed | Symbol | Formula | Relative Value |
 |:---|:---:|:---|:---:|
-| RMS Speed | $ | $\sqrt{3RT/M}$ | 1.73 |
+| RMS Speed | $ | $\sqrt{3RT/M}$ | 1.73 |$
 | Average Speed | $u_{avg}$ | $\sqrt{8RT/\pi M}$ | 1.59 |
 | Most Probable Speed | $u_{mp}$ | $\sqrt{2RT/M}$ | 1.41 |
 
@@ -192,7 +192,7 @@ P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i $\times P_{total} whereX_i = mole fra
 
 | Z Value | Meaning | Dominant Force | Condition |
 |:---:|:---|:---|:---|
-| $ | Ideal behavior | None dominating | Low P, High T |
+| $ | Ideal behavior | None dominating | Low P, High T |$
 | $Z < 1$ | Easier to compress | **Attractive forces** | Moderate P |
 | $Z > 1$ | Harder to compress | **Repulsive forces** | Very High P |
 
@@ -208,7 +208,7 @@ P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i $\times P_{total} whereX_i = mole fra
 
 | Constant | Meaning | Higher value means |
 |:---|:---|:---|
-| **a** | Attraction between molecules | Easier to liquefy ($ > $CO_2$ > $H_2$) |
+| **a** | Attraction between molecules | Easier to liquefy ($ > $CO_2$ > $H_2$) |$
 | **b** | Physical volume of molecules | Larger molecules |
 
 ---
@@ -235,7 +235,7 @@ P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i $\times P_{total} whereX_i = mole fra
 ### <a id="trap-2-z-for-h_2-n-he"></a>Trap 2: $Z$ for $H_2$ n $He$
 - **Wrong Answer**: "$H_2$ shows $Z < 1$ at some pressures."
 - **Right Answer**: For $H_2$ n $He$, $Z \geq 1$ always.
-- **Why**: Their molecules are so small ('a' is negligible) that only repulsive forces (volume exclusion) operate.
+- **Why**: Their molecules are so small ('an' is negligible) that only repulsive forces (volume exclusion) operate.
 
 ### <a id="trap-3-daltons-law-requires-nonreacting-gases"></a>Trap 3: Dalton's Law requires non-reacting gases
 - **Wrong Answer**: "Total pressure of a mixture of $HCl$ n $NH_3$ is $P_{HCl} + P_{NH_3}$."
@@ -290,11 +290,10 @@ D) $a/27b^2$
 This chapter is one of the easiest to score full marks and if you have your basics right.
 
 1. **The Unit Check**: Before solving any problem, I write down the value of $R$ I'm going to use and make sure all other values match its unit system. This single habit eliminated 90% of my errors.
-2. **Z-Plot Visualization**: I sketched the $Z$ vs $P$ graph for $H_2$, $N_2$, n $CO_2$ three \times. Once you see$ the curves, you intuitively know when $Z<1$ (dip) n when $Z>1$ (rise).$
-3. **The Critical Constants Triangle**: I memorized $T_c, P_c, V_c$ n terms of $a$ n $b$ as a triangle: $T_c$ at top, $P_c$ n $V_c$ at the base. The relationships flow naturally from there.
+2. **Z-Plot Visualization**: I sketched the $Z$ vs $P$ graph for $H_2$, $N_2$, n $CO_2$ three \times. Once you see$ the curves, you intuitively know when $Z<1$ (dip) n when $Z>1$ (rise).$3. **The Critical Constants Triangle**: I memorized $T_c, P_c, V_c$ n terms of $a$ n $b$ as a triangle: $T_c$ at top, $P_c$ n $V_c$ at the base. The relationships flow naturally from there.
 
 ### <a id="board-exam-tip"></a>Board Exam Tip:
-In CBSE boards, always draw the $PV$ vs $P$ graph or the $Z$ vs $P$ graph if the question asks about real gas deviations. Diagrams carry dedicated marks and theory papers. **This topic typically carries 3-5 marks.**
+In CBSE boards, always draw the $PV$ vs $P$ graph or the $Z$ vs $P$ graph if the question asks about real gas deviations. Diagrams carry dedicated marks and theory papers. **This topic typically carries 3–5 marks.**
 
 ---
 
@@ -337,7 +336,7 @@ Continue your [revision](/blog/classification-elements-periodicity-class-11-revi
 - 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
 - 📖 [Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)
 
-$
+
 
 ## 🪤 The 5 Mistakes That Cost Marks
 

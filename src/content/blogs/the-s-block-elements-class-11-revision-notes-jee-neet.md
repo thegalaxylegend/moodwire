@@ -132,7 +132,7 @@ D) Phosphorus
 Solution: A) Magnesium
 
 3. What is the electronic configuration of the alkali metals?
-A) } $\text{Ionization Energy$ns^$1
+A) } $\text{Ionization Energy$ns^1
 B) $ns^2$
 C) $np^1$
 D) $np^2$
@@ -207,4 +207,4 @@ Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-n
      * **Reactivity with Water**: Increases down the group for both alkali and alkaline earth metals.
      * **Solubility of Hydroxides**: Increases down the group for both alkali and alkaline earth metals.
      * **Solubility of Sulphates**: Decreases down the group for alkaline earth metals.
-     * **Anomalous Behavior of Lithium**: Due to its small size and high ionization energy, lithium shows similarities with magnesium.$
+     * **Anomalous Behavior of Lithium**: Due to its small size and high ionization energy, lithium shows similarities with magnesium.

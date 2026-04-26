@@ -8,13 +8,28 @@ practice_link: "/practice/surface-chemistry-class-12-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [- Adsorption is the phenomenon of accumulation of molecules on the surface of a substance.](#adsorption-is-the-phenomenon-of-accumulation-of-molecules-on-the-surface-of-a-substance)
+3. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+4. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+5. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+6. [👁️ Ayush's Note](#ayushs-note)
+7. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+8. [📝 Practice MCQs](#practice-mcqs)
+9. [📚 Academic References](#academic-references)
+10. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - Surface tension: $\sigma = \frac{F}{l}$
 - Surface energy: $E = \sigma \times A$
 - Work done in increasing surface area: $W = \sigma \times \delta A$
-- Angle of contact: $\\cos \theta = \frac{\sigma_{SG} - \sigma_{SL}}{\sigma_{LG}}$
-- Capillary rise: $h = \frac{2 \sigma \\cos \theta}{r \rho g}$
-- Capillary depression: $h = \frac{2 \sigma \\cos \theta}{r \rho g}$
+- Angle of contact: $\\\cos \theta = \frac{\sigma_{SG} - \sigma_{SL}}{\sigma_{LG}}$
+- Capillary rise: $h = \frac{2 \sigma \\\cos \theta}{r \rho g}$
+- Capillary depression: $h = \frac{2 \sigma \\\cos \theta}{r \rho g}$
 - Viscosity: $\eta = \frac{F}{A \frac{\delta v}{\delta x}}$
 - Poiseuille's formula: $Q = \frac{\pi \delta P r^4}{8 \eta l}$
 
@@ -33,11 +48,11 @@ manualReview: false
 
 ## ✏️ 3 Solved PYQs
 - **Question 1:** What is the surface tension of a liquid if a force of $6 \times 10^{-2}$ N is required to increase the surface area of the liquid film by $1 \times 10^{-2}$ m?
-  -    on: \sigma = $\frac{F}${l} = $\frac{6 \times 10^{-2}$}{1 \times 10^{-2}} = 0.6 N/m 
+  -     : \sigma = $\frac{F}${l} = $\frac{6 \times 10^{-2}$}{1 \times 10^{-2}} = 0.6 N/m 
 - **Question 2:** A certain gas is adsorbed by a solid surface, and the amount of gas adsorbed is $1.5 \times 10^{-3}$ kg per kg of the solid surface at a pressure of $1 \times 10^{5}$ Pa. If the temperature is increased to $50^{\circ}$C, the amount of gas adsorbed decreases to $1 \times 10^{-3}$ kg per kg of the solid surface. What is the heat of adsorption?
   - Solution: $\delta H = 2.303 R \log \frac{P_1}{P_2} \frac{x_2}{x_1} = 2.303 \times 8.314 \times \log \frac{1 \times 10^{5}}{1 \times 10^{5}} \frac{1 \times 10^{-3}}{1.5 \times 10^{-3}} = -2.48$ kJ/mol
 - **Question 3:** A liquid of density $1 \times 10^{3}$ kg/m$^3$ is filled in a capillary tube of radius $1 \times 10^{-3}$ m. If the surface tension of the liquid is $7 \times 10^{-2}$ N/m and the angle of contact is $0^{\circ}$, what is the height of the liquid column?
-  -    on: h = $\frac{2 \sigma \\cos \theta}${r \rho g} = $\frac{2 \times 7 \times 10^{-2}$ \times \\cos 0^{\circ}}{1 \times 10^{-3} \times 1 \times 10^{3} \times 9.8} = 0.143 m 
+  -     : h = $\frac{2 \sigma \\\cos \theta}${r \rho g} = $\frac{2 \times 7 \times 10^{-2}$ \times \\\cos 0^{\circ}}{1 \times 10^{-3} \times 1 \times 10^{3} \times 9.8} = 0.143 m 
 
 ## 🧠 The One Thing Most Students Get Wrong
 - The concept of adsorption and its distinction from absorption.
@@ -54,8 +69,8 @@ manualReview: false
 ## 🔁 Last 5 Minutes Box
 - Surface tension: $\sigma = \frac{F}{l}$
 - Surface energy: $E = \sigma \times A$
--    Adsorption: $\frac{x}${m} = f(P, T, A) 
-- Capillary rise: $h = \frac{2 \sigma \\cos \theta}{r \rho g}$
+-     Adsorption: $\frac{x}${m} = f(P, T, A) 
+- Capillary rise: $h = \frac{2 \sigma \\\cos \theta}{r \rho g}$
 - Viscosity: $\eta = \frac{F}{A \frac{\delta v}{\delta x}}$
 
 ## 📝 Practice MCQs
@@ -85,15 +100,15 @@ D) It decreases with increase in pressure
 
 **3. What is the formula for capillary rise?**
 -
-A) h = \frac{2 \sigma \\cos \theta}{r \rho g}
+A) h = \frac{2 \sigma \\\cos \theta}{r \rho g}
 -
-B) h = \frac{2 \sigma \\sin \theta}{r \rho g}
+B) h = \frac{2 \sigma \\\sin \theta}{r \rho g}
 -
-C) h = \frac{\sigma \\cos \theta}{r \rho g}
+C) h = \frac{\sigma \\\cos \theta}{r \rho g}
 -
-D) h = \frac{\sigma \\sin \theta}{r \rho g}
+D) h = \frac{\sigma \\\sin \theta}{r \rho g}
 
-**Answer: A) h = \frac{2 \sigma \\cos \theta}{r \rho g}**
+**Answer: A) h = \frac{2 \sigma \\\cos \theta}{r \rho g}**
 
 **4. What is the unit of viscosity?**
 -
@@ -149,3 +164,4 @@ Continue your revision with these related guides:
 - 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
 - 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
 - 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+

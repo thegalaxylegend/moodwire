@@ -8,6 +8,20 @@ practice_link: "/practice/wave-optics-class-12-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Academic References](#academic-references)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - $\\lambda = \frac{v}{f}$, where $\\lambda$ is wavelength, $v$ is velocity, and $f$ is frequency
 - $v = f \\lambda$, where $v$ is velocity, $f$ is frequency, and $\\lambda$ is wavelength
@@ -26,17 +40,17 @@ manualReview: false
 
 ## ✏️ 3 Solved PYQs
 - **PYQ 1:** A single slit of width $0.1 \, \text{mm}$ is illuminated by a parallel beam of monochromatic light of wavelength $6000 \, \text{\AA}$. Find the width of the central maxima, if the distance between the slit and the screen are $1 \, \text{m}$.
-  - $\\sin \theta = \frac{\\lambda}{a}$, where $\theta$ is angle of diffraction, $\\lambda$ is wavelength, and $a$ is width of slit
-  - $\\sin \theta = \frac{y}{D}$, where $y$ is distance from central maxima, and $D$ is distance between screen and slit
-  -    \\lambda}{a} = $\frac{y}${D} 
+  - $\\\sin \theta = \frac{\\lambda}{a}$, where $\theta$ is angle of diffraction, $\\lambda$ is wavelength, and $a$ is width of slit
+  - $\\\sin \theta = \frac{y}{D}$, where $y$ is distance from central maxima, and $D$ is distance between screen and slit
+  -     \lambda}{a} = $\frac{y}${D} 
   -    rac{\\lambda D}{a} 
   -    rac{6000 \times 10^{-10} \times 1}{0.1 \times 10^{-3}} = 6 \times 10^{-3} \, $\text{m}$ = 6 \, $\text{mm}$
 - **PYQ 2:** In Young's double slit experiment, the distance between the slits is $0.1 \, \text{mm}$ and the distance between the screen and the slits is $1 \, \text{m}$. If the wavelength of light used is $6000 \, \text{\AA}$, find the distance between the consecutive bright fringes.
   - $\beta = \frac{\\lambda D}{d}$, where $\beta$ is fringe width, $\\lambda$ is wavelength, $D$ is distance between screen and slits, and $d$ is distance between slits
-  -    = $\frac{6000 \times 10^{-10}$ \times 1}{0.1 \times 10^{-3}} = 6 \times 10^{-3} \, $\text{m}$ = 6 \, $\text{mm}$
+  -     $\frac{6000 \times 10^{-10}$ \times 1}{0.1 \times 10^{-3}} = 6 \times 10^{-3} \, $\text{m}$ = 6 \, $\text{mm}$
 - **PYQ 3:** A convex lens of focal length $20 \, \text{cm}$ is placed in contact with a concave lens of focal length $30 \, \text{cm}$. Find the effective focal length of the combination.
   - $\frac{1}{f} = \frac{1}{f_1} + \frac{1}{f_2}$, where $f$ is effective focal length, $f_1$ is focal length of convex lens, and $f_2$ is focal length of concave lens
-  -    1}{f} = $\frac{1}${20} - $\frac{1}${30} = $\frac{1}${60} 
+  -     {f} = $\frac{1}${20} - $\frac{1}${30} = $\frac{1}${60} 
   - $f = 60 \, \text{cm}$
 
 ## 🧠 The One Thing Most Students Get Wrong
@@ -111,7 +125,7 @@ C) $8 \, \text{mm}$
 -
 D) $10 \, \text{mm}$
 
-**Answer: A) y = \frac{\\lambda D}{a} = \frac{6000 \times 10^{-10} \times 1}{0.1 \times 10^{-3}} = 6 \times 10^{-3} \, \text{m} = 6 \, \text{mm}**
+**Answer: A) y = \frac{\\lambda D}{a} = \frac{6000 \times 10^{-10} \times 1}{0.1 \times 10^{-3}} = 6 \times 10^{-3} \, \text{m} = 6 \, \text{mm}** 
 
 ---
 
@@ -142,3 +156,4 @@ Continue your revision with these related guides:
 - 📖 [Communication Systems Class 12 Physics Revision — Grandmaster Guide](/blog/communication-systems-class-12-notes)
 - 📖 [Dual Nature Of Radiation Class 12 Physics Revision — Grandmaster Guide](/blog/dual-nature-of-radiation-class-12-notes)
 - 📖 [Nuclei Class 12 Physics Revision — Grandmaster Guide](/blog/nuclei-class-12-notes)
+

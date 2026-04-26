@@ -85,7 +85,7 @@ Depending on the given information, we use different forms:
 4.  **Two-Point Form:** (y - y₁) / (y₂ - y₁) = (x - x₁) / (x₂ - x₁).
 5.  **Slope-Intercept Form:** y = mx + c (where c is the y-intercept).
 6.  **Intercept Form:** x/a + y/b = 1 (where a and b are x and y-intercepts).
-7.  $**Normal Form:** x \\cos ω + y \\sin ω = p (p is the perpendicular distance from the origin).$
+7.  $**Normal Form:** x \\\cos ω + y \\\sin ω = p (p is the perpendicular distance from the origin).$
 
 ---
 
@@ -199,7 +199,7 @@ Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet)
    * Slope-intercept form: y = mx + c
    * Point-slope form: y - y1 = m(x - x1)
    * Two-point form: y - y1 = ((y2 - y1) / (x2 - x1))(x - x1)
-   * Normal form: x*\cos(α) + y*\sin(α) = p
+   * Normal form: x*\\cos(α) + y*\\sin(α) = p
    * Distance of a point (x1, y1) from a line Ax + By + C = 0: |Ax1 + By1 + C| / √(A² + B²)
    * Equation of a line passing through (x1, y1) and having slope m: y - y1 = m(x - x1)
    * Equation of a line with slope m and y-intercept c: y = mx + c

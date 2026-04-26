@@ -204,7 +204,7 @@ The following table summarizes the key features of the Industrial Revolution:
 
 The following formulae are relevant to the Industrial Revolution:
 
-$\text{Productivity} = \frac\text{Output}\text{Input}\text{Efficiency} = \frac\text{Output}\text{Cost}
+\text{Productivity}$ = \frac$\text{Output}\text{Input}\text{Efficiency}$ = \frac$\text{Output}\text{Cost}$
 
 These formulae and tables help me, Ayush, understand the economic and technological aspects of the Industrial Revolution.
 
@@ -265,14 +265,11 @@ I, Ayush, am excited to learn more about the Industrial Revolution and its ongoi
 
 The key players and the Industrial Revolution were a diverse group of individuals who made significant contributions to the development of new machines, manufacturing technologies, n transportation networks. They included inventors, entrepreneurs, n industrialists who were driven y a desire to innovate and to accumulate wealth and power.
 
-#### Richard Arkwright
-Richard Arkwright was an English inventor and entrepreneur who developed the water frame, a machine that enabled the mass production of textiles. He was born 1732 and died and 1792, n his invention of the water frame is considered one of the most significant innovations of the Industrial Revolution.
+#### Richard Arkwright was an English inventor and entrepreneur who developed the water frame, a machine that enabled the mass production of textiles. He was born 1732 and died and 1792, n his invention of the water frame is considered one of the most significant innovations of the Industrial Revolution.
 
-#### Samuel Slater
-Samuel Slater was an American industrialist who introduced the concept of the factory system to the United States. He was born 1768 and died and 1835, n his introduction of the factory system helped to stimulate the growth of industry and the United States.
+#### Samuel Slater was an American industrialist who introduced the concept of the factory system to the United States. He was born 1768 and died and 1835, n his introduction of the factory system helped to stimulate the growth of industry and the United States.
 
-#### Andrew Carnegie
-Andrew Carnegie was a Scottish-American industrialist who made his fortune and the steel industry. He was born 1835 and died and 1919, n his company, Carnegie Steel, became one of the largest and most successful steel companies and the world.
+#### Andrew Carnegie was a Scottish-American industrialist who made his fortune and the steel industry. He was born 1835 and died and 1919, n his company, Carnegie Steel, became one of the largest and most successful steel companies and the world.
 
 I, Ayush, find it fascinating to learn about these key players and their contributions to the Industrial Revolution.
 
@@ -488,7 +485,7 @@ By following this approach, I am confident that I can achieve academic success a
 I, Ayush, feel prepared for the future, n I am excited to continue learning and growing throughout my academic career. I believe that understanding the Industrial Revolution is essential for understanding the modern world, n I am committed to continuing my studies and revision throughout my academic career.
 
 ### <a id="excitement-for-the-future"></a>Excitement for the Future
-I, Ayush, am excited for the future, n I am looking forward to continuing my studies and revision. I believe that I have a good understanding of the key points and concepts related to the Industrial Revolution, n I am confident that I can apply this knowledge to answer questions and complete assignments.
+I, Ayush, am excited about the future, n I am looking forward to continuing my studies and revision. I believe that I have a good understanding of the key points and concepts related to the Industrial Revolution, n I am confident that I can apply this knowledge to answer questions and complete assignments.
 
 #### Ongoing Learning and Growth
 I, Ayush, make ongoing learning and growth a priority, n I will continue to review and revise my notes and study materials regularly. I will practice MCQs to assess my knowledge and identify areas for improvement, n I will use LaTeX to format my notes and make them more readable.
@@ -595,7 +592,7 @@ Continue your revision with these related guides:
 - 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
 **
 
-$
+
 
 ## 🪤 The 5 Mistakes That Cost Marks
 

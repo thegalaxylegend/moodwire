@@ -8,13 +8,27 @@ practice_link: "/practice/triangles-class-10-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [- A triangle with two equal sides is called an isosceles triangle](#a-triangle-with-two-equal-sides-is-called-an-isosceles-triangle)
+3. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+4. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+5. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+6. [👁️ Ayush's Note](#ayushs-note)
+7. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+8. [📝 Practice MCQs](#practice-mcqs)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - The sum of all interior angles of a triangle is $180^\circ$
 - The sum of any two sides of a triangle must be greater than the third side, given by $\left| a - b \right| < c < a + b$
 - The area of a triangle with base $b$ and height $h$ is $\frac{1}{2} \times b \times h$
 - The area of a triangle with sides $a$, $b$, and $c$ can be calculated using Heron's formula: $\sqrt{s(s-a)(s-b)(s-c)}$, where $s$ is the semi-perimeter, given by $\frac{a+b+c}{2}$
 - The Pythagorean theorem states that in a right-angled triangle, the square of the length of the hypotenuse $c$ is equal to the sum of the squares of the lengths of the other two sides $a$ and $b$, given by $c^2 = a^2 + b^2$
-- The distance between the circumcenter and the centroid of a triangle is given by $\frac{2}{3} \times \text{distance between orthocenter$ and circumcenter}$
+- The distance between the circumcenter and the centroid of a triangle is given by $\frac{2}{3} \times \text{distance between orthocenter$ and circumcenter}
 
 ## 
 - A triangle with two equal sides is called an isosceles triangle
@@ -139,4 +153,4 @@ Continue your revision with these [related](/blog/areas-related-to-circles-class
 - 📖 [Arithmetic Progressions Class 10 Exam Prep Revision — Grandmaster Guide](/blog/arithmetic-progressions-class-10-notes)
 - 📖 [Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/circles-class-10-notes)
 - 📖 [Pair Of Linear Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/pair-of-linear-equations-class-10-notes)
-$
+

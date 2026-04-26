@@ -8,6 +8,20 @@ practice_link: "/class-11/mathematics/permutations-n-combinations-class-11-revis
 ---
 
 # Permutations And Combinations Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide
+## 📑 Table of Contents
+
+1. [Introduction to Permutations and Combinations](#introduction-to-permutations-and-combinations)
+2. [What is Permutations and Combinations?](#what-is-permutations-and-combinations)
+3. [The Fundamental Counting Principle and Permutations](#the-fundamental-counting-principle-and-permutations)
+4. [Combinations](#combinations)
+5. [Applications of Permutations and Combinations](#applications-of-permutations-and-combinations)
+6. [Practice Problems and Solutions](#practice-problems-and-solutions)
+7. [Conclusion](#conclusion)
+8. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+9. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+
+---
+
 ## Introduction to Permutations and Combinations
 Permutations and combinations are fundamental concepts in mathematics, particularly combinatorics. These concepts are essential for solving problems that involve arranging and selecting objects from a larger set. In this guide, we will the world of permutations and combinations, exploring their definitions, formulas, and applications, to help students prepare for their Class 11 exams.
 
@@ -49,10 +63,10 @@ Permutations and combinations are vital concepts in mathematics that help us sol
 
 ### Permutations
    * nPr = n! / (n-r)!
-   * Permutation of n objects taken r at a time
+   * Permutation of and objects taken r at a time
    ### Combinations
    * nCr = n! / (r!(n-r)!)
-   * Combination of n objects taken r at a time
+   * Combination of and objects taken r at a time
    ### Important Formulas
    * n! = n * (n-1) * (n-2) * ... * 2 * 1
    * 0! = 1

@@ -105,7 +105,7 @@ Magnetic Field is a vector field that describes the magnetic influence on moving
 
 The Biot-Savart Law is a fundamental principle and physics that describes the magnetic field generated y a [current](/blog/alternating-current-class-12-notes)-carrying conductor. It includes the **magnetic field strength**, **distance from the conductor**, n **angle of the conductor**. For class 12 exam prep and 2026, the most important aspect is understanding how to apply the Biot-Savart Law to calculate the magnetic field at a point due to a [current](/blog/alternating-current-class-12-notes)-carrying wire.
 
- The Biot-Savart Law is given y the formula: $dB = \frac{mu_0}{4pi} \\cdot \frac{I \\cdot dl \\cdot \\sin(\theta)}{r^2}$, where $dB$ is the differential magnetic field, $mu_0$ is the magnetic constant, $I$ is the current, $dl$ is the differential length of the conductor, $\theta$ is the angle between the conductor and the point where the magnetic field is being calculated, n $r$ is the distance from the conductor to the point.
+ The Biot-Savart Law is given y the formula: $dB = \frac{mu_0}{4pi} \\cdot \frac{I \\cdot dl \\cdot \\\sin(\theta)}{r^2}$, where $dB$ is the differential magnetic field, $mu_0$ is the magnetic constant, $I$ is the current, $dl$ is the differential length of the conductor, $\theta$ is the angle between the conductor and the point where the magnetic field is being calculated, n $r$ is the distance from the conductor to the point.
 
  To apply the Biot-Savart Law, we need to consider the following steps:
  * Identify the [current](/blog/alternating-current-class-12-notes)-carrying conductor and the point where the magnetic field is to be calculated.
@@ -119,7 +119,7 @@ The Biot-Savart Law is a fundamental principle and physics that describes the ma
 
 | Law | Description | Formula |
 | --- | --- | --- |
-| Biot-Savart Law | Calculates the magnetic field at a point due to a current-carrying conductor | $dB = \frac{mu_0}{4pi} \\cdot \frac{I \\cdot dl \\cdot \\sin(\theta)}{r^2}$ |
+| Biot-Savart Law | Calculates the magnetic field at a point due to a current-carrying conductor | $dB = \frac{mu_0}{4pi} \\cdot \frac{I \\cdot dl \\cdot \\\sin(\theta)}{r^2}$ |
 | Ampere's Law | Relates the line integral of the magnetic field around a closed loop to the current enclosed y the loop | $oint vec{B} \\cdot dvec{l} = mu_0 I_{enc}$ |
 
 ## <a id="what-are-the-properties-of-magnetic-lines-of-force"></a>What are the Properties of Magnetic Lines of Force?
@@ -181,7 +181,7 @@ Here is a comparison table for the torque experienced y a current loop and diffe
 
 Ayush's Note on Magnetic Effects of Current is a study guide that outlines the fundamental principles of how electric currents interact with magnetic fields. It includes key concepts such as the Biot-Savart law, Ampere's law, n the Lorentz force equation. For class 12 exam prep and 2026, the most important aspect is understanding the mathematical formulations and their applications and solving problems related to magnetic fields generated y currents.
 
- The Biot-Savart law is a crucial component, which states that the magnetic field $dB$ due to a small element of a current-carrying wire is given y $dB = \frac{mu_0}{4pi} \\cdot \frac{I \\cdot dl \\cdot \\sin(\theta)}{r^2}$, where $I$ is the current, $dl$ is the length of the small element, $\theta$ is the angle between the current element and the position vector, n $r$ is the distance from the current element to the point where the magnetic field is being calculated. This law is essential for calculating magnetic fields around straight wires, circular loops, n solenoids.
+ The Biot-Savart law is a crucial component, which states that the magnetic field $dB$ due to a small element of a current-carrying wire is given y $dB = \frac{mu_0}{4pi} \\cdot \frac{I \\cdot dl \\cdot \\\sin(\theta)}{r^2}$, where $I$ is the current, $dl$ is the length of the small element, $\theta$ is the angle between the current element and the position vector, n $r$ is the distance from the current element to the point where the magnetic field is being calculated. This law is essential for calculating magnetic fields around straight wires, circular loops, n solenoids.
 
  Another vital concept is Ampere's law, which relates the magnetic field around a closed loop to the current passing through the loop. It is expressed as $oint vec{B} \\cdot dvec{l} = mu_0 I_{enc}$, where $vec{B}$ is the magnetic field, $dvec{l}$ is the differential length of the loop, n $I_{enc}$ is the current enclosed y the loop. This law is useful for calculating the magnetic field inside a long, straight solenoid or a toroid.
 
@@ -230,7 +230,7 @@ Magnetic Effects of Current is the phenomenon y which an electric current produc
 
 The right-hand rule is a fundamental concept and Magnetic Effects of Current and is used to determine the direction of the magnetic field produced y a current-carrying conductor. To apply the right-hand rule, you need to point your thumb and the direction of the current and your fingers will curl and the direction of the magnetic field. This rule is essential for solving problems related to the magnetic field around a straight wire, a circular coil, n a solenoid.
 
-Another key concept and Magnetic Effects of Current is the torque experienced y a current-carrying coil placed and a magnetic field. The torque is given y the equation $\tau = nBIA\\sin\theta$, where $n$ is the number of turns, $B$ is the magnetic field strength, $I$ is the current, $A$ is the area of the coil, n $\theta$ is the angle between the coil and the magnetic field. This equation is crucial for understanding the working of electric motors and generators.
+Another key concept and Magnetic Effects of Current is the torque experienced y a current-carrying coil placed and a magnetic field. The torque is given y the equation $\tau = nBIA\\\sin\theta$, where $n$ is the number of turns, $B$ is the magnetic field strength, $I$ is the current, $A$ is the area of the coil, n $\theta$ is the angle between the coil and the magnetic field. This equation is crucial for understanding the working of electric motors and generators.
 
 When it comes to solving problems related to Magnetic Effects of Current, a student-centric tip is to always draw a diagram of the situation and label the given quantities. This will help you visualize the problem and identify the relevant equations to use. Additionally, make sure to check the units of the given quantities and the answer to ensure that they are consistent.
 
@@ -241,13 +241,13 @@ In comparison to other topics and physics, Magnetic Effects of Current requires 
 | Biot-Savart law | $B = \frac$\mu_0I${4\pi r}$ | Relates the magnetic field to the current and distance from the wire |
 | Ampere's law | $\oint B \\\cdot dl = \mu_0I_{enc}$ | Relates the magnetic field to the enclosed current |
 | Lorentz force equation | $F = q(E + v \times B)$ | Describes the force experienced y a charged particle and an electric and magnetic field |
-| Torque on a coil | $\tau = nBIA\\sin\theta$ | Describes the torque experienced y a current-carrying coil and a magnetic field |
+| Torque on a coil | $\tau = nBIA\\\sin\theta$ | Describes the torque experienced y a current-carrying coil and a magnetic field |
 
 ## <a id="how-to-solve-numerical-problems-involving-the-force-on-a-currentcarrying-conductor"></a>How to Solve Numerical Problems Involving the Force on a Current-Carrying Conductor?
 
 How to Solve Numerical Problems Involving the Force on a Current-Carrying Conductor? is solving problems that involve the interaction between a current-carrying conductor and an external magnetic field. It includes the **Lorentz Force Equation**, **magnetic field strength**, n **current density**. For class 12 exam prep and 2026, the most important aspect is understanding how to apply the Lorentz Force Equation to find the force on a conductor and different scenarios.
 
-To solve numerical problems involving the force on a current-carrying conductor, you need to apply the Lorentz Force Equation, which states that the force per unit length on a conductor is given y $F = BIL \\\sin \theta$, where $F$ is the force, $B$ is the magnetic field strength, $I$ is the current, $L$ is the length of the conductor, n $\theta$ is the angle between the conductor and the magnetic field. 
+To solve numerical problems involving the force on a current-carrying conductor, you need to apply the Lorentz Force Equation, which states that the force per unit length on a conductor is given y $F = BIL \\\\sin \theta$, where $F$ is the force, $B$ is the magnetic field strength, $I$ is the current, $L$ is the length of the conductor, n $\theta$ is the angle between the conductor and the magnetic field. 
 
 A key concept to understand here is the **right-hand rule**, which helps you determine the direction of the force. According to this rule, if you point your thumb and the direction of the current and your fingers and the direction of the magnetic field, your palm will face the direction of the force. 
 
@@ -279,7 +279,7 @@ The following table summarizes some common trap questions and their solutions:
 | --- | --- | --- |
 | Direction of magnetic field due to a straight wire | Forgetting to apply the right-hand rule correctly | Use the right-hand rule to determine the direction of the magnetic field |
 | Magnetic field due to a current-carrying solenoid | Forgetting that the magnetic field inside a solenoid is uniform and given y $B = mu_0 and I$ | Use the formula $B = mu_0 and I$ to calculate the magnetic field inside a solenoid |
-| Force on a current-carrying wire and a magnetic field | Forgetting to use the Lorentz force equation $F = BIL \\\sin \theta$ | Use the Lorentz force equation $F = BIL \\\sin \theta$ to calculate the force on a current-carrying wire and a magnetic field |
+| Force on a current-carrying wire and a magnetic field | Forgetting to use the Lorentz force equation $F = BIL \\\\sin \theta$ | Use the Lorentz force equation $F = BIL \\\\sin \theta$ to calculate the force on a current-carrying wire and a magnetic field |
 
 - The magnetic field at the centre of a circular coil is B = (μ0I)/(2r),
 - The magnetic field due to a straight wire is B = (μ0I)/(2πr),
@@ -377,8 +377,8 @@ Continue your revision with these related guides:
    * **Biot-Savart Law**: dB = (μ₀ * I * dl × r) / (4π * r³)
    * **Magnetic Field on the Axis of a Circular Coil**: B = (μ₀ * I * N) / (2 * r)
    * **Magnetic Field at the Centre of a Circular Coil**: B = (μ₀ * I * N) / (2 * r)
-   * **Torque on a Current Loop in a Uniform Magnetic Field**: τ = n * I * A * B * \\sin(θ)
-   * **Force on a Current-Carrying Conductor in a Uniform Magnetic Field**: F = I * L * B * \\sin(θ)
+   * **Torque on a Current Loop in a Uniform Magnetic Field**: τ = n * I * A * B * \\\sin(θ)
+   * **Force on a Current-Carrying Conductor in a Uniform Magnetic Field**: F = I * L * B * \\\sin(θ)
    * **Magnetic Moment of a Current Loop**: M = I * A
    * **Ampere's Law**: ∮B · dl = μ₀ * Iₛₑₙₖ
 

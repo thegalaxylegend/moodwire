@@ -51,7 +51,7 @@ practice_link: "/class-11/physics/limits-derivatives-class-11-revision-notes-jee
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
 > - **Limit:** The value a function approaches as the input approaches some value.
 > - **Standard Limit:** limₓ→ₐ (xⁿ - aⁿ)/(x - a) = **naⁿ⁻¹**.
-> - **Trig Limit:** limₓ→₀ ($\\\sin x)/x = **1**.$
+> - **Trig Limit:** limₓ→₀ ($\\\\sin x)/x = **1**.$
 > - **Derivative (f'(x)):** limₕ→₀ [f(x+h) - f(x)] / h (**First Principle**).
 > - **Power Rule:** d/dx (xⁿ) = **nxⁿ⁻¹**.
 > - **Product Rule:** (uv)' = u'v + uv'.
@@ -133,14 +133,14 @@ This process of finding the derivative using the limit definition is called **Di
 - f(x+h) = (x+h)² + 2(x+h) + 1 = x² + 2xh + h² + 2x + 2h + 1
 - f(x+h) - f(x) = 2xh + h² + 2h
 - f'(x) = limₕ→₀ [h(2x + h + 2) / h] = limₕ→₀ [2x + h + 2]
--      **f'(x) = 2x + 2**. 
+-       **f'(x) = 2x + 2**. 
 
-**Q3: Differentiate y = x · \\\sin x using Product Rule.**
+**Q3: Differentiate y = x · \\\\sin x using Product Rule.**
 **Answer:**
--      u = x, v = \\\sin x 
--      u' = 1, v' = \\\cos x 
--     y' = u'v + uv' = (1)(\\\sin x) + (x)(\\\cos x) 
--      **y' = \\\sin x + x \\\cos x**. 
+-       u = x, v = \\\\sin x 
+-       u' = 1, v' = \\\\cos x 
+-     y' = u'v + uv' = (1)(\\\\sin x) + (x)(\\\\cos x) 
+-       **y' = \\\\sin x + x \\\\cos x**. 
 
 ---
 
@@ -209,8 +209,7 @@ Continue your [revision](/blog/mathematical-induction-class-11-revision-notes-je
      + Quotient rule: (u/v)' = (vu' - uv')/v^2
    * **Geometric interpretation of derivative**: instantaneous rate of change
    * **Trigonometric derivatives**:
-     + (\sin x)' = \cos x
-     + (\cos x)' = -\sin x
+ + (\\sin x)' = \\cos x  + (\\cos x)' = -\\sin x 
      + (tan x)' = sec^2 x
    * **Exponential and logarithmic derivatives**:
      + (e^x)' = e^x

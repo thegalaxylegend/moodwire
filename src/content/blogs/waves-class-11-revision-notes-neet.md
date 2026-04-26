@@ -66,7 +66,7 @@ practice_link: "/class-11/biology/waves-class-11-revision-notes-neet"
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
 > - **Wave Speed:** v = ν λ. String v = √(T/μ). Gas v = √(γP/ρ).
-> - **Progressive Wave:** y = A \sin(kx - ωt).
+> - **Progressive Wave:** y = A \\sin(kx - ωt).
 > - **Standing Waves:** 
 >   - Open Pipe: All harmonics (f_n = n v/2L).
 >   - Closed Pipe: Odd harmonics (f_n = (2n-1) v/4L).
@@ -112,7 +112,7 @@ A **Progressive Wave** is a wave that moves continuously and a specific directio
 
 ### <a id="i-the-wave-equation"></a>I. The Wave Equation
 For a wave traveling and the positive X-direction:
-**y(x, t) = A \sin(kx - ωt + φ)**
+ **y(x, t) = A \\sin(kx - ωt + φ)** 
 Where:
 - **y:** Displacement at position x and time t.
 - **φ:** Initial phase constant.
@@ -165,13 +165,13 @@ Laplace argued that sound propagation is so fast that no heat exchange occurs; i
 Formed when two identical waves traveling and opposite directions superimpose. They do not transport energy.
 
 ### <a id="i-analytical-treatment"></a>I. Analytical Treatment
-1.  **y1 = A \sin(kx - ωt)** (Incoming).
-2.  **y2 = A \sin(kx + ωt)** (Reflecte
+1.   **y1 = A \\sin(kx - ωt)** (Incoming). 
+2.   **y2 = A \\sin(kx + ωt)** (Reflecte
 d).
-3.      **y_net = (2A \\cos ωt) \\sin kx**.
-**Result:** The amplitude **(2A $\\sin kx)** depends on position **x**.$
-- $**Nodes:** Points of zero displacement (**\\sin kx = 0**).$
-- $**Antinodes:** Points of maximum displacement (**\\sin kx = 1**).$
+3.       **y_net = (2A \\\cos ωt) \\\sin kx**.
+**Result:** The amplitude **(2A $\\\sin kx)** depends on position **x**.$
+- $**Nodes:** Points of zero displacement (**\\\sin kx = 0**).$
+- $**Antinodes:** Points of maximum displacement (**\\\sin kx = 1**).$
 ### <a id="ii-standing-waves-n-a-stretched-string"></a>II. Standing Waves and a Stretched String
 Both ends are fixed, so they must be Nodes.
 **Fundamental Frequency (f1) = v / 2L = (1/2L) √(T/μ)**.
@@ -210,7 +210,7 @@ Where:
 ---
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&
 A)
-**           Q1: Why does sound travel faster n [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than and gases?**
+**            Q1: Why does sound travel faster n [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than and gases?**
 
 **Answer:** The speed of sound is **v = √(E / ρ)**. Although [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) are much denser than gases (which would decrease speed), their elasticity (E) is significantly higher. Since elasticity dominates the equation, sound travels ~15 \times faster n [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than and air.
 
@@ -284,17 +284,17 @@ Continue your [revision](/blog/motion-in-a-plane-class-11-revision-notes-jee-nee
 ## 🔁 Last 5 Minutes Box
 
 ### Wave Motion Formulas
-   * Speed of Transverse Wave in String: $v = sqrt{rac{T}{mu}}$
-   * Speed of Longitudinal Wave: $v = sqrt{rac{B}{ho}}$
-   * Speed of Wave in Medium: $v = rac{omega}{k} = lambda f$
-   * Refractive Index: $n = rac{v_1}{v_2} = rac{lambda_1}{lambda_2}$
+   * Speed of Transverse Wave in String: $v = sqrt{\frac{T}{mu}}$
+   * Speed of Longitudinal Wave: $v = sqrt{\frac{B}{ho}}$
+   * Speed of Wave in Medium: $v = \frac{omega}{k} = \lambda f$
+   * Refractive Index: $n = \frac{v_1}{v_2} = \frac{lambda_1}{lambda_2}$
    * Reflection and Refraction Formulas:
-     + $Z_1 = rac{ho_1 v_1}{ho_2 v_2}$
-     + $rac{I_1}{I_2} = left( rac{Z_1 + Z_2}{Z_1 - Z_2} ight)^$2
+     + $Z_1 = \frac{ho_1 v_1}{ho_2 v_2}$
+     + $\frac{I_1}{I_2} = left( \frac{Z_1 + Z_2}{Z_1 - Z_2} \right)^$2
    ### Types of Waves
-   * Progressive Wave: $y(x, t) = a sin (kx - omega t)$
-   * Standing Wave: $y(x, t) = 2a sin kx cos omega t$
+   * Progressive Wave: $y(x, t) = a \sin (kx - omega t)$
+   * Standing Wave: $y(x, t) = 2a \sin kx \cos omega t$
    ### Sound Wave
    * Speed of Sound: $v = 331 + 0.6t$
-   * Intensity of Sound Wave: $I = rac{P}{A} = rac{E}{At} = 10 log rac{I}{I_0}$
-   * Frequency Range: $20 Hz - 20,000 Hz (Human Ear)
+   * Intensity of Sound Wave: $I = \frac{P}{A} = \frac{E}{At} = 10 log \frac{I}{I_0}$
+   * Frequency Range: $20 Hz - 20,000 Hz (Human Ear)$

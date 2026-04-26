@@ -9,7 +9,7 @@ manualReview: false
 ---
 
 ## Table of Contents
-1. [Introduction to Physics Heat and Light](#introduction-to-physics-heat-and-l\right)
+1. [Introduction to Physics Heat and Light](#introduction-to-physics-heat-and-l\r\right)
 2. [Thermal Expansion](#thermal-expansion)
 3. [Thermal Stress](#thermal-stress)
 4. [Gas Laws](#gas-laws)
@@ -27,18 +27,16 @@ manualReview: false
 ## Introduction to Physics Heat and Light
 Physics Heat and Light is a fundamental subject for students appearing for JEE and NEET exams. It encompasses various topics such as thermal expansion, gas laws, kinetic theory of gases, calorimetry, change of state, and waves and optics. Understanding these concepts is crucial to excel in the exams.
 
-## Thermal Expansion
-Thermal expansion refers to the increase in size of a substance due to an increase in temperature. The linear expansion of a substance is given by the formula:
-$\delta L = \alpha L \delta T$
+## Thermal Expansion refers to the increase in size of a substance due to an increase in temperature. The linear expansion of a substance is given by the formula:
+ \delta L = \alpha L \delta T 
 where $\alpha$ is the coefficient of linear expansion, $L$ is the original length, and $\delta T$ is the change in temperature.
 
 The volumetric expansion of a substance is given by the formula:
-$\delta V = \beta V \delta T$
+ \delta V = \beta V \delta T 
 where $\beta$ is the coefficient of volumetric expansion, $V$ is the original volume, and $\delta T$ is the change in temperature.
 
-## Thermal Stress
-Thermal stress occurs when a substance is heated or cooled, causing it to expand or contract. The thermal stress in a substance is given by the formula:
-$\sigma = E \alpha \delta T$
+## Thermal Stress occurs when a substance is heated or cooled, causing it to expand or contract. The thermal stress in a substance is given by the formula:
+ \sigma = E \alpha \delta T 
 where $E$ is the Young's modulus, $\alpha$ is the coefficient of linear expansion, and $\delta T$ is the change in temperature.
 
 ## Gas Laws
@@ -47,7 +45,7 @@ $PV = nRT$
 where $P$ is the pressure, $V$ is the volume, $n$ is the number of moles, $R$ is the gas constant, and $T$ is the temperature.
 
 The Charles' law states that the volume of a gas is directly proportional to the temperature, at constant pressure. The formula for Charles' law is:
-$\frac{V_1}{T_1} = \frac{V_2}{T_2}$
+ \frac{V_1}{T_1} = \frac{V_2}{T_2} 
 where $V_1$ and $V_2$ are the initial and final volumes, and $T_1$ and $T_2$ are the initial and final temperatures.
 
 The Boyle's law states that the pressure of a gas is inversely proportional to the volume, at constant temperature. The formula for Boyle's law is:
@@ -56,11 +54,11 @@ where $P_1$ and $P_2$ are the initial and final pressures, and $V_1$ and $V_2$ a
 
 ## Kinetic Theory of Gases
 The kinetic theory of gases describes the behavior of gases in terms of the motion of their molecules. The average kinetic energy of the molecules is given by the formula:
-$KE = \frac{3}{2} kT$
+ KE = \frac{3}{2} kT 
 where $k$ is the Boltzmann constant and $T$ is the temperature.
 
-The root mean square speed of the molecules is given by the formula:
-$v_{rms} = \sqrt{\frac{3RT}{M}}$
+The root-mean-square speed of the molecules is given by the formula:
+ v_{rms} = \sqrt{\frac{3RT}{M}} 
 where $R$ is the gas constant, $T$ is the temperature, and $M$ is the molecular mass.
 
 ## Calorimetry
@@ -70,39 +68,39 @@ where $m$ is the mass, $c$ is the specific heat capacity, and $\delta T$ is the 
 
 ## Change of State
 Change of state refers to the transition of a substance from one state to another, such as from solid to liquid or from liquid to gas. The latent heat of fusion is the heat required to change a substance from solid to liquid, and is given by the formula:
-$L = \frac{Q}{m}$
+ L = \frac{Q}{m} 
 where $Q$ is the heat transferred and $m$ is the mass.
 
 The latent heat of vaporization is the heat required to change a substance from liquid to gas, and is given by the formula:
-$L = \frac{Q}{m}$
+ L = \frac{Q}{m} 
 where $Q$ is the heat transferred and $m$ is the mass.
 
 ## Waves and Optics
 Waves and optics is a branch of physics that deals with the study of light and its properties. The speed of light in a medium is given by the formula:
-$v = \frac{c}{n}$
+ v = \frac{c}{n} 
 where $c$ is the speed of light in vacuum and $n$ is the refractive index of the medium.
 
 The reflection and refraction of light are governed by the laws of reflection and refraction, which are given by the formulas:
 $\angle i = \angle r$
 and
-$\frac{n_1}{n_2} = \frac{\\sin \theta_2}{\\sin \theta_1}$
+ \frac{n_1}{n_2} = \frac{\\\sin \theta_2}{\\\sin \theta_1} 
 where $\angle i$ is the angle of incidence, $\angle r$ is the angle of reflection, $n_1$ and $n_2$ are the refractive indices of the two media, and $\theta_1$ and $\theta_2$ are the angles of incidence and refraction.
 
 ## High-Yield Formula Bank
 Here are some high-yield formulas that you should remember for the exam:
-* $\delta L = \alpha L \delta T$
-* $\delta V = \beta V \delta T$
-* $\sigma = E \alpha \delta T$
+*  \delta L = $\alpha$L \delta T 
+*  \delta V = $\beta$V \delta T 
+*  \sigma = E $\alpha$\delta T 
 * $PV = nRT$
-* $\frac{V_1}{T_1} = \frac{V_2}{T_2}$
+*  $\frac{V_1}${T_1} = $\frac{V_2}${T_2} 
 * $P_1 V_1 = P_2 V_2$
-* $KE = \frac{3}{2} kT$
-* $v_{rms} = \sqrt{\frac{3RT}{M}}$
+*  KE = $\frac{3}${2} kT 
+*  v_{rms} = $\sqrt{\frac{3RT}${M}} 
 * $Q = mc\delta T$
-* $L = \frac{Q}{m}$
-* $v = \frac{c}{n}$
+*  L = $\frac{Q}${m} 
+*  v = $\frac{c}${n} 
 * $\angle i = \angle r$
-* $\frac{n_1}{n_2} = \frac{\\sin \theta_2}{\\sin \theta_1}$
+*  $\frac{n_1}${n_2} = $\frac{\\\sin \theta_2}${\\\sin \theta_1} 
 
 ## Ayush's Note
 To excel in the exam, it's essential to have a strong foundation in the concepts and formulas. Practice as many problems as possible, and make sure to understand the derivations of the formulas. Also, make a list of all the formulas and concepts, and revise them regularly. Time management is also crucial, so make sure to allocate your time wisely during the exam.
@@ -149,7 +147,7 @@ D) 10J
 
 Answer: C) 1J
 
-5. What is the root mean square speed of the molecules of a gas at a temperature of 20°C and a molecular mass of 28g/mol, if the gas constant is 8.314J/molK?
+5. What is the root-mean-square speed of the molecules of a gas at a temperature of 20°C and a molecular mass of 28g/mol, if the gas constant is 8.314J/molK?
 A) 100m/s
 B) 200m/s
 C) 400m/s
@@ -204,7 +202,7 @@ A rod of length 1m and coefficient of linear expansion 0.001°C^-1 is heated fro
 
 **Solution**
 The increase in length of the rod is given by the formula:
-$\delta L = \alpha L \delta T$
+ \delta L = \alpha L \delta T 
 where $\alpha$ is the coefficient of linear expansion, $L$ is the original length, and $\delta T$ is the change in temperature.
 Substituting the values, we get:
 $\delta L = 0.001°C^-1 \times 1m \times 30K = 0.03m$
@@ -214,7 +212,7 @@ A gas occupies a volume of 10m^3 at a temperature of 20°C and a pressure of 100
 
 **Solution**
 The number of moles of the gas is given by the formula:
-$n = \frac{PV}{RT}$
+ n = \frac{PV}{RT} 
 where $P$ is the pressure, $V$ is the volume, $R$ is the gas constant, and $T$ is the temperature.
 Substituting the values, we get:
 $n = \frac{100kPa \times 10m^3}{8.314J/molK \times 293K} = 0.41mol$
@@ -236,4 +234,12 @@ Here is a condensed summary of the key concepts and formulas to help you in the 
 * Kinetic theory of gases: $KE = \frac{3}{2} kT$, $v_{rms} = \sqrt{\frac{3RT}{M}}$
 * Calorimetry: $Q = mc\delta T$
 * Change of state: $L = \frac{Q}{m}$
-* Waves and optics: $v = \frac{c}{n}$, $\angle i = \angle r$, $\frac{n_1}{n_2} = \frac{\\sin \theta_2}{\\sin \theta_1}$
+* Waves and optics: $v = \frac{c}{n}$, $\angle i = \angle r$, $\frac{n_1}{n_2} = \frac{\\\sin \theta_2}{\\\sin \theta_1}$
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **The Kelvin Trap:** A very common mistake is using temperature in Celsius instead of Kelvin in the Ideal Gas Equation ($PV=nRT$) or when calculating the efficiency of a Carnot engine ($\eta = 1 - T_2/T_1$). Always convert to Kelvin to avoid incorrect ratios.
+* **Sign Convention in Thermodynamics:** Students often confuse the sign of work ($W$) in the First Law of Thermodynamics ($\Delta Q = \Delta U + W$). Remember: $W$ is positive when work is done *by* the system (expansion) and negative when work is done *on* the system (compression) in the standard physics convention.
+* **Internal Energy Misconception:** Many assume that $\Delta U$ depends on the process (isobaric, isochoric, etc.). In reality, for an ideal gas, internal energy is a state function and $\Delta U = nC_v\Delta T$ regardless of the path taken.
+* **Adiabatic vs. Isothermal Confusion:** A frequent error is assuming temperature remains constant during an adiabatic process. In an adiabatic expansion, the system does work at the expense of its internal energy, causing the temperature to drop, unlike in an isothermal process where heat is exchanged to keep $T$ constant.
+* **Thermal Expansion Coefficients:** Confusing the relationship between linear ($\alpha$), superficial ($eta$), and volumetric ($\gamma$) expansion coefficients. Remember the ratio $\alpha : eta : \gamma = 1 : 2 : 3$. Using $\alpha$ instead of $\gamma$ for a 3D object is a classic trap in NEET/JEE problems.

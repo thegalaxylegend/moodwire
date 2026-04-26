@@ -1,8 +1,7 @@
 # ============================================================
-# ExamCompass _redirects for Cloudflare Pages
-# IMPORTANT: Cloudflare Pages _redirects does NOT support
-# wildcard (*) with text AFTER it. Each static file that must
-# bypass the SPA catch-all needs its own explicit rule.
+# ExamCompass _redirects for Cloudflare Pages (AUTO-GENERATED)
+# IMPORTANT: Cloudflare Pages does NOT support wildcards (*)
+# with text AFTER them. Each static file needs its own rule.
 # Rules are processed top-to-bottom; first match wins.
 # ============================================================
 
@@ -16,28 +15,27 @@
 /api/og/*  https://us-central1-legendstech001.cloudfunctions.net/ogImage/:splat  200
 /api/og    https://us-central1-legendstech001.cloudfunctions.net/ogImage  200
 
-# === SITEMAPS (every file must be listed explicitly) ===
+# === SITEMAPS (auto-generated, every file listed explicitly) ===
 /sitemap.xml                  /sitemap.xml                  200
-/sitemap-core.xml             /sitemap-core.xml             200
-/sitemap-main.xml             /sitemap-main.xml             200
-/sitemap-blogs.xml            /sitemap-blogs.xml            200
-/sitemap-blog.xml             /sitemap-blog.xml             200
-/sitemap-topics.xml           /sitemap-topics.xml           200
-/sitemap-questions-batch1.xml /sitemap-questions-batch1.xml 200
-/sitemap-jee-mains.xml        /sitemap-jee-mains.xml        200
-/sitemap-jee-advanced.xml     /sitemap-jee-advanced.xml     200
-/sitemap-neet.xml             /sitemap-neet.xml             200
-/sitemap-gate.xml             /sitemap-gate.xml             200
-/sitemap-upsc.xml             /sitemap-upsc.xml             200
-/sitemap-clat.xml             /sitemap-clat.xml             200
-/sitemap-bitsat.xml           /sitemap-bitsat.xml           200
-/sitemap-class-6.xml          /sitemap-class-6.xml          200
-/sitemap-class-7.xml          /sitemap-class-7.xml          200
-/sitemap-class-8.xml          /sitemap-class-8.xml          200
-/sitemap-class-9.xml          /sitemap-class-9.xml          200
-/sitemap-class-10.xml         /sitemap-class-10.xml         200
-/sitemap-class-11.xml         /sitemap-class-11.xml         200
-/sitemap-class-12.xml         /sitemap-class-12.xml         200
+/sitemap-bitsat.xml                   /sitemap-bitsat.xml                   200
+/sitemap-blogs.xml                    /sitemap-blogs.xml                    200
+/sitemap-class-10.xml                 /sitemap-class-10.xml                 200
+/sitemap-class-11.xml                 /sitemap-class-11.xml                 200
+/sitemap-class-12.xml                 /sitemap-class-12.xml                 200
+/sitemap-class-6.xml                  /sitemap-class-6.xml                  200
+/sitemap-class-7.xml                  /sitemap-class-7.xml                  200
+/sitemap-class-8.xml                  /sitemap-class-8.xml                  200
+/sitemap-class-9.xml                  /sitemap-class-9.xml                  200
+/sitemap-clat.xml                     /sitemap-clat.xml                     200
+/sitemap-core.xml                     /sitemap-core.xml                     200
+/sitemap-gate.xml                     /sitemap-gate.xml                     200
+/sitemap-jee-advanced.xml             /sitemap-jee-advanced.xml             200
+/sitemap-jee-mains.xml                /sitemap-jee-mains.xml                200
+/sitemap-main.xml                     /sitemap-main.xml                     200
+/sitemap-neet.xml                     /sitemap-neet.xml                     200
+/sitemap-questions-batch1.xml         /sitemap-questions-batch1.xml         200
+/sitemap-topics.xml                   /sitemap-topics.xml                   200
+/sitemap-upsc.xml                     /sitemap-upsc.xml                     200
 
 # === SEO & Discovery Files ===
 /robots.txt                   /robots.txt                   200

@@ -61,11 +61,11 @@ The following formulae are essential for understanding the [structure](/blog/str
 
 1. **Atomic Mass**: The atomic mass is the average mass of an [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet), n it's calculated using the formula:
 
-\[ $\text{Atomic Mass} = \frac$\text{Mass$ of Protons$1 $\text{Mass$ of Neutrons}}$\text{Number$ of Atoms}$ \]
+\[ $\text{Atomic Mass} = \frac$\text{Mass$ of Protons$1 $\text{Mass$ of Neutrons}}$\text{Number$ of Atoms}$ \]$
 
 2. **Electron Velocity**: The electron velocity is the speed at which an electron orbits the nucleus, n it's calculated using the formula:
 
-\[ v = $\frac{Ze^2}{2 \epsilon_0 n \hbar} = \epsilon_0  \]$ where Z is the atomic number, e is the elementary charge, $ is the vacuum permittivity, n is the principal quantum number, n $\hbar$ is the reduced Planck constant.
+\[ v = $\frac{Ze^2}{2 \epsilon_0 n \hbar} = \epsilon_0  \]$ where Z is the atomic number, e is the elementary charge, $ is the vacuum permittivity, n is the principal quantum number, n $\hbar$ is the reduced Planck constant.$
 
 ## <a id="jeeneet-data"></a>JEE/NEET Data
 

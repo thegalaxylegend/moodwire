@@ -317,6 +317,6 @@ Continue your revision with these related guides:
 - **Coulomb's Law**: F = (k * q1 * q2) / r^2, where k = 9 x 10^9 Nm^2C^-2 
    - **Electric Field**: E = F / q = k * q / r^2 
    - **Electric Potential**: V = k * q / r 
-   - **Electric Flux**: Φ = E * A * \\cos(θ) 
+   - **Electric Flux**: Φ = E * A * \\\cos(θ) 
    - **Gauss's Law**: Φ = Q / ε0, where ε0 = 8.85 x 10^-12 C^2N^-1m^-2}}}
 

@@ -109,7 +109,7 @@ B) $\angle 1 - \angle 2 = 180^\circ$
 C) $\angle 1 = \angle 2$
 -
 D) $\angle 1$
-eq \angle $2$
+eq \angle 2
 
 **Answer: C) $\angle 1 = \angle 2$**
 

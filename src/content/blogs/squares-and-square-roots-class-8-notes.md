@@ -8,6 +8,21 @@ practice_link: "/practice/squares-and-square-roots-class-8-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [- Key properties of squares and square roots to remember: $\sqrt{a} \times \sqrt{a} = a$, $\sqrt{a} \times \sqrt{b} = \sqrt{a \times b}$, and $\frac{\sqrt{a}}{\sqrt{b}} = \sqrt{\frac{a}{b}}$](#key-properties-of-squares-and-square-roots-to-remember-sqrta-times-sqrta-a-sqrta-times-sqrtb-sqrta-times-b-and-fracsqrtasqrtb-sqrtfracab)
+3. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+4. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+5. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+6. [👁️ Ayush's Note](#ayushs-note)
+7. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+8. [📝 Practice MCQs](#practice-mcqs)
+9. [📚 Academic References](#academic-references)
+10. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - The square of a number is obtained by multiplying the number by itself, i.e., $a^2 = a \times a$
 - The square root of a number is a value that, when multiplied by itself, gives the original number, i.e., $\sqrt{a} \times \sqrt{a} = a$
@@ -43,7 +58,7 @@ manualReview: false
 - **Question 3:** Simplify $\frac{\sqrt{4}}{\sqrt{9}}$
 - Step 1: Simplify the square roots separately, $\sqrt{4} = 2$ and $\sqrt{9} = 3$
 - Step 2: Divide the simplified square roots, $\frac{2}{3}$
--     **Answer:** $\frac{2}${3} 
+-      **Answer:** $\frac{2}${3} 
 
 ## 🧠 The One Thing Most Students Get Wrong
 - The most common mistake students make is not using the properties of square roots to simplify expressions
@@ -156,3 +171,4 @@ Continue your revision with these [related](/blog/areas-related-to-circles-class
 - 📖 [Comparing Quantities 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/comparing-quantities-class-8-notes)
 - 📖 [Data Handling 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/data-handling-class-8-notes)
 - 📖 [Exponents And Powers 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide](/blog/exponents-and-powers-class-8-notes)
+

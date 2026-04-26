@@ -68,10 +68,9 @@ It's clear that a strong foundation and these concepts is essential for performi
 Let's dive deeper into the core [concepts](/blog/jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet).
 
 ### <a id="atomic-mass-n-molecular-mass"></a>Atomic Mass and Molecular Mass
-The atomic mass of an element is the average mass of its naturally occurring isotopes. It's expressed and unified atomic mass units (u). The molecular mass of a compound is the $\sum of the atomic masses of its constituent atoms.\text{Molecular Mass} = \sum \text{Atomic Mass$ of Constituent Atoms}$
+The atomic mass of an element is the average mass of its naturally occurring isotopes. It's expressed and unified atomic mass units (u). The molecular mass of a compound is the $\sum of the atomic masses of its constituent atoms.\text{Molecular Mass} = \sum \text{Atomic Mass$ of Constituent Atoms}
 
-For example, the molecular mass of water (H_$2O) is:
-$\text{Molecular Mass$ of H}_$2\text{O} = 2 \times $\text{Atomic Mass$ of H} + \text{Atomic Mass$ of O}\text{Molecular Mass$ of H}_2\text{O}$ = 2 $\times 1 + 16 = 18$
+For example, the molecular mass of water (H_$2O) is:\text{Molecular Mass$ of H}_$2\text{O} = 2 \times $\text{Atomic Mass$ of H} + \text{Atomic Mass$ of O}\text{Molecular Mass$ of H}_2\text{O}$ = 2 $\times 1 + 16 = 18$
 
 ### <a id="mole-concept"></a>Mole Concept
 The mole concept is a fundamental concept n [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet). It's defined as the amount of substance that contains as many particles (atoms, molecules, or ions) as there are atoms and 0.012 kg of carbon-12.
@@ -84,17 +83,17 @@ $\text{Number$ of Moles} = $\frac$\text{Mass$ of Substance}$\text{Molar Mass$ of
 
 For example, the number of moles of 10 g of sodium (Na) is:
 
-$\text{Number$ of Moles of Na} = $\frac{10}{23}}${$\text{Mass$ of Reactants}$ = } 
+$\text{Number$ of Moles of Na} = $\frac{10}{23}}${$\text{Mass$ of Reactants}$ = } $
 
 ### <a id="stoichiometry"></a>Stoichiometry
 Stoichiometry is the study of the quantitative relationships between reactants and products n [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) reactions. It's used to calculate the amount of reactants required or the amount of products formed and a reaction.
 
 The law of conservation of mass states that matter cannot be created or destroyed and a [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) reaction. This means that the total mass of the reactants is equal to the total mass of the products.
 
-$\text{Mass$ of Products}$
+$\text{Mass$ of Products}
 
 For example, consider the reaction:
-2$\text{Na} + \text{Cl}$_2 $\rightarrow 2\text{NaCl} The mass of the reactants is:
+2$\text{Na} + \text{Cl}$_2 \rightarrow$2$\text{NaCl}$ The mass of the reactants is:
 $\text{Mass$ of Reactants} = 2 $\times 23 + 71 = 117 \text{ g}$ The mass of the products is:
 $\text{Mass$ of Products} = 2 $\times 58.5 = 117 \text{ g}$
 
@@ -129,7 +128,7 @@ P = $\frac{nRT}{V} = \text{ atm\frac{2 \times 0.0821 \times 273}{10} = 4.46 $
 
 Here are some essential formulae to remember:
 - Molecular Mass = $\sum$ Atomic Mass of Constituent Atoms
-- Number of Moles = $\frac{\text{Mass$ of Substance}{1 }} }$
+- Number of Moles = $\frac{\text{Mass$ of Substance}{1 }} }
 - Ideal Gas Law: $PV = nRT$
 - Gas Density: $\rho = \frac{m}{V} = \frac{PM}{RT}$
 
@@ -189,3 +188,4 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
    * **Mixture**: Substances containing two or more types of particles (atoms or molecules) which are not chemically combined and have different compositions. 
    * **Atom**: The smallest particles of matter which can take part in a chemical reaction and cannot be seen by naked eye. 
    * **Molecule**: Group of two or more atoms of the same element or different elements which is held together by the chemical bonds.
+

@@ -21,7 +21,7 @@ practice_link: "/class-11/biology/digestion-n-absorption-class-11-revision-notes
 8. [<a id="trap-questions-common-misconceptions"></a>Trap Questions: Common Misconceptions](#a-idtrap-questions-common-misconceptionsatrap-questions-common-misconceptions)
 9. [<a id="practice-MCQs-digestion-n-absorption"></a>Practice MCQs: Digestion and Absorption](#a-idpractice-mcqs-digestion-n-absorptionapractice-mcqs-digestion-and-absorption)
 10. [<a id="related-notes-links"></a>Related Notes Links](#a-idrelated-notes-linksarelated-notes-links)
-11. [<a id="final-expert-insight"></a>Final Expert Insight](#a-idfinal-expert-insightafinal-expert-ins\r\right)
+11. [<a id="final-expert-insight"></a>Final Expert Insight](#a-idfinal-expert-insightafinal-expert-ins\r\r\right)
 12. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
 13. [📚 Related Topics](#related-topics)
 14. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
@@ -39,7 +39,7 @@ practice_link: "/class-11/biology/digestion-n-absorption-class-11-revision-notes
 - [Trap Questions: Common Misconceptions](#trap-questions-common-misconceptions)
 - [Practice MCQs: Digestion and Absorption](#practice-mcqs-digestion-n-absorption)
 - [Related Notes Links](#related-notes-links)
-- [Final Expert Insight](#final-expert-ins\r\right)
+- [Final Expert Insight](#final-expert-ins\r\r\right)
 - [📚 Related Topics](#-related-topics)
 
 # Digestion And Absorption Class 11 Biology Revision — MEET 2026 Grandmaster Guide
@@ -54,11 +54,11 @@ practice_link: "/class-11/biology/digestion-n-absorption-class-11-revision-notes
 6. [Trap Questions: Common Misconceptions](#trap-questions-common-misconceptions)
 7. [Practice MCQs: Digestion and Absorption](#practice-mcqs-digestion-n-absorption)
 8. [Related Notes Links](#related-notes-links)
-9. [Final Expert Insight](#final-expert-ins\r\right)
+9. [Final Expert Insight](#final-expert-ins\r\r\right)
 
 ## <a id="introduction-to-digestion-n-absorption"></a>Introduction to Digestion and Absorption
 
-The human digestive system is designed to break down the food we consume into smaller molecules that can be absorbed and utilized y the body for energy, [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet), n repair. This process begins and the mouth, where food is chewed and mixed with saliva that contains the enzyme amylase, which breaks down carbohydrates into simpler sugars. The food then passes through the esophagus into the stomach, where it is mixed with gastric juice containing hydrochloric acid and the enzyme pep\\sin, which breaks down proteins into smaller peptides and amino acids.
+The human digestive system is designed to break down the food we consume into smaller molecules that can be absorbed and utilized y the body for energy, [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet), n repair. This process begins and the mouth, where food is chewed and mixed with saliva that contains the enzyme amylase, which breaks down carbohydrates into simpler sugars. The food then passes through the esophagus into the stomach, where it is mixed with gastric juice containing hydrochloric acid and the enzyme pep\\\sin, which breaks down proteins into smaller peptides and amino acids.
 
 The partially digested food then enters the small intestine, also known as the small bowel, where most of the nutrient absorption takes place. The walls of the small intestine are lined with finger-like projections called villi, which increase the surface area for absorption. Pancreatic juice and bile from the liver and gallbladder, respectively, are released into the small intestine to facilitate the digestion of carbohydrates, proteins, n fats.
 
@@ -70,13 +70,13 @@ The process of digestion can be summarized and the following table:
 
 The chemical reactions involved and digestion can be represented y the following equations:
 
-$\text{Carbohydrates} \xrightarrow\text{Amylase} \text{Maltose}$ \xrightarrow$\text{Maltase} \text{Glucose}\text{Proteins}$ \xrightarrow$\text{Pep\\sin}\text{Peptides} \xrightarrow\text{Tryp\\sin} \text{Amino Acids}\text{Fats} \xrightarrow\text{Lipase} \text{Fatty Acids}$ + $\text{Glycerol}$
+$\text{Carbohydrates} \xrightarrow\text{Amylase} \text{Maltose}$ \xrightarrow$\text{Maltase} \text{Glucose}\text{Proteins}$ \xrightarrow$\text{Pep\\\sin}\text{Peptides} \xrightarrow\text{Tryp\\\sin} \text{Amino Acids}\text{Fats} \xrightarrow\text{Lipase} \text{Fatty Acids}$ + $\text{Glycerol}$
 
 | **Organ** | **Digestive Enzymes** | **Function** |
 | --- | --- | --- |
 | Mouth | Amylase | Breaks down carbohydrates into simpler sugars |
-| Stomach | Pep\\sin | Breaks down proteins into smaller peptides and amino acids |
-| Small Intestine | Pancreatic amylase, lipase, tryp\\sin | Breaks down carbohydrates, fats, n proteins into simpler molecules |
+| Stomach | Pep\\\sin | Breaks down proteins into smaller peptides and amino acids |
+| Small Intestine | Pancreatic amylase, lipase, tryp\\\sin | Breaks down carbohydrates, fats, n proteins into simpler molecules |
 | Small Intestine | Lactase, sucrose, Maltese | Breaks down lactose, sucrose, n maltose into glucose and other simple sugars |
 
 ## <a id="core-concepts-absorption"></a>Core Concepts: Absorption
@@ -96,7 +96,7 @@ $\text{Nutrient}_\text{intestinal lumen} \xrightarrow$1 $\text{Nutrient}$_$\text
 For JEE/[meet](/blog/environmental-chemistry-class-11-revision-notes-neet) aspirants, it's crucial to remember the following key points related to digestion and absorption:
 - The digestive system includes the mouth, esophagus, stomach, small intestine, n large intestine.
 - Digestion begins and the mouth with the action of amylase on carbohydrates.
-- The stomach secretes gastric juice containing pep\\sin and hydrochloric acid, which breaks down proteins.
+- The stomach secretes gastric juice containing pep\\\sin and hydrochloric acid, which breaks down proteins.
 - The small intestine is the primary site for nutrient absorption, facilitated y pancreatic juice and bile.
 - The large intestine absorbs water and electrolytes and prepares waste for elimination.
 
@@ -120,9 +120,9 @@ Be cautious of the following common misconceptions:
 ## <a id="practice-MCQs-digestion-n-absorption"></a>Practice MCQs: Digestion and Absorption
 
 1. Which of the following enzymes is responsible for breaking down carbohydrates and the mouth?
- -  . Pep\\sin 
+ -   Pep\\\sin 
  - B. Amylase
- -  . Tryp\\sin 
+ -   Tryp\\\sin 
  - D. Lipase
 
 2. What is the primary function of the small intestine?
@@ -195,8 +195,8 @@ Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-n
 ## 🔁 Last 5 Minutes Box
 
 - **Mechanism of Digestion**: Salivary amylase breaks down starch into maltose, lipase breaks down triglycerides into fatty acids and glycerol.
-   - **Gastric Juice**: Pep\\sin breaks down proteins into peptides, gastric amylase breaks down carbohydrates, n gastric lipase breaks down triglycerides.
-   - **Pancreatic Juice**: Amylase breaks down carbohydrates, lipase breaks down triglycerides, tryp\\sin breaks down proteins, n chymotryp\\sin breaks down peptides.
+   - **Gastric Juice**: Pep\\\sin breaks down proteins into peptides, gastric amylase breaks down carbohydrates, n gastric lipase breaks down triglycerides.
+   - **Pancreatic Juice**: Amylase breaks down carbohydrates, lipase breaks down triglycerides, tryp\\\sin breaks down proteins, n chymotryp\\\sin breaks down peptides.
    - **Bile Juice**: Emulsifies fats, activates lipase, n absorbs fat-soluble vitamins.
    - **Small Intestine**: Most nutrient absorption occurs here, including carbohydrates, proteins, n fats.
    - **Large Intestine**: Water absorption, n storage and elimination of waste products.

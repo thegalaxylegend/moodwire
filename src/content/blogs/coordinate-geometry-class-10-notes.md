@@ -24,7 +24,7 @@ manualReview: false
 
 ## ⚡ Formula Bank
 - The distance between two points $(x_1, y_1)$ and $(x_2, y_2)$ is given by $\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$
-- The midpoint of a line segment with endpoints $(x_1, y_1)$ and $(x_2, y_2)$ is $\left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\r\r\right)$
+- The midpoint of a line segment with endpoints $(x_1, y_1)$ and $(x_2, y_2)$ is $\left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\r\r\r\right)$
 - The slope of a line passing through points $(x_1, y_1)$ and $(x_2, y_2)$ is $\frac{y_2 - y_1}{x_2 - x_1}$
 - The equation of a line in slope-intercept form is by = MX + C, where me is the slope and act is the y-intercept
 - The equation of a line in slope-point form is by - y_1 = m(x - x_1)$, where me is the slope and $(x_1, y_1)$ is a point on the line$

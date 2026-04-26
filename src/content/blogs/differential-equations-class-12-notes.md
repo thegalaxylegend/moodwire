@@ -23,7 +23,7 @@ manualReview: false
 
 ## ⚡ Formula Bank
 - The order of a differential equation is the order of the highest derivative in the equation: $\frac{d^2y}{DX^2}$
-- The degree of a differential equation is the power of the highest derivative in the equation: $\left(\frac{d^2y}{DX^2}\r\r\right)^3$
+- The degree of a differential equation is the power of the highest derivative in the equation: $\left(\frac{d^2y}{DX^2}\r\r\r\right)^3$
 - A differential equation is said to be linear if it is of the form: $\frac{d^2y}{DX^2} + P(x)\frac{dy}{dx} + Q(x)y = R(x)$
 - A differential equation is said to be homogeneous if it is of the form: $\frac{d^2y}{DX^2} + P(x)\frac{dy}{dx} + Q(x)y = 0$
 - The general solution of a differential equation of the form $\frac{dy}{dx} = f(x)$ is given by: by = $\int f(x) dx + C$
@@ -83,7 +83,7 @@ D) 4
 
 **Answer: C) The order of the differential equation is the order of the highest derivative in the equation, which is 3.**
 
-**2. What is the degree of the differential equation $\left(\frac{d^2y}{DX^2}\r\r\right)^2 + 2\frac{dy}{dx} + y = 0$?**
+**2. What is the degree of the differential equation $\left(\frac{d^2y}{DX^2}\r\r\r\right)^2 + 2\frac{dy}{dx} + y = 0$?**
 A) 1
 B) 2
 C) 3
@@ -110,7 +110,7 @@ D) by = 3x^2
 **5. What is the complementary function of the differential equation $\frac{d^2y}{DX^2} + 2\frac{dy}{dx} + y = 0$?**
 A) by = C_1 \dot e^{-x} + C_2 \dot e^
 B) by = C_1 \dot e^{-x} + C_2 \dot x \dot e^{-x}
-C) y = C_1 \dot \\\cos x + C_2 \dot \\\sin x
+C) y = C_1 \dot \\\\cos x + C_2 \dot \\\\sin x
 D) by = C_1 \dot e^{-x} + C_2 \dot e^{-2x}
 
 **Answer: B) The complementary function of the differential equation is  = C_1 \ e^{-x} + C_2 \ x \ e^{-x}$.**$

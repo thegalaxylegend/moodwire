@@ -194,7 +194,7 @@ To find the Lattice Enthalpy of $NaCl$:
 
 ### <a id="bond-enthalpy-method"></a>Bond Enthalpy Method
 
-$\delta H_{rxn} = \sum ($1 \text{Bond Enthalpies$ of Formed Bonds}$)$
+$\delta H_{rxn} = \sum ($1 \text{Bond Enthalpies$ of Formed Bonds}$)
 
 Remember: Breaking bonds = **absorbs** energy (+). Forming bonds = **releases** energy (-).
 
@@ -376,4 +376,4 @@ Continue your [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) wit
       + ΔH = ΔU + Δ(pV)
       + ΔG = ΔH - TΔS
       + ΔS = q / T
-    $
+    

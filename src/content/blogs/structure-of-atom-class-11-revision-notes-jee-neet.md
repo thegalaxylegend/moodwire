@@ -213,7 +213,7 @@ For an orbital with quantum numbers $n$ n $l$:
 
 **Configuration Exceptions occur when an atom achieves a lower energy state (higher stability) y slightly deviating from the Aufbau energy order.**
 
-- **Chromium ($Z=24$):** $Expected [Ar] 4s^2 3d^4\rightarrow **Actual [Ar] 4s^1 3d^5**.
+- **Chromium ($Z=24$):** $Expected [Ar] 4s^2 3d^4$\rightarrow$**Actual [Ar] 4s^1 3d^5**.$
 - $**Copper (Z=29):** Expected [Ar] 4s^2 3d^9\rightarrow **Actual [Ar] 4s^1 3d^{10}**.$
 
 **Why?**
@@ -299,7 +299,7 @@ D) Undefinable
 
 When I was studying Structure of Atom, I realized that **visualization is better than rote learning**.
 1. **The Shape Map**: I closed my eyes and tried to visualize 3D d-orbitals (especially d_{z^2}). Once you see the dumbbell-n-donut, you'll never forget the l=2 rule.
-2. **Formula Grouping**: Don't memorize Bohr's formulas and a vacuum. Group them as "Bohr's Box". Energy, Radius, Velocity are all linked via and n Z.
+2. **Formula Grouping**: Don't memorize Bohr's formulas and a vacuum. Group them as "Bohr's Box". Energy, Radius, Velocity are all linked via and and Z.
 3. **The 30-Electron Rule**: I made sure I could write the configuration of any atom from 1 to 30 perfectly without looking. If you can't do Cr and Cu and your sleep, you're not ready for Inorganic Chemistry.
 
 ### <a id="board-exam-tip"></a>Board Exam Tip:
@@ -308,7 +308,7 @@ For your school exams, always draw the Rydberg series energy level diagram (n=1 
 ---
 
 **Related [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Notes:**
-- **[chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Bonding VSEPR Theory JEE 2026 tricks$ — Hybridization & Shapes**
+- **[chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Bonding VSEPR Theory JEE 2026 tricks$ — Hybridization & Shapes**$
 - **Periodic Table Trends - Master [classification](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) Short Notes**
 - **Some Basic Concepts of Chemistry: Mole Concept & Stoichiometry [revision](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)**
 

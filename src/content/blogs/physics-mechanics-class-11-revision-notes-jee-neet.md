@@ -26,7 +26,7 @@ The following are some essential formulas that students should be familiar with:
 * $F = ma$ (Newton's second law of motion)
 * $W = F cdot s$ (work done)
 * $K = \frac{1}{2}mv^2$ (kinetic energy)
-* $P = \frac{W}{t}$ (power)
+*  P = $\frac{W}${t} (power) 
 
 ## Common Mistakes
 There are several common mistakes that students make while solving mechanics problems. Some of these mistakes include:
@@ -50,10 +50,10 @@ Here are three solved previous year questions to help students understand how to
 $v = 10 - 2 cdot 5 = 0 , 	ext{m/s}$
 2. **Question**: A block of mass $10 , 	ext{kg}$ is moving with a velocity of $5 , 	ext{m/s}$ on a frictionless surface. A force of $20 , 	ext{N}$ is applied to the block in the direction of motion. Find the acceleration of the block.
 **Solution**: Using Newton's second law of motion, $F = ma$, we get:
-$a = \frac{F}{m} = \frac{20}{10} = 2 , 	ext{m/s}^2$
+ a = \frac{F}{m} = \frac{20}{10} = 2 , 	ext{m/s}^2 
 3. **Question**: A particle is moving in a circular path with a radius of $10 , 	ext{m}$ and a velocity of $20 , 	ext{m/s}$. Find the centripetal acceleration of the particle.
 **Solution**: Using the formula for centripetal acceleration, $a_c = \frac{v^2}{r}$, we get:
-$a_c = \frac{20^2}{10} = 40 , 	ext{m/s}^2$
+ a_c = \frac{20^2}{10} = 40 , 	ext{m/s}^2 
 
 ## Key Concept
 One of the key concepts that students often misunderstand is the concept of relative motion. Relative motion refers to the motion of an object with respect to another object or a reference frame. To solve problems involving relative motion, students should:

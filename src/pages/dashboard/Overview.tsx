@@ -21,7 +21,8 @@ import { ConceptGraphService } from '../../services/conceptGraphService';
 import type { DependencyInsight } from '../../services/conceptGraphService';
 // MasteryDiagnostics removed
 // CollegePredictorCard removed
-import { predictionService } from '../../services/predictionService';
+// predictionService removed as per user request (unused)
+
 import { type DailyMission } from '../../services/missionService';
 
 const DiagnosticPopup = ({ onDismiss, onStart }: { onDismiss: () => void; onStart: () => void }) => {
@@ -373,22 +374,7 @@ export const Overview = () => {
         }
     };
 
-    // --- PHASE D: PREDICTIONS ---
-    const [prediction, setPrediction] = useState<any>(null);
-    useEffect(() => {
-        if (user && !user.isGuest) {
-            // Logic: If user is new (0 attempts), start from a realistic baseline (e.g. 0-50) 
-            // rather than the Elo default of 1000 which predictionService maps to AIR 2.
-            const baseScore = (attempts === 0 && user.xp === 0) ? 0 : (user.abilityScore || 100);
-            
-            const result = predictionService.predictRank({
-                currentMockScore: baseScore, 
-                topicStrength: ((user.skills?.physics || 0) + (user.skills?.chemistry || 0) + (user.skills?.math || 0)) / 3 || 0.5,
-                examType: user.targetExam || 'JEE Mains'
-            });
-            setPrediction(result);
-        }
-    }, [user, attempts]);
+
 
     // AI 2.0: Concept Graph Insights
     const [dependencyInsights, setDependencyInsights] = useState<DependencyInsight[]>([]);

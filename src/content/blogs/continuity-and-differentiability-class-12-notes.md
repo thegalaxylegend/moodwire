@@ -23,7 +23,7 @@ manualReview: false
 
 ## 🎬 Watch: Visual Explanation
 
-> 📺 **How To Get 60+ in Physics in 1 day..** — by *Education Reformers*
+> 📺 **How To Get 60+ in Physics in 1 day.** — by *Education Reformers*
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;border-radius:12px;margin:1rem 0;">
 <iframe src="https://www.youtube.com/embed/3qILHW8Cayk?rel=0" 
@@ -42,16 +42,16 @@ manualReview: false
 - The function of(x)$ is said to be continuous at $x$ = an if $\lim_{x \to a} f(x) = f(a)
 - The function of(x)$ is said to be differentiable at $x$ = an if $\lim_{h \to 0} $\frac{f(a + h) - f(a)}{h}$ exists
 - If a function is differentiable at a point, then it is continuous at that point, but the converse is not always true
--    $\frac{d}${dx} (x^n) = no^{n-1} 
--     $\frac{d}${dx} (\\\sin x) = \\\cos x 
--     $\frac{d}${dx} (\\\cos x) = -\\\sin x 
--     $\frac{d}${dx} (\tan x) = \sec^2 x 
--    $\frac{d}${dx} (\log x) = $\frac{1}${x} 
+-     $\frac{d}${dx} (x^n) = no^{n-1} 
+-      $\frac{d}${dx} (\\\\sin x) = \\\\cos x 
+-      $\frac{d}${dx} (\\\\cos x) = -\\\\sin x 
+-      $\frac{d}${dx} (\tan x) = \sec^2 x 
+-     $\frac{d}${dx} (\log x) = $\frac{1}${x} 
 -  $\{d}{dx}$ ($\ln x) =\{1}{x}$
 -  $\{d}{dx}$ (e^x) = e^x 
 - Chain rule: $\{d}{dx} (f(g(x))) = f'(g(x)) \ g'(x)$
 - Product rule: $\{d}{dx} (f(x) \ g(x)) = f'(x) \ g(x) + f(x) \ g'(x)$
-- Quotient rule: $\{d}{dx} \left(\{f(x)}{g(x)}\r\r\right) = \{f'(x) \ g(x) - f(x) \ g'(x)}{g(x)^2}$
+- Quotient rule: $\{d}{dx} \left(\{f(x)}{g(x)}\r\r\r\right) = \{f'(x) \ g(x) - f(x) \ g'(x)}{g(x)^2}$
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not checking the continuity of a function before differentiating it
@@ -61,10 +61,10 @@ manualReview: false
 - Not checking the domain of a function before differentiating it
 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** $Find the derivative of the function of(x) = $\\\sin (x^2)
-  - Using the chain rule, we have: $\frac{d}{dx} (\\\sin (x^2)) = \\\cos (x^2) \dot \frac{d}{dx} (x^2) = \\\cos (x^2) \dot 2x = 2x \\\cos (x^2)$
-- **Question 2:** Find the derivative of the function of(x) = $\frac{\\\sin x}{x}$
-  - Using the quotient rule, we have: $\frac{d}{dx} \left(\frac{\\\sin x}{x}\r\r\right) = \frac{\\\cos x \dot x - \\\sin x \dot 1}{x^2} = \frac{x \\\cos x - \\\sin x}{x^2}$
+- **Question 1:** $Find the derivative of the function of(x) = $\\\\sin (x^2)
+  - Using the chain rule, we have: $\frac{d}{dx} (\\\\sin (x^2)) = \\\\cos (x^2) \dot \frac{d}{dx} (x^2) = \\\\cos (x^2) \dot 2x = 2x \\\\cos (x^2)$
+- **Question 2:** Find the derivative of the function of(x) = $\frac{\\\\sin x}{x}$
+  - Using the quotient rule, we have: $\frac{d}{dx} \left(\frac{\\\\sin x}{x}\r\r\r\right) = \frac{\\\\cos x \dot x - \\\\sin x \dot 1}{x^2} = \frac{x \\\\cos x - \\\\sin x}{x^2}$
 - **Question 3:** Find the derivative of the function of(x) = e^{x^2}
   - Using the chain rule, we have: $\frac{d}{dx} (e^{x^2}) = e^{x^2} \ \{d}{dx} (x^2) = e^{x^2} \ 2x = 2x e^{x^2}$
 
@@ -88,13 +88,13 @@ manualReview: false
 - Simplify the derivative and apply it to the problem
 
 ## 📝 Practice MCQs
-**1. What is the derivative of the function of(x) = $\\\sin$ ?**
-A) \\\cos x
-B) \\\sin x
+**1. What is the derivative of the function of(x) = $\\\\sin$ ?**
+A) \\\\cos x
+B) \\\\sin x
 C) \tan x
 D) $\sec$
 
-**Answer: A) $\\\cos  because the derivative of \\\sin  is \\\cos **$
+**Answer: A) $\\\\cos  because the derivative of \\\\sin  is \\\\cos **$
 
 **2. What is the derivative of the function of(x) = x^2?**
 A) 2x
@@ -106,8 +106,8 @@ D) 1
 
 **3. What is the derivative of the function of(x) = e^?**
 A) he^
-B) \\\sin x
-C) \\\cos x
+B) \\\\sin x
+C) \\\\cos x
 D) \tan x
 
 **Answer: A) he^ because the derivative of the^ is he^**

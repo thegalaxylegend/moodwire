@@ -8,6 +8,19 @@ practice_link: "/practice/upsc-optional-selection-guide"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - The first step in choosing an optional subject for UPSC is to understand the syllabus and weightage of each subject.
 - The most popular optional subjects are Geography, History, Public Administration, and Sociology.
@@ -64,7 +77,7 @@ manualReview: false
 - Ayush recommends that students choose an optional subject based on the calculations mentioned above.
 - He also recommends that students focus on the most important topics in the subject, and practice answering questions from those topics.
 - Additionally, he recommends that students use the $\frac{\text{Interest} \times \text{Scoring Potential}}{\text{Syllabus Coverage}} \geq \frac{250}{400}$ formula to choose an optional subject.
-- He also recommends that students use the $\frac{\text{Number$ of Questions} $\times \text{Average Marks per Question}}{\text{Total Marks}} \times 100$ formula to calculate the scoring potential of a subject.$
+- He also recommends that students use the $\frac{\text{Number$ of Questions} $\times \text{Average Marks per Question}}{\text{Total Marks}} \times 100$ formula to calculate the scoring potential of a subject.
 - Finally, he recommends that students use the $\frac{\text{Number$ of Topics Covered}}{\text{Total Number$ of Topics}} \times $100 formula to calculate the syllabus coverage of a subject.
 
  
@@ -100,7 +113,7 @@ C) By calculating the total marks for the subject
 -
 D) By using the formula: $\frac{\text{Number$ of Questions} $\times \text{Average Marks per Question}}{\text{Total Marks}} \times 100$
 
-**Answer:** D) By using the formula: $\frac{\text{Number$ of Questions} $\times \text{Average Marks per Question}}{\text{Total Marks}} \times 100$. This formula takes into account the number of questions asked from the subject, the average marks per question, and the total marks for the subject.$
+**Answer:** D) By using the formula: $\frac{\text{Number$ of Questions} $\times \text{Average Marks per Question}}{\text{Total Marks}} \times 100$. This formula takes into account the number of questions asked from the subject, the average marks per question, and the total marks for the subject.
 
 **3. What is the weightage of Geography in UPSC?**
 -
@@ -122,7 +135,7 @@ B) $\frac{\text{Interest} \times \text{Scoring Potential}}{\text{Syllabus Covera
 -
 C) $\frac{\text{Interest} \times \text{Scoring Potential}}{\text{Syllabus Coverage}} = \frac{250}{400}$
 -
-D) $\frac{\text{Interest} \times \text{Scoring Potential}}{\text{Syllabus Coverage}}$ eq \frac{250}{400}
+D) $\frac{\text{Interest} \times \text{Scoring Potential}}{\text{Syllabus Coverage}}$ eq $\frac{250}${400}
 
 **Answer:** B) $\frac{\text{Interest} \times \text{Scoring Potential}}{\text{Syllabus Coverage}} \geq \frac{250}{400}$. This formula takes into account the interest in the subject, the scoring potential of the subject, and the syllabus coverage of the subject.
 
@@ -158,3 +171,4 @@ Continue your revision with these [related](/blog/areas-related-to-circles-class
 - 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
 - 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
 - 📖 [Areas Related To Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/areas-related-to-circles-class-10-notes)
+

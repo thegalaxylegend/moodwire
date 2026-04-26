@@ -72,7 +72,7 @@ Plugging and mass (km = $5 kg) instead of weight (DW = mg = $50 N) when calculat
 **The Fix:** Always explicitly write BMG on your diagrams pointing straight down. Never leave it as just 'm'.
 
 ### <a id="5-getting-the-normal-force-wrong-on-inclines"></a>5. Getting the Normal Force Wrong on Inclines
-Assuming Normal Force (AND) always equals BMG. On an inclined [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) of angle $\theta$, IN = mg $\\\cos\theta.$ 
+Assuming Normal Force (AND) always equals BMG. On an inclined [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) of angle $\theta$, IN = mg $\\\\cos\theta.$ 
 **The Fix:** Tilt your coordinate axes, so the X-axis is parallel to the incline. Break BMG into its sine and cosine components immediately.
 
 ## <a id="the-tension-n-pulley-traps"></a>The Tension and Pulley Traps
@@ -86,7 +86,7 @@ In a movable pulley system, if a block attached to the pulley moves y distance $
 **The Fix:** Always write out the length constraint equation (SL = x_1 + 2x_2$) n differentiate twice to find the relationship between accelerations (a_1 = -2a_2$).
 
 ### <a id="8-apparent-weight-n-elevators"></a>8. Apparent Weight and Elevators
-Forgetting that when an elevator accelerates downwards with a the apparent weight (AND) decreases to km(g-a)$. If a = go (free fall), weightlessness occurs.$
+Forgetting that when an elevator accelerates downwards with a apparent weight (AND) decreases to km(g-a)$. If a = go (free fall), weightlessness occurs.$
 **The Fix:** Treat the elevator as a non-inertial frame and apply a pseudo force and the opposite direction of acceleration.
 
 ## <a id="the-friction-traps"></a>The Friction Traps
