@@ -171,6 +171,78 @@ Sitemap: ${BASE_URL}/${SITEMAP_INDEX_NAME}
 
         console.log(`✅ Sitemap Index and ${categorySitemaps.length} category sitemaps written to public/ and dist/.`);
 
+        // ============================================================
+        // AUTO-DISCOVER all sitemap files and build a COMPLETE index
+        // This catches exam-specific sitemaps added by other scripts
+        // ============================================================
+        const allSitemapFiles = fs.readdirSync(PUBLIC_DIR)
+            .filter(f => f.startsWith('sitemap-') && f.endsWith('.xml'))
+            .sort();
+
+        const today = new Date().toISOString().split('T')[0];
+        const completeIndexEntries = allSitemapFiles.map(name => {
+            return `  <sitemap>\n    <loc>${BASE_URL}/${name}</loc>\n    <lastmod>${today}</lastmod>\n  </sitemap>`;
+        });
+
+        const completeIndex = `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${completeIndexEntries.join('\n')}\n</sitemapindex>`;
+
+        dirs.forEach(dir => {
+            fs.writeFileSync(path.join(dir, SITEMAP_INDEX_NAME), completeIndex);
+        });
+        console.log(`✅ Complete Sitemap Index written with ${allSitemapFiles.length} sitemaps (auto-discovered).`);
+
+        // ============================================================
+        // GENERATE _redirects with EXPLICIT per-file rules
+        // Cloudflare Pages does NOT support wildcards like /sitemap-*.xml
+        // Every static file must be listed individually.
+        // ============================================================
+        const sitemapRedirects = allSitemapFiles.map(f => {
+            const padded = `/${f}`;
+            return `${padded.padEnd(38)}/${f}${' '.repeat(Math.max(1, 38 - f.length - 1))}200`;
+        }).join('\n');
+
+        const redirectsContent = `# ============================================================
+# ExamCompass _redirects for Cloudflare Pages (AUTO-GENERATED)
+# IMPORTANT: Cloudflare Pages does NOT support wildcards (*)
+# with text AFTER them. Each static file needs its own rule.
+# Rules are processed top-to-bottom; first match wins.
+# ============================================================
+
+# === SPA routes that need client-side routing ===
+/dashboard/*  /index.html  200
+/admin/*      /index.html  200
+/login        /index.html  200
+/onboarding   /index.html  200
+
+# === Proxy OG Image generator to Firebase Function ===
+/api/og/*  https://us-central1-legendstech001.cloudfunctions.net/ogImage/:splat  200
+/api/og    https://us-central1-legendstech001.cloudfunctions.net/ogImage  200
+
+# === SITEMAPS (auto-generated, every file listed explicitly) ===
+/sitemap.xml                  /sitemap.xml                  200
+${sitemapRedirects}
+
+# === SEO & Discovery Files ===
+/robots.txt                   /robots.txt                   200
+/rss.xml                      /rss.xml                      200
+/feed.xml                     /feed.xml                     200
+/ads.txt                      /ads.txt                      200
+/llms.txt                     /llms.txt                     200
+/seo-manifest.json            /seo-manifest.json            200
+/schema-data.json             /schema-data.json             200
+/slug-registry.json           /slug-registry.json           200
+/question-db.json             /question-db.json             200
+
+# === Catch-all for SPA client-side routing ===
+# This MUST be last. Everything above bypasses it.
+/*  /index.html  200
+`;
+
+        dirs.forEach(dir => {
+            fs.writeFileSync(path.join(dir, '_redirects'), redirectsContent);
+        });
+        console.log(`✅ _redirects written with ${allSitemapFiles.length} explicit sitemap rules (no wildcards).`);
+
     } catch (e) {
         console.error("❌ Sitemap Generation Failed:", e.message);
         process.exit(1);

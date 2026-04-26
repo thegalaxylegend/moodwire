@@ -1,29 +1,52 @@
 [
   {
-    "type": "LEARNED_ERROR",
-    "keywords": [
-      "error",
-      "message",
-      "invalid",
-      "invalid_request_error",
-      "invalid_api_key"
-    ],
-    "rootCause": "Auto-learned pattern from General failure: 401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
-    "fix": "Review this auto-learned pattern and refine the fix recommendation.",
-    "priority": "medium",
+    "type": "RESOLVED_ERROR",
+    "keywords": ["invalid", "invalid_request_error", "invalid_api_key"],
+    "rootCause": "Groq API Key #6 was poisoned (expired/revoked). Disabled in .env on 2026-04-26.",
+    "fix": "Key disabled. NodeRouter now skips it. Replace with a new key when available.",
+    "priority": "resolved",
     "learnedFrom": "introduction-to-trigonometry-class-10-notes",
-    "addedDate": "2026-04-08"
+    "addedDate": "2026-04-08",
+    "resolvedDate": "2026-04-26"
   },
   {
-    "type": "LEARNED_UNKNOWN",
-    "keywords": [
-      "unknown",
-      "failure"
-    ],
-    "rootCause": "Auto-learned pattern from General failure: Unknown Failure",
-    "fix": "Review this auto-learned pattern and refine the fix recommendation.",
-    "priority": "medium",
+    "type": "RESOLVED_ERROR",
+    "keywords": ["qwen-qwq-32b", "400", "decommissioned"],
+    "rootCause": "Groq decommissioned qwen-qwq-32b model. Removed from routingConfig.ts on 2026-04-26.",
+    "fix": "Model removed from MODELS and WATERFALL_CHAINS. T1 now leads with llama-3.3-70b-versatile.",
+    "priority": "resolved",
+    "learnedFrom": "system-audit-2026-04-26",
+    "addedDate": "2026-04-26",
+    "resolvedDate": "2026-04-26"
+  },
+  {
+    "type": "RESOLVED_ERROR",
+    "keywords": ["naked", "latex", "frac", "text", "delimiters"],
+    "rootCause": "Quality gate scored naked LaTeX BEFORE the auto-repair ran. Pre-scoring repair pass added to checkBlogQuality() on 2026-04-26.",
+    "fix": "checkFormattingIntegrity() now runs BEFORE quality scoring in checkBlogQuality(). LaTeX is auto-wrapped in $ delimiters before the penalty check.",
+    "priority": "resolved",
+    "learnedFrom": "pipeline-2026-04-25 (9/9 blogs failed with score 0)",
+    "addedDate": "2026-04-26",
+    "resolvedDate": "2026-04-26"
+  },
+  {
+    "type": "RESOLVED_ERROR",
+    "keywords": ["unknown", "failure"],
+    "rootCause": "Error reporting used only the first critical_failure and fell back to 'Unknown Failure'. Now includes all failures and warnings.",
+    "fix": "blog-generator.ts error field now joins all critical_failures and includes score/warnings for full diagnostics.",
+    "priority": "resolved",
     "learnedFrom": "chemical-reactions-and-equations-class-10-notes",
-    "addedDate": "2026-04-22"
+    "addedDate": "2026-04-22",
+    "resolvedDate": "2026-04-26"
+  },
+  {
+    "type": "RESOLVED_ERROR",
+    "keywords": ["gemini", "fetch", "generativelanguage.googleapis.com"],
+    "rootCause": "Gemini keys were working, but model IDs (e.g. Gemini 2.5 Pro) were disabled for free tier in April 2026. Migrated to Gemini 3 Flash series and Gemma 4 on 2026-04-26.",
+    "fix": "Updated routingConfig.ts with Gemini 3 Flash and Gemma 4. Verified free tier compatibility.",
+    "priority": "resolved",
+    "learnedFrom": "user-correction-2026-04-26",
+    "addedDate": "2026-04-26",
+    "resolvedDate": "2026-04-26"
   }
 ]

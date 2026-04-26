@@ -9,14 +9,14 @@ export const Footer = () => {
         <footer className="border-t border-white/10 bg-black/80 backdrop-blur-sm min-h-[400px]">
             <div className="max-w-7xl mx-auto px-6 py-12">
                 {/* Top Section */}
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
+                <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-10">
                     {/* Brand */}
-                    <div className="md:col-span-1">
+                    <div className="col-span-2 md:col-span-1">
                         <Link to="/" className="text-xl md:text-2xl font-bold text-white tracking-tighter inline-block mb-3">
                             Exam<span className="text-[#a855f7]">Compass</span>
                         </Link>
                         <p className="text-gray-500 text-sm leading-relaxed mb-4">
-                            A 100% free, community-built PYQ analytics engine for JEE and NEET aspirants.
+                            India's free AI-powered exam preparation platform for JEE, NEET, CBSE, GATE & UPSC aspirants. 9,000+ verified PYQs.
                         </p>
                         <div className="flex items-center gap-4">
                             <a href={SOCIAL_LINKS.discord.url} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-[#5865F2] transition-colors" title="Join Discord">
@@ -34,13 +34,16 @@ export const Footer = () => {
                         </div>
                     </div>
 
-                    {/* Exams */}
+                    {/* Competitive Exams */}
                     <div>
-                        <h4 className="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-4">Top Exams</h4>
+                        <h4 className="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-4">Competitive Exams</h4>
                         <ul className="space-y-2">
                             {[
-                                { name: 'JEE Main & Advanced', href: '/jee-mains' },
-                                { name: 'NEET UG', href: '/neet' },
+                                { name: 'JEE Mains 2026', href: '/jee-mains' },
+                                { name: 'JEE Advanced 2026', href: '/jee-advanced' },
+                                { name: 'NEET UG 2026', href: '/neet' },
+                                { name: 'GATE Preparation', href: '/gate' },
+                                { name: 'UPSC Preparation', href: '/upsc' },
                             ].map(link => (
                                 <li key={link.name}>
                                     <Link to={link.href} className="text-gray-500 hover:text-white text-sm transition-colors">
@@ -51,13 +54,13 @@ export const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* Revision Hub for Crawlability */}
+                    {/* Board Exams */}
                     <div>
-                        <h4 className="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-4">Board & Foundation</h4>
+                        <h4 className="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-4">Board Exams</h4>
                         <ul className="space-y-2">
                             {[
                                 { name: 'Class 12 Boards', href: '/class-12' },
-                                { name: 'Class 11 Boards', href: '/class-11' },
+                                { name: 'Class 11 Prep', href: '/class-11' },
                                 { name: 'Class 10 Boards', href: '/class-10' },
                                 { name: 'Class 9 Foundation', href: '/class-9' },
                                 { name: 'Class 8 Foundation', href: '/class-8' },
@@ -76,7 +79,9 @@ export const Footer = () => {
                         <h4 className="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-4">Resources</h4>
                         <ul className="space-y-2">
                             {[
-                                { name: 'Blog', href: '/blog' },
+                                { name: 'Revision Notes', href: '/blog' },
+                                { name: 'AI Mock Tests', href: '/dashboard/mock' },
+                                { name: 'PYQ Practice', href: '/jee-mains' },
                                 { name: 'About Us', href: '/about' },
                                 { name: 'Contact', href: '/contact' },
                             ].map(link => (
@@ -107,14 +112,19 @@ export const Footer = () => {
                     </div>
                 </div>
 
-                {/* Bottom Bar */}
-                <div className="border-t border-white/5 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4">
-                    <p className="text-gray-600 text-xs">
-                        © {currentYear} Exam Compass. All rights reserved.
+                {/* SEO Bottom Section — Rich internal link text for crawlers */}
+                <div className="border-t border-white/5 pt-6">
+                    <p className="text-gray-600 text-xs leading-relaxed mb-4">
+                        Exam Compass is India's free AI-powered exam preparation platform. Practice <Link to="/jee-mains" className="text-gray-500 hover:text-white transition-colors">JEE Mains</Link>, <Link to="/jee-advanced" className="text-gray-500 hover:text-white transition-colors">JEE Advanced</Link>, <Link to="/neet" className="text-gray-500 hover:text-white transition-colors">NEET UG</Link>, <Link to="/gate" className="text-gray-500 hover:text-white transition-colors">GATE</Link>, and <Link to="/class-12" className="text-gray-500 hover:text-white transition-colors">CBSE Board</Link> exams with 9,000+ verified NTA Previous Year Questions, unlimited AI mock tests, and personalized study plans. All free, forever.
                     </p>
-                    <p className="text-gray-600 text-xs">
-                        Built with ❤️ in India
-                    </p>
+                    <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
+                        <p className="text-gray-600 text-xs">
+                            © {currentYear} Exam Compass. All rights reserved.
+                        </p>
+                        <p className="text-gray-600 text-xs">
+                            Built with ❤️ in India by <Link to="/about" className="text-gray-500 hover:text-white transition-colors">Ayush Kumar</Link>
+                        </p>
+                    </div>
                 </div>
             </div>
         </footer>

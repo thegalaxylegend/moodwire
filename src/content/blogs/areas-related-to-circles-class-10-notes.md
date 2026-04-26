@@ -8,11 +8,25 @@ practice_link: "/practice/areas-related-to-circles-class-10-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Academic References](#academic-references)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
-- The area of a circle is given by the formula: A = $\pi r^2$, where are is the radius of the circle.$
+- The area of a circle is given by the formula: A = $\pi r^2$, where are is the radius of the circle.
 - $The circumference of a circle is given by the formula: BC = 2\pi RJ, where are is the radius of the circle.$
-- The area of a sector of a circle is given by the formula: A = $\frac{\theta}{360} \pi r^2$, where $\theta$ is the angle subtended by the sector at the center and are is the radius of the circle.$
-- The area of a segment of a circle is given by the formula: A = $\frac{1}{2} r^2 (\theta - \\sin \theta)$, where $\theta$ is the angle subtended by the segment at the center and are is the radius of the circle.$
+- The area of a sector of a circle is given by the formula: A = $\frac{\theta}{360} \pi r^2$, where $\theta$ is the angle subtended by the sector at the center and are is the radius of the circle.
+- The area of a segment of a circle is given by the formula: A = $\frac{1}{2} r^2 (\theta - \\\sin \theta)$, where $\theta$ is the angle subtended by the segment at the center and are is the radius of the circle.
 - The length of an arc of a circle is given by the formula: SL = $\frac{\theta}{360} 2\pi RJ$, where $\theta$ is the angle subtended by the arc at the center and are is the radius of the circle.
 
 ## 🪤 The 5 Mistakes That Cost Marks
@@ -23,12 +37,12 @@ manualReview: false
 - Not checking the units of the answer to ensure they are correct.
 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** $Find the area of a circle with radius 4 cm.
-  -    i r^2 = \pi (4)^2 = 16\pi cm^2. 
+- **Question 1:** $Find the area of a circle with radius 4 cm.$
+  -     r^2 = \pi (4)^2 = 16\pi cm^2. 
 - **Question 2:** Find the length of an arc of a circle with radius 3 cm and central angle 60^\circ.
-  -    rac{\theta}{360} 2\pi r = $\frac{60}${360} 2\pi (3) = \pi cm. 
+  -     c{\theta}{360} 2\pi r = $\frac{60}${360} 2\pi (3) = \pi cm. 
 - **Question 3:** Find the area of a sector of a circle with radius 5 cm and central angle 72^\circ.
-  -    rac{\theta}{360} \pi r^2 = $\frac{72}${360} \pi (5)^2 = $\frac{1}${5} \pi (25) = 5\pi cm^2. 
+  -     c{\theta}{360} \pi r^2 = $\frac{72}${360} \pi (5)^2 = $\frac{1}${5} \pi (25) = 5\pi cm^2. 
 
 ## 🧠 The One Thing Most Students Get Wrong
 - The most common mistake students make is not using the correct formula for the area of a circle, sector, or segment, or not using the correct value of $\pi.$
@@ -73,12 +87,12 @@ D) \frac{2}{3} \pi (8)^2 cm^2
 **Answer: B) $\frac{1}{6} \pi (8)^2 cm^2 is incorrect$, the correct answer is $\frac{1}{6} \pi (8)^2 = \frac{32\pi}{3} cm^2.**$
 
 **4. What is the area of a segment of a circle with radius 10 cm and central angle 30^\circ?**
-A) \frac{1}{12} \pi (10)^2 - \frac{1}{2} (10)^2 \\sin 30^\circ cm^2
-B) \frac{1}{6} \pi (10)^2 - \frac{1}{2} (10)^2 \\sin 60^\circ cm^2
-C) \frac{1}{12} \pi (10)^2 - \frac{1}{2} (10)^2 \\sin 60^\circ cm^2
-D) \frac{1}{6} \pi (10)^2 - \frac{1}{2} (10)^2 \\sin 30^\circ ^2
+A) \frac{1}{12} \pi (10)^2 - \frac{1}{2} (10)^2 \\\sin 30^\circ cm^2
+B) \frac{1}{6} \pi (10)^2 - \frac{1}{2} (10)^2 \\\sin 60^\circ cm^2
+C) \frac{1}{12} \pi (10)^2 - \frac{1}{2} (10)^2 \\\sin 60^\circ cm^2
+D) \frac{1}{6} \pi (10)^2 - \frac{1}{2} (10)^2 \\\sin 30^\circ ^2
 
-**Answer: A) \{1}{12} \pi (10)^2 - \{1}{2} (10)^2 \\sin 30^\ cm^2.**
+**Answer: A) \{1}{12} \pi (10)^2 - \{1}{2} (10)^2 \\\sin 30^\ cm^2.**
 
 **5. What is the circumference of a circle with diameter 14 cm?**
 A) 14\pi cm
@@ -95,8 +109,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 *Content verified against peer-reviewed research:*
 
-1. *� Let the People Rap: Cultural Rhetorics Pedagogy and Practices U...*$ — **Journal of Basic Writing** (2019) 🔓 — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.05)
-2. *Frustration and Hope: Examining Students Emotional Responses to ...* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.03)
+1. *� Let the People Rap: Cultural Rhetorics Pedagogy and Practices U...*$ — **Journal of Basic Writing** (2019) 🔓 — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.05)$2. *Frustration and Hope: Examining Students Emotional Responses to ...* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.03)
 3. *Editors' Column* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.01)
 
 *🔓 = Open Access article*
@@ -111,5 +124,6 @@ Continue your revision with these related guides:
 - 📖 [Compiler Design Class 12 Exam Prep Revision — Grandmaster Guide](/blog/compiler-design-class-12-notes)
 - 📖 [Computer Networks Class 12 Exam Prep Revision — Grandmaster Guide](/blog/computer-networks-class-12-notes)
 - 📖 [Data Handling 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/data-handling-class-8-notes)
-$
+
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Areas%20Related%20To%20Circles%20Class%2010%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+

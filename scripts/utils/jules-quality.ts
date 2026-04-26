@@ -144,6 +144,37 @@ const CHAPTER_TO_SUBJECT: Record<string, string> = {
 };
 
 export function checkBlogQuality(post: BlogPostJSON): QualityReport {
+    // ═══════════════════════════════════════════════════════════════════
+    // PRE-SCORING REPAIR PASS: Fix known-fixable issues BEFORE scoring
+    // This prevents the "score 0 for fixable LaTeX" death spiral.
+    // Without this, blogs with naked LaTeX (\frac without $) score 0
+    // even though checkFormattingIntegrity() can fix them automatically.
+    // ═══════════════════════════════════════════════════════════════════
+    let preRepairCount = 0;
+    for (const sec of (post.content?.sections || [])) {
+        if (sec && typeof sec.body === 'string') {
+            const original = sec.body;
+            sec.body = checkFormattingIntegrity(sec.body);
+            if (sec.body !== original) preRepairCount++;
+        }
+    }
+    if (post.content?.intro && typeof post.content.intro === 'string') {
+        post.content.intro = checkFormattingIntegrity(post.content.intro);
+    }
+    // Also repair MCQ content
+    for (const mcq of (post.content?.mcqs || [])) {
+        if (mcq) {
+            if (typeof mcq.question === 'string') mcq.question = checkFormattingIntegrity(mcq.question);
+            if (typeof mcq.answer_text === 'string') mcq.answer_text = checkFormattingIntegrity(mcq.answer_text);
+            if (Array.isArray(mcq.options)) {
+                mcq.options = mcq.options.map(o => typeof o === 'string' ? checkFormattingIntegrity(o) : o);
+            }
+        }
+    }
+    if (preRepairCount > 0) {
+        console.log(`🔧 Pre-scoring repair: Fixed formatting in ${preRepairCount} section(s) before quality check.`);
+    }
+
     let score = 100;
     const report: QualityReport = {
         passed: false,
@@ -154,6 +185,9 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
         patch_missing_sections: [],
         regenerate_all: false
     };
+    if (preRepairCount > 0) {
+        report.auto_fixed.push({ field: 'pre_scoring_latex_repair', old: `${preRepairCount} sections`, new: 'Auto-repaired before scoring' });
+    }
 
     // 1. Date — NO LONGER AUTO-CHANGED (preserve original publish dates)
     // Dates are only set at blog creation time, never mutated by quality checks.
@@ -695,12 +729,40 @@ export function checkFormattingIntegrity(text: string): string {
                        .replace(/cos\b/g, '\\cos')
                        .replace(/	heta/g, '\\theta')
                        .replace(/^{circ}/g, '^{\\circ}')
-                       .replace(/lambda/g, '\\lambda');
+                       .replace(/(?<!\\)\blambda\b/g, '\\lambda');
+
+    // ========= NEW: Chemistry Hallucination Repair =========
+    repaired = repaired.replace(/\bRNA_2CO_3\b/g, 'Na_2CO_3')
+                       .replace(/\bRNA_2\b/g, 'Na_2')
+                       .replace(/\bNacli\b/g, 'NaCl')
+                       .replace(/\bKOHL\b/g, 'KOH')
+                       .replace(/\bCH_{3}COOL\b/g, 'CH_3COONa') // Probably Sodium Acetate
+                       .replace(/\bCH_{3}COOH\b/g, 'CH_3COOH')
+                       .replace(/\bNH_{4}CLR\b/g, 'NH_4Cl')
+                       .replace(/\\right arrow/g, '\\rightarrow')
+                       .replace(/\\right\s+arrow/g, '\\rightarrow');
+
+    // ========= NEW: Chemistry Hallucination Repair =========
+    repaired = repaired.replace(/\bRNA_2CO_3\b/g, 'Na_2CO_3')
+                       .replace(/\bRNA_2\b/g, 'Na_2')
+                       .replace(/\bNacli\b/g, 'NaCl')
+                       .replace(/\bKOHL\b/g, 'KOH')
+                       .replace(/\bCH_{3}COOL\b/g, 'CH_3COONa')
+                       .replace(/\bCH_{3}COOH\b/g, 'CH_3COOH')
+                       .replace(/\bNH_{4}CLR\b/g, 'NH_4Cl')
+                       .replace(/\bOK_{sp}\b/g, 'K_{sp}')
+                       .replace(/\(DSP\):/g, '(K_sp):')
+                       .replace(/\\right arrow/g, '\\rightarrow')
+                       .replace(/\\right\s+arrow/g, '\\rightarrow')
+                       .replace(/\bH_2OF\b/g, 'H_2O')
+                       .replace(/\bOH_{2}O\b/g, 'H_2O');
 
     // ========= NEW: Wrap naked LaTeX in $ delimiters =========
-    // Detects \frac{...}, \text{...}, \sum, \Delta etc. not inside existing $...$ and wraps them.
-    const nakedLatexRegex = /(?<!\$)\\(frac|text|sqrt|sum|Delta|theta|alpha|beta|gamma|phi|overline|underline|vec|hat|bar|boxed|mathrm|mathbb|binom)/g;
-    if (nakedLatexRegex.test(repaired)) {
+    // Detects \frac{...}, \text{...}, \sum, \Delta etc. OR Chemistry patterns like K_{sp}, H_2O
+    const nakedLatexRegex = /(?<!\$)\\(frac|text|sqrt|sum|Delta|theta|alpha|beta|gamma|phi|overline|underline|vec|hat|bar|boxed|mathrm|mathbb|binom|rightarrow|leftarrow|rightleftharpoons)\b/g;
+    const chemPatternRegex = /(?<!\$)\b([A-Z][a-z]?(_\{?[0-9a-z]+\}?)?(\^\{?[0-9+-]+\}?)?)\b(?!\$)/g;
+    
+    if (nakedLatexRegex.test(repaired) || chemPatternRegex.test(repaired)) {
         // Process line by line to avoid breaking existing inline math
         const lines = repaired.split('\n');
         for (let i = 0; i < lines.length; i++) {
@@ -713,8 +775,14 @@ export function checkFormattingIntegrity(text: string): string {
             let modified = false;
             for (let s = 0; s < segments.length; s++) {
                 if (s % 2 === 0) { // Outside $...$
-                    const fixed = segments[s].replace(
-                        /\\(frac|text|sqrt|sum|Delta|theta|alpha|beta|gamma|phi|overline|underline|vec|hat|bar|boxed|mathrm|mathbb|binom)(\{[^}]*\}|(?:\s|$))/g,
+                    // 1. Wrap LaTeX commands
+                    let fixed = segments[s].replace(
+                        /\\(frac|text|sqrt|sum|Delta|theta|alpha|beta|gamma|phi|overline|underline|vec|hat|bar|boxed|mathrm|mathbb|binom|rightarrow|leftarrow|rightleftharpoons)(\{[^}]*\}|(?:\s|$))/g,
+                        (m) => { modified = true; return '$' + m.trim() + '$'; }
+                    );
+                    // 2. Wrap Chemistry patterns (e.g. H2O, K_sp)
+                    fixed = fixed.replace(
+                        /\b(K_\{?sp\}?|H_\{?2\}?O|CO_\{?2\}?|NH_\{?3\}?|NH_\{?4\}?|Cl\^\{?-\}?|Na\^\{?\+\}?|H\^\{?\+\}?|OH\^\{?-\}?)\b/g,
                         (m) => { modified = true; return '$' + m.trim() + '$'; }
                     );
                     if (fixed !== segments[s]) segments[s] = fixed;
@@ -743,8 +811,27 @@ export function checkFormattingIntegrity(text: string): string {
     const blockMathCount = (repaired.match(/\$\$/g) || []).length;
     if (blockMathCount % 2 !== 0) repaired += '\n$$\n';
 
-    const inlineMathCount = (repaired.match(/(?<!\$)\$(?!\$)/g) || []).length;
-    if (inlineMathCount % 2 !== 0) repaired += '$';
+    // Better Inline Math Repair (Line-by-line balancing)
+    const lines = repaired.split('\n');
+    let totalInlineCount = 0;
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+        if (line.includes('$$')) continue;
+        const inlineCount = (line.match(/(?<!\$)\$(?!\$)/g) || []).length;
+        if (inlineCount % 2 !== 0) {
+            // If it ends with a dangling $, remove it
+            if (line.trim().endsWith('$')) {
+                lines[i] = line.substring(0, line.lastIndexOf('$')) + line.substring(line.lastIndexOf('$') + 1);
+            } else {
+                // Otherwise close it
+                lines[i] = line + '$';
+            }
+        }
+        totalInlineCount += (lines[i].match(/(?<!\$)\$(?!\$)/g) || []).length;
+    }
+    repaired = lines.join('\n');
+    
+    if (totalInlineCount % 2 !== 0) repaired += '$';
 
     // 2. Bold and Italics (** and *)
     const boldCount = (repaired.match(/\*\*/g) || []).length;

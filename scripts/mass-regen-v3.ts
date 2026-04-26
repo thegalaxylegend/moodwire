@@ -166,7 +166,7 @@ async function callGemini(prompt: string): Promise<string | null> {
     geminiIdx++;
     try {
       const genAI = new GoogleGenerativeAI(key);
-      const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash', generationConfig: { temperature: 0.5, maxOutputTokens: 8192 } });
+      const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash', generationConfig: { temperature: 0.5, maxOutputTokens: 8192 } });
       const result = await model.generateContent(`${SYSTEM_PROMPT}\n\n${prompt}`);
       const text = result.response.text();
       if (text && text.length > 500) return text;

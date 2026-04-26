@@ -26,10 +26,9 @@ const BLOG_DIR = path.join(__dirname, '../src/content/blogs');
 const REPORTS_DIR = path.join(__dirname, '../jules-reports');
 const TODAY = new Date().toISOString().split('T')[0];
 
-import Groq from 'groq-sdk';
-import 'dotenv/config';
-import { godSafeParse, godExtract, isRefusal } from './utils/god-json.ts';
-import { sanitizeAiText, checkLatexIntegrity, normalizeMarkdownMCQs } from './utils/jules-quality.ts';
+import { nodeRouter } from './utils/nodeRouter.ts';
+import { godSafeParse } from './utils/god-json.ts';
+import { checkLatexIntegrity, normalizeMarkdownMCQs } from './utils/jules-quality.ts';
 import { auditGrammar } from './utils/grammar-audit.ts';
 import { extractTextFromImage } from './utils/ocr-tool.ts';
 import { fetchWikiSummary, buildWikiCallout } from './utils/wikipedia-enricher.ts';
@@ -38,216 +37,24 @@ import { findAcademicPapers, buildCitationSection } from './utils/openalex-citat
 import { fetchExamNews, buildNewsBlock } from './utils/news-api.ts';
 import { fetchSearchIntelligence, buildPAAContext } from './utils/serper-api.ts';
 
-const GROQ_KEYS = [
-    process.env.VITE_GROQ_API_KEY || process.env.GROQ_API_KEY,
-    process.env.VITE_GROQ_API_KEY_2,
-    process.env.VITE_GROQ_API_KEY_3,
-    process.env.VITE_GROQ_API_KEY_4,
-    process.env.VITE_GROQ_API_KEY_5,
-    process.env.VITE_GROQ_API_KEY_6
-].filter(Boolean) as string[];
-
-const GEMINI_KEYS = [
-    process.env.VITE_GEMINI_API_KEY || process.env.GEMINI_BACKUP_KEY,
-    process.env.VITE_GEMINI_API_KEY_2,
-    process.env.VITE_GEMINI_API_KEY_3,
-    process.env.VITE_GEMINI_API_KEY_4,
-    process.env.VITE_GEMINI_API_KEY_5,
-    process.env.VITE_GEMINI_API_KEY_6
-].filter(Boolean) as string[];
-
-let currentGroqIndex = 0;
-let currentGeminiIndex = 0;
-let groq = new Groq({ apiKey: GROQ_KEYS[0] });
-
-const GROQ_COOLDOWNS = new Map<number, number>();
-const GEMINI_COOLDOWNS = new Map<number, number>();
-const GROQ_PERMANENT_DEAD = new Set<number>();
-const GEMINI_PERMANENT_DEAD = new Set<number>();
-
-function rotateGroqKey(isPermanent = false) {
-    if (isPermanent) GROQ_PERMANENT_DEAD.add(currentGroqIndex);
-    else GROQ_COOLDOWNS.set(currentGroqIndex, Date.now() + 2 * 60 * 1000); // 2 min timeout for errors
-
-    const now = Date.now();
-    const availableIndices = GROQ_KEYS.map((_, i) => i).filter(i => 
-        !GROQ_PERMANENT_DEAD.has(i) && 
-        (GROQ_COOLDOWNS.get(i) || 0) < now
-    );
-    
-    if (availableIndices.length > 0) {
-        currentGroqIndex = availableIndices[0];
-        groq = new Groq({ apiKey: GROQ_KEYS[currentGroqIndex] });
-        console.log(`🔄 Rotating to Groq Key #${currentGroqIndex + 1} (${isPermanent ? 'Permanent' : '2min Timeout'})...`);
-        return true;
-    } else {
-        console.warn("⚠️ ALL GROQ KEYS EXHAUSTED OR IN COOLDOWN.");
-        return false;
-    }
-}
-
-/**
- * Polling strategy to check for key recovery every 2 minutes.
- * Total wait: 10 minutes (5 attempts).
- */
-async function pollForAvailableKey(): Promise<boolean> {
-    for (let i = 1; i <= 5; i++) {
-        console.log(`📡 Polling for key recovery (Attempt ${i}/5)... Waiting 2 mins.`);
-        await sleep(120000); // 2 minutes
-        const now = Date.now();
-        const available = GROQ_KEYS.map((_, idx) => idx).filter(idx => 
-            !GROQ_PERMANENT_DEAD.has(idx) && (GROQ_COOLDOWNS.get(idx) || 0) < now
-        );
-        if (available.length > 0) {
-            currentGroqIndex = available[0];
-            groq = new Groq({ apiKey: GROQ_KEYS[currentGroqIndex] });
-            console.log(`✅ Key Recovered: Groq Key #${currentGroqIndex + 1} is back online.`);
-            return true;
-        }
-    }
-    return false;
-}
-
-function rotateGeminiKey(isPermanent = false, cooldownMs = 1 * 60 * 1000) {
-    if (isPermanent) GEMINI_PERMANENT_DEAD.add(currentGeminiIndex);
-    else GEMINI_COOLDOWNS.set(currentGeminiIndex, Date.now() + cooldownMs);
-
-    const now = Date.now();
-    const availableIndices = GEMINI_KEYS.map((_, i) => i).filter(i => 
-        !GEMINI_PERMANENT_DEAD.has(i) && 
-        (GEMINI_COOLDOWNS.get(i) || 0) < now
-    );
-    
-    if (availableIndices.length > 0) {
-        currentGeminiIndex = availableIndices[0];
-        console.log(`💎 Rotating to Gemini Key #${currentGeminiIndex + 1}...`);
-        return true;
-    } else {
-        console.warn("🚨 ALL GEMINI KEYS EXHAUSTED OR IN COOLDOWN.");
-        return false;
-    }
-}
-
-const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
-
-async function generateWithGemini(systemPrompt: string, userPrompt: string, isJson: boolean = false): Promise<string | null> {
-    const now = Date.now();
-    if ((GEMINI_COOLDOWNS.get(currentGeminiIndex) || 0) > now || GEMINI_PERMANENT_DEAD.has(currentGeminiIndex)) {
-        rotateGeminiKey();
-    }
-
-    const key = GEMINI_KEYS[currentGeminiIndex];
-    if (!key) return null;
-
+async function callLlm(system: string, user: string, attempt: number = 1): Promise<string | null> {
     try {
-        const generationConfig: any = { maxOutputTokens: 2500, temperature: 0.7 };
-        if (isJson) generationConfig.responseMimeType = "application/json";
-
-        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=${key}`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                contents: [{ role: "user", parts: [{ text: `${systemPrompt}\n\n${userPrompt}` }] }],
-                generationConfig
-            })
-        });
-
-        if (!response.ok) {
-            const errBody = await response.text();
-            let retryAfter = 60 * 1000;
-            let isDaily = false;
-
-            try {
-                const errData = JSON.parse(errBody);
-                const quotaFailure = errData.error?.details?.find((d: any) => d["@type"]?.includes("QuotaFailure"));
-                const retryInfo = errData.error?.details?.find((d: any) => d["@type"]?.includes("RetryInfo"));
-                
-                if (quotaFailure?.violations?.some((v: any) => v.quotaId?.includes("Day"))) isDaily = true;
-                if (retryInfo?.retryDelay) retryAfter = parseInt(retryInfo.retryDelay.replace('s', '')) * 1000 + 2000;
-            } catch { }
-
-            console.error(`❌ Gemini Error (${response.status}) for Key #${currentGeminiIndex + 1}. Cooldown: ${Math.round(retryAfter/1000)}s`);
-            rotateGeminiKey(isDaily, retryAfter);
-            return null;
-        }
-
-        const data: any = await response.json();
-        return data.candidates?.[0]?.content?.parts?.[0]?.text || null;
+        // Use T1 tier for high-quality repair content (automatically rotates keys and providers)
+        const result = await nodeRouter.route(
+            [{ role: 'system', content: system }, { role: 'user', content: user }],
+            'T1',
+            { jsonMode: true, temperature: 0.7 }
+        );
+        return result;
     } catch (err: any) {
-        console.error("❌ Gemini Network Error:", err.message);
+        console.error(`🚨 [SmartRepair] LLM Routing failed after all retries: ${err.message}`);
         return null;
     }
 }
 
-async function generateWithGeminiRetry(systemPrompt: string, userPrompt: string, isJson: boolean = false): Promise<string | null> {
-    const maxKeys = GEMINI_KEYS.length;
-    for (let i = 0; i < maxKeys; i++) {
-        const result = await generateWithGemini(systemPrompt, userPrompt, isJson);
-        if (result) return result;
-    }
-    const now = Date.now();
-    const cooldowns = GEMINI_KEYS.map((_, i) => ({ index: i, remaining: (GEMINI_COOLDOWNS.get(i) || 0) - now })).filter(c => !GEMINI_PERMANENT_DEAD.has(c.index));
-    if (cooldowns.length > 0) {
-        const shortest = cooldowns.sort((a, b) => a.remaining - b.remaining)[0];
-        if (shortest.remaining > 0) {
-            console.log(`⏳ ALL GEMINI KEYS BUSY. Waiting ${Math.round(shortest.remaining / 1000)}s for Key #${shortest.index + 1}...`);
-            await sleep(shortest.remaining);
-            currentGeminiIndex = shortest.index;
-            return await generateWithGemini(systemPrompt, userPrompt, isJson);
-        }
-    }
-    return null;
-}
+// generateWithGeminiRetry is now replaced by unified nodeRouter.route in callLlm
+const generateWithGeminiRetry = callLlm;
 
-async function callLlm(system: string, user: string, attempt: number = 1): Promise<string | null> {
-    try {
-        const completion = await groq.chat.completions.create({
-            messages: [{ role: "system", content: system }, { role: "user", content: user }],
-            model: "llama-3.3-70b-versatile",
-            response_format: { type: "json_object" }
-        });
-        return completion.choices[0]?.message?.content || "";
-    } catch (err: any) {
-        const errMsg = (err.message || "").toLowerCase();
-        
-        // 1. Permanent Failures (401)
-        if (errMsg.includes("401") || errMsg.includes("invalid_api_key")) {
-            console.error(`❌ Groq Key #${currentGroqIndex + 1} INVALID (401). Marking permanent...`);
-            rotateGroqKey(true);
-            await sleep(2000);
-            if (attempt <= GROQ_KEYS.length) {
-                return await callLlm(system, user, attempt + 1);
-            }
-        }
-
-        // 2. Temporary Failures (400, 429, 500, Timeout)
-        if (errMsg.includes("429") || errMsg.includes("rate_limit") || errMsg.includes("400") || errMsg.includes("500") || errMsg.includes("timeout") || errMsg.includes("overloaded")) {
-            console.warn(`⚠️ Groq Key #${currentGroqIndex + 1} Temporary Error (${errMsg.includes("429") ? "Rate Limit" : "Bad Request/Server"}).`);
-            
-            const rotated = rotateGroqKey(false);
-            if (!rotated && attempt <= GROQ_KEYS.length) {
-                // All keys are currently waiting - trigger Polling Mode
-                const recovered = await pollForAvailableKey();
-                if (recovered) return await callLlm(system, user, attempt);
-            } else if (rotated) {
-                await sleep(2000 * attempt); // Progressive safety delay
-                return await callLlm(system, user, attempt + 1);
-            }
-            
-            // 3. Fallback to Gemini
-            console.log(`🛡️ Transitioning to Gemini fallback tier for repair generation...`);
-            const geminiResult = await generateWithGeminiRetry(system, user);
-            if (geminiResult) {
-                console.log(`✅ Gemini repair content received.`);
-                return geminiResult;
-            }
-
-            return null;
-        }
-
-        throw err;
-    }
-}
 
 // Kill list from BLOG_RULES.md
 const KILL_LIST = [
@@ -461,61 +268,6 @@ async function repairBlog(filePath: string, isDryRun: boolean, canUseAi: boolean
         body = body.replace(/^[\s,\-*]*$/gm, ''); // Clean orphaned bullets
         body = body.replace(/\n{3,}/g, '\n\n');
         fixes.push(`Removed ${slrCount} "(suggestion limit reached)" truncation artifacts`);
-    }
-
-    // ========= FIX 17: Case-Mangled LaTeX Normalization =========
-    // Root Cause #2: LLM outputs \fRAC instead of \frac, \tEXT instead of \text, etc.
-    const KNOWN_COMMANDS: Record<string, string> = {
-        'frac': 'frac', 'text': 'text', 'times': 'times', 'sqrt': 'sqrt',
-        'sum': 'sum', 'int': 'int', 'prod': 'prod', 'alpha': 'alpha',
-        'beta': 'beta', 'gamma': 'gamma', 'delta': 'delta', 'theta': 'theta',
-        'pi': 'pi', 'sigma': 'sigma', 'omega': 'omega', 'lambda': 'lambda',
-        'infty': 'infty', 'partial': 'partial', 'nabla': 'nabla',
-        'cdot': 'cdot', 'ldots': 'ldots', 'leq': 'leq', 'geq': 'geq',
-        'neq': 'neq', 'approx': 'approx', 'equiv': 'equiv', 'pm': 'pm',
-        'left': 'left', 'right': 'right', 'overline': 'overline',
-        'sin': 'sin', 'cos': 'cos', 'tan': 'tan', 'log': 'log', 'ln': 'ln',
-        'lim': 'lim', 'boxed': 'boxed', 'mathrm': 'mathrm', 'binom': 'binom',
-    };
-    let caseFixCount = 0;
-    body = body.replace(/\\([a-zA-Z]+)/g, (match, cmd) => {
-        const lower = cmd.toLowerCase();
-        if (KNOWN_COMMANDS[lower] && cmd !== KNOWN_COMMANDS[lower]) {
-            caseFixCount++;
-            return '\\' + KNOWN_COMMANDS[lower];
-        }
-        return match;
-    });
-    if (caseFixCount > 0) {
-        fixes.push(`Case-normalized ${caseFixCount} LaTeX commands (e.g. \\fRAC → \\frac)`);
-    }
-
-    // ========= FIX 18: Naked LaTeX Wrapping =========
-    // Root Cause #3: LaTeX commands like \frac{a}{b} render as plaintext without $...$ delimiters.
-    let nakedWrapCount = 0;
-    const nakedLines = body.split('\n');
-    let inBlockMath = false;
-    for (let li = 0; li < nakedLines.length; li++) {
-        const line = nakedLines[li];
-        if (/^\s*\$\$/.test(line)) { inBlockMath = !inBlockMath; continue; }
-        if (inBlockMath || /^\s*\|/.test(line)) continue;
-        
-        const segs = line.split(/(\$[^$]*\$)/);
-        let segModified = false;
-        for (let si = 0; si < segs.length; si++) {
-            if (si % 2 === 0) {
-                const fixed = segs[si].replace(
-                    /\\(frac|text|sqrt|overline|underline|vec|hat|bar|boxed|mathrm|mathbb|binom)(\{[^}]*\}(?:\{[^}]*\})*)/g,
-                    (m) => { segModified = true; return '$' + m + '$'; }
-                );
-                if (fixed !== segs[si]) segs[si] = fixed;
-            }
-        }
-        if (segModified) { nakedLines[li] = segs.join(''); nakedWrapCount++; }
-    }
-    if (nakedWrapCount > 0) {
-        body = nakedLines.join('\n');
-        fixes.push(`Wrapped naked LaTeX in ${nakedWrapCount} lines with $ delimiters`);
     }
 
     // ========= FIX 19: Heading Hallucination Fix =========

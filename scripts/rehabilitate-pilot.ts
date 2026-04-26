@@ -10,39 +10,19 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const BLOG_DIR = path.join(__dirname, '../src/content/blogs');
 
-const GROQ_KEYS = [
-    process.env.VITE_GROQ_API_KEY,
-    process.env.VITE_GROQ_API_KEY_2,
-    process.env.VITE_GROQ_API_KEY_3
-].filter(Boolean) as string[];
-
-const GEMINI_KEYS = [
-    process.env.VITE_GEMINI_API_KEY,
-    process.env.VITE_GEMINI_API_KEY_2
-].filter(Boolean) as string[];
-
-const groq = new Groq({ apiKey: GROQ_KEYS[0] });
+import { nodeRouter } from './utils/nodeRouter.ts';
 
 async function callLlm(system: string, user: string): Promise<string | null> {
     try {
-        const completion = await groq.chat.completions.create({
-            messages: [{ role: "system", content: system }, { role: "user", content: user }],
-            model: "llama-3.3-70b-versatile",
-            response_format: { type: "json_object" }
-        });
-        return completion.choices[0]?.message?.content || "";
-    } catch (err) {
-        const key = GEMINI_KEYS[1] || GEMINI_KEYS[0];
-        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${key}`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                contents: [{ role: "user", parts: [{ text: `${system}\n\n${user}` }] }],
-                generationConfig: { responseMimeType: "application/json" }
-            })
-        });
-        const data: any = await response.json();
-        return data.candidates?.[0]?.content?.parts?.[0]?.text || null;
+        const result = await nodeRouter.route(
+            [{ role: "system", content: system }, { role: "user", content: user }],
+            'T1',
+            { jsonMode: true, temperature: 0.7 }
+        );
+        return result;
+    } catch (err: any) {
+        console.error(`🚨 [Rehabilitate] LLM Routing failed: ${err.message}`);
+        return null;
     }
 }
 

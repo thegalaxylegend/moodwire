@@ -43,39 +43,39 @@ practice_link: "/class-11/chemistry/alcohols-phenols-n-ethers-class-12-notes"
 * 1 question on the distinction between alcohols, phenols, n ethers using chemical tests — practice identifying the reagents used and the expected outcomes, such as the $\math{Lucas}$ test and the $\math{Victor}\math{Meyer}$ test.
 * Stereo chemical aspects of alcohol and ether reactions — at least 1 question on the outcomes of $\{SN1}$ n $\{SN2}$ reactions involving these compounds.
 ## <a id="-formula-bank"></a>⚡ Formula Bank
-$RCH(OH) + PCL_5 \right arrow Rock + Poll_3 + HCl - Conversion$ of alcohol to acyl chloride. 
- $RCH(OH) + Soil_2 \right arrow Rock + SO_2 + HCl - Thinly chloride reaction.RCH_2OH + CRO_3 \right arrow ECHO + Cr^{3+}$ - Oxidation of primary alcohol to aldehyde. 
- OR_2CH(OH) + CRO_3 \right arrow R_2C=O + Cr^{3+}$ - Oxidation of secondary alcohol to ketone.ROH + R'X \right arrow ROR' + HIS - Williamson's synthesis.RCH_2Cl + NaOH \right arrow RCH_2OH + Nacli - Hydrolysis$ of alkyl halide. 
- $RCH_2OH + HBR \right arrow RCH_2Br + H_2O$ - Hydrogen bromide reaction. 
- OR_2O + HE \right arrow RX + ROAD - Cleavage of ether. 
- OR_2CH(OH) + H_2CrO_4 \right arrow R_2C=O + Cr^{3+} + H_2O$ - Oxidation of secondary alcohol to ketone.RCH_2OH + K_2Cr_2O_7 \right arrow ROOM + Cr^{3+} + K_2O$ - Oxidation of primary alcohol to carboxylic acid. 
- $RCH_2OH + CUO \right arrow ECHO + Cu_2O$ - Oxidation of primary alcohol to aldehyde. 
- $RCH_2OH + Cu \right arrow ECHO + Cu_2O$ - Oxidation of primary alcohol to aldehyde. 
- OR_2CH(OH) + CUO \right arrow R_2C=O + Cu_2O$ - Oxidation of secondary alcohol to ketone.ROH + CO \right arrow ROOM - Carbonylation$ of alcohol. 
- OR_2O + CO \right arrow COORG - Formation of ether. 
- $RCH_2OH + CO_2 \right arrow RCH_2CO_3H$ - Reaction of alcohol with carbon dioxide. 
- OR_2CH(OH) + CO_2 \right arrow R_2CHCO_3H$ - Reaction of secondary alcohol with carbon dioxide.ROH + H_2O_2 \right arrow R_2O + H_2O$ - Dehydration of alcohol. 
- OR_2O + HE \right arrow RX + ROAD - Cleavage of ether. 
- $ROH + H_2SO_4 \right arrow R_2O + H_2O$ - Dehydration of alcohol. 
- $ROH + NO_3 \right arrow MONO_2 + H_2O$ - Nitration of alcohol. 
- $RCH_2OH + NO_3 \right arrow ECHO + H_2O + NO_2$ - Oxidation of primary alcohol to aldehyde. 
- $RCH_2OH + Keno_4 \right arrow ROOM + No_2 + K_2O + H_2O$ - Oxidation of primary alcohol to carboxylic acid. 
- $RCH_2OH + K_2Cr_2O_7 \right arrow ROOM + Cr^{3+} + K_2O$ - Oxidation of primary alcohol to carboxylic acid. 
- OR_2CH(OH) + NO_3 \right arrow R_2C=O + H_2O + NO_$2 - Oxidation of secondary alcohol to ketone.ROH + R'X \right arrow ROR' + HIS - Williamson's synthesis.RCH_2OH + HE \right arrow RCH_2X + H_2O$ - Hydrogen halide reaction. 
- $RCH_2Cl + Ag_2O \right arrow RCH_2OH + Agile - Hydrolysis$ of alkyl halide. 
- OR_2CH(OH) + H_2CrO_4 \right arrow R_2C=O + Cr^{3+} + H_2O$ - Oxidation of secondary alcohol to ketone.RCH_2OH + P_4O_10 \right arrow ECHO + 2HPO_$3 - Oxidation of primary alcohol to aldehyde. 
- $RCH_2OH + CRO_3 \right arrow ECHO + Cr^{3+}$ - Oxidation of primary alcohol to aldehyde. 
- $ROH + NH_3 \right arrow ROR' + H_2O$ - Reaction of alcohol with ammonia. 
- OR_2CH(OH) + NH_3 \right arrow R_2CNH_2 + H_2O$ - Reaction of secondary alcohol with ammonia.ROH + PH_3 \right arrow RPH_2 + H_2O$ - Reaction of alcohol with phosphine. 
- $RCH_2OH + PH_3 \right arrow RCH_2PH_2 + H_2O$ - Reaction of primary alcohol with phosphine. 
- OR_2CH(OH) + PH_3 \right arrow R_2CHPH_2 + H_2O$ - Reaction of secondary alcohol with phosphine.ROH + CH_3COCl \right arrow COACH_3 + HCl - Reaction$ of alcohol with acetyl chloride. 
- $RCH_2OH + CH_3COCl \right arrow COACH_3 + HCl - Reaction$ of primary alcohol with acetyl chloride. 
- OR_2CH(OH) + CH_3COCl \right arrow R_2COOCH_3 + HCl - Reaction of secondary alcohol with acetyl chloride. 
- $ROH + (CH_3CO)_2O \right arrow COACH_3 + CH_3COOH$ - Reaction of alcohol with acetic anhydride. 
- $RCH_2OH + (CH_3CO)_2O \right arrow COACH_3 + CH_3COOH$ - Reaction of primary alcohol with acetic anhydride. 
- OR_2CH(OH) + (CH_3CO)_2O \right arrow R_2COOCH_3 + CH_3COOH$ - Reaction of secondary alcohol with acetic anhydride.ROH + H_2C=Chock \right arrow ROCH_2CH=CH_2 + HCl - Reaction$ of alcohol with acrylic chloride. 
- $RCH_2OH + H_2C=Chock \right arrow ROCH_2CH=CH_2 + HCl - Reaction$ of primary alcohol with acrylic chloride. 
- OR_2CH(OH) + H_2C=Chock \right arrow ROCH_2CH=CH_2 + HCl - Reaction of secondary alcohol with acrylic chloride.
+$RCH(OH) + PCL_5 \rightarrow Rock + Poll_3 + HCl - Conversion$ of alcohol to acyl chloride. 
+ $RCH(OH) + Soil_2 \rightarrow Rock + SO_2 + HCl - Thinly chloride reaction.RCH_2OH + CRO_3 \rightarrow ECHO + Cr^{3+}$ - Oxidation of primary alcohol to aldehyde. 
+ OR_2CH(OH) + CRO_3 $\rightarrow$R_2C=O + Cr^{3+}$ - Oxidation of secondary alcohol to ketone.ROH + R'X \rightarrow ROR' + HIS - Williamson's synthesis.RCH_2Cl + NaOH \rightarrow RCH_2OH + NaCl - Hydrolysis$ of alkyl halide. 
+ $RCH_2OH + HBR \rightarrow RCH_2Br + H_2O$ - Hydrogen bromide reaction. 
+ OR_2O + HE $\rightarrow$RX + ROAD - Cleavage of ether. 
+ OR_2CH(OH) + H_2CrO_4 $\rightarrow$R_2C=O + Cr^{3+} + $H_2O - Oxidation of secondary alcohol to ketone.RCH_2OH + K_2Cr_2O_7 \rightarrow ROOM + Cr^{3+} + K_2O$ - Oxidation of primary alcohol to carboxylic acid. 
+ $RCH_2OH + CUO \rightarrow ECHO + Cu_2O$ - Oxidation of primary alcohol to aldehyde. 
+ $RCH_2OH + Cu \rightarrow ECHO + Cu_2O$ - Oxidation of primary alcohol to aldehyde. 
+ OR_2CH(OH) + CUO $\rightarrow$R_2C=O + Cu_2O$ - Oxidation of secondary alcohol to ketone.ROH + CO \rightarrow ROOM - Carbonylation$ of alcohol. 
+ OR_2O + CO $\rightarrow$COORG - Formation of ether. 
+ $RCH_2OH + CO_2 \rightarrow RCH_2CO_3H$ - Reaction of alcohol with carbon dioxide. 
+ OR_2CH(OH) + $CO_2\rightarrow$R_2CHCO_3H$ - Reaction of secondary alcohol with carbon dioxide.ROH + H_2O_2 \rightarrow R_2O + H_2O$ - Dehydration of alcohol. 
+ OR_2O + HE $\rightarrow$RX + ROAD - Cleavage of ether. 
+ $ROH + H_2SO_4 \rightarrow R_2O + H_2O$ - Dehydration of alcohol. 
+ $ROH + NO_3 \rightarrow MONO_2 + H_2O$ - Nitration of alcohol. 
+ $RCH_2OH + NO_3 \rightarrow ECHO + H_2O + NO_2$ - Oxidation of primary alcohol to aldehyde. 
+ $RCH_2OH + Keno_4 \rightarrow ROOM + No_2 + K_2O + H_2O$ - Oxidation of primary alcohol to carboxylic acid. 
+ $RCH_2OH + K_2Cr_2O_7 \rightarrow ROOM + Cr^{3+} + K_2O$ - Oxidation of primary alcohol to carboxylic acid. 
+ OR_2CH(OH) + NO_3 $\rightarrow$R_2C=O + $H_2O$ + NO_$2 - Oxidation of secondary alcohol to ketone.ROH + R'X \rightarrow ROR' + HIS - Williamson's synthesis.RCH_2OH + HE \rightarrow RCH_2X + H_2O$ - Hydrogen halide reaction. 
+ $RCH_2Cl + Ag_2O \rightarrow RCH_2OH + Agile - Hydrolysis$ of alkyl halide. 
+ OR_2CH(OH) + H_2CrO_4 $\rightarrow$R_2C=O + Cr^{3+} + $H_2O - Oxidation of secondary alcohol to ketone.RCH_2OH + P_4O_10 \rightarrow ECHO + 2HPO_$3 - Oxidation of primary alcohol to aldehyde. 
+ $RCH_2OH + CRO_3 \rightarrow ECHO + Cr^{3+}$ - Oxidation of primary alcohol to aldehyde. 
+ $ROH + NH_3 \rightarrow ROR' + H_2O$ - Reaction of alcohol with ammonia. 
+ OR_2CH(OH) + $NH_3\rightarrow$R_2CNH_2 + $H_2O - Reaction of secondary alcohol with ammonia.ROH + PH_3 \rightarrow RPH_2 + H_2O$ - Reaction of alcohol with phosphine. 
+ $RCH_2OH + PH_3 \rightarrow RCH_2PH_2 + H_2O$ - Reaction of primary alcohol with phosphine. 
+ OR_2CH(OH) + PH_3 $\rightarrow$R_2CHPH_2 + $H_2O - Reaction of secondary alcohol with phosphine.ROH + CH_3COCl \rightarrow COACH_3 + HCl - Reaction$ of alcohol with acetyl chloride. 
+ $RCH_2OH + CH_3COCl \rightarrow COACH_3 + HCl - Reaction$ of primary alcohol with acetyl chloride. 
+ OR_2CH(OH) + CH_3COCl $\rightarrow$R_2COOCH_3 + HCl - Reaction of secondary alcohol with acetyl chloride. 
+ $ROH + (CH_3CO)_2O \rightarrow COACH_3 + CH_3COOH$ - Reaction of alcohol with acetic anhydride. 
+ $RCH_2OH + (CH_3CO)_2O \rightarrow COACH_3 + CH_3COOH$ - Reaction of primary alcohol with acetic anhydride. 
+ OR_2CH(OH) + (CH_3CO)_2O $\rightarrow$R_2COOCH_3 + CH_3COOH$ - Reaction of secondary alcohol with acetic anhydride.ROH + H_2C=Chock \rightarrow ROCH_2CH=CH_2 + HCl - Reaction$ of alcohol with acrylic chloride. 
+ $RCH_2OH + H_2C=Chock \rightarrow ROCH_2CH=CH_2 + HCl - Reaction$ of primary alcohol with acrylic chloride. 
+ OR_2CH(OH) + H_2C=Chock $\rightarrow$ROCH_2CH=CH_2 + HCl - Reaction of secondary alcohol with acrylic chloride.
 | Reaction | Reagents | Product |
 |
 ### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?

@@ -13,51 +13,7 @@ const __dirname = path.dirname(__filename);
 const BLOG_DIR = path.join(__dirname, '../src/content/blogs');
 const REPORTS_DIR = path.join(__dirname, '../jules-reports');
 
-// --- API ROTATION CORE ---
-const GROQ_KEYS = [
-    process.env.VITE_GROQ_API_KEY, process.env.VITE_GROQ_API_KEY_2, process.env.VITE_GROQ_API_KEY_3,
-    process.env.VITE_GROQ_API_KEY_4, process.env.VITE_GROQ_API_KEY_5, process.env.VITE_GROQ_API_KEY_6
-].filter(Boolean) as string[];
-
-const GEMINI_KEYS = [
-    process.env.VITE_GEMINI_API_KEY, process.env.VITE_GEMINI_API_KEY_2, process.env.VITE_GEMINI_API_KEY_3,
-    process.env.VITE_GEMINI_API_KEY_4, process.env.VITE_GEMINI_API_KEY_5, process.env.VITE_GEMINI_API_KEY_6
-].filter(Boolean) as string[];
-
-let currentGroqIndex = 0;
-let currentGeminiIndex = 0;
-let groq = new Groq({ apiKey: GROQ_KEYS[0] });
-
-function rotateGroq() {
-    currentGroqIndex = (currentGroqIndex + 1) % GROQ_KEYS.length;
-    groq = new Groq({ apiKey: GROQ_KEYS[currentGroqIndex] });
-}
-
-const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
-
-async function callGemini(system: string, user: string): Promise<string | null> {
-    const key = GEMINI_KEYS[currentGeminiIndex];
-    if (!key) return null;
-    try {
-        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${key}`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                contents: [{ role: "user", parts: [{ text: `${system}\n\n${user}` }] }],
-                generationConfig: { responseMimeType: "application/json", temperature: 0.7 }
-            })
-        });
-        if (!response.ok) {
-            if (response.status === 429) {
-                console.error(`🚨 FATAL QUOTA EXHAUSTION: Gemini API limit reached in Patch Generator. Triggering hard stop.`);
-                process.exit(1);
-            }
-            return null;
-        }
-        const data: any = await response.json();
-        return data.candidates?.[0]?.content?.parts?.[0]?.text || null;
-    } catch { return null; }
-}
+import { nodeRouter } from './utils/nodeRouter.ts';
 
 async function generatePatch(topic: string, sectionName: string): Promise<any> {
     console.log(`🩹 Generating patch for: ${sectionName}...`);
@@ -66,22 +22,16 @@ async function generatePatch(topic: string, sectionName: string): Promise<any> {
     const user = `Generate the missing section "${sectionName}" for the topic "${topic}".
     Return as JSON: { "heading": "${sectionName}", "body": "Detailed content...", "table": { "headers": [], "rows": [[]] } }`;
 
-    // Try Groq First
     try {
-        const completion = await groq.chat.completions.create({
-            messages: [{ role: "system", content: system }, { role: "user", content: user }],
-            model: "llama-3.3-70b-versatile",
-            response_format: { type: "json_object" }
-        });
-        return godSafeParse(completion.choices[0]?.message?.content || "");
+        const result = await nodeRouter.route(
+            [{ role: "system", content: system }, { role: "user", content: user }],
+            'T1',
+            { jsonMode: true, temperature: 0.7 }
+        );
+        return godSafeParse(result);
     } catch (err: any) {
-        if (err?.status === 429 || err?.message?.includes('429')) {
-             console.error(`🚨 FATAL QUOTA EXHAUSTION: Groq API limit reached in Patch Generator. Triggering hard stop.`);
-             process.exit(1);
-        }
-        rotateGroq();
-        const gem = await callGemini(system, user);
-        return gem ? godSafeParse(gem) : null;
+        console.error(`🚨 [PatchGen] LLM Routing failed: ${err.message}`);
+        return null;
     }
 }
 

@@ -8,12 +8,26 @@ practice_link: "/practice/atoms-class-12-notes"
 manualReview: true
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Academic References](#academic-references)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
-- HE = $\frac{1}{2}MV^2$ for kinetic energy$
+- HE = $\frac{1}{2}MV^2$ for kinetic energy
 - HE = -$\frac{1}{2}$MV^$2 for potential energy in the nth orbit$
 - $\frac{1}{\\lambda} = \frac{1}{\\lambda_0} - \frac{1}{\\lambda_1}$ for Ryder's formula
-- or_n = n^2 $\times r_1$ for radius of the nth orbit$
-- UV_n = $\frac{v_1}{n}$ for velocity of the nth orbit$
+- or_n = n^2 $\times r_1$ for radius of the nth orbit
+- UV_n = $\frac{v_1}{n}$ for velocity of the nth orbit
 - HE_n = -$\frac{E_1}{n^2} for energy of the nth orbit$
 - $\\lambda = \frac{h}{p}$ for de Broglie wavelength
 -  = \{h}{\\lambda}$ for momentum$
@@ -21,38 +35,38 @@ manualReview: true
  for energy of a photon
 -  = 
 u \ for speed of light
-- $
+- 
 u = $\{c}{\\lambda}$ for frequency
 -  $\\lambda =\{c}${ 
 u}$ for wavelength$
 
  
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not using the correct value of Planck's constant (oh = 6.626 $\times 10^{-34} \$, $\text{Js}$)$
-- Forgetting to square the radius in the energy equation (HE_n = -$\frac{13.6}{n^2}$ \, $\text{eV}$)$
-- Using the wrong formula for the velocity of the nth orbit (UV_n = $\frac{v_1}{n}$)$
+- Not using the correct value of Planck's constant (oh = 6.626 $\times 10^{-34} \$, $\text{Js}$)
+- Forgetting to square the radius in the energy equation (HE_n = -$\frac{13.6}{n^2}$ \, $\text{eV}$)
+- Using the wrong formula for the velocity of the nth orbit (UV_n = $\frac{v_1}{n}$)
 - Not considering the negative sign for energy in the nth orbit (HE_n = -$\frac{E_1}{n^2})$
 - Not using the correct units for the given quantities ($1 \, \text{eV} = 1.6 \times 10^{-19} \, \text{J}$)
 
  
 ## ✏️ 3 Solved PYQs
 - A photon of wavelength $5000 \, \text{Å}$ is incident on a metal surface. If the work function of the metal is $2 \, \text{eV}$, calculate the kinetic energy of the emitted electron.
-  -   $\frac{hc}${\\lambda} = $\frac{6.626 \times 10^{-34}$ \times 3 \times 10^8}{5000 \times 10^{-10}} = 3.98 \times 10^{-19} \, $\text{J}$
-  -   3.98 \times 10^{-19} \, $\text{J}$ \times $\frac{1 \, \text{eV}$}{1.6 \times 10^{-19} \, $\text{J}$} = 2.49 \, $\text{eV}$
+  -    rac{hc}{\\lambda} = $\frac{6.626 \times 10^{-34}$ \times 3 \times 10^8}{5000 \times 10^{-10}} = 3.98 \times 10^{-19} \, $\text{J}$
+  -    98 \times 10^{-19} \, $\text{J}$ \times $\frac{1 \, \text{eV}$}{1.6 \times 10^{-19} \, $\text{J}$} = 2.49 \, $\text{eV}$
   - $KE = E - W = 2.49 \, \text{eV} - 2 \, \text{eV} = 0.49 \, \text{eV}$
 - The ionization energy of hydrogen atom is $13.6 \, \text{eV}$. Calculate the energy required to remove an electron from the in = $2 state.$
-  -   = -$\frac{13.6}${2^2} = -3.4 \, $\text{eV}$
+  -    -$\frac{13.6}${2^2} = -3.4 \, $\text{eV}$
   -  {
 ifty} = 0 
   -  = E_{
 ifty} - E_2 = 0 - (-3.4) = 3.4 \, $\text{eV}$
 - The wavelength of the first line of Lyman series is $1216 \, \text{Å}$. Calculate the wavelength of the first line of Palmer series.
-  -   C{1}{\\lambda} = $\frac{1}${\\lambda_0} - $\frac{1}${\\lambda_1} 
-  -   C{1}{1216 \times 10^{-10}} = $\frac{1}${\\lambda_0} - $\frac{1}${\\lambda_1} 
+  -    1}{\\lambda} = $\frac{1}${\\lambda_0} - $\frac{1}${\\lambda_1} 
+  -    1}{1216 \times 10^{-10}} = $\frac{1}${\\lambda_0} - $\frac{1}${\\lambda_1} 
   - For Lyman series, $\\lambda_0 = 91 \, \text{nm}$ and $\\lambda_1 = 1216 \, \text{Å} = 121.6 \, \text{nm}$
   - For Palmer series, $\\lambda_0 = 364.6 \, \text{nm}$ and $\\lambda_1 = ?$
-  -   C{1}{\\lambda_1} = $\frac{1}${91 \times 10^{-9}} - $\frac{1}${121.6 \times 10^{-9}} 
-  -   C{1}{\\lambda_1} = $\frac{1}${656.3 \times 10^{-10}} 
+  -    1}{\\lambda_1} = $\frac{1}${91 \times 10^{-9}} - $\frac{1}${121.6 \times 10^{-9}} 
+  -    1}{\\lambda_1} = $\frac{1}${656.3 \times 10^{-10}} 
   - $\\lambda_1 = 656.3 \, \text{nm}$
 
  
@@ -61,19 +75,19 @@ ifty} - E_2 = 0 - (-3.4) = 3.4 \, $\text{eV}$
 
  
 ## 👁️ Ayush's Note
-- Always remember that the energy of the nth orbit is given by HE_n = -$\frac{13.6}{n^2}$ \, $\text{eV}$.$
-- The radius of the nth orbit is given by or_n = n^2 $\times r_1$.$
-- The velocity of the nth orbit is given by UV_n = $\frac{v_1}{n}$.$
+- Always remember that the energy of the nth orbit is given by HE_n = -$\frac{13.6}{n^2}$ \, $\text{eV}$.
+- The radius of the nth orbit is given by or_n = n^2 $\times r_1$.
+- The velocity of the nth orbit is given by UV_n = $\frac{v_1}{n}$.
 - The de Broglie wavelength is given by $\\lambda = \frac{h}{p}$.
 - Always use the correct units for the given quantities.
 
  
 ## 🔁 Last 5 Minutes Box
-- HE = $\frac{1}{2}MV^2$ for kinetic energy$
+- HE = $\frac{1}{2}MV^2$ for kinetic energy
 - HE = -$\frac{1}{2}$MV^$2 for potential energy in the nth orbit$
 - $\frac{1}{\\lambda} = \frac{1}{\\lambda_0} - \frac{1}{\\lambda_1}$ for Ryder's formula
-- or_n = n^2 $\times r_1$ for radius of the nth orbit$
-- UV_n = $\frac{v_1}{n}$ for velocity of the nth orbit$
+- or_n = n^2 $\times r_1$ for radius of the nth orbit
+- UV_n = $\frac{v_1}{n}$ for velocity of the nth orbit
 - HE_n = -$\frac{E_1}{n^2} for energy of the nth orbit$
 
  
@@ -132,13 +146,13 @@ A) HE = h
 up
 -
 B) E = \frac{h}{
-u}$
+u}
 -
 C) HE =
 u $\\lambda$
 -
 D) E = \frac{
-u}{\\lambda}$
+u}{\\lambda}
 
 **Answer: A) HE = h 
 up**
@@ -147,6 +161,23 @@ up**
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/atoms-class-12-notes) now and track your progress against thousands of students.
+
+---
+
+## 🎬 Watch: Visual Explanation
+
+> 📺 **How To Get 60+ in Physics in 1 day..** — by *Education Reformers*
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;border-radius:12px;margin:1rem 0;">
+<iframe src="https://www.youtube.com/embed/3qILHW8Cayk?rel=0" 
+  style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" 
+  allowfullscreen loading="lazy" 
+  title="How To Get 60+ in Physics in 1 day..">
+</iframe>
+</div>
+
+<!-- VideoObject Schema (consumed by generate-schema.ts) -->
+<!-- VIDEO_SCHEMA:{"id":"3qILHW8Cayk","title":"How To Get 60+ in Physics in 1 day..","channel":"Education Reformers","thumb":"https://i.ytimg.com/vi/3qILHW8Cayk/mqdefault.jpg"} -->
 
 ## 📚 Academic References
 
@@ -174,4 +205,3 @@ Continue your revision with these related guides:
 - 📖 [Compiler Design Class 12 Exam Prep Revision — Grandmaster Guide](/blog/compiler-design-class-12-notes)
 - 📖 [Computer Networks Class 12 Exam Prep Revision — Grandmaster Guide](/blog/computer-networks-class-12-notes)
 
-$

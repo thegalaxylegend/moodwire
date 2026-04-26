@@ -1300,7 +1300,7 @@ async function generateBlogs() {
             status: finalStatus,
             quality_score: finalScore,
             retries: attempts - 1,
-            error: finalPost ? null : (lastError || qualityReport?.critical_failures[0] || "Unknown Failure")
+            error: finalPost ? null : (lastError || qualityReport?.critical_failures.join(' | ') || `Quality Score ${qualityReport?.score ?? '?'}/100 — warnings: ${qualityReport?.warnings.slice(0, 3).join('; ') || 'none'}` || "Undiagnosed Failure")
         });
 
         if (finalPost && !isDryRun) {

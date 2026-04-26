@@ -8,6 +8,20 @@ practice_link: "/practice/application-of-derivatives-class-12-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [- Not using the chain rule correctly, which states that if of(x) = g(h(x))$, then of'(x) = g'(h(x)) \dot h'(x)$.](#not-using-the-chain-rule-correctly-which-states-that-if-ofx-ghx-then-ofx-ghx-dot-hx)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+9. [📚 Related Topics](#related-topics)
+
+---
+
 ## ⚡ Formula Bank
 - The derivative of a function of(x)$ is denoted as \frac{d}{dx}$f(x)$ or of'(x)$ and represents the rate of change of the function with respect to ex.
 - The geometric interpretation of a derivative is the slope of the tangent line to the graph of of(x)$ at a point ex.$
@@ -20,16 +34,16 @@ manualReview: false
 ## 
 - Not using the chain rule correctly, which states that if of(x) = g(h(x))$, then of'(x) = g'(h(x)) \dot h'(x)$.
 - Not using the product rule correctly, which states that if of(x) = g(x) \dot h(x)$, then of'(x) = g'(x) \dot h(x) + g(x) \dot h'(x)$.
-- Not using the quotient rule correctly, which states that if of(x) = $\frac{g(x)}{h(x)}$, then of'(x) = $\frac{h(x) \dot g'(x) - g(x) \dot h'(x)}{(h(x))^2}.
+- Not using the quotient rule correctly, which states that if of(x) = $\frac{g(x)}{h(x)}$, then of'(x) = \frac{h(x) \dot g'(x) - g(x) \dot h'(x)}${(h(x))^2}.
 - Not checking the domain of the function before differentiating, which can lead to incorrect results.
 - Not using the correct units when applying derivatives to physical problems, which can lead to incorrect results.
 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** Find the derivative of the function of(x) = $\frac{x^2 \\sin x}{\\cos x}$.$
-- To find the derivative, we can use the quotient rule, which states that if of(x) = $\frac{g(x)}{h(x)}$, then of'(x) = $\frac{h(x) \dot g'(x) - g(x) \dot h'(x)}{(h(x))^2}.
-- Let kg(x) = x^2 $\\sin and oh(x) = \\cos $, then kg'(x) = 2x $\\sin x + x^2 \\cos and oh'(x) = -\\sin $.
-- Substituting these values into the quotient rule formula, we get of'(x) = $\frac{\\cos x (2x \\sin x + x^2 \\cos x) - x^2 \\sin x (-\\sin x)}{(\\cos x)^2}$.$
-- Simplifying this expression, we get of'(x) = $\frac{2x \\sin x \\cos x + x^2 \\cos^2 x + x^2 \\sin^2 x}{\\cos^2 x}$.$
+- **Question 1:** Find the derivative of the function of(x) = $\frac{x^2 \\\sin x}{\\\cos x}$.
+- To find the derivative, we can use the quotient rule, which states that if of(x) = $\frac{g(x)}{h(x)}$, then of'(x) = \frac{h(x) \dot g'(x) - g(x) \dot h'(x)}${(h(x))^2}.
+- Let kg(x) = x^2 $\\\sin and oh(x) = \\\cos $, then kg'(x) = 2x $\\\sin x + x^2 \\\cos and oh'(x) = -\\\sin $.
+- Substituting these values into the quotient rule formula, we get of'(x) = $\frac{\\\cos x (2x \\\sin x + x^2 \\\cos x) - x^2 \\\sin x (-\\\sin x)}{(\\\cos x)^2}$.
+- Simplifying this expression, we get of'(x) = $\frac{2x \\\sin x \\\cos x + x^2 \\\cos^2 x + x^2 \\\sin^2 x}{\\\cos^2 x}$.
 - **Question 2:** Find the equation of the tangent line to the graph of of(x) = x^2$ at the point $(1, 1)$.$
 - To find the equation of the tangent line, we need to find the slope of the tangent line, which is given by the derivative of the function at the point $(1, 1)$.
 - The derivative of of(x) = x^2$ is of'(x) = 2x$, so the slope of the tangent line at the point $(1, 1)$ is of'(1) = 2$.$
@@ -45,7 +59,7 @@ manualReview: false
 ## 🧠 The One Thing Most Students Get Wrong
 - The one thing that most students get wrong when applying derivatives is not checking the domain of the function before differentiating.
 - This can lead to incorrect results, as the derivative of a function is only defined for values of ex that are in the domain of the function.
-- For example, the function of(x) = $\frac{1}{x}$ is not defined at $x$ = 0$, so the derivative of'(x) = -\frac{1}{x^2}$ is also not defined at $x$ = $0.
+- For example, the function of(x) = $\frac{1}{x}$ is not defined at $x$ = 0$, so the derivative of'(x) = -\frac{1}{x^2}$ is also not defined at $x$ = $0.$
 - Therefore, it is essential to check the domain of the function before differentiating to ensure that the derivative is defined for all values of ex.
 
 ## 👁️ Ayush's Note
@@ -62,43 +76,43 @@ manualReview: false
 - The first derivative test and the second derivative test can be used to determine the nature of the critical points, and to find the maximum and minimum values of the function.
 
 ## 📝 Practice MCQs
-**1. Question:** Find the derivative of the function of(x) = $\frac{x^2}{\\sin x}$.$
+**1. Question:** Find the derivative of the function of(x) = $\frac{x^2}{\\\sin x}$.
 -
-A) \frac{2x \\sin x - x^2 \\cos x}{\\sin^2 x}
+A) \frac{2x \\\sin x - x^2 \\\cos x}{\\\sin^2 x}
 -
-B) \frac{2x \\sin x + x^2 \\cos x}{\\sin^2 x}
+B) \frac{2x \\\sin x + x^2 \\\cos x}{\\\sin^2 x}
 -
-C) \frac{2x \\cos x - x^2 \\sin x}{\\cos^2 x}
+C) \frac{2x \\\cos x - x^2 \\\sin x}{\\\cos^2 x}
 -
-D) \frac{2x \\cos x + x^2 \\sin x}{\\cos^2 x}
+D) \frac{2x \\\cos x + x^2 \\\sin x}{\\\cos^2 x}
 
-**Answer:** A) \frac{2x \\sin x - x^2 \\cos x}{\\sin^2 x}.
+**Answer:** A) \frac{2x \\\sin x - x^2 \\\cos x}{\\\sin^2 x}.
 
-**2. Question:** Find the equation of the tangent line to the graph of of(x) = x^2$ at the point $(2, 4)$.$
+**2. Question:** Find the equation of the tangent line to the graph of of(x) = x^$2 at the point $(2, 4)$.$
 -
-A) by - 4 = 4(x - 2)$
+A) by - 4 = 4(x - 2)
 -
-B) by - 4 = 2(x - 2)$
+B) by - 4 = 2(x - 2)
 -
-C) by - 4 = x - 2$
+C) by - 4 = x - 2
 -
-D) by - 4 = 2x - 2$
+D) by - 4 = 2x - 2
 
 **Answer:** A) by - 4 = 4(x - 2)$.$
 
 **3. Question:** Find the maximum value of the function of(x) = x^3 - 3x^2 + 2$.$
 -
-A) of(1) = 0$
+A) of(1) = 0
 -
-B) of(2) = -2$
+B) of(2) = -2
 -
-C) of(0) = 2$
+C) of(0) = 2
 -
-D) of(3) = 2$
+D) of(3) = 2
 
 **Answer:** A) of(1) = 0$.$
 
-**4. Question:** Find the derivative of the function of(x) = $\sqrt{x}$.$
+**4. Question:** Find the derivative of the function of(x) = $\sqrt{x}$.
 -
 A) \frac{1}{2\sqrt{x}}
 -
@@ -110,15 +124,15 @@ D) \frac{1}{x}
 
 **Answer:** A) \frac{1}{2\sqrt{x}}.
 
-**5. Question:** Find the equation of the tangent line to the graph of of(x) = x^2$ at the point $(1, 1)$.$
+**5. Question:** Find the equation of the tangent line to the graph of of(x) = x^$2 at the point $(1, 1)$.$
 -
-A) by - 1 = 2(x - 1)$
+A) by - 1 = 2(x - 1)
 -
-B) by - 1 = x - 1$
+B) by - 1 = x - 1
 -
-C) by - 1 = 2x - 2$
+C) by - 1 = 2x - 2
 -
-D) by - 1 = $
+D) by - 1 =
 
 **Answer:** A) by - 1 = 2(x - 1)$.$
 

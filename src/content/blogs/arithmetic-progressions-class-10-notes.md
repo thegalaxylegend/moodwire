@@ -8,22 +8,52 @@ practice_link: "/practice/arithmetic-progressions-class-10-notes"
 manualReview: false
 ---
 
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Related Topics](#related-topics)
+
+---
+
+## 🎬 Watch: Visual Explanation
+
+> 📺 **How to Study Maths ? Ramanujan Technique by Vineet Khatri Sir** — by *Vineet Khatri*
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;border-radius:12px;margin:1rem 0;">
+<iframe src="https://www.youtube.com/embed/BAns0ZVqNuY?rel=0" 
+  style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" 
+  allowfullscreen loading="lazy" 
+  title="How to Study Maths ? Ramanujan Technique by Vineet Khatri Sir">
+</iframe>
+</div>
+
+<!-- VideoObject Schema (consumed by generate-schema.ts) -->
+<!-- VIDEO_SCHEMA:{"id":"BAns0ZVqNuY","title":"How to Study Maths ? Ramanujan Technique by Vineet Khatri Sir","channel":"Vineet Khatri","thumb":"https://i.ytimg.com/vi/BAns0ZVqNuY/mqdefault.jpg"} -->
+
+---
+
 ## ⚡ Formula Bank
 - The formula for the nth term of an Arithmetic Progression (AP) is given by: a_n = a + (n-1)do, where an is the first term, and is the term number, and do is the common difference.
 - The formula for the sum of the first and terms of an AP is given by: IS_n = $\frac{n}{2} [2a + (n-1)d]$.
-- The formula for the sum of an AP with first term a common difference do, and last term all is given by: IS_n = $\frac{n}{2} (a + l)$.$
-- To find the number of terms in an AP, we can use the formula: in = $\frac{l - a}{d} + 1$, where all is the last term, an is the first term, and do is the common difference.$
+- The formula for the sum of an AP with first term a common difference do, and last term all is given by: IS_n = $\frac{n}{2} (a + l)$.
+- To find the number of terms in an AP, we can use the formula: in = $\frac{l - a}{d} + 1$, where all is the last term, an is the first term, and do is the common difference.
 - The formula for the nth term of an AP from the end is given by: a_n = l - (n-1)do, where all is the last term, and is the term number from the end, and do is the common difference.
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not checking if the given sequence is an Arithmetic Progression (AP) before applying AP formulas.
 - Forgetting to subtract 1 from the term number when using the formula a_n = a + (n-1)do.
-- Not using the correct formula for the sum of an AP, i.e., IS_n = $\frac{n}{2} [2a + (n-1)d]$ or IS_n = $\frac{n}{2}$ (a + l)$.
-- Incorrectly calculating the number of terms in an AP using the formula in = $\frac{l - a}{d} + 1$.$
+- Not using the correct formula for the sum of an AP, i.e., IS_n = $\frac{n}{2} [2a + (n-1)d]$ or IS_n = $\frac{n}{2}$ (a + l)$.$
+- Incorrectly calculating the number of terms in an AP using the formula in = $\frac{l - a}{d} + 1$.
 - Not considering the case where the common difference do is negative when applying AP formulas.
 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** $Find the sum of the first 20 terms of the AP: 2, 7, 12, ...
+- **Question 1:** $Find the sum of the first 20 terms of the AP: 2, 7, 12, ...$
 - Step 1: Identify the first term a = 2 and the common difference CD = 7–2 = 5.
 - Step 2: Use the formula IS_n = $\frac{n}{2} [2a + (n-1)d] to find the sum.$
 - Step 3: Substitute the values of a do, and and into the formula: IS_{20} = $\frac{20}{2} [2(2) + (20-1)5].$
@@ -108,9 +138,10 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
 
-- 📖 [Areas Related To Circles Class 10 Exam Prep Revision$ — Grandmaster Guide](/blog/areas-related-to-circles-class-10-notes)
+- 📖 [Areas Related To Circles Class 10 Exam Prep Revision$ — Grandmaster Guide](/blog/areas-related-to-circles-class-10-notes)$
 - 📖 [Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/circles-class-10-notes)
 - 📖 [Pair Of Linear Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/pair-of-linear-equations-class-10-notes)
 - 📖 [Polynomials Class 10 Exam Prep Revision — Grandmaster Guide](/blog/polynomials-class-10-notes)
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Arithmetic%20Progressions%20Class%2010%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+

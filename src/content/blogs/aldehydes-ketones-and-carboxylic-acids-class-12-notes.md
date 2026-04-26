@@ -27,9 +27,9 @@ manualReview: false
 - Aldehydes and ketones are functional group isomers, with the general formula $\math{RCHO}$ for aldehydes and $\math{COR'}$ for ketones.
 - Carboxylic acids have the general formula $\math{RCOOH}$, with a carbonyl group $\math{C=O}$ and a hydroxyl group $\math{OH}$.
 - The acidity of carboxylic acids can be represented by the equation $\math{RCOOH} \rightleftharpoons \math{COO^-} + \math{H^+}$, with an acid dissociation constant K_a = $\frac{[\math{COO^-}][\math{H^+}]}{[\math{RCOOH}]}$.
-- Aldehydes and ketones can undergo nucleophilic addition reactions, with the general equation $\math{RCHO} + \math{Nu^-} \right arrow \math{RCHONu}$.
-- The Wolff-Kissner reduction of aldehydes and ketones can be represented by the equation $\math{RCHO} + \math{NH_2NH_2} \right arrow \math{RCH_3} + \math{N_2}$.
-- The ALGOL condensation reaction can be represented by the equation $\math{RCHO} + \math{R'CHO} \right arrow \math{RCH=CHR'} + \math{H_2O}$.
+- Aldehydes and ketones can undergo nucleophilic addition reactions, with the general equation $\math{RCHO} + \math{Nu^-} \rightarrow \math{RCHONu}$.
+- The Wolff-Kissner reduction of aldehydes and ketones can be represented by the equation $\math{RCHO} + \math{NH_2NH_2} \rightarrow \math{RCH_3} + \math{N_2}$.
+- The ALGOL condensation reaction can be represented by the equation $\math{RCHO} + \math{R'CHO} \rightarrow \math{RCH=CHR'} + \math{H_2O}$.
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not recognizing the difference between aldehydes and ketones, and their respective reactions.

@@ -68,7 +68,11 @@ export const LandingPage = () => {
     const isServer = typeof window === 'undefined';
 
     useEffect(() => {
-        if (isAuthenticated && (!isLoading || !isServer)) {
+        // CRITICAL SEO FIX: Only redirect to dashboard when:
+        // 1. Not SSR (Googlebot/crawlers must see the landing page)
+        // 2. Auth is fully resolved (not still loading)
+        // 3. User is genuinely authenticated (not anonymous/guest)
+        if (!isServer && !isLoading && isAuthenticated) {
             navigate('/dashboard', { replace: true });
         }
     }, [isAuthenticated, isLoading, navigate, isServer]);
@@ -119,7 +123,10 @@ export const LandingPage = () => {
                             "description": "AI-powered exam preparation platform for JEE (Main & Advanced), NEET, and CBSE Classes 8-12.",
                             "potentialAction": {
                                 "@type": "SearchAction",
-                                "target": `${SITE_URL}/{search_term_string}`,
+                                "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": `${SITE_URL}/blog?q={search_term_string}`
+                                },
                                 "query-input": "required name=search_term_string"
                             }
                         },

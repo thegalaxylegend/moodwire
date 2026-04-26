@@ -9,6 +9,7 @@ interface MasteryDiagnosticsProps {
 
 export const MasteryDiagnostics: React.FC<MasteryDiagnosticsProps> = ({ stats }) => {
     const navigate = useNavigate();
+
     // Aggregate global error analysis
     const aggregate = stats.reduce((acc, curr) => {
         if (curr.error_analysis) {
@@ -21,7 +22,31 @@ export const MasteryDiagnostics: React.FC<MasteryDiagnosticsProps> = ({ stats })
         return acc;
     }, { conceptual: 0, silly: 0, time: 0, misread: 0, total: 0 });
 
-    if (aggregate.total === 0) return null;
+    if (aggregate.total === 0) {
+        return (
+            <div className="space-y-6 opacity-60">
+                <div className="flex items-center gap-2 mb-4">
+                    <Brain className="text-primary" size={20} />
+                    <h4 className="text-sm font-bold text-text-main uppercase tracking-widest">Mastery Diagnostics</h4>
+                </div>
+                <div className="bg-surface/30 rounded-2xl p-8 border border-dashed border-border flex flex-col items-center justify-center text-center space-y-4">
+                    <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+                        <AlertCircle className="text-primary/40" size={24} />
+                    </div>
+                    <div>
+                        <p className="text-sm font-bold text-text-main">Calibration Required</p>
+                        <p className="text-xs text-text-muted mt-1 max-w-[200px]">Take a diagnostic test to unlock root-cause error analysis.</p>
+                    </div>
+                    <button
+                        onClick={() => navigate('/dashboard/mock?mode=diagnostic')}
+                        className="px-4 py-2 rounded-lg bg-primary/20 text-primary text-xs font-bold hover:bg-primary/30 transition-all"
+                    >
+                        Start Calibration
+                    </button>
+                </div>
+            </div>
+        );
+    }
 
     const data = [
         { label: 'Conceptual', value: aggregate.conceptual, color: 'bg-red-500', icon: Brain, description: 'Knowledge gaps in fundamentals' },
@@ -67,11 +92,12 @@ export const MasteryDiagnostics: React.FC<MasteryDiagnosticsProps> = ({ stats })
                             {data[0].label}
                         </h5>
                         <p className="text-sm text-text-muted mt-1 leading-relaxed">
-                            {data[0].description}. Focus on remediation sets marked for <span className="text-primary font-bold">{data[0].label}</span> hardening.
+                            {data[0].description}. Focus on remediation sets marked for{' '}
+                            <span className="text-primary font-bold">{data[0].label}</span> hardening.
                         </p>
                     </div>
 
-                    <button 
+                    <button
                         onClick={() => navigate(`/dashboard/mock?mode=remediation&focus=${data[0].label.toUpperCase()}`)}
                         className="w-full mt-2 py-3 rounded-xl bg-primary text-white font-bold hover:bg-primary/90 flex items-center justify-center gap-2 shadow-lg shadow-primary/25 transition-all active:scale-95"
                     >

@@ -141,7 +141,7 @@ export const BlogPostPage: React.FC = () => {
                 canonical={`${SITE_URL}/blog/${slug}`}
                 image={meta.image ? `${SITE_URL}${meta.image}` : undefined}
                 publishedTime={new Date(meta.date).toISOString()}
-                modifiedTime={new Date(meta.date).toISOString()}
+                modifiedTime={new Date().toISOString()}
             />
             <BlogSchema
                 title={meta.title}

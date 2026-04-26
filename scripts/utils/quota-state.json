@@ -1,50 +1,18 @@
 {
-  "llama-3.1-8b-instant_1": {
+  "llama-3.3-70b-versatile_1": {
     "requests": 5,
-    "lastReset": 1776570641284
+    "lastReset": 1777185567899
   },
-  "gemini-2.5-flash_0": {
-    "requests": 1,
-    "lastReset": 1776570677168
+  "llama-3.3-70b-versatile_2": {
+    "requests": 5,
+    "lastReset": 1777185582745
   },
-  "gemini-2.5-flash_1": {
-    "requests": 16,
-    "lastReset": 1776570693751
-  },
-  "gemini-2.5-flash_2": {
-    "requests": 16,
-    "lastReset": 1776570710487
-  },
-  "gemini-2.5-flash_3": {
-    "requests": 15,
-    "lastReset": 1776570728979
-  },
-  "gemini-2.5-flash_4": {
-    "requests": 14,
-    "lastReset": 1776570738995
-  },
-  "llama-3.1-8b-instant_4": {
+  "llama-3.3-70b-versatile_3": {
     "requests": 4,
-    "lastReset": 1776570743572
+    "lastReset": 1777187157075
   },
-  "gemini-2.5-flash_5": {
-    "requests": 14,
-    "lastReset": 1776570757129
-  },
-  "llama-3.1-8b-instant_3": {
+  "llama-3.3-70b-versatile_4": {
     "requests": 3,
-    "lastReset": 1776570974734
-  },
-  "llama-3.1-8b-instant_5": {
-    "requests": 3,
-    "lastReset": 1776571043859
-  },
-  "llama-3.1-8b-instant_2": {
-    "requests": 4,
-    "lastReset": 1776571101176
-  },
-  "llama-3.1-8b-instant_0": {
-    "requests": 1,
-    "lastReset": 1776571918400
+    "lastReset": 1777187183279
   }
 }

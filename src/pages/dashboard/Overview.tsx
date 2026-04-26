@@ -19,8 +19,8 @@ import { DailyStudyGoalIcon } from '../../components/dashboard/DailyStudyGoalIco
 import { RootCauseInsight } from '../../components/dashboard/RootCauseInsight';
 import { ConceptGraphService } from '../../services/conceptGraphService';
 import type { DependencyInsight } from '../../services/conceptGraphService';
-import { MasteryDiagnostics } from '../../components/dashboard/MasteryDiagnostics';
-import { CollegePredictorCard } from '../../components/dashboard/CollegePredictorCard';
+// MasteryDiagnostics removed
+// CollegePredictorCard removed
 import { predictionService } from '../../services/predictionService';
 import { type DailyMission } from '../../services/missionService';
 
@@ -377,14 +377,18 @@ export const Overview = () => {
     const [prediction, setPrediction] = useState<any>(null);
     useEffect(() => {
         if (user && !user.isGuest) {
+            // Logic: If user is new (0 attempts), start from a realistic baseline (e.g. 0-50) 
+            // rather than the Elo default of 1000 which predictionService maps to AIR 2.
+            const baseScore = (attempts === 0 && user.xp === 0) ? 0 : (user.abilityScore || 100);
+            
             const result = predictionService.predictRank({
-                currentMockScore: user.abilityScore || 1000, // Using ability score as a proxy for mock score if needed, or better, use latest mock result if available
+                currentMockScore: baseScore, 
                 topicStrength: ((user.skills?.physics || 0) + (user.skills?.chemistry || 0) + (user.skills?.math || 0)) / 3 || 0.5,
                 examType: user.targetExam || 'JEE Mains'
             });
             setPrediction(result);
         }
-    }, [user]);
+    }, [user, attempts]);
 
     // AI 2.0: Concept Graph Insights
     const [dependencyInsights, setDependencyInsights] = useState<DependencyInsight[]>([]);
@@ -666,21 +670,10 @@ export const Overview = () => {
                                 )}
 
                                 {/* Mastery & College Fit Diagnostics */}
-                                <div className="grid grid-cols-1 xl:grid-cols-2 gap-8">
-                                    {weakTopicStats.length > 0 && (
-                                        <div className="space-y-6">
-                                            <MasteryDiagnostics stats={weakTopicStats} />
-                                        </div>
-                                    )}
+                                <div className="space-y-8">
+                                    {/* MasteryDiagnostics removed as per user request */}
 
-                                    {!isJunior && prediction?.collegeFitment && (
-                                        <div className="space-y-6">
-                                            <CollegePredictorCard 
-                                                fitment={prediction.collegeFitment} 
-                                                predictedRank={prediction.predictedRank} 
-                                            />
-                                        </div>
-                                    )}
+                                    {/* CollegePredictorCard removed as per user request */}
                                 </div>
 
                                 {weakTopicStats.length > 0 && (
@@ -698,7 +691,9 @@ export const Overview = () => {
                                                 >
                                                     <div className="flex flex-col">
                                                         <span className="text-sm font-bold text-red-50">{stat.topic}</span>
-                                                        <span className="text-[10px] text-red-300/60 uppercase font-black tracking-tighter">Fix Now</span>
+                                                        <span className="text-[10px] text-red-300/60 uppercase font-black tracking-tighter">
+                                                            {attempts === 0 ? 'Ready to Start' : 'Fix Now'}
+                                                        </span>
                                                     </div>
                                                     <span className="text-base px-2 py-1 bg-red-500/20 rounded-md text-red-300 font-black">{stat.score_percentage}%</span>
                                                 </div>

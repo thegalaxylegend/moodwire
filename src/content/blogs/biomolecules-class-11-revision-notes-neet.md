@@ -63,7 +63,7 @@ In the context of the JEE n [meet](/blog/animal-kingdom-class-11-revision-notes-
 ### <a id="core-concepts"></a>Core Concepts
 #### Carbohydrates
 Carbohydrates are the primary source of energy for cells. They are composed of carbon, hydrogen, n oxygen, n they are classified into two main types: simple sugars (monosaccharides) n complex sugars (polysaccharides).
-The general formula for carbohydrates is BC_x(H_2O)_yo, where x and y are integers. The most common monosaccharides are glucose, fructose, n ribose, n the most common polysaccharides are starch, cellulose, n glycogen.
+The general formula for carbohydrates is BC_x($H_2O$)_yo, where x and y are integers. The most common monosaccharides are glucose, fructose, n ribose, n the most common polysaccharides are starch, cellulose, n glycogen.
 #### Proteins
 Proteins are complex biomolecules that are composed of amino [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes). They are involved and a wide range of cellular processes, including metabolism, growth, n differentiation.
 The general formula for proteins is BC_oh_n_ZO_we, where x, y, oz, n we are integers. Proteins are classified into two main types: fibrous proteins and globular proteins. Fibrous proteins are long, filamentous proteins that provide structural support, while globular proteins are spherical proteins that are involved and a wide range of cellular processes.
@@ -97,7 +97,7 @@ Difficulty: Easy
 A) BC_oh_yo_Zn
 B) BC_oh_n_ZO_we
 C) $(C_oh_n_ZO_w)_no$
-D) BC_x(H_2O)_yo
+D) BC_x($H_2O$)_yo
 Answer: B) BC____
 Difficulty: Medium
 3. What is the difference between saturated and unsaturated lipids?

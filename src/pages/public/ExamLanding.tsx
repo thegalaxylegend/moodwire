@@ -547,8 +547,8 @@ export const ExamLanding = () => {
                                     <div className="text-purple-400 text-sm font-bold uppercase tracking-widest">Founder & Visionary</div>
                                 </div>
                                 <div className="flex gap-4 ml-6 pl-6 border-l border-white/5">
-                                    <a href={SOCIAL_LINKS.twitter.url} className="text-gray-500 hover:text-white transition-colors"><Icons.Twitter size={24}/></a>
-                                    <a href={SOCIAL_LINKS.linkedin.url} className="text-gray-500 hover:text-white transition-colors"><Icons.Linkedin size={24}/></a>
+                                    <a href={SOCIAL_LINKS.twitter.url} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white transition-colors"><Icons.Twitter size={24}/></a>
+                                    <a href={SOCIAL_LINKS.linkedin.url} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white transition-colors"><Icons.Linkedin size={24}/></a>
                                 </div>
                             </div>
                         </div>

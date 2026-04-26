@@ -25,11 +25,11 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- Aliphatic amines are more basic than aromatic amines: $\frac{K_b \text{$ of aliphatic amine}}{K_b $\text{$ of aromatic amine}} > $1
-- Basicity of amines depends on the availability of lone pair of electrons on nitrogen atom: $\text{Basicity} \propto \text{availability$ of lone pair}$
-- Alkyl amines are more basic than aryl amines due to $+I$ effect of alkyl group: $\text{Basicity of alkyl amine}$ > $\text{basicity$ of aryl amine}$
+- Aliphatic amines are more basic than aromatic amines: $\frac{K_b \text{$ of aliphatic amine}}{K_b $\text{$ of aromatic amine}} > 1
+- Basicity of amines depends on the availability of lone pair of electrons on nitrogen atom: $\text{Basicity} \propto \text{availability$ of lone pair}
+- Alkyl amines are more basic than aryl amines due to $+I$ effect of alkyl group: $\text{Basicity of alkyl amine}$ > $\text{basicity$ of aryl amine}
 - Electron withdrawing groups decrease the basicity of amines: $\text{Basicity} \propto \frac{1}{\text{electron withdrawing power}}$
-- K_b values of amines can be calculated using the formula: K_b = $\frac{K_w}{K_a\text{$ of conjugate acid}}$
+- K_b values of amines can be calculated using the formula: K_b = $\frac{K_w}{K_a\text{$ of conjugate acid}}
 - $\text{p}K_b = -\log K_b$
 - $\text{p}K_a$ of conjugate acid of amine can be calculated using the formula: $\text{p}K_a = 14 -\text{p}K_b$
 - Amines react with water to form salts: $\text{RNH}_2 + \text{H}_2\text{O} \ \text{RNH}_3^+ + \text{OH}^-$
@@ -70,7 +70,7 @@ manualReview: false
 - C) $6.36$
 - D) $9.36$
 - **Answer:** A) $10.64$
-- **Explanation:** The APK_b value of $\text{CH}_3\text{NH}_2$ is $3.36$. Using the formula $\text{p}K_a = 14 - \text{p}K_b,$ we can calculate the pK_a value of $\text{CH}$_3$\text{NH}$_3^+$ as $10.64$.
+- **Explanation:** The APK_b value of $\text{CH}_3\text{NH}_2$ is $3.36$. Using the formula $\text{p}K_a = 14 - \text{p}K_b,$ we can calculate the pK_a value of $\text{CH}$_3$\text{NH}$_3^+$ as $10.64$.$
 
 ## 🧠 The One Thing Most Students Get Wrong
 - The one thing that most students get wrong is the concept of basicity of amines. They often confuse the basicity of amines with the basicity of other compounds.
@@ -112,7 +112,7 @@ C) $7.25$
 D) $6.25$
 
 **Answer:** A) $9.25$
-**Explanation:** The APK_b value of $\text{NH}_3$ is $4.75$. Using the formula $\text{p}K_a = 14 - \text{p}K_b,$ we can calculate the pK_a value of $\text{NH}$_4^+$ as $9.25$.
+**Explanation:** The APK_b value of $\text{NH}_3$ is $4.75$. Using the formula $\text{p}K_a = 14 - \text{p}K_b,$ we can calculate the pK_a value of $\text{NH}$_4^+$ as $9.25$.$
 
 **3. Question:** The product of the reaction of $\text{C}_6\text{H}_5\text{NO}_2$ with $\text{Sn}$ and $\text{HCl}$ is
 A) $\text{C}_6\text{H}_5\text{N}_2\text{O}_4$
@@ -143,7 +143,7 @@ C) $6.36$
 D) $9.36$
 
 **Answer:** A) $10.64$
-**Explanation:** The APK_b value of $\text{CH}_3\text{NH}_2$ is $3.36$. Using the formula $\text{p}K_a = 14 - \text{p}K_b,$ we can calculate the pK_a value of $\text{CH}$_3$\text{NH}$_3^+$ as $10.64$.
+**Explanation:** The APK_b value of $\text{CH}_3\text{NH}_2$ is $3.36$. Using the formula $\text{p}K_a = 14 - \text{p}K_b,$ we can calculate the pK_a value of $\text{CH}$_3$\text{NH}$_3^+$ as $10.64$.$
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/amines-class-12-notes) now and track your progress against thousands of students.
@@ -166,5 +166,4 @@ Continue your revision with these related guides:
 - 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
 - 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
 - 📖 [Biotechnology And Its Applications Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)
-$
 
