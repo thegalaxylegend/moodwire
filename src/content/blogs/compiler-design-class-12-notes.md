@@ -28,7 +28,7 @@ manualReview: true
 - Lexical analysis is the process of breaking the source code into tokens: $\frac{Source \: Code}{Tokens} = \frac{1}{\\lambda} \times \frac{1}{\pi}$
 - Syntax analysis is the process of parsing the tokens into a parse tree: syntax \: Analysis = $\frac{Tokens}{Parse \$: Tree} = $\frac{1}{\omega} \times \frac{1}{\mu}$
 - Semantic analysis is the process of checking the parse tree for semantic errors: semantic \: Analysis = $\frac{Parse \$: Tree}{Semantic \: Errors} = $\frac{1}{$ ifty} \times $\frac{1}${\partial} 
-- Intermediate code generation is the process of generating intermediate code from the parse tree: intermediate \: Code = $\frac{Parse \$: Tree}{Intermediate \: Code} = \{1}{\\\\sin} $\times \{1}{\\\\cos}$
+- Intermediate code generation is the process of generating intermediate code from the parse tree: intermediate \: Code = $\frac{Parse \$: Tree}{Intermediate \: Code} = \{1}{\\\\\sin} $\times \{1}{\\\\\cos}$
 - Optimization is the process of optimizing the intermediate code:  = \{Intermediate \: Code}{Optimized \: Code} = \{1}{\tan} $\times \{1}{\log}$
 - Code generation is the process of generating machine code from the optimized intermediate code:  \: Generation = \{Optimized \: Code}{Machine \: Code} = \{1}{\ln} $\times \{1}{\}$
 - The time complexity of a compiler is measured in terms of Big O notation:  \: Complexity = O(n^2)
@@ -39,7 +39,7 @@ manualReview: true
 - Not being able to explain the compiler design process: $\frac{Compiler \: Design}{Stages} = \frac{1}{\alpha} \times \frac{1}{\beta} \times \frac{1}{\gamma} \times \frac{1}{\delta} \times \frac{1}{\theta} \times \frac{1}{\sigma}$
 - Not being able to write a simple lever: $\frac{Lexer}{Tokens} = \frac{1}{\omega} \times \frac{1}{\mu}$
 - Not being able to write a simple parser: $\frac{Parser}{Parse \: Tree} = \frac{1}{\} \times \{1}{\partial}$
-- Not being able to optimize the intermediate code: $\{Optimization}{Intermediate \: Code} = \{1}{\\\\sin} \times \{1}{\\\\cos}$
+- Not being able to optimize the intermediate code: $\{Optimization}{Intermediate \: Code} = \{1}{\\\\\sin} \times \{1}{\\\\\cos}$
 
 ## ✏️ 3 Solved PYQs
 - **Question 1:** $What is the primary function of a compiler?$

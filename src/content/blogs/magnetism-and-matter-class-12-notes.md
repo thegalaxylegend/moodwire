@@ -99,7 +99,7 @@ The concept of magnetism is closely related to the concept of electricity, n it 
 
 [magnetic](/blog/magnetic-effects-of-current-class-12-notes) materials can be classified into three main categories: diamagnetic, paramagnetic, n ferromagnetic materials. Diamagnetic materials are weakly repelled y [magnetic](/blog/magnetic-effects-of-current-class-12-notes) fields, while paramagnetic materials are weakly attracted. Ferromagnetic materials, on the other hand, are strongly attracted to [magnetic](/blog/magnetic-effects-of-current-class-12-notes) fields and can retain their [magnetic](/blog/magnetic-effects-of-current-class-12-notes) properties even after the external field is removed. The following table summarizes the properties of these materials:
 
-| Material Type | Magnetic Behavior | Examples |
+| Material Type | [Magnetic](/blog/magnetic-effects-of-current-class-12-notes) Behavior | Examples |
 | --- | --- | --- |
 | Diamagnetic | Weakly repelled | Copper, Water, Glass |
 | Paramagnetic | Weakly attracted | Aluminum, Oxygen, Tungsten |
@@ -237,11 +237,11 @@ What are the Applications of Magnetism and Daily Life? is the practical usage of
 
 ## <a id="what-is-the-key-shortcut-or-trick-for-magnetism-n-matter"></a>What is the key Shortcut or Trick for Magnetism and Matter?
 
-Magnetism and Matter is a fundamental concept and physics that deals with the properties and behavior of magnetic materials. It includes magnetic fields, magnetic induction, n the interaction between magnetic fields and matter. For Class 12 exam prep and 2026, the most important aspect is understanding the relationship between magnetic fields and the properties of magnetic materials, such as ferromagnetism, paramagnetism, n diamagnetism.
+Magnetism and Matter is a fundamental concept and physics that deals with the properties and behavior of magnetic materials. It includes magnetic fields, magnetic [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet), n the interaction between magnetic fields and matter. For Class 12 exam prep and 2026, the most important aspect is understanding the relationship between magnetic fields and the properties of magnetic materials, such as ferromagnetism, paramagnetism, n diamagnetism.
 
 To solve problems related to magnetism and matter, it's essential to have a solid grasp of the key concepts and formulas. One of the most critical formulas and this topic is the **Biot-Savart Law**, which relates the magnetic field $B$ to the current $I$ n the distance $r$ from the current-carrying wire: $B = \frac$\mu_0 I${2 \pi r}$. Another crucial concept is the **Ampere's Law**, which states that the line integral of the magnetic field $B$ around a closed loop is proportional to the total current $I$ enclosed y the loop: $\oint B \\\cdot dl = \mu_0 I$.
 
-A key shortcut or trick for solving problems and magnetism and matter is to use the **right-hand rule** to determine the direction of the magnetic field. This rule states that if you point your thumb and the direction of the current, your fingers will curl and the direction of the magnetic field. Another useful trick is to use the **magnetic field lines** to visualize the direction and strength of the magnetic field.
+A key shortcut or trick for solving problems and magnetism and matter is to use the **right-hand rule** to determine the direction of the magnetic field. This rule states that if you point your thumb and the direction of the [current](/blog/alternating-current-class-12-notes), your fingers will curl and the direction of the magnetic field. Another useful trick is to use the **magnetic field lines** to visualize the direction and strength of the magnetic field.
 
 In addition to these tricks, it's essential to practice solving problems using the formulas and concepts mentioned earlier. One student-centric tip is to create a **concept map** that connects the different concepts and formulas and magnetism and matter. This can help you visualize the relationships between the different concepts and make it easier to solve problems.
 
@@ -389,7 +389,7 @@ Continue your revision with these related guides:
 ### Magnetism and Matter Revision Notes
    * **Magnetic Field**: B = μ₀nI
    * **Magnetic Moment**: M = IA
-   * **Torque on a Current Loop**: τ = MB \\sinθ
+   * **Torque on a Current Loop**: τ = MB \\\sinθ
    * **Magnetic Induction**: μ = μₒ(1 + χ)
    * **Biot-Savart Law**: dB = (μ₀ * I * dl × r̂) / (4π * r²)
    * **Ampere's Law**: ∮B · dl = μ₀I

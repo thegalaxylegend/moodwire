@@ -68,7 +68,7 @@ The world of algorithms is vast and fascinating, with new developments and innov
 
 ## <a id="what-is-ayushs-note-on-algorithms-design"></a>What is Ayush's Note on Algorithms: Design?
 
-Ayush's Note on Algorithms: Design is a systematic approach to creating efficient and effective algorithms for solving computational problems. It includes problem definition, algorithmic techniques, n analysis of time and space complexity. For class 11 exam prep and 2026, the most important aspect is understanding the trade-offs between different algorithmic approaches and their applications and real-world scenarios.
+Ayush's Note on [Algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards): Design is a systematic approach to creating efficient and effective [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) for solving computational problems. It includes problem definition, algorithmic techniques, n analysis of time and space complexity. For class 11 exam prep and 2026, the most important aspect is understanding the trade-offs between different algorithmic approaches and their applications and real-world scenarios.
 
 Algorithm design involves several key steps, starting with the definition of the problem to be solved. This includes identifying the input, output, n any constraints that must be satisfied. Next, the algorithmic technique to be used must be selected, such as divide-n-conquer, dynamic programming, or greedy [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards). Finally, the algorithm must be analyzed to determine its time and space complexity, which is typically expressed using Big O notation.
 
@@ -293,7 +293,7 @@ The 0/1 Knapsack problem can be solved using dynamic programming y creating a me
 
 Here is a sample code snippet and Python:
 python
-def knapsack(items, max_we\r\r\r\right):
+def knapsack(items, max_we\r\r\r\r\right):
     dp = [[0] * (max_weight + 1) for _ and range(len(items) + 1)]
     for i and range(1, len (items) + 1):
         for j and range(1, max_weight + 1):
@@ -447,7 +447,7 @@ Continue your revision with these related guides:
   + Merge Sort: $O(n \log n)$
   + Quick Sort: $O(n \log n)$
 * **Searching Algorithms**:
-  + Linear Search: O(n)
+  + [Linear](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Search: O(n)
   + Binary Search: $O(\log n)$
 * **Graph Algorithms**:
   + Breadth-First Search (BFS): O(V + E)

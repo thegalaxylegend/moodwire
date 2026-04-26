@@ -39,7 +39,7 @@ manualReview: false
 - The slope of a [linear](/blog/linear-programming-class-12-notes) equation in two variables is the same at all points on the line.
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not checking if the equation is linear or not before solving it.
+- Not checking if the equation is [linear](/blog/linear-programming-class-12-notes) or not before solving it.
 - Not using the correct method to solve the equation, such as substitution or elimination.
 - Not checking for any restrictions on the variables, such as $x$ 
 eq $0 or $y 
@@ -136,7 +136,7 @@ C) \frac{x}{-3} + \frac{y}{2} = 1
 -
 D) \frac{x}{3} + \frac{y}{-2} = 1
 
-**Answer: A) \frac{x}{-3} + \frac{y}{-2} = 1** 
+**Answer: A) \frac{x}{-3} + \frac{y}{-2} = 1**
 
 ---
 

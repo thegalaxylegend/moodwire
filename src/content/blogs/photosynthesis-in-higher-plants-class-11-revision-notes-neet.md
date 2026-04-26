@@ -175,9 +175,9 @@ Continue your [revision](/blog/plant-growth-and-development-class-11-revision-no
 
 ## 🔁 Last 5 Minutes Box
 
-    * **Photosynthesis**: Process by which plants, algae, and some bacteria convert light energy from the sun into chemical energy in the form of organic compounds.
+    * **Photosynthesis**: Process by which [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet), algae, and some bacteria convert light energy from the sun into chemical energy in the form of organic compounds.
     * **Equation**: 6CO2 + 6H2O + Light Energy → C6H12O6 (glucose) + 6O2
-    * **Chloroplast**: Organelle found in plant cells where photosynthesis takes place
+    * **Chloroplast**: Organelle found in [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet) cells where photosynthesis takes place
     * **Stomata**: Small openings on the surface of leaves that allow for gas exchange
     * **Light-Dependent Reactions**: Occur in the thylakoid membranes of chloroplasts and produce ATP and NADPH
     * **Light-Independent Reactions (Calvin Cycle)**: Occur in the stroma of chloroplasts and produce glucose from CO2 using ATP and NADPH

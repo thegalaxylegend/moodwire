@@ -61,7 +61,7 @@ manualReview: false
 ## 👁️ Ayush's Note
 - When solving problems, make sure to read the question carefully and understand what is being asked
 - Use the given information to identify the key concepts and formulas that need to be applied
-- Break down complex problems into simpler steps, and use the formulas and equations to solve each step
+- Break down complex problems into simpler steps, and use the formulas and [equations](/blog/chemical-reactions-and-equations-class-10-notes) to solve each step
 - Always check your units and make sure they are consistent
 - Practice, practice, practice - the more you practice, the more comfortable you will become with the material and the better you will be at solving problems
 

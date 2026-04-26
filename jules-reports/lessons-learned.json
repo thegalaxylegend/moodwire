@@ -262,5 +262,77 @@
     "rootCause": "LaTeX formulas malformed or unrenderable.",
     "fix": "Add LaTeX validation pass. Use simpler formula syntax.",
     "priority": "high"
+  },
+  {
+    "date": "2026-04-26",
+    "slug": "human-eye-and-colourful-world-class-10-notes",
+    "failureType": "RESOLVED_ERROR",
+    "rootCause": "Quality gate scored naked LaTeX BEFORE the auto-repair ran. Pre-scoring repair pass added to checkBlogQuality() on 2026-04-26.",
+    "fix": "checkFormattingIntegrity() now runs BEFORE quality scoring in checkBlogQuality(). LaTeX is auto-wrapped in $ delimiters before the penalty check.",
+    "priority": "resolved"
+  },
+  {
+    "date": "2026-04-26",
+    "slug": "magnetic-effects-of-electric-current-class-10-notes",
+    "failureType": "MCQ_QUALITY_FAILURE",
+    "rootCause": "Generated MCQs had incorrect answers or duplicate options.",
+    "fix": "Add MCQ-specific validation. Use dedicated MCQ prompt.",
+    "priority": "high"
+  },
+  {
+    "date": "2026-04-26",
+    "slug": "sources-of-energy-class-10-notes",
+    "failureType": "RESOLVED_ERROR",
+    "rootCause": "Quality gate scored naked LaTeX BEFORE the auto-repair ran. Pre-scoring repair pass added to checkBlogQuality() on 2026-04-26.",
+    "fix": "checkFormattingIntegrity() now runs BEFORE quality scoring in checkBlogQuality(). LaTeX is auto-wrapped in $ delimiters before the penalty check.",
+    "priority": "resolved"
+  },
+  {
+    "date": "2026-04-26",
+    "slug": "trigonometric-functions-class-11-revision-notes-jee-neet",
+    "failureType": "RESOLVED_ERROR",
+    "rootCause": "Quality gate scored naked LaTeX BEFORE the auto-repair ran. Pre-scoring repair pass added to checkBlogQuality() on 2026-04-26.",
+    "fix": "checkFormattingIntegrity() now runs BEFORE quality scoring in checkBlogQuality(). LaTeX is auto-wrapped in $ delimiters before the penalty check.",
+    "priority": "resolved"
+  },
+  {
+    "date": "2026-04-26",
+    "slug": "local-government-class-11-revision-notes-cbse",
+    "failureType": "RESOLVED_ERROR",
+    "rootCause": "Quality gate scored naked LaTeX BEFORE the auto-repair ran. Pre-scoring repair pass added to checkBlogQuality() on 2026-04-26.",
+    "fix": "checkFormattingIntegrity() now runs BEFORE quality scoring in checkBlogQuality(). LaTeX is auto-wrapped in $ delimiters before the penalty check.",
+    "priority": "resolved"
+  },
+  {
+    "date": "2026-04-26",
+    "slug": "physics-heat-light-class-11-revision-notes-jee-neet",
+    "failureType": "RESOLVED_ERROR",
+    "rootCause": "Quality gate scored naked LaTeX BEFORE the auto-repair ran. Pre-scoring repair pass added to checkBlogQuality() on 2026-04-26.",
+    "fix": "checkFormattingIntegrity() now runs BEFORE quality scoring in checkBlogQuality(). LaTeX is auto-wrapped in $ delimiters before the penalty check.",
+    "priority": "resolved"
+  },
+  {
+    "date": "2026-04-26",
+    "slug": "physics-mechanics-class-11-revision-notes-jee-neet",
+    "failureType": "RESOLVED_ERROR",
+    "rootCause": "Quality gate scored naked LaTeX BEFORE the auto-repair ran. Pre-scoring repair pass added to checkBlogQuality() on 2026-04-26.",
+    "fix": "checkFormattingIntegrity() now runs BEFORE quality scoring in checkBlogQuality(). LaTeX is auto-wrapped in $ delimiters before the penalty check.",
+    "priority": "resolved"
+  },
+  {
+    "date": "2026-04-26",
+    "slug": "poverty-unemployment-class-11-revision-notes-jee-neet",
+    "failureType": "RESOLVED_ERROR",
+    "rootCause": "Quality gate scored naked LaTeX BEFORE the auto-repair ran. Pre-scoring repair pass added to checkBlogQuality() on 2026-04-26.",
+    "fix": "checkFormattingIntegrity() now runs BEFORE quality scoring in checkBlogQuality(). LaTeX is auto-wrapped in $ delimiters before the penalty check.",
+    "priority": "resolved"
+  },
+  {
+    "date": "2026-04-26",
+    "slug": "anatomy-of-flowering-plants-class-11-revision-notes-neet",
+    "failureType": "RESOLVED_ERROR",
+    "rootCause": "Quality gate scored naked LaTeX BEFORE the auto-repair ran. Pre-scoring repair pass added to checkBlogQuality() on 2026-04-26.",
+    "fix": "checkFormattingIntegrity() now runs BEFORE quality scoring in checkBlogQuality(). LaTeX is auto-wrapped in $ delimiters before the penalty check.",
+    "priority": "resolved"
   }
 ]

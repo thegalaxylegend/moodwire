@@ -1,32 +1,32 @@
 {
   "embeds": [
     {
-      "title": "➡️ Jules Quality Trends Report",
-      "color": 8421504,
+      "title": "📉 Jules Quality Trends Report",
+      "color": 15548997,
       "fields": [
         {
           "name": "📊 All-Time Stats",
-          "value": "Total: 130 blogs\nPassed: 92\nFailed: 38\nPass Rate: 71%",
+          "value": "Total: 139 blogs\nPassed: 90\nFailed: 49\nPass Rate: 65%",
           "inline": true
         },
         {
           "name": "📈 Avg Quality Score",
-          "value": "80.3/100",
+          "value": "74.7/100",
           "inline": true
         },
         {
-          "name": "➡️ Trend",
-          "value": "STABLE (-2.9)",
+          "name": "📉 Trend",
+          "value": "DECLINING (-17.4)",
           "inline": true
         },
         {
           "name": "🔴 Top Errors",
-          "value": "• JSON squashing detected: raw JSON objects in markdown body (×9)\n• Unknown Failure (×9)\n• 401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\": (×6)",
+          "value": "• JSON squashing detected: raw JSON objects in markdown body (×9)\n• Unknown Failure (×9)\n• 401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\": (×8)",
           "inline": false
         }
       ],
       "footer": {
-        "text": "Report generated: 2026-04-25T14:50:23.286Z"
+        "text": "Report generated: 2026-04-26T10:38:25.688Z"
       }
     }
   ]

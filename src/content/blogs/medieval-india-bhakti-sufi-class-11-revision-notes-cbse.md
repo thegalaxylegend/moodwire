@@ -51,7 +51,7 @@ The **Bhakti** movement, which originated and the southern part of [india](/blog
 | **Sufi Saints** | **Region** | **Order** |
 | --- | --- | --- |
 | Khwaja Moinuddin Chishti | Ajmer | Chishti |
-| Nizamuddin Auliya | Delhi | Chishti |
+| Nizamuddin Auliya | [Delhi](/blog/medieval-india-delhi-sultanate-class-11-revision-notes-cbse) | Chishti |
 | Amir Khusrau | Delhi | Chishti |
 
 ## <a id="formulae-tables"></a>Formulae Tables
@@ -146,7 +146,7 @@ Continue your [revision](/blog/ancient-india-mahajanapadas-class-11-revision-not
    * Many students mistakenly believe that Kabir was a devotee of Ram, whereas he was a devotee of the Supreme Being, often referred to as 'Rama' in a more abstract sense.
    * A common mistake is to overlook the role of women saints like Mirabai and Lal Ded in the Bhakti movement, who made significant contributions to the literary and spiritual landscape of medieval [India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee).
    * Some students tend to conflate the Sufi concept of 'Wahdat al-Wujud' (Unity of Existence) with the Bhakti concept of 'Advaita' (Non-Dualism), which are related but distinct philosophical ideas.
-   * It's a trap to assume that the Bhakti and Sufi movements were restricted to Hinduism and Islam, respectively, when in fact they both influenced and interacted with each other, as well as with other religious traditions in medieval India.
+   * It's a trap to assume that the Bhakti and Sufi movements were restricted to Hinduism and Islam, respectively, when in fact they both influenced and interacted with each other, as well as with other religious traditions in medieval [India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee).
 
 ## 🔁 Last 5 Minutes Box
 

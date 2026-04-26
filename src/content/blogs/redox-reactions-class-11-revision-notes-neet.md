@@ -140,7 +140,7 @@ d) None of the above
 Solution: a) $\text{Fe}^{2+}$
 
 ### <a id="hard"></a>Hard
-5. Balance the following redox reaction: $\text{Cr}_2\text{O}_7^{2-} + \text{Fe}^{2+} \rightarrow \text{Cr}^{3+} + \text{Fe}^{3+}$ a) $\text{Cr}$_2$\text{O}$_7^{2-} + 6$\text{Fe}$^{2+} + 14$\text{H}$^+ $\rightarrow 2\text{Cr}^{3+} + 6\text{Fe}^{3+} + 7\text{H}_2\text{O}  b) \text{Cr}_2\text{O}_7^{2-} + 3\text{Fe}^{2+} + 4\text{H}^+ \rightarrow$2$\text{Cr}$^{3+} + 3$\text{Fe}$^{3+} + 2$\text{H}$_2$\text{O}$  c) $\text{Cr}$_2$\text{O}$_7^{2-} + 2$\text{Fe}$^{2+} + 3$\text{H}$^+ $\rightarrow 2\text{Cr}^{3+} + 2\text{Fe}^{3+} + \text{H}_2\text{O}  d) \text{Cr}_2\text{O}_7^{2-} + \text{Fe}^{2+} \rightarrow$2$\text{Cr}$^{3+} + $\text{Fe}$^{3+}  Solution: a) $\text{Cr}$_2$\text{O}$_7^{2-} + 6$\text{Fe}$^{2+} + 14$\text{H}$^+ \rightarrow$2$\text{Cr}$^{3+} + 6$\text{Fe}$^{3+} + 7$\text{H}$_2$\text{O}$ 
+5. Balance the following redox reaction: $\text{Cr}_2\text{O}_7^{2-} + \text{Fe}^{2+} \rightarrow \text{Cr}^{3+} + \text{Fe}^{3+}$ a) $\text{Cr}$_2$\text{O}$_7^{2-} + 6$\text{Fe}$^{2+} + 14$\text{H}$^+ $\rightarrow 2\text{Cr}^{3+} + 6\text{Fe}^{3+} + 7\text{H}_2\text{O}  b) \text{Cr}_2\text{O}_7^{2-} + 3\text{Fe}^{2+} + 4\text{H}^+ \rightarrow$2$\text{Cr}$^{3+} + 3$\text{Fe}$^{3+} + 2$\text{H}$_2$\text{O}$  c) $\text{Cr}$_2$\text{O}$_7^{2-} + 2$\text{Fe}$^{2+} + 3$\text{H}$^+ $\rightarrow 2\text{Cr}^{3+} + 2\text{Fe}^{3+} + \text{H}_2\text{O}  d) \text{Cr}_2\text{O}_7^{2-} + \text{Fe}^{2+} \rightarrow$2$\text{Cr}$^{3+} + $\text{Fe}$^{3+}  Solution: a) $\text{Cr}$_2$\text{O}$_7^{2-} + 6$\text{Fe}$^{2+} + 14$\text{H}$^+ $\rightarrow2\text{Cr}^{3+} + 6\text{Fe}^{3+} + 7\text{H}_2\text{O} 
 
 ## <a id="related-notes-links"></a>Related Notes Links
 

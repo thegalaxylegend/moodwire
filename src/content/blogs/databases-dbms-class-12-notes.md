@@ -75,8 +75,7 @@ There are several database models, including:
 
 The **relational model** is the most widely used database model, and is based on the concept of **relations**, which are sets of tuples.
 
-## Database Normalization
-Database normalization is the process of organizing the data in a database to minimize data redundancy and improve data integrity. The goal of normalization is to ensure that each piece of data is stored in one place and one place only.
+## Database Normalization is the process of organizing the data in a database to minimize data redundancy and improve data integrity. The goal of normalization is to ensure that each piece of data is stored in one place and one place only.
 
 The **normal forms** are a set of rules for normalizing a database. The most common normal forms are:
 
@@ -241,3 +240,20 @@ Some key formulas to remember include:
 * $NF = \frac{Number\ of\ tuples}{Total\ number\ of\ tuples}$, where $NF$ is the normalization factor.
 * $RI = \frac{Number\ of\ rows\ in\ result}{Total\ number\ of\ rows}$, where $RI$ is the row integrity.
 * $CI = \frac{Number\ of\ columns\ in\ result}{Total\ number\ of\ columns}$, where $CI$ is the column integrity.
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+markdown bullet points
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Databases%20Dbms%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [trigonometric functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)
+- 📖 [Body Fluids And Circulation Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)
+- 📖 [physics heat light](/blog/physics-heat-light-class-11-revision-notes-jee-neet)
+- 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Grandmaster Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)

@@ -28,7 +28,7 @@ manualReview: false
 - $\text{Molality} = \frac{\text{Number$ of moles of solute}}{$\text{Mass of solvent in kg}$}
 - $\text{Normality} = \frac{\text{Number$ of gram equivalents of solute}}{$\text{Volume of solution in litres}$}
 -    $\frac{C_1 V_1}${n_1} = $\frac{C_2 V_2}${n_2} 
--     n = $\frac{W}${M} 
+-      n = $\frac{W}${M} 
 - $\text{Vapour pressure$ of solvent} = P^0 $\times \frac{n_1}{n_1 + n_2}$
 - $\frac{\text{Vapour pressure$ of solvent}}{\text{Vapour pressure$ of solution}} = \frac{n_1 + n_2}{n_1}$
 - $\delta T_f = K_f \times m$

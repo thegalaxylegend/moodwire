@@ -93,7 +93,7 @@ The law of conservation of mass states that matter cannot be created or destroye
 $\text{Mass$ of Products}
 
 For example, consider the reaction:
-2$\text{Na} + \text{Cl}$_2 \rightarrow$2$\text{NaCl}$ The mass of the reactants is:
+2$\text{Na} + \text{Cl}$_$2\rightarrow2\text{NaCl} The mass of the reactants is:
 $\text{Mass$ of Reactants} = 2 $\times 23 + 71 = 117 \text{ g}$ The mass of the products is:
 $\text{Mass$ of Products} = 2 $\times 58.5 = 117 \text{ g}$
 
@@ -135,7 +135,7 @@ Here are some essential formulae to remember:
 - Atomic mass and molecular mass
 - Mole concept
 - Stoichiometry
-- Chemical reactions and equations
+- [Chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) reactions and equations
 - Gases and gas laws
 
 ## <a id="mcqs"></a>MCQs
@@ -157,7 +157,7 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/some-basic-concepts-of-[chemistry](/blog/environmental-chemistry-class-11-revision-notes-neet)-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Some%20Basic%20Concepts%20Of%20Chemistry%20Class%2011%20Chemistry%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

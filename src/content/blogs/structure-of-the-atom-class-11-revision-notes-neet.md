@@ -75,7 +75,7 @@ The structure of an atom is a crucial topic for JEE/[neet](/blog/classification-
 * The average weightage of the structure of an atom n [neet](/blog/classification-of-elements-class-11-revision-notes-jee-neet) is around 12-18%.
 * The most common topics asked and JEE/[neet](/blog/classification-of-elements-class-11-revision-notes-jee-neet) exams are atomic number, mass number, isotopes, n electron configuration.
 
-- An atom consists of three main subatomic particles: protons, neutrons, n electrons.
+- An [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet) consists of three main subatomic particles: protons, neutrons, n electrons.
 - Protons and neutrons are found and the nucleus, while electrons orbit around it.
 - The atomic number (Z) is the number of protons and an atom's nucleus, n it determines the element of an atom.
 - The mass number (A) is the $\sum of protons and neutrons and an atom$'s nucleus.

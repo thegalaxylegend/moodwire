@@ -157,7 +157,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 * **Incorrect Calculation of Mean**: A common mistake is not considering all the data points while calculating the mean, leading to an incorrect average. 
 * **Confusing Median and Mode**: Many students confuse the mode (the most frequently occurring value) with the median (the middle value in a sorted dataset), resulting in incorrect calculations. 
 * **Not Considering All Data Points for Range**: While calculating the range, some students overlook the highest or lowest value in the dataset, leading to an incorrect range. 
-* **Miscalculating the Median of an Even Set**: When dealing with an even number of data points, students often make errors in finding the median by not taking the average of the two middle numbers.
+* **Miscalculating the Median of an Even Set**: When dealing with an even number of data points, students often make errors in finding the median by not taking the average of the two middle [numbers](/blog/rational-numbers-class-8-notes).
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Data%20Handling%208%20Class%208%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

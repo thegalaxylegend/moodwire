@@ -16,7 +16,7 @@ manualReview: false
 5. [🧠 The Key Concept Most Students Misunderstand](#key-concept)
 
 ## Introduction to Mechanics
-Mechanics is a fundamental branch of physics that deals with the study of motion, forces, and energy. It is a crucial subject for students preparing for competitive exams like JEE and NEET. In this article, we will provide a to help students revise and master the concepts of mechanics.
+Mechanics is a fundamental branch of [physics](/blog/physics-heat-light-class-11-revision-notes-jee-neet) that deals with the study of motion, forces, and energy. It is a crucial subject for students preparing for competitive exams like JEE and NEET. In this article, we will provide a to help students revise and master the concepts of mechanics.
 
 ## Formula Bank
 The following are some essential formulas that students should be familiar with:
@@ -26,7 +26,7 @@ The following are some essential formulas that students should be familiar with:
 * $F = ma$ (Newton's second law of motion)
 * $W = F cdot s$ (work done)
 * $K = \frac{1}{2}mv^2$ (kinetic energy)
-*  P = $\frac{W}${t} (power) 
+*   P = $\frac{W}${t} (power) 
 
 ## Common Mistakes
 There are several common mistakes that students make while solving mechanics problems. Some of these mistakes include:
@@ -95,3 +95,16 @@ One of the key concepts that students often misunderstand is the concept of rela
 * **Gravitation**: 
   + Gravitational Force = (Gravitational Constant × Mass1 × Mass2) / Radius^2 (F = Gm1m2/r^2) 
   + Gravitational Potential Energy = - (Gravitational Constant × Mass1 × Mass2) / Radius (U = -Gm1m2/r)
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=physics%20mechanics%20class%2011%20revision%20notes%20jee%20neet%20Class%2011%20Exam%20Notes%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [physics heat light](/blog/physics-heat-light-class-11-revision-notes-jee-neet)
+- 📖 [trigonometric functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)
+- 📖 [poverty unemployment](/blog/poverty-unemployment-class-11-revision-notes-jee-neet)
+- 📖 [Structure Of Atom Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)

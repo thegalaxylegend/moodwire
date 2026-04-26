@@ -51,7 +51,7 @@ practice_link: "/class-11/physics/limits-derivatives-class-11-revision-notes-jee
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
 > - **Limit:** The value a function approaches as the input approaches some value.
 > - **Standard Limit:** limₓ→ₐ (xⁿ - aⁿ)/(x - a) = **naⁿ⁻¹**.
-> - **Trig Limit:** limₓ→₀ ($\\\\sin x)/x = **1**.$
+> - **Trig Limit:** limₓ→₀ ($\\\\\sin x)/x = **1**.$
 > - **Derivative (f'(x)):** limₕ→₀ [f(x+h) - f(x)] / h (**First Principle**).
 > - **Power Rule:** d/dx (xⁿ) = **nxⁿ⁻¹**.
 > - **Product Rule:** (uv)' = u'v + uv'.
@@ -133,14 +133,14 @@ This process of finding the derivative using the limit definition is called **Di
 - f(x+h) = (x+h)² + 2(x+h) + 1 = x² + 2xh + h² + 2x + 2h + 1
 - f(x+h) - f(x) = 2xh + h² + 2h
 - f'(x) = limₕ→₀ [h(2x + h + 2) / h] = limₕ→₀ [2x + h + 2]
--       **f'(x) = 2x + 2**. 
+-        **f'(x) = 2x + 2**. 
 
-**Q3: Differentiate y = x · \\\\sin x using Product Rule.**
+**Q3: Differentiate y = x · \\\\\sin x using Product Rule.**
 **Answer:**
--       u = x, v = \\\\sin x 
--       u' = 1, v' = \\\\cos x 
--     y' = u'v + uv' = (1)(\\\\sin x) + (x)(\\\\cos x) 
--       **y' = \\\\sin x + x \\\\cos x**. 
+-        u = x, v = \\\\\sin x 
+-        u' = 1, v' = \\\\\cos x 
+-     y' = u'v + uv' = (1)(\\\\\sin x) + (x)(\\\\\cos x) 
+-        **y' = \\\\\sin x + x \\\\\cos x**. 
 
 ---
 
@@ -192,7 +192,7 @@ Continue your [revision](/blog/mathematical-induction-class-11-revision-notes-je
 
 * When evaluating limits, a common mistake is to directly substitute the value of x without considering if the function is defined at that point or if it leads to an indeterminate form.
 * Forgetting to apply the sum, difference, product, and quotient rules of limits when dealing with composite [functions](/blog/relations-functions-class-11-revision-notes-jee-neet) can also lead to incorrect solutions.
-* Not recognizing that a function may have different one-sided limits can result in incorrect evaluation of limits, especially for piecewise-defined functions.
+* Not recognizing that a function may have different one-sided limits can result in incorrect evaluation of limits, especially for piecewise-defined [functions](/blog/relations-functions-class-11-revision-notes-jee-neet).
 * Forgetting to check if the derivative of a function exists at a given point by verifying if the limit that defines the derivative is valid.
 * Misapplying L'Hospital's Rule by using it when the conditions for its application are not met, such as when the limit is not in an indeterminate form 0/0 or infinity/infinity.
 
@@ -209,7 +209,7 @@ Continue your [revision](/blog/mathematical-induction-class-11-revision-notes-je
      + Quotient rule: (u/v)' = (vu' - uv')/v^2
    * **Geometric interpretation of derivative**: instantaneous rate of change
    * **Trigonometric derivatives**:
- + (\\sin x)' = \\cos x  + (\\cos x)' = -\\sin x 
+ + (\\\sin x)' = \\\cos x  + (\\\cos x)' = -\\\sin x 
      + (tan x)' = sec^2 x
    * **Exponential and logarithmic derivatives**:
      + (e^x)' = e^x

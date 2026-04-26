@@ -1,29 +1,29 @@
 {
-  "overallAvgScore": 80.3,
-  "totalBlogsAllTime": 130,
-  "totalPassed": 92,
-  "totalFailed": 38,
-  "overallPassRate": 71,
-  "trend": "stable",
-  "trendDelta": -2.9,
+  "overallAvgScore": 74.7,
+  "totalBlogsAllTime": 139,
+  "totalPassed": 90,
+  "totalFailed": 49,
+  "overallPassRate": 65,
+  "trend": "declining",
+  "trendDelta": -17.4,
   "dailyReports": [
     {
-      "date": "2026-04-25",
+      "date": "2026-04-26",
       "totalBlogs": 9,
       "passed": 0,
       "failed": 9,
-      "avgScore": 0,
+      "avgScore": 16.1,
       "passRate": 0,
       "errors": [
-        "96 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
-        "118 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
-        "99 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
-        "184 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
-        "70 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
-        "55 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
-        "136 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
-        "110 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
-        "46 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering."
+        "139 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "Insufficient MCQs (Need at least 3)",
+        "Critically low word count: 774 (Min 800 for Patching) | 2 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "42 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "Quality Score 64/100 — warnings: Moderate word count: 994 (Aim for 1200+); 7 section(s) marked as needing review; 3 double-escaped LaTeX commands",
+        "25 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "48 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "40 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "15 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering."
       ]
     },
     {
@@ -122,11 +122,14 @@
     {
       "date": "2026-04-09",
       "totalBlogs": 3,
-      "passed": 3,
-      "failed": 0,
-      "avgScore": 100,
-      "passRate": 100,
-      "errors": []
+      "passed": 1,
+      "failed": 2,
+      "avgScore": 33.3,
+      "passRate": 33,
+      "errors": [
+        "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
+        "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}"
+      ]
     },
     {
       "date": "2026-04-10",
@@ -256,6 +259,25 @@
       "errors": [
         "Unknown Failure"
       ]
+    },
+    {
+      "date": "2026-04-25",
+      "totalBlogs": 9,
+      "passed": 0,
+      "failed": 9,
+      "avgScore": 0,
+      "passRate": 0,
+      "errors": [
+        "96 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "118 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "99 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "184 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "70 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "55 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "136 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "110 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "46 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering."
+      ]
     }
   ],
   "topErrors": [
@@ -269,37 +291,37 @@
     },
     {
       "error": "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":",
-      "count": 6
+      "count": 8
     },
     {
       "error": "Critically low word count: 330 (Min 800 for Patching)",
       "count": 2
     },
     {
-      "error": "96 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This break",
+      "error": "139 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This brea",
       "count": 1
     },
     {
-      "error": "118 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This brea",
+      "error": "Insufficient MCQs (Need at least 3)",
       "count": 1
     },
     {
-      "error": "99 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This break",
+      "error": "Critically low word count: 774 (Min 800 for Patching) | 2 naked LaTeX commands (",
       "count": 1
     },
     {
-      "error": "184 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This brea",
+      "error": "42 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This break",
       "count": 1
     },
     {
-      "error": "70 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This break",
+      "error": "Quality Score 64/100 — warnings: Moderate word count: 994 (Aim for 1200+); 7 sec",
       "count": 1
     },
     {
-      "error": "55 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This break",
+      "error": "25 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This break",
       "count": 1
     }
   ],
-  "alertNeeded": false,
-  "alertMessage": ""
+  "alertNeeded": true,
+  "alertMessage": "⚠️ Quality is DECLINING! Avg score dropped by 17.4 points over the last week."
 }

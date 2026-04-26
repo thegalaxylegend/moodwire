@@ -22,13 +22,13 @@ manualReview: false
 10. [📚 Related Topics](#related-topics)
 
 ## ⚡ Formula Bank
-- The direction cosines of a line satisfy the relation $\\\\\\\cos^2 \alpha + \\\\\\\cos^2 \beta + \\\\\\\cos^2 \gamma = 1$
+- The direction cosines of a line satisfy the relation $\\\\\\\\cos^2 \alpha + \\\\\\\\cos^2 \beta + \\\\\\\\cos^2 \gamma = 1$
 - The direction ratios of a line are $\frac{x_2 - x_1}{l}$, $\frac{y_2 - y_1}{m}$, $\frac{z_2 - z_1}{n}$
 - The equation of a line in 3D space is $\frac{x - x_1}{a} = \frac{y - y_1}{b} = \frac{z - z_1}{c}$
 - The equation of a plane in 3D space is a(x - x_1) + b(y - y_1) + c(z - z_1) = $0$
 - The distance between two points $(x_1, y_1, z_1)$ and $(x_2, y_2, z_2)$ is $\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2}$
 - The distance of a point $(x_1, y_1, z_1)$ from a plane tax + by + CZ + d = $0 is \frac{|ax_1 + by_1 + CZ_1 + d|}{\sqrt{a^2 + b^2 + c^2}$}
-- The angle between two lines with direction ratios a_1, b_1, c_$1 and a_2, b_2, c_$2 is given by $\\\\\\\cos \theta = \frac{a_1a_2 + b_1b_2 + c_1c_2}{\{a_1^2 + b_1^2 + c_1^2} \{a_2^2 + b_2^2 + c_2^2}}$
+- The angle between two lines with direction ratios a_1, b_1, c_$1 and a_2, b_2, c_$2 is given by $\\\\\\\\cos \theta = \frac{a_1a_2 + b_1b_2 + c_1c_2}{\{a_1^2 + b_1^2 + c_1^2} \{a_2^2 + b_2^2 + c_2^2}}$
 ## 
 - To find the equation of a line passing through two points, use the two-point form: $\frac{x - x_1}{x_2 - x_1} = \frac{y - y_1}{y_2 - y_1} = \frac{z - z_1}{z_2 - z_1}$
 - To find the equation of a plane passing through three points, use the intercept form: $\frac{x}{a} + \frac{y}{b} + \frac{z}{c} = 1$
@@ -111,7 +111,7 @@ D) \frac{4}{\sqrt{3}}
 
 **Answer:** C) \frac{3}{\sqrt{3}} 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/3d-geometry-intro-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/3d-[geometry](/blog/coordinate-geometry-class-10-notes)-intro-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 ## 📚 Related Topics
 Continue your revision with these related guides:

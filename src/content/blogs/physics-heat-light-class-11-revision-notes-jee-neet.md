@@ -9,7 +9,7 @@ manualReview: false
 ---
 
 ## Table of Contents
-1. [Introduction to Physics Heat and Light](#introduction-to-physics-heat-and-l\r\right)
+1. [Introduction to Physics Heat and Light](#introduction-to-physics-heat-and-l\r\r\right)
 2. [Thermal Expansion](#thermal-expansion)
 3. [Thermal Stress](#thermal-stress)
 4. [Gas Laws](#gas-laws)
@@ -83,24 +83,24 @@ where $c$ is the speed of light in vacuum and $n$ is the refractive index of the
 The reflection and refraction of light are governed by the laws of reflection and refraction, which are given by the formulas:
 $\angle i = \angle r$
 and
- \frac{n_1}{n_2} = \frac{\\\sin \theta_2}{\\\sin \theta_1} 
+ \frac{n_1}{n_2} = \frac{\\\\sin \theta_2}{\\\\sin \theta_1} 
 where $\angle i$ is the angle of incidence, $\angle r$ is the angle of reflection, $n_1$ and $n_2$ are the refractive indices of the two media, and $\theta_1$ and $\theta_2$ are the angles of incidence and refraction.
 
 ## High-Yield Formula Bank
 Here are some high-yield formulas that you should remember for the exam:
-*  \delta L = $\alpha$L \delta T 
-*  \delta V = $\beta$V \delta T 
-*  \sigma = E $\alpha$\delta T 
+*   \delta L = \alphaL \delta T 
+*   \delta V = \betaV \delta T 
+*   \sigma = E \alpha\delta T 
 * $PV = nRT$
-*  $\frac{V_1}${T_1} = $\frac{V_2}${T_2} 
+*   $\frac{V_1}${T_1} = $\frac{V_2}${T_2} 
 * $P_1 V_1 = P_2 V_2$
-*  KE = $\frac{3}${2} kT 
-*  v_{rms} = $\sqrt{\frac{3RT}${M}} 
+*   KE = $\frac{3}${2} kT 
+*   v_{rms} = $\sqrt{\frac{3RT}${M}} 
 * $Q = mc\delta T$
-*  L = $\frac{Q}${m} 
-*  v = $\frac{c}${n} 
+*   L = $\frac{Q}${m} 
+*   v = $\frac{c}${n} 
 * $\angle i = \angle r$
-*  $\frac{n_1}${n_2} = $\frac{\\\sin \theta_2}${\\\sin \theta_1} 
+*   $\frac{n_1}${n_2} = $\frac{\\\\sin \theta_2}${\\\\sin \theta_1} 
 
 ## Ayush's Note
 To excel in the exam, it's essential to have a strong foundation in the concepts and formulas. Practice as many problems as possible, and make sure to understand the derivations of the formulas. Also, make a list of all the formulas and concepts, and revise them regularly. Time management is also crucial, so make sure to allocate your time wisely during the exam.
@@ -234,12 +234,25 @@ Here is a condensed summary of the key concepts and formulas to help you in the 
 * Kinetic theory of gases: $KE = \frac{3}{2} kT$, $v_{rms} = \sqrt{\frac{3RT}{M}}$
 * Calorimetry: $Q = mc\delta T$
 * Change of state: $L = \frac{Q}{m}$
-* Waves and optics: $v = \frac{c}{n}$, $\angle i = \angle r$, $\frac{n_1}{n_2} = \frac{\\\sin \theta_2}{\\\sin \theta_1}$
+* Waves and optics: $v = \frac{c}{n}$, $\angle i = \angle r$, $\frac{n_1}{n_2} = \frac{\\\\sin \theta_2}{\\\\sin \theta_1}$
 
 ## 🪤 The 5 Mistakes That Cost Marks
 
 * **The Kelvin Trap:** A very common mistake is using temperature in Celsius instead of Kelvin in the Ideal Gas Equation ($PV=nRT$) or when calculating the efficiency of a Carnot engine ($\eta = 1 - T_2/T_1$). Always convert to Kelvin to avoid incorrect ratios.
-* **Sign Convention in Thermodynamics:** Students often confuse the sign of work ($W$) in the First Law of Thermodynamics ($\Delta Q = \Delta U + W$). Remember: $W$ is positive when work is done *by* the system (expansion) and negative when work is done *on* the system (compression) in the standard physics convention.
-* **Internal Energy Misconception:** Many assume that $\Delta U$ depends on the process (isobaric, isochoric, etc.). In reality, for an ideal gas, internal energy is a state function and $\Delta U = nC_v\Delta T$ regardless of the path taken.
+* **Sign Convention in Thermodynamics:** Students often confuse the sign of work ($W$) in the First Law of Thermodynamics ($\delta Q = \delta U + W$). Remember: $W$ is positive when work is done *by* the system (expansion) and negative when work is done *on* the system (compression) in the standard physics convention.
+* **Internal Energy Misconception:** Many assume that $\delta U$ depends on the process (isobaric, isochoric, etc.). In reality, for an ideal gas, internal energy is a state function and $\delta U = nC_v\delta T$ regardless of the path taken.
 * **Adiabatic vs. Isothermal Confusion:** A frequent error is assuming temperature remains constant during an adiabatic process. In an adiabatic expansion, the system does work at the expense of its internal energy, causing the temperature to drop, unlike in an isothermal process where heat is exchanged to keep $T$ constant.
 * **Thermal Expansion Coefficients:** Confusing the relationship between linear ($\alpha$), superficial ($eta$), and volumetric ($\gamma$) expansion coefficients. Remember the ratio $\alpha : eta : \gamma = 1 : 2 : 3$. Using $\alpha$ instead of $\gamma$ for a 3D object is a classic trap in NEET/JEE problems.
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=physics%20heat%20light%20class%2011%20revision%20notes%20jee%20neet%20Class%2011%20Exam%20Notes%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [trigonometric functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)
+- 📖 [Databases Dbms Class 12 Exam Prep Revision — Grandmaster Guide](/blog/databases-dbms-class-12-notes)
+- 📖 [Body Fluids And Circulation Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)
+- 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Grandmaster Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)

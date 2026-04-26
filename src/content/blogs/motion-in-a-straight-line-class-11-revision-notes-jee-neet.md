@@ -226,7 +226,7 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 * Confusing Speed and Velocity: Many students get confused between speed and velocity. Speed is a scalar quantity and has only magnitude, whereas velocity is a vector quantity and has both magnitude and direction.
 * Incorrect Calculation of Acceleration: Students often make mistakes while calculating acceleration. They forget to consider the change in velocity and the time over which it changes, leading to incorrect results.
 * Forgetting to Consider the Sign of Displacement: When calculating average velocity, students often forget to consider the sign of displacement, which can lead to incorrect results.
-* Misunderstanding the Concept of Relative Motion: Relative motion is a common concept in motion in a straight line, but many students struggle to understand it. They find it difficult to visualize the motion of one object with respect to another.
+* Misunderstanding the Concept of Relative [Motion](/blog/rotational-motion-class-11-revision-notes-jee-neet): Relative [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) is a common concept in [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) in a straight line, but many students struggle to understand it. They find it difficult to visualize the [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) of one object with respect to another.
 * Not Considering the Frame of Reference: Students often make mistakes by not considering the frame of reference while solving problems related to motion in a straight line. They should always specify the frame of reference while describing the motion of an object.
 
 ## 🔁 Last 5 Minutes Box

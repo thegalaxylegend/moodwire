@@ -23,6 +23,8 @@ As a Class 11 student preparing for JEE and NEET exams, understanding the concep
 6. [Conclusion](#conclusion)
 7. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=poverty%20unemployment%20class%2011%20revision%20notes%20jee%20neet%20Class%2011%20Exam%20Notes%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## Introduction to Poverty and Unemployment
@@ -118,3 +120,15 @@ To help you revise key formulas, here is a formula bank related to poverty and u
 * **Lorenz Curve**: Graphical representation of income distribution in a country.
 * **National Rural Employment Guarantee Act (NREGA)**: Guarantees 100 days of employment to rural laborers.
 * **Prime Minister's Rozgar Yojana (PMRY)**: Provides financial assistance to young entrepreneurs to start their own business.
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [3d Geometry Intro Class 11 Mathematics Revision — Grandmaster Guide](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet)
+- 📖 [physics heat light](/blog/physics-heat-light-class-11-revision-notes-jee-neet)
+- 📖 [physics mechanics](/blog/physics-mechanics-class-11-revision-notes-jee-neet)
+- 📖 [trigonometric functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)

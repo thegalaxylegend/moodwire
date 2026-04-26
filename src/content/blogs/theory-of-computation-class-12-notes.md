@@ -84,6 +84,7 @@ d) $S ightarrow aBb | epsilon$
 ## 📚 Related Topics
 For further study, you can explore the following related topics:
 - **Formal language theory**: The study of formal languages and their properties.
-- **Automata theory**: The study of automata and their applications.
+- **Automata theory**: The study of automata and their [applications](/blog/biotechnology-and-its-applications-class-12-notes).
 - **Computability theory**: The study of what can be computed by a machine.
 - **Complexity theory**: The study of the resources required to solve computational problems.
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Theory%20Of%20Computation%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**

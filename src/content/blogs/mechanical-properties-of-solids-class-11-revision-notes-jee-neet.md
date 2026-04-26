@@ -152,7 +152,7 @@ In Physics, elasticity is measured y the Modulus (resistance to deformation), no
 - **Conclusion:** Because Y_steel ≫ Y_rubber, Steel is considered highly elastic.
 
 **Q2: What is the significance of the area under a Stress-Strain curve?**
-**Answer:** The area under the **Stress-Strain graph** represents the **Energy Density** (Energy per unit volume) stored and the material during the deformation process.
+**Answer:** The area under the **Stress-Strain graph** represents the **[Energy](/blog/work-energy-and-power-class-11-revision-notes-neet) Density** ([Energy](/blog/work-energy-and-power-class-11-revision-notes-neet) per unit volume) stored and the material during the deformation process.
 
 **Q3: Can a material have a Poisson's ratio greater than 0.5?**
 **Answer:** Theoretical limits for Poisson's ratio (σ) are -1 to 0.5. For most stable, isotropic materials, it is between 0 and 0.5. A value > 0.5 would mean the volume *decreases* when the material is compressed and all directions, which is physically impossible for simple solids.

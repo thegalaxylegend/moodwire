@@ -147,7 +147,7 @@ Answer: d) All of the above
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Cell Biology class 11 Notes
+* [Cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) Biology class 11 Notes
 * Molecular Biology Class 12 Notes
 
 Note: The above links are existing posts only.

@@ -130,7 +130,7 @@ What are the Basic Components of a Computer? is a fundamental concept and comput
 | --- | --- | --- |
 | Central Processing Unit (CPU) | Executes instructions and performs calculations | Brain of the computer |
 | Memory | Stores [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) and programs | Enables the computer to store and retrieve [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) |
-| Input/Output (I/O) devices | Allow users to interact with the computer | Enable data entry, output, n control |
+| Input/Output (I/O) devices | Allow users to interact with the computer | Enable [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) entry, output, n control |
 
 ## <a id="how-does-the-central-processing-unit-cpu-work"></a>How does the Central Processing Unit (CPU) Work?
 
@@ -327,7 +327,7 @@ Use of a single bus for data and address
 
 **Answer:** A) The Fetch-Decode-Execute cycle is a characteristic of Von Neumann architecture. It involves fetching an instruction from memory, decoding it, n then executing it. The other options are not characteristics of Von Neumann architecture.
 
-**3. What is the primary function of the Arithmetic Logic Unit (ALU) n a computer system?**
+**3. What is the primary function of the Arithmetic [Logic](/blog/digital-logic-class-11-revision-notes-gate-boards) Unit (ALU) n a computer system?**
 To perform data transfer operations
 To execute instructions
 To perform arithmetic and logical operations

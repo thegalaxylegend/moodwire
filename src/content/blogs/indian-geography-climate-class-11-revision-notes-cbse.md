@@ -115,7 +115,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your [revision](/blog/constitutional-framework-class-11-revision-notes-cbse) with these related guides:
 
-- 📖 [Indian Geography Physical Class 11 Indian Geography Climate Class 11 Revision Notes CBSE"
+- 📖 [[Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Geography Physical Class 11 [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Geography Climate Class 11 Revision Notes CBSE"
    
 
 ![Indian Geography Climate Class 11 Geography Recap — CBSE 2026 Quick Guide]( Revision — CBSE Boards 2026 Grandmaster Guide](/blog/indian-geography-physical-class-11-revision-notes-jee-neet)
@@ -133,7 +133,7 @@ Continue your [revision](/blog/constitutional-framework-class-11-revision-notes-
 
 ## 🔁 Last 5 Minutes Box
 
-* **India's Climate**: Tropical monsoon type with 4 main seasons - winter, summer, monsoon, and post-monsoon.
+* **[India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)'s Climate**: Tropical monsoon type with 4 main seasons - winter, summer, monsoon, and post-monsoon.
 * **Factors Influencing Climate**: Latitude, altitude, distance from sea, and relief features.
 * **Climatic Regions**: 
   + Tropical wet climate (Kerala, Tamil Nadu)

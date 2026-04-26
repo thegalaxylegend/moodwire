@@ -66,7 +66,7 @@ up is frequency, and $\\lambda$ is wavelength
 - Most students get the concept of signal-to-noise ratio (SNR) wrong. They think that SNR is the ratio of signal power to noise power, which is correct. However, they forget that SNR is a ratio of powers, not amplitudes. The correct formula for SNR is $SNR = \frac{S}{N}$, where IS is signal power and AND is noise power.
 
 ## 👁️ Ayush's Note
-- To solve problems in communication systems, first identify the given parameters and the unknown quantities. Then, use the formulas to derive the unknown quantities. Make sure to consider the attenuation of the signal with distance and the modulation and demodulation of the signal.
+- To solve problems in communication [systems](/blog/number-systems-class-9-notes), first identify the given parameters and the unknown quantities. Then, use the formulas to derive the unknown quantities. Make sure to consider the attenuation of the signal with distance and the modulation and demodulation of the signal.
 
 ## 🔁 Last 5 Minutes Box
 - In the last 5 minutes of the exam, make sure to check all the answers and ensure that the units are correct. Also, check if all the given parameters are used in the solution. If not, re-evaluate the solution.

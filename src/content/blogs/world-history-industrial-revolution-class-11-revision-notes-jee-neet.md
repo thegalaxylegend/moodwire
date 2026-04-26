@@ -204,7 +204,7 @@ The following table summarizes the key features of the Industrial Revolution:
 
 The following formulae are relevant to the Industrial Revolution:
 
-\text{Productivity}$ = \frac$\text{Output}\text{Input}\text{Efficiency}$ = \frac$\text{Output}\text{Cost}$
+$\text{Productivity} = \frac\text{Output}\text{Input}\text{Efficiency} = \frac\text{Output}\text{Cost}
 
 These formulae and tables help me, Ayush, understand the economic and technological aspects of the Industrial Revolution.
 
@@ -591,8 +591,6 @@ Continue your revision with these related guides:
 - 📖 [Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)
 - 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
 **
-
-
 
 ## 🪤 The 5 Mistakes That Cost Marks
 

@@ -197,8 +197,8 @@ Examiner's Trap: Use the correct equilibrium constant expression for the given r
 Q1 (2020 CBSE): What is the balanced chemical equation for the reaction between calcium carbonate and hydrochloric acid to produce calcium chloride, water, and [carbon](/blog/carbon-and-its-compounds-class-10-notes) dioxide? 
  - 🪤 **Trap:** Most students forget to balance the chemical equation.
  - 🧮 **Solution (Step-by-step):**
- Step 1: Write the skeletal equation → CAC_3 + HCl $\rightarrow$Call_2 + $H_2O$ + CO_2
- Step 2: Balance the equation → CAC_3 + 2HCl $\rightarrow$Call_2 + $H_2O$ + CO_2
+ Step 1: Write the skeletal equation → CAC_3 + HCl $\rightarrow$Call_2 + $H_2O$ + $CO_2$
+ Step 2: Balance the equation → CAC_3 + 2HCl $\rightarrow$Call_2 + $H_2O$ + $CO_2$
  **Final Answer:** Monaco_3 + 2HCl $\rightarrow$Call_2 + $H_2O$ + $CO_2$
  - ⚡ **Speed trick:** Use the "hit and trial" method to balance the equation by trial and error.
 
@@ -209,7 +209,7 @@ Q1 (2020 CBSE): What is the balanced chemical equation for the reaction between 
 | **water** | H2O | 18.015 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/962) |
 | **hydrochloric acid** | ClH | 36.46 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/313) |
 | **calcium carbonate** | CCaO3 | 100.09 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/10112) |
-| **carbon dioxide** | CO2 | 44.009 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/280) |
+| **[carbon](/blog/carbon-and-its-compounds-class-10-notes) dioxide** | CO2 | 44.009 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/280) |
 
 ---
 #### Question 2 (2019 CBSE):
@@ -325,30 +325,30 @@ Chemical equations must be balanced to accurately represent the reaction and fol
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 
 **1. The balanced chemical equation for the combustion of methane is $\text{CH}_4 + 2\text{O}_2 \rightarrow \text{CO}_2 + 2\text{H}_2\text{O}$. If 1 mole$ of methane is burned, how many moles of water are produced?**$
-**A)**      1 mole
-**B)**      2 moles
-**C)**      4 moles
-**D)**      6 moles
+**A)**       1 mole
+**B)**       2 moles
+**C)**       4 moles
+**D)**       6 moles
 
 **Answer:** B) Options A and D are incorrect because the balanced equation shows that 1 mole of methane produces 2 moles of water (not 1 or 6 moles). Option C is incorrect because the balanced equation shows that 1 mole of methane produces 2 moles of water (not 4 moles).
 
 ---
 
 **2. A sample of hydrogen gas (HE_2$) reacts with oxygen gas (OF_2$) to form water (HE_2$O). If 2 moles$ of hydrogen gas react with 1 mole of oxygen gas, how many moles of water are produced?**
-**A)**      1 mole
-**B)**      2 moles
-**C)**      3 moles
-**D)**      4 moles
+**A)**       1 mole
+**B)**       2 moles
+**C)**       3 moles
+**D)**       4 moles
 
 **Answer:** C) Options A and B are incorrect because the balanced equation shows that 2 moles of hydrogen gas produce 2 moles of water (not 1 or 3 moles). Option D is incorrect because the balanced equation shows that 2 moles of hydrogen gas produce 2 moles of water (not 4 moles).
 
 ---
 
 **3. The balanced chemical equation for the reaction of calcium carbonate with hydrochloric acid is $\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2$. What is the rate of reaction if 2 moles of calcium carbonate react with 4 moles of hydrochloric acid?**
-**A)**      1 mole
-**B)**      2 moles
-**C)**      4 moles
-**D)**      8 moles
+**A)**       1 mole
+**B)**       2 moles
+**C)**       4 moles
+**D)**       8 moles
 
 **Answer:** D) Options A and B are incorrect because the balanced equation shows that 2 moles of calcium carbonate react with 4 moles of hydrochloric acid, producing 4 moles of products (not 1 or 2 moles). Option C is incorrect because the balanced equation shows that 2 moles of calcium carbonate react with 4 moles of hydrochloric acid, producing 4 moles of products (not 8 moles).
 
@@ -356,20 +356,20 @@ Chemical equations must be balanced to accurately represent the reaction and fol
 
 **4. A 2.0-g sample of sodium (N
 a) is burned in oxygen to produce sodium oxide (Neil_$2O). If the mass of the oxygen gas used is 3.0 g, what is the mass of the sodium oxide produced?**$
-**A)**      0 g
-**B)**      0 g
-**C)**      0 g
-**D)**      0 g
+**A)**       0 g
+**B)**       0 g
+**C)**       0 g
+**D)**       0 g
 
 **Answer:** C) Options A and B are incorrect because the mass of the sodium oxide produced must be calculated using the masses of sodium and oxygen. Option D is incorrect because the mass of the sodium oxide produced is 7.0 g (not 8.0 g).
 
 ---
 
 **5. The reaction of hydrogen gas (HE_2$) with oxygen gas (OF_2$) to form water (HE_$2O) is a spontaneous reaction. If the initial concentration of hydrogen gas is 1.0 M and the initial concentration of oxygen gas is 0.5 M, what is the concentration of water produced after 1 hour?**$
-**A)**      5 M
-**B)**      0 M
-**C)**      5 M
-**D)**      0 M
+**A)**       5 M
+**B)**       0 M
+**C)**       5 M
+**D)**       0 M
 
 **Answer:** C) Options A and B are incorrect because the reaction is not in equilibrium, and the concentrations of reactants and products will change over time. Option D is incorrect because the concentration of water produced will be less than 2.0 M.
 

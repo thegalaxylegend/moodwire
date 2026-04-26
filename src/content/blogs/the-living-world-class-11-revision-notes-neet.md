@@ -231,6 +231,6 @@ Continue your [revision](/blog/morphology-of-flowering-plants-class-11-revision-
      + Pteridophyta 
      + Gymnosperms 
      + Angiosperms
-* **Animal Kingdom**: 
+* **Animal [Kingdom](/blog/plant-kingdom-class-11-revision-notes-neet)**: 
      + Non-Chordates: Porifera, Coelenterata, Helminthes, Annelida, Arthropoda, Mollusca, Echinodermata 
      + Chordates: Protochordata, Vertebrata

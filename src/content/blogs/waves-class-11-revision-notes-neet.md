@@ -66,7 +66,7 @@ practice_link: "/class-11/biology/waves-class-11-revision-notes-neet"
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
 > - **Wave Speed:** v = ν λ. String v = √(T/μ). Gas v = √(γP/ρ).
-> - **Progressive Wave:** y = A \\sin(kx - ωt).
+> - **Progressive Wave:** y = A \\\sin(kx - ωt).
 > - **Standing Waves:** 
 >   - Open Pipe: All harmonics (f_n = n v/2L).
 >   - Closed Pipe: Odd harmonics (f_n = (2n-1) v/4L).
@@ -112,7 +112,7 @@ A **Progressive Wave** is a wave that moves continuously and a specific directio
 
 ### <a id="i-the-wave-equation"></a>I. The Wave Equation
 For a wave traveling and the positive X-direction:
- **y(x, t) = A \\sin(kx - ωt + φ)** 
+ **y(x, t) = A \\\sin(kx - ωt + φ)** 
 Where:
 - **y:** Displacement at position x and time t.
 - **φ:** Initial phase constant.
@@ -165,13 +165,13 @@ Laplace argued that sound propagation is so fast that no heat exchange occurs; i
 Formed when two identical waves traveling and opposite directions superimpose. They do not transport energy.
 
 ### <a id="i-analytical-treatment"></a>I. Analytical Treatment
-1.   **y1 = A \\sin(kx - ωt)** (Incoming). 
-2.   **y2 = A \\sin(kx + ωt)** (Reflecte
+1.    **y1 = A \\\sin(kx - ωt)** (Incoming). 
+2.    **y2 = A \\\sin(kx + ωt)** (Reflecte
 d).
-3.       **y_net = (2A \\\cos ωt) \\\sin kx**.
-**Result:** The amplitude **(2A $\\\sin kx)** depends on position **x**.$
-- $**Nodes:** Points of zero displacement (**\\\sin kx = 0**).$
-- $**Antinodes:** Points of maximum displacement (**\\\sin kx = 1**).$
+3.        **y_net = (2A \\\\cos ωt) \\\\sin kx**.
+**Result:** The amplitude **(2A $\\\\sin kx)** depends on position **x**.$
+- $**Nodes:** Points of zero displacement (**\\\\sin kx = 0**).$
+- $**Antinodes:** Points of maximum displacement (**\\\\sin kx = 1**).$
 ### <a id="ii-standing-waves-n-a-stretched-string"></a>II. Standing Waves and a Stretched String
 Both ends are fixed, so they must be Nodes.
 **Fundamental Frequency (f1) = v / 2L = (1/2L) √(T/μ)**.
@@ -210,7 +210,7 @@ Where:
 ---
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&
 A)
-**            Q1: Why does sound travel faster n [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than and gases?**
+**             Q1: Why does sound travel faster n [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than and gases?**
 
 **Answer:** The speed of sound is **v = √(E / ρ)**. Although [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) are much denser than gases (which would decrease speed), their elasticity (E) is significantly higher. Since elasticity dominates the equation, sound travels ~15 \times faster n [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than and air.
 
@@ -277,8 +277,8 @@ Continue your [revision](/blog/motion-in-a-plane-class-11-revision-notes-jee-nee
 
 * **Confusing wave speed and particle speed**: Many students confuse the speed of a wave with the speed of the particles that make up the wave. Remember, the speed of a wave is the speed at which the disturbance travels, while the speed of the particles is the speed at which the individual particles oscillate.
 * **Forgetting to consider the medium**: When solving problems related to wave speed, it's essential to consider the [properties](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) of the medium through which the wave is traveling. The speed of a wave can depend on the density and elasticity of the medium.
-* **Incorrectly applying the wave equation**: The wave equation is a fundamental concept in physics, but it's often misapplied. Make sure to double-check the units and variables when using the equation to solve problems.
-* **Not distinguishing between transverse and longitudinal waves**: Transverse and longitudinal waves have different properties and behaviors. Be careful not to confuse the two, especially when dealing with problems related to wave polarization and reflection.
+* **Incorrectly applying the wave equation**: The wave equation is a fundamental concept in physics, but it's often misapplied. Make sure to double-check the [units](/blog/units-and-measurements-class-11-revision-notes-jee-neet) and variables when using the equation to solve problems.
+* **Not distinguishing between transverse and longitudinal waves**: Transverse and longitudinal waves have different [properties](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet) and behaviors. Be careful not to confuse the two, especially when dealing with problems related to wave polarization and reflection.
 * **Mistaking wave frequency for wave period**: Frequency and period are related but distinct concepts. Frequency is the number of oscillations per second, while period is the time taken for one complete oscillation. Make sure to use the correct units and formulas when working with these concepts.
 
 ## 🔁 Last 5 Minutes Box
@@ -289,11 +289,10 @@ Continue your [revision](/blog/motion-in-a-plane-class-11-revision-notes-jee-nee
    * Speed of Wave in Medium: $v = \frac{omega}{k} = \lambda f$
    * Refractive Index: $n = \frac{v_1}{v_2} = \frac{lambda_1}{lambda_2}$
    * Reflection and Refraction Formulas:
-     + $Z_1 = \frac{ho_1 v_1}{ho_2 v_2}$
-     + $\frac{I_1}{I_2} = left( \frac{Z_1 + Z_2}{Z_1 - Z_2} \right)^$2
+ + Z_1 = \frac{ho_1 v_1}{ho_2 v_2}  + \frac{I_1}{I_2} = left( \frac{Z_1 + Z_2}{Z_1 - Z_2} \r\right)^2 
    ### Types of Waves
-   * Progressive Wave: $y(x, t) = a \sin (kx - omega t)$
-   * Standing Wave: $y(x, t) = 2a \sin kx \cos omega t$
+   * Progressive Wave: $y(x, t) = a \\sin (kx - omega t)$
+   * Standing Wave: $y(x, t) = 2a \\sin kx \\cos omega t$
    ### Sound Wave
    * Speed of Sound: $v = 331 + 0.6t$
    * Intensity of Sound Wave: $I = \frac{P}{A} = \frac{E}{At} = 10 log \frac{I}{I_0}$

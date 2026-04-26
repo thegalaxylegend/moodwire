@@ -45,7 +45,7 @@ manualReview: false
 ## ✏️ 3 Solved PYQs
 - **Question 1:** Find the equation of the circle passing through the points $(1, 2)$, $(3, -4)$, and $(5, 2)$.
   - Step 1: The general equation of a circle is given by x^2 + y^2 + 2gx + 2fy + c = 0$.$
-  - Step 2: Substitute the given points into the equation to get three equations in terms of age, of, and act.
+  - Step 2: Substitute the given points into the equation to get three [equations](/blog/chemical-reactions-and-equations-class-10-notes) in terms of age, of, and act.
   - Step 3: Solve the three equations simultaneously to find the values of age, of, and act.
   - Step 4: Substitute the values of age, of, and act into the general equation to get the equation of the circle.
 - **Question 2:** Find the length of the tangent from the point $(4, 3)$ to the circle x^2 + y^2 - 4x - 6y - 3 = 0$.$
@@ -123,7 +123,7 @@ B) Equal to twice the angle in the alternate segment
 -
 C) Equal to half the angle in the alternate segment
 -
-D) Not related to the angle in the alternate segment
+D) Not [related](/blog/areas-related-to-circles-class-10-notes) to the angle in the alternate segment
 
 **Answer: A) Equal to the angle in the alternate segment**
 

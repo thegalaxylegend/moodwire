@@ -51,8 +51,8 @@ u}$ for wavelength$
  
 ## ✏️ 3 Solved PYQs
 - A photon of wavelength $5000 \, \text{Å}$ is incident on a metal surface. If the work function of the metal is $2 \, \text{eV}$, calculate the kinetic energy of the emitted electron.
-  -     c{hc}{\\lambda} = $\frac{6.626 \times 10^{-34}$ \times 3 \times 10^8}{5000 \times 10^{-10}} = 3.98 \times 10^{-19} \, $\text{J}$
-  -     \times 10^{-19} \, $\text{J}$ \times $\frac{1 \, \text{eV}$}{1.6 \times 10^{-19} \, $\text{J}$} = 2.49 \, $\text{eV}$
+  -      hc}{\\lambda} = $\frac{6.626 \times 10^{-34}$ \times 3 \times 10^8}{5000 \times 10^{-10}} = 3.98 \times 10^{-19} \, $\text{J}$
+  -      imes 10^{-19} \, $\text{J}$ \times $\frac{1 \, \text{eV}$}{1.6 \times 10^{-19} \, $\text{J}$} = 2.49 \, $\text{eV}$
   - $KE = E - W = 2.49 \, \text{eV} - 2 \, \text{eV} = 0.49 \, \text{eV}$
 - The ionization energy of hydrogen atom is $13.6 \, \text{eV}$. Calculate the energy required to remove an electron from the in = $2 state.$
   -     frac{13.6}{2^2} = -3.4 \, $\text{eV}$
@@ -61,12 +61,12 @@ ifty} = 0
   -  = E_{
 ifty} - E_2 = 0 - (-3.4) = 3.4 \, $\text{eV}$
 - The wavelength of the first line of Lyman series is $1216 \, \text{Å}$. Calculate the wavelength of the first line of Palmer series.
-  -     {\\lambda} = $\frac{1}${\\lambda_0} - $\frac{1}${\\lambda_1} 
-  -     {1216 \times 10^{-10}} = $\frac{1}${\\lambda_0} - $\frac{1}${\\lambda_1} 
+  -      \lambda} = $\frac{1}${\\lambda_0} - $\frac{1}${\\lambda_1} 
+  -      216 \times 10^{-10}} = $\frac{1}${\\lambda_0} - $\frac{1}${\\lambda_1} 
   - For Lyman series, $\\lambda_0 = 91 \, \text{nm}$ and $\\lambda_1 = 1216 \, \text{Å} = 121.6 \, \text{nm}$
   - For Palmer series, $\\lambda_0 = 364.6 \, \text{nm}$ and $\\lambda_1 = ?$
-  -     {\\lambda_1} = $\frac{1}${91 \times 10^{-9}} - $\frac{1}${121.6 \times 10^{-9}} 
-  -     {\\lambda_1} = $\frac{1}${656.3 \times 10^{-10}} 
+  -      \lambda_1} = $\frac{1}${91 \times 10^{-9}} - $\frac{1}${121.6 \times 10^{-9}} 
+  -      \lambda_1} = $\frac{1}${656.3 \times 10^{-10}} 
   - $\\lambda_1 = 656.3 \, \text{nm}$
 
  

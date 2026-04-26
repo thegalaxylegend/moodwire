@@ -23,9 +23,9 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- The sine rule states that for any triangle with sides of length a, b, and c, and opposite angles A, B, and C, respectively, $\frac{a}{\\\\sin A} = \frac{b}{\\\\sin B} = \frac{c}{\\\\sin C}$.
-- $The cosine rule states that for any triangle with sides of length a, b, and c, and angle C opposite side c, BC^2 = a^2 + b^2 - 2ab\\\\cos CD.$
-- The formula for the area of a triangle given two sides and the included angle is $\frac{1}{2}ab\\\\sin CD.$
+- The sine rule states that for any triangle with sides of length a, b, and c, and opposite angles A, B, and C, respectively, $\frac{a}{\\\\\sin A} = \frac{b}{\\\\\sin B} = \frac{c}{\\\\\sin C}$.
+- $The cosine rule states that for any triangle with sides of length a, b, and c, and angle C opposite side c, BC^2 = a^2 + b^2 - 2ab\\\\\cos CD.$
+- The formula for the area of a triangle given two sides and the included angle is $\frac{1}{2}ab\\\\\sin CD.$
 - The formula for the area of a triangle given the base and height is $\frac{1}{2}bhp.$
 - The distance of a point $(x, y)$ from the origin is given by $\sqrt{x^2 + y^2}$.
 - The distance between two points $(x_1, y_1)$ and $(x_2, y_2)$ is given by $\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.
@@ -33,20 +33,20 @@ manualReview: false
 - The equation of a line in slope-point form is by - y_1 = m(x - x_1)$, where m is the slope and $(x_1, y_1)$ is a point on the line.$
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not using the correct formula for the area of a triangle, such as using $\frac{1}{2}Abe instead$ of $\frac{1}{2}ab\\\\sin CD.$
+- Not using the correct formula for the area of a triangle, such as using $\frac{1}{2}Abe instead$ of $\frac{1}{2}ab\\\\\sin CD.$
 - Forgetting to consider the quadrant in which the angle lies when using trigonometric ratios.
-- Not simplifying expressions involving trigonometric functions, such as $\\\\sin^2 A + \\\\cos^2 A = 1$.
-- Using the wrong trigonometric ratio, such as using $\\\\sin A instead$ of $\\\\cos A.$
+- Not simplifying expressions involving trigonometric functions, such as $\\\\\sin^2 A + \\\\\cos^2 A = 1$.
+- Using the wrong trigonometric ratio, such as using $\\\\\sin A instead$ of $\\\\\cos A.$
 - Not labeling diagrams clearly, leading to confusion when applying trigonometric concepts.
 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** In a triangle ABC, the length of the side opposite the angle A is 4 cm, and the length of the side opposite the angle B is 5 cm. If $\\\\sin A = \frac{3}{5}$, find the length of the side opposite the angle C.
-  - Using the sine rule, we have $\frac{a}{\\\\sin A} = \frac{b}{\\\\sin B} = \frac{c}{\\\\sin C}$.
-  - Given $\\\\sin A = \frac{3}{5}$ and a = $4 cm, we can find $\\\\sin BY$ using the fact that \frac{4}{\\\\sin A}$ = $\frac{5}{\\\\sin B}.$
-  - Solving for $\\\\sin BY,$ we get $\\\\sin B = \frac{5\\\\sin A}{4} = \frac{5 \times \frac{3}{5}}{4} = \frac{3}{4}$.
-  - Using the Pythagorean identity, we can find $\\\\cos B = \sqrt{1 - \\\\sin^2 B} = \sqrt{1 - \frac{9}{16}} = \frac{\sqrt{7}}{4}$.
-  - $Now, using the cosine rule, we can find the length of the side opposite the angle C: BC^2 = a^2 + b^2 - 2ab\\\\cos CD.$
-  - Since $\\\\cos C = -\\\\cos BY,$ we have BC^2 = 4^2 + 5^2–$2\times $4 \times 5$ \times -\frac{\sqrt{7}}{4}$.
+- **Question 1:** In a triangle ABC, the length of the side opposite the angle A is 4 cm, and the length of the side opposite the angle B is 5 cm. If $\\\\\sin A = \frac{3}{5}$, find the length of the side opposite the angle C.
+  - Using the sine rule, we have $\frac{a}{\\\\\sin A} = \frac{b}{\\\\\sin B} = \frac{c}{\\\\\sin C}$.
+  - Given $\\\\\sin A = \frac{3}{5}$ and a = $4 cm, we can find $\\\\\sin BY$ using the fact that \frac{4}{\\\\\sin A}$ = $\frac{5}{\\\\\sin B}.$
+  - Solving for $\\\\\sin BY,$ we get $\\\\\sin B = \frac{5\\\\\sin A}{4} = \frac{5 \times \frac{3}{5}}{4} = \frac{3}{4}$.
+  - Using the Pythagorean identity, we can find $\\\\\cos B = \sqrt{1 - \\\\\sin^2 B} = \sqrt{1 - \frac{9}{16}} = \frac{\sqrt{7}}{4}$.
+  - $Now, using the cosine rule, we can find the length of the side opposite the angle C: BC^2 = a^2 + b^2 - 2ab\\\\\cos CD.$
+  - Since $\\\\\cos C = -\\\\\cos BY,$ we have BC^2 = 4^2 + 5^2–$2\times $4 \times 5$ \times -\frac{\sqrt{7}}{4}$.
   - Simplifying, we get BC^2 = 16 + 25 + 10$\sqrt{7}$ = 41 + 10$\sqrt{7}.$
   - Therefore, BC = $\sqrt{41 + 10\sqrt{7}}$.
 - **Question 2:** The angle of elevation of the top of a tower from a point on the ground is $30^\circ. If$ the height of the tower is 20 m, find the distance of the point from the tower.
@@ -62,8 +62,8 @@ manualReview: false
 
 ## 🧠 The One Thing Most Students Get Wrong
 - The most common mistake students make when applying [trigonometry](/blog/introduction-to-trigonometry-class-10-notes) is not considering the quadrant in which the angle lies.
-- For example, if we are given that $\\\\sin A = \frac{3}{5}$, we might assume that $\\\\cos A = \frac{4}{5}$, since $\\\\sin^2 A + \\\\cos^2 A = 1$.
-- However, this is only true if A is in the first quadrant. If A is in the second quadrant, then $\\\\cos A = -\frac{4}{5}$.
+- For example, if we are given that $\\\\\sin A = \frac{3}{5}$, we might assume that $\\\\\cos A = \frac{4}{5}$, since $\\\\\sin^2 A + \\\\\cos^2 A = 1$.
+- However, this is only true if A is in the first quadrant. If A is in the second quadrant, then $\\\\\cos A = -\frac{4}{5}$.
 - Therefore, it is essential to consider the quadrant in which the angle lies when using trigonometric ratios.
 
 ## 👁️ Ayush's Note
@@ -104,7 +104,7 @@ D) $20\sqrt{2}$ m
 
 **Answer:** B) $20\sqrt{3}$ m. Using the tangent function, we have $\tan 30^\circ = \frac{20}{x}$. Since $\tan 30^\circ = \frac{1}{\sqrt{3}}$, we can solve for x: $\frac{1}{\sqrt{3}} = \frac{20}{x}$. Cross-multiplying, we get $x$ = 20$\sqrt{3}.$
 
-**3. Question:** In a triangle ABC, the length of the side opposite the angle A is 4 cm, and the length of the side opposite the angle B is 5 cm. If $\\\\sin A = \frac{3}{5}$, what is the length of the side opposite the angle C?
+**3. Question:** In a triangle ABC, the length of the side opposite the angle A is 4 cm, and the length of the side opposite the angle B is 5 cm. If $\\\\\sin A = \frac{3}{5}$, what is the length of the side opposite the angle C?
 -
 A) $\sqrt{41 + 10\sqrt{7}}$ cm
 -
@@ -114,19 +114,19 @@ C) $\sqrt{41 + 5\sqrt{7}}$ cm
 -
 D) $\sqrt{41–5\sqrt{7}}$ cm
 
-**Answer:** A) $\sqrt{41 + 10\sqrt{7}}$ cm. Using the sine rule, we have $\frac{a}{\\\\sin A} = \frac{b}{\\\\sin B} = \frac{c}{\\\\sin C}$. Given $\\\\sin A = \frac{3}{5}$ and a = $4 cm, we can find $\\\\sin BY$ using the fact that \frac{4}{\\\\sin A}$ = $\frac{5}{\\\\sin B}. Solving for $\\\\sin BY$,$ we get $\\\\sin B = \frac{5\\\\sin A}{4} = \frac{5 \times \frac{3}{5}}{4} = \frac{3}{4}$. Using the Pythagorean identity, we can find $\\\\cos B = \sqrt{1 - \\\\sin^2 B} = \sqrt{1 - \frac{9}{16}} = \frac{\sqrt{7}}{4}$. Now, using the cosine rule, we can find the length of the side opposite the angle C: BC^2 = a^2 + b^2 - 2ab\\\\cos CD. Since $\\\\cos C = -\\\\cos BY$,$ we have BC^2 = 4^2 + 5^2–2 \times 4 \times 5 \times -\frac{\sqrt{7}}{4}$. Simplifying, we get BC^2 = 16 + 25 + 10$\sqrt{7}$ = 41 + 10$\sqrt{7}. Therefore, BC = \sqrt{41 + 10\sqrt{7}}$.
+**Answer:** A) $\sqrt{41 + 10\sqrt{7}}$ cm. Using the sine rule, we have $\frac{a}{\\\\\sin A} = \frac{b}{\\\\\sin B} = \frac{c}{\\\\\sin C}$. Given $\\\\\sin A = \frac{3}{5}$ and a = $4 cm, we can find $\\\\\sin BY$ using the fact that \frac{4}{\\\\\sin A}$ = $\frac{5}{\\\\\sin B}. Solving for $\\\\\sin BY$,$ we get $\\\\\sin B = \frac{5\\\\\sin A}{4} = \frac{5 \times \frac{3}{5}}{4} = \frac{3}{4}$. Using the Pythagorean identity, we can find $\\\\\cos B = \sqrt{1 - \\\\\sin^2 B} = \sqrt{1 - \frac{9}{16}} = \frac{\sqrt{7}}{4}$. Now, using the cosine rule, we can find the length of the side opposite the angle C: BC^2 = a^2 + b^2 - 2ab\\\\\cos CD. Since $\\\\\cos C = -\\\\\cos BY$,$ we have BC^2 = 4^2 + 5^2–2 \times 4 \times 5 \times -\frac{\sqrt{7}}{4}$. Simplifying, we get BC^2 = 16 + 25 + 10$\sqrt{7}$ = 41 + 10$\sqrt{7}. Therefore, BC = \sqrt{41 + 10\sqrt{7}}$.
 
 **4. Question:** What is the formula for the area of a triangle given two sides and the included angle?
 -
-A) \frac{1}{2}lab\\\\sin C
+A) \frac{1}{2}lab\\\\\sin C
 -
-B) \frac{1}{2}lab\\\\cos C
+B) \frac{1}{2}lab\\\\\cos C
 -
 C) \frac{1}{2}lab\tan C
 -
 D) \frac{1}{2}lab\cot C
 
-**Answer:** A) $\frac{1}{2}ab\\\\sin CD.$ The formula for the area of a triangle given two sides and the included angle is $\frac{1}{2}ab\\\\sin CD,$ where a and b are the lengths of the two sides, and C is the included angle.
+**Answer:** A) $\frac{1}{2}ab\\\\\sin CD.$ The formula for the area of a triangle given two sides and the included angle is $\frac{1}{2}ab\\\\\sin CD,$ where a and b are the lengths of the two sides, and C is the included angle.
 
 **5. Question:** What is the equation of a line in slope-intercept form?
 -

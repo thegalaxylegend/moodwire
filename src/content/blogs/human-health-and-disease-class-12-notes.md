@@ -78,7 +78,7 @@ EQ Acquired
 - Answer: $\frac{Transmission}{Mode} = \frac{Airborne + Waterborne + Vector-borne + Contagious + Zoonotic}{Total \$: transmission}
 
 ## 🧠 The One Thing Most Students Get Wrong
-- The concept of health and disease is often misunderstood by students, with many thinking that health is the absence of disease: health 
+- The concept of [health](/blog/reproductive-health-class-12-notes) and disease is often misunderstood by students, with many thinking that [health](/blog/reproductive-health-class-12-notes) is the absence of disease: [health](/blog/reproductive-health-class-12-notes) 
  EQ \frac{1}{Disease} 
 - However, health is a state of complete physical, mental, and social well-being, and not just the absence of disease or infirmity: health = $\frac{Physical \$: well-being}{Mental \: well-being} $\times \frac{Social \$: well-being}{Economic \: well-being}
 - Students must understand that health and disease are two separate concepts, and that health is a broader concept that encompasses physical, mental, and social well-being: $\frac{Health}{Disease} = \frac{Well-being}{Infirmity}$
@@ -166,7 +166,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Human%20Health%20And%20Disease%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Human](/blog/microbes-in-human-welfare-class-12-notes)%20Health%20And%20Disease%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

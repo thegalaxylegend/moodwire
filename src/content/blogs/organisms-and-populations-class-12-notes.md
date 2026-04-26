@@ -25,10 +25,10 @@ manualReview: false
 ## ⚡ Formula Bank
 - Population growth rate is given by the formula: $\frac{dN}{dt} = rN$
 - The carrying capacity of a population is given by the formula: $K = \frac{r}{\alpha}$
-- The logistic growth equation is given by: $\frac{dN}{dt} = rN \left(1 - \frac{N}{K}\r\r\r\right)$
+- The logistic growth equation is given by: $\frac{dN}{dt} = rN \left(1 - \frac{N}{K}\r\r\r\r\right)$
 - The species-area relationship is given by: $S = cA^z$
 - The Shannon-Wiener diversity index is given by: $H = - \sum_{i=1}^{S} p_i \ln p_i$
-- The Simpson's diversity index is given by: $D = 1 - \sum_{i=1}^{S} \left(\frac{n_i}{N}\r\r\r\right)^2$
+- The Simpson's diversity index is given by: $D = 1 - \sum_{i=1}^{S} \left(\frac{n_i}{N}\r\r\r\r\right)^2$
 - The population density is given by: $\rho = \frac{N}{A}$
 - The birth rate is given by: $\beta = \frac{B}{N}$
 - The death rate is given by: $\delta = \frac{D}{N}$
@@ -58,7 +58,7 @@ manualReview: false
 - **Answer:** The number of species of birds expected to be found on the island is 100.
 - **Question 3:** A population of fish is growing in a pond. The population size after 1 year is 500, and after 2 years is 700. What is the carrying capacity of the pond?
 - Step 1: Understand the problem and identify the given information.
-- Step 2: Use the logistic growth equation: $\frac{dN}{dt} = rN \left(1 - \frac{N}{K}\r\r\r\right)$.
+- Step 2: Use the logistic growth equation: $\frac{dN}{dt} = rN \left(1 - \frac{N}{K}\r\r\r\r\right)$.
 - Step 3: Calculate the carrying capacity using the given information: $K = \frac{rN}{\frac{dN}{dt}} = \frac{0.2 \times 500}{100} = 1000$.
 - **Answer:** The carrying capacity of the pond is 1000.
 
@@ -82,9 +82,9 @@ A) \frac{dN}{dt} = rN
 -
 B) \frac{dN}{dt} = rK
 -
-C) \frac{dN}{dt} = r \left(1 - \frac{N}{K}\r\r\r\right)
+C) \frac{dN}{dt} = r \left(1 - \frac{N}{K}\r\r\r\r\right)
 -
-D) \frac{dN}{dt} = r \left(\frac{N}{K}\r\r\r\right)
+D) \frac{dN}{dt} = r \left(\frac{N}{K}\r\r\r\r\right)
 
 **Answer:** A) \frac{dN}{dt} = rN
 
@@ -114,15 +114,15 @@ D) H = \sum_{i=1}^{S} p_i \ln (1-p_i)
 
 **4. What is the Simpson's diversity index?**
 -
-A) D = 1 - \sum_{i=1}^{S} \left(\frac{n_i}{N}\r\r\r\right)^2
+A) D = 1 - \sum_{i=1}^{S} \left(\frac{n_i}{N}\r\r\r\r\right)^2
 -
-B) D = 1 - \sum_{i=1}^{S} \left(\frac{n_i}{N}\r\r\r\right)
+B) D = 1 - \sum_{i=1}^{S} \left(\frac{n_i}{N}\r\r\r\r\right)
 -
-C) D = \sum_{i=1}^{S} \left(\frac{n_i}{N}\r\r\r\right)^2
+C) D = \sum_{i=1}^{S} \left(\frac{n_i}{N}\r\r\r\r\right)^2
 -
-D) D = \sum_{i=1}^{S} \left(\frac{n_i}{N}\r\r\r\right)
+D) D = \sum_{i=1}^{S} \left(\frac{n_i}{N}\r\r\r\r\right)
 
-**Answer:** A) D = 1 - \sum_{i=1}^{S} \left(\frac{n_i}{N}\r\r\r\right)^2
+**Answer:** A) D = 1 - \sum_{i=1}^{S} \left(\frac{n_i}{N}\r\r\r\r\right)^2
 
 **5. What is the formula for population density?**
 -
@@ -134,7 +134,7 @@ C) \rho = \frac{N}{V}
 -
 D) \rho = \frac{V}{N}
 
-**Answer:** A) \rho = \frac{N}{A} 
+**Answer:** A) \rho = \frac{N}{A}
 
 ---
 

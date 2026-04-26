@@ -154,7 +154,7 @@ Continue your [revision](/blog/ancient-india-mahajanapadas-class-11-revision-not
 
 * **[Chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) Bonding**: Ionic (electrostatic), Covalent (sharing), Hydrogen bonding
 * **Periodic Table**: Metals (s-block), Non-metals (p-block), Metalloids (border)
-* **Chemical Reactions**: Synthesis, Decomposition, Single displacement, Double displacement
+* **[Chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) Reactions**: Synthesis, Decomposition, Single displacement, Double displacement
 * **Atomic Structure**: Protons, Neutrons, Electrons, Orbitals (s, p, d, f)
 * **Thermodynamics**: Laws (Zeroth, First, Second, Third), Entropy, Enthalpy, Gibbs free energy
 * **Kinetics**: Rate of reaction, Catalysts, Activation energy, Collision theory

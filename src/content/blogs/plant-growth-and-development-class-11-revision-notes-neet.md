@@ -115,7 +115,7 @@ Why students get it wrong: Abscisic acid is often confused with auxins, which pr
 ## <a id="practice-mcqs"></a>Practice MCQs
 
 1. What is the primary function of auxins n [plant](/blog/plant-kingdom-class-11-revision-notes-neet) growth and development?
-A) Promote cell division
+A) Promote [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division
 B) Promote cell elongation
 C) Inhibit growth
 D) Promote fruit ripening
@@ -144,7 +144,7 @@ B) Long-day [plant](/blog/plant-kingdom-class-11-revision-notes-neet)
 C) Day-neutral [plant](/blog/plant-kingdom-class-11-revision-notes-neet)
 D) Photoperiodic [plant](/blog/plant-kingdom-class-11-revision-notes-neet)
 
-Answer: A) Short-day plant
+Answer: A) Short-day [plant](/blog/plant-kingdom-class-11-revision-notes-neet)
 
 5. What is the formula for auxin-induced cell elongation?
  A) \frac{dL}{dt} = dt}{\frac{dL}{dt} = k \\\cdot \frac{dC}{dt}} 
@@ -194,7 +194,7 @@ Continue your [revision](/blog/morphology-of-flowering-plants-class-11-revision-
 
 ## 🔁 Last 5 Minutes Box
 
-- **Photoperiodism**: Response of plants to the duration of light and darkness.
+- **Photoperiodism**: Response of [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) to the duration of light and darkness.
    - **Vernalisation**: Promotion of flowering by a period of cold.
    - **Auxins**: Indole acetic acid (IAA), indole butyric acid (IBA), naphthalene acetic acid (NAA).
    - **Gibberellins**: GA3 (gibberellic acid), breaks seed dormancy, promotes stem elongation.

@@ -72,7 +72,7 @@ manualReview: false
 - Practice of drawing diagrams and labeling the different parts of the flower.
 - Review of the process of double fertilization and its significance in the development of the embryo and the formation of the seed.
 - Quick review of the role of the endosperm in the development of the embryo.
-- Final check of the importance of pollination and fertilization in the process of sexual reproduction.
+- Final check of the importance of pollination and fertilization in the process of sexual [reproduction](/blog/reproduction-in-organisms-class-12-notes).
 
 ## 📝 Practice MCQs
 **1. What is the process by which the microspore mother cells undergo meiosis to produce microspores?**

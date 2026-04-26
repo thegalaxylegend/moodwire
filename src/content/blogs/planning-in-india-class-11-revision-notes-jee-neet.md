@@ -99,7 +99,7 @@ Continue your [revision](/blog/poverty-unemployment-class-11-revision-notes-jee-
 
 ## 🪤 Common Mistakes That Cost Marks
 
-When studying Planning in India for Class 11 Economics, there are several common mistakes that students make, which can cost them valuable marks in the exams. Here are a few of these mistakes to watch out for:
+When studying Planning in [India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) for Class 11 Economics, there are several common mistakes that students make, which can cost them valuable marks in the exams. Here are a few of these mistakes to watch out for:
 * Not understanding the difference between the Five-Year Plans, annual plans, and perspective planning, which can lead to confusion when answering questions.
 * Failing to recognize the importance of planning in India's economic development, which can result in incomplete or inaccurate answers.
 * Not being able to identify the focus areas of each Five-Year Plan, such as agriculture, rapid industrialization, or growth with stability.

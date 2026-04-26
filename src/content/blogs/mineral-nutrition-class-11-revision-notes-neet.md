@@ -249,7 +249,7 @@ Continue your [revision](/blog/hydrogen-class-11-revision-notes-neet) with these
 ## 🔁 Last 5 Minutes Box
 
 ### Essential Mineral Elements
-   * 17 essential elements required by plants: C, H, O, N, P, S, K, Ca, Mg, Fe, Cu, B, Mn, Mo, Zn, Cl
+   * 17 essential [elements](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) required by plants: C, H, O, N, P, S, K, Ca, Mg, Fe, Cu, B, Mn, Mo, Zn, Cl
    * Macronutrients: C, H, O, N, P, S, K, Ca, Mg
    * Micronutrients: Fe, Cu, B, Mn, Mo, Zn, Cl
    ### Functions of Essential Mineral Elements

@@ -121,7 +121,7 @@ D) 12 ATP
 
 Answer: C) 36-38 ATP
 
-5. What is the difference between aerobic and anaerobic respiration and plants?
+5. What is the difference between aerobic and anaerobic respiration and [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)?
 A) Aerobic respiration occurs and the presence of light, while anaerobic respiration occurs and the absence of light.
 B) Aerobic respiration occurs and the presence of oxygen, while anaerobic respiration occurs and the absence of oxygen.
 C) Aerobic respiration produces CO2 and H2O, while anaerobic respiration produces ethanol and CO2.

@@ -52,7 +52,7 @@ manualReview: false
 - Most students get confused between the [wave](/blog/wave-optics-class-12-notes)-like and particle-like behavior of radiation, and are not able to apply the correct formulas to different situations. It is essential to understand that radiation can exhibit both [wave](/blog/wave-optics-class-12-notes)-like and particle-like behavior depending on the situation, and to be able to distinguish between the two.
 
 ## 👁️ Ayush's Note
-- To solve problems related to the dual nature of radiation, it is essential to first identify the type of radiation and the situation in which it is being observed. Then, apply the relevant formulas and concepts to solve the problem. It is also important to be able to distinguish between the wave-like and particle-like behavior of radiation and to apply the correct formulas to different situations.
+- To solve problems related to the dual nature of radiation, it is essential to first identify the type of radiation and the situation in which it is being observed. Then, apply the relevant formulas and concepts to solve the problem. It is also important to be able to distinguish between the [wave](/blog/wave-optics-class-12-notes)-like and particle-like behavior of radiation and to apply the correct formulas to different situations.
 
 ## 🔁 Last 5 Minutes Box
 - Revision of key concepts and formulas related to the dual nature of radiation

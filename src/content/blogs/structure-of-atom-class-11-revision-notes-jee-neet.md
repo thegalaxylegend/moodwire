@@ -162,7 +162,7 @@ For a microscopic electron, $\\lambda$ is significant ($\sim$ atomic dimensions)
 
 ## <a id="7-quantum-mechanical-model-understanding-wave-functions"></a>7. Quantum Mechanical Model: Understanding Wave Functions
 
-**The Quantum Mechanical Model is the modern description of the atom based on the mathematical solution of the Schrodinger wave equation.**
+**The Quantum Mechanical Model is the modern description of the [atom](/blog/structure-of-the-atom-class-11-revision-notes-neet) based on the mathematical solution of the Schrodinger wave equation.**
 
 In this model:
 - Orbitals take the place of Orbits.
@@ -213,7 +213,7 @@ For an orbital with quantum numbers $n$ n $l$:
 
 **Configuration Exceptions occur when an atom achieves a lower energy state (higher stability) y slightly deviating from the Aufbau energy order.**
 
-- **Chromium ($Z=24$):** $Expected [Ar] 4s^2 3d^4$\rightarrow$**Actual [Ar] 4s^1 3d^5**.$
+- **Chromium ($Z=24$):** $Expected [Ar] 4s^2 3d^4\rightarrow**Actual [Ar] 4s^1 3d^5**.$
 - $**Copper (Z=29):** Expected [Ar] 4s^2 3d^9\rightarrow **Actual [Ar] 4s^1 3d^{10}**.$
 
 **Why?**

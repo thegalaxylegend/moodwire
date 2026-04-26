@@ -109,7 +109,7 @@ Why students get it wrong: Students often confuse the alkali metals with the alk
 
 * Wrong answer: The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are non-metals.
 Right answer: The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are metals.
-Why students get it wrong: Students often think that the s-block elements are non-metals because they are located and the same group as the non-metals.
+Why students get it wrong: Students often think that the s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are non-metals because they are located and the same group as the non-metals.
 
 ## <a id="practice-mcqs"></a>Practice MCQs
 

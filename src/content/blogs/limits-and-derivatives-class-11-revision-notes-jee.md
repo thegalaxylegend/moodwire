@@ -59,7 +59,7 @@ The concept of derivatives, on the other hand, is like having a superpower. It a
 
 One of the most significant challenges students face when learning Limits and Derivatives is the abstract nature of the concepts. It's easy to get lost and the sea of formulas and theorems, without fully understanding the underlying principles. However, with the right approach, Limits and Derivatives can be a fascinating and rewarding topic. By focusing on the core concepts, practicing regularly, n applying the concepts to real-world problems, students can develop a deep understanding of the subject.
 
-To illustrate the concept of limits, consider the function $f(x) = \frac{1}{x}$ as $x$ approaches infinity. Using the concept of limits, we can calculate that $\lim_{x \to \infty\frac{1}{x} = 0$. This concept can be further extended to more complex functions, such as $\lim_{x \to 0\frac{\\\\sin x}{x} = 1$. These examples demonstrate the power of limits and understanding the behavior of functions.
+To illustrate the concept of limits, consider the function $f(x) = \frac{1}{x}$ as $x$ approaches infinity. Using the concept of limits, we can calculate that $\lim_{x \to \infty\frac{1}{x} = 0$. This concept can be further extended to more complex functions, such as $\lim_{x \to 0\frac{\\\\\sin x}{x} = 1$. These examples demonstrate the power of limits and understanding the behavior of functions.
 
 Similarly, derivatives can be used to analyze functions and optimize them. For instance, the derivative of the function $f(x) = x^2$ is $f'(x) = 2x$. This can be used to find the maximum or minimum value of the function, which is essential and a wide range of applications. By applying the concept of derivatives, students can develop a deeper understanding of how functions behave and how they can be optimized.
 
@@ -115,8 +115,8 @@ The Squeeze Theorem is a fundamental concept and calculus that states if a funct
 
 | Function | Limit | Squeeze Theorem Application |
 | --- | --- | --- |
-| $\\\sin(x)/x$ | $1$ | Squeeze between $1 - (x^2)/2!$ n $1$ |
-| $(1 - \\\cos(x))/x^2$ | $1/2$ | Squeeze between $(1 - \\\cos(x))/x^2$ n $(x^2)/2!$ |
+| $\\\\sin(x)/x$ | $1$ | Squeeze between $1 - (x^2)/2!$ n $1$ |
+| $(1 - \\\\cos(x))/x^2$ | $1/2$ | Squeeze between $(1 - \\\\cos(x))/x^2$ n $(x^2)/2!$ |
 | $e^x - 1$ | $x$ | Squeeze between $(1 + x)$ n $1 + x + (x^2)/2!$ |
 | $tan(x)$ | $0$ | Squeeze between $-x$ n $x$ |
 | $(x^3 + 2x^2 + x + 1)/(x^3 + x^2)$ | $1$ | Squeeze between $(x^3 + x^2)/(x^3 + x^2)$ n $(x^3 + 2x^2 + x + 1)/(x^3 + 2x^2)$ |
@@ -140,8 +140,8 @@ What is Ayush's Note on Limits and Derivatives? is a detailed study guide for ca
 | Rule | Formula | Example |
 | --- | --- | --- |
 | Power Rule | $\frac{d}{dx}}{\frac{d}{dx} x^2 = 2x}  | $ |
-| Product Rule | $\frac{d}{dx} = \frac{d{dx} (x^2 \\\\sin x) = 2x \\\\sin x + x^2 \\\\cos x}  | $ |
-| Quotient Rule | $\frac{d}{dx} = g(x) = \frac{f'(x)g(x) - f(x)g'(x)}{g(x)^2}}{\frac{d}{dx\frac{x^2} = \\\\sin x = \frac{2x \\\\sin x - x^2 \\\\cos x}{\\\\sin^2 x}}  | $ |
+| Product Rule | $\frac{d}{dx} = \frac{d{dx} (x^2 \\\\\sin x) = 2x \\\\\sin x + x^2 \\\\\cos x}  | $ |
+| Quotient Rule | $\frac{d}{dx} = g(x) = \frac{f'(x)g(x) - f(x)g'(x)}{g(x)^2}}{\frac{d}{dx\frac{x^2} = \\\\\sin x = \frac{2x \\\\\sin x - x^2 \\\\\cos x}{\\\\\sin^2 x}}  | $ |
 
 ## <a id="what-are-the-different-rules-of-differentiation"></a>What are the Different Rules of Differentiation?
 
@@ -160,22 +160,22 @@ How to apply the Product Rule and Quotient Rule and Derivatives? is a mathematic
 
 | Function | Product Rule | Quotient Rule |
 | --- | --- | --- |
-| $f(x) = x^2 \\\cdot \\\sin(x)$ | $f'(x) = x^2 \\\cdot \\\cos(x) + 2x \\\cdot \\\sin(x)$ | - |
-| $f(x) = \frac{\\\sin(x)}{x^2}$ | - | $f'(x) = \frac{x^2 \\\cdot \\\cos(x) - \\\sin(x) \\\cdot 2x}{x^4}$ |
+| $f(x) = x^2 \\\cdot \\\\sin(x)$ | $f'(x) = x^2 \\\cdot \\\\cos(x) + 2x \\\cdot \\\\sin(x)$ | - |
+| $f(x) = \frac{\\\\sin(x)}{x^2}$ | - | $f'(x) = \frac{x^2 \\\cdot \\\\cos(x) - \\\\sin(x) \\\cdot 2x}{x^4}$ |
 | $f(x) = x^3 \\\cdot e^x$ | $f'(x) = x^3 \\\cdot e^x + 3x^2 \\\cdot e^x$ | - |
 | $f(x) = \frac{e^x}{x^2 + 1}$ | - | $f'(x) = \frac{(x^2 + 1) \\\cdot e^x - e^x \\\cdot 2x}{(x^2 + 1)^2}$ |
-| $f(x) = \\\sin(x) \\\cdot \\\cos(x)$ | $f'(x) = \\\sin(x) \\\cdot (-\\\sin(x)) + \\\cos(x) \\\cdot \\\cos(x)$ | - |
-| $f(x) = \frac{\\\cos(x)}{\\\sin(x)}$ | - | $f'(x) = \frac{\\\sin(x) \\\cdot (-\\\sin(x)) - \\\cos(x) \\\cdot \\\cos(x)}{\\\sin^2(x)}$ |
+| $f(x) = \\\\sin(x) \\\cdot \\\\cos(x)$ | $f'(x) = \\\\sin(x) \\\cdot (-\\\\sin(x)) + \\\\cos(x) \\\cdot \\\\cos(x)$ | - |
+| $f(x) = \frac{\\\\cos(x)}{\\\\sin(x)}$ | - | $f'(x) = \frac{\\\\sin(x) \\\cdot (-\\\\sin(x)) - \\\\cos(x) \\\cdot \\\\cos(x)}{\\\\sin^2(x)}$ |
 
 ## <a id="what-is-the-chain-rule-n-its-application-n-derivatives"></a>What is the Chain Rule and its application and Derivatives?
 
-The Chain Rule is a fundamental principle and calculus that enables us to differentiate composite functions. It includes the identification of the outer and inner functions, the application of the power rule and other differentiation rules to the inner function, n the multiplication of the derivatives of the outer and inner functions. For class 11 exam prep and 2026, the most important aspect is understanding how to apply the Chain Rule to various types of composite functions, including polynomial, trigonometric, n exponential functions.
+The Chain Rule is a fundamental [principle](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) and calculus that enables us to differentiate composite functions. It includes the identification of the outer and inner functions, the application of the power rule and other differentiation rules to the inner function, n the multiplication of the derivatives of the outer and inner functions. For class 11 exam prep and 2026, the most important aspect is understanding how to apply the Chain Rule to various types of composite functions, including polynomial, trigonometric, n exponential functions.
 
 To grasp the Chain Rule, let's first understand the concept of composite functions. A composite function is a function of the form $f(g(x))$, where $f$ n $g$ are two separate functions. The Chain Rule states that the derivative of a composite function $f(g(x))$ is given y $f'(g(x)) \\cdot g'(x)$. This can be expressed mathematically as: 
 
  \frac{d}{dx} = f f(g(x)) = f'(g(x)) \\cdot g'(x) 
 
-To apply the Chain Rule, we need to identify the outer and inner functions. The outer function is the function $ that is being applied to the inner function $g(x)$. For example, n the composite function $f(g(x)) = \\\sin(x^2)$, the outer function is $\\\sin(u)$ n the inner function is $u = x^2$.$
+To apply the Chain Rule, we need to identify the outer and inner functions. The outer function is the function $ that is being applied to the inner function $g(x)$. For example, n the composite function $f(g(x)) = \\\\sin(x^2)$, the outer function is $\\\\sin(u)$ n the inner function is $u = x^2$.$
 
 Here are some key steps to apply the Chain Rule:
 1. Identify the outer and inner [functions](/blog/relations-and-functions-class-11-notes).
@@ -187,8 +187,8 @@ The Chain Rule can be applied to various types of functions, including polynomia
 
 | Function | Outer Function | Inner Function | Derivative of Outer Function | Derivative of Inner Function | Final Derivative |
 | --- | --- | --- | --- | --- | --- |
-| $f(x) = \\\sin(x^2)$ | $\\\sin(u)$ | $u = x^2$ | $\\\cos(u)$ | $2x$ | $2x\\\cos(x^2)$ |
-| $f(x) = \\\cos(3x)$ | $\\\cos(u)$ | $u = 3x$ | $-\\\sin(u)$ | $3$ | $-3\\\sin(3x)$ |
+| $f(x) = \\\\sin(x^2)$ | $\\\\sin(u)$ | $u = x^2$ | $\\\\cos(u)$ | $2x$ | $2x\\\\cos(x^2)$ |
+| $f(x) = \\\\cos(3x)$ | $\\\\cos(u)$ | $u = 3x$ | $-\\\\sin(u)$ | $3$ | $-3\\\\sin(3x)$ |
 | $f(x) = e^{2x}$ | $e^u$ | $u = 2x$ | $e^u$ | $2$ | $2e^{2x}$ |
 | $f(x) = (2x+1)^5$ | $u^5$ | $u = 2x+1$ | $5u^4$ | $2$ | $10(2x+1)^4$ |
 | $f(x) = \tan(x^2)$ | $\tan(u)$ | $u = x^2$ | $sec^2(u)$ | $2x$ | $2xsec^2(x^2)$ |
@@ -206,10 +206,10 @@ The following table summarizes the key shortcuts for limits and derivatives:
 | Technique | Formula | Example |
 | --- | --- | --- |
 | Factoring | Cancel common factors | \lim (x->2) (x^2-4)/(x-2) = \lim (x->2) (x+2) = 4 |
-| L'Hospital's rule | \lim (x->a) f(x)/g(x) = \lim (x->a) f'(x)/g'(x) | \lim (x->0) \\\sin(x)/x = \lim (x->0) \\\cos(x) = 1 |
+| L'Hospital's rule | \lim (x->a) f(x)/g(x) = \lim (x->a) f'(x)/g'(x) | \lim (x->0) \\\\sin(x)/x = \lim (x->0) \\\\cos(x) = 1 |
 | Power rule | f'(x) = nx^{n-1} | if f(x) = x^2, then f'(x) = 2x |
-| Product rule | f'(x) = u'(x)v(x) + u(x)v'(x) | if f(x) = x^2\\\sin(x), then f'(x) = 2x\\\sin(x) + x^2\\\cos(x) |
-| Quotient rule | f'(x) = (u'(x)v(x) - u(x)v'(x))/v(x)^2 | if f(x) = \\\sin(x)/x, then f'(x) = (x\\\cos(x) - \\\sin(x))/x^2 |
+| Product rule | f'(x) = u'(x)v(x) + u(x)v'(x) | if f(x) = x^2\\\\sin(x), then f'(x) = 2x\\\\sin(x) + x^2\\\\cos(x) |
+| Quotient rule | f'(x) = (u'(x)v(x) - u(x)v'(x))/v(x)^2 | if f(x) = \\\\sin(x)/x, then f'(x) = (x\\\\cos(x) - \\\\sin(x))/x^2 |
 
 ## <a id="what-are-common-trap-questions-for-limits-n-derivatives"></a>What are common Trap Questions for Limits and Derivatives?
 
@@ -217,7 +217,7 @@ What are common Trap Questions for Limits and Derivatives? is a critical aspect 
 
 To tackle these questions, it's essential to have a solid grasp of basic limit and derivative properties, including linearity, homogeneity, n the chain rule. Many students struggle with applying these properties correctly, especially when dealing with complex functions or trigonometric expressions. For instance, when evaluating the limit of a function as $x$ approaches infinity, students often forget to consider the behavior of the function's numerator and denominator separately.
 
-One common trap question involves evaluating the limit of a function that appears to be and an indeterminate form. Consider the function $f(x) = \frac{\\\\sin x}{x}$ as $x$ approaches 0.$ Many students might incorrectly apply L'Hospital's rule, which states that for certain types of indeterminate forms, the limit can be evaluated y taking the derivative of the numerator and denominator separately. However, n this case, the function is not and an indeterminate form, n the limit can be evaluated directly using the fundamental trigonometric limit $lim_{x 	o 0$\frac{\\\\sin x}{x}$ = 1$.$
+One common trap question involves evaluating the limit of a function that appears to be and an indeterminate form. Consider the function $f(x) = \frac{\\\\\sin x}{x}$ as $x$ approaches 0.$ Many students might incorrectly apply L'Hospital's rule, which states that for certain types of indeterminate forms, the limit can be evaluated y taking the derivative of the numerator and denominator separately. However, n this case, the function is not and an indeterminate form, n the limit can be evaluated directly using the fundamental trigonometric limit $lim_{x 	o 0$\frac{\\\\\sin x}{x}$ = 1$.$
 
 Another common pitfall is misunderstanding the concept of continuity and its relationship to limits. A function $f(x)$ is said to be continuous at a point $x = a$ if the following conditions are met: (1) $f(a)$ is defined, (2) $lim_{x 	o a} f(x)$ exists, n (3) $lim_{x 	o a} f(x) = f(a)$. Students often struggle to apply these conditions correctly, especially when dealing with piecewise functions or functions with removable discontinuities.
 
@@ -229,7 +229,7 @@ The following table summarizes some common trap questions for limits and derivat
 
 | Trap Question | Common Mistake | Correct Approach |
 | --- | --- | --- |
-| Evaluating the limit of $f(x) = \frac{\\\\sin x}{x}$ as $x$ approaches 0 | Applying L'Hospital's rule incorrectly | Using$ the fundamental trigonometric limit $lim_{x 	o 0\frac{\\\\sin x}{x} = 1$ |$
+| Evaluating the limit of $f(x) = \frac{\\\\\sin x}{x}$ as $x$ approaches 0 | Applying L'Hospital's rule incorrectly | Using$ the fundamental trigonometric limit $lim_{x 	o 0\frac{\\\\\sin x}{x} = 1$ |$
 | Determining the continuity of a piecewise function | Forgetting to check the conditions for continuity | Verifying that $f(a)$ is defined, $lim_{x 	o a} f(x)$ exists, n $lim_{x 	o a} f(x) = f(a)$ |
 | Applying the chain rule to find the derivative of $f(x) = (2x + 1)^3$ | Forgetting to multiply the outer derivative y the inner derivative | Using the correct chain rule formula: $f'(x) = 3(2x + 1)^2 \\cdot 2 = 6(2x + 1)^2$ |
 | Evaluating the limit of $f(x) = \frac{1}{x}$ as $x$ approaches infinity | Forgetting to consider the behavior of the function's numerator and denominator | Recognizing that the limit approaches 0 as $x$ approaches infinity |
@@ -246,8 +246,8 @@ How to solve Higher Order Derivatives and its applications? is solving derivativ
 | Fourth Derivative | $n(n-1)(n-2)(n-3)x^{n-4}$ |
 
 - The derivative of e^x is e^x
-- The derivative of \\\sin(x) is \\\cos(x)
-- The derivative of \\\cos(x) is -\\\sin(x)
+- The derivative of \\\\sin(x) is \\\\cos(x)
+- The derivative of \\\\cos(x) is -\\\\sin(x)
 - The power rule states that if f(x) = x^n, then f'(x) = nx^(n-1)
 - L'Hopital's rule states that if a limit is and the form 0/0 or ∞/∞, we can take the derivative of the numerator and denominator separately and then take the limit.
 - The derivative of x^n is nx^(n-1)
@@ -271,13 +271,13 @@ D. 6x + 2 - 5
 
 **Answer:** A) To find the derivative of the function, we need to apply the power rule, which states that if f(x) = x^n, then f'(x) = nx^(n-1).
 
-**3. What is the limit as x approaches pi/2 of (\\\sin(2x)) / (2x)?**
+**3. What is the limit as x approaches pi/2 of (\\\\sin(2x)) / (2x)?**
 A. π/2
 B. 1
 C. 0
 D. undefined
 
-**Answer:** B) We can rewrite the function as (\\\sin(2x)) / (2x) which is and the form 1/x. This is a classic limit that approaches 1 as x approaches 0
+**Answer:** B) We can rewrite the function as (\\\\sin(2x)) / (2x) which is and the form 1/x. This is a classic limit that approaches 1 as x approaches 0
 
 **4. What is the derivative of f(x) = e^(2x)?**
 A. 2e^(2x)
@@ -341,5 +341,5 @@ Continue your [revision](/blog/digital-logic-class-11-revision-notes-gate-boards
 * **Derivative of a Function**: f'(x) = lim h→0 [f(x + h) - f(x)]/h, if the limit exists.
 * **Geometric Interpretation of Derivative**: f'(x) represents the rate of change of the function f with respect to x, and is the slope of the tangent to the curve at the point (x, f(x)).
 * **Derivatives of Basic Functions**:
- + If f(x) = x^n, then f'(x) = nx^(n-1)  + If f(x) = \\sin(x), then f'(x) = \\cos(x)  + If f(x) = \\cos(x), then f'(x) = -\\sin(x)  + If f(x) = e^x, then f'(x) = e^x  + If f(x) = log(x), then f'(x) = 1/x
+ + If f(x) = x^n, then f'(x) = nx^(n-1)  + If f(x) = \\\sin(x), then f'(x) = \\\cos(x)  + If f(x) = \\\cos(x), then f'(x) = -\\\sin(x)  + If f(x) = e^x, then f'(x) = e^x  + If f(x) = log(x), then f'(x) = 1/x
 

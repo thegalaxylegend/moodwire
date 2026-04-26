@@ -23,14 +23,14 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- $\vec{a} = \left( a_1$, a_2, a_3 \r\r\right)$ is a vector with components $a_1, a_2, a_3
-- $\vec{a} \cdot \vec{b} = \left| \vec{a} \right| \left| \vec{b} \right| \\\cos \theta$ is the dot product of two vectors
-- $\vec{a} \times \vec{b} = \left| \vec{a} \right| \left| \vec{b} \right| \\\sin \theta \hat{n}$ is the cross product of two vectors
+- $\vec{a} = \left( a_1$, a_2, a_3 \r\r\r\right)$ is a vector with components $a_1, a_2, a_3
+- $\vec{a} \cdot \vec{b} = \left| \vec{a} \right| \left| \vec{b} \right| \\\\cos \theta$ is the dot product of two vectors
+- $\vec{a} \times \vec{b} = \left| \vec{a} \right| \left| \vec{b} \right| \\\\sin \theta \hat{n}$ is the cross product of two vectors
 - $\left| \vec{a} \right| = \sqrt{a_1^2 + a_2^2 + a_3^2}$ is the magnitude of a vector
 - $\vec{a} \cdot \vec{a} = \left| \vec{a} \right|^2$ is the dot product of a vector with itself
 - $\vec{a} \times \vec{a} = \vec{0}$ is the cross product of a vector with itself
-- $\vec{a} \cdot \left( \vec{b} \times \vec{c} \r\r\right) = \vec{b} \cdot \left( \vec{c} \times \vec{a} \r\r\right) = \vec{c} \cdot \left( \vec{a} \times \vec{b} \r\r\right)$ is the scalar triple product
-- $\vec{a} \times \left( \vec{b} \times \vec{c} \r\r\right) = \vec{b} \left( \vec{a} \cdot \vec{c} \r\r\right) - \vec{c} \left( \vec{a} \cdot \vec{b} \r\r\right)$ is the vector triple product
+- $\vec{a} \cdot \left( \vec{b} \times \vec{c} \r\r\r\right) = \vec{b} \cdot \left( \vec{c} \times \vec{a} \r\r\r\right) = \vec{c} \cdot \left( \vec{a} \times \vec{b} \r\r\r\right)$ is the scalar triple product
+- $\vec{a} \times \left( \vec{b} \times \vec{c} \r\r\r\right) = \vec{b} \left( \vec{a} \cdot \vec{c} \r\r\r\right) - \vec{c} \left( \vec{a} \cdot \vec{b} \r\r\r\right)$ is the vector triple product
 - $\vec{a} = \\lambda \vec{b}$ implies $\vec{a}$ is parallel to $\vec{b}$ if $\\lambda$ is a scalar
 - $\vec{a} \cdot \vec{b} = 0$ implies $\vec{a}$ is perpendicular to $\vec{b}$
 - $\vec{a} \times \vec{b} = \vec{0}$ implies $\vec{a}$ is parallel to $\vec{b}$
@@ -43,15 +43,15 @@ manualReview: false
 - Not using the properties of the scalar triple product and vector triple product to simplify calculations
 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** If $\vec{a} = \left( 1, 2, 3 \r\r\right)$ and $\vec{b} = \left( 4, 5, 6 \r\r\right)$, find $\vec{a} \cdot \vec{b}$ and $\vec{a} \times \vec{b}$
-  - $\vec{a} \cdot \vec{b} = \left( 1 \r\r\right) \left( 4 \r\r\right) + \left( 2 \r\r\right) \left( 5 \r\r\right) + \left( 3 \r\r\right) \left( 6 \r\r\right) = 4 + 10 + 18 = 32$
-  - $\vec{a} \times \vec{b} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 1 & 2 & 3 \\ 4 & 5 & 6 \end{vmatrix} = \hat{i} \left( 12 - 15 \r\r\right) - \hat{j} \left( 6 - 12 \r\r\right) + \hat{k} \left( 5 - 8 \r\r\right) = -3 \hat{i} + 6 \hat{j} - 3 \hat{k} = \left( -3, 6, -3 \r\r\right)$
-- **Question 2:** If $\vec{a} = \left( 1, 0, 0 \r\r\right)$, $\vec{b} = \left( 0, 1, 0 \r\r\right)$, and $\vec{c} = \left( 0, 0, 1 \r\r\right)$, find $\vec{a} \cdot \left( \vec{b} \times \vec{c} \r\r\right)$
-  - $\vec{b} \times \vec{c} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{vmatrix} = \hat{i} \left( 1 - 0 \r\r\right) - \hat{j} \left( 0 - 0 \r\r\right) + \hat{k} \left( 0 - 0 \r\r\right) = \hat{i} = \left( 1, 0, 0 \r\r\right)$
-  - $\vec{a} \cdot \left( \vec{b} \times \vec{c} \r\r\right) = \left( 1 \r\r\right) \left( 1 \r\r\right) + \left( 0 \r\r\right) \left( 0 \r\r\right) + \left( 0 \r\r\right) \left( 0 \r\r\right) = 1$
-- **Question 3:** If $\vec{a} = \left( 2, 3, 4 \r\r\right)$ and $\vec{b} = \left( 1, 2, 3 \r\r\right)$, find $\vec{a} \times \left( \vec{b} \times \vec{a} \r\r\right)$
-  - $\vec{b} \times \vec{a} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 1 & 2 & 3 \\ 2 & 3 & 4 \end{vmatrix} = \hat{i} \left( 8 - 9 \r\r\right) - \hat{j} \left( 4 - 6 \r\r\right) + \hat{k} \left( 3 - 4 \r\r\right) = - \hat{i} + 2 \hat{j} - \hat{k} = \left( -1, 2, -1 \r\r\right)$
-  - $\vec{a} \times \left( \vec{b} \times \vec{a} \r\r\right) = \vec{b} \left( \vec{a} \cdot \vec{a} \r\r\right) - \vec{a} \left( \vec{a} \cdot \vec{b} \r\r\right) = \left( 1, 2, 3 \r\r\right) \left( 4 + 9 + 16 \r\r\right) - \left( 2, 3, 4 \r\r\right) \left( 2 + 6 + 12 \r\r\right) = \left( 1, 2, 3 \r\r\right) \left( 29 \r\r\right) - \left( 2, 3, 4 \r\r\right) \left( 20 \r\r\right) = \left( 29, 58, 87 \r\r\right) - \left( 40, 60, 80 \r\r\right) = \left( -11, -2, 7 \r\r\right)$
+- **Question 1:** If $\vec{a} = \left( 1, 2, 3 \r\r\r\right)$ and $\vec{b} = \left( 4, 5, 6 \r\r\r\right)$, find $\vec{a} \cdot \vec{b}$ and $\vec{a} \times \vec{b}$
+  - $\vec{a} \cdot \vec{b} = \left( 1 \r\r\r\right) \left( 4 \r\r\r\right) + \left( 2 \r\r\r\right) \left( 5 \r\r\r\right) + \left( 3 \r\r\r\right) \left( 6 \r\r\r\right) = 4 + 10 + 18 = 32$
+  - $\vec{a} \times \vec{b} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 1 & 2 & 3 \\ 4 & 5 & 6 \end{vmatrix} = \hat{i} \left( 12 - 15 \r\r\r\right) - \hat{j} \left( 6 - 12 \r\r\r\right) + \hat{k} \left( 5 - 8 \r\r\r\right) = -3 \hat{i} + 6 \hat{j} - 3 \hat{k} = \left( -3, 6, -3 \r\r\r\right)$
+- **Question 2:** If $\vec{a} = \left( 1, 0, 0 \r\r\r\right)$, $\vec{b} = \left( 0, 1, 0 \r\r\r\right)$, and $\vec{c} = \left( 0, 0, 1 \r\r\r\right)$, find $\vec{a} \cdot \left( \vec{b} \times \vec{c} \r\r\r\right)$
+  - $\vec{b} \times \vec{c} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{vmatrix} = \hat{i} \left( 1 - 0 \r\r\r\right) - \hat{j} \left( 0 - 0 \r\r\r\right) + \hat{k} \left( 0 - 0 \r\r\r\right) = \hat{i} = \left( 1, 0, 0 \r\r\r\right)$
+  - $\vec{a} \cdot \left( \vec{b} \times \vec{c} \r\r\r\right) = \left( 1 \r\r\r\right) \left( 1 \r\r\r\right) + \left( 0 \r\r\r\right) \left( 0 \r\r\r\right) + \left( 0 \r\r\r\right) \left( 0 \r\r\r\right) = 1$
+- **Question 3:** If $\vec{a} = \left( 2, 3, 4 \r\r\r\right)$ and $\vec{b} = \left( 1, 2, 3 \r\r\r\right)$, find $\vec{a} \times \left( \vec{b} \times \vec{a} \r\r\r\right)$
+  - $\vec{b} \times \vec{a} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 1 & 2 & 3 \\ 2 & 3 & 4 \end{vmatrix} = \hat{i} \left( 8 - 9 \r\r\r\right) - \hat{j} \left( 4 - 6 \r\r\r\right) + \hat{k} \left( 3 - 4 \r\r\r\right) = - \hat{i} + 2 \hat{j} - \hat{k} = \left( -1, 2, -1 \r\r\r\right)$
+  - $\vec{a} \times \left( \vec{b} \times \vec{a} \r\r\r\right) = \vec{b} \left( \vec{a} \cdot \vec{a} \r\r\r\right) - \vec{a} \left( \vec{a} \cdot \vec{b} \r\r\r\right) = \left( 1, 2, 3 \r\r\r\right) \left( 4 + 9 + 16 \r\r\r\right) - \left( 2, 3, 4 \r\r\r\right) \left( 2 + 6 + 12 \r\r\r\right) = \left( 1, 2, 3 \r\r\r\right) \left( 29 \r\r\r\right) - \left( 2, 3, 4 \r\r\r\right) \left( 20 \r\r\r\right) = \left( 29, 58, 87 \r\r\r\right) - \left( 40, 60, 80 \r\r\r\right) = \left( -11, -2, 7 \r\r\r\right)$
 
 ## 🧠 The One Thing Most Students Get Wrong
 - Most students get wrong the calculation of the cross product of two vectors, as they often forget to calculate the determinant of the matrix formed by the components of the vectors
@@ -62,14 +62,14 @@ manualReview: false
 - The scalar triple product and vector triple product can be used to simplify calculations involving vectors
 
 ## 🔁 Last 5 Minutes Box
-- $\vec{a} \cdot \vec{b} = \left| \vec{a} \right| \left| \vec{b} \right| \\\cos \theta$
-- $\vec{a} \times \vec{b} = \left| \vec{a} \right| \left| \vec{b} \right| \\\sin \theta \hat{n}$
+- $\vec{a} \cdot \vec{b} = \left| \vec{a} \right| \left| \vec{b} \right| \\\\cos \theta$
+- $\vec{a} \times \vec{b} = \left| \vec{a} \right| \left| \vec{b} \right| \\\\sin \theta \hat{n}$
 - $\left| \vec{a} \right| = \sqrt{a_1^2 + a_2^2 + a_3^2}$
 - $\vec{a} \cdot \vec{a} = \left| \vec{a} \right|^2$
 - $\vec{a} \times \vec{a} = \vec{0}$
 
 ## 📝 Practice MCQs
-**1. Question:** If $\vec{a} = \left( 1, 2, 3 \r\r\right)$ and $\vec{b} = \left( 4, 5, 6 \r\r\right)$, what is $\vec{a} \cdot \vec{b}$?
+**1. Question:** If $\vec{a} = \left( 1, 2, 3 \r\r\r\right)$ and $\vec{b} = \left( 4, 5, 6 \r\r\r\right)$, what is $\vec{a} \cdot \vec{b}$?
 -
 A) 20
 -
@@ -79,9 +79,9 @@ C) 40
 -
 D) 50
 
-**Answer:** B) 32. $\vec{a} \cdot \vec{b} = \left( 1 \r\r\right) \left( 4 \r\r\right) + \left( 2 \r\r\right) \left( 5 \r\r\right) + \left( 3 \r\r\right) \left( 6 \r\r\right) = 4 + 10 + 18 = 32$
+**Answer:** B) 32. $\vec{a} \cdot \vec{b} = \left( 1 \r\r\r\right) \left( 4 \r\r\r\right) + \left( 2 \r\r\r\right) \left( 5 \r\r\r\right) + \left( 3 \r\r\r\right) \left( 6 \r\r\r\right) = 4 + 10 + 18 = 32$
 
-**2. Question:** If $\vec{a} = \left( 1, 0, 0 \r\r\right)$, $\vec{b} = \left( 0, 1, 0 \r\r\right)$, and $\vec{c} = \left( 0, 0, 1 \r\r\right)$, what is $\vec{a} \cdot \left( \vec{b} \times \vec{c} \r\r\right)$?
+**2. Question:** If $\vec{a} = \left( 1, 0, 0 \r\r\r\right)$, $\vec{b} = \left( 0, 1, 0 \r\r\r\right)$, and $\vec{c} = \left( 0, 0, 1 \r\r\r\right)$, what is $\vec{a} \cdot \left( \vec{b} \times \vec{c} \r\r\r\right)$?
 -
 A) 0
 -
@@ -91,21 +91,21 @@ C) 2
 -
 D) 3
 
-**Answer:** B) 1. $\vec{b} \times \vec{c} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{vmatrix} = \hat{i} \left( 1 - 0 \r\r\right) - \hat{j} \left( 0 - 0 \r\r\right) + \hat{k} \left( 0 - 0 \r\r\right) = \hat{i} = \left( 1, 0, 0 \r\r\right)$, $\vec{a} \cdot \left( \vec{b} \times \vec{c} \r\r\right) = \left( 1 \r\r\right) \left( 1 \r\r\right) + \left( 0 \r\r\right) \left( 0 \r\r\right) + \left( 0 \r\r\right) \left( 0 \r\r\right) = 1$
+**Answer:** B) 1. $\vec{b} \times \vec{c} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{vmatrix} = \hat{i} \left( 1 - 0 \r\r\r\right) - \hat{j} \left( 0 - 0 \r\r\r\right) + \hat{k} \left( 0 - 0 \r\r\r\right) = \hat{i} = \left( 1, 0, 0 \r\r\r\right)$, $\vec{a} \cdot \left( \vec{b} \times \vec{c} \r\r\r\right) = \left( 1 \r\r\r\right) \left( 1 \r\r\r\right) + \left( 0 \r\r\r\right) \left( 0 \r\r\r\right) + \left( 0 \r\r\r\right) \left( 0 \r\r\r\right) = 1$
 
-**3. Question:** If $\vec{a} = \left( 2, 3, 4 \r\r\right)$ and $\vec{b} = \left( 1, 2, 3 \r\r\right)$, what is $\vec{a} \times \left( \vec{b} \times \vec{a} \r\r\right)$?
+**3. Question:** If $\vec{a} = \left( 2, 3, 4 \r\r\r\right)$ and $\vec{b} = \left( 1, 2, 3 \r\r\r\right)$, what is $\vec{a} \times \left( \vec{b} \times \vec{a} \r\r\r\right)$?
 -
-A) $\left( -11, -2, 7 \r\r\right)$
+A) $\left( -11, -2, 7 \r\r\r\right)$
 -
-B) $\left( 11, 2, -7 \r\r\right)$
+B) $\left( 11, 2, -7 \r\r\r\right)$
 -
-C) $\left( -1, 2, -3 \r\r\right)$
+C) $\left( -1, 2, -3 \r\r\r\right)$
 -
-D) $\left( 1, -2, 3 \r\r\right)$
+D) $\left( 1, -2, 3 \r\r\r\right)$
 
-**Answer:** A) $\left( -11, -2, 7 \r\r\right)$. $\vec{b} \times \vec{a} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 1 & 2 & 3 \\ 2 & 3 & 4 \end{vmatrix} = \hat{i} \left( 8 - 9 \r\r\right) - \hat{j} \left( 4 - 6 \r\r\right) + \hat{k} \left( 3 - 4 \r\r\right) = - \hat{i} + 2 \hat{j} - \hat{k} = \left( -1, 2, -1 \r\r\right)$, $\vec{a} \times \left( \vec{b} \times \vec{a} \r\r\right) = \vec{b} \left( \vec{a} \cdot \vec{a} \r\r\right) - \vec{a} \left( \vec{a} \cdot \vec{b} \r\r\right) = \left( 1, 2, 3 \r\r\right) \left( 4 + 9 + 16 \r\r\right) - \left( 2, 3, 4 \r\r\right) \left( 2 + 6 + 12 \r\r\right) = \left( 1, 2, 3 \r\r\right) \left( 29 \r\r\right) - \left( 2, 3, 4 \r\r\right) \left( 20 \r\r\right) = \left( 29, 58, 87 \r\r\right) - \left( 40, 60, 80 \r\r\right) = \left( -11, -2, 7 \r\r\right)$
+**Answer:** A) $\left( -11, -2, 7 \r\r\r\right)$. $\vec{b} \times \vec{a} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 1 & 2 & 3 \\ 2 & 3 & 4 \end{vmatrix} = \hat{i} \left( 8 - 9 \r\r\r\right) - \hat{j} \left( 4 - 6 \r\r\r\right) + \hat{k} \left( 3 - 4 \r\r\r\right) = - \hat{i} + 2 \hat{j} - \hat{k} = \left( -1, 2, -1 \r\r\r\right)$, $\vec{a} \times \left( \vec{b} \times \vec{a} \r\r\r\right) = \vec{b} \left( \vec{a} \cdot \vec{a} \r\r\r\right) - \vec{a} \left( \vec{a} \cdot \vec{b} \r\r\r\right) = \left( 1, 2, 3 \r\r\r\right) \left( 4 + 9 + 16 \r\r\r\right) - \left( 2, 3, 4 \r\r\r\right) \left( 2 + 6 + 12 \r\r\r\right) = \left( 1, 2, 3 \r\r\r\right) \left( 29 \r\r\r\right) - \left( 2, 3, 4 \r\r\r\right) \left( 20 \r\r\r\right) = \left( 29, 58, 87 \r\r\r\right) - \left( 40, 60, 80 \r\r\r\right) = \left( -11, -2, 7 \r\r\r\right)$
 
-**4. Question:** If $\vec{a} = \left( 1, 2, 3 \r\r\right)$, what is $\left| \vec{a} \right|$?
+**4. Question:** If $\vec{a} = \left( 1, 2, 3 \r\r\r\right)$, what is $\left| \vec{a} \right|$?
 -
 A) $\sqrt{14}$
 -
@@ -117,17 +117,17 @@ D) $\sqrt{38}$
 
 **Answer:** B) $\sqrt{14}$. $\left| \vec{a} \right| = \sqrt{1^2 + 2^2 + 3^2} = \sqrt{1 + 4 + 9} = \sqrt{14}$
 
-**5. Question:** If $\vec{a} = \left( 1, 0, 0 \r\r\right)$ and $\vec{b} = \left( 0, 1, 0 \r\r\right)$, what is $\vec{a} \times \vec{b}$?
+**5. Question:** If $\vec{a} = \left( 1, 0, 0 \r\r\r\right)$ and $\vec{b} = \left( 0, 1, 0 \r\r\r\right)$, what is $\vec{a} \times \vec{b}$?
 -
-A) $\left( 0, 0, 1 \r\r\right)$
+A) $\left( 0, 0, 1 \r\r\r\right)$
 -
-B) $\left( 0, 0, -1 \r\r\right)$
+B) $\left( 0, 0, -1 \r\r\r\right)$
 -
-C) $\left( 1, 0, 0 \r\r\right)$
+C) $\left( 1, 0, 0 \r\r\r\right)$
 -
-D) $\left( 0, 1, 0 \r\r\right)$
+D) $\left( 0, 1, 0 \r\r\r\right)$
 
-**Answer:** A) $\left( 0, 0, 1 \r\r\right)$. $\vec{a} \times \vec{b} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 1 & 0 & 0 \\ 0 & 1 & 0 \end{vmatrix} = \hat{i} \left( 0 - 0 \r\r\right) - \hat{j} \left( 0 - 0 \r\r\right) + \hat{k} \left( 1 - 0 \r\r\right) = \hat{k} = \left( 0, 0, 1 \r\r\right)$
+**Answer:** A) $\left( 0, 0, 1 \r\r\r\right)$. $\vec{a} \times \vec{b} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 1 & 0 & 0 \\ 0 & 1 & 0 \end{vmatrix} = \hat{i} \left( 0 - 0 \r\r\r\right) - \hat{j} \left( 0 - 0 \r\r\r\right) + \hat{k} \left( 1 - 0 \r\r\r\right) = \hat{k} = \left( 0, 0, 1 \r\r\r\right)$
 
 ---
 

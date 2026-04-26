@@ -21,7 +21,7 @@ manualReview: false
 9. [📚 Related Topics](#related-topics)
 
 ## ⚡ Formula Bank
-The number system is a fundamental concept in mathematics, and mastering its formulas is crucial for success in Class 9 exams. The following formulas are essential for solving problems related to number systems:
+The number system is a fundamental concept in mathematics, and mastering its formulas is crucial for success in Class 9 exams. The following formulas are essential for solving problems [related](/blog/areas-related-to-circles-class-10-notes) to number systems:
 - The **Euclidean algorithm** for finding the greatest common divisor (GCD) of two integers $a$ and $b$ is given by: 
 gcd(a, b) = gcd(b, a mod b)
 - The **fundamental theorem of arithmetic** states that every integer greater than 1 is either prime itself or can be factorized as a product of prime numbers uniquely, except for the order in which the prime numbers occur.
@@ -89,4 +89,5 @@ For further learning and practice, students can refer to the following academic 
 The following topics are related to number systems and can be explored further:
 - **Algebra**: Algebra is a branch of mathematics that deals with variables and their relationships.
 - **Geometry**: Geometry is a branch of mathematics that deals with shapes and their properties.
-- **Trigonometry**: Trigonometry is a branch of mathematics that deals with the relationships between the sides and angles of triangles.
+- **Trigonometry**: Trigonometry is a branch of mathematics that deals with the relationships between the sides and [angles](/blog/lines-and-angles-class-9-notes) of triangles.
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Number%20Systems%209%20Class%209%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**

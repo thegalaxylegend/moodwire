@@ -193,8 +193,8 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 
 ## 🔁 Last 5 Minutes Box
 
-* **Direction Cosines**: \\cos α, \\cos β, \\cos γ are direction cosines of a line, where α, β, γ are angles made with x, y, z axes.
-* **Direction Ratios**: a, b, c are direction ratios of a line, related to direction cosines by a = λ\\cos α, b = λ\\cos β, c = λ\\cos γ.
+* **Direction Cosines**: \\\cos α, \\\cos β, \\\cos γ are direction cosines of a line, where α, β, γ are angles made with x, y, z axes.
+* **Direction Ratios**: a, b, c are direction ratios of a line, related to direction cosines by a = λ\\\cos α, b = λ\\\cos β, c = λ\\\cos γ.
 * **Distance between two points**: √((x2 - x1)^2 + (y2 - y1)^2 + (z2 - z1)^2).
 * **Section Formula**: point (x, y, z) divides line joining (x1, y1, z1) and (x2, y2, z2) in ratio m:n, then x = (mx2 + nx1)/(m+n), y = (my2 + ny1)/(m+n), z = (mz2 + nz1)/(m+n).
 * **Midpoint**: ((x1 + x2)/2, (y1 + y2)/2, (z1 + z2)/2).
@@ -202,6 +202,6 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 * **Equation of a plane**: ax + by + cz + d = 0, where a^2 + b^2 + c^2 ≠ 0.
 * **Normal to a plane**: (a, b, c).
 * **Distance of a point (x1, y1, z1) from a plane**: |ax1 + by1 + cz1 + d| / √(a^2 + b^2 + c^2).
-* **Angle between two planes**: \\cos θ = |a1a2 + b1b2 + c1c2| / (√(a1^2 + b1^2 + c1^2) * √(a2^2 + b2^2 + c2^2)).
+* **Angle between two planes**: \\\cos θ = |a1a2 + b1b2 + c1c2| / (√(a1^2 + b1^2 + c1^2) * √(a2^2 + b2^2 + c2^2)).
 * **Equation of a line**: (x - x1)/a = (y - y1)/b = (z - z1)/c.
-* **Shortest distance between two lines**: |(x2 - x1)b1*c2 - (y2 - y1)c1*a2 + (z2 - z1)a1*b2| / √((b1*c2 - c1*b2)^2 + (c1*a2 - a1*c2)^2 + (a1*b2 - b1*a2)^2)
+* **Shortest distance between two [lines](/blog/straight-lines-class-11-revision-notes-jee-neet)**: |(x2 - x1)b1*c2 - (y2 - y1)c1*a2 + (z2 - z1)a1*b2| / √((b1*c2 - c1*b2)^2 + (c1*a2 - a1*c2)^2 + (a1*b2 - b1*a2)^2)

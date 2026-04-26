@@ -121,7 +121,7 @@ Answer: b) Metaphase
 3. What is the outcome of meiosis?
 a) Two daughter cells with the same number of chromosomes as the parent [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet)
 b) Four daughter cells with the same number of chromosomes as the parent [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet)
-c) Two daughter cells with half the number of chromosomes as the parent cell
+c) Two daughter cells with half the number of chromosomes as the parent [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet)
 d) Four daughter cells with half the number of chromosomes as the parent cell
 Answer: d) Four daughter cells with half the number of chromosomes as the parent cell
 4. What is the function of the spindle fibers during mitosis?
@@ -188,5 +188,4 @@ Continue your [revision](/blog/biological-classification-class-11-revision-notes
    - **Apoptosis:** Programmed cell death
    - **Significance of Cell Cycle:** Growth, repair, replacement, asexual reproduction
    - **Errors and Cell Cycle:** Cancer, genetic disorders
-
 

@@ -123,7 +123,7 @@ A) To break down lactose into glucose and galactose
 -
 B) To break down starch into simpler sugars
 -
-C) To break down proteins into simpler amino acids
+C) To break down proteins into simpler amino [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
 -
 D) To break down lipids into simpler fatty acids
 
@@ -156,7 +156,7 @@ D) All of the above
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/microbes-in-human-welfare-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/microbes-in-[human](/blog/human-reproduction-class-12-notes)-welfare-class-12-notes) now and track your progress against thousands of students.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

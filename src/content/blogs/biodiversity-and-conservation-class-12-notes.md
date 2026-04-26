@@ -23,18 +23,18 @@ manualReview: false
 
 ## 🎬 Watch: Visual Explanation
 
-> 📺 **Best Books for NEET 2022 Preparation | NEET Books | Malayalam** — by *Your Quarantine Teacher*
+> 📺 **Best Books for NEET 2026 Preparation | NEET Books | Malayalam** — by *Your Quarantine Teacher*
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;border-radius:12px;margin:1rem 0;">
 <iframe src="https://www.youtube.com/embed/Yflbixcb05M?rel=0" 
   style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" 
   allowfullscreen loading="lazy" 
-  title="Best Books for NEET 2022 Preparation | NEET Books | Malayalam">
+  title="Best Books for NEET 2026 Preparation | NEET Books | Malayalam">
 </iframe>
 </div>
 
 <!-- VideoObject Schema (consumed by generate-schema.ts) -->
-<!-- VIDEO_SCHEMA:{"id":"Yflbixcb05M","title":"Best Books for NEET 2022 Preparation | NEET Books | Malayalam","channel":"Your Quarantine Teacher","thumb":"https://i.ytimg.com/vi/Yflbixcb05M/mqdefault.jpg"} -->
+<!-- VIDEO_SCHEMA:{"id":"Yflbixcb05M","title":"Best Books for NEET 2026 Preparation | NEET Books | Malayalam","channel":"Your Quarantine Teacher","thumb":"https://i.ytimg.com/vi/Yflbixcb05M/mqdefault.jpg"} -->
 
 ---
 
@@ -56,7 +56,7 @@ manualReview: false
 ## ✏️ 3 Solved PYQs
 - **Question 1:** What is the significance of biodiversity hotspots?
 - Biodiversity hotspots are areas with high levels of endemism, where many species are found only in that particular area.
-- These areas are significant because they support many endemic species and are often threatened by human activities such as deforestation and habitat destruction.
+- These areas are significant because they support many endemic species and are often threatened by [human](/blog/human-reproduction-class-12-notes) activities such as deforestation and habitat destruction.
 - **Question 2:** Calculate the species density of a forest with 50 species of trees in an area of 100 $km^2$.
 - Species density = $\frac{Species\ Richness}{Area}$ = $\frac{50}{100}$ = 0.5 species per km^2$.$
 - **Question 3:** What is the difference between the Shannon-Wiener Diversity Index and Simpson's Diversity Index?
@@ -74,7 +74,7 @@ manualReview: false
 
 ## 🔁 Last 5 Minutes Box
 - Revision of key terms: biodiversity, species richness, species density, $\alpha$ diversity, $\beta$ diversity, $\gamma$ diversity.
-- Quick recall of formulas: $\frac{Species\ Richness}{Area}$, Shannon-Wiener\ Diversity\ Index = - $\sum_{i=1}^{s} \frac{n_i}{N} \ln \frac{n_i}{N}$, Simpson's\ Diversity\ Index = 1 - \sum_{i=1}^{s} $\frac{n_i(n_i - 1)}{N(N - 1)}.
+- Quick recall of formulas: $\frac{Species\ Richness}{Area}$, Shannon-Wiener\ Diversity\ Index = - $\sum_{i=1}^{s} \frac{n_i}{N} \ln \frac{n_i}{N}$, Simpson's\ Diversity\ Index = 1 - \sum_{i=1}^{s} \frac{n_i(n_i - 1)}${N(N - 1)}.
 - Last-minute practice of solving problems related to biodiversity and conservation.
 
 ## 📝 Practice MCQs

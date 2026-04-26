@@ -223,7 +223,7 @@ Q3 (2018 CBSE): Which one of the following metals does not react with cold water
 
 - They think that if a substance is shiny, malleable, and ductile, it must be a metal, and if it's dull and brittle, it's a non-metal.
 
-- This misconception leads to incorrect classification of certain elements, such as carbon, which can exist in both metallic and non-metallic forms.
+- This misconception leads to incorrect classification of certain elements, such as [carbon](/blog/carbon-and-its-compounds-class-10-notes), which can exist in both metallic and non-metallic forms.
 
 ### <a id="the-reality"></a>The Reality
 
@@ -322,16 +322,16 @@ Metals tend to lose electrons to form positive ions, known as cations, whereas n
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. Which metal has the highest melting point among the following?**
-**A)**      Tungsten ($1900,^circ$
+**A)**       Tungsten ($1900,^circ$
 C)
 **
-B)**      Silver ($962,^circ$
+B)**       Silver ($962,^circ$
 C)
 **
-C)**      Copper ($1085,^circ$
+C)**       Copper ($1085,^circ$
 C)
 **
-D)**      Gold ($1064,^circ$
+D)**       Gold ($1064,^circ$
 C)
 
 **Answer:** A) Tungsten has the highest melting point among the given options. The other options, Silver, Copper, and Gold, have lower melting points.
@@ -339,40 +339,40 @@ C)
 ---
 
 **2. What is the density of $Na$?**
-**A)**      $0.5,g/cm^3$
-**B)**      $0.9,g/cm^3$
-**C)**      $2.5,g/cm^3$
-**D)**      $1.0,g/cm^3$
+**A)**       $0.5,g/cm^3$
+**B)**       $0.9,g/cm^3$
+**C)**       $2.5,g/cm^3$
+**D)**       $1.0,g/cm^3$
 
 **Answer:** D) The density of $Na$ is $0.9,g/cm^3$. The other options are incorrect as they do not represent the correct density of $Na$.
 
 ---
 
 **3. Which of the following metals is most likely to react with water?**
-**A)**      K
-**B)**      Na
-**C)**      Mg
-**D)**      Fe
+**A)**       K
+**B)**       Na
+**C)**       Mg
+**D)**       Fe
 
 **Answer:** A) Potassium ($K$) is most likely to react with water due to its low ionization energy. The other options, Sodium ($Na$), Magnesium ($Mg$), and iron ($Fe$), are less reactive with water.
 
 ---
 
 **4. What is the molar mass of $Al$?**
-**A)**      25.9,g/mol
-**B)**      26.9,g/mol
-**C)**      27.9,g/mol
-**D)**      28.9,g/mol
+**A)**       25.9,g/mol
+**B)**       26.9,g/mol
+**C)**       27.9,g/mol
+**D)**       28.9,g/mol
 
 **Answer:** B) The molar mass of $Al$ is $26.98,g/mol$, which is close to 26.9,g/mol. The other options are incorrect as they do not represent the correct molar mass of $Al$.
 
 ---
 
 **5. Which of the following metals has a high ionization energy?**
-**A)**      Be
-**B)**      Ca
-**C)**      Mg
-**D)**      K
+**A)**       Be
+**B)**       Ca
+**C)**       Mg
+**D)**       K
 
 **Answer:** A) Beryllium ($Be$) has a high ionization energy due to its small atomic size and high effective nuclear charge. The other options, Calcium ($Ca$), Magnesium ($Mg$), and Potassium ($K$), have lower ionization energies.
 

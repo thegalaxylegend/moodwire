@@ -24,7 +24,7 @@ manualReview: false
 
 ## 🎬 Watch: Visual Explanation
 
-> 📺 **(L-2) Chemical kinetics | GMP solutions | FIITJEE | IIT | NEET | by Mahesh sir** — by *Chemistry by Mahesh sir*
+> 📺 **(L-2) Chemical kinetics | GMP solutions | FIITJEE | IIT | NEET | by Mahesh sir** — by *[Chemistry](/blog/chemistry-in-everyday-life-class-12-notes) by Mahesh sir*
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;border-radius:12px;margin:1rem 0;">
 <iframe src="https://www.youtube.com/embed/M1OT7nsDDWM?rel=0" 
@@ -41,10 +41,10 @@ manualReview: false
 
 ## ⚡ Formula Bank
 - Rate of reaction: $\frac{\delta \text{concentration}}{\delta \text{time}}$ or $\frac{\text{change$ in concentration}}{\text{change$ in time}}$
-- Integrated rate law: $\ln \left( \frac{a}{a - x} \r\r\r\right) = KTM$ for first order reactions
+- Integrated rate law: $\ln \left( \frac{a}{a - x} \r\r\r\r\right) = KTM$ for first order reactions
 - Half-life: at_{1/2} = $\frac{\ln 2}{k}$ for first order reactions
-- Rate constant: OK = $\frac{2.303}{t} \log \left( \frac{a}{a - x} \r\r\r\right)$
-- Activation energy: HE_a = 2.303 R $\log \left( \frac{k_2}{k_1} \r\r\r\right) \left( \frac$’T_2 T_1}{T_2 - T_1} \r\r\r\right)
+- Rate constant: OK = $\frac{2.303}{t} \log \left( \frac{a}{a - x} \r\r\r\r\right)$
+- Activation energy: HE_a = 2.303 R $\log \left( \frac{k_2}{k_1} \r\r\r\r\right) \left( \frac$’T_2 T_1}{T_2 - T_1} \r\r\r\r\right)
 - Arrhenius equation: OK = AE^{-E_a / RT}
 - Collision theory: rate of reaction $\propto$ frequency of collisions $\propto$ concentration of reactants
 - Transition state theory: rate of reaction $\propto$ concentration of reactants $\propto e^{-E_a / RT}$

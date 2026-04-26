@@ -54,7 +54,7 @@ manualReview: false
 ## 👁️ Ayush's Note
 - Ayush's note is that environmental issues are not just limited to pollution and climate change, but also include conservation of [biodiversity](/blog/biodiversity-and-conservation-class-12-notes) and ecosystem services.
 - Ecosystem services include provisioning services, such as food and water, regulating services, such as climate regulation and disease control, and cultural services, such as recreation and tourism.
-- Biodiversity is important for maintaining ecosystem services, and its loss can have significant impacts on human well-being and the economy.
+- [Biodiversity](/blog/biodiversity-and-conservation-class-12-notes) is important for maintaining ecosystem services, and its loss can have significant impacts on human well-being and the economy.
 
 ## 🔁 Last 5 Minutes Box
 - Last 5 minutes revision tips:

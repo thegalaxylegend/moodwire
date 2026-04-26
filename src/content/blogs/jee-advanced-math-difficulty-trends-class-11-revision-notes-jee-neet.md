@@ -125,7 +125,7 @@ When tackling JEE Advanced Mathematics, being aware of common pitfalls is crucia
 In the last few minutes of the exam, revisiting key formulas and [concepts](/blog/jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet) can significantly boost your confidence and performance. Keep in mind:
 - The formula for the derivative of $e^x$: $\frac{d}{dx}e^x = e^x$.
 - The relationship between the roots and coefficients of a polynomial equation: for $a_nx^n + a_{n-1}x^{n-1} + \ldots + a_1x + a_0 = 0$, the sum of the roots is $-\frac{a_{n-1}}{a_n}$.
-- The definition of the sine and cosine functions in terms of the unit circle: $\\\\sin(\theta) = \frac{y}{r}$ and $\\\\cos(\theta) = \frac{x}{r}$.
+- The definition of the sine and cosine functions in terms of the unit circle: $\\\\\sin(\theta) = \frac{y}{r}$ and $\\\\\cos(\theta) = \frac{x}{r}$.
 - The process for solving systems of linear equations using matrices and Cramer's rule: $x = \frac{\det(A_x)}{\det(A)}$, where $A_x$ is the matrix formed by replacing the $x$ coefficients with the constant terms.
 
 ## 📝 Practice MCQs
@@ -137,11 +137,11 @@ Testing your understanding with practice questions is essential for strengthenin
    - C) 4
    - D) -4
    Answer: C) $f(-2) = (-2)^2 + 3(-2) + 2 = 4 - 6 + 2 = 0$, so the correct answer is A) 0.
-2. What is the value of $\\\\sin(\frac{\pi}{3})$?
+2. What is the value of $\\\\\sin(\frac{\pi}{3})$?
    -   ac{1}{2} 
    -   ac{$\sqrt{3}$}{2} 
    -   ac{$\sqrt{2}$}{2} 
-   -     B) \\\\sin($\frac{\pi}${3}) = $\frac{\sqrt{3}$}{2}. 
+   -      \\\\\sin($\frac{\pi}${3}) = $\frac{\sqrt{3}$}{2}. 
 3. The equation $x^2 - 5x + 6 = 0$ has roots $x_1$ and $x_2$. What is $x_1 + x_2$?
    - A) 5
    - B) 6
@@ -152,7 +152,7 @@ Testing your understanding with practice questions is essential for strengthenin
 ## 🔁 Last 5 Minutes Box
 
 - **Quadratic Equations**: $ax^2 + bx + c = 0$, $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ 
-   - **Trigonometric Identities**: $\\\sin^2(x) + \\\cos^2(x) = 1$, $\\\sin(2x) = 2\\\sin(x)\\\cos(x)$ 
+   - **Trigonometric Identities**: $\\\\sin^2(x) + \\\\cos^2(x) = 1$, $\\\\sin(2x) = 2\\\\sin(x)\\\\cos(x)$ 
    - **Vectors**: $mathbf{a} = (a_1, a_2, a_3)$, $mathbf{a} cdot mathbf{b} = a_1b_1 + a_2b_2 + a_3b_3$, $|mathbf{a}| = sqrt{a_1^2 + a_2^2 + a_3^2}$ 
    - **Calculus**: $\frac{d}{dx}x^n = nx^{n-1}$, $int x^n dx = \frac{x^{n+1}}{n+1} + C$ 
    - **Probability**: $P(A cup B) = P(A) + P(B) - P(A cap B)$, $P(A|B) = \frac{P(A cap B)}{P(B)}$ 

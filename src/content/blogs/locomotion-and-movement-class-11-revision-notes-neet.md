@@ -99,7 +99,7 @@ Here are some practice questions related to locomotion and movement:
 1. Describe the difference between walking and running.
 2. Explain the mechanism of jumping and animals.
 3. What is the primary function of the skeletal system and movement and locomotion?
-4. Describe the structure and function of muscles and movement and locomotion.
+4. Describe the [structure](/blog/structure-of-the-atom-class-11-revision-notes-neet) and function of muscles and movement and locomotion.
 5. Explain the role of the nervous system and controlling movement and locomotion.
 
 ## <a id="answer-key"></a>Answer Key

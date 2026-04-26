@@ -61,7 +61,7 @@ Environmental [Chemistry](/blog/organic-chemistry-basic-principles-class-11-revi
 * Environmental [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) is the study of the chemical and biochemical phenomena that occur and the environment.
 * It involves the study of the sources, reactions, transport, n effects of chemical species and the environment.
 * The main branches of environmental [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) are air, water, n soil pollution.
-* Environmental chemistry is important for understanding and mitigating the impact of human activities on the environment.
+* Environmental [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) is important for understanding and mitigating the impact of human activities on the environment.
 * The main goal of environmental chemistry is to develop sustainable solutions for environmental problems.
 #
 1. [Introduction to Environmental Chemistry](#introduction-to-environmental-chemistry)

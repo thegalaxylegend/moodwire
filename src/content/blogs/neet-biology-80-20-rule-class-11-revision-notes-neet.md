@@ -87,7 +87,7 @@ Your [revision](/blog/agriculture-class-11-revision-notes-neet) cycles should no
 
 1. **Iteration 1.** Master the [High](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)-Yield Matrix (Genetics, Physiology, Cell, Biotech, Ecology). This secures your first 280–300 marks.
 2. **Iteration 2.** Cover the moderate yield topics (Reproduction, Microbes, Human Health).
-3. **Iteration 3.** Skim the Low-Yield "Time Sink" chapters right before the exam, relying strictly on NCERT summaries and past year questions. 
+3. **Iteration 3.** Skim the Low-Yield "Time Sink" [chapters](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) right before the exam, relying strictly on NCERT summaries and past year questions. 
 
 By applying the 80/20 rule, you transform your [neet](/blog/agriculture-class-11-revision-notes-neet) preparation from an exhausting marathon into a highly targeted sniper operation. 
 

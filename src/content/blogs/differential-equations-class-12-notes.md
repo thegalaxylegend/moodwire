@@ -23,7 +23,7 @@ manualReview: false
 
 ## ⚡ Formula Bank
 - The order of a differential equation is the order of the highest derivative in the equation: $\frac{d^2y}{DX^2}$
-- The degree of a differential equation is the power of the highest derivative in the equation: $\left(\frac{d^2y}{DX^2}\r\r\r\right)^3$
+- The degree of a differential equation is the power of the highest derivative in the equation: $\left(\frac{d^2y}{DX^2}\r\r\r\r\right)^3$
 - A differential equation is said to be linear if it is of the form: $\frac{d^2y}{DX^2} + P(x)\frac{dy}{dx} + Q(x)y = R(x)$
 - A differential equation is said to be homogeneous if it is of the form: $\frac{d^2y}{DX^2} + P(x)\frac{dy}{dx} + Q(x)y = 0$
 - The general solution of a differential equation of the form $\frac{dy}{dx} = f(x)$ is given by: by = $\int f(x) dx + C$
@@ -64,7 +64,7 @@ manualReview: false
 - Not using the correct method to solve the differential equation. Many students try to use the same method for all differential [equations](/blog/pair-of-linear-equations-class-10-notes), without considering the type of equation and the best approach to solve it.
 
 ## 👁️ Ayush's Note
-- To solve differential equations, it is essential to identify the type of equation and use the correct method to solve it. This requires a good understanding of the different types of differential equations and the various methods used to solve them.
+- To solve differential [equations](/blog/pair-of-linear-equations-class-10-notes), it is essential to identify the type of equation and use the correct method to solve it. This requires a good understanding of the different types of differential [equations](/blog/pair-of-linear-equations-class-10-notes) and the various methods used to solve them.
 - Practice is key to mastering differential equations. Try to solve as many problems as possible, and make sure to check your work and understand where you went wrong.
 
 ## 🔁 Last 5 Minutes Box
@@ -83,7 +83,7 @@ D) 4
 
 **Answer: C) The order of the differential equation is the order of the highest derivative in the equation, which is 3.**
 
-**2. What is the degree of the differential equation $\left(\frac{d^2y}{DX^2}\r\r\r\right)^2 + 2\frac{dy}{dx} + y = 0$?**
+**2. What is the degree of the differential equation $\left(\frac{d^2y}{DX^2}\r\r\r\r\right)^2 + 2\frac{dy}{dx} + y = 0$?**
 A) 1
 B) 2
 C) 3
@@ -110,7 +110,7 @@ D) by = 3x^2
 **5. What is the complementary function of the differential equation $\frac{d^2y}{DX^2} + 2\frac{dy}{dx} + y = 0$?**
 A) by = C_1 \dot e^{-x} + C_2 \dot e^
 B) by = C_1 \dot e^{-x} + C_2 \dot x \dot e^{-x}
-C) y = C_1 \dot \\\\cos x + C_2 \dot \\\\sin x
+C) y = C_1 \dot \\\\\cos x + C_2 \dot \\\\\sin x
 D) by = C_1 \dot e^{-x} + C_2 \dot e^{-2x}
 
 **Answer: B) The complementary function of the differential equation is  = C_1 \ e^{-x} + C_2 \ x \ e^{-x}$.**$

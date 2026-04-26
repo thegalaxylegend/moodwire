@@ -100,7 +100,7 @@ Fluids—liquids and gases—are materials that have no definite shape and yield
 **P + 1/2 ρv² + ρgh = Constant**
 
 **Derivation (Based on [Work](/blog/work-energy-and-power-class-11-revision-notes-neet)-Energy Theorem):**
-1.  **Work done y Pressure forces (W_p):** (P1 - P2) ΔV.
+1.  **[Work](/blog/work-energy-and-power-class-11-revision-notes-neet) done y Pressure forces (W_p):** (P1 - P2) ΔV.
 2.  **Change n [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) Energy (ΔK):** 1/2 ρ ΔV (v2² - v1²).
 3.  **Change and Potential Energy (ΔU):** ρ ΔV g (h2 - h1).
 4.  By Work-Energy Theorem: **W_p = ΔK + ΔU**.
@@ -140,8 +140,8 @@ Surface tension is the result of cohesive forces between molecules at the surfac
 ### <a id="ii-capillary-rise-ascent-formula"></a>II. Capillary Rise (Ascent Formula)
 **Derivation:**
 1.  Force of surface tension = Weight of liquid column.
-2.    **(2πR S \\\cosθ) = (πR² h ρ g)**. 
-3.    **h = (2S \\\cosθ) / (R ρ g)**. (Proven) 
+2.     **(2πR S \\\\cosθ) = (πR² h ρ g)**. 
+3.     **h = (2S \\\\cosθ) / (R ρ g)**. (Proven) 
 
 ---
 

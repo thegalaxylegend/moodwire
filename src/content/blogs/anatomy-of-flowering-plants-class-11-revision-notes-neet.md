@@ -12,7 +12,7 @@ manualReview: false
 
 ## Introduction
 
-The anatomy of flowering plants is a fundamental concept in botany, underpinning the intricate relationships between plant structure and function. As a NEET aspirant, subject is crucial for excelling in your Class 11 exams and beyond. This revision guide provides an in-depth exploration of the key concepts, formulas, and common pitfalls, ensuring you are well-equipped to tackle even the most challenging questions.
+The anatomy of [flowering](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) plants is a fundamental concept in botany, underpinning the intricate relationships between plant structure and function. As a NEET aspirant, subject is crucial for excelling in your Class 11 exams and beyond. This revision guide provides an in-depth exploration of the key concepts, formulas, and common pitfalls, ensuring you are well-equipped to tackle even the most challenging questions.
 
 ## Table of Contents
 
@@ -29,7 +29,7 @@ The anatomy of flowering plants is a vast and complex field, encompassing the st
 
 ## Morphology of Root, Stem, and Leaves
 
-The morphology of roots, stems, and leaves is a critical aspect of plant anatomy. Roots are underground structures that anchor the plant and absorb water and minerals from the soil. Stems are above-ground structures that support the plant and transport water, minerals, and nutrients to the leaves. Leaves are the primary organs of photosynthesis, responsible for converting light energy into chemical energy.
+The morphology of roots, stems, and leaves is a critical aspect of plant anatomy. Roots are underground structures that anchor the plant and absorb water and minerals from the soil. Stems are above-ground structures that support the plant and transport water, minerals, and nutrients to the leaves. Leaves are the primary organs of photosynthesis, responsible for converting [light](/blog/physics-heat-light-class-11-revision-notes-jee-neet) energy into chemical energy.
 
 ### Root Morphology
 
@@ -85,7 +85,7 @@ By mastering the anatomy of flowering plants, you will gain a deeper understandi
 
 * **Mistake 1: Confusing between Dicot and Monocot Roots**: Many students fail to differentiate between dicot and monocot roots. Remember, dicot roots have a tap root system with fewer branches, whereas monocot roots have a fibrous root system with numerous branches.
 * **Mistake 2: Incorrect Identification of Plant Tissues**: Students often struggle to identify different plant tissues such as parenchyma, collenchyma, and sclerenchyma. Make sure to remember the characteristics of each tissue, including their cell shape, cell wall composition, and function.
-* **Mistake 3: Forgetting the Functions of Different Parts of a Flower**: It's common for students to forget the functions of different parts of a flower, such as the sepals, petals, stamens, and carpels. Review the functions of each part, including protection, attraction, pollination, and fertilization.
+* **Mistake 3: Forgetting the [Functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) of Different Parts of a Flower**: It's common for students to forget the [functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) of different parts of a flower, such as the sepals, petals, stamens, and carpels. Review the [functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) of each part, including protection, attraction, pollination, and fertilization.
 * **Mistake 4: Not Understanding the Difference between Primary and Secondary Growth**: Many students get confused between primary and secondary growth in plants. Primary growth occurs at the tips of roots and shoots, while secondary growth occurs in the cambium layer, leading to an increase in thickness.
 * **Mistake 5: Incorrectly Labeling the Diagram of a Flowering Plant**: Students often struggle to correctly label the different parts of a flowering plant diagram. Practice labeling diagrams to ensure you can identify the root, stem, leaf, flower, and other structures.
 
@@ -100,3 +100,16 @@ By mastering the anatomy of flowering plants, you will gain a deeper understandi
       - **Gynoecium**: Pistil, ovary, style, and stigma. 
       - **Fruit**: Simple, aggregate, and composite fruits. 
       - **Seed**: Structure, types, and functions.
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=anatomy%20of%20flowering%20plants%20class%2011%20revision%20notes%20neet%20Class%2011%20Exam%20Notes%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [physics heat light](/blog/physics-heat-light-class-11-revision-notes-jee-neet)
+- 📖 [physics mechanics](/blog/physics-mechanics-class-11-revision-notes-jee-neet)
+- 📖 [poverty unemployment](/blog/poverty-unemployment-class-11-revision-notes-jee-neet)
+- 📖 [trigonometric functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)

@@ -13,6 +13,20 @@ manualReview: false
 
 As a pivotal component of the political science curriculum for Class 11 CBSE students, understanding local government is essential for grasping the broader concepts of governance, democracy, and civic engagement. This guide is meticulously designed to provide an exhaustive overview, addressing common mistakes, offering solved previous year questions (PYQs), and highlighting key areas of focus for students to excel in their exams.
 
+## 📑 Table of Contents
+
+1. [Introduction to Local Government refers to the system of governance at the local level, where citizens participate in decision-making processes that affect their daily lives. The $73^{rd}$ and $74^{th}$ Constitutional Amendments, enacted in 1992, aimed to strengthen local self-governance in rural and urban areas, respectively. These amendments have been instrumental in promoting decentralization, empowering local governments, and ensuring greater citizen participation.](#introduction-to-local-government-refers-to-the-system-of-governance-at-the-local-level-where-citizens-participate-in-decision-making-processes-that-affect-their-daily-lives-the-73rd-and-74th-constitutional-amendments-enacted-in-1992-aimed-to-strengthen-local-self-governance-in-rural-and-urban-areas-respectively-these-amendments-have-been-instrumental-in-promoting-decentralization-empowering-local-governments-and-ensuring-greater-citizen-participation)
+2. [Importance of Local Government](#importance-of-local-government)
+3. [Structure of Local Government](#structure-of-local-government)
+4. [Functions of Local Government](#functions-of-local-government)
+5. [Challenges Faced by Local Government](#challenges-faced-by-local-government)
+6. [Conclusion](#conclusion)
+7. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=local%20government%20class%2011%20revision%20notes%20cbse%20Class%2011%20Exam%20Notes%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
+---
+
 ## Introduction to Local Government refers to the system of governance at the local level, where citizens participate in decision-making processes that affect their daily lives. The $73^{rd}$ and $74^{th}$ Constitutional Amendments, enacted in 1992, aimed to strengthen local self-governance in rural and urban areas, respectively. These amendments have been instrumental in promoting decentralization, empowering local governments, and ensuring greater citizen participation.
 
 ## Importance of Local Government
@@ -22,7 +36,7 @@ The significance of local government can be understood from the following aspect
 - **Effective Service Delivery**: By being closer to the people, local governments can deliver services such as healthcare, education, and sanitation more effectively.
 
 ## Structure of Local Government
-The structure of local government in India is as follows:
+The structure of local government in [India](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) is as follows:
 - **Rural Areas**: The local government in rural areas is known as Panchayati Raj, which consists of three tiers:
  1. **Gram Panchayat** (at the village level)
  2. **Mandal Panchayat** or **Block Panchayat** (at the block level)
@@ -33,7 +47,7 @@ The structure of local government in India is as follows:
  3. **Nagar Panchayat** (in transitional areas between rural and urban)
 
 ## Functions of Local Government
-Local governments are entrusted with a wide range of functions, including:
+Local governments are entrusted with a wide range of [functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet), including:
 - **Health and Sanitation**: Providing healthcare facilities, ensuring cleanliness, and managing waste disposal.
 - **Education**: Overseeing primary education, managing schools, and implementing educational schemes.
 - **Infrastructure Development**: Constructing and maintaining roads, bridges, and public buildings.
@@ -72,3 +86,18 @@ By meticulously covering these aspects and practicing with PYQs, students can no
      * **Trap Question 3:** Not understanding the difference between a Councillor and a Mayor. The Mayor is the head of the Municipal Corporation, while a Councillor represents a ward.
      * **Common Error 4:** Assuming that local governments have no financial powers. Actually, they have the power to collect taxes, such as property tax and water tax.
      * **Trap Question 5:** Overlooking the role of the District Planning Committee (DPC) in preparing the draft development plan for the district.
+
+## 🔁 Last 5 Minutes Box
+
+markdown bullet points
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Structure Of Atom Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)
+- 📖 [trigonometric functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)
+- 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Grandmaster Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
+- 📖 [Relations And Functions Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide](/blog/relations-and-functions-class-11-notes)

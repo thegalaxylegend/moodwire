@@ -172,7 +172,7 @@ Where:
 - **C** = Cation charge (subtract).
 - **A** = Anion charge (add).
 
-### <a id="ayushs-comparison-xef_2-vs-co_2"></a>Ayush's Comparison: $ vs $CO_2
+### <a id="ayushs-comparison-xef_2-vs-co_2"></a>Ayush's Comparison: $ vs CO_2$
 Both are linear. But are they the same?
 1. **$CO_2$**: No lone pairs on C. $sp$ hybridized.
 2. **$XeF_2$**: 3 lone pairs$ on Xe. $sp^3d$ hybridized.$
@@ -222,9 +222,9 @@ Solubility depends on the balance between **Lattice Enthalpy** n **Hydration Ent
 
 ### <a id="the-bornhaber-cycle-example-nacl"></a>The Born-Haber Cycle Example ($NaCl$)
 To calculate the Lattice Enthalpy of $NaCl$, we use a cycle:
-1.       Sublimation of Na(s) \rightarrowNa(g). 
-2.       Ionization of Na(g) \rightarrowNa^+(g). 
-3.       Dissociation of Cl_2(g) \rightarrow2Cl(g). 
+1.        Sublimation of Na(s) \rightarrowNa(g). 
+2.        Ionization of Na(g) \rightarrowNa^+(g). 
+3.        Dissociation of Cl_2(g) \rightarrow2Cl(g). 
 4. Electron Gain of $Cl(g) \rightarrow Cl^-(g)$.
 5. Formation of $NaCl$ from ions.
 The $\sum$equals the $\delta H_f$. This cycle is a favorite for numerical questions and JEE Advanced.
@@ -425,4 +425,5 @@ Continue your [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) wit
 | Compound | Formula | Mol. Weight | Source |
 |:---|:---:|:---:|:---:|
 | **ethanol** | C2H6O | 46.07 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/702) |
+
 

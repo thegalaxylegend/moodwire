@@ -189,6 +189,6 @@ Continue your revision with these related guides:
 
 * [Kingdom](/blog/plant-kingdom-class-11-revision-notes-neet) Animalia characteristics: eukaryotic, multicellular, heterotrophic
 * [Classification](/blog/biological-classification-class-11-revision-notes-neet) bases: structural, functional, phylogenetic
-* Animal kingdom divisions: Porifera, Coelenterata, Platyhelminthes, Aschelminthes, Annelida, Arthropoda, Mollusca, Echinodermata, Chordata
+* Animal [kingdom](/blog/plant-kingdom-class-11-revision-notes-neet) divisions: Porifera, Coelenterata, Platyhelminthes, Aschelminthes, Annelida, Arthropoda, Mollusca, Echinodermata, Chordata
 * Phylum Chordata classes: Pisces, Amphibia, Reptilia, Aves, Mammalia
 * Important terms: radial symmetry, bilateral symmetry, cephalization, appendages, notochord, dorsal hollow nerve cord

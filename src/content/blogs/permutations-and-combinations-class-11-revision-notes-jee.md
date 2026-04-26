@@ -20,6 +20,8 @@ practice_link: "/class-11/mathematics/permutations-n-combinations-class-11-revis
 8. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
 9. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Permutations](/blog/permutations-combinations-class-11-revision-notes-jee)%20And%20Combinations%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## Introduction to Permutations and Combinations
@@ -77,3 +79,14 @@ Permutations and combinations are vital concepts in mathematics that help us sol
    * Permutation is an arrangement of objects in a specific order
    * Combination is a selection of objects without considering the order
    * Permutations and combinations are used to calculate the number of ways to arrange or select objects from a larger set
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-combinations-class-11-revision-notes-jee)
+- 📖 [Equilibrium Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide](/blog/equilibrium-class-11-revision-notes-jee-neet)
+- 📖 [Structure Of Atom Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)
+- 📖 [Relations And Functions Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide](/blog/relations-and-functions-class-11-notes)

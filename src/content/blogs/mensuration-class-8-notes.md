@@ -84,7 +84,7 @@ manualReview: false
 - *Costs:* 3–4 marks
  
 
-- *Fix:* Double-check the values of $r$ (radius) n $h$ (he\r\r\right) before applying the formula ${LSA = 2\pi rh}$.
+- *Fix:* Double-check the values of $r$ (radius) n $h$ (he\r\r\r\right) before applying the formula ${LSA = 2\pi rh}$.
 
 - **Mistake 4:** Not considering the radius of the base when calculating the volume of a cone, using ${V = \frac{1}{3}\pi r^2 h}$, n misinterpreting the value of $r$.
 
@@ -169,57 +169,57 @@ $1$
 
 - **Area of Trapezium:** This 2D shape has one pair of parallel sides.
 
-- **If these parallel sides are $a$ n $b$, n the perpendicular distance (he\r\r\right) between them is $h$, its area is given y the formula:** A = $\frac{1}{2}\times (a+b) \$
+- **If these parallel sides are $a$ n $b$, n the perpendicular distance (he\r\r\r\right) between them is $h$, its area is given y the formula:** A = $\frac{1}{2}\times (a+b) \$
 
 }
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. A rectangular park is 50m long and 30m wide. What is its perimeter?**
-**A)**         70m
-**B)**         120m
-**C)**         150m
-**D)**         180m
+**A)**          70m
+**B)**          120m
+**C)**          150m
+**D)**          180m
 
 **Answer:** C) The perimeter of a rectangle is given y P = 2(l + b). Here, l = 50m and b = 30m, so P = 2(50 + 30) = 160m. However, this option is not available, so we choose the closest value, which is 150m.
 
 ---
 
 **2. A [square](/blog/squares-and-square-roots-class-8-notes) plot has a perimeter of 40m. What is the length of its side?**
-**A)**         8m
-**B)**         10m
-**C)**         12m
-**D)**         15m
+**A)**          8m
+**B)**          10m
+**C)**          12m
+**D)**          15m
 
 **Answer:** D) The perimeter of a square is given y P = 4a, where an is the length of its side. We know that P = 40m, so 4a = 40m and a = 10m.
 
 ---
 
 **3. A circle has a diameter of 14cm. What is its circumference?**
-**A)**         44cm
-**B)**         44πcm
-**C)**         56πcm
-**D)**         70πcm
+**A)**          44cm
+**B)**          44πcm
+**C)**          56πcm
+**D)**          70πcm
 
 **Answer:** C) The circumference of a circle is given y C = πd, where d is the diameter. Here, d = 14cm, so C = π * 14cm = 44πcm.
 
 ---
 
 **4. A triangle has a base of 20cm and a height of 12cm. What is its area?**
-**A)**         120cm²
-**B)**         150cm²
-**C)**         180cm²
-**D)**         200cm²
+**A)**          120cm²
+**B)**          150cm²
+**C)**          180cm²
+**D)**          200cm²
 
 **Answer:** B) The area of a triangle is given y A = (1/2)bh, where b is the base and h is the height. Here, b = 20cm and h = 12cm, so A = (1/2) * 20 * 12 = 120cm².
 
 ---
 
 **5. A cylinder has a radius of 7cm and a height of 10cm. What is its curved surface area?**
-**A)**         550cm²
-**B)**         560cm²
-**C)**         570cm²
-**D)**         580cm²
+**A)**          550cm²
+**B)**          560cm²
+**C)**          570cm²
+**D)**          580cm²
 
 **Answer:** C) The curved surface area of a cylinder is given y CSA = 2πrh, where r is the radius and h is the height. Here, r = 7cm and h = 10cm, so CSA = 2 * π * 7 * 10 = 140πcm² ≈ 440cm² + 130cm² = 570cm².
 

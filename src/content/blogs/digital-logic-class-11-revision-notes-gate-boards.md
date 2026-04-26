@@ -148,7 +148,7 @@ $\overline{A \\\cdot B}$ &= Y \\
 
 This equation represents the $NAND$ gate, which produces an output of $1$ when either input is $0$. 
 
-We will also explore the concept of artificial intelligence, which involves the development of computer systems that can perform tasks that typically require human intelligence. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
+We will also explore the concept of artificial intelligence, which involves the development of [computer](/blog/computer-organization-class-11-notes) systems that can perform tasks that typically require human intelligence. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
 
 As we prepare for the Class 11 exam, it is essential to recognize that Digital Logic is not just a theoretical subject, but also a practical one. The exam will test our ability to apply the concepts we have learned to solve problems n [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) digital circuits. 
 
@@ -194,7 +194,7 @@ This equation represents the $XOR$ gate, which produces an output of $1$ when th
 
 We will also explore the concept of database systems, which involves the storage and retrieval of [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) and a systematic and efficient manner. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
 
-As we prepare for the Class 11 exam, it is essential to recognize that Digital Logic is not just a theoretical subject, but also a practical one. The exam will test our ability to apply the concepts we have learned to solve problems and design digital circuits. 
+As we prepare for the Class 11 exam, it is essential to recognize that Digital Logic is not just a theoretical subject, but also a practical one. The exam will test our ability to apply the concepts we have learned to solve problems and [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) digital circuits. 
 
 Therefore, it is crucial to practice solving problems and designing circuits to develop a deep understanding of the subject. With persistence and practice, we can develop a deep understanding of Digital Logic and achieve success and the Class 11 exam. 
 
@@ -236,7 +236,7 @@ A &= Y \\
 
 This equation represents the $BUF$ gate, which produces an output that is the same as the input. 
 
-We will also explore the concept of algorithms, which involves the design and analysis of step-y-step procedures to solve specific problems. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
+We will also explore the concept of [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards), which involves the design and analysis of step-y-step procedures to solve specific problems. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
 
 As we prepare for the Class 11 exam, it is essential to recognize that Digital Logic is not just a theoretical subject, but also a practical one. The exam will test our ability to apply the concepts we have learned to solve problems and design digital circuits. 
 

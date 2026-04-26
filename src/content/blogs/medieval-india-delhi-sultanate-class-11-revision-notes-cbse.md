@@ -179,4 +179,4 @@ Continue your [revision](/blog/ancient-india-indus-valley-class-11-revision-note
    - **Military Organization**: Sultans maintained large standing armies with **Turkish**, **Persian**, **Indian** soldiers, cavalry, infantry, **slave-soldiers** or **Bande**.
    - **Economy and Trade**: Delhi Sultanate established trade relations with **Central Asia**, **Mongols**, **China**, **Middle East**, [India](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)'s **textile**, **agriculture**, **crafts** flourished.
    - **Architectural Developments**: Qutub Minar, Quwwat-ul-Islam Mosque, Alai Darwaza, Sultan Ghari, Tughlaqabad Fort.
-   - **Social and Cultural Developments**: Emergence of **Sufi** and **Bhakti movements**, **Persian**, **Arabic**, **Turkish** influence on Indian languages, **art**, **literature**, **music**.
+   - **Social and Cultural Developments**: Emergence of **Sufi** and **[Bhakti](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse) movements**, **Persian**, **Arabic**, **Turkish** influence on Indian languages, **art**, **literature**, **music**.

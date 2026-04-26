@@ -21,7 +21,7 @@ practice_link: "/class-11/ancient-india-indus-valley-class-11-revision-notes-cbs
 11. [Last 5 Minutes Box](#last-5-minutes-box)
 
 ## Introduction to Indus Valley Civilization
-The **Indus Valley Civilization**, also known as the **Harappan Civilization**, was one of the earliest urban civilizations in the world. It flourished in the **Indus Valley region**, which is now modern-day Pakistan and northwestern India, between **3300** and **1300 BCE**. This civilization was discovered in the 1920s by archaeologists **Daya Ram Sahni** and **R.D. Banerji**. The excavation of **Mohenjo-Daro** and **Harappa** revealed a sophisticated urban culture with advanced **planning**, **architecture**, and **water management systems**.
+The **Indus Valley Civilization**, also known as the **Harappan Civilization**, was one of the earliest urban civilizations in the world. It flourished in the **Indus Valley region**, which is now modern-day Pakistan and northwestern [India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee), between **3300** and **1300 BCE**. This civilization was discovered in the 1920s by archaeologists **Daya Ram Sahni** and **R.D. Banerji**. The excavation of **Mohenjo-Daro** and **Harappa** revealed a sophisticated urban culture with advanced **planning**, **architecture**, and **water management systems**.
 
 ## Geographical Context
 The Indus Valley Civilization was situated in the **Indus Valley**, which is a fertile region watered by the **Indus River** and its tributaries. The civilization stretched from **Sutkagen Dor** in the west to **Alamgirpur** in the east, and from **Manda** in the north to **Daimabad** in the south. The region's fertile soil, abundant water supply, and favorable climate made it an ideal place for **agriculture** and **settlement**.
@@ -143,3 +143,24 @@ The economy of the Indus Valley Civilization was based on agriculture, animal hu
 * **Characteristics**: Urban planning, architecture, water management, trade and commerce, and art and craft
 * **Economy and trade**: Based on agriculture, animal husbandry, trade and commerce, and crafts and industries
 * **Social structure and governance**: Hierarchical society with rulers, priests, merchants, and artisans, and a system of governance with local councils and regional authorities
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* The Indus Valley Civilization is often mistakenly believed to have been limited to the Indus River valley, when in fact it extended to the Ghaggar-Hakra valley, Gujarat, and other surrounding areas.
+* A common mistake is to assume that the Great Bath in Mohenjo-Daro was used for ritualistic purposes, whereas its actual purpose is still a topic of debate among historians.
+* Many students incorrectly believe that the Indus Valley Civilization was a single, unified empire, when in reality it was a collection of urban centers with a shared cultural and economic system.
+* The decline of the Indus Valley Civilization is often attributed to a single factor, such as the Aryan invasion or drought, when in fact it was likely the result of a combination of factors, including climate change, economic decline, and external invasions.
+* A trap question that often confuses students is the difference between the terms 'Harappan' and 'Indus Valley Civilization', with 'Harappan' referring specifically to the culture and civilization of the Indus Valley, while 'Indus Valley Civilization' is a broader term that encompasses the entire civilization, including its urban centers and surrounding areas.
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Ancient%20India%20Indus%20Valley%20Class%2011%20History%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Grandmaster Guide](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)
+- 📖 [Body Fluids And Circulation Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)
+- 📖 [physics heat light](/blog/physics-heat-light-class-11-revision-notes-jee-neet)
+- 📖 [trigonometric functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)

@@ -174,7 +174,7 @@ Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 
 ## 🪤 The 5 Mistakes That Cost Marks
 
-* A common mistake in mathematical reasoning is to assume that 'if p, then q' is equivalent to 'if q, then p', which is not true. For example, 'if it is raining, then the sky is cloudy' does not imply 'if the sky is cloudy, then it is raining'.
+* A common mistake in [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) reasoning is to assume that 'if p, then q' is equivalent to 'if q, then p', which is not true. For example, 'if it is raining, then the sky is cloudy' does not imply 'if the sky is cloudy, then it is raining'.
 * Many students incorrectly assume that the negation of 'p and q' is 'not p and not q', whereas the correct negation is 'not p or not q' (De Morgan's Law).
 * When using a proof by contradiction, a common mistake is to not clearly state the assumption being made or to not properly derive a contradiction from that assumption.
 * In conditional statements, students often confuse 'if p, then q' with 'p only if q', which are not equivalent statements. 'p only if q' is actually equivalent to 'if p, then q' and 'if not q, then not p'.
@@ -190,5 +190,5 @@ Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet)
    - **Binomial Theorem**: (a+b)^n = ∑[nCk * a^(n-k) * b^k] from k=0 to n
    - **Sequences and Series**: AP, GP, HP, arithmetic mean, geometric mean, harmonic mean
    - **[Limits](/blog/limits-derivatives-class-11-revision-notes-jee-neet)**: lim x→an f(x) = L, left-hand limit, right-hand limit, Sandwich Theorem
-   - **Derivatives**: f'(x) = lim h→0 [f(x+h) - f(x)]/h, product rule, quotient rule, chain rule
+   - **[Derivatives](/blog/limits-derivatives-class-11-revision-notes-jee-neet)**: f'(x) = lim h→0 [f(x+h) - f(x)]/h, product rule, quotient rule, chain rule
    - **Statistics**: mean, median, mode, standard deviation, variance, correlation coefficient

@@ -160,7 +160,7 @@ Answer: A) $10^3$, using the formula $K_p = K_c(RT)^{Delta n}$.
        + VSEPR Theory: Predicts shape of molecules based on electron pair repulsions
        + Hybridization: sp, sp2, sp3 hybrid orbitals
      * **[Thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)**: 
-       + Laws of Thermodynamics: Zeroth, First, Second, Third laws
+       + Laws of [Thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet): Zeroth, First, Second, Third laws
        + Thermodynamic Properties: Internal Energy (U), Enthalpy (H), Entropy (S), Gibbs Free Energy (G)
      * **Kinetics**: 
        + Rate Law: Expresses rate of reaction in terms of reactant concentrations

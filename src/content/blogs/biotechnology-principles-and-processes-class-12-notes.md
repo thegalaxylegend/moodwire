@@ -74,7 +74,7 @@ manualReview: false
 
 ## 👁️ Ayush's Note
 - [Biotechnology](/blog/biotechnology-and-its-applications-class-12-notes) is a rapidly growing field that has the potential to revolutionize the way we live and work.
-- Biotechnology has many applications, including the production of medicines, foods, and fuels.
+- [Biotechnology](/blog/biotechnology-and-its-applications-class-12-notes) has many applications, including the production of medicines, foods, and fuels.
 - Biotechnology also has the potential to solve some of the world's most pressing problems, such as hunger, disease, and climate change.
 - To succeed in biotechnology, it is essential to have a strong foundation in the underlying [principles](/blog/principles-of-inheritance-and-variation-class-12-notes) and processes.
 - This includes understanding the structure and function of DNA, the process of gene expression, and the techniques used in genetic engineering.
