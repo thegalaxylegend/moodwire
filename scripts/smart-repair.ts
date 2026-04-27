@@ -28,7 +28,7 @@ const TODAY = new Date().toISOString().split('T')[0];
 
 import { nodeRouter } from './utils/nodeRouter.ts';
 import { godSafeParse } from './utils/god-json.ts';
-import { checkLatexIntegrity, normalizeMarkdownMCQs } from './utils/jules-quality.ts';
+import { normalizeMarkdownMCQs } from './utils/jules-quality.ts';
 import { auditGrammar } from './utils/grammar-audit.ts';
 import { extractTextFromImage } from './utils/ocr-tool.ts';
 import { fetchWikiSummary, buildWikiCallout } from './utils/wikipedia-enricher.ts';
@@ -309,60 +309,16 @@ async function repairBlog(filePath: string, isDryRun: boolean, canUseAi: boolean
         fixes.push(`Extracted ${jsonExtractCount} multi-line JSON-squash blocks into markdown`);
     }
 
-    // ========= FIX 21: Standalone Naked Math Block Wrapping =========
-    // Root Cause #6: LLM outputs entire equations on their own lines (like "f'(x) = \lim...") 
-    // either completely naked or with fragmented inline $ wrappers.
-    let standaloneMathFixCount = 0;
-    const bodyLines = body.split('\n');
-    let insideBlockMathFix = false;
-    
-    function isStandaloneMath(line: string): boolean {
-        const bareLine = line.replace(/\$/g, '').trim();
-        if (bareLine.length === 0 || line.includes('$$')) return false;
-        if (!/(\\[a-zA-Z]+|=|f'\([a-zA-Z0-9]\)|[+\-*/^])/.test(bareLine)) return false;
-        
-        const withoutLatex = bareLine.replace(/\\[a-zA-Z]+/g, '');
-        const words = withoutLatex.match(/[a-zA-Z]{3,}/g) || [];
-        const proseWords = words.filter(w => !['sin', 'cos', 'tan', 'log', 'lim', 'max', 'min'].includes(w.toLowerCase()));
-        
-        if (proseWords.length > 1) return false; 
-        
-        if (/\\(lim|sin|cos|tan|frac|int|sum|prod|alpha|beta|gamma|theta|pi|infty|rightarrow)/.test(bareLine)) return true;
-        if (bareLine.includes("f'(") || bareLine.startsWith("=")) return true;
-        
-        return false;
-    }
 
-    for (let li = 0; li < bodyLines.length; li++) {
-        const line = bodyLines[li];
-        if (/^\s*\$\$/.test(line)) { insideBlockMathFix = !insideBlockMathFix; continue; }
-        if (insideBlockMathFix || /^\s*\|/.test(line) || /^#/.test(line) || (/^- /.test(line) && line.length > 50)) continue;
-        
-        if (isStandaloneMath(line)) {
-            // Strip any fragmented inline $ and wrap the whole line as block math
-            const cleanLine = line.replace(/\$/g, '').trim();
-            // Preserve list marker if it exists
-            const listMatch = line.match(/^(\s*[-*]\s+|\s*\d+\.\s+)/);
-            if (listMatch) {
-                bodyLines[li] = `${listMatch[1]}$$ ${cleanLine.substring(listMatch[1].length).trim()} $$`;
-            } else {
-                bodyLines[li] = `$$ ${cleanLine} $$`;
-            }
-            standaloneMathFixCount++;
-        }
-    }
-    
-    if (standaloneMathFixCount > 0) {
-        body = bodyLines.join('\n');
-        fixes.push(`Converted ${standaloneMathFixCount} fragmented standalone equations into block math`);
-    }
 
-    // ========= FIX 1: Kill List Phrase Removal =========
+    // ========= FIX 1: Kill List — SAFE VERSION =========
+    // Uses word-boundary matching to avoid corrupting partial words
     let killCount = 0;
     for (const phrase of KILL_LIST) {
-        const regex = new RegExp(phrase, 'gi');
-        if (regex.test(body)) {
-            body = body.replace(regex, '');
+        // Only match full phrases, not substrings of words
+        const safeRegex = new RegExp(`\\b${phrase.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'gi');
+        if (safeRegex.test(body)) {
+            body = body.replace(safeRegex, '');
             killCount++;
         }
     }
@@ -371,18 +327,7 @@ async function repairBlog(filePath: string, isDryRun: boolean, canUseAi: boolean
         fixes.push(`Removed ${killCount} kill-list phrases`);
     }
 
-    // ========= FIX 2: Broken LaTeX Repair =========
-    const emptyLatex = body.match(/\$\$\s*\$\$/g);
-    if (emptyLatex) {
-        body = body.replace(/\$\$\s*\$\$/g, '');
-        fixes.push(`Removed ${emptyLatex.length} empty LaTeX blocks`);
-    }
-    // ========= NEW: Advanced LaTeX Normalization =========
-    const bodyBeforeLatex = body;
-    body = checkLatexIntegrity(body);
-    if (body !== bodyBeforeLatex) {
-        fixes.push('Normalized advanced LaTeX formatting (wrapped raw blocks)');
-    }
+
 
     // ========= FIX 4: Duplicate H2 Headers =========
     const h2s = body.match(/^## .+$/gm) || [];

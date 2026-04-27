@@ -25,11 +25,23 @@ export const BlogIndex: React.FC = () => {
     
     const [searchParams] = useSearchParams();
     const categoryFilter = searchParams.get('category');
+    const searchQuery = searchParams.get('q');
 
     const filteredBlogs = useMemo(() => {
-        if (!categoryFilter) return blogs;
-        return blogs.filter(blog => blog.category === categoryFilter);
-    }, [categoryFilter]);
+        let result = blogs;
+        if (categoryFilter) {
+            result = result.filter(blog => blog.category === categoryFilter);
+        }
+        if (searchQuery) {
+            const q = searchQuery.toLowerCase();
+            result = result.filter(blog => 
+                blog.title.toLowerCase().includes(q) || 
+                blog.description.toLowerCase().includes(q) ||
+                blog.category.toLowerCase().includes(q)
+            );
+        }
+        return result;
+    }, [categoryFilter, searchQuery]);
 
     return (
         <div className={`min-h-screen bg-black text-white selection:bg-purple-500/30 overflow-x-hidden relative perf-tier-${tier}`}>
@@ -61,10 +73,14 @@ export const BlogIndex: React.FC = () => {
                     className="mb-20 text-center max-w-3xl mx-auto will-change-transform"
                 >
                     <div className="inline-block px-4 py-1.5 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-400 text-xs font-bold tracking-widest uppercase mb-6">
-                        {categoryFilter || 'Insights & Strategies'}
+                        {searchQuery ? 'Search Results' : (categoryFilter || 'Insights & Strategies')}
                     </div>
                     <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight text-white leading-[1.1]">
-                        {categoryFilter ? (
+                        {searchQuery ? (
+                            <>
+                                Results for "<span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">{searchQuery}</span>"
+                            </>
+                        ) : categoryFilter ? (
                             <>
                                 Focus on <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">{categoryFilter}</span>
                             </>
@@ -75,14 +91,16 @@ export const BlogIndex: React.FC = () => {
                         )}
                     </h1>
                     <p className="text-xl text-gray-400 leading-relaxed font-medium">
-                        {categoryFilter 
+                        {searchQuery
+                            ? `Found ${filteredBlogs.length} article${filteredBlogs.length !== 1 ? 's' : ''} matching your search.`
+                            : categoryFilter 
                             ? `Explore our latest guides and notes specifically for ${categoryFilter}.`
                             : "Data-driven preparation guides, syllabus deep-dives, and AI-powered study hacks to give you the competitive edge."
                         }
                     </p>
-                    {categoryFilter && (
+                    {(categoryFilter || searchQuery) && (
                         <Link to="/blog" className="inline-block mt-8 text-purple-400 hover:text-purple-300 font-bold text-sm">
-                            ← View all categories
+                            ← View all articles
                         </Link>
                     )}
                 </motion.header>

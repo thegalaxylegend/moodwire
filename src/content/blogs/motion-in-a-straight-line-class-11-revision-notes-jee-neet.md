@@ -190,7 +190,7 @@ Motion and a [straight](/blog/straight-lines-class-11-revision-notes-jee-neet) l
 **Reference:** [Khan Academy: Physics Kinematics](https://www.khanacademy.org/science/physics/one-dimensional-[motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet))
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

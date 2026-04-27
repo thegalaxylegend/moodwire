@@ -446,7 +446,7 @@ I will continue to review and practice the material to ensure I am well-prepared
 The **Formulae and Tables** section has provided me with a quick
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

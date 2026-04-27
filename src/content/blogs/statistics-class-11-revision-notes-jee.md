@@ -35,7 +35,7 @@ practice_link: "/class-11/mathematics/statistics-class-11-revision-notes-jee"
 - [2. Mean Deviation (M.D.)](#2-mean-deviation-md)
   - [Calculation Steps:](#calculation-steps)
 - [3. Variance and Standard Deviation](#3-variance-n-standard-deviation)
-  - [Variance ($\\sigma^2$):](#variance-sigma2)
+  - [Variance ($\sigma^2$):](#variance-sigma2)
   - [Standard Deviation ($\sigma$):](#standard-deviation-sigma)
 - [4. Analysis of Frequency Distributions](#4-analysis-of-frequency-distributions)
   - [Coefficient of Variation (C.V.):](#coefficient-of-variation-cv)
@@ -50,7 +50,7 @@ practice_link: "/class-11/mathematics/statistics-class-11-revision-notes-jee"
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
-> - **Mean Deviation (M.D.):** $\frac{1}{n}|}{\\sigma^2} .$ > - **Variance ():** $\frac{1}${n})^2}{\sigma} . 
+> - **Mean Deviation (M.D.):** $\frac{1}{n}|}{\sigma^2} .$ > - **Variance ():** $\frac{1}${n})^2}{\sigma} . 
 > - **Standard Deviation ($):** Positive square root of Variance.$
 > - **Shortcut for Variance:** $\frac{\sum x_i^2}{{n})^2}}{\bar{x}} .$
 > - **Lower M.D./S.D.:** Indicates more consistent (less dispersed) data.
@@ -99,15 +99,15 @@ Mean deviation can be calculated about the **Mean** or the **Median**.
 
 While Mean Deviation uses absolute values, Variance uses **squares** of deviations to avoid negative signs.
 
-### <a id="variance-sigma2"></a>Variance ($\\sigma^2$):
+### <a id="variance-sigma2"></a>Variance ($\sigma^2$):
 The average of the squared deviations from the mean.
-- **Formula:** $\\sigma^2 = \frac{1}{n} \sum (x_i - \bar{x})^2$
+- **Formula:** $\sigma^2 = \frac{1}{n} \sum (x_i - \bar{x})^2$
 
 ### <a id="standard-deviation-sigma"></a>Standard Deviation ($\sigma$):
 The square root of the variance. It is preferred because it shares the same units as the original data.
 - **Short Method for Discrete Frequency Distribution:**
 
- \\\\sigma = \frac{1}{N} = 
+ \\\sigma = \frac{1}{N} = 
 
 ---
 
@@ -153,7 +153,7 @@ c.n/textbook.php?kemh1=15-16) (Authoritative Source)]
 Statistics and class 11 moves beyond just finding averages to understanding the reliability of data. Mastering Mean Deviation and Variance allows you to quantify "risk" n "consistency"—skills used and everything from weather forecasting to the stock market. Keep your calculations precise, n remember: consistency is key (both and data and and your study routine)!
 ---
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 ---
 ## <a id="-related-topics"></a>📚 Related Topics
 Continue your [revision](/blog/limits-derivatives-class-11-revision-notes-jee-neet) with these related guides:

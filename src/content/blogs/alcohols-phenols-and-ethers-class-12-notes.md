@@ -80,7 +80,7 @@ $RCH(OH) + PCL_5 \rightarrow Rock + Poll_3 + HCl - Conversion$ of alcohol to acy
 |
 ### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/alcohols-phenols-n-ethers-class-12-notes) now and track your progress against thousands of students.
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 ## <a id="-related-topics"></a>📚 Related Topics
 Continue your [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) with these related guides:
 - 📖 [Chemistry and Everyday Life Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/chemistry-in-everyday-life-class-12-notes)

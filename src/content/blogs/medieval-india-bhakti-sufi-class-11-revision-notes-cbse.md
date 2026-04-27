@@ -109,7 +109,7 @@ Remember, a strong foundation and history can significantly enhance your underst
 By following these tips and staying committed to your studies, you'll be well on your way to developing a deep understanding of Medieval [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) n its significance and the broader context of Indian history.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

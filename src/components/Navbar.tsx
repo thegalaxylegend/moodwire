@@ -1,6 +1,6 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useState, useEffect, useRef } from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { CATEGORIES } from '../data/blogs';
 
 const EXAM_LINKS = [
@@ -16,10 +16,22 @@ const EXAM_LINKS = [
 export const Navbar = () => {
     const [isFilterOpen, setIsFilterOpen] = useState(false);
     const [isExamsOpen, setIsExamsOpen] = useState(false);
+    const [isSearchOpen, setIsSearchOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
     const location = useLocation();
+    const navigate = useNavigate();
+    const [searchQuery, setSearchQuery] = useState(new URLSearchParams(location.search).get('q') || '');
     const filterRef = useRef<HTMLDivElement>(null);
     const examsRef = useRef<HTMLDivElement>(null);
+    const searchInputRef = useRef<HTMLInputElement>(null);
+
+    // Sync search query when url changes
+    useEffect(() => {
+        const q = new URLSearchParams(location.search).get('q');
+        if (q !== null) {
+            setSearchQuery(q);
+        }
+    }, [location.search]);
 
     // Simple scroll listener — no per-frame GPU work
     useEffect(() => {
@@ -47,9 +59,12 @@ export const Navbar = () => {
         setIsFilterOpen(false);
         setIsExamsOpen(false);
         setIsMobileMenuOpen(false);
+        setIsMobileSearchOpen(false);
     }, [location]);
 
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const [isMobileSearchOpen, setIsMobileSearchOpen] = useState(false);
+    const mobileSearchInputRef = useRef<HTMLInputElement>(null);
 
     // Lock body scroll when mobile menu is open — viewport aware
     useEffect(() => {
@@ -72,22 +87,145 @@ export const Navbar = () => {
             <div 
                 className="max-w-7xl mx-auto px-4 md:px-6 flex items-center justify-between h-full"
             >
-                <Link to="/" className="text-xl md:text-2xl font-bold text-white tracking-tighter shrink-0 mr-4">
+                {/* Logo */}
+                <Link 
+                    to="/" 
+                    className="text-xl md:text-2xl font-bold text-white tracking-tighter shrink-0 mr-4"
+                >
                     Exam<span className="text-[#a855f7]">Compass</span>
                 </Link>
 
-                {/* Mobile Menu Button */}
-                <button 
-                    onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                    className="md:hidden flex flex-col gap-1.5 p-2 focus:outline-none z-[60]"
-                >
-                    <div className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMobileMenuOpen ? 'rotate-45 translate-y-2' : ''}`} />
-                    <div className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMobileMenuOpen ? 'opacity-0' : ''}`} />
-                    <div className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMobileMenuOpen ? '-rotate-45 -translate-y-2' : ''}`} />
-                </button>
+                {/* Mobile Actions */}
+                <div className="flex items-center gap-1 md:hidden z-[60]">
+                    <button
+                        onClick={() => {
+                            setIsMobileSearchOpen(true);
+                            setIsMobileMenuOpen(false);
+                            setTimeout(() => mobileSearchInputRef.current?.focus(), 100);
+                        }}
+                        className="p-2 text-gray-400 hover:text-white transition-colors focus:outline-none rounded-full"
+                        aria-label="Open mobile search"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="transform transition-transform active:scale-95">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                    </button>
+
+                    <button 
+                        onClick={() => {
+                            setIsMobileMenuOpen(!isMobileMenuOpen);
+                            if (!isMobileMenuOpen) setIsMobileSearchOpen(false);
+                        }}
+                        className="flex flex-col gap-1.5 p-2 focus:outline-none"
+                    >
+                        <div className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMobileMenuOpen ? 'rotate-45 translate-y-2' : ''}`} />
+                        <div className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMobileMenuOpen ? 'opacity-0' : ''}`} />
+                        <div className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMobileMenuOpen ? '-rotate-45 -translate-y-2' : ''}`} />
+                    </button>
+                </div>
+
+                {/* Mobile Inline Search Form (Absolute Overlay) */}
+                <AnimatePresence>
+                    {isMobileSearchOpen && (
+                        <motion.form 
+                            initial={{ opacity: 0, x: 15, scale: 0.98 }}
+                            animate={{ opacity: 1, x: 0, scale: 1 }}
+                            exit={{ opacity: 0, x: 10, scale: 0.98 }}
+                            transition={{ type: "spring", stiffness: 400, damping: 30 }}
+                            className="absolute inset-0 flex items-center w-full gap-2 px-4 bg-black/95 backdrop-blur-md z-[70] md:hidden"
+                            onSubmit={(e) => {
+                                e.preventDefault();
+                                if (searchQuery.trim()) {
+                                    navigate(`/blog?q=${encodeURIComponent(searchQuery.trim())}`);
+                                    setIsMobileSearchOpen(false);
+                                }
+                            }}
+                        >
+                            <div className="relative w-full">
+                                <input
+                                    ref={mobileSearchInputRef}
+                                    type="search"
+                                    enterKeyHint="search"
+                                    placeholder="Search blogs..."
+                                    className="w-full bg-white/10 border border-white/20 rounded-full px-4 pl-10 py-1.5 text-sm text-white placeholder-gray-400 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all shadow-[0_0_15px_rgba(168,85,247,0.15)]"
+                                    value={searchQuery}
+                                    onChange={(e) => setSearchQuery(e.target.value)}
+                                />
+                                <button 
+                                    type="submit"
+                                    className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-white transition-colors focus:outline-none"
+                                    aria-label="Submit search"
+                                >
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                                        <circle cx="11" cy="11" r="8"></circle>
+                                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                    </svg>
+                                </button>
+                            </div>
+                            <button
+                                type="button"
+                                onClick={() => setIsMobileSearchOpen(false)}
+                                className="p-2 text-gray-400 hover:text-white transition-colors focus:outline-none rounded-full shrink-0"
+                                aria-label="Close search"
+                            >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="transform transition-transform hover:scale-110 active:scale-95">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg>
+                            </button>
+                        </motion.form>
+                    )}
+                </AnimatePresence>
 
                 {/* Desktop Links */}
                 <div className="hidden md:flex items-center gap-3 md:gap-6">
+                    {/* Search Bar */}
+                    <div className="flex items-center">
+                        <AnimatePresence>
+                            {isSearchOpen && (
+                                <motion.form
+                                    initial={{ width: 0, opacity: 0 }}
+                                    animate={{ width: 210, opacity: 1 }}
+                                    exit={{ width: 0, opacity: 0 }}
+                                    transition={{ type: "spring", stiffness: 400, damping: 30 }}
+                                    className="overflow-hidden p-1 mr-1 flex items-center"
+                                    onSubmit={(e) => {
+                                        e.preventDefault();
+                                        if (searchQuery.trim()) {
+                                            navigate(`/blog?q=${encodeURIComponent(searchQuery.trim())}`);
+                                        }
+                                    }}
+                                >
+                                    <input
+                                        ref={searchInputRef}
+                                        type="search"
+                                        enterKeyHint="search"
+                                        placeholder="Search blogs..."
+                                        className="w-[190px] bg-white/10 border border-white/20 rounded-full px-4 py-1.5 text-sm text-white placeholder-gray-400 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all shadow-[0_0_15px_rgba(168,85,247,0.15)]"
+                                        value={searchQuery}
+                                        onChange={(e) => setSearchQuery(e.target.value)}
+                                    />
+                                </motion.form>
+                            )}
+                        </AnimatePresence>
+                        <button
+                            onClick={() => {
+                                setIsSearchOpen(!isSearchOpen);
+                                if (!isSearchOpen) {
+                                    setTimeout(() => searchInputRef.current?.focus(), 100);
+                                }
+                            }}
+                            className="p-1.5 md:p-2 text-gray-400 hover:text-white transition-colors focus:outline-none rounded-full hover:bg-white/5"
+                            aria-label="Search blogs"
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="transform transition-transform hover:scale-110 active:scale-95">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            </svg>
+                        </button>
+                    </div>
+
                     {/* Exams Dropdown */}
                     <div className="relative" ref={examsRef}>
                         <button

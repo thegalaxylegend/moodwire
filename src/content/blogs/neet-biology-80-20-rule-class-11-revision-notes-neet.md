@@ -94,7 +94,7 @@ By applying the 80/20 rule, you transform your [neet](/blog/agriculture-class-11
 **Next Steps.** Jump into the [NEET Biology Questions Database](/neet) n filter y "Molecular Basis of Inheritance" to lock and those high-yield [concepts](/blog/jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet) immediately.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

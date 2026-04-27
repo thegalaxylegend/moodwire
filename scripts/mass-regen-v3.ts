@@ -48,28 +48,49 @@ let geminiIdx = 0;
 const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
 
 // ═══════════════════════════════════════════════════
-// SYSTEM PROMPT
+// SYSTEM PROMPT (Unicode Math + Evolved Prompt Insights)
 // ═══════════════════════════════════════════════════
-const SYSTEM_PROMPT = `You are a top 1% JEE/NEET/CBSE academic mentor. Generate a "Grandmaster Last-Night Revision Guide" in pure Markdown.
+const SYSTEM_PROMPT = `You are a strict, top 1% JEE/NEET ranker creating a "Last-Night Revision Format" study guide.
+Your sole purpose is to provide exactly what a student needs to read 12 hours before their exam to maximize their score.
 
 ABSOLUTE RULES:
 1. Output ONLY pure GitHub-Flavored Markdown. NO JSON. NO HTML. NO code fences.
 2. Use ## for H2 and ### for H3. Use bullet points (- ) for 80% of content.
 3. Each bullet on its own line. Blank line between sections.
-4. Target 2000-3000 words. You MUST write in extreme depth for every section to reach this target.
+4. Target 2000-3000 words. Each section MUST have substantial value (150+ words).
+5. Voice: Specific, data-driven, authentic student tone. NO FILLER. No fluff. No introductions.
+6. Format Rule: A student reads this once, closes the tab, and walks into the exam confident.
+7. NEVER use phrases like "In conclusion", "delve into", "comprehensive", "embark on your journey", "it is important to note".
 
-LaTeX RULES (CRITICAL):
-1. Inline math: $\\frac{a}{b}$  Block math on own lines: $$E = mc^2$$
-2. ALWAYS use backslash: \\frac \\sqrt \\times \\div \\alpha \\beta \\gamma \\delta \\theta \\sigma \\mu \\pi \\omega \\lambda \\infty \\partial \\left \\right \\sin \\cos \\tan \\log \\ln \\lim \\sum \\int \\prod \\leq \\geq \\neq \\approx \\equiv \\pm \\cdot \\vec \\bar \\hat \\overline \\text \\mathrm
-3. ALWAYS use curly braces: \\frac{num}{den}, \\sqrt{x}
-4. NEVER output raw words like "frac" "sqrt" "sigma" "alpha" without backslash
-5. NEVER double-escape: \\frac NOT \\\\frac
-6. NEVER leave math without $ delimiters
+MATH FORMATTING (CRITICAL — USE UNICODE, NOT LATEX):
+Write ALL math as plain text with Unicode characters. This is MANDATORY.
+- Superscripts: use ² ³ ⁴ ⁿ ˣ ʸ (e.g., x², r³, aⁿ)
+- Subscripts: use ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ₙ ₖ ₓ (e.g., a₀, xₙ, Tₖ)
+- Greek letters: use α β γ δ ε θ λ μ π σ φ ω Δ Σ Ω
+- Math operators: use × ÷ ± ∓ · √ ∑ ∫ ∞ ≠ ≈ ≡ ≤ ≥ → ⇒ ∈ ∝ ⊥ ∥ ∠ °
+- Fractions: write as a/b or (numerator)/(denominator)
+- Combinations: write as ⁿCᵣ or ⁿCₖ
 
-ANTI-CORRUPTION:
-1. NO placeholder words (desert, sort, AR, CIRC) instead of LaTeX
-2. NO truncation markers
-3. NO squashing bullet points into one line
+EXAMPLES OF CORRECT MATH:
+✅ E = mc²
+✅ F = GmM/r²
+✅ sin²θ + cos²θ = 1
+✅ v = u + at
+✅ ⁿCᵣ = n!/(r!(n-r)!)
+✅ ∑ₖ₌₀ⁿ aₖxᵏ
+✅ limₓ→₀ (sin x)/x = 1
+✅ d/dx (xⁿ) = nxⁿ⁻¹
+✅ PV = nRT
+✅ λ = h/(mv)
+
+NEVER USE:
+❌ $...$ or $$...$$ delimiters
+❌ \\frac{}{}, \\sqrt{}, \\sum, \\sin, \\binom or ANY backslash commands
+❌ LaTeX syntax of any kind
+
+SEO OPTIMIZATION:
+- Naturally incorporate keywords like "exam compass", "jee 2026", "neet 2026" where relevant.
+- Maintain high formula density for STEM subjects.
 
 REQUIRED SECTIONS (in order):
 1. ## ⚡ Formula Bank
@@ -206,18 +227,35 @@ Output ONLY pure Markdown. Follow ALL rules exactly.`;
 // ═══════════════════════════════════════════════════
 function postProcess(content: string): string {
   let f = content;
+  // Strip code fences the LLM might wrap around the output
   f = f.replace(/^```(?:markdown)?\s*\n?/gm, '').replace(/\n?```\s*$/gm, '').trim();
-  f = f.replace(/\\\\frac/g, '\\frac').replace(/\\\\sqrt/g, '\\sqrt')
-    .replace(/\\\\times/g, '\\times').replace(/\\\\left/g, '\\left')
-    .replace(/\\\\right/g, '\\right').replace(/\\\\text/g, '\\text');
-  
-  const s = (f.match(/(?<!\$)\$(?!\$)/g) || []).length;
-  if (s % 2 !== 0) f += '$';
-  const d = (f.match(/\$\$/g) || []).length;
-  if (d % 2 !== 0) f += '\n$$\n';
-  const ob = (f.match(/\{/g) || []).length;
-  const cb = (f.match(/\}/g) || []).length;
-  if (ob > cb) f += '}'.repeat(ob - cb);
+
+  // SAFETY NET: If LLM accidentally used LaTeX, convert to Unicode symbols
+  const LATEX_TO_UNICODE: Record<string, string> = {
+    '\\alpha': 'α', '\\beta': 'β', '\\gamma': 'γ', '\\delta': 'δ',
+    '\\epsilon': 'ε', '\\theta': 'θ', '\\lambda': 'λ', '\\mu': 'μ',
+    '\\pi': 'π', '\\sigma': 'σ', '\\phi': 'φ', '\\omega': 'ω',
+    '\\Delta': 'Δ', '\\Sigma': 'Σ', '\\Omega': 'Ω', '\\Gamma': 'Γ',
+    '\\times': '×', '\\div': '÷', '\\pm': '±', '\\mp': '∓',
+    '\\cdot': '·', '\\infty': '∞', '\\approx': '≈', '\\neq': '≠',
+    '\\equiv': '≡', '\\leq': '≤', '\\geq': '≥', '\\rightarrow': '→',
+    '\\leftarrow': '←', '\\Rightarrow': '⇒', '\\Leftarrow': '⇐',
+    '\\in': '∈', '\\notin': '∉', '\\subset': '⊂', '\\supset': '⊃',
+    '\\cup': '∪', '\\cap': '∩', '\\forall': '∀', '\\exists': '∃',
+    '\\partial': '∂', '\\nabla': '∇', '\\perp': '⊥', '\\parallel': '∥',
+    '\\ldots': '…', '\\circ': '∘', '\\degree': '°',
+  };
+
+  for (const [latex, unicode] of Object.entries(LATEX_TO_UNICODE)) {
+    // Match both single and double-escaped versions
+    f = f.replace(new RegExp(latex.replace(/\\/g, '\\\\') + '(?![a-zA-Z])', 'g'), unicode);
+    f = f.replace(new RegExp(latex + '(?![a-zA-Z])', 'g'), unicode);
+  }
+
+  // Strip orphaned $ and $$ delimiters (Unicode math doesn't need them)
+  f = f.replace(/\$\$([^$]+)\$\$/g, '$1'); // Block math: just keep content
+  f = f.replace(/\$([^$]+)\$/g, '$1');       // Inline math: just keep content
+
   return f;
 }
 
@@ -232,14 +270,15 @@ function validate(content: string): string[] {
 }
 
 function assembleFinal(blog: BlogEntry, body: string): string {
-  const today = new Date().toISOString().split('T')[0];
+  // PRESERVE original date — never overwrite with today's date
+  const originalDate = blog.date || new Date().toISOString().split('T')[0];
   const cleanTitle = blog.title.split(' — ')[0].trim();
   return `---
 heroImage: "${blog.image}"
 title: "${cleanTitle} — Grandmaster Guide"
-description: "${cleanTitle} — Grandmaster Guide Revision Notes. Last Updated: ${today}."
+description: "${cleanTitle} — Grandmaster Guide Revision Notes. Last Updated: ${originalDate}."
 category: "Exam Notes"
-date: "${today}"
+date: "${originalDate}"
 practice_link: "/practice/${blog.id}"
 manualReview: false
 ---
@@ -299,12 +338,14 @@ async function main() {
     const { topic, subject, grade } = extractMeta(blog);
     const filePath = path.join(BLOG_DIR, `${blog.id}.md`);
     
-    // IDEMPOTENCY CHECK: Skip if already generated and looks good
+    // IDEMPOTENCY CHECK: Skip if already generated and looks good AND has no LaTeX
     if (fs.existsSync(filePath)) {
       const existing = fs.readFileSync(filePath, 'utf-8');
       const wc = existing.split(/\s+/).length;
-      if (existing.includes('Grandmaster Guide') && wc > 800) {
-        console.log(`[${i+1}/${blogs.length}] ⏭️ Skipping ${topic} (Already exists and looks good: ${wc} words)`);
+      const hasLatex = /\\(frac|sin|cos|tan|log|sqrt|sum|int|lim|alpha|beta|theta|pi|Delta|Sigma)/.test(existing);
+      
+      if (existing.includes('Grandmaster Guide') && wc > 800 && !hasLatex) {
+        console.log(`[${i+1}/${blogs.length}] ⏭️ Skipping ${topic} (Already exists, looks good, no LaTeX: ${wc} words)`);
         continue;
       }
     }

@@ -8,174 +8,94 @@ practice_link: "/practice/human-health-and-disease-class-12-notes"
 manualReview: false
 ---
 
-## 📑 Table of Contents
-
-1. [⚡ Formula Bank](#formula-bank)
-2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
-3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
-4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
-5. [👁️ Ayush's Note](#ayushs-note)
-6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
-7. [📝 Practice MCQs](#practice-mcqs)
-8. [📚 Related Topics](#related-topics)
-
----
-
 ## ⚡ Formula Bank
-- Human health is defined as a state of complete physical, mental, and social well-being and not merely the absence of disease or infirmity: $\frac{Health}{Disease} = \frac{Well-being}{Infirmity}$
-- The World Health Organization (WHO) definition of health is: health = $\frac{Physical \$: well-being}{Mental \: well-being} $\times \frac{Social \$: well-being}{Economic \: well-being}
-- The determinants of [health](/blog/reproductive-health-class-12-notes) are: 
-- Genetic 
-- Environmental 
-- Occupational 
-- Lifestyle 
-- Socioeconomic 
-- Access to healthcare: $\frac{Health}{Determinants} = \frac{Genetic + Environmental + Occupational + Lifestyle + Socioeconomic}{Access \: to \: healthcare}$
-- The different types of diseases are: 
-- Infectious 
-- Non-infectious 
-- Deficiency 
-- Physiological 
-- Psychological: $\frac{Disease}{Type} = \frac{Infectious + Non-infectious + Deficiency + Physiological + Psychological}{Total \: diseases}$
-- The different modes of transmission of diseases are: 
-- Airborne 
-- Waterborne 
-- Vector-borne 
-- Contagious 
-- Zoonotic: $\frac{Transmission}{Mode} = \frac{Airborne + Waterborne + Vector-borne + Contagious + Zoonotic}{Total \: transmission}$
-- The different types of immunity are: 
-- Innate 
-- Acquired 
-- Active 
-- Passive: $\frac{Immunity}{Type} = \frac{Innate + Acquired + Active + Passive}{Total \: immunity}$
+- Human development index (HDI) = (life expectancy index × education index × income index)¹/³
+- Disability adjusted life years (DALY) = years of life lost (YLL) + years lived with disability (YLD)
+- Infant mortality rate (IMR) = (number of deaths under 1 year of age per 1000 live births) 
+- Prevalence of disease = (total number of cases of disease) / (total population at risk)
+- Incidence of disease = (number of new cases of disease) / (total population at risk)
+- Relative risk (RR) = (risk of disease ∈ exposed group) / (risk of disease ∈ non-exposed group)
+- Odds ratio (OR) = (odds of disease ∈ exposed group) / (odds of disease ∈ non-exposed group)
+- Heritability (h²) = (variance due to genetic factors) / (total variance)
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not understanding the concept of [health](/blog/reproductive-health-class-12-notes) and disease: [health](/blog/reproductive-health-class-12-notes) 
- EQ \frac{1}{Disease} 
-- Not being able to differentiate between the different types of diseases: infectious 
-EQ Non-infectious
-- Not knowing the different modes of transmission of diseases: airborne 
-EQ Waterborne
-- Not being able to explain the different types of immunity: innate 
-EQ Acquired
-- Not being able to apply the concepts to real-life situations: $\frac{Concept}{Application} = \frac{Theory}{Practice}$
+- Not understanding the concept of burden of disease
+- Confusing incidence and prevalence of disease
+- Not being able to calculate disability adjusted life years (DALY)
+- Not understanding the concept of heritability and its calculation
+- Not being able to interpret data related to human health and disease
 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** $What is the World Health Organization (WHO) definition of health?$
-- Step 1: Recall the WHO definition of [health](/blog/reproductive-health-class-12-notes)
-- Step 2: Write down the definition
-- Step 3: Explain the definition
-- Answer: health = $\frac{Physical \$: well-being}{Mental \: well-being} $\times \frac{Social \$: well-being}{Economic \: well-being}
-- **Question 2:** What are the different types of diseases?
-- Step 1: Recall the different types of diseases
-- Step 2: List down the different types of diseases
-- Step 3: Explain each type of disease
-- Answer: $\frac{Disease}{type} = \frac{Infectious + Non-infectious + Deficiency + Physiological + Psychological}{Total \$: diseases}
-- **Question 3:** What are the different modes of transmission of diseases?
-- Step 1: Recall the different modes of transmission of diseases
-- Step 2: List down the different modes of transmission of diseases
-- Step 3: Explain each mode of transmission
-- Answer: $\frac{Transmission}{Mode} = \frac{Airborne + Waterborne + Vector-borne + Contagious + Zoonotic}{Total \$: transmission}
+- What is the significance of human development index (HDI) ∈ public health?
+  Step 1: HDI is a composite index that measures the average achievement of a country ∈ three basic dimensions of human development.
+  Step 2: These dimensions are life expectancy at birth, expected years of schooling and gross national income per capita.
+  Step 3: HDI is used to rank countries into four tiers of human development.
+- A study found that the relative risk of lung cancer ∈ smokers is 15. What does this mean?
+  Step 1: Relative risk is the ratio of the probability of an event occurring ∈ the exposed group versus the non-exposed group.
+  Step 2: A relative risk of 15 means that smokers are 15 times more likely to develop lung cancer than non-smokers.
+- What is the difference between incidence and prevalence of disease?
+  Step 1: Incidence is the number of new cases of disease that occur ∈ a population over a specific period of time.
+  Step 2: Prevalence is the total number of cases of disease that exist ∈ a population at a specific point ∈ time.
 
 ## 🧠 The One Thing Most Students Get Wrong
-- The concept of [health](/blog/reproductive-health-class-12-notes) and disease is often misunderstood by students, with many thinking that [health](/blog/reproductive-health-class-12-notes) is the absence of disease: [health](/blog/reproductive-health-class-12-notes) 
- EQ \frac{1}{Disease} 
-- However, health is a state of complete physical, mental, and social well-being, and not just the absence of disease or infirmity: health = $\frac{Physical \$: well-being}{Mental \: well-being} $\times \frac{Social \$: well-being}{Economic \: well-being}
-- Students must understand that health and disease are two separate concepts, and that health is a broader concept that encompasses physical, mental, and social well-being: $\frac{Health}{Disease} = \frac{Well-being}{Infirmity}$
+- Most students get confused between the terms incidence and prevalence of disease.
+- Incidence refers to the number of new cases of disease that occur ∈ a population over a specific period of time.
+- Prevalence refers to the total number of cases of disease that exist ∈ a population at a specific point ∈ time.
+- For example, the incidence of malaria ∈ a population may be 100 per 1000 per year, but the prevalence may be 500 per 1000.
 
 ## 👁️ Ayush's Note
-- To excel in the topic of [human](/blog/microbes-in-human-welfare-class-12-notes) health and disease, students must have a deep understanding of the concepts of health and disease
-- Students must be able to differentiate between the different types of diseases and explain the different modes of transmission of diseases
-- Students must also be able to apply the concepts to real-life situations and explain the different types of immunity
-- Practice is key, and students must practice solving problems and answering questions on the topic
-- Revision is also crucial, and students must revise the concepts regularly to ensure that they retain the information: $\frac{Practice}{Revision} = \frac{Theory}{Application}$
+- To answer questions related to human health and disease, it is essential to have a clear understanding of the concepts of burden of disease, disability adjusted life years (DALY), and heritability.
+- Practice calculating DALY and heritability using different scenarios.
+- Make sure to understand the difference between incidence and prevalence of disease.
+- Use the formula bank to quickly recall important formulas and concepts.
 
 ## 🔁 Last 5 Minutes Box
-- Recall the WHO definition of health: health = $\frac{Physical \$: well-being}{Mental \: well-being} $\times \frac{Social \$: well-being}{Economic \: well-being}
-- Recall the different types of diseases: $\frac{Disease}{Type} = \frac{Infectious + Non-infectious + Deficiency + Physiological + Psychological}{Total \$: diseases}
-- Recall the different modes of transmission of diseases: $\frac{Transmission}{Mode} = \frac{Airborne + Waterborne + Vector-borne + Contagious + Zoonotic}{Total \$: transmission}
-- Recall the different types of immunity: $\frac{Immunity}{Type} = \frac{Innate + Acquired + Active + Passive}{Total \$: immunity}
-- Practice solving problems and answering questions on the topic: $\frac{Practice}{Revision} = \frac{Theory}{Application}$
+- Quickly revise the formulas for HDI, DALY, and heritability.
+- Go through the common mistakes that cost marks and make sure you don't repeat them.
+- Revise the concepts of incidence and prevalence of disease.
+- Make sure you can calculate DALY and heritability using different scenarios.
+- Take a few deep breaths and stay calm during the exam.
 
 ## 📝 Practice MCQs
-**1. What is the World Health Organization (WHO) definition of health?**
--
-A) Health is the absence of disease or infirmity
--
-B) Health is a state of complete physical, mental, and social well-being
--
-C) Health is a state of complete physical well-being
--
-D) Health is a state of complete mental well-being
+**1. What is the significance of human development index (HDI) ∈ public health?**
+- A) It measures the average life expectancy at birth
+- B) It measures the average achievement of a country ∈ three basic dimensions of human development
+- C) It measures the total number of cases of disease that exist ∈ a population
+- D) It measures the number of new cases of disease that occur ∈ a population over a specific period of time
+**Answer: B) It measures the average achievement of a country ∈ three basic dimensions of human development**
 
-**Answer: B) Health is a state of complete physical, mental, and social well-being**
+**2. A study found that the relative risk of lung cancer ∈ smokers is 15. What does this mean?**
+- A) Smokers are 15 times more likely to develop lung cancer than non-smokers
+- B) Smokers are 15 times less likely to develop lung cancer than non-smokers
+- C) Smokers are equally likely to develop lung cancer as non-smokers
+- D) Smokers are 5 times more likely to develop lung cancer than non-smokers
+**Answer: A) Smokers are 15 times more likely to develop lung cancer than non-smokers**
 
-**2. What are the different types of diseases?**
--
-A) Infectious and non-infectious
--
-B) Deficiency and physiological
--
-C) Psychological and physiological
--
-D) Infectious, non-infectious, deficiency, physiological, and psychological
+**3. What is the difference between incidence and prevalence of disease?**
+- A) Incidence is the total number of cases of disease that exist ∈ a population, while prevalence is the number of new cases of disease that occur ∈ a population over a specific period of time
+- B) Incidence is the number of new cases of disease that occur ∈ a population over a specific period of time, while prevalence is the total number of cases of disease that exist ∈ a population
+- C) Incidence and prevalence are the same thing
+- D) Incidence is the number of deaths that occur ∈ a population over a specific period of time, while prevalence is the number of births that occur ∈ a population
+**Answer: B) Incidence is the number of new cases of disease that occur ∈ a population over a specific period of time, while prevalence is the total number of cases of disease that exist ∈ a population**
 
-**Answer: D) Infectious, non-infectious, deficiency, physiological, and psychological**
+**4. What is the formula for calculating disability adjusted life years (DALY)?**
+- A) DALY = years of life lost (YLL) + years lived with disability (YLD)
+- B) DALY = years of life lost (YLL) - years lived with disability (YLD)
+- C) DALY = years of life lost (YLL) × years lived with disability (YLD)
+- D) DALY = years of life lost (YLL) ÷ years lived with disability (YLD)
+**Answer: A) DALY = years of life lost (YLL) + years lived with disability (YLD)**
 
-**3. What are the different modes of transmission of diseases?**
--
-A) Airborne and waterborne
--
-B) Vector-borne and contagious
--
-C) Zoonotic and airborne
--
-D) Airborne, waterborne, vector-borne, contagious, and zoonotic
-
-**Answer: D) Airborne, waterborne, vector-borne, contagious, and zoonotic**
-
-**4. What are the different types of immunity?**
--
-A) Innate and acquired
--
-B) Active and passive
--
-C) Innate, acquired, active, and passive
--
-D) Active, passive, and innate
-
-**Answer: C) Innate, acquired, active, and passive**
-
-**5. What is the concept of health and disease?**
--
-A) Health is the absence of disease or infirmity
--
-B) Health is a state of complete physical, mental, and social well-being
--
-C) Disease is a state of complete physical, mental, and social well-being
--
-D) Health and disease are two separate concepts
-
-**Answer: D) Health and disease are two separate concepts**
+**5. What is the concept of heritability?**
+- A) Heritability is the proportion of variation ∈ a trait that can be attributed to genetic factors
+- B) Heritability is the proportion of variation ∈ a trait that can be attributed to environmental factors
+- C) Heritability is the proportion of variation ∈ a trait that can be attributed to genetic and environmental factors
+- D) Heritability is the proportion of variation ∈ a trait that cannot be attributed to genetic or environmental factors
+**Answer: A) Heritability is the proportion of variation ∈ a trait that can be attributed to genetic factors**
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/[human](/blog/microbes-in-human-welfare-class-12-notes)-health-and-disease-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/human-health-and-disease-class-12-notes) now and track your progress against thousands of students.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Human](/blog/microbes-in-human-welfare-class-12-notes)%20Health%20And%20Disease%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-
----
-
-## 📚 Related Topics
-
-Continue your revision with these related guides:
-
-- 📖 [Human Reproduction Class 12 Exam Prep Revision$ — Grandmaster Guide](/blog/human-reproduction-class-12-notes)$
-- 📖 [Microbes In Human Welfare Class 12 Exam Prep Revision — Grandmaster Guide](/blog/microbes-in-human-welfare-class-12-notes)
-- 📖 [Reproductive Health Class 12 Exam Prep Revision — Grandmaster Guide](/blog/reproductive-health-class-12-notes)
-- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
-

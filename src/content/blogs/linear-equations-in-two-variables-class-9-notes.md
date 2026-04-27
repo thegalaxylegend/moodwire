@@ -8,135 +8,84 @@ practice_link: "/practice/linear-equations-in-two-variables-class-9-notes"
 manualReview: false
 ---
 
-## 📑 Table of Contents
-
-1. [⚡ Formula Bank](#formula-bank)
-2. [- A [linear](/blog/linear-programming-class-12-notes) equation in two variables has infinitely many solutions.](#a-linearbloglinear-programming-class-12-notes-equation-in-two-variables-has-infinitely-many-solutions)
-3. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
-4. [✏️ 3 Solved PYQs](#3-solved-pyqs)
-5. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
-6. [👁️ Ayush's Note](#ayushs-note)
-7. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
-8. [📝 Practice MCQs](#practice-mcqs)
-9. [📚 Related Topics](#related-topics)
-
----
-
 ## ⚡ Formula Bank
-- The general form of a linear equation in two variables is $ax + by + c = 0$, where $a$, $b$, and $c$ are constants, and $x$ and $y$ are variables.
-- The standard form of a linear equation in two variables is $\frac{x}{a} + \frac{y}{b} = 1$, where $a$ and $b$ are the $x$ and $y$ intercepts respectively.
-- To find the $x$-intercept, put $y = 0$ in the equation $ax + by + c = 0$ and solve for $x$. The $x$-intercept is given by $x = -\frac{c}{a}$.
-- To find the $y$-intercept, put $x = 0$ in the equation $ax + by + c = 0$ and solve for $y$. The $y$-intercept is given by $y = -\frac{c}{b}$.
-- The graph of a [linear](/blog/linear-programming-class-12-notes) equation in two variables is a straight line.
-- The slope-intercept form of a linear equation in two variables is $y = mx + c$, where $m$ is the slope and $c$ is the $y$-intercept.
-- The slope of a linear equation in two variables can be found using the formula $m = -\frac{a}{b}$.
-
-## 
-- A [linear](/blog/linear-programming-class-12-notes) equation in two variables has infinitely many solutions.
-- The graph of a linear equation in two variables can be drawn using the $x$ and $y$ intercepts.
-- The equation $ax + by + c = 0$ can be written in the form $\frac{x}{-\frac{c}{a}} + \frac{y}{-\frac{c}{b}} = 1$, which is the standard form of a linear equation in two variables.
-- The $x$ and $y$ intercepts of a linear equation in two variables can be used to draw the graph of the equation.
-- The slope of a [linear](/blog/linear-programming-class-12-notes) equation in two variables is the same at all points on the line.
+- The general form of a linear equation ∈ two variables is ax + by + c = 0, where a, b, and c are constants and a ≠ 0, b ≠ 0.
+- The equation ax + by + c = 0 can be written as y = (-a/b)x - (c/b), which is the slope-intercept form of the equation, where -a/b is the slope and -c/b is the y-intercept.
+- The equation of a line passing through the points (x₁, y₁) and (x₂, y₂) can be found using the two-point form: y - y₁ = [(y₂ - y₁)/(x₂ - x₁)](x - x₁).
+- The slope of a line passing through the points (x₁, y₁) and (x₂, y₂) is given by m = (y₂ - y₁)/(x₂ - x₁).
+- The equation of a line with slope m and passing through the point (x₁, y₁) is given by y - y₁ = m(x - x₁).
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not checking if the equation is [linear](/blog/linear-programming-class-12-notes) or not before solving it.
-- Not using the correct method to solve the equation, such as substitution or elimination.
-- Not checking for any restrictions on the variables, such as $x$ 
-eq $0 or $y 
-eq 0$.$
-- Not graphing the equation correctly, such as not using the correct scale or not labeling the axes.
-- Not interpreting the results correctly, such as not identifying the $x$ and $y$ intercepts or the slope of the line.
+- Not checking if the given equation is linear or not before solving it.
+- Not writing the equation ∈ the standard form ax + by + c = 0.
+- Forgetting to check for any restrictions on the variables.
+- Not using the correct method to solve the system of equations.
+- Not verifying the solution by plugging it back into the original equation.
 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** Solve the equation $2x + 3y - 6 = 0$ for $x$ and $y$.
-  - Step 1: Put $y = 0$ in the equation $2x + 3y - 6 = 0$ and solve for $x$. This gives $2x - 6 = 0$, which implies $x = 3$.
-  - Step 2: Put $x = 0$ in the equation $2x + 3y - 6 = 0$ and solve for $y$. This gives $3y - 6 = 0$, which implies $y = 2$.
-  - Step 3: Write the equation in the standard form $\frac{x}{a} + \frac{y}{b} = 1$. This gives $\frac{x}{3} + \frac{y}{2} = 1$.
-- **Question 2:** Find the $x$ and $y$ intercepts of the equation $x - 2y + 3 = 0$.
-  - Step 1: Put $y = 0$ in the equation $x - 2y + 3 = 0$ and solve for $x$. This gives $x + 3 = 0$, which implies $x = -3$.
-  - Step 2: Put $x = 0$ in the equation $x - 2y + 3 = 0$ and solve for $y$. This gives $-2y + 3 = 0$, which implies $y = \frac{3}{2}$.
-  - Step 3: Write the equation in the standard form $\frac{x}{a} + \frac{y}{b} = 1$. This gives $\frac{x}{-3} + \frac{y}{-\frac{3}{2}} = 1$.
-- **Question 3:** Solve the equation $x + 2y - 4 = 0$ for $y$ in terms of $x$.
-  - Step 1: Rearrange the equation $x + 2y - 4 = 0$ to isolate $y$. This gives $2y = -x + 4$, which implies $y = -\frac{1}{2}x + 2$.
+- **Question 1**: Solve the equation 2x + 3y - 7 = 0 for y.
+  Step 1: Rearrange the equation to isolate y.
+  Step 2: 3y = -2x + 7.
+  Step 3: y = (-2/3)x + 7/3.
+- **Question 2**: Find the equation of the line passing through the points (2, 3) and (4, 5).
+  Step 1: Find the slope of the line using the two-point form.
+  Step 2: m = (5 - 3)/(4 - 2) = 1.
+  Step 3: Use the point-slope form to find the equation of the line: y - 3 = 1(x - 2).
+  Step 4: Simplify the equation: y - 3 = x - 2, x - y + 1 = 0.
+- **Question 3**: Solve the system of equations x + 2y - 3 = 0 and 2x + 3y + 2 = 0.
+  Step 1: Solve the first equation for x.
+  Step 2: x = -2y + 3.
+  Step 3: Substitute x into the second equation: 2(-2y + 3) + 3y + 2 = 0.
+  Step 4: Simplify and solve for y: -4y + 6 + 3y + 2 = 0, -y + 8 = 0, y = 8.
+  Step 5: Substitute y back into one of the original equations to find x: x + 2(8) - 3 = 0, x + 16 - 3 = 0, x + 13 = 0, x = -13.
 
 ## 🧠 The One Thing Most Students Get Wrong
-- The one thing that most students get wrong is that they do not check if the equation is linear or not before solving it. A linear equation in two variables is an equation in which the highest power of both variables is 1. For example, the equation $x^2 + y^2 = 4$ is not linear, while the equation $x + 2y - 4 = 0$ is linear.
+- Most students get the concept of slope and intercept mixed up, and they often have trouble finding the equation of a line given two points or the slope and a point.
 
 ## 👁️ Ayush's Note
-- To solve a linear equation in two variables, first find the $x$ and $y$ intercepts by putting $y = 0$ and $x = 0$ in the equation respectively.
-- Then, use the $x$ and $y$ intercepts to draw the graph of the equation.
-- The slope of the line can be found using the formula $m = -\frac{a}{b}$, where $a$ and $b$ are the coefficients of $x$ and $y$ in the equation $ax + by + c = 0$.
-- The equation of a line in slope-intercept form is $y = mx + c$, where $m$ is the slope and $c$ is the $y$-intercept.
+- Make sure to practice solving systems of linear equations using substitution and elimination methods.
+- Always check your solution by plugging it back into the original equation.
+- Use the slope-intercept form of a linear equation to easily identify the slope and y-intercept.
+- Be careful when finding the equation of a line given two points, as the slope must be calculated correctly.
 
 ## 🔁 Last 5 Minutes Box
-- Make sure to check the equation for any restrictions on the variables, such as $x$ 
-eq $0 or $y 
-eq 0$.$
-- Use the correct method to solve the equation, such as substitution or elimination.
-- Check the graph of the equation for any errors, such as not using the correct scale or not labeling the axes.
-- Interpret the results correctly, such as identifying the $x$ and $y$ intercepts or the slope of the line.
-- Make sure to write the final answer in the correct format, such as $\frac{x}{a} + \frac{y}{b} = 1$ or $y = mx + c$.
+- Review the formulas for slope, slope-intercept form, and the equation of a line given two points.
+- Practice solving a few simple linear equations to get a feel for the format.
+- Make sure to check your work and verify your solutions.
+- Stay calm and read each question carefully to ensure you understand what is being asked.
+- Use the process of elimination to narrow down your answer choices if you are unsure.
 
 ## 📝 Practice MCQs
-**1. What is the $x$-intercept of the equation $2x + 3y - 6 = 0$?**
--
-A) $x = -3$
--
-B) $x = 3$
--
-C) $x = 0$
--
-D) $x = 6$
-
-**Answer: B) $x = 3$**
-
-**2. What is the equation of the line in slope-intercept form that has a slope of $-2$ and a $y$-intercept of $3$?**
--
-A) $y = -2x + 3$
--
-B) $y = 2x + 3$
--
-C) $y = -2x - 3$
--
-D) $y = 2x - 3$
-
-**Answer: A) $y = -2x + 3$**
-
-**3. What is the $y$-intercept of the equation $x - 2y + 3 = 0$?**
--
-A) y = -\frac{3}{2}
--
-B) y = \frac{3}{2}
--
-C) $y = 0$
--
-D) $y = 3$
-
-**Answer: B) y = \frac{3}{2}**
-
-**4. What is the slope of the line that has the equation $2x + 3y - 6 = 0$?**
--
-A) m = -\frac{2}{3}
--
-B) m = \frac{2}{3}
--
-C) m = -\frac{3}{2}
--
-D) m = \frac{3}{2}
-
-**Answer: A) m = -\frac{2}{3}**
-
-**5. What is the equation of the line that has $x$ and $y$ intercepts of $-3$ and $-2$ respectively?**
--
-A) \frac{x}{-3} + \frac{y}{-2} = 1
--
-B) \frac{x}{3} + \frac{y}{2} = 1
--
-C) \frac{x}{-3} + \frac{y}{2} = 1
--
-D) \frac{x}{3} + \frac{y}{-2} = 1
-
-**Answer: A) \frac{x}{-3} + \frac{y}{-2} = 1**
+**1. What is the equation of the line passing through the points (1, 2) and (3, 4)?**
+- A) x - y - 1 = 0
+- B) x + y - 3 = 0
+- C) 2x - y - 1 = 0
+- D) x - 2y + 1 = 0
+**Answer: A) x - y - 1 = 0.**
+**2. Solve the equation 3x + 2y - 5 = 0 for y.**
+- A) y = (-3/2)x + 5/2
+- B) y = (-3/2)x + 2
+- C) y = (3/2)x - 5/2
+- D) y = (-2/3)x + 5/3
+**Answer: A) y = (-3/2)x + 5/2.**
+**3. What is the slope of the line passing through the points (2, 3) and (4, 5)?**
+- A) 1
+- B) 2
+- C) 3
+- D) 4
+**Answer: A) 1.**
+**4. Solve the system of equations x + 2y - 3 = 0 and 2x + 3y + 2 = 0.**
+- A) x = -13, y = 8
+- B) x = 13, y = -8
+- C) x = -8, y = 13
+- D) x = 8, y = -13
+**Answer: A) x = -13, y = 8.**
+**5. What is the equation of the line with slope 2 and passing through the point (1, 3)?**
+- A) y - 3 = 2(x - 1)
+- B) y - 2 = 3(x - 1)
+- C) y - 1 = 2(x - 3)
+- D) y - 3 = x - 1
+**Answer: A) y - 3 = 2(x - 1).**
 
 ---
 
@@ -145,17 +94,3 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Linear%20Equations%20In%20Two%20Variables%209%20Class%209%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-
----
-
-## 📚 Related Topics
-
-Continue your revision with these related guides:
-
-- 📖 [Linear Equations In One Variable 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-one-variable-class-8-notes)
-- 📖 [Pair Of Linear Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/pair-of-linear-equations-class-10-notes)
-- 📖 [Differential Equations Class 12 Exam Prep Revision — Grandmaster Guide](/blog/differential-equations-class-12-notes)
-- 📖 [Linear Programming Class 12 Exam Prep Revision — Grandmaster Guide](/blog/linear-programming-class-12-notes)
-

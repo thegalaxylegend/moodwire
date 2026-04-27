@@ -352,7 +352,7 @@ To store program and data
 **Answer:** A) The Bus is a communication pathway that allows devices to transfer data to and from the Central Processing Unit (CPU). It manages data transfer between devices and peripherals.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

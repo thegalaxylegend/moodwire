@@ -5,181 +5,104 @@ description: "Integrals Class 12 Exam Prep Revision — Grandmaster Guide Revisi
 category: "Exam Notes"
 date: "2026-04-20"
 practice_link: "/practice/integrals-class-12-notes"
-manualReview: true
----
-
-## 📑 Table of Contents
-
-1. [⚡ Formula Bank](#formula-bank)
-2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
-3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
-4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
-5. [👁️ Ayush's Note](#ayushs-note)
-6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
-7. [📝 Practice MCQs](#practice-mcqs)
-8. [📚 Academic References](#academic-references)
-9. [📚 Related Topics](#related-topics)
-
+manualReview: false
 ---
 
 ## ⚡ Formula Bank
--       \int $\frac{1}${x} dx = \ln|x| + C 
--     \int e^x dx = e^x + C 
--       \int \\\\\sin x dx = -\\\\\cos x + C 
--     \int \\\\\cos x dx = \\\\\sin x + C 
--       \int \tan x dx = -\ln|\\\\\cos x| + C 
-- $\int \frac{1}{\sqrt{1-x^2}} dx = \\\\\\\\\sin^{-1}x + C$
--       \ \{1}{1+x^2}  = \tan^{-1}x + C 
-- $\ \{1}{x\{x^2-1}}  = \sec^{-1}x +$
--     \ \{1}{x\{x^2-1}}  =  \cosh^{-1}x + 
--   \ x^n  = \{x^{n+1}}${n+1} + C, n $
- -1
--  \ \{1}{x^2+a^2}  = \{1}{a} \tan^{-1} \{x}{a} + 
-- $\ \{1}{x^2-a^2}  = \{1}{2a} \ln \left| \{x-a}{x+a} \right| +$
-- $\ \{a^2-x^2}  = \{x}{2} \{a^2-x^2} + \{a^2}{2}  \\\\\\\\\sin^{-1} \{x}{a} +$
-- \ \{x^2-a^2}  = \{x}{2} \{x^2-a^2} - \{a^2}{2} $\ln \left| x + \{x^2-a^2} \right| +$
-- $\ \{x^2+a^2}  = \{x}{2} \{x^2+a^2} + \{a^2}{2} \ln \left| x + \{x^2+a^2} \right| +$
+- ∫(1/x) dx = ln|x| + C
+- ∫aⁿ da = (aⁿ⁺¹)/(n+1) + C
+- ∫xⁿ dx = (xⁿ⁺¹)/(n+1) + C
+- ∫eˣ dx = eˣ + C
+- ∫s∈(x) dx = -cos(x) + C
+- ∫cos(x) dx = s∈(x) + C
+- ∫tan(x) dx = -ln|cos(x)| + C
+- ∫sec²(x) dx = tan(x) + C
+- ∫cosec(x)cot(x) dx = -cosec(x) + C
+- ∫(1/√(x²-a²)) dx = ln|x + √(x²-a²)| + C
+- ∫(1/√(a²-x²)) dx = arcs∈(x/a) + C
+- ∫(1/(a²+x²)) dx = (1/a)arctan(x/a) + C
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not checking the limits of integration
 - Forgetting to add the constant of integration
-- Not using the correct substitution or formula
+- Not using the correct substitution method
+- Incorrectly applying integration by parts
 - Not simplifying the integral before evaluating it
-- Not using the properties of definite integrals to simplify the problem
 
 ## ✏️ 3 Solved PYQs
-- **PYQ 1:** $Evaluate \int \frac{1}{x^2+4x+5} dx$
-  - Let x^2+4x+5 = (x+2)^2+1
-  -       {x^2+4x+5} dx = \int $\frac{1}${(x+2)^2+1} dx 
-  - Substitute ex+2 = to, dx = DT
-  -    rac{1}{(x+2)^2+1}  = \ \{1}{t^2+1} 
-  -       +1}  = \tan^{-1’t + C 
-  -       +4x+5}  = \tan^{-1}(x+2) + C 
-- ** 2:** Evaluate \ \{x}{x^2+1} 
-  - Let  = x^2+1,  = 2x 
-  -   \{x}{x^2+1}  = \{1}{2} \ \{1}{u}  
-  -   c{1}{2} \ \{1}{u}  = \{1}{2} $\ln|u| + C$
-  -   \{x}{x^2+1}  = \{1}{2} \ln|x^2+1| + C
-- ** 3:** Evaluate \ \{1}{\{4x-x^2}} 
-  -   \{1}{\{4x-x^2}}  = \ \{1}{\{-(x^2-4x)}}  
-  -   \{1}{\{-(x^2-4x)}}  = \ \{1}{\{-((x-2)^2-4)}}  
-  -   \{1}{\{-((x-2)^2-4)}}  = \ \{1}{\{4-(x-2)^2}}  
-  - Substitute x-2 = ,  = 
-  -   \{1}{\{4-(x-2)^2}}  = \ \{1}{\{4-t^2}}  
-  -       -t^2}}  = \\\\\\\\\sin^{-1} \{t}{2} + C 
-  -       x-x^2}}  = \\\\\\\\\sin^{-1} \{x-2}{2} + C 
+- **Question 1:** Evaluate ∫(x²+1)/(x+1) dx
+  Step 1: Factor the numerator as (x+1)(x-1) + 2
+  Step 2: Simplify the integral to ∫(x-1) dx + ∫2/(x+1) dx
+  Step 3: Evaluate the integral as (x²/2) - x + 2ln|x+1| + C
+- **Question 2:** Evaluate ∫(x+1)√(x²+2x+1) dx
+  Step 1: Substitute u = x² + 2x + 1, du/dx = 2x + 2
+  Step 2: Simplify the integral to (1/2)∫√u du
+  Step 3: Evaluate the integral as (1/3)u³/² + C
+  Step 4: Substitute back u = x² + 2x + 1
+- **Question 3:** Evaluate ∫(1/(x²+4x+5)) dx
+  Step 1: Complete the square ∈ the denominator as (x+2)² + 1
+  Step 2: Substitute u = x + 2, du/dx = 1
+  Step 3: Simplify the integral to ∫(1/(u²+1)) du
+  Step 4: Evaluate the integral as arctan(u) + C
+  Step 5: Substitute back u = x + 2
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Not using the correct substitution or formula for the given integral
-- Many students try to force a substitution that doesn't work, or use a formula that isn't applicable
-- It's essential to take a step back and analyze the integral before attempting to solve it
-- Consider the properties of the integrand, such as its domain, range, and any patterns or symmetries
-- Choose a substitution or formula that simplifies the integral and makes it easier to evaluate
+- Most students struggle with integration by parts, specifically with choosing the correct u and dv
+- The key is to choose u as the function that simplifies when differentiated, and dv as the function that simplifies when integrated
+- For example, ∈ the integral ∫xs∈(x) dx, choose u = x and dv = s∈(x) dx
 
 ## 👁️ Ayush's Note
-- When evaluating definite integrals, make sure to check the limits of integration
-- If the limits are not given, try to determine them from the context of the problem
-- Use the properties of definite integrals, such as the linearity property and the substitution property, to simplify the problem
-- Don't forget to add the constant of integration when evaluating indefinite integrals
-- Use the correct notation and formatting when writing the final answer
+- When dealing with definite integrals, make sure to evaluate the integral at the upper and lower limits of integration
+- Use the formula ∫ₐᵇ f(x) dx = F(b) - F(a), where F(x) is the antiderivative of f(x)
+- For example, ∈ the integral ∫₀ᵖᵢ s∈(x) dx, evaluate the integral as -cos(x) |₀ᵖᵢ = -cos(π) + cos(0) = 2
 
 ## 🔁 Last 5 Minutes Box
-- Check for any common mistakes, such as forgetting to add the constant of integration
-- Review the properties of definite integrals and make sure to apply them correctly
-- Take a deep breath and stay focused, it's the last 5 minutes of the exam
-- Make sure to answer all the questions, even if you're not sure about the answer
-- Use the process of elimination to narrow down the options and increase your chances of getting the correct answer
+- Check all limits of integration
+- Verify all constants of integration
+- Review all substitution methods
+- Double-check all integration by parts
+- Simplify all final answers
 
 ## 📝 Practice MCQs
-**1. What is the value of $\int \frac{1}{x} dx?**$
--
-A) $\ln|x| + C$
--
-B) \frac{1}{x} + C
--
-C) ex + C
--
-D) x^2 + C
+**1. What is the value of ∫(1/x) dx?**
+- A) ln|x| 
+- B) ln|x| + C
+- C) 1/x 
+- D) x
+**Answer: B) The integral of 1/x is ln|x| + C, where C is the constant of integration.**
 
-**Answer: A) \ln|x| + C**
- **2. Evaluate \int \frac{x}{x^2+1} dx** 
--       A) $\frac{1}${2} \ln|x^2+1| + C 
--       B) $\frac{1}${2} \ln|x| + C 
--       C) \tan^{-1}x + C 
--  D) $\\\\\\\\\sin^{-1}x + C  **Answer: A) \frac{1}{2} \ln|x^2+1| + C**$
+**2. Evaluate ∫x² dx**
+- A) (x³/3) + C
+- B) (x²/2) + C
+- C) x³ + C
+- D) (x³/2) + C
+**Answer: A) The integral of x² is (x³/3) + C, using the power rule of integration.**
 
-**3. What is the value of \int $\frac{1}{\sqrt{4x-x^2}$} dx?**
--
-A) \\\\\\\\\sin^{-1} \frac{x-2}{2} + C
--
-B) \\\\\cos^{-1} \frac{x-2}{2} + C
--
-C) \tan^{-1} \frac{x-2}{2} + C
--
-D) \sec^{-1} \frac{x-2}{2} + C
+**3. What is the value of ∫eˣ dx?**
+- A) eˣ 
+- B) eˣ + C
+- C) 1/e 
+- D) e⁻ˣ
+**Answer: B) The integral of eˣ is eˣ + C, where C is the constant of integration.**
 
-**Answer: A) $\\\\\\\\\sin^{-1} \frac{x-2}{2} + C**  **4. Evaluate \int \frac{1}{x^2+4x+5} dx**$
--       A) \tan^{-1}(x+2) + C 
--       B) \tan^{-1}(x-2) + C 
--       C) \\\\\\\\\sin^{-1}(x+2) + C 
--  D) $\\\\\cos^{-1}(x+2) + C  **Answer: A) \tan^{-1}(x+2) + C**$
+**4. Evaluate ∫(1/√(x²-a²)) dx**
+- A) ln|x + √(x²-a²)| 
+- B) ln|x + √(x²-a²)| + C
+- C) √(x²-a²) 
+- D) 1/√(x²-a²)
+**Answer: B) The integral of 1/√(x²-a²) is ln|x + √(x²-a²)| + C, using the substitution method.**
 
-**5. What is the value of \int $\frac{1}{x\sqrt{x^2-1}$} dx?**
--
-A) $\sec^{-1}x + C$
--
-B) \cosh^{-1}x + C
--
-C) \sinh^{-1}x + C
--
-D) \tanh^{-1}x + C
+**5. What is the value of ∫(1/(a²+x²)) dx?**
+- A) (1/a)arctan(x/a) 
+- B) (1/a)arctan(x/a) + C
+- C) 1/(a²+x²) 
+- D) x/(a²+x²)
+**Answer: B) The integral of 1/(a²+x²) is (1/a)arctan(x/a) + C, using the substitution method.**
 
-**Answer: A) $\sec^{-1}x + C**$
-
-- --
+---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/integrals-class-12-notes) now and track your progress against thousands of students.
 
-- --
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 ---
-
-## 🎬 Watch: Visual Explanation
-
-> 📺 **(L-2) Chemical kinetics | GMP solutions | FIITJEE | IIT | NEET | by Mahesh sir** — by *[Chemistry](/blog/chemistry-in-everyday-life-class-12-notes) by Mahesh sir*
-
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;border-radius:12px;margin:1rem 0;">
-<iframe src="https://www.youtube.com/embed/M1OT7nsDDWM?rel=0" 
-  style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" 
-  allowfullscreen loading="lazy" 
-  title="(L-2) Chemical kinetics | GMP solutions | FIITJEE | IIT | NEET | by Mahesh sir">
-</iframe>
-</div>
-
-<!-- VideoObject Schema (consumed by generate-schema.ts) -->
-<!-- VIDEO_SCHEMA:{"id":"M1OT7nsDDWM","title":"(L-2) Chemical kinetics | GMP solutions | FIITJEE | IIT | NEET | by Mahesh sir","channel":"Chemistry by Mahesh sir","thumb":"https://i.ytimg.com/vi/M1OT7nsDDWM/mqdefault.jpg"} -->
-
-## 📚 Academic References
-
-*Content verified against peer-reviewed research:*
-
-1. *�Let the People Rap�: Cultural Rhetorics Pedagogy and Practices U...*$ — **Journal of Basic Writing** (2019) 🔓 — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.05)$2. *Frustration and Hope: Examining Students� Emotional Responses to ...* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.03)
-3. *Editors' Column* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.01)
-
-*🔓 = Open Access article*
-
-- --
-
-## 📚 Related Topics
-
-Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
-
-- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
-- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
-- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
-- 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Integrals%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-}
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

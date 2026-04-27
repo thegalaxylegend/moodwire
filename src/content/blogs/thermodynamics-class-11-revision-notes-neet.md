@@ -156,7 +156,7 @@ The Second Law sets the direction of energy transfer and limits efficiency.
 **Reference:** [Journal of Thermal Science and Engineering](https://www.journals.elsevier.com)
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

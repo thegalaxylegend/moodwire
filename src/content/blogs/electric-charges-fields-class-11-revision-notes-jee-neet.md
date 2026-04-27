@@ -175,7 +175,7 @@ An **Electric Dipole** consists of two equal and opposite [charges](/blog/moving
 ### <a id="i-derivation-proof-using-coulombs-law"></a>I. Derivation (Proof using Coulomb’s Law)
 1.  Consider a point charge **q** at the center of a sphere of radius **r**.
 2.  **E = [1 / 4πε₀] [q / r²]**.
-3.         Flux **Φ = ∮ E DA \\\\\cos 0° = E ∮ DA**. 
+3.        Flux **Φ = ∮ E DA \\\cos 0° = E ∮ DA**. 
 4.  Since ∮ DA = 4πr²:
     - **Φ = [1 / 4πε₀] [q / r²] [4πr²] = q / ε₀**. (Proven)
 
@@ -233,7 +233,7 @@ The field of Electrostatics is the foundation upon which all modern technology�
 **Reference:** [MIT OpenCourseWare: Electromagnetism](https://ocw.mit.edu)
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 
@@ -249,7 +249,7 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/electric-[charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet)-fields-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/electric-charges-fields-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Electric%20Charges%20Fields%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
@@ -276,10 +276,10 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 
 * **Coulomb's Law**: F = (k * q1 * q2) / r^2, where k = 8.99 x 10^9 And m^2/C^2
    * **Electric Field**: E = F / q, E = k * q / r^2
-   * **Electric Flux**: Φ = E * A * \\\\cos(θ)
+   * **Electric Flux**: Φ = E * A * \\cos(θ)
    * **Gauss's Law**: Φ = Q / ε0, where ε0 = 8.85 x 10^-12 C^2/N m^2
    * **Electric Potential**: V = k * q / r, V = W / q
    * **Equipotential Surface**: V = constant
    * **Electric Dipole Moment**: p = q * d
-   * **Torque on Dipole**: τ = p * E * \\\\sin(θ)
+   * **Torque on Dipole**: τ = p * E * \\sin(θ)
    * **Electric Field due to Dipole**: E = (k * p) / r^3

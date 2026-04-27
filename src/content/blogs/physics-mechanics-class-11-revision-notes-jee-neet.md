@@ -1,110 +1,110 @@
 ---
 heroImage: "/blog-images/physics-mechanics-class-11-revision-notes-jee-neet.webp"
 title: "physics mechanics class 11 revision notes jee neet Class 11 Exam Notes Revision — Grandmaster Guide"
-description: "physics mechanics class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-22."
+description: "physics mechanics class 11 revision notes jee neet Class 11 Exam Notes Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-22."
 category: "Exam Notes"
 date: "2026-04-22"
-practice_link: "/class-11/exam notes/physics-mechanics-class-11-revision-notes-jee-neet"
+practice_link: "/practice/physics-mechanics-class-11-revision-notes-jee-neet"
 manualReview: false
 ---
 
-## 📑 Table of Contents
-1. [📋 Introduction to Mechanics](#introduction-to-mechanics)
-2. [⚡ Formula Bank](#formula-bank)
-3. [🪤 Common Mistakes and How to Avoid Them](#common-mistakes)
-4. [✏️ Solved Previous Year Questions (PYQs)](#solved-pyqs)
-5. [🧠 The Key Concept Most Students Misunderstand](#key-concept)
+## ⚡ Formula Bank
+- v = u + at
+- s = ut + (1/2)at²
+- v² = u² + 2as
+- F = ma
+- F = μN
+- F = GmM/r²
+- T = 2π √(l/g)
+- T = 2π √(I/mb²)
+- ω = 2π/T
+- α = Δω/Δt
+- τ = r × F
+- L = r × mv
+- K = (1/2)mv²
+- U = mgh
+- P = mv
+- E = K + U
+- E = mc²
+- λ = h/(mv)
+- v = λf
+- v = √(γRT/M)
 
-## Introduction to Mechanics
-Mechanics is a fundamental branch of [physics](/blog/physics-heat-light-class-11-revision-notes-jee-neet) that deals with the study of motion, forces, and energy. It is a crucial subject for students preparing for competitive exams like JEE and NEET. In this article, we will provide a to help students revise and master the concepts of mechanics.
-
-## Formula Bank
-The following are some essential formulas that students should be familiar with:
-* $v = u + at$ (equation of motion)
-* $s = ut + \frac{1}{2}at^2$ (equation of motion)
-* $v^2 = u^2 + 2as$ (equation of motion)
-* $F = ma$ (Newton's second law of motion)
-* $W = F cdot s$ (work done)
-* $K = \frac{1}{2}mv^2$ (kinetic energy)
-*   P = $\frac{W}${t} (power) 
-
-## Common Mistakes
-There are several common mistakes that students make while solving mechanics problems. Some of these mistakes include:
-* Not using the correct units
-* Not converting between different units
-* Not using the correct formula
-* Not checking the signs of the quantities
-* Not using the concept of relative motion
-
-To avoid these mistakes, students should:
-* Always check the units of the quantities
-* Convert between different units carefully
-* Use the correct formula for the problem
-* Check the signs of the quantities carefully
-* Use the concept of relative motion to solve problems involving multiple objects
-
-## Solved PYQs
-Here are three solved previous year questions to help students understand how to apply the concepts of mechanics:
-1. **Question**: A particle is moving with a velocity of $10 , 	ext{m/s}$ in the positive x-direction. It is then subjected to a constant acceleration of $2 , 	ext{m/s}^2$ in the negative x-direction. Find the velocity of the particle after $5 , 	ext{s}$.
-**Solution**: Using the equation of motion, $v = u + at$, we get:
-$v = 10 - 2 cdot 5 = 0 , 	ext{m/s}$
-2. **Question**: A block of mass $10 , 	ext{kg}$ is moving with a velocity of $5 , 	ext{m/s}$ on a frictionless surface. A force of $20 , 	ext{N}$ is applied to the block in the direction of motion. Find the acceleration of the block.
-**Solution**: Using Newton's second law of motion, $F = ma$, we get:
- a = \frac{F}{m} = \frac{20}{10} = 2 , 	ext{m/s}^2 
-3. **Question**: A particle is moving in a circular path with a radius of $10 , 	ext{m}$ and a velocity of $20 , 	ext{m/s}$. Find the centripetal acceleration of the particle.
-**Solution**: Using the formula for centripetal acceleration, $a_c = \frac{v^2}{r}$, we get:
- a_c = \frac{20^2}{10} = 40 , 	ext{m/s}^2 
-
-## Key Concept
-One of the key concepts that students often misunderstand is the concept of relative motion. Relative motion refers to the motion of an object with respect to another object or a reference frame. To solve problems involving relative motion, students should:
-* Identify the reference frame
-* Find the relative velocity between the objects
-* Apply the concepts of mechanics to the relative motion
-* Use the concept of relative motion to solve problems involving multiple objects
+## 
+### Key Concepts
+- Newton's laws of motion
+- Friction
+- Gravity
+- Rotational motion
+- SHM
+- Waves
+- Energy and work
 
 ## 🪤 The 5 Mistakes That Cost Marks
+- Not using the correct formula for a given situation
+- Forgetting to convert units
+- Not considering the direction of vectors
+- Not using the correct sign for a given quantity
+- Not checking the units of the final answer
 
-* A common mistake in solving problems related to projectile motion is not considering the sign of the velocity components. Students often forget that the horizontal component of velocity remains constant, while the vertical component changes due to gravity.
-* Many students confuse the terms 'weight' and 'mass'. Weight is the force exerted by gravity on an object, while mass is a measure of the amount of matter in an object. This confusion can lead to incorrect calculations in problems involving gravity and friction.
-* In problems involving circular motion, students often forget to consider the direction of the centripetal force. The centripetal force always acts towards the center of the circle and is necessary to keep the object moving in a circular path.
-* A common trap in solving problems related to work and energy is not considering the sign of the work done. Work done by a force can be positive or negative, depending on the direction of the force and the displacement of the object.
-* Students often make mistakes in solving problems involving friction by not considering the type of friction involved. Static friction, kinetic friction, and rolling friction have different coefficients and formulas, and using the wrong one can lead to incorrect calculations.
+## ✏️ 3 Solved PYQs
+- A block of mass 2 kg is moving with a velocity of 3 m/s on a frictionless surface. Find the momentum of the block.
+  - P = mv = 2 kg × 3 m/s = 6 kg m/s
+- A particle is moving ∈ a circular path of radius 2 m with a constant speed of 4 m/s. Find the acceleration of the particle.
+  - a = v²/r = (4 m/s)² / 2 m = 8 m/s²
+- A spring of spring constant 100 N/m is stretched by 2 m. Find the energy stored ∈ the spring.
+  - U = (1/2)kx² = (1/2) × 100 N/m × (2 m)² = 200 J
+
+## 🧠 The One Thing Most Students Get Wrong
+- Most students get the concept of friction wrong. They think that friction always opposes motion, but it actually opposes the direction of the net force acting on an object.
+
+## 👁️ Ayush's Note
+- To solve problems ∈ mechanics, always start by drawing a free body diagram and identifying the forces acting on the object.
+- Use the correct formula for a given situation and make sure to consider the direction of vectors.
+- Always check the units of the final answer to ensure that it makes sense.
 
 ## 🔁 Last 5 Minutes Box
+- Make sure to check the units of all quantities.
+- Use the correct formula for a given situation.
+- Consider the direction of vectors.
+- Check for any common mistakes, such as forgetting to convert units.
 
-* **Kinematics**: 
-  + Distance = Speed × Time 
-  + Displacement = Initial Position - Final Position 
-  + Speed = Distance / Time 
-  + Velocity = Displacement / Time 
-  + Acceleration = Change in Velocity / Time 
-* **Laws of Motion**: 
-  + First Law: An object at rest remains at rest, and an object in motion remains in motion, unless acted upon by an external force 
-  + Second Law: Force = Mass × Acceleration (F = ma) 
-  + Third Law: Every action has an equal and opposite reaction 
-* **Work, Energy, and Power**: 
-  + Work = Force × Displacement (W = Fs) 
-  + Kinetic Energy = 0.5 × Mass × Velocity^2 (KE = 0.5mv^2) 
-  + Potential Energy = Mass × Acceleration Due to Gravity × Height (PE = mgh) 
-  + Power = Work / Time (P = W/t) 
-* **Rotational Motion**: 
-  + Angular Displacement = Angle Rotated 
-  + Angular Velocity = Angular Displacement / Time 
-  + Angular Acceleration = Change in Angular Velocity / Time 
-  + Torque = Force × Perpendicular Distance from Axis (τ = For) 
-* **Gravitation**: 
-  + Gravitational Force = (Gravitational Constant × Mass1 × Mass2) / Radius^2 (F = Gm1m2/r^2) 
-  + Gravitational Potential Energy = - (Gravitational Constant × Mass1 × Mass2) / Radius (U = -Gm1m2/r)
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=physics%20mechanics%20class%2011%20revision%20notes%20jee%20neet%20Class%2011%20Exam%20Notes%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-
+## 📝 Practice MCQs
+**1. A block of mass 1 kg is moving with a velocity of 2 m/s on a frictionless surface. What is the momentum of the block?**
+- A) 1 kg m/s
+- B) 2 kg m/s
+- C) 3 kg m/s
+- D) 4 kg m/s
+**Answer: B) 2 kg m/s.**
+**2. A particle is moving ∈ a circular path of radius 1 m with a constant speed of 2 m/s. What is the acceleration of the particle?**
+- A) 2 m/s²
+- B) 4 m/s²
+- C) 6 m/s²
+- D) 8 m/s²
+**Answer: B) 4 m/s².**
+**3. A spring of spring constant 50 N/m is stretched by 1 m. What is the energy stored ∈ the spring?**
+- A) 10 J
+- B) 20 J
+- C) 25 J
+- D) 50 J
+**Answer: C) 25 J.**
+**4. A car is moving with a velocity of 20 m/s on a horizontal road. What is the normal force acting on the car?**
+- A) mg
+- B) 2mg
+- C) 3mg
+- D) 4mg
+**Answer: A) mg.**
+**5. A particle is projected from the ground with an initial velocity of 10 m/s at an angle of 60° to the horizontal. What is the maximum height reached by the particle?**
+- A) 10 m
+- B) 20 m
+- C) 25 m
+- D) 50 m
+**Answer: C) 25 m.**
 
 ---
 
-## 📚 Related Topics
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/physics-mechanics-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
-Continue your revision with these related guides:
-
-- 📖 [physics heat light](/blog/physics-heat-light-class-11-revision-notes-jee-neet)
-- 📖 [trigonometric functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)
-- 📖 [poverty unemployment](/blog/poverty-unemployment-class-11-revision-notes-jee-neet)
-- 📖 [Structure Of Atom Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

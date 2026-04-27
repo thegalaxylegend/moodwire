@@ -8,122 +8,85 @@ practice_link: "/practice/environmental-issues-class-12-notes"
 manualReview: false
 ---
 
-## 📑 Table of Contents
-
-1. [⚡ Formula Bank](#formula-bank)
-2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
-3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
-4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
-5. [👁️ Ayush's Note](#ayushs-note)
-6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
-7. [📝 Practice MCQs](#practice-mcqs)
-8. [📚 Related Topics](#related-topics)
-
----
-
 ## ⚡ Formula Bank
-- The greenhouse effect is given by: $\frac{I}{4} \times (1 - \alpha)$, where IN is the solar constant and $\alpha$ is the albedo of the Earth.
-- The concentration of a pollutant can be calculated using: BC = $\frac{Q}{$K \times A$}$, where ACT is the concentration, HQ is the amount of pollutant, OK is the decay constant, and A is the area.
-- The air quality index can be calculated using: $AQI = \frac{C}{C_0} \times 100$, where ACT is the concentration of the pollutant and BC_$0 is the standard concentration.$
-- The global warming potential of a gas is given by: $GWP = \frac{\int_{0}^{t} a(t) DT}{\int_{0}^{t} a_{CO_2}(t) DT}$, where a(t)$ is the radiative forcing of the gas and a_{CO_2}(t)$ is the radiative forcing of $CO_2$.
-- The rate of climate change can be calculated using: $\frac{dT}{dt} = \frac{Q}{C_p \times m}$, where DDT is the change in temperature, DDT is the time, HQ is the amount of heat, BC_PA is the specific heat capacity, and me is the mass.
+- Greenhouse effect = ΔT = (Q/(4εσT³)) × (ΔCO₂/CO₂)
+- Global warming potential (GWP) = ∫(RF × Δt)dt from 0 to t
+- Ozone depletion potential (ODP) = (ΔO₃/O₃) × (τ/τₙ)
+- Environmental impact assessment (EIA) = ∑(E × I × M)
+- Carrying capacity (K) = (r × N)/(dN/dt)
+- Biochemical oxygen demand (BOD) = (DO × (1 - (t/tₙ))) / t
+- Air quality index (AQI) = (I × (C/C₀)) + (I₀ × (1 - (C/C₀)))
+- Carbon footprint (CF) = ∑(E × EF) 
+- Ecological footprint (EF) = (A × Y)/(C × P)
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not understanding the difference between climate and weather: climate refers to long-term patterns, while weather refers to short-term conditions.
-- Confusing the greenhouse effect with the ozone layer depletion: the greenhouse effect is a natural process, while ozone layer depletion is a human-induced problem.
-- Not knowing the main causes of air pollution: particulate matter, $NO_$, $SO_$, COM, and vocal are the main causes of air pollution.
-- Not understanding the concept of sustainable development: meeting the needs of the present without compromising the ability of future generations to meet their own needs.
-- Not being able to identify the main environmental impacts of human activities: deforestation, pollution, climate change, and loss of [biodiversity](/blog/biodiversity-and-conservation-class-12-notes).
+- Not understanding the difference between climate change and global warming
+- Confusing sustainable development with environmental conservation
+- Not knowing the hierarchy of waste management: reduce, reuse, recycle
+- Ignoring the impact of population growth on environmental degradation
+- Not being able to calculate the carbon footprint of a given process
 
 ## ✏️ 3 Solved PYQs
-- What is the main cause of the formation of ground-level ozone?
-- The main cause of the formation of ground-level ozone is the reaction between $NO_$ and vocal in the presence of sunlight.
-- The reaction is as follows: $NO_2 + HV \rightarrow NO + OF$, followed$ by TO + O_2 \rightarrow O_$3.
-- What is the difference between a hurricane and a typhoon?
-- The difference between a hurricane and a typhoon is the location in which they occur: hurricanes occur in the Atlantic and northeast Pacific, while typhoons occur in the northwest Pacific.
-- Both are types of tropical cyclones, characterized by strong winds and heavy rainfall.
-- What is the main advantage of using solar energy?
-- The main advantage of using solar energy is that it is a renewable and clean source of energy, producing no greenhouse gas emissions or pollution.
-- Solar energy can be used for heating, cooling, and generating electricity, and can be used in a variety of [applications](/blog/biotechnology-and-its-applications-class-12-notes), from small-scale residential to large-scale industrial.
+- What is the ma∈ cause of ozone layer depletion ∈ the stratosphere?
+  Answer: Chlorofluorocarbons (CFCs) 
+- Calculate the carrying capacity of a population with a growth rate of 2% per year and a death rate of 1% per year
+  Answer: K = (0.02 × N)/(0.01 × N) = 2
+- What is the air quality index (AQI) for a city with a PM2.5 concentration of 50 μg/m³?
+  Answer: AQI = (I × (50/35)) + (I₀ × (1 - (50/35))) = 100
 
 ## 🧠 The One Thing Most Students Get Wrong
-- The one thing most students get wrong is the concept of carrying capacity: the maximum number of individuals of a species that an environment can support indefinitely.
-- Many students think that carrying capacity is a fixed value, but it can vary depending on factors such as food availability, water quality, and habitat quality.
-- Carrying capacity is an important concept in ecology, as it helps us understand the impact of human activities on the environment and the importance of [conservation](/blog/biodiversity-and-conservation-class-12-notes).
+- Most students think that environmental conservation is only about saving endangered species, but it's actually about preserving the entire ecosystem, including plants, animals, and microorganisms
 
 ## 👁️ Ayush's Note
-- Ayush's note is that environmental issues are not just limited to pollution and climate change, but also include conservation of [biodiversity](/blog/biodiversity-and-conservation-class-12-notes) and ecosystem services.
-- Ecosystem services include provisioning services, such as food and water, regulating services, such as climate regulation and disease control, and cultural services, such as recreation and tourism.
-- [Biodiversity](/blog/biodiversity-and-conservation-class-12-notes) is important for maintaining ecosystem services, and its loss can have significant impacts on human well-being and the economy.
+- Always remember the 3Rs: reduce, reuse, recycle, and the 4Cs: conserve, conserve, conserve, conserve
+- Make a list of all the environmental issues and their causes, effects, and solutions
+- Practice calculating the carbon footprint and ecological footprint of different processes and products
+- Learn about the different types of pollution: air, water, soil, noise, and thermal
+- Understand the concept of sustainable development and its importance ∈ environmental conservation
 
 ## 🔁 Last 5 Minutes Box
-- Last 5 minutes revision tips:
-- Review the main causes of environmental issues, such as pollution and climate change.
-- Review the main effects of environmental issues, such as loss of biodiversity and ecosystem services.
-- Review the main solutions to environmental issues, such as sustainable development and conservation.
-- Practice calculating the greenhouse effect and air quality index.
-- Review the main differences between climate and weather, and between hurricanes and typhoons.
+- Last minute tips for JEE Advanced and NEET:
+  - Make sure to read the questions carefully and understand what is being asked
+  - Use the process of elimination to eliminate incorrect options
+  - Manage your time effectively and allocate more time to difficult questions
+  - Use shortcuts and formulas to solve questions quickly and accurately
+  - Stay calm and focused, and avoid panicking
 
 ## 📝 Practice MCQs
-**1. What is the main cause of the formation of acid rain?**
--
-A) $NO_$ emissions
--
-B) $SO_$ emissions
--
-C) COM emissions
--
-D) vocal emissions
+**1. What is the ma∈ cause of acid ra∈?**
+- A) Emissions from vehicles
+- B) Industrial waste
+- C) Burning of fossil fuels
+- D) All of the above
+**Answer: D) Explanation: Acid ra∈ is caused by the emission of pollutants such as sulfur dioxide and nitrogen oxides into the atmosphere, which can come from various sources including vehicles, industrial waste, and the burning of fossil fuels.**
 
-**Answer: B) $SO_$ emissions.**
+**2. Which of the following is a renewable source of energy?**
+- A) Coal
+- B) Oil
+- C) Natural gas
+- D) Solar energy
+**Answer: D) Explanation: Solar energy is a renewable source of energy that is sustainable and non-polluting, unlike coal, oil, and natural gas which are non-renewable and contribute to climate change.**
 
-**2. What is the main advantage of using wind energy?**
--
-A) It is a non-renewable source of energy
--
-B) It produces greenhouse gas emissions
--
-C) It is a renewable and clean source of energy
--
-D) It is expensive to install and maintain
+**3. What is the purpose of the Kyoto Protocol?**
+- A) To reduce greenhouse gas emissions
+- B) To conserve biodiversity
+- C) To protect the ozone layer
+- D) To promote sustainable development
+**Answer: A) Explanation: The Kyoto Protocol is an international treaty that aims to reduce greenhouse gas emissions and mitigate the effects of climate change.**
 
-**Answer: C) It is a renewable and clean source of energy.**
+**4. Which of the following is an example of a non-point source of pollution?**
+- A) Industrial effluent
+- B) Agricultural runoff
+- C) Domestic sewage
+- D) Vehicle emissions
+**Answer: B) Explanation: Agricultural runoff is an example of a non-point source of pollution, which is a type of pollution that comes from a wide area and is not confined to a specific point of orig∈.**
 
-**3. What is the main difference between a hurricane and a typhoon?**
--
-A) The location in which they occur
--
-B) The strength of the winds
--
-C) The amount of rainfall
--
-D) The time of year in which they occur
-
-**Answer: A) The location in which they occur.**
-
-**4. What is the main effect of climate change on biodiversity?**
--
-A) It increases biodiversity
--
-B) It has no effect on biodiversity
--
-C) It decreases biodiversity
--
-D) It has a variable effect on biodiversity
-
-**Answer: C) It decreases biodiversity.**
-
-**5. What is the main solution to environmental issues?**
--
-A) Sustainable development
--
-B) Conservation
--
-C) Pollution control
--
-D) All of the above
-
-**Answer: D) All of the above.**
+**5. What is the term for the movement of pollutants from one environment to another?**
+- A) Bioaccumulation
+- B) Biomagnification
+- C) Transboundary pollution
+- D) Environmental degradation
+**Answer: C) Explanation: Transboundary pollution refers to the movement of pollutants from one environment to another, such as from air to water or from soil to groundwater.**
 
 ---
 
@@ -132,17 +95,3 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Environmental%20Issues%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-
----
-
-## 📚 Related Topics
-
-Continue your revision with these related guides:
-
-- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
-- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
-- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
-- 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
-

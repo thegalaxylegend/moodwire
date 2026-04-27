@@ -8,136 +8,95 @@ practice_link: "/practice/circles-class-10-notes"
 manualReview: false
 ---
 
-## 📑 Table of Contents
-
-1. [⚡ Formula Bank](#formula-bank)
-2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
-3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
-4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
-5. [👁️ Ayush's Note](#ayushs-note)
-6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
-7. [📝 Practice MCQs](#practice-mcqs)
-8. [📚 Academic References](#academic-references)
-9. [📚 Related Topics](#related-topics)
-
----
-
 ## ⚡ Formula Bank
-- The equation of a circle with center $(h, k)$ and radius are is given by $(x - h)^2 + (y - k)^2 = r^2$
-- The equation of a circle with center $(0, 0)$ and radius are is given by x^2 + y^2 = r^2
-- The general equation of a circle is given by x^2 + y^2 + 2gx + 2fy + c = $0, where the center is $(-g, -f)$ and the radius is \sqrt{g^2 + f^2 - c}$
-- The equation of a circle passing through the points $(x_1, y_1)$ and $(x_2, y_2)$ is given by $(x - x_1)(x - x_2) + (y - y_1)(y - y_2) = 0$
-- The length of the tangent from an external point $(x_1, y_1)$ to a circle with center $(h, k)$ and radius are is given by $\sqrt{(x_1 - h)^2 + (y_1 - k)^2 - r^2}$
-- The length of the tangent from an external point $(x_1, y_1)$ to a circle with equation x^2 + y^2 + 2gx + 2fy + c = $0 is given by \sqrt{x_1^2 + y_1^2 + 2gx_1 + 2fy_1 + c}$
-- The angle between a tangent and a chord is equal to the angle in the alternate segment
-- The angle subtended by an arc at the center is twice the angle subtended by the arc at any point on the circumference
-- The equation of the tangent to a circle at a point $(x_1, y_1)$ is given by AXX_1 + yy_1 + g(x + x_1) + f(y + y_1) + c = 0
+- The equation of a circle with centre (h, k) and radius r is (x - h)² + (y - k)² = r²
+- The equation of a circle with centre (0, 0) and radius r is x² + y² = r²
+- The general equation of a circle is x² + y² + 2gx + 2fy + c = 0
+- The centre of the circle x² + y² + 2gx + 2fy + c = 0 is (-g, -f)
+- The radius of the circle x² + y² + 2gx + 2fy + c = 0 is √(g² + f² - c)
+- The equation of the tangent to a circle at point (x₁, y₁) is xx₁ + yy₁ + g(x + x₁) + f(y + y₁) + c = 0
+- The length of the tangent from point (x₁, y₁) to the circle x² + y² + 2gx + 2fy + c = 0 is √(x₁² + y₁² + 2gx₁ + 2fy₁ + c)
+- The equation of the normal to a circle at point (x₁, y₁) is y - y₁ = -(x₁/(y₁)) × (x - x₁)
 
- 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not checking if the given equation represents a circle
-- Not finding the center and radius of the circle from the given equation
-- Not using the correct formula for the length of the tangent from an external point
-- Not using the correct formula for the equation of the tangent to a circle at a point
-- Not using the properties of [circles](/blog/areas-related-to-circles-class-10-notes), such as the angle between a tangent and a chord, and the angle subtended by an arc at the center
+- Forgetting to find the centre and radius of the circle
+- Not using the correct equation of the tangent or normal to the circle
+- Incorrectly finding the length of the tangent from a point to the circle
+- Not using the correct formula for the equation of the circle ∈ the general form
 
- 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** Find the equation of the circle passing through the points $(1, 2)$, $(3, -4)$, and $(5, 2)$.
-  - Step 1: The general equation of a circle is given by x^2 + y^2 + 2gx + 2fy + c = 0$.$
-  - Step 2: Substitute the given points into the equation to get three [equations](/blog/chemical-reactions-and-equations-class-10-notes) in terms of age, of, and act.
-  - Step 3: Solve the three equations simultaneously to find the values of age, of, and act.
-  - Step 4: Substitute the values of age, of, and act into the general equation to get the equation of the circle.
-- **Question 2:** Find the length of the tangent from the point $(4, 3)$ to the circle x^2 + y^2 - 4x - 6y - 3 = 0$.$
-  - Step 1: Find the center and radius of the circle from the given equation.
-  - Step 2: Use the formula for the length of the tangent from an external point to find the length of the tangent.
-- **Question 3:** Find the equation of the tangent to the circle x^2 + y^2 - 4x - 6y - 3 = $0 at the point $(2, 1)$.$
-  - Step 1: Find the center and radius of the circle from the given equation.
-  - Step 2: Use the formula for the equation of the tangent to a circle at a point to find the equation of the tangent.
+- **Question 1:** Find the equation of the circle with centre (1, 2) and radius 3
+  Step 1: Use the equation of a circle with centre (h, k) and radius r
+  Step 2: Substitute h = 1, k = 2, and r = 3 into the equation
+  Step 3: (x - 1)² + (y - 2)² = 3²
+  Step 4: x² - 2x + 1 + y² - 4y + 4 = 9
+  Step 5: x² + y² - 2x - 4y - 4 = 0
+- **Question 2:** Find the centre and radius of the circle x² + y² + 4x + 6y + 4 = 0
+  Step 1: Compare the given equation with the general equation of a circle
+  Step 2: Find the values of g, f, and c
+  Step 3: g = 2, f = 3, and c = 4
+  Step 4: Centre = (-g, -f) = (-2, -3)
+  Step 5: Radius = √(g² + f² - c) = √(2² + 3² - 4) = √(4 + 9 - 4) = √9 = 3
+- **Question 3:** Find the length of the tangent from point (3, 4) to the circle x² + y² + 2x + 3y - 1 = 0
+  Step 1: Find the values of g, f, and c
+  Step 2: g = 1, f = (3/2), and c = -1
+  Step 3: Use the equation of the length of the tangent from point (x₁, y₁) to the circle
+  Step 4: Length = √(x₁² + y₁² + 2gx₁ + 2fy₁ + c)
+  Step 5: Length = √(3² + 4² + 2(1)(3) + 2((3/2))(4) - 1) = √(9 + 16 + 6 + 12 - 1) = √42
 
- 
 ## 🧠 The One Thing Most Students Get Wrong
-- The one thing that most students get wrong is that they do not check if the given equation represents a circle.
-- To check if the given equation represents a circle, we need to check if the coefficients of x^$2 and by^$2 are equal and non-zero.
-- If the coefficients of x^$2 and by^$2 are equal and non-zero, then the equation represents a circle.
-- We also need to check if the equation can be written in the standard form of a circle, which is $(x - h)^2 + (y - k)^2 = r^2$.
+- Most students get the equation of the tangent to a circle at a given point wrong
+- They forget to use the correct equation of the tangent, which is xx₁ + yy₁ + g(x + x₁) + f(y + y₁) + c = 0
+- This can be avoided by carefully reading the question and using the correct formula
 
- 
 ## 👁️ Ayush's Note
-- Always check if the given equation represents a circle before solving the problem.
-- Use the correct formula for the length of the tangent from an external point and the equation of the tangent to a circle at a point.
-- Use the properties of [circles](/blog/areas-related-to-circles-class-10-notes), such as the angle between a tangent and a chord, and the angle subtended by an arc at the center.
-- Practice solving problems to get a good understanding of the concepts.
+- Always check if the given equation represents a circle
+- Find the centre and radius of the circle
+- Use the correct equation of the tangent or normal to the circle
+- Check your calculations carefully to avoid mistakes
 
- 
 ## 🔁 Last 5 Minutes Box
-- Revise the formulas for the equation of a circle, the length of the tangent from an external point, and the equation of the tangent to a circle at a point.
-- Revise the properties of [circles](/blog/areas-related-to-circles-class-10-notes), such as the angle between a tangent and a chord, and the angle subtended by an arc at the center.
-- Practice solving problems to get a good understanding of the concepts.
-- Check if the given equation represents a circle before solving the problem.
-- Use the correct formulas and properties to solve the problem.
+- Quickly revise the formulae for the equation of a circle, centre, radius, tangent, and normal
+- Check if you have used the correct formulae ∈ the solutions
+- Make sure you have calculated the centre and radius of the circle correctly
+- Check if you have used the correct equation of the tangent or normal to the circle
 
- 
 ## 📝 Practice MCQs
-**1. What is the equation of the circle with center $(0, 0)$ and radius $5$?**
--
-A) x^2 + y^2 = 25
--
-B) x^2 + y^2 = 10
--
-C) x^2 + y^2 = 15
--
-D) x^2 + y^2 = 20
+**1. What is the equation of the circle with centre (0, 0) and radius 5?**
+- A) x² + y² = 25
+- B) x² + y² = 10
+- C) x² + y² = 5
+- D) x² + y² = 50
+**Answer: A) x² + y² = 25**
 
-**Answer: A) x^2 + y^2 = $25**$
+**2. What is the centre of the circle x² + y² + 2x + 4y + 4 = 0?**
+- A) (-1, -2)
+- B) (1, 2)
+- C) (-2, -4)
+- D) (2, 4)
+**Answer: A) (-1, -2)**
 
-**2. What is the length of the tangent from the point $(3, 4)$ to the circle x^2 + y^2 - 4x - 6y - 3 = $0?**$
--
-A) $\sqrt{3^2 + 4^2–4 \dot 3–6 \dot 4–3}$
--
-B) $\sqrt{3^2 + 4^2 + 4 \dot 3 + 6 \dot 4 + 3}$
--
-C) $\sqrt{3^2 + 4^2–4 \dot 3 + 6 \dot 4–3}$
--
-D) $\sqrt{3^2 + 4^2 + 4 \dot 3–6 \dot 4–3}$
+**3. What is the radius of the circle x² + y² + 2x + 3y - 1 = 0?**
+- A) √(1² + (3/2)² + 1) = √(1 + 9/4 + 1) = √(4 + 9)/4 = √13/2
+- B) √(1² + (3/2)² - 1) = √(1 + 9/4 - 1) = √9/4 = 3/2
+- C) √(1² + (3/2)² + 1) = √(1 + 9/4 + 1) = √(4 + 9)/4 = √13/2
+- D) √(1² + (3/2)² - 1) = √(1 + 9/4 - 1) = √9/4 = 3/2
+**Answer: B) √(1² + (3/2)² - 1) = √(1 + 9/4 - 1) = √9/4 = 3/2**
 
-**Answer: A) $\sqrt{3^2 + 4^2–4 \dot 3–6 \dot 4–3}$**
+**4. What is the equation of the tangent to the circle x² + y² = 25 at point (3, 4)?**
+- A) 3x + 4y = 25
+- B) 3x + 4y = 50
+- C) 3x + 4y = 5
+- D) 3x + 4y = 10
+**Answer: A) 3x + 4y = 25**
 
-**3. What is the equation of the tangent to the circle x^2 + y^2 - 4x - 6y - 3 = $0 at the point $(2, 1)$?**$
--
-A) AXX_1 + yy_1 + g(x + x_1) + f(y + y_1) + c = 0
--
-B) AXX_1 - yy_1 + g(x - x_1) + f(y - y_1) + c = 0
--
-C) AXX_1 + yy_1 - g(x + x_1) - f(y + y_1) + c = 0
--
-D) AXX_1 - yy_1 - g(x - x_1) - f(y - y_1) + c = 0
-
-**Answer: A) AXX_1 + yy_1 + g(x + x_1) + f(y + y_1) + c = $0**$
-
-**4. What is the angle between a tangent and a chord?**
--
-A) Equal to the angle in the alternate segment
--
-B) Equal to twice the angle in the alternate segment
--
-C) Equal to half the angle in the alternate segment
--
-D) Not [related](/blog/areas-related-to-circles-class-10-notes) to the angle in the alternate segment
-
-**Answer: A) Equal to the angle in the alternate segment**
-
-**5. What is the angle subtended by an arc at the center?**
--
-A) Equal to the angle subtended by the arc at any point on the circumference
--
-B) Twice the angle subtended by the arc at any point on the circumference
--
-C) Half the angle subtended by the arc at any point on the circumference
--
-D) Not related to the angle subtended by the arc at any point on the circumference
-
-**Answer: B) Twice the angle subtended by the arc at any point on the circumference**
+**5. What is the length of the tangent from point (1, 1) to the circle x² + y² + 2x + 2y + 1 = 0?**
+- A) √(1² + 1² + 2(1) + 2(1) + 1) = √(1 + 1 + 2 + 2 + 1) = √7
+- B) √(1² + 1² + 2(1) + 2(1) - 1) = √(1 + 1 + 2 + 2 - 1) = √5
+- C) √(1² + 1² + 2(1) + 2(1) + 1) = √(1 + 1 + 2 + 2 + 1) = √7
+- D) √(1² + 1² + 2(1) + 2(1) - 1) = √(1 + 1 + 2 + 2 - 1) = √5
+**Answer: B) √(1² + 1² + 2(1) + 2(1) - 1) = √(1 + 1 + 2 + 2 - 1) = √5**
 
 ---
 
@@ -145,44 +104,4 @@ D) Not related to the angle subtended by the arc at any point on the circumferen
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/circles-class-10-notes) now and track your progress against thousands of students.
 
 ---
-
-## 🎬 Watch: Visual Explanation
-
-> 📺 **How to Study Maths ? Ramanujan Technique by Vineet Khatri Sir** — by *Vineet Khatri*
-
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;border-radius:12px;margin:1rem 0;">
-<iframe src="https://www.youtube.com/embed/BAns0ZVqNuY?rel=0" 
-  style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" 
-  allowfullscreen loading="lazy" 
-  title="How to Study Maths ? Ramanujan Technique by Vineet Khatri Sir">
-</iframe>
-</div>
-
-<!-- VideoObject Schema (consumed by generate-schema.ts) -->
-<!-- VIDEO_SCHEMA:{"id":"BAns0ZVqNuY","title":"How to Study Maths ? Ramanujan Technique by Vineet Khatri Sir","channel":"Vineet Khatri","thumb":"https://i.ytimg.com/vi/BAns0ZVqNuY/mqdefault.jpg"} -->
-
-## 📚 Academic References
-
-*Content verified against peer-reviewed research:*
-
-1. *� Let the People Rap: Cultural Rhetorics Pedagogy and Practices U...* — **Journal of Basic Writing** (2019) 🔓 — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.05)
-2. *Frustration and Hope: Examining Students Emotional Responses to ...* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.03)
-3. *Editors' Column* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.01)
-
-*🔓 = Open Access article*
-
----
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Circles%20Class%2010%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-
----
-
-## 📚 Related Topics
-
-Continue your revision with these related guides:
-
-- 📖 [Areas Related To Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/areas-related-to-circles-class-10-notes)
-- 📖 [Compiler Design Class 12 Exam Prep Revision — Grandmaster Guide](/blog/compiler-design-class-12-notes)
-- 📖 [Computer Networks Class 12 Exam Prep Revision — Grandmaster Guide](/blog/computer-networks-class-12-notes)
-- 📖 [Data Handling 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/data-handling-class-8-notes)

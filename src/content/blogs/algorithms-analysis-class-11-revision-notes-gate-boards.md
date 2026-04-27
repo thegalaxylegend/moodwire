@@ -89,7 +89,7 @@ Here's a block of code to illustrate the concept:
 &$\text{Mergesort Algorithm}$ \\
 &$\text{Time Complexity: }O(n \log n)$ \\
 &$\text{Space Complexity: }$ O(n) \\
-&$\text{Worst-Case Time Complexity: }O(n \log n)$ \\\end{aligned}
+&$\text{Worst-Case Time Complexity: }O(n \log n)$ \\end{aligned}
 
 As you can see, the quicksort algorithm has a faster average time complexity, but a worse worst-case time complexity. On the other hand, the mergesort algorithm has a slower average time complexity, but a better worst-case time complexity. Which algorithm would you choose, n why? 
 
@@ -344,7 +344,7 @@ O(1)
 **Answer:** C) The time complexity of Binary Search is $O(\log n)$, where and is the number of items and the array.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

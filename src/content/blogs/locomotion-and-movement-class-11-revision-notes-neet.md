@@ -136,7 +136,7 @@ By following these tips and practicing regularly, you can improve your understan
 The study of locomotion and movement is a fascinating and complex topic that requires a deep understanding of [biological](/blog/biological-classification-class-11-revision-notes-neet) principles and concepts. By topic, you can gain a better appreciation for the intricate mechanisms that govern life and movement and living organisms. As you continue to explore this topic, remember to stay focused, persistent, n curious, n you will be well on your way to achieving success and your academic and professional pursuits.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

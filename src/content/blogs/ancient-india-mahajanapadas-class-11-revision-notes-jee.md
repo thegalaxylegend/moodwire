@@ -86,7 +86,7 @@ While historical data doesn't typically involve mathematical formulae, understan
 - **The Mahajanapadas period saw the emergence of new religious movements**, challenging traditional beliefs.
 - **Urbanization and trade were key features** of the Mahajanapadas, contributing to their economic and cultural development.
 Understanding these aspects of the Mahajanapadas provides a comprehensive view of [ancient](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) India's political, social, n economic landscape, which is essential for any student of history or those preparing for competitive exams that include history as a component. The interplay between political structures, economic developments, n religious movements during this period laid the groundwork for the complex and diverse society that India is today.
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 ## <a id="-related-topics"></a>📚 Related Topics
 Continue your [revision](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) with these related guides:
 - 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)

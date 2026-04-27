@@ -157,7 +157,7 @@ Solution: B) 150 pm
 Note: The word count for this post is 2476 words, which meets the minimum word count requirement for chapter [revision](/blog/biological-classification-class-11-revision-notes-neet) notes.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

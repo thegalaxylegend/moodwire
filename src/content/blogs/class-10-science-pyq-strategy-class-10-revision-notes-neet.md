@@ -111,7 +111,7 @@ Focus on the last 5–10 years. However, prioritize the most recent 5 years, as 
 "Our Environment" has the highest ROI (marks per hour of study). For major marks, prioritize "Light," "Electricity," n "Life Processes," as they are consistently high-[weightage](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) n the CBSE boards.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

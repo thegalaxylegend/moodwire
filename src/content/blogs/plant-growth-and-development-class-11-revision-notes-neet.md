@@ -147,9 +147,9 @@ D) Photoperiodic [plant](/blog/plant-kingdom-class-11-revision-notes-neet)
 Answer: A) Short-day [plant](/blog/plant-kingdom-class-11-revision-notes-neet)
 
 5. What is the formula for auxin-induced cell elongation?
- A) \frac{dL}{dt} = dt}{\frac{dL}{dt} = k \\\cdot \frac{dC}{dt}} 
+ A) \frac{dL}{dt} = dt}{\frac{dL}{dt} = k · \frac{dC}{dt}} 
 B) 
- C) \frac{dL}{dt} = dt}{\frac{dL}{dt} = k \\\cdot \frac{dE}{dt}}  D)  Answer: A) \frac{dL}{dt} = k \\\cdot \frac{dA}{dt} 
+ C) \frac{dL}{dt} = dt}{\frac{dL}{dt} = k · \frac{dE}{dt}}  D)  Answer: A) \frac{dL}{dt} = k · \frac{dA}{dt} 
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
@@ -161,7 +161,7 @@ B)
 Last Updated: March 16, 2026
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

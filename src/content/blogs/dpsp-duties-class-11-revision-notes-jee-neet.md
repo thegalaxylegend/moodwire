@@ -106,7 +106,7 @@ Here are some tips to help you master DPSP & Duties:
 * **Practice MCQs and trap exceptions**: Test your understanding with sample MCQs and watch out for potential trap exceptions to ensure a comprehensive grasp of the subject.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

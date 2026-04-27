@@ -167,7 +167,7 @@ The Kinetic Theory of Gases transforms our view of [matter](/blog/thermal-proper
 **Reference:** [Encyclopedia Britannica: Kinetic Theory of Gases](https://www.britannic
 a.com/science/kinetic-theory-of-gases)
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 ---
 ## <a id="-related-topics"></a>📚 Related Topics
 Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) with these related guides:

@@ -8,130 +8,87 @@ practice_link: "/practice/polynomials-class-10-notes"
 manualReview: false
 ---
 
-## 📑 Table of Contents
-
-1. [⚡ Formula Bank](#formula-bank)
-2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
-3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
-4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
-5. [👁️ Ayush's Note](#ayushs-note)
-6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
-7. [📝 Practice MCQs](#practice-mcqs)
-8. [📚 Related Topics](#related-topics)
-
----
-
 ## ⚡ Formula Bank
-- The general form of a polynomial is $a_nx^n + a_{n-1}x^{n-1} + \ldots + a_1x + a_0$, where $a_n$ 
-eq 0$.$
-- Degree of a polynomial is the highest power of the variable, denoted by $\deg(p(x))$.
-- If $p(x)$ is a polynomial and $a$ is a real number, then $p(a)$ is the value of the polynomial at $x = a$.
-- Factor theorem states that if $p(a) = 0$, then $(x - a)$ is a factor of $p(x)$.
-- Remainder theorem states that if a polynomial $p(x)$ is divided by $(x - a)$, then the remainder is $p(a)$.
-- $p(x) = (x - a)q(x) + r$, where $q(x)$ is the quotient and $r$ is the remainder.
-- $\frac{d}{dx}x^n = nx^{n-1}$, where $n$ is a real number.
-- $\frac{d}{dx}c = 0$, where $c$ is a constant.
+- (a + b)² = a² + 2ab + b²
+- (a - b)² = a² - 2ab + b²
+- (a + b)³ = a³ + 3a²b + 3ab² + b³
+- (a - b)³ = a³ - 3a²b + 3ab² - b³
+- a³ + b³ = (a + b)(a² - ab + b²)
+- a³ - b³ = (a - b)(a² + ab + b²)
+- a² - b² = (a + b)(a - b)
+- x² - y² = (x + y)(x - y)
+- (x + y)³ + (x - y)³ = 2x³ + 6xy²
+- (x + y)³ - (x - y)³ = 6x²y + 2y³
+- If p(x) is a polynomial and a is a root of p(x), then p(a) = 0
+- Remainder theorem: If a polynomial p(x) is divided by (x - a), then the remainder is p(a)
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not checking if the degree of the polynomial is correct.
-- Forgetting to include the constant term in the polynomial.
-- Not using the remainder theorem to find the remainder of a polynomial division.
-- Not using the factor theorem to factorize a polynomial.
-- Not simplifying the polynomial expression before solving.
+- Not simplifying the expression before solving
+- Not using the remainder theorem to find the roots of a polynomial
+- Not using the factor theorem to factorize a polynomial
+- Not using the identity (a + b)² = a² + 2ab + b² to simplify expressions
+- Not checking the degree of the polynomial before solving
 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** Find the value of $a$ if $x + 1$ is a factor of $x^2 + ax + 2$.
-  Step 1: Use the factor theorem, which states that if $x + 1$ is a factor of $x^2 + ax + 2$, then $p(-1) = 0$.
-  Step 2: Substitute $x = -1$ into the polynomial: $(-1)^2 + a(-1) + 2 = 0$.
-  Step 3: Simplify the equation: $1 - a + 2 = 0$.
-  Step 4: Solve for $a$: $3 - a = 0 \Rightarrow a = 3$.
-- **Question 2:** Divide $x^3 - 2x^2 + 5x - 1$ by $x - 1$ and find the remainder.
-  Step 1: Use the remainder theorem, which states that the remainder of the division is $p(1)$.
-  Step 2: Substitute $x = 1$ into the polynomial: $(1)^3 - 2(1)^2 + 5(1) - 1$.
-  Step 3: Simplify the expression: $1 - 2 + 5 - 1 = 3$.
-  Step 4: The remainder is $3$.
-- **Question 3:** Find the quotient and remainder when $x^4 + 2x^3 - 3x^2 + x - 1$ is divided by $x + 1$.
-  Step 1: Use polynomial long division to divide $x^4 + 2x^3 - 3x^2 + x - 1$ by $x + 1$.
-  Step 2: Perform the division: $(x^4 + 2x^3 - 3x^2 + x - 1) \div (x + 1)$.
-  Step 3: The quotient is $x^3 + x^2 - 4x + 5$ and the remainder is $-6$.
+- Solve: (x + 1)³ - (x - 1)³
+  Step 1: Use the formula (a + b)³ - (a - b)³ = 6a²b + 2b³
+  Step 2: Substitute a = x and b = 1 ∈ the formula
+  Step 3: Simplify the expression to get 6x²(1) + 2(1)³ = 6x² + 2
+- Solve: x³ + 2x² - 7x - 12, given that x + 3 is a factor
+  Step 1: Use the factor theorem to factorize the polynomial
+  Step 2: Divide the polynomial by (x + 3) to get x² - x - 4
+  Step 3: Factorize the quadratic equation x² - x - 4 to get (x - 2)(x + 2)
+- Solve: If x + 1 is a factor of x³ + ax² + bx + c, then find the values of a, b, and c
+  Step 1: Use the factor theorem to find the value of c
+  Step 2: Substitute x = -1 ∈ the polynomial to get (-1)³ + a(-1)² + b(-1) + c = 0
+  Step 3: Simplify the equation to get -1 + a - b + c = 0
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students get wrong the application of the remainder theorem and factor theorem.
-- They often forget to substitute the value of $x$ into the polynomial to find the remainder.
-- They also forget to use the factor theorem to factorize a polynomial.
+- Most students get the factor theorem wrong, they think that if x - a is a factor of p(x), then p(a) = 1, but actually p(a) = 0
 
 ## 👁️ Ayush's Note
-- Always check if the degree of the polynomial is correct before solving.
-- Use the remainder theorem and factor theorem to simplify the polynomial expression.
-- Simplify the polynomial expression before solving to avoid mistakes.
-- Practice polynomial long division to improve your skills.
+- To solve polynomial questions, first try to factorize the polynomial using the factor theorem or the remainder theorem
+- If the polynomial cannot be factorized, then try to use the formulas for (a + b)², (a - b)², (a + b)³, (a - b)³
+- Always check the degree of the polynomial before solving
 
 ## 🔁 Last 5 Minutes Box
-- Check if the degree of the polynomial is correct.
-- Use the remainder theorem and factor theorem to simplify the polynomial expression.
-- Simplify the polynomial expression before solving.
-- Check your calculations to avoid mistakes.
+- Make sure to check the degree of the polynomial
+- Make sure to use the correct formula
+- Make sure to simplify the expression before solving
+- Make sure to check the options before marking the answer
+- Make sure to use the remainder theorem or the factor theorem to find the roots of the polynomial
 
 ## 📝 Practice MCQs
-**1. What is the degree of the polynomial $x^3 + 2x^2 - 3x + 1$?**
--
-A) 1
--
-B) 2
--
-C) 3
--
-D) 4
-
-**Answer: C) 3. The degree of the polynomial is the highest power of the variable.**
-
-**2. If $x - 1$ is a factor of $x^2 + ax + 2$, then what is the value of $a$?**
--
-A) 1
--
-B) 2
--
-C) 3
--
-D) 4
-
-**Answer: C) 3. Use the factor theorem, which states that if $x - 1$ is a factor of $x^2 + ax + 2$, then $p(1) = 0$.**
-
-**3. What is the remainder when $x^3 - 2x^2 + 5x - 1$ is divided by $x - 1$?**
--
-A) 1
--
-B) 2
--
-C) 3
--
-D) 4
-
-**Answer: C) 3. Use the remainder theorem, which states that the remainder of the division is $p(1)$.**
-
-**4. What is the quotient when $x^4 + 2x^3 - 3x^2 + x - 1$ is divided by $x + 1$?**
--
-A) $x^3 + x^2 - 4x + 5$
--
-B) $x^3 + x^2 - 4x - 5$
--
-C) $x^3 - x^2 - 4x + 5$
--
-D) $x^3 - x^2 - 4x - 5$
-
-**Answer: A) $x^3 + x^2 - 4x + 5$. Use polynomial long division to divide $x^4 + 2x^3 - 3x^2 + x - 1$ by $x + 1$.**
-
-**5. If $p(x) = x^2 + ax + 2$ and $p(1) = 0$, then what is the value of $a$?**
--
-A) 1
--
-B) 2
--
-C) 3
--
-D) 4
-
-**Answer: C) 3. Use the factor theorem, which states that if $p(1) = 0$, then $x - 1$ is a factor of $p(x)$.**
+**1. What is the value of (x + 1)² - (x - 1)²?**
+- A) 4x
+- B) 4
+- C) 4x²
+- D) 2x + 2
+**Answer: A) 4x.**
+**2. If x + 2 is a factor of x³ + ax² + bx + c, then what is the value of c?**
+- A) -2
+- B) -4
+- C) -6
+- D) -8
+**Answer: B) -4.**
+**3. What is the value of x³ + 2x² - 7x - 12, given that x + 3 is a factor?**
+- A) (x + 3)(x² - x - 4)
+- B) (x + 3)(x² + x - 4)
+- C) (x - 3)(x² + x - 4)
+- D) (x - 3)(x² - x - 4)
+**Answer: A) (x + 3)(x² - x - 4).**
+**4. If x - 2 is a factor of x³ + ax² + bx + c, then what is the value of a?**
+- A) -6
+- B) -4
+- C) -2
+- D) 0
+**Answer: B) -4.**
+**5. What is the value of (x + 1)³ - (x - 1)³?**
+- A) 6x² + 2
+- B) 6x² - 2
+- C) 6x + 2
+- D) 6x - 2
+**Answer: A) 6x² + 2.**
 
 ---
 
@@ -140,17 +97,3 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Polynomials%20Class%2010%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-
----
-
-## 📚 Related Topics
-
-Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
-
-- 📖 [Areas Related To Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/areas-related-to-circles-class-10-notes)
-- 📖 [Arithmetic Progressions Class 10 Exam Prep Revision — Grandmaster Guide](/blog/arithmetic-progressions-class-10-notes)
-- 📖 [Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/circles-class-10-notes)
-- 📖 [Pair Of Linear Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/pair-of-linear-equations-class-10-notes)
-

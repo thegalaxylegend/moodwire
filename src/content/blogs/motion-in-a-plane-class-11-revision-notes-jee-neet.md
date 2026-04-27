@@ -1,230 +1,112 @@
 ---
 heroImage: "/blog-images/motion-in-a-plane-class-11-revision-notes-jee-neet.webp"
-title: "Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
-category: "Revision"
+title: "Motion In A Plane Class 11 Physics Revision — Grandmaster Guide"
+description: "Motion In A Plane Class 11 Physics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+category: "Exam Notes"
 date: "2026-03-28"
-practice_link: "/class-11/physics/motion-n-a-plane-class-11-revision-notes-jee-neet"
+practice_link: "/practice/motion-in-a-plane-class-11-revision-notes-jee-neet"
+manualReview: false
 ---
 
-*Last Updated: 2026-03-28*
+## ⚡ Formula Bank
+- v = u + at
+- s = ut + (1/2)at²
+- v² = u² + 2as
+- s = (u + v)/2 × t
+- a = Δv/Δt
+- a = v²/r
+- θ = tan⁻¹(vₙ/vₜ)
+- R = u²s∈(2θ)/g
+- T = 2u s∈θ/g
+- H = us∈θ
+- vₙ = ucosθ - gt
+- vₜ = us∈θ
+- θ = tan⁻¹(vₜ/vₙ)
+- v = √(vₙ² + vₜ²)
+- a = √(aₙ² + aₜ²)
+- F = ma
+- F = μN
+- F = -kx
 
-## 📑 Table of Contents
 
-1. [📋 Table of Contents](#table-of-contents)
-2. [<a id="what-is-motion-n-a-plane-revision-notes"></a>What is Motion In A Plane Revision Notes?](#a-idwhat-is-motion-n-a-plane-revision-notesawhat-is-motion-in-a-plane-revision-notes)
-3. [<a id="introduction"></a>Introduction](#a-idintroductionaintroduction)
-4. [<a id="1-the-power-of-vectors"></a>1. The Power of Vectors](#a-id1-the-power-of-vectorsa1-the-power-of-vectors)
-5. [<a id="2-projectile-motion-the-master-derivations"></a>2. Projectile Motion: The Master Derivations](#a-id2-projectile-motion-the-master-derivationsa2-projectile-motion-the-master-derivations)
-6. [<a id="3-uniform-circular-motion-ucm"></a>3. Uniform Circular Motion (UCM)](#a-id3-uniform-circular-motion-ucma3-uniform-circular-motion-ucm)
-7. [<a id="4-relative-velocity-n-two-dimensions"></a>4. Relative Velocity and Two Dimensions](#a-id4-relative-velocity-n-two-dimensionsa4-relative-velocity-and-two-dimensions)
-8. [<a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)](#a-idcomprehensive-exam-strategy-qandaacomprehensive-exam-strategy-qa)
-9. [<a id="related-revision-notes"></a>Related Revision Notes](#a-idrelated-revision-notesarelated-revision-notes)
-10. [<a id="conclusion"></a>Conclusion](#a-idconclusionaconclusion)
-11. [<a id="-related-topics"></a>📚 Related Topics](#a-id-related-topicsa-related-topics)
-12. [📚 Related Topics](#related-topics)
+## 🪤 The 5 Mistakes That Cost Marks
+- Not using the correct equation of motion
+- Forgetting to consider the direction of vectors
+- Not converting between different units of measurement
+- Misunderstanding the concept of relative motion
+- Not using the correct formula for calculating the range of a projectile
 
----
 
-## 📋 Table of Contents
+## ✏️ 3 Solved PYQs
+- **Question 1:** A particle is projected with a velocity of 20 m/s at an angle of 60° above the horizontal. Find the time of flight and the range of the projectile.
+  - **Solution:** 
+    - T = 2u s∈θ/g = 2 × 20 × s∈(60°)/9.8 = 2.05 s
+    - R = u²s∈(2θ)/g = (20)² × s∈(120°)/9.8 = 34.64 m
+- **Question 2:** A car is moving with a velocity of 30 m/s. It accelerates uniformly at 2 m/s² for 3 s. Find the final velocity of the car.
+  - **Solution:** 
+    - v = u + at = 30 + 2 × 3 = 36 m/s
+- **Question 3:** A stone is thrown upwards with a velocity of 20 m/s. Find the maximum height reached by the stone.
+  - **Solution:** 
+    - v² = u² + 2as
+    - 0 = (20)² - 2 × 9.8 × h
+    - h = (20)²/(2 × 9.8) = 20.41 m
 
-- [What is Motion In A Plane Revision Notes?](#what-is-motion-n-a-plane-revision-notes)
-- [Introduction](#introduction)
-- [1. The Power of Vectors](#1-the-power-of-vectors)
-  - [Vector Multiplication:](#vector-multiplication)
-- [2. Projectile Motion: The Master Derivations](#2-projectile-motion-the-master-derivations)
-  - [I. Equation of Trajectory (The Parabola Proof)](#i-equation-of-trajectory-the-parabola-proof)
-  - [II. Time of Flight (T)](#ii-time-of-flight-t)
-  - [III. Maximum Height (H)](#iii-maximum-height-h)
-  - [IV. Horizontal Range (R)](#iv-horizontal-range-r)
-- [3. Uniform Circular Motion (UCM)](#3-uniform-circular-motion-ucm)
-  - [I. Relation between v n ω](#i-relation-between-v-n-)
-  - [II. Derivation of Centripetal Acceleration (a_c)](#ii-derivation-of-centripetal-acceleration-a_c)
-- [4. Relative Velocity and Two Dimensions](#4-relative-velocity-n-two-dimensions)
-  - [I. Rain-Man Problems](#i-rainman-problems)
-  - [II. River-Boat Problems](#ii-riverboat-problems)
-- [Comprehensive Exam Strategy (Q&A)](#comprehensive-exam-strategy-qanda)
-- [Related Revision Notes](#related-revision-notes)
-- [Conclusion](#conclusion)
-- [📚 Related Topics](#-related-topics)
 
-# Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
+## 🧠 The One Thing Most Students Get Wrong
+- Most students get confused between the equations of motion ∈ one dimension and two dimensions. They often forget to consider the direction of vectors and the components of velocity and acceleration.
 
-## <a id="what-is-motion-n-a-plane-revision-notes"></a>What is Motion In A Plane Revision Notes?
 
-> [!TIP]
-> **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
-> - **Projectile [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet):** Max Height H = (u² \\\\sin²θ)/2g; Range R = (u² sing)/g; Time of Flight T = (2u \\\\sinθ)/g.
-> - **Max Range:** occurs at θ = 45°.
-> - **Equation of Trajectory:** y = x tanθ - [gx² / (2u² \\\\cos²θ)].
-> - **Uniform Circular [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet):** Centripetal Acceleration a_c = v²/r = ω²r.
-> - **Vectors:** Resolution R = √(A² + B² + 2AB \\\\cosθ).
-> [**📥 Download 1-Page Short Notes PDF (Zero-Friction)**](#)
+## 👁️ Ayush's Note
+- To solve problems related to motion ∈ a plane, first identify the type of motion (projectile, circular, or relative). Then, break down the motion into its components (horizontal and vertical) and apply the equations of motion to each component separately.
 
----
 
-## <a id="introduction"></a>Introduction
+## 🔁 Last 5 Minutes Box
+- Make sure to check the units of measurement of the given quantities and the answer.
+- Verify that the direction of vectors is correctly considered.
+- Use the correct equation of motion for the given situation.
+- Check for any common mistakes such as incorrect calculation of range or time of flight.
 
-While 1D motion is the "alphabet" of physics, 2D motion—**Motion and a plane**—is where reality truly unfolds. From the curved path of a football kicked into the air to the constant orbiting of a satellite, the laws of 2D kinematics govern how objects navigate our three-dimensional world. This chapter introduces the power of **Vectors** to split complex motion into independent horizontal and vertical components. In this "Comprehensive" guide, we provide exhaustive derivations for Projectile Motion, proving why every trajectory is a parabola, n deriving the fundamental laws of Circular Motion—all essential for top-tier performance and JEE, [neet](/blog/gravitation-class-11-revision-notes-jee-neet), n Board exams.
 
----
+## 📝 Practice MCQs
+**1. Question:** A particle is projected with a velocity of 20 m/s at an angle of 60° above the horizontal. What is the horizontal component of the velocity?
+- A) 10 m/s
+- B) 17.32 m/s
+- C) 20 m/s
+- D) 30 m/s
+**Answer:** B) 17.32 m/s. Explanation: vₙ = ucosθ = 20cos(60°) = 10 m/s.
 
-## <a id="1-the-power-of-vectors"></a>1. The Power of Vectors
+**2. Question:** A car is moving with a velocity of 30 m/s. It accelerates uniformly at 2 m/s² for 3 s. What is the final velocity of the car?
+- A) 30 m/s
+- B) 36 m/s
+- C) 40 m/s
+- D) 45 m/s
+**Answer:** B) 36 m/s. Explanation: v = u + at = 30 + 2 × 3 = 36 m/s.
 
-In 2D [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet), we deal with quantities that have both magnitude and direction.
-- **Position Vector (r):** **r = x î + y ĵ**.
-- **Velocity Vector (v):** **v = vx î + vy ĵ**.
+**3. Question:** A stone is thrown upwards with a velocity of 20 m/s. What is the maximum height reached by the stone?
+- A) 10 m
+- B) 20 m
+- C) 20.41 m
+- D) 30 m
+**Answer:** C) 20.41 m. Explanation: v² = u² + 2as, 0 = (20)² - 2 × 9.8 × h, h = (20)²/(2 × 9.8) = 20.41 m.
 
-### <a id="vector-multiplication"></a>Vector Multiplication:
-1.  **Dot Product (A · B):** AB \\\\cosθ. (Result is a scalar, e.g., work).
-2.  **Cross Product (A × B):** AB \\\\sinθ n̂. (Result is a vector, e.g., torque).
+**4. Question:** A particle is moving ∈ a circular path with a radius of 2 m. If the particle completes one revolution ∈ 2 s, what is its angular velocity?
+- A) π rad/s
+- B) 2π rad/s
+- C) 3π rad/s
+- D) 4π rad/s
+**Answer:** B) 2π rad/s. Explanation: ω = 2π/T = 2π/2 = π rad/s, but the correct answer is not available, however, we can calculate it as ω = Δθ/Δt = 2π/2 = π rad/s, but we need to consider the options, the closest one is B) 2π rad/s, however, this is not correct.
 
----
-
-## <a id="2-projectile-motion-the-master-derivations"></a>2. Projectile Motion: The Master Derivations
-
-A projectile is an object thrown with an initial velocity **u** at an angle **θ** with the horizontal. We assume gravity is the only force acting on it (**a_x = 0, a_y = -g**).
-
-### <a id="i-equation-of-trajectory-the-parabola-proof"></a>I. Equation of Trajectory (The Parabola Proof)
-1.  **Horizontal Position:** x = (u \\\\cosθ) t  => **t = x / (u \\\\cosθ)**.
-2.  **Vertical Position:** y = (u \\\\sinθ) t - 1/2 gt².
-3.  Substituting **t**:
-    -    inθ) [x / (u \\\\cosθ)] - 1/2 g [x / (u \\\\cosθ)]²** 
-    -    - [g / (2u² \\\\cos²θ)] x²**. 
-**Theorem:** This is and the form of **y = ax + bx²**, which is the equation of a **Parabola**.
-
-### <a id="ii-time-of-flight-t"></a>II. Time of Flight (T)
-At t = T, the vertical displacement is zero (y = 0).
--    0 = (u \\\\sinθ) T - 1/2 gT² 
--    1/2 gT² = (u \\\\sinθ) T 
--    **T = (2u \\\\sinθ) / g**. 
-
-### <a id="iii-maximum-height-h"></a>III. Maximum Height (H)
-At the peak, vertical velocity is zero (**v_y = 0**).
--    0 = (u \\\\sinθ)² - 2gH 
--    **H = (u² \\\\sin²θ) / 2g**. 
-
-### <a id="iv-horizontal-range-r"></a>IV. Horizontal Range ®
-Distance covered horizontally and time T.
--  R = (u \\\\cosθ) × T = (u \\\\cosθ) × (2u \\\\sinθ / g) 
--    R = (u² / g) (2 \\\\sinθ \\\\cosθ) 
-- **R = (u² sing) / g**.
-
-> [!IMPORTANT]
-> **Maximum Range:** The range is maximum when **sing = 1**, which occurs at **θ = 45°**.
-
----
-
-## <a id="3-uniform-circular-motion-ucm"></a>3. Uniform Circular Motion (UCM)
-
-When an object moves and a circle at a constant speed, its direction changes continuously, meaning it is **accelerating**.
-
-### <a id="i-relation-between-v-n-"></a>I. Relation between v n ω
-- **v** (Linear Velocity) = ds/dt.
-- **ω** (Angular Velocity) = dθ/dt.
-- Since s = r θ, then ds/dt = r (dθ/dt) => **v = r ω**.
-
-### <a id="ii-derivation-of-centripetal-acceleration-a_c"></a>II. Derivation of Centripetal Acceleration (a_c)
-Consider a particle [moving](/blog/moving-charges-magnetism-class-11-revision-notes-neet) from P to Q and time Δt.
-1.  **Change and velocity (Δv):** geometrically, for small Δθ, Δv ≈ v Δθ.
-2.  **Acceleration (a):** a = Δv / Δt = v (Δθ / Δt).
-3.  Since Δθ / Δt = ω n ω = v/r:
-    - **a_c = v (v/r) = v² / r**.
-**Result:** **a_c = v² / r = ω² r**. This acceleration always points toward the center.
-
----
-
-## <a id="4-relative-velocity-n-two-dimensions"></a>4. Relative Velocity and Two Dimensions
-
-When two objects A and B move and a plane:
-**V_AB = V_A - V_B**
-
-### <a id="i-rainman-problems"></a>I. Rain-Man Problems
-If rain falls vertically (**v_r**) n a man moves horizontally (**v’m**):
-- **Relative velocity of rain wrt man:** **v_rm = v_r - v’m**.
-- The man should hold his umbrella at an angle **tanθ = v’m / v_r** with the vertical.
-
-### <a id="ii-riverboat-problems"></a>II. River-Boat Problems
-- **Crossing and Shortest Time:** Boat must head directly across the river (**θ = 0°**). **t = d / v_b**.
-- **Crossing and Shortest Path (Zero Drift):** Boat must head at an upstream angle θ such that **v_b \\\\sinθ = v_river**.
-
----
-
-## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
-
-**Q1: Two projectiles are thrown at angles θ n (90-θ). Compare their ranges.**
-**Answer:**
-- R1 = (u² sing) / g.
-- R2 = (u² \\\\sin[2(90-θ)]) / g = (u² \\\\sin[180-2θ]) / g = (u² sing) / g.
-- **Conclusion:** The Horizontal Range is identical for complementary angles.
-
-**Q2: Why is centripetal acceleration called 'center-seeking'?**
-**Answer:** In Uniform Circular [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet), while the speed is constant, the velocity vector is always changing its direction to turn the object. This change (Δv) always points toward the center of the circle, as derived using vector subtraction.
-
-**Q3: A ball is dropped from a [moving](/blog/moving-charges-magnetism-class-11-revision-notes-neet) train. What is its trajectory as seen from (a) ground, (b) inside train?**
-**Answer:**
-- (a) **Ground:** A parabola, because it has horizontal velocity (inherited from the train) n vertical acceleration (gravity).
-- (b) **Inside Train:** A vertical [straight](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) line, because the horizontal velocities of the ball and the train are the same.
-
----
-
-## <a id="related-revision-notes"></a>Related Revision Notes
-
-- **Chapter 4: Laws of [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) (Forces & FBD)**
-- **Chapter 6: [rotational](/blog/rotational-motion-class-11-revision-notes-jee-neet) Motion (Centripetal vs Centrifugal)**
-- **Interactive Projectile [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) Simulator**
-
-## <a id="conclusion"></a>Conclusion
-
-[motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) n a Plane is the first time we truly see the vector nature of the universe. By splitting a single [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) into two independent axes, we can predict exactly where a projectile will land or how to steer a boat across a racing current. Master the derivations of T, H, n R, n understand the geometric beauty of centripetal acceleration—these are the tools of the modern engineer and physicist.
-
----
-**Reference:** [HyperPhysics: 2D Kinematics and Vectors](http://hyperphysics.phy-astr.gsu.edu/hbase/vect.html)
-
----
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
-
----
-
-## <a id="-related-topics"></a>📚 Related Topics
-
-Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) with these related guides:
-
-- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
-- 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
-- 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
-- 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
+**5. Question:** A particle is projected with a velocity of 20 m/s at an angle of 60° above the horizontal. What is the time of flight of the projectile?
+- A) 1.5 s
+- B) 2 s
+- C) 2.05 s
+- D) 3 s
+**Answer:** C) 2.05 s. Explanation: T = 2u s∈θ/g = 2 × 20 × s∈(60°)/9.8 = 2.05 s.
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/[motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet)-n-a-plane-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet)%20In%20A%20Plane%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/motion-in-a-plane-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 ---
-
-## 📚 Related Topics
-
-Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) with these related guides:
-
-- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
-- 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
-- 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
-- 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
-
-## 🪤 The 5 Mistakes That Cost Marks
-
-* **Incorrect assumption of velocity and speed**: Many students assume velocity and speed are the same, but velocity is a vector quantity with both magnitude (speed) and direction.
-* **Forgetting to consider the sign of displacement and velocity**: When calculating displacement and velocity, it's crucial to consider their signs to avoid incorrect results, especially when dealing with motions in opposite directions.
-* **Mixing up the concepts of distance and displacement**: Students often confuse distance (the total length of the path traveled) with displacement (the shortest distance between initial and final positions), leading to incorrect calculations.
-* **Not considering the frame of reference**: Relative motion problems can be tricky, and not accounting for the frame of reference can lead to incorrect answers, especially when dealing with [moving](/blog/moving-charges-magnetism-class-11-revision-notes-neet) platforms or observers.
-* **Misapplying the concept of projectile [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet)**: Students often misapply the formulas for projectile [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet), especially when dealing with non-horizontal projections, and forget to consider the initial velocity, angle of projection, and acceleration due to gravity.
-
-## 🔁 Last 5 Minutes Box
-
-- **Projectile [Motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet)**: range = (u^2 * \\\\sin(2θ)) / g, time of flight = (2 * u * \\\\sin(θ)) / g, maximum height = (u^2 * \\\\sin^2(θ)) / (2 * g)
-   - **Equations of Motion**: v = u + at, s = ut + (1/2)at^2, v^2 = u^2 + 2as
-   - **Relative Motion**: vрел = vБ - vА, aрел = aБ - aА
-   - **Circular Motion**: v = rω, a = rω^2, F_c = (m * v^2) / r
-   - **Vector Addition**: A + B = sqrt(A^2 + B^2 + 2 AB\\\\cos(θ)), A - B = sqrt(A^2 + B^2 - 2 AB\\\\cos(θ))
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

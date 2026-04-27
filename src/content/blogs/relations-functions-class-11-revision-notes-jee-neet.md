@@ -150,7 +150,7 @@ Functions are the heartbeat of Calculus and higher mathematics. By distinguishin
 ---
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

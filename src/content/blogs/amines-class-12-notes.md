@@ -8,162 +8,95 @@ practice_link: "/practice/amines-class-12-notes"
 manualReview: false
 ---
 
-## 📑 Table of Contents
-
-1. [⚡ Formula Bank](#formula-bank)
-2. [- Common mistakes in amines include not considering the effect of electron withdrawing groups on basicity](#common-mistakes-in-amines-include-not-considering-the-effect-of-electron-withdrawing-groups-on-basicity)
-3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
-4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
-5. [👁️ Ayush's Note](#ayushs-note)
-6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
-7. [📝 Practice MCQs](#practice-mcqs)
-8. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
-9. [📚 Related Topics](#related-topics)
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Amines%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-
----
-
 ## ⚡ Formula Bank
-- Aliphatic amines are more basic than aromatic amines: $\frac{K_b \text{$ of aliphatic amine}}{K_b $\text{$ of aromatic amine}} > 1
-- Basicity of amines depends on the availability of lone pair of electrons on nitrogen atom: $\text{Basicity} \propto \text{availability$ of lone pair}
-- Alkyl amines are more basic than aryl amines due to $+I$ effect of alkyl group: $\text{Basicity of alkyl amine}$ > $\text{basicity$ of aryl amine}
-- Electron withdrawing groups decrease the basicity of amines: $\text{Basicity} \propto \frac{1}{\text{electron withdrawing power}}$
-- K_b values of amines can be calculated using the formula: K_b = $\frac{K_w}{K_a\text{$ of conjugate acid}}
-- $\text{p}K_b = -\log K_b$
-- $\text{p}K_a$ of conjugate acid of amine can be calculated using the formula: $\text{p}K_a = 14 -\text{p}K_b$
-- Amines react with water to form salts: $\text{RNH}_2 + \text{H}_2\text{O} \ \text{RNH}_3^+ + \text{OH}^-$
-- Amines react with acids to form salts: $\text{RNH}_2 + \text{HCl} \ \text{RNH}_3^+ \text{Cl}^-$
-- Amines can be prepared by reduction of nitro compounds: $\text{RNO}_2 + 6\text{H} \ \text{RNH}_2 + 2\text{H}_2\text{O}$
-- Amines can be prepared by reduction of nitriles: $\text{RCN} + 2\text{H} \ \text{RNH}_2 + \text{HCN}$
-- Amines can be prepared by Gabriel synthesis: $\text{Phthalimide} + \text{RX} \ \text{N-alkylphthalimide} \{\text{hydrazine}} \text{RNH}_2$
+- Amines are organic compounds that conta∈ a basic nitrogen atom with a lone pair of electrons
+- The general formula for amines is R₃N, where R can be an alkyl or aryl group
+- The pKa of the conjugate acid of an amine is related to the basicity of the amine: pKa = -log(Ka) = -log(1/Kb) = pKb + 14
+- The basicity of an amine can be predicted using the following formula: pKb = -log(Kb) = ΔG⁰/RT ln(10) = ΔH⁰/RT - ΔS⁰/R + log(c⁰) where c⁰ = 1M
+- The isoelectric point (pI) of an amine is the pH at which the amine has no net charge: pI = (pKa₁ + pKa₂)/2
+- The Henderson-Hasselbalch equation can be used to calculate the pH of a solution containing an amine: pH = pKa + log([A⁻]/[HA])
+- The reaction of an amine with an alkyl halide is an example of an SN² reaction: R₃N + R′X → R₃N⁺R′ + X⁻
+- The reaction of an amine with a carboxylic acid is an example of an acid-base reaction: R₃N + R′COOH → R₃N⁺H + R′COO⁻
+- The reaction of an amine with a carbonyl compound is an example of a nucleophilic addition reaction: R₃N + R′COR″ → R₃N⁺R′COR″
 
-## 
-- Common mistakes in amines include not considering the effect of electron withdrawing groups on basicity
-- Not remembering the preparation methods of amines
-- Not being able to calculate K_b and $\text{p}K_b$ values
-- Not being able to distinguish between aliphatic and aromatic amines
-- Not being able to apply the concepts of amines to solve problems
+## 🪤 The 5 Mistakes That Cost Marks
+- Not understanding the difference between primary, secondary, and tertiary amines
+- Not being able to predict the basicity of an amine using the pKa formula
+- Not recognizing the importance of steric effects ∈ amine reactions
+- Not being able to identify the products of amine reactions
+- Not being able to apply the Henderson-Hasselbalch equation to calculate the pH of a solution containing an amine
 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** The correct order of basic strength of the following amines is
-- $\text{NH}_3$
-- $\text{CH}_3\text{NH}_2$
-- $\text{C}_6\text{H}_5\text{NH}_2$
-- $\text{C}_6\text{H}_5\text{CH}_2\text{NH}_2$
-- A) $\text{CH}_3\text{NH}_2 > \text{NH}_3 > \text{C}_6\text{H}_5\text{NH}_2 > \text{C}_6\text{H}_5\text{CH}_2\text{NH}_2$
-- B) $\text{NH}_3 > \text{CH}_3\text{NH}_2 > \text{C}_6\text{H}_5\text{NH}_2 > \text{C}_6\text{H}_5\text{CH}_2\text{NH}_2$
-- C) $\text{CH}_3\text{NH}_2 > \text{C}_6\text{H}_5\text{CH}_2\text{NH}_2 > \text{NH}_3 > \text{C}_6\text{H}_5\text{NH}_2$
-- D) $\text{C}_6\text{H}_5\text{NH}_2 > \text{NH}_3 > \text{CH}_3\text{NH}_2 > \text{C}_6\text{H}_5\text{CH}_2\text{NH}_2$
-- **Answer:** C) $\text{CH}_3\text{NH}_2 > \text{C}_6\text{H}_5\text{CH}_2\text{NH}_2 > \text{NH}_3 > \text{C}_6\text{H}_5\text{NH}_2$
-- **Explanation:** The basic strength of amines depends on the availability of lone pair of electrons on the nitrogen atom. Alkyl amines are more basic than aryl amines due to the $+I$ effect of the alkyl group. Among aryl amines, the basicity decreases with the increase in the electron withdrawing power of the substituent.
-- **Question 2:** The product of the reaction of $\text{C}_6\text{H}_5\text{NO}_2$ with $\text{Sn}$ and $\text{HCl}$ is
-- A) $\text{C}_6\text{H}_5\text{N}_2\text{O}_4$
-- B) $\text{C}_6\text{H}_5\text{NH}_2$
-- C) $\text{C}_6\text{H}_5\text{NO}$
-- D) $\text{C}_6\text{H}_5\text{N}_2\text{O}_2$
-- **Answer:** B) $\text{C}_6\text{H}_5\text{NH}_2$
-- **Explanation:** The reaction of $\text{C}_6\text{H}_5\text{NO}_2$ with $\text{Sn}$ and $\text{HCl}$ is a reduction reaction, which results in the formation of $\text{C}_6\text{H}_5\text{NH}_2$.
-- **Question 3:** The APK_b value of $\text{CH}_3\text{NH}_2$ is $3.36$. The pK_a value of $\text{CH}_3\text{NH}_3^+$ is
-- A) $10.64$
-- B) $3.36$
-- C) $6.36$
-- D) $9.36$
-- **Answer:** A) $10.64$
-- **Explanation:** The APK_b value of $\text{CH}_3\text{NH}_2$ is $3.36$. Using the formula $\text{p}K_a = 14 - \text{p}K_b,$ we can calculate the pK_a value of $\text{CH}$_3$\text{NH}$_3^+$ as $10.64$.$
+- **Question 1:** What is the product of the reaction between methylamine and acetic acid?
+- Answer: Methylammonium acetate
+- **Step 1:** Identify the reactants: methylamine (CH₃NH₂) and acetic acid (CH₃COOH)
+- **Step 2:** Determine the type of reaction: acid-base reaction
+- **Step 3:** Write the balanced equation: CH₃NH₂ + CH₃COOH → CH₃NH₃⁺ + CH₃COO⁻
+- **Question 2:** What is the pKa of the conjugate acid of an amine with a pKb of 4.5?
+- Answer: 9.5
+- **Step 1:** Use the formula: pKa = 14 - pKb
+- **Step 2:** Plug ∈ the value: pKa = 14 - 4.5 = 9.5
+- **Question 3:** What is the pH of a solution containing 0.1M methylamine and 0.1M methylammonium chloride?
+- Answer: 10.6
+- **Step 1:** Use the Henderson-Hasselbalch equation: pH = pKa + log([A⁻]/[HA])
+- **Step 2:** Plug ∈ the values: pH = 10.6 + log(0.1/0.1) = 10.6
 
 ## 🧠 The One Thing Most Students Get Wrong
-- The one thing that most students get wrong is the concept of basicity of amines. They often confuse the basicity of amines with the basicity of other compounds.
-- The basicity of amines depends on the availability of lone pair of electrons on the nitrogen atom.
-- Alkyl amines are more basic than aryl amines due to the $+I$ effect of the alkyl group.
-- Electron withdrawing groups decrease the basicity of amines.
-- The APK_b value of an amine can be calculated using the formula $\text{p}K_b = -\log K_b.$
-- The pK_a value of the conjugate acid of an amine can be calculated using the formula $\text{p}K_a = 14 - \text{p}K_b.$
+- The concept of basicity and how it relates to the pKa and pKb values of an amine
+- Many students struggle to understand that the pKa of the conjugate acid of an amine is related to the basicity of the amine
+- The formula pKa = 14 - pKb is often misunderstood or misapplied
 
 ## 👁️ Ayush's Note
-- Amines are an important class of compounds in organic chemistry.
-- They are used as starting materials for the synthesis of many other compounds.
-- The basicity of amines is an important property that determines their reactivity.
-- The APK_b value of an amine is a measure of its basicity.
-- The pK_a value of the conjugate acid of an amine is a measure of its acidity.
-- Amines can be prepared by reduction of nitro compounds, reduction of nitriles, and Gabriel phthalimide synthesis.
+- To master amines for JEE/NEET 2026, focus on understanding the basicity and reactivity of amines
+- Practice solving problems that involve the reaction of amines with different functional groups
+- Make sure to review the formulas and equations related to amines, such as the Henderson-Hasselbalch equation and the pKa/pKb relationship
 
 ## 🔁 Last 5 Minutes Box
-- Revision of important concepts and formulas
-- Practice of solving problems
-- Focus on weak areas
-- Use of shortcuts and tricks to solve problems quickly
-- Practice of solving previous year questions
+- Review the general formula for amines: R₃N
+- Review the pKa/pKb relationship: pKa = 14 - pKb
+- Review the Henderson-Hasselbalch equation: pH = pKa + log([A⁻]/[HA])
+- Review the types of amine reactions: acid-base, nucleophilic addition, SN²
 
 ## 📝 Practice MCQs
-**1. Question:** The basicity of amines is affected by
-A) $+I$ effect of alkyl groups
-B) $-IN effect of alkyl groups$
-C) $+I$ effect of aryl groups
-D) $-IN effect of aryl groups$
+**1. What is the product of the reaction between dimethylamine and hydrochloric acid?**
+- A) Dimethylammonium chloride
+- B) Dimethylamine hydrochloride
+- C) Methylamine hydrochloride
+- D) Ammonium chloride
+**Answer: A) Dimethylammonium chloride.**
 
-**Answer:** A) $+I$ effect of alkyl groups
-**Explanation:** The basicity of amines is affected by the $+I$ effect of alkyl groups, which increases the availability of lone pair of electrons on the nitrogen atom.
+**2. What is the pKa of the conjugate acid of an amine with a pKb of 3.2?**
+- A) 10.8
+- B) 11.2
+- C) 10.2
+- D) 11.8
+**Answer: A) 10.8.**
 
-**2. Question:** The APK_b value of $\text{NH}_3$ is $4.75$. The pK_a value of $\text{NH}_4^+$ is
-A) $9.25$
-B) $8.25$
-C) $7.25$
-D) $6.25$
+**3. What is the pH of a solution containing 0.1M ethylamine and 0.1M ethylammonium chloride?**
+- A) 10.8
+- B) 11.2
+- C) 10.2
+- D) 11.8
+**Answer: A) 10.8.**
 
-**Answer:** A) $9.25$
-**Explanation:** The APK_b value of $\text{NH}_3$ is $4.75$. Using the formula $\text{p}K_a = 14 - \text{p}K_b,$ we can calculate the pK_a value of $\text{NH}$_4^+$ as $9.25$.$
+**4. What type of reaction occurs between an amine and a carbonyl compound?**
+- A) SN² reaction
+- B) Nucleophilic addition reaction
+- C) Acid-base reaction
+- D) Elimination reaction
+**Answer: B) Nucleophilic addition reaction.**
 
-**3. Question:** The product of the reaction of $\text{C}_6\text{H}_5\text{NO}_2$ with $\text{Sn}$ and $\text{HCl}$ is
-A) $\text{C}_6\text{H}_5\text{N}_2\text{O}_4$
-B) $\text{C}_6\text{H}_5\text{NH}_2$
-C) $\text{C}_6\text{H}_5\text{NO}$
-D) $\text{C}_6\text{H}_5\text{N}_2\text{O}_2$
+**5. What is the general formula for amines?**
+- A) R₂O
+- B) R₃N
+- C) RCOOH
+- D) R₄P
+**Answer: B) R₃N.**
 
-**Answer:** B) $\text{C}_6\text{H}_5\text{NH}_2$
-**Explanation:** The reaction of $\text{C}_6\text{H}_5\text{NO}_2$ with $\text{Sn}$ and $\text{HCl}$ is a reduction reaction, which results in the formation of $\text{C}_6\text{H}_5\text{NH}_2$.
-
-**4. Question:** The correct order of basic strength of the following amines is
-- $\text{NH}_3$
-- $\text{CH}_3\text{NH}_2$
-- $\text{C}_6\text{H}_5\text{NH}_2$
-- $\text{C}_6\text{H}_5\text{CH}_2\text{NH}_2$
-A) $\text{CH}_3\text{NH}_2 > \text{NH}_3 > \text{C}_6\text{H}_5\text{NH}_2 > \text{C}_6\text{H}_5\text{CH}_2\text{NH}_2$
-B) $\text{NH}_3 > \text{CH}_3\text{NH}_2 > \text{C}_6\text{H}_5\text{NH}_2 > \text{C}_6\text{H}_5\text{CH}_2\text{NH}_2$
-C) $\text{CH}_3\text{NH}_2 > \text{C}_6\text{H}_5\text{CH}_2\text{NH}_2 > \text{NH}_3 > \text{C}_6\text{H}_5\text{NH}_2$
-D) $\text{C}_6\text{H}_5\text{NH}_2 > \text{NH}_3 > \text{CH}_3\text{NH}_2 > \text{C}_6\text{H}_5\text{CH}_2\text{NH}_2$
-
-**Answer:** C) $\text{CH}_3\text{NH}_2 > \text{C}_6\text{H}_5\text{CH}_2\text{NH}_2 > \text{NH}_3 > \text{C}_6\text{H}_5\text{NH}_2$
-**Explanation:** The basic strength of amines depends on the availability of lone pair of electrons on the nitrogen atom. Alkyl amines are more basic than aryl amines due to the $+I$ effect of the alkyl group.
-
-**5. Question:** The APK_b value of $\text{CH}_3\text{NH}_2$ is $3.36$. The pK_a value of $\text{CH}_3\text{NH}_3^+$ is
-A) $10.64$
-B) $3.36$
-C) $6.36$
-D) $9.36$
-
-**Answer:** A) $10.64$
-**Explanation:** The APK_b value of $\text{CH}_3\text{NH}_2$ is $3.36$. Using the formula $\text{p}K_a = 14 - \text{p}K_b,$ we can calculate the pK_a value of $\text{CH}$_3$\text{NH}$_3^+$ as $10.64$.$
+---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/amines-class-12-notes) now and track your progress against thousands of students.
 
+---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-## 🪤 The 5 Mistakes That Cost Marks
-
-* A common mistake in identifying the type of amine is not checking the number of alkyl groups attached to the nitrogen atom. For example, CH₃NHC₂CH₃ is a secondary amine, not primary.
-* Students often forget that amines can act as [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes) in the presence of very strong bases, due to the ability of the nitrogen to donate a proton (H⁺).
-* In naming amines, a trap question could involve the incorrect use of prefixes and suffixes. Remember, the suffix '-amine' is used for simple amines.
-* Amines are commonly confused with other organic compounds such as alcohols and ethers due to similarities in their [chemical](/blog/chemical-kinetics-class-12-notes) structures and formulae. Make sure to identify the functional group correctly.
-* When solving amine-related reactions, a trap could involve the incorrect [application](/blog/application-of-derivatives-class-12-notes) of reaction mechanisms, especially those involving the use of alkyl halides and the production of quaternary ammonium salts.
-
-## 📚 Related Topics
-
-Continue your revision with these related guides:
-
-- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
-- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
-- 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
-- 📖 [Biotechnology And Its Applications Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)
-

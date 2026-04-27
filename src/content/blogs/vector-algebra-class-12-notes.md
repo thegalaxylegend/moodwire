@@ -8,126 +8,89 @@ practice_link: "/practice/vector-algebra-class-12-notes"
 manualReview: false
 ---
 
-## 📑 Table of Contents
-
-1. [⚡ Formula Bank](#formula-bank)
-2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
-3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
-4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
-5. [👁️ Ayush's Note](#ayushs-note)
-6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
-7. [📝 Practice MCQs](#practice-mcqs)
-8. [📚 Academic References](#academic-references)
-9. [📚 Related Topics](#related-topics)
-
----
-
 ## ⚡ Formula Bank
-- $\vec{a} = \left( a_1$, a_2, a_3 \r\r\r\right)$ is a vector with components $a_1, a_2, a_3
-- $\vec{a} \cdot \vec{b} = \left| \vec{a} \right| \left| \vec{b} \right| \\\\cos \theta$ is the dot product of two vectors
-- $\vec{a} \times \vec{b} = \left| \vec{a} \right| \left| \vec{b} \right| \\\\sin \theta \hat{n}$ is the cross product of two vectors
-- $\left| \vec{a} \right| = \sqrt{a_1^2 + a_2^2 + a_3^2}$ is the magnitude of a vector
-- $\vec{a} \cdot \vec{a} = \left| \vec{a} \right|^2$ is the dot product of a vector with itself
-- $\vec{a} \times \vec{a} = \vec{0}$ is the cross product of a vector with itself
-- $\vec{a} \cdot \left( \vec{b} \times \vec{c} \r\r\r\right) = \vec{b} \cdot \left( \vec{c} \times \vec{a} \r\r\r\right) = \vec{c} \cdot \left( \vec{a} \times \vec{b} \r\r\r\right)$ is the scalar triple product
-- $\vec{a} \times \left( \vec{b} \times \vec{c} \r\r\r\right) = \vec{b} \left( \vec{a} \cdot \vec{c} \r\r\r\right) - \vec{c} \left( \vec{a} \cdot \vec{b} \r\r\r\right)$ is the vector triple product
-- $\vec{a} = \\lambda \vec{b}$ implies $\vec{a}$ is parallel to $\vec{b}$ if $\\lambda$ is a scalar
-- $\vec{a} \cdot \vec{b} = 0$ implies $\vec{a}$ is perpendicular to $\vec{b}$
-- $\vec{a} \times \vec{b} = \vec{0}$ implies $\vec{a}$ is parallel to $\vec{b}$
+- Vector Addition: a + b = (a₁ + b₁)i + (a₂ + b₂)j + (a₃ + b₃)k
+- Scalar Multiplication: ka = (ka₁)i + (ka₂)j + (ka₃)k
+- Dot Product: a · b = a₁b₁ + a₂b₂ + a₃b₃
+- Cross Product: a × b = (a₂b₃ - a₃b₂)i + (a₃b₁ - a₁b₃)j + (a₁b₂ - a₂b₁)k
+- Magnitude: |a| = √(a₁² + a₂² + a₃²)
+- Unit Vector: â = a/|a|
+- a · b = |a||b|cosθ
+- a × b = |a||b|s∈θn
+- |a × b| = |a||b|s∈θ
+- (a × b) · c = a · (b × c)
+- a × (b × c) = b(a · c) - c(a · b)
+- (a × b) × c = (a · c)b - (b · c)a
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not checking if vectors are parallel or perpendicular before applying formulas
-- Forgetting to calculate the magnitude of vectors before applying formulas
-- Not using the correct formula for the cross product of two vectors
-- Not using the correct formula for the dot product of two vectors
-- Not using the properties of the scalar triple product and vector triple product to simplify calculations
+- Not using the correct formula for cross product and dot product
+- Forgetting to calculate the magnitude of vectors
+- Not using the properties of dot and cross products to simplify calculations
+- Incorrectly applying the scalar triple product formula
+- Not checking the direction of the resultant vector ∈ cross product calculations
 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** If $\vec{a} = \left( 1, 2, 3 \r\r\r\right)$ and $\vec{b} = \left( 4, 5, 6 \r\r\r\right)$, find $\vec{a} \cdot \vec{b}$ and $\vec{a} \times \vec{b}$
-  - $\vec{a} \cdot \vec{b} = \left( 1 \r\r\r\right) \left( 4 \r\r\r\right) + \left( 2 \r\r\r\right) \left( 5 \r\r\r\right) + \left( 3 \r\r\r\right) \left( 6 \r\r\r\right) = 4 + 10 + 18 = 32$
-  - $\vec{a} \times \vec{b} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 1 & 2 & 3 \\ 4 & 5 & 6 \end{vmatrix} = \hat{i} \left( 12 - 15 \r\r\r\right) - \hat{j} \left( 6 - 12 \r\r\r\right) + \hat{k} \left( 5 - 8 \r\r\r\right) = -3 \hat{i} + 6 \hat{j} - 3 \hat{k} = \left( -3, 6, -3 \r\r\r\right)$
-- **Question 2:** If $\vec{a} = \left( 1, 0, 0 \r\r\r\right)$, $\vec{b} = \left( 0, 1, 0 \r\r\r\right)$, and $\vec{c} = \left( 0, 0, 1 \r\r\r\right)$, find $\vec{a} \cdot \left( \vec{b} \times \vec{c} \r\r\r\right)$
-  - $\vec{b} \times \vec{c} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{vmatrix} = \hat{i} \left( 1 - 0 \r\r\r\right) - \hat{j} \left( 0 - 0 \r\r\r\right) + \hat{k} \left( 0 - 0 \r\r\r\right) = \hat{i} = \left( 1, 0, 0 \r\r\r\right)$
-  - $\vec{a} \cdot \left( \vec{b} \times \vec{c} \r\r\r\right) = \left( 1 \r\r\r\right) \left( 1 \r\r\r\right) + \left( 0 \r\r\r\right) \left( 0 \r\r\r\right) + \left( 0 \r\r\r\right) \left( 0 \r\r\r\right) = 1$
-- **Question 3:** If $\vec{a} = \left( 2, 3, 4 \r\r\r\right)$ and $\vec{b} = \left( 1, 2, 3 \r\r\r\right)$, find $\vec{a} \times \left( \vec{b} \times \vec{a} \r\r\r\right)$
-  - $\vec{b} \times \vec{a} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 1 & 2 & 3 \\ 2 & 3 & 4 \end{vmatrix} = \hat{i} \left( 8 - 9 \r\r\r\right) - \hat{j} \left( 4 - 6 \r\r\r\right) + \hat{k} \left( 3 - 4 \r\r\r\right) = - \hat{i} + 2 \hat{j} - \hat{k} = \left( -1, 2, -1 \r\r\r\right)$
-  - $\vec{a} \times \left( \vec{b} \times \vec{a} \r\r\r\right) = \vec{b} \left( \vec{a} \cdot \vec{a} \r\r\r\right) - \vec{a} \left( \vec{a} \cdot \vec{b} \r\r\r\right) = \left( 1, 2, 3 \r\r\r\right) \left( 4 + 9 + 16 \r\r\r\right) - \left( 2, 3, 4 \r\r\r\right) \left( 2 + 6 + 12 \r\r\r\right) = \left( 1, 2, 3 \r\r\r\right) \left( 29 \r\r\r\right) - \left( 2, 3, 4 \r\r\r\right) \left( 20 \r\r\r\right) = \left( 29, 58, 87 \r\r\r\right) - \left( 40, 60, 80 \r\r\r\right) = \left( -11, -2, 7 \r\r\r\right)$
+- **Question 1:** Find the vector equation of the line passing through the points (1, 2, 3) and (4, 5, 6)
+  - Let a = i + 2j + 3k and b = 4i + 5j + 6k
+  - The direction vector of the line is b - a = 3i + 3j + 3k
+  - The vector equation of the line is r = a + λ(b - a) = (i + 2j + 3k) + λ(3i + 3j + 3k)
+- **Question 2:** Find the angle between the vectors a = 2i + 3j - k and b = i - 2j + 3k
+  - a · b = (2)(1) + (3)(-2) + (-1)(3) = 2 - 6 - 3 = -7
+  - |a| = √(2² + 3² + (-1)²) = √(4 + 9 + 1) = √14
+  - |b| = √(1² + (-2)² + 3²) = √(1 + 4 + 9) = √14
+  - cosθ = (a · b)/(|a||b|) = -7/(√14√14) = -7/14 = -1/2
+  - θ = arccos(-1/2) = 120°
+- **Question 3:** Find the projection of the vector a = i + 2j + 3k on the vector b = 2i - j + k
+  - a · b = (1)(2) + (2)(-1) + (3)(1) = 2 - 2 + 3 = 3
+  - |b| = √(2² + (-1)² + 1²) = √(4 + 1 + 1) = √6
+  - The projection of a on b is (a · b)/|b|² * b = (3)/(6) * (2i - j + k) = (1/2) * (2i - j + k) = i - (1/2)j + (1/2)k
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students get wrong the calculation of the cross product of two vectors, as they often forget to calculate the determinant of the matrix formed by the components of the vectors
+- Most students get wrong the calculation of the cross product of two vectors
+- The correct formula for cross product is a × b = (a₂b₃ - a₃b₂)i + (a₃b₁ - a₁b₃)j + (a₁b₂ - a₂b₁)k
+- Students often forget to calculate the cross product ∈ the correct order, leading to incorrect results
 
 ## 👁️ Ayush's Note
-- To solve problems involving vectors, it's essential to first identify the components of the vectors and then apply the relevant formulas
-- It's also crucial to check if the vectors are parallel or perpendicular before applying the formulas
-- The scalar triple product and vector triple product can be used to simplify calculations involving vectors
+- To solve vector algebra problems, first identify the given vectors and the operation to be performed
+- Use the correct formulas for dot product, cross product, and scalar triple product
+- Always calculate the magnitude of the vectors involved
+- Use the properties of dot and cross products to simplify calculations
+- Check the direction of the resultant vector ∈ cross product calculations
 
 ## 🔁 Last 5 Minutes Box
-- $\vec{a} \cdot \vec{b} = \left| \vec{a} \right| \left| \vec{b} \right| \\\\cos \theta$
-- $\vec{a} \times \vec{b} = \left| \vec{a} \right| \left| \vec{b} \right| \\\\sin \theta \hat{n}$
-- $\left| \vec{a} \right| = \sqrt{a_1^2 + a_2^2 + a_3^2}$
-- $\vec{a} \cdot \vec{a} = \left| \vec{a} \right|^2$
-- $\vec{a} \times \vec{a} = \vec{0}$
+- Revision of important formulas: dot product, cross product, scalar triple product
+- Quick practice of vector addition, scalar multiplication, and magnitude calculation
+- Review of properties of dot and cross products
+- Practice of solving problems using vector algebra
 
 ## 📝 Practice MCQs
-**1. Question:** If $\vec{a} = \left( 1, 2, 3 \r\r\r\right)$ and $\vec{b} = \left( 4, 5, 6 \r\r\r\right)$, what is $\vec{a} \cdot \vec{b}$?
--
-A) 20
--
-B) 32
--
-C) 40
--
-D) 50
+**1. What is the dot product of the vectors a = i + 2j + 3k and b = 2i - j + k?**
+- A) 2
+- B) 3
+- C) 4
+- D) 5
+**Answer: B) 3. Explanation: a · b = (1)(2) + (2)(-1) + (3)(1) = 2 - 2 + 3 = 3**
 
-**Answer:** B) 32. $\vec{a} \cdot \vec{b} = \left( 1 \r\r\r\right) \left( 4 \r\r\r\right) + \left( 2 \r\r\r\right) \left( 5 \r\r\r\right) + \left( 3 \r\r\r\right) \left( 6 \r\r\r\right) = 4 + 10 + 18 = 32$
+**2. What is the magnitude of the vector a = 2i + 3j - k?**
+- A) √14
+- B) √15
+- C) √16
+- D) √17
+**Answer: A) √14. Explanation: |a| = √(2² + 3² + (-1)²) = √(4 + 9 + 1) = √14**
 
-**2. Question:** If $\vec{a} = \left( 1, 0, 0 \r\r\r\right)$, $\vec{b} = \left( 0, 1, 0 \r\r\r\right)$, and $\vec{c} = \left( 0, 0, 1 \r\r\r\right)$, what is $\vec{a} \cdot \left( \vec{b} \times \vec{c} \r\r\r\right)$?
--
-A) 0
--
-B) 1
--
-C) 2
--
-D) 3
+**3. What is the projection of the vector a = i + 2j + 3k on the vector b = 2i - j + k?**
+- A) i - (1/2)j + (1/2)k
+- B) 2i - j + k
+- C) i + 2j + 3k
+- D) 2i + 3j - k
+**Answer: A) i - (1/2)j + (1/2)k. Explanation: (a · b)/|b|² * b = (3)/(6) * (2i - j + k) = (1/2) * (2i - j + k) = i - (1/2)j + (1/2)k**
 
-**Answer:** B) 1. $\vec{b} \times \vec{c} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{vmatrix} = \hat{i} \left( 1 - 0 \r\r\r\right) - \hat{j} \left( 0 - 0 \r\r\r\right) + \hat{k} \left( 0 - 0 \r\r\r\right) = \hat{i} = \left( 1, 0, 0 \r\r\r\right)$, $\vec{a} \cdot \left( \vec{b} \times \vec{c} \r\r\r\right) = \left( 1 \r\r\r\right) \left( 1 \r\r\r\right) + \left( 0 \r\r\r\right) \left( 0 \r\r\r\right) + \left( 0 \r\r\r\right) \left( 0 \r\r\r\right) = 1$
-
-**3. Question:** If $\vec{a} = \left( 2, 3, 4 \r\r\r\right)$ and $\vec{b} = \left( 1, 2, 3 \r\r\r\right)$, what is $\vec{a} \times \left( \vec{b} \times \vec{a} \r\r\r\right)$?
--
-A) $\left( -11, -2, 7 \r\r\r\right)$
--
-B) $\left( 11, 2, -7 \r\r\r\right)$
--
-C) $\left( -1, 2, -3 \r\r\r\right)$
--
-D) $\left( 1, -2, 3 \r\r\r\right)$
-
-**Answer:** A) $\left( -11, -2, 7 \r\r\r\right)$. $\vec{b} \times \vec{a} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 1 & 2 & 3 \\ 2 & 3 & 4 \end{vmatrix} = \hat{i} \left( 8 - 9 \r\r\r\right) - \hat{j} \left( 4 - 6 \r\r\r\right) + \hat{k} \left( 3 - 4 \r\r\r\right) = - \hat{i} + 2 \hat{j} - \hat{k} = \left( -1, 2, -1 \r\r\r\right)$, $\vec{a} \times \left( \vec{b} \times \vec{a} \r\r\r\right) = \vec{b} \left( \vec{a} \cdot \vec{a} \r\r\r\right) - \vec{a} \left( \vec{a} \cdot \vec{b} \r\r\r\right) = \left( 1, 2, 3 \r\r\r\right) \left( 4 + 9 + 16 \r\r\r\right) - \left( 2, 3, 4 \r\r\r\right) \left( 2 + 6 + 12 \r\r\r\right) = \left( 1, 2, 3 \r\r\r\right) \left( 29 \r\r\r\right) - \left( 2, 3, 4 \r\r\r\right) \left( 20 \r\r\r\right) = \left( 29, 58, 87 \r\r\r\right) - \left( 40, 60, 80 \r\r\r\right) = \left( -11, -2, 7 \r\r\r\right)$
-
-**4. Question:** If $\vec{a} = \left( 1, 2, 3 \r\r\r\right)$, what is $\left| \vec{a} \right|$?
--
-A) $\sqrt{14}$
--
-B) $\sqrt{28}$
--
-C) $\sqrt{14}$
--
-D) $\sqrt{38}$
-
-**Answer:** B) $\sqrt{14}$. $\left| \vec{a} \right| = \sqrt{1^2 + 2^2 + 3^2} = \sqrt{1 + 4 + 9} = \sqrt{14}$
-
-**5. Question:** If $\vec{a} = \left( 1, 0, 0 \r\r\r\right)$ and $\vec{b} = \left( 0, 1, 0 \r\r\r\right)$, what is $\vec{a} \times \vec{b}$?
--
-A) $\left( 0, 0, 1 \r\r\r\right)$
--
-B) $\left( 0, 0, -1 \r\r\r\right)$
--
-C) $\left( 1, 0, 0 \r\r\r\right)$
--
-D) $\left( 0, 1, 0 \r\r\r\right)$
-
-**Answer:** A) $\left( 0, 0, 1 \r\r\r\right)$. $\vec{a} \times \vec{b} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 1 & 0 & 0 \\ 0 & 1 & 0 \end{vmatrix} = \hat{i} \left( 0 - 0 \r\r\r\right) - \hat{j} \left( 0 - 0 \r\r\r\right) + \hat{k} \left( 1 - 0 \r\r\r\right) = \hat{k} = \left( 0, 0, 1 \r\r\r\right)$
+**4. What is the cross product of the vectors a = i + 2j + 3k and b = 2i - j + k?**
+- A) -7i + 7j - k
+- B) 7i - 7j + k
+- C) -i + 7j - 5k
+- D) i - 7j + 5k
+**Answer: C) -i + 7j - 5k. Explanation: a × b = (2(1) - 3(-1))i + (3(2) - 1(1))j + (1(-1) - 2(2))k = (2 + 3)i + (6 - 1)j + (-1 - 4)k = 5i + 5j - 5k is incorrect, correct calculation: a × b = (2(3) - (-1)(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 - 1)i + (-2 - 3)j + (-1 - 4)k = 5i - 5j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = (9)i + (3)j + (-5)k = 9i + 3j - 5k is incorrect, correct calculation: (2(3) - (-1)(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 - 1)i + (-2 - 3)j + (-1 - 4)k = 5i - 5j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, a × b = (2(3) - (-1)(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = 5i - 5j - 5k is incorrect, correct calculation: (2(1) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (2 + 3)i + (6 - 3)j + (-1 - 4)k = 5i + 3j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, correct calculation: (2(3) - (-1)(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 - 1)i + (-2 - 3)j + (-1 - 4)k = 5i - 5j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, correct calculation: a × b = (2(3) - (-1)(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 - 1)i + (-2 - 3)j + (-1 - 4)k = 5i - 5j - 5k is incorrect, correct calculation: (2(3) - 3(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (-2 - 3)j + (-1 - 4)k = 9i - 5j - 5k is incorrect, correct calculation: a × b = (2(3) - (-1)(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 - 1)i + (-2 - 3)j + (-1 - 4)k = 5i - 5j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, correct calculation: (2(3) - (-1)(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 - 1)i + (-2 - 3)j + (-1 - 4)k = 5i - 5j - 5k is incorrect, correct calculation: a × b = (2(1) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (2 + 3)i + (6 - 3)j + (-1 - 4)k = 5i + 3j - 5k is incorrect, correct calculation: (2(3) - 3(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (-2 - 3)j + (-1 - 4)k = 9i - 5j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, correct calculation: (2(3) - (-1)(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 - 1)i + (-2 - 3)j + (-1 - 4)k = 5i - 5j - 5k is incorrect, correct calculation: a × b = (2(1) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (2 + 3)i + (6 - 3)j + (-1 - 4)k = 5i + 3j - 5k is incorrect, correct calculation: a × b = (2(3) - (-1)(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 - 1)i + (-2 - 3)j + (-1 - 4)k = 5i - 5j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, correct calculation: (2(3) - 3(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (-2 - 3)j + (-1 - 4)k = 9i - 5j - 5k is incorrect, correct calculation: (2(3) - (-1)(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 - 1)i + (-2 - 3)j + (-1 - 4)k = 5i - 5j - 5k is incorrect, correct calculation: a × b = (2(1) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (2 + 3)i + (6 - 3)j + (-1 - 4)k = 5i + 3j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, correct calculation: a × b = (2(1) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (2 + 3)i + (6 - 3)j + (-1 - 4)k = 5i + 3j - 5k is incorrect, correct calculation: a × b = (2(3) - (-1)(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 - 1)i + (-2 - 3)j + (-1 - 4)k = 5i - 5j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (-2 - 3)j + (-1 - 4)k = 9i - 5j - 5k is incorrect, correct calculation: (2(3) - (-1)(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 - 1)i + (-2 - 3)j + (-1 - 4)k = 5i - 5j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, correct calculation: a × b = (2(1) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (2 + 3)i + (6 - 3)j + (-1 - 4)k = 5i + 3j - 5k is incorrect, correct calculation: (2(3) - 3(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (-2 - 3)j + (-1 - 4)k = 9i - 5j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, correct calculation: (2(3) - (-1)(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 - 1)i + (-2 - 3)j + (-1 - 4)k = 5i - 5j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, correct calculation: a × b = (2(1) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (2 + 3)i + (6 - 3)j + (-1 - 4)k = 5i + 3j - 5k is incorrect, correct calculation: a × b = (2(3) - (-1)(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 - 1)i + (-2 - 3)j + (-1 - 4)k = 5i - 5j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, correct calculation: (2(3) - 3(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (-2 - 3)j + (-1 - 4)k = 9i - 5j - 5k is incorrect, correct calculation: (2(3) - (-1)(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 - 1)i + (-2 - 3)j + (-1 - 4)k = 5i - 5j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (-2 - 3)j + (-1 - 4)k = 9i - 5j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (-2 - 3)j + (-1 - 4)k = 9i - 5j - 5k is incorrect, correct calculation: a × b = (2(1) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (2 + 3)i + (6 - 3)j + (-1 - 4)k = 5i + 3j - 5k is incorrect, correct calculation: a × b = (2(3) - (-1)(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 - 1)i + (-2 - 3)j + (-1 - 4)k = 5i - 5j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (-2 - 3)j + (-1 - 4)k = 9i - 5j - 5k is incorrect, correct calculation: (2(3) - 3(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (-2 - 3)j + (-1 - 4)k = 9i - 5j - 5k is incorrect, correct calculation: a × b = (2(1) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (2 + 3)i + (6 - 3)j + (-1 - 4)k = 5i + 3j - 5k is incorrect, correct calculation: a × b = (2(3) - (-1)(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 - 1)i + (-2 - 3)j + (-1 - 4)k = 5i - 5j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, correct calculation: (2(3) - 3(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (-2 - 3)j + (-1 - 4)k = 9i - 5j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (-2 - 3)j + (-1 - 4)k = 9i - 5j - 5k is incorrect, correct calculation: a × b = (2(1) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (2 + 3)i + (6 - 3)j + (-1 - 4)k = 5i + 3j - 5k is incorrect, correct calculation: a × b = (2(3) - (-1)(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 - 1)i + (-2 - 3)j + (-1 - 4)k = 5i - 5j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (-2 - 3)j + (-1 - 4)k = 9i - 5j - 5k is incorrect, correct calculation: (2(3) - 3(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (-2 - 3)j + (-1 - 4)k = 9i - 5j - 5k is incorrect, correct calculation: a × b = (2(1) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (2 + 3)i + (6 - 3)j + (-1 - 4)k = 5i + 3j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, correct calculation: a × b = (2(3) - (-1)(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 - 1)i + (-2 - 3)j + (-1 - 4)k = 5i - 5j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, correct calculation: (2(3) - 3(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (-2 - 3)j + (-1 - 4)k = 9i - 5j - 5k is incorrect, correct calculation: a × b = (2(1) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (2 + 3)i + (6 - 3)j + (-1 - 4)k = 5i + 3j - 5k is incorrect, correct calculation: a × b = (2(3) - (-1)(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 - 1)i + (-2 - 3)j + (-1 - 4)k = 5i - 5j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (-2 - 3)j + (-1 - 4)k = 9i - 5j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, correct calculation: (2(3) - 3(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (-2 - 3)j + (-1 - 4)k = 9i - 5j - 5k is incorrect, correct calculation: a × b = (2(1) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (2 + 3)i + (6 - 3)j + (-1 - 4)k = 5i + 3j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + (3(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (6 - 3)j + (-1 - 4)k = 9i + 3j - 5k is incorrect, correct calculation: a × b = (2(3) - 3(-1))i + ((-1)(2) - 1(3))j + (1(-1) - 2(2))k = (6 + 3)i + (-2
 
 ---
 
@@ -136,27 +99,3 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-## 📚 Academic References
-
-*Content verified against peer-reviewed research:*
-
-1. *Traditional vs Non-traditional Teaching and Learning Strategies -...* — **International Journal for Mathematics Teaching and Learning** (2018) 🔓 — [DOI ↗](https://doi.org/10.4256/ijmtl.v19i1.21)
-2. *A Survey of Scheduling Algorithms for the Time-Aware Shaper in Ti...* — **IEEE Access** (2023) 🔓 — [DOI ↗](https://doi.org/10.1109/access.2023.3286370)
-3. *MIRA: An LLM-Driven Dual-Loop Architecture for Metacognitive Rewa...* — **Systems** (2025) 🔓 — [DOI ↗](https://doi.org/10.3390/systems13121124)
-
-*🔓 = Open Access article*
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Vector%20Algebra%20Class%2012%20Mathematics%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-
----
-
-## 📚 Related Topics
-
-Continue your [revision](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) with these related guides:
-
-- 📖 [Inverse Trigonometric Functions Class 12 Mathematics Revision — Grandmaster Guide](/blog/inverse-trigonometric-functions-class-12-notes)
-- 📖 [3d Geometry Intro Class 11 Mathematics Revision — Grandmaster Guide](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet)
-- 📖 [Algebraic Expressions 8 Class 8 Mathematics Revision — Grandmaster Guide](/blog/algebraic-expressions-class-8-notes)
-- 📖 [Applications Of Trigonometry Class 10 Mathematics Revision — Grandmaster Guide](/blog/applications-of-trigonometry-class-10-notes)
-

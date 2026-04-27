@@ -243,7 +243,7 @@ In $O_3$, both bond lengths are identical (128 pm) despite one being "double" n 
 
 **Molecular Orbital Theory (MOT) treats electrons as belonging to the entire molecule, allowing for accurate prediction of magnetic properties like the paramagnetism of Oxygen.**
 
-### <a id="the-1221-rule-for-o_2-f_2-ne_2"></a>The "1-2-2-1" Rule for $O_2, F_2, Ne_2$ Order: \\\\sigma 1s, \sigma^* 1s, \\\\sigma 2s, \sigma^* 2s, \\\\sigma 2p_z, (\pi 2p_x = \pi 2p_y), (\pi^* 2p_x = \pi^* 2p_y), \sigma^* 2p_z. 
+### <a id="the-1221-rule-for-o_2-f_2-ne_2"></a>The "1-2-2-1" Rule for $O_2, F_2, Ne_2$ Order: \\\sigma 1s, \sigma^* 1s, \\\sigma 2s, \sigma^* 2s, \\\sigma 2p_z, (\pi 2p_x = \pi 2p_y), (\pi^* 2p_x = \pi^* 2p_y), \sigma^* 2p_z. 
 
 ### <a id="stability-analysis"></a>Stability Analysis
 - **Bond Order (BO) = 2.0 for $O_2$** (Paramagnetic).
@@ -366,7 +366,7 @@ Don't just memorize the table. Ask yourself "Why does lone pair repulsion decrea
 ---
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

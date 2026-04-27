@@ -114,7 +114,7 @@ Prove that the statement holds for $n = k+1$ using the assumption from Pillar 2.
 **Answer:**
 - **$n=1$**: $2^3-1 = 7$. Divisible y 7.
 - **Assume $n=k$**: $2^{3k}-1 = 7m$. (So $2^{3k} = 7m+1$)
-- **For $n=k+1$**: $2^{3(k+1)}-1 = 2^{3k} \\\cdot 2^3 - 1 = (7m+1) \\\cdot 8 - 1 = 56m + 8 - 1 = 56m + 7 = 7(8m+1)$.
+- **For $n=k+1$**: $2^{3(k+1)}-1 = 2^{3k} · 2^3 - 1 = (7m+1) · 8 - 1 = 56m + 8 - 1 = 56m + 7 = 7(8m+1)$.
 - Since it's a multiple of 7, it's proved!
 
 **Q2: Can induction be used for real numbers or only integers?**
@@ -140,7 +140,7 @@ You can still use induction to prove the statement for $n \geq 5$ y using $n=5$ 
 ---
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

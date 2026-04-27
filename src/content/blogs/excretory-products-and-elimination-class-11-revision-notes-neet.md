@@ -191,7 +191,7 @@ The following JEE/[meet](/blog/cell-cycle-and-cell-division-class-11-revision-no
 This data is essential for understanding the functions of the excretory system, n for success and the JEE n [meet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

@@ -128,7 +128,7 @@ where:
 This equation, part of the Hodgkin-Huxley model, demonstrates the complex interplay of ion channels and currents that underlie the generation and propagation of action potentials and neurons. While the mathematical details may be beyond the scope of class 11 biology, understanding the biological principles behind such equations can deepen your appreciation for the intricate mechanisms of neural control and [coordination](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet).
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

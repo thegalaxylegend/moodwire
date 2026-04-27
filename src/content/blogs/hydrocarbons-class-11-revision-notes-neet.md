@@ -150,7 +150,7 @@ Answer: c) Ethane
 - Alcohols class 11 Notes
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

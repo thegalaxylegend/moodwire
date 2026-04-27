@@ -103,7 +103,7 @@ The symbol **i** was introduced y Euler to solve square roots of negative number
 A complex number z = a + IB can be represented as a point (a, b) n a [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) called the **Armand Plane**.
 *   **x-axis:** Real axis.
 *   **y-axis:** Imaginary axis.
-*   **Polar Form:** z = r(\\\\\cos θ + i \\\\\sin θ), where r = |z| n θ is called the **argument** of z.
+*   **Polar Form:** z = r(\\\cos θ + i \\\sin θ), where r = |z| n θ is called the **argument** of z.
 
 ---
 
@@ -152,7 +152,7 @@ Complex numbers expand your mathematical toolkit to include rotation and two-dim
 ---
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 
@@ -194,10 +194,10 @@ Continue your [revision](/blog/motion-in-a-plane-class-11-revision-notes-jee-nee
 ## 🔁 Last 5 Minutes Box
 
 * Complex numbers are of the form a + IBM, where a and y are real numbers and I = $\sqrt{-1}.$
-* The conjugate of a complex number oz = a + IBM is $AR{z} = a - IBM.$
+* The conjugate of a complex number oz = a + IBM is $\bAR{z} = a - IBM.$
 * The modulus of a complex number oz = a + IBM is $|z| = \sqrt{a^2 + b^2}$.
 * The argument of a complex number oz = a + IBM is the angle $	head that oz makes with the positive x-axis.$
-* De Moiré's theorem states that for any complex number oz = r(cosh $\beta$+ ISIN 	heat)$ n any integer n, oz^n = r^n(\\\\\cos$ and heat + ISIN and heat)$.$
+* De Moiré's theorem states that for any complex number oz = r(cosh $\beta$+ ISIN 	heat)$ n any integer n, oz^n = r^n(\\\cos$ and heat + ISIN and heat)$.$
 * Euler's formula states that he^{I	heat} = cosh $\beta$+ ISIN 	head.
 * The polar form of a complex number oz = a + IBM is oz = r(cosh $\beta$+ ISIN 	heat)$, where or = |z|$ n $	heat = are(z)$.
 

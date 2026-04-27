@@ -93,10 +93,10 @@ export const BlogPostPage: React.FC = () => {
                     const rawContent = await modules[matchingPath]() as string;
                     const bodyMatch = rawContent.match(/---[\s\S]*?---([\s\S]*)/);
                     let cleanContent = bodyMatch ? bodyMatch[1].trim() : rawContent.trim();
-                    
+
                     // Strip HTML comments (e.g., <!-- [AD BREAK SUGGESTION] -->)
                     cleanContent = cleanContent.replace(/<!--[\s\S]*?-->/g, '');
-                    
+
                     cleanContent = cleanContent.replace(/^#[^\n]*\n+/m, '');
                     setContent(cleanContent);
                 } else {
@@ -154,18 +154,18 @@ export const BlogPostPage: React.FC = () => {
             <Navbar />
 
             {/* Premium Scroll Progress Bar */}
-            <motion.div 
+            <motion.div
                 className="fixed top-0 left-0 right-0 h-1.5 bg-primary z-[100] origin-left shadow-[0_0_20px_rgba(139,92,246,0.5)]"
                 style={{ scaleX }}
             />
 
             {/* Dynamic Neural Pulse Line */}
-            <motion.div 
+            <motion.div
                 className="fixed left-6 top-0 bottom-0 w-px bg-gradient-to-b from-primary/50 to-transparent z-40 hidden lg:block opacity-20"
                 style={{ scaleY: scrollYProgress, originY: 0 }}
             />
 
-            <motion.article 
+            <motion.article
                 initial={isLow ? { opacity: 1 } : { opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
@@ -201,7 +201,7 @@ export const BlogPostPage: React.FC = () => {
                             </div>
                         </div>
 
-                        <button 
+                        <button
                             onClick={handleDownloadPDF}
                             disabled={generatingPdf}
                             className="flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 bg-[length:200%_auto] animate-gradient-x rounded-2xl font-black text-sm hover:scale-105 transition-all shadow-xl shadow-purple-500/25 disabled:opacity-50 group border border-white/20"
@@ -212,7 +212,7 @@ export const BlogPostPage: React.FC = () => {
                     </div>
 
                     {meta.practice_link && (
-                        <Link 
+                        <Link
                             to={meta.practice_link}
                             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-purple-500/10 border border-purple-500/20 text-purple-300 font-bold text-sm hover:bg-purple-500/20 transition-all mb-8 group"
                         >
@@ -224,8 +224,8 @@ export const BlogPostPage: React.FC = () => {
 
                     {meta.image && (
                         <div className="relative aspect-[21/9] w-full mt-4 rounded-[40px] overflow-hidden border border-white/10 shadow-[0_32px_64px_-16px_rgba(0,0,0,0.6)] group">
-                            <img 
-                                src={meta.image} 
+                            <img
+                                src={meta.image}
                                 alt={meta.title}
                                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                                 loading="eager"
@@ -254,37 +254,37 @@ export const BlogPostPage: React.FC = () => {
                         remarkPlugins={[remarkGfm, remarkMath]}
                         rehypePlugins={[rehypeRaw, rehypeKatex]}
                         components={{
-                            h2: ({node, children, ...props}) => (
+                            h2: ({ node, children, ...props }) => (
                                 <h2 {...props} className="text-xl sm:text-2xl font-bold text-white mt-12 mb-6 break-words">
                                     {children}
                                 </h2>
                             ),
-                            h3: ({node, children, ...props}) => (
+                            h3: ({ node, children, ...props }) => (
                                 <h3 {...props} className="text-base sm:text-lg font-semibold text-purple-300 mt-6 mb-2 border-l-2 border-purple-500 pl-3 break-words">
                                     {children}
                                 </h3>
                             ),
-                            ul: ({node, children, ...props}) => (
+                            ul: ({ node, children, ...props }) => (
                                 <ul {...props} className="list-disc list-outside pl-4 space-y-1 my-3">
                                     {children}
                                 </ul>
                             ),
-                            li: ({node, children, ...props}) => (
+                            li: ({ node, children, ...props }) => (
                                 <li {...props} className="text-gray-300 text-sm sm:text-base leading-relaxed">
                                     {children}
                                 </li>
                             ),
-                            table: ({node, children, ...props}) => (
+                            table: ({ node, children, ...props }) => (
                                 <div className="overflow-x-auto my-6 rounded-xl border border-white/10">
                                     <table {...props} className="w-full text-sm text-left">{children}</table>
                                 </div>
                             ),
-                            a: ({node, href, children, ...props}) => {
+                            a: ({ node, href, children, ...props }) => {
                                 const isExternal = href?.startsWith('http') && !href.includes(SITE_URL);
                                 return (
-                                    <a 
-                                        {...props} 
-                                        href={href} 
+                                    <a
+                                        {...props}
+                                        href={href}
                                         target={isExternal ? "_blank" : undefined}
                                         rel={isExternal ? "noopener external" : undefined}
                                         className={isExternal ? "text-purple-400 hover:text-purple-300 underline underline-offset-4" : ""}
@@ -293,14 +293,14 @@ export const BlogPostPage: React.FC = () => {
                                     </a>
                                 );
                             },
-                            img: ({node, alt, src, ...props}) => (
-                                <img 
+                            img: ({ node, alt, src, ...props }) => (
+                                <img
                                     {...props}
                                     src={src}
                                     alt={alt || meta.title}
-                                    loading="lazy" 
-                                    decoding="async" 
-                                    className="rounded-2xl shadow-2xl border border-white/10 my-8 w-full" 
+                                    loading="lazy"
+                                    decoding="async"
+                                    className="rounded-2xl shadow-2xl border border-white/10 my-8 w-full"
                                 />
                             )
                         }}
@@ -320,7 +320,7 @@ export const BlogPostPage: React.FC = () => {
             <Footer />
 
             {/* HIGH-QUALITY SHADOW RENDERER (DNA FROM NOTES) */}
-            <div 
+            <div
                 ref={shadowPrintRef}
                 className="absolute top-0 left-0 w-[800px] bg-white text-black p-16 -z-10 pointer-events-none opacity-0"
                 style={{ visibility: 'hidden' }}
@@ -351,8 +351,8 @@ export const BlogPostPage: React.FC = () => {
                         </div>
                     </div>
                     <div className="prose-print" style={{ backgroundColor: '#ffffff' }}>
-                        <ReactMarkdown 
-                            remarkPlugins={[remarkGfm, remarkMath]} 
+                        <ReactMarkdown
+                            remarkPlugins={[remarkGfm, remarkMath]}
                             rehypePlugins={[rehypeRaw, rehypeKatex]}
                         >
                             {content}

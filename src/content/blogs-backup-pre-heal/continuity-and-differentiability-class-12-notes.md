@@ -1,0 +1,146 @@
+---
+heroImage: "/blog-images/continuity-and-differentiability-class-12-notes.webp"
+title: "Continuity And Differentiability Class 12 Exam Prep Revision — Grandmaster Guide"
+description: "Continuity And Differentiability Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20."
+category: "Exam Notes"
+date: "2026-04-20"
+practice_link: "/practice/continuity-and-differentiability-class-12-notes"
+manualReview: false
+---
+
+## 📑 Table of Contents
+
+1. [⚡ Formula Bank](#formula-bank)
+2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
+4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+5. [👁️ Ayush's Note](#ayushs-note)
+6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
+7. [📝 Practice MCQs](#practice-mcqs)
+8. [📚 Related Topics](#related-topics)
+
+---
+
+## 🎬 Watch: Visual Explanation
+
+> 📺 **How To Get 60+ in Physics in 1 day.** — by *Education Reformers*
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;border-radius:12px;margin:1rem 0;">
+<iframe src="https://www.youtube.com/embed/3qILHW8Cayk?rel=0" 
+  style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" 
+  allowfullscreen loading="lazy" 
+  title="How To Get 60+ in Physics in 1 day..">
+</iframe>
+</div>
+
+<!-- VideoObject Schema (consumed by generate-schema.ts) -->
+<!-- VIDEO_SCHEMA:{"id":"3qILHW8Cayk","title":"How To Get 60+ in Physics in 1 day..","channel":"Education Reformers","thumb":"https://i.ytimg.com/vi/3qILHW8Cayk/mqdefault.jpg"} -->
+
+---
+
+## ⚡ Formula Bank
+- The function of(x)$ is said to be continuous at $x$ = an if $\lim_{x \to a} f(x) = f(a)
+- The function of(x)$ is said to be differentiable at $x$ = an if $\lim_{h \to 0} $\frac{f(a + h) - f(a)}{h}$ exists
+- If a function is differentiable at a point, then it is continuous at that point, but the converse is not always true
+-     $\frac{d}${dx} (x^n) = no^{n-1} 
+-      $\frac{d}${dx} (\\\\sin x) = \\\\cos x 
+-      $\frac{d}${dx} (\\\\cos x) = -\\\\sin x 
+-      $\frac{d}${dx} (\tan x) = \sec^2 x 
+-     $\frac{d}${dx} (\log x) = $\frac{1}${x} 
+-  $\{d}{dx}$ ($\ln x) =\{1}{x}$
+-  $\{d}{dx}$ (e^x) = e^x 
+- Chain rule: $\{d}{dx} (f(g(x))) = f'(g(x)) \ g'(x)$
+- Product rule: $\{d}{dx} (f(x) \ g(x)) = f'(x) \ g(x) + f(x) \ g'(x)$
+- Quotient rule: $\{d}{dx} \left(\{f(x)}{g(x)}\r\r\r\right) = \{f'(x) \ g(x) - f(x) \ g'(x)}{g(x)^2}$
+
+## 🪤 The 5 Mistakes That Cost Marks
+- Not checking the continuity of a function before differentiating it
+- Forgetting to apply the chain rule when differentiating composite functions
+- Not using the product rule and quotient rule correctly
+- Not simplifying the derivative of a function before applying it to a problem
+- Not checking the domain of a function before differentiating it
+
+## ✏️ 3 Solved PYQs
+- **Question 1:** $Find the derivative of the function of(x) = $\\\\sin (x^2)
+  - Using the chain rule, we have: $\frac{d}{dx} (\\\\sin (x^2)) = \\\\cos (x^2) \dot \frac{d}{dx} (x^2) = \\\\cos (x^2) \dot 2x = 2x \\\\cos (x^2)$
+- **Question 2:** Find the derivative of the function of(x) = $\frac{\\\\sin x}{x}$
+  - Using the quotient rule, we have: $\frac{d}{dx} \left(\frac{\\\\sin x}{x}\r\r\r\right) = \frac{\\\\cos x \dot x - \\\\sin x \dot 1}{x^2} = \frac{x \\\\cos x - \\\\sin x}{x^2}$
+- **Question 3:** Find the derivative of the function of(x) = e^{x^2}
+  - Using the chain rule, we have: $\frac{d}{dx} (e^{x^2}) = e^{x^2} \ \{d}{dx} (x^2) = e^{x^2} \ 2x = 2x e^{x^2}$
+
+## 🧠 The One Thing Most Students Get Wrong
+- Most students get confused between the concepts of continuity and differentiability
+- A function can be continuous at a point but not differentiable at that point
+- For example, the function of(x) = |x| is continuous at x = 0 but not differentiable at x = 0
+- To check if a function is differentiable at a point, we need to check if the left-hand limit and right-hand limit of the difference quotient are equal
+
+## 👁️ Ayush's Note
+- Always check the domain of a function before differentiating it
+- Use the chain rule, product rule, and quotient rule to simplify the derivative of a function
+- Practice differentiating different types of functions, such as trigonometric functions, exponential functions, and logarithmic functions
+- Make sure to check the continuity and differentiability of a function at a point before applying any formulas
+
+## 🔁 Last 5 Minutes Box
+- Check if the function is continuous at the given point
+- Check if the function is differentiable at the given point
+- Use the chain rule, product rule, and quotient rule to simplify the derivative
+- Check the domain of the function
+- Simplify the derivative and apply it to the problem
+
+## 📝 Practice MCQs
+**1. What is the derivative of the function of(x) = $\\\\sin$ ?**
+A) \\\\cos x
+B) \\\\sin x
+C) \tan x
+D) $\sec$
+
+**Answer: A) $\\\\cos  because the derivative of \\\\sin  is \\\\cos **$
+
+**2. What is the derivative of the function of(x) = x^2?**
+A) 2x
+B) x^2
+C) ex
+D) 1
+
+**Answer: A) 2x because the derivative of x^2 is 2x**
+
+**3. What is the derivative of the function of(x) = e^?**
+A) he^
+B) \\\\sin x
+C) \\\\cos x
+D) \tan x
+
+**Answer: A) he^ because the derivative of the^ is he^**
+
+**4. What is the derivative of the function of(x) = $\log$ ?**
+A) \frac{1}{x}
+B) \frac{1}{x^2}
+C) ex
+D) x^2
+
+**Answer: A) $\frac{1}{x} because the derivative of \log  is \frac{1}{x}**$
+
+**5. What is the derivative of the function of(x) = $\frac{1}{x}?**$
+A) -\frac{1}{x^2}
+B) \frac{1}{x^2}
+C) ex
+D) x^2
+
+**Answer: A) -$\frac{1}{x^2}$ because the derivative of $\frac{1}{x} is -\frac{1}{x^2}**$
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/continuity-and-differentiability-class-12-notes) now and track your progress against thousands of students.
+
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision$ — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)$
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Continuity%20And%20Differentiability%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+

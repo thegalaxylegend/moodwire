@@ -105,7 +105,7 @@ Yes, approximately 70% of successful candidates choose an optional that is diffe
 During the first four months of preparation, dedicate 60–70% of your daily study time to your [optional](/blog/upsc-optional-selection-guide). Once you have covered the syllabus, transition to a split of 30% for your [optional](/blog/upsc-optional-selection-guide) n 70% for General Studies and current affairs to maintain overall balance.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

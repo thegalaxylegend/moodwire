@@ -8,162 +8,83 @@ practice_link: "/practice/chemical-kinetics-class-12-notes"
 manualReview: false
 ---
 
-## 📑 Table of Contents
-
-1. [⚡ Formula Bank](#formula-bank)
-2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
-3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
-4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
-5. [👁️ Ayush's Note](#ayushs-note)
-6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
-7. [📝 Practice MCQs](#practice-mcqs)
-8. [⚗️ Chemical Quick Reference (Verified via PubChem)](#chemical-quick-reference-verified-via-pubchem)
-9. [📚 Related Topics](#related-topics)
-
----
-
-## 🎬 Watch: Visual Explanation
-
-> 📺 **(L-2) Chemical kinetics | GMP solutions | FIITJEE | IIT | NEET | by Mahesh sir** — by *[Chemistry](/blog/chemistry-in-everyday-life-class-12-notes) by Mahesh sir*
-
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;border-radius:12px;margin:1rem 0;">
-<iframe src="https://www.youtube.com/embed/M1OT7nsDDWM?rel=0" 
-  style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" 
-  allowfullscreen loading="lazy" 
-  title="(L-2) Chemical kinetics | GMP solutions | FIITJEE | IIT | NEET | by Mahesh sir">
-</iframe>
-</div>
-
-<!-- VideoObject Schema (consumed by generate-schema.ts) -->
-<!-- VIDEO_SCHEMA:{"id":"M1OT7nsDDWM","title":"(L-2) Chemical kinetics | GMP solutions | FIITJEE | IIT | NEET | by Mahesh sir","channel":"Chemistry by Mahesh sir","thumb":"https://i.ytimg.com/vi/M1OT7nsDDWM/mqdefault.jpg"} -->
-
----
-
 ## ⚡ Formula Bank
-- Rate of reaction: $\frac{\delta \text{concentration}}{\delta \text{time}}$ or $\frac{\text{change$ in concentration}}{\text{change$ in time}}$
-- Integrated rate law: $\ln \left( \frac{a}{a - x} \r\r\r\r\right) = KTM$ for first order reactions
-- Half-life: at_{1/2} = $\frac{\ln 2}{k}$ for first order reactions
-- Rate constant: OK = $\frac{2.303}{t} \log \left( \frac{a}{a - x} \r\r\r\r\right)$
-- Activation energy: HE_a = 2.303 R $\log \left( \frac{k_2}{k_1} \r\r\r\r\right) \left( \frac$’T_2 T_1}{T_2 - T_1} \r\r\r\r\right)
-- Arrhenius equation: OK = AE^{-E_a / RT}
-- Collision theory: rate of reaction $\propto$ frequency of collisions $\propto$ concentration of reactants
-- Transition state theory: rate of reaction $\propto$ concentration of reactants $\propto e^{-E_a / RT}$
+- Rate of reaction = ΔC/Δt
+- Rate constant (k) = (2.303/t) log([A]₀/[A]ₜ)
+- First order reaction: rate = k[A]
+- Second order reaction: rate = k[A]²
+- Half life (t₁/₂) = 0.693/k for first order reaction
+- t₁/₂ = 1/(k[A]₀) for second order reaction
+- Integrated rate law: [A]ₜ = [A]₀ e^(-kt)
+- Arrhenius equation: k = Ae^(-Eₐ/RT)
+- Collision theory: rate = Ze^(-Eₐ/RT)
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not understanding the concept of rate of reaction and its dependence on concentration and time
-- Confusing between first order and second order [reactions](/blog/chemical-reactions-and-equations-class-10-notes) and their respective rate laws
-- Not being able to derive the integrated rate law for first order [reactions](/blog/chemical-reactions-and-equations-class-10-notes)
-- Not understanding the concept of half-[life](/blog/chemistry-in-everyday-life-class-12-notes) and its relationship with the rate constant
-- Not being able to apply the Arrhenius equation to solve problems related to temperature dependence of rate constant
+- Not understanding the difference between average and instantaneous rate of reaction
+- Forgetting to convert concentration units when using rate equations
+- Not using the correct units for rate constant (k) and half life (t₁/₂)
+- Incorrectly applying the Arrhenius equation
+- Not checking the order of reaction before applying integrated rate law
 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** The rate of decomposition of $\text{N}_2\text{O}_5$ is given by the equation: $\frac{\delta \left[ \text{N}_2\text{O}_5 \right]}{\delta t} = k \left[ \text{N}_2\text{O}_5 \right]$. If the half-life of the reaction is $2.1 \times 10^3$ s, calculate the rate constant.
-- Solution: Given that the half-life is $2.1 \times 10^3$ s, we can use the equation at_{1/2} = $\frac{\ln 2}{k}$ to solve for OK. Rearranging the equation, we get OK = $\frac{\ln 2}{t_{1/2}$} = $\frac{\ln 2}{2.1 \times 10^3}$ = 3.32 \times 10^{-4} $\text{ s}$^{-1}
-- **Question 2:** The activation energy for the decomposition of $\text{HI}$ is $209.5$ kJ/MOL. If the rate constant at $500$ K is $1.6 \times 10^{-5}$ so^{-1}$, calculate the rate constant at $600$ K.$
-- Solution: We can use the Arrhenius equation to solve for the rate constant at $600$ K. Given that OK_1 = 1.6 $\times 10^{-5}$ so^{-1}$ at AT_1 = $500 K, we can use the equation OK_2 = k_1 e^{-(E_a / R) (1/T_2–1/T_1)}$ to solve for OK_2$. Plugging in the values, we get OK_2 = 1.6 \times 10^{-5} e^{-(209.5 \times 10^3 / 8.314) (1/600–1/500)} = 1.6 \times 10^{-5} e^{25.2} = 1.02 \times 10^2$ so^{-1}$
-- **Question 3:** The rate of reaction for the hydrolysis of ester is given by the equation: $\frac{\delta \left[ \text{ester} \right]}{\delta t} = k \left[ \text{ester} \right] \left[ \text{H}_2\text{O} \right]$. If the concentration of ester is $0.1$ M and the concentration of water is $1$ M, calculate the rate of reaction if the rate constant is $1 \times 10^{-3}$ ME^{-1}is^{-1}$.$
-- Solution: Given that the rate law is $\frac{\delta \left[ \text{ester} \right]}{\delta t} = k \left[ \text{ester} \right] \left[ \text{H}_2\text{O} \right]$, we can plug in the values to solve for the rate of reaction. $\frac{\delta \left[ \text{ester} \right]}{\delta t} = 1 \times 10^{-3} \times 0.1 \times 1 = 1 \times 10^{-4}$ M/s
+- **Question 1:** The rate of decomposition of NH₃ on a platinum surface is given by the equation: rate = k[NH₃]. If the half life (t₁/₂) of NH₃ is 2.1 × 10⁻⁵ s, calculate the rate constant (k).
+  - Solution: t₁/₂ = 0.693/k, k = 0.693/t₁/₂ = 0.693/(2.1 × 10⁻⁵) = 3.3 × 10⁴ s⁻¹
+- **Question 2:** The activation energy (Eₐ) for the reaction: 2NO + O₂ → 2NO₂ is 120 kJ/mol. If the rate constant (k) at 300 K is 2.5 × 10⁻⁵ s⁻¹, calculate the pre-exponential factor (A).
+  - Solution: k = Ae^(-Eₐ/RT), A = k × e^(Eₐ/RT) = 2.5 × 10⁻⁵ × e^(120000/(8.314 × 300)) = 2.1 × 10¹⁴ s⁻¹
+- **Question 3:** The reaction: A + B → products follows second order kinetics. If the initial concentration of A and B are 0.1 M and 0.2 M respectively, and the rate constant (k) is 0.05 M⁻¹s⁻¹, calculate the half life (t₁/₂) of the reaction.
+  - Solution: t₁/₂ = 1/(k[A]₀) = 1/(0.05 × 0.1) = 200 s
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students get confused between the concept of rate of reaction and the concept of equilibrium constant. They think that the rate of reaction is the same as the equilibrium constant, which is not true. The rate of reaction is a measure of how fast the reactants are converted to products, while the equilibrium constant is a measure of the ratio of the concentrations of the products to the reactants at equilibrium.
+- Most students get confused between the terms "order of reaction" and "molecularity of reaction". Order of reaction is the sum of the exponents of the concentration terms ∈ the rate equation, whereas molecularity is the number of molecules that collide to form the product.
 
 ## 👁️ Ayush's Note
-- To solve problems related to [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) kinetics, it is essential to understand the concept of rate of reaction and its dependence on concentration and time. It is also crucial to be able to derive the integrated rate law for first order reactions and to apply the Arrhenius equation to solve problems related to temperature dependence of rate constant.
-- It is also important to be able to identify the order of the reaction and to determine the rate constant from the given data.
-- Practice is key to mastering [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) kinetics, so make sure to practice as many problems as possible to get a good grasp of the concepts.
+- To solve problems related to chemical kinetics, first identify the order of reaction and then apply the appropriate rate equation.
+- Use the Arrhenius equation to relate the rate constant (k) with the activation energy (Eₐ) and temperature (T).
+- For JEE Advanced and NEET, practice problems related to the effect of catalysts, inhibitors, and temperature on the rate of reaction.
 
 ## 🔁 Last 5 Minutes Box
-- Make sure to review the formulas for rate of reaction, integrated rate law, and Arrhenius equation.
-- Practice deriving the integrated rate law for first order reactions.
-- Review the concept of half-[life](/blog/chemistry-in-everyday-life-class-12-notes) and its relationship with the rate constant.
-- Make sure to understand the concept of activation energy and its relationship with the rate constant.
-- Practice applying the Arrhenius equation to solve problems related to temperature dependence of rate constant.
+- Check the units of the rate constant (k) and half life (t₁/₂).
+- Verify the order of reaction before applying the integrated rate law.
+- Use the correct equation for the half life (t₁/₂) of first and second order reactions.
+- Apply the Arrhenius equation to relate the rate constant (k) with the activation energy (Eₐ) and temperature (T).
+- Practice problems related to the effect of catalysts, inhibitors, and temperature on the rate of reaction.
 
 ## 📝 Practice MCQs
-**1. What is the unit of rate constant for a first order reaction?**
--
-A) so^{-1}
--
-B) ME^{-1}is^{-1}
--
-C) Mrs^{-1}
--
-D) ME^2$s$^{-1}
-
-**Answer: A) so^{-1}$**$
-
-**2. What is the relationship between the half-[life](/blog/chemistry-in-everyday-life-class-12-notes) and the rate constant for a first order reaction?**
--
-A) at_{1/2} $\propto km$
--
-B) t_{1/2} \propto \frac{1}{k}
--
-C) at_{1/2} $\propto k^2$
--
-D) t_{1/2} \propto \frac{1}{k^2}
-
-**Answer: B) t_{1/2} \propto \frac{1}{k}**
-
-**3. What is the effect of increasing the temperature on the rate constant?**
--
-A) It decreases the rate constant
--
-B) It has no effect on the rate constant
--
-C) It increases the rate constant
--
-D) It decreases the rate constant for some reactions and increases it for others
-
-**Answer: C) It increases the rate constant**
-
-**4. What is the unit of activation energy?**
--
-A) J/MOL
--
-B) kJ/MOL
--
-C) J/s
--
-D) kJ/s
-
-**Answer: B) kJ/MOL**
-
-**5. What is the relationship between the rate of reaction and the concentration of reactants for a first order reaction?**
--
-A) Rate $\propto \left[ \text{reactant} \right]^2$
--
-B) Rate $\propto \left[ \text{reactant} \right]$
--
-C) Rate $\propto \frac{1}{\left[ \text{reactant} \right]}$
--
-D) Rate $\propto \frac{1}{\left[ \text{reactant} \right]^2}$
-
-**Answer: B) Rate $\propto \left[ \text{reactant} \right]$**
-
-## ⚗️ Chemical Quick Reference (Verified via PubChem)
-
-| Compound | Formula | MOL. Weight | Source |
-|:---|:---:|:---:|:---:|
-| **water** | H2O | 18.015 g/MOL | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/962) |
+**1. What is the unit of rate constant (k) for a first order reaction?**
+- A) s⁻¹
+- B) M⁻¹s⁻¹
+- C) M²s⁻¹
+- D) M³s⁻¹
+**Answer: A) s⁻¹.**
+**2. The rate of reaction is given by the equation: rate = k[A]². What is the order of reaction?**
+- A) First order
+- B) Second order
+- C) Zero order
+- D) Third order
+**Answer: B) Second order.**
+**3. The activation energy (Eₐ) for a reaction is 100 kJ/mol. If the rate constant (k) at 300 K is 1.0 × 10⁻³ s⁻¹, what is the pre-exponential factor (A)?**
+- A) 1.0 × 10⁻⁵ s⁻¹
+- B) 1.0 × 10⁻³ s⁻¹
+- C) 1.0 × 10⁻¹ s⁻¹
+- D) 1.0 × 10¹⁵ s⁻¹
+**Answer: D) 1.0 × 10¹⁵ s⁻¹.**
+**4. The half life (t₁/₂) of a first order reaction is 2.0 × 10⁻⁴ s. What is the rate constant (k)?**
+- A) 3.5 × 10³ s⁻¹
+- B) 3.5 × 10⁻³ s⁻¹
+- C) 3.5 × 10⁻⁴ s⁻¹
+- D) 3.5 × 10⁻⁵ s⁻¹
+**Answer: A) 3.5 × 10³ s⁻¹.**
+**5. The reaction: A + B → products follows second order kinetics. If the initial concentration of A and B are 0.1 M and 0.2 M respectively, and the rate constant (k) is 0.05 M⁻¹s⁻¹, what is the half life (t₁/₂) of the reaction?**
+- A) 100 s
+- B) 200 s
+- C) 300 s
+- D) 400 s
+**Answer: B) 200 s.**
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/[chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet)-kinetics-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/chemical-kinetics-class-12-notes) now and track your progress against thousands of students.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Chemical%20Kinetics%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-
----
-
-## 📚 Related Topics
-
-Continue your revision with these related guides:
-
-- 📖 [Chemistry In Everyday Life Class 12 Chemistry Revision — Grandmaster Guide](/blog/chemistry-in-everyday-life-class-12-notes)
-- 📖 [Chemical Bonding Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide](/blog/chemical-bonding-class-11-revision-notes-jee-neet)
-- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
-- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
-

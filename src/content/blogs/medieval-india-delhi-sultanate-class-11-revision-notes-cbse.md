@@ -131,7 +131,7 @@ The Delhi Sultanate was a significant period and Indian history, marked y the ri
 By understanding the historical context of the Delhi Sultanate, we can gain a deeper insight into the cultural, social, n economic developments that took place during this period. This can help us to better appreciate the significance of the Delhi Sultanate and Indian history, n its contributions to the development of Indian culture and society.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

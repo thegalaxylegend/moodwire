@@ -53,7 +53,7 @@ practice_link: "/class-11/physics/ray-optics-class-12-quick-class-12-revision-no
 - **Reflection**: Change and direction of light at a surface that causes it to bounce back.
 - **Refraction**: Bending of light as it passes from one medium to another.
 - **Total Internal Reflection**: A phenomenon where light is completely reflected into the first medium.
-- **Snell's Law**: $n_1 \\\\sin \theta_1 = n_2 \\\\sin \theta_2$, where $n_1$ n $n_2$ are refractive indices of the two media n $\theta_1$ n $\theta_2$ are the angles of incidence and refraction.
+- **Snell's Law**: $n_1 \\\sin \theta_1 = n_2 \\\sin \theta_2$, where $n_1$ n $n_2$ are refractive indices of the two media n $\theta_1$ n $\theta_2$ are the angles of incidence and refraction.
 - **Mirror Formula**: $\frac{1}{v} = u = \frac{1}{f}}{v} ,$ where $ is the image distance, $u$ is the object distance, n $f$ is the focal length.$
 
 As I, Ayush, prepare for my JEE/NEET exams, I find it crucial to have a solid grasp of ray optics. In this quick [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) n recap, we'll cover the core concepts, formulae, n some practice questions to help reinforce our understanding.
@@ -73,7 +73,7 @@ I've found that understanding the basics of reflection, refraction, n total inte
 ### <a id="reflection"></a>Reflection
 - **Law of Reflection**: The angle of incidence is equal to the angle of reflection.
 - **Types of Mirrors**: Plane mirror, concave mirror, convex mirror.
-- **Mirror Formula**: $\frac{1}{v} = u = \frac{1}{f}}{n_1 \\\\sin \theta_1 = n_2 \\\\sin \theta_2} .$
+- **Mirror Formula**: $\frac{1}{v} = u = \frac{1}{f}}{n_1 \\\sin \theta_1 = n_2 \\\sin \theta_2} .$
 
 ### <a id="refraction"></a>Refraction
 - **Snell's Law**: $.$
@@ -95,8 +95,8 @@ I've found that understanding the basics of reflection, refraction, n total inte
 | $f = \frac{R}{2}$ | Focal length of a mirror |
 | Formula | Description |
 | --- | --- |
-| $n_1 \\\\sin \theta_1 = n_2 \\\\sin \theta_2$ | Snell's law |
-| $\theta_c = \\\\\\\sin^{-1} \left( \frac{n_2}{n_1} \r\r\r\right)$ | Critical angle |
+| $n_1 \\\sin \theta_1 = n_2 \\\sin \theta_2$ | Snell's law |
+| $\theta_c = \\\\^{-1} \left( \frac{n_2}{n_1} \r\r\r\right)$ | Critical angle |
 | $\delta = i + e - A$ | Angle of deviation through a prism |
 | Formula | Description |
 | --- | --- |
@@ -107,20 +107,20 @@ I've found that understanding the basics of reflection, refraction, n total inte
 ## <a id="trap-exceptions"></a>Trap Exceptions
 
 - **Total Internal Reflection**: When $\theta_1 > \theta_c$, light is completely reflected into the first medium.
-- **Critical Angle**: $\theta_c = \\\\\\\sin^{-1} \left( \frac{n_2}{n_1} \r\r\r\right)$, where $n_1$ n $n_2$ are the refractive indices of the two media.
+- **Critical Angle**: $\theta_c = \\\\^{-1} \left( \frac{n_2}{n_1} \r\r\r\right)$, where $n_1$ n $n_2$ are the refractive indices of the two media.
 - **Lens Maker's Formula**: $\frac{1}{f} = R_1 - \frac{1}{R_2} \r\r\r\right)}{f} ,$ where $ is the focal length, $n$ is the refractive index, n $R_1$ n $R_2$ are the radii of curvature.$
 
 By focusing on these key concepts, formulae, n practice questions, I'm confident that I can master ray optics and perform well and my JEE/[neet](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) exams. Remember to review the **Trap Exceptions** section carefully to avoid common pitfalls and the exams. 
 
-To further reinforce our understanding, let's consider [some](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) examples and derivations of the formulae.
+To further reinforce our understanding, let's consider some examples and derivations of the formulae.
 
 ### <a id="examples"></a>Examples
 1. A ray of light passes from air into a glass prism with an angle of incidence of $30^\circ$. If the refractive index of the glass is $1.5$, find the angle of refraction.
 2. A concave mirror has a focal length of $20$ cm. If an object is placed $30$ cm and front of the mirror, find the image distance and magnification.
 
 ### <a id="derivations"></a>Derivations
-1. **Snell's Law**: $n_1 \\\\sin \theta_1 = n_2 \\\\sin \theta_2$
-2. **Lens Maker's Formula**: $\frac{1}{f} = R_1 - \frac{1}{R_2} \r\r\r\right)}{n_1 \\\\sin \theta_1 = n_2 \\\\sin \theta_2}$ 
+1. **Snell's Law**: $n_1 \\\sin \theta_1 = n_2 \\\sin \theta_2$
+2. **Lens Maker's Formula**: $\frac{1}{f} = R_1 - \frac{1}{R_2} \r\r\r\right)}{n_1 \\\sin \theta_1 = n_2 \\\sin \theta_2}$ 
 
 By working through these examples and derivations, we can gain a deeper understanding of the [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) n formulae and ray optics.
 
@@ -141,7 +141,7 @@ Let's summarize the key points:
 * **Refraction**: Bending of light as it passes from one medium to another.
 * **Total Internal Reflection**: A phenomenon where light is completely reflected into the first medium.
 * **Snell's Law**: 
-* **Lens Maker's Formula**: $\frac{1}{f} = R_1 - \frac{1}{R_2} \r\r\r\right)}{n_1 \\\\sin \theta_1 = n_2 \\\\sin \theta_2}$ 
+* **Lens Maker's Formula**: $\frac{1}{f} = R_1 - \frac{1}{R_2} \r\r\r\right)}{n_1 \\\sin \theta_1 = n_2 \\\sin \theta_2}$ 
 
 By reviewing these key points and practicing with MCQs, we can reinforce our understanding of ray optics and achieve success and our exams.
 
@@ -179,7 +179,7 @@ Here's a final summary of the key points:
 * **Reflection**: Change and direction of light at a surface that causes it to bounce back.
 * **Refraction**: Bending of light as it passes from one medium to another.
 * **Total Internal Reflection**: A phenomenon where light is completely reflected into the first medium.
-* **Snell's Law**: $n_1 \\\\sin \theta_1 = n_2 \\\\sin \theta_2$
+* **Snell's Law**: $n_1 \\\sin \theta_1 = n_2 \\\sin \theta_2$
 * **Lens Maker's Formula**: $\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \r\r\r\right)$
 
 By reviewing these key points and practicing with MCQs, you can reinforce your understanding of ray optics and achieve success and your exams.
@@ -187,7 +187,7 @@ By reviewing these key points and practicing with MCQs, you can reinforce your u
 Now, go ahead and take the next step and your journey to mastering ray optics. Stay focused, stay committed, n you'll achieve your goals and no time.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 
@@ -229,12 +229,12 @@ Continue your [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-j
 ## 🔁 Last 5 Minutes Box
 
 * **Reflection**: ∠i = ∠r, 
-       *  ction**: n1 \\sin(θ1) = n2 \\sin(θ2), 
+       *  ction**: n1 \sin(θ1) = n2 \sin(θ2), 
        * **Mirror Formula**: 1/f = 1/v + 1/u, 
        * **Lens Formula**: 1/f = 1/v - 1/u, 
        * **Focal Length**: f = R/2, 
        * **Magnification**: m = -v/u, 
-       * **Snell's Law**: n1 \\sin(θ1) = n2 \\sin(θ2), 
-       * **Total Internal Reflection**: \\sin(θc) = n2/n1
+       * **Snell's Law**: n1 \sin(θ1) = n2 \sin(θ2), 
+       * **Total Internal Reflection**: \sin(θc) = n2/n1
 
 **

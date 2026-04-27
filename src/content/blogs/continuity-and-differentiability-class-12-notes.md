@@ -8,139 +8,93 @@ practice_link: "/practice/continuity-and-differentiability-class-12-notes"
 manualReview: false
 ---
 
-## 📑 Table of Contents
-
-1. [⚡ Formula Bank](#formula-bank)
-2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
-3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
-4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
-5. [👁️ Ayush's Note](#ayushs-note)
-6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
-7. [📝 Practice MCQs](#practice-mcqs)
-8. [📚 Related Topics](#related-topics)
-
----
-
-## 🎬 Watch: Visual Explanation
-
-> 📺 **How To Get 60+ in Physics in 1 day.** — by *Education Reformers*
-
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;border-radius:12px;margin:1rem 0;">
-<iframe src="https://www.youtube.com/embed/3qILHW8Cayk?rel=0" 
-  style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" 
-  allowfullscreen loading="lazy" 
-  title="How To Get 60+ in Physics in 1 day..">
-</iframe>
-</div>
-
-<!-- VideoObject Schema (consumed by generate-schema.ts) -->
-<!-- VIDEO_SCHEMA:{"id":"3qILHW8Cayk","title":"How To Get 60+ in Physics in 1 day..","channel":"Education Reformers","thumb":"https://i.ytimg.com/vi/3qILHW8Cayk/mqdefault.jpg"} -->
-
----
-
 ## ⚡ Formula Bank
-- The function of(x)$ is said to be continuous at $x$ = an if $\lim_{x \to a} f(x) = f(a)
-- The function of(x)$ is said to be differentiable at $x$ = an if $\lim_{h \to 0} $\frac{f(a + h) - f(a)}{h}$ exists
-- If a function is differentiable at a point, then it is continuous at that point, but the converse is not always true
--      $\frac{d}${dx} (x^n) = no^{n-1} 
--       $\frac{d}${dx} (\\\\\sin x) = \\\\\cos x 
--       $\frac{d}${dx} (\\\\\cos x) = -\\\\\sin x 
--       $\frac{d}${dx} (\tan x) = \sec^2 x 
--      $\frac{d}${dx} (\log x) = $\frac{1}${x} 
--  $\{d}{dx}$ ($\ln x) =\{1}{x}$
--  $\{d}{dx}$ (e^x) = e^x 
-- Chain rule: $\{d}{dx} (f(g(x))) = f'(g(x)) \ g'(x)$
-- Product rule: $\{d}{dx} (f(x) \ g(x)) = f'(x) \ g(x) + f(x) \ g'(x)$
-- Quotient rule: $\{d}{dx} \left(\{f(x)}{g(x)}\r\r\r\r\right) = \{f'(x) \ g(x) - f(x) \ g'(x)}{g(x)^2}$
+- Continuity at x = a: limₓ→a f(x) = f(a)
+- Differentiability at x = a: f'(a) = limₕ→₀ (f(a + h) - f(a))/h
+- If f(x) is differentiable at x = a, then f(x) is continuous at x = a, but the converse is not always true
+- If f(x) and g(x) are continuous at x = a, then f(x) + g(x), f(x) - g(x), f(x) × g(x), and f(x)/g(x) are continuous at x = a
+- If f(x) and g(x) are differentiable at x = a, then f(x) + g(x), f(x) - g(x), f(x) × g(x), and f(x)/g(x) are differentiable at x = a
+- Cha∈ Rule: (f(g(x)))' = f'(g(x)) × g'(x)
+- Rolle's Theorem: if f(x) is continuous on [a, b] and differentiable on (a, b), and f(a) = f(b), then there ∃ c ∈ (a, b) such that f'(c) = 0
+- Mean Value Theorem: if f(x) is continuous on [a, b] and differentiable on (a, b), then there ∃ c ∈ (a, b) such that f'(c) = (f(b) - f(a))/(b - a)
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not checking the continuity of a function before differentiating it
-- Forgetting to apply the chain rule when differentiating composite functions
-- Not using the product rule and quotient rule correctly
-- Not simplifying the derivative of a function before applying it to a problem
-- Not checking the domain of a function before differentiating it
+- Not checking the continuity of the function before differentiating
+- Forgetting to apply the cha∈ rule when differentiating composite functions
+- Not using the correct formula for the derivative of a function
+- Not considering the doma∈ of the function when finding the derivative
+- Not using Rolle's Theorem and Mean Value Theorem to solve problems
 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** $Find the derivative of the function of(x) = $\\\\\sin (x^2)
-  - Using the chain rule, we have: $\frac{d}{dx} (\\\\\sin (x^2)) = \\\\\cos (x^2) \dot \frac{d}{dx} (x^2) = \\\\\cos (x^2) \dot 2x = 2x \\\\\cos (x^2)$
-- **Question 2:** Find the derivative of the function of(x) = $\frac{\\\\\sin x}{x}$
-  - Using the quotient rule, we have: $\frac{d}{dx} \left(\frac{\\\\\sin x}{x}\r\r\r\r\right) = \frac{\\\\\cos x \dot x - \\\\\sin x \dot 1}{x^2} = \frac{x \\\\\cos x - \\\\\sin x}{x^2}$
-- **Question 3:** Find the derivative of the function of(x) = e^{x^2}
-  - Using the chain rule, we have: $\frac{d}{dx} (e^{x^2}) = e^{x^2} \ \{d}{dx} (x^2) = e^{x^2} \ 2x = 2x e^{x^2}$
+- Find the derivative of f(x) = (x² + 1)/(x + 1)
+  Step 1: Apply the quotient rule
+  Step 2: Simplify the expression
+  Answer: f'(x) = (2x(x + 1) - (x² + 1))/(x + 1)²
+- If f(x) is continuous on [0, 1] and differentiable on (0, 1), and f(0) = f(1), then find the value of c ∈ (0, 1) such that f'(c) = 0
+  Step 1: Apply Rolle's Theorem
+  Step 2: Use the given conditions to find the value of c
+  Answer: There ∃ c ∈ (0, 1) such that f'(c) = 0
+- Find the derivative of f(x) = s∈(x²)
+  Step 1: Apply the cha∈ rule
+  Step 2: Simplify the expression
+  Answer: f'(x) = 2x cos(x²)
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students get confused between the concepts of continuity and differentiability
-- A function can be continuous at a point but not differentiable at that point
-- For example, the function of(x) = |x| is continuous at x = 0 but not differentiable at x = 0
-- To check if a function is differentiable at a point, we need to check if the left-hand limit and right-hand limit of the difference quotient are equal
+- Most students get wrong the concept of continuity and differentiability at a point
+- They often confuse the two concepts and think that if a function is continuous at a point, then it is also differentiable at that point
+- However, this is not always true, and there are many examples of functions that are continuous at a point but not differentiable at that point
+- For example, the function f(x) = |x| is continuous at x = 0, but not differentiable at x = 0
 
 ## 👁️ Ayush's Note
-- Always check the domain of a function before differentiating it
-- Use the chain rule, product rule, and quotient rule to simplify the derivative of a function
-- Practice differentiating different types of functions, such as trigonometric functions, exponential functions, and logarithmic functions
-- Make sure to check the continuity and differentiability of a function at a point before applying any formulas
+- To solve problems related to continuity and differentiability, first check the continuity of the function at the given point
+- Then, check if the function is differentiable at that point
+- Use the definition of continuity and differentiability to solve problems
+- Apply the cha∈ rule, quotient rule, and product rule to find the derivative of functions
+- Use Rolle's Theorem and Mean Value Theorem to solve problems related to continuity and differentiability
 
 ## 🔁 Last 5 Minutes Box
-- Check if the function is continuous at the given point
-- Check if the function is differentiable at the given point
-- Use the chain rule, product rule, and quotient rule to simplify the derivative
-- Check the domain of the function
-- Simplify the derivative and apply it to the problem
+- Check the continuity of the function at the given point
+- Check if the function is differentiable at that point
+- Use the definition of continuity and differentiability to solve problems
+- Apply the cha∈ rule, quotient rule, and product rule to find the derivative of functions
+- Use Rolle's Theorem and Mean Value Theorem to solve problems related to continuity and differentiability
 
 ## 📝 Practice MCQs
-**1. What is the derivative of the function of(x) = $\\\\\sin$ ?**
-A) \\\\\cos x
-B) \\\\\sin x
-C) \tan x
-D) $\sec$
+**1. If f(x) is continuous on [0, 1] and differentiable on (0, 1), and f(0) = f(1), then**
+- A) There ∃ c ∈ (0, 1) such that f'(c) = 0
+- B) There ∃ c ∈ (0, 1) such that f'(c) = 1
+- C) There ∃ c ∈ (0, 1) such that f'(c) = -1
+- D) There ∃ c ∈ (0, 1) such that f'(c) = 2
+**Answer: A) There ∃ c ∈ (0, 1) such that f'(c) = 0**
+**2. Find the derivative of f(x) = (x² + 1)/(x + 1)**
+- A) f'(x) = (2x(x + 1) - (x² + 1))/(x + 1)²
+- B) f'(x) = (2x(x + 1) + (x² + 1))/(x + 1)²
+- C) f'(x) = (2x(x + 1) - (x² + 1))/(x - 1)²
+- D) f'(x) = (2x(x + 1) + (x² + 1))/(x - 1)²
+**Answer: A) f'(x) = (2x(x + 1) - (x² + 1))/(x + 1)²**
+**3. If f(x) is continuous on [a, b] and differentiable on (a, b), then**
+- A) There ∃ c ∈ (a, b) such that f'(c) = (f(b) - f(a))/(b - a)
+- B) There ∃ c ∈ (a, b) such that f'(c) = (f(b) + f(a))/(b + a)
+- C) There ∃ c ∈ (a, b) such that f'(c) = (f(b) - f(a))/(b + a)
+- D) There ∃ c ∈ (a, b) such that f'(c) = (f(b) + f(a))/(b - a)
+**Answer: A) There ∃ c ∈ (a, b) such that f'(c) = (f(b) - f(a))/(b - a)**
+**4. Find the derivative of f(x) = s∈(x²)**
+- A) f'(x) = 2x cos(x²)
+- B) f'(x) = 2x s∈(x²)
+- C) f'(x) = x cos(x²)
+- D) f'(x) = x s∈(x²)
+**Answer: A) f'(x) = 2x cos(x²)**
+**5. If f(x) is continuous at x = a, then**
+- A) f(x) is differentiable at x = a
+- B) f(x) is not differentiable at x = a
+- C) f(x) may or may not be differentiable at x = a
+- D) f(x) is not defined at x = a
+**Answer: C) f(x) may or may not be differentiable at x = a**
 
-**Answer: A) $\\\\\cos  because the derivative of \\\\\sin  is \\\\\cos **$
-
-**2. What is the derivative of the function of(x) = x^2?**
-A) 2x
-B) x^2
-C) ex
-D) 1
-
-**Answer: A) 2x because the derivative of x^2 is 2x**
-
-**3. What is the derivative of the function of(x) = e^?**
-A) he^
-B) \\\\\sin x
-C) \\\\\cos x
-D) \tan x
-
-**Answer: A) he^ because the derivative of the^ is he^**
-
-**4. What is the derivative of the function of(x) = $\log$ ?**
-A) \frac{1}{x}
-B) \frac{1}{x^2}
-C) ex
-D) x^2
-
-**Answer: A) $\frac{1}{x} because the derivative of \log  is \frac{1}{x}**$
-
-**5. What is the derivative of the function of(x) = $\frac{1}{x}?**$
-A) -\frac{1}{x^2}
-B) \frac{1}{x^2}
-C) ex
-D) x^2
-
-**Answer: A) -$\frac{1}{x^2}$ because the derivative of $\frac{1}{x} is -\frac{1}{x^2}**$
+---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/continuity-and-differentiability-class-12-notes) now and track your progress against thousands of students.
 
+---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-## 📚 Related Topics
-
-Continue your revision with these related guides:
-
-- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision$ — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)$
-- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
-- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
-- 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Continuity%20And%20Differentiability%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-

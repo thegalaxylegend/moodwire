@@ -8,155 +8,90 @@ practice_link: "/practice/principles-of-inheritance-and-variation-class-12-notes
 manualReview: false
 ---
 
-## 📑 Table of Contents
-
-1. [⚡ Formula Bank](#formula-bank)
-2. [- Not understanding the difference between genotype and phenotype: genotype is the genetic makeup of an individual, while phenotype is the physical expression of the genotype](#not-understanding-the-difference-between-genotype-and-phenotype-genotype-is-the-genetic-makeup-of-an-individual-while-phenotype-is-the-physical-expression-of-the-genotype)
-3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
-4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
-5. [👁️ Ayush's Note](#ayushs-note)
-6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
-7. [📝 Practice MCQs](#practice-mcqs)
-8. [📚 Related Topics](#related-topics)
-9. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
-
----
-
 ## ⚡ Formula Bank
-- Mendel's Law of Segregation: $\frac{1}{2}$ of the gametes carry the dominant allele and $\frac{1}{2}$ carry the recessive allele
+- Mendel's Law of Segregation: 1/2 of the gametes carry the dominant allele and 1/2 carry the recessive allele
 - Mendel's Law of Independent Assortment: alleles of different genes are sorted independently of each other during gamete formation
-- Hardy-Weinberg Principle: $p^2 + 2pq + q^2 = 1$, where $p$ is the frequency of the dominant allele and $q$ is the frequency of the recessive allele
-- Chi-Square Test: $\chi^2 = \sum \frac{(O-E)^2}{E}$, where $O$ is the observed frequency and $E$ is the expected frequency
-- Heritability: $h^2 = \frac{V_G}{V_P}$, where $V_G$ is the genetic variance and $V_P$ is the phenotypic variance
-- Polygenic Inheritance: $\frac{1}{2} \times \frac{1}{2} \times ... \times \frac{1}{2} = \frac{1}{2^n}$, where $n$ is the number of genes involved
-- Multiple Alleles: $\frac{n!}{n_1! n_2! ... n_k!}$, where $n$ is the total number of alleles and $n_1, n_2, ..., n_k$ are the frequencies of each allele
+- Genotype: genetic makeup of an individual (e.g., BB, Bb, bb)
+- Phenotype: physical characteristics of an individual (e.g., tall, short)
+- Dominant allele: will be expressed if an individual has one copy of the allele (e.g., B)
+- Recessive allele: will only be expressed if an individual has two copies of the allele (e.g., bb)
+- Homozygous: having two copies of the same allele (e.g., BB, bb)
+- Heterozygous: having one copy of each allele (e.g., Bb)
+- Monohybrid cross: cross between two parents that differ ∈ one trait
+- Dihybrid cross: cross between two parents that differ ∈ two traits
+- Test cross: cross between an individual of unknown genotype and a homozygous recessive individual
+- Chi-squared test: used to determine if the observed frequencies of a trait are significantly different from the expected frequencies
+- Hardy-Weinberg principle: p² + 2pq + q² = 1, where p is the frequency of the dominant allele and q is the frequency of the recessive allele
 
-## 
-- Not understanding the difference between genotype and phenotype: genotype is the genetic makeup of an individual, while phenotype is the physical expression of the genotype
-- Not being able to apply Mendel's Laws to complex problems: use Punnett squares to solve problems involving multiple genes
-- Not understanding the concept of gene interaction: genes can interact with each other in complex ways, such as epistasis and polygenic [inheritance](/blog/molecular-basis-of-inheritance-class-12-notes)
-- Not being able to calculate genetic ratios: use the formula $\frac{1}{2} \times \frac{1}{2} \times ... \times \frac{1}{2} = \frac{1}{2^n}$ to calculate genetic ratios
-- Not understanding the concept of genetic variation: genetic variation is the raw material for evolution and is essential for the survival of a species
+## 🪤 The 5 Mistakes That Cost Marks
+- Not understanding the difference between genotype and phenotype
+- Not being able to apply Mendel's laws to solve problems
+- Not being able to calculate the probability of a particular genotype or phenotype
+- Not being able to distinguish between a monohybrid and dihybrid cross
+- Not being able to apply the Hardy-Weinberg principle to solve problems
 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** A cross between two pea plants, one with the genotype $RR$ and the other with the genotype $rr$, produces offspring with the genotype $Rr$. What is the probability that the offspring will express the dominant phenotype?
-- Answer: $\frac{1}{2} \times \frac{1}{2} = \frac{1}{4}$, but since the offspring are $Rr$, they will all express the dominant phenotype, so the probability is $1$
-- **Question 2:** A cross between two parents with the genotypes $AaBb$ and $AaBb$ produces offspring with the following genotypes: $25\%AABB$, $25\%aabb$, $25\%Aabb$, and $25\%aaBb$. What is the probability that an offspring will have the genotype $AaBb$?
-- Answer: use a Punnett square to solve this problem: the probability of an offspring having the genotype $AaBb$ is $\frac{1}{4} \times \frac{1}{4} = \frac{1}{16}$, but since there are multiple ways to get this genotype, the total probability is $\frac{1}{4}$
-- **Question 3:** A population of bacteria has a gene with two alleles, $B$ and $b$. The frequency of the $B$ allele is $0.6$ and the frequency of the $b$ allele is $0.4$. What is the frequency of the genotype $BB$?
-- Answer: use the Hardy-Weinberg Principle: $p^2 = (0.6)^2 = 0.36$, so the frequency of the genotype $BB$ is $0.36$
+- **Question 1:** A cross between two pea plants, one with the genotype BB and the other with the genotype bb, will produce offspring with what genotype and phenotype?
+  - **Answer:** The offspring will have the genotype Bb and the phenotype of the dominant allele (e.g., tall)
+- **Question 2:** A dihybrid cross between two parents that differ ∈ two traits, seed color and flower color, will produce offspring with what genotypes and phenotypes?
+  - **Answer:** The offspring will have a combination of the genotypes and phenotypes of the two parents, e.g., BbRr, Bbrr, bbRr, bbrr
+- **Question 3:** A test cross between an individual of unknown genotype and a homozygous recessive individual will produce offspring with what genotypes and phenotypes?
+  - **Answer:** The offspring will have a combination of the genotypes and phenotypes of the two parents, e.g., Bb, bb
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Not understanding the concept of gene expression: gene expression is the process by which the information in a gene is converted into a functional product, such as a protein
-- Gene expression is influenced by multiple factors, including the genotype of the individual, environmental factors, and epigenetic factors
-- Gene expression is not the same as genotype: an individual can have a certain genotype, but the genes may not be expressed due to epigenetic or environmental factors
-- For example, the expression of the gene for lactase, an enzyme that breaks down lactose, is influenced by environmental factors, such as diet
+- Most students get the concept of independent assortment wrong, they think that the alleles of different genes are linked and will be inherited together, but ∈ reality, they are sorted independently of each other during gamete formation
 
 ## 👁️ Ayush's Note
-- To solve problems involving genetics, use the following steps:
-  - Identify the genotype of the parents
-  - Use a Punnett square to determine the possible genotypes of the offspring
-  - Use the Hardy-Weinberg Principle to determine the frequency of each genotype
-  - Consider the effects of gene interaction and epigenetic factors on gene expression
-- To calculate genetic ratios, use the formula $\frac{1}{2} \times \frac{1}{2} \times ... \times \frac{1}{2} = \frac{1}{2^n}$
-- To determine the probability of an offspring having a certain genotype, use a Punnett square and consider the effects of gene interaction and epigenetic factors
+- To solve problems ∈ genetics, always start by identifying the genotypes and phenotypes of the parents and then use Mendel's laws to determine the probability of each genotype and phenotype ∈ the offspring
+- Use a Punnett square to visualize the possible genotypes and phenotypes of the offspring
+- Always check your answers using the Hardy-Weinberg principle
 
 ## 🔁 Last 5 Minutes Box
-- Review the formulas for Mendel's Laws and the Hardy-Weinberg Principle
-- Practice using Punnett squares to solve problems involving genetics
-- Review the concepts of gene interaction, epigenetic factors, and gene expression
-- Make sure to understand the difference between genotype and phenotype
-- Use the following shortcuts to solve problems:
-  - Use the formula $\frac{1}{2} \times \frac{1}{2} \times ... \times \frac{1}{2} = \frac{1}{2^n}$ to calculate genetic ratios
-  - Use a Punnett square to determine the possible genotypes of the offspring
+- Review the formulas for Mendel's laws and the Hardy-Weinberg principle
+- Review the definitions of genotype, phenotype, dominant allele, and recessive allele
+- Practice solving problems using a Punnett square and the Hardy-Weinberg principle
+- Check your answers using the formulas and principles
 
 ## 📝 Practice MCQs
-**1. What is the probability that an offspring will express the dominant phenotype if the parents have the genotypes $RR$ and $rr$?**
--
-A) \frac{1}{2}
--
-B) \frac{1}{4}
--
-C) $1$
--
-D) $0$
+**1. What is the genotype of an individual that is homozygous dominant for the trait of tallness?**
+- A) Bb
+- B) BB
+- C) bb
+- D) BbRr
+**Answer: B) BB**
 
-**Answer: C) 1**
+**2. What is the probability of an individual being tall if the genotype is Bb?**
+- A) 1/2
+- B) 1/4
+- C) 3/4
+- D) 1
+**Answer: D) 1**
 
-**2. A cross between two parents with the genotypes $AaBb$ and $AaBb$ produces offspring with the following genotypes: $25\%AABB$, $25\%aabb$, $25\%Aabb$, and $25\%aaBb$. What is the probability that an offspring will have the genotype $AaBb$?**
--
-A) \frac{1}{4}
--
-B) \frac{1}{16}
--
-C) \frac{1}{8}
--
-D) \frac{1}{2}
+**3. What is the purpose of a test cross?**
+- A) To determine the genotype of an individual
+- B) To determine the phenotype of an individual
+- C) To determine the frequency of a particular allele ∈ a population
+- D) To determine the probability of a particular genotype or phenotype
+**Answer: A) To determine the genotype of an individual**
 
-**Answer: A) \frac{1}{4}**
+**4. What is the Hardy-Weinberg principle?**
+- A) p² + 2pq + q² = 1
+- B) p² - 2pq + q² = 1
+- C) p² + 2pq - q² = 1
+- D) p² - 2pq - q² = 1
+**Answer: A) p² + 2pq + q² = 1**
 
-**3. A population of bacteria has a gene with two alleles, $B$ and $b$. The frequency of the $B$ allele is $0.6$ and the frequency of the $b$ allele is $0.4$. What is the frequency of the genotype $BB$?**
--
-A) $0.36$
--
-B) $0.24$
--
-C) $0.16$
--
-D) $0.04$
-
-**Answer: A) 0.36**
-
-**4. What is the difference between genotype and phenotype?**
--
-A) Genotype is the physical expression of the genes, while phenotype is the genetic makeup of an individual
--
-B) Genotype is the genetic makeup of an individual, while phenotype is the physical expression of the genes
--
-C) Genotype and phenotype are the same thing
--
-D) Genotype is the environment, while phenotype is the genetic makeup of an individual
-
-**Answer: B) Genotype is the genetic makeup of an individual, while phenotype is the physical expression of the genes**
-
-**5. What is the purpose of the Hardy-Weinberg Principle?**
--
-A) To calculate genetic ratios
--
-B) To determine the frequency of each genotype in a population
--
-C) To predict the probability of an offspring having a certain genotype
--
-D) To determine the effects of gene interaction and epigenetic factors on gene expression
-
-**Answer: B) To determine the frequency of each genotype in a population**
+**5. What is the difference between a monohybrid and dihybrid cross?**
+- A) A monohybrid cross involves one trait, while a dihybrid cross involves two traits
+- B) A monohybrid cross involves two traits, while a dihybrid cross involves one trait
+- C) A monohybrid cross involves one parent, while a dihybrid cross involves two parents
+- D) A monohybrid cross involves two parents, while a dihybrid cross involves one parent
+**Answer: A) A monohybrid cross involves one trait, while a dihybrid cross involves two traits**
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/principles-of-[inheritance](/blog/molecular-basis-of-inheritance-class-12-notes)-and-variation-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/principles-of-inheritance-and-variation-class-12-notes) now and track your progress against thousands of students.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Principles%20Of%20Inheritance%20And%20Variation%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-
----
-
-## 📚 Related Topics
-
-Continue your revision with these related guides:
-
-- 📖 [Biotechnology Principles And Processes Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biotechnology-principles-and-processes-class-12-notes)
-- 📖 [Molecular Basis Of Inheritance Class 12 Exam Prep Revision — Grandmaster Guide](/blog/molecular-basis-of-inheritance-class-12-notes)
-- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
-- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
-
-## 🪤 The 5 Mistakes That Cost Marks
-
-* A common mistake in solving genetics problems is **not considering the genotype of the parents**, which is essential to determine the probability of certain traits being inherited by the offspring.
-* **Confusing between dominant and recessive alleles**: Many students mistakenly assume that a dominant allele will always be expressed, forgetting that it can also be masked by another dominant allele.
-* **Not understanding the difference between incomplete dominance and codominance**: Students often get confused between these two concepts, which are crucial in predicting the phenotypic ratios of offspring.
-* **Forgetting to consider multiple alleles and their interactions**: When dealing with multiple alleles, students often overlook the interactions between them, leading to incorrect predictions of genotypic and phenotypic ratios.
-* **Not accounting for linkage and crossing over**: Many students neglect to consider the effects of linkage and crossing over on the [inheritance](/blog/molecular-basis-of-inheritance-class-12-notes) of genes, leading to errors in predicting the probability of certain traits being inherited
-

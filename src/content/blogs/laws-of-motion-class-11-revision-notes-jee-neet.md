@@ -171,7 +171,7 @@ Newton’s Laws of [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-
 **Reference:** [MIT OpenCourseWare: Newton’s Laws](https://ocw.mit.edu/courses/physics/)
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

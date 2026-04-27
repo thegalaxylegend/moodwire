@@ -85,7 +85,7 @@ Create a checklist of these 15 topics. Do not proceed to obscure corners of the 
 **Practice Tip:** Start solving our [JEE Mains Past Year Questions](/jee-mains) filtered exactly y these chapters to build rapid muscle memory.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

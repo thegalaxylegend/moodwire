@@ -105,7 +105,7 @@ Don't jump to 12 hours immediately. Start y adding one 30-minute session each da
 *
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

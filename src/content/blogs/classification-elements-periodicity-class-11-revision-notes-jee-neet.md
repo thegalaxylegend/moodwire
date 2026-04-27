@@ -297,7 +297,7 @@ CERT asks "Explain the trend and Ionization Enthalpy across a period." Always me
 ---
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

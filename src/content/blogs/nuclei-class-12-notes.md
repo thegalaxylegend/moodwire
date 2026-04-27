@@ -8,125 +8,112 @@ practice_link: "/practice/nuclei-class-12-notes"
 manualReview: false
 ---
 
-## 📑 Table of Contents
-
-1. [⚡ Formula Bank](#formula-bank)
-2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
-3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
-4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
-5. [👁️ Ayush's Note](#ayushs-note)
-6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
-7. [📝 Practice MCQs](#practice-mcqs)
-8. [📚 Related Topics](#related-topics)
-
----
-
 ## ⚡ Formula Bank
-- Nuclear radius: $r = r_0 \times A^{\frac{1}{3}}$, where $r_0 = 1.2 \times 10^{-15} m$
-- Nuclear density: $\rho = \frac{m}{V} = \frac{A \times m}{\frac{4}{3} \pi r^3} = \frac{3A \times m}{4 \pi r_0^3 \times A} = \frac{3m}{4 \pi r_0^3}$
-- Binding energy per nucleon: $\frac{B}{A} = \frac{\delta mc^2}{A} = \frac{(Zm_p + (A-Z)m_n - m)c^2}{A}$
-- Nuclear stability: depends on $\frac{p}{n}$ ratio, $p$ = number of protons, $n$ = number of neutrons
-- Radioactive decay: $N = N_0 \times e^{-\\lambda t}$, where $\\lambda$ = decay constant, $t$ = time
-- Half-life: $t_{\frac{1}{2}} = \frac{\ln 2}{\\lambda} = \frac{0.693}{\\lambda}$
-- Mean life: $\tau = \frac{1}{\\lambda}$
-- Activity: $A = \\lambda N = \\lambda N_0 \times e^{-\\lambda t}$
-- Nuclear reactions: $Q = (m_1 + m_2 - m_3 - m_4)c^2$, where $m_1$, $m_2$ = reactant masses, $m_3$, $m_4$ = product masses
+- E = mc² 
+- E = Δmc² 
+- λ = h/(mv) 
+- R = ρL/A 
+- ρ = m/V 
+- F = GmM/r² 
+- v = u + at 
+- K = (1/2)mv² 
+- P = ΔE/Δt 
+- ΔE = Q + W 
+- Q = mcΔT 
+- W = F × d 
+- d = vt 
+- T = 2π √(l/g) 
+- f = 1/T 
+- λ = v/f 
+- v = √(2gh) 
+- g = Gm/r² 
+- Δp = γ × ΔV 
+- γ = (nRT)/(PV) 
+- n = PV/(RT) 
+- R = 8.314 J/mol·K 
+- T₉₂ = (3/2) × (k_B) × T 
+- k_B = 1.38 × 10⁻²³ J/K 
+- N = N₀ × e^(-λt) 
+- λ = ln(2)/t₁/₂ 
+- t₁/₂ = ln(2)/λ 
+- A = λN 
+- N = N₀ × (1/2)^(t/t₁/₂) 
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not understanding the concept of nuclear stability and its dependence on the $\frac{p}{n}$ ratio
-- Confusing binding energy per nucleon with total binding energy
-- Not applying the correct formula for nuclear radius and density
-- Forgetting to consider the decay constant in radioactive decay problems
-- Not using the correct units for nuclear reactions, such as MeV for energy and $m$ for mass
+- Not using the correct units for physical quantities 
+- Forgetting to convert units before plugging into formulas 
+- Not considering the sign conventions for physical quantities 
+- Not using the correct equation for a given situation 
+- Not checking the units of the final answer 
 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** $The binding energy per nucleon for deuteron (^2_1H) and helium (^4_2He) are 1.1 MeV and 7.0 MeV respectively. Calculate the energy released when two deuterons fuse to form a helium nucleus.$
-- Step 1: Calculate the total binding energy for deuteron and helium
-- Step 2: Calculate the energy released using the formula Q = (m_1 + m_2 - m_3 - m_4)c^2
-- Step 3: Substitute the values and calculate the energy released
-- Answer: Q = 23.6 MeV
-- **Question 2:** The half-life of a radioactive substance is 10 hours. Find the disintegration constant.
-- Step 1: Use the formula t_{$\frac{1}{2}$} = $\frac{0.693}{\\lambda}$
-- Step 2: Rearrange the formula to solve for $\\lambda$
-- Step 3: Substitute the value of t_{$\frac{1}{2}$} and calculate $\\lambda$
-- Answer: $\\lambda = 0.0693 h^{-1}$
-- **Question 3:** The nuclear radius of ^{27}_{13}Al is 3.6 $\times 10^{-15} m. Calculate the density of the nucleus.$
-- Step 1: Use the formula $\rho = \frac{3m}{4 \pi r_0^3}$
-- Step 2: Substitute the values and calculate the density
-- Answer: $\rho = 2.$3 \times 1$0^{17} kg/m^3$
+- Question 1: A nucleus of mass m and charge q is at rest and splits into two nuclei of masses m₁ and m₂ and charges q₁ and q₂. If the kinetic energy of the first nucleus is K₁ and that of the second nucleus is K₂, find the ratio of their kinetic energies. 
+  Step 1: Apply conservation of momentum to find the ratio of velocities 
+  Step 2: Use the equation for kinetic energy to find the ratio of kinetic energies 
+  Answer: K₁/K₂ = m₂/m₁ 
+- Question 2: A radioactive substance has a half-life of 10 years. If 100 g of the substance is left after 20 years, find the initial mass of the substance. 
+  Step 1: Use the equation for radioactive decay to find the ratio of initial and final masses 
+  Step 2: Plug ∈ the given values to find the initial mass 
+  Answer: 400 g 
+- Question 3: A nucleus of ²³⁸U undergoes α decay. Find the kinetic energy of the α particle. 
+  Step 1: Find the mass defect of the reaction 
+  Step 2: Use the equation E = mc² to find the kinetic energy of the α particle 
+  Answer: 4.2 MeV 
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students get confused between the concepts of nuclear stability and binding energy. Nuclear stability depends on the $\frac{p}{n} ratio$, while binding energy is a measure of the energy required to break a nucleus into its constituent nucleons.
+- Most students get the concept of nuclear binding energy wrong. 
+- Nuclear binding energy is the energy required to disassemble a nucleus into its constituent protons and neutrons. 
+- It is not the energy released when a nucleus is formed. 
+- The correct equation for nuclear binding energy is ΔE = (Z∓ + Nmn - m)/(Z + N) × c² 
+- Where Z is the number of protons, N is the number of neutrons, ∓ is the mass of a proton, mn is the mass of a neutron, and m is the mass of the nucleus. 
 
 ## 👁️ Ayush's Note
-- To solve problems related to nuclear reactions, first calculate the Q value using the formula Q = (m_1 + m_2 - m_3 - m_4)c^2. Then, use the Q value to determine the energy released or absorbed in the reaction.
-- When solving problems related to radioactive decay, make sure to use the correct units for time, such as seconds or hours, and decay constant, such as s^{-1} or h^{-1}.
+- To solve problems related to nuclei, always start by identifying the given quantities and the unknown quantities. 
+- Use the equations for conservation of energy, momentum, and charge to find the unknown quantities. 
+- Always check the units of the final answer. 
+- Practice as many problems as possible to develop problem-solving skills. 
+- For JEE Advanced and NEET, focus on solving problems related to nuclear reactions, radioactive decay, and nuclear binding energy. 
+- Use shortcuts like the equation for kinetic energy and the equation for radioactive decay to save time. 
 
 ## 🔁 Last 5 Minutes Box
-- Revision of important formulas: r = r_0 $\times A^{\frac{1}{3}}$, $\rho = \frac{3m}{4 \pi r_0^3}$, $\frac{B}{A} = \frac{\delta mc^2}{A}$
-- Quick practice of solved problems: calculate the energy released in a nuclear reaction, find the disintegration constant, calculate the density of a nucleus
-- Focus on understanding the concepts of nuclear stability and binding energy
+- Last 5 minutes revision: 
+  - Nuclear binding energy: ΔE = (Z∓ + Nmn - m)/(Z + N) × c² 
+  - Radioactive decay: N = N₀ × e^(-λt) 
+  - Kinetic energy: K = (1/2)mv² 
+  - Conservation of energy: ΔE = Q + W 
+  - Conservation of momentum: p = mv 
 
 ## 📝 Practice MCQs
-**1. What is the approximate value of the nuclear radius of ^{238}_{92}U?**
--
-A) 1.2 $\times 10^{-15} m$
--
-B) 6.8 $\times 10^{-15} m$
--
-C) 7.4 $\times 10^{-15} m$
--
-D) 8.1 $\times 10^{-15} m$
-
-**Answer: C) 7.4 $\times 10^{-15} m**$
-
-**2. The binding energy per nucleon for ^4_2He is 7.0 MeV. What is the total binding energy for ^4_2He?**
--
-A) 14 MeV
--
-B) 20 MeV
--
-C) 28 MeV
--
-D) 32 MeV
-
-**Answer: C) 28 MeV**
-
-**3. The half-life of a radioactive substance is 5 hours. What is the disintegration constant?**
--
-A) 0.038 h^{-1}
--
-B) 0.069 h^{-1}
--
-C) 0.138 h^{-1}
--
-D) 0.2 h^{-1}
-
-**Answer: B) 0.069 h^{-1}**
-
-**4. What is the energy released when a proton and a neutron combine to form a deuteron?**
--
-A) 0.5 MeV
--
-B) 1.1 MeV
--
-C) 2.2 MeV
--
-D) 4.5 MeV
-
-**Answer: B) 1.1 MeV**
-
-**5. The density of a nucleus is approximately 2.3 $\times 10^{17} kg/m^3. What is the approximate value of the nuclear radius$?**
--
-A) 1.2 $\times 10^{-15} m$
--
-B) 3.6 $\times 10^{-15} m$
--
-C) 5.1 $\times 10^{-15} m$
--
-D) 6.8 $\times 10^{-15} m$
-
-**Answer: B) 3.6 $\times 10^{-15} m**$
+**1. What is the binding energy of a nucleus of ⁴He?**
+- A) 28.3 MeV 
+- B) 30.4 MeV 
+- C) 32.5 MeV 
+- D) 34.6 MeV 
+**Answer: A) 28.3 MeV.**
+**2. A radioactive substance has a half-life of 5 years. If 50 g of the substance is left after 10 years, find the initial mass of the substance.**
+- A) 100 g 
+- B) 200 g 
+- C) 400 g 
+- D) 800 g 
+**Answer: B) 200 g.**
+**3. What is the kinetic energy of an α particle emitted by a nucleus of ²³⁸U?**
+- A) 4.2 MeV 
+- B) 5.5 MeV 
+- C) 6.8 MeV 
+- D) 8.1 MeV 
+**Answer: A) 4.2 MeV.**
+**4. What is the equation for nuclear binding energy?**
+- A) ΔE = (Z∓ + Nmn - m)/(Z + N) × c² 
+- B) ΔE = (Z∓ + Nmn + m)/(Z + N) × c² 
+- C) ΔE = (Z∓ - Nmn - m)/(Z + N) × c² 
+- D) ΔE = (Z∓ - Nmn + m)/(Z + N) × c² 
+**Answer: A) ΔE = (Z∓ + Nmn - m)/(Z + N) × c².**
+**5. What is the ratio of the kinetic energies of two nuclei of masses m₁ and m₂?**
+- A) K₁/K₂ = m₁/m₂ 
+- B) K₁/K₂ = m₂/m₁ 
+- C) K₁/K₂ = (m₁/m₂)² 
+- D) K₁/K₂ = (m₂/m₁)² 
+**Answer: B) K₁/K₂ = m₂/m₁.**
 
 ---
 
@@ -135,17 +122,3 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Nuclei%20Class%2012%20Physics%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-
----
-
-## 📚 Related Topics
-
-Continue your revision with these related guides:
-
-- 📖 [Atoms Class 12 Physics Revision$ — Grandmaster Guide](/blog/atoms-class-12-notes)$
-- 📖 [Communication Systems Class 12 Physics Revision — Grandmaster Guide](/blog/communication-systems-class-12-notes)
-- 📖 [Dual Nature Of Radiation Class 12 Physics Revision — Grandmaster Guide](/blog/dual-nature-of-radiation-class-12-notes)
-- 📖 [Semiconductor Electronics Class 12 Physics Revision — Grandmaster Guide](/blog/semiconductor-electronics-class-12-notes)
-

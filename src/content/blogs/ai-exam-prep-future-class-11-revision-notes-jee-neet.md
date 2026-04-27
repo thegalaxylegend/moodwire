@@ -105,7 +105,7 @@ practice_link: "/class-11/physics/ai-exam-prep-future-class-11-revision-notes-je
 **Answer:** 10 J)
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

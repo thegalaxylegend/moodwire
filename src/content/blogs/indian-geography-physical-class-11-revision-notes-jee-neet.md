@@ -78,7 +78,7 @@ The Earth's surface has undergone significant changes over millions of years. Th
 Maps are an essential tool n [physical](/blog/physical-world-class-11-revision-notes-jee-neet) Geography, used to represent the Earth's surface and its features. Maps can be used to study the distribution of landforms, climate, vegetation, n water bodies. The **Tropic of Cancer** is an imaginary line that passes through 8 Indian states, n its location can be represented on a map. Maps can also be used to study the historical context of the Earth's formation, including the movement of tectonic plates and the formation of mountain ranges.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

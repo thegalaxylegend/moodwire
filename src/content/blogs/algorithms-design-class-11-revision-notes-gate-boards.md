@@ -244,7 +244,7 @@ To apply dynamic programming, we need to follow these steps:
 
 Let's consider the example of the Fibonacci series, which is a classic problem that can be solved using dynamic programming. The Fibonacci series is defined as: $F(n) = F(n-1) + F(n-2)$, where $F(0) = 0$ n $F(1) = 1$. A naive recursive solution would be: 
 
-F(n) = egin{cases}
+F(n) = \begin{cases}
 0 & $\text{ifn = 0}$ \
 1 & $\text{ifn = 1}$ \
 F(n-1) + F(n-2) & $\text{otherwise}$
@@ -398,7 +398,7 @@ D) Greedy algorithms make the optimal substructure property, but may not always 
 solution. They always choose the locally optimal solution.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

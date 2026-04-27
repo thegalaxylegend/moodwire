@@ -103,10 +103,10 @@ Organisms
 **Answer:** Cells)
 
 ---
-*This post was curated y Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, and edited for accuracy y Ayush.*
 
 ---
-*This post was curated y Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

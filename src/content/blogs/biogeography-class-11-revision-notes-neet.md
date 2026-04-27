@@ -157,7 +157,7 @@ By recognizing these connections, I can develop a more nuanced understanding of 
 As I complete my review of biogeography, I am reminded of the importance of this field and understanding the natural world and addressing conservation challenges. I will continue to apply biogeographical principles and my studies and future endeavors, recognizing the significance of this field and promoting a deeper appreciation for the complex patterns and processes that shape our planet's biodiversity.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

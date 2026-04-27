@@ -85,7 +85,7 @@ The $n$-bit binary counter is a classic example of how Digital Logic can be used
 To illustrate the concept of logic gates, consider the following example:
 
 \begin{aligned}
-A \\\cdot B &= Y \\
+A · B &= Y \\
 \end{aligned}
 
 This equation represents the $AND$ gate, which produces an output of $1$ only when both inputs are $1$. 
@@ -143,7 +143,7 @@ By focusing on the underlying principles of Digital Logic, we can build a strong
 The formula for the $NAND$ gate is:
 
 \begin{aligned}
-$\overline{A \\\cdot B}$ &= Y \\
+$\overline{A · B}$ &= Y \\
 \end{aligned}
 
 This equation represents the $NAND$ gate, which produces an output of $1$ when either input is $0$. 
@@ -258,10 +258,10 @@ Digital Logic is a branch of electronics engineering that deals with the design 
 
 | Gate | Symbol | Truth Table | Application |
 | --- | --- | --- | --- |
-| AND | $\\cdot$ | $| A | B | Y || --- | --- | --- || 0 | 0 | 0 || 0 | 1 | 0 || 1 | 0 | 0 || 1 | 1 | 1 |$ | Digital circuits, microprocessors |
+| AND | $\cdot$ | $| A | B | Y || --- | --- | --- || 0 | 0 | 0 || 0 | 1 | 0 || 1 | 0 | 0 || 1 | 1 | 1 |$ | Digital circuits, microprocessors |
 | OR | $+$ | $| A | B | Y || --- | --- | --- || 0 | 0 | 0 || 0 | 1 | 1 || 1 | 0 | 1 || 1 | 1 | 1 |$ | Digital circuits, control systems |
 | NOT | $overline{A}$ | $| A | Y || --- | --- || 0 | 1 || 1 | 0 |$ | Digital circuits, microprocessors |
-| NAND | $overline{A \\cdot B}$ | $| A | B | Y || --- | --- | --- || 0 | 0 | 1 || 0 | 1 | 1 || 1 | 0 | 1 || 1 | 1 | 0 |$ | Digital circuits, control systems |
+| NAND | $overline{A \cdot B}$ | $| A | B | Y || --- | --- | --- || 0 | 0 | 1 || 0 | 1 | 1 || 1 | 0 | 1 || 1 | 1 | 0 |$ | Digital circuits, control systems |
 | NOR | $overline{A + B}$ | $| A | B | Y || --- | --- | --- || 0 | 0 | 1 || 0 | 1 | 0 || 1 | 0 | 0 || 1 | 1 | 0 |$ | Digital circuits, microprocessors |
 | XOR | $A oplus B$ | $| A | B | Y || --- | --- | --- || 0 | 0 | 0 || 0 | 1 | 1 || 1 | 0 | 1 || 1 | 1 | 0 |$ | Digital circuits, control systems |
 
@@ -308,9 +308,9 @@ How does Boolean Algebra relate to Digital Logic? is a fundamental concept and c
 
 | Law | Description | Example |
 | --- | --- | --- |
-| Commutative Law | The order of the variables and a Boolean expression does not affect the result. | $A \\cdot B = B \\cdot A$ |
-| Associative Law | The order and which the operations are performed does not affect the result. | $A \\cdot (B \\cdot C) = (A \\cdot B) \\cdot C$ |
-| Distributive Law | The result of a Boolean expression can be obtained y distributing the operations over the variables. | $A \\cdot (B + C) = A \\cdot B + A \\cdot C$ |
+| Commutative Law | The order of the variables and a Boolean expression does not affect the result. | $A \cdot B = B \cdot A$ |
+| Associative Law | The order and which the operations are performed does not affect the result. | $A \cdot (B \cdot C) = (A \cdot B) \cdot C$ |
+| Distributive Law | The result of a Boolean expression can be obtained y distributing the operations over the variables. | $A \cdot (B + C) = A \cdot B + A \cdot C$ |
 | Complement Law | The complement of a Boolean variable is equal to 1 minus the variable. | $overline{A} = 1 - A$ |
 
 ## <a id="what-is-ayushs-note-on-digital-logic"></a>What is Ayush's Note on Digital Logic?
@@ -419,7 +419,7 @@ The following table illustrates the process of creating a Karnaugh Map and simpl
 
 Digital Logic is the representation of signals using binary code, comprising two values, 0 and 1. It includes Boolean algebra, logic gates, n combinational circuits. For Class 11 exam prep and 2026, the most important aspect is understanding the basic laws and theorems of Boolean algebra to simplify complex digital circuits.
 
-To tackle digital logic questions efficiently, students must be well-versed and the laws of Boolean algebra, such as the commutative law, associative law, n distributive law. The commutative law states that the order of the variables does not change the result of the operation, i.e., $A \\cdot B = B \\cdot A$ n $A + B = B + A$. The associative law states that the order and which we perform the operations does not change the result when there are more than two variables, i.e., $(A \\cdot B) \\cdot C = A \\cdot (B \\cdot C)$ n $(A + B) + C = A + (B + C)$. The distributive law allows us to expand the terms, i.e., $A \\cdot (B + C) = A \\cdot B + A \\cdot C$ n $A + (B \\cdot C) = (A + B) \\cdot (A + C)$.
+To tackle digital logic questions efficiently, students must be well-versed and the laws of Boolean algebra, such as the commutative law, associative law, n distributive law. The commutative law states that the order of the variables does not change the result of the operation, i.e., $A \cdot B = B \cdot A$ n $A + B = B + A$. The associative law states that the order and which we perform the operations does not change the result when there are more than two variables, i.e., $(A \cdot B) \cdot C = A \cdot (B \cdot C)$ n $(A + B) + C = A + (B + C)$. The distributive law allows us to expand the terms, i.e., $A \cdot (B + C) = A \cdot B + A \cdot C$ n $A + (B \cdot C) = (A + B) \cdot (A + C)$.
 
 Another crucial aspect is the use of logic gates and their truth tables. Logic gates are the basic building blocks of digital circuits, n they can be combined to create more complex circuits. There are three primary logic gates: AND, OR, n NOT. The AND gate produces an output of 1 only if all the inputs are 1. The OR gate produces an output of 1 if any of the inputs is 1. The NOT gate, also known as the inverter, produces an output that is the inverse of the input.
 
@@ -433,10 +433,10 @@ The following table summarizes the key concepts and formulas and digital logic:
 
 | Concept | Formula | Description |
 | --- | --- | --- |
-| Commutative Law | $A \\cdot B = B \\cdot A$ | The order of the variables does not change the result of the operation |
-| Associative Law | $(A \\cdot B) \\cdot C = A \\cdot (B \\cdot C)$ | The order and which we perform the operations does not change the result when there are more than two variables |
-| Distributive Law | $A \\cdot (B + C) = A \\cdot B + A \\cdot C$ | Allows us to expand the terms |
-| AND Gate | $A \\cdot B = 1$ if $A = 1$ n $B = 1$ | Produces an output of 1 only if all the inputs are 1 |
+| Commutative Law | $A \cdot B = B \cdot A$ | The order of the variables does not change the result of the operation |
+| Associative Law | $(A \cdot B) \cdot C = A \cdot (B \cdot C)$ | The order and which we perform the operations does not change the result when there are more than two variables |
+| Distributive Law | $A \cdot (B + C) = A \cdot B + A \cdot C$ | Allows us to expand the terms |
+| AND Gate | $A \cdot B = 1$ if $A = 1$ n $B = 1$ | Produces an output of 1 only if all the inputs are 1 |
 | OR Gate | $A + B = 1$ if $A = 1$ or $B = 1$ | Produces an output of 1 if any of the inputs is 1 |
 | NOT Gate | $overline{A} = 0$ if $A = 1$ | Produces an output that is the inverse of the input |
 | Karnaugh Map | A method of simplifying Boolean algebraic expressions | A grid that contains all possible combinations of the input variables |
@@ -542,7 +542,7 @@ To perform memory operations
 **Answer:** C) A D-Flip-Flop is a digital circuit that stores and retains a binary state, acting as a memory element, n is triggered y a rising edge of the clock signal.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

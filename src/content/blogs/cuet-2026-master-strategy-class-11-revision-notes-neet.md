@@ -104,7 +104,7 @@ Most major universities, including Delhi University, require you to appear only 
 To maximize your eligibility across various courses and universities, we recommend choosing one Language, three or four Domain subjects, n the General Test. This combination (total 5–6 subjects) ensures you meet the criteria for a wide range of degrees, from specialized honors courses to multidisciplinary vocational programs.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

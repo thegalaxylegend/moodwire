@@ -110,7 +110,7 @@ For state-run talent exams, the SAT section is usually based on the State Board 
 Yes, typically there is no restriction on appearing for multiple exams as long as you meet the individual eligibility criteria for each. For example, a class 8 student and West Bengal can appear for both the NMMS and the WBMSTSE. Combining these opportunities maximizes your chances of securing at least one reliable source of educational funding.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

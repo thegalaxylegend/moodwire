@@ -401,7 +401,7 @@ Last-In-First-Out (LIFO) order is maintained
 **Answer:** D) Last-In-First-Out (LIFO) order is maintained because the last element added to the stack is the first one to be removed.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

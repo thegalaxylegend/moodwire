@@ -8,133 +8,93 @@ practice_link: "/practice/rational-numbers-class-8-notes"
 manualReview: false
 ---
 
-## 📑 Table of Contents
-
-1. [⚡ Formula Bank](#formula-bank)
-2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
-3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
-4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
-5. [👁️ Ayush's Note](#ayushs-note)
-6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
-7. [📝 Practice MCQs](#practice-mcqs)
-8. [📚 Academic References](#academic-references)
-9. [📚 Related Topics](#related-topics)
-
----
-
 ## ⚡ Formula Bank
-- A rational number is a number that can be expressed as $\frac{p}{q}$, where $p$ and $q$ are integers and $q$ 
-eq 0$.$
-- The set of rational numbers is denoted by $\mathbb{Q}$.
-- Rational [numbers](/blog/real-numbers-class-10-notes) can be positive, negative, or zero.
-- The additive identity of rational numbers is $0$, and the multiplicative identity is $1$.
-- The additive inverse of a rational number $\frac{a}{b}$ is $-\frac{a}{b}$.
-- The multiplicative inverse of a rational number $\frac{a}{b}$ is $\frac{b}{a}$, where $a$ 
-eq 0$.$
-- To add two rational numbers, we need to have the same denominator, i.e., $\frac{a}{b} + \frac{c}{d} = \frac{ad + bc}{bd}$.
-- To subtract two rational numbers, we need to have the same denominator, i.e., $\frac{a}{b} - \frac{c}{d} = \frac{ad - bc}{bd}$.
-- To multiply two rational numbers, we multiply the numerators and denominators separately, i.e., $\frac{a}{b} \times \frac{c}{d} = \frac{ac}{bd}$.
-- To divide two rational numbers, we multiply the first rational number by the reciprocal of the second rational number, i.e., $\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c} = \frac{ad}{bc}$.
+- Rational numbers are of the form p/q where p, q are integers and q ≠ 0
+- Equivalent rational numbers are obtained by multiplying or dividing both numerator and denominator by the same non-zero integer
+- Standard form of a rational number is p/q where p, q have no common factors and q ≠ 0
+- Rational numbers can be represented on a number line
+- Additive inverse of a rational number p/q is -p/q
+- Multiplicative inverse of a rational number p/q is q/p
+- p/q + r/s = (ps + qr)/qs
+- p/q - r/s = (ps - qr)/qs
+- p/q × r/s = pr/qs
+- p/q ÷ r/s = ps/qr
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not simplifying the rational [numbers](/blog/real-numbers-class-10-notes) to their lowest terms.
-- Not finding the least common multiple (LCM) of the denominators while adding or subtracting rational [numbers](/blog/real-numbers-class-10-notes).
-- Not using the correct signs while adding or subtracting rational [numbers](/blog/real-numbers-class-10-notes).
-- Not using the distributive property of multiplication over addition while multiplying rational numbers.
-- Not using the correct order of operations while performing calculations involving rational numbers.
+- Not simplifying rational numbers to their standard form
+- Not finding the LCM while adding or subtracting rational numbers
+- Not using the distributive property while multiplying rational numbers
+- Not using the additive inverse while subtracting rational numbers
+- Not checking for any common factors between numerator and denominator
 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** Simplify the expression $\frac{3}{4} + \frac{1}{6}$.
-  - To add these two rational numbers, we need to have the same denominator, which is the LCM of $4$ and $6$, i.e., $12$.
-  -    rac{3}{4} = $\frac{3 \times 3}${4 \times 3} = $\frac{9}${12} and $\frac{1}${6} = $\frac{1 \times 2}${6 \times 2} = $\frac{2}${12}. 
-  - Now, we can add these two rational numbers: $\frac{9}{12} + \frac{2}{12} = \frac{11}{12}$.
-- **Question 2:** Subtract $\frac{2}{5}$ from $\frac{3}{4}$.
-  - To subtract these two rational numbers, we need to have the same denominator, which is the LCM of $5$ and $4$, i.e., $20$.
-  -    rac{3}{4} = $\frac{3 \times 5}${4 \times 5} = $\frac{15}${20} and $\frac{2}${5} = $\frac{2 \times 4}${5 \times 4} = $\frac{8}${20}. 
-  - Now, we can subtract these two rational numbers: $\frac{15}{20} - \frac{8}{20} = \frac{7}{20}$.
-- **Question 3:** Multiply $\frac{2}{3}$ by $\frac{3}{4}$.
-  - To multiply these two rational numbers, we multiply the numerators and denominators separately: $\frac{2}{3} \times \frac{3}{4} = \frac{2 \times 3}{3 \times 4} = \frac{6}{12} = \frac{1}{2}$.
+- Simplify: 12/16
+  Step 1: Find the greatest common factor of 12 and 16, which is 4
+  Step 2: Divide both numerator and denominator by 4
+  Step 3: Simplified form is 3/4
+- Add: 1/6 + 1/6
+  Step 1: Since denominators are the same, add the numerators
+  Step 2: 1/6 + 1/6 = 2/6
+  Step 3: Simplify the fraction to its standard form
+  Step 4: 2/6 = 1/3
+- Subtract: 2/3 - 1/3
+  Step 1: Since denominators are the same, subtract the numerators
+  Step 2: 2/3 - 1/3 = 1/3
 
 ## 🧠 The One Thing Most Students Get Wrong
-- The one thing that most students get wrong is finding the LCM of the denominators while adding or subtracting rational numbers.
-- Many students find the greatest common divisor (GCD) instead of the LCM, which leads to incorrect results.
-- To find the LCM, we need to list the multiples of each denominator and find the smallest multiple that is common to both denominators.
-- For example, to find the LCM of $4$ and $6$, we list the multiples of $4$ ($4$, $8$, $12$, $16$, ...) and $6$ ($6$, $12$, $18$, $24$, ...), and we find that the smallest multiple that is common to both is $12$.
+- Most students get confused between adding and subtracting rational numbers with different denominators
+- They forget to find the LCM of the denominators and add or subtract the numerators accordingly
+- For example, 1/4 + 1/6
+  Step 1: Find the LCM of 4 and 6, which is 12
+  Step 2: Convert both fractions to have a denominator of 12
+  Step 3: 1/4 = 3/12 and 1/6 = 2/12
+  Step 4: Add the fractions: 3/12 + 2/12 = 5/12
 
 ## 👁️ Ayush's Note
-- Always simplify the rational numbers to their lowest terms before performing any operations.
-- Use the distributive property of multiplication over addition while multiplying rational numbers.
-- Use the correct order of operations while performing calculations involving rational numbers.
-- Find the LCM of the denominators while adding or subtracting rational numbers.
-- Use the correct signs while adding or subtracting rational numbers.
+- To compare two rational numbers, convert them to equivalent fractions with the same denominator
+- To add or subtract rational numbers, find the LCM of the denominators and add or subtract the numerators accordingly
+- Rational numbers can be positive, negative, or zero
+- The additive inverse of a rational number is obtained by changing its sign
+- The multiplicative inverse of a rational number is obtained by swapping its numerator and denominator
 
 ## 🔁 Last 5 Minutes Box
-- Make sure to simplify all rational numbers to their lowest terms.
-- Check for any calculation errors.
-- Verify that the correct signs are used while adding or subtracting rational numbers.
-- Ensure that the correct order of operations is followed.
-- Double-check that the LCM of the denominators is found correctly while adding or subtracting rational numbers.
+- Quickly revise the formulae for adding, subtracting, multiplying, and dividing rational numbers
+- Make sure to simplify rational numbers to their standard form
+- Practice comparing and ordering rational numbers
+- Go through the solved examples and try to solve them on your own
+- Make a mental note of the common mistakes that can cost marks
 
 ## 📝 Practice MCQs
-**1. What is the sum of $\frac{1}{2}$ and $\frac{1}{3}$?**
--
-A) \frac{2}{5}
--
-B) \frac{5}{6}
--
-C) \frac{1}{2} + \frac{1}{3} = \frac{3}{6} + \frac{2}{6} = \frac{5}{6}
--
-D) \frac{3}{4}
-
-**Answer: B) \frac{1}{2} + \frac{1}{3} = \frac{3}{6} + \frac{2}{6} = \frac{5}{6}**
-
-**2. What is the product of $\frac{2}{3}$ and $\frac{3}{4}$?**
--
-A) \frac{1}{2}
--
-B) \frac{1}{6}
--
-C) \frac{2}{3} \times \frac{3}{4} = \frac{6}{12} = \frac{1}{2}
--
-D) \frac{3}{4}
-
-**Answer: A) \frac{2}{3} \times \frac{3}{4} = \frac{6}{12} = \frac{1}{2}**
-
-**3. What is the difference between $\frac{3}{4}$ and $\frac{1}{6}$?**
--
-A) \frac{1}{12}
--
-B) \frac{7}{12}
--
-C) \frac{3}{4} - \frac{1}{6} = \frac{9}{12} - \frac{2}{12} = \frac{7}{12}
--
-D) \frac{5}{6}
-
-**Answer: B) \frac{3}{4} - \frac{1}{6} = \frac{9}{12} - \frac{2}{12} = \frac{7}{12}**
-
-**4. What is the sum of $\frac{2}{5}$ and $\frac{3}{10}$?**
--
-A) \frac{1}{2}
--
-B) \frac{7}{10}
--
-C) \frac{2}{5} + \frac{3}{10} = \frac{4}{10} + \frac{3}{10} = \frac{7}{10}
--
-D) \frac{3}{5}
-
-**Answer: B) \frac{2}{5} + \frac{3}{10} = \frac{4}{10} + \frac{3}{10} = \frac{7}{10}**
-
-**5. What is the product of $\frac{3}{5}$ and $\frac{2}{3}$?**
--
-A) \frac{1}{5}
--
-B) \frac{2}{5}
--
-C) \frac{3}{5} \times \frac{2}{3} = \frac{6}{15} = \frac{2}{5}
--
-D) \frac{3}{2}
-
-**Answer: B) \frac{3}{5} \times \frac{2}{3} = \frac{6}{15} = \frac{2}{5}**
+**1. What is the standard form of the rational number 6/8?**
+- A) 3/4
+- B) 2/3
+- C) 1/2
+- D) 3/8
+**Answer: A) 3/4.**
+**2. What is the sum of 1/4 and 1/6?**
+- A) 5/12
+- B) 3/12
+- C) 2/12
+- D) 1/12
+**Answer: A) 5/12.**
+**3. What is the difference of 2/3 and 1/3?**
+- A) 1/3
+- B) 2/3
+- C) 3/3
+- D) 4/3
+**Answer: A) 1/3.**
+**4. What is the product of 2/3 and 3/4?**
+- A) 6/12
+- B) 1/2
+- C) 1/6
+- D) 2/6
+**Answer: A) 6/12.**
+**5. What is the quotient of 3/4 and 2/3?**
+- A) 9/8
+- B) 8/9
+- C) 3/2
+- D) 2/3
+**Answer: A) 9/8.**
 
 ---
 
@@ -143,27 +103,3 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-## 📚 Academic References
-
-*Content verified against peer-reviewed research:*
-
-1. *�Let the People Rap�: Cultural Rhetorics Pedagogy and Practices U...* — **Journal of Basic Writing** (2019) 🔓 — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.05)
-2. *Frustration and Hope: Examining Students� Emotional Responses to ...* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.03)
-3. *Editors' Column* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.01)
-
-*🔓 = Open Access article*
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Rational%20Numbers%208%20Class%208%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-
----
-
-## 📚 Related Topics
-
-Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
-
-- 📖 [Real Numbers Class 10 Exam Prep Revision — Grandmaster Guide](/blog/real-numbers-class-10-notes)
-- 📖 [Comparing Quantities 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/comparing-quantities-class-8-notes)
-- 📖 [Cubes And Cube Roots 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/cubes-and-cube-roots-class-8-notes)
-- 📖 [Data Handling 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/data-handling-class-8-notes)
-

@@ -117,7 +117,7 @@ The eccentricity **e** is the ratio of the distance from the focus to the distan
 - [**External Reference:** [CERT Class 11 Math Chapter 11](https://ncert.nic.n/textbook.php?kemh1=11-16) (Authoritative Source)]
 ## <a id="conclusion"></a>Conclusion
 Conic sections bring geometry to life y connecting algebraic equations with physical curves. By mastering the standard forms and the role of eccentricity, you bridge the gap between simple straight lines and the [complex](/blog/complex-numbers-class-11-revision-notes-jee-neet) paths of the universe. Always identify your orientation (horizontal vs. vertical) first, n remember that for a parabola, e is always exactly 1! Keep your foci clear and your axes consistent.
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 ## <a id="-related-topics"></a>📚 Related Topics
 Continue your [revision](/blog/probability-class-11-revision-notes-jee) with these related guides:
 - 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)

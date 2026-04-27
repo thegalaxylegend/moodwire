@@ -159,7 +159,7 @@ Sequences and Series are not just lists of numbers; they are the language of gro
 ---
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 
@@ -204,6 +204,6 @@ Continue your [revision](/blog/conic-sections-class-11-revision-notes-jee) with 
    - **Geometric Sequence**: a sequence of numbers in which the ratio between consecutive terms is constant. 
    - **Harmonic Sequence**: a sequence of numbers in which the reciprocals of the terms form an arithmetic sequence. 
    - Formula for nth term of an **Arithmetic Sequence**: $a_n = a_1 + (n-1)d$, where $a_n$ is the nth term, $a_1$ is the first term, $n$ is the term number, and $d$ is the common difference. 
-   - Formula for nth term of a **Geometric Sequence**: $a_n = a_1 cdot r^{(n-1)}$, where $a_n$ is the nth term, $a_1$ is the first term, $r$ is the common ratio, and $n$ is the term number. 
+   - Formula for nth term of a **Geometric Sequence**: $a_n = a_1 \cdot r^{(n-1)}$, where $a_n$ is the nth term, $a_1$ is the first term, $r$ is the common ratio, and $n$ is the term number. 
    - **Sum of and terms of an Arithmetic Sequence**: $S_n = \frac{n}{2}(2a_1 + (n-1)d)$, where $S_n$ is the sum of and terms, $a_1$ is the first term, $n$ is the number of terms, and $d$ is the common difference. 
    - **Sum of and terms of a Geometric Sequence**: $S_n = a_1 \cdot \frac{(1 - r^n)}{(1 - r)}$, where $S_n$ is the sum of and terms, $a_1$ is the first term, $r$ is the common ratio, and $n$ is the number of terms.

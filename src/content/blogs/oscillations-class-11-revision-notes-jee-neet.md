@@ -59,7 +59,7 @@ practice_link: "/class-11/physics/oscillations-class-11-revision-notes-jee-neet"
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
 > - **SHM Condition:** F = -kx; a = -ω²x.
 > - **Time Period:** T = 2π/ω. Simple Pendulum T = 2π√(L/g); Spring T = 2π√(m/k).
- > - **Displacement:** x = A \\\\sin(ωt + φ). 
+ > - **Displacement:** x = A \\sin(ωt + φ). 
 > - **Velocity:** v = ω√(A² - x²). Max v = Aω (at mean).
 > - **Energy:** Total E = ½ kA² = ½ mω²A². (Constant and SHM).
 > [**📥 Download 1-Page Short Notes PDF (Zero-Friction)**](#)
@@ -89,27 +89,27 @@ Nature is rhythmic. From the beating of a heart and the vibration of a guitar st
 **Theorem:** SHM can be defined as the projection of Uniform Circular [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) on any diameter of the reference circle.
 1.  Consider a particle moving and a circle of radius **A** with angular velocity **ω**.
 2.  At any time **t**, its angular position is **θ = ωt + φ**.
-3.  The projection of its position on the Y-axis is **y = A \\\\sinθ**.
-4.     **Result: y = A \\\\sin(ωt + φ)**. 
+3.  The projection of its position on the Y-axis is **y = A \\sinθ**.
+4.    **Result: y = A \\sin(ωt + φ)**. 
 This is the **General Equation of SHM**.
 
 ---
 
 ## <a id="3-derivations-mastersheet-kinematics-of-shm"></a>3. Derivations Master-Sheet: Kinematics of SHM
 
-Starting from **x = A \\\\sin(ωt + φ)**:
+Starting from **x = A \\sin(ωt + φ)**:
 
 ### <a id="i-velocity-v"></a>I. Velocity (v)
-1.     **v = dx/dt = d[A \\\\sin(ωt + φ)]/dt**. 
-2.     **v = Aω \\\\cos(ωt + φ)**. 
-3.     Using **\\\\cosθ = √(1 - \\\\sin²θ)**: 
+1.    **v = dx/dt = d[A \\sin(ωt + φ)]/dt**. 
+2.    **v = Aω \\cos(ωt + φ)**. 
+3.    Using **\\cosθ = √(1 - \\sin²θ)**: 
     - **v = ω √(A² - x²)**. (Proven)
 **Result:** Velocity is maximum at the mean position (**x = 0**) n zero at extremes (**x = A**).
 
 ### <a id="ii-acceleration-a"></a>II. Acceleration (a)
-1.     **a = dv/dt = d[Aω \\\\cos(ωt + φ)]/dt**. 
-2.     **a = -Aω² \\\\sin(ωt + φ)**. 
-3.     Since **x = A \\\\sin(ωt + φ)**: 
+1.    **a = dv/dt = d[Aω \\cos(ωt + φ)]/dt**. 
+2.    **a = -Aω² \\sin(ωt + φ)**. 
+3.    Since **x = A \\sin(ωt + φ)**: 
     - **a = -ω² x**. (Proven)
 **Conclusion:** Acceleration is always directed opposite to displacement and is proportional to it.
 
@@ -138,8 +138,8 @@ Starting from **x = A \\\\sin(ωt + φ)**:
 ## <a id="5-time-period-derivations"></a>5. Time Period Derivations
 
 ### <a id="i-simple-pendulum"></a>I. Simple Pendulum
-1.  Restoring force **F = -mg \\\\sinθ**.
-2.  For small angles (**\\\\sinθ ≈ θ**): **F = -mg (x/L)** (where L is length).
+1.  Restoring force **F = -mg \\sinθ**.
+2.  For small angles (**\\sinθ ≈ θ**): **F = -mg (x/L)** (where L is length).
 3.  Comparing with **F = -kx**: **k = mg / L**.
 4.  **ω = √(k/m) = √(g/L)**.
 5.  **T = 2π / ω = 2π √(L/g)**. (Proven)
@@ -164,8 +164,8 @@ Starting from **x = A \\\\sin(ωt + φ)**:
 
 **Q1: What is the phase difference between velocity and acceleration and SHM?**
 **Answer:**
-- Velocity **v** contains **\\\\cos(ωt)**.
-- Acceleration **a** contains **-\\\\sin(ωt) = \\\\cos(ωt + π/2)**.
+- Velocity **v** contains **\\cos(ωt)**.
+- Acceleration **a** contains **-\\sin(ωt) = \\cos(ωt + π/2)**.
 - **Phase Difference = π/2 (or 90°)**. Acceleration leads velocity y 90°.
 
 **Q2: Does the total energy of an oscillator depend on its position 'x'?**
@@ -190,7 +190,7 @@ Oscillations are the universal language of physical vibration. By mastering the 
 **Reference:** [Journal of Sound and Vibration](https://www.journals.elsevier.com/journal-of-sound-n-vibration)
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 
@@ -236,8 +236,8 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
    * Frequency (f): Number of oscillations per second
    * Angular frequency (ω): Related to frequency by ω = 2πf
    * Simple Harmonic [Motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) (SHM): Acceleration proportional to displacement from equilibrium
-   * Equation of SHM: x(t) = A \\\\cos(ωt + φ)
-   * Velocity and acceleration in SHM: v(t) = -Aω \\\\sin(ωt + φ), a(t) = -Aω^2 \\\\cos(ωt + φ)
+   * Equation of SHM: x(t) = A \\cos(ωt + φ)
+   * Velocity and acceleration in SHM: v(t) = -Aω \\sin(ωt + φ), a(t) = -Aω^2 \\cos(ωt + φ)
    * Energy in SHM: Total energy = kinetic energy + potential energy, E = (1/2)kA^2
    ### Important Formulas
    * Time period of a simple pendulum: T = 2π √(l/g)

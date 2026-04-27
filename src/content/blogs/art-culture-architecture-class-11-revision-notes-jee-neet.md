@@ -111,7 +111,7 @@ When revising architecture, watch out for these common trap exceptions:
 By focusing on these key concepts, formulae, n trap exceptions, you'll be well on your way to acing your JEE/[meet](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) exams and developing a deeper appreciation for the world of architecture. As I, Ayush, continue to explore the fascinating world of art and culture, I'm reminded that architecture is not just about buildings - it's about the people, cultures, n histories that shape our built environment.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

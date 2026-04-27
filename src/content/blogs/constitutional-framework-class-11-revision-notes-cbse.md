@@ -91,7 +91,7 @@ I find it helpful to review these trap exceptions regularly, as they can be tric
 ## <a id="MCQs"></a>MCQs
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

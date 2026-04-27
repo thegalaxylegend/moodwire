@@ -85,7 +85,7 @@ As I prepare for the class 11 exam and 2026, I need to focus on the key concepts
 - Be aware of the trap exceptions, including emergency provisions, centralized tendencies, n state autonomy.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

@@ -124,7 +124,7 @@ Most students treat this chapter as a bunch of formulas to memorize. I did the s
 
 ### <a id="rydberg-formula"></a>Rydberg Formula
 
- \frac{1}{\\lambda} =  \right] 
+ \frac{1}{\lambda} =  \right] 
 
 Where $\frac{1{n_1^2}$ - $\frac{1}{n_2^2}R = 109677 \text{ cm}^{-1}$ (or roughly $1.1 \times 10^7 \text{ m}^{-1}$).
 
@@ -145,10 +145,10 @@ Where $\frac{1{n_1^2}$ - $\frac{1}{n_2^2}R = 109677 \text{ cm}^{-1}$ (or roughly
 
 **The Dual Nature of [matter](/blog/states-of-matter-class-11-revision-notes-jee-neet) describes how every moving particle, from a cricket ball to an electron, exhibits both wave-like and particle-like properties.**
 
- \\lambda = \frac{h}{p} 
+ \lambda = \frac{h}{p} 
 
-For a microscopic electron, $\\lambda$ is significant ($\sim$ atomic dimensions), but for a macroscopic ball, $\\lambda$ is $10^{-34}$ m, making its wave nature undetectable.
-- **JEE Trick**: If kinetic energy ($K$) is given, $\\lambda = \frac{h}\sqrt{2mK}.$
+For a microscopic electron, $\lambda$ is significant ($\sim$ atomic dimensions), but for a macroscopic ball, $\lambda$ is $10^{-34}$ m, making its wave nature undetectable.
+- **JEE Trick**: If kinetic energy ($K$) is given, $\lambda = \frac{h}\sqrt{2mK}.$
 
 ---
 
@@ -156,7 +156,7 @@ For a microscopic electron, $\\lambda$ is significant ($\sim$ atomic dimensions)
 
 **Heisenberg's Uncertainty Principle states that it is impossible to simultaneously measure the exact position ($\delta x$) n exact momentum ($\delta p$) of a subatomic particle with absolute precision.**
 
-\delta x \\\cdot \delta p \geq $\frac{h}{4\pi} = \psi$ This isn't about "bad microscopes." It's a fundamental property of the universe. If you try to see an electron (y hitting it with a photon), the photon's energy shifts the electron's position. You can either know *where* it is or *how fast* it's moving, but never both.
+\delta x · \delta p \geq $\frac{h}{4\pi} = \psi$ This isn't about "bad microscopes." It's a fundamental property of the universe. If you try to see an electron (y hitting it with a photon), the photon's energy shifts the electron's position. You can either know *where* it is or *how fast* it's moving, but never both.
 
 ---
 
@@ -228,7 +228,7 @@ For an orbital with quantum numbers $n$ n $l$:
 
 | Goal | Formula | Use Case |
 |:---|:---|:---|
-| **E (Photon)** | E = \frac{12400}{\\lambda (\text{\AA})} \text{ eV} | Rapid \\lambda \rightarrow E conversion. |
+| **E (Photon)** | E = \frac{12400}{\lambda (\text{\AA})} \text{ eV} | Rapid \lambda \rightarrow E conversion. |
 | **Max Electrons** | 2n^2 and a shell | Total count. |
 | **Max Electrons** | 2(2l+1) n a subshell | s=2, p=6, d=10, f=14. |
 | **Spectral Lines** | \frac{(n_2-n_1)(n_2-n_1+1)}{2} = \sqrt{l(l+1)\frac{h{2\pi}}  | When jumping between ANY two levels. |
@@ -291,7 +291,7 @@ A)
 B) 6.6 \times 10^{-31} $\text{ m}$
 C) 6.6 \times 10^{-37} $\text{ m}$
 D) Undefinable
-*Answer: A (\\lambda = h/mv = (6.6 \times 10^{-34}) / (1 \times 1) = 6.6 \times 10^{-34} $\text{ m}$).*
+*Answer: A (\lambda = h/mv = (6.6 \times 10^{-34}) / (1 \times 1) = 6.6 \times 10^{-34} $\text{ m}$).*
 
 ---
 
@@ -315,7 +315,7 @@ For your school exams, always draw the Rydberg series energy level diagram (n=1 
 ---
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

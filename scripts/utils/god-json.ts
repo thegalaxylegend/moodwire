@@ -94,9 +94,12 @@ function repairStructure(s: string): string {
         const map: Record<string, string> = { True: 'true', False: 'false', None: 'null', NaN: 'null', Infinity: '9e99' };
         return map[m] ?? m;
     });
-    // Double-escape LaTeX backslashes inside JSON strings (\\frac → \\\\frac)
+    // Double-escape ALL LaTeX backslashes inside JSON strings
+    // CRITICAL FIX: Old code excluded \b and \f from escaping, which caused
+    // JSON.parse to convert \binom → backspace+inom and \frac → formfeed+rac.
+    // Now we escape ALL non-standard sequences (only preserve \", \\, \/, \n, \r, \t, \uXXXX).
     r = r.replace(/"((?:[^"\\]|\\.)*)"/gs, (_m, inner: string) => {
-        const fixed = inner.replace(/\\(?!["\\/bfnrtu])/g, '\\\\');
+        const fixed = inner.replace(/\\(?!["\\\/nrtu])/g, '\\\\');
         return `"${fixed}"`;
     });
     return r;

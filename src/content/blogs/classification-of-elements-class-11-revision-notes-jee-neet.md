@@ -77,7 +77,7 @@ The core concepts and the classification of [elements](/blog/the-p-block-element
 
 * $Z = p + n$, where $Z$ is the atomic number, $p$ is the number of protons, n $n$ is the number of neutrons
 * $A = p + n$, where $A$ is the mass number
-* $\\lambda = \frac{h}{mv}$, where $\\lambda$ is the wavelength, $h$ is Planck's constant, $m$ is the mass, n $v$ is the velocity
+* $\lambda = \frac{h}{mv}$, where $\lambda$ is the wavelength, $h$ is Planck's constant, $m$ is the mass, n $v$ is the velocity
 
 ## <a id="trends-n-physical-n-chemical-properties"></a>Trends and Physical and Chemical Properties
 
@@ -93,7 +93,7 @@ Here are some examples of LaTeX equations related to the classification of [elem
 
 * The electronic configuration of an element can be represented as: $1s^2 2s^2 2p^6$
 * The atomic radius of an element can be calculated using the formula: $r = \frac{a}{Z}$, where $r$ is the atomic radius, $a$ is a constant, n $Z$ is the atomic number
-* The ionization energy of an element can be represented as: $\delta E = \frac{hc}{\\lambda}$, where $\delta E$ is the ionization energy, $h$ is Planck's constant, $c$ is the speed of light, n $\\lambda$ is the wavelength
+* The ionization energy of an element can be represented as: $\delta E = \frac{hc}{\lambda}$, where $\delta E$ is the ionization energy, $h$ is Planck's constant, $c$ is the speed of light, n $\lambda$ is the wavelength
 
 As I continue to explore the world of [chemistry](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet), I realize that the classification of elements is a fundamental concept that underlies many of the principles and reactions that we study. By understanding the periodic table and the trends and physical and chemical properties, I can better appreciate the beauty and complexity of the chemical world. Whether I'm solving problems, practicing MCQs, or simply exploring the properties of different elements, I know that the classification of elements will remain a vital tool and my journey as a chemistry student. 
 
@@ -274,7 +274,7 @@ By mastering the classification of elements, I can develop a strong foundation a
 As I continue to explore the world of chemistry, I realize that the classification of elements is a fundamental concept that underlies many of the principles and reactions that we study. By understanding the periodic table and the trends and physical n
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

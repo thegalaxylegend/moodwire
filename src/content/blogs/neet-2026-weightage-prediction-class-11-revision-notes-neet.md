@@ -103,7 +103,7 @@ Data shows that 70% of the NEET paper comes from only 35% of the syllabus. If yo
 **Practice Tip:** Don't just read the theory. Apply these concepts y practicing our [NEET Past Year Questions](/neet). Focus heavily on the years 2018–2025, as they represent the modern NTA pattern.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

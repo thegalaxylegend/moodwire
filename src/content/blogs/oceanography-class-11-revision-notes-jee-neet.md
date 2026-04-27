@@ -180,7 +180,7 @@ Before moving on, ensure you can:
 By confirming your understanding of these essential areas, you'll be confident and your ability to tackle oceanography and succeed and your studies.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

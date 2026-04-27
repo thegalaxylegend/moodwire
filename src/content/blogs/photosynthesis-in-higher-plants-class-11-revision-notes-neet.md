@@ -142,7 +142,7 @@ C) $H_2O \rightarrow ATP + NADPH + O_2$ D) $CO_2$ + $H_2O\rightarrow Glucose + O
 Last Updated: March 16, 2026
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

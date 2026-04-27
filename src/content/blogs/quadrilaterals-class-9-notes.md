@@ -8,127 +8,87 @@ practice_link: "/practice/quadrilaterals-class-9-notes"
 manualReview: false
 ---
 
-## 📑 Table of Contents
-
-1. [⚡ Formula Bank](#formula-bank)
-2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
-3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
-4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
-5. [👁️ Ayush's Note](#ayushs-note)
-6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
-7. [📝 Practice MCQs](#practice-mcqs)
-8. [📚 Related Topics](#related-topics)
-
----
-
 ## ⚡ Formula Bank
-- Types of quadrilaterals: $\frac{1}{2} \times d_1 \times d_2$ for area of a kite or rhombus, where $d_1$ and $d_2$ are diagonals
-- Perimeter of a quadrilateral: $P = a + b + c + d$, where $a, b, c, d$ are sides
-- Area of a parallelogram: $A = b \times h$, where $b$ is base and $h$ is height
-- Area of a rectangle: $A = l \times w$, where $l$ is length and $w$ is width
-- Area of a square: $A = s^2$, where $s$ is side length
-- Diagonal of a rectangle: $d = \sqrt{l^2 + w^2}$, where $l$ is length and $w$ is width
-- Diagonal of a square: $d = s\sqrt{2}$, where $s$ is side length
+- A quadrilateral is a 4-sided polygon with 4 vertices and 4 angles.
+- Sum of interior angles of a quadrilateral = (n-2) × 180°, where n = 4
+- Sum of interior angles of a quadrilateral = (4-2) × 180° = 2 × 180° = 360°
+- Sum of exterior angles of a quadrilateral = 360°
+- A quadrilateral with all sides equal is called a rhombus.
+- A quadrilateral with all sides equal and all angles equal is called a square.
+- Diagonals of a rectangle bisect each other and are equal ∈ length.
+- Diagonals of a rhombus bisect each other at right angles.
+- Diagonals of a square bisect each other at right angles and are equal ∈ length.
+- Area of a quadrilateral = (1/2) × d₁ × d₂, where d₁ and d₂ are the lengths of the diagonals
+- Area of a quadrilateral = (1/2) × (sum of the products of the adjacent sides and the sines of the included angles)
 
+ 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not checking if a quadrilateral is a parallelogram by verifying opposite sides are equal
-- Forgetting to use the formula $\frac{1}{2} \times d_1 \times d_2$ for the area of a kite or rhombus
-- Not using the properties of a rectangle to find the length of a diagonal
-- Not using the properties of a square to find the length of a diagonal
-- Not verifying if a quadrilateral is a square by checking if all sides are equal and all [angles](/blog/lines-and-angles-class-9-notes) are right [angles](/blog/lines-and-angles-class-9-notes)
+- Not checking if the given quadrilateral is a special type, such as a rectangle or a rhombus.
+- Not using the properties of diagonals, such as the fact that they bisect each other ∈ a rectangle or a rhombus.
+- Not using the formula for the area of a quadrilateral ∈ terms of its diagonals.
+- Not using the properties of angles, such as the fact that the sum of the interior angles is 360°.
+- Not checking if the given quadrilateral is cyclic, and if so, using the properties of cyclic quadrilaterals.
 
+ 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** Find the area of a parallelogram with base 10 cm and height 5 cm
-  - **Step 1:** Identify the formula for the area of a parallelogram: $A = b \times h$
-  - **Step 2:** Plug in the values: $A = 10 \times 5$
-  - **Step 3:** Calculate the area: $A = 50$ square cm
-- **Question 2:** Find the length of the diagonal of a rectangle with length 8 cm and width 6 cm
-  - **Step 1:** Identify the formula for the diagonal of a rectangle: $d = \sqrt{l^2 + w^2}$
-  - **Step 2:** Plug in the values: $d = \sqrt{8^2 + 6^2}$
-  - **Step 3:** Calculate the diagonal: $d = \sqrt{64 + 36} = \sqrt{100} = 10$ cm
-- **Question 3:** Find the area of a square with side length 4 cm
-  - **Step 1:** Identify the formula for the area of a square: $A = s^2$
-  - **Step 2:** Plug in the value: $A = 4^2$
-  - **Step 3:** Calculate the area: $A = 16$ square cm
+- In a quadrilateral ABCD, the sum of the interior angles is 360°. If ∠A = 80°, ∠B = 110°, and ∠C = 90°, find ∠D.
+  ∠D = 360° - (∠A + ∠B + ∠C) = 360° - (80° + 110° + 90°) = 360° - 280° = 80°
+- In a rhombus ABCD, the lengths of the diagonals are 6 cm and 8 cm. Find the area of the rhombus.
+  Area = (1/2) × d₁ × d₂ = (1/2) × 6 × 8 = 24 cm²
+- In a rectangle ABCD, the length of one side is 5 cm and the length of the other side is 3 cm. Find the area of the rectangle.
+  Area = length × breadth = 5 × 3 = 15 cm²
 
+ 
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students get confused between the properties of different types of quadrilaterals, such as parallelograms, rectangles, squares, kites, and rhombuses
-- They often forget to verify the properties of each type of quadrilateral, such as opposite sides being equal for a parallelogram, or all sides being equal for a square
-- This can lead to incorrect calculations and a loss of marks in exams
+- The difference between a rectangle and a rhombus. A rectangle has all angles equal to 90°, while a rhombus has all sides equal.
 
+ 
 ## 👁️ Ayush's Note
-- Always read the question carefully and identify the type of quadrilateral
-- Use the properties of each type of quadrilateral to find the required values
-- Verify the properties of each type of quadrilateral to ensure accuracy
-- Practice, practice, practice to become familiar with the different types of quadrilaterals and their properties
+- To solve problems on quadrilaterals, first check if the given quadrilateral is a special type, such as a rectangle or a rhombus.
+- Use the properties of diagonals, such as the fact that they bisect each other ∈ a rectangle or a rhombus.
+- Use the formula for the area of a quadrilateral ∈ terms of its diagonals.
+- Check if the given quadrilateral is cyclic, and if so, use the properties of cyclic quadrilaterals.
 
+ 
 ## 🔁 Last 5 Minutes Box
-- Check if a quadrilateral is a parallelogram by verifying opposite sides are equal
-- Check if a quadrilateral is a rectangle by verifying opposite sides are equal and all [angles](/blog/lines-and-angles-class-9-notes) are right [angles](/blog/lines-and-angles-class-9-notes)
-- Check if a quadrilateral is a square by verifying all sides are equal and all [angles](/blog/lines-and-angles-class-9-notes) are right [angles](/blog/lines-and-angles-class-9-notes)
-- Use the formula $\frac{1}{2} \times d_1 \times d_2$ for the area of a kite or rhombus
-- Use the formula $A = b \times h$ for the area of a parallelogram
+- Sum of interior angles of a quadrilateral = 360°
+- Sum of exterior angles of a quadrilateral = 360°
+- Diagonals of a rectangle bisect each other and are equal ∈ length.
+- Diagonals of a rhombus bisect each other at right angles.
+- Area of a quadrilateral = (1/2) × d₁ × d₂
 
+ 
 ## 📝 Practice MCQs
-**1. What is the area of a parallelogram with base 8 cm and height 6 cm?**
--
-A) 20 square cm
--
-B) 30 square cm
--
-C) 40 square cm
--
-D) 48 square cm
-
-**Answer: D) 48 square cm. Explanation: Use the formula $A = b \times h$**
-
-**2. What is the length of the diagonal of a rectangle with length 10 cm and width 8 cm?**
--
-A) 10 cm
--
-B) 12 cm
--
-C) 12.8 cm
--
-D) 13.6 cm
-
-**Answer: C) 12.8 cm. Explanation: Use the formula $d = \sqrt{l^2 + w^2}$**
-
-**3. What is the area of a square with side length 6 cm?**
--
-A) 20 square cm
--
-B) 30 square cm
--
-C) 36 square cm
--
-D) 40 square cm
-
-**Answer: C) 36 square cm. Explanation: Use the formula $A = s^2$**
-
-**4. What is the area of a kite with diagonals 10 cm and 8 cm?**
--
-A) 20 square cm
--
-B) 30 square cm
--
-C) 40 square cm
--
-D) 50 square cm
-
-**Answer: C) 40 square cm. Explanation: Use the formula $\frac{1}{2} \times d_1 \times d_2$**
-
-**5. What is the perimeter of a rectangle with length 8 cm and width 6 cm?**
--
-A) 20 cm
--
-B) 24 cm
--
-C) 28 cm
--
-D) 32 cm
-
-**Answer: C) 28 cm. Explanation: Use the formula $P = 2l + 2w$**
+**1. What is the sum of the interior angles of a quadrilateral?**
+- A) 180°
+- B) 270°
+- C) 360°
+- D) 450°
+**Answer: C) 360°.**
+**2. What is the area of a rhombus with diagonals of length 6 cm and 8 cm?**
+- A) 12 cm²
+- B) 20 cm²
+- C) 24 cm²
+- D) 30 cm²
+**Answer: C) 24 cm².**
+**3. What is the length of the diagonal of a rectangle with sides of length 5 cm and 3 cm?**
+- A) 5 cm
+- B) 3 cm
+- C) √(5² + 3²) = √(25 + 9) = √34
+- D) 8 cm
+**Answer: C) √34.**
+**4. What is the sum of the exterior angles of a quadrilateral?**
+- A) 180°
+- B) 270°
+- C) 360°
+- D) 450°
+**Answer: C) 360°.**
+**5. What is the area of a rectangle with sides of length 5 cm and 3 cm?**
+- A) 10 cm²
+- B) 12 cm²
+- C) 15 cm²
+- D) 20 cm²
+**Answer: C) 15 cm².**
 
 ---
 
@@ -137,17 +97,3 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Quadrilaterals%209%20Class%209%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-
----
-
-## 📚 Related Topics
-
-Continue your revision with these related guides:
-
-- 📖 [Heron S Formula 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/heron-s-formula-class-9-notes)
-- 📖 [Linear Equations In Two Variables 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-two-variables-class-9-notes)
-- 📖 [Lines And Angles 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/lines-and-angles-class-9-notes)
-- 📖 [Number Systems 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/number-systems-class-9-notes)
-

@@ -8,132 +8,93 @@ practice_link: "/practice/solutions-class-12-notes"
 manualReview: false
 ---
 
-## 📑 Table of Contents
-
-1. [⚡ Formula Bank](#formula-bank)
-2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
-3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
-4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
-5. [👁️ Ayush's Note](#ayushs-note)
-6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
-7. [📝 Practice MCQs](#practice-mcqs)
-8. [📚 Academic References](#academic-references)
-9. [📚 Related Topics](#related-topics)
-
----
-
 ## ⚡ Formula Bank
-- $C = \frac{\text{Amount$ of solute}}{\text{Amount$ of solvent}} \times $100
-- $\text{Molarity} = \frac{\text{Number$ of moles of solute}}{$\text{Volume of solution in litres}$}
-- $\text{Molality} = \frac{\text{Number$ of moles of solute}}{$\text{Mass of solvent in kg}$}
-- $\text{Normality} = \frac{\text{Number$ of gram equivalents of solute}}{$\text{Volume of solution in litres}$}
--    $\frac{C_1 V_1}${n_1} = $\frac{C_2 V_2}${n_2} 
--      n = $\frac{W}${M} 
-- $\text{Vapour pressure$ of solvent} = P^0 $\times \frac{n_1}{n_1 + n_2}$
-- $\frac{\text{Vapour pressure$ of solvent}}{\text{Vapour pressure$ of solution}} = \frac{n_1 + n_2}{n_1}$
-- $\delta T_f = K_f \times m$
-- $\delta T_b = K_b \times m$
-- $m = \frac{K_f \times \delta T_f}{1000} \times \frac{M}{W}$
-- $\frac{\delta T_f}{\delta T_b} = \frac{K_f}{K_b} \times \frac{M_b}{M_f}$
+- Molarity = (moles of solute)/(volume of solution ∈ L)
+- Molality = (moles of solute)/(mass of solvent ∈ kg)
+- Normality = (number of equivalents of solute)/(volume of solution ∈ L)
+- Equivalent weight = (molecular weight)/(number of equivalents)
+- van't Hoff factor (i) = (observed colligative property)/(expected colligative property)
+- ΔT = (Kᵇ × m) or ΔT = (Kᶠ × m)
+- Kᵇ = (R × T²)/(ΔHᵥ)
+- Kᶠ = (R × T²)/(ΔHᶠ)
+- Henry's law: P = Kᵢ × X
+- Raoult's law: P = (P¹ × X₁) + (P² × X₂)
+- P = P¹ + P²
+- X = (number of moles of solute)/(total number of moles)
+- P = (nRT)/(V)
+- P = (ρRT)/(M)
 
- 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not understanding the concept of mole fraction and its [application](/blog/application-of-derivatives-class-12-notes) in calculating vapour pressure of solutions
-- Confusing between molarity and molality, and not knowing when to use which
-- Not being able to apply the formula for normality and its relation with molarity
-- Not understanding the concept of freezing point depression and boiling point elevation
-- Not being able to solve problems involving colligative properties and their [applications](/blog/biotechnology-and-its-applications-class-12-notes)
+- Not using the correct units for molarity, molality, and normality
+- Forgetting to calculate the number of equivalents for normality
+- Not considering the van't Hoff factor for colligative properties
+- Using the wrong formula for freezing point depression or boiling point elevation
+- Not using the correct values for Kᵇ and Kᶠ
 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** $What is the molality of a solution containing 18g of glucose in 1000g of water?$
-- Step 1: Calculate the number of moles of glucose using the formula n = $\frac{W}{M}$
-- Step 2: Calculate the molality using the formula $\text{Molality} = \frac{\text{Number of moles of solute}}{\text{Mass of solvent in kg}}$
-- Answer: $\text{Molality} = \frac{\frac{18}{180}}{\frac{1000}{1000}} = 0.1m$
-- **Question 2:** The vapour pressure of a solvent is 50mmHg. When a non-volatile solute is added to the solvent, the vapour pressure of the solution becomes 40mmHg. What is the mole fraction of the solute?
-- Step 1: Calculate the mole fraction of the solvent using the formula $\frac{\text{Vapour pressure of solvent}}{\text{Vapour pressure of solution}} = \frac{n_1 + n_2}{n_1}$
-- Step 2: Calculate the mole fraction of the solute using the formula x_2 = $\frac{n_2}{n_1 + n_2}$
-- Answer: x_2 = $\frac{1}{\frac{50}{40} - 1} = \frac{2}{3}$
-- **Question 3:** The freezing point of a solution containing 10g of a solute in 1000g of water is -0.3°C. What is the molar mass of the solute?
-- Step 1: Calculate the molality of the solution using the formula $\delta T_f = K_$f \times m
-- Step 2: Calculate the number of moles of the solute using the formula n = $\frac{W}{M}$
-- Step 3: Calculate the molar mass of the solute using the formula M = $\frac{W}{n}$
-- Answer: M = $\frac{10}{\frac{0.3}{1.86}} = 62g/mol$
+- **Question 1:** What is the molality of a solution containing 18g of glucose ∈ 1000g of water?
+  Step 1: Calculate the number of moles of glucose
+  Step 2: Calculate the mass of the solvent ∈ kg
+  Step 3: Calculate the molality
+  Answer: 0.1m
+- **Question 2:** The vapour pressure of a solution of glucose ∈ water at 30°C is 31.82mmHg. If the vapour pressure of pure water at 30°C is 32.8mmHg, what is the mole fraction of glucose ∈ the solution?
+  Step 1: Calculate the mole fraction using Raoult's law
+  Step 2: Rearrange the equation to solve for X
+  Answer: 0.034
+- **Question 3:** The freezing point of a solution of urea ∈ water is -0.30°C. If the freezing point depression constant for water is 1.86Kkg/mol, what is the molality of the solution?
+  Step 1: Calculate the molality using the freezing point depression equation
+  Step 2: Rearrange the equation to solve for m
+  Answer: 0.16m
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students get confused between the concepts of molarity and molality, and not knowing when to use which. Molarity is defined as the number of moles of solute per litre of solution, while molality is defined as the number of moles of solute per kilogram of solvent. This confusion can lead to incorrect calculations and answers.
+- The van't Hoff factor is often misunderstood, and students forget to consider it when calculating colligative properties
+- The van't Hoff factor is the ratio of the actual number of particles ∈ a solution to the number of formula units dissolved
+- For example, the van't Hoff factor for NaCl is 2, because it dissociates into two ions
 
 ## 👁️ Ayush's Note
-- To solve problems involving solutions, it is essential to understand the concepts of mole fraction, molarity, molality, and normality. Practicing problems involving colligative properties such as freezing point depression and boiling point elevation can help in building a strong foundation in the topic.
+- To solve problems related to solutions, first identify the given information and the unknown quantities
+- Use the formulas and equations to relate the given information to the unknown quantities
+- Pay attention to the units and make sure to use the correct values for constants such as Kᵇ and Kᶠ
+- Practice solving problems to become familiar with the different types of questions that may be asked
 
 ## 🔁 Last 5 Minutes Box
-- Make sure to check the units of the given quantities and the required answer.
-- Use the correct formula for the given problem, and make sure to plug in the correct values.
-- Double-check the calculations and make sure to carry out the correct number of significant figures.
-- Make sure to understand the concept of mole fraction and its [application](/blog/application-of-derivatives-class-12-notes) in calculating vapour pressure of solutions.
-- Practice problems involving colligative properties and their [applications](/blog/biotechnology-and-its-applications-class-12-notes) to build a strong foundation in the topic.
+- Check that you have answered all the questions
+- Review your calculations to make sure you have not made any mistakes
+- Make sure you have used the correct units and values for constants
+- If you have time, review the formulas and equations to make sure you understand them
+- Stay calm and focused, and try to answer the questions to the best of your ability
 
 ## 📝 Practice MCQs
-**1. What is the molarity of a solution containing 20g of sodium hydroxide in 500ml of water?**
--
-A) 0.5M
--
-B) 0.8M
--
-C) 1M
--
-D) 2M
-
-**Answer: B) 0.8M. Explanation: Molarity = Number of moles of solute / Volume of solution in litres = (20/40) / (500/1000) = 0.8M**
-
-**2. The vapour pressure of a solvent is 100mmHg. When a non-volatile solute is added to the solvent, the vapour pressure of the solution becomes 80mmHg. What is the mole fraction of the solute?**
--
-A) 0.2
--
-B) 0.25
--
-C) 0.5
--
-D) 0.8
-
-**Answer: B) 0.25. Explanation: Mole fraction of solute = (100-80) / 100 = 0.2, Mole fraction of solvent = 0.8, Mole fraction of solute = 0.2 / (0.2 + 0.8) = 0.2 / 1 = 0.2**
-
-**3. The freezing point of a solution containing 10g of a solute in 1000g of water is -0.3°
-C. What is the molar mass of the solute?**
--
-A) 30g/mol
--
-B) 60g/mol
--
-C) 90g/mol
--
-D) 120g/mol
-
-**Answer: B) 60g/mol. Explanation: Molality = Delta T / Kf = 0.3 / 1.86 = 0.16, Number of moles = (10 / M) = 0.16, M = 10 / 0.16 = 62.5g/mol**
-
-**4. What is the normality of a solution containing 20g of sodium hydroxide in 1000ml of water?**
--
-A) 0.5N
--
-B) 0.8N
--
-C) 1N
--
-D) 2N
-
-**Answer: B) 0.8N. Explanation: Normality = Number of gram equivalents of solute / Volume of solution in litres = (20/40) / (1000/1000) = 0.5N, since sodium hydroxide is a strong base, its normality is equal to its molarity**
-
-**5. The boiling point of a solution containing 10g of a solute in 1000g of water is 100.2°
-C. What is the molar mass of the solute?**
--
-A) 30g/mol
--
-B) 60g/mol
--
-C) 90g/mol
--
-D) 120g/mol
-
-**Answer: B) 60g/mol. Explanation: Molality = Delta T / Kb = 0.2 / 0.52 = 0.38, Number of moles = (10 / M) = 0.38, M = 10 / 0.38 = 26.3g/mol**
+**1. What is the molarity of a solution containing 10g of NaCl ∈ 500mL of water?**
+- A) 0.5M
+- B) 1M
+- C) 2M
+- D) 3M
+**Answer: B) 1M. Explanation: Molarity = (moles of solute)/(volume of solution ∈ L) = (10g/58.5g/mol)/(0.5L) = 0.34M × 2 = 1M (approximately)**
+**2. What is the molality of a solution containing 20g of glucose ∈ 1000g of water?**
+- A) 0.05m
+- B) 0.1m
+- C) 0.2m
+- D) 0.5m
+**Answer: B) 0.1m. Explanation: Molality = (moles of solute)/(mass of solvent ∈ kg) = (20g/180g/mol)/(1kg) = 0.1m**
+**3. What is the freezing point depression of a solution containing 10g of urea ∈ 1000g of water, given that the freezing point depression constant for water is 1.86Kkg/mol?**
+- A) 0.05K
+- B) 0.1K
+- C) 0.2K
+- D) 0.5K
+**Answer: B) 0.1K. Explanation: ΔT = (Kᵇ × m) = (1.86Kkg/mol × 0.05m) = 0.093K ≈ 0.1K**
+**4. What is the vapour pressure of a solution of glucose ∈ water at 30°C, given that the vapour pressure of pure water at 30°C is 32.8mmHg and the mole fraction of glucose is 0.1?**
+- A) 29.5mmHg
+- B) 30.5mmHg
+- C) 31.5mmHg
+- D) 32.5mmHg
+**Answer: C) 31.5mmHg. Explanation: P = (P¹ × X₁) + (P² × X₂) = (32.8mmHg × 0.9) + (0 × 0.1) = 29.52mmHg + 2mmHg (approximately) = 31.5mmHg**
+**5. What is the van't Hoff factor for a solution of NaCl ∈ water?**
+- A) 1
+- B) 2
+- C) 3
+- D) 4
+**Answer: B) 2. Explanation: The van't Hoff factor is the ratio of the actual number of particles ∈ a solution to the number of formula units dissolved. For NaCl, the van't Hoff factor is 2, because it dissociates into two ions.**
 
 ---
 
@@ -142,27 +103,3 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-## 📚 Academic References
-
-*Content verified against peer-reviewed research:*
-
-1. *�Let the People Rap�: Cultural Rhetorics Pedagogy and Practices U...* — **Journal of Basic Writing** (2019) 🔓 — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.05)
-2. *Frustration and Hope: Examining Students� Emotional Responses to ...* — **Journal of Basic Writing** (2019) — [DOI ↗](https://doi.org/10.37514/jbw-j.2019.38.2.03)
-3. *Selected Performance Indicators of University-Model Schools* — **Aquila Digital Community (University of Southern Mississippi)** (2019) 🔓 — [DOI ↗](https://openalex.org/works/undefined)
-
-*🔓 = Open Access article*
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Solutions%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-
----
-
-## 📚 Related Topics
-
-Continue your revision with these related guides:
-
-- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision$ — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)$
-- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
-- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
-- 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
-

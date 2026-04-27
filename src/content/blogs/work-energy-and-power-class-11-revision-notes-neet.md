@@ -180,7 +180,7 @@ Energy is the invisible currency of the universe. By shifting our perspective fr
 **Reference:** [Journal of Energy and Power Technology](https://www.lidsen.com/journals/jept)
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

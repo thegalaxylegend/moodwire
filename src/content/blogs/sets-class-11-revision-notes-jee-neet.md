@@ -160,7 +160,7 @@ Sets are more than just lists of [numbers](/blog/complex-numbers-class-11-revisi
 ---
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

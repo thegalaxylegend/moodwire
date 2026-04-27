@@ -322,133 +322,14 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
         report.regenerate_all = true;
     }
 
-    // 11b. Case-Mangled LaTeX Commands: \fRAC, \tEXT, \tTIMES
-    // Root Cause #2: LLM output LaTeX commands with wrong casing.
-    const caseMangledRegex = /\\(fRAC|tEXT|tTIMES|sQRT|sUM|iNT|pROD)/g;
-    const caseMangledCount = (contentStr.match(caseMangledRegex) || []).length;
-    if (caseMangledCount > 0) {
-        score -= 20;
-        report.critical_failures.push(`Case-mangled LaTeX detected: ${caseMangledCount} commands (e.g. \\fRAC instead of \\frac)`);
-    }
-
-    // 11c. Naked LaTeX (no $ delimiters)
-    // Root Cause #3: LaTeX commands like \frac{...} without $...$ wrapping render as plaintext.
-    const nakedFracCount = (contentStr.match(/(?<!\$)\\frac\{/g) || []).length;
-    const nakedTextCount = (contentStr.match(/(?<!\$)\\text\{/g) || []).length;
-    const nakedSumCount = (contentStr.match(/(?<!\$)\\sum\b/g) || []).length;
-    const totalNaked = nakedFracCount + nakedTextCount + nakedSumCount;
-    if (totalNaked > 0) {
-        score -= (totalNaked * 5); // 5 points per naked command
-        report.critical_failures.push(`${totalNaked} naked LaTeX commands (\frac, \text, \sum) without $ delimiters found. This breaks rendering.`);
-    }
-
-    // 11d. JSON Squashing Detection & REPAIR (Root Cause #4)
-    // Fix: If we find squashed JSON, we try to fix it before checking
-    let totalSquashed = 0;
-    (post.content?.sections || []).forEach(sec => {
-        if (typeof sec.body === 'string' && /"heading"\s*:\s*"[^"]*"\s*,\s*"body"\s*:/.test(sec.body)) {
-            totalSquashed++;
-            try {
-                // Try to parse the squashed content
-                const squashed = JSON.parse(sec.body);
-                if (squashed.body) {
-                    sec.body = squashed.body;
-                    if (squashed.table) sec.table = squashed.table;
-                    report.auto_fixed.push({ field: 'section_body_squash', old: 'JSON string', new: 'Extracted Content' });
-                }
-            } catch (e) {
-                // If native JSON parse fails, try a fuzzy match
-                const bodyMatch = sec.body.match(/"body"\s*:\s*"((?:[^"\\\\]|\\\\.)*)"/);
-                if (bodyMatch) {
-                    sec.body = bodyMatch[1].replace(/\\n/g, '\n').replace(/\\"/g, '"');
-                    report.auto_fixed.push({ field: 'section_body_squash_fuzzy', old: 'JSON string', new: 'Fuzzy Extracted Content' });
-                }
-            }
-        }
-    });
-
-    if (totalSquashed > 0) {
-        // We still penalize slightly to discourage the behavior, but it's no longer a 40pt critical failure if fixed
-        score -= 5; 
-        report.warnings.push(`Fixed ${totalSquashed} instances of JSON squashing in section bodies.`);
-    }
-
     // 11e. Heading Hallucination: "Solved Yes" instead of "Solved PYQs"
     if (contentStr.includes('solved yes')) {
         score -= 3;
         report.warnings.push('Heading hallucination: "Solved Yes" should be "Solved PYQs"');
     }
 
-    // ========= 12. ULTRA RAW MATH RENDERING DETECTION =========
-
-    // 12a. Bare Greek symbols inside $...$ without backslash
-    // e.g. $cos(theta)$ instead of $\cos(\theta)$
-    const bareGreekInMath = (contentStr.match(/\$[^$]*(?<!\\)\b(theta|alpha|beta|gamma|delta|omega|phi|psi|epsilon|sigma|lambda|mu|rho|pi|infty|nabla)\b[^$]*\$/g) || []).length;
-    if (bareGreekInMath > 0) {
-        score -= Math.min(10, bareGreekInMath * 2);
-        report.warnings.push(`${bareGreekInMath} bare Greek symbols without backslash inside math`);
-    }
-
-    // 12b. Split \neq across lines (renders as linebreak + "eq")
-    const splitNeq = (contentStr.match(/\$\s*\n\s*eq\s/g) || []).length;
-    if (splitNeq > 0) {
-        score -= splitNeq * 3;
-        report.warnings.push(`${splitNeq} split \\neq across lines (renders as linebreak + "eq")`);
-    }
-
-    // 12c. Split dollar fractions: $\frac{...$}{$...$}
-    const splitFrac = (contentStr.match(/\$\\frac\{[^$]*?\$\}\{\$/g) || []).length;
-    if (splitFrac > 0) {
-        score -= splitFrac * 5;
-        report.critical_failures.push(`${splitFrac} split dollar fractions (\$\\frac{..\$}{\$..\$})`);
-    }
-
-    // 12d. \sum used as English word "sum" in prose
-    const sumAsWord = (contentStr.match(/(?<!\$[^$]*)\\sum\b(?![_{^])/g) || []).length;
-    if (sumAsWord > 3) {
-        score -= 5;
-        report.warnings.push(`${sumAsWord} instances of \\sum used as English word "sum"`);
-    }
-
-    // 12e. \times in prose (not inside $...$)
-    const timesInProse = (contentStr.match(/(?<!\$[^$]*)\\times\b(?![^$]*\$)/g) || []).length;
-    if (timesInProse > 0) {
-        score -= Math.min(5, timesInProse);
-        report.warnings.push(`${timesInProse} \\times in prose (should be × or inside $...$)`);
-    }
-
-    // 12f. Unclosed braces in inline math $...$
-    const inlineMathBlocks = contentStr.match(/\$[^$]+\$/g) || [];
-    let unclosedBraceCount = 0;
-    for (const block of inlineMathBlocks) {
-        const opens = (block.match(/\{/g) || []).length;
-        const closes = (block.match(/\}/g) || []).length;
-        if (opens > closes) unclosedBraceCount++;
-    }
-    if (unclosedBraceCount > 0) {
-        score -= unclosedBraceCount * 3;
-        report.warnings.push(`${unclosedBraceCount} inline math blocks with unclosed braces`);
-    }
-
-    // 12g. Trailing orphan braces/dollars at end of content
-    if (/\}{3,}\s*$/.test(contentStr)) {
-        score -= 5;
-        report.warnings.push('Trailing orphan braces at end of content');
-    }
-
-    // 12h. Raw LaTeX in MCQ options (\frac without $ in option lines)
-    const rawMcqLatex = (contentStr.match(/\*\*[A-D]\)\*\*\s+\\(?:frac|sqrt|text)\{/g) || []).length;
-    if (rawMcqLatex > 0) {
-        score -= rawMcqLatex * 3;
-        report.warnings.push(`${rawMcqLatex} MCQ options with raw LaTeX (missing $ delimiters)`);
-    }
-
-    // 12i. Double-escaped backslashes (\\\\cdot etc)
-    const doubleEscaped = (contentStr.match(/\\\\[a-z]+/g) || []).length;
-    if (doubleEscaped > 2) {
-        score -= 5;
-        report.warnings.push(`${doubleEscaped} double-escaped LaTeX commands`);
-    }
+    // ========= MATH RENDERING CHECKS (DISABLED) =========
+    // LaTeX validation is no longer needed since we use Unicode math natively.
 
     report.score = Math.max(0, score);
     report.passed = report.score >= 80; // Quality Gate Threshold
@@ -506,23 +387,7 @@ export function jsonToMarkdown(post: BlogPostJSON): string {
             if (Array.isArray(text)) return text.map(normalizeLaTeX).join('\n');
             try { return JSON.stringify(text); } catch { return String(text); }
         }
-        
-        // --- NEW: Raw LaTeX Wrapping Fix ---
-        // If it looks like a raw block but lacks delimiters, add them
-        let processed = text.trim();
-        if (processed.includes('\\displaystyle') || (processed.startsWith('{') && processed.endsWith('}') && processed.includes('\\'))) {
-             if (!processed.startsWith('$')) {
-                 processed = `$$\n${processed}\n$$`;
-             }
-        }
-
-        let result = processed.replace(/\\\\+([a-zA-Z])/g, '\\$1');
-        const commonMath = ['frac', 'times', 'text', 'Delta', 'theta', 'phi', 'alpha', 'beta', 'gamma', 'sum', 'int', 'neq', 'approx', 'pm', 'mp', 'le', 'ge'];
-        commonMath.forEach(cmd => {
-            const regex = new RegExp(`(?<![a-zA-Z\\\\])${cmd}(?![a-zA-Z])`, 'g');
-            result = result.replace(regex, `\\${cmd}`);
-        });
-        return result;
+        return text.trim();
     }
 
     function isValidTable(table: any): boolean {
@@ -684,114 +549,10 @@ export function checkLatexIntegrity(text: string): string {
     return checkFormattingIntegrity(text);
 }
 
-/**
- * Ensures LaTeX and Markdown formatting delimiters are balanced to prevent UI breakage.
- * Fixes P2.3: Prevents bold/code/math bleeding across the entire page.
- */
 export function checkFormattingIntegrity(text: string): string {
     if (!text) return "";
 
     let repaired = text;
-
-    // ========= NEW: Case-normalize mangled LaTeX commands =========
-    // Catches \fRAC → \frac, \tEXT → \text, etc.
-    const KNOWN_COMMANDS: Record<string, string> = {
-        'frac': 'frac', 'text': 'text', 'times': 'times', 'sqrt': 'sqrt',
-        'sum': 'sum', 'int': 'int', 'prod': 'prod', 'alpha': 'alpha',
-        'beta': 'beta', 'gamma': 'gamma', 'delta': 'delta', 'theta': 'theta',
-        'pi': 'pi', 'sigma': 'sigma', 'omega': 'omega', 'lambda': 'lambda',
-        'infty': 'infty', 'partial': 'partial', 'nabla': 'nabla',
-        'cdot': 'cdot', 'ldots': 'ldots', 'leq': 'leq', 'geq': 'geq',
-        'neq': 'neq', 'approx': 'approx', 'equiv': 'equiv', 'pm': 'pm',
-        'left': 'left', 'right': 'right', 'overline': 'overline',
-        'underline': 'underline', 'vec': 'vec', 'hat': 'hat', 'bar': 'bar',
-        'sin': 'sin', 'cos': 'cos', 'tan': 'tan', 'log': 'log', 'ln': 'ln',
-        'lim': 'lim', 'begin': 'begin', 'end': 'end', 'boxed': 'boxed',
-        'mathrm': 'mathrm', 'mathbb': 'mathbb', 'binom': 'binom',
-        'displaystyle': 'displaystyle', 'cancel': 'cancel',
-    };
-    repaired = repaired.replace(/\\([a-zA-Z]+)/g, (match, cmd) => {
-        const lower = cmd.toLowerCase();
-        if (KNOWN_COMMANDS[lower] && cmd !== KNOWN_COMMANDS[lower]) {
-            return '\\' + KNOWN_COMMANDS[lower];
-        }
-        return match;
-    });
-
-    // ========= NEW: Deep-clean mangled LLM artifacts =========
-    // LLMs sometimes output weird characters when they fail at LaTeX escaping
-    repaired = repaired.replace(/rac/g, '\\frac')
-                       .replace(/	imes/g, '\\times')
-                       .replace(/lnleft\(/g, '\\ln\\left(')
-                       .replace(/ight\)/g, '\\right)')
-                       .replace(/sin\^\{-1\}/g, '\\sin^{-1}')
-                       .replace(/sin\b/g, '\\sin')
-                       .replace(/cos\b/g, '\\cos')
-                       .replace(/	heta/g, '\\theta')
-                       .replace(/^{circ}/g, '^{\\circ}')
-                       .replace(/(?<!\\)\blambda\b/g, '\\lambda');
-
-    // ========= NEW: Chemistry Hallucination Repair =========
-    repaired = repaired.replace(/\bRNA_2CO_3\b/g, 'Na_2CO_3')
-                       .replace(/\bRNA_2\b/g, 'Na_2')
-                       .replace(/\bNacli\b/g, 'NaCl')
-                       .replace(/\bKOHL\b/g, 'KOH')
-                       .replace(/\bCH_{3}COOL\b/g, 'CH_3COONa') // Probably Sodium Acetate
-                       .replace(/\bCH_{3}COOH\b/g, 'CH_3COOH')
-                       .replace(/\bNH_{4}CLR\b/g, 'NH_4Cl')
-                       .replace(/\\right arrow/g, '\\rightarrow')
-                       .replace(/\\right\s+arrow/g, '\\rightarrow');
-
-    // ========= NEW: Chemistry Hallucination Repair =========
-    repaired = repaired.replace(/\bRNA_2CO_3\b/g, 'Na_2CO_3')
-                       .replace(/\bRNA_2\b/g, 'Na_2')
-                       .replace(/\bNacli\b/g, 'NaCl')
-                       .replace(/\bKOHL\b/g, 'KOH')
-                       .replace(/\bCH_{3}COOL\b/g, 'CH_3COONa')
-                       .replace(/\bCH_{3}COOH\b/g, 'CH_3COOH')
-                       .replace(/\bNH_{4}CLR\b/g, 'NH_4Cl')
-                       .replace(/\bOK_{sp}\b/g, 'K_{sp}')
-                       .replace(/\(DSP\):/g, '(K_sp):')
-                       .replace(/\\right arrow/g, '\\rightarrow')
-                       .replace(/\\right\s+arrow/g, '\\rightarrow')
-                       .replace(/\bH_2OF\b/g, 'H_2O')
-                       .replace(/\bOH_{2}O\b/g, 'H_2O');
-
-    // ========= NEW: Wrap naked LaTeX in $ delimiters =========
-    // Detects \frac{...}, \text{...}, \sum, \Delta etc. OR Chemistry patterns like K_{sp}, H_2O
-    const nakedLatexRegex = /(?<!\$)\\(frac|text|sqrt|sum|Delta|theta|alpha|beta|gamma|phi|overline|underline|vec|hat|bar|boxed|mathrm|mathbb|binom|rightarrow|leftarrow|rightleftharpoons)\b/g;
-    const chemPatternRegex = /(?<!\$)\b([A-Z][a-z]?(_\{?[0-9a-z]+\}?)?(\^\{?[0-9+-]+\}?)?)\b(?!\$)/g;
-    
-    if (nakedLatexRegex.test(repaired) || chemPatternRegex.test(repaired)) {
-        // Process line by line to avoid breaking existing inline math
-        const lines = repaired.split('\n');
-        for (let i = 0; i < lines.length; i++) {
-            const line = lines[i];
-            if (/^\s*\$\$/.test(line)) continue; // Skip block math
-            if (/^\s*\|/.test(line)) continue; // Skip tables
-            
-            // Split on $ boundaries — only process non-math segments
-            const segments = line.split(/(\$[^$]*\$)/);
-            let modified = false;
-            for (let s = 0; s < segments.length; s++) {
-                if (s % 2 === 0) { // Outside $...$
-                    // 1. Wrap LaTeX commands
-                    let fixed = segments[s].replace(
-                        /\\(frac|text|sqrt|sum|Delta|theta|alpha|beta|gamma|phi|overline|underline|vec|hat|bar|boxed|mathrm|mathbb|binom|rightarrow|leftarrow|rightleftharpoons)(\{[^}]*\}|(?:\s|$))/g,
-                        (m) => { modified = true; return '$' + m.trim() + '$'; }
-                    );
-                    // 2. Wrap Chemistry patterns (e.g. H2O, K_sp)
-                    fixed = fixed.replace(
-                        /\b(K_\{?sp\}?|H_\{?2\}?O|CO_\{?2\}?|NH_\{?3\}?|NH_\{?4\}?|Cl\^\{?-\}?|Na\^\{?\+\}?|H\^\{?\+\}?|OH\^\{?-\}?)\b/g,
-                        (m) => { modified = true; return '$' + m.trim() + '$'; }
-                    );
-                    if (fixed !== segments[s]) segments[s] = fixed;
-                }
-            }
-            if (modified) lines[i] = segments.join('');
-        }
-        repaired = lines.join('\n');
-    }
 
     // ========= NEW: Remove truncation markers =========
     repaired = repaired.replace(/\(suggestion limit reached\)/g, '');
@@ -807,32 +568,6 @@ export function checkFormattingIntegrity(text: string): string {
     repaired = repaired.replace(/\b n \b/g, ' and ');
     repaired = repaired.replace(/\b N \b/g, ' And ');
 
-    // 1. Math Blocks ($$ and $)
-    const blockMathCount = (repaired.match(/\$\$/g) || []).length;
-    if (blockMathCount % 2 !== 0) repaired += '\n$$\n';
-
-    // Better Inline Math Repair (Line-by-line balancing)
-    const lines = repaired.split('\n');
-    let totalInlineCount = 0;
-    for (let i = 0; i < lines.length; i++) {
-        const line = lines[i];
-        if (line.includes('$$')) continue;
-        const inlineCount = (line.match(/(?<!\$)\$(?!\$)/g) || []).length;
-        if (inlineCount % 2 !== 0) {
-            // If it ends with a dangling $, remove it
-            if (line.trim().endsWith('$')) {
-                lines[i] = line.substring(0, line.lastIndexOf('$')) + line.substring(line.lastIndexOf('$') + 1);
-            } else {
-                // Otherwise close it
-                lines[i] = line + '$';
-            }
-        }
-        totalInlineCount += (lines[i].match(/(?<!\$)\$(?!\$)/g) || []).length;
-    }
-    repaired = lines.join('\n');
-    
-    if (totalInlineCount % 2 !== 0) repaired += '$';
-
     // 2. Bold and Italics (** and *)
     const boldCount = (repaired.match(/\*\*/g) || []).length;
     if (boldCount % 2 !== 0) repaired += '**';
@@ -840,13 +575,6 @@ export function checkFormattingIntegrity(text: string): string {
     // 3. Code Tags (`)
     const codeCount = (repaired.match(/(?<!`)`(?!`)/g) || []).length;
     if (codeCount % 2 !== 0) repaired += '`';
-
-    // 4. Brace check for \frac{}{}
-    const openBraces = (repaired.match(/\{/g) || []).length;
-    const closeBraces = (repaired.match(/\}/g) || []).length;
-    if (openBraces > closeBraces) {
-        repaired += '}'.repeat(openBraces - closeBraces);
-    }
 
     return repaired;
 }

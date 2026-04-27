@@ -8,150 +8,95 @@ practice_link: "/practice/linear-equations-in-one-variable-class-8-notes"
 manualReview: false
 ---
 
-## 📑 Table of Contents
-
-1. [⚡ Formula Bank](#formula-bank)
-2. [- A linear equation in one variable can be represented as a straight line on a graph, with the $x$-axis representing the variable and the $y$-axis representing the constant term.](#a-linear-equation-in-one-variable-can-be-represented-as-a-straight-line-on-a-graph-with-the-x-axis-representing-the-variable-and-the-y-axis-representing-the-constant-term)
-3. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
-4. [✏️ 3 Solved PYQs](#3-solved-pyqs)
-5. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
-6. [👁️ Ayush's Note](#ayushs-note)
-7. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
-8. [📝 Practice MCQs](#practice-mcqs)
-9. [📚 Related Topics](#related-topics)
-
----
-
 ## ⚡ Formula Bank
-- The general form of a linear equation in one variable is $\frac{ax}{b} = \frac{c}{d}$, where $a$, $b$, $c$, and $d$ are constants, and $x$ is the variable.
-- To solve for $x$, we can use the formula $x = \frac{c}{a}$, after simplifying the equation.
-- If the equation is in the form $ax + b = c$, we can use the formula $x = \frac{c - b}{a}$.
-- We can also use the formula $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$, but this is only necessary for quadratic equations, which are not part of this syllabus.
-- The equation $\frac{ax}{b} = \frac{c}{d}$ can be simplified to $adx = bc$ by cross-multiplying.
-- We can then solve for $x$ by dividing both sides by $ad$, giving us $x = \frac{bc}{ad}$.
-
-## 
-- A linear equation in one variable can be represented as a straight line on a graph, with the $x$-axis representing the variable and the $y$-axis representing the constant term.
-- The equation $y = mx + c$ represents a straight line with slope $m$ and $y$-intercept $c$.
-- However, in this syllabus, we are only concerned with linear [equations](/blog/differential-equations-class-12-notes) in one variable, so we will not be using this equation.
+- a linear equation ∈ one variable is of the form ax + b = 0, where a ≠ 0
+- to solve for x, we use the formula x = -b/a
+- we can also represent linear equations ∈ the form x = c, where c is a constant
+- for example, 2x = 5 is a linear equation, which can be solved as x = 5/2
+- we can also have linear equations ∈ the form x/a = b, which can be solved as x = ab
+- for example, x/2 = 3 can be solved as x = 2 × 3 = 6
+- we can also represent linear equations ∈ the form ax = b, which can be solved as x = b/a
+- for example, 3x = 12 can be solved as x = 12/3 = 4
+- we can also have linear equations ∈ the form ax + b = c, which can be solved as x = (c - b)/a
+- for example, 2x + 3 = 7 can be solved as x = (7 - 3)/2 = 4/2 = 2
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not checking the units of the constants in the equation, which can lead to incorrect solutions.
-- Not simplifying the equation before solving for $x$, which can lead to unnecessary complexity.
-- Not using the correct formula to solve for $x$, which can lead to incorrect solutions.
-- Not checking for any restrictions on the domain of the variable, such as division by zero.
-- Not writing the final answer in the correct format, which can lead to loss of marks.
+- not checking if the coefficient of x is zero before solving the equation
+- not using the correct formula to solve the equation
+- not simplifying the equation before solving for x
+- not checking the solution by plugging it back into the original equation
+- not writing the final answer ∈ the correct format, for example, x = 2 instead of x = 2.0
 
 ## ✏️ 3 Solved PYQs
-- **Question 1:** Solve for $x$ in the equation $\frac{2x}{3} = \frac{5}{6}$.
-  - Step 1: Cross-multiply to get $12x = 15$.
-  - Step 2: Divide both sides by $12$ to get $x = \frac{15}{12} = \frac{5}{4}$.
-  - Step 3: Simplify the fraction to get the final answer.
-- **Question 2:** Solve for $x$ in the equation $5x + 2 = 17$.
-  - Step 1: Subtract $2$ from both sides to get $5x = 15$.
-  - Step 2: Divide both sides by $5$ to get $x = \frac{15}{5} = 3$.
-  - Step 3: Write the final answer in the correct format.
-- **Question 3:** Solve for $x$ in the equation $\frac{x}{4} + 2 = 9$.
-  - Step 1: Subtract $2$ from both sides to get $\frac{x}{4} = 7$.
-  - Step 2: Multiply both sides by $4$ to get $x = 28$.
-  - Step 3: Write the final answer in the correct format.
+- **Question 1:** Solve the equation 2x + 5 = 11
+  step 1: subtract 5 from both sides, we get 2x = 11 - 5 = 6
+  step 2: divide both sides by 2, we get x = 6/2 = 3
+  therefore, the solution is x = 3
+- **Question 2:** Solve the equation x/4 = 9
+  step 1: multiply both sides by 4, we get x = 9 × 4 = 36
+  therefore, the solution is x = 36
+- **Question 3:** Solve the equation x - 3 = 7
+  step 1: add 3 to both sides, we get x = 7 + 3 = 10
+  therefore, the solution is x = 10
 
 ## 🧠 The One Thing Most Students Get Wrong
-- The most common mistake students make when solving linear [equations](/blog/differential-equations-class-12-notes) in one variable is not checking for any restrictions on the domain of the variable.
-- For example, in the equation $\frac{x}{x-2} = 3$, the variable $x$ cannot be equal to $2$, because this would result in division by zero.
-- To avoid this mistake, students should always check the equation for any restrictions on the domain of the variable before solving for $x$.
+- most students get wrong the concept of solving linear equations with variables on both sides
+- for example, the equation 2x + 3 = 5x - 2 can be solved by first adding 2 to both sides, we get 2x + 5 = 5x
+- then, subtract 2x from both sides, we get 5 = 3x
+- finally, divide both sides by 3, we get x = 5/3
+- therefore, the solution is x = 5/3
 
 ## 👁️ Ayush's Note
-- When solving linear [equations](/blog/differential-equations-class-12-notes) in one variable, it is essential to follow the order of operations (PEMDAS) to avoid mistakes.
-- Students should also make sure to simplify the equation before solving for $x$, and to check for any restrictions on the domain of the variable.
-- Additionally, students should practice solving a variety of linear [equations](/blog/differential-equations-class-12-notes) to become proficient in this topic.
+- to solve linear equations, first simplify the equation by combining like terms
+- then, isolate the variable by adding, subtracting, multiplying, or dividing both sides of the equation
+- finally, check the solution by plugging it back into the original equation
+- for example, to solve the equation 2x + 2 = 6, first subtract 2 from both sides, we get 2x = 4
+- then, divide both sides by 2, we get x = 2
+- therefore, the solution is x = 2
 
 ## 🔁 Last 5 Minutes Box
-- Make sure to check the units of the constants in the equation.
-- Simplify the equation before solving for $x$.
-- Use the correct formula to solve for $x$.
-- Check for any restrictions on the domain of the variable.
-- Write the final answer in the correct format.
+- ∈ the last 5 minutes of the exam, quickly review the formulas and concepts of linear equations
+- make sure to check the solutions by plugging them back into the original equations
+- also, make sure to write the final answers ∈ the correct format
+- for example, x = 2 instead of x = 2.0
+- quickly review the steps to solve linear equations, such as adding, subtracting, multiplying, or dividing both sides of the equation
 
 ## 📝 Practice MCQs
-**1. What is the value of $x$ in the equation $\frac{3x}{4} = \frac{9}{8}$?**
--
-A) \frac{3}{2}
--
-B) \frac{5}{2}
--
-C) \frac{9}{6}
--
-D) \frac{12}{8}
-
-**Answer: A) $\frac{3}{2}$, because cross-multiplying gives $24x = 36$, and dividing both sides by $24$ gives $x = \frac{36}{24} = \frac{3}{2}$.**
-
-**2. What is the value of $x$ in the equation $2x + 5 = 11$?**
--
-A) $2$
--
-B) $3$
--
-C) $4$
--
-D) $5$
-
-**Answer: B) $3$, because subtracting $5$ from both sides gives $2x = 6$, and dividing both sides by $2$ gives $x = \frac{6}{2} = 3$.**
-
-**3. What is the value of $x$ in the equation $\frac{x}{2} = 7$?**
--
-A) $12$
--
-B) $14$
--
-C) $16$
--
-D) $18$
-
-**Answer: B) $14$, because multiplying both sides by $2$ gives $x = 14$.**
-
-**4. What is the value of $x$ in the equation $x - 3 = 7$?**
--
-A) $5$
--
-B) $10$
--
-C) $12$
--
-D) $15$
-
-**Answer: B) $10$, because adding $3$ to both sides gives $x = 10$.**
-
-**5. What is the value of $x$ in the equation $\frac{2x}{5} = \frac{8}{10}$?**
--
-A) $2$
--
-B) $4$
--
-C) $6$
--
-D) $8$
-
-**Answer: A) $2$, because cross-multiplying gives $20x = 40$, and dividing both sides by $20$ gives $x = \frac{40}{20} = 2$.**
+**1. Question:** Solve the equation x + 2 = 9
+- A) x = 7
+- B) x = 11
+- C) x = 10
+- D) x = 8
+**Answer:** A) x = 7, because subtracting 2 from both sides gives x = 9 - 2 = 7
+**2. Question:** Solve the equation 2x = 12
+- A) x = 5
+- B) x = 6
+- C) x = 4
+- D) x = 8
+**Answer:** B) x = 6, because dividing both sides by 2 gives x = 12/2 = 6
+**3. Question:** Solve the equation x - 1 = 3
+- A) x = 2
+- B) x = 4
+- C) x = 5
+- D) x = 6
+**Answer:** B) x = 4, because adding 1 to both sides gives x = 3 + 1 = 4
+**4. Question:** Solve the equation x/3 = 2
+- A) x = 5
+- B) x = 6
+- C) x = 4
+- D) x = 8
+**Answer:** B) x = 6, because multiplying both sides by 3 gives x = 2 × 3 = 6
+**5. Question:** Solve the equation 2x + 1 = 7
+- A) x = 2
+- B) x = 3
+- C) x = 4
+- D) x = 5
+**Answer:** B) x = 3, because subtracting 1 from both sides gives 2x = 6, then dividing both sides by 2 gives x = 6/2 = 3
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/linear-[equations](/blog/differential-equations-class-12-notes)-in-one-variable-class-8-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/linear-equations-in-one-variable-class-8-notes) now and track your progress against thousands of students.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Linear](/blog/linear-programming-class-12-notes)%20Equations%20In%20One%20Variable%208%20Class%208%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-
----
-
-## 📚 Related Topics
-
-Continue your revision with these related guides:
-
-- 📖 [Linear Equations In Two Variables 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-two-variables-class-9-notes)
-- 📖 [Pair Of Linear Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/pair-of-linear-equations-class-10-notes)
-- 📖 [Differential Equations Class 12 Exam Prep Revision — Grandmaster Guide](/blog/differential-equations-class-12-notes)
-- 📖 [Linear Programming Class 12 Exam Prep Revision — Grandmaster Guide](/blog/linear-programming-class-12-notes)
-

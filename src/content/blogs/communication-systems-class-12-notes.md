@@ -8,133 +8,97 @@ practice_link: "/practice/communication-systems-class-12-notes"
 manualReview: false
 ---
 
-## 📑 Table of Contents
-
-1. [⚡ Formula Bank](#formula-bank)
-2. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
-3. [✏️ 3 Solved PYQs](#3-solved-pyqs)
-4. [🧠 The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
-5. [👁️ Ayush's Note](#ayushs-note)
-6. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
-7. [📝 Practice MCQs](#practice-mcqs)
-8. [📚 Academic References](#academic-references)
-9. [📚 Related Topics](#related-topics)
-
----
-
 ## ⚡ Formula Bank
-- $SNR = \frac{S}{N}$, where IS is signal power and AND is noise power
--$ Bandwidth = \frac{1}{2 \times time \: period} = \frac{f}{2}$
-- $\\lambda = \frac{c}{f}$, where $\\lambda$ is wavelength, act is speed of light, and of is frequency
-- BC = 
-u $\\lambda$, where act is speed of light, 
-up is frequency, and $\\lambda$ is wavelength
-- at = $\frac{d}{c}$, where to is time taken for signal to travel, is distance, and is speed of light
--  = \{E}{t}$, where  is power,  is energy, and  is time$
--  = P $\times$ , where is energy, is power, and is time
-- $\{P_t}{P_r} = \{1}{\alpha^2}$, where _ is transmitted power, _ is received power, and $\alpha$ is attenuation
-- $SNR_{out} = \{SNR_{in}}{1 + \{1}{SNR_{in}}}$, where $SNR_{out}$ is output signal-to-noise ratio and $SNR_{in}$ is input signal-to-noise ratio
+- E = hf, where E is energy, h is Planck's constant, and f is frequency
+- λ = c/f, where λ is wavelength, c is speed of light, and f is frequency
+- c = 1/√(μ₀ε₀), where c is speed of light, μ₀ is permeability of free space, and ε₀ is permittivity of free space
+- P = E/T, where P is power, E is energy, and T is time
+- i = Q/t, where i is current, Q is charge, and t is time
+- R = ρ(l/A), where R is resistance, ρ is resistivity, l is length, and A is area
+- Xₗ = 2πfL, where Xₗ is inductive reactance, f is frequency, and L is inductance
+- Xₗ = ωL, where Xₗ is inductive reactance, ω is angular frequency, and L is inductance
+- Xₗ = 2πfL, where Xₗ is inductive reactance, f is frequency, and L is inductance
+- Xₜ = 1/(ωC), where Xₜ is capacitive reactance, ω is angular frequency, and C is capacitance
+- Z = √(R² + (Xₗ - Xₜ)²), where Z is impedance, R is resistance, Xₗ is inductive reactance, and Xₜ is capacitive reactance
+- P = V²/R, where P is power, V is voltage, and R is resistance
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not understanding the concept of signal-to-noise ratio (SNR) and its importance in communication [systems](/blog/number-systems-class-9-notes)
-- Forgetting to consider the attenuation of signal with distance, given by $\frac{P_t}{P_r} = \frac{1}{\alpha^2}$
-- Not being able to derive the formula for bandwidth, bandwidth = $\frac{1}{$2 \times t$ime \$: period} = $\frac{f}{2}$
-- Confusing the terms' wavelength ($\\lambda$), frequency (of), and speed of light (act), and not being able to use the formula $\\lambda = \frac{c}{f}$
-- Not being able to apply the concept of modulation and demodulation to solve problems
+- Not understanding the concept of signal modulation and demodulation
+- Confusing amplitude modulation (AM) and frequency modulation (FM)
+- Not knowing the difference between analog and digital communication systems
+- Forgetting the formula for signal-to-noise ratio (SNR) and its importance ∈ communication systems
+- Not being able to apply the concept of bandwidth and its relation to data transfer rate
 
 ## ✏️ 3 Solved PYQs
-- A signal of frequency $100 \: kHz$ is amplitude modulated with a modulation frequency of $5 \: kHz.$ The bandwidth of the modulated signal is
-- A) $100 \: kHz$
-- B) $105 \: kHz$
-- C) $110 \: kHz$
-- D) $200 \: kHz$
-**Answer: C) $110 \: kHz. Explanation:$ The bandwidth of the modulated signal is given by bandwidth = 2 $\times modulation \$: frequency = 2 $\times 5 \$: kHz = 10 \: kHz. The total bandwidth is the sum of the bandwidth of the modulated signal and the carrier frequency$, $100 \: kHz + 10 \: kHz = 110 \: kHz**
-- A communication system has a signal-to-noise ratio (SNR) of $1000$. If the SNR is increased by a factor of $10$, the new SNR is
-- A) $10000$
-- B) $1000$
-- C) $100$
-- D) $10$
-**Answer: A) $10000$. Explanation: The new SNR is given by $SNR_{new} = 10 \times SNR_{old} = 10 \times 1000 = 10000$**
-- A signal of power $100 \: MWC$ is transmitted through a medium with an attenuation of $0.5 \: dB/me.$ The power of the signal after $10 \: me$ is
-- A) $100 \: MWC$
-- B) $50 \: MWC$
-- C) $10 \: MWC$
-- D) $1 \: MWC$
-**Answer: B) $50 \: MWC. Explanation:$ The attenuation of the signal is given by $\frac{P_t}{P_r} = \frac{1}{\alpha^2}$. The attenuation in dB is given by $0.5 \: dB/m \times 10 \: m = 5 \: dB.$ The attenuation in ratio is given by $10^{-\frac{5}{10}} = 0.5$. The power of the signal after $10 \: me$ is given by UP_r = $\frac{P_t}{\alpha^2} = \frac{100 \$: mW}{0.5^2} = 50 \: MWC**
+- **Question 1:** A message signal of frequency 10 kHz is used to modulate a carrier wave of frequency 1 MHz. What is the frequency of the upper sideband?
+- **Step 1:** Identify the frequency of the message signal (10 kHz) and the carrier wave (1 MHz)
+- **Step 2:** Calculate the frequency of the upper sideband using the formula fₘ + fₗ, where fₘ is the frequency of the message signal and fₗ is the frequency of the carrier wave
+- **Step 3:** Substitute the values and calculate the frequency of the upper sideband (1 MHz + 10 kHz = 1.01 MHz)
+- **Answer:** 1.01 MHz
+- **Question 2:** A signal is transmitted through a communication system with a bandwidth of 100 kHz. If the signal-to-noise ratio (SNR) is 10, what is the data transfer rate?
+- **Step 1:** Identify the bandwidth (100 kHz) and SNR (10)
+- **Step 2:** Calculate the data transfer rate using the formula R = B log₂(1 + SNR), where R is the data transfer rate, B is the bandwidth, and SNR is the signal-to-noise ratio
+- **Step 3:** Substitute the values and calculate the data transfer rate (100 kHz log₂(1 + 10) = 665.74 kbps)
+- **Answer:** 665.74 kbps
+- **Question 3:** A digital signal is transmitted through a communication system with a data transfer rate of 1 Mbps. If the signal is sampled at a rate of 2 MHz, what is the number of bits per sample?
+- **Step 1:** Identify the data transfer rate (1 Mbps) and the sampling rate (2 MHz)
+- **Step 2:** Calculate the number of bits per sample using the formula n = R/fₛ, where n is the number of bits per sample, R is the data transfer rate, and fₛ is the sampling rate
+- **Step 3:** Substitute the values and calculate the number of bits per sample (1 Mbps / 2 MHz = 0.5 bits per sample)
+- **Answer:** 0.5 bits per sample
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students get the concept of signal-to-noise ratio (SNR) wrong. They think that SNR is the ratio of signal power to noise power, which is correct. However, they forget that SNR is a ratio of powers, not amplitudes. The correct formula for SNR is $SNR = \frac{S}{N}$, where IS is signal power and AND is noise power.
+- Most students get confused between the concepts of amplitude modulation (AM) and frequency modulation (FM). They often forget that ∈ AM, the amplitude of the carrier wave is varied ∈ accordance with the message signal, while ∈ FM, the frequency of the carrier wave is varied.
 
 ## 👁️ Ayush's Note
-- To solve problems in communication [systems](/blog/number-systems-class-9-notes), first identify the given parameters and the unknown quantities. Then, use the formulas to derive the unknown quantities. Make sure to consider the attenuation of the signal with distance and the modulation and demodulation of the signal.
+- To solve problems related to communication systems, it is essential to understand the concepts of signal modulation and demodulation, and the difference between analog and digital communication systems.
+- Practice problems related to signal-to-noise ratio (SNR) and data transfer rate to improve your understanding of these concepts.
+- Make sure to remember the formulas related to communication systems, such as the formula for signal-to-noise ratio (SNR) and the formula for data transfer rate.
 
 ## 🔁 Last 5 Minutes Box
-- In the last 5 minutes of the exam, make sure to check all the answers and ensure that the units are correct. Also, check if all the given parameters are used in the solution. If not, re-evaluate the solution.
+- Revision of key concepts: signal modulation and demodulation, amplitude modulation (AM) and frequency modulation (FM), signal-to-noise ratio (SNR), and data transfer rate
+- Practice of formulas: f = 1/T, λ = c/f, E = hf, P = V²/R, and R = ρ(l/A)
+- Quick review of solved problems and practice questions to reinforce understanding of concepts
 
 ## 📝 Practice MCQs
-**1. What is the bandwidth of a signal with a time period of $10 \: $\mu so$?**$
-A) $50 \: kHz$
-B) $100 \: kHz$
-C) $20 \: kHz$
-D) $50 \: MHz$
+**1. What is the purpose of modulation ∈ a communication system?**
+- A) To increase the frequency of the signal
+- B) To decrease the amplitude of the signal
+- C) To vary the characteristics of the carrier wave ∈ accordance with the message signal
+- D) To reduce the bandwidth of the signal
+**Answer: C) To vary the characteristics of the carrier wave ∈ accordance with the message signal**
 
-**Answer: B) $100 \: kHz. Explanation:$ The bandwidth of the signal is given by bandwidth = $\frac{1}{$2 \times t$ime \$: period} = $\frac{1}{$2 \times 1$0 \$: $\mu s} = 100 \$: kHz**
+**2. Which of the following is a type of analog modulation?**
+- A) Pulse code modulation (PCM)
+- B) Amplitude shift keying (ASK)
+- C) Frequency shift keying (FSK)
+- D) Amplitude modulation (AM)
+**Answer: D) Amplitude modulation (AM)**
 
-**2. A signal of frequency $100 \: kHz$ is amplitude modulated with a modulation frequency of $5 \: kHz. What$ is the bandwidth of the modulated signal?**
-A) $100 \: kHz$
-B) $105 \: kHz$
-C) $110 \: kHz$
-D) $200 \: kHz$
+**3. What is the signal-to-noise ratio (SNR) of a communication system with a signal power of 100 W and a noise power of 10 W?**
+- A) 10
+- B) 20
+- C) 30
+- D) 40
+**Answer: A) 10**
 
-**Answer: C) $110 \: kHz. Explanation:$ The bandwidth of the modulated signal is given by bandwidth = 2 $\times modulation \$: frequency = 2 $\times 5 \$: kHz = 10 \: kHz. The total bandwidth is the sum of the bandwidth of the modulated signal and the carrier frequency$, $100 \: kHz + 10 \: kHz = 110 \: kHz**
+**4. A signal is transmitted through a communication system with a bandwidth of 100 kHz. If the signal-to-noise ratio (SNR) is 10, what is the data transfer rate?**
+- A) 100 kbps
+- B) 500 kbps
+- C) 665.74 kbps
+- D) 1 Mbps
+**Answer: C) 665.74 kbps**
 
-**3. What is the signal-to-noise ratio (SNR) of a communication system with a signal power of $100 \: MWC$ and a noise power of $1 \: MWC?**$
-A) $100$
-B) $1000$
-C) $10000$
-D) $100000$
+**5. A digital signal is transmitted through a communication system with a data transfer rate of 1 Mbps. If the signal is sampled at a rate of 2 MHz, what is the number of bits per sample?**
+- A) 0.25 bits per sample
+- B) 0.5 bits per sample
+- C) 1 bit per sample
+- D) 2 bits per sample
+**Answer: B) 0.5 bits per sample**
 
-**Answer: B) $1000$. Explanation: The SNR is given by $SNR = \frac{S}{N} = \frac{100 \: mW}{1 \: mW} = 1000$**
-
-**4. A signal of power $100 \: MWC$ is transmitted through a medium with an attenuation of $0.5 \: dB/me. What$ is the power of the signal after $10 \: me?**$
-A) $100 \: MWC$
-B) $50 \: MWC$
-C) $10 \: MWC$
-D) $1 \: MWC$
-
-**Answer: B) $50 \: MWC. Explanation:$ The attenuation of the signal is given by $\frac{P_t}{P_r} = \frac{1}{\alpha^2}$. The attenuation in dB is given by $0.5 \: dB/m \times 10 \: m = 5 \: dB.$ The attenuation in ratio is given by $10^{-\frac{5}{10}} = 0.5$. The power of the signal after $10 \: me$ is given by UP_r = $\frac{P_t}{\alpha^2} = \frac{100 \$: mW}{0.5^2} = 50 \: MWC**
-
-**5. What is the wavelength of a signal with a frequency of $100 \: MHz?**$
-A) $1 \: me$
-B) $3 \: me$
-C) $10 \: me$
-D) $30 \: me$
-
-**Answer: B) $3 \: me. Explanation:$ The wavelength of the signal is given by $\\lambda = \frac{c}{f} = \frac{$3 \times 1$0^8 \$: m/s}{100 $\times 10^6 \$: Hz} = 3 \: me**
+---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/communication-systems-class-12-notes) now and track your progress against thousands of students.
 
-## 📚 Academic References
-
-*Content verified against peer-reviewed research:*
-
-1. *Smart Substation Communications and Cybersecurity: A Comprehensive...* — **IEEE Communications Surveys & Tutorials** (2023) 🔓 — [DOI ↗](https://doi.org/10.1109/comst.2023.3305468)
-2. *El Agent: An autonomous agent for quantum chemistry* — **Matter** (2025) 🔓 — [DOI ↗](https://doi.org/10.1016/j.matt.2025.102263)
-3. *The Era of Digital Transition in the Prism of the Existential The...* — **Sustainability** (2024) 🔓 — [DOI ↗](https://doi.org/10.3390/su16188019)
-
-*🔓 = Open Access article*
-
+---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-## 📚 Related Topics
-
-Continue your revision with these related guides:
-
-- 📖 [Atoms Class 12 Physics Revision — Grandmaster Guide](/blog/atoms-class-12-notes)
-- 📖 [Chemistry In Everyday Life Class 12 Chemistry Revision — Grandmaster Guide](/blog/chemistry-in-everyday-life-class-12-notes)
-- 📖 [Compiler Design Class 12 Exam Prep Revision — Grandmaster Guide](/blog/compiler-design-class-12-notes)
-- 📖 [Computer Networks Class 12 Exam Prep Revision — Grandmaster Guide](/blog/computer-networks-class-12-notes)
-
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Communication%20Systems%20Class%2012%20Physics%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-

@@ -92,7 +92,7 @@ The role of the judiciary and protecting Fundamental Rights is crucial. The cour
 To quickly revise and recap the key points related to Fundamental Rights, I've been **creating concept maps** n **summarizing the main provisions** of the Constitution. I've also been **practicing with sample questions** n **assessing my understanding** of the subject. By doing so, I'm able to **retain the information** more effectively and to **develop a deeper understanding** of the subject. I've been **focusing on the key concepts** n **identifying the relationships** between different rights and their applications. As I revise and recap the subject, I'm reminded of the **significance of Fundamental Rights** n shaping the country's democratic [framework](/blog/constitutional-framework-class-11-revision-notes-cbse) n **promoting social justice**.
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

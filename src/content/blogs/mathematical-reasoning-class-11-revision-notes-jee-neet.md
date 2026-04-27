@@ -89,13 +89,13 @@ We use specific words to join two or more simple statements into a **Compound St
 
 ## <a id="3-implications-n-conditional-statements"></a>3. Implications and Conditional Statements
 
-Statements of the form "If p, then q" (denoted y $p \\\\Rightarrow q$) are central to proofs.
+Statements of the form "If p, then q" (denoted y $p \⇒ q$) are central to proofs.
 
 ### <a id="converse-contrapositive-n-inverse"></a>Converse, Contrapositive, n Inverse
-For an implication $p \\\\Rightarrow q$:
-- **Converse:** $q \\\\Rightarrow p$.
-- **Contrapositive:** $\sim q \\\\Rightarrow \sim p$. (IMPORTANT: This is logically identical to the original statement!)
-- **Inverse:** $\sim p \\\\Rightarrow \sim q$.
+For an implication $p \⇒ q$:
+- **Converse:** $q \⇒ p$.
+- **Contrapositive:** $\sim q \⇒ \sim p$. (IMPORTANT: This is logically identical to the original statement!)
+- **Inverse:** $\sim p \⇒ \sim q$.
 
 *Example:* If "Is it rains, then the ground is wet":
 - **Contrapositive:** "If the ground is not wet, then it did not rain" (This is always true if the original is true).
@@ -141,7 +141,7 @@ Yes, it is a statement because it is a [mathematical](/blog/mathematical-inducti
 ---
 
 ---
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 
 ---
 

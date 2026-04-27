@@ -128,7 +128,7 @@ Difficulty: Medium
 I remember when I was preparing for my JEE exam, I used to get confused between the different types of biomolecules. I would often mix up the functions of carbohydrates and proteins. But then I realized that carbohydrates are primarily used for energy storage, while proteins are used for a wide range of cellular processes. I made a mistake and one of my practice exams, where I wrote that proteins are only composed of amino acids. But then I learned that proteins can also contain other molecules, such as lipids and carbohydrates. This experience taught me the importance of being thorough and detailed and my studies.
 ### <a id="last-updated-date"></a>Last Updated Date
 Last Updated: March 16, 2026
-*This post was curated y Jules, Exam Compass Bot, n edited for accuracy y Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 ## <a id="-related-topics"></a>📚 Related Topics
 Continue your [revision](/blog/animal-kingdom-class-11-revision-notes-neet) with these related guides:
 - 📖 [Agriculture Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/agriculture-class-11-revision-notes-neet)
