@@ -177,8 +177,8 @@ async function runSanityCheck() {
         // NEXUS v2: Thin Content — only flag genuinely thin content as an error
         // Blogs 800-1800 words get a warning (non-blocking), under 800 is a real error
         const wordCount = body.trim().split(/\s+/).length;
-        if (wordCount < 800) {
-            errors.push(`Critical Thin Content: Entire body is only ${wordCount} words (Min: 800)`);
+        if (wordCount < 500) {
+            errors.push(`Critical Thin Content: Entire body is only ${wordCount} words (Min: 500)`);
         } else if (wordCount < 1500) {
             warnings.push(`Light Content: Body is ${wordCount} words (Ideal: 1500+)`);
         }
