@@ -72,7 +72,18 @@ export async function callGemini(
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ messages, tier: 'T4', options: { ...options, provider: 'gemini' } })
         });
-        if (!response.ok) throw new Error(`Cloudflare Proxy Error: ${response.statusText}`);
+        if (!response.ok) {
+            let errText = response.statusText;
+            try {
+                const errObj = await response.json();
+                errText = errObj.error?.message || JSON.stringify(errObj);
+            } catch (e) {
+                try { errText = await response.text(); } catch(e) {}
+            }
+            const proxyError: any = new Error(`Cloudflare Proxy Error: ${errText}`);
+            proxyError.status = response.status;
+            throw proxyError;
+        }
         
         if (stream) {
             if (!response.body) throw new Error("No response body for stream");
