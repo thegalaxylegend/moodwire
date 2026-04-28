@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/photosynthesis-n-higher-plants-class-11-revision-notes-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -181,6 +181,6 @@ Continue your [revision](/blog/plant-growth-and-development-class-11-revision-no
     * **Stomata**: Small openings on the surface of leaves that allow for gas exchange
     * **Light-Dependent Reactions**: Occur in the thylakoid membranes of chloroplasts and produce ATP and NADPH
     * **Light-Independent Reactions (Calvin Cycle)**: Occur in the stroma of chloroplasts and produce glucose from CO2 using ATP and NADPH
-    * **C3, C4, and CAM Pathways**: Different types of photosynthetic pathways that plants use to fix CO2
+    * **C3, C4, and CAM Pathways**: Different types of photosynthetic pathways that [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) use to fix CO2
     * **Factors Affecting Photosynthesis**: Light intensity, temperature, water, CO2 concentration
     

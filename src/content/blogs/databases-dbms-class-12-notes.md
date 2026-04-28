@@ -61,38 +61,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the purpose of normalization ∈ database design?**
-- A) To improve performance by reducing joins
-- B) To eliminate data redundancy and improve data integrity
-- C) To provide a quick way to locate data
-- D) To ensure that the database remains ∈ a consistent state
+-
+A) To improve performance by reducing joins
+-
+B) To eliminate data redundancy and improve data integrity
+-
+C) To provide a quick way to locate data
+-
+D) To ensure that the database remains ∈ a consistent state
+
 **Answer: B) To eliminate data redundancy and improve data integrity.**
 
 **2. What is the difference between DBMS and RDBMS?**
-- A) DBMS is a type of RDBMS
-- B) RDBMS is a type of DBMS
-- C) DBMS is used for small databases, while RDBMS is used for large databases
-- D) DBMS is used for relational databases, while RDBMS is used for non-relational databases
+-
+A) DBMS is a type of RDBMS
+-
+B) RDBMS is a type of DBMS
+-
+C) DBMS is used for small databases, while RDBMS is used for large databases
+-
+D) DBMS is used for relational databases, while RDBMS is used for non-relational databases
+
 **Answer: B) RDBMS is a type of DBMS.**
 
 **3. What is the purpose of indexing ∈ database design?**
-- A) To eliminate data redundancy
-- B) To improve performance by reducing joins
-- C) To provide a quick way to locate data
-- D) To ensure that the database remains ∈ a consistent state
+-
+A) To eliminate data redundancy
+-
+B) To improve performance by reducing joins
+-
+C) To provide a quick way to locate data
+-
+D) To ensure that the database remains ∈ a consistent state
+
 **Answer: C) To provide a quick way to locate data.**
 
 **4. What is the CAP theorem?**
-- A) A theorem that states that a database can have at most two of the following properties: Consistency, Availability, and Partition tolerance
-- B) A theorem that states that a database can have at most one of the following properties: Consistency, Availability, and Partition tolerance
-- C) A theorem that states that a database must have all of the following properties: Consistency, Availability, and Partition tolerance
-- D) A theorem that states that a database can have any combination of the following properties: Consistency, Availability, and Partition tolerance
+-
+A) A theorem that states that a database can have at most two of the following properties: Consistency, Availability, and Partition tolerance
+-
+B) A theorem that states that a database can have at most one of the following properties: Consistency, Availability, and Partition tolerance
+-
+C) A theorem that states that a database must have all the following properties: Consistency, Availability, and Partition tolerance
+-
+D) A theorem that states that a database can have any combination of the following properties: Consistency, Availability, and Partition tolerance
+
 **Answer: A) A theorem that states that a database can have at most two of the following properties: Consistency, Availability, and Partition tolerance.**
 
 **5. What is the purpose of denormalization ∈ database design?**
-- A) To eliminate data redundancy
-- B) To improve performance by reducing joins
-- C) To provide a quick way to locate data
-- D) To ensure that the database remains ∈ a consistent state
+-
+A) To eliminate data redundancy
+-
+B) To improve performance by reducing joins
+-
+C) To provide a quick way to locate data
+-
+D) To ensure that the database remains ∈ a consistent state
+
 **Answer: B) To improve performance by reducing joins.**
 
 ---
@@ -100,5 +125,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/databases-dbms-class-12-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Databases%20Dbms%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Application Of Integrals Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-integrals-class-12-notes)

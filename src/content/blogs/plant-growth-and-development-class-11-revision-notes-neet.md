@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/plant-growth-n-development-class-11-revision-notes-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -116,7 +116,7 @@ Why students get it wrong: Abscisic acid is often confused with auxins, which pr
 
 1. What is the primary function of auxins n [plant](/blog/plant-kingdom-class-11-revision-notes-neet) growth and development?
 A) Promote [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division
-B) Promote cell elongation
+B) Promote [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) elongation
 C) Inhibit growth
 D) Promote fruit ripening
 
@@ -177,7 +177,7 @@ Continue your [revision](/blog/morphology-of-flowering-plants-class-11-revision-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/plant-growth-n-development-class-11-revision-notes-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/[plant](/blog/plant-kingdom-class-11-revision-notes-neet)-growth-n-development-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Plant%20Growth%20And%20Development%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
@@ -195,7 +195,7 @@ Continue your [revision](/blog/morphology-of-flowering-plants-class-11-revision-
 ## 🔁 Last 5 Minutes Box
 
 - **Photoperiodism**: Response of [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) to the duration of light and darkness.
-   - **Vernalisation**: Promotion of flowering by a period of cold.
+   - **Vernalisation**: Promotion of [flowering](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) by a period of cold.
    - **Auxins**: Indole acetic acid (IAA), indole butyric acid (IBA), naphthalene acetic acid (NAA).
    - **Gibberellins**: GA3 (gibberellic acid), breaks seed dormancy, promotes stem elongation.
    - **Cytokinins**: Promote cell division, example: kinetin, BAP (benzyl amino purine).

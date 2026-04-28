@@ -15,7 +15,7 @@ manualReview: false
 - Genetic drift: change ∈ allele frequency due to random events
 - Gene frequency: p + q = 1, where p and q are frequencies of alleles
 - Evolution: process of change ∈ species over time
-- Natural selection: process by which individuals with favorable traits survive and reproduce
+- Natural selection: process by which individuals with favorable traits survive and [reproduce](/blog/how-do-organisms-reproduce-class-10-notes)
 - Speciation: formation of new species
 - Fossil record: evidence of evolution through fossil remains
 - Homologous structures: similar structures ∈ different species, indicating common ancestry
@@ -65,34 +65,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the genotype of a pea plant that is tall and has green seeds?**
-- A) TT or Tt for tall, GG or Gg for green seeds
-- B) tt or Tt for tall, gg or Gg for green seeds
-- C) TT or tt for tall, GG or gg for green seeds
-- D) Tt or tt for tall, Gg or gg for green seeds
+-
+A) TT or Tt for tall, GG or Gg for green seeds
+-
+B) tt or Tt for tall, gg or Gg for green seeds
+-
+C) TT or tt for tall, GG or gg for green seeds
+-
+D) Tt or tt for tall, Gg or gg for green seeds
+
 **Answer: A) TT or Tt for tall, GG or Gg for green seeds**
+
 **2. What is the frequency of the allele for small beak size ∈ a population of birds?**
-- A) 0.4
-- B) 0.6
-- C) 0.8
-- D) 0.2
+-
+A) 0.4
+-
+B) 0.6
+-
+C) 0.8
+-
+D) 0.2
+
 **Answer: A) 0.4**
+
 **3. What is the evidence for evolution provided by the fossil record?**
-- A) Similarities between different species
-- B) Differences between different species
-- C) Chronological record of the evolution of species over time
-- D) None of the above
+-
+A) Similarities between different species
+-
+B) Differences between different species
+-
+C) Chronological record of the evolution of species over time
+-
+D) None of the above
+
 **Answer: C) Chronological record of the evolution of species over time**
+
 **4. What is the difference between homologous and analogous structures?**
-- A) Homologous structures are similar structures ∈ different species that indicate convergent evolution, while analogous structures are similar structures ∈ different species that indicate common ancestry
-- B) Homologous structures are similar structures ∈ different species that indicate common ancestry, while analogous structures are similar structures ∈ different species that indicate convergent evolution
-- C) Homologous structures are similar structures ∈ different species that indicate genetic drift, while analogous structures are similar structures ∈ different species that indicate natural selection
-- D) None of the above
+-
+A) Homologous structures are similar structures ∈ different species that indicate convergent evolution, while analogous structures are similar structures ∈ different species that indicate common ancestry
+-
+B) Homologous structures are similar structures ∈ different species that indicate common ancestry, while analogous structures are similar structures ∈ different species that indicate convergent evolution
+-
+C) Homologous structures are similar structures ∈ different species that indicate genetic drift, while analogous structures are similar structures ∈ different species that indicate natural selection
+-
+D) None of the above
+
 **Answer: B) Homologous structures are similar structures ∈ different species that indicate common ancestry, while analogous structures are similar structures ∈ different species that indicate convergent evolution**
+
 **5. What is the process by which individuals with favorable traits survive and reproduce?**
-- A) Genetic drift
-- B) Natural selection
-- C) Speciation
-- D) Evolution
+-
+A) Genetic drift
+-
+B) Natural selection
+-
+C) Speciation
+-
+D) Evolution
+
 **Answer: B) Natural selection**
 
 ---
@@ -100,5 +129,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/heredity-and-evolution-class-10-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Heredity%20and%20Evolution%20Class%2010%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Acids, Bases and Salts Class 10 Science Recap — Grandmaster Guide](/blog/acids-bases-and-salts-class-10-notes)
+- 📖 [Carbon and its Compounds Class 10 Science Recap — Grandmaster Guide](/blog/carbon-and-its-compounds-class-10-notes)
+- 📖 [Chemical Reactions and Equations Class 10 Science Recap — Grandmaster Guide](/blog/chemical-reactions-and-equations-class-10-notes)
+- 📖 [How do Organisms Reproduce? Class 10 Science Recap — Grandmaster Guide](/blog/how-do-organisms-reproduce-class-10-notes)

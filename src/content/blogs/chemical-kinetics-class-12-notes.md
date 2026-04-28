@@ -51,34 +51,64 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the unit of rate constant (k) for a first order reaction?**
-- A) s⁻¹
-- B) M⁻¹s⁻¹
-- C) M²s⁻¹
-- D) M³s⁻¹
+-
+A) s⁻¹
+-
+B) M⁻¹s⁻¹
+-
+C) M²s⁻¹
+-
+D) M³s⁻¹
+
 **Answer: A) s⁻¹.**
+
 **2. The rate of reaction is given by the equation: rate = k[A]². What is the order of reaction?**
-- A) First order
-- B) Second order
-- C) Zero order
-- D) Third order
+-
+A) First order
+-
+B) Second order
+-
+C) Zero order
+-
+D) Third order
+
 **Answer: B) Second order.**
-**3. The activation energy (Eₐ) for a reaction is 100 kJ/mol. If the rate constant (k) at 300 K is 1.0 × 10⁻³ s⁻¹, what is the pre-exponential factor (A)?**
-- A) 1.0 × 10⁻⁵ s⁻¹
-- B) 1.0 × 10⁻³ s⁻¹
-- C) 1.0 × 10⁻¹ s⁻¹
-- D) 1.0 × 10¹⁵ s⁻¹
+
+**3. The activation energy (Eₐ) for a reaction is 100 kJ/mol. If the rate constant (k) at 300 K is 1.0 × 10⁻³ s⁻¹, what is the pre-exponential factor (
+A) ?**
+-
+A) 1.0 × 10⁻⁵ s⁻¹
+-
+B) 1.0 × 10⁻³ s⁻¹
+-
+C) 1.0 × 10⁻¹ s⁻¹
+-
+D) 1.0 × 10¹⁵ s⁻¹
+
 **Answer: D) 1.0 × 10¹⁵ s⁻¹.**
+
 **4. The half life (t₁/₂) of a first order reaction is 2.0 × 10⁻⁴ s. What is the rate constant (k)?**
-- A) 3.5 × 10³ s⁻¹
-- B) 3.5 × 10⁻³ s⁻¹
-- C) 3.5 × 10⁻⁴ s⁻¹
-- D) 3.5 × 10⁻⁵ s⁻¹
+-
+A) 3.5 × 10³ s⁻¹
+-
+B) 3.5 × 10⁻³ s⁻¹
+-
+C) 3.5 × 10⁻⁴ s⁻¹
+-
+D) 3.5 × 10⁻⁵ s⁻¹
+
 **Answer: A) 3.5 × 10³ s⁻¹.**
+
 **5. The reaction: A + B → products follows second order kinetics. If the initial concentration of A and B are 0.1 M and 0.2 M respectively, and the rate constant (k) is 0.05 M⁻¹s⁻¹, what is the half life (t₁/₂) of the reaction?**
-- A) 100 s
-- B) 200 s
-- C) 300 s
-- D) 400 s
+-
+A) 100 s
+-
+B) 200 s
+-
+C) 300 s
+-
+D) 400 s
+
 **Answer: B) 200 s.**
 
 ---
@@ -86,5 +116,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/chemical-kinetics-class-12-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Chemical%20Kinetics%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Application Of Integrals Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-integrals-class-12-notes)

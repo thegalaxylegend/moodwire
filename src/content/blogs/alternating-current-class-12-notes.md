@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/alternating-current-class-12-notes"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -232,7 +232,7 @@ Ayush's Note on Alternating Current is a concise yet detailed study guide that f
  - **Impedance**: The total opposition to the flow of an AC current, combining resistance and reactance.
  - **Resonance**: The condition and an AC circuit where the inductive reactance equals the capacitive reactance, leading to maximum current flow.
 
- Understanding resonance is crucial because it can significantly affect the efficiency and safety of AC circuits. At resonance, the circuit's impedance is at its minimum, which can lead to high current flows if not properly managed. This concept is particularly important and the design of electronic circuits, including filters and transformers.
+ Understanding resonance is crucial because it can significantly affect the efficiency and safety of AC circuits. At resonance, the circuit's impedance is at its minimum, which can lead to high current flows if not properly managed. This concept is particularly important and the [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) of electronic circuits, including filters and transformers.
 
  A comparison of key characteristics between AC and DC is provided below:
 

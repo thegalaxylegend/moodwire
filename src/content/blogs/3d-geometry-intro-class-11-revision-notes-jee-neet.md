@@ -41,7 +41,7 @@ manualReview: false
 - They also forget to check if the direction cosines satisfy the condition l² + m² + n² = 1
 
 ## 👁️ Ayush's Note
-- To solve 3D geometry problems, first visualize the problem and try to identify the key elements such as points, lines, and planes
+- To solve 3D [geometry](/blog/coordinate-geometry-class-10-notes) problems, first visualize the problem and try to identify the key elements such as points, lines, and planes
 - Use the correct formulas and equations to find the required quantities
 - Always check your calculations and ensure that the direction cosines satisfy the condition l² + m² + n² = 1
 - Practice is key to mastering 3D geometry, so make sure to practice a variety of problems
@@ -55,34 +55,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the distance between the points (1, 2, 3) and (4, 5, 6)?**
-- A) 2√3
-- B) 3√3
-- C) 4√3
-- D) 5√3
+-
+A) 2√3
+-
+B) 3√3
+-
+C) 4√3
+-
+D) 5√3
+
 **Answer: B) 3√3.**
+
 **2. What is the equation of the plane passing through the point (1, 2, 3) and having direction ratios 1, 2, 3?**
-- A) x + 2y + 3z - 14 = 0
-- B) x + 2y + 3z + 14 = 0
-- C) x - 2y - 3z + 14 = 0
-- D) x - 2y - 3z - 14 = 0
+-
+A) x + 2y + 3z - 14 = 0
+-
+B) x + 2y + 3z + 14 = 0
+-
+C) x - 2y - 3z + 14 = 0
+-
+D) x - 2y - 3z - 14 = 0
+
 **Answer: A) x + 2y + 3z - 14 = 0.**
+
 **3. What are the direction cosines of the line passing through the points (1, 2, 3) and (4, 5, 6)?**
-- A) 1/√3, 1/√3, 1/√3
-- B) 1/√2, 1/√2, 0
-- C) 1, 0, 0
-- D) 0, 1, 0
+-
+A) 1/√3, 1/√3, 1/√3
+-
+B) 1/√2, 1/√2, 0
+-
+C) 1, 0, 0
+-
+D) 0, 1, 0
+
 **Answer: A) 1/√3, 1/√3, 1/√3.**
+
 **4. What is the equation of the sphere with center (1, 2, 3) and radius 4?**
-- A) (x - 1)² + (y - 2)² + (z - 3)² = 16
-- B) (x - 1)² + (y - 2)² + (z - 3)² = 4
-- C) (x + 1)² + (y + 2)² + (z + 3)² = 16
-- D) (x + 1)² + (y + 2)² + (z + 3)² = 4
+-
+A) (x - 1)² + (y - 2)² + (z - 3)² = 16
+-
+B) (x - 1)² + (y - 2)² + (z - 3)² = 4
+-
+C) (x + 1)² + (y + 2)² + (z + 3)² = 16
+-
+D) (x + 1)² + (y + 2)² + (z + 3)² = 4
+
 **Answer: A) (x - 1)² + (y - 2)² + (z - 3)² = 16.**
+
 **5. What is the distance between the point (1, 2, 3) and the line (x - 1)/1 = (y - 2)/2 = (z - 3)/3?**
-- A) 0
-- B) 1
-- C) 2
-- D) 3
+-
+A) 0
+-
+B) 1
+-
+C) 2
+-
+D) 3
+
 **Answer: A) 0.**
 
 ---
@@ -90,5 +119,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/3d-geometry-intro-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=3d%20Geometry%20Intro%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Coordinate Geometry Class 10 Mathematics Revision — Grandmaster Guide](/blog/coordinate-geometry-class-10-notes)
+- 📖 [Advanced Math Difficulty Trends Class 11 Mathematics Revision — Grandmaster Guide](/blog/jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet)
+- 📖 [Limits Derivatives Class 11 Mathematics Revision — Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)
+- 📖 [Limits And Derivatives Class 11 Mathematics Revision — Grandmaster Guide](/blog/limits-and-derivatives-class-11-revision-notes-jee)

@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/rotational-motion-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -206,7 +206,7 @@ Continue your [revision](/blog/oscillations-class-11-revision-notes-jee-neet) wi
 ## 🪤 The 5 Mistakes That Cost Marks
 
 * Confusing angular velocity and angular frequency: Many students get confused between angular velocity (ω) and angular frequency (ω = 2πf), where f is the frequency of rotation. Remember, angular velocity is the rate of change of angular displacement, while angular frequency is related to the periodic [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
-* Forgetting to convert degrees to radians: In rotational motion, angles are often given in degrees, but the formulas require angles in radians. Make sure to convert degrees to radians using the formula: radians = degrees × (π/180).
+* Forgetting to convert degrees to radians: In rotational [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet), angles are often given in degrees, but the formulas require angles in radians. Make sure to convert degrees to radians using the formula: radians = degrees × (π/180).
 * Incorrectly applying the right-hand rule: The right-hand rule is used to determine the direction of angular quantities like angular velocity and angular momentum. However, students often apply it incorrectly, leading to wrong directions and signs.
 * Mixing up moment of inertia formulas: There are different formulas for the moment of inertia of various objects, such as rings, disks, and spheres. Students often mix up these formulas or use the wrong one, resulting in incorrect calculations.
 * Not considering the reference frame: Rotational motion problems often involve different reference frames. Students must ensure they are using the correct reference frame, as the angular velocity and acceleration can vary depending on the chosen frame.

@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/electromagnetic-induction-class-12-revision-notes-jee-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -60,7 +60,7 @@ To grasp Electromagnetic Induction fully, one must understand the interplay betw
 
 Moreover, the phenomenon of self-induction and mutual induction, where the changing [current](/blog/alternating-current-class-12-notes) n a coil induces an emf and itself or and another coil, respectively, are critical aspects of Electromagnetic Induction. The coefficient of mutual induction, $M$, which depends on the geometry of the coils and the medium between them, plays a significant role and determining the induced emf and mutual induction. The equation $M = \frac{\phi_{21}}{I_1}$ illustrates the relationship between the mutual inductance and the magnetic flux induced and one coil due to the current and another coil.
 
-As we prepare for the class 12 exams, having a solid grasp of Electromagnetic Induction is not just about scoring well and the physics paper; it's also about appreciating the underlying science that makes so many modern conveniences possible. By understanding and applying the principles of Electromagnetic Induction, we can better comprehend the world around us and perhaps even contribute to the development of new technologies that will shape our future.
+As we prepare for the class 12 exams, having a solid grasp of Electromagnetic [Induction](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) is not just about scoring well and the physics paper; it's also about appreciating the underlying science that makes so many modern conveniences possible. By understanding and applying the principles of Electromagnetic [Induction](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee), we can better comprehend the world around us and perhaps even contribute to the development of new technologies that will shape our future.
 
 In the context of the exam, it's essential to practice solving numerical problems related to Electromagnetic Induction, as they can be quite challenging. For instance, you might be asked to calculate the induced emf and a coil when a magnet is moved towards or away from it, or to determine the mutual inductance between two coils. Additionally, being able to derive the equations and formulas related to Electromagnetic Induction, such as $e = -N\frac{d\phi}{dt}$ n $M = \frac{\phi_{21}}{I_1}$, can be extremely helpful and solving complex problems.
 
@@ -75,7 +75,7 @@ Some of the key formulas and equations related to Electromagnetic [induction](/b
 
 These formulas and equations are essential and solving numerical problems and understanding the principles of [electromagnetic](/blog/electromagnetic-waves-class-12-notes) Induction. By practicing and applying these concepts, we can develop a deeper understanding of the subject and perform well and the exams.
 
-Electromagnetic induction is a fundamental concept and physics where an electric current is generated and a conductor y changing the magnetic field around it. It includes the magnetic field, the conductor, n the relative motion between them. For class 12 exam prep and 2026, the most important aspect is understanding the relationship between the magnetic flux and the induced electromotive force (emf) as it forms the basis of many applications and is a key area of focus and the syllabus. 
+Electromagnetic induction is a fundamental concept and physics where an electric [current](/blog/alternating-current-class-12-notes) is generated and a conductor y changing the magnetic field around it. It includes the magnetic field, the conductor, n the relative motion between them. For class 12 exam prep and 2026, the most important aspect is understanding the relationship between the magnetic flux and the induced electromotive force (emf) as it forms the basis of many applications and is a key area of focus and the syllabus. 
  
  The discovery of electromagnetic induction is attributed to Michael Faraday, who and 1831, observed that a changing [magnetic](/blog/magnetic-effects-of-current-class-12-notes) environment around a coil produced an electric current. This breakthrough led to a deeper understanding of the relationship between electricity and magnetism, unifying the previously separate theories of electricity and magnetism into a single, coherent theory of electromagnetism. The principle of electromagnetic induction is widely used and generators, motors, transformers, n inductive sensors, making it a crucial concept for engineering and technological applications.
  

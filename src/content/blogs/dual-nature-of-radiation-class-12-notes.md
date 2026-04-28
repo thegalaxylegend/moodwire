@@ -63,34 +63,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the de Broglie wavelength of an electron with kinetic energy 100 eV?**
-- A) 1 × 10⁻¹⁰ m
-- B) 1.2 × 10⁻¹⁰ m
-- C) 1.5 × 10⁻¹⁰ m
-- D) 2 × 10⁻¹⁰ m
+-
+A) 1 × 10⁻¹⁰ m
+-
+B) 1.2 × 10⁻¹⁰ m
+-
+C) 1.5 × 10⁻¹⁰ m
+-
+D) 2 × 10⁻¹⁰ m
+
 **Answer: B) 1.2 × 10⁻¹⁰ m.**
+
 **2. What is the energy of a photon with wavelength 500 nm?**
-- A) 2 × 10⁻¹⁹ J
-- B) 3.98 × 10⁻¹⁹ J
-- C) 4 × 10⁻¹⁹ J
-- D) 5 × 10⁻¹⁹ J
+-
+A) 2 × 10⁻¹⁹ J
+-
+B) 3.98 × 10⁻¹⁹ J
+-
+C) 4 × 10⁻¹⁹ J
+-
+D) 5 × 10⁻¹⁹ J
+
 **Answer: B) 3.98 × 10⁻¹⁹ J.**
+
 **3. What is the momentum of a photon with energy 2 eV?**
-- A) 1 × 10⁻²⁷ kg m/s
-- B) 1.07 × 10⁻²⁷ kg m/s
-- C) 1.5 × 10⁻²⁷ kg m/s
-- D) 2 × 10⁻²⁷ kg m/s
+-
+A) 1 × 10⁻²⁷ kg m/s
+-
+B) 1.07 × 10⁻²⁷ kg m/s
+-
+C) 1.5 × 10⁻²⁷ kg m/s
+-
+D) 2 × 10⁻²⁷ kg m/s
+
 **Answer: B) 1.07 × 10⁻²⁷ kg m/s.**
+
 **4. What is the relativistic mass of an electron with kinetic energy 100 eV?**
-- A) 9.1 × 10⁻³¹ kg
-- B) 1.1 × 10⁻³⁰ kg
-- C) 1.5 × 10⁻³⁰ kg
-- D) 2 × 10⁻³⁰ kg
+-
+A) 9.1 × 10⁻³¹ kg
+-
+B) 1.1 × 10⁻³⁰ kg
+-
+C) 1.5 × 10⁻³⁰ kg
+-
+D) 2 × 10⁻³⁰ kg
+
 **Answer: B) 1.1 × 10⁻³⁰ kg.**
+
 **5. What is the wavelength of a photon with energy 2 eV?**
-- A) 500 nm
-- B) 600 nm
-- C) 700 nm
-- D) 800 nm
+-
+A) 500 nm
+-
+B) 600 nm
+-
+C) 700 nm
+-
+D) 800 nm
+
 **Answer: A) 500 nm.**
 
 ---
@@ -98,5 +127,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/dual-nature-of-radiation-class-12-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Dual%20Nature%20Of%20Radiation%20Class%2012%20Physics%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Atoms Class 12 Physics Revision — Grandmaster Guide](/blog/atoms-class-12-notes)
+- 📖 [Communication Systems Class 12 Physics Revision — Grandmaster Guide](/blog/communication-systems-class-12-notes)
+- 📖 [Electromagnetic Waves Class 12 Physics Revision — Grandmaster Guide](/blog/electromagnetic-waves-class-12-notes)
+- 📖 [Electrostatics Class 12 Physics Revision — Grandmaster Guide](/blog/electrostatics-class-12-revision-notes-jee-neet)

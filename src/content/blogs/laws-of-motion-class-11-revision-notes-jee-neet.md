@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/laws-of-motion-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -215,6 +215,6 @@ Continue your [revision](/blog/rotational-motion-class-11-revision-notes-jee-nee
 ### Laws of Motion
    * **First Law of [Motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)**: An object at rest remains at rest, and an object in [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) remains in [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) with a constant velocity, unless acted upon by an external force.
    * **Second Law of [Motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)**: F = ma, where F is the net force applied to an object, m is its mass, and an is the acceleration produced.
-   * **Third Law of Motion**: For every action, there is an equal and opposite reaction.
+   * **Third Law of [Motion](/blog/rotational-motion-class-11-revision-notes-jee-neet)**: For every action, there is an equal and opposite reaction.
    * **Friction**: Static Friction (FS ≤ MSN), [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) Friction (OK = AKN), where is and OK are coefficients of static and [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) friction, and And is the normal force.
    * **Newton's Law of [gravitation](/blog/gravitation-class-11-revision-notes-jee-neet)**: F = G(m1m2)/r^2, where F is the gravitational force between two objects, G is the gravitational constant, m1 and m2 are the masses of the objects, and r is the distance between their centers.

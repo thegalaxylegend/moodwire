@@ -17,7 +17,7 @@ manualReview: false
 - Area of triangle = (base × height)/2
 - Perimeter of circle = 2 × π × radius
 - Area of circle = π × radius²
-- Volume of cube = side³
+- Volume of [cube](/blog/cubes-and-cube-roots-class-8-notes) = side³
 - Volume of cuboid = length × breadth × height
 - Volume of cylinder = π × radius² × height
 - Volume of cone = (1/3) × π × radius² × height
@@ -65,34 +65,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the formula for the area of a triangle?**
-- A) (base + height)/2
-- B) (base × height)/2
-- C) base + height
-- D) base × height
+-
+A) (base + height)/2
+-
+B) (base × height)/2
+-
+C) base + height
+-
+D) base × height
+
 **Answer: B) (base × height)/2.**
+
 **2. What is the formula for the volume of a cuboid?**
-- A) length + breadth + height
-- B) length × breadth + height
-- C) length × breadth × height
-- D) length + breadth × height
+-
+A) length + breadth + height
+-
+B) length × breadth + height
+-
+C) length × breadth × height
+-
+D) length + breadth × height
+
 **Answer: C) length × breadth × height.**
+
 **3. What is the formula for the surface area of a cube?**
-- A) 4 × side²
-- B) 5 × side²
-- C) 6 × side²
-- D) 8 × side²
+-
+A) 4 × side²
+-
+B) 5 × side²
+-
+C) 6 × side²
+-
+D) 8 × side²
+
 **Answer: C) 6 × side².**
+
 **4. What is the formula for the perimeter of a circle?**
-- A) π × radius
-- B) 2 × π × radius
-- C) π × diameter
-- D) 2 × π × diameter
+-
+A) π × radius
+-
+B) 2 × π × radius
+-
+C) π × diameter
+-
+D) 2 × π × diameter
+
 **Answer: B) 2 × π × radius.**
+
 **5. What is the formula for the area of a circle?**
-- A) π × radius
-- B) π × radius²
-- C) π × diameter
-- D) π × diameter²
+-
+A) π × radius
+-
+B) π × radius²
+-
+C) π × diameter
+-
+D) π × diameter²
+
 **Answer: B) π × radius².**
 
 ---
@@ -100,5 +129,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/mensuration-class-8-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Mensuration%208%20Class%208%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Comparing Quantities 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/comparing-quantities-class-8-notes)
+- 📖 [Cubes And Cube Roots 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/cubes-and-cube-roots-class-8-notes)
+- 📖 [Data Handling 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/data-handling-class-8-notes)
+- 📖 [Exponents And Powers 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/exponents-and-powers-class-8-notes)

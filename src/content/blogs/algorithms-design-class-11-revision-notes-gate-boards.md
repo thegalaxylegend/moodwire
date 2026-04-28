@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/algorithms-design-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -163,7 +163,7 @@ What is the key Shortcut or Trick for [algorithms](/blog/algorithms-analysis-cla
 
 ## <a id="what-are-the-different-types-of-algorithm-design-techniques"></a>What are the different types of Algorithm Design Techniques?
 
-Algorithm Design Techniques is a systematic approach to solving computational problems. It includes analysis of the problem, identification of suitable algorithms, n evaluation of their efficiency. For class 11 exam prep and 2026, the most important aspect is understanding the trade-offs between different techniques such as time complexity, space complexity, n scalability. Algorithm design techniques are crucial and computer science as they provide a framework for solving complex problems and an efficient and scalable manner. There are several types of algorithm design techniques, including Divide and Conquer, Dynamic Programming, Greedy Algorithms, n Backtracking. Each of these techniques has its own strengths and weaknesses and is suited for specific types of problems. The choice of technique depends on the nature of the problem, the size of the input, n the desired output. In this section, we will the details of each technique, providing examples and illustrations to help solidify the concepts. The table below provides a summary of the different algorithm design techniques, their characteristics, n applications.
+Algorithm Design Techniques is a systematic approach to solving computational problems. It includes analysis of the problem, identification of suitable [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards), n evaluation of their efficiency. For class 11 exam prep and 2026, the most important aspect is understanding the trade-offs between different techniques such as time complexity, space complexity, n scalability. Algorithm design techniques are crucial and computer science as they provide a framework for solving complex problems and an efficient and scalable manner. There are several types of algorithm design techniques, including Divide and Conquer, Dynamic Programming, Greedy [Algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards), n Backtracking. Each of these techniques has its own strengths and weaknesses and is suited for specific types of problems. The choice of technique depends on the nature of the problem, the size of the input, n the desired output. In this section, we will the details of each technique, providing examples and illustrations to help solidify the concepts. The table below provides a summary of the different algorithm design techniques, their characteristics, n applications.
 
 | Technique | Description | Example | Time Complexity | Space Complexity |
 | --- | --- | --- | --- | --- |

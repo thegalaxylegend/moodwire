@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -212,7 +212,7 @@ Continue your [revision](/blog/physical-world-class-11-revision-notes-jee-neet) 
 # Basic Principles of Organic Chemistry: 
 * **Isomerism**: same molecular formula, different [structural](/blog/structural-organisation-in-animals-class-11-revision-notes-neet) formula 
 * **Homologous Series**: same functional group, differs by CH2 
-* **IUPAC Nomenclature**: International Union of Pure and Applied Chemistry naming convention 
+* **IUPAC Nomenclature**: International Union of Pure and Applied [Chemistry](/blog/environmental-chemistry-class-11-revision-notes-neet) naming convention 
 * **Stereochemistry**: study of 3D arrangement of atoms 
 * **Hybridization**: mixing of atomic orbitals to form hybrid orbitals 
 * **Polarity**: separation of electric charge within a molecule 

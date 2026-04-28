@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/environmental-chemistry-class-11-revision-notes-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -62,7 +62,7 @@ Environmental [Chemistry](/blog/organic-chemistry-basic-principles-class-11-revi
 * It involves the study of the sources, reactions, transport, n effects of chemical species and the environment.
 * The main branches of environmental [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) are air, water, n soil pollution.
 * Environmental [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) is important for understanding and mitigating the impact of human activities on the environment.
-* The main goal of environmental chemistry is to develop sustainable solutions for environmental problems.
+* The main goal of environmental [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) is to develop sustainable solutions for environmental problems.
 #
 1. [Introduction to Environmental Chemistry](#introduction-to-environmental-chemistry)
 2. [Why This Chapter Matters](#why-this-chapter-matters)

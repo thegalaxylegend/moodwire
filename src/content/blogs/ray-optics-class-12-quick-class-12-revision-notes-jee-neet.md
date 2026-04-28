@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/ray-optics-class-12-quick-class-12-revision-notes-jee-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -112,7 +112,7 @@ I've found that understanding the basics of reflection, refraction, n total inte
 
 By focusing on these key concepts, formulae, n practice questions, I'm confident that I can master ray optics and perform well and my JEE/[neet](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) exams. Remember to review the **Trap Exceptions** section carefully to avoid common pitfalls and the exams. 
 
-To further reinforce our understanding, let's consider some examples and derivations of the formulae.
+To further reinforce our understanding, let's consider [some](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) examples and derivations of the formulae.
 
 ### <a id="examples"></a>Examples
 1. A ray of light passes from air into a glass prism with an angle of incidence of $30^\circ$. If the refractive index of the glass is $1.5$, find the angle of refraction.

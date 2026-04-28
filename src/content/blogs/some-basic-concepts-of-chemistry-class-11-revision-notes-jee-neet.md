@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -122,7 +122,7 @@ where P$ is the pressure, $V$ is the volume, $n$ is the number of moles, $R$ is 
 
 For example, consider a gas with a pressure of 1 atm, a volume of 10 L, n a temperature of 273 K. If we add 2 moles of the gas, the new pressure is:
 
-P = $\frac{nRT}{V} = \text{ atm\frac{2 \times 0.0821 \times 273}{10} = 4.46 $
+P = $\frac{nRT}{V} = \text{ atm\frac{2 \times 0.0821 \times 273}{10} = $4.46
 
 ## <a id="formulae"></a>Formulae
 
@@ -178,7 +178,7 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
 * **Incorrect Application of Dalton's Law**: Dalton's law of partial pressures states that the total pressure of a mixture of gases is equal to the sum of the partial pressures of the individual gases. Ensure you apply this law correctly in problems involving gas mixtures.
 * **Confusing Empirical and Molecular Formulas**: Empirical formulas give the simplest whole-number ratio of atoms in a molecule, while molecular formulas give the actual number of atoms in a molecule. Don't confuse these two when solving problems.
 * **Forgetting to Consider Significant Figures**: When performing calculations, always consider the significant figures of the given quantities to ensure the accuracy of your final answer.
-* **Misapplying the Law of Conservation of Mass**: The law states that matter cannot be created or destroyed in a chemical reaction. Ensure you apply this principle correctly when balancing chemical equations.
+* **Misapplying the Law of Conservation of Mass**: The law states that matter cannot be created or destroyed in a [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) reaction. Ensure you apply this principle correctly when balancing [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) equations.
 
 ## 🔁 Last 5 Minutes Box
 

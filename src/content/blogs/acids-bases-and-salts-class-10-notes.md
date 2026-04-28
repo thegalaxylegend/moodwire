@@ -20,7 +20,7 @@ manualReview: false
 - Acid + Base → Salt + Water
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not understanding the difference between strong and weak acids
+- Not understanding the difference between strong and weak [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
 - Forgetting the formula pH + pOH = 14
 - Not knowing the Kₙ value (10⁻¹⁴)
 - Confusing acid and base with salt
@@ -45,7 +45,7 @@ manualReview: false
 ## 🧠 The One Thing Most Students Get Wrong
 - Most students get confused between the terms acid, base, and salt, and are unable to identify the type of salt formed ∈ a reaction
 - To avoid this mistake, it is essential to understand the definitions and properties of acids, bases, and salts
-- Practice identifying the type of salt formed ∈ different reactions to build confidence
+- Practice identifying the type of salt formed ∈ different [reactions](/blog/chemical-reactions-and-equations-class-10-notes) to build confidence
 
 ## 👁️ Ayush's Note
 - To excel ∈ acids, bases, and salts, focus on understanding the concepts and formulas
@@ -62,38 +62,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the pH of a solution with [H⁺] = 10⁻⁴ M?**
-- A) 4
-- B) 6
-- C) 10
-- D) 14
+-
+A) 4
+-
+B) 6
+-
+C) 10
+-
+D) 14
+
 **Answer: A) 4. Explanation: Use the formula pH = -log[H⁺]**
 
 **2. What type of salt is formed by the reaction between a strong acid and a weak base?**
-- A) Acidic salt
-- B) Basic salt
-- C) Neutral salt
-- D) Normal salt
+-
+A) Acidic salt
+-
+B) Basic salt
+-
+C) Neutral salt
+-
+D) Normal salt
+
 **Answer: B) Basic salt. Explanation: Strong acid and weak base reaction**
 
 **3. What is the pOH of a solution with pH = 9?**
-- A) 5
-- B) 6
-- C) 14 - 9 = 5
-- D) 14 + 9 = 23
+-
+A) 5
+-
+B) 6
+-
+C) 14 - 9 = 5
+-
+D) 14 + 9 = 23
+
 **Answer: C) 5. Explanation: Use the formula pH + pOH = 14**
 
 **4. Which of the following is a strong acid?**
-- A) CH₃COOH
-- B) HCl
-- C) H₂O
-- D) NaOH
+-
+A) CH₃COOH
+-
+B) HCl
+-
+C) H₂O
+-
+D) NaOH
+
 **Answer: B) HCl. Explanation: Strong acid is completely ionized ∈ water**
 
 **5. What is the value of Kₙ?**
-- A) 10⁻⁷
-- B) 10⁻¹⁴
-- C) 10⁻²¹
-- D) 10⁻²⁸
+-
+A) 10⁻⁷
+-
+B) 10⁻¹⁴
+-
+C) 10⁻²¹
+-
+D) 10⁻²⁸
+
 **Answer: B) 10⁻¹⁴. Explanation: Kₙ value is constant at 10⁻¹⁴**
 
 ---
@@ -101,5 +126,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/acids-bases-and-salts-class-10-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Acids%2C%20Bases%20and%20Salts%20Class%2010%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Carbon and its Compounds Class 10 Science Recap — Grandmaster Guide](/blog/carbon-and-its-compounds-class-10-notes)
+- 📖 [Chemical Reactions and Equations Class 10 Science Recap — Grandmaster Guide](/blog/chemical-reactions-and-equations-class-10-notes)
+- 📖 [Heredity and Evolution Class 10 Science Recap — Grandmaster Guide](/blog/heredity-and-evolution-class-10-notes)

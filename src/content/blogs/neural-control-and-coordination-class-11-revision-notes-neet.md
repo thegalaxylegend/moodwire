@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/neural-control-n-coordination-class-11-revision-notes-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -107,7 +107,7 @@ The spinal cord is a long, thin, tube-like structure made up of nervous tissue, 
 
 ## <a id="tips-for-jeeneet-preparation"></a>Tips for JEE/NEET Preparation
 
-- **Understand the Basics**: Make sure you have a clear understanding of the structure and function of neurons, types of neurons, synaptic transmission, n reflex actions.
+- **Understand the Basics**: Make sure you have a clear understanding of the [structure](/blog/structure-of-the-atom-class-11-revision-notes-neet) and function of neurons, types of neurons, synaptic transmission, n reflex actions.
 - **Practice with Diagrams**: Drawing and labeling diagrams of neurons and the brain can help reinforce your understanding of these complex structures.
 - **Solve Previous Year Questions**: Practice solving questions from previous years' JEE n [neet](/blog/locomotion-and-movement-class-11-revision-notes-neet) exams to get familiar with the exam pattern and difficulty level.
 - **Focus on Key Concepts**: Identify the most important topics and focus your study efforts on those areas.
@@ -164,7 +164,7 @@ Continue your [revision](/blog/locomotion-and-movement-class-11-revision-notes-n
 - **Misconception about Reflex Action**: Many students assume that reflex action is a voluntary process, but it's actually an involuntary action that occurs without the involvement of the brain. 
    - **Confusion between Dendrite and Axon**: Students often get confused between the dendrite and axon, remembering that dendrites are the branching extensions of a neuron that receive signals, while the axon is the long, threadlike part of a neuron that carries signals away from the cell [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet).
    - **Understanding the Role of Synapses**: A common mistake is assuming that synapses are physical structures, when in fact, they are small gaps between two neurons where [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) signals are exchanged.
-   - **Mixing Up the Types of Neurons**: It's easy to get confused between the three types of neurons: sensory (afferent) neurons, motor (efferent) neurons, and interneurons, each having distinct functions in the neural control and coordination process.
+   - **Mixing Up the Types of Neurons**: It's easy to get confused between the three types of neurons: sensory (afferent) neurons, motor (efferent) neurons, and interneurons, each having distinct functions in the neural control and [coordination](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) process.
    - **Incorrectly Identifying the Functions of the Central Nervous System (CNS)**: Students may mistakenly attribute functions of the peripheral nervous system (PNS) to the CNS or vice versa, so it's crucial to clearly understand the roles of the brain and spinal cord in controlling and coordinating [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) activities.
 
 ## 🔁 Last 5 Minutes Box

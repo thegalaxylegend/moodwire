@@ -9,7 +9,7 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- Biotechnology is the use of biological systems to develop new products and technologies
+- [Biotechnology](/blog/biotechnology-principles-and-processes-class-12-notes) is the use of biological systems to develop new products and technologies
 - Recombinant DNA technology involves the use of restriction enzymes to cut DNA at specific sequences
 - Plasmids are small, circular DNA molecules found ∈ bacteria that can be used as vectors for gene cloning
 - The lac operon is a genetic regulatory system that controls the expression of genes involved ∈ lactose metabolism
@@ -62,38 +62,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the purpose of the lac operon ∈ E. coli?**
-- A) To regulate the expression of genes involved ∈ prote∈ synthesis
-- B) To regulate the expression of genes involved ∈ lactose metabolism
-- C) To regulate the expression of genes involved ∈ DNA replication
-- D) To regulate the expression of genes involved ∈ cell division
+-
+A) To regulate the expression of genes involved ∈ prote∈ synthesis
+-
+B) To regulate the expression of genes involved ∈ lactose metabolism
+-
+C) To regulate the expression of genes involved ∈ DNA replication
+-
+D) To regulate the expression of genes involved ∈ cell division
+
 **Answer: B) The lac operon is a genetic regulatory system that controls the expression of genes involved ∈ lactose metabolism.**
 
 **2. What is the difference between a stem cell and a progenitor cell?**
-- A) A stem cell is a differentiated cell, while a progenitor cell is an undifferentiated cell
-- B) A stem cell is an undifferentiated cell, while a progenitor cell is a differentiated cell
-- C) A stem cell is a type of progenitor cell
-- D) A progenitor cell is a type of stem cell
+-
+A) A stem cell is a differentiated cell, while a progenitor cell is an undifferentiated cell
+-
+B) A stem cell is an undifferentiated cell, while a progenitor cell is a differentiated cell
+-
+C) A stem cell is a type of progenitor cell
+-
+D) A progenitor cell is a type of stem cell
+
 **Answer: B) A stem cell is an undifferentiated cell that can differentiate into specialized cells, while a progenitor cell is a cell that has already begun to differentiate into a specific cell type.**
 
 **3. What is the process of PCR used for?**
-- A) To sequence DNA
-- B) To amplify specific DNA sequences
-- C) To synthesize proteins
-- D) To replicate DNA
+-
+A) To sequence DNA
+-
+B) To amplify specific DNA sequences
+-
+C) To synthesize proteins
+-
+D) To replicate DNA
+
 **Answer: B) PCR, or polymerase cha∈ reaction, is a technique used to amplify specific DNA sequences.**
 
 **4. What is the purpose of DNA fingerprinting?**
-- A) To identify individuals based on their unique DNA profiles
-- B) To diagnose genetic disorders
-- C) To develop new drugs
-- D) To create genetically modified organisms
+-
+A) To identify individuals based on their unique DNA profiles
+-
+B) To diagnose genetic disorders
+-
+C) To develop new drugs
+-
+D) To create genetically modified organisms
+
 **Answer: A) DNA fingerprinting is a technique used to identify individuals based on their unique DNA profiles.**
 
 **5. What is the central dogma of molecular biology?**
-- A) DNA → RNA → prote∈
-- B) RNA → DNA → prote∈
-- C) Prote∈ → DNA → RNA
-- D) RNA → prote∈ → DNA
+-
+A) DNA → RNA → prote∈
+-
+B) RNA → DNA → prote∈
+-
+C) Prote∈ → DNA → RNA
+-
+D) RNA → prote∈ → DNA
+
 **Answer: A) The central dogma of molecular biology is DNA → RNA → prote∈.**
 
 ---
@@ -101,5 +126,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/biotechnology-and-its-applications-class-12-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Biotechnology%20And%20Its%20Applications%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Biotechnology Principles And Processes Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biotechnology-principles-and-processes-class-12-notes)
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)

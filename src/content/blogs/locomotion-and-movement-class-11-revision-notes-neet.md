@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/locomotion-n-movement-class-11-revision-notes-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -108,7 +108,7 @@ Here are the answers to the practice questions:
 
 1. Walking involves the alternating movement of legs, while running involves a more rapid and energetic movement.
 2. Jumping involves the use of powerful leg muscles to propel the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) into the air.
-3. The primary function of the skeletal system is to provide support and structure for movement and locomotion.
+3. The primary function of the skeletal system is to provide support and [structure](/blog/structure-of-the-atom-class-11-revision-notes-neet) for movement and locomotion.
 4. Muscles consist of contractile units called sarcomeres, which generate force through the sliding filament theory.
 5. The nervous system transmits signals from the brain to the muscles, allowing for coordinated and precise movement.
 

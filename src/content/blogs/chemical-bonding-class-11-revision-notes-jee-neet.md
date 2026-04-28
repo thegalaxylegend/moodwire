@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/chemical-bonding-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -172,7 +172,7 @@ Where:
 - **C** = Cation charge (subtract).
 - **A** = Anion charge (add).
 
-### <a id="ayushs-comparison-xef_2-vs-co_2"></a>Ayush's Comparison: $ vs CO_2$
+### <a id="ayushs-comparison-xef_2-vs-co_2"></a>Ayush's Comparison: $ vs CO_$2
 Both are linear. But are they the same?
 1. **$CO_2$**: No lone pairs on C. $sp$ hybridized.
 2. **$XeF_2$**: 3 lone pairs$ on Xe. $sp^3d$ hybridized.$

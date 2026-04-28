@@ -38,7 +38,7 @@ manualReview: false
   Step 3: Take breaks to avoid fatigue
 - Question 3: What is the importance of past year papers analysis for UPSC and JEE/NEET?
   Step 1: Understand the exam pattern and question types
-  Step 2: Identify areas of improvement and focus on weak topics
+  Step 2: Identify [areas](/blog/areas-related-to-circles-class-10-notes) of improvement and focus on weak topics
   Step 3: Practice and revise regularly to improve scores
 
 ## 🧠 The One Thing Most Students Get Wrong
@@ -65,38 +65,61 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the best way to prepare for UPSC optional selection?**
-- A) Choose a popular subject
-- B) Understand the syllabus and exam pattern
-- C) Practice and revise regularly
-- D) Seek guidance from mentors
+-
+A) Choose a popular subject
+-
+B) Understand the syllabus and exam pattern
+-
+C) Practice and revise regularly
+-
+D) Seek guidance from mentors
+
 **Answer: B) Understanding the syllabus and exam pattern is crucial for UPSC optional selection**
 
 **2. How to manage time effectively during JEE 2026 and NEET 2026 exams?**
-- A) Allocate time based on difficulty level
-- B) Practice mock tests to improve speed and accuracy
-- C) Take breaks to avoid fatigue
-- D) All of the above
+-
+A) Allocate time based on difficulty level
+-
+B) Practice mock tests to improve speed and accuracy
+-
+C) Take breaks to avoid fatigue
+-
+D) All of the above
+
 **Answer: D) Effective time management involves allocating time based on difficulty level, practicing mock tests, and taking breaks**
 
 **3. What is the importance of past year papers analysis for UPSC and JEE/NEET?**
-- A) To understand the exam pattern and question types
-- B) To identify areas of improvement and focus on weak topics
-- C) To practice and revise regularly
-- D) All of the above
+-
+A) To understand the exam pattern and question types
+-
+B) To identify areas of improvement and focus on weak topics
+-
+C) To practice and revise regularly
+-
+D) All of the above
+
 **Answer: D) Past year papers analysis helps to understand the exam pattern, identify areas of improvement, and practice and revise regularly**
 
 **4. What is the formula to calculate UPSC score?**
-- A) (GS + Optional) / 2
+-
+A) (GS +
+
+Optional) / 2
 - B) (GS + Optional) × 2
 - C) GS + Optional
 - D) GS - Optional
 **Answer: A) The formula to calculate UPSC score is (GS + Optional) / 2**
 
 **5. What is the JEE Advanced formula for success?**
-- A) 2 × (Physics + Chemistry + Math) + 1 × Practice
-- B) 3 × (Physics + Chemistry + Math) + 2 × Practice
-- C) (Physics + Chemistry + Math) / 3
-- D) (Physics + Chemistry + Math) × 3
+-
+A) 2 × (Physics + Chemistry + Math) + 1 × Practice
+-
+B) 3 × (Physics + Chemistry + Math) + 2 × Practice
+-
+C) (Physics + Chemistry + Math) / 3
+-
+D) (Physics + Chemistry + Math) × 3
+
 **Answer: B) The JEE Advanced formula for success is 3 × (Physics + Chemistry + Math) + 2 × Practice**
 
 ---
@@ -104,5 +127,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/upsc-optional-selection-guide) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Upsc%20Optional%20Selection%20Guide%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Application Of Integrals Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-integrals-class-12-notes)

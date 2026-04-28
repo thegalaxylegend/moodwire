@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/algorithms-analysis-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -154,7 +154,7 @@ What are the fundamentals of [Algorithms](/blog/algorithms-design-class-11-revis
 
 ## <a id="what-are-the-different-types-of-algorithm-complexities"></a>What are the different types of algorithm complexities?
 
-What are the different types of algorithm complexities? is the study of the amount of time or space an algorithm requires as a function of the size of its input. It includes Big O notation, Omega notation, n Theta notation. For class 11 exam prep and 2026, the most important aspect is understanding how to analyze and compare the efficiency of different algorithms using these notations. 
+What are the different types of algorithm complexities? is the study of the amount of time or space an algorithm requires as a function of the size of its input. It includes Big O notation, Omega notation, n Theta notation. For class 11 exam prep and 2026, the most important aspect is understanding how to analyze and compare the efficiency of different [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards) using these notations. 
    
    Algorithm complexity is crucial and [computer](/blog/computer-organization-class-11-notes) science as it helps developers predict the performance of their code and make informed decisions about which algorithms to use and different scenarios. The complexity of an algorithm can be classified into several types, including time complexity and space complexity. Time complexity refers to the amount of time an algorithm takes to complete, usually measured and terms of the number of operations performed. Space complexity, on the other hand, refers to the amount of memory an algorithm uses.
    
@@ -250,7 +250,7 @@ What are common Trap Questions for Algorithms: Analysis? is a crucial aspect of 
    
    To illustrate the concept of trap questions and algorithms, consider the following example: given an array of integers, find the maximum $\sum of a subarray within the array. A common trap and solving this problem is to use a naive approach that involves checking all possible subarrays$, resulting and a time complexity of $O(n^2)$. A more efficient approach is to use Kadane's algorithm, which has a time complexity of $O(n)$ n involves iterating through the array and keeping track of the maximum $\sum of a subarray ending at each position.$ 
    
-   In summary, trap questions and algorithms require a deep understanding of algorithmic concepts, data structures, n problem-solving strategies. Students should focus on developing a systematic approach to problem-solving, practicing with a wide range of problems, n analyzing the time and space complexity of algorithms to tackle these challenges effectively.
+   In summary, trap questions and algorithms require a deep understanding of algorithmic concepts, [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures, n problem-solving strategies. Students should focus on developing a systematic approach to problem-solving, practicing with a wide range of problems, n analyzing the time and space complexity of algorithms to tackle these challenges effectively.
 
 | Algorithm | Time Complexity | Space Complexity |
 | --- | --- | --- |

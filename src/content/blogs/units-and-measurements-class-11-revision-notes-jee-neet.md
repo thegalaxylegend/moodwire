@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/units-n-measurements-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -55,7 +55,7 @@ practice_link: "/class-11/physics/units-n-measurements-class-11-revision-notes-j
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
-> - **Fundamental Quantities:** Length (m), Mass (kg), Time (s), Current (A), Temp (K), Amount (mol), Intensity (cd).
+> - **Fundamental Quantities:** Length (m), Mass (kg), Time (s), [Current](/blog/current-electricity-class-11-revision-notes-neet) (A), Temp (K), Amount (mol), Intensity (cd).
 > - **Dimensional Analysis:** Used to check formula correctness (LHS = RHS) n derive relations.
 > - **Significant Figures:** zeros between non-zeros are sig; trailing zeros after decimal are sig.
 > - **Error Propagation:** Δ(A+B) = ΔA + ΔB; Relative Error and multiplication/division is constant: ΔZ/Z = ΔA/A + ΔB/B.

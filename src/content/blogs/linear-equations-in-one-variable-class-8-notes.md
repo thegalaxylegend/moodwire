@@ -9,7 +9,7 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- a linear equation ∈ one variable is of the form ax + b = 0, where a ≠ 0
+- a [linear](/blog/linear-programming-class-12-notes) equation ∈ one variable is of the form ax + b = 0, where a ≠ 0
 - to solve for x, we use the formula x = -b/a
 - we can also represent linear equations ∈ the form x = c, where c is a constant
 - for example, 2x = 5 is a linear equation, which can be solved as x = 5/2
@@ -63,34 +63,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. Question:** Solve the equation x + 2 = 9
-- A) x = 7
-- B) x = 11
-- C) x = 10
-- D) x = 8
+-
+A) x = 7
+-
+B) x = 11
+-
+C) x = 10
+-
+D) x = 8
+
 **Answer:** A) x = 7, because subtracting 2 from both sides gives x = 9 - 2 = 7
+
 **2. Question:** Solve the equation 2x = 12
-- A) x = 5
-- B) x = 6
-- C) x = 4
-- D) x = 8
+-
+A) x = 5
+-
+B) x = 6
+-
+C) x = 4
+-
+D) x = 8
+
 **Answer:** B) x = 6, because dividing both sides by 2 gives x = 12/2 = 6
+
 **3. Question:** Solve the equation x - 1 = 3
-- A) x = 2
-- B) x = 4
-- C) x = 5
-- D) x = 6
+-
+A) x = 2
+-
+B) x = 4
+-
+C) x = 5
+-
+D) x = 6
+
 **Answer:** B) x = 4, because adding 1 to both sides gives x = 3 + 1 = 4
+
 **4. Question:** Solve the equation x/3 = 2
-- A) x = 5
-- B) x = 6
-- C) x = 4
-- D) x = 8
+-
+A) x = 5
+-
+B) x = 6
+-
+C) x = 4
+-
+D) x = 8
+
 **Answer:** B) x = 6, because multiplying both sides by 3 gives x = 2 × 3 = 6
+
 **5. Question:** Solve the equation 2x + 1 = 7
-- A) x = 2
-- B) x = 3
-- C) x = 4
-- D) x = 5
+-
+A) x = 2
+-
+B) x = 3
+-
+C) x = 4
+-
+D) x = 5
+
 **Answer:** B) x = 3, because subtracting 1 from both sides gives 2x = 6, then dividing both sides by 2 gives x = 6/2 = 3
 
 ---
@@ -98,5 +127,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/linear-equations-in-one-variable-class-8-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Linear%20Equations%20In%20One%20Variable%208%20Class%208%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Linear Equations In Two Variables 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-two-variables-class-9-notes)
+- 📖 [Pair Of Linear Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/pair-of-linear-equations-class-10-notes)
+- 📖 [Differential Equations Class 12 Exam Prep Revision — Grandmaster Guide](/blog/differential-equations-class-12-notes)
+- 📖 [Linear Programming Class 12 Exam Prep Revision — Grandmaster Guide](/blog/linear-programming-class-12-notes)

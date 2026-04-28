@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/structure-of-atom-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -173,7 +173,7 @@ In this model:
 
 ## <a id="8-the-4-quantum-numbers-the-gps-of-the-electron"></a>8. The 4 Quantum Numbers: The GPS of the Electron
 
-**Quantum Numbers are a set of four numerical values that completely describe the energy, shape, orientation, n spin of an electron and an atom.**
+**Quantum Numbers are a set of four numerical values that completely describe the energy, shape, orientation, n spin of an electron and an [atom](/blog/structure-of-the-atom-class-11-revision-notes-neet).**
 
 1. **Principal ($n$):** tells you the shell size and energy. $n = 1, 2, 3...$
 2. **Azimuthal ($l$):** tells you the subshell shape. $l = 0 \text{ to } (n-1)$.

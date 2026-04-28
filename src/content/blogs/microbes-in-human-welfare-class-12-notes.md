@@ -36,7 +36,7 @@ manualReview: false
   Answer: Bacillus thuringiensis produces a tox∈ that kills insect pests, making it a useful biopesticide
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students think that all microbes are harmful, but ∈ reality, many microbes are beneficial and play a crucial role ∈ human welfare
+- Most students think that all microbes are harmful, but ∈ reality, many microbes are beneficial and play a crucial role ∈ [human](/blog/human-reproduction-class-12-notes) welfare
 - Microbes are used ∈ various applications such as food production, vaccine production, and pollution control
 - Understanding the benefits of microbes is essential to appreciate their importance ∈ human welfare
 
@@ -56,38 +56,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the primary role of Rhizobium ∈ biofertilizers?**
-- A) Nitrogen fixation
-- B) Phosphate solubilization
-- C) Potassium mobilization
-- D) Sulfur oxidation
+-
+A) Nitrogen fixation
+-
+B) Phosphate solubilization
+-
+C) Potassium mobilization
+-
+D) Sulfur oxidation
+
 **Answer: A) Nitrogen fixation. Rhizobium is a symbiotic nitrogen-fixing bacterium.**
 
 **2. Which of the following microbes is used ∈ biopesticides?**
-- A) Lactobacillus
-- B) Bacillus thuringiensis
-- C) Saccharomyces cerevisiae
-- D) Penicillium
+-
+A) Lactobacillus
+-
+B) Bacillus thuringiensis
+-
+C) Saccharomyces cerevisiae
+-
+D) Penicillium
+
 **Answer: B) Bacillus thuringiensis. Bacillus thuringiensis produces a tox∈ that kills insect pests.**
 
 **3. What is the significance of BOD ∈ sewage treatment?**
-- A) Measures the amount of oxygen ∈ sewage water
-- B) Measures the amount of organic matter ∈ sewage water
-- C) Measures the amount of nutrients ∈ sewage water
-- D) Measures the amount of pathogens ∈ sewage water
+-
+A) Measures the amount of oxygen ∈ sewage water
+-
+B) Measures the amount of organic matter ∈ sewage water
+-
+C) Measures the amount of nutrients ∈ sewage water
+-
+D) Measures the amount of pathogens ∈ sewage water
+
 **Answer: B) Measures the amount of organic matter ∈ sewage water. BOD is a measure of the amount of organic matter ∈ sewage water.**
 
 **4. Which of the following is an example of a microbe used ∈ enzyme production?**
-- A) Aspergillus
-- B) Bacillus
-- C) Pseudomonas
-- D) All of the above
+-
+A) Aspergillus
+-
+B) Bacillus
+-
+C) Pseudomonas
+-
+D) All of the above
+
 **Answer: D) All of the above. Aspergillus, Bacillus, and Pseudomonas are all examples of microbes used ∈ enzyme production.**
 
 **5. What is the primary role of microbes ∈ pollution control?**
-- A) Biodegradation of organic pollutants
-- B) Biodegradation of inorganic pollutants
-- C) Bioaccumulation of heavy metals
-- D) Bioremediation of soil pollutants
+-
+A) Biodegradation of organic pollutants
+-
+B) Biodegradation of inorganic pollutants
+-
+C) Bioaccumulation of heavy metals
+-
+D) Bioremediation of soil pollutants
+
 **Answer: A) Biodegradation of organic pollutants. Microbes play a crucial role ∈ biodegrading organic pollutants ∈ the environment.**
 
 ---
@@ -95,5 +120,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/microbes-in-human-welfare-class-12-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Microbes%20In%20Human%20Welfare%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Human Health And Disease Class 12 Exam Prep Revision — Grandmaster Guide](/blog/human-health-and-disease-class-12-notes)
+- 📖 [Human Reproduction Class 12 Exam Prep Revision — Grandmaster Guide](/blog/human-reproduction-class-12-notes)
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)

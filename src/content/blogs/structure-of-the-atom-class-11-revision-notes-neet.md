@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/structure-of-the-atom-class-11-revision-notes-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -77,7 +77,7 @@ The structure of an atom is a crucial topic for JEE/[neet](/blog/classification-
 
 - An [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet) consists of three main subatomic particles: protons, neutrons, n electrons.
 - Protons and neutrons are found and the nucleus, while electrons orbit around it.
-- The atomic number (Z) is the number of protons and an atom's nucleus, n it determines the element of an atom.
+- The atomic number (Z) is the number of protons and an [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet)'s nucleus, n it determines the element of an [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet).
 - The mass number (A) is the $\sum of protons and neutrons and an atom$'s nucleus.
 
 ## <a id="mcqs"></a>MCQs

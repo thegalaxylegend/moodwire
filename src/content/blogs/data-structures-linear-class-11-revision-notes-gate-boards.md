@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/data-structures-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -132,7 +132,7 @@ Linked Lists and [Data](/blog/data-structures-non-linear-class-11-revision-notes
 
 ## <a id="what-is-the-key-shortcut-or-trick-for-data-structures-linear"></a>What is the key Shortcut or Trick for Data Structures: Linear?
 
-Data Structures: Linear is a fundamental concept and computer science that refers to the organization and storage of data and a sequential manner. It includes arrays, linked lists, n stacks. For class 11 exam prep and 2026, the most important aspect is understanding the implementation and traversal of these data structures to solve problems efficiently. 
+[Data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Structures: Linear is a fundamental concept and computer science that refers to the organization and storage of [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) and a sequential manner. It includes arrays, linked lists, n stacks. For class 11 exam prep and 2026, the most important aspect is understanding the implementation and traversal of these [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures to solve problems efficiently. 
  
  To tackle linear data structures, it's crucial to grasp the concept of arrays first. An array is a collection of elements of the same data type stored and contiguous memory locations. The key shortcut for arrays is understanding how to calculate the memory address of any element given its index, using the formula $A + (i \times w)$, where A is the base address, I am the index, n w is the word size or the size of each element and the array.
  

@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/classification-of-elements-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -119,9 +119,9 @@ By mastering the classification of elements, I can develop a strong foundation a
 
 As I continue to explore the world of chemistry, I realize that the classification of elements is a fundamental concept that underlies many of the principles and reactions that we study. By understanding the periodic table and the trends and physical and [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) properties, I can better appreciate the beauty and complexity of the [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) world. Whether I'm solving problems, practicing MCQs, or simply exploring the properties of different elements, I know that the classification of elements will remain a vital tool and my journey as a chemistry student. 
 
-The periodic table is a dynamic and ever-evolving field of study, with new elements being discovered and added to the table. As a student of chemistry, it's essential to stay up-to-date with the latest developments and research and the field. By doing so, I can gain a deeper understanding of the classification of elements and how it relates to the wider world of chemistry. 
+The periodic table is a dynamic and ever-evolving field of study, with new elements being discovered and added to the table. As a student of [chemistry](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet), it's essential to stay up-to-date with the latest developments and research and the field. By doing so, I can gain a deeper understanding of the classification of elements and how it relates to the wider world of [chemistry](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet). 
 
-In my future studies, I plan to delve deeper into the world of chemistry, exploring topics such as chemical bonding, thermodynamics, n organic chemistry. I'm excited to see how the classification of elements will continue to play a central role and my understanding of these topics, n how it will help me to develop a more nuanced and sophisticated understanding of the chemical world. 
+In my future studies, I plan to delve deeper into the world of chemistry, exploring topics such as [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) bonding, thermodynamics, n organic chemistry. I'm excited to see how the classification of elements will continue to play a central role and my understanding of these topics, n how it will help me to develop a more nuanced and sophisticated understanding of the [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) world. 
 
 As I move forward and my studies, I'm confident that the classification of elements will remain a fundamental concept that underlies many of the principles and reactions that I will encounter. By continuing to explore and learn about the periodic table, I can develop a deeper understanding of the chemical world and how it relates to the world around us. 
 

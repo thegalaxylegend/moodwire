@@ -21,7 +21,7 @@ manualReview: false
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not understanding the difference between addition and condensation polymerization.
-- Confusing the terms monomer, polymer, and macromolecule.
+- Confusing the terms' monomer, polymer, and macromolecule.
 - Not being able to identify the type of polymerization (addition or condensation) from the given reaction.
 - Not knowing the difference between thermoplastic and thermosetting polymers.
 - Not being able to calculate the degree of polymerization (n) using the given equations.
@@ -44,7 +44,7 @@ manualReview: false
 - **Answer:** Thermoplastic polymers can be melted and reformed, while thermosetting polymers cannot be melted and reformed.
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students get confused between the terms monomer, polymer, and macromolecule.
+- Most students get confused between the terms' monomer, polymer, and macromolecule.
 - A monomer is a small molecule that can be combined with other monomers to form a polymer.
 - A polymer is a large molecule composed of many monomer units.
 - A macromolecule is a large molecule, but it is not necessarily a polymer.
@@ -63,34 +63,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the type of polymerization ∈ which monomers are added to the growing polymer cha∈ one at a time?**
-- A) Condensation polymerization
-- B) Addition polymerization
-- C) Radical polymerization
-- D) Anionic polymerization
+-
+A) Condensation polymerization
+-
+B) Addition polymerization
+-
+C) Radical polymerization
+-
+D) Anionic polymerization
+
 **Answer: B) Addition polymerization.**
+
 **2. What is the degree of polymerization (n) of a polymer if the initial degree of polymerization (n₀) is 50 and the extent of reaction (p) is 0.9?**
-- A) 100
-- B) 125
-- C) 50
-- D) 500
+-
+A) 100
+-
+B) 125
+-
+C) 50
+-
+D) 500
+
 **Answer: B) 125.**
+
 **3. What is the difference between a thermoplastic and a thermosetting polymer?**
-- A) Thermoplastic polymers are brittle, while thermosetting polymers are flexible.
-- B) Thermoplastic polymers can be melted and reformed, while thermosetting polymers cannot be melted and reformed.
-- C) Thermoplastic polymers are used ∈ packaging, while thermosetting polymers are used ∈ construction.
-- D) Thermoplastic polymers are more expensive than thermosetting polymers.
+-
+A) Thermoplastic polymers are brittle, while thermosetting polymers are flexible.
+-
+B) Thermoplastic polymers can be melted and reformed, while thermosetting polymers cannot be melted and reformed.
+-
+C) Thermoplastic polymers are used ∈ packaging, while thermosetting polymers are used ∈ construction.
+-
+D) Thermoplastic polymers are more expensive than thermosetting polymers.
+
 **Answer: B) Thermoplastic polymers can be melted and reformed, while thermosetting polymers cannot be melted and reformed.**
+
 **4. What is the molecular weight of a polymer if the number average molecular weight (Mₙ) is 5000 g/mol and the weight average molecular weight (Mₜ) is 10000 g/mol?**
-- A) 5000 g/mol
-- B) 10000 g/mol
-- C) 7500 g/mol
-- D) 15000 g/mol
+-
+A) 5000 g/mol
+-
+B) 10000 g/mol
+-
+C) 7500 g/mol
+-
+D) 15000 g/mol
+
 **Answer: C) 7500 g/mol.**
+
 **5. What is the type of polymerization ∈ which monomers are combined with the elimination of a small molecule?**
-- A) Addition polymerization
-- B) Condensation polymerization
-- C) Radical polymerization
-- D) Anionic polymerization
+-
+A) Addition polymerization
+-
+B) Condensation polymerization
+-
+C) Radical polymerization
+-
+D) Anionic polymerization
+
 **Answer: B) Condensation polymerization.**
 
 ---
@@ -98,5 +127,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/polymers-class-12-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Polymers%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Application Of Integrals Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-integrals-class-12-notes)

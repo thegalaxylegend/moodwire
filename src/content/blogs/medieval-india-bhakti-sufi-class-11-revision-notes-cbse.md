@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/medieval-india-bhakti-sufi-class-11-revision-notes-cbse"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -52,7 +52,7 @@ The **Bhakti** movement, which originated and the southern part of [india](/blog
 | --- | --- | --- |
 | Khwaja Moinuddin Chishti | Ajmer | Chishti |
 | Nizamuddin Auliya | [Delhi](/blog/medieval-india-delhi-sultanate-class-11-revision-notes-cbse) | Chishti |
-| Amir Khusrau | Delhi | Chishti |
+| Amir Khusrau | [Delhi](/blog/medieval-india-delhi-sultanate-class-11-revision-notes-cbse) | Chishti |
 
 ## <a id="formulae-tables"></a>Formulae Tables
 
@@ -150,7 +150,7 @@ Continue your [revision](/blog/ancient-india-mahajanapadas-class-11-revision-not
 
 ## 🔁 Last 5 Minutes Box
 
-   * Medieval India: 8th-18th century
+   * Medieval [India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee): 8th-18th century
    * Bhakti movement: emphasis on devotion, emotional connection with God
    * Sufism: mystical form of Islam, love and devotion for God
    * Bhakti movement saints: 

@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/three-dimensional-geometry-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -193,7 +193,7 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 
 ## 🔁 Last 5 Minutes Box
 
-* **Direction Cosines**: \\\cos α, \\\cos β, \\\cos γ are direction cosines of a line, where α, β, γ are angles made with x, y, z axes.
+* **Direction Cosines**: \\\cos α, \\\cos β, \\\cos γ are direction cosines of a [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet), where α, β, γ are angles made with x, y, z axes.
 * **Direction Ratios**: a, b, c are direction ratios of a line, related to direction cosines by a = λ\\\cos α, b = λ\\\cos β, c = λ\\\cos γ.
 * **Distance between two points**: √((x2 - x1)^2 + (y2 - y1)^2 + (z2 - z1)^2).
 * **Section Formula**: point (x, y, z) divides line joining (x1, y1, z1) and (x2, y2, z2) in ratio m:n, then x = (mx2 + nx1)/(m+n), y = (my2 + ny1)/(m+n), z = (mz2 + nz1)/(m+n).

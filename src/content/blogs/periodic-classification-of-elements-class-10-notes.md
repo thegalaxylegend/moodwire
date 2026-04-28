@@ -56,34 +56,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the basis of the modern periodic table?**
-- A) Atomic mass
-- B) Atomic number
-- C) Valency
-- D) Electron configuration
+-
+A) Atomic mass
+-
+B) Atomic number
+-
+C) Valency
+-
+D) Electron configuration
+
 **Answer: B) Atomic number.**
+
 **2. Which of the following is a metalloid?**
-- A) Sodium
-- B) Carbon
-- C) Silicon
-- D) Oxygen
+-
+A) Sodium
+-
+B) [Carbon](/blog/carbon-and-its-compounds-class-10-notes)
+-
+C) Silicon
+-
+D) Oxygen
+
 **Answer: C) Silicon.**
+
 **3. What is the trend ∈ atomic radius down a group?**
-- A) Decreases
-- B) Increases
-- C) Remains the same
-- D) None of the above
+-
+A) Decreases
+-
+B) Increases
+-
+C) Remains the same
+-
+D) None of the above
+
 **Answer: B) Increases.**
+
 **4. What is the significance of the periodic table?**
-- A) It helps ∈ the classification of elements
-- B) It shows the relationship between the position of an element ∈ the periodic table and its properties
-- C) It helps ∈ the prediction of the properties of an element
-- D) All of the above
+-
+A) It helps ∈ the classification of elements
+-
+B) It shows the relationship between the position of an element ∈ the periodic table and its properties
+-
+C) It helps ∈ the prediction of the properties of an element
+-
+D) All of the above
+
 **Answer: D) All of the above.**
+
 **5. Which block of the periodic table does the element with atomic number 12 belong to?**
-- A) s-block
-- B) p-block
-- C) d-block
-- D) f-block
+-
+A) s-block
+-
+B) p-block
+-
+C) d-block
+-
+D) f-block
+
 **Answer: A) s-block.**
 
 ---
@@ -91,5 +120,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/periodic-classification-of-elements-class-10-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Periodic%20Classification%20of%20Elements%20Class%2010%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Acids, Bases and Salts Class 10 Science Recap — Grandmaster Guide](/blog/acids-bases-and-salts-class-10-notes)
+- 📖 [Carbon and its Compounds Class 10 Science Recap — Grandmaster Guide](/blog/carbon-and-its-compounds-class-10-notes)
+- 📖 [Chemical Reactions and Equations Class 10 Science Recap — Grandmaster Guide](/blog/chemical-reactions-and-equations-class-10-notes)
+- 📖 [Heredity and Evolution Class 10 Science Recap — Grandmaster Guide](/blog/heredity-and-evolution-class-10-notes)

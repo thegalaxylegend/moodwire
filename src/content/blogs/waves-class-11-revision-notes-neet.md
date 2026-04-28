@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/waves-class-11-revision-notes-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -210,12 +210,12 @@ Where:
 ---
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&
 A)
-**             Q1: Why does sound travel faster n [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than and gases?**
+**              Q1: Why does sound travel faster n [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than and gases?**
 
 **Answer:** The speed of sound is **v = √(E / ρ)**. Although [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) are much denser than gases (which would decrease speed), their elasticity (E) is significantly higher. Since elasticity dominates the equation, sound travels ~15 \times faster n [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than and air.
 
 **Q2: What is Laplace's correction and why was Newton wrong?**
-**Answer:** Newton assumed sound travel was isothermal, but the compressions and rarefactions of a sound wave happen so rapidly that heat does not have time to escape. This makes it an **Adiabatic** process. Laplace corrected this y multiplying pressure y **γ** (ratio of specific heats), bringing the theoretical value and line with experimental results.
+**Answer:** Newton assumed sound travel was isothermal, but the compressions and rarefactions of a sound wave happen so rapidly that heat does not have time to escape. This makes it an **Adiabatic** process. Laplace corrected this y multiplying pressure y **γ** (ratio of specific heats), bringing the theoretical value and [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) with experimental results.
 
 **Q3: Can a sound wave travel and a vacuum?**
 **Answer:** **No.** Sound is a [mechanical](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) longitudinal wave. It requires a medium with elasticity and inertia to transmit the physical disturbance. In a vacuum, there are no particles to oscillate, so sound cannot propagate.
@@ -277,8 +277,8 @@ Continue your [revision](/blog/motion-in-a-plane-class-11-revision-notes-jee-nee
 
 * **Confusing wave speed and particle speed**: Many students confuse the speed of a wave with the speed of the particles that make up the wave. Remember, the speed of a wave is the speed at which the disturbance travels, while the speed of the particles is the speed at which the individual particles oscillate.
 * **Forgetting to consider the medium**: When solving problems related to wave speed, it's essential to consider the [properties](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) of the medium through which the wave is traveling. The speed of a wave can depend on the density and elasticity of the medium.
-* **Incorrectly applying the wave equation**: The wave equation is a fundamental concept in physics, but it's often misapplied. Make sure to double-check the units and variables when using the equation to solve problems.
-* **Not distinguishing between transverse and longitudinal waves**: Transverse and longitudinal waves have different properties and behaviors. Be careful not to confuse the two, especially when dealing with problems related to wave polarization and reflection.
+* **Incorrectly applying the wave equation**: The wave equation is a fundamental concept in physics, but it's often misapplied. Make sure to double-check the [units](/blog/units-and-measurements-class-11-revision-notes-jee-neet) and variables when using the equation to solve problems.
+* **Not distinguishing between transverse and longitudinal waves**: Transverse and longitudinal waves have different [properties](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) and behaviors. Be careful not to confuse the two, especially when dealing with problems related to wave polarization and reflection.
 * **Mistaking wave frequency for wave period**: Frequency and period are related but distinct concepts. Frequency is the number of oscillations per second, while period is the time taken for one complete oscillation. Make sure to use the correct units and formulas when working with these concepts.
 
 ## 🔁 Last 5 Minutes Box

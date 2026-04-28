@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/mineral-nutrition-class-11-revision-notes-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -252,7 +252,7 @@ Continue your [revision](/blog/hydrogen-class-11-revision-notes-neet) with these
    * 17 essential [elements](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) required by plants: C, H, O, N, P, S, K, Ca, Mg, Fe, Cu, B, Mn, Mo, Zn, Cl
    * Macronutrients: C, H, O, N, P, S, K, Ca, Mg
    * Micronutrients: Fe, Cu, B, Mn, Mo, Zn, Cl
-   ### Functions of Essential Mineral Elements
+   ### Functions of Essential Mineral [Elements](/blog/the-s-block-elements-class-11-revision-notes-jee-neet)
    * Nitrogen: amino acids, proteins, nucleic acids
    * Phosphorus: nucleic acids, ATP, NADP
    * Potassium: maintenance of membrane potential

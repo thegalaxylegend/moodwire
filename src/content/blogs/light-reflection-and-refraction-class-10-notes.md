@@ -9,7 +9,7 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- Speed of light ∈ vacuum = 3 × 10⁸ m/s
+- Speed of [light](/blog/physics-heat-light-class-11-revision-notes-jee-neet) ∈ vacuum = 3 × 10⁸ m/s
 - Refractive index μ = c/v
 - Snell's law: μ₁ s∈ θ₁ = μ₂ s∈ θ₂
 - Mirror formula: 1/f = 1/do + 1/di
@@ -23,7 +23,7 @@ manualReview: false
 - Power of a lens P = 1/f
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not using the correct sign convention for mirror and lens equations
+- Not using the correct sign convention for mirror and lens [equations](/blog/chemical-reactions-and-equations-class-10-notes)
 - Forgetting to consider the medium when calculating refractive index
 - Not using Snell's law when dealing with refraction
 - Incorrectly applying the lensmaker's formula
@@ -62,38 +62,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the speed of light ∈ vacuum?**
-- A) 2 × 10⁸ m/s
-- B) 3 × 10⁸ m/s
-- C) 4 × 10⁸ m/s
-- D) 5 × 10⁸ m/s
+-
+A) 2 × 10⁸ m/s
+-
+B) 3 × 10⁸ m/s
+-
+C) 4 × 10⁸ m/s
+-
+D) 5 × 10⁸ m/s
+
 **Answer: B) 3 × 10⁸ m/s.**
 
 **2. What is the refractive index of a medium?**
-- A) μ = v/c
-- B) μ = c/v
-- C) μ = v²/c²
-- D) μ = c²/v²
+-
+A) μ = v/c
+-
+B) μ = c/v
+-
+C) μ = v²/c²
+-
+D) μ = c²/v²
+
 **Answer: B) μ = c/v.**
 
 **3. What is the formula for Snell's law?**
-- A) μ₁ s∈ θ₁ = μ₂ cos θ₂
-- B) μ₁ s∈ θ₁ = μ₂ s∈ θ₂
-- C) μ₁ cos θ₁ = μ₂ s∈ θ₂
-- D) μ₁ cos θ₁ = μ₂ cos θ₂
+-
+A) μ₁ s∈ θ₁ = μ₂ cos θ₂
+-
+B) μ₁ s∈ θ₁ = μ₂ s∈ θ₂
+-
+C) μ₁ cos θ₁ = μ₂ s∈ θ₂
+-
+D) μ₁ cos θ₁ = μ₂ cos θ₂
+
 **Answer: B) μ₁ s∈ θ₁ = μ₂ s∈ θ₂.**
 
 **4. What is the mirror formula?**
-- A) 1/f = 1/do - 1/di
-- B) 1/f = 1/do + 1/di
-- C) 1/f = 1/do × 1/di
-- D) 1/f = 1/do ÷ 1/di
+-
+A) 1/f = 1/do - 1/di
+-
+B) 1/f = 1/do + 1/di
+-
+C) 1/f = 1/do × 1/di
+-
+D) 1/f = 1/do ÷ 1/di
+
 **Answer: B) 1/f = 1/do + 1/di.**
 
 **5. What is the lensmaker's formula?**
-- A) 1/f = (μ + 1)(1/R₁ - 1/R₂)
-- B) 1/f = (μ - 1)(1/R₁ - 1/R₂)
-- C) 1/f = (μ + 1)(1/R₁ + 1/R₂)
-- D) 1/f = (μ - 1)(1/R₁ + 1/R₂)
+-
+A) 1/f = (μ + 1)(1/R₁ - 1/R₂)
+-
+B) 1/f = (μ - 1)(1/R₁ - 1/R₂)
+-
+C) 1/f = (μ + 1)(1/R₁ + 1/R₂)
+-
+D) 1/f = (μ - 1)(1/R₁ + 1/R₂)
+
 **Answer: B) 1/f = (μ - 1)(1/R₁ - 1/R₂).**
 
 ---
@@ -101,5 +126,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/light-reflection-and-refraction-class-10-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Light%20%E2%80%93%20Reflection%20and%20Refraction%20Class%2010%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [physics heat light](/blog/physics-heat-light-class-11-revision-notes-jee-neet)
+- 📖 [Acids, Bases and Salts Class 10 Science Recap — Grandmaster Guide](/blog/acids-bases-and-salts-class-10-notes)
+- 📖 [Carbon and its Compounds Class 10 Science Recap — Grandmaster Guide](/blog/carbon-and-its-compounds-class-10-notes)
+- 📖 [Chemical Reactions and Equations Class 10 Science Recap — Grandmaster Guide](/blog/chemical-reactions-and-equations-class-10-notes)

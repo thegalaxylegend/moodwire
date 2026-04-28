@@ -50,48 +50,87 @@ manualReview: false
 - Review the formulas for Mendel's laws and the Hardy-Weinberg principle
 - Review the definitions of genotype, phenotype, dominant allele, and recessive allele
 - Practice solving problems using a Punnett square and the Hardy-Weinberg principle
-- Check your answers using the formulas and principles
+- Check your answers using the formulas and [principles](/blog/biotechnology-principles-and-processes-class-12-notes)
 
 ## 📝 Practice MCQs
 **1. What is the genotype of an individual that is homozygous dominant for the trait of tallness?**
-- A) Bb
-- B) BB
-- C) bb
-- D) BbRr
+-
+A) Bb
+-
+B) BB
+-
+C) bb
+-
+D) BbRr
+
 **Answer: B) BB**
 
 **2. What is the probability of an individual being tall if the genotype is Bb?**
-- A) 1/2
-- B) 1/4
-- C) 3/4
-- D) 1
+-
+A) 1/2
+-
+B) 1/4
+-
+C) 3/4
+-
+D) 1
+
 **Answer: D) 1**
 
 **3. What is the purpose of a test cross?**
-- A) To determine the genotype of an individual
-- B) To determine the phenotype of an individual
-- C) To determine the frequency of a particular allele ∈ a population
-- D) To determine the probability of a particular genotype or phenotype
+-
+A) To determine the genotype of an individual
+-
+B) To determine the phenotype of an individual
+-
+C) To determine the frequency of a particular allele ∈ a population
+-
+D) To determine the probability of a particular genotype or phenotype
+
 **Answer: A) To determine the genotype of an individual**
 
 **4. What is the Hardy-Weinberg principle?**
-- A) p² + 2pq + q² = 1
-- B) p² - 2pq + q² = 1
-- C) p² + 2pq - q² = 1
-- D) p² - 2pq - q² = 1
+-
+A) p² + 2pq + q² = 1
+-
+B) p² - 2pq + q² = 1
+-
+C) p² + 2pq - q² = 1
+-
+D) p² - 2pq - q² = 1
+
 **Answer: A) p² + 2pq + q² = 1**
 
 **5. What is the difference between a monohybrid and dihybrid cross?**
-- A) A monohybrid cross involves one trait, while a dihybrid cross involves two traits
-- B) A monohybrid cross involves two traits, while a dihybrid cross involves one trait
-- C) A monohybrid cross involves one parent, while a dihybrid cross involves two parents
-- D) A monohybrid cross involves two parents, while a dihybrid cross involves one parent
+-
+A) A monohybrid cross involves one trait, while a dihybrid cross involves two traits
+-
+B) A monohybrid cross involves two traits, while a dihybrid cross involves one trait
+-
+C) A monohybrid cross involves one parent, while a dihybrid cross involves two parents
+-
+D) A monohybrid cross involves two parents, while a dihybrid cross involves one parent
+
 **Answer: A) A monohybrid cross involves one trait, while a dihybrid cross involves two traits**
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/principles-of-inheritance-and-variation-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/principles-of-[inheritance](/blog/molecular-basis-of-inheritance-class-12-notes)-and-variation-class-12-notes) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Principles%20Of%20Inheritance%20And%20Variation%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Biotechnology Principles And Processes Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biotechnology-principles-and-processes-class-12-notes)
+- 📖 [Molecular Basis Of Inheritance Class 12 Exam Prep Revision — Grandmaster Guide](/blog/molecular-basis-of-inheritance-class-12-notes)
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)

@@ -25,7 +25,7 @@ practice_link: "/class-11/mathematics/permutations-n-combinations-class-11-revis
 ---
 
 ## Introduction to Permutations and Combinations
-Permutations and combinations are fundamental concepts in mathematics, particularly combinatorics. These concepts are essential for solving problems that involve arranging and selecting objects from a larger set. In this guide, we will the world of permutations and combinations, exploring their definitions, formulas, and applications, to help students prepare for their Class 11 exams.
+[Permutations](/blog/permutations-combinations-class-11-revision-notes-jee) and combinations are fundamental concepts in mathematics, particularly combinatorics. These concepts are essential for solving problems that involve arranging and selecting objects from a larger set. In this guide, we will the world of [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) and combinations, exploring their definitions, formulas, and applications, to help students prepare for their Class 11 exams.
 
 ## What is Permutations and Combinations?
 Permutations refer to the arrangement of objects in a specific order. For instance, if we have three letters: A, B, and C, the permutations of these letters are ABC, ACB, BAC, BCA, CAB, and CBA. On the other hand, combinations involve selecting objects from a larger set without considering the order. Using the same example, the combinations of the letters A, B, and C taken two at a time are AB, AC, and BC.

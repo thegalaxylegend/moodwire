@@ -23,7 +23,7 @@ manualReview: false
 - Not knowing the reactivity series of metals
 - Not understanding the concept of valency and oxidation number
 - Not being able to identify the physical properties of metals and non-metals
-- Not being able to write the chemical reactions of metals and non-metals
+- Not being able to write the [chemical](/blog/chemical-reactions-and-equations-class-10-notes) reactions of metals and non-metals
 
 ## ✏️ 3 Solved PYQs
 - What is the electronic configuration of sodium?
@@ -56,38 +56,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. Which of the following is a characteristic of metals?**
-- A) Low melting and boiling points
-- B) Brittle and poor conductors of heat and electricity
-- C) High melting and boiling points, malleable, and good conductors of heat and electricity
-- D) Highly reactive and easily corroded
+-
+A) Low melting and boiling points
+-
+B) Brittle and poor conductors of heat and electricity
+-
+C) High melting and boiling points, malleable, and good conductors of heat and electricity
+-
+D) Highly reactive and easily corroded
+
 **Answer: C) High melting and boiling points, malleable, and good conductors of heat and electricity**
 
 **2. What is the electronic configuration of magnesium?**
-- A) 1s² 2s² 2p⁶
-- B) 1s² 2s² 2p⁶ 3s²
-- C) 1s² 2s² 2p⁶ 3s¹
-- D) 1s² 2s² 2p⁶ 3s² 3p¹
+-
+A) 1s² 2s² 2p⁶
+-
+B) 1s² 2s² 2p⁶ 3s²
+-
+C) 1s² 2s² 2p⁶ 3s¹
+-
+D) 1s² 2s² 2p⁶ 3s² 3p¹
+
 **Answer: B) 1s² 2s² 2p⁶ 3s²**
 
 **3. Which of the following metals is most reactive?**
-- A) Potassium (K)
-- B) Sodium (Na)
-- C) Calcium (Ca)
-- D) Magnesium (Mg)
+-
+A) Potassium (K)
+-
+B) Sodium (Na)
+-
+C) Calcium (Ca)
+-
+D) Magnesium (Mg)
+
 **Answer: A) Potassium (K)**
 
 **4. What is the reaction of aluminum with oxygen?**
-- A) 2Al + O₂ → 2AlO
-- B) 4Al + 3O₂ → 2Al₂O₃
-- C) Al + O₂ → AlO
-- D) 2Al + O₂ → Al₂O
+-
+A) 2Al + O₂ → 2AlO
+-
+B) 4Al + 3O₂ → 2Al₂O₃
+-
+C) Al + O₂ → AlO
+-
+D) 2Al + O₂ → Al₂O
+
 **Answer: B) 4Al + 3O₂ → 2Al₂O₃**
 
 **5. Which of the following non-metals is a good conductor of electricity?**
-- A) Carbon (C)
-- B) Nitrogen (N)
-- C) Oxygen (O)
-- D) None of the above
+-
+A) [Carbon](/blog/carbon-and-its-compounds-class-10-notes) (
+C) -
+B) Nitrogen (N)
+-
+C) Oxygen (O)
+-
+D) None of the above
+
 **Answer: D) None of the above**
 
 ---
@@ -95,5 +120,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/metals-and-non-metals-class-10-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Metals%20and%20Non-Metals%20Class%2010%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Acids, Bases and Salts Class 10 Science Recap — Grandmaster Guide](/blog/acids-bases-and-salts-class-10-notes)
+- 📖 [Carbon and its Compounds Class 10 Science Recap — Grandmaster Guide](/blog/carbon-and-its-compounds-class-10-notes)
+- 📖 [Chemical Reactions and Equations Class 10 Science Recap — Grandmaster Guide](/blog/chemical-reactions-and-equations-class-10-notes)
+- 📖 [Heredity and Evolution Class 10 Science Recap — Grandmaster Guide](/blog/heredity-and-evolution-class-10-notes)

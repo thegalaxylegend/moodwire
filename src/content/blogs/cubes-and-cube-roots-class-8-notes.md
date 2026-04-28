@@ -20,7 +20,7 @@ manualReview: false
 - ∛(a³ ÷ b³) = a ÷ b
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not simplifying cube roots of perfect cubes
+- Not simplifying cube [roots](/blog/squares-and-square-roots-class-8-notes) of perfect cubes
 - Not using the formula ∛(a × b) = ∛a × ∛b
 - Not using the formula ∛(a/b) = ∛a/∛b
 - Not simplifying expressions with cube roots
@@ -30,18 +30,18 @@ manualReview: false
 - **Question 1:** Find the cube root of 125
   Step 1: We know that 5³ = 125
   Step 2: So, ∛125 = ∛(5³)
-  Step 3: Using the formula ∛(a³) = a, we get ∛125 = 5
+  Step 3: Using the formula ∛(a³) = a we get ∛125 = 5
 - **Question 2:** Find the cube root of 216
   Step 1: We know that 6³ = 216
   Step 2: So, ∛216 = ∛(6³)
-  Step 3: Using the formula ∛(a³) = a, we get ∛216 = 6
+  Step 3: Using the formula ∛(a³) = a we get ∛216 = 6
 - **Question 3:** Find the cube root of 8
   Step 1: We know that 2³ = 8
   Step 2: So, ∛8 = ∛(2³)
-  Step 3: Using the formula ∛(a³) = a, we get ∛8 = 2
+  Step 3: Using the formula ∛(a³) = a we get ∛8 = 2
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students get confused between cube and cube root, they think that ∛a = a³ which is incorrect, ∛a is the number that when multiplied by itself three times gives a, for example ∛8 = 2 because 2 × 2 × 2 = 8
+- Most students get confused between cube and cube root, they think that ∛a = a³ which is incorrect, ∛an is the number that when multiplied by itself three times gives a for example ∛8 = 2 because 2 × 2 × 2 = 8
 
 ## 👁️ Ayush's Note
 - To find the cube root of a number, try to find the number that when multiplied by itself three times gives the original number
@@ -57,34 +57,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the cube root of 27?**
-- A) 2
-- B) 3
-- C) 4
-- D) 5
+-
+A) 2
+-
+B) 3
+-
+C) 4
+-
+D) 5
+
 **Answer: B) 3 because 3 × 3 × 3 = 27**
+
 **2. What is the cube root of 64?**
-- A) 2
-- B) 3
-- C) 4
-- D) 5
+-
+A) 2
+-
+B) 3
+-
+C) 4
+-
+D) 5
+
 **Answer: C) 4 because 4 × 4 × 4 = 64**
+
 **3. What is the cube root of 1?**
-- A) 0
-- B) 1
-- C) 2
-- D) 3
+-
+A) 0
+-
+B) 1
+-
+C) 2
+-
+D) 3
+
 **Answer: B) 1 because 1 × 1 × 1 = 1**
+
 **4. What is the cube root of 125?**
-- A) 4
-- B) 5
-- C) 6
-- D) 7
+-
+A) 4
+-
+B) 5
+-
+C) 6
+-
+D) 7
+
 **Answer: B) 5 because 5 × 5 × 5 = 125**
+
 **5. What is the cube root of 8?**
-- A) 1
-- B) 2
-- C) 3
-- D) 4
+-
+A) 1
+-
+B) 2
+-
+C) 3
+-
+D) 4
+
 **Answer: B) 2 because 2 × 2 × 2 = 8**
 
 ---
@@ -92,5 +121,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/cubes-and-cube-[roots](/blog/squares-and-square-roots-class-8-notes)-class-8-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Cubes%20And%20Cube%20Roots%208%20Class%208%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Squares And Square Roots 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/squares-and-square-roots-class-8-notes)
+- 📖 [Comparing Quantities 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/comparing-quantities-class-8-notes)
+- 📖 [Data Handling 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/data-handling-class-8-notes)
+- 📖 [Exponents And Powers 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/exponents-and-powers-class-8-notes)

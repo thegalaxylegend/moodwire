@@ -10,8 +10,8 @@ manualReview: false
 
 ## ⚡ Formula Bank
 - Fertility rate = (number of live births per 1000 people per year) 
-- Fertility span ∈ females = 13-45 years 
-- Fertility span ∈ males = 13-60 years 
+- Fertility span ∈ females = 13–45 years 
+- Fertility span ∈ males = 13–60 years 
 - Contraceptive prevalence rate = (number of couples using contraceptive methods)/(total number of couples) × 100 
 - Infant mortality rate = (number of deaths of infants under one year of age per 1000 live births per year) 
 - Amniocentesis is a pre-natal diagnostic technique 
@@ -25,7 +25,7 @@ manualReview: false
 - Confusing between contraceptive methods and abortion methods 
 - Not knowing the side effects of different contraceptive methods 
 - Not being able to calculate fertility rate and contraceptive prevalence rate 
-- Not understanding the importance of reproductive health ∈ population control 
+- Not understanding the importance of reproductive [health](/blog/human-health-and-disease-class-12-notes) ∈ population control 
 
 ## ✏️ 3 Solved PYQs
 - What is the ma∈ advantage of using IUDs as a contraceptive method? 
@@ -54,38 +54,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the ma∈ advantage of using IUDs as a contraceptive method?**
-- A) They conta∈ hormones 
-- B) They are a long-term reversible contraceptive method and do not conta∈ hormones 
-- C) They are a short-term reversible contraceptive method 
-- D) They are an irreversible contraceptive method 
+-
+A) They conta∈ hormones
+-
+B) They are a long-term reversible contraceptive method and do not conta∈ hormones
+-
+C) They are a short-term reversible contraceptive method
+-
+D) They are an irreversible contraceptive method
+
 **Answer: B) IUDs are a long-term reversible contraceptive method and do not conta∈ hormones**
 
 **2. What is the difference between abortion and MTP?**
-- A) Abortion refers to the termination of pregnancy, while MTP refers to the medical termination of pregnancy 
-- B) Abortion refers to the medical termination of pregnancy, while MTP refers to the termination of pregnancy 
-- C) Abortion and MTP are the same thing 
-- D) Abortion is a type of MTP 
+-
+A) Abortion refers to the termination of pregnancy, while MTP refers to the medical termination of pregnancy
+-
+B) Abortion refers to the medical termination of pregnancy, while MTP refers to the termination of pregnancy
+-
+C) Abortion and MTP are the same thing
+-
+D) Abortion is a type of MTP
+
 **Answer: A) Abortion refers to the termination of pregnancy, while MTP refers to the medical termination of pregnancy**
 
 **3. What is the significance of amniocentesis ∈ reproductive health?**
-- A) It is a contraceptive method 
-- B) It is a pre-natal diagnostic technique used to detect genetic disorders ∈ the fetus 
-- C) It is a method of abortion 
-- D) It is a method of MTP 
+-
+A) It is a contraceptive method
+-
+B) It is a pre-natal diagnostic technique used to detect genetic disorders ∈ the fetus
+-
+C) It is a method of abortion
+-
+D) It is a method of MTP
+
 **Answer: B) Amniocentesis is a pre-natal diagnostic technique used to detect genetic disorders ∈ the fetus**
 
 **4. What is the formula for calculating fertility rate?**
-- A) Fertility rate = (number of live births per 1000 people per year) 
-- B) Fertility rate = (number of deaths per 1000 people per year) 
-- C) Fertility rate = (number of marriages per 1000 people per year) 
-- D) Fertility rate = (number of divorces per 1000 people per year) 
+-
+A) Fertility rate = (number of live births per 1000 people per year)
+-
+B) Fertility rate = (number of deaths per 1000 people per year)
+-
+C) Fertility rate = (number of marriages per 1000 people per year)
+-
+D) Fertility rate = (number of divorces per 1000 people per year)
+
 **Answer: A) Fertility rate = (number of live births per 1000 people per year)**
 
 **5. What is the contraceptive prevalence rate?**
-- A) Contraceptive prevalence rate = (number of couples using contraceptive methods)/(total number of couples) × 100 
-- B) Contraceptive prevalence rate = (number of couples not using contraceptive methods)/(total number of couples) × 100 
-- C) Contraceptive prevalence rate = (number of live births per 1000 people per year) 
-- D) Contraceptive prevalence rate = (number of deaths per 1000 people per year) 
+-
+A) Contraceptive prevalence rate = (number of couples using contraceptive methods)/(total number of couples) × 100
+-
+B) Contraceptive prevalence rate = (number of couples not using contraceptive methods)/(total number of couples) × 100
+-
+C) Contraceptive prevalence rate = (number of live births per 1000 people per year)
+-
+D) Contraceptive prevalence rate = (number of deaths per 1000 people per year)
+
 **Answer: A) Contraceptive prevalence rate = (number of couples using contraceptive methods)/(total number of couples) × 100**
 
 ---
@@ -93,5 +118,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/reproductive-health-class-12-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Reproductive%20Health%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Human Health And Disease Class 12 Exam Prep Revision — Grandmaster Guide](/blog/human-health-and-disease-class-12-notes)
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)

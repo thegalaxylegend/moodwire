@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/thermal-properties-of-matter-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -199,7 +199,7 @@ Continue your [revision](/blog/kinetic-theory-class-11-revision-notes-jee-neet) 
 
 ## 🪤 The 5 Mistakes That Cost Marks
 
-* **Trap 1: Confusing Heat Transfer and Temperature**: Many students often confuse heat transfer with temperature. Remember, heat transfer is the transfer of thermal energy from one body to another due to a temperature difference, whereas temperature is a measure of the average kinetic energy of the particles in a substance.
+* **Trap 1: Confusing Heat Transfer and Temperature**: Many students often confuse heat transfer with temperature. Remember, heat transfer is the transfer of thermal energy from one body to another due to a temperature difference, whereas temperature is a measure of the average [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) energy of the particles in a substance.
 * **Trap 2: Forgetting to Consider the Sign Convention for Heat**: When solving problems related to heat transfer, it's essential to consider the sign convention. Heat absorbed by a system is positive, while heat released is negative. Failing to do so can lead to incorrect calculations.
 * **Trap 3: Not Accounting for the Specific Heat Capacity of Substances**: Specific heat capacity is the amount of heat required to raise the temperature of a unit mass of a substance by 1 degree Celsius. Not considering the specific heat capacity of substances can lead to errors in calculations, especially when dealing with problems involving temperature changes.
 * **Trap 4: Misunderstanding the Concept of Thermal Equilibrium**: Thermal equilibrium occurs when the temperature is uniform throughout a system. Many students assume that thermal equilibrium means that there is no heat transfer, which is incorrect. In thermal equilibrium, heat transfer may still occur, but the net heat transfer is zero.

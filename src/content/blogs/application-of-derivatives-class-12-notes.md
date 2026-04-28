@@ -50,12 +50,12 @@ manualReview: false
 - Now, use the second derivative test to determine the nature of the critical points
 - f''(x) = 6x - 12
 - At x = 1, f''(1) = 6 - 12 = -6 < 0, so x = 1 is a local maxima
-- At x = 3, f''(3) = 18 - 12 = 6 > 0, so x = 3 is a local minima
+- At x = 3, f''(3) = 18 - 12 = 6 > 0, so x = 3 is a local minimum
 - The maximum value of the function is at x = 1, which is f(1) = 1 - 6 + 9 + 2 = 6
 
  
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students get wrong the application of the cha∈ rule ∈ composite functions
+- Most students get wrong the [application](/blog/application-of-integrals-class-12-notes) of the cha∈ rule ∈ composite functions
 - They often forget to multiply the derivative of the outer function by the derivative of the inner function
 - For example, if y = s∈(x²), then dy/dx = cos(x²) * d(x²)/dx = cos(x²) * 2x
 - Another common mistake is not using the correct formula for the derivative of trigonometric functions
@@ -82,34 +82,63 @@ manualReview: false
  
 ## 📝 Practice MCQs
 **1. Question:** Find the derivative of the function f(x) = x² s∈ x
-- A) x² cos x + 2x s∈ x
-- B) x² cos x - 2x s∈ x
-- C) x² cos x + x s∈ x
-- D) x² cos x - x s∈ x
+-
+A) x² cos x + 2x s∈ x
+-
+B) x² cos x - 2x s∈ x
+-
+C) x² cos x + x s∈ x
+-
+D) x² cos x - x s∈ x
+
 **Answer:** A) x² cos x + 2x s∈ x
+
 **2. Question:** Find the equation of the tangent to the curve y = x³ - 2x² + x - 1 at the point (1, -1)
-- A) y + 1 = 2(x - 1)
-- B) y + 1 = 0(x - 1)
-- C) y + 1 = -2(x - 1)
-- D) y + 1 = 1(x - 1)
+-
+A) y + 1 = 2(x - 1)
+-
+B) y + 1 = 0(x - 1)
+-
+C) y + 1 = -2(x - 1)
+-
+D) y + 1 = 1(x - 1)
+
 **Answer:** C) y + 1 = 0(x - 1)
+
 **3. Question:** Find the maximum value of the function f(x) = x³ - 3x² + 2x + 1
-- A) 4
-- B) 5
-- C) 6
-- D) 7
+-
+A) 4
+-
+B) 5
+-
+C) 6
+-
+D) 7
+
 **Answer:** B) 5
+
 **4. Question:** Find the derivative of the function f(x) = eˣ s∈ x
-- A) eˣ s∈ x + eˣ cos x
-- B) eˣ s∈ x - eˣ cos x
-- C) eˣ s∈ x + eˣ tan x
-- D) eˣ s∈ x - eˣ tan x
+-
+A) eˣ s∈ x + eˣ cos x
+-
+B) eˣ s∈ x - eˣ cos x
+-
+C) eˣ s∈ x + eˣ tan x
+-
+D) eˣ s∈ x - eˣ tan x
+
 **Answer:** A) eˣ s∈ x + eˣ cos x
+
 **5. Question:** Find the equation of the tangent to the curve y = x² + 2x - 3 at the point (1, 0)
-- A) y - 0 = 4(x - 1)
-- B) y - 0 = 2(x - 1)
-- C) y - 0 = -4(x - 1)
-- D) y - 0 = -2(x - 1)
+-
+A) y - 0 = 4(x - 1)
+-
+B) y - 0 = 2(x - 1)
+-
+C) y - 0 = -4(x - 1)
+-
+D) y - 0 = -2(x - 1)
+
 **Answer:** B) y - 0 = 4(x - 1)
 
 ---
@@ -117,5 +146,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/application-of-derivatives-class-12-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Application%20Of%20Derivatives%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Application Of Integrals Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-integrals-class-12-notes)
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)

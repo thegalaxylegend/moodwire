@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/mechanical-properties-of-solids-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -162,7 +162,7 @@ In Physics, elasticity is measured y the Modulus (resistance to deformation), no
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 9: Mechanical [properties](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet) of Fluids**
-- **Chapter 5: Work, Energy, n Power (Energy Basics)**
+- **Chapter 5: [Work](/blog/work-energy-and-power-class-11-revision-notes-neet), Energy, n Power (Energy Basics)**
 - **Material Science MCQ Challenge for JEE/[neet](/blog/oscillations-class-11-revision-notes-jee-neet)**
 
 ## <a id="conclusion"></a>Conclusion

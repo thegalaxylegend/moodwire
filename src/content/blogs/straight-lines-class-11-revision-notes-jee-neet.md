@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/straight-lines-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -200,6 +200,6 @@ Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet)
    * Point-slope form: y - y1 = m(x - x1)
    * Two-point form: y - y1 = ((y2 - y1) / (x2 - x1))(x - x1)
    * Normal form: x*\\\cos(α) + y*\\\sin(α) = p
-   * Distance of a point (x1, y1) from a line Ax + By + C = 0: |Ax1 + By1 + C| / √(A² + B²)
+   * Distance of a point (x1, y1) from a [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) Ax + By + C = 0: |Ax1 + By1 + C| / √(A² + B²)
    * Equation of a line passing through (x1, y1) and having slope m: y - y1 = m(x - x1)
    * Equation of a line with slope m and y-intercept c: y = mx + c

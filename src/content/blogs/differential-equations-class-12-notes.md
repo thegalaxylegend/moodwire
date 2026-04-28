@@ -10,9 +10,9 @@ manualReview: false
 
 ## ⚡ Formula Bank
 - Differential equation: dy/dx = f(x,y)
-- Separable variables: dy/f(y) = dx/g(x)
+- Separable [variables](/blog/linear-equations-in-two-variables-class-9-notes): dy/f(y) = dx/g(x)
 - Homogeneous equation: dy/dx = f(x/y)
-- Linear equation: dy/dx + Py = Q
+- [Linear](/blog/pair-of-linear-equations-class-10-notes) equation: dy/dx + Py = Q
 - Bernoulli's equation: dy/dx + Py = Qyⁿ
 - Exact equation: ∂M/∂y = ∂N/∂x
 - Integrating factor: I.F = eⁱ∫Pdx
@@ -81,34 +81,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. The differential equation dy/dx = (x+y)/(x-y) has the solution**
-- A) x+y = ce²ˣ
-- B) x-y = ce²ˣ
-- C) x+y = 2y + ce²ᵞ
-- D) x-y = 2y + ce²ᵞ
+-
+A) x+y = ce²ˣ
+-
+B) x-y = ce²ˣ
+-
+C) x+y = 2y + ce²ᵞ
+-
+D) x-y = 2y + ce²ᵞ
+
 **Answer: C) x+y = 2y + ce²ᵞ**
+
 **2. The differential equation (dy/dx) = (x²-y²)/(x+y) has the solution**
-- A) x²-y² = (x+y)² + c
-- B) x²-y² = (x+y)² - c
-- C) x²-y² = (x+y) + c
-- D) x²-y² = (x+y) - c
+-
+A) x²-y² = (x+y)² + c
+-
+B) x²-y² = (x+y)² - c
+-
+C) x²-y² = (x+y) + c
+-
+D) x²-y² = (x+y) - c
+
 **Answer: A) x²-y² = (x+y)² + c**
+
 **3. The differential equation (dy/dx) + (y/x) = x³y has the solution**
-- A) y = (x⁴/4 + c)/x
-- B) y = (x⁴/4 - c)/x
-- C) y = (x⁴/4 + c)x
-- D) y = (x⁴/4 - c)x
+-
+A) y = (x⁴/4 + c)/x
+-
+B) y = (x⁴/4 - c)/x
+-
+C) y = (x⁴/4 + c)x
+-
+D) y = (x⁴/4 - c)x
+
 **Answer: A) y = (x⁴/4 + c)/x**
+
 **4. The differential equation dy/dx = (x+y)/(x-y) is**
-- A) Homogeneous
-- B) Linear
-- C) Exact
-- D) Separable
+-
+A) Homogeneous
+-
+B) Linear
+-
+C) Exact
+-
+D) Separable
+
 **Answer: A) Homogeneous**
+
 **5. The differential equation (dy/dx) + (y/x) = x³y is**
-- A) Homogeneous
-- B) Linear
-- C) Exact
-- D) Bernoulli's equation
+-
+A) Homogeneous
+-
+B) Linear
+-
+C) Exact
+-
+D) Bernoulli's equation
+
 **Answer: B) Linear**
 
 ---
@@ -116,5 +145,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/differential-equations-class-12-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Differential%20Equations%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Linear Equations In One Variable 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-one-variable-class-8-notes)
+- 📖 [Linear Equations In Two Variables 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-two-variables-class-9-notes)
+- 📖 [Pair Of Linear Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/pair-of-linear-equations-class-10-notes)
+- 📖 [Quadratic Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/quadratic-equations-class-10-notes)

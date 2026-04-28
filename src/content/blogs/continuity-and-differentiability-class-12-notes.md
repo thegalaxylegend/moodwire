@@ -9,11 +9,11 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- Continuity at x = a: limₓ→a f(x) = f(a)
+- Continuity at x = a: limₓ→an f(x) = f(a)
 - Differentiability at x = a: f'(a) = limₕ→₀ (f(a + h) - f(a))/h
-- If f(x) is differentiable at x = a, then f(x) is continuous at x = a, but the converse is not always true
-- If f(x) and g(x) are continuous at x = a, then f(x) + g(x), f(x) - g(x), f(x) × g(x), and f(x)/g(x) are continuous at x = a
-- If f(x) and g(x) are differentiable at x = a, then f(x) + g(x), f(x) - g(x), f(x) × g(x), and f(x)/g(x) are differentiable at x = a
+- If f(x) is differentiable at x = a then f(x) is continuous at x = a but the converse is not always true
+- If f(x) and g(x) are continuous at x = a then f(x) + g(x), f(x) - g(x), f(x) × g(x), and f(x)/g(x) are continuous at x = an
+- If f(x) and g(x) are differentiable at x = a then f(x) + g(x), f(x) - g(x), f(x) × g(x), and f(x)/g(x) are differentiable at x = a
 - Cha∈ Rule: (f(g(x)))' = f'(g(x)) × g'(x)
 - Rolle's Theorem: if f(x) is continuous on [a, b] and differentiable on (a, b), and f(a) = f(b), then there ∃ c ∈ (a, b) such that f'(c) = 0
 - Mean Value Theorem: if f(x) is continuous on [a, b] and differentiable on (a, b), then there ∃ c ∈ (a, b) such that f'(c) = (f(b) - f(a))/(b - a)
@@ -61,34 +61,64 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. If f(x) is continuous on [0, 1] and differentiable on (0, 1), and f(0) = f(1), then**
-- A) There ∃ c ∈ (0, 1) such that f'(c) = 0
-- B) There ∃ c ∈ (0, 1) such that f'(c) = 1
-- C) There ∃ c ∈ (0, 1) such that f'(c) = -1
-- D) There ∃ c ∈ (0, 1) such that f'(c) = 2
+-
+A) There ∃ c ∈ (0, 1) such that f'(c) = 0
+-
+B) There ∃ c ∈ (0, 1) such that f'(c) = 1
+-
+C) There ∃ c ∈ (0, 1) such that f'(c) = -1
+-
+D) There ∃ c ∈ (0, 1) such that f'(c) = 2
+
 **Answer: A) There ∃ c ∈ (0, 1) such that f'(c) = 0**
+
 **2. Find the derivative of f(x) = (x² + 1)/(x + 1)**
-- A) f'(x) = (2x(x + 1) - (x² + 1))/(x + 1)²
-- B) f'(x) = (2x(x + 1) + (x² + 1))/(x + 1)²
-- C) f'(x) = (2x(x + 1) - (x² + 1))/(x - 1)²
-- D) f'(x) = (2x(x + 1) + (x² + 1))/(x - 1)²
+-
+A) f'(x) = (2x(x + 1) - (x² + 1))/(x + 1)²
+-
+B) f'(x) = (2x(x + 1) + (x² + 1))/(x + 1)²
+-
+C) f'(x) = (2x(x + 1) - (x² + 1))/(x - 1)²
+-
+D) f'(x) = (2x(x + 1) + (x² + 1))/(x - 1)²
+
 **Answer: A) f'(x) = (2x(x + 1) - (x² + 1))/(x + 1)²**
-**3. If f(x) is continuous on [a, b] and differentiable on (a, b), then**
-- A) There ∃ c ∈ (a, b) such that f'(c) = (f(b) - f(a))/(b - a)
-- B) There ∃ c ∈ (a, b) such that f'(c) = (f(b) + f(a))/(b + a)
-- C) There ∃ c ∈ (a, b) such that f'(c) = (f(b) - f(a))/(b + a)
-- D) There ∃ c ∈ (a, b) such that f'(c) = (f(b) + f(a))/(b - a)
+
+**3. If f(x) is continuous on [a, b] and differentiable on (a,
+b), then**
+-
+A) There ∃ c ∈ (a, b) such that f'(c) = (f(b) - f(a))/(b - a)
+-
+B) There ∃ c ∈ (a, b) such that f'(c) = (f(b) + f(a))/(b + a)
+-
+C) There ∃ c ∈ (a, b) such that f'(c) = (f(b) - f(a))/(b + a)
+-
+D) There ∃ c ∈ (a, b) such that f'(c) = (f(b) + f(a))/(b - a)
+
 **Answer: A) There ∃ c ∈ (a, b) such that f'(c) = (f(b) - f(a))/(b - a)**
+
 **4. Find the derivative of f(x) = s∈(x²)**
-- A) f'(x) = 2x cos(x²)
-- B) f'(x) = 2x s∈(x²)
-- C) f'(x) = x cos(x²)
-- D) f'(x) = x s∈(x²)
+-
+A) f'(x) = 2x cos(x²)
+-
+B) f'(x) = 2x s∈(x²)
+-
+C) f'(x) = x cos(x²)
+-
+D) f'(x) = x s∈(x²)
+
 **Answer: A) f'(x) = 2x cos(x²)**
-**5. If f(x) is continuous at x = a, then**
-- A) f(x) is differentiable at x = a
-- B) f(x) is not differentiable at x = a
-- C) f(x) may or may not be differentiable at x = a
-- D) f(x) is not defined at x = a
+
+**5. If f(x) is continuous at x = a then**
+-
+A) f(x) is differentiable at x = a
+-
+B) f(x) is not differentiable at x = a
+-
+C) f(x) may or may not be differentiable at x = a
+-
+D) f(x) is not defined at x = a
+
 **Answer: C) f(x) may or may not be differentiable at x = a**
 
 ---
@@ -96,5 +126,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/continuity-and-differentiability-class-12-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Continuity%20And%20Differentiability%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Application Of Integrals Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-integrals-class-12-notes)

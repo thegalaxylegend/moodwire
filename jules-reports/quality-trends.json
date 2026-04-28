@@ -1,30 +1,20 @@
 {
-  "overallAvgScore": 74.7,
-  "totalBlogsAllTime": 139,
-  "totalPassed": 90,
+  "overallAvgScore": 76,
+  "totalBlogsAllTime": 147,
+  "totalPassed": 98,
   "totalFailed": 49,
-  "overallPassRate": 65,
+  "overallPassRate": 67,
   "trend": "declining",
-  "trendDelta": -17.4,
+  "trendDelta": -38.9,
   "dailyReports": [
     {
-      "date": "2026-04-26",
+      "date": "2026-04-28",
       "totalBlogs": 9,
-      "passed": 0,
-      "failed": 9,
-      "avgScore": 16.1,
-      "passRate": 0,
-      "errors": [
-        "139 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
-        "Insufficient MCQs (Need at least 3)",
-        "Critically low word count: 774 (Min 800 for Patching) | 2 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
-        "42 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
-        "Quality Score 64/100 — warnings: Moderate word count: 994 (Aim for 1200+); 7 section(s) marked as needing review; 3 double-escaped LaTeX commands",
-        "25 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
-        "48 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
-        "40 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
-        "15 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering."
-      ]
+      "passed": 9,
+      "failed": 0,
+      "avgScore": 100,
+      "passRate": 100,
+      "errors": []
     },
     {
       "date": "2026-03-23",
@@ -121,14 +111,14 @@
     },
     {
       "date": "2026-04-09",
-      "totalBlogs": 3,
-      "passed": 1,
+      "totalBlogs": 2,
+      "passed": 0,
       "failed": 2,
-      "avgScore": 33.3,
-      "passRate": 33,
+      "avgScore": 0,
+      "passRate": 0,
       "errors": [
-        "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
-        "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}"
+        "403 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` is blocked at the project level. Please have a project admin enable this model in the project settings at https://console.groq.com/settings/project/limits\",\"type\":\"permissions_error\",\"code\":\"model_permission_blocked_project\"}}",
+        "403 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` is blocked at the project level. Please have a project admin enable this model in the project settings at https://console.groq.com/settings/project/limits\",\"type\":\"permissions_error\",\"code\":\"model_permission_blocked_project\"}}"
       ]
     },
     {
@@ -278,6 +268,25 @@
         "110 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
         "46 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering."
       ]
+    },
+    {
+      "date": "2026-04-26",
+      "totalBlogs": 9,
+      "passed": 0,
+      "failed": 9,
+      "avgScore": 16.1,
+      "passRate": 0,
+      "errors": [
+        "139 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "Insufficient MCQs (Need at least 3)",
+        "Critically low word count: 774 (Min 800 for Patching) | 2 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "42 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "Quality Score 64/100 — warnings: Moderate word count: 994 (Aim for 1200+); 7 section(s) marked as needing review; 3 double-escaped LaTeX commands",
+        "25 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "48 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "40 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
+        "15 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering."
+      ]
     }
   ],
   "topErrors": [
@@ -291,37 +300,37 @@
     },
     {
       "error": "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":",
-      "count": 8
+      "count": 6
     },
     {
       "error": "Critically low word count: 330 (Min 800 for Patching)",
       "count": 2
     },
     {
-      "error": "139 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This brea",
+      "error": "403 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` is blocked at the p",
+      "count": 2
+    },
+    {
+      "error": "Critically low word count: 714 (Min 800 for Patching)",
       "count": 1
     },
     {
-      "error": "Insufficient MCQs (Need at least 3)",
+      "error": "96 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This break",
       "count": 1
     },
     {
-      "error": "Critically low word count: 774 (Min 800 for Patching) | 2 naked LaTeX commands (",
+      "error": "118 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This brea",
       "count": 1
     },
     {
-      "error": "42 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This break",
+      "error": "99 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This break",
       "count": 1
     },
     {
-      "error": "Quality Score 64/100 — warnings: Moderate word count: 994 (Aim for 1200+); 7 sec",
-      "count": 1
-    },
-    {
-      "error": "25 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This break",
+      "error": "184 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This brea",
       "count": 1
     }
   ],
   "alertNeeded": true,
-  "alertMessage": "⚠️ Quality is DECLINING! Avg score dropped by 17.4 points over the last week."
+  "alertMessage": "⚠️ Quality is DECLINING! Avg score dropped by 38.9 points over the last week."
 }

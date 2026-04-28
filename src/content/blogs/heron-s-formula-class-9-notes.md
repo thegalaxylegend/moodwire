@@ -53,34 +53,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the semi-perimeter of a triangle with sides 3 cm, 4 cm, and 5 cm?**
-- A) 5 cm
-- B) 6 cm
-- C) 7 cm
-- D) 8 cm
+-
+A) 5 cm
+-
+B) 6 cm
+-
+C) 7 cm
+-
+D) 8 cm
+
 **Answer: B) 6 cm**
+
 **2. What is the area of a triangle with base 8 cm and height 6 cm?**
-- A) 20 cm²
-- B) 24 cm²
-- C) 30 cm²
-- D) 36 cm²
+-
+A) 20 cm²
+-
+B) 24 cm²
+-
+C) 30 cm²
+-
+D) 36 cm²
+
 **Answer: B) 24 cm²**
+
 **3. What is the area of a triangle with sides 9 cm, 10 cm, and 11 cm?**
-- A) 30 cm²
-- B) 35 cm²
-- C) 40 cm²
-- D) 45 cm²
+-
+A) 30 cm²
+-
+B) 35 cm²
+-
+C) 40 cm²
+-
+D) 45 cm²
+
 **Answer: C) 40 cm² (using Heron's formula)**
+
 **4. Which of the following is a correct statement about the triangle inequality theorem?**
-- A) The sum of the lengths of any two sides of a triangle must be less than the length of the third side
-- B) The sum of the lengths of any two sides of a triangle must be greater than the length of the third side
-- C) The sum of the lengths of any two sides of a triangle must be equal to the length of the third side
-- D) The sum of the lengths of any two sides of a triangle must be less than or equal to the length of the third side
+-
+A) The sum of the lengths of any two sides of a triangle must be less than the length of the third side
+-
+B) The sum of the lengths of any two sides of a triangle must be greater than the length of the third side
+-
+C) The sum of the lengths of any two sides of a triangle must be equal to the length of the third side
+-
+D) The sum of the lengths of any two sides of a triangle must be less than or equal to the length of the third side
+
 **Answer: B) The sum of the lengths of any two sides of a triangle must be greater than the length of the third side**
+
 **5. What is the area of a triangle with sides 6 cm, 8 cm, and 10 cm?**
-- A) 20 cm²
-- B) 24 cm²
-- C) 30 cm²
-- D) 40 cm²
+-
+A) 20 cm²
+-
+B) 24 cm²
+-
+C) 30 cm²
+-
+D) 40 cm²
+
 **Answer: B) 24 cm² (using Heron's formula)**
 
 ---
@@ -88,5 +117,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/heron-s-formula-class-9-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Heron%20S%20Formula%209%20Class%209%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Linear Equations In Two Variables 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-two-variables-class-9-notes)
+- 📖 [Lines And Angles 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/lines-and-angles-class-9-notes)
+- 📖 [Number Systems 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/number-systems-class-9-notes)
+- 📖 [Quadrilaterals 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/quadrilaterals-class-9-notes)

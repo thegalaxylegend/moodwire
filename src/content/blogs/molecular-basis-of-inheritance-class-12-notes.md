@@ -14,7 +14,7 @@ manualReview: false
 - The central dogma is DNA → RNA → prote∈, with transcription and translation as key processes
 - Transcription involves synthesis of mRNA from DNA template, with RNA polymerase as key enzyme
 - Translation involves synthesis of prote∈ from mRNA template, with ribosomes as key site
-- Genetic code is degenerate, with 64 codons coding for 20 amino acids
+- Genetic code is degenerate, with 64 codons coding for 20 amino [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
 - Mutation is change ∈ DNA sequence, with types including point mutation, frameshift mutation, and chromosomal mutation
 - Gene expression is regulated by various mechanisms, including transcriptional regulation, post-transcriptional regulation, and post-translational regulation
 - Lac operon is a classic example of gene regulation ∈ prokaryotes, with lacZ, lacY, and lacA as key genes
@@ -41,7 +41,7 @@ manualReview: false
 - However, the correct order is DNA → RNA → prote∈, with transcription and translation as key processes
 
 ## 👁️ Ayush's Note
-- To score well ∈ Molecular Basis Of Inheritance, focus on understanding the key concepts and processes, including DNA replication, transcription, and translation
+- To score well ∈ Molecular Basis Of [Inheritance](/blog/principles-of-inheritance-and-variation-class-12-notes), focus on understanding the key concepts and processes, including DNA replication, transcription, and translation
 - Practice solving problems and past year questions to develop a strong foundation
 - Use shortcuts and mnemonics to remember key terms and concepts, such as the genetic code and lac operon
 - For JEE Advanced and NEET, focus on developing a strong understanding of the underlying principles and concepts, rather than just memorizing formulas and equations
@@ -55,38 +55,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the function of helicase ∈ DNA replication?**
-- A) To synthesize new DNA strands
-- B) To unwind the double helix
-- C) To bind RNA primers
-- D) To repair damaged DNA
+-
+A) To synthesize new DNA strands
+-
+B) To unwind the double helix
+-
+C) To bind RNA primers
+-
+D) To repair damaged DNA
+
 **Answer: B) Helicase unwinds the double helix, allowing for replication to occur**
 
 **2. Which of the following is an example of a point mutation?**
-- A) Deletion of a nucleotide
-- B) Insertion of a nucleotide
-- C) Substitution of one nucleotide for another
-- D) Duplication of a gene
+-
+A) Deletion of a nucleotide
+-
+B) Insertion of a nucleotide
+-
+C) Substitution of one nucleotide for another
+-
+D) Duplication of a gene
+
 **Answer: C) Substitution of one nucleotide for another is an example of a point mutation**
 
 **3. What is the role of lac repressor ∈ the lac operon?**
-- A) To bind to the promoter region and initiate transcription
-- B) To bind to the operator region and prevent transcription
-- C) To synthesize β-galactosidase
-- D) To hydrolyze lactose
+-
+A) To bind to the promoter region and initiate transcription
+-
+B) To bind to the operator region and prevent transcription
+-
+C) To synthesize β-galactosidase
+-
+D) To hydrolyze lactose
+
 **Answer: B) The lac repressor binds to the operator region and prevents transcription of the lac operon**
 
 **4. Which of the following is a characteristic of the genetic code?**
-- A) It is ambiguous, with multiple codons coding for the same amino acid
-- B) It is degenerate, with multiple codons coding for the same amino acid
-- C) It is universal, with the same codons coding for the same amino acids ∈ all organisms
-- D) It is context-dependent, with the meaning of a codon depending on the surrounding sequence
+-
+A) It is ambiguous, with multiple codons coding for the same amino acid
+-
+B) It is degenerate, with multiple codons coding for the same amino acid
+-
+C) It is universal, with the same codons coding for the same amino acids ∈ all organisms
+-
+D) It is context-dependent, with the meaning of a codon depending on the surrounding sequence
+
 **Answer: B) The genetic code is degenerate, with multiple codons coding for the same amino acid**
 
 **5. What is the function of RNA polymerase ∈ transcription?**
-- A) To synthesize mRNA from a DNA template
-- B) To synthesize tRNA from a DNA template
-- C) To synthesize rRNA from a DNA template
-- D) To repair damaged DNA
+-
+A) To synthesize mRNA from a DNA template
+-
+B) To synthesize tRNA from a DNA template
+-
+C) To synthesize rRNA from a DNA template
+-
+D) To repair damaged DNA
+
 **Answer: A) RNA polymerase synthesizes mRNA from a DNA template during transcription**
 
 ---
@@ -94,5 +119,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/molecular-basis-of-inheritance-class-12-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Molecular%20Basis%20Of%20Inheritance%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Principles Of Inheritance And Variation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/principles-of-inheritance-and-variation-class-12-notes)
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)

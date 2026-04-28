@@ -52,7 +52,7 @@ manualReview: false
 - Most students struggle to understand the concept of ecological niches and how they relate to species diversity
 - Ecological niches refer to the role and position of an organism ∈ its environment
 - Each species occupies a unique niche, and the diversity of niches leads to species diversity
-- Understanding ecological niches is crucial for understanding ecosystem dynamics and conservation
+- Understanding ecological niches is crucial for understanding ecosystem dynamics and [conservation](/blog/biodiversity-and-conservation-class-12-notes)
 
 ## 👁️ Ayush's Note
 - Focus on understanding the key concepts and processes ∈ ecosystems
@@ -64,44 +64,69 @@ manualReview: false
 ## 🔁 Last 5 Minutes Box
 - Review key formulas: Ecosystem = Biotic + Abiotic, Productivity = (Energy/input) × (Energy/output)
 - Check for common mistakes: biotic vs abiotic, food cha∈ vs food web
-- Make sure to understand the 10% law and its application ∈ energy transfer
+- Make sure to understand the 10% law and its [application](/blog/application-of-integrals-class-12-notes) ∈ energy transfer
 - Review ecological niches and their role ∈ species diversity
 - Take a few deep breaths and stay focused for the exam
 
 ## 📝 Practice MCQs
 **1. What is the primary function of producers ∈ an ecosystem?**
-- A) To decompose organic matter
-- B) To transfer energy to primary consumers
-- C) To produce energy through photosynthesis
-- D) To regulate population growth
+-
+A) To decompose organic matter
+-
+B) To transfer energy to primary consumers
+-
+C) To produce energy through photosynthesis
+-
+D) To regulate population growth
+
 **Answer: C) To produce energy through photosynthesis.**
- 
+
 **2. Which of the following is an example of secondary succession?**
-- A) Formation of a new island
-- B) Regrowth after a forest fire
-- C) Development of a new species
-- D) Replacement of one community by another
+-
+A) Formation of a new island
+-
+B) Regrowth after a forest fire
+-
+C) Development of a new species
+-
+D) Replacement of one community by another
+
 **Answer: B) Regrowth after a forest fire.**
 
 **3. What is the term for the role and position of an organism ∈ its environment?**
-- A) Ecological niche
-- B) Species diversity
-- C) Population growth rate
-- D) Carrying capacity
+-
+A) Ecological niche
+-
+B) Species diversity
+-
+C) Population growth rate
+-
+D) Carrying capacity
+
 **Answer: A) Ecological niche.**
 
 **4. What is the percentage of energy transferred to each trophic level ∈ a food cha∈?**
-- A) 20%
-- B) 50%
-- C) 10%
-- D) 90%
+-
+A) 20%
+-
+B) 50%
+-
+C) 10%
+-
+D) 90%
+
 **Answer: C) 10%.**
 
 **5. Which of the following is a characteristic of a climax community?**
-- A) High species diversity
-- B) Low population growth rate
-- C) Stable ecosystem
-- D) All of the above
+-
+A) High species diversity
+-
+B) Low population growth rate
+-
+C) Stable ecosystem
+-
+D) All of the above
+
 **Answer: D) All of the above.**
 
 ---
@@ -109,5 +134,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/ecosystem-class-12-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Ecosystem%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Application Of Integrals Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-integrals-class-12-notes)

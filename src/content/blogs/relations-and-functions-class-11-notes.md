@@ -20,6 +20,8 @@ practice_link: "/class-11/chemistry/relations-n-functions-class-11-notes"
 8. [🪤 The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
 9. [🔁 Last 5 Minutes Box](#last-5-minutes-box)
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Relations](/blog/relations-functions-class-11-revision-notes-jee-neet)%20And%20Functions%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 
 ## Introduction to Relations and Functions
@@ -71,3 +73,14 @@ Relations and functions have numerous applications in various fields, including:
     - **Composition of Functions**: (f ∘ g)(x) = f(g(x)), (g ∘ f)(x) = g(f(x))
 
     - **Inverse of a Function**: f^(-1)(x) is the inverse of f(x) if f(f^(-1)(x)) = x and f^(-1)(f(x)) = x
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Permutations And Combinations Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
+- 📖 [Structure Of Atom Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)
+- 📖 [Body Fluids And Circulation Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)
+- 📖 [Relations Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/relations-functions-class-11-revision-notes-jee-neet)

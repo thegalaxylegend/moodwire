@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/respiration-n-plants-class-11-revision-notes-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -131,7 +131,7 @@ Answer: B) Aerobic respiration occurs and the presence of oxygen, while anaerobi
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Photosynthesis and Plants
+* [Photosynthesis](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) and Plants
 * [cell](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) Respiration
 
 ## <a id="last-updated-date"></a>Last Updated Date

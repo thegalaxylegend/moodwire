@@ -32,7 +32,7 @@ Blood is a complex fluid composed of:
  + **Nutrients**: like glucose, amino acids, and fatty acids
  + **Hormones**: like insulin, adrenaline, and thyroxine
  + **Waste products**: like urea, creatinine, and bilirubin
-* **Formed elements**: The solid portion of blood, making up approximately 45% of its total content. Formed elements include:
+* **Formed [elements](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)**: The solid portion of blood, making up approximately 45% of its total content. Formed [elements](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) include:
  + **Red blood cells (RBCs)**: responsible for transporting oxygen from the lungs to the body's tissues
  + **White blood cells (WBCs)**: play a crucial role in the immune system, helping to fight infections
  + **Platelets**: involved in blood clotting, preventing excessive bleeding
@@ -167,7 +167,7 @@ Answer: a) To pump blood throughout the body
 1. What is the primary function of the circulatory system?
 Answer: The primary function of the circulatory system is to transport oxygenated blood throughout the body, remove waste products from the body's tissues, and regulate body temperature.
 
-2. Describe the structure and function of capillaries.
+2. Describe the [structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet) and function of capillaries.
 Answer: Capillaries are the smallest blood vessels, with walls that are only one cell layer thick. They are responsible for the exchange of oxygen, nutrients, and waste products between the blood and the body's tissues.
 
 3. What is the role of the lymphatic system in defending the body against infection and disease?
@@ -188,7 +188,6 @@ Answer: The lymphatic system in defending the body against infection and disease
 * Students often mistakenly assume that blood velocity remains constant throughout the circulatory system - in reality, velocity changes significantly between arteries, capillaries, and veins due to changes in cross-sectional area.
 * When applying Poiseuille's law to calculate blood flow, make sure to correctly apply the formula and units, and don't neglect the importance of vessel radius and length in determining resistance to blood flow.
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Body%20Fluids%20And%20Circulation%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-
 
 ---
 

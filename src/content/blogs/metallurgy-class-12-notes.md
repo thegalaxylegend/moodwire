@@ -56,38 +56,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the principle behind the froth floatation method of concentration?**
-- A) Difference ∈ density
-- B) Difference ∈ magnetic properties
-- C) Difference ∈ wetting properties
-- D) Difference ∈ chemical properties
+-
+A) Difference ∈ density
+-
+B) Difference ∈ magnetic properties
+-
+C) Difference ∈ wetting properties
+-
+D) Difference ∈ chemical properties
+
 **Answer: C) Difference ∈ wetting properties.**
- 
+
 **2. Which of the following is the most suitable reducing agent for the reduction of Cu₂O?**
-- A) CO
-- B) H₂
-- C) C
-- D) Na
+-
+A) CO
+-
+B) H₂
+-
+C) C
+-
+D) Na
+
 **Answer: A) CO.**
- 
+
 **3. What is the significance of the Ellingham diagram ∈ metallurgy?**
-- A) To predict the feasibility of reduction of metal oxides
-- B) To determine the most suitable reducing agent for a particular metal oxide
-- C) To calculate the cell potential using the Nernst equation
-- D) All of the above
+-
+A) To predict the feasibility of reduction of metal oxides
+-
+B) To determine the most suitable reducing agent for a particular metal oxide
+-
+C) To calculate the cell potential using the Nernst equation
+-
+D) All of the above
+
 **Answer: D) All of the above.**
- 
+
 **4. What is the equation used to calculate the cell potential using the Nernst equation?**
-- A) E = E⁰ - (RT/nF) \* ln(Q)
-- B) E = E⁰ + (RT/nF) \* ln(Q)
-- C) E = E⁰ - (RT/nF) \* Q
-- D) E = E⁰ + (RT/nF) \* Q
+-
+A) E = E⁰ - (RT/nF) \* ln(Q)
+-
+B) E = E⁰ + (RT/nF) \* ln(Q)
+-
+C) E = E⁰ - (RT/nF) \* Q
+-
+D) E = E⁰ + (RT/nF) \* Q
+
 **Answer: A) E = E⁰ - (RT/nF) \* ln(Q).**
- 
+
 **5. What is the concept of Gibbs free energy and its relation to the spontaneity of a reaction?**
-- A) ΔG = ΔH + TΔS
-- B) ΔG = ΔH - TΔS
-- C) ΔG = ΔH + TΔS for spontaneous reactions
-- D) ΔG = ΔH - TΔS for non-spontaneous reactions
+-
+A) ΔG = ΔH + TΔS
+-
+B) ΔG = ΔH - TΔS
+-
+C) ΔG = ΔH + TΔS for spontaneous reactions
+-
+D) ΔG = ΔH - TΔS for non-spontaneous reactions
+
 **Answer: B) ΔG = ΔH - TΔS.**
 
 ---
@@ -95,5 +120,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/metallurgy-class-12-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Metallurgy%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Application Of Integrals Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-integrals-class-12-notes)

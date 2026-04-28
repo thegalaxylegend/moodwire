@@ -16,7 +16,7 @@ manualReview: false
 - The isoelectric point (pI) of an amine is the pH at which the amine has no net charge: pI = (pKa₁ + pKa₂)/2
 - The Henderson-Hasselbalch equation can be used to calculate the pH of a solution containing an amine: pH = pKa + log([A⁻]/[HA])
 - The reaction of an amine with an alkyl halide is an example of an SN² reaction: R₃N + R′X → R₃N⁺R′ + X⁻
-- The reaction of an amine with a carboxylic acid is an example of an acid-base reaction: R₃N + R′COOH → R₃N⁺H + R′COO⁻
+- The reaction of an amine with a [carboxylic](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes) acid is an example of an acid-base reaction: R₃N + R′COOH → R₃N⁺H + R′COO⁻
 - The reaction of an amine with a carbonyl compound is an example of a nucleophilic addition reaction: R₃N + R′COR″ → R₃N⁺R′COR″
 
 ## 🪤 The 5 Mistakes That Cost Marks
@@ -59,38 +59,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the product of the reaction between dimethylamine and hydrochloric acid?**
-- A) Dimethylammonium chloride
-- B) Dimethylamine hydrochloride
-- C) Methylamine hydrochloride
-- D) Ammonium chloride
+-
+A) Dimethylammonium chloride
+-
+B) Dimethylamine hydrochloride
+-
+C) Methylamine hydrochloride
+-
+D) Ammonium chloride
+
 **Answer: A) Dimethylammonium chloride.**
 
 **2. What is the pKa of the conjugate acid of an amine with a pKb of 3.2?**
-- A) 10.8
-- B) 11.2
-- C) 10.2
-- D) 11.8
+-
+A) 10.8
+-
+B) 11.2
+-
+C) 10.2
+-
+D) 11.8
+
 **Answer: A) 10.8.**
 
 **3. What is the pH of a solution containing 0.1M ethylamine and 0.1M ethylammonium chloride?**
-- A) 10.8
-- B) 11.2
-- C) 10.2
-- D) 11.8
+-
+A) 10.8
+-
+B) 11.2
+-
+C) 10.2
+-
+D) 11.8
+
 **Answer: A) 10.8.**
 
 **4. What type of reaction occurs between an amine and a carbonyl compound?**
-- A) SN² reaction
-- B) Nucleophilic addition reaction
-- C) Acid-base reaction
-- D) Elimination reaction
+-
+A) SN² reaction
+-
+B) Nucleophilic addition reaction
+-
+C) Acid-base reaction
+-
+D) Elimination reaction
+
 **Answer: B) Nucleophilic addition reaction.**
 
 **5. What is the general formula for amines?**
-- A) R₂O
-- B) R₃N
-- C) RCOOH
-- D) R₄P
+-
+A) R₂O
+-
+B) R₃N
+-
+C) RCOOH
+-
+D) R₄P
+
 **Answer: B) R₃N.**
 
 ---
@@ -98,5 +123,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/amines-class-12-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Amines%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Application Of Integrals Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-integrals-class-12-notes)
+- 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)

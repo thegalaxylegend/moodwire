@@ -22,11 +22,11 @@ manualReview: false
 - d/dx (tan⁻¹(x)) = 1/(1 + x²)
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not checking the doma∈ and range of inverse trigonometric functions
+- Not checking the doma∈ and range of inverse [trigonometric](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) functions
 - Forgetting the principal values of s∈⁻¹(x), cos⁻¹(x), and tan⁻¹(x)
 - Not using the identity s∈⁻¹(x) + cos⁻¹(x) = π/2
 - Incorrectly applying the formula for tan⁻¹(x) - tan⁻¹(y)
-- Not simplifying expressions using trigonometric identities before applying inverse trigonometric functions
+- Not simplifying [expressions](/blog/algebraic-expressions-class-8-notes) using trigonometric identities before applying inverse trigonometric functions
 
 ## ✏️ 3 Solved PYQs
 - **Question 1:** Find the value of s∈⁻¹(s∈(2π/3)) + cos⁻¹(cos(2π/3))
@@ -51,38 +51,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the value of s∈⁻¹(s∈(3π/4))?**
-- A) π/4
-- B) 3π/4
-- C) -π/4
-- D) π/2
+-
+A) π/4
+-
+B) 3π/4
+-
+C) -π/4
+-
+D) π/2
+
 **Answer: C) -π/4, because s∈⁻¹(x) has a range of [-π/2, π/2] and s∈(3π/4) = s∈(π - 3π/4) = s∈(-π/4)**
 
 **2. What is the value of cos⁻¹(cos(5π/6))?**
-- A) 5π/6
-- B) π/6
-- C) -5π/6
-- D) -π/6
+-
+A) 5π/6
+-
+B) π/6
+-
+C) -5π/6
+-
+D) -π/6
+
 **Answer: B) π/6, because cos⁻¹(x) has a range of [0, π] and cos(5π/6) = cos(π - 5π/6) = cos(π/6)**
 
 **3. What is the value of tan⁻¹(tan(7π/6))?**
-- A) 7π/6
-- B) π/6
-- C) -π/6
-- D) -7π/6
+-
+A) 7π/6
+-
+B) π/6
+-
+C) -π/6
+-
+D) -7π/6
+
 **Answer: D) -7π/6, because tan⁻¹(x) has a range of (-π/2, π/2) and tan(7π/6) = tan(π + π/6) = tan(-π/6)**
 
 **4. What is the value of d/dx (tan⁻¹(x²))?**
-- A) 2x/(1 + x⁴)
-- B) 2x/(1 - x⁴)
-- C) x/(1 + x²)
-- D) x/(1 - x²)
+-
+A) 2x/(1 + x⁴)
+-
+B) 2x/(1 - x⁴)
+-
+C) x/(1 + x²)
+-
+D) x/(1 - x²)
+
 **Answer: A) 2x/(1 + x⁴), using the cha∈ rule and the derivative of tan⁻¹(x)**
 
 **5. What is the value of s∈⁻¹(x) + cos⁻¹(x)?**
-- A) π
-- B) π/2
-- C) π/4
-- D) 3π/4
+-
+A) π
+-
+B) π/2
+-
+C) π/4
+-
+D) 3π/4
+
 **Answer: A) π, using the identity s∈⁻¹(x) + cos⁻¹(x) = π/2, but since the range of s∈⁻¹(x) is [-π/2, π/2] and the range of cos⁻¹(x) is [0, π], we can adjust to get π**
 
 ---
@@ -90,5 +115,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/inverse-trigonometric-functions-class-12-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Inverse%20Trigonometric%20Functions%20Class%2012%20Mathematics%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [trigonometric functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)
+- 📖 [Vector Algebra Class 12 Mathematics Revision — Grandmaster Guide](/blog/vector-algebra-class-12-notes)
+- 📖 [3d Geometry Intro Class 11 Mathematics Revision — Grandmaster Guide](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet)
+- 📖 [Algebraic Expressions 8 Class 8 Mathematics Revision — Grandmaster Guide](/blog/algebraic-expressions-class-8-notes)

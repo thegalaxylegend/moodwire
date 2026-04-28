@@ -9,7 +9,7 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- The general form of a linear equation ∈ two variables is ax + by + c = 0, where a, b, and c are constants and a ≠ 0, b ≠ 0.
+- The general form of a [linear](/blog/linear-programming-class-12-notes) equation ∈ two variables is ax + by + c = 0, where a, b, and c are constants and a ≠ 0, b ≠ 0.
 - The equation ax + by + c = 0 can be written as y = (-a/b)x - (c/b), which is the slope-intercept form of the equation, where -a/b is the slope and -c/b is the y-intercept.
 - The equation of a line passing through the points (x₁, y₁) and (x₂, y₂) can be found using the two-point form: y - y₁ = [(y₂ - y₁)/(x₂ - x₁)](x - x₁).
 - The slope of a line passing through the points (x₁, y₁) and (x₂, y₂) is given by m = (y₂ - y₁)/(x₂ - x₁).
@@ -57,34 +57,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the equation of the line passing through the points (1, 2) and (3, 4)?**
-- A) x - y - 1 = 0
-- B) x + y - 3 = 0
-- C) 2x - y - 1 = 0
-- D) x - 2y + 1 = 0
+-
+A) x - y - 1 = 0
+-
+B) x + y - 3 = 0
+-
+C) 2x - y - 1 = 0
+-
+D) x - 2y + 1 = 0
+
 **Answer: A) x - y - 1 = 0.**
+
 **2. Solve the equation 3x + 2y - 5 = 0 for y.**
-- A) y = (-3/2)x + 5/2
-- B) y = (-3/2)x + 2
-- C) y = (3/2)x - 5/2
-- D) y = (-2/3)x + 5/3
+-
+A) y = (-3/2)x + 5/2
+-
+B) y = (-3/2)x + 2
+-
+C) y = (3/2)x - 5/2
+-
+D) y = (-2/3)x + 5/3
+
 **Answer: A) y = (-3/2)x + 5/2.**
+
 **3. What is the slope of the line passing through the points (2, 3) and (4, 5)?**
-- A) 1
-- B) 2
-- C) 3
-- D) 4
+-
+A) 1
+-
+B) 2
+-
+C) 3
+-
+D) 4
+
 **Answer: A) 1.**
+
 **4. Solve the system of equations x + 2y - 3 = 0 and 2x + 3y + 2 = 0.**
-- A) x = -13, y = 8
-- B) x = 13, y = -8
-- C) x = -8, y = 13
-- D) x = 8, y = -13
+-
+A) x = -13, y = 8
+-
+B) x = 13, y = -8
+-
+C) x = -8, y = 13
+-
+D) x = 8, y = -13
+
 **Answer: A) x = -13, y = 8.**
+
 **5. What is the equation of the line with slope 2 and passing through the point (1, 3)?**
-- A) y - 3 = 2(x - 1)
-- B) y - 2 = 3(x - 1)
-- C) y - 1 = 2(x - 3)
-- D) y - 3 = x - 1
+-
+A) y - 3 = 2(x - 1)
+-
+B) y - 2 = 3(x - 1)
+-
+C) y - 1 = 2(x - 3)
+-
+D) y - 3 = x - 1
+
 **Answer: A) y - 3 = 2(x - 1).**
 
 ---
@@ -92,5 +121,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/linear-equations-in-two-variables-class-9-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Linear%20Equations%20In%20Two%20Variables%209%20Class%209%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Linear Equations In One Variable 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/linear-equations-in-one-variable-class-8-notes)
+- 📖 [Pair Of Linear Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/pair-of-linear-equations-class-10-notes)
+- 📖 [Differential Equations Class 12 Exam Prep Revision — Grandmaster Guide](/blog/differential-equations-class-12-notes)
+- 📖 [Linear Programming Class 12 Exam Prep Revision — Grandmaster Guide](/blog/linear-programming-class-12-notes)

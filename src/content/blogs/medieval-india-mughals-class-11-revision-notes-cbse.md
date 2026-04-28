@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/medieval-india-mughals-class-11-revision-notes-cbse"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -106,7 +106,6 @@ Answer: c) A hierarchical structure with Subas, Sarkars, n Parganas
 * **Exception to the Panchayat System**: The Panchayat System was not applicable to the **urban areas**, where the Mughal Empire had a more centralized system of governance.
 
 By understanding these trap exceptions, you can avoid common mistakes and develop a deeper understanding of the Mughal Empire's administrative structure and revenue systems.
-
 
 * **Mughal Empire**: Founded y **Babur** n 1526
 * **Capital**: Agra, later shifted to [delhi](/blog/medieval-india-delhi-sultanate-class-11-revision-notes-cbse)
@@ -218,7 +217,7 @@ Continue your [revision](/blog/ancient-india-indus-valley-class-11-revision-note
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/medieval-india-mughals-class-11-revision-notes-cbse) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/medieval-[india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)-mughals-class-11-revision-notes-cbse) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Medieval](/blog/medieval-india-delhi-sultanate-class-11-revision-notes-cbse)%20India%20Mughals%20Class%2011%20History%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
@@ -253,3 +252,14 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
    * Architecture: Taj Mahal, Red Fort, and other monuments
    * Art: Miniature paintings and other art forms
    * Literature: Development of Urdu and other languages
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Grandmaster Guide](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse)
+- 📖 [Medieval India Delhi Sultanate Class 11 History Recap — CBSE 2026 Grandmaster Guide](/blog/medieval-india-delhi-sultanate-class-11-revision-notes-cbse)
+- 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Grandmaster Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
+- 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Grandmaster Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)

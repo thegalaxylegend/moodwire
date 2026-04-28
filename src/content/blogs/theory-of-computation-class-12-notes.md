@@ -82,7 +82,7 @@ c) $S ightarrow aAb | epsilon$
 d) $S ightarrow aBb | epsilon$
 
 ## 📚 Related Topics
-For further study, you can explore the following related topics:
+For further study, you can explore the following [related](/blog/areas-related-to-circles-class-10-notes) topics:
 - **Formal language theory**: The study of formal languages and their properties.
 - **Automata theory**: The study of automata and their [applications](/blog/biotechnology-and-its-applications-class-12-notes).
 - **Computability theory**: The study of what can be computed by a machine.

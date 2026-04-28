@@ -61,34 +61,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the product of the reaction between 1-bromo-2-methylpropane and sodium hydroxide?**
-- A) 2-methylpropan-1-ol
-- B) 2-methylpropan-2-ol
-- C) 2-methylpropane
-- D) 1-bromo-2-methylpropane
+-
+A) 2-methylpropan-1-ol
+-
+B) 2-methylpropan-2-ol
+-
+C) 2-methylpropane
+-
+D) 1-bromo-2-methylpropane
+
 **Answer: B) 2-methylpropan-2-ol**
+
 **2. What is the major product of the reaction between benzene and bromine ∈ the presence of iron(III) bromide?**
-- A) chlorobenzene
-- B) bromobenzene
-- C) iodobenzene
-- D) fluorobenzene
+-
+A) chlorobenzene
+-
+B) bromobenzene
+-
+C) iodobenzene
+-
+D) fluorobenzene
+
 **Answer: B) bromobenzene**
+
 **3. What is the product of the reaction between 2-chlorobutane and potassium hydroxide?**
-- A) 1-butanol
-- B) 2-butanol
-- C) 2-methylpropan-2-ol
-- D) 2-methylpropan-1-ol
+-
+A) 1-butanol
+-
+B) 2-butanol
+-
+C) 2-methylpropan-2-ol
+-
+D) 2-methylpropan-1-ol
+
 **Answer: B) 2-butanol**
+
 **4. What is the type of reaction involved ∈ the reaction between 1-bromo-2-methylpropane and sodium hydroxide?**
-- A) SN1
-- B) SN2
-- C) Electrophilic substitution
-- D) Nucleophilic substitution
+-
+A) SN1
+-
+B) SN2
+-
+C) Electrophilic substitution
+-
+D) Nucleophilic substitution
+
 **Answer: B) SN2**
+
 **5. What is the reactivity of the halogens ∈ the order of F > Cl > Br > I?**
-- A) F < Cl < Br < I
-- B) F > Cl > Br > I
-- C) F < Cl > Br < I
-- D) F > Cl < Br > I
+-
+A) F < Cl < Br < I
+-
+B) F > Cl > Br > I
+-
+C) F < Cl > Br < I
+-
+D) F > Cl < Br > I
+
 **Answer: B) F > Cl > Br > I**
 
 ---
@@ -96,5 +125,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/haloalkanes-and-haloarenes-class-12-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Haloalkanes%20And%20Haloarenes%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Application Of Integrals Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-integrals-class-12-notes)

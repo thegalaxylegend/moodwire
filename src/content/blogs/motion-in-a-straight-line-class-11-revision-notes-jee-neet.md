@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/motion-n-a-straight-line-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -227,7 +227,7 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 * Incorrect Calculation of Acceleration: Students often make mistakes while calculating acceleration. They forget to consider the change in velocity and the time over which it changes, leading to incorrect results.
 * Forgetting to Consider the Sign of Displacement: When calculating average velocity, students often forget to consider the sign of displacement, which can lead to incorrect results.
 * Misunderstanding the Concept of Relative [Motion](/blog/rotational-motion-class-11-revision-notes-jee-neet): Relative [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) is a common concept in [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) in a straight line, but many students struggle to understand it. They find it difficult to visualize the [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) of one object with respect to another.
-* Not Considering the Frame of Reference: Students often make mistakes by not considering the frame of reference while solving problems related to motion in a straight line. They should always specify the frame of reference while describing the motion of an object.
+* Not Considering the Frame of Reference: Students often make mistakes by not considering the frame of reference while solving problems related to [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) in a straight line. They should always specify the frame of reference while describing the [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) of an object.
 
 ## 🔁 Last 5 Minutes Box
 

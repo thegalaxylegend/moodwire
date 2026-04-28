@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/principle-of-mathematical-induction-class-11-revision-notes-jee"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -61,13 +61,13 @@ To illustrate the power of PMI, let's consider a classic example. Suppose we wan
 
 Next, we assume that the formula is true for some arbitrary value $k$, i.e., $1+2+3+...+k = \frac{k(k+1)}{2}$. We then need to show that the formula is true for $k+1$, i.e., $1+2+3+...+k+(k+1) = \frac{(k+1)(k+2)}{2}$. By using simple algebraic manipulations, we can show that this is indeed the case, thereby completing the inductive step.
 
-This example illustrates the power and simplicity of PMI. By breaking down the problem into smaller, manageable steps, we can prove complex results with ease. And once you master the basics of PMI, you'll start to see the world of mathematics and a new light. You'll be able to tackle complex problems with confidence, n you'll develop a deeper appreciation for the beauty and elegance of mathematical proofs.
+This example illustrates the power and simplicity of PMI. By breaking down the problem into smaller, manageable steps, we can prove complex results with ease. And once you master the basics of PMI, you'll start to see the world of mathematics and a new light. You'll be able to tackle complex problems with confidence, n you'll develop a deeper appreciation for the beauty and elegance of [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) proofs.
 
 In the next section, we'll dive deeper into the world of PMI, exploring its applications and nuances and more detail. We'll examine different types of [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet), including strong [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) and backwards [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet), n we'll discuss common pitfalls and mistakes to avoid. By the end of this journey, you'll have a deep understanding of the Principle of Mathematical [Induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet), n you'll be well-prepared to tackle the challenges of the class 11 exam. So, let's get started! 
 
 To prepare for the exam, it's essential to practice a wide range of problems, from simple to complex. This will help you develop a deeper understanding of the concept and its applications. You can start y practicing problems from your textbook, n then move on to more challenging problems from other sources. Additionally, you can try to prove simple results using PMI, such as the formula for the $\sum of the firstn$ positive integers, or the formula for the $\sum of the firstn$ perfect squares.
 
-By following these tips and practicing regularly, you'll be well-prepared to tackle the challenges of the class 11 exam. You'll develop a deep understanding of the Principle of Mathematical Induction, n you'll be able to apply it to a wide range of problems. So, let's get started on this journey, n let's explore the world of PMI together! 
+By following these tips and practicing regularly, you'll be well-prepared to tackle the challenges of the class 11 exam. You'll develop a deep understanding of the Principle of Mathematical [Induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet), n you'll be able to apply it to a wide range of problems. So, let's get started on this journey, n let's explore the world of PMI together! 
 
 Some key formulas and results that you should be familiar with include the formula for the $\sum of the firstn$ positive integers, the formula for the $\sum of the firstn$ perfect squares, n the formula for the $\sum of the firstn$ cubes. You should also be familiar with the concept of strong induction, which involves assuming that a statement is true for all values up to $k$, n then showing that it's true for $k+1$. By mastering these concepts and formulas, you'll be well-prepared to tackle the challenges of the Class 11 exam. 
 

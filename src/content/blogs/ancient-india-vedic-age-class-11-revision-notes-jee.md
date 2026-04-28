@@ -33,7 +33,7 @@ The Vedic Age is divided into two main periods: the Early Vedic Period (1500 BCE
 - **1000 BCE:** The Early Vedic Period transitions into the Late Vedic Period, marked by the composition of the other Vedas (Yajurveda, Samaveda, and Atharvaveda) and the development of the Upanishads.
 - **800 BCE:** The emergence of large kingdoms and the beginning of urbanization.
 - **600 BCE:** The rise of Jainism and Buddhism as major religious movements in response to Vedic rituals and practices.
-- **500 BCE:** The end of the Vedic Age, marking the transition to the Ancient Indian period.
+- **500 BCE:** The end of the Vedic Age, marking the transition to the [Ancient](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) Indian period.
 
 ## The Vedas and Vedic Literature
 The **Vedas** are the primary texts of the Vedic Age, consisting of the Rigveda, Yajurveda, Samaveda, and Atharvaveda. They contain hymns, prayers, and rituals that provide insights into the religious beliefs, social structures, and cultural practices of the time. The **Upanishads**, composed during the Late Vedic Period, are philosophical texts that explore the nature of the ultimate reality (Brahman) and the self (Atman), laying the groundwork for Hindu philosophy and spirituality.
@@ -42,7 +42,7 @@ The **Vedas** are the primary texts of the Vedic Age, consisting of the Rigveda,
 Vedic society was primarily **patriarchal**, with men holding positions of power and authority. The **varna system**, a social hierarchy, began to take shape during this period, dividing society into four main categories: Brahmins (priests), Kshatriyas (warriors), Vaishyas (traders and farmers), and Shudras (labourers). The position of women, although subordinate, was relatively better in the Vedic Age compared to later periods, with examples of women participating in religious rituals and literary compositions.
 
 ## Political Structure
-The political structure of the Vedic Age was characterized by the existence of **tribal kingdoms** and **republics**. The **janapadas** (territories) were governed by **rajas** (kings) or **gana** (councils of elders) in the case of republics. The concept of **dharma** (duty) played a significant role in governance, emphasizing the king's responsibility to protect his subjects and maintain social order.
+The political [structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet) of the Vedic Age was characterized by the existence of **tribal kingdoms** and **republics**. The **janapadas** (territories) were governed by **rajas** (kings) or **gana** (councils of elders) in the case of republics. The concept of **dharma** (duty) played a significant role in governance, emphasizing the king's responsibility to protect his subjects and maintain social order.
 
 ## Economy
 The economy of the Vedic Age was primarily **agricultural**, with the introduction of the iron plow leading to increased agricultural productivity. **Trade** also flourished, both within the Indian subcontinent and with neighboring regions, facilitating the exchange of goods such as textiles, metals, and spices. The **use of coins** became more prevalent during the Late Vedic Period, indicating a shift towards a more monetized economy.
@@ -153,7 +153,6 @@ The Vedic Age saw significant economic developments, including the introduction 
 * Some students mistakenly believe that the Vedic economy was primarily based on trade and commerce, when in fact it was largely pastoral and agricultural.
 * The Vedic Period is often mistakenly seen as a static and unchanging era, when in fact it was a dynamic and evolving period that laid the foundations for later Indian history and culture.
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Ancient%20India%20Vedic%20Age%20Class%2011%20History%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-
 
 ---
 

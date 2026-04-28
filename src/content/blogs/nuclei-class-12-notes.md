@@ -49,7 +49,7 @@ manualReview: false
 ## ✏️ 3 Solved PYQs
 - Question 1: A nucleus of mass m and charge q is at rest and splits into two nuclei of masses m₁ and m₂ and charges q₁ and q₂. If the kinetic energy of the first nucleus is K₁ and that of the second nucleus is K₂, find the ratio of their kinetic energies. 
   Step 1: Apply conservation of momentum to find the ratio of velocities 
-  Step 2: Use the equation for kinetic energy to find the ratio of kinetic energies 
+  Steps 2: Use the equation for kinetic energy to find the ratio of kinetic energies 
   Answer: K₁/K₂ = m₂/m₁ 
 - Question 2: A radioactive substance has a half-life of 10 years. If 100 g of the substance is left after 20 years, find the initial mass of the substance. 
   Step 1: Use the equation for radioactive decay to find the ratio of initial and final masses 
@@ -85,34 +85,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the binding energy of a nucleus of ⁴He?**
-- A) 28.3 MeV 
-- B) 30.4 MeV 
-- C) 32.5 MeV 
-- D) 34.6 MeV 
+-
+A) 28.3 MeV
+-
+B) 30.4 MeV
+-
+C) 32.5 MeV
+-
+D) 34.6 MeV
+
 **Answer: A) 28.3 MeV.**
+
 **2. A radioactive substance has a half-life of 5 years. If 50 g of the substance is left after 10 years, find the initial mass of the substance.**
-- A) 100 g 
-- B) 200 g 
-- C) 400 g 
-- D) 800 g 
+-
+A) 100 g
+-
+B) 200 g
+-
+C) 400 g
+-
+D) 800 g
+
 **Answer: B) 200 g.**
+
 **3. What is the kinetic energy of an α particle emitted by a nucleus of ²³⁸U?**
-- A) 4.2 MeV 
-- B) 5.5 MeV 
-- C) 6.8 MeV 
-- D) 8.1 MeV 
+-
+A) 4.2 MeV
+-
+B) 5.5 MeV
+-
+C) 6.8 MeV
+-
+D) 8.1 MeV
+
 **Answer: A) 4.2 MeV.**
+
 **4. What is the equation for nuclear binding energy?**
-- A) ΔE = (Z∓ + Nmn - m)/(Z + N) × c² 
-- B) ΔE = (Z∓ + Nmn + m)/(Z + N) × c² 
-- C) ΔE = (Z∓ - Nmn - m)/(Z + N) × c² 
-- D) ΔE = (Z∓ - Nmn + m)/(Z + N) × c² 
+-
+A) ΔE = (Z∓ + Nmn - m)/(Z + N) × c²
+-
+B) ΔE = (Z∓ + Nmn + m)/(Z + N) × c²
+-
+C) ΔE = (Z∓ - Nmn - m)/(Z + N) × c²
+-
+D) ΔE = (Z∓ - Nmn + m)/(Z + N) × c²
+
 **Answer: A) ΔE = (Z∓ + Nmn - m)/(Z + N) × c².**
+
 **5. What is the ratio of the kinetic energies of two nuclei of masses m₁ and m₂?**
-- A) K₁/K₂ = m₁/m₂ 
-- B) K₁/K₂ = m₂/m₁ 
-- C) K₁/K₂ = (m₁/m₂)² 
-- D) K₁/K₂ = (m₂/m₁)² 
+-
+A) K₁/K₂ = m₁/m₂
+-
+B) K₁/K₂ = m₂/m₁
+-
+C) K₁/K₂ = (m₁/m₂)²
+-
+D) K₁/K₂ = (m₂/m₁)²
+
 **Answer: B) K₁/K₂ = m₂/m₁.**
 
 ---
@@ -120,5 +149,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/nuclei-class-12-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Nuclei%20Class%2012%20Physics%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Atoms Class 12 Physics Revision — Grandmaster Guide](/blog/atoms-class-12-notes)
+- 📖 [Communication Systems Class 12 Physics Revision — Grandmaster Guide](/blog/communication-systems-class-12-notes)
+- 📖 [Dual Nature Of Radiation Class 12 Physics Revision — Grandmaster Guide](/blog/dual-nature-of-radiation-class-12-notes)
+- 📖 [Electromagnetic Waves Class 12 Physics Revision — Grandmaster Guide](/blog/electromagnetic-waves-class-12-notes)

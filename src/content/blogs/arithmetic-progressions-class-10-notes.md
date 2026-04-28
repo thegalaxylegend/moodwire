@@ -9,9 +9,9 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- The nth term of an arithmetic progression (AP) is given by aₙ = a + (n - 1)d, where a is the first term and d is the common difference.
+- The nth term of an arithmetic progression (AP) is given by aₙ = a + (n - 1)d, where an is the first term and d is the common difference.
 - The sum of the first n terms of an AP is given by Sₙ = n/2 [2a + (n - 1)d].
-- The sum of an AP with first term a, common difference d, and number of terms n is also given by Sₙ = n/2 [a + l], where l is the last term.
+- The sum of an AP with first term a common difference d, and number of terms n is also given by Sₙ = n/2 [a + l], where l is the last term.
 - The last term of an AP is given by l = a + (n - 1)d.
 - The nth term of an AP from the end is given by aₙ = l - (n - 1)d, where l is the last term.
 
@@ -51,34 +51,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. The 5th term of the AP 2, 5, 8, 11, ... is**
-- A) 11
-- B) 14
-- C) 15
-- D) 17
+-
+A) 11
+-
+B) 14
+-
+C) 15
+-
+D) 17
+
 **Answer: B) 14. Explanation: Use the formula aₙ = a + (n - 1)d to find the 5th term: a₅ = 2 + (5 - 1)3 = 2 + 4*3 = 2 + 12 = 14.**
+
 **2. The sum of the first 10 terms of the AP 1, 3, 5, 7, ... is**
-- A) 100
-- B) 110
-- C) 125
-- D) 150
+-
+A) 100
+-
+B) 110
+-
+C) 125
+-
+D) 150
+
 **Answer: C) 100. Explanation: Use the formula Sₙ = n/2 [2a + (n - 1)d] to find the sum: S₁₀ = 10/2 [2*1 + (10 - 1)2] = 5 [2 + 9*2] = 5 [2 + 18] = 5 * 20 = 100.**
+
 **3. The first term of the AP 7, 10, 13, 16, ... is**
-- A) 3
-- B) 5
-- C) 7
-- D) 10
+-
+A) 3
+-
+B) 5
+-
+C) 7
+-
+D) 10
+
 **Answer: C) 7. Explanation: The first term of the AP is given as 7.**
+
 **4. The common difference of the AP 2, 5, 8, 11, ... is**
-- A) 2
-- B) 3
-- C) 4
-- D) 5
+-
+A) 2
+-
+B) 3
+-
+C) 4
+-
+D) 5
+
 **Answer: B) 3. Explanation: The common difference is the difference between consecutive terms: d = 5 - 2 = 3.**
+
 **5. The 20th term of the AP 3, 7, 11, 15, ... is**
-- A) 73
-- B) 75
-- C) 77
-- D) 79
+-
+A) 73
+-
+B) 75
+-
+C) 77
+-
+D) 79
+
 **Answer: C) 77. Explanation: Use the formula aₙ = a + (n - 1)d to find the 20th term: a₂₀ = 3 + (20 - 1)4 = 3 + 19*4 = 3 + 76 = 79.**
 
 ---
@@ -86,5 +115,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/arithmetic-progressions-class-10-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Arithmetic%20Progressions%20Class%2010%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Areas Related To Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/areas-related-to-circles-class-10-notes)
+- 📖 [Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/circles-class-10-notes)
+- 📖 [Pair Of Linear Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/pair-of-linear-equations-class-10-notes)
+- 📖 [Polynomials Class 10 Exam Prep Revision — Grandmaster Guide](/blog/polynomials-class-10-notes)

@@ -25,8 +25,8 @@ manualReview: false
 - Not understanding the difference between saturated and unsaturated hydrocarbons
 - Confusing the general formulas for alkanes, alkenes, and alkynes
 - Not being able to write the structural formulas for isomers of alkanes
-- Forgetting the combustion reactions of alkanes, alkenes, and alkynes
-- Not being able to identify the functional groups ∈ organic compounds
+- Forgetting the combustion [reactions](/blog/chemical-reactions-and-equations-class-10-notes) of alkanes, alkenes, and alkynes
+- Not being able to identify the functional groups ∈ organic [compounds](/blog/coordination-compounds-class-12-notes)
 
 ## ✏️ 3 Solved PYQs
 - Question 1: What is the general formula for alkenes?
@@ -62,34 +62,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the general formula for alkanes?**
-- A) CₙH₂ₙ
-- B) CₙH₂ₙ₊₂
-- C) CₙH₂ₙ₋₂
-- D) CₙH₂ₙ₊₁
+-
+A) CₙH₂ₙ
+-
+B) CₙH₂ₙ₊₂
+-
+C) CₙH₂ₙ₋₂
+-
+D) CₙH₂ₙ₊₁
+
 **Answer: B) CₙH₂ₙ₊₂**
+
 **2. What is the combustion reaction of ethene?**
-- A) C₂H₄ + 3O₂ → 2CO₂ + 2H₂O
-- B) C₂H₄ + 2O₂ → 2CO₂ + 2H₂O
-- C) C₂H₄ + O₂ → 2CO₂ + 2H₂O
-- D) C₂H₄ + 4O₂ → 2CO₂ + 2H₂O
+-
+A) C₂H₄ + 3O₂ → 2CO₂ + 2H₂O
+-
+B) C₂H₄ + 2O₂ → 2CO₂ + 2H₂O
+-
+C) C₂H₄ + O₂ → 2CO₂ + 2H₂O
+-
+D) C₂H₄ + 4O₂ → 2CO₂ + 2H₂O
+
 **Answer: B) C₂H₄ + 3O₂ → 2CO₂ + 2H₂O**
+
 **3. What is the structural formula for propyne?**
-- A) CH₃-CH=CH
-- B) CH₃-CH₂-CH₃
-- C) CH₃-C≡CH
-- D) CH₃-CH=CH₂
+-
+A) CH₃-CH=CH
+-
+B) CH₃-CH₂-CH₃
+-
+C) CH₃-C≡CH
+-
+D) CH₃-CH=CH₂
+
 **Answer: C) CH₃-C≡CH**
+
 **4. What is the functional group ∈ methane?**
-- A) -OH
-- B) -COOH
-- C) -CH₃
-- D) None
+-
+A) -OH
+-
+B) -COOH
+-
+C) -CH₃
+-
+D) None
+
 **Answer: D) None**
+
 **5. What is the hybridization of carbon ∈ diamond?**
-- A) sp³
-- B) sp²
-- C) sp
-- D) None
+-
+A) sp³
+-
+B) sp²
+-
+C) sp
+-
+D) None
+
 **Answer: A) sp³**
 
 ---
@@ -97,5 +126,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/carbon-and-its-compounds-class-10-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Carbon%20and%20its%20Compounds%20Class%2010%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Coordination Compounds Class 12 Exam Prep Revision — Grandmaster Guide](/blog/coordination-compounds-class-12-notes)
+- 📖 [Acids, Bases and Salts Class 10 Science Recap — Grandmaster Guide](/blog/acids-bases-and-salts-class-10-notes)
+- 📖 [Chemical Reactions and Equations Class 10 Science Recap — Grandmaster Guide](/blog/chemical-reactions-and-equations-class-10-notes)
+- 📖 [Heredity and Evolution Class 10 Science Recap — Grandmaster Guide](/blog/heredity-and-evolution-class-10-notes)

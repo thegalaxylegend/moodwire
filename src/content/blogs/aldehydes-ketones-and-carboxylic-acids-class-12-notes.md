@@ -17,7 +17,7 @@ manualReview: false
 - Ketone reactions: nucleophilic addition, reduction
 - Carboxylic acid reactions: neutralization, esterification, hydrolysis
 - Aldehyde/ketone distinction: Tollens' test, Fehling's test, Benedict's test
-- Carboxylic acid derivatives: esters, amides, acid chlorides
+- Carboxylic acid [derivatives](/blog/application-of-derivatives-class-12-notes): esters, amides, acid chlorides
 - Hydrolysis of esters: saponification
 - Hydrolysis of amides: ammonolysis
 - Esterification: Fischer-Speier esterification
@@ -68,34 +68,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the product of the reaction between acetaldehyde and Tollens' reagent?**
-- A) Acetic acid
-- B) Acetone
-- C) Acetaldehyde
-- D) Ethanol
+-
+A) Acetic acid
+-
+B) Acetone
+-
+C) Acetaldehyde
+-
+D) Ethanol
+
 **Answer: A) Acetic acid.**
+
 **2. What is the mechanism of the reaction between a carboxylic acid and an alcohol to form an ester?**
-- A) SN1 reaction
-- B) SN2 reaction
-- C) Nucleophilic addition
-- D) Electrophilic substitution
+-
+A) SN1 reaction
+-
+B) SN2 reaction
+-
+C) Nucleophilic addition
+-
+D) Electrophilic substitution
+
 **Answer: C) Nucleophilic addition.**
+
 **3. What is the product of the reaction between benzophenone and a Grignard reagent?**
-- A) Diphenylmethane
-- B) Diphenylmethanol
-- C) Benzophenone
-- D) Benzoic acid
+-
+A) Diphenylmethane
+-
+B) Diphenylmethanol
+-
+C) Benzophenone
+-
+D) Benzoic acid
+
 **Answer: B) Diphenylmethanol.**
+
 **4. What is the reagent used to distinguish between aldehydes and ketones?**
-- A) Tollens' reagent
-- B) Fehling's reagent
-- C) Benedict's reagent
-- D) All of the above
+-
+A) Tollens' reagent
+-
+B) Fehling's reagent
+-
+C) Benedict's reagent
+-
+D) All of the above
+
 **Answer: D) All of the above.**
+
 **5. What is the product of the reaction between a carboxylic acid and LiAlH₄?**
-- A) Primary alcohol
-- B) Secondary alcohol
-- C) Tertiary alcohol
-- D) Aldehyde
+-
+A) Primary alcohol
+-
+B) Secondary alcohol
+-
+C) Tertiary alcohol
+-
+D) Aldehyde
+
 **Answer: A) Primary alcohol.**
 
 ---
@@ -103,5 +132,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/aldehydes-ketones-and-carboxylic-acids-class-12-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Aldehydes%20Ketones%20And%20Carboxylic%20Acids%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Application Of Integrals Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-integrals-class-12-notes)
+- 📖 [Biodiversity And Conservation Class 12 Exam Prep Revision — Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)

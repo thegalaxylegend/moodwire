@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/digital-logic-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -160,7 +160,7 @@ The study of Digital Logic is a fascinating journey that will challenge our thin
 
 We will also explore the concept of machine learning, which involves the development of computer systems that can learn from [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) and improve their performance over time. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
 
-By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics and Computer Science and develop a keen appreciation for the intricate beauty of digital systems. With dedication and practice, we can master the concepts of Digital Logic and achieve success and the Class 11 exam. 
+By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics and [Computer](/blog/computer-organization-class-11-notes) Science and develop a keen appreciation for the intricate beauty of digital systems. With dedication and practice, we can master the concepts of Digital Logic and achieve success and the Class 11 exam. 
 
 The formula for the $NOR$ gate is:
 
@@ -214,7 +214,7 @@ $\overline{A \oplus B}$ &= Y \\
 
 This equation represents the $XNOR$ gate, which produces an output of $1$ when the inputs are the same. 
 
-We will also explore the concept of software engineering, which involves the design, development, n testing of software systems to meet specific requirements. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
+We will also explore the concept of software engineering, which involves the [design](/blog/algorithms-design-class-11-revision-notes-gate-boards), development, n testing of software systems to meet specific requirements. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
 
 As we prepare for the Class 11 exam, it is essential to recognize that Digital Logic is not just a theoretical subject, but also a practical one. The exam will test our ability to apply the concepts we have learned to solve problems and design digital circuits. 
 
@@ -269,7 +269,7 @@ Digital Logic is a branch of electronics engineering that deals with the design 
 
 Digital Logic is a fundamental concept and computer science that deals with the design and implementation of digital systems using logical operations. It includes logic gates, flip-flops, n counters. For Class 11 exam prep and 2026, the most important aspect is understanding the truth tables and Boolean algebra to analyze and simplify digital circuits. 
  
- The basic components of digital logic can be broadly classified into three categories: input devices, processing devices, n output devices. Input devices provide data to the digital system, processing devices perform operations on the data, n output devices display the results. Logic gates are the building blocks of digital circuits and are used to perform basic logical operations such as AND, OR, n NOT.
+ The basic components of digital logic can be broadly classified into three categories: input devices, processing devices, n output devices. Input devices provide [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) to the digital system, processing devices perform operations on the [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards), n output devices display the results. Logic gates are the building blocks of digital circuits and are used to perform basic logical operations such as AND, OR, n NOT.
  
  A logic gate is an electronic circuit that operates on one or more input signals to produce a single output signal. The output signal is determined y the type of logic gate and the input signals. There are several types of logic gates, including AND, OR, NOT, NAND, NOR, n XOR. Each type of logic gate has a unique truth table that describes the relationship between the input and output signals.
  

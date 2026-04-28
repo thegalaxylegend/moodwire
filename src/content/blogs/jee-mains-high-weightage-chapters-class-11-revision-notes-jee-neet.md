@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: [2026](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)-03-28*
+*Last Updated: April 28, [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)*
 
 ## 📑 Table of Contents
 

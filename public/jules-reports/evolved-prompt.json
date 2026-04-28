@@ -1,12 +1,60 @@
 {
-  "version": "2026-04-26T10:39:18.629Z",
+  "version": "2026-04-28T03:17:52.590Z",
   "generatedBy": "prompt-evolution-engine-v1.0",
-  "evolvedPrompt": "You are a strict, top 1% JEE/NEET ranker creating a \"Last-Night Revision Format\" study guide.\nYour sole purpose is to provide exactly what a student needs to read 12 hours before their exam to maximize their score.\nTarget Length: Aim for a comprehensive 1500 to 2000 words. Do not give thin content.\nVoice: Specific, data-driven, authentic student tone. NO FILLER. No fluff. No introductions.\n\nFormat Rule: A student reads this once, closes the tab, and walks into the exam confident.\nDO NOT use phrases like \"In conclusion\", \"delve into\", \"comprehensive\", \"embark on your journey\".\n\n// ⚡ EVOLVED VIA FALLBACK: Prioritize bullet points, PYQs, and Trap questions rigorously. Avoid paragraphs.",
+  "evolvedPrompt": "You are a strict, top 1% JEE/NEET ranker creating a \"Last-Night Revision Format\" study guide.\nYour sole purpose is to provide exactly what a student needs to read 12 hours before their exam to maximize their score.\nTarget Length: Aim for a comprehensive 1500 to 2000 words, focusing on high formula density and strategic use of MCQs and bullet points.\nVoice: Specific, data-driven, authentic student tone. NO FILLER. No fluff. No introductions.\nFormat Rule: A student reads this once, closes the tab, and walks into the exam confident.\nDO NOT use phrases like \"In conclusion\", \"delve into\", \"comprehensive\", \"embark on your journey\".\nNEVER include thin content sections (less than 150 words) or complex LaTeX that may cause rendering issues.\nUse simple notation and \\text{} wrappers for units.\nTo improve search visibility, naturally incorporate top-ranking keywords like \"exam compass\", \"jee compass\", and \"neet blueprint 2027\".\nUse a balanced style for Revision content and a bullet-heavy style for Exam Notes.\nPrioritize desktop and mobile users' experience, optimizing for an average engagement time of more than 0 seconds.\nFor each subject, target the following structural guidelines:\nPhysics: 1500-2000 words, high formula density, 3-5 MCQs\nChemistry: 1500-2000 words, medium formula density, 3-5 MCQs\nBiology: 1500-2000 words, low formula density, 3-5 MCQs\nMathematics: 1500-2000 words, high formula density, 3-5 MCQs\nHistory: 1500-2000 words, no formula density, 3-5 MCQs\nGeography: 1500-2000 words, low formula density, 3-5 MCQs\nSocial Science: 1200-1800 words, no formula density, 3-5 MCQs",
   "temperature": 0.7,
-  "confidence": 0,
+  "subjectTargets": {
+    "Physics": {
+      "minWords": 1500,
+      "maxWords": 2000,
+      "formulaDensity": "high",
+      "mcqCount": 5
+    },
+    "Chemistry": {
+      "minWords": 1500,
+      "maxWords": 2000,
+      "formulaDensity": "medium",
+      "mcqCount": 5
+    },
+    "Biology": {
+      "minWords": 1500,
+      "maxWords": 2000,
+      "formulaDensity": "low",
+      "mcqCount": 5
+    },
+    "Mathematics": {
+      "minWords": 1500,
+      "maxWords": 2000,
+      "formulaDensity": "high",
+      "mcqCount": 5
+    },
+    "History": {
+      "minWords": 1500,
+      "maxWords": 2000,
+      "formulaDensity": "none",
+      "mcqCount": 5
+    },
+    "Geography": {
+      "minWords": 1500,
+      "maxWords": 2000,
+      "formulaDensity": "low",
+      "mcqCount": 5
+    },
+    "Social Science": {
+      "minWords": 1200,
+      "maxWords": 1800,
+      "formulaDensity": "none",
+      "mcqCount": 5
+    }
+  },
   "changelog": [
-    "Forced ultimate fallback evolution due to catastrophic API failure"
+    "Added structural targets for each subject based on winning patterns",
+    "Incorporated anti-patterns from failure data as explicit 'NEVER DO' rules",
+    "Adjusted tone and depth based on traffic data",
+    "Added a section for search-optimized writing using top-ranking keywords",
+    "Maintained LaTeX escaping rules and JSON restrictions"
   ],
+  "confidence": 0.85,
   "metadata": {
     "sourcesUsed": {
       "contentPatterns": true,

@@ -63,40 +63,83 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What is the unit of population density?**
-- A) individuals
-- B) individuals per unit area
-- C) individuals per unit volume
-- D) individuals per unit time
+-
+A) individuals
+-
+B) individuals per unit area
+-
+C) individuals per unit volume
+-
+D) individuals per unit time
+
 **Answer: B) individuals per unit area.**
+
 **2. Which of the following is an example of a niche?**
-- A) a tree
-- B) a bird
-- C) a bird eating seeds
-- D) a bird flying
+-
+A) a tree
+-
+B) a bird
+-
+C) a bird eating seeds
+-
+D) a bird flying
+
 **Answer: C) a bird eating seeds.**
+
 **3. What is the purpose of the Shannon-Wiener diversity index?**
-- A) to measure population growth rate
-- B) to measure species diversity
-- C) to measure genetic drift
-- D) to measure gene flow
+-
+A) to measure population growth rate
+-
+B) to measure species diversity
+-
+C) to measure genetic drift
+-
+D) to measure gene flow
+
 **Answer: B) to measure species diversity.**
+
 **4. What is the difference between migration and gene flow?**
-- A) migration is the movement of individuals, while gene flow is the movement of genes
-- B) migration is the movement of genes, while gene flow is the movement of individuals
-- C) migration is the movement of populations, while gene flow is the movement of species
-- D) migration is the movement of species, while gene flow is the movement of populations
+-
+A) migration is the movement of individuals, while gene flow is the movement of genes
+-
+B) migration is the movement of genes, while gene flow is the movement of individuals
+-
+C) migration is the movement of populations, while gene flow is the movement of species
+-
+D) migration is the movement of species, while gene flow is the movement of populations
+
 **Answer: A) migration is the movement of individuals, while gene flow is the movement of genes.**
+
 **5. Which of the following is a type of population growth?**
-- A) exponential growth
-- B) logistic growth
-- C) linear growth
-- D) all of the above
+-
+A) exponential growth
+-
+B) logistic growth
+-
+C) linear growth
+-
+D) all of the above
+
 **Answer: D) all of the above.**
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/organisms-and-populations-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/[organisms](/blog/reproduction-in-organisms-class-12-notes)-and-populations-class-12-notes) now and track your progress against thousands of students.
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Organisms%20And%20Populations%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Reproduction In Organisms Class 12 Exam Prep Revision — Grandmaster Guide](/blog/reproduction-in-organisms-class-12-notes)
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
+- 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)

@@ -9,7 +9,7 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- Human development index (HDI) = (life expectancy index × education index × income index)¹/³
+- [Human](/blog/microbes-in-human-welfare-class-12-notes) Development Index (HDI) = (life expectancy index × education index × income index)¹/³
 - Disability adjusted life years (DALY) = years of life lost (YLL) + years lived with disability (YLD)
 - Infant mortality rate (IMR) = (number of deaths under 1 year of age per 1000 live births) 
 - Prevalence of disease = (total number of cases of disease) / (total population at risk)
@@ -23,10 +23,10 @@ manualReview: false
 - Confusing incidence and prevalence of disease
 - Not being able to calculate disability adjusted life years (DALY)
 - Not understanding the concept of heritability and its calculation
-- Not being able to interpret data related to human health and disease
+- Not being able to interpret data related to human [health](/blog/reproductive-health-class-12-notes) and disease
 
 ## ✏️ 3 Solved PYQs
-- What is the significance of human development index (HDI) ∈ public health?
+- What is the significance of Human Development Index (HDI) ∈ public health?
   Step 1: HDI is a composite index that measures the average achievement of a country ∈ three basic dimensions of human development.
   Step 2: These dimensions are life expectancy at birth, expected years of schooling and gross national income per capita.
   Step 3: HDI is used to rank countries into four tiers of human development.
@@ -57,39 +57,65 @@ manualReview: false
 - Take a few deep breaths and stay calm during the exam.
 
 ## 📝 Practice MCQs
-**1. What is the significance of human development index (HDI) ∈ public health?**
-- A) It measures the average life expectancy at birth
-- B) It measures the average achievement of a country ∈ three basic dimensions of human development
-- C) It measures the total number of cases of disease that exist ∈ a population
-- D) It measures the number of new cases of disease that occur ∈ a population over a specific period of time
+**1. What is the significance of Human Development Index (HDI) ∈ public health?**
+-
+A) It measures the average life expectancy at birth
+-
+B) It measures the average achievement of a country ∈ three basic dimensions of human development
+-
+C) It measures the total number of cases of disease that exist ∈ a population
+-
+D) It measures the number of new cases of disease that occur ∈ a population over a specific period of time
+
 **Answer: B) It measures the average achievement of a country ∈ three basic dimensions of human development**
 
 **2. A study found that the relative risk of lung cancer ∈ smokers is 15. What does this mean?**
-- A) Smokers are 15 times more likely to develop lung cancer than non-smokers
-- B) Smokers are 15 times less likely to develop lung cancer than non-smokers
-- C) Smokers are equally likely to develop lung cancer as non-smokers
-- D) Smokers are 5 times more likely to develop lung cancer than non-smokers
+-
+A) Smokers are 15 times more likely to develop lung cancer than non-smokers
+-
+B) Smokers are 15 times less likely to develop lung cancer than non-smokers
+-
+C) Smokers are equally likely to develop lung cancer as non-smokers
+-
+D) Smokers are 5 times more likely to develop lung cancer than non-smokers
+
 **Answer: A) Smokers are 15 times more likely to develop lung cancer than non-smokers**
 
 **3. What is the difference between incidence and prevalence of disease?**
-- A) Incidence is the total number of cases of disease that exist ∈ a population, while prevalence is the number of new cases of disease that occur ∈ a population over a specific period of time
-- B) Incidence is the number of new cases of disease that occur ∈ a population over a specific period of time, while prevalence is the total number of cases of disease that exist ∈ a population
-- C) Incidence and prevalence are the same thing
-- D) Incidence is the number of deaths that occur ∈ a population over a specific period of time, while prevalence is the number of births that occur ∈ a population
+-
+A) Incidence is the total number of cases of disease that exist ∈ a population, while prevalence is the number of new cases of disease that occur ∈ a population over a specific period of time
+-
+B) Incidence is the number of new cases of disease that occur ∈ a population over a specific period of time, while prevalence is the total number of cases of disease that exist ∈ a population
+-
+C) Incidence and prevalence are the same thing
+-
+D) Incidence is the number of deaths that occur ∈ a population over a specific period of time, while prevalence is the number of births that occur ∈ a population
+
 **Answer: B) Incidence is the number of new cases of disease that occur ∈ a population over a specific period of time, while prevalence is the total number of cases of disease that exist ∈ a population**
 
 **4. What is the formula for calculating disability adjusted life years (DALY)?**
-- A) DALY = years of life lost (YLL) + years lived with disability (YLD)
-- B) DALY = years of life lost (YLL) - years lived with disability (YLD)
-- C) DALY = years of life lost (YLL) × years lived with disability (YLD)
-- D) DALY = years of life lost (YLL) ÷ years lived with disability (YLD)
+-
+A) DALY = years of life lost (YLL) + years lived with disability (YL
+D) -
+B) DALY = years of life lost (YLL) - years lived with disability (YL
+D) -
+C) DALY = years of life lost (YLL) × years lived with disability (YL
+D) -
+D) DALY = years of life lost (YLL) ÷ years lived with disability (YL
+D)
+
 **Answer: A) DALY = years of life lost (YLL) + years lived with disability (YLD)**
 
 **5. What is the concept of heritability?**
-- A) Heritability is the proportion of variation ∈ a trait that can be attributed to genetic factors
-- B) Heritability is the proportion of variation ∈ a trait that can be attributed to environmental factors
-- C) Heritability is the proportion of variation ∈ a trait that can be attributed to genetic and environmental factors
-- D) Heritability is the proportion of variation ∈ a trait that cannot be attributed to genetic or environmental factors
+-
+A) Heritability is the proportion of variation ∈ a trait that can be attributed to genetic factors
+-
+B) Heritability is the proportion of variation ∈ a trait that can be attributed to environmental factors
+-
+C) Heritability is the proportion of variation ∈ a trait that can be attributed to genetic and environmental factors
+-
+D) Heritability is the proportion of variation ∈ a trait that cannot be attributed to genetic or environmental factors
+
 **Answer: A) Heritability is the proportion of variation ∈ a trait that can be attributed to genetic factors**
 
 ---
@@ -97,5 +123,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/human-health-and-disease-class-12-notes) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Human%20Health%20And%20Disease%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Human Reproduction Class 12 Exam Prep Revision — Grandmaster Guide](/blog/human-reproduction-class-12-notes)
+- 📖 [Microbes In Human Welfare Class 12 Exam Prep Revision — Grandmaster Guide](/blog/microbes-in-human-welfare-class-12-notes)
+- 📖 [Reproductive Health Class 12 Exam Prep Revision — Grandmaster Guide](/blog/reproductive-health-class-12-notes)
+- 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)

@@ -25,7 +25,7 @@ manualReview: false
 - Not understanding the difference between the First and Second Industrial Revolutions
 - Failing to recognize the impact of the Industrial Revolution on social classes and urbanization
 - Not knowing the key inventors and their contributions: James Watt, Richard Arkwright, Samuel Slater
-- Not being able to describe the effects of the Industrial Revolution on the environment and labor laws
+- Not being able to describe the effects of the Industrial Revolution on the environment and labor [laws](/blog/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet)
 - Not recognizing the role of colonialism and imperialism ∈ the Industrial Revolution
 
 ## ✏️ 3 Solved PYQs
@@ -66,38 +66,63 @@ manualReview: false
 
 ## 📝 Practice MCQs
 **1. What was the ma∈ factor that contributed to the growth of the Industrial Revolution ∈ Brita∈?**
-- A) Availability of coal and iron
-- B) Development of the steam engine
-- C) Growth of international trade
-- D) Emergence of new social classes
+-
+A) Availability of coal and iron
+-
+B) Development of the steam engine
+-
+C) Growth of international trade
+-
+D) Emergence of new social classes
+
 **Answer: A) Availability of coal and iron.**
 
 **2. Which of the following was a consequence of the Industrial Revolution?**
-- A) Decline of international trade
-- B) Emergence of new social classes
-- C) Decrease ∈ population growth
-- D) Improvement ∈ working conditions
+-
+A) Decline of international trade
+-
+B) Emergence of new social classes
+-
+C) Decrease ∈ population growth
+-
+D) Improvement ∈ working conditions
+
 **Answer: B) Emergence of new social classes.**
 
 **3. Who is credited with the development of the spinning jenny?**
-- A) James Watt
-- B) Richard Arkwright
-- C) Samuel Slater
-- D) James Hargreaves
+-
+A) James Watt
+-
+B) Richard Arkwright
+-
+C) Samuel Slater
+-
+D) James Hargreaves
+
 **Answer: D) James Hargreaves.**
 
 **4. What was the ma∈ impact of the Industrial Revolution on the environment?**
-- A) Reduction ∈ air and water pollution
-- B) Increase ∈ deforestation
-- C) Improvement ∈ working conditions
-- D) Growth of sustainable industries
+-
+A) Reduction ∈ air and water pollution
+-
+B) Increase ∈ deforestation
+-
+C) Improvement ∈ working conditions
+-
+D) Growth of sustainable industries
+
 **Answer: B) Increase ∈ deforestation.**
 
 **5. Which of the following was a characteristic of the industrial bourgeoisie during the Industrial Revolution?**
-- A) Ownership of the means of production
-- B) Lack of access to education
-- C) Limited social mobility
-- D) Dependence on manual labor
+-
+A) Ownership of the means of production
+-
+B) Lack of access to education
+-
+C) Limited social mobility
+-
+D) Dependence on manual labor
+
 **Answer: A) Ownership of the means of production.**
 
 ---
@@ -105,5 +130,19 @@ manualReview: false
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/world-history-industrial-revolution-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=World%20History%20Industrial%20Revolution%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Laws Of Motion Common Mistakes Class 11 Exam Prep Revision — Grandmaster Guide](/blog/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet)
+- 📖 [anatomy of flowering plants](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
+- 📖 [physics heat light](/blog/physics-heat-light-class-11-revision-notes-jee-neet)
+- 📖 [physics mechanics](/blog/physics-mechanics-class-11-revision-notes-jee-neet)

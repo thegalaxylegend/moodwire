@@ -30,7 +30,7 @@ The Indus Valley Civilization was situated in the **Indus Valley**, which is a f
 * **3300 BCE**: Emergence of the Indus Valley Civilization
 * **2600 BCE**: Mature phase of the civilization, with the development of cities like **Mohenjo-Daro** and **Harappa**
 * **1900 BCE**: Decline of the civilization, due to factors like **climate change**, **over-urbanization**, and **invasions**
-* **1300 BCE**: Final decline of the civilization, with the **Vedic period** marking the beginning of a new era in Indian history
+* **1300 BCE**: Final decline of the civilization, with the **[Vedic](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) period** marking the beginning of a new era in Indian history
 
 ## Characteristics of Indus Valley Civilization
 The Indus Valley Civilization was characterized by:
@@ -48,7 +48,7 @@ The economy of the Indus Valley Civilization was based on:
 * **Crafts and industries**: Development of **pottery**, **metallurgy**, and **textiles**
 
 ## Social Structure and Governance
-The social structure of the Indus Valley Civilization was characterized by:
+The social [structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet) of the Indus Valley Civilization was characterized by:
 * **Urban-rural divide**: A clear distinction between urban and rural populations
 * **Social hierarchy**: A hierarchical society with **rulers**, **priests**, **merchants**, and **artisans**
 * **Governance**: A system of governance with **local councils** and **regional authorities**
@@ -151,8 +151,7 @@ The economy of the Indus Valley Civilization was based on agriculture, animal hu
 * Many students incorrectly believe that the Indus Valley Civilization was a single, unified empire, when in reality it was a collection of urban centers with a shared cultural and economic system.
 * The decline of the Indus Valley Civilization is often attributed to a single factor, such as the Aryan invasion or drought, when in fact it was likely the result of a combination of factors, including climate change, economic decline, and external invasions.
 * A trap question that often confuses students is the difference between the terms 'Harappan' and 'Indus Valley Civilization', with 'Harappan' referring specifically to the culture and civilization of the Indus Valley, while 'Indus Valley Civilization' is a broader term that encompasses the entire civilization, including its urban centers and surrounding areas.
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Ancient%20India%20Indus%20Valley%20Class%2011%20History%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
-
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Ancient](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)%20India%20Indus%20Valley%20Class%2011%20History%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

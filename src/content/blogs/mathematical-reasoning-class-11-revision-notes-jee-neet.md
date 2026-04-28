@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/mathematical-reasoning-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: April 28, 2026*
 
 ## 📑 Table of Contents
 
@@ -178,7 +178,7 @@ Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 * Many students incorrectly assume that the negation of 'p and q' is 'not p and not q', whereas the correct negation is 'not p or not q' (De Morgan's Law).
 * When using a proof by contradiction, a common mistake is to not clearly state the assumption being made or to not properly derive a contradiction from that assumption.
 * In conditional statements, students often confuse 'if p, then q' with 'p only if q', which are not equivalent statements. 'p only if q' is actually equivalent to 'if p, then q' and 'if not q, then not p'.
-* A trap question in mathematical reasoning involves using quantifiers, such as 'for all' and 'there exists', and asking students to determine the validity or truth of a given statement. For example, 'for all x, if x is a real number, then x^2 ≥ 0' is a true statement, but 'there exists a real number x such that x^2 < 0' is false.
+* A trap question in [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) reasoning involves using quantifiers, such as 'for all' and 'there exists', and asking students to determine the validity or truth of a given statement. For example, 'for all x, if x is a real number, then x^2 ≥ 0' is a true statement, but 'there exists a real number x such that x^2 < 0' is false.
 
 ## 🔁 Last 5 Minutes Box
 
