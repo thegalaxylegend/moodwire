@@ -56,6 +56,29 @@ export async function callGroq(
                 body: JSON.stringify({ messages, tier: 'T4', options: { ...options, provider: 'groq' } })
             });
             if (!response.ok) throw new Error(`Cloudflare Proxy Error: ${response.statusText}`);
+            
+            if (stream) {
+                if (!response.body) throw new Error("No response body for stream");
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder("utf-8");
+                return (async function* () {
+                    let buffer = "";
+                    while (true) {
+                        const { done, value } = await reader.read();
+                        if (done) break;
+                        buffer += decoder.decode(value, { stream: true });
+                        const lines = buffer.split("\n");
+                        buffer = lines.pop() || "";
+                        for (const line of lines) {
+                            if (line.trim().startsWith("data: ") && !line.includes("[DONE]")) {
+                                try {
+                                    yield JSON.parse(line.trim().slice(6));
+                                } catch (e) {}
+                            }
+                        }
+                    }
+                })();
+            }
             return await response.json();
         }
 

@@ -27,11 +27,14 @@ export async function onRequestPost({ request, env }: { request: Request, env: a
     const getRotatedKey = (keys: string[]) => keys[Math.floor(Math.random() * keys.length)];
 
     // 3. Forward to appropriate provider based on tier
-    // For simplicity in the Edge Worker, we'll use direct fetch calls
-    const provider = messages.some((m: any) => m.role === 'image') ? 'gemini' : (tier === 'T1' ? 'groq' : 'groq');
+    // Use options.provider if specified, else detect by tier/images
+    const defaultProvider = messages.some((m: any) => m.role === 'image') ? 'gemini' : (tier === 'T1' ? 'groq' : 'groq');
+    const provider = options?.provider || defaultProvider;
     
     if (provider === 'groq') {
       const key = getRotatedKey(groqKeys);
+      if (!key) throw new Error("No Groq API keys configured");
+      
       const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
         method: 'POST',
         headers: {
@@ -43,16 +46,23 @@ export async function onRequestPost({ request, env }: { request: Request, env: a
           messages,
           temperature: options?.temperature || 0.7,
           max_tokens: options?.max_tokens || 2048,
-          stream: false // Cloudflare Workers support streaming but easier to start with non-stream
+          stream: options?.stream || false
         })
       });
       return new Response(response.body, response);
     } else {
       const key = getRotatedKey(geminiKeys);
-      const systemMsg = messages.find((m: any) => m.role === 'system')?.content || '';
-      const userMsg = messages.find((m: any) => m.role === 'user')?.content || '';
+      if (!key) throw new Error("No Gemini API keys configured");
       
-      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${options?.model || 'gemini-2.5-flash'}:generateContent?key=${key}`, {
+      const systemMsg = messages.find((m: any) => m.role === 'system')?.content || '';
+      const userMsg = messages.find((m: any) => m.role === 'user')?.content || messages[messages.length - 1]?.content || '';
+      
+      const isStream = options?.stream;
+      const endpoint = isStream 
+        ? `https://generativelanguage.googleapis.com/v1beta/models/${options?.model || 'gemini-2.5-flash'}:streamGenerateContent?alt=sse&key=${key}`
+        : `https://generativelanguage.googleapis.com/v1beta/models/${options?.model || 'gemini-2.5-flash'}:generateContent?key=${key}`;
+
+      const response = await fetch(endpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
