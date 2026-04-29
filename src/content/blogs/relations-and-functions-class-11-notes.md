@@ -25,7 +25,7 @@ practice_link: "/class-11/chemistry/relations-n-functions-class-11-notes"
 ---
 
 ## Introduction to Relations and Functions
-Relations and functions are fundamental concepts in mathematics that form the backbone of various mathematical disciplines, including algebra, calculus, and geometry. In this , we will the world of relations and functions, exploring their definitions, types, and applications, to help you prepare for your CBSE Class 11 examination.
+[Relations](/blog/relations-functions-class-11-revision-notes-jee-neet) and functions are fundamental concepts in mathematics that form the backbone of various mathematical disciplines, including algebra, calculus, and geometry. In this , we will the world of [relations](/blog/relations-functions-class-11-revision-notes-jee-neet) and functions, exploring their definitions, types, and applications, to help you prepare for your CBSE Class 11 examination.
 
 ## What is a Relation in Mathematics?
 A relation in mathematics is a way of describing a connection between two or more variables. It can be defined as a subset of the Cartesian product of two sets, $A$ and $B$, denoted as $A \times B$. A relation $R$ from $A$ to $B$ is a subset of $A \times B$, which can be represented as $R = {(a, b) in A \times B}$. For instance, if $A = {1, 2, 3}$ and $B = {4, 5, 6}$, then the relation $R = {(1, 4), (2, 5), (3, 6)}$ is a subset of $A \times B$.

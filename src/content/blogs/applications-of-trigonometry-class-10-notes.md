@@ -59,7 +59,7 @@ manualReview: false
 - Revise the trigonometric ratios and identities
 - Practice solving problems ∈ right-angled triangles
 - Make sure to check the units of the answer
-- Simplify the expressions before solving
+- Simplify the [expressions](/blog/algebraic-expressions-class-8-notes) before solving
 - Use the correct quadrant for trigonometric ratios
 
 ## 📝 Practice MCQs
@@ -126,7 +126,7 @@ D) 1/5
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/applications-of-trigonometry-class-10-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/applications-of-[trigonometry](/blog/introduction-to-trigonometry-class-10-notes)-class-10-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 
@@ -141,7 +141,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

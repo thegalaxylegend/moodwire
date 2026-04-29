@@ -10,7 +10,7 @@ manualReview: false
 
 ## ⚡ Formula Bank
 - Rational [numbers](/blog/real-numbers-class-10-notes) are of the form p/q where p, q are integers and q ≠ 0
-- Equivalent rational numbers are obtained by multiplying or dividing both numerator and denominator by the same non-zero integer
+- Equivalent rational [numbers](/blog/real-numbers-class-10-notes) are obtained by multiplying or dividing both numerator and denominator by the same non-zero integer
 - Standard form of a rational number is p/q where p, q have no common factors and q ≠ 0
 - Rational numbers can be represented on a number line
 - Additive inverse of a rational number p/q is -p/q
@@ -145,12 +145,11 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
-
 ---
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
 
 - 📖 [Real Numbers Class 10 Exam Prep Revision — Grandmaster Guide](/blog/real-numbers-class-10-notes)
 - 📖 [Data Handling 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/data-handling-class-8-notes)

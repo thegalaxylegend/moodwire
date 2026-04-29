@@ -38,7 +38,7 @@ manualReview: false
 ## 🧠 The One Thing Most Students Get Wrong
 - Most students think that all microbes are harmful, but ∈ reality, many microbes are beneficial and play a crucial role ∈ [human](/blog/human-reproduction-class-12-notes) welfare
 - Microbes are used ∈ various applications such as food production, vaccine production, and pollution control
-- Understanding the benefits of microbes is essential to appreciate their importance ∈ human welfare
+- Understanding the benefits of microbes is essential to appreciate their importance ∈ [human](/blog/human-reproduction-class-12-notes) welfare
 
 ## 👁️ Ayush's Note
 - To excel ∈ the exam, focus on the applications of microbes ∈ human welfare
@@ -124,7 +124,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

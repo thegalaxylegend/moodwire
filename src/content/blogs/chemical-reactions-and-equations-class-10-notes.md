@@ -114,6 +114,15 @@ D) The total mass of reactants is greater than the total mass of products
 
 **Answer: A) Matter cannot be created or destroyed ∈ a chemical reaction**
 
+## ⚗️ Chemical Quick Reference (Verified via PubChem)
+
+| Compound | Formula | Mol. Weight | Source |
+|:---|:---:|:---:|:---:|
+| **water** | H2O | 18.015 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/962) |
+| **hydrochloric acid** | ClH | 36.46 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/313) |
+| **sodium hydroxide** | HNaO | 39.997 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/14798) |
+| **calcium carbonate** | CCaO3 | 100.09 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/10112) |
+
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -131,7 +140,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

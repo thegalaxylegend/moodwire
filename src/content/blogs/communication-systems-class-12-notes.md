@@ -26,7 +26,7 @@ manualReview: false
 - Not understanding the concept of signal modulation and demodulation
 - Confusing amplitude modulation (AM) and frequency modulation (FM)
 - Not knowing the difference between analog and digital communication [systems](/blog/number-systems-class-9-notes)
-- Forgetting the formula for signal-to-noise ratio (SNR) and its importance ∈ communication systems
+- Forgetting the formula for signal-to-noise ratio (SNR) and its importance ∈ communication [systems](/blog/number-systems-class-9-notes)
 - Not being able to apply the concept of bandwidth and its relation to data transfer rate
 
 ## ✏️ 3 Solved PYQs
@@ -139,7 +139,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

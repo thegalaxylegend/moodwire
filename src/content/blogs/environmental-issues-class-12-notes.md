@@ -35,7 +35,7 @@ manualReview: false
   Answer: AQI = (I × (50/35)) + (I₀ × (1 - (50/35))) = 100
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students think that environmental conservation is only about saving endangered species, but it's actually about preserving the entire ecosystem, including plants, animals, and microorganisms
+- Most students think that environmental [conservation](/blog/biodiversity-and-conservation-class-12-notes) is only about saving endangered species, but it's actually about preserving the entire ecosystem, including plants, animals, and microorganisms
 
 ## 👁️ Ayush's Note
 - Always remember the 3Rs: reduce, reuse, recycle, and the 4Cs: conserve, conserve, conserve, conserve
@@ -122,7 +122,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

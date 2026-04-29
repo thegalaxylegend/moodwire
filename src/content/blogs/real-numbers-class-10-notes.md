@@ -18,7 +18,7 @@ manualReview: false
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not understanding the concept of HCF and LCM and how to calculate them
-- Not being able to apply Euclid's Division Lemma to find the HCF of two numbers
+- Not being able to apply Euclid's Division Lemma to find the HCF of two [numbers](/blog/rational-numbers-class-8-notes)
 - Not being able to factorize numbers into their prime factors
 - Not being able to identify the prime factors of a number
 - Not being able to simplify expressions involving HCF and LCM
@@ -138,12 +138,11 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
-
 ---
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
 
 - 📖 [Rational Numbers 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/rational-numbers-class-8-notes)
 - 📖 [Areas Related To Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/areas-related-to-circles-class-10-notes)

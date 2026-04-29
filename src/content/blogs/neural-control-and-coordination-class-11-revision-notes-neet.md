@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/neural-control-n-coordination-class-11-revision-notes-neet"
 ---
 
-*Last Updated: April 28, 2026*
+*Last Updated: April 29, 2026*
 
 ## 📑 Table of Contents
 
@@ -172,7 +172,7 @@ Continue your [revision](/blog/locomotion-and-movement-class-11-revision-notes-n
 ### Neural Control and Coordination Revision
    * **Central Nervous System (CNS)**: Brain and spinal cord
    * **Peripheral Nervous System (PNS)**: Connects CNS to the limbs and organs
-   * **Neuron Structure**:
+   * **Neuron [Structure](/blog/structure-of-the-atom-class-11-revision-notes-neet)**:
      + Dendrite: Receive signals
      + Cell [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet): Contains nucleus
      + Axon: Transmits signals

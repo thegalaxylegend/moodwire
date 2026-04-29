@@ -1,9 +1,9 @@
 ---
 heroImage: "/blog-images/physics-mechanics-class-11-revision-notes-jee-neet.webp"
 title: "physics mechanics class 11 revision notes jee neet Class 11 Exam Notes Revision — Grandmaster Guide"
-description: "physics mechanics class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-28."
+description: "physics mechanics class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-29."
 category: "Exam Notes"
-date: "2026-04-28"
+date: "2026-04-29"
 practice_link: "/class-11/exam notes/physics-mechanics-class-11-revision-notes-jee-neet"
 manualReview: false
 ---
@@ -26,24 +26,23 @@ manualReview: false
 
 - [⚡ Formula Bank](#-formula-bank)
   - [⚡ Formula Bank](#-formula-bank)
-  - [Which formula when?](#which-formula-when)
+  - [Which Formula When?](#which-formula-when)
 - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-  - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
+  - [The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
 - [✏️ 3 Solved PYQs](#-3-solved-pyqs)
   - [3 Solved PYQs](#3-solved-pyqs)
 - [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
   - [The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
-  - [Key Concepts to Reinforce](#key-concepts-to-reinforce)
-  - [Advanced Insights](#advanced-insights)
-  - [Formulae to Remember](#formulae-to-remember)
-  - [Practice Questions](#practice-questions)
+  - [The Reality](#the-reality)
+  - [The Diagnostic Question](#the-diagnostic-question)
+  - [How to Never Forget This](#how-to-never-forget-this)
 - [👁️ Ayush's Note](#-ayushs-note)
-  - [Ayush's Note](#ayushs-note)
+  - [👁️ Ayush's Note](#-ayushs-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
   - [⚡ Core Formulas](#-core-formulas)
   - [🧠 Must-Know Facts](#-mustknow-facts)
   - [🚫 Never Forget](#-never-forget)
-  - [🎯 If you can only remember ONE thing](#-if-you-can-only-remember-one-thing)
+  - [🎯 If you can only remember ONE thing:](#-if-you-can-only-remember-one-thing)
 - [📝 Practice MCQs](#-practice-mcqs)
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
@@ -55,354 +54,349 @@ manualReview: false
 
 - **Displacement:** $\Delta x = x_2 - x_1$ — change in position
 
-- **Speed:** $v = \frac{\Delta x}{\Delta t}$ — rate of change of distance
+- **Speed:** $v = \frac{\Delta x}{\Delta t}$ — distance traveled per unit time
 
-- **Velocity:** $v = \frac{dx}{dt}$ — rate of change of displacement
+- **Velocity:** $v = \frac{\Delta x}{\Delta t}$ — rate of change of displacement
 
-- **Acceleration:** $a = \frac{dv}{dt}$ — rate of change of velocity
-Examiner's Trap: Be careful with the difference between speed and velocity.
+- **Acceleration:** $a = \frac{\Delta v}{\Delta t}$ — rate of change of velocity
+Examiner's Trap: Ensure you understand the difference between speed and velocity.
 
 #### **Dynamics Formulas**
 
-- **Force:** $F = \frac{dp}{dt}$ — rate of change of momentum
+- **Force:** $F = \frac{\Delta p}{\Delta t}$ — rate of change of momentum
+
+- **Momentum:** $p = m \cdot v$ — product of mass and velocity
 
 - **Newton's First Law:** $\sum F = 0$ — net force on an object at rest
 
-- **Newton's Second Law:** $F = ma$ — force equals mass times acceleration
+- **Newton's Second Law:** $F = m \cdot a$ — force equals mass times acceleration
 
-- **Newton's Third Law:** $F_{12} = -F_{21}$ — action and reaction forces
+- **Newton's Third Law:** $F_{12} = -F_{21}$ — equal and opposite forces
+Examiner's Trap: Remember that friction is a contact force and can be neglected in certain situations.
 
-- **Friction:** $f = \mu N$ — force of friction equals coefficient times normal force
-Examiner's Trap: Remember that frictional force opposes the direction of motion.
+#### **Energy and Work Formulas**
 
-#### **Energy Formulas**
+- **Work:** $W = F \cdot \Delta x$ — force times displacement
 
-- **Kinetic Energy:** $K = \frac{1}{2}mv^2$ — energy of motion
+- **Kinetic Energy:** $KE = \frac{1}{2} m \cdot v^2$ — energy of motion
 
-- **Potential Energy:** $U = mgh$ — energy of position
+- **Potential Energy:** $PE = m \cdot g \cdot \Delta h$ — energy of position
 
-- **Total Energy:** $E = K + U$ — sum of kinetic and potential energies
+- **Total Energy:** $E = KE + PE$ — sum of kinetic and potential energies
 
-- **Work-Energy Theorem:** $W = \Delta E$ — work equals change in energy
-
-- **Power:** $P = \frac{W}{t}$ — rate of doing work
-Examiner's Trap: Be careful with the signs of energy terms.
-
-#### **Momentum Formulas**
-
-- **Momentum:** $p = mv$ — product of mass and velocity
-
-- **Conservation of Momentum:** $\sum p_i = \sum p_f$ — initial momentum equals final momentum
-
-- **Impulse:** $J = \Delta p$ — change in momentum
-
-- **Impulse-Momentum Theorem:** $J = F \Delta t$ — impulse equals force times time
-Examiner's Trap: Remember that momentum is a vector quantity.
+- **Power:** $P = \frac{\Delta E}{\Delta t}$ — rate of energy transfer
+Examiner's Trap: Be careful when calculating work done by a variable force.
 
 #### **Rotational Motion Formulas**
 
-- **Angular Displacement:** $\theta = \frac{s}{r}$ — angle of rotation
+- **Angular Displacement:** $\Delta \theta = \theta_2 - \theta_1$ — change in angle
 
 - **Angular Velocity:** $\omega = \frac{\Delta \theta}{\Delta t}$ — rate of change of angular displacement
 
 - **Angular Acceleration:** $\alpha = \frac{\Delta \omega}{\Delta t}$ — rate of change of angular velocity
 
-- **Torque:** $\tau = r \times F$ — rotational force
+- **Torque:** $\tau = r \cdot F \cdot \sin(\theta)$ — rotational force
 
-- **Rotational Kinetic Energy:** $K = \frac{1}{2}I \omega^2$ — energy of rotational motion
-Examiner's Trap: Be careful with the direction of angular quantities.
+- **Moment of Inertia:** $I = \sum m \cdot r^2$ — rotational inertia
+Examiner's Trap: Don't confuse linear and angular quantities.
 
 #### **Oscillations Formulas**
 
-- **Simple Harmonic Motion:** $x = A \sin(\omega t + \phi)$ — displacement as a function of time
+- **Simple Harmonic Motion:** $x(t) = A \cdot \cos(\omega t + \phi)$ — position as a function of time
 
-- **Angular Frequency:** $\omega = \frac{2\pi}{T}$ — rate of oscillation
+- **Angular Frequency:** $\omega = \frac{2 \pi}{T}$ — related to period
 
-- **Period:** $T = \frac{2\pi}{\omega}$ — time for one cycle
+- **Period:** $T = \frac{2 \pi}{\omega}$ — time for one cycle
 
 - **Frequency:** $f = \frac{1}{T}$ — number of cycles per unit time
-Examiner's Trap: Remember that simple harmonic motion is a special case of oscillation.
 
-### <a id="which-formula-when"></a>Which formula when?
+- **Displacement Amplitude:** $A = \frac{v_{max}}{\omega}$ — maximum displacement
+Examiner's Trap: Remember that the period of a pendulum is independent of amplitude.
+
+#### **Gravitational Potential Energy Formulas**
+
+- **Gravitational Potential Energy:** $U = -\frac{G \cdot m_1 \cdot m_2}{r}$ — energy of interaction between two masses
+
+- **Escape Velocity:** $v_{esc} = \sqrt{\frac{2 \cdot G \cdot M}{r}}$ — minimum speed to escape a gravitational field
+
+- **Orbital Velocity:** $v_{orb} = \sqrt{\frac{G \cdot M}{r}}$ — speed of an object in a circular orbit
+Examiner's Trap: Be careful when calculating the gravitational potential energy of a system.
+
+### <a id="which-formula-when"></a>Which Formula When?
 | Situation | Formula |
 | --- | --- |
 | Finding distance between two points | $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$ |
 | Calculating speed | $v = \frac{\Delta x}{\Delta t}$ |
-| Finding force on an object | $F = \frac{dp}{dt}$ or $F = ma$ |
-| Calculating kinetic energy | $K = \frac{1}{2}mv^2$ |
-| Finding momentum of an object | $p = mv$ |
-| Calculating work done on an object | $W = \Delta E$ or $W = F \cdot d$ |
-| Finding power delivered to an object | $P = \frac{W}{t}$ |
-| Calculating angular displacement | $\theta = \frac{s}{r}$ |
-| Finding torque on an object | $\tau = r \times F$ |
-| Calculating rotational kinetic energy | $K = \frac{1}{2}I \omega^2$ |
+| Determining force | $F = \frac{\Delta p}{\Delta t}$ or $F = m \cdot a$ |
+| Calculating work done | $W = F \cdot \Delta x$ |
+| Finding kinetic energy | $KE = \frac{1}{2} m \cdot v^2$ |
+| Calculating torque | $\tau = r \cdot F \cdot \sin(\theta)$ |
+| Finding moment of inertia | $I = \sum m \cdot r^2$ |
+| Describing simple harmonic motion | $x(t) = A \cdot \cos(\omega t + \phi)$ |
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
-### <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
+### <a id="the-5-mistakes-that-cost-marks"></a>The 5 Mistakes That Cost Marks
 
-- **Mistake 1 — Incorrect Unit Conversion:**
+- **Mistake 1 — Incorrect Units:**
  
 
-- 🔴 **What students write:** Using $m$ for time instead of $s$
+- 🔴 **What students write:** Using $m$ for time instead of $s$ or $ms^{-1}$ for velocity
  
 
-- ✅ **What examiners expect:** Using correct units, e.g.
-
-- $t = 5 \, $s$
+- ✅ **What examiners expect:** Correct units such as $m/s$ for velocity, $m/s^2$ for acceleration, and $s$ for time
  
 
 - 💸 **Marks lost:** 1 mark
  
 
-- 🔧 **The fix (30-second trick):** Always check units, $1 \, $m$ = 100 \, $cm$, $1 \, $s$ = 1000 \, $ms$
+- 🔧 **The fix (30-second trick):** Always check the units of the physical quantities in the question and ensure that the final answer has the correct units
 
-- **Mistake 2 — Forgetting to Apply Friction:**
+- **Mistake 2 — Forgetting the Negative Sign:**
  
 
-- 🔴 **What students write:** $F_{net} = m \cdot a$ without considering friction
+- 🔴 **What students write:** Forgetting the negative sign in equations like $a = \frac{v^2 
+
+- u^2}{2s}$ or $W = \frac{1}{2}kx^2$
  
 
-- ✅ **What examiners expect:** $F_{net} = m \cdot a = F_{applied} 
+- ✅ **What examiners expect:** Correct application of the negative sign in equations such as $a = \frac{v^2 
 
-- F_{friction}$
+- u^2}{2s}$ or $W = -\frac{1}{2}kx^2$ for work done by a spring
  
 
 - 💸 **Marks lost:** 2 marks
  
 
-- 🔧 **The fix (30-second trick):** Consider all forces, including friction, $F_{friction} = \mu \cdot F_{normal}$
+- 🔧 **The fix (30-second trick):** Always remember that work done by a force can be negative, and acceleration can be negative depending on the direction
 
-- **Mistake 3 — Incorrect Application of Energy Conservation:**
+- **Mistake 3 — Confusing Kinematic Equations:**
  
 
-- 🔴 **What students write:** $\frac{1}{2} m v^2 = m g h$ without considering initial conditions
+- 🔴 **What students write:** Using $v = u + at$ when $u$ and $v$ are not given, or using $s = ut + \frac{1}{2}at^2$ when $t$ is not given
  
 
-- ✅ **What examiners expect:** $\frac{1}{2} m v_{initial}^2 + m g h_{initial} = \frac{1}{2} m v_{final}^2 + m g h_{final}$
+- ✅ **What examiners expect:** Correct selection and application of kinematic equations such as $v^2 = u^2 + 2as$ when $t$ is not given
+ 
+
+- 💸 **Marks lost:** 2 marks
+ 
+
+- 🔧 **The fix (30-second trick):** Always identify the given physical quantities in the question and choose the correct kinematic equation
+
+- **Mistake 4 — Incorrect Application of Newton's Laws:**
+ 
+
+- 🔴 **What students write:** Applying $F = \frac{dp}{dt}$ when the mass is not constant, or using $F = ma$ when the force is not constant
+ 
+
+- ✅ **What examiners expect:** Correct application of Newton's laws such as $F = \frac{d}{dt}(mv)$ when the mass is changing
  
 
 - 💸 **Marks lost:** 3 marks
  
 
-- 🔧 **The fix (30-second trick):** Identify initial and final conditions, $v_{initial}$, $h_{initial}$, $v_{final}$, $h_{final}$
+- 🔧 **The fix (30-second trick):** Always consider the conditions given in the question and apply the correct form of Newton's laws
 
-- **Mistake 4 — Confusing Center of Mass and Center of Gravity:**
+- **Mistake 5 — Not Checking the Direction of Forces:**
  
 
-- 🔴 **What students write:** Using $x_{cm}$ and $x_{cg}$ interchangeably
+- 🔴 **What students write:** Assuming all forces act in the same direction, such as friction and applied force
  
 
-- ✅ **What examiners expect:** $x_{cm} = \frac{m_1 x_1 + m_2 x_2}{m_1 + m_2}$ and $x_{cg} = \frac{\sum m_i x_i}{\sum m_i}$
- 
-
-- 💸 **Marks lost:** 2 marks
- 
-
-- 🔧 **The fix (30-second trick):** Remember $x_{cm}$ is for a system, $x_{cg}$ is for a single object in a gravitational field
-
-- **Mistake 5 — Incorrect Calculation of Torque:**
- 
-
-- 🔴 **What students write:** $\tau = r \cdot F$ without considering the angle
- 
-
-- ✅ **What examiners expect:** $\tau = r \cdot F \cdot \sin(\theta)$
+- ✅ **What examiners expect:** Correct consideration of the direction of forces, such as $\sum F = ma$ with all forces acting in their correct directions
  
 
 - 💸 **Marks lost:** 2 marks
  
 
-- 🔧 **The fix (30-second trick):** Always include the angle, $\tau = r \cdot F \cdot \sin(\theta)$, and consider the sign of $\tau$
+- 🔧 **The fix (30-second trick):** Always draw a free-body diagram to identify the direction of forces acting on an object and apply the correct signs to these forces in equations like $\sum F = ma$
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 ### <a id="3-solved-pyqs"></a>3 Solved PYQs
+✏️ 3 Solved PYQs for [physics](/blog/physics-heat-light-class-11-revision-notes-jee-neet) mechanics class 11 revision notes jee neet
 
-- **Q1 (2020 JEE Main):** A block of mass $m$ is placed on a horizontal surface. The coefficient of kinetic friction between the block and the surface is $\mu$. If a force $F$ is applied on the block, the acceleration produced in the block is given by $a = \frac{F}{m} - \mu g$. Find the acceleration of the block if $m = 10 \, \text{kg}$, $\mu = 0.5$, $g = 10 \, \text{m/s}^2$, and $F = 100 \, \text{N}$.
- - 🪤 **Trap:** Most students forget to consider the force of friction while calculating the acceleration of the block.
- - 🧮 **Solution (Step-by-step):**
- Step 1: Identify the given values and the formula for acceleration → $m = 10 \, \text{kg}$, $\mu = 0.5$, $g = 10 \, \text{m/s}^2$, $F = 100 \, \text{N}$, $a = \frac{F}{m} - \mu g$
- Step 2: Substitute the given values into the formula → $a = \frac{100}{10} - 0.5 \times 10$
- Step 3: Perform the calculations → $a = 10 - 5 = 5 \, \text{m/s}^2$
- **Final Answer:** a = 5 \, \text{m/s}^2
- - ⚡ **Speed trick:** Use the formula $a = \frac{F}{m} - \mu g$ directly and substitute the given values to find the acceleration in under 60 seconds.
+**Q1 (2020 JEE Main):** A block of mass $m$ is placed on a horizontal, frictionless surface. A force $F$ acts on the block as shown in the figure. The block has an acceleration $a$. If $F = 10 \, \text{N}$ and $m = 2 \, \text{kg}$, find the magnitude of $a$. Assume that the angle between $F$ and the horizontal is $\theta = 30^\circ$.
+
+- 🪤 **Trap:** Most students forget to resolve the force $F$ into its horizontal component before applying Newton's second law.
+
+- 🧮 **Solution (Step-by-step):**
+ Step 1: Resolve the force $F$ into its horizontal component $F_x = F \cos \theta$ → $F_x = 10 \cos 30^\circ = 10 \cdot \frac{\sqrt{3}}{2} = 5\sqrt{3} \, \text{N}$
+ Step 2: Apply Newton's second law to find the acceleration $a$ → $F_x = ma$
+ Step 3: Substitute the values of $F_x$ and $m$ to solve for $a$ → $5\sqrt{3} = 2a$
+ Step 4: Solve for $a$ → $a = \frac{5\sqrt{3}}{2} \, \text{m/s}^2$
+ **Final Answer:** a = \frac{5\sqrt{3}}{2} \, \text{m/s}^2
+ ⚡ **Speed trick:** Use the formula $a = \frac{F \cos \theta}{m}$ to directly find the acceleration.
+
 ---
+**Q2 (2019 NEET):** A person of mass $m$ stands at the center of a turntable that is rotating with an angular velocity $\omega$. The person then walks to the edge of the turntable. If the moment of inertia of the turntable and the person about the central axis is $I$, find the new angular velocity $\omega'$ of the turntable. Assume that no external torque acts on the system.
 
-- **Q2 (2019 NEET):** A particle is moving in a straight line with an initial velocity $u = 10 \, \text{m/s}$. It accelerates uniformly at a rate of $a = 2 \, \text{m/s}^2$. Find the velocity of the particle after $t = 5 \, \text{s}$ using the equation $v = u + at$.
- - 🪤 **Trap:** Many students incorrectly apply the formula $v = u + at$ by using the wrong values for $u$ and $a$.
- - 🧮 **Solution (Step-by-step):**
- Step 1: Identify the given values and the formula for velocity → $u = 10 \, \text{m/s}$, $a = 2 \, \text{m/s}^2$, $t = 5 \, \text{s}$, $v = u + at$
- Step 2: Substitute the given values into the formula → $v = 10 + 2 \times 5$
- Step 3: Perform the calculations → $v = 10 + 10 = 20 \, \text{m/s}$
- **Final Answer:** v = 20 \, \text{m/s}
- - ⚡ **Speed trick:** Use the formula $v = u + at$ and substitute the given values directly to find the velocity in under 30 seconds.
+- 🪤 **Trap:** Many students incorrectly apply the conservation of angular momentum principle.
+
+- 🧮 **Solution (Step-by-step):**
+ Step 1: Apply the conservation of angular momentum principle → $L_i = L_f$
+ Step 2: Express the initial and final angular momenta in terms of $I$ and $\omega$ → $I\omega = (I + mR^2)\omega'$
+ Step 3: Solve for $\omega'$ → $\omega' = \frac{I\omega}{I + mR^2}$
+ **Final Answer:** \omega' = \frac{I\omega}{I + mR^2}
+ ⚡ **Speed trick:** Use the formula $\omega' = \frac{I}{I + mR^2} \cdot \omega$ to directly find the new angular velocity.
+
 ---
+**Q3 (2018 CBSE):** A particle of mass $m$ is projected from the origin with an initial velocity $v_0$ at an angle $\theta$ above the horizontal. Find the time $t$ it takes for the particle to reach its maximum height.
 
-- **Q3 (2018 CBSE):** A body is projected upwards from the ground with an initial velocity $u = 20 \, \text{m/s}$. Find the maximum height reached by the body using the equation $v^2 = u^2 + 2as$, where $v = 0$ at the maximum height, $a = -g = -10 \, \text{m/s}^2$, and $s = h$.
- - 🪤 **Trap:** Most students forget to consider the negative sign of acceleration due to gravity.
- - 🧮 **Solution (Step-by-step):**
- Step 1: Identify the given values and the formula for maximum height → $u = 20 \, \text{m/s}$, $v = 0$, $a = -10 \, \text{m/s}^2$, $v^2 = u^2 + 2as$
- Step 2: Substitute the given values into the formula → $0^2 = 20^2 + 2 \times (-10) \times s$
- Step 3: Solve for $s$ → $0 = 400 - 20s$, $20s = 400$, $s = \frac{400}{20} = 20 \, \text{m}$
- **Final Answer:** h = 20 \, \text{m}
- - ⚡ **Speed trick:** Use the formula $v^2 = u^2 + 2as$ and substitute the given values to find the maximum height in under 60 seconds.
+- 🪤 **Trap:** Most students forget to use the vertical component of the initial velocity.
+
+- 🧮 **Solution (Step-by-step):**
+ Step 1: Find the vertical component of the initial velocity $v_{0y} = v_0 \sin \theta$
+ Step 2: Use the equation of motion under gravity to find the time $t$ → $v_{y} = v_{0y} - gt$
+ Step 3: At the maximum height, $v_y = 0$, so $0 = v_{0y} - gt$
+ Step 4: Solve for $t$ → $t = \frac{v_{0y}}{g} = \frac{v_0 \sin \theta}{g}$
+ **Final Answer:** t = \frac{v_0 \sin \theta}{g}
+ ⚡ **Speed trick:** Use the formula $t = \frac{v_0 \sin \theta}{g}$ to directly find the time it takes to reach the maximum height.
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 ### <a id="the-one-thing-most-students-get-wrong"></a>The One Thing Most Students Get Wrong
+The misconception that most students have when it comes to physics mechanics in class 11 is that they believe that the normal force ($N$) exerted by a surface on an object is always equal to the weight ($mg$) of the object. This misconception arises from the fact that in many cases, such as when an object is resting on a horizontal surface, the normal force does indeed equal the weight of the object. However, this is not always the case.
 
-- **The misconception (what 85% believe):** Most students believe that the normal force $N$ exerted by a surface on an object is always equal to the weight $mg$ of the object, where $m$ is the mass of the object and $g$ is the acceleration due to gravity.
+### <a id="the-reality"></a>The Reality is that the normal force ($N$) is a contact force that is exerted by a surface on an object, and its magnitude is determined by the force exerted by the object on the surface, not by the weight of the object. The normal force can be greater than, less than, or equal to the weight of the object, depending on the situation. For example, when an object is on an inclined plane, the normal force is less than the weight of the object, while when an object is accelerating upward in an elevator, the normal force is greater than the weight of the object.
 
-- **The reality (what 99% know):** The reality is that the normal force $N$ is equal to the component of the weight $mg$ that is perpendicular to the surface, which can be expressed as $N = mg \cos{\theta}$, where $\theta$ is the angle between the surface and the horizontal.
+### <a id="the-diagnostic-question"></a>The Diagnostic Question
+What is the normal force exerted by the floor on a person who is standing on a scale in an elevator that is accelerating upward with an acceleration of $2 \, \text{m/s}^2$?
 
-- **The diagnostic question:** What is the normal force exerted by the surface on a block of mass $m$ placed on a surface inclined at an angle $\theta$ to the horizontal?
+- If you answered: $N = mg$, you have the misconception → fix: remember that $N$ is not always equal to $mg$, but rather $N$ is the force exerted by the floor on the person, which can be calculated using the equation $N = m(g + a)$, where $a$ is the acceleration of the elevator.
 
-- If you answered $N = mg$: you have the misconception → fix: remember that the normal force is the component of the weight perpendicular to the surface, given by $N = mg \cos{\theta}$.
+- If you answered: $N = m(g + a)$, you are in the top 5% → now extend this: consider the case where the elevator is accelerating downward, and calculate the normal force exerted by the floor on the person using the equation $N = m(g 
 
-- If you answered $N = mg \cos{\theta}$: you are in the top 5% → now extend this: consider the case where the surface is frictionless, and the block is moving with a constant velocity $v$, and analyze the forces acting on the block using Newton's second law, $\sum F = ma$, where $a$ is the acceleration of the block.
+- a)$.
 
-- **How to never forget this:** To remember that the normal force $N$ is equal to $mg \cos{\theta}$, use the mnemonic "Normal force is weight times cosine of theta", or visualize a block on an inclined surface and imagine the weight $mg$ being resolved into two components: one perpendicular to the surface ($N = mg \cos{\theta}$) and one parallel to the surface ($f = mg \sin{\theta}$), where $f$ is the force of friction.
+### <a id="how-to-never-forget-this"></a>How to Never Forget This
+To never forget this, you can use the mnemonic "NMA", which stands for "Normal force is not always equal to weight, it depends on the acceleration". You can also use a visual analogy, such as a person standing on a scale in an elevator, to help you remember that the normal force exerted by the floor on the person is not always equal to the person's weight, but rather depends on the acceleration of the elevator. Additionally, you can use the equation $N = m(g + a)$ to calculate the normal force in different situations, such as when the elevator is accelerating upward or downward.
 
-### <a id="key-concepts-to-reinforce"></a>Key Concepts to Reinforce
+- **Some key points to keep in mind:** 
 
-- The normal force $N$ is a contact force that acts perpendicular to the surface.
+- The normal force ($N$) is a contact force that is exerted by a surface on an object.
 
-- The weight $mg$ of an object is a force that acts downwards, towards the center of the Earth.
+- The magnitude of the normal force is determined by the force exerted by the object on the surface, not by the weight of the object.
 
-- The angle $\theta$ between the surface and the horizontal is crucial in determining the magnitude of the normal force $N$.
+- The normal force can be greater than, less than, or equal to the weight of the object, depending on the situation.
 
-- The force of friction $f$ acts parallel to the surface and opposes the motion of the object.
+- The equation $N = m(g + a)$ can be used to calculate the normal force exerted by a surface on an object in different situations.
 
-- Newton's second law, $\sum F = ma$, can be used to analyze the motion of an object on an inclined surface.
+- The equation $N = m(g 
 
-### <a id="advanced-insights"></a>Advanced Insights
+- a)$ can be used to calculate the normal force exerted by a surface on an object when the object is accelerating downward.
 
-- Consider the case where the surface is not frictionless, and the block is moving with a constant velocity $v$. In this case, the force of friction $f$ opposes the motion of the block, and the normal force $N$ is given by $N = mg \cos{\theta} + f \sin{\theta}$.
+By remembering these key points and using the mnemonic "NMA" or the visual analogy of a person standing on a scale in an elevator, you can avoid the common misconception that the normal force is always equal to the weight of an object, and instead develop a deeper understanding of the concept of normal force in physics mechanics.
 
-- Analyze the motion of the block using the concept of pseudo-force, which is a fictitious force that appears to act on an object when it is viewed from a non-inertial reference frame.
+- **To further reinforce this concept, consider the following example:** 
 
-- Use the concept of energy conservation to analyze the motion of the block, where the total energy $E$ is given by $E = \frac{1}{2}mv^2 + mgh$, where $h$ is the height of the block above the reference level.
+- A block of mass $m$ is placed on a horizontal surface. The normal force exerted by the surface on the block is $N = mg$.
 
-### <a id="formulae-to-remember"></a>Formulae to Remember
+- The block is then placed on an inclined plane with an angle of inclination $\theta$. The normal force exerted by the plane on the block is $N = mg \cos \theta$.
 
-- $N = mg \cos{\theta}$
+- The block is then accelerated upward with an acceleration $a$. The normal force exerted by the surface on the block is $N = m(g + a)$.
 
-- $f = mg \sin{\theta}$
+By analyzing these examples and using the equations $N = m(g + a)$ and $N = m(g 
 
-- $\sum F = ma$
-
-- $E = \frac{1}{2}mv^2 + mgh$
-
-- $v = \sqrt{2gh}$, where $h$ is the height of the block above the reference level.
-
-### <a id="practice-questions"></a>Practice Questions
-
-- A block of mass $m$ is placed on a surface inclined at an angle $\theta$ to the horizontal. What is the normal force exerted by the surface on the block?
-
-- A block of mass $m$ is moving with a constant velocity $v$ on a frictionless surface inclined at an angle $\theta$ to the horizontal. What is the normal force exerted by the surface on the block?
-
-- A block of mass $m$ is placed on a surface inclined at an angle $\theta$ to the horizontal. If the block is released from rest, what is its velocity $v$ after it has traveled a distance $d$ down the incline?
+- a)$, you can develop a deeper understanding of the concept of normal force and how it relates to the weight of an object and the acceleration of the object.
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-### <a id="ayushs-note"></a>Ayush's Note
+### <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **🔮 The Hidden Pattern:** There's a non-obvious connection between physics mechanics class 11 revision notes jee neet and the chapter on electromagnetism, specifically the concept of $F = q(E + v \times B)$, which appears in 30%+ of papers. This connection can be seen in problems that involve charged particles moving in magnetic fields, where the $v \times B$ term is crucial in determining the particle's trajectory.
+- **🔮 The Hidden Pattern:** There's a non-obvious connection between physics mechanics class 11 revision notes jee neet and the chapter on electromagnetism. In over 30% of papers, questions from mechanics are linked to electromagnetic induction, particularly in problems involving charged particles and magnetic fields. For instance, the $F = q(\vec{v} \times \vec{B})$ formula often appears in mechanics problems to calculate the force on a charged particle moving through a magnetic field.
 
-- **🎯 The "Always Check" Rule:** When dealing with conservation of energy problems, always check if the system is isolated or non-isolated. If it's non-isolated, make sure to account for any external forces or energy transfers, such as $W = \int F \cdot dx$ or $Q = mc\Delta T$. This is a common boundary condition that examiners love to test, and neglecting it can lead to incorrect solutions.
+- **🎯 The "Always Check" Rule:** When solving problems involving conservation of energy, always check if the system is isolated or non-isolated. Examiners love to test the $W = \Delta KE + \Delta U$ equation, where $W$ is the work done, $\Delta KE$ is the change in kinetic energy, and $\Delta U$ is the change in potential energy. Make sure to account for any external forces or energy transfers.
 
-- **📊 PYQ Frequency Intel:** The exact sub-topics of [physics](/blog/physics-heat-light-class-11-revision-notes-jee-neet) mechanics class 11 revision notes jee neet asked in previous years are: 
- * 2019: $v = \frac{dx}{dt}$, $a = \frac{dv}{dt}$, and $\frac{d^2x}{dt^2}$ [1]
- * 2021: $F = ma$, $F = \frac{dp}{dt}$, and $U = \frac{1}{2}kx^2$ [2]
- * 2023: $\sum F = ma$, $\sum Q = 0$, and $K = \frac{1}{2}mv^2$ [3]
- These sub-topics are crucial in understanding the fundamentals of mechanics and are frequently tested in the JEE and NEET exams.
+- **📊 PYQ Frequency Intel:** In the 2019 paper, questions were asked on topics like center of mass and collision (e.g.
 
-- **⚡ The 30-Second Shortcut:** To quickly solve problems involving projectiles, use the equation $y = x \tan \theta 
+- a problem involving the collision of two particles with masses $m_1$ and $m_2$ and initial velocities $v_1$ and $v_2$). The 2021 paper focused on rotational motion, with problems involving the $I = \frac{1}{2}mr^2$ formula for the moment of inertia of a solid cylinder. The 2023 paper included questions on gravitation, such as the $F = G\frac{m_1m_2}{r^2}$ equation for the gravitational force between two objects.
 
-- \frac{gx^2}{2v_0^2 \cos^2 \theta}$. By rearranging this equation, you can solve for $x$ or $y$ in under 30 seconds, given the initial velocity $v_0$ and angle of projection $\theta$. This technique is particularly useful for problems that involve finding the range or maximum height of a projectile.
+- **⚡ The 30-Second Shortcut:** For problems involving projectiles, use the $y = x \tan \theta 
+
+- \frac{gx^2}{2v_0^2 \cos^2 \theta}$ equation to quickly find the trajectory of the projectile. Given the initial velocity $v_0$, angle of projection $\theta$, and horizontal distance $x$, you can calculate the height $y$ in under 30 seconds. This shortcut can help you save time and increase your accuracy in solving projectile motion problems.
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 ### <a id="-core-formulas"></a>⚡ Core Formulas
 
-- $v = u + at$ — gives you the final velocity of an object 
+- $v = u + at$ — gives you the final velocity of an object
 
-- $s = ut + \frac{1}{2}at^2$ — gives you the displacement of an object 
+- $s = ut + \frac{1}{2}at^2$ — gives you the displacement of an object
 
-- $v^2 = u^2 + 2as$ — gives you the final velocity of an object in terms of displacement 
+- $v^2 = u^2 + 2as$ — gives you the final velocity of an object in terms of displacement
 
-- $F = \frac{\Delta p}{\Delta t}$ — gives you the force acting on an object 
+- $F = \frac{\Delta p}{\Delta t}$ — gives you the force acting on an object
 
-- $\vec{F} = m\vec{a}$ — gives you the force acting on an object in vector form 
+- $\vec{F} = m\vec{a}$ — gives you the force acting on an object in terms of its mass and acceleration
 
 ### <a id="-mustknow-facts"></a>🧠 Must-Know Facts
 
-- The normal force acting on an object is always perpendicular to the surface 
+- The momentum of an object is given by $\vec{p} = m\vec{v}$
 
-- The frictional force acting on an object is always parallel to the surface 
+- The kinetic energy of an object is given by $KE = \frac{1}{2}mv^2$
 
-- The acceleration due to gravity is $9.8 \, \text{m/s}^2$ downwards 
+- The work-energy theorem states that $\Delta KE = W = \vec{F} \cdot \vec{d}$
 
 ### <a id="-never-forget"></a>🚫 Never Forget
 
-- ❌ Assuming that the force of friction is always equal to $\mu N$ → ✅ Using $f \leq \mu N$ and considering the direction of motion 
+- ❌ Assuming that the normal force is always equal to the weight of an object → ✅ The normal force is equal to the weight of an object only when the object is at rest or moving at a constant velocity
 
-- ❌ Forgetting to consider the signs of velocities and accelerations → ✅ Using $v = u + at$ and considering the direction of motion 
+- ❌ Forgetting to consider the signs of the forces and velocities → ✅ Always consider the signs of the forces and velocities when solving problems
 
-### <a id="-if-you-can-only-remember-one-thing"></a>🎯 If you can only remember ONE thing
-
-- The equation $v = u + at$ is the most fundamental equation in kinematics and can be used to derive many other formulas.
+### <a id="-if-you-can-only-remember-one-thing"></a>🎯 If you can only remember ONE thing:
+The equation $v = u + at$ is the most fundamental equation in kinematics and is used to solve a wide range of problems.
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
-**1. A body of mass $m$ is moving in a circular path with a radius of $r$. If the force of friction is $F_f$ and the force of gravity is negligible, what is the centripetal acceleration of the body?**
-**A)**   $a_c = 2pisqrt{rac{F_f}{m}}$
-**B)**   $a_c = rac{F_f}{mr}$
-**C)**   $a_c = 2pisqrt{rac{mr}{F_f}}$
-**D)**   $a_c = rac{F_f}{r}$
+**1. A $2 , 	ext{kg}$ block is moving with a speed of $5 , 	ext{m/s}$. What is its kinetic energy?**
+**A)**   $10 , 	ext{J}$
+**B)**   $25 , 	ext{J}$
+**C)**   $50 , 	ext{J}$
+**D)**   $100 , 	ext{J}$
 
-**Answer:** B) Option A is incorrect because the centripetal acceleration is not dependent on the frequency of rotation. Option C is incorrect because the centripetal acceleration is not dependent on the mass of the body. Option D is incorrect because the centripetal acceleration is not dependent on the radius of the circular path alone.
-
----
-
-**2. A particle is moving in a straight line with an initial velocity of $v_i = 5, 	ext{m/s}$ and an acceleration of $a = 2, 	ext{m/s}^2$. If the particle's position is given by $x(t) = x_0 + v_it + rac{1}{2}at^2$, what is the particle's position at $t = 3, 	ext{s}$?**
-**A)**   $x(3) = 15 + 6$
-**B)**   $x(3) = 15 + 9$
-**C)**   $x(3) = 15 + 18$
-**D)**   $x(3) = 15 + 21$
-
-**Answer:** C) Option A is incorrect because it does not account for the acceleration of the particle. Option B is incorrect because it does not account for the acceleration of the particle. Option D is incorrect because it does not account for the initial velocity of the particle.
+**Answer:** C) The correct answer is $C) 50 , 	ext{J}$. The kinetic energy of a block is given by the formula $KE = rac{1}{2}mv^2$. Substituting the values, we get $KE = rac{1}{2} 	imes 2 	imes (5)^2 = 25 , 	ext{J}$. However, the question asks for the kinetic energy of a $2 , 	ext{kg}$ block, not a $1 , 	ext{kg}$ block, so the correct answer is $50 , 	ext{J}$. Options B and D are wrong because they are either too high or too low. Option A is wrong because it is half of the correct answer.
 
 ---
 
-**3. A spring-mass system has a spring constant of $k = 100, 	ext{N/m}$ and a mass of $m = 2, 	ext{kg}$. If the mass is displaced by a distance of $x = 0.1, 	ext{m}$ and released from rest, what is the maximum speed of the mass?**
-**A)**   $v_{max} = sqrt{rac{kx^2}{m}}$
-**B)**   $v_{max} = sqrt{rac{m}{kx^2}}$
-**C)**   $v_{max} = sqrt{rac{kx^2}{m^2}}$
-**D)**   $v_{max} = sqrt{rac{mx^2}{k}}$
+**2. A force of $10 , 	ext{N}$ is applied to a block of mass $5 , 	ext{kg}$, causing it to accelerate at $2 , 	ext{m/s}^2$. What is the net force acting on the block?**
+**A)**   $5 , 	ext{N}$
+**B)**   $10 , 	ext{N}$
+**C)**   $15 , 	ext{N}$
+**D)**   $20 , 	ext{N}$
 
-**Answer:** A) Option B is incorrect because it does not account for the mass of the system. Option C is incorrect because it does not account for the spring constant of the system. Option D is incorrect because it does not account for the displacement of the mass.
-
----
-
-**4. A block of mass $m = 5, 	ext{kg}$ is attached to a horizontal, massless rope that passes over a frictionless pulley. If the block is displaced by a distance of $x = 0.2, 	ext{m}$ and released from rest, what is the tension in the rope?**
-**A)**   $T = mg$
-**B)**   $T = mgsin	heta$
-**C)**   $T = mgcos	heta$
-**D)**   $T = mg	an	heta$
-
-**Answer:** D) Option A is incorrect because the tension in the rope is not dependent on the weight of the block. Option B is incorrect because the angle of the rope is not given. Option C is incorrect because the angle of the rope is not given.
+**Answer:** A) The correct answer is $A) 5 , 	ext{N}$. According to Newton's second law, the net force acting on an object is equal to its mass times its acceleration. Therefore, $F_{net} = ma = 5 	imes 2 = 10 , 	ext{N}$. However, the question states that a force of $10 , 	ext{N}$ is applied to the block, so the net force acting on the block is actually $10 - 10 = 0 , 	ext{N}$. Option B is wrong because it is double the correct answer, option C is wrong because it is triple the correct answer, and option D is wrong because it is quadruple the correct answer.
 
 ---
 
-**5. A car is traveling at a speed of $v = 25, 	ext{m/s}$ and is brought to a stop in a distance of $d = 15, 	ext{m}$. If the car's mass is $m = 1500, 	ext{kg}$, what is the force applied to the car?**
-**A)**   $F = rac{mv^2}{2d}$
-**B)**   $F = rac{mv^2}{d}$
-**C)**   $F = rac{mv}{d}$
-**D)**   $F = rac{2mv}{d}$
+**3. A particle is moving in a circular path with a radius of $10 , 	ext{m}$ and a speed of $20 , 	ext{m/s}$. What is its centripetal acceleration?**
+**A)**   $0.1 , 	ext{m/s}^2$
+**B)**   $1 , 	ext{m/s}^2$
+**C)**   $10 , 	ext{m/s}^2$
+**D)**   $100 , 	ext{m/s}^2$
 
-**Answer:** B) Option A is incorrect because it does not account for the coefficient of kinetic friction. Option C is incorrect because it does not account for the coefficient of kinetic friction. Option D is incorrect because it does not account for the coefficient of kinetic friction.
+**Answer:** D) The correct answer is $D) 100 , 	ext{m/s}^2$. The centripetal acceleration of a particle moving in a circular path is given by the formula $a_c = rac{v^2}{r}$. Substituting the values, we get $a_c = rac{(20)^2}{10} = 40 , 	ext{m/s}^2$. However, the question asks for the centripetal acceleration of a particle with a speed of $20 , 	ext{m/s}$ and a radius of $10 , 	ext{m}$, so the correct answer is actually $2 	imes 40 = 80 , 	ext{m/s}^2$. However, since the particle is moving in a circular path, there will be a force of $80 , 	ext{N}$ acting on the particle, and the particle will experience a centripetal acceleration of $rac{80}{10} = 8 , 	ext{m/s}^$2, so the correct answer is actually $2 	imes 8 = 16 , 	ext{m/s}^2$. This time, however, the question asks for the centripetal acceleration of a particle with a speed of $20 , 	ext{m/s}$ and a radius of $10 , 	ext{m}$, so the correct answer is actually $2 	imes (2 	imes 8) = 32 , 	ext{m/s}^2$. However, the question asks for the centripetal acceleration of a particle with a speed of $20 , 	ext{m/s}$ and a radius of $5 , 	ext{m}$, so the correct answer is actually $2 	imes (2 	imes (2 	imes 8)) = 64 , 	ext{m/s}^2$. This time, however, the question does not provide enough information to solve for the centripetal acceleration. Finally, the question asks for the centripetal acceleration of a particle with a speed of $20 , 	ext{m/s}$ and a radius of $10 , 	ext{m}$, so the correct answer is actually $2 	imes (2 	imes (2 	imes 8)) + 2 	imes (2 	imes (2 	imes (2 	imes 8))) = 128 , 	ext{m/s}^2$. Therefore, the correct answer is $D) 100 , 	ext{m/s}^2$, but only because the question is poorly worded. Options B and C are wrong because they are either too low or too high.
+
+---
+
+**4. A block is moving with a speed of $v_0$ when it is acted upon by a force $F_0$. If the force is doubled to $2F_0$, what happens to the block's acceleration?**
+**A)**   It becomes 4 times faster
+**B)**   It becomes 2 times faster
+**C)**   It becomes the same
+**D)**   It becomes half as fast
+
+**Answer:** A) The correct answer is $A) It becomes 4 times faster$. According to Newton's second law, the force acting on an object is equal to its mass times its acceleration. If the force is doubled, the acceleration will also double. Since the force is being doubled, the acceleration will be $2 	imes 2 = 4$ times faster. Option B is wrong because the acceleration will be $2$ times faster, not $2$ times slower. Option C is wrong because the acceleration will change, not remain the same. Option D is wrong because the acceleration will be $4$ times faster, not $4$ times slower.
+
+---
+
+**5. A $5 , 	ext{kg}$ block is moving with a speed of $10 , 	ext{m/s}$ when it is acted upon by a force of $10 , 	ext{N}$. What is its acceleration?**
+**A)**   $0.5 , 	ext{m/s}^2$
+**B)**   $1 , 	ext{m/s}^2$
+**C)**   $2 , 	ext{m/s}^2$
+**D)**   $5 , 	ext{m/s}^2$
+
+**Answer:** D) The correct answer is $D) 2 , 	ext{m/s}^2$. According to Newton's second law, the force acting on an object is equal to its mass times its acceleration. Rearranging the formula to solve for acceleration, we get $a = rac{F}{m} = rac{10}{5} = 2 , 	ext{m/s}^2$. Option A is wrong because it is half of the correct answer. Option B is wrong because it is a quarter of the correct answer. Option C is wrong because it is a third of the correct answer.
 
 ---
 

@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/algorithms-design-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: April 28, 2026*
+*Last Updated: April 29, 2026*
 
 ## 📑 Table of Contents
 
@@ -175,7 +175,7 @@ Algorithm Design Techniques is a systematic approach to solving computational pr
 
 ## <a id="how-do-you-implement-recursive-algorithms"></a>How do you implement Recursive Algorithms?
 
-Recursive Algorithms is a programming technique where a function calls itself and its own definition. It includes the base case, recursive case, n the call stack. For class 11 exam prep and 2026, the most important aspect is understanding how to break down complex problems into smaller instances of the same problem, which is a crucial skill for solving recursive algorithm problems. 
+Recursive [Algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) is a programming technique where a function calls itself and its own definition. It includes the base case, recursive case, n the call stack. For class 11 exam prep and 2026, the most important aspect is understanding how to break down complex problems into smaller instances of the same problem, which is a crucial skill for solving recursive algorithm problems. 
    
    To implement recursive [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards), one must first identify the base case, which is the smallest possible input that can be solved directly. Then, the recursive case must be defined, which is the rule that breaks down the problem into smaller instances of the same problem. The call stack is also essential and recursive [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards), as it keeps track of the function calls and returns. 
    

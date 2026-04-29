@@ -23,22 +23,22 @@ manualReview: false
 - Not simplifying cube [roots](/blog/squares-and-square-roots-class-8-notes) of perfect cubes
 - Not using the formula ∛(a × b) = ∛a × ∛b
 - Not using the formula ∛(a/b) = ∛a/∛b
-- Not simplifying expressions with cube roots
+- Not simplifying expressions with cube [roots](/blog/squares-and-square-roots-class-8-notes)
 - Not checking the units of the answer
 
 ## ✏️ 3 Solved PYQs
 - **Question 1:** Find the cube root of 125
   Step 1: We know that 5³ = 125
   Step 2: So, ∛125 = ∛(5³)
-  Step 3: Using the formula ∛(a³) = a we get ∛125 = 5
+  Step 3: Using the formula ∛(a³) = a get ∛125 = 5
 - **Question 2:** Find the cube root of 216
   Step 1: We know that 6³ = 216
   Step 2: So, ∛216 = ∛(6³)
-  Step 3: Using the formula ∛(a³) = a we get ∛216 = 6
+  Step 3: Using the formula ∛(a³) = a get ∛216 = 6
 - **Question 3:** Find the cube root of 8
   Step 1: We know that 2³ = 8
   Step 2: So, ∛8 = ∛(2³)
-  Step 3: Using the formula ∛(a³) = a we get ∛8 = 2
+  Step 3: Using the formula ∛(a³) = a get ∛8 = 2
 
 ## 🧠 The One Thing Most Students Get Wrong
 - Most students get confused between cube and cube root, they think that ∛a = a³ which is incorrect, ∛an is the number that when multiplied by itself three times gives a for example ∛8 = 2 because 2 × 2 × 2 = 8
@@ -125,7 +125,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

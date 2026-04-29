@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/data-structures-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: April 28, 2026*
+*Last Updated: April 29, 2026*
 
 ## 📑 Table of Contents
 
@@ -146,7 +146,7 @@ Linked Lists and [Data](/blog/data-structures-non-linear-class-11-revision-notes
 
 | [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Structure | Description | Key Operations |
 | --- | --- | --- |
-| Arrays | Collection of elements of the same data type stored and contiguous memory locations | Indexing, Traversal |
+| Arrays | Collection of elements of the same [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) type stored and contiguous memory locations | Indexing, Traversal |
 | Linked Lists | Dynamic collection of elements where each element points to the next | Insertion, Deletion, Traversal |
 | Stacks | Follows the Last-In-First-Out (LIFO) principle | Push, Pop, Peek |
 

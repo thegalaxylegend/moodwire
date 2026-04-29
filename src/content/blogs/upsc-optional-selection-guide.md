@@ -44,7 +44,7 @@ manualReview: false
 ## 🧠 The One Thing Most Students Get Wrong
 - Most students choose UPSC optional subjects based on popularity rather than aptitude and interest
 - JEE 2026 and NEET 2026 aspirants often neglect to practice and revise regularly
-- Students fail to analyze past year papers and identify areas of improvement
+- Students fail to analyze past year papers and identify [areas](/blog/areas-related-to-circles-class-10-notes) of improvement
 - Lack of time management and ineffective study plans lead to poor performance
 - Not seeking guidance from experienced mentors and teachers
 
@@ -131,7 +131,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

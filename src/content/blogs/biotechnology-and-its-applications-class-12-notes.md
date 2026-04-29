@@ -19,7 +19,7 @@ manualReview: false
 - Stem cells are undifferentiated cells that can differentiate into specialized cells
 - Tissue engineering is the use of living cells and biomaterials to create artificial tissues and organs
 - The Human Genome Project is an international research effort that aimed to sequence the entire human genome
-- Genetic engineering involves the direct manipulation of an organism's genes using biotechnology
+- Genetic engineering involves the direct manipulation of an organism's genes using [biotechnology](/blog/biotechnology-principles-and-processes-class-12-notes)
 - Cloning is the process of creating an exact copy of an organism's DNA
 - The central dogma of molecular biology is DNA → RNA → prote∈
 - The structure of DNA is a double helix with sugar and phosphate molecules on the outside and nitrogenous bases on the inside
@@ -130,7 +130,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

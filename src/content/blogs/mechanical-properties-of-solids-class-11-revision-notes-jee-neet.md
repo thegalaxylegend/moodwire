@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/mechanical-properties-of-solids-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: April 28, 2026*
+*Last Updated: April 29, 2026*
 
 ## 📑 Table of Contents
 
@@ -221,4 +221,4 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
      * **Poisson's Ratio**: ν = (lateral strain)/(longitudinal strain)
      * **Bulk Modulus**: B = (VΔP)/(ΔV)
      * **Shear Modulus**: η = (F/A)/(Δx/L)
-     * **Elastic Energy**: U = (1/2)×(stress)×(strain)×(volume)
+     * **Elastic [Energy](/blog/work-energy-and-power-class-11-revision-notes-neet)**: U = (1/2)×(stress)×(strain)×(volume)

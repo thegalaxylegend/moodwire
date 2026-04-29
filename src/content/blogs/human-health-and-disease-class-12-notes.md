@@ -26,7 +26,7 @@ manualReview: false
 - Not being able to interpret data related to human [health](/blog/reproductive-health-class-12-notes) and disease
 
 ## ✏️ 3 Solved PYQs
-- What is the significance of Human Development Index (HDI) ∈ public health?
+- What is the significance of Human Development Index (HDI) ∈ public [health](/blog/reproductive-health-class-12-notes)?
   Step 1: HDI is a composite index that measures the average achievement of a country ∈ three basic dimensions of human development.
   Step 2: These dimensions are life expectancy at birth, expected years of schooling and gross national income per capita.
   Step 3: HDI is used to rank countries into four tiers of human development.
@@ -127,7 +127,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

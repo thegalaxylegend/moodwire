@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/environmental-chemistry-class-11-revision-notes-neet"
 ---
 
-*Last Updated: April 28, 2026*
+*Last Updated: April 29, 2026*
 
 ## 📑 Table of Contents
 
@@ -77,7 +77,7 @@ Environmental [Chemistry](/blog/organic-chemistry-basic-principles-class-11-revi
 
 ## <a id="introduction-to-environmental-chemistry"></a>Introduction to Environmental Chemistry
 
-Environmental chemistry is [the study of the chemical and biochemical phenomena that occur and the environment](https://en.wikipedia.org/wiki/Environmental_chemistry). It involves the study of the sources, reactions, transport, n effects of chemical species and the environment. The main branches of environmental chemistry are air, water, n soil pollution.
+Environmental [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) is [the study of the chemical and biochemical phenomena that occur and the environment](https://en.wikipedia.org/wiki/Environmental_chemistry). It involves the study of the sources, reactions, transport, n effects of chemical species and the environment. The main branches of environmental [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) are air, water, n soil pollution.
 
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 

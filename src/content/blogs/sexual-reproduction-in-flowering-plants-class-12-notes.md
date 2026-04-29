@@ -45,7 +45,7 @@ manualReview: false
 - Practice drawing diagrams of the flower, embryo sac, and seed to help you remember the structures and their functions.
 
 ## 🔁 Last 5 Minutes Box
-- Quickly revise the formulas and equations related to sexual reproduction ∈ flowering plants.
+- Quickly revise the formulas and equations related to sexual reproduction ∈ [flowering](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) plants.
 - Go through the key terms and definitions, such as stamen, pistil, pollen gra∈, embryo sac, and double fertilization.
 - Make sure you can distinguish between different types of flowers, pollination, and fruits.
 
@@ -119,7 +119,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

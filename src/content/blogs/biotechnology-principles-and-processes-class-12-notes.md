@@ -51,7 +51,7 @@ manualReview: false
 - [Biotechnology](/blog/biotechnology-and-its-applications-class-12-notes) is a vast field that encompasses many different areas, including genetic engineering, bioreactors, and gene expression
 - Understanding the [principles](/blog/principles-of-inheritance-and-variation-class-12-notes) of biotechnology is crucial for solving problems and answering questions ∈ this field
 - Practice is key, so make sure to work through many problems and examples to reinforce your understanding
-- The JEE and NEET exams will test your knowledge of biotechnology principles and processes, as well as your ability to apply this knowledge to solve problems
+- The JEE and NEET exams will test your knowledge of biotechnology [principles](/blog/principles-of-inheritance-and-variation-class-12-notes) and processes, as well as your ability to apply this knowledge to solve problems
 
 ## 🔁 Last 5 Minutes Box
 - Review the key concepts of biotechnology, including DNA replication, transcription, translation, and gene regulation
@@ -130,7 +130,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

@@ -16,7 +16,7 @@ manualReview: false
 - The equation of a line with slope m and passing through the point (x₁, y₁) is given by y - y₁ = m(x - x₁).
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not checking if the given equation is linear or not before solving it.
+- Not checking if the given equation is [linear](/blog/linear-programming-class-12-notes) or not before solving it.
 - Not writing the equation ∈ the standard form ax + by + c = 0.
 - Forgetting to check for any restrictions on the variables.
 - Not using the correct method to solve the system of equations.
@@ -125,7 +125,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

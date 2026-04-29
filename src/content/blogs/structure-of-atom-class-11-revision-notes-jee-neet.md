@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/structure-of-atom-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: April 28, 2026*
+*Last Updated: April 29, 2026*
 
 ## 📑 Table of Contents
 
@@ -211,7 +211,7 @@ For an orbital with quantum numbers $n$ n $l$:
 
 ## <a id="11-the-exceptions-why-cr-cu-pd-pt-break-the-rules"></a>11. The Exceptions: Why $Cr, Cu, Pd, Pt$ Break the Rules
 
-**Configuration Exceptions occur when an atom achieves a lower energy state (higher stability) y slightly deviating from the Aufbau energy order.**
+**Configuration Exceptions occur when an [atom](/blog/structure-of-the-atom-class-11-revision-notes-neet) achieves a lower energy state (higher stability) y slightly deviating from the Aufbau energy order.**
 
 - **Chromium ($Z=24$):** $Expected [Ar] 4s^2 3d^4\rightarrow**Actual [Ar] 4s^1 3d^5**.$
 - $**Copper (Z=29):** Expected [Ar] 4s^2 3d^9\rightarrow **Actual [Ar] 4s^1 3d^{10}**.$

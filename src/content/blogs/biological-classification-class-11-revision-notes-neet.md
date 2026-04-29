@@ -35,7 +35,7 @@ Biological [classification](/blog/classification-of-elements-class-11-revision-n
 Understanding biological [classification](/blog/classification-of-elements-class-11-revision-notes-jee-neet) is essential for any student of biology, as it provides a framework for organizing and analyzing the vast array of life on Earth. This chapter is critical for students preparing for the CBSE 2026 exam, as it covers key concepts and terminology that are frequently tested.
 
 ## 👨‍🎓 Key Concepts and Terminology
-To master biological classification, students must be familiar with the following key concepts and terminology:
+To master biological [classification](/blog/classification-of-elements-class-11-revision-notes-jee-neet), students must be familiar with the following key concepts and terminology:
 - **Taxonomy**: The science of classifying living organisms.
 - **Systematics**: The study of the diversity of organisms and their relationships.
 - **Phylogeny**: The study of the evolutionary history of organisms.

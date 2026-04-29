@@ -10,7 +10,7 @@ manualReview: false
 
 ## ⚡ Formula Bank
 - Types of asexual [reproduction](/blog/reproduction-in-organisms-class-12-notes): binary fission, budding, fragmentation, regeneration
-- Types of sexual reproduction: fertilization, gametes (sperm, egg)
+- Types of sexual [reproduction](/blog/reproduction-in-organisms-class-12-notes): fertilization, gametes (sperm, egg)
 - Male reproductive system: testes, epididymis, vas deferens, penis
 - Female reproductive system: ovaries, fallopian tubes, uterus, vagina
 - Menstrual cycle: 28 days, follicular phase, ovulation, luteal phase
@@ -115,7 +115,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

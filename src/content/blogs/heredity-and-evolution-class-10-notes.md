@@ -112,7 +112,7 @@ D) None of the above
 
 **Answer: B) Homologous structures are similar structures ∈ different species that indicate common ancestry, while analogous structures are similar structures ∈ different species that indicate convergent evolution**
 
-**5. What is the process by which individuals with favorable traits survive and reproduce?**
+**5. What is the process by which individuals with favorable traits survive and [reproduce](/blog/how-do-organisms-reproduce-class-10-notes)?**
 -
 A) Genetic drift
 -
@@ -133,7 +133,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

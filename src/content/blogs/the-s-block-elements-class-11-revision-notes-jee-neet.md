@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/the-s-block-elements-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: April 28, 2026*
+*Last Updated: April 29, 2026*
 
 ## 📑 Table of Contents
 
@@ -115,7 +115,7 @@ Why students get it wrong: Students often think that the s-[block](/blog/the-p-b
 
 Here are 5 practice MCQs with solutions to help you understand the s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements:
 
-1. Which of the following elements is an alkali metal?
+1. Which of the following [elements](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) is an alkali metal?
 A) Lithium
 B) Beryllium
 C) Boron

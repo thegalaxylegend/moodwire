@@ -37,10 +37,10 @@ manualReview: false
 - **Solution:** Use the cha∈ rule, d/dx (s∈⁻¹(x²)) = 1/√(1 - (x²)²) * d/dx (x²) = 2x/√(1 - x⁴)
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students forget that the range of s∈⁻¹(x) is [-π/2, π/2] and the range of cos⁻¹(x) is [0, π], and they also forget to check the principal values of tan⁻¹(x) which is (-π/2, π/2), this can lead to incorrect answers, especially when dealing with expressions like s∈⁻¹(s∈(x)) or cos⁻¹(cos(x))
+- Most students forget that the range of s∈⁻¹(x) is [-π/2, π/2] and the range of cos⁻¹(x) is [0, π], and they also forget to check the principal values of tan⁻¹(x) which is (-π/2, π/2), this can lead to incorrect answers, especially when dealing with [expressions](/blog/algebraic-expressions-class-8-notes) like s∈⁻¹(s∈(x)) or cos⁻¹(cos(x))
 
 ## 👁️ Ayush's Note
-- When dealing with inverse trigonometric functions, always check the doma∈ and range, and make sure to use the principal values, also, try to simplify the expression as much as possible before applying the inverse trigonometric function, and use the identities to simplify the expression, like s∈⁻¹(x) + cos⁻¹(x) = π/2, and tan⁻¹(x) + tan⁻¹(1/x) = π/2, x > 0
+- When dealing with inverse [trigonometric](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) functions, always check the doma∈ and range, and make sure to use the principal values, also, try to simplify the expression as much as possible before applying the inverse [trigonometric](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) function, and use the identities to simplify the expression, like s∈⁻¹(x) + cos⁻¹(x) = π/2, and tan⁻¹(x) + tan⁻¹(1/x) = π/2, x > 0
 
 ## 🔁 Last 5 Minutes Box
 - Make sure to check the doma∈ and range of the inverse trigonometric functions
@@ -119,7 +119,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

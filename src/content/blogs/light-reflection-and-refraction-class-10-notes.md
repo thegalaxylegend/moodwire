@@ -44,7 +44,7 @@ manualReview: false
   Step 3: Calculate the angle of refraction
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students get the sign convention wrong when dealing with mirror and lens equations. Remember that the object distance is always negative for a virtual object, and the image distance is always positive for a real image.
+- Most students get the sign convention wrong when dealing with mirror and lens [equations](/blog/chemical-reactions-and-equations-class-10-notes). Remember that the object distance is always negative for a virtual object, and the image distance is always positive for a real image.
 
 ## 👁️ Ayush's Note
 - Always use the correct sign convention when dealing with mirror and lens equations
@@ -130,7 +130,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

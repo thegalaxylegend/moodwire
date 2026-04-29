@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/plant-growth-n-development-class-11-revision-notes-neet"
 ---
 
-*Last Updated: April 28, 2026*
+*Last Updated: April 29, 2026*
 
 ## 📑 Table of Contents
 
@@ -120,7 +120,7 @@ B) Promote [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) elon
 C) Inhibit growth
 D) Promote fruit ripening
 
-Answer: B) Promote cell elongation
+Answer: B) Promote [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) elongation
 
 2. Which [plant](/blog/plant-kingdom-class-11-revision-notes-neet) hormone is responsible for promoting seed germination and stem elongation?
 A) Auxin
@@ -179,7 +179,7 @@ Continue your [revision](/blog/morphology-of-flowering-plants-class-11-revision-
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/[plant](/blog/plant-kingdom-class-11-revision-notes-neet)-growth-n-development-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Plant%20Growth%20And%20Development%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Plant](/blog/plant-kingdom-class-11-revision-notes-neet)%20Growth%20And%20Development%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

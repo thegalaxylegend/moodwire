@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/digital-logic-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: April 28, 2026*
+*Last Updated: April 29, 2026*
 
 ## 📑 Table of Contents
 
@@ -180,7 +180,7 @@ By mastering Digital Logic, we can unlock the secrets of the digital world and d
 
 The study of Digital Logic is a fascinating journey that will challenge our thinking and broaden our understanding of the digital world. As we explore the world of Digital Logic, we will encounter numerous concepts and techniques that will help us develop a deep understanding of digital systems. 
 
-We will also explore the concept of computer networks, which involves the interconnection of computer systems to share resources and exchange information. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
+We will also explore the concept of [computer](/blog/computer-organization-class-11-notes) networks, which involves the interconnection of [computer](/blog/computer-organization-class-11-notes) systems to share resources and exchange information. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
 
 By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics and Computer Science and develop a keen appreciation for the intricate beauty of digital systems. With dedication and practice, we can master the concepts of Digital Logic and achieve success and the Class 11 exam. 
 
@@ -216,7 +216,7 @@ This equation represents the $XNOR$ gate, which produces an output of $1$ when t
 
 We will also explore the concept of software engineering, which involves the [design](/blog/algorithms-design-class-11-revision-notes-gate-boards), development, n testing of software systems to meet specific requirements. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
 
-As we prepare for the Class 11 exam, it is essential to recognize that Digital Logic is not just a theoretical subject, but also a practical one. The exam will test our ability to apply the concepts we have learned to solve problems and design digital circuits. 
+As we prepare for the Class 11 exam, it is essential to recognize that Digital Logic is not just a theoretical subject, but also a practical one. The exam will test our ability to apply the concepts we have learned to solve problems and [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) digital circuits. 
 
 Therefore, it is crucial to practice solving problems and designing circuits to develop a deep understanding of the subject. With persistence and practice, we can develop a deep understanding of Digital Logic and achieve success and the Class 11 exam. 
 
@@ -273,7 +273,7 @@ Digital Logic is a fundamental concept and computer science that deals with the 
  
  A logic gate is an electronic circuit that operates on one or more input signals to produce a single output signal. The output signal is determined y the type of logic gate and the input signals. There are several types of logic gates, including AND, OR, NOT, NAND, NOR, n XOR. Each type of logic gate has a unique truth table that describes the relationship between the input and output signals.
  
- Flip-flops are another important component of digital logic. They are bistable circuits that can store a single bit of data. Flip-flops are used and a wide range of applications, including counters, registers, n memory devices. There are several types of flip-flops, including SR flip-flops, JK flip-flops, n T flip-flops. Each type of flip-flop has its own unique characteristics and applications.
+ Flip-flops are another important component of digital logic. They are bistable circuits that can store a single bit of [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards). Flip-flops are used and a wide range of applications, including counters, registers, n memory devices. There are several types of flip-flops, including SR flip-flops, JK flip-flops, n T flip-flops. Each type of flip-flop has its own unique characteristics and applications.
  
  Counters are digital circuits that are used to count the number of pulses or events. They are commonly used and applications such as digital clocks, timers, n frequency counters. Counters can be classified into two main categories: asynchronous counters and synchronous counters. Asynchronous counters are also known as ripple counters, while synchronous counters are also known as parallel counters.
  

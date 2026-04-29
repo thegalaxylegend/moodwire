@@ -10,7 +10,7 @@ manualReview: false
 
 ## ⚡ Formula Bank
 - A quadrilateral is a 4-sided polygon with 4 vertices and 4 [angles](/blog/lines-and-angles-class-9-notes).
-- Sum of interior angles of a quadrilateral = (n-2) × 180°, where n = 4
+- Sum of interior [angles](/blog/lines-and-angles-class-9-notes) of a quadrilateral = (n-2) × 180°, where n = 4
 - Sum of interior angles of a quadrilateral = (4-2) × 180° = 2 × 180° = 360°
 - Sum of exterior angles of a quadrilateral = 360°
 - A quadrilateral with all sides equal is called a rhombus.
@@ -46,7 +46,7 @@ manualReview: false
 ## 👁️ Ayush's Note
 - To solve problems on quadrilaterals, first check if the given quadrilateral is a special type, such as a rectangle or a rhombus.
 - Use the properties of diagonals, such as the fact that they bisect each other ∈ a rectangle or a rhombus.
-- Use the formula for the area of a quadrilateral ∈ terms of its diagonals.
+- Use the [formula](/blog/heron-s-formula-class-9-notes) for the area of a quadrilateral ∈ terms of its diagonals.
 - Check if the given quadrilateral is cyclic, and if so, use the properties of cyclic quadrilaterals.
 
  
@@ -128,7 +128,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

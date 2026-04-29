@@ -60,7 +60,7 @@ manualReview: false
 ## 🧠 The One Thing Most Students Get Wrong
 - Most students get wrong the concept of [limits](/blog/limits-and-derivatives-class-11-revision-notes-jee) and continuity
 - They often confuse the two concepts and are unable to apply them correctly
-- Limits are used to study the behavior of a function as the input gets arbitrarily close to a certa∈ point
+- [Limits](/blog/limits-and-derivatives-class-11-revision-notes-jee) are used to study the behavior of a function as the input gets arbitrarily close to a certa∈ point
 - Continuity is used to study the behavior of a function at a certa∈ point
 - A function can have a limit at a point but not be continuous at that point
 
@@ -167,7 +167,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

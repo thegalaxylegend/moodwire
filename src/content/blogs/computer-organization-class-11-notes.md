@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/computer-organization-class-11-notes"
 ---
 
-*Last Updated: April 28, 2026*
+*Last Updated: April 29, 2026*
 
 ## 📑 Table of Contents
 
@@ -140,7 +140,7 @@ The Central Processing Unit (CPU) is a hardware component that executes instruct
 | --- | --- | --- |
 | Arithmetic [logic](/blog/digital-logic-class-11-revision-notes-gate-boards) Unit (ALU) | Executes mathematical and logical operations | High |
 | Registers | Temporary storage for [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) and instructions | Medium |
-| Control Unit | Manages data flow and instruction execution | High |
+| Control Unit | Manages [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) flow and instruction execution | High |
 
 ## <a id="what-is-the-role-of-the-control-unit-n-a-computer"></a>What is the Role of the Control Unit and a Computer?
 
@@ -335,7 +335,7 @@ To manage the flow of data
 
 **Answer:**
 C) The Arithmetic [Logic](/blog/digital-logic-class-11-revision-notes-gate-boards) Unit (ALU) is responsible for performing arithmetic and logical operations such as addition, subtraction, multiplication, division, AND, OR, etc.
-**4. Which of the following is an advantage of Hardwired Logic?**
+**4. Which of the following is an advantage of Hardwired [Logic](/blog/digital-logic-class-11-revision-notes-gate-boards)?**
 Flexibility
 High speed
 Low power consumption

@@ -32,7 +32,7 @@ manualReview: false
 - Not using the correct equation of [motion](/blog/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet)
 - Forgetting to consider the direction of vectors
 - Not converting between different units of measurement
-- Misunderstanding the concept of relative motion
+- Misunderstanding the concept of relative [motion](/blog/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet)
 - Not using the correct formula for calculating the range of a projectile
 
 ## ✏️ 3 Solved PYQs
@@ -139,7 +139,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

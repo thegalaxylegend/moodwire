@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/classification-of-elements-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: April 28, 2026*
+*Last Updated: April 29, 2026*
 
 ## 📑 Table of Contents
 
@@ -123,9 +123,9 @@ The periodic table is a dynamic and ever-evolving field of study, with new eleme
 
 In my future studies, I plan to delve deeper into the world of chemistry, exploring topics such as [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) bonding, thermodynamics, n organic chemistry. I'm excited to see how the classification of elements will continue to play a central role and my understanding of these topics, n how it will help me to develop a more nuanced and sophisticated understanding of the [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) world. 
 
-As I move forward and my studies, I'm confident that the classification of elements will remain a fundamental concept that underlies many of the principles and reactions that I will encounter. By continuing to explore and learn about the periodic table, I can develop a deeper understanding of the chemical world and how it relates to the world around us. 
+As I move forward and my studies, I'm confident that the classification of elements will remain a fundamental concept that underlies many of the principles and reactions that I will encounter. By continuing to explore and learn about the periodic table, I can develop a deeper understanding of the [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) world and how it relates to the world around us. 
 
-The classification of elements is a rich and complex field of study, with many different concepts and principles to explore. As I continue to learn and grow as a chemistry student, I'm excited to see where this journey will take me, n how the classification of elements will continue to play a central role and my understanding of the chemical world. 
+The classification of elements is a rich and complex field of study, with many different [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) and principles to explore. As I continue to learn and grow as a chemistry student, I'm excited to see where this journey will take me, n how the classification of elements will continue to play a central role and my understanding of the chemical world. 
 
 By mastering the classification of elements, I can develop a strong foundation and chemistry and prepare myself for future studies and the field. Whether I'm pursuing a career and research, industry, or education, I know that the classification of elements will remain a vital tool and my toolkit, helping me to navigate the complex and ever-evolving world of chemistry. 
 

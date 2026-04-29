@@ -10,7 +10,7 @@ manualReview: false
 
 ## ⚡ Formula Bank
 - a₁x + b₁y = c₁ and a₂x + b₂y = c₂ are the two linear [equations](/blog/quadratic-equations-class-10-notes) ∈ the form of ax + by = c
-- To solve these equations, we can use the method of substitution or elimination
+- To solve these [equations](/blog/quadratic-equations-class-10-notes), we can use the method of substitution or elimination
 - If a₁/a₂ = b₁/b₂ ≠ c₁/c₂, then the equations are inconsistent and have no solution
 - If a₁/a₂ = b₁/b₂ = c₁/c₂, then the equations are consistent and have infinitely many solutions
 - The general solution of the equation ax + by = c is given by x = (c - by)/a and y = (c - ax)/b
@@ -134,7 +134,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

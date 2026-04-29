@@ -118,6 +118,12 @@ D) Increases with decrease ∈ temperature
 
 **Answer: B) Decreases with increase ∈ temperature. Surface tension decreases with increase ∈ temperature.**
 
+## ⚗️ Chemical Quick Reference (Verified via PubChem)
+
+| Compound | Formula | Mol. Weight | Source |
+|:---|:---:|:---:|:---:|
+| **water** | H2O | 18.015 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/962) |
+
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -137,7 +143,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

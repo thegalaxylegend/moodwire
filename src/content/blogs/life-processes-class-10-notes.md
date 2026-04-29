@@ -17,7 +17,7 @@ manualReview: false
 - [Human](/blog/human-eye-and-colourful-world-class-10-notes) digestive system equation: Carbohydrates → Glucose → Energy (ATP)
 - Plant growth equation: Aux∈ → Cell elongation → Cell division
 - Osmosis equation: Water potential = (Solute potential + Pressure potential)
-- Human excretory system equation: Waste removal = (Kidney function + Liver function)
+- [Human](/blog/human-eye-and-colourful-world-class-10-notes) excretory system equation: Waste removal = (Kidney function + Liver function)
 - Aerobic respiration equation: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + 36ATP
 
 ## 🪤 The 5 Mistakes That Cost Marks
@@ -37,11 +37,11 @@ manualReview: false
 
 ## 🧠 The One Thing Most Students Get Wrong
 - Most students get confused between the terms active transport and passive transport
-- Active transport requires energy to move molecules against their concentration gradient, while passive transport does not require energy and moves molecules down their concentration gradient
+- Active transport requires [energy](/blog/sources-of-energy-class-10-notes) to move molecules against their concentration gradient, while passive transport does not require [energy](/blog/sources-of-energy-class-10-notes) and moves molecules down their concentration gradient
 - Understanding this concept is crucial for understanding various [life](/blog/chemistry-in-everyday-life-class-12-notes) processes, including photosynthesis, respiration, and transpiration
 
 ## 👁️ Ayush's Note
-- To score well ∈ the exam, it is essential to have a thorough understanding of the life processes, including photosynthesis, respiration, transpiration, and human physiology
+- To score well ∈ the exam, it is essential to have a thorough understanding of the [life](/blog/chemistry-in-everyday-life-class-12-notes) processes, including photosynthesis, respiration, transpiration, and human physiology
 - Practice drawing diagrams of the human digestive system, excretory system, and plant transport system
 - Make sure to learn the equations and formulas, including the photosynthesis equation, respiration equation, and transpiration rate equation
 
@@ -131,7 +131,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

@@ -54,7 +54,7 @@ The social [structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet)
 * **Governance**: A system of governance with **local councils** and **regional authorities**
 
 ## Ayush's Note
-When preparing for the exam, it's essential to focus on the **key aspects** of the Indus Valley Civilization, such as its **geographical context**, **characteristics**, **economy**, and **social structure**. Make sure to:
+When preparing for the exam, it's essential to focus on the **key aspects** of the Indus Valley Civilization, such as its **geographical context**, **characteristics**, **economy**, and **social [structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet)**. Make sure to:
 * **Read extensively**: Cover all the relevant topics and subtopics
 * **Practice regularly**: Attempt practice questions and mock tests to assess your knowledge
 * **Analyze and evaluate**: Develop critical thinking skills to analyze and evaluate the information
@@ -93,7 +93,7 @@ c) Invasions
 d) All of the above
 Answer: d) All of the above
 5. What was the name of the period that marked the beginning of a new era in Indian history after the decline of the Indus Valley Civilization?
-a) Vedic period
+a) [Vedic](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) period
 b) Mauryan period
 c) Gupta period
 d) Mughal period

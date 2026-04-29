@@ -128,7 +128,7 @@ D) -1
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/limits-derivatives-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/[limits](/blog/limits-and-derivatives-class-11-revision-notes-jee)-derivatives-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 
@@ -144,7 +144,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

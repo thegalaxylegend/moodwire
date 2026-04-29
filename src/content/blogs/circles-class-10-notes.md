@@ -138,11 +138,10 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 *🔓 = Open Access article*
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Circles%20Class%2010%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Circles](/blog/areas-related-to-circles-class-10-notes)%20Class%2010%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

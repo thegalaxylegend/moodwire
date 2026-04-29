@@ -48,8 +48,8 @@ manualReview: false
 - They need to remember that the general formula for alkanes is CₙH₂ₙ₊₂, for alkenes is CₙH₂ₙ, and for alkynes is CₙH₂ₙ₋₂
 
 ## 👁️ Ayush's Note
-- To solve problems related to carbon and its compounds, first recall the general formulas for alkanes, alkenes, and alkynes
-- Then, recall the combustion reactions of alkanes, alkenes, and alkynes
+- To solve problems related to carbon and its [compounds](/blog/coordination-compounds-class-12-notes), first recall the general formulas for alkanes, alkenes, and alkynes
+- Then, recall the combustion [reactions](/blog/chemical-reactions-and-equations-class-10-notes) of alkanes, alkenes, and alkynes
 - Practice writing the structural formulas for isomers of alkanes
 - Make a list of functional groups ∈ organic compounds and practice identifying them
 
@@ -130,7 +130,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

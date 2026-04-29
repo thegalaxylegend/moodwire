@@ -32,7 +32,7 @@ manualReview: false
   Answer: IUDs are a long-term reversible contraceptive method and do not conta∈ hormones 
 - What is the difference between abortion and MTP? 
   Answer: Abortion refers to the termination of pregnancy, while MTP refers to the medical termination of pregnancy 
-- What is the significance of amniocentesis ∈ reproductive health? 
+- What is the significance of amniocentesis ∈ reproductive [health](/blog/human-health-and-disease-class-12-notes)? 
   Answer: Amniocentesis is a pre-natal diagnostic technique used to detect genetic disorders ∈ the fetus 
 
 ## 🧠 The One Thing Most Students Get Wrong
@@ -122,7 +122,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

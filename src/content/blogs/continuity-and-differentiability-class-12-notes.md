@@ -11,7 +11,7 @@ manualReview: false
 ## ⚡ Formula Bank
 - Continuity at x = a: limₓ→an f(x) = f(a)
 - Differentiability at x = a: f'(a) = limₕ→₀ (f(a + h) - f(a))/h
-- If f(x) is differentiable at x = a then f(x) is continuous at x = a but the converse is not always true
+- If f(x) is differentiable at x = a then f(x) is continuous at x = a bit the converse is not always true
 - If f(x) and g(x) are continuous at x = a then f(x) + g(x), f(x) - g(x), f(x) × g(x), and f(x)/g(x) are continuous at x = an
 - If f(x) and g(x) are differentiable at x = a then f(x) + g(x), f(x) - g(x), f(x) × g(x), and f(x)/g(x) are differentiable at x = a
 - Cha∈ Rule: (f(g(x)))' = f'(g(x)) × g'(x)
@@ -130,7 +130,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

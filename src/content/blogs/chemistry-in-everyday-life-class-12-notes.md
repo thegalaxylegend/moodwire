@@ -9,7 +9,7 @@ manualReview: false
 ---
 
 ## ⚡ Formula Bank
-- Chemical reactions ∈ everyday [life](/blog/life-processes-class-10-notes) involve redox reactions, where oxidation and reduction occur simultaneously, ΔG = ΔH - TΔS
+- Chemical reactions ∈ every day [life](/blog/life-processes-class-10-notes) involve redox reactions, where oxidation and reduction occur simultaneously, ΔG = ΔH - TΔS
 - pH of a solution is given by pH = -log[H⁺], pOH = -log[OH⁻]
 - Buffer solutions have a fixed pH, given by Henderson-Hasselbalch equation: pH = pKa + log([A⁻]/[HA])
 - Rate of reaction is given by rate = k[A]ⁿ[B]ᵐ, where k is the rate constant, n and m are the orders of reaction
@@ -21,7 +21,7 @@ manualReview: false
 - Not understanding the difference between strong and weak acids and bases, e.g. HCl is a strong acid, while CH₃COOH is a weak acid
 - Not knowing the uses of different types of catalysts, e.g. enzymes, zeolites, and transition metal complexes
 - Not being able to calculate the pH of a solution using the Henderson-Hasselbalch equation
-- Not understanding the concept of buffer solutions and their importance ∈ everyday life, e.g. blood pH regulation
+- Not understanding the concept of buffer solutions and their importance ∈ everyday [life](/blog/life-processes-class-10-notes), e.g. blood pH regulation
 - Not being able to identify the type of reaction, e.g. redox, acid-base, or precipitation reaction
 
 ## ✏️ 3 Solved PYQs
@@ -132,11 +132,10 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 *🔓 = Open Access article*
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Chemistry%20In%20Everyday%20Life%20Class%2012%20Chemistry%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Chemistry](/blog/surface-chemistry-class-12-notes)%20In%20Everyday%20Life%20Class%2012%20Chemistry%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/medieval-india-bhakti-sufi-class-11-revision-notes-cbse"
 ---
 
-*Last Updated: April 28, 2026*
+*Last Updated: April 29, 2026*
 
 ## 📑 Table of Contents
 
@@ -127,7 +127,7 @@ Continue your [revision](/blog/ancient-india-mahajanapadas-class-11-revision-not
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/medieval-[india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)-bhakti-sufi-class-11-revision-notes-cbse) now and track your progress against thousands of students.
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Medieval%20India%20Bhakti%20Sufi%20Class%2011%20History%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Medieval](/blog/medieval-india-delhi-sultanate-class-11-revision-notes-cbse)%20India%20Bhakti%20Sufi%20Class%2011%20History%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

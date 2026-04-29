@@ -21,7 +21,7 @@ manualReview: false
 - Volume of cuboid = length × breadth × height
 - Volume of cylinder = π × radius² × height
 - Volume of cone = (1/3) × π × radius² × height
-- Surface area of cube = 6 × side²
+- Surface area of [cube](/blog/cubes-and-cube-roots-class-8-notes) = 6 × side²
 - Surface area of cuboid = 2 × (length × breadth + breadth × height + height × length)
 
 ## 🪤 The 5 Mistakes That Cost Marks
@@ -133,7 +133,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

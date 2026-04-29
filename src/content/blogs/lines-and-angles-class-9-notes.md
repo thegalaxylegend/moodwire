@@ -149,12 +149,11 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
-
 ---
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
 
 - 📖 [Number Systems 9 Class 9 Exam Prep Revision — Grandmaster Guide](/blog/number-systems-class-9-notes)
 - 📖 [Application Of Integrals Class 12 Exam Prep Revision — Grandmaster Guide](/blog/application-of-integrals-class-12-notes)

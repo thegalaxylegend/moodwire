@@ -1,14 +1,14 @@
 {
-  "overallAvgScore": 76,
-  "totalBlogsAllTime": 147,
-  "totalPassed": 98,
+  "overallAvgScore": 77.4,
+  "totalBlogsAllTime": 156,
+  "totalPassed": 107,
   "totalFailed": 49,
-  "overallPassRate": 67,
+  "overallPassRate": 69,
   "trend": "declining",
   "trendDelta": -38.9,
   "dailyReports": [
     {
-      "date": "2026-04-28",
+      "date": "2026-04-29",
       "totalBlogs": 9,
       "passed": 9,
       "failed": 0,
@@ -287,6 +287,15 @@
         "40 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering.",
         "15 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This breaks rendering."
       ]
+    },
+    {
+      "date": "2026-04-28",
+      "totalBlogs": 9,
+      "passed": 9,
+      "failed": 0,
+      "avgScore": 100,
+      "passRate": 100,
+      "errors": []
     }
   ],
   "topErrors": [

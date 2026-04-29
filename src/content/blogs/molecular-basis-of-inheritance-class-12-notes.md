@@ -44,7 +44,7 @@ manualReview: false
 - To score well ∈ Molecular Basis Of [Inheritance](/blog/principles-of-inheritance-and-variation-class-12-notes), focus on understanding the key concepts and processes, including DNA replication, transcription, and translation
 - Practice solving problems and past year questions to develop a strong foundation
 - Use shortcuts and mnemonics to remember key terms and concepts, such as the genetic code and lac operon
-- For JEE Advanced and NEET, focus on developing a strong understanding of the underlying principles and concepts, rather than just memorizing formulas and equations
+- For JEE Advanced and NEET, focus on developing a strong understanding of the underlying [principles](/blog/principles-of-inheritance-and-variation-class-12-notes) and concepts, rather than just memorizing formulas and equations
 
 ## 🔁 Last 5 Minutes Box
 - Review key concepts and formulas, including DNA replication, transcription, and translation
@@ -96,7 +96,7 @@ A) It is ambiguous, with multiple codons coding for the same amino acid
 -
 B) It is degenerate, with multiple codons coding for the same amino acid
 -
-C) It is universal, with the same codons coding for the same amino acids ∈ all organisms
+C) It is universal, with the same codons coding for the same amino [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes) ∈ all organisms
 -
 D) It is context-dependent, with the meaning of a codon depending on the surrounding sequence
 
@@ -123,7 +123,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

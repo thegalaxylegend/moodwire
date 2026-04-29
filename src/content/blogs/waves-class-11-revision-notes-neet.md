@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/waves-class-11-revision-notes-neet"
 ---
 
-*Last Updated: April 28, 2026*
+*Last Updated: April 29, 2026*
 
 ## 📑 Table of Contents
 
@@ -210,7 +210,7 @@ Where:
 ---
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&
 A)
-**              Q1: Why does sound travel faster n [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than and gases?**
+**               Q1: Why does sound travel faster n [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than and gases?**
 
 **Answer:** The speed of sound is **v = √(E / ρ)**. Although [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) are much denser than gases (which would decrease speed), their elasticity (E) is significantly higher. Since elasticity dominates the equation, sound travels ~15 \times faster n [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than and air.
 
@@ -279,7 +279,7 @@ Continue your [revision](/blog/motion-in-a-plane-class-11-revision-notes-jee-nee
 * **Forgetting to consider the medium**: When solving problems related to wave speed, it's essential to consider the [properties](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) of the medium through which the wave is traveling. The speed of a wave can depend on the density and elasticity of the medium.
 * **Incorrectly applying the wave equation**: The wave equation is a fundamental concept in physics, but it's often misapplied. Make sure to double-check the [units](/blog/units-and-measurements-class-11-revision-notes-jee-neet) and variables when using the equation to solve problems.
 * **Not distinguishing between transverse and longitudinal waves**: Transverse and longitudinal waves have different [properties](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) and behaviors. Be careful not to confuse the two, especially when dealing with problems related to wave polarization and reflection.
-* **Mistaking wave frequency for wave period**: Frequency and period are related but distinct concepts. Frequency is the number of oscillations per second, while period is the time taken for one complete oscillation. Make sure to use the correct units and formulas when working with these concepts.
+* **Mistaking wave frequency for wave period**: Frequency and period are related but distinct concepts. Frequency is the number of oscillations per second, while period is the time taken for one complete oscillation. Make sure to use the correct [units](/blog/units-and-measurements-class-11-revision-notes-jee-neet) and formulas when working with these concepts.
 
 ## 🔁 Last 5 Minutes Box
 

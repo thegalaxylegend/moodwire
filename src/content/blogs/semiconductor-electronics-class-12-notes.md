@@ -17,7 +17,7 @@ manualReview: false
 - Nₐ = (nᵢ²/Nₛₑ) × (1 - (xₙ/2Lₚ)) for acceptor impurity concentration
 - ε₀εᵣE = σ/ε₀εᵣV/d for electric field ∈ a p-n junction
 - V = (kT/e) ln(NₐNₛₑ/nᵢ²) for built-∈ potential
-- I = IS(eⁱ⁰⁰⁰Vₜ - 1) for diode current, where IS is reverse saturation current
+- I = IS(eⁱ⁰⁰⁰Vₜ - 1) for diode [current](/blog/magnetic-effects-of-current-class-12-notes), where IS is reverse saturation [current](/blog/magnetic-effects-of-current-class-12-notes)
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not understanding the concept of Fermi level and its relation to conduction and valence bands
@@ -128,7 +128,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/the-p-block-elements-11-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: April 28, 2026*
+*Last Updated: April 29, 2026*
 
 ## 📑 Table of Contents
 
@@ -113,7 +113,7 @@ Right answer: The p-[block](/blog/the-s-block-elements-class-11-revision-notes-j
 Why students get it wrong: Students often confuse the p-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) elements with the d-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) elements.
 * Wrong answer: The p-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) elements are all non-metals.
 Right answer: The p-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) elements include non-metals, metalloids, n noble gases.
-Why students get it wrong: Students often overlook the metalloids and noble gases and the p-block.
+Why students get it wrong: Students often overlook the metalloids and noble gases and the p-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet).
 
 ## <a id="practice-mcqs"></a>Practice MCQs
 

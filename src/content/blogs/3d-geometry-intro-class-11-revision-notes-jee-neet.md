@@ -44,12 +44,12 @@ manualReview: false
 - To solve 3D [geometry](/blog/coordinate-geometry-class-10-notes) problems, first visualize the problem and try to identify the key elements such as points, lines, and planes
 - Use the correct formulas and equations to find the required quantities
 - Always check your calculations and ensure that the direction cosines satisfy the condition l² + m² + n² = 1
-- Practice is key to mastering 3D geometry, so make sure to practice a variety of problems
+- Practice is key to mastering 3D [geometry](/blog/coordinate-geometry-class-10-notes), so make sure to practice a variety of problems
 
 ## 🔁 Last 5 Minutes Box
 - Revision of key formulas and equations
 - Practice of quick calculations and estimations
-- Focus on common mistakes and how to avoid them
+- Focus on [common](/blog/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet) mistakes and how to avoid them
 - Quick review of solved problems and examples
 - Deep breathing exercises to calm the mind and focus
 
@@ -123,7 +123,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

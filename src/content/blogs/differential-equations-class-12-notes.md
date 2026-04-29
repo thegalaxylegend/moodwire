@@ -16,7 +16,7 @@ manualReview: false
 - Bernoulli's equation: dy/dx + Py = Qyⁿ
 - Exact equation: ∂M/∂y = ∂N/∂x
 - Integrating factor: I.F = eⁱ∫Pdx
-- Solution of linear equation: y(I.F) = ∫Q(I.F)dx + c
+- Solution of [linear](/blog/pair-of-linear-equations-class-10-notes) equation: y(I.F) = ∫Q(I.F)dx + c
 - Euler's method: yₙ₊₁ = yₙ + hf(xₙ,yₙ)
 - Runge-Kutta method: yₙ₊₁ = yₙ + (1/6)(k₁ + 2k₂ + 2k₃ + k₄)
 - Laplace transform: F(s) = ∫₀∞ e⁻sx f(x) dx
@@ -149,7 +149,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

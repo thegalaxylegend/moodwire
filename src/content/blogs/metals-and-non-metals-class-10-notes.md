@@ -39,7 +39,7 @@ manualReview: false
 ## 🧠 The One Thing Most Students Get Wrong
 - Most students get the reactivity series of metals wrong
 - The correct order of reactivity is: Potassium (K) > Sodium (Na) > Calcium (Ca) > Magnesium (Mg) > Aluminum (Al) > Zinc (Zn) > Iron (Fe) > T∈ (Sn) > Lead (Pb) > Copper (Cu) > Mercury (Hg) > Silver (Ag) > Gold (Au)
-- This is important for predicting the outcome of chemical reactions involving metals
+- This is important for predicting the outcome of [chemical](/blog/chemical-reactions-and-equations-class-10-notes) reactions involving metals
 
 ## 👁️ Ayush's Note
 - To score well ∈ the CBSE Board 2026 exam, make sure to practice plenty of MCQs and long-answer questions
@@ -124,7 +124,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

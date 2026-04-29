@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/cell-cycle-n-cell-division-class-11-revision-notes-neet"
 ---
 
-*Last Updated: April 28, 2026*
+*Last Updated: April 29, 2026*
 
 ## 📑 Table of Contents
 
@@ -123,7 +123,7 @@ a) Two daughter cells with the same number of chromosomes as the parent [cell](/
 b) Four daughter cells with the same number of chromosomes as the parent [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet)
 c) Two daughter cells with half the number of chromosomes as the parent [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet)
 d) Four daughter cells with half the number of chromosomes as the parent [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet)
-Answer: d) Four daughter cells with half the number of chromosomes as the parent cell
+Answer: d) Four daughter cells with half the number of chromosomes as the parent [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet)
 4. What is the function of the spindle fibers during mitosis?
 a) To replicate DNA
 b) To form the cell plate

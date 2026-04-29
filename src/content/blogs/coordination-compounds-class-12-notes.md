@@ -60,7 +60,7 @@ manualReview: false
 ## 🔁 Last 5 Minutes Box
 - Revision of key concepts: EAN, CN, OS, magnetic moment, crystal field splitting energy
 - Quick practice of solved PYQs and previous year questions
-- Focus on understanding the concept of isomerism and its application
+- Focus on understanding the concept of isomerism and its [application](/blog/application-of-integrals-class-12-notes)
 - Practice calculating magnetic moment and crystal field splitting energy
 - Revision of shortcuts and formulas for quick calculation
 
@@ -134,7 +134,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

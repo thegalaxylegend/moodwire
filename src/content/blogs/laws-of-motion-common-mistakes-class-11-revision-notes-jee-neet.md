@@ -44,7 +44,7 @@ manualReview: false
 - Most students get the concept of pseudo force wrong. Pseudo force is a fictitious force that appears to act on an object when it is ∈ a non-inertial frame of reference. It is equal ∈ magnitude and opposite ∈ direction to the force that is actually acting on the object.
 
 ## 👁️ Ayush's Note
-- To solve problems ∈ laws of motion, always start by drawing a free body diagram. This will help you identify all the forces acting on the object and make it easier to apply Newton's laws.
+- To solve problems ∈ laws of [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet), always start by drawing a free body diagram. This will help you identify all the forces acting on the object and make it easier to apply Newton's laws.
 - Always consider the system as a whole when applying conservation of momentum.
 - Make sure to use the correct equation for centripetal force: F = (mv²)/r.
 - Pseudo force is a key concept ∈ laws of motion. Make sure you understand it well.
@@ -125,7 +125,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

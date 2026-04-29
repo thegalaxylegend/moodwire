@@ -21,7 +21,7 @@ manualReview: false
 - LRU: page replacement based on recent usage
 - File System: file allocation table, file organization, directory structure
 - Disk Scheduling algorithms: First Come, First Served (FCFS), Shortest Seek Time First (SSTF), Scan, C-Scan
-- SSTF: avg seek time = ∑(seek time)/n, where n is a number of requests
+- SSTF: avg seek time = ∑(seek time)/n, where n is a [number](/blog/number-systems-class-9-notes) of requests
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not understanding the difference between paging and segmentation
@@ -140,7 +140,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

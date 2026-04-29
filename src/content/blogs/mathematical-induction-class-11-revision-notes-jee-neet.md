@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/mathematical-induction-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: April 28, 2026*
+*Last Updated: April 29, 2026*
 
 ## 📑 Table of Contents
 
@@ -182,7 +182,7 @@ Continue your [revision](/blog/limits-derivatives-class-11-revision-notes-jee-ne
 ## 🔁 Last 5 Minutes Box
 
 # Mathematical Induction Revision Notes
-    * **Principle of Mathematical Induction (PMI)**: To prove that a statement P(n) is true for all n ∈ N, show that P(1) is true and P(k) being true implies P(k + 1) is true.
+    * **Principle of [Mathematical](/blog/mathematical-reasoning-class-11-revision-notes-jee-neet) Induction (PMI)**: To prove that a statement P(n) is true for all n ∈ N, show that P(1) is true and P(k) being true implies P(k + 1) is true.
     * **Formula for PMI**: 1. Prove P(1) is true (Base case), 2. Assume P(k) is true, 3. Prove P(k+1) is true using the assumption from step 2.
     * **Example PMI Proof**: 
         + For all n ≥ 1, prove 1 + 2 + 3 + ... + n = n(n+1)/2

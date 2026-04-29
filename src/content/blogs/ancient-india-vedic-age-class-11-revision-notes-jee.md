@@ -51,7 +51,7 @@ The economy of the Vedic Age was primarily **agricultural**, with the introducti
 For students preparing for exams, it's essential to understand the chronological development of the Vedic Age and its significance in the broader context of Indian history. Focus on key concepts such as the composition of the Vedas, the evolution of the varna system, and the political and economic structures of the time. Practicing with sample questions and essays will help reinforce your knowledge and improve your retention.
 
 ## The 5 Marks-Crushing Traps
-1. **Confusing the Vedic Period with the Ancient Indian Period**: Ensure you understand the distinct characteristics and timeline of each era.
+1. **Confusing the Vedic Period with the [Ancient](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) Indian Period**: Ensure you understand the distinct characteristics and timeline of each era.
 2. **Overlooking the Role of Women**: While the society was patriarchal, women played significant roles in religious and literary spheres.
 3. **Misinterpreting the Varna System**: Recognize that the varna system was more fluid during the Vedic Age and became more rigid in later periods.
 4. **Ignoring the Economic Developments**: The introduction of the iron plow and the emergence of trade networks were crucial for the economic growth of the region.
@@ -100,7 +100,7 @@ For students preparing for exams, it's essential to understand the chronological
    - D) Culture
    **Answer: A) Governance**
 
-7. Which of the following was a characteristic of the political structure during the Vedic Age?
+7. Which of the following was a characteristic of the political [structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet) during the Vedic Age?
    - A) Large Empires
    - B) Tribal Kingdoms and Republics
    - C) Federal System

@@ -44,13 +44,13 @@ manualReview: false
 
 ## 🧠 The One Thing Most Students Get Wrong
 - Most students get confused between the terms acid, base, and salt, and are unable to identify the type of salt formed ∈ a reaction
-- To avoid this mistake, it is essential to understand the definitions and properties of acids, bases, and salts
+- To avoid this mistake, it is essential to understand the definitions and properties of [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes), bases, and salts
 - Practice identifying the type of salt formed ∈ different [reactions](/blog/chemical-reactions-and-equations-class-10-notes) to build confidence
 
 ## 👁️ Ayush's Note
 - To excel ∈ acids, bases, and salts, focus on understanding the concepts and formulas
 - Practice solving problems and past year questions to build confidence and speed
-- Make a list of important formulas and reactions, and revise them regularly
+- Make a list of important formulas and [reactions](/blog/chemical-reactions-and-equations-class-10-notes), and revise them regularly
 - Use flashcards to memorize key terms and concepts
 
 ## 🔁 Last 5 Minutes Box
@@ -130,7 +130,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

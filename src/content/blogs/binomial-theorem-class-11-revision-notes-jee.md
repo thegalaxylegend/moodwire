@@ -52,7 +52,7 @@ manualReview: false
 ## 🔁 Last 5 Minutes Box
 - Revision of key formulas: (a + b)ⁿ = ∑ₖ₌₀ⁿ ⁿCₖ aⁿ⁻ᵏ bᵏ, ⁿCᵣ = n!/(r!(n-r)!)
 - Quick practice of expanding simple expressions: (x + y)², (x - y)³
-- Review of common mistakes: incorrect application of the binomial theorem, forgetting to use the formula for (a - b)ⁿ
+- Review of [common](/blog/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet) mistakes: incorrect application of the binomial theorem, forgetting to use the formula for (a - b)ⁿ
 
 ## 📝 Practice MCQs
 **1. What is the value of (1 + x)⁵ when x = 2?**
@@ -124,7 +124,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

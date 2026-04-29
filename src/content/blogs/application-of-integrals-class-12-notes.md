@@ -47,7 +47,7 @@ manualReview: false
 - Practice problems: focus on applying limits and substitution correctly
 
 ## 👁️ Ayush's Note
-- For JEE Advanced and NEET, focus on shortcuts like using properties of definite integrals and substitution methods
+- For JEE Advanced and NEET, focus on shortcuts like using properties of definite [integrals](/blog/integrals-class-12-notes) and substitution methods
 - Practice solving problems with varying limits of integration and functions
 - Use online resources and practice tests to improve speed and accuracy
 
@@ -138,7 +138,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

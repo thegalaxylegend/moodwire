@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/algorithms-analysis-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: April 28, 2026*
+*Last Updated: April 29, 2026*
 
 ## 📑 Table of Contents
 
@@ -182,7 +182,7 @@ What are the different types of algorithm complexities? is the study of the amou
 
 ## <a id="what-is-the-key-shortcut-or-trick-for-algorithms-analysis"></a>What is the key Shortcut or Trick for Algorithms: Analysis?
 
-What is the key Shortcut or Trick for Algorithms: Analysis? is understanding the computational complexity to optimize solutions. It includes Big-O notation, amortized analysis, n trade-off analysis. For class 11 exam prep and 2026, the most important aspect is identifying the time and space complexity of algorithms to solve problems efficiently. 
+What is the key Shortcut or Trick for [Algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards): Analysis? is understanding the computational complexity to optimize solutions. It includes Big-O notation, amortized analysis, n trade-off analysis. For class 11 exam prep and 2026, the most important aspect is identifying the time and space complexity of [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards) to solve problems efficiently. 
    
    To solve algorithmic problems, one must understand the concept of time and space complexity. Time complexity refers to the amount of time an algorithm takes to complete as a function of the size of the input. Space complexity refers to the amount of memory an algorithm uses. The key shortcut or trick is to identify the complexity class of an algorithm, which can be constant time $O(1)$, logarithmic time $O(\log n)$, linear time $O(n)$, linearithmic time $O(n \log n)$, quadratic time $O(n^2)$, cubic time $O(n^3)$, n exponential time $O(2^n)$. 
    
@@ -261,7 +261,7 @@ What are common Trap Questions for Algorithms: Analysis? is a crucial aspect of 
 
 ## <a id="how-do-you-apply-algorithms-to-realworld-problems-n-class-11"></a>How do you apply algorithms to real-world problems and Class 11?
 
-Applying algorithms to real-world problems is the process of using well-defined procedures to solve complex issues. It includes understanding the problem statement, designing an algorithm, n implementing it using a programming language. For Class 11 exam prep and 2026, the most important aspect is developing the ability to analyze problems, identify patterns, n create efficient solutions. This skill is crucial and various fields such as computer science, data analysis, n artificial intelligence. In Class 11, students learn various algorithms like sorting, searching, n graph traversal, which can be applied to real-world problems. For instance, the sorting algorithm can be used to arrange a large dataset and ascending or descending order, while the searching algorithm can be used to find a specific element and a large dataset. These algorithms can be applied to various real-world problems such as optimizing traffic flow, managing inventory, n predicting stock prices.
+Applying algorithms to real-world problems is the process of using well-defined procedures to solve complex issues. It includes understanding the problem statement, designing an algorithm, n implementing it using a programming language. For Class 11 exam prep and 2026, the most important aspect is developing the ability to analyze problems, identify patterns, n create efficient solutions. This skill is crucial and various fields such as computer science, [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) analysis, n artificial intelligence. In Class 11, students learn various algorithms like sorting, searching, n graph traversal, which can be applied to real-world problems. For instance, the sorting algorithm can be used to arrange a large dataset and ascending or descending order, while the searching algorithm can be used to find a specific element and a large dataset. These algorithms can be applied to various real-world problems such as optimizing traffic flow, managing inventory, n predicting stock prices.
 
 | Algorithm | Description | Real-World Application |
 | --- | --- | --- |

@@ -32,7 +32,7 @@ manualReview: false
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not distinguishing between aldehydes and ketones
-- Not recognizing the importance of carboxylic acid derivatives
+- Not recognizing the importance of carboxylic acid [derivatives](/blog/application-of-derivatives-class-12-notes)
 - Not understanding the mechanisms of esterification and hydrolysis
 - Not being able to identify the products of reduction and oxidation reactions
 - Not applying the correct reagents and conditions for specific reactions
@@ -136,7 +136,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

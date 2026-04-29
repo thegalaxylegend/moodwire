@@ -63,7 +63,7 @@ manualReview: false
 
  
 ## 👁️ Ayush's Note
-- To solve application of derivatives problems, first identify the type of problem
+- To solve [application](/blog/application-of-integrals-class-12-notes) of derivatives problems, first identify the type of problem
 - If it is a maxima/minima problem, use the first derivative test or the second derivative test
 - If it is a tangent equation problem, use the point-slope form of a line
 - If it is a rate of change problem, use the concept of related rates
@@ -150,7 +150,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

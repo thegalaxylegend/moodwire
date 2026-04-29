@@ -39,7 +39,7 @@ manualReview: false
   Step 2: Evaluate the [derivatives](/blog/limits-derivatives-class-11-revision-notes-jee-neet), f'(x) = 3x² s∈ x + x³ cos x
 - Evaluate the limit limₓ→₀ (eˣ - 1)/x
   Step 1: Apply L'Hopital's rule, limₓ→₀ (eˣ - 1)/x = limₓ→₀ (eˣ)' / (x)'
-  Step 2: Evaluate the derivatives, limₓ→₀ (eˣ - 1)/x = limₓ→₀ eˣ / 1 = 1
+  Step 2: Evaluate the [derivatives](/blog/limits-derivatives-class-11-revision-notes-jee-neet), limₓ→₀ (eˣ - 1)/x = limₓ→₀ eˣ / 1 = 1
 - Find the derivative of f(x) = logₐx
   Step 1: Apply the definition of a derivative, f'(x) = limₕ→₀ (logₐ(x + h) - logₐx) / h
   Step 2: Simplify the expression, f'(x) = limₕ→₀ (logₐ(1 + h/x)) / h
@@ -143,7 +143,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

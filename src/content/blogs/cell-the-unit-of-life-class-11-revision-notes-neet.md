@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/cell-the-unit-of-life-class-11-revision-notes-neet"
 ---
 
-*Last Updated: April 28, 2026*
+*Last Updated: April 29, 2026*
 
 ## 📑 Table of Contents
 

@@ -43,7 +43,7 @@ manualReview: false
   - f = c/λ = (3 × 10⁸)/300 = 10⁶ Hz
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students get confused between the electric and magnetic field components of an electromagnetic wave. They forget that the electric field component is perpendicular to the magnetic field component and both are perpendicular to the direction of propagation of the wave.
+- Most students get confused between the electric and [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field components of an electromagnetic wave. They forget that the electric field component is perpendicular to the [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field component and both are perpendicular to the direction of propagation of the wave.
 
 ## 👁️ Ayush's Note
 - To solve problems related to electromagnetic waves, first identify the given physical quantities and the unknown quantities. Then, use the formulas to find the unknown quantities. For example, if the frequency and wavelength of an electromagnetic wave are given, use the formula c = λf to find the speed of the wave.
@@ -131,7 +131,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/ray-optics-class-12-quick-class-12-revision-notes-jee-neet"
 ---
 
-*Last Updated: April 28, 2026*
+*Last Updated: April 29, 2026*
 
 ## 📑 Table of Contents
 
@@ -133,7 +133,7 @@ As we review the material, it's essential to keep track of the key terms n [conc
 * **Lens Maker's Formula**
 * **Mirror Formula**
 
-By mastering these concepts and formulae, we can confidently tackle the challenges of ray optics and perform well and our exams.
+By mastering these [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) and formulae, we can confidently tackle the challenges of ray optics and perform well and our exams.
 
 Let's summarize the key points:
 

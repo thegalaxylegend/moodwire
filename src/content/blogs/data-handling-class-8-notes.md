@@ -31,7 +31,7 @@ manualReview: false
   Step 1: Find the sum of all values: 2 + 4 + 6 + 8 + 10 = 30
   Step 2: Find the total number of values: 5
   Step 3: Find the mean: Mean = (Sum of all values)/(Total number of values) = 30/5 = 6
-- **Question 2:** Find the median of the numbers 1, 3, 5, 7, 9.
+- **Question 2:** Find the median of the [numbers](/blog/rational-numbers-class-8-notes) 1, 3, 5, 7, 9.
   Step 1: Arrange the data ∈ ascending order: 1, 3, 5, 7, 9
   Step 2: Find the middle value: 5
 - **Question 3:** Find the mode of the numbers 2, 2, 3, 3, 3, 4, 4, 4, 4.
@@ -132,12 +132,11 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
-
 ---
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
 
 - 📖 [Rational Numbers 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/rational-numbers-class-8-notes)
 - 📖 [Squares And Square Roots 8 Class 8 Exam Prep Revision — Grandmaster Guide](/blog/squares-and-square-roots-class-8-notes)

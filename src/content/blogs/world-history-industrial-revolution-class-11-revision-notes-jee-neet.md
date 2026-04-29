@@ -36,7 +36,7 @@ manualReview: false
 - **Question 2:** How did the Industrial Revolution affect the social classes ∈ Brita∈?
   Step 1: Describe the emergence of new social classes: industrial bourgeoisie and industrial proletariat
   Step 2: Expla∈ the impact of the Industrial Revolution on the standard of living and working conditions
-  Step 3: Discuss the role of trade unions and labor laws ∈ protecting workers' rights
+  Step 3: Discuss the role of trade unions and labor [laws](/blog/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet) ∈ protecting workers' rights
 - **Question 3:** What were the ma∈ consequences of the Industrial Revolution on the environment?
   Step 1: Identify the ma∈ environmental impacts: air and water pollution, deforestation
   Step 2: Expla∈ the role of the steam engine and industrial production ∈ environmental degradation
@@ -134,7 +134,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
