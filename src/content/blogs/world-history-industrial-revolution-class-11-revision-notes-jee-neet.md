@@ -40,7 +40,7 @@ manualReview: false
 - **Question 3:** What were the ma∈ consequences of the Industrial Revolution on the environment?
   Step 1: Identify the ma∈ environmental impacts: air and water pollution, deforestation
   Step 2: Expla∈ the role of the steam engine and industrial production ∈ environmental degradation
-  Step 3: Discuss the development of environmental laws and regulations ∈ response to industrial pollution
+  Step 3: Discuss the development of environmental [laws](/blog/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet) and regulations ∈ response to industrial pollution
 
 ## 🧠 The One Thing Most Students Get Wrong
 - The Industrial Revolution was not just about technological innovations, but also about the social, economic, and environmental changes that occurred as a result

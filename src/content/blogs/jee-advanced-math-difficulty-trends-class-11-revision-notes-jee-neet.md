@@ -69,7 +69,7 @@ manualReview: false
 - Use the correct formula and units
 - Check the answer for any calculation errors
 - Consider all possible cases
-- Use the concept of limits and continuity correctly
+- Use the concept of [limits](/blog/limits-and-derivatives-class-11-revision-notes-jee) and continuity correctly
 - Practice as many problems as possible to get a good grasp of the concepts
 - For JEE Advanced and NEET level problems, use shortcuts like
   - Using the formula for the sum of a geometric progression to solve problems related to sequences and series

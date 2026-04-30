@@ -1,14 +1,14 @@
 {
-  "overallAvgScore": 77.4,
-  "totalBlogsAllTime": 156,
-  "totalPassed": 107,
+  "overallAvgScore": 78.7,
+  "totalBlogsAllTime": 165,
+  "totalPassed": 116,
   "totalFailed": 49,
-  "overallPassRate": 69,
+  "overallPassRate": 70,
   "trend": "declining",
-  "trendDelta": -38.9,
+  "trendDelta": -19.8,
   "dailyReports": [
     {
-      "date": "2026-04-29",
+      "date": "2026-04-30",
       "totalBlogs": 9,
       "passed": 9,
       "failed": 0,
@@ -296,6 +296,15 @@
       "avgScore": 100,
       "passRate": 100,
       "errors": []
+    },
+    {
+      "date": "2026-04-29",
+      "totalBlogs": 9,
+      "passed": 9,
+      "failed": 0,
+      "avgScore": 100,
+      "passRate": 100,
+      "errors": []
     }
   ],
   "topErrors": [
@@ -341,5 +350,5 @@
     }
   ],
   "alertNeeded": true,
-  "alertMessage": "⚠️ Quality is DECLINING! Avg score dropped by 38.9 points over the last week."
+  "alertMessage": "⚠️ Quality is DECLINING! Avg score dropped by 19.8 points over the last week."
 }

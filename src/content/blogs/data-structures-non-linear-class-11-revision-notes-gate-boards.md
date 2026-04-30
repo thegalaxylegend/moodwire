@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/data-structures-non-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: April 29, 2026*
+*Last Updated: April 30, 2026*
 
 ## 📑 Table of Contents
 
@@ -156,7 +156,7 @@ What is the key Shortcut or Trick for Data Structures: Non-Linear? is understand
    
    Lastly, practicing the implementation of these data structures n [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) from scratch is indispensable. It not only reinforces understanding but also develops the ability to analyze problems, identify the most suitable data structure, n apply the appropriate algorithm, which is key to performing well and exams and real-world applications.
 
-| Data Structure | Description | Time Complexity |
+| [Data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) Structure | Description | Time Complexity |
 | --- | --- | --- |
 | Trees | Non-linear data structure with nodes having values and child references | Insert: $O(\log n)$, Search: $O(\log n)$, Delete: $O(\log n)$ |
 | Graphs | Non-linear data structure consisting of vertices connected y edges | Insert Edge: $O(1)$ (adjacency list), $O(1)$ (adjacency matrix), Search Edge: $O(1)$ (adjacency matrix), $O(n)$ (adjacency list) |
@@ -265,7 +265,7 @@ D. Handles large datasets efficiently
 
 **Answer:** B) The primary advantage of using a Trie data structure is its fast search and insertion operations, making it suitable for applications that require efficient retrieval and storage of strings.
 
-**2. Which of the following graph traversal algorithms is used to traverse a graph level y level?**
+**2. Which of the following graph traversal [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) is used to traverse a graph level y level?**
 A. Breadth-First Search (BFS)
 B. Depth-First Search (DFS)
 C. Dijkstra's Algorithm

@@ -19,7 +19,7 @@ manualReview: false
 - Parturition: labor, delivery, placenta
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not understanding the difference between asexual and sexual reproduction
+- Not understanding the difference between asexual and sexual [reproduction](/blog/reproduction-in-organisms-class-12-notes)
 - Confusing the male and female reproductive systems
 - Not knowing the stages of the menstrual cycle
 - Forgetting the process of fertilization and embryo development

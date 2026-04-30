@@ -48,7 +48,7 @@ manualReview: false
 - Practice identifying the type of salt formed ∈ different [reactions](/blog/chemical-reactions-and-equations-class-10-notes) to build confidence
 
 ## 👁️ Ayush's Note
-- To excel ∈ acids, bases, and salts, focus on understanding the concepts and formulas
+- To excel ∈ [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes), bases, and salts, focus on understanding the concepts and formulas
 - Practice solving problems and past year questions to build confidence and speed
 - Make a list of important formulas and [reactions](/blog/chemical-reactions-and-equations-class-10-notes), and revise them regularly
 - Use flashcards to memorize key terms and concepts
@@ -57,7 +57,7 @@ manualReview: false
 - Quick revision of important formulas: pH, pOH, Kₙ
 - Check the types of acids and bases: strong, weak, monoacidic, diacidic
 - Review the properties of salts: acidic, basic, neutral
-- Go through the common reactions: neutralization, hydrolysis
+- Go through the common [reactions](/blog/chemical-reactions-and-equations-class-10-notes): neutralization, hydrolysis
 - Recall the definitions: acid, base, salt, pH, pOH
 
 ## 📝 Practice MCQs

@@ -27,7 +27,7 @@ manualReview: false
 
 ## ✏️ 3 Solved PYQs
 - What is the significance of Human Development Index (HDI) ∈ public [health](/blog/reproductive-health-class-12-notes)?
-  Step 1: HDI is a composite index that measures the average achievement of a country ∈ three basic dimensions of human development.
+  Step 1: HDI is a composite index that measures the average achievement of a country ∈ three basic dimensions of [human](/blog/microbes-in-human-welfare-class-12-notes) development.
   Step 2: These dimensions are life expectancy at birth, expected years of schooling and gross national income per capita.
   Step 3: HDI is used to rank countries into four tiers of human development.
 - A study found that the relative risk of lung cancer ∈ smokers is 15. What does this mean?
@@ -44,7 +44,7 @@ manualReview: false
 - For example, the incidence of malaria ∈ a population may be 100 per 1000 per year, but the prevalence may be 500 per 1000.
 
 ## 👁️ Ayush's Note
-- To answer questions related to human health and disease, it is essential to have a clear understanding of the concepts of burden of disease, disability adjusted life years (DALY), and heritability.
+- To answer questions related to human [health](/blog/reproductive-health-class-12-notes) and disease, it is essential to have a clear understanding of the concepts of burden of disease, disability adjusted life years (DALY), and heritability.
 - Practice calculating DALY and heritability using different scenarios.
 - Make sure to understand the difference between incidence and prevalence of disease.
 - Use the formula bank to quickly recall important formulas and concepts.

@@ -45,7 +45,7 @@ manualReview: false
 
 ## 👁️ Ayush's Note
 - To find the cube root of a number, try to find the number that when multiplied by itself three times gives the original number
-- Use the formula ∛(a × b) = ∛a × ∛b to simplify expressions with cube roots
+- Use the formula ∛(a × b) = ∛a × ∛b to simplify expressions with cube [roots](/blog/squares-and-square-roots-class-8-notes)
 - Use the formula ∛(a/b) = ∛a/∛b to simplify expressions with cube roots
 
 ## 🔁 Last 5 Minutes Box

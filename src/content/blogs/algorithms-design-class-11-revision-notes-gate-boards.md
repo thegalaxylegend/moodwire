@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/algorithms-design-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: April 29, 2026*
+*Last Updated: April 30, 2026*
 
 ## 📑 Table of Contents
 
@@ -189,7 +189,7 @@ Recursive [Algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-bo
    
    In addition to the master theorem, there are other techniques for analyzing the time complexity of recursive [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards), such as the recursion tree method and the substitution method. The recursion tree method involves constructing a tree that represents the recursive calls, n then analyzing the time complexity of each node and the tree. The substitution method involves substituting the recursive call with a closed-form expression, n then analyzing the time complexity of the resulting expression. 
    
-   Recursive algorithms have many applications and computer science, including sorting, searching, n graph algorithms. They are also used and many real-world applications, such as compiler design, operating systems, n artificial intelligence. 
+   Recursive [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) have many applications and computer science, including sorting, searching, n graph [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards). They are also used and many real-world applications, such as compiler design, operating systems, n artificial intelligence. 
    
    Here are some key points to keep and mind when implementing recursive algorithms: 
    - Identify the base case and recursive case clearly. 

@@ -133,7 +133,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
 
 - 📖 [Pair Of Linear Equations Class 10 Exam Prep Revision — Grandmaster Guide](/blog/pair-of-linear-equations-class-10-notes)
 - 📖 [Differential Equations Class 12 Exam Prep Revision — Grandmaster Guide](/blog/differential-equations-class-12-notes)

@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/principle-of-mathematical-induction-class-11-revision-notes-jee"
 ---
 
-*Last Updated: April 29, 2026*
+*Last Updated: April 30, 2026*
 
 ## 📑 Table of Contents
 
@@ -75,7 +75,7 @@ In the world of mathematics, the Principle of [Mathematical](/blog/mathematical-
 
 The key to mastering the Principle of Mathematical Induction is to practice regularly and to develop a deep understanding of the concept and its applications. You should start y practicing simple problems, n then move on to more complex ones. You should also try to prove simple results using PMI, such as the formula for the $\sum of the firstn$ positive integers, or the formula for the $\sum of the firstn$ perfect squares. By following these tips and practicing regularly, you'll be well-prepared to tackle the challenges of the Class 11 exam, n you'll develop a deeper appreciation for the beauty and elegance of mathematical proofs. 
 
-So, let's get started on this journey, n let's explore the world of PMI together! We'll dive deeper into the world of PMI, exploring its applications and nuances and more detail. We'll examine different types of induction, including strong induction and backwards induction, n we'll discuss common pitfalls and mistakes to avoid. By the end of this journey, you'll have a deep understanding of the Principle of Mathematical Induction, n you'll be well-prepared to tackle the challenges of the class 11 exam. 
+So, let's get started on this journey, n let's explore the world of PMI together! We'll dive deeper into the world of PMI, exploring its applications and nuances and more detail. We'll examine different types of induction, including strong induction and backwards induction, n we'll discuss common pitfalls and mistakes to avoid. By the end of this journey, you'll have a deep understanding of the Principle of [Mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) Induction, n you'll be well-prepared to tackle the challenges of the class 11 exam. 
 
 The Principle of Mathematical Induction is a powerful tool that can be used to prove complex results with ease. It's a concept that has far-reaching implications, n it's essential to develop a deep understanding of it. By practicing regularly and mastering the basics, you'll be well-prepared to tackle the challenges of the class 11 exam, n you'll develop a deeper appreciation for the beauty and elegance of mathematical proofs. So, let's get started on this journey, n let's explore the world of PMI together! 
 

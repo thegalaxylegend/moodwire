@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/ray-optics-class-12-quick-class-12-revision-notes-jee-neet"
 ---
 
-*Last Updated: April 29, 2026*
+*Last Updated: April 30, 2026*
 
 ## 📑 Table of Contents
 
@@ -154,7 +154,7 @@ To further illustrate the [concepts](/blog/some-basic-concepts-of-chemistry-clas
 
 By examining these diagrams, we can visualize the [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) n gain a deeper understanding of the phenomena.
 
-As we conclude our review of ray optics, remember to stay focused and keep practicing. With dedication and persistence, we can master the concepts and achieve success and our exams.
+As we conclude our review of ray optics, remember to stay focused and keep practicing. With dedication and persistence, we can master the [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) and achieve success and our exams.
 
 Here are some additional resources to help with your studies:
 

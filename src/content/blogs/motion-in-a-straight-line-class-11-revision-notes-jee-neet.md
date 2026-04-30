@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/motion-n-a-straight-line-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: April 29, 2026*
+*Last Updated: April 30, 2026*
 
 ## 📑 Table of Contents
 
@@ -245,7 +245,7 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
   + Position-Time Graph: slope = velocity
   + Velocity-Time Graph: slope = acceleration, area = displacement
 * **Types of [Motion](/blog/rotational-motion-class-11-revision-notes-jee-neet)**: 
-  + Uniformly Accelerated Motion (uam)
+  + Uniformly Accelerated [Motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) (uam)
   + Uniform Motion
 * **Important Formulas**: 
   + Relative Motion: v_rel = v1 - v2 (opposite directions), v_rel = v1 + v2 (same direction)

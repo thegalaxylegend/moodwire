@@ -36,7 +36,7 @@ The fundamental counting principle states that if one event can occur in $m$ way
 where $n!$ represents the factorial of $n$, which is the product of all positive integers up to $n$. For instance, $5! = 5 \times 4 \times 3 \times 2 \times 1 = 120$.
 
 ## Combinations
-Combinations, as mentioned earlier, involve selecting objects without considering the order. The formula for calculating combinations is:
+[Combinations](/blog/permutations-combinations-class-11-revision-notes-jee), as mentioned earlier, involve selecting objects without considering the order. The formula for calculating [combinations](/blog/permutations-combinations-class-11-revision-notes-jee) is:
  [ C(n, r) = \frac{n!}{r!(n-r)!} ] 
 This formula gives us the number of ways to choose $r$ objects from a set of $n$ objects without regard to the order of selection.
 

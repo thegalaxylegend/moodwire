@@ -41,7 +41,7 @@ manualReview: false
 - Understanding the benefits of microbes is essential to appreciate their importance ∈ [human](/blog/human-reproduction-class-12-notes) welfare
 
 ## 👁️ Ayush's Note
-- To excel ∈ the exam, focus on the applications of microbes ∈ human welfare
+- To excel ∈ the exam, focus on the applications of microbes ∈ [human](/blog/human-reproduction-class-12-notes) welfare
 - Make a list of the different types of microbes and their uses
 - Practice recalling the formulas and significance of BOD and other relevant concepts
 - Use flashcards to memorize key terms and concepts

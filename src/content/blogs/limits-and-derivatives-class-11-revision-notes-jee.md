@@ -44,7 +44,7 @@ manualReview: false
   Step 1: Apply the definition of a derivative, f'(x) = limₕ→₀ (logₐ(x + h) - logₐx) / h
   Step 2: Simplify the expression, f'(x) = limₕ→₀ (logₐ(1 + h/x)) / h
   Step 3: Apply L'Hopital's rule, f'(x) = limₕ→₀ (logₐ(1 + h/x))' / h'
-  Step 4: Evaluate the derivatives, f'(x) = 1/(x ln a)
+  Step 4: Evaluate the [derivatives](/blog/limits-derivatives-class-11-revision-notes-jee-neet), f'(x) = 1/(x ln a)
 
 ## 🧠 The One Thing Most Students Get Wrong
 - Most students get wrong the application of L'Hopital's rule to evaluate indeterminate forms

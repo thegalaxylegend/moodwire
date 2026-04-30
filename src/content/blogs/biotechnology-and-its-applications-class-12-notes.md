@@ -44,7 +44,7 @@ manualReview: false
   A stem cell is an undifferentiated cell that can differentiate into specialized cells, while a progenitor cell is a cell that has already begun to differentiate into a specific cell type.
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Many students think that biotechnology is only used ∈ medicine, but it is also used ∈ agriculture, environmental science, and other fields.
+- Many students think that [biotechnology](/blog/biotechnology-principles-and-processes-class-12-notes) is only used ∈ medicine, but it is also used ∈ agriculture, environmental science, and other fields.
 
 ## 👁️ Ayush's Note
 - Biotechnology is a rapidly growing field with many applications ∈ different areas of life

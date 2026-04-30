@@ -1,8 +1,8 @@
 {
   "overall": {
     "total": 320,
-    "completed": 192,
-    "percentage": 60
+    "completed": 195,
+    "percentage": 61
   },
   "bySubject": {
     "Physics": {
@@ -37,8 +37,8 @@
     },
     "Social Science": {
       "total": 67,
-      "completed": 9,
-      "percentage": 13
+      "completed": 12,
+      "percentage": 18
     },
     "English": {
       "total": 33,
@@ -59,8 +59,8 @@
     },
     "Class 10": {
       "total": 66,
-      "completed": 33,
-      "percentage": 50
+      "completed": 36,
+      "percentage": 55
     },
     "Class 9": {
       "total": 53,

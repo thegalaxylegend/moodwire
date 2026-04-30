@@ -42,7 +42,7 @@ To master biological [classification](/blog/classification-of-elements-class-11-
 - **Binomial nomenclature**: The system of naming species using a two-part name (genus and species).
 
 ## 🔬 Classification Systems
-There are several classification systems used in biology, including:
+There are several [classification](/blog/classification-of-elements-class-11-revision-notes-jee-neet) systems used in biology, including:
 - **Artificial system**: Based on visible characteristics, such as morphology and anatomy.
 - **Natural system**: Based on evolutionary relationships and phylogeny.
 - **Phylogenetic system**: Based on the evolutionary history of organisms.

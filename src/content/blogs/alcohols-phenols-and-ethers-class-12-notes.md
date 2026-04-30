@@ -7,7 +7,7 @@ date: "2026-03-29"
 practice_link: "/class-11/chemistry/alcohols-phenols-n-ethers-class-12-notes"
 ---
 
-*Last Updated: April 29, 2026*
+*Last Updated: April 30, 2026*
 ## 📑 Table of Contents
 
 1. [📋 Table of Contents](#table-of-contents)

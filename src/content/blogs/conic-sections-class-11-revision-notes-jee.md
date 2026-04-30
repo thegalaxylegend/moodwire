@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/mathematics/conic-sections-class-11-revision-notes-jee"
 ---
 
-*Last Updated: April 29, 2026*
+*Last Updated: April 30, 2026*
 ## 📑 Table of Contents
 
 1. [📋 Table of Contents](#table-of-contents)

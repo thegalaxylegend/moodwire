@@ -69,7 +69,7 @@ manualReview: false
 - If it is a rate of change problem, use the concept of related rates
 - Always check the doma∈ of the function before differentiating
 - Always use the correct formula for the derivative of trigonometric functions
-- Practice, practice, practice, as application of derivatives is a topic that requires a lot of practice to master
+- Practice, practice, practice, as [application](/blog/application-of-integrals-class-12-notes) of derivatives is a topic that requires a lot of practice to master
 
  
 ## 🔁 Last 5 Minutes Box

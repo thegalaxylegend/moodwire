@@ -11,7 +11,7 @@ manualReview: false
 ## ⚡ Formula Bank
 - Factorisation of [algebraic](/blog/algebraic-expressions-class-8-notes) expressions: a² - b² = (a + b)(a - b)
 - Factorisation of [algebraic](/blog/algebraic-expressions-class-8-notes) expressions: a² + b² = (a + ib)(an - ib) where i = √(-1)
-- Factorisation of algebraic expressions: a³ - b³ = (a - b)(a² + ab + b²)
+- Factorisation of [algebraic](/blog/algebraic-expressions-class-8-notes) expressions: a³ - b³ = (a - b)(a² + ab + b²)
 - Factorisation of algebraic expressions: a³ + b³ = (a + b)(a² - ab + b²)
 - Factorisation of algebraic expressions: (x + y)² = x² + 2xy + y²
 - Factorisation of algebraic expressions: (x - y)² = x² - 2xy + y²

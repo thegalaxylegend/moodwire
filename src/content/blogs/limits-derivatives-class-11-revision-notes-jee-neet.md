@@ -140,7 +140,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 *🔓 = Open Access article*
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Limits%20Derivatives%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Limits](/blog/limits-and-derivatives-class-11-revision-notes-jee)%20Derivatives%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

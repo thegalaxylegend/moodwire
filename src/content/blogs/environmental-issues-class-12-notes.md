@@ -42,7 +42,7 @@ manualReview: false
 - Make a list of all the environmental issues and their causes, effects, and solutions
 - Practice calculating the carbon footprint and ecological footprint of different processes and products
 - Learn about the different types of pollution: air, water, soil, noise, and thermal
-- Understand the concept of sustainable development and its importance ∈ environmental conservation
+- Understand the concept of sustainable development and its importance ∈ environmental [conservation](/blog/biodiversity-and-conservation-class-12-notes)
 
 ## 🔁 Last 5 Minutes Box
 - Last minute tips for JEE Advanced and NEET:

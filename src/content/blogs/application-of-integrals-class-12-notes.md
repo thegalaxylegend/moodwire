@@ -56,7 +56,7 @@ manualReview: false
 - Ensure correct application of substitution method
 - Verify calculations for area under curve or volume of solid
 - Double-check constant of integration
-- Review properties of definite integrals
+- Review properties of definite [integrals](/blog/integrals-class-12-notes)
 
 ## 📝 Practice MCQs
 **1. Question:** Find area under curve y = 2x from x = 0 to x = 1

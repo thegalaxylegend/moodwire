@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/environmental-chemistry-class-11-revision-notes-neet"
 ---
 
-*Last Updated: April 29, 2026*
+*Last Updated: April 30, 2026*
 
 ## 📑 Table of Contents
 
@@ -81,7 +81,7 @@ Environmental [chemistry](/blog/organic-chemistry-basic-principles-class-11-revi
 
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 
-3 questions and JEE Mains 2026 Session 1 came from this topic. Environmental chemistry is important for understanding and mitigating the impact of human activities on the environment. The main goal of environmental chemistry is to develop sustainable solutions for environmental problems.
+3 questions and JEE Mains 2026 Session 1 came from this topic. Environmental [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) is important for understanding and mitigating the impact of human activities on the environment. The main goal of environmental [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) is to develop sustainable solutions for environmental problems.
 
 ## <a id="Ayush-note"></a>Ayush's Note
 

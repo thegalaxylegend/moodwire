@@ -54,8 +54,8 @@ manualReview: false
 - The JEE and NEET exams will test your knowledge of biotechnology [principles](/blog/principles-of-inheritance-and-variation-class-12-notes) and processes, as well as your ability to apply this knowledge to solve problems
 
 ## 🔁 Last 5 Minutes Box
-- Review the key concepts of biotechnology, including DNA replication, transcription, translation, and gene regulation
-- Make sure you understand the principles of PCR, gel electrophoresis, and Western blot
+- Review the key concepts of [biotechnology](/blog/biotechnology-and-its-applications-class-12-notes), including DNA replication, transcription, translation, and gene regulation
+- Make sure you understand the [principles](/blog/principles-of-inheritance-and-variation-class-12-notes) of PCR, gel electrophoresis, and Western blot
 - Review the different types of bioreactors and their applications
 - Go through the important formulas and equations, including the Michaelis-Menten equation and the equation for the efficiency of a bioreactor
 - Take a few deep breaths and try to relax - you've got this!

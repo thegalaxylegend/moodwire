@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/data-structures-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: April 29, 2026*
+*Last Updated: April 30, 2026*
 
 ## 📑 Table of Contents
 
@@ -154,7 +154,7 @@ Linked Lists and [Data](/blog/data-structures-non-linear-class-11-revision-notes
 
 Stacks are a linear data structure that follows the Last-In-First-Out (LIFO) principle. It includes a collection of elements, a top pointer, n a set of operations such as push, pop, n peek. For Class 11 exam prep and 2026, the most important aspect is understanding how stacks are implemented and used and solving problems related to parsing, evaluating postfix expressions, n implementing recursive [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) iteratively. 
 
-A stack can be visualized as a vertical pile of plates, where plates are added and removed from the top of the pile. The plate that is added most recently is the first one to be removed. Similarly, n a stack data structure, the element that is added most recently is the first one to be removed. The stack operations are: 
+A stack can be visualized as a vertical pile of plates, where plates are added and removed from the top of the pile. The plate that is added most recently is the first one to be removed. Similarly, n a stack [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structure, the element that is added most recently is the first one to be removed. The stack operations are: 
 - Push: adds an element to the top of the stack
 - Pop: removes an element from the top of the stack
 - Peek: returns the element at the top of the stack without removing it

@@ -46,11 +46,11 @@ manualReview: false
   Step 1: Put y = vx, so dy/dx = v + x(dv/dx)
   Step 2: Substitute ∈ the differential equation: v + x(dv/dx) + v = x³vx
   Step 3: Simplify and solve: x(dv/dx) = x³v - 2v
-  Step 4: Separate variables: dv/v = (x³-2)dx/x
+  Step 4: Separate [variables](/blog/linear-equations-in-two-variables-class-9-notes): dv/v = (x³-2)dx/x
   Step 5: Integrate: ∫dv/v = ∫(x³-2)dx/x
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students get wrong the application of the integrating factor ∈ linear differential equations
+- Most students get wrong the application of the integrating factor ∈ [linear](/blog/pair-of-linear-equations-class-10-notes) differential equations
 - The integrating factor is eⁱ∫Pdx, where P is the coefficient of y ∈ the differential equation
 - For example, ∈ the differential equation dy/dx + 2y = x, the integrating factor is eⁱ∫2dx = e²ˣ
 - Multiplying the differential equation by the integrating factor, we get: e²ˣ(dy/dx) + 2e²ˣy = xe²ˣ

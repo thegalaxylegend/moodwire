@@ -19,7 +19,7 @@ manualReview: false
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not understanding the concept of HCF and LCM and how to calculate them
 - Not being able to apply Euclid's Division Lemma to find the HCF of two [numbers](/blog/rational-numbers-class-8-notes)
-- Not being able to factorize numbers into their prime factors
+- Not being able to factorize [numbers](/blog/rational-numbers-class-8-notes) into their prime factors
 - Not being able to identify the prime factors of a number
 - Not being able to simplify expressions involving HCF and LCM
 

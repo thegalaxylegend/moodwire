@@ -24,7 +24,7 @@ manualReview: false
 - Incorrectly calculating the built-∈ potential of a p-n junction
 - Not knowing the difference between intrinsic and extrinsic semiconductors
 - Incorrect application of the formula for conductivity and mobility
-- Not being able to derive the formula for diode current and voltage
+- Not being able to derive the formula for diode [current](/blog/magnetic-effects-of-current-class-12-notes) and voltage
 
 ## ✏️ 3 Solved PYQs
 - **Question 1:** A p-n junction is formed by joining a p-type semiconductor with an n-type semiconductor. If the acceptor impurity concentration ∈ the p-type semiconductor is 10¹⁶/cm³ and the donor impurity concentration ∈ the n-type semiconductor is 10¹⁵/cm³, calculate the built-∈ potential of the p-n junction. Assume the intrinsic carrier concentration is 10¹⁰/cm³.

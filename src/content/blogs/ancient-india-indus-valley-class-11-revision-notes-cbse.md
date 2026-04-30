@@ -97,7 +97,7 @@ a) [Vedic](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) period
 b) Mauryan period
 c) Gupta period
 d) Mughal period
-Answer: a) Vedic period
+Answer: a) [Vedic](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) period
 6. Which of the following was a craft developed in the Indus Valley Civilization?
 a) Pottery
 b) Metallurgy
@@ -110,7 +110,7 @@ b) Kiln-fired bricks
 c) Stone
 d) Wood
 Answer: a) Sun-dried bricks
-8. Which of the following was a characteristic of the social structure of the Indus Valley Civilization?
+8. Which of the following was a characteristic of the social [structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet) of the Indus Valley Civilization?
 a) Urban-rural divide
 b) Social hierarchy
 c) Governance by local councils

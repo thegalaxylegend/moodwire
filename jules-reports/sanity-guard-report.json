@@ -1,9 +1,9 @@
 {
-  "date": "2026-04-29T03:17:18.844Z",
+  "date": "2026-04-30T03:20:04.516Z",
   "summary": {
-    "total": 219,
+    "total": 222,
     "errors": 0,
-    "warnings": 192,
+    "warnings": 195,
     "clean": 38
   },
   "issues": [
@@ -236,7 +236,7 @@
       "file": "chemistry-in-everyday-life-class-12-notes.md",
       "errors": [],
       "warnings": [
-        "Light Content: Body is 1120 words (Ideal: 1500+)"
+        "Light Content: Body is 1121 words (Ideal: 1500+)"
       ]
     },
     {
@@ -988,6 +988,13 @@
       ]
     },
     {
+      "file": "print-culture-and-the-modern-world-class-10-notes.md",
+      "errors": [],
+      "warnings": [
+        "Potential raw LaTeX detected outside of $...$ delimiters"
+      ]
+    },
+    {
       "file": "probability-class-11-revision-notes-jee.md",
       "errors": [],
       "warnings": [
@@ -1194,10 +1201,24 @@
       ]
     },
     {
+      "file": "the-age-of-industrialisation-class-10-notes.md",
+      "errors": [],
+      "warnings": [
+        "Potential raw LaTeX detected outside of $...$ delimiters"
+      ]
+    },
+    {
       "file": "the-living-world-class-11-revision-notes-neet.md",
       "errors": [],
       "warnings": [
         "Light Content: Body is 1475 words (Ideal: 1500+)"
+      ]
+    },
+    {
+      "file": "the-making-of-a-global-world-class-10-notes.md",
+      "errors": [],
+      "warnings": [
+        "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
     {

@@ -34,7 +34,7 @@ manualReview: false
 - **Question 2:** Find the median of the [numbers](/blog/rational-numbers-class-8-notes) 1, 3, 5, 7, 9.
   Step 1: Arrange the data ∈ ascending order: 1, 3, 5, 7, 9
   Step 2: Find the middle value: 5
-- **Question 3:** Find the mode of the numbers 2, 2, 3, 3, 3, 4, 4, 4, 4.
+- **Question 3:** Find the mode of the [numbers](/blog/rational-numbers-class-8-notes) 2, 2, 3, 3, 3, 4, 4, 4, 4.
   Step 1: Find the frequency of each value: 2 occurs 2 times, 3 occurs 3 times, 4 occurs 4 times
   Step 2: Find the value with the highest frequency: 4
 

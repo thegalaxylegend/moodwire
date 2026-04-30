@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/the-p-block-elements-11-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: April 29, 2026*
+*Last Updated: April 30, 2026*
 
 ## 📑 Table of Contents
 
@@ -118,7 +118,7 @@ Why students get it wrong: Students often overlook the metalloids and noble gase
 ## <a id="practice-mcqs"></a>Practice MCQs
 
 Here are 5 practice MCQs with solutions:
-1. What is the electronic configuration of the elements and group 13?
+1. What is the electronic configuration of the [elements](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) and group 13?
 A) $ns^2np^1$
 B) $ns^2np^2$
 C) $ns^2np^3$

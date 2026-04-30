@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/units-n-measurements-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: April 29, 2026*
+*Last Updated: April 30, 2026*
 
 ## 📑 Table of Contents
 
@@ -240,7 +240,7 @@ Continue your [revision](/blog/limits-derivatives-class-11-revision-notes-jee-ne
 ## 🔁 Last 5 Minutes Box
 
 - **SI Units**: Length (m), Mass (kg), Time (s), Temperature (K), [Current](/blog/current-electricity-class-11-revision-notes-neet) (A), Luminous Intensity (cd), Amount of Substance (mol)
-   - **Dimensional Formula**: [M] Mass, [L] Length, [T] Time, [I] Current
+   - **Dimensional Formula**: [M] Mass, [L] Length, [T] Time, [I] [Current](/blog/current-electricity-class-11-revision-notes-neet)
    - **Error**: Absolute Error, Relative Error, Percentage Error
    - **Significant Figures**: Rules for addition, subtraction, multiplication, division
    - **Rounding Off**: Rounding off the same number of significant figures

@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/structure-of-atom-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: April 29, 2026*
+*Last Updated: April 30, 2026*
 
 ## 📑 Table of Contents
 
@@ -218,7 +218,7 @@ For an orbital with quantum numbers $n$ n $l$:
 
 **Why?**
 1. **Symmetry**: Half-filled and fully-filled shells are more symmetric, reducing internal repulsion.
-2. **Exchange Energy**: Electrons with the same spin can swap positions. The more swap possibilities (n half/full shells), the more energy is released, making the atom more stable.
+2. **Exchange Energy**: Electrons with the same spin can swap positions. The more swap possibilities (n half/full shells), the more energy is released, making the [atom](/blog/structure-of-the-atom-class-11-revision-notes-neet) more stable.
 
 ---
 

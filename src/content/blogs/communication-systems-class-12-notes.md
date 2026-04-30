@@ -40,7 +40,7 @@ manualReview: false
 - **Step 2:** Calculate the data transfer rate using the formula R = B log₂(1 + SNR), where R is the data transfer rate, B is the bandwidth, and SNR is the signal-to-noise ratio
 - **Step 3:** Substitute the values and calculate the data transfer rate (100 kHz log₂(1 + 10) = 665.74 kbps)
 - **Answer:** 665.74 kbps
-- **Question 3:** A digital signal is transmitted through a communication system with a data transfer rate of 1 Mbps. If the signal is sampled at a rate of 2 MHz, what is the number of bits per sample?
+- **Question 3:** A digital signal is transmitted through a communication system with a data transfer rate of 1 Mbps. If the signal is sampled at a rate of 2 MHz, what is the [number](/blog/number-systems-class-9-notes) of bits per sample?
 - **Step 1:** Identify the data transfer rate (1 Mbps) and the sampling rate (2 MHz)
 - **Step 2:** Calculate the number of bits per sample using the formula n = R/fₛ, where n is the number of bits per sample, R is the data transfer rate, and fₛ is the sampling rate
 - **Step 3:** Substitute the values and calculate the number of bits per sample (1 Mbps / 2 MHz = 0.5 bits per sample)
@@ -50,7 +50,7 @@ manualReview: false
 - Most students get confused between the concepts of amplitude modulation (AM) and frequency modulation (FM). They often forget that ∈ AM, the amplitude of the carrier wave is varied ∈ accordance with the message signal, while ∈ FM, the frequency of the carrier wave is varied.
 
 ## 👁️ Ayush's Note
-- To solve problems related to communication systems, it is essential to understand the concepts of signal modulation and demodulation, and the difference between analog and digital communication systems.
+- To solve problems related to communication [systems](/blog/operating-systems-class-12-notes), it is essential to understand the concepts of signal modulation and demodulation, and the difference between analog and digital communication [systems](/blog/operating-systems-class-12-notes).
 - Practice problems related to signal-to-noise ratio (SNR) and data transfer rate to improve your understanding of these concepts.
 - Make sure to remember the formulas related to communication systems, such as the formula for signal-to-noise ratio (SNR) and the formula for data transfer rate.
 

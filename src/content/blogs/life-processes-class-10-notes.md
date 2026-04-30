@@ -23,7 +23,7 @@ manualReview: false
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not understanding the difference between photosynthesis and respiration
 - Forgetting the equation for transpiration rate
-- Not knowing the human digestive system equation
+- Not knowing the [human](/blog/human-eye-and-colourful-world-class-10-notes) digestive system equation
 - Confusing osmosis with diffusion
 - Not being able to expla∈ the human excretory system equation
 
@@ -43,7 +43,7 @@ manualReview: false
 ## 👁️ Ayush's Note
 - To score well ∈ the exam, it is essential to have a thorough understanding of the [life](/blog/chemistry-in-everyday-life-class-12-notes) processes, including photosynthesis, respiration, transpiration, and human physiology
 - Practice drawing diagrams of the human digestive system, excretory system, and plant transport system
-- Make sure to learn the equations and formulas, including the photosynthesis equation, respiration equation, and transpiration rate equation
+- Make sure to learn the [equations](/blog/chemical-reactions-and-equations-class-10-notes) and formulas, including the photosynthesis equation, respiration equation, and transpiration rate equation
 
 ## 🔁 Last 5 Minutes Box
 - Quickly revise the formulas and equations, including the photosynthesis equation and respiration equation
@@ -115,7 +115,7 @@ D) Lungs
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/life-processes-class-10-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/[life](/blog/chemistry-in-everyday-life-class-12-notes)-processes-class-10-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

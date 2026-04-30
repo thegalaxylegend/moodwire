@@ -21,7 +21,7 @@ manualReview: false
 - Not understanding the difference between strong and weak acids and bases, e.g. HCl is a strong acid, while CH₃COOH is a weak acid
 - Not knowing the uses of different types of catalysts, e.g. enzymes, zeolites, and transition metal complexes
 - Not being able to calculate the pH of a solution using the Henderson-Hasselbalch equation
-- Not understanding the concept of buffer solutions and their importance ∈ everyday [life](/blog/life-processes-class-10-notes), e.g. blood pH regulation
+- Not understanding the concept of buffer solutions and their importance ∈ every day [life](/blog/life-processes-class-10-notes), e.g. blood pH regulation
 - Not being able to identify the type of reaction, e.g. redox, acid-base, or precipitation reaction
 
 ## ✏️ 3 Solved PYQs
@@ -44,7 +44,7 @@ manualReview: false
 - Concentration is the amount of substance per unit volume, while activity is the effective concentration of a substance ∈ a solution
 
 ## 👁️ Ayush's Note
-- To solve problems related to chemical reactions ∈ everyday life, first identify the type of reaction, e.g. redox, acid-base, or precipitation reaction
+- To solve problems related to chemical reactions ∈ everyday [life](/blog/life-processes-class-10-notes), first identify the type of reaction, e.g. redox, acid-base, or precipitation reaction
 - Then, use the relevant equations and formulas to solve the problem, e.g. Henderson-Hasselbalch equation for buffer solutions
 - Always check the units of the quantities involved, and make sure to use the correct formulas and equations
 - Practice solving problems related to chemical reactions ∈ everyday life, and try to relate them to real-life situations

@@ -12,7 +12,7 @@ manualReview: false
 - Rational [numbers](/blog/real-numbers-class-10-notes) are of the form p/q where p, q are integers and q ≠ 0
 - Equivalent rational [numbers](/blog/real-numbers-class-10-notes) are obtained by multiplying or dividing both numerator and denominator by the same non-zero integer
 - Standard form of a rational number is p/q where p, q have no common factors and q ≠ 0
-- Rational numbers can be represented on a number line
+- Rational [numbers](/blog/real-numbers-class-10-notes) can be represented on a number line
 - Additive inverse of a rational number p/q is -p/q
 - Multiplicative inverse of a rational number p/q is q/p
 - p/q + r/s = (ps + qr)/qs

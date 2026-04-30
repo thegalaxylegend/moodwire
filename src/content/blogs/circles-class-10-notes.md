@@ -147,7 +147,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
 
 - 📖 [Areas Related To Circles Class 10 Exam Prep Revision — Grandmaster Guide](/blog/areas-related-to-circles-class-10-notes)
 - 📖 [Real Numbers Class 10 Exam Prep Revision — Grandmaster Guide](/blog/real-numbers-class-10-notes)

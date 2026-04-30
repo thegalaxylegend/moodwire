@@ -51,14 +51,14 @@ manualReview: false
 - To solve problems related to carbon and its [compounds](/blog/coordination-compounds-class-12-notes), first recall the general formulas for alkanes, alkenes, and alkynes
 - Then, recall the combustion [reactions](/blog/chemical-reactions-and-equations-class-10-notes) of alkanes, alkenes, and alkynes
 - Practice writing the structural formulas for isomers of alkanes
-- Make a list of functional groups ∈ organic compounds and practice identifying them
+- Make a list of functional groups ∈ organic [compounds](/blog/coordination-compounds-class-12-notes) and practice identifying them
 
 ## 🔁 Last 5 Minutes Box
 - Recall the allotropy of carbon: diamond, graphite, fullerenes
 - Recall the tetravalency of carbon: carbon has 4 valence electrons
 - Recall the hybridization of carbon: sp³, sp², sp
 - Recall the general formulas for alkanes, alkenes, and alkynes
-- Recall the combustion reactions of alkanes, alkenes, and alkynes
+- Recall the combustion [reactions](/blog/chemical-reactions-and-equations-class-10-notes) of alkanes, alkenes, and alkynes
 
 ## 📝 Practice MCQs
 **1. What is the general formula for alkanes?**

@@ -1,20 +1,20 @@
 {
-  "version": "2026-04-29T03:17:02.177Z",
+  "version": "2026-04-30T03:19:47.143Z",
   "generatedBy": "prompt-evolution-engine-v1.0",
-  "evolvedPrompt": "You are a strict, top 1% JEE/NEET ranker creating a \"Last-Night Revision Format\" study guide.\nYour sole purpose is to provide exactly what a student needs to read 12 hours before their exam to maximize their score.\nTarget Length: Aim for a comprehensive 1500 to 2000 words, with a balance of theory and practice, across 13-17 H2 headings.\nVoice: Specific, data-driven, authentic student tone. NO FILLER. No fluff. No introductions.\nFormat Rule: A student reads this once, closes the tab, and walks into the exam confident.\nNEVER use phrases like \"In conclusion\", \"delve into\", \"comprehensive\", \"embark on your journey\".\nALWAYS use high formula density, with a mix of 25-35 bullets and 3-5 MCQs, depending on the subject.\nWhen using LaTeX, ALWAYS use \\text{} wrappers for units and prefer simple notation.\nOptimize your content for search using keywords like \"exam compass\", \"jee compass\", \"neet blueprint 2027\".\nUse a balanced style, with a focus on bullet points, and ensure that each section is at least 150 words.\nUse desktop and mobile traffic data to inform your tone and depth, with an emphasis on engagement and active users.",
+  "evolvedPrompt": "You are a strict, top 1% JEE/NEET ranker creating a \"Last-Night Revision Format\" study guide.\nYour sole purpose is to provide exactly what a student needs to read 12 hours before their exam to maximize their score.\nTarget Length: Aim for a comprehensive guide within the 1500 to 2000 word limit.\nVoice: Specific, data-driven, authentic student tone. NO FILLER. No fluff. No introductions.\nFormat Rule: A student reads this once, closes the tab, and walks into the exam confident.\nNEVER use phrases like \"In conclusion\", \"delve into\", \"comprehensive\", \"embark on your journey\".\nALWAYS prioritize bullet points, with a minimum of 60 bullets per guide.\nNEVER include thin content; ensure each section is at least 150 words.\nALWAYS use \\text{} wrappers for units and prefer simple notation over complex LaTeX.\nWhen writing, consider search-optimized keywords like \"exam compass\", \"jee compass\", and \"neet blueprint 2027\" to enhance discoverability.\nWrite with a focus on high formula density and include 5 MCQs for subjects that require them.\nTo drive engagement, maintain a tone that resonates with desktop and mobile users alike, given the device breakdown.\nEnsure the content is accessible and engaging for the active user base of 142 users, with a goal to increase average engagement time.",
   "temperature": 0.7,
   "subjectTargets": {
     "Physics": {
       "minWords": 1500,
       "maxWords": 2000,
       "formulaDensity": "high",
-      "mcqCount": 3
+      "mcqCount": 5
     },
     "Chemistry": {
       "minWords": 1500,
       "maxWords": 2000,
       "formulaDensity": "high",
-      "mcqCount": 3
+      "mcqCount": 5
     },
     "Biology": {
       "minWords": 1500,
@@ -26,35 +26,35 @@
       "minWords": 1500,
       "maxWords": 2000,
       "formulaDensity": "high",
-      "mcqCount": 3
+      "mcqCount": 5
     },
     "History": {
       "minWords": 1200,
       "maxWords": 1800,
       "formulaDensity": "none",
-      "mcqCount": 5
+      "mcqCount": 0
     },
     "Geography": {
       "minWords": 1200,
       "maxWords": 1800,
       "formulaDensity": "low",
-      "mcqCount": 5
+      "mcqCount": 0
     },
     "Social Science": {
       "minWords": 1200,
       "maxWords": 1800,
       "formulaDensity": "none",
-      "mcqCount": 5
+      "mcqCount": 0
     }
   },
   "changelog": [
-    "Added structural targets based on winning patterns",
-    "Included anti-patterns from failure data as explicit 'NEVER DO' rules",
-    "Adjusted tone and depth based on traffic data",
-    "Added section for search-optimized writing using top-ranking keywords",
-    "Maintained LaTeX escaping rules and emphasis on bullet points"
+    "Added structural targets for each subject based on winning patterns.",
+    "Incorporated anti-patterns from failure data as explicit 'NEVER DO' rules.",
+    "Adjusted tone and depth based on traffic data.",
+    "Added a section for search-optimized writing using top-ranking keywords.",
+    "Maintained LaTeX escaping rules, JSON restrictions, HTML bans, and emphasis on bullet points."
   ],
-  "confidence": 0.85,
+  "confidence": 0.9,
   "metadata": {
     "sourcesUsed": {
       "contentPatterns": true,

@@ -43,7 +43,7 @@ manualReview: false
 - When dealing with inverse [trigonometric](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) functions, always check the doma∈ and range, and make sure to use the principal values, also, try to simplify the expression as much as possible before applying the inverse [trigonometric](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) function, and use the identities to simplify the expression, like s∈⁻¹(x) + cos⁻¹(x) = π/2, and tan⁻¹(x) + tan⁻¹(1/x) = π/2, x > 0
 
 ## 🔁 Last 5 Minutes Box
-- Make sure to check the doma∈ and range of the inverse trigonometric functions
+- Make sure to check the doma∈ and range of the inverse [trigonometric](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) functions
 - Use the principal values of s∈⁻¹(x), cos⁻¹(x), and tan⁻¹(x)
 - Simplify the expression as much as possible before applying the inverse trigonometric function
 - Use the identities to simplify the expression

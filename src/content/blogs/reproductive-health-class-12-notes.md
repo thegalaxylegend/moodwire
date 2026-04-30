@@ -37,7 +37,7 @@ manualReview: false
 
 ## 🧠 The One Thing Most Students Get Wrong
 - Most students get confused between the different types of contraceptive methods and their mechanisms of action 
-- They also struggle to understand the concept of fertility span and how it affects reproductive health 
+- They also struggle to understand the concept of fertility span and how it affects reproductive [health](/blog/human-health-and-disease-class-12-notes) 
 - Another common mistake is not being able to calculate the fertility rate and contraceptive prevalence rate 
 
 ## 👁️ Ayush's Note

@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/rotational-motion-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: April 29, 2026*
+*Last Updated: April 30, 2026*
 
 ## 📑 Table of Contents
 
@@ -217,7 +217,7 @@ Continue your [revision](/blog/oscillations-class-11-revision-notes-jee-neet) wi
 * **Moment of Inertia (I)**: I = mr² for point mass, I = (1/2)mr² for disc, I = (2/5)mr² for sphere
 *   **Torque (τ)**: τ = r x F = rF\\sinθ 
 * **Angular Momentum (L)**: L = Iω = r x p
-* **Equations of Rotational Motion**: θ = ω₀t + (1/2)αt², ω = ω₀ + αt, ω² = ω₀² + 2αθ
+* **Equations of Rotational [Motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)**: θ = ω₀t + (1/2)αt², ω = ω₀ + αt, ω² = ω₀² + 2αθ
 * **Relationship between Linear and Angular Quantities**: v = rω, a = rα, F = (m/r)τ
 * **Conservation of Angular Momentum**: L₁ = L₂, I₁ω₁ = I₂ω₂
 * **Rotational Kinetic Energy**: K = (1/2)Iω² = (1/2)(mr²)ω² = (1/2)mv²

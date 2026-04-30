@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/structure-of-the-atom-class-11-revision-notes-neet"
 ---
 
-*Last Updated: April 29, 2026*
+*Last Updated: April 30, 2026*
 
 ## 📑 Table of Contents
 
@@ -101,7 +101,7 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/[structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet)-of-the-atom-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Structure%20Of%20The%20Atom%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet)%20Of%20The%20Atom%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

@@ -50,7 +50,7 @@ manualReview: false
     - h = (20)²/(2 × 9.8) = 20.41 m
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students get confused between the equations of motion ∈ one dimension and two dimensions. They often forget to consider the direction of vectors and the components of velocity and acceleration.
+- Most students get confused between the equations of [motion](/blog/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet) ∈ one dimension and two dimensions. They often forget to consider the direction of vectors and the components of velocity and acceleration.
 
 ## 👁️ Ayush's Note
 - To solve problems related to motion ∈ a plane, first identify the type of motion (projectile, circular, or relative). Then, break down the motion into its components (horizontal and vertical) and apply the equations of motion to each component separately.

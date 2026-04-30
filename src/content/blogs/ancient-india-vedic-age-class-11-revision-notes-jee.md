@@ -82,7 +82,7 @@ For students preparing for exams, it's essential to understand the chronological
 4. The Upanishads were composed during which period?
    - A) Early Vedic Period
    - B) Late Vedic Period
-   - C) Ancient Indian Period
+   - C) [Ancient](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) Indian Period
    - D) Medieval Indian Period
    **Answer: B) Late Vedic Period**
 

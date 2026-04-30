@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/plant-growth-n-development-class-11-revision-notes-neet"
 ---
 
-*Last Updated: April 29, 2026*
+*Last Updated: April 30, 2026*
 
 ## 📑 Table of Contents
 
@@ -146,7 +146,7 @@ D) Photoperiodic [plant](/blog/plant-kingdom-class-11-revision-notes-neet)
 
 Answer: A) Short-day [plant](/blog/plant-kingdom-class-11-revision-notes-neet)
 
-5. What is the formula for auxin-induced cell elongation?
+5. What is the formula for auxin-induced [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) elongation?
  A) \frac{dL}{dt} = dt}{\frac{dL}{dt} = k · \frac{dC}{dt}} 
 B) 
  C) \frac{dL}{dt} = dt}{\frac{dL}{dt} = k · \frac{dE}{dt}}  D)  Answer: A) \frac{dL}{dt} = k · \frac{dA}{dt} 

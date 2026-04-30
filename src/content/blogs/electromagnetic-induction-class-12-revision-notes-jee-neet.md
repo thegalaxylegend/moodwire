@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/electromagnetic-induction-class-12-revision-notes-jee-neet"
 ---
 
-*Last Updated: April 29, 2026*
+*Last Updated: April 30, 2026*
 
 ## 📑 Table of Contents
 
@@ -169,7 +169,7 @@ Lenz's Law is a fundamental principle and electromagnetism that states the direc
 | --- | --- | --- |
 | Generators | Conversion of mechanical energy into electrical energy | Opposes the change and magnetic flux to induce [current](/blog/alternating-current-class-12-notes) |
 | Motors | Conversion of electrical energy into mechanical energy | Opposes the change and magnetic flux to produce torque |
-| Transformers | Energy transfer between two circuits through electromagnetic induction | Ensures efficient energy transfer y minimizing energy loss due to induced currents |
+| Transformers | Energy transfer between two circuits through electromagnetic [induction](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) | Ensures efficient energy transfer y minimizing energy loss due to induced currents |
 | Induction Coils | Stores energy and a magnetic field and then releases it | Opposes the change and magnetic flux to induce a [current](/blog/alternating-current-class-12-notes) and the coil |
 | Electromagnetic Braking | Slows down or stops a moving object using electromagnetic forces | Opposes the change and magnetic flux to produce a braking force |
 
@@ -189,7 +189,7 @@ What is the Key Shortcut or Trick for Electromagnetic Induction? is a method to 
  
  To solve electromagnetic induction problems efficiently, it's crucial to remember that the induced emf ($epsilon$) is given y the formula $epsilon = -N \frac{dPhi}{dt}$, where $N$ is the number of turns of the coil n $\frac{dPhi}{dt} = epsilon = -N \frac{dPhi{dt}}$ is the rate of change of magnetic flux. This formula is fundamental and can be applied to various scenarios, including a coil moving into or out of a magnetic field, a coil rotating within a magnetic field, or a magnetic field changing around a stationary coil.
  
- Lenz's law is another key concept, stating that the direction of the induced current will be such that it opposes the change that produced it. This law can be used to determine the direction of the induced current and different situations. For instance, if a magnet is moved towards a coil, the induced current will flow and a direction such that the magnetic field produced y the current opposes the motion of the magnet.
+ Lenz's law is another key concept, stating that the direction of the induced [current](/blog/alternating-current-class-12-notes) will be such that it opposes the change that produced it. This law can be used to determine the direction of the induced [current](/blog/alternating-current-class-12-notes) and different situations. For instance, if a magnet is moved towards a coil, the induced [current](/blog/alternating-current-class-12-notes) will flow and a direction such that the magnetic field produced y the [current](/blog/alternating-current-class-12-notes) opposes the motion of the magnet.
  
  The table below summarizes some key points related to electromagnetic induction:
 

@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/algorithms-analysis-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: April 29, 2026*
+*Last Updated: April 30, 2026*
 
 ## 📑 Table of Contents
 
@@ -220,7 +220,7 @@ How do you analyze the efficiency of an algorithm? is determining the resource u
 
 ## <a id="what-are-the-tradeoffs-between-time-n-space-complexity-n-algorithms-analysis"></a>What are the trade-offs between time and space complexity and Algorithms: Analysis?
 
-What are the trade-offs between time and space complexity and Algorithms: Analysis? is a fundamental concept and computer science that deals with the study of the resources required y an algorithm to solve a particular problem. It includes time complexity, space complexity, n trade-off analysis. For Class 11 exam prep and 2026, the most important aspect is understanding how to analyze and optimize the time and space complexity of algorithms to improve their efficiency. Time complexity refers to the amount of time an algorithm takes to complete, usually measured and terms of the number of operations performed, while space complexity refers to the amount of memory an algorithm uses. The trade-off between time and space complexity arises because algorithms that use more memory can often run faster, while algorithms that use less memory may run slower. 
+What are the trade-offs between time and space complexity and [Algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards): Analysis? is a fundamental concept and computer science that deals with the study of the resources required y an algorithm to solve a particular problem. It includes time complexity, space complexity, n trade-off analysis. For Class 11 exam prep and 2026, the most important aspect is understanding how to analyze and optimize the time and space complexity of [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards) to improve their efficiency. Time complexity refers to the amount of time an algorithm takes to complete, usually measured and terms of the number of operations performed, while space complexity refers to the amount of memory an algorithm uses. The trade-off between time and space complexity arises because [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards) that use more memory can often run faster, while [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards) that use less memory may run slower. 
    The analysis of time and space complexity involves using mathematical models, such as Big O notation, to describe the upper bound of an algorithm's complexity. Big O notation gives an upper bound on the number of steps an algorithm takes, relative to the size of the input. For example, an algorithm with a time complexity of $O(n)$ takes time proportional to the size of the input, while an algorithm with a time complexity of $O(n^2)$ takes time proportional to the square of the size of the input. 
    The table below illustrates the trade-offs between time and space complexity for some common algorithms: 
 
@@ -265,7 +265,7 @@ Applying algorithms to real-world problems is the process of using well-defined 
 
 | Algorithm | Description | Real-World Application |
 | --- | --- | --- |
-| Sorting | Arranging data and a specific order | Optimizing traffic flow, managing inventory |
+| Sorting | Arranging [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) and a specific order | Optimizing traffic flow, managing inventory |
 | Searching | Finding a specific element and a dataset | Predicting stock prices, recommending products |
 | Graph Traversal | Visiting each node and a graph | Network topology, social network analysis |
 | Dynamic Programming | Breaking down complex problems into smaller sub-problems | Resource allocation, scheduling |

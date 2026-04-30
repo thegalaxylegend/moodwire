@@ -47,7 +47,7 @@ manualReview: false
 - Most students get the sign convention wrong when dealing with mirror and lens [equations](/blog/chemical-reactions-and-equations-class-10-notes). Remember that the object distance is always negative for a virtual object, and the image distance is always positive for a real image.
 
 ## 👁️ Ayush's Note
-- Always use the correct sign convention when dealing with mirror and lens equations
+- Always use the correct sign convention when dealing with mirror and lens [equations](/blog/chemical-reactions-and-equations-class-10-notes)
 - Make sure to consider the medium when calculating refractive index
 - Use Snell's law when dealing with refraction
 - Apply the lensmaker's formula correctly

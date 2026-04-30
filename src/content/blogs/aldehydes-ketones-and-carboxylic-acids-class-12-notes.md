@@ -63,7 +63,7 @@ manualReview: false
 ## 🔁 Last 5 Minutes Box
 - Quickly review the formula bank and key reactions.
 - Focus on distinguishing between aldehydes and ketones.
-- Remember the importance of carboxylic acid derivatives.
+- Remember the importance of carboxylic acid [derivatives](/blog/application-of-derivatives-class-12-notes).
 - Apply the correct reagents and conditions for specific reactions.
 
 ## 📝 Practice MCQs

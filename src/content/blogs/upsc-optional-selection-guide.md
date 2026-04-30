@@ -52,7 +52,7 @@ manualReview: false
 - Focus on building a strong foundation ∈ core subjects for JEE 2026 and NEET 2026
 - Choose UPSC optional subjects wisely based on aptitude and interest
 - Practice and revise regularly to improve scores
-- Analyze past year papers to identify areas of improvement
+- Analyze past year papers to identify [areas](/blog/areas-related-to-circles-class-10-notes) of improvement
 - Seek guidance from experienced mentors and teachers
 - Stay motivated and focused to achieve success ∈ UPSC and JEE/NEET exams
 

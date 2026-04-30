@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/planning-n-india-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: April 29, 2026*
+*Last Updated: April 30, 2026*
 
 ## 📑 Table of Contents
 
@@ -104,7 +104,7 @@ When studying planning in [India](/blog/ancient-india-mahajanapadas-class-11-rev
 * Failing to recognize the importance of planning in [India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)'s economic development, which can result in incomplete or inaccurate answers.
 * Not being able to identify the focus areas of each Five-Year Plan, such as agriculture, rapid industrialization, or growth with stability.
 * Confusing the roles of different planning bodies and institutions in [India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee), such as the Planning Commission and the NITI Aayog.
-* Not keeping up-to-date with current events and changes in planning policies and strategies in India, which can make answers seem outdated or irrelevant.
+* Not keeping up-to-date with current events and changes in planning policies and strategies in [India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee), which can make answers seem outdated or irrelevant.
 
 ## 🔁 Last 5 Minutes Revision Box
 

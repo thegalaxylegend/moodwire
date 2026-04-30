@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/computer-organization-class-11-notes"
 ---
 
-*Last Updated: April 29, 2026*
+*Last Updated: April 30, 2026*
 
 ## 📑 Table of Contents
 
@@ -146,7 +146,7 @@ The Central Processing Unit (CPU) is a hardware component that executes instruct
 
 What is the Role of the Control Unit and a Computer? is the component that directs the flow of data and instructions within a computer. It includes the **Arithmetic [Logic](/blog/digital-logic-class-11-revision-notes-gate-boards) Unit (ALU)**, **Registers**, n **Decoders**. For class 11 exam prep and 2026, the most important aspect is understanding how the control unit manages the **fetch-decode-execute cycle**.
 
- The control unit acts as the brain of the computer, overseeing the execution of instructions. It retrieves instructions from memory, decodes them, n then executes them. This process is fundamental to the operation of a computer and is a critical area of study for computer science students. The control unit's primary function is to manage the flow of data between different parts of the computer, such as the **Central Processing Unit (CPU)**, memory, n input/output devices.
+ The control unit acts as the brain of the computer, overseeing the execution of instructions. It retrieves instructions from memory, decodes them, n then executes them. This process is fundamental to the operation of a computer and is a critical area of study for computer science students. The control unit's primary function is to manage the flow of [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) between different parts of the computer, such as the **Central Processing Unit (CPU)**, memory, n input/output devices.
 
  The control unit's role can be broken down into several key steps:
  * **Instruction Fetch**: The control unit retrieves an instruction from memory.
@@ -341,7 +341,7 @@ High speed
 Low power consumption
 Easy to implement
 
-**Answer:** B) Hardwired Logic is an advantage and terms of speed as it involves direct wiring of circuits, which results and faster execution of instructions.
+**Answer:** B) Hardwired [Logic](/blog/digital-logic-class-11-revision-notes-gate-boards) is an advantage and terms of speed as it involves direct wiring of circuits, which results and faster execution of instructions.
 
 **5. What is the purpose of the Bus and a computer system?**
 To manage data transfer between devices

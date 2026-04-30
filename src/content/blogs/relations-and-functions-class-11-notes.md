@@ -34,7 +34,7 @@ A relation in mathematics is a way of describing a connection between two or mor
 A function, on the other hand, is a special type of relation between two sets, where each element of the first set is related to exactly one element of the second set. In other words, a function $f$ from $A$ to $B$ is a relation between $A$ and $B$ such that for every $a in A$, there exists a unique $b in B$ such that $(a, b) in f$. This can be represented mathematically as $f: A 	o B$, where $f(a) = b$. For example, the relation $f = {(1, 2), (2, 4), (3, 6)}$ is a function because each element of the domain ${1, 2, 3}$ is mapped to exactly one element of the codomain ${2, 4, 6}$.
 
 ## Types of Relations
-There are several types of relations that are important in mathematics, including:
+There are several types of [relations](/blog/relations-functions-class-11-revision-notes-jee-neet) that are important in mathematics, including:
 * **Reflexive Relations**: A relation $R$ on a set $A$ is reflexive if $(a, a) in R$ for every $a in A$. For example, the relation $R = {(1, 1), (2, 2), (3, 3)}$ on the set ${1, 2, 3}$ is reflexive.
 * **Symmetric Relations**: A relation $R$ on a set $A$ is symmetric if $(a, b) in R$ implies $(b, a) in R$. For instance, the relation $R = {(1, 2), (2, 1)}$ on the set ${1, 2}$ is symmetric.
 * **Transitive Relations**: A relation $R$ on a set $A$ is transitive if $(a, b) in R$ and $(b, c) in R$ implies $(a, c) in R$. For example, the relation $R = {(1, 2), (2, 3), (1, 3)}$ on the set ${1, 2, 3}$ is transitive.

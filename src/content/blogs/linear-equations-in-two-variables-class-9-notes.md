@@ -19,7 +19,7 @@ manualReview: false
 - Not checking if the given equation is [linear](/blog/linear-programming-class-12-notes) or not before solving it.
 - Not writing the equation ∈ the standard form ax + by + c = 0.
 - Forgetting to check for any restrictions on the variables.
-- Not using the correct method to solve the system of equations.
+- Not using the correct method to solve the system of [equations](/blog/differential-equations-class-12-notes).
 - Not verifying the solution by plugging it back into the original equation.
 
 ## ✏️ 3 Solved PYQs
