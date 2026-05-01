@@ -1,5 +1,6 @@
 
 import React, { useEffect } from 'react';
+import { useScrollLock } from '../../hooks/useScrollLock';
 import { motion, AnimatePresence } from 'framer-motion';
 import { getRankByValue } from '../../services/gamificationService';
 import confetti from 'canvas-confetti';
@@ -11,6 +12,7 @@ interface LevelUpModalProps {
 
 export const LevelUpModal: React.FC<LevelUpModalProps> = ({ newXp, onClose }) => {
     const rank = getRankByValue(newXp);
+    useScrollLock(true);
 
     useEffect(() => {
         // Trigger multi-burst confetti
@@ -42,9 +44,18 @@ export const LevelUpModal: React.FC<LevelUpModalProps> = ({ newXp, onClose }) =>
         return () => clearTimeout(timer);
     }, [onClose]);
 
+    // Escape to dismiss
+    useEffect(() => {
+        const handleEscape = (e: KeyboardEvent) => {
+            if (e.key === 'Escape') onClose();
+        };
+        window.addEventListener('keydown', handleEscape);
+        return () => window.removeEventListener('keydown', handleEscape);
+    }, [onClose]);
+
     return (
         <AnimatePresence>
-            <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
+            <div className="fixed inset-0 z-[100] flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-label="Rank Promotion">
                 <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -78,7 +89,7 @@ export const LevelUpModal: React.FC<LevelUpModalProps> = ({ newXp, onClose }) =>
                     <p className="text-white/60 text-lg mb-6">You are now a <span className="font-bold" style={{ color: rank.color }}>{rank.name}</span></p>
 
                     <div className="bg-white/5 border border-white/10 rounded-2xl p-4 mb-8">
-                        <p className="text-[10px] text-white/40 uppercase tracking-widest font-bold mb-2 border-b border-white/5 pb-1">New Privileges</p>
+                        <p className="text-[10px] text-white/50 uppercase tracking-widest font-bold mb-2 border-b border-white/5 pb-1">New Privileges</p>
                         <ul className="text-white/80 text-xs space-y-2 text-left list-disc list-inside">
                             <li>Higher Weightage in Global Rank</li>
                             <li>Exclusive Profile Badge unlocked</li>

@@ -1,4 +1,6 @@
 import React from 'react';
+import { useFocusTrap } from '../../../hooks/useFocusTrap';
+import { useDebounce } from '../../../hooks/useDebounce';
 import { Brain, PauseCircle, Timer, AlertTriangle, Coffee, ArrowLeft, TrendingUp, Loader2, X, Send, Volume2, CheckCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import ReactMarkdown from 'react-markdown';
@@ -62,10 +64,12 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
     const { setFatigueNotice, handlePause, handleSubmitExam, setStep, handleAnswer, handleAskAI, setIsSpeaking, setCurrentQ, handlePrevQ, handleNextQ, setAiModalOpen, setAiInput, handleSendAiMessage } = actions;
 
     const q = questions[currentQ];
+    const examTrapRef = useFocusTrap(true);
+    const debouncedSendAiMessage = useDebounce(handleSendAiMessage, 500);
     if (!q) return <div>Error loading question. <button onClick={() => window.location.reload()}>Retry</button></div>;
 
     return (
-        <div className="fixed inset-0 z-[100] bg-background overflow-y-auto">
+        <div ref={examTrapRef} tabIndex={-1} className="fixed inset-0 z-[100] bg-background overflow-y-auto" style={{ outline: 'none' }}>
             <div className="max-w-4xl mx-auto space-y-6 p-4 md:p-8 animate-fade-in-up">
                 {/* Fatigue Warning Notification */}
                 <AnimatePresence>
@@ -77,7 +81,7 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
                         >
                             <div className="bg-yellow-500/10 border border-yellow-500/20 p-4 rounded-xl flex items-center gap-4 text-yellow-500 relative">
                                 <div className="w-10 h-10 bg-yellow-500/20 rounded-full flex items-center justify-center shrink-0">
-                                    <Coffee size={20} className="animate-bounce" />
+                                    <Coffee size={20} />
                                 </div>
                                 <div className="flex-1">
                                     <h5 className="text-sm font-bold uppercase tracking-wider flex items-center gap-2">
@@ -346,14 +350,14 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
                                 animate={{ opacity: 1 }}
                                 exit={{ opacity: 0 }}
                                 onClick={() => setAiModalOpen(false)}
-                                className="fixed inset-0 z-[190] bg-black/40 backdrop-blur-sm"
+                                className="fixed inset-0 z-[110] bg-black/40 backdrop-blur-sm"
                             />
                             <motion.div
                                 initial={{ x: '100%' }}
                                 animate={{ x: 0 }}
                                 exit={{ x: '100%' }}
                                 transition={{ type: 'spring', damping: 25, stiffness: 200 }}
-                                className="fixed top-2 bottom-2 right-2 md:top-4 md:bottom-4 md:right-4 w-[calc(100%-1rem)] md:w-[480px] z-[200] bg-surface border border-white/10 shadow-2xl flex flex-col rounded-3xl overflow-hidden"
+                                className="fixed top-2 bottom-2 right-2 md:top-4 md:bottom-4 md:right-4 w-[calc(100%-1rem)] md:w-[480px] z-[120] bg-surface border border-white/10 shadow-2xl flex flex-col rounded-3xl overflow-hidden"
                             >
                                 <div className="p-6 border-b border-white/10 flex items-center justify-between bg-white/5 backdrop-blur-md">
                                     <h3 className="text-lg font-bold text-primary flex items-center gap-2">
@@ -420,12 +424,12 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
                                             type="text"
                                             value={aiInput}
                                             onChange={(e) => setAiInput(e.target.value)}
-                                            onKeyDown={(e) => e.key === 'Enter' && handleSendAiMessage()}
+                                            onKeyDown={(e) => e.key === 'Enter' && debouncedSendAiMessage()}
                                             placeholder="Ask a follow-up question..."
                                             className="flex-1 bg-black/20 border border-white/10 rounded-xl px-4 py-3 text-sm text-text-main focus:outline-none focus:border-primary/50"
                                         />
                                         <button
-                                            onClick={handleSendAiMessage}
+                                            onClick={debouncedSendAiMessage}
                                             disabled={!aiInput.trim() || isAiThinking}
                                             className="p-3 bg-primary text-white rounded-xl hover:bg-primary/90 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
                                         >

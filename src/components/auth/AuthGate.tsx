@@ -1,7 +1,8 @@
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useUserStore } from '../../store/userStore';
 import { Lock } from 'lucide-react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useScrollLock } from '../../hooks/useScrollLock';
 
 interface AuthGateProps {
     children: React.ReactNode;
@@ -14,6 +15,16 @@ export const AuthGate = ({ children, fallback, mode = 'modal' }: AuthGateProps) 
     const navigate = useNavigate();
     const location = useLocation();
     const [showModal, setShowModal] = useState(false);
+    useScrollLock(showModal);
+
+    useEffect(() => {
+        if (!showModal) return;
+        const handleEscape = (e: KeyboardEvent) => {
+            if (e.key === 'Escape') setShowModal(false);
+        };
+        window.addEventListener('keydown', handleEscape);
+        return () => window.removeEventListener('keydown', handleEscape);
+    }, [showModal]);
 
     const handleAccess = (e: React.MouseEvent) => {
         if (!user) {
@@ -61,8 +72,8 @@ export const AuthGate = ({ children, fallback, mode = 'modal' }: AuthGateProps) 
             </div>
 
             {showModal && (
-                <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fade-in">
-                    <div className="bg-surface border border-primary/20 p-8 rounded-2xl max-w-sm w-full shadow-2xl relative oxygen-card text-center space-y-6">
+                <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fade-in" role="dialog" aria-modal="true" aria-labelledby="auth-gate-title" onClick={() => setShowModal(false)}>
+                    <div className="bg-surface border border-primary/20 p-8 rounded-2xl max-w-sm w-full shadow-2xl relative oxygen-card text-center space-y-6" onClick={e => e.stopPropagation()}>
                         <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto">
                             <Lock className="text-primary" size={32} />
                         </div>

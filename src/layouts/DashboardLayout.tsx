@@ -200,14 +200,14 @@ export const DashboardLayout = () => {
             {/* Mobile Sidebar Overlay */}
             {isSidebarOpen && (
                 <div
-                    className="fixed inset-0 bg-black/60 backdrop-blur-md z-[999] lg:hidden"
+                    className="fixed inset-0 bg-black/60 backdrop-blur-md z-40 lg:hidden"
                     onClick={() => setIsSidebarOpen(false)}
                 />
             )}
 
             {/* Sidebar */}
             <aside
-                className={`fixed lg:sticky top-0 h-screen bg-surface lg:bg-surface/95 backdrop-blur-md border-r border-border transition-all duration-300 z-[1000] 
+                className={`fixed lg:sticky top-0 h-screen bg-surface lg:bg-surface/95 backdrop-blur-md border-r border-border transition-all duration-300 z-40 
                 ${isSidebarOpen ? 'w-64 translate-x-0' : 'w-64 -translate-x-full lg:translate-x-0 lg:w-20'} 
                 flex flex-col overflow-hidden`}
             >
@@ -273,7 +273,7 @@ export const DashboardLayout = () => {
             </aside>
 
             {/* Mobile Header - Truly Fixed at Top */}
-            <div className="lg:hidden fixed top-0 left-0 right-0 h-16 flex items-center justify-between px-4 bg-background/90 backdrop-blur-xl border-b border-white/5 z-[950]">
+            <div className="lg:hidden fixed top-0 left-0 right-0 h-16 flex items-center justify-between px-4 bg-background/90 backdrop-blur-xl border-b border-white/5 z-30">
                 <span className="text-xl md:text-2xl font-bold text-white tracking-tighter">Exam<span className="text-[#a855f7]">Compass</span></span>
                 <div className="flex items-center gap-3">
                     {/* Streak Display (Mobile) */}

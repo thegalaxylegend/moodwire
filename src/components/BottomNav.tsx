@@ -1,9 +1,11 @@
 import { NavLink } from 'react-router-dom';
 import { Home, Brain, TrendingUp, Calendar, Bookmark } from 'lucide-react';
 import { useLocation } from 'react-router-dom';
+import { useTestMode } from '../hooks/useTestMode';
 
 export const BottomNav = () => {
     const location = useLocation();
+    const isTestMode = useTestMode();
 
     const navItems = [
         { icon: Home, label: 'Home', path: '/dashboard' },
@@ -12,6 +14,9 @@ export const BottomNav = () => {
         { icon: Calendar, label: 'Plan', path: '/dashboard/study-plan' },
         { icon: Bookmark, label: 'Saved', path: '/dashboard/saved-lectures' },
     ];
+
+    // Hide bottom nav during active exams to prevent distraction & navigation away
+    if (isTestMode) return null;
 
     return (
         <div className="fixed bottom-8 left-0 right-0 z-[60] lg:hidden pointer-events-none px-6">
@@ -43,3 +48,4 @@ export const BottomNav = () => {
         </div>
     );
 };
+

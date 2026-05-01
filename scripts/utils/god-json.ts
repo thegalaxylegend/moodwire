@@ -94,12 +94,50 @@ function repairStructure(s: string): string {
         const map: Record<string, string> = { True: 'true', False: 'false', None: 'null', NaN: 'null', Infinity: '9e99' };
         return map[m] ?? m;
     });
-    // Double-escape ALL LaTeX backslashes inside JSON strings
-    // CRITICAL FIX: Old code excluded \b and \f from escaping, which caused
-    // JSON.parse to convert \binom → backspace+inom and \frac → formfeed+rac.
-    // Now we escape ALL non-standard sequences (only preserve \", \\, \/, \n, \r, \t, \uXXXX).
+
+    // ═══════════════════════════════════════════════════════════════════════
+    // CRITICAL: Pre-escape known LaTeX/Greek letter sequences BEFORE
+    // the generic backslash fixer runs. This is the #1 cause of JSON
+    // parse failures — \alpha, \beta, \frac, \binom, \theta, etc.
+    // Without this, \b → backspace and \f → formfeed INSIDE JSON strings,
+    // which corrupts the parse irreversibly.
+    // ═══════════════════════════════════════════════════════════════════════
+    const LATEX_COMMANDS = [
+        'alpha', 'beta', 'gamma', 'delta', 'epsilon', 'zeta', 'eta', 'theta',
+        'iota', 'kappa', 'lambda', 'mu', 'nu', 'xi', 'pi', 'rho', 'sigma',
+        'tau', 'upsilon', 'phi', 'chi', 'psi', 'omega',
+        'Alpha', 'Beta', 'Gamma', 'Delta', 'Epsilon', 'Theta', 'Lambda',
+        'Sigma', 'Phi', 'Psi', 'Omega',
+        'frac', 'sqrt', 'sum', 'prod', 'int', 'lim', 'infty', 'partial',
+        'nabla', 'cdot', 'times', 'div', 'pm', 'mp', 'leq', 'geq', 'neq',
+        'approx', 'equiv', 'propto', 'sim', 'simeq',
+        'sin', 'cos', 'tan', 'cot', 'sec', 'csc', 'log', 'ln', 'exp',
+        'binom', 'text', 'mathrm', 'mathbf', 'vec', 'hat', 'bar', 'dot',
+        'overline', 'underline', 'overbrace', 'underbrace',
+        'left', 'right', 'begin', 'end', 'hbar', 'ell',
+        'forall', 'exists', 'in', 'notin', 'subset', 'supset',
+        'cap', 'cup', 'land', 'lor', 'neg', 'Rightarrow', 'Leftarrow',
+        'rightarrow', 'leftarrow', 'implies', 'iff',
+        'quad', 'qquad', 'space', 'hspace', 'vspace',
+    ];
+    // Build a single regex that matches \command (unescaped backslash + command name)
+    // but only inside JSON string contexts (between quotes)
+    const latexPattern = new RegExp(
+        `(?<!\\\\\\\\.*)\\\\(${LATEX_COMMANDS.join('|')})(?=[^a-zA-Z]|$)`, 'g'
+    );
+    // Safer approach: directly double-escape any \<latex_command> in the raw string
+    for (const cmd of LATEX_COMMANDS) {
+        // Match single backslash + command that isn't already double-escaped
+        const singleBackslash = new RegExp(`(?<!\\\\)\\\\${cmd}(?=[^a-zA-Z]|$)`, 'g');
+        r = r.replace(singleBackslash, `\\\\${cmd}`);
+    }
+
+    // Double-escape ALL remaining non-standard backslash sequences inside JSON strings
+    // Only preserve the 8 standard JSON escapes: \", \\, \/, \n, \r, \t, \b, \f, \uXXXX
+    // NOTE: We now ALSO escape \b and \f because in our context they are ALWAYS LaTeX
+    // (\binom, \beta, \frac, \forall) and never actual backspace/formfeed characters.
     r = r.replace(/"((?:[^"\\]|\\.)*)"/gs, (_m, inner: string) => {
-        const fixed = inner.replace(/\\(?!["\\\/nrtu])/g, '\\\\');
+        const fixed = inner.replace(/\\(?!["\\\//nrtu])/g, '\\\\');
         return `"${fixed}"`;
     });
     return r;
@@ -176,7 +214,7 @@ export function godSafeParse(raw: string): any {
         // L2a: Native parse of block
         try { return JSON.parse(block); } catch { /* continue */ }
 
-        // L3: Structural repairs on block
+        // L3: Structural repairs on block (includes LaTeX backslash escaping)
         const repaired = repairStructure(block);
         try { return JSON.parse(repaired); } catch { /* continue */ }
 
@@ -184,6 +222,12 @@ export function godSafeParse(raw: string): any {
         const quotedFixed = repairQuotes(repaired);
         try { return JSON.parse(quotedFixed); } catch { /* continue */ }
     }
+
+    // L4.5: Full-string structural repair (in case block extraction missed content)
+    try {
+        const fullRepaired = repairStructure(s);
+        return JSON.parse(fullRepaired);
+    } catch { /* continue */ }
 
     // L5: Block fragment hunting — try every complete {...} substring
     const fragments = s.match(/\{[\s\S]*?\}/g) || [];
@@ -196,6 +240,7 @@ export function godSafeParse(raw: string): any {
     const arrFrags = s.match(/\[[\s\S]*?\]/g) || [];
     for (const frag of arrFrags) {
         try { return JSON.parse(frag); } catch { /* continue */ }
+        try { return JSON.parse(repairStructure(frag)); } catch { /* continue */ }
     }
 
     // L7: Markdown scrape

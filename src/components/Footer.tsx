@@ -6,8 +6,12 @@ export const Footer = () => {
     const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="border-t border-white/10 bg-black/80 backdrop-blur-sm min-h-[400px]">
-            <div className="max-w-7xl mx-auto px-6 py-12">
+        <footer className="relative border-t border-white/10 bg-black/95 backdrop-blur-xl min-h-[400px] overflow-hidden">
+            {/* Subtle top glow */}
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-3xl h-[1px] bg-gradient-to-r from-transparent via-purple-500/30 to-transparent"></div>
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-purple-600/5 blur-[120px] rounded-full pointer-events-none"></div>
+            
+            <div className="relative max-w-7xl mx-auto px-6 py-12">
                 {/* Top Section */}
                 <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-10">
                     {/* Brand */}
@@ -15,8 +19,8 @@ export const Footer = () => {
                         <Link to="/" className="text-xl md:text-2xl font-bold text-white tracking-tighter inline-block mb-3">
                             Exam<span className="text-[#a855f7]">Compass</span>
                         </Link>
-                        <p className="text-gray-500 text-sm leading-relaxed mb-4">
-                            India's free AI-powered exam preparation platform for JEE, NEET, CBSE, GATE & UPSC aspirants. 9,000+ verified PYQs.
+                        <p className="text-gray-400 text-sm leading-relaxed mb-4">
+                            India's free AI-powered exam preparation platform for JEE, NEET, and CBSE aspirants. 9,000+ verified PYQs.
                         </p>
                         <div className="flex items-center gap-4">
                             <a href={SOCIAL_LINKS.discord.url} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-[#5865F2] transition-colors" title="Join Discord">
@@ -42,8 +46,6 @@ export const Footer = () => {
                                 { name: 'JEE Mains 2026', href: '/jee-mains' },
                                 { name: 'JEE Advanced 2026', href: '/jee-advanced' },
                                 { name: 'NEET UG 2026', href: '/neet' },
-                                { name: 'GATE Preparation', href: '/gate' },
-                                { name: 'UPSC Preparation', href: '/upsc' },
                             ].map(link => (
                                 <li key={link.name}>
                                     <Link to={link.href} className="text-gray-500 hover:text-white text-sm transition-colors">
@@ -113,9 +115,9 @@ export const Footer = () => {
                 </div>
 
                 {/* SEO Bottom Section — Rich internal link text for crawlers */}
-                <div className="border-t border-white/5 pt-6">
-                    <p className="text-gray-600 text-xs leading-relaxed mb-4">
-                        Exam Compass is India's free AI-powered exam preparation platform. Practice <Link to="/jee-mains" className="text-gray-500 hover:text-white transition-colors">JEE Mains</Link>, <Link to="/jee-advanced" className="text-gray-500 hover:text-white transition-colors">JEE Advanced</Link>, <Link to="/neet" className="text-gray-500 hover:text-white transition-colors">NEET UG</Link>, <Link to="/gate" className="text-gray-500 hover:text-white transition-colors">GATE</Link>, and <Link to="/class-12" className="text-gray-500 hover:text-white transition-colors">CBSE Board</Link> exams with 9,000+ verified NTA Previous Year Questions, unlimited AI mock tests, and personalized study plans. All free, forever.
+                <div className="border-t border-white/10 pt-6">
+                    <p className="text-gray-500/80 text-xs leading-relaxed mb-4">
+                        Exam Compass is India's free AI-powered exam preparation platform. Practice <Link to="/jee-mains" className="text-gray-400 hover:text-white transition-colors">JEE Mains</Link>, <Link to="/jee-advanced" className="text-gray-400 hover:text-white transition-colors">JEE Advanced</Link>, <Link to="/neet" className="text-gray-400 hover:text-white transition-colors">NEET UG</Link>, and <Link to="/class-12" className="text-gray-400 hover:text-white transition-colors">CBSE Board</Link> exams with 9,000+ verified NTA Previous Year Questions, unlimited AI mock tests, and personalized study plans. All free, forever.
                     </p>
                     <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
                         <p className="text-gray-600 text-xs">

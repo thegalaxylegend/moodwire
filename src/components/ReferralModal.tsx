@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useScrollLock } from '../hooks/useScrollLock';
 import { useUserStore } from '../store/userStore';
 import { registerReferralCode } from '../services/referralService';
 import { Copy, Check, Share2, Users, Trophy } from 'lucide-react';
@@ -15,6 +16,16 @@ export const ReferralModal = ({ isOpen, onClose }: ReferralModalProps) => {
     const [code, setCode] = useState(user?.referralCode || "");
     const [loading, setLoading] = useState(false);
     const [copied, setCopied] = useState(false);
+    useScrollLock(isOpen);
+
+    useEffect(() => {
+        if (!isOpen) return;
+        const handleEscape = (e: KeyboardEvent) => {
+            if (e.key === 'Escape') onClose();
+        };
+        window.addEventListener('keydown', handleEscape);
+        return () => window.removeEventListener('keydown', handleEscape);
+    }, [isOpen, onClose]);
 
     const generateCode = async () => {
         if (!user) return;
@@ -62,11 +73,12 @@ export const ReferralModal = ({ isOpen, onClose }: ReferralModalProps) => {
 
     return (
         <AnimatePresence>
-            <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
+            <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm" role="dialog" aria-modal="true" aria-labelledby="referral-title" onClick={onClose}>
                 <motion.div
                     initial={{ scale: 0.9, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
                     exit={{ scale: 0.9, opacity: 0 }}
+                    onClick={e => e.stopPropagation()}
                     className="relative w-full max-w-md bg-[#0f0f13] border border-white/10 rounded-2xl shadow-2xl overflow-hidden"
                 >
                     {/* Header */}

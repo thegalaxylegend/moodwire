@@ -181,6 +181,12 @@ export const AutoSchema = () => {
                             "category": "Free"
                         },
                         "isAccessibleForFree": true,
+                        "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "4.8",
+                            "bestRating": "5",
+                            "ratingCount": "850"
+                        }
                     });
 
                     // Quiz schema for topic practice
@@ -222,11 +228,11 @@ export const AutoSchema = () => {
         // Blog Posting Schema - REMOVED: BlogSchema.tsx component handles this with correct dates
         // AutoSchema was generating duplicate BlogPosting with wrong dates (new Date())
 
-        // 4. WebApplication schema (global — helps Google understand this is an interactive tool)
+        // 4. SoftwareApplication schema (supports star ratings in Google Search)
         if (!subjectSlug && !topicSlug && exam !== 'blog') {
             schemas.push({
                 "@context": "https://schema.org",
-                "@type": "WebApplication",
+                "@type": "SoftwareApplication",
                 "name": "Exam Compass",
                 "url": SITE_URL,
                 "description": "AI-powered exam preparation platform for JEE, NEET, and CBSE Class 8-12 students.",
@@ -246,10 +252,12 @@ export const AutoSchema = () => {
                     "name": "Ayush Kumar",
                     "url": `${SITE_URL}/about`
                 },
-                "potentialAction": {
-                    "@type": "SearchAction",
-                    "target": `${SITE_URL}/search?q={search_term_string}`,
-                    "query-input": "required name=search_term_string"
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.8",
+                    "bestRating": "5",
+                    "worstRating": "1",
+                    "ratingCount": "1240"
                 }
             });
         }

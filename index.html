@@ -9,7 +9,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="color-scheme" content="dark light" />
   <link rel="icon" type="image/jpeg" href="/logo.jpg" />
-  <link rel="apple-touch-icon" href="/logo.jpg" />
+  <link rel="icon" type="image/jpeg" sizes="48x48" href="/logo.jpg" />
+  <link rel="icon" type="image/jpeg" sizes="96x96" href="/logo.jpg" />
+  <link rel="icon" type="image/jpeg" sizes="192x192" href="/logo.jpg" />
+  <link rel="shortcut icon" href="/logo.jpg" />
+  <link rel="apple-touch-icon" sizes="192x192" href="/logo.jpg" />
   <link rel="manifest" href="/manifest.json?v=3" />
 
   <!-- Global Social Branding fallback -->
@@ -51,6 +55,99 @@
 
 
   <style>body { background: #0a0a0f; margin: 0; }</style>
+
+  <!-- CRITICAL: Static JSON-LD for Google brand identity (must NOT rely on JS execution) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://examcompass.pages.dev/#website",
+        "url": "https://examcompass.pages.dev",
+        "name": "Exam Compass",
+        "alternateName": ["ExamCompass", "Exam Compass AI", "examcompass"],
+        "description": "India's free AI-powered exam preparation platform for JEE, NEET, and CBSE Class 8-12.",
+        "publisher": { "@id": "https://examcompass.pages.dev/#organization" },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://examcompass.pages.dev/blog?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        },
+        "inLanguage": "en-IN"
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://examcompass.pages.dev/#organization",
+        "name": "Exam Compass",
+        "alternateName": "ExamCompass",
+        "url": "https://examcompass.pages.dev",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://examcompass.pages.dev/logo.jpg",
+          "width": 512,
+          "height": 512
+        },
+        "image": "https://examcompass.pages.dev/og-image.png",
+        "description": "AI-powered exam preparation platform with 9,000+ verified NTA PYQs, unlimited AI mock tests, and chapter-wise revision for JEE, NEET, and CBSE.",
+        "founder": {
+          "@type": "Person",
+          "name": "Ayush Kumar",
+          "jobTitle": "Founder",
+          "sameAs": ["https://github.com/thegalaxylegend"]
+        },
+        "sameAs": [
+          "https://twitter.com/examcompass_ai",
+          "https://examcompass.pages.dev/blog"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer support",
+          "url": "https://examcompass.pages.dev/contact",
+          "availableLanguage": ["English", "Hindi"]
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "Exam Compass",
+        "url": "https://examcompass.pages.dev",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Web Browser",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "1240"
+        }
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "@id": "https://examcompass.pages.dev/#navigation",
+        "name": "Main Navigation",
+        "hasPart": [
+          { "@type": "WebPage", "name": "JEE Main & Advanced", "url": "https://examcompass.pages.dev/jee-mains" },
+          { "@type": "WebPage", "name": "NEET UG", "url": "https://examcompass.pages.dev/neet" },
+          { "@type": "WebPage", "name": "Class 12 Boards", "url": "https://examcompass.pages.dev/class-12" },
+          { "@type": "WebPage", "name": "Class 11 Exams", "url": "https://examcompass.pages.dev/class-11" },
+          { "@type": "WebPage", "name": "Class 10 Boards", "url": "https://examcompass.pages.dev/class-10" },
+          { "@type": "WebPage", "name": "Educational Blog", "url": "https://examcompass.pages.dev/blog" },
+          { "@type": "WebPage", "name": "Contact Us", "url": "https://examcompass.pages.dev/contact" },
+          { "@type": "WebPage", "name": "Login", "url": "https://examcompass.pages.dev/login" }
+        ]
+      }
+    ]
+  }
+  </script>
+
   <!--app-head-->
 </head>
 <body>

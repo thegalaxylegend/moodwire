@@ -55,7 +55,7 @@ export const AboutPage = () => {
 
             {/* Progress Bar stays fixed */}
             <motion.div 
-                className="fixed top-0 left-0 right-0 h-1.5 bg-primary z-[100] origin-left shadow-[0_0_20px_rgba(139,92,246,0.5)]"
+                className="fixed top-0 left-0 right-0 h-1.5 bg-primary z-[45] origin-left shadow-[0_0_20px_rgba(139,92,246,0.5)]"
                 style={{ scaleX }}
             />
 

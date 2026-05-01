@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useFloating, offset, flip, shift, autoUpdate } from '@floating-ui/react';
 import { ChevronDown, Check } from 'lucide-react';
 import { usePerformance } from '../context/PerformanceProvider';
 
@@ -36,6 +37,14 @@ export const CustomSelect = ({
     const { tier } = usePerformance();
     const isLow = tier === 'low';
 
+    const { refs, floatingStyles } = useFloating({
+        placement: placement,
+        open: isOpen,
+        onOpenChange: setIsOpen,
+        whileElementsMounted: autoUpdate,
+        middleware: [offset(8), flip(), shift({ padding: 8 })],
+    });
+
     const selectedOption = options.find(opt => opt.value === value);
 
     useEffect(() => {
@@ -62,9 +71,10 @@ export const CustomSelect = ({
                 </label>
             )}
 
-            <div className={`relative ${isOpen ? 'z-[200]' : 'z-[100]'}`}>
+            <div className={`relative ${isOpen ? 'z-[60]' : 'z-[50]'}`}>
                 {/* Trigger Button */}
                 <button
+                    ref={refs.setReference}
                     type="button"
                     onClick={() => setIsOpen(!isOpen)}
                     className={`w-full bg-surface/50 backdrop-blur-md border ${isOpen ? 'border-primary ring-4 ring-primary/10' : 'border-white/10 hover:border-white/20'} rounded-2xl ${compact ? 'py-2 pl-4 pr-10' : 'py-4 pl-5 pr-12'} text-left flex items-center gap-3 transition-all duration-500 hover:bg-white/5 group relative overflow-hidden`}
@@ -92,19 +102,14 @@ export const CustomSelect = ({
                 <AnimatePresence>
                     {isOpen && (
                         <motion.div
+                            ref={refs.setFloating}
+                            style={floatingStyles}
                             initial={isLow ? { opacity: 0 } : { opacity: 0, y: placement === 'top' ? 10 : -10, scale: 0.95 }}
                             animate={isLow ? { opacity: 1 } : { opacity: 1, y: 0, scale: 1 }}
                             exit={isLow ? { opacity: 0 } : { opacity: 0, y: placement === 'top' ? 10 : -10, scale: 0.95 }}
                             transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-                            className={`absolute ${placement === 'top' ? 'bottom-full mb-3 origin-bottom' : 'top-full mt-3 origin-top'} z-[110] w-full bg-[#0a0a0a]/95 backdrop-blur-2xl border border-white/10 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] max-h-64 overflow-y-auto overflow-x-hidden custom-scrollbar`}
+                            className={`absolute z-[70] w-full bg-[#0a0a0a]/95 backdrop-blur-2xl border border-white/10 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] max-h-64 overflow-y-auto overflow-x-hidden custom-scrollbar`}
                         >
-                            {/* Dropdown Arrow Decor */}
-                            {!isLow && (
-                                <div className={`absolute ${placement === 'top' ? '-bottom-1.5' : '-top-1.5'} left-8 w-3 h-3 bg-[#0a0a0a] border-l border-t border-white/10 rotate-45 z-0`} 
-                                     style={placement === 'top' ? { transform: 'rotate(225deg)' } : {}}
-                                />
-                            )}
-                            
                             <div className="p-2 relative z-10">
                                 {options.map((option, i) => {
                                     const isSelected = option.value === value;

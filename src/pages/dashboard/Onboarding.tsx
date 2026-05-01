@@ -131,7 +131,7 @@ export const Onboarding = () => {
                             <div className="grid grid-cols-2 gap-4 mt-6">
                                 {(formData.userClass === 'Class 8th' || formData.userClass === 'Class 9th' || formData.userClass === 'Class 10th' 
                                     ? ['Foundation', 'JEE', 'NEET'] 
-                                    : ['JEE', 'NEET', 'CUET']
+                                    : ['JEE', 'NEET']
                                 ).map((exam) => (
                                     <button
                                         key={exam}

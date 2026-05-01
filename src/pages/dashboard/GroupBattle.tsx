@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import { useFocusTrap } from '../../hooks/useFocusTrap';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import { 
@@ -66,6 +67,8 @@ export const GroupBattle = () => {
     const [selectedDifficulty, setSelectedDifficulty] = useState<'Easy'|'Medium'|'Hard'>('Medium');
     const [selectedTestSize, setSelectedTestSize] = useState('5_15');
     const [isChapterModalOpen, setIsChapterModalOpen] = useState(false);
+    
+    const battleTrapRef = useFocusTrap(view === 'battle');
 
     // Battle State
     const [currentQIndex, setCurrentQIndex] = useState(0);
@@ -574,7 +577,7 @@ export const GroupBattle = () => {
             )}
 
             {view === 'battle' && session && session.questions && (
-                <div className="max-w-4xl w-full mx-auto space-y-6 py-4 px-4">
+                <div ref={battleTrapRef} tabIndex={-1} className="max-w-4xl w-full mx-auto space-y-6 py-4 px-4" style={{ outline: 'none' }}>
                     {session.players[user?.id || '']?.completed ? (
                         <div className="flex flex-col items-center justify-center min-h-[60vh] space-y-6 text-center">
                             <Loader2 size={48} className="text-indigo-500 animate-spin" />
@@ -672,7 +675,7 @@ export const GroupBattle = () => {
 
             <AnimatePresence>
                 {isChapterModalOpen && (
-                    <div className="fixed inset-0 z-[200] flex items-center justify-center p-4">
+                    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
                         <motion.div 
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}

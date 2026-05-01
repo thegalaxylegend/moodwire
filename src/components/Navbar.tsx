@@ -1,6 +1,7 @@
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useFloating, offset, flip, shift, autoUpdate } from '@floating-ui/react';
 import { CATEGORIES } from '../data/blogs';
 
 const EXAM_LINKS = [
@@ -24,6 +25,22 @@ export const Navbar = () => {
     const filterRef = useRef<HTMLDivElement>(null);
     const examsRef = useRef<HTMLDivElement>(null);
     const searchInputRef = useRef<HTMLInputElement>(null);
+
+    const { refs: examsRefsFloating, floatingStyles: examsStyles } = useFloating({
+        placement: 'bottom-start',
+        open: isExamsOpen,
+        onOpenChange: setIsExamsOpen,
+        whileElementsMounted: autoUpdate,
+        middleware: [offset(8), flip(), shift({ padding: 16 })],
+    });
+
+    const { refs: filterRefsFloating, floatingStyles: filterStyles } = useFloating({
+        placement: 'bottom-end',
+        open: isFilterOpen,
+        onOpenChange: setIsFilterOpen,
+        whileElementsMounted: autoUpdate,
+        middleware: [offset(8), flip(), shift({ padding: 16 })],
+    });
 
     // Sync search query when url changes
     useEffect(() => {
@@ -117,7 +134,9 @@ export const Navbar = () => {
                             setIsMobileMenuOpen(!isMobileMenuOpen);
                             if (!isMobileMenuOpen) setIsMobileSearchOpen(false);
                         }}
-                        className="flex flex-col gap-1.5 p-2 focus:outline-none"
+                        className="flex flex-col gap-1.5 p-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-lg"
+                        aria-label="Toggle navigation menu"
+                        aria-expanded={isMobileMenuOpen}
                     >
                         <div className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMobileMenuOpen ? 'rotate-45 translate-y-2' : ''}`} />
                         <div className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMobileMenuOpen ? 'opacity-0' : ''}`} />
@@ -229,8 +248,10 @@ export const Navbar = () => {
                     {/* Exams Dropdown */}
                     <div className="relative" ref={examsRef}>
                         <button
+                            ref={examsRefsFloating.setReference}
                             onClick={() => setIsExamsOpen(!isExamsOpen)}
-                            className="flex items-center gap-1 md:gap-2 text-sm md:text-base text-gray-400 hover:text-white font-medium transition-colors group focus:outline-none"
+                            className="flex items-center gap-1 md:gap-2 text-sm md:text-base text-gray-400 hover:text-white font-medium transition-colors group focus:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-lg"
+                            aria-expanded={isExamsOpen}
                         >
                             <span>Exams</span>
                             <svg
@@ -245,47 +266,52 @@ export const Navbar = () => {
                             </svg>
                         </button>
 
-                        {isExamsOpen && (
-                            <motion.div 
-                                initial={{ opacity: 0, y: -8, scale: 0.95 }}
-                                animate={{ opacity: 1, y: 0, scale: 1 }}
-                                exit={{ opacity: 0, y: -8, scale: 0.95 }}
-                                transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-                                className="absolute top-full left-0 mt-4 w-52 glass-card bg-[#0a0a0a]/95 border border-white/5 rounded-2xl overflow-hidden shadow-2xl z-[100]"
-                            >
-                                <div className="absolute -top-2 left-6 w-4 h-4 bg-[#0a0a0a]/95 border-t border-l border-white/5 rotate-45" />
-                                <div 
-                                    className="p-2 max-h-[400px] overflow-y-auto relative z-10"
-                                    data-lenis-prevent
+                        <AnimatePresence>
+                            {isExamsOpen && (
+                                <motion.div 
+                                    ref={examsRefsFloating.setFloating}
+                                    style={examsStyles}
+                                    initial={{ opacity: 0, y: -8, scale: 0.95 }}
+                                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                                    exit={{ opacity: 0, y: -8, scale: 0.95 }}
+                                    transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
+                                    className="absolute z-[50] w-52 glass-card bg-[#0a0a0a]/95 border border-white/5 rounded-2xl overflow-hidden shadow-2xl"
                                 >
-                                    <div className="px-3 py-2 text-[10px] font-bold text-gray-500 uppercase tracking-widest">
-                                        Popular Exams
-                                    </div>
-                                    {EXAM_LINKS.map((exam, i) => (
-                                        <motion.div
-                                            key={exam.to}
-                                            initial={{ opacity: 0, x: -10 }}
-                                            animate={{ opacity: 1, x: 0 }}
-                                            transition={{ delay: i * 0.05 }}
-                                        >
-                                            <Link
-                                                to={exam.to}
-                                                className="block px-3 py-2.5 rounded-xl text-sm text-gray-300 hover:bg-white/5 hover:text-white transition-all duration-300 transform hover:translate-x-1"
+                                    <div 
+                                        className="p-2 max-h-[400px] overflow-y-auto relative z-10"
+                                        data-lenis-prevent
+                                    >
+                                        <div className="px-3 py-2 text-[10px] font-bold text-gray-500 uppercase tracking-widest">
+                                            Popular Exams
+                                        </div>
+                                        {EXAM_LINKS.map((exam, i) => (
+                                            <motion.div
+                                                key={exam.to}
+                                                initial={{ opacity: 0, x: -10 }}
+                                                animate={{ opacity: 1, x: 0 }}
+                                                transition={{ delay: i * 0.05 }}
                                             >
-                                                {exam.label}
-                                            </Link>
-                                        </motion.div>
-                                    ))}
-                                </div>
-                            </motion.div>
-                        )}
+                                                <Link
+                                                    to={exam.to}
+                                                    className="block px-3 py-2.5 rounded-xl text-sm text-gray-300 hover:bg-white/5 hover:text-white transition-all duration-300 transform hover:translate-x-1"
+                                                >
+                                                    {exam.label}
+                                                </Link>
+                                            </motion.div>
+                                        ))}
+                                    </div>
+                                </motion.div>
+                            )}
+                        </AnimatePresence>
                     </div>
 
                     {/* Filter Dropdown */}
                     <div className="relative" ref={filterRef}>
                         <button 
+                            ref={filterRefsFloating.setReference}
                             onClick={() => setIsFilterOpen(!isFilterOpen)}
-                            className="flex items-center gap-1 md:gap-2 text-sm md:text-base text-gray-400 hover:text-white font-medium transition-colors group focus:outline-none"
+                            className="flex items-center gap-1 md:gap-2 text-sm md:text-base text-gray-400 hover:text-white font-medium transition-colors group focus:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-lg"
+                            aria-expanded={isFilterOpen}
                         >
                             <span>Filter</span>
                             <svg 
@@ -300,48 +326,50 @@ export const Navbar = () => {
                             </svg>
                         </button>
 
-                        {isFilterOpen && (
-                            <motion.div 
-                                initial={{ opacity: 0, y: -8, scale: 0.95 }}
-                                animate={{ opacity: 1, y: 0, scale: 1 }}
-                                exit={{ opacity: 0, y: -8, scale: 0.95 }}
-                                transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-                                className="absolute top-full left-0 mt-4 w-64 glass-card bg-[#0a0a0a]/95 border border-white/5 rounded-2xl overflow-hidden shadow-2xl z-[100]"
-                            >
-                                {/* Dropdown Arrow */}
-                                <div className="absolute -top-2 left-6 w-4 h-4 bg-[#0a0a0a]/95 border-t border-l border-white/5 rotate-45" />
-                                
-                                <div 
-                                    className="p-2 max-h-[400px] overflow-y-auto relative z-10"
-                                    data-lenis-prevent
+                        <AnimatePresence>
+                            {isFilterOpen && (
+                                <motion.div 
+                                    ref={filterRefsFloating.setFloating}
+                                    style={filterStyles}
+                                    initial={{ opacity: 0, y: -8, scale: 0.95 }}
+                                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                                    exit={{ opacity: 0, y: -8, scale: 0.95 }}
+                                    transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
+                                    className="absolute z-[50] w-64 glass-card bg-[#0a0a0a]/95 border border-white/5 rounded-2xl overflow-hidden shadow-2xl"
                                 >
-                                    <div className="px-3 py-2 text-[10px] font-bold text-gray-500 uppercase tracking-widest">
-                                        Categories
-                                    </div>
-                                    <Link
-                                        to="/blog"
-                                        className="block px-3 py-2.5 rounded-xl text-sm text-gray-300 hover:bg-white/5 hover:text-white transition-all duration-300 transform hover:translate-x-1"
+                                    
+                                    <div 
+                                        className="p-2 max-h-[400px] overflow-y-auto relative z-10"
+                                        data-lenis-prevent
                                     >
-                                        All Articles
-                                    </Link>
-                                    {CATEGORIES.map((category, i) => (
-                                        <motion.div
-                                            key={category}
-                                            initial={{ opacity: 0, x: -10 }}
-                                            animate={{ opacity: 1, x: 0 }}
-                                            transition={{ delay: i * 0.03 }}
+                                        <div className="px-3 py-2 text-[10px] font-bold text-gray-500 uppercase tracking-widest">
+                                            Categories
+                                        </div>
+                                        <Link
+                                            to="/blog"
+                                            className="block px-3 py-2.5 rounded-xl text-sm text-gray-300 hover:bg-white/5 hover:text-white transition-all duration-300 transform hover:translate-x-1"
                                         >
-                                            <Link
-                                                to={`/blog?category=${encodeURIComponent(category)}`}
-                                                className="block px-3 py-2.5 rounded-xl text-sm text-gray-300 hover:bg-white/5 hover:text-white transition-all duration-300 transform hover:translate-x-1"
+                                            All Articles
+                                        </Link>
+                                        {CATEGORIES.map((category, i) => (
+                                            <motion.div
+                                                key={category}
+                                                initial={{ opacity: 0, x: -10 }}
+                                                animate={{ opacity: 1, x: 0 }}
+                                                transition={{ delay: i * 0.03 }}
                                             >
-                                                {category}
-                                            </Link>
-                                        </motion.div>
-                                    ))}
-                                </div>
-                            </motion.div>
-                        )}
+                                                <Link
+                                                    to={`/blog?category=${encodeURIComponent(category)}`}
+                                                    className="block px-3 py-2.5 rounded-xl text-sm text-gray-300 hover:bg-white/5 hover:text-white transition-all duration-300 transform hover:translate-x-1"
+                                                >
+                                                    {category}
+                                                </Link>
+                                            </motion.div>
+                                        ))}
+                                    </div>
+                                </motion.div>
+                            )}
+                        </AnimatePresence>
                     </div>
 
                     <Link to="/blog" className="text-sm md:text-base text-gray-300 hover:text-white font-medium transition-colors">

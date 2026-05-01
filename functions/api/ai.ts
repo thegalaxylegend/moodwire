@@ -22,9 +22,14 @@ export async function onRequestPost({ request, env }: { request: Request, env: a
       env.VITE_GEMINI_API_KEY_6
     ].filter(Boolean);
 
-    // 2. Simple Server-Side Rotation (Stateless)
-    // We pick a pseudo-random key to load balance across the 6-key pool
-    const getRotatedKey = (keys: string[]) => keys[Math.floor(Math.random() * keys.length)];
+    // 2. Server-Side Rotation (Stateless)
+    // We pick the specific key requested by the client, or fallback to random
+    const getRotatedKey = (keys: string[], keyIndex?: number) => {
+      if (typeof keyIndex === 'number' && keyIndex >= 0 && keyIndex < keys.length) {
+        return keys[keyIndex];
+      }
+      return keys[Math.floor(Math.random() * keys.length)];
+    };
 
     // 3. Forward to appropriate provider based on tier
     // Use options.provider if specified, else detect by tier/images
@@ -32,7 +37,7 @@ export async function onRequestPost({ request, env }: { request: Request, env: a
     const provider = options?.provider || defaultProvider;
     
     if (provider === 'groq') {
-      const key = getRotatedKey(groqKeys);
+      const key = getRotatedKey(groqKeys, options?.keyIndex);
       if (!key) throw new Error("No Groq API keys configured");
       
       const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
@@ -51,7 +56,7 @@ export async function onRequestPost({ request, env }: { request: Request, env: a
       });
       return new Response(response.body, response);
     } else {
-      const key = getRotatedKey(geminiKeys);
+      const key = getRotatedKey(geminiKeys, options?.keyIndex);
       if (!key) throw new Error("No Gemini API keys configured");
       
       const systemMsg = messages.find((m: any) => m.role === 'system')?.content || '';
@@ -59,8 +64,8 @@ export async function onRequestPost({ request, env }: { request: Request, env: a
       
       const isStream = options?.stream;
       const endpoint = isStream 
-        ? `https://generativelanguage.googleapis.com/v1beta/models/${options?.model || 'gemini-2.5-flash'}:streamGenerateContent?alt=sse&key=${key}`
-        : `https://generativelanguage.googleapis.com/v1beta/models/${options?.model || 'gemini-2.5-flash'}:generateContent?key=${key}`;
+        ? `https://generativelanguage.googleapis.com/v1beta/models/${options?.model || 'gemini-2.0-flash'}:streamGenerateContent?alt=sse&key=${key}`
+        : `https://generativelanguage.googleapis.com/v1beta/models/${options?.model || 'gemini-2.0-flash'}:generateContent?key=${key}`;
 
       const response = await fetch(endpoint, {
         method: 'POST',

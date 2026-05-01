@@ -1,9 +1,10 @@
 import React from 'react';
+import { useScrollLock } from '../../hooks/useScrollLock';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Target, CheckCircle2, Clock } from 'lucide-react';
 import { useUserStore } from '../../store/userStore';
 
-const EXAMS = ['JEE', 'NEET', 'CUET', 'Boards', 'Other'];
+const EXAMS = ['JEE', 'NEET', 'Boards', 'Other'];
 
 export const ExamReconfirmationModal = () => {
     const { user, updateProfile } = useUserStore();
@@ -13,8 +14,9 @@ export const ExamReconfirmationModal = () => {
     // Only show if prompt is pending and not snoozed
     const isPending = user?.pendingPrompts?.includes('exam_reconfirmation');
     const isSnoozed = user?.promptSnoozedUntil && new Date(user.promptSnoozedUntil) > new Date();
-    
-    if (!isPending || isSnoozed) return null;
+    const isVisible = !!(isPending && !isSnoozed);
+
+    useScrollLock(isVisible);
 
     const handleConfirm = async () => {
         setIsSubmitting(true);
@@ -48,9 +50,11 @@ export const ExamReconfirmationModal = () => {
         }
     };
 
+    if (!isVisible) return null;
+
     return (
         <AnimatePresence>
-            <div className="fixed inset-0 z-[1000] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
+            <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm" role="dialog" aria-modal="true" aria-labelledby="exam-reconfirm-title">
                 <motion.div
                     initial={{ scale: 0.9, opacity: 0, y: 20 }}
                     animate={{ scale: 1, opacity: 1, y: 0 }}
@@ -89,7 +93,7 @@ export const ExamReconfirmationModal = () => {
                             <button
                                 onClick={handleConfirm}
                                 disabled={!selectedExam || isSubmitting}
-                                className="w-full py-4 bg-primary text-white rounded-2xl font-bold flex items-center justify-center gap-2 hover:bg-primary/90 transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-primary/20 group"
+                                className="w-full py-4 bg-primary text-white rounded-2xl font-bold flex items-center justify-center gap-2 hover:bg-primary/90 transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-primary/20 group active:scale-[0.98]"
                             >
                                 {isSubmitting ? (
                                     <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />

@@ -328,8 +328,14 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
         report.warnings.push('Heading hallucination: "Solved Yes" should be "Solved PYQs"');
     }
 
-    // ========= MATH RENDERING CHECKS (DISABLED) =========
-    // LaTeX validation is no longer needed since we use Unicode math natively.
+    // ========= MATH RENDERING CHECKS (RE-ENABLED) =========
+    // LaTeX IS used in the content. Check for naked LaTeX outside $ delimiters.
+    const rawLatexCheck = /(?<!\$)\\(?:frac|sqrt|sum|int|alpha|beta|gamma|Delta|theta|phi|sigma|lambda|omega|pi|mu|epsilon|nabla|partial|infty|cdot|times|binom|vec|hat|overline|text|mathrm)(?:\{|\\|_|\^|\s)/g;
+    const rawLatexMatches = (contentStr.match(rawLatexCheck) || []).length;
+    if (rawLatexMatches > 0) {
+        score -= Math.min(10, rawLatexMatches * 2);
+        report.warnings.push(`${rawLatexMatches} naked LaTeX command(s) found outside $...$ delimiters`);
+    }
 
     report.score = Math.max(0, score);
     report.passed = report.score >= 80; // Quality Gate Threshold
@@ -554,19 +560,60 @@ export function checkFormattingIntegrity(text: string): string {
 
     let repaired = text;
 
-    // ========= NEW: Remove truncation markers =========
+    // ========= Remove truncation markers =========
     repaired = repaired.replace(/\(suggestion limit reached\)/g, '');
 
-    // ========= NEW: Fix "Solved Yes" → "Solved PYQs" =========
+    // ========= Fix "Solved Yes" → "Solved PYQs" =========
     repaired = repaired.replace(/Solved Yes/g, 'Solved PYQs');
 
-    // ========= NEW: Fix mangled "-n-" internal links =========
-    // Prevents the 430 broken links issue from recurring
+    // ========= Fix mangled "-n-" internal links =========
     repaired = repaired.replace(/(\]\(\/blog\/[a-z0-9-]+)-n-([a-z0-9-]+\))/gi, '$1-and-$2');
     
     // Fix "n" as shorthand for "and" in prose
     repaired = repaired.replace(/\b n \b/g, ' and ');
     repaired = repaired.replace(/\b N \b/g, ' And ');
+
+    // ========= LATEX WRAPPING (CRITICAL — prevents LATEX_ERROR failures) =========
+    // Find common LaTeX commands that are NOT inside $...$ or $$...$$ and wrap them.
+    // This is the #1 fix for the 9× LATEX_ERROR in the audit report.
+    const NAKED_LATEX_CMDS = [
+        'frac', 'sqrt', 'sum', 'prod', 'int', 'lim', 'infty', 'partial', 'nabla',
+        'alpha', 'beta', 'gamma', 'delta', 'epsilon', 'zeta', 'eta', 'theta',
+        'iota', 'kappa', 'lambda', 'mu', 'nu', 'xi', 'pi', 'rho', 'sigma',
+        'tau', 'upsilon', 'phi', 'chi', 'psi', 'omega',
+        'Alpha', 'Beta', 'Gamma', 'Delta', 'Epsilon', 'Theta', 'Lambda',
+        'Sigma', 'Phi', 'Psi', 'Omega',
+        'cdot', 'times', 'div', 'pm', 'mp', 'leq', 'geq', 'neq', 'approx',
+        'equiv', 'propto', 'sim', 'vec', 'hat', 'bar', 'dot', 'overline',
+        'binom', 'text', 'mathrm', 'mathbf', 'sin', 'cos', 'tan', 'log', 'ln', 'exp',
+        'Rightarrow', 'Leftarrow', 'rightarrow', 'leftarrow',
+        'forall', 'exists', 'hbar', 'ell',
+    ];
+
+    // Wrap isolated \command sequences not already inside $ delimiters
+    // Strategy: split by $ delimiters, only process non-math segments
+    const segments = repaired.split(/(\$\$[\s\S]*?\$\$|\$[^$]*?\$)/g);
+    for (let i = 0; i < segments.length; i++) {
+        // Even indices = outside math, odd indices = inside math
+        if (i % 2 === 0 && segments[i]) {
+            for (const cmd of NAKED_LATEX_CMDS) {
+                // Match \command followed by { or space or end (not already in $)
+                const nakedPattern = new RegExp(
+                    `(?<!\\$)\\\\${cmd}(\\{[^}]*\\}(?:\\{[^}]*\\})?|_\\{[^}]*\\}|\\^\\{[^}]*\\}|(?=[\\s,;:.!?)\\]]))`,
+                    'g'
+                );
+                segments[i] = segments[i].replace(nakedPattern, (match) => {
+                    // Don't wrap if it's already preceded by $ on the same line
+                    return `$\\${cmd}${match.slice(cmd.length + 1)}$`;
+                });
+            }
+        }
+    }
+    repaired = segments.join('');
+
+    // ========= Clean up empty LaTeX blocks =========
+    repaired = repaired.replace(/\$\$\s*\$\$/g, '');
+    repaired = repaired.replace(/\$\s*\$/g, '');
 
     // 2. Bold and Italics (** and *)
     const boldCount = (repaired.match(/\*\*/g) || []).length;

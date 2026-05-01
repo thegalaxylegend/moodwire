@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useScrollLock } from '../../hooks/useScrollLock';
 import { Youtube, Globe, BookOpen, Loader2, ExternalLink, CloudUpload, X } from 'lucide-react';
 import { useUserStore } from '../../store/userStore';
 import { SEO } from '../../components/SEO';
@@ -17,6 +18,17 @@ export const Resources = () => {
     const [uploadContent, setUploadContent] = useState('');
     const [uploadAnswer, setUploadAnswer] = useState('');
     const [uploading, setUploading] = useState(false);
+    useScrollLock(showUpload);
+
+    // Escape to close upload modal
+    useEffect(() => {
+        if (!showUpload) return;
+        const handleEscape = (e: KeyboardEvent) => {
+            if (e.key === 'Escape') setShowUpload(false);
+        };
+        window.addEventListener('keydown', handleEscape);
+        return () => window.removeEventListener('keydown', handleEscape);
+    }, [showUpload]);
 
     useEffect(() => {
         if (user) fetchResources();
@@ -137,8 +149,8 @@ export const Resources = () => {
 
             {/* Upload PYQ Modal */}
             {showUpload && (
-                <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
-                    <div className="bg-surface border border-border w-full max-w-lg rounded-2xl p-6 shadow-2xl relative">
+                <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm" role="dialog" aria-modal="true" aria-label="Contribute PYQ" onClick={() => setShowUpload(false)}>
+                    <div className="bg-surface border border-border w-full max-w-lg rounded-2xl p-6 shadow-2xl relative" onClick={e => e.stopPropagation()}>
                         <button onClick={() => setShowUpload(false)} className="absolute top-4 right-4 text-text-muted hover:text-white">
                             <X size={20} />
                         </button>

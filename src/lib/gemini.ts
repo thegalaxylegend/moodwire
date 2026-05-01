@@ -40,7 +40,7 @@ export async function callGemini(
     options: GeminiCallOptions = {}
 ): Promise<any> {
     const {
-        model = 'gemini-2.5-flash',
+        model = 'gemini-2.0-flash',
         temperature = 0.1,
         maxOutputTokens = 8192,
         jsonMode = false,

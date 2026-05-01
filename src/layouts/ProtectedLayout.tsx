@@ -29,8 +29,7 @@ export const ProtectedLayout = () => {
     }
 
     // Keep Onboarding check: If user IS logged in but hasn't finished onboarding, force them there.
-    // Added !user.isGuest to ensure guests never see onboarding.
-    if (user && !user.isGuest && !user.onboardingCompleted && !location.pathname.includes('/onboarding')) {
+    if (user && !user.onboardingCompleted && !location.pathname.includes('/onboarding')) {
         return <Navigate to="/onboarding" replace />;
     }
 

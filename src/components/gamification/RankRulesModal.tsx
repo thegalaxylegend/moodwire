@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useScrollLock } from '../../hooks/useScrollLock';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Trophy, BookOpen, Flame, Target, ChevronRight } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
@@ -10,12 +11,22 @@ interface RankRulesModalProps {
 
 export const RankRulesModal: React.FC<RankRulesModalProps> = ({ onClose }) => {
     const navigate = useNavigate();
+    useScrollLock(true);
     // Group ranks by their base name (e.g. Bronze, Silver) to show divisions clearly
     const uniqueTiers = Array.from(new Set(XP_RANKS.map(r => r.name.split(' ')[0])));
 
+    // Escape to dismiss
+    useEffect(() => {
+        const handleEscape = (e: KeyboardEvent) => {
+            if (e.key === 'Escape') onClose();
+        };
+        window.addEventListener('keydown', handleEscape);
+        return () => window.removeEventListener('keydown', handleEscape);
+    }, [onClose]);
+
     return (
         <AnimatePresence>
-            <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
+            <div className="fixed inset-0 z-[100] flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="rank-rules-title">
                 <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}

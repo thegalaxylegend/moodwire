@@ -127,10 +127,15 @@ function analyzeTrends(reports: Map<string, PipelineEntry[]>): TrendAnalysis {
         totalPassed += passed;
         totalFailed += failed;
         
-        // Track errors
+        // Track errors (only from FAILED entries — not published ones)
         for (const entry of entries) {
-            if (entry.error) {
-                const errorKey = entry.error.substring(0, 80);
+            if (entry.error && entry.status === 'failed') {
+                // Normalize error strings to group similar errors together
+                let errorKey = entry.error.substring(0, 80);
+                // Strip the 401 JSON payload to just the type
+                if (errorKey.includes('invalid_api_key')) errorKey = '401 Invalid API Key';
+                if (errorKey.includes('JSON squashing')) errorKey = 'JSON squashing detected: raw JSON objects in markdown body';
+                if (errorKey.includes('Unknown Failure')) errorKey = 'Unknown Failure';
                 errorCounts.set(errorKey, (errorCounts.get(errorKey) || 0) + 1);
             }
         }

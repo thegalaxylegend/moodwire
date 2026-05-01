@@ -12,6 +12,7 @@ import { DashboardSkeleton } from './components/skeletons/DashboardSkeleton';
 import { trackWebVitals, initAnalytics } from './lib/analytics';
 import { ErrorBoundary } from './components/ErrorBoundary';
 import { CookieConsent } from './components/CookieConsent';
+import { useTestMode } from './hooks/useTestMode';
 
 // Layouts
 const ProtectedLayout = lazy(() => import('./layouts/ProtectedLayout').then(module => ({ default: module.ProtectedLayout })));
@@ -101,11 +102,13 @@ const FloatingUI = () => {
   const [mounted, setMounted] = useState(false);
   const location = useLocation();
   const { user } = useUserStore();
+  const isTestMode = useTestMode();
   useEffect(() => {
     const timer = setTimeout(() => setMounted(true), 500);
     return () => clearTimeout(timer);
   }, []);
-  if (!user || !location.pathname.startsWith('/dashboard') || !mounted) return null;
+  // Suppress chatbot during active exams to prevent distraction & cheating
+  if (!user || !location.pathname.startsWith('/dashboard') || !mounted || isTestMode) return null;
   return (
     <Suspense fallback={null}>
       <Chatbot />

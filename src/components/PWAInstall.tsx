@@ -1,4 +1,6 @@
 import { Download, X, Share, Info, RefreshCw } from 'lucide-react';
+import { useEffect } from 'react';
+import { useScrollLock } from '../hooks/useScrollLock';
 import { useRegisterSW } from 'virtual:pwa-register/react';
 import { usePWA } from '../hooks/usePWA';
 import { usePWAStore } from '../store/pwaStore';
@@ -6,6 +8,7 @@ import { usePWAStore } from '../store/pwaStore';
 export const PWAInstall = () => {
     const { isStandalone, isIOS } = usePWA();
     const { showInstallModal, setShowInstallModal } = usePWAStore();
+    useScrollLock(showInstallModal);
 
     // SW Registration for Auto-Updates
     const {
@@ -16,6 +19,16 @@ export const PWAInstall = () => {
     const closeNeedRefresh = () => {
         setNeedRefresh(false);
     };
+
+    // Escape to dismiss install modal
+    useEffect(() => {
+        if (!showInstallModal) return;
+        const handleEscape = (e: KeyboardEvent) => {
+            if (e.key === 'Escape') setShowInstallModal(false);
+        };
+        window.addEventListener('keydown', handleEscape);
+        return () => window.removeEventListener('keydown', handleEscape);
+    }, [showInstallModal, setShowInstallModal]);
 
     if (isStandalone && !needRefresh) return null;
 
@@ -54,7 +67,7 @@ export const PWAInstall = () => {
 
             {/* 4. Installation Guide Modal (iOS / Manual) */}
             {showInstallModal && (
-                <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
+                <div className="fixed inset-0 z-[100] flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-label="Install App">
                     <div className="absolute inset-0 bg-black/80 backdrop-blur-sm" onClick={() => setShowInstallModal(false)} />
 
                     <div className="relative glass-card bg-zinc-900 border border-white/10 p-8 rounded-[40px] max-w-md w-full shadow-3xl">

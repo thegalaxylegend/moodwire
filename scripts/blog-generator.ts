@@ -617,7 +617,9 @@ async function generateSection(item: any, heading: string, displayClass: string,
 - ALWAYS use curly braces: \\frac{numerator}{denominator}
 - NEVER output $$  $$ (empty blocks).
 - NEVER use \\( \\) or \\[ \\]. Use $ and $$.
-- NEVER escape dollar signs for formulas (no \\$).`;
+- NEVER escape dollar signs for formulas (no \\$).
+- GREEK LETTERS: \\alpha, \\beta, \\gamma, \\theta, \\Delta, \\omega etc. MUST ALWAYS be inside $...$
+  Example: $\\alpha + \\beta = \\gamma$, NOT \\alpha + \\beta = \\gamma`;
 
     let specificDirective = "";
     if (heading.includes("Formula Bank")) {
@@ -849,9 +851,18 @@ PART B — GRANDMASTER CONCEPTUAL SUMMARY (quick_recall)
 RULES: "options" must be a JSON array of exactly 4 plain strings (NO "A)" prefix).
        "answer" must be exactly one of: A B C D
        All string values must be plain text or LaTeX — NO nested objects.
+
+🚨 CRITICAL JSON + LATEX SAFETY RULE:
+   When writing LaTeX inside JSON strings, you MUST double-escape backslashes.
+   This is because JSON uses \\ as an escape character.
+   ❌ WRONG in JSON: "$\\alpha + \\beta$"  → This becomes $\x07lpha + \x08eta$ (corrupted!)
+   ✅ RIGHT in JSON: "$\\\\alpha + \\\\beta$" → This correctly renders as $\\alpha + \\beta$
+   Apply this to ALL LaTeX commands: \\\\frac, \\\\sum, \\\\theta, \\\\Delta, \\\\sqrt, etc.
+   SIMPLE RULE: If you see a single \\, make it \\\\. Every. Single. Time. Inside JSON strings.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`;
     
     const raw = await callLlmWithFallback(system, user, true);
+
     if (!raw) return { mcqs: [], recall: [] };
     
     // Guard: refusal

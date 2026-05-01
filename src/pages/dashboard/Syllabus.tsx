@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useScrollLock } from '../../hooks/useScrollLock';
 import { CheckCircle2, Circle, Loader2, RefreshCw, BookOpen, Youtube, Globe, GraduationCap, Download, Sparkles, Network } from 'lucide-react';
 import { useUserStore } from '../../store/userStore';
 import { db } from '../../lib/firebase';
@@ -28,6 +29,17 @@ export const Syllabus = () => {
     const [downloadingPdf, setDownloadingPdf] = useState(false);
     const [syllabusData, setSyllabusData] = useState<Record<string, SyllabusItem[]>>({});
     const [selectedTopic, setSelectedTopic] = useState<SyllabusItem | null>(null);
+    useScrollLock(!!selectedTopic);
+
+    // Escape to close topic detail modal
+    useEffect(() => {
+        if (!selectedTopic) return;
+        const handleEscape = (e: KeyboardEvent) => {
+            if (e.key === 'Escape') setSelectedTopic(null);
+        };
+        window.addEventListener('keydown', handleEscape);
+        return () => window.removeEventListener('keydown', handleEscape);
+    }, [selectedTopic]);
 
 
     const [intent, setIntent] = useState<{ class?: string; exam?: string } | null>(null);
@@ -480,8 +492,8 @@ export const Syllabus = () => {
 
 
             {selectedTopic && (
-                <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm oxygen-modal-backdrop open">
-                    <div className="w-full max-w-lg bg-surface border border-border rounded-2xl p-6 shadow-2xl space-y-6 oxygen-modal open">
+                <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm" role="dialog" aria-modal="true" aria-label="Topic Details" onClick={() => setSelectedTopic(null)}>
+                    <div className="w-full max-w-lg bg-surface border border-border rounded-2xl p-6 shadow-2xl space-y-6" onClick={e => e.stopPropagation()}>
                         <div className="flex justify-between items-start">
                             <div>
                                 <h3 className="text-xl font-bold text-text-main mt-2">{selectedTopic.topic}</h3>

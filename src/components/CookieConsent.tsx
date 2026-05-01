@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react';
+import { useTestMode } from '../hooks/useTestMode';
 
 const isServer = typeof window === 'undefined';
 
 export const CookieConsent = () => {
     const [visible, setVisible] = useState(false);
+    const isTestMode = useTestMode();
 
     useEffect(() => {
         if (isServer) return;
@@ -20,11 +22,12 @@ export const CookieConsent = () => {
         setVisible(false);
     };
 
-    if (!visible) return null;
+    // Suppress during test mode & when not visible
+    if (!visible || isTestMode) return null;
 
     return (
         <div
-            className="fixed bottom-0 left-0 right-0 z-[9998] p-4 animate-fade-in-up"
+            className="fixed bottom-0 left-0 right-0 z-[60] p-4 animate-fade-in-up"
             role="dialog"
             aria-label="Cookie consent"
         >
@@ -46,3 +49,4 @@ export const CookieConsent = () => {
         </div>
     );
 };
+

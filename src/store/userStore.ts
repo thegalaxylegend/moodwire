@@ -348,11 +348,11 @@ export const useUserStore = create<UserState>((set, get) => ({
                                 profile.target_exam = profile.target_exam || parsed.exam;
                                 profile.target_year = profile.target_year || parsed.year;
                                 
-                                // Auto-complete onboarding if we now have both mandatory fields
-                                if (profile.user_class && profile.target_exam) {
-                                    console.log("🩹 [Healing] Auto-completing onboarding via healed intent.");
-                                    profile.onboarding_completed = true;
-                                }
+                                // Removed auto-completion here to force users to confirm on onboarding page
+                                // if (profile.user_class && profile.target_exam) {
+                                //     console.log("🩹 [Healing] Auto-completing onboarding via healed intent.");
+                                //     profile.onboarding_completed = true;
+                                // }
                             } else {
                                 localStorage.removeItem('exam_compass_intent');
                             }
@@ -375,14 +375,12 @@ export const useUserStore = create<UserState>((set, get) => ({
                     }
                 }
 
-                // 0.5. Aggressive Heuristic Healing (The Platform-Wide "Growth Guard")
-                // If profile has status/stats in ANY format (snake_case or camelCase), force-complete it.
+                // 0.5. Strict Onboarding Check (Only explicit flags count)
                 const hasOnboardingDone = 
                     profile?.onboarding_completed === true || 
                     profile?.onboardingCompleted === true || 
                     String(profile?.onboarding_completed) === 'true' ||
-                    String(profile?.onboardingCompleted) === 'true' ||
-                    !!(profile?.target_exam || profile?.targetExam || profile?.user_class || profile?.userClass);
+                    String(profile?.onboardingCompleted) === 'true';
 
                 // Healing Case A: Sync from Lifetime XP or Leaderboard (Restores rank for all users)
                 if (profile && (profile.xp || 0) < (profile.lifetime_xp || 0)) {
@@ -404,9 +402,10 @@ export const useUserStore = create<UserState>((set, get) => ({
                 }
 
                 // Healing Case B: Ghost Wipe restoration (Has progress but onboarding=false)
+                // NOTE: We no longer auto-complete onboarding here. Users must go through the onboarding page.
+                // Data (XP, streak, etc.) is preserved but does not bypass onboarding.
                 if (profile && !hasOnboardingDone && ((profile.xp || 0) > 0 || (profile.total_points || 0) > 0 || (profile.streak || 0) > 0)) {
-                    console.log("🩹 [Integrity] Ghost Wipe detected. Restoring completion state.");
-                    profile.onboarding_completed = true;
+                    console.log("🩹 [Integrity] Ghost Wipe detected. Data preserved but onboarding still required.");
                 }
                 
                 // Healing Case C: Inference Healing (Reconstruct Identity from history)
@@ -421,17 +420,15 @@ export const useUserStore = create<UserState>((set, get) => ({
                             console.log("🕵️‍♂️ [Inference] Identity reconstructed from Diagnostic results.");
                             profile.target_exam = historical.exam;
                             profile.user_class = historical.class;
-                            profile.onboarding_completed = true;
+                            // NOTE: Do NOT auto-complete onboarding — user must confirm on onboarding page
                         }
                     } catch (e) {
                         console.warn("🕵️‍♂️ [Inference] Identity reconstruction failed:", e);
                     }
                 }
 
-                // Final check: If they have ANY exam data, they are onboarded.
-                if (profile && !profile.onboarding_completed && (profile.target_exam || profile.targetExam)) {
-                    profile.onboarding_completed = true;
-                }
+                // Final check: Removed auto-onboarding. Users must explicitly complete onboarding.
+                // Having exam data alone is not sufficient — the user must confirm via the onboarding form.
 
                 // 1. Fix corrupted cycle fields if they contain data meant for the other cycle
                 if (profile?.last_season_reset?.includes('-P')) {
@@ -480,11 +477,7 @@ export const useUserStore = create<UserState>((set, get) => ({
                     lastVisit: profile?.last_visit || profile?.lastVisit,
                     lastTestDate: profile?.last_test_date || profile?.lastTestDate,
                     userClass: profile?.user_class || profile?.userClass,
-                    onboardingCompleted: profile?.onboarding_completed === true || 
-                                       profile?.onboardingCompleted === true ||
-                                       String(profile?.onboarding_completed) === 'true' || 
-                                       String(profile?.onboardingCompleted) === 'true' ||
-                                       (!!(profile?.target_exam || profile?.targetExam) && !!(profile?.user_class || profile?.userClass) && !!profile?.full_name),
+                    onboardingCompleted: !!(profile?.onboarding_completed === true || profile?.onboardingCompleted === true || String(profile?.onboarding_completed) === 'true' || String(profile?.onboardingCompleted) === 'true'),
                     role: profile?.role || 'user',
                     skills: profile?.skills || { physics: 0.5, chemistry: 0.5, math: 0.5, lastUpdated: new Date().toISOString() },
                     commonMistakes: profile?.common_mistakes || [],

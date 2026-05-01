@@ -339,7 +339,7 @@ class NodeRouter {
             model: modelId,
             messages: messages as any,
             temperature: options.temperature ?? 0.7,
-            max_tokens: options.max_tokens ?? 4096,
+            max_tokens: options.max_tokens ?? 8192,
             response_format: options.jsonMode ? { type: 'json_object' } : undefined,
         });
         const content = completion.choices[0]?.message?.content;
@@ -358,7 +358,7 @@ class NodeRouter {
             model: modelId,
             generationConfig: {
                 temperature: options.temperature ?? 0.7,
-                maxOutputTokens: options.max_tokens ?? 4096,
+                maxOutputTokens: options.max_tokens ?? 8192,
                 responseMimeType: options.jsonMode ? 'application/json' : undefined,
             },
         });

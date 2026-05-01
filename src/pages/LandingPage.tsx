@@ -10,7 +10,6 @@ import { Zap, Target, Brain, Award, ArrowRight, Rocket } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { AboutAuthor } from '../components/seo/AboutAuthor';
 import { SITE_URL, SITE_OG_IMAGE } from '../lib/siteConfig';
-import { SOCIAL_LINKS } from '../lib/constants';
 import { usePerformance } from '../context/PerformanceProvider';
 import { Footer } from '../components/Footer';
 
@@ -96,7 +95,7 @@ export const LandingPage = () => {
         <div className={`min-h-screen bg-black text-white relative overflow-hidden perf-tier-${tier}`}>
             {/* Premium Scroll Progress Bar */}
             <motion.div 
-                className="fixed top-0 left-0 right-0 h-1.5 bg-primary z-[100] origin-left shadow-[0_0_20px_rgba(139,92,246,0.5)]"
+                className="fixed top-0 left-0 right-0 h-1.5 bg-primary z-[45] origin-left shadow-[0_0_20px_rgba(139,92,246,0.5)]"
                 style={{ scaleX }}
             />
 
@@ -113,45 +112,6 @@ export const LandingPage = () => {
                 description="Experience the only Adaptive Neural Engine for competitive exams. Featuring Elo-calibrated mocks, SM-2 memory retention scheduling, and 100% verified NTA pattern analytics."
                 canonical={`${SITE_URL}/`}
                 image={SITE_OG_IMAGE}
-                schema={{
-                    "@context": "https://schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebSite",
-                            "name": "Exam Compass",
-                            "url": SITE_URL,
-                            "description": "AI-powered exam preparation platform for JEE (Main & Advanced), NEET, and CBSE Classes 8-12.",
-                            "potentialAction": {
-                                "@type": "SearchAction",
-                                "target": {
-                                    "@type": "EntryPoint",
-                                    "urlTemplate": `${SITE_URL}/blog?q={search_term_string}`
-                                },
-                                "query-input": "required name=search_term_string"
-                            }
-                        },
-                        {
-                            "@type": "Organization",
-                            "name": "Exam Compass",
-                            "url": SITE_URL,
-                            "logo": `${SITE_URL}/logo.jpg`,
-                            "founder": {
-                                "@type": "Person",
-                                "name": "Ayush Kumar",
-                                "jobTitle": "Founder",
-                                "sameAs": [
-                                    "https://github.com/thegalaxylegend",
-                                    `${SITE_URL}/about`
-                                ]
-                            },
-                            "sameAs": [
-                                SOCIAL_LINKS.twitter.url,
-                                SOCIAL_LINKS.threads.url,
-                                `${SITE_URL}/blog`
-                            ]
-                        }
-                    ]
-                }}
             />
 
             {/* Hero */}

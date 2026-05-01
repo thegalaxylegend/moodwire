@@ -36,7 +36,7 @@ interface Lesson {
     failureType: string;
     rootCause: string;
     fix: string;
-    priority: 'critical' | 'high' | 'medium' | 'low';
+    priority: 'critical' | 'high' | 'medium' | 'low' | 'resolved';
 }
 
 interface GenerationStrategy {
@@ -293,8 +293,9 @@ async function main() {
     // Merge lessons
     const allLessons = [...existingLessons, ...newLessons];
     
-    // Generate strategy adjustments
-    const adjustments = generateStrategyAdjustments(allLessons);
+    // Generate strategy adjustments (only from ACTIVE failures, not resolved)
+    const activeLessons = allLessons.filter(l => l.failureType !== 'RESOLVED_ERROR' && l.priority !== 'resolved');
+    const adjustments = generateStrategyAdjustments(activeLessons);
     
     // Summary
     console.log('═'.repeat(60));
@@ -303,14 +304,15 @@ async function main() {
     console.log(`  📂 Reports analyzed:      ${reportFiles.length}`);
     console.log(`  🆕 New lessons extracted:  ${newLessons.length}`);
     console.log(`  📚 Total lessons learned:  ${allLessons.length}`);
+    console.log(`  ✅ Resolved:               ${allLessons.length - activeLessons.length}`);
     console.log(`  🎯 Strategy adjustments:   ${adjustments.length}`);
     
-    // Failure type breakdown
+    // Failure type breakdown (ACTIVE only — resolved errors are excluded)
     const typeCounts = new Map<string, number>();
-    allLessons.forEach(l => typeCounts.set(l.failureType, (typeCounts.get(l.failureType) || 0) + 1));
+    activeLessons.forEach(l => typeCounts.set(l.failureType, (typeCounts.get(l.failureType) || 0) + 1));
     
     if (typeCounts.size > 0) {
-        console.log('\n  📋 Failure Type Breakdown:');
+        console.log('\n  📋 Active Failure Type Breakdown:');
         Array.from(typeCounts.entries())
             .sort((a, b) => b[1] - a[1])
             .forEach(([type, count]) => {
@@ -342,6 +344,51 @@ async function main() {
     };
     fs.writeFileSync(STRATEGY_FILE, JSON.stringify(strategy, null, 2));
     console.log(`📄 Strategy saved: ${STRATEGY_FILE}`);
+
+    // ═══════════════════════════════════════════════════════════════════
+    // Generate autopsy-report.json for Discord Pulse (System Pulse embed)
+    // This file is read by discord-pulse.ts --pulse
+    // Only include ACTIVE (non-resolved) failures in flaws/unpredicted
+    // ═══════════════════════════════════════════════════════════════════
+    const activeFlawCounts = Array.from(typeCounts.entries())
+        .sort((a, b) => b[1] - a[1])
+        .map(([type, count]) => `${type}: ${count}`);
+    
+    const unpredictedFlaws = activeLessons
+        .filter(l => l.failureType === 'UNKNOWN_FAILURE' || l.failureType.startsWith('LEARNED_'))
+        .reduce((acc, l) => {
+            const key = l.failureType;
+            acc.set(key, (acc.get(key) || 0) + 1);
+            return acc;
+        }, new Map<string, number>());
+    
+    const insights: string[] = [];
+    if (activeLessons.length === 0) {
+        insights.push('No critical issues needing regeneration');
+    }
+    if (adjustments.length === 0) {
+        insights.push('No warnings needing optimization');
+    }
+    if (activeLessons.length > 0) {
+        const topType = Array.from(typeCounts.entries()).sort((a, b) => b[1] - a[1])[0];
+        if (topType) {
+            insights.push(`Top failure type: ${topType[0]} (${topType[1]}× — prioritize fix)`);
+        }
+    }
+
+    const autopsyReport = {
+        generatedAt: new Date().toISOString(),
+        totalLessons: allLessons.length,
+        activeLessons: activeLessons.length,
+        resolvedLessons: allLessons.length - activeLessons.length,
+        flaws: activeFlawCounts,
+        unpredicted: Array.from(unpredictedFlaws.entries()).map(([k, v]) => `${k}: ${v}`),
+        insights,
+    };
+
+    const autopsyReportPath = path.join(REPORTS_DIR, 'autopsy-report.json');
+    fs.writeFileSync(autopsyReportPath, JSON.stringify(autopsyReport, null, 2));
+    console.log(`📄 Autopsy report saved: ${autopsyReportPath}`);
     
     console.log('\n✨ Autopsy complete!\n');
 }
