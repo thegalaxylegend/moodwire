@@ -13,7 +13,7 @@ manualReview: false
 - to solve for x, we use the formula x = -b/a
 - we can also represent linear [equations](/blog/differential-equations-class-12-notes) ∈ the form x = c, where c is a constant
 - for example, 2x = 5 is a [linear](/blog/linear-programming-class-12-notes) equation, which can be solved as x = 5/2
-- we can also have linear equations ∈ the form x/a = b, which can be solved as x = ab
+- we can also have linear [equations](/blog/differential-equations-class-12-notes) ∈ the form x/a = b, which can be solved as x = ab
 - for example, x/2 = 3 can be solved as x = 2 × 3 = 6
 - we can also represent linear equations ∈ the form ax = b, which can be solved as x = b/a
 - for example, 3x = 12 can be solved as x = 12/3 = 4

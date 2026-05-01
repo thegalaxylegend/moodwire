@@ -47,7 +47,7 @@ manualReview: false
 - Many students think that [biotechnology](/blog/biotechnology-principles-and-processes-class-12-notes) is only used ∈ medicine, but it is also used ∈ agriculture, environmental science, and other fields.
 
 ## 👁️ Ayush's Note
-- Biotechnology is a rapidly growing field with many applications ∈ different areas of life
+- [Biotechnology](/blog/biotechnology-principles-and-processes-class-12-notes) is a rapidly growing field with many applications ∈ different areas of life
 - Understanding the basics of biotechnology, such as DNA structure and function, is crucial for solving problems ∈ this subject
 - Practice is key to mastering biotechnology, so make sure to practice as many questions as possible
 - Biotechnology is not just about memorizing formulas and concepts, but also about understanding the underlying principles and applying them to real-life situations

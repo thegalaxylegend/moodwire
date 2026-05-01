@@ -52,7 +52,7 @@ manualReview: false
   - The rule states that limₓ→a (f(x)/g(x)) = limₓ→a (f'(x)/g'(x))
 
 ## 👁️ Ayush's Note
-- To solve limits and derivatives problems, first identify the type of problem
+- To solve [limits](/blog/limits-derivatives-class-11-revision-notes-jee-neet) and derivatives problems, first identify the type of problem
   - If it's a limit problem, check if it's ∈ the form 0/0 or ∞/∞ and apply L'Hopital's rule if necessary
   - Is it's a derivative problem, apply the definition of a derivative or use the product rule, quotient rule, or cha∈ rule as needed
 - Practice, practice, practice, as the more you practice, the more comfortable you'll become with the formulas and techniques

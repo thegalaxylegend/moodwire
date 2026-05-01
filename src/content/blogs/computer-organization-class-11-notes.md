@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/computer-organization-class-11-notes"
 ---
 
-*Last Updated: April 30, 2026*
+*Last Updated: May 1, 2026*
 
 ## 📑 Table of Contents
 
@@ -151,7 +151,7 @@ What is the Role of the Control Unit and a Computer? is the component that direc
  The control unit's role can be broken down into several key steps:
  * **Instruction Fetch**: The control unit retrieves an instruction from memory.
  * **Instruction Decode**: The control unit decodes the instruction, determining what operation needs to be performed.
- * **Operand Fetch**: The control unit retrieves the data needed for the instruction.
+ * **Operand Fetch**: The control unit retrieves the [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) needed for the instruction.
  * **Execution**: The control unit executes the instruction, using the ALU to perform calculations.
  * **Result Store**: The control unit stores the results of the instruction and memory or a register.
 

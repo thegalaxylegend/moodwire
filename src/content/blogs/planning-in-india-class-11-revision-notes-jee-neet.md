@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/planning-n-india-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: April 30, 2026*
+*Last Updated: May 1, 2026*
 
 ## 📑 Table of Contents
 
@@ -108,7 +108,7 @@ When studying planning in [India](/blog/ancient-india-mahajanapadas-class-11-rev
 
 ## 🔁 Last 5 Minutes Revision Box
 
-In the last few minutes before the exam, it's essential to quickly revise some key formulas and facts related to Planning in India. Here are a few key points to remember:
+In the last few minutes before the exam, it's essential to quickly revise some key formulas and facts related to Planning in [India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee). Here are a few key points to remember:
 The Five-Year Plans can be represented by the formula: $GDP_{target} = GDP_{current} \times (1 + r)^n$, where $r$ is the annual growth rate and $n$ is the number of years.
 The main objectives of planning in India can be summarized as: $Maximize : GDP$, $Minimize : Poverty$, and $Optimize : Resource : Allocation$.
 Some key facts to remember include: the first Five-Year Plan focused on agriculture and irrigation, the second plan focused on rapid industrialization, and the third plan aimed for growth with stability.

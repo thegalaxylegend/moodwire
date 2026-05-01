@@ -41,7 +41,7 @@ manualReview: false
   Step 2: Plug ∈ the values of length, breadth, and height into the formula: 8 × 5 × 3.
   Step 3: Calculate the volume: 8 × 5 × 3 = 120 cm³.
 - **Question 3:** Find the surface area of a [cube](/blog/cubes-and-cube-roots-class-8-notes) with side 6 cm.
-  Step 1: Identify the formula for the surface area of a cube, which is 6 × side².
+  Step 1: Identify the formula for the surface area of a [cube](/blog/cubes-and-cube-roots-class-8-notes), which is 6 × side².
   Step 2: Plug ∈ the value of side into the formula: 6 × 6².
   Step 3: Calculate the surface area: 6 × 6² = 6 × 36 = 216 cm².
 

@@ -21,7 +21,7 @@ manualReview: false
 - p/q ÷ r/s = ps/qr
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not simplifying rational numbers to their standard form
+- Not simplifying rational [numbers](/blog/real-numbers-class-10-notes) to their standard form
 - Not finding the LCM while adding or subtracting rational numbers
 - Not using the distributive property while multiplying rational numbers
 - Not using the additive inverse while subtracting rational numbers

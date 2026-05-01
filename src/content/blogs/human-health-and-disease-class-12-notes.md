@@ -29,7 +29,7 @@ manualReview: false
 - What is the significance of Human Development Index (HDI) ∈ public [health](/blog/reproductive-health-class-12-notes)?
   Step 1: HDI is a composite index that measures the average achievement of a country ∈ three basic dimensions of [human](/blog/microbes-in-human-welfare-class-12-notes) development.
   Step 2: These dimensions are life expectancy at birth, expected years of schooling and gross national income per capita.
-  Step 3: HDI is used to rank countries into four tiers of human development.
+  Step 3: HDI is used to rank countries into four tiers of [human](/blog/microbes-in-human-welfare-class-12-notes) development.
 - A study found that the relative risk of lung cancer ∈ smokers is 15. What does this mean?
   Step 1: Relative risk is the ratio of the probability of an event occurring ∈ the exposed group versus the non-exposed group.
   Step 2: A relative risk of 15 means that smokers are 15 times more likely to develop lung cancer than non-smokers.
@@ -57,7 +57,7 @@ manualReview: false
 - Take a few deep breaths and stay calm during the exam.
 
 ## 📝 Practice MCQs
-**1. What is the significance of Human Development Index (HDI) ∈ public health?**
+**1. What is the significance of Human Development Index (HDI) ∈ public [health](/blog/reproductive-health-class-12-notes)?**
 -
 A) It measures the average life expectancy at birth
 -

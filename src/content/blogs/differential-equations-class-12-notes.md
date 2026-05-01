@@ -58,7 +58,7 @@ manualReview: false
 - Integrating both sides, we get: ye²ˣ = ∫xe²ˣ dx + c
 
 ## 👁️ Ayush's Note
-- To solve differential equations quickly, use the following shortcuts:
+- To solve differential [equations](/blog/pair-of-linear-equations-class-10-notes) quickly, use the following shortcuts:
   - For separable variables, separate the variables and integrate
   - For homogeneous equations, put y = vx and solve
   - For linear equations, use the integrating factor

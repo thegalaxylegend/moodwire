@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/digital-logic-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: April 30, 2026*
+*Last Updated: May 1, 2026*
 
 ## 📑 Table of Contents
 
@@ -202,7 +202,7 @@ By mastering Digital Logic, we can unlock the secrets of the digital world and d
 
 The study of Digital Logic is a fascinating journey that will challenge our thinking and broaden our understanding of the digital world. As we explore the world of Digital Logic, we will encounter numerous concepts and techniques that will help us develop a deep understanding of digital systems. 
 
-We will also explore the concept of operating systems, which involves the management of computer hardware and software resources to provide a platform for running applications. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
+We will also explore the concept of operating systems, which involves the management of [computer](/blog/computer-organization-class-11-notes) hardware and software resources to provide a platform for running applications. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
 
 By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics and Computer Science and develop a keen appreciation for the intricate beauty of digital systems. With dedication and practice, we can master the concepts of Digital Logic and achieve success and the Class 11 exam. 
 
@@ -244,7 +244,7 @@ Therefore, it is crucial to practice solving problems and designing circuits to 
 
 By mastering Digital Logic, we can unlock the secrets of the digital world and develop a profound appreciation for the intricate beauty of digital systems. As we embark on this journey, we will
 
-Digital Logic is a branch of electronics engineering that deals with the design and development of digital circuits using logical operations. It includes digital circuits, logic gates, n microprocessors. For Class 11 exam prep and 2026, the most important aspect is understanding the basic logic gates and their applications and digital circuits. 
+Digital Logic is a branch of electronics engineering that deals with the [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) and development of digital circuits using logical operations. It includes digital circuits, logic gates, n microprocessors. For Class 11 exam prep and 2026, the most important aspect is understanding the basic logic gates and their applications and digital circuits. 
  Digital logic is based on the binary number system, where each digit can be either 0 or 1. This binary system is the foundation of all digital devices, from simple calculators to complex computers. The binary system uses logical operations such as AND, OR, n NOT to perform calculations and make decisions. 
  The basic logic gates are AND, OR, n NOT gates. The AND gate produces an output of 1 only if all the inputs are 1. The OR gate produces an output of 1 if any of the inputs are 1. The NOT gate, also known as an inverter, produces an output that is the opposite of the input. 
  These basic gates can be combined to form more complex gates such as NAND, NOR, n XOR gates. The NAND gate produces an output of 0 only if all the inputs are 1. The NOR gate produces an output of 1 only if all the inputs are 0. The XOR gate produces an output of 1 if the inputs are different. 
@@ -317,7 +317,7 @@ How does Boolean Algebra relate to Digital Logic? is a fundamental concept and c
 
 Ayush's Note on Digital Logic is a study guide that provides a detailed explanation of digital logic concepts and their applications. It includes Boolean algebra, logic gates, n combinational circuits. For Class 11 exam prep and 2026, the most important aspect is understanding the fundamentals of digital logic and its relevance to computer science and electronics. 
  
- Digital logic is a fundamental concept and computer science and electronics that deals with the design and implementation of digital circuits. These circuits use logical operations to process binary data, which is represented using 0s and 1s. The study of digital logic involves understanding the basic logic gates, such as AND, OR, n NOT, n how they can be combined to create more complex circuits.
+ Digital logic is a fundamental concept and computer science and electronics that deals with the design and implementation of digital circuits. These circuits use logical operations to process binary [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards), which is represented using 0s and 1s. The study of digital logic involves understanding the basic logic gates, such as AND, OR, n NOT, n how they can be combined to create more complex circuits.
  
  The Boolean algebra is a mathematical system that is used to analyze and simplify digital circuits. It consists of a set of rules and laws that can be applied to manipulate and simplify logical expressions. The laws of Boolean algebra include the commutative law, associative law, n distributive law, among others. These laws can be used to simplify complex logical expressions and to minimize the number of logic gates required to implement a digital circuit.
  

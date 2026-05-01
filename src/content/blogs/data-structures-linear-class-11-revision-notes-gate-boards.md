@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/data-structures-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: April 30, 2026*
+*Last Updated: May 1, 2026*
 
 ## 📑 Table of Contents
 
@@ -231,7 +231,7 @@ Here are some common problems related to stacks that are often asked and exams:
 - Parse a syntax using a stack
 - Implement a recursive algorithm iteratively using a stack
 
-To solve these problems, it's essential to have a good understanding of the stack data structure, its operations, n its applications.
+To solve these problems, it's essential to have a good understanding of the stack [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structure, its operations, n its applications.
 
 Here are some tips for solving stack problems:
 - Read the problem carefully and understand what is being asked

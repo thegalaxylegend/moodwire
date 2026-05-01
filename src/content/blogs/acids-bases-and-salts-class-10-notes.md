@@ -55,7 +55,7 @@ manualReview: false
 
 ## 🔁 Last 5 Minutes Box
 - Quick revision of important formulas: pH, pOH, Kₙ
-- Check the types of acids and bases: strong, weak, monoacidic, diacidic
+- Check the types of [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes) and bases: strong, weak, monoacidic, diacidic
 - Review the properties of salts: acidic, basic, neutral
 - Go through the common [reactions](/blog/chemical-reactions-and-equations-class-10-notes): neutralization, hydrolysis
 - Recall the definitions: acid, base, salt, pH, pOH

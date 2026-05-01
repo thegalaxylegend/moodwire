@@ -47,7 +47,7 @@ manualReview: false
 - Not using the correct formula for [magnetic](/blog/magnetic-effects-of-electric-current-class-10-notes) field due to a current carrying wire
 - Forgetting to consider the direction of the [magnetic](/blog/magnetic-effects-of-electric-current-class-10-notes) field
 - Not using the right-hand rule to determine the direction of the [magnetic](/blog/magnetic-effects-of-electric-current-class-10-notes) field
-- Not considering the effect of the magnetic field on the motion of a charged particle
+- Not considering the effect of the [magnetic](/blog/magnetic-effects-of-electric-current-class-10-notes) field on the motion of a charged particle
 - Not using the correct units for the magnetic field and other related quantities
 
 ## ✏️ 3 Solved PYQs

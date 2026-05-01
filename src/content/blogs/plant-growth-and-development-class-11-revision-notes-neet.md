@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/plant-growth-n-development-class-11-revision-notes-neet"
 ---
 
-*Last Updated: April 30, 2026*
+*Last Updated: May 1, 2026*
 
 ## 📑 Table of Contents
 
@@ -198,6 +198,6 @@ Continue your [revision](/blog/morphology-of-flowering-plants-class-11-revision-
    - **Vernalisation**: Promotion of [flowering](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) by a period of cold.
    - **Auxins**: Indole acetic acid (IAA), indole butyric acid (IBA), naphthalene acetic acid (NAA).
    - **Gibberellins**: GA3 (gibberellic acid), breaks seed dormancy, promotes stem elongation.
-   - **Cytokinins**: Promote cell division, example: kinetin, BAP (benzyl amino purine).
+   - **Cytokinins**: Promote [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division, example: kinetin, BAP (benzyl amino purine).
    - **Ethylene**: A gaseous hormone, promotes fruit ripening.
    - **Abscisic acid (ABA)**: Inhibits growth, promotes seed dormancy, stomatal closure.

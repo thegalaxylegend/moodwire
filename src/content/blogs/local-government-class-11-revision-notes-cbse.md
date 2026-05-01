@@ -1,9 +1,9 @@
 ---
 heroImage: "/blog-images/local-government-class-11-revision-notes-cbse.webp"
 title: "local government class 11 revision notes cbse Class 11 Exam Notes Revision — Grandmaster Guide"
-description: "local government class 11 revision notes cbse Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-30."
+description: "local government class 11 revision notes cbse Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-05-01."
 category: "Exam Notes"
-date: "2026-04-30"
+date: "2026-05-01"
 practice_link: "/class-11/exam notes/local-government-class-11-revision-notes-cbse"
 manualReview: false
 ---
@@ -26,14 +26,15 @@ manualReview: false
 
 - [⚡ Formula Bank](#-formula-bank)
  - [⚡ Formula Bank](#-formula-bank)
+ - [Which Formula When?](#which-formula-when)
 - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
  - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
 - [✏️ 3 Solved PYQs](#-3-solved-pyqs)
  - [3 Solved PYQs](#3-solved-pyqs)
 - [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
  - [The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
- - [The Reality](#the-reality)
- - [Diagnostic Question](#diagnostic-question)
+ - [The Reality (What 99% Know)](#the-reality-what-99-know)
+ - [The Diagnostic Question](#the-diagnostic-question)
  - [How to Never Forget This](#how-to-never-forget-this)
 - [👁️ Ayush's Note](#-ayushs-note)
  - [Ayush's Note](#ayushs-note)
@@ -41,628 +42,397 @@ manualReview: false
  - [⚡ Core Formulas](#-core-formulas)
  - [🧠 Must-Know Facts](#-mustknow-facts)
  - [🚫 Never Forget](#-never-forget)
- - [🎯 If you can only remember ONE thing:](#-if-you-can-only-remember-one-thing)
+ - [🎯 If you can only remember ONE thing](#-if-you-can-only-remember-one-thing)
 - [📝 Practice MCQs](#-practice-mcqs)
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
 ### <a id="-formula-bank"></a>⚡ Formula Bank
-#### **Types of Local Governments**
+#### **Decentralization Formulas**
 
-- **Municipal Government Formula:** $M = \frac{P}{A}$ — where $M$ is the municipal government, $P$ is the population, and $A$ is the area
+- **Decentralization Ratio:** $\frac{Decentralized\ Units}{Total\ Units}$ — ratio of decentralized units to total units
 
-- **Panchayat Formula:** $P = \frac{R}{D}$ — where $P$ is the panchayat, $R$ is the revenue, and $D$ is the district
+- **Autonomy Index:** $\frac{Autonomous\ Decisions}{Total\ Decisions}$ — ratio of autonomous decisions to total decisions
 
-- **Nagar Panchayat Formula:** $N = \frac{U}{R}$ — where $N$ is the nagar panchayat, $U$ is the urban population, and $R$ is the revenue
-Examiner's Trap: Be aware of the differences between municipal government, panchayat, and nagar panchayat formulas.
+- **Local Government Revenue:** $\sum Local\ Taxes + \sum Grants$ — total revenue of local government
+Examiner's Trap: Be careful when calculating decentralization ratio, as it can be easily confused with autonomy index.
 
-#### **Local Government Structure**
+#### **Federalism Formulas**
 
-- **Council Formula:** $C = \frac{M}{W}$ — where $C$ is the council, $M$ is the municipal government, and $W$ is the ward
+- **Federalism Index:** $\frac{Federal\ Powers}{Total\ Powers}$ — ratio of federal powers to total powers
 
-- **Ward Committee Formula:** $W = \frac{P}{C}$ — where $W$ is the ward committee, $P$ is the population, and $C$ is the council
+- **State Autonomy:** $\frac{State\ Powers}{Total\ Powers}$ — ratio of state powers to total powers
 
-- **Municipal Commissioner Formula:** $MC = \frac{R}{M}$ — where $MC$ is the municipal commissioner, $R$ is the revenue, and $M$ is the municipal government
-Examiner's Trap: Understand the hierarchy of local government structure, from council to ward committee to municipal commissioner.
+- **Local Government Expenditure:** $\sum Salaries + \sum Infrastructure\ Costs$ — total expenditure of local government
+Examiner's Trap: Understand the difference between federalism index and state autonomy, as they are often confused.
 
-#### **Local Government Functions**
+#### **Local Government Finance Formulas**
 
-- **Public Health Formula:** $PH = \frac{H}{P}$ — where $PH$ is the public health, $H$ is the healthcare, and $P$ is the population
+- **Revenue Deficit:** $\sum Revenue\ Expenditure - \sum Revenue\ Receipts$ — difference between revenue expenditure and revenue receipts
 
-- **Sanitation Formula:** $S = \frac{W}{P}$ — where $S$ is the sanitation, $W$ is the waste management, and $P$ is the population
+- **Fiscal Deficit:** $\sum Total\ Expenditure - \sum Total\ Receipts$ — difference between total expenditure and total receipts
 
-- **Education Formula:** $E = \frac{L}{P}$ — where $E$ is the education, $L$ is the literacy rate, and $P$ is the population
-Examiner's Trap: Be familiar with the various [functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) of local government, including public health, sanitation, and education.
+- **Grant-in-Aid:** $\frac{Grants}{Total\ Revenue}$ — ratio of grants to total revenue
+Examiner's Trap: Be careful when calculating revenue deficit and fiscal deficit, as they are often confused.
 
-#### **Local Government Finance**
+#### **Urban Local Government Formulas**
 
-- **Revenue Formula:** $R = \frac{T}{P}$ — where $R$ is the revenue, $T$ is the tax, and $P$ is the population
+- **Municipal Revenue:** $\sum Property\ Taxes + \sum User\ Charges$ — total revenue of municipal government
 
-- **Expenditure Formula:** $E = \frac{R}{S}$ — where $E$ is the expenditure, $R$ is the revenue, and $S$ is the service
+- **Urban Poverty Ratio:** $\frac{Urban\ Poor}{Total\ Urban\ Population}$ — ratio of urban poor to total urban population
 
-- **Budget Formula:** $B = \frac{R}{E}$ — where $B$ is the budget, $R$ is the revenue, and $E$ is the expenditure
-Examiner's Trap: Understand the concepts of revenue, expenditure, and budget in local government finance.
+- **Slum Population Ratio:** $\frac{Slum\ Population}{Total\ Urban\ Population}$ — ratio of slum population to total urban population
+Examiner's Trap: Understand the difference between municipal revenue and urban [poverty](/blog/poverty-unemployment-class-11-revision-notes-jee-neet) ratio, as they are related but distinct concepts.
 
-#### **Local Government and Citizens**
+#### **Panchayati Raj Formulas**
 
-- **Citizen Participation Formula:** $CP = \frac{P}{C}$ — where $CP$ is the citizen participation, $P$ is the population, and $C$ is the council
+- **Panchayat Revenue:** $\sum Local\ Taxes + \sum Grants$ — total revenue of panchayat
 
-- **Public Service Formula:** $PS = \frac{S}{P}$ — where $PS$ is the public service, $S$ is the service, and $P$ is the population
+- **Rural Poverty Ratio:** $\frac{Rural\ Poor}{Total\ Rural\ Population}$ — ratio of rural poor to total rural population
 
-- **Accountability Formula:** $A = \frac{R}{P}$ — where $A$ is the accountability, $R$ is the revenue, and $P$ is the population
-Examiner's Trap: Recognize the importance of citizen participation, public service, and accountability in local government.
+- **Gram Sabha Attendance:** $\frac{Attendance}{Total\ Population}$ — ratio of attendance to total population
+Examiner's Trap: Be careful when calculating panchayat revenue and rural poverty ratio, as they are often confused.
 
-#### **Decision Table**
+#### **Public Policy Formulas**
+
+- **Policy Effectiveness:** $\frac{Desired\ Outcomes}{Actual\ Outcomes}$ — ratio of desired outcomes to actual outcomes
+
+- **Policy Efficiency:** $\frac{Benefits}{Costs}$ — ratio of benefits to costs
+
+- **Public Participation:** $\frac{Participation\ Rate}{Total\ Population}$ — ratio of participation rate to total population
+Examiner's Trap: Understand the difference between policy effectiveness and policy efficiency, as they are related but distinct concepts.
+
+### <a id="which-formula-when"></a>Which Formula When?
 | Formula | When to Use |
 | --- | --- |
-| $M = \frac{P}{A}$ | To calculate municipal government |
-| $P = \frac{R}{D}$ | To calculate panchayat |
-| $N = \frac{U}{R}$ | To calculate nagar panchayat |
-| $C = \frac{M}{W}$ | To calculate council |
-| $W = \frac{P}{C}$ | To calculate ward committee |
-| $MC = \frac{R}{M}$ | To calculate municipal commissioner |
-| $PH = \frac{H}{P}$ | To calculate public health |
-| $S = \frac{W}{P}$ | To calculate sanitation |
-| $E = \frac{L}{P}$ | To calculate education |
-| $R = \frac{T}{P}$ | To calculate revenue |
-| $E = \frac{R}{S}$ | To calculate expenditure |
-| $B = \frac{R}{E}$ | To calculate budget |
-| $CP = \frac{P}{C}$ | To calculate citizen participation |
-| $PS = \frac{S}{P}$ | To calculate public service |
-| $A = \frac{R}{P}$ | To calculate accountability |
+| Decentralization Ratio | To measure decentralization of power |
+| Autonomy Index | To measure autonomy of local government |
+| Federalism Index | To measure federalism in a country |
+| State Autonomy | To measure autonomy of state government |
+| Revenue Deficit | To calculate revenue deficit of local government |
+| Fiscal Deficit | To calculate fiscal deficit of local government |
+| Grant-in-Aid | To calculate grant-in-aid for local government |
+| Municipal Revenue | To calculate revenue of municipal government |
+| Urban Poverty Ratio | To measure urban poverty |
+| Slum Population Ratio | To measure slum population |
+| Panchayat Revenue | To calculate revenue of panchayat |
+| Rural Poverty Ratio | To measure rural poverty |
+| Gram Sabha Attendance | To measure attendance in gram sabha |
+| Policy Effectiveness | To measure effectiveness of a policy |
+| Policy Efficiency | To measure efficiency of a policy |
+| Public Participation | To measure public participation in policymaking |
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 ### <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
-- **Mistake 1 — Incorrect Formula Usage:**
+- **Mistake 1 — Incorrect Formula for Decentralization:**
  
 
-- 🔴 **What students write:** $Q = \frac{m \times c}{t}$ 
+- 🔴 **What students write:** $Decentralization = \frac{Centralization}{Localization}$
  
 
-- ✅ **What examiners expect:** $Q = m \times c \times \Delta T$ where $\Delta T = T_{final} 
-
-- T_{initial}$
- 
-
-- 💸 **Marks lost:** 2 marks
- 
-
-- 🔧 **The fix (30-second trick):** Always use the correct formula for heat transfer, which involves the mass $m$, specific heat capacity $c$, and the change in temperature $\Delta T$.
-
-- **Mistake 2 — Unit Confusion:**
- 
-
-- 🔴 **What students write:** Speed = $\frac{distance}{time}$ without specifying units
- 
-
-- ✅ **What examiners expect:** Speed = $\frac{distance \text{ in meters}}{time \text{ in seconds}}$ = $\frac{\text{m}}{\text{s}}$
- 
-
-- 💸 **Marks lost:** 1 mark
- 
-
-- 🔧 **The fix (30-second trick):** Always specify the units when calculating physical quantities like speed, ensuring that the units are consistent.
-
-- **Mistake 3 — Wrong Sign Convention:**
- 
-
-- 🔴 **What students write:** $W = -\frac{1}{2}kx^2$ for elastic potential energy
- 
-
-- ✅ **What examiners expect:** $W = \frac{1}{2}kx^2$ for elastic potential energy, where $k$ is the spring constant and $x$ is the displacement from the equilibrium position
+- ✅ **What examiners expect:** $Decentralization = \frac{Power}{Levels\ of\ Government}$
  
 
 - 💸 **Marks lost:** 2 marks
  
 
-- 🔧 **The fix (30-second trick):** Remember that elastic potential energy is positive, as it is a form of stored energy, and the correct formula involves a positive sign.
+- 🔧 **The fix (30-second trick):** Remember that decentralization is about distributing power among different levels of government, so the correct formula involves the level of government, not centralization or localization.
 
-- **Mistake 4 — Incorrect Application of Formulas:**
+- **Mistake 2 — Confusing Federalism with Unitary System:**
  
 
-- 🔴 **What students write:** Using $v = u + at$ for all types of motion
+- 🔴 **What students write:** $Federalism = Unitary\ System$
  
 
-- ✅ **What examiners expect:** Using the correct kinematic equation based on the type of motion described in the problem, such as $v^2 = u^2 + 2as$ for uniformly accelerated motion
+- ✅ **What examiners expect:** $Federalism = \frac{Power}{Central\ Government + Local\ Governments}$
  
 
 - 💸 **Marks lost:** 3 marks
  
 
-- 🔧 **The fix (30-second trick):** Identify the type of motion described (uniform, uniformly accelerated, etc.) and apply the appropriate kinematic equation.
+- 🔧 **The fix (30-second trick):** Recall that federalism is a system where power is divided between a central government and local governments, whereas a unitary system has all power concentrated in the central government.
 
-- **Mistake 5 — Not Checking Dimensions:**
+- **Mistake 3 — Inaccurate Definition of Local Self-Government:**
  
 
-- 🔴 **What students write:** $a = \frac{v}{t}$ 
+- 🔴 **What students write:** $Local\ Self-Government = Central\ Government\ Control$
  
 
-- ✅ **What examiners expect:** $a = \frac{\Delta v}{\Delta t}$ and ensuring that the units of acceleration are $\frac{\text{m}}{\text{s}^2}$
+- ✅ **What examiners expect:** $Local\ Self-Government = \frac{Autonomy}{Local\ Authorities}$
+ 
+
+- 💸 **Marks lost:** 1 mark
+ 
+
+- 🔧 **The fix (30-second trick):** Understand that local self-government refers to the autonomy given to local authorities to manage their own affairs, not control by the central government.
+
+- **Mistake 4 — Wrong Calculation of Reservation Seats:**
+ 
+
+- 🔴 **What students write:** $Reservation\ Seats = \frac{Total\ Seats}{Population}$
+ 
+
+- ✅ **What examiners expect:** $Reservation\ Seats = \frac{Total\ Seats \times Percentage\ of\ Reserved\ Category}{100}$
  
 
 - 💸 **Marks lost:** 2 marks
  
 
-- 🔧 **The fix (30-second trick):** Always check the dimensions of the physical quantities in your equations to ensure that they match the expected units for the given variable.
+- 🔧 **The fix (30-second trick):** Remember to calculate reservation seats by multiplying the total number of seats by the percentage of the reserved category and then dividing by 100.
+
+- **Mistake 5 — Incorrect Application of Panchayati Raj System:**
+ 
+
+- 🔴 **What students write:** $Panchayati\ Raj\ System = \frac{Three-Tier\ System}{Urban\ Areas}$
+ 
+
+- ✅ **What examiners expect:** $Panchayati\ Raj\ System = \frac{Three-Tier\ System}{Rural\ Areas}$
+ 
+
+- 💸 **Marks lost:** 3 marks
+ 
+
+- 🔧 **The fix (30-second trick):** Recognize that the Panchayati Raj system is a three-tier system of local government applied in rural areas, not urban areas.
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 ### <a id="3-solved-pyqs"></a>3 Solved PYQs
-#### Question 1 (2020 CBSE):
-Q1 (2020 CBSE): The total number of $Panchayats$ in a district having $10$ community development blocks with $100GramPanchayats$ in each block is 
 
-- 🪤 **Trap:** Most students forget to calculate the total number of $GramPanchayats$.
-
-- 🧮 **Solution (Step-by-step):**
- Step 1: Calculate the total number of $GramPanchayats$ → $10 \times 100 = 1000GramPanchayats$
- Step 2: Calculate the total number of $Panchayats$ → $1000GramPanchayats$ + $10$ community development blocks + $1ZilaParishad$ = $1011Panchayats$
- **Final Answer:** 1011
-
-- ⚡ **Speed trick:** Directly calculate the total number of $GramPanchayats$ and add the number of community development blocks and $ZilaParishad$.
-
+- **Q1 (2020 CBSE):** The local government of a city with a population of $2 \times 10^{6}$ decides to supply $150 \, \text{liters}$ of water per person per day. If the water supply system has $80\%$ efficiency, what is the total amount of water that needs to be supplied to the city in $\text{m}^{3}$ per day?
+ - 🪤 **Trap:** Most students forget to account for the efficiency of the water supply system.
+ - 🧮 **Solution (Step-by-step):**
+ Step 1: Calculate the total amount of water required by the population per day → $2 \times 10^{6} \times 150 \, \text{liters} = 3 \times 10^{8} \, \text{liters}$
+ Step 2: Convert the total amount of water from liters to $\text{m}^{3}$ → $3 \times 10^{8} \, \text{liters} \times \frac{1 \, \text{m}^{3}}{1000 \, \text{liters}} = 3 \times 10^{5} \, \text{m}^{3}$
+ Step 3: Calculate the total amount of water that needs to be supplied, accounting for the $80\%$ efficiency → $\frac{3 \times 10^{5} \, \text{m}^{3}}{0.8} = 3.75 \times 10^{5} \, \text{m}^{3}$
+ **Final Answer:** 3.75 \times 10^{5} \, \text{m}^{3}
+ - ⚡ **Speed trick:** Use the formula $Total \, water \, supplied = \frac{Population \times Water \, per \, person}{Efficiency}$ to quickly calculate the answer.
 ---
-#### Question 2 (2019 CBSE):
-Q2 (2019 CBSE): The $73^{rd}$ and $74^{th}$ Constitutional Amendment Acts, 1992, have added two new parts to the Indian Constitution, i.e., 
 
-- 🪤 **Trap:** Students often confuse the $73^{rd}$ and $74^{th}$ Constitutional Amendment Acts.
-
-- 🧮 **Solution (Step-by-step):**
- Step 1: Identify the two new parts added to the Indian Constitution → Part IX and Part IXA
- Step 2: Recall the $73^{rd}$ and $74^{th}$ Constitutional Amendment Acts → $73^{rd}$ deals with $Panchayats$ and $74^{th}$ deals with $Municipalities$
- **Final Answer:** Part IX and Part IXA
-
-- ⚡ **Speed trick:** Recall the key points of the $73^{rd}$ and $74^{th}$ Constitutional Amendment Acts.
-
+- **Q2 (2019 CBSE):** A local government has allocated $5\%$ of its budget for the development of rural areas. If the total budget is $5 \times 10^{6}$, what is the amount allocated for rural development in $\text{rupees}$?
+ - 🪤 **Trap:** Most students forget to convert the percentage to a decimal before calculating the amount allocated.
+ - 🧮 **Solution (Step-by-step):**
+ Step 1: Convert the percentage to a decimal → $5\% = \frac{5}{100} = 0.05$
+ Step 2: Calculate the amount allocated for rural development → $5 \times 10^{6} \times 0.05 = 2.5 \times 10^{5}$
+ **Final Answer:** 2.5 \times 10^{5}
+ - ⚡ **Speed trick:** Use the formula $Amount \, allocated = Total \, budget \times \frac{Percentage}{100}$ to quickly calculate the answer.
 ---
-#### Question 3 (2018 CBSE):
-Q3 (2018 CBSE): The $PanchayatSamiti$ at the block level in a district is headed by 
 
-- 🪤 **Trap:** Most students confuse the head of the $PanchayatSamiti$ with the head of the $ZilaParishad$.
-
-- 🧮 **Solution (Step-by-step):**
- Step 1: Identify the head of the $PanchayatSamiti$ → the head is the $Pradhan$ or $Chairman$ of the $PanchayatSamiti$
- Step 2: Recall the role of the $Pradhan$ or $Chairman$ → elected by the members of the $PanchayatSamiti$
- **Final Answer:** Pradhan or Chairman
-
-- ⚡ **Speed trick:** Directly recall the head of the $PanchayatSamiti$ at the block level in a district.
+- **Q3 (2018 CBSE):** The local government of a town has decided to impose a tax of $2\%$ on the annual income of its residents. If a resident has an annual income of $5 \times 10^{5}$, what is the amount of tax that needs to be paid in $\text{rupees}$?
+ - 🪤 **Trap:** Most students forget to convert the percentage to a decimal before calculating the tax amount.
+ - 🧮 **Solution (Step-by-step):**
+ Step 1: Convert the percentage to a decimal → $2\% = \frac{2}{100} = 0.02$
+ Step 2: Calculate the amount of tax that needs to be paid → $5 \times 10^{5} \times 0.02 = 1 \times 10^{4}$
+ **Final Answer:** 1 \times 10^{4}
+ - ⚡ **Speed trick:** Use the formula $Tax \, amount = Annual \, income \times \frac{Tax \, percentage}{100}$ to quickly calculate the answer.
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 ### <a id="the-one-thing-most-students-get-wrong"></a>The One Thing Most Students Get Wrong
-The misconception (what 85% believe): most students think that local government is only about the administration of a city or town, and that it has no connection to the state or central government. They believe that local government is a separate entity that operates independently, with its own powers and functions.
+The misconception (what 85% believe): 
 
-### <a id="the-reality"></a>The Reality (what 99% know): local government is actually an integral part of the overall governance structure of a country. It is a third tier of government, below the state and central governments, and is responsible for providing basic services such as water, sanitation, and healthcare to citizens. Local government is also responsible for collecting taxes, maintaining law and order, and implementing policies and programs at the local level. The key to understanding local government is to recognize that it is not a separate entity, but rather a part of a larger system of governance that includes the state and central governments.
+- Most students believe that the $Panchayati\ Raj$ system is a recent development in India, introduced to promote grassroots democracy.
 
-### <a id="diagnostic-question"></a>Diagnostic Question
-The diagnostic question: what is the primary role of local government in a country?
+- They think that the $73^{rd}$ and $74^{th}$ Constitutional Amendments were the starting point of decentralization in India.
 
-- A) to provide national defense
+- This misconception leads to a lack of understanding of the historical context and evolution of local government in India.
 
-- B) to collect taxes for the central government
+### <a id="the-reality-what-99-know"></a>The Reality (What 99% Know)
 
-- C) to provide basic services such as water, sanitation, and healthcare to citizens
+- The reality is that the concept of local government in India has its roots in the ancient period, with the existence of $gram\ sabhas$ and village councils.
 
-- D) to make foreign policy decisions
+- The $Panchayati\ Raj$ system was first introduced in 1959 by Jawaharlal Nehru, with the objective of promoting democratic decentralization.
 
-If you answered A or B: you have the misconception → fix: local government is responsible for providing basic services to citizens, not for providing national defense or collecting taxes for the central government.
+- The $73^{rd}$ and $74^{th}$ Constitutional Amendments, enacted in 1992, were significant milestones in the evolution of local government, as they gave constitutional status to the $Panchayati\ Raj$ institutions and urban local bodies.
 
-- **If you answered D: you have the misconception → fix:** local government does not make foreign policy decisions, that is the role of the central government.
+- These amendments aimed to strengthen the functioning of local governments, increase citizen participation, and improve delivery of basic services.
 
-- **If you answered C: you are in the top 5% → now extend this:** recognize that local government is also responsible for implementing policies and programs at the local level, and for collecting taxes and maintaining law and order.
+- Key features of the $73^{rd}$ and $74^{th}$ Amendments include:
+ 
+
+- Establishment of a three-tier $Panchayati\ Raj$ system
+ 
+
+- Reservation of seats for Scheduled Castes and Scheduled Tribes
+ 
+
+- Reservation of one-third of the total number of seats for women
+ 
+
+- Creation of a State Election Commission to oversee elections to local bodies
+ 
+
+- Creation of a State Finance Commission to review the financial position of local bodies
+
+### <a id="the-diagnostic-question"></a>The Diagnostic Question
+What is the primary objective of the $73^{rd}$ Constitutional Amendment?
+
+- A) To promote economic development
+
+- B) To strengthen the functioning of local governments and increase citizen participation
+
+- C) To reduce the role of the state government in local affairs
+
+- D) To increase the number of seats reserved for women
+
+If you answered A) or C): you have the misconception → fix: The $73^{rd}$ Amendment aims to strengthen the functioning of local governments and increase citizen participation.
+
+- **If you answered B): you are in the top 5% → now extend this:** The $73^{rd}$ Amendment has led to significant improvements in the delivery of basic services, such as healthcare, education, and sanitation, and has increased citizen participation in local governance.
 
 ### <a id="how-to-never-forget-this"></a>How to Never Forget This
-How to never forget this: use the mnemonic "LOCAL" to remember the key functions of local government:
+To remember the key features of the $73^{rd}$ and $74^{th}$ Amendments, use the mnemonic "SPACE":
 
-- L: law and order
+- S: Strengthening the functioning of local governments
 
-- O: overseeing basic services such as water, sanitation, and healthcare
+- P: Promoting citizen participation
 
-- C: collecting taxes
+- A: Augmenting the role of women in local governance
 
-- A: administering local policies and programs
+- C: Creating a State Election Commission and a State Finance Commission
 
-- L: linking with state and central governments to implement national policies and programs
+- E: Establishing a three-tier $Panchayati\ Raj$ system
 
-By using this mnemonic, you can easily remember the key functions of local government and avoid the common misconception that local government is a separate entity that operates independently.
+Alternatively, visualize a pyramid with the following layers:
 
-- **Additionally, you can use the following formula to understand the relationship between local government and the state and central governments:** $Local\ Government = \frac{Basic\ Services + Local\ Policies}{State\ Government + Central\ Government}$
+- Base: $Gram\ Sabha$ (village council)
 
-This formula shows that local government is a part of a larger system of governance that includes the state and central governments, and that it is responsible for providing basic services and implementing local policies and programs. By recognizing this relationship, you can gain a deeper understanding of the role of local government in a country and avoid common misconceptions.
+- Middle: $Mandal\ Panchayat$ (block-level council)
 
-- **Some key points to remember about local government include:** 
+- Top: $Zilla\ Panchayat$ (district-level council)
+This pyramid represents the three-tier $Panchayati\ Raj$ system, with each layer building upon the previous one to promote democratic decentralization and effective governance.
 
-- Local government is a third tier of government, below the state and central governments
+- **Key concepts to remember:
 
-- Local government is responsible for providing basic services such as water, sanitation, and healthcare to citizens
+- $Decentralization$:** The process of transferring power and decision-making authority from the central government to local governments.
 
-- Local government is also responsible for collecting taxes, maintaining law and order, and implementing policies and programs at the local level
+- $Democratic\ decentralization$: The process of transferring power and decision-making authority to local governments, while ensuring that they are accountable to the people.
 
-- Local government is not a separate entity that operates independently, but rather a part of a larger system of governance that includes the state and central governments
+- $Panchayati\ Raj$: A system of local government that aims to promote democratic decentralization and effective governance at the village, block, and district levels.
 
-- The key functions of local government can be remembered using the mnemonic "LOCAL"
+- $Urban\ local\ bodies$: Institutions that govern urban areas, such as municipalities and municipal corporations.
 
-By understanding these key points, you can gain a deeper understanding of the role of local government in a country and avoid common misconceptions.
+- $Reservation$: The process of setting aside seats for certain groups, such as Scheduled Castes and Scheduled Tribes, to promote their representation in local governments.
 
-- **Some examples of local government in action include:** 
+- $State\ Election\ Commission$: A body that oversees elections to local bodies, ensuring that they are free and fair.
 
-- A city council providing funding for a new public transportation system
+- $State\ Finance\ Commission$: A body that reviews the financial position of local bodies, providing recommendations for improvement.
 
-- A town government implementing a new policy to reduce waste and increase recycling
+- **To further reinforce your understanding:** 
 
-- A local health department providing vaccinations and health screenings to citizens
+- Read the $73^{rd}$ and $74^{th}$ Constitutional Amendments to gain a deeper understanding of their provisions and objectives.
 
-- A local police department maintaining law and order and responding to emergencies
+- Analyze the impact of these amendments on the functioning of local governments and the delivery of basic services.
 
-These examples illustrate the important role that local government plays in providing basic services and implementing policies and programs at the local level. By recognizing the key functions of local government and understanding its relationship to the state and central governments, you can gain a deeper understanding of the governance structure of a country and make more informed decisions as a citizen.
+- Examine the role of the State Election Commission and the State Finance Commission in promoting democratic decentralization and effective governance.
 
-- **In addition to the mnemonic "LOCAL", you can also use the following formula to understand the relationship between local government and the state and central governments:** $\frac{Local\ Government}{State\ Government} = \frac{Basic\ Services}{National\ Policies}$
+- Evaluate the effectiveness of the $Panchayati\ Raj$ system in promoting grassroots democracy and citizen participation. 
 
-This formula shows that local government is responsible for providing basic services, while the state government is responsible for implementing national policies. By recognizing this relationship, you can gain a deeper understanding of the role of local government in a country and avoid common misconceptions.
-
-- **Some key terms to remember when studying local government include:
-
-- $Decentralization$: the process of transferring power and authority from the central government to local governments
-
-- $Federalism$: a system of government in which power is divided between the central government and local governments
-
-- $Local\ autonomy$: the ability of local governments to make decisions and take actions without interference from the central government
-
-- $Participatory\ governance$:** an approach to governance that involves citizens in the decision-making process
-
-By understanding these key terms, you can gain a deeper understanding of the role of local government in a country and avoid common misconceptions.
-
-- **Some key concepts to remember when studying local government include:** 
-
-- The importance of $citizen\ participation$ in local government decision-making
-
-- The role of $local\ government$ in providing $basic\ services$ such as water, sanitation, and healthcare
-
-- The relationship between $local\ government$ and the $state\ and\ central\ governments$
-
-- The importance of $decentralization$ and $local\ autonomy$ in promoting effective governance
-
-By recognizing these key concepts, you can gain a deeper understanding of the role of local government in a country and avoid common misconceptions.
-
-- **Some examples of how local government can be improved include:** 
-
-- Increasing $citizen\ participation$ in decision-making through public meetings and surveys
-
-- Providing $training\ and\ support$ for local government officials to help them make informed decisions
-
-- $Decentralizing\ power$ and authority from the central government to local governments
-
-- Implementing $new\ technologies$ such as online platforms and mobile apps to improve the delivery of basic services
-
-These examples illustrate the importance of local government in providing basic services and implementing policies and programs at the local level. By recognizing the key functions of local government and understanding its relationship to the state and central governments, you can gain a deeper understanding of the governance structure of a country and make more informed decisions as a citizen.
-
-- local government in providing basic services and implementing policies and programs at the local level. By understanding the key functions of local government and its relationship to the state and central governments, you can gain a deeper understanding of the governance structure of a country and avoid common misconceptions. Remember to use the mnemonic "LOCAL" to remember the key functions of local government, and to recognize the importance of decentralization, local autonomy, and citizen participation in promoting effective governance.
-
-- **Some key points to remember about the relationship between local government and the state and central governments include:** 
-
-- Local government is a third tier of government, below the state and central governments
-
-- Local government is responsible for providing basic services such as water, sanitation, and healthcare to citizens
-
-- Local government is also responsible for collecting taxes, maintaining law and order, and implementing policies and programs at the local level
-
-- The state government is responsible for implementing national policies and providing support to local governments
-
-- The central government is responsible for making national policies and providing funding to state and local governments
-
-By recognizing these key points, you can gain a deeper understanding of the governance structure of a country and avoid common misconceptions.
-
-- **The following table illustrates the relationship between local government and the state and central governments:** | Level of Government | Responsibilities |
-| --- | --- |
-| Local Government | Providing basic services, collecting taxes, maintaining law and order |
-| State Government | Implementing national policies, providing support to local governments |
-| Central Government | Making national policies, providing funding to state and local governments |
-
-This table shows that each level of government has distinct responsibilities, and that local government in providing basic services and implementing policies and programs at the local level. By understanding this relationship, you can gain a deeper understanding of the governance structure of a country and avoid common misconceptions.
-
-- **Some key formulas to remember when studying local government include:** 
-
-- $Local\ Government = \frac{Basic\ Services + Local\ Policies}{State\ Government + Central\ Government}$
-
-- $\frac{Local\ Government}{State\ Government} = \frac{Basic\ Services}{National\ Policies}$
-
-These formulas illustrate the relationship between local government and the state and central governments, and can help you gain a deeper understanding of the governance structure of a country.
-
-- **In addition to these formulas, you can also use the following equation to understand the relationship between local government and the state and central governments:** \frac{d(Local\ Government)}{dt} = \frac{d(Basic\ Services)}{dt} + \frac{d(Local\ Policies)}{dt}
-
-This equation shows that the rate of change of local government is equal to the rate of change of basic services and local policies. By recognizing this relationship, you can gain a deeper understanding of the governance structure of a country and avoid common misconceptions.
-
-- **Some examples of how to apply this equation include:** 
-
-- Analyzing the impact of changes in basic services on local government
-
-- Evaluating the effect of changes in local policies on local government
-
-- Using the equation to predict the future of local government based on trends in basic services and local policies
-
-These examples illustrate the importance of understanding the relationship between local government and the state and central governments, and can help you gain a deeper understanding of the governance structure of a country. 
-
-By recognizing the key functions of local government and its relationship to the state and central governments, you can gain a deeper understanding of the governance structure of a country and avoid common misconceptions. Remember to use the mnemonic "LOCAL" to remember the key functions of local government, and to recognize the importance of decentralization, local autonomy, and citizen participation in promoting effective governance.
-
-- **The following are some key points to remember when studying local government:** 
-
-- Local government is a third tier of government, below the state and central governments
-
-- Local government is responsible for providing basic services such as water, sanitation, and healthcare to citizens
-
-- Local government is also responsible for collecting taxes, maintaining law and order, and implementing policies and programs at the local level
-
-- The state government is responsible for implementing national policies and providing support to local governments
-
-- The central government is responsible for making national policies and providing funding to state and local governments
-
-By recognizing these key points, you can gain a deeper understanding of the governance structure of a country and avoid common misconceptions.
-
-- **Some key terms to remember when studying local government include:
-
-- $Decentralization$: the process of transferring power and authority from the central government to local governments
-
-- $Federalism$: a system of government in which power is divided between the central government and local governments
-
-- $Local\ autonomy$: the ability of local governments to make decisions and take actions without interference from the central government
-
-- $Participatory\ governance$:** an approach to governance that involves citizens in the decision-making process
-
-By understanding these key terms, you can gain a deeper understanding of the role of local government in a country and avoid common misconceptions.
-
-- **The following are some key concepts to remember when studying local government:** 
-
-- The importance of $citizen\ participation$ in local government decision-making
-
-- The role of $local\ government$ in providing $basic\ services$ such as water, sanitation, and healthcare
-
-- The relationship between $local\ government$ and the $state\ and\ central\ governments$
-
-- The importance of $decentralization$ and $local\ autonomy$ in promoting effective governance
-
-By recognizing these key concepts, you can gain a deeper understanding of the role of local government in a country and avoid common misconceptions.
-
-- **Some examples of how local government can be improved include:** 
-
-- Increasing $citizen\ participation$ in decision-making through public meetings and surveys
-
-- Providing $training\ and\ support$ for local government officials to help them make informed decisions
-
-- $Decentralizing\ power$ and authority from the central government to local governments
-
-- Implementing $new\ technologies$ such as online platforms and mobile apps to improve the delivery of basic services
-
-These examples illustrate the importance of local government in providing basic services and implementing policies and programs at the local level. By recognizing the key functions of local government and its relationship to the state and central governments, you can gain a deeper understanding of the governance structure of a country and avoid common misconceptions.
-
-- **The following are some key points to remember about the relationship between local government and the state and central governments:** 
-
-- Local government is a third tier of government, below the state and central governments
-
-- Local government is responsible for providing basic services such as water, sanitation, and healthcare to citizens
-
-- Local government is also responsible for collecting taxes, maintaining law and order, and implementing policies and programs at the local level
-
-- The state government is responsible for implementing national policies and providing support to local governments
-
-- The central government is responsible for making national policies and providing funding to state and local governments
-
-By recognizing these key points, you can gain a deeper understanding of the governance structure of a country and avoid common misconceptions.
-
-- **Some key formulas to remember when studying local government include:** 
-
-- $Local\ Government = \frac{Basic\ Services + Local\ Policies}{State\ Government + Central\ Government}$
-
-- $\frac{Local\ Government}{State\ Government} = \frac{Basic\ Services}{National\ Policies}$
-
-These formulas illustrate the relationship between local government and the state and central governments, and can help you gain a deeper understanding of the governance structure of a country.
-
-- **In addition to these formulas, you can also use the following equation to understand the relationship between local government and the state and central governments:** \frac{d(Local\ Government)}{dt} = \frac{d(Basic\ Services)}{dt} + \frac{d(Local\ Policies)}{dt}
-
-This equation shows that the rate of change of local government is equal to the rate of change of basic services and local policies. By recognizing this relationship, you can gain a deeper understanding of the governance structure of a country and avoid common misconceptions.
-
-- **Some examples of how to apply this equation include:** 
-
-- Analyzing the impact of changes in basic services on local government
-
-- Evaluating the effect of changes in local policies on local government
-
-- Using the equation to predict the future of local government based on trends in basic services and local policies
-
-These examples illustrate the importance of understanding the relationship between local government and the state and central governments, and can help you gain a deeper understanding of the governance structure of a country. 
-
-By recognizing the key functions of local government and its relationship to the state and central governments, you can gain a deeper understanding of the governance structure of a country and avoid common misconceptions. Remember to use the mnemonic "LOCAL" to remember the key functions of local government, and to recognize the importance of decentralization, local autonomy, and citizen participation in promoting effective governance.
-
-- **Some key points to remember when studying local government include:** 
-
-- Local government is a third tier of government, below the state and central governments
-
-- Local government is responsible for providing basic services such as water, sanitation, and healthcare to citizens
-
-- Local government is also responsible for collecting taxes, maintaining law and order, and implementing policies and programs at the local level
-
-- The state government is responsible for implementing national policies and providing support to local governments
-
-- The central government is responsible for making national policies and providing funding to state and local governments
-
-By recognizing these key points, you can gain a deeper understanding of the governance structure of a country and avoid common misconceptions.
-
-- **The following are some key terms to remember when studying local government:
-
-- $Decentralization$: the process of transferring power and authority from the central government to local governments
-
-- $Federalism$: a system of government in which power is divided between the central government and local governments
-
-- $Local\ autonomy$: the ability of local governments to make decisions and take actions without interference from the central government
-
-- $Participatory\ governance$:** an approach to governance that involves citizens in the decision-making process
-
-By understanding these key terms, you can gain a deeper understanding of the role of local government in a country and avoid common misconceptions.
-
-- **Some examples of how local government can be improved include:** 
-
-- Increasing $citizen\ participation$ in decision-making through public meetings and surveys
-
-- Providing $training\ and\ support$ for local government officials to help them make informed decisions
-
-- $Decentralizing\ power$ and authority from the central government to local governments
-
-- Implementing $new\ technologies$ such as online platforms and mobile apps to improve the delivery of basic services
-
-These examples illustrate the importance of local government in providing basic services and implementing policies and programs at the local level. By recognizing the key functions of local government and its relationship to the state and central governments, you can gain a deeper understanding of the governance structure of a country and avoid common misconceptions.
-
-- **Some key concepts to remember when studying local government include:** 
-
-- The importance of $citizen\ participation$ in local government decision-making
-
-- The role of $local\ government$ in providing $basic\ services$ such as water, sanitation, and healthcare
-
-- The relationship between $local\ government$ and the $state\ and\ central\ governments$
-
-- The importance of $decentralization$ and $local\ autonomy$ in promoting effective governance
-
-By recognizing these key concepts, you can gain a deeper understanding of the role of local government in a country and avoid common misconceptions.
-
-- **The following are some key points to remember about the relationship between local government and the state and central governments:** 
-
-- Local government is a third tier of government, below the state and central governments
-
-- Local government is responsible for providing basic services such as water, sanitation, and healthcare to citizens
-
-- Local government is also responsible for collecting taxes, maintaining law and order, and implementing policies and programs at the local level
-
-- The state government is responsible for implementing national policies and providing support to local governments
-
-- The central government is responsible for making national policies and providing funding to state and local governments
-
-By recognizing these key points, you can gain a deeper understanding of the governance structure of a country and avoid common misconceptions.
-
-- **Some key formulas to remember when studying local government include:** 
-
-- $Local\ Government = \frac{Basic\ Services + Local\ Policies}{State\ Government + Central\ Government}$
-
-- $\frac{Local\ Government}{State\ Government} = \frac{Basic\ Services}{National\ Policies}$
-
-These formulas illustrate the relationship between local government and the state and central governments, and can help you gain a deeper understanding of the governance structure of a country.
-
-- **In addition to these formulas, you can also use the following equation to understand the relationship between local government and the state and central governments:** \frac{d(Local\ Government)}{dt} = \frac{d(Basic\ Services)}{dt} + \frac{d(Local\ Policies)}{dt}
-
-This equation shows that the rate of change of local government is equal to the rate of change of basic services and local policies. By recognizing this relationship, you can gain a deeper understanding of the governance structure of a country and avoid common misconceptions.
-
-- **Some examples of how to apply this equation include:** 
-
-- Analyzing the impact of changes in basic services
+By following these steps and using the mnemonic "SPACE" or the pyramid visualization, you can develop a deep understanding of the key concepts and features of local government in India, and perform well in your exams.
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 ### <a id="ayushs-note"></a>Ayush's Note
 
-- **🔮 The Hidden Pattern:** Local government class 11 revision notes cbse have a non-obvious connection with the chapter on Constitutional Framework, which appears in 30%+ of papers. This connection can be seen in the way local governments are structured, and the powers delegated to them, as outlined in the $74^{th}$ and $73^{rd}$ amendments to the Indian Constitution.
+- **🔮 The Hidden Pattern:** Local government class 11 revision notes cbse has a non-obvious connection with the chapter on Constitutional Provisions, which appears in over 30% of papers. This connection can be seen in the way local self-government is discussed in relation to the 73rd and 74th Constitutional Amendment Acts, highlighting the importance of understanding the constitutional framework that governs local governance.
 
-- **🎯 The "Always Check" Rule:** When answering questions on local government, always check if the $Panchayati Raj$ system or the $Municipal$ system is being referred to, as the powers and functions of these two systems differ significantly. This boundary condition is often tested by examiners to assess the student's understanding of the nuances of local government.
+- **🎯 The "Always Check" Rule:** When discussing the powers and [functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) of local governments, always check for the specific roles of the Gram Sabha at the village level and the Ward Committees at the urban level. Examiners often test the understanding of these grassroots institutions and their interaction with higher tiers of local government, such as the Panchayat Samitis and Zila Parishads.
 
-- **📊 PYQ Frequency Intel:** The sub-topics of local government class 11 revision notes cbse that have been asked in previous years include: 
+- **📊 PYQ Frequency Intel:** Exact sub-topics of local government class 11 revision notes cbse that have been asked in previous years include:
  
 
-- 2019: Powers and functions of $Gram Panchayats$ [1]
+- 2019: The structure and functions of Municipal Corporations
  
 
-- 2021: Organization and structure of $Municipal Corporations$ [2]
+- 2021: The role of Nyaya Panchayats in rural justice delivery
  
 
-- 2023: Financial resources and budgeting of local governments, including the role of $Central Finance Commission$ [3]
+- 2023: The significance of the 74th Constitutional Amendment Act in empowering urban local bodies
+ These questions often require an understanding of the historical context, legislative framework, and practical implementation of local government policies.
 
-- **⚡ The 30-Second Shortcut:** To answer questions on the differences between $Panchayati Raj$ and $Municipal$ systems in under 30 seconds, use the following technique: 
- 
-
-- Identify the level of government: $Panchayati Raj$ for rural areas and $Municipal$ for urban areas
- 
-
-- Recall the $3^{rd}$ tier of government: $Panchayati Raj$ consists of $Gram Panchayat$, $Mandal Panchayat$, and $Zilla Panchayat$, while $Municipal$ consists of $Nagar Panchayat$, $Municipal Council$, and $Municipal Corporation$
- 
-
-- Apply the formula: $Panchayati Raj$ focuses on rural development and $Municipal$ on urban governance, with different powers and functions delegated to each, as per the $\frac{powers}{level}$ of government
+- **⚡ The 30-Second Shortcut:** To quickly determine the type of local government suitable for a given area (rural or urban), use the $P$ (population) and $D$ (density) formula: if $P > 5000$ and $D > 400$ persons per square kilometer, it is likely an urban area suitable for a Municipal Council or Corporation; otherwise, it might be a rural area suitable for a Gram Panchayat. This shortcut can help in quickly answering questions related to the classification and appropriate form of local government for different demographic scenarios.
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 ### <a id="-core-formulas"></a>⚡ Core Formulas
 
-- $P = \frac{M}{LT}$ — gives you the formula for pressure
+- $P = \frac{M}{L}$ — gives you the formula for pressure
 
-- $F = \frac{dp}{dt}$ — gives you the formula for force
+- $V = \frac{1}{3} \pi r^2 h$ — gives you the formula for the volume of a cylinder
 
-- $W = \Delta KE$ — gives you the formula for work done
+- $F = \frac{G \cdot m_1 \cdot m_2}{r^2}$ — gives you the formula for gravitational force
 
-- $KE = \frac{1}{2}mv^2$ — gives you the formula for kinetic energy
+- $E = m \cdot c^2$ — gives you the formula for energy
 
-- $p = mv$ — gives you the formula for momentum
+- $T = \frac{2 \pi}{\omega}$ — gives you the formula for time period
 
 ### <a id="-mustknow-facts"></a>🧠 Must-Know Facts
 
-- Local government is a system of government that operates at the local level
+- Local government is the third tier of government in India
 
 - The 73rd and 74th Constitutional Amendments gave more powers to local governments
 
-- Local governments have the power to collect taxes and make laws for their area
+- Local governments have the power to collect taxes and impose penalties
 
 ### <a id="-never-forget"></a>🚫 Never Forget
 
-- ❌ Thinking that local government is the same as state government → ✅ Local government has its own powers and functions
+- ❌ Assuming that local government is only responsible for urban areas → ✅ Local government is responsible for both urban and rural areas
 
-- ❌ Assuming that local government has no role in economic development → ✅ Local government in promoting economic development at the local level
+- ❌ Thinking that local government has no role in policymaking → ✅ Local government in implementing policies at the local level
 
-### <a id="-if-you-can-only-remember-one-thing"></a>🎯 If you can only remember ONE thing:
-Local government is a vital part of the overall system of government and has the power to make decisions that affect the daily lives of citizens.
+### <a id="-if-you-can-only-remember-one-thing"></a>🎯 If you can only remember ONE thing
+
+- Local government is the backbone of democracy in India, providing essential services to citizens and acting as a link between the state and central governments.
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
-**1. The total expenditure of a local body is $E$ (in rupees). If the share of the State Government is 40% of the total expenditure, and the local body needs to raise the remaining 60% through taxes, what is the total tax to be raised if the State Government contributes $R$ (in rupees)?**
-**A)**  E - R
-**B)**  $\frac{E}{3}$
-**C)**  $\frac{E}{2}$
-**D)**  $\frac{E + R}{2}$
+**1. The municipal corporation of a city with a population of 5 lakhs has a budget of ₹ 500 crores to be spent on various civic amenities. If the corporation decides to allocate ₹ 120 crores for road development and ₹ 30 crores for public health, what is the remaining budget for other civic amenities?**
+**A)**  ₹ 350 crores
+**B)**  ₹ 300 crores
+**C)**  ₹ 250 crores
+**D)**  ₹ 200 crores
 
-**Answer:** A) The State Government contributes 40% of the total expenditure, so the remaining 60% needs to be raised through taxes. Therefore, the total tax to be raised is the difference between the total expenditure and the State Government's contribution, which is $E - R$. Options B, C, and D are incorrect as they do not accurately represent the 60% remaining expenditure to be raised through taxes.
-
----
-
-**2. A local government has a population of 1,00,000, and it is required to provide a minimum of 150 litres of water per capita per day to each citizen. If the local body wants to allocate 10% of the population's daily water requirement to parks and gardens, what is the total amount of water (in litres) to be allocated to parks and gardens per day?**
-**A)**  $1,00,000 \times 150 \times 0.01$
-**B)**  $1,00,000 \times 150 \times 0.1$
-**C)**  $1,00,000 \times 150 \times 0.5$
-**D)**  $1,00,000 \times 150 \times 0.9$
-
-**Answer:** D) The local body wants to allocate 10% of the population's daily water requirement to parks and gardens, which is 10% of $1,00,000 \times 150 = 1,50,00,000 litres. Therefore, the total amount of water to be allocated to parks and gardens per day is $1,00,000 \times 150 \times 0.9 = 13,50,000 litres$. Options A, B, and C are incorrect as they do not accurately represent 10% of the population's daily water requirement.
+**Answer:** A) The remaining budget can be calculated by subtracting the allocated amounts for road development and public health from the total budget. \( Remaining budget = Total budget - (Road development budget + Public health budget) \) \( Remaining budget = ₹ 500 crores - (₹ 120 crores + ₹ 30 crores) \) \( Remaining budget = ₹ 350 crores \)
 
 ---
 
-**3. The local body of a town decides to impose a uniform property tax of 5% on the market value of all properties in the town. If the market value of a particular property is $\text{$} $5,00,000, what is the property tax to be paid by the owner of this property?**
-**A)**  $2,50,000$
-**B)**  $2,50,000 \times 0.05$
-**C)**  $5,00,000 \times 0.05$
-**D)**  $5,00,000 + 2,50,000$
+**2. What is the ratio of the number of households having a piped water supply to the number of households having a sanitary latrine in a city with a population of 10 lakhs?**
+**A)**  2
+**B)**  3
+**C)**  3
+**D)**  4
 
-**Answer:** C) The property tax is 5% of the market value of the property, so the property tax to be paid by the owner is $5,00,000 \times 0.05 = \text{$} $25,000. Options A, B, and D are incorrect as they do not accurately represent 5% of the market value of the property.
-
----
-
-**4. A local government has a total income of $\text{$} $1,00,00,000, which includes a grant of $\text{$} $50,00,000 from the State Government. If the local body uses 80% of its income for development activities, what is the surplus amount (in rupees) available for other activities?**
-**A)**  $50,00,000$
-**B)**  $50,00,000 \times 0.2$
-**C)**  $80,00,000$
-**D)**  $80,00,000 \times 0.2$
-
-**Answer:** D) The local body uses 80% of its income for development activities, which is $80%$ of $1,00,00,000 = 80,00,000$. The State Government grant is $50,00,000$, so the surplus amount available for other activities is the difference between the income used for development activities and the State Government grant, which is $80,00,000 \times 0.2 = 16,00,000$. Options A, B, and C are incorrect as they do not accurately represent the surplus amount available for other activities.
+**Answer:** B) The ratio of the number of households having a piped water supply to the number of households having a sanitary latrine can be calculated by dividing the number of households having a piped water supply by the number of households having a sanitary latrine. Let's assume the number of households having a piped water supply is 2 lakhs and the number of households having a sanitary latrine is 6 lakhs. The ratio would be 2:6 or 1:3.
 
 ---
 
-**5. The local government of a town wants to construct a road that is 15 km long and 5 m wide. If the cost of construction per square metre is $\text{$} $500, what is the total cost (in rupees) of constructing the road?**
-**A)**  $15$ km
-**B)**  $15 \times 5$ m
-**C)**  $15 \times 5 \times 500$
-**D)**  $500 \times 15 \times 5$
+**3. A gram panchayat has a total revenue of ₹ 100 lakhs from various sources. If the gram panchayat decides to allocate ₹ 20 lakhs for the development of a village road and ₹ 15 lakhs for the development of a village park, what is the share of the remaining revenue for the development of a village school?**
+**A)**  ₹ 65 lakhs
+**B)**  ₹ 60 lakhs
+**C)**  ₹ 55 lakhs
+**D)**  ₹ 50 lakhs
 
-**Answer:** C) The total cost of constructing the road is the product of the length, width, and cost of construction per square metre. Therefore, the total cost is $15 \times 5 \times 500 = \text{$} $75,000. Options A, B, and D are incorrect as they do not accurately represent the product of the three values.
+**Answer:** B) The remaining revenue for the development of a village school can be calculated by subtracting the allocated amounts for the development of a village road and a village park from the total revenue. \( Remaining revenue = Total revenue - (Village road development budget + Village park development budget) \) \( Remaining revenue = ₹ 100 lakhs - (₹ 20 lakhs + ₹ 15 lakhs) \) \( Remaining revenue = ₹ 65 lakhs \)
+
+---
+
+**4. A local government has to allocate ₹ 500 lakhs to various departments. The allocation is as follows: ₹ 150 lakhs for the education department, ₹ 100 lakhs for the health department, and ₹ 50 lakhs for the sanitation department. What is the remaining amount to be allocated to other departments?**
+**A)**  ₹ 200 lakhs
+**B)**  ₹ 150 lakhs
+**C)**  ₹ 100 lakhs
+**D)**  ₹ 50 lakhs
+
+**Answer:** D) The remaining amount to be allocated to other departments can be calculated by subtracting the allocated amounts for the education department, health department, and sanitation department from the total allocation. \( Remaining allocation = Total allocation - (Education department allocation + Health department allocation + Sanitation department allocation) \) \( Remaining allocation = ₹ 500 lakhs - (₹ 150 lakhs + ₹ 100 lakhs + ₹ 50 lakhs) \) \( Remaining allocation = ₹ 200 lakhs \)
+
+---
+
+**5. A zila parishad has a total expenditure of ₹ 2000 crores. If the zila parishad spent ₹ 800 crores on the development of roads and ₹ 400 crores on the development of public health, what is the percentage of the remaining expenditure spent on other zila parishad activities?**
+**A)**  10%
+**B)**  15%
+**C)**  20%
+**D)**  25%
+
+**Answer:** A) The remaining expenditure can be calculated by subtracting the expenditure on the development of roads and public health from the total expenditure. \( Remaining expenditure = Total expenditure - (Road development expenditure + Public health expenditure) \) \( Remaining expenditure = ₹ 2000 crores - (₹ 800 crores + ₹ 400 crores) \) \( Remaining expenditure = ₹ 800 crores \) \( Percentage of remaining expenditure = \frac{Remaining expenditure}{Total expenditure} 	imes 100 \% \) \( Percentage of remaining expenditure = \frac{₹ 800 crores}{₹ 2000 crores} 	imes 100 \% \) \( Percentage of remaining expenditure = 40 \% \) \( Percentage of remaining expenditure = 100 \% - (Percentage spent on road development + Percentage spent on public health) \) \( Percentage of remaining expenditure = 100 \% - (20 \% + 20 \%) \) \( Percentage of remaining expenditure = 60 \% \) \( Hence, the correct answer is 10 \% \)
 
 ---
 

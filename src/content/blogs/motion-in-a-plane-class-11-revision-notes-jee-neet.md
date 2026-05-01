@@ -53,7 +53,7 @@ manualReview: false
 - Most students get confused between the equations of [motion](/blog/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet) ∈ one dimension and two dimensions. They often forget to consider the direction of vectors and the components of velocity and acceleration.
 
 ## 👁️ Ayush's Note
-- To solve problems related to motion ∈ a plane, first identify the type of motion (projectile, circular, or relative). Then, break down the motion into its components (horizontal and vertical) and apply the equations of motion to each component separately.
+- To solve problems related to [motion](/blog/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet) ∈ a plane, first identify the type of [motion](/blog/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet) (projectile, circular, or relative). Then, break down the [motion](/blog/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet) into its components (horizontal and vertical) and apply the equations of [motion](/blog/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet) to each component separately.
 
 ## 🔁 Last 5 Minutes Box
 - Make sure to check the units of measurement of the given quantities and the answer.

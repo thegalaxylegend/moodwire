@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/structure-of-the-atom-class-11-revision-notes-neet"
 ---
 
-*Last Updated: April 30, 2026*
+*Last Updated: May 1, 2026*
 
 ## 📑 Table of Contents
 
@@ -115,7 +115,7 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
 - 📖 [Locomotion And Movement Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/locomotion-and-movement-class-11-revision-notes-neet)
 
 ## 🪤 Common Mistakes That Cost Marks
-When preparing for the Structure of the Atom exam, students often make mistakes that can cost them valuable marks. Here are some common mistakes to avoid:
+When preparing for the [Structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet) of the Atom exam, students often make mistakes that can cost them valuable marks. Here are some common mistakes to avoid:
 * Misunderstanding the concept of atomic number (Z) and mass number (A), where $Z$ represents the number of protons and $A$ represents the sum of protons and neutrons ($A = Z + N$), where $N$ is the number of neutrons.
 * Forgetting the key differences between isotopes and isotones, where isotopes have the same $Z$ but different $A$, and isotones have the same $N$ but different $Z$.
 * Incorrectly applying the rules for electron configuration, such as the Aufbau principle and the Pauli exclusion principle, which state that electrons fill the lowest available energy levels and no two electrons can have the same set of quantum numbers, respectively.

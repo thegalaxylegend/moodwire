@@ -51,7 +51,7 @@ manualReview: false
 - Revision of key terms: biofertilizers, biopesticides, BOD, SCP, enzyme production
 - Quick recall of formulas: BOD, microbial growth curve
 - Glance at the list of microbes and their applications
-- Check the notes on the significance of microbes ∈ human welfare
+- Check the notes on the significance of microbes ∈ [human](/blog/human-reproduction-class-12-notes) welfare
 - Take a few deep breaths and stay calm before the exam
 
 ## 📝 Practice MCQs

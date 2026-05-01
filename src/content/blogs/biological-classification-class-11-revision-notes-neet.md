@@ -48,7 +48,7 @@ There are several [classification](/blog/classification-of-elements-class-11-rev
 - **Phylogenetic system**: Based on the evolutionary history of organisms.
 
 ## 📊 Hierarchical Classification
-The hierarchical classification system is a framework for organizing living organisms into categories of increasing specificity. The system can be represented using a hierarchical diagram, with the most general category (Domain) at the top and the most specific category (Species) at the bottom.
+The hierarchical [classification](/blog/classification-of-elements-class-11-revision-notes-jee-neet) system is a framework for organizing living organisms into categories of increasing specificity. The system can be represented using a hierarchical diagram, with the most general category (Domain) at the top and the most specific category (Species) at the bottom.
 
 ## 👀 Characteristics of Taxonomic Categories
 Each taxonomic category has distinct characteristics that define it. For example:

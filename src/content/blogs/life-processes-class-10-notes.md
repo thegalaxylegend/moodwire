@@ -25,7 +25,7 @@ manualReview: false
 - Forgetting the equation for transpiration rate
 - Not knowing the [human](/blog/human-eye-and-colourful-world-class-10-notes) digestive system equation
 - Confusing osmosis with diffusion
-- Not being able to expla∈ the human excretory system equation
+- Not being able to expla∈ the [human](/blog/human-eye-and-colourful-world-class-10-notes) excretory system equation
 
 ## ✏️ 3 Solved PYQs
 - What is the role of mitochondria ∈ cellular respiration: 
@@ -46,7 +46,7 @@ manualReview: false
 - Make sure to learn the [equations](/blog/chemical-reactions-and-equations-class-10-notes) and formulas, including the photosynthesis equation, respiration equation, and transpiration rate equation
 
 ## 🔁 Last 5 Minutes Box
-- Quickly revise the formulas and equations, including the photosynthesis equation and respiration equation
+- Quickly revise the formulas and [equations](/blog/chemical-reactions-and-equations-class-10-notes), including the photosynthesis equation and respiration equation
 - Go through the diagrams of the human digestive system, excretory system, and plant transport system
 - Make sure to remember the difference between active transport and passive transport
 - Take a few deep breaths and stay calm, as this will help you to think clearly and answer the questions correctly
@@ -127,7 +127,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 *🔓 = Open Access article*
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Life%20Processes%20Class%2010%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Life](/blog/chemistry-in-everyday-life-class-12-notes)%20Processes%20Class%2010%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

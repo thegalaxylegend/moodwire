@@ -41,7 +41,7 @@ where $n!$ represents the factorial of $n$, which is the product of all positive
 This formula gives us the number of ways to choose $r$ objects from a set of $n$ objects without regard to the order of selection.
 
 ## Applications of Permutations and Combinations
-Permutations and combinations have numerous applications in various fields, including mathematics, statistics, computer science, and engineering. They are used in problems involving arrangements, selections, and outcomes. For example, in statistics, combinations are used to calculate the number of possible outcomes when selecting a sample from a population.
+[Permutations](/blog/permutations-combinations-class-11-revision-notes-jee) and combinations have numerous applications in various fields, including mathematics, statistics, computer science, and engineering. They are used in problems involving arrangements, selections, and outcomes. For example, in statistics, combinations are used to calculate the number of possible outcomes when selecting a sample from a population.
 
 ## Practice Problems and Solutions
 To master permutations and combinations, it's essential to practice solving problems. Here are a few examples:

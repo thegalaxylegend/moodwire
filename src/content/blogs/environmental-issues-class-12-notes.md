@@ -81,7 +81,7 @@ D) Solar energy
 -
 A) To reduce greenhouse gas emissions
 -
-B) To conserve biodiversity
+B) To conserve [biodiversity](/blog/biodiversity-and-conservation-class-12-notes)
 -
 C) To protect the ozone layer
 -

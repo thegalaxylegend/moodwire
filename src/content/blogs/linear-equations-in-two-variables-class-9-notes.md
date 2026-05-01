@@ -32,7 +32,7 @@ manualReview: false
   Step 2: m = (5 - 3)/(4 - 2) = 1.
   Step 3: Use the point-slope form to find the equation of the line: y - 3 = 1(x - 2).
   Step 4: Simplify the equation: y - 3 = x - 2, x - y + 1 = 0.
-- **Question 3**: Solve the system of equations x + 2y - 3 = 0 and 2x + 3y + 2 = 0.
+- **Question 3**: Solve the system of [equations](/blog/differential-equations-class-12-notes) x + 2y - 3 = 0 and 2x + 3y + 2 = 0.
   Step 1: Solve the first equation for x.
   Step 2: x = -2y + 3.
   Step 3: Substitute x into the second equation: 2(-2y + 3) + 3y + 2 = 0.

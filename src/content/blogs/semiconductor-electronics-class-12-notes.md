@@ -34,7 +34,7 @@ manualReview: false
 - **Question 2:** The conductivity of a semiconductor is 10⁻³ S/m. If the electron mobility is 0.1 m²/Vs, calculate the electron density.
   Step 1: Use the formula σ = ne²/ρ to find the electron density
   Step 2: Rearrange the formula to solve for n
-- **Question 3:** A diode has a reverse saturation current of 10⁻⁶ A. If the voltage across the diode is 0.5 V, calculate the current through the diode.
+- **Question 3:** A diode has a reverse saturation [current](/blog/magnetic-effects-of-current-class-12-notes) of 10⁻⁶ A. If the voltage across the diode is 0.5 V, calculate the [current](/blog/magnetic-effects-of-current-class-12-notes) through the diode.
   Step 1: Use the formula I = IS(eⁱ⁰⁰⁰Vₜ - 1) to find the current
   Step 2: Plug ∈ the values and solve for I
 

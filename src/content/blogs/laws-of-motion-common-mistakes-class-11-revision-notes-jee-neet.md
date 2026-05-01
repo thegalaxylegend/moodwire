@@ -56,7 +56,7 @@ manualReview: false
 - Take a few deep breaths and try to relax. You have prepared well for this exam.
 
 ## 📝 Practice MCQs
-**1. A block of mass 1 kg is moving with a velocity of 2 m/s on a frictionless surface. A force of 3 N is applied to the block ∈ the direction of motion. What is the acceleration of the block?**
+**1. A block of mass 1 kg is moving with a velocity of 2 m/s on a frictionless surface. A force of 3 N is applied to the block ∈ the direction of [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet). What is the acceleration of the block?**
 -
 A) 1 m/s²
 -

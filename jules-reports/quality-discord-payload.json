@@ -6,17 +6,17 @@
       "fields": [
         {
           "name": "📊 All-Time Stats",
-          "value": "Total: 165 blogs\nPassed: 116\nFailed: 49\nPass Rate: 70%",
+          "value": "Total: 174 blogs\nPassed: 125\nFailed: 49\nPass Rate: 72%",
           "inline": true
         },
         {
           "name": "📈 Avg Quality Score",
-          "value": "78.7/100",
+          "value": "79.8/100",
           "inline": true
         },
         {
           "name": "📉 Trend",
-          "value": "DECLINING (-19.8)",
+          "value": "DECLINING (-14.9)",
           "inline": true
         },
         {
@@ -26,7 +26,7 @@
         }
       ],
       "footer": {
-        "text": "Report generated: 2026-04-30T03:19:09.175Z"
+        "text": "Report generated: 2026-05-01T03:26:09.846Z"
       }
     }
   ]

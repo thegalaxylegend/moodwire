@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/the-s-block-elements-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: April 30, 2026*
+*Last Updated: May 1, 2026*
 
 ## 📑 Table of Contents
 
@@ -139,7 +139,7 @@ D) $np^2$
 
 Solution: A) $ns^1$
 
-4. What is the reactivity of the s-block elements?
+4. What is the reactivity of the s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements?
 A) Low
 B) Medium
 C) High

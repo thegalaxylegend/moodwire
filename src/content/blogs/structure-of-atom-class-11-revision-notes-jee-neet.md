@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/structure-of-atom-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: April 30, 2026*
+*Last Updated: May 1, 2026*
 
 ## 📑 Table of Contents
 
@@ -297,7 +297,7 @@ D) Undefinable
 
 ## <a id="15-ayushs-quantum-mastery-prep-strategy"></a>15. Ayush's "Quantum Mastery" Prep Strategy
 
-When I was studying Structure of Atom, I realized that **visualization is better than rote learning**.
+When I was studying [Structure](/blog/structure-of-the-atom-class-11-revision-notes-neet) of Atom, I realized that **visualization is better than rote learning**.
 1. **The Shape Map**: I closed my eyes and tried to visualize 3D d-orbitals (especially d_{z^2}). Once you see the dumbbell-n-donut, you'll never forget the l=2 rule.
 2. **Formula Grouping**: Don't memorize Bohr's formulas and a vacuum. Group them as "Bohr's Box". Energy, Radius, Velocity are all linked via and and Z.
 3. **The 30-Electron Rule**: I made sure I could write the configuration of any atom from 1 to 30 perfectly without looking. If you can't do Cr and Cu and your sleep, you're not ready for Inorganic Chemistry.

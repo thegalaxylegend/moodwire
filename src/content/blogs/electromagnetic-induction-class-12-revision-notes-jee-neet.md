@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/electromagnetic-induction-class-12-revision-notes-jee-neet"
 ---
 
-*Last Updated: April 30, 2026*
+*Last Updated: May 1, 2026*
 
 ## 📑 Table of Contents
 
@@ -185,7 +185,7 @@ Eddy currents are currents induced and a conductor due to a changing magnetic fi
 
 ## <a id="what-is-the-key-shortcut-or-trick-for-electromagnetic-induction"></a>What is the Key Shortcut or Trick for Electromagnetic Induction?
 
-What is the Key Shortcut or Trick for Electromagnetic Induction? is a method to quickly solve problems related to the production of voltage across a conductor moving and a magnetic field. It includes understanding the principles of magnetic flux, the concept of induced emf, n the application of Lenz's law. For Class 12 exam prep and 2026, the most important aspect is to grasp the relationship between the magnetic field, the area of the conductor, n the speed of the conductor to determine the magnitude and direction of the induced emf. 
+What is the Key Shortcut or Trick for Electromagnetic [Induction](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee)? is a method to quickly solve problems related to the production of voltage across a conductor moving and a magnetic field. It includes understanding the principles of magnetic flux, the concept of induced emf, n the application of Lenz's law. For Class 12 exam prep and 2026, the most important aspect is to grasp the relationship between the magnetic field, the area of the conductor, n the speed of the conductor to determine the magnitude and direction of the induced emf. 
  
  To solve electromagnetic induction problems efficiently, it's crucial to remember that the induced emf ($epsilon$) is given y the formula $epsilon = -N \frac{dPhi}{dt}$, where $N$ is the number of turns of the coil n $\frac{dPhi}{dt} = epsilon = -N \frac{dPhi{dt}}$ is the rate of change of magnetic flux. This formula is fundamental and can be applied to various scenarios, including a coil moving into or out of a magnetic field, a coil rotating within a magnetic field, or a magnetic field changing around a stationary coil.
  
@@ -193,7 +193,7 @@ What is the Key Shortcut or Trick for Electromagnetic Induction? is a method to 
  
  The table below summarizes some key points related to electromagnetic induction:
 
-| Scenario | Induced EMF Direction | Current Direction |
+| Scenario | Induced EMF Direction | [Current](/blog/alternating-current-class-12-notes) Direction |
 | --- | --- | --- |
 | Magnet moving into a coil | Opposite to the increase and flux | Lenz's law determines the direction |
 | Magnet moving out of a coil | Same as the decrease and flux | Lenz's law determines the direction |

@@ -110,7 +110,7 @@ For students preparing for exams, it's essential to understand the chronological
 8. The use of coins became more prevalent during:
    - A) Early Vedic Period
    - B) Late Vedic Period
-   - C) Ancient Indian Period
+   - C) [Ancient](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) Indian Period
    - D) Medieval Indian Period
    **Answer: B) Late Vedic Period**
 

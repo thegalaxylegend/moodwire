@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/three-dimensional-geometry-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: April 30, 2026*
+*Last Updated: May 1, 2026*
 
 ## 📑 Table of Contents
 
@@ -203,5 +203,5 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 * **Normal to a plane**: (a, b, c).
 * **Distance of a point (x1, y1, z1) from a plane**: |ax1 + by1 + cz1 + d| / √(a^2 + b^2 + c^2).
 * **Angle between two planes**: \\\cos θ = |a1a2 + b1b2 + c1c2| / (√(a1^2 + b1^2 + c1^2) * √(a2^2 + b2^2 + c2^2)).
-* **Equation of a line**: (x - x1)/a = (y - y1)/b = (z - z1)/c.
+* **Equation of a [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)**: (x - x1)/a = (y - y1)/b = (z - z1)/c.
 * **Shortest distance between two [lines](/blog/straight-lines-class-11-revision-notes-jee-neet)**: |(x2 - x1)b1*c2 - (y2 - y1)c1*a2 + (z2 - z1)a1*b2| / √((b1*c2 - c1*b2)^2 + (c1*a2 - a1*c2)^2 + (a1*b2 - b1*a2)^2)

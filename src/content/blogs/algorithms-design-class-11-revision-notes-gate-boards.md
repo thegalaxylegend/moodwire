@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/algorithms-design-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: April 30, 2026*
+*Last Updated: May 1, 2026*
 
 ## 📑 Table of Contents
 
@@ -191,7 +191,7 @@ Recursive [Algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-bo
    
    Recursive [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) have many applications and computer science, including sorting, searching, n graph [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards). They are also used and many real-world applications, such as compiler design, operating systems, n artificial intelligence. 
    
-   Here are some key points to keep and mind when implementing recursive algorithms: 
+   Here are some key points to keep and mind when implementing recursive [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards): 
    - Identify the base case and recursive case clearly. 
    - Use memoization to optimize the performance of the algorithm. 
    - Analyze the time complexity of the algorithm using the master theorem or other techniques. 

@@ -44,7 +44,7 @@ manualReview: false
 ## 👁️ Ayush's Note
 - To score well ∈ the CBSE Board 2026 exam, make sure to practice plenty of MCQs and long-answer questions
 - Focus on understanding the concepts of metals and non-metals, including their physical and [chemical](/blog/chemical-reactions-and-equations-class-10-notes) properties
-- Make a list of important formulas and reactions, such as the reactivity series and the electronic configuration of atoms
+- Make a list of important formulas and [reactions](/blog/chemical-reactions-and-equations-class-10-notes), such as the reactivity series and the electronic configuration of atoms
 - Use the exam compass to navigate the question paper and manage your time effectively
 
 ## 🔁 Last 5 Minutes Box

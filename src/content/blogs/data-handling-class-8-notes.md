@@ -52,7 +52,7 @@ manualReview: false
 - Check for any calculations that require the use of class limits and class marks.
 
 ## 📝 Practice MCQs
-**1. What is the mean of the numbers 1, 2, 3, 4, 5?**
+**1. What is the mean of the [numbers](/blog/rational-numbers-class-8-notes) 1, 2, 3, 4, 5?**
 -
 A) 2
 -

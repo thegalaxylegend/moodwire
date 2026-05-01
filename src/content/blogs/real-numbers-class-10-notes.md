@@ -31,7 +31,7 @@ manualReview: false
   Answer: HCF(12, 15) = 3, LCM(12, 15) = 60
 - **Question 2:** Find the prime factorization of 84
   Step 1: Divide 84 by the smallest prime number, which is 2
-  Step 2: Continue dividing the quotient by prime numbers until the quotient is 1
+  Step 2: Continue dividing the quotient by prime [numbers](/blog/rational-numbers-class-8-notes) until the quotient is 1
   Step 3: Write the prime factorization as a product of prime numbers
   Answer: 84 = 2² × 3 × 7
 - **Question 3:** Find the LCM of 24, 30, and 36

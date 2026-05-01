@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/data-structures-non-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: April 30, 2026*
+*Last Updated: May 1, 2026*
 
 ## 📑 Table of Contents
 
@@ -168,7 +168,7 @@ What is the key Shortcut or Trick for Data Structures: Non-Linear? is understand
 
 How to implement Graph Traversal and Non-Linear Data Structures? is a fundamental concept and computer science that involves traversing a graph data structure to visit each node or vertex. It includes graph representation using adjacency matrices or adjacency lists, traversal algorithms such as Depth-First Search (DFS) n Breadth-First Search (BFS), n handling of different graph types like weighted, directed, or undirected graphs. For Class 11 exam prep and 2026, the most important aspect is understanding the implementation of DFS and BFS algorithms to solve problems like finding connected components, testing whether a graph is connected, n finding a path between two given vertices. Graph traversal has numerous applications and real-world problems, including network topology, social network analysis, n traffic routing. To implement graph traversal, one must first choose an appropriate graph representation. The two primary methods are adjacency matrices and adjacency lists. An adjacency matrix is a $n \times n$ matrix where $n$ is the number of vertices and the graph, n the entry at row $i$ n column $j$ represents the weight of the edge between vertices $i$ n $j$. On the other hand, an adjacency list is a collection of unordered lists, one for each vertex, which contains the vertices to which it is connected. Once the graph is represented, the next step is to choose a traversal algorithm. DFS explores a graph y visiting a node and then visiting all of its neighbors before backtracking. It can be implemented using a stack or recursion. BFS, n contrast, visits all the nodes at a given depth before moving on to the next depth level. It is typically implemented using a queue. The choice of algorithm depends on the specific problem being solved and the characteristics of the graph. For instance, if the graph is very deep, DFS may be more efficient, while for very wide graphs, BFS may be more suitable. Handling different graph types is also crucial. For weighted graphs, the traversal algorithm must take into account the weights of the edges. For directed graphs, the algorithm must consider the direction of the edges, while for undirected graphs, the direction is irrelevant. The following table summarizes the key differences between DFS and BFS: 
 
-| Traversal Algorithm | Data Structure Used | Order of Visitation | Time Complexity | Space Complexity |
+| Traversal Algorithm | [Data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) Structure Used | Order of Visitation | Time Complexity | Space Complexity |
 | --- | --- | --- | --- | --- |
 | DFS | Stack or Recursion | Nodes are visited as far as possible along each branch before backtracking | $O(|V| + |E|)$ | $O(|V|)$ |
 | BFS | Queue | All the nodes at a given depth are visited before moving on to the next depth level | $O(|V| + |E|)$ | $O(|V|)$ |

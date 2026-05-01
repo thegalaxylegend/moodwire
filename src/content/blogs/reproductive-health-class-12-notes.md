@@ -41,7 +41,7 @@ manualReview: false
 - Another common mistake is not being able to calculate the fertility rate and contraceptive prevalence rate 
 
 ## 👁️ Ayush's Note
-- Reproductive health is an important aspect of population control and overall health 
+- Reproductive [health](/blog/human-health-and-disease-class-12-notes) is an important aspect of population control and overall [health](/blog/human-health-and-disease-class-12-notes) 
 - Understanding the different contraceptive methods and their mechanisms of action is crucial 
 - Calculating fertility rate and contraceptive prevalence rate can be tricky, but it's essential to practice 
 - Amniocentesis and other pre-natal diagnostic techniques are important for detecting genetic disorders 

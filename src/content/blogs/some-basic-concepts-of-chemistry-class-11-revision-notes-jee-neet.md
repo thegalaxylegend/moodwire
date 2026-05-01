@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: April 30, 2026*
+*Last Updated: May 1, 2026*
 
 ## 📑 Table of Contents
 
@@ -186,6 +186,6 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
    * **Element**: Substances which consists of only one type of particles (atoms or molecules) and cannot be divided into simpler substances by any [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) method. 
    * **Compound**: Substances formed by the [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) combination of two or more different elements in a fixed ratio by weight. 
    * **Mixture**: Substances containing two or more types of particles (atoms or molecules) which are not chemically combined and have different compositions. 
-   * **Atom**: The smallest particles of matter which can take part in a chemical reaction and cannot be seen by naked eye. 
+   * **Atom**: The smallest particles of matter which can take part in a [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) reaction and cannot be seen by naked eye. 
    * **Molecule**: Group of two or more atoms of the same element or different elements which is held together by the chemical bonds.
 

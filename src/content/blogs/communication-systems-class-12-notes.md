@@ -42,7 +42,7 @@ manualReview: false
 - **Answer:** 665.74 kbps
 - **Question 3:** A digital signal is transmitted through a communication system with a data transfer rate of 1 Mbps. If the signal is sampled at a rate of 2 MHz, what is the [number](/blog/number-systems-class-9-notes) of bits per sample?
 - **Step 1:** Identify the data transfer rate (1 Mbps) and the sampling rate (2 MHz)
-- **Step 2:** Calculate the number of bits per sample using the formula n = R/fₛ, where n is the number of bits per sample, R is the data transfer rate, and fₛ is the sampling rate
+- **Step 2:** Calculate the [number](/blog/number-systems-class-9-notes) of bits per sample using the formula n = R/fₛ, where n is the [number](/blog/number-systems-class-9-notes) of bits per sample, R is the data transfer rate, and fₛ is the sampling rate
 - **Step 3:** Substitute the values and calculate the number of bits per sample (1 Mbps / 2 MHz = 0.5 bits per sample)
 - **Answer:** 0.5 bits per sample
 
@@ -52,7 +52,7 @@ manualReview: false
 ## 👁️ Ayush's Note
 - To solve problems related to communication [systems](/blog/operating-systems-class-12-notes), it is essential to understand the concepts of signal modulation and demodulation, and the difference between analog and digital communication [systems](/blog/operating-systems-class-12-notes).
 - Practice problems related to signal-to-noise ratio (SNR) and data transfer rate to improve your understanding of these concepts.
-- Make sure to remember the formulas related to communication systems, such as the formula for signal-to-noise ratio (SNR) and the formula for data transfer rate.
+- Make sure to remember the formulas related to communication [systems](/blog/operating-systems-class-12-notes), such as the formula for signal-to-noise ratio (SNR) and the formula for data transfer rate.
 
 ## 🔁 Last 5 Minutes Box
 - Revision of key concepts: signal modulation and demodulation, amplitude modulation (AM) and frequency modulation (FM), signal-to-noise ratio (SNR), and data transfer rate

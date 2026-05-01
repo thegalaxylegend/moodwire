@@ -56,7 +56,7 @@ manualReview: false
 ## 🔁 Last 5 Minutes Box
 - Review the key concepts of [biotechnology](/blog/biotechnology-and-its-applications-class-12-notes), including DNA replication, transcription, translation, and gene regulation
 - Make sure you understand the [principles](/blog/principles-of-inheritance-and-variation-class-12-notes) of PCR, gel electrophoresis, and Western blot
-- Review the different types of bioreactors and their applications
+- Review the different types of bioreactors and their [applications](/blog/biotechnology-and-its-applications-class-12-notes)
 - Go through the important formulas and equations, including the Michaelis-Menten equation and the equation for the efficiency of a bioreactor
 - Take a few deep breaths and try to relax - you've got this!
 
@@ -124,7 +124,7 @@ D) All of the above
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/biotechnology-principles-and-processes-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/biotechnology-[principles](/blog/principles-of-inheritance-and-variation-class-12-notes)-and-processes-class-12-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Biotechnology%20Principles%20And%20Processes%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

@@ -44,10 +44,10 @@ manualReview: false
 - Concentration is the amount of substance per unit volume, while activity is the effective concentration of a substance ∈ a solution
 
 ## 👁️ Ayush's Note
-- To solve problems related to chemical reactions ∈ everyday [life](/blog/life-processes-class-10-notes), first identify the type of reaction, e.g. redox, acid-base, or precipitation reaction
+- To solve problems related to chemical reactions ∈ every day [life](/blog/life-processes-class-10-notes), first identify the type of reaction, e.g. redox, acid-base, or precipitation reaction
 - Then, use the relevant equations and formulas to solve the problem, e.g. Henderson-Hasselbalch equation for buffer solutions
 - Always check the units of the quantities involved, and make sure to use the correct formulas and equations
-- Practice solving problems related to chemical reactions ∈ everyday life, and try to relate them to real-life situations
+- Practice solving problems related to chemical reactions ∈ everyday [life](/blog/life-processes-class-10-notes), and try to relate them to real-[life](/blog/life-processes-class-10-notes) situations
 
 ## 🔁 Last 5 Minutes Box
 - Make sure to check the units of the quantities involved ∈ the problem

@@ -12,7 +12,7 @@ manualReview: false
 - A quadrilateral is a 4-sided polygon with 4 vertices and 4 [angles](/blog/lines-and-angles-class-9-notes).
 - Sum of interior [angles](/blog/lines-and-angles-class-9-notes) of a quadrilateral = (n-2) × 180°, where n = 4
 - Sum of interior [angles](/blog/lines-and-angles-class-9-notes) of a quadrilateral = (4-2) × 180° = 2 × 180° = 360°
-- Sum of exterior angles of a quadrilateral = 360°
+- Sum of exterior [angles](/blog/lines-and-angles-class-9-notes) of a quadrilateral = 360°
 - A quadrilateral with all sides equal is called a rhombus.
 - A quadrilateral with all sides equal and all angles equal is called a square.
 - Diagonals of a rectangle bisect each other and are equal ∈ length.

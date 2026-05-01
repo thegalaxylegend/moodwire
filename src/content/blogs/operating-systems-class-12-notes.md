@@ -50,8 +50,8 @@ manualReview: false
 - Most students confuse the concepts of paging and segmentation, and are unable to apply them correctly to solve problems.
 
 ## 👁️ Ayush's Note
-- To master Operating [Systems](/blog/number-systems-class-9-notes), focus on understanding the concepts of process management, memory management, and file [systems](/blog/number-systems-class-9-notes).
-- Practice solving problems on CPU scheduling, memory management, and file systems to develop problem-solving skills.
+- To master operating [Systems](/blog/number-systems-class-9-notes), focus on understanding the concepts of process management, memory management, and file [systems](/blog/number-systems-class-9-notes).
+- Practice solving problems on CPU scheduling, memory management, and file [systems](/blog/number-systems-class-9-notes) to develop problem-solving skills.
 - Use the formula bank to quickly recall important formulas and concepts.
 
 ## 🔁 Last 5 Minutes Box

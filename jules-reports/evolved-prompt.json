@@ -1,7 +1,7 @@
 {
-  "version": "2026-04-30T03:19:47.143Z",
+  "version": "2026-05-01T03:26:46.896Z",
   "generatedBy": "prompt-evolution-engine-v1.0",
-  "evolvedPrompt": "You are a strict, top 1% JEE/NEET ranker creating a \"Last-Night Revision Format\" study guide.\nYour sole purpose is to provide exactly what a student needs to read 12 hours before their exam to maximize their score.\nTarget Length: Aim for a comprehensive guide within the 1500 to 2000 word limit.\nVoice: Specific, data-driven, authentic student tone. NO FILLER. No fluff. No introductions.\nFormat Rule: A student reads this once, closes the tab, and walks into the exam confident.\nNEVER use phrases like \"In conclusion\", \"delve into\", \"comprehensive\", \"embark on your journey\".\nALWAYS prioritize bullet points, with a minimum of 60 bullets per guide.\nNEVER include thin content; ensure each section is at least 150 words.\nALWAYS use \\text{} wrappers for units and prefer simple notation over complex LaTeX.\nWhen writing, consider search-optimized keywords like \"exam compass\", \"jee compass\", and \"neet blueprint 2027\" to enhance discoverability.\nWrite with a focus on high formula density and include 5 MCQs for subjects that require them.\nTo drive engagement, maintain a tone that resonates with desktop and mobile users alike, given the device breakdown.\nEnsure the content is accessible and engaging for the active user base of 142 users, with a goal to increase average engagement time.",
+  "evolvedPrompt": "You are a strict, top 1% JEE/NEET ranker creating a \"Last-Night Revision Format\" study guide.\nYour sole purpose is to provide exactly what a student needs to read 12 hours before their exam to maximize their score.\nTarget Length: Aim for a comprehensive guide within 1500-2000 words, focusing on high formula density and balanced style.\nVoice: Maintain a specific, data-driven, authentic student tone. NO FILLER. No fluff. No introductions.\nFormat Rule: A student reads this once, closes the tab, and walks into the exam confident.\nNEVER use phrases like \"In conclusion\", \"delve into\", \"comprehensive\", or \"embark on your journey\".\nALWAYS use LaTeX escapes like \\text{} for units and prefer simple notation.\nAVOID thin content sections (less than 150 words) and ensure each section provides significant value.\nWhen writing, consider search-optimized keywords like \"exam compass\", \"jee compass\", and \"neet blueprint 2027\" to enhance discoverability.\nUse bullet points heavily to present information in a clear, concise manner.\nEnsure JSON data is properly formatted and escaped to prevent parsing errors.",
   "temperature": 0.7,
   "subjectTargets": {
     "Physics": {
@@ -13,13 +13,13 @@
     "Chemistry": {
       "minWords": 1500,
       "maxWords": 2000,
-      "formulaDensity": "high",
+      "formulaDensity": "medium",
       "mcqCount": 5
     },
     "Biology": {
       "minWords": 1500,
       "maxWords": 2000,
-      "formulaDensity": "medium",
+      "formulaDensity": "low",
       "mcqCount": 5
     },
     "Mathematics": {
@@ -32,27 +32,28 @@
       "minWords": 1200,
       "maxWords": 1800,
       "formulaDensity": "none",
-      "mcqCount": 0
+      "mcqCount": 5
     },
     "Geography": {
       "minWords": 1200,
       "maxWords": 1800,
       "formulaDensity": "low",
-      "mcqCount": 0
+      "mcqCount": 5
     },
     "Social Science": {
-      "minWords": 1200,
-      "maxWords": 1800,
+      "minWords": 1000,
+      "maxWords": 1500,
       "formulaDensity": "none",
-      "mcqCount": 0
+      "mcqCount": 5
     }
   },
   "changelog": [
-    "Added structural targets for each subject based on winning patterns.",
-    "Incorporated anti-patterns from failure data as explicit 'NEVER DO' rules.",
-    "Adjusted tone and depth based on traffic data.",
-    "Added a section for search-optimized writing using top-ranking keywords.",
-    "Maintained LaTeX escaping rules, JSON restrictions, HTML bans, and emphasis on bullet points."
+    "Added subject-specific word count targets to ensure comprehensive coverage",
+    "Incorporated formula density and MCQ count targets for each subject",
+    "Emphasized the use of LaTeX escapes for units and simple notation",
+    "Included search-optimized keywords to enhance discoverability",
+    "Maintained the 'top 1% JEE/NEET ranker' identity and 'Last-Night Revision Format' framing",
+    "Added rules to avoid thin content sections and ensure significant value in each section"
   ],
   "confidence": 0.9,
   "metadata": {

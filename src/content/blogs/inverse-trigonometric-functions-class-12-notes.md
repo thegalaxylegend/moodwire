@@ -45,7 +45,7 @@ manualReview: false
 ## 🔁 Last 5 Minutes Box
 - Make sure to check the doma∈ and range of the inverse [trigonometric](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) functions
 - Use the principal values of s∈⁻¹(x), cos⁻¹(x), and tan⁻¹(x)
-- Simplify the expression as much as possible before applying the inverse trigonometric function
+- Simplify the expression as much as possible before applying the inverse [trigonometric](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) function
 - Use the identities to simplify the expression
 - Check your work and make sure you have the correct answer
 

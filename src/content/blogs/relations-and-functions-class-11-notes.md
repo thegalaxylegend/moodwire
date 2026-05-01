@@ -40,7 +40,7 @@ There are several types of [relations](/blog/relations-functions-class-11-revisi
 * **Transitive Relations**: A relation $R$ on a set $A$ is transitive if $(a, b) in R$ and $(b, c) in R$ implies $(a, c) in R$. For example, the relation $R = {(1, 2), (2, 3), (1, 3)}$ on the set ${1, 2, 3}$ is transitive.
 
 ## Types of Functions
-There are also several types of functions that are important in mathematics, including:
+There are also several types of [functions](/blog/relations-functions-class-11-revision-notes-jee-neet) that are important in mathematics, including:
 * **One-to-One (Injective) Functions**: A function $f$ is one-to-one if $f(a) = f(b)$ implies $a = b$. For example, the function $f = {(1, 2), (2, 4), (3, 6)}$ is one-to-one because each element of the codomain is mapped to at most one element of the domain.
 * **Onto (Surjective) Functions**: A function $f$ is onto if for every $b in B$, there exists an $a in A$ such that $f(a) = b$. For instance, the function $f = {(1, 1), (2, 2), (3, 3)}$ is onto because each element of the codomain is mapped to at least one element of the domain.
 * **Bijective Functions**: A function $f$ is bijective if it is both one-to-one and onto. For example, the function $f = {(1, 1), (2, 2), (3, 3)}$ is bijective because it is both one-to-one and onto.

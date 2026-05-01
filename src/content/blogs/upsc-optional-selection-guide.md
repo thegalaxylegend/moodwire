@@ -92,7 +92,7 @@ D) All of the above
 -
 A) To understand the exam pattern and question types
 -
-B) To identify areas of improvement and focus on weak topics
+B) To identify [areas](/blog/areas-related-to-circles-class-10-notes) of improvement and focus on weak topics
 -
 C) To practice and revise regularly
 -

@@ -142,7 +142,7 @@ The economy of the Indus Valley Civilization was based on agriculture, animal hu
 * **Geographical context**: Situated in the Indus Valley region, with fertile soil, abundant water supply, and favorable climate
 * **Characteristics**: Urban planning, architecture, water management, trade and commerce, and art and craft
 * **Economy and trade**: Based on agriculture, animal husbandry, trade and commerce, and crafts and industries
-* **Social structure and governance**: Hierarchical society with rulers, priests, merchants, and artisans, and a system of governance with local councils and regional authorities
+* **Social [structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet) and governance**: Hierarchical society with rulers, priests, merchants, and artisans, and a system of governance with local councils and regional authorities
 
 ## 🪤 The 5 Mistakes That Cost Marks
 
