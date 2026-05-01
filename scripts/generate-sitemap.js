@@ -192,19 +192,10 @@ Sitemap: ${BASE_URL}/${SITEMAP_INDEX_NAME}
         console.log(`✅ Complete Sitemap Index written with ${allSitemapFiles.length} sitemaps (auto-discovered).`);
 
         // ============================================================
-        // GENERATE _redirects with EXPLICIT per-file rules
-        // Cloudflare Pages does NOT support wildcards like /sitemap-*.xml
-        // Every static file must be listed individually.
+        // GENERATE _redirects 
         // ============================================================
-        const sitemapRedirects = allSitemapFiles.map(f => {
-            const padded = `/${f}`;
-            return `${padded.padEnd(38)}/${f}${' '.repeat(Math.max(1, 38 - f.length - 1))}200`;
-        }).join('\n');
-
         const redirectsContent = `# ============================================================
 # ExamCompass _redirects for Cloudflare Pages (AUTO-GENERATED)
-# IMPORTANT: Cloudflare Pages does NOT support wildcards (*)
-# with text AFTER them. Each static file needs its own rule.
 # Rules are processed top-to-bottom; first match wins.
 # ============================================================
 
@@ -218,23 +209,8 @@ Sitemap: ${BASE_URL}/${SITEMAP_INDEX_NAME}
 /api/og/*  https://us-central1-legendstech001.cloudfunctions.net/ogImage/:splat  200
 /api/og    https://us-central1-legendstech001.cloudfunctions.net/ogImage  200
 
-# === SITEMAPS (auto-generated, every file listed explicitly) ===
-/sitemap.xml                  /sitemap.xml                  200
-${sitemapRedirects}
-
-# === SEO & Discovery Files ===
-/robots.txt                   /robots.txt                   200
-/rss.xml                      /rss.xml                      200
-/feed.xml                     /feed.xml                     200
-/ads.txt                      /ads.txt                      200
-/llms.txt                     /llms.txt                     200
-/seo-manifest.json            /seo-manifest.json            200
-/schema-data.json             /schema-data.json             200
-/slug-registry.json           /slug-registry.json           200
-/question-db.json             /question-db.json             200
-
 # === Catch-all for SPA client-side routing ===
-# This MUST be last. Everything above bypasses it.
+# This MUST be last. Cloudflare Pages SPA fallback.
 /*  /index.html  200
 `;
 

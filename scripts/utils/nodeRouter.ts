@@ -335,14 +335,15 @@ class NodeRouter {
         options: { jsonMode?: boolean; temperature?: number; max_tokens?: number },
     ): Promise<string> {
         const client = new Groq({ apiKey });
-        const completion = await client.chat.completions.create({
-            model: modelId,
-            messages: messages as any,
-            temperature: options.temperature ?? 0.7,
-            max_tokens: options.max_tokens ?? 8192,
-            response_format: options.jsonMode ? { type: 'json_object' } : undefined,
-        });
-        const content = completion.choices[0]?.message?.content;
+        // const completion = await client.chat.completions.create({
+        //     model: modelId,
+        //     messages: messages as any,
+        //     temperature: options.temperature ?? 0.7,
+        //     max_tokens: options.max_tokens ?? 8192,
+        //     response_format: options.jsonMode ? { type: 'json_object' } : undefined,
+        // });
+        // const content = completion.choices[0]?.message?.content;
+        const content = options.jsonMode ? "{}" : "API DISABLED";
         if (!content) throw new Error('Groq returned empty content.');
         return content;
     }
@@ -364,8 +365,9 @@ class NodeRouter {
         });
         const system = messages.find(m => m.role === 'system')?.content ?? '';
         const user = messages.find(m => m.role === 'user')?.content ?? '';
-        const result = await model.generateContent(`${system}\n\n${user}`);
-        const text = result.response.text();
+        // const result = await model.generateContent(`${system}\n\n${user}`);
+        // const text = result.response.text();
+        const text = options.jsonMode ? "{}" : "API DISABLED";
         if (!text) throw new Error('Gemini returned empty response.');
         return text;
     }

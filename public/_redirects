@@ -1,7 +1,5 @@
 # ============================================================
 # ExamCompass _redirects for Cloudflare Pages (AUTO-GENERATED)
-# IMPORTANT: Cloudflare Pages does NOT support wildcards (*)
-# with text AFTER them. Each static file needs its own rule.
 # Rules are processed top-to-bottom; first match wins.
 # ============================================================
 
@@ -15,39 +13,6 @@
 /api/og/*  https://us-central1-legendstech001.cloudfunctions.net/ogImage/:splat  200
 /api/og    https://us-central1-legendstech001.cloudfunctions.net/ogImage  200
 
-# === SITEMAPS (auto-generated, every file listed explicitly) ===
-/sitemap.xml                  /sitemap.xml                  200
-/sitemap-bitsat.xml                   /sitemap-bitsat.xml                   200
-/sitemap-blogs.xml                    /sitemap-blogs.xml                    200
-/sitemap-class-10.xml                 /sitemap-class-10.xml                 200
-/sitemap-class-11.xml                 /sitemap-class-11.xml                 200
-/sitemap-class-12.xml                 /sitemap-class-12.xml                 200
-/sitemap-class-6.xml                  /sitemap-class-6.xml                  200
-/sitemap-class-7.xml                  /sitemap-class-7.xml                  200
-/sitemap-class-8.xml                  /sitemap-class-8.xml                  200
-/sitemap-class-9.xml                  /sitemap-class-9.xml                  200
-/sitemap-clat.xml                     /sitemap-clat.xml                     200
-/sitemap-core.xml                     /sitemap-core.xml                     200
-/sitemap-gate.xml                     /sitemap-gate.xml                     200
-/sitemap-jee-advanced.xml             /sitemap-jee-advanced.xml             200
-/sitemap-jee-mains.xml                /sitemap-jee-mains.xml                200
-/sitemap-main.xml                     /sitemap-main.xml                     200
-/sitemap-neet.xml                     /sitemap-neet.xml                     200
-/sitemap-questions-batch1.xml         /sitemap-questions-batch1.xml         200
-/sitemap-topics.xml                   /sitemap-topics.xml                   200
-/sitemap-upsc.xml                     /sitemap-upsc.xml                     200
-
-# === SEO & Discovery Files ===
-/robots.txt                   /robots.txt                   200
-/rss.xml                      /rss.xml                      200
-/feed.xml                     /feed.xml                     200
-/ads.txt                      /ads.txt                      200
-/llms.txt                     /llms.txt                     200
-/seo-manifest.json            /seo-manifest.json            200
-/schema-data.json             /schema-data.json             200
-/slug-registry.json           /slug-registry.json           200
-/question-db.json             /question-db.json             200
-
 # === Catch-all for SPA client-side routing ===
-# This MUST be last. Everything above bypasses it.
+# This MUST be last. Cloudflare Pages SPA fallback.
 /*  /index.html  200

@@ -142,9 +142,19 @@ async function prerender() {
                 ].join('\n') : '';
 
                 // HYDRATION & TEMPLATE INJECTION
+                // Serialize global data to window so the client can pick it up without a network request
+                let dataScript = '';
+                if (globalThis.SEO_QUESTION_DATA) dataScript += `window.SEO_QUESTION_DATA = ${JSON.stringify(globalThis.SEO_QUESTION_DATA).replace(/</g, '\\u003c')};\n`;
+                if (globalThis.SEO_TOPIC_DATA && globalThis.SEO_TOPIC_DATA.length > 0) dataScript += `window.SEO_TOPIC_DATA = ${JSON.stringify(globalThis.SEO_TOPIC_DATA).replace(/</g, '\\u003c')};\n`;
+                if (globalThis.SEO_TOPIC_CONTENT) dataScript += `window.SEO_TOPIC_CONTENT = ${JSON.stringify(globalThis.SEO_TOPIC_CONTENT).replace(/</g, '\\u003c')};\n`;
+                if (globalThis.SEO_BLOG_DATA) dataScript += `window.SEO_BLOG_DATA = ${JSON.stringify(globalThis.SEO_BLOG_DATA).replace(/</g, '\\u003c')};\n`;
+                if (globalThis.SEO_BLOG_CONTENT) dataScript += `window.SEO_BLOG_CONTENT = ${JSON.stringify(globalThis.SEO_BLOG_CONTENT).replace(/</g, '\\u003c')};\n`;
+
+                const scriptTag = dataScript ? `<script>\n${dataScript}</script>\n` : '';
+
                 // Replace head placeholder and replace entire boot-shell skeleton with prerendered content
                 let html = template
-                    .replace('<!--app-head-->', headTags)
+                    .replace('<!--app-head-->', headTags + '\n' + scriptTag)
                     .replace(/<!--app-html-->[\s\S]*?<!--app-html-end-->/, appHtml);
 
                 // SCHEMA INJECTION: Inject JSON-LD structured data for blog pages
