@@ -62,6 +62,7 @@ async function runFinalAudit() {
                 subject: t.subject,
                 topic: t.topic,
                 difficulty: 'Medium',
+                // @ts-ignore
                 noCache: true 
             });
 
@@ -79,7 +80,7 @@ async function runFinalAudit() {
                 rejectedCount++;
                 fs.appendFileSync(reportPath, `### ${i+1}. ❌ ${t.topic} (${t.class})\n**Status**: REJECTED BY SANITY CHECK\n\n--- \n\n`);
             }
-        } catch (err) {
+        } catch (err: any) {
             rejectedCount++;
             fs.appendFileSync(reportPath, `### ${i+1}. ❌ ${t.topic} (${t.class})\n**Error**: ${err.message}\n\n--- \n\n`);
         }

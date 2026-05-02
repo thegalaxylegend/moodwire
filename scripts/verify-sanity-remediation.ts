@@ -31,6 +31,7 @@ async function verifySanityCheck() {
                 subject: test.subject,
                 topic: test.topic,
                 difficulty: 'Medium',
+                // @ts-ignore
                 noCache: true 
             });
 
@@ -47,7 +48,7 @@ async function verifySanityCheck() {
             }
             entry += `--- \n\n`;
             fs.appendFileSync(reportPath, entry);
-        } catch (e) {
+        } catch (e: any) {
             fs.appendFileSync(reportPath, `### Topic: ${test.topic}\n**Error**: ${e.message}\n\n--- \n\n`);
         }
     }

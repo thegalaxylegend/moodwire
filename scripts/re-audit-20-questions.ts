@@ -62,6 +62,7 @@ async function runReAudit() {
                 subject: t.subject,
                 topic: t.topic,
                 difficulty: 'Medium',
+                // @ts-ignore
                 noCache: true 
             });
 
@@ -82,7 +83,7 @@ async function runReAudit() {
                 let entry = `### ${i+1}. ${statusEmoji} ${t.topic} (${t.class})\n`;
                 entry += `**Status**: ${status}\n\n`;
                 entry += `> **Question**: ${result.question}\n\n`;
-                entry += `> **Options**: ${result.options.join(' | ')}\n\n`;
+                entry += `> **Options**: ${Array.isArray(result.options) ? result.options.join(' | ') : result.options}\n\n`;
                 entry += `> **Correct Answer**: ${result.correct_answer}\n\n`;
                 entry += `> **Confidence**: ${result.confidence}\n\n`;
                 entry += `> **Internal Logic**: (Derived by 70B Verifier during check)\n\n`;
@@ -92,7 +93,7 @@ async function runReAudit() {
                 rejectedCount++;
                 fs.appendFileSync(reportPath, `### ${i+1}. ❌ ${t.topic} (${t.class})\n**Status**: REJECTED/FAILED\n\n--- \n\n`);
             }
-        } catch (err) {
+        } catch (err: any) {
             rejectedCount++;
             fs.appendFileSync(reportPath, `### ${i+1}. ❌ ${t.topic} (${t.class})\n**Error**: ${err.message}\n\n--- \n\n`);
         }

@@ -39,6 +39,7 @@ async function runGenEfficiencyAudit() {
                 subject: test.subject,
                 topic: test.topic,
                 difficulty: 'Medium',
+                // @ts-ignore
                 noCache: true 
             });
 
@@ -55,7 +56,7 @@ async function runGenEfficiencyAudit() {
                 rejectedCount++;
                 fs.appendFileSync(reportPath, `### Topic: ${test.topic}\n**Status**: ❌ REJECTED (Waste Created)\n\n--- \n\n`);
             }
-        } catch (e) {
+        } catch (e: any) {
             rejectedCount++;
             fs.appendFileSync(reportPath, `### Topic: ${test.topic}\n**Error**: ${e.message}\n\n--- \n\n`);
         }

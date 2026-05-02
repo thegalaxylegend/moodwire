@@ -32,6 +32,7 @@ async function verifyRemediation() {
                 subject: test.subject,
                 topic: test.topic,
                 difficulty: 'Medium',
+                // @ts-ignore
                 noCache: true // Force new generation to bypass old bad data
             });
 
@@ -48,7 +49,7 @@ async function verifyRemediation() {
             }
             entry += `--- \n\n`;
             fs.appendFileSync(reportPath, entry);
-        } catch (e) {
+        } catch (e: any) {
             fs.appendFileSync(reportPath, `### Topic: ${test.topic}\n**Error**: ${e.message}\n\n--- \n\n`);
         }
     }
