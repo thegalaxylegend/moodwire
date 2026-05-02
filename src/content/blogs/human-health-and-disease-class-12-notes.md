@@ -61,7 +61,7 @@ manualReview: false
 -
 A) It measures the average life expectancy at birth
 -
-B) It measures the average achievement of a country ∈ three basic dimensions of human development
+B) It measures the average achievement of a country ∈ three basic dimensions of [human](/blog/microbes-in-human-welfare-class-12-notes) development
 -
 C) It measures the total number of cases of disease that exist ∈ a population
 -
@@ -121,7 +121,7 @@ D) Heritability is the proportion of variation ∈ a trait that cannot be attrib
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/human-health-and-disease-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/human-[health](/blog/reproductive-health-class-12-notes)-and-disease-class-12-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Human%20Health%20And%20Disease%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

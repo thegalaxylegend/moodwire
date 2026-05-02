@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "factorisation-class-8-notes",
+    "status": "failed",
+    "quality_score": 17,
+    "retries": 2,
+    "error": "JSON squashing detected: raw JSON objects in markdown body"
+  },
+  {
+    "slug": "chemical-reactions-and-equations-class-10-notes",
+    "status": "failed",
+    "quality_score": 32,
+    "retries": 2,
+    "error": "JSON squashing detected: raw JSON objects in markdown body"
+  },
+  {
+    "slug": "acids-bases-and-salts-class-10-notes",
+    "status": "failed",
+    "quality_score": 32,
+    "retries": 2,
+    "error": "JSON squashing detected: raw JSON objects in markdown body"
+  },
+  {
+    "slug": "trigonometric-functions-class-11-revision-notes-jee-neet",
+    "status": "failed",
+    "quality_score": 24,
+    "retries": 2,
+    "error": "JSON squashing detected: raw JSON objects in markdown body"
+  },
+  {
+    "slug": "local-government-class-11-revision-notes-cbse",
+    "status": "failed",
+    "quality_score": 39,
+    "retries": 2,
+    "error": "JSON squashing detected: raw JSON objects in markdown body"
+  },
+  {
+    "slug": "physics-heat-light-class-11-revision-notes-jee-neet",
+    "status": "failed",
+    "quality_score": 39,
+    "retries": 2,
+    "error": "JSON squashing detected: raw JSON objects in markdown body"
+  },
+  {
+    "slug": "physics-mechanics-class-11-revision-notes-jee-neet",
+    "status": "failed",
+    "quality_score": 39,
+    "retries": 2,
+    "error": "JSON squashing detected: raw JSON objects in markdown body"
+  },
+  {
+    "slug": "poverty-unemployment-class-11-revision-notes-jee-neet",
+    "status": "failed",
+    "quality_score": 39,
+    "retries": 2,
+    "error": "JSON squashing detected: raw JSON objects in markdown body"
+  },
+  {
+    "slug": "anatomy-of-flowering-plants-class-11-revision-notes-neet",
+    "status": "failed",
+    "quality_score": 39,
+    "retries": 2,
+    "error": "JSON squashing detected: raw JSON objects in markdown body"
+  }
+]

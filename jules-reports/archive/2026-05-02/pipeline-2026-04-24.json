@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "how-do-organisms-reproduce-class-10-notes",
+    "status": "published",
+    "quality_score": 100,
+    "retries": 0,
+    "error": null
+  },
+  {
+    "slug": "heredity-and-evolution-class-10-notes",
+    "status": "published",
+    "quality_score": 100,
+    "retries": 0,
+    "error": null
+  },
+  {
+    "slug": "light-reflection-and-refraction-class-10-notes",
+    "status": "published",
+    "quality_score": 100,
+    "retries": 0,
+    "error": null
+  },
+  {
+    "slug": "trigonometric-functions-class-11-revision-notes-jee-neet",
+    "status": "published",
+    "quality_score": 100,
+    "retries": 0,
+    "error": null
+  },
+  {
+    "slug": "local-government-class-11-revision-notes-cbse",
+    "status": "published",
+    "quality_score": 100,
+    "retries": 0,
+    "error": null
+  },
+  {
+    "slug": "physics-heat-light-class-11-revision-notes-jee-neet",
+    "status": "published",
+    "quality_score": 100,
+    "retries": 0,
+    "error": null
+  },
+  {
+    "slug": "physics-mechanics-class-11-revision-notes-jee-neet",
+    "status": "published",
+    "quality_score": 100,
+    "retries": 0,
+    "error": null
+  },
+  {
+    "slug": "poverty-unemployment-class-11-revision-notes-jee-neet",
+    "status": "failed",
+    "quality_score": 61,
+    "retries": 2,
+    "error": "Unknown Failure"
+  },
+  {
+    "slug": "anatomy-of-flowering-plants-class-11-revision-notes-neet",
+    "status": "published",
+    "quality_score": 100,
+    "retries": 0,
+    "error": null
+  }
+]

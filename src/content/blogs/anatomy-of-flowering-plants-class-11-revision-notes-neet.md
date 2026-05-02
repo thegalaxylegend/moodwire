@@ -340,50 +340,50 @@ The anatomy of flowering plants is specialized for efficient transport of water,
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. The root hair cells of a plant have a very large surface area-to-volume ratio. According to the equation $S = 2 pi r h$ and $V = rac{4}{3} pi r^3$, what is the ratio of surface area ($S$) to volume ($V$) for a root hair cell with a radius of 0.05 mm and a height of 0.1 mm?**
-**A)**   10
-**B)**   100
-**C)**   1000
-**D)**   10,000
+**A)**    10
+**B)**    100
+**C)**    1000
+**D)**    10,000
 
 **Answer:** C) The correct answer is option C because the given values for $r$ and $h$ are used in the equations for $S$ and $V$. The other options are incorrect because they are the result of incorrect assumptions about the dimensions of the root hair cell. For example, option A assumes the root hair cell is a cylinder with a height that is equal to its radius, which is not the case. Similarly, options B and D assume the root hair cell has an unrealistically large or small surface area-to-volume ratio, respectively.
 
 ---
 
 **2. A plant has a leaf area index (LAI) of 5. If the leaf area of the plant is 20 square meters and the plant has a photosynthetic rate of 200 grams per square meter per day, how many grams of CO2 will the plant absorb per day?**
-**A)**   1,000
-**B)**   10,000
-**C)**   1,00,000
-**D)**   1,000,000
+**A)**    1,000
+**B)**    10,000
+**C)**    1,00,000
+**D)**    1,000,000
 
 **Answer:** B) The correct answer is option B. To find the total amount of CO2 absorbed, we need to multiply the leaf area by the photosynthetic rate. This gives us 20 m^2 * 200 g/m^2/day = 4,000 g/day. However, the question asks for the amount of CO2 absorbed per day, and the photosynthetic rate is given per square meter per day. Therefore, we need to multiply the result by 5 (the LAI) to get the total amount of CO2 absorbed per day: 4,000 g/day * 5 = 20,000 g/day. This is option B.
 
 ---
 
 **3. What is the primary function of the taproot in a plant?**
-**A)**   To absorb water and minerals from the soil
-**B)**   To store food and water for the plant
-**C)**   To provide structural support to the plant
-**D)**   To produce flowers and fruits
+**A)**    To absorb water and minerals from the soil
+**B)**    To store food and water for the plant
+**C)**    To provide structural support to the plant
+**D)**    To produce flowers and fruits
 
-**Answer:** A) The correct answer is option A because the taproot is a type of root that grows deep into the soil to absorb water and minerals. The other options are incorrect because they describe functions of other parts of the plant, such as the stem, leaves, and flowers.
+**Answer:** A) The correct answer is option A because the taproot is a type of root that grows deep into the soil to absorb water and minerals. The other options are incorrect because they describe [functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) of other parts of the plant, such as the stem, leaves, and flowers.
 
 ---
 
 **4. A plant has a root system with a root hair density of 10 hairs per square millimeter. If the root surface area is 100 square centimeters, how many root hairs are there in total?**
-**A)**   100,000
-**B)**   1,00,000
-**C)**   10,00,000
-**D)**   1,00,00,000
+**A)**    100,000
+**B)**    1,00,000
+**C)**    10,00,000
+**D)**    1,00,00,000
 
 **Answer:** B) The correct answer is option B. To find the total number of root hairs, we need to multiply the root hair density by the root surface area. First, we need to convert the root surface area from square centimeters to square millimeters: 100 cm^2 * (1 mm^2 / 1 cm^2) = 10,000 mm^2. Then, we can multiply the root hair density by the root surface area: 10 hairs/mm^2 * 10,000 mm^2 = 1,00,000 hairs.
 
 ---
 
 **5. What is the term for the process by which a plant cell becomes rigid due to the deposition of cellulose microfibrils in the cell wall?**
-**A)**   Cell wall formation
-**B)**   Cell wall hardening
-**C)**   Cell wall thickening
-**D)**   Cellulose synthesis
+**A)**    Cell wall formation
+**B)**    Cell wall hardening
+**C)**    Cell wall thickening
+**D)**    Cellulose synthesis
 
 **Answer:** C) The correct answer is option C because the process of cell wall thickening is the result of the deposition of cellulose microfibrils in the cell wall, making the cell rigid. The other options are incorrect because they describe different processes related to cell wall development.
 

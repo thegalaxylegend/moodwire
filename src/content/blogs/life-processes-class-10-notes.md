@@ -42,7 +42,7 @@ manualReview: false
 
 ## 👁️ Ayush's Note
 - To score well ∈ the exam, it is essential to have a thorough understanding of the [life](/blog/chemistry-in-everyday-life-class-12-notes) processes, including photosynthesis, respiration, transpiration, and human physiology
-- Practice drawing diagrams of the human digestive system, excretory system, and plant transport system
+- Practice drawing diagrams of the [human](/blog/human-eye-and-colourful-world-class-10-notes) digestive system, excretory system, and plant transport system
 - Make sure to learn the [equations](/blog/chemical-reactions-and-equations-class-10-notes) and formulas, including the photosynthesis equation, respiration equation, and transpiration rate equation
 
 ## 🔁 Last 5 Minutes Box

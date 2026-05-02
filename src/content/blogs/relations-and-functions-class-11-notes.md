@@ -46,7 +46,7 @@ There are also several types of [functions](/blog/relations-functions-class-11-r
 * **Bijective Functions**: A function $f$ is bijective if it is both one-to-one and onto. For example, the function $f = {(1, 1), (2, 2), (3, 3)}$ is bijective because it is both one-to-one and onto.
 
 ## Applications of Relations and Functions
-Relations and functions have numerous applications in various fields, including:
+[Relations](/blog/relations-functions-class-11-revision-notes-jee-neet) and functions have numerous applications in various fields, including:
 * **Computer Science**: Relations and functions are used in computer science to model databases, networks, and algorithms.
 * **Physics**: Relations and functions are used in physics to model the behavior of physical systems, such as the motion of objects and the flow of electricity.
 * **Economics**: Relations and functions are used in economics to model the behavior of economic systems, such as the supply and demand of goods and services.

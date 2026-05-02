@@ -48,7 +48,7 @@ manualReview: false
 - Forgetting to consider the direction of the [magnetic](/blog/magnetic-effects-of-electric-current-class-10-notes) field
 - Not using the right-hand rule to determine the direction of the [magnetic](/blog/magnetic-effects-of-electric-current-class-10-notes) field
 - Not considering the effect of the [magnetic](/blog/magnetic-effects-of-electric-current-class-10-notes) field on the motion of a charged particle
-- Not using the correct units for the magnetic field and other related quantities
+- Not using the correct units for the [magnetic](/blog/magnetic-effects-of-electric-current-class-10-notes) field and other related quantities
 
 ## ✏️ 3 Solved PYQs
 - A current of 5A is flowing ∈ a wire of length 2m, the magnetic field at a distance of 0.1m from the wire is

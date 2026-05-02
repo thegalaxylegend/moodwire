@@ -92,7 +92,7 @@ D) 5 N
 
 **Answer: C) 4 N. Explanation: F = (mv²)/r, so T = (1 × 2²)/1 = 4 N**
 
-**4. A block of mass 2 kg is moving with a velocity of 4 m/s on a frictionless surface. A force of 6 N is applied to the block ∈ the direction of motion. What is the acceleration of the block?**
+**4. A block of mass 2 kg is moving with a velocity of 4 m/s on a frictionless surface. A force of 6 N is applied to the block ∈ the direction of [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet). What is the acceleration of the block?**
 -
 A) 1 m/s²
 -

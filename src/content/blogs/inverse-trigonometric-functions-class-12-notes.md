@@ -113,7 +113,7 @@ D) 3π/4
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/inverse-trigonometric-functions-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/inverse-[trigonometric](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)-functions-class-12-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Inverse%20Trigonometric%20Functions%20Class%2012%20Mathematics%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

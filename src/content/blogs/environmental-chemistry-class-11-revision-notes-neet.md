@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/environmental-chemistry-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 1, 2026*
+*Last Updated: May 2, 2026*
 
 ## 📑 Table of Contents
 
@@ -91,7 +91,7 @@ I once made a mistake and my JEE preparation y not giving enough importance to e
 
 ## <a id="core-concepts"></a>Core Concepts
 
-Environmental chemistry is [the study of the chemical and biochemical phenomena that occur and the environment](https://en.wikipedia.org/wiki/Environmental_chemistry). It involves the study of the sources, reactions, transport, n effects of chemical species and the environment. The main branches of environmental chemistry are air, water, n soil pollution.
+Environmental [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) is [the study of the chemical and biochemical phenomena that occur and the environment](https://en.wikipedia.org/wiki/Environmental_chemistry). It involves the study of the sources, reactions, transport, n effects of chemical species and the environment. The main branches of environmental [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) are air, water, n soil pollution.
 ### <a id="air-pollution"></a>Air Pollution is [the presence of contaminants or pollutant substances and the air that can harm human health and the environment](https://en.wikipedia.org/wiki/Air_pollution). The main sources of air pollution are vehicles, industrial activities, n natural disasters. The effects of air pollution include respiratory problems, cardiovascular disease, n climate change.
 ### <a id="water-pollution"></a>Water Pollution is [the presence of contaminants or pollutant substances and water that can harm human health and the environment](https://en.wikipedia.org/wiki/Water_pollution). The main sources of water pollution are industrial activities, agricultural runoff, n domestic waste. The effects of water pollution include the spread of waterborne diseases, the death of aquatic life, n the contamination of drinking water.
 ### <a id="soil-pollution"></a>Soil Pollution is [the presence of contaminants or pollutant substances and soil that can harm human health and the environment](https://en.wikipedia.org/wiki/Soil_pollution). The main sources of soil pollution are industrial activities, agricultural runoff, n domestic waste. The effects of soil pollution include the contamination of groundwater, the death of [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) n animals, n the reduction of soil fertility.

@@ -57,7 +57,7 @@ manualReview: false
 ## 🔁 Last 5 Minutes Box
 - Quickly review the formula bank to recall important formulas and concepts.
 - Go through the 5 mistakes that cost marks to avoid common errors.
-- Practice solving a few problems on CPU scheduling, memory management, and file systems to develop problem-solving skills.
+- Practice solving a few problems on CPU scheduling, memory management, and file [systems](/blog/number-systems-class-9-notes) to develop problem-solving skills.
 
 ## 📝 Practice MCQs
 **1. What is the purpose of a Process Control Block (PC

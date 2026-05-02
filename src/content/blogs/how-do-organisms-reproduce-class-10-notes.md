@@ -27,7 +27,7 @@ manualReview: false
 
 ## ✏️ 3 Solved PYQs
 - What is the difference between asexual and sexual [reproduction](/blog/reproduction-in-organisms-class-12-notes)?
-  Answer: Asexual reproduction involves a single parent and produces offspring that are genetically identical to the parent, while sexual reproduction involves two parents and produces offspring that are genetically unique.
+  Answer: Asexual [reproduction](/blog/reproduction-in-organisms-class-12-notes) involves a single parent and produces offspring that are genetically identical to the parent, while sexual [reproduction](/blog/reproduction-in-organisms-class-12-notes) involves two parents and produces offspring that are genetically unique.
 - Describe the male reproductive system.
   Answer: The male reproductive system consists of the testes, epididymis, vas deferens, and penis. The testes produce sperm, which are stored ∈ the epididymis and then travel through the vas deferens to the penis.
 - What is the process of fertilization?

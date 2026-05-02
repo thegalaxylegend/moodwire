@@ -14,7 +14,7 @@ manualReview: false
 - Sum of interior [angles](/blog/lines-and-angles-class-9-notes) of a quadrilateral = (4-2) × 180° = 2 × 180° = 360°
 - Sum of exterior [angles](/blog/lines-and-angles-class-9-notes) of a quadrilateral = 360°
 - A quadrilateral with all sides equal is called a rhombus.
-- A quadrilateral with all sides equal and all angles equal is called a square.
+- A quadrilateral with all sides equal and all [angles](/blog/lines-and-angles-class-9-notes) equal is called a square.
 - Diagonals of a rectangle bisect each other and are equal ∈ length.
 - Diagonals of a rhombus bisect each other at right angles.
 - Diagonals of a square bisect each other at right angles and are equal ∈ length.

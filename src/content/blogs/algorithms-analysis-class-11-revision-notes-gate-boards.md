@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/algorithms-analysis-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 1, 2026*
+*Last Updated: May 2, 2026*
 
 ## 📑 Table of Contents
 
@@ -238,7 +238,7 @@ What are common Trap Questions for Algorithms: Analysis? is a crucial aspect of 
    
    Trap questions and algorithms often revolve around common pitfalls such as incorrect assumptions about the input [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards), misunderstanding of the problem statement, or overlooking edge cases. A key strategy to tackle these questions is to develop a systematic approach to problem-solving, which includes reading the problem statement carefully, identifying the key constraints and requirements, n selecting the most appropriate algorithm or [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structure to solve the problem. 
    
-   One common trap question involves the implementation of recursive algorithms, where students may forget to consider the base case or may not optimize the recursive calls, leading to stack overflow errors or inefficient solutions. Another trap is and the implementation of dynamic programming algorithms, where students may not properly define the state transitions or may not use memoization effectively, resulting and incorrect or inefficient solutions. 
+   One common trap question involves the implementation of recursive [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards), where students may forget to consider the base case or may not optimize the recursive calls, leading to stack overflow errors or inefficient solutions. Another trap is and the implementation of dynamic programming [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards), where students may not properly define the state transitions or may not use memoization effectively, resulting and incorrect or inefficient solutions. 
    
    To tackle these trap questions, students should focus on developing a strong foundation and algorithms and [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures, including arrays, linked lists, stacks, queues, trees, n graphs. They should also practice solving problems on platforms like LeetCode, HackerRank, or CodeForces, which provide a wide range of algorithmic challenges and help students develop problem-solving skills and learn from their mistakes. 
    
@@ -275,7 +275,7 @@ Applying algorithms to real-world problems is the process of using well-defined 
 
 What are the best practices for solving algorithmic problems and Algorithms: Analysis? is a systematic approach to solving computational problems. It includes understanding the problem statement, identifying the algorithm's time and space complexity, n analyzing the trade-offs between different solutions. For Class 11 exam prep and 2026, the most important aspect is understanding the time and space complexity of algorithms as it forms the basis of solving algorithmic problems. To solve algorithmic problems, one must have a strong understanding of [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures such as arrays, linked lists, stacks, n queues, as well as algorithms like sorting, searching, n graph traversal. The ability to analyze the time and space complexity of an algorithm is crucial and determining its efficiency and scalability. 
    
-   Solving algorithmic problems involves a series of steps, including reading and understanding the problem statement, identifying the input and output requirements, n determining the constraints and limitations of the problem. The next step is to choose an appropriate algorithm and data structure to solve the problem, taking into account the time and space complexity of the solution. Finally, the solution must be implemented and a programming language and tested with sample inputs to verify its correctness. 
+   Solving algorithmic problems involves a series of steps, including reading and understanding the problem statement, identifying the input and output requirements, n determining the constraints and limitations of the problem. The next step is to choose an appropriate algorithm and [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structure to solve the problem, taking into account the time and space complexity of the solution. Finally, the solution must be implemented and a programming language and tested with sample inputs to verify its correctness. 
    
    Algorithmic problems can be broadly classified into different types, including sorting, searching, graph traversal, n dynamic programming problems. Each type of problem requires a different approach and technique to solve. For example, sorting problems involve arranging a list of elements and a specific order, while searching problems involve finding a specific element and a list. Graph traversal problems involve traversing a graph or a tree, while dynamic programming problems involve breaking down a complex problem into smaller sub-problems and solving each sub-problem only once. 
    

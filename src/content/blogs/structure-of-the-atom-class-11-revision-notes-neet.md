@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/structure-of-the-atom-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 1, 2026*
+*Last Updated: May 2, 2026*
 
 ## 📑 Table of Contents
 
@@ -119,7 +119,7 @@ When preparing for the [Structure](/blog/structure-of-atom-class-11-revision-not
 * Misunderstanding the concept of atomic number (Z) and mass number (A), where $Z$ represents the number of protons and $A$ represents the sum of protons and neutrons ($A = Z + N$), where $N$ is the number of neutrons.
 * Forgetting the key differences between isotopes and isotones, where isotopes have the same $Z$ but different $A$, and isotones have the same $N$ but different $Z$.
 * Incorrectly applying the rules for electron configuration, such as the Aufbau principle and the Pauli exclusion principle, which state that electrons fill the lowest available energy levels and no two electrons can have the same set of quantum numbers, respectively.
-* Confusing the terms 'atomic radius' and 'ionic radius', where the atomic radius refers to the distance between the nucleus and the outermost energy level of an atom, and the ionic radius refers to the distance between the nucleus and the outermost energy level of an ion.
+* Confusing the terms 'atomic radius' and 'ionic radius', where the atomic radius refers to the distance between the nucleus and the outermost energy level of an [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet), and the ionic radius refers to the distance between the nucleus and the outermost energy level of an ion.
 * Not being able to identify the key features of the quantum mechanical model of the atom, such as the principles of wave-particle duality and uncertainty.
 
 ## 🔁 Last 5 Minutes Revision Box

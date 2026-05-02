@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/neet-biology-80-20-rule-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 1, 2026*
+*Last Updated: May 2, 2026*
 
 ## 📑 Table of Contents
 

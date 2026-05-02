@@ -44,7 +44,7 @@ This formula gives us the number of ways to choose $r$ objects from a set of $n$
 [Permutations](/blog/permutations-combinations-class-11-revision-notes-jee) and combinations have numerous applications in various fields, including mathematics, statistics, computer science, and engineering. They are used in problems involving arrangements, selections, and outcomes. For example, in statistics, combinations are used to calculate the number of possible outcomes when selecting a sample from a population.
 
 ## Practice Problems and Solutions
-To master permutations and combinations, it's essential to practice solving problems. Here are a few examples:
+To master [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) and combinations, it's essential to practice solving problems. Here are a few examples:
 1. **Permutation Problem**: Find the number of permutations of the letters A, B, C, and D.
  - **Solution**: Using the permutation formula $P(n, r) = \frac{n!}{(n-r)!}$, where $n = 4$ and $r = 4$, we get $P(4, 4) = \frac{4!}{(4-4)!} = 4! = 24$.
 2. **Combination Problem**: Find the number of combinations of 5 objects taken 3 at a time.

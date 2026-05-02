@@ -30,7 +30,7 @@ manualReview: false
 - Not considering total internal reflection when dealing with angles of incidence
 
 ## ✏️ 3 Solved PYQs
-- A plane mirror is placed at the bottom of a tank containing water. If a beam of light is incident on the water surface at an angle of 45°, find the angle of reflection from the mirror.
+- A plane mirror is placed at the bottom of a tank containing water. If a beam of [light](/blog/physics-heat-light-class-11-revision-notes-jee-neet) is incident on the water surface at an angle of 45°, find the angle of reflection from the mirror.
   Step 1: Calculate the angle of refraction using Snell's law
   Step 2: Calculate the angle of incidence on the mirror
   Step 3: Calculate the angle of reflection from the mirror

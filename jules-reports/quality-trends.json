@@ -1,20 +1,30 @@
 {
-  "overallAvgScore": 79.8,
-  "totalBlogsAllTime": 174,
+  "overallAvgScore": 78,
+  "totalBlogsAllTime": 183,
   "totalPassed": 125,
-  "totalFailed": 49,
-  "overallPassRate": 72,
+  "totalFailed": 58,
+  "overallPassRate": 68,
   "trend": "declining",
   "trendDelta": -14.9,
   "dailyReports": [
     {
-      "date": "2026-05-01",
+      "date": "2026-05-02",
       "totalBlogs": 9,
-      "passed": 9,
-      "failed": 0,
-      "avgScore": 100,
-      "passRate": 100,
-      "errors": []
+      "passed": 0,
+      "failed": 9,
+      "avgScore": 45,
+      "passRate": 0,
+      "errors": [
+        "Critically low word count: 798 (Min 800 for Patching) | Insufficient MCQs (Need at least 3)",
+        "Critically low word count: 762 (Min 800 for Patching) | Insufficient MCQs (Need at least 3)",
+        "Critically low word count: 798 (Min 800 for Patching) | Insufficient MCQs (Need at least 3)",
+        "Insufficient MCQs (Need at least 3)",
+        "Insufficient MCQs (Need at least 3)",
+        "Insufficient MCQs (Need at least 3)",
+        "Insufficient MCQs (Need at least 3)",
+        "Insufficient MCQs (Need at least 3)",
+        "Insufficient MCQs (Need at least 3)"
+      ]
     },
     {
       "date": "2026-03-23",
@@ -314,6 +324,15 @@
       "avgScore": 100,
       "passRate": 100,
       "errors": []
+    },
+    {
+      "date": "2026-05-01",
+      "totalBlogs": 9,
+      "passed": 9,
+      "failed": 0,
+      "avgScore": 100,
+      "passRate": 100,
+      "errors": []
     }
   ],
   "topErrors": [
@@ -326,8 +345,16 @@
       "count": 9
     },
     {
+      "error": "Insufficient MCQs (Need at least 3)",
+      "count": 7
+    },
+    {
       "error": "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":",
       "count": 6
+    },
+    {
+      "error": "Critically low word count: 798 (Min 800 for Patching) | Insufficient MCQs (Need ",
+      "count": 2
     },
     {
       "error": "Critically low word count: 330 (Min 800 for Patching)",
@@ -338,23 +365,15 @@
       "count": 2
     },
     {
+      "error": "Critically low word count: 762 (Min 800 for Patching) | Insufficient MCQs (Need ",
+      "count": 1
+    },
+    {
       "error": "Critically low word count: 714 (Min 800 for Patching)",
       "count": 1
     },
     {
       "error": "96 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This break",
-      "count": 1
-    },
-    {
-      "error": "118 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This brea",
-      "count": 1
-    },
-    {
-      "error": "99 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This break",
-      "count": 1
-    },
-    {
-      "error": "184 naked LaTeX commands (\frac, \text, sum) without $ delimiters found. This brea",
       "count": 1
     }
   ],

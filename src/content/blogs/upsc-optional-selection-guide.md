@@ -98,7 +98,7 @@ C) To practice and revise regularly
 -
 D) All of the above
 
-**Answer: D) Past year papers analysis helps to understand the exam pattern, identify areas of improvement, and practice and revise regularly**
+**Answer: D) Past year papers analysis helps to understand the exam pattern, identify [areas](/blog/areas-related-to-circles-class-10-notes) of improvement, and practice and revise regularly**
 
 **4. What is the formula to calculate UPSC score?**
 -

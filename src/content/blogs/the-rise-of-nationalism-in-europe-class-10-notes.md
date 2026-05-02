@@ -86,7 +86,7 @@ manualReview: false
 | --- | --- |
 | [Nationalism](/blog/nationalism-in-india-class-10-notes) Definition | Define [nationalism](/blog/nationalism-in-india-class-10-notes) in the context of European history |
 | Nation-Building | Explain the process of building a nation-state |
-| Liberal Nationalism | Discuss the relationship between individual rights and national sovereignty |
+| Liberal [Nationalism](/blog/nationalism-in-india-class-10-notes) | Discuss the relationship between individual rights and national sovereignty |
 | Estates-General | Describe the representation of the three estates in France |
 | Declaration of Rights | Explain the principles of the French Revolution |
 | Napoleon's Rise | Analyze the factors that contributed to Napoleon's rise to power |
@@ -231,7 +231,7 @@ D) The role of charismatic leaders and the power of propaganda
 
 If you answered A: you have the misconception → fix:** recognize that nationalism was a complex phenomenon influenced by multiple factors, including social, economic, and cultural changes.
 
-- **If you answered B: you are in the top 5% → now extend this:** consider how the rise of industrial capitalism and the growth of a new middle class contributed to the development of nationalist sentiment, as people began to identify with their nation and its economic interests.
+- **If you answered B: you are in the top 5% → now extend this:** consider how the rise of industrial capitalism and the growth of a new middle class contributed to the [development](/blog/resources-and-development-class-10-notes) of nationalist sentiment, as people began to identify with their nation and its economic interests.
 
 #### How to never forget this:
 To remember the complex nature of nationalism in Europe, use the mnemonic "FRIES":
@@ -305,30 +305,30 @@ Nationalism is a complex and multifaceted concept that involves national identit
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. The main cause of the rise of nationalism in Europe was the desire for $\frac{1}{2}$ century of peace and stability after the devastation of World War I.**
-**A)**     The rise of communism
-**B)**     The decline of the Ottoman Empire
-**C)**     The desire for $\frac{1}{2}$ century of peace and stability after the devastation of World War I
-**D)**     The rise of imperialism
+**A)**      The rise of communism
+**B)**      The decline of the Ottoman Empire
+**C)**      The desire for $\frac{1}{2}$ century of peace and stability after the devastation of World War I
+**D)**      The rise of imperialism
 
 **Answer:** D) Nationalism rose as a reaction to the perceived failures of imperialism, not due to the desire for peace and stability. Communism was also not a primary cause. The decline of the Ottoman Empire was a factor but not the main one.
 
 ---
 
 **2. According to the Treaty of Versailles, Germany's military was limited to 10^5 soldiers.**
-**A)**     $10^4$ soldiers
-**B)**     $10^5$ soldiers
-**C)**     $10^6$ soldiers
-**D)**     $10^7$ soldiers
+**A)**      $10^4$ soldiers
+**B)**      $10^5$ soldiers
+**C)**      $10^6$ soldiers
+**D)**      $10^7$ soldiers
 
 **Answer:** B) This is a key factor in why Germany felt betrayed by the treaty and contributed to the rise of Hitler. The other options are too low or too high.
 
 ---
 
 **3. The term 'nationalism' refers to the belief that a country's government should be controlled by its own people.**
-**A)**     It is a form of imperialism
-**B)**     It is a form of communism
-**C)**     It is a form of socialism
-**D)**     It is a belief that a country's government should be controlled by its own people
+**A)**      It is a form of imperialism
+**B)**      It is a form of communism
+**C)**      It is a form of socialism
+**D)**      It is a belief that a country's government should be controlled by its own people
 
 **Answer:** D) Nationalism is about self-rule, not imperialism. Communism and socialism are unrelated to nationalism. Option D is the correct definition.
 
@@ -336,20 +336,20 @@ Nationalism is a complex and multifaceted concept that involves national identit
 
 **4. In the 19th century, the $\alpha$-level of urbanization in Europe was very high compared to other parts of the worl
 d.**
-**A)**     $\alpha$-level of urbanization in Europe was very low
-**B)**     $\beta$-level of urbanization in Europe was very high
-**C)**     $\gamma$-level of urbanization in Europe was very high
-**D)**     The $\alpha$-level of urbanization in Europe was very high
+**A)**      $\alpha$-level of urbanization in Europe was very low
+**B)**      $\beta$-level of urbanization in Europe was very high
+**C)**      $\gamma$-level of urbanization in Europe was very high
+**D)**      The $\alpha$-level of urbanization in Europe was very high
 
 **Answer:** D) The alpha-level of urbanization refers to the proportion of the population living in cities. Europe had a high level of urbanization in the 19th century. The other options are incorrect.
 
 ---
 
 **5. The rise of nationalism in Europe can be attributed to the influence of the Enlightenment thinkers such as John Locke and Jean-Jacques Rousseau.**
-**A)**     The main causes of the rise of nationalism were economic
-**B)**     The main causes of the rise of nationalism were social and cultural
-**C)**     The rise of nationalism in Europe can be attributed to the influence of the Enlightenment thinkers such as John Locke and Jean-Jacques Rousseau
-**D)**     The rise of nationalism in Europe can be attributed to the influence of the Catholic Church
+**A)**      The main causes of the rise of nationalism were economic
+**B)**      The main causes of the rise of nationalism were social and cultural
+**C)**      The rise of nationalism in Europe can be attributed to the influence of the Enlightenment thinkers such as John Locke and Jean-Jacques Rousseau
+**D)**      The rise of nationalism in Europe can be attributed to the influence of the Catholic Church
 
 **Answer:** C) The Enlightenment thinkers did influence nationalism. However, the main causes of nationalism were economic, social, and cultural. The Catholic Church did not play a significant role in the rise of nationalism.
 

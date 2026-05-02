@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/motion-n-a-straight-line-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 1, 2026*
+*Last Updated: May 2, 2026*
 
 ## 📑 Table of Contents
 
@@ -248,5 +248,5 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
   + Uniformly Accelerated [Motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) (uam)
   + Uniform [Motion](/blog/rotational-motion-class-11-revision-notes-jee-neet)
 * **Important Formulas**: 
-  + Relative Motion: v_rel = v1 - v2 (opposite directions), v_rel = v1 + v2 (same direction)
+  + Relative [Motion](/blog/rotational-motion-class-11-revision-notes-jee-neet): v_rel = v1 - v2 (opposite directions), v_rel = v1 + v2 (same direction)
   + Average Velocity: v_avg = total displacement / total time

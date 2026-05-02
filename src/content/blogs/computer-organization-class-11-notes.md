@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/computer-organization-class-11-notes"
 ---
 
-*Last Updated: May 1, 2026*
+*Last Updated: May 2, 2026*
 
 ## 📑 Table of Contents
 
@@ -159,7 +159,7 @@ What is the Role of the Control Unit and a Computer? is the component that direc
 
 | Component | Function | Location |
 | --- | --- | --- |
-| Control Unit | Directs data and instruction flow | Within the CPU |
+| Control Unit | Directs [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) and instruction flow | Within the CPU |
 | ALU | Performs calculations | Within the CPU |
 | Registers | Temporary storage for data | Within the CPU |
 | Memory | Long-term storage for data and instructions | Outside the CPU |

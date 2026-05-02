@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/electromagnetic-induction-class-12-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 1, 2026*
+*Last Updated: May 2, 2026*
 
 ## 📑 Table of Contents
 
@@ -191,7 +191,7 @@ What is the Key Shortcut or Trick for Electromagnetic [Induction](/blog/principl
  
  Lenz's law is another key concept, stating that the direction of the induced [current](/blog/alternating-current-class-12-notes) will be such that it opposes the change that produced it. This law can be used to determine the direction of the induced [current](/blog/alternating-current-class-12-notes) and different situations. For instance, if a magnet is moved towards a coil, the induced [current](/blog/alternating-current-class-12-notes) will flow and a direction such that the magnetic field produced y the [current](/blog/alternating-current-class-12-notes) opposes the motion of the magnet.
  
- The table below summarizes some key points related to electromagnetic induction:
+ The table below summarizes some key points related to electromagnetic [induction](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee):
 
 | Scenario | Induced EMF Direction | [Current](/blog/alternating-current-class-12-notes) Direction |
 | --- | --- | --- |
@@ -203,7 +203,7 @@ What is the Key Shortcut or Trick for Electromagnetic [Induction](/blog/principl
 
 ## <a id="what-are-the-realworld-applications-of-electromagnetic-induction"></a>What are the Real-World Applications of Electromagnetic Induction?
 
-What are the Real-World Applications of Electromagnetic Induction? is the practical use of electromagnetic induction and various devices and systems. It includes the principles of electromagnetism, electromagnetic waves, n the interaction between electric and magnetic fields. For Class 12 exam prep and 2026, the most important aspect is understanding how electromagnetic induction is used and generators, transformers, n inductive sensors, as these are crucial concepts that frequently appear and the exam. Electromagnetic induction is a fundamental concept and physics that has numerous real-world applications, ranging from power generation and transmission to medical devices and consumer electronics. The principle of electromagnetic induction states that an electric current is generated and a conductor when it is exposed to a changing magnetic field. This phenomenon is the basis for many devices and systems that are used and our daily lives.
+What are the Real-World Applications of Electromagnetic Induction? is the practical use of electromagnetic induction and various devices and systems. It includes the principles of electromagnetism, electromagnetic waves, n the interaction between electric and magnetic fields. For Class 12 exam prep and 2026, the most important aspect is understanding how electromagnetic induction is used and generators, transformers, n inductive sensors, as these are crucial concepts that frequently appear and the exam. Electromagnetic induction is a fundamental concept and physics that has numerous real-world applications, ranging from power generation and transmission to medical devices and consumer electronics. The principle of electromagnetic induction states that an electric [current](/blog/alternating-current-class-12-notes) is generated and a conductor when it is exposed to a changing magnetic field. This phenomenon is the basis for many devices and systems that are used and our daily lives.
 
 | Application | Description | Principle |
 | --- | --- | --- |

@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/classification-of-elements-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 1, 2026*
+*Last Updated: May 2, 2026*
 
 ## 📑 Table of Contents
 
@@ -133,7 +133,7 @@ As I reflect on my journey as a chemistry student, I realize that the classifica
 
 The classification of elements is a powerful tool that helps us to understand the properties and behavior of different elements. By concept, I can develop a deeper understanding of the chemical world and how it relates to the world around us. Whether I'm solving problems, practicing MCQs, or simply exploring the properties of different elements, I know that the classification of elements will remain a vital tool and my journey as a [chemistry](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) student. 
 
-As I look to the future, I'm excited to see where my studies and chemistry will take me. Whether I'm pursuing a career and research, industry, or education, I know that the classification of elements will remain a fundamental concept that underlies many of the principles and reactions that I will encounter. By continuing to explore and learn about the periodic table, I can develop a deeper understanding of the chemical world and how it relates to the world around us. 
+As I look to the future, I'm excited to see where my studies and [chemistry](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) will take me. Whether I'm pursuing a career and research, industry, or education, I know that the classification of elements will remain a fundamental concept that underlies many of the principles and reactions that I will encounter. By continuing to explore and learn about the periodic table, I can develop a deeper understanding of the chemical world and how it relates to the world around us. 
 
 The classification of elements is a rich and complex field of study, with many different concepts and principles to explore. As I continue to learn and grow as a chemistry student, I'm excited to see where this journey will take me, n how the classification of elements will continue to play a central role and my understanding of the chemical world. 
 

@@ -342,20 +342,20 @@ The heat transferred to an object is given by $Q = mc\Delta T$, where $m$ is the
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. The surface area of a sphere is given by the formula $4\pi r^2$. If the radius of a sphere is increased from $5$ to $10$, by what factor does the surface area increase?**
-**A)**   2
-**B)**   3
-**C)**   4
-**D)**   6
+**A)**    2
+**B)**    3
+**C)**    4
+**D)**    6
 
 **Answer:** B) The correct answer is B) 3. This is because when the radius of the sphere is doubled, the surface area increases by a factor of $4\pi (2r)^2 / 4\pi r^2 = 4$. However, the question asks for the factor by which the surface area increases, not the ratio of the surface areas. Since the surface area is proportional to the square of the radius, and the radius is doubled, the surface area increases by a factor of $2^2 = 4$. But the surface area is also proportional to $\pi r^2$, and since $\pi$ is a constant, it doesn't affect the ratio of the surface areas. Therefore, the surface area increases by a factor of 4, but the question asks for the factor by which the surface area increases, not the ratio of the surface areas, so the correct answer is 3.
 
 ---
 
 **2. A light ray passes from air into a medium with refractive index $\mu$. If the angle of incidence is $30^\circ$, what is the angle of refraction?**
-**A)**   20^\circ
-**B)**   30^\circ
-**C)**   40^\circ
-**D)**   50^\circ
+**A)**    20^\circ
+**B)**    30^\circ
+**C)**    40^\circ
+**D)**    50^\circ
 
 **Answer:** D) The correct answer is D) 50^\circ. Using Snell's law, we have $\mu = \frac{\sin i}{\sin r}$. Substituting the given values, we get $\mu = \frac{\sin 30^\circ}{\sin r}$. Since $\mu > 1$, the angle of refraction $r$ must be greater than $30^\circ$. The only angle of refraction greater than $30^\circ$ is $50^\circ$, so the correct answer is D) 50^\circ.
 
@@ -363,37 +363,37 @@ The heat transferred to an object is given by $Q = mc\Delta T$, where $m$ is the
 
 **3. A body of mass $m$ is heated from $0^\circ$C to $100^\circ$
 C. The specific heat capacity of the body is $c$. The energy required to heat the body is**
-**A)**   $mc(100-0) = 100mc$
-**B)**   $mc\left(\frac{100-0}{0+100}\right)$
-**C)**   $mc\left(\frac{100^2-0^2}{100-0}\right)$
-**D)**   $mc\left(\frac{100-0}{0^2-100^2}\right)$
+**A)**    $mc(100-0) = 100mc$
+**B)**    $mc\left(\frac{100-0}{0+100}\right)$
+**C)**    $mc\left(\frac{100^2-0^2}{100-0}\right)$
+**D)**    $mc\left(\frac{100-0}{0^2-100^2}\right)$
 
 **Answer:** A) The correct answer is A) $100mc$. The energy required to heat the body is given by the formula $Q = mc\Delta T$. In this case, the initial temperature is $0^\circ$C and the final temperature is $100^\circ$C, so $\Delta T = 100^\circ$C. Substituting the values, we get $Q = mc(100-0) = 100mc$.
 
 ---
 
 **4. A light source is placed at a distance $d$ from a convex lens of focal length $f$. If the light source is moved closer to the lens by a distance $x$, the new image distance will be**
-**A)**   $d-x$
-**B)**   $d+x$
-**C)**   $\frac{d}{1+x/f}$
-**D)**   $\frac{d-x}{1+x/f}$
+**A)**    $d-x$
+**B)**    $d+x$
+**C)**    $\frac{d}{1+x/f}$
+**D)**    $\frac{d-x}{1+x/f}$
 
 **Answer:** C) The correct answer is C) $\frac{d}{1+x/f}$. Using the lens equation, we have $\frac{1}{v} - \frac{1}{u} = \frac{1}{f}$. In this case, the object distance is $d-x$ and the image distance is $v$. Substituting the values, we get $\frac{1}{v} - \frac{1}{d-x} = \frac{1}{f}$. Simplifying, we get $\frac{1}{v} = \frac{1}{f} + \frac{1}{d-x}$, or $v = \frac{d}{1+x/f}$.
 
 ---
 
 **5. A particle of mass $m$ is moving in a circle of radius $r$ with a speed $v$. The centripetal force acting on the particle is**
-**A)**   $\frac{mv^2}{r}$
-**B)**   $\frac{mv^2}{r^2}$
-**C)**   $\frac{mv}{r}$
-**D)**   $\frac{mv^2}{r^3}$
+**A)**    $\frac{mv^2}{r}$
+**B)**    $\frac{mv^2}{r^2}$
+**C)**    $\frac{mv}{r}$
+**D)**    $\frac{mv^2}{r^3}$
 
 **Answer:** D) The correct answer is D) $\frac{mv^2}{r^3}$. The centripetal force acting on the particle is given by the formula $F_c = \frac{mv^2}{r}$. However, in this case, the particle is moving in a circle of radius $r$, so the centripetal force is given by $F_c = \frac{mv^2}{r^3}$. This is because the centripetal force is proportional to the square of the speed and inversely proportional to the square of the radius.
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/exam notes/physics-heat-light-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/exam notes/[physics](/blog/physics-mechanics-class-11-revision-notes-jee-neet)-heat-light-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=physics%20heat%20light%20class%2011%20revision%20notes%20jee%20neet%20Class%2011%20Exam%20Notes%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

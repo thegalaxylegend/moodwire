@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/data-structures-non-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 1, 2026*
+*Last Updated: May 2, 2026*
 
 ## 📑 Table of Contents
 
@@ -196,7 +196,7 @@ Here's a table summarizing the key differences between BFS and DFS:
 
 What are common applications of Non-Linear Data Structures? is a crucial aspect of computer science that deals with the organization and manipulation of data and a non-linear fashion. It includes trees, graphs, n hash tables. For Class 11 exam prep and 2026, the most important aspect is understanding how these data structures are used and real-world applications to solve complex problems efficiently. Non-linear data structures are essential and scenarios where data is not organized and a sequential manner, n relationships between data entities are complex. For instance, social media platforms use graphs to represent friendships and connections between users, while file systems use trees to organize files and directories. The application of non-linear data structures can be seen and various fields such as database management, artificial intelligence, n computer networks. In database management, non-linear data structures like B-trees and hash tables are used for efficient data retrieval and storage. In artificial intelligence, graphs are used to represent knowledge and solve problems. In computer networks, trees are used for routing and graph theory is used for network topology. $O(1)$ access time for hash tables makes them suitable for caching mechanisms, while $O(\log n)$ time complexity for balanced trees like AVL and Red-Black trees makes them suitable for database indexing. The choice of non-linear data structure depends on the specific problem and the trade-offs between time and space complexity. For example, a hash table may provide $O(1)$ search time but may require $O(n)$ space, whereas a balanced tree may provide $O(\log n)$ search time but may require $O(\log n)$ space for each node.  \begin{aligned} Time Complexity (Hash Table) &= O(1) \ Time Complexity (Balanced Tree) &= $O(\log n)$ \ Space Complexity (Hash Table) &= O(n) \ Space Complexity (Balanced Tree) &= $O(\log n)$ end{aligned} 
 
-| Data Structure | Time Complexity | Space Complexity | Applications |
+| [Data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) Structure | Time Complexity | Space Complexity | Applications |
 | --- | --- | --- | --- |
 | Hash Table | $O(1)$ | $O(n)$ | Caching, Database Indexing |
 | Balanced Tree (AVL, Red-Black) | $O(\log n)$ | $O(\log n)$ | Database Indexing, File Systems |

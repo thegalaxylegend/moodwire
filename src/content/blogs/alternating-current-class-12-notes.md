@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/alternating-current-class-12-notes"
 ---
 
-*Last Updated: May 1, 2026*
+*Last Updated: May 2, 2026*
 
 ## 📑 Table of Contents
 

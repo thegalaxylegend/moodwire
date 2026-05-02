@@ -51,7 +51,7 @@ manualReview: false
 - Quickly review the reactivity series of metals
 - Check the electronic configuration of atoms, especially for sodium, magnesium, and aluminum
 - Make sure to remember the physical properties of metals and non-metals, such as melting and boiling points, malleability, and conductivity
-- Review the chemical reactions of metals and non-metals, including oxidation and combustion reactions
+- Review the [chemical](/blog/chemical-reactions-and-equations-class-10-notes) reactions of metals and non-metals, including oxidation and combustion reactions
 - Use the remaining time to fill ∈ any gaps ∈ your knowledge and reinforce your understanding of key concepts
 
 ## 📝 Practice MCQs

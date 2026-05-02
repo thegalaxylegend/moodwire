@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/data-structures-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 1, 2026*
+*Last Updated: May 2, 2026*
 
 ## 📑 Table of Contents
 
@@ -236,7 +236,7 @@ To solve these problems, it's essential to have a good understanding of the stac
 Here are some tips for solving stack problems:
 - Read the problem carefully and understand what is being asked
 - Identify the stack operations that are required to solve the problem
-- Choose the correct data structure to implement the stack
+- Choose the correct [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structure to implement the stack
 - Use the stack operations to solve the problem
 - Test the solution with sample inputs to ensure it works correctly
 

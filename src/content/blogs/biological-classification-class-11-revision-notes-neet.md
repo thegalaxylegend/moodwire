@@ -58,7 +58,7 @@ Each taxonomic category has distinct characteristics that define it. For example
 
 ## 📝 Tips for CBSE 2026 Exam Preparation
 To prepare for the CBSE 2026 exam, students should:
-- Review key concepts and terminology in biological classification.
+- Review key concepts and terminology in biological [classification](/blog/classification-of-elements-class-11-revision-notes-jee-neet).
 - Practice identifying and naming species using binomial nomenclature.
 - Study the characteristics of each taxonomic category.
 - Use hierarchical diagrams to visualize the classification system.

@@ -48,7 +48,7 @@ manualReview: false
 
 ## 🔁 Last 5 Minutes Box
 - Quickly revise the different types of contraceptive methods and their mechanisms of action 
-- Make sure to understand the concept of fertility span and how it affects reproductive health 
+- Make sure to understand the concept of fertility span and how it affects reproductive [health](/blog/human-health-and-disease-class-12-notes) 
 - Practice calculating fertility rate and contraceptive prevalence rate 
 - Go through the important formulas and equations related to reproductive health 
 

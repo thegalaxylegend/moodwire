@@ -427,10 +427,10 @@ The equation $F = ma$ is the most fundamental concept in physics mechanics and i
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. A particle of mass $m$ is moving in a circular path of radius $R$ with a speed $v$. The force required to keep the particle moving in this circular path is given by?**
-**A)**   $\frac{mv^2}{R}$
-**B)**   $\frac{mv}{R}$
-**C)**   $\frac{mv^2}{2R}$
-**D)**   $\frac{m}{R^2}$
+**A)**    $\frac{mv^2}{R}$
+**B)**    $\frac{mv}{R}$
+**C)**    $\frac{mv^2}{2R}$
+**D)**    $\frac{m}{R^2}$
 ],
 "
 
@@ -441,10 +441,10 @@ answer
 ---
 
 **2. A body of mass $5\text{kg}$ is thrown upwards with an initial velocity of $20\text{m/s}$. Assuming there is no air resistance, at what time will the body be at a height of $10\text{m}$?**
-**A)**   $\sqrt{\frac{2h}{g}}$
-**B)**   $\sqrt{\frac{2gh}{u^2}}$
-**C)**   $\sqrt{\frac{2u^2}{g}}$
-**D)**   $\sqrt{\frac{2gh}{u^2-gt}}$
+**A)**    $\sqrt{\frac{2h}{g}}$
+**B)**    $\sqrt{\frac{2gh}{u^2}}$
+**C)**    $\sqrt{\frac{2u^2}{g}}$
+**D)**    $\sqrt{\frac{2gh}{u^2-gt}}$
 ],
 "
 
@@ -455,10 +455,10 @@ answer
 ---
 
 **3. A spring of force constant $k$ is stretched by a distance $x$. What is the work done in stretching the spring by a further distance $\Delta x$?**
-**A)**   $\frac{1}{2}k(\Delta x)^2$
-**B)**   $\frac{1}{2}k(x+\Delta x)^2$
-**C)**   $\\frac{1}{2}k(x-\\Delta x)^2$
-**D)**   $k\Delta x$
+**A)**    $\frac{1}{2}k(\Delta x)^2$
+**B)**    $\frac{1}{2}k(x+\Delta x)^2$
+**C)**    $\\frac{1}{2}k(x-\\Delta x)^2$
+**D)**    $k\Delta x$
 ],
 "
 
@@ -469,10 +469,10 @@ answer
 ---
 
 **4. A projectile is thrown with a velocity of $40\text{m/s}$ at an angle of $45^\circ$ to the horizontal. What is the time of flight of the projectile?**
-**A)**   $\frac{2u\sin\theta}{g}$
-**B)**   $\frac{u\sin\theta}{g}$
-**C)**   $\frac{u\cos\theta}{g}$
-**D)**   $\frac{u^2\sin^2\theta}{g^2}$
+**A)**    $\frac{2u\sin\theta}{g}$
+**B)**    $\frac{u\sin\theta}{g}$
+**C)**    $\frac{u\cos\theta}{g}$
+**D)**    $\frac{u^2\sin^2\theta}{g^2}$
 ],
 "
 
@@ -483,10 +483,10 @@ answer
 ---
 
 **5. A body of mass $m$ is moving in a straight line with a velocity $v$. The body is acted upon by a force $F$ such that its acceleration is $a$. What is the force $F$ in terms of $m$, $v$, and $a$?**
-**A)**   $F=\frac{mv^2}{a}$
-**B)**   $F=\frac{mv}{a}$
-**C)**   $F=\frac{ma^2}{v}$
-**D)**   $F=\frac{m}{va}$
+**A)**    $F=\frac{mv^2}{a}$
+**B)**    $F=\frac{mv}{a}$
+**C)**    $F=\frac{ma^2}{v}$
+**D)**    $F=\frac{m}{va}$
 ],
 "
 
@@ -499,7 +499,7 @@ answer
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/exam notes/[physics](/blog/physics-heat-light-class-11-revision-notes-jee-neet)-mechanics-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=physics%20mechanics%20class%2011%20revision%20notes%20jee%20neet%20Class%2011%20Exam%20Notes%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[physics](/blog/physics-heat-light-class-11-revision-notes-jee-neet)%20mechanics%20class%2011%20revision%20notes%20jee%20neet%20Class%2011%20Exam%20Notes%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -49,7 +49,7 @@ manualReview: false
 - Use the formula ∛(a/b) = ∛a/∛b to simplify expressions with cube [roots](/blog/squares-and-square-roots-class-8-notes)
 
 ## 🔁 Last 5 Minutes Box
-- Make sure to simplify all expressions with cube roots
+- Make sure to simplify all expressions with cube [roots](/blog/squares-and-square-roots-class-8-notes)
 - Check the units of the answer
 - Use the formula ∛(a³) = a to simplify expressions with cube roots
 - Use the formula ∛(a × b) = ∛a × ∛b to simplify expressions with cube roots

@@ -123,7 +123,7 @@ For students preparing for exams, it's essential to understand the chronological
 
 10. The Vedic Age is significant because it:
     - A) Saw the rise of Buddhism and Jainism
-    - B) Marked the beginning of urbanization in India
+    - B) Marked the beginning of urbanization in [India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
     - C) Laid the foundation for Hinduism and Indian society
     - D) Was a period of foreign invasions
     **Answer: C) Laid the foundation for Hinduism and Indian society**

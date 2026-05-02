@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/ray-optics-class-12-quick-class-12-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 1, 2026*
+*Last Updated: May 2, 2026*
 
 ## 📑 Table of Contents
 
@@ -164,7 +164,7 @@ Here are [some](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-j
 
 By utilizing these resources and staying committed to your studies, you can achieve your goals and succeed and your exams.
 
-Now, let's review some of the key concepts and formulae using LaTeX:
+Now, let's review [some](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) of the key concepts and formulae using LaTeX:
 
 ### <a id="latex-examples"></a>LaTeX Examples
 1. **Snell's Law**: $2. **Lens Maker's Formula**: \frac{1}${f} = R_1 - $\frac{1}${R_2} \r\r\r\right)}{$\frac{1}${v} + $\frac{1}${u} = $\frac{1}${f}} 

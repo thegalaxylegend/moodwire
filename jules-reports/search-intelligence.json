@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-01T03:26:40.993Z",
+  "generatedAt": "2026-05-02T13:48:33.818Z",
   "dateRange": {
-    "startDate": "2026-04-01",
-    "endDate": "2026-05-01"
+    "startDate": "2026-04-02",
+    "endDate": "2026-05-02"
   },
-  "totalRows": 6,
+  "totalRows": 8,
   "opportunities": 0,
   "globalTopKeywords": [
     {
@@ -23,6 +23,11 @@
       "clicks": 0
     },
     {
+      "query": "jee compass",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
       "query": "neet blueprint 2027",
       "impressions": 2,
       "clicks": 0
@@ -33,7 +38,7 @@
       "clicks": 0
     },
     {
-      "query": "jee compass",
+      "query": "how it was built",
       "impressions": 1,
       "clicks": 0
     }
@@ -79,6 +84,29 @@
           "clicks": 0,
           "ctr": 0,
           "position": 8
+        }
+      ],
+      "isOpportunity": false
+    },
+    "https://examcompass.pages.dev/jee-mains/": {
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 4,
+      "topQueries": [
+        {
+          "query": "how it was built",
+          "impressions": 1,
+          "clicks": 0,
+          "ctr": 0,
+          "position": 2
+        },
+        {
+          "query": "jee compass",
+          "impressions": 1,
+          "clicks": 0,
+          "ctr": 0,
+          "position": 6
         }
       ],
       "isOpportunity": false

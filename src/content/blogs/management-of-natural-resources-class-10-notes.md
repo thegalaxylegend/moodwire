@@ -55,7 +55,7 @@ manualReview: false
 - **Runoff Formula:** $Runoff = Precipitation - Infiltration - Evapotranspiration$ — Runoff is the flow of water that occurs when excess stormwater, meltwater, or other sources flows over the Earth's surface, Precipitation is any form of water - liquid or solid - falling from clouds and reaching the ground, Infiltration is the process by which water on the ground surface moves into the soil, Evapotranspiration is the process by which water is transferred from the land to the atmosphere by both evaporation from soil and other surfaces and by transpiration from plants
 
 - **Water Table Formula:** $Water Table = \frac{Recharge}{Discharge}$ — Water Table is the upper level of the underground surface where the groundwater is fully saturated, recharge is the process by which water moves downward from Earth's surface to the water table, Discharge is the process by which water moves upward from the water table to the Earth's surface
-Examiner's Trap: Be careful with the units of measurement for water conservation formulas, as they can be easily confused.
+Examiner's Trap: Be careful with the units of measurement for [water](/blog/water-resources-class-10-notes) conservation formulas, as they can be easily confused.
 
 #### **Soil Conservation Formulas**
 
@@ -169,7 +169,7 @@ Examiner's Trap: Be aware of the different [sources](/blog/sources-of-energy-cla
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 ### <a id="3-solved-pyqs"></a>3 Solved PYQs
-✏️ 3 Solved PYQs for Management of Natural Resources (Class 10, year range 2018–2026) are given below:
+✏️ 3 Solved PYQs for Management of Natural [Resources](/blog/resources-and-development-class-10-notes) (Class 10, year range 2018–2026) are given below:
 
 **Q1 (2020 CBSE):** What is the $averageannualsolarenergyincidenton1m^2ofaflatplatekeptinthesunatanangleof30^\circwiththehorizontalifthesolarconstantis1400W/m^2$? 
 
@@ -299,50 +299,50 @@ By remembering these key points and using the mnemonic or visual analogy, you ca
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. A forest cover of 33% is required for a region to receive a maximum amount of rainfall. True or False?**
-**A)**     It is a universal rule that forest cover of 33% is required for a region to receive a maximum amount of rainfall.
-**B)**     Forest cover of 33% is required for a region to receive a moderate amount of rainfall.
-**C)**     Forest cover of 33% is not required for a region to receive a maximum amount of rainfall.
-**D)**     A 33% forest cover is required for a region to receive a minimum amount of rainfall.
+**A)**      It is a universal rule that forest cover of 33% is required for a region to receive a maximum amount of rainfall.
+**B)**      Forest cover of 33% is required for a region to receive a moderate amount of rainfall.
+**C)**      Forest cover of 33% is not required for a region to receive a maximum amount of rainfall.
+**D)**      A 33% forest cover is required for a region to receive a minimum amount of rainfall.
 
 **Answer:** C) The statement is incorrect. A forest cover of 33% can lead to a maximum amount of rainfall in a region. The correct statement should be that a forest cover of 33% can lead to a maximum amount of rainfall in a region.
 
 ---
 
 **2. The carrying capacity of an area is the maximum number of people that an area can support. True or False?**
-**A)**     Carrying capacity is the maximum number of people that an area can support.
-**B)**     Carrying capacity is the minimum number of people that an area can support.
-**C)**     Carrying capacity is the number of people that an area is currently supporting.
-**D)**     Carrying capacity is the number of people that an area can support in the long term.
+**A)**      Carrying capacity is the maximum number of people that an area can support.
+**B)**      Carrying capacity is the minimum number of people that an area can support.
+**C)**      Carrying capacity is the number of people that an area is currently supporting.
+**D)**      Carrying capacity is the number of people that an area can support in the long term.
 
 **Answer:** C) The statement is incorrect. Carrying capacity is actually the maximum number of people that an area can support in the long term.
 
 ---
 
 **3. To control desertification, the most effective method is to prevent soil erosion. True or False?**
-**A)**     The most effective method to control desertification is to prevent soil erosion.
-**B)**     The most effective method to control desertification is to plant more trees.
-**C)**     The most effective method to control desertification is to reduce population growth.
-**D)**     The most effective method to control desertification is to reduce agricultural activities.
+**A)**      The most effective method to control desertification is to prevent soil erosion.
+**B)**      The most effective method to control desertification is to plant more trees.
+**C)**      The most effective method to control desertification is to reduce population growth.
+**D)**      The most effective method to control desertification is to reduce agricultural activities.
 
 **Answer:** B) The statement is incorrect. While preventing soil erosion is an important step in controlling desertification, the most effective method is actually to plant more trees and restore vegetation cover.
 
 ---
 
 **4. The Green Revolution in India was initiated due to the scarcity of water. True or False?**
-**A)**     The Green Revolution in India was initiated due to the scarcity of water.
-**B)**     The Green Revolution in India was initiated due to the scarcity of fertile land.
-**C)**     The Green Revolution in India was initiated due to the high cost of fertilizers.
-**D)**     The Green Revolution in India was initiated due to the introduction of high-yielding varieties of wheat and rice.
+**A)**      The Green Revolution in India was initiated due to the scarcity of water.
+**B)**      The Green Revolution in India was initiated due to the scarcity of fertile land.
+**C)**      The Green Revolution in India was initiated due to the high cost of fertilizers.
+**D)**      The Green Revolution in India was initiated due to the introduction of high-yielding varieties of wheat and rice.
 
 **Answer:** D) The statement is incorrect. The Green Revolution in India was actually initiated due to the introduction of high-yielding varieties of wheat and rice, not due to the scarcity of water.
 
 ---
 
 **5. The per capita water availability in India is $1000 ,m^3$. True or False?**
-**A)**     $1000 ,m^3$ is the per capita water availability in India.
-**B)**     $500 ,m^3$ is the per capita water availability in India.
-**C)**     $2000 ,m^3$ is the per capita water availability in India.
-**D)**     The per capita water availability in India is not known.
+**A)**      $1000 ,m^3$ is the per capita water availability in India.
+**B)**      $500 ,m^3$ is the per capita water availability in India.
+**C)**      $2000 ,m^3$ is the per capita water availability in India.
+**D)**      The per capita water availability in India is not known.
 
 **Answer:** C) The statement is incorrect. The per capita water availability in India is actually less than $1000 ,m^3$, and it is decreasing every year.
 

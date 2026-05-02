@@ -88,7 +88,7 @@ D) length + breadth × height
 
 **Answer: C) length × breadth × height.**
 
-**3. What is the formula for the surface area of a cube?**
+**3. What is the formula for the surface area of a [cube](/blog/cubes-and-cube-roots-class-8-notes)?**
 -
 A) 4 × side²
 -

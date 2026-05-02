@@ -64,7 +64,7 @@ D) 5
 
 **Answer: B) 3. Explanation: Mean = (Sum of all values)/(Total number of values) = (1 + 2 + 3 + 4 + 5)/5 = 15/5 = 3**
 
-**2. What is the median of the numbers 2, 4, 6, 8, 10?**
+**2. What is the median of the [numbers](/blog/rational-numbers-class-8-notes) 2, 4, 6, 8, 10?**
 -
 A) 4
 -

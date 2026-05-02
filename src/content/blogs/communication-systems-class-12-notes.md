@@ -43,7 +43,7 @@ manualReview: false
 - **Question 3:** A digital signal is transmitted through a communication system with a data transfer rate of 1 Mbps. If the signal is sampled at a rate of 2 MHz, what is the [number](/blog/number-systems-class-9-notes) of bits per sample?
 - **Step 1:** Identify the data transfer rate (1 Mbps) and the sampling rate (2 MHz)
 - **Step 2:** Calculate the [number](/blog/number-systems-class-9-notes) of bits per sample using the formula n = R/fₛ, where n is the [number](/blog/number-systems-class-9-notes) of bits per sample, R is the data transfer rate, and fₛ is the sampling rate
-- **Step 3:** Substitute the values and calculate the number of bits per sample (1 Mbps / 2 MHz = 0.5 bits per sample)
+- **Step 3:** Substitute the values and calculate the [number](/blog/number-systems-class-9-notes) of bits per sample (1 Mbps / 2 MHz = 0.5 bits per sample)
 - **Answer:** 0.5 bits per sample
 
 ## 🧠 The One Thing Most Students Get Wrong
@@ -123,7 +123,7 @@ D) 2 bits per sample
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/communication-systems-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/communication-[systems](/blog/operating-systems-class-12-notes)-class-12-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 
