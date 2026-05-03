@@ -13,27 +13,39 @@ export interface ModelSpec {
 }
 
 export const MODELS: Record<string, ModelSpec> = {
-  // --- GEMINI SERIES (Google AI Studio) ---
-  // Note: Pro models now require paid tier as of April 2026. Using Flash/Gemma for free tier stability.
-  'gemini-2.0-flash': { id: 'gemini-2.0-flash', provider: 'gemini', rpm: 15, rpd: 1500, tpm: 1000000, context: 1000000, tier: 'T1' },
-  'gemini-1.5-flash': { id: 'gemini-1.5-flash', provider: 'gemini', rpm: 15, rpd: 1500, tpm: 1000000, context: 1000000, tier: 'T1' },
-  'gemini-1.5-flash-8b': { id: 'gemini-1.5-flash-8b', provider: 'gemini', rpm: 15, rpd: 1500, tpm: 1000000, context: 1000000, tier: 'T3' },
-  'gemini-2.0-flash-lite-preview-02-05': { id: 'gemini-2.0-flash-lite-preview-02-05', provider: 'gemini', rpm: 15, rpd: 1500, tpm: 1000000, context: 1000000, tier: 'T4' },
+  // ═══════════════════════════════════════════════════════════════════
+  // ALL MODELS VERIFIED WORKING ON FREE TIER (tested 2026-05-03)
+  // ═══════════════════════════════════════════════════════════════════
 
-  // --- GROQ SERIES ---
-  // NOTE: qwen-qwq-32b REMOVED — decommissioned by Groq, causing 400 errors (2026-04-26)
-  'llama-3.3-70b-versatile': { id: 'llama-3.3-70b-versatile', provider: 'groq', rpm: 30, rpd: 1000, tpm: 60000, context: 128000, tier: 'T2' },
-  'llama-3.1-8b-instant': { id: 'llama-3.1-8b-instant', provider: 'groq', rpm: 30, rpd: 14400, tpm: 100000, context: 128000, tier: 'T5' },
-  'gemma2-9b-it': { id: 'gemma2-9b-it', provider: 'groq', rpm: 30, rpd: 5000, tpm: 100000, context: 8192, tier: 'T4' },
+  // --- GEMINI SERIES (Google AI Studio — Free Tier) ---
+  // 6 API keys available, rotating across all tiers
+  'gemini-2.5-flash': { id: 'gemini-2.5-flash', provider: 'gemini', rpm: 15, rpd: 1500, tpm: 1000000, context: 1000000, tier: 'T1' },
+  'gemini-2.0-flash': { id: 'gemini-2.0-flash', provider: 'gemini', rpm: 15, rpd: 1500, tpm: 1000000, context: 1000000, tier: 'T1' },
+  'gemini-2.0-flash-lite': { id: 'gemini-2.0-flash-lite', provider: 'gemini', rpm: 15, rpd: 1500, tpm: 1000000, context: 1000000, tier: 'T3' },
+
+  // --- GEMMA 4 SERIES (Google AI Studio — Free Tier, SEPARATE per-model quotas) ---
+  // These use the same Gemini API keys but have independent rate limits.
+  // When gemini-2.0-flash hits 429, gemma-4-31b can still serve requests.
+  'gemma-4-31b-it': { id: 'gemma-4-31b-it', provider: 'gemini', rpm: 15, rpd: 1500, tpm: 1000000, context: 131072, tier: 'T2' },
+  'gemma-4-26b-a4b-it': { id: 'gemma-4-26b-a4b-it', provider: 'gemini', rpm: 15, rpd: 1500, tpm: 1000000, context: 131072, tier: 'T3' },
+
+  // --- GROQ SERIES (Free Tier) ---
+  // ONLY llama-3.1-8b-instant is available on your free Groq plan.
+  // All other models (llama-3.3-70b, qwen3-32b, llama-4-scout, gemma2-9b) are 403 BLOCKED.
+  'llama-3.1-8b-instant': { id: 'llama-3.1-8b-instant', provider: 'groq', rpm: 30, rpd: 14400, tpm: 100000, context: 128000, tier: 'T4' },
 };
 
 export const WATERFALL_CHAINS: Record<TaskTier, string[]> = {
-  // T1: Hardest tasks — lead with Gemini 2.0 Flash as requested, Groq 70B as primary backup
-  'T1': ['gemini-2.0-flash', 'llama-3.3-70b-versatile', 'gemini-1.5-flash'],
-  'T2': ['gemini-2.0-flash', 'llama-3.3-70b-versatile', 'gemini-1.5-flash', 'llama-3.1-8b-instant'],
-  'T3': ['gemini-2.0-flash', 'gemini-1.5-flash-8b', 'llama-3.3-70b-versatile', 'gemma2-9b-it'],
-  'T4': ['gemini-1.5-flash-8b', 'gemma2-9b-it', 'llama-3.1-8b-instant', 'gemini-2.0-flash-lite-preview-02-05'],
-  'T5': ['llama-3.1-8b-instant', 'gemma2-9b-it', 'gemini-1.5-flash-8b'],
+  // T1: Highest quality — Gemini Flash → Gemma 4 (separate quota!) → Groq
+  'T1': ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemma-4-31b-it', 'gemini-2.0-flash-lite', 'gemma-4-26b-a4b-it', 'llama-3.1-8b-instant'],
+  // T2: Standard generation — balanced chain
+  'T2': ['gemini-2.0-flash', 'gemini-2.5-flash', 'gemma-4-31b-it', 'gemini-2.0-flash-lite', 'gemma-4-26b-a4b-it', 'llama-3.1-8b-instant'],
+  // T3: Medium tasks — lite/gemma first to conserve heavy quota
+  'T3': ['gemini-2.0-flash-lite', 'gemma-4-26b-a4b-it', 'gemma-4-31b-it', 'gemini-2.0-flash', 'llama-3.1-8b-instant'],
+  // T4: Light tasks — fast models first
+  'T4': ['llama-3.1-8b-instant', 'gemma-4-26b-a4b-it', 'gemini-2.0-flash-lite'],
+  // T5: Cheapest tasks
+  'T5': ['llama-3.1-8b-instant', 'gemini-2.0-flash-lite', 'gemma-4-26b-a4b-it'],
 };
 
 export const PROVIDER_FALLBACK: Record<Provider, Provider[]> = {

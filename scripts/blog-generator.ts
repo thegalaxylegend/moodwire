@@ -610,16 +610,12 @@ async function generateSection(item: any, heading: string, displayClass: string,
     const ctxBlock = researchContext ? `\n\n---\n📚 VERIFIED EXAM DATA (USE AS PRIMARY SOURCE):\n${researchContext}\n---\n` : "";
     
     // ── Per-heading prompt blueprints ────────────────────────────────────
-    const LATEX_RULE = `LATEX RULES (ZERO TOLERANCE):
-- 🚨 EVERY formula/variable/symbol MUST be in $...$ or $$...$$
-- ❌ WRONG: \\sum Q = 0, T_{initial}, \Delta, \frac{a}{b}
-- ✅ RIGHT: $\\sum Q = 0$, $T_{initial}$, $\\Delta$, $\\frac{a}{b}$
-- ALWAYS use curly braces: \\frac{numerator}{denominator}
-- NEVER output $$  $$ (empty blocks).
-- NEVER use \\( \\) or \\[ \\]. Use $ and $$.
-- NEVER escape dollar signs for formulas (no \\$).
-- GREEK LETTERS: \\alpha, \\beta, \\gamma, \\theta, \\Delta, \\omega etc. MUST ALWAYS be inside $...$
-  Example: $\\alpha + \\beta = \\gamma$, NOT \\alpha + \\beta = \\gamma`;
+    const LATEX_RULE = `MATH & SYMBOL RULES (ZERO TOLERANCE):
+- 🚨 DO NOT use LaTeX. Use raw Unicode symbols for math and Greek letters.
+- ❌ WRONG: \\alpha, \\beta, \\sum, \\frac{a}{b}, $x^2$, $T_{initial}$
+- ✅ RIGHT: α, β, Σ, a/b, x², T_initial
+- Do not use $ or $$ delimiters.
+- Ensure consistent formatting across all content and generated questions.`;
 
     let specificDirective = "";
     if (heading.includes("Formula Bank")) {
@@ -630,7 +626,7 @@ DELIVER:
 - Every formula the chapter requires — no exceptions
 - Group by sub-topic with a bold sub-heading (e.g. **Kinematics Formulas**)
 - Each formula on its own line:
-  - **Name of formula:** $$\\LaTeX$$ — variable meanings in plain English
+  - **Name of formula:** (formula using Unicode) — variable meanings in plain English
 - After each formula group, add a 1-line "Examiner's Trap" note
 - End with a quick "Which formula when?" decision table in Markdown table format
 
@@ -648,7 +644,7 @@ FOR EACH MISTAKE use EXACTLY this structure:
   - 💸 **Marks lost:** [1 / 2 / 3 marks]
   - 🔧 **The fix (30-second trick):** [memorable rule]
 
-Provide EXACTLY 5 mistakes. Use real LaTeX where relevant.
+Provide EXACTLY 5 mistakes. Use Unicode math symbols where relevant.
 ${LATEX_RULE}`;
 
     } else if (heading.includes("PYQs")) {
@@ -656,12 +652,12 @@ ${LATEX_RULE}`;
 Use REAL questions from JEE/NEET/CBSE Boards. If unsure, create a question in the exact style of those papers.
 
 FOR EACH QUESTION:
-- **Q[N] ([Year] [Board]):** [Full question text with LaTeX]
+- **Q[N] ([Year] [Board]):** [Full question text with Unicode math]
   - 🪤 **Trap:** [what 70% of students do wrong — 1 sentence]
   - 🧮 **Solution (Step-by-step):**
-    Step 1: [action] → $[formula/calculation]$
+    Step 1: [action] → [formula/calculation]
     Step 2: …
-    **Final Answer:** $$[answer with units]$$
+    **Final Answer:** [answer with units]
   - ⚡ **Speed trick:** [how to solve it in under 60 seconds]
 
 Separate the 3 questions with a horizontal rule (---)
@@ -702,7 +698,7 @@ Every word costs. Ruthless brevity is the goal.
 DELIVER IN THIS EXACT ORDER (no deviation):
 
 **⚡ Core Formulas** (exactly 5):
-- $[formula 1]$ — [what it gives you]
+- [formula 1] — [what it gives you]
 - …
 
 **🧠 Must-Know Facts** (exactly 3):
@@ -822,9 +818,9 @@ export async function generateExtras(item: any, researchContext: string): Promis
 PART A — 5 HIGH-YIELD MCQs
 Each MCQ must be genuinely exam-level (not trivial). Requirements:
 - Mix difficulty: 2 easy (direct formula), 2 medium (application), 1 hard (multi-step)
-- At least 2 MCQs must use numbers / calculations with LaTeX
+- At least 2 MCQs must use numbers / calculations with Unicode math symbols
 - The "answer_text" must explain WHY the other 3 options are wrong (not just state the right answer)
-- Use LaTeX for all formulas: $inline$ or $$block$$
+- DO NOT use LaTeX formatting or backslashes. Use Unicode for all formulas (e.g. α, β, Σ, x²).
 
 PART B — GRANDMASTER CONCEPTUAL SUMMARY (quick_recall)
 - Exactly 8 declarative statements — the chapter's 8 core truths
@@ -852,13 +848,9 @@ RULES: "options" must be a JSON array of exactly 4 plain strings (NO "A)" prefix
        "answer" must be exactly one of: A B C D
        All string values must be plain text or LaTeX — NO nested objects.
 
-🚨 CRITICAL JSON + LATEX SAFETY RULE:
-   When writing LaTeX inside JSON strings, you MUST double-escape backslashes.
-   This is because JSON uses \\ as an escape character.
-   ❌ WRONG in JSON: "$\\alpha + \\beta$"  → This becomes $\x07lpha + \x08eta$ (corrupted!)
-   ✅ RIGHT in JSON: "$\\\\alpha + \\\\beta$" → This correctly renders as $\\alpha + \\beta$
-   Apply this to ALL LaTeX commands: \\\\frac, \\\\sum, \\\\theta, \\\\Delta, \\\\sqrt, etc.
-   SIMPLE RULE: If you see a single \\, make it \\\\. Every. Single. Time. Inside JSON strings.
+🚨 CRITICAL JSON SAFETY RULE:
+   DO NOT use LaTeX formatting or backslashes (\). Use raw Unicode symbols instead (e.g. α, β, Σ, a/b, x²).
+   Backslashes cause JSON parse errors. This is non-negotiable.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`;
     
     const raw = await callLlmWithFallback(system, user, true);
@@ -1382,7 +1374,7 @@ async function generateBlogs() {
     console.log("\n🔄 Jules: Triggering Registry Sync...");
     try {
         const { execSync } = await import('child_process');
-        execSync('node scripts/sync-blogs.js', { stdio: 'inherit' });
+        execSync('npx tsx scripts/sync-blogs.ts', { stdio: 'inherit' });
     } catch (e: any) {
         console.error("⚠️ Registry Sync failed:", e.message);
     }

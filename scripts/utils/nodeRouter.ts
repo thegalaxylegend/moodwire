@@ -109,23 +109,23 @@ class NodeRouter {
     // ── Key loading ────────────────────────────────────────────────────────────
 
     private loadKeys() {
-        this.groqKeys = [
-            process.env.VITE_GROQ_API_KEY || process.env.GROQ_API_KEY,
-            process.env.VITE_GROQ_API_KEY_2,
-            process.env.VITE_GROQ_API_KEY_3,
-            process.env.VITE_GROQ_API_KEY_4,
-            process.env.VITE_GROQ_API_KEY_5,
-            process.env.VITE_GROQ_API_KEY_6,
-        ].filter(Boolean) as string[];
+        // Dynamically load all numbered keys from .env
+        const extractKeys = (baseNames: string[]) => {
+            const foundKeys = new Set<string>();
+            for (const base of baseNames) {
+                // Check base key
+                if (process.env[base]) foundKeys.add(process.env[base]!);
+                // Check numbered variants (_2 to _10)
+                for (let i = 2; i <= 10; i++) {
+                    const key = process.env[`${base}_${i}`];
+                    if (key) foundKeys.add(key);
+                }
+            }
+            return Array.from(foundKeys).filter(k => k.trim() !== '');
+        };
 
-        this.geminiKeys = [
-            process.env.VITE_GEMINI_API_KEY || process.env.GEMINI_API_KEY,
-            process.env.VITE_GEMINI_API_KEY_2,
-            process.env.VITE_GEMINI_API_KEY_3,
-            process.env.VITE_GEMINI_API_KEY_4,
-            process.env.VITE_GEMINI_API_KEY_5,
-            process.env.VITE_GEMINI_API_KEY_6,
-        ].filter(Boolean) as string[];
+        this.groqKeys = extractKeys(['VITE_GROQ_API_KEY', 'GROQ_API_KEY', 'GROQ_API_KEYS']);
+        this.geminiKeys = extractKeys(['VITE_GEMINI_API_KEY', 'GEMINI_API_KEY', 'GEMINI_API_KEYS']);
 
         const total = this.groqKeys.length + this.geminiKeys.length;
         if (total === 0) {
@@ -164,11 +164,12 @@ class NodeRouter {
 
         const pKey = `${provider}_${keyIndex}`;
 
-        // Poisoned → never
+        // Poisoned → never (per-provider: a dead key is dead for all models)
         if (this.poisonedKeys.has(pKey)) return false;
 
-        // Rate-limited → check cooldown
-        const cooldownUntil = this.rateLimitedUntil.get(pKey) ?? 0;
+        // Rate-limited → check cooldown (per-MODEL-per-key: separate quotas per model)
+        const rateLimitKey = `${modelId}_${provider}_${keyIndex}`;
+        const cooldownUntil = this.rateLimitedUntil.get(rateLimitKey) ?? 0;
         if (Date.now() < cooldownUntil) return false;
 
         // Daily quota
@@ -217,7 +218,9 @@ class NodeRouter {
                     : (attempt + 1) * 10; // 10s, 20s, 30s ...
                 const cooldownMs = Math.min(retryAfterSec * 1000, 60_000);
                 console.warn(`⏳ ${tag} Rate-limited (429). Cooling ${(cooldownMs / 1000).toFixed(0)}s.`);
-                this.rateLimitedUntil.set(pKey, Date.now() + cooldownMs);
+                // Use per-MODEL rate-limit key so gemma-4 isn't blocked when gemini-flash is rate-limited
+                const rateLimitKey = `${modelId}_${pKey}`;
+                this.rateLimitedUntil.set(rateLimitKey, Date.now() + cooldownMs);
                 await sleep(2000); // brief wait before trying next key
                 return 'skip_key';
             }
@@ -335,15 +338,14 @@ class NodeRouter {
         options: { jsonMode?: boolean; temperature?: number; max_tokens?: number },
     ): Promise<string> {
         const client = new Groq({ apiKey });
-        // const completion = await client.chat.completions.create({
-        //     model: modelId,
-        //     messages: messages as any,
-        //     temperature: options.temperature ?? 0.7,
-        //     max_tokens: options.max_tokens ?? 8192,
-        //     response_format: options.jsonMode ? { type: 'json_object' } : undefined,
-        // });
-        // const content = completion.choices[0]?.message?.content;
-        const content = options.jsonMode ? "{}" : "API DISABLED";
+        const completion = await client.chat.completions.create({
+            model: modelId,
+            messages: messages as any,
+            temperature: options.temperature ?? 0.7,
+            max_tokens: options.max_tokens ?? 8192,
+            response_format: options.jsonMode ? { type: 'json_object' } : undefined,
+        });
+        const content = completion.choices[0]?.message?.content;
         if (!content) throw new Error('Groq returned empty content.');
         return content;
     }
@@ -365,9 +367,8 @@ class NodeRouter {
         });
         const system = messages.find(m => m.role === 'system')?.content ?? '';
         const user = messages.find(m => m.role === 'user')?.content ?? '';
-        // const result = await model.generateContent(`${system}\n\n${user}`);
-        // const text = result.response.text();
-        const text = options.jsonMode ? "{}" : "API DISABLED";
+        const result = await model.generateContent(`${system}\n\n${user}`);
+        const text = result.response.text();
         if (!text) throw new Error('Gemini returned empty response.');
         return text;
     }

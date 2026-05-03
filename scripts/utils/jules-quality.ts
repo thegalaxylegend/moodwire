@@ -146,9 +146,7 @@ const CHAPTER_TO_SUBJECT: Record<string, string> = {
 export function checkBlogQuality(post: BlogPostJSON): QualityReport {
     // ═══════════════════════════════════════════════════════════════════
     // PRE-SCORING REPAIR PASS: Fix known-fixable issues BEFORE scoring
-    // This prevents the "score 0 for fixable LaTeX" death spiral.
-    // Without this, blogs with naked LaTeX (\frac without $) score 0
-    // even though checkFormattingIntegrity() can fix them automatically.
+    // Updated: Unicode-first policy. We no longer force LaTeX wrapping.
     // ═══════════════════════════════════════════════════════════════════
     let preRepairCount = 0;
     for (const sec of (post.content?.sections || [])) {
@@ -328,13 +326,12 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
         report.warnings.push('Heading hallucination: "Solved Yes" should be "Solved PYQs"');
     }
 
-    // ========= MATH RENDERING CHECKS (RE-ENABLED) =========
-    // LaTeX IS used in the content. Check for naked LaTeX outside $ delimiters.
+    // ========= MATH RENDERING CHECKS (UPDATED) =========
+    // Unicode math is now preferred. LaTeX is still allowed but not enforced with penalties.
     const rawLatexCheck = /(?<!\$)\\(?:frac|sqrt|sum|int|alpha|beta|gamma|Delta|theta|phi|sigma|lambda|omega|pi|mu|epsilon|nabla|partial|infty|cdot|times|binom|vec|hat|overline|text|mathrm)(?:\{|\\|_|\^|\s)/g;
     const rawLatexMatches = (contentStr.match(rawLatexCheck) || []).length;
     if (rawLatexMatches > 0) {
-        score -= Math.min(10, rawLatexMatches * 2);
-        report.warnings.push(`${rawLatexMatches} naked LaTeX command(s) found outside $...$ delimiters`);
+        report.warnings.push(`${rawLatexMatches} naked LaTeX command(s) found. Consider using Unicode symbols for better stability.`);
     }
 
     report.score = Math.max(0, score);
@@ -573,9 +570,9 @@ export function checkFormattingIntegrity(text: string): string {
     repaired = repaired.replace(/\b n \b/g, ' and ');
     repaired = repaired.replace(/\b N \b/g, ' And ');
 
-    // ========= LATEX WRAPPING (CRITICAL — prevents LATEX_ERROR failures) =========
-    // Find common LaTeX commands that are NOT inside $...$ or $$...$$ and wrap them.
-    // This is the #1 fix for the 9× LATEX_ERROR in the audit report.
+    // ========= LATEX WRAPPING (SAFETY NET) =========
+    // Even though we prefer Unicode, if the LLM slips and outputs LaTeX, 
+    // we wrap it in $...$ to ensure it renders correctly on the site.
     const NAKED_LATEX_CMDS = [
         'frac', 'sqrt', 'sum', 'prod', 'int', 'lim', 'infty', 'partial', 'nabla',
         'alpha', 'beta', 'gamma', 'delta', 'epsilon', 'zeta', 'eta', 'theta',
@@ -590,21 +587,16 @@ export function checkFormattingIntegrity(text: string): string {
         'forall', 'exists', 'hbar', 'ell',
     ];
 
-    // Wrap isolated \command sequences not already inside $ delimiters
-    // Strategy: split by $ delimiters, only process non-math segments
     const segments = repaired.split(/(\$\$[\s\S]*?\$\$|\$[^$]*?\$)/g);
     for (let i = 0; i < segments.length; i++) {
-        // Even indices = outside math, odd indices = inside math
         if (i % 2 === 0 && segments[i]) {
             for (const cmd of NAKED_LATEX_CMDS) {
-                // Match \command followed by { or space or end (not already in $)
                 const nakedPattern = new RegExp(
                     `(?<!\\$)\\\\${cmd}(\\{[^}]*\\}(?:\\{[^}]*\\})?|_\\{[^}]*\\}|\\^\\{[^}]*\\}|(?=[\\s,;:.!?)\\]]))`,
                     'g'
                 );
                 segments[i] = segments[i].replace(nakedPattern, (match) => {
-                    // Don't wrap if it's already preceded by $ on the same line
-                    return `$\\${cmd}${match.slice(cmd.length + 1)}$`;
+                    return `$${match}$`;
                 });
             }
         }
