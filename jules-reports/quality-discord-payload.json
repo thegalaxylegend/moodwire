@@ -6,27 +6,27 @@
       "fields": [
         {
           "name": "📊 All-Time Stats",
-          "value": "Total: 183 blogs\nPassed: 125\nFailed: 58\nPass Rate: 68%",
+          "value": "Total: 192 blogs\nPassed: 125\nFailed: 67\nPass Rate: 65%",
           "inline": true
         },
         {
           "name": "📈 Avg Quality Score",
-          "value": "78/100",
+          "value": "76.5/100",
           "inline": true
         },
         {
           "name": "📉 Trend",
-          "value": "DECLINING (-14.9)",
+          "value": "DECLINING (-21.5)",
           "inline": true
         },
         {
           "name": "🔴 Top Errors",
-          "value": "• JSON squashing detected: raw JSON objects in markdown body (×9)\n• Unknown Failure (×9)\n• Insufficient MCQs (Need at least 3) (×7)",
+          "value": "• Insufficient MCQs (Need at least 3) (×13)\n• JSON squashing detected: raw JSON objects in markdown body (×9)\n• Unknown Failure (×9)",
           "inline": false
         }
       ],
       "footer": {
-        "text": "Report generated: 2026-05-02T13:48:02.788Z"
+        "text": "Report generated: 2026-05-03T03:53:40.119Z"
       }
     }
   ]

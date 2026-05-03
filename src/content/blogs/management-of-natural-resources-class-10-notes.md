@@ -96,7 +96,7 @@ Examiner's Trap: Be aware of the different [sources](/blog/sources-of-energy-cla
 ### <a id="which-formula-when"></a>Which formula when?
 | Formula | Situation |
 | --- | --- |
-| Water Cycle Formula | To understand the process of water movement on Earth |
+| [Water](/blog/water-resources-class-10-notes) Cycle Formula | To understand the process of [water](/blog/water-resources-class-10-notes) movement on Earth |
 | Soil Erosion Formula | To calculate the amount of soil that is eroded |
 | Forest Biomass Formula | To estimate the amount of living matter in a forest |
 | Mineral Reserve Formula | To determine the amount of mineral that is available for extraction |
@@ -206,7 +206,7 @@ Examiner's Trap: Be aware of the different [sources](/blog/sources-of-energy-cla
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 ### <a id="the-one-thing-most-students-get-wrong"></a>The One Thing Most Students Get Wrong
-The misconception (what 85% believe): Most students think that the management of natural resources is only about conservation and sustainability, and that it is a separate concept from economic development. They believe that economic growth and environmental protection are mutually exclusive, and that one must be sacrificed for the other.
+The misconception (what 85% believe): Most students think that the management of natural [resources](/blog/resources-and-development-class-10-notes) is only about conservation and sustainability, and that it is a separate concept from economic development. They believe that economic growth and environmental protection are mutually exclusive, and that one must be sacrificed for the other.
 
 ### <a id="the-reality"></a>The Reality (what 99% know): However, the truth is that the management of natural resources is intricately linked with economic development. In fact, sustainable management of natural resources is essential for long-term economic growth and development. This is because natural resources are the foundation of all economic activity, and their depletion or degradation can have severe economic consequences. For example, the loss of biodiversity can lead to the loss of ecosystem services, which can have significant economic impacts, such as the loss of tourism revenue or the increased cost of water treatment. The concept of $T_{initial}$, or the initial temperature, is crucial in understanding the impact of human activities on the environment. The formula $\frac{a}{b}$, where $a$ is the amount of resource used and $b$ is the total amount of resource available, can be used to calculate the resource depletion rate.
 
@@ -299,50 +299,50 @@ By remembering these key points and using the mnemonic or visual analogy, you ca
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. A forest cover of 33% is required for a region to receive a maximum amount of rainfall. True or False?**
-**A)**      It is a universal rule that forest cover of 33% is required for a region to receive a maximum amount of rainfall.
-**B)**      Forest cover of 33% is required for a region to receive a moderate amount of rainfall.
-**C)**      Forest cover of 33% is not required for a region to receive a maximum amount of rainfall.
-**D)**      A 33% forest cover is required for a region to receive a minimum amount of rainfall.
+**A)**       It is a universal rule that forest cover of 33% is required for a region to receive a maximum amount of rainfall.
+**B)**       Forest cover of 33% is required for a region to receive a moderate amount of rainfall.
+**C)**       Forest cover of 33% is not required for a region to receive a maximum amount of rainfall.
+**D)**       A 33% forest cover is required for a region to receive a minimum amount of rainfall.
 
 **Answer:** C) The statement is incorrect. A forest cover of 33% can lead to a maximum amount of rainfall in a region. The correct statement should be that a forest cover of 33% can lead to a maximum amount of rainfall in a region.
 
 ---
 
 **2. The carrying capacity of an area is the maximum number of people that an area can support. True or False?**
-**A)**      Carrying capacity is the maximum number of people that an area can support.
-**B)**      Carrying capacity is the minimum number of people that an area can support.
-**C)**      Carrying capacity is the number of people that an area is currently supporting.
-**D)**      Carrying capacity is the number of people that an area can support in the long term.
+**A)**       Carrying capacity is the maximum number of people that an area can support.
+**B)**       Carrying capacity is the minimum number of people that an area can support.
+**C)**       Carrying capacity is the number of people that an area is currently supporting.
+**D)**       Carrying capacity is the number of people that an area can support in the long term.
 
 **Answer:** C) The statement is incorrect. Carrying capacity is actually the maximum number of people that an area can support in the long term.
 
 ---
 
 **3. To control desertification, the most effective method is to prevent soil erosion. True or False?**
-**A)**      The most effective method to control desertification is to prevent soil erosion.
-**B)**      The most effective method to control desertification is to plant more trees.
-**C)**      The most effective method to control desertification is to reduce population growth.
-**D)**      The most effective method to control desertification is to reduce agricultural activities.
+**A)**       The most effective method to control desertification is to prevent soil erosion.
+**B)**       The most effective method to control desertification is to plant more trees.
+**C)**       The most effective method to control desertification is to reduce population growth.
+**D)**       The most effective method to control desertification is to reduce agricultural activities.
 
 **Answer:** B) The statement is incorrect. While preventing soil erosion is an important step in controlling desertification, the most effective method is actually to plant more trees and restore vegetation cover.
 
 ---
 
 **4. The Green Revolution in India was initiated due to the scarcity of water. True or False?**
-**A)**      The Green Revolution in India was initiated due to the scarcity of water.
-**B)**      The Green Revolution in India was initiated due to the scarcity of fertile land.
-**C)**      The Green Revolution in India was initiated due to the high cost of fertilizers.
-**D)**      The Green Revolution in India was initiated due to the introduction of high-yielding varieties of wheat and rice.
+**A)**       The Green Revolution in India was initiated due to the scarcity of water.
+**B)**       The Green Revolution in India was initiated due to the scarcity of fertile land.
+**C)**       The Green Revolution in India was initiated due to the high cost of fertilizers.
+**D)**       The Green Revolution in India was initiated due to the introduction of high-yielding varieties of wheat and rice.
 
 **Answer:** D) The statement is incorrect. The Green Revolution in India was actually initiated due to the introduction of high-yielding varieties of wheat and rice, not due to the scarcity of water.
 
 ---
 
 **5. The per capita water availability in India is $1000 ,m^3$. True or False?**
-**A)**      $1000 ,m^3$ is the per capita water availability in India.
-**B)**      $500 ,m^3$ is the per capita water availability in India.
-**C)**      $2000 ,m^3$ is the per capita water availability in India.
-**D)**      The per capita water availability in India is not known.
+**A)**       $1000 ,m^3$ is the per capita water availability in India.
+**B)**       $500 ,m^3$ is the per capita water availability in India.
+**C)**       $2000 ,m^3$ is the per capita water availability in India.
+**D)**       The per capita water availability in India is not known.
 
 **Answer:** C) The statement is incorrect. The per capita water availability in India is actually less than $1000 ,m^3$, and it is decreasing every year.
 

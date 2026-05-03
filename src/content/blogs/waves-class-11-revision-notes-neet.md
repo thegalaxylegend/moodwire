@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/waves-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 2, 2026*
+*Last Updated: May 3, 2026*
 
 ## 📑 Table of Contents
 
@@ -210,7 +210,7 @@ Where:
 ---
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&
 A)
-**                  Q1: Why does sound travel faster n [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than and gases?**
+**                   Q1: Why does sound travel faster n [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than and gases?**
 
 **Answer:** The speed of sound is **v = √(E / ρ)**. Although [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) are much denser than gases (which would decrease speed), their elasticity (E) is significantly higher. Since elasticity dominates the equation, sound travels ~15 \times faster n [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than and air.
 

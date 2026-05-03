@@ -49,7 +49,7 @@ manualReview: false
 ## 👁️ Ayush's Note
 - [Biotechnology](/blog/biotechnology-principles-and-processes-class-12-notes) is a rapidly growing field with many applications ∈ different areas of life
 - Understanding the basics of [biotechnology](/blog/biotechnology-principles-and-processes-class-12-notes), such as DNA structure and function, is crucial for solving problems ∈ this subject
-- Practice is key to mastering biotechnology, so make sure to practice as many questions as possible
+- Practice is key to mastering [biotechnology](/blog/biotechnology-principles-and-processes-class-12-notes), so make sure to practice as many questions as possible
 - Biotechnology is not just about memorizing formulas and concepts, but also about understanding the underlying principles and applying them to real-life situations
 - The JEE Advanced and NEET exams test not only knowledge, but also critical thinking and problem-solving skills, so make sure to practice questions that require these skills
 

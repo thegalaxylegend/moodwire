@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/digital-logic-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 2, 2026*
+*Last Updated: May 3, 2026*
 
 ## 📑 Table of Contents
 
@@ -226,7 +226,7 @@ The study of Digital Logic is a fascinating journey that will challenge our thin
 
 We will also explore the concept of [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures, which involves the organization and manipulation of [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) to solve specific problems. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
 
-By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics and Computer Science and develop a keen appreciation for the intricate beauty of digital systems. With dedication and practice, we can master the concepts of Digital Logic and achieve success and the Class 11 exam. 
+By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics and [Computer](/blog/computer-organization-class-11-notes) Science and develop a keen appreciation for the intricate beauty of digital systems. With dedication and practice, we can master the concepts of Digital Logic and achieve success and the Class 11 exam. 
 
 The formula for the $BUF$ gate is:
 
@@ -250,7 +250,7 @@ Digital Logic is a branch of electronics engineering that deals with the [design
  These basic gates can be combined to form more complex gates such as NAND, NOR, n XOR gates. The NAND gate produces an output of 0 only if all the inputs are 1. The NOR gate produces an output of 1 only if all the inputs are 0. The XOR gate produces an output of 1 if the inputs are different. 
  Digital logic is used and a wide range of applications, from simple digital devices such as calculators and digital watches to complex systems such as computers and telecommunication networks. It is also used and control systems, medical devices, n automotive systems. 
  The study of digital logic involves understanding the principles of binary number system, logical operations, n digital circuits. It also involves learning how to [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) and develop digital circuits using logic gates and other digital components. 
- For Class 11 exam prep, students should focus on understanding the basic logic gates, their applications, n how to design simple digital circuits. They should also practice solving problems and designing digital circuits using logic gates. 
+ For Class 11 exam prep, students should focus on understanding the basic logic gates, their applications, n how to [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) simple digital circuits. They should also practice solving problems and designing digital circuits using logic gates. 
  Digital logic is a fundamental subject that is used and many areas of electronics engineering. It is a building block for more advanced subjects such as microprocessors, computer architecture, n digital signal processing. 
  In digital circuits, the basic building blocks are the logic gates. These gates can be combined to form more complex circuits such as multiplexers, demultiplexers, n decoders. 
  A multiplexer is a digital circuit that selects one of the several input signals and forwards it to the output. A demultiplexer is a digital circuit that takes a single input signal and forwards it to one of the several output lines. A decoder is a digital circuit that converts a binary code into a decimal code. 
@@ -340,7 +340,7 @@ Ayush's Note on Digital Logic is a study guide that provides a detailed explanat
 | Boolean Algebra | Mathematical system used to analyze and simplify digital circuits | High |
 | Logic Gates | Basic components of digital circuits that perform logical operations | High |
 | Combinational Circuits | Digital circuits that consist of logic gates connected together to perform a specific function | Medium |
-| Sequential Circuits | Digital circuits that have a memory element and can store data | Medium |
+| Sequential Circuits | Digital circuits that have a memory element and can store [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) | Medium |
 | Computer Processors | Digital circuits that execute instructions and perform calculations | High |
 | Digital Cameras | Electronic devices that capture and store images | Low |
 | Mobile Phones | Electronic devices that provide communication and entertainment services | Low |

@@ -1,14 +1,14 @@
 {
-  "overallAvgScore": 78,
-  "totalBlogsAllTime": 183,
+  "overallAvgScore": 76.5,
+  "totalBlogsAllTime": 192,
   "totalPassed": 125,
-  "totalFailed": 58,
-  "overallPassRate": 68,
+  "totalFailed": 67,
+  "overallPassRate": 65,
   "trend": "declining",
-  "trendDelta": -14.9,
+  "trendDelta": -21.5,
   "dailyReports": [
     {
-      "date": "2026-05-02",
+      "date": "2026-05-03",
       "totalBlogs": 9,
       "passed": 0,
       "failed": 9,
@@ -333,9 +333,32 @@
       "avgScore": 100,
       "passRate": 100,
       "errors": []
+    },
+    {
+      "date": "2026-05-02",
+      "totalBlogs": 9,
+      "passed": 0,
+      "failed": 9,
+      "avgScore": 45,
+      "passRate": 0,
+      "errors": [
+        "Critically low word count: 798 (Min 800 for Patching) | Insufficient MCQs (Need at least 3)",
+        "Critically low word count: 762 (Min 800 for Patching) | Insufficient MCQs (Need at least 3)",
+        "Critically low word count: 798 (Min 800 for Patching) | Insufficient MCQs (Need at least 3)",
+        "Insufficient MCQs (Need at least 3)",
+        "Insufficient MCQs (Need at least 3)",
+        "Insufficient MCQs (Need at least 3)",
+        "Insufficient MCQs (Need at least 3)",
+        "Insufficient MCQs (Need at least 3)",
+        "Insufficient MCQs (Need at least 3)"
+      ]
     }
   ],
   "topErrors": [
+    {
+      "error": "Insufficient MCQs (Need at least 3)",
+      "count": 13
+    },
     {
       "error": "JSON squashing detected: raw JSON objects in markdown body",
       "count": 9
@@ -345,15 +368,15 @@
       "count": 9
     },
     {
-      "error": "Insufficient MCQs (Need at least 3)",
-      "count": 7
-    },
-    {
       "error": "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":",
       "count": 6
     },
     {
       "error": "Critically low word count: 798 (Min 800 for Patching) | Insufficient MCQs (Need ",
+      "count": 4
+    },
+    {
+      "error": "Critically low word count: 762 (Min 800 for Patching) | Insufficient MCQs (Need ",
       "count": 2
     },
     {
@@ -365,10 +388,6 @@
       "count": 2
     },
     {
-      "error": "Critically low word count: 762 (Min 800 for Patching) | Insufficient MCQs (Need ",
-      "count": 1
-    },
-    {
       "error": "Critically low word count: 714 (Min 800 for Patching)",
       "count": 1
     },
@@ -378,5 +397,5 @@
     }
   ],
   "alertNeeded": true,
-  "alertMessage": "⚠️ Quality is DECLINING! Avg score dropped by 14.9 points over the last week."
+  "alertMessage": "⚠️ Quality is DECLINING! Avg score dropped by 21.5 points over the last week."
 }

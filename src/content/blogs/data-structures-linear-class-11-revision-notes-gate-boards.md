@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/data-structures-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 2, 2026*
+*Last Updated: May 3, 2026*
 
 ## 📑 Table of Contents
 
@@ -262,7 +262,7 @@ Queues are a type of data structure that follows the First-In-First-Out (FIFO) p
 
 ## <a id="how-do-you-handle-exceptions-n-data-structures-linear"></a>How do you handle Exceptions and Data Structures: Linear?
 
-How do you handle Exceptions and Data Structures: Linear? is a critical concept that involves managing and resolving errors that occur during the execution of linear data structures such as arrays, linked lists, n stacks. It includes error detection, exception handling mechanisms, n recovery techniques. For Class 11 exam prep and 2026, the most important aspect is understanding the types of exceptions that can occur and linear data structures and how to handle them using try-catch blocks and error handling mechanisms.
+How do you handle Exceptions and [Data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Structures: Linear? is a critical concept that involves managing and resolving errors that occur during the execution of linear [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures such as arrays, linked lists, n stacks. It includes error detection, exception handling mechanisms, n recovery techniques. For Class 11 exam prep and 2026, the most important aspect is understanding the types of exceptions that can occur and linear [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures and how to handle them using try-catch blocks and error handling mechanisms.
 
 | Exception Type | Description | Example |
 | --- | --- | --- |

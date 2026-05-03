@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-05-02T13:48:28.213Z",
-  "totalLessons": 51,
-  "activeLessons": 43,
+  "generatedAt": "2026-05-03T03:54:05.448Z",
+  "totalLessons": 60,
+  "activeLessons": 52,
   "resolvedLessons": 8,
   "flaws": [
+    "MCQ_QUALITY_FAILURE: 13",
+    "THIN_CONTENT: 9",
     "JSON_PARSE_FAILURE: 9",
     "LATEX_ERROR: 9",
     "LEARNED_UNKNOWN: 8",
-    "MCQ_QUALITY_FAILURE: 7",
-    "THIN_CONTENT: 6",
     "UNKNOWN_FAILURE: 2",
     "LEARNED_ERROR: 2"
   ],
@@ -18,6 +18,6 @@
     "LEARNED_UNKNOWN: 8"
   ],
   "insights": [
-    "Top failure type: JSON_PARSE_FAILURE (9× — prioritize fix)"
+    "Top failure type: MCQ_QUALITY_FAILURE (13× — prioritize fix)"
   ]
 }

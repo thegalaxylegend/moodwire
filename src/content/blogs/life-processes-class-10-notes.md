@@ -47,7 +47,7 @@ manualReview: false
 
 ## 🔁 Last 5 Minutes Box
 - Quickly revise the formulas and [equations](/blog/chemical-reactions-and-equations-class-10-notes), including the photosynthesis equation and respiration equation
-- Go through the diagrams of the human digestive system, excretory system, and plant transport system
+- Go through the diagrams of the [human](/blog/human-eye-and-colourful-world-class-10-notes) digestive system, excretory system, and plant transport system
 - Make sure to remember the difference between active transport and passive transport
 - Take a few deep breaths and stay calm, as this will help you to think clearly and answer the questions correctly
 

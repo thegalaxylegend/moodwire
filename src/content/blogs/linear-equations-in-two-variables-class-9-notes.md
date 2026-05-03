@@ -43,7 +43,7 @@ manualReview: false
 - Most students get the concept of slope and intercept mixed up, and they often have trouble finding the equation of a line given two points or the slope and a point.
 
 ## 👁️ Ayush's Note
-- Make sure to practice solving systems of linear equations using substitution and elimination methods.
+- Make sure to practice solving systems of linear [equations](/blog/differential-equations-class-12-notes) using substitution and elimination methods.
 - Always check your solution by plugging it back into the original equation.
 - Use the slope-intercept form of a linear equation to easily identify the slope and y-intercept.
 - Be careful when finding the equation of a line given two points, as the slope must be calculated correctly.

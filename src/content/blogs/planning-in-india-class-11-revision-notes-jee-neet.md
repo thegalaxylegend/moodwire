@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/planning-n-india-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 2, 2026*
+*Last Updated: May 3, 2026*
 
 ## 📑 Table of Contents
 
@@ -116,7 +116,7 @@ Some key facts to remember include: the first Five-Year Plan focused on agricult
 ## 📝 Practice MCQs
 
 Here are a few practice MCQs to test your knowledge of Planning in [India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee):
-1. What was the main focus of the First Five-Year Plan in India?
+1. What was the main focus of the First Five-Year Plan in [India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)?
 a) Rapid industrialization
 b) Agriculture and irrigation
 c) Growth with stability

@@ -50,7 +50,7 @@ manualReview: false
 - Quickly revise the different types of contraceptive methods and their mechanisms of action 
 - Make sure to understand the concept of fertility span and how it affects reproductive [health](/blog/human-health-and-disease-class-12-notes) 
 - Practice calculating fertility rate and contraceptive prevalence rate 
-- Go through the important formulas and equations related to reproductive health 
+- Go through the important formulas and equations related to reproductive [health](/blog/human-health-and-disease-class-12-notes) 
 
 ## 📝 Practice MCQs
 **1. What is the ma∈ advantage of using IUDs as a contraceptive method?**

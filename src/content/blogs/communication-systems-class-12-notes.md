@@ -108,7 +108,7 @@ D) 1 Mbps
 
 **Answer: C) 665.74 kbps**
 
-**5. A digital signal is transmitted through a communication system with a data transfer rate of 1 Mbps. If the signal is sampled at a rate of 2 MHz, what is the number of bits per sample?**
+**5. A digital signal is transmitted through a communication system with a data transfer rate of 1 Mbps. If the signal is sampled at a rate of 2 MHz, what is the [number](/blog/number-systems-class-9-notes) of bits per sample?**
 -
 A) 0.25 bits per sample
 -

@@ -113,7 +113,7 @@ Examiner's Trap: Understand the difference between policy effectiveness and poli
 | Fiscal Deficit | To calculate fiscal deficit of local government |
 | Grant-in-Aid | To calculate grant-in-aid for local government |
 | Municipal Revenue | To calculate revenue of municipal government |
-| Urban Poverty Ratio | To measure urban poverty |
+| Urban [Poverty](/blog/poverty-unemployment-class-11-revision-notes-jee-neet) Ratio | To measure urban [poverty](/blog/poverty-unemployment-class-11-revision-notes-jee-neet) |
 | Slum Population Ratio | To measure slum population |
 | Panchayat Revenue | To calculate revenue of panchayat |
 | Rural Poverty Ratio | To measure rural poverty |
@@ -387,50 +387,50 @@ By following these steps and using the mnemonic "SPACE" or the pyramid visualiza
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. The municipal corporation of a city with a population of 5 lakhs has a budget of ₹ 500 crores to be spent on various civic amenities. If the corporation decides to allocate ₹ 120 crores for road development and ₹ 30 crores for public health, what is the remaining budget for other civic amenities?**
-**A)**   ₹ 350 crores
-**B)**   ₹ 300 crores
-**C)**   ₹ 250 crores
-**D)**   ₹ 200 crores
+**A)**    ₹ 350 crores
+**B)**    ₹ 300 crores
+**C)**    ₹ 250 crores
+**D)**    ₹ 200 crores
 
 **Answer:** A) The remaining budget can be calculated by subtracting the allocated amounts for road development and public health from the total budget. \( Remaining budget = Total budget - (Road development budget + Public health budget) \) \( Remaining budget = ₹ 500 crores - (₹ 120 crores + ₹ 30 crores) \) \( Remaining budget = ₹ 350 crores \)
 
 ---
 
 **2. What is the ratio of the number of households having a piped water supply to the number of households having a sanitary latrine in a city with a population of 10 lakhs?**
-**A)**   2
-**B)**   3
-**C)**   3
-**D)**   4
+**A)**    2
+**B)**    3
+**C)**    3
+**D)**    4
 
 **Answer:** B) The ratio of the number of households having a piped water supply to the number of households having a sanitary latrine can be calculated by dividing the number of households having a piped water supply by the number of households having a sanitary latrine. Let's assume the number of households having a piped water supply is 2 lakhs and the number of households having a sanitary latrine is 6 lakhs. The ratio would be 2:6 or 1:3.
 
 ---
 
 **3. A gram panchayat has a total revenue of ₹ 100 lakhs from various sources. If the gram panchayat decides to allocate ₹ 20 lakhs for the development of a village road and ₹ 15 lakhs for the development of a village park, what is the share of the remaining revenue for the development of a village school?**
-**A)**   ₹ 65 lakhs
-**B)**   ₹ 60 lakhs
-**C)**   ₹ 55 lakhs
-**D)**   ₹ 50 lakhs
+**A)**    ₹ 65 lakhs
+**B)**    ₹ 60 lakhs
+**C)**    ₹ 55 lakhs
+**D)**    ₹ 50 lakhs
 
 **Answer:** B) The remaining revenue for the development of a village school can be calculated by subtracting the allocated amounts for the development of a village road and a village park from the total revenue. \( Remaining revenue = Total revenue - (Village road development budget + Village park development budget) \) \( Remaining revenue = ₹ 100 lakhs - (₹ 20 lakhs + ₹ 15 lakhs) \) \( Remaining revenue = ₹ 65 lakhs \)
 
 ---
 
 **4. A local government has to allocate ₹ 500 lakhs to various departments. The allocation is as follows: ₹ 150 lakhs for the education department, ₹ 100 lakhs for the health department, and ₹ 50 lakhs for the sanitation department. What is the remaining amount to be allocated to other departments?**
-**A)**   ₹ 200 lakhs
-**B)**   ₹ 150 lakhs
-**C)**   ₹ 100 lakhs
-**D)**   ₹ 50 lakhs
+**A)**    ₹ 200 lakhs
+**B)**    ₹ 150 lakhs
+**C)**    ₹ 100 lakhs
+**D)**    ₹ 50 lakhs
 
 **Answer:** D) The remaining amount to be allocated to other departments can be calculated by subtracting the allocated amounts for the education department, health department, and sanitation department from the total allocation. \( Remaining allocation = Total allocation - (Education department allocation + Health department allocation + Sanitation department allocation) \) \( Remaining allocation = ₹ 500 lakhs - (₹ 150 lakhs + ₹ 100 lakhs + ₹ 50 lakhs) \) \( Remaining allocation = ₹ 200 lakhs \)
 
 ---
 
 **5. A zila parishad has a total expenditure of ₹ 2000 crores. If the zila parishad spent ₹ 800 crores on the development of roads and ₹ 400 crores on the development of public health, what is the percentage of the remaining expenditure spent on other zila parishad activities?**
-**A)**   10%
-**B)**   15%
-**C)**   20%
-**D)**   25%
+**A)**    10%
+**B)**    15%
+**C)**    20%
+**D)**    25%
 
 **Answer:** A) The remaining expenditure can be calculated by subtracting the expenditure on the development of roads and public health from the total expenditure. \( Remaining expenditure = Total expenditure - (Road development expenditure + Public health expenditure) \) \( Remaining expenditure = ₹ 2000 crores - (₹ 800 crores + ₹ 400 crores) \) \( Remaining expenditure = ₹ 800 crores \) \( Percentage of remaining expenditure = \frac{Remaining expenditure}{Total expenditure} 	imes 100 \% \) \( Percentage of remaining expenditure = \frac{₹ 800 crores}{₹ 2000 crores} 	imes 100 \% \) \( Percentage of remaining expenditure = 40 \% \) \( Percentage of remaining expenditure = 100 \% - (Percentage spent on road development + Percentage spent on public health) \) \( Percentage of remaining expenditure = 100 \% - (20 \% + 20 \%) \) \( Percentage of remaining expenditure = 60 \% \) \( Hence, the correct answer is 10 \% \)
 

@@ -389,20 +389,20 @@ The Pythagorean identity $sin^2{\theta} + cos^2{\theta} = 1$ is fundamental to a
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. If $sin(x) = rac{1}{3}$, what is the value of $cos(x)$ if $x$ is in the first quadrant?**
-**A)**    $rac{2}{3}$
-**B)**    $rac{sqrt{8}}{3}$
-**C)**    $rac{1}{sqrt{10}}$
-**D)**    $rac{1}{sqrt{3}}$
+**A)**     $rac{2}{3}$
+**B)**     $rac{sqrt{8}}{3}$
+**C)**     $rac{1}{sqrt{10}}$
+**D)**     $rac{1}{sqrt{3}}$
 
 **Answer:** A) Option B is incorrect because it assumes $x$ is in the second quadrant, where $sin(x)$ is positive and $cos(x)$ is negative. Option C is incorrect because it assumes $x$ is in the fourth quadrant, where $sin(x)$ is negative. Option D is incorrect because it assumes $x$ is in the first quadrant, but the value of $cos(x)$ is not $rac{1}{sqrt{3}}$ for $x$ in the first quadrant.
 
 ---
 
 **2. A car travels from city A to city B with an initial speed of 20 $m/s$ and accelerates at a rate of 2 $m/s^2$ for 10 seconds. What is the maximum speed reached by the car?**
-**A)**    22 $m/s$
-**B)**    24 $m/s$
-**C)**    26 $m/s$
-**D)**    28 $m/s$
+**A)**     22 $m/s$
+**B)**     24 $m/s$
+**C)**     26 $m/s$
+**D)**     28 $m/s$
 
 **Answer:** B) Option A is incorrect because it does not take into account the acceleration of the car. Option C is incorrect because it does not take into account the time for which the car accelerates. Option D is incorrect because it does not take into account the initial speed of the car.
 
@@ -410,30 +410,30 @@ The Pythagorean identity $sin^2{\theta} + cos^2{\theta} = 1$ is fundamental to a
 
 **3. If $	a(	het
 a) = $3 and $	heta$ is in the first quadrant, what is the value of $sin(	heta)$?**
-**A)**    $rac{3}{sqrt{10}}$
-**B)**    $rac{3}{sqrt{13}}$
-**C)**    $rac{3}{sqrt{16}}$
-**D)**    $rac{3}{sqrt{19}}$
+**A)**     $rac{3}{sqrt{10}}$
+**B)**     $rac{3}{sqrt{13}}$
+**C)**     $rac{3}{sqrt{16}}$
+**D)**     $rac{3}{sqrt{19}}$
 
 **Answer:** A) Option B is incorrect because it assumes $	heta$ is in the second quadrant, where $	a(	heta)$ is positive but $sin(	heta)$ is negative. Option C is incorrect because it assumes $	heta$ is in the fourth quadrant, where $	a(	heta)$ is negative. Option D is incorrect because it assumes $	heta$ is in the first quadrant, but the value of $sin(	heta)$ is not $rac{3}{sqrt{19}}$ for $	heta$ in the first quadrant.
 
 ---
 
 **4. Solve for $x$: sin(x) = rac{1}{2}**
-**A)**    $x = rac{pi}{6}$
-**B)**    $x = rac{pi}{4}$
-**C)**    $x = rac{pi}{3}$
-**D)**    $x = rac{pi}{2}$
+**A)**     $x = rac{pi}{6}$
+**B)**     $x = rac{pi}{4}$
+**C)**     $x = rac{pi}{3}$
+**D)**     $x = rac{pi}{2}$
 
 **Answer:** A) Option B is incorrect because $sin(rac{pi}{4}) = rac{sqrt{2}}{2}$. Option C is incorrect because $sin(rac{pi}{3}) = rac{sqrt{3}}{2}$. Option D is incorrect because $sin(rac{pi}{2}) = 1$.
 
 ---
 
 **5. If $f(x) = sin(x) + cos(x)$, what is the maximum value of $f(x)$ in the interval $0 leq x leq rac{pi}{2}$?**
-**A)**    $sqrt{2}$
-**B)**    $rac{sqrt{2}}{2}$
-**C)**    $rac{1}{sqrt{2}}$
-**D)**    1
+**A)**     $sqrt{2}$
+**B)**     $rac{sqrt{2}}{2}$
+**C)**     $rac{1}{sqrt{2}}$
+**D)**     1
 
 **Answer:** C) Option A is incorrect because the maximum value of $f(x)$ occurs at $x = rac{pi}{4}$. Option B is incorrect because the maximum value of $f(x)$ is not $rac{sqrt{2}}{2}$. Option D is incorrect because the maximum value of $f(x)$ is not 1.
 

@@ -59,7 +59,7 @@ manualReview: false
 - Make sure to check the units of measurement of the given quantities and the answer.
 - Verify that the direction of vectors is correctly considered.
 - Use the correct equation of [motion](/blog/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet) for the given situation.
-- Check for any common mistakes such as incorrect calculation of range or time of flight.
+- Check for any [common](/blog/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet) mistakes such as incorrect calculation of range or time of flight.
 
 ## 📝 Practice MCQs
 **1. Question:** A particle is projected with a velocity of 20 m/s at an angle of 60° above the horizontal. What is the horizontal component of the velocity?

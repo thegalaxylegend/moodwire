@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "minerals-and-energy-resources-class-10-notes",
+    "status": "failed",
+    "quality_score": 27,
+    "retries": 2,
+    "error": "Critically low word count: 798 (Min 800 for Patching) | Insufficient MCQs (Need at least 3)"
+  },
+  {
+    "slug": "manufacturing-industries-class-10-notes",
+    "status": "failed",
+    "quality_score": 27,
+    "retries": 2,
+    "error": "Critically low word count: 762 (Min 800 for Patching) | Insufficient MCQs (Need at least 3)"
+  },
+  {
+    "slug": "lifelines-of-national-economy-class-10-notes",
+    "status": "failed",
+    "quality_score": 27,
+    "retries": 2,
+    "error": "Critically low word count: 798 (Min 800 for Patching) | Insufficient MCQs (Need at least 3)"
+  },
+  {
+    "slug": "trigonometric-functions-class-11-revision-notes-jee-neet",
+    "status": "failed",
+    "quality_score": 54,
+    "retries": 2,
+    "error": "Insufficient MCQs (Need at least 3)"
+  },
+  {
+    "slug": "local-government-class-11-revision-notes-cbse",
+    "status": "failed",
+    "quality_score": 54,
+    "retries": 2,
+    "error": "Insufficient MCQs (Need at least 3)"
+  },
+  {
+    "slug": "physics-heat-light-class-11-revision-notes-jee-neet",
+    "status": "failed",
+    "quality_score": 54,
+    "retries": 2,
+    "error": "Insufficient MCQs (Need at least 3)"
+  },
+  {
+    "slug": "physics-mechanics-class-11-revision-notes-jee-neet",
+    "status": "failed",
+    "quality_score": 54,
+    "retries": 2,
+    "error": "Insufficient MCQs (Need at least 3)"
+  },
+  {
+    "slug": "poverty-unemployment-class-11-revision-notes-jee-neet",
+    "status": "failed",
+    "quality_score": 54,
+    "retries": 2,
+    "error": "Insufficient MCQs (Need at least 3)"
+  },
+  {
+    "slug": "anatomy-of-flowering-plants-class-11-revision-notes-neet",
+    "status": "failed",
+    "quality_score": 54,
+    "retries": 2,
+    "error": "Insufficient MCQs (Need at least 3)"
+  }
+]

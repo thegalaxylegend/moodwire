@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/algorithms-analysis-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 2, 2026*
+*Last Updated: May 3, 2026*
 
 ## 📑 Table of Contents
 
@@ -246,7 +246,7 @@ What are common Trap Questions for Algorithms: Analysis? is a crucial aspect of 
    
    For example, the time complexity of a simple sorting algorithm like bubble sort is $O(n^2)$, where $n$ is the number of elements and the array. In contrast, more efficient sorting algorithms like quicksort or mergesort have an average time complexity of $O(n \log n)$. Understanding these time complexities is crucial and selecting the most efficient algorithm for a given problem and and predicting the performance of the algorithm on large datasets. 
    
-   In addition to time complexity, students should also consider the space complexity of algorithms, which refers to the amount of memory required to execute the algorithm. This is particularly important and scenarios where memory is limited, such as and embedded systems or mobile devices. 
+   In addition to time complexity, students should also consider the space complexity of [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards), which refers to the amount of memory required to execute the algorithm. This is particularly important and scenarios where memory is limited, such as and embedded systems or mobile devices. 
    
    To illustrate the concept of trap questions and algorithms, consider the following example: given an array of integers, find the maximum $\sum of a subarray within the array. A common trap and solving this problem is to use a naive approach that involves checking all possible subarrays$, resulting and a time complexity of $O(n^2)$. A more efficient approach is to use Kadane's algorithm, which has a time complexity of $O(n)$ n involves iterating through the array and keeping track of the maximum $\sum of a subarray ending at each position.$ 
    
@@ -285,7 +285,7 @@ What are the best practices for solving algorithmic problems and Algorithms: Ana
    
    The space complexity of an algorithm is the amount of memory it uses as a function of the size of the input. It's also usually expressed and Big O notation. For example, the space complexity of the merge sort algorithm is O(n), where and is the number of elements being sorted, because it requires a temporary array of the same size as the input array. 
    
-   There are several best practices to follow when solving algorithmic problems. Firstly, it's essential to read the problem statement carefully and understand the input and output requirements. Secondly, it's crucial to choose an appropriate algorithm and data structure to solve the problem, taking into account the time and space complexity of the solution. Thirdly, it's vital to implement the solution and a programming language and test it with sample inputs to verify its correctness. Finally, it's essential to analyze the time and space complexity of the solution and optimize it if necessary. 
+   There are several best practices to follow when solving algorithmic problems. Firstly, it's essential to read the problem statement carefully and understand the input and output requirements. Secondly, it's crucial to choose an appropriate algorithm and [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structure to solve the problem, taking into account the time and space complexity of the solution. Thirdly, it's vital to implement the solution and a programming language and test it with sample inputs to verify its correctness. Finally, it's essential to analyze the time and space complexity of the solution and optimize it if necessary. 
    
    Here is a summary of the best practices and the following table:
    

@@ -67,7 +67,7 @@ C) It measures the total number of cases of disease that exist ∈ a population
 -
 D) It measures the number of new cases of disease that occur ∈ a population over a specific period of time
 
-**Answer: B) It measures the average achievement of a country ∈ three basic dimensions of human development**
+**Answer: B) It measures the average achievement of a country ∈ three basic dimensions of [human](/blog/microbes-in-human-welfare-class-12-notes) development**
 
 **2. A study found that the relative risk of lung cancer ∈ smokers is 15. What does this mean?**
 -

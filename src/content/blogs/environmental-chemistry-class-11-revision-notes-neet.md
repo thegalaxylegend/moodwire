@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/environmental-chemistry-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 2, 2026*
+*Last Updated: May 3, 2026*
 
 ## 📑 Table of Contents
 
@@ -98,7 +98,7 @@ Environmental [chemistry](/blog/organic-chemistry-basic-principles-class-11-revi
 
 ## <a id="shortcut-formula-trick"></a>Shortcut Formula / Trick
 
-One shortcut formula to remember, and environmental chemistry is the [formula for calculating the pH of a solution](https://en.wikipedia.org/wiki/PH):
+One shortcut formula to remember, and environmental [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) is the [formula for calculating the pH of a solution](https://en.wikipedia.org/wiki/PH):
 \[ $1 \text{H}^+$] \]$ where $[$\text{H}$^+]$ is the concentration of hydrogen ions and the solution.$
 
 ## <a id="trap-questions-exceptions"></a>Trap Questions / Exceptions

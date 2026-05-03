@@ -38,7 +38,7 @@ manualReview: false
   Step 1: Calculate the power of the convex lens
   Step 2: Calculate the power of the concave lens
   Step 3: Calculate the power of the combination
-- A light ray is incident on a glass slab at an angle of 30°. If the refractive index of glass is 1.5, find the angle of refraction.
+- A [light](/blog/physics-heat-light-class-11-revision-notes-jee-neet) ray is incident on a glass slab at an angle of 30°. If the refractive index of glass is 1.5, find the angle of refraction.
   Step 1: Calculate the angle of refraction using Snell's law
   Step 2: Calculate the refractive index of the glass
   Step 3: Calculate the angle of refraction

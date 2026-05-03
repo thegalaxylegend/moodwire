@@ -39,7 +39,7 @@ manualReview: false
   Step 2: Plug ∈ the values and solve for I
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students get the concept of depletion region and space charge wrong. The depletion region is the region near the p-n junction where the electrons and holes are depleted, creating a space charge that opposes the flow of current. The width of the depletion region can be calculated using the formula W = √(2ε₀εᵣV/d)
+- Most students get the concept of depletion region and space charge wrong. The depletion region is the region near the p-n junction where the electrons and holes are depleted, creating a space charge that opposes the flow of [current](/blog/magnetic-effects-of-current-class-12-notes). The width of the depletion region can be calculated using the formula W = √(2ε₀εᵣV/d)
 
 ## 👁️ Ayush's Note
 - To solve problems related to semiconductors, first identify the type of problem and the relevant formulas. Then, plug ∈ the values and solve for the unknown quantity. Make sure to check the units and dimensions of the quantities involved.

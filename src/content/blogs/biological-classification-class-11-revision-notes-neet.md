@@ -61,7 +61,7 @@ To prepare for the CBSE 2026 exam, students should:
 - Review key concepts and terminology in biological [classification](/blog/classification-of-elements-class-11-revision-notes-jee-neet).
 - Practice identifying and naming species using binomial nomenclature.
 - Study the characteristics of each taxonomic category.
-- Use hierarchical diagrams to visualize the classification system.
+- Use hierarchical diagrams to visualize the [classification](/blog/classification-of-elements-class-11-revision-notes-jee-neet) system.
 - Focus on understanding the evolutionary relationships between organisms.
 
 By mastering biological classification, students will gain a deeper understanding of the diversity of life on Earth and be well-prepared for the CBSE 2026 exam.

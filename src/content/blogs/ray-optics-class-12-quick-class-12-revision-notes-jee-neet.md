@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/ray-optics-class-12-quick-class-12-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 2, 2026*
+*Last Updated: May 3, 2026*
 
 ## 📑 Table of Contents
 
@@ -172,7 +172,7 @@ Now, let's review [some](/blog/some-basic-concepts-of-chemistry-class-11-revisio
 
 By using LaTeX to format the equations, we can clearly visualize the mathematical relationships between the variables.
 
-As we finish our review of ray optics, remember to stay confident and focused. With a solid understanding of the concepts and formulae, you can tackle any challenge that comes your way.
+As we finish our review of ray optics, remember to stay confident and focused. With a solid understanding of the [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) and formulae, you can tackle any challenge that comes your way.
 
 Here's a final summary of the key points:
 

@@ -51,7 +51,7 @@ manualReview: false
 - Not using the correct units for the [magnetic](/blog/magnetic-effects-of-electric-current-class-10-notes) field and other related quantities
 
 ## ✏️ 3 Solved PYQs
-- A current of 5A is flowing ∈ a wire of length 2m, the magnetic field at a distance of 0.1m from the wire is
+- A current of 5A is flowing ∈ a wire of length 2m, the [magnetic](/blog/magnetic-effects-of-electric-current-class-10-notes) field at a distance of 0.1m from the wire is
 - B = μ₀I/(2πr) = (4π × 10⁻⁷ × 5)/(2π × 0.1) = 10⁻⁵ T
 - A coil of 100 turns, each of area 0.1m², is placed ∈ a magnetic field of 0.1T, the flux through the coil is
 - Φ = BA cosθ = 0.1 × 0.1 × cos0° = 0.01 Wb

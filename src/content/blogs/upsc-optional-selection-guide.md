@@ -136,7 +136,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
 
 - 📖 [Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes)
 - 📖 [Amines Class 12 Exam Prep Revision — Grandmaster Guide](/blog/amines-class-12-notes)

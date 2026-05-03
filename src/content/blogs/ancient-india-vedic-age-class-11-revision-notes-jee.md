@@ -143,7 +143,7 @@ The Vedic Age saw significant economic developments, including the introduction 
 - **Key Events:** Aryan migration, composition of the Vedas, development of the varna system, introduction of the iron plow, emergence of trade networks.
 - **Significance:** laid the foundation for Hinduism, Indian society, and governance.
 - **Important Concepts:** Vedas, Upanishads, varna system, dharma, tribal kingdoms and republics.
-- **Remember:** The Vedic Age is distinct from the Ancient Indian Period, and understanding its unique characteristics is crucial for a comprehensive grasp of Indian history.
+- **Remember:** The Vedic Age is distinct from the [Ancient](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) Indian Period, and understanding its unique characteristics is crucial for a comprehensive grasp of Indian history.
 
 ## 🪤 The 5 Mistakes That Cost Marks
 

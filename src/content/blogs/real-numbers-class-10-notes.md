@@ -42,7 +42,7 @@ manualReview: false
 
 ## 🧠 The One Thing Most Students Get Wrong
 - Many students get confused between the concepts of HCF and LCM and are not able to apply them correctly to solve problems
-- They often struggle to find the prime factorization of numbers and to calculate the HCF and LCM using the prime factorization
+- They often struggle to find the prime factorization of [numbers](/blog/rational-numbers-class-8-notes) and to calculate the HCF and LCM using the prime factorization
 - It is essential to practice solving problems involving HCF and LCM to become proficient ∈ these concepts
 
 ## 👁️ Ayush's Note

@@ -45,7 +45,7 @@ This formula gives us the number of ways to choose $r$ objects from a set of $n$
 
 ## Practice Problems and Solutions
 To master [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) and combinations, it's essential to practice solving problems. Here are a few examples:
-1. **Permutation Problem**: Find the number of permutations of the letters A, B, C, and D.
+1. **Permutation Problem**: Find the number of [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) of the letters A, B, C, and D.
  - **Solution**: Using the permutation formula $P(n, r) = \frac{n!}{(n-r)!}$, where $n = 4$ and $r = 4$, we get $P(4, 4) = \frac{4!}{(4-4)!} = 4! = 24$.
 2. **Combination Problem**: Find the number of combinations of 5 objects taken 3 at a time.
  - **Solution**: Using the combination formula $C(n, r) = \frac{n!}{r!(n-r)!}$, where $n = 5$ and $r = 3$, we get $C(5, 3) = \frac{5!}{3!(5-3)!} = \frac{5 \times 4 \times 3}{3 \times 2 \times 1} = 10$.

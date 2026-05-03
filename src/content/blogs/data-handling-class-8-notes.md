@@ -76,7 +76,7 @@ D) 10
 
 **Answer: B) 6. Explanation: Arrange the data ∈ ascending order: 2, 4, 6, 8, 10. Find the middle value: 6**
 
-**3. What is the mode of the numbers 1, 1, 2, 2, 2, 3, 3, 3, 3?**
+**3. What is the mode of the [numbers](/blog/rational-numbers-class-8-notes) 1, 1, 2, 2, 2, 3, 3, 3, 3?**
 -
 A) 1
 -
