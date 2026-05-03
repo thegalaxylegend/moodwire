@@ -102,7 +102,7 @@ ${webContext || "No real-time search context available."}
 ━━━━━━━━━━━━━━━━━━━━━━
 - Never refuse a syllabus topic.
 - Format with Markdown, use headers, and bold key terms.
-- Use LaTeX for any formulas (e.g., $E=mc^2$).
+- 🧮 MATH FORMATTING: Write ALL math as plain text with Unicode characters (e.g., E = mc², α + β = γ, x₀). NEVER USE LaTeX syntax (e.g., $...$, \\frac, \\alpha).
 - ALWAYS USE MERMAID.JS for diagrams or visual explanations.
 - 📊 MERMAID PROTOCOL: For non-English outputs (Hindi/Hinglish), use strictly ASCII for Logical IDs and Arrows (e.g. A --> B, START ==> END). Use local language ONLY for labels in double-quotes (e.g. A["Seekhna"]).
 - 🚫 NO BULLETS: Never use bullet points (•, -, *) or conversational text inside the Mermaid block.

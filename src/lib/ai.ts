@@ -89,7 +89,7 @@ export const askAI = async (
     });
 
     if (isVoiceContext) {
-        systemPersona += `\nVOICE MODE: Be concise. Avoid long lists. Speak LaTeX as plain English.`;
+        systemPersona += `\nVOICE MODE: Be concise. Avoid long lists. Speak math symbols and Greek letters clearly in plain English.`;
     }
 
     const fullMessages = [

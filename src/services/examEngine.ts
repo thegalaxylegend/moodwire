@@ -79,6 +79,12 @@ export const generateTest = async (
     4. REVIEWER PERSONA:
        - Act as a strict exam setter. REJECT any question that looks too simple or "school level".
        - If you generate a Class 9 question for JEE, you FAIL.
+    5. MATH FORMATTING (CRITICAL — USE UNICODE, NOT LATEX):
+       - Write ALL math as plain text with Unicode characters.
+       - Superscripts/Subscripts: x², a₀, etc.
+       - Greek letters: α, β, γ, Δ, Ω, etc.
+       - Math operators: ×, ÷, ±, √, ∞, ≈, ≤
+       - NEVER USE LaTeX syntax (e.g., $...$, \\frac, \\alpha).
 
     RULES:
     ${rules}

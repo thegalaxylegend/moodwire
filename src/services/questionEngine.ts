@@ -176,6 +176,13 @@ REJECT for:
 4. Stated answer is NOT present in the options list or lacks units
 5. Nuclear/Chemical reactions violate conservation laws
 
+═══ MATH FORMATTING (CRITICAL — USE UNICODE, NOT LATEX) ═══
+If you output "fixed_data", you MUST use plain text with Unicode characters for all math.
+- Superscripts/Subscripts: x², a₀
+- Greek letters: α, β, γ, Δ, Ω, etc.
+- Math operators: ×, ÷, ±, √, ∞, ≈, ≤
+- NEVER USE LaTeX syntax (e.g., $...$, \\frac, \\alpha).
+
 ═══ DECISION ═══
 - APPROVED: Your Step 1 numerical answer matches the stated answer (within 5%)
 - REFIXED: Math is correct but stated answer had a minor error. Fix it in "fixed_data"
@@ -426,9 +433,17 @@ If they don't match, YOUR OUTPUT IS INVALID and will be rejected.
 ═══ JSON SAFETY RULES (CRITICAL) ═══
 - All string values MUST use straight double quotes, no curly quotes
 - Do NOT use fractions like 1/3, 8/3 in string values — use decimals: 0.333, 2.667
-- Do NOT use special Unicode characters like √, π in JSON string values — write sqrt(), pi
-- Escape any backslashes in LaTeX: use \\frac not \frac
 - final_numerical_value MUST be a decimal number, NOT a fraction or expression
+
+═══ MATH FORMATTING (CRITICAL — USE UNICODE, NOT LATEX) ═══
+Write ALL math as plain text with Unicode characters. This is MANDATORY.
+- Superscripts: use ² ³ ⁴ ⁿ ˣ ʸ (e.g., x², r³, aⁿ)
+- Subscripts: use ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ₙ ₖ ₓ (e.g., a₀, xₙ, Tₖ)
+- Greek letters: use α β γ δ ε θ λ μ π σ φ ω Δ Σ Ω
+- Math operators: use × ÷ ± ∓ · √ ∑ ∫ ∞ ≠ ≈ ≡ ≤ ≥ → ⇒ ∈ ∝ ⊥ ∥ ∠ °
+- Fractions: write as a/b or (numerator)/(denominator)
+- Combinations: write as ⁿCᵣ or ⁿCₖ
+- NEVER USE LaTeX syntax (e.g., $...$, \\frac, \\alpha).
 
 ═══ OUTPUT FORMAT (JSON ONLY) ═══
 {
