@@ -568,10 +568,12 @@ function safelyParseJson(raw: string): any {
 }
 
 export async function callLlmWithFallback(system: string, user: string, isJson: boolean = false): Promise<string | null> {
-    const isMetadata = user.includes("SEO") || user.includes("slug") || user.includes("recall");
+    // MCQ + Quick Recall prompts contain "recall" but are NOT metadata — they need real generation power
+    const isMCQGeneration = user.includes("MCQ") || user.includes("HIGH-YIELD");
+    const isMetadata = !isMCQGeneration && (user.includes("SEO") || user.includes("slug"));
     const isHardScience = user.includes("Physics") || user.includes("Chemistry") || user.includes("Math") || user.includes("Formula");
     
-    // Tiered Target Selection
+    // Tiered Target Selection: MCQs need T3 (medium models), not T5 (smallest)
     let tier: TaskTier = isMetadata ? 'T5' : (isHardScience ? 'T2' : 'T3');
 
     try {
