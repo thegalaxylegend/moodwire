@@ -212,16 +212,20 @@ class NodeRouter {
                 return 'skip_key';
 
             case 'RATE_LIMIT': {
-                // Parse Retry-After from error headers if available, else use backoff
+                // Parse Retry-After from error headers if available, else use a short fixed wait.
+                // We do NOT sleep long here — we mark the key/model as rate-limited and
+                // immediately rotate to the next key. The cooldown prevents re-selecting this
+                // key/model combo until it recovers. If no other keys are available, the full
+                // waterfall exhaustion path will handle the longer backoff sleep.
                 const retryAfterSec: number = err?.headers?.['retry-after']
                     ? parseInt(err.headers['retry-after'], 10)
-                    : (attempt + 1) * 10; // 10s, 20s, 30s ...
-                const cooldownMs = Math.min(retryAfterSec * 1000, 60_000);
+                    : 60; // Mark key as blocked for 60s, but move on immediately
+                const cooldownMs = Math.min(retryAfterSec * 1000, 120_000);
                 console.warn(`⏳ ${tag} Rate-limited (429). Cooling ${(cooldownMs / 1000).toFixed(0)}s.`);
                 // Use per-MODEL rate-limit key so gemma-4 isn't blocked when gemini-flash is rate-limited
                 const rateLimitKey = `${modelId}_${pKey}`;
                 this.rateLimitedUntil.set(rateLimitKey, Date.now() + cooldownMs);
-                await sleep(2000); // brief wait before trying next key
+                await sleep(500); // minimal wait — rotate to next key/model immediately
                 return 'skip_key';
             }
 
