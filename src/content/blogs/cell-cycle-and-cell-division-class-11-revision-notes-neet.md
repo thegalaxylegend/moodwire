@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/cell-cycle-n-cell-division-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 3, 2026*
+*Last Updated: May 5, 2026*
 
 ## 📑 Table of Contents
 
@@ -134,7 +134,7 @@ Answer: c) To separate the chromosomes
 a) Uncontrolled [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) growth
 b) Controlled [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) growth
 c) Normal [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division
-d) Abnormal cell death
+d) Abnormal [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) death
 Answer: a) Uncontrolled cell growth
 
 ## <a id="related-notes-links"></a>Related Notes Links

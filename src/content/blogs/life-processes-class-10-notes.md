@@ -64,7 +64,7 @@ D) Water
 
 **Answer: B) Oxygen is the by-product of photosynthesis.**
 
-**2. Which part of the human bra∈ controls breathing:**
+**2. Which part of the [human](/blog/human-eye-and-colourful-world-class-10-notes) bra∈ controls breathing:**
 -
 A) Cerebrum
 -

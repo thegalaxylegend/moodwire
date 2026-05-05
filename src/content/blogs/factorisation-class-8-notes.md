@@ -37,7 +37,7 @@ manualReview: false
   Step 2: So we can write: 9x² + 12x + 4 = (3x)² + 2(3x)(2) + 2² = (3x + 2)²
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students get wrong the factorisation of quadratic expressions ∈ the form of ax² + bx + c, where a ≠ 1
+- Most students get wrong the factorisation of quadratic [expressions](/blog/algebraic-expressions-class-8-notes) ∈ the form of ax² + bx + c, where a ≠ 1
 - They try to factorise it by finding two numbers whose product is c and sum is b
 - However, this method only works when a = 1
 - When a ≠ 1, we need to use other methods such as splitting the middle term or using the quadratic formula

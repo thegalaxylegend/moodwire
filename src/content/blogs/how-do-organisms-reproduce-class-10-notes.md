@@ -37,7 +37,7 @@ manualReview: false
 - Many students think that [reproduction](/blog/reproduction-in-organisms-class-12-notes) is only about the production of offspring, but it's also about the continuation of a species and the passing on of genetic traits from one generation to the next.
 
 ## 👁️ Ayush's Note
-- To score well ∈ this topic, make sure to understand the different types of reproduction and the processes involved ∈ each. Practice drawing diagrams of the male and female reproductive systems and labeling the different parts. Also, be able to describe the stages of the menstrual cycle and the process of fertilization and embryo development.
+- To score well ∈ this topic, make sure to understand the different types of [reproduction](/blog/reproduction-in-organisms-class-12-notes) and the processes involved ∈ each. Practice drawing diagrams of the male and female reproductive systems and labeling the different parts. Also, be able to describe the stages of the menstrual cycle and the process of fertilization and embryo development.
 
 ## 🔁 Last 5 Minutes Box
 - Revision of key terms: asexual reproduction, sexual reproduction, gametes, fertilization, embryo development

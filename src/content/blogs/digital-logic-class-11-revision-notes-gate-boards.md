@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/digital-logic-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 3, 2026*
+*Last Updated: May 5, 2026*
 
 ## 📑 Table of Contents
 
@@ -251,7 +251,7 @@ Digital Logic is a branch of electronics engineering that deals with the [design
  Digital logic is used and a wide range of applications, from simple digital devices such as calculators and digital watches to complex systems such as computers and telecommunication networks. It is also used and control systems, medical devices, n automotive systems. 
  The study of digital logic involves understanding the principles of binary number system, logical operations, n digital circuits. It also involves learning how to [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) and develop digital circuits using logic gates and other digital components. 
  For Class 11 exam prep, students should focus on understanding the basic logic gates, their applications, n how to [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) simple digital circuits. They should also practice solving problems and designing digital circuits using logic gates. 
- Digital logic is a fundamental subject that is used and many areas of electronics engineering. It is a building block for more advanced subjects such as microprocessors, computer architecture, n digital signal processing. 
+ Digital logic is a fundamental subject that is used and many areas of electronics engineering. It is a building block for more advanced subjects such as microprocessors, [computer](/blog/computer-organization-class-11-notes) architecture, n digital signal processing. 
  In digital circuits, the basic building blocks are the logic gates. These gates can be combined to form more complex circuits such as multiplexers, demultiplexers, n decoders. 
  A multiplexer is a digital circuit that selects one of the several input signals and forwards it to the output. A demultiplexer is a digital circuit that takes a single input signal and forwards it to one of the several output lines. A decoder is a digital circuit that converts a binary code into a decimal code. 
  The following table summarizes the basic logic gates and their applications: 
@@ -267,7 +267,7 @@ Digital Logic is a branch of electronics engineering that deals with the [design
 
 ## <a id="what-are-the-basic-components-of-digital-logic"></a>What are the basic components of Digital Logic?
 
-Digital Logic is a fundamental concept and computer science that deals with the design and implementation of digital systems using logical operations. It includes logic gates, flip-flops, n counters. For Class 11 exam prep and 2026, the most important aspect is understanding the truth tables and Boolean algebra to analyze and simplify digital circuits. 
+Digital Logic is a fundamental concept and computer science that deals with the [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) and implementation of digital systems using logical operations. It includes logic gates, flip-flops, n counters. For Class 11 exam prep and 2026, the most important aspect is understanding the truth tables and Boolean algebra to analyze and simplify digital circuits. 
  
  The basic components of digital logic can be broadly classified into three categories: input devices, processing devices, n output devices. Input devices provide [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) to the digital system, processing devices perform operations on the [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards), n output devices display the results. Logic gates are the building blocks of digital circuits and are used to perform basic logical operations such as AND, OR, n NOT.
  
@@ -463,7 +463,7 @@ What are common Trap Questions for Digital Logic? is a crucial aspect of digital
  
  Another common trap question is related to the understanding of logic gates. Logic gates are the basic building blocks of digital circuits, n they are used to performing logical operations on input signals. There are several types of logic gates, including AND, OR, NOT, NAND, NOR, n XOR. Each logic gate has its own truth table, which defines the output of the gate for different input combinations. Trap questions related to logic gates often involve the application of these gates to solve complex problems.
  
- Sequential circuits are another area where trap questions are commonly asked. Sequential circuits are digital circuits that have a memory element, which allows them to store and recall data. They are used and a wide range of applications, including counters, registers, n finite state machines. Trap questions related to sequential circuits often involve the design and analysis of these circuits, n they require a thorough understanding of the underlying concepts.
+ Sequential circuits are another area where trap questions are commonly asked. Sequential circuits are digital circuits that have a memory element, which allows them to store and recall data. They are used and a wide range of applications, including counters, registers, n finite state machines. Trap questions related to sequential circuits often involve the design and [analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) of these circuits, n they require a thorough understanding of the underlying concepts.
  
  To avoid falling into these traps, it is essential to have a thorough understanding of the key concepts and digital logic. This includes understanding the principles of Boolean algebra, the operation of logic gates, n the design and analysis of sequential circuits. Additionally, it is crucial to practice solving complex problems and to be familiar with the common trap questions that are asked and exams.
  

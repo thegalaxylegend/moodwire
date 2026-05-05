@@ -24,7 +24,7 @@ manualReview: false
 - Not simplifying rational [numbers](/blog/real-numbers-class-10-notes) to their standard form
 - Not finding the LCM while adding or subtracting rational [numbers](/blog/real-numbers-class-10-notes)
 - Not using the distributive property while multiplying rational [numbers](/blog/real-numbers-class-10-notes)
-- Not using the additive inverse while subtracting rational numbers
+- Not using the additive inverse while subtracting rational [numbers](/blog/real-numbers-class-10-notes)
 - Not checking for any common factors between numerator and denominator
 
 ## ✏️ 3 Solved PYQs

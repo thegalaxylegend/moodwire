@@ -48,7 +48,7 @@ There are also several types of [functions](/blog/relations-functions-class-11-r
 ## Applications of Relations and Functions
 [Relations](/blog/relations-functions-class-11-revision-notes-jee-neet) and functions have numerous applications in various fields, including:
 * **Computer Science**: [Relations](/blog/relations-functions-class-11-revision-notes-jee-neet) and functions are used in computer science to model databases, networks, and algorithms.
-* **Physics**: Relations and functions are used in physics to model the behavior of physical systems, such as the motion of objects and the flow of electricity.
+* **Physics**: [Relations](/blog/relations-functions-class-11-revision-notes-jee-neet) and functions are used in physics to model the behavior of physical systems, such as the motion of objects and the flow of electricity.
 * **Economics**: Relations and functions are used in economics to model the behavior of economic systems, such as the supply and demand of goods and services.
 
 ## Conclusion

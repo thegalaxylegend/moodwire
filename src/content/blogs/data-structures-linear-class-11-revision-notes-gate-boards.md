@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/data-structures-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 3, 2026*
+*Last Updated: May 5, 2026*
 
 ## 📑 Table of Contents
 
@@ -282,7 +282,7 @@ In dynamic memory allocation, the memory is allocated using pointers, n the memo
 
 The choice between static and dynamic memory allocation depends on the specific use case and requirements of the program. For example, if the program requires a fixed amount of memory, static memory allocation may be a better choice. However, if the program requires a variable amount of memory, dynamic memory allocation may be a better choice.
 
-In terms of data structures, static memory allocation is suitable for implementing arrays, while dynamic memory allocation is suitable for implementing linked lists. 
+In terms of [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures, static memory allocation is suitable for implementing arrays, while dynamic memory allocation is suitable for implementing linked lists. 
 
 The following table summarizes the key differences between static and dynamic memory allocation:
 

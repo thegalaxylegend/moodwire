@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/environmental-chemistry-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 3, 2026*
+*Last Updated: May 5, 2026*
 
 ## 📑 Table of Contents
 
@@ -103,7 +103,7 @@ One shortcut formula to remember, and environmental [chemistry](/blog/organic-ch
 
 ## <a id="trap-questions-exceptions"></a>Trap Questions / Exceptions
 
-Here are a few trap questions and exceptions to watch out for and environmental chemistry:
+Here are a few trap questions and exceptions to watch out for and environmental [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet):
 * Wrong answer: The main source of air pollution is natural disasters.
 Right answer: The main sources of air pollution are vehicles, industrial activities, n natural disasters.
 Why students get it wrong: Students often underestimate the impact of human activities on the environment and overestimate the impact of natural disasters.

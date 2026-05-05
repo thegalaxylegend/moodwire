@@ -152,7 +152,7 @@ The Vedic Age saw significant economic developments, including the introduction 
 * A common mistake is to confuse the Vedic concept of 'varna' with the later caste system, when in fact varna referred to a more fluid and flexible social hierarchy.
 * Some students mistakenly believe that the Vedic economy was primarily based on trade and commerce, when in fact it was largely pastoral and agricultural.
 * The Vedic Period is often mistakenly seen as a static and unchanging era, when in fact it was a dynamic and evolving period that laid the foundations for later Indian history and culture.
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Ancient%20India%20Vedic%20Age%20Class%2011%20History%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Ancient](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)%20India%20Vedic%20Age%20Class%2011%20History%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

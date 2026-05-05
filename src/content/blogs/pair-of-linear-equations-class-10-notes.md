@@ -16,7 +16,7 @@ manualReview: false
 - The general solution of the equation ax + by = c is given by x = (c - by)/a and y = (c - ax)/b
 - The [equations](/blog/quadratic-equations-class-10-notes) can also be represented graphically, and the point of intersection represents the solution
 - The [equations](/blog/quadratic-equations-class-10-notes) can be solved using cross multiplication: x/(b₁c₂ - b₂c₁) = y/(c₁a₂ - c₂a₁) = 1/(a₁b₂ - a₂b₁)
-- If a₁b₂ - a₂b₁ = 0, then the equations are dependent and have infinitely many solutions
+- If a₁b₂ - a₂b₁ = 0, then the [equations](/blog/quadratic-equations-class-10-notes) are dependent and have infinitely many solutions
 - If a₁b₂ - a₂b₁ ≠ 0, then the equations are independent and have a unique solution
 
 ## 🪤 The 5 Mistakes That Cost Marks

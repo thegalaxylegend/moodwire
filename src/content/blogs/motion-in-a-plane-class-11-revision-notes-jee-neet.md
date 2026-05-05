@@ -125,7 +125,7 @@ D) 3 s
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/motion-in-a-plane-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/[motion](/blog/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet)-in-a-plane-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

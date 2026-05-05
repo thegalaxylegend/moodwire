@@ -77,7 +77,7 @@ D) Abortion is a type of MTP
 
 **Answer: A) Abortion refers to the termination of pregnancy, while MTP refers to the medical termination of pregnancy**
 
-**3. What is the significance of amniocentesis ∈ reproductive health?**
+**3. What is the significance of amniocentesis ∈ reproductive [health](/blog/human-health-and-disease-class-12-notes)?**
 -
 A) It is a contraceptive method
 -

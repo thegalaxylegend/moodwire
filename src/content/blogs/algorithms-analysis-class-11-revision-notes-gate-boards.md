@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/algorithms-analysis-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 3, 2026*
+*Last Updated: May 5, 2026*
 
 ## 📑 Table of Contents
 
@@ -293,7 +293,7 @@ What are the best practices for solving algorithmic problems and Algorithms: Ana
 | Best Practice | Description | Importance |
 | --- | --- | --- |
 | Read the problem statement carefully | Understand the input and output requirements | High |
-| Choose an appropriate algorithm and data structure | Consider the time and space complexity of the solution | High |
+| Choose an appropriate algorithm and [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structure | Consider the time and space complexity of the solution | High |
 | Implement the solution and a programming language | Test the solution with sample inputs to verify its correctness | Medium |
 | Analyze the time and space complexity of the solution | Optimize the solution if necessary | High |
 | Practice solving a wide range of algorithmic problems | Learn from mistakes and analyze the time and space complexity of each solution | High |
@@ -314,7 +314,7 @@ $O(n^2)O(n \log n)O(\log n)$
 
 **Answer:**
 B) Bubble Sort has a worst-case and average time complexity of $O(n^2)$, where and is the number of items being sorted.
-**2. Which of the following sorting algorithms uses a divide-n-conquer approach?**
+**2. Which of the following sorting [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards) uses a divide-n-conquer approach?**
 Merge Sort
 Quick Sort
 Insertion Sort

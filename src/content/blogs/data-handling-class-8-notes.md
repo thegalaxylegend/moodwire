@@ -88,7 +88,7 @@ D) 4
 
 **Answer: C) 3. Explanation: Find the frequency of each value: 1 occurs 2 times, 2 occurs 3 times, 3 occurs 4 times. Find the value with the highest frequency: 3**
 
-**4. What is the range of the numbers 1, 2, 3, 4, 5?**
+**4. What is the range of the [numbers](/blog/rational-numbers-class-8-notes) 1, 2, 3, 4, 5?**
 -
 A) 4
 -

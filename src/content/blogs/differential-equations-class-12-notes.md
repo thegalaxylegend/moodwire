@@ -62,7 +62,7 @@ manualReview: false
   - For separable [variables](/blog/linear-equations-in-two-variables-class-9-notes), separate the [variables](/blog/linear-equations-in-two-variables-class-9-notes) and integrate
   - For homogeneous [equations](/blog/pair-of-linear-equations-class-10-notes), put y = vx and solve
   - For [linear](/blog/pair-of-linear-equations-class-10-notes) equations, use the integrating factor
-  - For exact equations, use the test for exactness and solve
+  - For exact [equations](/blog/pair-of-linear-equations-class-10-notes), use the test for exactness and solve
 - Also, use the following formulas:
   - ∫eⁱˣ dx = eⁱˣ
   - ∫e⁻ˣ dx = -e⁻ˣ

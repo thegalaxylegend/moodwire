@@ -46,7 +46,7 @@ manualReview: false
 - It is essential to practice solving problems involving HCF and LCM to become proficient ∈ these concepts
 
 ## 👁️ Ayush's Note
-- To solve problems involving HCF and LCM, it is crucial to first find the prime factorization of the given numbers
+- To solve problems involving HCF and LCM, it is crucial to first find the prime factorization of the given [numbers](/blog/rational-numbers-class-8-notes)
 - Then, identify the common prime factors to calculate the HCF
 - Use the formula LCM(a, b) = (a × b)/HCF(a, b) to calculate the LCM
 - Practice solving problems involving HCF and LCM to become proficient ∈ these concepts

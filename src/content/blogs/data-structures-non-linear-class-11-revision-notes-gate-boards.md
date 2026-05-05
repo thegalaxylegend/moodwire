@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/data-structures-non-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 3, 2026*
+*Last Updated: May 5, 2026*
 
 ## 📑 Table of Contents
 
@@ -214,7 +214,7 @@ What are common Trap Questions for Data Structures: Non-Linear? is a critical co
    The candidate should also be able to write efficient and effective code to implement these [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards), n should be able to test and debug their code to ensure that it works correctly. The candidate should be able to use programming languages such as C, C++, or Java to implement these [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards), n should be able to use data structures such as arrays, linked lists, or trees to store and retrieve data. The candidate should also be able to use [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) such as sorting and searching to analyze and solve problems related to non-linear data structures. 
    Finally, the candidate should be able to apply non-linear data structures to solve real-world problems, n should be able to analyze the trade-offs between different approaches. For example, the candidate may be asked to design a social network using a graph data structure, or to implement a file system using a tree data structure. The candidate should be able to use non-linear data structures to model complex relationships between objects, n should be able to analyze the trade-offs between different data structures and [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards). The candidate should also be able to write efficient and effective code to implement this approach, n should be able to test and debug their code to ensure that it works correctly.
 
-| Data Structure | Description | Time Complexity | Space Complexity |
+| [Data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) Structure | Description | Time Complexity | Space Complexity |
 | --- | --- | --- | --- |
 | Graph | A non-linear data structure consisting of vertices and edges | $O(n + m)$ | $O(n + m)$ |
 | Tree | A non-linear data structure consisting of nodes and edges | $O(n)$ | $O(n)$ |

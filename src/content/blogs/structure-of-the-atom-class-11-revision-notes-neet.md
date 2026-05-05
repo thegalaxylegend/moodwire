@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/structure-of-the-atom-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 3, 2026*
+*Last Updated: May 5, 2026*
 
 ## 📑 Table of Contents
 
@@ -126,7 +126,7 @@ When preparing for the [Structure](/blog/structure-of-atom-class-11-revision-not
 In the last 5 minutes of the exam, make sure to revise the following key formulas and facts:
 The atomic number ($Z$) is defined as $Z = 	ext{number$ of protons}$.$
 The mass number ($A$) is defined as $A = Z + N$, where $N$ is the number of neutrons.
-The electron configuration of an atom can be determined using the Aufbau principle and the Pauli exclusion principle.
+The electron configuration of an [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet) can be determined using the Aufbau principle and the Pauli exclusion principle.
 The atomic radius ($r$) can be calculated using the formula $r = \frac{n^2}{Z}$, where $n$ is the principal quantum number.
 
 ## 📝 Practice MCQs

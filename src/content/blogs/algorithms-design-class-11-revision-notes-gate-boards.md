@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/algorithms-design-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 3, 2026*
+*Last Updated: May 5, 2026*
 
 ## 📑 Table of Contents
 
@@ -198,7 +198,7 @@ Recursive [Algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-bo
    - Use recursive [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) to solve problems that have a recursive structure, such as tree or graph traversals. 
    - Avoid using recursive [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) for problems that have a large input size, as they can cause a stack overflow. 
    
-   Some common pitfalls to watch out for when implementing recursive algorithms include: 
+   Some common pitfalls to watch out for when implementing recursive [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) include: 
    - Infinite recursion, which occurs when the recursive case does not converge to the base case. 
    - Stack overflow, which occurs when the recursive calls exceed the maximum size of the call stack. 
    - Incorrect base case, which can cause the algorithm to produce incorrect results. 

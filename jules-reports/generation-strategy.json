@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-03T03:54:05.448Z",
+  "lastUpdated": "2026-05-05T04:23:15.689Z",
   "lessonsApplied": 60,
   "adjustments": [
     {
       "rule": "ENFORCE_JSON_REPAIR: Extract JSON between outermost { } before parsing. Strip markdown code fences.",
       "reason": "9 JSON parse failures detected.",
-      "appliedDate": "2026-05-03",
+      "appliedDate": "2026-05-05",
       "impactedSubjects": [
         "All"
       ]
@@ -13,7 +13,7 @@
     {
       "rule": "MIN_WORD_ENFORCEMENT: If any section < 150 words, trigger targeted expansion pass.",
       "reason": "9 thin content failures detected.",
-      "appliedDate": "2026-05-03",
+      "appliedDate": "2026-05-05",
       "impactedSubjects": [
         "All"
       ]
@@ -21,7 +21,7 @@
     {
       "rule": "LATEX_SAFETY: Use \\text{} wrappers for all units. Prefer simple notation over complex LaTeX.",
       "reason": "9 LaTeX rendering failures detected.",
-      "appliedDate": "2026-05-03",
+      "appliedDate": "2026-05-05",
       "impactedSubjects": [
         "Physics",
         "Chemistry",
@@ -31,7 +31,7 @@
     {
       "rule": "MCQ_ISOLATION: Generate MCQs in a separate, dedicated API call with MCQ-specific prompt.",
       "reason": "13 MCQ quality failures detected.",
-      "appliedDate": "2026-05-03",
+      "appliedDate": "2026-05-05",
       "impactedSubjects": [
         "All"
       ]

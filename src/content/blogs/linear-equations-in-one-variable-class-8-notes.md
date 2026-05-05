@@ -40,7 +40,7 @@ manualReview: false
   therefore, the solution is x = 10
 
 ## 🧠 The One Thing Most Students Get Wrong
-- most students get wrong the concept of solving linear equations with variables on both sides
+- most students get wrong the concept of solving linear [equations](/blog/differential-equations-class-12-notes) with variables on both sides
 - for example, the equation 2x + 3 = 5x - 2 can be solved by first adding 2 to both sides, we get 2x + 5 = 5x
 - then, subtract 2x from both sides, we get 5 = 3x
 - finally, divide both sides by 3, we get x = 5/3

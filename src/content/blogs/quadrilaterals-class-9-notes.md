@@ -17,7 +17,7 @@ manualReview: false
 - A quadrilateral with all sides equal and all [angles](/blog/lines-and-angles-class-9-notes) equal is called a square.
 - Diagonals of a rectangle bisect each other and are equal ∈ length.
 - Diagonals of a rhombus bisect each other at right [angles](/blog/lines-and-angles-class-9-notes).
-- Diagonals of a square bisect each other at right angles and are equal ∈ length.
+- Diagonals of a square bisect each other at right [angles](/blog/lines-and-angles-class-9-notes) and are equal ∈ length.
 - Area of a quadrilateral = (1/2) × d₁ × d₂, where d₁ and d₂ are the lengths of the diagonals
 - Area of a quadrilateral = (1/2) × (sum of the products of the adjacent sides and the sines of the included angles)
 

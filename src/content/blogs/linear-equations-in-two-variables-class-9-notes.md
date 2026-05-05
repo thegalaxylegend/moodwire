@@ -45,7 +45,7 @@ manualReview: false
 ## 👁️ Ayush's Note
 - Make sure to practice solving systems of linear [equations](/blog/differential-equations-class-12-notes) using substitution and elimination methods.
 - Always check your solution by plugging it back into the original equation.
-- Use the slope-intercept form of a linear equation to easily identify the slope and y-intercept.
+- Use the slope-intercept form of a [linear](/blog/linear-programming-class-12-notes) equation to easily identify the slope and y-intercept.
 - Be careful when finding the equation of a line given two points, as the slope must be calculated correctly.
 
 ## 🔁 Last 5 Minutes Box

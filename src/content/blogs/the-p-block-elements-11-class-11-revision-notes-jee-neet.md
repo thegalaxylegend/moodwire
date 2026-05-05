@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/the-p-block-elements-11-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 3, 2026*
+*Last Updated: May 5, 2026*
 
 ## 📑 Table of Contents
 
@@ -192,7 +192,7 @@ Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-n
 
 ### P Block Elements Revision Notes
    * **Group 13 [Elements](/blog/the-s-block-elements-class-11-revision-notes-jee-neet)**: Boron group, electronic configuration: **ns²np¹**
-   * **Group 14 Elements**: Carbon group, electronic configuration: **ns²np²**
+   * **Group 14 [Elements](/blog/the-s-block-elements-class-11-revision-notes-jee-neet)**: Carbon group, electronic configuration: **ns²np²**
    * **Group 15 Elements**: Nitrogen group, electronic configuration: **ns²np³**
    * **Group 16 Elements**: Chalcogens, electronic configuration: **ns²np⁴**
    * **Group 17 Elements**: Halogens, electronic configuration: **ns²np⁵**

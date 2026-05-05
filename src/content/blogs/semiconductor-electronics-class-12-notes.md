@@ -47,7 +47,7 @@ manualReview: false
 ## 🔁 Last 5 Minutes Box
 - Quickly revise the formulas for conductivity, mobility, and built-∈ potential
 - Make sure to remember the difference between intrinsic and extrinsic semiconductors
-- Go through the derivation of the formula for diode current and voltage
+- Go through the derivation of the formula for diode [current](/blog/magnetic-effects-of-current-class-12-notes) and voltage
 - Check the units and dimensions of the quantities involved ∈ the problems
 
 ## 📝 Practice MCQs

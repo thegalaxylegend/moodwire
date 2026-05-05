@@ -11,13 +11,85 @@ export interface Blog {
 
 export const blogs: Blog[] = [
     {
+        "id": "anatomy-of-flowering-plants-class-11-revision-notes-neet",
+        "title": "anatomy of flowering plants class 11 revision notes neet Class 11 Exam Notes Revision — Grandmaster Guide",
+        "description": "anatomy of flowering plants class 11 revision notes neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-05-05.",
+        "category": "Exam Notes",
+        "date": "2026-05-05",
+        "readTime": "15 min read",
+        "image": "/blog-images/anatomy-of-flowering-plants-class-11-revision-notes-neet.webp"
+    },
+    {
+        "id": "poverty-unemployment-class-11-revision-notes-jee-neet",
+        "title": "poverty unemployment class 11 revision notes jee neet Class 11 Exam Notes Revision — Grandmaster Guide",
+        "description": "poverty unemployment class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-05-05.",
+        "category": "Exam Notes",
+        "date": "2026-05-05",
+        "readTime": "15 min read",
+        "image": "/blog-images/poverty-unemployment-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "physics-mechanics-class-11-revision-notes-jee-neet",
+        "title": "physics mechanics class 11 revision notes jee neet Class 11 Exam Notes Revision — Grandmaster Guide",
+        "description": "physics mechanics class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-05-05.",
+        "category": "Exam Notes",
+        "date": "2026-05-05",
+        "readTime": "15 min read",
+        "image": "/blog-images/physics-mechanics-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "physics-heat-light-class-11-revision-notes-jee-neet",
+        "title": "physics heat light class 11 revision notes jee neet Class 11 Exam Notes Revision — Grandmaster Guide",
+        "description": "physics heat light class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-05-05.",
+        "category": "Exam Notes",
+        "date": "2026-05-05",
+        "readTime": "15 min read",
+        "image": "/blog-images/physics-heat-light-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "local-government-class-11-revision-notes-cbse",
+        "title": "local government class 11 revision notes cbse Class 11 Exam Notes Revision — Grandmaster Guide",
+        "description": "local government class 11 revision notes cbse Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-05-05.",
+        "category": "Exam Notes",
+        "date": "2026-05-05",
+        "readTime": "15 min read",
+        "image": "/blog-images/local-government-class-11-revision-notes-cbse.webp"
+    },
+    {
         "id": "trigonometric-functions-class-11-revision-notes-jee-neet",
         "title": "trigonometric functions class 11 revision notes jee neet Class 11 Exam Notes Revision — Grandmaster Guide",
-        "description": "trigonometric functions class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-05-01.",
+        "description": "trigonometric functions class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-05-05.",
         "category": "Exam Notes",
-        "date": "2026-05-01",
+        "date": "2026-05-05",
         "readTime": "15 min read",
         "image": "/blog-images/trigonometric-functions-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "lifelines-of-national-economy-class-10-notes",
+        "title": "Lifelines of National Economy Class 10 Social Science Recap — Grandmaster Guide",
+        "description": "Lifelines of National Economy Class 10 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-05.",
+        "category": "Exam Notes",
+        "date": "2026-05-05",
+        "readTime": "15 min read",
+        "image": "/blog-images/lifelines-of-national-economy-class-10-notes.webp"
+    },
+    {
+        "id": "manufacturing-industries-class-10-notes",
+        "title": "Manufacturing Industries Class 10 Social Science Recap — Grandmaster Guide",
+        "description": "Manufacturing Industries Class 10 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-05.",
+        "category": "Exam Notes",
+        "date": "2026-05-05",
+        "readTime": "15 min read",
+        "image": "/blog-images/manufacturing-industries-class-10-notes.webp"
+    },
+    {
+        "id": "minerals-and-energy-resources-class-10-notes",
+        "title": "Minerals and Energy Resources Class 10 Social Science Recap — Grandmaster Guide",
+        "description": "Minerals and Energy Resources Class 10 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-05.",
+        "category": "Exam Notes",
+        "date": "2026-05-05",
+        "readTime": "15 min read",
+        "image": "/blog-images/minerals-and-energy-resources-class-10-notes.webp"
     },
     {
         "id": "water-resources-class-10-notes",
@@ -38,42 +110,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/resources-and-development-class-10-notes.webp"
     },
     {
-        "id": "physics-heat-light-class-11-revision-notes-jee-neet",
-        "title": "physics heat light class 11 revision notes jee neet Class 11 Exam Notes Revision — Grandmaster Guide",
-        "description": "physics heat light class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-05-01.",
-        "category": "Exam Notes",
-        "date": "2026-05-01",
-        "readTime": "15 min read",
-        "image": "/blog-images/physics-heat-light-class-11-revision-notes-jee-neet.webp"
-    },
-    {
-        "id": "physics-mechanics-class-11-revision-notes-jee-neet",
-        "title": "physics mechanics class 11 revision notes jee neet Class 11 Exam Notes Revision — Grandmaster Guide",
-        "description": "physics mechanics class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-05-01.",
-        "category": "Exam Notes",
-        "date": "2026-05-01",
-        "readTime": "15 min read",
-        "image": "/blog-images/physics-mechanics-class-11-revision-notes-jee-neet.webp"
-    },
-    {
-        "id": "poverty-unemployment-class-11-revision-notes-jee-neet",
-        "title": "poverty unemployment class 11 revision notes jee neet Class 11 Exam Notes Revision — Grandmaster Guide",
-        "description": "poverty unemployment class 11 revision notes jee neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-05-01.",
-        "category": "Exam Notes",
-        "date": "2026-05-01",
-        "readTime": "15 min read",
-        "image": "/blog-images/poverty-unemployment-class-11-revision-notes-jee-neet.webp"
-    },
-    {
-        "id": "local-government-class-11-revision-notes-cbse",
-        "title": "local government class 11 revision notes cbse Class 11 Exam Notes Revision — Grandmaster Guide",
-        "description": "local government class 11 revision notes cbse Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-05-01.",
-        "category": "Exam Notes",
-        "date": "2026-05-01",
-        "readTime": "15 min read",
-        "image": "/blog-images/local-government-class-11-revision-notes-cbse.webp"
-    },
-    {
         "id": "forest-and-wildlife-resources-class-10-notes",
         "title": "Forest and Wildlife Resources Class 10 Social Science Recap — Grandmaster Guide",
         "description": "Forest and Wildlife Resources Class 10 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-01.",
@@ -81,15 +117,6 @@ export const blogs: Blog[] = [
         "date": "2026-05-01",
         "readTime": "15 min read",
         "image": "/blog-images/forest-and-wildlife-resources-class-10-notes.webp"
-    },
-    {
-        "id": "anatomy-of-flowering-plants-class-11-revision-notes-neet",
-        "title": "anatomy of flowering plants class 11 revision notes neet Class 11 Exam Notes Revision — Grandmaster Guide",
-        "description": "anatomy of flowering plants class 11 revision notes neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-05-01.",
-        "category": "Exam Notes",
-        "date": "2026-05-01",
-        "readTime": "15 min read",
-        "image": "/blog-images/anatomy-of-flowering-plants-class-11-revision-notes-neet.webp"
     },
     {
         "id": "the-age-of-industrialisation-class-10-notes",
@@ -272,6 +299,15 @@ export const blogs: Blog[] = [
         "image": "/blog-images/acids-bases-and-salts-class-10-notes.webp"
     },
     {
+        "id": "theory-of-computation-class-12-notes",
+        "title": "Theory Of Computation Class 12 Exam Prep Revision — Grandmaster Guide",
+        "description": "Theory Of Computation Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "category": "Exam Notes",
+        "date": "2026-04-20",
+        "readTime": "15 min read",
+        "image": "/blog-images/theory-of-computation-class-12-notes.webp"
+    },
+    {
         "id": "triangles-class-10-notes",
         "title": "Triangles Class 10 Exam Prep Revision — Grandmaster Guide",
         "description": "Triangles Class 10 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
@@ -308,6 +344,15 @@ export const blogs: Blog[] = [
         "image": "/blog-images/wave-optics-class-12-notes.webp"
     },
     {
+        "id": "squares-and-square-roots-class-8-notes",
+        "title": "Squares And Square Roots 8 Class 8 Exam Prep Revision — Grandmaster Guide",
+        "description": "Squares And Square Roots 8 Class 8 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "category": "Exam Notes",
+        "date": "2026-04-20",
+        "readTime": "15 min read",
+        "image": "/blog-images/squares-and-square-roots-class-8-notes.webp"
+    },
+    {
         "id": "strategies-for-enhancement-in-food-production-class-12-notes",
         "title": "Strategies For Enhancement In Food Production Class 12 Exam Prep Revision — Grandmaster Guide",
         "description": "Strategies For Enhancement In Food Production Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
@@ -326,13 +371,22 @@ export const blogs: Blog[] = [
         "image": "/blog-images/surface-chemistry-class-12-notes.webp"
     },
     {
-        "id": "theory-of-computation-class-12-notes",
-        "title": "Theory Of Computation Class 12 Exam Prep Revision — Grandmaster Guide",
-        "description": "Theory Of Computation Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "id": "reproduction-in-organisms-class-12-notes",
+        "title": "Reproduction In Organisms Class 12 Exam Prep Revision — Grandmaster Guide",
+        "description": "Reproduction In Organisms Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
         "category": "Exam Notes",
         "date": "2026-04-20",
         "readTime": "15 min read",
-        "image": "/blog-images/theory-of-computation-class-12-notes.webp"
+        "image": "/blog-images/reproduction-in-organisms-class-12-notes.webp"
+    },
+    {
+        "id": "reproductive-health-class-12-notes",
+        "title": "Reproductive Health Class 12 Exam Prep Revision — Grandmaster Guide",
+        "description": "Reproductive Health Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "category": "Exam Notes",
+        "date": "2026-04-20",
+        "readTime": "15 min read",
+        "image": "/blog-images/reproductive-health-class-12-notes.webp"
     },
     {
         "id": "semiconductor-electronics-class-12-notes",
@@ -371,13 +425,13 @@ export const blogs: Blog[] = [
         "image": "/blog-images/solutions-class-12-notes.webp"
     },
     {
-        "id": "squares-and-square-roots-class-8-notes",
-        "title": "Squares And Square Roots 8 Class 8 Exam Prep Revision — Grandmaster Guide",
-        "description": "Squares And Square Roots 8 Class 8 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "id": "principles-of-inheritance-and-variation-class-12-notes",
+        "title": "Principles Of Inheritance And Variation Class 12 Exam Prep Revision — Grandmaster Guide",
+        "description": "Principles Of Inheritance And Variation Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
         "category": "Exam Notes",
         "date": "2026-04-20",
         "readTime": "15 min read",
-        "image": "/blog-images/squares-and-square-roots-class-8-notes.webp"
+        "image": "/blog-images/principles-of-inheritance-and-variation-class-12-notes.webp"
     },
     {
         "id": "quadratic-equations-class-10-notes",
@@ -416,22 +470,13 @@ export const blogs: Blog[] = [
         "image": "/blog-images/real-numbers-class-10-notes.webp"
     },
     {
-        "id": "reproduction-in-organisms-class-12-notes",
-        "title": "Reproduction In Organisms Class 12 Exam Prep Revision — Grandmaster Guide",
-        "description": "Reproduction In Organisms Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "id": "organisms-and-populations-class-12-notes",
+        "title": "Organisms And Populations Class 12 Exam Prep Revision — Grandmaster Guide",
+        "description": "Organisms And Populations Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
         "category": "Exam Notes",
         "date": "2026-04-20",
         "readTime": "15 min read",
-        "image": "/blog-images/reproduction-in-organisms-class-12-notes.webp"
-    },
-    {
-        "id": "reproductive-health-class-12-notes",
-        "title": "Reproductive Health Class 12 Exam Prep Revision — Grandmaster Guide",
-        "description": "Reproductive Health Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
-        "category": "Exam Notes",
-        "date": "2026-04-20",
-        "readTime": "15 min read",
-        "image": "/blog-images/reproductive-health-class-12-notes.webp"
+        "image": "/blog-images/organisms-and-populations-class-12-notes.webp"
     },
     {
         "id": "pair-of-linear-equations-class-10-notes",
@@ -461,13 +506,22 @@ export const blogs: Blog[] = [
         "image": "/blog-images/polynomials-class-10-notes.webp"
     },
     {
-        "id": "principles-of-inheritance-and-variation-class-12-notes",
-        "title": "Principles Of Inheritance And Variation Class 12 Exam Prep Revision — Grandmaster Guide",
-        "description": "Principles Of Inheritance And Variation Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "id": "microbes-in-human-welfare-class-12-notes",
+        "title": "Microbes In Human Welfare Class 12 Exam Prep Revision — Grandmaster Guide",
+        "description": "Microbes In Human Welfare Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
         "category": "Exam Notes",
         "date": "2026-04-20",
         "readTime": "15 min read",
-        "image": "/blog-images/principles-of-inheritance-and-variation-class-12-notes.webp"
+        "image": "/blog-images/microbes-in-human-welfare-class-12-notes.webp"
+    },
+    {
+        "id": "molecular-basis-of-inheritance-class-12-notes",
+        "title": "Molecular Basis Of Inheritance Class 12 Exam Prep Revision — Grandmaster Guide",
+        "description": "Molecular Basis Of Inheritance Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "category": "Exam Notes",
+        "date": "2026-04-20",
+        "readTime": "15 min read",
+        "image": "/blog-images/molecular-basis-of-inheritance-class-12-notes.webp"
     },
     {
         "id": "nuclei-class-12-notes",
@@ -497,15 +551,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/operating-systems-class-12-notes.webp"
     },
     {
-        "id": "organisms-and-populations-class-12-notes",
-        "title": "Organisms And Populations Class 12 Exam Prep Revision — Grandmaster Guide",
-        "description": "Organisms And Populations Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
-        "category": "Exam Notes",
-        "date": "2026-04-20",
-        "readTime": "15 min read",
-        "image": "/blog-images/organisms-and-populations-class-12-notes.webp"
-    },
-    {
         "id": "matrices-class-12-notes",
         "title": "Matrices Class 12 Exam Prep Revision — Grandmaster Guide",
         "description": "Matrices Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
@@ -524,22 +569,13 @@ export const blogs: Blog[] = [
         "image": "/blog-images/metallurgy-class-12-notes.webp"
     },
     {
-        "id": "microbes-in-human-welfare-class-12-notes",
-        "title": "Microbes In Human Welfare Class 12 Exam Prep Revision — Grandmaster Guide",
-        "description": "Microbes In Human Welfare Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "id": "inverse-trigonometric-functions-class-12-notes",
+        "title": "Inverse Trigonometric Functions Class 12 Mathematics Revision — Grandmaster Guide",
+        "description": "Inverse Trigonometric Functions Class 12 Mathematics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
         "category": "Exam Notes",
         "date": "2026-04-20",
         "readTime": "15 min read",
-        "image": "/blog-images/microbes-in-human-welfare-class-12-notes.webp"
-    },
-    {
-        "id": "molecular-basis-of-inheritance-class-12-notes",
-        "title": "Molecular Basis Of Inheritance Class 12 Exam Prep Revision — Grandmaster Guide",
-        "description": "Molecular Basis Of Inheritance Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
-        "category": "Exam Notes",
-        "date": "2026-04-20",
-        "readTime": "15 min read",
-        "image": "/blog-images/molecular-basis-of-inheritance-class-12-notes.webp"
+        "image": "/blog-images/inverse-trigonometric-functions-class-12-notes.webp"
     },
     {
         "id": "linear-equations-in-one-variable-class-8-notes",
@@ -630,15 +666,6 @@ export const blogs: Blog[] = [
         "date": "2026-04-20",
         "readTime": "15 min read",
         "image": "/blog-images/introduction-to-trigonometry-class-10-notes.webp"
-    },
-    {
-        "id": "inverse-trigonometric-functions-class-12-notes",
-        "title": "Inverse Trigonometric Functions Class 12 Mathematics Revision — Grandmaster Guide",
-        "description": "Inverse Trigonometric Functions Class 12 Mathematics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
-        "category": "Exam Notes",
-        "date": "2026-04-20",
-        "readTime": "15 min read",
-        "image": "/blog-images/inverse-trigonometric-functions-class-12-notes.webp"
     },
     {
         "id": "dual-nature-of-radiation-class-12-notes",
@@ -803,33 +830,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/compiler-design-class-12-notes.webp"
     },
     {
-        "id": "aldehydes-ketones-and-carboxylic-acids-class-12-notes",
-        "title": "Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide",
-        "description": "Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
-        "category": "Exam Notes",
-        "date": "2026-04-20",
-        "readTime": "15 min read",
-        "image": "/blog-images/aldehydes-ketones-and-carboxylic-acids-class-12-notes.webp"
-    },
-    {
-        "id": "algebraic-expressions-class-8-notes",
-        "title": "Algebraic Expressions 8 Class 8 Mathematics Revision — Grandmaster Guide",
-        "description": "Algebraic Expressions 8 Class 8 Mathematics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
-        "category": "Exam Notes",
-        "date": "2026-04-20",
-        "readTime": "15 min read",
-        "image": "/blog-images/algebraic-expressions-class-8-notes.webp"
-    },
-    {
-        "id": "amines-class-12-notes",
-        "title": "Amines Class 12 Exam Prep Revision — Grandmaster Guide",
-        "description": "Amines Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
-        "category": "Exam Notes",
-        "date": "2026-04-20",
-        "readTime": "15 min read",
-        "image": "/blog-images/amines-class-12-notes.webp"
-    },
-    {
         "id": "application-of-derivatives-class-12-notes",
         "title": "Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide",
         "description": "Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
@@ -911,6 +911,33 @@ export const blogs: Blog[] = [
         "image": "/blog-images/biotechnology-principles-and-processes-class-12-notes.webp"
     },
     {
+        "id": "aldehydes-ketones-and-carboxylic-acids-class-12-notes",
+        "title": "Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide",
+        "description": "Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "category": "Exam Notes",
+        "date": "2026-04-20",
+        "readTime": "15 min read",
+        "image": "/blog-images/aldehydes-ketones-and-carboxylic-acids-class-12-notes.webp"
+    },
+    {
+        "id": "algebraic-expressions-class-8-notes",
+        "title": "Algebraic Expressions 8 Class 8 Mathematics Revision — Grandmaster Guide",
+        "description": "Algebraic Expressions 8 Class 8 Mathematics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "category": "Exam Notes",
+        "date": "2026-04-20",
+        "readTime": "15 min read",
+        "image": "/blog-images/algebraic-expressions-class-8-notes.webp"
+    },
+    {
+        "id": "amines-class-12-notes",
+        "title": "Amines Class 12 Exam Prep Revision — Grandmaster Guide",
+        "description": "Amines Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "category": "Exam Notes",
+        "date": "2026-04-20",
+        "readTime": "15 min read",
+        "image": "/blog-images/amines-class-12-notes.webp"
+    },
+    {
         "id": "3d-geometry-intro-class-11-revision-notes-jee-neet",
         "title": "3d Geometry Intro Class 11 Mathematics Revision — Grandmaster Guide",
         "description": "3d Geometry Intro Class 11 Mathematics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
@@ -983,15 +1010,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/units-and-measurements-class-11-revision-notes-jee-neet.webp"
     },
     {
-        "id": "transport-in-plants-class-11-revision-notes-neet",
-        "title": "Transport In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Transport In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
-        "category": "Revision",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/transport-in-plants-class-11-revision-notes-neet.webp"
-    },
-    {
         "id": "three-dimensional-geometry-class-11-revision-notes-jee-neet",
         "title": "Three Dimensional Geometry Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
         "description": "Three Dimensional Geometry Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
@@ -999,6 +1017,15 @@ export const blogs: Blog[] = [
         "date": "2026-03-28",
         "readTime": "15 min read",
         "image": "/blog-images/three-dimensional-geometry-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "transport-in-plants-class-11-revision-notes-neet",
+        "title": "Transport In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Transport In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
+        "category": "Revision",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/transport-in-plants-class-11-revision-notes-neet.webp"
     },
     {
         "id": "thermodynamics-class-11-revision-notes-neet",
@@ -1388,15 +1415,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/medieval-india-delhi-sultanate-class-11-revision-notes-cbse.webp"
     },
     {
-        "id": "medieval-india-bhakti-sufi-class-11-revision-notes-cbse",
-        "title": "Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Grandmaster Guide",
-        "description": "Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
-        "category": "Revision",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/medieval-india-bhakti-sufi-class-11-revision-notes-cbse.webp"
-    },
-    {
         "id": "mechanical-properties-of-solids-class-11-revision-notes-jee-neet",
         "title": "Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
         "description": "Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
@@ -1404,6 +1422,15 @@ export const blogs: Blog[] = [
         "date": "2026-03-28",
         "readTime": "15 min read",
         "image": "/blog-images/mechanical-properties-of-solids-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "medieval-india-bhakti-sufi-class-11-revision-notes-cbse",
+        "title": "Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Grandmaster Guide",
+        "description": "Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
+        "category": "Revision",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/medieval-india-bhakti-sufi-class-11-revision-notes-cbse.webp"
     },
     {
         "id": "mathematical-reasoning-class-11-revision-notes-jee-neet",
@@ -1919,6 +1946,15 @@ export const blogs: Blog[] = [
         "image": "/blog-images/motion-in-a-plane-class-11-revision-notes-jee-neet.webp"
     },
     {
+        "id": "magnetic-effects-of-current-class-12-notes",
+        "title": "Magnetic Effects Of Current Class 12 Physics Revision — Grandmaster Guide",
+        "description": "Magnetic Effects Of Current Class 12 Physics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+        "category": "Exam Notes",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/magnetic-effects-of-current-class-12-notes.webp"
+    },
+    {
         "id": "magnetism-and-matter-class-12-notes",
         "title": "Magnetism And Matter Class 12 Physics Revision — Grandmaster Guide",
         "description": "Magnetism And Matter Class 12 Physics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
@@ -1935,6 +1971,15 @@ export const blogs: Blog[] = [
         "date": "2026-03-28",
         "readTime": "15 min read",
         "image": "/blog-images/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet",
+        "title": "Advanced Math Difficulty Trends Class 11 Mathematics Revision — Grandmaster Guide",
+        "description": "Advanced Math Difficulty Trends Class 11 Mathematics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+        "category": "Exam Notes",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet",
@@ -1964,24 +2009,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/limits-derivatives-class-11-revision-notes-jee-neet.webp"
     },
     {
-        "id": "magnetic-effects-of-current-class-12-notes",
-        "title": "Magnetic Effects Of Current Class 12 Physics Revision — Grandmaster Guide",
-        "description": "Magnetic Effects Of Current Class 12 Physics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
-        "category": "Exam Notes",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/magnetic-effects-of-current-class-12-notes.webp"
-    },
-    {
-        "id": "jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet",
-        "title": "Advanced Math Difficulty Trends Class 11 Mathematics Revision — Grandmaster Guide",
-        "description": "Advanced Math Difficulty Trends Class 11 Mathematics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
-        "category": "Exam Notes",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet.webp"
-    },
-    {
         "id": "electromagnetic-waves-class-12-notes",
         "title": "Electromagnetic Waves Class 12 Physics Revision — Grandmaster Guide",
         "description": "Electromagnetic Waves Class 12 Physics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
@@ -2009,15 +2036,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/body-fluids-and-circulation-class-11-revision-notes-neet.webp"
     },
     {
-        "id": "ancient-india-indus-valley-class-11-revision-notes-cbse",
-        "title": "Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Grandmaster Guide",
-        "description": "Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
-        "category": "Revision",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/ancient-india-indus-valley-class-11-revision-notes-cbse.webp"
-    },
-    {
         "id": "ancient-india-vedic-age-class-11-revision-notes-jee",
         "title": "Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Grandmaster Guide",
         "description": "Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
@@ -2034,6 +2052,15 @@ export const blogs: Blog[] = [
         "date": "2026-03-28",
         "readTime": "15 min read",
         "image": "/blog-images/biological-classification-class-11-revision-notes-neet.webp"
+    },
+    {
+        "id": "ancient-india-indus-valley-class-11-revision-notes-cbse",
+        "title": "Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Grandmaster Guide",
+        "description": "Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
+        "category": "Revision",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/ancient-india-indus-valley-class-11-revision-notes-cbse.webp"
     }
 ];
 

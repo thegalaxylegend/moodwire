@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-03T03:54:11.234Z",
+  "generatedAt": "2026-05-05T04:23:21.620Z",
   "dateRange": {
-    "startDate": "2026-04-03",
-    "endDate": "2026-05-03"
+    "startDate": "2026-04-05",
+    "endDate": "2026-05-05"
   },
-  "totalRows": 8,
+  "totalRows": 10,
   "opportunities": 0,
   "globalTopKeywords": [
     {
@@ -18,12 +18,17 @@
       "clicks": 0
     },
     {
+      "query": "jee compass",
+      "impressions": 3,
+      "clicks": 0
+    },
+    {
       "query": "examcompass.com",
       "impressions": 2,
       "clicks": 0
     },
     {
-      "query": "jee compass",
+      "query": "mains foundation compass for all the subjects.",
       "impressions": 2,
       "clicks": 0
     },
@@ -45,10 +50,10 @@
   ],
   "pages": {
     "https://examcompass.pages.dev/": {
-      "impressions": 25,
+      "impressions": 26,
       "clicks": 0,
       "ctr": 0,
-      "position": 11.4,
+      "position": 15.7,
       "topQueries": [
         {
           "query": "exam compass",
@@ -84,16 +89,30 @@
           "clicks": 0,
           "ctr": 0,
           "position": 8
+        },
+        {
+          "query": "mains foundation compass for all the subjects.",
+          "impressions": 1,
+          "clicks": 0,
+          "ctr": 0,
+          "position": 37
         }
       ],
       "isOpportunity": false
     },
     "https://examcompass.pages.dev/jee-mains/": {
-      "impressions": 2,
+      "impressions": 4,
       "clicks": 0,
       "ctr": 0,
-      "position": 4,
+      "position": 5.8,
       "topQueries": [
+        {
+          "query": "jee compass",
+          "impressions": 2,
+          "clicks": 0,
+          "ctr": 0,
+          "position": 6.5
+        },
         {
           "query": "how it was built",
           "impressions": 1,
@@ -102,11 +121,11 @@
           "position": 2
         },
         {
-          "query": "jee compass",
+          "query": "mains foundation compass for all the subjects.",
           "impressions": 1,
           "clicks": 0,
           "ctr": 0,
-          "position": 6
+          "position": 9
         }
       ],
       "isOpportunity": false
