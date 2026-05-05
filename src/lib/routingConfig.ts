@@ -36,14 +36,14 @@ export const MODELS: Record<string, ModelSpec> = {
 };
 
 export const WATERFALL_CHAINS: Record<TaskTier, string[]> = {
-  // T1: Highest quality — Gemini Flash → Gemma 4 (separate quota!) → Groq
-  'T1': ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemma-4-31b-it', 'gemini-2.0-flash-lite', 'gemma-4-26b-a4b-it', 'llama-3.1-8b-instant'],
+  // T1: Highest quality — Groq first, then Gemini, with heavy models as final fallbacks
+  'T1': ['llama-3.1-8b-instant', 'gemini-2.0-flash', 'gemini-2.0-flash-lite', 'gemma-4-26b-a4b-it', 'gemma-4-31b-it', 'gemini-2.5-flash'],
   // T2: Standard generation — balanced chain
-  'T2': ['gemini-2.0-flash', 'gemini-2.5-flash', 'gemma-4-31b-it', 'gemini-2.0-flash-lite', 'gemma-4-26b-a4b-it', 'llama-3.1-8b-instant'],
+  'T2': ['llama-3.1-8b-instant', 'gemini-2.0-flash-lite', 'gemini-2.0-flash', 'gemma-4-26b-a4b-it', 'gemma-4-31b-it', 'gemini-2.5-flash'],
   // T3: Medium tasks — lite/gemma first to conserve heavy quota
-  'T3': ['gemini-2.0-flash-lite', 'gemma-4-26b-a4b-it', 'gemma-4-31b-it', 'gemini-2.0-flash', 'llama-3.1-8b-instant'],
+  'T3': ['llama-3.1-8b-instant', 'gemini-2.0-flash-lite', 'gemma-4-26b-a4b-it', 'gemini-2.0-flash', 'gemma-4-31b-it'],
   // T4: Light tasks — fast models first
-  'T4': ['llama-3.1-8b-instant', 'gemma-4-26b-a4b-it', 'gemini-2.0-flash-lite'],
+  'T4': ['llama-3.1-8b-instant', 'gemini-2.0-flash-lite', 'gemma-4-26b-a4b-it'],
   // T5: Cheapest tasks
   'T5': ['llama-3.1-8b-instant', 'gemini-2.0-flash-lite', 'gemma-4-26b-a4b-it'],
 };

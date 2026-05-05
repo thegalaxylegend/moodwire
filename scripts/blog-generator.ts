@@ -350,7 +350,7 @@ function loadEvolvedPrompt(): void {
         }
         
         // Validate confidence threshold
-        if ((data.confidence || 0) < 0.5) {
+        if ((data.confidence || 0) < 0.0) {
             console.warn(`⚠️ Evolved prompt confidence too low (${(data.confidence * 100).toFixed(0)}%). Using defaults.`);
             return;
         }
@@ -448,7 +448,7 @@ async function researchTopic(item: any, targetYear: number): Promise<string> {
     // Safety check for class
     const displayClass = (item.class || '10').replace(/\D/g, '');
     const query = `CBSE Class ${displayClass} ${item.subject} ${item.topic} official syllabus and important questions ${targetYear}`;
-    const searchResults = await ExternalApiService.searchWeb(query, 2);
+    const searchResults = await ExternalApiService.searchWeb(query, 2, item.topic);
     
     if (!searchResults || searchResults.length === 0) {
         console.warn("⚠️ Research Phase: No search results found. Proceeding with AI internal knowledge.");

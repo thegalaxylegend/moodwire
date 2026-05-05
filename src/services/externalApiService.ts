@@ -122,12 +122,13 @@ export const ExternalApiService = {
      * Performs a neural search using Exa AI.
      * Returns high-quality links and content excerpts.
      */
-    searchWeb: async (query: string, numResults: number = 5) => {
+    searchWeb: async (query: string, numResults: number = 5, fallbackTopic?: string) => {
         if (!exa) {
             console.warn('ExternalApiService: Exa API Key NOT configured. Falling back to Wikipedia...');
             // Simple Wikipedia Search Fallback
             try {
-                const wiki = await ExternalApiService.getWikiSummary(query);
+                const wikiTopic = fallbackTopic || query;
+                const wiki = await ExternalApiService.getWikiSummary(wikiTopic);
                 if (wiki) {
                     return [{
                         title: wiki.title,

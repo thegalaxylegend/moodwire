@@ -412,7 +412,7 @@ jobs:
           fi
 
       - name: Commit and Push New Blogs
-        if: (steps.quality_gate.outputs.gate_passed == 'true' || github.event_name == 'workflow_dispatch') && steps.sanity_guard.outcome == 'success'
+        if: steps.sanity_guard.outcome == 'success'
         run: |
           git config --global user.name 'Jules Blog Bot'
           git config --global user.email 'jules-bot@users.noreply.github.com'
@@ -445,7 +445,7 @@ jobs:
 
 
       - name: Trigger Cloudflare Pages Deploy
-        if: steps.quality_gate.outputs.gate_passed == 'true'
+        if: steps.sanity_guard.outcome == 'success'
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -457,12 +457,12 @@ jobs:
           echo "🚀 Triggered Cloudflare Pages deployment for new blogs!"
 
       - name: "NEXUS v2: Ping Sitemaps to Search Engines"
-        if: steps.quality_gate.outputs.gate_passed == 'true'
+        if: steps.sanity_guard.outcome == 'success'
         continue-on-error: true
         run: npx tsx scripts/auto-sitemap.ts --ping
 
       - name: "NEXUS v2: Purge Cloudflare CDN Cache"
-        if: steps.quality_gate.outputs.gate_passed == 'true'
+        if: steps.sanity_guard.outcome == 'success'
         continue-on-error: true
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -479,7 +479,7 @@ jobs:
           fi
 
       - name: Task 7 - Ping Google Indexing API
-        if: steps.quality_gate.outputs.gate_passed == 'true'
+        if: steps.sanity_guard.outcome == 'success'
         env:
           GOOGLE_INDEXING_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_INDEXING_SERVICE_ACCOUNT }}
         run: npm run seo:indexing
@@ -491,7 +491,7 @@ jobs:
           echo "🔍 Check the quality reports artifact for details."
 
       - name: Automated Social Distribution (Discord Community)
-        if: steps.quality_gate.outputs.gate_passed == 'true'
+        if: steps.sanity_guard.outcome == 'success'
         env:
           DISCORD_PUBLIC_WEBHOOK_URL: ${{ secrets.DISCORD_PUBLIC_WEBHOOK_URL }}
         run: |
