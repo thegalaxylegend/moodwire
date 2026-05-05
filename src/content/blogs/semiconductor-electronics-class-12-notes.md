@@ -99,7 +99,7 @@ D) Extrinsic semiconductors are pure semiconductors, while intrinsic semiconduct
 
 **Answer: C) Intrinsic semiconductors are pure semiconductors, while extrinsic semiconductors are impure.**
 
-**5. What is the formula for the current through a diode?**
+**5. What is the formula for the [current](/blog/magnetic-effects-of-current-class-12-notes) through a diode?**
 -
 A) I = IS(eⁱ⁰⁰⁰Vₜ - 1)
 -

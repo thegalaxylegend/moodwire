@@ -19,7 +19,7 @@ manualReview: false
 - Diagonals of a rhombus bisect each other at right [angles](/blog/lines-and-angles-class-9-notes).
 - Diagonals of a square bisect each other at right [angles](/blog/lines-and-angles-class-9-notes) and are equal ∈ length.
 - Area of a quadrilateral = (1/2) × d₁ × d₂, where d₁ and d₂ are the lengths of the diagonals
-- Area of a quadrilateral = (1/2) × (sum of the products of the adjacent sides and the sines of the included angles)
+- Area of a quadrilateral = (1/2) × (sum of the products of the adjacent sides and the sines of the included [angles](/blog/lines-and-angles-class-9-notes))
 
  
 ## 🪤 The 5 Mistakes That Cost Marks

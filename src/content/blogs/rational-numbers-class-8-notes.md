@@ -42,7 +42,7 @@ manualReview: false
   Step 2: 2/3 - 1/3 = 1/3
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students get confused between adding and subtracting rational numbers with different denominators
+- Most students get confused between adding and subtracting rational [numbers](/blog/real-numbers-class-10-notes) with different denominators
 - They forget to find the LCM of the denominators and add or subtract the numerators accordingly
 - For example, 1/4 + 1/6
   Step 1: Find the LCM of 4 and 6, which is 12

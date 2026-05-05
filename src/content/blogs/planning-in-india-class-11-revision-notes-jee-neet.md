@@ -140,7 +140,7 @@ d) $GDP_{target} = GDP_{current} \times n^r$
 
 Answer: a) $GDP_{target} = GDP_{current} \times (1 + r)^n$
 
-4. Which institution was responsible for formulating the Five-Year Plans in India until 2014?
+4. Which institution was responsible for formulating the Five-Year Plans in [India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) until 2014?
 a) Planning Commission
 b) NITI Aayog
 c) Ministry of Finance

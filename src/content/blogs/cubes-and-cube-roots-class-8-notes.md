@@ -53,7 +53,7 @@ manualReview: false
 - Check the units of the answer
 - Use the formula ∛(a³) = a to simplify expressions with cube [roots](/blog/squares-and-square-roots-class-8-notes)
 - Use the formula ∛(a × b) = ∛a × ∛b to simplify expressions with cube [roots](/blog/squares-and-square-roots-class-8-notes)
-- Use the formula ∛(a/b) = ∛a/∛b to simplify expressions with cube roots
+- Use the formula ∛(a/b) = ∛a/∛b to simplify expressions with cube [roots](/blog/squares-and-square-roots-class-8-notes)
 
 ## 📝 Practice MCQs
 **1. What is the cube root of 27?**

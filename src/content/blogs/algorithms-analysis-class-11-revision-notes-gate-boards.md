@@ -302,7 +302,7 @@ What are the best practices for solving algorithmic problems and Algorithms: Ana
 - Time complexity is the number of operations an algorithm takes to complete as the input size increases.
 - Space complexity is the amount of memory an algorithm uses as the input size increases.
 - Constant time complexity is O(1), where the number of operations does not change regardless of the input size.
-- Linear time complexity is O(n), where the number of operations increases linearly with the input size.
+- [Linear](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) time complexity is O(n), where the number of operations increases linearly with the input size.
 - Quadratic time complexity is $O(n^2)$, where the number of operations increases quadratically with the input size.
 - Merge Sort has a time complexity of $O(n \log n)$, making it more efficient than Bubble Sort for large datasets.
 
@@ -360,7 +360,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/algorithms-analysis-class-11-revision-notes-gate-boards) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/[algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards)-analysis-class-11-revision-notes-gate-boards) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Algorithms%20Analysis%20Gate%20Boards%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

@@ -68,7 +68,7 @@ manualReview: false
   - ∫e⁻ˣ dx = -e⁻ˣ
   - ∫(1/x) dx = ln|x|
 - And, practice the following types of questions:
-  - Solving differential equations using various methods
+  - Solving differential [equations](/blog/pair-of-linear-equations-class-10-notes) using various methods
   - Finding the general solution and the particular solution
   - Applying boundary conditions to find the particular solution
 

@@ -2,10 +2,10 @@
   "date": "2026-05-05",
   "targetYear": 2026,
   "summary": {
-    "fresh": 114,
-    "updated": 114,
+    "fresh": 120,
+    "updated": 105,
     "needsRegen": 0,
-    "total": 228
+    "total": 225
   },
   "needsRegeneration": [],
   "details": [
@@ -14,7 +14,7 @@
       "slug": "agriculture-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -25,7 +25,7 @@
       "slug": "ai-exam-prep-future-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -36,7 +36,7 @@
       "slug": "ai-study-hack-pomodoro-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -47,7 +47,7 @@
       "slug": "alcohols-phenols-and-ethers-class-12-notes",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 37,
@@ -58,7 +58,7 @@
       "slug": "algorithms-analysis-class-11-revision-notes-gate-boards",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -69,7 +69,7 @@
       "slug": "algorithms-design-class-11-revision-notes-gate-boards",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -80,29 +80,18 @@
       "slug": "alternating-current-class-12-notes",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
       "wordCount": 5903
     },
     {
-      "file": "anatomy-of-flowering-plants-class-11-revision-notes-neet.md",
-      "slug": "anatomy-of-flowering-plants-class-11-revision-notes-neet",
-      "status": "updated",
-      "changes": [
-        "Body text year references updated (LaTeX-protected)"
-      ],
-      "yearUpdates": 1,
-      "lastUpdatedAge": 0,
-      "wordCount": 12373
-    },
-    {
       "file": "ancient-india-mahajanapadas-class-11-revision-notes-jee.md",
       "slug": "ancient-india-mahajanapadas-class-11-revision-notes-jee",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -113,7 +102,7 @@
       "slug": "animal-kingdom-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -124,7 +113,7 @@
       "slug": "art-culture-architecture-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -135,7 +124,7 @@
       "slug": "biogeography-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -146,7 +135,7 @@
       "slug": "biomolecules-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -157,7 +146,7 @@
       "slug": "breathing-and-exchange-of-gases-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -168,7 +157,7 @@
       "slug": "cell-cycle-and-cell-division-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -179,7 +168,7 @@
       "slug": "cell-the-unit-of-life-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -190,7 +179,7 @@
       "slug": "chemical-bonding-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -201,7 +190,7 @@
       "slug": "chemical-coordination-and-integration-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -212,7 +201,7 @@
       "slug": "class-10-30-day-timetable-class-10-revision-notes-jee",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -223,7 +212,7 @@
       "slug": "class-10-science-pyq-strategy-class-10-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -234,7 +223,7 @@
       "slug": "classification-elements-periodicity-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -245,7 +234,7 @@
       "slug": "classification-of-elements-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -256,7 +245,7 @@
       "slug": "climatology-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -267,7 +256,7 @@
       "slug": "complex-numbers-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -278,7 +267,7 @@
       "slug": "computer-organization-class-11-notes",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -289,7 +278,7 @@
       "slug": "conic-sections-class-11-revision-notes-jee",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -300,7 +289,7 @@
       "slug": "constitutional-framework-class-11-revision-notes-cbse",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -311,7 +300,7 @@
       "slug": "cuet-2026-master-strategy-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -322,7 +311,7 @@
       "slug": "current-electricity-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -333,7 +322,7 @@
       "slug": "data-structures-linear-class-11-revision-notes-gate-boards",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -344,7 +333,7 @@
       "slug": "data-structures-non-linear-class-11-revision-notes-gate-boards",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -355,7 +344,7 @@
       "slug": "digestion-and-absorption-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -366,7 +355,7 @@
       "slug": "digital-logic-class-11-revision-notes-gate-boards",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -377,7 +366,7 @@
       "slug": "dpsp-duties-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -388,7 +377,7 @@
       "slug": "electric-charges-fields-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -399,7 +388,7 @@
       "slug": "electromagnetic-induction-class-12-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -410,7 +399,7 @@
       "slug": "environmental-chemistry-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -421,7 +410,7 @@
       "slug": "equilibrium-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -432,7 +421,7 @@
       "slug": "excretory-products-and-elimination-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -443,7 +432,7 @@
       "slug": "federalism-class-11-revision-notes-cbse",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -454,7 +443,7 @@
       "slug": "fundamental-rights-class-11-revision-notes-cbse",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -465,7 +454,7 @@
       "slug": "geomorphology-class-11-revision-notes-cbse",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -476,7 +465,7 @@
       "slug": "gravitation-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -487,7 +476,7 @@
       "slug": "hydrocarbons-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -498,7 +487,7 @@
       "slug": "hydrogen-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -509,7 +498,7 @@
       "slug": "indian-geography-climate-class-11-revision-notes-cbse",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -520,7 +509,7 @@
       "slug": "indian-geography-physical-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -531,7 +520,7 @@
       "slug": "jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -542,7 +531,7 @@
       "slug": "jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -553,7 +542,7 @@
       "slug": "kinetic-theory-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -564,73 +553,40 @@
       "slug": "laws-of-motion-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
       "wordCount": 1831
     },
     {
-      "file": "lifelines-of-national-economy-class-10-notes.md",
-      "slug": "lifelines-of-national-economy-class-10-notes",
-      "status": "updated",
-      "changes": [
-        "Body text year references updated (LaTeX-protected)"
-      ],
-      "yearUpdates": 1,
-      "lastUpdatedAge": 0,
-      "wordCount": 13516
-    },
-    {
       "file": "linear-inequalities-class-11-revision-notes-jee-neet.md",
       "slug": "linear-inequalities-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
       "wordCount": 1471
     },
     {
-      "file": "local-government-class-11-revision-notes-cbse.md",
-      "slug": "local-government-class-11-revision-notes-cbse",
-      "status": "updated",
-      "changes": [
-        "Body text year references updated (LaTeX-protected)"
-      ],
-      "yearUpdates": 1,
-      "lastUpdatedAge": 0,
-      "wordCount": 9095
-    },
-    {
       "file": "locomotion-and-movement-class-11-revision-notes-neet.md",
       "slug": "locomotion-and-movement-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
       "wordCount": 1590
     },
     {
-      "file": "manufacturing-industries-class-10-notes.md",
-      "slug": "manufacturing-industries-class-10-notes",
-      "status": "updated",
-      "changes": [
-        "Body text year references updated (LaTeX-protected)"
-      ],
-      "yearUpdates": 1,
-      "lastUpdatedAge": 0,
-      "wordCount": 11052
-    },
-    {
       "file": "mathematical-induction-class-11-revision-notes-jee-neet.md",
       "slug": "mathematical-induction-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -641,7 +597,7 @@
       "slug": "mathematical-reasoning-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -652,7 +608,7 @@
       "slug": "mechanical-properties-of-solids-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -663,7 +619,7 @@
       "slug": "medieval-india-bhakti-sufi-class-11-revision-notes-cbse",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -674,7 +630,7 @@
       "slug": "medieval-india-delhi-sultanate-class-11-revision-notes-cbse",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -685,7 +641,7 @@
       "slug": "medieval-india-mughals-class-11-revision-notes-cbse",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -696,29 +652,18 @@
       "slug": "mineral-nutrition-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
       "wordCount": 1392
     },
     {
-      "file": "minerals-and-energy-resources-class-10-notes.md",
-      "slug": "minerals-and-energy-resources-class-10-notes",
-      "status": "updated",
-      "changes": [
-        "Body text year references updated (LaTeX-protected)"
-      ],
-      "yearUpdates": 1,
-      "lastUpdatedAge": 0,
-      "wordCount": 9876
-    },
-    {
       "file": "morphology-of-flowering-plants-class-11-revision-notes-neet.md",
       "slug": "morphology-of-flowering-plants-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -729,7 +674,7 @@
       "slug": "motion-in-a-straight-line-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -740,7 +685,7 @@
       "slug": "moving-charges-magnetism-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -751,7 +696,7 @@
       "slug": "neet-2026-weightage-prediction-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -762,7 +707,7 @@
       "slug": "neet-biology-80-20-rule-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -773,7 +718,7 @@
       "slug": "neural-control-and-coordination-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -784,7 +729,7 @@
       "slug": "oceanography-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -795,7 +740,7 @@
       "slug": "organic-chemistry-basic-principles-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -806,7 +751,7 @@
       "slug": "oscillations-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -817,7 +762,7 @@
       "slug": "permutations-combinations-class-11-revision-notes-jee",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -828,7 +773,7 @@
       "slug": "photosynthesis-in-higher-plants-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -839,40 +784,18 @@
       "slug": "physical-world-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
       "wordCount": 1327
     },
     {
-      "file": "physics-heat-light-class-11-revision-notes-jee-neet.md",
-      "slug": "physics-heat-light-class-11-revision-notes-jee-neet",
-      "status": "updated",
-      "changes": [
-        "Body text year references updated (LaTeX-protected)"
-      ],
-      "yearUpdates": 1,
-      "lastUpdatedAge": 0,
-      "wordCount": 12014
-    },
-    {
-      "file": "physics-mechanics-class-11-revision-notes-jee-neet.md",
-      "slug": "physics-mechanics-class-11-revision-notes-jee-neet",
-      "status": "updated",
-      "changes": [
-        "Body text year references updated (LaTeX-protected)"
-      ],
-      "yearUpdates": 1,
-      "lastUpdatedAge": 0,
-      "wordCount": 19279
-    },
-    {
       "file": "planning-in-india-class-11-revision-notes-jee-neet.md",
       "slug": "planning-in-india-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -883,7 +806,7 @@
       "slug": "plant-growth-and-development-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -894,29 +817,18 @@
       "slug": "plant-kingdom-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
       "wordCount": 1136
     },
     {
-      "file": "poverty-unemployment-class-11-revision-notes-jee-neet.md",
-      "slug": "poverty-unemployment-class-11-revision-notes-jee-neet",
-      "status": "updated",
-      "changes": [
-        "Body text year references updated (LaTeX-protected)"
-      ],
-      "yearUpdates": 1,
-      "lastUpdatedAge": 0,
-      "wordCount": 11579
-    },
-    {
       "file": "principle-of-mathematical-induction-class-11-revision-notes-jee.md",
       "slug": "principle-of-mathematical-induction-class-11-revision-notes-jee",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -927,7 +839,7 @@
       "slug": "probability-class-11-revision-notes-jee",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -938,7 +850,7 @@
       "slug": "probability-intro-class-11-revision-notes-jee",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -949,7 +861,7 @@
       "slug": "ray-optics-class-12-quick-class-12-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -960,7 +872,7 @@
       "slug": "redox-reactions-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -971,7 +883,7 @@
       "slug": "relations-functions-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -982,7 +894,7 @@
       "slug": "respiration-in-plants-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -993,7 +905,7 @@
       "slug": "rotational-motion-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -1004,7 +916,7 @@
       "slug": "sequences-series-class-11-revision-notes-jee",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -1015,7 +927,7 @@
       "slug": "sets-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -1026,7 +938,7 @@
       "slug": "some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -1037,7 +949,7 @@
       "slug": "state-scholarship-guide-2026-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, [2026](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, [2026](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -1048,7 +960,7 @@
       "slug": "states-of-matter-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -1059,7 +971,7 @@
       "slug": "statistics-class-11-revision-notes-jee",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -1070,7 +982,7 @@
       "slug": "straight-lines-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -1081,7 +993,7 @@
       "slug": "structural-organisation-in-animals-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -1092,7 +1004,7 @@
       "slug": "structure-of-atom-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -1103,7 +1015,7 @@
       "slug": "structure-of-the-atom-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -1114,7 +1026,7 @@
       "slug": "study-12-hours-daily-tips-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -1125,7 +1037,7 @@
       "slug": "the-living-world-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -1136,7 +1048,7 @@
       "slug": "the-p-block-elements-11-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -1147,7 +1059,7 @@
       "slug": "the-s-block-elements-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -1158,7 +1070,7 @@
       "slug": "thermal-properties-of-matter-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -1169,7 +1081,7 @@
       "slug": "thermodynamics-chemistry-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -1180,7 +1092,7 @@
       "slug": "thermodynamics-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -1191,7 +1103,7 @@
       "slug": "three-dimensional-geometry-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -1202,29 +1114,18 @@
       "slug": "transport-in-plants-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
       "wordCount": 1416
     },
     {
-      "file": "trigonometric-functions-class-11-revision-notes-jee-neet.md",
-      "slug": "trigonometric-functions-class-11-revision-notes-jee-neet",
-      "status": "updated",
-      "changes": [
-        "Body text year references updated (LaTeX-protected)"
-      ],
-      "yearUpdates": 1,
-      "lastUpdatedAge": 0,
-      "wordCount": 13397
-    },
-    {
       "file": "units-and-measurements-class-11-revision-notes-jee-neet.md",
       "slug": "units-and-measurements-class-11-revision-notes-jee-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -1235,7 +1136,7 @@
       "slug": "upsc-optional-selection-guide-class-11-revision-notes-jee",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, [2026](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, [2026](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -1246,7 +1147,7 @@
       "slug": "waves-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,
@@ -1257,7 +1158,7 @@
       "slug": "work-energy-and-power-class-11-revision-notes-neet",
       "status": "updated",
       "changes": [
-        "Last Updated: \"May 5, 2026\" → \"May 5, 2026\""
+        "Last Updated: \"May 3, 2026\" → \"May 5, 2026\""
       ],
       "yearUpdates": 0,
       "lastUpdatedAge": 38,

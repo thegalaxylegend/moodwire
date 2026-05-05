@@ -222,14 +222,14 @@ Electromagnetic Induction is a fundamental concept and physics where an electric
 | --- | --- | --- |
 | Direction of Induced [Current](/blog/alternating-current-class-12-notes) | Questions that require determining the direction of the induced [current](/blog/alternating-current-class-12-notes) based on the change and magnetic flux. | Lenz's Law |
 | Induced EMF Calculation | Problems that involve calculating the induced emf using Faraday's law of [induction](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee). | Faraday's Law of [Induction](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) |
-| Magnetic Flux Change | Questions focusing on the effect of changing magnetic flux on electromagnetic induction. | Magnetic Flux |
+| Magnetic Flux Change | Questions focusing on the effect of changing magnetic flux on electromagnetic [induction](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee). | Magnetic Flux |
 | Coil and Conductor Configurations | Scenarios involving different coil and conductor configurations to induce currents. | Electromagnetic Induction Principles |
 | Rate of Change of Magnetic Flux | Problems that test the understanding of how the rate of change of magnetic flux influences induced emf. | Faraday's Law of Induction |
 
 - Faraday's Law states that the induced electromotive force is proportional to the rate of change of magnetic flux.
 - Lenz's Law states that the direction of the induced [current](/blog/alternating-current-class-12-notes) is such that it opposes the change and magnetic flux.
 - The electromagnetic induction can be observed and a coil rotating and a magnetic field.
-- The induced current and a conductor is zero if the conductor is stationary and there is no change and the magnetic field.
+- The induced [current](/blog/alternating-current-class-12-notes) and a conductor is zero if the conductor is stationary and there is no change and the magnetic field.
 - Transformers are used to increase or decrease the voltage of an AC circuit.
 - Generators use electromagnetic induction to convert mechanical energy into electrical energy.
 - The principle of electromagnetic induction is used and many devices such as motors, generators, n transformers.

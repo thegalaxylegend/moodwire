@@ -51,7 +51,7 @@ To master [permutations](/blog/permutations-combinations-class-11-revision-notes
  - **Solution**: Using the combination formula $C(n, r) = \frac{n!}{r!(n-r)!}$, where $n = 5$ and $r = 3$, we get $C(5, 3) = \frac{5!}{3!(5-3)!} = \frac{5 \times 4 \times 3}{3 \times 2 \times 1} = 10$.
 
 ## Conclusion
-Permutations and combinations are vital concepts in mathematics that help us solve problems involving arrangements and selections. By understanding the formulas and applications of these concepts, students can improve their problem-solving skills and perform well in their exams. Remember, practice is key to mastering permutations and combinations. With consistent effort and the right approach, anyone can become proficient in these areas.
+[Permutations](/blog/permutations-combinations-class-11-revision-notes-jee) and combinations are vital concepts in mathematics that help us solve problems involving arrangements and selections. By understanding the formulas and applications of these concepts, students can improve their problem-solving skills and perform well in their exams. Remember, practice is key to mastering [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) and combinations. With consistent effort and the right approach, anyone can become proficient in these areas.
 
 ## 🪤 The 5 Mistakes That Cost Marks
 

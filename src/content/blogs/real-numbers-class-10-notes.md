@@ -53,7 +53,7 @@ manualReview: false
 
 ## 🔁 Last 5 Minutes Box
 - Review the formulas for HCF and LCM
-- Practice calculating the HCF and LCM of numbers
+- Practice calculating the HCF and LCM of [numbers](/blog/rational-numbers-class-8-notes)
 - Make sure to understand the concept of prime factorization and how to apply it to solve problems
 - Go through the solved examples and practice problems to reinforce your understanding
 

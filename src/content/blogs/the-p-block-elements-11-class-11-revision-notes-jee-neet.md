@@ -193,7 +193,7 @@ Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-n
 ### P Block Elements Revision Notes
    * **Group 13 [Elements](/blog/the-s-block-elements-class-11-revision-notes-jee-neet)**: Boron group, electronic configuration: **ns²np¹**
    * **Group 14 [Elements](/blog/the-s-block-elements-class-11-revision-notes-jee-neet)**: Carbon group, electronic configuration: **ns²np²**
-   * **Group 15 Elements**: Nitrogen group, electronic configuration: **ns²np³**
+   * **Group 15 [Elements](/blog/the-s-block-elements-class-11-revision-notes-jee-neet)**: Nitrogen group, electronic configuration: **ns²np³**
    * **Group 16 Elements**: Chalcogens, electronic configuration: **ns²np⁴**
    * **Group 17 Elements**: Halogens, electronic configuration: **ns²np⁵**
    * **Group 18 Elements**: Noble gases, electronic configuration: **ns²np⁶**

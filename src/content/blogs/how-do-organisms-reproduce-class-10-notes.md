@@ -40,7 +40,7 @@ manualReview: false
 - To score well ∈ this topic, make sure to understand the different types of [reproduction](/blog/reproduction-in-organisms-class-12-notes) and the processes involved ∈ each. Practice drawing diagrams of the male and female reproductive systems and labeling the different parts. Also, be able to describe the stages of the menstrual cycle and the process of fertilization and embryo development.
 
 ## 🔁 Last 5 Minutes Box
-- Revision of key terms: asexual reproduction, sexual reproduction, gametes, fertilization, embryo development
+- Revision of key terms: asexual [reproduction](/blog/reproduction-in-organisms-class-12-notes), sexual [reproduction](/blog/reproduction-in-organisms-class-12-notes), gametes, fertilization, embryo development
 - Quick recall of the male and female reproductive systems
 - Glance over the stages of the menstrual cycle and the process of parturition
 - Check for any last-minute questions or doubts

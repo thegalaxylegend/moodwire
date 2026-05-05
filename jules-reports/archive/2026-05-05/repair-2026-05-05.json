@@ -1,10 +1,10 @@
 {
   "date": "2026-05-05",
   "summary": {
-    "modified": 25,
+    "modified": 22,
     "withWarnings": 0,
     "clean": 98,
-    "totalFixes": 162,
+    "totalFixes": 155,
     "totalWarnings": 0
   },
   "repairs": [
@@ -84,7 +84,6 @@
       "slug": "anatomy-of-flowering-plants-class-11-revision-notes-neet",
       "fixes": [
         "Injected auto Table of Contents (8 sections)",
-        "Applied LanguageTool academic grammar enhancements",
         "Added YouTube search link (no API key for embed)",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
@@ -462,18 +461,6 @@
       "isStrategicRefinement": false
     },
     {
-      "slug": "gender-religion-and-caste-class-10-notes",
-      "fixes": [
-        "Injected auto Table of Contents (8 sections)",
-        "Fixed 19 literal \\\\n escape sequences",
-        "Added YouTube search link (no API key for embed)",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
       "slug": "haloalkanes-and-haloarenes-class-12-notes",
       "fixes": [
         "Repaired MCQ option formatting (ensured multi-line)"
@@ -602,11 +589,9 @@
     {
       "slug": "lifelines-of-national-economy-class-10-notes",
       "fixes": [
-        "Removed duplicate H2: \"## <a id=\"-ayushs-note\"></a>👁️ Ayush's ...\"",
-        "Removed duplicate H2: \"## <a id=\"-last-5-minutes-box\"></a>🔁 La...\"",
-        "Removed duplicate H2: \"## <a id=\"-practice-mcqs\"></a>📝 Practic...\"",
-        "Removed duplicate H2: \"## 📚 Related Topics...\"",
-        "Deduplicated Jules footers (removed 1 extras)",
+        "Injected auto Table of Contents (8 sections)",
+        "Fixed 5 literal \\\\n escape sequences",
+        "Added YouTube search link (no API key for embed)",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
@@ -680,6 +665,7 @@
       "slug": "local-government-class-11-revision-notes-cbse",
       "fixes": [
         "Injected auto Table of Contents (8 sections)",
+        "Applied LanguageTool academic grammar enhancements",
         "Added YouTube search link (no API key for embed)",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
@@ -726,6 +712,9 @@
     {
       "slug": "manufacturing-industries-class-10-notes",
       "fixes": [
+        "Injected auto Table of Contents (8 sections)",
+        "Added 2 OpenAlex academic citations",
+        "Added YouTube search link (no API key for embed)",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
@@ -789,6 +778,9 @@
     {
       "slug": "minerals-and-energy-resources-class-10-notes",
       "fixes": [
+        "Injected auto Table of Contents (8 sections)",
+        "Applied LanguageTool academic grammar enhancements",
+        "Added YouTube search link (no API key for embed)",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
@@ -880,9 +872,9 @@
       "slug": "physics-heat-light-class-11-revision-notes-jee-neet",
       "fixes": [
         "Injected auto Table of Contents (8 sections)",
-        "Fixed 3 literal \\\\n escape sequences",
+        "Applied LanguageTool academic grammar enhancements",
         "Added YouTube search link (no API key for embed)",
-        "Repaired MCQ option formatting (ensured multi-line)"
+        "Cleaned up empty LaTeX blocks"
       ],
       "warnings": [],
       "wasModified": true,
@@ -892,19 +884,8 @@
       "slug": "physics-mechanics-class-11-revision-notes-jee-neet",
       "fixes": [
         "Injected auto Table of Contents (8 sections)",
-        "Added YouTube search link (no API key for embed)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "political-parties-class-10-notes",
-      "fixes": [
-        "Injected auto Table of Contents (8 sections)",
-        "Applied LanguageTool academic grammar enhancements",
-        "Added 3 OpenAlex academic citations",
-        "Added YouTube search link (no API key for embed)"
+        "Added YouTube search link (no API key for embed)",
+        "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
       "wasModified": true,
@@ -932,20 +913,7 @@
       "slug": "poverty-unemployment-class-11-revision-notes-jee-neet",
       "fixes": [
         "Injected auto Table of Contents (8 sections)",
-        "Applied LanguageTool academic grammar enhancements",
-        "Added YouTube search link (no API key for embed)",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "power-sharing-class-10-notes",
-      "fixes": [
-        "Injected auto Table of Contents (8 sections)",
-        "Applied LanguageTool academic grammar enhancements",
-        "Added 3 OpenAlex academic citations",
+        "Fixed 2 literal \\\\n escape sequences",
         "Added YouTube search link (no API key for embed)",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
@@ -1173,8 +1141,9 @@
       "slug": "trigonometric-functions-class-11-revision-notes-jee-neet",
       "fixes": [
         "Injected auto Table of Contents (8 sections)",
-        "Fixed 8 literal \\\\n escape sequences",
-        "Added YouTube search link (no API key for embed)"
+        "Fixed 2 literal \\\\n escape sequences",
+        "Added YouTube search link (no API key for embed)",
+        "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
       "wasModified": true,

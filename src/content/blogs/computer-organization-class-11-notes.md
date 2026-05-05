@@ -172,7 +172,7 @@ Ayush's Note on Computer Organization is a detailed study guide that focuses on 
 | --- | --- | --- |
 | **Fetch-Decode-Execute Cycle** | The fundamental process y which the CPU executes instructions | High |
 | **Pipelining** | A technique used to improve CPU performance y breaking down the fetch-decode-execute cycle into stages | Medium |
-| **Cache Memory** | A small, fast memory that stores frequently accessed data | High |
+| **Cache Memory** | A small, fast memory that stores frequently accessed [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) | High |
 | **Virtual Memory** | A memory management capability that allows a computer to use secondary storage to supplement its primary memory | Medium |
 
 ## <a id="how-does-the-memory-hierarchy-work-n-computer-organization"></a>How does the Memory Hierarchy Work and Computer Organization?

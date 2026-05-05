@@ -321,20 +321,20 @@ The law of conservation of energy states that energy cannot be created or destro
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. The energy released when 1 kg of coal is burnt can be calculated by the equation $E=mc^2$. If the energy released is $3.00	imes10^7$ J, what is the mass of the coal burnt?**
-**A)**         10 g
-**B)**         100 g
-**C)**         1 kg
-**D)**         1000 kg
+**A)**          10 g
+**B)**          100 g
+**C)**          1 kg
+**D)**          1000 kg
 
 **Answer:** C) This is the correct answer as the energy released is $3.00	imes10^7$ J. Using the equation $E=mc^2$, we can rearrange to find the mass of the coal as $m = rac{E}{c^2} = rac{3.00	imes10^7}{(3	imes10^8)^2} = 0.0333$ kg. This is approximately 1 kg, which is the correct answer. Options B and D are incorrect as the mass of coal burnt would be less than 1 kg if the energy released is $3.00	imes10^7$ J. Option A is incorrect as the mass of coal burnt would be much less than 10 g if the energy released is $3.00	imes10^7$ J.
 
 ---
 
 **2. The energy of the sun is produced by the nuclear fusion reactions that take place in its core. If the energy released per reaction is $6.7	imes10^-14$ J, and the number of reactions per second is $4.2	imes10^{39}$, what is the total energy of the sun per second?**
-**A)**         $2.8	imes10^{26}$ J/s
-**B)**         $3.1	imes10^{26}$ J/s
-**C)**         $3.4	imes10^{26}$ J/s
-**D)**         $3.8	imes10^{26}$ J/s
+**A)**          $2.8	imes10^{26}$ J/s
+**B)**          $3.1	imes10^{26}$ J/s
+**C)**          $3.4	imes10^{26}$ J/s
+**D)**          $3.8	imes10^{26}$ J/s
 
 **Answer:** A) This is the correct answer as the total energy of the sun per second is given by the product of the energy released per reaction and the number of reactions per second. This can be calculated as $E = (6.7	imes10^{-14}) 	imes (4.2	imes10^{39}) = 2.8	imes10^{26}$ J/s. Options B, C, and D are incorrect as they do not match the correct calculation.
 
@@ -342,30 +342,30 @@ The law of conservation of energy states that energy cannot be created or destro
 
 **3. The rate at which energy is transferred by radiation is given by the equation $P = sigma T^4 A$, where $P$ is the power, $sigma$ is the Stefan-Boltzmann constant, $T$ is the temperature, and $A$ is the surface are
 a. If the power is $100$ W, the Stefan-Boltzmann constant is $5.7	imes10^{-8}$ W/m$^2$K$^4$, the temperature is $300$ K, and the surface area is $0.01$ m$^2$, what is the temperature of the body?**
-**A)**         $250$ K
-**B)**         $300$ K
-**C)**         $350$ K
-**D)**         $400$ K
+**A)**          $250$ K
+**B)**          $300$ K
+**C)**          $350$ K
+**D)**          $400$ K
 
 **Answer:** C) This is the correct answer as we can rearrange the equation $P = sigma T^4 A$ to solve for temperature as $T = sqrt[4]{rac{P}{sigma A}} = sqrt[4]{rac{100}{(5.7	imes10^{-8})	imes(0.01)}} = 350$ K. This is the correct answer. Options A and B are incorrect as they do not match the correct calculation. Option D is incorrect as the temperature of the body would be higher than $400$ K if the power is $100$ W and the surface area is $0.01$ m$^2$.
 
 ---
 
 **4. A solar panel has an efficiency of $20%$. If the energy received from the sun is $1000$ J, what is the energy output of the solar panel?**
-**A)**         $100$ J
-**B)**         $200$ J
-**C)**         $500$ J
-**D)**         $800$ J
+**A)**          $100$ J
+**B)**          $200$ J
+**C)**          $500$ J
+**D)**          $800$ J
 
 **Answer:** C) This is the correct answer as the energy output of the solar panel can be calculated as the product of the energy received and the efficiency of the solar panel. This can be calculated as $E = (1000) 	imes (0.2) = 200$ J. However, this is the energy input, not the energy output. The energy output is given by the efficiency times the energy input, which is $(0.2) 	imes (1000) = 200$ J. However, this is not the correct answer as it is the energy input, not the energy output. The correct answer is $500$ J, which is the energy output of the solar panel. Options A and D are incorrect as they do not match the correct calculation.
 
 ---
 
 **5. A coal mine has a daily production of $10^4$ kg. If the energy released when burning 1 kg of coal is $3.00	imes10^7$ J, what is the total energy released by the coal mine per day?**
-**A)**         $3.00	imes10^{11}$ J
-**B)**         $3.00	imes10^{12}$ J
-**C)**         $3.00	imes10^{13}$ J
-**D)**         $3.00	imes10^{14}$ J
+**A)**          $3.00	imes10^{11}$ J
+**B)**          $3.00	imes10^{12}$ J
+**C)**          $3.00	imes10^{13}$ J
+**D)**          $3.00	imes10^{14}$ J
 
 **Answer:** B) This is the correct answer as the total energy released by the coal mine per day can be calculated as the product of the daily production and the energy released per kg of coal. This can be calculated as $E = (10^4) 	imes (3.00	imes10^7) = 3.00	imes10^{11}$ J. However, this is not the correct answer as it does not take into account the number of days in a year. To get the correct answer, we need to multiply by the number of days in a year, which is $365$. This gives us $E = (3.00	imes10^{11}) 	imes (365) = 1.095	imes10^{15}$ J, which is not one of the options. However, we can simplify the equation as $E = (10^4) 	imes (3.00	imes10^7) 	imes (365) = (3.00	imes10^{7}) 	imes (365 	imes 10^4) = (3.00	imes10^{7}) 	imes (3.65	imes10^6) = 10.95	imes10^{13}$ J, which is equal to $1.095	imes10^{15}$ J. However, the question asks for the energy released per day, not per year, so we need to divide by $365$. This gives us $E = (1.095	imes10^{15}) / (365) = 3.00	imes10^{12}$ J, which is the correct answer. Options A and C are incorrect as they do not match the correct calculation.
 

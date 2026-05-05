@@ -205,7 +205,7 @@ Recursive [Algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-bo
    
    To avoid these pitfalls, it's essential to carefully design the recursive algorithm, test it thoroughly, n analyze its time complexity. 
    
-   Now, let's look at the time complexity of some common recursive algorithms: 
+   Now, let's look at the time complexity of some common recursive [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards): 
    
    
 

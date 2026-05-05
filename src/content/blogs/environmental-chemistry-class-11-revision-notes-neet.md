@@ -159,7 +159,7 @@ Last Updated: March 15, 2026
 
 ## <a id="conclusion"></a>Conclusion
 
-Environmental chemistry is [the study of the chemical and biochemical phenomena that occur and the environment](https://en.wikipedia.org/wiki/Environmental_chemistry). It involves the study of the sources, reactions, transport, n effects of chemical species and the environment. The main branches of environmental chemistry are air, water, n soil pollution. By understanding the concepts of environmental chemistry, we can develop sustainable solutions for environmental problems and mitigate the impact of human activities on the environment.
+Environmental [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) is [the study of the chemical and biochemical phenomena that occur and the environment](https://en.wikipedia.org/wiki/Environmental_chemistry). It involves the study of the sources, reactions, transport, n effects of chemical species and the environment. The main branches of environmental [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) are air, water, n soil pollution. By understanding the concepts of environmental [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet), we can develop sustainable solutions for environmental problems and mitigate the impact of human activities on the environment.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*

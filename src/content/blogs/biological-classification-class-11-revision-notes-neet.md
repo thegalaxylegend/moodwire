@@ -68,7 +68,7 @@ By mastering biological [classification](/blog/classification-of-elements-class-
 
 ## 🪤 The 5 Mistakes That Cost Marks
 
-* **Mistaking Kingdom for Division**: Many students get confused between the terms 'Kingdom' and 'Division'. Remember, Kingdom is the highest taxonomic rank in biological classification, whereas Division is a rank used in plant classification, equivalent to Phylum in animal classification.
+* **Mistaking Kingdom for Division**: Many students get confused between the terms 'Kingdom' and 'Division'. Remember, Kingdom is the highest taxonomic rank in biological [classification](/blog/classification-of-elements-class-11-revision-notes-jee-neet), whereas Division is a rank used in plant [classification](/blog/classification-of-elements-class-11-revision-notes-jee-neet), equivalent to Phylum in animal [classification](/blog/classification-of-elements-class-11-revision-notes-jee-neet).
 * **Incorrect Hierarchy**: Be aware of the correct hierarchical sequence in biological classification: Kingdom > Phylum (or Division) > Class > Order > Family > Genus > Species. A common mistake is to mix up the order or miss a rank.
 * **Confusing Monera with Protista**: Students often struggle to differentiate between Monera (prokaryotic cells) and Protista (eukaryotic cells). Monera includes bacteria, while Protista includes diverse eukaryotic microorganisms that do not fit into other kingdoms.
 * **Misunderstanding the Characteristics of Fungi**: Fungi are often misunderstood as plants because they are non-motile and have cell walls. However, they are heterotrophic, obtaining their nutrients by decomposing organic material or forming symbiotic relationships, which distinguishes them from plants.

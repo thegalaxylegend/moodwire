@@ -130,7 +130,7 @@ The electron configuration of an [atom](/blog/structure-of-atom-class-11-revisio
 The atomic radius ($r$) can be calculated using the formula $r = \frac{n^2}{Z}$, where $n$ is the principal quantum number.
 
 ## 📝 Practice MCQs
-Here are some practice MCQs to help you assess your knowledge of the Structure of the Atom:
+Here are some practice MCQs to help you assess your knowledge of the [Structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet) of the Atom:
 What is the atomic number of an atom with 12 protons and 12 neutrons?
 A) 10
 B) 12

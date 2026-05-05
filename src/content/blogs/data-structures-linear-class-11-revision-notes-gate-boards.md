@@ -293,7 +293,7 @@ The following table summarizes the key differences between static and dynamic me
 | Memory Block Size | Fixed | Variable |
 | Execution Speed | Faster | Slower |
 | Memory Overhead | Less | More |
-| Suitable Data Structures | Arrays | Linked Lists |
+| Suitable [Data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Structures | Arrays | Linked Lists |
 
 ## <a id="what-are-common-trap-questions-for-data-structures-linear"></a>What are common Trap Questions for Data Structures: Linear?
 

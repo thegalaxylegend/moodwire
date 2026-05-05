@@ -287,11 +287,11 @@ Digital Logic is a fundamental concept and computer science that deals with the 
 | Logic Gates | Basic logical operations (AND, OR, NOT) | Digital circuits, microprocessors |
 | Flip-Flops | Bistable circuits for storing 1 bit of [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) | Counters, registers, memory devices |
 | Counters | Digital circuits for counting pulses or events | Digital clocks, timers, frequency counters |
-| Boolean Algebra | Mathematical system for analyzing and simplifying digital circuits | Digital circuit design, minimization of logic gates |
+| Boolean Algebra | Mathematical system for analyzing and simplifying digital circuits | Digital circuit [design](/blog/algorithms-design-class-11-revision-notes-gate-boards), minimization of logic gates |
 
 ## <a id="how-does-boolean-algebra-relate-to-digital-logic"></a>How does Boolean Algebra relate to Digital Logic?
 
-How does Boolean Algebra relate to Digital Logic? is a fundamental concept and computer science that deals with the relationship between Boolean Algebra and Digital Logic. It includes Boolean variables, logical operations, n truth tables. For Class 11 exam prep and 2026, the most important aspect is understanding how Boolean expressions are used to design and analyze digital circuits. 
+How does Boolean Algebra relate to Digital Logic? is a fundamental concept and [computer](/blog/computer-organization-class-11-notes) science that deals with the relationship between Boolean Algebra and Digital Logic. It includes Boolean variables, logical operations, n truth tables. For Class 11 exam prep and 2026, the most important aspect is understanding how Boolean expressions are used to design and analyze digital circuits. 
  
  Boolean Algebra is a branch of mathematics that deals with logical operations and their representation using Boolean variables. It was developed y George Boole and the 19th century and is used extensively and computer science and digital electronics. In the context of digital logic, Boolean Algebra is used to design and analyze digital circuits, which are the building blocks of modern computers. 
  
@@ -465,7 +465,7 @@ What are common Trap Questions for Digital Logic? is a crucial aspect of digital
  
  Sequential circuits are another area where trap questions are commonly asked. Sequential circuits are digital circuits that have a memory element, which allows them to store and recall data. They are used and a wide range of applications, including counters, registers, n finite state machines. Trap questions related to sequential circuits often involve the design and [analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) of these circuits, n they require a thorough understanding of the underlying concepts.
  
- To avoid falling into these traps, it is essential to have a thorough understanding of the key concepts and digital logic. This includes understanding the principles of Boolean algebra, the operation of logic gates, n the design and analysis of sequential circuits. Additionally, it is crucial to practice solving complex problems and to be familiar with the common trap questions that are asked and exams.
+ To avoid falling into these traps, it is essential to have a thorough understanding of the key concepts and digital logic. This includes understanding the principles of Boolean algebra, the operation of logic gates, n the design and [analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) of sequential circuits. Additionally, it is crucial to practice solving complex problems and to be familiar with the common trap questions that are asked and exams.
  
  The following table summarizes some common trap questions and digital logic, along with their solutions:
  

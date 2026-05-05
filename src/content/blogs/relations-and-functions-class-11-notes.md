@@ -49,7 +49,7 @@ There are also several types of [functions](/blog/relations-functions-class-11-r
 [Relations](/blog/relations-functions-class-11-revision-notes-jee-neet) and functions have numerous applications in various fields, including:
 * **Computer Science**: [Relations](/blog/relations-functions-class-11-revision-notes-jee-neet) and functions are used in computer science to model databases, networks, and algorithms.
 * **Physics**: [Relations](/blog/relations-functions-class-11-revision-notes-jee-neet) and functions are used in physics to model the behavior of physical systems, such as the motion of objects and the flow of electricity.
-* **Economics**: Relations and functions are used in economics to model the behavior of economic systems, such as the supply and demand of goods and services.
+* **Economics**: [Relations](/blog/relations-functions-class-11-revision-notes-jee-neet) and functions are used in economics to model the behavior of economic systems, such as the supply and demand of goods and services.
 
 ## Conclusion
 , relations and functions are fundamental concepts in mathematics that have numerous applications in various fields. Understanding these concepts is essential for any student of mathematics, and this guide has provided a comprehensive overview of the definitions, types, and applications of relations and functions. By mastering these concepts, you will be well-prepared for your CBSE Class 11 examination and will have a solid foundation for further study in mathematics.

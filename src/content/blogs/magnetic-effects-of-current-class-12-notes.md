@@ -55,7 +55,7 @@ manualReview: false
 - B = μ₀I/(2πr) = (4π × 10⁻⁷ × 5)/(2π × 0.1) = 10⁻⁵ T
 - A coil of 100 turns, each of area 0.1m², is placed ∈ a [magnetic](/blog/magnetic-effects-of-electric-current-class-10-notes) field of 0.1T, the flux through the coil is
 - Φ = BA cosθ = 0.1 × 0.1 × cos0° = 0.01 Wb
-- A charged particle of mass 10⁻²⁶ kg and charge 1.6 × 10⁻¹⁹ C is moving ∈ a magnetic field of 0.1T with a velocity of 10⁵ m/s, the force on the particle is
+- A charged particle of mass 10⁻²⁶ kg and charge 1.6 × 10⁻¹⁹ C is moving ∈ a [magnetic](/blog/magnetic-effects-of-electric-current-class-10-notes) field of 0.1T with a velocity of 10⁵ m/s, the force on the particle is
 - F = qvB s∈θ = 1.6 × 10⁻¹⁹ × 10⁵ × 0.1 × s∈90° = 1.6 × 10⁻¹⁴ N
 
 ## 🧠 The One Thing Most Students Get Wrong

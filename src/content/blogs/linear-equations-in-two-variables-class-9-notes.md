@@ -50,7 +50,7 @@ manualReview: false
 
 ## 🔁 Last 5 Minutes Box
 - Review the formulas for slope, slope-intercept form, and the equation of a line given two points.
-- Practice solving a few simple linear equations to get a feel for the format.
+- Practice solving a few simple linear [equations](/blog/differential-equations-class-12-notes) to get a feel for the format.
 - Make sure to check your work and verify your solutions.
 - Stay calm and read each question carefully to ensure you understand what is being asked.
 - Use the process of elimination to narrow down your answer choices if you are unsure.

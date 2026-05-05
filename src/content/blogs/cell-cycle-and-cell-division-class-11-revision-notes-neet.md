@@ -135,7 +135,7 @@ a) Uncontrolled [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet)
 b) Controlled [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) growth
 c) Normal [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division
 d) Abnormal [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) death
-Answer: a) Uncontrolled cell growth
+Answer: a) Uncontrolled [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) growth
 
 ## <a id="related-notes-links"></a>Related Notes Links
 

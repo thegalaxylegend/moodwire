@@ -47,7 +47,7 @@ manualReview: false
 - therefore, the solution is x = 5/3
 
 ## 👁️ Ayush's Note
-- to solve linear equations, first simplify the equation by combining like terms
+- to solve linear [equations](/blog/differential-equations-class-12-notes), first simplify the equation by combining like terms
 - then, isolate the variable by adding, subtracting, multiplying, or dividing both sides of the equation
 - finally, check the solution by plugging it back into the original equation
 - for example, to solve the equation 2x + 2 = 6, first subtract 2 from both sides, we get 2x = 4
