@@ -51,7 +51,7 @@ manualReview: false
   Step 4: Add the fractions: 3/12 + 2/12 = 5/12
 
 ## 👁️ Ayush's Note
-- To compare two rational numbers, convert them to equivalent fractions with the same denominator
+- To compare two rational [numbers](/blog/real-numbers-class-10-notes), convert them to equivalent fractions with the same denominator
 - To add or subtract rational numbers, find the LCM of the denominators and add or subtract the numerators accordingly
 - Rational numbers can be positive, negative, or zero
 - The additive inverse of a rational number is obtained by changing its sign

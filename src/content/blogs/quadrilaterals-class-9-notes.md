@@ -26,7 +26,7 @@ manualReview: false
 - Not checking if the given quadrilateral is a special type, such as a rectangle or a rhombus.
 - Not using the properties of diagonals, such as the fact that they bisect each other ∈ a rectangle or a rhombus.
 - Not using the [formula](/blog/heron-s-formula-class-9-notes) for the area of a quadrilateral ∈ terms of its diagonals.
-- Not using the properties of angles, such as the fact that the sum of the interior angles is 360°.
+- Not using the properties of [angles](/blog/lines-and-angles-class-9-notes), such as the fact that the sum of the interior [angles](/blog/lines-and-angles-class-9-notes) is 360°.
 - Not checking if the given quadrilateral is cyclic, and if so, using the properties of cyclic quadrilaterals.
 
  

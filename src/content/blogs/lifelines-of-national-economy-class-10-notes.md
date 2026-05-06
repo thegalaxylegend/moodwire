@@ -66,7 +66,7 @@ manualReview: false
 
 ### <a id="transport-railways"></a>Transport - Railways
 
-- **Broad Gauge Width:** >1.676 meters — This is the standard and most prevalent railway gauge in India, allowing for higher speeds and carrying capacities, essential for heavy freight and long-distance passenger travel.
+- **Broad Gauge Width:** >1.676 meters — This is the standard and most prevalent railway gauge in [India](/blog/nationalism-in-india-class-10-notes), allowing for higher speeds and carrying capacities, essential for heavy freight and long-distance passenger travel.
 
 - **Metre Gauge Width:** 1.000 meter — Once widespread, this gauge is now being converted to broad gauge. It served as a medium-capacity network, particularly in areas with challenging terrain.
 
@@ -151,7 +151,7 @@ manualReview: false
 
 - **Tourism Contribution (GDP):** Significant contributor to national income — The tourism sector generates substantial revenue through accommodation, transport, food, and recreational activities, directly boosting the Gross Domestic Product.
 
-- **Tourism Contribution (Employment):** Generates direct and indirect employment for millions of people — Tourism is a major job creator, employing individuals in hotels, travel agencies, transport services, handicraft industries, and various related sectors.
+- **Tourism Contribution (Employment):** Generates direct and indirect employment for millions of people — Tourism is a major job creator, employing individuals in hotels, travel agencies, transport services, handicraft [industries](/blog/manufacturing-industries-class-10-notes), and various related sectors.
 
 - **Tourism Benefits (Cultural):** Promotes national integration and cultural heritage — Tourism fosters a sense of unity among citizens by encouraging travel within the country and showcases India's rich cultural diversity and historical sites to both domestic and international visitors.
 *Examiner's Trap: Confusing the definitions of 'favorable' and 'unfavorable' trade or mixing up the characteristics of bilateral versus multilateral trade.*
@@ -1449,50 +1449,50 @@ Transport and communication are the physical and digital arteries of the economy
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. Which of the following transport modes is most suitable for carrying heavy and bulky goods over long distances across the Indian subcontinent at the lowest cost?**
-**A)**    Roadways
-**B)**    Railways
-**C)**    Pipelines
-**D)**    Waterways
+**A)**     Roadways
+**B)**     Railways
+**C)**     Pipelines
+**D)**     Waterways
 
 **Answer:** D) Waterways are the most cost-effective for bulky goods over long distances. Roadways (A) are better for short distances and door-to-door service but expensive for heavy bulk. Railways (B) are excellent for bulk but have higher infrastructure costs than water. Pipelines (C) are specialized for liquids/gases and cannot carry solid bulky goods.
 
 ---
 
 **2. In the context of the Golden Quadrilateral Super Highways, which of the following cities is NOT a direct nodal point of this project?**
-**A)**    Delhi
-**B)**    Mumbai
-**C)**    Chennai
-**D)**    Kolkata
+**A)**     Delhi
+**B)**     Mumbai
+**C)**     Chennai
+**D)**     Kolkata
 
 **Answer:** C) The Golden Quadrilateral connects Delhi, Mumbai, Chennai, and Kolkata. While Chennai is a major metro, the specific quadrilateral connectivity plan links the four corners of India through Delhi, Mumbai, Kolkata, and Chennai; wait, actually, Chennai IS part of it. Let me re-evaluate the options. The question asks which is NOT. Delhi, Mumbai, and Kolkata are correct. Chennai is the fourth. Let's replace the question to ensure a valid 'NOT' answer. New question: Which city is NOT part of the Golden Quadrilateral? Let's use Hyderabad. Corrected logic: Delhi, Mumbai, Chennai, and Kolkata are the four. If I use Hyderabad, it is correct. Let's re-select options: A: Delhi, B: Mumbai, C: Hyderabad, D: Kolkata. Answer is C. Hyderabad is a major city but not a corner of the Golden Quadrilateral. Delhi, Mumbai, and Kolkata are the other three corners.
 
 ---
 
 **3. If a region has a high density of industries, which transport infrastructure would most likely see a simultaneous increase in both 'Pipelines' and 'Roadways' usage?**
-**A)**    A region purely focused on organic farming
-**B)**    A region with high petroleum and manufacturing activity
-**C)**    A region with high tourism and pilgrimage sites
-**D)**    A region primarily focused on fishing and maritime trade
+**A)**     A region purely focused on organic farming
+**B)**     A region with high petroleum and manufacturing activity
+**C)**     A region with high tourism and pilgrimage sites
+**D)**     A region primarily focused on fishing and maritime trade
 
 **Answer:** B) Manufacturing requires roadways for raw materials and finished goods, and petroleum-based industries require pipelines for fuel transport. Organic farming (A) uses minimal pipelines. Tourism (C) relies on roads/air but not industrial pipelines. Fishing (D) relies on waterways and roads but lacks the industrial petroleum demand for large-scale pipeline networks.
 
 ---
 
 **4. Identify the correct statement regarding the impact of 'Digital India' on the economy.**
-**A)**    It reduces the importance of physical infrastructure
-**B)**    It enhances the efficiency of service-based sectors and communication
-**C)**    It strictly replaces the need for traditional banking
-**D)**    It is only beneficial for the agricultural sector
+**A)**     It reduces the importance of physical infrastructure
+**B)**     It enhances the efficiency of service-based sectors and communication
+**C)**     It strictly replaces the need for traditional banking
+**D)**     It is only beneficial for the agricultural sector
 
 **Answer:** B) Digital India improves communication and service efficiency. It does not reduce the need for physical infrastructure (A), which is still the backbone of transport. It complements rather than replaces traditional banking (C) through fintech. It benefits all sectors, not just agriculture (D).
 
 ---
 
 **5. A shipment of 5000 tons of iron ore needs to be moved from a mine to a coastal port. Comparing the efficiency of Railways vs. Waterways, which statement is true regarding the 'Economic Load Factor'?**
-**A)**    Railways have a higher capacity for bulk but higher operational cost per ton than Waterways
-**B)**    Waterways are faster than Railways for land-locked mines
-**C)**    Railways are cheaper than Waterways for all types of heavy cargo
-**D)**    Waterways cannot carry iron ore due to weight constraints
+**A)**     Railways have a higher capacity for bulk but higher operational cost per ton than Waterways
+**B)**     Waterways are faster than Railways for land-locked mines
+**C)**     Railways are cheaper than Waterways for all types of heavy cargo
+**D)**     Waterways cannot carry iron ore due to weight constraints
 
 **Answer:** A) Railways are efficient for bulk but Waterways are the absolute cheapest for massive loads over water routes. Waterways are not faster for land-locked mines (B) as they require initial road/rail transport. Railways are generally not cheaper than water for massive bulk (C). Waterways can definitely carry iron ore (D) via specialized vessels.
 
@@ -1984,50 +1984,50 @@ Lifelines of National Economy (Class 10 Social Science).
 Transport and communication are the physical and digital arteries of the economy; without efficient movement of goods, services, and information, trade and GDP growth are impossible.
 
 **1. Which of the following transport modes is most suitable for carrying heavy and bulky goods over long distances across the Indian subcontinent at the lowest cost?**
-**A)**    Roadways
-**B)**    Railways
-**C)**    Pipelines
-**D)**    Waterways
+**A)**     Roadways
+**B)**     Railways
+**C)**     Pipelines
+**D)**     Waterways
 
 **Answer:** D) Waterways are the most cost-effective for bulky goods over long distances. Roadways (A) are better for short distances and door-to-door service but expensive for heavy bulk. Railways (B) are excellent for bulk but have higher infrastructure costs than water. Pipelines (C) are specialized for liquids/gases and cannot carry solid bulky goods.
 
 ---
 
 **2. In the context of the Golden Quadrilateral Super Highways, which of the following cities is NOT a direct nodal point of this project?**
-**A)**    Delhi
-**B)**    Mumbai
-**C)**    Chennai
-**D)**    Kolkata
+**A)**     Delhi
+**B)**     Mumbai
+**C)**     Chennai
+**D)**     Kolkata
 
 **Answer:** C) The Golden Quadrilateral connects Delhi, Mumbai, Chennai, and Kolkata. While Chennai is a major metro, the specific quadrilateral connectivity plan links the four corners of India through Delhi, Mumbai, Kolkata, and Chennai; wait, actually, Chennai IS part of it. Let me re-evaluate the options. The question asks which is NOT. Delhi, Mumbai, and Kolkata are correct. Chennai is the fourth. Let's replace the question to ensure a valid 'NOT' answer. New question: Which city is NOT part of the Golden Quadrilateral? Let's use Hyderabad. Corrected logic: Delhi, Mumbai, Chennai, and Kolkata are the four. If I use Hyderabad, it is correct. Let's re-select options: A: Delhi, B: Mumbai, C: Hyderabad, D: Kolkata. Answer is C. Hyderabad is a major city but not a corner of the Golden Quadrilateral. Delhi, Mumbai, and Kolkata are the other three corners.
 
 ---
 
 **3. If a region has a high density of industries, which transport infrastructure would most likely see a simultaneous increase in both 'Pipelines' and 'Roadways' usage?**
-**A)**    A region purely focused on organic farming
-**B)**    A region with high petroleum and manufacturing activity
-**C)**    A region with high tourism and pilgrimage sites
-**D)**    A region primarily focused on fishing and maritime trade
+**A)**     A region purely focused on organic farming
+**B)**     A region with high petroleum and manufacturing activity
+**C)**     A region with high tourism and pilgrimage sites
+**D)**     A region primarily focused on fishing and maritime trade
 
 **Answer:** B) Manufacturing requires roadways for raw materials and finished goods, and petroleum-based industries require pipelines for fuel transport. Organic farming (A) uses minimal pipelines. Tourism (C) relies on roads/air but not industrial pipelines. Fishing (D) relies on waterways and roads but lacks the industrial petroleum demand for large-scale pipeline networks.
 
 ---
 
 **4. Identify the correct statement regarding the impact of 'Digital India' on the economy.**
-**A)**    It reduces the importance of physical infrastructure
-**B)**    It enhances the efficiency of service-based sectors and communication
-**C)**    It strictly replaces the need for traditional banking
-**D)**    It is only beneficial for the agricultural sector
+**A)**     It reduces the importance of physical infrastructure
+**B)**     It enhances the efficiency of service-based sectors and communication
+**C)**     It strictly replaces the need for traditional banking
+**D)**     It is only beneficial for the agricultural sector
 
 **Answer:** B) Digital India improves communication and service efficiency. It does not reduce the need for physical infrastructure (A), which is still the backbone of transport. It complements rather than replaces traditional banking (C) through fintech. It benefits all sectors, not just agriculture (D).
 
 ---
 
 **5. A shipment of 5000 tons of iron ore needs to be moved from a mine to a coastal port. Comparing the efficiency of Railways vs. Waterways, which statement is true regarding the 'Economic Load Factor'?**
-**A)**    Railways have a higher capacity for bulk but higher operational cost per ton than Waterways
-**B)**    Waterways are faster than Railways for land-locked mines
-**C)**    Railways are cheaper than Waterways for all types of heavy cargo
-**D)**    Waterways cannot carry iron ore due to weight constraints
+**A)**     Railways have a higher capacity for bulk but higher operational cost per ton than Waterways
+**B)**     Waterways are faster than Railways for land-locked mines
+**C)**     Railways are cheaper than Waterways for all types of heavy cargo
+**D)**     Waterways cannot carry iron ore due to weight constraints
 
 **Answer:** A) Railways are efficient for bulk but Waterways are the absolute cheapest for massive loads over water routes. Waterways are not faster for land-locked mines (B) as they require initial road/rail transport. Railways are generally not cheaper than water for massive bulk (C). Waterways can definitely carry iron ore (D) via specialized vessels.
 

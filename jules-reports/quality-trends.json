@@ -1,14 +1,14 @@
 {
-  "overallAvgScore": 77.6,
-  "totalBlogsAllTime": 201,
-  "totalPassed": 134,
+  "overallAvgScore": 78.5,
+  "totalBlogsAllTime": 210,
+  "totalPassed": 143,
   "totalFailed": 67,
-  "overallPassRate": 67,
-  "trend": "stable",
-  "trendDelta": -0.8,
+  "overallPassRate": 68,
+  "trend": "improving",
+  "trendDelta": 23.2,
   "dailyReports": [
     {
-      "date": "2026-05-05",
+      "date": "2026-05-06",
       "totalBlogs": 9,
       "passed": 9,
       "failed": 0,
@@ -361,6 +361,15 @@
         "Insufficient MCQs (Need at least 3)",
         "Insufficient MCQs (Need at least 3)"
       ]
+    },
+    {
+      "date": "2026-05-05",
+      "totalBlogs": 9,
+      "passed": 9,
+      "failed": 0,
+      "avgScore": 100,
+      "passRate": 100,
+      "errors": []
     }
   ],
   "topErrors": [
@@ -405,6 +414,6 @@
       "count": 1
     }
   ],
-  "alertNeeded": true,
-  "alertMessage": "🚨 Last run had <50% pass rate! Only 0/9 blogs passed."
+  "alertNeeded": false,
+  "alertMessage": ""
 }

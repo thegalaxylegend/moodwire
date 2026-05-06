@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/structure-of-the-atom-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 5, 2026*
+*Last Updated: May 6, 2026*
 
 ## 📑 Table of Contents
 
@@ -131,7 +131,7 @@ The atomic radius ($r$) can be calculated using the formula $r = \frac{n^2}{Z}$,
 
 ## 📝 Practice MCQs
 Here are some practice MCQs to help you assess your knowledge of the [Structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet) of the Atom:
-What is the atomic number of an atom with 12 protons and 12 neutrons?
+What is the atomic number of an [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet) with 12 protons and 12 neutrons?
 A) 10
 B) 12
 C) 14

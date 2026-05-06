@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/data-structures-non-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 5, 2026*
+*Last Updated: May 6, 2026*
 
 ## 📑 Table of Contents
 
@@ -228,7 +228,7 @@ What are common Trap Questions for Data Structures: Non-Linear? is a critical co
 ## <a id="how-to-optimize-the-performance-of-nonlinear-data-structures"></a>How to optimize the performance of Non-Linear Data Structures?
 
 How to optimize the performance of Non-Linear [Data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) Structures is optimizing [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structures like trees and graphs for efficient use of memory and processor time. It includes understanding of trees, graphs, n hash tables. For Class 11 exam prep and 2026, the most important aspect is understanding the trade-offs between time and space complexity. 
-   Non-linear data structures are crucial and programming as they allow for efficient storage and retrieval of data. Optimization of these data structures is necessary to ensure that the program runs smoothly and efficiently. One key aspect of optimization is understanding the concept of time and space complexity. Time complexity refers to the amount of time an algorithm takes to complete, while space complexity refers to the amount of memory an algorithm uses. 
+   Non-linear [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structures are crucial and programming as they allow for efficient storage and retrieval of [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards). Optimization of these [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structures is necessary to ensure that the program runs smoothly and efficiently. One key aspect of optimization is understanding the concept of time and space complexity. Time complexity refers to the amount of time an algorithm takes to complete, while space complexity refers to the amount of memory an algorithm uses. 
    To optimize the performance of non-linear data structures, one must first understand the basics of these data structures. A tree is a hierarchical data structure and which each node has a value and zero or more child nodes. A graph is a non-linear data structure consisting of nodes or vertices connected y edges. 
    The $O(n)$ notation is used to express the time complexity of an algorithm, where $n$ is the number of inputs. The $O(1)$ notation is used to express constant time complexity. 
    For example, if we have a tree with $n$ nodes, and we want to search for a specific node, the time complexity would be $O(n)$ n the worst case scenario if we were to traverse the tree linearly. However, if we use a hash table to store the nodes, the time complexity would be $O(1)$, making it much more efficient. 

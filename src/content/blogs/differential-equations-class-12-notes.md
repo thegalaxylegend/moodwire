@@ -74,7 +74,7 @@ manualReview: false
 
 ## 🔁 Last 5 Minutes Box
 - Revision of formulas: dy/dx = f(x,y), dy/f(y) = dx/g(x), etc.
-- Revision of methods: separable variables, homogeneous equation, linear equation, etc.
+- Revision of methods: separable variables, homogeneous equation, [linear](/blog/pair-of-linear-equations-class-10-notes) equation, etc.
 - Revision of shortcuts: using integrating factor, using test for exactness, etc.
 - Practice of solving differential equations quickly
 - Practice of applying boundary conditions to find the particular solution

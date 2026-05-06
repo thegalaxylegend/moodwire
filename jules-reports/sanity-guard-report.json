@@ -1,10 +1,10 @@
 {
-  "date": "2026-05-05T08:14:11.529Z",
+  "date": "2026-05-06T04:34:45.218Z",
   "summary": {
-    "total": 231,
+    "total": 234,
     "errors": 0,
-    "warnings": 208,
-    "clean": 38
+    "warnings": 211,
+    "clean": 39
   },
   "issues": [
     {
@@ -490,8 +490,7 @@
       "file": "gender-religion-and-caste-class-10-notes.md",
       "errors": [],
       "warnings": [
-        "Potential raw LaTeX detected outside of $...$ delimiters",
-        "Contains stale year references (2023 CBSE...)"
+        "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
     {
@@ -834,6 +833,14 @@
       ]
     },
     {
+      "file": "money-and-credit-class-10-notes.md",
+      "errors": [],
+      "warnings": [
+        "Potential raw LaTeX detected outside of $...$ delimiters",
+        "Contains stale year references (2023 CBSE...)"
+      ]
+    },
+    {
       "file": "morphology-of-flowering-plants-class-11-revision-notes-neet.md",
       "errors": [],
       "warnings": [
@@ -908,6 +915,14 @@
       "errors": [],
       "warnings": [
         "Light Content: Body is 932 words (Ideal: 1500+)"
+      ]
+    },
+    {
+      "file": "outcomes-of-democracy-class-10-notes.md",
+      "errors": [],
+      "warnings": [
+        "Potential raw LaTeX detected outside of $...$ delimiters",
+        "Contains stale year references (2023 CBSE...)"
       ]
     },
     {
@@ -994,8 +1009,7 @@
       "file": "political-parties-class-10-notes.md",
       "errors": [],
       "warnings": [
-        "Potential raw LaTeX detected outside of $...$ delimiters",
-        "Contains stale year references (2023 CBSE...)"
+        "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
     {
@@ -1017,13 +1031,6 @@
       "errors": [],
       "warnings": [
         "Potential raw LaTeX detected outside of $...$ delimiters"
-      ]
-    },
-    {
-      "file": "power-sharing-class-10-notes.md",
-      "errors": [],
-      "warnings": [
-        "Contains stale year references (2023 CBSE...)"
       ]
     },
     {
@@ -1143,6 +1150,13 @@
       "errors": [],
       "warnings": [
         "Light Content: Body is 1211 words (Ideal: 1500+)"
+      ]
+    },
+    {
+      "file": "sectors-of-the-indian-economy-class-10-notes.md",
+      "errors": [],
+      "warnings": [
+        "Contains stale year references (2023 CBSE...)"
       ]
     },
     {
@@ -1335,7 +1349,8 @@
       "file": "trigonometric-functions-class-11-revision-notes-jee-neet.md",
       "errors": [],
       "warnings": [
-        "Potential raw LaTeX detected outside of $...$ delimiters"
+        "Potential raw LaTeX detected outside of $...$ delimiters",
+        "Contains stale year references (2023 JEE...)"
       ]
     },
     {

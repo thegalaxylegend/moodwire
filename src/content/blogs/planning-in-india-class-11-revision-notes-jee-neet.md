@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/planning-n-india-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 5, 2026*
+*Last Updated: May 6, 2026*
 
 ## 📑 Table of Contents
 
@@ -144,7 +144,7 @@ Answer: a) $GDP_{target} = GDP_{current} \times (1 + r)^n$
 a) Planning Commission
 b) NITI Aayog
 c) Ministry of Finance
-d) Reserve Bank of India
+d) Reserve Bank of [India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
 
 Answer: a) Planning Commission
 

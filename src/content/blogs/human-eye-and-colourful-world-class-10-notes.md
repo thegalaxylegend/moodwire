@@ -354,50 +354,50 @@ The lens formula $f = \frac{1}{v}
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. The focal length of the eye is given by $f = rac{1}{P}$, where $P$ is the power of the eye. If the focal length is 2.5 cm, what is the power of the eye in diopters?**
-**A)**          10 D
-**B)**          5 D
-**C)**          20 D
-**D)**          15 D
+**A)**           10 D
+**B)**           5 D
+**C)**           20 D
+**D)**           15 D
 
 **Answer:** A) The other options are incorrect because they do not correctly calculate the power of the eye. The correct calculation is $P = rac{1}{f} = rac{1}{2.5} = 0.4$ D, which is closest to option A.
 
 ---
 
 **2. An object is placed at a distance of 30 cm from the eye. If the eye is to focus on this object, how much should the ciliary muscles contract?**
-**A)**          10% contraction
-**B)**          20% contraction
-**C)**          30% contraction
-**D)**          50% contraction
+**A)**           10% contraction
+**B)**           20% contraction
+**C)**           30% contraction
+**D)**           50% contraction
 
 **Answer:** C) The other options are incorrect because they do not correctly calculate the required contraction of the ciliary muscles. The correct calculation is that the eye needs to focus on an object at 30 cm, which requires a contraction of $c = rac{d}{f} = rac{30}{25} = 1.2$ times the original length, which is closest to option C.
 
 ---
 
 **3. A person has a near point of 25 cm. What is the power of the eye in diopters?**
-**A)**          4 D
-**B)**          6 D
-**C)**          8 D
-**D)**          10 D
+**A)**           4 D
+**B)**           6 D
+**C)**           8 D
+**D)**           10 D
 
 **Answer:** B) The other options are incorrect because they do not correctly calculate the power of the eye. The correct calculation is that the power of the eye is given by $P = rac{1}{d} = rac{1}{0.25} = 4$ D.
 
 ---
 
 **4. The human eye can focus on objects at distances ranging from 25 cm to infinity. If an object is placed at 50 cm from the eye, what is the angle of view in degrees?**
-**A)**          30°
-**B)**          45°
-**C)**          60°
-**D)**          90°
+**A)**           30°
+**B)**           45°
+**C)**           60°
+**D)**           90°
 
 **Answer:** B) The other options are incorrect because they do not correctly calculate the angle of view. The correct calculation is that the angle of view is given by $	heta = 	an^{-1} left( rac{h}{d} ight)$, where $h$ is the height of the object and $d$ is the distance of the object from the eye. Assuming $h = 1$ m, we get $	heta = 	an^{-1} left( rac{1}{0.5} ight) = 63.4°$, which is closest to option B.
 
 ---
 
 **5. A person has hyperopia with a far point at 100 cm. What is the power of the eye in diopters?**
-**A)**          5 D
-**B)**          1 D
-**C)**          2 D
-**D)**          5 D
+**A)**           5 D
+**B)**           1 D
+**C)**           2 D
+**D)**           5 D
 
 **Answer:** B) The other options are incorrect because they do not correctly calculate the power of the eye. The correct calculation is that the power of the eye is given by $P = rac{1}{d} = rac{1}{1} = 1$ D.
 

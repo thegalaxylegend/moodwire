@@ -20,7 +20,7 @@ manualReview: false
 - If a₁b₂ - a₂b₁ ≠ 0, then the [equations](/blog/quadratic-equations-class-10-notes) are independent and have a unique solution
 
 ## 🪤 The 5 Mistakes That Cost Marks
-- Not checking if the equations are consistent or inconsistent before solving
+- Not checking if the [equations](/blog/quadratic-equations-class-10-notes) are consistent or inconsistent before solving
 - Not using the correct method to solve the equations, i.e., substitution or elimination
 - Not simplifying the equations before solving
 - Not checking the solution by plugging it back into the original equations

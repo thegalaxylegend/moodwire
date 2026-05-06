@@ -32,7 +32,7 @@ manualReview: false
 - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
 - [✏️ 3 Solved PYQs](#-3-solved-pyqs)
   - [Q2 (2019 CBSE): What is communalism? Mention any two ways in which it expresses itself in politics.](#q2-2019-cbse-what-is-communalism-mention-any-two-ways-in-which-it-expresses-itself-in-politics)
-  - [Q3 (2023 CBSE): "Caste has not disappeared from contemporary India." Support the statement with three arguments.](#q3-2023-cbse-caste-has-not-disappeared-from-contemporary-india-support-the-statement-with-three-arguments)
+  - [Q3 (2026 CBSE): "Caste has not disappeared from contemporary India." Support the statement with three arguments.](#q3-2023-cbse-caste-has-not-disappeared-from-contemporary-india-support-the-statement-with-three-arguments)
 - [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
 - [👁️ Ayush's Note](#-ayushs-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
@@ -240,9 +240,9 @@ eq$ Religion + Neutrality = Secularism.
 
 - **Literacy Disparity Formula:** Female Literacy Rate - Male Literacy Rate — Measures the gap in educational access; a negative value indicates systemic educational neglect of women.
 
-- **Political Representation Ratio:** (Number of Women in Parliament / Total Seats in Parliament) × 100 — Indicates the percentage of female voices in national law-making.
+- **Political Representation Ratio:** (Number of Women in Parliament / Total Seats in Parliament) × 100 — Indicates the percentage of female voices in [national](/blog/lifelines-of-national-economy-class-10-notes) law-making.
 
-- **Local Body Reservation Metric:** 1/3 × Total Seats in Panchayats/Municipalities = Minimum Female Representation — The mandatory constitutional quota for women in local government bodies in India.
+- **Local Body Reservation Metric:** 1/3 × Total Seats in Panchayats/Municipalities = Minimum Female Representation — The mandatory constitutional quota for women in local government bodies in [India](/blog/nationalism-in-india-class-10-notes).
 
 - **Sexual Division of Labour Logic:** (Public/Paid Work / Men) + (Private/Unpaid Work / Women) = Gendered Role Split — The socio-economic phenomenon where women are relegated to domestic chores while men control public/economic spheres.
 
@@ -284,7 +284,7 @@ eq$ Religious Dominance) + (Equal Respect for All Religions) = Secular State —
 
 - **Social Mobility Logic:** (Urbanization + Education + Occupational Shift) $\rightarrow$ (Weakening of Caste Identity) = Social Change — The process through which traditional caste structures are disrupted in modern India.
 
-- **Caste-based Conflict Logic:** (Competition for Resources) + (Caste-based Political Demand) = Caste Tension — The friction caused when different caste groups vie for government benefits or political power.
+- **Caste-based Conflict Logic:** (Competition for [Resources](/blog/forest-and-wildlife-resources-class-10-notes)) + (Caste-based Political Demand) = Caste Tension — The friction caused when different caste groups vie for government benefits or political power.
 
 - **Occupational Rigidity Formula:** (Caste Identity = Fixed Occupation) $\rightarrow$ (Economic Stagnation) = Traditional Caste System — The historical link where one's birth determined their profession.
 
@@ -564,7 +564,7 @@ Q[N] ([Year] [Board]), Trap, Solution (Step-by-step), Final Answer, Speed trick.
  * Solution: 1. Belief in religious superiority. 2. Political mobilization on religious lines.
  * Speed trick: Link "Communalism" to "Community-based politics".
 
- * *Q3 (2023 CBSE):* "Caste has not disappeared from contemporary India." Support the statement with three arguments.
+ * *Q3 (2026 CBSE):* "Caste has not disappeared from contemporary India." Support the statement with three arguments.
  * Trap: Arguing that caste is gone because of urbanization; urbanization hasn't wiped out endogamy.
  * Solution: 1. Endogamy (marrying within caste). 2. Untouchability (though illegal, still exists in pockets). 3. Caste-based occupations/networks.
  * Speed trick: Focus on "Marriage" and "Social Hierarchy" to hit the main points.
@@ -577,7 +577,7 @@ Q[N] ([Year] [Board]), Trap, Solution (Step-by-step), Final Answer, Speed trick.
 
  * Q1: 2020 CBSE
  * Q2: 2019 CBSE
- * Q3: 2023 CBSE
+ * Q3: 2026 CBSE
 
  *Self-Correction during drafting:*
  The prompt asks for "3 Solved PYQs".
@@ -723,7 +723,7 @@ Q[N] ([Year] [Board]), Trap, Solution (Step-by-step), Final Answer, Speed trick.
 
 ---
 
-### <a id="q3-2023-cbse-caste-has-not-disappeared-from-contemporary-india-support-the-statement-with-three-arguments"></a>Q3 (2023 CBSE): "Caste has not disappeared from contemporary India." Support the statement with three arguments.
+### <a id="q3-2023-cbse-caste-has-not-disappeared-from-contemporary-india-support-the-statement-with-three-arguments"></a>Q3 (2026 CBSE): "Caste has not disappeared from contemporary India." Support the statement with three arguments.
 
 - 🪤 **Trap:** The most common mistake is saying "Caste is gone because of urbanization." This is factually incorrect in the context of the NCERT syllabus. While urbanization reduces *visible* casteism, it has not eliminated the *structure* of caste (especially marriage and social networks).
 
@@ -1529,50 +1529,50 @@ Democracy must transcend narrow identities of gender, religion, and caste to uph
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. Which of the following statements regarding the 'Sexual Division of Labour' is most accurate in the context of Indian society?**
-**A)**   It is based on biological differences between men and women.
-**B)**   It is a result of social expectations where women do all work inside the home.
-**C)**   It means women are incapable of performing tasks outside the home.
-**D)**   It refers to the equal distribution of work between genders in the public sphere.
+**A)**    It is based on biological differences between men and women.
+**B)**    It is a result of social expectations where women do all work inside the home.
+**C)**    It means women are incapable of performing tasks outside the home.
+**D)**    It refers to the equal distribution of work between genders in the public sphere.
 
 **Answer:** B) B is correct because the division is based on social norms and expectations, not biology. A is wrong because the division is social, not biological. C is wrong because it implies physical inability, whereas women do perform work outside the home (though often unpaid or undervalued). D is wrong because the division actually describes an unequal distribution.
 
 ---
 
 **2. In a country where the Child Sex Ratio is significantly lower than the overall Sex Ratio, which social phenomenon is most likely occurring?**
-**A)**   High literacy rates among women.
-**B)**   Preference for male children leading to sex-selective practices.
-**C)**   High female participation in the workforce.
-**D)**   Equal distribution of resources among all children.
+**A)**    High literacy rates among women.
+**B)**    Preference for male children leading to sex-selective practices.
+**C)**    High female participation in the workforce.
+**D)**    Equal distribution of resources among all children.
 
 **Answer:** B) B is correct as a low child sex ratio (number of girls per 1000 boys) is a direct indicator of gender bias and sex-selective practices. A is wrong because low sex ratios are often correlated with lower female literacy. C is wrong because low sex ratios suggest gender discrimination, which is the opposite of empowerment. D is wrong because a skewed ratio implies unequal treatment of girl children.
 
 ---
 
 **3. Identify the correct relationship between Communalism and Secularism as described in the NCERT curriculum.**
-**A)**   Communalism is a prerequisite for a healthy secular state.
-**B)**   Secularism is a way to promote communalism in diverse societies.
-**C)**   Communalism is the belief that religion is the principal basis of social community, while Secularism seeks to separate religion from the state.
-**D)**   Both terms refer to the same socio-political phenomenon.
+**A)**    Communalism is a prerequisite for a healthy secular state.
+**B)**    Secularism is a way to promote communalism in diverse societies.
+**C)**    Communalism is the belief that religion is the principal basis of social community, while Secularism seeks to separate religion from the state.
+**D)**    Both terms refer to the same socio-political phenomenon.
 
 **Answer:** C) C is correct as it accurately defines both terms. A is wrong because communalism is a threat to democracy, not a prerequisite. B is wrong because secularism is designed to counter communalism, not promote it. D is wrong because they are opposing concepts.
 
 ---
 
 **4. A person believes that their religion is superior to all others and that followers of other religions cannot be part of the same nation. This is an example of:**
-**A)**   Religious tolerance
-**B)**   Communalism
-**C)**   Casteism
-**D)**   Secularism
+**A)**    Religious tolerance
+**B)**    Communalism
+**C)**    Casteism
+**D)**    Secularism
 
 **Answer:** B) B is correct because the core of communalism is the belief that religious identity is the primary identity and one religion is superior. A is wrong because the person is showing intolerance. C is wrong because casteism refers to social stratification based on birth/varna, not religious superiority. D is wrong because secularism promotes equality across religions.
 
 ---
 
 **5. Which of the following is a critical 'trap' in understanding the relationship between Caste and Politics?**
-**A)**   Caste does not influence politics at all.
-**B)**   Politics only influences caste and never the other way around.
-**C)**   Casteism is the only factor that determines election outcomes.
-**D)**   While caste influences politics, politics also influences caste by creating new groups and coalitions.
+**A)**    Caste does not influence politics at all.
+**B)**    Politics only influences caste and never the other way around.
+**C)**    Casteism is the only factor that determines election outcomes.
+**D)**    While caste influences politics, politics also influences caste by creating new groups and coalitions.
 
 **Answer:** D) D is correct because it captures the complex, two-way relationship. A is wrong because caste is a significant factor in Indian elections. B is wrong because the influence is bidirectional (politics affects caste identities). C is wrong because while caste is important, factors like leadership, party performance, and economic issues also determine outcomes.
 

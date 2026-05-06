@@ -55,7 +55,7 @@ manualReview: false
 - therefore, the solution is x = 2
 
 ## 🔁 Last 5 Minutes Box
-- ∈ the last 5 minutes of the exam, quickly review the formulas and concepts of linear equations
+- ∈ the last 5 minutes of the exam, quickly review the formulas and concepts of linear [equations](/blog/differential-equations-class-12-notes)
 - make sure to check the solutions by plugging them back into the original equations
 - also, make sure to write the final answers ∈ the correct format
 - for example, x = 2 instead of x = 2.0

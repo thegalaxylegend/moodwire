@@ -46,7 +46,7 @@ manualReview: false
 - Check for any last-minute questions or doubts
 
 ## 📝 Practice MCQs
-**1. What is the ma∈ difference between asexual and sexual reproduction?**
+**1. What is the ma∈ difference between asexual and sexual [reproduction](/blog/reproduction-in-organisms-class-12-notes)?**
 -
 A) Asexual reproduction involves two parents, while sexual reproduction involves one parent
 -

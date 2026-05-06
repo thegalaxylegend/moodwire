@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/data-structures-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 5, 2026*
+*Last Updated: May 6, 2026*
 
 ## 📑 Table of Contents
 
@@ -297,7 +297,7 @@ The following table summarizes the key differences between static and dynamic me
 
 ## <a id="what-are-common-trap-questions-for-data-structures-linear"></a>What are common Trap Questions for Data Structures: Linear?
 
-What are common Trap Questions for Data Structures: Linear? is a crucial aspect of computer science that deals with the organization and manipulation of data. It includes arrays, linked lists, n stacks. For Class 11 exam prep and 2026, the most important aspect is understanding how to implement and manipulate these data structures efficiently.
+What are common Trap Questions for [Data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Structures: Linear? is a crucial aspect of computer science that deals with the organization and manipulation of [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards). It includes arrays, linked lists, n stacks. For Class 11 exam prep and 2026, the most important aspect is understanding how to implement and manipulate these [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures efficiently.
 
 Trap questions and linear data structures often focus on the nuances of implementation, such as edge cases, time complexity, n space complexity. One common type of trap question is the 'implementation trap', where students are asked to implement a specific function or operation on a linear data structure, such as inserting or deleting an element from a linked list. Another type of trap question is the '[analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) trap', where students are asked to analyze the time or space complexity of a given algorithm or data structure.
 

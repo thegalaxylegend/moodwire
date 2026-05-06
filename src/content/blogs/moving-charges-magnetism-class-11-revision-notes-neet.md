@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/moving-charges-magnetism-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 5, 2026*
+*Last Updated: May 6, 2026*
 
 ## 📑 Table of Contents
 

@@ -75,7 +75,7 @@ Provide a "Formula Bank" for a Social Science chapter.
  * State Party Rule: ≥ 6% votes in State Legislative Assembly + ≥ 2 seats.
 
  * *Section 4: The Challenge Logic (The Iron Law of Oligarchy concept mentioned in research context)*
- * Challenge = Dynastic Succession + Lack of Internal Democracy + Money Power + Muscle Power.
+ * Challenge = Dynastic Succession + Lack of Internal Democracy + Money [Power](/blog/power-sharing-class-10-notes) + Muscle [Power](/blog/power-sharing-class-10-notes).
 
  * *Section 5: Reform Frameworks*
  * Transparency = Affidavit + Disclosure of Assets.
@@ -186,7 +186,7 @@ Provide a "Formula Bank" for a Social Science chapter.
 
 - **Political Party Structure:** Leaders + Active Members + Followers — A party is not just a group of people; it must have a hierarchy of decision-makers, dedicated workers, and a mass base of supporters.
 
-- **Party Component 1 (Leadership):** Decision-making body + Policy formulation — The core group that decides the party's direction.
+- **Party Component 1 (Leadership):** Decision-[making](/blog/the-making-of-a-global-world-class-10-notes) body + Policy formulation — The core group that decides the party's direction.
 
 - **Party Component 2 (Active Members):** Grassroots workers + Organizational maintenance — Those who execute party tasks and manage local units.
 
@@ -518,14 +518,14 @@ Class 10, Social Science (Civics), Year 2026 (simulated/predicted based on 2018-
  * Rule "MATH & SYMBOL RULES (ZERO TOLERANCE)" under OUTPUT FORMAT RULES says: "DO NOT use LaTeX. Use raw Unicode symbols for math and Greek letters... Do not use $ or delimiters."
  * *Conflict Resolution:* Usually, the *final* instruction/Output Format Rules take precedence in LLM prompting. The prompt says "🚨 OUTPUT FORMAT RULES (violations break the website)" and explicitly forbids LaTeX and $ delimiters. I will follow the **Output Format Rules** (Unicode only, no LaTeX, no $).
 
- * *Question 1 (2021 CBSE):*
+ * *Question 1 (2026 CBSE):*
  * Q: Identify the type of party system where more than two parties have a reasonable chance of coming to power either alone or in alliance.
  * Trap: Thinking a multi-party system *always* results in a coalition.
  * Solution: Step 1: Analyze options (One-party, Two-party, Multi-party). Step 2: Match "more than two" with "Multi-party".
  * Final Answer: Multi-party system.
  * Speed trick: Look for the keyword "more than two" → Instant Multi-party.
 
- * *Question 2 (2023 CBSE - Assertion/Reasoning):*
+ * *Question 2 (2026 CBSE - Assertion/Reasoning):*
  * A: Political parties are necessary for a democracy.
  * R: Without parties, every candidate would be independent, making it impossible to make large-scale promises or policies.
  * Trap: Choosing "R is not the correct explanation" because students think parties are "bad" due to corruption.
@@ -533,7 +533,7 @@ Class 10, Social Science (Civics), Year 2026 (simulated/predicted based on 2018-
  * Final Answer: Both A and R are true, and R is the correct explanation of A.
  * Speed trick: Ask "Why?" after reading A. If R answers it, it's the correct explanation.
 
- * *Question 3 (2024 CBSE - Challenge Identification):*
+ * *Question 3 (2026 CBSE - Challenge Identification):*
  * Q: Which challenge to political parties refers to the phenomenon where top positions are always controlled by members of one family?
  * Trap: Confusing "Lack of internal democracy" with "Dynastic succession."
  * Solution: Step 1: Identify the core issue (Family control). Step 2: Match with term (Dynastic succession).
@@ -576,7 +576,7 @@ Class 10, Social Science (Civics), Year 2026 (simulated/predicted based on 2018-
 
  ### ✏️ 3 Solved PYQs
 
- **Q1 (2022 CBSE):** In a multi-party system, which of the following is a common outcome?
+ **Q1 (2026 CBSE):** In a multi-party system, which of the following is a common outcome?
  (a) High political stability
  (b) Frequent formation of coalition governments
  (c) Only two major parties compete for power
@@ -591,7 +591,7 @@ Class 10, Social Science (Civics), Year 2026 (simulated/predicted based on 2018-
 
  ---
 
- **Q2 (2024 CBSE):**
+ **Q2 (2026 CBSE):**
  **Assertion (A):** Dynastic succession is a significant challenge to political parties in India.
  **Reason ®:** It allows people without adequate experience or popular support to rise to the top positions of the party.
  (a) Both A and R are true and R is the correct explanation of A.
@@ -608,7 +608,7 @@ Class 10, Social Science (Civics), Year 2026 (simulated/predicted based on 2018-
 
  ---
 
- **Q3 (2023 CBSE):** Which function of a political party involves the process of bringing together various views and reconciling them to formulate policies?
+ **Q3 (2026 CBSE):** Which function of a political party involves the process of bringing together various views and reconciling them to formulate policies?
  (a) Contesting elections
  (b) Making laws for the country
  (c) Shaping public opinion
@@ -640,7 +640,7 @@ Class 10, Social Science (Civics), Year 2026 (simulated/predicted based on 2018-
 
  *Let's go.*### ✏️ 3 Solved PYQs
 
-**Q1 (2022 CBSE):** In a multi-party system, which of the following is a characteristic feature regarding the formation of government?
+**Q1 (2026 CBSE):** In a multi-party system, which of the following is a characteristic feature regarding the formation of government?
 (a) One single party always holds a clear majority.
 (b) Power is shared between two major competing parties.
 (c) Many parties compete for power, often leading to coalition governments.
@@ -659,7 +659,7 @@ Class 10, Social Science (Civics), Year 2026 (simulated/predicted based on 2018-
 
 ---
 
-**Q2 (2024 CBSE):**
+**Q2 (2026 CBSE):**
 **Assertion (A):** Dynastic succession is a major challenge to political parties in India.
 **Reason ®:** It leads to control of political parties by one family, which prevents ordinary members from rising to the top positions.
 (a) Both A and R are true and R is the correct explanation of A.
@@ -679,7 +679,7 @@ Class 10, Social Science (Civics), Year 2026 (simulated/predicted based on 2018-
 
 ---
 
-**Q3 (2023 CBSE):** Which of the following functions of a political party is most directly responsible for the "aggregation of interests" in a democracy?
+**Q3 (2026 CBSE):** Which of the following functions of a political party is most directly responsible for the "aggregation of interests" in a democracy?
 (a) Contesting elections to gain power.
 (b) Forming and running the government.
 (c) Shaping public opinion through various stances.
@@ -820,7 +820,7 @@ Class 10 CBSE (NCERT based).
  (Proceeding to generate output)### 🧠 The One Thing Most Students Get Wrong
 
 - **The misconception (what 85% believe):**
- Most students treat the "Functions" and "Challenges" of political parties as a single, blurred list of "things that happen in politics." When reading a question in the board exam, if a student sees "Dynastic Succession" or "Money and Muscle Power," they instinctively categorize them as "roles" or "activities" of a party because they see them occurring in real-world news. They fail to distinguish between what a party *must do* to sustain a democracy and what is *breaking* the democracy.
+ Most students treat the "Functions" and "Challenges" of political parties as a single, blurred list of "things that happen in politics." When reading a question in the board exam, if a student sees "Dynastic Succession" or "Money and Muscle Power," they instinctively categorize them as "roles" or "activities" of a party because they see them occurring in real-[world](/blog/print-culture-and-the-modern-world-class-10-notes) news. They fail to distinguish between what a party *must do* to sustain a democracy and what is *breaking* the democracy.
 
 - **The reality (what 99% know):**
  A top-ranker understands that the CBSE/NCERT syllabus creates a hard binary between **Functions** (the structural necessities) and **Challenges** (the systemic failures).

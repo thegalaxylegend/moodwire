@@ -210,7 +210,7 @@ Q2 (2019 CBSE): Analyze the role of $print\\ culture$ in $shaping\\ public\\ opi
 - 🧮 **Solution (Step-by-step):**
  Step 1: Examine the $rise\\ of\\ newspapers$ and $journals$ as $influential\\ mediums$ for $political\\ expression$ and $social\\ commentary$.
  Step 2: Discuss the $impact\\ of\\ print\\ culture$ on $shaping\\ public\\ opinion$, including the $dissemination\\ of\\ ideas$ and the $mobilization\\ of\\ social\\ movements$.
- **Final Answer:** Print\\ culture\\ played\\ a\\ pivotal\\ role\\ in\\ shaping\\ public\\ opinion\\ during\\ the\\ 19^{th}\\ century,\\ facilitating\\ the\\ exchange\\ of\\ ideas\\ and\\ influencing\\ political\\ discourse. 
+ **Final Answer:** Print\\ culture\\ played\\ a\\ pivotal\\ role\\ in\\ shaping\\ public\\ opinion\\ during\\ the\\ 19^{th}\\ century,\\ facilitating\\ the\\ exchange\\ of\\ ideas\\ and\\ influencing\\ [political](/blog/political-parties-class-10-notes)\\ discourse. 
 
 - ⚡ **Speed trick:** emphasize the $connection\\ between\\ print\\ culture\\ and\\ political\\ expression$.
 
@@ -289,7 +289,7 @@ By associating the word **PRINT** with these key concepts, you can easily recall
 
 - **🎯 The "Always Check" Rule:** When answering questions related to the impact of print culture on society, always check if the question is asking about the effects on a specific group, such as women or laborers, as examiners often test the ability to analyze the effects on marginalized groups.
 
-- **📊 PYQ Frequency Intel:** The sub-topics of Print Culture and the Modern World asked in previous years are: 
+- **📊 PYQ Frequency Intel:** The sub-topics of Print Culture and the Modern [World](/blog/human-eye-and-colourful-world-class-10-notes) asked in previous years are: 
  * 2019: The role of print culture in the spread of nationalist ideas [1]
  * 2021: The impact of print culture on women's education and empowerment [2]
  * 2023: The effects of print culture on the labor movement and working-class consciousness [3]
@@ -332,50 +332,50 @@ The print revolution, led by the Gutenberg Press, had a profound impact on the [
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. Which of the following is NOT a characteristic of print culture?**
-**A)**        Print culture emphasizes the importance of visual aids.
-**B)**        Print culture relies heavily on literacy skills.
-**C)**        Print culture is more expensive than oral culture.
-**D)**        Print culture allows for mass production of books.
+**A)**         Print culture emphasizes the importance of visual aids.
+**B)**         Print culture relies heavily on literacy skills.
+**C)**         Print culture is more expensive than oral culture.
+**D)**         Print culture allows for mass production of books.
 
 **Answer:** C) Print culture is actually less expensive than oral culture. Option C is incorrect because print culture makes written materials more accessible and affordable for a larger audience. Option A is incorrect because print culture does use visual aids, but they are typically illustrations or images within the text. Option D is correct because print culture enables mass production of books, making written knowledge more widely available.
 
 ---
 
 **2. A book costs ₹50 to produce but sells for ₹100. What is the profit made on selling one book?**
-**A)**        ₹10
-**B)**        ₹20
-**C)**        ₹50
-**D)**        ₹100
+**A)**         ₹10
+**B)**         ₹20
+**C)**         ₹50
+**D)**         ₹100
 
 **Answer:** A) To calculate the profit, we need to subtract the cost of production from the selling price. Profit = Selling price - Cost of production = ₹100 - ₹50 = ₹50. However, this is the total amount of profit made per book. To find the profit per book, we need to divide the total profit by the number of books sold. Assuming 1 book is sold, the profit is still ₹50. Option B and D are incorrect because they do not take into account the cost of production. Option C is incorrect because it is the total amount of profit, not the profit per book.
 
 ---
 
 **3. What is the significance of the Guttenberg press?**
-**A)**        It allowed for mass production of books.
-**B)**        It made books more expensive to produce.
-**C)**        It increased the importance of literacy skills.
-**D)**        It decreased the use of visual aids in books.
+**A)**         It allowed for mass production of books.
+**B)**         It made books more expensive to produce.
+**C)**         It increased the importance of literacy skills.
+**D)**         It decreased the use of visual aids in books.
 
 **Answer:** A) The Guttenberg press was a significant innovation in printing technology because it allowed for mass production of books. This made written knowledge more widely available and helped to spread information across a larger audience. Option B is incorrect because the Guttenberg press actually made books less expensive to produce. Option C is incorrect because the Guttenberg press did not directly increase the importance of literacy skills, but it did make written materials more accessible. Option D is incorrect because the Guttenberg press did not decrease the use of visual aids in books, but it did enable the mass production of books with illustrations and images.
 
 ---
 
 **4. What is the effect of print culture on the spread of knowledge?**
-**A)**        It slows down the spread of knowledge.
-**B)**        It has no effect on the spread of knowledge.
-**C)**        It makes knowledge more accessible to a larger audience.
-**D)**        It increases the cost of producing written materials.
+**A)**         It slows down the spread of knowledge.
+**B)**         It has no effect on the spread of knowledge.
+**C)**         It makes knowledge more accessible to a larger audience.
+**D)**         It increases the cost of producing written materials.
 
 **Answer:** C) Print culture has the effect of making knowledge more accessible to a larger audience. This is because print culture enables mass production of books, making written materials more widely available. Option A is incorrect because print culture actually accelerates the spread of knowledge. Option B is incorrect because print culture does have an impact on the spread of knowledge. Option D is incorrect because print culture makes written materials more affordable, not more expensive.
 
 ---
 
 **5. If a book costs ₹200 to produce and sells for ₹400, what is the profit made per book?**
-**A)**        ₹50
-**B)**        ₹100
-**C)**        ₹200
-**D)**        ₹400
+**A)**         ₹50
+**B)**         ₹100
+**C)**         ₹200
+**D)**         ₹400
 
 **Answer:** B) To calculate the profit, we need to subtract the cost of production from the selling price. Profit = Selling price - Cost of production = ₹400 - ₹200 = ₹200. This is the total profit made per book, but we need to divide it by the number of books sold to find the profit per book. Assuming 1 book is sold, the profit per book is still ₹200. Option A is incorrect because it is half the correct profit. Option C is incorrect because it is the total amount of profit, not the profit per book. Option D is incorrect because it is the selling price, not the profit.
 

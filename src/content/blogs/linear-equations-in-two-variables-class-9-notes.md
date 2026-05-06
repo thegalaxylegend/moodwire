@@ -92,7 +92,7 @@ D) 4
 
 **Answer: A) 1.**
 
-**4. Solve the system of equations x + 2y - 3 = 0 and 2x + 3y + 2 = 0.**
+**4. Solve the system of [equations](/blog/differential-equations-class-12-notes) x + 2y - 3 = 0 and 2x + 3y + 2 = 0.**
 -
 A) x = -13, y = 8
 -

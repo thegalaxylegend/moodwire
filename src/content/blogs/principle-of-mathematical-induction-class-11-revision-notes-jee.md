@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/principle-of-mathematical-induction-class-11-revision-notes-jee"
 ---
 
-*Last Updated: May 5, 2026*
+*Last Updated: May 6, 2026*
 
 ## 📑 Table of Contents
 
@@ -87,7 +87,7 @@ The Principle of [Mathematical](/blog/mathematical-induction-class-11-revision-n
 
 We'll start y exploring the basics of PMI, including the base case and the inductive step. We'll then move on to more complex topics, including strong induction and backwards induction. We'll also discuss common pitfalls and mistakes to avoid, n we'll provide tips and strategies for mastering the concept. By the end of this journey, you'll have a deep understanding of the Principle of [Mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) Induction, n you'll be well-prepared to tackle the challenges of the class 11 exam. 
 
-So, let's get started on this journey, n let's explore the world of PMI together! We'll work through examples and problems, n we'll discuss the key concepts and formulas that you need to know. We'll also provide tips and strategies for mastering the concept, n we'll help you develop a deeper appreciation for the beauty and elegance of mathematical proofs. By the end of this journey, you'll be well-prepared to tackle the challenges of the class 11 exam, n you'll have a deep understanding of the Principle of Mathematical Induction. 
+So, let's get started on this journey, n let's explore the world of PMI together! We'll work through examples and problems, n we'll discuss the key concepts and formulas that you need to know. We'll also provide tips and strategies for mastering the concept, n we'll help you develop a deeper appreciation for the beauty and elegance of [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) proofs. By the end of this journey, you'll be well-prepared to tackle the challenges of the class 11 exam, n you'll have a deep understanding of the Principle of [Mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) Induction. 
 
 In the world of mathematics, the Principle of Mathematical Induction is a powerful tool that can be used to prove complex results with ease. It's a concept that has far-reaching implications, n it's essential to develop a deep understanding of it. By practicing regularly and mastering the basics, you'll be well-prepared to tackle the challenges of the [class](/blog/permutations-and-combinations-class-11-revision-notes-jee) 11 exam, n you'll develop a deeper appreciation for the beauty and elegance of mathematical proofs. 
 

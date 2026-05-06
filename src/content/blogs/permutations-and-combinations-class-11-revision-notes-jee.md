@@ -57,7 +57,7 @@ To master [permutations](/blog/permutations-combinations-class-11-revision-notes
 
 * **Forgetting to Apply the Formula for Permutations**: A common mistake is not using the correct formula for permutations, which is given by $nPr = \frac{n!}{(n-r)!}$, where $n$ is the total number of items and $r$ is the number of items being chosen.
 * **Confusing Permutations with Combinations**: Students often get confused between permutations and combinations, where order matters in permutations but not in combinations. The formula for combinations is $nCr = \frac{n!}{r!(n-r)!}$.
-* **Not Considering the Case of Repetition**: When dealing with permutations or combinations of items where some items repeat, students often forget to account for this repetition, leading to incorrect calculations.
+* **Not Considering the Case of Repetition**: When dealing with [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) or combinations of items where some items repeat, students often forget to account for this repetition, leading to incorrect calculations.
 * **Incorrectly Calculating the Number of Ways to Arrange Items**: A trap question might involve arranging items with certain restrictions, such as arranging people in a line with certain people always together or never together. Students must apply the correct principles to solve these problems.
 * **Failing to Simplify Factorials and Expressions**: Simplifying expressions involving factorials is crucial in permutations and combinations. Students should be careful to simplify expressions like $\frac{n!}{(n-r)!}$ to $n(n-1)(n-2)...(n-r+1)$ to avoid computational errors.
 

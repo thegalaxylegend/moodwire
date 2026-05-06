@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/algorithms-design-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 5, 2026*
+*Last Updated: May 6, 2026*
 
 ## 📑 Table of Contents
 
@@ -305,7 +305,7 @@ def knapsack(items, max_we\r\r\r\r\right):
 
 This solution has a time complexity of $O(nW)$, where $n$ is the number of items n $W$ is the maximum weight.
 
-In summary, dynamic programming is a powerful technique for optimizing algorithm performance y breaking down complex problems into simpler subproblems and storing the solutions to subproblems and a memory table. By applying dynamic programming to problems like the Fibonacci series and the 0/1 Knapsack problem, we can significantly improve the performance of our algorithms.
+In summary, dynamic programming is a powerful technique for optimizing algorithm performance y breaking down complex problems into simpler subproblems and storing the solutions to subproblems and a memory table. By applying dynamic programming to problems like the Fibonacci series and the 0/1 Knapsack problem, we can significantly improve the performance of our [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards).
 
 | Item | Weight | Value |
 | --- | --- | --- |

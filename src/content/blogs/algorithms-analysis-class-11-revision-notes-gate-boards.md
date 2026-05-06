@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/algorithms-analysis-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 5, 2026*
+*Last Updated: May 6, 2026*
 
 ## 📑 Table of Contents
 
@@ -362,7 +362,7 @@ Continue your revision with these related guides:
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/[algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards)-analysis-class-11-revision-notes-gate-boards) now and track your progress against thousands of students.
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Algorithms%20Analysis%20Gate%20Boards%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards)%20Analysis%20Gate%20Boards%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 
@@ -382,5 +382,5 @@ Continue your revision with these related guides:
      * Space complexity: **Auxiliary space**, **Total space**
      * Asymptotic analysis: **Theta notation**, **Omega notation**
      * Amortized analysis: **Aggregate analysis**, **Accounting method**
-     * Recurrence relations: **Linear**, **Non-linear**, **Homogeneous**, **Non-homogeneous**
+     * Recurrence relations: **[Linear](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards)**, **Non-[linear](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards)**, **Homogeneous**, **Non-homogeneous**
      * Master theorem: **Case 1**, **Case 2**, **Case 3**
