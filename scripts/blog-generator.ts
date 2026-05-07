@@ -385,18 +385,16 @@ DO NOT use phrases like "In conclusion", "delve into", "comprehensive", "embark 
 const CROSS_SECTION_RULES_DEFAULT = `
 RULES FOR THE LAST-NIGHT REVISION FORMAT:
 1. NO INTRODUCTIONS. NO DEFINITIONS. NO PREREQUISITES. Start directly with high-yield exam insights.
-2. LATEX RULE (ZERO TOLERANCE — BREAKING THIS BREAKS THE SITE): 
-   - Every single mathematical symbol, formula, or variable MUST be wrapped in dollar signs.
-   - ❌ NEVER WRITE: \frac{a}{b}, \sum, \Delta, T_initial, or \alpha
-   - ✅ ALWAYS WRITE: $\frac{a}{b}$, $\sum$, $\Delta$, $T_{initial}$, or $\alpha$
-   - Block formulas: $$\\frac{a}{b}$$ (Use for major equations, ensure newline before/after).
-   - Inline formulas: $E=mc^2$ (Use for variables and short relations).
-   - NEVER use \\( ... \\) or \\[ ... \\]. ONLY use $...$ and $$...$$.
-   - NEVER put markdown bolding/italics inside math blocks.
+2. MATH & SYMBOL RULES (UNICODE-FIRST):
+   - Use raw Unicode symbols for all mathematical notations, formulas, and Greek letters.
+   - ✅ ALWAYS WRITE: α, β, Σ, Δ, θ, π, √x, x², a/b, T_initial, ±, ≈, ∞, ≠, ≤, ≥
+   - ❌ NEVER WRITE: \\alpha, \\sum, \\Delta, \\frac{a}{b}, $x^2$, $T_{initial}$
+   - Do NOT wrap math in $ or $$ delimiters.
 3. BULLET POINTS OVER PARAGRAPHS: NEVER WRITE WALLS OF TEXT. Use bullet points (- ) for 80% of your content.
 4. NO HTML TAGS: Use pure markdown.
 5. NO JSON SQUASHING: Output raw, clean Github-Flavored Markdown.
 6. TABLES AND STRUCTURE: Use strict Github-Flavored Markdown tables with pipes (|).
+7. AUTHENTIC TONE: Use bolding (**concept**) for emphasis, but keep it readable.
 `;
 
 // Dynamic temperature — evolved or default 0.7
@@ -442,13 +440,20 @@ function getSubjectTargets(subject: string): { minWords: number; maxWords: numbe
  * NEW: Research Phase
  * Uses Exa AI and Jina to fetch real-world CBSE/NCERT data before generation.
  */
+/**
+ * NEW: Research Phase
+ * Uses Exa AI and Jina to fetch real-world CBSE/NCERT data before generation.
+ * Optimized with Promise.all for high concurrency.
+ */
 async function researchTopic(item: any, targetYear: number): Promise<string> {
     console.log(`🔍 Jules: Starting Neural Research for "${item.topic}"...`);
     
     // Safety check for class
     const displayClass = (item.class || '10').replace(/\D/g, '');
     const query = `CBSE Class ${displayClass} ${item.subject} ${item.topic} official syllabus and important questions ${targetYear}`;
-    const searchResults = await ExternalApiService.searchWeb(query, 2, item.topic);
+    
+    // Step 1: Initial search (must be sequential to get URLs for the next step)
+    const searchResults = await ExternalApiService.searchWeb(query, 3, item.topic);
     
     if (!searchResults || searchResults.length === 0) {
         console.warn("⚠️ Research Phase: No search results found. Proceeding with AI internal knowledge.");
@@ -457,95 +462,115 @@ async function researchTopic(item: any, targetYear: number): Promise<string> {
 
     let contextBuffer = "--- RESEARCH CONTEXT (ACTUAL EXAM DATA 2026) ---\n";
     
-    for (const result of searchResults) {
-        console.log(`   📄 Reading: ${result.title}...`);
-        // Try to get highlighting first (fast)
-        if (result.highlights && result.highlights.length > 0) {
-            contextBuffer += `[Source: ${result.title}]\n${result.highlights.join('\n')}\n\n`;
-        } else {
-            // Fallback to Jina for full page reading (slower)
-            const content = await ExternalApiService.getMarkdownFromUrl(result.url);
-            if (content) {
-                contextBuffer += `[Source: ${result.title}]\n${content.substring(0, 1500)}...\n\n`;
+    // Step 2: Parallelized Data Gathering
+    const researchTasks = [
+        // A. Read search result contents in parallel
+        (async () => {
+            let buffer = "";
+            const readTasks = searchResults.map(async (result) => {
+                if (result.highlights && result.highlights.length > 0) {
+                    return `[Source: ${result.title}]\n${result.highlights.join('\n')}\n\n`;
+                } else {
+                    const content = await ExternalApiService.getMarkdownFromUrl(result.url);
+                    return content ? `[Source: ${result.title}]\n${content.substring(0, 1500)}...\n\n` : "";
+                }
+            });
+            const results = await Promise.all(readTasks);
+            return results.join("");
+        })(),
+
+        // B. Academic Grounding (arXiv)
+        (async () => {
+            if (['Physics', 'Mathematics', 'Maths', 'Chemistry', 'Science'].includes(item.subject)) {
+                const arxiv = await AcademicSearchService.searchArXiv(item.topic, 2);
+                if (arxiv && arxiv.length > 0) {
+                    let buffer = `\n[Scientific Grounding - arXiv]:\n`;
+                    arxiv.forEach(paper => {
+                        buffer += `- Title: ${paper.title}\n  Summary: ${paper.summary.substring(0, 300)}...\n`;
+                    });
+                    return buffer;
+                }
             }
-        }
-    }
+            return "";
+        })(),
 
-    // 2. Academic Grounding (arXiv)
-    if (['Physics', 'Mathematics', 'Maths', 'Chemistry', 'Science'].includes(item.subject)) {
-        console.log(`   📚 Checking arXiv for scientific grounding...`);
-        const arxiv = await AcademicSearchService.searchArXiv(item.topic, 2);
-        if (arxiv && arxiv.length > 0) {
-            contextBuffer += `\n[Scientific Grounding - arXiv]:\n`;
-            arxiv.forEach(paper => {
-                contextBuffer += `- Title: ${paper.title}\n  Summary: ${paper.summary.substring(0, 300)}...\n`;
-            });
-        }
-    }
-
-    // 2b. Semantic Scholar Grounding (High Impact Papers)
-    if (['Physics', 'Chemistry', 'Biology', 'Science'].includes(item.subject)) {
-        console.log(`   🎓 Checking Semantic Scholar for high-impact papers...`);
-        const papers = await AcademicSearchService.searchSemanticScholar(item.topic, 1);
-        if (papers && papers.length > 0) {
-            contextBuffer += `\n[High Impact Paper - Semantic Scholar]:\n`;
-            papers.forEach(p => {
-                contextBuffer += `- Title: ${p.title} (${p.year})\n  Summary: ${p.abstract.substring(0, 300)}...\n`;
-            });
-        }
-    }
-
-    // 3. Optional: Add Wolfram context for Math/Science
-    if (['Physics', 'Chemistry', 'Mathematics', 'Science'].includes(item.subject)) {
-        console.log(`   🔢 Checking Wolfram Alpha for precision data...`);
-        const wolfram = await ExternalApiService.getWolframResults(item.topic);
-        if (wolfram && wolfram.pods) {
-            const primary = wolfram.pods.find((p: any) => p.id === 'Definition' || p.id === 'Result');
-            if (primary) {
-                contextBuffer += `[Wolfram Alpha Precision Data]: ${primary.subpods[0].plaintext}\n\n`;
+        // C. Semantic Scholar
+        (async () => {
+            if (['Physics', 'Chemistry', 'Biology', 'Science'].includes(item.subject)) {
+                const papers = await AcademicSearchService.searchSemanticScholar(item.topic, 1);
+                if (papers && papers.length > 0) {
+                    let buffer = `\n[High Impact Paper - Semantic Scholar]:\n`;
+                    papers.forEach(p => {
+                        buffer += `- Title: ${p.title} (${p.year})\n  Summary: ${p.abstract.substring(0, 300)}...\n`;
+                    });
+                    return buffer;
+                }
             }
-        }
-    }
+            return "";
+        })(),
 
-    // 4. Textbook Grounding (Open Library)
-    console.log(`   📖 Referencing standard literature...`);
-    const books = await AcademicSearchService.searchBooks(`${item.subject} ${item.topic}`, 2);
-    if (books && books.length > 0) {
-        contextBuffer += `\n[Reference Literature]:\n`;
-        books.forEach(book => {
-            contextBuffer += `- ${book.title} (by ${book.author}, ${book.year})\n`;
-        });
-    }
+        // D. Wolfram Alpha
+        (async () => {
+            if (['Physics', 'Chemistry', 'Mathematics', 'Science'].includes(item.subject)) {
+                const wolfram = await ExternalApiService.getWolframResults(item.topic);
+                if (wolfram && wolfram.pods) {
+                    const primary = wolfram.pods.find((p: any) => p.id === 'Definition' || p.id === 'Result');
+                    if (primary) {
+                        return `[Wolfram Alpha Precision Data]: ${primary.subpods[0].plaintext}\n\n`;
+                    }
+                }
+            }
+            return "";
+        })(),
 
-    // 4b. NASA Imagery (Visual Grounding for Space/Atmosphere)
-    if (['Physics', 'Science', 'Geography'].includes(item.subject) && (item.topic.includes('Space') || item.topic.includes('Sun') || item.topic.includes('Atmosphere') || item.topic.includes('Light'))) {
-        console.log(`   🚀 Checking NASA for real scientific imagery...`);
-        const nasa = await ExternalApiService.searchNasaImages(item.topic, 1);
-        if (nasa && nasa.length > 0) {
-            contextBuffer += `\n[NASA Visual Evidence]:\n`;
-            nasa.forEach((img: any) => {
-                contextBuffer += `- Title: ${img.title}\n  Description: ${img.description}\n  URL: ${img.imageUrl}\n`;
-            });
-        }
-    }
+        // E. Textbook Grounding (Open Library)
+        (async () => {
+            const books = await AcademicSearchService.searchBooks(`${item.subject} ${item.topic}`, 2);
+            if (books && books.length > 0) {
+                let buffer = `\n[Reference Literature]:\n`;
+                books.forEach(book => {
+                    buffer += `- ${book.title} (by ${book.author}, ${book.year})\n`;
+                });
+                return buffer;
+            }
+            return "";
+        })(),
 
-    // 5. General Context (Wikipedia) - Optimized
-    const wiki = await AcademicSearchService.getWikiSummary(item.topic);
-    if (wiki) {
-        contextBuffer += `\n[Wikipedia Overview]: ${wiki.extract}\n`;
-    }
+        // F. NASA Imagery
+        (async () => {
+            if (['Physics', 'Science', 'Geography'].includes(item.subject) && (item.topic.includes('Space') || item.topic.includes('Sun') || item.topic.includes('Atmosphere') || item.topic.includes('Light'))) {
+                const nasa = await ExternalApiService.searchNasaImages(item.topic, 1);
+                if (nasa && nasa.length > 0) {
+                    let buffer = `\n[NASA Visual Evidence]:\n`;
+                    nasa.forEach((img: any) => {
+                        buffer += `- Title: ${img.title}\n  Description: ${img.description}\n  URL: ${img.imageUrl}\n`;
+                    });
+                    return buffer;
+                }
+            }
+            return "";
+        })(),
+
+        // G. Wikipedia
+        (async () => {
+            const wiki = await AcademicSearchService.getWikiSummary(item.topic);
+            return wiki ? `\n[Wikipedia Overview]: ${wiki.extract}\n` : "";
+        })()
+    ];
+
+    const results = await Promise.all(researchTasks);
+    contextBuffer += results.join("");
 
     // --- TOKEN GUARD: Strict Character Cap ---
-    // Ensuring we don't spam the LLM with too much context. 
-    // 6000 chars is roughly 1500 tokens, which is a healthy balance.
-    if (contextBuffer.length > 6000) {
-        console.log(`   ✂️ Token Guard: Truncating research context to 6000 chars.`);
-        contextBuffer = contextBuffer.substring(0, 6000) + "... [Truncated for Token Efficiency]";
+    if (contextBuffer.length > 8000) {
+        console.log(`   ✂️ Token Guard: Truncating research context to 8000 chars.`);
+        contextBuffer = contextBuffer.substring(0, 8000) + "... [Truncated for Token Efficiency]";
     }
 
     console.log(`✅ Research Phase complete (${contextBuffer.length} chars gathered).`);
     return contextBuffer;
 }
+
 
 
 
@@ -1100,15 +1125,14 @@ async function generateBlogs() {
                 
                 if (needsFullRegen || !assembled) {
                     const outline = await generateOutline(item, targetYear, researchContext);
-                    const intro = await generateIntro(item, targetYear, displayClass, researchContext);
                     
-                    const sections: Section[] = [];
-                    for (const heading of outline) {
-                        sections.push(await generateSection(item, heading, displayClass, targetYear, researchContext));
-                        await new Promise(r => setTimeout(r, 3000));
-                    }
-
-                    const extras = await generateExtras(item, researchContext);
+                    // Parallelize Intro, Sections, and Extras (MCQs/Recall)
+                    console.log(`🚀 Jules: Generating all ${outline.length} sections and extras in parallel...`);
+                    const [intro, sections, extras] = await Promise.all([
+                        generateIntro(item, targetYear, displayClass, researchContext),
+                        Promise.all(outline.map(heading => generateSection(item, heading, displayClass, targetYear, researchContext))),
+                        generateExtras(item, researchContext)
+                    ]);
 
                     const SUBJECT_EXAM: Record<string, string> = {
                         'Physics': 'JEE & NEET', 'Chemistry': 'JEE & NEET',
@@ -1371,6 +1395,17 @@ async function generateBlogs() {
         console.error(`\n⚠️ ${failedCount} blog(s) failed quality check. ${passedCount} published successfully.`);
         // Don't exit(1) until after registry sync so successful blogs still get registered
     }
+
+    // ── Router Performance Stats ──────────────────────────────────────
+    try {
+        const stats = nodeRouter.getStats();
+        console.log(`\n📊 [NodeRouter] Session Stats:`);
+        console.log(`   Total calls: ${stats.totalCalls} | Groq successes: ${stats.groqSuccesses} | Gemini successes: ${stats.geminiSuccesses}`);
+        console.log(`   Rate-limit skips: ${stats.skippedRateLimited} | Blacklisted models: ${stats.blacklistedModels.join(', ') || 'none'}`);
+        if (stats.activeCooldowns.length > 0) {
+            console.log(`   Active cooldowns: ${stats.activeCooldowns.length} keys still cooling`);
+        }
+    } catch { /* stats are optional */ }
 
     // FINAL STEP: Sync the blog registry
     console.log("\n🔄 Jules: Triggering Registry Sync...");

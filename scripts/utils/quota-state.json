@@ -1,34 +1,10 @@
 {
-  "llama-3.3-70b-versatile_1": {
-    "requests": 19,
-    "lastReset": 1777185567899
-  },
   "llama-3.3-70b-versatile_2": {
-    "requests": 24,
-    "lastReset": 1777185582745
-  },
-  "llama-3.3-70b-versatile_3": {
-    "requests": 16,
-    "lastReset": 1777187157075
+    "requests": 1,
+    "lastReset": 1778121525897
   },
   "llama-3.3-70b-versatile_4": {
-    "requests": 18,
-    "lastReset": 1777187183279
-  },
-  "gemma-4-31b-it_0": {
     "requests": 1,
-    "lastReset": 1777193515202
-  },
-  "gemma-4-31b-it_1": {
-    "requests": 1,
-    "lastReset": 1777193690398
-  },
-  "gemma-4-31b-it_2": {
-    "requests": 1,
-    "lastReset": 1777193845247
-  },
-  "gemma-4-31b-it_3": {
-    "requests": 1,
-    "lastReset": 1777193904688
+    "lastReset": 1778121526433
   }
 }

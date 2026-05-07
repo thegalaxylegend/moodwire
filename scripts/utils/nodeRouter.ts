@@ -1,23 +1,29 @@
 
 /**
  * ╔══════════════════════════════════════════════════════════════╗
- * ║               🌐  NODE ROUTER  —  Jules LLM Orchestrator     ║
- * ║         Multi-Provider · Multi-Key · Full Error Shield       ║
+ * ║               🌐  NODE ROUTER v2  —  Jules LLM Orchestrator  ║
+ * ║         Multi-Provider · Multi-Key · Smart Rate-Limit Skip   ║
  * ╚══════════════════════════════════════════════════════════════╝
+ *
+ * v2 CHANGES (2026-05-07) — Fixes for 2hr+ pipeline runs:
+ *   1. SMART MODEL SKIP: If all keys for a model are rate-limited,
+ *      skip the ENTIRE model instantly (no more trying 6 dead keys).
+ *   2. SESSION CONTEXT BLACKLIST: If a model fails with CONTEXT once,
+ *      it's blacklisted for the entire session (no more repeated failures).
+ *   3. ESCALATING COOLDOWNS: Repeated 429s on the same key = longer cooldowns.
+ *   4. ZERO-SLEEP ROTATION: Rate-limit hits rotate instantly (no 500ms sleep).
+ *   5. GROQ-FIRST STRATEGY: Groq fleet tried first (4 models × 6 keys = 24 slots)
+ *      before touching any Gemini quota.
  *
  * Error types handled per attempt:
  *   401 Unauthorized   → Poison the key (never use again this session)
  *   403 Forbidden      → Same as 401 (wrong scopes / suspended)
- *   429 Rate-Limited   → Exponential backoff, rotate to next key
+ *   429 Rate-Limited   → Mark key+model with escalating cooldown, rotate instantly
  *   500/503 Server     → Soft retry after 3s, rotate model
  *   ECONNRESET/ETIMEDOUT / fetch failed → Network transient, 3s wait
- *   Context Window exceeded (400/413) → Switch to smaller model in chain
+ *   Context Window exceeded (400/413) → Blacklist model for session
  *   Output blocked (safety filter)    → Treat as soft refusal, skip key
  *   Unknown            → Log + continue to next key/model
- *
- * Waterfall: Attempt every key for every model in the tier.
- * After full exhaustion, sleep with exponential backoff and retry the
- * whole waterfall up to `maxRetries` times before throwing.
  */
 
 import fs from 'fs';
@@ -65,7 +71,7 @@ function classifyError(err: any): ErrorCategory {
     return 'UNKNOWN';
 }
 
-// ─── Backoff helper ───────────────────────────────────────────────────────────
+// ─── Helpers ──────────────────────────────────────────────────────────────────
 
 const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
 
@@ -74,7 +80,7 @@ function backoffMs(attempt: number, base = 2000): number {
     return Math.min(base * Math.pow(2, attempt), 30_000);
 }
 
-// ─── NodeRouter ───────────────────────────────────────────────────────────────
+// ─── NodeRouter v2 ────────────────────────────────────────────────────────────
 
 class NodeRouter {
     private static instance: NodeRouter;
@@ -85,16 +91,33 @@ class NodeRouter {
 
     /**
      * Per-session poisoned keys: Set of `"provider_index"` strings.
-     * A key is poisoned when it returns 401/403 and will not be tried again
-     * for the lifetime of this Node process.
+     * A key is poisoned when it returns 401/403 and will not be tried again.
      */
     private poisonedKeys: Set<string> = new Set();
 
     /**
-     * Per-session rate-limited keys: Map of `"provider_index"` → earliest-retry timestamp.
+     * Per-session rate-limited keys: Map of `"modelId_provider_index"` → earliest-retry timestamp.
      * Keys here will be skipped until the cooldown expires.
      */
     private rateLimitedUntil: Map<string, number> = new Map();
+
+    /**
+     * Escalating cooldown tracker: Map of `"modelId_provider_index"` → consecutive 429 count.
+     * More consecutive 429s = longer cooldowns (60s → 120s → 300s → 600s).
+     */
+    private rateLimitHitCount: Map<string, number> = new Map();
+
+    /**
+     * Session-level model blacklist: Models that consistently fail (e.g., context window)
+     * are blacklisted and never tried again this session.
+     */
+    private blacklistedModels: Set<string> = new Set();
+
+    /** Track the last model+key that succeeded to prefer it for quick repeat calls */
+    private lastSuccessful: { modelId: string; keyIndex: number; provider: Provider } | null = null;
+
+    /** Stats for logging */
+    private stats = { totalCalls: 0, groqSuccesses: 0, geminiSuccesses: 0, skippedRateLimited: 0, skippedBlacklisted: 0 };
 
     private constructor() {
         this.loadKeys();
@@ -109,13 +132,10 @@ class NodeRouter {
     // ── Key loading ────────────────────────────────────────────────────────────
 
     private loadKeys() {
-        // Dynamically load all numbered keys from .env
         const extractKeys = (baseNames: string[]) => {
             const foundKeys = new Set<string>();
             for (const base of baseNames) {
-                // Check base key
                 if (process.env[base]) foundKeys.add(process.env[base]!);
-                // Check numbered variants (_2 to _10)
                 for (let i = 2; i <= 10; i++) {
                     const key = process.env[`${base}_${i}`];
                     if (key) foundKeys.add(key);
@@ -145,7 +165,6 @@ class NodeRouter {
     }
 
     private saveUsage() {
-        // Prune stale entries (older than 7 days)
         const now = Date.now();
         const cleaned: Record<string, UsageStats> = {};
         for (const [key, stats] of Object.entries(this.usage)) {
@@ -156,6 +175,28 @@ class NodeRouter {
         catch (e: any) { console.warn(`⚠️ [NodeRouter] Could not persist quota state: ${e.message}`); }
     }
 
+    // ── Smart model-level rate-limit check ─────────────────────────────────────
+
+    /**
+     * Check if ALL keys for a given model are rate-limited.
+     * If so, skip the entire model instantly instead of trying each key.
+     */
+    private isModelFullyRateLimited(modelId: string, provider: Provider): boolean {
+        const keys = provider === 'groq' ? this.groqKeys : this.geminiKeys;
+        if (keys.length === 0) return true;
+
+        const now = Date.now();
+        let blockedCount = 0;
+        for (let i = 0; i < keys.length; i++) {
+            const pKey = `${provider}_${i}`;
+            const rateLimitKey = `${modelId}_${pKey}`;
+            if (this.poisonedKeys.has(pKey)) { blockedCount++; continue; }
+            const cooldownUntil = this.rateLimitedUntil.get(rateLimitKey) ?? 0;
+            if (now < cooldownUntil) { blockedCount++; continue; }
+        }
+        return blockedCount >= keys.length;
+    }
+
     // ── Key eligibility ────────────────────────────────────────────────────────
 
     private isKeyEligible(modelId: string, provider: Provider, keyIndex: number): boolean {
@@ -164,11 +205,11 @@ class NodeRouter {
 
         const pKey = `${provider}_${keyIndex}`;
 
-        // Poisoned → never (per-provider: a dead key is dead for all models)
+        // Poisoned → never
         if (this.poisonedKeys.has(pKey)) return false;
 
-        // Rate-limited → check cooldown (per-MODEL-per-key: separate quotas per model)
-        const rateLimitKey = `${modelId}_${provider}_${keyIndex}`;
+        // Rate-limited → check cooldown (per-MODEL-per-key)
+        const rateLimitKey = `${modelId}_${pKey}`;
         const cooldownUntil = this.rateLimitedUntil.get(rateLimitKey) ?? 0;
         if (Date.now() < cooldownUntil) return false;
 
@@ -186,7 +227,7 @@ class NodeRouter {
 
     private incrementUsage(modelId: string, keyIndex: number) {
         const usageKey = `${modelId}_${keyIndex}`;
-        this.loadUsage(); // Refresh from disk for concurrent safety
+        this.loadUsage();
         if (!this.usage[usageKey]) this.usage[usageKey] = { requests: 0, lastReset: Date.now() };
         this.usage[usageKey].requests++;
         this.saveUsage();
@@ -199,7 +240,7 @@ class NodeRouter {
         provider: Provider,
         keyIndex: number,
         modelId: string,
-        attempt: number,
+        _attempt: number,
     ): Promise<'skip_key' | 'skip_model' | 'retry_after_sleep'> {
         const cat = classifyError(err);
         const pKey = `${provider}_${keyIndex}`;
@@ -212,26 +253,32 @@ class NodeRouter {
                 return 'skip_key';
 
             case 'RATE_LIMIT': {
-                // Parse Retry-After from error headers if available, else use a short fixed wait.
-                // We do NOT sleep long here — we mark the key/model as rate-limited and
-                // immediately rotate to the next key. The cooldown prevents re-selecting this
-                // key/model combo until it recovers. If no other keys are available, the full
-                // waterfall exhaustion path will handle the longer backoff sleep.
+                // Escalating cooldowns: more consecutive 429s = longer cooldown
+                const rateLimitKey = `${modelId}_${pKey}`;
+                const hitCount = (this.rateLimitHitCount.get(rateLimitKey) ?? 0) + 1;
+                this.rateLimitHitCount.set(rateLimitKey, hitCount);
+
+                // Cooldown schedule: 60s → 120s → 300s → 600s (capped)
+                const cooldownTiers = [60, 120, 300, 600];
+                const cooldownSec = cooldownTiers[Math.min(hitCount - 1, cooldownTiers.length - 1)];
+
                 const retryAfterSec: number = err?.headers?.['retry-after']
                     ? parseInt(err.headers['retry-after'], 10)
-                    : 60; // Mark key as blocked for 60s, but move on immediately
-                const cooldownMs = Math.min(retryAfterSec * 1000, 120_000);
-                console.warn(`⏳ ${tag} Rate-limited (429). Cooling ${(cooldownMs / 1000).toFixed(0)}s.`);
-                // Use per-MODEL rate-limit key so gemma-4 isn't blocked when gemini-flash is rate-limited
-                const rateLimitKey = `${modelId}_${pKey}`;
+                    : cooldownSec;
+                const cooldownMs = Math.min(retryAfterSec * 1000, 600_000);
+
+                console.warn(`⏳ ${tag} Rate-limited (429). Cooling ${(cooldownMs / 1000).toFixed(0)}s. (hit #${hitCount})`);
                 this.rateLimitedUntil.set(rateLimitKey, Date.now() + cooldownMs);
-                await sleep(500); // minimal wait — rotate to next key/model immediately
+                this.stats.skippedRateLimited++;
+                // NO SLEEP — rotate instantly to next key/model
                 return 'skip_key';
             }
 
             case 'CONTEXT':
-                console.warn(`📏 ${tag} Context window exceeded. Skipping this model.`);
-                return 'skip_model'; // No point retrying with same model
+                console.warn(`📏 ${tag} Context window exceeded. Blacklisting model for session.`);
+                this.blacklistedModels.add(modelId);
+                this.stats.skippedBlacklisted++;
+                return 'skip_model';
 
             case 'SERVER':
                 console.warn(`🔥 ${tag} Server error (${err.status ?? 500}). Waiting 3s.`);
@@ -278,6 +325,7 @@ class NodeRouter {
         const chain = WATERFALL_CHAINS[tier];
         if (!chain || chain.length === 0) throw new Error(`No models defined for tier ${tier}`);
 
+        this.stats.totalCalls++;
         let lastError: any = null;
 
         for (let pass = 0; pass < maxRetries; pass++) {
@@ -288,13 +336,29 @@ class NodeRouter {
                 const spec = MODELS[modelId];
                 if (!spec) continue;
 
+                // ── SESSION BLACKLIST CHECK ──────────────────────────────
+                // If this model failed with CONTEXT once, never try it again.
+                if (this.blacklistedModels.has(modelId)) {
+                    continue; // Silent skip — already logged when blacklisted
+                }
+
                 const provider: Provider = spec.provider;
                 const keys = provider === 'groq' ? this.groqKeys : this.geminiKeys;
                 if (keys.length === 0) continue;
 
+                // ── SMART MODEL SKIP ────────────────────────────────────
+                // If ALL keys for this model are rate-limited, skip the ENTIRE model
+                // instantly. This is the #1 performance fix: avoids trying 6 dead keys.
+                if (this.isModelFullyRateLimited(modelId, provider)) {
+                    continue; // Silent skip — no log spam
+                }
+
                 for (let k = 0; k < keys.length; k++) {
                     const index = (this.keyIndices[provider] + k) % keys.length;
                     if (!this.isKeyEligible(modelId, provider, index)) continue;
+
+                    // Immediately increment index so concurrent calls use the next key
+                    this.keyIndices[provider] = (index + 1) % keys.length;
 
                     try {
                         let result: string;
@@ -305,9 +369,18 @@ class NodeRouter {
                             result = await this.callGemini(keys[index], modelId, messages, options);
                         }
 
-                        // ✅ Success
+                        // ✅ Success — update bookkeeping
                         this.incrementUsage(modelId, index);
-                        this.keyIndices[provider] = (index + 1) % keys.length;
+
+                        // Reset rate-limit hit count for this key+model (it recovered)
+                        const rateLimitKey = `${modelId}_${provider}_${index}`;
+                        this.rateLimitHitCount.delete(rateLimitKey);
+
+                        // Track last successful for stats
+                        this.lastSuccessful = { modelId, keyIndex: index, provider };
+                        if (provider === 'groq') this.stats.groqSuccesses++;
+                        else this.stats.geminiSuccesses++;
+
                         console.log(`✅ [NodeRouter] Success with ${modelId} (key ${index}).`);
                         return result;
 
@@ -315,7 +388,7 @@ class NodeRouter {
                         lastError = err;
                         const reaction = await this.handleError(err, provider, index, modelId, pass);
                         if (reaction === 'skip_model') continue MODEL_LOOP;
-                        // 'skip_key' → continue to next key
+                        // 'skip_key' → continue to next key (no sleep, instant rotation)
                     }
                 }
             }
@@ -333,6 +406,19 @@ class NodeRouter {
         throw lastError ?? new Error(`NodeRouter: tier ${tier} fully exhausted.`);
     }
 
+    // ── Stats reporter ─────────────────────────────────────────────────────────
+
+    public getStats() {
+        return {
+            ...this.stats,
+            blacklistedModels: Array.from(this.blacklistedModels),
+            poisonedKeys: Array.from(this.poisonedKeys),
+            activeCooldowns: Array.from(this.rateLimitedUntil.entries())
+                .filter(([, until]) => Date.now() < until)
+                .map(([key, until]) => ({ key, remainingSec: Math.round((until - Date.now()) / 1000) })),
+        };
+    }
+
     // ── Provider-specific callers ──────────────────────────────────────────────
 
     private async callGroq(
@@ -342,11 +428,13 @@ class NodeRouter {
         options: { jsonMode?: boolean; temperature?: number; max_tokens?: number },
     ): Promise<string> {
         const client = new Groq({ apiKey });
+        const spec = MODELS[modelId];
+        const maxTokens = options.max_tokens ?? Math.min(8192, spec?.maxOutput ?? 8192);
         const completion = await client.chat.completions.create({
             model: modelId,
             messages: messages as any,
             temperature: options.temperature ?? 0.7,
-            max_tokens: options.max_tokens ?? 8192,
+            max_tokens: maxTokens,
             response_format: options.jsonMode ? { type: 'json_object' } : undefined,
         });
         const content = completion.choices[0]?.message?.content;
@@ -361,11 +449,13 @@ class NodeRouter {
         options: { jsonMode?: boolean; temperature?: number; max_tokens?: number },
     ): Promise<string> {
         const genAI = new GoogleGenerativeAI(apiKey);
+        const spec = MODELS[modelId];
+        const maxTokens = options.max_tokens ?? Math.min(8192, spec?.maxOutput ?? 8192);
         const model = genAI.getGenerativeModel({
             model: modelId,
             generationConfig: {
                 temperature: options.temperature ?? 0.7,
-                maxOutputTokens: options.max_tokens ?? 8192,
+                maxOutputTokens: maxTokens,
                 responseMimeType: options.jsonMode ? 'application/json' : undefined,
             },
         });
