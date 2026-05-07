@@ -62,8 +62,8 @@ function classifyError(err: any): ErrorCategory {
     const msg: string = (err?.message ?? '').toLowerCase();
 
     if (status === 401 || status === 403 || msg.includes('invalid api key') || msg.includes('unauthorized')) return 'POISON';
-    if (status === 429 || msg.includes('rate limit') || msg.includes('quota exceeded') || msg.includes('resource exhausted')) return 'RATE_LIMIT';
-    if (status === 400 && (msg.includes('context') || msg.includes('token') || msg.includes('length'))) return 'CONTEXT';
+    if (status === 429 || msg.includes('rate limit') || msg.includes('quota exceeded') || msg.includes('resource exhausted') || msg.includes('overloaded')) return 'RATE_LIMIT';
+    if (status === 400 && (msg.includes('context') || msg.includes('token') || msg.includes('length') || msg.includes('too large'))) return 'CONTEXT';
     if (status === 413 || msg.includes('payload too large') || msg.includes('too many tokens')) return 'CONTEXT';
     if ([500, 502, 503, 504].includes(status) || msg.includes('internal server')) return 'SERVER';
     if (msg.includes('econnreset') || msg.includes('etimedout') || msg.includes('fetch failed') || msg.includes('network') || msg.includes('socket')) return 'NETWORK';

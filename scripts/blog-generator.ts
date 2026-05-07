@@ -1410,17 +1410,31 @@ async function generateBlogs() {
     // FINAL STEP: Sync the blog registry and cleanup queues
     console.log("\n🔄 Jules: Triggering Registry Sync & Queue Cleanup...");
     try {
-        // 1. Remove published slugs from main queue.json
-        if (fs.existsSync(QUEUE_FILE)) {
-            const publishedSlugs = new Set(pipelineReport
-                .filter(r => r.status.startsWith('published'))
-                .map(r => r.slug));
-            
-            if (publishedSlugs.size > 0) {
+        // 1. Remove published slugs from main queue and growth queue
+        const publishedSlugs = new Set(pipelineReport
+            .filter(r => r.status.startsWith('published'))
+            .map(r => r.slug));
+
+        if (publishedSlugs.size > 0) {
+            // Clean main queue.json
+            if (fs.existsSync(QUEUE_FILE)) {
                 const currentQueue = JSON.parse(fs.readFileSync(QUEUE_FILE, 'utf8'));
                 const updatedQueue = currentQueue.filter((item: any) => !publishedSlugs.has(item.targetSlug || item.slug));
                 fs.writeFileSync(QUEUE_FILE, JSON.stringify(updatedQueue, null, 2));
-                console.log(`🧹 Cleaned ${publishedSlugs.size} items from ${path.basename(QUEUE_FILE)}`);
+                console.log(`🧹 Cleaned ${publishedSlugs.size} items from queue.json`);
+            }
+            
+            // Clean growth-queue.json
+            if (fs.existsSync(GROWTH_QUEUE_FILE)) {
+                const growthData = JSON.parse(fs.readFileSync(GROWTH_QUEUE_FILE, 'utf8'));
+                if (growthData.queue) {
+                    const originalLen = growthData.queue.length;
+                    growthData.queue = growthData.queue.filter((item: any) => !publishedSlugs.has(item.targetSlug || item.slug));
+                    if (growthData.queue.length < originalLen) {
+                        fs.writeFileSync(GROWTH_QUEUE_FILE, JSON.stringify(growthData, null, 2));
+                        console.log(`🌱 Cleaned ${originalLen - growthData.queue.length} items from growth-queue.json`);
+                    }
+                }
             }
         }
 
