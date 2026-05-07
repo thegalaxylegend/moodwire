@@ -176,10 +176,54 @@ async function handleSystemPulse() {
     await sendDiscordEmbed(embed);
 }
 
+async function handlePipelineReport() {
+    const today = new Date().toISOString().split('T')[0];
+    const reportPath = path.join(REPORTS_DIR, `pipeline-${today}.json`);
+    
+    if (!fs.existsSync(reportPath)) {
+        console.warn(`⚠️ No pipeline report found for today: ${reportPath}`);
+        return;
+    }
+
+    const report = JSON.parse(fs.readFileSync(reportPath, 'utf-8'));
+    const newBlogs = report.filter((r: any) => r.status === 'published');
+    const refinedBlogs = report.filter((r: any) => r.status === 'published_with_fixes');
+
+    if (newBlogs.length === 0 && refinedBlogs.length === 0) return;
+
+    const embed = {
+        title: "🚀 Jules Production Deployment: Complete",
+        description: `Successfully processed **${report.length}** content units in this run.`,
+        color: 0x6C5CE7, // Purple/Modern
+        fields: [] as any[],
+        footer: { text: "Professional Content Auditor | Jules System" },
+        timestamp: new Date().toISOString()
+    };
+
+    if (newBlogs.length > 0) {
+        embed.fields.push({
+            name: `🆕 NEW CONTENT (${newBlogs.length})`,
+            value: newBlogs.map((b: any) => `• [${b.slug.toUpperCase()}](https://examcompass.pages.dev/blog/${b.slug})`).join('\n'),
+            inline: false
+        });
+    }
+
+    if (refinedBlogs.length > 0) {
+        embed.fields.push({
+            name: `🔧 REFINED & FIXED (${refinedBlogs.length})`,
+            value: refinedBlogs.map((b: any) => `• [${b.slug.toUpperCase()}](https://examcompass.pages.dev/blog/${b.slug})`).join('\n'),
+            inline: false
+        });
+    }
+
+    await sendDiscordEmbed(embed);
+}
+
 const flag = process.argv[2];
 if (flag === "--new") handleNewBlogs();
 else if (flag === "--refined") handleRefinedBlogs();
 else if (flag === "--pulse") handleSystemPulse();
+else if (flag === "--report") handlePipelineReport();
 else {
-    console.log("Usage: node discord-pulse.ts [--new|--refined|--pulse]");
+    console.log("Usage: node discord-pulse.ts [--new|--refined|--pulse|--report]");
 }

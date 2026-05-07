@@ -557,17 +557,11 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: npx tsx scripts/monitor-autopsy.ts
 
-      - name: "Task 24 - Discord Pulse: New Content"
+      - name: "Task 24 - Discord Pulse: Deployment Report"
         if: always()
         env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: npx tsx scripts/utils/discord-pulse.ts --new
-
-      - name: "Task 25 - Discord Pulse: Refined Content"
-        if: always()
-        env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: npx tsx scripts/utils/discord-pulse.ts --refined
+            DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: npx tsx scripts/utils/discord-pulse.ts --report
 
       - name: "Task 26 - Discord Pulse: System Pulse Audit"
         if: always()

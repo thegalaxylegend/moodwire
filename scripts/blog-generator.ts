@@ -1407,13 +1407,41 @@ async function generateBlogs() {
         }
     } catch { /* stats are optional */ }
 
-    // FINAL STEP: Sync the blog registry
-    console.log("\n🔄 Jules: Triggering Registry Sync...");
+    // FINAL STEP: Sync the blog registry and cleanup queues
+    console.log("\n🔄 Jules: Triggering Registry Sync & Queue Cleanup...");
     try {
+        // 1. Remove published slugs from main queue.json
+        if (fs.existsSync(QUEUE_FILE)) {
+            const publishedSlugs = new Set(pipelineReport
+                .filter(r => r.status.startsWith('published'))
+                .map(r => r.slug));
+            
+            if (publishedSlugs.size > 0) {
+                const currentQueue = JSON.parse(fs.readFileSync(QUEUE_FILE, 'utf8'));
+                const updatedQueue = currentQueue.filter((item: any) => !publishedSlugs.has(item.targetSlug || item.slug));
+                fs.writeFileSync(QUEUE_FILE, JSON.stringify(updatedQueue, null, 2));
+                console.log(`🧹 Cleaned ${publishedSlugs.size} items from ${path.basename(QUEUE_FILE)}`);
+            }
+        }
+
+        // 2. Archive processed regen-queue files
+        const archiveDir = path.join(REPORTS_DIR, 'archive');
+        if (!fs.existsSync(archiveDir)) fs.mkdirSync(archiveDir);
+        
+        const regenFiles = fs.readdirSync(REPORTS_DIR)
+            .filter(f => f.startsWith('regen-queue-') && f.endsWith('.json'));
+        
+        for (const file of regenFiles) {
+            const oldPath = path.join(REPORTS_DIR, file);
+            const newPath = path.join(archiveDir, file);
+            fs.renameSync(oldPath, newPath);
+        }
+        if (regenFiles.length > 0) console.log(`📦 Archived ${regenFiles.length} regen-queue files.`);
+
         const { execSync } = await import('child_process');
         execSync('npx tsx scripts/sync-blogs.ts', { stdio: 'inherit' });
     } catch (e: any) {
-        console.error("⚠️ Registry Sync failed:", e.message);
+        console.error("⚠️ Cleanup/Sync failed:", e.message);
     }
 
     // Exit with error code AFTER sync so CI can detect failures
