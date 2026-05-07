@@ -56,7 +56,7 @@ manualReview: false
 
 ## 🔁 Last 5 Minutes Box
 - ∈ the last 5 minutes of the exam, quickly review the formulas and concepts of linear [equations](/blog/differential-equations-class-12-notes)
-- make sure to check the solutions by plugging them back into the original equations
+- make sure to check the solutions by plugging them back into the original [equations](/blog/differential-equations-class-12-notes)
 - also, make sure to write the final answers ∈ the correct format
 - for example, x = 2 instead of x = 2.0
 - quickly review the steps to solve linear equations, such as adding, subtracting, multiplying, or dividing both sides of the equation

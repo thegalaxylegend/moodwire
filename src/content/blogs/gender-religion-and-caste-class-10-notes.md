@@ -266,7 +266,7 @@ eq$ Religion + Neutrality = Secularism.
 eq$ Religion) + (State $
 eq$ Religious Dominance) + (Equal Respect for All Religions) = Secular State — The principle of maintaining a distance between government and religious institutions.
 
-- **Religious Majoritarianism Logic:** (Majority Religion = Dominant Political Power) + (Minority Religion = Marginalized) = Majoritarianism — A situation where the majority religion dictates the national identity, threatening secularism.
+- **Religious Majoritarianism Logic:** (Majority Religion = Dominant Political Power) + (Minority Religion = Marginalized) = Majoritarianism — A situation where the majority religion dictates the [national](/blog/lifelines-of-national-economy-class-10-notes) identity, threatening secularism.
 
 - **Religious Diversity Variable:** (Number of Religions) × (Diversity of Practices) = Social Complexity — The factor that necessitates a secular constitution to prevent conflict.
 
@@ -607,7 +607,7 @@ Q[N] ([Year] [Board]), Trap, Solution (Step-by-step), Final Answer, Speed trick.
  Step 1: Look at marriage → Most marriages still occur within the same caste (Endogamy).
  Step 2: Look at social status → Hierarchy still exists in rural/semi-urban areas.
  Step 3: Look at political mobilization → Political parties still use "caste votes".
- Final Answer: Caste persists through endogamy, unequal access to resources, and its continued role in political mobilization.
+ Final Answer: Caste persists through endogamy, unequal access to [resources](/blog/minerals-and-energy-resources-class-10-notes), and its continued role in political mobilization.
 
  *Wait, the prompt says:* "If a student reads this, they should feel it is perfectly aligned with their school textbook." -> Yes, these are standard CBSE topics.
 
@@ -1529,50 +1529,50 @@ Democracy must transcend narrow identities of gender, religion, and caste to uph
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. Which of the following statements regarding the 'Sexual Division of Labour' is most accurate in the context of Indian society?**
-**A)**    It is based on biological differences between men and women.
-**B)**    It is a result of social expectations where women do all work inside the home.
-**C)**    It means women are incapable of performing tasks outside the home.
-**D)**    It refers to the equal distribution of work between genders in the public sphere.
+**A)**     It is based on biological differences between men and women.
+**B)**     It is a result of social expectations where women do all work inside the home.
+**C)**     It means women are incapable of performing tasks outside the home.
+**D)**     It refers to the equal distribution of work between genders in the public sphere.
 
 **Answer:** B) B is correct because the division is based on social norms and expectations, not biology. A is wrong because the division is social, not biological. C is wrong because it implies physical inability, whereas women do perform work outside the home (though often unpaid or undervalued). D is wrong because the division actually describes an unequal distribution.
 
 ---
 
 **2. In a country where the Child Sex Ratio is significantly lower than the overall Sex Ratio, which social phenomenon is most likely occurring?**
-**A)**    High literacy rates among women.
-**B)**    Preference for male children leading to sex-selective practices.
-**C)**    High female participation in the workforce.
-**D)**    Equal distribution of resources among all children.
+**A)**     High literacy rates among women.
+**B)**     Preference for male children leading to sex-selective practices.
+**C)**     High female participation in the workforce.
+**D)**     Equal distribution of resources among all children.
 
 **Answer:** B) B is correct as a low child sex ratio (number of girls per 1000 boys) is a direct indicator of gender bias and sex-selective practices. A is wrong because low sex ratios are often correlated with lower female literacy. C is wrong because low sex ratios suggest gender discrimination, which is the opposite of empowerment. D is wrong because a skewed ratio implies unequal treatment of girl children.
 
 ---
 
 **3. Identify the correct relationship between Communalism and Secularism as described in the NCERT curriculum.**
-**A)**    Communalism is a prerequisite for a healthy secular state.
-**B)**    Secularism is a way to promote communalism in diverse societies.
-**C)**    Communalism is the belief that religion is the principal basis of social community, while Secularism seeks to separate religion from the state.
-**D)**    Both terms refer to the same socio-political phenomenon.
+**A)**     Communalism is a prerequisite for a healthy secular state.
+**B)**     Secularism is a way to promote communalism in diverse societies.
+**C)**     Communalism is the belief that religion is the principal basis of social community, while Secularism seeks to separate religion from the state.
+**D)**     Both terms refer to the same socio-political phenomenon.
 
 **Answer:** C) C is correct as it accurately defines both terms. A is wrong because communalism is a threat to democracy, not a prerequisite. B is wrong because secularism is designed to counter communalism, not promote it. D is wrong because they are opposing concepts.
 
 ---
 
 **4. A person believes that their religion is superior to all others and that followers of other religions cannot be part of the same nation. This is an example of:**
-**A)**    Religious tolerance
-**B)**    Communalism
-**C)**    Casteism
-**D)**    Secularism
+**A)**     Religious tolerance
+**B)**     Communalism
+**C)**     Casteism
+**D)**     Secularism
 
 **Answer:** B) B is correct because the core of communalism is the belief that religious identity is the primary identity and one religion is superior. A is wrong because the person is showing intolerance. C is wrong because casteism refers to social stratification based on birth/varna, not religious superiority. D is wrong because secularism promotes equality across religions.
 
 ---
 
 **5. Which of the following is a critical 'trap' in understanding the relationship between Caste and Politics?**
-**A)**    Caste does not influence politics at all.
-**B)**    Politics only influences caste and never the other way around.
-**C)**    Casteism is the only factor that determines election outcomes.
-**D)**    While caste influences politics, politics also influences caste by creating new groups and coalitions.
+**A)**     Caste does not influence politics at all.
+**B)**     Politics only influences caste and never the other way around.
+**C)**     Casteism is the only factor that determines election outcomes.
+**D)**     While caste influences politics, politics also influences caste by creating new groups and coalitions.
 
 **Answer:** D) D is correct because it captures the complex, two-way relationship. A is wrong because caste is a significant factor in Indian elections. B is wrong because the influence is bidirectional (politics affects caste identities). C is wrong because while caste is important, factors like leadership, party performance, and economic issues also determine outcomes.
 

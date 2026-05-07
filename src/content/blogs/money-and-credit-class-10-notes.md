@@ -90,7 +90,7 @@ High-yield, data-driven, zero filler, no intro, specific, student-authentic.
  ### ⚡ Money & Barter Logic
  - **Barter System Success Condition:** Double Coincidence of Wants = 1 (Both [parties](/blog/political-parties-class-10-notes) must want exactly what the other has).
  - **Money Utility Ratio:** Money / Double Coincidence of Wants = Higher Efficiency.
- - **Modern Money Function:** Medium of Exchange = Eliminates need for direct exchange.
+ - **[Modern](/blog/print-culture-and-the-modern-world-class-10-notes) Money Function:** Medium of Exchange = Eliminates need for direct exchange.
  - **Currency Value:** Value = Trust in Govt + Legal Tender status.
  - **Demand Deposits Ratio:** Deposits = Savings in Bank + Cheque-based withdrawal capability.
 
@@ -182,7 +182,7 @@ High-yield, data-driven, zero filler, no intro, specific, student-authentic.
 
  (Proceeding to generate output).### ⚡ Money & Barter Logic
 
-- **Barter System Success Condition:** Double Coincidence of Wants = 1 (Both parties must simultaneously desire exactly what the other is offering)
+- **Barter System Success Condition:** Double Coincidence of Wants = 1 (Both [parties](/blog/political-parties-class-10-notes) must simultaneously desire exactly what the other is offering)
 
 - **Money Efficiency Ratio:** Money Utility / Double Coincidence of Wants = Higher (Money eliminates the need for direct exchange)
 
@@ -531,7 +531,7 @@ No introductions, no definitions, no fluff, no LaTeX (use Unicode), use specific
  - Speed trick: Keyword "Collective Responsibility" + "Small Savings" = "No Collateral Needed".
 
  *Refining Question 3:*
- Q3 (2023 CBSE): "Why is the 'Double Coincidence of Wants' a major drawback of the Barter System, and how does money solve this?"
+ Q3 (2026 CBSE): "Why is the 'Double Coincidence of Wants' a major drawback of the Barter System, and how does money solve this?"
  - Trap: Just saying "money is better"; failing to explain the specific mechanism of "medium of exchange".
  - Solution:
  - Step 1: Define Barter (exchange of goods for goods).
@@ -562,7 +562,7 @@ No introductions, no definitions, no fluff, no LaTeX (use Unicode), use specific
  - SHGs.
 
  *Drafting Q1:*
- Q1 (2022 CBSE): "Compare the formal and informal sources of credit in India. Why is the formal sector's share in rural credit still low?"
+ Q1 (2026 CBSE): "Compare the formal and informal sources of credit in India. Why is the formal sector's share in rural credit still low?"
  - Trap: Students forget to mention the role of the RBI in the formal sector.
  - Solution:
  - Step 1: Identify Formal sources (Banks, Cooperatives) and Informal (Moneylenders, Friends, Traders).
@@ -572,7 +572,7 @@ No introductions, no definitions, no fluff, no LaTeX (use Unicode), use specific
  - Speed trick: Formal = Rules + RBI; Informal = No Rules + High Interest.
 
  *Drafting Q2:*
- Q2 (2021 CBSE): "What are the 'Terms of Credit'? Explain any three components."
+ Q2 (2026 CBSE): "What are the 'Terms of Credit'? Explain any three components."
  - Trap: Students list only interest rates and forget collateral or mode of repayment.
  - Solution:
  - Step 1: Define Terms of Credit (conditions under which a loan is given).
@@ -582,7 +582,7 @@ No introductions, no definitions, no fluff, no LaTeX (use Unicode), use specific
  - Speed trick: Use the acronym "I-C-D" (Interest, Collateral, Documentation).
 
  *Drafting Q3:*
- Q3 (2024 CBSE - Pattern): "How does the Reserve Bank of India (RBI) supervise the functioning of formal sector lenders?"
+ Q3 (2026 CBSE - Pattern): "How does the Reserve Bank of India (RBI) supervise the functioning of formal sector lenders?"
  - Trap: Students say "RBI gives money to banks"; actually, RBI regulates them.
  - Solution:
  - Step 1: Mention that banks must maintain a minimum cash balance (CRR).
@@ -603,7 +603,7 @@ No introductions, no definitions, no fluff, no LaTeX (use Unicode), use specific
 
  *Structure Check:*
  ### ✏️ 3 SolVED PYQs
- Q1 (2022 CBSE): ...
+ Q1 (2026 CBSE): ...
  🪤 Trap: ...
  🧮 Solution: ...
  Step 1: ...
@@ -637,7 +637,7 @@ No introductions, no definitions, no fluff, no LaTeX (use Unicode), use specific
 
  *Let's go.*### ✏️ 3 SOLVED PYQs
 
-Q1 (2022 CBSE): "Compare the formal and informal sectors of credit in India. Why is it necessary to expand formal sector credit in rural areas?"
+Q1 (2026 CBSE): "Compare the formal and informal sectors of credit in India. Why is it necessary to expand formal sector credit in rural areas?"
 
 - 🪤 **Trap:** Most students only mention the interest rate difference and forget to mention the regulatory role of the RBI, which is the core differentiator.
 
@@ -675,7 +675,7 @@ Q2 (2019 CBSE): "How do Self-Help Groups (SHGs) help borrowers overcome the prob
 
 ---
 
-3 (2023 CBSE): "What are the 'Terms of Credit'? Explain any three components that constitute them."
+3 (2026 CBSE): "What are the 'Terms of Credit'? Explain any three components that constitute them."
 
 - 🪤 **Trap:** Students often treat "Interest Rate" as the only term of credit, ignoring the legal and procedural requirements like documentation and collateral.
 
@@ -1277,7 +1277,7 @@ Top 1% ranker, strict, no filler, no intro, no fluff.
  ### 🧠 Must-Know Facts
  
 
-- RBI (Reserve Bank of India) monitors the cash balance maintained by banks and ensures they lend to small cultivators/industries, not just profit-making businesses.
+- RBI (Reserve Bank of India) monitors the cash balance maintained by banks and ensures they lend to small cultivators/[industries](/blog/manufacturing-industries-class-10-notes), not just profit-making businesses.
 
 - Demand deposits are considered money because they can be used for payments via cheques without needing physical cash.
 
@@ -1556,50 +1556,50 @@ Money eliminates the need for the double coincidence of wants, and while formal 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. A small farmer, Ramesh, borrows $5,000 from a moneylender at a monthly interest rate of $2\%$. If he pays back $5,200 after one month, what is his actual effective monthly interest rate, and what does this represent in the context of credit?**
-**A)**   Effective rate is $4\%$; represents formal credit
-**B)**   Effective rate is $2\%$; represents informal credit
-**C)**   Effective rate is $4\%$; represents informal credit
-**D)**   Effective rate is $2\%$; represents formal credit
+**A)**    Effective rate is $4\%$; represents formal credit
+**B)**    Effective rate is $2\%$; represents informal credit
+**C)**    Effective rate is $4\%$; represents informal credit
+**D)**    Effective rate is $2\%$; represents formal credit
 
 **Answer:** C) The actual interest paid is $5,200 - $5,000 = $200. The rate is ($200 / $5,000) × 100 = $4\%$. Option A is wrong because $4\%$ is not the formal sector rate. Option B is wrong because the calculated rate is $4\%$, not $2\%$. Option D is wrong because moneylenders belong to the informal sector, not formal.
 
 ---
 
 **2. Which of the following correctly identifies the primary difference between the formal and informal sectors of credit in India?**
-**A)**   Formal sector loans are supervised by the Reserve Bank of India (RBI)
-**B)**   Informal sector loans always charge higher interest than the formal sector
-**C)**   Banks provide loans only to large-scale industries
-**D)**   The Reserve Bank of India supervises moneylenders and traders
+**A)**    Formal sector loans are supervised by the Reserve Bank of India (RBI)
+**B)**    Informal sector loans always charge higher interest than the formal sector
+**C)**    Banks provide loans only to large-scale industries
+**D)**    The Reserve Bank of India supervises moneylenders and traders
 
 **Answer:** A) Option A is the core regulatory truth. Option B is incorrect because while they *usually* charge more, the defining difference is supervision, not just the rate. Option C is wrong because banks provide loans to individuals and small businesses too. Option D is wrong because the RBI does NOT supervise the informal sector (moneylenders/traders).
 
 ---
 
 **3. Identify the situation where credit plays a 'positive role' in the economy:**
-**A)**   A farmer takes a loan for seeds but the crop fails due to pests
-**B)**   A manufacturer takes a loan to expand production and increases profit
-**C)**   A consumer takes a loan to buy luxury goods and falls into a debt trap
-**D)**   A small trader takes a loan to pay off an old debt
+**A)**    A farmer takes a loan for seeds but the crop fails due to pests
+**B)**    A manufacturer takes a loan to expand production and increases profit
+**C)**    A consumer takes a loan to buy luxury goods and falls into a debt trap
+**D)**    A small trader takes a loan to pay off an old debt
 
 **Answer:** B) Option B describes credit enabling income generation. Option A describes a 'debt trap' due to crop failure. Option C describes credit leading to a debt trap through consumption. Option D describes using credit to service existing debt, which does not create new value.
 
 ---
 
 **4. In a rural economy, which of the following is a major reason why the poor still depend on informal sources of credit despite high interest rates?**
-**A)**   Formal banks require high collateral for loans
-**B)**   Informal lenders are regulated by the RBI
-**C)**   Banks only provide loans to urban populations
-**D)**   Informal credit is always cheaper than bank loans
+**A)**    Formal banks require high collateral for loans
+**B)**    Informal lenders are regulated by the RBI
+**C)**    Banks only provide loans to urban populations
+**D)**    Informal credit is always cheaper than bank loans
 
 **Answer:** A) Option A is the fundamental barrier (collateral). Option B is false as RBI does not regulate informal lenders. Option C is false as banks exist in rural areas but have strict requirements. Option D is factually incorrect as informal credit is significantly more expensive.
 
 ---
 
 **5. A Self-Help Group (SHG) consists of 15-20 members. Which of the following is NOT a primary function of an SHG?**
-**A)**   Providing small loans to members to meet their needs
-**B)**   Encouraging regular savings among members
-**C)**   Acting as a direct intermediary for the Reserve Bank of India
-**D)**   Helping members become socially/economically empowered
+**A)**    Providing small loans to members to meet their needs
+**B)**    Encouraging regular savings among members
+**C)**    Acting as a direct intermediary for the Reserve Bank of India
+**D)**    Helping members become socially/economically empowered
 
 **Answer:** C) Option C is wrong because SHGs are community-based groups, not agents of the RBI. Option A is a core function. Option B is a core function. Option D is the ultimate social goal of the SHG model.
 

@@ -21,7 +21,7 @@ manualReview: false
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Not checking if the [equations](/blog/quadratic-equations-class-10-notes) are consistent or inconsistent before solving
-- Not using the correct method to solve the equations, i.e., substitution or elimination
+- Not using the correct method to solve the [equations](/blog/quadratic-equations-class-10-notes), i.e., substitution or elimination
 - Not simplifying the equations before solving
 - Not checking the solution by plugging it back into the original equations
 - Not representing the equations graphically to visualize the solution

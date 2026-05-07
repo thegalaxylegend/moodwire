@@ -100,7 +100,7 @@ Provide a "Formula Bank" for a Social Science chapter.
  3. **The Functional Logic** (Functions of parties)
  4. **The Classification Matrix** (National vs State)
  5. **The Party System Equations** (One, Two, Multi)
- 6. **The Challenge & Reform Logic** (Internal Democracy, Money, Muscle)
+ 6. **The Challenge & Reform Logic** (Internal [Democracy](/blog/outcomes-of-democracy-class-10-notes), Money, Muscle)
  7. **The Examiner's Trap Section**
  8. **Decision Table**
 
@@ -115,7 +115,7 @@ Provide a "Formula Bank" for a Social Science chapter.
  * *Challenges:*
  * Political Instability = Defection + Lack of Discipline.
  * Choice Deprivation = Homogeneous Ideology + Similar Policies.
- * Power Concentration = Dynastic Succession + Lack of Internal Elections.
+ * [Power](/blog/power-sharing-class-10-notes) Concentration = Dynastic Succession + Lack of Internal Elections.
  * *Reforms:*
  * Legal Transparency = Filing of Affidavits + Disclosure of Criminal/Financial Assets.
  * Legislative Stability = Anti-Defection Law (52nd Amendment).

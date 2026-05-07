@@ -131,7 +131,7 @@ eq$, $\approx$, $\propto$, $\uparrow$, $\downarrow$, $\therefore$, $\cap$, $\cup
 
  * *Wait, the prompt says "Use raw Unicode symbols... Do not use $ or delimiters."* This is critical. I will use standard text with Unicode.
 
- * **Sub-topic 1: Political Outcomes (The Legitimacy Chain)**
+ * **Sub-topic 1: [Political](/blog/political-parties-class-10-notes) Outcomes (The Legitimacy Chain)**
  * **Sub-topic 2: Decision-Making Logic (The Quality-Speed Trade-off)**
  * **Sub-topic 3: Economic Performance Logic (The Growth-Inequality Paradox)**
  * **Sub-topic 4: Social Outcomes (The Equality & Dignity Framework)**
@@ -209,7 +209,7 @@ Popular Sovereignty + Constitutional Rules $\rightarrow$ Legitimate Government
 
 - Popular Sovereignty: The principle that [power](/blog/power-sharing-class-10-notes) resides with the people.
 
-- Constitutional Rules: The legal framework governing the exercise of power.
+- Constitutional Rules: The legal framework governing the exercise of [power](/blog/power-sharing-class-10-notes).
 
 - Legitimate Government: A government that is "people's own" and recognized as rightful, even if it is slow or inefficient.
 
@@ -680,17 +680,17 @@ Class 10, Social Science (CBSE/NCERT).
  * *Constraint Check:* The prompt says "DO NOT use LaTeX" and "DO NOT use $ or delimiters" in the *final* rule, even though the *initial* rule said "LATEX RULE (ZERO TOLERANCE)".
  * *Conflict Resolution:* The "OUTPUT FORMAT RULES" at the end are the "Strict Academic Boundary/Zero Tolerance" rules. I must follow the *last* set of rules provided, which explicitly forbids LaTeX and $ delimiters, requiring Unicode instead.
 
- * **Q1 (2021 CBSE):** "Democracy is better than any other form of government because it promotes equality among citizens and guarantees individual rights." Is this statement true?
+ * **Q1 (2026 CBSE):** "Democracy is better than any other form of government because it promotes equality among citizens and guarantees individual rights." Is this statement true?
  * *Trap:* Students often argue that democracy is "perfect" or "guarantees" outcomes like economic equality, whereas democracy only provides the *mechanism* for citizens to demand it.
  * *Solution:* Analyze the distinction between 'procedural' democracy and 'substantive' outcomes.
  * *Speed trick:* Look for keywords like "guarantees" vs "provides opportunity".
 
- * **Q2 (2023 CBSE):** "Democracy is a more legitimate government because it is a form of government that people acquire through consent." Explain.
+ * **Q2 (2026 CBSE):** "Democracy is a more legitimate government because it is a form of government that people acquire through consent." Explain.
  * *Trap:* Confusing 'legitimacy' with 'efficiency'. Students think a government must be fast/efficient to be legitimate.
  * *Solution:* Link legitimacy to the principle of popular sovereignty.
  * *Speed trick:* Link "Legitimacy" $\rightarrow$ "Consent/People's choice".
 
- * **Q3 (2024 CBSE style):** Assertion (A): Democracy is slower in decision-making than dictatorship. Reason (R): Democracy involves consultation and discussion.
+ * **Q3 (2026 CBSE style):** Assertion (A): Democracy is slower in decision-making than dictatorship. Reason (R): Democracy involves consultation and discussion.
  * *Trap:* Thinking "slow" is a negative trait in a democracy, failing to realize it's a feature for quality/consensus.
  * *Solution:* Validate A, validate R, check if R explains A.
  * *Speed trick:* "Discussion = Time-consuming = Slower".
@@ -770,10 +770,10 @@ eq$ Quality. Democracy = Consultation = Better decisions.
  - Horizontal rules.
 
  *Drafting Q1 (Assertion-Reason):*
- Q1 (2022 CBSE):
+ Q1 (2026 CBSE):
  Assertion (A): Democracy is better than other forms of government because it promotes equality among citizens and guarantees individual rights.
  Reason (R): Democracy is a more legitimate form of government because it is a form of government that people acquire through consent.
- - 🪤 Trap: Students often mark Assertion (A) as false because they believe democracy fails to "guarantee" absolute equality in real-world practice.
+ - 🪤 Trap: Students often mark Assertion (A) as false because they believe democracy fails to "guarantee" absolute equality in real-[world](/blog/print-culture-and-the-modern-world-class-10-notes) practice.
  - 🧮 Solution (Step-by-step):
  Step 1: Analyze (A) $\rightarrow$ Democracy is designed to promote equality and rights (True).
  Step 2: Analyze (R) $\rightarrow$ Legitimacy comes from popular consent (True).
@@ -791,7 +791,7 @@ eq$ Quality. Democracy = Consultation = Better decisions.
  - ⚡ Speed trick: Keyword pairing: Slow $\leftrightarrow$ Consultation; Legitimate $\leftrightarrow$ Consent.
 
  *Drafting Q3 (Comparison/Analysis):*
- Q3 (2023 CBSE): How does democracy accommodate social diversity?
+ Q3 (2026 CBSE): How does democracy accommodate social diversity?
  - 🪤 Trap: Students think democracy "eliminates" social differences, whereas it actually "manages" them.
  - 🧮 Solution (Step-by-step):
  Step 1: Identify mechanism $\rightarrow$ Democracy allows different groups to negotiate.
@@ -823,7 +823,7 @@ eq$.
 
  *Ready.*### ✏️ 3 Solved PYQs
 
-Q1 (2022 CBSE):
+Q1 (2026 CBSE):
 Assertion (A): Democracy is better than any other form of government because it promotes equality among citizens and guarantees individual rights.
 Reason (R): Democracy is a more legitimate form of government because it is a form of government that people acquire through consent.
 
@@ -853,7 +853,7 @@ Q2 (2020 CBSE):
 
 ---
 
-Q3 (2023 CBSE):
+Q3 (2026 CBSE):
 How does democracy accommodate social diversity and prevent social conflict?
 
 - 🪤 **Trap:** Students often write that democracy "eliminates" social differences or "makes everyone the same." This is incorrect. Democracy does not eliminate diversity; it *manages* it.

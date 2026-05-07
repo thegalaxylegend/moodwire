@@ -54,7 +54,7 @@ manualReview: false
 - Consider total internal reflection when dealing with angles of incidence
 
 ## 🔁 Last 5 Minutes Box
-- Speed of light ∈ vacuum: 3 × 10⁸ m/s
+- Speed of [light](/blog/physics-heat-light-class-11-revision-notes-jee-neet) ∈ vacuum: 3 × 10⁸ m/s
 - Refractive index μ = c/v
 - Snell's law: μ₁ s∈ θ₁ = μ₂ s∈ θ₂
 - Mirror formula: 1/f = 1/do + 1/di

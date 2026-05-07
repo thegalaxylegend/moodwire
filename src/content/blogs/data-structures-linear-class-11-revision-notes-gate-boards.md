@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/data-structures-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 6, 2026*
+*Last Updated: May 7, 2026*
 
 ## 📑 Table of Contents
 
@@ -303,7 +303,7 @@ Trap questions and linear data structures often focus on the nuances of implemen
 
 To tackle these trap questions, students need to have a deep understanding of the underlying concepts and principles of linear data structures. This includes understanding how to calculate time and space complexity, how to identify and handle edge cases, n how to optimize [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards) for efficiency.
 
-Some common trap questions for linear data structures include:
+Some common trap questions for linear [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures include:
 
 * Implementing a stack using a linked list
 * Finding the middle element of a linked list

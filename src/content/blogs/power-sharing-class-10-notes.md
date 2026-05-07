@@ -70,7 +70,7 @@ Class 10 students (CBSE Board Exam 2026).
  * Majoritarianism Rule
  * Language Dominance Ratio
  * Religious Monopoly Formula
- * Political Exclusion Rule
+ * [Political](/blog/political-parties-class-10-notes) Exclusion Rule
 
  * **Sub-topic 3: The Mechanics of Accommodation (Belgium Case Study)**
  * Accommodation Principle
@@ -124,7 +124,7 @@ Class 10 students (CBSE Board Exam 2026).
 
  * *Sub-topic: Decision Logic (Prudential vs. Moral)*
  * Prudential Outcome = (Reduced Conflict) + (Stability) + (Political Survival).
- * Moral Outcome = (Spirit of Democracy) + (Legitimacy) + (Right to Participation).
+ * Moral Outcome = (Spirit of [Democracy](/blog/outcomes-of-democracy-class-10-notes)) + (Legitimacy) + (Right to Participation).
  * Democratic Essence = (Power Sharing) / (Total Society).
  * *Examiner's Trap:* Prudential is about *calculating outcomes* (consequences), while Moral is about the *inherent value* of democracy.
 
@@ -1216,52 +1216,52 @@ Power sharing is essential to prevent social conflict and ensure political stabi
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
-**1. A village has a population of 10,000. The government decides to allocate a certain amount of money as a monthly allowance to each househol
+**1. A village has a population of 10,000. The government decides to allocate a certain amount of [money](/blog/money-and-credit-class-10-notes) as a monthly allowance to each househol
 d. If the total budget is ₹ 3,00,000 and there are 500 households in the village, what is the average allowance per household?**
-**A)**    ₹ 600
-**B)**    ₹ 600 per household
-**C)**    ₹ 600 is allocated per household
-**D)**    ₹ 600 per household is allocated
+**A)**     ₹ 600
+**B)**     ₹ 600 per household
+**C)**     ₹ 600 is allocated per household
+**D)**     ₹ 600 per household is allocated
 
 **Answer:** A) Option B is incorrect because it does not specify the allowance. Option C is incorrect because it implies the allocation is for ₹ 600, but it is not clear. Option D is incorrect because it implies the allowance is ₹ 600 per household, but it is actually the total budget divided by the number of households.
 
 ---
 
 **2. A state has a total land area of 10,000 km². If the population density is 150 persons per km², and the total population is 1,500,000, what is the total number of districts in the state?**
-**A)**    500 districts
-**B)**    10 districts
-**C)**    1 district
-**D)**    There is not enough information to determine the number of districts.
+**A)**     500 districts
+**B)**     10 districts
+**C)**     1 district
+**D)**     There is not enough information to determine the number of districts.
 
 **Answer:** A) Option B is incorrect because the total number of districts cannot be determined with the given information. Option C is incorrect because a state cannot have only one district. Option D is incorrect because it is not necessarily true that there is not enough information to determine the number of districts.
 
 ---
 
 **3. A country has a total GDP of $100 billion. If the GDP per capita is $2,500, what is the total population of the country?**
-**A)**    $40 billion
-**B)**    $4,000
-**C)**    $100,000
-**D)**    40 million
+**A)**     $40 billion
+**B)**     $4,000
+**C)**     $100,000
+**D)**     40 million
 
 **Answer:** D) Option A is incorrect because it is the total GDP divided by the GDP per capita. Option B is incorrect because it is the GDP per capita divided by the total population. Option C is incorrect because it is a large number, but it is not the total population.
 
 ---
 
 **4. A city has a population of 5,000 people. If the birth rate is 10% per year, and the death rate is 5% per year, what is the net change in population after one year?**
-**A)**    +500 people
-**B)**    -250 people
-**C)**    No change in population
-**D)**    The net change in population cannot be determined with the given information.
+**A)**     +500 people
+**B)**     -250 people
+**C)**     No change in population
+**D)**     The net change in population cannot be determined with the given information.
 
 **Answer:** A) Option B is incorrect because the death rate is subtracted from the birth rate. Option C is incorrect because the birth rate and death rate are not equal. Option D is incorrect because the net change in population can be determined with the given information.
 
 ---
 
 **5. A state has a total revenue of ₹ 50,000. If the state government allocates 30% of the revenue to the education department, and 20% to the healthcare department, what is the total amount allocated to both departments?**
-**A)**    ₹ 14,000
-**B)**    ₹ 10,000
-**C)**    ₹ 12,000
-**D)**    ₹ 20,000
+**A)**     ₹ 14,000
+**B)**     ₹ 10,000
+**C)**     ₹ 12,000
+**D)**     ₹ 20,000
 
 **Answer:** A) Option B is incorrect because it is 20% of the revenue. Option C is incorrect because it is 10% of the revenue. Option D is incorrect because it is only the amount allocated to the healthcare department.
 

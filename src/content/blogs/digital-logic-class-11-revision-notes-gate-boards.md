@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/digital-logic-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 6, 2026*
+*Last Updated: May 7, 2026*
 
 ## 📑 Table of Contents
 
@@ -297,7 +297,7 @@ How does Boolean Algebra relate to Digital Logic? is a fundamental concept and [
  
  The relationship between Boolean Algebra and digital logic is based on the fact that digital circuits can be represented using Boolean expressions. A Boolean expression is a combination of Boolean variables, logical operators, n parentheses. The Boolean variables represent the inputs to the digital circuit, while the logical operators represent the operations performed on these inputs. The output of the digital circuit is determined y the Boolean expression, which can be simplified using the laws of Boolean Algebra. 
  
- One of the key applications of Boolean Algebra and digital logic is and the design of combinational logic circuits. Combinational logic circuits are digital circuits that do not have any feedback loops and whose output depends only on the current inputs. These circuits can be represented using Boolean expressions, which can be simplified using the laws of Boolean Algebra. 
+ One of the key applications of Boolean Algebra and digital logic is and the [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) of combinational logic circuits. Combinational logic circuits are digital circuits that do not have any feedback loops and whose output depends only on the current inputs. These circuits can be represented using Boolean expressions, which can be simplified using the laws of Boolean Algebra. 
  
  Another important application of Boolean Algebra and digital logic is and the design of sequential logic circuits. Sequential logic circuits are digital circuits that have feedback loops and whose output depends on both the current inputs and the previous outputs. These circuits can be represented using Boolean expressions, which can be simplified using the laws of Boolean Algebra. 
  
@@ -315,7 +315,7 @@ How does Boolean Algebra relate to Digital Logic? is a fundamental concept and [
 
 ## <a id="what-is-ayushs-note-on-digital-logic"></a>What is Ayush's Note on Digital Logic?
 
-Ayush's Note on Digital Logic is a study guide that provides a detailed explanation of digital logic concepts and their applications. It includes Boolean algebra, logic gates, n combinational circuits. For Class 11 exam prep and 2026, the most important aspect is understanding the fundamentals of digital logic and its relevance to computer science and electronics. 
+Ayush's Note on Digital Logic is a study guide that provides a detailed explanation of digital logic concepts and their applications. It includes Boolean algebra, logic gates, n combinational circuits. For Class 11 exam prep and 2026, the most important aspect is understanding the fundamentals of digital logic and its relevance to [computer](/blog/computer-organization-class-11-notes) science and electronics. 
  
  Digital logic is a fundamental concept and computer science and electronics that deals with the design and implementation of digital circuits. These circuits use logical operations to process binary [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards), which is represented using 0s and 1s. The study of digital logic involves understanding the basic logic gates, such as AND, OR, n NOT, n how they can be combined to create more complex circuits.
  

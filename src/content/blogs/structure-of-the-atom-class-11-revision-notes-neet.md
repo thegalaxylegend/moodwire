@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/structure-of-the-atom-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 6, 2026*
+*Last Updated: May 7, 2026*
 
 ## 📑 Table of Contents
 
@@ -137,7 +137,7 @@ B) 12
 C) 14
 D) 16
 Answer: B) 12
-What is the electron configuration of a sodium atom?
+What is the electron configuration of a sodium [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet)?
 A) $1s^2 2s^2 2p^6 3s^1$
 B) $1s^2 2s^2 2p^6 3s^2$
 C) $1s^2 2s^2 2p^6 3p^1$

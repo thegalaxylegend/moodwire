@@ -119,7 +119,7 @@ D) y - 3 = x - 1
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/linear-equations-in-two-variables-class-9-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/linear-[equations](/blog/differential-equations-class-12-notes)-in-two-variables-class-9-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Linear%20Equations%20In%20Two%20Variables%209%20Class%209%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

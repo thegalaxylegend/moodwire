@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/environmental-chemistry-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 6, 2026*
+*Last Updated: May 7, 2026*
 
 ## 📑 Table of Contents
 
@@ -196,7 +196,7 @@ Continue your [revision](/blog/plant-growth-and-development-class-11-revision-no
 ## 🔁 Last 5 Minutes Box
 
 * **Air Pollution**: Gases like CO, CO2, NOX, SO2, n particulate matter contribute to air pollution.
-* **Water Pollution**: Contamination of water sources y pathogens, nutrients, n inorganic/organic pollutants.
+* **Water Pollution**: Contamination of water sources y pathogens, nutrients, n inorganic/[organic](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) pollutants.
 * **Soil Pollution**: Soil degradation due to addition of pollutants like pesticides, fertilizers, n industrial wastes.
 * **Greenhouse Effect**: Warming of Earth's surface due to increased CO2 levels, water vapor, methane, n other greenhouse gases.
 * **Ozone Layer Depletion**: Thinning of ozone layer due to chlorofluorocarbons (CFCs) n other alienated compounds, leading to increased V radiation.

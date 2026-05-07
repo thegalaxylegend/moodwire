@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/computer-organization-class-11-notes"
 ---
 
-*Last Updated: May 6, 2026*
+*Last Updated: May 7, 2026*
 
 ## 📑 Table of Contents
 
@@ -181,7 +181,7 @@ How does the Memory Hierarchy Work and Computer Organization? is a hierarchical 
 
  The memory hierarchy is designed to balance the trade-off between memory access time, memory capacity, n cost. The hierarchy consists of multiple levels, with each level having a different access time, capacity, n cost. The fastest and most expensive level is the cache memory, which is a small, high-speed memory that stores frequently used instructions and [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards). The next level is the main memory, which is a larger and slower memory that stores all the program instructions and [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards). The slowest and least expensive level is the virtual memory, which is a combination of the main memory and the hard disk storage.
 
- The memory hierarchy works y using a technique called locality of reference, which states that a program tends to access data and instructions that are located near each other and memory. The cache memory takes advantage of this locality y storing the most recently accessed instructions and data. When the CPU needs to access data or instructions, it first checks the cache memory. If the required data or instructions are found and the cache, it is called a cache hit, n the CPU can access them quickly. If the required data or instructions are not found and the cache, it is called a cache miss, n the CPU has to access the main memory or virtual memory, which takes longer.
+ The memory hierarchy works y using a technique called locality of reference, which states that a program tends to access [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) and instructions that are located near each other and memory. The cache memory takes advantage of this locality y storing the most recently accessed instructions and [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards). When the CPU needs to access [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) or instructions, it first checks the cache memory. If the required [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) or instructions are found and the cache, it is called a cache hit, n the CPU can access them quickly. If the required [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) or instructions are not found and the cache, it is called a cache miss, n the CPU has to access the main memory or virtual memory, which takes longer.
 
  A key concept and the memory hierarchy is the concept of blocks and words. A block is a group of words that are stored together and the cache memory. The size of the block can vary depending on the system, but it is typically a power of 2, such as 4, 8, or 16 words. Each block has a unique tag that identifies it, n the cache memory uses a mapping function to map the tag to a specific location and the cache.
 

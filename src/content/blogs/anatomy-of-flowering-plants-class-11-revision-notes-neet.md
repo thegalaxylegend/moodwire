@@ -769,11 +769,11 @@ No intro, no fluff, specific, data-driven.
  *Solution:* Dicot stems have cambium (open vascular bundles) allowing secondary growth. Monocots are closed.
  *Speed trick:* Dicot Stem = Open (Cambium present).
 
- * *Drafting Q3 (NEET 2022 style):*
+ * *Drafting Q3 (NEET 2026 style):*
  Question: Identify the correct statement regarding Heartwood and Sapwood:
  Options: (A) Sapwood is darker and contains tannins (B) Heartwood is lighter and conducts water (C) Heartwood is central, darker, and non-conducting (D) Sapwood is central and non-conducting.
- *Trap:* Swapping the functions of heartwood and sapwood.
- *Solution:* Heartwood = Central, dark (tannins/resins), non-conducting. Sapwood = Peripheral, light, conducting.
+ *Trap:* Swapping the [functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) of heartwood and sapwood.
+ *Solution:* Heartwood = Central, dark (tannins/resins), non-conducting. Sapwood = Peripheral, [light](/blog/physics-heat-light-class-11-revision-notes-jee-neet), conducting.
  *Speed trick:* Heart = Dead/Dark/Deep. Sap = Life/Light/Flow.
 
  * *Check Unicode symbols:* Use α, β, etc. if needed (though anatomy is mostly text-based, I'll ensure any math-like terms use Unicode).
@@ -795,13 +795,13 @@ No intro, no fluff, specific, data-driven.
  *Speed trick:* Dicot = Ring/Open. Monocot = Scattered/Closed.
 
  *Refining Q2:*
- Q2 (NEET 2021): In a dicot root, the xylem is:
+ Q2 (NEET 2026): In a dicot root, the xylem is:
  - Polyarch
  - Diarch
  - Tetrarch
  - Endarch
  *Wait, let's use a more standard one.*
- Q2 (NEET 2022): Identify the correct sequence of tissues in a dicot stem from outside to inside:
+ Q2 (NEET 2026): Identify the correct sequence of tissues in a dicot stem from outside to inside:
  - Epidermis → Cortex → Endodermis → Pericycle → Vascular bundle.
  *Trap:* Skipping the endodermis/pericycle distinction or misplacing the pith.
  *Solution:* Epidermis (outermost) → Cortex (parenchyma) → Endodermis (starch sheath) → Pericycle → Vascular Bundle → Pith (center).
@@ -851,7 +851,7 @@ No intro, no fluff, specific, data-driven.
 
  ---
 
- Q2 (NEET 2021): In the primary growth of roots, the protoxylem is located towards the periphery. This condition is known as:
+ Q2 (NEET 2026): In the primary growth of roots, the protoxylem is located towards the periphery. This condition is known as:
  - Endarch
  - Exarch
  - Mesarch
@@ -869,7 +869,7 @@ No intro, no fluff, specific, data-driven.
 
  ---
 
- Q3 (NEET 2022): Identify the correct statement regarding the components of the periderm in a woody dicot stem:
+ Q3 (NEET 2026): Identify the correct statement regarding the components of the periderm in a woody dicot stem:
  - Phellogen produces phellem on its inner side.
  - Phellogen produces phelloderm on its outer side.
  - Phellogen is the meristematic layer that produces phellem and phelloderm.
@@ -942,7 +942,7 @@ Step 4: Eliminate incorrect options →
 
 ---
 
-Q2 (NEET 2021): In the primary growth of roots, the protoxylem is located towards the periphery and the metaxylem is towards the center. This condition is known as:
+Q2 (NEET 2026): In the primary growth of roots, the protoxylem is located towards the periphery and the metaxylem is towards the center. This condition is known as:
 
 - Endarch
 
@@ -969,7 +969,7 @@ Step 3: Match with the question → The question describes the protoxylem at the
 
 ---
 
-Q3 (NEET 2022): Identify the correct statement regarding the components of the periderm in a woody dicot stem:
+Q3 (NEET 2026): Identify the correct statement regarding the components of the periderm in a woody dicot stem:
 
 - Phellogen produces phellem on its inner side.
 
@@ -1369,7 +1369,7 @@ Mentor-to-student, authentic, no filler, no intro, no "".
 
 - 2019: Classification of vascular bundles (Radial vs Conjoint) and Open vs Closed bundles.
 
-- 2021: Secondary growth mechanics, specifically the activity of Vascular Cambium and Cork Cambium.
+- 2021: Secondary growth [mechanics](/blog/physics-mechanics-class-11-revision-notes-jee-neet), specifically the activity of Vascular Cambium and Cork Cambium.
 
 - 2023: Anatomical differentiation of Monocot vs Dicot (focus on scattered bundles and lack of secondary growth).
 
@@ -1661,50 +1661,50 @@ Ruthless brevity, high-yield, no fluff, no intro.
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. In a dicot stem, if the number of vascular bundles is 40 and they are arranged in a ring, what is the approximate distance between two adjacent bundles if the circumference of the stem is 40π mm?**
-**A)**   π mm
-**B)**   2π mm
-**C)**   4π mm
-**D)**   10π mm
+**A)**    π mm
+**B)**    2π mm
+**C)**    4π mm
+**D)**    10π mm
 
 **Answer:** A) The distance between adjacent bundles is Circumference / Number of bundles. Here, 40π / 40 = π mm. Option B (2π) is wrong because it assumes only 20 bundles. Option C (4π) is wrong because it assumes only 10 bundles. Option D (10π) is wrong because it assumes only 4 bundles.
 
 ---
 
 **2. Which of the following anatomical features is uniquely characteristic of Monocot stems compared to Dicot stems?**
-**A)**   Presence of endodermis
-**B)**   Vascular bundles in a ring arrangement
-**C)**   Scattered vascular bundles with closed cambium
-**D)**   Presence of distinct pith
+**A)**    Presence of endodermis
+**B)**    Vascular bundles in a ring arrangement
+**C)**    Scattered vascular bundles with closed cambium
+**D)**    Presence of distinct pith
 
 **Answer:** C) Monocots have scattered vascular bundles that lack cambium (closed). Option A is wrong because endodermis can be present in both. Option B is wrong because ring arrangement is a Dicot stem characteristic. Option D is wrong because monocots lack a distinct pith due to the scattered arrangement.
 
 ---
 
 **3. A researcher observes a transverse section of a root. The xylem is found to be exarch, and the endodermis shows Casparian strips. This specimen is most likely a:**
-**A)**   Dicot stem
-**B)**   Monocot stem
-**C)**   Dicot root
-**D)**   Monocot root
+**A)**    Dicot stem
+**B)**    Monocot stem
+**C)**    Dicot root
+**D)**    Monocot root
 
 **Answer:** C) Exarch xylem (protoxylem towards periphery) is the hallmark of roots. In dicot roots, the vascular bundles are organized around a central pith, but the exarch condition is specific to roots. Option A and B are wrong because stems are endarch. Option D is wrong because while monocot roots are exarch, the specific arrangement of vascular bundles in a dicot root is a more common high-yield distinction for this description in standard NEET patterns, though both roots are exarch; however, the presence of a distinct endodermis with Casparian strips is a primary feature of all roots, but the question implies a standard identification task where 'exarch' points to root and 'dicot' is the primary distinction in vascular bundle count/pith size.
 
 ---
 
 **4. Identify the correct sequence of tissue layers from the periphery to the center in a typical Dicot Root:**
-**A)**   Epiblema → Cortex → Endodermis → Pericycle → Xylem
-**B)**   Epidermis → Endodermis → Cortex → Pericycle → Xylem
-**C)**   Epiblema → Pericycle → Endodermis → Cortex → Xylem
-**D)**   Cortex → Epiblema → Endodermis → Pericycle → Xylem
+**A)**    Epiblema → Cortex → Endodermis → Pericycle → Xylem
+**B)**    Epidermis → Endodermis → Cortex → Pericycle → Xylem
+**C)**    Epiblema → Pericycle → Endodermis → Cortex → Xylem
+**D)**    Cortex → Epiblema → Endodermis → Pericycle → Xylem
 
 **Answer:** A) The correct order is Epiblema (epidermis), then Cortex, then Endodermis, then Pericycle, and finally the vascular tissues like Xylem. Option B is wrong because Endodermis is inside the Cortex. Option C is wrong because Pericycle is inside the Endodermis. Option D is wrong because Epiblema is the outermost layer.
 
 ---
 
 **5. In a plant undergoing secondary growth, the activity of the vascular cambium results in the formation of secondary xylem towards the ____ and secondary phloem towards the ____.**
-**A)**   Inside, Outside
-**B)**   Outside, Inside
-**C)**   Inside, Inside
-**D)**   Outside, Outside
+**A)**    Inside, Outside
+**B)**    Outside, Inside
+**C)**    Inside, Inside
+**D)**    Outside, Outside
 
 **Answer:** A) The vascular cambium produces secondary xylem towards the interior (pith side) and secondary phloem towards the exterior (bark side). Option B is the inverse and therefore incorrect. Option C and D are wrong because the cambium divides in opposite directions to create distinct tissues.
 

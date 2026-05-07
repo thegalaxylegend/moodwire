@@ -228,7 +228,7 @@ The diagnostic question: Which of the following statements best describes the na
 
 - D) The movement was largely limited to the urban areas and did not involve the rural population.
 
-- **If you answered A: you have the misconception → fix:** Recognize that the nationalist movement in India was a complex and multifaceted phenomenon that involved various social, economic, and political factors, and that the Indian National Congress was just one of the many organizations involved.
+- **If you answered A: you have the misconception → fix:** Recognize that the nationalist movement in India was a complex and multifaceted phenomenon that involved various social, economic, and political factors, and that the Indian [National](/blog/lifelines-of-national-economy-class-10-notes) Congress was just one of the many organizations involved.
 
 - **If you answered B: you are in the top 5% → now extend this:** Consider how the diverse range of movements and ideologies within the nationalist movement influenced the eventual outcome of the independence struggle, and how these factors continue to shape Indian politics and society today.
 
@@ -237,7 +237,7 @@ How to never forget this: To remember the complex nature of the nationalist move
 
 - D: Diverse range of movements and ideologies
 
-- I: Influenced by regional identity, caste, class, and religion
+- I: Influenced by regional identity, caste, class, and [religion](/blog/gender-religion-and-caste-class-10-notes)
 
 - V: Various social, economic, and political factors at play
 
@@ -320,30 +320,30 @@ The Indian nationalist movement was a complex and multifaceted phenomenon that i
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What was the main objective of the Non-Cooperation Movement led by Mahatma Gandhi in 1920?**
-**A)**          To achieve complete independence from British rule
-**B)**          To gain more rights and freedom for Indians
-**C)**          To protest against the Rowlatt Act
-**D)**          To reform the Indian National Congress
+**A)**           To achieve complete independence from British rule
+**B)**           To gain more rights and freedom for Indians
+**C)**           To protest against the Rowlatt Act
+**D)**           To reform the Indian National Congress
 
 **Answer:** A) Option B is incorrect because the movement's primary goal was not merely to gain rights and freedom. Option C is incorrect because the Rowlatt Act was a major trigger for the movement, but not its primary objective. Option D is incorrect because the movement was a broader initiative led by Gandhi, not just a reform within the Congress party.
 
 ---
 
 **2. According to the Nehru Report (1928), what was the proposed percentage of representation in the Central Legislative Assembly for different communities?**
-**A)**          30% for Muslims, 20% for Sikhs, 50% for Hindus
-**B)**          20% for Muslims, 30% for Sikhs, 50% for Hindus
-**C)**          30% for Muslims, 50% for Sikhs, 20% for Hindus
-**D)**          $rac{1}{7}$ for Muslims, $rac{1}{14}$ for Sikhs, $rac{6}{7}$ for Hindus
+**A)**           30% for Muslims, 20% for Sikhs, 50% for Hindus
+**B)**           20% for Muslims, 30% for Sikhs, 50% for Hindus
+**C)**           30% for Muslims, 50% for Sikhs, 20% for Hindus
+**D)**           $rac{1}{7}$ for Muslims, $rac{1}{14}$ for Sikhs, $rac{6}{7}$ for Hindus
 
 **Answer:** C) Option A is incorrect because the Nehru Report proposed different percentages. Option B is incorrect because the report suggested a different distribution. Option D is incorrect because it represents the actual proportions of the population, not the proposed representation.
 
 ---
 
 **3. The Simon Commission, which arrived in India in 1927, was composed of __________ members.**
-**A)**          7
-**B)**          11
-**C)**          5
-**D)**          9
+**A)**           7
+**B)**           11
+**C)**           5
+**D)**           9
 
 **Answer:** B) Option A is incorrect because the Simon Commission had more than 7 members. Option C is incorrect because the commission had more than 5 members. Option D is incorrect because the correct number of members is 7, but only one of the options matches the commission's actual size.
 
@@ -351,20 +351,20 @@ The Indian nationalist movement was a complex and multifaceted phenomenon that i
 
 **4. The Indian National Army (IN
 A) , formed during [World](/blog/human-eye-and-colourful-world-class-10-notes) War II, was led by __________.**
-**A)**          Subhas Chandra Bose
-**B)**          Mahatma Gandhi
-**C)**          Jawaharlal Nehru
-**D)**          Netaji
+**A)**           Subhas Chandra Bose
+**B)**           Mahatma Gandhi
+**C)**           Jawaharlal Nehru
+**D)**           Netaji
 
 **Answer:** A) Option B is incorrect because Gandhi was not involved with the INA. Option C is incorrect because Nehru was not the leader of the INA. Option D is incorrect because 'Netaji' was a title given to Subhas Chandra Bose, but it's not the correct answer in this context.
 
 ---
 
 **5. The 'Quit India' movement, launched by Mahatma Gandhi in 1942, was a response to the __________ Act.**
-**A)**          Government of India Act of 1935
-**B)**          Indian Independence Act of 1947
-**C)**          Rajaji Formula
-**D)**          August Offer
+**A)**           Government of India Act of 1935
+**B)**           Indian Independence Act of 1947
+**C)**           Rajaji Formula
+**D)**           August Offer
 
 **Answer:** B) Option A is incorrect because the Act of 1935 was a major piece of legislation, but not the specific reason for the 'Quit India' movement. Option C is incorrect because the Rajaji Formula was a proposal put forth by C. Rajagopalachari. Option D is incorrect because the August Offer was a British proposal made during [World](/blog/the-making-of-a-global-world-class-10-notes) War II.
 

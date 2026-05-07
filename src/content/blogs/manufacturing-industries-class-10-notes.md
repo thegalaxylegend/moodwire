@@ -103,7 +103,7 @@ Examiner's Trap: Overlooking the role of government policy or the concept of agg
 * **Cotton Textile Industry Milestones:**
  * **First Successful Mill:** Mumbai, $1854$.
  * **Early Concentration:** Maharashtra and Gujarat (due to raw cotton, market, transport, port facilities, labour, moist climate).
- * **Challenges Equation:** (Obsolete Machinery) + (Erratic Power Supply) + (Low Labour Productivity) + (Stiff Competition from Synthetic Fibres) = Industry Decline Pressure.
+ * **Challenges Equation:** (Obsolete Machinery) + (Erratic [Power](/blog/power-sharing-class-10-notes) Supply) + (Low Labour Productivity) + (Stiff Competition from Synthetic Fibres) = Industry Decline Pressure.
 
 * **Jute Textile Industry Metrics:**
  * **India's Position:** Largest producer of raw jute and jute goods.
@@ -250,7 +250,7 @@ No introductions, no definitions, no filler.
  * 🔧 Fix: Use the "GDP + Jobs + Exports" triad.
 
  * *Mistake 4: Agglomeration Ambiguity.*
- * 🔴 Error: Saying "industries stay together to save money."
+ * 🔴 Error: Saying "industries stay together to save [money](/blog/money-and-credit-class-10-notes)."
  * ✅ Correct: Defining "Agglomeration Economies"—the benefit of locating near other industries to access shared services/infrastructure.
  * 💸 Marks lost: 2 marks.
  * 🔧 Fix: Cluster $\rightarrow$ Shared Services $\rightarrow$ Cost Reduction.
@@ -919,7 +919,7 @@ Class 10 CBSE Social Science (Manufacturing Industries).
 - 🪤 **Trap:** Students often write a general paragraph about "[making](/blog/the-making-of-a-global-world-class-10-notes) things" instead of highlighting the specific multiplier effect on agriculture and the service sector.
 
 - 🧮 **Solution (Step-by-step):**
- Step 1: Link to Agriculture → Modern manufacturing provides tools like tractors, pumps, and fertilizers, which increases agricultural productivity.
+ Step 1: Link to Agriculture → [Modern](/blog/print-culture-and-the-modern-world-class-10-notes) manufacturing provides tools like tractors, pumps, and fertilizers, which increases agricultural productivity.
  Step 2: Link to Employment → It reduces heavy dependence on agricultural income by providing jobs in secondary and tertiary sectors.
  Step 3: Link to Services → Industrial growth directly boosts demand for services like transport, trade, banking, and insurance.
  **Final Answer:** Manufacturing drives development by modernizing agriculture, creating non-farm employment, and integrating the service sector into the economy.
@@ -1429,50 +1429,50 @@ Sustainable industrial development is crucial, balancing economic growth with en
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. Which of the following industries is considered a 'Basic Industry' because its products serve as raw materials for many other industries?**
-**A)**     Textile Industry
-**B)**     Iron and Steel Industry
-**C)**     Information Technology Industry
-**D)**     Sugar Industry
+**A)**      Textile Industry
+**B)**      Iron and Steel Industry
+**C)**      Information Technology Industry
+**D)**      Sugar Industry
 
 **Answer:** B) B is correct because Iron and Steel provide the foundational materials for almost all other manufacturing sectors like automobiles and construction. A is incorrect as it is a consumer-oriented industry. C is incorrect as it is a service-based sector. D is incorrect as it is a processing industry for agricultural products.
 
 ---
 
 **2. In the context of industrial location, which factor is most critical for the establishment of a Sugar Industry in Uttar Pradesh compared to Maharashtra?**
-**A)**     Availability of cheap labor
-**B)**     Proximity to ports
-**C)**     Availability of raw material (Sugarcane)
-**D)**     Availability of heavy machinery
+**A)**      Availability of cheap labor
+**B)**      Proximity to ports
+**C)**      Availability of raw material (Sugarcane)
+**D)**      Availability of heavy machinery
 
 **Answer:** C) C is correct because sugar mills must be located near sugarcane fields due to its high sucrose content which diminishes rapidly after harvest. A is incorrect as labor is available across most regions. B is incorrect because sugar mills are inland-focused. D is incorrect as machinery can be transported, but raw material cannot wait.
 
 ---
 
 **3. Identify the correct sequence of the manufacturing process for the Cotton Textile Industry:**
-**A)**     Spinning → Weaving → Knitting → Dyeing
-**B)**     Weaving → Spinning → Dyeing → Knitting
-**C)**     Spinning → Dyeing → Weaving → Knitting
-**D)**     Knitting → Spinning → Weaving → Dyeing
+**A)**      Spinning → Weaving → Knitting → Dyeing
+**B)**      Weaving → Spinning → Dyeing → Knitting
+**C)**      Spinning → Dyeing → Weaving → Knitting
+**D)**      Knitting → Spinning → Weaving → Dyeing
 
 **Answer:** A) A is correct as it follows the logical progression from yarn production (spinning) to fabric construction (weaving/knitting) and finally finishing (dyeing). B, C, and D are incorrect because they skip the essential step of creating yarn before making fabric or attempt to dye the material before the structure is formed.
 
 ---
 
 **4. A factory produces 500 units of steel. If the raw material cost is 60% of the total cost and the energy cost is 15%, what is the combined percentage of Raw Material and Energy costs in the total production cost?**
-**A)**     45%
-**B)**     75%
-**C)**     60%
-**D)**     85%
+**A)**      45%
+**B)**      75%
+**C)**      60%
+**D)**      85%
 
 **Answer:** B) B is correct because the total combined percentage is calculated by adding 60% (Raw Material) + 15% (Energy) = 75%. A is incorrect as it only calculates the difference. C is incorrect as it ignores energy. D is incorrect as it adds an extra 10% not mentioned in the data.
 
 ---
 
 **5. Which of the following statements regarding the impact of industrialization on the environment is most accurate?**
-**A)**     Industrialization leads to a decrease in air and water pollution levels.
-**B)**     Industries contribute to environmental degradation through thermal and chemical pollution.
-**C)**     The manufacturing sector has zero impact on the ecological balance.
-**D)**     Industrial effluents are always naturally biodegradable.
+**A)**      Industrialization leads to a decrease in air and water pollution levels.
+**B)**      Industries contribute to environmental degradation through thermal and chemical pollution.
+**C)**      The manufacturing sector has zero impact on the ecological balance.
+**D)**      Industrial effluents are always naturally biodegradable.
 
 **Answer:** B) B is correct because industries release smoke (air pollution) and untreated chemical waste (water pollution) into the ecosystem. A is incorrect because industrialization increases pollution. C is incorrect because the impact is massive. D is incorrect because most industrial effluents contain non-biodegradable chemicals.
 

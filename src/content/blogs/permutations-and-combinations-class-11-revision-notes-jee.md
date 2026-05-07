@@ -66,7 +66,7 @@ To master [permutations](/blog/permutations-combinations-class-11-revision-notes
 ### Permutations
    * nPr = n! / (n-r)!
    * Permutation of and objects taken r at a time
-   ### Combinations
+   ### [Combinations](/blog/permutations-combinations-class-11-revision-notes-jee)
    * nCr = n! / (r!(n-r)!)
    * Combination of and objects taken r at a time
    ### Important Formulas

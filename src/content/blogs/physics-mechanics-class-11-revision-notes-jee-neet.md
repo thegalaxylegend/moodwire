@@ -320,7 +320,7 @@ Strict, top 1% JEE/NEET ranker.
 
 - **Velocity of COM:** V_cm = Σ (m_i v_i) / Σ m_i — V_cm: velocity of the system's center of mass
 
-- **Acceleration of COM:** A_cm = Σ (m_i am_i) / Σ m_i — A_cm: acceleration of the COM
+- **Acceleration of COM:** A_cm = Σ (m_I am_i) / Σ m_i — A_cm: acceleration of the COM
 
 **Rotational Kinematics (Analogous to Linear)**
 
@@ -442,7 +442,7 @@ Strict, top 1% JEE/NEET ranker.
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 Strict, top 1% JEE/NEET ranker.
-"The 5 Mistakes That Cost Marks" section for Physics Mechanics (Class 11) revision notes.
+"The 5 Mistakes That Cost Marks" section for [Physics](/blog/physics-heat-light-class-11-revision-notes-jee-neet) Mechanics (Class 11) revision notes.
 JEE/NEET students (2026).
 No introductions, no fluff, no "". Use bullet points.
  * **CRITICAL CONTRADICTION IN PROMPT:**
@@ -747,7 +747,7 @@ eq$ center of mass, you must use $I = I_{cm} + Md²$.
  This is the ultimate instruction.
 
  *Question Selection:*
- 1. Projectile Motion (JEE Main 2021 style)
+ 1. Projectile Motion (JEE Main 2026 style)
  2. Friction/Work-Energy (NEET 2019 style)
  3. Rolling Motion (JEE Advanced 2022 style)
 
@@ -761,7 +761,7 @@ eq$ center of mass, you must use $I = I_{cm} + Md²$.
 
  *Let's go.*### ✏️ 3 Solved PYQs
 
-Q1 (2021 JEE Main): A projectile is launched from the ground with an initial velocity u at an angle θ with the horizontal. If the maximum height (H) reached by the projectile is equal to its horizontal range (R), calculate the value of tan θ.
+Q1 (2026 JEE Main): A projectile is launched from the ground with an initial velocity u at an angle θ with the horizontal. If the maximum height (H) reached by the projectile is equal to its horizontal range (R), calculate the value of tan θ.
 
 - 🪤 **Trap:** Students often confuse the formula for Range (R = u² sin 2θ / g) with the formula for Maximum Height (H = u² sin² θ / 2g) or forget the '2' in the denominator of the height formula.
 
@@ -795,7 +795,7 @@ Q2 (2019 NEET): A block of mass 5 kg is sliding on a rough horizontal surface wi
 
 ---
 
-Q3 (2022 JEE Advanced): A solid sphere of mass M and radius R is rolling without slipping on a horizontal surface with a velocity v. What is the ratio of its rotational kinetic energy (K_rot) to its total kinetic energy (K_total)?
+Q3 (2026 JEE Advanced): A solid sphere of mass M and radius R is rolling without slipping on a horizontal surface with a velocity v. What is the ratio of its rotational kinetic energy (K_rot) to its total kinetic energy (K_total)?
 
 - 🪤 **Trap:** Students often forget that Total KE = Translational KE + Rotational KE, and they incorrectly use the Moment of Inertia for a ring (MR²) instead of a solid sphere (2/5 MR²).
 

@@ -217,11 +217,11 @@ The diagnostic question: What is the primary goal of the management of natural [
 
 - B) To promote economic growth and [development](/blog/resources-and-development-class-10-notes)
 
-- C) To balance economic development with environmental protection
+- C) To balance economic [development](/blog/resources-and-development-class-10-notes) with environmental protection
 
 - D) To reduce the consumption of natural [resources](/blog/water-resources-class-10-notes)
 
-If you answered A or B: you have the misconception → fix: Remember that the management of natural resources is about finding a balance between economic development and environmental protection, not just conserving resources or promoting growth.
+If you answered A or B: you have the misconception → fix: Remember that the management of natural [resources](/blog/water-resources-class-10-notes) is about finding a balance between economic development and environmental protection, not just conserving [resources](/blog/water-resources-class-10-notes) or promoting growth.
 
 - **If you answered C: you are in the top 5% → now extend this:** Consider the concept of $\Delta$, or the change in a system, and how it can be used to measure the impact of human activities on the environment. For example, the change in temperature, $\Delta T$, can be used to calculate the amount of $CO_2$ emissions.
 
@@ -299,50 +299,50 @@ By remembering these key points and using the mnemonic or visual analogy, you ca
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. A forest cover of 33% is required for a region to receive a maximum amount of rainfall. True or False?**
-**A)**          It is a universal rule that forest cover of 33% is required for a region to receive a maximum amount of rainfall.
-**B)**          Forest cover of 33% is required for a region to receive a moderate amount of rainfall.
-**C)**          Forest cover of 33% is not required for a region to receive a maximum amount of rainfall.
-**D)**          A 33% forest cover is required for a region to receive a minimum amount of rainfall.
+**A)**           It is a universal rule that forest cover of 33% is required for a region to receive a maximum amount of rainfall.
+**B)**           Forest cover of 33% is required for a region to receive a moderate amount of rainfall.
+**C)**           Forest cover of 33% is not required for a region to receive a maximum amount of rainfall.
+**D)**           A 33% forest cover is required for a region to receive a minimum amount of rainfall.
 
 **Answer:** C) The statement is incorrect. A forest cover of 33% can lead to a maximum amount of rainfall in a region. The correct statement should be that a forest cover of 33% can lead to a maximum amount of rainfall in a region.
 
 ---
 
 **2. The carrying capacity of an area is the maximum number of people that an area can support. True or False?**
-**A)**          Carrying capacity is the maximum number of people that an area can support.
-**B)**          Carrying capacity is the minimum number of people that an area can support.
-**C)**          Carrying capacity is the number of people that an area is currently supporting.
-**D)**          Carrying capacity is the number of people that an area can support in the long term.
+**A)**           Carrying capacity is the maximum number of people that an area can support.
+**B)**           Carrying capacity is the minimum number of people that an area can support.
+**C)**           Carrying capacity is the number of people that an area is currently supporting.
+**D)**           Carrying capacity is the number of people that an area can support in the long term.
 
 **Answer:** C) The statement is incorrect. Carrying capacity is actually the maximum number of people that an area can support in the long term.
 
 ---
 
 **3. To control desertification, the most effective method is to prevent soil erosion. True or False?**
-**A)**          The most effective method to control desertification is to prevent soil erosion.
-**B)**          The most effective method to control desertification is to plant more trees.
-**C)**          The most effective method to control desertification is to reduce population growth.
-**D)**          The most effective method to control desertification is to reduce agricultural activities.
+**A)**           The most effective method to control desertification is to prevent soil erosion.
+**B)**           The most effective method to control desertification is to plant more trees.
+**C)**           The most effective method to control desertification is to reduce population growth.
+**D)**           The most effective method to control desertification is to reduce agricultural activities.
 
 **Answer:** B) The statement is incorrect. While preventing soil erosion is an important step in controlling desertification, the most effective method is actually to plant more trees and restore vegetation cover.
 
 ---
 
 **4. The Green Revolution in India was initiated due to the scarcity of water. True or False?**
-**A)**          The Green Revolution in India was initiated due to the scarcity of water.
-**B)**          The Green Revolution in India was initiated due to the scarcity of fertile land.
-**C)**          The Green Revolution in India was initiated due to the high cost of fertilizers.
-**D)**          The Green Revolution in India was initiated due to the introduction of high-yielding varieties of wheat and rice.
+**A)**           The Green Revolution in India was initiated due to the scarcity of water.
+**B)**           The Green Revolution in India was initiated due to the scarcity of fertile land.
+**C)**           The Green Revolution in India was initiated due to the high cost of fertilizers.
+**D)**           The Green Revolution in India was initiated due to the introduction of high-yielding varieties of wheat and rice.
 
 **Answer:** D) The statement is incorrect. The Green Revolution in India was actually initiated due to the introduction of high-yielding varieties of wheat and rice, not due to the scarcity of water.
 
 ---
 
 **5. The per capita water availability in India is $1000 ,m^3$. True or False?**
-**A)**          $1000 ,m^3$ is the per capita water availability in India.
-**B)**          $500 ,m^3$ is the per capita water availability in India.
-**C)**          $2000 ,m^3$ is the per capita water availability in India.
-**D)**          The per capita water availability in India is not known.
+**A)**           $1000 ,m^3$ is the per capita water availability in India.
+**B)**           $500 ,m^3$ is the per capita water availability in India.
+**C)**           $2000 ,m^3$ is the per capita water availability in India.
+**D)**           The per capita water availability in India is not known.
 
 **Answer:** C) The statement is incorrect. The per capita water availability in India is actually less than $1000 ,m^3$, and it is decreasing every year.
 
