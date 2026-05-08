@@ -531,7 +531,7 @@ export const Overview = () => {
 
                         {user && !user.isGuest && (
                             <DailyMissionCard
-                                missions={user.dailyMissions || []}
+                                missions={(user.dailyMissions || []).slice(0, 1)}
                                 onComplete={(id) => completeMission(id)}
                                 onRefresh={() => refreshMissions()}
                                 onAction={handleMissionAction}
@@ -659,14 +659,7 @@ export const Overview = () => {
 
                         {loading ? <div className="h-20 w-full bg-surface animate-pulse rounded-xl" /> : (
                             <div className="space-y-8">
-                                {/* AI 2.0 Root Cause Layer */}
-                                {dependencyInsights.length > 0 && (
-                                    <RootCauseInsight
-                                        insights={dependencyInsights}
-                                        onFixAction={(topic) => navigate(`/dashboard/mock?topic=${encodeURIComponent(topic)}`)}
-                                    />
-                                )}
-
+                                {/* AI 2.0 Root Cause Layer - Removed as per request */}
                                 {/* Mastery & College Fit Diagnostics */}
                                 <div className="space-y-8">
                                     {/* MasteryDiagnostics removed as per user request */}

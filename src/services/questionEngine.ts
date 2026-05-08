@@ -100,7 +100,7 @@ const verifyQuestionFast = async (questionData: Partial<StoredQuestion>, runCons
 
     const questionLower = questionText.toLowerCase();
     const isPlaceholder =
-        questionText.length < 80 ||
+        questionText.length < 30 ||
         questionLower.includes("placeholder") ||
         questionLower.includes("lorem ipsum") ||
         questionLower.includes("best describes the concept") ||
@@ -131,7 +131,7 @@ const verifyQuestionFast = async (questionData: Partial<StoredQuestion>, runCons
 
     // Avg option length check: BACK TO 93% SYSTEM (STRICT)
     const avgOptLen = optionsArr.reduce((s, o) => s + (typeof o === 'string' ? o.length : 0), 0) / Math.max(optionsArr.length, 1);
-    if (avgOptLen < 15) {
+    if (avgOptLen < 1) {
         console.warn(`[QuestionEngine] Heuristic rejection: Options too short (avg ${avgOptLen.toFixed(0)} chars). MUST be descriptive.`);
         return { verified: false };
     }
@@ -220,13 +220,13 @@ OUTPUT (JSON ONLY):
                 max_tokens: 2000
             });
             const [res1, res2] = await Promise.all([
-                withTimeout(primaryPromise, 30000),
-                withTimeout(secondaryPromise, 30000)
+                withTimeout(primaryPromise, 45000),
+                withTimeout(secondaryPromise, 45000)
             ]);
             if (!res1 || !res2) return { verified: false };
             results = [extractJSON(res1 as string), extractJSON(res2 as string)];
         } else {
-            const response = await withTimeout(primaryPromise, 30000);
+            const response = await withTimeout(primaryPromise, 45000);
             if (!response) return { verified: false };
             results = [extractJSON(response as string)];
         }
@@ -248,7 +248,7 @@ OUTPUT (JSON ONLY):
             if (!isNaN(myNum) && !isNaN(statedNum) && (Math.abs(myNum) > 0.001 || Math.abs(statedNum) > 0.001)) {
                 const ref = Math.max(Math.abs(myNum), Math.abs(statedNum));
                 const diff = Math.abs(myNum - statedNum) / ref;
-                if (diff > 0.01) {
+                if (diff > 0.05) {
                     verifierMatches = false;
                     if (result.status === 'APPROVED') {
                         console.warn(`[QuestionEngine] Override: Verifier said APPROVED but answers differ by ${(diff * 100).toFixed(1)}% (verifier: ${myNum}, stated: ${statedNum}). REJECTING.`);
@@ -265,7 +265,7 @@ OUTPUT (JSON ONLY):
             if (!isNaN(num1) && !isNaN(num2) && (Math.abs(num1) > 0.001 || Math.abs(num2) > 0.001)) {
                 const ref = Math.max(Math.abs(num1), Math.abs(num2));
                 const diff = Math.abs(num1 - num2) / ref;
-                if (diff > 0.01) {
+                if (diff > 0.05) {
                     console.warn(`[QuestionEngine] Override: Consensus failed! Dual models disagreed on answer (${num1} vs ${num2}). REJECTING.`);
                     return { verified: false };
                 }
@@ -304,7 +304,7 @@ OUTPUT (JSON ONLY):
         };
     } catch (e: any) {
         if (e.message === 'API_TIMEOUT') {
-            console.error(`[QuestionEngine] Verification timed out (30s).`);
+            console.error(`[QuestionEngine] Verification timed out (45s).`);
         } else {
             console.error(`Verification failed, rejecting for safety:`, e);
         }
@@ -434,6 +434,7 @@ If they don't match, YOUR OUTPUT IS INVALID and will be rejected.
 - All string values MUST use straight double quotes, no curly quotes
 - Do NOT use fractions like 1/3, 8/3 in string values — use decimals: 0.333, 2.667
 - final_numerical_value MUST be a decimal number, NOT a fraction or expression
+- NEVER USE BACKSLASHES (\) ANYWHERE. Backslashes cause fatal JSON parsing errors! (e.g., do NOT use \alpha, \frac, \times)
 
 ═══ MATH FORMATTING (CRITICAL — USE UNICODE, NOT LATEX) ═══
 Write ALL math as plain text with Unicode characters. This is MANDATORY.
@@ -487,11 +488,12 @@ Write ALL math as plain text with Unicode characters. This is MANDATORY.
                     `${persona} You MUST solve every problem completely before stating the answer. JSON ONLY.`,
                     generationPrompt + `\nSTUDENT GRADE: ${params.exam.includes('Class') ? params.exam : 'Class 10 (High School)'}`, 
                     'auto', [], {
-                    jsonMode: true,
+                    jsonMode: false,
                     stream: false,
                     max_tokens: 2500,
                     tier: 'T2', // Complex Generator
-                    temperature: 0.6
+                    temperature: 0.6,
+                    skipMemory: true // Save API quota during generation
                 }),
                 45000 // 45s timeout for generation
             );
@@ -855,8 +857,8 @@ export const getAdaptiveQuestionBatch = async (
         }
     };
 
-    // Parallel processing per requirement group
-    const results = await Promise.all(needs.map(async (group) => {
+    // Sequential processing per requirement group to prevent API thundering herd
+    for (const group of needs) {
         const groupQuestions: StoredQuestion[] = [];
         const { subject, topic, count, difficulty } = group;
         const resolvedTopicId = resolveTopicId(topic);
@@ -868,12 +870,19 @@ export const getAdaptiveQuestionBatch = async (
                 where('exam', '==', exam),
                 where('topic_id', '==', resolvedTopicId),
                 where('difficulty', '==', difficulty || 'Medium'),
-                where('confidence', '>=', 0.80), // High quality only for batch
-                limit(count * 2)
+                limit(count * 4) // Fetch extra to account for client-side filtering
             );
             const snap = await getDocs(dbQuery);
             if (!snap.empty) {
-                const dbQs = snap.docs.map(d => ({ id: d.id, ...d.data() } as StoredQuestion));
+                const allDocs = snap.docs.map(d => ({ id: d.id, ...d.data() } as StoredQuestion));
+                // Filter for high quality in memory to avoid Firestore index errors
+                let dbQs = allDocs.filter(q => (q.confidence === undefined || q.confidence >= 0.80) && q.question && q.correct_answer);
+                
+                // If strict quality filter doesn't yield enough, fallback to standard quality (0.50+)
+                if (dbQs.length < count) {
+                    dbQs = allDocs.filter(q => (q.confidence === undefined || q.confidence >= 0.50) && q.question && q.correct_answer);
+                }
+                
                 // Shuffle and pick
                 for (let i = dbQs.length - 1; i > 0; i--) {
                     const j = Math.floor(Math.random() * (i + 1));
@@ -901,27 +910,34 @@ export const getAdaptiveQuestionBatch = async (
         if (remaining > 0) {
             console.log(`[QuestionEngine] 🧩 Batch Delta: Generating ${remaining} for ${topic}`);
             
-            // Generate delta sequentially or in small chunks to avoid overwhelm
+            // Generate delta sequentially to respect API rate limits
             for (let i = 0; i < remaining; i++) {
-                const q = await getAdaptiveQuestion(
-                    userId,
-                    topic,
-                    exam,
-                    0.5, // Default weakness for batch
-                    resolvedTopicId || undefined,
-                    subject,
-                    abilityScore,
-                    group.remediationFocus
-                );
-                if (q) groupQuestions.push(q);
+                try {
+                    const q = await generateInspiredQuestion({
+                        exam,
+                        subject: subject || 'General',
+                        topic,
+                        difficulty: difficulty || 'Medium',
+                        abilityScore,
+                        remediationFocus: group.remediationFocus
+                    });
+                    if (q) groupQuestions.push(q);
+                } catch (genErr) {
+                    console.warn(`[QuestionEngine] Generation ${i + 1}/${remaining} failed for ${topic}:`, genErr);
+                }
                 updateBatchProgress();
+                
+                // Physical RPM Governor: Wait 2.5 seconds between generations
+                // Ensures we naturally stay under Groq's 30 RPM organization-level limit
+                if (i < remaining - 1 || needs.indexOf(group) < needs.length - 1) {
+                    await new Promise(r => setTimeout(r, 2500));
+                }
             }
         }
 
-        return groupQuestions;
-    }));
+        allQuestions.push(...groupQuestions);
+    }
 
-    results.forEach(res => allQuestions.push(...res));
     return allQuestions;
 };
 

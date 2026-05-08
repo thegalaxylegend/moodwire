@@ -30,7 +30,13 @@ export function extractJSON(input: any): any {
         throw error;
     }
 
-    const sanitized = input.trim();
+    // Remove <think> blocks from reasoning models before parsing
+    let sanitized = input.replace(/<think>[\s\S]*?<\/think>/g, '');
+    // Handle unclosed <think> blocks if truncated
+    if (sanitized.includes('<think>')) {
+        sanitized = sanitized.replace(/<think>[\s\S]*$/, '');
+    }
+    sanitized = sanitized.trim();
 
     // 2. Try direct parse (fastest)
     try {
@@ -254,7 +260,18 @@ function sanitizeJSONString(str: string): string {
             if (char === '\n') result += '\\n';
             else if (char === '\r') result += '\\r';
             else if (char === '\t') result += '\\t';
-            else result += char;
+            else if (char === '\\') {
+                // If the next character is not a valid JSON escape, double escape the backslash
+                // Valid JSON escapes: ", \, /, b, f, n, r, t, u
+                const nextChar = i + 1 < sanitized.length ? sanitized[i + 1] : '';
+                if (!['"', '\\', '/', 'b', 'f', 'n', 'r', 't', 'u'].includes(nextChar)) {
+                    result += '\\\\'; // Output double backslash
+                } else {
+                    result += char;
+                }
+            } else {
+                result += char;
+            }
         } else {
             result += char;
         }

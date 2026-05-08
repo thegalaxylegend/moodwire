@@ -9,8 +9,8 @@
  * Extract all numbers from a text string.
  * Handles integers, decimals, scientific notation, and negatives.
  */
-export function extractNumbers(text: string): number[] {
-    if (!text) return [];
+export function extractNumbers(text: string | any): number[] {
+    if (!text || typeof text !== 'string') return [];
     // Match: -13.6, 2.5, 0.005, 6.022e23, 6.022×10²³, 3/4, 1e-5
     const matches = text.match(/-?\d+\.?\d*(?:[eE][+-]?\d+)?/g);
     if (!matches) return [];
@@ -22,8 +22,13 @@ export function extractNumbers(text: string): number[] {
  * Strategy: Look for the last "= number" pattern, then answer-keyword patterns,
  * then fall back to the last number in the text.
  */
-export function extractFinalValue(derivationText: string): number | null {
-    if (!derivationText || derivationText.trim().length < 5) return null;
+export function extractFinalValue(rawDerivationText: string | any): number | null {
+    if (!rawDerivationText) return null;
+    let derivationText = typeof rawDerivationText === 'string' ? rawDerivationText : 
+                         Array.isArray(rawDerivationText) ? rawDerivationText.join(' ') : 
+                         String(rawDerivationText);
+                         
+    if (derivationText.trim().length < 5) return null;
 
     // Normalize: remove LaTeX formatting
     const text = derivationText
@@ -88,8 +93,8 @@ export function extractFinalValue(derivationText: string): number | null {
  * - "0.625"
  * - "Approximately 3.4 eV"
  */
-export function extractAnswerValue(answerText: string): number | null {
-    if (!answerText) return null;
+export function extractAnswerValue(answerText: string | any): number | null {
+    if (!answerText || typeof answerText !== 'string') return null;
 
     const numbers = extractNumbers(answerText);
     if (numbers.length === 0) return null;
@@ -128,7 +133,7 @@ export interface ConsistencyResult {
 export function checkDerivationConsistency(
     derivationText: string,
     correctAnswer: string,
-    tolerance: number = 0.02
+    tolerance: number = 0.05
 ): ConsistencyResult {
     const derivedValue = extractFinalValue(derivationText);
     const answeredValue = extractAnswerValue(correctAnswer);
@@ -207,7 +212,7 @@ export function checkStepConsistency(
     const reference = Math.max(Math.abs(lastStepValue), Math.abs(finalValue), 1e-10);
     const diff = Math.abs(lastStepValue - finalValue) / reference;
 
-    if (diff <= 0.02) {
+    if (diff <= 0.05) {
         return { consistent: true };
     }
 

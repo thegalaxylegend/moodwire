@@ -147,7 +147,8 @@ export const askAI = async (
 
         if (!isStream && response && typeof response === 'string' && !options.noCache) {
             localStorage.setItem(cacheKey, JSON.stringify({ response, timestamp: Date.now() }));
-            if (question.length > 50) extractAndSaveMemory(question);
+            // Skip memory extraction for JSON-mode calls (e.g., question generation) to save API quota
+            if (question.length > 50 && !options.jsonMode && !options.skipMemory) extractAndSaveMemory(question);
         }
 
         return response;

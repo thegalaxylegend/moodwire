@@ -124,7 +124,7 @@ export const SubjectSyllabus = () => {
 
     const renderTopicCard = (topic: SyllabusItem) => (
         <div
-            key={topic.topic}
+            key={`${topic.topic}-${topic.classLevel}`}
             className={`p-4 rounded-xl border oxygen-card ${topic.is_completed ? 'bg-green-500/10 border-green-500/30' : 'bg-surface border-border'
                 }`}
         >
