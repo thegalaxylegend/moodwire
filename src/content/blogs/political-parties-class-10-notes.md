@@ -100,7 +100,7 @@ Provide a "Formula Bank" for a Social Science chapter.
  3. **The Functional Logic** (Functions of parties)
  4. **The Classification Matrix** (National vs State)
  5. **The Party System Equations** (One, Two, Multi)
- 6. **The Challenge & Reform Logic** (Internal Democracy, Money, Muscle)
+ 6. **The Challenge & Reform Logic** (Internal [Democracy](/blog/outcomes-of-democracy-class-10-notes), Money, muscle)
  7. **The Examiner's Trap Section**
  8. **Decision Table**
 
@@ -115,7 +115,7 @@ Provide a "Formula Bank" for a Social Science chapter.
  * *Challenges:*
  * Political Instability = Defection + Lack of Discipline.
  * Choice Deprivation = Homogeneous Ideology + Similar Policies.
- * Power Concentration = Dynastic Succession + Lack of Internal Elections.
+ * [Power](/blog/power-sharing-class-10-notes) Concentration = Dynastic Succession + Lack of Internal Elections.
  * *Reforms:*
  * Legal Transparency = Filing of Affidavits + Disclosure of Criminal/Financial Assets.
  * Legislative Stability = Anti-Defection Law (52nd Amendment).
@@ -132,12 +132,12 @@ Provide a "Formula Bank" for a Social Science chapter.
  * 9. State Party (Condition A) = ≥ 6% votes in State Legislative Assembly.
  * 10. State Party (Condition B) = ≥ 2 seats in State Legislative Assembly.
  * 11. One-Party System = 1 Dominant Party + Limited Competition.
- * 12. Two-Party System = 2 Major Parties + Power Rotation.
+ * 12. Two-Party System = 2 Major Parties + [Power](/blog/power-sharing-class-10-notes) Rotation.
  * 13. Multi-Party System = > 2 Parties + Coalition Politics (if no majority).
  * 14. Coalition Govt = Party A + Party B + Party C (Total Seats > 50% of House).
- * 15. Internal Democracy Deficit = Power Concentration + Lack of Regular Elections.
+ * 15. Internal [Democracy](/blog/outcomes-of-democracy-class-10-notes) Deficit = Power Concentration + Lack of Regular Elections.
  * 16. Dynastic Succession = Family Control + Merit Exclusion.
- * 17. Money Power Impact = High Election Spending + Candidate Selection Bias.
+ * 17. [Money](/blog/money-and-credit-class-10-notes) Power Impact = High Election Spending + Candidate Selection Bias.
  * 18. Muscle Power Impact = Criminalization + Intimidation.
  * 19. Lack of Choice = Party Similarity + Ideological Convergence.
  * 20. Transparency Reform = Affidavit Filing + Financial Disclosure.

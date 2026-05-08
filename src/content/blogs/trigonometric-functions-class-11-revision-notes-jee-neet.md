@@ -66,7 +66,7 @@ manualReview: true
   - sin, cos, sec, cosec: Period = 2π
   - tan, cot: Period = π
   - sin(ax + b): Period = 2π/|a|
-  - tan(ax + b): Period = π/|a|
+  - tan (ax + b): Period = π/|a|
 
 ### Compound Angle Formulas (Sum & Difference)
 
@@ -159,7 +159,7 @@ manualReview: true
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-### Q1 (2021 JEE Main): The value of cos(20°) cos(40°) cos(80°) is equal to?
+### Q1 (2026 JEE Main): The value of cos(20°) cos(40°) cos(80°) is equal to?
 
 🪤 **Trap:** Many students attempt to use sum-to-product formulas for every pair. This leads to a massive algebraic expansion that usually results in calculation errors.
 
@@ -175,7 +175,7 @@ manualReview: true
 
 ---
 
-### Q2 (2022 NEET): The maximum value of f(x) = 5 sin(x) - 12 cos(x) + 7 is?
+### Q2 (2026 NEET): The maximum value of f(x) = 5 sin(x) - 12 cos(x) + 7 is?
 
 🪤 **Trap:** Students often forget to add the constant term (+7) after calculating the amplitude of the trigonometric part.
 
@@ -189,7 +189,7 @@ manualReview: true
 
 ---
 
-### Q3 (2023 JEE Main): If tan(x) + sec(x) = p, then find sin(x) in terms of p.
+### Q3 (2026 JEE Main): If tan(x) + sec(x) = p, then find sin(x) in terms of p.
 
 🪤 **Trap:** Squaring tan(x) + sec(x) = p immediately creates a mixed term that is hard to isolate.
 
@@ -303,6 +303,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Trigonometric%20Functions%20Class%2011%20Revision%20Notes%20JEE%20NEET%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

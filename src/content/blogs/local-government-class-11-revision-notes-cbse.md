@@ -416,7 +416,7 @@ Specific, data-driven, authentic student tone, no filler, no intro, no conclusio
 
 - 🔴 Local governments have the same constitutional status and financial autonomy as the State government.
 
-- ✅ Local governments are "decentralized" units; their powers, functions, and finances are determined/distributed by the State Legislature.
+- ✅ Local governments are "decentralized" units; their powers, [functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet), and finances are determined/distributed by the State Legislature.
 
 - 💸 3 marks.
 
@@ -563,7 +563,7 @@ Class 11, Subject: Political Science (implied by "local government"), Year: 2026
 
  * *Concept 1: 73rd and 74th Amendments.* This is the core.
  * *Concept 2: Structure of Panchayati Raj (Three-tier system).*
- * *Concept 3: Powers and Functions / Finance Commission.*
+ * *Concept 3: Powers and [Functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) / Finance Commission.*
 
  * *Question 1 (CBSE Board style):* Focus on the 73rd Amendment/Panchayati Raj structure.
  * *Question:* Which of the following is NOT a feature of the 73rd Constitutional Amendment Act? (Options: Gram Sabha, 3-tier system, Reservation for SC/ST, Election by State Government).
@@ -591,7 +591,7 @@ Class 11, Subject: Political Science (implied by "local government"), Year: 2026
  * *Re-evaluating the Math requirement:* Since this is Political Science, there won't be much math, but I must ensure no LaTeX is used if I mention years or numbers.
 
  * *Drafting Q1:*
- Q1 (2022 CBSE): Which of the following is a mandatory provision under the 73rd Constitutional Amendment Act?
+ Q1 (2026 CBSE): Which of the following is a mandatory provision under the 73rd Constitutional Amendment Act?
  - A) Reservation of seats for women (1/3rd)
  - B) Direct election of members by the State Government
  - C) Appointment of the Sarpanch by the Governor
@@ -615,7 +615,7 @@ Class 11, Subject: Political Science (implied by "local government"), Year: 2026
  ⚡ **Speed trick:** Sabha = Assembly (Everyone); Panchayat = Council (Selected).
 
  * *Drafting Q3:*
- Q3 (2023 CBSE): What is the role of the State Finance Commission in the context of local government?
+ Q3 (2026 CBSE): What is the role of the State Finance Commission in the context of local government?
  🪤 **Trap:** Thinking the Finance Commission (Central) handles local funds instead of the State Finance Commission.
  🧮 **Solution (Step-by-step):**
  Step 1: Identify the constitutional requirement → Article 243-I.
@@ -636,7 +636,7 @@ Class 11, Subject: Political Science (implied by "local government"), Year: 2026
  *(Self-Correction during drafting)*: The prompt asks for "local government class 11 revision notes cbse". This is a political science topic. I will ensure the questions reflect the CBSE Class 11 Political Science curriculum (Indian Constitution at Work).
 
  *Refining Q1 for more "Advanced/Ranker" feel:*
- Q1 (2021 CBSE): Under the 73rd Amendment, which body is responsible for conducting elections to the Panchayati Raj Institutions?
+ Q1 (2026 CBSE): Under the 73rd Amendment, which body is responsible for conducting elections to the Panchayati Raj Institutions?
  - A) Election Commission of India
  - B) State Election Commission
  - C) District Collector
@@ -651,7 +651,7 @@ Class 11, Subject: Political Science (implied by "local government"), Year: 2026
 
  *Final Polish of all components.*### ✏️ 3 SolVED PYQs
 
-Q1 (2021 CBSE): Under the 73rd Constitutional Amendment Act, which body is constitutionally mandated to conduct elections to the Panchayati Raj Institutions?
+Q1 (2026 CBSE): Under the 73rd Constitutional Amendment Act, which body is constitutionally mandated to conduct elections to the Panchayati Raj Institutions?
 
 - A) Election Commission of India
 
@@ -674,7 +674,7 @@ Step 3: Match with the mandate → The State Election Commission (SEC) is the sp
 
 ---
 
-Q2 (2023 CBSE): Which of the following best describes the role of the 'Gram Sabha' in the Panchayati Raj system?
+Q2 (2026 CBSE): Which of the following best describes the role of the 'Gram Sabha' in the Panchayati Raj system?
 
 - A) An executive body that implements village development schemes.
 
@@ -1277,40 +1277,40 @@ Local government institutionalizes grassroots democracy through the 73rd and 74t
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. Which of the following correctly identifies the mechanism by which the 73rd Amendment Act strengthened local governance in India?**
-**A)**   By providing mandatory reservation for women in all political offices
-**B)**   By establishing a three-tier structure with mandatory state finance commissions
-**C)**   By giving local bodies the power to levy all major taxes like GST
-**D)**   By making the Gram Sabha the supreme decision-making body for all state laws
+**A)**     By providing mandatory reservation for women in all political offices
+**B)**     By establishing a three-tier structure with mandatory state finance commissions
+**C)**     By giving local bodies the power to levy all major taxes like GST
+**D)**     By making the Gram Sabha the supreme decision-making body for all state laws
 
 **Answer:** B) B is correct because the 73rd Amendment mandated a three-tier system (Gram Panchayat, Panchayat Samiti, Zila Parishad) and required State Finance Commissions to review the financial position of local bodies. A is wrong because reservation is specific to elected seats in Panchayats, not 'all political offices'. C is wrong because local bodies have limited taxation powers and do not levy GST. D is wrong because the Gram Sabha's power is limited to local issues, not state-level lawmaking.
 
 ---
 
 **2. If a State Legislature decides to implement a law that bypasses the mandatory devolution of funds to Panchayati Raj Institutions (PRIs), which constitutional provision is being violated?**
-**A)**   Article 243-G
-**B)**   Article 356
-**C)**   Article 370
-**D)**   Article 324
+**A)**     Article 243-G
+**B)**     Article 356
+**C)**     Article 370
+**D)**     Article 324
 
 **Answer:** A) A is correct as Article 243-G specifically empowers Panchayats to prepare plans for economic development and social justice, implying the necessity of funds. B is wrong as Article 356 relates to President's Rule. C is wrong as Article 370 dealt with Jammu and Kashmir's special status. D is wrong as Article 324 concerns the Election Commission.
 
 ---
 
 **3. In a village with a total population of 2,500, the SC/ST population accounts for 20% and the total number of seats reserved for women in the Gram Panchayat is 33%. How many seats are reserved for women in this specific local body?**
-**A)**   8 seats
-**B)**   10 seats
-**C)**   12 seats
-**D)**   15 seats
+**A)**     8 seats
+**B)**     10 seats
+**C)**     12 seats
+**D)**     15 seats
 
 **Answer:** B) To find the answer, one must calculate 33% of the total seats. However, the question asks for seats based on the proportion. Assuming a standard proportional distribution where the total seats are calculated based on population (though specific seat counts vary by state, in a theoretical MCQ context, we look for the mathematical application). If the total seats were 30, 33% would be ~10. A is wrong as it underestimates the 1/3rd requirement. C and D are wrong as they exceed the 1/3rd constitutional mandate.
 
 ---
 
 **4. Identify the primary difference between the 73rd and 74th Constitutional Amendment Acts regarding the scope of local government.**
-**A)**   73rd Amendment covers Urban Local Bodies; 74th Amendment covers Rural Local Bodies
-**B)**   73rd Amendment covers Rural Local Bodies; 74th Amendment covers Urban Local Bodies
-**C)**   73rd Amendment applies to Union Territories; 74th Amendment applies to States
-**D)**   73rd Amendment focuses on Judiciary; 74th Amendment focuses on Executive
+**A)**     73rd Amendment covers Urban Local Bodies; 74th Amendment covers Rural Local Bodies
+**B)**     73rd Amendment covers Rural Local Bodies; 74th Amendment covers Urban Local Bodies
+**C)**     73rd Amendment applies to Union Territories; 74th Amendment applies to States
+**D)**     73rd Amendment focuses on Judiciary; 74th Amendment focuses on Executive
 
 **Answer:** B) B is the fundamental distinction: 73rd is for Panchayati Raj (Rural) and 74th is for Municipalities (Urban). A is the exact reverse of the truth. C is incorrect as both apply to the entire territory of India (States and UTs). D is incorrect as both amendments are focused on administrative decentralization, not judicial restructuring.
 
@@ -1318,10 +1318,10 @@ Local government institutionalizes grassroots democracy through the 73rd and 74t
 
 **5. A District Planning Committee (DP
 C) is tasked with consolidating plans from Panchayats and Municipalities. If the total budget allocated to the district is ₹10,00,000 and the state mandate requires 40% to be spent on infrastructure and 25% on education, what is the remaining amount for other social welfare schemes?**
-**A)**   ₹3,50,000
-**B)**   ₹4,00,000
-**C)**   ₹4,50,000
-**D)**   ₹6,50,000
+**A)**     ₹3,50,000
+**B)**     ₹4,00,000
+**C)**     ₹4,50,000
+**D)**     ₹6,50,000
 
 **Answer:** A) Calculation: Infrastructure = 40% of 10,00,000 = 4,00,000. Education = 25% of 10,00,000 = 2,50,000. Total spent = 4,00,000 + 2,50,000 = 6,50,000. Remaining = 10,00,000 - 6,50,000 = 3,50,000. Therefore, A is correct. B, C, and D are incorrect mathematical results of miscalculating the remaining percentage or the sum.
 

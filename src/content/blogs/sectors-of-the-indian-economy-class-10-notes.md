@@ -76,7 +76,7 @@ No LaTeX (Use Unicode). No intro/outro. No fluff. Bullet points. Tables.
  Value Added = Value of Final Output - Intermediate Goods/Services
 
  *Metric 5: Per Capita Income (PCI)*
- PCI = Total National Income / Total Population
+ PCI = Total [National](/blog/lifelines-of-national-economy-class-10-notes) Income / Total Population
 
  *Metric 6: Disguised Unemployment (The 'Hidden' Worker Logic)*
  Disguised Unemployment = Total Workers - Required Workers (where Required Workers is the number needed for full productivity)
@@ -105,7 +105,7 @@ No LaTeX (Use Unicode). No intro/outro. No fluff. Bullet points. Tables.
  *Metric 14: Secondary Sector Output*
  Secondary Output = [Manufacturing](/blog/manufacturing-industries-class-10-notes) Value + Industrial Value
 
- *Metric 15: Total National Income*
+ *Metric 15: Total [National](/blog/lifelines-of-national-economy-class-10-notes) Income*
  Total Income = Sum of all Sectoral Values (Primary + Secondary + Tertiary)
 
  *Metric 16: Productivity of Labor*
@@ -148,7 +148,7 @@ No LaTeX (Use Unicode). No intro/outro. No fluff. Bullet points. Tables.
  - Value Added: Value of Final Output - Intermediate Consumption — Used to prevent double counting
  - Total National Income: Primary Sector Value + Secondary Sector Value + Tertiary Sector Value — Sum of all three sectors
  - Per Capita Income: Total National Income / Total Population — Average income per person
- - Sectoral Share in GDP (%): (Value of Sector / Total GDP) × 100 — Contribution of a sector to the economy
+ - Sectoral Share in GDP (%): (Value of Sector / Total GDP) × 100 — Contribution of a sector to the [economy](/blog/globalisation-and-the-indian-economy-class-10-notes)
  - Sectoral Growth Rate: [(GDP_current - GDP_previous) / GDP_previous] × 100 — Rate of change in sector value
  - GDP Mismatch Indicator: % Change in GDP vs. % Change in Employment — Shows if sectors are creating enough jobs
 
@@ -167,7 +167,7 @@ No LaTeX (Use Unicode). No intro/outro. No fluff. Bullet points. Tables.
  **Sectoral Comparison & Structure Metrics**
  - Tertiary Sector Dominance: (Value of Tertiary / Total GDP) > (Employment in Tertiary / Total Employment) — When services drive GDP but don't drive jobs
  - Primary Sector Dependency: (Employment in Primary / Total Employment) > (Value of Primary / Total GDP) — When agriculture employs many but contributes little value
- - Secondary Sector Contribution: Value of Manufacturing / Total GDP — The industrial component
+ - Secondary Sector Contribution: Value of [Manufacturing](/blog/manufacturing-industries-class-10-notes) / Total GDP — The industrial component
  - Service Sector Ratio: Value of Services / Total GDP — The tertiary component
  - Sectoral Transition Index: (Current % Share of Sector - Previous % Share of Sector) — Movement from Primary to Secondary/Tertiary
 
@@ -249,7 +249,7 @@ No LaTeX (Use Unicode). No intro/outro. No fluff. Bullet points. Tables.
  *Wait, looking closer:* The prompt says "MATH & SYMBOL RULES (ZERO TOLERANCE)" twice. Once in the general instructions and once in the "OUTPUT FORMAT RULES". The second one is extremely specific about NOT using LaTeX and NOT using $ delimiters. I will follow the "ZERO TOLERANCE" rule: No LaTeX, No $, just Unicode.
 
  *Final Content Check:*
- - Topic: Sectors of the Indian Economy.
+ - Topic: Sectors of the [Indian](/blog/globalisation-and-the-indian-economy-class-10-notes) Economy.
  - Content: Calculation logic, metrics, and comparative ratios.
  - Format: Bullet points, Tables, Examiner's Traps.
 
@@ -577,7 +577,7 @@ Last-Night Revision Format (No filler, no intro, no fluff).
 - 🔴 **What students write:** "Processing raw materials like sugarcane into sugar is part of the Primary sector because it comes from agriculture."
  
 
-- ✅ **What examiners expect:** "The extraction of natural resources is Primary. The process of converting these natural products into other forms through manufacturing (e.g.
+- ✅ **What examiners expect:** "The extraction of natural [resources](/blog/forest-and-wildlife-resources-class-10-notes) is Primary. The process of converting these natural products into other forms through manufacturing (e.g.
 
 - sugarcane to sugar) belongs to the Secondary sector."
  
@@ -731,7 +731,7 @@ High-yield, data-driven, no filler, no intro, no conclusion.
 
  * *Question 2: Tertiary Sector growth.*
  * Context: Why is the tertiary sector growing so fast in India?
- * Year: 2023 CBSE.
+ * Year: 2026 CBSE.
  * Trap: Only mentioning "services" without explaining the *types* of services (essential vs. luxury/growth-led).
 
  * *Question 3: Organized vs. Unorganized.*
@@ -747,7 +747,7 @@ High-yield, data-driven, no filler, no intro, no conclusion.
  * Speed trick: Remember: GDP $
 eq$ Jobs. Tertiary = Money, Primary = People.
 
- * *Q2 (2023 CBSE):*
+ * *Q2 (2026 CBSE):*
  * Q: "Explain the rising importance of the tertiary sector in India."
  * Trap: Listing only "IT services" and forgetting essential services like transport, banking, and hospitals.
  * Steps: 1. Identify basic services (hospitals, schools). 2. Identify development-linked services (IT, banking). 3. Identify trade-linked services (transport, storage).
@@ -780,7 +780,7 @@ eq$ Jobs. Tertiary = Money, Primary = People.
  *Wait, the prompt says "Use raw Unicode symbols for math".* I will ensure any math-like notation (like GDP/Employment ratios if needed) uses Unicode.
 
  *Drafting Q2:*
- Q2 (2023 CBSE): Why is the tertiary sector becoming so important in India?
+ Q2 (2026 CBSE): Why is the tertiary sector becoming so important in India?
  🪤 Trap: Only mentioning modern services like IT/Software, ignoring essential services like transport and banking.
  🧮 Solution (Step-by-step):
  Step 1: Analyze basic services $\rightarrow$ Hospitals, schools, and police.
@@ -838,7 +838,7 @@ Q1 (2020 CBSE): In which sector is the contribution to GDP highest, and in which
 
 ---
 
-Q2 (2023 CBSE): "The service sector in India is growing so rapidly that it is becoming the largest producing sector in the economy." Justify this statement with three reasons.
+Q2 (2026 CBSE): "The service sector in India is growing so rapidly that it is becoming the largest producing sector in the economy." Justify this statement with three reasons.
 
 - 🪤 **Trap:** Students often list only "new-age" services like IT or Call Centers, failing to mention the fundamental services that support the other two sectors.
 
@@ -1361,50 +1361,50 @@ India's economy shows a structural mismatch where the Tertiary sector dominates 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. In a hypothetical village, if the Primary Sector contributes $5000$ units, the Secondary Sector $3000$ units, and the Tertiary Sector $2000$ units to the total GDP, what is the percentage share of the Tertiary Sector?**
-**A)**   20%
-**B)**   25%
-**C)**   30%
-**D)**   33.3%
+**A)**     20%
+**B)**     25%
+**C)**     30%
+**D)**     33.3%
 
 **Answer:** A) The total GDP is $5000 + 3000 + 2000 = 10000$. The Tertiary share is $(2000 / 10000) \times 100 = 20\%$. Option B is wrong because $25\%$ would require $2500$ units. Option C is wrong because $30\%$ would require $3000$ units. Option D is wrong because $33.3\%$ would require $3333$ units.
 
 ---
 
 **2. Which of the following best describes the 'disguised unemployment' situation often found in the agricultural sector of India?**
-**A)**   Workers are absent from work due to seasonal changes in crops.
-**B)**   More people are working in a field than are actually required for production.
-**C)**   Workers are highly skilled but cannot find jobs in the industrial sector.
-**D)**   Workers are paid less than the minimum wage set by the government.
+**A)**     Workers are absent from work due to seasonal changes in crops.
+**B)**     More people are working in a field than are actually required for production.
+**C)**     Workers are highly skilled but cannot find jobs in the industrial sector.
+**D)**     Workers are paid less than the minimum wage set by the government.
 
 **Answer:** B) Disguised unemployment occurs when the marginal productivity of labor is zero, meaning even if some people are removed, production remains the same. Option A describes seasonal unemployment. Option C describes structural unemployment. Option D describes exploitation/underemployment in terms of wages, not labor quantity.
 
 ---
 
 **3. If a country's GDP is increasing but the employment share in the Tertiary sector is not increasing proportionally, what does this indicate about the nature of economic growth?**
-**A)**   Employment is growing faster than GDP.
-**B)**   The economy is experiencing jobless growth.
-**C)**   The Primary sector is becoming the dominant sector.
-**D)**   The Secondary sector is failing to contribute to GDP.
+**A)**     Employment is growing faster than GDP.
+**B)**     The economy is experiencing jobless growth.
+**C)**     The Primary sector is becoming the dominant sector.
+**D)**     The Secondary sector is failing to contribute to GDP.
 
 **Answer:** B) Jobless growth occurs when the economy grows (GDP rises) but does not create enough jobs to keep pace. Option A is mathematically impossible if employment share lags. Option C is incorrect as the Tertiary sector is growing in value. Option D is an assumption not supported by the data provided.
 
 ---
 
 **4. Identify the correct relationship between the sectors regarding the flow of goods and services: A farmer produces wheat (X), a factory turns it into flour (Y), and a shopkeeper sells it to a consumer (Z). Which sequence represents the correct sectoral transition?**
-**A)**   X (Tertiary) → Y (Primary) → Z (Secondary)
-**B)**   X (Secondary) → Y (Tertiary) → Z (Primary)
-**C)**   X (Primary) → Y (Secondary) → Z (Tertiary)
-**D)**   X (Primary) → Y (Tertiary) → Z (Secondary)
+**A)**     X (Tertiary) → Y (Primary) → Z (Secondary)
+**B)**     X (Secondary) → Y (Tertiary) → Z (Primary)
+**C)**     X (Primary) → Y (Secondary) → Z (Tertiary)
+**D)**     X (Primary) → Y (Tertiary) → Z (Secondary)
 
 **Answer:** C) Wheat is a natural resource (Primary), flour is a manufactured good (Secondary), and selling/distribution is a service (Tertiary). Option A, B, and D all misclassify the fundamental nature of the production stages.
 
 ---
 
 **5. A worker in the organized sector receives paid leave, medical benefits, and fixed working hours. If this same worker were moved to the unorganized sector, which of the following would most likely change?**
-**A)**   The worker would gain job security and regular wages.
-**B)**   The worker would lose social security benefits and face irregular work.
-**C)**   The worker would move from a low-productivity to a high-productivity role.
-**D)**   The worker would be exempt from government labor laws.
+**A)**     The worker would gain job security and regular wages.
+**B)**     The worker would lose social security benefits and face irregular work.
+**C)**     The worker would move from a low-productivity to a high-productivity role.
+**D)**     The worker would be exempt from government labor laws.
 
 **Answer:** B) The unorganized sector is characterized by low wages, no job security, and no benefits. Option A is the opposite of the truth. Option C is incorrect as unorganized work is typically low-productivity. Option D is incorrect because while laws are often not enforced, the worker is not 'exempt' by right; they are simply exploited.
 

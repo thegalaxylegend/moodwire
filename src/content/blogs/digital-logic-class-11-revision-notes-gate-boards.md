@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/digital-logic-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 6, 2026*
+*Last Updated: May 8, 2026*
 
 ## 📑 Table of Contents
 
@@ -297,9 +297,9 @@ How does Boolean Algebra relate to Digital Logic? is a fundamental concept and [
  
  The relationship between Boolean Algebra and digital logic is based on the fact that digital circuits can be represented using Boolean expressions. A Boolean expression is a combination of Boolean variables, logical operators, n parentheses. The Boolean variables represent the inputs to the digital circuit, while the logical operators represent the operations performed on these inputs. The output of the digital circuit is determined y the Boolean expression, which can be simplified using the laws of Boolean Algebra. 
  
- One of the key applications of Boolean Algebra and digital logic is and the design of combinational logic circuits. Combinational logic circuits are digital circuits that do not have any feedback loops and whose output depends only on the current inputs. These circuits can be represented using Boolean expressions, which can be simplified using the laws of Boolean Algebra. 
+ One of the key applications of Boolean Algebra and digital logic is and the [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) of combinational logic circuits. Combinational logic circuits are digital circuits that do not have any feedback loops and whose output depends only on the current inputs. These circuits can be represented using Boolean expressions, which can be simplified using the laws of Boolean Algebra. 
  
- Another important application of Boolean Algebra and digital logic is and the design of sequential logic circuits. Sequential logic circuits are digital circuits that have feedback loops and whose output depends on both the current inputs and the previous outputs. These circuits can be represented using Boolean expressions, which can be simplified using the laws of Boolean Algebra. 
+ Another important application of Boolean Algebra and digital logic is and the [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) of sequential logic circuits. Sequential logic circuits are digital circuits that have feedback loops and whose output depends on both the current inputs and the previous outputs. These circuits can be represented using Boolean expressions, which can be simplified using the laws of Boolean Algebra. 
  
  To understand the relationship between Boolean Algebra and digital logic, it is essential to understand the basic laws of Boolean Algebra. These laws include the commutative law, the associative law, the distributive law, n the complement law. The commutative law states that the order of the variables and a Boolean expression does not affect the result. The associative law states that the order and which the operations are performed does not affect the result. The distributive law states that the result of a Boolean expression can be obtained y distributing the operations over the variables. The complement law states that the complement of a Boolean variable is equal to 1 minus the variable. 
  
@@ -315,13 +315,13 @@ How does Boolean Algebra relate to Digital Logic? is a fundamental concept and [
 
 ## <a id="what-is-ayushs-note-on-digital-logic"></a>What is Ayush's Note on Digital Logic?
 
-Ayush's Note on Digital Logic is a study guide that provides a detailed explanation of digital logic concepts and their applications. It includes Boolean algebra, logic gates, n combinational circuits. For Class 11 exam prep and 2026, the most important aspect is understanding the fundamentals of digital logic and its relevance to computer science and electronics. 
+Ayush's Note on Digital Logic is a study guide that provides a detailed explanation of digital logic concepts and their applications. It includes Boolean algebra, logic gates, n combinational circuits. For Class 11 exam prep and 2026, the most important aspect is understanding the fundamentals of digital logic and its relevance to [computer](/blog/computer-organization-class-11-notes) science and electronics. 
  
  Digital logic is a fundamental concept and computer science and electronics that deals with the design and implementation of digital circuits. These circuits use logical operations to process binary [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards), which is represented using 0s and 1s. The study of digital logic involves understanding the basic logic gates, such as AND, OR, n NOT, n how they can be combined to create more complex circuits.
  
  The Boolean algebra is a mathematical system that is used to analyze and simplify digital circuits. It consists of a set of rules and laws that can be applied to manipulate and simplify logical expressions. The laws of Boolean algebra include the commutative law, associative law, n distributive law, among others. These laws can be used to simplify complex logical expressions and to minimize the number of logic gates required to implement a digital circuit.
  
- Combinational circuits are digital circuits that consist of logic gates connected together to perform a specific function. They can be classified into different types, including adders, subtractors, multiplexers, n demultiplexers. Combinational circuits are used and a wide range of applications, including computer processors, digital cameras, n mobile phones.
+ Combinational circuits are digital circuits that consist of logic gates connected together to perform a specific function. They can be classified into different types, including adders, subtractors, multiplexers, n demultiplexers. Combinational circuits are used and a wide range of applications, including [computer](/blog/computer-organization-class-11-notes) processors, digital cameras, n mobile phones.
  
  Sequential circuits, on the other hand, are digital circuits that have a memory element and can store [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards). They consist of logic gates and flip-flops, which are used to store the state of the circuit. Sequential circuits are used and applications such as counters, registers, n microprocessors.
  

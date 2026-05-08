@@ -76,7 +76,7 @@ manualReview: false
 - Revision of formulas: dy/dx = f(x,y), dy/f(y) = dx/g(x), etc.
 - Revision of methods: separable variables, homogeneous equation, [linear](/blog/pair-of-linear-equations-class-10-notes) equation, etc.
 - Revision of shortcuts: using integrating factor, using test for exactness, etc.
-- Practice of solving differential equations quickly
+- Practice of solving differential [equations](/blog/pair-of-linear-equations-class-10-notes) quickly
 - Practice of applying boundary conditions to find the particular solution
 
 ## 📝 Practice MCQs
@@ -120,7 +120,7 @@ D) y = (x⁴/4 - c)x
 -
 A) Homogeneous
 -
-B) Linear
+B) [Linear](/blog/pair-of-linear-equations-class-10-notes)
 -
 C) Exact
 -

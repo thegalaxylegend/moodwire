@@ -1,10 +1,10 @@
 {
-  "date": "2026-05-08T04:09:04.789Z",
+  "date": "2026-05-08T03:22:06.205Z",
   "summary": {
-    "total": 234,
+    "total": 240,
     "errors": 0,
-    "warnings": 210,
-    "clean": 39
+    "warnings": 204,
+    "clean": 47
   },
   "issues": [
     {
@@ -701,8 +701,7 @@
       "file": "local-government-class-11-revision-notes-cbse.md",
       "errors": [],
       "warnings": [
-        "Potential raw LaTeX detected outside of $...$ delimiters",
-        "Contains stale year references (2023 CBSE...)"
+        "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
     {
@@ -836,8 +835,7 @@
       "file": "money-and-credit-class-10-notes.md",
       "errors": [],
       "warnings": [
-        "Potential raw LaTeX detected outside of $...$ delimiters",
-        "Contains stale year references (2023 CBSE...)"
+        "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
     {
@@ -921,8 +919,7 @@
       "file": "outcomes-of-democracy-class-10-notes.md",
       "errors": [],
       "warnings": [
-        "Potential raw LaTeX detected outside of $...$ delimiters",
-        "Contains stale year references (2023 CBSE...)"
+        "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
     {
@@ -972,8 +969,7 @@
       "file": "physics-heat-light-class-11-revision-notes-jee-neet.md",
       "errors": [],
       "warnings": [
-        "Potential raw LaTeX detected outside of $...$ delimiters",
-        "Contains stale year references (2023 JEE...)"
+        "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
     {
@@ -1150,13 +1146,6 @@
       "errors": [],
       "warnings": [
         "Light Content: Body is 1211 words (Ideal: 1500+)"
-      ]
-    },
-    {
-      "file": "sectors-of-the-indian-economy-class-10-notes.md",
-      "errors": [],
-      "warnings": [
-        "Contains stale year references (2023 CBSE...)"
       ]
     },
     {
@@ -1343,13 +1332,6 @@
       "errors": [],
       "warnings": [
         "Light Content: Body is 985 words (Ideal: 1500+)"
-      ]
-    },
-    {
-      "file": "trigonometric-functions-class-11-revision-notes-jee-neet.md",
-      "errors": [],
-      "warnings": [
-        "Contains stale year references (2023 JEE...)"
       ]
     },
     {

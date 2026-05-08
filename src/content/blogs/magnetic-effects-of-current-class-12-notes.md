@@ -60,8 +60,8 @@ manualReview: false
 
 ## 🧠 The One Thing Most Students Get Wrong
 - The direction of the [magnetic](/blog/magnetic-effects-of-electric-current-class-10-notes) field, students often forget to use the right-hand rule to determine the direction of the [magnetic](/blog/magnetic-effects-of-electric-current-class-10-notes) field, this can lead to incorrect answers and loss of marks
-- The right hand rules states that if you point your thumb ∈ the direction of the current, your fingers will curl ∈ the direction of the magnetic field
-- This rule can be used to determine the direction of the magnetic field due to a current carrying wire, a coil, or a solenoid
+- The right hand rules states that if you point your thumb ∈ the direction of the current, your fingers will curl ∈ the direction of the [magnetic](/blog/magnetic-effects-of-electric-current-class-10-notes) field
+- This rule can be used to determine the direction of the [magnetic](/blog/magnetic-effects-of-electric-current-class-10-notes) field due to a current carrying wire, a coil, or a solenoid
 
 ## 👁️ Ayush's Note
 - To solve problems related to magnetic effects of current, first identify the type of problem, whether it is related to the magnetic field, force, or flux

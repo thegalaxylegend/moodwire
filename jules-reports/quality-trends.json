@@ -1,16 +1,16 @@
 {
-  "overallAvgScore": 78.5,
-  "totalBlogsAllTime": 210,
-  "totalPassed": 143,
-  "totalFailed": 67,
-  "overallPassRate": 68,
+  "overallAvgScore": 79.8,
+  "totalBlogsAllTime": 216,
+  "totalPassed": 157,
+  "totalFailed": 59,
+  "overallPassRate": 73,
   "trend": "improving",
-  "trendDelta": 23.2,
+  "trendDelta": 11.2,
   "dailyReports": [
     {
-      "date": "2026-05-06",
-      "totalBlogs": 9,
-      "passed": 9,
+      "date": "2026-05-08",
+      "totalBlogs": 3,
+      "passed": 3,
       "failed": 0,
       "avgScore": 100,
       "passRate": 100,
@@ -215,20 +215,11 @@
     {
       "date": "2026-04-22",
       "totalBlogs": 9,
-      "passed": 1,
-      "failed": 8,
-      "avgScore": 82.8,
-      "passRate": 11,
-      "errors": [
-        "Unknown Failure",
-        "Unknown Failure",
-        "Unknown Failure",
-        "Unknown Failure",
-        "Unknown Failure",
-        "Unknown Failure",
-        "Unknown Failure",
-        "Unknown Failure"
-      ]
+      "passed": 9,
+      "failed": 0,
+      "avgScore": 100,
+      "passRate": 100,
+      "errors": []
     },
     {
       "date": "2026-04-23",
@@ -370,6 +361,24 @@
       "avgScore": 100,
       "passRate": 100,
       "errors": []
+    },
+    {
+      "date": "2026-05-06",
+      "totalBlogs": 9,
+      "passed": 9,
+      "failed": 0,
+      "avgScore": 100,
+      "passRate": 100,
+      "errors": []
+    },
+    {
+      "date": "2026-05-07",
+      "totalBlogs": 3,
+      "passed": 3,
+      "failed": 0,
+      "avgScore": 100,
+      "passRate": 100,
+      "errors": []
     }
   ],
   "topErrors": [
@@ -379,10 +388,6 @@
     },
     {
       "error": "JSON squashing detected: raw JSON objects in markdown body",
-      "count": 9
-    },
-    {
-      "error": "Unknown Failure",
       "count": 9
     },
     {
@@ -407,6 +412,10 @@
     },
     {
       "error": "Critically low word count: 714 (Min 800 for Patching)",
+      "count": 1
+    },
+    {
+      "error": "Unknown Failure",
       "count": 1
     },
     {

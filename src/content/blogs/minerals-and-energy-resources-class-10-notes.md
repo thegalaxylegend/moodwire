@@ -141,21 +141,21 @@ manualReview: false
 
 - **Natural Gas Occurrence:** Natural Gas = Found with petroleum or independently — *Clean [energy](/blog/sources-of-energy-class-10-notes) source*
 
-- **Major Natural Gas Fields:** Krishna-Godavari Basin + Mumbai High + Gulf of Cambay + Andaman & Nicobar islands — *Significant reserves*
+- **Major [Natural](/blog/management-of-natural-resources-class-10-notes) Gas Fields:** Krishna-Godavari Basin + Mumbai High + Gulf of Cambay + Andaman & Nicobar islands — *Significant reserves*
 
 - **HVJ Gas Pipeline:** Hazira-Vijaipur-Jagdishpur (HVJ) = Major cross-country gas pipeline — *Connects gas fields to industrial hubs*
 
 - **Hydel Power Generation:** Flowing [water](/blog/water-resources-class-10-notes) (dams) → Potential energy → Kinetic energy → Turbines → Generators → Electricity — *Renewable, non-polluting*
 
-- **Thermal Power Generation:** Fossil fuels (coal, petroleum, natural gas) → Steam → Turbines → Generators → Electricity — *Major source, but polluting*
+- **Thermal Power Generation:** Fossil fuels (coal, petroleum, [natural](/blog/management-of-natural-resources-class-10-notes) gas) → Steam → Turbines → Generators → Electricity — *Major source, but polluting*
 
 *Examiner's Trap:* Confusing the characteristics of different coal types or misplacing major oil and gas fields between offshore and onshore regions.
 
 ### <a id="energy-resources-nonconventional-sources"></a>**Energy Resources: Non-Conventional Sources**
 
-- **Non-Conventional Energy Sources List:** Non-Conventional Energy = Solar, Wind, Biogas, Tidal, Geothermal, Nuclear — *Renewable, sustainable*
+- **Non-Conventional Energy [Sources](/blog/sources-of-energy-class-10-notes) List:** Non-Conventional Energy = Solar, Wind, Biogas, Tidal, Geothermal, Nuclear — *Renewable, sustainable*
 
-- **Nuclear Energy Raw Materials:** Nuclear Energy = Uranium-235 (fission) + Thorium (Monazite sands of Kerala) — *India has large thorium reserves*
+- **Nuclear [Energy](/blog/sources-of-energy-class-10-notes) Raw Materials:** Nuclear [Energy](/blog/sources-of-energy-class-10-notes) = Uranium-235 (fission) + Thorium (Monazite sands of Kerala) — *India has large thorium reserves*
 
 - **Solar Energy Conversion:** Solar energy = Photovoltaic technology → Converts sunlight directly into electricity — *Harnesses abundant solar radiation*
 
@@ -177,7 +177,7 @@ manualReview: false
 
 - **Mineral Conservation Strategies:** Sustainable use = Reduce waste + Recycle + Reuse + Substitute (scarce with abundant alternatives) — *Multi-faceted approach*
 
-- **Energy Conservation Imperative:** Energy = Limited reserves + Rapidly increasing demand + Environmental pollution → Need for conservation — *Crucial for sustainable development*
+- **Energy Conservation Imperative:** Energy = Limited reserves + Rapidly increasing demand + Environmental pollution → Need for conservation — *Crucial for sustainable [development](/blog/resources-and-development-class-10-notes)*
 
 - **Energy Conservation Strategies (Individual):** Responsible use = Use public transport + Switch off lights + Use power-saving devices — *Everyday actions*
 
@@ -192,7 +192,7 @@ manualReview: false
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 Top 1% JEE/NEET ranker style (strict, data-driven, no fluff).
-"The 5 Mistakes That Cost Marks" section for a Class 10 Social Science (Geography) topic: "Minerals and Energy Resources".
+"The 5 Mistakes That Cost Marks" section for a Class 10 Social Science (Geography) topic: "Minerals and Energy [Resources](/blog/forest-and-wildlife-resources-class-10-notes)".
 Class 10 CBSE (NCERT based).
 1500–2000 words (Wait, the prompt asks for *exactly 5 mistakes* with a specific structure. Achieving 1500–2000 words for *just* 5 mistakes in this specific format is nearly impossible without fluff, but I must aim for high density and detail. *Correction*: The prompt says "Target Length: Aim for a 1500 to 2000 words" for the *study guide*, but the *task* is just this section. I will provide a very detailed, high-value section).
 
@@ -1231,50 +1231,50 @@ A student reading 12 hours before the exam.
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. Which of the following statements regarding Ferrous minerals is correct?**
-**A)**     Iron ore is the most important ferrous mineral used in the steel industry.
-**B)**     Manganese is used primarily in the production of aluminum.
-**C)**     All iron ore in India is of Magnetite variety.
-**D)**     Ferrous minerals are non-metallic in nature.
+**A)**       Iron ore is the most important ferrous mineral used in the steel industry.
+**B)**       Manganese is used primarily in the production of aluminum.
+**C)**       All iron ore in India is of Magnetite variety.
+**D)**       Ferrous minerals are non-metallic in nature.
 
 **Answer:** A) A is correct because iron ore is the backbone of the steel industry. B is wrong because manganese is used in manufacturing steel and ferro-manganese alloys, not aluminum. C is wrong because India has both Magnetite and Hematite varieties. D is wrong because iron and manganese are metallic minerals.
 
 ---
 
 **2. Identify the correct match between the mineral and its primary use:**
-**A)**     Copper: Electrical transmission and electronics
-**B)**     Bauxite: Manufacture of cement
-**C)**     Mica: Manufacture of steel
-**D)**     Limestone: Manufacture of aluminum
+**A)**       Copper: Electrical transmission and electronics
+**B)**       Bauxite: Manufacture of cement
+**C)**       Mica: Manufacture of steel
+**D)**       Limestone: Manufacture of aluminum
 
 **Answer:** A) A is correct as copper's high conductivity makes it essential for wires. B is wrong because Bauxite is the ore for aluminum, not cement. C is wrong because Mica is used in electric and electronic industries due to its dielectric strength. D is wrong because Limestone is used in the cement industry.
 
 ---
 
 **3. In a region where the total energy consumption is 100 units, if Coal accounts for 55 units, Petroleum for 25 units, and Natural Gas for 10 units, what is the percentage of Non-Conventional energy sources used?**
-**A)**     10%
-**B)**     15%
-**C)**     20%
-**D)**     25%
+**A)**       10%
+**B)**       15%
+**C)**       20%
+**D)**       25%
 
 **Answer:** B) Total conventional = 55 + 25 + 10 = 90 units. Non-conventional = 100 - 90 = 10 units. However, looking at the math: 100 - (55+25+10) = 10. Wait, let's re-calculate. 55+25+10 = 90. Remaining is 10. 10/100 * 100 = 10%. Let's re-evaluate the options. If the question asks for the remainder: 100 - 90 = 10. Option A is 10%. Let's check if I missed a value. 55+25+10 = 90. 100-90 = 10. So A is correct. Let me re-read the math. 100 - 90 = 10. A is 10%. My logic: 10% of 100 is 10. B/C/D are incorrect because they do not match the remainder of the total energy pool.
 
 ---
 
 **4. Which of the following pairs of states and their respective mineral resources is incorrectly matched?**
-**A)**     Odisha: Iron ore
-**B)**     Rajasthan: Copper
-**C)**     Jharkhand: Coal
-**D)**     Karnataka: Mica
+**A)**       Odisha: Iron ore
+**B)**       Rajasthan: Copper
+**C)**       Jharkhand: Coal
+**D)**       Karnataka: Mica
 
 **Answer:** D) D is incorrect because Rajasthan is the leading producer of Mica, while Karnataka is famous for iron ore. A, B, and C are all correctly matched according to NCERT data.
 
 ---
 
 **5. Given the following data: Total Mineral Production = 500 units; Ferrous = 300 units; Non-Ferrous = 100 units; Other = 50 units. What is the ratio of Ferrous to Non-Ferrous mineral production?**
-**A)**     1
-**B)**     1
-**C)**     1
-**D)**     2
+**A)**       1
+**B)**       1
+**C)**       1
+**D)**       2
 
 **Answer:** A) A is correct because the ratio of 300 to 100 simplifies to 3:1. B is wrong because 5:1 would require 500:100. C is wrong because 2:1 would require 200:100. D is wrong because 3:2 would require 300:200.
 

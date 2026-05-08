@@ -52,8 +52,8 @@ manualReview: false
 
 ## 👁️ Ayush's Note
 - To compare two rational [numbers](/blog/real-numbers-class-10-notes), convert them to equivalent fractions with the same denominator
-- To add or subtract rational numbers, find the LCM of the denominators and add or subtract the numerators accordingly
-- Rational numbers can be positive, negative, or zero
+- To add or subtract rational [numbers](/blog/real-numbers-class-10-notes), find the LCM of the denominators and add or subtract the numerators accordingly
+- Rational [numbers](/blog/real-numbers-class-10-notes) can be positive, negative, or zero
 - The additive inverse of a rational number is obtained by changing its sign
 - The multiplicative inverse of a rational number is obtained by swapping its numerator and denominator
 

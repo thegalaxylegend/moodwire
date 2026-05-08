@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/algorithms-design-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 6, 2026*
+*Last Updated: May 8, 2026*
 
 ## 📑 Table of Contents
 
@@ -328,9 +328,9 @@ What is the role of Greedy Algorithms and Problem-Solving? is a fundamental conc
 
 ## <a id="how-do-you-evaluate-the-tradeoffs-between-algorithmic-approaches"></a>How do you evaluate the Trade-offs between Algorithmic Approaches?
 
-How do you evaluate the Trade-offs between Algorithmic Approaches? is a critical analysis of the advantages and disadvantages of different algorithmic methods. It includes understanding the time complexity, space complexity, n scalability of algorithms. For class 11 exam prep and 2026, the most important aspect is understanding how to apply these trade-offs to solve complex computational problems efficiently. 
+How do you evaluate the Trade-offs between Algorithmic Approaches? is a critical analysis of the advantages and disadvantages of different algorithmic methods. It includes understanding the time complexity, space complexity, n scalability of [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards). For class 11 exam prep and 2026, the most important aspect is understanding how to apply these trade-offs to solve complex computational problems efficiently. 
    
-   Evaluating trade-offs between algorithmic approaches requires a deep understanding of the problem being solved, the resources available, n the constraints of the system. This involves analyzing the time and space complexity of different algorithms, as well as their scalability and adaptability to different scenarios. 
+   Evaluating trade-offs between algorithmic approaches requires a deep understanding of the problem being solved, the resources available, n the constraints of the system. This involves analyzing the time and space complexity of different [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards), as well as their scalability and adaptability to different scenarios. 
    
    One key component of evaluating trade-offs is understanding the $O$ notation, which is used to describe the time and space complexity of algorithms. The $O$ notation gives an upper bound on the number of steps an algorithm takes, relative to the size of the input. For example, an algorithm with a time complexity of $O(n)$ will take twice as long to complete if the size of the input is doubled. 
    

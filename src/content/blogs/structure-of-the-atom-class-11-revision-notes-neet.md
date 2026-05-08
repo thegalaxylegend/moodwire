@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/structure-of-the-atom-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 6, 2026*
+*Last Updated: May 8, 2026*
 
 ## 📑 Table of Contents
 
@@ -137,7 +137,7 @@ B) 12
 C) 14
 D) 16
 Answer: B) 12
-What is the electron configuration of a sodium atom?
+What is the electron configuration of a sodium [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet)?
 A) $1s^2 2s^2 2p^6 3s^1$
 B) $1s^2 2s^2 2p^6 3s^2$
 C) $1s^2 2s^2 2p^6 3p^1$
@@ -152,7 +152,7 @@ Answer: A) An isotope has the same $Z$ but different $A$, while an isotone has t
 
 ## 🔁 Last 5 Minutes Box
 
-- **Atomic Number (Z)**: Number of protons in an atom's nucleus, defines the element.
+- **Atomic Number (Z)**: Number of protons in an [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet)'s nucleus, defines the element.
 
     - **Mass Number (A)**: Sum of protons and neutrons in an atom's nucleus.
 

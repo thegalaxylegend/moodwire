@@ -275,7 +275,7 @@ Visualize a diagram with these components interacting and influencing one anothe
 
 - Conservation efforts must balance human needs with environmental protection
 
-- Sustainable development is key to maintaining healthy forests and wildlife populations
+- Sustainable [development](/blog/resources-and-development-class-10-notes) is key to maintaining healthy forests and wildlife populations
 
 - $Economic$ benefits can be derived from forest and wildlife resources, such as $ecotourism$ and $sustainable$ forestry practices
 
@@ -327,62 +327,62 @@ Visualize a diagram with these components interacting and influencing one anothe
 - ❌ Thinking that conservation efforts only involve protecting animals → ✅ Recognizing that conservation efforts also involve protecting plants, ecosystems, and human communities
 
 #### 🎯 If you can only remember ONE thing
-Forest and wildlife resources are essential for maintaining ecological balance and supporting human well-being, and their conservation is crucial for sustainable development.
+Forest and wildlife [resources](/blog/water-resources-class-10-notes) are essential for maintaining ecological balance and supporting human well-being, and their conservation is crucial for sustainable development.
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. A forest is generally considered to be an area of about $5$ square kilometers. If the population density of a particular forest is $50$ individuals per square kilometer, how many individuals can be found in this forest?**
-**A)**        $150$ individuals
-**B)**        $500$ individuals
-**C)**        $2500$ individuals
-**D)**        $10000$ individuals
+**A)**          $150$ individuals
+**B)**          $500$ individuals
+**C)**          $2500$ individuals
+**D)**          $10000$ individuals
 
 **Answer:** A) The correct answer is $150$ individuals. This is because the population density is $50$ individuals per square kilometer and the area of the forest is $5$ square kilometers. The total population is therefore $50 	imes 5 = 250$ individuals, but this question asks for the number of individuals, not the population density. We must multiply the population density by the area of the forest, not divide it. Options B, C, and D are incorrect because they do not take into account the formula $Population = Density 	imes Area$.
 
 ---
 
 **2. A forest has $3$ species of trees: $A$, $B$, and $C$. The number of trees of species $A$ is $60%$ of the total number of trees, the number of trees of species $B$ is $20%$ of the total number of trees, and the number of trees of species $C$ is $20%$ of the total number of trees. If the total number of trees in the forest is $500$, how many trees of species $A$ are there?**
-**A)**        $240$ trees
-**B)**        $300$ trees
-**C)**        $360$ trees
-**D)**        $420$ trees
+**A)**          $240$ trees
+**B)**          $300$ trees
+**C)**          $360$ trees
+**D)**          $420$ trees
 
 **Answer:** A) The correct answer is $240$ trees. This is because the number of trees of species $A$ is $60%$ of the total number of trees. To find the number of trees of species $A$, we must multiply the total number of trees ($500$) by the percentage of trees that are species $A$ ($60%$), which is equivalent to $0.6$. Therefore, the number of trees of species $A$ is $500 	imes 0.6 = 240$. Options B, C, and D are incorrect because they do not take into account the percentage of trees that are species $A$.
 
 ---
 
 **3. A forest has $2000$ trees, and the ratio of trees of species $A$ to trees of species $B$ is $3:5$. If the number of trees of species $B$ is $x$, what is the number of trees of species $A$?**
-**A)**        $600$ trees
-**B)**        $1200$ trees
-**C)**        $1800$ trees
-**D)**        $2400$ trees
+**A)**          $600$ trees
+**B)**          $1200$ trees
+**C)**          $1800$ trees
+**D)**          $2400$ trees
 
 **Answer:** B) The correct answer is $1200$ trees. This is because the ratio of trees of species $A$ to trees of species $B$ is $3:5$. To find the number of trees of species $B$, we can use the fact that the total number of trees is $2000$. We can set up the equation $rac{3}{5} = rac{A}{B}$, where $A$ is the number of trees of species $A$ and $B$ is the number of trees of species $B$. Since we know that $A+B=2000$, we can substitute this into the equation to get $rac{3}{5} = rac{2000-B}{B}$. Solving for $B$ gives us $B = 1200$. Therefore, the number of trees of species $A$ is $2000-B = 2000-1200 = 800$. Options A, C, and D are incorrect because they do not take into account the ratio of trees of species $A$ to trees of species $B$.
 
 ---
 
 **4. A forest has $500$ trees, and the number of trees of species $A$ is increasing at a rate of $5%$ per year. If the number of trees of species $A$ is currently $200$, what will be the number of trees of species $A$ in $5$ years?**
-**A)**        $220$ trees
-**B)**        $250$ trees
-**C)**        $300$ trees
-**D)**        $350$ trees
+**A)**          $220$ trees
+**B)**          $250$ trees
+**C)**          $300$ trees
+**D)**          $350$ trees
 
 **Answer:** C) The correct answer is $300$ trees. This is because the number of trees of species $A$ is increasing at a rate of $5%$ per year. To find the number of trees of species $A$ in $5$ years, we can use the formula $A(t) = A_0(1+r)^t$, where $A(t)$ is the number of trees of species $A$ at time $t$, $A_0$ is the initial number of trees of species $A$, $r$ is the rate of increase, and $t$ is the time. In this case, $A_0 = 200$, $r = 0.05$, and $t = 5$. Plugging these values into the formula gives us $A(5) = 200(1+0.05)^5 = 300$. Therefore, the number of trees of species $A$ in $5$ years will be $300$. Options A, B, and D are incorrect because they do not take into account the rate of increase of the number of trees of species $A$.
 
 ---
 
 **5. A wildlife sanctuary has $3000$ animals, and the ratio of animals of species $X$ to animals of species $Y$ is $2:3$. If the number of animals of species $X$ is increasing at a rate of $2%$ per year, and the number of animals of species $Y$ is decreasing at a rate of $1%$ per year, what will be the ratio of animals of species $X$ to animals of species $Y$ in $2$ years?**
-**A)**        $1.5:3$
-**B)**        $2:3.5$
-**C)**        $2.5:3.5$
-**D)**        $3:4$
+**A)**          $1.5:3$
+**B)**          $2:3.5$
+**C)**          $2.5:3.5$
+**D)**          $3:4$
 
 **Answer:** B) The correct answer is $2:3.5$. This is because the ratio of animals of species $X$ to animals of species $Y$ is $2:3$. To find the ratio in $2$ years, we can use the fact that the number of animals of species $X$ is increasing at a rate of $2%$ per year, and the number of animals of species $Y$ is decreasing at a rate of $1%$ per year. We can set up the equations $rac{2}{3} = rac{X}{Y}$ and $rac{dX}{dt} = 0.02X$ and $rac{dY}{dt} = -0.01Y$. Solving these equations gives us the ratio of animals of species $X$ to animals of species $Y$ in $2$ years, which is $2:3.5$. Options A, C, and D are incorrect because they do not take into account the rates of increase and decrease of the number of animals of species $X$ and $Y$.
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/social-science/forest-and-wildlife-resources) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/social-science/forest-and-wildlife-[resources](/blog/water-resources-class-10-notes)) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Forest%20and%20Wildlife%20Resources%20Class%2010%20Social%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

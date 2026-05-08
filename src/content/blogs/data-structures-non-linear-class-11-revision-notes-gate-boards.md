@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/data-structures-non-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 6, 2026*
+*Last Updated: May 8, 2026*
 
 ## 📑 Table of Contents
 
@@ -229,11 +229,11 @@ What are common Trap Questions for Data Structures: Non-Linear? is a critical co
 
 How to optimize the performance of Non-Linear [Data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) Structures is optimizing [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structures like trees and graphs for efficient use of memory and processor time. It includes understanding of trees, graphs, n hash tables. For Class 11 exam prep and 2026, the most important aspect is understanding the trade-offs between time and space complexity. 
    Non-linear [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structures are crucial and programming as they allow for efficient storage and retrieval of [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards). Optimization of these [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structures is necessary to ensure that the program runs smoothly and efficiently. One key aspect of optimization is understanding the concept of time and space complexity. Time complexity refers to the amount of time an algorithm takes to complete, while space complexity refers to the amount of memory an algorithm uses. 
-   To optimize the performance of non-linear data structures, one must first understand the basics of these data structures. A tree is a hierarchical data structure and which each node has a value and zero or more child nodes. A graph is a non-linear data structure consisting of nodes or vertices connected y edges. 
+   To optimize the performance of non-linear [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structures, one must first understand the basics of these [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structures. A tree is a hierarchical [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structure and which each node has a value and zero or more child nodes. A graph is a non-linear [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structure consisting of nodes or vertices connected y edges. 
    The $O(n)$ notation is used to express the time complexity of an algorithm, where $n$ is the number of inputs. The $O(1)$ notation is used to express constant time complexity. 
    For example, if we have a tree with $n$ nodes, and we want to search for a specific node, the time complexity would be $O(n)$ n the worst case scenario if we were to traverse the tree linearly. However, if we use a hash table to store the nodes, the time complexity would be $O(1)$, making it much more efficient. 
    Another key aspect of optimization is the use of recursive functions. Recursive functions can be used to traverse trees and graphs, but they can also lead to a stack overflow if not used carefully. 
-   To avoid a stack overflow, it's essential to use iterative functions instead of recursive functions. Iterative functions use a loop to traverse the data structure, which is more efficient and less prone to errors. 
+   To avoid a stack overflow, it's essential to use iterative functions instead of recursive functions. Iterative functions use a loop to traverse the [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structure, which is more efficient and less prone to errors. 
    In addition to understanding time and space complexity, it's also essential to understand the different types of non-linear data structures and their use cases. For example, a binary search tree is a type of tree that is used for efficient searching, inserting, n deleting nodes. 
    A heap is a type of tree that is used for efficient sorting and priority queuing. 
    The choice of data structure depends on the specific problem and the requirements of the program. 

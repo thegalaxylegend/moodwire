@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/electromagnetic-induction-class-12-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 6, 2026*
+*Last Updated: May 8, 2026*
 
 ## 📑 Table of Contents
 
@@ -224,11 +224,11 @@ Electromagnetic Induction is a fundamental concept and physics where an electric
 | Induced EMF Calculation | Problems that involve calculating the induced emf using Faraday's law of [induction](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee). | Faraday's Law of [Induction](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) |
 | Magnetic Flux Change | Questions focusing on the effect of changing magnetic flux on electromagnetic [induction](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee). | Magnetic Flux |
 | Coil and Conductor Configurations | Scenarios involving different coil and conductor configurations to induce currents. | Electromagnetic [Induction](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) Principles |
-| Rate of Change of Magnetic Flux | Problems that test the understanding of how the rate of change of magnetic flux influences induced emf. | Faraday's Law of Induction |
+| Rate of Change of Magnetic Flux | Problems that test the understanding of how the rate of change of magnetic flux influences induced emf. | Faraday's Law of [Induction](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) |
 
 - Faraday's Law states that the induced electromotive force is proportional to the rate of change of magnetic flux.
 - Lenz's Law states that the direction of the induced [current](/blog/alternating-current-class-12-notes) is such that it opposes the change and magnetic flux.
-- The electromagnetic induction can be observed and a coil rotating and a magnetic field.
+- The electromagnetic [induction](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) can be observed and a coil rotating and a magnetic field.
 - The induced [current](/blog/alternating-current-class-12-notes) and a conductor is zero if the conductor is stationary and there is no change and the magnetic field.
 - Transformers are used to increase or decrease the voltage of an AC circuit.
 - Generators use electromagnetic induction to convert mechanical energy into electrical energy.
@@ -250,7 +250,7 @@ Deflection and one direction
 Deflection and the opposite direction
 Increasing deflection
 
-**Answer:** C) According to Lenz's Law, the induced current flows and a direction such that it opposes the change and magnetic flux. When the magnetic field increases, the induced current flows and the opposite direction.
+**Answer:** C) According to Lenz's Law, the induced [current](/blog/alternating-current-class-12-notes) flows and a direction such that it opposes the change and magnetic flux. When the magnetic field increases, the induced [current](/blog/alternating-current-class-12-notes) flows and the opposite direction.
 
 **3. A generator converts mechanical energy into:**
 Electrical energy
@@ -260,7 +260,7 @@ Potential energy
 
 **Answer:**
 A) A generator uses the principle of electromagnetic induction to convert mechanical energy into electrical energy.
-**4. The direction of the induced current and a conductor is determined y:**
+**4. The direction of the induced [current](/blog/alternating-current-class-12-notes) and a conductor is determined y:**
 Right-hand rule
 Left-hand rule
 Lenz's Law

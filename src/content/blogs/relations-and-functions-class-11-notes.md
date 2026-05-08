@@ -56,11 +56,11 @@ There are also several types of [functions](/blog/relations-functions-class-11-r
 
 ## 🪤 The 5 Mistakes That Cost Marks
 
-* One common mistake is to assume that a relation is a function if it passes the vertical line test, but forgetting to check if it passes the horizontal line test as well, which is essential for one-to-one functions.
+* One common mistake is to assume that a relation is a function if it passes the vertical line test, but forgetting to check if it passes the horizontal line test as well, which is essential for one-to-one [functions](/blog/relations-functions-class-11-revision-notes-jee-neet).
 * Students often get confused between the terms 'range' and 'codomain' of a function. The codomain is the set of all possible output values, while the range is the set of actual output values.
 * A trap question could be to determine if a given relation is an equivalence relation, where students might forget to check all three properties: reflexivity, symmetry, and transitivity.
 * Another mistake is to assume that if a function is one-to-one, it is also onto, which is not necessarily true. A function can be one-to-one but not onto if its range is not equal to its codomain.
-* When composing two functions, students might make errors by not following the correct order of operations or by not considering the domains and codomains of the individual functions, leading to incorrect results.
+* When composing two [functions](/blog/relations-functions-class-11-revision-notes-jee-neet), students might make errors by not following the correct order of operations or by not considering the domains and codomains of the individual [functions](/blog/relations-functions-class-11-revision-notes-jee-neet), leading to incorrect results.
 
 ## 🔁 Last 5 Minutes Box
 

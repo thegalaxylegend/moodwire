@@ -133,7 +133,7 @@ JEE/NEET Top 1% Ranker (Strict, data-driven, no fluff).
  - Molar heat capacity relation: C_p - C_v = R
  - Adiabatic index: γ = C_p/C_v
  - Carnot Efficiency: η = 1 - (T_low/T_high)
- - Trap: Sign convention for W is critical. Work done *by* the system is positive in Physics (JEE/NEET standard), but check if the question uses Chemistry convention (Work done *on* system). For Adiabatic, P and V are coupled; don't use ΔT if you don't have γ.
+ - Trap: Sign convention for W is critical. Work done *by* the system is positive in [Physics](/blog/physics-mechanics-class-11-revision-notes-jee-neet) (JEE/NEET standard), but check if the question uses Chemistry convention (Work done *on* system). For Adiabatic, P and V are coupled; don't use ΔT if you don't have γ.
 
  * **Kinetic Theory of Gases (KGT)**
  - Ideal Gas Law: PV = nRT
@@ -295,7 +295,7 @@ JEE/NEET Top 1% Ranker (Strict, data-driven, no fluff).
 
 - Efficiency in terms of work: η = W_net / Q_in
 
-**Examiner's Trap:** Sign convention is the #1 error. In Physics/JEE: Work done *by* the gas is (+) and work done *on* the gas is (-). In Chemistry: Work done *on* the gas is (+). Stick to the Physics convention for JEE/NEET. For adiabatic processes, remember that Q = 0.
+**Examiner's Trap:** Sign convention is the #1 error. In [Physics](/blog/physics-mechanics-class-11-revision-notes-jee-neet)/JEE: Work done *by* the gas is (+) and work done *on* the gas is (-). In Chemistry: Work done *on* the gas is (+). Stick to the [Physics](/blog/physics-mechanics-class-11-revision-notes-jee-neet) convention for JEE/NEET. For adiabatic processes, remember that Q = 0.
 
 ### <a id="kinetic-theory-of-gases-kgt"></a>Kinetic Theory of Gases (KGT)
 
@@ -646,7 +646,7 @@ JEE/NEET/CBSE students (Year 2026 target).
  * Let's go with First Law/Work done in isothermal/adiabatic.
  * Draft Q1: A gas expands from $V_1$ to $V_2$ isothermally. Heat added is $Q$. Find work done. Or, more complex: A cyclic process.
  * Actually, let's do a Carnot Engine efficiency question (Classic NEET/JEE).
- * Q1 (JEE Main 2021): A Carnot engine works between $T_1 = 500$ K and $T_2 = 300$ K. If it absorbs $1000$ J of heat, find work done.
+ * Q1 (JEE Main 2026): A Carnot engine works between $T_1 = 500$ K and $T_2 = 300$ K. If it absorbs $1000$ J of heat, find work done.
 
  * *Topic 2: Optics (Light - Class 11 usually covers Geometrical Optics).*
  * Question: Refractive index/Snell's Law or Lens Maker's Formula.
@@ -658,7 +658,7 @@ JEE/NEET/CBSE students (Year 2026 target).
  * Draft Q3: $100$ g of water at $80^\circ$C is mixed with $200$ g of water at $20^\circ$C. Find final temperature.
 
  * *Refining Question 1 (Thermodynamics - Heat):*
- Q1 (JEE Main 2022): An ideal gas undergoes an adiabatic process where $P V^{5/3} = $\text{constant}. If the initial pressure is $P_1$ and volume is $V_1$, find the final pressure $P_2$ when the volume becomes $2V_1$.
+ Q1 (JEE Main 2026): An ideal gas undergoes an adiabatic process where $P V^{5/3} = $\text{constant}. If the initial pressure is $P_1$ and volume is $V_1$, find the final pressure $P_2$ when the volume becomes $2V_1$.
  - Trap: Forgetting the exponent $\gamma$ (gamma) or using the wrong relation ($PV = $\text{const} instead of $PV^$\gamma$ = $\text{const}).
  - Solution: $P_1 V_1^$\gamma$ = P_2 V_2^$\gamma\rightarrow$ P_2 = P_1 (V_1/V_2)^\gamma$.
  - \gamma$ = 5/3$. $V_2 = 2V_1$.
@@ -675,7 +675,7 @@ JEE/NEET/CBSE students (Year 2026 target).
  Let's do: A block of metal of mass $m$ at $T_1$ is dropped into water at $T_2$.
  Actually, let's go with: A gas expands from $V$ to $2V$ at constant pressure. Work done is $W$. If it expands at constant volume, work is...? (Too easy).
  Let's do: $Q = mc$\Delta$ T$ vs $Q = mL$.
- Q3 (NEET 2021): How much heat is required to convert $10$ g of ice at $0^\circ$C to steam at $100^\circ$C? ($L_{fusion} = 80$ cal/g, $L_{vap} = 540$ cal/g, $c_{water} = 1$ cal/g°C).
+ Q3 (NEET 2026): How much heat is required to convert $10$ g of ice at $0^\circ$C to steam at $100^\circ$C? ($L_{fusion} = 80$ cal/g, $L_{vap} = 540$ cal/g, $c_{water} = 1$ cal/g°C).
  - Trap: Forgetting the heating of water from $0^\circ$C to $100^\circ$C.
  - Solution: $Q_{total} = Q_{melt} + Q_{heat\_water} + Q_{vap}$.
  - $Q_1 = 10 $\times$ 80 = 800$ cal.
@@ -695,7 +695,7 @@ JEE/NEET/CBSE students (Year 2026 target).
  *Decision:* In prompt engineering, the *final* block of instructions (the "OUTPUT FORMAT RULES") is the one the model should follow to avoid "breaking the website." The first part was likely a general instruction that was superseded by the specific "ZERO TOLERANCE" rule for this specific task. I will use **Unicode only** and **no dollar signs**.
 
  *Question 1 (Adiabatic):*
- Q1 (JEE Main 2022): An ideal gas undergoes an adiabatic process where P Vᵞ = constant, where γ = 5/3. If the initial pressure is P₁ and volume is V₁, find the final pressure P₂ when the volume is doubled (V₂ = 2V₁).
+ Q1 (JEE Main 2026): An ideal gas undergoes an adiabatic process where P Vᵞ = constant, where γ = 5/3. If the initial pressure is P₁ and volume is V₁, find the final pressure P₂ when the volume is doubled (V₂ = 2V₁).
  - Trap: Using the isothermal relation P₁V₁ = P₂V₂ instead of the adiabatic relation.
  - Solution:
  Step 1: Use adiabatic relation: P₁V₁ᵞ = P₂V₂ᵞ
@@ -778,7 +778,7 @@ JEE/NEET/CBSE students (Year 2026 target).
  Let's go.
 
  *Question 1 Refined:*
- Q1 (JEE Main 2022): An ideal gas undergoes an adiabatic process where P Vᵞ = constant. If the initial pressure is P₁ and the initial volume is V₁, find the final pressure P₂ when the volume is doubled (V₂ = 2V₁). Assume γ = 5/3.
+ Q1 (JEE Main 2026): An ideal gas undergoes an adiabatic process where P Vᵞ = constant. If the initial pressure is P₁ and the initial volume is V₁, find the final pressure P₂ when the volume is doubled (V₂ = 2V₁). Assume γ = 5/3.
 
  *Question 2 Refined:*
  Q2 (NEET 2020): A convex lens of focal length 20 cm is placed in contact with a concave lens of focal length 25 cm. Calculate the power of the resulting combination.
@@ -851,7 +851,7 @@ JEE/NEET/CBSE students (Year 2026 target).
 
  *Ready.*### ✏️ 3 Solved PYQs
 
-Q1 (JEE Main 2022): An ideal gas undergoes an adiabatic process where P Vᵞ = constant. If the initial pressure is P₁ and the initial volume is V₁, find the final pressure P₂ when the volume is doubled (V₂ = 2V₁). Assume γ = 5/3.
+Q1 (JEE Main 2026): An ideal gas undergoes an adiabatic process where P Vᵞ = constant. If the initial pressure is P₁ and the initial volume is V₁, find the final pressure P₂ when the volume is doubled (V₂ = 2V₁). Assume γ = 5/3.
 
 - 🪤 **Trap:** Using the isothermal relation P₁V₁ = P₂V₂ instead of the adiabatic relation P₁V₁ᵞ = P₂V₂ᵞ.
 
@@ -1421,8 +1421,8 @@ JEE Advanced & NEET Grandmaster.
 
  *Let's ensure "PYQ Frequency Intel" is accurate.*
  2019 NEET: Calorimetry is huge.
- 2021 JEE: Adiabatic is a staple.
- 2023 JEE: Wave properties are heavy.
+ 2026 JEE: Adiabatic is a staple.
+ 2026 JEE: Wave properties are heavy.
 
  *One last check on Math:*
  $\gamma$ is $\gamma$.

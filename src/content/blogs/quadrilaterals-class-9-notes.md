@@ -31,7 +31,7 @@ manualReview: false
 
  
 ## ✏️ 3 Solved PYQs
-- In a quadrilateral ABCD, the sum of the interior angles is 360°. If ∠A = 80°, ∠B = 110°, and ∠C = 90°, find ∠D.
+- In a quadrilateral ABCD, the sum of the interior [angles](/blog/lines-and-angles-class-9-notes) is 360°. If ∠A = 80°, ∠B = 110°, and ∠C = 90°, find ∠D.
   ∠D = 360° - (∠A + ∠B + ∠C) = 360° - (80° + 110° + 90°) = 360° - 280° = 80°
 - In a rhombus ABCD, the lengths of the diagonals are 6 cm and 8 cm. Find the area of the rhombus.
   Area = (1/2) × d₁ × d₂ = (1/2) × 6 × 8 = 24 cm²
@@ -40,7 +40,7 @@ manualReview: false
 
  
 ## 🧠 The One Thing Most Students Get Wrong
-- The difference between a rectangle and a rhombus. A rectangle has all angles equal to 90°, while a rhombus has all sides equal.
+- The difference between a rectangle and a rhombus. A rectangle has all [angles](/blog/lines-and-angles-class-9-notes) equal to 90°, while a rhombus has all sides equal.
 
  
 ## 👁️ Ayush's Note
