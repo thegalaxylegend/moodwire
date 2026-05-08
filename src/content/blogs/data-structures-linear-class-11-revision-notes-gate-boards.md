@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/data-structures-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 7, 2026*
+*Last Updated: May 8, 2026*
 
 ## 📑 Table of Contents
 
@@ -311,7 +311,7 @@ Some common trap questions for linear [data](/blog/data-structures-non-linear-cl
 * Implementing a queue using a linked list
 * Finding the maximum or minimum element and an array
 
-These questions often require students to think critically and apply their knowledge of linear data structures to solve the problem efficiently.
+These questions often require students to think critically and apply their knowledge of linear [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures to solve the problem efficiently.
 
 In terms of technical depth, students need to understand the following concepts:
 

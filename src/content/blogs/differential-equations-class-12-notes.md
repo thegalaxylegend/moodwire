@@ -120,7 +120,7 @@ D) y = (x⁴/4 - c)x
 -
 A) Homogeneous
 -
-B) Linear
+B) [Linear](/blog/pair-of-linear-equations-class-10-notes)
 -
 C) Exact
 -

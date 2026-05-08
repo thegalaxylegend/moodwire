@@ -1,20 +1,19 @@
 {
-  "date": "2026-04-22",
+  "date": "2026-04-26",
   "summary": {
-    "modified": 202,
-    "withWarnings": 72,
-    "clean": 18,
-    "totalFixes": 461,
-    "totalWarnings": 156
+    "modified": 85,
+    "withWarnings": 19,
+    "clean": 58,
+    "totalFixes": 394,
+    "totalWarnings": 19
   },
   "repairs": [
     {
       "slug": "3d-geometry-intro-class-11-revision-notes-jee-neet",
       "fixes": [
-        "Converted 11 fragmented standalone equations into block math",
-        "Removed 2 empty LaTeX blocks",
+        "Converted 15 fragmented standalone equations into block math",
+        "Removed 12 empty LaTeX blocks",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Applied LanguageTool academic grammar enhancements",
         "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
@@ -23,9 +22,9 @@
       "isStrategicRefinement": false
     },
     {
-      "slug": "alcohols-phenols-and-ethers-class-12-notes",
+      "slug": "acids-bases-and-salts-class-10-notes",
       "fixes": [
-        "Applied LanguageTool academic grammar enhancements"
+        "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
       "wasModified": true,
@@ -34,22 +33,19 @@
     {
       "slug": "aldehydes-ketones-and-carboxylic-acids-class-12-notes",
       "fixes": [
-        "Applied LanguageTool academic grammar enhancements",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "algebraic-expressions-class-8-notes",
       "fixes": [
-        "Applied LanguageTool academic grammar enhancements",
-        "Added 3 OpenAlex academic citations",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
@@ -58,12 +54,13 @@
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "algorithms-design-class-11-revision-notes-gate-boards",
       "fixes": [
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
@@ -74,6 +71,7 @@
       "slug": "alternating-current-class-12-notes",
       "fixes": [
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
@@ -83,45 +81,56 @@
     {
       "slug": "amines-class-12-notes",
       "fixes": [
-        "Generated missing Trap Questions section",
-        "Applied LanguageTool academic grammar enhancements",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "anatomy-of-flowering-plants-class-11-revision-notes-neet",
       "fixes": [
-        "Applied LanguageTool academic grammar enhancements",
-        "Repaired MCQ option formatting (ensured multi-line)"
+        "Applied deep strategic refinement: Contains [object Object] artifacts — corrupted since generation",
+        "Removed 1 kill-list phrases",
+        "Generated missing Trap Questions section",
+        "Generated missing Last 5 Minutes Box"
       ],
       "warnings": [],
       "wasModified": true,
-      "isStrategicRefinement": false
+      "isStrategicRefinement": true
     },
     {
       "slug": "ancient-india-indus-valley-class-11-revision-notes-cbse",
       "fixes": [
-        "Wrapped naked LaTeX in 1 lines with $ delimiters",
-        "Converted 1 fragmented standalone equations into block math",
-        "Applied LanguageTool academic grammar enhancements",
-        "Cleaned up empty LaTeX blocks"
+        "Applied deep strategic refinement: Contains [object Object] artifacts — corrupted since generation",
+        "Removed 3 kill-list phrases",
+        "Generated missing Trap Questions section",
+        "Generated missing Last 5 Minutes Box",
+        "Applied LanguageTool academic grammar enhancements"
       ],
       "warnings": [],
       "wasModified": true,
-      "isStrategicRefinement": false
+      "isStrategicRefinement": true
+    },
+    {
+      "slug": "ancient-india-vedic-age-class-11-revision-notes-jee",
+      "fixes": [
+        "Injected auto Table of Contents (9 sections)",
+        "Applied deep strategic refinement: Contains [object Object] artifacts — corrupted since generation",
+        "Removed 2 kill-list phrases",
+        "Generated missing Trap Questions section",
+        "Generated missing Last 5 Minutes Box"
+      ],
+      "warnings": [],
+      "wasModified": true,
+      "isStrategicRefinement": true
     },
     {
       "slug": "application-of-derivatives-class-12-notes",
       "fixes": [
-        "Case-normalized 4 LaTeX commands (e.g. \\fRAC → \\frac)",
         "Converted 10 fragmented standalone equations into block math",
         "Removed 2 empty LaTeX blocks",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Generated missing Trap Questions section",
-        "Applied LanguageTool academic grammar enhancements",
         "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
@@ -133,10 +142,8 @@
       "slug": "application-of-integrals-class-12-notes",
       "fixes": [
         "Converted 25 fragmented standalone equations into block math",
-        "Removed 5 empty LaTeX blocks",
+        "Removed 20 empty LaTeX blocks",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Applied LanguageTool academic grammar enhancements",
-        "Added 3 OpenAlex academic citations",
         "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
@@ -149,8 +156,6 @@
       "fixes": [
         "Converted 4 fragmented standalone equations into block math",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Applied LanguageTool academic grammar enhancements",
-        "Added 2 OpenAlex academic citations",
         "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
@@ -161,11 +166,9 @@
     {
       "slug": "areas-related-to-circles-class-10-notes",
       "fixes": [
-        "Converted 21 fragmented standalone equations into block math",
-        "Removed 1 empty LaTeX blocks",
+        "Converted 25 fragmented standalone equations into block math",
+        "Removed 17 empty LaTeX blocks",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Applied LanguageTool academic grammar enhancements",
-        "Added 3 OpenAlex academic citations",
         "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
@@ -176,23 +179,19 @@
     {
       "slug": "arithmetic-progressions-class-10-notes",
       "fixes": [
-        "Applied LanguageTool academic grammar enhancements",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "atoms-class-12-notes",
       "fixes": [
-        "Fixed 9 literal \\\\n escape sequences",
-        "Wrapped naked LaTeX in 3 lines with $ delimiters",
-        "Converted 27 fragmented standalone equations into block math",
+        "Converted 24 fragmented standalone equations into block math",
         "Removed 2 empty LaTeX blocks",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Applied LanguageTool academic grammar enhancements",
-        "Added 3 OpenAlex academic citations",
         "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
@@ -203,19 +202,22 @@
     {
       "slug": "binomial-theorem-class-11-revision-notes-jee",
       "fixes": [
-        "Converted 1 fragmented standalone equations into block math",
-        "Applied LanguageTool academic grammar enhancements",
-        "Cleaned up empty LaTeX blocks"
+        "Applied deep strategic refinement: Contains [object Object] artifacts — corrupted since generation",
+        "Removed 2 kill-list phrases",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Generated missing Trap Questions section",
+        "Generated missing Last 5 Minutes Box",
+        "Applied LanguageTool academic grammar enhancements"
       ],
       "warnings": [],
       "wasModified": true,
-      "isStrategicRefinement": false
+      "isStrategicRefinement": true
     },
     {
       "slug": "biodiversity-and-conservation-class-12-notes",
       "fixes": [
         "Converted 5 fragmented standalone equations into block math",
-        "Applied LanguageTool academic grammar enhancements",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
@@ -230,77 +232,61 @@
         "Cleaned up empty LaTeX blocks"
       ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "biological-classification-class-11-revision-notes-neet",
       "fixes": [
+        "Applied deep strategic refinement: Contains [object Object] artifacts — corrupted since generation",
+        "Generated missing Trap Questions section",
+        "Generated missing Last 5 Minutes Box",
         "Applied LanguageTool academic grammar enhancements"
       ],
       "warnings": [],
       "wasModified": true,
-      "isStrategicRefinement": false
+      "isStrategicRefinement": true
     },
     {
       "slug": "biotechnology-and-its-applications-class-12-notes",
       "fixes": [
-        "Case-normalized 4 LaTeX commands (e.g. \\fRAC → \\frac)",
-        "Applied LanguageTool academic grammar enhancements",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "biotechnology-principles-and-processes-class-12-notes",
       "fixes": [
-        "Removed 1 kill-list phrases",
-        "Applied LanguageTool academic grammar enhancements",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "body-fluids-and-circulation-class-11-revision-notes-neet",
       "fixes": [
-        "Wrapped naked LaTeX in 1 lines with $ delimiters",
+        "Injected auto Table of Contents (8 sections)",
+        "Applied deep strategic refinement: Contains [object Object] artifacts — corrupted since generation",
+        "Removed 1 kill-list phrases",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Cleaned up empty LaTeX blocks"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "breathing-and-exchange-of-gases-class-11-revision-notes-neet",
-      "fixes": [
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Generated missing Trap Questions section",
+        "Generated missing Last 5 Minutes Box",
         "Applied LanguageTool academic grammar enhancements"
       ],
       "warnings": [],
       "wasModified": true,
-      "isStrategicRefinement": false
+      "isStrategicRefinement": true
     },
     {
-      "slug": "cell-cycle-and-cell-division-class-11-revision-notes-neet",
+      "slug": "carbon-and-its-compounds-class-10-notes",
       "fixes": [
-        "Wrapped naked LaTeX in 2 lines with $ delimiters",
+        "Converted 1 fragmented standalone equations into block math",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Applied LanguageTool academic grammar enhancements",
-        "Cleaned up empty LaTeX blocks"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "cell-the-unit-of-life-class-11-revision-notes-neet",
-      "fixes": [
-        "Applied LanguageTool academic grammar enhancements"
+        "Cleaned up empty LaTeX blocks",
+        "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
       "wasModified": true,
@@ -309,7 +295,6 @@
     {
       "slug": "chemical-bonding-class-11-revision-notes-jee-neet",
       "fixes": [
-        "Wrapped naked LaTeX in 1 lines with $ delimiters",
         "Converted 4 fragmented standalone equations into block math",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Cleaned up empty LaTeX blocks"
@@ -321,12 +306,20 @@
     {
       "slug": "chemical-kinetics-class-12-notes",
       "fixes": [
-        "Case-normalized 10 LaTeX commands (e.g. \\fRAC → \\frac)",
         "Converted 3 fragmented standalone equations into block math",
         "Removed 1 empty LaTeX blocks",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Cleaned up empty LaTeX blocks",
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": true,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "chemical-reactions-and-equations-class-10-notes",
+      "fixes": [
         "Applied LanguageTool academic grammar enhancements",
-        "Injected PubChem verified chemistry reference table",
         "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
@@ -337,11 +330,9 @@
     {
       "slug": "chemistry-in-everyday-life-class-12-notes",
       "fixes": [
-        "Case-normalized 31 LaTeX commands (e.g. \\fRAC → \\frac)",
-        "Converted 1 fragmented standalone equations into block math",
+        "Converted 9 fragmented standalone equations into block math",
+        "Removed 7 empty LaTeX blocks",
         "Applied LanguageTool academic grammar enhancements",
-        "Injected PubChem verified chemistry reference table",
-        "Added 3 OpenAlex academic citations",
         "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
@@ -352,8 +343,8 @@
     {
       "slug": "circles-class-10-notes",
       "fixes": [
-        "Applied LanguageTool academic grammar enhancements",
-        "Added 3 OpenAlex academic citations",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
@@ -361,27 +352,9 @@
       "isStrategicRefinement": false
     },
     {
-      "slug": "classification-elements-periodicity-class-11-revision-notes-jee-neet",
+      "slug": "class-10-30-day-timetable-class-10-revision-notes-jee",
       "fixes": [
-        "Applied LanguageTool academic grammar enhancements"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "classification-of-elements-class-11-revision-notes-jee-neet",
-      "fixes": [
-        "Case-normalized 2 LaTeX commands (e.g. \\fRAC → \\frac)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "climatology-class-11-revision-notes-jee-neet",
-      "fixes": [
-        "Applied LanguageTool academic grammar enhancements"
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)"
       ],
       "warnings": [],
       "wasModified": true,
@@ -390,19 +363,16 @@
     {
       "slug": "communication-systems-class-12-notes",
       "fixes": [
-        "Fixed 2 literal \\\\n escape sequences",
-        "Applied LanguageTool academic grammar enhancements",
-        "Added 3 OpenAlex academic citations",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "comparing-quantities-class-8-notes",
       "fixes": [
-        "Applied LanguageTool academic grammar enhancements",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
@@ -412,8 +382,7 @@
     {
       "slug": "compiler-design-class-12-notes",
       "fixes": [
-        "Applied LanguageTool academic grammar enhancements",
-        "Added 3 OpenAlex academic citations",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
@@ -423,10 +392,7 @@
     {
       "slug": "complex-numbers-class-11-revision-notes-jee-neet",
       "fixes": [
-        "Wrapped naked LaTeX in 1 lines with $ delimiters",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Applied LanguageTool academic grammar enhancements",
-        "Cleaned up empty LaTeX blocks"
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)"
       ],
       "warnings": [],
       "wasModified": true,
@@ -435,12 +401,10 @@
     {
       "slug": "computer-networks-class-12-notes",
       "fixes": [
-        "Applied LanguageTool academic grammar enhancements",
-        "Added 3 OpenAlex academic citations",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
@@ -449,23 +413,14 @@
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "conic-sections-class-11-revision-notes-jee",
-      "fixes": [
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Applied LanguageTool academic grammar enhancements"
-      ],
-      "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "continuity-and-differentiability-class-12-notes",
       "fixes": [
-        "Converted 17 fragmented standalone equations into block math",
+        "Converted 15 fragmented standalone equations into block math",
+        "Removed 6 empty LaTeX blocks",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Applied LanguageTool academic grammar enhancements",
         "Cleaned up empty LaTeX blocks",
@@ -478,8 +433,7 @@
     {
       "slug": "coordinate-geometry-class-10-notes",
       "fixes": [
-        "Applied LanguageTool academic grammar enhancements",
-        "Added 3 OpenAlex academic citations",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
@@ -489,37 +443,30 @@
     {
       "slug": "coordination-compounds-class-12-notes",
       "fixes": [
-        "Case-normalized 2 LaTeX commands (e.g. \\fRAC → \\frac)",
-        "Applied LanguageTool academic grammar enhancements",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "cubes-and-cube-roots-class-8-notes",
       "fixes": [
-        "Applied LanguageTool academic grammar enhancements",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "data-handling-class-8-notes",
       "fixes": [
         "Converted 4 fragmented standalone equations into block math",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Generated missing Trap Questions section",
-        "Applied LanguageTool academic grammar enhancements",
-        "Added 3 OpenAlex academic citations",
         "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
@@ -528,7 +475,7 @@
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
@@ -537,39 +484,35 @@
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "databases-dbms-class-12-notes",
       "fixes": [
-        "Fixed 1 literal \\\\n escape sequences",
-        "Applied LanguageTool academic grammar enhancements",
-        "Repaired MCQ option formatting (ensured multi-line)"
+        "Applied deep strategic refinement: JSON Squashing + malformed HTML — critical corruption"
       ],
       "warnings": [],
       "wasModified": true,
-      "isStrategicRefinement": false
+      "isStrategicRefinement": true
     },
     {
       "slug": "determinants-class-12-notes",
       "fixes": [
-        "Converted 3 fragmented standalone equations into block math",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Applied LanguageTool academic grammar enhancements",
+        "Converted 2 fragmented standalone equations into block math",
         "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "differential-equations-class-12-notes",
       "fixes": [
         "Converted 4 fragmented standalone equations into block math",
+        "Removed 2 empty LaTeX blocks",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Applied LanguageTool academic grammar enhancements",
         "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
@@ -580,7 +523,7 @@
     {
       "slug": "digestion-and-absorption-class-11-revision-notes-neet",
       "fixes": [
-        "Wrapped naked LaTeX in 2 lines with $ delimiters",
+        "Converted 2 fragmented standalone equations into block math",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Cleaned up empty LaTeX blocks"
       ],
@@ -594,33 +537,32 @@
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "dual-nature-of-radiation-class-12-notes",
       "fixes": [
-        "Applied LanguageTool academic grammar enhancements",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "ecosystem-class-12-notes",
       "fixes": [
-        "Applied LanguageTool academic grammar enhancements",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "electric-charges-fields-class-11-revision-notes-jee-neet",
       "fixes": [
         "Converted 1 fragmented standalone equations into block math",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Cleaned up empty LaTeX blocks"
       ],
       "warnings": [],
@@ -630,9 +572,7 @@
     {
       "slug": "electromagnetic-induction-class-12-revision-notes-jee-neet",
       "fixes": [
-        "Wrapped naked LaTeX in 4 lines with $ delimiters",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
@@ -642,15 +582,16 @@
     {
       "slug": "electromagnetic-waves-class-12-notes",
       "fixes": [
-        "Wrapped naked LaTeX in 2 lines with $ delimiters",
-        "Converted 1 fragmented standalone equations into block math",
+        "Applied deep strategic refinement: Contains [object Object] + literal \\n — corrupted since generation",
+        "Removed 1 kill-list phrases",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Cleaned up empty LaTeX blocks",
-        "Repaired MCQ option formatting (ensured multi-line)"
+        "Generated missing Trap Questions section",
+        "Generated missing Last 5 Minutes Box",
+        "Applied LanguageTool academic grammar enhancements"
       ],
       "warnings": [],
       "wasModified": true,
-      "isStrategicRefinement": false
+      "isStrategicRefinement": true
     },
     {
       "slug": "electrostatics-class-12-revision-notes-jee-neet",
@@ -663,55 +604,30 @@
       "isStrategicRefinement": false
     },
     {
-      "slug": "environmental-chemistry-class-11-revision-notes-neet",
-      "fixes": [
-        "Applied LanguageTool academic grammar enhancements"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
       "slug": "environmental-issues-class-12-notes",
       "fixes": [
-        "Applied LanguageTool academic grammar enhancements",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "equilibrium-class-11-revision-notes-jee-neet",
       "fixes": [
-        "Wrapped naked LaTeX in 2 lines with $ delimiters",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Converted 1 fragmented standalone equations into block math",
         "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "excretory-products-and-elimination-class-11-revision-notes-neet",
-      "fixes": [
-        "Wrapped naked LaTeX in 1 lines with $ delimiters",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Applied LanguageTool academic grammar enhancements",
-        "Cleaned up empty LaTeX blocks"
-      ],
-      "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "exponents-and-powers-class-8-notes",
       "fixes": [
-        "Wrapped naked LaTeX in 2 lines with $ delimiters",
         "Converted 1 fragmented standalone equations into block math",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Applied LanguageTool academic grammar enhancements",
         "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
@@ -722,9 +638,6 @@
     {
       "slug": "factorisation-class-8-notes",
       "fixes": [
-        "Fixed 25 literal \\\\n escape sequences",
-        "Applied LanguageTool academic grammar enhancements",
-        "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
@@ -738,13 +651,24 @@
         "Cleaned up empty LaTeX blocks"
       ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "haloalkanes-and-haloarenes-class-12-notes",
       "fixes": [
-        "Applied LanguageTool academic grammar enhancements",
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "heredity-and-evolution-class-10-notes",
+      "fixes": [
+        "Converted 1 fragmented standalone equations into block math",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
@@ -753,6 +677,15 @@
     },
     {
       "slug": "heron-s-formula-class-9-notes",
+      "fixes": [
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "how-do-organisms-reproduce-class-10-notes",
       "fixes": [
         "Applied LanguageTool academic grammar enhancements",
         "Repaired MCQ option formatting (ensured multi-line)"
@@ -764,78 +697,37 @@
     {
       "slug": "human-health-and-disease-class-12-notes",
       "fixes": [
-        "Fixed 5 literal \\\\n escape sequences",
-        "Wrapped naked LaTeX in 2 lines with $ delimiters",
-        "Applied LanguageTool academic grammar enhancements",
+        "Converted 2 fragmented standalone equations into block math",
         "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "human-reproduction-class-12-notes",
       "fixes": [
-        "Removed 1 kill-list phrases",
-        "Applied LanguageTool academic grammar enhancements",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "hydrocarbons-class-11-revision-notes-neet",
-      "fixes": [
-        "Applied LanguageTool academic grammar enhancements"
-      ],
-      "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "hydrogen-class-11-revision-notes-neet",
       "fixes": [
-        "Wrapped naked LaTeX in 1 lines with $ delimiters",
         "Converted 1 fragmented standalone equations into block math",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Generated missing Last 5 Minutes Box",
-        "Applied LanguageTool academic grammar enhancements",
         "Cleaned up empty LaTeX blocks"
       ],
       "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "indian-geography-climate-class-11-revision-notes-cbse",
-      "fixes": [
-        "Generated missing Trap Questions section",
-        "Generated missing Last 5 Minutes Box",
-        "Applied LanguageTool academic grammar enhancements"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "indian-geography-physical-class-11-revision-notes-jee-neet",
-      "fixes": [
-        "Generated missing Trap Questions section",
-        "Generated missing Last 5 Minutes Box",
-        "Applied LanguageTool academic grammar enhancements"
-      ],
-      "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "integrals-class-12-notes",
       "fixes": [
-        "Fixed 1 literal \\\\n escape sequences",
-        "Converted 41 fragmented standalone equations into block math",
-        "Removed 4 empty LaTeX blocks",
+        "Converted 27 fragmented standalone equations into block math",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
@@ -847,7 +739,7 @@
     {
       "slug": "introduction-to-trigonometry-class-10-notes",
       "fixes": [
-        "Converted 25 fragmented standalone equations into block math",
+        "Converted 22 fragmented standalone equations into block math",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
@@ -859,7 +751,7 @@
     {
       "slug": "inverse-trigonometric-functions-class-12-notes",
       "fixes": [
-        "Converted 34 fragmented standalone equations into block math",
+        "Converted 29 fragmented standalone equations into block math",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
@@ -870,437 +762,47 @@
     },
     {
       "slug": "jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
+      "fixes": [
+        "Converted 1 fragmented standalone equations into block math",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Cleaned up empty LaTeX blocks"
       ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
-      ],
+      "warnings": [],
       "wasModified": true,
       "isStrategicRefinement": false
     },
     {
       "slug": "kinetic-theory-class-11-revision-notes-jee-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
+      "fixes": [
+        "Repaired MCQ option formatting (ensured multi-line)"
       ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "laws-of-motion-class-11-revision-notes-jee-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
-      ],
-      "wasModified": true,
+      "warnings": [],
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "limits-and-derivatives-class-11-revision-notes-jee",
       "fixes": [
-        "Wrapped naked LaTeX in 2 lines with $ delimiters",
-        "Converted 2 fragmented standalone equations into block math",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Cleaned up empty LaTeX blocks",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "limits-derivatives-class-11-revision-notes-jee-neet",
-      "fixes": [
-        "Converted 12 fragmented standalone equations into block math",
-        "Cleaned up empty LaTeX blocks"
-      ],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "linear-equations-in-one-variable-class-8-notes",
-      "fixes": [
-        "Converted 4 fragmented standalone equations into block math",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Cleaned up empty LaTeX blocks",
-        "Repaired MCQ option formatting (ensured multi-line)"
+        "Applied LanguageTool academic grammar enhancements"
       ],
       "warnings": [],
       "wasModified": true,
       "isStrategicRefinement": false
     },
     {
-      "slug": "linear-equations-in-two-variables-class-9-notes",
-      "fixes": [
-        "Fixed 4 literal \\\\n escape sequences",
-        "Converted 13 fragmented standalone equations into block math",
-        "Removed 2 empty LaTeX blocks",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Cleaned up empty LaTeX blocks",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "linear-inequalities-class-11-revision-notes-jee-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "linear-programming-class-12-notes",
-      "fixes": [
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "lines-and-angles-class-9-notes",
-      "fixes": [
-        "Fixed 1 literal \\\\n escape sequences",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "local-government-class-11-revision-notes-cbse",
-      "fixes": [
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "locomotion-and-movement-class-11-revision-notes-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "magnetic-effects-of-current-class-12-notes",
+      "slug": "life-processes-class-10-notes",
       "fixes": [
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
-      "warnings": [
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "magnetism-and-matter-class-12-notes",
-      "fixes": [
-        "Wrapped naked LaTeX in 1 lines with $ delimiters",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Cleaned up empty LaTeX blocks",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "mathematical-induction-class-11-revision-notes-jee-neet",
-      "fixes": [
-        "Fixed 1 literal \\\\n escape sequences",
-        "Wrapped naked LaTeX in 1 lines with $ delimiters",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Cleaned up empty LaTeX blocks"
-      ],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "mathematical-reasoning-class-11-revision-notes-jee-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "matrices-class-12-notes",
-      "fixes": [
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
       "warnings": [],
       "wasModified": true,
       "isStrategicRefinement": false
     },
     {
-      "slug": "mechanical-properties-of-fluids-class-11-revision-notes-jee-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "mechanical-properties-of-solids-class-11-revision-notes-jee-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "medieval-india-bhakti-sufi-class-11-revision-notes-cbse",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "medieval-india-delhi-sultanate-class-11-revision-notes-cbse",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "medieval-india-mughals-class-11-revision-notes-cbse",
+      "slug": "light-reflection-and-refraction-class-10-notes",
       "fixes": [
-        "Converted 1 fragmented standalone equations into block math",
-        "Cleaned up empty LaTeX blocks"
-      ],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "mensuration-class-8-notes",
-      "fixes": [
-        "Wrapped naked LaTeX in 1 lines with $ delimiters",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Cleaned up empty LaTeX blocks",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "metallurgy-class-12-notes",
-      "fixes": [
-        "Case-normalized 49 LaTeX commands (e.g. \\fRAC → \\frac)",
-        "Converted 4 fragmented standalone equations into block math",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Cleaned up empty LaTeX blocks",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "microbes-in-human-welfare-class-12-notes",
-      "fixes": [
-        "Removed 1 kill-list phrases",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "mineral-nutrition-class-11-revision-notes-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "molecular-basis-of-inheritance-class-12-notes",
-      "fixes": [
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "morphology-of-flowering-plants-class-11-revision-notes-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "motion-in-a-plane-class-11-revision-notes-jee-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "motion-in-a-straight-line-class-11-revision-notes-jee-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "moving-charges-magnetism-class-11-revision-notes-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "neet-2026-weightage-prediction-class-11-revision-notes-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "neet-biology-80-20-rule-class-11-revision-notes-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "neural-control-and-coordination-class-11-revision-notes-neet",
-      "fixes": [
-        "Wrapped naked LaTeX in 1 lines with $ delimiters",
-        "Converted 1 fragmented standalone equations into block math",
-        "Cleaned up empty LaTeX blocks"
-      ],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "nuclei-class-12-notes",
-      "fixes": [
-        "Case-normalized 2 LaTeX commands (e.g. \\fRAC → \\frac)",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "number-systems-class-9-notes",
-      "fixes": [
-        "Fixed 4 literal \\\\n escape sequences",
         "Converted 10 fragmented standalone equations into block math",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Cleaned up empty LaTeX blocks",
@@ -1311,12 +813,236 @@
       "isStrategicRefinement": false
     },
     {
-      "slug": "oceanography-class-11-revision-notes-jee-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section"
+      "slug": "limits-and-derivatives-class-11-revision-notes-jee",
+      "fixes": [
+        "Converted 2 fragmented standalone equations into block math",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Applied LanguageTool academic grammar enhancements",
+        "Cleaned up empty LaTeX blocks",
+        "Repaired MCQ option formatting (ensured multi-line)"
       ],
+      "warnings": [],
+      "wasModified": true,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "limits-derivatives-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Converted 7 fragmented standalone equations into block math",
+        "Removed 1 empty LaTeX blocks",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Cleaned up empty LaTeX blocks"
+      ],
+      "warnings": [],
+      "wasModified": true,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "linear-equations-in-one-variable-class-8-notes",
+      "fixes": [
+        "Converted 4 fragmented standalone equations into block math",
+        "Cleaned up empty LaTeX blocks",
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "linear-equations-in-two-variables-class-9-notes",
+      "fixes": [
+        "Converted 13 fragmented standalone equations into block math",
+        "Removed 2 empty LaTeX blocks",
+        "Cleaned up empty LaTeX blocks",
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "linear-programming-class-12-notes",
+      "fixes": [
+        "Converted 4 fragmented standalone equations into block math",
+        "Cleaned up empty LaTeX blocks",
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "lines-and-angles-class-9-notes",
+      "fixes": [
+        "Applied LanguageTool academic grammar enhancements",
+        "Cleaned up empty LaTeX blocks",
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": true,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "local-government-class-11-revision-notes-cbse",
+      "fixes": [
+        "Injected auto Table of Contents (7 sections)",
+        "Applied deep strategic refinement: Thin content: 433 words (target 2000+)",
+        "Converted 1 fragmented standalone equations into block math",
+        "Removed 1 kill-list phrases",
+        "Generated missing Trap Questions section",
+        "Applied LanguageTool academic grammar enhancements",
+        "Cleaned up empty LaTeX blocks"
+      ],
+      "warnings": [],
+      "wasModified": true,
+      "isStrategicRefinement": true
+    },
+    {
+      "slug": "magnetic-effects-of-current-class-12-notes",
+      "fixes": [
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": true,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "magnetism-and-matter-class-12-notes",
+      "fixes": [
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": true,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "matrices-class-12-notes",
+      "fixes": [
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "mechanical-properties-of-fluids-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Converted 2 fragmented standalone equations into block math",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Cleaned up empty LaTeX blocks"
+      ],
+      "warnings": [],
+      "wasModified": true,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "medieval-india-mughals-class-11-revision-notes-cbse",
+      "fixes": [
+        "Converted 1 fragmented standalone equations into block math",
+        "Cleaned up empty LaTeX blocks"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "mensuration-class-8-notes",
+      "fixes": [
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": true,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "metallurgy-class-12-notes",
+      "fixes": [
+        "Converted 4 fragmented standalone equations into block math",
+        "Cleaned up empty LaTeX blocks",
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "metals-and-non-metals-class-10-notes",
+      "fixes": [
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": true,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "microbes-in-human-welfare-class-12-notes",
+      "fixes": [
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "molecular-basis-of-inheritance-class-12-notes",
+      "fixes": [
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "motion-in-a-plane-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Converted 8 fragmented standalone equations into block math",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Cleaned up empty LaTeX blocks"
+      ],
+      "warnings": [],
+      "wasModified": true,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "moving-charges-magnetism-class-11-revision-notes-neet",
+      "fixes": [
+        "Converted 1 fragmented standalone equations into block math",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Cleaned up empty LaTeX blocks"
+      ],
+      "warnings": [],
+      "wasModified": true,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "neural-control-and-coordination-class-11-revision-notes-neet",
+      "fixes": [
+        "Converted 1 fragmented standalone equations into block math",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Cleaned up empty LaTeX blocks"
+      ],
+      "warnings": [],
+      "wasModified": true,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "nuclei-class-12-notes",
+      "fixes": [
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "number-systems-class-9-notes",
+      "fixes": [
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)"
+      ],
+      "warnings": [],
       "wasModified": true,
       "isStrategicRefinement": false
     },
@@ -1326,20 +1052,334 @@
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "organisms-and-populations-class-12-notes",
+      "fixes": [
+        "Converted 20 fragmented standalone equations into block math",
+        "Removed 4 empty LaTeX blocks",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Cleaned up empty LaTeX blocks",
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
       "wasModified": true,
       "isStrategicRefinement": false
     },
     {
-      "slug": "organic-chemistry-basic-principles-class-11-revision-notes-jee-neet",
-      "fixes": [],
+      "slug": "oscillations-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Converted 8 fragmented standalone equations into block math",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Cleaned up empty LaTeX blocks"
+      ],
+      "warnings": [],
+      "wasModified": true,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "pair-of-linear-equations-class-10-notes",
+      "fixes": [
+        "Converted 7 fragmented standalone equations into block math",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Cleaned up empty LaTeX blocks",
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": true,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "periodic-classification-of-elements-class-10-notes",
+      "fixes": [
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": true,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "permutations-and-combinations-class-11-revision-notes-jee",
+      "fixes": [
+        "Injected auto Table of Contents (9 sections)",
+        "Converted 2 fragmented standalone equations into block math",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Cleaned up empty LaTeX blocks"
+      ],
+      "warnings": [],
+      "wasModified": true,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "photosynthesis-in-higher-plants-class-11-revision-notes-neet",
+      "fixes": [
+        "Converted 1 fragmented standalone equations into block math",
+        "Cleaned up empty LaTeX blocks"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "physics-heat-light-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Converted 21 fragmented standalone equations into block math",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Generated missing Trap Questions section",
+        "Applied LanguageTool academic grammar enhancements",
+        "Cleaned up empty LaTeX blocks"
+      ],
+      "warnings": [],
+      "wasModified": true,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "physics-mechanics-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Converted 3 fragmented standalone equations into block math",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Cleaned up empty LaTeX blocks"
+      ],
       "warnings": [
-        "Missing \"Last 5 Minutes Box\" section"
+        "Missing Practice MCQs section"
       ],
       "wasModified": true,
       "isStrategicRefinement": false
     },
     {
-      "slug": "organisms-and-populations-class-12-notes",
+      "slug": "plant-growth-and-development-class-11-revision-notes-neet",
+      "fixes": [
+        "Converted 2 fragmented standalone equations into block math",
+        "Cleaned up empty LaTeX blocks"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "polymers-class-12-notes",
+      "fixes": [
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "polynomials-class-10-notes",
+      "fixes": [
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "poverty-unemployment-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Injected auto Table of Contents (7 sections)",
+        "Converted 1 fragmented standalone equations into block math",
+        "Cleaned up empty LaTeX blocks"
+      ],
+      "warnings": [
+        "Missing Practice MCQs section"
+      ],
+      "wasModified": true,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "principle-of-mathematical-induction-class-11-revision-notes-jee",
+      "fixes": [
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "principles-of-inheritance-and-variation-class-12-notes",
+      "fixes": [
+        "Converted 7 fragmented standalone equations into block math",
+        "Removed 1 empty LaTeX blocks",
+        "Cleaned up empty LaTeX blocks",
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "probability-class-11-revision-notes-jee",
+      "fixes": [],
+      "warnings": [
+        "Missing Practice MCQs section"
+      ],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "probability-intro-class-11-revision-notes-jee",
+      "fixes": [
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "quadratic-equations-class-10-notes",
+      "fixes": [
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "quadrilaterals-class-9-notes",
+      "fixes": [
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "rational-numbers-class-8-notes",
+      "fixes": [
+        "Converted 25 fragmented standalone equations into block math",
+        "Removed 5 empty LaTeX blocks",
+        "Cleaned up empty LaTeX blocks",
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "ray-optics-class-12-quick-class-12-revision-notes-jee-neet",
+      "fixes": [
+        "Converted 1 fragmented standalone equations into block math",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Cleaned up empty LaTeX blocks"
+      ],
+      "warnings": [],
+      "wasModified": true,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "real-numbers-class-10-notes",
+      "fixes": [
+        "Converted 8 fragmented standalone equations into block math",
+        "Cleaned up empty LaTeX blocks",
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "redox-reactions-class-11-revision-notes-neet",
+      "fixes": [
+        "Converted 1 fragmented standalone equations into block math",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Cleaned up empty LaTeX blocks"
+      ],
+      "warnings": [],
+      "wasModified": true,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "relations-and-functions-class-11-notes",
+      "fixes": [
+        "Injected auto Table of Contents (9 sections)"
+      ],
+      "warnings": [
+        "Missing Practice MCQs section"
+      ],
+      "wasModified": true,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "relations-functions-class-11-revision-notes-jee-neet",
+      "fixes": [],
+      "warnings": [
+        "Missing Practice MCQs section"
+      ],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "reproduction-in-organisms-class-12-notes",
+      "fixes": [
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "reproductive-health-class-12-notes",
+      "fixes": [
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "rotational-motion-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Converted 2 fragmented standalone equations into block math",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Cleaned up empty LaTeX blocks"
+      ],
+      "warnings": [
+        "Missing Practice MCQs section"
+      ],
+      "wasModified": true,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "semiconductor-electronics-class-12-notes",
+      "fixes": [
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "sequences-series-class-11-revision-notes-jee",
+      "fixes": [],
+      "warnings": [
+        "Missing Practice MCQs section"
+      ],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "sets-class-11-revision-notes-jee-neet",
+      "fixes": [],
+      "warnings": [
+        "Missing Practice MCQs section"
+      ],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "sexual-reproduction-in-flowering-plants-class-12-notes",
+      "fixes": [
+        "Repaired MCQ option formatting (ensured multi-line)"
+      ],
+      "warnings": [],
+      "wasModified": false,
+      "isStrategicRefinement": false
+    },
+    {
+      "slug": "solid-state-class-12-notes",
       "fixes": [
         "Converted 15 fragmented standalone equations into block math",
         "Removed 3 empty LaTeX blocks",
@@ -1352,411 +1392,9 @@
       "isStrategicRefinement": false
     },
     {
-      "slug": "oscillations-class-11-revision-notes-jee-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "pair-of-linear-equations-class-10-notes",
-      "fixes": [
-        "Fixed 4 literal \\\\n escape sequences",
-        "Wrapped naked LaTeX in 8 lines with $ delimiters",
-        "Converted 4 fragmented standalone equations into block math",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Cleaned up empty LaTeX blocks",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "permutations-and-combinations-class-11-revision-notes-jee",
-      "fixes": [
-        "Wrapped naked LaTeX in 1 lines with $ delimiters",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Cleaned up empty LaTeX blocks",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "permutations-combinations-class-11-revision-notes-jee",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "photosynthesis-in-higher-plants-class-11-revision-notes-neet",
-      "fixes": [
-        "Converted 1 fragmented standalone equations into block math",
-        "Cleaned up empty LaTeX blocks"
-      ],
-      "warnings": [
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "physical-world-class-11-revision-notes-jee-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "physics-heat-light-class-11-revision-notes-jee-neet",
-      "fixes": [
-        "Case-normalized 6 LaTeX commands (e.g. \\fRAC → \\frac)",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [
-        "Missing \"Trap Questions\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "physics-mechanics-class-11-revision-notes-jee-neet",
-      "fixes": [
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "planning-in-india-class-11-revision-notes-jee-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "plant-growth-and-development-class-11-revision-notes-neet",
-      "fixes": [
-        "Wrapped naked LaTeX in 3 lines with $ delimiters",
-        "Converted 1 fragmented standalone equations into block math",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Cleaned up empty LaTeX blocks"
-      ],
-      "warnings": [
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "plant-kingdom-class-11-revision-notes-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "polymers-class-12-notes",
-      "fixes": [
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "polynomials-class-10-notes",
-      "fixes": [
-        "Fixed 1 literal \\\\n escape sequences",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "poverty-unemployment-class-11-revision-notes-jee-neet",
-      "fixes": [
-        "Converted 4 fragmented standalone equations into block math",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Cleaned up empty LaTeX blocks",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "principle-of-mathematical-induction-class-11-revision-notes-jee",
-      "fixes": [
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "principles-of-inheritance-and-variation-class-12-notes",
-      "fixes": [
-        "Converted 7 fragmented standalone equations into block math",
-        "Removed 1 empty LaTeX blocks",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Cleaned up empty LaTeX blocks",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [
-        "Missing \"Trap Questions\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "probability-class-11-revision-notes-jee",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "probability-intro-class-11-revision-notes-jee",
-      "fixes": [
-        "Wrapped naked LaTeX in 2 lines with $ delimiters",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Cleaned up empty LaTeX blocks",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "quadratic-equations-class-10-notes",
-      "fixes": [
-        "Fixed 1 literal \\\\n escape sequences",
-        "Case-normalized 9 LaTeX commands (e.g. \\fRAC → \\frac)",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "quadrilaterals-class-9-notes",
-      "fixes": [
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "rational-numbers-class-8-notes",
-      "fixes": [
-        "Fixed 2 literal \\\\n escape sequences",
-        "Converted 22 fragmented standalone equations into block math",
-        "Removed 5 empty LaTeX blocks",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Cleaned up empty LaTeX blocks",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "ray-optics-class-12-quick-class-12-revision-notes-jee-neet",
-      "fixes": [
-        "Wrapped naked LaTeX in 5 lines with $ delimiters",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Cleaned up empty LaTeX blocks"
-      ],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "real-numbers-class-10-notes",
-      "fixes": [
-        "Fixed 6 literal \\\\n escape sequences",
-        "Wrapped naked LaTeX in 3 lines with $ delimiters",
-        "Converted 8 fragmented standalone equations into block math",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Cleaned up empty LaTeX blocks",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "redox-reactions-class-11-revision-notes-neet",
-      "fixes": [
-        "Wrapped naked LaTeX in 5 lines with $ delimiters",
-        "Converted 1 fragmented standalone equations into block math",
-        "Cleaned up empty LaTeX blocks"
-      ],
-      "warnings": [
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "relations-and-functions-class-11-notes",
-      "fixes": [
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "relations-functions-class-11-revision-notes-jee-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "reproduction-in-organisms-class-12-notes",
-      "fixes": [
-        "Fixed 3 literal \\\\n escape sequences",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "reproductive-health-class-12-notes",
-      "fixes": [
-        "Cleaned up empty LaTeX blocks",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "respiration-in-plants-class-11-revision-notes-neet",
-      "fixes": [
-        "Wrapped naked LaTeX in 1 lines with $ delimiters"
-      ],
-      "warnings": [
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "rotational-motion-class-11-revision-notes-jee-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "semiconductor-electronics-class-12-notes",
-      "fixes": [
-        "Case-normalized 9 LaTeX commands (e.g. \\fRAC → \\frac)",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "sequences-series-class-11-revision-notes-jee",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "sets-class-11-revision-notes-jee-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "sexual-reproduction-in-flowering-plants-class-12-notes",
-      "fixes": [
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "solid-state-class-12-notes",
-      "fixes": [
-        "Converted 13 fragmented standalone equations into block math",
-        "Removed 1 kill-list phrases",
-        "Removed 2 empty LaTeX blocks",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Cleaned up empty LaTeX blocks",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
-      "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
       "slug": "solutions-class-12-notes",
       "fixes": [
-        "Case-normalized 6 LaTeX commands (e.g. \\fRAC → \\frac)",
-        "Converted 2 fragmented standalone equations into block math",
+        "Converted 1 fragmented standalone equations into block math",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
@@ -1768,21 +1406,19 @@
     {
       "slug": "some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet",
       "fixes": [
-        "Wrapped naked LaTeX in 2 lines with $ delimiters",
+        "Converted 2 fragmented standalone equations into block math",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Applied LanguageTool academic grammar enhancements",
         "Cleaned up empty LaTeX blocks"
       ],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
+      "warnings": [],
       "wasModified": true,
       "isStrategicRefinement": false
     },
     {
       "slug": "squares-and-square-roots-class-8-notes",
       "fixes": [
-        "Converted 2 fragmented standalone equations into block math",
+        "Converted 1 fragmented standalone equations into block math",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
@@ -1792,55 +1428,36 @@
       "isStrategicRefinement": false
     },
     {
-      "slug": "state-scholarship-guide-2026-class-11-revision-notes-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
       "slug": "states-of-matter-class-11-revision-notes-jee-neet",
       "fixes": [
-        "Wrapped naked LaTeX in 4 lines with $ delimiters",
-        "Converted 1 fragmented standalone equations into block math",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Converted 3 fragmented standalone equations into block math",
         "Cleaned up empty LaTeX blocks"
       ],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
+      "warnings": [],
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "statistics-class-11-revision-notes-jee",
       "fixes": [
-        "Wrapped naked LaTeX in 5 lines with $ delimiters",
         "Converted 3 fragmented standalone equations into block math",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Cleaned up empty LaTeX blocks"
+        "Cleaned up empty LaTeX blocks",
+        "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
         "Missing Practice MCQs section"
       ],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "straight-lines-class-11-revision-notes-jee-neet",
       "fixes": [
         "Converted 1 fragmented standalone equations into block math",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Cleaned up empty LaTeX blocks"
       ],
       "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
         "Missing Practice MCQs section"
       ],
       "wasModified": true,
@@ -1850,49 +1467,21 @@
       "slug": "strategies-for-enhancement-in-food-production-class-12-notes",
       "fixes": [
         "Converted 4 fragmented standalone equations into block math",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "structural-organisation-in-animals-class-11-revision-notes-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "structure-of-atom-class-11-revision-notes-jee-neet",
       "fixes": [
-        "Wrapped naked LaTeX in 5 lines with $ delimiters",
         "Converted 2 fragmented standalone equations into block math",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Cleaned up empty LaTeX blocks"
       ],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "structure-of-the-atom-class-11-revision-notes-neet",
-      "fixes": [
-        "Wrapped naked LaTeX in 1 lines with $ delimiters",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Cleaned up empty LaTeX blocks"
-      ],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
+      "warnings": [],
       "wasModified": true,
       "isStrategicRefinement": false
     },
@@ -1900,17 +1489,14 @@
       "slug": "study-12-hours-daily-tips-class-11-revision-notes-jee-neet",
       "fixes": [],
       "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
         "Missing Practice MCQs section"
       ],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "surface-chemistry-class-12-notes",
       "fixes": [
-        "Case-normalized 7 LaTeX commands (e.g. \\fRAC → \\frac)",
         "Converted 8 fragmented standalone equations into block math",
         "Removed 1 empty LaTeX blocks",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
@@ -1922,102 +1508,50 @@
       "isStrategicRefinement": false
     },
     {
-      "slug": "the-living-world-class-11-revision-notes-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "the-p-block-elements-11-class-11-revision-notes-jee-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
       "slug": "the-s-block-elements-class-11-revision-notes-jee-neet",
       "fixes": [
         "Converted 1 fragmented standalone equations into block math",
         "Cleaned up empty LaTeX blocks"
       ],
-      "warnings": [
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "theory-of-computation-class-12-notes",
-      "fixes": [
-        "Fixed 1 literal \\\\n escape sequences",
-        "Case-normalized 16 LaTeX commands (e.g. \\fRAC → \\frac)",
-        "Converted 2 fragmented standalone equations into block math",
-        "Cleaned up empty LaTeX blocks",
-        "Repaired MCQ option formatting (ensured multi-line)"
-      ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "thermal-properties-of-matter-class-11-revision-notes-jee-neet",
       "fixes": [],
       "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
         "Missing Practice MCQs section"
       ],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "thermodynamics-chemistry-class-11-revision-notes-jee-neet",
       "fixes": [
-        "Case-normalized 102 LaTeX commands (e.g. \\fRAC → \\frac)",
-        "Wrapped naked LaTeX in 1 lines with $ delimiters",
         "Converted 1 fragmented standalone equations into block math",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Cleaned up empty LaTeX blocks"
       ],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section"
-      ],
-      "wasModified": true,
+      "warnings": [],
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "thermodynamics-class-11-revision-notes-neet",
       "fixes": [],
       "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
         "Missing Practice MCQs section"
       ],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "three-dimensional-geometry-class-11-revision-notes-jee-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
-        "Missing Practice MCQs section"
+      "fixes": [
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)"
       ],
-      "wasModified": true,
-      "isStrategicRefinement": false
-    },
-    {
-      "slug": "transport-in-plants-class-11-revision-notes-neet",
-      "fixes": [],
       "warnings": [
-        "Missing \"Last 5 Minutes Box\" section"
+        "Missing Practice MCQs section"
       ],
       "wasModified": true,
       "isStrategicRefinement": false
@@ -2027,24 +1561,26 @@
       "fixes": [
         "Converted 5 fragmented standalone equations into block math",
         "Removed 1 empty LaTeX blocks",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "trigonometric-functions-class-11-revision-notes-jee-neet",
       "fixes": [
-        "Wrapped naked LaTeX in 1 lines with $ delimiters",
-        "Converted 1 fragmented standalone equations into block math",
+        "Injected auto Table of Contents (12 sections)",
+        "Converted 58 fragmented standalone equations into block math",
+        "Removed 30 empty LaTeX blocks",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Cleaned up empty LaTeX blocks",
-        "Repaired MCQ option formatting (ensured multi-line)"
+        "Applied LanguageTool academic grammar enhancements",
+        "Cleaned up empty LaTeX blocks"
       ],
-      "warnings": [],
+      "warnings": [
+        "Missing \"Trap Questions\" section"
+      ],
       "wasModified": true,
       "isStrategicRefinement": false
     },
@@ -2052,40 +1588,33 @@
       "slug": "units-and-measurements-class-11-revision-notes-jee-neet",
       "fixes": [],
       "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
         "Missing Practice MCQs section"
       ],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "upsc-optional-selection-guide-class-11-revision-notes-jee",
       "fixes": [],
       "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
         "Missing Practice MCQs section"
       ],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "upsc-optional-selection-guide",
       "fixes": [
-        "Fixed 1 literal \\\\n escape sequences",
-        "Wrapped naked LaTeX in 2 lines with $ delimiters",
-        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
-        "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
-      "wasModified": true,
+      "wasModified": false,
       "isStrategicRefinement": false
     },
     {
       "slug": "vector-algebra-class-12-notes",
       "fixes": [
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [],
@@ -2095,7 +1624,7 @@
     {
       "slug": "wave-optics-class-12-notes",
       "fixes": [
-        "Converted 10 fragmented standalone equations into block math",
+        "Converted 8 fragmented standalone equations into block math",
         "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
@@ -2107,13 +1636,13 @@
     {
       "slug": "waves-class-11-revision-notes-neet",
       "fixes": [
-        "Converted 1 fragmented standalone equations into block math",
+        "Converted 6 fragmented standalone equations into block math",
+        "Removed 1 empty LaTeX blocks",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
         "Cleaned up empty LaTeX blocks",
         "Repaired MCQ option formatting (ensured multi-line)"
       ],
       "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
         "Missing Practice MCQs section"
       ],
       "wasModified": true,
@@ -2121,10 +1650,12 @@
     },
     {
       "slug": "work-energy-and-power-class-11-revision-notes-neet",
-      "fixes": [],
+      "fixes": [
+        "Converted 1 fragmented standalone equations into block math",
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Cleaned up empty LaTeX blocks"
+      ],
       "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section",
         "Missing Practice MCQs section"
       ],
       "wasModified": true,
@@ -2132,11 +1663,11 @@
     },
     {
       "slug": "world-history-industrial-revolution-class-11-revision-notes-jee-neet",
-      "fixes": [],
-      "warnings": [
-        "Missing \"Trap Questions\" section",
-        "Missing \"Last 5 Minutes Box\" section"
+      "fixes": [
+        "Normalized advanced LaTeX formatting (wrapped raw blocks)",
+        "Cleaned up empty LaTeX blocks"
       ],
+      "warnings": [],
       "wasModified": true,
       "isStrategicRefinement": false
     }

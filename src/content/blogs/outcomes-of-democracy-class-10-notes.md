@@ -147,7 +147,7 @@ eq$, $\approx$, $\propto$, $\uparrow$, $\downarrow$, $\therefore$, $\cap$, $\cup
  *(Self-Correction during drafting)*: The prompt asks for "Every formula the chapter requires." Since there are no math formulas, I will frame "Logical Relations" as "Formulas." This is a standard technique in high-level social science analysis (using propositional logic).
 
  *Example Formula Structure:*
- **Political Accountability Formula:**
+ **[Political](/blog/political-parties-class-10-notes) Accountability Formula:**
  Transparency + Right to Information $\rightarrow$ Accountability
  - Transparency: Availability of government decisions to citizens.
  - Right to Information: Legal mechanism to access data.
@@ -163,7 +163,7 @@ eq$, $\approx$, $\propto$, $\uparrow$, $\downarrow$, $\therefore$, $\cap$, $\cup
  5. Economic Growth Logic (4 formulas)
  6. Wealth Distribution Logic (3 formulas)
  7. Social Equality Logic (4 formulas)
- 8. Dignity/Women's Rights Logic (3 formulas)
+ 8. Dignity/Women's [Rights](/blog/consumer-rights-class-10-notes) Logic (3 formulas)
  9. Conflict Management Logic (3 formulas)
 
  Total: ~30 formulas.
@@ -365,7 +365,7 @@ Political Participation + Legal Rights $\rightarrow$ Women's Dignity
 **The Caste-Conflict Formula:**
 Accommodation of Diversity $\rightarrow$ Reduction in Caste-based Conflict
 
-- Accommodation: Including different castes in the power structure.
+- Accommodation: Including different castes in the [power](/blog/power-sharing-class-10-notes) structure.
 
 - Diversity: The variety of social groups within the nation.
 

@@ -50,7 +50,7 @@ manualReview: false
 -
 A) Asexual [reproduction](/blog/reproduction-in-organisms-class-12-notes) involves two parents, while sexual [reproduction](/blog/reproduction-in-organisms-class-12-notes) involves one parent
 -
-B) Asexual reproduction produces genetically unique offspring, while sexual reproduction produces genetically identical offspring
+B) Asexual [reproduction](/blog/reproduction-in-organisms-class-12-notes) produces genetically unique offspring, while sexual [reproduction](/blog/reproduction-in-organisms-class-12-notes) produces genetically identical offspring
 -
 C) Asexual reproduction involves a single parent, while sexual reproduction involves two parents
 -

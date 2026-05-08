@@ -78,7 +78,7 @@ To master [permutations](/blog/permutations-combinations-class-11-revision-notes
    ### Key Points
    * Permutation is an arrangement of objects in a specific order
    * Combination is a selection of objects without considering the order
-   * Permutations and combinations are used to calculate the number of ways to arrange or select objects from a larger set
+   * [Permutations](/blog/permutations-combinations-class-11-revision-notes-jee) and combinations are used to calculate the number of ways to arrange or select objects from a larger set
 
 ---
 

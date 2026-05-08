@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/digital-logic-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 7, 2026*
+*Last Updated: May 8, 2026*
 
 ## 📑 Table of Contents
 
@@ -299,7 +299,7 @@ How does Boolean Algebra relate to Digital Logic? is a fundamental concept and [
  
  One of the key applications of Boolean Algebra and digital logic is and the [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) of combinational logic circuits. Combinational logic circuits are digital circuits that do not have any feedback loops and whose output depends only on the current inputs. These circuits can be represented using Boolean expressions, which can be simplified using the laws of Boolean Algebra. 
  
- Another important application of Boolean Algebra and digital logic is and the design of sequential logic circuits. Sequential logic circuits are digital circuits that have feedback loops and whose output depends on both the current inputs and the previous outputs. These circuits can be represented using Boolean expressions, which can be simplified using the laws of Boolean Algebra. 
+ Another important application of Boolean Algebra and digital logic is and the [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) of sequential logic circuits. Sequential logic circuits are digital circuits that have feedback loops and whose output depends on both the current inputs and the previous outputs. These circuits can be represented using Boolean expressions, which can be simplified using the laws of Boolean Algebra. 
  
  To understand the relationship between Boolean Algebra and digital logic, it is essential to understand the basic laws of Boolean Algebra. These laws include the commutative law, the associative law, the distributive law, n the complement law. The commutative law states that the order of the variables and a Boolean expression does not affect the result. The associative law states that the order and which the operations are performed does not affect the result. The distributive law states that the result of a Boolean expression can be obtained y distributing the operations over the variables. The complement law states that the complement of a Boolean variable is equal to 1 minus the variable. 
  
@@ -321,7 +321,7 @@ Ayush's Note on Digital Logic is a study guide that provides a detailed explanat
  
  The Boolean algebra is a mathematical system that is used to analyze and simplify digital circuits. It consists of a set of rules and laws that can be applied to manipulate and simplify logical expressions. The laws of Boolean algebra include the commutative law, associative law, n distributive law, among others. These laws can be used to simplify complex logical expressions and to minimize the number of logic gates required to implement a digital circuit.
  
- Combinational circuits are digital circuits that consist of logic gates connected together to perform a specific function. They can be classified into different types, including adders, subtractors, multiplexers, n demultiplexers. Combinational circuits are used and a wide range of applications, including computer processors, digital cameras, n mobile phones.
+ Combinational circuits are digital circuits that consist of logic gates connected together to perform a specific function. They can be classified into different types, including adders, subtractors, multiplexers, n demultiplexers. Combinational circuits are used and a wide range of applications, including [computer](/blog/computer-organization-class-11-notes) processors, digital cameras, n mobile phones.
  
  Sequential circuits, on the other hand, are digital circuits that have a memory element and can store [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards). They consist of logic gates and flip-flops, which are used to store the state of the circuit. Sequential circuits are used and applications such as counters, registers, n microprocessors.
  

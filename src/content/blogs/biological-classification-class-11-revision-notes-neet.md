@@ -83,7 +83,7 @@ By mastering biological [classification](/blog/classification-of-elements-class-
      * Kingdom Animalia: multicellular eukaryotes, e.g. animals 
      * Taxonomic Hierarchy: Kingdom > Phylum > Class > Order > Family > Genus > Species 
      * Binomial Nomenclature: genus + species, e.g. Homo sapiens 
-     * Species: basic unit of classification, group of similar organisms
+     * Species: basic unit of [classification](/blog/classification-of-elements-class-11-revision-notes-jee-neet), group of similar organisms
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Biological%20Classification%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---

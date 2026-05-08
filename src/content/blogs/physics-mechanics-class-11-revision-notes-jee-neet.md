@@ -670,7 +670,7 @@ eq$ center of mass, you must use $I = I_{cm} + Md²$.
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 * Role: Top 1% JEE/NEET ranker.
- * Goal: Create a "Last-Night Revision Format" section "✏️ 3 Solved PYQs" for Physics Mechanics Class 11.
+ * Goal: Create a "Last-Night Revision Format" section "✏️ 3 Solved PYQs" for [Physics](/blog/physics-heat-light-class-11-revision-notes-jee-neet) Mechanics Class 11.
  * Target Audience: JEE/NEET aspirants.
  * Constraints:
  * No introductions/fluff.

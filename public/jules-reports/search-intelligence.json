@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-07T04:50:08.279Z",
+  "generatedAt": "2026-05-08T03:21:15.769Z",
   "dateRange": {
-    "startDate": "2026-04-07",
-    "endDate": "2026-05-07"
+    "startDate": "2026-04-08",
+    "endDate": "2026-05-08"
   },
-  "totalRows": 11,
+  "totalRows": 12,
   "opportunities": 0,
   "globalTopKeywords": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "query": "examcompass.web.app",
-      "impressions": 8,
+      "impressions": 9,
       "clicks": 0
     },
     {
@@ -106,10 +106,10 @@
       "isOpportunity": false
     },
     "https://examcompass.pages.dev/jee-mains/": {
-      "impressions": 6,
+      "impressions": 7,
       "clicks": 0,
       "ctr": 0,
-      "position": 6.3,
+      "position": 5.7,
       "topQueries": [
         {
           "query": "mains foundation compass for all the subjects.",
@@ -124,6 +124,13 @@
           "clicks": 0,
           "ctr": 0,
           "position": 6.5
+        },
+        {
+          "query": "examcompass.web.app",
+          "impressions": 1,
+          "clicks": 0,
+          "ctr": 0,
+          "position": 4
         },
         {
           "query": "how it was built",

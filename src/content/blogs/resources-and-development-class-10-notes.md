@@ -219,7 +219,7 @@ The misconception that most students have about resources and development is tha
 
 - Having a lot of [resources](/blog/management-of-natural-resources-class-10-notes) does not guarantee development, as we can see from the example of many countries that are rich in [resources](/blog/management-of-natural-resources-class-10-notes) but still underdeveloped.
 
-- Development requires the effective use of resources, as well as good governance, institutions, and policies.
+- Development requires the effective use of [resources](/blog/management-of-natural-resources-class-10-notes), as well as good governance, institutions, and policies.
 
 ### <a id="the-reality"></a>The Reality is that $Development = \frac{Resources}{Waste}$. This means that development is not just about having a lot of resources, but also about using them efficiently and minimizing waste.
 
@@ -702,50 +702,50 @@ The key to understanding resources and development is to analyze the population 
 
 **1. The Human Development Index (HDI) is calculated using the formula: $HDI = rac{1}{3} (LIF + ED + IY)$, where $LIF$ is the life expectancy at birth, $ED$ is the expected years of schooling, and $IY$ is the income per capit
 a. What is the maximum value of $IY$ that can be used in the HDI formula?**
-**A)**         $5,000
-**B)**         $50,000
-**C)**         $500,000
-**D)**         $5,000,000
+**A)**          $5,000
+**B)**          $50,000
+**C)**          $500,000
+**D)**          $5,000,000
 
 **Answer:** C) The maximum value of $IY$ should be a value that is considered upper-middle-income. An income of $500,000 is significantly higher than the upper-middle-income range, making it an incorrect option. Options B and D are also incorrect as they are excessively high and would skew the HDI score.
 
 ---
 
 **2. In the context of the Millennium Development Goals (MDGs), which of the following is a target related to the reduction of child mortality?**
-**A)**         Reduce the number of people living in poverty by half
-**B)**         Reduce the number of deaths due to malaria
-**C)**         Reduce the under-five mortality rate by two-thirds
-**D)**         Increase access to clean water and sanitation
+**A)**          Reduce the number of people living in poverty by half
+**B)**          Reduce the number of deaths due to malaria
+**C)**          Reduce the under-five mortality rate by two-thirds
+**D)**          Increase access to clean water and sanitation
 
 **Answer:** C) While options A, B, and D are all related to the MDGs, they are not specifically targets related to the reduction of child mortality. Option C is the correct answer as it is a specific target aimed at reducing the under-five mortality rate by two-thirds.
 
 ---
 
 **3. What is the name of the country with the highest Human Development Index (HDI) value among all countries in the [world](/blog/print-culture-and-the-modern-world-class-10-notes)?**
-**A)**         Norway
-**B)**         Australia
-**C)**         Switzerland
-**D)**         Qatar
+**A)**          Norway
+**B)**          Australia
+**C)**          Switzerland
+**D)**          Qatar
 
 **Answer:** A) Norway consistently ranks high in terms of HDI due to its high life expectancy, education levels, and income per capita. While options B, C, and D are also developed countries, they do not have the highest HDI value. Option D is incorrect as Qatar's HDI value is lower due to its lower life expectancy and education levels.
 
 ---
 
 **4. According to the [World](/blog/print-culture-and-the-modern-world-class-10-notes) Bank, what is the income per capita threshold for a country to be considered a low-income economy?**
-**A)**         $1,000
-**B)**         $1,500
-**C)**         $2,000
-**D)**         $3,000
+**A)**          $1,000
+**B)**          $1,500
+**C)**          $2,000
+**D)**          $3,000
 
 **Answer:** B) A low-income economy is defined by the World Bank as a country with a Gross National Income (GNI) per capita of $1,025 or less. Option A is incorrect as it is below the threshold. Option C is also incorrect as it is above the threshold. Option D is incorrect as it is higher than the threshold.
 
 ---
 
 **5. What is the primary source of funding for the United Nations Development Programme (UNDP)?**
-**A)**         Donations from governments
-**B)**         Earmarked funds from the UN budget
-**C)**         Funding from development banks
-**D)**         A combination of all the above
+**A)**          Donations from governments
+**B)**          Earmarked funds from the UN budget
+**C)**          Funding from development banks
+**D)**          A combination of all the above
 
 **Answer:** D) The UNDP is funded through a combination of sources, including voluntary contributions from governments, earmarked funds from the UN budget, and funding from development banks. While options A, B, and C are all sources of funding for the UNDP, option D is the correct answer as it is the most comprehensive option.
 

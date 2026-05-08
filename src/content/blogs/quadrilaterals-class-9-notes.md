@@ -40,7 +40,7 @@ manualReview: false
 
  
 ## 🧠 The One Thing Most Students Get Wrong
-- The difference between a rectangle and a rhombus. A rectangle has all angles equal to 90°, while a rhombus has all sides equal.
+- The difference between a rectangle and a rhombus. A rectangle has all [angles](/blog/lines-and-angles-class-9-notes) equal to 90°, while a rhombus has all sides equal.
 
  
 ## 👁️ Ayush's Note

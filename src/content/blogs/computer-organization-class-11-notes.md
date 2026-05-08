@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/computer-organization-class-11-notes"
 ---
 
-*Last Updated: May 7, 2026*
+*Last Updated: May 8, 2026*
 
 ## 📑 Table of Contents
 
@@ -187,7 +187,7 @@ How does the Memory Hierarchy Work and Computer Organization? is a hierarchical 
 
  To optimize the performance of the memory hierarchy, computer architects use various techniques such as cache line size, block size, n mapping [functions](/blog/relations-and-functions-class-11-notes). The cache line size is the number of bytes that are transferred between the cache memory and the main memory. The block size is the number of words that are stored together and the cache memory. The mapping function determines how the cache memory is organized and how the blocks are mapped to specific locations.
 
- Here's a student-centric tip: to understand the memory hierarchy, try to visualize it as a series of concentric circles, with the cache memory at the center and the virtual memory at the outermost circle. This will help you to understand how the different levels of the hierarchy interact with each other and how the data and instructions flow through the system.
+ Here's a student-centric tip: to understand the memory hierarchy, try to visualize it as a series of concentric circles, with the cache memory at the center and the virtual memory at the outermost circle. This will help you to understand how the different levels of the hierarchy interact with each other and how the [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) and instructions flow through the system.
 
  In terms of exam prep, it's essential to understand the different types of cache mapping techniques, such as direct mapping, indirect mapping, n associative mapping. You should also be familiar with the concepts of cache hit ratio, cache miss ratio, n average memory access time. These concepts are critical and evaluating the performance of the memory hierarchy and optimizing its [design](/blog/algorithms-design-class-11-revision-notes-gate-boards).
 

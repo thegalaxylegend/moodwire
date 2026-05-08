@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/electromagnetic-induction-class-12-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 7, 2026*
+*Last Updated: May 8, 2026*
 
 ## 📑 Table of Contents
 
@@ -228,7 +228,7 @@ Electromagnetic Induction is a fundamental concept and physics where an electric
 
 - Faraday's Law states that the induced electromotive force is proportional to the rate of change of magnetic flux.
 - Lenz's Law states that the direction of the induced [current](/blog/alternating-current-class-12-notes) is such that it opposes the change and magnetic flux.
-- The electromagnetic induction can be observed and a coil rotating and a magnetic field.
+- The electromagnetic [induction](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) can be observed and a coil rotating and a magnetic field.
 - The induced [current](/blog/alternating-current-class-12-notes) and a conductor is zero if the conductor is stationary and there is no change and the magnetic field.
 - Transformers are used to increase or decrease the voltage of an AC circuit.
 - Generators use electromagnetic induction to convert mechanical energy into electrical energy.
@@ -260,7 +260,7 @@ Potential energy
 
 **Answer:**
 A) A generator uses the principle of electromagnetic induction to convert mechanical energy into electrical energy.
-**4. The direction of the induced current and a conductor is determined y:**
+**4. The direction of the induced [current](/blog/alternating-current-class-12-notes) and a conductor is determined y:**
 Right-hand rule
 Left-hand rule
 Lenz's Law

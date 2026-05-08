@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/data-structures-non-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 7, 2026*
+*Last Updated: May 8, 2026*
 
 ## 📑 Table of Contents
 
@@ -233,7 +233,7 @@ How to optimize the performance of Non-Linear [Data](/blog/data-structures-linea
    The $O(n)$ notation is used to express the time complexity of an algorithm, where $n$ is the number of inputs. The $O(1)$ notation is used to express constant time complexity. 
    For example, if we have a tree with $n$ nodes, and we want to search for a specific node, the time complexity would be $O(n)$ n the worst case scenario if we were to traverse the tree linearly. However, if we use a hash table to store the nodes, the time complexity would be $O(1)$, making it much more efficient. 
    Another key aspect of optimization is the use of recursive functions. Recursive functions can be used to traverse trees and graphs, but they can also lead to a stack overflow if not used carefully. 
-   To avoid a stack overflow, it's essential to use iterative functions instead of recursive functions. Iterative functions use a loop to traverse the data structure, which is more efficient and less prone to errors. 
+   To avoid a stack overflow, it's essential to use iterative functions instead of recursive functions. Iterative functions use a loop to traverse the [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structure, which is more efficient and less prone to errors. 
    In addition to understanding time and space complexity, it's also essential to understand the different types of non-linear data structures and their use cases. For example, a binary search tree is a type of tree that is used for efficient searching, inserting, n deleting nodes. 
    A heap is a type of tree that is used for efficient sorting and priority queuing. 
    The choice of data structure depends on the specific problem and the requirements of the program. 

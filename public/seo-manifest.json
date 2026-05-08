@@ -999,6 +999,17 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/from-the-diary-of-anne-frank-class-10-notes": {
+    "title": "From the Diary of Anne Frank Class 10 English Recap — Grandmaster Guide",
+    "description": "From the Diary of Anne Frank Class 10 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-08.",
+    "date": "2026-05-08",
+    "category": "Exam Notes",
+    "h1": "From the Diary of Anne Frank Class 10 English Recap — Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/fundamental-rights-class-11-revision-notes-cbse": {
     "title": "Fundamental Rights Class 11 Political Science Recap — CBSE 2026 Grandmaster Guide",
     "description": "Fundamental Rights Class 11 Political Science Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
@@ -1709,6 +1720,17 @@
     "date": "2026-03-28",
     "category": "Revision",
     "h1": "Neet Biology 80 20 Rule Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/nelson-mandela-long-walk-to-freedom-class-10-notes": {
+    "title": "Nelson Mandela: Long Walk to Freedom Class 10 English Recap — Grandmaster Guide",
+    "description": "Nelson Mandela: Long Walk to Freedom Class 10 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-08.",
+    "date": "2026-05-08",
+    "category": "Exam Notes",
+    "h1": "Nelson Mandela: Long Walk to Freedom Class 10 English Recap — Grandmaster Guide",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",
@@ -2556,6 +2578,17 @@
     "date": "2026-05-06",
     "category": "Exam Notes",
     "h1": "Trigonometric Functions Class 11 Revision Notes JEE NEET — Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/two-stories-about-flying-class-10-notes": {
+    "title": "Two Stories about Flying Class 10 English Recap — Grandmaster Guide",
+    "description": "Two Stories about Flying Class 10 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-08.",
+    "date": "2026-05-08",
+    "category": "Exam Notes",
+    "h1": "Two Stories about Flying Class 10 English Recap — Grandmaster Guide",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",
@@ -5463,6 +5496,16 @@
     "sitemapGroup": null
   },
   "/jee-mains/q/practice-question-gohh1rnfgiety9v1mwxz": {
+    "title": "Q: Practice Question... | JEE MAINS Practice",
+    "description": "Detailed solution for Chemistry question: Practice Question... Prepare for JEE MAINS.",
+    "h1": "Practice Question",
+    "type": "question",
+    "priority": 0.5,
+    "canonicalExam": "jee-mains",
+    "robots": "noindex, follow",
+    "sitemapGroup": null
+  },
+  "/jee-mains/q/practice-question-hrxuihjnjlkgm5mr3f3l": {
     "title": "Q: Practice Question... | JEE MAINS Practice",
     "description": "Detailed solution for Chemistry question: Practice Question... Prepare for JEE MAINS.",
     "h1": "Practice Question",
@@ -13524,6 +13567,16 @@
     "robots": "noindex, follow",
     "sitemapGroup": null
   },
+  "/jee-advanced/q/practice-question-hrxuihjnjlkgm5mr3f3l": {
+    "title": "Q: Practice Question... | JEE ADVANCED Practice",
+    "description": "Detailed solution for Chemistry question: Practice Question... Prepare for JEE ADVANCED.",
+    "h1": "Practice Question",
+    "type": "question",
+    "priority": 0.5,
+    "canonicalExam": "jee-mains",
+    "robots": "noindex, follow",
+    "sitemapGroup": null
+  },
   "/jee-advanced/q/practice-question-hvihtrrz9bm0lrcswwia": {
     "title": "Q: Practice Question... | JEE ADVANCED Practice",
     "description": "Detailed solution for Physics question: Practice Question... Prepare for JEE ADVANCED.",
@@ -21576,6 +21629,16 @@
     "robots": "noindex, follow",
     "sitemapGroup": null
   },
+  "/jee/q/practice-question-hrxuihjnjlkgm5mr3f3l": {
+    "title": "Q: Practice Question... | JEE Practice",
+    "description": "Detailed solution for Chemistry question: Practice Question... Prepare for JEE.",
+    "h1": "Practice Question",
+    "type": "question",
+    "priority": 0.5,
+    "canonicalExam": "jee-mains",
+    "robots": "noindex, follow",
+    "sitemapGroup": null
+  },
   "/jee/q/practice-question-hvihtrrz9bm0lrcswwia": {
     "title": "Q: Practice Question... | JEE Practice",
     "description": "Detailed solution for Physics question: Practice Question... Prepare for JEE.",
@@ -29069,6 +29132,16 @@
     "robots": "noindex, follow",
     "sitemapGroup": null
   },
+  "/neet/q/practice-question-hrxuihjnjlkgm5mr3f3l": {
+    "title": "Q: Practice Question... | NEET Practice",
+    "description": "Detailed solution for Chemistry question: Practice Question... Prepare for NEET.",
+    "h1": "Practice Question",
+    "type": "question",
+    "priority": 0.5,
+    "canonicalExam": "jee-mains",
+    "robots": "noindex, follow",
+    "sitemapGroup": null
+  },
   "/neet/q/practice-question-hvihtrrz9bm0lrcswwia": {
     "title": "Q: Practice Question... | NEET Practice",
     "description": "Detailed solution for Physics question: Practice Question... Prepare for NEET.",
@@ -35679,6 +35752,16 @@
     "type": "question",
     "priority": 0.5,
     "canonicalExam": "neet",
+    "robots": "noindex, follow",
+    "sitemapGroup": null
+  },
+  "/medical/q/practice-question-hrxuihjnjlkgm5mr3f3l": {
+    "title": "Q: Practice Question... | MEDICAL Practice",
+    "description": "Detailed solution for Chemistry question: Practice Question... Prepare for MEDICAL.",
+    "h1": "Practice Question",
+    "type": "question",
+    "priority": 0.5,
+    "canonicalExam": "jee-mains",
     "robots": "noindex, follow",
     "sitemapGroup": null
   },
@@ -43608,6 +43691,16 @@
     "type": "question",
     "priority": 0.5,
     "canonicalExam": "neet",
+    "robots": "noindex, follow",
+    "sitemapGroup": null
+  },
+  "/class-12/q/practice-question-hrxuihjnjlkgm5mr3f3l": {
+    "title": "Q: Practice Question... | CLASS 12 Practice",
+    "description": "Detailed solution for Chemistry question: Practice Question... Prepare for CLASS 12.",
+    "h1": "Practice Question",
+    "type": "question",
+    "priority": 0.5,
+    "canonicalExam": "jee-mains",
     "robots": "noindex, follow",
     "sitemapGroup": null
   },
@@ -53317,6 +53410,16 @@
     "type": "question",
     "priority": 0.5,
     "canonicalExam": "neet",
+    "robots": "noindex, follow",
+    "sitemapGroup": null
+  },
+  "/class-11/q/practice-question-hrxuihjnjlkgm5mr3f3l": {
+    "title": "Q: Practice Question... | CLASS 11 Practice",
+    "description": "Detailed solution for Chemistry question: Practice Question... Prepare for CLASS 11.",
+    "h1": "Practice Question",
+    "type": "question",
+    "priority": 0.5,
+    "canonicalExam": "jee-mains",
     "robots": "noindex, follow",
     "sitemapGroup": null
   },
@@ -65776,6 +65879,16 @@
     "type": "question",
     "priority": 0.5,
     "canonicalExam": "neet",
+    "robots": "noindex, follow",
+    "sitemapGroup": null
+  },
+  "/class-10/q/practice-question-hrxuihjnjlkgm5mr3f3l": {
+    "title": "Q: Practice Question... | CLASS 10 Practice",
+    "description": "Detailed solution for Chemistry question: Practice Question... Prepare for CLASS 10.",
+    "h1": "Practice Question",
+    "type": "question",
+    "priority": 0.5,
+    "canonicalExam": "jee-mains",
     "robots": "noindex, follow",
     "sitemapGroup": null
   },
@@ -83468,6 +83581,16 @@
     "robots": "noindex, follow",
     "sitemapGroup": null
   },
+  "/class-9/q/practice-question-hrxuihjnjlkgm5mr3f3l": {
+    "title": "Q: Practice Question... | CLASS 9 Practice",
+    "description": "Detailed solution for Chemistry question: Practice Question... Prepare for CLASS 9.",
+    "h1": "Practice Question",
+    "type": "question",
+    "priority": 0.5,
+    "canonicalExam": "jee-mains",
+    "robots": "noindex, follow",
+    "sitemapGroup": null
+  },
   "/class-9/q/practice-question-hryqjfmpo6vcqfwhmfzd": {
     "title": "Q: Practice Question... | CLASS 9 Practice",
     "description": "Detailed solution for Computer Science question: Practice Question... Prepare for CLASS 9.",
@@ -101157,6 +101280,16 @@
     "robots": "noindex, follow",
     "sitemapGroup": null
   },
+  "/class-8/q/practice-question-hrxuihjnjlkgm5mr3f3l": {
+    "title": "Q: Practice Question... | CLASS 8 Practice",
+    "description": "Detailed solution for Chemistry question: Practice Question... Prepare for CLASS 8.",
+    "h1": "Practice Question",
+    "type": "question",
+    "priority": 0.5,
+    "canonicalExam": "jee-mains",
+    "robots": "noindex, follow",
+    "sitemapGroup": null
+  },
   "/class-8/q/practice-question-hryqjfmpo6vcqfwhmfzd": {
     "title": "Q: Practice Question... | CLASS 8 Practice",
     "description": "Detailed solution for Computer Science question: Practice Question... Prepare for CLASS 8.",
@@ -116096,6 +116229,16 @@
     "robots": "noindex, follow",
     "sitemapGroup": null
   },
+  "/boards/q/practice-question-hrxuihjnjlkgm5mr3f3l": {
+    "title": "Q: Practice Question... | BOARDS Practice",
+    "description": "Detailed solution for Chemistry question: Practice Question... Prepare for BOARDS.",
+    "h1": "Practice Question",
+    "type": "question",
+    "priority": 0.5,
+    "canonicalExam": "jee-mains",
+    "robots": "noindex, follow",
+    "sitemapGroup": null
+  },
   "/boards/q/practice-question-hvihtrrz9bm0lrcswwia": {
     "title": "Q: Practice Question... | BOARDS Practice",
     "description": "Detailed solution for Physics question: Practice Question... Prepare for BOARDS.",
@@ -125827,6 +125970,16 @@
     "type": "question",
     "priority": 0.5,
     "canonicalExam": "class-10",
+    "robots": "noindex, follow",
+    "sitemapGroup": null
+  },
+  "/cuet/q/practice-question-hrxuihjnjlkgm5mr3f3l": {
+    "title": "Q: Practice Question... | CUET Practice",
+    "description": "Detailed solution for Chemistry question: Practice Question... Prepare for CUET.",
+    "h1": "Practice Question",
+    "type": "question",
+    "priority": 0.5,
+    "canonicalExam": "jee-mains",
     "robots": "noindex, follow",
     "sitemapGroup": null
   },

@@ -105,7 +105,7 @@ No LaTeX (Use Unicode). No intro/outro. No fluff. Bullet points. Tables.
  *Metric 14: Secondary Sector Output*
  Secondary Output = [Manufacturing](/blog/manufacturing-industries-class-10-notes) Value + Industrial Value
 
- *Metric 15: Total National Income*
+ *Metric 15: Total [National](/blog/lifelines-of-national-economy-class-10-notes) Income*
  Total Income = Sum of all Sectoral Values (Primary + Secondary + Tertiary)
 
  *Metric 16: Productivity of Labor*
@@ -249,7 +249,7 @@ No LaTeX (Use Unicode). No intro/outro. No fluff. Bullet points. Tables.
  *Wait, looking closer:* The prompt says "MATH & SYMBOL RULES (ZERO TOLERANCE)" twice. Once in the general instructions and once in the "OUTPUT FORMAT RULES". The second one is extremely specific about NOT using LaTeX and NOT using $ delimiters. I will follow the "ZERO TOLERANCE" rule: No LaTeX, No $, just Unicode.
 
  *Final Content Check:*
- - Topic: Sectors of the Indian Economy.
+ - Topic: Sectors of the [Indian](/blog/globalisation-and-the-indian-economy-class-10-notes) Economy.
  - Content: Calculation logic, metrics, and comparative ratios.
  - Format: Bullet points, Tables, Examiner's Traps.
 
@@ -577,7 +577,7 @@ Last-Night Revision Format (No filler, no intro, no fluff).
 - 🔴 **What students write:** "Processing raw materials like sugarcane into sugar is part of the Primary sector because it comes from agriculture."
  
 
-- ✅ **What examiners expect:** "The extraction of natural resources is Primary. The process of converting these natural products into other forms through manufacturing (e.g.
+- ✅ **What examiners expect:** "The extraction of natural [resources](/blog/forest-and-wildlife-resources-class-10-notes) is Primary. The process of converting these natural products into other forms through manufacturing (e.g.
 
 - sugarcane to sugar) belongs to the Secondary sector."
  
@@ -1361,50 +1361,50 @@ India's economy shows a structural mismatch where the Tertiary sector dominates 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. In a hypothetical village, if the Primary Sector contributes $5000$ units, the Secondary Sector $3000$ units, and the Tertiary Sector $2000$ units to the total GDP, what is the percentage share of the Tertiary Sector?**
-**A)**    20%
-**B)**    25%
-**C)**    30%
-**D)**    33.3%
+**A)**     20%
+**B)**     25%
+**C)**     30%
+**D)**     33.3%
 
 **Answer:** A) The total GDP is $5000 + 3000 + 2000 = 10000$. The Tertiary share is $(2000 / 10000) \times 100 = 20\%$. Option B is wrong because $25\%$ would require $2500$ units. Option C is wrong because $30\%$ would require $3000$ units. Option D is wrong because $33.3\%$ would require $3333$ units.
 
 ---
 
 **2. Which of the following best describes the 'disguised unemployment' situation often found in the agricultural sector of India?**
-**A)**    Workers are absent from work due to seasonal changes in crops.
-**B)**    More people are working in a field than are actually required for production.
-**C)**    Workers are highly skilled but cannot find jobs in the industrial sector.
-**D)**    Workers are paid less than the minimum wage set by the government.
+**A)**     Workers are absent from work due to seasonal changes in crops.
+**B)**     More people are working in a field than are actually required for production.
+**C)**     Workers are highly skilled but cannot find jobs in the industrial sector.
+**D)**     Workers are paid less than the minimum wage set by the government.
 
 **Answer:** B) Disguised unemployment occurs when the marginal productivity of labor is zero, meaning even if some people are removed, production remains the same. Option A describes seasonal unemployment. Option C describes structural unemployment. Option D describes exploitation/underemployment in terms of wages, not labor quantity.
 
 ---
 
 **3. If a country's GDP is increasing but the employment share in the Tertiary sector is not increasing proportionally, what does this indicate about the nature of economic growth?**
-**A)**    Employment is growing faster than GDP.
-**B)**    The economy is experiencing jobless growth.
-**C)**    The Primary sector is becoming the dominant sector.
-**D)**    The Secondary sector is failing to contribute to GDP.
+**A)**     Employment is growing faster than GDP.
+**B)**     The economy is experiencing jobless growth.
+**C)**     The Primary sector is becoming the dominant sector.
+**D)**     The Secondary sector is failing to contribute to GDP.
 
 **Answer:** B) Jobless growth occurs when the economy grows (GDP rises) but does not create enough jobs to keep pace. Option A is mathematically impossible if employment share lags. Option C is incorrect as the Tertiary sector is growing in value. Option D is an assumption not supported by the data provided.
 
 ---
 
 **4. Identify the correct relationship between the sectors regarding the flow of goods and services: A farmer produces wheat (X), a factory turns it into flour (Y), and a shopkeeper sells it to a consumer (Z). Which sequence represents the correct sectoral transition?**
-**A)**    X (Tertiary) → Y (Primary) → Z (Secondary)
-**B)**    X (Secondary) → Y (Tertiary) → Z (Primary)
-**C)**    X (Primary) → Y (Secondary) → Z (Tertiary)
-**D)**    X (Primary) → Y (Tertiary) → Z (Secondary)
+**A)**     X (Tertiary) → Y (Primary) → Z (Secondary)
+**B)**     X (Secondary) → Y (Tertiary) → Z (Primary)
+**C)**     X (Primary) → Y (Secondary) → Z (Tertiary)
+**D)**     X (Primary) → Y (Tertiary) → Z (Secondary)
 
 **Answer:** C) Wheat is a natural resource (Primary), flour is a manufactured good (Secondary), and selling/distribution is a service (Tertiary). Option A, B, and D all misclassify the fundamental nature of the production stages.
 
 ---
 
 **5. A worker in the organized sector receives paid leave, medical benefits, and fixed working hours. If this same worker were moved to the unorganized sector, which of the following would most likely change?**
-**A)**    The worker would gain job security and regular wages.
-**B)**    The worker would lose social security benefits and face irregular work.
-**C)**    The worker would move from a low-productivity to a high-productivity role.
-**D)**    The worker would be exempt from government labor laws.
+**A)**     The worker would gain job security and regular wages.
+**B)**     The worker would lose social security benefits and face irregular work.
+**C)**     The worker would move from a low-productivity to a high-productivity role.
+**D)**     The worker would be exempt from government labor laws.
 
 **Answer:** B) The unorganized sector is characterized by low wages, no job security, and no benefits. Option A is the opposite of the truth. Option C is incorrect as unorganized work is typically low-productivity. Option D is incorrect because while laws are often not enforced, the worker is not 'exempt' by right; they are simply exploited.
 

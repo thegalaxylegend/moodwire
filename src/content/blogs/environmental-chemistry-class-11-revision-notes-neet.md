@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/environmental-chemistry-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 7, 2026*
+*Last Updated: May 8, 2026*
 
 ## 📑 Table of Contents
 
@@ -205,7 +205,7 @@ Continue your [revision](/blog/plant-growth-and-development-class-11-revision-no
   + **Global Warming Potential (GWP)**: GWP = (Σ[Qi xi]) / (Σ[To to])
   + **Pollution Standards Index (PSI)**: PSI = (Io / Is) x 100
   + **BOD (Biochemical Oxygen Demand)**: BOD = (Do - DF) / (1 + (an x t))
-* **Key Terms**: Biomagnification, Biodegradable, Non-biodegradable, Persistent Organic Pollutants (Pops)
+* **Key Terms**: Biomagnification, Biodegradable, Non-biodegradable, Persistent [Organic](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) Pollutants (Pops)
 ## ⚗️ Chemical Quick Reference (Verified via PubChem)
 
 | Compound | Formula | MOL. Weight | Source |

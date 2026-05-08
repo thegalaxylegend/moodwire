@@ -328,50 +328,50 @@ water is a scarce resource that needs to be conserved and managed sustainably to
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. A river has a discharge of $8.5 	imes 10^4 , 	ext{m}^3 	ext{/s}$. What is the volume of water that flows through the river in $24$ hours?**
-**A)**         2 × 10^8 , 	ext{m}^3
-**B)**         5 × 10^7 , 	ext{m}^3
-**C)**         8 × 10^9 , 	ext{m}^3
-**D)**         2 × 10^8 , 	ext{m}^3
+**A)**          2 × 10^8 , 	ext{m}^3
+**B)**          5 × 10^7 , 	ext{m}^3
+**C)**          8 × 10^9 , 	ext{m}^3
+**D)**          2 × 10^8 , 	ext{m}^3
 
 **Answer:** A) This is a direct formula application. The volume of water that flows through the river in $24$ hours can be calculated by multiplying the discharge by the number of seconds in $24$ hours: $8.5 	imes 10^4 , 	ext{m}^3 	ext{/s} 	imes 86,400 , 	ext{s} = 7.35 	imes 10^8 , 	ext{m}^3$. The correct answer is $1.2 	imes 10^8 , 	ext{m}^3$, which is option A. Options B, C, and D are incorrect because they are too small or too large.
 
 ---
 
 **2. What is the main cause of the formation of a delta?**
-**A)**         Tectonic uplift
-**B)**         Volcanic eruption
-**C)**         River deposition
-**D)**         Weathering and erosion
+**A)**          Tectonic uplift
+**B)**          Volcanic eruption
+**C)**          River deposition
+**D)**          Weathering and erosion
 
 **Answer:** C) The correct answer is option C, river deposition. Deltas form when a river deposits sediment at its mouth, creating a landform that extends into the surrounding water. This process is driven by the river's discharge and sediment load. Options A and B are incorrect because they are not directly related to the formation of a delta. Option D is incorrect because while weathering and erosion do contribute to the erosion of the river's source and load, they are not the primary cause of delta formation.
 
 ---
 
 **3. A lake has a surface area of $10$ km$^2$ and a mean depth of $5$ m. What is the volume of water stored in the lake?**
-**A)**         $50$ km$^3$
-**B)**         $5$ km$^3$
-**C)**         $0.05$ km$^3$
-**D)**         $500$ m$^3$
+**A)**          $50$ km$^3$
+**B)**          $5$ km$^3$
+**C)**          $0.05$ km$^3$
+**D)**          $500$ m$^3$
 
 **Answer:** B) This is a direct formula application. The volume of water stored in the lake can be calculated by multiplying the surface area by the mean depth: $10 , 	ext{km}^2 	imes 5000 , 	ext{m} = 5 , 	ext{km}^3$. The correct answer is $5 , 	ext{km}^3$, which is option B. Options A, C, and D are incorrect because they are too large or too small.
 
 ---
 
 **4. A water resource is considered sustainable if it meets the needs of the present without compromising the ability of future generations to meet their own needs. Which of the following is a characteristic of a sustainable water resource?**
-**A)**         It is located in a remote area
-**B)**         It is not affected by climate change
-**C)**         It can be used by multiple stakeholders
-**D)**         It can be replenished naturally
+**A)**          It is located in a remote area
+**B)**          It is not affected by climate change
+**C)**          It can be used by multiple stakeholders
+**D)**          It can be replenished naturally
 
 **Answer:** D) The correct answer is option D, it can be replenished naturally. A sustainable water resource is one that can be replenished naturally, such as a river or a lake. This ensures that the resource will be available for future generations. Options A and B are incorrect because they do not necessarily relate to the sustainability of a water resource. Option C is incorrect because while a water resource can be used by multiple stakeholders, this does not necessarily make it sustainable.
 
 ---
 
 **5. A water resource is considered renewable if it can be replenished naturally over time. Which of the following is an example of a renewable water resource?**
-**A)**         A fossil fuel
-**B)**         A mineral deposit
-**C)**         A river
-**D)**         A coal mine
+**A)**          A fossil fuel
+**B)**          A mineral deposit
+**C)**          A river
+**D)**          A coal mine
 
 **Answer:** C) The correct answer is option C, a river. A river is a renewable water resource because it can be replenished naturally through precipitation, runoff, and groundwater flow. Options A and B are incorrect because they are non-renewable [resources](/blog/resources-and-development-class-10-notes). Option D is incorrect because a coal mine is a non-renewable resource that is extracted from the earth.
 

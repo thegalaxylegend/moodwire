@@ -295,7 +295,7 @@ JEE/NEET Top 1% Ranker (Strict, data-driven, no fluff).
 
 - Efficiency in terms of work: η = W_net / Q_in
 
-**Examiner's Trap:** Sign convention is the #1 error. In Physics/JEE: Work done *by* the gas is (+) and work done *on* the gas is (-). In Chemistry: Work done *on* the gas is (+). Stick to the Physics convention for JEE/NEET. For adiabatic processes, remember that Q = 0.
+**Examiner's Trap:** Sign convention is the #1 error. In [Physics](/blog/physics-mechanics-class-11-revision-notes-jee-neet)/JEE: Work done *by* the gas is (+) and work done *on* the gas is (-). In Chemistry: Work done *on* the gas is (+). Stick to the [Physics](/blog/physics-mechanics-class-11-revision-notes-jee-neet) convention for JEE/NEET. For adiabatic processes, remember that Q = 0.
 
 ### <a id="kinetic-theory-of-gases-kgt"></a>Kinetic Theory of Gases (KGT)
 

@@ -61,7 +61,7 @@ manualReview: false
 - Lensmaker's formula: 1/f = (μ - 1)(1/R₁ - 1/R₂)
 
 ## 📝 Practice MCQs
-**1. What is the speed of light ∈ vacuum?**
+**1. What is the speed of [light](/blog/physics-heat-light-class-11-revision-notes-jee-neet) ∈ vacuum?**
 -
 A) 2 × 10⁸ m/s
 -
