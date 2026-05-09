@@ -64,7 +64,7 @@ There are also several types of [functions](/blog/relations-functions-class-11-r
 
 ## 🔁 Last 5 Minutes Box
 
-- **Types of Relations**: Reflexive, Symmetric, Transitive, Equivalence Relations
+- **Types of [Relations](/blog/relations-functions-class-11-revision-notes-jee-neet)**: Reflexive, Symmetric, Transitive, Equivalence [Relations](/blog/relations-functions-class-11-revision-notes-jee-neet)
 
     - **Domain, Co-domain, Range of a Function**: Domain (x-values), Co-domain (possible y-values), Range (actual y-values)
 

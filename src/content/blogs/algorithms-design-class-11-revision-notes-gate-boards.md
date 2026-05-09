@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/algorithms-design-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 8, 2026*
+*Last Updated: May 9, 2026*
 
 ## 📑 Table of Contents
 
@@ -336,7 +336,7 @@ How do you evaluate the Trade-offs between Algorithmic Approaches? is a critical
    
    Another important aspect is understanding the trade-offs between different [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures, such as arrays, linked lists, stacks, n queues. Each [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structure has its own strengths and weaknesses, n choosing the right one can greatly impact the efficiency of an algorithm. 
    
-   When evaluating trade-offs, it's also important to consider the scalability of an algorithm. An algorithm that is efficient for small inputs may become impractically slow for large inputs. This is where techniques such as divide and conquer, dynamic programming, n greedy algorithms come into play. 
+   When evaluating trade-offs, it's also important to consider the scalability of an algorithm. An algorithm that is efficient for small inputs may become impractically slow for large inputs. This is where techniques such as divide and conquer, dynamic programming, n greedy [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) come into play. 
    
    The following table summarizes some common algorithmic approaches and their trade-offs:
    

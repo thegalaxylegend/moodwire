@@ -1,0 +1,35 @@
+{
+  "date": "2026-04-26",
+  "targetYear": 2026,
+  "summary": {
+    "fresh": 211,
+    "updated": 2,
+    "needsRegen": 0,
+    "total": 213
+  },
+  "needsRegeneration": [],
+  "details": [
+    {
+      "file": "biodiversity-and-conservation-class-12-notes.md",
+      "slug": "biodiversity-and-conservation-class-12-notes",
+      "status": "updated",
+      "changes": [
+        "Body text year references updated (LaTeX-protected)"
+      ],
+      "yearUpdates": 1,
+      "lastUpdatedAge": 6,
+      "wordCount": 973
+    },
+    {
+      "file": "trigonometric-functions-class-11-revision-notes-jee-neet.md",
+      "slug": "trigonometric-functions-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Body text year references updated (LaTeX-protected)"
+      ],
+      "yearUpdates": 1,
+      "lastUpdatedAge": 4,
+      "wordCount": 1453
+    }
+  ]
+}

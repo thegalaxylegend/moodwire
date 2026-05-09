@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/the-p-block-elements-11-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 8, 2026*
+*Last Updated: May 9, 2026*
 
 ## 📑 Table of Contents
 
@@ -197,7 +197,7 @@ Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-n
    * **Group 16 [Elements](/blog/the-s-block-elements-class-11-revision-notes-jee-neet)**: Chalcogens, electronic configuration: **ns²np⁴**
    * **Group 17 [Elements](/blog/the-s-block-elements-class-11-revision-notes-jee-neet)**: Halogens, electronic configuration: **ns²np⁵**
    * **Group 18 [Elements](/blog/the-s-block-elements-class-11-revision-notes-jee-neet)**: Noble gases, electronic configuration: **ns²np⁶**
-   * **Properties of P Block Elements**:
+   * **Properties of P [Block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) Elements**:
      + Ionization energy increases across a period
      + Electron affinity increases across a period
      + Metallic character decreases across a period

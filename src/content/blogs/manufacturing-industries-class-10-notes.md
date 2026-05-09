@@ -84,7 +84,7 @@ Examiner's Trap: Students often confuse the manufacturing sector's direct GDP co
  * **Heavy Industries:** (Raw Materials & Finished Goods) = Heavy and bulky (e.g., Iron & Steel, Cement).
  * **Light Industries:** (Raw Materials & Finished Goods) = Light (e.g., Electrical goods, Toys).
 
-Examiner's Trap: Mixing up the examples for each classification type, especially between basic and consumer industries or public and private sectors.
+Examiner's Trap: Mixing up the examples for each classification type, especially between basic and [consumer](/blog/consumer-rights-class-10-notes) industries or public and private sectors.
 
 ### <a id="industrial-location-determinants"></a>Industrial Location Determinants
 
@@ -196,7 +196,7 @@ Examiner's Trap: Providing generic solutions instead of specific technological o
 | Explaining India's economic progress | Importance of Manufacturing Sector Metrics | Economic Contribution Formula, Employment Generation Multiplier, Poverty Alleviation Mechanism, International Trade Linkage, Development Indicator Principle |
 | Categorising industries or giving examples | Industrial Classification Frameworks | Raw Material Basis Formula, Main Role Basis Formula, Capital Investment Basis Formula, Ownership Basis Formula, Weight of Raw Materials/Finished Goods Basis Formula |
 | Analysing why an industry is located in a specific area | Industrial Location Determinants | Optimal Location Equation, Government Policy Influence Formula, Agglomeration Economies Principle, Industrial-Urban Linkage Cycle |
-| Discussing challenges of a specific industry | Agro-based Industries Specifics, Mineral-based Industries Specifics, Automobile Industry Growth | Cotton Textile Industry Challenges Equation, Jute Textile Industry Challenges Equation, Sugar Industry Challenges Equation, Iron & Steel Production Ratio (for input issues), Aluminium Smelting Inputs (for power issues), Cement Industry Location Factors (for raw material access), Chemical Industry Segmentation |
+| Discussing challenges of a specific industry | Agro-based Industries Specifics, Mineral-based Industries Specifics, Automobile Industry Growth | Cotton Textile Industry Challenges Equation, Jute Textile Industry Challenges Equation, Sugar Industry Challenges Equation, Iron & Steel Production Ratio (for input issues), Aluminium Smelting Inputs (for [power](/blog/power-sharing-class-10-notes) issues), Cement Industry Location Factors (for raw material access), Chemical Industry Segmentation |
 | Describing types of pollution or their causes | Industrial Pollution & Environmental Degradation | Air Pollution Components, Water Pollution Sources, Thermal Pollution Definition, Noise Pollution Definition, Land Degradation Factors |
 | Suggesting solutions for environmental issues | Control of Environmental Degradation Measures | Water Pollution Control Steps, Air Pollution Control Technologies, Noise Pollution Control Methods, Sustainable Industrial Practices |
 | Role of government in industrial development | Industrial Location Determinants, Automobile Industry Growth | Government Policy Influence Formula, Automobile Industry Growth Drivers |
@@ -1429,50 +1429,50 @@ Sustainable industrial development is crucial, balancing economic growth with en
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. Which of the following industries is considered a 'Basic Industry' because its products serve as raw materials for many other industries?**
-**A)**       Textile Industry
-**B)**       Iron and Steel Industry
-**C)**       Information Technology Industry
-**D)**       Sugar Industry
+**A)**        Textile Industry
+**B)**        Iron and Steel Industry
+**C)**        Information Technology Industry
+**D)**        Sugar Industry
 
 **Answer:** B) B is correct because Iron and Steel provide the foundational materials for almost all other manufacturing sectors like automobiles and construction. A is incorrect as it is a consumer-oriented industry. C is incorrect as it is a service-based sector. D is incorrect as it is a processing industry for agricultural products.
 
 ---
 
 **2. In the context of industrial location, which factor is most critical for the establishment of a Sugar Industry in Uttar Pradesh compared to Maharashtra?**
-**A)**       Availability of cheap labor
-**B)**       Proximity to ports
-**C)**       Availability of raw material (Sugarcane)
-**D)**       Availability of heavy machinery
+**A)**        Availability of cheap labor
+**B)**        Proximity to ports
+**C)**        Availability of raw material (Sugarcane)
+**D)**        Availability of heavy machinery
 
 **Answer:** C) C is correct because sugar mills must be located near sugarcane fields due to its high sucrose content which diminishes rapidly after harvest. A is incorrect as labor is available across most regions. B is incorrect because sugar mills are inland-focused. D is incorrect as machinery can be transported, but raw material cannot wait.
 
 ---
 
 **3. Identify the correct sequence of the manufacturing process for the Cotton Textile Industry:**
-**A)**       Spinning → Weaving → Knitting → Dyeing
-**B)**       Weaving → Spinning → Dyeing → Knitting
-**C)**       Spinning → Dyeing → Weaving → Knitting
-**D)**       Knitting → Spinning → Weaving → Dyeing
+**A)**        Spinning → Weaving → Knitting → Dyeing
+**B)**        Weaving → Spinning → Dyeing → Knitting
+**C)**        Spinning → Dyeing → Weaving → Knitting
+**D)**        Knitting → Spinning → Weaving → Dyeing
 
 **Answer:** A) A is correct as it follows the logical progression from yarn production (spinning) to fabric construction (weaving/knitting) and finally finishing (dyeing). B, C, and D are incorrect because they skip the essential step of creating yarn before making fabric or attempt to dye the material before the structure is formed.
 
 ---
 
 **4. A factory produces 500 units of steel. If the raw material cost is 60% of the total cost and the energy cost is 15%, what is the combined percentage of Raw Material and Energy costs in the total production cost?**
-**A)**       45%
-**B)**       75%
-**C)**       60%
-**D)**       85%
+**A)**        45%
+**B)**        75%
+**C)**        60%
+**D)**        85%
 
 **Answer:** B) B is correct because the total combined percentage is calculated by adding 60% (Raw Material) + 15% (Energy) = 75%. A is incorrect as it only calculates the difference. C is incorrect as it ignores energy. D is incorrect as it adds an extra 10% not mentioned in the data.
 
 ---
 
 **5. Which of the following statements regarding the impact of industrialization on the environment is most accurate?**
-**A)**       Industrialization leads to a decrease in air and water pollution levels.
-**B)**       Industries contribute to environmental degradation through thermal and chemical pollution.
-**C)**       The manufacturing sector has zero impact on the ecological balance.
-**D)**       Industrial effluents are always naturally biodegradable.
+**A)**        Industrialization leads to a decrease in air and water pollution levels.
+**B)**        Industries contribute to environmental degradation through thermal and chemical pollution.
+**C)**        The manufacturing sector has zero impact on the ecological balance.
+**D)**        Industrial effluents are always naturally biodegradable.
 
 **Answer:** B) B is correct because industries release smoke (air pollution) and untreated chemical waste (water pollution) into the ecosystem. A is incorrect because industrialization increases pollution. C is incorrect because the impact is massive. D is incorrect because most industrial effluents contain non-biodegradable chemicals.
 

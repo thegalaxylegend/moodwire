@@ -215,7 +215,7 @@ Popular Sovereignty + Constitutional Rules $\rightarrow$ Legitimate Government
 
 - Examiner's Trap: Do not confuse "Legitimacy" with "Efficiency." A slow democracy is still a legitimate democracy.
 
-**The Political Equality Formula:**
+**The [Political](/blog/political-parties-class-10-notes) Equality Formula:**
 Universal Adult Franchise + Right to Contest $\rightarrow$ Political Equality
 
 - Universal Adult Franchise: The right of all adult citizens to vote.
@@ -244,7 +244,7 @@ Legal Framework + Equality before Law $\rightarrow$ Protection of Rights
 
 - Equality before Law: The principle that no individual is above the law.
 
-- Protection of Rights: The guarantee that individual liberties are not violated by the state.
+- Protection of [Rights](/blog/consumer-rights-class-10-notes): The guarantee that individual liberties are not violated by the state.
 
 - Examiner's Trap: In dictatorships, the law is a tool of the ruler; in democracies, the ruler is subject to the law.
 
@@ -886,7 +886,7 @@ Strictly NO LaTeX. Use Unicode symbols. No $ or delimiters. Use raw Markdown. No
  * *Common Misconception:* Students often think "Democracy = Economic Prosperity/Equality" or "If a country is democratic, all its problems (poverty, inequality) must be solved." They think democracy is a *result* rather than a *process* that enables results.
 
  * *The Misconception:* Democracy is a magic wand that automatically fixes poverty, economic inequality, and social injustice. If a country is democratic, it *must* be prosperous and equal.
- * *The Reality:* Democracy is a *method* of decision-making. It provides the *framework* (accountability, transparency, legitimacy) for people to demand these things. It is a "better" form of government not because it guarantees perfect outcomes, but because it allows for the *correction* of mistakes and protects individual dignity. It is about the *process* of checking power, not the *guarantee* of instant wealth.
+ * *The Reality:* Democracy is a *method* of decision-making. It provides the *framework* (accountability, transparency, legitimacy) for people to demand these things. It is a "better" form of government not because it guarantees perfect outcomes, but because it allows for the *correction* of mistakes and protects individual dignity. It is about the *process* of checking [power](/blog/power-sharing-class-10-notes), not the *guarantee* of instant wealth.
 
  * *Question:* Which of the following best describes the relationship between democracy and economic growth?
  A) Democracy guarantees faster economic growth compared to dictatorial regimes due to popular participation.

@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/structure-of-the-atom-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 8, 2026*
+*Last Updated: May 9, 2026*
 
 ## 📑 Table of Contents
 
@@ -154,7 +154,7 @@ Answer: A) An isotope has the same $Z$ but different $A$, while an isotone has t
 
 - **Atomic Number (Z)**: Number of protons in an [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet)'s nucleus, defines the element.
 
-    - **Mass Number (A)**: Sum of protons and neutrons in an atom's nucleus.
+    - **Mass Number (A)**: Sum of protons and neutrons in an [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet)'s nucleus.
 
     - **Isotopes**: Atoms of the same element with different numbers of neutrons.
 

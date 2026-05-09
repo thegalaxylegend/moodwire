@@ -121,7 +121,7 @@ Examiner's Trap: Be careful when analyzing the tone and style, as they can be su
 
 - ✅ **What examiners expect:** Consistent use of past tense, e.g.
 
-- "Nelson Mandela was a great leader, and he fought for the rights of the people."
+- "Nelson Mandela was a great leader, and he fought for the [rights](/blog/consumer-rights-class-10-notes) of the people."
  
 
 - 💸 **Marks lost:** 1–2 marks
@@ -169,7 +169,7 @@ Examiner's Trap: Be careful when analyzing the tone and style, as they can be su
 
 - ✅ **What examiners expect:** Contextual understanding, e.g.
 
-- "Apartheid was a system of institutionalized racial segregation and discrimination that existed in South Africa from 1948 until the early 1990s."
+- "Apartheid was a system of institutionalized racial segregation and discrimination that existed in South Africa [from](/blog/from-the-diary-of-anne-frank-class-10-notes) 1948 until the early 1990s."
  
 
 - 💸 **Marks lost:** 2–3 marks
@@ -195,7 +195,7 @@ Examiner's Trap: Be careful when analyzing the tone and style, as they can be su
 
 ### <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-**Q1 (2022 CBSE):** 
+**Q1 (2026 CBSE):** 
 What is the significance of the title "Long Walk to Freedom" in the context of Nelson Mandela's life?
 
 - 🪤 **Trap:** Students often confuse the title with Mandela's physical journey, rather than its symbolic meaning.
@@ -310,7 +310,7 @@ To answer quickly, focus on the key aspects of Mandela's presidency and its impa
 
 - **Q** 
 
-- Question what the passage is about.
+- Question what the passage is [about](/blog/two-stories-about-flying-class-10-notes).
 
 - **3R** 
 
@@ -351,50 +351,50 @@ Nelson Mandela's life was a testament to the power of perseverance and forgivene
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What was the name of Nelson Mandela's autobiography?**
-**A)**   Long Walk to Freedom
-**B)**   Free at Last
-**C)**   Mandela: A Biography
-**D)**   The Autobiography of Nelson Mandela
+**A)**    Long Walk to Freedom
+**B)**    Free at Last
+**C)**    Mandela: A Biography
+**D)**    The Autobiography of Nelson Mandela
 
 **Answer:** A) The correct answer is 'Long Walk to Freedom' because it is the title of Nelson Mandela's autobiography, which was published in 1994. The other options are incorrect because they are not the title of Mandela's autobiography.
 
 ---
 
 **2. In what year was Nelson Mandela awarded the Nobel Peace Prize?**
-**A)**   1993
-**B)**   1994
-**C)**   1995
-**D)**   1996
+**A)**    1993
+**B)**    1994
+**C)**    1995
+**D)**    1996
 
 **Answer:** A) The correct answer is 1993 because Nelson Mandela was awarded the Nobel Peace Prize in 1993, along with F.W. de Klerk, for their efforts to dismantle apartheid in South Africa. The other options are incorrect because they are not the correct year.
 
 ---
 
 **3. What was the name of the organization that Nelson Mandela co-founded in 1944?**
-**A)**   African National Congress
-**B)**   South African Communist Party
-**C)**   Nelson Mandela Foundation
-**D)**   African Union
+**A)**    African National Congress
+**B)**    South African Communist Party
+**C)**    Nelson Mandela Foundation
+**D)**    African Union
 
 **Answer:** A) The correct answer is 'African National Congress' because it is the organization that Nelson Mandela co-founded in 1944, along with Walter Sisulu and Oliver Tambo. The other options are incorrect because they are not the correct organization.
 
 ---
 
 **4. How many years did Nelson Mandela spend in prison?**
-**A)**   20 years
-**B)**   25 years
-**C)**   27 years
-**D)**   30 years
+**A)**    20 years
+**B)**    25 years
+**C)**    27 years
+**D)**    30 years
 
 **Answer:** C) The correct answer is 27 years because Nelson Mandela spent 27 years in prison, from 1962 to 1990. The other options are incorrect because they do not accurately reflect the number of years Mandela spent in prison.
 
 ---
 
 **5. Who was the president of South Africa when Nelson Mandela was released from prison?**
-**A)**   W. de Klerk
-**B)**   Nelson Mandela
-**C)**   Oliver Tambo
-**D)**   Walter Sisulu
+**A)**    W. de Klerk
+**B)**    Nelson Mandela
+**C)**    Oliver Tambo
+**D)**    Walter Sisulu
 
 **Answer:** A) The correct answer is F.W. de Klerk because he was the president of South Africa when Nelson Mandela was released from prison in 1990. The other options are incorrect because they were not the president of South Africa at that time.
 

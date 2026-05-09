@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-08T03:21:15.769Z",
+  "generatedAt": "2026-05-09T03:13:53.212Z",
   "dateRange": {
-    "startDate": "2026-04-08",
-    "endDate": "2026-05-08"
+    "startDate": "2026-04-09",
+    "endDate": "2026-05-09"
   },
   "totalRows": 12,
   "opportunities": 0,
@@ -19,7 +19,7 @@
     },
     {
       "query": "mains foundation compass for all the subjects.",
-      "impressions": 4,
+      "impressions": 8,
       "clicks": 0
     },
     {
@@ -106,17 +106,17 @@
       "isOpportunity": false
     },
     "https://examcompass.pages.dev/jee-mains/": {
-      "impressions": 7,
+      "impressions": 11,
       "clicks": 0,
       "ctr": 0,
-      "position": 5.7,
+      "position": 5.6,
       "topQueries": [
         {
           "query": "mains foundation compass for all the subjects.",
-          "impressions": 3,
+          "impressions": 7,
           "clicks": 0,
           "ctr": 0,
-          "position": 10.3
+          "position": 9.9
         },
         {
           "query": "jee compass",

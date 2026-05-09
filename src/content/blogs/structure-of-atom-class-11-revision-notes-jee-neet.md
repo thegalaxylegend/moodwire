@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/structure-of-atom-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 8, 2026*
+*Last Updated: May 9, 2026*
 
 ## 📑 Table of Contents
 
@@ -360,7 +360,7 @@ Continue your [revision](/blog/states-of-matter-class-11-revision-notes-jee-neet
 * **Atomic Models**: Rutherford's model (nuclear [atom](/blog/structure-of-the-atom-class-11-revision-notes-neet)), Bohr's model (energy levels), Quantum Mechanical model (probability clouds)
 * **Subatomic Particles**: Protons (+ve charge, 1 amu), Neutrons (no charge, 1 amu), Electrons (-ve charge, negligible mass)
 * **Atomic Number (Z)**: Number of protons in an [atom](/blog/structure-of-the-atom-class-11-revision-notes-neet)'s nucleus, defines an element
-* **Mass Number (A)**: Sum of protons and neutrons in an atom's nucleus
+* **Mass Number (A)**: Sum of protons and neutrons in an [atom](/blog/structure-of-the-atom-class-11-revision-notes-neet)'s nucleus
 * **Isotopes**: Atoms with same Z but different A, e.g. Oxygen-16, Oxygen-18
 * **Electron Configuration**: s (1-2 e-), p (3-6 e-), d (5-10 e-), f (7-14 e-)
 * **Shells and Subshells**: K, L, M, N, O, P (n = 1 to 7), s, p, d, f subshells

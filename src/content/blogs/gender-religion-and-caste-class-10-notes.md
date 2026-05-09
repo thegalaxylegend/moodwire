@@ -270,7 +270,7 @@ eq$ Religious Dominance) + (Equal Respect for All Religions) = Secular State —
 
 - **Religious Diversity Variable:** (Number of Religions) × (Diversity of Practices) = Social Complexity — The factor that necessitates a secular constitution to prevent conflict.
 
-**Examiner's Trap:** Do not define Secularism as "the absence of religion." In the Indian context, it means "equal respect for all religions" (Sarva Dharma Sambhava), not the total removal of religion from public life.
+**Examiner's Trap:** Do not define Secularism as "the absence of religion." In the [Indian](/blog/globalisation-and-the-indian-economy-class-10-notes) context, it means "equal respect for all religions" (Sarva Dharma Sambhava), not the total removal of religion from public life.
 
 ### <a id="castepolitics-interaction-models"></a>Caste-Politics Interaction Models
 
@@ -317,7 +317,7 @@ eq$ (Caste/Religion/Sex) = Fairness in Jobs — The legal mechanism to prevent c
 | Caste groups joining together for power | Politics in Caste (Coalition Logic) |
 | Candidates being chosen from a specific caste | Caste in Politics (Vote Bank Logic) |
 | Breaking down of old caste hierarchies | Social Mobility Logic |
-| Legal rights against discrimination | Article 15 / Article 14 |
+| Legal [rights](/blog/consumer-rights-class-10-notes) against discrimination | Article 15 / Article 14 |
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -1455,7 +1455,7 @@ Ruthless brevity, no fluff, no intro, no conclusion.
 
 - ❌ Gender division is biological → ✅ Gender division is a social construct (Sexual Division of Labour).
 
-- ❌ Caste in politics is only negative → ✅ It can be used to demand better resources and representation for marginalized groups.
+- ❌ Caste in politics is only negative → ✅ It can be used to demand better [resources](/blog/forest-and-wildlife-resources-class-10-notes) and representation for marginalized groups.
 
  ### 🎯 If you can only remember ONE thing:
  Democracy must transcend narrow identities of gender, religion, and caste to uphold the principle of equality for all citizens.
@@ -1529,50 +1529,50 @@ Democracy must transcend narrow identities of gender, religion, and caste to uph
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. Which of the following statements regarding the 'Sexual Division of Labour' is most accurate in the context of Indian society?**
-**A)**      It is based on biological differences between men and women.
-**B)**      It is a result of social expectations where women do all work inside the home.
-**C)**      It means women are incapable of performing tasks outside the home.
-**D)**      It refers to the equal distribution of work between genders in the public sphere.
+**A)**       It is based on biological differences between men and women.
+**B)**       It is a result of social expectations where women do all work inside the home.
+**C)**       It means women are incapable of performing tasks outside the home.
+**D)**       It refers to the equal distribution of work between genders in the public sphere.
 
 **Answer:** B) B is correct because the division is based on social norms and expectations, not biology. A is wrong because the division is social, not biological. C is wrong because it implies physical inability, whereas women do perform work outside the home (though often unpaid or undervalued). D is wrong because the division actually describes an unequal distribution.
 
 ---
 
 **2. In a country where the Child Sex Ratio is significantly lower than the overall Sex Ratio, which social phenomenon is most likely occurring?**
-**A)**      High literacy rates among women.
-**B)**      Preference for male children leading to sex-selective practices.
-**C)**      High female participation in the workforce.
-**D)**      Equal distribution of resources among all children.
+**A)**       High literacy rates among women.
+**B)**       Preference for male children leading to sex-selective practices.
+**C)**       High female participation in the workforce.
+**D)**       Equal distribution of resources among all children.
 
 **Answer:** B) B is correct as a low child sex ratio (number of girls per 1000 boys) is a direct indicator of gender bias and sex-selective practices. A is wrong because low sex ratios are often correlated with lower female literacy. C is wrong because low sex ratios suggest gender discrimination, which is the opposite of empowerment. D is wrong because a skewed ratio implies unequal treatment of girl children.
 
 ---
 
 **3. Identify the correct relationship between Communalism and Secularism as described in the NCERT curriculum.**
-**A)**      Communalism is a prerequisite for a healthy secular state.
-**B)**      Secularism is a way to promote communalism in diverse societies.
-**C)**      Communalism is the belief that religion is the principal basis of social community, while Secularism seeks to separate religion from the state.
-**D)**      Both terms refer to the same socio-political phenomenon.
+**A)**       Communalism is a prerequisite for a healthy secular state.
+**B)**       Secularism is a way to promote communalism in diverse societies.
+**C)**       Communalism is the belief that religion is the principal basis of social community, while Secularism seeks to separate religion from the state.
+**D)**       Both terms refer to the same socio-political phenomenon.
 
 **Answer:** C) C is correct as it accurately defines both terms. A is wrong because communalism is a threat to democracy, not a prerequisite. B is wrong because secularism is designed to counter communalism, not promote it. D is wrong because they are opposing concepts.
 
 ---
 
 **4. A person believes that their religion is superior to all others and that followers of other religions cannot be part of the same nation. This is an example of:**
-**A)**      Religious tolerance
-**B)**      Communalism
-**C)**      Casteism
-**D)**      Secularism
+**A)**       Religious tolerance
+**B)**       Communalism
+**C)**       Casteism
+**D)**       Secularism
 
 **Answer:** B) B is correct because the core of communalism is the belief that religious identity is the primary identity and one religion is superior. A is wrong because the person is showing intolerance. C is wrong because casteism refers to social stratification based on birth/varna, not religious superiority. D is wrong because secularism promotes equality across religions.
 
 ---
 
 **5. Which of the following is a critical 'trap' in understanding the relationship between Caste and Politics?**
-**A)**      Caste does not influence politics at all.
-**B)**      Politics only influences caste and never the other way around.
-**C)**      Casteism is the only factor that determines election outcomes.
-**D)**      While caste influences politics, politics also influences caste by creating new groups and coalitions.
+**A)**       Caste does not influence politics at all.
+**B)**       Politics only influences caste and never the other way around.
+**C)**       Casteism is the only factor that determines election outcomes.
+**D)**       While caste influences politics, politics also influences caste by creating new groups and coalitions.
 
 **Answer:** D) D is correct because it captures the complex, two-way relationship. A is wrong because caste is a significant factor in Indian elections. B is wrong because the influence is bidirectional (politics affects caste identities). C is wrong because while caste is important, factors like leadership, party performance, and economic issues also determine outcomes.
 

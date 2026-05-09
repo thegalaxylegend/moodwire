@@ -372,7 +372,7 @@ JEE/NEET Top 1% Ranker (Strict, data-driven, no fluff).
 
 Strict, top 1% JEE/NEET ranker.
 "The 5 Mistakes That Cost Marks" section for a revision guide.
-Physics 
+[Physics](/blog/physics-mechanics-class-11-revision-notes-jee-neet) 
 
 - Heat and Light (Class 11).
 JEE Advanced & NEET.

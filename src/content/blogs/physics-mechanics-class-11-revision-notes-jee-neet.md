@@ -681,7 +681,7 @@ eq$ center of mass, you must use $I = I_{cm} + Md²$.
  * Instruction 2 (MATH & SYMBOL RULES - LATER IN PROMPT): "🚨 DO NOT use LaTeX. Use raw Unicode symbols for math and Greek letters... Do not use $ or delimiters."
  * *Resolution of Contradiction*: Usually, in these prompts, the *final* instruction set (the "OUTPUT FORMAT RULES") overrides the earlier ones because it's presented as the "Zero Tolerance" rule for the specific website integration. The prompt says: "MATH & SYMBOL RULES (ZERO TOLERANCE): 🚨 DO NOT use LaTeX. Use raw Unicode symbols... Do not use $ or delimiters." This is explicitly stated as the rule that "breaks the website" if violated. I will follow the **Unicode/No-LaTeX** rule.
 
- * Topic: Physics Mechanics Class 11.
+ * Topic: [Physics](/blog/physics-heat-light-class-11-revision-notes-jee-neet) Mechanics Class 11.
  * Subject: JEE/NEET level.
  * Year range: 2018-2026 (simulated/real).
 

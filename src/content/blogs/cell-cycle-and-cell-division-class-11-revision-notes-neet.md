@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/cell-cycle-n-cell-division-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 8, 2026*
+*Last Updated: May 9, 2026*
 
 ## 📑 Table of Contents
 
@@ -180,7 +180,7 @@ Continue your [revision](/blog/biological-classification-class-11-revision-notes
 
 ## 🔁 Last 5 Minutes Box
 
-- **Phases of Cell Cycle:** Interphase (G1, S, G2), M-phase (Prophase, Metaphase, Anaphase, Telophase)
+- **Phases of [Cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) Cycle:** Interphase (G1, S, G2), M-phase (Prophase, Metaphase, Anaphase, Telophase)
    - **Mitosis:** Equational division, 2n → 2n, occurs and somatic cells
    - **Meiosis:** Reductive division, 2n → n, occurs and reproductive cells
    - **Cytokinesis:** Division of cytoplasm

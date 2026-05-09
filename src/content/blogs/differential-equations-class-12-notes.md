@@ -132,7 +132,7 @@ D) Separable
 -
 A) Homogeneous
 -
-B) Linear
+B) [Linear](/blog/pair-of-linear-equations-class-10-notes)
 -
 C) Exact
 -

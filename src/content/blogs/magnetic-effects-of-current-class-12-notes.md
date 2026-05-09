@@ -64,7 +64,7 @@ manualReview: false
 - This rule can be used to determine the direction of the [magnetic](/blog/magnetic-effects-of-electric-current-class-10-notes) field due to a current carrying wire, a coil, or a solenoid
 
 ## 👁️ Ayush's Note
-- To solve problems related to magnetic effects of current, first identify the type of problem, whether it is related to the magnetic field, force, or flux
+- To solve problems related to [magnetic](/blog/magnetic-effects-of-electric-current-class-10-notes) effects of current, first identify the type of problem, whether it is related to the [magnetic](/blog/magnetic-effects-of-electric-current-class-10-notes) field, force, or flux
 - Then, use the relevant formula and apply the right-hand rule to determine the direction of the magnetic field
 - Make sure to consider the units of the quantities involved and use the correct values for the constants
 - Practice problems regularly to develop problem-solving skills and to learn how to apply the concepts to different situations

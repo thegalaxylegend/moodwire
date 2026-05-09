@@ -58,7 +58,7 @@ manualReview: false
 - The multiplicative inverse of a rational number is obtained by swapping its numerator and denominator
 
 ## 🔁 Last 5 Minutes Box
-- Quickly revise the formulae for adding, subtracting, multiplying, and dividing rational numbers
+- Quickly revise the formulae for adding, subtracting, multiplying, and dividing rational [numbers](/blog/real-numbers-class-10-notes)
 - Make sure to simplify rational numbers to their standard form
 - Practice comparing and ordering rational numbers
 - Go through the solved examples and try to solve them on your own

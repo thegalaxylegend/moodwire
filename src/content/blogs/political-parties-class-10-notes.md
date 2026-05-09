@@ -138,7 +138,7 @@ Provide a "Formula Bank" for a Social Science chapter.
  * 15. Internal [Democracy](/blog/outcomes-of-democracy-class-10-notes) Deficit = Power Concentration + Lack of Regular Elections.
  * 16. Dynastic Succession = Family Control + Merit Exclusion.
  * 17. [Money](/blog/money-and-credit-class-10-notes) Power Impact = High Election Spending + Candidate Selection Bias.
- * 18. Muscle Power Impact = Criminalization + Intimidation.
+ * 18. Muscle [Power](/blog/power-sharing-class-10-notes) Impact = Criminalization + Intimidation.
  * 19. Lack of Choice = Party Similarity + Ideological Convergence.
  * 20. Transparency Reform = Affidavit Filing + Financial Disclosure.
  * 21. Accountability Reform = Internal Elections + Membership Discipline.
@@ -240,11 +240,11 @@ Provide a "Formula Bank" for a Social Science chapter.
 
 **The Challenge & Reform Logic**
 
-- **Internal Democracy Deficit:** Power Concentration + Lack of Regular Internal Elections + Lack of Membership Access.
+- **Internal [Democracy](/blog/outcomes-of-democracy-class-10-notes) Deficit:** Power Concentration + Lack of Regular Internal Elections + Lack of Membership Access.
 
 - **Dynastic Succession Formula:** Family Control + Merit Exclusion = Lack of Internal Democracy.
 
-- **Money Power Impact:** High Election Spending + Influence on Candidate Selection = Inequality in Competition.
+- **[Money](/blog/money-and-credit-class-10-notes) Power Impact:** High Election Spending + Influence on Candidate Selection = Inequality in Competition.
 
 - **Muscle Power Impact:** Criminalization of Politics + Intimidation of Voters = Breakdown of Rule of Law.
 

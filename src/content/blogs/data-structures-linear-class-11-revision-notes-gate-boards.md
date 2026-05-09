@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/data-structures-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 8, 2026*
+*Last Updated: May 9, 2026*
 
 ## 📑 Table of Contents
 
@@ -320,7 +320,7 @@ In terms of technical depth, students need to understand the following concepts:
 * Edge cases: empty lists, single-element lists, lists with duplicate elements
 * Optimization techniques: caching, memoization, dynamic programming
 
-The following table summarizes some common trap questions for linear data structures and their corresponding solutions:
+The following table summarizes some common trap questions for linear [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures and their corresponding solutions:
 
 | Trap Question | Solution | Time Complexity | Space Complexity |
 | --- | --- | --- | --- |

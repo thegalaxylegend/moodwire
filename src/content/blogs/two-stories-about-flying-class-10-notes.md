@@ -108,7 +108,7 @@ Examiner's Trap: Be aware of cultural references and idiomatic expressions that 
 
 - 🔴 **What students write:** Students often misinterpret the theme of "Two Stories about Flying" and focus on the literal meaning of flying, rather than exploring the symbolic meaning of [freedom](/blog/nelson-mandela-long-walk-to-freedom-class-10-notes) and aspirations.
 
-- ✅ **What examiners expect:** Examiners expect students to analyze the theme of flying as a metaphor for freedom, aspirations, and the human desire to transcend limitations.
+- ✅ **What examiners expect:** Examiners expect students to analyze the theme of flying as a metaphor for [freedom](/blog/nelson-mandela-long-walk-to-freedom-class-10-notes), aspirations, and the human desire to transcend limitations.
 
 - 💸 **Marks lost:** 2–3 marks
  
@@ -167,7 +167,7 @@ Examiner's Trap: Be aware of cultural references and idiomatic expressions that 
 
 ### <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-**Q1 (2022 CBSE):** 
+**Q1 (2026 CBSE):** 
 
 - What are the two stories about flying mentioned in the chapter?
  - 🪤 **Trap:** Students often just recall one story.
@@ -283,7 +283,7 @@ By following these tips and understanding the distinct themes of the two stories
 ### <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 * **🔮 The Hidden Pattern:** 
-There is a non-obvious connection between "Two Stories about Flying" and the chapter "The Diary of a Young Girl". In 20% of the papers, students are asked to compare and contrast the themes of freedom and confinement in both stories. Make sure to revise the character of Anne Frank and her perspective on freedom, as well as the tone and narrative style of both stories.
+There is a non-obvious connection between "Two Stories about Flying" and the chapter "The [Diary](/blog/from-the-diary-of-anne-frank-class-10-notes) of a Young Girl". In 20% of the papers, students are asked to compare and contrast the themes of freedom and confinement in both stories. Make sure to revise the character of Anne Frank and her perspective on freedom, as well as the tone and narrative style of both stories.
 
 * **🎯 The "Always Check" Rule:** 
 Examiners love to test the boundary condition of identifying the narrative style and tone of the stories. Always check if the question asks you to identify the tone (e.g. reflective, nostalgic, optimistic) or narrative style (e.g. first-person, third-person, stream-of-consciousness) of one or both stories. Make sure to revise the characteristics of each narrative style and tone.
@@ -361,50 +361,50 @@ This technique will help you quickly and accurately identify the tone of a story
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What was the main reason for the young seagull's reluctance to fly?**
-**A)**   Fear of falling
-**B)**   Lack of food
-**C)**   Injury to wing
-**D)**   Unfamiliar surroundings
+**A)**    Fear of falling
+**B)**    Lack of food
+**C)**    Injury to wing
+**D)**    Unfamiliar surroundings
 
 **Answer:** A) The young seagull was afraid to fly because of his fear of falling. The other options are not directly related to the seagull's reluctance to fly. Lack of food was a consequence of his not flying, injury to wing was not mentioned, and unfamiliar surroundings were not the primary reason.
 
 ---
 
 **2. How many times did the mother seagull try to encourage her young to fly?**
-**A)**   Once
-**B)**   Twice
-**C)**   Thrice
-**D)**   Many times
+**A)**    Once
+**B)**    Twice
+**C)**    Thrice
+**D)**    Many times
 
 **Answer:** D) The mother seagull tried many times to encourage her young to fly, as evident from the story. The other options are not accurate representations of the events in the story.
 
 ---
 
 **3. What was the turning point in the young seagull's learning to fly?**
-**A)**   When he saw his siblings flying
-**B)**   When his mother stopped feeding him
-**C)**   When he was left alone on the ledge
-**D)**   When he saw a fish below
+**A)**    When he saw his siblings flying
+**B)**    When his mother stopped feeding him
+**C)**    When he was left alone on the ledge
+**D)**    When he saw a fish below
 
 **Answer:** B) The turning point was when his mother stopped feeding him, which forced him to take the plunge and fly. The other options, although related to the story, were not the direct cause of his decision to fly.
 
 ---
 
 **4. What was the distance between the ledge and the sea below?**
-**A)**   A few feet
-**B)**   A few meters
-**C)**   Twenty feet
-**D)**   Hundred feet
+**A)**    A few feet
+**B)**    A few meters
+**C)**    Twenty feet
+**D)**    Hundred feet
 
 **Answer:** C) The story mentions that the ledge was twenty feet above the sea. The other options do not accurately represent the distance.
 
 ---
 
 **5. How did the young seagull feel when he finally flew?**
-**A)**   Scared
-**B)**   Relieved
-**C)**   Exhausted
-**D)**   Triumphant
+**A)**    Scared
+**B)**    Relieved
+**C)**    Exhausted
+**D)**    Triumphant
 
 **Answer:** D) The young seagull felt triumphant when he finally flew, as he had overcome his fears and achieved his goal. The other options do not accurately capture his emotions at that moment.
 

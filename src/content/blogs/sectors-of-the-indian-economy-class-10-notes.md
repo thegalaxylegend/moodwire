@@ -146,7 +146,7 @@ No LaTeX (Use Unicode). No intro/outro. No fluff. Bullet points. Tables.
  **GDP & Economic Value Metrics**
  - GDP Calculation: Σ (Final Value of Goods and Services) — Total value of all final goods produced within a country in a year
  - Value Added: Value of Final Output - Intermediate Consumption — Used to prevent double counting
- - Total National Income: Primary Sector Value + Secondary Sector Value + Tertiary Sector Value — Sum of all three sectors
+ - Total [National](/blog/lifelines-of-national-economy-class-10-notes) Income: Primary Sector Value + Secondary Sector Value + Tertiary Sector Value — Sum of all three sectors
  - Per Capita Income: Total National Income / Total Population — Average income per person
  - Sectoral Share in GDP (%): (Value of Sector / Total GDP) × 100 — Contribution of a sector to the [economy](/blog/globalisation-and-the-indian-economy-class-10-notes)
  - Sectoral Growth Rate: [(GDP_current - GDP_previous) / GDP_previous] × 100 — Rate of change in sector value
@@ -288,7 +288,7 @@ No LaTeX (Use Unicode). No intro/outro. No fluff. Bullet points. Tables.
 
 - Per Capita Income: Total National Income / Total Population — The average income earned per person in a given area in a specified year
 
-- Sectoral Share in GDP (%): (Value of Sector / Total GDP) × 100 — The percentage of the total economy contributed by a specific sector
+- Sectoral Share in GDP (%): (Value of Sector / Total GDP) × 100 — The percentage of the total [economy](/blog/globalisation-and-the-indian-economy-class-10-notes) contributed by a specific sector
 
 - Sectoral Growth Rate: [(GDP_current_year - GDP_previous_year) / GDP_previous_year] × 100 — The rate at which a specific sector is expanding or contracting
 
@@ -691,7 +691,7 @@ Last-Night Revision Format (No filler, no intro, no fluff).
 - 🔴 **What students write:** "Processing raw materials like sugarcane into sugar or cotton into cloth is part of the Primary sector because it originates from agriculture."
  
 
-- ✅ **What examiners expect:** "The Primary sector involves the direct extraction and collection of natural resources. The Secondary sector involves the transformation of these natural products into finished goods through manufacturing or industrial processes. Therefore, while the source is agricultural, the process of conversion (e.g.
+- ✅ **What examiners expect:** "The Primary sector involves the direct extraction and collection of natural [resources](/blog/forest-and-wildlife-resources-class-10-notes). The Secondary sector involves the transformation of these natural products into finished goods through manufacturing or industrial processes. Therefore, while the source is agricultural, the process of conversion (e.g.
 
 - sugarcane to sugar) is a Secondary sector activity."
  
@@ -1361,50 +1361,50 @@ India's economy shows a structural mismatch where the Tertiary sector dominates 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. In a hypothetical village, if the Primary Sector contributes $5000$ units, the Secondary Sector $3000$ units, and the Tertiary Sector $2000$ units to the total GDP, what is the percentage share of the Tertiary Sector?**
-**A)**     20%
-**B)**     25%
-**C)**     30%
-**D)**     33.3%
+**A)**      20%
+**B)**      25%
+**C)**      30%
+**D)**      33.3%
 
 **Answer:** A) The total GDP is $5000 + 3000 + 2000 = 10000$. The Tertiary share is $(2000 / 10000) \times 100 = 20\%$. Option B is wrong because $25\%$ would require $2500$ units. Option C is wrong because $30\%$ would require $3000$ units. Option D is wrong because $33.3\%$ would require $3333$ units.
 
 ---
 
 **2. Which of the following best describes the 'disguised unemployment' situation often found in the agricultural sector of India?**
-**A)**     Workers are absent from work due to seasonal changes in crops.
-**B)**     More people are working in a field than are actually required for production.
-**C)**     Workers are highly skilled but cannot find jobs in the industrial sector.
-**D)**     Workers are paid less than the minimum wage set by the government.
+**A)**      Workers are absent from work due to seasonal changes in crops.
+**B)**      More people are working in a field than are actually required for production.
+**C)**      Workers are highly skilled but cannot find jobs in the industrial sector.
+**D)**      Workers are paid less than the minimum wage set by the government.
 
 **Answer:** B) Disguised unemployment occurs when the marginal productivity of labor is zero, meaning even if some people are removed, production remains the same. Option A describes seasonal unemployment. Option C describes structural unemployment. Option D describes exploitation/underemployment in terms of wages, not labor quantity.
 
 ---
 
 **3. If a country's GDP is increasing but the employment share in the Tertiary sector is not increasing proportionally, what does this indicate about the nature of economic growth?**
-**A)**     Employment is growing faster than GDP.
-**B)**     The economy is experiencing jobless growth.
-**C)**     The Primary sector is becoming the dominant sector.
-**D)**     The Secondary sector is failing to contribute to GDP.
+**A)**      Employment is growing faster than GDP.
+**B)**      The economy is experiencing jobless growth.
+**C)**      The Primary sector is becoming the dominant sector.
+**D)**      The Secondary sector is failing to contribute to GDP.
 
 **Answer:** B) Jobless growth occurs when the economy grows (GDP rises) but does not create enough jobs to keep pace. Option A is mathematically impossible if employment share lags. Option C is incorrect as the Tertiary sector is growing in value. Option D is an assumption not supported by the data provided.
 
 ---
 
 **4. Identify the correct relationship between the sectors regarding the flow of goods and services: A farmer produces wheat (X), a factory turns it into flour (Y), and a shopkeeper sells it to a consumer (Z). Which sequence represents the correct sectoral transition?**
-**A)**     X (Tertiary) → Y (Primary) → Z (Secondary)
-**B)**     X (Secondary) → Y (Tertiary) → Z (Primary)
-**C)**     X (Primary) → Y (Secondary) → Z (Tertiary)
-**D)**     X (Primary) → Y (Tertiary) → Z (Secondary)
+**A)**      X (Tertiary) → Y (Primary) → Z (Secondary)
+**B)**      X (Secondary) → Y (Tertiary) → Z (Primary)
+**C)**      X (Primary) → Y (Secondary) → Z (Tertiary)
+**D)**      X (Primary) → Y (Tertiary) → Z (Secondary)
 
 **Answer:** C) Wheat is a natural resource (Primary), flour is a manufactured good (Secondary), and selling/distribution is a service (Tertiary). Option A, B, and D all misclassify the fundamental nature of the production stages.
 
 ---
 
 **5. A worker in the organized sector receives paid leave, medical benefits, and fixed working hours. If this same worker were moved to the unorganized sector, which of the following would most likely change?**
-**A)**     The worker would gain job security and regular wages.
-**B)**     The worker would lose social security benefits and face irregular work.
-**C)**     The worker would move from a low-productivity to a high-productivity role.
-**D)**     The worker would be exempt from government labor laws.
+**A)**      The worker would gain job security and regular wages.
+**B)**      The worker would lose social security benefits and face irregular work.
+**C)**      The worker would move from a low-productivity to a high-productivity role.
+**D)**      The worker would be exempt from government labor laws.
 
 **Answer:** B) The unorganized sector is characterized by low wages, no job security, and no benefits. Option A is the opposite of the truth. Option C is incorrect as unorganized work is typically low-productivity. Option D is incorrect because while laws are often not enforced, the worker is not 'exempt' by right; they are simply exploited.
 
