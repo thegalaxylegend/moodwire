@@ -813,7 +813,7 @@ Q3 (2026 JEE Advanced): A solid sphere of mass M and radius R is rolling without
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 Strict, top 1% JEE/NEET ranker.
-"The One Thing Most Students Get Wrong" section for Physics Mechanics Class 11 revision notes.
+"The One Thing Most Students Get Wrong" section for [Physics](/blog/physics-heat-light-class-11-revision-notes-jee-neet) Mechanics Class 11 revision notes.
 JEE Advanced/NEET students (2026 batch).
 400+ words.
 Specific, data-driven, authentic, no filler, no intro, no conclusion.

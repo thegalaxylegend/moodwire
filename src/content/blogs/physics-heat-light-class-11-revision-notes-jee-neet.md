@@ -535,7 +535,7 @@ Exactly 5 mistakes.
 
  *Let's double check the Unicode for $\theta_c$: $\theta_c$ can be written as $\theta_c$ or $\theta_c$. I'll use $\theta_c$.*
 
- *One more check:* The prompt asks for "physics heat light class 11".
+ *One more check:* The prompt asks for "[physics](/blog/physics-mechanics-class-11-revision-notes-jee-neet) heat light class 11".
 
 - **Mistakes covered:** 1. Heat (Thermodynamics)
  2. Heat (Calorimetry)

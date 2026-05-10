@@ -222,7 +222,7 @@ Universal Adult Franchise + Right to Contest $\rightarrow$ Political Equality
 
 - Right to Contest: The legal right to stand for elections.
 
-- Political Equality: The condition where every citizen has equal influence over the political process.
+- [Political](/blog/political-parties-class-10-notes) Equality: The condition where every citizen has equal influence over the [political](/blog/political-parties-class-10-notes) process.
 
 - Examiner's Trap: Political equality does not guarantee economic equality.
 
@@ -298,7 +298,7 @@ Negotiation + Compromise $\rightarrow$ Conflict Resolution
 Democracy $
 eq$ High Economic Growth (Correlation is weak)
 
-- Democracy: A political system based on voting and rights.
+- Democracy: A political system based on voting and [rights](/blog/consumer-rights-class-10-notes).
 
 - Economic Growth: The increase in a country's GDP/National Income.
 
@@ -1083,7 +1083,7 @@ Specific, data-driven, authentic student/mentor tone. No filler. No intro.
  * Content: High-yield, non-obvious, pattern-based.
 
  * *Concept:* Democracy isn't just about voting; it's about accountability, legitimacy, and reducing inequality.
- * *Chapter Connection:* Connect "Outcomes of Democracy" with "Power Sharing" or "Federalism".
+ * *Chapter Connection:* Connect "Outcomes of Democracy" with "[Power](/blog/power-sharing-class-10-notes) Sharing" or "Federalism".
  * *Hidden Pattern:* The examiners love to link the *legitimacy* of democracy (Outcomes) to the *checks and balances* (Power Sharing). If a question asks why democracy is better despite delays, the answer often hinges on the "Power Sharing" mechanisms that ensure accountability.
 
  * *Concept:* Students often confuse "Economic Growth" with "Democracy".

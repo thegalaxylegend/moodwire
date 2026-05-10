@@ -52,7 +52,7 @@ manualReview: false
  
 ## 🔁 Last 5 Minutes Box
 - Sum of interior [angles](/blog/lines-and-angles-class-9-notes) of a quadrilateral = 360°
-- Sum of exterior angles of a quadrilateral = 360°
+- Sum of exterior [angles](/blog/lines-and-angles-class-9-notes) of a quadrilateral = 360°
 - Diagonals of a rectangle bisect each other and are equal ∈ length.
 - Diagonals of a rhombus bisect each other at right angles.
 - Area of a quadrilateral = (1/2) × d₁ × d₂

@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/digital-logic-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 9, 2026*
+*Last Updated: May 10, 2026*
 
 ## 📑 Table of Contents
 
@@ -341,7 +341,7 @@ Ayush's Note on Digital Logic is a study guide that provides a detailed explanat
 | Logic Gates | Basic components of digital circuits that perform logical operations | High |
 | Combinational Circuits | Digital circuits that consist of logic gates connected together to perform a specific function | Medium |
 | Sequential Circuits | Digital circuits that have a memory element and can store [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) | Medium |
-| Computer Processors | Digital circuits that execute instructions and perform calculations | High |
+| [Computer](/blog/computer-organization-class-11-notes) Processors | Digital circuits that execute instructions and perform calculations | High |
 | Digital Cameras | Electronic devices that capture and store images | Low |
 | Mobile Phones | Electronic devices that provide communication and entertainment services | Low |
 
@@ -457,7 +457,7 @@ How do you implement Combinational and Sequential Circuits? is a fundamental con
 
 What are common Trap Questions for Digital Logic? is a crucial aspect of digital electronics that involves identifying and understanding the most frequently asked tricky questions. It includes understanding of Boolean algebra, logic gates, n sequential circuits. For Class 11 exam prep and 2026, the most important aspect is to focus on the application of these concepts to solve complex problems. 
  
- Digital logic is a fundamental subject that forms the basis of computer science and electronics. It deals with the design and implementation of digital circuits, which are used and a wide range of applications, from simple electronic devices to complex computer systems. In the context of Class 11 exams, digital logic is a critical subject that requires a thorough understanding of key concepts, including Boolean algebra, logic gates, n sequential circuits.
+ Digital logic is a fundamental subject that forms the basis of computer science and electronics. It deals with the [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) and implementation of digital circuits, which are used and a wide range of applications, from simple electronic devices to complex computer systems. In the context of Class 11 exams, digital logic is a critical subject that requires a thorough understanding of key concepts, including Boolean algebra, logic gates, n sequential circuits.
  
  One of the most common trap questions and digital logic is related to the understanding of Boolean algebra. Boolean algebra is a mathematical system that deals with the manipulation of logical operations, such as AND, OR, n NOT. It is used to design and simplify digital circuits. However, many students struggle to apply Boolean algebra to solve complex problems, n this is where trap questions come into play.
  

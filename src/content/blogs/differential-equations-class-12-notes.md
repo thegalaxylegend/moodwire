@@ -138,7 +138,7 @@ C) Exact
 -
 D) Bernoulli's equation
 
-**Answer: B) Linear**
+**Answer: B) [Linear](/blog/pair-of-linear-equations-class-10-notes)**
 
 ---
 

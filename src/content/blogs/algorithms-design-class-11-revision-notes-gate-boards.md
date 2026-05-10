@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/algorithms-design-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 9, 2026*
+*Last Updated: May 10, 2026*
 
 ## 📑 Table of Contents
 
@@ -393,7 +393,7 @@ They are used for solving problems having only two possible solutions.
 They always choose the locally optimal solution.
 
 **Answer:**
-D) Greedy algorithms make the optimal substructure property, but may not always choose the optimal
+D) Greedy [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) make the optimal substructure property, but may not always choose the optimal
 
 solution. They always choose the locally optimal solution.
 

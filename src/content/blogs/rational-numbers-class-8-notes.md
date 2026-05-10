@@ -59,7 +59,7 @@ manualReview: false
 
 ## 🔁 Last 5 Minutes Box
 - Quickly revise the formulae for adding, subtracting, multiplying, and dividing rational [numbers](/blog/real-numbers-class-10-notes)
-- Make sure to simplify rational numbers to their standard form
+- Make sure to simplify rational [numbers](/blog/real-numbers-class-10-notes) to their standard form
 - Practice comparing and ordering rational numbers
 - Go through the solved examples and try to solve them on your own
 - Make a mental note of the common mistakes that can cost marks

@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/the-p-block-elements-11-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 9, 2026*
+*Last Updated: May 10, 2026*
 
 ## 📑 Table of Contents
 
@@ -203,7 +203,7 @@ Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-n
      + Metallic character decreases across a period
      + Reducing character increases down a group
    * **Important Reactions**:
-     + Burning of elements in air and oxygen
+     + Burning of [elements](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) in air and oxygen
      + Reaction with water and acids
      + Reaction with other non-metals
    * **Ores and Metallurgy**:

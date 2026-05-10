@@ -735,7 +735,7 @@ Strict, top 1% JEE/NEET ranker (adapted for Class 11 Political Science/Local Gov
  * Tone: Specific, data-driven, authentic student tone, zero fluff.
 
  * *Topic:* Local Government (73rd and 74th Amendments).
- * *Common Misconception:* Students often think Local Government is a separate, independent third tier of the federal structure that functions autonomously like the State or Union governments. They think it has inherent constitutional powers.
+ * *Common Misconception:* Students often think Local Government is a separate, independent third tier of the federal structure that [functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) autonomously like the State or Union governments. They think it has inherent constitutional powers.
  * *The Reality:* Local government is "decentralized" but its power is "delegated." It exists because of the 73rd/74th Amendments, and its functional scope is limited to the 11th and 12th Schedules. Crucially, the State Government retains control over the "transfer of power and resources." The State Legislature can still override or limit local bodies through state-specific laws.
  * *Nuance:* The distinction between the *existence* of local bodies and the *autonomy* of local bodies.
 
@@ -1277,40 +1277,40 @@ Local government institutionalizes grassroots democracy through the 73rd and 74t
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. Which of the following correctly identifies the mechanism by which the 73rd Amendment Act strengthened local governance in India?**
-**A)**      By providing mandatory reservation for women in all political offices
-**B)**      By establishing a three-tier structure with mandatory state finance commissions
-**C)**      By giving local bodies the power to levy all major taxes like GST
-**D)**      By making the Gram Sabha the supreme decision-making body for all state laws
+**A)**       By providing mandatory reservation for women in all political offices
+**B)**       By establishing a three-tier structure with mandatory state finance commissions
+**C)**       By giving local bodies the power to levy all major taxes like GST
+**D)**       By making the Gram Sabha the supreme decision-making body for all state laws
 
 **Answer:** B) B is correct because the 73rd Amendment mandated a three-tier system (Gram Panchayat, Panchayat Samiti, Zila Parishad) and required State Finance Commissions to review the financial position of local bodies. A is wrong because reservation is specific to elected seats in Panchayats, not 'all political offices'. C is wrong because local bodies have limited taxation powers and do not levy GST. D is wrong because the Gram Sabha's power is limited to local issues, not state-level lawmaking.
 
 ---
 
 **2. If a State Legislature decides to implement a law that bypasses the mandatory devolution of funds to Panchayati Raj Institutions (PRIs), which constitutional provision is being violated?**
-**A)**      Article 243-G
-**B)**      Article 356
-**C)**      Article 370
-**D)**      Article 324
+**A)**       Article 243-G
+**B)**       Article 356
+**C)**       Article 370
+**D)**       Article 324
 
 **Answer:** A) A is correct as Article 243-G specifically empowers Panchayats to prepare plans for economic development and social justice, implying the necessity of funds. B is wrong as Article 356 relates to President's Rule. C is wrong as Article 370 dealt with Jammu and Kashmir's special status. D is wrong as Article 324 concerns the Election Commission.
 
 ---
 
 **3. In a village with a total population of 2,500, the SC/ST population accounts for 20% and the total number of seats reserved for women in the Gram Panchayat is 33%. How many seats are reserved for women in this specific local body?**
-**A)**      8 seats
-**B)**      10 seats
-**C)**      12 seats
-**D)**      15 seats
+**A)**       8 seats
+**B)**       10 seats
+**C)**       12 seats
+**D)**       15 seats
 
 **Answer:** B) To find the answer, one must calculate 33% of the total seats. However, the question asks for seats based on the proportion. Assuming a standard proportional distribution where the total seats are calculated based on population (though specific seat counts vary by state, in a theoretical MCQ context, we look for the mathematical application). If the total seats were 30, 33% would be ~10. A is wrong as it underestimates the 1/3rd requirement. C and D are wrong as they exceed the 1/3rd constitutional mandate.
 
 ---
 
 **4. Identify the primary difference between the 73rd and 74th Constitutional Amendment Acts regarding the scope of local government.**
-**A)**      73rd Amendment covers Urban Local Bodies; 74th Amendment covers Rural Local Bodies
-**B)**      73rd Amendment covers Rural Local Bodies; 74th Amendment covers Urban Local Bodies
-**C)**      73rd Amendment applies to Union Territories; 74th Amendment applies to States
-**D)**      73rd Amendment focuses on Judiciary; 74th Amendment focuses on Executive
+**A)**       73rd Amendment covers Urban Local Bodies; 74th Amendment covers Rural Local Bodies
+**B)**       73rd Amendment covers Rural Local Bodies; 74th Amendment covers Urban Local Bodies
+**C)**       73rd Amendment applies to Union Territories; 74th Amendment applies to States
+**D)**       73rd Amendment focuses on Judiciary; 74th Amendment focuses on Executive
 
 **Answer:** B) B is the fundamental distinction: 73rd is for Panchayati Raj (Rural) and 74th is for Municipalities (Urban). A is the exact reverse of the truth. C is incorrect as both apply to the entire territory of India (States and UTs). D is incorrect as both amendments are focused on administrative decentralization, not judicial restructuring.
 
@@ -1318,10 +1318,10 @@ Local government institutionalizes grassroots democracy through the 73rd and 74t
 
 **5. A District Planning Committee (DP
 C) is tasked with consolidating plans from Panchayats and Municipalities. If the total budget allocated to the district is ₹10,00,000 and the state mandate requires 40% to be spent on infrastructure and 25% on education, what is the remaining amount for other social welfare schemes?**
-**A)**      ₹3,50,000
-**B)**      ₹4,00,000
-**C)**      ₹4,50,000
-**D)**      ₹6,50,000
+**A)**       ₹3,50,000
+**B)**       ₹4,00,000
+**C)**       ₹4,50,000
+**D)**       ₹6,50,000
 
 **Answer:** A) Calculation: Infrastructure = 40% of 10,00,000 = 4,00,000. Education = 25% of 10,00,000 = 2,50,000. Total spent = 4,00,000 + 2,50,000 = 6,50,000. Remaining = 10,00,000 - 6,50,000 = 3,50,000. Therefore, A is correct. B, C, and D are incorrect mathematical results of miscalculating the remaining percentage or the sum.
 

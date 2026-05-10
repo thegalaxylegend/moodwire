@@ -200,7 +200,7 @@ Provide a "Formula Bank" for a Social Science chapter.
 
 - **Legislative Function:** Policy Proposal + Parliamentary Debate + Voting + Law Implementation — The process by which a party's manifesto becomes a statute.
 
-- **The Opposition Formula:** Scrutiny of Govt + Critique of Policies + Presentation of Alternative Views — The primary role of the party that is not in power.
+- **The Opposition Formula:** Scrutiny of Govt + Critique of Policies + Presentation of Alternative Views — The primary role of the party that is not in [power](/blog/power-sharing-class-10-notes).
 
 - **Government Formation Logic:** Winning Majority (Seats > 50% of House) = Right to form Executive.
 
@@ -242,7 +242,7 @@ Provide a "Formula Bank" for a Social Science chapter.
 
 - **Internal [Democracy](/blog/outcomes-of-democracy-class-10-notes) Deficit:** Power Concentration + Lack of Regular Internal Elections + Lack of Membership Access.
 
-- **Dynastic Succession Formula:** Family Control + Merit Exclusion = Lack of Internal Democracy.
+- **Dynastic Succession Formula:** Family Control + Merit Exclusion = Lack of Internal [Democracy](/blog/outcomes-of-democracy-class-10-notes).
 
 - **[Money](/blog/money-and-credit-class-10-notes) Power Impact:** High Election Spending + Influence on Candidate Selection = Inequality in Competition.
 
@@ -256,7 +256,7 @@ Provide a "Formula Bank" for a Social Science chapter.
 
 - **Anti-Defection Logic (52nd Amendment):** Member changes party after election → Automatic loss of seat.
 
-**Examiner's Trap:** In the "Money Power" question, distinguish between "spending on campaigns" (legal but high) and "buying votes" (illegal).
+**Examiner's Trap:** In the "[Money](/blog/money-and-credit-class-10-notes) Power" question, distinguish between "spending on campaigns" (legal but high) and "buying votes" (illegal).
 
 **The Institutional Framework**
 

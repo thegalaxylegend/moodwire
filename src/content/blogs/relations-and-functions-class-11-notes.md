@@ -68,7 +68,7 @@ There are also several types of [functions](/blog/relations-functions-class-11-r
 
     - **Domain, Co-domain, Range of a Function**: Domain (x-values), Co-domain (possible y-values), Range (actual y-values)
 
-    - **One-One (Injective), Onto (Surjective), Bijective Functions**: One-One: unique output for every input, Onto: every element in co-domain has a pre-image, Bijective: both one-one and onto
+    - **One-One (Injective), Onto (Surjective), Bijective [Functions](/blog/relations-functions-class-11-revision-notes-jee-neet)**: One-One: unique output for every input, Onto: every element in co-domain has a pre-image, Bijective: both one-one and onto
 
     - **Composition of Functions**: (f ∘ g)(x) = f(g(x)), (g ∘ f)(x) = g(f(x))
 

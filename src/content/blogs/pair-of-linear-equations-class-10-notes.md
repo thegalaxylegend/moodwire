@@ -24,7 +24,7 @@ manualReview: false
 - Not using the correct method to solve the [equations](/blog/quadratic-equations-class-10-notes), i.e., substitution or elimination
 - Not simplifying the [equations](/blog/quadratic-equations-class-10-notes) before solving
 - Not checking the solution by plugging it back into the original [equations](/blog/quadratic-equations-class-10-notes)
-- Not representing the equations graphically to visualize the solution
+- Not representing the [equations](/blog/quadratic-equations-class-10-notes) graphically to visualize the solution
 
 ## ✏️ 3 Solved PYQs
 - Solve the equations: 2x + 3y = 7 and x - 2y = -3

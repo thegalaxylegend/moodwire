@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/data-structures-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 9, 2026*
+*Last Updated: May 10, 2026*
 
 ## 📑 Table of Contents
 
@@ -338,7 +338,7 @@ Optimizing the performance of Linear Data Structures is crucial for competitive 
  We can also optimize performance y using caching, which involves storing frequently accessed data and a faster, more accessible location. This can be particularly useful and scenarios where the same data is accessed multiple $\times.$ 
  Additionally, we can use parallel processing to optimize performance, which involves dividing the work among multiple processors or cores. This can significantly speed up computations, especially for large datasets. 
  To take it to the next level, we must consider the trade-offs between time and space complexity. In some cases, we may need to sacrifice space complexity to achieve better time complexity, n vice versa. 
- Lastly, it's essential to practice optimizing the performance of Linear Data Structures using various problems and scenarios. This will help us develop a deeper understanding of the concepts and improve our problem-solving skills.
+ Lastly, it's essential to practice optimizing the performance of Linear [Data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Structures using various problems and scenarios. This will help us develop a deeper understanding of the concepts and improve our problem-solving skills.
 
 | Data Structure | Operation | Time Complexity |
 | --- | --- | --- |

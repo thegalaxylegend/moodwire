@@ -185,6 +185,17 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/amanda-class-10-notes": {
+    "title": "Amanda! Class 10 English Recap — Grandmaster Guide",
+    "description": "Amanda! Class 10 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-10.",
+    "date": "2026-05-10",
+    "category": "Exam Notes",
+    "h1": "Amanda! Class 10 English Recap — Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/amines-class-12-notes": {
     "title": "Amines Class 12 Exam Prep Revision — Grandmaster Guide",
     "description": "Amines Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
@@ -856,6 +867,17 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/dust-of-snow-class-10-notes": {
+    "title": "Dust of Snow Class 10 English Recap — Grandmaster Guide",
+    "description": "Dust of Snow Class 10 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-10.",
+    "date": "2026-05-10",
+    "category": "Exam Notes",
+    "h1": "Dust of Snow Class 10 English Recap — Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/ecosystem-class-12-notes": {
     "title": "Ecosystem Class 12 Exam Prep Revision — Grandmaster Guide",
     "description": "Ecosystem Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
@@ -983,6 +1005,17 @@
     "date": "2026-03-28",
     "category": "Revision",
     "h1": "Federalism Class 11 Social Science Recap — CBSE 2026 Quick Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/fire-and-ice-class-10-notes": {
+    "title": "Fire and Ice Class 10 English Recap — Grandmaster Guide",
+    "description": "Fire and Ice Class 10 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-10.",
+    "date": "2026-05-10",
+    "category": "Exam Notes",
+    "h1": "Fire and Ice Class 10 English Recap — Grandmaster Guide",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",

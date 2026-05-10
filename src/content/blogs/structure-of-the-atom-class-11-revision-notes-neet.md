@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/structure-of-the-atom-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 9, 2026*
+*Last Updated: May 10, 2026*
 
 ## 📑 Table of Contents
 
@@ -158,7 +158,7 @@ Answer: A) An isotope has the same $Z$ but different $A$, while an isotone has t
 
     - **Isotopes**: Atoms of the same element with different numbers of neutrons.
 
-    - **Electron Configuration**: Distribution of electrons in an atom's orbitals.
+    - **Electron Configuration**: Distribution of electrons in an [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet)'s orbitals.
 
     - **Aufbau Principle**: Electrons fill the lowest available energy levels.
 

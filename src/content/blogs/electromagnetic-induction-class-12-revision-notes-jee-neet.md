@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/electromagnetic-induction-class-12-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 9, 2026*
+*Last Updated: May 10, 2026*
 
 ## 📑 Table of Contents
 
@@ -232,7 +232,7 @@ Electromagnetic Induction is a fundamental concept and physics where an electric
 - The induced [current](/blog/alternating-current-class-12-notes) and a conductor is zero if the conductor is stationary and there is no change and the magnetic field.
 - Transformers are used to increase or decrease the voltage of an AC circuit.
 - Generators use electromagnetic [induction](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) to convert mechanical energy into electrical energy.
-- The principle of electromagnetic induction is used and many devices such as motors, generators, n transformers.
+- The [principle](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) of electromagnetic induction is used and many devices such as motors, generators, n transformers.
 
 ## <a id="mcqs"></a>MCQs
 
@@ -271,7 +271,7 @@ Faraday's Law
 **5. A transformer is used to:**
 Increase the voltage of an AC circuit
 Decrease the voltage of an AC circuit
-Increase the current of an AC circuit
+Increase the [current](/blog/alternating-current-class-12-notes) of an AC circuit
 Decrease the current of an AC circuit
 
 **Answer:** A) A transformer uses the principle of electromagnetic induction to increase or decrease the voltage of an AC circuit.

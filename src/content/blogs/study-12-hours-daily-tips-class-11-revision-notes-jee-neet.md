@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/study-12-hours-daily-tips-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 9, [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)*
+*Last Updated: May 10, [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)*
 
 ## 📑 Table of Contents
 

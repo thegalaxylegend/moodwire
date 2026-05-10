@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/computer-organization-class-11-notes"
 ---
 
-*Last Updated: May 9, 2026*
+*Last Updated: May 10, 2026*
 
 ## 📑 Table of Contents
 
@@ -203,7 +203,7 @@ What are the Different Types of Computer Instructions? is a set of commands that
 
  Computer instructions can be broadly classified into several types based on their [functions](/blog/relations-and-functions-class-11-notes). The primary categories include **Data Transfer Instructions**, which move data from one location to another within the computer; **Arithmetic Instructions**, which perform mathematical operations such as addition, subtraction, multiplication, n division; **Control Flow Instructions**, which determine the order and which instructions are executed, including jumps, loops, n conditional statements; n **Input/Output Instructions**, which manage the interaction between the computer and external devices.
 
- **Data Transfer Instructions** are essential for any computational task, as they enable the movement of data between memory locations, registers, n input/output devices. Examples of data transfer instructions include load, store, move, n exchange. These instructions are fundamental and programming, as they allow for the manipulation of data, which is a core aspect of computing.
+ **[Data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) Transfer Instructions** are essential for any computational task, as they enable the movement of [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) between memory locations, registers, n input/output devices. Examples of [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) transfer instructions include load, store, move, n exchange. These instructions are fundamental and programming, as they allow for the manipulation of [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards), which is a core aspect of computing.
 
  **Arithmetic Instructions** are another vital category, as they perform the mathematical operations that are the backbone of computational tasks. These instructions can range from simple operations like addition and subtraction to more complex ones like multiplication and division. The efficiency and accuracy of arithmetic instructions are crucial for tasks that require precise numerical computations, such as scientific simulations and data [analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards).
 
