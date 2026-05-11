@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/data-structures-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 10, 2026*
+*Last Updated: May 11, 2026*
 
 ## 📑 Table of Contents
 
@@ -340,7 +340,7 @@ Optimizing the performance of Linear Data Structures is crucial for competitive 
  To take it to the next level, we must consider the trade-offs between time and space complexity. In some cases, we may need to sacrifice space complexity to achieve better time complexity, n vice versa. 
  Lastly, it's essential to practice optimizing the performance of Linear [Data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Structures using various problems and scenarios. This will help us develop a deeper understanding of the concepts and improve our problem-solving skills.
 
-| Data Structure | Operation | Time Complexity |
+| [Data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Structure | Operation | Time Complexity |
 | --- | --- | --- |
 | Array | Access | $O(1)$ |
 | Array | Search | $O(n)$ |

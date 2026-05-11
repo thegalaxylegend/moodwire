@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/electromagnetic-induction-class-12-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 10, 2026*
+*Last Updated: May 11, 2026*
 
 ## 📑 Table of Contents
 
@@ -237,7 +237,7 @@ Electromagnetic Induction is a fundamental concept and physics where an electric
 ## <a id="mcqs"></a>MCQs
 
 **1. A conductor moves through a magnetic field, causing an electric [current](/blog/alternating-current-class-12-notes) to flow. This phenomenon is an example of:**
-Electromagnetic Induction
+Electromagnetic [Induction](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee)
 Electromagnetic Radiation
 Faraday's Law
 Lenz's Law
@@ -272,7 +272,7 @@ Faraday's Law
 Increase the voltage of an AC circuit
 Decrease the voltage of an AC circuit
 Increase the [current](/blog/alternating-current-class-12-notes) of an AC circuit
-Decrease the current of an AC circuit
+Decrease the [current](/blog/alternating-current-class-12-notes) of an AC circuit
 
 **Answer:** A) A transformer uses the principle of electromagnetic induction to increase or decrease the voltage of an AC circuit.
 

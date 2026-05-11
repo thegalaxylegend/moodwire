@@ -27,7 +27,7 @@ manualReview: false
 - Not representing the [equations](/blog/quadratic-equations-class-10-notes) graphically to visualize the solution
 
 ## ✏️ 3 Solved PYQs
-- Solve the equations: 2x + 3y = 7 and x - 2y = -3
+- Solve the [equations](/blog/quadratic-equations-class-10-notes): 2x + 3y = 7 and x - 2y = -3
   Step 1: Write down the given equations
   Step 2: Solve the first equation for x: x = (7 - 3y)/2
   Step 3: Substitute x into the second equation: ((7 - 3y)/2) - 2y = -3

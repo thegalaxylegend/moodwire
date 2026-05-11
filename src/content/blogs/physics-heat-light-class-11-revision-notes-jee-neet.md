@@ -631,7 +631,7 @@ Exactly 5 mistakes.
 
 Strict, top 1% JEE/NEET ranker.
 "Last-Night Revision Format" study guide.
-"✏️ 3 Solved PYQs" for Physics (Heat and Light, Class 11).
+"✏️ 3 Solved PYQs" for [Physics](/blog/physics-mechanics-class-11-revision-notes-jee-neet) (Heat and Light, Class 11).
 JEE/NEET/CBSE students (Year 2026 target).
 
  * NO INTRODUCTIONS/PREAMBLES.

@@ -1113,7 +1113,7 @@ Think of static friction as a heavy-duty rubber band connecting the block to the
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 Strict, top 1% JEE/NEET ranker.
-"Ayush's Note" section for a blog post on Class 11 Physics Mechanics.
+"Ayush's Note" section for a blog post on Class 11 [Physics](/blog/physics-heat-light-class-11-revision-notes-jee-neet) Mechanics.
 JEE/NEET 2026 aspirants.
 4 specific bullet points (Hidden Pattern, "Always Check" Rule, PYQ Frequency Intel, 30-Second Shortcut).
 

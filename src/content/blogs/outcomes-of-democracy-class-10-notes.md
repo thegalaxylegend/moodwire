@@ -224,7 +224,7 @@ Universal Adult Franchise + Right to Contest $\rightarrow$ Political Equality
 
 - [Political](/blog/political-parties-class-10-notes) Equality: The condition where every citizen has equal influence over the [political](/blog/political-parties-class-10-notes) process.
 
-- Examiner's Trap: Political equality does not guarantee economic equality.
+- Examiner's Trap: [Political](/blog/political-parties-class-10-notes) equality does not guarantee economic equality.
 
 **The Representation Formula:**
 Diverse Interests $\cap$ Electoral Competition $\rightarrow$ Representative Democracy
@@ -356,7 +356,7 @@ Political Participation + Legal Rights $\rightarrow$ Women's Dignity
 
 - Political Participation: Women's involvement in voting and decision-making.
 
-- Legal Rights: Laws protecting women from discrimination.
+- Legal [Rights](/blog/consumer-rights-class-10-notes): Laws protecting women from discrimination.
 
 - Women's Dignity: The social respect and autonomy granted to women.
 
@@ -1084,7 +1084,7 @@ Specific, data-driven, authentic student/mentor tone. No filler. No intro.
 
  * *Concept:* Democracy isn't just about voting; it's about accountability, legitimacy, and reducing inequality.
  * *Chapter Connection:* Connect "Outcomes of Democracy" with "[Power](/blog/power-sharing-class-10-notes) Sharing" or "Federalism".
- * *Hidden Pattern:* The examiners love to link the *legitimacy* of democracy (Outcomes) to the *checks and balances* (Power Sharing). If a question asks why democracy is better despite delays, the answer often hinges on the "Power Sharing" mechanisms that ensure accountability.
+ * *Hidden Pattern:* The examiners love to link the *legitimacy* of democracy (Outcomes) to the *checks and balances* ([Power](/blog/power-sharing-class-10-notes) Sharing). If a question asks why democracy is better despite delays, the answer often hinges on the "[Power](/blog/power-sharing-class-10-notes) Sharing" mechanisms that ensure accountability.
 
  * *Concept:* Students often confuse "Economic Growth" with "Democracy".
  * *Edge Case:* Dictatorships often have higher economic growth rates in the short term than democracies.

@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/digital-logic-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 10, 2026*
+*Last Updated: May 11, 2026*
 
 ## 📑 Table of Contents
 
@@ -348,7 +348,7 @@ Ayush's Note on Digital Logic is a study guide that provides a detailed explanat
 ## <a id="what-are-the-different-types-of-logic-gates"></a>What are the different types of Logic Gates?
 
 Logic Gates is a fundamental component and digital electronics that performs a basic logical operation on one or more inputs. It includes AND, OR, n NOT gates as the primary logic gates. For Class 11 exam prep and 2026, the most important aspect is understanding how these gates are combined to form complex digital circuits. 
- Logic gates are the building blocks of digital electronics and are used to create complex digital circuits. They are used and a wide range of applications, from simple electronic devices to complex computer systems. 
+ Logic gates are the building blocks of digital electronics and are used to create complex digital circuits. They are used and a wide range of applications, from simple electronic devices to complex [computer](/blog/computer-organization-class-11-notes) systems. 
  The most common types of logic gates are: 
  AND gate: This gate produces an output of 1 only if all the inputs are 1. 
  OR gate: This gate produces an output of 1 if at least one of the inputs is 1. 
@@ -459,7 +459,7 @@ What are common Trap Questions for Digital Logic? is a crucial aspect of digital
  
  Digital logic is a fundamental subject that forms the basis of computer science and electronics. It deals with the [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) and implementation of digital circuits, which are used and a wide range of applications, from simple electronic devices to complex computer systems. In the context of Class 11 exams, digital logic is a critical subject that requires a thorough understanding of key concepts, including Boolean algebra, logic gates, n sequential circuits.
  
- One of the most common trap questions and digital logic is related to the understanding of Boolean algebra. Boolean algebra is a mathematical system that deals with the manipulation of logical operations, such as AND, OR, n NOT. It is used to design and simplify digital circuits. However, many students struggle to apply Boolean algebra to solve complex problems, n this is where trap questions come into play.
+ One of the most common trap questions and digital logic is related to the understanding of Boolean algebra. Boolean algebra is a mathematical system that deals with the manipulation of logical operations, such as AND, OR, n NOT. It is used to [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) and simplify digital circuits. However, many students struggle to apply Boolean algebra to solve complex problems, n this is where trap questions come into play.
  
  Another common trap question is related to the understanding of logic gates. Logic gates are the basic building blocks of digital circuits, n they are used to performing logical operations on input signals. There are several types of logic gates, including AND, OR, NOT, NAND, NOR, n XOR. Each logic gate has its own truth table, which defines the output of the gate for different input combinations. Trap questions related to logic gates often involve the application of these gates to solve complex problems.
  

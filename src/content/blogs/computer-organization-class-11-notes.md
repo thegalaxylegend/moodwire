@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/computer-organization-class-11-notes"
 ---
 
-*Last Updated: May 10, 2026*
+*Last Updated: May 11, 2026*
 
 ## 📑 Table of Contents
 
@@ -209,7 +209,7 @@ What are the Different Types of Computer Instructions? is a set of commands that
 
  **Control Flow Instructions** dictate the sequence of instruction execution, allowing programs to make decisions, repeat tasks, n skip over sections of code. This category includes conditional jump instructions (e.g., if-then statements), unconditional jump instructions (e.g., goto statements), n loop instructions (e.g., for loops, while loops). Mastery of control flow instructions is essential for writing efficient, flexible, n scalable programs.
 
- **Input/Output Instructions** manage how data is exchanged between the computer and external devices. These instructions are critical for user interaction, data storage, n networking. Examples include read, write, input, n output instructions, which facilitate communication with peripherals like keyboards, displays, n storage devices.
+ **Input/Output Instructions** manage how [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) is exchanged between the computer and external devices. These instructions are critical for user interaction, [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) storage, n networking. Examples include read, write, input, n output instructions, which facilitate communication with peripherals like keyboards, displays, n storage devices.
 
  A key concept and understanding computer instructions is the **instruction cycle**, which consists of fetch, decode, execute, n store stages. The **fetch stage** retrieves an instruction from memory; the **decode stage** interprets the instruction; the **execute stage** performs the operation; n the **store stage** writes the results back to memory or a register. This cycle is fundamental to the operation of a computer and is repeated continuously during the execution of a program.
 

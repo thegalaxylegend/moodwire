@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/data-structures-non-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 10, 2026*
+*Last Updated: May 11, 2026*
 
 ## 📑 Table of Contents
 
@@ -237,7 +237,7 @@ How to optimize the performance of Non-Linear [Data](/blog/data-structures-linea
    In addition to understanding time and space complexity, it's also essential to understand the different types of non-linear [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structures and their use cases. For example, a binary search tree is a type of tree that is used for efficient searching, inserting, n deleting nodes. 
    A heap is a type of tree that is used for efficient sorting and priority queuing. 
    The choice of [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structure depends on the specific problem and the requirements of the program. 
-   The following table summarizes the time and space complexity of different non-linear data structures: 
+   The following table summarizes the time and space complexity of different non-linear [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structures: 
 
 | Data Structure | Time Complexity | Space Complexity |
 | --- | --- | --- |

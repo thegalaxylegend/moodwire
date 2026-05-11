@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/the-p-block-elements-11-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 10, 2026*
+*Last Updated: May 11, 2026*
 
 ## 📑 Table of Contents
 
@@ -207,5 +207,5 @@ Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-n
      + Reaction with water and acids
      + Reaction with other non-metals
    * **Ores and Metallurgy**:
-     + Occurrence of p block elements
+     + Occurrence of p [block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) elements
      + Extraction of metals from ores

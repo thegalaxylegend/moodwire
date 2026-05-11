@@ -70,7 +70,7 @@ There are also several types of [functions](/blog/relations-functions-class-11-r
 
     - **One-One (Injective), Onto (Surjective), Bijective [Functions](/blog/relations-functions-class-11-revision-notes-jee-neet)**: One-One: unique output for every input, Onto: every element in co-domain has a pre-image, Bijective: both one-one and onto
 
-    - **Composition of Functions**: (f ∘ g)(x) = f(g(x)), (g ∘ f)(x) = g(f(x))
+    - **Composition of [Functions](/blog/relations-functions-class-11-revision-notes-jee-neet)**: (f ∘ g)(x) = f(g(x)), (g ∘ f)(x) = g(f(x))
 
     - **Inverse of a Function**: f^(-1)(x) is the inverse of f(x) if f(f^(-1)(x)) = x and f^(-1)(f(x)) = x
 

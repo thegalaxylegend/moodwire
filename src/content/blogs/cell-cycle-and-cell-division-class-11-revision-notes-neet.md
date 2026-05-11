@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/cell-cycle-n-cell-division-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 10, 2026*
+*Last Updated: May 11, 2026*
 
 ## 📑 Table of Contents
 
@@ -185,7 +185,7 @@ Continue your [revision](/blog/biological-classification-class-11-revision-notes
    - **Meiosis:** Reductive division, 2n → n, occurs and reproductive cells
    - **Cytokinesis:** Division of cytoplasm
    - **[Cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) Cycle Regulation:** Checkpoints (G1, G2, M), Cycling, CDK
-   - **Apoptosis:** Programmed cell death
+   - **Apoptosis:** Programmed [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) death
    - **Significance of Cell Cycle:** Growth, repair, replacement, asexual reproduction
    - **Errors and Cell Cycle:** Cancer, genetic disorders
 

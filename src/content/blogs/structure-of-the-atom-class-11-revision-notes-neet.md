@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/structure-of-the-atom-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 10, 2026*
+*Last Updated: May 11, 2026*
 
 ## 📑 Table of Contents
 
@@ -162,6 +162,6 @@ Answer: A) An isotope has the same $Z$ but different $A$, while an isotone has t
 
     - **Aufbau Principle**: Electrons fill the lowest available energy levels.
 
-    - **Pauli's Exclusion Principle**: No two electrons in an atom can have the same set of quantum numbers.
+    - **Pauli's Exclusion Principle**: No two electrons in an [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet) can have the same set of quantum numbers.
 
     - **Hund's Rule**: Electrons occupy each available orbital singly before pairing up.

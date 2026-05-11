@@ -77,7 +77,7 @@ manualReview: false
 - Use of mnemonics and other memory aids to recall key concepts and formulas
 
 ## 📝 Practice MCQs
-**1. What is the magnetic field at a distance of 0.1m from a wire carrying a current of 5A?**
+**1. What is the [magnetic](/blog/magnetic-effects-of-electric-current-class-10-notes) field at a distance of 0.1m from a wire carrying a current of 5A?**
 -
 A) 10⁻⁵ T
 -

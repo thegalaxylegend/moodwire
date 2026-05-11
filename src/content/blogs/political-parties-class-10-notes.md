@@ -228,7 +228,7 @@ Provide a "Formula Bank" for a Social Science chapter.
 
 - **One-Party System:** 1 Dominant Party + Limited/No Competition = Non-democratic (e.g., China).
 
-- **Two-Party System:** 2 Major Parties + Power Rotation = Competitive (e.g., USA, UK).
+- **Two-Party System:** 2 Major Parties + [Power](/blog/power-sharing-class-10-notes) Rotation = Competitive (e.g., USA, UK).
 
 - **Multi-Party System:** > 2 Parties + Ideological Diversity + Coalition Politics = Complex (e.g., India).
 
@@ -274,7 +274,7 @@ Provide a "Formula Bank" for a Social Science chapter.
 | Identifying a State Party | State Party Status Formula | ≥ 6% Assembly votes AND ≥ 2 Assembly seats |
 | Identifying the Govt Type | Coalition Government Formula | Sum of all party seats > 50% of total |
 | Analyzing Political Instability | Anti-Defection Logic | Number of members switching parties |
-| Evaluating Democracy Level | Party System Equations | Number of dominant parties in the system |
+| Evaluating [Democracy](/blog/outcomes-of-democracy-class-10-notes) Level | Party System Equations | Number of dominant parties in the system |
 | Assessing Party Corruption | Transparency Reform | Use of Affidavits and Asset Disclosure |
 | Evaluating Party Structure | Compositional Framework | Presence of Leaders, Members, and Followers |
 
@@ -282,7 +282,7 @@ Provide a "Formula Bank" for a Social Science chapter.
 
 - [ ] Can I differentiate between National and State party criteria perfectly?
 
-- [ ] Do I know the 4 main challenges (Internal Democracy, Dynasty, Money, Muscle)?
+- [ ] Do I know the 4 main challenges (Internal Democracy, Dynasty, [Money](/blog/money-and-credit-class-10-notes), Muscle)?
 
 - [ ] Can I list the 3 main functions of a political party?
 
