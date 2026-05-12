@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/digital-logic-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 11, 2026*
+*Last Updated: May 12, 2026*
 
 ## 📑 Table of Contents
 
@@ -473,7 +473,7 @@ What are common Trap Questions for Digital Logic? is a crucial aspect of digital
 | Trap Question | Solution |
 | --- | --- |
 | What is the Boolean expression for the given logic gate? | To solve this, you need to understand the truth table of the logic gate and apply Boolean algebra to derive the expression. |
-| Design a digital circuit to perform a specific function. | To solve this, you need to understand the requirements of the problem and apply your knowledge of logic gates and sequential circuits to design the circuit. |
+| [Design](/blog/algorithms-design-class-11-revision-notes-gate-boards) a digital circuit to perform a specific function. | To solve this, you need to understand the requirements of the problem and apply your knowledge of logic gates and sequential circuits to [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) the circuit. |
 | Analyze the given sequential circuit and determine its output. | To solve this, you need to understand the operation of the circuit and apply your knowledge of sequential circuits to determine the output. |
 | Simplify the given Boolean expression. | To solve this, you need to apply the rules of Boolean algebra to simplify the expression. |
 | Design a counter using a sequential circuit. | To solve this, you need to understand the requirements of the problem and apply your knowledge of sequential circuits to design the counter. |

@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-11T03:27:37.872Z",
+  "generatedAt": "2026-05-12T03:22:28.564Z",
   "dateRange": {
-    "startDate": "2026-04-11",
-    "endDate": "2026-05-11"
+    "startDate": "2026-04-12",
+    "endDate": "2026-05-12"
   },
-  "totalRows": 12,
+  "totalRows": 11,
   "opportunities": 0,
   "globalTopKeywords": [
     {
@@ -13,13 +13,13 @@
       "clicks": 0
     },
     {
-      "query": "examcompass.web.app",
+      "query": "mains foundation compass for all the subjects.",
       "impressions": 8,
       "clicks": 0
     },
     {
-      "query": "mains foundation compass for all the subjects.",
-      "impressions": 8,
+      "query": "examcompass.web.app",
+      "impressions": 6,
       "clicks": 0
     },
     {
@@ -55,10 +55,10 @@
   ],
   "pages": {
     "https://examcompass.pages.dev/": {
-      "impressions": 25,
+      "impressions": 22,
       "clicks": 0,
       "ctr": 0,
-      "position": 15.8,
+      "position": 17.8,
       "topQueries": [
         {
           "query": "exam compass",
@@ -69,10 +69,10 @@
         },
         {
           "query": "examcompass.web.app",
-          "impressions": 7,
+          "impressions": 5,
           "clicks": 0,
           "ctr": 0,
-          "position": 6.4
+          "position": 8.6
         },
         {
           "query": "examcompass.com",
@@ -89,13 +89,6 @@
           "position": 5
         },
         {
-          "query": "jee compass",
-          "impressions": 1,
-          "clicks": 0,
-          "ctr": 0,
-          "position": 8
-        },
-        {
           "query": "mains foundation compass for all the subjects.",
           "impressions": 1,
           "clicks": 0,
@@ -106,7 +99,7 @@
       "isOpportunity": false
     },
     "https://examcompass.pages.dev/jee-mains/": {
-      "impressions": 11,
+      "impressions": 12,
       "clicks": 0,
       "ctr": 0,
       "position": 5.6,
@@ -120,10 +113,10 @@
         },
         {
           "query": "jee compass",
-          "impressions": 2,
+          "impressions": 3,
           "clicks": 0,
           "ctr": 0,
-          "position": 6.5
+          "position": 6.3
         },
         {
           "query": "examcompass.web.app",

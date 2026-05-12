@@ -1556,50 +1556,50 @@ Money eliminates the need for the double coincidence of wants, and while formal 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. A small farmer, Ramesh, borrows $5,000 from a moneylender at a monthly interest rate of $2\%$. If he pays back $5,200 after one month, what is his actual effective monthly interest rate, and what does this represent in the context of credit?**
-**A)**        Effective rate is $4\%$; represents formal credit
-**B)**        Effective rate is $2\%$; represents informal credit
-**C)**        Effective rate is $4\%$; represents informal credit
-**D)**        Effective rate is $2\%$; represents formal credit
+**A)**         Effective rate is $4\%$; represents formal credit
+**B)**         Effective rate is $2\%$; represents informal credit
+**C)**         Effective rate is $4\%$; represents informal credit
+**D)**         Effective rate is $2\%$; represents formal credit
 
 **Answer:** C) The actual interest paid is $5,200 - $5,000 = $200. The rate is ($200 / $5,000) × 100 = $4\%$. Option A is wrong because $4\%$ is not the formal sector rate. Option B is wrong because the calculated rate is $4\%$, not $2\%$. Option D is wrong because moneylenders belong to the informal sector, not formal.
 
 ---
 
 **2. Which of the following correctly identifies the primary difference between the formal and informal sectors of credit in India?**
-**A)**        Formal sector loans are supervised by the Reserve Bank of India (RBI)
-**B)**        Informal sector loans always charge higher interest than the formal sector
-**C)**        Banks provide loans only to large-scale [industries](/blog/manufacturing-industries-class-10-notes)
-**D)**        The Reserve Bank of India supervises moneylenders and traders
+**A)**         Formal sector loans are supervised by the Reserve Bank of India (RBI)
+**B)**         Informal sector loans always charge higher interest than the formal sector
+**C)**         Banks provide loans only to large-scale [industries](/blog/manufacturing-industries-class-10-notes)
+**D)**         The Reserve Bank of India supervises moneylenders and traders
 
 **Answer:** A) Option A is the core regulatory truth. Option B is incorrect because while they *usually* charge more, the defining difference is supervision, not just the rate. Option C is wrong because banks provide loans to individuals and small businesses too. Option D is wrong because the RBI does NOT supervise the informal sector (moneylenders/traders).
 
 ---
 
 **3. Identify the situation where credit plays a 'positive role' in the economy:**
-**A)**        A farmer takes a loan for seeds but the crop fails due to pests
-**B)**        A manufacturer takes a loan to expand production and increases profit
-**C)**        A [consumer](/blog/consumer-rights-class-10-notes) takes a loan to buy luxury goods and falls into a debt trap
-**D)**        A small trader takes a loan to pay off an old debt
+**A)**         A farmer takes a loan for seeds but the crop fails due to pests
+**B)**         A manufacturer takes a loan to expand production and increases profit
+**C)**         A [consumer](/blog/consumer-rights-class-10-notes) takes a loan to buy luxury goods and falls into a debt trap
+**D)**         A small trader takes a loan to pay off an old debt
 
 **Answer:** B) Option B describes credit enabling income generation. Option A describes a 'debt trap' due to crop failure. Option C describes credit leading to a debt trap through consumption. Option D describes using credit to service existing debt, which does not create new value.
 
 ---
 
 **4. In a rural economy, which of the following is a major reason why the poor still depend on informal sources of credit despite high interest rates?**
-**A)**        Formal banks require high collateral for loans
-**B)**        Informal lenders are regulated by the RBI
-**C)**        Banks only provide loans to urban populations
-**D)**        Informal credit is always cheaper than bank loans
+**A)**         Formal banks require high collateral for loans
+**B)**         Informal lenders are regulated by the RBI
+**C)**         Banks only provide loans to urban populations
+**D)**         Informal credit is always cheaper than bank loans
 
 **Answer:** A) Option A is the fundamental barrier (collateral). Option B is false as RBI does not regulate informal lenders. Option C is false as banks exist in rural areas but have strict requirements. Option D is factually incorrect as informal credit is significantly more expensive.
 
 ---
 
 **5. A Self-Help Group (SHG) consists of 15-20 members. Which of the following is NOT a primary function of an SHG?**
-**A)**        Providing small loans to members to meet their needs
-**B)**        Encouraging regular savings among members
-**C)**        Acting as a direct intermediary for the Reserve Bank of India
-**D)**        Helping members become socially/economically empowered
+**A)**         Providing small loans to members to meet their needs
+**B)**         Encouraging regular savings among members
+**C)**         Acting as a direct intermediary for the Reserve Bank of India
+**D)**         Helping members become socially/economically empowered
 
 **Answer:** C) Option C is wrong because SHGs are community-based groups, not agents of the RBI. Option A is a core function. Option B is a core function. Option D is the ultimate social goal of the SHG model.
 

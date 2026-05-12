@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/electromagnetic-induction-class-12-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 11, 2026*
+*Last Updated: May 12, 2026*
 
 ## 📑 Table of Contents
 
@@ -243,7 +243,7 @@ Faraday's Law
 Lenz's Law
 
 **Answer:**
-A) Electromagnetic Induction is the production of an electromotive force across an electrical conductor and a changing magnetic field.
+A) Electromagnetic [Induction](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) is the production of an electromotive force across an electrical conductor and a changing magnetic field.
 **2. A coil is placed and a magnetic field and connected to a galvanometer. If the magnetic field is increased, the galvanometer shows:**
 No deflection
 Deflection and one direction
@@ -311,7 +311,7 @@ Continue your revision with these related guides:
 ## 🔁 Last 5 Minutes Box
 
 * Faraday's Law of Electromagnetic Induction: **ε = -N(dΦ/dt)** 
-   * Lenz's Law: **The induced current flows and a direction such that it opposes the change and magnetic flux** 
+   * Lenz's Law: **The induced [current](/blog/alternating-current-class-12-notes) flows and a direction such that it opposes the change and magnetic flux** 
    * Magnetic Flux (Φ): **Φ = BA\\cosθ** 
    * Induced Emf (ε): **ε = -dΦ/dt** 
    * Mutual Inductance (M): **M = Φ/I** 

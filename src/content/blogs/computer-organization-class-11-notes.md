@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/computer-organization-class-11-notes"
 ---
 
-*Last Updated: May 11, 2026*
+*Last Updated: May 12, 2026*
 
 ## 📑 Table of Contents
 
@@ -219,7 +219,7 @@ What are the Different Types of Computer Instructions? is a set of commands that
 
 | Instruction Type | Description | Examples |
 | --- | --- | --- |
-| Data Transfer | Move data between locations | Load, Store, Move, Exchange |
+| [Data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) Transfer | Move [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) between locations | Load, Store, Move, Exchange |
 | Arithmetic | Perform mathematical operations | Add, Subtract, Multiply, Divide |
 | Control Flow | Determine instruction execution sequence | Jump, Loop, Conditional Statements |
 | Input/Output | Manage interaction with external devices | Read, Write, Input, Output |

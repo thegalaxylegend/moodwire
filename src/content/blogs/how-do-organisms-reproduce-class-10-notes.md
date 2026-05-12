@@ -58,7 +58,7 @@ D) Asexual [reproduction](/blog/reproduction-in-organisms-class-12-notes) produc
 
 **Answer: C) Asexual [reproduction](/blog/reproduction-in-organisms-class-12-notes) involves a single parent, while sexual [reproduction](/blog/reproduction-in-organisms-class-12-notes) involves two parents.**
 
-**2. Which of the following is a type of asexual reproduction?**
+**2. Which of the following is a type of asexual [reproduction](/blog/reproduction-in-organisms-class-12-notes)?**
 -
 A) Fertilization
 -

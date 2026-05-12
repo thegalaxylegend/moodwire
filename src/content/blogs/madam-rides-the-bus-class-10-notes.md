@@ -339,50 +339,50 @@ D) The importance of family
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. The narrator of 'Madam Rides the Bus' boards the bus at which stop?**
-**A)**     Puducherry
-**B)**     Kanyakumari
-**C)**     Madurai
-**D)**     Rameswaram
+**A)**      Puducherry
+**B)**      Kanyakumari
+**C)**      Madurai
+**D)**      Rameswaram
 
 **Answer:** D) The narrator boards the bus at Rameswaram. The other options are wrong because the story specifically mentions Rameswaram as the starting point of the narrator's journey. Puducherry, Kanyakumari, and Madurai are not relevant to the narrator's bus journey.
 
 ---
 
 **2. The old woman sitting next to the narrator on the bus gives him ______.**
-**A)**     a piece of cake
-**B)**     a banana
-**C)**     a rupee note
-**D)**     a sweet
+**A)**      a piece of cake
+**B)**      a banana
+**C)**      a rupee note
+**D)**      a sweet
 
 **Answer:** C) The old woman gives the narrator a rupee note. The other options are incorrect because the story specifically mentions that she hands him a rupee note. The other items listed are not mentioned in the context of the exchange between the narrator and the old woman.
 
 ---
 
 **3. What is the narrator's reaction when the bus stops at a certain village?**
-**A)**     He gets off the bus
-**B)**     He looks out the window
-**C)**     He feels relieved
-**D)**     He gets anxious
+**A)**      He gets off the bus
+**B)**      He looks out the window
+**C)**      He feels relieved
+**D)**      He gets anxious
 
 **Answer:** A) The narrator gets off the bus when it stops at a certain village. The other options are incorrect because the story specifies that he disembarks at this stop. Looking out the window, feeling relieved, and getting anxious are not accurate descriptions of his actions at this point.
 
 ---
 
 **4. The bus conductor asks the narrator to pay ______ for the ticket.**
-**A)**     30 paise
-**B)**     40 paise
-**C)**     50 paise
-**D)**     60 paise
+**A)**      30 paise
+**B)**      40 paise
+**C)**      50 paise
+**D)**      60 paise
 
 **Answer:** B) The conductor asks for 40 paise for the ticket. The other options are wrong because 40 paise is the correct amount mentioned in the story for the ticket fare [from](/blog/from-the-diary-of-anne-frank-class-10-notes) Rameswaram to Kanyakumari. The other amounts do not match the story's details.
 
 ---
 
 **5. The narrator ultimately pays ______ for his ticket.**
-**A)**     30 paise
-**B)**     40 paise
-**C)**     50 paise
-**D)**     1 rupee
+**A)**      30 paise
+**B)**      40 paise
+**C)**      50 paise
+**D)**      1 rupee
 
 **Answer:** B) The narrator pays 40 paise for his ticket. The other options are incorrect because the story confirms that he pays 40 paise. The other amounts are not supported by the narrative.
 

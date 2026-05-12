@@ -89,7 +89,7 @@ D) 10⁻⁸ T
 
 **Answer: A) 10⁻⁵ T, using the formula B = μ₀I/(2πr)**
 
-**2. A coil of 100 turns, each of area 0.1m², is placed ∈ a magnetic field of 0.1T, what is the flux through the coil?**
+**2. A coil of 100 turns, each of area 0.1m², is placed ∈ a [magnetic](/blog/magnetic-effects-of-electric-current-class-10-notes) field of 0.1T, what is the flux through the coil?**
 -
 A) 0.01 Wb
 -

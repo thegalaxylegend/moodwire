@@ -231,7 +231,7 @@ Diverse Interests $\cap$ Electoral Competition $\rightarrow$ Representative Demo
 
 - Diverse Interests: The various social, religious, and economic groups in a country.
 
-- Electoral Competition: The struggle between political parties for votes.
+- Electoral Competition: The struggle between [political](/blog/political-parties-class-10-notes) parties for votes.
 
 - Representative Democracy: A system where the government reflects the pluralistic nature of society.
 
@@ -360,7 +360,7 @@ Political Participation + Legal Rights $\rightarrow$ Women's Dignity
 
 - Women's Dignity: The social respect and autonomy granted to women.
 
-- Examiner's Trap: Even with legal rights, "social attitudes" often hinder true gender equality in a democracy.
+- Examiner's Trap: Even with legal [rights](/blog/consumer-rights-class-10-notes), "social attitudes" often hinder true gender equality in a democracy.
 
 **The Caste-Conflict Formula:**
 Accommodation of Diversity $\rightarrow$ Reduction in Caste-based Conflict
@@ -1113,7 +1113,7 @@ Specific, data-driven, authentic student/mentor tone. No filler. No intro.
  * ### 👁️ Ayush's Note
  * 
 
-- **🔮 The Hidden Pattern:** The "Social Division" Loop. Examiners frequently bridge "Outcomes of Democracy" with "Federalism" and "Power Sharing". If a question asks how democracy handles social diversity, don't just talk about voting; link it to how democratic outcomes (like respecting minority rights) are sustained by the structural mechanisms (like Decentralization/Federalism) learned in previous chapters.
+- **🔮 The Hidden Pattern:** The "Social Division" Loop. Examiners frequently bridge "Outcomes of Democracy" with "Federalism" and "[Power](/blog/power-sharing-class-10-notes) Sharing". If a question asks how democracy handles social diversity, don't just talk about voting; link it to how democratic outcomes (like respecting minority rights) are sustained by the structural mechanisms (like Decentralization/Federalism) learned in previous chapters.
  * 
 
 - **🎯 The "Always Check" Rule:** The Economic Growth Trap. Never, under any circumstances, claim that democracy *guarantees* higher economic growth than dictatorship. Data shows dictatorships can sometimes grow faster.

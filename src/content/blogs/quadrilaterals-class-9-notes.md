@@ -59,7 +59,7 @@ manualReview: false
 
  
 ## 📝 Practice MCQs
-**1. What is the sum of the interior angles of a quadrilateral?**
+**1. What is the sum of the interior [angles](/blog/lines-and-angles-class-9-notes) of a quadrilateral?**
 -
 A) 180°
 -

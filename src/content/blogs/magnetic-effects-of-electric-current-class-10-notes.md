@@ -298,50 +298,50 @@ The magnetic force on a current-carrying wire is given by $F = BIL \sin{\theta}$
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. A wire of resistance $R$ and length $L$ is connected to a battery of emf $E$. If the wire is doubled in length, what is the new resistance?**
-**A)**                The resistance remains the same
-**B)**                The resistance becomes $2R$
-**C)**                The resistance becomes $rac{R}{2}$
-**D)**                The resistance becomes $R sqrt{2}$
+**A)**                 The resistance remains the same
+**B)**                 The resistance becomes $2R$
+**C)**                 The resistance becomes $rac{R}{2}$
+**D)**                 The resistance becomes $R sqrt{2}$
 
 **Answer:** D) The resistance becomes $R sqrt{2}$ because the resistance of a wire is directly proportional to its length, so doubling the length will increase the resistance by a factor of $sqrt{2}$. Options B and C are incorrect because the resistance will not become $2R$ or $rac{R}{2}$ respectively. Option A is incorrect because the resistance will change when the length of the wire is doubled.
 
 ---
 
 **2. A current $I$ flows through a conductor. If the conductor is placed in a magnetic field with a magnetic induction of $B$, what is the force experienced by the conductor?**
-**A)**                The force is zero
-**B)**                The force is $B I$
-**C)**                The force is $I / B$
-**D)**                The force is $B I / L$
+**A)**                 The force is zero
+**B)**                 The force is $B I$
+**C)**                 The force is $I / B$
+**D)**                 The force is $B I / L$
 
 **Answer:** B) The force experienced by the conductor is $B I$ according to Fleming's left-hand rule. Option A is incorrect because the force will not be zero. Option C is incorrect because the force is directly proportional to the current, not inversely proportional. Option D is incorrect because the force is not dependent on the length of the conductor.
 
 ---
 
 **3. A coil of $n$ turns is placed in a magnetic field with a magnetic induction of $B$. If the area of the coil is $A$ and the current flowing through it is $I$, what is the magnetic flux through the coil?**
-**A)**                The magnetic flux is zero
-**B)**                The magnetic flux is $B A$
-**C)**                The magnetic flux is $B A n$
-**D)**                The magnetic flux is $B A / n$
+**A)**                 The magnetic flux is zero
+**B)**                 The magnetic flux is $B A$
+**C)**                 The magnetic flux is $B A n$
+**D)**                 The magnetic flux is $B A / n$
 
 **Answer:** C) The magnetic flux through the coil is $B A n$ because the magnetic flux is directly proportional to the number of turns of the coil. Option A is incorrect because the magnetic flux will not be zero. Option B is incorrect because the magnetic flux is directly proportional to the number of turns, not just the area. Option D is incorrect because the magnetic flux is directly proportional to the number of turns, not inversely proportional.
 
 ---
 
 **4. A current $I$ flows through a conductor placed in a magnetic field with a magnetic induction of $B$. If the length of the conductor is $L$, what is the force experienced by the conductor when the current flows for a time $t$?**
-**A)**                The force is zero
-**B)**                The force is $B I t$
-**C)**                The force is $I / B t$
-**D)**                The force is $B I t / L$
+**A)**                 The force is zero
+**B)**                 The force is $B I t$
+**C)**                 The force is $I / B t$
+**D)**                 The force is $B I t / L$
 
 **Answer:** A) The force experienced by the conductor is zero because the force is only due to the current and the magnetic field, and the time for which the current flows do not affect the force. Option B is incorrect because the force is not directly proportional to the time. Option C is incorrect because the force is not inversely proportional to the time. Option D is incorrect because the force is not dependent on the length of the conductor.
 
 ---
 
 **5. A battery of emf $E$ is connected to a wire of resistance $R$ and length $L$. If the wire is made of a material with a resistivity of $ho$, what is the energy dissipated by the wire when a current $I$ flows through it for a time $t$?**
-**A)**                The [energy](/blog/sources-of-energy-class-10-notes) dissipated is zero
-**B)**                The energy dissipated is $E I t$
-**C)**                The energy dissipated is $I^2 R t$
-**D)**                The energy dissipated is $E I t / ho$
+**A)**                 The [energy](/blog/sources-of-energy-class-10-notes) dissipated is zero
+**B)**                 The energy dissipated is $E I t$
+**C)**                 The energy dissipated is $I^2 R t$
+**D)**                 The energy dissipated is $E I t / ho$
 
 **Answer:** C) The energy dissipated by the wire is $I^2 R t$ because the energy dissipated is directly proportional to the square of the current and the resistance. Option A is incorrect because the energy will not be zero. Option B is incorrect because the energy is not directly proportional to the emf. Option D is incorrect because the energy is directly proportional to the resistance, not inversely proportional to the resistivity.
 

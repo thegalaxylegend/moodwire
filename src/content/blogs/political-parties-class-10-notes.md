@@ -246,7 +246,7 @@ Provide a "Formula Bank" for a Social Science chapter.
 
 - **[Money](/blog/money-and-credit-class-10-notes) Power Impact:** High Election Spending + Influence on Candidate Selection = Inequality in Competition.
 
-- **Muscle Power Impact:** Criminalization of Politics + Intimidation of Voters = Breakdown of Rule of Law.
+- **Muscle [Power](/blog/power-sharing-class-10-notes) Impact:** Criminalization of Politics + Intimidation of Voters = Breakdown of Rule of Law.
 
 - **Lack of Meaningful Choice:** Similarity in Policies + Overlapping Ideologies = Reduced Voter Agency.
 
@@ -282,7 +282,7 @@ Provide a "Formula Bank" for a Social Science chapter.
 
 - [ ] Can I differentiate between National and State party criteria perfectly?
 
-- [ ] Do I know the 4 main challenges (Internal Democracy, Dynasty, [Money](/blog/money-and-credit-class-10-notes), Muscle)?
+- [ ] Do I know the 4 main challenges (Internal Democracy, Dynasty, [Money](/blog/money-and-credit-class-10-notes), muscle)?
 
 - [ ] Can I list the 3 main functions of a political party?
 
@@ -309,7 +309,7 @@ Political Parties (Class 10 Social Science).
 
 - saying USA has a multi-party system).
  * *Mistake 2: Functions vs. Challenges.* (The most common error). Students list "Challenges" when asked for "Functions" or vice versa.
- * *Mistake 3: Vague "Challenges" descriptions.* (Lack of keywords like 'dynastic succession', 'lack of internal democracy', 'money/muscle power').
+ * *Mistake 3: Vague "Challenges" descriptions.* (Lack of keywords like 'dynastic succession', 'lack of internal [democracy](/blog/outcomes-of-democracy-class-10-notes)', 'money/muscle power').
  * *Mistake 4: Misidentifying Party Types.* (National vs. Regional/State parties). Students often fail to mention the specific criteria for a National Party (e.g.
 
 - 6% votes + 4 seats in Lok Sabha).

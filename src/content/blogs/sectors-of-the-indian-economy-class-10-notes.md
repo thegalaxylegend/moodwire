@@ -206,7 +206,7 @@ No LaTeX (Use Unicode). No intro/outro. No fluff. Bullet points. Tables.
 
  1. GDP
  2. Value Added
- 3. Total National Income
+ 3. Total [National](/blog/lifelines-of-national-economy-class-10-notes) Income
  4. Per Capita Income
  5. Sectoral GDP Share (%)
  6. Sectoral Employment Share (%)
@@ -318,7 +318,7 @@ No LaTeX (Use Unicode). No intro/outro. No fluff. Bullet points. Tables.
 
 - Primary Sector Dependency: (Employment in Primary Sector / Total Employment) > (Value of Primary Sector / Total GDP) — A sign of an [economy](/blog/globalisation-and-the-indian-economy-class-10-notes) where agriculture employs most people but contributes the least value
 
-- Secondary Sector Contribution: Manufacturing Output / Total GDP — The weight of the industrial sector in the national economy
+- Secondary Sector Contribution: Manufacturing Output / Total GDP — The weight of the industrial sector in the national [economy](/blog/globalisation-and-the-indian-economy-class-10-notes)
 
 - Service Sector Ratio: Total Service Value / Total GDP — The ratio used to determine the modernization level of an economy
 
@@ -1361,50 +1361,50 @@ India's economy shows a structural mismatch where the Tertiary sector dominates 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. In a hypothetical village, if the Primary Sector contributes $5000$ units, the Secondary Sector $3000$ units, and the Tertiary Sector $2000$ units to the total GDP, what is the percentage share of the Tertiary Sector?**
-**A)**        20%
-**B)**        25%
-**C)**        30%
-**D)**        33.3%
+**A)**         20%
+**B)**         25%
+**C)**         30%
+**D)**         33.3%
 
 **Answer:** A) The total GDP is $5000 + 3000 + 2000 = 10000$. The Tertiary share is $(2000 / 10000) \times 100 = 20\%$. Option B is wrong because $25\%$ would require $2500$ units. Option C is wrong because $30\%$ would require $3000$ units. Option D is wrong because $33.3\%$ would require $3333$ units.
 
 ---
 
 **2. Which of the following best describes the 'disguised unemployment' situation often found in the agricultural sector of India?**
-**A)**        Workers are absent from work due to seasonal changes in crops.
-**B)**        More people are working in a field than are actually required for production.
-**C)**        Workers are highly skilled but cannot find jobs in the industrial sector.
-**D)**        Workers are paid less than the minimum wage set by the government.
+**A)**         Workers are absent from work due to seasonal changes in crops.
+**B)**         More people are working in a field than are actually required for production.
+**C)**         Workers are highly skilled but cannot find jobs in the industrial sector.
+**D)**         Workers are paid less than the minimum wage set by the government.
 
 **Answer:** B) Disguised unemployment occurs when the marginal productivity of labor is zero, meaning even if some people are removed, production remains the same. Option A describes seasonal unemployment. Option C describes structural unemployment. Option D describes exploitation/underemployment in terms of wages, not labor quantity.
 
 ---
 
 **3. If a country's GDP is increasing but the employment share in the Tertiary sector is not increasing proportionally, what does this indicate about the nature of economic growth?**
-**A)**        Employment is growing faster than GDP.
-**B)**        The economy is experiencing jobless growth.
-**C)**        The Primary sector is becoming the dominant sector.
-**D)**        The Secondary sector is failing to contribute to GDP.
+**A)**         Employment is growing faster than GDP.
+**B)**         The economy is experiencing jobless growth.
+**C)**         The Primary sector is becoming the dominant sector.
+**D)**         The Secondary sector is failing to contribute to GDP.
 
 **Answer:** B) Jobless growth occurs when the economy grows (GDP rises) but does not create enough jobs to keep pace. Option A is mathematically impossible if employment share lags. Option C is incorrect as the Tertiary sector is growing in value. Option D is an assumption not supported by the data provided.
 
 ---
 
 **4. Identify the correct relationship between the sectors regarding the flow of goods and services: A farmer produces wheat (X), a factory turns it into flour (Y), and a shopkeeper sells it to a [consumer](/blog/consumer-rights-class-10-notes) (Z). Which sequence represents the correct sectoral transition?**
-**A)**        X (Tertiary) → Y (Primary) → Z (Secondary)
-**B)**        X (Secondary) → Y (Tertiary) → Z (Primary)
-**C)**        X (Primary) → Y (Secondary) → Z (Tertiary)
-**D)**        X (Primary) → Y (Tertiary) → Z (Secondary)
+**A)**         X (Tertiary) → Y (Primary) → Z (Secondary)
+**B)**         X (Secondary) → Y (Tertiary) → Z (Primary)
+**C)**         X (Primary) → Y (Secondary) → Z (Tertiary)
+**D)**         X (Primary) → Y (Tertiary) → Z (Secondary)
 
 **Answer:** C) Wheat is a natural resource (Primary), flour is a manufactured good (Secondary), and selling/distribution is a service (Tertiary). Option A, B, and D all misclassify the fundamental nature of the production stages.
 
 ---
 
 **5. A worker in the organized sector receives paid leave, medical benefits, and fixed working hours. If this same worker were moved to the unorganized sector, which of the following would most likely change?**
-**A)**        The worker would gain job security and regular wages.
-**B)**        The worker would lose social security benefits and face irregular work.
-**C)**        The worker would move from a low-productivity to a high-productivity role.
-**D)**        The worker would be exempt from government labor laws.
+**A)**         The worker would gain job security and regular wages.
+**B)**         The worker would lose social security benefits and face irregular work.
+**C)**         The worker would move from a low-productivity to a high-productivity role.
+**D)**         The worker would be exempt from government labor laws.
 
 **Answer:** B) The unorganized sector is characterized by low wages, no job security, and no benefits. Option A is the opposite of the truth. Option C is incorrect as unorganized work is typically low-productivity. Option D is incorrect because while laws are often not enforced, the worker is not 'exempt' by right; they are simply exploited.
 

@@ -1278,7 +1278,7 @@ JEE/NEET 2026 aspirants.
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 Strict, top 1% JEE/NEET ranker.
-"Last 5 Minutes Box" for Class 11 Physics Mechanics.
+"Last 5 Minutes Box" for Class 11 [Physics](/blog/physics-heat-light-class-11-revision-notes-jee-neet) Mechanics.
 JEE/NEET 2026 aspirants.
 Last-night revision (high yield, ruthless brevity, no fluff).
 

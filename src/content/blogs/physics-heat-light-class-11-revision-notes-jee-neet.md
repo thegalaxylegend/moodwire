@@ -897,7 +897,7 @@ Q3 (JEE Main 2019): A 10 g block of ice at 0°C is converted into steam at 100°
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 Strict, top 1% JEE/NEET ranker.
-"The One Thing Most Students Get Wrong" section for a Class 11 Physics (Heat & Light) revision guide.
+"The One Thing Most Students Get Wrong" section for a Class 11 [Physics](/blog/physics-mechanics-class-11-revision-notes-jee-neet) (Heat & Light) revision guide.
 JEE Advanced & NEET students.
 400+ words.
 No intro, no fluff, no "".
