@@ -58,7 +58,7 @@ manualReview: false
 
 - **[Active](/blog/active-and-passive-voice-class-10-notes)-Passive Formula:** [Active](/blog/active-and-passive-voice-class-10-notes) (A) = Subject + Verb + Object, Passive (P) = Object + Verb + Subject — A = focus on doer, P = focus on action
 
-- **Voice Formula:** Active Voice (AV) = Subject + Verb + Object, Passive Voice (PV) = Object + Verb + Subject — AV = emphasis on subject, PV = emphasis on object
+- **Voice Formula:** [Active](/blog/active-and-passive-voice-class-10-notes) Voice (AV) = Subject + Verb + Object, Passive Voice (PV) = Object + Verb + Subject — AV = emphasis on subject, PV = emphasis on object
 Examiner's Trap: Be careful with verb tenses and subject-verb agreement to avoid losing marks.
 
 #### **Literature Formulas**
@@ -369,7 +369,7 @@ Step 3: Match the tone to the answer choices based on the analysis.
 - **🎯 The "Always Check" Rule:** 
  
 
-- Examiners love to test the boundary condition where the student has to identify the poetic device used in a specific line from Amanda!.
+- Examiners love to test the boundary condition where the student has to identify the poetic device used in a specific line [from](/blog/from-the-diary-of-anne-frank-class-10-notes) Amanda!.
 
 - Always check if the question is asking for a poetic device (e.g. simile, metaphor, alliteration) and ensure you can identify it quickly.
 
@@ -433,50 +433,50 @@ Step 3: Match the tone to the answer choices based on the analysis.
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. The poem 'Amanda!' is written by**
-**A)**     Robert Frost
-**B)**     Edgar Allan Poe
-**C)**     Hilaire Belloc
-**D)**     William Wordsworth
+**A)**      Robert Frost
+**B)**      Edgar Allan Poe
+**C)**      Hilaire Belloc
+**D)**      William Wordsworth
 
 **Answer:** C) The poem 'Amanda!' is written by Hilaire Belloc. Robert Frost is known for 'The Road Not Taken', Edgar Allan Poe for 'The Raven', and William Wordsworth for 'I Wandered Lonely as a Cloud'. Belloc's works are often humorous and satirical, fitting the tone of 'Amanda!'.
 
 ---
 
 **2. What is the central theme of the poem 'Amanda!'?**
-**A)**     The importance of freedom
-**B)**     The consequences of lying
-**C)**     The effects of constant nagging on a child
-**D)**     The benefits of hard work
+**A)**      The importance of freedom
+**B)**      The consequences of lying
+**C)**      The effects of constant nagging on a child
+**D)**      The benefits of hard work
 
 **Answer:** C) The central theme of 'Amanda!' revolves around the effects of constant nagging on a child. The poem highlights how Amanda is constantly being scolded and reminded of her duties, leading to a sense of suffocation and desire for freedom. The other options, while related to the poem, are not the central theme.
 
 ---
 
 **3. Amanda is scolded for**
-**A)**     Eating chocolates
-**B)**     Not cleaning her room
-**C)**     Drawing on the walls
-**D)**     All of the above
+**A)**      Eating chocolates
+**B)**      Not cleaning her room
+**C)**      Drawing on the walls
+**D)**      All of the above
 
 **Answer:** D) Amanda is scolded for multiple reasons including eating chocolates, not cleaning her room, and drawing on the walls. The poem lists various instances where Amanda is reprimanded by her parents, showcasing their constant intervention in her activities.
 
 ---
 
 **4. The poet portrays Amanda as a**
-**A)**     Responsible child
-**B)**     Carefree and imaginative child
-**C)**     Mature and disciplined child
-**D)**     Sad and lonely child
+**A)**      Responsible child
+**B)**      Carefree and imaginative child
+**C)**      Mature and disciplined child
+**D)**      Sad and lonely child
 
 **Answer:** B) The poet portrays Amanda as a carefree and imaginative child. Through her desires to be a mermaid, a queen, or a girl on a solitary island, the poem depicts Amanda's longing for freedom and a life less restricted by adult supervision.
 
 ---
 
 **5. The tone of the poem 'Amanda!' is**
-**A)**     Serious and somber
-**B)**     Humorous and satirical
-**C)**     Critical and disapproving
-**D)**     Nostalgic and sentimental
+**A)**      Serious and somber
+**B)**      Humorous and satirical
+**C)**      Critical and disapproving
+**D)**      Nostalgic and sentimental
 
 **Answer:** B) The tone of 'Amanda!' is humorous and satirical. The poet uses irony and exaggeration to critique the parenting style of Amanda's parents, highlighting the absurdity of their constant demands and scolding.
 

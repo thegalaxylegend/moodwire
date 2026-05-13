@@ -313,7 +313,7 @@ Political Parties (Class 10 Social Science).
  * *Mistake 4: Misidentifying Party Types.* (National vs. Regional/State parties). Students often fail to mention the specific criteria for a National Party (e.g.
 
 - 6% votes + 4 seats in Lok Sabha).
- * *Mistake 5: Misunderstanding the "Iron Law of Oligarchy" (if applicable to Class 10) or general Party Roles.* Actually, for Class 10, a better mistake is the "Role of Opposition." Students often think the opposition is just a critic, whereas they are a check on power. Let's go with "Vague description of the role of political parties in a democracy."
+ * *Mistake 5: Misunderstanding the "Iron Law of Oligarchy" (if applicable to Class 10) or general Party Roles.* Actually, for Class 10, a better mistake is the "Role of Opposition." Students often think the opposition is just a critic, whereas they are a check on [power](/blog/power-sharing-class-10-notes). Let's go with "Vague description of the role of political parties in a democracy."
 
  * *Mistake 1: The System Swap.*
  * 🔴: Confusing Multi-party (India) with Two-party (USA/UK).
@@ -323,7 +323,7 @@ Political Parties (Class 10 Social Science).
 
  * *Mistake 2: The Function-Challenge Flip.*
  * 🔴: Listing "Dynastic succession" as a function.
- * ✅: Functions = What they *do* (contesting elections, making laws). Challenges = What is *wrong* (money power, lack of democracy).
+ * ✅: Functions = What they *do* (contesting elections, making laws). Challenges = What is *wrong* ([money](/blog/money-and-credit-class-10-notes) power, lack of democracy).
  * 💸: 3 marks (long answer).
  * 🔧: Function = Positive Action; Challenge = Negative Problem.
 

@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/computer-organization-class-11-notes"
 ---
 
-*Last Updated: May 12, 2026*
+*Last Updated: May 13, 2026*
 
 ## 📑 Table of Contents
 
@@ -234,7 +234,7 @@ Computer Organization is the study of the structure and operation of a computer'
 
  **Key Concepts and Their Interrelations:**
  - **Pipelining**: A technique for improving the execution speed of a computer y breaking down the execution of instructions into a series of stages.
- - **Cache Memory**: A small, fast memory that stores frequently accessed data or instructions, reducing the time it takes to access main memory.
+ - **Cache Memory**: A small, fast memory that stores frequently accessed [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) or instructions, reducing the time it takes to access main memory.
  - **Virtual Memory**: A memory management capability that allows a computer to use secondary storage (like hard drives) n addition to primary memory (RAM) to execute programs.
 
  A student-centric tip for remembering these concepts and their applications is to relate them to real-world scenarios. For example, understanding how a web browser uses cache to quickly reload previously visited pages can make the concept of cache memory more tangible and easier to remember. Similarly, recognizing how multitasking on a computer relies on virtual memory to allocate sufficient memory for running multiple applications simultaneously can deepen one's understanding of virtual memory.

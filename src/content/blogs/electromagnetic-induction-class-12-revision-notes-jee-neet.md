@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/electromagnetic-induction-class-12-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 12, 2026*
+*Last Updated: May 13, 2026*
 
 ## 📑 Table of Contents
 
@@ -259,7 +259,7 @@ Kinetic energy
 Potential energy
 
 **Answer:**
-A) A generator uses the principle of electromagnetic induction to convert mechanical energy into electrical energy.
+A) A generator uses the [principle](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) of electromagnetic induction to convert mechanical energy into electrical energy.
 **4. The direction of the induced [current](/blog/alternating-current-class-12-notes) and a conductor is determined y:**
 Right-hand rule
 Left-hand rule

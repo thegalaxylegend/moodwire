@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/algorithms-design-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 12, 2026*
+*Last Updated: May 13, 2026*
 
 ## 📑 Table of Contents
 
@@ -440,7 +440,7 @@ Continue your revision with these related guides:
   + [Linear](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Time: O(n)
   + Quadratic Time: $O(n^2)$
   + Exponential Time: $O(2^n)$
-* **Sorting Algorithms**:
+* **Sorting [Algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)**:
   + Bubble Sort: $O(n^2)$
   + Selection Sort: $O(n^2)$
   + Insertion Sort: $O(n^2)$

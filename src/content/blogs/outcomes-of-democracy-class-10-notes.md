@@ -289,7 +289,7 @@ Negotiation + Compromise $\rightarrow$ Conflict Resolution
 
 - Compromise: The settlement of differences by mutual concession.
 
-- Conflict Resolution: The peaceful ending of social or political disputes.
+- Conflict Resolution: The peaceful ending of social or [political](/blog/political-parties-class-10-notes) disputes.
 
 - Examiner's Trap: Democracy is not about "winning" but about "accommodating" different views.
 
@@ -380,7 +380,7 @@ Rule of Law + Majority Constraint $\rightarrow$ Minority Rights
 
 - Majority Constraint: The constitutional limits on what the majority can do.
 
-- Minority Rights: The protection of the interests of smaller groups.
+- Minority [Rights](/blog/consumer-rights-class-10-notes): The protection of the interests of smaller groups.
 
 - Examiner's Trap: Democracy is NOT "Rule by the Majority"; it is "Rule by the Majority within the limits of the Law."
 
@@ -1174,7 +1174,7 @@ Specific, data-driven, authentic student/mentor tone. No filler. No intro.
 
  *Refining the content for maximum "Top 1% Ranker" feel.*
 
- *Hidden Pattern: Connection between Outcomes and Power Sharing/Federalism (Social accommodation).*
+ *Hidden Pattern: Connection between Outcomes and [Power](/blog/power-sharing-class-10-notes) Sharing/Federalism (Social accommodation).*
  *Always Check: Economic growth vs. Legitimacy/Accountability (The GDP Trap).*
  *PYQ: 2019 (Accountability), 2021 (Dignity/Women), 2023 (Inequality).*
  *Shortcut: L.A.C. (Legitimacy, Accountability, Conflict Resolution).*

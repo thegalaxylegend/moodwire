@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-12T03:22:28.564Z",
+  "generatedAt": "2026-05-13T03:29:28.374Z",
   "dateRange": {
-    "startDate": "2026-04-12",
-    "endDate": "2026-05-12"
+    "startDate": "2026-04-13",
+    "endDate": "2026-05-13"
   },
   "totalRows": 11,
   "opportunities": 0,
@@ -19,7 +19,7 @@
     },
     {
       "query": "examcompass.web.app",
-      "impressions": 6,
+      "impressions": 4,
       "clicks": 0
     },
     {
@@ -55,10 +55,10 @@
   ],
   "pages": {
     "https://examcompass.pages.dev/": {
-      "impressions": 22,
+      "impressions": 20,
       "clicks": 0,
       "ctr": 0,
-      "position": 17.8,
+      "position": 18.8,
       "topQueries": [
         {
           "query": "exam compass",
@@ -69,10 +69,10 @@
         },
         {
           "query": "examcompass.web.app",
-          "impressions": 5,
+          "impressions": 3,
           "clicks": 0,
           "ctr": 0,
-          "position": 8.6
+          "position": 13.7
         },
         {
           "query": "examcompass.com",

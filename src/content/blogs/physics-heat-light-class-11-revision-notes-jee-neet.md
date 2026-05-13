@@ -913,7 +913,7 @@ No intro, no fluff, no "".
  * ### The diagnostic question
  * ### How to never forget this
 
- * *Topic:* Physics Heat & Light (Class 11).
+ * *Topic:* [Physics](/blog/physics-mechanics-class-11-revision-notes-jee-neet) Heat & Light (Class 11).
  * *Heat:* Common mistake: Assuming $Q = mcΔT$ always works or neglecting the work done during expansion/phase change, or confusing heat with temperature.
 
 - **Another one:** Adiabatic vs Isothermal processes (thinking $PV^γ = \text{const}$ applies to everything).

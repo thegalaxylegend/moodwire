@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/data-structures-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 12, 2026*
+*Last Updated: May 13, 2026*
 
 ## 📑 Table of Contents
 
@@ -356,7 +356,7 @@ Optimizing the performance of Linear Data Structures is crucial for competitive 
 - Queues follow First-In-First-Out (FIFO) order.
 - Arrays are fixed-size [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures, while linked lists are dynamic.
 - Search, insertion, n deletion operations and arrays take O(n) time on average.
-- Stacks and queues are both linear data structures, but serve different purposes.
+- Stacks and queues are both linear [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures, but serve different purposes.
 
 ## <a id="mcqs"></a>MCQs
 

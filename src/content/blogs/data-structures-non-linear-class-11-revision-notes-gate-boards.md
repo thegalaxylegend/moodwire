@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/data-structures-non-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 12, 2026*
+*Last Updated: May 13, 2026*
 
 ## 📑 Table of Contents
 
@@ -247,7 +247,7 @@ How to optimize the performance of Non-Linear [Data](/blog/data-structures-linea
 | Binary Search Tree | $O(\log n)$ | $O(n)$ |
 | Heap | $O(\log n)$ | $O(n)$ |
 
-- A Trie is a tree-like data structure used for efficient storage and retrieval of strings.
+- A Trie is a tree-like [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structure used for efficient storage and retrieval of strings.
 - Graph traversal [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) include Breadth-First Search (BFS), Depth-First Search (DFS), n Dijkstra's Algorithm.
 - Hash Tables have an average time complexity of O(1) for finding elements.
 - Graphs are non-linear data structures that consist of nodes connected y edges.

@@ -400,50 +400,50 @@ c) / 2a — [quadratic formula to find roots]
 - **🎯 If you can only remember ONE thing:** ** The story "A Letter to God" by G.L. Fuentes teaches us about the importance of having faith and being honest, as seen through Lencho's unwavering trust in God.
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 **1. What is the main reason for Lencho's anger towards God at the end of the story?**
-**A)**        He was angry for not receiving the whole amount of money he requested
-**B)**        He was angry because his crops were destroyed
-**C)**        He was angry with the postman for not delivering the letter
-**D)**        He was angry because he was poor
+**A)**         He was angry for not receiving the whole amount of money he requested
+**B)**         He was angry because his crops were destroyed
+**C)**         He was angry with the postman for not delivering the letter
+**D)**         He was angry because he was poor
 
 **Answer:** A) Lencho was angry because he only received ₹70 out of the ₹100 he requested [from](/blog/from-the-diary-of-anne-frank-class-10-notes) God, feeling God had not fulfilled his promise. His anger wasn't primarily because his crops were destroyed (that was his initial problem), nor was it with the postman (though the postman did deliver the letter), and being poor was his general situation, not the reason for his anger at God.
 
 ---
 
 **2. How much money did Lencho write to God requesting?**
-**A)**        ₹50
-**B)**        ₹100
-**C)**        ₹70
-**D)**        ₹80
+**A)**         ₹50
+**B)**         ₹100
+**C)**         ₹70
+**D)**         ₹80
 
-**Answer:** B) Lencho requested ₹100 from God to replant his crops. The other options are incorrect as there is no mention of ₹50, ₹70, or ₹80 in the context of his request to God.
+**Answer:** B) Lencho requested ₹100 [from](/blog/from-the-diary-of-anne-frank-class-10-notes) God to replant his crops. The other options are incorrect as there is no mention of ₹50, ₹70, or ₹80 in the context of his request to God.
 
 ---
 
 **3. What fraction of his requested amount did Lencho receive?**
-**A)**        1/2
-**B)**        1/4
-**C)**        1/5
-**D)**        7/10
+**A)**         1/2
+**B)**         1/4
+**C)**         1/5
+**D)**         7/10
 
 **Answer:** D) Lencho received ₹70 out of ₹100. This can be represented as 7/10 or 0.7 of his requested amount. The other fractions do not accurately represent this relationship.
 
 ---
 
 **4. Who helped Lencho by giving him ₹70?**
-**A)**        The priest
-**B)**        The postman
-**C)**        The villagers
-**D)**        God
+**A)**         The priest
+**B)**         The postman
+**C)**         The villagers
+**D)**         God
 
 **Answer:** C) The villagers, moved by Lencho's faith and situation, collected and gave him ₹70. The priest, postman, and God (in a direct sense) are not credited with this act.
 
 ---
 
 **5. What was Lencho's occupation?**
-**A)**        He was a priest
-**B)**        He was a farmer
-**C)**        He was a postman
-**D)**        He was a teacher
+**A)**         He was a priest
+**B)**         He was a farmer
+**C)**         He was a postman
+**D)**         He was a teacher
 
 **Answer:** B) Lencho was a farmer. His letter to God was about his crops being destroyed and requesting financial help, which is directly related to a farmer's livelihood.
 

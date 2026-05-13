@@ -383,50 +383,50 @@ Examiner's Trap: Be aware of the differences between modals of necessity and mod
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. If it _____ (rain) yesterday, the crops _____ (not die).**
-**A)**    rained, wouldn't have died
-**B)**    rains, won't die
-**C)**    will rain, don't die
-**D)**    rain, didn't die
+**A)**     rained, wouldn't have died
+**B)**     rains, won't die
+**C)**     will rain, don't die
+**D)**     rain, didn't die
 
 **Answer:** A) The correct answer is 'rained, wouldn't have died' because it is a third conditional sentence. The third conditional is used for past conditions that did not occur and their probable past consequences. The sentence structure for third conditional is 'if + subject + had + past participle, subject + would + have + past participle'. The other options are incorrect because they do not follow the correct sentence structure for the given condition.
 
 ---
 
 **2. You _____ (must/should/can) try to finish your homework on time.**
-**A)**    must
-**B)**    should
-**C)**    can
-**D)**    may
+**A)**     must
+**B)**     should
+**C)**     can
+**D)**     may
 
 **Answer:** B) The correct answer is 'should' because it is used to express advice or recommendation. 'Must' is used for obligation, 'can' is used for ability, and 'may' is used for permission. The sentence is giving advice, so 'should' is the correct modal verb to use.
 
 ---
 
 **3. If you _____ (study) for 3 hours, you _____ (pass) the exam.**
-**A)**    study, will pass
-**B)**    studies, passes
-**C)**    will study, pass
-**D)**    would study, would pass
+**A)**     study, will pass
+**B)**     studies, passes
+**C)**     will study, pass
+**D)**     would study, would pass
 
 **Answer:** A) The correct answer is 'study, will pass' because it is a first conditional sentence. The first conditional is used for future conditions that are likely to occur and their probable future consequences. The sentence structure for first conditional is 'if + present simple, subject + will + base form'. The other options are incorrect because they do not follow the correct sentence structure for the given condition.
 
 ---
 
 **4. The teacher _____ (can/may/must) be at the staff room now.**
-**A)**    can
-**B)**    may
-**C)**    must
-**D)**    shall
+**A)**     can
+**B)**     may
+**C)**     must
+**D)**     shall
 
 **Answer:** B) The correct answer is 'may' because it is used to express possibility. 'Can' is used for ability, 'must' is used for obligation, and 'shall' is used for future action or obligation. The sentence is expressing possibility, so 'may' is the correct modal verb to use.
 
 ---
 
 **5. If I _____ (have) 1000 rupees, I _____ (buy) that phone.**
-**A)**    have, will buy
-**B)**    had, would buy
-**C)**    will have, buy
-**D)**    would have, would buy
+**A)**     have, will buy
+**B)**     had, would buy
+**C)**     will have, buy
+**D)**     would have, would buy
 
 **Answer:** A) The correct answer is 'have, will buy' because it is a first conditional sentence. The first conditional is used for future conditions that are likely to occur and their probable future consequences. The sentence structure for first conditional is 'if + present simple, subject + will + base form'. The other options are incorrect because they do not follow the correct sentence structure for the given condition.
 

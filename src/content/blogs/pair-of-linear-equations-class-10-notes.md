@@ -32,7 +32,7 @@ manualReview: false
   Step 2: Solve the first equation for x: x = (7 - 3y)/2
   Step 3: Substitute x into the second equation: ((7 - 3y)/2) - 2y = -3
   Step 4: Simplify and solve for y: (7 - 3y)/2 - 2y = -3 => 7 - 3y - 4y = -6 => -7y = -13 => y = 13/7
-  Step 5: Substitute y back into one of the original equations to find x: x = (7 - 3 (13/7))/2 => x = (49 - 39)/14 => x = 10/14 => x = 5/7
+  Step 5: Substitute y back into one of the original [equations](/blog/quadratic-equations-class-10-notes) to find x: x = (7 - 3 (13/7))/2 => x = (49 - 39)/14 => x = 10/14 => x = 5/7
 - Solve the equations: x + y = 4 and 2x - 2y = -2
   Step 1: Write down the given equations
   Step 2: Solve the first equation for x: x = 4 - y

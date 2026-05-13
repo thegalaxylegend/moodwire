@@ -101,7 +101,7 @@ D) 10 Wb
 
 **Answer: A) 0.01 Wb, using the formula Φ = BA cosθ**
 
-**3. A charged particle of mass 10⁻²⁶ kg and charge 1.6 × 10⁻¹⁹ C is moving ∈ a magnetic field of 0.1T with a velocity of 10⁵ m/s, what is the force on the particle?**
+**3. A charged particle of mass 10⁻²⁶ kg and charge 1.6 × 10⁻¹⁹ C is moving ∈ a [magnetic](/blog/magnetic-effects-of-electric-current-class-10-notes) field of 0.1T with a velocity of 10⁵ m/s, what is the force on the particle?**
 -
 A) 1.6 × 10⁻¹⁴ N
 -

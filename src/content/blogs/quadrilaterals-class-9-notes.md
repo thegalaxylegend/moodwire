@@ -95,7 +95,7 @@ D) 8 cm
 
 **Answer: C) √34.**
 
-**4. What is the sum of the exterior angles of a quadrilateral?**
+**4. What is the sum of the exterior [angles](/blog/lines-and-angles-class-9-notes) of a quadrilateral?**
 -
 A) 180°
 -

@@ -169,7 +169,7 @@ manualReview: false
 
 - **Geothermal Power Plants (India):** Parvati Valley (Himachal Pradesh) + Puga Valley (Ladakh) — *Experimental projects*
 
-*Examiner's Trap:* Incorrectly identifying the primary raw material for nuclear energy or the specific mechanism by which each non-conventional source generates electricity.
+*Examiner's Trap:* Incorrectly identifying the primary raw material for nuclear [energy](/blog/sources-of-energy-class-10-notes) or the specific mechanism by which each non-conventional source generates electricity.
 
 ### <a id="conservation-of-minerals-and-energy-resources"></a>**Conservation of Minerals & Energy Resources**
 
@@ -399,7 +399,7 @@ Class 10 CBSE (NCERT based).
 - ✅ **What examiners expect:** A strict binary classification based on availability and replenishment:
  
 
-- **Conventional (Exhaustible):** Coal, Petroleum, Natural Gas, Electricity (from thermal/hydro). These are finite and cause environmental impact.
+- **Conventional (Exhaustible):** Coal, Petroleum, [Natural](/blog/management-of-natural-resources-class-10-notes) Gas, Electricity (from thermal/hydro). These are finite and cause environmental impact.
 
 - **Non-Conventional (Renewable):** Solar, Wind, Biogas, Tidal, Geothermal. These are inexhaustible and eco-friendly.
 
@@ -663,7 +663,7 @@ Strict, top 1% JEE/NEET ranker (applied to CBSE Class 10 Social Science).
  * *Topic:* Minerals and Energy [Resources](/blog/forest-and-wildlife-resources-class-10-notes) (Geography, Class 10).
  * *Common Student Error:* Students often treat minerals as a list of "what is where." They memorize "Iron ore is in Odisha" or "Coal is in Jharkhand."
  * *The Deep Error:* They fail to understand the *process* and the *relationship* between mineral types (Ferrous vs. Non-Ferrous) and the *spatial distribution logic* (why they are where they are). Specifically, they confuse the *nature* of the resource (Renewable vs. Non-renewable) or the *classification* (Metallic vs. Non-metallic) with the *energy source* (Conventional vs. Non-conventional).
- * *Better Focus:* The distinction between Ferrous and Non-Ferrous minerals or the classification of Energy resources. Let's go with the **Classification Logic Error**. Students often mix up "Metallic vs. Non-Metallic" with "Ferrous vs. Non-Ferrous" or "Conventional vs. Non-Conventional."
+ * *Better Focus:* The distinction between Ferrous and Non-Ferrous minerals or the classification of Energy [resources](/blog/forest-and-wildlife-resources-class-10-notes). Let's go with the **Classification Logic Error**. Students often mix up "Metallic vs. Non-Metallic" with "Ferrous vs. Non-Ferrous" or "Conventional vs. Non-Conventional."
  * *Refined Focus:* The specific confusion between **Ferrous minerals (containing iron)** and **Non-Ferrous minerals (not containing iron)**. Many students think "Non-Ferrous" means "Non-Metallic." This is a fatal error in 3-mark or 5-mark questions where they are asked to categorize minerals.
 
  * *Misconception:* Students think "Non-Ferrous" means "Non-Metallic" or simply "Minerals that aren't iron." They treat them as two separate, unrelated lists.
@@ -1231,50 +1231,50 @@ A student reading 12 hours before the exam.
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. Which of the following statements regarding Ferrous minerals is correct?**
-**A)**           Iron ore is the most important ferrous mineral used in the steel industry.
-**B)**           Manganese is used primarily in the production of aluminum.
-**C)**           All iron ore in India is of Magnetite variety.
-**D)**           Ferrous minerals are non-metallic in nature.
+**A)**            Iron ore is the most important ferrous mineral used in the steel industry.
+**B)**            Manganese is used primarily in the production of aluminum.
+**C)**            All iron ore in India is of Magnetite variety.
+**D)**            Ferrous minerals are non-metallic in nature.
 
 **Answer:** A) A is correct because iron ore is the backbone of the steel industry. B is wrong because manganese is used in manufacturing steel and ferro-manganese alloys, not aluminum. C is wrong because India has both Magnetite and Hematite varieties. D is wrong because iron and manganese are metallic minerals.
 
 ---
 
 **2. Identify the correct match between the mineral and its primary use:**
-**A)**           Copper: Electrical transmission and electronics
-**B)**           Bauxite: Manufacture of cement
-**C)**           Mica: Manufacture of steel
-**D)**           Limestone: Manufacture of aluminum
+**A)**            Copper: Electrical transmission and electronics
+**B)**            Bauxite: Manufacture of cement
+**C)**            Mica: Manufacture of steel
+**D)**            Limestone: Manufacture of aluminum
 
 **Answer:** A) A is correct as copper's high conductivity makes it essential for wires. B is wrong because Bauxite is the ore for aluminum, not cement. C is wrong because Mica is used in electric and electronic industries due to its dielectric strength. D is wrong because Limestone is used in the cement industry.
 
 ---
 
 **3. In a region where the total energy consumption is 100 units, if Coal accounts for 55 units, Petroleum for 25 units, and Natural Gas for 10 units, what is the percentage of Non-Conventional energy sources used?**
-**A)**           10%
-**B)**           15%
-**C)**           20%
-**D)**           25%
+**A)**            10%
+**B)**            15%
+**C)**            20%
+**D)**            25%
 
 **Answer:** B) Total conventional = 55 + 25 + 10 = 90 units. Non-conventional = 100 - 90 = 10 units. However, looking at the math: 100 - (55+25+10) = 10. Wait, let's re-calculate. 55+25+10 = 90. Remaining is 10. 10/100 * 100 = 10%. Let's re-evaluate the options. If the question asks for the remainder: 100 - 90 = 10. Option A is 10%. Let's check if I missed a value. 55+25+10 = 90. 100-90 = 10. So A is correct. Let me re-read the math. 100 - 90 = 10. A is 10%. My logic: 10% of 100 is 10. B/C/D are incorrect because they do not match the remainder of the total energy pool.
 
 ---
 
 **4. Which of the following pairs of states and their respective mineral resources is incorrectly matched?**
-**A)**           Odisha: Iron ore
-**B)**           Rajasthan: Copper
-**C)**           Jharkhand: Coal
-**D)**           Karnataka: Mica
+**A)**            Odisha: Iron ore
+**B)**            Rajasthan: Copper
+**C)**            Jharkhand: Coal
+**D)**            Karnataka: Mica
 
 **Answer:** D) D is incorrect because Rajasthan is the leading producer of Mica, while Karnataka is famous for iron ore. A, B, and C are all correctly matched according to NCERT data.
 
 ---
 
 **5. Given the following data: Total Mineral Production = 500 units; Ferrous = 300 units; Non-Ferrous = 100 units; Other = 50 units. What is the ratio of Ferrous to Non-Ferrous mineral production?**
-**A)**           1
-**B)**           1
-**C)**           1
-**D)**           2
+**A)**            1
+**B)**            1
+**C)**            1
+**D)**            2
 
 **Answer:** A) A is correct because the ratio of 300 to 100 simplifies to 3:1. B is wrong because 5:1 would require 500:100. C is wrong because 2:1 would require 200:100. D is wrong because 3:2 would require 300:200.
 
