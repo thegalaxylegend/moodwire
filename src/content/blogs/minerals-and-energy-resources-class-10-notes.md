@@ -179,7 +179,7 @@ manualReview: false
 
 - **Energy Conservation Imperative:** Energy = Limited reserves + Rapidly increasing demand + Environmental pollution → Need for conservation — *Crucial for sustainable [development](/blog/resources-and-development-class-10-notes)*
 
-- **Energy Conservation Strategies (Individual):** Responsible use = Use public transport + Switch off lights + Use power-saving devices — *Everyday actions*
+- **[Energy](/blog/sources-of-energy-class-10-notes) Conservation Strategies (Individual):** Responsible use = Use public transport + Switch off lights + Use power-saving devices — *Everyday actions*
 
 - **Energy Conservation Strategies (Broader):** Develop non-conventional energy sources + Promote energy-efficient technology + Reduce reliance on fossil fuels — *Policy and technological changes*
 
@@ -517,7 +517,7 @@ Class 10 CBSE Social Science (Geography).
  Q3 (2026 CBSE): Distinguish between Conventional and Non-conventional sources of energy.
  Trap: Only focusing on "Renewable vs Non-renewable" and ignoring the "Ease of availability/Cost" aspect.
  Solution:
- Step 1: Identify Conventional (Coal, Petroleum, Natural Gas) -> High availability, high pollution, finite.
+ Step 1: Identify Conventional (Coal, Petroleum, [Natural](/blog/management-of-natural-resources-class-10-notes) Gas) -> High availability, high pollution, finite.
  Step 2: Identify Non-conventional (Solar, Wind, Tidal) -> Low availability (currently), eco-friendly, infinite.
  Final Answer: Table-based distinction.
 
@@ -959,7 +959,7 @@ If a mineral is on the "Non-Ferrous" twig, it is *still* on the "Metallic" branc
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 Strict, top 1% ranker.
-"Ayush's Note" for "Minerals and Energy Resources" (Class 10 Social Science, CBSE 2026).
+"Ayush's Note" for "Minerals and Energy [Resources](/blog/forest-and-wildlife-resources-class-10-notes)" (Class 10 Social Science, CBSE 2026).
 A student reading 12 hours before the exam.
 4 specific bullet points: The Hidden Pattern, The "Always Check" Rule, PYQ Frequency Intel, The 30-Second Shortcut.
 
@@ -1231,50 +1231,50 @@ A student reading 12 hours before the exam.
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. Which of the following statements regarding Ferrous minerals is correct?**
-**A)**            Iron ore is the most important ferrous mineral used in the steel industry.
-**B)**            Manganese is used primarily in the production of aluminum.
-**C)**            All iron ore in India is of Magnetite variety.
-**D)**            Ferrous minerals are non-metallic in nature.
+**A)**             Iron ore is the most important ferrous mineral used in the steel industry.
+**B)**             Manganese is used primarily in the production of aluminum.
+**C)**             All iron ore in India is of Magnetite variety.
+**D)**             Ferrous minerals are non-metallic in nature.
 
 **Answer:** A) A is correct because iron ore is the backbone of the steel industry. B is wrong because manganese is used in manufacturing steel and ferro-manganese alloys, not aluminum. C is wrong because India has both Magnetite and Hematite varieties. D is wrong because iron and manganese are metallic minerals.
 
 ---
 
 **2. Identify the correct match between the mineral and its primary use:**
-**A)**            Copper: Electrical transmission and electronics
-**B)**            Bauxite: Manufacture of cement
-**C)**            Mica: Manufacture of steel
-**D)**            Limestone: Manufacture of aluminum
+**A)**             Copper: Electrical transmission and electronics
+**B)**             Bauxite: Manufacture of cement
+**C)**             Mica: Manufacture of steel
+**D)**             Limestone: Manufacture of aluminum
 
 **Answer:** A) A is correct as copper's high conductivity makes it essential for wires. B is wrong because Bauxite is the ore for aluminum, not cement. C is wrong because Mica is used in electric and electronic industries due to its dielectric strength. D is wrong because Limestone is used in the cement industry.
 
 ---
 
 **3. In a region where the total energy consumption is 100 units, if Coal accounts for 55 units, Petroleum for 25 units, and Natural Gas for 10 units, what is the percentage of Non-Conventional energy sources used?**
-**A)**            10%
-**B)**            15%
-**C)**            20%
-**D)**            25%
+**A)**             10%
+**B)**             15%
+**C)**             20%
+**D)**             25%
 
 **Answer:** B) Total conventional = 55 + 25 + 10 = 90 units. Non-conventional = 100 - 90 = 10 units. However, looking at the math: 100 - (55+25+10) = 10. Wait, let's re-calculate. 55+25+10 = 90. Remaining is 10. 10/100 * 100 = 10%. Let's re-evaluate the options. If the question asks for the remainder: 100 - 90 = 10. Option A is 10%. Let's check if I missed a value. 55+25+10 = 90. 100-90 = 10. So A is correct. Let me re-read the math. 100 - 90 = 10. A is 10%. My logic: 10% of 100 is 10. B/C/D are incorrect because they do not match the remainder of the total energy pool.
 
 ---
 
 **4. Which of the following pairs of states and their respective mineral resources is incorrectly matched?**
-**A)**            Odisha: Iron ore
-**B)**            Rajasthan: Copper
-**C)**            Jharkhand: Coal
-**D)**            Karnataka: Mica
+**A)**             Odisha: Iron ore
+**B)**             Rajasthan: Copper
+**C)**             Jharkhand: Coal
+**D)**             Karnataka: Mica
 
 **Answer:** D) D is incorrect because Rajasthan is the leading producer of Mica, while Karnataka is famous for iron ore. A, B, and C are all correctly matched according to NCERT data.
 
 ---
 
 **5. Given the following data: Total Mineral Production = 500 units; Ferrous = 300 units; Non-Ferrous = 100 units; Other = 50 units. What is the ratio of Ferrous to Non-Ferrous mineral production?**
-**A)**            1
-**B)**            1
-**C)**            1
-**D)**            2
+**A)**             1
+**B)**             1
+**C)**             1
+**D)**             2
 
 **Answer:** A) A is correct because the ratio of 300 to 100 simplifies to 3:1. B is wrong because 5:1 would require 500:100. C is wrong because 2:1 would require 200:100. D is wrong because 3:2 would require 300:200.
 

@@ -125,7 +125,7 @@ D) 10⁻³ H
 
 **Answer: B) 10⁻⁵ H, using the formula L = μN²A/ℓ**
 
-**5. A current of 2A is flowing ∈ a wire of length 1m, what is the magnetic field at a distance of 0.05m from the wire?**
+**5. A current of 2A is flowing ∈ a wire of length 1m, what is the [magnetic](/blog/magnetic-effects-of-electric-current-class-10-notes) field at a distance of 0.05m from the wire?**
 -
 A) 2 × 10⁻⁵ T
 -

@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/data-structures-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 13, 2026*
+*Last Updated: May 14, 2026*
 
 ## 📑 Table of Contents
 
@@ -360,7 +360,7 @@ Optimizing the performance of Linear Data Structures is crucial for competitive 
 
 ## <a id="mcqs"></a>MCQs
 
-**1. A linked list is a type of data structure where each element is a separate object, n elements are not stored at contiguous memory locations. What is the advantage of a linked list?**
+**1. A linked list is a type of [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structure where each element is a separate object, n elements are not stored at contiguous memory locations. What is the advantage of a linked list?**
 Random access is possible
 Insertion and deletion are easy
 Memory is wasted when nodes are created

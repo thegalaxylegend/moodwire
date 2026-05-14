@@ -349,7 +349,7 @@ Recognition of Dignity + Equality of Status $\rightarrow$ Social Justice
 
 - Social Justice: A society where every group has equal access to opportunities.
 
-- Examiner's Trap: Democracy is a "social" outcome as much as it is a "political" one.
+- Examiner's Trap: Democracy is a "social" outcome as much as it is a "[political](/blog/political-parties-class-10-notes)" one.
 
 **The Gender Equality Formula:**
 Political Participation + Legal Rights $\rightarrow$ Women's Dignity
@@ -422,7 +422,7 @@ Exactly 5 mistakes.
  * Targeting Class 10 CBSE level (NCERT based).
 
  * Topic: Outcomes of Democracy (Civics/Pol Science).
- * Key concepts: Accountability, responsiveness, legitimacy, economic growth vs. equality, dignity/rights, reduction of social inequalities.
+ * Key concepts: Accountability, responsiveness, legitimacy, economic growth vs. equality, dignity/[rights](/blog/consumer-rights-class-10-notes), reduction of social inequalities.
  * Common student errors:
  1. Equating democracy with "perfect economic growth" (it's not guaranteed).
  2. Confusing "Accountability" with "Just having elections" (accountability is about the process/response).
@@ -1181,7 +1181,7 @@ Specific, data-driven, authentic student/mentor tone. No filler. No intro.
 
  *Final Polish of the text.*### 👁️ Ayush's Note
 
-- **🔮 The Hidden Pattern:** The "Social Accommodation" Loop. Examiners rarely treat "Outcomes of Democracy" as an isolated chapter. They almost always bridge it with "Power Sharing" and "Federalism." If you get a 5-mark question on how democracy handles social divisions, do not just talk about elections. You must link the *outcome* (social harmony/respect for diversity) to the *mechanism* (decentralization and power-sharing). This cross-chapter connection is what separates a 90% student from a 98% student.
+- **🔮 The Hidden Pattern:** The "Social Accommodation" Loop. Examiners rarely treat "Outcomes of Democracy" as an isolated chapter. They almost always bridge it with "[Power](/blog/power-sharing-class-10-notes) Sharing" and "Federalism." If you get a 5-mark question on how democracy handles social divisions, do not just talk about elections. You must link the *outcome* (social harmony/respect for diversity) to the *mechanism* (decentralization and [power](/blog/power-sharing-class-10-notes)-sharing). This cross-chapter connection is what separates a 90% student from a 98% student.
 
 - **🎯 The "Always Check" Rule:** The Economic Growth Trap. This is the most common MCQ trap in CBSE history.
 

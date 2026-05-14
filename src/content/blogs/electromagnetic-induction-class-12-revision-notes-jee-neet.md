@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/electromagnetic-induction-class-12-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 13, 2026*
+*Last Updated: May 14, 2026*
 
 ## 📑 Table of Contents
 
@@ -274,7 +274,7 @@ Decrease the voltage of an AC circuit
 Increase the [current](/blog/alternating-current-class-12-notes) of an AC circuit
 Decrease the [current](/blog/alternating-current-class-12-notes) of an AC circuit
 
-**Answer:** A) A transformer uses the principle of electromagnetic induction to increase or decrease the voltage of an AC circuit.
+**Answer:** A) A transformer uses the [principle](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) of electromagnetic induction to increase or decrease the voltage of an AC circuit.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*

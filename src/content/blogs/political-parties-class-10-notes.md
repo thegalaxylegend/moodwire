@@ -333,9 +333,9 @@ Political Parties (Class 10 Social Science).
  * 💸: 2 marks.
  * 🔧: Formula: N_Party = 6% Votes + 4 Lok Sabha Seats.
 
- * *Mistake 4: The "Internal Democracy" Vagueness.*
+ * *Mistake 4: The "Internal [Democracy](/blog/outcomes-of-democracy-class-10-notes)" Vagueness.*
  * 🔴: "Parties don't let everyone participate."
- * ✅: "Lack of internal democracy: Power concentrated in hands of top leaders; no regular internal elections."
+ * ✅: "Lack of internal democracy: [Power](/blog/power-sharing-class-10-notes) concentrated in hands of top leaders; no regular internal elections."
  * 💸: 1–2 marks.
  * 🔧: Use the term "Concentration of Power."
 
@@ -357,7 +357,7 @@ Political Parties (Class 10 Social Science).
  * *Mistake 1: The "Function vs. Challenge" Identity Crisis.*
  * *Mistake 2: The "National vs. State" Criteria Error.*
  * *Mistake 3: The "Definition Dilution" (One-party vs. Multi-party).*
- * *Mistake 4: The "Vague Challenge" Syndrome (Dynastic Succession/Money Power).*
+ * *Mistake 4: The "Vague Challenge" Syndrome (Dynastic Succession/[Money](/blog/money-and-credit-class-10-notes) Power).*
  * *Mistake 5: The "Opposition" Role Misinterpretation.*
 
  * *Refining the Math/Symbol rule:* Use 6% + 4 seats. Use ≠ for "not equal to". Use → for "leads to".

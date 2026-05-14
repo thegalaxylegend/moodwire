@@ -1094,7 +1094,7 @@ No intro, no fluff, no "".
  ### The diagnostic question
  ### How to never forget this
 
- *One more thing:* The prompt asks for "physics heat light class 11 revision notes". I will focus on the "Heat" (Thermodynamics) part as it is the most common source of error in this combined topic.
+ *One more thing:* The prompt asks for "[physics](/blog/physics-mechanics-class-11-revision-notes-jee-neet) heat light class 11 revision notes". I will focus on the "Heat" (Thermodynamics) part as it is the most common source of error in this combined topic.
 
  *Content Expansion:*
  In the reality section, I'll add the distinction between $C_p$ and $C_v$ to add the "Academic Depth" requested.

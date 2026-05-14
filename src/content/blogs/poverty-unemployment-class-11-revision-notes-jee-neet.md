@@ -1501,50 +1501,50 @@ Poverty and unemployment are self-reinforcing cycles where low productivity trap
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. If the poverty line in a country is determined by a minimum calorie requirement of 2400 kcal/day for rural and 2100 kcal/day for urban areas, and a household consumes 2200 kcal/day in a rural area, which of the following is true?**
-**A)**          The household is above the poverty line
-**B)**          The household is below the poverty line
-**C)**          The household is exactly at the poverty line
-**D)**          The data is insufficient to determine status
+**A)**           The household is above the poverty line
+**B)**           The household is below the poverty line
+**C)**           The household is exactly at the poverty line
+**D)**           The data is insufficient to determine status
 
 **Answer:** B) B is correct because 2200 < 2400 (rural requirement). A is wrong because they don't meet the threshold. C is wrong because 2200 ≠ 2400. D is wrong because the calorie count is a direct metric for the poverty line.
 
 ---
 
 **2. Which type of unemployment is most prevalent in the Indian agricultural sector where more people are working than required?**
-**A)**          Cyclical unemployment
-**B)**          Structural unemployment
-**C)**          Disguised unemployment
-**D)**          Frictional unemployment
+**A)**           Cyclical unemployment
+**B)**           Structural unemployment
+**C)**           Disguised unemployment
+**D)**           Frictional unemployment
 
 **Answer:** C) C is correct as disguised unemployment occurs when marginal productivity is zero. A is wrong as it relates to business cycles. B is wrong as it relates to mismatch in skills. D is wrong as it relates to time spent transitioning between jobs.
 
 ---
 
 **3. A worker is unemployed because they are searching for a job that better matches their high-level skills. This is an example of:**
-**A)**          Seasonal unemployment
-**B)**          Frictional unemployment
-**C)**          Structural unemployment
-**D)**          Voluntary unemployment
+**A)**           Seasonal unemployment
+**B)**           Frictional unemployment
+**C)**           Structural unemployment
+**D)**           Voluntary unemployment
 
 **Answer:** B) B is correct as frictional unemployment covers the time gap between jobs. A is wrong as it refers to periodic shifts (like farming). C is wrong as it refers to fundamental changes in the economy. D is wrong as it implies a choice to not work, whereas this is a transition phase.
 
 ---
 
 **4. If the Labor Force Participation Rate (LFPR) is 50% and the Unemployment Rate (UR) is 10%, what is the total percentage of the population that is employed?**
-**A)**          40%
-**B)**          45%
-**C)**          50%
-**D)**          90%
+**A)**           40%
+**B)**           45%
+**C)**           50%
+**D)**           90%
 
 **Answer:** A) A is correct because Employed % = LFPR × (1 - UR) = 50% × (1 - 0.10) = 50% × 0.90 = 45%? Wait, let's re-calculate. If LFPR is 50% of total population, and 10% of that LFPR is unemployed, then 90% of 50% is 45%. Let's re-evaluate options. If the question asks for percentage of the Labor Force that is employed, it's 90%. If it asks for percentage of the total population, it's 45%. Looking at the options: A=40, B=45, C=50, D=90. B is the correct calculation for population percentage. Let me re-check A. If A was intended as a trick, 45 is the math. Correct answer is B. (Correction: B is 45%). Let's assume B is the intended answer for population percentage.
 
 ---
 
 **5. In a developing economy, if the GDP grows at 5% per annum but the population grows at 3% per annum, the per capita income growth is approximately:**
-**A)**          8%
-**B)**          2%
-**C)**          15%
-**D)**          6%
+**A)**           8%
+**B)**           2%
+**C)**           15%
+**D)**           6%
 
 **Answer:** B) B is correct because Per Capita Income growth ≈ GDP growth rate - Population growth rate = 5% - 3% = 2%. A is wrong as it adds the rates. C is wrong as it multiplies them. D is wrong as it is a mathematical error.
 

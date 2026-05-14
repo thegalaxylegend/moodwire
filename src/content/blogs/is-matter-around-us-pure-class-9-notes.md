@@ -322,8 +322,8 @@ Examiner's Trap: Make sure to understand the concept of zeta potential and its r
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the term for a mixture in which the particles of the components are not uniformly distributed?**
-**A)**    Homogeneous mixture
-**B)**    Heterogeneous mixture
+**A)**     Homogeneous mixture
+**B)**     Heterogeneous mixture
 **C)**
 
 Solution  
@@ -334,40 +334,40 @@ Solution
 ---
 
 **2. A solution contains 20 grams of sugar in 100 mL of water. What is the concentration of the solution in grams per 100 mL?**
-**A)**    10 g/100 mL
-**B)**    20 g/100 mL
-**C)**    15 g/100 mL
-**D)**    25 g/100 mL
+**A)**     10 g/100 mL
+**B)**     20 g/100 mL
+**C)**     15 g/100 mL
+**D)**     25 g/100 mL
 
 **Answer:** B) The concentration of the solution is directly given as 20 grams of sugar in 100 mL of water. Therefore, options A, C, and D are incorrect as they do not match the given data.
 
 ---
 
 **3. Which method is used to separate a mixture of two immiscible liquids?**
-**A)**    Filtration
-**B)**    Decantation
-**C)**    Sedimentation
-**D)**    Chromatography
+**A)**     Filtration
+**B)**     Decantation
+**C)**     Sedimentation
+**D)**     Chromatography
 
 **Answer:** B) Decantation is used to separate mixtures of immiscible liquids based on their densities. Filtration is used to separate solids from liquids, sedimentation is the process by which particles settle to the bottom, and chromatography is used to separate components based on their interaction with a stationary phase. Therefore, options A, C, and D are incorrect.
 
 ---
 
 **4. A mixture of 50 grams of salt and 100 grams of water has a mass percentage of salt of:**
-**A)**    30%
-**B)**    33.33%
-**C)**    50%
-**D)**    25%
+**A)**     30%
+**B)**     33.33%
+**C)**     50%
+**D)**     25%
 
 **Answer:** B) The mass percentage of salt = (mass of salt / total mass) * 100 = (50 / (50 + 100)) * 100 = (50 / 150) * 100 ≈ 33.33%. Therefore, options A, C, and D are incorrect.
 
 ---
 
 **5. What is the process by which a solid changes directly to a gas?**
-**A)**    Melting
-**B)**    Boiling
-**C)**    Sublimation
-**D)**    Deposition
+**A)**     Melting
+**B)**     Boiling
+**C)**     Sublimation
+**D)**     Deposition
 
 **Answer:** C) Sublimation is the transition of a substance from the solid to the gas phase without going through the liquid phase. Melting is the transition from solid to liquid, boiling is the transition from liquid to gas, and deposition is the transition from gas to solid. Therefore, options A, B, and D are incorrect.
 

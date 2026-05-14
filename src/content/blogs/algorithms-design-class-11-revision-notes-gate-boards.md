@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/algorithms-design-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 13, 2026*
+*Last Updated: May 14, 2026*
 
 ## 📑 Table of Contents
 
@@ -446,7 +446,7 @@ Continue your revision with these related guides:
   + Insertion Sort: $O(n^2)$
   + Merge Sort: $O(n \log n)$
   + Quick Sort: $O(n \log n)$
-* **Searching Algorithms**:
+* **Searching [Algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)**:
   + [Linear](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Search: O(n)
   + Binary Search: $O(\log n)$
 * **Graph Algorithms**:

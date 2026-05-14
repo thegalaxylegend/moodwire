@@ -171,7 +171,7 @@ Examiner's Trap: Understand the differences between wound healing, inflammation,
 
 ### <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-**Q1 (2022 CBSE):** What is the primary function of the xylem tissue in plants?
+**Q1 (2026 CBSE):** What is the primary function of the xylem tissue in plants?
 
 - **Trap:** Students often confuse xylem with phloem, leading to incorrect answers.
 
@@ -390,50 +390,50 @@ Stay calm and focus on your strengths. Visualize acing the exam.
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the primary function of connective tissue in the [human](/blog/human-eye-and-colourful-world-class-10-notes) body?**
-**A)**   To provide support and structure
-**B)**   To facilitate movement
-**C)**   To regulate body temperature
-**D)**   To aid in digestion
+**A)**    To provide support and structure
+**B)**    To facilitate movement
+**C)**    To regulate body temperature
+**D)**    To aid in digestion
 
 **Answer:** A) Connective tissue provides support and structure to the body by connecting other tissues and organs. Options B, C, and D are incorrect because they describe functions of other tissue types: muscle tissue facilitates movement, nervous tissue regulates various bodily functions including temperature, and epithelial tissue aids in digestion among other functions.
 
 ---
 
 **2. A plant cell has a cell wall with a thickness of 0.5 μm and a cell membrane with a thickness of 10 nm. What is the total thickness of the cell wall and cell membrane in μm?**
-**A)**   51 μm
-**B)**   6 μm
-**C)**   0 μm
-**D)**   5 μm
+**A)**    51 μm
+**B)**    6 μm
+**C)**    0 μm
+**D)**    5 μm
 
 **Answer:** A) To find the total thickness, we add the thickness of the cell wall (0.5 μm) and the cell membrane (10 nm). First, convert 10 nm to μm: 10 nm = 0.01 μm. Then, 0.5 μm + 0.01 μm = 0.51 μm. Options B, C, and D are incorrect because they do not accurately represent the sum.
 
 ---
 
 **3. Which type of tissue is responsible for the transport of water and minerals in plants?**
-**A)**   Epidermal tissue
-**B)**   Vascular tissue
-**C)**   Ground tissue
-**D)**   Meristematic tissue
+**A)**    Epidermal tissue
+**B)**    Vascular tissue
+**C)**    Ground tissue
+**D)**    Meristematic tissue
 
 **Answer:** B) Vascular tissue, which includes xylem and phloem, is responsible for transporting water, minerals, and nutrients throughout the plant. Options A, C, and D are incorrect because epidermal tissue protects the plant, ground tissue performs various functions including storage, and meristematic tissue is involved in growth.
 
 ---
 
 **4. If a muscle cell contracts and its length decreases by 1/5, what fraction of its original length does it remain?**
-**A)**   4/5
-**B)**   3/5
-**C)**   2/5
-**D)**   1/5
+**A)**    4/5
+**B)**    3/5
+**C)**    2/5
+**D)**    1/5
 
 **Answer:** A) If the muscle cell's length decreases by 1/5, it means the cell is now 4/5 of its original length. This is because 1 - 1/5 = 4/5. Options B, C, and D are incorrect because they do not accurately represent the remaining fraction of the cell's original length.
 
 ---
 
 **5. What is the term for the process by which tissues become specialized to perform specific functions?**
-**A)**   Differentiation
-**B)**   Osmosis
-**C)**   Photosynthesis
-**D)**   Mitosis
+**A)**    Differentiation
+**B)**    Osmosis
+**C)**    Photosynthesis
+**D)**    Mitosis
 
 **Answer:** A) Differentiation is the process by which a cell becomes specialized in order to perform a specific function. Options B, C, and D are incorrect because osmosis is the movement of water across a membrane, photosynthesis is the process by which plants produce energy, and mitosis is the process of cell division.
 

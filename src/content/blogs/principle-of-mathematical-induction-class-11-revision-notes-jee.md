@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/principle-of-mathematical-induction-class-11-revision-notes-jee"
 ---
 
-*Last Updated: May 13, 2026*
+*Last Updated: May 14, 2026*
 
 ## 📑 Table of Contents
 
@@ -131,7 +131,7 @@ We can rewrite the left-hand side of the equation as $(1 + 2 + 3 + \ldots + k) +
 
 Mathematical induction has numerous applications and mathematics, computer science, n other fields. It is used to prove the correctness of [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards), to establish the validity of mathematical statements, n to solve complex problems. In computer science, mathematical induction is used to prove the correctness of recursive [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) and to establish the complexity of [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards). 
 
-Here is a table summarizing the key components of the principle of mathematical induction: 
+Here is a table summarizing the key components of the principle of [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) induction: 
 
 | Component | Description | Example |
 | --- | --- | --- |

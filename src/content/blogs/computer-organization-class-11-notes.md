@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/computer-organization-class-11-notes"
 ---
 
-*Last Updated: May 13, 2026*
+*Last Updated: May 14, 2026*
 
 ## 📑 Table of Contents
 
@@ -266,7 +266,7 @@ Computer Organization is the way a computer's hardware and software components i
  
  Another area where trap questions frequently appear is and the understanding of memory hierarchy. The memory hierarchy includes the register file, cache memory, main memory, n secondary storage, each with its access ⟦PROTECTED_11’s \times o$f different levels without providing explicit numbers$, requiring the student to recall these details from memory.
  
- Instruction-level parallelism (ILP) is also a fertile ground for trap questions. ILP techniques such as pipelining, superscalar execution, n out-of-order execution can significantly improve the performance of a processor but also introduce complexities like hazards (structural, data, n control hazards) that must be handled. Students might be asked to explain how a particular ILP technique works or to compare the effectiveness of different ILP strategies and various scenarios.
+ Instruction-level parallelism (ILP) is also a fertile ground for trap questions. ILP techniques such as pipelining, superscalar execution, n out-of-order execution can significantly improve the performance of a processor but also introduce complexities like hazards (structural, [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards), n control hazards) that must be handled. Students might be asked to explain how a particular ILP technique works or to compare the effectiveness of different ILP strategies and various scenarios.
  
  A student-centric tip for avoiding these traps is to practice, practice, practice. It's not just about reading through the material once; it's about actively engaging with it through practice problems and past exam questions. Make flashcards for key terms like $Pipelining$, $Cache Memory$, n $RISC$ vs. $CISC$, n quiz yourself regularly. Additionally, try to understand the conceptual underpinnings rather than just memorizing facts. For instance, instead of just memorizing that $RISC$ architectures have fewer instructions, understand why this design choice was made and how it affects system performance.
  
