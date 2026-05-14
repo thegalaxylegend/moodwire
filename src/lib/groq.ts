@@ -49,7 +49,7 @@ export async function callGroq(
         // --- CLOUDFLARE WORKER ROUTING (PRODUCTION) ---
         // If we are in production and running on Cloudflare, we proxy through the Worker
         // to keep API keys secure and use the zero-cost backend.
-        if (import.meta.env.PROD && !import.meta.env.VITE_DEV_AI) {
+        if (typeof import.meta !== 'undefined' && import.meta.env?.PROD && !import.meta.env?.VITE_DEV_AI) {
             const response = await fetch('/api/ai', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },

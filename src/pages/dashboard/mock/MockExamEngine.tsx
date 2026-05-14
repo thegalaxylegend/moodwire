@@ -15,6 +15,8 @@ export type MockEngineQuestion = {
     correctAnswer: number;
     explanation: string;
     topic: string;
+    subject: string;
+    difficulty_score: number;
     imageUrl?: string;
 };
 

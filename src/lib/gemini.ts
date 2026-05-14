@@ -66,7 +66,7 @@ export async function callGemini(
     
     // --- CLOUDFLARE WORKER ROUTING (PRODUCTION) ---
     // Use the zero-cost Cloudflare backend to hide secrets and manage rotation.
-    if (import.meta.env.PROD && !import.meta.env.VITE_DEV_AI) {
+    if (typeof import.meta !== 'undefined' && import.meta.env?.PROD && !import.meta.env?.VITE_DEV_AI) {
         const response = await fetch('/api/ai', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },

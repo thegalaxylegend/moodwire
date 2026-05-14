@@ -184,12 +184,11 @@ export const GroupBattle = () => {
                         difficulty: session.difficulty || 'Medium' 
                     };
                 });
-                const rawQs = await getAdaptiveQuestionBatch(user.id, needs, user.targetExam || 'JEE Mains', user.abilityScore);
+                const rawQs = await getAdaptiveQuestionBatch(needs, user.targetExam || 'JEE Mains', user.abilityScore);
                 formattedQs = mapStoredToUIQuestion(rawQs).slice(0, session.questionCount || 5);
             } else {
                 const { generateStandardBatch } = await import('../../services/questionEngine');
                 formattedQs = await generateStandardBatch(
-                    user.id,
                     user.targetExam || 'JEE Mains',
                     user.userClass || 'General',
                     subjects[0],

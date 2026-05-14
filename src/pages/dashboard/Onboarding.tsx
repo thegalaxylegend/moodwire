@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useUserStore } from '../../store/userStore';
-import { Calendar, CheckCircle2, ArrowRight, GraduationCap, Loader2 } from 'lucide-react';
+import { Calendar, CheckCircle2, ArrowRight, ArrowLeft, GraduationCap, Loader2 } from 'lucide-react';
 
 export const Onboarding = () => {
     const navigate = useNavigate();
@@ -216,7 +216,15 @@ export const Onboarding = () => {
                         </div>
                     )}
 
-                    <div className="mt-12 flex justify-end">
+                    <div className="mt-12 flex justify-between items-center">
+                        <button
+                            onClick={() => step > 1 ? setStep(step - 1) : navigate('/')}
+                            className="px-6 py-4 border border-border text-text-muted rounded-xl font-bold flex items-center gap-2 hover:bg-white/5 transition-all"
+                        >
+                            <ArrowLeft size={18} />
+                            {step > 1 ? 'Back' : 'Back to Home'}
+                        </button>
+
                         <button
                             onClick={handleNext}
                             disabled={

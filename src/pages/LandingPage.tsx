@@ -58,7 +58,7 @@ const TextReveal = ({ children, className = '', delay = 0 }: { children: string;
 
 export const LandingPage = () => {
     const navigate = useNavigate();
-    const { isAuthenticated, isLoading } = useUserStore();
+    const { isAuthenticated, isLoading, user } = useUserStore();
     const [showDemo, setShowDemo] = useState(false);
     const { tier } = usePerformance();
     
@@ -71,10 +71,10 @@ export const LandingPage = () => {
         // 1. Not SSR (Googlebot/crawlers must see the landing page)
         // 2. Auth is fully resolved (not still loading)
         // 3. User is genuinely authenticated (not anonymous/guest)
-        if (!isServer && !isLoading && isAuthenticated) {
+        if (!isServer && !isLoading && isAuthenticated && user && !user.isGuest) {
             navigate('/dashboard', { replace: true });
         }
-    }, [isAuthenticated, isLoading, navigate, isServer]);
+    }, [isAuthenticated, isLoading, user, navigate, isServer]);
 
     const { scrollYProgress } = useScroll();
     const scaleX = useSpring(scrollYProgress, {
@@ -355,7 +355,7 @@ export const LandingPage = () => {
                     </p>
                     
                     <motion.button
-                        onClick={() => navigate('/dashboard')}
+                        onClick={() => navigate(user && !user.isGuest ? '/dashboard' : '/login')}
                         whileHover={{ scale: 1.05, y: -3 }}
                         whileTap={{ scale: 0.97 }}
                         transition={{ type: 'spring', stiffness: 400, damping: 17 }}

@@ -14,7 +14,6 @@ import {
 } from 'firebase/firestore';
 import { askAI } from '../lib/ai';
 import { extractJSON, resolveTopicId } from '../lib/utils';
-import { EloService } from './eloService';
 import { offlineSyncService } from './offlineSyncService';
 import { getFormulaSheet } from '../lib/formulaSheets';
 import { checkDerivationConsistency, checkStepConsistency } from '../lib/consistencyCheck';
@@ -38,6 +37,7 @@ export interface StoredQuestion {
     topic_id: string; // Deterministic ID for remediation targeting
     type: 'MCQ' | 'Multi-Correct' | 'Integer' | 'Passage' | 'Assertion-Reason';
     difficulty: 'Easy' | 'Medium' | 'Hard';
+    difficulty_score: number; // continuous rating (0-3000)
     question: string;
     options: string[] | Record<string, string>;
     correct_answer: string;
@@ -77,7 +77,14 @@ export interface StoredQuestion {
     confidence: number;
 }
 
-const TOPIC_LIMIT = 50;
+const ANCHOR_QUESTIONS_MIN_CONFIDENCE = 0.85;
+
+const CONTROLLED_MISCONCEPTION_ONTOLOGY = {
+    mechanics: ["force.pseudo_force_misuse", "energy.non_conservative_omission", "statics.torque_balance_error"],
+    electronics: ["circuits.kvl_sign_error", "semiconductors.carrier_confusion"],
+    math: ["calculus.chain_rule_omission", "algebra.sign_flip"],
+    general: ["unit_conversion", "calculation_slip", "misreading_constraint"]
+};
 
 // Helper to generate SHA256 hash
 const generateHash = async (text: string): Promise<string> => {
@@ -394,83 +401,88 @@ export const generateInspiredQuestion = async (
         console.warn("[QuestionEngine] Pre-check failed, proceeding to generation...");
     }
 
+    // Determine structural constraints based on continuous ability
+    const abilityLevel = abilityScore || 1000;
+    let conceptCount = 1;
+    let trapStrategy = "Basic substitution error";
+    let stepDepth = 2;
+
+    if (abilityLevel > 1800) {
+        conceptCount = 3;
+        trapStrategy = "Conceptual misconception + multi-variable linked shift (distractor must look like a common sign error)";
+        stepDepth = 5;
+    } else if (abilityLevel > 1200) {
+        conceptCount = 2;
+        trapStrategy = "Standard calculation trap + unit conversion + inverse reasoning";
+        stepDepth = 3;
+    }
+
+    const PHRASING_STYLES = [
+        "Scenario-based (real-world application)",
+        "Graphical reasoning (infer from data/graph description)",
+        "Abstract logic (theoretical proof-like)",
+        "Numerical stress (heavy but elegant arithmetic)",
+        "Diagram-linked (requires visualizing a complex system)"
+    ];
+    const styleEntropy = PHRASING_STYLES[Math.floor(Math.random() * PHRASING_STYLES.length)];
+
     // Inject topic-specific formula sheet
     const formulaSheet = getFormulaSheet(topic, subject);
 
     const generationPrompt = `
-### PRECISION EXAM QUESTION GENERATOR v3.0
-Generate ONE ${exam} MCQ. MATHEMATICAL ACCURACY IS MANDATORY.
+You are a Senior Professor at a top technical institute (IIT/AIIMS).
+Target Exam: ${exam}
+Subject: ${subject}
+Topic: ${topic}
+Target Difficulty Rating: ${abilityLevel} (Continuous Scale 0-3000)
 
-TOPIC: ${topic}
-SUBJECT: ${subject}
-DIFFICULTY: ${difficulty} (Student Ability: ${abilityScore}/10)
-${remediationFocus ? `REMEDIATION FOCUS: ${remediationFocus} (Generate a question that specifically targets and tests for this type of student error pattern.)` : ''}
+ANCHOR STRATIFICATION:
+If this is a known benchmark question, tag it with:
+"anchor_difficulty_tier": "LOW" | "MED" | "HIGH"
+"anchor_style": "PYQ" | "ACADEMIC_STANDARD"
 
-═══ REFERENCE FORMULAS FOR THIS TOPIC ═══
+ONTOLOGY ENFORCEMENT:
+You MUST categorize the error trap using this taxonomy if applicable:
+${JSON.stringify(CONTROLLED_MISCONCEPTION_ONTOLOGY, null, 2)}
+If no match, use "general.miscellaneous".
+
+PEDAGOGICAL REQUIREMENTS:
+- CONCEPT COUNT: Exactly ${conceptCount} linked conceptual steps.
+- TRAP STRATEGY: ${trapStrategy}.
+- STEP DEPTH: ${stepDepth} logical transitions to solve.
+- PHRASING STYLE: ${styleEntropy}.
+- READING COMPLEXITY: Maintain a readability score suitable for high school students (avoid jargon-heavy sentences).
+- AVOID: Avoid unnecessarily long algebra. Focus on CONCEPTUAL depth.
+- MATH: Use Unicode for math symbols. (e.g. α, β, Δ, ², √). NO LATEX.
+
+MISSION: Generate a question that bridges the student's current knowledge to the next level.
+${remediationFocus ? `SPECIAL FOCUS: The student previously struggled with ${remediationFocus}. Address this specific error type in the traps.` : ""}
+
+REFERENCE FORMULAS:
 ${formulaSheet}
 
-═══ MANDATORY GENERATION PROTOCOL ═══
-
-STEP 1 — CHOOSE A FORMULA from the reference list above. Do NOT invent formulas.
-STEP 2 — PICK NUMERICAL VALUES: Use simple integers or common fractions (0.5, 0.25, 0.1).
-STEP 3 — SOLVE COMPLETELY in "step_by_step_solution". Show EVERY substitution step.
-         Your final step must clearly state the numerical answer.
-STEP 4 — SET "final_numerical_value" to the NUMBER from your last solution step.
-STEP 5 — CONSTRUCT THE MCQ with 4 options.
-         Distractors should represent common errors (wrong formula, arithmetic errors, unit errors).
-         "correct_answer" MUST be an EXACT copy of one of the 4 option strings.
-
-⚠️ CRITICAL: "final_numerical_value" MUST MATCH the result from your step_by_step_solution.
-If they don't match, YOUR OUTPUT IS INVALID and will be rejected.
-
-═══ OPTION QUALITY RULES (WILL BE AUTO-CHECKED) ═══
-- Each option MUST be a complete descriptive phrase of at least 15 characters.
-- GOOD options: "The velocity is 20 m/s", "The energy equals 3.4 eV", "The frequency is 5 Hz"
-- BAD options (WILL BE REJECTED): "20 m/s", "3.4 eV", "5 Hz", "A", "B"
-- The question text MUST be at least 80 characters long with specific context and numerical values.
-- NEVER use "Practice Question:", generic templates, or placeholder language.
-
-═══ JSON SAFETY RULES (CRITICAL) ═══
-- All string values MUST use straight double quotes, no curly quotes
-- Do NOT use fractions like 1/3, 8/3 in string values — use decimals: 0.333, 2.667
-- final_numerical_value MUST be a decimal number, NOT a fraction or expression
-- NEVER USE BACKSLASHES (\) ANYWHERE. Backslashes cause fatal JSON parsing errors! (e.g., do NOT use \alpha, \frac, \times)
-
-═══ MATH FORMATTING (CRITICAL — USE UNICODE, NOT LATEX) ═══
-Write ALL math as plain text with Unicode characters. This is MANDATORY.
-- Superscripts: use ² ³ ⁴ ⁿ ˣ ʸ (e.g., x², r³, aⁿ)
-- Subscripts: use ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ₙ ₖ ₓ (e.g., a₀, xₙ, Tₖ)
-- Greek letters: use α β γ δ ε θ λ μ π σ φ ω Δ Σ Ω
-- Math operators: use × ÷ ± ∓ · √ ∑ ∫ ∞ ≠ ≈ ≡ ≤ ≥ → ⇒ ∈ ∝ ⊥ ∥ ∠ °
-- Fractions: write as a/b or (numerator)/(denominator)
-- Combinations: write as ⁿCᵣ or ⁿCₖ
-- NEVER USE LaTeX syntax (e.g., $...$, \\frac, \\alpha).
-
-═══ OUTPUT FORMAT (JSON ONLY) ═══
+RETURN JSON:
 {
   "exam": "${exam}",
   "subject": "${subject}",
-  "chapter": "Chapter name",
   "topic": "${topic}",
+  "difficulty_score": ${abilityLevel},
   "type": "MCQ",
-  "difficulty": "${difficulty}",
-  "formula_used": "The exact formula from the reference list",
-  "given_values": {"mass": "10 kg", "velocity": "5 m/s"},
-  "step_by_step_solution": [
-    "Step 1: Using formula F = ma",
-    "Step 2: Substituting: F = 10 * 5 = 50 N",
-    "Step 3: Therefore F = 50 N"
-  ],
-  "final_numerical_value": 50,
-  "final_unit": "N",
-  "question": "A 10 kg object is accelerated at 5 m/s squared along a frictionless surface. What is the net force acting on the object?",
-  "options": ["The net force is 50 N", "The net force is 25 N", "The net force is 100 N", "The net force is 15 N"],
-  "correct_answer": "The net force is 50 N",
-  "numerical_formula": "10 * 5 = 50",
-  "explanation": "Clear 2-3 sentence explanation",
-  "concept_tags": ["tag1", "tag2"],
-  "error_trap_type": "e.g. unit conversion, sign error",
-  "hidden_derivation": "Full derivation scratchpad"
+  "question": "...",
+  "options": ["A", "B", "C", "D"],
+  "correct_answer": "...",
+  "explanation": "...",
+  "rich_explanation": {
+    "steps": ["Step 1...", "Step 2..."],
+    "why_others_wrong": {
+        "Distractor 1": "Explain the specific misconception that leads here (e.g. forgot to square)",
+        "Distractor 2": "Explain specific error",
+        "Distractor 3": "Explain specific error"
+    }
+  },
+  "error_trap_type": "HIERARCHICAL_LABEL (e.g. mechanics.force.pseudo_force_misuse | sign_error | unit_conversion)",
+  "difficulty_score": ${abilityLevel},
+  "concept_tags": ["visualization", "abstraction", "precision", "stamina"]
 }
 `;
 
@@ -535,7 +547,7 @@ Write ALL math as plain text with Unicode characters. This is MANDATORY.
                 continue;
             }
 
-            const runConsensus = difficulty === 'Hard' || difficulty === 'Medium';
+            const runConsensus = true;
             // ── LAYER 1: LLM Verification ──
             const verification = await verifyQuestionFast(rawData, runConsensus);
             if (!verification.verified || !verification.data) {
@@ -634,6 +646,7 @@ Write ALL math as plain text with Unicode characters. This is MANDATORY.
 
             const finalQuestion: Omit<StoredQuestion, 'id'> = {
                 ...verifiedData as StoredQuestion,
+                difficulty_score: abilityLevel,
                 hash,
                 usage_count: 0,
                 accuracy_rate: 0, // Will be updated from real student data
@@ -718,7 +731,6 @@ export const getAdaptiveQuestion = async (
     userId: string,
     topic: string,
     exam: string,
-    weaknessScore: number = 0,
     topic_id?: string,
     subject?: string,
     abilityScore?: number,
@@ -726,16 +738,8 @@ export const getAdaptiveQuestion = async (
 ): Promise<StoredQuestion | null> => {
 
     const resolvedTopicId = topic_id || resolveTopicId(topic);
-
-    let targetDifficulty: 'Easy' | 'Medium' | 'Hard' = 'Medium';
-    if (abilityScore !== undefined) {
-        targetDifficulty = EloService.getTargetDifficulty(abilityScore);
-    } else {
-        if (weaknessScore > 0.7) targetDifficulty = 'Easy';
-        else if (weaknessScore < 0.4) targetDifficulty = 'Hard';
-    }
-
-    const cacheKey = `${userId}_${exam}_${resolvedTopicId}_${targetDifficulty}`;
+    const targetRating = abilityScore || 1000;
+    const cacheKey = `${userId}_${exam}_${resolvedTopicId}_${targetRating}`;
 
     // 1. Check Persistent Cache First (0 Cost)
     const cachedQuestions = getCache(cacheKey);
@@ -747,64 +751,37 @@ export const getAdaptiveQuestion = async (
 
     // 1.5. Offline fallback
     if (typeof navigator !== 'undefined' && !navigator.onLine) {
-        console.log(`[QuestionEngine] 📶 Offline Mode Detected. Using IndexedDB Cache.`);
         const offlineQ = await offlineSyncService.getOfflineQuestions(topic, 1);
-        if (offlineQ && offlineQ.length > 0) {
-            return offlineQ[0];
-        }
-        // If not found in offline DB for this topic, try ANY topic just to keep game going?
+        if (offlineQ && offlineQ.length > 0) return offlineQ[0];
         const anyOffline = await offlineSyncService.getOfflineQuestions(undefined, 1);
         if (anyOffline && anyOffline.length > 0) return anyOffline[0];
         throw new Error("No offline questions available.");
     }
 
     try {
-        // 2. Try to find in DB (Specific Topic)
-        let q = query(
+        // 2. Try Firestore (Cloud DB)
+        const dbQuery = query(
             collection(db, 'engine_questions'),
             where('exam', '==', exam),
             where('topic_id', '==', resolvedTopicId),
-            where('difficulty', '==', targetDifficulty),
-            orderBy('usage_count', 'asc'),
+            where('difficulty_score', '>=', targetRating - 100),
+            where('difficulty_score', '<=', targetRating + 100),
             limit(10)
         );
-
-        const isGeneric = topic === subject || ['physics', 'chemistry', 'mathematics', 'biology', 'science'].includes(topic.toLowerCase());
-
-        if (isGeneric && subject) {
-            q = query(
-                collection(db, 'engine_questions'),
-                where('exam', '==', exam),
-                where('subject', '==', subject),
-                where('difficulty', '==', targetDifficulty),
-                orderBy('usage_count', 'asc'),
-                limit(10)
-            );
-        }
-
-        const snap = await getDocs(q);
+        const snap = await getDocs(dbQuery);
         if (!snap.empty) {
-            // Filter for post-audit quality: only serve questions with confidence >= 0.70
-            const allDocs = snap.docs.map(doc => ({ id: doc.id, ...doc.data() } as StoredQuestion));
-            const fetchedQuestions = allDocs.filter(q =>
-                (q.confidence === undefined || q.confidence >= 0.70) && q.question && q.correct_answer
-            );
-
-            if (fetchedQuestions.length > 0) {
-                // Populate Cache
-                setCache(cacheKey, fetchedQuestions);
-
-                const selectedQuestion = fetchedQuestions[Math.floor(Math.random() * fetchedQuestions.length)];
-
-                // Update usage count asynchronously
+            const all = snap.docs.map(d => ({ id: d.id, ...d.data() } as StoredQuestion));
+            const selectedQuestion = all[Math.floor(Math.random() * all.length)];
+            if (selectedQuestion.confidence >= 0.8 || !selectedQuestion.confidence) {
+                console.log(`[QuestionEngine] ☁️ Firestore Hit for ${topic} (Rating: ${selectedQuestion.difficulty_score})`);
                 updateDoc(doc(db, 'engine_questions', selectedQuestion.id!), { usage_count: increment(1) });
-
+                setCache(cacheKey, [selectedQuestion]);
                 return selectedQuestion;
             }
         }
 
         // 3. If not found, Generate Live (Cache Miss)
-        console.log(`[QuestionEngine] 🧩 Firestore Miss for ${topic} (${targetDifficulty}). Generating...`);
+        console.log(`[QuestionEngine] 🧩 Firestore Miss for ${topic} (Rating: ${targetRating}). Generating...`);
 
         // Ensure we have a valid subject
         let finalSubject = subject || 'General';
@@ -817,12 +794,13 @@ export const getAdaptiveQuestion = async (
             exam,
             subject: finalSubject,
             topic,
-            difficulty: targetDifficulty,
-            abilityScore,
+            difficulty: 'Medium',
+            abilityScore: targetRating,
             remediationFocus
         });
 
         // Optionally put the generated one into cache too (or let it be found on next DB hit)
+        if (generated) setCache(cacheKey, [generated]);
         return generated;
 
     } catch (e: any) {
@@ -833,14 +811,12 @@ export const getAdaptiveQuestion = async (
         return null;
     }
 };
-
 /**
  * Adaptive Batch Retrieval Logic.
  * Optimized for full Mock Exams and Quick Tests.
  * Pulls from: Cache -> Offline -> Global DB -> AI (Final Delta)
  */
 export const getAdaptiveQuestionBatch = async (
-    userId: string,
     needs: Array<{ subject: string; topic: string; count: number; difficulty?: 'Easy' | 'Medium' | 'Hard'; remediationFocus?: 'CONCEPTUAL' | 'SILLY' | 'TIME' | 'MISREAD' }>,
     exam: string,
     abilityScore?: number,
@@ -860,81 +836,76 @@ export const getAdaptiveQuestionBatch = async (
     // Sequential processing per requirement group to prevent API thundering herd
     for (const group of needs) {
         const groupQuestions: StoredQuestion[] = [];
-        const { subject, topic, count, difficulty } = group;
+        const { subject, topic, count } = group;
         const resolvedTopicId = resolveTopicId(topic);
 
-        // 1. Try to fill from Global DB first (Fastest/Cheapest)
-        try {
-            const dbQuery = query(
-                collection(db, 'engine_questions'),
-                where('exam', '==', exam),
-                where('topic_id', '==', resolvedTopicId),
-                where('difficulty', '==', difficulty || 'Medium'),
-                limit(count * 4) // Fetch extra to account for client-side filtering
-            );
-            const snap = await getDocs(dbQuery);
-            if (!snap.empty) {
-                const allDocs = snap.docs.map(d => ({ id: d.id, ...d.data() } as StoredQuestion));
-                // Filter for high quality in memory to avoid Firestore index errors
-                let dbQs = allDocs.filter(q => (q.confidence === undefined || q.confidence >= 0.80) && q.question && q.correct_answer);
-                
-                // If strict quality filter doesn't yield enough, fallback to standard quality (0.50+)
-                if (dbQs.length < count) {
-                    dbQs = allDocs.filter(q => (q.confidence === undefined || q.confidence >= 0.50) && q.question && q.correct_answer);
-                }
-                
-                // Shuffle and pick
-                for (let i = dbQs.length - 1; i > 0; i--) {
-                    const j = Math.floor(Math.random() * (i + 1));
-                    [dbQs[i], dbQs[j]] = [dbQs[j], dbQs[i]];
-                }
-                const selected = dbQs.slice(0, count);
-                groupQuestions.push(...selected);
-                
-                // Update usage counts in background
-                selected.forEach(q => {
-                    updateDoc(doc(db, 'engine_questions', q.id!), { usage_count: increment(1) }).catch(() => {});
-                });
+        // 1. Determine Distribution (70/20/10 Banding)
+        const comfortCount = Math.floor(count * 0.7);
+        const challengeCount = Math.floor(count * 0.2);
+        const stretchCount = count - comfortCount - challengeCount;
 
-                // Update progress for every question found in DB
-                for (let i = 0; i < selected.length; i++) updateBatchProgress();
-                
-                console.log(`[QuestionEngine] ⚡ Batch DB Hit: Found ${selected.length}/${count} for ${topic}`);
-            }
-        } catch (err) {
-            console.warn(`[QuestionEngine] Batch DB check failed for ${topic}:`, err);
+        const abilityLevel = abilityScore || 1000;
+        const targets = [
+            { rating: abilityLevel - 150, count: comfortCount, label: 'Comfort' },
+            { rating: abilityLevel, count: challengeCount, label: 'Challenge' },
+            { rating: abilityLevel + 250, count: stretchCount, label: 'Stretch' }
+        ];
+
+        // 1.1 Mandatory Exploration Injection (15% "Chaos Factor")
+        // Occasionally violates adaptation to probe student limits and break cognitive prisons.
+        // EMOTIONAL CONDITIONING: Suppress chaos if abilityScore is critically low or if topic is "Mixed"
+        const explorationChance = 0.15;
+        const isFrustrated = abilityLevel < 600; // Heuristic: very low scores suggest frustration/remediation needs
+        
+        if (Math.random() < explorationChance && !isFrustrated) {
+            console.log(`[QuestionEngine] 🎲 Exploration Injection triggered for topic: ${topic}`);
+            targets.push({ rating: abilityLevel + 600, count: 1, label: 'Super-Stretch (Exploration)' });
+            targets[0].count = Math.max(0, targets[0].count - 1);
         }
 
-        // 2. Generate Delta if count not met
-        const remaining = count - groupQuestions.length;
-        if (remaining > 0) {
-            console.log(`[QuestionEngine] 🧩 Batch Delta: Generating ${remaining} for ${topic}`);
-            
-            // Generate delta sequentially to respect API rate limits
-            for (let i = 0; i < remaining; i++) {
-                try {
+        for (const target of targets) {
+            if (target.count <= 0) continue;
+
+            // Try to fill from DB first
+            try {
+                const dbQuery = query(
+                    collection(db, 'engine_questions'),
+                    where('exam', '==', exam),
+                    where('topic_id', '==', resolvedTopicId),
+                    where('difficulty_score', '>=', target.rating - 150),
+                    where('difficulty_score', '<=', target.rating + 150),
+                    limit(target.count * 2)
+                );
+                const snap = await getDocs(dbQuery);
+                if (!snap.empty) {
+                    const dbQs = snap.docs.map(d => ({ id: d.id, ...d.data() } as StoredQuestion));
+                    const selected = dbQs.sort(() => Math.random() - 0.5).slice(0, target.count);
+                    groupQuestions.push(...selected);
+                    for (let i = 0; i < selected.length; i++) updateBatchProgress();
+                }
+            } catch (err) { console.warn("DB Batch error", err); }
+
+            // Generate Delta for this band
+            const bandCount = groupQuestions.filter(q => 
+                Math.abs((q.difficulty_score || 0) - target.rating) <= 150
+            ).length;
+            const bandRemaining = target.count - bandCount;
+
+            if (bandRemaining > 0) {
+                for (let i = 0; i < bandRemaining; i++) {
                     const q = await generateInspiredQuestion({
                         exam,
                         subject: subject || 'General',
                         topic,
-                        difficulty: difficulty || 'Medium',
-                        abilityScore,
+                        difficulty: 'Medium', // legacy label
+                        abilityScore: target.rating,
                         remediationFocus: group.remediationFocus
                     });
                     if (q) groupQuestions.push(q);
-                } catch (genErr) {
-                    console.warn(`[QuestionEngine] Generation ${i + 1}/${remaining} failed for ${topic}:`, genErr);
-                }
-                updateBatchProgress();
-                
-                // Physical RPM Governor: Wait 2.5 seconds between generations
-                // Ensures we naturally stay under Groq's 30 RPM organization-level limit
-                if (i < remaining - 1 || needs.indexOf(group) < needs.length - 1) {
-                    await new Promise(r => setTimeout(r, 2500));
+                    updateBatchProgress();
                 }
             }
         }
-
         allQuestions.push(...groupQuestions);
     }
 
@@ -968,7 +939,8 @@ export const mapStoredToUIQuestion = (raw: any[], startId: number = 1) => {
             correctAnswer: correctAnswerIndex,
             explanation: q.explanation || q.hidden_derivation || '',
             topic: q.topic,
-            subject: q.subject
+            subject: q.subject,
+            difficulty_score: q.difficulty_score || 1000
         };
     });
 };
@@ -978,7 +950,6 @@ export const mapStoredToUIQuestion = (raw: any[], startId: number = 1) => {
  * Follows the "Quick Test" distribution rules from the Test Center.
  */
 export const generateStandardBatch = async (
-    uid: string,
     targetExam: string,
     userClass: string,
     subject?: string,
@@ -1015,7 +986,7 @@ export const generateStandardBatch = async (
     if (currentTotal > count) needs[0].count -= (currentTotal - count);
     if (currentTotal < count) needs[0].count += (count - currentTotal);
 
-    const questions = await getAdaptiveQuestionBatch(uid, needs, targetExam, abilityScore);
+    const questions = await getAdaptiveQuestionBatch(needs, targetExam, abilityScore);
     return mapStoredToUIQuestion(questions);
 };
 

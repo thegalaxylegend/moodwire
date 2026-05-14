@@ -8,67 +8,98 @@
  */
 
 const K_FACTOR = 32; // Standard Elo K-factor
-const DIFFICULTY_LEVELS: Record<string, number> = {
-    'Easy': 400,
-    'Medium': 1000,
-    'Hard': 1600
-};
 
 export interface CalibrationProfile {
     overall: number;
-    physics: number;
-    chemistry: number;
-    math: number;
-    biology: number;
-    history: number;
+    uncertainty: number;               // Rating Deviation (RD)
+    subjectRatings: Record<string, number>;
+    topicRatings: Record<string, number>;
+    learningVelocity: number;
+    conceptVectors: Record<string, number>;    // Cognitive skills (0.0 - 1.0)
     totalAttempts: number;
-    correctStreak: number;
-    wrongStreak: number;
+    streakCounter: number;             // Correct answers in a row
+    learningMomentum: number;          // Acceleration of learning (-50 to +50)
+    recentTopics: string[];            // Last 3 unique topics for diversity check
     lastCalibrated: string;
 }
 
 export const DEFAULT_CALIBRATION: CalibrationProfile = {
     overall: 1000,
-    physics: 1000,
-    chemistry: 1000,
-    math: 1000,
-    biology: 1000,
-    history: 1000,
+    uncertainty: 350, // Initial high uncertainty (Glicko RD)
+    subjectRatings: {
+        physics: 1000,
+        chemistry: 1000,
+        math: 1000,
+        biology: 1000,
+        history: 1000
+    },
+    topicRatings: {},
+    learningVelocity: 0,
+    conceptVectors: {
+        visualization: 0.5,
+        abstraction: 0.5,
+        precision: 0.5,
+        stamina: 0.5
+    },
     totalAttempts: 0,
-    correctStreak: 0,
-    wrongStreak: 0,
+    streakCounter: 0,
+    learningMomentum: 0,
+    recentTopics: [],
     lastCalibrated: new Date().toISOString()
 };
 
 export const EloService = {
     /**
      * Calculates the new ability score after a question attempt.
-     * @param currentAbility - Current User Elo (default 1000)
-     * @param questionDifficulty - Stored difficulty ('Easy', 'Medium', 'Hard')
-     * @param isCorrect - Whether the user got it right
+     * v4.0: Includes Rich Outcomes (Time, Hints, Confidence)
      */
-    calculateNewAbility: (currentAbility: number, questionDifficulty: 'Easy' | 'Medium' | 'Hard', isCorrect: boolean): number => {
-        const questionRating = DIFFICULTY_LEVELS[questionDifficulty];
-
+    calculateNewAbility: (
+        currentAbility: number, 
+        questionRating: number, 
+        outcome: {
+            isCorrect: boolean;
+            solveTimeS: number;
+            hintsUsed: number;
+            expectedTimeS?: number;
+        }
+    ): number => {
         // Expected outcome (Probability of winning)
         const expectedScore = 1 / (1 + Math.pow(10, (questionRating - currentAbility) / 400));
 
-        // Actual outcome
-        const actualScore = isCorrect ? 1 : 0;
+        // ── RICH OUTCOME WEIGHTING ──
+        // 1.0 = Perfect Correct, 0.0 = Wrong
+        // 0.8 = Correct but slow/hints, 0.2 = Wrong but close/fast try
+        let actualScore = outcome.isCorrect ? 1.0 : 0.0;
+
+        if (outcome.isCorrect) {
+            // Penalize for hints
+            if (outcome.hintsUsed > 0) actualScore -= Math.min(0.3, outcome.hintsUsed * 0.1);
+            
+            // Penalize for extreme slowness (Productive Struggle vs. Stuck)
+            const expected = outcome.expectedTimeS || 120;
+            if (outcome.solveTimeS > expected * 2.5) actualScore -= 0.2;
+        } else {
+            // Small reward for "fast try" (not giving up immediately)
+            if (outcome.solveTimeS > 30 && outcome.solveTimeS < 300) actualScore += 0.05;
+        }
+
+        actualScore = Math.max(0, Math.min(1, actualScore));
 
         // New Rating
-        const newRating = currentAbility + K_FACTOR * (actualScore - expectedScore);
-
-        return Math.round(newRating);
+        const change = K_FACTOR * (actualScore - expectedScore);
+        return currentAbility + change;
     },
 
     /**
-     * Maps Elo score back to difficulty levels for question selection.
+     * Continuous Difficulty Targeting (Banding Strategy)
+     * Returns a target question rating for the student.
      */
-    getTargetDifficulty: (abilityScore: number): 'Easy' | 'Medium' | 'Hard' => {
-        if (abilityScore < 600) return 'Easy';
-        if (abilityScore > 1400) return 'Hard';
-        return 'Medium';
+    getTargetDifficulty: (abilityScore: number, mix: 'Comfort' | 'Challenge' | 'Stretch' = 'Challenge'): number => {
+        switch (mix) {
+            case 'Comfort': return abilityScore - 150;
+            case 'Stretch': return abilityScore + 250;
+            default: return abilityScore;
+        }
     },
 
     /**
@@ -90,47 +121,142 @@ export const EloService = {
     updateCalibration: (
         calibration: CalibrationProfile,
         subject: string,
-        questionDifficulty: 'Easy' | 'Medium' | 'Hard',
-        isCorrect: boolean
+        topic: string,
+        questionRating: number,
+        outcome: { 
+            isCorrect: boolean; 
+            solveTimeS: number; 
+            hintsUsed: number;
+            hesitationS?: number;      // Time to first interaction
+            switchCount?: number;      // Number of times answer was changed
+        },
+        conceptTags?: string[]
     ): CalibrationProfile => {
-        const subjectKey = subject.toLowerCase() as keyof CalibrationProfile;
-        const currentSubjectRating = typeof calibration[subjectKey] === 'number'
-            ? (calibration[subjectKey] as number)
-            : 1000;
+        // 1. Apply Temporal Decay (Regress if inactive)
+        let processedProfile = EloService.applyTemporalDecay(calibration);
+        const newProfile = { ...processedProfile };
+        const subKey = subject.toLowerCase();
+        
+        // 2. Update Overall (Moving Average)
+        const oldOverall = newProfile.overall;
+        newProfile.overall = EloService.calculateNewAbility(oldOverall, questionRating, outcome);
+        
+        // 2. Update Subject
+        if (newProfile.subjectRatings[subKey] !== undefined) {
+            newProfile.subjectRatings[subKey] = EloService.calculateNewAbility(newProfile.subjectRatings[subKey], questionRating, outcome);
+        }
 
-        const newSubjectRating = EloService.calculateNewAbility(
-            currentSubjectRating,
-            questionDifficulty,
-            isCorrect
-        );
+        // 3. Update Topic (Granular)
+        const topicId = topic.toLowerCase().replace(/\s+/g, '_');
+        if (!newProfile.topicRatings) newProfile.topicRatings = {};
+        const currentTopicRating = newProfile.topicRatings[topicId] || 1000;
+        newProfile.topicRatings[topicId] = EloService.calculateNewAbility(currentTopicRating, questionRating, outcome);
 
-        const newOverall = EloService.calculateNewAbility(
-            calibration.overall,
-            questionDifficulty,
-            isCorrect
-        );
+        // 4. Behavioral Adjustment (Shift to Uncertainty instead of Gain Punishment)
+        // High hesitation or switching increases uncertainty (RD), signaling unstable mastery
+        if (outcome.hesitationS && outcome.hesitationS > 30) {
+            newProfile.uncertainty = Math.min(350, newProfile.uncertainty + 25);
+        }
+        if (outcome.switchCount && outcome.switchCount > 2) {
+            newProfile.uncertainty = Math.min(350, newProfile.uncertainty + 15);
+        }
 
-        return {
-            ...calibration,
-            [subjectKey]: newSubjectRating,
-            overall: newOverall,
-            totalAttempts: calibration.totalAttempts + 1,
-            correctStreak: isCorrect ? calibration.correctStreak + 1 : 0,
-            wrongStreak: isCorrect ? 0 : calibration.wrongStreak + 1,
-            lastCalibrated: new Date().toISOString()
-        };
+        const change = Math.abs(newProfile.overall - oldOverall);
+        
+        // Hints still directly dampen gain as they are a concrete assistance
+        if (outcome.isCorrect && outcome.hintsUsed > 0) {
+            const hintMultiplier = Math.max(0.4, 1 - (outcome.hintsUsed * 0.2));
+            const dampenedGain = (newProfile.overall - oldOverall) * hintMultiplier;
+            newProfile.overall = oldOverall + dampenedGain;
+        }
+
+        // 5. Update Concept Vectors (Cognitive Skills)
+        if (conceptTags && newProfile.conceptVectors) {
+            conceptTags.forEach(tag => {
+                const normalized = tag.toLowerCase().trim();
+                if (newProfile.conceptVectors![normalized] !== undefined) {
+                    // Slow, probabilistic updates (v4.1)
+                    const delta = outcome.isCorrect ? 0.01 : -0.005;
+                    newProfile.conceptVectors![normalized] = Math.max(0.1, Math.min(1.0, newProfile.conceptVectors![normalized] + delta));
+                }
+            });
+        }
+
+        newProfile.learningVelocity = (0.3 * change) + (0.7 * (newProfile.learningVelocity || 0));
+
+        // 6. Update Momentum and Topic Diversity
+        const abilityDelta = newProfile.overall - oldOverall;
+        newProfile.learningMomentum = (0.2 * abilityDelta) + (0.8 * (newProfile.learningMomentum || 0));
+        
+        const currentTopics = newProfile.recentTopics || [];
+        if (!currentTopics.includes(topic)) {
+            newProfile.recentTopics = [topic, ...currentTopics].slice(0, 5);
+        }
+
+        // 7. Update Streak and RD Normalization Pressure
+        if (outcome.isCorrect) {
+            newProfile.streakCounter = (newProfile.streakCounter || 0) + 1;
+        } else {
+            newProfile.streakCounter = 0;
+        }
+
+        // 8. Update Uncertainty (RD shrinks with attempts + stable streaks)
+        const currentUncertainty = newProfile.uncertainty || 350;
+        let rdShrink = (320 / Math.max(1, newProfile.totalAttempts));
+        
+        // Context-Aware Streak Bonus: 
+        // Only give full bonus if student is performing across varied topics
+        if (newProfile.streakCounter >= 3) {
+            const topicDiversity = new Set(newProfile.recentTopics).size;
+            const diversityMultiplier = topicDiversity >= 2 ? 1.0 : 0.5;
+            rdShrink += (newProfile.streakCounter * 2 * diversityMultiplier);
+        }
+
+        newProfile.uncertainty = Math.max(30, currentUncertainty - rdShrink);
+
+        newProfile.lastCalibrated = new Date().toISOString();
+
+        return newProfile;
+    },
+
+    /**
+     * Applies temporal decay to a profile based on inactivity.
+     * Prevents "stale mastery" and increases uncertainty.
+     */
+    applyTemporalDecay: (profile: CalibrationProfile): CalibrationProfile => {
+        const last = new Date(profile.lastCalibrated).getTime();
+        const now = Date.now();
+        const daysInactive = Math.floor((now - last) / (1000 * 60 * 60 * 24));
+
+        if (daysInactive <= 7) return profile;
+
+        const decayedProfile = { ...profile };
+        
+        // 1. Increase uncertainty first (RD) - System becomes less certain of user's current level
+        const rdIncrease = (daysInactive - 7) * 8;
+        decayedProfile.uncertainty = Math.min(350, (decayedProfile.uncertainty || 30) + rdIncrease);
+
+        // 2. Regress rating only after prolonged inactivity (30+ days)
+        if (daysInactive > 30) {
+            const weeksLate = Math.floor((daysInactive - 30) / 7);
+            const regressionFactor = Math.pow(0.995, weeksLate); // Even more conservative: 0.5% per week
+            decayedProfile.overall = 1000 + (decayedProfile.overall - 1000) * regressionFactor;
+            
+            // Apply to subjects too
+            Object.keys(decayedProfile.subjectRatings).forEach(s => {
+                decayedProfile.subjectRatings[s] = 1000 + (decayedProfile.subjectRatings[s] - 1000) * regressionFactor;
+            });
+        }
+
+        return decayedProfile;
     },
 
     /**
      * Gets the target difficulty for a specific subject based on the calibration profile.
      */
-    getSubjectDifficulty: (calibration: CalibrationProfile, subject: string): 'Easy' | 'Medium' | 'Hard' => {
-        const subjectKey = subject.toLowerCase() as keyof CalibrationProfile;
-        const rating = typeof calibration[subjectKey] === 'number'
-            ? (calibration[subjectKey] as number)
-            : calibration.overall;
-
-        return EloService.getTargetDifficulty(rating);
+    getSubjectDifficultyRating: (calibration: CalibrationProfile, subject: string): number => {
+        const subKey = subject.toLowerCase();
+        return calibration.subjectRatings[subKey] || calibration.overall;
     },
 
     /**
@@ -155,7 +281,7 @@ export const EloService = {
         const weak: string[] = [];
 
         subjects.forEach(s => {
-            const rating = calibration[s];
+            const rating = calibration.subjectRatings[s] || 1000;
             if (rating > 1200) strong.push(s.charAt(0).toUpperCase() + s.slice(1));
             else if (rating < 800) weak.push(s.charAt(0).toUpperCase() + s.slice(1));
         });

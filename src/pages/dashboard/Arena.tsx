@@ -86,7 +86,7 @@ export const Arena = () => {
             console.log(`[Arena] Generating battle batch for subject: ${subj}`);
             // 2. Fetch fresh Battle Questions based on user category
             const needs = [{ subject: subj, topic: 'Random', count: 10, difficulty: 'Medium' as const }];
-            const questionData = await getAdaptiveQuestionBatch(user?.id || 'guest', needs, user?.targetExam || 'JEE Mains');
+            const questionData = await getAdaptiveQuestionBatch(needs, user?.targetExam || 'JEE Mains');
 
             if (!questionData || questionData.length < 3) {
                 console.error('[Arena] Not enough questions generated for battle');

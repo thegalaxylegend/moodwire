@@ -13,7 +13,7 @@ import { trackQuestionTime, trackOptionSwitch } from '../../lib/analytics';
 import { storageService } from '../../services/storageService';
 import { FatigueService } from '../../services/fatigueService';
 import type { SessionMetric } from '../../services/fatigueService';
-import { EloService } from '../../services/eloService';
+import { EloService, DEFAULT_CALIBRATION } from '../../services/eloService';
 import { SpacedRepetitionService } from '../../services/spacedRepetitionService';
 import { MistakeNotebookService } from '../../services/mistakeNotebookService';
 
@@ -32,7 +32,10 @@ type Question = {
     correctAnswer: number;
     explanation: string;
     topic: string;
+    subject: string;
+    difficulty_score: number;
     imageUrl?: string;
+    concept_tags?: string[];
 };
 
 type Message = {
@@ -64,6 +67,9 @@ export const MockGenerator = () => {
     const [isVerifying, setIsVerifying] = useState(false);
     const [qStartTime, setQStartTime] = useState(Date.now());
     const [generationProgress, setGenerationProgress] = useState(0);
+    const [hints, setHints] = useState<Record<number, number>>({});
+    const [firstActionTimes, setFirstActionTimes] = useState<Record<number, number>>({});
+    const [switchCounts, setSwitchCounts] = useState<Record<number, number>>({});
 
     const [alertModal, setAlertModal] = useState<{ open: boolean; title: string; message: string; type: 'warning' | 'info' }>({ 
         open: false, title: "", message: "", type: 'info' 
@@ -299,7 +305,10 @@ export const MockGenerator = () => {
             if (status === 'completed') {
                 const questionResults = questions.map((q, i) => ({ topic: q.topic, isCorrect: answers[i] === q.correctAnswer }));
                 addGains({ xp: currentScore * 10, pts: currentScore }).catch(() => {});
-                updateProfile({ lastTestDate: new Date().toISOString().split('T')[0] }).catch(() => {});
+                updateProfile({ 
+                    lastTestDate: new Date().toISOString().split('T')[0],
+                    abilityScore: currentAbility 
+                }).catch(() => {});
                 markTopicsAsCompletedFromResults(user.id, questionResults).catch(() => {});
                 const topicStrengthResults = questions.map((q, i) => ({ topic: q.topic || 'General', subject: q.topic || 'General', isCorrect: answers[i] === q.correctAnswer }));
                 batchUpdateTopicStrength(user.id, topicStrengthResults, user.userClass, user.targetExam).catch(() => {});
@@ -434,7 +443,6 @@ export const MockGenerator = () => {
 
             setLoadingMessage("Fetching Hybrid Questions...");
             const rawQuestions = await getAdaptiveQuestionBatch(
-                user!.id,
                 needs,
                 targetExam,
                 currentAbility,
@@ -462,6 +470,10 @@ export const MockGenerator = () => {
             const prevAnswer = answers[currentQ];
             if (prevAnswer !== undefined && prevAnswer !== optionIdx) {
                 trackOptionSwitch(q.id.toString(), prevAnswer.toString(), optionIdx.toString());
+                setSwitchCounts(prev => ({ ...prev, [currentQ]: (prev[currentQ] || 0) + 1 }));
+            }
+            if (firstActionTimes[currentQ] === undefined) {
+                setFirstActionTimes(prev => ({ ...prev, [currentQ]: Date.now() }));
             }
         }
         setAnswers(prev => ({ ...prev, [currentQ]: optionIdx }));
@@ -481,8 +493,48 @@ export const MockGenerator = () => {
             };
             const newHistory = [...sessionHistory, newMetric];
             setSessionHistory(newHistory);
-            const newAbility = EloService.calculateNewAbility(currentAbility, (q as any).difficulty || 'Medium', isCorrect);
+            
+            const qRating = q.difficulty_score || 1000;
+            const expectedTimeS = Math.max(60, Math.min(240, Math.round((qRating / 1000) * 60)));
+
+            const hesitationS = firstActionTimes[currentQ] 
+                ? Math.floor((firstActionTimes[currentQ] - qStartTime) / 1000) 
+                : duration;
+
+            const outcome = {
+                isCorrect: isCorrect,
+                solveTimeS: duration,
+                hintsUsed: hints[currentQ] || 0,
+                expectedTimeS: expectedTimeS,
+                hesitationS: hesitationS,
+                switchCount: switchCounts[currentQ] || 0
+            };
+
+            const newAbility = EloService.calculateNewAbility(
+                currentAbility, 
+                qRating, 
+                outcome
+            );
+            
             setCurrentAbility(newAbility);
+
+            // Update granular calibration profile
+            if (user) {
+                const updatedProfile = EloService.updateCalibration(
+                    user.calibrationProfile || DEFAULT_CALIBRATION,
+                    q.topic,
+                    q.subject || 'General',
+                    qRating,
+                    outcome,
+                    q.concept_tags
+                );
+
+                updateProfile({
+                    abilityScore: newAbility,
+                    calibrationProfile: updatedProfile
+                }).catch(() => {});
+            }
+
             if (newHistory.length % 3 === 0) {
                 const result = FatigueService.detectFatigue(newHistory);
                 if (result.fatigued) setFatigueNotice(result);
@@ -499,6 +551,7 @@ export const MockGenerator = () => {
 
     const handleAskAI = async (q: Question) => {
         if (!user) return;
+        setHints(prev => ({ ...prev, [currentQ]: (prev[currentQ] || 0) + 1 }));
         setAiModalOpen(true);
         setIsVerifying(true);
         setAiExplanation("Exa is re-solving this problem...");

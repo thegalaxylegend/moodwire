@@ -1454,6 +1454,16 @@ async function generateBlogs() {
 
         const { execSync } = await import('child_process');
         execSync('npx tsx scripts/sync-blogs.ts', { stdio: 'inherit' });
+        
+        console.log("\n🚀 Jules: Pushing generated updates to GitHub to trigger live deployment...");
+        try {
+            execSync('git add .', { stdio: 'inherit' });
+            execSync('git commit -m "chore(jules): auto-publish generated content and sync queues"', { stdio: 'inherit' });
+            execSync('git push', { stdio: 'inherit' });
+            console.log("✅ Successfully pushed to GitHub. Live deployment triggered.");
+        } catch (gitErr: any) {
+            console.warn("⚠️ Git commit/push skipped (no new changes or network error):", gitErr.message);
+        }
     } catch (e: any) {
         console.error("⚠️ Cleanup/Sync failed:", e.message);
     }

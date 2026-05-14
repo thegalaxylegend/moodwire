@@ -181,9 +181,16 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                         </div>
 
                         {/* Toolbox Header (Mobile only toggle) */}
-                        <div className="lg:hidden flex items-center justify-between mb-8">
+                        <div className="lg:hidden flex items-center justify-between mb-8 relative z-[70]">
                             <h4 className="font-newsreader italic text-2xl text-white">Navigation</h4>
-                            <button onClick={() => setIsToolboxOpen(false)} className="p-2 text-white/40 hover:text-white transition-colors"><X size={24} /></button>
+                            <button 
+                                type="button"
+                                onClick={() => setIsToolboxOpen(false)} 
+                                onTouchEnd={(e) => { e.preventDefault(); setIsToolboxOpen(false); }}
+                                className="relative z-[80] p-4 -mr-2 text-white/40 hover:text-white active:scale-90 transition-all cursor-pointer"
+                            >
+                                <X size={28} />
+                            </button>
                         </div>
 
                         {/* Feature: New Chat & Actions */}
@@ -403,7 +410,7 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                 <div className="lg:flex-[2.3] min-w-0 flex flex-col h-full relative overflow-hidden bg-gradient-to-b from-transparent to-white/[0.01]">
                     
                     {/* Floating Controls Overlay - Responsive Positioning */}
-                    <div className="absolute top-4 right-4 md:top-6 md:right-6 z-[70] flex items-center gap-2 md:gap-3">
+                    <div className={`absolute top-4 right-4 md:top-6 md:right-6 z-[70] items-center gap-2 md:gap-3 ${isToolboxOpen ? 'hidden lg:flex' : 'flex'}`}>
                         <button 
                             onClick={() => setIsToolboxOpen(!isToolboxOpen)}
                             className="lg:hidden p-3 bg-[#1d1f29]/80 backdrop-blur-xl rounded-xl border border-white/10 text-white/60 hover:text-white transition-all shadow-2xl active:scale-95"

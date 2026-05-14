@@ -23,9 +23,9 @@ export const ProtectedLayout = () => {
         return <DashboardSkeleton />;
     }
 
-    // Redirect unauthenticated users trying to access onboarding
-    if (!user && location.pathname.includes('/onboarding')) {
-        return <Navigate to="/login" replace />;
+    // Redirect unauthenticated users
+    if (!user) {
+        return <Navigate to="/login" replace state={{ from: location }} />;
     }
 
     // Keep Onboarding check: If user IS logged in but hasn't finished onboarding, force them there.
