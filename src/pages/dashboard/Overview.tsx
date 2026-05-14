@@ -17,9 +17,7 @@ import { ProficiencyMap } from '../../components/dashboard/ProficiencyMap';
 import { mockPrefetchService } from '../../services/mockPrefetchService';
 import { motion, AnimatePresence } from 'framer-motion';
 import { DailyStudyGoalIcon } from '../../components/dashboard/DailyStudyGoalIcon';
-import { RootCauseInsight } from '../../components/dashboard/RootCauseInsight';
-import { ConceptGraphService } from '../../services/conceptGraphService';
-import type { DependencyInsight } from '../../services/conceptGraphService';
+
 // MasteryDiagnostics removed
 // CollegePredictorCard removed
 // predictionService removed as per user request (unused)
@@ -388,16 +386,7 @@ export const Overview = () => {
 
 
 
-    // AI 2.0: Concept Graph Insights
-    const [dependencyInsights, setDependencyInsights] = useState<DependencyInsight[]>([]);
-    useEffect(() => {
-        if (weakTopicStats.length > 0) {
-            const insights = ConceptGraphService.findRootCauseInstabilities(
-                weakTopicStats.map(s => s.topic)
-            );
-            setDependencyInsights(insights);
-        }
-    }, [weakTopicStats]);
+    // AI 2.0: Concept Graph Insights (unused)
 
     // Optimized Video Fetching - Multi Focus
     const fetchRecommendations = async () => {

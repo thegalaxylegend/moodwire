@@ -106,10 +106,10 @@ export const StudyPlan = () => {
 
         // Build calibration-aware context
         const subjectStrengths = [
-            `Physics: ${calibration.physics} (${EloService.getSubjectDifficulty(calibration, 'physics')})`,
-            `Chemistry: ${calibration.chemistry} (${EloService.getSubjectDifficulty(calibration, 'chemistry')})`,
-            `Math: ${calibration.math} (${EloService.getSubjectDifficulty(calibration, 'math')})`,
-            `Biology: ${calibration.biology} (${EloService.getSubjectDifficulty(calibration, 'biology')})`
+            `Physics: ${calibration.subjectRatings.physics || 1000} (${EloService.getSubjectDifficultyRating(calibration, 'physics')})`,
+            `Chemistry: ${calibration.subjectRatings.chemistry || 1000} (${EloService.getSubjectDifficultyRating(calibration, 'chemistry')})`,
+            `Math: ${calibration.subjectRatings.math || 1000} (${EloService.getSubjectDifficultyRating(calibration, 'math')})`,
+            `Biology: ${calibration.subjectRatings.biology || 1000} (${EloService.getSubjectDifficultyRating(calibration, 'biology')})`
         ].join(', ');
 
         const prompt = `
@@ -413,7 +413,7 @@ Give a specific, data-driven tip. Mention exact subjects. No generic motivationa
                                 <div className="flex justify-between"><span>Overall</span><span className="font-bold text-text-main">{calibration.overall}</span></div>
                                 {['Physics', 'Chemistry', 'Math', 'Biology'].map(s => {
                                     const key = s.toLowerCase() as 'physics' | 'chemistry' | 'math' | 'biology';
-                                    const val = calibration[key];
+                                    const val = calibration.subjectRatings[key] || 1000;
                                     const color = val > 1200 ? 'text-green-400' : val < 800 ? 'text-red-400' : 'text-text-main';
                                     return (
                                         <div key={s} className="flex justify-between items-center">

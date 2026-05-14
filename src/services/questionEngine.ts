@@ -77,7 +77,7 @@ export interface StoredQuestion {
     confidence: number;
 }
 
-const ANCHOR_QUESTIONS_MIN_CONFIDENCE = 0.85;
+
 
 const CONTROLLED_MISCONCEPTION_ONTOLOGY = {
     mechanics: ["force.pseudo_force_misuse", "energy.non_conservative_omission", "statics.torque_balance_error"],
@@ -333,7 +333,7 @@ const enforceStorageLimit = (topic: string, exam: string) => {
                 orderBy('usage_count', 'asc')
             );
             const countSnap = await getDocs(q);
-            if (countSnap.size >= TOPIC_LIMIT) {
+            if (countSnap.size >= 50) {
                 const snap = await getDocs(query(q, limit(1)));
                 if (!snap.empty) deleteDoc(snap.docs[0].ref);
             }

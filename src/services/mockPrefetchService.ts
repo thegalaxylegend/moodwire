@@ -19,7 +19,7 @@ export const mockPrefetchService = {
     /**
      * Starts pre-fetching a Quick Test batch in the background.
      */
-    prefetchQuickTest: async (uid: string, targetExam: string, currentAbility: number, userClass: string) => {
+    prefetchQuickTest: async (_uid: string, targetExam: string, currentAbility: number, userClass: string) => {
         try {
             // 1. Check if we already have a fresh prefetch
             const cached = localStorage.getItem(PREFETCH_CACHE_KEY);
@@ -59,7 +59,6 @@ export const mockPrefetchService = {
 
             // Execute batch retrieval (Fallback to AI happens internally)
             const questions = await getAdaptiveQuestionBatch(
-                uid,
                 needs,
                 targetExam,
                 currentAbility,
