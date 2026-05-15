@@ -100,14 +100,47 @@ const SUBJECT_CATEGORIES: Record<string, string> = {
 };
 
 
-async function generateCloudflareImage(subject: string, topic: string, webpPath: string): Promise<boolean> {
-    const accountId = process.env.CLOUDFLARE_ACCOUNT_ID?.replace(/['"]/g, '') || '73fdf68d86f206ccbbf0ded01b668bd2';
-    const apiToken = process.env.CLOUDFLARE_API_TOKEN?.replace(/['"]/g, '');
+let _cloudflareAccountIndex = 0;
 
-    if (!accountId || !apiToken) {
-        console.warn("⚠️ Cloudflare credentials (ACCOUNT_ID/API_TOKEN) missing in .env");
+function getNextCloudflareAccount() {
+    try {
+        const accounts = [];
+        for (let i = 1; i <= 10; i++) {
+            const accId = process.env[`CLOUDFLARE_ACCOUNT_ID_${i}`]?.replace(/['"]/g, '');
+            const token = process.env[`CLOUDFLARE_API_TOKEN_${i}`]?.replace(/['"]/g, '');
+            if (accId && token) {
+                accounts.push({ accountId: accId, apiToken: token });
+            }
+        }
+        
+        if (accounts.length === 0) {
+            const fallbackAccId = process.env.CLOUDFLARE_ACCOUNT_ID?.replace(/['"]/g, '') || '73fdf68d86f206ccbbf0ded01b668bd2';
+            const fallbackToken = process.env.CLOUDFLARE_API_TOKEN?.replace(/['"]/g, '');
+            if (fallbackAccId && fallbackToken) {
+                accounts.push({ accountId: fallbackAccId, apiToken: fallbackToken });
+            }
+        }
+        
+        if (accounts.length === 0) return null;
+        
+        const account = accounts[_cloudflareAccountIndex % accounts.length];
+        _cloudflareAccountIndex = (_cloudflareAccountIndex + 1) % accounts.length;
+        return account;
+    } catch (err) {
+        console.warn("⚠️ Fallback to default due to rotation error:", err);
+        return null;
+    }
+}
+
+async function generateCloudflareImage(subject: string, topic: string, webpPath: string): Promise<boolean> {
+    const account = getNextCloudflareAccount();
+
+    if (!account) {
+        console.warn("⚠️ Cloudflare credentials missing in .env");
         return false;
     }
+
+    const { accountId, apiToken } = account;
 
     try {
         console.log(`☁️ Jules: Designing custom artwork via Cloudflare Flux...`);
@@ -1457,6 +1490,8 @@ async function generateBlogs() {
         
         console.log("\n🚀 Jules: Pushing generated updates to GitHub to trigger live deployment...");
         try {
+            execSync('git config user.name "Jules Bot"', { stdio: 'inherit' });
+            execSync('git config user.email "jules@examcompass.com"', { stdio: 'inherit' });
             execSync('git add .', { stdio: 'inherit' });
             execSync('git commit -m "chore(jules): auto-publish generated content and sync queues"', { stdio: 'inherit' });
             execSync('git push', { stdio: 'inherit' });

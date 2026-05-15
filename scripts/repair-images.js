@@ -19,8 +19,6 @@ const SUBJECT_FALLBACKS = {
     'default':     'generic-study.webp'
 };
 
-const CLOUDFLARE_ACCOUNT_ID = process.env.CLOUDFLARE_ACCOUNT_ID || '73fdf68d86f206ccbbf0ded01b668bd2';
-const CLOUDFLARE_API_TOKEN = process.env.CLOUDFLARE_API_TOKEN;
 const GEMINI_KEY = process.env.GEMINI_BACKUP_KEY || process.env.VITE_GEMINI_API_KEY;
 const GROQ_KEYS = [
     process.env.VITE_GROQ_API_KEY || process.env.GROQ_API_KEY,
@@ -31,15 +29,50 @@ const GROQ_KEYS = [
     process.env.VITE_GROQ_API_KEY_6
 ].filter(Boolean);
 
+let _cloudflareAccountIndex = 0;
+
+function getNextCloudflareAccount() {
+    try {
+        const accounts = [];
+        for (let i = 1; i <= 10; i++) {
+            const accId = process.env[`CLOUDFLARE_ACCOUNT_ID_${i}`]?.replace(/['"]/g, '');
+            const token = process.env[`CLOUDFLARE_API_TOKEN_${i}`]?.replace(/['"]/g, '');
+            if (accId && token) {
+                accounts.push({ accountId: accId, apiToken: token });
+            }
+        }
+        
+        if (accounts.length === 0) {
+            const fallbackAccId = process.env.CLOUDFLARE_ACCOUNT_ID?.replace(/['"]/g, '') || '73fdf68d86f206ccbbf0ded01b668bd2';
+            const fallbackToken = process.env.CLOUDFLARE_API_TOKEN?.replace(/['"]/g, '');
+            if (fallbackAccId && fallbackToken) {
+                accounts.push({ accountId: fallbackAccId, apiToken: fallbackToken });
+            }
+        }
+        
+        if (accounts.length === 0) return null;
+        
+        const account = accounts[_cloudflareAccountIndex % accounts.length];
+        _cloudflareAccountIndex = (_cloudflareAccountIndex + 1) % accounts.length;
+        return account;
+    } catch (err) {
+        console.warn("⚠️ Fallback to default due to rotation error:", err);
+        return null;
+    }
+}
+
 async function generateCloudflareImage(topic, subject) {
-    if (!CLOUDFLARE_ACCOUNT_ID || !CLOUDFLARE_API_TOKEN) return null;
+    const account = getNextCloudflareAccount();
+    if (!account) return null;
+    
+    const { accountId, apiToken } = account;
     try {
         const response = await fetch(
-            `https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/ai/run/@cf/black-forest-labs/flux-1-schnell`,
+            `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/black-forest-labs/flux-1-schnell`,
             {
                 method: 'POST',
                 headers: { 
-                    'Authorization': `Bearer ${CLOUDFLARE_API_TOKEN}`,
+                    'Authorization': `Bearer ${apiToken}`,
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({ 
