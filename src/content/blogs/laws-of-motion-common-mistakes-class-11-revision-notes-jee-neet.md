@@ -26,7 +26,7 @@ manualReview: false
 
 ## 🪤 The 5 Mistakes That Cost Marks
 - Assuming friction is always kinetic, when ∈ fact it can be static or kinetic
-- Forgetting to consider the normal force ∈ problems involving inclined planes
+- Forgetting to consider the normal [force](/blog/force-and-laws-of-motion-class-9-notes) ∈ problems involving inclined planes
 - Not using the correct equation for centripetal force: F = (mv²)/r
 - Incorrectly applying Newton's third law, forgetting that forces always come ∈ pairs
 - Not considering the system as a whole when applying conservation of momentum

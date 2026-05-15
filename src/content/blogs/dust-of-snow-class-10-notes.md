@@ -321,50 +321,50 @@ The poem Dust of Snow by Robert Frost teaches us to appreciate the small things 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the poet's mood at the beginning of the poem 'Dust of Snow'?**
-**A)**       Sorrowful
-**B)**       Angry
-**C)**       Fearful
-**D)**       Neutral
+**A)**        Sorrowful
+**B)**        Angry
+**C)**        Fearful
+**D)**        Neutral
 
 **Answer:** A) The poet, Robert Frost, starts the poem with a sorrowful mood, which is evident [from](/blog/from-the-diary-of-anne-frank-class-10-notes) the description of the 'dust of snow' that falls on him. The other options do not accurately describe the poet's initial mood. Angry and Fearful imply stronger emotions not present at the start, while Neutral does not match the somber tone.
 
 ---
 
 **2. What is the symbolic meaning of the 'Dust of Snow'?**
-**A)**       Hope and positivity
-**B)**       Death and destruction
-**C)**       Nature's healing power
-**D)**       Nothingness
+**A)**        Hope and positivity
+**B)**        Death and destruction
+**C)**        Nature's healing power
+**D)**        Nothingness
 
 **Answer:** C) The 'Dust of Snow' symbolizes nature's healing power. The dust of snow that falls on the poet changes his mood and outlook. Hope and positivity are related but not the best fit. Death and destruction are opposite of what the poem conveys, and Nothingness underestimates the significance of the event.
 
 ---
 
 **3. The poem 'Dust of Snow' is set in a _______.**
-**A)**       Forest
-**B)**       Garden
-**C)**       Field
-**D)**       Woods
+**A)**        Forest
+**B)**        Garden
+**C)**        Field
+**D)**        Woods
 
 **Answer:** D) The poem is set in woods, which provides a natural and serene backdrop for the events of the poem. Forest and Field are similar but not specific enough; Garden implies a more cultivated environment than described.
 
 ---
 
 **4. The crow's action in the poem results in _______.**
-**A)**       The poet's sadness increasing
-**B)**       The poet's mood changing
-**C)**       The crow flying away
-**D)**       The snow falling harder
+**A)**        The poet's sadness increasing
+**B)**        The poet's mood changing
+**C)**        The crow flying away
+**D)**        The snow falling harder
 
 **Answer:** B) The crow shaking down the dust of snow changes the poet's mood [from](/blog/from-the-diary-of-anne-frank-class-10-notes) sorrowful to hopeful. The other options do not accurately describe the outcome of the crow's action. The poet's sadness does not increase; instead, it transforms.
 
 ---
 
 **5. The poem 'Dust of Snow' consists of ______ lines.**
-**A)**       2
-**B)**       4
-**C)**       8
-**D)**       16
+**A)**        2
+**B)**        4
+**C)**        8
+**D)**        16
 
 **Answer:** B) The poem consists of 4 lines, making it a very short but impactful poem. The other options are incorrect as they do not reflect the actual structure of the poem.
 
