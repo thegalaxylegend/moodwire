@@ -512,50 +512,50 @@ The Consumer Protection Act, 1986 is a powerful tool that empowers consumers to 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. A consumer buys a television that consumes 250 kWh of electricity per month. If the cost of electricity is ₹5.50 per kWh, how much does the consumer pay for electricity in 6 months?**
-**A)**          ₹8,250
-**B)**          ₹8,500
-**C)**          ₹8,000
-**D)**          ₹7,500
+**A)**           ₹8,250
+**B)**           ₹8,500
+**C)**           ₹8,000
+**D)**           ₹7,500
 
 **Answer:** B) The consumer pays 250 kWh/month × ₹5.50/kWh = ₹1,375 per month. For 6 months, the total cost is ₹1,375 × 6 = ₹8,250. Option B is incorrect because it assumes a higher cost per kWh or more months. Option C is wrong because it underestimates the monthly cost. Option D underestimates both.
 
 ---
 
 **2. Which of the following is a right of a consumer under the Consumer Rights?**
-**A)**          Right to Safety
-**B)**          Right to Health
-**C)**          Right to Information
-**D)**          Right to Ignore
+**A)**           Right to Safety
+**B)**           Right to Health
+**C)**           Right to Information
+**D)**           Right to Ignore
 
 **Answer:** A) Right to Safety is one of the six consumer rights. It ensures that consumers are protected against the marketing of goods that are hazardous to life and property. Option B is not a specified consumer right. Option C, while related, is not as directly stated as Right to Safety. Option D is incorrect as it does not exist.
 
 ---
 
 **3. A shopkeeper sells 15 items at a price of ₹20 each. If the shopkeeper offers a 10% discount on the total price, how much will a consumer pay?**
-**A)**          ₹250
-**B)**          ₹270
-**C)**          ₹300
-**D)**          ₹330
+**A)**           ₹250
+**B)**           ₹270
+**C)**           ₹300
+**D)**           ₹330
 
 **Answer:** B) The total price without discount is 15 × ₹20 = ₹300. A 10% discount on ₹300 is 0.10 × ₹300 = ₹30. So, the consumer pays ₹300 - ₹30 = ₹270. Option A underestimates. Option C is the original price. Option D overestimates.
 
 ---
 
 **4. What is the full form of the term 'WTO'?**
-**A)**          World Trade Organization
-**B)**          World Trading Organization
-**C)**          World Trade Office
-**D)**          World Trading Office
+**A)**           World Trade Organization
+**B)**           World Trading Organization
+**C)**           World Trade Office
+**D)**           World Trading Office
 
 **Answer:** A) The World Trade Organization (WTO) is an international organization that deals with the global rules of trade between nations. The other options are incorrect formulations.
 
 ---
 
 **5. A consumer purchased a refrigerator for ₹20,000. The shop provides a 5% guarantee on the purchase. If the consumer returns it within the guarantee period, how much will the consumer get back?**
-**A)**          ₹19,000
-**B)**          ₹20,000
-**C)**          ₹18,000
-**D)**          ₹21,000
+**A)**           ₹19,000
+**B)**           ₹20,000
+**C)**           ₹18,000
+**D)**           ₹21,000
 
 **Answer:** A) The consumer gets back the full amount minus a 5% deduction. 5% of ₹20,000 is 0.05 × ₹20,000 = ₹1,000. So, the consumer gets ₹20,000 - ₹1,000 = ₹19,000 back. Option B is incorrect because it does not account for the deduction. Options C and D are mathematically incorrect.
 

@@ -354,7 +354,7 @@ Recognition of Dignity + Equality of Status $\rightarrow$ Social Justice
 **The Gender Equality Formula:**
 Political Participation + Legal Rights $\rightarrow$ Women's Dignity
 
-- Political Participation: Women's involvement in voting and decision-making.
+- [Political](/blog/political-parties-class-10-notes) Participation: Women's involvement in voting and decision-making.
 
 - Legal [Rights](/blog/consumer-rights-class-10-notes): Laws protecting women from discrimination.
 
@@ -452,7 +452,7 @@ eq$ Democracy.
  * Fix: Speed (Dictatorship) vs. Legitimacy (Democracy).
 
  * *Mistake 5: The "Vague Dignity" Answer.*
- * Wrong: Democracy gives rights to everyone.
+ * Wrong: Democracy gives [rights](/blog/consumer-rights-class-10-notes) to everyone.
  * Correct: Democracy enhances dignity by recognizing the rights of women, Dalits, and minorities.
  * Fix: Specificity is key: Mention Women + Minority groups.
 
@@ -1248,7 +1248,7 @@ No introductions, no filler, no prose paragraphs, bullets only.
  2. ❌ A democratic government is always efficient and quick in decision-making → ✅ Democracy is often slow due to consultations and debates, but its decisions are more acceptable and legitimate.
 
  * *Section 4: ### If you can only remember ONE thing*
- * Democracy's primary success is not in economic growth rates, but in its ability to uphold human dignity, equality, and provide a legitimate, accountable way for citizens to participate in power.
+ * Democracy's primary success is not in economic growth rates, but in its ability to uphold human dignity, equality, and provide a legitimate, accountable way for citizens to participate in [power](/blog/power-sharing-class-10-notes).
 
  * Check constraints: Exactly 5 formulas? Yes (adapted). Exactly 3 facts? Yes. Exactly 2 traps? Yes. Exactly 1 sentence summary? Yes.
  * Check LaTeX: No LaTeX used.

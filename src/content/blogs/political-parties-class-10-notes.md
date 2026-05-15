@@ -337,7 +337,7 @@ Political Parties (Class 10 Social Science).
  * 🔴: "Parties don't let everyone participate."
  * ✅: "Lack of internal democracy: [Power](/blog/power-sharing-class-10-notes) concentrated in hands of top leaders; no regular internal elections."
  * 💸: 1–2 marks.
- * 🔧: Use the term "Concentration of Power."
+ * 🔧: Use the term "Concentration of [Power](/blog/power-sharing-class-10-notes)."
 
  * *Mistake 5: The "Opposition" Misconception.*
  * 🔴: "Opposition's job is to stop the government."
@@ -366,7 +366,7 @@ Political Parties (Class 10 Social Science).
  * *Check:* No "Here is the section".
  * *Check:* No LaTeX.
 
- *(Self-Correction)*: The prompt mentions Robert Michels' "Iron Law of Oligarchy" in the research context. While it's a sociological concept, for Class 10 CBSE, it's not explicitly in the textbook, but the *concept* of "concentration of power in a few hands" is the core of "Lack of Internal Democracy." I will frame the mistake around "Lack of Internal Democracy" to stay 100% NCERT compliant while acknowledging the high-level logic.
+ *(Self-Correction)*: The prompt mentions Robert Michels' "Iron Law of Oligarchy" in the research context. While it's a sociological concept, for Class 10 CBSE, it's not explicitly in the textbook, but the *concept* of "concentration of power in a few hands" is the core of "Lack of Internal [Democracy](/blog/outcomes-of-democracy-class-10-notes)." I will frame the mistake around "Lack of Internal [Democracy](/blog/outcomes-of-democracy-class-10-notes)" to stay 100% NCERT compliant while acknowledging the high-level logic.
 
  *Wait, the prompt says:* "STRICT ACADEMIC BOUNDARY (CLASS 10): ... DO NOT include JEE Advanced, NEET, or College-level theorems... If a student reads this, they should feel it is perfectly aligned with their school textbook."
  Okay, so I will avoid the term "Iron Law of Oligarchy" in the mistakes to ensure a Class 10 student doesn't get confused, focusing instead on the NCERT term: "Lack of Internal Democracy."
@@ -414,7 +414,7 @@ Political Parties (Class 10 Social Science).
 
 - shaping public opinion, making laws). Challenges = The problems/weaknesses (e.g.
 
-- money/muscle power, lack of internal democracy).
+- [money](/blog/money-and-credit-class-10-notes)/muscle power, lack of internal democracy).
 
 - 💸 **Marks lost:** 3 marks (in long-answer questions).
 

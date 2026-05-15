@@ -1121,7 +1121,7 @@ No intro, no fluff, no "".
  *Reality:* $dQ = dU + dW$. If $dQ=0$, then $dU = -dW$. In expansion, $dW > 0 \implies dU < 0 \implies ΔT < 0$.
  *Advanced Insight:* The difference between $γ$ in isothermal ($PV=k$) and adiabatic ($PV^γ=k$).
 
- *One detail:* The prompt asks for "physics heat light". I should briefly mention the "Light" (Optics) trap if I can, but the "One Thing" format usually focuses on one core concept. I will stick to the Thermodynamics one as it is deeper and more "JEE Advanced" level.
+ *One detail:* The prompt asks for "[physics](/blog/physics-mechanics-class-11-revision-notes-jee-neet) heat light". I should briefly mention the "Light" (Optics) trap if I can, but the "One Thing" format usually focuses on one core concept. I will stick to the Thermodynamics one as it is deeper and more "JEE Advanced" level.
 
  *Final check on the "Diagnostic Question" format:*
  

@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/computer-organization-class-11-notes"
 ---
 
-*Last Updated: May 14, 2026*
+*Last Updated: May 15, 2026*
 
 ## 📑 Table of Contents
 
@@ -302,7 +302,7 @@ The following table summarizes the key components of computer organization and t
 | Input/Output Subsystem | Interrupts, DMA, polling | Web servers, network devices |
 
 - The Fetch-Decode-Execute cycle is the basic operation of the CPU.
-- The Control Unit manages the flow of data and regulates the Fetch-Decode-Execute cycle.
+- The Control Unit manages the flow of [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) and regulates the Fetch-Decode-Execute cycle.
 - The ALU performs arithmetic and logical operations.
 - Von Neumann architecture uses a single bus for data and address.
 - The Bus is a communication pathway for data transfer between devices.

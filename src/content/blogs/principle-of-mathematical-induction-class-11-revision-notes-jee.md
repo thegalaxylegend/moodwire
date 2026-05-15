@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/principle-of-mathematical-induction-class-11-revision-notes-jee"
 ---
 
-*Last Updated: May 14, 2026*
+*Last Updated: May 15, 2026*
 
 ## 📑 Table of Contents
 
@@ -151,7 +151,7 @@ Principle of Mathematical Induction is a fundamental proof technique used to est
 
 ## <a id="what-is-the-difference-between-strong-n-weak-induction-n-the-context-of-mathematical-induction"></a>What is the difference between strong and weak induction and the context of Mathematical Induction?
 
-What is the difference between strong and weak induction and the context of Mathematical Induction? is a fundamental concept and discrete mathematics that deals with the methodology of proving mathematical statements. It includes the base case, inductive hypothesis, n inductive step. For Class 11 exam prep and 2026, the most important aspect is understanding how to apply these concepts to solve problems, especially those involving sequences and series. 
+What is the difference between strong and weak induction and the context of [Mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) Induction? is a fundamental concept and discrete mathematics that deals with the methodology of proving [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) statements. It includes the base case, inductive hypothesis, n inductive step. For Class 11 exam prep and 2026, the most important aspect is understanding how to apply these concepts to solve problems, especially those involving sequences and series. 
 
 Mathematical induction is a technique used to prove that a statement is true for all positive integers. It involves two main types: weak induction and strong induction. Weak induction, also known as simple induction, assumes that a statement is true for some positive integer $k$ n then proves it is true for $k+1$. On the other hand, strong induction assumes the statement is true for all positive integers less than or equal to $k$ n then proves it is true for $k+1$. 
 

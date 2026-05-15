@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/data-structures-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 14, 2026*
+*Last Updated: May 15, 2026*
 
 ## 📑 Table of Contents
 
@@ -384,7 +384,7 @@ Arrays are not dynamic
 
 **Answer:**
 B) Insertion and deletion are difficult because shifting all elements after the affected index is time-consuming.
-**4. Consider an array with and elements. What is the time complexity of searching for an element and an array using a linear search algorithm?**
+**4. Consider an array with and elements. What is the time complexity of searching for an element and an array using a [linear](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) search algorithm?**
 O(1)
 $O(\log n)$
 O(n)

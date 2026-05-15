@@ -140,7 +140,7 @@ D) 8 × 10⁻⁵ T
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/magnetic-effects-of-current-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/[magnetic](/blog/magnetic-effects-of-electric-current-class-10-notes)-effects-of-current-class-12-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 
