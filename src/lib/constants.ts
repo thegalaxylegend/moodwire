@@ -407,14 +407,10 @@ export const SOCIAL_LINKS = {
 export const EXAM_SUBJECT_MAPPING: Record<string, string[]> = {
     'jee-mains': ['Physics', 'Chemistry', 'Mathematics'],
     'jee-advanced': ['Physics', 'Chemistry', 'Mathematics'],
-    'jee': ['Physics', 'Chemistry', 'Mathematics'],
     'neet': ['Physics', 'Chemistry', 'Biology'],
-    'medical': ['Physics', 'Chemistry', 'Biology'],
     'class-12': ['Physics', 'Chemistry', 'Mathematics', 'Biology'],
     'class-11': ['Physics', 'Chemistry', 'Mathematics', 'Biology'],
     'class-10': ['Science', 'Mathematics', 'Social Science', 'English'],
     'class-9': ['Science', 'Mathematics', 'Social Science', 'English'],
     'class-8': ['Science', 'Mathematics', 'Social Science', 'English'],
-    'boards': ['Physics', 'Chemistry', 'Mathematics', 'Biology'],
-    'cuet': ['Physics', 'Chemistry', 'Mathematics', 'English'],
 };

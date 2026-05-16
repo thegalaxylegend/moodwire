@@ -180,13 +180,7 @@ export const AutoSchema = () => {
                             "priceCurrency": "INR",
                             "category": "Free"
                         },
-                        "isAccessibleForFree": true,
-                        "aggregateRating": {
-                            "@type": "AggregateRating",
-                            "ratingValue": "4.8",
-                            "bestRating": "5",
-                            "ratingCount": "850"
-                        }
+                        "isAccessibleForFree": true
                     });
 
                     // Quiz schema for topic practice
@@ -251,13 +245,6 @@ export const AutoSchema = () => {
                     "@type": "Person",
                     "name": "Ayush Kumar",
                     "url": `${SITE_URL}/about`
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.8",
-                    "bestRating": "5",
-                    "worstRating": "1",
-                    "ratingCount": "1240"
                 }
             });
         }

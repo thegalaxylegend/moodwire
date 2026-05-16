@@ -15,7 +15,7 @@
         "type": 301
       },
       {
-        "source": "/:path*",
+        "regex": "/(?P<path>.+)",
         "destination": "https://examcompass.pages.dev/:path",
         "type": 301
       }

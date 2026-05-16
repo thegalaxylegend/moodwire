@@ -6,13 +6,23 @@ import { motion } from 'framer-motion';
 const exams = [
     {
         id: 'jee-mains',
-        name: 'JEE Main & Advanced',
-        desc: 'Engineering Entrance Exams',
+        name: 'JEE Mains 2026',
+        desc: 'Engineering Entrance Exam',
         nextDate: 'Jan 24, 2026',
         progress: 75,
         color: 'bg-primary',
         category: 'Engineering',
         difficulty: 'Hard'
+    },
+    {
+        id: 'jee-advanced',
+        name: 'JEE Advanced 2026',
+        desc: 'IIT Selection Exam',
+        nextDate: 'Jun 08, 2026',
+        progress: 60,
+        color: 'bg-blue-500',
+        category: 'Engineering',
+        difficulty: 'Expert'
     },
     {
         id: 'neet',
@@ -46,15 +56,35 @@ const exams = [
         difficulty: 'Medium'
     },
     {
-        id: 'school-exams',
-        name: 'Junior School (8-10)',
-        desc: 'Classes 8-10 CBSE Foundation',
-        nextDate: 'Mar 15, 2026',
+        id: 'class-10',
+        name: 'Class 10 Boards',
+        desc: 'CBSE Class 10 Board Preparation',
+        nextDate: 'Feb 15, 2026',
         progress: 100,
         color: 'bg-purple-500',
         category: 'School',
-        difficulty: 'School Level'
-    }
+        difficulty: 'Medium'
+    },
+    {
+        id: 'class-9',
+        name: 'Class 9 Exams',
+        desc: 'CBSE Class 9 Annual Examination',
+        nextDate: 'Mar 15, 2026',
+        progress: 100,
+        color: 'bg-pink-500',
+        category: 'School',
+        difficulty: 'Medium'
+    },
+    {
+        id: 'class-8',
+        name: 'Class 8 Exams',
+        desc: 'CBSE Class 8 Foundation Year',
+        nextDate: 'Mar 15, 2026',
+        progress: 100,
+        color: 'bg-orange-500',
+        category: 'School',
+        difficulty: 'Easy'
+    },
 ];
 
 const TiltCard = ({ children, className = '' }: { children: React.ReactNode; className?: string }) => {

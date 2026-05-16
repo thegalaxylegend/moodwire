@@ -626,7 +626,6 @@ export const Chatbot = () => {
                                 }
                             }}
                             onClose={handleClose}
-                            onToggleSettings={() => {}}
                             isCallMode={isCallMode}
                             setIsCallMode={setIsCallMode}
                             isMuted={isMuted}

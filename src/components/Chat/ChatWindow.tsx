@@ -22,7 +22,6 @@ interface ChatWindowProps {
     onSelectSuggestion?: (text: string) => void;
     onClearHistory?: () => void;
     onClose: () => void;
-    onToggleSettings: () => void;
     isCallMode: boolean;
     setIsCallMode: (val: boolean) => void;
     isMuted: boolean;
@@ -148,59 +147,74 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                 
                 {/* Left Pane: Mentor Toolbox */}
                 <div 
-                    data-lenis-prevent
                     className={`
                     absolute inset-y-0 left-0 z-[60] w-full lg:flex-[0.7] h-full lg:relative lg:block transition-transform duration-500 ease-out
-                    bg-[#1d1f29] lg:bg-[#11131c]/50 border-r border-white/5 overflow-y-auto overflow-x-hidden scroll-safe-layer
+                    bg-[#1d1f29] lg:bg-[#11131c]/50 border-r border-white/5 flex flex-col
                     ${perfTier === 'elite' ? 'lg:backdrop-blur-xl' : 'lg:backdrop-blur-none'}
                     ${isToolboxOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}
                 `}>
-                    <div className="p-8 space-y-10 lg:space-y-12">
-                        
-                        {/* Bot Identity & Branding */}
-                        <div className="flex items-center gap-4 py-2 mb-4 gpu-accelerate">
-                            <div className="relative group shrink-0">
-                                <div className="w-14 h-14 rounded-[24px] bg-gradient-to-br from-[#5d21df] to-[#153ae4] flex items-center justify-center text-white shadow-[0_12px_24px_rgba(93,33,223,0.3)] overflow-hidden transition-transform group-hover:scale-105 transform-gpu">
-                                    <Bot size={28} />
-                                </div>
-                                <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-[#81ecff] rounded-full border-[3px] border-[#11131c] shadow-[0_0_10px_#81ecff] animate-pulse"></div>
-                            </div>
-                            <div>
-                                <div className="flex flex-col">
-                                    <h3 className="font-newsreader italic text-3xl text-white leading-none tracking-tight">Exa AI</h3>
-                                    <div className="mt-2 text-white/40">
-                                        <span className="text-[9px] font-black uppercase tracking-[0.3em]">Mental Nexus v4.0</span>
+                    
+                    {/* Toolbox Header (Mobile only toggle) - Safely outside scroll container */}
+                    <div className="lg:hidden shrink-0 z-[100] px-8 py-6 flex items-center justify-between bg-[#1d1f29] border-b border-white/5 shadow-lg relative pointer-events-auto">
+                        <div className="flex items-center gap-3">
+                            <div className="w-2 h-2 rounded-full bg-indigo-500 animate-pulse shadow-[0_0_10px_rgba(93,33,223,0.8)]" />
+                            <h4 className="font-newsreader italic text-2xl text-white">Control Center</h4>
+                        </div>
+                        <button 
+                            type="button"
+                            onClick={(e) => {
+                                e.stopPropagation();
+                                setIsToolboxOpen(false);
+                            }}
+                            onTouchEnd={(e) => {
+                                e.preventDefault(); // Stop mobile ghost clicks
+                                e.stopPropagation();
+                                setIsToolboxOpen(false);
+                            }}
+                            className="p-4 -mr-4 bg-white/10 rounded-xl text-white hover:bg-white/20 active:scale-90 transition-all cursor-pointer border border-white/10 flex items-center justify-center relative z-[110]"
+                            aria-label="Close Control Center"
+                        >
+                            <X size={26} strokeWidth={2.5} />
+                        </button>
+                    </div>
+
+                    {/* Scrollable Content */}
+                    <div 
+                        data-lenis-prevent
+                        className="flex-1 overflow-y-auto overflow-x-hidden scroll-safe-layer h-full"
+                    >
+                        <div className="flex flex-col min-h-max p-8 space-y-10 lg:space-y-12">
+                            {/* Bot Identity & Branding */}
+                            <div className="flex items-center gap-4 py-2 mb-4 gpu-accelerate">
+                                <div className="relative group shrink-0">
+                                    <div className="w-14 h-14 rounded-[24px] bg-gradient-to-br from-[#5d21df] to-[#153ae4] flex items-center justify-center text-white shadow-[0_12px_24px_rgba(93,33,223,0.3)] overflow-hidden transition-transform group-hover:scale-105 transform-gpu">
+                                        <Bot size={28} />
                                     </div>
-                                    <div className="mt-1 flex gap-2">
-                                        <div className="px-2 py-0.5 bg-[#cdbdff]/10 border border-[#cdbdff]/20 rounded-md">
-                                            <span className="text-[8px] font-black text-[#cdbdff] uppercase tracking-widest">Digital Curator</span>
+                                    <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-[#81ecff] rounded-full border-[3px] border-[#11131c] shadow-[0_0_10px_#81ecff] animate-pulse"></div>
+                                </div>
+                                <div>
+                                    <div className="flex flex-col">
+                                        <h3 className="font-newsreader italic text-3xl text-white leading-none tracking-tight">Exa AI</h3>
+                                        <div className="mt-2 text-white/40">
+                                            <span className="text-[9px] font-black uppercase tracking-[0.3em]">Mental Nexus v4.0</span>
+                                        </div>
+                                        <div className="mt-1 flex gap-2">
+                                            <div className="px-2 py-0.5 bg-[#cdbdff]/10 border border-[#cdbdff]/20 rounded-md">
+                                                <span className="text-[8px] font-black text-[#cdbdff] uppercase tracking-widest">Digital Curator</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        {/* Toolbox Header (Mobile only toggle) */}
-                        <div className="lg:hidden flex items-center justify-between mb-8 relative z-[70]">
-                            <h4 className="font-newsreader italic text-2xl text-white">Navigation</h4>
-                            <button 
-                                type="button"
-                                onClick={() => setIsToolboxOpen(false)} 
-                                onTouchEnd={(e) => { e.preventDefault(); setIsToolboxOpen(false); }}
-                                className="relative z-[80] p-4 -mr-2 text-white/40 hover:text-white active:scale-90 transition-all cursor-pointer"
-                            >
-                                <X size={28} />
-                            </button>
-                        </div>
-
-                        {/* Feature: New Chat & Actions */}
-                        <section>
-                            <div className="flex items-center gap-3 mb-6">
-                                <div className="p-2 bg-[#cdbdff]/10 rounded-lg text-[#cdbdff]">
-                                    <LayoutDashboard size={18} />
+                            {/* Feature: New Chat & Actions */}
+                            <section>
+                                <div className="flex items-center gap-3 mb-6">
+                                    <div className="p-2 bg-[#cdbdff]/10 rounded-lg text-[#cdbdff]">
+                                        <LayoutDashboard size={18} />
+                                    </div>
+                                    <h4 className="text-xs font-black text-white/50 uppercase tracking-[4px]">Session Control</h4>
                                 </div>
-                                <h4 className="text-xs font-black text-white/50 uppercase tracking-[4px]">Session Control</h4>
-                            </div>
                             
                             <motion.button
                                 whileHover={{ scale: 1.02, backgroundColor: 'rgba(93, 33, 223, 0.1)' }}
@@ -405,14 +419,19 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                         </section>
                     </div>
                 </div>
+            </div>
 
                 {/* Right Pane: Chat Experience (Swapped from left) */}
                 <div className="lg:flex-[2.3] min-w-0 flex flex-col h-full relative overflow-hidden bg-gradient-to-b from-transparent to-white/[0.01]">
                     
                     {/* Floating Controls Overlay - Responsive Positioning */}
-                    <div className={`absolute top-4 right-4 md:top-6 md:right-6 z-[70] items-center gap-2 md:gap-3 ${isToolboxOpen ? 'hidden lg:flex' : 'flex'}`}>
+                    <div className={`absolute top-4 right-4 md:top-6 md:right-6 z-[70] items-center gap-2 md:gap-3 
+                        ${isToolboxOpen ? 'hidden lg:flex' : 'flex'}`}>
                         <button 
-                            onClick={() => setIsToolboxOpen(!isToolboxOpen)}
+                            onClick={(e) => {
+                                e.stopPropagation();
+                                setIsToolboxOpen(!isToolboxOpen);
+                            }}
                             className="lg:hidden p-3 bg-[#1d1f29]/80 backdrop-blur-xl rounded-xl border border-white/10 text-white/60 hover:text-white transition-all shadow-2xl active:scale-95"
                         >
                             <Menu size={20} />

@@ -2,12 +2,20 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { useState, useEffect, useRef } from 'react';
 import { useUserStore } from '../../store/userStore';
-import { ArrowLeft, Share2, Play, Pause, Volume2, VolumeX, Bookmark, BookmarkCheck, ChevronDown, Check, Loader2, Search, Send, User, Bot, Phone, Settings, X, Paperclip, MessageSquare, Mic, MicOff } from 'lucide-react';
+import { ArrowLeft, Share2, Play, Pause, Volume2, VolumeX, Bookmark, BookmarkCheck, ChevronDown, Check, Loader2, Search, Send, User, Bot, Phone, Settings, X, Paperclip, MessageSquare, Mic, MicOff, BookOpen, Zap } from 'lucide-react';
 import type { Video, Playlist } from '../../services/videoService';
 import { getVideoByTopicIdCached } from '../../services/videoService';
 import { SEO } from '../../components/SEO';
 import { askAI } from '../../lib/ai';
+import { useChatStore } from '../../store/chatStore';
+import { extractAndSaveMemory } from '../../lib/memoryExtractor';
 import { trackLectureView } from '../../lib/analytics';
+import { exportPremiumPDF } from '../../lib/pdfExporter';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+import 'katex/dist/katex.min.css';
 import { calculateGains } from '../../services/gamificationService';
 import {
     saveLectureToCloud,
@@ -124,11 +132,7 @@ const getChatHistory = (topicId: string): ChatMessage[] => {
 };
 
 const saveChatHistory = (topicId: string, messages: ChatMessage[]) => {
-    try {
-        localStorage.setItem(`${CHAT_HISTORY_KEY}-${topicId}`, JSON.stringify(messages));
-    } catch {
-        console.error('Failed to save chat history');
-    }
+    // Deprecated in favor of useChatStore
 };
 
 import { AuthGate } from '../../components/auth/AuthGate';
@@ -241,9 +245,17 @@ export const VideoLecturePage = () => {
     const [isMuted, setIsMuted] = useState(false);
     const [isSaved, setIsSaved] = useState(false);
     const [savedVideos, setSavedVideos] = useState<Video[]>([]);
-    const [aiMessage, setAiMessage] = useState('');
-    const [chatMessages, setChatMessages] = useState<ChatMessage[]>([]);
-    const [isAiLoading, setIsAiLoading] = useState(false);
+    const [aiInput, setAiInput] = useState('');
+    const { 
+        messages: chatMessages, 
+        addMessage, 
+        setMessages, 
+        isThinking: isAiLoading, 
+        setIsThinking: setIsAiLoading,
+        isSearching,
+        setIsSearching,
+        selectedLanguage
+    } = useChatStore();
     const iframeRef = useRef<HTMLIFrameElement>(null);
     const chatContainerRef = useRef<HTMLDivElement>(null);
     const fileInputRef = useRef<HTMLInputElement>(null);
@@ -252,6 +264,56 @@ export const VideoLecturePage = () => {
     const [isMicMuted, setIsMicMuted] = useState(false);
     const [showSettings, setShowSettings] = useState(false);
     const [selectedPresetId, setSelectedPresetId] = useState<string>(() => localStorage.getItem('exa_sidebar_voice_id') || "girl_sweet");
+    const [noteContent, setNoteContent] = useState('');
+    const [isSavingNote, setIsSavingNote] = useState(false);
+    const [isExporting, setIsExporting] = useState(false);
+    const shadowNoteRef = useRef<HTMLDivElement>(null);
+
+    const handleSaveNote = async () => {
+        if (!noteContent.trim() || !user) return;
+        setIsSavingNote(true);
+        try {
+            const { db } = await import('../../lib/firebase');
+            const { collection, addDoc } = await import('firebase/firestore');
+            
+            await addDoc(collection(db, 'documents'), {
+                user_id: user.id,
+                title: `${currentVideo?.title || 'Lecture'} Notes`,
+                content: noteContent,
+                note_type: 'full',
+                created_at: new Date().toISOString(),
+                lecture_id: topicId,
+                video_id: currentVideo?.id
+            });
+            
+            alert("Note saved to your dashboard! 🚀");
+        } catch (err) {
+            console.error("Failed to save note:", err);
+            alert("Failed to save note. Please try again.");
+        } finally {
+            setIsSavingNote(false);
+        }
+    };
+
+    const handleExportNotes = async () => {
+        if (!noteContent.trim() || !shadowNoteRef.current) return;
+        setIsExporting(true);
+        try {
+            await exportPremiumPDF({
+                title: `${currentVideo?.title || 'Lecture'} Notes`,
+                filename: `${(currentVideo?.title || 'lecture').replace(/\s+/g, '_').toLowerCase()}_notes.pdf`,
+                category: 'Lecture Note',
+                userName: user?.name || 'Scholar',
+                userClass: user?.userClass || 'Class 12th',
+                targetYear: user?.targetYear,
+                contentHtml: shadowNoteRef.current.innerHTML
+            });
+        } catch (err) {
+            console.error("Export failed:", err);
+        } finally {
+            setIsExporting(false);
+        }
+    };
 
     // Speak AI messages - High Quality Version
     const speakText = (text: string) => {
@@ -305,33 +367,19 @@ export const VideoLecturePage = () => {
         window.speechSynthesis.speak(utterance);
     };
 
-    // Load chat history from localStorage on mount
+    // Initial Greeting if needed handled by Chatbot store usually
     useEffect(() => {
-        if (topicId) {
-            const savedChat = getChatHistory(topicId);
-            if (savedChat.length > 0) {
-                setChatMessages(savedChat);
-            } else {
-                // Intro messages for Exa
-                setChatMessages([
-                    {
-                        role: 'assistant',
-                        content: `Did you sleep well last night, by the way? You'll need your energy to tackle these concepts. 😊`
-                    },
-                    {
-                        role: 'assistant',
-                        content: `Ah, my name is Exa, nice to meet you! I'm your exam mentor, here to help you tackle this ${currentVideo?.title.split('|')[0].trim() || 'topic'} and hopefully, ace your exams. 🌸\n\nNow, let's get back to the task at hand. We have a lot to cover, and I want to make sure you understand each concept before we move on. What specific topics are you struggling with? 🧐`
-                    }
-                ]);
-            }
+        if (chatMessages.length === 0) {
+            addMessage({
+                id: Date.now(),
+                sender: 'bot',
+                text: `Ready to master ${currentVideo?.title || 'this topic'}? I'm here to solve your doubts instantly. 😊`
+            });
         }
-    }, [topicId]); // Removed currentVideo from deps to prevent re-intro on every video change
+    }, []);
 
-    // Save chat history to localStorage when messages change
+    // Syncing handled by useChatStore
     useEffect(() => {
-        if (topicId && chatMessages.length > 0) {
-            saveChatHistory(topicId, chatMessages);
-        }
     }, [chatMessages, topicId]);
 
     useEffect(() => {
@@ -690,30 +738,54 @@ export const VideoLecturePage = () => {
                         </div>
 
                         {/* 3. MY NOTES */}
-                        <div className="relative rounded-[24px] overflow-hidden backdrop-blur-2xl bg-white/[0.03] border border-white/10 shadow-xl h-[600px] flex flex-col">
+                        <div className="relative rounded-[24px] overflow-hidden backdrop-blur-2xl bg-white/[0.03] border border-white/10 shadow-xl h-[600px] flex flex-col group/notes">
                             {/* Notes Header */}
-                            <div className="relative px-5 py-4 border-b border-white/5 flex items-center justify-between shrink-0">
-                                <h3 className="font-bold text-base text-white">My Notes</h3>
+                            <div className="relative px-5 py-4 border-b border-white/5 flex items-center justify-between shrink-0 bg-white/5">
+                                <div className="flex items-center gap-3">
+                                    <div className="w-8 h-8 rounded-lg bg-primary/20 flex items-center justify-center text-primary border border-primary/20">
+                                        <BookOpen size={16} />
+                                    </div>
+                                    <h3 className="font-bold text-base text-white">Lecture Notes</h3>
+                                </div>
                                 <div className="flex gap-3">
-                                    <button className="text-xs font-medium text-white/50 hover:text-white transition-colors flex items-center gap-1.5">
-                                        <Share2 size={12} /> Export Notes
+                                    <button 
+                                        onClick={handleExportNotes}
+                                        disabled={isExporting || !noteContent.trim()}
+                                        className="text-[10px] font-black uppercase tracking-widest text-white/40 hover:text-white transition-all flex items-center gap-2 px-3 py-1.5 rounded-lg hover:bg-white/5 disabled:opacity-30"
+                                    >
+                                        {isExporting ? <Loader2 size={12} className="animate-spin" /> : <Share2 size={12} />}
+                                        {isExporting ? 'Exporting...' : 'Export PDF'}
                                     </button>
                                 </div>
                             </div>
 
                             {/* Notes Input */}
-                            <div className="relative p-5 flex-1 flex flex-col min-h-0">
+                            <div className="relative p-5 flex-1 flex flex-col min-h-0 bg-gradient-to-b from-black/20 to-transparent">
                                 <textarea
-                                    className="w-full h-full flex-1 bg-white/5 border border-white/10 rounded-xl p-4 text-white/80 placeholder:text-white/30 text-sm leading-relaxed resize-none focus:outline-none focus:border-purple-500/50 transition-colors"
-                                    placeholder="Add a note at 14:35... (Click to type)"
+                                    value={noteContent}
+                                    onChange={(e) => setNoteContent(e.target.value)}
+                                    className="w-full h-full flex-1 bg-white/[0.02] border border-white/10 rounded-2xl p-6 text-white/80 placeholder:text-white/20 text-[15px] leading-relaxed resize-none focus:outline-none focus:border-primary/40 focus:bg-white/5 transition-all font-medium custom-scrollbar"
+                                    placeholder="Write your study notes here... supports Markdown logic like **bold** or lists."
                                 />
+                                
+                                {/* Shadow Renderer for PDF */}
+                                <div ref={shadowNoteRef} className="hidden">
+                                    <ReactMarkdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeKatex]}>
+                                        {noteContent}
+                                    </ReactMarkdown>
+                                </div>
                             </div>
 
                             {/* Notes Footer */}
                             <div className="relative px-5 pb-5 flex justify-end shrink-0">
                                 <AuthGate mode="modal">
-                                    <button className="px-5 py-2 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-purple-500/20 transition-all">
-                                        Save Note
+                                    <button 
+                                        onClick={handleSaveNote}
+                                        disabled={isSavingNote || !noteContent.trim()}
+                                        className="px-8 py-3 bg-white text-black hover:bg-primary hover:text-white text-xs font-black uppercase tracking-widest rounded-xl shadow-xl shadow-black/40 transition-all active:scale-95 disabled:opacity-20 flex items-center gap-3"
+                                    >
+                                        {isSavingNote ? <Loader2 size={16} className="animate-spin" /> : <Zap size={16} />}
+                                        {isSavingNote ? 'Saving...' : 'Save Note'}
                                     </button>
                                 </AuthGate>
                             </div>
@@ -792,8 +864,8 @@ export const VideoLecturePage = () => {
                                                 setIsSpeaking(false);
                                                 return;
                                             }
-                                            const lastAssistantMsg = [...chatMessages].reverse().find(m => m.role === 'assistant');
-                                            if (lastAssistantMsg) speakText(lastAssistantMsg.content);
+                                            const lastAssistantMsg = [...chatMessages].reverse().find(m => m.sender === 'bot');
+                                            if (lastAssistantMsg) speakText(lastAssistantMsg.text);
                                         }}
                                         title="Voice Reply"
                                         className={`p-2 rounded-lg transition-all oxygen-button ${isSpeaking ? 'text-primary bg-primary/10' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
@@ -872,37 +944,37 @@ export const VideoLecturePage = () => {
                                 )}
 
                                 {chatMessages.map((msg, idx) => (
-                                    <div key={idx} className={`flex gap-4 w-full ${msg.role === 'user' ? 'flex-row-reverse' : ''}`}>
+                                    <div key={idx} className={`flex gap-4 w-full ${msg.sender === 'user' ? 'flex-row-reverse' : ''}`}>
                                         {/* Avatar */}
-                                        <div className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 shadow-sm transition-transform duration-300 hover:scale-110 ${msg.role === 'user'
+                                        <div className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 shadow-sm transition-transform duration-300 hover:scale-110 ${msg.sender === 'user'
                                             ? 'bg-blue-600 ring-2 ring-blue-500/20'
                                             : 'bg-gradient-to-br from-indigo-500 to-purple-600 ring-2 ring-purple-500/20'
                                             }`}>
-                                            {msg.role === 'user' ? <User size={14} className="text-white" /> : <Bot size={15} className="text-white" />}
+                                            {msg.sender === 'user' ? <User size={14} className="text-white" /> : <Bot size={15} className="text-white" />}
                                         </div>
 
                                         {/* Message Bubble */}
                                         <div className="flex flex-col gap-1.5 max-w-[85%]">
-                                            {msg.role === 'assistant' && (
+                                            {msg.sender === 'bot' && (
                                                 <div className="flex items-center gap-1.5 ml-1">
                                                     <span className="text-[10px] font-bold text-white/30 uppercase tracking-[0.2em]">Exa</span>
                                                     <div className="w-1 h-1 rounded-full bg-purple-500/30" />
                                                 </div>
                                             )}
-                                            <div className={`relative px-4 py-3 rounded-2xl text-[14px] leading-relaxed shadow-lg transition-all duration-300 ${msg.role === 'user'
+                                            <div className={`relative px-4 py-3 rounded-2xl text-[14px] leading-relaxed shadow-lg transition-all duration-300 ${msg.sender === 'user'
                                                 ? 'bg-primary text-white rounded-tr-sm shadow-primary/10'
                                                 : 'bg-white/5 text-text-main/90 rounded-tl-sm border border-border shadow-black/10'
                                                 }`}>
                                                 {/* Fancy mini-icon for Exa as seen in image */}
-                                                {msg.role === 'assistant' && (
+                                                {msg.sender === 'bot' && (
                                                     <div className="flex items-center gap-2 mb-2 text-white/20">
                                                         <MessageSquare size={10} className="opacity-50" />
                                                         <div className="h-px flex-1 bg-white/5" />
                                                     </div>
                                                 )}
 
-                                                {msg.role === 'assistant' ? renderMarkdown(msg.content) : (
-                                                    <span className="font-medium">{msg.content}</span>
+                                                {msg.sender === 'bot' ? renderMarkdown(msg.text) : (
+                                                    <span className="font-medium">{msg.text}</span>
                                                 )}
                                             </div>
                                         </div>
@@ -936,28 +1008,72 @@ export const VideoLecturePage = () => {
                                 />
                                 <form onSubmit={async (e) => {
                                     e.preventDefault();
-                                    if (!aiMessage.trim() || isAiLoading) return;
+                                    const userText = aiInput.trim();
+                                    if (!userText || isAiLoading) return;
 
-                                    // Stop any current speech
                                     if (window.speechSynthesis) window.speechSynthesis.cancel();
                                     setIsSpeaking(false);
 
-                                    const userMsg = aiMessage.trim();
-                                    setAiMessage('');
-                                    setChatMessages(prev => [...prev, { role: 'user', content: userMsg }]);
+                                    setAiInput('');
+                                    const userMsg = { id: Date.now(), text: userText, sender: 'user' } as any;
+                                    addMessage(userMsg);
                                     setIsAiLoading(true);
 
-                                    // Scroll to bottom
                                     setTimeout(() => {
                                         chatContainerRef.current?.scrollTo({ top: chatContainerRef.current.scrollHeight, behavior: 'smooth' });
                                     }, 100);
+
                                     try {
-                                        const context = `You are "Exa". Response mode: INSTANT. Personality: Efficient mentor. Subject: ${currentVideo?.title}. Provide clear, helpful answers.`;
-                                        const response = await askAI(context, userMsg, 'groq', chatMessages as any);
-                                        const aiResponse = typeof response === 'string' ? response : (response as any).choices?.[0]?.message?.content || "Thinking failed.";
-                                        setChatMessages(prev => [...prev, { role: 'assistant', content: aiResponse }]);
+                                        const history = chatMessages.slice(-9).map(m => ({
+                                            role: m.sender === 'user' ? 'user' : 'assistant',
+                                            content: m.text
+                                        }));
+
+                                        const context = `Study Mode. Topic: ${topicId}. Video: ${currentVideo?.title}. Focus: Academic excellence.`;
+                                        const response = await askAI(
+                                            context, 
+                                            userText, 
+                                            'groq', 
+                                            history, 
+                                            { stream: true }, 
+                                            user as any, 
+                                            false, 
+                                            undefined, 
+                                            undefined, 
+                                            [], 
+                                            (s) => setIsSearching(s),
+                                            { language: selectedLanguage }
+                                        );
+
+                                        if (typeof response === 'string') {
+                                            addMessage({ id: Date.now() + 1, text: response, sender: 'bot' });
+                                        } else {
+                                            let fullText = "";
+                                            const botId = Date.now() + 1;
+                                            let botMessageAdded = false;
+
+                                            for await (const chunk of (response as any)) {
+                                                const content = chunk.choices[0]?.delta?.content || "";
+                                                if (content) {
+                                                    fullText += content;
+                                                    if (!botMessageAdded) {
+                                                        addMessage({ id: botId, text: fullText, sender: 'bot', isStreaming: true });
+                                                        botMessageAdded = true;
+                                                    } else {
+                                                        setMessages((prev: any) => prev.map((m: any) => 
+                                                            m.id === botId ? { ...m, text: fullText } : m
+                                                        ));
+                                                    }
+                                                }
+                                            }
+                                            setMessages((prev: any) => prev.map((m: any) => 
+                                                m.id === botId ? { ...m, isStreaming: false } : m
+                                            ));
+                                            extractAndSaveMemory(userText);
+                                        }
                                     } catch (error) {
-                                        setChatMessages(prev => [...prev, { role: 'assistant', content: "Sorry, I had trouble answering. Please try again." }]);
+                                        console.error("AI Error:", error);
+                                        addMessage({ id: Date.now() + 1, text: "I'm having a connection issue. Try again? 🌸", sender: 'bot' });
                                     } finally {
                                         setIsAiLoading(false);
                                         setTimeout(() => {
@@ -976,16 +1092,16 @@ export const VideoLecturePage = () => {
                                         </button>
                                         <input
                                             type="text"
-                                            value={aiMessage}
-                                            onChange={(e) => setAiMessage(e.target.value)}
-                                            placeholder="Quick inquiry..."
+                                            value={aiInput}
+                                            onChange={(e) => setAiInput(e.target.value)}
+                                            placeholder="Ask Exa anything..."
                                             className="flex-1 bg-transparent text-white/80 placeholder:text-white/20 text-[15px] focus:outline-none px-2 font-medium"
                                             disabled={isAiLoading}
                                         />
                                         <AuthGate mode="modal">
                                             <button
                                                 type="submit"
-                                                disabled={isAiLoading || !aiMessage.trim()}
+                                                disabled={isAiLoading || !aiInput.trim()}
                                                 className="w-10 h-10 flex items-center justify-center bg-primary text-white rounded-full hover:bg-primary/80 transition-all disabled:opacity-20 disabled:grayscale shadow-lg shadow-primary/20 active:scale-95 flex-shrink-0 oxygen-button"
                                             >
                                                 {isAiLoading ? <Loader2 size={18} className="animate-spin" /> : <Send size={20} />}

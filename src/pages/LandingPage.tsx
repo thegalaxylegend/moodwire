@@ -6,7 +6,7 @@ import { Hero } from '../components/Hero';
 
 import { ExamGrid } from '../components/ExamGrid';
 import { DemoModal } from '../components/DemoModal';
-import { Zap, Target, Brain, Award, ArrowRight, Rocket } from 'lucide-react';
+import { Zap, Target, Brain, Award, ArrowRight, Rocket, ChevronDown } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { AboutAuthor } from '../components/seo/AboutAuthor';
 import { SITE_URL, SITE_OG_IMAGE } from '../lib/siteConfig';
@@ -108,10 +108,89 @@ export const LandingPage = () => {
             {/* Global ParallaxBackground is now managed in App.tsx */}
 
             <SEO
-                title="Exam Compass | The Neural Engine for JEE & NEET Selection"
-                description="Experience the only Adaptive Neural Engine for competitive exams. Featuring Elo-calibrated mocks, SM-2 memory retention scheduling, and 100% verified NTA pattern analytics."
+                title="Exam Compass | Free AI-Powered JEE, NEET & Board Exam Prep"
+                description="India's free AI exam preparation platform. Practice 9,000+ verified NTA PYQs, take unlimited AI mock tests, and get personalized study plans for JEE Main, JEE Advanced, NEET, and CBSE Classes 8-12."
                 canonical={`${SITE_URL}/`}
                 image={SITE_OG_IMAGE}
+                keywords="JEE preparation, NEET preparation, CBSE board exam, AI mock test, free exam prep India, JEE Mains 2026, NEET 2026"
+                schema={{
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Organization",
+                            "name": "Exam Compass",
+                            "url": SITE_URL,
+                            "logo": `${SITE_URL}/logo.jpg`,
+                            "description": "India's free AI-powered exam preparation platform for JEE, NEET, and CBSE students.",
+                            "founder": {
+                                "@type": "Person",
+                                "name": "Ayush Kumar",
+                                "url": `${SITE_URL}/about`
+                            },
+                            "foundingDate": "2025",
+                            "sameAs": [
+                                "https://twitter.com/Ayush_thelegend",
+                                "https://threads.net/@examcompass"
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "url": SITE_URL,
+                            "name": "Exam Compass",
+                            "description": "Free AI-powered exam preparation for JEE, NEET & CBSE",
+                            "potentialAction": {
+                                "@type": "SearchAction",
+                                "target": `${SITE_URL}/blog?q={search_term_string}`,
+                                "query-input": "required name=search_term_string"
+                            }
+                        },
+                        {
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                                {
+                                    "@type": "Question",
+                                    "name": "Is Exam Compass really free?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Yes, Exam Compass is 100% free. You get unlimited access to 9,000+ verified NTA PYQs, AI-generated mock tests, personalized study plans, and chapter-wise revision notes. No credit card required, no hidden fees."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Which exams does Exam Compass support?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Exam Compass supports JEE Main, JEE Advanced, NEET UG, and CBSE Board Exams for Classes 8, 9, 10, 11, and 12. All questions follow the latest NTA and CBSE syllabus patterns."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "How does AI help in exam preparation?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Our AI engine generates unlimited practice questions calibrated to your difficulty level, identifies weak topics through performance analytics, creates personalized study plans, and provides instant step-by-step solutions — all aligned with the latest exam patterns."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Are the questions based on the latest syllabus?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Yes. All 9,000+ questions are verified NTA Previous Year Questions from official JEE and NEET papers. AI-generated questions follow the exact latest CBSE/NTA syllabus and marking scheme."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Is Exam Compass better than coaching classes?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Exam Compass complements coaching by providing unlimited AI-powered practice that adapts to your weaknesses. Unlike coaching, you can practice anytime, get instant analytics on your performance, and focus on exactly the topics where you need improvement."
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }}
             />
 
             {/* Hero */}
@@ -366,6 +445,38 @@ export const LandingPage = () => {
                     
                     <p className="text-sm text-gray-500 mt-6">No credit card required. Forever free tier.</p>
                 </motion.div>
+            </section>
+
+            {/* ═══════════ FAQ SECTION — SEO Rich Results ═══════════ */}
+            <section className="py-20 px-6 max-w-4xl mx-auto">
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    className="text-center mb-12"
+                >
+                    <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">Frequently Asked Questions</h2>
+                    <p className="text-gray-400 text-lg">Everything students ask before starting their journey</p>
+                </motion.div>
+                <div className="space-y-3">
+                    {[
+                        { q: "Is Exam Compass really free?", a: "Yes, Exam Compass is 100% free. You get unlimited access to 9,000+ verified NTA PYQs, AI-generated mock tests, personalized study plans, and chapter-wise revision notes. No credit card required, no hidden fees." },
+                        { q: "Which exams does Exam Compass support?", a: "Exam Compass supports JEE Main, JEE Advanced, NEET UG, and CBSE Board Exams for Classes 8, 9, 10, 11, and 12. All questions follow the latest NTA and CBSE syllabus patterns." },
+                        { q: "How does AI help in exam preparation?", a: "Our AI engine generates unlimited practice questions calibrated to your difficulty level, identifies weak topics through performance analytics, creates personalized study plans, and provides instant step-by-step solutions — all aligned with the latest exam patterns." },
+                        { q: "Are the questions based on the latest syllabus?", a: "Yes. All 9,000+ questions are verified NTA Previous Year Questions from official JEE and NEET papers. AI-generated questions follow the exact latest CBSE/NTA syllabus and marking scheme." },
+                        { q: "Is Exam Compass better than coaching classes?", a: "Exam Compass complements coaching by providing unlimited AI-powered practice that adapts to your weaknesses. Unlike coaching, you can practice anytime, get instant analytics on your performance, and focus on exactly the topics where you need improvement." }
+                    ].map((faq, i) => (
+                        <details key={i} className="group rounded-2xl bg-white/5 border border-white/10 overflow-hidden hover:border-purple-500/30 transition-colors">
+                            <summary className="flex items-center justify-between p-6 cursor-pointer list-none font-bold text-white text-lg select-none">
+                                <span>{faq.q}</span>
+                                <ChevronDown className="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform duration-300 shrink-0 ml-4" />
+                            </summary>
+                            <div className="px-6 pb-6 text-gray-400 leading-relaxed">
+                                {faq.a}
+                            </div>
+                        </details>
+                    ))}
+                </div>
             </section>
 
             <div className="flex justify-center pb-16">

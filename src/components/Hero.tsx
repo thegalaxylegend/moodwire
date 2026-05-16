@@ -1,15 +1,13 @@
 import { ArrowRight, Play, Brain, ShieldCheck, Globe, BarChart2 } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { useNavigate } from 'react-router-dom';
-import { useUserStore } from '../store/userStore';
+import { Link } from 'react-router-dom';
 
 interface HeroProps {
     onOpenDemo: () => void;
 }
 
 export const Hero = ({ onOpenDemo }: HeroProps) => {
-    const navigate = useNavigate();
-    const { user } = useUserStore();
+    // Removed unused navigate and user
     // Use innerWidth for instant performance decision (SSR safe with window check)
     const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
 
@@ -77,12 +75,12 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
 
                     {/* CTA buttons — simplified for performance */}
                     <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
-                        <button
-                            onClick={() => navigate(user && !user.isGuest ? '/dashboard' : '/login')}
+                        <Link
+                            to="/login"
                             className="px-8 py-4 bg-primary hover:bg-primary/90 text-white rounded-xl font-bold text-lg transition-all duration-300 transform hover:-translate-y-1 active:scale-[0.98] hover:shadow-[0_10px_40px_-10px_rgba(139,92,246,0.5)] flex items-center gap-2 group"
                         >
                             Launch Dashboard <ArrowRight size={20} className="group-hover:translate-x-1.5 transition-transform duration-300" />
-                        </button>
+                        </Link>
                         <button
                             onClick={onOpenDemo}
                             className="px-8 py-4 rounded-xl border border-white/10 hover:bg-white/5 font-bold transition-all duration-300 transform hover:-translate-y-1 active:scale-[0.98] flex items-center gap-2 group hover:border-primary/30"

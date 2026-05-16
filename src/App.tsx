@@ -108,7 +108,9 @@ const FloatingUI = () => {
     return () => clearTimeout(timer);
   }, []);
   // Suppress chatbot during active exams to prevent distraction & cheating
-  if (!user || !location.pathname.startsWith('/dashboard') || !mounted || isTestMode) return null;
+  // Also suppress on video lectures as it has its own integrated AI interface
+  const isVideoPage = location.pathname.startsWith('/dashboard/lectures/');
+  if (!user || !location.pathname.startsWith('/dashboard') || !mounted || isTestMode || isVideoPage) return null;
   return (
     <Suspense fallback={null}>
       <Chatbot />

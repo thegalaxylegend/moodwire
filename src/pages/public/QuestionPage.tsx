@@ -78,8 +78,7 @@ export const QuestionPage = () => {
     const pageTitle = `Q: ${topicText} | ${formattedExam} ${targetYear} PDF Solution`;
     const description = `Practice this ${question.topic || 'important'} question for ${formattedExam}. Step-by-step solution with concept explanation, exam tip, and free PDF download for ${targetYear} prep.`;
 
-    // SEO Penalty Protection: Noindex thin questions
-    const isThinContent = !question.explanation || question.explanation.length < 150;
+    // SEO Penalty Protection: Noindex thin questions (disabled)
 
     // CANONICAL FIX: Use the canonical exam (first exam to claim this question) to prevent duplicate content
     const canonicalExam = question.canonicalExam || exam;
@@ -158,7 +157,6 @@ export const QuestionPage = () => {
                 description={description}
                 canonical={canonicalUrl}
                 schema={schemaData}
-                noindex={isThinContent}
             />
             <Navbar />
 

@@ -54,7 +54,7 @@ const formatViewCount = (count: string): string => {
 };
 
 // Build search query based on topic
-const buildSearchQuery = (topicId: string, exam: string = ''): string => {
+const buildSearchQuery = (topicId: string, exam: string = '', studentClass: string = ''): string => {
     // 1. Convert slug to name
     const topicName = topicId
         .replace(/^(physics|chemistry|mathematics|maths|biology|history|geography|polity|economy|english|science|social-science)-/i, '')
@@ -62,13 +62,26 @@ const buildSearchQuery = (topicId: string, exam: string = ''): string => {
         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
         .join(' ');
 
+    const isJunior = ['Class 8th', 'Class 9th', 'Class 10th', '8', '9', '10'].some(c => studentClass.includes(c));
+    const isDropper = studentClass.toLowerCase().includes('dropper');
+
     // 2. Specialized query for English Literature
     if (topicId.toLowerCase().includes('english')) {
-        return `${topicName} English full chapter explanation animation`;
+        return `${topicName} ${studentClass} English full chapter explanation animation lecture`;
     }
 
-    // 3. General query - Focus on actual lectures/one-shots
-    return `${topicName} full chapter ${exam} complete lecture`;
+    // 3. Junior Optimization (8, 9, 10)
+    if (isJunior) {
+        return `${topicName} ${studentClass} complete foundation lecture NCERT`;
+    }
+
+    // 4. Dropper Optimization (JEE/NEET)
+    if (isDropper) {
+        return `${topicName} ${exam} one shot complete revision for dropper`;
+    }
+
+    // 5. Senior Optimization (11, 12)
+    return `${topicName} ${studentClass} ${exam} full chapter complete lecture in English/Hindi`;
 };
 
 // Fetch video details (duration, view count) to filter out unavailable ones
@@ -109,13 +122,13 @@ const fetchVideoDetails = async (videoIds: string[]): Promise<Map<string, { dura
 };
 
 // Main function to search YouTube videos by topic
-export const getVideoByTopicId = async (topicId: string, exam: string = 'JEE'): Promise<Playlist | null> => {
+export const getVideoByTopicId = async (topicId: string, exam: string = 'JEE', studentClass: string = ''): Promise<Playlist | null> => {
     if (!YOUTUBE_API_KEY) {
         console.error('YouTube API key not configured');
         return getFallbackPlaylist(topicId);
     }
 
-    const searchQuery = buildSearchQuery(topicId, exam);
+    const searchQuery = buildSearchQuery(topicId, exam, studentClass);
     console.log('Searching YouTube for:', searchQuery);
 
     try {
@@ -176,13 +189,13 @@ export const getVideoByTopicId = async (topicId: string, exam: string = 'JEE'): 
             let score = 0;
 
             // RANKING LOGIC
-            // 1. Duration Preference (8-45 mins = 480-2700s)
-            if (seconds >= 480 && seconds <= 2700) {
-                score += 50; // High preference
-            } else if (seconds > 2700) {
-                score += 20; // Long videos (One shots) are okay but slightly less preferred than focused topics
-            } else {
-                score += 10; // 3-8 mins is okay but looks like quick summary
+            // 1. Duration Preference (8-60 mins = 480-3600s, or > 60 mins for One Shots)
+            if (seconds >= 480 && seconds <= 3600) {
+                score += 60; // Sweet spot for chapter parts
+            } else if (seconds > 3600) {
+                score += 50; // One shots/Marathons are very valuable
+            } else if (seconds >= 180) {
+                score += 20; // 3-8 mins is a bit short but okay
             }
 
             // 2. Exam Relevance in Title
@@ -194,8 +207,10 @@ export const getVideoByTopicId = async (topicId: string, exam: string = 'JEE'): 
             const channel = item.snippet.channelTitle.toLowerCase();
             if (channel.includes('physics wallah') || channel.includes('unacademy') || channel.includes('vedantu') ||
                 channel.includes('byju') || channel.includes('adda247') || channel.includes('apni kaksha') ||
-                channel.includes('compettishun') || channel.includes('mathongo')) {
-                score += 10;
+                channel.includes('compettishun') || channel.includes('mathongo') || channel.includes('khan academy') ||
+                channel.includes('edumantra') || channel.includes('magnet brains') || channel.includes('pankaj sir') ||
+                channel.includes('alakh pandey') || channel.includes('e-saral')) {
+                score += 40; // Increased boost for trusted channels
             }
 
             // 4. View Count Boost
@@ -216,11 +231,13 @@ export const getVideoByTopicId = async (topicId: string, exam: string = 'JEE'): 
                 'motivation', 'vlog', 'preparation guide', 'mistakes', 'enough',
                 'skip', 'important chapters', 'high priority', 'best teachers',
                 'percentile', 'score', 'marks', 'tips', 'tricks', 'how to score',
-                'worth it', 'truth', 'exposed'
+                'worth it', 'truth', 'exposed', 'syllabus', 'weightage', 'cutoff',
+                'selection', 'drop', 'failure', 'success story', 'guidance', 'planning',
+                'daily routine', 'my journey', 'reaction', 'books to follow', 'news', 'update'
             ];
             const titleLower = title.toLowerCase();
             if (strategyKeywords.some(key => titleLower.includes(key))) {
-                score -= 200; // Nuclear penalty
+                score -= 300; // Increased nuclear penalty
             }
 
             // 6. [NEW] Question/Comparison Filter (Discussion penalty)
@@ -311,25 +328,27 @@ const getFallbackPlaylist = (topicId: string): Playlist => {
 };
 
 // LocalStorage-based caching (User Device Only)
-export const getVideoByTopicIdCached = async (topicId: string, exam: string = 'JEE', userId: string = 'anon'): Promise<Playlist | null> => {
+export const getVideoByTopicIdCached = async (topicId: string, exam: string = 'JEE', userId: string = 'anon', studentClass: string = '', forceRefresh: boolean = false): Promise<Playlist | null> => {
     // V3 Cache key isolated by userId
     const topicKey = `vid_cache_v3_${userId}_${topicId.toLowerCase().trim()}_${exam.toLowerCase()}`;
 
     try {
-        // 1. Check LocalStorage
-        const cachedRaw = localStorage.getItem(topicKey);
-        if (cachedRaw) {
-            const cached = JSON.parse(cachedRaw);
-            // Optional: Check expiry (e.g. 24 hours)
-            if (Date.now() - cached.timestamp < 24 * 60 * 60 * 1000) {
-                console.log('Found cached videos in LocalStorage for:', topicId);
-                return cached.data;
+        // 1. Check LocalStorage (Only if not force refreshing)
+        if (!forceRefresh) {
+            const cachedRaw = localStorage.getItem(topicKey);
+            if (cachedRaw) {
+                const cached = JSON.parse(cachedRaw);
+                // 24 hours cache for videos
+                if (Date.now() - cached.timestamp < 24 * 60 * 60 * 1000) {
+                    console.log('Found cached videos in LocalStorage for:', topicId);
+                    return cached.data;
+                }
             }
         }
 
         // 2. Fetch from API
-        console.log('Fetching fresh results from API for:', topicId, exam);
-        const result = await getVideoByTopicId(topicId, exam);
+        console.log('Fetching fresh results from API for:', topicId, exam, studentClass);
+        const result = await getVideoByTopicId(topicId, exam, studentClass);
 
         if (result && result.videos.length > 0) {
             // 3. Save to LocalStorage

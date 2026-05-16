@@ -14,41 +14,48 @@ const STORAGE_KEY = 'exam_compass_active_recommendation';
 export const getActiveRecommendation = async (
     userId: string,
     userClass?: string,
-    targetExam?: string
+    targetExam?: string,
+    forceRefresh: boolean = false
 ): Promise<ActiveRecommendation | null> => {
     try {
-        // 1. Check existing recommendation in LocalStorage
-        const cachedRaw = localStorage.getItem(`${STORAGE_KEY}_${userId}`);
-        if (cachedRaw) {
-            const cached: ActiveRecommendation = JSON.parse(cachedRaw);
+        // 1. Check existing recommendation in LocalStorage (Only if not force refreshing)
+        if (!forceRefresh) {
+            const cachedRaw = localStorage.getItem(`${STORAGE_KEY}_${userId}`);
+            if (cachedRaw) {
+                const cached: ActiveRecommendation = JSON.parse(cachedRaw);
 
-            // Check if it's expired (finished > 24h ago)
-            if (isVideoExpiredFinished(cached.video.id, userId, userClass, targetExam)) {
-                console.log('[RecommendationService] Active video expired. Clearing.');
-                localStorage.removeItem(`${STORAGE_KEY}_${userId}`);
-                // Proceed to generate new one
-            } else if (isVideoFinished(cached.video.id, userId, userClass, targetExam)) {
-                // If finished but not expired, we STILL return it so the user can see it's done
-                // But typically we might want to show it as "Completed" in UI
-                return cached;
-            } else {
-                // Determine if we should refresh based on time (e.g. if it's been 7 days and not finished?)
-                // For now, sticky until finished.
-                return cached;
+                const twentyFourHours = 24 * 60 * 60 * 1000;
+                const isTimeExpired = Date.now() - cached.generatedAt > twentyFourHours;
+                const isFinished = isVideoFinished(cached.video.id, userId, userClass, targetExam);
+
+                // Check if it's expired (finished > 24h ago) OR if it's been 24h and not finished (rotation)
+                if (isVideoExpiredFinished(cached.video.id, userId, userClass, targetExam) || (isTimeExpired && !isFinished)) {
+                    console.log('[RecommendationService] Active video expired (finished or timed out). Clearing.');
+                    localStorage.removeItem(`${STORAGE_KEY}_${userId}`);
+                    // Proceed to generate new one
+                } else {
+                    return cached;
+                }
             }
+        } else {
+            console.log('[RecommendationService] Force Refresh: Ignoring cache.');
+            localStorage.removeItem(`${STORAGE_KEY}_${userId}`);
         }
 
         // 2. Generate NEW Recommendation
         console.log('[RecommendationService] Generating new recommendation...');
 
         // A. Get Weakest Topic
-        const weakTopics = await getWeakTopics(userId, 1, userClass, targetExam);
+        // If force refreshing, get more topics to pick from
+        const weakTopics = await getWeakTopics(userId, forceRefresh ? 10 : 1, userClass, targetExam);
         let targetTopic = '';
         let reason = '';
 
         if (weakTopics.length > 0) {
-            targetTopic = weakTopics[0].topic;
-            reason = `Weakest Topic (${weakTopics[0].score_percentage}%)`;
+            // Pick a random one from the pool if refreshing
+            const idx = forceRefresh ? Math.floor(Math.random() * weakTopics.length) : 0;
+            targetTopic = weakTopics[idx].topic;
+            reason = forceRefresh ? `Targeted Review (${weakTopics[idx].score_percentage}%)` : `Weakest Topic (${weakTopics[idx].score_percentage}%)`;
         } else {
             // Fallback: Random subject rotation
             const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(userClass || '');
@@ -62,7 +69,7 @@ export const getActiveRecommendation = async (
         const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(userClass || '');
         const searchContext = isJunior ? (userClass || 'Class 10') : (targetExam || 'JEE');
 
-        const playlist = await getVideoByTopicIdCached(targetTopic, searchContext, userId);
+        const playlist = await getVideoByTopicIdCached(targetTopic, searchContext, userId, userClass, forceRefresh);
 
         if (!playlist || playlist.videos.length === 0) {
             return null;
@@ -70,7 +77,16 @@ export const getActiveRecommendation = async (
 
         // Find a video that hasn't been finished ever (active or expired)
         // We really want a fresh one.
-        const freshVideo = playlist.videos.find(v => !isVideoFinished(v.id, userId, userClass, targetExam));
+        const freshVideos = playlist.videos.filter(v => !isVideoFinished(v.id, userId, userClass, targetExam));
+
+        if (freshVideos.length === 0) {
+            return null;
+        }
+
+        // Randomize from fresh pool if force refreshing
+        const freshVideo = forceRefresh 
+            ? freshVideos[Math.floor(Math.random() * freshVideos.length)] 
+            : freshVideos[0];
 
         if (!freshVideo) {
             // All videos for this weak topic are finished!
@@ -103,25 +119,34 @@ export const clearActiveRecommendation = (userId: string) => {
 export const getRecommendedVideos = async (
     userId: string,
     userClass?: string,
-    targetExam?: string
+    targetExam?: string,
+    forceRefresh: boolean = false
 ): Promise<ActiveRecommendation[]> => {
     try {
+        if (forceRefresh) {
+            console.log('[RecommendationService] Force refreshing all recommendations...');
+            clearActiveRecommendation(userId);
+        }
+
         const recommendations: ActiveRecommendation[] = [];
 
         // 1. Get the Primary (Active) Recommendation
-        const activeRec = await getActiveRecommendation(userId, userClass, targetExam);
+        const activeRec = await getActiveRecommendation(userId, userClass, targetExam, forceRefresh);
         if (activeRec) {
             recommendations.push(activeRec);
         }
 
         // 2. If we have less than 3, fetch more from other weak topics
         if (recommendations.length < 3) {
-            // Get more weak topics (limit 5 to have a pool)
-            const weakTopics = await getWeakTopics(userId, 5, userClass, targetExam);
+            // Get more weak topics (limit 15 to have a larger pool for variety)
+            const weakTopics = await getWeakTopics(userId, 15, userClass, targetExam);
 
             // Filter out the topic we already have
             const existingTopics = new Set(recommendations.map(r => r.topic));
-            const candidateTopics = weakTopics.filter(t => !existingTopics.has(t.topic));
+            let candidateTopics = weakTopics.filter(t => !existingTopics.has(t.topic));
+
+            // [NEW] Shuffle candidates for variety on every refresh
+            candidateTopics = candidateTopics.sort(() => Math.random() - 0.5);
 
             // Context for search
             const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(userClass || '');
@@ -130,7 +155,7 @@ export const getRecommendedVideos = async (
             for (const topicStat of candidateTopics) {
                 if (recommendations.length >= 3) break;
 
-                const playlist = await getVideoByTopicIdCached(topicStat.topic, searchContext, userId);
+                const playlist = await getVideoByTopicIdCached(topicStat.topic, searchContext, userId, userClass);
 
                 if (playlist && playlist.videos.length > 0) {
                     // Try to find a video not already in our list (by ID)
@@ -167,7 +192,7 @@ export const getRecommendedVideos = async (
                 // Or pick a random chapter? 
                 // For simplicity, let's just search the Subject Name
 
-                const playlist = await getVideoByTopicIdCached(subject, searchContext, userId);
+                const playlist = await getVideoByTopicIdCached(subject, searchContext, userId, userClass);
                 if (playlist && playlist.videos.length > 0) {
                     const existingVideoIds = new Set(recommendations.map(r => r.video.id));
                     const freshVideo = playlist.videos.find(v => !existingVideoIds.has(v.id));

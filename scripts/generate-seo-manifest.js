@@ -391,14 +391,18 @@ async function generate() {
                     }
                     
                     
-                    // PHASE 2 - Indexing Control & Thin Content Protection
+                    // PHASE 2 - Strategic Indexing for Free Domain (.pages.dev)
+                    // Google gives low crawl budget to free subdomains.
+                    // Strategy: Index questions with REAL content (explanation >= 10 words)
+                    // This gives Google quality pages, not thin content.
                     const isCanonical = questionCanonicalMap[q.slug] === examSlug;
                     const expWords = q.explanation ? q.explanation.split(/\s+/).length : 0;
                     
-                    let robotsRule = "noindex, follow"; // Priority 4 Default
-                    // RELAXED: Index if it's canonical and has at least 30 words of explanation (was 120)
-                    if (isCanonical && expWords > 30) {
-                        robotsRule = "index, follow"; // Priority 2
+                    let robotsRule = "noindex, follow"; // Default
+                    // INDEX if: canonical + has a meaningful explanation (10+ words)
+                    // This unlocks thousands of real JEE/NEET solutions while filtering empty pages
+                    if (isCanonical && expWords >= 10) {
+                        robotsRule = "index, follow";
                     }
 
                     const qUrlNoSlash = qUrl.replace(/\/$/, '');
@@ -410,7 +414,7 @@ async function generate() {
                         priority: 0.5,
                         canonicalExam: questionCanonicalMap[q.slug],
                         robots: robotsRule,
-                        sitemapGroup: robotsRule === "index, follow" ? "questions" : null
+                        sitemapGroup: robotsRule === "index, follow" ? "questions" : "questions-noindex"
                     };
                     questionDb[qUrlNoSlash] = { ...q, canonicalExam: questionCanonicalMap[q.slug] };
                     

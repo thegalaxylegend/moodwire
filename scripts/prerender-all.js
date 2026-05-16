@@ -45,11 +45,24 @@ async function prerender() {
         topicContentDb = JSON.parse(fs.readFileSync(topicContentDbPath, 'utf8'));
     }
 
-    const routes = Object.keys(manifest);
+    const allRoutes = Object.keys(manifest);
     // Ensure home is there
-    if (!routes.includes('/')) routes.unshift('/');
+    if (!allRoutes.includes('/')) allRoutes.unshift('/');
 
-    console.log(`Goals: ${routes.length} pages to render.`);
+    // CRITICAL: Only prerender indexable pages to stay under Cloudflare's 20,000 file limit.
+    // Noindex pages (questions without explanations) don't need static HTML — they're
+    // handled by the SPA at runtime. This prevents deployment truncation.
+    const routes = allRoutes.filter(url => {
+        const meta = manifest[url];
+        if (!meta) return true; // Home route etc.
+        // Always prerender non-question pages (exam, topic, blog, etc.)
+        if (meta.type !== 'question') return true;
+        // Only prerender question pages that are indexable
+        return meta.robots && meta.robots.includes('index');
+    });
+
+    const skippedCount = allRoutes.length - routes.length;
+    console.log(`Goals: ${routes.length} pages to prerender (skipped ${skippedCount} noindex pages).`);
     console.log(`QuestionDB Size: ${Object.keys(questionDb).length}`);
 
     // 3. Batch Processing
@@ -130,7 +143,7 @@ async function prerender() {
 
                 // RENDER - render function returns a string
                 console.log(`🚀 [SSR] Rendering ${url}...`);
-                const appHtml = render(url, helmetContext);
+                const appHtml = await render(url, helmetContext);
 
                 // Extract Helmet Metadata
                 const { helmet } = helmetContext;

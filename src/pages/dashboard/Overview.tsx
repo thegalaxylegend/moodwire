@@ -150,6 +150,7 @@ export const Overview = () => {
 
     // Video States
     const [recommendedVideos, setRecommendedVideos] = useState<any[]>([]); // Using any for ActiveRecommendation to avoid deep type imports if lazy loaded
+    const [isRefreshingVideos, setIsRefreshingVideos] = useState(false);
 
     const [loading, setLoading] = useState(true);
     const [showDiagnosticPopup, setShowDiagnosticPopup] = useState(false);
@@ -389,13 +390,14 @@ export const Overview = () => {
     // AI 2.0: Concept Graph Insights (unused)
 
     // Optimized Video Fetching - Multi Focus
-    const fetchRecommendations = async () => {
+    const fetchRecommendations = async (force: boolean = false) => {
         if (!user || !user.id) return;
+        if (force) setIsRefreshingVideos(true);
 
         try {
             const { getRecommendedVideos } = await import('../../services/recommendationService');
             // Fetch multiple recommendations
-            const recommendations = await getRecommendedVideos(user.id, user.userClass, user.targetExam);
+            const recommendations = await getRecommendedVideos(user.id, user.userClass, user.targetExam, force);
 
             if (recommendations && recommendations.length > 0) {
                 setRecommendedVideos(recommendations);
@@ -404,6 +406,8 @@ export const Overview = () => {
             }
         } catch (err) {
             console.error("Failed to fetch recommendations", err);
+        } finally {
+            if (force) setIsRefreshingVideos(false);
         }
     };
 
@@ -690,7 +694,17 @@ export const Overview = () => {
                                 <h4 className="text-sm font-bold text-text-muted uppercase tracking-wider flex items-center gap-2">
                                     <Play size={14} /> Recommended Videos
                                 </h4>
-                                <Link to="/dashboard/lectures" className="text-xs text-primary hover:underline flex items-center gap-1">More Videos <ChevronRight size={12} /></Link>
+                                <div className="flex items-center gap-4">
+                                    <button 
+                                        onClick={() => fetchRecommendations(true)}
+                                        disabled={isRefreshingVideos}
+                                        className="text-xs text-primary flex items-center gap-1 hover:bg-primary/10 px-2 py-1 rounded-md transition-all disabled:opacity-50"
+                                    >
+                                        <RefreshCw size={12} className={isRefreshingVideos ? 'animate-spin' : ''} />
+                                        {isRefreshingVideos ? 'Refreshing...' : 'Refresh'}
+                                    </button>
+                                    <Link to="/dashboard/lectures" className="text-xs text-text-muted hover:text-primary hover:underline flex items-center gap-1">More Videos <ChevronRight size={12} /></Link>
+                                </div>
                             </div>
 
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
