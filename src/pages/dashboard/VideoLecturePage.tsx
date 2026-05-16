@@ -119,21 +119,7 @@ const isLectureSavedLocal = (videoId: string, userId?: string): boolean => {
     } catch { return false; }
 };
 
-// Chat history persistence helpers
-const CHAT_HISTORY_KEY = 'exam-compass-chat-history';
-
-const getChatHistory = (topicId: string): ChatMessage[] => {
-    try {
-        const history = localStorage.getItem(`${CHAT_HISTORY_KEY}-${topicId}`);
-        return history ? JSON.parse(history) : [];
-    } catch {
-        return [];
-    }
-};
-
-const saveChatHistory = (topicId: string, messages: ChatMessage[]) => {
-    // Deprecated in favor of useChatStore
-};
+// Chat history persistence is now handled by useChatStore
 
 import { AuthGate } from '../../components/auth/AuthGate';
 
@@ -252,7 +238,7 @@ export const VideoLecturePage = () => {
         setMessages, 
         isThinking: isAiLoading, 
         setIsThinking: setIsAiLoading,
-        isSearching,
+        isSearching: _isSearching,
         setIsSearching,
         selectedLanguage
     } = useChatStore();
@@ -1025,7 +1011,7 @@ export const VideoLecturePage = () => {
 
                                     try {
                                         const history = chatMessages.slice(-9).map(m => ({
-                                            role: m.sender === 'user' ? 'user' : 'assistant',
+                                            role: (m.sender === 'user' ? 'user' : 'assistant') as 'user' | 'assistant',
                                             content: m.text
                                         }));
 
