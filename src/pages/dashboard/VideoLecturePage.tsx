@@ -25,10 +25,7 @@ import {
 } from '../../services/savedLectureService';
 import { markVideoAsFinished, isVideoFinished } from '../../services/videoProgressService';
 
-interface ChatMessage {
-    role: 'user' | 'assistant';
-    content: string;
-}
+// Chat messages handled by useChatStore (see store/chatStore.ts)
 
 // Extract YouTube video ID from URL
 const getYouTubeId = (url: string): string | null => {
