@@ -369,7 +369,7 @@ Political Parties (Class 10 Social Science).
  *(Self-Correction)*: The prompt mentions Robert Michels' "Iron Law of Oligarchy" in the research context. While it's a sociological concept, for Class 10 CBSE, it's not explicitly in the textbook, but the *concept* of "concentration of power in a few hands" is the core of "Lack of Internal [Democracy](/blog/outcomes-of-democracy-class-10-notes)." I will frame the mistake around "Lack of Internal [Democracy](/blog/outcomes-of-democracy-class-10-notes)" to stay 100% NCERT compliant while acknowledging the high-level logic.
 
  *Wait, the prompt says:* "STRICT ACADEMIC BOUNDARY (CLASS 10): ... DO NOT include JEE Advanced, NEET, or College-level theorems... If a student reads this, they should feel it is perfectly aligned with their school textbook."
- Okay, so I will avoid the term "Iron Law of Oligarchy" in the mistakes to ensure a Class 10 student doesn't get confused, focusing instead on the NCERT term: "Lack of Internal Democracy."
+ Okay, so I will avoid the term "Iron Law of Oligarchy" in the mistakes to ensure a Class 10 student doesn't get confused, focusing instead on the NCERT term: "Lack of Internal [Democracy](/blog/outcomes-of-democracy-class-10-notes)."
 
  *Let's build the content.*
 
@@ -456,7 +456,7 @@ Political Parties (Class 10 Social Science).
 
 - 🔴 **What students write:** "Parties don't follow rules" or "Leaders are too powerful." This is too informal for a Social Science paper.
 
-- ✅ **What examiners expect:** Use the technical term: "Lack of Internal Democracy." Explain it as: "Power tends to concentrate in the hands of one or a few top leaders; ordinary members do not have access to information or decision-making powers; no regular internal elections/membership drives."
+- ✅ **What examiners expect:** Use the technical term: "Lack of Internal Democracy." Explain it as: "[Power](/blog/power-sharing-class-10-notes) tends to concentrate in the hands of one or a few top leaders; ordinary members do not have access to information or decision-making powers; no regular internal elections/membership drives."
  
 
 - 💸 **Marks lost:** 2 marks.
@@ -495,7 +495,7 @@ Class 10, Social Science (Civics), Year 2026 (simulated/predicted based on 2018-
 
  * *Concept 1: Functions of Political Parties.* (Common MCQ/Short answer).
  * *Concept 2: Party Systems (One-party, Two-party, Multi-party).* (High weightage).
- * *Concept 3: Challenges to Political Parties (Dynastic succession, Lack of internal democracy, Money/Muscle power).* (Very common).
+ * *Concept 3: Challenges to Political Parties (Dynastic succession, Lack of internal democracy, [Money](/blog/money-and-credit-class-10-notes)/Muscle power).* (Very common).
 
  * *Question 1 (MCQ Style - Party Systems):*
  * Q: Which of the following is a feature of a multi-party system?

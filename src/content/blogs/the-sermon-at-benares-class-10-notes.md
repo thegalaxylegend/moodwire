@@ -350,50 +350,50 @@ How does the young girl in "The Sermon at Benares" react to the holy man's sermo
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What was the Buddha's message to the world, as per 'The Sermon at Benares'?**
-**A)**         To follow the path of violence
-**B)**         To attain salvation through rituals
-**C)**         To end suffering by following the Eightfold Path
-**D)**         To worship multiple deities
+**A)**          To follow the path of violence
+**B)**          To attain salvation through rituals
+**C)**          To end suffering by following the Eightfold Path
+**D)**          To worship multiple deities
 
 **Answer:** C) The Buddha's message was to end suffering by following the Eightfold Path. Option A is incorrect as the Buddha advocated non-violence. Option B is wrong because the Buddha did not emphasize rituals for salvation. Option D is incorrect as the Buddha's teachings did not focus on worshiping multiple deities.
 
 ---
 
 **2. According to the sermon, what is the cause of suffering?**
-**A)**         Desire and craving
-**B)**         Lack of education
-**C)**         Wealth and power
-**D)**         Illness and disease
+**A)**          Desire and craving
+**B)**          Lack of education
+**C)**          Wealth and power
+**D)**          Illness and disease
 
 **Answer:** A) The cause of suffering is desire and craving. Options B, C, and D are incorrect because while they might contribute to temporary discomfort, they are not identified as the root cause of suffering in the Buddha's teachings.
 
 ---
 
 **3. What did the Buddha say about the relationship between a 'Kshatriya' and a 'Brahmin'?**
-**A)**         A Kshatriya can never be a true leader
-**B)**         A Brahmin can never attain nirvana
-**C)**         There is no difference in their potential to attain nirvana
-**D)**         A Kshatriya must always obey a Brahmin
+**A)**          A Kshatriya can never be a true leader
+**B)**          A Brahmin can never attain nirvana
+**C)**          There is no difference in their potential to attain nirvana
+**D)**          A Kshatriya must always obey a Brahmin
 
 **Answer:** C) The Buddha taught that there is no difference in the potential of a Kshatriya or a Brahmin to attain nirvana. This is based on the Buddhist principle of equality. Options A, B, and D are incorrect as they reflect social hierarchies that the Buddha's teachings sought to transcend.
 
 ---
 
 **4. The Buddha described the world as being in a state of:**
-**A)**         Perfection
-**B)**         Chaos
-**C)**         Suffering
-**D)**         Harmony
+**A)**          Perfection
+**B)**          Chaos
+**C)**          Suffering
+**D)**          Harmony
 
 **Answer:** C) The Buddha described the world as being in a state of suffering. While the world can appear chaotic (B) or imperfect (A), the Buddha specifically highlighted suffering as a fundamental aspect. Option D, Harmony, is not a term the Buddha used to describe the world in this context.
 
 ---
 
 **5. The Eightfold Path is also known as:**
-**A)**         The Middle Path
-**B)**         The Path of Violence
-**C)**         The Path of Rituals
-**D)**         The Path of Desire
+**A)**          The Middle Path
+**B)**          The Path of Violence
+**C)**          The Path of Rituals
+**D)**          The Path of Desire
 
 **Answer:** A) The Eightfold Path is also known as the Middle Path. This is because it avoids extremes of hedonism and asceticism. Options B, C, and D are incorrect because they do not accurately describe the Eightfold Path.
 

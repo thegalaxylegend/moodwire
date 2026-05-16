@@ -390,7 +390,7 @@ $O(\log n)$
 O(n)
 $O(n^2)$
 
-**Answer:** C) It takes linear time to search for an element and an array using a linear search algorithm because we have to check each element sequentially.
+**Answer:** C) It takes [linear](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) time to search for an element and an array using a [linear](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) search algorithm because we have to check each element sequentially.
 
 **5. What is the main advantage of using stacks?**
 Faster execution compared to queues

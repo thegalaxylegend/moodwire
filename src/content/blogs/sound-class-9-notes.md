@@ -413,50 +413,50 @@ Recalling that sound requires a medium to travel and understanding the basics of
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. The audible range of frequency for human ear is**
-**A)**    20 Hz to 2000 Hz
-**B)**    20 Hz to 20 kHz
-**C)**    10 Hz to 10 kHz
-**D)**    50 Hz to 50 kHz
+**A)**     20 Hz to 2000 Hz
+**B)**     20 Hz to 20 kHz
+**C)**     10 Hz to 10 kHz
+**D)**     50 Hz to 50 kHz
 
 **Answer:** B) The human ear can detect sounds within the frequency range of 20 Hz to 20 kHz. This range allows us to perceive various sounds, from low rumbles to high-pitched noises. Options A, C, and D are incorrect as they do not accurately represent the entire audible range for humans.
 
 ---
 
 **2. A sound wave has a frequency of 500 Hz and a speed of 350 m/s. What is its wavelength (λ)?**
-**A)**    5 m
-**B)**    7 m
-**C)**    0 m
-**D)**    4 m
+**A)**     5 m
+**B)**     7 m
+**C)**     0 m
+**D)**     4 m
 
 **Answer:** B) Using the formula: speed = frequency × wavelength, we can rearrange it to find wavelength: λ = speed / frequency = 350 m/s / 500 Hz = 0.7 m. Options A, C, and D are incorrect as they do not match the calculated value.
 
 ---
 
 **3. The minimum distance required for an echo to be heard is**
-**A)**    10 m
-**B)**    17 m
-**C)**    20 m
-**D)**    25 m
+**A)**     10 m
+**B)**     17 m
+**C)**     20 m
+**D)**     25 m
 
 **Answer:** B) For an echo to be heard, the sound must travel to the obstacle and back, which takes a minimum distance of 17 meters (or more) considering the persistence of sound. Options A, C, and D are incorrect as they do not accurately represent the minimum distance required.
 
 ---
 
 **4. What happens to the sound when it travels from air into water?**
-**A)**    Speed decreases
-**B)**    Speed remains same
-**C)**    Speed increases
-**D)**    Speed becomes zero
+**A)**     Speed decreases
+**B)**     Speed remains same
+**C)**     Speed increases
+**D)**     Speed becomes zero
 
 **Answer:** C) When sound travels from air into water, its speed increases because water is a more elastic medium than air. Options A, B, and D are incorrect as they do not accurately describe what happens to sound speed when it enters water.
 
 ---
 
 **5. A person claps near a cliff and hears the echo after 2 seconds. How far is the cliff from the person (speed of sound = 340 m/s)?**
-**A)**    170 m
-**B)**    340 m
-**C)**    510 m
-**D)**    680 m
+**A)**     170 m
+**B)**     340 m
+**C)**     510 m
+**D)**     680 m
 
 **Answer:** A) The total distance traveled by the sound (to the cliff and back) is given by distance = speed × time = 340 m/s × 2 s = 680 m. Since this is the distance to the cliff and back, the cliff is 680 m / 2 = 340 m away. However, my calculation led to the direct distance being half of 680m which is 340m. Options B, C, and D are incorrect based on this calculation.
 

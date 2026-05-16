@@ -159,7 +159,7 @@ The key difference between weak and strong induction lies and the inductive hypo
 
 To better illustrate this concept, consider the example of proving that $2^n > n^2$ for all integers $n geq 5$. Using weak induction, we would assume $2^k > k^2$ n try to prove $2^{k+1} > (k+1)^2$. However, this approach might not be straightforward. With strong induction, we assume $2^n > n^2$ for all $5 leq$ and leq k$ n then prove $2^{k+1} > (k+1)^2$, which can be more manageable y using the assumptions for smaller $n$.$
 
-Here's a step-y-step breakdown of how to apply weak and strong induction:
+Here's a step-y-step breakdown of how to apply weak and strong [induction](/blog/mathematical-induction-class-11-revision-notes-jee-neet):
 - **Base Case**: Prove the statement is true for the smallest possible value (usually $n=1$ or another specified starting point).
 - **Inductive Hypothesis**: For weak induction, assume the statement is true for $n=k$. For strong induction, assume it is true for all $n leq k$.
 - **Inductive Step**: Use the inductive hypothesis to prove the statement is true for $n=k+1$.

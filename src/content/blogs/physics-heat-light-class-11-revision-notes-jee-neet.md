@@ -1200,7 +1200,7 @@ D) T2 = T1 / 2 and P2 = P1 / 4
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 Strict, top 1% JEE/NEET ranker.
-"Ayush's Note" section for a blog post on "physics heat light class 11 revision notes jee neet".
+"Ayush's Note" section for a blog post on "[physics](/blog/physics-mechanics-class-11-revision-notes-jee-neet) heat light class 11 revision notes jee neet".
 JEE Advanced & NEET Grandmaster.
 4 specific bullet points: The Hidden Pattern, The "Always Check" Rule, PYQ Frequency Intel, The 30-Second Shortcut.
 

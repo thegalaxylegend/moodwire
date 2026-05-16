@@ -294,7 +294,7 @@ Examiner's Trap: Be careful with the calculation of per capita income, as it inv
 - **🔮 The Hidden Pattern:** 
  
 
-- There's a non-obvious connection between Globalisation and the Indian Economy and the chapter on **Sectors of the Indian Economy**.
+- There's a non-obvious connection between Globalisation and the Indian [Economy](/blog/lifelines-of-national-economy-class-10-notes) and the chapter on **Sectors of the Indian [Economy](/blog/lifelines-of-national-economy-class-10-notes)**.
 
 - In 30%+ of papers, questions are asked that relate the impact of globalisation on various sectors of the Indian economy, especially the primary, secondary, and tertiary sectors.
 
@@ -365,50 +365,50 @@ Examiner's Trap: Be careful with the calculation of per capita income, as it inv
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the term for the movement of goods and services from one country to another?**
-**A)**           Globalisation
-**B)**           Liberalisation
-**C)**           Privatisation
-**D)**           Nationalisation
+**A)**            Globalisation
+**B)**            Liberalisation
+**C)**            Privatisation
+**D)**            Nationalisation
 
 **Answer:** A) Globalisation refers to the movement of goods and services from one country to another. Liberalisation refers to the removal of government restrictions on economic activities. Privatisation refers to the transfer of ownership of public sector enterprises to private individuals. Nationalisation refers to the transfer of ownership of private sector enterprises to the government.
 
 ---
 
 **2. A shopkeeper buys 100 units of a product at ₹50 each and sells them at a 20% profit. What is the total revenue?**
-**A)**           ₹6000
-**B)**           ₹5000
-**C)**           ₹5500
-**D)**           ₹6500
+**A)**            ₹6000
+**B)**            ₹5000
+**C)**            ₹5500
+**D)**            ₹6500
 
 **Answer:** C) The cost price of 100 units is ₹50 x 100 = ₹5000. The profit is 20% of ₹5000, which is 0.20 x ₹5000 = ₹1000. Therefore, the total revenue is ₹5000 + ₹1000 = ₹6000. Option C is incorrect because it is ₹5000 + ₹500 = ₹5500, which is 10% profit, not 20%.
 
 ---
 
 **3. Which of the following is a benefit of globalisation?**
-**A)**           Increased dependence on foreign aid
-**B)**           Reduced economic growth
-**C)**           Increased competition and efficiency
-**D)**           Decreased access to foreign markets
+**A)**            Increased dependence on foreign aid
+**B)**            Reduced economic growth
+**C)**            Increased competition and efficiency
+**D)**            Decreased access to foreign markets
 
 **Answer:** C) Globalisation leads to increased competition, which drives efficiency and innovation. It also leads to the transfer of technology and management expertise. Options A, B, and D are incorrect because globalisation actually reduces dependence on foreign aid, increases economic growth, and increases access to foreign markets.
 
 ---
 
 **4. A company produces 500 units of a product with a total cost of ₹25,000. If the selling price is ₹60 per unit, what is the profit?**
-**A)**           ₹5000
-**B)**           ₹10,000
-**C)**           ₹7500
-**D)**           ₹15,000
+**A)**            ₹5000
+**B)**            ₹10,000
+**C)**            ₹7500
+**D)**            ₹15,000
 
 **Answer:** B) The total revenue is 500 units x ₹60 per unit = ₹30,000. The profit is ₹30,000 - ₹25,000 = ₹5000. Option B is correct because ₹10,000 is not the correct profit. Options C and D are incorrect because they are too low or too high.
 
 ---
 
 **5. What is the term for the policy of removing government restrictions on economic activities?**
-**A)**           Globalisation
-**B)**           Liberalisation
-**C)**           Privatisation
-**D)**           Nationalisation
+**A)**            Globalisation
+**B)**            Liberalisation
+**C)**            Privatisation
+**D)**            Nationalisation
 
 **Answer:** B) Liberalisation refers to the removal of government restrictions on economic activities. Globalisation refers to the movement of goods and services from one country to another. Privatisation refers to the transfer of ownership of public sector enterprises to private individuals. Nationalisation refers to the transfer of ownership of private sector enterprises to the government.
 

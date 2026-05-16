@@ -9,6 +9,19 @@ manualReview: false
 ---
 
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="-formula-bank"></a>⚡ Formula Bank](#a-id-formula-banka-formula-bank)
+3. [<a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks](#a-id-the-5-mistakes-that-cost-marksa-the-5-mistakes-that-cost-marks)
+4. [<a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs](#a-id-3-solved-pyqsa-3-solved-pyqs)
+5. [<a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong](#a-id-the-one-thing-most-students-get-wronga-the-one-thing-most-students-get-wrong)
+6. [<a id="-ayushs-note"></a>👁️ Ayush's Note](#a-id-ayushs-notea-ayushs-note)
+7. [<a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box](#a-id-last-5-minutes-boxa-last-5-minutes-box)
+8. [<a id="-practice-mcqs"></a>📝 Practice MCQs](#a-id-practice-mcqsa-practice-mcqs)
+
+---
+
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -31,7 +44,6 @@ manualReview: false
   - [🎯 If you can only remember ONE thing](#-if-you-can-only-remember-one-thing)
 - [📝 Practice MCQs](#-practice-mcqs)
 
-
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
 ### <a id="-formula-bank"></a>⚡ Formula Bank
@@ -41,7 +53,7 @@ manualReview: false
 
 - **SA Formation:** 1921 = Sturmabteilung (SA) formed — paramilitary wing of the Nazi Party
 
-- **Nazi Ideology:** Racism + Nationalism + Militarism — core components of Nazi ideology
+- **Nazi Ideology:** Racism + [Nationalism](/blog/the-rise-of-nationalism-in-europe-class-10-notes) + Militarism — core components of Nazi ideology
 Examiner's Trap: Be careful with the dates and events, make sure to remember the correct sequence.
 
 #### **Rise of Hitler Formulas**
@@ -124,8 +136,6 @@ Examiner's Trap: Remember the role of propaganda in the Nazi Party.
 | Nazi Rallies | Analyzing the role of Nazi rallies in propaganda |
 | Nazi Symbolism | Explaining the significance of the Swastika |
 
-
-
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 ### <a id="the-5-mistakes-that-cost-marks"></a>The 5 Mistakes That Cost Marks
@@ -190,8 +200,6 @@ Examiner's Trap: Remember the role of propaganda in the Nazi Party.
 
 - 🔧 **The fix (30-second trick):** Recall that the Great Depression caused **economic hardship**, which the Nazis used to their advantage.
 
-
-
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 ### <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
@@ -225,8 +233,6 @@ Examiner's Trap: Remember the role of propaganda in the Nazi Party.
  Step 1: Recall the title of Hitler's autobiography.
  Step 2: Verify that it was published in 1925-27.
  **Final Answer:** Mein Kampf.
-
-
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
@@ -330,13 +336,11 @@ Examiner's Trap: Remember the role of propaganda in the Nazi Party.
 
 By remembering the interaction of these factors and using the "GREAT" mnemonic, students can ensure a deep understanding of why the misconception is wrong and how the actual events led to the rise of Nazism and Hitler.
 
-
-
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 ### <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **🔮 The Hidden Pattern:** Nazism and the Rise of Hitler often connects with **The French Revolution** in 30%+ of papers. Be ready to explain how the ideologies of the French Revolution, such as **Liberty, Equality, Fraternity**, influenced or were opposed by Nazi ideologies.
+- **🔮 The Hidden Pattern:** Nazism and the Rise of Hitler often connects with **The [French](/blog/the-french-revolution-class-9-notes) Revolution** in 30%+ of papers. Be ready to explain how the ideologies of the [French](/blog/the-french-revolution-class-9-notes) Revolution, such as **Liberty, Equality, Fraternity**, influenced or were opposed by Nazi ideologies.
 
 - **🎯 The "Always Check" Rule:** Always verify the **chronology of events**. Examiners love to test if you know the exact sequence of events, such as the **Rise of Hitler**, **The Beer Hall Putsch**, and **The Nuremberg Laws**. Ensure you can list these events in chronological order.
 
@@ -352,14 +356,12 @@ By remembering the interaction of these factors and using the "GREAT" mnemonic, 
 - **⚡ The 30-Second Shortcut:** For questions on **the structure of the Nazi government**, quickly recall the **three main components**: 
  
 
-- **The Fuhrer (Hitler)**: The supreme leader.
+- **The Führer (Hitler)**: The supreme leader.
 
 - **The Reichstag**: The legislative body.
 
 - **The Gestapo and SS**: The police and military forces. 
  This helps in answering questions about the **authoritarian structure** of Nazi Germany within 30 seconds.
-
-
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -392,74 +394,73 @@ By remembering the interaction of these factors and using the "GREAT" mnemonic, 
 ### <a id="-if-you-can-only-remember-one-thing"></a>🎯 If you can only remember ONE thing
 The Nazi Party's rise to power in Germany was facilitated by a combination of factors including Hitler's leadership, the economic crisis, and the resentment towards the Treaty of Versailles.
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
-
 **1. What was the name of the operation in 1939 where Germany invaded Poland?**
-**A)**  Operation Barbarossa
-**B)**  Operation Poland
-**C)**  Invasion of Poland
-**D)**  Blitzkrieg
+**A)**   Operation Barbarossa
+**B)**   Operation Poland
+**C)**   Invasion of Poland
+**D)**   Blitzkrieg
 
 **Answer:** D) The correct answer is D, Blitzkrieg, which was the code name for the German invasion of Poland in 1939. Operation Barbarossa was the invasion of the Soviet Union in 1941. The other options are incorrect because 'Operation Poland' is not a historical term and 'Invasion of Poland' is too general.
-
-
 
 ---
 
 **2. How many members did the Reichstag have in 1932?**
-**A)**  600
-**B)**  500
-**C)**  460
-**D)**  400
+**A)**   600
+**B)**   500
+**C)**   460
+**D)**   400
 
 **Answer:** C) The correct answer is C, 460. The Reichstag had 460 members in 1932. The other options are incorrect because they do not match the historical records.
-
-
 
 ---
 
 **3. Who was the leader of the Nazi Party in Germany from 1921 to 1945?**
-**A)**  Adolf Hitler
-**B)**  Benito Mussolini
-**C)**  Joseph Goebbels
-**D)**  Hermann Göring
+**A)**   Adolf Hitler
+**B)**   Benito Mussolini
+**C)**   Joseph Goebbels
+**D)**   Hermann Göring
 
 **Answer:** A) The correct answer is A, Adolf Hitler. He was the leader of the Nazi Party in Germany from 1921 to 1945. The other options are incorrect because Mussolini was the leader of the Fascist Party in Italy, Goebbels was the Propaganda Minister, and Göring was a high-ranking military officer.
-
-
 
 ---
 
 **4. What was the name of the treaty that imposed harsh penalties on Germany after World War I?**
-**A)**  Treaty of Versailles
-**B)**  Treaty of Berlin
-**C)**  Treaty of Paris
-**D)**  Treaty of London
+**A)**   Treaty of Versailles
+**B)**   Treaty of Berlin
+**C)**   Treaty of Paris
+**D)**   Treaty of London
 
 **Answer:** A) The correct answer is A, Treaty of Versailles. It was the treaty that imposed harsh penalties on Germany after World War I. The other options are incorrect because they do not match the historical records.
-
-
 
 ---
 
 **5. If a person had 10000 Reichsmarks in 1933 and inflation was 20%, how many Reichsmarks would they have in terms of purchasing power?**
-**A)**  8000
-**B)**  10000
-**C)**  12000
-**D)**  6000
+**A)**   8000
+**B)**   10000
+**C)**   12000
+**D)**   6000
 
 **Answer:** A) The correct answer is A, 8000. If inflation was 20%, then the purchasing power would decrease by 20%. So, 10000 * (1 - 0.20) = 8000. The other options are incorrect because they do not account for the inflation rate correctly.
-
-
-
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-9/social-science/nazism-and-the-rise-of-hitler) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Nazism%20and%20the%20Rise%20of%20Hitler%20Class%209%20Social%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [The Rise of Nationalism in Europe Class 10 Social Science Recap — Grandmaster Guide](/blog/the-rise-of-nationalism-in-europe-class-10-notes)
+- 📖 [Forest Society and Colonialism Class 9 Social Science Recap — Grandmaster Guide](/blog/forest-society-and-colonialism-class-9-notes)
+- 📖 [Socialism in Europe and the Russian Revolution Class 9 Social Science Recap — Grandmaster Guide](/blog/socialism-in-europe-and-the-russian-revolution-class-9-notes)
+- 📖 [The French Revolution Class 9 Social Science Recap — Grandmaster Guide](/blog/the-french-revolution-class-9-notes)

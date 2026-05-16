@@ -257,7 +257,7 @@ How to optimize the performance of Non-Linear [Data](/blog/data-structures-linea
 
 ## <a id="mcqs"></a>MCQs
 
-**1. What is the primary advantage of using a Trie data structure?**
+**1. What is the primary advantage of using a Trie [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structure?**
 A. Efficient memory usage
 B. Fast search and insertion
 C. Good for dynamic memory allocation

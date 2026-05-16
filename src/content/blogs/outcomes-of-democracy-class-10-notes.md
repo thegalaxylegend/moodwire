@@ -394,7 +394,7 @@ Rule of Law + Majority Constraint $\rightarrow$ Minority Rights
 eq$ Democracy | No direct correlation |
 | **How does it handle tension?** | Consensus & Accommodation | Conflict Resolution |
 | **Is it fair to minorities?** | Minority Protection Formula | Constitutional Constraints |
-| **Why do people vote?** | Political Equality Formula | Universal Adult Franchise |
+| **Why do people vote?** | [Political](/blog/political-parties-class-10-notes) Equality Formula | Universal Adult Franchise |
 | **How is corruption reduced?** | Transparency Formula | Right to Information |
 | **Is democracy efficient?** | Quality vs. Speed Trade-off | Procedural vs. Outcome efficiency |
 
@@ -453,7 +453,7 @@ eq$ Democracy.
 
  * *Mistake 5: The "Vague Dignity" Answer.*
  * Wrong: Democracy gives [rights](/blog/consumer-rights-class-10-notes) to everyone.
- * Correct: Democracy enhances dignity by recognizing the rights of women, Dalits, and minorities.
+ * Correct: Democracy enhances dignity by recognizing the [rights](/blog/consumer-rights-class-10-notes) of women, Dalits, and minorities.
  * Fix: Specificity is key: Mention Women + Minority groups.
 
  * Check against "NO LaTeX" rule.
@@ -1433,7 +1433,7 @@ No introductions, no filler, no prose paragraphs, bullets only.
 - ❌ Efficient decision-making is the primary measure of a good government → ✅ Accountability, responsiveness, and legitimacy are the primary measures of a democratic government.
 
  ### 🎯 If you can only remember ONE thing:
- Democracy's true value is not measured by economic growth rates, but by its ability to uphold human dignity, equality, and provide a legitimate way for people to participate in power.
+ Democracy's true value is not measured by economic growth rates, but by its ability to uphold human dignity, equality, and provide a legitimate way for people to participate in [power](/blog/power-sharing-class-10-notes).
 
  *Wait, the prompt says "Every single mathematical symbol, formula, or variable MUST be wrapped in dollar signs" in the top section, but "DO NOT use LaTeX... Do not use $ or delimiters" in the bottom section. This is a classic "trap" instruction. The bottom section says "STRICT ACADEMIC BOUNDARY" and "OUTPUT FORMAT RULES (violations break the website)". I will follow the BOTTOM section. It is the most specific to the output format.*
 

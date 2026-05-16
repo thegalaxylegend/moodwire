@@ -310,7 +310,7 @@ Continue your revision with these related guides:
 
 ## 🔁 Last 5 Minutes Box
 
-* Faraday's Law of Electromagnetic Induction: **ε = -N(dΦ/dt)** 
+* Faraday's Law of Electromagnetic [Induction](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee): **ε = -N(dΦ/dt)** 
    * Lenz's Law: **The induced [current](/blog/alternating-current-class-12-notes) flows and a direction such that it opposes the change and magnetic flux** 
    * Magnetic Flux (Φ): **Φ = BA\\cosθ** 
    * Induced Emf (ε): **ε = -dΦ/dt** 
