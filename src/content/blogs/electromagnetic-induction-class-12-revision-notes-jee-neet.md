@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/electromagnetic-induction-class-12-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 15, 2026*
+*Last Updated: May 16, 2026*
 
 ## 📑 Table of Contents
 
@@ -310,7 +310,7 @@ Continue your revision with these related guides:
 
 ## 🔁 Last 5 Minutes Box
 
-* Faraday's Law of Electromagnetic Induction: **ε = -N(dΦ/dt)** 
+* Faraday's Law of Electromagnetic [Induction](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee): **ε = -N(dΦ/dt)** 
    * Lenz's Law: **The induced [current](/blog/alternating-current-class-12-notes) flows and a direction such that it opposes the change and magnetic flux** 
    * Magnetic Flux (Φ): **Φ = BA\\cosθ** 
    * Induced Emf (ε): **ε = -dΦ/dt** 

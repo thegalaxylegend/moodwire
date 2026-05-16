@@ -38,7 +38,7 @@ manualReview: false
   Step 2: Solve the first equation for x: x = 4 - y
   Step 3: Substitute x into the second equation: 2(4 - y) - 2y = -2
   Step 4: Simplify and solve for y: 8 - 2y - 2y = -2 => -4y = -10 => y = 5/2
-  Step 5: Substitute y back into one of the original equations to find x: x = 4 - 5/2 => x = (8 - 5)/2 => x = 3/2
+  Step 5: Substitute y back into one of the original [equations](/blog/quadratic-equations-class-10-notes) to find x: x = 4 - 5/2 => x = (8 - 5)/2 => x = 3/2
 - Solve the equations: 3x - 4y = 7 and 5x + 2y = 17
   Step 1: Write down the given equations
   Step 2: Solve the first equation for x: x = (7 + 4y)/3

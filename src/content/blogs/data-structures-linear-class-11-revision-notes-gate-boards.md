@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/data-structures-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 15, 2026*
+*Last Updated: May 16, 2026*
 
 ## 📑 Table of Contents
 
@@ -390,7 +390,7 @@ $O(\log n)$
 O(n)
 $O(n^2)$
 
-**Answer:** C) It takes linear time to search for an element and an array using a linear search algorithm because we have to check each element sequentially.
+**Answer:** C) It takes [linear](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) time to search for an element and an array using a [linear](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) search algorithm because we have to check each element sequentially.
 
 **5. What is the main advantage of using stacks?**
 Faster execution compared to queues

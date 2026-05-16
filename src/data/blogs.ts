@@ -902,6 +902,15 @@ export const blogs: Blog[] = [
         "image": "/blog-images/quadratic-equations-class-10-notes.webp"
     },
     {
+        "id": "polynomials-class-10-notes",
+        "title": "Polynomials Class 10 Exam Prep Revision — Grandmaster Guide",
+        "description": "Polynomials Class 10 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "category": "Exam Notes",
+        "date": "2026-04-20",
+        "readTime": "15 min read",
+        "image": "/blog-images/polynomials-class-10-notes.webp"
+    },
+    {
         "id": "principles-of-inheritance-and-variation-class-12-notes",
         "title": "Principles Of Inheritance And Variation Class 12 Exam Prep Revision — Grandmaster Guide",
         "description": "Principles Of Inheritance And Variation Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
@@ -917,7 +926,7 @@ export const blogs: Blog[] = [
         "category": "Exam Notes",
         "date": "2026-04-20",
         "readTime": "15 min read",
-        "image": "/blog-images/polynomials-class-10-notes.webp"
+        "image": "/blog-images/organisms-and-populations-class-12-notes.webp"
     },
     {
         "id": "polymers-class-12-notes",
@@ -1100,13 +1109,40 @@ export const blogs: Blog[] = [
         "image": "/blog-images/coordinate-geometry-class-10-notes.webp"
     },
     {
-        "id": "continuity-and-differentiability-class-12-notes",
-        "title": "Continuity And Differentiability Class 12 Exam Prep Revision — Grandmaster Guide",
-        "description": "Continuity And Differentiability Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "id": "application-of-derivatives-class-12-notes",
+        "title": "Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide",
+        "description": "Application Of Derivatives Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
         "category": "Exam Notes",
         "date": "2026-04-20",
         "readTime": "15 min read",
-        "image": "/blog-images/continuity-and-differentiability-class-12-notes.webp"
+        "image": "/blog-images/application-of-derivatives-class-12-notes.webp"
+    },
+    {
+        "id": "application-of-integrals-class-12-notes",
+        "title": "Application Of Integrals Class 12 Exam Prep Revision — Grandmaster Guide",
+        "description": "Application Of Integrals Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "category": "Exam Notes",
+        "date": "2026-04-20",
+        "readTime": "15 min read",
+        "image": "/blog-images/application-of-integrals-class-12-notes.webp"
+    },
+    {
+        "id": "applications-of-trigonometry-class-10-notes",
+        "title": "Applications Of Trigonometry Class 10 Mathematics Revision — Grandmaster Guide",
+        "description": "Applications Of Trigonometry Class 10 Mathematics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "category": "Exam Notes",
+        "date": "2026-04-20",
+        "readTime": "15 min read",
+        "image": "/blog-images/applications-of-trigonometry-class-10-notes.webp"
+    },
+    {
+        "id": "areas-related-to-circles-class-10-notes",
+        "title": "Areas Related To Circles Class 10 Exam Prep Revision — Grandmaster Guide",
+        "description": "Areas Related To Circles Class 10 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "category": "Exam Notes",
+        "date": "2026-04-20",
+        "readTime": "15 min read",
+        "image": "/blog-images/areas-related-to-circles-class-10-notes.webp"
     },
     {
         "id": "compiler-design-class-12-notes",

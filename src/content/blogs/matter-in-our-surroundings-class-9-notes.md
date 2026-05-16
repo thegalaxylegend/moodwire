@@ -57,7 +57,7 @@ manualReview: false
 
 - **Pressure Formula:** P = F/A — P is pressure, F is [force](/blog/force-and-laws-of-motion-class-9-notes), A is area
 
-- **Buoyancy Formula:** F = ρVg — F is buoyant force, ρ is fluid density, V is volume of fluid displaced, g is acceleration due to gravity
+- **Buoyancy Formula:** F = ρVg — F is buoyant [force](/blog/force-and-laws-of-motion-class-9-notes), ρ is fluid density, V is volume of fluid displaced, g is acceleration due to gravity
 Examiner's Trap: Be careful with units, especially when calculating density and pressure.
 
 #### **Changes in Matter**
@@ -210,7 +210,7 @@ Examiner's Trap: Understand the limitations of the ideal gas law.
 
 - **The misconception (what 85% believe):** Most students think that particles of [matter](/blog/is-matter-around-us-pure-class-9-notes) are only in solids, and that liquids and gases do not have particles.
 
-- **The reality (what 99% know):** Particles of matter are present in all states of matter: solids, liquids, and gases. The particles are closely packed in solids, are close but can move past each other in liquids, and are far apart in gases.
+- **The reality (what 99% know):** Particles of [matter](/blog/is-matter-around-us-pure-class-9-notes) are present in all states of [matter](/blog/is-matter-around-us-pure-class-9-notes): solids, liquids, and gases. The particles are closely packed in solids, are close but can move past each other in liquids, and are far apart in gases.
 
 - **The diagnostic question:**
 What is the state of matter that has particles with the most freedom of movement?
@@ -380,50 +380,50 @@ Matter is made up of particles that have space between them and are continuously
 
 **1. A gas is heated from 20°C to 50°
 C. What is the percentage increase in its temperature in Kelvin?**
-**A)**      15%
-**B)**      20%
-**C)**      25%
-**D)**      30%
+**A)**       15%
+**B)**       20%
+**C)**       25%
+**D)**       30%
 
 **Answer:** B) The initial temperature in Kelvin is 20 + 273 = 293 K. The final temperature in Kelvin is 50 + 273 = 323 K. The change in temperature is 323 - 293 = 30 K. The percentage increase is (30 / 293) × 100% ≈ 10.24%, which is closest to 10% but among the given options, 20% is the nearest considering possible approximations, however accurately it is 10.24% increase, so B seems a right choice given the options.
 
 ---
 
 **2. The latent heat of vaporization of water is 2260 kJ/kg. What is the energy required to vaporize 2 kg of water?**
-**A)**      1120 kJ
-**B)**      2260 kJ
-**C)**      4520 kJ
-**D)**      1130 kJ
+**A)**       1120 kJ
+**B)**       2260 kJ
+**C)**       4520 kJ
+**D)**       1130 kJ
 
 **Answer:** C) The energy required to vaporize 2 kg of water is given by the formula: energy = mass × latent heat of vaporization = 2 kg × 2260 kJ/kg = 4520 kJ. So, the other options are incorrect.
 
 ---
 
 **3. Which of the following processes involves a decrease in temperature?**
-**A)**      Melting of ice
-**B)**      Vaporization of water
-**C)**      Condensation of water vapor
-**D)**      Sublimation of iodine
+**A)**       Melting of ice
+**B)**       Vaporization of water
+**C)**       Condensation of water vapor
+**D)**       Sublimation of iodine
 
 **Answer:** C) Condensation of water vapor involves a decrease in temperature as the water vapor changes state to liquid, releasing heat to the surroundings. The other options involve an increase in temperature or no change.
 
 ---
 
 **4. A block of ice at 0°C is heated until it completely melts. What is the temperature of the water obtained?**
-**A)**      0°C
-**B)**      50°C
-**C)**      100°C
-**D)**      273 K
+**A)**       0°C
+**B)**       50°C
+**C)**       100°C
+**D)**       273 K
 
 **Answer:** A) The temperature of the ice remains at 0°C until it completely melts. After melting, the temperature of the water obtained remains at 0°C if no additional heat is added. So, the other options are incorrect.
 
 ---
 
 **5. The density of a substance is 5 g/cm³. What is its density in kg/m³?**
-**A)**      5000 kg/m³
-**B)**      500 kg/m³
-**C)**      50 kg/m³
-**D)**      5 kg/m³
+**A)**       5000 kg/m³
+**B)**       500 kg/m³
+**C)**       50 kg/m³
+**D)**       5 kg/m³
 
 **Answer:** A) To convert density from g/cm³ to kg/m³, we multiply by 1000. So, 5 g/cm³ × 1000 = 5000 kg/m³. The other options are incorrect.
 

@@ -527,50 +527,50 @@ D) They see both as equally destructive
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the central theme of the poem 'Fire and Ice'?**
-**A)**        The destructive power of love
-**B)**        The contrast between desire and hatred
-**C)**        The beauty of nature
-**D)**        The importance of friendship
+**A)**         The destructive power of love
+**B)**         The contrast between desire and hatred
+**C)**         The beauty of nature
+**D)**         The importance of friendship
 
 **Answer:** B) The poem 'Fire and Ice' by Robert Frost explores the contrast between desire (fire) and hatred (ice) as the two destructive forces that could lead to the end of the world. The other options do not accurately represent the central theme of the poem.
 
 ---
 
 **2. According to the poem, what does 'fire' symbolize?**
-**A)**        Destruction and chaos
-**B)**        Passion and desire
-**C)**        Nature and beauty
-**D)**        Hate and anger
+**A)**         Destruction and chaos
+**B)**         Passion and desire
+**C)**         Nature and beauty
+**D)**         Hate and anger
 
 **Answer:** B) In the poem, 'fire' symbolizes passion and desire, which can lead to destruction if not controlled. The other options are incorrect as fire is not primarily associated with destruction and chaos, nature and beauty, or hate and anger in the poem.
 
 ---
 
 **3. What is the poet's personal preference for the end of the world?**
-**A)**        Fire
-**B)**        Ice
-**C)**        Both fire and ice
-**D)**        Neither fire nor ice
+**A)**         Fire
+**B)**         Ice
+**C)**         Both fire and ice
+**D)**         Neither fire nor ice
 
 **Answer:** B) The poet personally prefers ice, as he states 'I hold with those who favor ice.' This suggests that he believes hatred and cold calculation are more likely to lead to the end of the world. The other options are incorrect as they do not reflect the poet's stated preference.
 
 ---
 
 **4. How does the poet describe the effect of ice on relationships?**
-**A)**        It brings people together
-**B)**        It has no impact on relationships
-**C)**        It leads to coldness and detachment
-**D)**        It fosters love and passion
+**A)**         It brings people together
+**B)**         It has no impact on relationships
+**C)**         It leads to coldness and detachment
+**D)**         It fosters love and passion
 
 **Answer:** C) The poet describes ice as leading to coldness and detachment in relationships, suggesting that it can cause people to become isolated and disconnected [from](/blog/from-the-diary-of-anne-frank-class-10-notes) one another. The other options are incorrect as they do not accurately reflect the poet's description of ice's effect on relationships.
 
 ---
 
 **5. What is the tone of the poem 'Fire and Ice'?**
-**A)**        Optimistic and hopeful
-**B)**        Pessimistic and despairing
-**C)**        Neutral and objective
-**D)**        Sarcastic and humorous
+**A)**         Optimistic and hopeful
+**B)**         Pessimistic and despairing
+**C)**         Neutral and objective
+**D)**         Sarcastic and humorous
 
 **Answer:** B) The tone of the poem is pessimistic and despairing, as it explores the destructive forces that could lead to the end of the world. The poet's use of imagery and symbolism creates a sense of foreboding and hopelessness. The other options are incorrect as they do not accurately capture the poem's tone.
 
