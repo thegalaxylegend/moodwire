@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/climatology-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 15, 2026*
+*Last Updated: May 16, 2026*
 
 ## 📑 Table of Contents
 
