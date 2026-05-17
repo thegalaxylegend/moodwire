@@ -331,50 +331,50 @@ Cells are the **fundamental units of life** and all living organisms are compose
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the term for the basic structural and functional unit of living organisms?**
-**A)**      Cell
-**B)**      Tissue
-**C)**      Organ
-**D)**      Organ System
+**A)**       Cell
+**B)**       Tissue
+**C)**       Organ
+**D)**       Organ System
 
 **Answer:** A) The cell is the basic structural and functional unit of living organisms. Tissue is a group of cells, organ is a group of [tissues](/blog/tissues-class-9-notes), and organ system is a group of organs. So, B, C, and D are incorrect.
 
 ---
 
 **2. Who proposed the 'Cell Theory'?**
-**A)**      Schleiden and Schwann
-**B)**      Darwin and Mendel
-**C)**      Newton and Galileo
-**D)**      Pasteur and Koch
+**A)**       Schleiden and Schwann
+**B)**       Darwin and Mendel
+**C)**       Newton and Galileo
+**D)**       Pasteur and Koch
 
 **Answer:** A) The Cell Theory was proposed by Schleiden and Schwann. Darwin and Mendel are known for their work in evolution and genetics, Newton and Galileo for physics, and Pasteur and Koch for microbiology. So, B, C, and D are incorrect.
 
 ---
 
 **3. What is the term for the process by which cells become specialized to perform specific functions?**
-**A)**      Differentiation
-**B)**      Osmosis
-**C)**      Diffusion
-**D)**      Photosynthesis
+**A)**       Differentiation
+**B)**       Osmosis
+**C)**       Diffusion
+**D)**       Photosynthesis
 
 **Answer:** A) Differentiation is the process by which cells become specialized. Osmosis and diffusion are types of transport across cell membranes, and photosynthesis is a process in plant cells. So, B, C, and D are incorrect.
 
 ---
 
 **4. A cell has a length of 5 μm and a width of 3 μm. What is its area in μm²?**
-**A)**      8 μm²
-**B)**      15 μm²
-**C)**      20 μm²
-**D)**      25 μm²
+**A)**       8 μm²
+**B)**       15 μm²
+**C)**       20 μm²
+**D)**       25 μm²
 
 **Answer:** B) The area of a rectangle is calculated as length × width. So, 5 μm × 3 μm = 15 μm². The other options are incorrect calculations.
 
 ---
 
 **5. What is the function of the cell membrane in a cell?**
-**A)**      To provide structure to the cell
-**B)**      To control the movement of materials in and out of the cell
-**C)**      To produce energy for the cell
-**D)**      To store genetic information
+**A)**       To provide structure to the cell
+**B)**       To control the movement of materials in and out of the cell
+**C)**       To produce energy for the cell
+**D)**       To store genetic information
 
 **Answer:** B) The cell membrane controls the movement of materials. The cell wall provides structure, mitochondria produce energy, and DNA stores genetic information. So, A, C, and D are incorrect.
 

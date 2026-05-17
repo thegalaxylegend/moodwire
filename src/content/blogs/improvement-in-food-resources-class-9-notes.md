@@ -68,7 +68,7 @@ Examiner's Trap: Be careful with units, as fertilizer application rates are ofte
 
 - **Irrigation Interval Formula:** Irrigation Interval (days) = (Available [Water](/blog/water-resources-class-10-notes) × 100) / (Crop [Water](/blog/water-resources-class-10-notes) Requirement × 10) — Irrigation interval is the time between two consecutive irrigations
 
-- **Crop Water Requirement Formula:** Crop Water Requirement (mm) = (ETc × KC) / (EF × 100) — Crop water requirement is the amount of water needed by crops
+- **Crop [Water](/blog/water-resources-class-10-notes) Requirement Formula:** Crop [Water](/blog/water-resources-class-10-notes) Requirement (mm) = (ETc × KC) / (EF × 100) — Crop [water](/blog/water-resources-class-10-notes) requirement is the amount of [water](/blog/water-resources-class-10-notes) needed by crops
 
 - **Duty of Water Formula:** Duty of Water (ha/cumec) = (8.64 × 10⁶) / (Δ × 1000) — Duty of water is the area that can be irrigated by a given discharge
 Examiner's Trap: Make sure to convert all values to the same units before calculating duty of water.
@@ -171,7 +171,7 @@ Examiner's Trap: Make sure to understand the concept of heritability and its rel
 - 💸 **Marks lost:** 2 marks
  
 
-- 🔧 **The fix (30-second trick):** Associate organic farming with "natural" and "eco-friendly".
+- 🔧 **The fix (30-second trick):** Associate organic farming with "[natural](/blog/management-of-natural-resources-class-10-notes)" and "eco-friendly".
 
 - **Mistake 5 — Misunderstanding the Role of Bees in Pollination:**
  
@@ -190,7 +190,7 @@ Examiner's Trap: Make sure to understand the concept of heritability and its rel
 ### <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 **Q1 (2019 CBSE):** What are the two main factors that determine the quality of crop produce?
- - 🪤 **Trap:** Students often confuse the factors that affect crop quality with those that affect crop yield.
+ - 🪤 **Trap:** Students often confuse the factors that affect crop quality with those that effect crop yield.
  - 🧮 **Solution (Step-by-step):**
  Step 1: Identify the factors that affect crop quality → **Soil quality** and **Climate**.
  Step 2: Understand how these factors impact crop quality → Soil quality affects nutrient availability, while climate affects temperature and rainfall.
@@ -344,7 +344,7 @@ D) To reduce water usage
 
 - 2021: Questions on animal husbandry, fisheries, and poultry management, including the importance of beekeeping.
 
-- 2023: Questions on sustainable agriculture practices, conservation of soil, and management of water resources.
+- 2023: Questions on sustainable agriculture practices, conservation of soil, and management of water [resources](/blog/resources-and-development-class-10-notes).
 
 - **⚡ The 30-Second Shortcut:** For questions that ask about the advantages or disadvantages of a particular method of improving food resources (e.g.
 
@@ -399,50 +399,50 @@ Improvement in food resources is crucial for meeting the increasing demand for f
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the primary goal of crop rotation in agriculture?**
-**A)**    To increase soil fertility
-**B)**    To decrease crop yield
-**C)**    To control pests and diseases
-**D)**    To reduce water usage
+**A)**     To increase soil fertility
+**B)**     To decrease crop yield
+**C)**     To control pests and diseases
+**D)**     To reduce water usage
 
 **Answer:** A) Crop rotation helps to maintain soil fertility by rotating crops with different nutrient requirements, reducing soil erosion, and increasing crop yields. Option B is incorrect because crop rotation aims to increase, not decrease, crop yield. Option C is partially correct but not the primary goal. Option D is incorrect because while crop rotation can help with water usage, it's not its primary goal.
 
 ---
 
 **2. A farmer has 1500 ₱ of land and wants to cultivate wheat and rice. If the yield of wheat is 20 ₱/acre and rice is 30 ₱/acre, and the farmer wants to maximize his yield, which crop should he cultivate on his entire land?**
-**A)**    Wheat
-**B)**    Rice
-**C)**    Both equally
-**D)**    Neither
+**A)**     Wheat
+**B)**     Rice
+**C)**     Both equally
+**D)**     Neither
 
 **Answer:** B) To maximize yield, the farmer should cultivate the crop with the higher yield per acre, which is rice at 30 ₱/acre. Option A is incorrect because wheat yields less. Option C is incorrect because there's no equal benefit. Option D is incorrect because the farmer should cultivate one of them.
 
 ---
 
 **3. What is the term for the process of adding nutrients to the soil to increase fertility?**
-**A)**    Manuring
-**B)**    Irrigation
-**C)**    Crop rotation
-**D)**    Soil erosion
+**A)**     Manuring
+**B)**     Irrigation
+**C)**     Crop rotation
+**D)**     Soil erosion
 
 **Answer:** A) Manuring is the process of adding nutrients to the soil to increase fertility. Option B is incorrect because irrigation is the supply of water to land. Option C is incorrect because crop rotation is the practice of rotating crops. Option D is incorrect because soil erosion is the loss of soil.
 
 ---
 
 **4. If a farmer produces 500 kg of wheat on 10 acres of land, what is his yield per acre?**
-**A)**    50 kg/acre
-**B)**    40 kg/acre
-**C)**    60 kg/acre
-**D)**    70 kg/acre
+**A)**     50 kg/acre
+**B)**     40 kg/acre
+**C)**     60 kg/acre
+**D)**     70 kg/acre
 
 **Answer:** A) To find the yield per acre, divide the total production (500 kg) by the total acres (10 acres), which equals 50 kg/acre. Option B is incorrect because 500 / 10 = 50. Option C and D are incorrect because they don't match the calculation.
 
 ---
 
 **5. A dairy farm produces 200 liters of milk per day. If each liter of milk requires 2.5 kg of fodder, how much fodder is required per day?**
-**A)**    400 kg
-**B)**    500 kg
-**C)**    600 kg
-**D)**    800 kg
+**A)**     400 kg
+**B)**     500 kg
+**C)**     600 kg
+**D)**     800 kg
 
 **Answer:** B) To find the total fodder required, multiply the liters of milk produced (200 liters) by the fodder required per liter (2.5 kg/liter), which equals 200 * 2.5 = 500 kg. Option A, C, and D are incorrect because they don't match the calculation.
 

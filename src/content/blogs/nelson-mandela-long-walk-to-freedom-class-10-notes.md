@@ -351,50 +351,50 @@ Nelson Mandela's life was a testament to the power of perseverance and forgivene
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What was the name of Nelson Mandela's autobiography?**
-**A)**           Long Walk to Freedom
-**B)**           Free at Last
-**C)**           Mandela: A Biography
-**D)**           The Autobiography of Nelson Mandela
+**A)**            Long Walk to Freedom
+**B)**            Free at Last
+**C)**            Mandela: A Biography
+**D)**            The Autobiography of Nelson Mandela
 
 **Answer:** A) The correct answer is 'Long Walk to Freedom' because it is the title of Nelson Mandela's autobiography, which was published in 1994. The other options are incorrect because they are not the title of Mandela's autobiography.
 
 ---
 
 **2. In what year was Nelson Mandela awarded the Nobel Peace Prize?**
-**A)**           1993
-**B)**           1994
-**C)**           1995
-**D)**           1996
+**A)**            1993
+**B)**            1994
+**C)**            1995
+**D)**            1996
 
 **Answer:** A) The correct answer is 1993 because Nelson Mandela was awarded the Nobel Peace Prize in 1993, along with F.W. de Klerk, for their efforts to dismantle apartheid in South Africa. The other options are incorrect because they are not the correct year.
 
 ---
 
 **3. What was the name of the organization that Nelson Mandela co-founded in 1944?**
-**A)**           African National Congress
-**B)**           South African Communist Party
-**C)**           Nelson Mandela Foundation
-**D)**           African Union
+**A)**            African National Congress
+**B)**            South African Communist Party
+**C)**            Nelson Mandela Foundation
+**D)**            African Union
 
 **Answer:** A) The correct answer is 'African National Congress' because it is the organization that Nelson Mandela co-founded in 1944, along with Walter Sisulu and Oliver Tambo. The other options are incorrect because they are not the correct organization.
 
 ---
 
 **4. How many years did Nelson Mandela spend in prison?**
-**A)**           20 years
-**B)**           25 years
-**C)**           27 years
-**D)**           30 years
+**A)**            20 years
+**B)**            25 years
+**C)**            27 years
+**D)**            30 years
 
 **Answer:** C) The correct answer is 27 years because Nelson Mandela spent 27 years in prison, from 1962 to 1990. The other options are incorrect because they do not accurately reflect the number of years Mandela spent in prison.
 
 ---
 
 **5. Who was the president of South Africa when Nelson Mandela was released from prison?**
-**A)**           W. de Klerk
-**B)**           Nelson Mandela
-**C)**           Oliver Tambo
-**D)**           Walter Sisulu
+**A)**            W. de Klerk
+**B)**            Nelson Mandela
+**C)**            Oliver Tambo
+**D)**            Walter Sisulu
 
 **Answer:** A) The correct answer is F.W. de Klerk because he was the president of South Africa when Nelson Mandela was released from prison in 1990. The other options are incorrect because they were not the president of South Africa at that time.
 

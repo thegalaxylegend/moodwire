@@ -1,20 +1,15 @@
 {
-  "generatedAt": "2026-05-16T03:20:40.585Z",
+  "generatedAt": "2026-05-17T03:29:09.962Z",
   "dateRange": {
-    "startDate": "2026-04-16",
-    "endDate": "2026-05-16"
+    "startDate": "2026-04-17",
+    "endDate": "2026-05-17"
   },
-  "totalRows": 10,
-  "opportunities": 1,
+  "totalRows": 11,
+  "opportunities": 2,
   "globalTopKeywords": [
     {
       "query": "crack jee, neet & upsc with ai: the 2026 study strategy ai d3v day india",
-      "impressions": 241,
-      "clicks": 0
-    },
-    {
-      "query": "exam compass",
-      "impressions": 12,
+      "impressions": 383,
       "clicks": 0
     },
     {
@@ -23,12 +18,17 @@
       "clicks": 0
     },
     {
+      "query": "exam compass",
+      "impressions": 7,
+      "clicks": 0
+    },
+    {
       "query": "jee compass",
       "impressions": 3,
       "clicks": 0
     },
     {
-      "query": "examcompass.com",
+      "query": "compass jee",
       "impressions": 2,
       "clicks": 0
     },
@@ -50,24 +50,24 @@
   ],
   "pages": {
     "https://examcompass.pages.dev/": {
-      "impressions": 15,
+      "impressions": 9,
       "clicks": 0,
       "ctr": 0,
-      "position": 25.1,
+      "position": 14.7,
       "topQueries": [
         {
           "query": "exam compass",
-          "impressions": 12,
+          "impressions": 7,
           "clicks": 0,
           "ctr": 0,
-          "position": 7.8
+          "position": 6
         },
         {
-          "query": "examcompass.com",
-          "impressions": 2,
+          "query": "compass jee",
+          "impressions": 1,
           "clicks": 0,
           "ctr": 0,
-          "position": 30.5
+          "position": 1
         },
         {
           "query": "mains foundation compass for all the subjects.",
@@ -80,17 +80,17 @@
       "isOpportunity": false
     },
     "https://examcompass.pages.dev/jee-mains/": {
-      "impressions": 230,
+      "impressions": 306,
       "clicks": 0,
       "ctr": 0,
-      "position": 6.2,
+      "position": 6.1,
       "topQueries": [
         {
           "query": "crack jee, neet & upsc with ai: the 2026 study strategy ai d3v day india",
-          "impressions": 218,
+          "impressions": 293,
           "clicks": 0,
           "ctr": 0,
-          "position": 8.8
+          "position": 9.1
         },
         {
           "query": "mains foundation compass for all the subjects.",
@@ -105,6 +105,13 @@
           "clicks": 0,
           "ctr": 0,
           "position": 6.3
+        },
+        {
+          "query": "compass jee",
+          "impressions": 1,
+          "clicks": 0,
+          "ctr": 0,
+          "position": 5
         },
         {
           "query": "examcompass.web.app",
@@ -124,17 +131,17 @@
       "isOpportunity": true
     },
     "https://examcompass.pages.dev/neet/": {
-      "impressions": 24,
+      "impressions": 91,
       "clicks": 0,
       "ctr": 0,
-      "position": 8,
+      "position": 7.9,
       "topQueries": [
         {
           "query": "crack jee, neet & upsc with ai: the 2026 study strategy ai d3v day india",
-          "impressions": 23,
+          "impressions": 90,
           "clicks": 0,
           "ctr": 0,
-          "position": 6
+          "position": 5.7
         },
         {
           "query": "neet 2027 difficulty prediction",
@@ -144,7 +151,7 @@
           "position": 10
         }
       ],
-      "isOpportunity": false
+      "isOpportunity": true
     }
   }
 }

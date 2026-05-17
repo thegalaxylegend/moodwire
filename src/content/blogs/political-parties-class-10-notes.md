@@ -445,7 +445,7 @@ Political Parties (Class 10 Social Science).
 
 - ✅ **What examiners expect:** A clear statement that a one-party system (e.g.
 
-- China) is NOT a democratic option because voters have no real choice. Democracy requires at least two or more parties to compete.
+- China) is NOT a democratic option because voters have no real choice. [Democracy](/blog/outcomes-of-democracy-class-10-notes) requires at least two or more parties to compete.
 
 - 💸 **Marks lost:** 1 or 2 marks.
 
@@ -499,7 +499,7 @@ Class 10, Social Science (Civics), Year 2026 (simulated/predicted based on 2018-
 
  * *Question 1 (MCQ Style - Party Systems):*
  * Q: Which of the following is a feature of a multi-party system?
- * Options: (a) Only two parties compete, (b) Power sharing is difficult, (c) Many parties compete for power, (d) Stability is guaranteed.
+ * Options: (a) Only two parties compete, (b) [Power](/blog/power-sharing-class-10-notes) sharing is difficult, (c) Many parties compete for [power](/blog/power-sharing-class-10-notes), (d) Stability is guaranteed.
  * *Refined for "Ranker" vibe:* Identify the system used in India.
  * *Trap:* Confusing "Multi-party system" with "Coalition government" (they are related but not identical).
 
@@ -720,7 +720,7 @@ Class 10 CBSE (NCERT based).
 
  * *Drafting the content:*
  * *Misconception:* Students think "Dynastic Succession" or "Lack of Internal Democracy" are *functions* or *roles* of a political party because they see them happening in real life. They treat these negative traits as part of the "job description" of a party.
- * *Reality:* Functions are the *positive/essential* roles (Contesting elections, making laws, forming government, shaping public opinion, providing opposition). Challenges are the *structural flaws* (Lack of internal democracy, Dynastic succession, Money/Muscle power, Lack of meaningful choice).
+ * *Reality:* Functions are the *positive/essential* roles (Contesting elections, making laws, forming government, shaping public opinion, providing opposition). Challenges are the *structural flaws* (Lack of internal democracy, Dynastic succession, [Money](/blog/money-and-credit-class-10-notes)/Muscle power, Lack of meaningful choice).
 
  * *Misconception (85%):* Thinking that negative phenomena like "Dynastic Succession" or "Money and Muscle Power" are *functions* of a political party because they are common occurrences.
  * *Reality (99%):* Distinguishing strictly between "What a party *is supposed to do*" (Functions) and "What is *wrong with parties*" (Challenges).

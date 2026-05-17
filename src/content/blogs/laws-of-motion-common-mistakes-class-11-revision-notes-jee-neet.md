@@ -34,7 +34,7 @@ manualReview: false
 ## ✏️ 3 Solved PYQs
 - A block of mass 2 kg is moving with a velocity of 4 m/s on a frictionless surface. A force of 6 N is applied to the block ∈ the direction of [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet). Calculate the acceleration of the block.
   - F = ma, so a = F/m = 6/2 = 3 m/s²
-- A car of mass 1500 kg is moving with a velocity of 60 km/h. The driver applies the brakes and the car comes to rest ∈ 10 s. Calculate the force applied by the brakes.
+- A car of mass 1500 kg is moving with a velocity of 60 km/h. The driver applies the brakes and the car comes to rest ∈ 10 s. Calculate the [force](/blog/force-and-laws-of-motion-class-9-notes) applied by the brakes.
   - v = u + at, so a = (v - u)/t = (0 - 60 × (1000/3600))/10 = -1.67 m/s²
   - F = ma, so F = 1500 × -1.67 = -2505 N
 - A particle of mass 1 kg is attached to a string of length 1 m. The particle is rotating ∈ a circular path with a velocity of 2 m/s. Calculate the tension ∈ the string.

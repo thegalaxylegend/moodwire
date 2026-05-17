@@ -305,7 +305,7 @@ The following table summarizes the key components of computer organization and t
 - The Control Unit manages the flow of [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) and regulates the Fetch-Decode-Execute cycle.
 - The ALU performs arithmetic and logical operations.
 - Von Neumann architecture uses a single bus for [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) and address.
-- The Bus is a communication pathway for data transfer between devices.
+- The Bus is a communication pathway for [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) transfer between devices.
 - Hardwired [Logic](/blog/digital-logic-class-11-revision-notes-gate-boards) involves direct wiring of circuits.
 - The CPU performs Fetch-Decode-Execute cycle and executes instructions.
 

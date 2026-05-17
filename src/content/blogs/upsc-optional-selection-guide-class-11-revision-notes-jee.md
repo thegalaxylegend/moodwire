@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/mathematics/upsc-optional-selection-guide-class-11-revision-notes-jee"
 ---
 
-*Last Updated: May 17, 2026*
+*Last Updated: May 17, [2026](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)*
 
 ## 📑 Table of Contents
 

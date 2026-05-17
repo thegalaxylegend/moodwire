@@ -526,7 +526,7 @@ eq$ Bad System; Slow Speed = High Legitimacy.
 
 - 🔴 **What students write:** Democracy gives equality to all people.
 
-- ✅ **What examiners expect:** Democracy promotes the dignity of individuals by recognizing that even the most marginalized (women, minorities) have equal status/rights.
+- ✅ **What examiners expect:** Democracy promotes the dignity of individuals by recognizing that even the most marginalized (women, minorities) have equal status/[rights](/blog/consumer-rights-class-10-notes).
 
 - 💸 **Marks lost:** 1 mark.
 
@@ -647,7 +647,7 @@ eq$ Bad.
 
 - 🔴 **What students write:** Democracy is good because it gives respect and dignity to everyone.
 
-- ✅ **What examiners expect:** You must be specific. Mention that democracy enhances the dignity of citizens by acknowledging the rights of women, scheduled castes, and minority groups, ensuring they have a voice in the political process.
+- ✅ **What examiners expect:** You must be specific. Mention that democracy enhances the dignity of citizens by acknowledging the rights of women, scheduled castes, and minority groups, ensuring they have a voice in the [political](/blog/political-parties-class-10-notes) process.
 
 - 💸 **Marks lost:** 1 mark
  
@@ -1477,7 +1477,7 @@ No introductions, no filler, no prose paragraphs, bullets only.
  2. ❌ Dictatorship = More efficient decision-making → ✅ Democracy = More legitimate/acceptable decisions.
 
  *Final check on "If you can only remember ONE thing":*
- Democracy's primary success is in its ability to uphold human dignity and provide a legitimate, accountable framework for people to participate in power.
+ Democracy's primary success is in its ability to uphold human dignity and provide a legitimate, accountable framework for people to participate in [power](/blog/power-sharing-class-10-notes).
 
  *Wait, the prompt says "Do not use $ or delimiters." and "DO NOT use LaTeX."*
  *Understood.*

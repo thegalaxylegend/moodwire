@@ -9,6 +9,19 @@ manualReview: false
 ---
 
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="-formula-bank"></a>⚡ Formula Bank](#a-id-formula-banka-formula-bank)
+3. [<a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks](#a-id-the-5-mistakes-that-cost-marksa-the-5-mistakes-that-cost-marks)
+4. [<a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs](#a-id-3-solved-pyqsa-3-solved-pyqs)
+5. [<a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong](#a-id-the-one-thing-most-students-get-wronga-the-one-thing-most-students-get-wrong)
+6. [<a id="-ayushs-note"></a>👁️ Ayush's Note](#a-id-ayushs-notea-ayushs-note)
+7. [<a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box](#a-id-last-5-minutes-boxa-last-5-minutes-box)
+8. [<a id="-practice-mcqs"></a>📝 Practice MCQs](#a-id-practice-mcqsa-practice-mcqs)
+
+---
+
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -30,7 +43,6 @@ manualReview: false
   - [🎯 If you can only remember ONE thing](#-if-you-can-only-remember-one-thing)
 - [📝 Practice MCQs](#-practice-mcqs)
 
-
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
 ### <a id="-formula-bank"></a>⚡ Formula Bank
@@ -44,8 +56,8 @@ However, here are some key points to remember:
  - **Golden Age**: A mythical period of time when people believed that the world was perfect and everyone lived in harmony.
 
 * **Important Dates:**
- - **1857**: The Indian Rebellion against British rule.
- - **1885**: The British government passed the Forest Act.
+ - **1857**: The [Indian](/blog/globalisation-and-the-indian-economy-class-10-notes) Rebellion against British rule.
+ - **1885**: The British government passed the [Forest](/blog/forest-society-and-colonialism-class-9-notes) Act.
 
 * **Key Concepts:**
  - **Forest Acts**: Laws passed by the British government to control and exploit the forest resources.
@@ -62,8 +74,6 @@ There is no formula to apply in this topic. Focus on recalling key terms, dates,
 | Tribals | People living in forests and hills |
 | Dikus | Outsiders or non-tribals |
 | Golden Age | A mythical period of perfect harmony |
-
-
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -132,8 +142,6 @@ There is no formula to apply in this topic. Focus on recalling key terms, dates,
  
 
 - 🔧 **The fix (30-second trick):** Connect colonialism with major changes in tribal life.
-
-
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -204,8 +212,6 @@ Step 3: Recall that this led to the displacement and marginalization of tribals.
 
 ⚡ **Speed trick:** Focus on the consequences of the British forest policy as mentioned in the NCERT textbook.
 
-
-
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 ### <a id="the-one-thing-most-students-get-wrong"></a>The One Thing Most Students Get Wrong
@@ -243,8 +249,6 @@ Step 3: Recall that this led to the displacement and marginalization of tribals.
 - **Impact**: Displacement and changes in traditional tribal life.
 
 By visualizing these points, you'll be able to recall the correct information and avoid common misconceptions.
-
-
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
@@ -288,8 +292,6 @@ By visualizing these points, you'll be able to recall the correct information an
 
 - For example, if the question is about economic reasons, a possible answer could be: "The main reason was the dikus' demand for land and resources that the tribals traditionally used".
 
-
-
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 ### <a id="-core-formulas"></a>⚡ Core Formulas
@@ -324,74 +326,73 @@ By visualizing these points, you'll be able to recall the correct information an
 ### <a id="-if-you-can-only-remember-one-thing"></a>🎯 If you can only remember ONE thing
 The British colonial rule significantly impacted the lives of tribals, leading to widespread displacement, cultural disruption, and economic hardship.
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
-
 **1. What was the main reason for the British to impose the 'land revenue system' on Indian tribals?**
-**A)**  To help tribals become rich farmers
-**B)**  To collect taxes from non-tribal farmers
-**C)**  To make tribals work as laborers
-**D)**  To collect revenue from tribals and non-tribals equally
+**A)**   To help tribals become rich farmers
+**B)**   To collect taxes from non-tribal farmers
+**C)**   To make tribals work as laborers
+**D)**   To collect revenue from tribals and non-tribals equally
 
 **Answer:** D) The British imposed the 'land revenue system' to collect revenue from tribals and non-tribals equally. This system was unfair to tribals as they had traditionally lived in forests and did not understand the concept of private land ownership. Options A, B, and C are incorrect because they do not accurately represent the British motives.
-
-
 
 ---
 
 **2. A tribal group had 2500 kg of rice to sell at the market. If they sold it at a price of ₹20/kg, and had to pay a 12% tax on their earnings, how much money did they have left?**
-**A)**  ₹44,000
-**B)**  ₹40,000
-**C)**  ₹35,200
-**D)**  ₹50,000
+**A)**   ₹44,000
+**B)**   ₹40,000
+**C)**   ₹35,200
+**D)**   ₹50,000
 
 **Answer:** C) The total earnings from selling rice = 2500 kg × ₹20/kg = ₹50,000. The tax paid = 12% of ₹50,000 = 0.12 × ₹50,000 = ₹6000. So, the money left = ₹50,000 - ₹6000 = ₹44,000. However, ₹44,000 is not an option; the closest correct calculation yields ₹44,000, making C (₹35,200) an apparently wrong choice; actually  ₹50,000 - 15% or misc calc of 44000 was expected; A is right numerically.
-
-
 
 ---
 
 **3. The 'Dikus' were:**
-**A)**  Tribal leaders
-**B)**  Non-tribal outsiders
-**C)**  British officers
-**D)**  Tribal gods
+**A)**   Tribal leaders
+**B)**   Non-tribal outsiders
+**C)**   British officers
+**D)**   Tribal gods
 
 **Answer:** B) The 'Dikus' refers to non-tribal outsiders, such as moneylenders, traders, and government officials, who were seen as exploiters by the tribals. Options A, C, and D are incorrect because they do not accurately describe the term 'Dikus'.
-
-
 
 ---
 
 **4. What was the 'Golden Age' vision of the tribals?**
-**A)**  A time of great poverty and hardship
-**B)**  A time of British rule and exploitation
-**C)**  A time of freedom and equality
-**D)**  A time of great wealth and power
+**A)**   A time of great poverty and hardship
+**B)**   A time of British rule and exploitation
+**C)**   A time of freedom and equality
+**D)**   A time of great wealth and power
 
 **Answer:** C) The 'Golden Age' vision of the tribals was a time of freedom and equality, where they could live in harmony with nature and be free from the exploitation of outsiders. Options A, B, and D are incorrect because they do not accurately represent the tribal vision.
-
-
 
 ---
 
 **5. If 30% of a tribal community's land was taken over by the government, and they had 5000 hectares of land initially, how many hectares of land were taken over?**
-**A)**  1000 hectares
-**B)**  1500 hectares
-**C)**  2000 hectares
-**D)**  2500 hectares
+**A)**   1000 hectares
+**B)**   1500 hectares
+**C)**   2000 hectares
+**D)**   2500 hectares
 
 **Answer:** B) The land taken over = 30% of 5000 hectares = 0.30 × 5000 = 1500 hectares. Options A, C, and D are incorrect because they do not accurately represent the calculation.
-
-
-
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-8/social-science/tribals-dikus-and-the-vision-of-a-golden-age) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Tribals%2C%20Dikus%20and%20the%20Vision%20of%20a%20Golden%20Age%20Class%208%20Social%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Consumer Rights Class 10 Social Science Recap — Grandmaster Guide](/blog/consumer-rights-class-10-notes)
+- 📖 [Forest and Wildlife Resources Class 10 Social Science Recap — Grandmaster Guide](/blog/forest-and-wildlife-resources-class-10-notes)
+- 📖 [Forest Society and Colonialism Class 9 Social Science Recap — Grandmaster Guide](/blog/forest-society-and-colonialism-class-9-notes)
+- 📖 [Gender, Religion and Caste Class 10 Social Science Recap — Grandmaster Guide](/blog/gender-religion-and-caste-class-10-notes)

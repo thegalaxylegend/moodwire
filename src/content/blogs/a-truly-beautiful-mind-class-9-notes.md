@@ -9,6 +9,19 @@ manualReview: false
 ---
 
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="-formula-bank"></a>⚡ Formula Bank](#a-id-formula-banka-formula-bank)
+3. [<a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks](#a-id-the-5-mistakes-that-cost-marksa-the-5-mistakes-that-cost-marks)
+4. [<a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs](#a-id-3-solved-pyqsa-3-solved-pyqs)
+5. [<a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong](#a-id-the-one-thing-most-students-get-wronga-the-one-thing-most-students-get-wrong)
+6. [<a id="-ayushs-note"></a>👁️ Ayush's Note](#a-id-ayushs-notea-ayushs-note)
+7. [<a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box](#a-id-last-5-minutes-boxa-last-5-minutes-box)
+8. [<a id="-practice-mcqs"></a>📝 Practice MCQs](#a-id-practice-mcqsa-practice-mcqs)
+
+---
+
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -33,7 +46,6 @@ manualReview: false
   - [🚫 Never Forget](#-never-forget)
   - [🎯 If you can only remember ONE thing](#-if-you-can-only-remember-one-thing)
 - [📝 Practice MCQs](#-practice-mcqs)
-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
@@ -79,8 +91,6 @@ Examiner's Trap: Watch out for questions linking themes to specific events or ch
 | Identifying literary devices | Imagery, Metaphor, Simile, Alliteration, Personification |
 | Understanding story meaning | Themes, Symbolism |
 
-
-
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 ### <a id="the-5-mistakes-that-cost-marks"></a>The 5 Mistakes That Cost Marks
@@ -111,7 +121,7 @@ Examiner's Trap: Watch out for questions linking themes to specific events or ch
 - 💸 **Marks lost:** 1 mark
  
 
-- 🔧 **The fix (30-second trick):** Use "a" before a consonant sound, "an" before a vowel sound, and "the" for specific references.
+- 🔧 **The fix (30-second trick):** Use "a" before a consonant sound, "a" before a vowel sound, and "the" for specific references.
 
 - **Mistake 3 — Misuse of Prepositions:**
  
@@ -119,7 +129,7 @@ Examiner's Trap: Watch out for questions linking themes to specific events or ch
 - 🔴 **What students write:** "He was good at mathematics and physics."
  
 
-- ✅ **What examiners expect:** "He was good at mathematics and good at physics" or "He was good in mathematics and physics" 
+- ✅ **What examiners expect:** "He was good at mathematics and good at physics" or "He was good at mathematics and physics" 
  
 
 - 💸 **Marks lost:** 2 marks
@@ -155,8 +165,6 @@ Examiner's Trap: Watch out for questions linking themes to specific events or ch
 
 - 🔧 **The fix (30-second trick):** Use linking words and phrases to connect ideas; practice rearranging sentences for better flow.
 
-
-
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 ### <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
@@ -171,7 +179,7 @@ What does the author, Roger Penrose, mean by 'a truly beautiful mind'?
  Step 2: Identify the main idea associated with 'a truly beautiful mind'.
  **Final Answer:** A truly beautiful mind refers to a person with exceptional qualities, not just intelligence, but also kindness, compassion, and a positive impact on others.
 
-⚡ **Speed trick:** Focus on the key words 'beautiful mind' and recall the main theme of the chapter to answer in 30 seconds.
+⚡ **Speed trick:** Focus on the keywords 'beautiful mind' and recall the main theme of the chapter to answer in 30 seconds.
 
 ---
 **Q2 (2019 CBSE):** 
@@ -198,8 +206,6 @@ What was the significant contribution of Srinivasa Ramanujan to mathematics?
  **Final Answer:** Srinivasa Ramanujan made significant contributions to number theory, elliptic curves, and infinite series.
 
 ⚡ **Speed trick:** Focus on Ramanujan's mathematical achievements to answer in 40 seconds.
-
-
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
@@ -256,8 +262,6 @@ If you answered A) To test recall of scientific facts: you have the misconceptio
 
 - **Practice:** Practice previous years' questions to get familiar with the exam pattern.
 
-
-
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 ### <a id="-ayushs-note"></a>👁️ Ayush's Note
@@ -278,8 +282,6 @@ If you answered A) To test recall of scientific facts: you have the misconceptio
 - 2023: Questions on the significance of Hardy’s role in recognizing Ramanujan’s talent and facilitating his growth as a mathematician.
 
 - **⚡ The 30-Second Shortcut:** For questions asking about the main theme or message of the chapter, quickly recall that the story revolves around the life of Srinivasa Ramanujan, focusing on his mathematical genius, his journey, and the impact of his work. This can help in eliminating incorrect options and making an educated guess within 30 seconds.
-
-
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -304,74 +306,73 @@ If you answered A) To test recall of scientific facts: you have the misconceptio
 ### <a id="-if-you-can-only-remember-one-thing"></a>🎯 If you can only remember ONE thing
 Kalam's life is a true inspiration, showcasing that with hard work and determination, one can achieve great heights.
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
-
 **1. What was the name of the scientist who helped Ramanujan to get his work recognized?**
-**A)**  Raman
-**B)**  Srinivas Ramanujan
-**C)**  Hardy
-**D)**  Euler
+**A)**   Raman
+**B)**   Srinivas Ramanujan
+**C)**   Hardy
+**D)**   Euler
 
 **Answer:** C) The correct answer is C, Hardy. C.V. Raman was an Indian physicist, Srinivas Ramanujan was the mathematician himself, and Euler was a Swiss mathematician. Hardy was the scientist who helped Ramanujan to get his work recognized.
-
-
 
 ---
 
 **2. At what age did Srinivas Ramanujan die?**
-**A)**  30 years
-**B)**  32 years
-**C)**  35 years
-**D)**  40 years
+**A)**   30 years
+**B)**   32 years
+**C)**   35 years
+**D)**   40 years
 
 **Answer:** B) The correct answer is B, 32 years. Srinivas Ramanujan died at the age of 32. The other options are incorrect ages.
-
-
 
 ---
 
 **3. What was the name of the college that Ramanujan attended?**
-**A)**  Kumbakonam College
-**B)**  Madras College
-**C)**  Trichy College
-**D)**  Tanjore College
+**A)**   Kumbakonam College
+**B)**   Madras College
+**C)**   Trichy College
+**D)**   Tanjore College
 
 **Answer:** A) The correct answer is A, Kumbakonam College. Ramanujan attended Kumbakonam College. The other options are incorrect college names.
-
-
 
 ---
 
 **4. How many years did it take for Ramanujan's work to get recognition?**
-**A)**  5 years
-**B)**  10 years
-**C)**  12 years
-**D)**  15 years
+**A)**   5 years
+**B)**   10 years
+**C)**   12 years
+**D)**   15 years
 
 **Answer:** C) The correct answer is C, 12 years. It took 12 years for Ramanujan's work to get recognition. The other options are incorrect time periods.
-
-
 
 ---
 
 **5. If a + b = 10 and a - b = 2, what is the value of a² + b²?**
-**A)**  20
-**B)**  40
-**C)**  50
-**D)**  60
+**A)**   20
+**B)**   40
+**C)**   50
+**D)**   60
 
-**Answer:** B) The correct answer is B, 40. Using the given equations, we can solve for a and b: a = 6, b = 4. Then, a² + b² = 6² + 4² = 36 + 16 = 52, however this option isn't available; a better approach would be (a + b)² + (a - b)² = 2(a² + b²) => 10² + 2² = 2(a² + b²) => 104 = 2(a² + b²) => a² + b² = 52; closest or rather an option could be reevaluated; actually  a² + b² = (10)² - 2ab and a² + b² = (2)² + 2ab; adding we get 2(a² + b²) = 100 + 4 = 104; a² + b² = 52.
-
-
-
+**Answer:** B) The correct answer is B, 40. Using the given equations, we can solve for a and b: a = 6, b = 4. Then, a² + b² = 6² + 4² = 36 + 16 = 52, however this option isn't available; a better approach would be (a + b)² + (a - b)² = 2(a² + b²) => 10² + 2² = 2(a² + b²) => 104 = 2(a² + b²) => a² + b² = 52; closest or rather an option could be reevaluated; actually a² + b² = (10)² - 2ab and a² + b² = (2)² + 2ab; adding we get 2(a² + b²) = 100 + 4 = 104; a² + b² = 52.
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-9/english/a-truly-beautiful-mind) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=A%20Truly%20Beautiful%20Mind%20Class%209%20English%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [A Letter to God Class 10 English Recap — Grandmaster Guide](/blog/a-letter-to-god-class-10-notes)
+- 📖 [Active and Passive Voice Class 10 English Recap — Grandmaster Guide](/blog/active-and-passive-voice-class-10-notes)
+- 📖 [Amanda! Class 10 English Recap — Grandmaster Guide](/blog/amanda-class-10-notes)
+- 📖 [Dust of Snow Class 10 English Recap — Grandmaster Guide](/blog/dust-of-snow-class-10-notes)

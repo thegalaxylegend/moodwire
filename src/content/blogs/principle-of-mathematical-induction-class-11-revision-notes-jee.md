@@ -178,7 +178,7 @@ For strong induction, consider proving that every positive integer $n$ can be re
 2. **Inductive Hypothesis**: Assume every integer $1 leq m leq k$ can be represented as a $\sum of distinct powers of2$.
 3. **Inductive Step**: For $n=k+1$, if $k+1$ is a power of $2$, it's already a $\sum of distinct powers of2$. Otherwise, find the largest power of $2$ less than $k+1$, say $2^p$. By the inductive hypothesis, $k+1 - 2^p$ can be represented as a $\sum of distinct powers of2$. Thus, $k+1$ can also be represented as such a sum.
 
-Understanding the distinction between weak and strong induction is crucial for tackling problems and mathematical induction. While weak induction is simpler and sufficient for many basic proofs, strong induction provides a more powerful tool for handling complex sequences and series, especially when the relationship between successive terms is not straightforward.
+Understanding the distinction between weak and strong induction is crucial for tackling problems and [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) induction. While weak induction is simpler and sufficient for many basic proofs, strong induction provides a more powerful tool for handling complex sequences and series, especially when the relationship between successive terms is not straightforward.
 
 The choice between weak and strong induction depends on the nature of the problem and the relationship being proven. In general, if the statement to be proven depends only on the immediately preceding case, weak induction is sufficient. However, if the statement depends on all previous cases, strong induction is the appropriate method.
 

@@ -1227,7 +1227,7 @@ JEE Advanced & NEET Grandmaster.
 
 - **Therefore:** **NO LATEX. Use Unicode.**
 
- * Topic: Physics Heat (Thermodynamics/Thermal Properties) and Light (Optics 
+ * Topic: [Physics](/blog/physics-mechanics-class-11-revision-notes-jee-neet) Heat (Thermodynamics/Thermal Properties) and Light (Optics 
 
 - though Class 11 usually covers Ray Optics, and Waves).
 

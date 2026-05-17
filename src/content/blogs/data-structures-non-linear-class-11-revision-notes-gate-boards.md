@@ -263,7 +263,7 @@ B. Fast search and insertion
 C. Good for dynamic memory allocation
 D. Handles large datasets efficiently
 
-**Answer:** B) The primary advantage of using a Trie data structure is its fast search and insertion operations, making it suitable for applications that require efficient retrieval and storage of strings.
+**Answer:** B) The primary advantage of using a Trie [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structure is its fast search and insertion operations, making it suitable for applications that require efficient retrieval and storage of strings.
 
 **2. Which of the following graph traversal [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) is used to traverse a graph level y level?**
 A. Breadth-First Search (BFS)
