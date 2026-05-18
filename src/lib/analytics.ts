@@ -1,7 +1,5 @@
 import { getAnalytics, logEvent as firebaseLogEvent, setUserProperties as firebaseSetUserProperties } from "firebase/analytics";
 import { app } from "./firebase";
-import { datadogRum } from '@datadog/browser-rum';
-import { datadogLogs } from '@datadog/browser-logs';
 
 // Initialize Firebase Analytics
 const firebaseAnalytics = typeof window !== 'undefined' ? getAnalytics(app) : null;
@@ -18,38 +16,16 @@ export const initAnalytics = () => {
         console.log("[Analytics] Ready via index.html script");
     }
 
-    // Datadog RUM Initialization
+    // ⚠️ Datadog RUM DISABLED — expired client token was causing 403 errors on
+    // every page load, blocking the main thread and triggering Thermal Safety Mode.
+    // Re-enable by uncommenting the block below after renewing the Datadog token.
+    /*
     const ddAppId = import.meta.env.VITE_DATADOG_APPLICATION_ID;
     const ddClientToken = import.meta.env.VITE_DATADOG_CLIENT_TOKEN;
-
-    if (ddAppId && ddClientToken && ddAppId !== 'your-datadog-app-id' && !(datadogRum as any).getInitConfiguration?.()) {
-        datadogRum.init({
-            applicationId: ddAppId,
-            clientToken: ddClientToken,
-            site: import.meta.env.VITE_DATADOG_SITE || 'datadoghq.com',
-            service: import.meta.env.VITE_DATADOG_SERVICE || 'exam-compass',
-            env: import.meta.env.VITE_DATADOG_ENV || 'development',
-            sessionSampleRate: 100,
-            sessionReplaySampleRate: 20,
-            trackUserInteractions: true,
-            trackResources: true,
-            trackLongTasks: true,
-            defaultPrivacyLevel: 'mask-user-input',
-        });
-
-        if (!(datadogLogs as any).getInitConfiguration?.()) {
-            datadogLogs.init({
-                clientToken: ddClientToken,
-                site: import.meta.env.VITE_DATADOG_SITE || 'datadoghq.com',
-                forwardErrorsToLogs: true,
-                sessionSampleRate: 100,
-            });
-        }
-
-        console.log("[Analytics] Datadog RUM & Logs initialized");
-    } else {
-        console.log("[Analytics] Datadog credentials missing. Skipping initialization.");
+    if (ddAppId && ddClientToken && ddAppId !== 'your-datadog-app-id') {
+        // ... Datadog init ...
     }
+    */
 };
 
 // Log page view
@@ -94,12 +70,6 @@ export const logEvent = (name: string, params?: Record<string, any>) => {
         firebaseLogEvent(firebaseAnalytics, name, params);
     }
 
-    // Datadog
-    try {
-        datadogRum.addAction(name, params);
-    } catch (e) {
-        // Datadog might not be initialized
-    }
 };
 
 // Set user properties
@@ -191,17 +161,6 @@ export const trackGlitch = (error: string | Error, component?: string) => {
         url: typeof window !== 'undefined' ? window.location.href : '',
         timestamp: new Date().toISOString()
     });
-
-    // Datadog Logs
-    try {
-        datadogLogs.logger.error(errorMsg, {
-            component_name: component,
-            stack: stack,
-            url: typeof window !== 'undefined' ? window.location.href : ''
-        });
-    } catch (e) {
-        // Datadog might not be initialized
-    }
 
     console.error(`[Analytics] 🆘 Error caught in ${component || 'unknown'}:`, errorMsg);
 };

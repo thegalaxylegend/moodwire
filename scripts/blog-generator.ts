@@ -438,25 +438,44 @@ const EVOLVED_TEMPERATURE: number = (evolvedPromptData as EvolvedPromptData | nu
  * while allowing maximum depth for Entrance Prep (Class 11-12).
  */
 function getAcademicIdentity(numericClass: number, subject: string): string {
-    const baseStyle = usingEvolvedPrompt ? evolvedPromptData!.evolvedPrompt : GRANDMASTER_IDENTITY_DEFAULT;
+    const isHumanities = ['English', 'Social Science', 'History', 'Geography', 'Civics', 'Economics', 'Political Science'].includes(subject);
+    
+    const humanitiesBase = `You are a strict, top 1% CBSE Board Exam Topper creating a "Last-Night Revision Format" study guide.
+Your sole purpose is to provide exactly what a student needs to read 12 hours before their exam to maximize their score.
+Target Length: Aim for a comprehensive 1500 to 2000 words. Do not give thin content.
+Voice: Specific, analytical, authentic student tone. NO FILLER. No fluff. No introductions.
+
+Format Rule: A student reads this once, closes the tab, and walks into the exam confident.
+DO NOT use phrases like "In conclusion", "delve into", "comprehensive", "embark on your journey".`;
+
+    const baseStyle = usingEvolvedPrompt ? evolvedPromptData!.evolvedPrompt : (isHumanities ? humanitiesBase : GRANDMASTER_IDENTITY_DEFAULT);
     
     let boundaryRule = "";
     if (numericClass <= 10) {
         boundaryRule = `
 STRICT ACADEMIC BOUNDARY (CLASS ${numericClass}): 
 - You are a CBSE Board Exam Specialist. 
-- You MUST stay 100% within the NCERT/CBSE School Syllabus. 
-- DO NOT include JEE Advanced, NEET, or College-level theorems (like Cardano's, Descartes' Rule, or complex Calculus). 
+- You MUST stay 100% within the NCERT/CBSE Class ${numericClass} Syllabus. 
+- DO NOT include JEE Advanced, NEET, or higher-level concepts. 
 - If a student reads this, they should feel it is perfectly aligned with their school textbook.`;
     } else {
         boundaryRule = `
 STRICT ACADEMIC DEPTH (CLASS ${numericClass}): 
-- You are a JEE Advanced & NEET Grandmaster. 
-- You ARE ALLOWED and encouraged to use any advanced shortcut, theorem, or high-level concept that helps with JEE Advanced or NEET exams. 
-- Provide maximum mathematical/scientific depth while maintaining board-level clarity.`;
+- You are a ${isHumanities ? 'CBSE Humanities Topper' : 'JEE Advanced & NEET Grandmaster'}. 
+- Provide maximum ${isHumanities ? 'analytical/literary' : 'mathematical/scientific'} depth while maintaining clarity.`;
     }
 
-    return `${baseStyle}\n${boundaryRule}\n\n${CROSS_SECTION_RULES_DEFAULT}`;
+    const crossSectionRules = isHumanities ? `
+RULES FOR THE LAST-NIGHT REVISION FORMAT:
+1. NO INTRODUCTIONS. Start directly with high-yield exam insights.
+2. FORMAT RULES: No LaTeX, no mathematical equations.
+3. BULLET POINTS OVER PARAGRAPHS: NEVER WRITE WALLS OF TEXT. Use bullet points (- ) for 80% of your content.
+4. NO HTML TAGS: Use pure markdown.
+5. NO JSON SQUASHING: Output raw, clean Github-Flavored Markdown.
+6. TABLES AND STRUCTURE: Use strict Github-Flavored Markdown tables with pipes (|).
+7. AUTHENTIC TONE: Use bolding (**concept**) for emphasis, but keep it readable.` : CROSS_SECTION_RULES_DEFAULT;
+
+    return `${baseStyle}\n${boundaryRule}\n\n${crossSectionRules}`;
 }
 
 // Get subject-specific targets from evolved data
@@ -647,6 +666,20 @@ export async function callLlmWithFallback(system: string, user: string, isJson: 
 
 async function generateOutline(item: any, targetYear: number, researchContext: string): Promise<string[]> {
     console.log(`📑 Jules: Using fixed Last-Night Revision Format for ${item.topic}...`);
+    
+    const isHumanities = ['English', 'Social Science', 'History', 'Geography', 'Civics', 'Economics', 'Political Science'].includes(item.subject);
+
+    if (isHumanities) {
+        return [
+            "⚡ Key Concepts & Timeline",
+            "🪤 The 5 Mistakes That Cost Marks",
+            "✏️ 3 Solved PYQs",
+            "🧠 The One Thing Most Students Get Wrong",
+            "👁️ Ayush's Note",
+            "🔁 Last 5 Minutes Box"
+        ];
+    }
+
     // Research context can be used here to dynamically adjust the outline if needed,
     // but for now we stick to the proven high-conversion layout.
     return [
@@ -670,7 +703,11 @@ async function generateSection(item: any, heading: string, displayClass: string,
     const ctxBlock = researchContext ? `\n\n---\n📚 VERIFIED EXAM DATA (USE AS PRIMARY SOURCE):\n${researchContext}\n---\n` : "";
     
     // ── Per-heading prompt blueprints ────────────────────────────────────
-    const LATEX_RULE = `MATH & SYMBOL RULES (ZERO TOLERANCE):
+    const isHumanities = ['English', 'Social Science', 'History', 'Geography', 'Civics', 'Economics', 'Political Science'].includes(item.subject);
+
+    const LATEX_RULE = isHumanities ? `FORMAT RULES (ZERO TOLERANCE):
+- 🚨 Output raw, clean Github-Flavored Markdown.
+- Ensure consistent formatting across all content and generated questions.` : `MATH & SYMBOL RULES (ZERO TOLERANCE):
 - 🚨 DO NOT use LaTeX. Use raw Unicode symbols for math and Greek letters.
 - ❌ WRONG: \\alpha, \\beta, \\sum, \\frac{a}{b}, $x^2$, $T_{initial}$
 - ✅ RIGHT: α, β, Σ, a/b, x², T_initial
@@ -692,6 +729,19 @@ DELIVER:
 
 ${LATEX_RULE}
 MINIMUM: 20 distinct formulas. AIM FOR 30+.`;
+
+    } else if (heading.includes("Key Concepts")) {
+        specificDirective = `You are producing the "KEY CONCEPTS & TIMELINE" section for ${item.topic} (${displayClass} ${item.subject}, ${targetYear} exam).
+This is the single most important summary section.
+
+DELIVER:
+- The absolute core events, themes, rules, or literary devices for this chapter.
+- Group by sub-topic with a bold sub-heading.
+- Use bullet points for readability.
+- Add a 1-line "Examiner's Trap" note after each major theme.
+
+${LATEX_RULE}
+AIM FOR 400+ words of high-density facts.`;
 
     } else if (heading.includes("Mistakes")) {
         specificDirective = `You are producing the "5 MISTAKES THAT COST MARKS" section for ${item.topic}.
@@ -869,6 +919,17 @@ export async function generateExtras(item: any, researchContext: string): Promis
     const system = getAcademicIdentity(numericClass, item.subject);
     const ctxBlock = researchContext ? `\n\n---\nREAL PYQ DATA (USE AS QUESTION SOURCE):\n${researchContext}\n---\n` : '';
 
+    const isHumanities = ['English', 'Social Science', 'History', 'Geography', 'Civics', 'Economics', 'Political Science', 'Biology'].includes(item.subject);
+
+    const mcqRequirements = isHumanities ? 
+`- Mix difficulty: 2 easy, 2 medium (application/inference), 1 hard (multi-step/assertion-reason)
+- The "answer_text" must explain WHY the other 3 options are wrong (not just state the right answer)
+- Output raw text without LaTeX.` : 
+`- Mix difficulty: 2 easy (direct formula), 2 medium (application), 1 hard (multi-step)
+- At least 2 MCQs must use numbers / calculations with Unicode math symbols
+- The "answer_text" must explain WHY the other 3 options are wrong (not just state the right answer)
+- DO NOT use LaTeX formatting or backslashes. Use Unicode for all formulas (e.g. α, β, Σ, x²).`;
+
     const user = `${ctxBlock}
 ═══════════════════════════════════════════════════════════
 📌 TASK: Generate MCQs + Quick Recall for "${item.topic}"
@@ -877,10 +938,7 @@ export async function generateExtras(item: any, researchContext: string): Promis
 
 PART A — 5 HIGH-YIELD MCQs
 Each MCQ must be genuinely exam-level (not trivial). Requirements:
-- Mix difficulty: 2 easy (direct formula), 2 medium (application), 1 hard (multi-step)
-- At least 2 MCQs must use numbers / calculations with Unicode math symbols
-- The "answer_text" must explain WHY the other 3 options are wrong (not just state the right answer)
-- DO NOT use LaTeX formatting or backslashes. Use Unicode for all formulas (e.g. α, β, Σ, x²).
+${mcqRequirements}
 
 PART B — GRANDMASTER CONCEPTUAL SUMMARY (quick_recall)
 - Exactly 8 declarative statements — the chapter's 8 core truths
@@ -909,8 +967,7 @@ RULES: "options" must be a JSON array of exactly 4 plain strings (NO "A)" prefix
        All string values must be plain text or LaTeX — NO nested objects.
 
 🚨 CRITICAL JSON SAFETY RULE:
-   DO NOT use LaTeX formatting or backslashes (\). Use raw Unicode symbols instead (e.g. α, β, Σ, a/b, x²).
-   Backslashes cause JSON parse errors. This is non-negotiable.
+   ${isHumanities ? 'Use standard text characters. Do not use unescaped backslashes.' : 'DO NOT use LaTeX formatting or backslashes (\\). Use raw Unicode symbols instead (e.g. α, β, Σ, a/b, x²).\n   Backslashes cause JSON parse errors. This is non-negotiable.'}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`;
     
     const raw = await callLlmWithFallback(system, user, true);

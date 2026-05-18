@@ -11,37 +11,41 @@ export type AIProvider = 'groq' | 'openai' | 'gemini' | 'auto';
 /**
  * 🧠 Refined Academic Complexity Detection.
  * Maps input text to Task Tiers T1-T5.
+ * T1 = Expert (hardest models), T5 = Trivial (cheapest models)
  */
 function detectTier(text: string, hasImage: boolean, context: string = ''): TaskTier {
-    if (hasImage) return 'T4'; // Vision usually requires reasoning
+    if (hasImage) return 'T2'; // Vision requires decent models for accuracy
     
     const lowText = (text + ' ' + context).toLowerCase();
     
-    // T5: Expert / Advanced STEM
+    // T1: Expert / Advanced STEM — needs the best models
     const expertKeywords = [
         'derive', 'proof', 'advanced', 'jee advanced', 'organic mechanism', 
-        'schrodinger', 'calculus', 'integration by parts', 'maxwell'
+        'schrodinger', 'calculus', 'integration by parts', 'maxwell',
+        'thermodynamic potential', 'lagrangian', 'eigenvalue', 'wave function',
+        'rotational mechanics', 'electromagnetic induction'
     ];
     if (expertKeywords.some(k => lowText.includes(k))) return 'T1';
 
-    // T4: Complex / High-school STEM
+    // T2: Complex / High-school STEM — good models needed
     const complexKeywords = [
         'calculate', 'solve', 'physics', 'chemistry', 'mathematics',
-        '\\frac', '\\sqrt', '\\sum', '\\int', '$', 'formula', 'stoichiometry'
+        '\\frac', '\\sqrt', '\\sum', '\\int', '$', 'formula', 'stoichiometry',
+        'jee main', 'neet', 'equilibrium', 'kinetics', 'electrostatics'
     ];
     const numCount = (text.match(/\d/g) || []).length;
     if (complexKeywords.some(k => lowText.includes(k)) || numCount > 15) return 'T2';
 
-    // T1: Trivial (Check for intent)
+    // T5: Trivial (greetings, one-word responses)
     if (text.length < 30 && !lowText.includes('?')) {
         const trivialKeywords = ['hi', 'hello', 'thanks', 'bye', 'ok', 'cool'];
         if (trivialKeywords.some(k => lowText.includes(k))) return 'T5';
     }
 
-    // T2: Simple (Factual)
+    // T4: Simple factual (short queries without math)
     if (text.length < 100 && !complexKeywords.some(k => lowText.includes(k))) return 'T4';
 
-    // Default: T3 (Moderate Academic)
+    // Default: T3 (Moderate Academic — chatbot / doubt solving)
     return 'T3';
 }
 

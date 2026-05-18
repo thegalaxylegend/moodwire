@@ -12,6 +12,8 @@ const getEnvKeys = () => {
         env.VITE_GROQ_API_KEY_4,
         env.VITE_GROQ_API_KEY_5,
         env.VITE_GROQ_API_KEY_6,
+        env.VITE_GROQ_API_KEY_7,
+        env.VITE_GROQ_API_KEY_8,
     ].filter(Boolean) as string[];
 };
 
@@ -53,7 +55,7 @@ export async function callGroq(
             const response = await fetch('/api/ai', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ messages, tier: 'T4', options: { ...options, provider: 'groq' } })
+                body: JSON.stringify({ messages, tier: options.tier || 'T3', options: { ...options, provider: 'groq' } })
             });
             if (!response.ok) {
                 let errText = response.statusText;

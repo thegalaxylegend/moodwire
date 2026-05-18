@@ -21,7 +21,13 @@ export const mockPrefetchService = {
      */
     prefetchQuickTest: async (_uid: string, targetExam: string, currentAbility: number, userClass: string) => {
         try {
-            // 1. Check if we already have a fresh prefetch
+            // ⛔ GUARD: Never pre-warm while user is actively generating questions.
+            // This prevents background prefetch from competing with foreground test generation.
+            if (typeof window !== 'undefined' && (window as any).__examCompassGenerating) {
+                console.log('[Prefetch] Skipping — user is actively generating. Will retry later.');
+                return;
+            }
+
             const cached = localStorage.getItem(PREFETCH_CACHE_KEY);
             if (cached) {
                 const data: PrefetchedTest = JSON.parse(cached);

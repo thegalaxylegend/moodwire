@@ -5,8 +5,36 @@
             "queryScope": "COLLECTION",
             "fields": [
                 { "fieldPath": "exam", "order": "ASCENDING" },
+                { "fieldPath": "topic_id", "order": "ASCENDING" },
+                { "fieldPath": "difficulty_score", "order": "ASCENDING" }
+            ]
+        },
+        {
+            "collectionGroup": "engine_questions",
+            "queryScope": "COLLECTION",
+            "fields": [
+                { "fieldPath": "exam", "order": "ASCENDING" },
+                { "fieldPath": "topic_id", "order": "ASCENDING" },
+                { "fieldPath": "difficulty_score", "order": "ASCENDING" },
+                { "fieldPath": "confidence", "order": "ASCENDING" }
+            ]
+        },
+        {
+            "collectionGroup": "engine_questions",
+            "queryScope": "COLLECTION",
+            "fields": [
                 { "fieldPath": "topic", "order": "ASCENDING" },
-                { "fieldPath": "difficulty", "order": "ASCENDING" },
+                { "fieldPath": "exam", "order": "ASCENDING" },
+                { "fieldPath": "usage_count", "order": "ASCENDING" }
+            ]
+        },
+        {
+            "collectionGroup": "engine_questions",
+            "queryScope": "COLLECTION",
+            "fields": [
+                { "fieldPath": "exam", "order": "ASCENDING" },
+                { "fieldPath": "topic", "order": "ASCENDING" },
+                { "fieldPath": "difficulty_score", "order": "ASCENDING" },
                 { "fieldPath": "usage_count", "order": "ASCENDING" }
             ]
         },
@@ -16,25 +44,7 @@
             "fields": [
                 { "fieldPath": "exam", "order": "ASCENDING" },
                 { "fieldPath": "subject", "order": "ASCENDING" },
-                { "fieldPath": "difficulty", "order": "ASCENDING" },
-                { "fieldPath": "usage_count", "order": "ASCENDING" }
-            ]
-        },
-        {
-            "collectionGroup": "engine_questions",
-            "queryScope": "COLLECTION",
-            "fields": [
-                { "fieldPath": "exam", "order": "ASCENDING" },
-                { "fieldPath": "topic", "order": "ASCENDING" },
-                { "fieldPath": "usage_count", "order": "ASCENDING" }
-            ]
-        },
-        {
-            "collectionGroup": "engine_questions",
-            "queryScope": "COLLECTION",
-            "fields": [
-                { "fieldPath": "exam", "order": "ASCENDING" },
-                { "fieldPath": "subject", "order": "ASCENDING" },
+                { "fieldPath": "difficulty_score", "order": "ASCENDING" },
                 { "fieldPath": "usage_count", "order": "ASCENDING" }
             ]
         },
@@ -52,6 +62,15 @@
             "fields": [
                 { "fieldPath": "user_id", "order": "ASCENDING" },
                 { "fieldPath": "topic", "order": "ASCENDING" }
+            ]
+        },
+        {
+            "collectionGroup": "user_topic_stats",
+            "queryScope": "COLLECTION",
+            "fields": [
+                { "fieldPath": "user_id", "order": "ASCENDING" },
+                { "fieldPath": "exam", "order": "ASCENDING" },
+                { "fieldPath": "weakness_score", "order": "DESCENDING" }
             ]
         },
         {

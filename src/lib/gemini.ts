@@ -33,6 +33,7 @@ export interface GeminiCallOptions {
     jsonMode?: boolean;
     stream?: boolean;
     keyIndex?: number;
+    tier?: string;
 }
 
 export async function callGemini(
@@ -40,7 +41,7 @@ export async function callGemini(
     options: GeminiCallOptions = {}
 ): Promise<any> {
     const {
-        model = 'gemini-2.0-flash',
+        model = 'gemini-2.5-flash',
         temperature = 0.1,
         maxOutputTokens = 8192,
         jsonMode = false,
@@ -70,7 +71,7 @@ export async function callGemini(
         const response = await fetch('/api/ai', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ messages, tier: 'T4', options: { ...options, provider: 'gemini' } })
+            body: JSON.stringify({ messages, tier: options.tier || 'T3', options: { ...options, provider: 'gemini' } })
         });
         if (!response.ok) {
             let errText = response.statusText;

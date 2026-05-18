@@ -466,9 +466,9 @@ RETURN JSON:
   "exam": "${exam}",
   "subject": "${subject}",
   "topic": "${topic}",
-  "difficulty_score": ${abilityLevel},
   "type": "MCQ",
   "question": "...",
+  "hidden_derivation": "CRITICAL: Write your complete step-by-step mathematical derivation here FIRST, before determining the answer.",
   "options": ["A", "B", "C", "D"],
   "correct_answer": "...",
   "explanation": "...",
@@ -488,22 +488,28 @@ RETURN JSON:
 
     // Retry loop: up to 3 retries if validation rejects
     const MAX_GEN_RETRIES = 3;
+    // Signal that active generation is in progress (blocks pre-warmer)
+    if (typeof window !== 'undefined') (window as any).__examCompassGenerating = true;
+    try {
     for (let attempt = 0; attempt <= MAX_GEN_RETRIES; attempt++) {
+
         try {
             const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(subject) || ['foundation', 'school exams'].includes(exam.toLowerCase());
             const persona = isJunior 
                 ? `Senior Secondary School Teacher with expertise in NCERT and Olympiads. You specialize in making complex concepts simple for middle and high school students.`
                 : `Senior ${subject} Professor with 20 years of JEE/NEET paper-setting experience. You specialize in high-level competitive exam questions.`;
 
+            const generationTier = abilityLevel >= 1500 ? 'T1' : 'T2';
+            
             const response = await withTimeout(
                 askAI(
                     `${persona} You MUST solve every problem completely before stating the answer. JSON ONLY.`,
                     generationPrompt + `\nSTUDENT GRADE: ${params.exam.includes('Class') ? params.exam : 'Class 10 (High School)'}`, 
                     'auto', [], {
-                    jsonMode: false,
+                    jsonMode: true,
                     stream: false,
                     max_tokens: 2500,
-                    tier: 'T2', // Complex Generator
+                    tier: generationTier,
                     temperature: 0.6,
                     skipMemory: true // Save API quota during generation
                 }),
@@ -547,7 +553,9 @@ RETURN JSON:
                 continue;
             }
 
-            const runConsensus = true;
+            // Skip expensive dual-consensus for Easy/Medium questions (<1500 difficulty)
+            // Consensus (2 LLM calls) is only worth it for hard/advanced questions
+            const runConsensus = abilityLevel >= 1500;
             // ── LAYER 1: LLM Verification ──
             const verification = await verifyQuestionFast(rawData, runConsensus);
             if (!verification.verified || !verification.data) {
@@ -555,7 +563,7 @@ RETURN JSON:
                 continue;
             }
 
-            const verifiedData = verification.data;
+            const verifiedData = verification.data!;
             let confidenceScore = 0.50; // Base score
             if (verification.verified) confidenceScore += 0.15;
 
@@ -674,10 +682,14 @@ RETURN JSON:
         } catch (e) {
             console.error(`Question generation attempt ${attempt + 1} failed`, e);
         }
-    }
+    } // end for loop
 
     console.error(`[QuestionEngine] All ${MAX_GEN_RETRIES + 1} generation attempts failed for ${topic}.`);
     return null;
+    } finally {
+        // Always clear the generating flag so pre-warmer can resume
+        if (typeof window !== 'undefined') (window as any).__examCompassGenerating = false;
+    }
 };
 
 export const invalidateTopicCache = (userId: string, exam: string, topic: string) => {
@@ -892,19 +904,27 @@ export const getAdaptiveQuestionBatch = async (
             const bandRemaining = target.count - bandCount;
 
             if (bandRemaining > 0) {
-                for (let i = 0; i < bandRemaining; i++) {
-                    const q = await generateInspiredQuestion({
-                        exam,
-                        subject: subject || 'General',
-                        topic,
-                        difficulty: 'Medium', // legacy label
-                        abilityScore: target.rating,
-                        remediationFocus: group.remediationFocus
-                    });
-                    if (q) groupQuestions.push(q);
-                    updateBatchProgress();
+                // Generate in parallel batches of 3 — cuts time from 5min to ~90s
+                const PARALLEL_LIMIT = 3;
+                for (let i = 0; i < bandRemaining; i += PARALLEL_LIMIT) {
+                    const batchSize = Math.min(PARALLEL_LIMIT, bandRemaining - i);
+                    const parallelResults = await Promise.allSettled(
+                        Array.from({ length: batchSize }, () => generateInspiredQuestion({
+                            exam,
+                            subject: subject || 'General',
+                            topic,
+                            difficulty: 'Medium',
+                            abilityScore: target.rating,
+                            remediationFocus: group.remediationFocus
+                        }))
+                    );
+                    for (const result of parallelResults) {
+                        if (result.status === 'fulfilled' && result.value) groupQuestions.push(result.value);
+                        updateBatchProgress();
+                    }
                 }
             }
+
         }
         allQuestions.push(...groupQuestions);
     }
