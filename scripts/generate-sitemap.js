@@ -166,19 +166,27 @@ Sitemap: ${BASE_URL}/sitemap.xml
         // GENERATE _redirects 
         // ============================================================
         const redirectsContent = `# ============================================================
-# ExamCompass _redirects for Cloudflare Pages (AUTO-GENERATED)
+# ExamCompass _redirects for Cloudflare Pages
 # Rules are processed top-to-bottom; first match wins.
+# Cloudflare Pages serves existing static assets first.
 # ============================================================
 
-# === SPA routes that need client-side routing ===
+# === Proxy OG Image generator to Firebase Function ===
+/api/og/*     https://us-central1-legendstech001.cloudfunctions.net/ogImage/:splat  200
+/api/og       https://us-central1-legendstech001.cloudfunctions.net/ogImage  200
+
+# === Explicit SPA routes for client-side routing ===
+/dashboard    /index.html  200
 /dashboard/*  /index.html  200
+/admin        /index.html  200
 /admin/*      /index.html  200
 /login        /index.html  200
 /onboarding   /index.html  200
 
-# === Proxy OG Image generator to Firebase Function ===
-/api/og/*  https://us-central1-legendstech001.cloudfunctions.net/ogImage/:splat  200
-/api/og    https://us-central1-legendstech001.cloudfunctions.net/ogImage  200
+# === Global SPA Catch-All Fallback ===
+# Handles all dynamic question pages skipped during SSG (noindex)
+# and any other client-side routes (profile, settings, etc.)
+/*            /index.html  200
 `;
 
         dirs.forEach(dir => {

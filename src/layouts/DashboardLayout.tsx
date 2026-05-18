@@ -207,7 +207,7 @@ export const DashboardLayout = () => {
 
             {/* Sidebar */}
             <aside
-                className={`fixed lg:sticky top-0 h-screen bg-surface lg:bg-surface/95 backdrop-blur-md border-r border-border transition-all duration-300 z-40 
+                className={`fixed lg:sticky top-0 h-screen bg-surface lg:bg-surface/95 backdrop-blur-md border-r border-border transition-all duration-300 z-50 
                 ${isSidebarOpen ? 'w-64 translate-x-0' : 'w-64 -translate-x-full lg:translate-x-0 lg:w-20'} 
                 flex flex-col overflow-hidden`}
             >
