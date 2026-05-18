@@ -419,7 +419,7 @@ Continue your revision with these related guides:
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/[data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards)-structures-linear-class-11-revision-notes-gate-boards) now and track your progress against thousands of students.
 
-> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Data%20Structures%20Linear%20Gate%20Boards%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards)%20Structures%20Linear%20Gate%20Boards%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 
 ---
 

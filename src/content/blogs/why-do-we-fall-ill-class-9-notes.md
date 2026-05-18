@@ -364,50 +364,50 @@ Our body's immune system in fighting against diseases, and a combination of good
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the main cause of illness when a person has a low platelet count, approximately 20,000 cells per microliter (µL) of blood, and gets a cut?**
-**A)**    The cut will not heal
-**B)**    The body will fight the infection quickly
-**C)**    The platelet count is within the normal range
-**D)**    The cut will heal but very slowly
+**A)**     The cut will not heal
+**B)**     The body will fight the infection quickly
+**C)**     The platelet count is within the normal range
+**D)**     The cut will heal but very slowly
 
 **Answer:** A) When a person has a low platelet count (thrombocytopenia), approximately 20,000 cells/µL, and gets a cut, the main cause of illness is that the cut will not heal properly. Platelets help blood clot, and with such a low count, clotting is impaired. Option B is incorrect because a low platelet count does not help the body fight infection quickly. Option C is incorrect as 20,000 cells/µL is significantly below the normal range of 150,000 to 450,000 platelets/µL. Option D is incorrect because, with such a low platelet count, healing will be severely impaired, not just slowed down.
 
 ---
 
 **2. A disease is spreading rapidly in a locality. Which of the following can be a reason for its spread?**
-**A)**    Lack of clean water
-**B)**    Presence of many doctors
-**C)**    Good sanitation facilities
-**D)**    High vaccination rate
+**A)**     Lack of clean water
+**B)**     Presence of many doctors
+**C)**     Good sanitation facilities
+**D)**     High vaccination rate
 
 **Answer:** A) The lack of clean water can be a reason for the rapid spread of a disease, as contaminated water can carry pathogens. Option B is incorrect because the presence of doctors does not directly cause disease spread. Option C is incorrect as good sanitation facilities would actually help prevent the spread of disease. Option D is incorrect because a high vaccination rate would also help prevent the spread of specific diseases.
 
 ---
 
 **3. What is the term for the 'building blocks of life'?**
-**A)**    Cells
-**B)**    Tissues
-**C)**    Organs
-**D)**    Organ systems
+**A)**     Cells
+**B)**     Tissues
+**C)**     Organs
+**D)**     Organ systems
 
 **Answer:** A) Cells are considered the 'building blocks of life' because all living organisms are composed of one or more cells. Option B, tissues, are groups of similar cells. Option C, organs, are structures made of two or more types of tissues. Option D, organ systems, are groups of organs that work together.
 
 ---
 
 **4. If a person has a fever, which of the following is likely to happen?**
-**A)**    The person's heart rate will decrease
-**B)**    The person's body temperature will decrease
-**C)**    The person's heart rate will increase
-**D)**    The person's metabolic rate will decrease
+**A)**     The person's heart rate will decrease
+**B)**     The person's body temperature will decrease
+**C)**     The person's heart rate will increase
+**D)**     The person's metabolic rate will decrease
 
 **Answer:** C) During fever, the body's thermostat is reset to a higher temperature, which often results in an increased heart rate to help the body fight infection. Option A is incorrect because heart rate typically increases with fever. Option B is incorrect because body temperature increases during fever. Option D is incorrect because metabolic rate often increases to help fight off the infection.
 
 ---
 
 **5. A person with malaria is likely to experience:**
-**A)**    High blood pressure
-**B)**    Periodic chills and high fever
-**C)**    Diabetes
-**D)**    Low platelet count
+**A)**     High blood pressure
+**B)**     Periodic chills and high fever
+**C)**     Diabetes
+**D)**     Low platelet count
 
 **Answer:** B) Malaria, caused by Plasmodium parasites transmitted through the bite of infected Anopheles mosquitoes, is characterized by periodic episodes of chills followed by high fever. Option A, high blood pressure, is not a direct symptom of malaria. Option C, diabetes, is unrelated to malaria. Option D, low platelet count (thrombocytopenia), can occur but is not as specifically characteristic as periodic chills and high fever.
 

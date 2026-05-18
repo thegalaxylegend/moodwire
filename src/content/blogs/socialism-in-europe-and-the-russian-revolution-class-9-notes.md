@@ -51,7 +51,7 @@ manualReview: false
 
 - **Economic Inequality Formula:** ΔGDP = GDP_high - GDP_low — difference in GDP between high and low income groups
 
-- **Poverty Rate Formula:** P = (N_p / N) × 100 — percentage of population living below the poverty line
+- **[Poverty](/blog/poverty-as-a-challenge-class-9-notes) Rate Formula:** P = (N_p / N) × 100 — percentage of population living below the [poverty](/blog/poverty-as-a-challenge-class-9-notes) line
 
 - **Unemployment Rate Formula:** U = (N_u / N) × 100 — percentage of workforce that is unemployed
 
@@ -110,7 +110,7 @@ manualReview: false
 - **Mistake 1 — Misdating the Russian [Revolution](/blog/the-french-revolution-class-9-notes):**
  
 
-- 🔴 **What students write:** 1917 as the start of the Russian Revolution.
+- 🔴 **What students write:** 1917 as the start of the Russian [Revolution](/blog/the-french-revolution-class-9-notes).
 
 - ✅ **What examiners expect:** Students to note that the Russian Revolution began in February 1917, with the February Revolution, and continued with the October Revolution in October 1917.
 
@@ -215,7 +215,7 @@ manualReview: false
 
 - **The misconception (what 85% believe):** Many students think that the Russian Revolution was primarily a result of economic factors, such as poverty and inequality, and that it was a sudden, unplanned event.
 
-- **The reality (what 99% know):** The Russian Revolution was a complex event with multiple causes, including political, social, and economic factors. It was a result of a combination of long-term and short-term factors, such as the failure of the Tsarist regime, the impact of World War I, and the rise of revolutionary ideologies like socialism and communism.
+- **The reality (what 99% know):** The Russian Revolution was a complex event with multiple causes, including political, social, and economic factors. It was a result of a combination of long-term and short-term factors, such as the failure of the Tsarist regime, the impact of World War I, and the [rise](/blog/the-rise-of-nationalism-in-europe-class-10-notes) of revolutionary ideologies like socialism and communism.
 
 ### <a id="key-factors-leading-to-the-russian-revolution"></a>Key Factors Leading to the Russian Revolution
 
@@ -351,50 +351,50 @@ The Russian Revolution was a pivotal event in world history that led to the esta
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What was the main goal of the Bolsheviks during the Russian Revolution?**
-**A)**    To establish a monarchy
-**B)**    To establish a capitalist economy
-**C)**    To overthrow the provisional government
-**D)**    To create a socialist society
+**A)**     To establish a monarchy
+**B)**     To establish a capitalist economy
+**C)**     To overthrow the provisional government
+**D)**     To create a socialist society
 
 **Answer:** C) The Bolsheviks, led by Vladimir Lenin, aimed to overthrow the provisional government and seize power. Options A and B are incorrect as the Bolsheviks opposed monarchy and capitalism. Option D, while a long-term goal, was not the immediate main goal during the revolution.
 
 ---
 
 **2. In 1917, Russia's economy was in a state of crisis, with inflation rates reaching ① 100% ② 200% ③ 300% ④ 400%.**
-**A)**    ① 100%
-**B)**    ② 200%
-**C)**    ③ 300%
-**D)**    ④ 400%
+**A)**     ① 100%
+**B)**     ② 200%
+**C)**     ③ 300%
+**D)**     ④ 400%
 
 **Answer:** A) The correct answer is ② 200%. Russia's economy was severely affected by World War I, leading to high inflation. The other options are incorrect as 100% is too low, and 300% and 400% are too high.
 
 ---
 
 **3. The Treaty of Brest-Litovsk was signed between Russia and which country?**
-**A)**    Germany
-**B)**    France
-**C)**    United Kingdom
-**D)**    United States
+**A)**     Germany
+**B)**     France
+**C)**     United Kingdom
+**D)**     United States
 
 **Answer:** A) The Treaty of Brest-Litovsk was signed between Russia and Germany in 1918. This treaty marked Russia's exit from World War I. The other options are incorrect as France, the UK, and the US were allied powers and did not sign such a treaty with Russia.
 
 ---
 
 **4. The Russian Revolution led to the establishment of the world's first _______ government.**
-**A)**    capitalist
-**B)**    socialist
-**C)**    communist
-**D)**    monarchist
+**A)**     capitalist
+**B)**     socialist
+**C)**     communist
+**D)**     monarchist
 
 **Answer:** C) The Russian Revolution resulted in the establishment of the world's first communist government, led by the Bolsheviks. Option A is incorrect as the revolution opposed capitalism. Option B, socialist, is close but not precise; communist was the specific goal. Option D, monarchist, is incorrect as the revolution overthrew the monarchy.
 
 ---
 
 **5. Lenin's April Theses proposed which of the following?**
-**A)**    Immediate socialist revolution
-**B)**    Continuation of the war effort
-**C)**    Establishment of a constitutional monarchy
-**D)**    All power to the soviets
+**A)**     Immediate socialist revolution
+**B)**     Continuation of the war effort
+**C)**     Establishment of a constitutional monarchy
+**D)**     All power to the soviets
 
 **Answer:** D) Lenin's April Theses proposed 'All power to the soviets', which meant transferring power from the provisional government to the workers' and soldiers' councils (soviets). The other options are incorrect as Lenin's theses did not support immediate socialist revolution at that time, continuation of the war effort, or a constitutional monarchy.
 

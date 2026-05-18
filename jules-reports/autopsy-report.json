@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-05-18T04:11:31.332Z",
+  "totalLessons": 60,
+  "activeLessons": 52,
+  "resolvedLessons": 8,
+  "flaws": [
+    "MCQ_QUALITY_FAILURE: 13",
+    "THIN_CONTENT: 9",
+    "JSON_PARSE_FAILURE: 9",
+    "LATEX_ERROR: 9",
+    "LEARNED_UNKNOWN: 8",
+    "UNKNOWN_FAILURE: 2",
+    "LEARNED_ERROR: 2"
+  ],
+  "unpredicted": [
+    "UNKNOWN_FAILURE: 2",
+    "LEARNED_ERROR: 2",
+    "LEARNED_UNKNOWN: 8"
+  ],
+  "insights": [
+    "Top failure type: MCQ_QUALITY_FAILURE (13× — prioritize fix)"
+  ]
+}

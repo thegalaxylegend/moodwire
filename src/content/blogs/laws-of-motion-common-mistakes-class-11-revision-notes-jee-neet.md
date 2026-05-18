@@ -41,7 +41,7 @@ manualReview: false
   - F = (mv²)/r, so T = (1 × 2²)/1 = 4 N
 
 ## 🧠 The One Thing Most Students Get Wrong
-- Most students get the concept of pseudo force wrong. Pseudo force is a fictitious force that appears to act on an object when it is ∈ a non-inertial frame of reference. It is equal ∈ magnitude and opposite ∈ direction to the force that is actually acting on the object.
+- Most students get the concept of pseudo [force](/blog/force-and-laws-of-motion-class-9-notes) wrong. Pseudo [force](/blog/force-and-laws-of-motion-class-9-notes) is a fictitious [force](/blog/force-and-laws-of-motion-class-9-notes) that appears to act on an object when it is ∈ a non-inertial frame of reference. It is equal ∈ magnitude and opposite ∈ direction to the [force](/blog/force-and-laws-of-motion-class-9-notes) that is actually acting on the object.
 
 ## 👁️ Ayush's Note
 - To solve problems ∈ laws of [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet), always start by drawing a free body diagram. This will help you identify all the forces acting on the object and make it easier to apply Newton's laws.

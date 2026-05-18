@@ -672,7 +672,7 @@ Class 10, Social Science (CBSE/NCERT).
  * Separated by horizontal rule `---`.
 
  * *Topic:* Outcomes of Democracy.
- * *Key concepts:* Accountability, responsiveness, legitimacy, economic growth vs. equality, social diversity, dignity/rights.
+ * *Key concepts:* Accountability, responsiveness, legitimacy, economic growth vs. equality, social diversity, dignity/[rights](/blog/consumer-rights-class-10-notes).
  * *Question 1 (MCQ/Assertion-Reason style):* Focus on the trade-off between economic growth and democracy.
  * *Question 2 (Short Answer/Critical Thinking):* Focus on how democracy handles social diversity/conflicts.
  * *Question 3 (Case-based/Statement style):* Focus on legitimacy and accountability.
@@ -1079,7 +1079,7 @@ Specific, data-driven, authentic student/mentor tone. No filler. No intro.
  * *Resolution:* Usually, in these types of "System Prompt" instructions, the "OUTPUT FORMAT RULES" at the very end (the "🚨 OUTPUT FORMAT RULES") are the final, overriding instructions for the specific task. The task is Social Science (Outcomes of Democracy), which involves almost zero math/LaTeX anyway. I will follow the "NO LATEX" rule to be safe and use Unicode if needed, although for Civics, it's unlikely to be needed.
 
  * Topic: Outcomes of Democracy.
- * Subject: Civics (Political Science).
+ * Subject: Civics ([Political](/blog/political-parties-class-10-notes) Science).
  * Content: High-yield, non-obvious, pattern-based.
 
  * *Concept:* Democracy isn't just about voting; it's about accountability, legitimacy, and reducing inequality.
@@ -1526,7 +1526,7 @@ No introductions, no filler, no prose paragraphs, bullets only.
 - ❌ A government's success is measured by how fast it makes decisions → ✅ A democratic government's success is measured by how accountable, responsive, and legitimate its decisions are.
 
  ### 🎯 If you can only remember ONE thing:
- Democracy's ultimate success is measured by its ability to uphold human dignity and provide a legitimate, accountable framework for people to participate in power.
+ Democracy's ultimate success is measured by its ability to uphold human dignity and provide a legitimate, accountable framework for people to participate in [power](/blog/power-sharing-class-10-notes).
 
  *Wait, I should make sure the "Core Formulas" are actually useful for a Class 10 student. They are logical connections. This is the best way to handle "Formulas" in a non-math subject.*
 

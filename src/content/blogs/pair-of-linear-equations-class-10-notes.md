@@ -40,7 +40,7 @@ manualReview: false
   Step 4: Simplify and solve for y: 8 - 2y - 2y = -2 => -4y = -10 => y = 5/2
   Step 5: Substitute y back into one of the original [equations](/blog/quadratic-equations-class-10-notes) to find x: x = 4 - 5/2 => x = (8 - 5)/2 => x = 3/2
 - Solve the [equations](/blog/quadratic-equations-class-10-notes): 3x - 4y = 7 and 5x + 2y = 17
-  Step 1: Write down the given equations
+  Step 1: Write down the given [equations](/blog/quadratic-equations-class-10-notes)
   Step 2: Solve the first equation for x: x = (7 + 4y)/3
   Step 3: Substitute x into the second equation: 5((7 + 4y)/3) + 2y = 17
   Step 4: Simplify and solve for y: (35 + 20y)/3 + 2y = 17 => 35 + 20y + 6y = 51 => 26y = 16 => y = 8/13

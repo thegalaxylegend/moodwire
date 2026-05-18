@@ -9,6 +9,19 @@ manualReview: false
 ---
 
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="-formula-bank"></a>⚡ Formula Bank](#a-id-formula-banka-formula-bank)
+3. [<a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks](#a-id-the-5-mistakes-that-cost-marksa-the-5-mistakes-that-cost-marks)
+4. [<a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs](#a-id-3-solved-pyqsa-3-solved-pyqs)
+5. [<a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong](#a-id-the-one-thing-most-students-get-wronga-the-one-thing-most-students-get-wrong)
+6. [<a id="-ayushs-note"></a>👁️ Ayush's Note](#a-id-ayushs-notea-ayushs-note)
+7. [<a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box](#a-id-last-5-minutes-boxa-last-5-minutes-box)
+8. [<a id="-practice-mcqs"></a>📝 Practice MCQs](#a-id-practice-mcqsa-practice-mcqs)
+
+---
+
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -27,7 +40,6 @@ manualReview: false
   - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-mcqs)
 
-
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
 ### <a id="-formula-bank"></a>⚡ Formula Bank
@@ -44,7 +56,7 @@ manualReview: false
 
 - **Total Expenditure:** E = Σ(C + S) — where E is total expenditure, C is consumption, S is saving
 
-- **Savings Ratio:** R = S / I — where R is savings ratio, S is savings, I is income
+- **Savings Ratio:** R = S / I — where R is savings ratio, S is savings, I am income
 
 - **Investment Multiplier:** M = ΔY / ΔI — where M is investment multiplier, ΔY is change in income, ΔI is change in investment
 #### Examiner's Trap: Remember to consider all components of expenditure and income.
@@ -64,7 +76,7 @@ manualReview: false
 
 - **Supply Formula:** S = Q × (P + C) — where S is supply, Q is quantity, P is price, C is cost
 
-- **Trade Balance:** B = E - I — where B is trade balance, E is export, I is import
+- **Trade Balance:** B = E - I — where B is trade balance, E is export, I am import
 #### Examiner's Trap: Be aware of the differences between demand and supply.
 
 #### **Decision Table**
@@ -82,8 +94,6 @@ manualReview: false
 | Market Demand | To calculate demand in market |
 | Supply Formula | To determine supply based on price and cost |
 | Trade Balance | To find difference between export and import |
-
-
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -151,8 +161,6 @@ manualReview: false
 
 - 🔧 **The fix (30-second trick):** Recall the sectors: primary (direct from nature), secondary (processing), tertiary (services).
 
-
-
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 ### <a id="3-solved-pyqs"></a>3 Solved PYQs
@@ -177,7 +185,6 @@ Step 3: Identify agriculture as the primary occupation in Palampur.
 
 ⚡ **Speed trick:** Quickly recall that in rural areas like Palampur, most people depend on agriculture for their livelihood.
 
-
 ---
 **Q2 (2020 CBSE):** What is the term used to describe the exchange of goods and services for money?
 
@@ -199,7 +206,6 @@ Step 3: Identify the correct term used for exchange of goods and services for mo
 
 ⚡ **Speed trick:** Quickly recall that market system involves exchange of goods and services for money.
 
-
 ---
 **Q3 (2018 CBSE):** What is the name of the village where 75% of the population is dependent on farming?
 
@@ -220,8 +226,6 @@ Step 3: Confirm that Palampur is the village where 75% of the population is depe
 **Final Answer:** A) Palampur
 
 ⚡ **Speed trick:** Quickly recall that Palampur is a well-known village in the context of rural livelihood.
-
-
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
@@ -247,7 +251,7 @@ Step 3: Confirm that Palampur is the village where 75% of the population is depe
 - Occupational structure and employment
  
 
-- Levels of income and poverty
+- Levels of income and [poverty](/blog/poverty-as-a-challenge-class-9-notes)
  
 
 - Social and economic interrelationships within the village
@@ -296,8 +300,6 @@ Step 3: Confirm that Palampur is the village where 75% of the population is depe
 
 By adopting this approach, you'll ensure a deep understanding of the story of Village Palampur and be able to apply it to various questions and real-life scenarios.
 
-
-
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 ### <a id="-ayushs-note"></a>👁️ Ayush's Note
@@ -333,8 +335,6 @@ By adopting this approach, you'll ensure a deep understanding of the story of Vi
 
 - Disadvantages: dependence on rainfall, low income for farmers, and environmental degradation.
 
-
-
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 ### <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
@@ -348,7 +348,7 @@ By adopting this approach, you'll ensure a deep understanding of the story of Vi
 - Non-farming activities → 3/4 of the village people work in non-farm activities — gives you the diversity of occupations
  
 
-- Modern farming methods → use of tractor, threshers, and pump sets — gives you the modernization of farming
+- [Modern](/blog/pastoralists-in-the-modern-world-class-9-notes) farming methods → use of tractor, threshers, and pump sets — gives you the modernization of farming
  
 
 - Farm labourers → people who work on other people's farms — gives you the concept of hired labour
@@ -377,74 +377,73 @@ By adopting this approach, you'll ensure a deep understanding of the story of Vi
 
 - **🎯 If you can only remember ONE thing:** The village of Palampur is a representation of how farming and non-farming activities coexist and are interdependent in a rural Indian setting
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
-
 **1. What is the main occupation of the people in Palampur?**
-**A)**  Farming
-**B)**  Business
-**C)**  Service
-**D)**  Industry
+**A)**   Farming
+**B)**   Business
+**C)**   Service
+**D)**   Industry
 
 **Answer:** A) The main occupation of the people in Palampur is farming because the village has fertile land and adequate rainfall, making it suitable for agriculture. Options B, C, and D are incorrect because while some people may be involved in these sectors, farming is the primary occupation.
-
-
 
 ---
 
 **2. If 100 farmers in Palampur produce 5000 kg of wheat and 2000 kg of rice, what is the total production of wheat and rice per farmer?**
-**A)**  50 kg of wheat and 20 kg of rice
-**B)**  60 kg of wheat and 15 kg of rice
-**C)**  70 kg of wheat and 10 kg of rice
-**D)**  80 kg of wheat and 5 kg of rice
+**A)**   50 kg of wheat and 20 kg of rice
+**B)**   60 kg of wheat and 15 kg of rice
+**C)**   70 kg of wheat and 10 kg of rice
+**D)**   80 kg of wheat and 5 kg of rice
 
 **Answer:** A) To find the total production per farmer, we divide the total production by the number of farmers. For wheat: 5000 kg / 100 farmers = 50 kg/farmer. For rice: 2000 kg / 100 farmers = 20 kg/farmer. Therefore, option A is correct. Options B, C, and D are incorrect because they have incorrect calculations.
-
-
 
 ---
 
 **3. What is the reason for the limited number of people being involved in the secondary sector in Palampur?**
-**A)**  Lack of education
-**B)**  Limited access to raw materials
-**C)**  Insufficient capital
-**D)**  All of the above
+**A)**   Lack of education
+**B)**   Limited access to raw materials
+**C)**   Insufficient capital
+**D)**   All of the above
 
 **Answer:** C) The secondary sector involves manufacturing and requires significant capital investment. In Palampur, people have limited access to capital, which restricts their involvement in this sector. While lack of education and limited access to raw materials might also be factors, insufficient capital is a primary reason. Therefore, option C is correct, and options A, B, and D are not entirely accurate.
-
-
 
 ---
 
 **4. If the literacy rate in Palampur is 80%, and there are 2000 people in the village, how many people are literate?**
-**A)**  1500
-**B)**  1600
-**C)**  1700
-**D)**  1800
+**A)**   1500
+**B)**   1600
+**C)**   1700
+**D)**   1800
 
 **Answer:** B) To find the number of literate people, we multiply the total population by the literacy rate: 2000 * 0.80 = 1600. Therefore, option B is correct. Options A, C, and D are incorrect because they have incorrect calculations.
 
-
-
 ---
 
-**5. What is the impact of the Green Revolution on farming in Palampur?**
-**A)**  Increased crop yields
-**B)**  Decreased crop yields
-**C)**  No change in crop yields
-**D)**  Increased dependence on rain
+**5. What is the impact of the Green [Revolution](/blog/socialism-in-europe-and-the-russian-revolution-class-9-notes) on farming in Palampur?**
+**A)**   Increased crop yields
+**B)**   Decreased crop yields
+**C)**   No change in crop yields
+**D)**   Increased dependence on rain
 
 **Answer:** A) The Green Revolution led to the introduction of new farming techniques and high-yielding varieties of crops, resulting in increased crop yields. This is a well-documented impact of the Green Revolution. Options B, C, and D are incorrect because they do not accurately reflect the effects of the Green Revolution.
-
-
-
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-9/social-science/the-story-of-village-palampur) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=The%20Story%20of%20Village%20Palampur%20Class%209%20Social%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Forest Society and Colonialism Class 9 Social Science Recap — Grandmaster Guide](/blog/forest-society-and-colonialism-class-9-notes)
+- 📖 [Nazism and the Rise of Hitler Class 9 Social Science Recap — Grandmaster Guide](/blog/nazism-and-the-rise-of-hitler-class-9-notes)
+- 📖 [Pastoralists in the Modern World Class 9 Social Science Recap — Grandmaster Guide](/blog/pastoralists-in-the-modern-world-class-9-notes)
+- 📖 [Poverty as a Challenge Class 9 Social Science Recap — Grandmaster Guide](/blog/poverty-as-a-challenge-class-9-notes)

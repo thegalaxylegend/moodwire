@@ -60,7 +60,7 @@ However, here are some key points to remember:
  - **1885**: The British government passed the [Forest](/blog/forest-society-and-colonialism-class-9-notes) Act.
 
 * **Key Concepts:**
- - **Forest Acts**: Laws passed by the British government to control and exploit the forest resources.
+ - **[Forest](/blog/forest-society-and-colonialism-class-9-notes) Acts**: Laws passed by the British government to control and exploit the [forest](/blog/forest-society-and-colonialism-class-9-notes) resources.
  - **Land alienation**: The process by which tribals lost their land to non-tribals.
 
 ### <a id="examiners-trap"></a>Examiner's Trap
@@ -259,7 +259,7 @@ By visualizing these points, you'll be able to recall the correct information an
 
 - There is a non-obvious connection between Tribals, Dikus and the Vision of a Golden Age and the chapter on "How the British saw us" or similar themes in Social Science.
 
-- About 35% of papers have a question that relates the vision of a Golden Age with how colonial views shaped Indian society.
+- About 35% of papers have a question that relates the vision of a Golden Age with how colonial views shaped [Indian](/blog/globalisation-and-the-indian-economy-class-10-notes) society.
 
 - **🎯 The "Always Check" Rule:** 
  
@@ -329,50 +329,50 @@ The British colonial rule significantly impacted the lives of tribals, leading t
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What was the main reason for the British to impose the 'land revenue system' on Indian tribals?**
-**A)**   To help tribals become rich farmers
-**B)**   To collect taxes from non-tribal farmers
-**C)**   To make tribals work as laborers
-**D)**   To collect revenue from tribals and non-tribals equally
+**A)**    To help tribals become rich farmers
+**B)**    To collect taxes from non-tribal farmers
+**C)**    To make tribals work as laborers
+**D)**    To collect revenue from tribals and non-tribals equally
 
 **Answer:** D) The British imposed the 'land revenue system' to collect revenue from tribals and non-tribals equally. This system was unfair to tribals as they had traditionally lived in forests and did not understand the concept of private land ownership. Options A, B, and C are incorrect because they do not accurately represent the British motives.
 
 ---
 
 **2. A tribal group had 2500 kg of rice to sell at the market. If they sold it at a price of ₹20/kg, and had to pay a 12% tax on their earnings, how much money did they have left?**
-**A)**   ₹44,000
-**B)**   ₹40,000
-**C)**   ₹35,200
-**D)**   ₹50,000
+**A)**    ₹44,000
+**B)**    ₹40,000
+**C)**    ₹35,200
+**D)**    ₹50,000
 
 **Answer:** C) The total earnings from selling rice = 2500 kg × ₹20/kg = ₹50,000. The tax paid = 12% of ₹50,000 = 0.12 × ₹50,000 = ₹6000. So, the money left = ₹50,000 - ₹6000 = ₹44,000. However, ₹44,000 is not an option; the closest correct calculation yields ₹44,000, making C (₹35,200) an apparently wrong choice; actually  ₹50,000 - 15% or misc calc of 44000 was expected; A is right numerically.
 
 ---
 
 **3. The 'Dikus' were:**
-**A)**   Tribal leaders
-**B)**   Non-tribal outsiders
-**C)**   British officers
-**D)**   Tribal gods
+**A)**    Tribal leaders
+**B)**    Non-tribal outsiders
+**C)**    British officers
+**D)**    Tribal gods
 
 **Answer:** B) The 'Dikus' refers to non-tribal outsiders, such as moneylenders, traders, and government officials, who were seen as exploiters by the tribals. Options A, C, and D are incorrect because they do not accurately describe the term 'Dikus'.
 
 ---
 
 **4. What was the 'Golden Age' vision of the tribals?**
-**A)**   A time of great poverty and hardship
-**B)**   A time of British rule and exploitation
-**C)**   A time of freedom and equality
-**D)**   A time of great wealth and power
+**A)**    A time of great poverty and hardship
+**B)**    A time of British rule and exploitation
+**C)**    A time of freedom and equality
+**D)**    A time of great wealth and power
 
 **Answer:** C) The 'Golden Age' vision of the tribals was a time of freedom and equality, where they could live in harmony with nature and be free from the exploitation of outsiders. Options A, B, and D are incorrect because they do not accurately represent the tribal vision.
 
 ---
 
 **5. If 30% of a tribal community's land was taken over by the government, and they had 5000 hectares of land initially, how many hectares of land were taken over?**
-**A)**   1000 hectares
-**B)**   1500 hectares
-**C)**   2000 hectares
-**D)**   2500 hectares
+**A)**    1000 hectares
+**B)**    1500 hectares
+**C)**    2000 hectares
+**D)**    2500 hectares
 
 **Answer:** B) The land taken over = 30% of 5000 hectares = 0.30 × 5000 = 1500 hectares. Options A, C, and D are incorrect because they do not accurately represent the calculation.
 

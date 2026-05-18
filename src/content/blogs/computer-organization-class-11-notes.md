@@ -314,7 +314,7 @@ The following table summarizes the key components of computer organization and t
 **1. What is the function of the Control Unit and a computer system?**
 To perform arithmetic operations
 To execute instructions
-To manage data transfer between devices
+To manage [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) transfer between devices
 To regulate and manage the flow of data
 
 **Answer:**

@@ -1,0 +1,33 @@
+{
+  "embeds": [
+    {
+      "title": "📈 Jules Quality Trends Report",
+      "color": 5763719,
+      "fields": [
+        {
+          "name": "📊 All-Time Stats",
+          "value": "Total: 246 blogs\nPassed: 187\nFailed: 59\nPass Rate: 76%",
+          "inline": true
+        },
+        {
+          "name": "📈 Avg Quality Score",
+          "value": "82.3/100",
+          "inline": true
+        },
+        {
+          "name": "📈 Trend",
+          "value": "IMPROVING (+7.9)",
+          "inline": true
+        },
+        {
+          "name": "🔴 Top Errors",
+          "value": "• Insufficient MCQs (Need at least 3) (×13)\n• JSON squashing detected: raw JSON objects in markdown body (×9)\n• 401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\": (×6)",
+          "inline": false
+        }
+      ],
+      "footer": {
+        "text": "Report generated: 2026-05-18T04:10:39.951Z"
+      }
+    }
+  ]
+}

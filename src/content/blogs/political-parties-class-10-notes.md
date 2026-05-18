@@ -449,7 +449,7 @@ Political Parties (Class 10 Social Science).
 
 - 💸 **Marks lost:** 1 or 2 marks.
 
-- 🔧 **The fix (30-second trick):** No Choice = No Democracy. One-party = Non-democratic.
+- 🔧 **The fix (30-second trick):** No Choice = No [Democracy](/blog/outcomes-of-democracy-class-10-notes). One-party = Non-democratic.
 
 - **Mistake 4 — The Vague "Internal Democracy" Description:**
  
@@ -505,7 +505,7 @@ Class 10, Social Science (Civics), Year 2026 (simulated/predicted based on 2018-
 
  * *Question 2 (Assertion-Reasoning - Challenges):*
  * Assertion (A): Dynastic succession is a major challenge to political parties.
- * Reason ®: It leads to control of power by one family, preventing ordinary members from rising.
+ * Reason ®: It leads to control of [power](/blog/power-sharing-class-10-notes) by one family, preventing ordinary members from rising.
  * *Trap:* Selecting "A is true, R is false" because students think "dynastic succession is good for stability."
 
  * *Question 3 (Short Answer/Case-based - Functions):*
@@ -722,7 +722,7 @@ Class 10 CBSE (NCERT based).
  * *Misconception:* Students think "Dynastic Succession" or "Lack of Internal Democracy" are *functions* or *roles* of a political party because they see them happening in real life. They treat these negative traits as part of the "job description" of a party.
  * *Reality:* Functions are the *positive/essential* roles (Contesting elections, making laws, forming government, shaping public opinion, providing opposition). Challenges are the *structural flaws* (Lack of internal democracy, Dynastic succession, [Money](/blog/money-and-credit-class-10-notes)/Muscle power, Lack of meaningful choice).
 
- * *Misconception (85%):* Thinking that negative phenomena like "Dynastic Succession" or "Money and Muscle Power" are *functions* of a political party because they are common occurrences.
+ * *Misconception (85%):* Thinking that negative phenomena like "Dynastic Succession" or "[Money](/blog/money-and-credit-class-10-notes) and Muscle Power" are *functions* of a political party because they are common occurrences.
  * *Reality (99%):* Distinguishing strictly between "What a party *is supposed to do*" (Functions) and "What is *wrong with parties*" (Challenges).
  * *Diagnostic Question:*
  "Which of the following is NOT a function of a political party?"

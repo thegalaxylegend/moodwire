@@ -9,27 +9,39 @@ manualReview: false
 ---
 
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="-formula-bank"></a>⚡ Formula Bank](#a-id-formula-banka-formula-bank)
+3. [<a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks](#a-id-the-5-mistakes-that-cost-marksa-the-5-mistakes-that-cost-marks)
+4. [<a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs](#a-id-3-solved-pyqsa-3-solved-pyqs)
+5. [<a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong](#a-id-the-one-thing-most-students-get-wronga-the-one-thing-most-students-get-wrong)
+6. [<a id="-ayushs-note"></a>👁️ Ayush's Note](#a-id-ayushs-notea-ayushs-note)
+7. [<a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box](#a-id-last-5-minutes-boxa-last-5-minutes-box)
+8. [<a id="-practice-mcqs"></a>📝 Practice MCQs](#a-id-practice-mcqsa-practice-mcqs)
+
+---
+
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
-  - [Formula Bank](#formula-bank)
-  - [Which Formula When?](#which-formula-when)
+ - [Formula Bank](#formula-bank)
+ - [Which Formula When?](#which-formula-when)
 - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-  - [The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+ - [The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
 - [✏️ 3 Solved PYQs](#-3-solved-pyqs)
-  - [3 Solved PYQs](#3-solved-pyqs)
+ - [3 Solved PYQs](#3-solved-pyqs)
 - [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
-  - [The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
-  - [Powers and Functions of Parliament](#powers-and-functions-of-parliament)
+ - [The One Thing Most Students Get Wrong](#the-one-thing-most-students-get-wrong)
+ - [Powers and Functions of Parliament](#powers-and-functions-of-parliament)
 - [👁️ Ayush's Note](#-ayushs-note)
-  - [👁️ Ayush's Note](#-ayushs-note)
+ - [👁️ Ayush's Note](#-ayushs-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
-  - [⚡ Core Formulas](#-core-formulas)
-  - [🧠 Must-Know Facts](#-mustknow-facts)
-  - [🚫 Never Forget](#-never-forget)
-  - [🎯 If you can only remember ONE thing](#-if-you-can-only-remember-one-thing)
+ - [⚡ Core Formulas](#-core-formulas)
+ - [🧠 Must-Know Facts](#-mustknow-facts)
+ - [🚫 Never Forget](#-never-forget)
+ - [🎯 If you can only remember ONE thing](#-if-you-can-only-remember-one-thing)
 - [📝 Practice MCQs](#-practice-mcqs)
-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
@@ -38,7 +50,7 @@ manualReview: false
 
 - **Autocracy Formula:** α = (number of rulers) / (total population) — α is the autocracy factor, number of rulers is the number of people holding power, total population is the total number of people in the country
 
-- **Democracy Formula:** β = (number of citizens with voting rights) / (total population) — β is the democracy factor, number of citizens with voting rights is the number of people who can vote, total population is the total number of people in the country
+- **Democracy Formula:** β = (number of citizens with voting [rights](/blog/consumer-rights-class-10-notes)) / (total population) — β is the democracy factor, number of citizens with voting [rights](/blog/consumer-rights-class-10-notes) is the number of people who can vote, total population is the total number of people in the country
 
 - **Monarchy Formula:** γ = (number of monarchs) / (total population) — γ is the monarchy factor, number of monarchs is the number of monarchs in the country, total population is the total number of people in the country
 Examiner's Trap: Be careful when distinguishing between different types of governments, as the terms are often used loosely.
@@ -85,8 +97,6 @@ Examiner's Trap: Remember that different types of decisions require different ty
 | Simple Majority Formula | To determine if a decision has a simple majority |
 | Absolute Majority Formula | To determine if a decision has an absolute majority |
 | Unanimous Decision Formula | To determine if a decision is unanimous |
-
-
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -135,7 +145,7 @@ Examiner's Trap: Remember that different types of decisions require different ty
 
 - 🔴 **What students write:** The opposition has no significant role in the parliament.
 
-- ✅ **What examiners expect:** The opposition plays a crucial role in scrutinizing the government's policies, providing alternative policies, and ensuring accountability.
+- ✅ **What examiners expect:** The opposition in scrutinizing the government's policies, providing alternative policies, and ensuring accountability.
 
 - 💸 **Marks lost:** 2 marks
  
@@ -153,8 +163,6 @@ Examiner's Trap: Remember that different types of decisions require different ty
  
 
 - 🔧 **The fix (30-second trick):** Remember that citizens can influence parliament indirectly through various channels.
-
-
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -200,8 +208,6 @@ d) To conduct elections
  **Final Answer:** Members of Parliament.
 
 ⚡ **Speed trick:** Use the term 'Members of Parliament' or 'MPs' directly.
-
-
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
@@ -295,8 +301,6 @@ d) To conduct elections
 
 By remembering this mnemonic, you'll be able to recall the key functions of the Parliament and avoid common misconceptions.
 
-
-
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 ### <a id="-ayushs-note"></a>👁️ Ayush's Note
@@ -332,8 +336,6 @@ To answer questions about the benefits of parliamentary democracy within 30 seco
 
 - **Peaceful Change**: Allows for smooth transfer of power.
 
-
-
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 ### <a id="-core-formulas"></a>⚡ Core Formulas
@@ -365,10 +367,7 @@ To answer questions about the benefits of parliamentary democracy within 30 seco
 ### <a id="-if-you-can-only-remember-one-thing"></a>🎯 If you can only remember ONE thing
 The **Parliament** is the highest law-making body in a country and is composed of the **Lok Sabha** and the **Rajya Sabha**.
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
 
 **1. What is the main function of the Parliament in a democratic system?**
 **A)**  To elect the President
@@ -376,9 +375,7 @@ The **Parliament** is the highest law-making body in a country and is composed o
 **C)**  To control the Judiciary
 **D)**  To manage the economy
 
-**Answer:** B) The Parliament's primary role is to make laws for the country, which is essential for governing and regulating various aspects of society. Option A is incorrect because electing the President is not the Parliament's function; it's done through other electoral processes. Option C is wrong because controlling the Judiciary is not the Parliament's role; the Judiciary is independent. Option D is incorrect because managing the economy is a broader responsibility involving multiple branches of government.
-
-
+**Answer:** B) The Parliament's primary role is to make laws for the country, which is essential for governing and regulating various aspects of [society](/blog/forest-society-and-colonialism-class-9-notes). Option A is incorrect because electing the President is not the Parliament's function; it's done through other electoral processes. Option C is wrong because controlling the Judiciary is not the Parliament's role; the Judiciary is independent. Option D is incorrect because managing the economy is a broader responsibility involving multiple branches of government.
 
 ---
 
@@ -390,8 +387,6 @@ The **Parliament** is the highest law-making body in a country and is composed o
 
 **Answer:** B) For a bill to be passed, it needs to have a majority vote. Since 120 members voted in favor and 40 against, the bill has a majority and is passed. Option A is incorrect because the bill has a clear majority. Option C is wrong because re-voting is not required when there's a clear majority. Option D is incorrect because the bill is sent to the President for assent after being passed by both Houses.
 
-
-
 ---
 
 **3. What is the term for the maximum number of members in the Lok Sabha?**
@@ -401,8 +396,6 @@ The **Parliament** is the highest law-making body in a country and is composed o
 **D)**  750 members
 
 **Answer:** A) The Lok Sabha can have a maximum of 552 members, as per the Constitution of India. Option B is incorrect because 250 members is the maximum number for the Rajya Sabha. Options C and D are wrong because they exceed the constitutional limit for the Lok Sabha.
-
-
 
 ---
 
@@ -414,8 +407,6 @@ The **Parliament** is the highest law-making body in a country and is composed o
 
 **Answer:** B) The scheduled debate time is 2 hours, which equals 120 minutes. 1/4 of 120 minutes is 30 minutes. Therefore, 30 minutes are allocated for questions. Option A is incorrect because 15 minutes is half of 30 minutes. Options C and D are wrong because they exceed the calculated time for questions.
 
-
-
 ---
 
 **5. In a parliamentary system, who is accountable to the Parliament?**
@@ -426,13 +417,23 @@ The **Parliament** is the highest law-making body in a country and is composed o
 
 **Answer:** B) In a parliamentary system, the Prime Minister and the Council of Ministers are collectively accountable to the Parliament. This ensures that the executive branch remains responsible to the elected representatives. Option A is incorrect because while the President has some responsibilities, direct accountability to Parliament is not one of them. Options C and D are wrong because the Judiciary and Bureaucracy have different accountability mechanisms.
 
-
-
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-8/social-science/why-do-we-need-a-parliament) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Why%20Do%20We%20Need%20a%20Parliament%3F%20Class%208%20Social%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Tribals, Dikus and the Vision of a Golden Age Class 8 Social Science Recap — Grandmaster Guide](/blog/tribals-dikus-and-the-vision-of-a-golden-age-class-8-notes)
+- 📖 [Consumer Rights Class 10 Social Science Recap — Grandmaster Guide](/blog/consumer-rights-class-10-notes)
+- 📖 [Forest and Wildlife Resources Class 10 Social Science Recap — Grandmaster Guide](/blog/forest-and-wildlife-resources-class-10-notes)
+- 📖 [Forest Society and Colonialism Class 9 Social Science Recap — Grandmaster Guide](/blog/forest-society-and-colonialism-class-9-notes)

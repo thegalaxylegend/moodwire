@@ -281,7 +281,7 @@ D. $O(n \log n)$
 
 **Answer:** A) The time complexity of finding an element and a Hash Table is O(1) on average, assuming a good hash function and minimal collisions.
 
-**4. Which of the following is an example of a non-linear data structure?**
+**4. Which of the following is an example of a non-linear [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structure?**
 A. Array
 B. Linked List
 C. Stack
