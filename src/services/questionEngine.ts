@@ -120,7 +120,7 @@ const verifyQuestionFast = async (questionData: Partial<StoredQuestion>, runCons
             const trimmed = typeof opt === 'string' ? opt.trim() : '';
             return trimmed === "Option A" || trimmed === "Placeholder" ||
                 /^[A-D]$/i.test(trimmed) ||
-                /^[A-D][.:)\s]/i.test(trimmed) ||
+                /^[A-D][.:)\s]*$/i.test(trimmed) ||
                 /^a fundamental principle/i.test(trimmed);
         });
 
@@ -526,7 +526,25 @@ RETURN JSON:
             if (!rawData.error_trap_type) rawData.error_trap_type = 'calculation';
 
             // Code-level correct_answer validation: must exist in options
-            if (Array.isArray(rawData.options) && rawData.correct_answer) {
+            if (Array.isArray(rawData.options) && typeof rawData.correct_answer === 'string') {
+                // E.g. if correct_answer is just "A", "B", "C", "D", map to the corresponding option index
+                const trimmedAns = rawData.correct_answer.trim().toUpperCase();
+                if (/^[A-D]$/.test(trimmedAns)) {
+                    const idx = trimmedAns.charCodeAt(0) - 65; // A->0, B->1, C->2, D->3
+                    if (rawData.options[idx]) {
+                        rawData.correct_answer = rawData.options[idx];
+                    }
+                }
+
+                // Now clean prefix from options and correct_answer if present
+                rawData.options = rawData.options.map((opt: any) => {
+                    if (typeof opt === 'string') {
+                        return opt.replace(/^[A-D][.:)\s]+/i, '').trim();
+                    }
+                    return opt;
+                });
+                rawData.correct_answer = rawData.correct_answer.replace(/^[A-D][.:)\s]+/i, '').trim();
+
                 const exactMatch = rawData.options.includes(rawData.correct_answer);
                 if (!exactMatch) {
                     // Try to find a partial match and fix it
