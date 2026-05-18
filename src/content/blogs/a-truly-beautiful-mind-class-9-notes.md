@@ -169,7 +169,7 @@ Examiner's Trap: Watch out for questions linking themes to specific events or ch
 
 ### <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-**Q1 (2022 CBSE):** 
+**Q1 (2026 CBSE):** 
 What does the author, Roger Penrose, mean by 'a truly beautiful mind'?
 
 - 🪤 **Trap:** Students often misinterpret 'a truly beautiful mind' as only referring to intelligence or mathematical genius.

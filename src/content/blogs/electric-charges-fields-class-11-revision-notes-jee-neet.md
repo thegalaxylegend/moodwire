@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/electric-charges-fields-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 17, 2026*
+*Last Updated: May 18, 2026*
 
 ## 📑 Table of Contents
 

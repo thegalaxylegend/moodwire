@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/data-structures-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 17, 2026*
+*Last Updated: May 18, 2026*
 
 ## 📑 Table of Contents
 
