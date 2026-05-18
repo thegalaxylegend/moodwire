@@ -32,7 +32,7 @@ export const getGroqClient = (index: number): Groq | null => {
 
 export async function callGroq(
     messages: { role: string; content: string }[],
-    options: { model?: string; temperature?: number; max_tokens?: number; stream?: boolean; jsonMode?: boolean; signal?: AbortSignal; keyIndex?: number } = {}
+    options: { model?: string; temperature?: number; max_tokens?: number; stream?: boolean; jsonMode?: boolean; signal?: AbortSignal; keyIndex?: number; tier?: string } = {}
 ) {
     const { 
         model = "llama-3.3-70b-versatile", 
