@@ -291,7 +291,7 @@ Step 3: Match the context with the correct term.
 
 - **Challenges Faced**: Recognize the challenges pastoralists face, such as land degradation, competition for resources, and government policies that affect their movements.
 
-- **Adaptation to Modernity**: Note how pastoralists adapt to modern technology and changes while maintaining their traditional practices.
+- **Adaptation to Modernity**: Note how pastoralists adapt to [modern](/blog/print-culture-and-the-modern-world-class-10-notes) technology and changes while maintaining their traditional practices.
 
 ### <a id="the-diagnostic-question"></a>The Diagnostic Question
 
@@ -370,7 +370,7 @@ By remembering **LIVESTOCK**, you can easily recall the critical aspects of past
 - **🔮 The Hidden Pattern:** 
  
 
-- There is a non-obvious connection between **Pastoralists in the Modern World** and **Peasant and Artisan Revolts** (another key chapter in Social Science).
+- There is a non-obvious connection between **Pastoralists in the Modern [World](/blog/human-eye-and-colourful-world-class-10-notes)** and **Peasant and Artisan Revolts** (another key chapter in Social Science).
 
 - In 30%+ of papers, questions are asked that link the struggles of pastoralists with broader peasant movements.
 
@@ -443,50 +443,50 @@ Pastoralism is a way of life that involves raising and taking care of animals, a
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What was the main reason for the British to impose restrictions on the movement of pastoralists in India during the colonial period?**
-**A)**   To promote the growth of agriculture
-**B)**   To establish more markets for British goods
-**C)**   To control the spread of diseases among animals
-**D)**   To free up land for settled agriculture
+**A)**    To promote the growth of agriculture
+**B)**    To establish more markets for British goods
+**C)**    To control the spread of diseases among animals
+**D)**    To free up land for settled agriculture
 
 **Answer:** D) The British imposed restrictions on the movement of pastoralists to free up land for settled agriculture, which they believed would be more productive and generate more revenue. Options A, B, and C are incorrect because while they may have been related to British colonial policies, they were not the main reason for restricting pastoralists' movement.
 
 ---
 
 **2. A pastoralist group in India had 250 cattle and was forced to reduce its herd by 15% due to a drought. How many cattle did the group have after the reduction?**
-**A)**   212 cattle
-**B)**   225 cattle
-**C)**   237 cattle
-**D)**   262 cattle
+**A)**    212 cattle
+**B)**    225 cattle
+**C)**    237 cattle
+**D)**    262 cattle
 
 **Answer:** C) To find the number of cattle after the reduction, calculate 15% of 250: 0.15 × 250 = 37.5. Then subtract this from 250: 250 - 37.5 = 212.5. Round down to 212 since you can't have a fraction of cattle. Option C, 237 cattle, is incorrect because it implies an increase. Options A and B are incorrect due to miscalculation.
 
 ---
 
 **3. Which of the following best describes the impact of the colonial forest policy on pastoralists in India?**
-**A)**   It allowed them to graze their animals freely in forests
-**B)**   It had no effect on their livelihood
-**C)**   It restricted their access to forests and grazing land
-**D)**   It provided them with alternative sources of income
+**A)**    It allowed them to graze their animals freely in forests
+**B)**    It had no effect on their livelihood
+**C)**    It restricted their access to forests and grazing land
+**D)**    It provided them with alternative sources of income
 
 **Answer:** C) The colonial forest policy restricted pastoralists' access to forests and grazing land, leading to significant changes in their way of life. Options A and B are incorrect because they suggest the opposite. Option D is incorrect because while some pastoralists may have found alternative income sources, this was not a primary impact of the policy.
 
 ---
 
 **4. A group of pastoralists in India traveled 500 km each season to find grazing land for their 1200 animals. If they increased their herd size by 25%, how many animals did they have after the increase?**
-**A)**   1400 animals
-**B)**   1500 animals
-**C)**   1600 animals
-**D)**   1800 animals
+**A)**    1400 animals
+**B)**    1500 animals
+**C)**    1600 animals
+**D)**    1800 animals
 
-**Answer:** A) To find the new total, calculate 25% of 1200: 0.25 × 1200 = 300. Then add this to 1200: 1200 + 300 = 1500. However, among the given options, only 1400 and 1500 are close, with 1500 being the accurate calculation but not listed. The closest and correct calculation yields 1500 animals, making A nearest and correct in context.
+**Answer:** A) To find the new total, calculate 25% of 1200: 0.25 × 1200 = 300. Then add this to 1200: 1200 + 300 = 1500. However, among the given options, only 1400 and 1500 are close, with 1500 being the accurate calculation but not listed. The closest and correct calculation yields 1500 animals, making The nearest and correct in context.
 
 ---
 
 **5. What was one of the key consequences of the British land revenue policies for pastoralists in India?**
-**A)**   They were exempted from paying land revenue
-**B)**   Their land revenue rates were reduced
-**C)**   They were forced to pay land revenue on their grazing land
-**D)**   Their traditional ways of life were not affected
+**A)**    They were exempted from paying land revenue
+**B)**    Their land revenue rates were reduced
+**C)**    They were forced to pay land revenue on their grazing land
+**D)**    Their traditional ways of life were not affected
 
 **Answer:** C) The British land revenue policies forced pastoralists to pay land revenue on their grazing land, which was a significant change and challenge for them. Options A and B are incorrect because they suggest benefits, not consequences. Option D is incorrect because the policies did affect their traditional ways of life.
 

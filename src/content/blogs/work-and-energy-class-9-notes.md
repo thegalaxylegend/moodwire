@@ -75,14 +75,14 @@ manualReview: false
 
 - **Work-[Energy](/blog/sources-of-energy-class-10-notes) Theorem with Friction:** W = ΔK + W_f — Work done is equal to the change in kinetic [energy](/blog/sources-of-energy-class-10-notes) plus work done against friction
 
-- **Conservation of Energy:** E_initial = E_final — Total energy remains constant in a closed system
+- **Conservation of [Energy](/blog/sources-of-energy-class-10-notes):** E_initial = E_final — Total [energy](/blog/sources-of-energy-class-10-notes) remains constant in a closed system
 #### Examiner's Trap: Apply the work-energy theorem considering both conservative and non-conservative forces.
 
 #### **Friction and Inclined Plane Formulas**
 
 - **Frictional [Force](/blog/force-and-laws-of-motion-class-9-notes):** F_f = μ × N — Frictional [force](/blog/force-and-laws-of-motion-class-9-notes) is the coefficient of friction times normal [force](/blog/force-and-laws-of-motion-class-9-notes)
 
-- **Normal Force in Inclined Plane:** N = m × g × cos(θ) — Normal force in an inclined plane is mass times acceleration due to gravity times cosine of the angle of inclination
+- **Normal [Force](/blog/force-and-laws-of-motion-class-9-notes) in Inclined Plane:** N = m × g × cos(θ) — Normal [force](/blog/force-and-laws-of-motion-class-9-notes) in an inclined plane is mass times acceleration due to gravity times cosine of the angle of inclination
 
 - **Force of Limiting Friction:** F_L = μ × m × g — Force of limiting friction is the coefficient of friction times mass times acceleration due to gravity
 #### Examiner's Trap: Calculate normal force and frictional force separately for inclined plane problems.
@@ -332,50 +332,50 @@ Work done and energy are interrelated, and understanding their relationship is k
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. A car of mass 1500 kg is moving with a velocity of 10 m/s. What is its kinetic energy?**
-**A)**       75000 J
-**B)**       80000 J
-**C)**       70000 J
-**D)**       85000 J
+**A)**        75000 J
+**B)**        80000 J
+**C)**        70000 J
+**D)**        85000 J
 
 **Answer:** A) The kinetic energy of an object is given by the formula: KE = ½ × m × v² = ½ × 1500 × 10² = 75000 J. Options B, C, and D are incorrect because they do not match the calculated value.
 
 ---
 
 **2. A block of mass 5 kg is lifted to a height of 10 m. What is its potential energy? (g = 10 m/s²)**
-**A)**       250 J
-**B)**       500 J
-**C)**       1000 J
-**D)**       5000 J
+**A)**        250 J
+**B)**        500 J
+**C)**        1000 J
+**D)**        5000 J
 
 **Answer:** D) The potential energy of an object is given by the formula: PE = m × g × h = 5 × 10 × 10 = 500 J. Option A, B, and C are incorrect because they do not match the calculated value.
 
 ---
 
 **3. What is the work done when a force of 20 And is applied to an object, but it does not move?**
-**A)**       20 J
-**B)**       0 J
-**C)**       10 J
-**D)**       5 J
+**A)**        20 J
+**B)**        0 J
+**C)**        10 J
+**D)**        5 J
 
 **Answer:** B) Work done is given by the formula: W = F × s. If the object does not move, then s = 0, and hence W = 0 J. Options A, C, and D are incorrect because they imply that work is done when there is no displacement.
 
 ---
 
 **4. A man of mass 60 kg runs up a staircase of 5 m in 2 s. What is his power? (g = 10 m/s²)**
-**A)**       1500 W
-**B)**       1200 W
-**C)**       1000 W
-**D)**       2000 W
+**A)**        1500 W
+**B)**        1200 W
+**C)**        1000 W
+**D)**        2000 W
 
 **Answer:** A) Power is given by the formula: P = W/t = (m × g × h)/t = (60 × 10 × 5)/2 = 1500 W. Options B, C, and D are incorrect because they do not match the calculated value.
 
 ---
 
 **5. A body of mass 10 kg is moving with a velocity of 5 m/s. A force of 10 And is applied in the opposite direction for 2 s. What is its final velocity?**
-**A)**       -3 m/s
-**B)**       -1 m/s
-**C)**       1 m/s
-**D)**       3 m/s
+**A)**        -3 m/s
+**B)**        -1 m/s
+**C)**        1 m/s
+**D)**        3 m/s
 
 **Answer:** B) Using the formula: F = m × a get a = F/m = -10/10 = -1 m/s². Using the equation: v = u + at, we get v = 5 + (-1) × 2 = 3 m/s. However, the force is applied in the opposite direction, so the final velocity is -1 m/s (considering the direction). Options A, C, and D are incorrect because they do not match the calculated value.
 

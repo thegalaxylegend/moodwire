@@ -9,6 +9,19 @@ manualReview: false
 ---
 
 
+## 📑 Table of Contents
+
+1. [📋 Table of Contents](#table-of-contents)
+2. [<a id="-key-concepts-and-timeline"></a>⚡ Key Concepts & Timeline](#a-id-key-concepts-and-timelinea-key-concepts-timeline)
+3. [<a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks](#a-id-the-5-mistakes-that-cost-marksa-the-5-mistakes-that-cost-marks)
+4. [<a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs](#a-id-3-solved-pyqsa-3-solved-pyqs)
+5. [<a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong](#a-id-the-one-thing-most-students-get-wronga-the-one-thing-most-students-get-wrong)
+6. [<a id="-ayushs-note"></a>👁️ Ayush's Note](#a-id-ayushs-notea-ayushs-note)
+7. [<a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box](#a-id-last-5-minutes-boxa-last-5-minutes-box)
+8. [<a id="-practice-mcqs"></a>📝 Practice MCQs](#a-id-practice-mcqsa-practice-mcqs)
+
+---
+
 ## 📋 Table of Contents
 
 - [⚡ Key Concepts & Timeline](#-key-concepts-and-timeline)
@@ -36,12 +49,11 @@ manualReview: false
   - [🎯 If you can only remember ONE thing](#-if-you-can-only-remember-one-thing)
 - [📝 Practice MCQs](#-practice-mcqs)
 
-
 ## <a id="-key-concepts-and-timeline"></a>⚡ Key Concepts & Timeline
 
 ### <a id="food-security-definition-and-importance"></a>Food Security: Definition and Importance
 
-* **Food Security**: Availability, accessibility, and affordability of food for all people at all times.
+* **[Food](/blog/improvement-in-food-resources-class-9-notes) Security**: Availability, accessibility, and affordability of [food](/blog/improvement-in-food-resources-class-9-notes) for all people at all times.
 
 * **Importance of Food Security**: 
  - Ensures nutritional well-being of the population
@@ -94,7 +106,7 @@ manualReview: false
 
 * **Water Scarcity**: Affecting irrigation and crop production.
 
-* Examiner's Trap: Overlooking the magnitude of food wastage in India.
+* Examiner's Trap: Overlooking the magnitude of food wastage in [India](/blog/nationalism-in-india-class-10-notes).
 
 ### <a id="timeline-of-key-events"></a>Timeline of Key Events
 
@@ -119,8 +131,6 @@ manualReview: false
 * **Deen Dayal Upadhyaya Antyodaya Yojana (2014)**: Empowering rural poor for food security.
 
 * Examiner's Trap: Ignoring the role of these schemes in achieving food security.
-
-
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -186,8 +196,6 @@ manualReview: false
 
 - 🔧 **The fix (30-second trick):** List the schemes: PDS, MDM, and NFSA.
 
-
-
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 ### <a id="3-solved-pyqs"></a>3 Solved PYQs
@@ -244,8 +252,6 @@ Step 1: Understand the concept of food security and insecurity.
 Step 2: Identify the correct term for lack of access to sufficient food.
 **Final Answer:** B) Food insecurity
 ⚡ **Speed trick:** Associate "insecurity" with lack of access to food.
-
-
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
@@ -308,15 +314,13 @@ By understanding the true meaning of food security and the factors that contribu
 
 - **Public Distribution System (PDS):** A government-run program that provides subsidized food grains to low-income households.
 
-
-
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 ### <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 - **🔮 The Hidden Pattern:** There is a non-obvious connection between Food Security in India and the chapter on **Poverty in India**. In 30%+ of papers, questions are asked that relate food security to poverty alleviation measures. Make sure to revise how food security initiatives like the Public Distribution System (PDS) and Mid-Day Meal Scheme help in reducing poverty.
 
-- **🎯 The "Always Check" Rule:** Examiners love to test the boundary condition of **definitions**. Always check if you can define key terms like food security, hunger, malnutrition, and vulnerability accurately. A well-defined term can fetch you 2-3 marks easily.
+- **🎯 The "Always Check" Rule:** Examiners love to test the boundary condition of **definitions**. Always check if you can define key terms like food security, hunger, malnutrition, and vulnerability accurately. A well-defined term can fetch you 2–3 marks easily.
 
 - **📊 PYQ Frequency Intel:** 
  
@@ -338,8 +342,6 @@ By understanding the true meaning of food security and the factors that contribu
 
 - Promote sustainable agriculture practices.
 
-
-
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 ### <a id="-core-formulas"></a>⚡ Core Formulas
@@ -358,7 +360,7 @@ By understanding the true meaning of food security and the factors that contribu
 
 - **National Food Security Act (NFSA)**: Enacted in 2013 to provide food security to the people of India.
 
-- **Targeted Public Distribution System (TPDS)**: Aimed at providing subsidized foodgrains to the poor and vulnerable sections of society.
+- **Targeted Public Distribution System (TPDS)**: Aimed at providing subsidized foodgrains to the poor and vulnerable sections of [society](/blog/forest-society-and-colonialism-class-9-notes).
 
 - **Mid-Day Meal Scheme**: A school meal program aimed at improving the nutritional status of school-age children.
 
@@ -371,76 +373,75 @@ By understanding the true meaning of food security and the factors that contribu
 ### <a id="-if-you-can-only-remember-one-thing"></a>🎯 If you can only remember ONE thing
 The key to food security in India is a multi-faceted approach that includes availability, accessibility, and affordability of food for all people at all times.
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
-
 **1. What is the main goal of the Public Distribution System (PDS) in India?**
-**A)**  To provide employment to rural people
-**B)**  To distribute food to urban areas only
-**C)**  To ensure food security for the poor
-**D)**  To increase food production
+**A)**   To provide employment to rural people
+**B)**   To distribute food to urban areas only
+**C)**   To ensure food security for the poor
+**D)**   To increase food production
 
 **Answer:** C) The main goal of PDS is to ensure food security for the poor by providing subsidized food grains. Option A is incorrect because while PDS may have some indirect impact on employment, it is not its main goal. Option B is incorrect because PDS aims to distribute food to both rural and urban areas, not just urban areas. Option D is incorrect because increasing food production is a separate goal of agricultural policies, not PDS.
-
-
 
 ---
 
 **2. Which of the following is a characteristic of a food-secure household?**
-**A)**  Access to a large variety of food
-**B)**  Ability to afford expensive food
-**C)**  Availability of food throughout the year
-**D)**  High income level
+**A)**   Access to a large variety of food
+**B)**   Ability to afford expensive food
+**C)**   Availability of food throughout the year
+**D)**   High income level
 
 **Answer:** C) A food-secure household has access to sufficient food throughout the year. Option A is incorrect because while variety is important, it is not the defining characteristic of food security. Option B is incorrect because affordability is only one aspect of food security. Option D is incorrect because income level is not directly related to food security.
-
-
 
 ---
 
 **3. Assertion: Food insecurity is a major problem in rural areas. Reason: Rural areas have limited access to food markets.**
-**A)**  Both A and R are true and R explains A
-**B)**  Both A and R are true but R does not explain A
-**C)**  A is true but R is false
-**D)**  A is false but R is true
+**A)**   Both A and R are true and R explains A
+**B)**   Both A and R are true but R does not explain A
+**C)**   A is true but R is false
+**D)**   A is false but R is true
 
 **Answer:** A) Both the assertion and reason are true, and the reason explains why food insecurity is a major problem in rural areas. Rural areas often have limited access to food markets, making it difficult for people to access food, which leads to food insecurity.
-
-
 
 ---
 
 **4. What is the primary reason for food insecurity in India?**
-**A)**  Low food production
-**B)**  Inefficient distribution system
-**C)**  Poverty and lack of access to food
-**D)**  Natural disasters
+**A)**   Low food production
+**B)**   Inefficient distribution system
+**C)**   Poverty and lack of access to food
+**D)**   Natural disasters
 
 **Answer:** C) The primary reason for food insecurity in India is poverty and lack of access to food. While low food production, inefficient distribution system, and natural disasters can contribute to food insecurity, poverty and lack of access to food are the root causes. Many people in India cannot afford to buy food, making them food insecure.
-
-
 
 ---
 
 **5. Which government scheme aims to provide food security to the poor by providing subsidized food grains?**
-**A)**  National Rural Employment Guarantee Act (NREG
+**A)**   National Rural Employment Guarantee Act (NREG
 A)
 **
-B)**  Public Distribution System (PDS)
-**C)**  Mid-Day Meal Scheme
-**D)**  Integrated Child Development Services (ICDS)
+B)**   Public Distribution System (PDS)
+**C)**   Mid-Day Meal Scheme
+**D)**   Integrated Child Development Services (ICDS)
 
 **Answer:** B) The Public Distribution System (PDS) aims to provide food security to the poor by providing subsidized food grains. Option A is incorrect because NREGA provides employment, not food. Option C is incorrect because Mid-Day Meal Scheme provides meals to school children. Option D is incorrect because ICDS provides nutrition to children and pregnant women.
-
-
-
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-9/social-science/food-security-in-india) now and track your progress against thousands of students.
 
+> 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Food%20Security%20in%20India%20Class%209%20Social%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
+
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Nationalism in India Class 10 Social Science Recap — Grandmaster Guide](/blog/nationalism-in-india-class-10-notes)
+- 📖 [Improvement in Food Resources Class 9 Science Recap — Grandmaster Guide](/blog/improvement-in-food-resources-class-9-notes)
+- 📖 [The Best Christmas Present in the World Class 8 English Recap — Grandmaster Guide](/blog/the-best-christmas-present-in-the-world-class-8-notes)
+- 📖 [Forest Society and Colonialism Class 9 Social Science Recap — Grandmaster Guide](/blog/forest-society-and-colonialism-class-9-notes)

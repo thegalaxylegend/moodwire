@@ -287,7 +287,7 @@ B. Linked List
 C. Stack
 D. Graph
 
-**Answer:** D) A Graph is an example of a non-linear data structure, as it consists of nodes connected y edges, allowing for complex relationships between elements.
+**Answer:** D) A Graph is an example of a non-linear [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structure, as it consists of nodes connected y edges, allowing for complex relationships between elements.
 
 **5. What is the purpose of a Queue data structure?**
 A. To implement a Stack

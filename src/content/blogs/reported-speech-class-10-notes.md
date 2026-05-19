@@ -375,50 +375,50 @@ If you answered **"She said that she would attend the meeting."**: you are in th
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. If someone says, 'I will meet you at 5 o'clock,' and you want to tell your friend what they said, which of the following is correct?**
-**A)**         They said they will meet me at 5 o'clock.
-**B)**         They said they would meet me at 5 o'clock.
-**C)**         They said they meet me at 5 o'clock.
-**D)**         They said they are meeting me at 5 o'clock.
+**A)**          They said they will meet me at 5 o'clock.
+**B)**          They said they would meet me at 5 o'clock.
+**C)**          They said they meet me at 5 o'clock.
+**D)**          They said they are meeting me at 5 o'clock.
 
 **Answer:** B) The correct answer is B because when reporting someone's speech, we usually change the tense of the verb to match the time of reporting. Since 'will meet' is in the future tense and the reporting is done later, it changes to 'would meet' (the past conditional tense). Option A is incorrect because it doesn't change the tense. Option C is incorrect because it uses the present tense, which doesn't fit with the past reporting. Option D is incorrect because it uses the present continuous tense, which also doesn't fit.
 
 ---
 
 **2. A person says, 'I have been studying English for 3 years.' You want to report this to someone else. Which option is correct?**
-**A)**         They said they have been studying English for 3 years.
-**B)**         They said they had been studying English for 3 years.
-**C)**         They said they study English for 3 years.
-**D)**         They said they were studying English for 3 years.
+**A)**          They said they have been studying English for 3 years.
+**B)**          They said they had been studying English for 3 years.
+**C)**          They said they study English for 3 years.
+**D)**          They said they were studying English for 3 years.
 
 **Answer:** B) The correct answer is B because when reporting someone's speech, especially for the present perfect continuous tense ('have been studying'), it changes to the past perfect continuous tense ('had been studying') to maintain the correct timeline. Option A is incorrect because it keeps the present perfect continuous tense. Option C is incorrect because it changes to the simple present tense. Option D is incorrect because it changes to the past continuous tense.
 
 ---
 
 **3. If someone says, 'I will buy a book if I have enough money,' and you report it, which of the following is correct?**
-**A)**         They said they will buy a book if they have enough money.
-**B)**         They said they would buy a book if they had enough money.
-**C)**         They said they can buy a book if they have enough money.
-**D)**         They said they buy a book if they have enough money.
+**A)**          They said they will buy a book if they have enough money.
+**B)**          They said they would buy a book if they had enough money.
+**C)**          They said they can buy a book if they have enough money.
+**D)**          They said they buy a book if they have enough money.
 
 **Answer:** B) The correct answer is B because when reporting conditional sentences, both the condition and the result change tense. 'Will buy' changes to 'would buy' and 'have' changes to 'had'. Option A is incorrect because it doesn't change the tense. Option C is incorrect because it uses 'can', which changes the conditional nature. Option D is incorrect because it uses the present tense.
 
 ---
 
 **4. A person says, 'My friend is coming to visit me next week.' You report this as:**
-**A)**         They said their friend is coming to visit them next week.
-**B)**         They said their friend was coming to visit them the following week.
-**C)**         They said their friend is coming to visit them the following week.
-**D)**         They said their friend comes to visit them next week.
+**A)**          They said their friend is coming to visit them next week.
+**B)**          They said their friend was coming to visit them the following week.
+**C)**          They said their friend is coming to visit them the following week.
+**D)**          They said their friend comes to visit them next week.
 
 **Answer:** B) The correct answer is B because when reporting someone's speech, we change 'next week' to 'the following week' to reflect the change in time perspective [from](/blog/from-the-diary-of-anne-frank-class-10-notes) when the speech was made. We also change 'is coming' to 'was coming' to match the past reporting tense. Option A is incorrect because it doesn't adjust 'next week'. Option C is incorrect because it keeps 'is coming' in the present continuous. Option D is incorrect because it uses the simple present tense.
 
 ---
 
 **5. Someone says, 'By the time I arrived, they had already eaten dinner.' Reporting this involves changing:**
-**A)**         no tenses because it's a completed action.
-**B)**         only 'arrived' to 'arrive'.
-**C)**         tenses for both clauses.
-**D)**         only 'had eaten' to 'eat'.
+**A)**          no tenses because it's a completed action.
+**B)**          only 'arrived' to 'arrive'.
+**C)**          tenses for both clauses.
+**D)**          only 'had eaten' to 'eat'.
 
 **Answer:** C) The correct answer is C because when reporting speech, especially for complex sentences involving past actions, we typically change the tenses of both clauses to maintain consistency with the past reporting time. This means 'arrived' could change to 'had arrived' and 'had eaten' remains as is or changes to reflect a deeper past. Option A is incorrect because tenses often change. Option B is incorrect because it suggests changing only one verb. Option D is incorrect because it suggests changing 'had eaten' to the simple present 'eat', which doesn't fit.
 

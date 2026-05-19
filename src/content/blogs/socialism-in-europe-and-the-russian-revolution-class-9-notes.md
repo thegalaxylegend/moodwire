@@ -112,7 +112,7 @@ manualReview: false
 
 - 🔴 **What students write:** 1917 as the start of the Russian [Revolution](/blog/the-french-revolution-class-9-notes).
 
-- ✅ **What examiners expect:** Students to note that the Russian Revolution began in February 1917, with the February Revolution, and continued with the October Revolution in October 1917.
+- ✅ **What examiners expect:** Students to note that the Russian [Revolution](/blog/the-french-revolution-class-9-notes) began in February 1917, with the February [Revolution](/blog/the-french-revolution-class-9-notes), and continued with the October [Revolution](/blog/the-french-revolution-class-9-notes) in October 1917.
 
 - 💸 **Marks lost:** 2 marks
  
@@ -131,7 +131,7 @@ manualReview: false
 
 - 🔧 **The fix (30-second trick):** Bolsheviks = "Big Change Now"; Mensheviks = "Moderate Steps".
 
-- **Mistake 3 — Ignoring the Role of World War I:**
+- **Mistake 3 — Ignoring the Role of [World](/blog/pastoralists-in-the-modern-world-class-9-notes) War I:**
  
 
 - 🔴 **What students write:** The Russian Revolution as an isolated event.
@@ -277,7 +277,7 @@ By focusing on these critical details, you'll be well-prepared to tackle questio
 ### <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 - **🔮 The Hidden Pattern:** 
- Socialism in Europe and the Russian Revolution often connects with **Industrial Revolution** (30%+ of papers) in questions like: "How did socialist ideas spread in Europe post-Industrial Revolution?" or "What were the impacts of industrialization on socialist movements?"
+ Socialism in [Europe](/blog/the-rise-of-nationalism-in-europe-class-10-notes) and the Russian Revolution often connects with **Industrial Revolution** (30%+ of papers) in questions like: "How did socialist ideas spread in [Europe](/blog/the-rise-of-nationalism-in-europe-class-10-notes) post-Industrial Revolution?" or "What were the impacts of industrialization on socialist movements?"
 
 - **🎯 The "Always Check" Rule:** 
  When asked about **consequences** of a specific event or policy (e.g.
@@ -351,50 +351,50 @@ The Russian Revolution was a pivotal event in world history that led to the esta
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What was the main goal of the Bolsheviks during the Russian Revolution?**
-**A)**     To establish a monarchy
-**B)**     To establish a capitalist economy
-**C)**     To overthrow the provisional government
-**D)**     To create a socialist society
+**A)**      To establish a monarchy
+**B)**      To establish a capitalist economy
+**C)**      To overthrow the provisional government
+**D)**      To create a socialist society
 
 **Answer:** C) The Bolsheviks, led by Vladimir Lenin, aimed to overthrow the provisional government and seize power. Options A and B are incorrect as the Bolsheviks opposed monarchy and capitalism. Option D, while a long-term goal, was not the immediate main goal during the revolution.
 
 ---
 
 **2. In 1917, Russia's economy was in a state of crisis, with inflation rates reaching ① 100% ② 200% ③ 300% ④ 400%.**
-**A)**     ① 100%
-**B)**     ② 200%
-**C)**     ③ 300%
-**D)**     ④ 400%
+**A)**      ① 100%
+**B)**      ② 200%
+**C)**      ③ 300%
+**D)**      ④ 400%
 
 **Answer:** A) The correct answer is ② 200%. Russia's economy was severely affected by World War I, leading to high inflation. The other options are incorrect as 100% is too low, and 300% and 400% are too high.
 
 ---
 
 **3. The Treaty of Brest-Litovsk was signed between Russia and which country?**
-**A)**     Germany
-**B)**     France
-**C)**     United Kingdom
-**D)**     United States
+**A)**      Germany
+**B)**      France
+**C)**      United Kingdom
+**D)**      United States
 
 **Answer:** A) The Treaty of Brest-Litovsk was signed between Russia and Germany in 1918. This treaty marked Russia's exit from World War I. The other options are incorrect as France, the UK, and the US were allied powers and did not sign such a treaty with Russia.
 
 ---
 
 **4. The Russian Revolution led to the establishment of the world's first _______ government.**
-**A)**     capitalist
-**B)**     socialist
-**C)**     communist
-**D)**     monarchist
+**A)**      capitalist
+**B)**      socialist
+**C)**      communist
+**D)**      monarchist
 
 **Answer:** C) The Russian Revolution resulted in the establishment of the world's first communist government, led by the Bolsheviks. Option A is incorrect as the revolution opposed capitalism. Option B, socialist, is close but not precise; communist was the specific goal. Option D, monarchist, is incorrect as the revolution overthrew the monarchy.
 
 ---
 
 **5. Lenin's April Theses proposed which of the following?**
-**A)**     Immediate socialist revolution
-**B)**     Continuation of the war effort
-**C)**     Establishment of a constitutional monarchy
-**D)**     All power to the soviets
+**A)**      Immediate socialist revolution
+**B)**      Continuation of the war effort
+**C)**      Establishment of a constitutional monarchy
+**D)**      All power to the soviets
 
 **Answer:** D) Lenin's April Theses proposed 'All power to the soviets', which meant transferring power from the provisional government to the workers' and soldiers' councils (soviets). The other options are incorrect as Lenin's theses did not support immediate socialist revolution at that time, continuation of the war effort, or a constitutional monarchy.
 

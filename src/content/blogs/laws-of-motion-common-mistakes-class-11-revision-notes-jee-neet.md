@@ -46,7 +46,7 @@ manualReview: false
 ## 👁️ Ayush's Note
 - To solve problems ∈ laws of [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet), always start by drawing a free body diagram. This will help you identify all the forces acting on the object and make it easier to apply Newton's laws.
 - Always consider the system as a whole when applying conservation of momentum.
-- Make sure to use the correct equation for centripetal force: F = (mv²)/r.
+- Make sure to use the correct equation for centripetal [force](/blog/force-and-laws-of-motion-class-9-notes): F = (mv²)/r.
 - Pseudo force is a key concept ∈ laws of [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet). Make sure you understand it well.
 
 ## 🔁 Last 5 Minutes Box

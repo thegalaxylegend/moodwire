@@ -451,7 +451,7 @@ Political Parties (Class 10 Social Science).
 
 - 🔧 **The fix (30-second trick):** No Choice = No [Democracy](/blog/outcomes-of-democracy-class-10-notes). One-party = Non-democratic.
 
-- **Mistake 4 — The Vague "Internal Democracy" Description:**
+- **Mistake 4 — The Vague "Internal [Democracy](/blog/outcomes-of-democracy-class-10-notes)" Description:**
  
 
 - 🔴 **What students write:** "Parties don't follow rules" or "Leaders are too powerful." This is too informal for a Social Science paper.
@@ -519,7 +519,7 @@ Class 10, Social Science (Civics), Year 2026 (simulated/predicted based on 2018-
  * *Conflict Resolution:* Usually, the *final* instruction/Output Format Rules take precedence in LLM prompting. The prompt says "🚨 OUTPUT FORMAT RULES (violations break the website)" and explicitly forbids LaTeX and $ delimiters. I will follow the **Output Format Rules** (Unicode only, no LaTeX, no $).
 
  * *Question 1 (2026 CBSE):*
- * Q: Identify the type of party system where more than two parties have a reasonable chance of coming to power either alone or in alliance.
+ * Q: Identify the type of party system where more than two parties have a reasonable chance of coming to [power](/blog/power-sharing-class-10-notes) either alone or in alliance.
  * Trap: Thinking a multi-party system *always* results in a coalition.
  * Solution: Step 1: Analyze options (One-party, Two-party, Multi-party). Step 2: Match "more than two" with "Multi-party".
  * Final Answer: Multi-party system.
@@ -732,7 +732,7 @@ Class 10 CBSE (NCERT based).
  D) Acting as the Opposition to the government.
  * *Mnemonic:* F-L-O-P (Functions: Form govt, Laws, Opinion, Policy/Elections) vs.
 
-- **C-D-M-M (Challenges:** Choice/Meaningful, Dynasty, Money, Muscle). Actually, let's go simpler.
+- **C-D-M-M (Challenges:** Choice/Meaningful, Dynasty, [Money](/blog/money-and-credit-class-10-notes), Muscle). Actually, let's go simpler.
 
  * *Check Word Count:* Aiming for 400+.
  * *Check LaTeX:* Ensure no $ signs. Use Unicode.

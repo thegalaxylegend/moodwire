@@ -680,7 +680,7 @@ Class 10, Social Science (CBSE/NCERT).
  * *Constraint Check:* The prompt says "DO NOT use LaTeX" and "DO NOT use $ or delimiters" in the *final* rule, even though the *initial* rule said "LATEX RULE (ZERO TOLERANCE)".
  * *Conflict Resolution:* The "OUTPUT FORMAT RULES" at the end are the "Strict Academic Boundary/Zero Tolerance" rules. I must follow the *last* set of rules provided, which explicitly forbids LaTeX and $ delimiters, requiring Unicode instead.
 
- * **Q1 (2026 CBSE):** "Democracy is better than any other form of government because it promotes equality among citizens and guarantees individual rights." Is this statement true?
+ * **Q1 (2026 CBSE):** "Democracy is better than any other form of government because it promotes equality among citizens and guarantees individual [rights](/blog/consumer-rights-class-10-notes)." Is this statement true?
  * *Trap:* Students often argue that democracy is "perfect" or "guarantees" outcomes like economic equality, whereas democracy only provides the *mechanism* for citizens to demand it.
  * *Solution:* Analyze the distinction between 'procedural' democracy and 'substantive' outcomes.
  * *Speed trick:* Look for keywords like "guarantees" vs "provides opportunity".
@@ -1287,7 +1287,7 @@ No introductions, no filler, no prose paragraphs, bullets only.
  *Refined Traps:*
  
 
-- ❌ Democracy = Economic Development → ✅ Democracy = Political Accountability and Dignity.
+- ❌ Democracy = Economic Development → ✅ Democracy = [Political](/blog/political-parties-class-10-notes) Accountability and Dignity.
 
 - ❌ Dictatorship = Better for stability → ✅ Democracy = Better for long-term legitimacy and conflict resolution.
 
@@ -1559,7 +1559,7 @@ No introductions, no filler, no prose paragraphs, bullets only.
 - ❌ A government's success is measured by the speed of its decision-making → ✅ A democratic government's success is measured by how accountable, responsive, and legitimate its decisions are.
 
 ### <a id="-if-you-can-only-remember-one-thing"></a>🎯 If you can only remember ONE thing:
-Democracy's ultimate success is measured by its ability to uphold human dignity and provide a legitimate, accountable framework for people to participate in power.
+Democracy's ultimate success is measured by its ability to uphold human dignity and provide a legitimate, accountable framework for people to participate in [power](/blog/power-sharing-class-10-notes).
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 

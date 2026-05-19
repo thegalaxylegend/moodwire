@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-05-18T04:11:36.398Z",
+  "generatedAt": "2026-05-19T03:40:07.870Z",
   "dateRange": {
-    "startDate": "2026-04-18",
-    "endDate": "2026-05-18"
+    "startDate": "2026-04-19",
+    "endDate": "2026-05-19"
   },
-  "totalRows": 15,
+  "totalRows": 16,
   "opportunities": 2,
   "globalTopKeywords": [
     {
       "query": "crack jee, neet & upsc with ai: the 2026 study strategy ai d3v day india",
-      "impressions": 428,
+      "impressions": 441,
       "clicks": 0
     },
     {
@@ -155,14 +155,14 @@
       "isOpportunity": true
     },
     "https://examcompass.pages.dev/neet/": {
-      "impressions": 118,
+      "impressions": 132,
       "clicks": 0,
       "ctr": 0,
-      "position": 5.4,
+      "position": 4.7,
       "topQueries": [
         {
           "query": "crack jee, neet & upsc with ai: the 2026 study strategy ai d3v day india",
-          "impressions": 115,
+          "impressions": 128,
           "clicks": 0,
           "ctr": 0,
           "position": 5.7
@@ -187,6 +187,13 @@
           "clicks": 0,
           "ctr": 0,
           "position": 3
+        },
+        {
+          "query": "neet?",
+          "impressions": 1,
+          "clicks": 0,
+          "ctr": 0,
+          "position": 2
         }
       ],
       "isOpportunity": true

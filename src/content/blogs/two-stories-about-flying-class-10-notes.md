@@ -361,50 +361,50 @@ This technique will help you quickly and accurately identify the tone of a story
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What was the main reason for the young seagull's reluctance to fly?**
-**A)**             Fear of falling
-**B)**             Lack of food
-**C)**             Injury to wing
-**D)**             Unfamiliar surroundings
+**A)**              Fear of falling
+**B)**              Lack of food
+**C)**              Injury to wing
+**D)**              Unfamiliar surroundings
 
 **Answer:** A) The young seagull was afraid to fly because of his fear of falling. The other options are not directly related to the seagull's reluctance to fly. Lack of food was a consequence of his not flying, injury to wing was not mentioned, and unfamiliar surroundings were not the primary reason.
 
 ---
 
 **2. How many times did the mother seagull try to encourage her young to fly?**
-**A)**             Once
-**B)**             Twice
-**C)**             Thrice
-**D)**             Many times
+**A)**              Once
+**B)**              Twice
+**C)**              Thrice
+**D)**              Many times
 
 **Answer:** D) The mother seagull tried many times to encourage her young to fly, as evident [from](/blog/from-the-diary-of-anne-frank-class-10-notes) the story. The other options are not accurate representations of the events in the story.
 
 ---
 
 **3. What was the turning point in the young seagull's learning to fly?**
-**A)**             When he saw his siblings flying
-**B)**             When his mother stopped feeding him
-**C)**             When he was left alone on the ledge
-**D)**             When he saw a fish below
+**A)**              When he saw his siblings flying
+**B)**              When his mother stopped feeding him
+**C)**              When he was left alone on the ledge
+**D)**              When he saw a fish below
 
 **Answer:** B) The turning point was when his mother stopped feeding him, which forced him to take the plunge and fly. The other options, although related to the story, were not the direct cause of his decision to fly.
 
 ---
 
 **4. What was the distance between the ledge and the sea below?**
-**A)**             A few feet
-**B)**             A few meters
-**C)**             Twenty feet
-**D)**             Hundred feet
+**A)**              A few feet
+**B)**              A few meters
+**C)**              Twenty feet
+**D)**              Hundred feet
 
 **Answer:** C) The story mentions that the ledge was twenty feet above the sea. The other options do not accurately represent the distance.
 
 ---
 
 **5. How did the young seagull feel when he finally flew?**
-**A)**             Scared
-**B)**             Relieved
-**C)**             Exhausted
-**D)**             Triumphant
+**A)**              Scared
+**B)**              Relieved
+**C)**              Exhausted
+**D)**              Triumphant
 
 **Answer:** D) The young seagull felt triumphant when he finally flew, as he had overcome his fears and achieved his goal. The other options do not accurately capture his emotions at that moment.
 

@@ -44,7 +44,7 @@ manualReview: false
   Step 2: Solve the first equation for x: x = (7 + 4y)/3
   Step 3: Substitute x into the second equation: 5((7 + 4y)/3) + 2y = 17
   Step 4: Simplify and solve for y: (35 + 20y)/3 + 2y = 17 => 35 + 20y + 6y = 51 => 26y = 16 => y = 8/13
-  Step 5: Substitute y back into one of the original equations to find x: x = (7 + 4(8/13))/3 => x = (91 + 32)/39 => x = 123/39 => x = 41/13
+  Step 5: Substitute y back into one of the original [equations](/blog/quadratic-equations-class-10-notes) to find x: x = (7 + 4(8/13))/3 => x = (91 + 32)/39 => x = 123/39 => x = 41/13
 
 ## 🧠 The One Thing Most Students Get Wrong
 - Most students get the concept of dependent and independent equations wrong, and they are not able to identify when the equations have a unique solution or infinitely many solutions

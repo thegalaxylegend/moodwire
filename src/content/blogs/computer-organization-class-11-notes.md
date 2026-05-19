@@ -315,7 +315,7 @@ The following table summarizes the key components of computer organization and t
 To perform arithmetic operations
 To execute instructions
 To manage [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) transfer between devices
-To regulate and manage the flow of data
+To regulate and manage the flow of [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards)
 
 **Answer:**
 D) The Control Unit regulates and manages the flow of data y fetching instructions, decoding them, n then executing them. It is responsible for controlling the flow of data within the computer system.

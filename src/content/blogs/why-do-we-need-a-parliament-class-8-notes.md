@@ -73,7 +73,7 @@ Examiner's Trap: Remember that a coalition government is formed when multiple pa
 - **Judicial Function Formula:** J = (number of judicial decisions made) / (total number of cases) — J is the judicial function factor, number of judicial decisions made is the number of decisions made by the judicial branch, total number of cases is the total number of cases heard by the judicial branch
 Examiner's Trap: Be careful when distinguishing between the different functions of parliament, as they often overlap.
 
-#### **Decision Making**
+#### **Decision-Making**
 
 - **Simple Majority Formula:** S = (number of votes in favor) > (number of votes against) — S is the simple majority factor, number of votes in favor is the number of votes in favor of a decision, number of votes against is the number of votes against a decision
 
@@ -332,7 +332,7 @@ To answer questions about the benefits of parliamentary democracy within 30 seco
 
 - **Participation**: Citizens elect representatives.
 
-- **Protection**: Rights of citizens are safeguarded.
+- **Protection**: [Rights](/blog/consumer-rights-class-10-notes) of citizens are safeguarded.
 
 - **Peaceful Change**: Allows for smooth transfer of power.
 
@@ -370,52 +370,52 @@ The **Parliament** is the highest law-making body in a country and is composed o
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the main function of the Parliament in a democratic system?**
-**A)**  To elect the President
-**B)**  To make laws for the country
-**C)**  To control the Judiciary
-**D)**  To manage the economy
+**A)**   To elect the President
+**B)**   To make laws for the country
+**C)**   To control the Judiciary
+**D)**   To manage the economy
 
 **Answer:** B) The Parliament's primary role is to make laws for the country, which is essential for governing and regulating various aspects of [society](/blog/forest-society-and-colonialism-class-9-notes). Option A is incorrect because electing the President is not the Parliament's function; it's done through other electoral processes. Option C is wrong because controlling the Judiciary is not the Parliament's role; the Judiciary is independent. Option D is incorrect because managing the economy is a broader responsibility involving multiple branches of government.
 
 ---
 
 **2. If a bill is passed by both Houses of Parliament with 120 members voting in favor and 40 members voting against, what is the outcome?**
-**A)**  The bill is rejected
-**B)**  The bill is passed
-**C)**  The bill needs re-voting
-**D)**  The bill is sent to the President
+**A)**   The bill is rejected
+**B)**   The bill is passed
+**C)**   The bill needs re-voting
+**D)**   The bill is sent to the President
 
 **Answer:** B) For a bill to be passed, it needs to have a majority vote. Since 120 members voted in favor and 40 against, the bill has a majority and is passed. Option A is incorrect because the bill has a clear majority. Option C is wrong because re-voting is not required when there's a clear majority. Option D is incorrect because the bill is sent to the President for assent after being passed by both Houses.
 
 ---
 
 **3. What is the term for the maximum number of members in the Lok Sabha?**
-**A)**  552 members
-**B)**  250 members
-**C)**  500 members
-**D)**  750 members
+**A)**   552 members
+**B)**   250 members
+**C)**   500 members
+**D)**   750 members
 
 **Answer:** A) The Lok Sabha can have a maximum of 552 members, as per the Constitution of India. Option B is incorrect because 250 members is the maximum number for the Rajya Sabha. Options C and D are wrong because they exceed the constitutional limit for the Lok Sabha.
 
 ---
 
 **4. A Parliament session is scheduled to start at 10:00 AM. If it starts 30 minutes late, and the Speaker allows 1/4 of the scheduled 2-hour debate time for questions, how many minutes are allocated for questions?**
-**A)**  15 minutes
-**B)**  30 minutes
-**C)**  45 minutes
-**D)**  60 minutes
+**A)**   15 minutes
+**B)**   30 minutes
+**C)**   45 minutes
+**D)**   60 minutes
 
 **Answer:** B) The scheduled debate time is 2 hours, which equals 120 minutes. 1/4 of 120 minutes is 30 minutes. Therefore, 30 minutes are allocated for questions. Option A is incorrect because 15 minutes is half of 30 minutes. Options C and D are wrong because they exceed the calculated time for questions.
 
 ---
 
 **5. In a parliamentary system, who is accountable to the Parliament?**
-**A)**  The President
-**B)**  The Prime Minister and Council of Ministers
-**C)**  The Judiciary
-**D)**  The Bureaucracy
+**A)**   The President
+**B)**   The Prime Minister and Council of Ministers
+**C)**   The Judiciary
+**D)**   The Bureaucracy
 
-**Answer:** B) In a parliamentary system, the Prime Minister and the Council of Ministers are collectively accountable to the Parliament. This ensures that the executive branch remains responsible to the elected representatives. Option A is incorrect because while the President has some responsibilities, direct accountability to Parliament is not one of them. Options C and D are wrong because the Judiciary and Bureaucracy have different accountability mechanisms.
+**Answer:** B) In a parliamentary system, the Prime Minister and the Council of Ministers is collectively accountable to the Parliament. This ensures that the executive branch remains responsible to the elected representatives. Option A is incorrect because while the President has some responsibilities, direct accountability to Parliament is not one of them. Options C and D are wrong because the Judiciary and Bureaucracy have different accountability mechanisms.
 
 ---
 
