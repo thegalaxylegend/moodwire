@@ -11,6 +11,42 @@ export interface Blog {
 
 export const blogs: Blog[] = [
     {
+        "id": "the-best-christmas-present-in-the-world-class-8-notes",
+        "title": "The Best Christmas Present in the World Class 8 English Recap — Grandmaster Guide",
+        "description": "The Best Christmas Present in the World Class 8 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-19.",
+        "category": "Exam Notes",
+        "date": "2026-05-19",
+        "readTime": "15 min read",
+        "image": "/blog-images/the-best-christmas-present-in-the-world-class-8-notes.webp"
+    },
+    {
+        "id": "reproduction-in-animals-class-8-notes",
+        "title": "Reproduction in Animals Class 8 Science Recap — Grandmaster Guide",
+        "description": "Reproduction in Animals Class 8 Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-19.",
+        "category": "Exam Notes",
+        "date": "2026-05-19",
+        "readTime": "15 min read",
+        "image": "/blog-images/reproduction-in-animals-class-8-notes.webp"
+    },
+    {
+        "id": "food-security-in-india-class-9-notes",
+        "title": "Food Security in India Class 9 Social Science Recap — Grandmaster Guide",
+        "description": "Food Security in India Class 9 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-19.",
+        "category": "Exam Notes",
+        "date": "2026-05-19",
+        "readTime": "15 min read",
+        "image": "/blog-images/food-security-in-india-class-9-notes.webp"
+    },
+    {
+        "id": "why-do-we-need-a-parliament-class-8-notes",
+        "title": "Why Do We Need a Parliament? Class 8 Social Science Recap — Grandmaster Guide",
+        "description": "Why Do We Need a Parliament? Class 8 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-18.",
+        "category": "Exam Notes",
+        "date": "2026-05-18",
+        "readTime": "15 min read",
+        "image": "/blog-images/why-do-we-need-a-parliament-class-8-notes.webp"
+    },
+    {
         "id": "the-story-of-village-palampur-class-9-notes",
         "title": "The Story of Village Palampur Class 9 Social Science Recap — Grandmaster Guide",
         "description": "The Story of Village Palampur Class 9 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-18.",
@@ -29,24 +65,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/pastoralists-in-the-modern-world-class-9-notes.webp"
     },
     {
-        "id": "why-do-we-need-a-parliament-class-8-notes",
-        "title": "Why Do We Need a Parliament? Class 8 Social Science Recap — Grandmaster Guide",
-        "description": "Why Do We Need a Parliament? Class 8 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-18.",
-        "category": "Exam Notes",
-        "date": "2026-05-18",
-        "readTime": "15 min read",
-        "image": "/blog-images/why-do-we-need-a-parliament-class-8-notes.webp"
-    },
-    {
-        "id": "a-truly-beautiful-mind-class-9-notes",
-        "title": "A Truly Beautiful Mind Class 9 English Recap — Grandmaster Guide",
-        "description": "A Truly Beautiful Mind Class 9 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-17.",
-        "category": "Exam Notes",
-        "date": "2026-05-17",
-        "readTime": "15 min read",
-        "image": "/blog-images/a-truly-beautiful-mind-class-9-notes.webp"
-    },
-    {
         "id": "tribals-dikus-and-the-vision-of-a-golden-age-class-8-notes",
         "title": "Tribals, Dikus and the Vision of a Golden Age Class 8 Social Science Recap — Grandmaster Guide",
         "description": "Tribals, Dikus and the Vision of a Golden Age Class 8 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-17.",
@@ -63,6 +81,15 @@ export const blogs: Blog[] = [
         "date": "2026-05-17",
         "readTime": "15 min read",
         "image": "/blog-images/poverty-as-a-challenge-class-9-notes.webp"
+    },
+    {
+        "id": "a-truly-beautiful-mind-class-9-notes",
+        "title": "A Truly Beautiful Mind Class 9 English Recap — Grandmaster Guide",
+        "description": "A Truly Beautiful Mind Class 9 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-17.",
+        "category": "Exam Notes",
+        "date": "2026-05-17",
+        "readTime": "15 min read",
+        "image": "/blog-images/a-truly-beautiful-mind-class-9-notes.webp"
     },
     {
         "id": "socialism-in-europe-and-the-russian-revolution-class-9-notes",
@@ -677,6 +704,24 @@ export const blogs: Blog[] = [
         "image": "/blog-images/acids-bases-and-salts-class-10-notes.webp"
     },
     {
+        "id": "wave-optics-class-12-notes",
+        "title": "Wave Optics Class 12 Physics Revision — Grandmaster Guide",
+        "description": "Wave Optics Class 12 Physics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "category": "Exam Notes",
+        "date": "2026-04-20",
+        "readTime": "15 min read",
+        "image": "/blog-images/wave-optics-class-12-notes.webp"
+    },
+    {
+        "id": "theory-of-computation-class-12-notes",
+        "title": "Theory Of Computation Class 12 Exam Prep Revision — Grandmaster Guide",
+        "description": "Theory Of Computation Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "category": "Exam Notes",
+        "date": "2026-04-20",
+        "readTime": "15 min read",
+        "image": "/blog-images/theory-of-computation-class-12-notes.webp"
+    },
+    {
         "id": "triangles-class-10-notes",
         "title": "Triangles Class 10 Exam Prep Revision — Grandmaster Guide",
         "description": "Triangles Class 10 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
@@ -704,22 +749,31 @@ export const blogs: Blog[] = [
         "image": "/blog-images/vector-algebra-class-12-notes.webp"
     },
     {
-        "id": "wave-optics-class-12-notes",
-        "title": "Wave Optics Class 12 Physics Revision — Grandmaster Guide",
-        "description": "Wave Optics Class 12 Physics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "id": "strategies-for-enhancement-in-food-production-class-12-notes",
+        "title": "Strategies For Enhancement In Food Production Class 12 Exam Prep Revision — Grandmaster Guide",
+        "description": "Strategies For Enhancement In Food Production Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
         "category": "Exam Notes",
         "date": "2026-04-20",
         "readTime": "15 min read",
-        "image": "/blog-images/wave-optics-class-12-notes.webp"
+        "image": "/blog-images/strategies-for-enhancement-in-food-production-class-12-notes.webp"
     },
     {
-        "id": "theory-of-computation-class-12-notes",
-        "title": "Theory Of Computation Class 12 Exam Prep Revision — Grandmaster Guide",
-        "description": "Theory Of Computation Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "id": "surface-chemistry-class-12-notes",
+        "title": "Surface Chemistry Class 12 Chemistry Revision — Grandmaster Guide",
+        "description": "Surface Chemistry Class 12 Chemistry Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
         "category": "Exam Notes",
         "date": "2026-04-20",
         "readTime": "15 min read",
-        "image": "/blog-images/theory-of-computation-class-12-notes.webp"
+        "image": "/blog-images/surface-chemistry-class-12-notes.webp"
+    },
+    {
+        "id": "semiconductor-electronics-class-12-notes",
+        "title": "Semiconductor Electronics Class 12 Physics Revision — Grandmaster Guide",
+        "description": "Semiconductor Electronics Class 12 Physics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "category": "Exam Notes",
+        "date": "2026-04-20",
+        "readTime": "15 min read",
+        "image": "/blog-images/semiconductor-electronics-class-12-notes.webp"
     },
     {
         "id": "sexual-reproduction-in-flowering-plants-class-12-notes",
@@ -756,24 +810,6 @@ export const blogs: Blog[] = [
         "date": "2026-04-20",
         "readTime": "15 min read",
         "image": "/blog-images/squares-and-square-roots-class-8-notes.webp"
-    },
-    {
-        "id": "strategies-for-enhancement-in-food-production-class-12-notes",
-        "title": "Strategies For Enhancement In Food Production Class 12 Exam Prep Revision — Grandmaster Guide",
-        "description": "Strategies For Enhancement In Food Production Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
-        "category": "Exam Notes",
-        "date": "2026-04-20",
-        "readTime": "15 min read",
-        "image": "/blog-images/strategies-for-enhancement-in-food-production-class-12-notes.webp"
-    },
-    {
-        "id": "surface-chemistry-class-12-notes",
-        "title": "Surface Chemistry Class 12 Chemistry Revision — Grandmaster Guide",
-        "description": "Surface Chemistry Class 12 Chemistry Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
-        "category": "Exam Notes",
-        "date": "2026-04-20",
-        "readTime": "15 min read",
-        "image": "/blog-images/surface-chemistry-class-12-notes.webp"
     },
     {
         "id": "quadratic-equations-class-10-notes",
@@ -830,24 +866,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/reproductive-health-class-12-notes.webp"
     },
     {
-        "id": "semiconductor-electronics-class-12-notes",
-        "title": "Semiconductor Electronics Class 12 Physics Revision — Grandmaster Guide",
-        "description": "Semiconductor Electronics Class 12 Physics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
-        "category": "Exam Notes",
-        "date": "2026-04-20",
-        "readTime": "15 min read",
-        "image": "/blog-images/semiconductor-electronics-class-12-notes.webp"
-    },
-    {
-        "id": "principles-of-inheritance-and-variation-class-12-notes",
-        "title": "Principles Of Inheritance And Variation Class 12 Exam Prep Revision — Grandmaster Guide",
-        "description": "Principles Of Inheritance And Variation Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
-        "category": "Exam Notes",
-        "date": "2026-04-20",
-        "readTime": "15 min read",
-        "image": "/blog-images/principles-of-inheritance-and-variation-class-12-notes.webp"
-    },
-    {
         "id": "polymers-class-12-notes",
         "title": "Polymers Class 12 Exam Prep Revision — Grandmaster Guide",
         "description": "Polymers Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
@@ -864,6 +882,15 @@ export const blogs: Blog[] = [
         "date": "2026-04-20",
         "readTime": "15 min read",
         "image": "/blog-images/polynomials-class-10-notes.webp"
+    },
+    {
+        "id": "principles-of-inheritance-and-variation-class-12-notes",
+        "title": "Principles Of Inheritance And Variation Class 12 Exam Prep Revision — Grandmaster Guide",
+        "description": "Principles Of Inheritance And Variation Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "category": "Exam Notes",
+        "date": "2026-04-20",
+        "readTime": "15 min read",
+        "image": "/blog-images/principles-of-inheritance-and-variation-class-12-notes.webp"
     },
     {
         "id": "nuclei-class-12-notes",
@@ -1046,6 +1073,15 @@ export const blogs: Blog[] = [
         "image": "/blog-images/inverse-trigonometric-functions-class-12-notes.webp"
     },
     {
+        "id": "cubes-and-cube-roots-class-8-notes",
+        "title": "Cubes And Cube Roots 8 Class 8 Exam Prep Revision — Grandmaster Guide",
+        "description": "Cubes And Cube Roots 8 Class 8 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "category": "Exam Notes",
+        "date": "2026-04-20",
+        "readTime": "15 min read",
+        "image": "/blog-images/cubes-and-cube-roots-class-8-notes.webp"
+    },
+    {
         "id": "data-handling-class-8-notes",
         "title": "Data Handling 8 Class 8 Exam Prep Revision — Grandmaster Guide",
         "description": "Data Handling 8 Class 8 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
@@ -1197,15 +1233,6 @@ export const blogs: Blog[] = [
         "date": "2026-04-20",
         "readTime": "15 min read",
         "image": "/blog-images/coordination-compounds-class-12-notes.webp"
-    },
-    {
-        "id": "cubes-and-cube-roots-class-8-notes",
-        "title": "Cubes And Cube Roots 8 Class 8 Exam Prep Revision — Grandmaster Guide",
-        "description": "Cubes And Cube Roots 8 Class 8 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
-        "category": "Exam Notes",
-        "date": "2026-04-20",
-        "readTime": "15 min read",
-        "image": "/blog-images/cubes-and-cube-roots-class-8-notes.webp"
     },
     {
         "id": "application-of-derivatives-class-12-notes",
@@ -1658,15 +1685,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/planning-in-india-class-11-revision-notes-jee-neet.webp"
     },
     {
-        "id": "physical-world-class-11-revision-notes-jee-neet",
-        "title": "Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
-        "category": "Revision",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/physical-world-class-11-revision-notes-jee-neet.webp"
-    },
-    {
         "id": "photosynthesis-in-higher-plants-class-11-revision-notes-neet",
         "title": "Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
         "description": "Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
@@ -1674,6 +1692,15 @@ export const blogs: Blog[] = [
         "date": "2026-03-28",
         "readTime": "15 min read",
         "image": "/blog-images/photosynthesis-in-higher-plants-class-11-revision-notes-neet.webp"
+    },
+    {
+        "id": "physical-world-class-11-revision-notes-jee-neet",
+        "title": "Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
+        "category": "Revision",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/physical-world-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "permutations-combinations-class-11-revision-notes-jee",
@@ -1721,15 +1748,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/neural-control-and-coordination-class-11-revision-notes-neet.webp"
     },
     {
-        "id": "neet-2026-weightage-prediction-class-11-revision-notes-neet",
-        "title": "2026 Weightage Prediction Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide",
-        "description": "2026 Weightage Prediction Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
-        "category": "Revision",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/neet-2026-weightage-prediction-class-11-revision-notes-neet.webp"
-    },
-    {
         "id": "neet-biology-80-20-rule-class-11-revision-notes-neet",
         "title": "Biology 80 20 Rule Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
         "description": "Biology 80 20 Rule Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
@@ -1737,6 +1755,15 @@ export const blogs: Blog[] = [
         "date": "2026-03-28",
         "readTime": "15 min read",
         "image": "/blog-images/neet-biology-80-20-rule-class-11-revision-notes-neet.webp"
+    },
+    {
+        "id": "neet-2026-weightage-prediction-class-11-revision-notes-neet",
+        "title": "2026 Weightage Prediction Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide",
+        "description": "2026 Weightage Prediction Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
+        "category": "Revision",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/neet-2026-weightage-prediction-class-11-revision-notes-neet.webp"
     },
     {
         "id": "moving-charges-magnetism-class-11-revision-notes-neet",
@@ -2072,15 +2099,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/constitutional-framework-class-11-revision-notes-cbse.webp"
     },
     {
-        "id": "computer-organization-class-11-notes",
-        "title": "Computer Organization Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide",
-        "description": "Computer Organization Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
-        "category": "Revision",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/computer-organization-class-11-notes.webp"
-    },
-    {
         "id": "conic-sections-class-11-revision-notes-jee",
         "title": "Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
         "description": "Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
@@ -2088,6 +2106,15 @@ export const blogs: Blog[] = [
         "date": "2026-03-28",
         "readTime": "15 min read",
         "image": "/blog-images/conic-sections-class-11-revision-notes-jee.webp"
+    },
+    {
+        "id": "computer-organization-class-11-notes",
+        "title": "Computer Organization Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide",
+        "description": "Computer Organization Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
+        "category": "Revision",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/computer-organization-class-11-notes.webp"
     },
     {
         "id": "complex-numbers-class-11-revision-notes-jee-neet",
