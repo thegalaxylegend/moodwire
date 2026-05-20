@@ -56,3 +56,7 @@ scratch/daily_limits.json
 # scratch/processed_hashes.json  ← DO NOT ignore
 # scratch/distribution_report.json ← DO NOT ignore
 
+
+# Wrangler local state (never commit)
+.wrangler/
+
