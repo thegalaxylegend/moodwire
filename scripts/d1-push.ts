@@ -42,51 +42,21 @@ async function d1Query(sql: string): Promise<any> {
 }
 
 function parseSQLStatements(content: string): string[] {
-  // Split by ); which ends each INSERT statement
-  // Each statement is a complete INSERT...VALUES(...);
+  const separator = 'INSERT OR IGNORE INTO questions (';
+  const parts = content.split(separator);
   const statements: string[] = [];
-  let current = '';
-  let depth = 0;
-  let inString = false;
-  let stringChar = '';
-
-  for (let i = 0; i < content.length; i++) {
-    const ch = content[i];
-    const prev = content[i - 1];
-
-    if (!inString && (ch === "'" || ch === '"')) {
-      inString = true;
-      stringChar = ch;
-    } else if (inString && ch === stringChar && prev !== '\\') {
-      // Check for escaped quote in SQL: ''
-      if (stringChar === "'" && content[i + 1] === "'") {
-        current += ch;
-        i++; // skip the doubled quote
-        current += ch;
-        continue;
+  
+  for (let i = 1; i < parts.length; i++) {
+    const stmt = separator + parts[i].trim();
+    if (stmt.endsWith(');')) {
+      statements.push(stmt);
+    } else {
+      const lastIndex = stmt.lastIndexOf(');');
+      if (lastIndex !== -1) {
+        statements.push(stmt.substring(0, lastIndex + 2));
       }
-      inString = false;
-    }
-
-    if (!inString) {
-      if (ch === '(') depth++;
-      else if (ch === ')') depth--;
-    }
-
-    current += ch;
-
-    // End of statement: ); at depth 0
-    if (!inString && ch === ';' && depth === 0) {
-      const trimmed = current.trim();
-      if (trimmed.startsWith('INSERT') || trimmed.startsWith('--')) {
-        if (trimmed.startsWith('INSERT')) {
-          statements.push(trimmed);
-        }
-      }
-      current = '';
     }
   }
-
   return statements;
 }
 
