@@ -329,100 +329,100 @@ How to never forget this:
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. Globalization = rac{International Trade}{GDP} What is the approximate value of global trade as a percentage of global GDP in 2020?**
-**A)**                      10%
-**B)**                      20%
-**C)**                      30%
-**D)**                      40%
+**A)**                       10%
+**B)**                       20%
+**C)**                       30%
+**D)**                       40%
 
 **Answer:** B) Option A is incorrect because 10% is too low. Option C is incorrect because 30% is too high. Option D is incorrect because 40% is too high. The correct answer is 20%, which is a reasonable estimate based on the International Monetary Fund's data.
 
 ---
 
 **2. Which of the following is NOT a characteristic of a global city?**
-**A)**                      High population density
-**B)**                      Strong economic ties with other countries
-**C)**                      Cultural homogenization
-**D)**                      Low per capita income
+**A)**                       High population density
+**B)**                       Strong economic ties with other countries
+**C)**                       Cultural homogenization
+**D)**                       Low per capita income
 
 **Answer:** D) Option A is incorrect because high population density is a characteristic of global cities. Option B is incorrect because strong economic ties with other countries are a key feature of global cities. Option C is incorrect because cultural homogenization is a consequence of globalization. The correct answer is D, low per capita income, because global cities are typically characterized by high levels of economic [development](/blog/resources-and-development-class-10-notes).
 
 ---
 
 **3. GDP_{per capita} = rac{GDP}{Population} What is the approximate GDP per capita of India in 2020?**
-**A)**                      $1,000
-**B)**                      $2,000
-**C)**                      $3,000
-**D)**                      $4,000
+**A)**                       $1,000
+**B)**                       $2,000
+**C)**                       $3,000
+**D)**                       $4,000
 
 **Answer:** B) Option A is incorrect because $1,000 is too low. Option C is incorrect because $3,000 is too high. Option D is incorrect because $4,000 is too high. The correct answer is $2,000, which is a reasonable estimate based on the World Bank's data.
 
 ---
 
 **4. What is the term for the process by which a company moves its operations to a foreign country to take advantage of cheaper labor and [resources](/blog/management-of-natural-resources-class-10-notes)?**
-**A)**                      Outsourcing
-**B)**                      Offshoring
-**C)**                      Globalization
-**D)**                      Multinational Corporation
+**A)**                       Outsourcing
+**B)**                       Offshoring
+**C)**                       Globalization
+**D)**                       Multinational Corporation
 
 **Answer:** B) Option A is incorrect because outsourcing refers to the contracting of a company's operations to a third-party provider. Option C is incorrect because globalization is a broader process that encompasses many aspects of international trade and investment. Option D is incorrect because a multinational corporation is a company that operates in multiple countries, but the term does not specifically refer to the process of moving operations abroad.
 
 ---
 
 **5. MNCs = rac{Foreign Direct Investment}{GDP} What is the approximate value of multinational corporations as a percentage of global GDP in 2020?**
-**A)**                      5%
-**B)**                      10%
-**C)**                      15%
-**D)**                      20%
+**A)**                       5%
+**B)**                       10%
+**C)**                       15%
+**D)**                       20%
 
 **Answer:** B) Option A is incorrect because 5% is too low. Option C is incorrect because 15% is too high. Option D is incorrect because 20% is too high. The correct answer is 10%, which is a reasonable estimate based on the United Nations Conference on Trade and [Development](/blog/resources-and-development-class-10-notes)'s data.
 
 ---
 
 **6. What is the term for the process by which a country adapts its economy and institutions to meet the challenges of globalization?**
-**A)**                      Globalization
-**B)**                      Liberalization
-**C)**                      Capitalism
-**D)**                      Development
+**A)**                       Globalization
+**B)**                       Liberalization
+**C)**                       Capitalism
+**D)**                       Development
 
 **Answer:** B) Option A is incorrect because globalization is a broader process that encompasses many aspects of international trade and investment. Option C is incorrect because capitalism is an economic system, not a process of adaptation. Option D is incorrect because development is a broader concept that refers to the process of economic and social progress.
 
 ---
 
 **7. Global Value Chain = rac{[Manufacturing](/blog/manufacturing-industries-class-10-notes)}{Total Trade} What is the approximate value of the global value chain as a percentage of total trade in 2020?**
-**A)**                      20%
-**B)**                      30%
-**C)**                      40%
-**D)**                      50%
+**A)**                       20%
+**B)**                       30%
+**C)**                       40%
+**D)**                       50%
 
 **Answer:** B) Option A is incorrect because 20% is too low. Option C is incorrect because 40% is too high. Option D is incorrect because 50% is too high. The correct answer is 30%, which is a reasonable estimate based on the [World](/blog/print-culture-and-the-modern-world-class-10-notes) Trade Organization's data.
 
 ---
 
 **8. What is the term for the idea that economic policies should be designed to benefit the interests of the global economy, rather than just the interests of a single country or region?**
-**A)**                      Globalization
-**B)**                      Free Trade
-**C)**                      Multilateralism
-**D)**                      Neoliberalism
+**A)**                       Globalization
+**B)**                       Free Trade
+**C)**                       Multilateralism
+**D)**                       Neoliberalism
 
 **Answer:** C) Option A is incorrect because globalization is a broader process that encompasses many aspects of international trade and investment. Option B is incorrect because free trade is a specific policy approach that aims to reduce trade barriers, but it does not necessarily prioritize the interests of the global economy. Option D is incorrect because neoliberalism is an economic ideology that emphasizes free market principles, but it does not necessarily prioritize the interests of the global economy.
 
 ---
 
 **9. FDI_{Inflow} = rac{Foreign Direct Investment}{GDP} What is the approximate value of foreign direct investment inflow as a percentage of global GDP in 2020?**
-**A)**                      5%
-**B)**                      10%
-**C)**                      15%
-**D)**                      20%
+**A)**                       5%
+**B)**                       10%
+**C)**                       15%
+**D)**                       20%
 
 **Answer:** B) Option A is incorrect because 5% is too low. Option C is incorrect because 15% is too high. Option D is incorrect because 20% is too high. The correct answer is 10%, which is a reasonable estimate based on the United Nations Conference on Trade and Development's data.
 
 ---
 
 **10. What is the term for the idea that countries should prioritize their own economic interests and policies over the interests of the global economy?**
-**A)**                      Protectionism
-**B)**                      Nationalism
-**C)**                      Isolationism
-**D)**                      Globalization
+**A)**                       Protectionism
+**B)**                       Nationalism
+**C)**                       Isolationism
+**D)**                       Globalization
 
 **Answer:** A) Option B is incorrect because nationalism is an ideology that emphasizes the importance of national identity and interests, but it is not necessarily opposed to globalization. Option C is incorrect because isolationism is a policy approach that seeks to avoid international trade and investment, but it is not necessarily opposed to globalization. Option D is incorrect because globalization is a broader process that encompasses many aspects of international trade and investment.
 

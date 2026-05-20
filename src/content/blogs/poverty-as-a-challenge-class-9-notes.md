@@ -365,50 +365,50 @@ Poverty is a complex challenge that requires a multi-faceted approach including 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the poverty line in India calculated on the basis of?**
-**A)**    Daily calorie intake of 2400 calories in rural areas and 2100 calories in urban areas
-**B)**    Daily calorie intake of 2100 calories in rural areas and 2400 calories in urban areas
-**C)**    Monthly expenditure of ₹ 1000 in rural areas and ₹ 1500 in urban areas
-**D)**    Percentage of population living below ₹ 5 per day
+**A)**     Daily calorie intake of 2400 calories in rural areas and 2100 calories in urban areas
+**B)**     Daily calorie intake of 2100 calories in rural areas and 2400 calories in urban areas
+**C)**     Monthly expenditure of ₹ 1000 in rural areas and ₹ 1500 in urban areas
+**D)**     Percentage of population living below ₹ 5 per day
 
 **Answer:** A) The poverty line in India is calculated on the basis of daily calorie intake, which is 2400 calories in rural areas and 2100 calories in urban areas. This is because the calorie requirements are different in rural and urban areas due to differences in lifestyle and physical activity. Option B is incorrect because it reverses the calorie intake for rural and urban areas. Option C is incorrect because it refers to monthly expenditure, which is not the basis for calculating the poverty line. Option D is incorrect because it refers to a percentage of population living below a certain amount per day, which is not the correct method.
 
 ---
 
 **2. If a person is consuming 2000 calories per day and the poverty line is 2400 calories per day, what percentage of the poverty line is the person's consumption?**
-**A)**    80%
-**B)**    83.33%
-**C)**    90%
-**D)**    120%
+**A)**     80%
+**B)**     83.33%
+**C)**     90%
+**D)**     120%
 
 **Answer:** B) To find the percentage of the poverty line that the person's consumption represents, we need to divide the person's consumption by the poverty line and multiply by 100. So, (2000 / 2400) × 100 = 83.33%. Option A is incorrect because it is less than the correct answer. Option C is incorrect because it is more than the correct answer. Option D is incorrect because it is more than 100%.
 
 ---
 
 **3. Which of the following is a reason for poverty in India?**
-**A)**    Lack of education and skills
-**B)**    High population growth rate
-**C)**    Inadequate infrastructure
-**D)**    All of the above
+**A)**     Lack of education and skills
+**B)**     High population growth rate
+**C)**     Inadequate infrastructure
+**D)**     All of the above
 
 **Answer:** D) All of the above are reasons for poverty in India. Lack of education and skills leads to unemployment and low income. High population growth rate puts pressure on resources and increases the number of people competing for limited jobs. Inadequate infrastructure, such as lack of roads, ports, and communication systems, hampers economic growth and development. Options A, B, and C are incorrect because they are only partial reasons.
 
 ---
 
 **4. If the total income of a country is ₹ 100 crore and the total population is 10 crore, and 20% of the population lives below the poverty line, how much income does the poor population have?**
-**A)**    ₹ 10 crore
-**B)**    ₹ 20 crore
-**C)**    ₹ 16 crore
-**D)**    ₹ 8 crore
+**A)**     ₹ 10 crore
+**B)**     ₹ 20 crore
+**C)**     ₹ 16 crore
+**D)**     ₹ 8 crore
 
 **Answer:** B) 20% of the population is 2 crore people. If the total income is ₹ 100 crore and assuming it is distributed equally among the population, then each person has ₹ 10. The poor population of 2 crore people has 2 × ₹ 10 crore = ₹ 20 crore. Option A is incorrect because it is less than the correct answer. Option C is incorrect because it is less than the correct answer. Option D is incorrect because it is half of the correct answer.
 
 ---
 
 **5. What is the definition of poverty?**
-**A)**    A situation where a person is unable to meet their basic needs
-**B)**    A situation where a person has a low income
-**C)**    A situation where a person is unemployed
-**D)**    A situation where a person has no assets
+**A)**     A situation where a person is unable to meet their basic needs
+**B)**     A situation where a person has a low income
+**C)**     A situation where a person is unemployed
+**D)**     A situation where a person has no assets
 
 **Answer:** A) Poverty is defined as a situation where a person is unable to meet their basic needs, such as food, clothing, and shelter. This definition encompasses not just income, but also access to resources and services. Option B is incorrect because having a low income is only one aspect of poverty. Option C is incorrect because unemployment is not the same as poverty. Option D is incorrect because having no assets is not the same as being poor.
 

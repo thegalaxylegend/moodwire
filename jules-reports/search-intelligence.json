@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-05-19T03:40:07.870Z",
+  "generatedAt": "2026-05-20T03:40:22.468Z",
   "dateRange": {
-    "startDate": "2026-04-19",
-    "endDate": "2026-05-19"
+    "startDate": "2026-04-20",
+    "endDate": "2026-05-20"
   },
-  "totalRows": 16,
+  "totalRows": 17,
   "opportunities": 2,
   "globalTopKeywords": [
     {
       "query": "crack jee, neet & upsc with ai: the 2026 study strategy ai d3v day india",
-      "impressions": 441,
+      "impressions": 443,
       "clicks": 0
     },
     {
@@ -33,6 +33,11 @@
       "clicks": 0
     },
     {
+      "query": "entrance exam preparation",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
       "query": "exam",
       "impressions": 1,
       "clicks": 0
@@ -49,11 +54,6 @@
     },
     {
       "query": "jee subject",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "neet 2027 difficulty prediction",
       "impressions": 1,
       "clicks": 0
     }
@@ -90,10 +90,10 @@
       "isOpportunity": false
     },
     "https://examcompass.pages.dev/jee-mains/": {
-      "impressions": 328,
+      "impressions": 329,
       "clicks": 0,
       "ctr": 0,
-      "position": 5.3,
+      "position": 4.9,
       "topQueries": [
         {
           "query": "crack jee, neet & upsc with ai: the 2026 study strategy ai d3v day india",
@@ -122,6 +122,13 @@
           "clicks": 0,
           "ctr": 0,
           "position": 5
+        },
+        {
+          "query": "entrance exam preparation",
+          "impressions": 1,
+          "clicks": 0,
+          "ctr": 0,
+          "position": 2
         },
         {
           "query": "exam",
@@ -155,14 +162,14 @@
       "isOpportunity": true
     },
     "https://examcompass.pages.dev/neet/": {
-      "impressions": 132,
+      "impressions": 134,
       "clicks": 0,
       "ctr": 0,
       "position": 4.7,
       "topQueries": [
         {
           "query": "crack jee, neet & upsc with ai: the 2026 study strategy ai d3v day india",
-          "impressions": 128,
+          "impressions": 130,
           "clicks": 0,
           "ctr": 0,
           "position": 5.7

@@ -1,7 +1,7 @@
 {
   "overall": {
     "total": 320,
-    "completed": 248,
+    "completed": 251,
     "percentage": 78
   },
   "bySubject": {
@@ -42,8 +42,8 @@
     },
     "English": {
       "total": 33,
-      "completed": 16,
-      "percentage": 48
+      "completed": 19,
+      "percentage": 58
     }
   },
   "byClass": {
@@ -64,8 +64,8 @@
     },
     "Class 9": {
       "total": 53,
-      "completed": 33,
-      "percentage": 62
+      "completed": 36,
+      "percentage": 68
     },
     "Class 8": {
       "total": 64,

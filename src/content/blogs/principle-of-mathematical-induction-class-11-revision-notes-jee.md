@@ -184,7 +184,7 @@ The choice between weak and strong [induction](/blog/mathematical-induction-clas
 
 In summary, mastering both weak and strong induction techniques is essential for success and [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) induction problems, particularly for Class 11 students preparing for exams and 2026. By understanding the principles and applications of both methods, students can develop a deep appreciation for the power and elegance of [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) induction.
 
-Here is a comparison table for weak and strong induction:
+Here is a comparison table for weak and strong [induction](/blog/mathematical-induction-class-11-revision-notes-jee-neet):
 
 | Type of Induction | Inductive Hypothesis | Application | Example |
 | --- | --- | --- | --- |

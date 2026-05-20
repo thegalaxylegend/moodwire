@@ -373,7 +373,7 @@ The French Revolution is a critical chapter in the Class 9 Social Science syllab
 - 9 November 1799 = end of the French Revolution with the Coup of 18 Brumaire
  
 
-- 1791 = year Thomas Paine published Rights of Man
+- 1791 = year Thomas Paine published [Rights](/blog/consumer-rights-class-10-notes) of Man
  
 
 - 1856 = year Alexis de Tocqueville published L'ancien régime et la Révolution
@@ -405,50 +405,50 @@ The French Revolution is a critical chapter in the Class 9 Social Science syllab
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What was the main reason for the financial crisis in France before the French Revolution?**
-**A)**       The burden of taxation on the common people
-**B)**       The extravagant lifestyle of King Louis XVI
-**C)**       The costs of wars with Britain and its allies
-**D)**       The decline of the French economy due to the Industrial Revolution
+**A)**        The burden of taxation on the common people
+**B)**        The extravagant lifestyle of King Louis XVI
+**C)**        The costs of wars with Britain and its allies
+**D)**        The decline of the French economy due to the Industrial Revolution
 
 **Answer:** C) The costs of wars with Britain and its allies led to a significant increase in France's debt, which contributed to the financial crisis. The burden of taxation on the common people (A) was a result, not the cause. The extravagant lifestyle of King Louis XVI (B) was a minor factor. The Industrial Revolution (D) had not yet begun in France.
 
 ---
 
 **2. Which of the following was a key idea of the French Revolution?**
-**A)**       The divine right of kings
-**B)**       The importance of social hierarchy
-**C)**       The principles of liberty, equality, and fraternity
-**D)**       The power of the Catholic Church
+**A)**        The divine right of kings
+**B)**        The importance of social hierarchy
+**C)**        The principles of liberty, equality, and fraternity
+**D)**        The power of the Catholic Church
 
 **Answer:** C) The French Revolution emphasized the principles of liberty, equality, and fraternity. The divine right of kings (A) and the importance of social hierarchy (B) were actually challenged by the Revolution. The power of the Catholic Church (D) was not a key idea of the Revolution.
 
 ---
 
 **3. What was the name of the document adopted by the National Assembly in 1789, which enshrined the principles of the French Revolution?**
-**A)**       The Declaration of the Rights of Man and of the Citizen
-**B)**       The Constitution of 1791
-**C)**       The Treaty of Versailles
-**D)**       The Magna Carta
+**A)**        The Declaration of the Rights of Man and of the Citizen
+**B)**        The Constitution of 1791
+**C)**        The Treaty of Versailles
+**D)**        The Magna Carta
 
 **Answer:** A) The Declaration of the Rights of Man and of the Citizen was adopted by the National Assembly in 1789. The Constitution of 1791 (B) was a later document. The Treaty of Versailles (C) was a peace treaty. The Magna Carta (D) was an English document from the 13th century.
 
 ---
 
 **4. A shopkeeper in Paris sells 250 units of a product at a price of €20 each. If he incurs a cost of €5 per unit, what is his total profit?**
-**A)**       €3750
-**B)**       €2500
-**C)**       €3000
-**D)**       €4250
+**A)**        €3750
+**B)**        €2500
+**C)**        €3000
+**D)**        €4250
 
 **Answer:** B) The total revenue is 250 × €20 = €5000. The total cost is 250 × €5 = €1250. The total profit is €5000 - €1250 = €3750. However, among the given options, only €3750 is close when calculated as: 250 * (20 - 5) = 250 * 15 = €3750.
 
 ---
 
 **5. The Estates-General of 1789 was significant because**
-**A)**       It marked the beginning of the French Revolution
-**B)**       It led to the rise of Napoleon Bonaparte
-**C)**       It resulted in the execution of King Louis XVI
-**D)**       It was a meeting of the French nobility
+**A)**        It marked the beginning of the French Revolution
+**B)**        It led to the rise of Napoleon Bonaparte
+**C)**        It resulted in the execution of King Louis XVI
+**D)**        It was a meeting of the French nobility
 
 **Answer:** A) The Estates-General of 1789 marked the beginning of the French Revolution. It was a representative assembly that was convened to address the financial crisis. The rise of Napoleon Bonaparte (B) occurred later. The execution of King Louis XVI (C) occurred in 1793. The Estates-General was not just a meeting of the French nobility (D).
 

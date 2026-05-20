@@ -332,50 +332,50 @@ The force acting on an object is equal to its mass times its acceleration, F = m
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. A car of mass 1500 kg is moving with a velocity of 25 m/s. What is its momentum?**
-**A)**        37500 kg m/s
-**B)**        30000 kg m/s
-**C)**        25000 kg m/s
-**D)**        20000 kg m/s
+**A)**         37500 kg m/s
+**B)**         30000 kg m/s
+**C)**         25000 kg m/s
+**D)**         20000 kg m/s
 
 **Answer:** A) The momentum of an object is given by p = m × v. Here, m = 1500 kg and v = 25 m/s. So, p = 1500 × 25 = 37500 kg m/s. Options B, C, and D are incorrect because they result from incorrect calculations or assumptions.
 
 ---
 
 **2. A force of 10 And acts on a body of mass 2 kg for 5 seconds. What is the change in momentum?**
-**A)**        20 kg m/s
-**B)**        30 kg m/s
-**C)**        50 kg m/s
-**D)**        10 kg m/s
+**A)**         20 kg m/s
+**B)**         30 kg m/s
+**C)**         50 kg m/s
+**D)**         10 kg m/s
 
 **Answer:** A) The change in momentum is given by Δp = F × t. Here, F = 10 And and t = 5 seconds. So, Δp = 10 × 5 = 50 kg m/s. However, we must consider the mass and the actual effect. The correct calculation directly uses the force and time, yielding 50 kg m/s. But let's assume an error in previous thought; the impulse-momentum theorem directly supports 10*5=50. Other options misinterpret the formula or its application.
 
 ---
 
 **3. What is the acceleration of a car that moves with a uniform velocity of 20 m/s?**
-**A)**        2 m/s²
-**B)**        1 m/s²
-**C)**        0 m/s²
-**D)**        4 m/s²
+**A)**         2 m/s²
+**B)**         1 m/s²
+**C)**         0 m/s²
+**D)**         4 m/s²
 
 **Answer:** C) An object moving with uniform velocity has zero acceleration because acceleration is the rate of change of velocity. Since the velocity is constant at 20 m/s, the acceleration is 0 m/s². Options A, B, and D suggest a change in velocity over time, which is not present here.
 
 ---
 
 **4. A body of mass 5 kg is subjected to a force that changes its velocity from 4 m/s to 6 m/s in 2 seconds. What is the magnitude of the force?**
-**A)**        2 N
-**B)**        5 N
-**C)**        10 N
-**D)**        8 N
+**A)**         2 N
+**B)**         5 N
+**C)**         10 N
+**D)**         8 N
 
 **Answer:** A) First, find the acceleration: a = Δv / Δt = (6 - 4) / 2 = 1 m/s². Then, use F = m × a = 5 × 1 = 5 N. However, reviewing calculation confirms direct match with provided choices through F=ma; a=1 m/s²; hence 5*1=5N; option A (2N) seems incorrect based on miscalculation; actual correct calculation yields 5N.
 
 ---
 
 **5. An object moving with a velocity of 10 m/s is subjected to a uniform acceleration of 2 m/s² for 3 seconds. What will be its final velocity?**
-**A)**        14 m/s
-**B)**        16 m/s
-**C)**        20 m/s
-**D)**        10 m/s
+**A)**         14 m/s
+**B)**         16 m/s
+**C)**         20 m/s
+**D)**         10 m/s
 
 **Answer:** B) The final velocity is given by v = u + at, where u = 10 m/s, a = 2 m/s², and t = 3 seconds. So, v = 10 + 2 × 3 = 16 m/s. Options A, C, and D are incorrect because they do not correctly apply the formula or miscalculate the final velocity.
 

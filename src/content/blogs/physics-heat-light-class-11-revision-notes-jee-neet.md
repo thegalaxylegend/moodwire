@@ -1268,7 +1268,7 @@ JEE Advanced & NEET Grandmaster.
  * Rule: $Q = mL$ vs $Q = mc$\Delta$ T$. During phase change, \Delta$ T = 0$.
  * Shortcut: $P_1V_1^$\gamma$ = P_2V_2^\gamma$.
 
- *Wait, the prompt asks for "physics heat light class 11 revision notes jee neet".*
+ *Wait, the prompt asks for "[physics](/blog/physics-mechanics-class-11-revision-notes-jee-neet) heat light class 11 revision notes jee neet".*
  I will focus on:
  1. Thermodynamics/Heat (Class 11).
  2. Wave/Light properties (Class 11 Waves/Class 12 Optics overlap).

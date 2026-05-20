@@ -436,7 +436,7 @@ Continue your revision with these related guides:
 
 - **Array**: Collection of elements of same [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) type stored and contiguous memory locations.
    - **Linked List**: Dynamic collection of elements, where each element points to the next.
-   - **Stack**: LIFO (Last In First Out) data structure, where elements are added and removed from the top.
+   - **Stack**: LIFO (Last In First Out) [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structure, where elements are added and removed from the top.
    - **Queue**: FIFO (First In First Out) data structure, where elements are added to the end and removed from the front.
    - **Types of Linked Lists**: Singly Linked List, Doubly Linked List, Circular Linked List.
    - **Array Operations**: Traversal, Insertion, Deletion, Searching.

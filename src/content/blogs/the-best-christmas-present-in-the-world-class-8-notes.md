@@ -149,7 +149,7 @@ Answers:
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 ### <a id="the-5-mistakes-that-cost-marks"></a>The 5 Mistakes That Cost Marks
-As an examiner who has marked 10,000 scripts, I've identified the most common mistakes that cost students marks in "The Best Christmas Present in the World". Avoid these mistakes to maximize your score.
+As an examiner who has marked 10,000 scripts, I've identified the most common mistakes that cost students marks in "The Best Christmas Present in the [World](/blog/human-eye-and-colourful-world-class-10-notes)". Avoid these mistakes to maximize your score.
 
 - **Mistake 1 — Inconsistent Verb Tense:**
  
@@ -272,7 +272,7 @@ Step 2: Analyze the impact of the gift on the recipients.
 **Q3 (2018 CBSE):** 
 How did the soldiers react to the Christmas gift given by the narrator?
 
-- A) They were annoyed
+- A) [They](/blog/the-fun-they-had-class-9-notes) were annoyed
 
 - B) They were surprised and happy
 
@@ -412,50 +412,50 @@ The story "The Best Christmas Present in the World" revolves around a soldier's 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What was the narrator's Christmas present to his wife?**
-**A)**   A new piano
-**B)**   A beautiful gold clock
-**C)**   The best Christmas present in the world
-**D)**   A piano that belonged to her
+**A)**    A new piano
+**B)**    A beautiful gold clock
+**C)**    The best Christmas present in the world
+**D)**    A piano that belonged to her
 
 **Answer:** D) The narrator's Christmas present to his wife was the piano that belonged to her, which he had bought back for her. Option A is incorrect because although a piano is mentioned, it was not new. Option B is incorrect because the gold clock belonged to the narrator's boss. Option C is incorrect because although it's the title of the story, it's not the specific present mentioned.
 
 ---
 
 **2. Why did the narrator buy the old piano?**
-**A)**   To surprise his wife
-**B)**   Because it was a cheap Christmas present
-**C)**   To make his wife play the piano again
-**D)**   To donate to a charity
+**A)**    To surprise his wife
+**B)**    Because it was a cheap Christmas present
+**C)**    To make his wife play the piano again
+**D)**    To donate to a charity
 
 **Answer:** C) The narrator bought the old piano to make his wife play the piano again. Option A is incorrect because although his wife was surprised, it wasn't the reason he bought it. Option B is incorrect because the cost wasn't the motivation. Option D is incorrect because he bought it for his wife, not for charity.
 
 ---
 
 **3. What was the significance of the piano to the narrator's wife?**
-**A)**   It was her favorite instrument
-**B)**   It reminded her of her childhood
-**C)**   She used to play it daily
-**D)**   It was a gift from her husband
+**A)**    It was her favorite instrument
+**B)**    It reminded her of her childhood
+**C)**    She used to play it daily
+**D)**    It was a gift from her husband
 
 **Answer:** B) The piano reminded her of her childhood. Option A is incorrect because although she liked playing it, that's not the significance mentioned. Option C is incorrect because there's no mention of her playing it daily. Option D is incorrect because it was a gift from her father.
 
 ---
 
 **4. How did the narrator's wife react to the piano?**
-**A)**   She was angry
-**B)**   She was surprised and happy
-**C)**   She didn't care
-**D)**   She cried
+**A)**    She was angry
+**B)**    She was surprised and happy
+**C)**    She didn't care
+**D)**    She cried
 
 **Answer:** B) The narrator's wife was surprised and happy. Option A is incorrect because she wasn't angry. Option C is incorrect because she did care. Option D is incorrect because although she was emotional, it was happiness.
 
 ---
 
 **5. Who did the piano originally belong to?**
-**A)**   The narrator's wife
-**B)**   The narrator's boss
-**C)**   A music teacher
-**D)**   A young girl who died
+**A)**    The narrator's wife
+**B)**    The narrator's boss
+**C)**    A music teacher
+**D)**    A young [girl](/blog/the-little-girl-class-9-notes) who died
 
 **Answer:** D) The piano originally belonged to a young girl who died. Option A is incorrect because although it was bought for her, it wasn't hers originally. Option B is incorrect because the clock belonged to the boss. Option C is incorrect because there's no mention of a music teacher.
 

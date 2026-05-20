@@ -413,50 +413,50 @@ The process of reproduction in animals involves either internal or external fert
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the term for the process by which an organism produces offspring without the involvement of another organism?**
-**A)**   Sexual reproduction
-**B)**   Asexual reproduction
-**C)**   Budding
-**D)**   Fragmentation
+**A)**    Sexual reproduction
+**B)**    Asexual reproduction
+**C)**    Budding
+**D)**    Fragmentation
 
 **Answer:** B) Asexual reproduction is the correct term because it involves only one parent and does not require the fusion of gametes. Sexual reproduction involves two parents, budding is a type of asexual reproduction, and fragmentation is a type of asexual reproduction where an organism breaks into pieces to form new [organisms](/blog/diversity-in-living-organisms-class-9-notes).
 
 ---
 
 **2. In asexual reproduction, if a parent organism has a certain characteristic with a probability of  α = 0.6, what is the probability that the offspring will have the same characteristic?**
-**A)**   3
-**B)**   6
-**C)**   4
-**D)**   1
+**A)**    3
+**B)**    6
+**C)**    4
+**D)**    1
 
 **Answer:** B) The probability remains the same, 0.6, because in asexual reproduction, the offspring inherits all characteristics from a single parent without any mixing of genetic material. The other options are incorrect because they do not accurately reflect the probability of inheritance in asexual reproduction.
 
 ---
 
 **3. What is the term for the male reproductive cell in animals?**
-**A)**   Sperm
-**B)**   Egg
-**C)**   Zygote
-**D)**   Embryo
+**A)**    Sperm
+**B)**    Egg
+**C)**    Zygote
+**D)**    Embryo
 
 **Answer:** A) Sperm is the correct term for the male reproductive cell in animals. Egg is the female reproductive cell, zygote is the cell formed by the fusion of sperm and egg, and embryo is the early stage of development after fertilization.
 
 ---
 
 **4. If a female mammal has a menstrual cycle of 28 days and ovulates on day 14, what is the probability that she will ovulate on day 14 ± 2 days?**
-**A)**   1/28
-**B)**   1/14
-**C)**   3/28
-**D)**   1/2
+**A)**    1/28
+**B)**    1/14
+**C)**    3/28
+**D)**    1/2
 
 **Answer:** C) The probability is 3/28 because ovulation can occur on day 12, 14, or 16, which is 3 days out of the 28-day cycle. The other options do not accurately reflect the probability of ovulation within the given time frame.
 
 ---
 
 **5. In sexual reproduction, what is the term for the fusion of the male and female reproductive cells?**
-**A)**   Fertilization
-**B)**   Ovulation
-**C)**   Menstruation
-**D)**   Implantation
+**A)**    Fertilization
+**B)**    Ovulation
+**C)**    Menstruation
+**D)**    Implantation
 
 **Answer:** A) Fertilization is the correct term for the fusion of the male and female reproductive cells. Ovulation is the release of the egg, menstruation is the shedding of the uterine lining, and implantation is the attachment of the embryo to the uterus.
 

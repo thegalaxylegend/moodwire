@@ -461,7 +461,7 @@ Political Parties (Class 10 Social Science).
 
 - 💸 **Marks lost:** 2 marks.
 
-- 🔧 **The fix (30-second trick):** Link "Lack of Internal Democracy" directly to "Dynastic Succession."
+- 🔧 **The fix (30-second trick):** Link "Lack of Internal [Democracy](/blog/outcomes-of-democracy-class-10-notes)" directly to "Dynastic Succession."
 
 - **Mistake 5 — Misinterpreting the Role of the Opposition:**
  
@@ -579,7 +579,7 @@ Class 10, Social Science (Civics), Year 2026 (simulated/predicted based on 2018-
  **Q1 (2026 CBSE):** In a multi-party system, which of the following is a common outcome?
  (a) High political stability
  (b) Frequent formation of coalition governments
- (c) Only two major parties compete for power
+ (c) Only two major parties compete for [power](/blog/power-sharing-class-10-notes)
  (d) Direct rule by a single leader
  - 🪤 **Trap:** Students often assume "Multi-party" means "Stability," but in reality, many parties often lead to unstable coalitions.
  - 🧮 **Solution (Step-by-step):**
@@ -732,7 +732,7 @@ Class 10 CBSE (NCERT based).
  D) Acting as the Opposition to the government.
  * *Mnemonic:* F-L-O-P (Functions: Form govt, Laws, Opinion, Policy/Elections) vs.
 
-- **C-D-M-M (Challenges:** Choice/Meaningful, Dynasty, [Money](/blog/money-and-credit-class-10-notes), Muscle). Actually, let's go simpler.
+- **C-D-M-M (Challenges:** Choice/Meaningful, Dynasty, [Money](/blog/money-and-credit-class-10-notes), muscle). Actually, let's go simpler.
 
  * *Check Word Count:* Aiming for 400+.
  * *Check LaTeX:* Ensure no $ signs. Use Unicode.
@@ -773,7 +773,7 @@ Class 10 CBSE (NCERT based).
  | Category | Purpose | Examples (NCERT) |
  | :--- | :--- | :--- |
  | Functions | To make democracy work | Contesting, Laws, Govt, Opposition, Public Opinion |
- | Challenges | To identify systemic rot | Dynasty, Money/Muscle, Internal Democracy, Choice |
+ | Challenges | To identify systemic rot | Dynasty, [Money](/blog/money-and-credit-class-10-notes)/Muscle, Internal Democracy, Choice |
 
  * *Drafting the "How to never forget":* Use the "Doctor vs. Disease" analogy.
  Functions = The Doctor's duties (Treating, prescribing, diagnosing).

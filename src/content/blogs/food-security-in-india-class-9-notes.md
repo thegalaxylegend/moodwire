@@ -55,7 +55,7 @@ manualReview: false
 
 * **[Food](/blog/improvement-in-food-resources-class-9-notes) Security**: Availability, accessibility, and affordability of [food](/blog/improvement-in-food-resources-class-9-notes) for all people at all times.
 
-* **Importance of Food Security**: 
+* **Importance of [Food](/blog/improvement-in-food-resources-class-9-notes) Security**: 
  - Ensures nutritional well-being of the population
  - Reduces poverty and inequality
  - Promotes economic growth and stability
@@ -110,7 +110,7 @@ manualReview: false
 
 ### <a id="timeline-of-key-events"></a>Timeline of Key Events
 
-* **1947**: India gains independence, focus on food production and security begins.
+* **1947**: [India](/blog/nationalism-in-india-class-10-notes) gains independence, focus on food production and security begins.
 
 * **1960s**: Green Revolution transforms India's agricultural landscape.
 
@@ -376,52 +376,52 @@ The key to food security in India is a multi-faceted approach that includes avai
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the main goal of the Public Distribution System (PDS) in India?**
-**A)**   To provide employment to rural people
-**B)**   To distribute food to urban areas only
-**C)**   To ensure food security for the poor
-**D)**   To increase food production
+**A)**    To provide employment to rural people
+**B)**    To distribute food to urban areas only
+**C)**    To ensure food security for the poor
+**D)**    To increase food production
 
 **Answer:** C) The main goal of PDS is to ensure food security for the poor by providing subsidized food grains. Option A is incorrect because while PDS may have some indirect impact on employment, it is not its main goal. Option B is incorrect because PDS aims to distribute food to both rural and urban areas, not just urban areas. Option D is incorrect because increasing food production is a separate goal of agricultural policies, not PDS.
 
 ---
 
 **2. Which of the following is a characteristic of a food-secure household?**
-**A)**   Access to a large variety of food
-**B)**   Ability to afford expensive food
-**C)**   Availability of food throughout the year
-**D)**   High income level
+**A)**    Access to a large variety of food
+**B)**    Ability to afford expensive food
+**C)**    Availability of food throughout the year
+**D)**    High income level
 
 **Answer:** C) A food-secure household has access to sufficient food throughout the year. Option A is incorrect because while variety is important, it is not the defining characteristic of food security. Option B is incorrect because affordability is only one aspect of food security. Option D is incorrect because income level is not directly related to food security.
 
 ---
 
 **3. Assertion: Food insecurity is a major problem in rural areas. Reason: Rural areas have limited access to food markets.**
-**A)**   Both A and R are true and R explains A
-**B)**   Both A and R are true but R does not explain A
-**C)**   A is true but R is false
-**D)**   A is false but R is true
+**A)**    Both A and R are true and R explains A
+**B)**    Both A and R are true but R does not explain A
+**C)**    A is true but R is false
+**D)**    A is false but R is true
 
 **Answer:** A) Both the assertion and reason are true, and the reason explains why food insecurity is a major problem in rural areas. Rural areas often have limited access to food markets, making it difficult for people to access food, which leads to food insecurity.
 
 ---
 
 **4. What is the primary reason for food insecurity in India?**
-**A)**   Low food production
-**B)**   Inefficient distribution system
-**C)**   Poverty and lack of access to food
-**D)**   Natural disasters
+**A)**    Low food production
+**B)**    Inefficient distribution system
+**C)**    Poverty and lack of access to food
+**D)**    Natural disasters
 
 **Answer:** C) The primary reason for food insecurity in India is poverty and lack of access to food. While low food production, inefficient distribution system, and natural disasters can contribute to food insecurity, poverty and lack of access to food are the root causes. Many people in India cannot afford to buy food, making them food insecure.
 
 ---
 
 **5. Which government scheme aims to provide food security to the poor by providing subsidized food grains?**
-**A)**   National Rural Employment Guarantee Act (NREG
+**A)**    National Rural Employment Guarantee Act (NREG
 A)
 **
-B)**   Public Distribution System (PDS)
-**C)**   Mid-Day Meal Scheme
-**D)**   Integrated Child Development Services (ICDS)
+B)**    Public Distribution System (PDS)
+**C)**    Mid-Day Meal Scheme
+**D)**    Integrated Child Development Services (ICDS)
 
 **Answer:** B) The Public Distribution System (PDS) aims to provide food security to the poor by providing subsidized food grains. Option A is incorrect because NREGA provides employment, not food. Option C is incorrect because Mid-Day Meal Scheme provides meals to school children. Option D is incorrect because ICDS provides nutrition to children and pregnant women.
 

@@ -701,7 +701,7 @@ Class 10, Social Science (CBSE/NCERT).
  * Check content: Strictly NCERT Class 10 Social Science.
 
  * *Q1 (Assertion-Reasoning):*
- Assertion (A): Democracy is better than other forms of government because it promotes equality among citizens and guarantees individual rights.
+ Assertion (A): Democracy is better than other forms of government because it promotes equality among citizens and guarantees individual [rights](/blog/consumer-rights-class-10-notes).
  Reason (R): Democracy provides a mechanism to resolve conflicts and accommodates social diversity.
  *Trap:* Students often mark 'A' as false because democracy doesn't *guarantee* economic equality, but the statement is about the *nature* of the system.
  *Solution:* Step 1: Evaluate A $\rightarrow$ Democracy aims for equality/rights. Step 2: Evaluate R $\rightarrow$ Conflict resolution is a core outcome. Step 3: Link $\rightarrow$ R explains why A is a strength.
@@ -1548,7 +1548,7 @@ No introductions, no filler, no prose paragraphs, bullets only.
 
 - Democracy is a "legitimate" government because it is based on the consent of the people, making it the most acceptable form of rule even if it is slow.
 
-- It is the only political system that provides a formal mechanism for the "correction of mistakes" through public debate and changes in leadership.
+- It is the only [political](/blog/political-parties-class-10-notes) system that provides a formal mechanism for the "correction of mistakes" through public debate and changes in leadership.
 
 - Democracy is superior in protecting the dignity and freedom of individual citizens, especially women and marginalized social groups.
 

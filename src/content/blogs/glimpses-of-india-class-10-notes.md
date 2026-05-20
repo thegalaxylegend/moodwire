@@ -275,7 +275,7 @@ What was the writer's opinion about the coffee estates in Coorg?
 
 ### <a id="diagnostic-question"></a>Diagnostic Question
 
-What is the primary focus of the chapter "Glimpses of India" in Class 10 English?
+What is the primary focus of the chapter "Glimpses of [India](/blog/nationalism-in-india-class-10-notes)" in Class 10 English?
 
 - **A) To provide a history of India
 B) To showcase India's diversity and culture through literary and artistic works
@@ -388,50 +388,50 @@ d) It indicates that the chapter is not relevant to the study of India
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What was the main reason for the British to introduce the English language in India?**
-**A)**             To promote Indian culture
-**B)**             To establish their rule and control
-**C)**             To improve education
-**D)**             To increase trade
+**A)**              To promote Indian culture
+**B)**              To establish their rule and control
+**C)**              To improve education
+**D)**              To increase trade
 
 **Answer:** B) The British introduced the English language in India primarily to establish their rule and control. This helped them to communicate effectively with Indians and to spread Western ideas and values. Option A is incorrect because the British were not interested in promoting Indian culture. Option C is also incorrect because while education was a byproduct, it was not the main reason. Option D is incorrect because trade was not directly related to the introduction of the English language.
 
 ---
 
 **2. Who was the author of the novel 'Indianness'?**
-**A)**             Salman Rushdie
-**B)**             K. Narayan
-**C)**             Jawaharlal Nehru
-**D)**             Khushwant Singh
+**A)**              Salman Rushdie
+**B)**              K. Narayan
+**C)**              Jawaharlal Nehru
+**D)**              Khushwant Singh
 
 **Answer:** B) R.K. Narayan was a renowned Indian author who wrote several novels and short stories. While he did write about Indian themes, 'Indianness' is not a widely known novel, making it a medium-level question. Option A is incorrect because Salman Rushdie is known for 'Midnight's Children'. Option C is incorrect because Jawaharlal Nehru was a politician and writer, but not known for this novel. Option D is incorrect because Khushwant Singh was a poet and writer, but not associated with this novel.
 
 ---
 
 **3. What was the approximate number of languages spoken in India at the time of independence?**
-**A)**             Around 100
-**B)**             Around 500
-**C)**             Around 1000
-**D)**             Over 2000
+**A)**              Around 100
+**B)**              Around 500
+**C)**              Around 1000
+**D)**              Over 2000
 
 **Answer:** C) At the time of India's independence, it is estimated that there were around 1000 languages spoken across the country. This reflects the linguistic diversity of India. Option A is incorrect because 100 languages would underestimate the diversity. Option B is incorrect because 500 languages is still a low estimate. Option D is incorrect because while India is diverse, over 2000 languages might be an overestimate.
 
 ---
 
 **4. The Indian National Congress was established in which year?**
-**A)**             1857
-**B)**             1885
-**C)**             1905
-**D)**             1947
+**A)**              1857
+**B)**              1885
+**C)**              1905
+**D)**              1947
 
 **Answer:** B) The Indian National Congress was established in 1885. This organization played a crucial role in India's struggle for independence. Option A is incorrect because 1857 is the year of the Indian Rebellion. Option C is incorrect because 1905 is the year of the Partition of Bengal. Option D is incorrect because 1947 is the year of India's independence.
 
 ---
 
 **5. A book costs ₹250. If it is sold at a 20% profit, what is the selling price?**
-**A)**             ₹200
-**B)**             ₹250
-**C)**             ₹300
-**D)**             ₹350
+**A)**              ₹200
+**B)**              ₹250
+**C)**              ₹300
+**D)**              ₹350
 
 **Answer:** C) To find the selling price with a 20% profit, calculate 20% of ₹250, which is 0.20 × ₹250 = ₹50. Add this to the cost price: ₹250 + ₹50 = ₹300. Option A is incorrect because it is less than the cost price. Option B is incorrect because it does not account for the profit. Option D is incorrect because it overestimates the profit.
 

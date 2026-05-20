@@ -407,10 +407,10 @@ Diversity in living organisms is the result of millions of years of evolution an
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the term for the variety of living organisms in a particular region?**
-**A)**         Species diversity
-**B)**         Genetic diversity
-**C)**         Ecosystem diversity
-**D)**         Population diversity
+**A)**          Species diversity
+**B)**          Genetic diversity
+**C)**          Ecosystem diversity
+**D)**          Population diversity
 
 **Answer:** A) Species diversity refers to the variety of different species present in a particular region. Genetic diversity refers to the variation within a species, ecosystem diversity refers to the variety of ecosystems, and population diversity is not a commonly used term. Therefore, options B, C, and D are incorrect.
 
@@ -418,30 +418,30 @@ Diversity in living organisms is the result of millions of years of evolution an
 
 **2. If a species has a population size of 500 and 20% of them are homozygous recessive (an
 a), what is the frequency of the recessive allele (a) in the population?**
-**A)**         2
-**B)**         4
-**C)**         6
-**D)**         8
+**A)**          2
+**B)**          4
+**C)**          6
+**D)**          8
 
 **Answer:** B) Using the Hardy-Weinberg principle, if 20% of the population is aa, then q² = 0.2. Taking the square root of both sides, q = √0.2 ≈ 0.447. However, among the given options, the closest value is 0.4 (or 40%), which makes option B the correct answer. Options A, C, and D are incorrect as they do not accurately represent the frequency of the recessive allele.
 
 ---
 
 **3. What is the main reason for the loss of biodiversity?**
-**A)**         Habitat destruction
-**B)**         Climate change
-**C)**         Overpopulation
-**D)**         Pollution
+**A)**          Habitat destruction
+**B)**          Climate change
+**C)**          Overpopulation
+**D)**          Pollution
 
 **Answer:** A) Habitat destruction is the main reason for the loss of biodiversity as it directly affects the natural habitats of various species, leading to their extinction. While climate change, overpopulation, and pollution also contribute to biodiversity loss, habitat destruction has the most immediate and drastic impact. Therefore, options B, C, and D are incorrect.
 
 ---
 
 **4. A [forest](/blog/forest-society-and-colonialism-class-9-notes) has 15 species of trees, 8 species of birds, and 5 species of insects. What is the total species richness of the [forest](/blog/forest-society-and-colonialism-class-9-notes)?**
-**A)**         15 + 8 + 5
-**B)**         15 × 8 × 5
-**C)**         15 + 8 × 5
-**D)**         15
+**A)**          15 + 8 + 5
+**B)**          15 × 8 × 5
+**C)**          15 + 8 × 5
+**D)**          15
 
 **Answer:** A) Species richness refers to the total number of different species present in an area. Therefore, adding the number of species of trees, birds, and insects gives the total species richness. So, 15 + 8 + 5 = 28. Option A correctly represents this calculation, making options B, C, and D incorrect.
 
@@ -449,10 +449,10 @@ a), what is the frequency of the recessive allele (a) in the population?**
 
 **5. In a DNA sequence, if the frequency of adenine (
 A) is 30% and guanine (G) is 20%, what is the frequency of thymine (T)?**
-**A)**         30%
-**B)**         20%
-**C)**         40%
-**D)**         50%
+**A)**          30%
+**B)**          20%
+**C)**          40%
+**D)**          50%
 
 **Answer:** C) According to Chargaff's rules, in DNA, A = T and G = C. Given A = 30%, then T must also be 30%. Since A + G + C + T = 100%, and G = 20%, C must also be 20%. This means A + T = 100% - (G + C) = 100% - 40% = 60%. Since A is 30%, T must be 30% as well, making the frequency of T equal to 30%, not among the direct options but leading to 40% being incorrect for T. The correct calculation directly gives T as 30%, making option C (40%) incorrect and clarifying that A’T=30%.
 

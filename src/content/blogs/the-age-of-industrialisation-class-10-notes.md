@@ -325,50 +325,50 @@ To crack The Age of Industrialisation, focus on the following:
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. The growth rate of industrial production in Britain between 1780 and 1850 was approximately $6%$ per annum. Which of the following factors contributed most to this growth?**
-**A)**                      Improvement in transportation systems
-**B)**                      Increased availability of natural [resources](/blog/forest-and-wildlife-resources-class-10-notes)
-**C)**                      Development of new industries and manufacturing processes
-**D)**                      [Rise](/blog/the-rise-of-nationalism-in-europe-class-10-notes) of international trade
+**A)**                       Improvement in transportation systems
+**B)**                       Increased availability of natural [resources](/blog/forest-and-wildlife-resources-class-10-notes)
+**C)**                       Development of new industries and manufacturing processes
+**D)**                       [Rise](/blog/the-rise-of-nationalism-in-europe-class-10-notes) of international trade
 
 **Answer:** D) This is the correct answer because the growth rate of industrial production in Britain between 1780 and 1850 was largely driven by the rise of international trade. The growth of industries such as textiles and shipbuilding, which were heavily dependent on international trade, contributed significantly to this growth. Option A is incorrect because while improvements in transportation systems did facilitate the growth of industry, they were not the primary factor. Option B is incorrect because the availability of natural [resources](/blog/forest-and-wildlife-resources-class-10-notes) did not increase significantly during this period. Option C is incorrect because while the development of new industries and manufacturing processes did occur, it was not the primary factor driving growth.
 
 ---
 
 **2. If a country's GDP at the beginning of the Industrial Revolution was $100$, and it grew at a rate of $2%$ per annum, what would be its GDP after 50 years?**
-**A)**                      $121.90$
-**B)**                      $125.98$
-**C)**                      $131.40$
-**D)**                      $140.84$
+**A)**                       $121.90$
+**B)**                       $125.98$
+**C)**                       $131.40$
+**D)**                       $140.84$
 
 **Answer:** D) To calculate the GDP after 50 years, we use the formula $A = P(1 + r)^n$, where $A$ is the amount after $n$ years, $P$ is the principal amount, $r$ is the growth rate, and $n$ is the number of years. Plugging in the values, we get $A = 100(1 + 0.02)^{50} approx 140.84$. This is the correct answer. Option A is incorrect because it is too low. Option B is incorrect because it is too high. Option C is incorrect because it is also too low.
 
 ---
 
 **3. Which of the following was a major consequence of the Industrial Revolution?**
-**A)**                      Increased production of goods
-**B)**                      Improved working conditions for workers
-**C)**                      Urbanization and the growth of cities
-**D)**                      Decreased use of natural [resources](/blog/forest-and-wildlife-resources-class-10-notes)
+**A)**                       Increased production of goods
+**B)**                       Improved working conditions for workers
+**C)**                       Urbanization and the growth of cities
+**D)**                       Decreased use of natural [resources](/blog/forest-and-wildlife-resources-class-10-notes)
 
 **Answer:** C) This is the correct answer because the Industrial Revolution led to a massive shift of people from rural areas to cities in search of work. The growth of cities was a major consequence of the Industrial Revolution. Option A is incorrect because while production of goods did increase, it was not a major consequence. Option B is incorrect because working conditions for workers actually worsened during the Industrial Revolution. Option D is incorrect because the use of natural [resources](/blog/forest-and-wildlife-resources-class-10-notes) actually increased during the Industrial Revolution.
 
 ---
 
 **4. If a factory owner invests $10,000$ in a machine that lasts for 5 years and has a scrap value of $2,000$, what is the annual depreciation of the machine?**
-**A)**                      $1,500$
-**B)**                      $2,000$
-**C)**                      $2,500$
-**D)**                      $3,000$
+**A)**                       $1,500$
+**B)**                       $2,000$
+**C)**                       $2,500$
+**D)**                       $3,000$
 
 **Answer:** A) To calculate the annual depreciation of the machine, we first need to find the total depreciation over 5 years. Total depreciation is equal to the initial investment minus the scrap value, which is $10,000 - 2,000 = 8,000$. Then, we divide this by 5 to get the annual depreciation: $8,000/5 = 1,600$. However, since depreciation is typically calculated as a percentage of the initial investment, we need to find the percentage depreciation. This is equal to $(8,000/10,000) 	imes 100% = 80%$. Then, we divide this by 5 to get the annual percentage depreciation: $80%/5 = 16%$. Finally, we multiply this by the initial investment to get the annual depreciation: $16% 	imes 10,000 = 1,600$. This is the correct answer. Option B is incorrect because it is too high. Option C is incorrect because it is also too high. Option D is incorrect because it is too low.
 
 ---
 
 **5. Which of the following was a major factor contributing to the growth of urban slums during the Industrial Revolution?**
-**A)**                      Increased availability of housing
-**B)**                      Improved sanitation and public health services
-**C)**                      Rapid growth of cities and influx of migrant workers
-**D)**                      Decreased poverty and unemployment
+**A)**                       Increased availability of housing
+**B)**                       Improved sanitation and public health services
+**C)**                       Rapid growth of cities and influx of migrant workers
+**D)**                       Decreased poverty and unemployment
 
 **Answer:** C) This is the correct answer because the rapid growth of cities and influx of migrant workers led to a shortage of housing, causing many people to live in slums. Option A is incorrect because housing was actually in short supply. Option B is incorrect because sanitation and public health services were not improved during this period. Option D is incorrect because poverty and unemployment actually increased during the Industrial Revolution.
 
