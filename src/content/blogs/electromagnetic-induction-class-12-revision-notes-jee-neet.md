@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/electromagnetic-induction-class-12-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 19, 2026*
+*Last Updated: May 20, 2026*
 
 ## 📑 Table of Contents
 

@@ -236,7 +236,7 @@ Step 2: Identify which option correctly lists the components.
 ⚡ **Speed trick:** Quickly recall that PDS includes both food grains and pulses.
 
 ---
-**Q3 (2022 CBSE):** What is the term used to describe the situation where people do not have access to sufficient food?
+**Q3 (2026 CBSE):** What is the term used to describe the situation where people do not have access to sufficient food?
 
 - A) Food surplus
 

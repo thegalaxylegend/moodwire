@@ -1,10 +1,10 @@
 {
   "meta-llama/llama-4-scout-17b-16e-instruct_2": {
-    "requests": 15,
+    "requests": 20,
     "lastReset": 1778813767113
   },
   "meta-llama/llama-4-scout-17b-16e-instruct_3": {
-    "requests": 22,
+    "requests": 28,
     "lastReset": 1778813767279
   },
   "llama-3.3-70b-versatile_4": {
@@ -12,11 +12,11 @@
     "lastReset": 1778813767451
   },
   "meta-llama/llama-4-scout-17b-16e-instruct_4": {
-    "requests": 18,
+    "requests": 22,
     "lastReset": 1778813767578
   },
   "meta-llama/llama-4-scout-17b-16e-instruct_1": {
-    "requests": 22,
+    "requests": 28,
     "lastReset": 1778813767751
   },
   "meta-llama/llama-4-scout-17b-16e-instruct_0": {
