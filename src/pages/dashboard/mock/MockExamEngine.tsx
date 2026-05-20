@@ -5,6 +5,9 @@ import { Brain, PauseCircle, Timer, AlertTriangle, Coffee, ArrowLeft, TrendingUp
 import { motion, AnimatePresence } from 'framer-motion';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+import 'katex/dist/katex.min.css';
 import { ttsManager } from '../../../lib/tts/TTSManager';
 import { EloService } from '../../../services/eloService';
 
@@ -188,12 +191,20 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
                                 />
                             </div>
                         )}
-                        {q.text}
+                        <div className="prose prose-invert max-w-none">
+                            <ReactMarkdown
+                                remarkPlugins={[remarkGfm, remarkMath]}
+                                rehypePlugins={[rehypeKatex]}
+                            >
+                                {q.text}
+                            </ReactMarkdown>
+                        </div>
                     </h3>
                     <div className="space-y-3">
                         {q.options.map((opt, idx) => {
                             const isSelected = answers[currentQ] === idx;
                             const isCorrect = q.correctAnswer === idx;
+                            const sanitizedOption = opt.replace(/^[A-D]\.\s*/i, '');
                             let btnClass = 'bg-surface border-border text-text-muted hover:bg-white/5 hover:border-primary/30';
 
                             if (step === 'exam') {
@@ -210,9 +221,20 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
                                     key={idx}
                                     onClick={() => step === 'exam' && handleAnswer(idx)}
                                     disabled={step === 'review'}
-                                    className={`w-full p-4 text-left rounded-xl border transition-all ${btnClass}`}
+                                    className={`w-full p-4 text-left rounded-xl border transition-all flex items-start ${btnClass}`}
                                 >
-                                    <span className="font-bold mr-3 opacity-50">{String.fromCharCode(65 + idx)}.</span> {opt}
+                                    <span className="font-bold mr-3 opacity-50 mt-1">{String.fromCharCode(65 + idx)}.</span>
+                                    <div className="flex-1 inline-block prose prose-invert max-w-none m-0 inline-p-margin">
+                                        <ReactMarkdown
+                                            remarkPlugins={[remarkGfm, remarkMath]}
+                                            rehypePlugins={[rehypeKatex]}
+                                            components={{
+                                                p: ({node: _node, ...props}) => <span {...props} />
+                                            }}
+                                        >
+                                            {sanitizedOption}
+                                        </ReactMarkdown>
+                                    </div>
                                 </button>
                             );
                         })}
@@ -379,7 +401,10 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
                                 <div className="flex-1 overflow-y-auto p-6 space-y-4">
                                     <div className={`whitespace-pre-wrap text-text-muted mb-6 text-sm leading-relaxed ${isVerifying ? 'opacity-50 grayscale transition-all' : 'opacity-100 transition-all'}`}>
                                         <div className="prose prose-invert max-w-none">
-                                            <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                                            <ReactMarkdown
+                                                remarkPlugins={[remarkGfm, remarkMath]}
+                                                rehypePlugins={[rehypeKatex]}
+                                            >
                                                 {aiExplanation}
                                             </ReactMarkdown>
                                         </div>
@@ -398,9 +423,10 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
                                                 )}
                                                 <div className="prose prose-invert max-w-none break-words">
                                                     <ReactMarkdown
-                                                        remarkPlugins={[remarkGfm]}
+                                                        remarkPlugins={[remarkGfm, remarkMath]}
+                                                        rehypePlugins={[rehypeKatex]}
                                                         components={{
-                                                            code: ({ node, className, children, ...props }: any) => (
+                                                            code: ({ node: _node, className, children, ...props }: any) => (
                                                                 <code className={`${className} bg-black/30 rounded px-1 font-mono`} {...props}>{children}</code>
                                                             )
                                                         }}

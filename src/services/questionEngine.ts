@@ -1613,7 +1613,14 @@ export const getAdaptiveQuestionBatch = async (
  * Matches the logic used in the Test Center.
  */
 export const mapStoredToUIQuestion = (raw: any[], startId: number = 1) => {
-    return raw.map((q, idx) => {
+    return raw.filter(q => {
+        const opts = Array.isArray(q.options) ? q.options : Object.values(q.options || {});
+        if (!opts || opts.length < 2) {
+            console.warn(`[QuestionEngine] Skipping invalid question: missing options`, q);
+            return false;
+        }
+        return true;
+    }).map((q, idx) => {
         const optionsArray: string[] = Array.isArray(q.options)
             ? q.options
             : Object.values(q.options || {});
