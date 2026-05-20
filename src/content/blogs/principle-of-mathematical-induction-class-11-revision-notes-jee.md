@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/principle-of-mathematical-induction-class-11-revision-notes-jee"
 ---
 
-*Last Updated: May 18, 2026*
+*Last Updated: May 20, 2026*
 
 ## 📑 Table of Contents
 
@@ -182,9 +182,9 @@ Understanding the distinction between weak and strong induction is crucial for t
 
 The choice between weak and strong [induction](/blog/mathematical-induction-class-11-revision-notes-jee-neet) depends on the nature of the problem and the relationship being proven. In general, if the statement to be proven depends only on the immediately preceding case, weak [induction](/blog/mathematical-induction-class-11-revision-notes-jee-neet) is sufficient. However, if the statement depends on all previous cases, strong [induction](/blog/mathematical-induction-class-11-revision-notes-jee-neet) is the appropriate method.
 
-In summary, mastering both weak and strong induction techniques is essential for success and mathematical induction problems, particularly for Class 11 students preparing for exams and 2026. By understanding the principles and applications of both methods, students can develop a deep appreciation for the power and elegance of mathematical induction.
+In summary, mastering both weak and strong induction techniques is essential for success and [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) induction problems, particularly for Class 11 students preparing for exams and 2026. By understanding the principles and applications of both methods, students can develop a deep appreciation for the power and elegance of [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) induction.
 
-Here is a comparison table for weak and strong induction:
+Here is a comparison table for weak and strong [induction](/blog/mathematical-induction-class-11-revision-notes-jee-neet):
 
 | Type of Induction | Inductive Hypothesis | Application | Example |
 | --- | --- | --- | --- |

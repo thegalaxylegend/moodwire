@@ -87,8 +87,8 @@ manualReview: false
 | Formula | When to Use |
 | --- | --- |
 | Shifting Cultivation Formula | calculating area of land used for cultivation |
-| Deforestation Rate Formula | calculating rate of forest area change |
-| Forest Regeneration Formula | calculating rate of forest regeneration |
+| Deforestation Rate Formula | calculating rate of [forest](/blog/forest-and-wildlife-resources-class-10-notes) area change |
+| [Forest](/blog/forest-and-wildlife-resources-class-10-notes) Regeneration Formula | calculating rate of [forest](/blog/forest-and-wildlife-resources-class-10-notes) regeneration |
 | Colonial Exploitation Formula | calculating extent of colonial exploitation |
 | Economic Drain Formula | calculating extent of economic drain |
 | Cultural Imperialism Formula | calculating extent of cultural imperialism |
@@ -337,50 +337,50 @@ The relationship between forest society and colonialism is complex, with colonia
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What was the main reason for the British to introduce the 'scientific forestry' system in India?**
-**A)**     To conserve forests for future generations
-**B)**     To promote sustainable forest management
-**C)**     To maximize timber production
-**D)**     To protect the rights of indigenous communities
+**A)**       To conserve forests for future generations
+**B)**       To promote sustainable forest management
+**C)**       To maximize timber production
+**D)**       To protect the rights of indigenous communities
 
 **Answer:** C) The British introduced the 'scientific forestry' system to maximize timber production for their industries and railways. Options A and B are incorrect because while conservation and sustainable management were claimed goals, the primary focus was on exploitation. Option D is incorrect because the British actually restricted the rights of indigenous communities.
 
 ---
 
 **2. A forest village in India had a population of 5000 people. If the forest department allotted ²/₅ of the forest land for agriculture, what fraction of the land was left for forests?**
-**A)**     1/5
-**B)**     3/5
-**C)**     2/5
-**D)**     4/5
+**A)**       1/5
+**B)**       3/5
+**C)**       2/5
+**D)**       4/5
 
 **Answer:** B) If ²/₅ of the land was allotted for agriculture, then the fraction of land left for forests is 1 - ²/₅ = ³/₅. Options A, C, and D are incorrect because they do not accurately represent the remaining fraction.
 
 ---
 
 **3. The Forest Society of British India was established in which year?**
-**A)**     1860
-**B)**     1865
-**C)**     1870
-**D)**     1880
+**A)**       1860
+**B)**       1865
+**C)**       1870
+**D)**       1880
 
 **Answer:** B) The Forest Society of British India was established in 1865. Options A, C, and D are incorrect because they do not match the actual year of establishment.
 
 ---
 
 **4. What was the impact of the British forest laws on the livelihood of forest-dwelling communities?**
-**A)**     Improved their livelihoods
-**B)**     Had no impact
-**C)**     Restricted their access to forest resources
-**D)**     Provided them with employment opportunities
+**A)**       Improved their livelihoods
+**B)**       Had no impact
+**C)**       Restricted their access to forest resources
+**D)**       Provided them with employment opportunities
 
 **Answer:** C) The British forest laws restricted the access of forest-dwelling communities to forest resources, affecting their livelihoods. Options A and D are incorrect because the laws did not improve their livelihoods or provide them with employment. Option B is incorrect because the laws had a significant impact.
 
 ---
 
 **5. If a forest in India had an initial area of 1000 hectares and 20% was deforested, what area of forest remained?**
-**A)**     800 hectares
-**B)**     820 hectares
-**C)**     900 hectares
-**D)**     980 hectares
+**A)**       800 hectares
+**B)**       820 hectares
+**C)**       900 hectares
+**D)**       980 hectares
 
 **Answer:** A) 20% of 1000 hectares is 0.2 × 1000 = 200 hectares. So, the area of forest remaining is 1000 - 200 = 800 hectares. Options B, C, and D are incorrect because they do not accurately represent the remaining area.
 

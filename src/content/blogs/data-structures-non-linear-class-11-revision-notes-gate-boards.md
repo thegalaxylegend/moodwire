@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/data-structures-non-linear-class-11-revision-notes-gate-boards"
 ---
 
-*Last Updated: May 18, 2026*
+*Last Updated: May 20, 2026*
 
 ## 📑 Table of Contents
 
@@ -287,9 +287,9 @@ B. Linked List
 C. Stack
 D. Graph
 
-**Answer:** D) A Graph is an example of a non-linear data structure, as it consists of nodes connected y edges, allowing for complex relationships between elements.
+**Answer:** D) A Graph is an example of a non-linear [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structure, as it consists of nodes connected y edges, allowing for complex relationships between elements.
 
-**5. What is the purpose of a Queue data structure?**
+**5. What is the purpose of a Queue [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structure?**
 A. To implement a Stack
 B. To implement a Priority Queue
 C. To implement a First-In-First-Out (FIFO) data structure

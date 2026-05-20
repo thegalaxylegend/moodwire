@@ -291,7 +291,7 @@ Step 3: Confirm that Palampur is the village where 75% of the population is depe
 - **O**: Occupational structure
  
 
-- **I**: Income levels and poverty
+- **I**: Income levels and [poverty](/blog/poverty-as-a-challenge-class-9-notes)
  
 
 - **S**: Social and economic interrelationships
@@ -307,7 +307,7 @@ By adopting this approach, you'll ensure a deep understanding of the story of Vi
 - **🔮 The Hidden Pattern:** 
  
 
-- There is a non-obvious connection between The Story of Village Palampur and the chapter "Poverty in India". In 2019, a question was asked about the relationship between poverty and agricultural productivity in Palampur, which is a crucial aspect of understanding the socio-economic conditions in rural areas.
+- There is a non-obvious connection between The Story of Village Palampur and the chapter "[Poverty](/blog/poverty-as-a-challenge-class-9-notes) in India". In 2019, a question was asked about the relationship between [poverty](/blog/poverty-as-a-challenge-class-9-notes) and agricultural productivity in Palampur, which is a crucial aspect of understanding the socio-economic conditions in rural areas.
 
 - **🎯 The "Always Check" Rule:** 
  
@@ -380,52 +380,52 @@ By adopting this approach, you'll ensure a deep understanding of the story of Vi
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the main occupation of the people in Palampur?**
-**A)**   Farming
-**B)**   Business
-**C)**   Service
-**D)**   Industry
+**A)**     Farming
+**B)**     Business
+**C)**     Service
+**D)**     Industry
 
 **Answer:** A) The main occupation of the people in Palampur is farming because the village has fertile land and adequate rainfall, making it suitable for agriculture. Options B, C, and D are incorrect because while some people may be involved in these sectors, farming is the primary occupation.
 
 ---
 
 **2. If 100 farmers in Palampur produce 5000 kg of wheat and 2000 kg of rice, what is the total production of wheat and rice per farmer?**
-**A)**   50 kg of wheat and 20 kg of rice
-**B)**   60 kg of wheat and 15 kg of rice
-**C)**   70 kg of wheat and 10 kg of rice
-**D)**   80 kg of wheat and 5 kg of rice
+**A)**     50 kg of wheat and 20 kg of rice
+**B)**     60 kg of wheat and 15 kg of rice
+**C)**     70 kg of wheat and 10 kg of rice
+**D)**     80 kg of wheat and 5 kg of rice
 
 **Answer:** A) To find the total production per farmer, we divide the total production by the number of farmers. For wheat: 5000 kg / 100 farmers = 50 kg/farmer. For rice: 2000 kg / 100 farmers = 20 kg/farmer. Therefore, option A is correct. Options B, C, and D are incorrect because they have incorrect calculations.
 
 ---
 
 **3. What is the reason for the limited number of people being involved in the secondary sector in Palampur?**
-**A)**   Lack of education
-**B)**   Limited access to raw materials
-**C)**   Insufficient capital
-**D)**   All of the above
+**A)**     Lack of education
+**B)**     Limited access to raw materials
+**C)**     Insufficient capital
+**D)**     All of the above
 
 **Answer:** C) The secondary sector involves manufacturing and requires significant capital investment. In Palampur, people have limited access to capital, which restricts their involvement in this sector. While lack of education and limited access to raw materials might also be factors, insufficient capital is a primary reason. Therefore, option C is correct, and options A, B, and D are not entirely accurate.
 
 ---
 
 **4. If the literacy rate in Palampur is 80%, and there are 2000 people in the village, how many people are literate?**
-**A)**   1500
-**B)**   1600
-**C)**   1700
-**D)**   1800
+**A)**     1500
+**B)**     1600
+**C)**     1700
+**D)**     1800
 
 **Answer:** B) To find the number of literate people, we multiply the total population by the literacy rate: 2000 * 0.80 = 1600. Therefore, option B is correct. Options A, C, and D are incorrect because they have incorrect calculations.
 
 ---
 
 **5. What is the impact of the Green [Revolution](/blog/socialism-in-europe-and-the-russian-revolution-class-9-notes) on farming in Palampur?**
-**A)**   Increased crop yields
-**B)**   Decreased crop yields
-**C)**   No change in crop yields
-**D)**   Increased dependence on rain
+**A)**     Increased crop yields
+**B)**     Decreased crop yields
+**C)**     No change in crop yields
+**D)**     Increased dependence on rain
 
-**Answer:** A) The Green Revolution led to the introduction of new farming techniques and high-yielding varieties of crops, resulting in increased crop yields. This is a well-documented impact of the Green Revolution. Options B, C, and D are incorrect because they do not accurately reflect the effects of the Green Revolution.
+**Answer:** A) The Green [Revolution](/blog/socialism-in-europe-and-the-russian-revolution-class-9-notes) led to the introduction of new farming techniques and high-yielding varieties of crops, resulting in increased crop yields. This is a well-documented impact of the Green [Revolution](/blog/socialism-in-europe-and-the-russian-revolution-class-9-notes). Options B, C, and D are incorrect because they do not accurately reflect the effects of the Green [Revolution](/blog/socialism-in-europe-and-the-russian-revolution-class-9-notes).
 
 ---
 

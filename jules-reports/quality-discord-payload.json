@@ -1,22 +1,22 @@
 {
   "embeds": [
     {
-      "title": "📈 Jules Quality Trends Report",
-      "color": 5763719,
+      "title": "➡️ Jules Quality Trends Report",
+      "color": 8421504,
       "fields": [
         {
           "name": "📊 All-Time Stats",
-          "value": "Total: 246 blogs\nPassed: 187\nFailed: 59\nPass Rate: 76%",
+          "value": "Total: 252 blogs\nPassed: 193\nFailed: 59\nPass Rate: 77%",
           "inline": true
         },
         {
           "name": "📈 Avg Quality Score",
-          "value": "82.3/100",
+          "value": "82.7/100",
           "inline": true
         },
         {
-          "name": "📈 Trend",
-          "value": "IMPROVING (+7.9)",
+          "name": "➡️ Trend",
+          "value": "STABLE (0)",
           "inline": true
         },
         {
@@ -26,7 +26,7 @@
         }
       ],
       "footer": {
-        "text": "Report generated: 2026-05-18T04:10:39.951Z"
+        "text": "Report generated: 2026-05-20T03:39:24.989Z"
       }
     }
   ]

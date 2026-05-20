@@ -1,0 +1,1168 @@
+{
+  "date": "2026-05-19",
+  "targetYear": 2026,
+  "summary": {
+    "fresh": 165,
+    "updated": 105,
+    "needsRegen": 0,
+    "total": 270
+  },
+  "needsRegeneration": [],
+  "details": [
+    {
+      "file": "agriculture-class-11-revision-notes-neet.md",
+      "slug": "agriculture-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1237
+    },
+    {
+      "file": "ai-exam-prep-future-class-11-revision-notes-jee-neet.md",
+      "slug": "ai-exam-prep-future-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1176
+    },
+    {
+      "file": "ai-study-hack-pomodoro-class-11-revision-notes-neet.md",
+      "slug": "ai-study-hack-pomodoro-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 890
+    },
+    {
+      "file": "alcohols-phenols-and-ethers-class-12-notes.md",
+      "slug": "alcohols-phenols-and-ethers-class-12-notes",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 51,
+      "wordCount": 1451
+    },
+    {
+      "file": "algorithms-analysis-class-11-revision-notes-gate-boards.md",
+      "slug": "algorithms-analysis-class-11-revision-notes-gate-boards",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 6540
+    },
+    {
+      "file": "algorithms-design-class-11-revision-notes-gate-boards.md",
+      "slug": "algorithms-design-class-11-revision-notes-gate-boards",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 7167
+    },
+    {
+      "file": "alternating-current-class-12-notes.md",
+      "slug": "alternating-current-class-12-notes",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 5903
+    },
+    {
+      "file": "ancient-india-mahajanapadas-class-11-revision-notes-jee.md",
+      "slug": "ancient-india-mahajanapadas-class-11-revision-notes-jee",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1250
+    },
+    {
+      "file": "animal-kingdom-class-11-revision-notes-neet.md",
+      "slug": "animal-kingdom-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1395
+    },
+    {
+      "file": "art-culture-architecture-class-11-revision-notes-jee-neet.md",
+      "slug": "art-culture-architecture-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1480
+    },
+    {
+      "file": "biogeography-class-11-revision-notes-neet.md",
+      "slug": "biogeography-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1780
+    },
+    {
+      "file": "biomolecules-class-11-revision-notes-neet.md",
+      "slug": "biomolecules-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1571
+    },
+    {
+      "file": "breathing-and-exchange-of-gases-class-11-revision-notes-neet.md",
+      "slug": "breathing-and-exchange-of-gases-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1914
+    },
+    {
+      "file": "cell-cycle-and-cell-division-class-11-revision-notes-neet.md",
+      "slug": "cell-cycle-and-cell-division-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1526
+    },
+    {
+      "file": "cell-the-unit-of-life-class-11-revision-notes-neet.md",
+      "slug": "cell-the-unit-of-life-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1486
+    },
+    {
+      "file": "chemical-bonding-class-11-revision-notes-jee-neet.md",
+      "slug": "chemical-bonding-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 3413
+    },
+    {
+      "file": "chemical-coordination-and-integration-class-11-revision-notes-neet.md",
+      "slug": "chemical-coordination-and-integration-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1423
+    },
+    {
+      "file": "class-10-30-day-timetable-class-10-revision-notes-jee.md",
+      "slug": "class-10-30-day-timetable-class-10-revision-notes-jee",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1432
+    },
+    {
+      "file": "class-10-science-pyq-strategy-class-10-revision-notes-neet.md",
+      "slug": "class-10-science-pyq-strategy-class-10-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1494
+    },
+    {
+      "file": "classification-elements-periodicity-class-11-revision-notes-jee-neet.md",
+      "slug": "classification-elements-periodicity-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 2745
+    },
+    {
+      "file": "classification-of-elements-class-11-revision-notes-jee-neet.md",
+      "slug": "classification-of-elements-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 7246
+    },
+    {
+      "file": "climatology-class-11-revision-notes-jee-neet.md",
+      "slug": "climatology-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1125
+    },
+    {
+      "file": "complex-numbers-class-11-revision-notes-jee-neet.md",
+      "slug": "complex-numbers-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1511
+    },
+    {
+      "file": "computer-organization-class-11-notes.md",
+      "slug": "computer-organization-class-11-notes",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 6361
+    },
+    {
+      "file": "conic-sections-class-11-revision-notes-jee.md",
+      "slug": "conic-sections-class-11-revision-notes-jee",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1420
+    },
+    {
+      "file": "constitutional-framework-class-11-revision-notes-cbse.md",
+      "slug": "constitutional-framework-class-11-revision-notes-cbse",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1409
+    },
+    {
+      "file": "cuet-2026-master-strategy-class-11-revision-notes-neet.md",
+      "slug": "cuet-2026-master-strategy-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 2000
+    },
+    {
+      "file": "current-electricity-class-11-revision-notes-neet.md",
+      "slug": "current-electricity-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 2008
+    },
+    {
+      "file": "data-structures-linear-class-11-revision-notes-gate-boards.md",
+      "slug": "data-structures-linear-class-11-revision-notes-gate-boards",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 6404
+    },
+    {
+      "file": "data-structures-non-linear-class-11-revision-notes-gate-boards.md",
+      "slug": "data-structures-non-linear-class-11-revision-notes-gate-boards",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 8496
+    },
+    {
+      "file": "digestion-and-absorption-class-11-revision-notes-neet.md",
+      "slug": "digestion-and-absorption-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1495
+    },
+    {
+      "file": "digital-logic-class-11-revision-notes-gate-boards.md",
+      "slug": "digital-logic-class-11-revision-notes-gate-boards",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 10362
+    },
+    {
+      "file": "dpsp-duties-class-11-revision-notes-jee-neet.md",
+      "slug": "dpsp-duties-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1471
+    },
+    {
+      "file": "electric-charges-fields-class-11-revision-notes-jee-neet.md",
+      "slug": "electric-charges-fields-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 2365
+    },
+    {
+      "file": "electromagnetic-induction-class-12-revision-notes-jee-neet.md",
+      "slug": "electromagnetic-induction-class-12-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 7119
+    },
+    {
+      "file": "environmental-chemistry-class-11-revision-notes-neet.md",
+      "slug": "environmental-chemistry-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1621
+    },
+    {
+      "file": "equilibrium-class-11-revision-notes-jee-neet.md",
+      "slug": "equilibrium-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 2813
+    },
+    {
+      "file": "excretory-products-and-elimination-class-11-revision-notes-neet.md",
+      "slug": "excretory-products-and-elimination-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 2037
+    },
+    {
+      "file": "federalism-class-11-revision-notes-cbse.md",
+      "slug": "federalism-class-11-revision-notes-cbse",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1193
+    },
+    {
+      "file": "fundamental-rights-class-11-revision-notes-cbse.md",
+      "slug": "fundamental-rights-class-11-revision-notes-cbse",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1758
+    },
+    {
+      "file": "geomorphology-class-11-revision-notes-cbse.md",
+      "slug": "geomorphology-class-11-revision-notes-cbse",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 6872
+    },
+    {
+      "file": "gravitation-class-11-revision-notes-jee-neet.md",
+      "slug": "gravitation-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1580
+    },
+    {
+      "file": "hydrocarbons-class-11-revision-notes-neet.md",
+      "slug": "hydrocarbons-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1053
+    },
+    {
+      "file": "hydrogen-class-11-revision-notes-neet.md",
+      "slug": "hydrogen-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1206
+    },
+    {
+      "file": "indian-geography-climate-class-11-revision-notes-cbse.md",
+      "slug": "indian-geography-climate-class-11-revision-notes-cbse",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1399
+    },
+    {
+      "file": "indian-geography-physical-class-11-revision-notes-jee-neet.md",
+      "slug": "indian-geography-physical-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1320
+    },
+    {
+      "file": "jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet.md",
+      "slug": "jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1451
+    },
+    {
+      "file": "jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet.md",
+      "slug": "jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1483
+    },
+    {
+      "file": "kinetic-theory-class-11-revision-notes-jee-neet.md",
+      "slug": "kinetic-theory-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1681
+    },
+    {
+      "file": "laws-of-motion-class-11-revision-notes-jee-neet.md",
+      "slug": "laws-of-motion-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1831
+    },
+    {
+      "file": "linear-inequalities-class-11-revision-notes-jee-neet.md",
+      "slug": "linear-inequalities-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1471
+    },
+    {
+      "file": "locomotion-and-movement-class-11-revision-notes-neet.md",
+      "slug": "locomotion-and-movement-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1590
+    },
+    {
+      "file": "mathematical-induction-class-11-revision-notes-jee-neet.md",
+      "slug": "mathematical-induction-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1441
+    },
+    {
+      "file": "mathematical-reasoning-class-11-revision-notes-jee-neet.md",
+      "slug": "mathematical-reasoning-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1409
+    },
+    {
+      "file": "mechanical-properties-of-solids-class-11-revision-notes-jee-neet.md",
+      "slug": "mechanical-properties-of-solids-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1602
+    },
+    {
+      "file": "medieval-india-bhakti-sufi-class-11-revision-notes-cbse.md",
+      "slug": "medieval-india-bhakti-sufi-class-11-revision-notes-cbse",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1241
+    },
+    {
+      "file": "medieval-india-delhi-sultanate-class-11-revision-notes-cbse.md",
+      "slug": "medieval-india-delhi-sultanate-class-11-revision-notes-cbse",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1629
+    },
+    {
+      "file": "medieval-india-mughals-class-11-revision-notes-cbse.md",
+      "slug": "medieval-india-mughals-class-11-revision-notes-cbse",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1995
+    },
+    {
+      "file": "mineral-nutrition-class-11-revision-notes-neet.md",
+      "slug": "mineral-nutrition-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1392
+    },
+    {
+      "file": "morphology-of-flowering-plants-class-11-revision-notes-neet.md",
+      "slug": "morphology-of-flowering-plants-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1196
+    },
+    {
+      "file": "motion-in-a-straight-line-class-11-revision-notes-jee-neet.md",
+      "slug": "motion-in-a-straight-line-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1862
+    },
+    {
+      "file": "moving-charges-magnetism-class-11-revision-notes-neet.md",
+      "slug": "moving-charges-magnetism-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1959
+    },
+    {
+      "file": "neet-2026-weightage-prediction-class-11-revision-notes-neet.md",
+      "slug": "neet-2026-weightage-prediction-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1147
+    },
+    {
+      "file": "neet-biology-80-20-rule-class-11-revision-notes-neet.md",
+      "slug": "neet-biology-80-20-rule-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1239
+    },
+    {
+      "file": "neural-control-and-coordination-class-11-revision-notes-neet.md",
+      "slug": "neural-control-and-coordination-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1793
+    },
+    {
+      "file": "oceanography-class-11-revision-notes-jee-neet.md",
+      "slug": "oceanography-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1729
+    },
+    {
+      "file": "organic-chemistry-basic-principles-class-11-revision-notes-jee-neet.md",
+      "slug": "organic-chemistry-basic-principles-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1277
+    },
+    {
+      "file": "oscillations-class-11-revision-notes-jee-neet.md",
+      "slug": "oscillations-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1745
+    },
+    {
+      "file": "permutations-combinations-class-11-revision-notes-jee.md",
+      "slug": "permutations-combinations-class-11-revision-notes-jee",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1395
+    },
+    {
+      "file": "photosynthesis-in-higher-plants-class-11-revision-notes-neet.md",
+      "slug": "photosynthesis-in-higher-plants-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1202
+    },
+    {
+      "file": "physical-world-class-11-revision-notes-jee-neet.md",
+      "slug": "physical-world-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1327
+    },
+    {
+      "file": "planning-in-india-class-11-revision-notes-jee-neet.md",
+      "slug": "planning-in-india-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1224
+    },
+    {
+      "file": "plant-growth-and-development-class-11-revision-notes-neet.md",
+      "slug": "plant-growth-and-development-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1163
+    },
+    {
+      "file": "plant-kingdom-class-11-revision-notes-neet.md",
+      "slug": "plant-kingdom-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1136
+    },
+    {
+      "file": "principle-of-mathematical-induction-class-11-revision-notes-jee.md",
+      "slug": "principle-of-mathematical-induction-class-11-revision-notes-jee",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 9419
+    },
+    {
+      "file": "probability-class-11-revision-notes-jee.md",
+      "slug": "probability-class-11-revision-notes-jee",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1394
+    },
+    {
+      "file": "probability-intro-class-11-revision-notes-jee.md",
+      "slug": "probability-intro-class-11-revision-notes-jee",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 9003
+    },
+    {
+      "file": "ray-optics-class-12-quick-class-12-revision-notes-jee-neet.md",
+      "slug": "ray-optics-class-12-quick-class-12-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1932
+    },
+    {
+      "file": "redox-reactions-class-11-revision-notes-neet.md",
+      "slug": "redox-reactions-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1389
+    },
+    {
+      "file": "relations-functions-class-11-revision-notes-jee-neet.md",
+      "slug": "relations-functions-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1414
+    },
+    {
+      "file": "respiration-in-plants-class-11-revision-notes-neet.md",
+      "slug": "respiration-in-plants-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1211
+    },
+    {
+      "file": "rotational-motion-class-11-revision-notes-jee-neet.md",
+      "slug": "rotational-motion-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1757
+    },
+    {
+      "file": "sequences-series-class-11-revision-notes-jee.md",
+      "slug": "sequences-series-class-11-revision-notes-jee",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1598
+    },
+    {
+      "file": "sets-class-11-revision-notes-jee-neet.md",
+      "slug": "sets-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1688
+    },
+    {
+      "file": "some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet.md",
+      "slug": "some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1446
+    },
+    {
+      "file": "state-scholarship-guide-2026-class-11-revision-notes-neet.md",
+      "slug": "state-scholarship-guide-2026-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, [2026](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 2167
+    },
+    {
+      "file": "states-of-matter-class-11-revision-notes-jee-neet.md",
+      "slug": "states-of-matter-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 2824
+    },
+    {
+      "file": "statistics-class-11-revision-notes-jee.md",
+      "slug": "statistics-class-11-revision-notes-jee",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1324
+    },
+    {
+      "file": "straight-lines-class-11-revision-notes-jee-neet.md",
+      "slug": "straight-lines-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1552
+    },
+    {
+      "file": "structural-organisation-in-animals-class-11-revision-notes-neet.md",
+      "slug": "structural-organisation-in-animals-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1362
+    },
+    {
+      "file": "structure-of-atom-class-11-revision-notes-jee-neet.md",
+      "slug": "structure-of-atom-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 2928
+    },
+    {
+      "file": "structure-of-the-atom-class-11-revision-notes-neet.md",
+      "slug": "structure-of-the-atom-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1447
+    },
+    {
+      "file": "study-12-hours-daily-tips-class-11-revision-notes-jee-neet.md",
+      "slug": "study-12-hours-daily-tips-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1582
+    },
+    {
+      "file": "the-living-world-class-11-revision-notes-neet.md",
+      "slug": "the-living-world-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1475
+    },
+    {
+      "file": "the-p-block-elements-11-class-11-revision-notes-jee-neet.md",
+      "slug": "the-p-block-elements-11-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1396
+    },
+    {
+      "file": "the-s-block-elements-class-11-revision-notes-jee-neet.md",
+      "slug": "the-s-block-elements-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1322
+    },
+    {
+      "file": "thermal-properties-of-matter-class-11-revision-notes-jee-neet.md",
+      "slug": "thermal-properties-of-matter-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1625
+    },
+    {
+      "file": "thermodynamics-chemistry-class-11-revision-notes-jee-neet.md",
+      "slug": "thermodynamics-chemistry-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 2891
+    },
+    {
+      "file": "thermodynamics-class-11-revision-notes-neet.md",
+      "slug": "thermodynamics-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1674
+    },
+    {
+      "file": "three-dimensional-geometry-class-11-revision-notes-jee-neet.md",
+      "slug": "three-dimensional-geometry-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1628
+    },
+    {
+      "file": "transport-in-plants-class-11-revision-notes-neet.md",
+      "slug": "transport-in-plants-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1416
+    },
+    {
+      "file": "units-and-measurements-class-11-revision-notes-jee-neet.md",
+      "slug": "units-and-measurements-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1883
+    },
+    {
+      "file": "upsc-optional-selection-guide-class-11-revision-notes-jee.md",
+      "slug": "upsc-optional-selection-guide-class-11-revision-notes-jee",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, [2026](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1697
+    },
+    {
+      "file": "waves-class-11-revision-notes-neet.md",
+      "slug": "waves-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 2510
+    },
+    {
+      "file": "work-energy-and-power-class-11-revision-notes-neet.md",
+      "slug": "work-energy-and-power-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Last Updated: \"May 18, 2026\" → \"May 19, 2026\""
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 52,
+      "wordCount": 1672
+    }
+  ]
+}

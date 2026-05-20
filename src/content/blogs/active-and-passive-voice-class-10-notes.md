@@ -352,50 +352,50 @@ The key to converting Active Voice to Passive Voice is to change the **subject**
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. The teacher gave the students 5 assignments.**
-**A)**          The students were given 5 assignments by the teacher.
-**B)**          The teacher give the students 5 assignments.
-**C)**          The students give the teacher 5 assignments.
-**D)**          The teacher was given 5 assignments by the students.
+**A)**            The students were given 5 assignments by the teacher.
+**B)**            The teacher give the students 5 assignments.
+**C)**            The students give the teacher 5 assignments.
+**D)**            The teacher was given 5 assignments by the students.
 
 **Answer:** A) The correct answer is A because it correctly converts the given active voice sentence into passive voice, changing the focus [from](/blog/from-the-diary-of-anne-frank-class-10-notes) the doer (teacher) to the receiver (students). Option B is incorrect because it incorrectly uses the present tense 'give' instead of 'were given'. Option C is incorrect because it reverses the subject and object, and also changes the meaning. Option D is incorrect because it again reverses the subject and object, and changes the meaning.
 
 ---
 
 **2. If a car travels 250 km in 5 hours, what is its average speed?**
-**A)**          25 km/h
-**B)**          50 km/h
-**C)**          75 km/h
-**D)**          100 km/h
+**A)**            25 km/h
+**B)**            50 km/h
+**C)**            75 km/h
+**D)**            100 km/h
 
 **Answer:** B) The correct answer is B because average speed is calculated as total distance ÷ total time. So, 250 km ÷ 5 hours = 50 km/h. Option A is incorrect because it is too low. Option C is incorrect because it is too high. Option D is incorrect because it is also too high.
 
 ---
 
 **3. The students ___________ their project by the teacher.**
-**A)**          was given
-**B)**          were given
-**C)**          give
-**D)**          gives
+**A)**            was given
+**B)**            were given
+**C)**            give
+**D)**            gives
 
 **Answer:** B) The correct answer is B because 'students' is a plural noun and the verb should agree with it in passive voice. So, 'were given' is the correct form. Option A is incorrect because 'was given' is used for singular nouns. Option C and D are incorrect because they are in active voice.
 
 ---
 
 **4. The ratio of active to passive voice sentences in a paragraph is 3:5. If there are 24 sentences in total, how many are in active voice?**
-**A)**          6
-**B)**          8
-**C)**          9
-**D)**          10
+**A)**            6
+**B)**            8
+**C)**            9
+**D)**            10
 
 **Answer:** C) The correct answer is C because the total parts of the ratio are 3+5 = 8. The fraction of active voice sentences is 3/8. So, 3/8 × 24 = 9. Option A, B, and D are incorrect because they do not match the calculation.
 
 ---
 
 **5. The new policy ___________ by the management.**
-**A)**          was announced
-**B)**          announced
-**C)**          were announced
-**D)**          are announced
+**A)**            was announced
+**B)**            announced
+**C)**            were announced
+**D)**            are announced
 
 **Answer:** A) The correct answer is A because the sentence is in passive voice and 'policy' is a singular noun. So, 'was announced' is the correct form. Option B is incorrect because it is in active voice. Option C is incorrect because 'were announced' is used for plural nouns. Option D is incorrect because it is in present tense.
 

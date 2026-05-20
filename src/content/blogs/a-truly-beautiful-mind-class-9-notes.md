@@ -309,50 +309,50 @@ Kalam's life is a true inspiration, showcasing that with hard work and determina
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What was the name of the scientist who helped Ramanujan to get his work recognized?**
-**A)**    Raman
-**B)**    Srinivas Ramanujan
-**C)**    Hardy
-**D)**    Euler
+**A)**      Raman
+**B)**      Srinivas Ramanujan
+**C)**      Hardy
+**D)**      Euler
 
 **Answer:** C) The correct answer is C, Hardy. C.V. Raman was an Indian physicist, Srinivas Ramanujan was the mathematician himself, and Euler was a Swiss mathematician. Hardy was the scientist who helped Ramanujan to get his work recognized.
 
 ---
 
 **2. At what age did Srinivas Ramanujan die?**
-**A)**    30 years
-**B)**    32 years
-**C)**    35 years
-**D)**    40 years
+**A)**      30 years
+**B)**      32 years
+**C)**      35 years
+**D)**      40 years
 
 **Answer:** B) The correct answer is B, 32 years. Srinivas Ramanujan died at the age of 32. The other options are incorrect ages.
 
 ---
 
 **3. What was the name of the college that Ramanujan attended?**
-**A)**    Kumbakonam College
-**B)**    Madras College
-**C)**    Trichy College
-**D)**    Tanjore College
+**A)**      Kumbakonam College
+**B)**      Madras College
+**C)**      Trichy College
+**D)**      Tanjore College
 
 **Answer:** A) The correct answer is A, Kumbakonam College. Ramanujan attended Kumbakonam College. The other options are incorrect college names.
 
 ---
 
 **4. How many years did it take for Ramanujan's work to get recognition?**
-**A)**    5 years
-**B)**    10 years
-**C)**    12 years
-**D)**    15 years
+**A)**      5 years
+**B)**      10 years
+**C)**      12 years
+**D)**      15 years
 
 **Answer:** C) The correct answer is C, 12 years. It took 12 years for Ramanujan's work to get recognition. The other options are incorrect time periods.
 
 ---
 
 **5. If a + b = 10 and a - b = 2, what is the value of a² + b²?**
-**A)**    20
-**B)**    40
-**C)**    50
-**D)**    60
+**A)**      20
+**B)**      40
+**C)**      50
+**D)**      60
 
 **Answer:** B) The correct answer is B, 40. Using the given equations, we can solve for a and b: a = 6, b = 4. Then, a² + b² = 6² + 4² = 36 + 16 = 52, however this option isn't available; a better approach would be (a + b)² + (a - b)² = 2(a² + b²) => 10² + 2² = 2(a² + b²) => 104 = 2(a² + b²) => a² + b² = 52; closest or rather an option could be reevaluated; actually a² + b² = (10)² - 2ab and a² + b² = (2)² + 2ab; adding we get 2(a² + b²) = 100 + 4 = 104; a² + b² = 52.
 

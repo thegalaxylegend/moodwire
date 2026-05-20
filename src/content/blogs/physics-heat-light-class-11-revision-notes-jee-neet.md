@@ -1261,14 +1261,14 @@ JEE Advanced & NEET Grandmaster.
  * Heading: ### 👁️ Ayush's Note
  * Format: 4 bullet points.
 
- *Self-Correction on "Light":* In Class 11, "Light" isn't a standalone chapter (it's Class 12), but "Waves" is. However, the prompt explicitly says "physics heat light class 11". I will bridge the gap by focusing on Thermal Physics and Wave properties/Refractive Index.
+ *Self-Correction on "Light":* In Class 11, "Light" isn't a standalone chapter (it's Class 12), but "Waves" is. However, the prompt explicitly says "[physics](/blog/physics-mechanics-class-11-revision-notes-jee-neet) heat light class 11". I will bridge the gap by focusing on Thermal [Physics](/blog/physics-mechanics-class-11-revision-notes-jee-neet) and Wave properties/Refractive Index.
 
  *Let's refine the content to be "Top 1%":*
  * Pattern: $dn/dT$ (Temperature coefficient of refractive index).
  * Rule: $Q = mL$ vs $Q = mc$\Delta$ T$. During phase change, \Delta$ T = 0$.
  * Shortcut: $P_1V_1^$\gamma$ = P_2V_2^\gamma$.
 
- *Wait, the prompt asks for "physics heat light class 11 revision notes jee neet".*
+ *Wait, the prompt asks for "[physics](/blog/physics-mechanics-class-11-revision-notes-jee-neet) heat light class 11 revision notes jee neet".*
  I will focus on:
  1. Thermodynamics/Heat (Class 11).
  2. Wave/Light properties (Class 11 Waves/Class 12 Optics overlap).

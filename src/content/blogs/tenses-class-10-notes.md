@@ -198,14 +198,14 @@ Examiner's Trap: Be cautious when using [passive](/blog/active-and-passive-voice
 - 💸 **Marks lost:** 1–2 marks
  
 
-- 🔧 **The fix (30-second trick):** Use active voice when you want to emphasize the doer of the action and passive voice when the action is more important than the doer.
+- 🔧 **The fix (30-second trick):** Use [active](/blog/active-and-passive-voice-class-10-notes) voice when you want to emphasize the doer of the action and passive voice when the action is more important than the doer.
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 ### <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 **Q1 (2026 CBSE):** 
-Change the following sentence into the passive voice: 
+Change the following sentence into the [passive](/blog/active-and-passive-voice-class-10-notes) voice: 
 "The teacher gave the students a lot of homework." 
 
 - 🪤 **Trap:** 70% of students forget to change the object "students" to the subject in the passive voice.
@@ -352,50 +352,50 @@ To quickly identify the correct tense in a sentence, use the **time expression t
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. Which of the following sentences is in the present perfect tense?**
-**A)**          I go to school.
-**B)**          I am going to school.
-**C)**          I have gone to school.
-**D)**          I went to school.
+**A)**            I go to school.
+**B)**            I am going to school.
+**C)**            I have gone to school.
+**D)**            I went to school.
 
 **Answer:** C) The present perfect tense is used to describe an action that started in the past and continues up to the present. Option C, 'I have gone to school.', is the only sentence that matches this description. Option A is in the simple present tense, option B is in the present continuous tense, and option D is in the simple past tense.
 
 ---
 
 **2. If it α = 2β, and the simple past tense of 'go' is 'went' at β = 30°, what is the value of α in degrees?**
-**A)**          30°
-**B)**          60°
-**C)**          90°
-**D)**          120°
+**A)**            30°
+**B)**            60°
+**C)**            90°
+**D)**            120°
 
 **Answer:** B) Given α = 2β and β = 30°, we can substitute the value of β into the equation to get α = 2 × 30° = 60°. Therefore, option B is correct. Options A, C, and D are incorrect because they do not satisfy the given equation.
 
 ---
 
 **3. Which of the following verb forms is used to describe an action that will be completed at a specific time in the future?**
-**A)**          I will go to school.
-**B)**          I will be going to school.
-**C)**          I will have gone to school.
-**D)**          I am going to school.
+**A)**            I will go to school.
+**B)**            I will be going to school.
+**C)**            I will have gone to school.
+**D)**            I am going to school.
 
 **Answer:** C) The future perfect tense is used to describe an action that will be completed at a specific time in the future. Option C, 'I will have gone to school.', is the only sentence that matches this description. Option A is in the simple future tense, option B is in the future continuous tense, and option D is in the present continuous tense.
 
 ---
 
 **4. A car travels a distance of 250 km in 5 hours. What is the average speed of the car in km/h?**
-**A)**          25 km/h
-**B)**          50 km/h
-**C)**          60 km/h
-**D)**          75 km/h
+**A)**            25 km/h
+**B)**            50 km/h
+**C)**            60 km/h
+**D)**            75 km/h
 
 **Answer:** B) To find the average speed, we divide the total distance traveled by the total time taken. Therefore, the average speed = 250 km / 5 h = 50 km/h. Option B is correct. Options A, C, and D are incorrect because they do not match the calculated value.
 
 ---
 
 **5. Which of the following sentences is in the past perfect continuous tense?**
-**A)**          I had gone to school.
-**B)**          I was going to school.
-**C)**          I had been going to school.
-**D)**          I went to school.
+**A)**            I had gone to school.
+**B)**            I was going to school.
+**C)**            I had been going to school.
+**D)**            I went to school.
 
 **Answer:** C) The past perfect continuous tense is used to describe an action that started before a specific time in the past and continued up to that time. Option C, 'I had been going to school.', is the only sentence that matches this description. Option A is in the past perfect tense, option B is in the past continuous tense, and option D is in the simple past tense.
 

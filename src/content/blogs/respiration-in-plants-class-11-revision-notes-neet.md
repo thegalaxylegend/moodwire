@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/respiration-n-plants-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 18, 2026*
+*Last Updated: May 20, 2026*
 
 ## 📑 Table of Contents
 

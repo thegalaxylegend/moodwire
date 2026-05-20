@@ -87,7 +87,7 @@ Examiner's Trap: Remember the correct sequence of events leading to the Holocaus
 - **Battle of Britain:** July-October 1940 = Battle of Britain — air campaign fought between Germany and Britain
 
 - **Operation Barbarossa:** 22 June 1941 = Germany invades Soviet Union — date of the invasion
-Examiner's Trap: Be careful with the dates and events of World War II.
+Examiner's Trap: Be careful with the dates and events of [World](/blog/pastoralists-in-the-modern-world-class-9-notes) War II.
 
 #### **Nazi Economy Formulas**
 
@@ -97,7 +97,7 @@ Examiner's Trap: Be careful with the dates and events of World War II.
 
 - **Krupp:** 1930s = Krupp Industries — major German industrial company
 
-- **War Economy:** 1939-1945 = Germany's war economy — economic system during World War II
+- **War Economy:** 1939-1945 = Germany's war economy — economic system during [World](/blog/pastoralists-in-the-modern-world-class-9-notes) War II
 Examiner's Trap: Do not confuse the economic policies of the Nazi Party.
 
 #### **Nazi Propaganda Formulas**
@@ -240,12 +240,12 @@ Examiner's Trap: Remember the role of propaganda in the Nazi Party.
 
 - **The misconception (what 85% believe):** Many students think that the [rise](/blog/the-rise-of-nationalism-in-europe-class-10-notes) of Hitler and Nazism in Germany was solely due to the economic crisis and the Treaty of Versailles.
 
-- **The reality (what 99% know):** The rise of Hitler and Nazism was a complex phenomenon influenced by multiple factors including economic crisis, the Treaty of Versailles, political instability, the role of propaganda and the charismatic leadership of Hitler, and the appeasement policies of Britain and France.
+- **The reality (what 99% know):** The [rise](/blog/the-rise-of-nationalism-in-europe-class-10-notes) of Hitler and Nazism was a complex phenomenon influenced by multiple factors including economic crisis, the Treaty of Versailles, political instability, the role of propaganda and the charismatic leadership of Hitler, and the appeasement policies of Britain and France.
 
 - **The diagnostic question:**
  
 
-- What was the immediate cause of the economic crisis in Germany that contributed to the rise of Nazism?
+- What was the immediate cause of the economic crisis in Germany that contributed to the [rise](/blog/the-rise-of-nationalism-in-europe-class-10-notes) of Nazism?
 
 - A) The global economic depression of 1929
  
@@ -397,50 +397,50 @@ The Nazi Party's rise to power in Germany was facilitated by a combination of fa
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What was the name of the operation in 1939 where Germany invaded Poland?**
-**A)**     Operation Barbarossa
-**B)**     Operation Poland
-**C)**     Invasion of Poland
-**D)**     Blitzkrieg
+**A)**       Operation Barbarossa
+**B)**       Operation Poland
+**C)**       Invasion of Poland
+**D)**       Blitzkrieg
 
 **Answer:** D) The correct answer is D, Blitzkrieg, which was the code name for the German invasion of Poland in 1939. Operation Barbarossa was the invasion of the Soviet Union in 1941. The other options are incorrect because 'Operation Poland' is not a historical term and 'Invasion of Poland' is too general.
 
 ---
 
 **2. How many members did the Reichstag have in 1932?**
-**A)**     600
-**B)**     500
-**C)**     460
-**D)**     400
+**A)**       600
+**B)**       500
+**C)**       460
+**D)**       400
 
 **Answer:** C) The correct answer is C, 460. The Reichstag had 460 members in 1932. The other options are incorrect because they do not match the historical records.
 
 ---
 
 **3. Who was the leader of the Nazi Party in Germany from 1921 to 1945?**
-**A)**     Adolf Hitler
-**B)**     Benito Mussolini
-**C)**     Joseph Goebbels
-**D)**     Hermann Göring
+**A)**       Adolf Hitler
+**B)**       Benito Mussolini
+**C)**       Joseph Goebbels
+**D)**       Hermann Göring
 
 **Answer:** A) The correct answer is A, Adolf Hitler. He was the leader of the Nazi Party in Germany from 1921 to 1945. The other options are incorrect because Mussolini was the leader of the Fascist Party in Italy, Goebbels was the Propaganda Minister, and Göring was a high-ranking military officer.
 
 ---
 
 **4. What was the name of the treaty that imposed harsh penalties on Germany after World War I?**
-**A)**     Treaty of Versailles
-**B)**     Treaty of Berlin
-**C)**     Treaty of Paris
-**D)**     Treaty of London
+**A)**       Treaty of Versailles
+**B)**       Treaty of Berlin
+**C)**       Treaty of Paris
+**D)**       Treaty of London
 
 **Answer:** A) The correct answer is A, Treaty of Versailles. It was the treaty that imposed harsh penalties on Germany after World War I. The other options are incorrect because they do not match the historical records.
 
 ---
 
 **5. If a person had 10000 Reichsmarks in 1933 and inflation was 20%, how many Reichsmarks would they have in terms of purchasing power?**
-**A)**     8000
-**B)**     10000
-**C)**     12000
-**D)**     6000
+**A)**       8000
+**B)**       10000
+**C)**       12000
+**D)**       6000
 
 **Answer:** A) The correct answer is A, 8000. If inflation was 20%, then the purchasing power would decrease by 20%. So, 10000 * (1 - 0.20) = 8000. The other options are incorrect because they do not account for the inflation rate correctly.
 

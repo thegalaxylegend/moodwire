@@ -340,50 +340,50 @@ If you answered **A**: you have the misconception → fix: Recognize that Anne F
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What was the name of the girl who wrote the diary that became a famous book?**
-**A)**             Anne Frank
-**B)**             Margot Frank
-**C)**             Viktor Frankl
-**D)**             Miep Gies
+**A)**               Anne Frank
+**B)**               Margot Frank
+**C)**               Viktor Frankl
+**D)**               Miep Gies
 
 **Answer:** A) The diary was written by Anne Frank. Margot Frank was Anne's sister, Viktor Frankl was an Austrian neurologist and psychiatrist, and Miep Gies was a Dutch woman who helped the Frank family. Therefore, options B, C, and D are incorrect.
 
 ---
 
 **2. How long did Anne Frank and her family hide in the secret annex?**
-**A)**             1 year
-**B)**             2 years
-**C)**             3 years
-**D)**             4 years
+**A)**               1 year
+**B)**               2 years
+**C)**               3 years
+**D)**               4 years
 
 **Answer:** B) The Frank family hid in the secret annex for 2 years, from July 1942 to August 1944. Options A, C, and D are incorrect as they do not accurately represent the duration of their hiding.
 
 ---
 
 **3. What was the name of the person who betrayed the Frank family's hiding place?**
-**A)**             Viktor Frankl
-**B)**             Miep Gies
-**C)**             Arnold van den Bergh
-**D)**             Otto Frank
+**A)**               Viktor Frankl
+**B)**               Miep Gies
+**C)**               Arnold van den Bergh
+**D)**               Otto Frank
 
 **Answer:** C) The person who betrayed the Frank family's hiding place was Arnold van den Bergh. Viktor Frankl was an Austrian neurologist and psychiatrist, Miep Gies was a Dutch woman who helped the Frank family, and Otto Frank was Anne's father. Therefore, options A, B, and D are incorrect.
 
 ---
 
 **4. What was the total number of people who lived in the secret annex?**
-**A)**             4 people
-**B)**             5 people
-**C)**             6 people
-**D)**             7 people
+**A)**               4 people
+**B)**               5 people
+**C)**               6 people
+**D)**               7 people
 
 **Answer:** C) There were 6 people who lived in the secret annex: Anne Frank, Margot Frank, Otto Frank, Edith Frank, Hermann van Pels, and Fritz Pfeffer. Therefore, options A, B, and D are incorrect.
 
 ---
 
 **5. In what year was Anne Frank's diary first published?**
-**A)**             1945
-**B)**             1947
-**C)**             1950
-**D)**             1955
+**A)**               1945
+**B)**               1947
+**C)**               1950
+**D)**               1955
 
 **Answer:** B) Anne Frank's diary was first published in 1947. Options A, C, and D are incorrect as they do not accurately represent the year of publication.
 
