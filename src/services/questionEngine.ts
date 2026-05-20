@@ -8,16 +8,13 @@ import {
     limit,
     orderBy,
     deleteDoc,
-    updateDoc,
-    doc,
-    increment,
 } from 'firebase/firestore';
 import { askAI } from '../lib/ai';
 import { extractJSON, resolveTopicId } from '../lib/utils';
 import { offlineSyncService } from './offlineSyncService';
 import { getFormulaSheet } from '../lib/formulaSheets';
 import { SYLLABUS_DB } from '../lib/constants';
-import { checkDerivationConsistency, checkStepConsistency, checkOptionCollision } from '../lib/consistencyCheck';
+import { checkDerivationConsistency, checkStepConsistency } from '../lib/consistencyCheck';
 import { validateUnits } from '../lib/unitValidator';
 import { checkConceptualQuestion, isNumericalQuestion } from '../lib/factValidator';
 import { runDomainSpecificValidation } from '../lib/domainValidators';
@@ -913,9 +910,9 @@ export const getAdaptiveQuestion = async (
     topic: string,
     exam: string,
     topic_id?: string,
-    subject?: string,
+    _subject?: string,
     abilityScore?: number,
-    remediationFocus?: 'CONCEPTUAL' | 'SILLY' | 'TIME' | 'MISREAD'
+    _remediationFocus?: 'CONCEPTUAL' | 'SILLY' | 'TIME' | 'MISREAD'
 ): Promise<StoredQuestion | null> => {
 
     const resolvedTopicId = topic_id || resolveTopicId(topic);
@@ -1361,9 +1358,11 @@ BEGIN OUTPUT NOW:`;
                     console.warn("[QuestionEngine] Batch dedup: skipping duplicate question before verification.");
                     return false;
                 }
-                const collisionCheck = checkOptionCollision(q.options);
-                if (!collisionCheck.valid) {
-                    console.warn(`[QuestionEngine] Local validation failed: ${collisionCheck.reason}`);
+                // Inline duplicate-option check (replaces checkOptionCollision)
+                const optStrs = (q.options || []).map((o: any) => String(o).trim().toLowerCase());
+                const hasDupOptions = new Set(optStrs).size !== optStrs.length;
+                if (hasDupOptions) {
+                    console.warn(`[QuestionEngine] Local validation failed: duplicate options detected`);
                     return false;
                 }
                 return true;
@@ -1506,7 +1505,7 @@ export const getAdaptiveQuestionBatch = async (
 ): Promise<StoredQuestion[]> => {
     const allQuestions: StoredQuestion[] = [];
     const totalCount = needs.reduce((sum, n) => sum + n.count, 0);
-    let completedCount = 0;
+    // completedCount tracked via allQuestions.length at end
 
     const updateBatchProgress = (progress: number) => {
         if (onProgress) {
