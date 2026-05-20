@@ -4561,16 +4561,6 @@
     "robots": "index, follow",
     "sitemapGroup": "questions"
   },
-  "/jee-mains/q/practice-question-1yo48yvkpqnwnabh224o": {
-    "title": "Q: Practice Question... | JEE MAINS Practice",
-    "description": "Detailed solution for Mathematics question: Practice Question... Prepare for JEE MAINS.",
-    "h1": "Practice Question",
-    "type": "question",
-    "priority": 0.5,
-    "canonicalExam": "jee-mains",
-    "robots": "index, follow",
-    "sitemapGroup": "questions"
-  },
   "/jee-mains/q/practice-question-1zussr3nmlhhhw47acql": {
     "title": "Q: Practice Question... | JEE MAINS Practice",
     "description": "Detailed solution for Mathematics question: Practice Question... Prepare for JEE MAINS.",
@@ -11571,6 +11561,16 @@
     "robots": "index, follow",
     "sitemapGroup": "questions"
   },
+  "/jee-mains/q/practice-question-umhfp5owxdw124gtrzys": {
+    "title": "Q: Practice Question... | JEE MAINS Practice",
+    "description": "Detailed solution for Mathematics question: Practice Question... Prepare for JEE MAINS.",
+    "h1": "Practice Question",
+    "type": "question",
+    "priority": 0.5,
+    "canonicalExam": "jee-mains",
+    "robots": "index, follow",
+    "sitemapGroup": "questions"
+  },
   "/jee-mains/q/practice-question-unq42qi9mhybyepp8fqn": {
     "title": "Q: Practice Question... | JEE MAINS Practice",
     "description": "Detailed solution for Chemistry question: Practice Question... Prepare for JEE MAINS.",
@@ -13926,16 +13926,6 @@
   "/jee-advanced/q/practice-question-1lwccnbukdpxhvokefze": {
     "title": "Q: Practice Question... | JEE ADVANCED Practice",
     "description": "Detailed solution for Physics question: Practice Question... Prepare for JEE ADVANCED.",
-    "h1": "Practice Question",
-    "type": "question",
-    "priority": 0.5,
-    "canonicalExam": "jee-mains",
-    "robots": "noindex, follow",
-    "sitemapGroup": "questions-noindex"
-  },
-  "/jee-advanced/q/practice-question-1yo48yvkpqnwnabh224o": {
-    "title": "Q: Practice Question... | JEE ADVANCED Practice",
-    "description": "Detailed solution for Mathematics question: Practice Question... Prepare for JEE ADVANCED.",
     "h1": "Practice Question",
     "type": "question",
     "priority": 0.5,
@@ -20936,6 +20926,16 @@
   "/jee-advanced/q/practice-question-ul5s0vtmvpwrjrjzbsfl": {
     "title": "Q: Practice Question... | JEE ADVANCED Practice",
     "description": "Detailed solution for Chemistry question: Practice Question... Prepare for JEE ADVANCED.",
+    "h1": "Practice Question",
+    "type": "question",
+    "priority": 0.5,
+    "canonicalExam": "jee-mains",
+    "robots": "noindex, follow",
+    "sitemapGroup": "questions-noindex"
+  },
+  "/jee-advanced/q/practice-question-umhfp5owxdw124gtrzys": {
+    "title": "Q: Practice Question... | JEE ADVANCED Practice",
+    "description": "Detailed solution for Mathematics question: Practice Question... Prepare for JEE ADVANCED.",
     "h1": "Practice Question",
     "type": "question",
     "priority": 0.5,
@@ -30745,16 +30745,6 @@
     "robots": "noindex, follow",
     "sitemapGroup": "questions-noindex"
   },
-  "/class-12/q/practice-question-1yo48yvkpqnwnabh224o": {
-    "title": "Q: Practice Question... | CLASS 12 Practice",
-    "description": "Detailed solution for Mathematics question: Practice Question... Prepare for CLASS 12.",
-    "h1": "Practice Question",
-    "type": "question",
-    "priority": 0.5,
-    "canonicalExam": "jee-mains",
-    "robots": "noindex, follow",
-    "sitemapGroup": "questions-noindex"
-  },
   "/class-12/q/practice-question-1zussr3nmlhhhw47acql": {
     "title": "Q: Practice Question... | CLASS 12 Practice",
     "description": "Detailed solution for Mathematics question: Practice Question... Prepare for CLASS 12.",
@@ -38795,6 +38785,16 @@
     "robots": "noindex, follow",
     "sitemapGroup": "questions-noindex"
   },
+  "/class-12/q/practice-question-umhfp5owxdw124gtrzys": {
+    "title": "Q: Practice Question... | CLASS 12 Practice",
+    "description": "Detailed solution for Mathematics question: Practice Question... Prepare for CLASS 12.",
+    "h1": "Practice Question",
+    "type": "question",
+    "priority": 0.5,
+    "canonicalExam": "jee-mains",
+    "robots": "noindex, follow",
+    "sitemapGroup": "questions-noindex"
+  },
   "/class-12/q/practice-question-unq42qi9mhybyepp8fqn": {
     "title": "Q: Practice Question... | CLASS 12 Practice",
     "description": "Detailed solution for Chemistry question: Practice Question... Prepare for CLASS 12.",
@@ -41771,16 +41771,6 @@
     "type": "question",
     "priority": 0.5,
     "canonicalExam": "neet",
-    "robots": "noindex, follow",
-    "sitemapGroup": "questions-noindex"
-  },
-  "/class-11/q/practice-question-1yo48yvkpqnwnabh224o": {
-    "title": "Q: Practice Question... | CLASS 11 Practice",
-    "description": "Detailed solution for Mathematics question: Practice Question... Prepare for CLASS 11.",
-    "h1": "Practice Question",
-    "type": "question",
-    "priority": 0.5,
-    "canonicalExam": "jee-mains",
     "robots": "noindex, follow",
     "sitemapGroup": "questions-noindex"
   },
@@ -49824,6 +49814,16 @@
     "robots": "noindex, follow",
     "sitemapGroup": "questions-noindex"
   },
+  "/class-11/q/practice-question-umhfp5owxdw124gtrzys": {
+    "title": "Q: Practice Question... | CLASS 11 Practice",
+    "description": "Detailed solution for Mathematics question: Practice Question... Prepare for CLASS 11.",
+    "h1": "Practice Question",
+    "type": "question",
+    "priority": 0.5,
+    "canonicalExam": "jee-mains",
+    "robots": "noindex, follow",
+    "sitemapGroup": "questions-noindex"
+  },
   "/class-11/q/practice-question-unq42qi9mhybyepp8fqn": {
     "title": "Q: Practice Question... | CLASS 11 Practice",
     "description": "Detailed solution for Chemistry question: Practice Question... Prepare for CLASS 11.",
@@ -53542,16 +53542,6 @@
     "canonicalExam": "class-10",
     "robots": "index, follow",
     "sitemapGroup": "questions"
-  },
-  "/class-10/q/practice-question-1yo48yvkpqnwnabh224o": {
-    "title": "Q: Practice Question... | CLASS 10 Practice",
-    "description": "Detailed solution for Mathematics question: Practice Question... Prepare for CLASS 10.",
-    "h1": "Practice Question",
-    "type": "question",
-    "priority": 0.5,
-    "canonicalExam": "jee-mains",
-    "robots": "noindex, follow",
-    "sitemapGroup": "questions-noindex"
   },
   "/class-10/q/practice-question-1zussr3nmlhhhw47acql": {
     "title": "Q: Practice Question... | CLASS 10 Practice",
@@ -68243,6 +68233,16 @@
     "robots": "index, follow",
     "sitemapGroup": "questions"
   },
+  "/class-10/q/practice-question-umhfp5owxdw124gtrzys": {
+    "title": "Q: Practice Question... | CLASS 10 Practice",
+    "description": "Detailed solution for Mathematics question: Practice Question... Prepare for CLASS 10.",
+    "h1": "Practice Question",
+    "type": "question",
+    "priority": 0.5,
+    "canonicalExam": "jee-mains",
+    "robots": "noindex, follow",
+    "sitemapGroup": "questions-noindex"
+  },
   "/class-10/q/practice-question-unq42qi9mhybyepp8fqn": {
     "title": "Q: Practice Question... | CLASS 10 Practice",
     "description": "Detailed solution for Chemistry question: Practice Question... Prepare for CLASS 10.",
@@ -72549,16 +72549,6 @@
     "type": "question",
     "priority": 0.5,
     "canonicalExam": "class-10",
-    "robots": "noindex, follow",
-    "sitemapGroup": "questions-noindex"
-  },
-  "/class-9/q/practice-question-1yo48yvkpqnwnabh224o": {
-    "title": "Q: Practice Question... | CLASS 9 Practice",
-    "description": "Detailed solution for Mathematics question: Practice Question... Prepare for CLASS 9.",
-    "h1": "Practice Question",
-    "type": "question",
-    "priority": 0.5,
-    "canonicalExam": "jee-mains",
     "robots": "noindex, follow",
     "sitemapGroup": "questions-noindex"
   },
@@ -87252,6 +87242,16 @@
     "robots": "noindex, follow",
     "sitemapGroup": "questions-noindex"
   },
+  "/class-9/q/practice-question-umhfp5owxdw124gtrzys": {
+    "title": "Q: Practice Question... | CLASS 9 Practice",
+    "description": "Detailed solution for Mathematics question: Practice Question... Prepare for CLASS 9.",
+    "h1": "Practice Question",
+    "type": "question",
+    "priority": 0.5,
+    "canonicalExam": "jee-mains",
+    "robots": "noindex, follow",
+    "sitemapGroup": "questions-noindex"
+  },
   "/class-9/q/practice-question-unq42qi9mhybyepp8fqn": {
     "title": "Q: Practice Question... | CLASS 9 Practice",
     "description": "Detailed solution for Chemistry question: Practice Question... Prepare for CLASS 9.",
@@ -91558,16 +91558,6 @@
     "type": "question",
     "priority": 0.5,
     "canonicalExam": "class-10",
-    "robots": "noindex, follow",
-    "sitemapGroup": "questions-noindex"
-  },
-  "/class-8/q/practice-question-1yo48yvkpqnwnabh224o": {
-    "title": "Q: Practice Question... | CLASS 8 Practice",
-    "description": "Detailed solution for Mathematics question: Practice Question... Prepare for CLASS 8.",
-    "h1": "Practice Question",
-    "type": "question",
-    "priority": 0.5,
-    "canonicalExam": "jee-mains",
     "robots": "noindex, follow",
     "sitemapGroup": "questions-noindex"
   },
@@ -106258,6 +106248,16 @@
     "type": "question",
     "priority": 0.5,
     "canonicalExam": "class-10",
+    "robots": "noindex, follow",
+    "sitemapGroup": "questions-noindex"
+  },
+  "/class-8/q/practice-question-umhfp5owxdw124gtrzys": {
+    "title": "Q: Practice Question... | CLASS 8 Practice",
+    "description": "Detailed solution for Mathematics question: Practice Question... Prepare for CLASS 8.",
+    "h1": "Practice Question",
+    "type": "question",
+    "priority": 0.5,
+    "canonicalExam": "jee-mains",
     "robots": "noindex, follow",
     "sitemapGroup": "questions-noindex"
   },

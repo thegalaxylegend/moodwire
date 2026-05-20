@@ -136,6 +136,8 @@ CREATE INDEX idx_q_serve ON questions(exam, class, subject, difficulty_score);
 
 -- Topic browsing: all questions for a specific chapter/topic
 CREATE INDEX idx_q_topic ON questions(primary_topic_id, difficulty_score);
+CREATE INDEX idx_q_primary_topic ON questions(primary_topic, difficulty_score);
+CREATE INDEX idx_q_subject ON questions(subject, difficulty_score);
 
 -- Band-based filtering
 CREATE INDEX idx_q_band ON questions(difficulty_band);

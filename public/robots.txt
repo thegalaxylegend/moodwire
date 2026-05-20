@@ -2,6 +2,8 @@ User-agent: *
 Allow: /
 Disallow: /dashboard/
 Disallow: /login
+Disallow: /admin/
+Disallow: /onboarding
 
 # Specific rules for AI Crawlers
 User-agent: GPTBot

@@ -15,7 +15,7 @@ const TOKEN      = process.env.CLOUDFLARE_D1_TOKEN || process.env.CLOUDFLARE_API
 const ACCOUNT_ID = process.env.CLOUDFLARE_ACCOUNT_ID!;
 const DB_ID      = '63abfee4-2340-47bd-a9ad-ebc4a9c50580';
 const SEED_FILE  = path.join(__dirname, 'seed.sql');
-const BATCH_SIZE = 10; // statements per API call
+const BATCH_SIZE = 50; // statements per API call
 
 if (!TOKEN || !ACCOUNT_ID) {
   console.error('❌ Missing CLOUDFLARE_D1_TOKEN and CLOUDFLARE_ACCOUNT_ID in .env');
@@ -91,7 +91,9 @@ async function main() {
 
   // Parse SQL
   console.log('\n📖 Parsing seed.sql...');
-  const content = fs.readFileSync(SEED_FILE, 'utf-8');
+  let content = fs.readFileSync(SEED_FILE, 'utf-8');
+  // Clean null bytes which cause SQL truncation in Cloudflare D1/SQLite
+  content = content.replace(/\x00/g, '');
   const statements = parseSQLStatements(content);
   console.log(`📦 Found ${statements.length} INSERT statements`);
 
@@ -100,7 +102,7 @@ async function main() {
     return;
   }
 
-  // Push in batches
+  // Push in batches using multi-statement SQL
   let pushed = 0;
   let skipped = 0;
   let errors = 0;
@@ -108,18 +110,25 @@ async function main() {
 
   for (let i = 0; i < statements.length; i += BATCH_SIZE) {
     const batch = statements.slice(i, i + BATCH_SIZE);
+    const sql = batch.join('\n');
     
-    // Execute each statement individually (D1 API handles one SQL at a time)
-    for (const stmt of batch) {
-      try {
-        await d1Query(stmt);
-        pushed++;
-      } catch (e: any) {
-        if (e.message.includes('UNIQUE constraint') || e.message.includes('already exists')) {
-          skipped++;
-        } else {
-          errors++;
-          if (errors <= 5) console.error(`  ❌ Error: ${e.message.slice(0, 100)}`);
+    try {
+      // Execute the entire batch in one API call
+      await d1Query(sql);
+      pushed += batch.length;
+    } catch (batchErr: any) {
+      // Fallback: execute individually if the batch failed
+      for (const stmt of batch) {
+        try {
+          await d1Query(stmt);
+          pushed++;
+        } catch (e: any) {
+          if (e.message.includes('UNIQUE constraint') || e.message.includes('already exists')) {
+            skipped++;
+          } else {
+            errors++;
+            if (errors <= 5) console.error(`\n  ❌ Error in statement: ${e.message.slice(0, 150)}`);
+          }
         }
       }
     }
@@ -128,7 +137,7 @@ async function main() {
     const done = Math.min(i + BATCH_SIZE, statements.length);
     const pct = (done / statements.length * 100).toFixed(1);
     const elapsed = (Date.now() - startTime) / 1000;
-    const rate = pushed / elapsed * 60;
+    const rate = (pushed + skipped) / elapsed * 60;
     const eta = rate > 0 ? Math.round((statements.length - done) / rate * 60) : '?';
     process.stdout.write(
       `\r  [${pct}%] ${done}/${statements.length} | ✅ ${pushed} pushed | ⏭ ${skipped} skipped | ❌ ${errors} errors | ${rate.toFixed(0)}/min | ETA: ${eta}s   `
