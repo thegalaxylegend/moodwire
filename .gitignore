@@ -42,3 +42,17 @@ tsc_output_utf8.txt
 dev-dist/
 .firebase/
 queue.json
+
+# Pipeline generated files (large, regenerated each run)
+scripts/seed.sql
+scripts/seed_chunk1.sql
+scripts/seed_chunk2.sql
+scripts/chunks/
+
+# Scratch data (raw cache, regenerated)
+scratch/raw_questions_cache.jsonl
+scratch/daily_limits.json
+# Keep these in git (track progress):
+# scratch/processed_hashes.json  ← DO NOT ignore
+# scratch/distribution_report.json ← DO NOT ignore
+

@@ -1,0 +1,8 @@
+# Wrangler Configuration for Exam Compass Pages & D1 Database
+name = "exam-compass"
+pages_build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "examcompass-questions"
+database_id = "63abfee4-2340-47bd-a9ad-ebc4a9c50580"

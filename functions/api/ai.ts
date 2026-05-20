@@ -13,15 +13,15 @@ declare interface KVNamespace {
 interface Env {
   // Groq Keys (8 keys across multiple Gmail accounts)
   // Keys 1-6: full model access | Key 7 (Bkc): 70b only | Key 8 (MoodWire): 8b only
-  GROQ_API_KEY: string;   GROQ_API_KEY_2: string; GROQ_API_KEY_3: string;
+  GROQ_API_KEY: string; GROQ_API_KEY_2: string; GROQ_API_KEY_3: string;
   GROQ_API_KEY_4: string; GROQ_API_KEY_5: string; GROQ_API_KEY_6: string;
   GROQ_API_KEY_7: string; GROQ_API_KEY_8: string;
   // Gemini Keys (6 different Gmail accounts)
-  GEMINI_API_KEY: string;   GEMINI_API_KEY_2: string; GEMINI_API_KEY_3: string;
+  GEMINI_API_KEY: string; GEMINI_API_KEY_2: string; GEMINI_API_KEY_3: string;
   GEMINI_API_KEY_4: string; GEMINI_API_KEY_5: string;
   GEMINI_API_KEY_6: string; GEMINI_API_KEY_7: string;
   // Cerebras Keys (8 keys across Gmail accounts)
-  CEREBRAS_API_KEY: string;   CEREBRAS_API_KEY_2: string; CEREBRAS_API_KEY_3: string;
+  CEREBRAS_API_KEY: string; CEREBRAS_API_KEY_2: string; CEREBRAS_API_KEY_3: string;
   CEREBRAS_API_KEY_4: string; CEREBRAS_API_KEY_5: string; CEREBRAS_API_KEY_6: string;
   CEREBRAS_API_KEY_7: string; CEREBRAS_API_KEY_8: string;
   // HuggingFace Keys (3 keys across Gmail accounts)
@@ -35,66 +35,60 @@ interface Env {
 // ─── Model Registry ───────────────────────────────────────────────
 const MODELS: Record<string, { provider: string; rpm: number; rpd: number; tier: string }> = {
   // GROQ — 8 keys (6 full + Bkc 70b-only + MoodWire 8b-only)
-  'llama-3.3-70b-versatile':                 { provider: 'groq',        rpm: 30,   rpd: 1000,  tier: 'T1' },
-  'qwen/qwen3-32b':                          { provider: 'groq',        rpm: 30,   rpd: 1000,  tier: 'T2' },
-  'meta-llama/llama-4-scout-17b-16e-instruct': { provider: 'groq',     rpm: 30,   rpd: 1000,  tier: 'T2' },
-  'llama-3.1-8b-instant':                    { provider: 'groq',        rpm: 30,   rpd: 14400, tier: 'T4' },
+  'qwen/qwen3-32b': { provider: 'groq', rpm: 30, rpd: 1000, tier: 'T1' },
+  'llama-3.3-70b-versatile': { provider: 'groq', rpm: 30, rpd: 1000, tier: 'T2' },
+  'meta-llama/llama-4-scout-17b-16e-instruct': { provider: 'groq', rpm: 30, rpd: 5000, tier: 'T4' },
+  'llama-3.1-8b-instant': { provider: 'groq', rpm: 30, rpd: 14400, tier: 'T5' },
+
   // GEMINI — 6 independent accounts × 15 RPM per model = 90 RPM each
-  'gemini-2.5-flash':                        { provider: 'gemini',      rpm: 15,   rpd: 1500,  tier: 'T1' },
-  'gemma-4-31b-it':                          { provider: 'gemini',      rpm: 15,   rpd: 1500,  tier: 'T2' },
-  'gemma-4-26b-a4b-it':                      { provider: 'gemini',      rpm: 15,   rpd: 1500,  tier: 'T3' },
+  'gemma-4-31b-it': { provider: 'gemini', rpm: 15, rpd: 1500, tier: 'T1' },
+  'gemini-2.5-pro': { provider: 'gemini', rpm: 2, rpd: 50, tier: 'T1' },
+  'gemma-4-26b-a4b-it': { provider: 'gemini', rpm: 15, rpd: 1500, tier: 'T2' },
+  'gemini-2.5-flash': { provider: 'gemini', rpm: 15, rpd: 1500, tier: 'T3' },
+  'gemini-2.5-flash-lite': { provider: 'gemini', rpm: 30, rpd: 1500, tier: 'T4' },
+
   // CEREBRAS — 8 keys × 60/120 RPM = 480/960 RPM fleet
-  'llama3.3-70b':                            { provider: 'cerebras',    rpm: 60,   rpd: 28800, tier: 'T1' },
-  'llama3.1-8b':                             { provider: 'cerebras',    rpm: 120,  rpd: 57600, tier: 'T4' },
-  'Qwen/Qwen2.5-7B-Instruct':               { provider: 'huggingface', rpm: 30,   rpd: 5000,  tier: 'T2' },
-  // TOGETHER AI
-  'meta-llama/Llama-3.3-70B-Instruct-Turbo': { provider: 'together',   rpm: 60,   rpd: 10000, tier: 'T2' },
+  'gpt-oss-120b': { provider: 'cerebras', rpm: 60, rpd: 28800, tier: 'T1' },
+  'llama3.1-8b': { provider: 'cerebras', rpm: 120, rpd: 57600, tier: 'T4' },
 };
 
 // ─── Waterfall chains per tier ────────────────────────────────────
 const WATERFALL: Record<string, string[]> = {
   T1: [
-    'llama3.3-70b',                   // Cerebras 480 RPM (8 keys) — fastest + highest capacity
-    'llama-3.3-70b-versatile',        // Groq 210 RPM (7 keys)
-    'gemini-2.5-flash',               // Gemini 90 RPM (6 keys)
     'gemma-4-31b-it',
+    'gemini-2.5-pro',
+    'qwen/qwen3-32b',
+    'gpt-oss-120b',
   ],
   T2: [
-    'llama3.3-70b',                   // Cerebras — fastest
-    'qwen/qwen3-32b',                 // Groq
-    'meta-llama/llama-4-scout-17b-16e-instruct',
-    'Qwen/Qwen2.5-7B-Instruct',      // HuggingFace (3 keys)
-    'meta-llama/Llama-3.3-70B-Instruct-Turbo', // Together AI
-    'gemma-4-31b-it',
-    'gemini-2.5-flash',
+    'gemma-4-26b-a4b-it',
+    'llama-3.3-70b-versatile',
+    'gpt-oss-120b',
   ],
   T3: [
-    'meta-llama/llama-4-scout-17b-16e-instruct',
-    'qwen/qwen3-32b',
     'gemini-2.5-flash',
+    'llama-3.3-70b-versatile',
   ],
   T4: [
-    'llama3.1-8b',           // Cerebras 960 RPM (8 keys × 120)
-    'llama-3.1-8b-instant',  // Groq 210 RPM (7 keys)
-    'gemini-2.5-flash',
+    'meta-llama/llama-4-scout-17b-16e-instruct',
+    'gemini-2.5-flash-lite',
+    'llama3.1-8b',
   ],
   T5: [
-    'llama3.1-8b',
     'llama-3.1-8b-instant',
-    'gemma-4-26b-a4b-it',
-    'gemini-2.5-flash',
+    'llama3.1-8b',
   ],
 };
 
 // ─── Key pools per provider ───────────────────────────────────────
 function getKeys(provider: string, env: Env): string[] {
   switch (provider) {
-    case 'groq':        return [env.GROQ_API_KEY, env.GROQ_API_KEY_2, env.GROQ_API_KEY_3, env.GROQ_API_KEY_4, env.GROQ_API_KEY_5, env.GROQ_API_KEY_6, env.GROQ_API_KEY_7, env.GROQ_API_KEY_8].filter(Boolean);
-    case 'gemini':      return [env.GEMINI_API_KEY, env.GEMINI_API_KEY_2, env.GEMINI_API_KEY_3, env.GEMINI_API_KEY_4, env.GEMINI_API_KEY_5, env.GEMINI_API_KEY_6, env.GEMINI_API_KEY_7].filter(Boolean);
-    case 'cerebras':    return [env.CEREBRAS_API_KEY, env.CEREBRAS_API_KEY_2, env.CEREBRAS_API_KEY_3, env.CEREBRAS_API_KEY_4, env.CEREBRAS_API_KEY_5, env.CEREBRAS_API_KEY_6, env.CEREBRAS_API_KEY_7, env.CEREBRAS_API_KEY_8].filter(Boolean);
+    case 'groq': return [env.GROQ_API_KEY, env.GROQ_API_KEY_2, env.GROQ_API_KEY_3, env.GROQ_API_KEY_4, env.GROQ_API_KEY_5, env.GROQ_API_KEY_6, env.GROQ_API_KEY_7, env.GROQ_API_KEY_8].filter(Boolean);
+    case 'gemini': return [env.GEMINI_API_KEY, env.GEMINI_API_KEY_2, env.GEMINI_API_KEY_3, env.GEMINI_API_KEY_4, env.GEMINI_API_KEY_5, env.GEMINI_API_KEY_6, env.GEMINI_API_KEY_7].filter(Boolean);
+    case 'cerebras': return [env.CEREBRAS_API_KEY, env.CEREBRAS_API_KEY_2, env.CEREBRAS_API_KEY_3, env.CEREBRAS_API_KEY_4, env.CEREBRAS_API_KEY_5, env.CEREBRAS_API_KEY_6, env.CEREBRAS_API_KEY_7, env.CEREBRAS_API_KEY_8].filter(Boolean);
     case 'huggingface': return [env.HF_API_TOKEN, env.HF_API_TOKEN_2, env.HF_API_TOKEN_3].filter(Boolean);
-    case 'together':    return [env.TOGETHER_API_KEY].filter(Boolean);
-    default:            return [];
+    case 'together': return [env.TOGETHER_API_KEY].filter(Boolean);
+    default: return [];
   }
 }
 
@@ -135,7 +129,7 @@ async function getSystemPressure(kv: KVNamespace | undefined): Promise<number> {
     else if (spec.provider === 'gemini') keyCount = 7;
     else if (spec.provider === 'cerebras') keyCount = 8;
     else if (spec.provider === 'huggingface') keyCount = 3;
-    
+
     for (let i = 0; i < keyCount; i++) {
       if (await isOnCooldown(kv, m, i)) { onCooldown++; break; }
     }
@@ -152,9 +146,9 @@ async function callProvider(
   messages: { role: string; content: string }[],
   options: any
 ): Promise<Response> {
-  const stream   = options?.stream ?? true;
-  const temp     = options?.temperature ?? 0.7;
-  const maxTok   = options?.max_tokens ?? 2048;
+  const stream = options?.stream ?? true;
+  const temp = options?.temperature ?? 0.7;
+  const maxTok = options?.max_tokens ?? 2048;
   const jsonMode = options?.jsonMode ?? false;
 
   // ── GROQ ──────────────────────────────────────────────────────────
@@ -170,9 +164,9 @@ async function callProvider(
 
   // ── GEMINI ────────────────────────────────────────────────────────
   if (provider === 'gemini') {
-    const sysMsg  = messages.find(m => m.role === 'system')?.content || '';
+    const sysMsg = messages.find(m => m.role === 'system')?.content || '';
     const userMsg = messages.find(m => m.role === 'user')?.content || messages[messages.length - 1]?.content || '';
-    const prompt  = sysMsg ? `${sysMsg}\n\n${userMsg}` : userMsg;
+    const prompt = sysMsg ? `${sysMsg}\n\n${userMsg}` : userMsg;
     const endpoint = stream
       ? `https://generativelanguage.googleapis.com/v1beta/models/${modelId}:streamGenerateContent?alt=sse&key=${apiKey}`
       : `https://generativelanguage.googleapis.com/v1beta/models/${modelId}:generateContent?key=${apiKey}`;
@@ -191,6 +185,7 @@ async function callProvider(
   // ── CEREBRAS (OpenAI-compatible) ──────────────────────────────────
   if (provider === 'cerebras') {
     const body: any = { model: modelId, messages, temperature: temp, max_tokens: maxTok, stream };
+    if (jsonMode && !stream) body.response_format = { type: 'json_object' };
     return fetch('https://api.cerebras.ai/v1/chat/completions', {
       method: 'POST',
       headers: { 'Authorization': `Bearer ${apiKey}`, 'Content-Type': 'application/json' },
@@ -211,6 +206,7 @@ async function callProvider(
   // ── TOGETHER AI (OpenAI-compatible) ──────────────────────────────
   if (provider === 'together') {
     const body: any = { model: modelId, messages, temperature: temp, max_tokens: maxTok, stream };
+    if (jsonMode && !stream) body.response_format = { type: 'json_object' };
     return fetch('https://api.together.xyz/v1/chat/completions', {
       method: 'POST',
       headers: { 'Authorization': `Bearer ${apiKey}`, 'Content-Type': 'application/json' },
@@ -240,8 +236,8 @@ export async function onRequestPost({ request, env }: { request: Request; env: E
 
     if (!messages || !Array.isArray(messages)) return err('messages array required', 400);
 
-    const kv      = env.LB_STATE;
-    const chain   = WATERFALL[tier] || WATERFALL['T3'];
+    const kv = env.LB_STATE;
+    const chain = WATERFALL[tier] || WATERFALL['T3'];
 
     // ── Circuit Breaker: check global pressure ──────────────────────
     const pressure = await getSystemPressure(kv);
