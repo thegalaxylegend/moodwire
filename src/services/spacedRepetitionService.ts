@@ -473,7 +473,7 @@ export const SpacedRepetitionService = {
             } catch (e) {
                 // Silent fail — will retry next sync
                 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-                const _ignored = e;
+                // const _ignored = e;
             }
         }
         console.log(`[SRS] Synced ${localCards.length} cards to cloud.`);
