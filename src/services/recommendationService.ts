@@ -43,8 +43,7 @@ export const getActiveRecommendation = async (
         }
 
         // 2. Generate NEW Recommendation
-        console.log('[RecommendationService] Generating new recommendation...');
-        const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(userClass || '');
+        console.log('[RecommendationService] Generating new recommendation...');        const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(userClass || '');
         const searchContext = isJunior ? (userClass || 'Class 10') : (targetExam || 'JEE');
 
         let targetTopic = '';
