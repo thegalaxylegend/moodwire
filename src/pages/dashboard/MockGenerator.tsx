@@ -29,13 +29,14 @@ type Question = {
     id: number;
     text: string;
     options: string[];
-    correctAnswer: number;
+    correctAnswer: any;
     explanation: string;
     topic: string;
     subject: string;
     difficulty_score: number;
     imageUrl?: string;
     concept_tags?: string[];
+    type?: string;
 };
 
 type Message = {
@@ -55,7 +56,7 @@ export const MockGenerator = () => {
     const [step, setStep] = useState<'config' | 'loading' | 'preview' | 'exam' | 'result' | 'history' | 'review'>('config');
     const [questions, setQuestions] = useState<Question[]>([]);
     const [currentQ, setCurrentQ] = useState(0);
-    const [answers, setAnswers] = useState<Record<number, number>>({});
+    const [answers, setAnswers] = useState<Record<number, any>>({});
     const [score, setScore] = useState(0);
     const [timeRemaining, setTimeRemaining] = useState(0);
     const [loadingMessage, setLoadingMessage] = useState("Initializing...");
@@ -236,16 +237,35 @@ export const MockGenerator = () => {
         let currentScore = 0;
         if (status === 'completed') {
             (Array.isArray(questions) ? questions : []).forEach((q, idx) => {
-                if (answers[idx] === (q as any).correctAnswer) {
+                const ans = answers[idx];
+                const isInteger = (q as any).type === 'Integer' || (q as any).type === 'Numerical';
+                let isCorrect = false;
+                if (Array.isArray(ans) && Array.isArray((q as any).correctAnswer)) {
+                    isCorrect = ans.length === (q as any).correctAnswer.length && [...ans].sort().every((v, i) => v === [...(q as any).correctAnswer].sort()[i]);
+                } else if (isInteger) {
+                    isCorrect = String(ans).trim() === String((q as any).correctAnswer).trim();
+                } else {
+                    isCorrect = ans === (q as any).correctAnswer;
+                }
+                if (isCorrect) {
                     currentScore += 4;
-                } else if (answers[idx] !== undefined) {
+                } else if (ans !== undefined) {
                     currentScore -= isJunior ? 0 : 1;
                 }
             });
             setScore(currentScore);
         }
         try {
-            const correctCount = questions.filter((q, i) => answers[i] === q.correctAnswer).length;
+            const correctCount = questions.filter((q, i) => {
+                const ans = answers[i];
+                const isInteger = (q as any).type === 'Integer' || (q as any).type === 'Numerical';
+                if (Array.isArray(ans) && Array.isArray(q.correctAnswer)) {
+                    return ans.length === (q.correctAnswer as any).length && [...ans].sort().every((v: any, j: number) => v === [...(q.correctAnswer as any)].sort()[j]);
+                } else if (isInteger) {
+                    return String(ans).trim() === String(q.correctAnswer).trim();
+                }
+                return ans === q.correctAnswer;
+            }).length;
             const attemptedCount = Object.keys(answers).length;
             const mockAttemptData = {
                 user_id: user.id,
@@ -299,18 +319,52 @@ export const MockGenerator = () => {
                 pendingSync: syncError,
                 topic: mode === 'topic' ? (urlTopic || 'Topic') : (mode === 'quick' ? 'Quick Test' : 'Full Mock'),
                 user_class: user.userClass || 'General',
-                weakTopics: questions.filter((q, i) => answers[i] !== undefined && answers[i] !== q.correctAnswer).map(q => q.topic)
+                weakTopics: questions.filter((q, i) => {
+                    const ans = answers[i];
+                    if (ans === undefined) return false;
+                    const isInteger = (q as any).type === 'Integer' || (q as any).type === 'Numerical';
+                    if (Array.isArray(ans) && Array.isArray(q.correctAnswer)) {
+                        return !(ans.length === (q.correctAnswer as any).length && [...ans].sort().every((v: any, j: number) => v === [...(q.correctAnswer as any)].sort()[j]));
+                    } else if (isInteger) {
+                        return String(ans).trim() !== String(q.correctAnswer).trim();
+                    }
+                    return ans !== q.correctAnswer;
+                }).map(q => q.topic)
             }, user.id);
 
             if (status === 'completed') {
-                const questionResults = questions.map((q, i) => ({ topic: q.topic, isCorrect: answers[i] === q.correctAnswer }));
+                const questionResults = questions.map((q, i) => {
+                    const ans = answers[i];
+                    const isInteger = (q as any).type === 'Integer' || (q as any).type === 'Numerical';
+                    let isCorrect = false;
+                    if (Array.isArray(ans) && Array.isArray(q.correctAnswer)) {
+                        isCorrect = ans.length === (q.correctAnswer as any).length && [...ans].sort().every((v: any, j: number) => v === [...(q.correctAnswer as any)].sort()[j]);
+                    } else if (isInteger) {
+                        isCorrect = String(ans).trim() === String(q.correctAnswer).trim();
+                    } else {
+                        isCorrect = ans === q.correctAnswer;
+                    }
+                    return { topic: q.topic, isCorrect };
+                });
                 addGains({ xp: currentScore * 10, pts: currentScore }).catch(() => {});
                 updateProfile({ 
                     lastTestDate: new Date().toISOString().split('T')[0],
                     abilityScore: currentAbility 
                 }).catch(() => {});
                 markTopicsAsCompletedFromResults(user.id, questionResults).catch(() => {});
-                const topicStrengthResults = questions.map((q, i) => ({ topic: q.topic || 'General', subject: q.topic || 'General', isCorrect: answers[i] === q.correctAnswer }));
+                const topicStrengthResults = questions.map((q, i) => {
+                    const ans = answers[i];
+                    const isInteger = (q as any).type === 'Integer' || (q as any).type === 'Numerical';
+                    let isCorrect = false;
+                    if (Array.isArray(ans) && Array.isArray(q.correctAnswer)) {
+                        isCorrect = ans.length === (q.correctAnswer as any).length && [...ans].sort().every((v: any, j: number) => v === [...(q.correctAnswer as any)].sort()[j]);
+                    } else if (isInteger) {
+                        isCorrect = String(ans).trim() === String(q.correctAnswer).trim();
+                    } else {
+                        isCorrect = ans === q.correctAnswer;
+                    }
+                    return { topic: q.topic || 'General', subject: q.subject || 'General', isCorrect };
+                });
                 batchUpdateTopicStrength(user.id, topicStrengthResults, user.userClass, user.targetExam).catch(() => {});
                 const wrongQuestions = questions.map((q, i) => ({ question: q, index: i })).filter(({ index: i }) => answers[i] !== undefined && answers[i] !== questions[i].correctAnswer).map(({ question: q, index: i }) => {
                     const simpleHash = Array.from(q.text).reduce((hash, char) => ((hash << 5) - hash) + char.charCodeAt(0), 0).toString(36);
@@ -442,29 +496,50 @@ export const MockGenerator = () => {
             }
 
             setLoadingMessage("Fetching Hybrid Questions...");
-            const rawQuestions = await getAdaptiveQuestionBatch(
+            let rawQuestions = await getAdaptiveQuestionBatch(
                 needs,
                 targetExam,
                 currentAbility,
                 (p) => setGenerationProgress(p)
             );
 
+            // Auto-retry once — AI generation may need a warm-up on first call
+            if (!rawQuestions || rawQuestions.length === 0) {
+                console.warn("[MockGenerator] First attempt returned 0 questions. Retrying AI generation...");
+                setLoadingMessage("AI is generating questions… please wait.");
+                setGenerationProgress(30);
+                rawQuestions = await getAdaptiveQuestionBatch(
+                    needs,
+                    targetExam,
+                    currentAbility,
+                    (p) => setGenerationProgress(50 + Math.round(p / 2))
+                );
+            }
+
             if (!rawQuestions || rawQuestions.length === 0) {
                 throw new Error("No questions were generated successfully.");
             }
 
             const mappedQs = mapStoredToUIQuestion(rawQuestions);
+            if (mappedQs.length === 0) {
+                throw new Error("All generated questions were invalid (missing options or bad format).");
+            }
             setQuestions(mappedQs);
             setStep('preview');
 
         } catch (e: any) {
             console.error(e);
-            alert("Failed to generate exam. Please try again.");
-            navigate('/dashboard/test-center');
+            setStep('config');
+            setAlertModal({
+                open: true,
+                title: "Question Generation Failed",
+                message: "We couldn't generate questions right now. This can happen if the AI service is busy. Please try again in a moment.",
+                type: 'warning'
+            });
         }
     };
 
-    const handleAnswer = (optionIdx: number) => {
+    const handleAnswer = (optionIdx: any) => {
         const q = questions[currentQ];
         if (q) {
             const prevAnswer = answers[currentQ];

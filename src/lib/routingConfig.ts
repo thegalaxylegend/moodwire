@@ -62,52 +62,58 @@ export const MODELS: Record<string, ModelSpec> = {
 };
 
 // ═══════════════════════════════════════════════════════════════
-// WATERFALL CHAINS — Model-first rotation order per tier
-// Rule: Best quality first, then speed/capacity fallbacks
+// WATERFALL CHAINS — Priority: Cerebras → Groq → Gemini
+// Cerebras: ultra-fast hardware inference (60-120 RPM × 8 keys)
+// Groq:     fast cloud inference (30 RPM × 8 keys)
+// Gemini:   large context fallback (15 RPM × 6 keys)
 // ALL requests go through Cloudflare Worker in production
 // ═══════════════════════════════════════════════════════════════
 export const WATERFALL_CHAINS: Record<TaskTier, string[]> = {
   // T1: JEE Advanced / Expert accuracy required
   T1: [
-    'llama3.3-70b',                        // Cerebras 480 RPM (8 keys × 60) — fastest + highest capacity
+    'llama3.3-70b',                        // Cerebras 480 RPM (8 keys × 60) — FIRST
     'llama-3.3-70b-versatile',             // Groq 210 RPM (7 keys × 30)
-    'gemini-2.5-flash',                    // Gemini 90 RPM (6 keys × 15)
+    'qwen/qwen3-32b',                      // Groq
+    'gemini-2.5-flash',                    // Gemini 90 RPM (6 keys × 15) — LAST
     'gemma-4-31b-it',
   ],
 
   // T2: JEE Main / NEET question generation
   T2: [
-    'llama3.3-70b',                        // Cerebras — fastest
+    'llama3.3-70b',                        // Cerebras — FIRST
     'qwen/qwen3-32b',                      // Groq
-    'meta-llama/llama-4-scout-17b-16e-instruct',
+    'meta-llama/llama-4-scout-17b-16e-instruct', // Groq
     'Qwen/Qwen2.5-7B-Instruct',           // HuggingFace (3 keys)
     'meta-llama/Llama-3.3-70B-Instruct-Turbo', // Together AI
-    'gemma-4-31b-it',
-    'gemini-2.5-flash',
+    'gemma-4-31b-it',                      // Gemini
+    'gemini-2.5-flash',                    // Gemini — LAST
   ],
 
-  // T3: Student chatbot / doubt solving
+  // T3: Student chatbot / doubt solving — Cerebras → Groq → Gemini
   T3: [
-    'meta-llama/llama-4-scout-17b-16e-instruct',
-    'qwen/qwen3-32b',
-    'gemini-2.5-flash',
+    'llama3.3-70b',                        // Cerebras 480 RPM — FIRST (sub-second latency)
+    'meta-llama/llama-4-scout-17b-16e-instruct', // Groq
+    'qwen/qwen3-32b',                      // Groq
+    'gemini-2.5-flash',                    // Gemini — LAST
   ],
 
   // T4: Light tasks (formatting, memory extraction)
   T4: [
-    'llama3.1-8b',           // Cerebras 960 RPM (8 keys × 120)
+    'llama3.1-8b',           // Cerebras 960 RPM (8 keys × 120) — FIRST
     'llama-3.1-8b-instant',  // Groq 210 RPM (7 keys × 30)
-    'gemini-2.5-flash',
+    'gemma-4-26b-a4b-it',   // Gemini
+    'gemini-2.5-flash',      // Gemini — LAST
   ],
 
   // T5: Cheapest tasks (JSON parsing, unit checks)
   T5: [
-    'llama3.1-8b',
-    'llama-3.1-8b-instant',
-    'gemma-4-26b-a4b-it',
-    'gemini-2.5-flash',
+    'llama3.1-8b',           // Cerebras — FIRST
+    'llama-3.1-8b-instant',  // Groq
+    'gemma-4-26b-a4b-it',   // Gemini
+    'gemini-2.5-flash',      // Gemini — LAST
   ],
 };
+
 
 export const PROVIDER_FALLBACK: Record<Provider, Provider[]> = {
   groq:        ['cerebras', 'gemini', 'together', 'huggingface'],

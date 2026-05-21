@@ -9,6 +9,18 @@ import { AutoSchema } from './components/seo/AutoSchema';
 import { GlobalLoading } from './components/skeletons/GlobalLoading';
 import { BlogSkeleton } from './components/skeletons/BlogSkeleton';
 import { DashboardSkeleton } from './components/skeletons/DashboardSkeleton';
+import {
+  ArenaSkeleton,
+  TestCenterSkeleton,
+  StudyPlanSkeleton,
+  BenchmarkingSkeleton,
+  DecisionSimulatorSkeleton,
+  SyllabusSkeleton,
+  SavedLecturesSkeleton,
+  TimelineSkeleton,
+  NotesSkeleton,
+  AnalyticsSkeleton,
+} from './components/skeletons/PageSkeletons';
 import { trackWebVitals, initAnalytics } from './lib/analytics';
 import { ErrorBoundary } from './components/ErrorBoundary';
 import { CookieConsent } from './components/CookieConsent';
@@ -162,23 +174,23 @@ function AppContent() {
                 <Route index element={<Overview />} />
                 <Route path="diagnostic" element={<DiagnosticTest />} />
                 <Route path="mock" element={<MockGenerator />} />
-                <Route path="study-plan" element={<StudyPlan />} />
+                <Route path="study-plan" element={<Suspense fallback={<StudyPlanSkeleton />}><StudyPlan /></Suspense>} />
                 <Route path="lectures" element={<Lectures />} />
-                <Route path="peer-benchmarking" element={<PeerBenchmarking />} />
-                <Route path="decision-simulator" element={<DecisionSimulator />} />
-                <Route path="syllabus" element={<Syllabus />} />
-                <Route path="syllabus/:subject" element={<SubjectSyllabus />} />
-                <Route path="saved-lectures" element={<SavedLectures />} />
-                <Route path="timeline" element={<Timeline />} />
-                <Route path="notes" element={<Notes />} />
-                <Route path="analytics" element={<Analytics />} />
+                <Route path="peer-benchmarking" element={<Suspense fallback={<BenchmarkingSkeleton />}><PeerBenchmarking /></Suspense>} />
+                <Route path="decision-simulator" element={<Suspense fallback={<DecisionSimulatorSkeleton />}><DecisionSimulator /></Suspense>} />
+                <Route path="syllabus" element={<Suspense fallback={<SyllabusSkeleton />}><Syllabus /></Suspense>} />
+                <Route path="syllabus/:subject" element={<Suspense fallback={<SyllabusSkeleton />}><SubjectSyllabus /></Suspense>} />
+                <Route path="saved-lectures" element={<Suspense fallback={<SavedLecturesSkeleton />}><SavedLectures /></Suspense>} />
+                <Route path="timeline" element={<Suspense fallback={<TimelineSkeleton />}><Timeline /></Suspense>} />
+                <Route path="notes" element={<Suspense fallback={<NotesSkeleton />}><Notes /></Suspense>} />
+                <Route path="analytics" element={<Suspense fallback={<AnalyticsSkeleton />}><Analytics /></Suspense>} />
                 <Route path="resources" element={<Resources />} />
-                <Route path="test-center" element={<TestCenter />} />
+                <Route path="test-center" element={<Suspense fallback={<TestCenterSkeleton />}><TestCenter /></Suspense>} />
                 <Route path="test-active" element={<ActiveTest />} />
                 <Route path="profile" element={<ProfilePage />} />
                 <Route path="ranks" element={<RankInfo />} />
                 <Route path="concept-map" element={<ConceptMap />} />
-                <Route path="arena" element={<Arena />} />
+                <Route path="arena" element={<Suspense fallback={<ArenaSkeleton />}><Arena /></Suspense>} />
                 <Route path="arena/group" element={<GroupBattle />} />
                 <Route path="arena/group/:sessionId" element={<GroupBattle />} />
               </Route>

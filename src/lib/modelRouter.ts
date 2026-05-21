@@ -16,6 +16,8 @@ type ErrorClass =
 
 function classifyError(status: number | undefined, message: string): ErrorClass {
     const msg = message.toLowerCase();
+    // Immediate AUTH for missing dev keys — do NOT retry, skip provider entirely
+    if (msg.includes('no dev key for provider') || msg.includes('no dev key')) return 'AUTH';
     if (status === 429) return 'RATE_LIMIT';
     if (status === 401 || status === 403) {
         if (msg.includes('blocked at the project level') || msg.includes('model_permission_blocked_project') || msg.includes('permission')) return 'KEY_MODEL_BLOCKED';
@@ -45,6 +47,35 @@ const withTimeout = <T>(promise: Promise<T>, ms: number, errMsg = 'Timeout'): Pr
     })
   ]);
 };
+
+// ─── Dev-mode key availability check ─────────────────────────────────────────
+// In production all providers go through the Cloudflare Worker (no local keys needed).
+// In dev mode, providers without VITE_ env keys are skipped immediately.
+const _devKeyCache: Record<string, boolean> = {};
+function providerHasDevKey(provider: Provider): boolean {
+  const isProd = typeof import.meta !== 'undefined' && import.meta.env?.PROD && !import.meta.env?.VITE_DEV_AI;
+  if (isProd) return true; // Worker handles all keys in production
+
+  if (_devKeyCache[provider] !== undefined) return _devKeyCache[provider];
+
+  const env = (typeof import.meta !== 'undefined' && import.meta.env) ? import.meta.env
+             : (typeof process !== 'undefined' ? process.env : {});
+
+  let hasKey = false;
+  if (provider === 'cerebras') {
+    hasKey = !!(env.CEREBRAS_API_KEY || env.VITE_CEREBRAS_API_KEY ||
+                env.CEREBRAS_API_KEY_2 || env.VITE_CEREBRAS_API_KEY_2);
+  } else if (provider === 'together') {
+    hasKey = !!(env.TOGETHER_API_KEY || env.VITE_TOGETHER_API_KEY);
+  } else if (provider === 'huggingface') {
+    hasKey = !!(env.HF_API_TOKEN || env.VITE_HF_API_TOKEN ||
+                env.HF_API_TOKEN_2 || env.VITE_HF_API_TOKEN_2);
+  } else {
+    hasKey = true; // groq & gemini have their own multi-key getters
+  }
+  _devKeyCache[provider] = hasKey;
+  return hasKey;
+}
 
 // ═══════════════════════════════════════════════════════════════════
 // RPM-AWARE LOAD BALANCER v2.0
@@ -220,6 +251,11 @@ class ModelRouter {
 
   // Instead of just round-robin, pick the key with the MOST available RPM headroom
   private findBestKey(modelId: string, provider: Provider): number | null {
+    // Fast-path: skip provider entirely if no dev keys configured
+    if (!providerHasDevKey(provider)) {
+      return null;
+    }
+
     // groq/gemini/cerebras/huggingface have multiple keys; together has 1
     const keyCount = provider === 'groq' ? GROQ_KEY_COUNT
                    : provider === 'gemini' ? GEMINI_KEY_COUNT

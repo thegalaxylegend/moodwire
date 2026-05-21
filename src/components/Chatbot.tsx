@@ -358,51 +358,32 @@ export const Chatbot = () => {
         setIsThinking(true);
 
         try {
-            // Build history ensuring the current message is included if the state hasn't updated yet
+            // Build history — modelRouter waterfall handles Cerebras → Groq → Gemini automatically
             const history = [
                 ...messages.slice(-9).map(m => ({
                     role: m.sender === 'user' ? 'user' : 'assistant',
                     content: m.text
                 })),
-                { role: 'user', content: promptOverride + userText } // Explicitly include current input with override
+                { role: 'user', content: promptOverride + userText }
             ] as any;
 
-            const aiOptions = { stream: true };
-            let response;
-            
-            try {
-                response = await askAI(
-                    "Chat context",
-                    promptOverride + userText,
-                    'groq',
-                    history,
-                    aiOptions,
-                    user as any,
-                    isCallMode,
-                    userImg || undefined,
-                    undefined,
-                    [],
-                    (searching: boolean) => setIsSearching(searching),
-                    { language: selectedLanguage } // Pass Language Mode
-                );
-            } catch (firstTryErr) {
-                console.warn("[Chatbot] First AI attempt failed, retrying with Gemini fallback directly...");
-                // Immediate fallback to gemini on local network jitter
-                response = await askAI(
-                    "Chat context",
-                    promptOverride + userText,
-                    'gemini',
-                    history,
-                    aiOptions,
-                    user as any,
-                    isCallMode,
-                    userImg || undefined,
-                    undefined,
-                    [],
-                    (searching: boolean) => setIsSearching(searching),
-                    { language: selectedLanguage } // Pass Language Mode
-                );
-            }
+            const aiOptions = { stream: true, tier: 'T3' };
+
+            // Single call — modelRouter waterfall: Cerebras → Groq → Gemini
+            const response = await askAI(
+                "Chat context",
+                promptOverride + userText,
+                'auto',
+                history,
+                aiOptions,
+                user as any,
+                isCallMode,
+                userImg || undefined,
+                undefined,
+                [],
+                (searching: boolean) => setIsSearching(searching),
+                { language: selectedLanguage }
+            );
 
             if (typeof response === 'string') {
                 addMessage({ id: Date.now() + 1, text: response, sender: 'bot' });
@@ -439,7 +420,10 @@ export const Chatbot = () => {
                     };
 
                     for await (const chunk of (response as any)) {
-                        const content = chunk.choices[0]?.delta?.content || "";
+                        // Normalize both Groq format {choices[0].delta.content} and Gemini passthrough
+                        const content = chunk.choices?.[0]?.delta?.content 
+                            ?? chunk.candidates?.[0]?.content?.parts?.[0]?.text 
+                            ?? "";
                         if (content) {
                             streamingTextRef.current += content;
                             
@@ -522,8 +506,9 @@ export const Chatbot = () => {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
+                        transition={{ duration: 0.2, ease: 'easeOut' }}
                         onClick={handleClose}
-                        className="fixed inset-0 bg-[#0a0b10]/80 backdrop-blur-2xl z-[80] pointer-events-auto cursor-pointer"
+                        className="fixed inset-0 bg-[#0a0b10]/80 backdrop-blur-2xl z-[80] pointer-events-auto cursor-pointer exa-chat-backdrop"
                     />
                 )}
             </AnimatePresence>
@@ -582,33 +567,31 @@ export const Chatbot = () => {
                         key="chatwindow"
                         initial={{ 
                             opacity: 0, 
-                            scale: 0.95, 
-                            y: 20, 
-                            filter: perfTier === 'elite' ? 'blur(10px)' : 'blur(0px)' 
+                            scale: 0.92,
+                            y: 16,
                         }}
                         animate={{ 
                             opacity: 1, 
                             scale: 1, 
-                            y: 0, 
-                            filter: 'blur(0px)' 
+                            y: 0,
                         }}
                         exit={{ 
                             opacity: 0, 
-                            scale: 0.95, 
-                            y: 20, 
-                            filter: perfTier === 'elite' ? 'blur(10px)' : 'blur(0px)' 
+                            scale: 0.92,
+                            y: 16,
                         }}
                         transition={
                             perfTier === 'low' 
-                                ? { type: 'tween', duration: 0.25, ease: 'easeOut' }
+                                ? { type: 'tween', duration: 0.2, ease: [0.22, 1, 0.36, 1] }
                                 : { 
                                     type: 'spring',
-                                    stiffness: perfTier === 'elite' ? 400 : 300,
-                                    damping: perfTier === 'elite' ? 40 : 35,
-                                    mass: 0.8
+                                    stiffness: 500,
+                                    damping: 38,
+                                    mass: 0.7,
+                                    restDelta: 0.001
                                 }
                         }
-                        className={`fixed inset-2 md:inset-6 lg:inset-x-[6%] lg:inset-y-[5%] z-[100] pointer-events-auto flex flex-col perf-tier-${perfTier}`}
+                        className={`fixed inset-2 md:inset-6 lg:inset-x-[6%] lg:inset-y-[5%] z-[100] pointer-events-auto flex flex-col perf-tier-${perfTier} exa-chat-window`}
                     >
                         <ChatWindow
                             messages={messages}

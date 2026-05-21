@@ -1271,3 +1271,62 @@ body {
     transition: none !important;
   }
 }
+
+/* ============================================================
+   SKELETON SHIMMER SYSTEM
+   Premium shimmer with direction-aware gradient
+   ============================================================ */
+@keyframes skeleton-wave {
+  0%   { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(255,255,255,0.03) 0%,
+    rgba(255,255,255,0.07) 20%,
+    rgba(255,255,255,0.12) 50%,
+    rgba(255,255,255,0.07) 80%,
+    rgba(255,255,255,0.03) 100%
+  );
+  background-size: 800px 100%;
+  animation: skeleton-wave 1.6s ease-in-out infinite;
+  will-change: background-position;
+}
+
+/* Skeleton card base — dark surface */
+.skeleton-card {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.04);
+}
+
+/* Disable shimmer on low-power tier */
+.perf-tier-low .skeleton-shimmer {
+  animation: none !important;
+  background: rgba(255,255,255,0.05) !important;
+}
+
+/* ============================================================
+   EXA AI CHAT WINDOW — GPU-ACCELERATED ANIMATION ANCHOR
+   Forces GPU compositing layer for buttery open/close
+   ============================================================ */
+.exa-chat-window {
+  will-change: transform, opacity;
+  transform-origin: bottom right;
+  backface-visibility: hidden;
+  perspective: 1000px;
+  contain: layout style;
+}
+
+.exa-chat-backdrop {
+  will-change: opacity;
+  backface-visibility: hidden;
+}
+
+/* Disable heavy animations for low-power */
+.perf-tier-low .exa-chat-window,
+.perf-tier-low .exa-chat-backdrop {
+  will-change: auto !important;
+}
+

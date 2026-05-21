@@ -1604,48 +1604,200 @@ export const getAdaptiveQuestionBatch = async (
         }
     }
 
+    // 3. Final Fallback: Clean local-db.json (8,000+ real JEE/NEET questions from seed SQL)
+    const stillNeeded = totalCount - allQuestions.length;
+    if (stillNeeded > 0) {
+        console.warn(`[QuestionEngine] 📦 Local DB Fallback: pulling ${stillNeeded} questions from /local-db.json`);
+        updateBatchProgress(70);
+        try {
+            const res = await fetch('/local-db.json');
+            if (res.ok) {
+                const localDB: { questions: any[] } = await res.json();
+                const pool = localDB.questions || [];
+
+                // Track already-used IDs in this batch to avoid duplicates
+                const usedIds = new Set(allQuestions.map(q => q.id).filter(Boolean));
+
+                // Session-level dedup using sessionStorage
+                let sessionUsed: Set<string>;
+                try {
+                    sessionUsed = new Set(JSON.parse(sessionStorage.getItem('_q_used') || '[]'));
+                } catch { sessionUsed = new Set(); }
+
+                for (const n of needs) {
+                    const subject = (n.subject || '').toLowerCase();
+                    const needed = n.count - allQuestions.filter(q =>
+                        (q.subject || '').toLowerCase() === subject
+                    ).length;
+                    if (needed <= 0) continue;
+
+                    // Filter: subject match + not already used + valid
+                    const GARBAGE_OPTS = ['theoretical foundations', 'practical applications', 'experimental data', 'historical context'];
+                    const subjectPool = pool.filter(q => {
+                        if (usedIds.has(q.id) || sessionUsed.has(q.id)) return false;
+                        if (!q.question || q.question.trim().length < 20) return false;
+                        if (!Array.isArray(q.options) || q.options.length < 2) return false;
+                        const lowerOpts = q.options.map((o: string) => o.toLowerCase().trim());
+                        if (lowerOpts.filter((o: string) => GARBAGE_OPTS.includes(o)).length >= 2) return false;
+                        return (q.subject || '').toLowerCase() === subject;
+                    });
+
+                    // Sort by difficulty closeness to target rating
+                    const sorted = subjectPool.sort((a: any, b: any) =>
+                        Math.abs((a.difficulty_score || 1000) - targetRating) -
+                        Math.abs((b.difficulty_score || 1000) - targetRating)
+                    );
+
+                    // Pick top N, then shuffle those for variety
+                    const candidates = sorted.slice(0, Math.max(needed * 5, 30));
+                    const shuffled = candidates.sort(() => Math.random() - 0.5);
+                    const picked = shuffled.slice(0, needed);
+
+                    for (const q of picked) {
+                        usedIds.add(q.id);
+                        sessionUsed.add(q.id);
+                        allQuestions.push({
+                            id: q.id,
+                            exam: q.exam || exam,
+                            subject: q.subject || n.subject,
+                            topic: q.topic || n.topic,
+                            topic_id: resolveTopicId(q.topic || n.topic),
+                            type: (q.type || 'MCQ') as any,
+                            difficulty: 'Medium' as const,
+                            difficulty_score: q.difficulty_score || targetRating,
+                            question: q.question,
+                            options: q.options,
+                            // correct_answer as text for mapStoredToUIQuestion to resolve
+                            correct_answer: Array.isArray(q.options) && typeof q.correctAnswerIndex === 'number'
+                                ? q.options[q.correctAnswerIndex] ?? q.correct_answer ?? ''
+                                : q.correct_answer ?? '',
+                            explanation: q.explanation || '',
+                            concept_tags: q.concept_tags || [],
+                            error_trap_type: q.error_trap_type || 'general.miscellaneous',
+                            chapter: q.subtopic || q.topic || n.topic,
+                            hash: q.id,
+                            usage_count: 0,
+                            confidence: 0.9,
+                            created_at: new Date().toISOString(),
+                        });
+                    }
+                }
+
+                // Persist session-used IDs (cap at 500 to avoid bloat)
+                try {
+                    const arr = [...sessionUsed];
+                    sessionStorage.setItem('_q_used', JSON.stringify(arr.slice(-500)));
+                } catch { /* ignore */ }
+
+                console.log(`[QuestionEngine] ✅ Local DB supplied ${allQuestions.length}/${totalCount} questions.`);
+            }
+        } catch (localErr) {
+            console.error('[QuestionEngine] Local DB fallback failed:', localErr);
+        }
+        updateBatchProgress(95);
+    }
+
+    // 4. Absolute last resort: AI Generation (only if everything else failed)
+    const finalStillNeeded = totalCount - allQuestions.length;
+    if (finalStillNeeded > 0) {
+        console.warn(`[QuestionEngine] 🤖 AI Fallback: generating ${finalStillNeeded} questions.`);
+        try {
+            const aiResults = await Promise.all(
+                needs.map(async n => {
+                    const topic = n.topicSelector ? n.topicSelector() : n.topic;
+                    const needed = n.count - allQuestions.filter(q => q.subject === n.subject).length;
+                    if (needed <= 0) return [];
+                    return generateAndVerifyBatch({ exam, subject: n.subject, topic, abilityScore: targetRating, count: needed });
+                })
+            );
+            for (const batch of aiResults) allQuestions.push(...batch);
+        } catch (aiErr) {
+            console.error('[QuestionEngine] AI fallback generation also failed:', aiErr);
+        }
+    }
+
     updateBatchProgress(100);
     return allQuestions.slice(0, totalCount);
 };
+
+
 
 /**
  * Standard Mapping: Converts StoredQuestion (DB/AI) to UI-ready Question format.
  * Matches the logic used in the Test Center.
  */
 export const mapStoredToUIQuestion = (raw: any[], startId: number = 1) => {
-    return raw.map((q, idx) => {
-        const optionsArray: string[] = Array.isArray(q.options)
-            ? q.options
-            : Object.values(q.options || {});
-        
-        let correctAnswerIndex = -1;
-        if (typeof q.correct_answer === 'string') {
-            if (q.correct_answer.length === 1 && /[A-D]/.test(q.correct_answer)) {
-                correctAnswerIndex = q.correct_answer.charCodeAt(0) - 65;
-            } else {
-                const foundIndex = optionsArray.indexOf(q.correct_answer);
-                if (foundIndex !== -1) correctAnswerIndex = foundIndex;
+    const questionType = (q: any): string => {
+        if (q.type) return q.type;
+        // Infer Integer/Numerical from missing options
+        const opts = Array.isArray(q.options) ? q.options : Object.values(q.options || {});
+        if (!opts || opts.length === 0) return 'Integer';
+        return 'MCQ';
+    };
+
+    return raw
+        .filter(q => {
+            const type = questionType(q);
+            const isIntegerLike = type === 'Integer' || type === 'Numerical';
+            const opts = Array.isArray(q.options) ? q.options : Object.values(q.options || {});
+            if (!isIntegerLike && (!opts || opts.length < 2)) {
+                console.warn(`[QuestionEngine] Skipping invalid question: missing options`, q);
+                return false;
             }
-        }
+            return true;
+        })
+        .map((q, idx) => {
+            const type = questionType(q);
+            const isIntegerLike = type === 'Integer' || type === 'Numerical';
+            const optionsArray: string[] = Array.isArray(q.options)
+                ? q.options
+                : Object.values(q.options || {});
 
-        if (!q.subtopic || q.subtopic === q.topic) {
-            console.warn(`[QuestionEngine] Question ${q.id || idx} missing granular subtopic; falling back to broad topic "${q.topic}"`);
-        }
+            // For integer types, correctAnswer is the raw string/number value
+            let correctAnswerResolved: any = -1;
+            if (isIntegerLike) {
+                correctAnswerResolved = q.correct_answer ?? q.correctAnswer ?? '';
+            } else if (typeof q.correctAnswer === 'number') {
+                // question-db.json format: correctAnswer is already the option index
+                correctAnswerResolved = q.correctAnswer;
+            } else if (typeof q.correct_answer === 'number') {
+                correctAnswerResolved = q.correct_answer;
+            } else if (typeof q.correct_answer === 'string') {
+                if (q.correct_answer.length === 1 && /[A-D]/.test(q.correct_answer)) {
+                    correctAnswerResolved = q.correct_answer.charCodeAt(0) - 65;
+                } else {
+                    // Strip any prefix then match
+                    const stripped = q.correct_answer.replace(/^[A-D][.):\s]\s*/i, '').trim();
+                    let foundIndex = optionsArray.findIndex(o =>
+                        o.replace(/^[A-D][.):\s]\s*/i, '').trim() === stripped
+                    );
+                    if (foundIndex === -1) foundIndex = optionsArray.indexOf(q.correct_answer);
+                    correctAnswerResolved = foundIndex;
+                }
+            } else if (Array.isArray(q.correct_answer)) {
+                // Multi-Correct: array of indices
+                correctAnswerResolved = q.correct_answer;
+            }
 
-        return {
-            id: startId + idx,
-            text: q.question,
-            options: optionsArray,
-            correctAnswer: correctAnswerIndex,
-            explanation: q.explanation || q.hidden_derivation || '',
-            topic: q.topic,
-            subject: q.subject,
-            difficulty_score: q.difficulty_score || 1000,
-            concept_tags: q.concept_tags || [],
-            error_trap_type: q.error_trap_type || 'calculation',
-            subtopic: q.subtopic || q.topic
-        };
-    });
+            if (!q.subtopic || q.subtopic === q.topic) {
+                console.warn(`[QuestionEngine] Question ${q.id || idx} missing granular subtopic; falling back to broad topic "${q.topic}"`);
+            }
+
+            return {
+                id: startId + idx,
+                text: q.question,
+                options: optionsArray,
+                correctAnswer: correctAnswerResolved,
+                explanation: q.explanation || q.hidden_derivation || '',
+                topic: q.topic,
+                subject: q.subject,
+                difficulty_score: q.difficulty_score || 1000,
+                concept_tags: q.concept_tags || [],
+                error_trap_type: q.error_trap_type || 'calculation',
+                type: type,
+                subtopic: q.subtopic || q.topic
+            };
+        });
 };
 
 /**
