@@ -23,6 +23,7 @@ import {
     deleteDoc,
     orderBy,
     limit,
+    writeBatch,
 } from 'firebase/firestore';
 
 // ─── TYPES ───────────────────────────────────────────────
@@ -234,13 +235,77 @@ export const MistakeNotebookService = {
         const testId = `test_${Date.now()}`;
         let recorded = 0;
 
+        if (!userId || userId === 'guest' || wrongQuestions.length === 0) return 0;
+
+        const now = new Date().toISOString();
+        const localEntries = getLocalMistakes(userId);
+        const batchUpdates: MistakeEntry[] = [];
+
         for (const q of wrongQuestions) {
-            await MistakeNotebookService.recordMistake(userId, {
-                ...q,
-                exam_mode: examMode,
-                test_id: testId
-            }, userClass, targetExam);
+            const entryId = `${userId}_${q.question_hash}`;
+            const existingIdx = localEntries.findIndex(e => e.id === entryId);
+
+            let entry: MistakeEntry;
+            if (existingIdx >= 0) {
+                entry = {
+                    ...localEntries[existingIdx],
+                    student_answer: q.student_answer,
+                    error_type: q.error_type,
+                    time_spent: q.time_spent,
+                    last_attempt_date: now,
+                    retry_count: localEntries[existingIdx].retry_count + 1,
+                    last_retry_correct: false,
+                    is_mastered: false,
+                    mastered_at: undefined,
+                    test_id: testId
+                };
+                localEntries[existingIdx] = entry;
+            } else {
+                entry = {
+                    id: entryId,
+                    user_id: userId,
+                    question_hash: q.question_hash,
+                    question_text: q.question_text,
+                    options: q.options,
+                    correct_answer: q.correct_answer,
+                    explanation: q.explanation,
+                    rich_explanation: q.rich_explanation,
+                    topic: q.topic,
+                    topic_id: q.topic_id,
+                    subject: q.subject,
+                    difficulty: q.difficulty,
+                    exam_mode: examMode,
+                    student_answer: q.student_answer,
+                    error_type: q.error_type,
+                    time_spent: q.time_spent,
+                    retry_count: 0,
+                    last_retry_correct: false,
+                    is_mastered: false,
+                    first_wrong_date: now,
+                    last_attempt_date: now,
+                    test_id: testId,
+                    user_class: userClass,
+                    target_exam: targetExam
+                };
+                localEntries.unshift(entry);
+            }
+            batchUpdates.push(entry);
             recorded++;
+        }
+
+        saveLocalMistakes(userId, localEntries);
+
+        if (auth.currentUser) {
+            try {
+                const batch = writeBatch(db);
+                for (const entry of batchUpdates) {
+                    const docRef = doc(db, 'mistake_notebook', entry.id);
+                    batch.set(docRef, entry, { merge: true });
+                }
+                await batch.commit();
+            } catch (e) {
+                console.warn('[MistakeNotebook] Batch test sync failed:', e);
+            }
         }
 
         console.log(`[MistakeNotebook] Recorded ${recorded} mistakes from test ${testId}.`);
