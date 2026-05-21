@@ -1615,7 +1615,7 @@ export const getAdaptiveQuestionBatch = async (
 export const mapStoredToUIQuestion = (raw: any[], startId: number = 1) => {
     return raw.filter(q => {
         const opts = Array.isArray(q.options) ? q.options : Object.values(q.options || {});
-        if (!opts || opts.length < 2) {
+        if ((!opts || opts.length < 2) && q.type !== 'Integer') {
             console.warn(`[QuestionEngine] Skipping invalid question: missing options`, q);
             return false;
         }
@@ -1650,6 +1650,7 @@ export const mapStoredToUIQuestion = (raw: any[], startId: number = 1) => {
             difficulty_score: q.difficulty_score || 1000,
             concept_tags: q.concept_tags || [],
             error_trap_type: q.error_trap_type || 'calculation',
+            type: q.type || 'MCQ',
             subtopic: q.subtopic || q.topic
         };
     });

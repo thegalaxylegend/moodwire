@@ -36,6 +36,7 @@ type Question = {
     difficulty_score: number;
     imageUrl?: string;
     concept_tags?: string[];
+    type?: string;
 };
 
 type Message = {
@@ -55,7 +56,7 @@ export const MockGenerator = () => {
     const [step, setStep] = useState<'config' | 'loading' | 'preview' | 'exam' | 'result' | 'history' | 'review'>('config');
     const [questions, setQuestions] = useState<Question[]>([]);
     const [currentQ, setCurrentQ] = useState(0);
-    const [answers, setAnswers] = useState<Record<number, number>>({});
+    const [answers, setAnswers] = useState<Record<number, any>>({});
     const [score, setScore] = useState(0);
     const [timeRemaining, setTimeRemaining] = useState(0);
     const [loadingMessage, setLoadingMessage] = useState("Initializing...");
@@ -236,16 +237,18 @@ export const MockGenerator = () => {
         let currentScore = 0;
         if (status === 'completed') {
             (Array.isArray(questions) ? questions : []).forEach((q, idx) => {
-                if (answers[idx] === (q as any).correctAnswer) {
+                const ans = answers[idx];
+                const isCorrect = Array.isArray(ans) && Array.isArray((q as any).correctAnswer) ? ans.length === (q as any).correctAnswer.length && ans.every((val, index) => val === (q as any).correctAnswer[index]) : ans === (q as any).correctAnswer;
+                if (isCorrect) {
                     currentScore += 4;
-                } else if (answers[idx] !== undefined) {
+                } else if (ans !== undefined) {
                     currentScore -= isJunior ? 0 : 1;
                 }
             });
             setScore(currentScore);
         }
         try {
-            const correctCount = questions.filter((q, i) => answers[i] === q.correctAnswer).length;
+            const correctCount = questions.filter((q, i) => { const ans = answers[i]; return Array.isArray(ans) && Array.isArray(q.correctAnswer) ? ans.length === (q.correctAnswer as any).length && ans.every((val, index) => val === (q.correctAnswer as any)[index]) : ans === q.correctAnswer; }).length;
             const attemptedCount = Object.keys(answers).length;
             const mockAttemptData = {
                 user_id: user.id,
@@ -299,20 +302,20 @@ export const MockGenerator = () => {
                 pendingSync: syncError,
                 topic: mode === 'topic' ? (urlTopic || 'Topic') : (mode === 'quick' ? 'Quick Test' : 'Full Mock'),
                 user_class: user.userClass || 'General',
-                weakTopics: questions.filter((q, i) => answers[i] !== undefined && answers[i] !== q.correctAnswer).map(q => q.topic)
+                weakTopics: questions.filter((q, i) => { const ans = answers[i]; if (ans === undefined) return false; return Array.isArray(ans) && Array.isArray(q.correctAnswer) ? !(ans.length === (q.correctAnswer as any).length && ans.every((val, index) => val === (q.correctAnswer as any)[index])) : ans !== q.correctAnswer; }).map(q => q.topic)
             }, user.id);
 
             if (status === 'completed') {
-                const questionResults = questions.map((q, i) => ({ topic: q.topic, isCorrect: answers[i] === q.correctAnswer }));
+                const questionResults = questions.map((q, i) => ({ topic: q.topic, isCorrect: (Array.isArray(answers[i]) && Array.isArray(q.correctAnswer)) ? answers[i].length === (q.correctAnswer as any).length && answers[i].every((val: any, index: number) => val === (q.correctAnswer as any)[index]) : answers[i] === q.correctAnswer }));
                 addGains({ xp: currentScore * 10, pts: currentScore }).catch(() => {});
                 updateProfile({ 
                     lastTestDate: new Date().toISOString().split('T')[0],
                     abilityScore: currentAbility 
                 }).catch(() => {});
                 markTopicsAsCompletedFromResults(user.id, questionResults).catch(() => {});
-                const topicStrengthResults = questions.map((q, i) => ({ topic: q.topic || 'General', subject: q.topic || 'General', isCorrect: answers[i] === q.correctAnswer }));
+                const topicStrengthResults = questions.map((q, i) => ({ topic: q.topic || 'General', subject: q.topic || 'General', isCorrect: (Array.isArray(answers[i]) && Array.isArray(q.correctAnswer)) ? answers[i].length === (q.correctAnswer as any).length && answers[i].every((val: any, index: number) => val === (q.correctAnswer as any)[index]) : answers[i] === q.correctAnswer }));
                 batchUpdateTopicStrength(user.id, topicStrengthResults, user.userClass, user.targetExam).catch(() => {});
-                const wrongQuestions = questions.map((q, i) => ({ question: q, index: i })).filter(({ index: i }) => answers[i] !== undefined && answers[i] !== questions[i].correctAnswer).map(({ question: q, index: i }) => {
+                const wrongQuestions = questions.map((q, i) => ({ question: q, index: i })).filter(({ index: i }) => { const ans = answers[i]; if (ans === undefined) return false; return Array.isArray(ans) && Array.isArray(questions[i].correctAnswer) ? !(ans.length === (questions[i].correctAnswer as any).length && ans.every((val, index) => val === (questions[i].correctAnswer as any)[index])) : ans !== questions[i].correctAnswer; }).map(({ question: q, index: i }) => {
                     const simpleHash = Array.from(q.text).reduce((hash, char) => ((hash << 5) - hash) + char.charCodeAt(0), 0).toString(36);
                     return {
                         question_hash: `qh_${simpleHash}`,
@@ -361,6 +364,7 @@ export const MockGenerator = () => {
         setAnswers({});
         setCurrentQ(0);
         setGenerationProgress(0);
+        sessionStorage.removeItem('active_test_session');
         globalFetchedRef.current = 0;
         setLoadingMessage("Analyzing Syllabus & Patterns...");
 
@@ -464,7 +468,7 @@ export const MockGenerator = () => {
         }
     };
 
-    const handleAnswer = (optionIdx: number) => {
+    const handleAnswer = (optionIdx: any) => {
         const q = questions[currentQ];
         if (q) {
             const prevAnswer = answers[currentQ];
@@ -484,7 +488,8 @@ export const MockGenerator = () => {
         if (q) {
             const duration = Math.floor((Date.now() - qStartTime) / 1000);
             trackQuestionTime(q.id.toString(), duration, q.topic || 'General');
-            const isCorrect = answers[currentQ] === q.correctAnswer;
+            const ans = answers[currentQ];
+            const isCorrect = Array.isArray(ans) && Array.isArray(q.correctAnswer) ? ans.length === (q.correctAnswer as any).length && ans.every((val, index) => val === (q.correctAnswer as any)[index]) : ans === q.correctAnswer;
             const newMetric: SessionMetric = {
                 questionIndex: currentQ,
                 isCorrect: isCorrect,
@@ -642,6 +647,7 @@ export const MockGenerator = () => {
                 setAnswers({});
                 setCurrentQ(0);
                 setStep('config');
+                sessionStorage.removeItem('active_test_session');
             }}
         />
     );

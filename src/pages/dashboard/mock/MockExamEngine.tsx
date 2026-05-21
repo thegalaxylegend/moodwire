@@ -15,12 +15,13 @@ export type MockEngineQuestion = {
     id: number;
     text: string;
     options: string[];
-    correctAnswer: number;
+    correctAnswer: any;
     explanation: string;
     topic: string;
     subject: string;
     difficulty_score: number;
     imageUrl?: string;
+    type?: string;
 };
 
 export type MockMessage = {
@@ -31,7 +32,7 @@ export type MockMessage = {
 export interface MockExamEngineProps {
     state: {
         questions: MockEngineQuestion[];
-        answers: Record<number, number>;
+        answers: Record<number, any>;
         currentQ: number;
         step: 'exam' | 'review';
         fatigueNotice: { fatigued: boolean; reason?: string };
@@ -52,7 +53,7 @@ export interface MockExamEngineProps {
         handlePause: () => void;
         handleSubmitExam: (force: boolean) => void;
         setStep: (s: any) => void;
-        handleAnswer: (idx: number) => void;
+        handleAnswer: (val: any) => void;
         handleAskAI: (q: MockEngineQuestion) => void;
         setIsSpeaking: (s: boolean) => void;
         setCurrentQ: (idx: number) => void;
@@ -202,8 +203,8 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
                     </h3>
                     <div className="space-y-3">
                         {q.options.map((opt, idx) => {
-                            const isSelected = answers[currentQ] === idx;
-                            const isCorrect = q.correctAnswer === idx;
+                            const isSelected = q.type === 'Multi-Correct' ? (answers[currentQ] || []).includes(idx) : answers[currentQ] === idx;
+                            const isCorrect = q.type === 'Multi-Correct' ? (q.correctAnswer as any || []).includes(idx) : q.correctAnswer === idx;
                             const sanitizedOption = opt.replace(/^[A-D]\.\s*/i, '');
                             let btnClass = 'bg-surface border-border text-text-muted hover:bg-white/5 hover:border-primary/30';
 
@@ -219,7 +220,19 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
                             return (
                                 <button
                                     key={idx}
-                                    onClick={() => step === 'exam' && handleAnswer(idx)}
+                                    onClick={() => {
+                                        if (step !== 'exam') return;
+                                        if (q.type === 'Multi-Correct') {
+                                            const currentAns = answers[currentQ] || [];
+                                            if (currentAns.includes(idx)) {
+                                                handleAnswer(currentAns.filter((a: number) => a !== idx));
+                                            } else {
+                                                handleAnswer([...currentAns, idx].sort());
+                                            }
+                                        } else {
+                                            handleAnswer(idx);
+                                        }
+                                    }}
                                     disabled={step === 'review'}
                                     className={`w-full p-4 text-left rounded-xl border transition-all flex items-start ${btnClass}`}
                                 >
@@ -240,7 +253,7 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
                         })}
                     </div>
 
-                    {step === 'review' && (answers[currentQ] !== q.correctAnswer) && (
+                    {step === 'review' && ((q.type === 'Multi-Correct' ? JSON.stringify(answers[currentQ] || []) !== JSON.stringify(q.correctAnswer || []) : answers[currentQ] !== q.correctAnswer)) && (
                         <div className="mt-8 p-4 bg-primary/5 border border-primary/20 rounded-xl animate-fade-in-up">
                             <div className="flex items-center justify-between mb-2">
                                 <div className="flex items-center gap-2 text-primary font-bold">
