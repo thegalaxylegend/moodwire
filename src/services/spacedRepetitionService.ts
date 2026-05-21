@@ -264,11 +264,12 @@ export const SpacedRepetitionService = {
         userClass?: string,
         targetExam?: string
     ): Promise<number> => {
-        let created = 0;
-        for (const q of wrongQuestions) {
-            await SpacedRepetitionService.createCard(userId, q, userClass, targetExam);
-            created++;
-        }
+        await Promise.all(
+            wrongQuestions.map(q =>
+                SpacedRepetitionService.createCard(userId, q, userClass, targetExam)
+            )
+        );
+        const created = wrongQuestions.length;
         console.log(`[SRS] Created ${created} review cards from test results.`);
         return created;
     },
