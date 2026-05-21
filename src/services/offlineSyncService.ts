@@ -1,6 +1,5 @@
-// Offline Sync Service — v2 (BUG-07 + BUG-08 fixes)
-// BUG-07 FIX: No longer imports from questionEngine to break circular dependency.
-// Instead, directly queries Firestore for cached questions.
+// Offline Sync Service — v2
+// Directly queries Firestore for cached questions to break circular dependency.
 import { openDB } from 'idb';
 import { getWeakTopics } from './topicStrengthService';
 import { db } from '../lib/firebase';
@@ -9,7 +8,7 @@ import { collection, query, where, getDocs, limit, orderBy } from 'firebase/fire
 const DB_NAME = 'ExamCompassOffline';
 const DB_VERSION = 1;
 
-// BUG-08 FIX: Cooldown — only sync once per hour
+// Cooldown — only sync once per hour
 const SYNC_COOLDOWN_MS = 60 * 60 * 1000; // 1 hour
 
 export const initOfflineDB = async () => {
@@ -28,7 +27,7 @@ export const initOfflineDB = async () => {
 export const offlineSyncService = {
     async preCacheWeakTopics(userId: string, userClass?: string, targetExam?: string) {
         try {
-            // BUG-08 FIX: Check cooldown before running
+            // Check cooldown before running
             const idb = await initOfflineDB();
             const lastSync = await idb.get('meta', 'lastSync');
             if (lastSync && Date.now() - lastSync < SYNC_COOLDOWN_MS) {
@@ -42,9 +41,9 @@ export const offlineSyncService = {
             let questionsAdded = 0;
             const newQuestions: any[] = [];
             
-            // BUG-07 FIX: Query Firestore directly instead of calling questionEngine
-            // BUG-08 FIX: Only fetch 5 questions total (not 30!)
+            // Fetch exactly 5 questions total across weak topics
             for (const topicStat of weakTopics) {
+                if (questionsAdded >= 5) break;
                 try {
                     const topicId = topicStat.topic.toLowerCase().replace(/\s+/g, '-');
                     const q = query(
@@ -55,8 +54,10 @@ export const offlineSyncService = {
                     );
                     const snap = await getDocs(q);
                     snap.forEach(doc => {
-                        newQuestions.push({ id: doc.id, ...doc.data() });
-                        questionsAdded++;
+                        if (questionsAdded < 5) {
+                            newQuestions.push({ id: doc.id, ...doc.data() });
+                            questionsAdded++;
+                        }
                     });
                 } catch {
                     // Firestore permission or connectivity error — skip silently
