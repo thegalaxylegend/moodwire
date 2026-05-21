@@ -44,58 +44,74 @@ export const getActiveRecommendation = async (
 
         // 2. Generate NEW Recommendation
         console.log('[RecommendationService] Generating new recommendation...');
-
-        // A. Get Weakest Topic
-        // If force refreshing, get more topics to pick from
-        const weakTopics = await getWeakTopics(userId, forceRefresh ? 10 : 1, userClass, targetExam);
-        let targetTopic = '';
-        let reason = '';
-
-        if (weakTopics.length > 0) {
-            // Pick a random one from the pool if refreshing
-            const idx = forceRefresh ? Math.floor(Math.random() * weakTopics.length) : 0;
-            targetTopic = weakTopics[idx].topic;
-            reason = forceRefresh ? `Targeted Review (${weakTopics[idx].score_percentage}%)` : `Weakest Topic (${weakTopics[idx].score_percentage}%)`;
-        } else {
-            // Fallback: Random subject rotation
-            const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(userClass || '');
-            const subjects = isJunior ? ['Mathematics', 'Science', 'Social Science', 'English'] : ['Physics', 'Chemistry', 'Math'];
-            targetTopic = subjects[Math.floor(Math.random() * subjects.length)];
-            reason = 'General Improvement';
-        }
-
-        // B. Get Video for Topic
-        // Search Context depends on class
         const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(userClass || '');
         const searchContext = isJunior ? (userClass || 'Class 10') : (targetExam || 'JEE');
 
-        const playlist = await getVideoByTopicIdCached(targetTopic, searchContext, userId, userClass, forceRefresh);
+        let targetTopic = '';
+        let reason = '';
+        let freshVideo: Video | null = null;
 
-        if (!playlist || playlist.videos.length === 0) {
-            return null;
+        // A. Get Weakest Topics
+        // Get a pool of weak topics to iterate through
+        const weakTopicsPool = await getWeakTopics(userId, forceRefresh ? 10 : 5, userClass, targetExam);
+
+        // If force refreshing, shuffle the pool to try different topics
+        const candidateTopics = forceRefresh ? [...weakTopicsPool].sort(() => Math.random() - 0.5) : weakTopicsPool;
+
+        for (const topicStat of candidateTopics) {
+            const playlist = await getVideoByTopicIdCached(topicStat.topic, searchContext, userId, userClass, forceRefresh);
+
+            if (playlist && playlist.videos.length > 0) {
+                const freshVideos = playlist.videos.filter(v => !isVideoFinished(v.id, userId, userClass, targetExam));
+
+                if (freshVideos.length > 0) {
+                    targetTopic = topicStat.topic;
+                    reason = forceRefresh ? `Targeted Review (${topicStat.score_percentage}%)` : `Weakest Topic (${topicStat.score_percentage}%)`;
+                    freshVideo = forceRefresh
+                        ? freshVideos[Math.floor(Math.random() * freshVideos.length)]
+                        : freshVideos[0];
+                    break;
+                }
+            }
         }
 
-        // Find a video that hasn't been finished ever (active or expired)
-        // We really want a fresh one.
-        const freshVideos = playlist.videos.filter(v => !isVideoFinished(v.id, userId, userClass, targetExam));
+        // B. Fallback: Random subject rotation if no weak topics yielded a fresh video
+        if (!freshVideo) {
+            const subjects = isJunior ? ['Mathematics', 'Science', 'Social Science', 'English'] : ['Physics', 'Chemistry', 'Math'];
+            const shuffledSubjects = [...subjects].sort(() => Math.random() - 0.5);
 
-        if (freshVideos.length === 0) {
-            return null;
+            for (const subject of shuffledSubjects) {
+                const playlist = await getVideoByTopicIdCached(subject, searchContext, userId, userClass, forceRefresh);
+                if (playlist && playlist.videos.length > 0) {
+                    const freshVideos = playlist.videos.filter(v => !isVideoFinished(v.id, userId, userClass, targetExam));
+                    if (freshVideos.length > 0) {
+                        targetTopic = subject;
+                        reason = 'General Improvement';
+                        freshVideo = forceRefresh
+                            ? freshVideos[Math.floor(Math.random() * freshVideos.length)]
+                            : freshVideos[0];
+                        break;
+                    }
+                }
+            }
         }
 
-        // Randomize from fresh pool if force refreshing
-        const freshVideo = forceRefresh 
-            ? freshVideos[Math.floor(Math.random() * freshVideos.length)] 
-            : freshVideos[0];
+        // C. Fallback: Re-watch the first video of the weakest topic if absolutely no fresh videos are available
+        if (!freshVideo && candidateTopics.length > 0) {
+            const firstTopic = candidateTopics[0];
+            const playlist = await getVideoByTopicIdCached(firstTopic.topic, searchContext, userId, userClass, false);
+            if (playlist && playlist.videos.length > 0) {
+                targetTopic = firstTopic.topic;
+                reason = `Re-watch: Weakest Topic (${firstTopic.score_percentage}%)`;
+                freshVideo = playlist.videos[0];
+            }
+        }
 
         if (!freshVideo) {
-            // All videos for this weak topic are finished!
-            // TODO: Move to next weak topic. For now, fallback to first (re-watch) or return null?
-            // Let's return null so UI handles "All caught up" or we pick next topic recursively (advanced)
             return null;
         }
 
-        // C. Save as Active
+        // D. Save as Active
         const newRec: ActiveRecommendation = {
             video: freshVideo,
             topic: targetTopic,
