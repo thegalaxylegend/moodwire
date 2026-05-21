@@ -22,7 +22,8 @@ import {
     setDoc,
     deleteDoc,
     orderBy,
-    limit
+    limit,
+    writeBatch
 } from 'firebase/firestore';
 
 // ─── TYPES ───────────────────────────────────────────────
@@ -455,11 +456,24 @@ export const SpacedRepetitionService = {
         if (!auth.currentUser) return;
         const localCards = getLocalCards(userId);
         
-        for (const card of localCards) {
+        if (localCards.length === 0) return;
+
+        // Firestore batch write limit is 500
+        const chunkSize = 500;
+        for (let i = 0; i < localCards.length; i += chunkSize) {
+            const chunk = localCards.slice(i, i + chunkSize);
+            const batch = writeBatch(db);
+
+            for (const card of chunk) {
+                batch.set(doc(db, 'review_cards', card.id), card, { merge: true });
+            }
+
             try {
-                await setDoc(doc(db, 'review_cards', card.id), card, { merge: true });
+                await batch.commit();
             } catch (e) {
                 // Silent fail — will retry next sync
+                // eslint-disable-next-line @typescript-eslint/no-unused-vars
+                const _ignored = e;
             }
         }
         console.log(`[SRS] Synced ${localCards.length} cards to cloud.`);
