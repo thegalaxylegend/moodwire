@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState } from 'react';
 import type { ReactNode } from 'react';
 import { usePerformanceLevel } from '../hooks/usePerformanceLevel';
 import type { PerformanceTier } from '../hooks/usePerformanceLevel';

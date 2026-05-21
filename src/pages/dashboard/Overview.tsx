@@ -15,7 +15,7 @@ import { AuthGate } from '../../components/auth/AuthGate';
 
 
 import { mockPrefetchService } from '../../services/mockPrefetchService';
-import { motion, AnimatePresence, useSpring, useMotionValue, useTransform } from 'framer-motion';
+import { motion, AnimatePresence, useSpring, useTransform } from 'framer-motion';
 import { DailyStudyGoalIcon } from '../../components/dashboard/DailyStudyGoalIcon';
 import { ImprovementBookCard } from '../../components/dashboard/ImprovementBookCard';
 
