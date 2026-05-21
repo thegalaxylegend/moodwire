@@ -4,6 +4,7 @@ import { useScrollLock } from '../../hooks/useScrollLock';
 import { motion, AnimatePresence } from 'framer-motion';
 import { getRankByValue } from '../../services/gamificationService';
 import confetti from 'canvas-confetti';
+import { RankBadge } from './RankBadge';
 
 interface LevelUpModalProps {
     newXp: number;
@@ -78,11 +79,11 @@ export const LevelUpModal: React.FC<LevelUpModalProps> = ({ newXp, onClose }) =>
                     />
 
                     <motion.div
-                        animate={{ rotate: [0, 10, -10, 0], scale: [1, 1.2, 1] }}
-                        transition={{ duration: 2, repeat: Infinity }}
-                        className="text-8xl mb-6 drop-shadow-2xl flex justify-center"
+                        animate={{ rotate: [0, 10, -10, 0], scale: [1, 1.05, 1] }}
+                        transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut" }}
+                        className="mb-6 drop-shadow-2xl flex justify-center"
                     >
-                        {rank.icon}
+                        <RankBadge xp={newXp} showLabel={false} size="lg" />
                     </motion.div>
 
                     <h2 className="text-3xl font-black text-white mb-2 tracking-tight">RANK PROMOTED!</h2>

@@ -3,78 +3,130 @@ import { useState, useEffect, useRef } from 'react';
 export type PerformanceTier = 'elite' | 'balanced' | 'low';
 
 /**
- * usePerformanceLevel
- * 3-Tier Multi-Adaptive Performance Monitoring (120fps -> 60fps -> 45fps)
- * Elite: < 9ms (Targets 120Hz)
- * Balanced: 9ms - 18ms (Targets 60Hz)
- * Low: > 18ms (Targets 45Hz/Battery Saver)
+ * usePerformanceLevel — Smart 3-Tier Adaptive Performance System
+ *
+ * Tier Classification:
+ *   elite    → High-end PC / flagship phone. Full animations, blur, glows.
+ *   balanced → Mid-range laptop / phone. Reduced blur, lighter animations.
+ *   low      → Very low-end device / battery saver. Zero animations, no blur.
+ *
+ * Detection Strategy (layered, most accurate → fallback):
+ *   1. OS prefers-reduced-motion → always 'low'
+ *   2. Hardware capability pre-scan (memory, CPU cores, connection) → initial tier
+ *   3. Mobile UA heuristic → bias toward 'balanced' not 'low'
+ *   4. rAF frame-time monitoring → real-time adaptive upgrade/downgrade
+ *   5. Battery API → only extreme cases trigger downgrade (< 15%)
+ *   6. Long task observer → debounced (3 janks needed, not 1)
  */
-export const usePerformanceLevel = (sampleSize = 60) => {
-    const [tier, setTier] = useState<PerformanceTier>('balanced');
-    const tierRef = useRef<PerformanceTier>('balanced');
-    const frameTimes = useRef<number[]>([]);
-    const lastTime = useRef<number>(performance.now());
-    const requestRef = useRef<number>(0);
-    const consecutiveEliteFrames = useRef<number>(0);
-    const jankCount = useRef<number>(0);
-    const lastJankTime = useRef<number>(0);
-    const isMobile = typeof navigator !== 'undefined' && /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+export const usePerformanceLevel = (enabled = true, sampleSize = 90) => {
+    // ─── Step 1: Detect OS-level preference immediately (synchronous) ─────────
+    const prefersReduced =
+        typeof window !== 'undefined' &&
+        window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-    // Synchronize Ref with State
-    useEffect(() => {
-        tierRef.current = tier;
-    }, [tier]);
+    // ─── Step 2: Hardware capability pre-scan ─────────────────────────────────
+    const getHardwareTier = (): PerformanceTier => {
+        if (prefersReduced) return 'low';
+
+        const nav = navigator as any;
+        const memory: number = nav.deviceMemory ?? 4;        // GB RAM (Chrome/Android)
+        const cores: number  = nav.hardwareConcurrency ?? 4; // CPU logical cores
+        const conn   = nav.connection ?? nav.mozConnection ?? nav.webkitConnection;
+        const isSlow = conn?.effectiveType === '2g' || conn?.effectiveType === 'slow-2g';
+        const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+        // Very low-end: ≤1GB RAM or ≤2 CPU cores or very slow network
+        if (memory <= 1 || cores <= 2 || isSlow) return 'low';
+
+        // Mid-range: ≤3GB RAM or ≤4 cores, AND on mobile
+        if (isMobile && (memory <= 3 || cores <= 4)) return 'balanced';
+
+        // Everything else starts as elite and adapts down if needed
+        return 'elite';
+    };
+
+    const initialTier = getHardwareTier();
+    const [tier, setTier] = useState<PerformanceTier>(initialTier);
+    const tierRef = useRef<PerformanceTier>(initialTier);
+
+    const frameTimes     = useRef<number[]>([]);
+    const lastTime       = useRef<number>(performance.now());
+    const requestRef     = useRef<number>(0);
+    const goodFrames     = useRef<number>(0);   // consecutive good frames before promoting
+    const longTaskCount  = useRef<number>(0);   // debounce long task drops
+    const jankCount      = useRef<number>(0);   // rapid-jank detector
+
+    // Keep ref in sync with state
+    useEffect(() => { tierRef.current = tier; }, [tier]);
 
     useEffect(() => {
+        if (!enabled) return;
+
+        // ─── If OS says reduce motion, stay locked to 'low' forever ──────────
+        if (prefersReduced) {
+            setTier('low');
+            return;
+        }
+
+        const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+        // ─── rAF frame-time monitor ──────────────────────────────────────────
         const checkPerformance = (time: number) => {
             const delta = time - lastTime.current;
             lastTime.current = time;
 
-            // Frame throttling (only check once per 4 frames to save CPU during monitoring)
+            // Sample only 1 in 4 frames to minimize measurement overhead
             if (Math.random() > 0.25) {
                 requestRef.current = requestAnimationFrame(checkPerformance);
                 return;
             }
 
-            if (delta < 200) {
-                // INSTANT JANK PROTECTION (Thermal / Conflict Detection)
-                // Loosened threshold: 110ms (approx 9fps)
-                if (delta > 110) { 
+            if (delta > 0 && delta < 500) {
+                // ── Instant jank guard: a single frame > 150ms is a freeze ──
+                if (delta > 150) {
                     jankCount.current++;
-                    lastJankTime.current = time;
-                    
-                    // Requirement: 2 consecutive janks before dropping to safety tier
-                    if (tierRef.current !== 'low' && jankCount.current >= 2) {
-                        console.warn(`[Performance] Significant jitter detected (${delta.toFixed(1)}ms). Switching to thermal safety mode.`);
+                    // Require 3 rapid janks to drop (was 2), avoids false positives
+                    if (jankCount.current >= 3 && tierRef.current !== 'low') {
+                        console.warn(`[Perf] Freeze detected (${delta.toFixed(0)}ms ×${jankCount.current}). Dropping to low.`);
                         setTier('low');
-                        jankCount.current = 0; // Reset after drop
+                        goodFrames.current = 0;
+                        jankCount.current  = 0;
                     }
                 } else {
-                    // Decay the jank count if we have a good frame
-                    if (jankCount.current > 0) jankCount.current -= 0.1;
+                    // Decay jank counter on good frames
+                    jankCount.current = Math.max(0, jankCount.current - 0.2);
+                    goodFrames.current++;
                 }
 
                 frameTimes.current.push(delta);
                 if (frameTimes.current.length > sampleSize) {
                     frameTimes.current.shift();
-                    
-                    const avgFT = frameTimes.current.reduce((a, b) => a + b, 0) / sampleSize;
-                    const currentTier = tierRef.current;
-                    
-                    // Safety check: if we recently had a jank, don't move up for 6 seconds (was 10)
-                    const recentlyJanked = time - lastJankTime.current < 6000;
+                    const avg = frameTimes.current.reduce((a, b) => a + b, 0) / sampleSize;
 
-                    if (avgFT > 22) { 
-                        if (currentTier !== 'low') setTier('low');
-                    } else if (avgFT > 14) { 
-                        if (currentTier === 'elite') setTier('balanced');
-                    } else if (avgFT < 7 && !recentlyJanked) { 
-                        consecutiveEliteFrames.current++;
-                        if (currentTier !== 'elite' && consecutiveEliteFrames.current > 250) {
+                    const cur = tierRef.current;
+
+                    // ── Downgrade thresholds ──────────────────────────────
+                    // avg > 28ms ≈ < 36fps → drop to 'low'
+                    if (avg > 28 && cur !== 'low') {
+                        setTier('low');
+                        goodFrames.current = 0;
+                    }
+                    // avg > 18ms ≈ < 56fps → drop to 'balanced' (not all the way to low)
+                    else if (avg > 18 && cur === 'elite') {
+                        setTier('balanced');
+                        goodFrames.current = 0;
+                    }
+                    // ── Upgrade thresholds (conservative — need sustained good perf) ──
+                    // avg < 10ms ≈ > 100fps AND 180 consecutive good frames ≈ 3s
+                    else if (avg < 10 && cur === 'balanced' && goodFrames.current > 180) {
+                        // Only promote to elite on desktop/non-mobile
+                        if (!isMobile) {
                             setTier('elite');
                         }
-                    } else {
-                        consecutiveEliteFrames.current = 0;
+                    }
+                    // avg < 16ms ≈ > 62fps AND 120 good frames ≈ 2s — promote from low to balanced
+                    else if (avg < 16 && cur === 'low' && goodFrames.current > 120) {
+                        setTier('balanced');
                     }
                 }
             }
@@ -82,60 +134,60 @@ export const usePerformanceLevel = (sampleSize = 60) => {
             requestRef.current = requestAnimationFrame(checkPerformance);
         };
 
-        // Long Task Monitoring (The true indicator of UI lag/Throttling)
+        // ─── Long Task Observer (debounced — 3 tasks needed) ─────────────────
         let observer: PerformanceObserver | null = null;
         try {
             observer = new PerformanceObserver((list) => {
                 for (const entry of list.getEntries()) {
-                    if (entry.duration > 100) { // Main thread blocked for >100ms
-                         console.warn("[Performance] Long task detected. Thermal Safety triggered.");
-                         setTier('low');
+                    // Only count truly severe blocks (> 150ms, not just any 50ms task)
+                    if (entry.duration > 150) {
+                        longTaskCount.current++;
+                        if (longTaskCount.current >= 3 && tierRef.current !== 'low') {
+                            console.warn(`[Perf] ${longTaskCount.current} long tasks. Thermal protection active.`);
+                            setTier('low');
+                            longTaskCount.current = 0;
+                        }
                     }
                 }
             });
             observer.observe({ entryTypes: ['longtask'] });
-        } catch (e) {
-            // PerformanceObserver for longtask not supported in all browsers
+        } catch (_) {
+            // Not supported in all environments
         }
 
-        // Proper Cleanup-Safe Battery Logic
-        let batteryListenerObject: any = null;
-        const updateBatteryStatus = (battery: any) => {
-            // On Mobile/Laptops, charging = potential HEAT.
-            // On Desktop, charging is always true/irrelevant.
-            if (battery.level < 0.20 || (!battery.charging && isMobile)) {
+        // ─── Battery API — only extreme low battery triggers downgrade ────────
+        let batteryRef: any = null;
+        const handleBattery = (battery: any) => {
+            // Only drop to low if critically low battery (< 15%)
+            // Don't punish "not charging" — that's too aggressive for laptops
+            if (battery.level < 0.15) {
                 setTier('low');
-            } else if (battery.charging && isMobile && battery.level > 0.90) {
-                // Near full capacity + charging is the hottest state for a phone.
-                setTier('balanced'); 
             }
         };
-
-        const handleBatteryChange = (e: any) => updateBatteryStatus(e.target);
+        const onBatteryChange = (e: any) => handleBattery(e.target);
 
         if ('getBattery' in navigator) {
             (navigator as any).getBattery().then((battery: any) => {
-                updateBatteryStatus(battery);
-                battery.addEventListener('chargingchange', handleBatteryChange);
-                battery.addEventListener('levelchange', handleBatteryChange);
-                batteryListenerObject = battery;
-            });
+                handleBattery(battery);
+                battery.addEventListener('levelchange', onBatteryChange);
+                batteryRef = battery;
+            }).catch(() => {/* ignore */});
         }
 
-        const initialTimer = setTimeout(() => {
+        // ─── Grace period: start monitoring after 2s (was 3s) ────────────────
+        const timer = setTimeout(() => {
             requestRef.current = requestAnimationFrame(checkPerformance);
-        }, 3000); // 3s grace period for hydration stability
+        }, 2000);
 
         return () => {
-            clearTimeout(initialTimer);
+            clearTimeout(timer);
             cancelAnimationFrame(requestRef.current);
-            if (batteryListenerObject) {
-                batteryListenerObject.removeEventListener('chargingchange', handleBatteryChange);
-                batteryListenerObject.removeEventListener('levelchange', handleBatteryChange);
+            observer?.disconnect();
+            if (batteryRef) {
+                batteryRef.removeEventListener('levelchange', onBatteryChange);
             }
-            if (observer) observer.disconnect();
         };
-    }, [sampleSize]); // Removing 'tier' from dependency array to prevent infinite loops
+    }, [enabled, sampleSize, prefersReduced]);
 
     return tier;
 };

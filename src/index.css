@@ -118,6 +118,7 @@
   html {
     width: 100%;
     max-width: 100vw;
+    scroll-behavior: smooth;
   }
 
   body {
@@ -134,6 +135,12 @@
     @apply bg-background text-text-main font-sans antialiased transition-colors duration-300;
   }
 
+  /* Universal smooth interaction base */
+  *, *::before, *::after {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
   ::selection {
     background-color: rgb(var(--primary) / 0.3);
     /* This is the primary color with 30% opacity */
@@ -142,40 +149,108 @@
 }
 
 /* ============================================
-   3-TIER PERFORMANCE ADAPTIVE CLASSES
-   Targeting 120fps -> 60fps -> 45fps
+   3-TIER PERFORMANCE ADAPTIVE SYSTEM
+   elite    → 120fps+ (desktop / flagship phone)
+   balanced → 60fps   (mid-range laptop / phone)
+   low      → 30-45fps (very low-end / battery saver)
    ============================================ */
 
-/* Tier 1: Elite (120fps) - Default state, all styles active */
+/* ─── TIER 1: ELITE (Default — no class needed) ─────────────────────────────
+   Full animations, blur, glows, all effects active.
+   Applied when no perf-tier class is set on the root.
+   ─────────────────────────────────────────────────────────────────────────── */
 
-/* Tier 2: Balanced (60fps) - Scaled visuals */
+/* ─── TIER 2: BALANCED — lighter visuals, still animated ────────────────────
+   Target: phones > 3GB RAM, mid-range laptops.
+   Keep motion and feel, reduce GPU-heavy effects.
+   ─────────────────────────────────────────────────────────────────────────── */
 .perf-tier-balanced {
-  --glass-blur: 8px;
-  --oxygen-page: 250ms;
-  --oxygen-component: 200ms;
+  /* Halve blur costs */
+  --glass-blur: 6px;
+  /* Reduce glow opacity */
+  --glass-opacity: 0.85;
+  /* Slightly speed up transitions so they feel snappier on lower fps */
+  --oxygen-micro:      140ms;
+  --oxygen-component:  260ms;
+  --oxygen-page:       320ms;
 }
 
-/* Tier 3: Low-Power (45fps) - Maximum stability & Thermal Safety */
+/* Disable the most GPU-expensive backdrop filters */
+.perf-tier-balanced .liquid-glass {
+  backdrop-filter: blur(12px) saturate(160%);
+  -webkit-backdrop-filter: blur(12px) saturate(160%);
+}
+
+/* Reduce float/orb animation weight */
+.perf-tier-balanced .animate-float-1,
+.perf-tier-balanced .animate-float-2,
+.perf-tier-balanced .animate-float-3,
+.perf-tier-balanced .animate-float-4,
+.perf-tier-balanced .animate-float-5,
+.perf-tier-balanced .animate-float-6 {
+  animation-duration: 16s; /* Slow them way down instead of stopping */
+}
+
+/* Disable ambient breathing/pulse on cards */
+.perf-tier-balanced .animate-breathing {
+  animation-duration: 10s;
+  opacity: 0.3;
+}
+
+/* Hide decorative background orbs */
+.perf-tier-balanced .tier-aware-orb {
+  opacity: 0.4;
+}
+
+/* Reduce card lift on hover */
+.perf-tier-balanced .oxygen-card:hover {
+  transform: translateY(-3px) scale(1.004) translateZ(0);
+}
+
+/* ─── TIER 3: LOW — zero animations, maximum stability ──────────────────────
+   Target: very low-end devices, < 1GB RAM, 2-core, or OS reduced-motion.
+   ─────────────────────────────────────────────────────────────────────────── */
 .perf-tier-low {
   --glass-blur: 0px;
   --glass-opacity: 0.98;
-  --oxygen-page: 0ms;
+  --oxygen-page:      0ms;
   --oxygen-component: 0ms;
-  --oxygen-micro: 0ms;
+  --oxygen-micro:     0ms;
 }
 
-.perf-tier-low * {
-  animation-duration: 0ms !important;
-  transition-duration: 0ms !important;
-  backdrop-filter: none !important;
-  -webkit-backdrop-filter: none !important;
+/* Kill all animations and transitions system-wide */
+.perf-tier-low *,
+.perf-tier-low *::before,
+.perf-tier-low *::after {
+  animation-duration:        0ms !important;
+  animation-delay:           0ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration:       0ms !important;
+  transition-delay:          0ms !important;
+  backdrop-filter:           none !important;
+  -webkit-backdrop-filter:   none !important;
+  will-change:               auto !important;
 }
 
-/* System-wide optimizations for low-power modes without breaking visuals */
+/* Solid fallback background for glass panels */
 .perf-tier-low .glass-card,
 .perf-tier-low .liquid-glass {
-  background: rgb(var(--surface) / 0.95) !important;
-  border-color: rgba(255, 255, 255, 0.1) !important;
+  background: rgb(var(--surface) / 0.97) !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4) !important;
+}
+
+/* Hide all decorative / ambient elements */
+.perf-tier-low .tier-aware-orb,
+.perf-tier-low .animate-breathing,
+.perf-tier-low .animate-float-1,
+.perf-tier-low .animate-float-2,
+.perf-tier-low .animate-float-3,
+.perf-tier-low .animate-float-4,
+.perf-tier-low .animate-float-5,
+.perf-tier-low .animate-float-6,
+.perf-tier-low .ghost-glow {
+  display: none !important;
 }
 
 /* Optimize hidden content visibility globally */
@@ -183,6 +258,7 @@
   content-visibility: auto;
   contain-intrinsic-size: 1px 500px;
 }
+
 
 /* ============================================
    ULTRA-SMOOTH PARALLAX & GPU ACCELERATORS
@@ -263,27 +339,41 @@ html.lenis body {
 
 /* Optimize text rendering globally */
 html {
-  /* Optimize text rendering */
-  text-rendering: optimizeSpeed;
-  /* Optimize for speed on mobile */
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
-/* Smooth momentum scrolling on touch devices */
+/* Smooth momentum scrolling on touch & desktop */
 body {
   -webkit-overflow-scrolling: touch;
 }
 
-/* Optimize transitions for high refresh rate displays */
-@media (prefers-reduced-motion: no-preference) {
+/* ─── Universal Smooth Interaction Layer ─────────────────────
+   Every interactive element gets a silky, consistent base
+   transition so nothing ever feels "snappy" or jarring.
+   Individual component rules below can override specific props.
+   ─────────────────────────────────────────────────────────── */
+a,
+button,
+[role="button"],
+input,
+textarea,
+select,
+label {
+  transition-property: color, background-color, border-color, box-shadow, transform, opacity, filter;
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
 
-  /* Smooth transitions on interactive elements only */
-  a,
-  button,
-  [role="button"] {
-    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
-  }
+/* Smooth scrolling on all scrollable containers */
+main,
+[data-scroll],
+.overflow-y-auto,
+.overflow-auto {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Respect reduced motion preferences */
@@ -417,13 +507,14 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--border);
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 999px;
-  transition: background 0.3s;
+  transition: background 320ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 320ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--text-muted);
+  background: rgba(255, 255, 255, 0.22);
+  box-shadow: 0 0 6px rgba(139, 92, 246, 0.25);
 }
 
 /* Reset background for Zen/Gamified to avoid the gradient noise if desired, 
@@ -441,7 +532,20 @@ body {
 
 @layer components {
   .glass-card {
-    @apply bg-surface/40 backdrop-blur-[var(--glass-blur)] border border-white/5 rounded-[var(--card-radius)] shadow-[0_40px_80px_-15px_rgba(0,0,0,0.8)] transition-all duration-500 relative;
+    background: rgb(var(--surface) / 0.4);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    border: 1px solid rgba(255,255,255,0.05);
+    border-radius: var(--card-radius);
+    box-shadow: 0 40px 80px -15px rgba(0,0,0,0.8);
+    position: relative;
+    /* Ultra-smooth transitions for ALL glass card state changes */
+    transition:
+      transform      380ms cubic-bezier(0.16, 1, 0.3, 1),
+      box-shadow     380ms cubic-bezier(0.16, 1, 0.3, 1),
+      border-color   280ms cubic-bezier(0.16, 1, 0.3, 1),
+      background-color 280ms cubic-bezier(0.16, 1, 0.3, 1),
+      opacity        280ms cubic-bezier(0.16, 1, 0.3, 1);
   }
 
   .glass-card::before {
@@ -454,8 +558,9 @@ body {
 
   .active-glow::after {
     content: '';
-    @apply absolute inset-0 -z-10 blur-3xl opacity-0 transition-opacity duration-700 rounded-full pointer-events-none;
+    @apply absolute inset-0 -z-10 blur-3xl opacity-0 rounded-full pointer-events-none;
     background-color: rgb(var(--primary) / 0.2);
+    transition: opacity 600ms cubic-bezier(0.16, 1, 0.3, 1);
   }
 
   .active-glow:hover::after {
@@ -525,9 +630,10 @@ body {
 
   .premium-border::before {
     content: '';
-    @apply absolute -inset-[1px] -z-10 opacity-0 transition-opacity duration-500 pointer-events-none;
+    @apply absolute -inset-[1px] -z-10 opacity-0 pointer-events-none;
     background: linear-gradient(to bottom right, rgba(139, 92, 246, 0.5), rgba(216, 180, 254, 0.3), rgba(14, 165, 233, 0.5));
     border-radius: inherit;
+    transition: opacity 400ms cubic-bezier(0.16, 1, 0.3, 1);
   }
 
   .premium-border:hover::before {
@@ -541,50 +647,70 @@ body {
    Optimized for 60Hz/120Hz displays
    ============================================ */
 
-/* OxygenOS Easing Curve - Fast start, soft end */
+/* ─── OxygenOS Ultra-Smooth Easing Curves ────────────────────
+   Redesigned for 60–120Hz displays. Every value is tuned for
+   that buttery, physics-based, inertia-feeling interaction.
+   ─────────────────────────────────────────────────────────── */
 :root {
-  --oxygen-ease: cubic-bezier(0.22, 0.68, 0.35, 1.0);
-  --oxygen-ease-fast: cubic-bezier(0.22, 0.78, 0.35, 1.0);
-  --oxygen-ease-soft: cubic-bezier(0.25, 0.55, 0.35, 1.0);
-  --oxygen-ease-press: cubic-bezier(0.34, 0.85, 0.45, 1.0);
+  /* Primary: Fast accelerate → ultra-soft landing (iOS-feel) */
+  --oxygen-ease:        cubic-bezier(0.16, 1.0, 0.3, 1.0);
+  /* Fast: Snappy with a slight overshoot spring */
+  --oxygen-ease-fast:   cubic-bezier(0.2, 0.9, 0.3, 1.05);
+  /* Soft: Gentle, smooth, zen-like deceleration */
+  --oxygen-ease-soft:   cubic-bezier(0.25, 0.6, 0.3, 1.0);
+  /* Press: Quick compress → confident spring release */
+  --oxygen-ease-press:  cubic-bezier(0.35, 0.9, 0.4, 1.0);
+  /* Out: Classic ease-out for hover reveals */
+  --oxygen-ease-out:    cubic-bezier(0.0, 0.0, 0.2, 1.0);
 
-  /* Timing */
-  --oxygen-micro: 150ms;
-  --oxygen-component: 300ms;
-  --oxygen-page: 400ms;
+  /* Timing — longer feels more premium */
+  --oxygen-micro:     180ms;
+  --oxygen-component: 380ms;
+  --oxygen-page:      480ms;
 }
 
 /* ===== BUTTON ANIMATION ===== */
 .oxygen-button {
   transform: translateZ(0);
-  transition: all var(--oxygen-micro) var(--oxygen-ease-press);
+  will-change: transform, filter;
+  transition:
+    transform var(--oxygen-micro) var(--oxygen-ease-press),
+    filter var(--oxygen-micro) var(--oxygen-ease-press),
+    box-shadow var(--oxygen-micro) var(--oxygen-ease-press),
+    background-color var(--oxygen-micro) var(--oxygen-ease-out);
 }
 
 .oxygen-button:hover {
-  transform: scale(1.08) translateZ(0);
-  filter: brightness(1.1);
+  transform: scale(1.06) translateZ(0);
+  filter: brightness(1.12);
 }
 
 .oxygen-button:active {
-  transform: scale(0.92) translateZ(0);
-  transition-duration: 60ms;
+  transform: scale(0.94) translateZ(0);
+  filter: brightness(0.95);
+  transition-duration: 80ms;
 }
 
 /* ===== CARD ANIMATION ===== */
 .oxygen-card {
   transform: translateY(0) scale(1) translateZ(0);
-  transition: transform var(--oxygen-component) var(--oxygen-ease),
-    box-shadow var(--oxygen-component) var(--oxygen-ease);
+  will-change: transform, box-shadow;
+  transition:
+    transform var(--oxygen-component) var(--oxygen-ease),
+    box-shadow var(--oxygen-component) var(--oxygen-ease),
+    border-color var(--oxygen-component) var(--oxygen-ease-out);
 }
 
 .oxygen-card:hover {
-  transform: translateY(-6px) scale(1.01) translateZ(0);
-  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px) scale(1.008) translateZ(0);
+  box-shadow:
+    0 24px 48px -12px rgba(0, 0, 0, 0.4),
+    0 0 0 1px rgba(255,255,255,0.06);
 }
 
 .oxygen-card:active {
-  transform: translateY(-2px) scale(0.99) translateZ(0);
-  transition-duration: 100ms;
+  transform: translateY(-2px) scale(0.995) translateZ(0);
+  transition-duration: 120ms;
 }
 
 /* ===== FADE IN ANIMATION (Scroll-triggered) ===== */
@@ -598,6 +724,52 @@ body {
 .oxygen-fade-in.visible {
   opacity: 1;
   transform: translateY(0) scale(1) translateZ(0);
+}
+
+/* ===== PREMIUM BUTTON DEPTH (press shadow compression) ===== */
+.oxygen-button:active {
+  box-shadow:
+    0 1px 2px rgba(0,0,0,0.3),
+    inset 0 2px 4px rgba(0,0,0,0.15);
+}
+
+/* ===== FOCUS VISIBLE RING — premium keyboard navigation ===== */
+:focus-visible {
+  outline: 2px solid rgba(139, 92, 246, 0.7);
+  outline-offset: 3px;
+  border-radius: 8px;
+  transition: outline-color 200ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ===== ANIMATED LINK UNDERLINE ===== */
+.link-underline {
+  position: relative;
+  text-decoration: none;
+}
+
+.link-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1.5px;
+  background: currentColor;
+  border-radius: 999px;
+  transition: width 280ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.link-underline:hover::after {
+  width: 100%;
+}
+
+/* ===== ICON MICRO-BOUNCE on hover ===== */
+.icon-hover {
+  transition: transform 240ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.icon-hover:hover {
+  transform: scale(1.18) rotate(-5deg) translateZ(0);
 }
 
 /* ===== MODAL ANIMATION ===== */

@@ -1,4 +1,5 @@
 import { Outlet, NavLink, useNavigate, useLocation } from 'react-router-dom';
+import { motion, AnimatePresence } from 'framer-motion';
 
 import {
     LayoutDashboard,
@@ -22,8 +23,6 @@ import { useState } from 'react';
 import { usePWA } from '../hooks/usePWA';
 
 import { BottomNav } from '../components/BottomNav';
-// import { supabase } from '../lib/supabase'; // REMOVED
-// import { supabase } from '../lib/supabase'; // REMOVED
 import { useUserStore } from '../store/userStore';
 import { useEffect } from 'react';
 import { SEO } from '../components/SEO';
@@ -133,16 +132,31 @@ export const SidebarItem = ({ to, icon, label, active, isSidebarOpen, onClick }:
             to={to}
             onClick={onClick}
             className={`
-                flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200 group whitespace-nowrap overflow-hidden
+                relative flex items-center gap-3 px-4 py-3 rounded-xl group whitespace-nowrap overflow-hidden
                 ${active
-                    ? 'bg-primary/10 text-primary border border-primary/20'
-                    : 'text-text-muted hover:text-text-main hover:bg-white/5 border border-transparent'
+                    ? 'text-primary'
+                    : 'text-text-muted hover:text-text-main border border-transparent hover:border-white/[0.05]'
                 }
                 ${!isSidebarOpen && 'lg:px-3 lg:justify-center'}
             `}
+            style={{ transition: 'color 220ms cubic-bezier(0.16, 1, 0.3, 1), border-color 220ms cubic-bezier(0.16, 1, 0.3, 1)' }}
         >
-            <div className={`shrink-0 transition-transform duration-300 ${!isSidebarOpen && 'lg:scale-110'}`}>{icon}</div>
-            <span className={`font-medium whitespace-nowrap transition-all duration-300 ${!isSidebarOpen && 'lg:hidden opacity-0 w-0'}`}>
+            {/* Animated active background pill — slides between nav items */}
+            {active && (
+                <motion.div
+                    layoutId="sidebar-active-pill"
+                    className="absolute inset-0 rounded-xl bg-primary/10 border border-primary/20"
+                    transition={{ type: 'spring', stiffness: 400, damping: 35 }}
+                />
+            )}
+            <div
+                className={`relative shrink-0 ${!isSidebarOpen && 'lg:scale-110'}`}
+                style={{ transition: 'transform 280ms cubic-bezier(0.16, 1, 0.3, 1)' }}
+            >{icon}</div>
+            <span
+                className={`relative font-medium whitespace-nowrap ${!isSidebarOpen && 'lg:hidden opacity-0 w-0'}`}
+                style={{ transition: 'opacity 280ms cubic-bezier(0.16, 1, 0.3, 1), width 280ms cubic-bezier(0.16, 1, 0.3, 1)' }}
+            >
                 {label}
             </span>
         </NavLink>
@@ -207,9 +221,10 @@ export const DashboardLayout = () => {
 
             {/* Sidebar */}
             <aside
-                className={`fixed lg:sticky top-0 h-screen bg-surface lg:bg-surface/95 backdrop-blur-md border-r border-border transition-all duration-300 z-50 
+                className={`fixed lg:sticky top-0 h-screen bg-surface lg:bg-surface/95 backdrop-blur-md border-r border-border z-50 
                 ${isSidebarOpen ? 'w-64 translate-x-0' : 'w-64 -translate-x-full lg:translate-x-0 lg:w-20'} 
                 flex flex-col overflow-hidden`}
+                style={{ transition: 'width 380ms cubic-bezier(0.16, 1, 0.3, 1), transform 380ms cubic-bezier(0.16, 1, 0.3, 1)' }}
             >
                 <div className="p-6 flex items-center justify-between shrink-0">
                     {(isSidebarOpen || window.innerWidth < 1024) && (
@@ -287,15 +302,25 @@ export const DashboardLayout = () => {
                 </div>
             </div>
 
-            {/* Main Content */}
+            {/* Main Content — with page fade-slide transition */}
             <main
                 data-lenis-prevent
-                className="flex-1 overflow-x-hidden overflow-y-auto relative w-full flex flex-col scrollbar-thin scroll-smooth min-h-screen"
+                className="flex-1 overflow-x-hidden overflow-y-auto relative w-full flex flex-col scrollbar-thin min-h-screen"
+                style={{ scrollBehavior: 'smooth', WebkitOverflowScrolling: 'touch' as React.CSSProperties['WebkitOverflowScrolling'] }}
             >
-                <div className="flex-1 flex flex-col p-4 pt-20 lg:p-10 lg:pt-10 pb-40 lg:pb-10 max-w-6xl mx-auto w-full">
-                    <GuestBanner />
-                    <Outlet />
-                </div>
+                <AnimatePresence mode="wait">
+                    <motion.div
+                        key={location.pathname}
+                        initial={{ opacity: 0, y: 12 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -8 }}
+                        transition={{ duration: 0.28, ease: [0.16, 1, 0.3, 1] }}
+                        className="flex-1 flex flex-col p-4 pt-20 lg:p-10 lg:pt-10 pb-40 lg:pb-10 max-w-6xl mx-auto w-full"
+                    >
+                        <GuestBanner />
+                        <Outlet />
+                    </motion.div>
+                </AnimatePresence>
             </main>
 
             {/* Bottom Navigation for Mobile */}

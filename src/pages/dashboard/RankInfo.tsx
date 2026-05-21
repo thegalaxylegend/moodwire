@@ -4,10 +4,16 @@ import { ArrowLeft, Trophy, Star, Target, BookOpen, Flame, Play, ChevronRight, Z
 import { useNavigate } from 'react-router-dom';
 import { XP_RANKS, POINT_RANKS, getCurrentSeason, getCurrentPointCycle } from '../../services/gamificationService';
 import { useState } from 'react';
+import { getRankIconSVG, RankBadge } from '../../components/gamification/RankBadge';
+import { useBadgeStyle } from '../../context/BadgeStyleProvider';
+import type { BadgeStyle } from '../../context/BadgeStyleProvider';
+import { useUserStore } from '../../store/userStore';
 
 export const RankInfo = () => {
     const navigate = useNavigate();
     const [rankBasis, setRankBasis] = useState<'xp' | 'pts'>('xp');
+    const { badgeStyle, setBadgeStyle } = useBadgeStyle();
+    const { user } = useUserStore();
 
     const activeRanks = rankBasis === 'xp' ? XP_RANKS : POINT_RANKS;
 
@@ -155,6 +161,129 @@ export const RankInfo = () => {
                     </div>
                 </section>
 
+                {/* Badge Style Selector Section */}
+                <section className="space-y-6">
+                    <div className="flex items-center gap-3 px-2">
+                        <div className="p-2 bg-primary/10 rounded-xl">
+                            <Trophy className="text-primary" size={24} />
+                        </div>
+                        <h2 className="text-2xl font-bold text-text-main">Badge Presentation Style</h2>
+                    </div>
+
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                        {/* Selector card */}
+                        <div className="p-8 border border-border/40 rounded-[2.5rem] bg-surface/10 backdrop-blur-md flex flex-col justify-between gap-6">
+                            <div className="space-y-2">
+                                <h3 className="text-2xl font-bold text-text-main">Choose Your Style</h3>
+                                <p className="text-text-muted text-sm leading-relaxed">
+                                    Switch the visual theme of your ranks across the entire website instantly. Pick the design that fits your study mood.
+                                </p>
+                            </div>
+
+                            <div className="grid grid-cols-2 gap-4">
+                                {[
+                                    {
+                                        id: 'professional',
+                                        label: 'Sleek Professional',
+                                        desc: '3D dimensional glowing emblems',
+                                        themeColor: '#3b82f6',
+                                        badgePreview: '🔮'
+                                    },
+                                    {
+                                        id: 'simple',
+                                        label: 'Minimalist Shield',
+                                        desc: 'Clean geometric vector flat designs',
+                                        themeColor: '#10b981',
+                                        badgePreview: '🛡️'
+                                    }
+                                ].map((option) => {
+                                    const isActive = badgeStyle === option.id;
+                                    return (
+                                        <button
+                                            key={option.id}
+                                            onClick={() => setBadgeStyle(option.id as BadgeStyle)}
+                                            className={`p-5 rounded-3xl border text-left flex flex-col justify-between gap-4 transition-all relative overflow-hidden group
+                                                ${isActive 
+                                                    ? 'bg-gradient-to-br from-primary/10 via-surface to-accent/10 text-text-main shadow-lg ring-1 ring-primary/40 -translate-y-0.5 scale-[1.02]' 
+                                                    : 'bg-surface border-border hover:bg-white/5 text-text-muted hover:text-text-main'
+                                                }`}
+                                            style={isActive ? { borderColor: `${option.themeColor}50` } : undefined}
+                                        >
+                                            <div className="flex justify-between items-center w-full">
+                                                <span className="text-2xl">{option.badgePreview}</span>
+                                                {isActive && (
+                                                    <span className="text-[9px] uppercase font-bold tracking-widest bg-primary/20 text-primary px-2 py-0.5 rounded-md">
+                                                        Active
+                                                    </span>
+                                                )}
+                                            </div>
+                                            <div>
+                                                <h4 className="text-sm font-bold text-text-main">
+                                                    {option.label}
+                                                </h4>
+                                                <p className="text-xs text-text-muted mt-1 leading-snug">
+                                                    {option.desc}
+                                                </p>
+                                            </div>
+                                        </button>
+                                    );
+                                })}
+                            </div>
+                        </div>
+
+                        {/* Interactive live preview card */}
+                        <div className="p-8 border border-border/40 rounded-[2.5rem] bg-gradient-to-br from-surface/20 via-surface/5 to-surface/20 flex flex-col md:flex-row items-center justify-around gap-8">
+                            <div className="text-center md:text-left space-y-2 max-w-xs">
+                                <span className="px-3 py-1 bg-accent/10 border border-accent/20 text-accent rounded-full text-[10px] font-bold uppercase tracking-widest">
+                                    Live Comparison
+                                </span>
+                                <h3 className="text-xl font-bold text-text-main">Your Active Rank Badge</h3>
+                                <p className="text-xs text-text-muted leading-relaxed">
+                                    See your rank badge rendered in both design aesthetics side-by-side. The highlighted badge shows your currently applied style.
+                                </p>
+                            </div>
+
+                            <div className="flex items-center gap-8 relative">
+                                {/* Sleek Professional Preview */}
+                                <div className={`flex flex-col items-center gap-2 p-5 rounded-3xl border transition-all ${
+                                    badgeStyle === 'professional' 
+                                        ? 'bg-primary/5 border-primary/40 shadow-lg scale-110 relative z-10' 
+                                        : 'border-border/30 opacity-60 scale-95'
+                                }`}>
+                                    <span className="text-[10px] font-bold uppercase text-text-muted tracking-wider mb-1">
+                                        Professional
+                                    </span>
+                                    <RankBadge 
+                                        xp={user?.xp || 235} 
+                                        size="lg" 
+                                        showLabel={true} 
+                                        style="professional" 
+                                    />
+                                </div>
+
+                                <div className="text-text-muted/40 font-bold text-xl select-none">VS</div>
+
+                                {/* Minimalist Shield Preview */}
+                                <div className={`flex flex-col items-center gap-2 p-5 rounded-3xl border transition-all ${
+                                    badgeStyle === 'simple' 
+                                        ? 'bg-primary/5 border-primary/40 shadow-lg scale-110 relative z-10' 
+                                        : 'border-border/30 opacity-60 scale-95'
+                                }`}>
+                                    <span className="text-[10px] font-bold uppercase text-text-muted tracking-wider mb-1">
+                                        Minimalist
+                                    </span>
+                                    <RankBadge 
+                                        xp={user?.xp || 235} 
+                                        size="lg" 
+                                        showLabel={true} 
+                                        style="simple" 
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 {/* Bottom Section: Full Table */}
                 <section className="space-y-8">
                     <div className="flex items-center gap-3 px-2">
@@ -183,8 +312,11 @@ export const RankInfo = () => {
                                         style={{ background: `linear-gradient(135deg, ${tier.color}08, transparent)` }}
                                     >
                                         <div className="flex items-center gap-4">
-                                            <div className="w-14 h-14 rounded-2xl bg-surface/30 border border-white/5 shadow-inner flex items-center justify-center text-3xl">
-                                                {tier.icon}
+                                            <div 
+                                                className="w-14 h-14 rounded-2xl bg-surface/30 border border-white/5 shadow-inner flex items-center justify-center shadow-[0_0_12px_rgba(255,255,255,0.02)]"
+                                                style={{ borderColor: tier.color + '25', boxShadow: `inset 0 0 10px ${tier.color}05` }}
+                                            >
+                                                {getRankIconSVG(tier.name, tier.color, 'w-8 h-8', badgeStyle)}
                                             </div>
                                             <div>
                                                 <h3 className="text-2xl font-bold" style={{ color: tier.color }}>{tier.name}</h3>
@@ -253,8 +385,11 @@ export const RankInfo = () => {
                                         style={{ background: `linear-gradient(135deg, ${gmTier.color}15, transparent)` }}
                                     >
                                         <div className="flex items-center gap-6">
-                                            <div className="w-24 h-24 rounded-3xl bg-surface/50 border border-white/10 shadow-2xl flex items-center justify-center text-6xl group-hover:scale-110 transition-transform">
-                                                {gmTier.icon}
+                                            <div 
+                                                className="w-24 h-24 rounded-3xl bg-surface/50 border border-white/10 shadow-2xl flex items-center justify-center group-hover:scale-110 transition-transform"
+                                                style={{ borderColor: gmTier.color + '30', boxShadow: `inset 0 0 15px ${gmTier.color}10, 0 8px 24px -4px ${gmTier.color}20` }}
+                                            >
+                                                {getRankIconSVG(gmTier.name, gmTier.color, 'w-14 h-14', badgeStyle)}
                                             </div>
                                             <div className="space-y-2">
                                                 <h3 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#ff00ff] to-primary">

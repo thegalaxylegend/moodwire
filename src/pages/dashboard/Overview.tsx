@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useScrollLock } from '../../hooks/useScrollLock';
 import { useUserStore } from '../../store/userStore';
 import { Link, useNavigate } from 'react-router-dom';
-import { TrendingUp, RefreshCw, Flame, Play, ChevronRight, Target, Sparkles as SparkleIcon, Brain, Swords, ArrowRight } from 'lucide-react';
+import { TrendingUp, RefreshCw, Flame, Play, ChevronRight, Target, Sparkles as SparkleIcon, Brain, Swords, ArrowRight, Calendar, Clock, Zap } from 'lucide-react';
 
 import { getWeakTopics, getStrongTopics, type TopicStat } from '../../services/topicStrengthService';
 import { offlineSyncService } from '../../services/offlineSyncService';
@@ -13,10 +13,11 @@ import { RankBadge } from '../../components/gamification/RankBadge';
 import { XPProgress } from '../../components/gamification/XPProgress';
 import { AuthGate } from '../../components/auth/AuthGate';
 
-import { ProficiencyMap } from '../../components/dashboard/ProficiencyMap';
+
 import { mockPrefetchService } from '../../services/mockPrefetchService';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, useSpring, useMotionValue, useTransform } from 'framer-motion';
 import { DailyStudyGoalIcon } from '../../components/dashboard/DailyStudyGoalIcon';
+import { ImprovementBookCard } from '../../components/dashboard/ImprovementBookCard';
 
 // MasteryDiagnostics removed
 // CollegePredictorCard removed
@@ -427,33 +428,41 @@ export const Overview = () => {
 
     // Hoist Header out of loading state
     const header = (
-        <header className="flex flex-col md:flex-row md:items-center justify-between gap-4 md:gap-6 mb-8">
-            <div className="flex items-center gap-3 md:gap-6">
-                <div className="shrink-0 scale-90 md:scale-100 origin-left">
+        <header className="flex flex-col md:flex-row md:items-center justify-between gap-4 md:gap-6 mb-8 relative z-10">
+            <div className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-4 sm:gap-6 w-full">
+                <div className="shrink-0 scale-90 sm:scale-100 origin-center sm:origin-left">
                     <RankBadge xp={displayUser?.xp || 0} size="lg" onClick={() => navigate('/dashboard/ranks')} />
                 </div>
-                <div className="min-w-0">
-                    <h1 className="text-xl md:text-3xl font-heading font-bold text-text-main truncate">
+                <div className="min-w-0 flex-1 flex flex-col items-center sm:items-start w-full">
+                    <h1 className="text-xl md:text-3xl font-heading font-extrabold text-slate-100 tracking-tight">
                         Welcome back, {displayUser?.name || 'Aspirant'}.
                     </h1>
-                    <div className="flex flex-wrap items-center gap-2 md:gap-3 mt-1 text-sm md:text-base">
+                    
+                    {/* Stylized Metric Badges */}
+                    <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2.5 mt-2 w-full">
                         {!isJunior && (
-                            <>
-                                <p className="text-text-muted truncate max-w-[150px] md:max-w-none">
-                                    Targeting <span className="text-primary font-bold">{displayUser?.targetExam || 'Undecided'} {displayUser?.targetYear}</span>
-                                </p>
-                                <span className="hidden md:inline w-1 h-1 bg-text-muted rounded-full" />
-                            </>
+                            <div className="flex items-center gap-1.5 px-3 py-1 bg-white/[0.03] border border-white/[0.06] rounded-full text-xs font-semibold text-slate-300 shadow-[inset_0_1px_1px_rgba(255,255,255,0.05)] backdrop-blur-sm">
+                                <Target size={13} className="text-violet-400" />
+                                <span>
+                                    Target: <span className="text-violet-400 font-bold">{displayUser?.targetExam || 'Undecided'} {displayUser?.targetYear}</span>
+                                </span>
+                            </div>
                         )}
-                        <p className="text-text-muted truncate">
-                            Season Points: <span className="text-accent font-bold">{(displayUser?.totalPoints || 0).toLocaleString()}</span>
-                        </p>
-                        <span className="hidden md:inline w-1 h-1 bg-text-muted rounded-full" />
-                        <p className="text-text-muted truncate">
-                            Career XP: <span className="text-primary font-bold">{(displayUser?.lifetimeXp || 0).toLocaleString()}</span>
-                        </p>
+                        <div className="flex items-center gap-1.5 px-3 py-1 bg-white/[0.03] border border-white/[0.06] rounded-full text-xs font-semibold text-slate-300 shadow-[inset_0_1px_1px_rgba(255,255,255,0.05)] backdrop-blur-sm">
+                            <SparkleIcon size={13} className="text-amber-400 fill-amber-400/20" />
+                            <span>
+                                Season: <span className="text-amber-400 font-bold">{(displayUser?.totalPoints || 0).toLocaleString()}</span>
+                            </span>
+                        </div>
+                        <div className="flex items-center gap-1.5 px-3 py-1 bg-white/[0.03] border border-white/[0.06] rounded-full text-xs font-semibold text-slate-300 shadow-[inset_0_1px_1px_rgba(255,255,255,0.05)] backdrop-blur-sm">
+                            <Zap size={13} className="text-emerald-400 fill-emerald-400/20" />
+                            <span>
+                                Career XP: <span className="text-emerald-400 font-bold">{(displayUser?.lifetimeXp || 0).toLocaleString()}</span>
+                            </span>
+                        </div>
                     </div>
-                    <div className="mt-3 md:mt-4 w-full md:w-80">
+
+                    <div className="mt-3 md:mt-4 w-full max-w-md sm:w-80">
                         <XPProgress xp={displayUser?.xp || 0} />
                     </div>
                 </div>
@@ -461,9 +470,9 @@ export const Overview = () => {
 
             {/* Desktop Stats Indicators */}
             <div className="flex items-center gap-4">
-                <div className="hidden lg:flex items-center gap-3 px-5 py-3 glass-card premium-border active-glow shadow-xl">
+                <div className="hidden lg:flex items-center gap-3 px-5 py-3 glass-card premium-border active-glow shadow-xl backdrop-blur-md bg-slate-900/40">
                     <DailyStudyGoalIcon />
-                    <div className="w-px h-8 bg-border/50 mx-2"></div>
+                    <div className="w-px h-8 bg-white/10 mx-2"></div>
                     <motion.div
                         animate={{ scale: [1, 1.1, 1] }}
                         transition={{ duration: 2, repeat: Infinity }}
@@ -472,10 +481,10 @@ export const Overview = () => {
                         <Flame size={20} className="fill-primary text-primary" />
                     </motion.div>
                     <div>
-                        <p className="text-sm font-black text-text-main leading-none">{displayUser?.streak || 0}-DAY STREAK</p>
+                        <p className="text-xs font-black text-slate-100 leading-none">{displayUser?.streak || 0}-DAY STREAK</p>
                         <div className="flex items-center gap-1 mt-1">
-                            <SparkleIcon size={10} className="text-yellow-500 fill-yellow-500" />
-                            <p className="text-[10px] font-bold text-text-muted uppercase tracking-tighter">Elite Learner</p>
+                            <SparkleIcon size={10} className="text-amber-500 fill-amber-500" />
+                            <p className="text-[9px] font-bold text-slate-400 uppercase tracking-wider">Elite Learner</p>
                         </div>
                     </div>
                 </div>
@@ -486,7 +495,7 @@ export const Overview = () => {
                             navigator.clipboard.writeText(shareUrl);
                             alert("Parent Report URL copied to clipboard!");
                         }}
-                        className="hidden lg:flex items-center gap-2 px-5 py-3 glass-card premium-border text-purple-400 font-bold hover:bg-white/5 transition-all shadow-xl hover:shadow-purple-500/20 active:scale-95"
+                        className="hidden lg:flex items-center gap-2 px-5 py-3 glass-card premium-border text-purple-400 font-bold hover:bg-white/5 transition-all shadow-xl hover:shadow-purple-500/20 active:scale-95 bg-slate-900/40 backdrop-blur-md"
                     >
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" x2="12" y1="2" y2="15"/></svg>
                         Share Parent Report
@@ -497,144 +506,285 @@ export const Overview = () => {
     );
 
     return (
-        <div className="space-y-8 min-h-screen">
-            {header}
+        <motion.div
+            className="space-y-8 min-h-screen relative overflow-visible"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
+        >
+            {/* Cosmic Radial Glow Background Auras */}
+            <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[350px] bg-violet-600/10 rounded-full blur-[120px] pointer-events-none z-0" />
+            <div className="absolute top-[30%] right-[-10%] w-[40%] h-[400px] bg-emerald-500/5 rounded-full blur-[150px] pointer-events-none z-0" />
+            
+            <div className="relative z-10 space-y-8">
+                <motion.div
+                    initial={{ opacity: 0, y: -10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
+                >
+                    {header}
+                </motion.div>
 
-            <div className="animate-fade-in-up space-y-8">
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
-                    <div className="lg:col-span-2 space-y-6 relative z-10">
-                        <AuthGate
-                            mode="modal"
-                            fallback={
-                                <div className="glass-card oxygen-card p-10 flex flex-col items-center justify-center text-center space-y-6">
-                                    <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center">
-                                        <Brain className="text-primary" size={32} />
+                <div className="space-y-8">
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+                        <div className="lg:col-span-2 space-y-6 relative z-10">
+                            <AuthGate
+                                mode="modal"
+                                fallback={
+                                    <div className="glass-card oxygen-card p-10 flex flex-col items-center justify-center text-center space-y-6">
+                                        <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center">
+                                            <Brain className="text-primary" size={32} />
+                                        </div>
+                                        <div>
+                                            <h2 className="text-xl font-bold text-text-main">Daily Quick-Fire Locked</h2>
+                                            <p className="text-text-muted mt-2">
+                                                Log in to test your knowledge, earn XP, and build your studying streak daily.
+                                            </p>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <h2 className="text-xl font-bold text-text-main">Daily Quick-Fire Locked</h2>
-                                        <p className="text-text-muted mt-2">
-                                            Log in to test your knowledge, earn XP, and build your studying streak daily.
-                                        </p>
-                                    </div>
-                                </div>
-                            }
-                        >
-                            <DailyChallenge />
-                        </AuthGate>
+                                }
+                            >
+                                <DailyChallenge />
+                            </AuthGate>
 
-                        {user && !user.isGuest && (
-                            <DailyMissionCard
-                                missions={(user.dailyMissions || []).slice(0, 1)}
-                                onComplete={(id) => completeMission(id)}
-                                onRefresh={() => refreshMissions()}
-                                onAction={handleMissionAction}
-                            />
-                        )}
-
-                        {/* Arena Card */}
-                        <div className="glass-card oxygen-card p-6 border-red-500/20 bg-gradient-to-br from-[#11131c] to-red-500/10 flex flex-col justify-between group overflow-hidden relative" >
-                            <div className="absolute right-[-20%] bottom-[-20%] opacity-10 group-hover:scale-110 transition-transform duration-500">
-                                <Swords size={180} />
-                            </div>
-                            <div className="relative z-10 w-full mb-4">
-                                <div className="flex justify-between items-start">
-                                    <h3 className="text-xl font-bold text-white tracking-widest uppercase shadow-sm flex items-center gap-2"><Swords size={20} className="text-red-500" /> The Arena</h3>
-                                    <span className="bg-red-500/20 text-red-500 border border-red-500/40 px-2 py-1 rounded-md text-[10px] font-black uppercase shadow-inner animate-pulse">Live</span>
-                                </div>
-                                <p className="text-sm text-text-muted mt-2 w-2/3">Challenge friends or random opponents in real-time 1v1 battles. Prove your mastery.</p>
-                            </div>
-                            <button onClick={() => navigate('/dashboard/arena')} className="relative z-10 w-max bg-red-500 hover:bg-red-600 text-white font-bold uppercase tracking-widest text-xs flex items-center gap-2 px-4 py-2 rounded-lg transition-all active:scale-95 shadow-lg shadow-red-500/20">
-                                Enter Matchmaking <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
-                            </button>
-                        </div>
-                    </div>
-
-                    <div className="space-y-6">
-                        <ProficiencyMap />
-
-                        {/* Coverage Card */}
-                        <div className="glass-card oxygen-card p-6 space-y-2 min-h-[160px]">
-                            <h3 className="text-lg font-semibold text-text-muted">Syllabus Coverage</h3>
-                            {loading ? <div className="h-10 w-24 bg-surface animate-pulse rounded-lg" /> : (
-                                <>
-                                    <p className="text-4xl font-bold text-accent">{progress}%</p>
-                                    <div className="w-full bg-surface h-1.5 rounded-full mt-2">
-                                        <div className="bg-accent h-full rounded-full" style={{ width: `${progress}%` }}></div>
-                                    </div>
-                                    <div className="flex justify-between items-center">
-                                        <p className="text-xs text-text-muted">{attempts} mocks completed</p>
-                                        {!user?.isGuest && (
-                                            <button
-                                                onClick={handleSync}
-                                                disabled={isSyncing}
-                                                title="Sync old test data to leaderboard"
-                                                className="p-1 px-2 text-[10px] bg-primary/10 hover:bg-primary/20 text-primary border border-primary/20 rounded-md transition-all flex items-center gap-1"
-                                            >
-                                                <RefreshCw size={10} className={isSyncing ? 'animate-spin' : ''} />
-                                                {isSyncing ? 'Syncing...' : 'Sync Data'}
-                                            </button>
-                                        )}
-                                    </div>
-                                </>
+                            {user && !user.isGuest && (
+                                <DailyMissionCard
+                                    missions={user.dailyMissions || []}
+                                    onComplete={(id) => completeMission(id)}
+                                    onRefresh={() => refreshMissions()}
+                                    onAction={handleMissionAction}
+                                />
                             )}
+
+                            {/* Arena Card */}
+                            <div className="glass-card oxygen-card p-6 border-red-500/20 bg-gradient-to-br from-[#11131c] to-red-500/10 flex flex-col justify-between group overflow-hidden relative" >
+                                <div className="absolute right-[-20%] bottom-[-20%] opacity-10 group-hover:scale-110 transition-transform duration-500">
+                                    <Swords size={180} />
+                                </div>
+                                <div className="relative z-10 w-full mb-4">
+                                    <div className="flex justify-between items-start">
+                                        <h3 className="text-xl font-bold text-white tracking-widest uppercase shadow-sm flex items-center gap-2"><Swords size={20} className="text-red-500" /> The Arena</h3>
+                                        <span className="bg-red-500/20 text-red-500 border border-red-500/40 px-2 py-1 rounded-md text-[10px] font-black uppercase shadow-inner animate-pulse">Live</span>
+                                    </div>
+                                    <p className="text-sm text-text-muted mt-2 w-2/3">Challenge friends or random opponents in real-time 1v1 battles. Prove your mastery.</p>
+                                </div>
+                                <button onClick={() => navigate('/dashboard/arena')} className="relative z-10 w-max bg-red-500 hover:bg-red-600 text-white font-bold uppercase tracking-widest text-xs flex items-center gap-2 px-4 py-2 rounded-lg transition-all active:scale-95 shadow-lg shadow-red-500/20">
+                                    Enter Matchmaking <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
+                                </button>
+                            </div>
                         </div>
 
-                        {/* Days Left / Class Card */}
-                        <div className="glass-card oxygen-card p-6 space-y-2 min-h-[160px] flex flex-col justify-center">
-                            {loading ? <div className="h-10 w-32 bg-surface animate-pulse rounded-lg" /> : (
-                                isJunior ? (
-                                    <>
-                                        <h3 className="text-lg font-semibold text-text-muted">School Year</h3>
-                                        <p className="text-3xl font-bold text-text-main">{displayUser?.userClass}</p>
-                                        <p className="text-xs text-text-muted">Consistently study your subjects!</p>
-                                    </>
+                        <div className="space-y-6">
+                            {/* Coverage Card (Circular progress layout) */}
+                            <div className="glass-card oxygen-card p-6 space-y-4 min-h-[160px] relative overflow-hidden group">
+                                <div className="absolute right-0 top-0 w-24 h-24 bg-sky-500/5 rounded-full blur-2xl pointer-events-none group-hover:bg-sky-500/10 transition-colors" />
+                                
+                                <div className="flex items-center justify-between">
+                                    <h3 className="text-xs font-black text-slate-400 uppercase tracking-wider">Syllabus Coverage</h3>
+                                    <RefreshCw size={14} className="text-slate-500" />
+                                </div>
+
+                                {loading ? (
+                                    <div className="h-16 w-full bg-white/5 animate-pulse rounded-xl" />
                                 ) : (
-                                    <>
-                                        <h3 className="text-lg font-semibold text-text-muted">Days Left</h3>
-                                        <p className="text-4xl font-bold text-text-main">{daysLeft}</p>
-                                        <p className="text-xs text-text-muted">
-                                            {isJunior ? 'Until Final Exams' : `Until Jan 24, ${displayUser?.targetYear || '2026'}`}
-                                        </p>
-                                    </>
-                                )
-                            )}
+                                    <div className="flex items-center gap-5">
+                                        <div className="relative w-16 h-16 shrink-0">
+                                            <svg className="w-full h-full transform -rotate-90">
+                                                <circle
+                                                    cx="32"
+                                                    cy="32"
+                                                    r="26"
+                                                    stroke="currentColor"
+                                                    strokeWidth="3.5"
+                                                    fill="transparent"
+                                                    className="text-white/[0.04]"
+                                                />
+                                                <circle
+                                                    cx="32"
+                                                    cy="32"
+                                                    r="26"
+                                                    stroke="currentColor"
+                                                    strokeWidth="4"
+                                                    fill="transparent"
+                                                    strokeDasharray={2 * Math.PI * 26}
+                                                    strokeDashoffset={2 * Math.PI * 26 - (progress / 100) * (2 * Math.PI * 26)}
+                                                    strokeLinecap="round"
+                                                    className="text-sky-400 drop-shadow-[0_0_6px_rgba(56,189,248,0.5)] transition-all duration-1000"
+                                                />
+                                            </svg>
+                                            <div className="absolute inset-0 flex items-center justify-center">
+                                                <span className="text-xs font-black text-slate-100">{progress}%</span>
+                                            </div>
+                                        </div>
+                                        
+                                        <div className="space-y-1.5 flex-1 min-w-0">
+                                            <p className="text-lg font-extrabold text-slate-100 tracking-tight">{progress}% Mastered</p>
+                                            <p className="text-[10px] text-slate-400 font-semibold truncate">{attempts} mocks completed</p>
+                                            
+                                            {!user?.isGuest && (
+                                                <button
+                                                    onClick={handleSync}
+                                                    disabled={isSyncing}
+                                                    className="mt-1 px-2.5 py-1 text-[9px] bg-sky-500/10 hover:bg-sky-500/20 text-sky-400 border border-sky-500/20 rounded-lg transition-all flex items-center gap-1.5 font-bold uppercase tracking-wider active:scale-95"
+                                                >
+                                                    <RefreshCw size={10} className={isSyncing ? 'animate-spin' : ''} />
+                                                    {isSyncing ? 'Syncing...' : 'Sync Progress'}
+                                                </button>
+                                            )}
+                                        </div>
+                                    </div>
+                                )}
+                            </div>
+
+                            {/* Days Left / Class Card */}
+                            <div className="glass-card oxygen-card p-6 space-y-4 min-h-[160px] flex flex-col justify-between relative overflow-hidden group">
+                                <div className="absolute right-0 top-0 w-24 h-24 bg-violet-500/5 rounded-full blur-2xl pointer-events-none group-hover:bg-violet-500/10 transition-colors" />
+                                
+                                <div className="flex items-center justify-between">
+                                    <h3 className="text-xs font-black text-slate-400 uppercase tracking-wider">
+                                        {isJunior ? 'Academic Class' : 'Exam Countdown'}
+                                    </h3>
+                                    <Calendar size={14} className="text-slate-500" />
+                                </div>
+
+                                {loading ? (
+                                    <div className="h-16 w-full bg-white/5 animate-pulse rounded-xl" />
+                                ) : (
+                                    <div className="flex items-center gap-5">
+                                        <div className="w-14 h-14 rounded-2xl bg-violet-500/10 border border-violet-500/20 flex items-center justify-center shadow-[inset_0_1px_1px_rgba(255,255,255,0.05)] shrink-0">
+                                            <Clock size={24} className="text-violet-400 drop-shadow-[0_0_8px_rgba(139,92,246,0.4)]" />
+                                        </div>
+                                        
+                                        <div className="space-y-1">
+                                            <p className="text-3xl font-black text-slate-100 tracking-tight">
+                                                {isJunior ? displayUser?.userClass : daysLeft}
+                                            </p>
+                                            <p className="text-[10px] text-slate-400 font-semibold leading-tight">
+                                                {isJunior 
+                                                    ? 'Keep consistency to excel!' 
+                                                    : `Days remaining until Jan 24, ${displayUser?.targetYear || '2026'}`}
+                                            </p>
+                                        </div>
+                                    </div>
+                                )}
+                            </div>
+                            
+                            <ImprovementBookCard 
+                                userId={displayUser.id || 'guest'}
+                                isGuest={displayUser.isGuest}
+                                onStartTest={() => navigate('/dashboard/mock')}
+                            />
                         </div>
                     </div>
-                </div>
 
-                {/* Skill Profile */}
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-                    {(isJunior 
-                        ? ['Mathematics', 'Science', 'Social Science', 'English'] 
-                        : ['Physics', 'Chemistry', 'Math']
-                    ).map(subject => {
-                        const score = (displayUser.skills as any)?.[subject.toLowerCase()] || 0.5;
-                        const percentage = Math.round(score * 100);
-                        let color = 'text-yellow-500';
-                        let bg = 'bg-yellow-500/10';
-                        let border = 'border-yellow-500/20';
-                        let label = 'Average';
+                    {/* Skill Profile (RPG style progress metrics) */}
+                    <motion.div
+                        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
+                        variants={{
+                            show: { transition: { staggerChildren: 0.08 } }
+                        }}
+                        initial="hidden"
+                        animate="show"
+                    >
+                        {(isJunior 
+                            ? ['Mathematics', 'Science', 'Social Science', 'English'] 
+                            : ['Physics', 'Chemistry', 'Math', 'Overall']
+                        ).map((subject, idx) => {
+                            let score = 0.5;
+                            if (subject.toLowerCase() === 'overall') {
+                                const p = (displayUser.skills as any)?.physics || 0.5;
+                                const c = (displayUser.skills as any)?.chemistry || 0.5;
+                                const m = (displayUser.skills as any)?.math || 0.5;
+                                score = (p + c + m) / 3;
+                            } else {
+                                score = (displayUser.skills as any)?.[subject.toLowerCase()] || 0.5;
+                            }
+                            const percentage = Math.round(score * 100);
+                            
+                            let colorClass = 'text-amber-400';
+                            let barGradient = 'from-amber-500 to-yellow-400';
+                            let bgClass = 'bg-amber-500/5';
+                            let borderClass = 'border-amber-500/15';
+                            let glowClass = 'hover:shadow-[0_8px_30px_rgba(245,158,11,0.12)] hover:border-amber-500/30';
+                            let label = 'Average';
 
-                        if (score >= 0.7) {
-                            color = 'text-green-500'; bg = 'bg-green-500/10'; border = 'border-green-500/20'; label = 'Strong';
-                        } else if (score <= 0.4) {
-                            color = 'text-red-500'; bg = 'bg-red-500/10'; border = 'border-red-500/20'; label = 'Weak';
-                        }
+                            if (subject.toLowerCase() === 'overall') {
+                                colorClass = 'text-purple-400';
+                                barGradient = 'from-purple-500 to-indigo-400';
+                                bgClass = 'bg-purple-500/10';
+                                borderClass = 'border-purple-500/25';
+                                glowClass = 'hover:shadow-[0_8px_30px_rgba(168,85,247,0.15)] hover:border-purple-500/40 border-purple-500/20';
+                                if (score >= 0.7) {
+                                    label = 'Mastery';
+                                } else if (score <= 0.4) {
+                                    label = 'Needs Focus';
+                                } else {
+                                    label = 'Steady';
+                                }
+                            } else if (score >= 0.7) {
+                                colorClass = 'text-emerald-400';
+                                barGradient = 'from-emerald-500 to-teal-400';
+                                bgClass = 'bg-emerald-500/5';
+                                borderClass = 'border-emerald-500/15';
+                                glowClass = 'hover:shadow-[0_8px_30px_rgba(16,185,129,0.12)] hover:border-emerald-500/30';
+                                label = 'Strong';
+                            } else if (score <= 0.4) {
+                                colorClass = 'text-rose-400';
+                                barGradient = 'from-rose-500 to-red-400';
+                                bgClass = 'bg-rose-500/5';
+                                borderClass = 'border-rose-500/15';
+                                glowClass = 'hover:shadow-[0_8px_30px_rgba(244,63,94,0.12)] hover:border-rose-500/30';
+                                label = 'Weak';
+                            }
 
-                        return (
-                            <div key={subject} className={`glass-card oxygen-card p-4 border ${border} ${bg} flex items-center justify-between`}>
-                                <div className="min-w-0">
-                                    <h4 className="capitalize font-bold text-text-main truncate">{subject}</h4>
-                                    <p className={`text-xs uppercase font-bold tracking-wider ${color}`}>{label}</p>
-                                </div>
-                                <div className="text-right shrink-0">
-                                    <span className={`text-2xl font-bold ${color}`}>{percentage}%</span>
-                                    <p className="text-[10px] text-text-muted">Proficiency</p>
-                                </div>
-                            </div>
-                        );
-                    })}
-                </div>
+                            return (
+                                <motion.div 
+                                    key={subject} 
+                                    variants={{
+                                        hidden: { opacity: 0, y: 20, scale: 0.97 },
+                                        show:   { opacity: 1, y: 0,  scale: 1 }
+                                    }}
+                                    transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+                                    whileHover={{ y: -5, scale: 1.02, transition: { duration: 0.3, ease: [0.16, 1, 0.3, 1] } }}
+                                    whileTap={{ scale: 0.97 }}
+                                    className={`glass-card p-5 border ${borderClass} ${bgClass} flex flex-col justify-between cursor-pointer ${glowClass}`}
+                                    style={{ transition: 'box-shadow 380ms cubic-bezier(0.16, 1, 0.3, 1), border-color 280ms cubic-bezier(0.16, 1, 0.3, 1)' }}
+                                >
+                                    <div className="flex items-start justify-between mb-4">
+                                        <div className="min-w-0">
+                                            <h4 className="capitalize font-black text-slate-200 tracking-wider text-sm truncate">{subject}</h4>
+                                            <span className={`text-[10px] uppercase font-extrabold tracking-widest ${colorClass}`}>{label}</span>
+                                        </div>
+                                        <div className="shrink-0 flex flex-col items-end">
+                                            <AnimatedCounter value={percentage} colorClass={colorClass} />
+                                            <span className="text-[9px] text-slate-500 font-semibold uppercase tracking-wider">Proficiency</span>
+                                        </div>
+                                    </div>
+
+                                    {/* Animated subject bar indicator */}
+                                    <div className="space-y-1.5">
+                                        <div className="w-full h-1.5 bg-slate-950/40 rounded-full overflow-hidden border border-white/[0.02]">
+                                            <motion.div 
+                                                className={`h-full rounded-full bg-gradient-to-r ${barGradient}`}
+                                                initial={{ width: 0 }}
+                                                animate={{ width: `${percentage}%` }}
+                                                transition={{ 
+                                                    duration: 1.2, 
+                                                    delay: idx * 0.1 + 0.3,
+                                                    ease: [0.16, 1, 0.3, 1] 
+                                                }}
+                                            />
+                                        </div>
+                                        <div className="flex justify-between items-center text-[9px] text-slate-500 font-bold">
+                                            <span>0%</span>
+                                            <span>Mastery Level</span>
+                                            <span>100%</span>
+                                        </div>
+                                    </div>
+                                </motion.div>
+                            );
+                        })}
+                    </motion.div>
 
                 {/* Focus Areas + Videos */}
                 {(loading || weakTopicStats.length > 0 || strongTopicStats.length > 0) ? (
@@ -738,7 +888,6 @@ export const Overview = () => {
                 )}
             </div>
 
-
             <AnimatePresence>
                 {showDiagnosticPopup && (
                     <DiagnosticPopup
@@ -754,6 +903,32 @@ export const Overview = () => {
                     />
                 )}
             </AnimatePresence>
-        </div >
+        </div>
+    </motion.div>
+    );
+};
+
+// ─── Animated counter component ──────────────────────────────────────────────
+// Counts up from 0 to `value` using a spring physics animation
+const AnimatedCounter = ({ value, colorClass }: { value: number; colorClass: string }) => {
+    const spring = useSpring(0, { stiffness: 60, damping: 18, restDelta: 0.5 });
+    const display = useTransform(spring, (v) => `${Math.round(v)}%`);
+    const hasRun = useRef(false);
+
+    useEffect(() => {
+        if (!hasRun.current) {
+            hasRun.current = true;
+            // Small delay so card entry animation runs first
+            const t = setTimeout(() => spring.set(value), 300);
+            return () => clearTimeout(t);
+        } else {
+            spring.set(value);
+        }
+    }, [value, spring]);
+
+    return (
+        <motion.span className={`text-2xl font-black ${colorClass} tracking-tight tabular-nums`}>
+            {display}
+        </motion.span>
     );
 };

@@ -8,7 +8,7 @@ import 'katex/dist/katex.min.css';
 import 'highlight.js/styles/github-dark.css';
 import { Bot, User, ArrowRight, Volume2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { usePerformanceLevel } from '../../hooks/usePerformanceLevel';
+import { usePerformance } from '../../context/PerformanceProvider';
 
 interface Message {
     id: number;
@@ -220,7 +220,7 @@ const Mermaid = ({ chart, isStreaming }: { chart: string; isStreaming?: boolean 
 };
 
 export const MessageBubble: React.FC<MessageBubbleProps> = React.memo(({ message, onSpeak, speakingId }) => {
-    const perfTier = usePerformanceLevel();
+    const { tier: perfTier } = usePerformance();
     const isBot = message.sender === 'bot';
 
     const remarkPlugins = useMemo(() => [remarkGfm, remarkMath], []);

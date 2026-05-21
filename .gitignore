@@ -60,3 +60,8 @@ scratch/daily_limits.json
 # Wrangler local state (never commit)
 .wrangler/
 
+# Antigravity IDE & local patch assets
+Antigravity IDE.exe
+Launch Antigravity IDE.bat
+*.patch
+JULES_ALL_CHANGES_SUMMARY.md

@@ -3,7 +3,7 @@ import { X, Bot, Phone, Volume2, Trash2, Zap, LayoutDashboard, Clock, Target, Me
 import { motion, AnimatePresence } from 'framer-motion';
 import { QuickReplies } from './QuickReplies';
 import { MessageBubble } from './MessageBubble';
-import { usePerformanceLevel } from '../../hooks/usePerformanceLevel';
+import { usePerformance } from '../../context/PerformanceProvider';
 import { ttsManager } from '../../lib/tts/TTSManager';
 
 interface VoicePreset {
@@ -75,7 +75,7 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
     
     children
 }) => {
-    const perfTier = usePerformanceLevel();
+    const { tier: perfTier } = usePerformance();
     const messagesEndRef = useRef<HTMLDivElement>(null);
     const hasInitialScrolled = useRef(false);
     const [isToolboxOpen, setIsToolboxOpen] = useState(false);

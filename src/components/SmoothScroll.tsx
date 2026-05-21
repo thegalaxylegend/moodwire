@@ -33,11 +33,19 @@ export const SmoothScroll = ({ children }: { children: React.ReactNode }) => {
         root.style.scrollBehavior = 'auto';
         
         lenis = new Lenis({
-          duration: 1.2,
-          easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+          duration: 1.4,
+          // Premium spring easing: fast start, ultra-soft exponential landing
+          easing: (t: number) => {
+            if (t === 0) return 0;
+            if (t === 1) return 1;
+            // Expo out — feels like iOS momentum scroll inertia
+            return 1 - Math.pow(2, -10 * t);
+          },
           orientation: 'vertical',
           gestureOrientation: 'vertical',
           smoothWheel: true,
+          wheelMultiplier: 1.0,
+          touchMultiplier: 2.0,
           infinite: false,
         });
 

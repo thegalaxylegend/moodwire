@@ -67,22 +67,26 @@ export const DailyMissionCard: React.FC<DailyMissionCardProps> = ({ missions, on
             </div>
 
             {/* Progress Bar */}
-            <div className="px-5 py-3 bg-black/20">
-                <div className="flex justify-between text-[10px] font-bold text-text-muted mb-2 uppercase">
+            <div className="px-5 py-4 bg-black/30 border-b border-border/20">
+                <div className="flex justify-between text-[10px] font-black text-text-muted/60 mb-2.5 uppercase tracking-wider">
                     <span>Campaign Progress</span>
-                    <span>{completedCount} / {missions.length} Complete</span>
+                    <span className="font-mono">{completedCount} / {missions.length} Complete</span>
                 </div>
-                <div className="h-1.5 w-full bg-surface rounded-full overflow-hidden">
+                <div className="h-2 w-full bg-surface rounded-full overflow-hidden border border-white/5 relative">
                     <motion.div
                         initial={{ width: 0 }}
                         animate={{ width: `${progress}%` }}
-                        className="h-full bg-gradient-to-r from-primary via-accent to-secondary"
+                        transition={{ duration: 1, ease: "easeOut" }}
+                        className="h-full bg-gradient-to-r from-primary via-accent to-secondary rounded-full"
+                        style={{
+                            boxShadow: '0 0 10px rgb(139,92,246,0.4)'
+                        }}
                     />
                 </div>
             </div>
 
             {/* Mission List */}
-            <div className="divide-y divide-border/30">
+            <div className="divide-y divide-border/20">
                 {missions.length === 0 ? (
                     <div className="p-10 text-center space-y-3">
                         <Star className="mx-auto text-text-muted/30" size={32} />
@@ -101,7 +105,17 @@ export const DailyMissionCard: React.FC<DailyMissionCardProps> = ({ missions, on
                             initial={{ opacity: 0, x: -10 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ delay: idx * 0.1 }}
-                            className={`p-4 flex items-start gap-4 transition-colors relative ${mission.completed ? 'bg-green-500/5' : 'hover:bg-white/5'}`}
+                            className={`p-4 md:p-5 flex items-start gap-4 transition-all relative border-l-[3.5px] ${
+                                mission.completed 
+                                    ? 'border-green-500/40 bg-green-500/[0.02]' 
+                                    : mission.type === 'practice' 
+                                        ? 'border-blue-500/30 hover:bg-white/[0.02]' 
+                                        : mission.type === 'discovery' 
+                                            ? 'border-purple-500/30 hover:bg-white/[0.02]' 
+                                            : mission.type === 'rest' 
+                                                ? 'border-orange-500/30 hover:bg-white/[0.02]' 
+                                                : 'border-slate-500/30 hover:bg-white/[0.02]'
+                            }`}
                         >
                             <div className="relative mt-1">
                                 {celebratingId === mission.id && Array.from({ length: 12 }).map((_, i) => (
@@ -109,39 +123,44 @@ export const DailyMissionCard: React.FC<DailyMissionCardProps> = ({ missions, on
                                 ))}
                                 <button
                                     onClick={() => !mission.completed && handleComplete(mission.id)}
-                                    className={`shrink-0 ${mission.completed ? 'text-green-500' : 'text-text-muted hover:text-primary'} transition-all active:scale-90`}
+                                    className={`shrink-0 transition-all duration-300 ${
+                                        mission.completed 
+                                            ? 'text-green-500 drop-shadow-[0_0_8px_rgba(34,197,94,0.4)]' 
+                                            : 'text-text-muted/50 hover:text-primary active:scale-90 hover:scale-110'
+                                    }`}
                                 >
                                     {mission.completed ? (
                                         <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }}>
-                                            <CheckCircle2 size={20} />
+                                            <CheckCircle2 size={18} className="fill-green-500/10" />
                                         </motion.div>
-                                    ) : <Circle size={20} />}
+                                    ) : <Circle size={18} />}
                                 </button>
                             </div>
 
                             <div className="flex-1 space-y-1">
                                 <div className="flex items-center gap-2">
-                                    <h4 className={`text-sm font-bold ${mission.completed ? 'text-text-muted line-through' : 'text-text-main'}`}>
+                                    <h4 className={`text-sm font-bold tracking-tight ${mission.completed ? 'text-text-muted/50 line-through' : 'text-text-main'}`}>
                                         {mission.title}
                                     </h4>
-                                    <span className={`text-[10px] px-1.5 py-0.5 rounded-md font-bold uppercase ${mission.type === 'practice' ? 'bg-blue-500/10 text-blue-400' :
+                                    <span className={`text-[9px] px-2 py-0.5 rounded-md font-bold uppercase tracking-wider ${
+                                        mission.type === 'practice' ? 'bg-blue-500/10 text-blue-400' :
                                         mission.type === 'discovery' ? 'bg-purple-500/10 text-purple-400' :
-                                            mission.type === 'rest' ? 'bg-orange-500/10 text-orange-400' :
-                                                'bg-slate-500/10 text-slate-400'
-                                        }`}>
+                                        mission.type === 'rest' ? 'bg-orange-500/10 text-orange-400' :
+                                        'bg-slate-500/10 text-slate-400'
+                                    }`}>
                                         {mission.type}
                                     </span>
                                 </div>
-                                <p className="text-xs text-text-muted leading-relaxed">
+                                <p className="text-xs text-text-muted/80 leading-relaxed font-medium">
                                     {mission.description}
                                 </p>
 
                                 <div className="flex items-center gap-3 pt-2">
-                                    <div className="flex items-center gap-1 text-[10px] font-bold text-yellow-500">
-                                        <Star size={10} className="fill-yellow-500" />
+                                    <div className="flex items-center gap-1 text-[9px] font-black text-yellow-500 uppercase tracking-wider">
+                                        <Star size={10} className="fill-yellow-500/20" />
                                         +{mission.rewardXp} XP
                                     </div>
-                                    <div className="flex items-center gap-1 text-[10px] font-bold text-text-muted">
+                                    <div className="flex items-center gap-1 text-[9px] font-black text-text-muted/50 uppercase tracking-wider">
                                         {mission.difficulty}
                                     </div>
                                 </div>
@@ -150,9 +169,9 @@ export const DailyMissionCard: React.FC<DailyMissionCardProps> = ({ missions, on
                             {!mission.completed && mission.type !== 'rest' && (
                                 <button
                                     onClick={() => onAction(mission)}
-                                    className="p-2 rounded-lg bg-surface border border-border hover:border-primary/50 transition-all group"
+                                    className="p-2 rounded-lg bg-surface/60 border border-white/5 hover:border-primary/50 hover:bg-surface transition-all group shadow-sm active:scale-95 hover:scale-105"
                                 >
-                                    <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
+                                    <ArrowRight size={14} className="text-text-muted group-hover:text-primary group-hover:translate-x-0.5 transition-all" />
                                 </button>
                             )}
 

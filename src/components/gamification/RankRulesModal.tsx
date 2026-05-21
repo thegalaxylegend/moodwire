@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X, Trophy, BookOpen, Flame, Target, ChevronRight } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { XP_RANKS } from '../../services/gamificationService';
+import { getRankIconSVG } from './RankBadge';
 
 interface RankRulesModalProps {
     onClose: () => void;
@@ -118,10 +119,10 @@ export const RankRulesModal: React.FC<RankRulesModalProps> = ({ onClose }) => {
                                     return (
                                         <div key={tierName} className="flex items-center gap-4 p-3 bg-surface/50 border border-border rounded-xl">
                                             <div
-                                                className="w-12 h-12 rounded-xl flex items-center justify-center text-2xl shadow-lg border border-white/10"
-                                                style={{ backgroundColor: baseRank.color + '22', color: baseRank.color }}
+                                                className="w-12 h-12 rounded-xl flex items-center justify-center shadow-lg border border-white/10"
+                                                style={{ backgroundColor: baseRank.color + '15', borderColor: baseRank.color + '30' }}
                                             >
-                                                {baseRank.icon}
+                                                {getRankIconSVG(baseRank.name, baseRank.color, 'w-7 h-7')}
                                             </div>
                                             <div className="flex-1">
                                                 <h4 className="font-bold text-text-main text-lg">{tierName}</h4>

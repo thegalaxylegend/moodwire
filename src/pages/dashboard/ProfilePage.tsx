@@ -6,9 +6,15 @@ import { CustomSelect } from '../../components/CustomSelect';
 import { RankBadge } from '../../components/gamification/RankBadge';
 import { XPProgress } from '../../components/gamification/XPProgress';
 import { ReferralModal } from '../../components/ReferralModal';
+import { usePerformance } from '../../context/PerformanceProvider';
+import type { PerformanceMode } from '../../context/PerformanceProvider';
+import { useBadgeStyle } from '../../context/BadgeStyleProvider';
+import type { BadgeStyle } from '../../context/BadgeStyleProvider';
 
 export const ProfilePage = () => {
     const { user, updateProfile, logout } = useUserStore();
+    const { mode, setMode } = usePerformance();
+    const { badgeStyle, setBadgeStyle } = useBadgeStyle();
     const navigate = useNavigate();
     const [name, setName] = useState(user?.name || '');
     const [userClass, setUserClass] = useState(user?.userClass || '');
@@ -324,6 +330,152 @@ export const ProfilePage = () => {
                                         ⚠️ Reset XP (Dev Fix)
                                     </button>
                                 )}
+                            </div>
+                        </div>
+
+                        {/* System Performance & Smoothness Selection */}
+                        <div className="pt-6 border-t border-border space-y-4">
+                            <div className="flex flex-col gap-1">
+                                <label className="text-sm font-bold text-text-main">Performance & Graphics</label>
+                                <span className="text-xs text-text-muted">
+                                    Customize the application animations, visual effects, and transition smoothness.
+                                </span>
+                            </div>
+                            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
+                                {[
+                                    {
+                                        id: 'auto',
+                                        label: 'Auto (Smart)',
+                                        desc: 'Dynamic adaptation',
+                                        icon: '🧠',
+                                        color: 'from-blue-500/10 to-indigo-500/10 border-blue-500/30'
+                                    },
+                                    {
+                                        id: 'low',
+                                        label: 'Low Power',
+                                        desc: 'Disable animations',
+                                        icon: '🔋',
+                                        color: 'from-emerald-500/10 to-teal-500/10 border-emerald-500/30'
+                                    },
+                                    {
+                                        id: 'medium',
+                                        label: 'Medium',
+                                        desc: 'Balanced effects',
+                                        icon: '⚡',
+                                        color: 'from-amber-500/10 to-orange-500/10 border-amber-500/30'
+                                    },
+                                    {
+                                        id: 'extreme',
+                                        label: 'Extreme',
+                                        desc: 'Cinematic flow',
+                                        icon: '🔥',
+                                        color: 'from-purple-500/10 to-pink-500/10 border-purple-500/30'
+                                    }
+                                ].map((option) => {
+                                    const isActive = mode === option.id;
+                                    return (
+                                        <button
+                                            key={option.id}
+                                            type="button"
+                                            onClick={() => setMode(option.id as PerformanceMode)}
+                                            className={`p-3.5 rounded-2xl border text-left flex flex-col justify-between transition-all relative overflow-hidden group
+                                                ${isActive 
+                                                    ? `bg-gradient-to-br ${option.color} text-text-main shadow-lg ring-1 ring-primary/40 -translate-y-0.5 scale-[1.02]` 
+                                                    : 'bg-surface border-border hover:bg-white/5 text-text-muted hover:text-text-main'
+                                                }`}
+                                        >
+                                            <div className="flex justify-between items-start w-full mb-2">
+                                                <span className="text-xl">{option.icon}</span>
+                                                {isActive && (
+                                                    <span className="text-[10px] uppercase font-bold tracking-widest bg-primary/20 text-primary px-1.5 py-0.5 rounded-md">
+                                                        Active
+                                                    </span>
+                                                )}
+                                            </div>
+                                            <div>
+                                                <h4 className={`text-xs font-bold ${isActive ? 'text-text-main' : 'text-text-main/80 group-hover:text-text-main'}`}>
+                                                    {option.label}
+                                                </h4>
+                                                <p className="text-[10px] text-text-muted leading-snug mt-0.5">
+                                                    {option.desc}
+                                                </p>
+                                            </div>
+                                            {/* Micro-sparkle overlay for active */}
+                                            {isActive && (
+                                                <div className="absolute inset-0 bg-white/[0.02] pointer-events-none animate-pulse" />
+                                            )}
+                                        </button>
+                                    );
+                                })}
+                            </div>
+                        </div>
+
+                        {/* Rank Badge Design Selection */}
+                        <div className="pt-6 border-t border-border space-y-4">
+                            <div className="flex flex-col gap-1">
+                                <label className="text-sm font-bold text-text-main">Rank Badge Design Style</label>
+                                <span className="text-xs text-text-muted">
+                                    Choose the visual presentation style of your achievements across the platform.
+                                </span>
+                            </div>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                {[
+                                    {
+                                        id: 'professional',
+                                        label: 'Sleek Professional',
+                                        desc: '3D dimensional glowing emblems',
+                                        icon: '🔮',
+                                        themeColor: '#3b82f6'
+                                    },
+                                    {
+                                        id: 'simple',
+                                        label: 'Minimalist Shield',
+                                        desc: 'Clean geometric vector flat designs',
+                                        icon: '🛡️',
+                                        themeColor: '#10b981'
+                                    }
+                                ].map((option) => {
+                                    const isActive = badgeStyle === option.id;
+                                    return (
+                                        <button
+                                            key={option.id}
+                                            type="button"
+                                            onClick={() => setBadgeStyle(option.id as BadgeStyle)}
+                                            className={`p-4 rounded-3xl border text-left flex items-center gap-4 transition-all relative overflow-hidden group
+                                                ${isActive 
+                                                    ? 'bg-gradient-to-br from-primary/10 via-surface to-accent/10 text-text-main shadow-lg ring-1 ring-primary/40 -translate-y-0.5 scale-[1.01]' 
+                                                    : 'bg-surface border-border hover:bg-white/5 text-text-muted hover:text-text-main'
+                                                }`}
+                                            style={isActive ? { borderColor: `${option.themeColor}50` } : undefined}
+                                        >
+                                            <div className="shrink-0 flex items-center justify-center">
+                                                <RankBadge
+                                                    xp={user?.xp || 0}
+                                                    size="md"
+                                                    showLabel={false}
+                                                    style={option.id as BadgeStyle}
+                                                />
+                                            </div>
+                                            <div className="flex-1 min-w-0">
+                                                <div className="flex items-center gap-2">
+                                                    <h4 className="text-sm font-bold text-text-main">
+                                                        {option.label}
+                                                    </h4>
+                                                    {isActive && (
+                                                        <span className="text-[9px] uppercase font-bold tracking-widest bg-primary/20 text-primary px-1.5 py-0.5 rounded-md">
+                                                            Selected
+                                                        </span>
+                                                    )}
+                                                </div>
+                                                <p className="text-xs text-text-muted mt-0.5 leading-relaxed">
+                                                    {option.desc}
+                                                </p>
+                                            </div>
+                                            {/* Glow effect on hover */}
+                                            <div className="absolute inset-0 bg-white/[0.01] pointer-events-none group-hover:opacity-100 opacity-0 transition-opacity" />
+                                        </button>
+                                    );
+                                })}
                             </div>
                         </div>
 

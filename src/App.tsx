@@ -2,6 +2,7 @@ import { Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import { SmoothScroll } from './components/SmoothScroll';
 import { ParallaxBackground } from './components/ParallaxBackground';
 import { PerformanceProvider, usePerformance } from './context/PerformanceProvider';
+import { BadgeStyleProvider } from './context/BadgeStyleProvider';
 import { Suspense, lazy, useEffect, useState } from 'react';
 import { useUserStore } from './store/userStore';
 import { RouteTracker } from './components/RouteTracker';
@@ -233,7 +234,9 @@ function AppContent() {
 function App() {
   return (
     <PerformanceProvider>
-      <AppContent />
+      <BadgeStyleProvider>
+        <AppContent />
+      </BadgeStyleProvider>
     </PerformanceProvider>
   );
 }

@@ -10,7 +10,7 @@ import { InputBar } from './Chat/InputBar';
 import { CallOverlay } from './Chat/CallOverlay';
 import { AnimatePresence, motion } from 'framer-motion';
 import { ttsManager } from '../lib/tts/TTSManager';
-import { usePerformanceLevel } from '../hooks/usePerformanceLevel';
+import { usePerformance } from '../context/PerformanceProvider';
 
 // Emotion Definitions
 type ExaEmotion = 'neutral' | 'listening' | 'thinking' | 'speaking' | 'excited' | 'shy';
@@ -90,7 +90,7 @@ const VOICE_PRESETS: VoicePreset[] = [
 ];
 
 export const Chatbot = () => {
-    const perfTier = usePerformanceLevel();
+    const { tier: perfTier } = usePerformance();
     const { 
         isOpen, openChat, closeChat, initialMessage, 
         messages, setMessages, isThinking, setIsThinking,
