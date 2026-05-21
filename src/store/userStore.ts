@@ -431,11 +431,16 @@ export const useUserStore = create<UserState>((set, get) => ({
                 // Having exam data alone is not sufficient — the user must confirm via the onboarding form.
 
                 // 1. Fix corrupted cycle fields if they contain data meant for the other cycle
-                if (profile?.last_season_reset?.includes('-P')) {
+                if (profile?.last_season_reset?.includes('-P') && profile?.last_point_reset?.includes('-S')) {
+                    console.log("🩹 [Healing] Found Swapped Cycle Fields. Restoring data.");
+                    const tempSeason = profile.last_season_reset;
+                    profile.last_season_reset = profile.last_point_reset;
+                    profile.last_point_reset = tempSeason;
+                } else if (profile?.last_season_reset?.includes('-P')) {
                     console.log("🩹 [Healing] Found Point Cycle in Season field. Resetting.");
                     profile.last_season_reset = currentSeason;
                 }
-                if (profile?.last_point_reset?.includes('-S')) {
+                else if (profile?.last_point_reset?.includes('-S')) {
                     console.log("🩹 [Healing] Found Season Cycle in Point field. Resetting.");
                     profile.last_point_reset = currentPointCycle;
                 }
