@@ -234,14 +234,16 @@ export const MistakeNotebookService = {
         const testId = `test_${Date.now()}`;
         let recorded = 0;
 
-        for (const q of wrongQuestions) {
-            await MistakeNotebookService.recordMistake(userId, {
+        const promises = wrongQuestions.map(q =>
+            MistakeNotebookService.recordMistake(userId, {
                 ...q,
                 exam_mode: examMode,
                 test_id: testId
-            }, userClass, targetExam);
-            recorded++;
-        }
+            }, userClass, targetExam)
+        );
+
+        await Promise.all(promises);
+        recorded = wrongQuestions.length;
 
         console.log(`[MistakeNotebook] Recorded ${recorded} mistakes from test ${testId}.`);
         return recorded;
