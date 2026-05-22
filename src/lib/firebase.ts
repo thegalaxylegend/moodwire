@@ -6,13 +6,13 @@ import { getStorage } from "firebase/storage";
 import { getFunctions } from "firebase/functions";
 
 const firebaseConfig = {
-    apiKey: typeof process !== 'undefined' && process.env.VITE_FIREBASE_API_KEY ? process.env.VITE_FIREBASE_API_KEY : import.meta.env.VITE_FIREBASE_API_KEY,
-    authDomain: typeof process !== 'undefined' && process.env.VITE_FIREBASE_AUTH_DOMAIN ? process.env.VITE_FIREBASE_AUTH_DOMAIN : import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-    projectId: typeof process !== 'undefined' && process.env.VITE_FIREBASE_PROJECT_ID ? process.env.VITE_FIREBASE_PROJECT_ID : import.meta.env.VITE_FIREBASE_PROJECT_ID,
-    storageBucket: typeof process !== 'undefined' && process.env.VITE_FIREBASE_STORAGE_BUCKET ? process.env.VITE_FIREBASE_STORAGE_BUCKET : import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: typeof process !== 'undefined' && process.env.VITE_FIREBASE_MESSAGING_SENDER_ID ? process.env.VITE_FIREBASE_MESSAGING_SENDER_ID : import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-    appId: typeof process !== 'undefined' && process.env.VITE_FIREBASE_APP_ID ? process.env.VITE_FIREBASE_APP_ID : import.meta.env.VITE_FIREBASE_APP_ID,
-    measurementId: typeof process !== 'undefined' && process.env.VITE_FIREBASE_MEASUREMENT_ID ? process.env.VITE_FIREBASE_MEASUREMENT_ID : import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
+    apiKey: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_API_KEY) || import.meta.env.VITE_FIREBASE_API_KEY || 'AIzaSyAj0_vu8OxPWVHvAWSRVN90y9GIStvQASY',
+    authDomain: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_AUTH_DOMAIN) || import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || 'legendstech001.firebaseapp.com',
+    projectId: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_PROJECT_ID) || import.meta.env.VITE_FIREBASE_PROJECT_ID || 'legendstech001',
+    storageBucket: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_STORAGE_BUCKET) || import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || 'legendstech001.firebasestorage.app',
+    messagingSenderId: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_MESSAGING_SENDER_ID) || import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || '749589426436',
+    appId: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_APP_ID) || import.meta.env.VITE_FIREBASE_APP_ID || '1:749589426436:web:64b0455b7f90a7849c6051',
+    measurementId: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_MEASUREMENT_ID) || import.meta.env.VITE_FIREBASE_MEASUREMENT_ID || 'G-7MWNJDZ5D0'
 };
 
 // Initialize Firebase
