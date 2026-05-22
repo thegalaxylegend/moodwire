@@ -6,3 +6,7 @@ pages_build_output_dir = "dist"
 binding = "DB"
 database_name = "examcompass-questions"
 database_id = "63abfee4-2340-47bd-a9ad-ebc4a9c50580"
+
+[[kv_namespaces]]
+binding = "LB_STATE"
+id = "3fbdfd83a61740eeb082f47e1882593c"
