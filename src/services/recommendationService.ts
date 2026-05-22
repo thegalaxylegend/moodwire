@@ -167,24 +167,39 @@ export const getRecommendedVideos = async (
             const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(userClass || '');
             const searchContext = isJunior ? (userClass || 'Class 10') : (targetExam || 'JEE');
 
-            for (const topicStat of candidateTopics) {
+            const BATCH_SIZE = 5;
+            for (let i = 0; i < candidateTopics.length; i += BATCH_SIZE) {
                 if (recommendations.length >= 3) break;
 
-                const playlist = await getVideoByTopicIdCached(topicStat.topic, searchContext, userId, userClass);
+                const batch = candidateTopics.slice(i, i + BATCH_SIZE);
+                const promises = batch.map(topicStat =>
+                    getVideoByTopicIdCached(topicStat.topic, searchContext, userId, userClass)
+                        .then(playlist => ({ topicStat, playlist }))
+                        .catch(err => {
+                            console.error(`[RecommendationService] Error fetching video for topic ${topicStat.topic}:`, err);
+                            return { topicStat, playlist: null };
+                        })
+                );
 
-                if (playlist && playlist.videos.length > 0) {
-                    // Try to find a video not already in our list (by ID)
-                    const existingVideoIds = new Set(recommendations.map(r => r.video.id));
-                    const freshVideo = playlist.videos.find(v => !existingVideoIds.has(v.id) && !isVideoFinished(v.id, userId, userClass, targetExam));
+                const results = await Promise.all(promises);
 
-                    if (freshVideo) {
-                        recommendations.push({
-                            video: freshVideo,
-                            topic: topicStat.topic,
-                            reason: `Weak Topic (${topicStat.score_percentage}%)`,
-                            generatedAt: Date.now()
-                        });
-                        existingTopics.add(topicStat.topic);
+                for (const { topicStat, playlist } of results) {
+                    if (recommendations.length >= 3) break;
+
+                    if (playlist && playlist.videos.length > 0) {
+                        // Try to find a video not already in our list (by ID)
+                        const existingVideoIds = new Set(recommendations.map(r => r.video.id));
+                        const freshVideo = playlist.videos.find(v => !existingVideoIds.has(v.id) && !isVideoFinished(v.id, userId, userClass, targetExam));
+
+                        if (freshVideo) {
+                            recommendations.push({
+                                video: freshVideo,
+                                topic: topicStat.topic,
+                                reason: `Weak Topic (${topicStat.score_percentage}%)`,
+                                generatedAt: Date.now()
+                            });
+                            existingTopics.add(topicStat.topic);
+                        }
                     }
                 }
             }
