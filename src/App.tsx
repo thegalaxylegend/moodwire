@@ -45,6 +45,7 @@ const PrivacyPolicy = lazy(() => import('./pages/public/PrivacyPolicy').then(mod
 const TermsOfService = lazy(() => import('./pages/public/TermsOfService').then(module => ({ default: module.TermsOfService })));
 const AboutPage = lazy(() => import('./pages/public/AboutPage').then(module => ({ default: module.AboutPage })));
 const ContactPage = lazy(() => import('./pages/public/ContactPage').then(module => ({ default: module.ContactPage })));
+const FounderPage = lazy(() => import('./pages/public/FounderPage'));
 const ParentReport = lazy(() => import('./pages/public/ParentReport').then(module => ({ default: module.ParentReport })));
 const NotFoundPage = lazy(() => import('./pages/public/NotFoundPage').then(module => ({ default: module.NotFoundPage })));
 
@@ -165,6 +166,7 @@ function AppContent() {
             <Route path="/privacy" element={<Suspense fallback={<BlogSkeleton />}><PrivacyPolicy /></Suspense>} />
             <Route path="/terms" element={<Suspense fallback={<BlogSkeleton />}><TermsOfService /></Suspense>} />
             <Route path="/about" element={<Suspense fallback={<BlogSkeleton />}><AboutPage /></Suspense>} />
+            <Route path="/founder" element={<Suspense fallback={<BlogSkeleton />}><FounderPage /></Suspense>} />
             <Route path="/contact" element={<Suspense fallback={<BlogSkeleton />}><ContactPage /></Suspense>} />
             <Route path="/report/:userId" element={<Suspense fallback={<BlogSkeleton />}><ParentReport /></Suspense>} />
 

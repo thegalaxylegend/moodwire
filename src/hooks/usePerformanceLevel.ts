@@ -49,12 +49,12 @@ export const usePerformanceLevel = (enabled = true, sampleSize = 90) => {
     const [tier, setTier] = useState<PerformanceTier>(initialTier);
     const tierRef = useRef<PerformanceTier>(initialTier);
 
+    const lowestTierObserved = useRef<PerformanceTier>(initialTier);
+
     const frameTimes     = useRef<number[]>([]);
     const lastTime       = useRef<number>(performance.now());
     const requestRef     = useRef<number>(0);
-    const goodFrames     = useRef<number>(0);   // consecutive good frames before promoting
-    const longTaskCount  = useRef<number>(0);   // debounce long task drops
-    const jankCount      = useRef<number>(0);   // rapid-jank detector
+    const longTaskCount  = useRef<number>(0);
 
     // Keep ref in sync with state
     useEffect(() => { tierRef.current = tier; }, [tier]);
@@ -68,8 +68,6 @@ export const usePerformanceLevel = (enabled = true, sampleSize = 90) => {
             return;
         }
 
-        const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-
         // ─── rAF frame-time monitor ──────────────────────────────────────────
         const checkPerformance = (time: number) => {
             const delta = time - lastTime.current;
@@ -82,20 +80,9 @@ export const usePerformanceLevel = (enabled = true, sampleSize = 90) => {
             }
 
             if (delta > 0 && delta < 500) {
-                // ── Instant jank guard: a single frame > 150ms is a freeze ──
+                // Instant freeze detection: single frame > 150ms
                 if (delta > 150) {
-                    jankCount.current++;
-                    // Require 3 rapid janks to drop (was 2), avoids false positives
-                    if (jankCount.current >= 3 && tierRef.current !== 'low') {
-                        console.warn(`[Perf] Freeze detected (${delta.toFixed(0)}ms ×${jankCount.current}). Dropping to low.`);
-                        setTier('low');
-                        goodFrames.current = 0;
-                        jankCount.current  = 0;
-                    }
-                } else {
-                    // Decay jank counter on good frames
-                    jankCount.current = Math.max(0, jankCount.current - 0.2);
-                    goodFrames.current++;
+                    lowestTierObserved.current = 'low';
                 }
 
                 frameTimes.current.push(delta);
@@ -103,30 +90,13 @@ export const usePerformanceLevel = (enabled = true, sampleSize = 90) => {
                     frameTimes.current.shift();
                     const avg = frameTimes.current.reduce((a, b) => a + b, 0) / sampleSize;
 
-                    const cur = tierRef.current;
-
-                    // ── Downgrade thresholds ──────────────────────────────
-                    // avg > 28ms ≈ < 36fps → drop to 'low'
-                    if (avg > 28 && cur !== 'low') {
-                        setTier('low');
-                        goodFrames.current = 0;
-                    }
-                    // avg > 18ms ≈ < 56fps → drop to 'balanced' (not all the way to low)
-                    else if (avg > 18 && cur === 'elite') {
-                        setTier('balanced');
-                        goodFrames.current = 0;
-                    }
-                    // ── Upgrade thresholds (conservative — need sustained good perf) ──
-                    // avg < 10ms ≈ > 100fps AND 180 consecutive good frames ≈ 3s
-                    else if (avg < 10 && cur === 'balanced' && goodFrames.current > 180) {
-                        // Only promote to elite on desktop/non-mobile
-                        if (!isMobile) {
-                            setTier('elite');
+                    // Downgrade based on average
+                    if (avg > 28) {
+                        lowestTierObserved.current = 'low';
+                    } else if (avg > 18) {
+                        if (lowestTierObserved.current === 'elite') {
+                            lowestTierObserved.current = 'balanced';
                         }
-                    }
-                    // avg < 16ms ≈ > 62fps AND 120 good frames ≈ 2s — promote from low to balanced
-                    else if (avg < 16 && cur === 'low' && goodFrames.current > 120) {
-                        setTier('balanced');
                     }
                 }
             }
@@ -134,18 +104,15 @@ export const usePerformanceLevel = (enabled = true, sampleSize = 90) => {
             requestRef.current = requestAnimationFrame(checkPerformance);
         };
 
-        // ─── Long Task Observer (debounced — 3 tasks needed) ─────────────────
+        // ─── Long Task Observer (debounced — 2 tasks needed) ─────────────────
         let observer: PerformanceObserver | null = null;
         try {
             observer = new PerformanceObserver((list) => {
                 for (const entry of list.getEntries()) {
-                    // Only count truly severe blocks (> 150ms, not just any 50ms task)
                     if (entry.duration > 150) {
                         longTaskCount.current++;
-                        if (longTaskCount.current >= 3 && tierRef.current !== 'low') {
-                            console.warn(`[Perf] ${longTaskCount.current} long tasks. Thermal protection active.`);
-                            setTier('low');
-                            longTaskCount.current = 0;
+                        if (longTaskCount.current >= 2) {
+                            lowestTierObserved.current = 'low';
                         }
                     }
                 }
@@ -158,10 +125,8 @@ export const usePerformanceLevel = (enabled = true, sampleSize = 90) => {
         // ─── Battery API — only extreme low battery triggers downgrade ────────
         let batteryRef: any = null;
         const handleBattery = (battery: any) => {
-            // Only drop to low if critically low battery (< 15%)
-            // Don't punish "not charging" — that's too aggressive for laptops
             if (battery.level < 0.15) {
-                setTier('low');
+                lowestTierObserved.current = 'low';
             }
         };
         const onBatteryChange = (e: any) => handleBattery(e.target);
@@ -174,13 +139,27 @@ export const usePerformanceLevel = (enabled = true, sampleSize = 90) => {
             }).catch(() => {/* ignore */});
         }
 
-        // ─── Grace period: start monitoring after 2s (was 3s) ────────────────
-        const timer = setTimeout(() => {
+        // ─── Profiling grace period: start monitoring after 1.5s ─────────────
+        const startTimer = setTimeout(() => {
             requestRef.current = requestAnimationFrame(checkPerformance);
-        }, 2000);
+        }, 1500);
+
+        // ─── Profiling lock: lock the performance tier after 5.5s total ──────
+        const lockTimer = setTimeout(() => {
+            cancelAnimationFrame(requestRef.current);
+            observer?.disconnect();
+            if (batteryRef) {
+                batteryRef.removeEventListener('levelchange', onBatteryChange);
+            }
+            
+            const finalTier = lowestTierObserved.current;
+            console.log(`[Perf] Profiling completed. Performance tier locked to: ${finalTier}`);
+            setTier(finalTier);
+        }, 5500);
 
         return () => {
-            clearTimeout(timer);
+            clearTimeout(startTimer);
+            clearTimeout(lockTimer);
             cancelAnimationFrame(requestRef.current);
             observer?.disconnect();
             if (batteryRef) {

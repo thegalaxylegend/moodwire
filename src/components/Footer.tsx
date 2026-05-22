@@ -84,6 +84,7 @@ export const Footer = () => {
                                 { name: 'Revision Notes', href: '/blog' },
                                 { name: 'AI Mock Tests', href: '/dashboard/mock' },
                                 { name: 'PYQ Practice', href: '/jee-mains' },
+                                { name: 'Meet the Founder', href: '/founder' },
                                 { name: 'About Us', href: '/about' },
                                 { name: 'Contact', href: '/contact' },
                             ].map(link => (
@@ -124,7 +125,7 @@ export const Footer = () => {
                             © {currentYear} Exam Compass. All rights reserved.
                         </p>
                         <p className="text-gray-600 text-xs">
-                            Built with ❤️ in India by <Link to="/about" className="text-gray-500 hover:text-white transition-colors">Ayush Kumar</Link>
+                            Built with ❤️ in India by <Link to="/founder" className="text-gray-500 hover:text-white transition-colors">Ayush Kumar</Link>
                         </p>
                     </div>
                 </div>

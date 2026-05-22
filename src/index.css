@@ -119,6 +119,7 @@
     width: 100%;
     max-width: 100vw;
     scroll-behavior: smooth;
+    position: relative;
   }
 
   body {
@@ -362,7 +363,7 @@ input,
 textarea,
 select,
 label {
-  transition-property: color, background-color, border-color, box-shadow, transform, opacity, filter;
+  transition-property: color, background-color, border-color, box-shadow, filter;
   transition-duration: 200ms;
   transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
@@ -1502,3 +1503,38 @@ main,
   will-change: auto !important;
 }
 
+@layer utilities {
+  .glass-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(168, 85, 247, 0.3) rgba(255, 255, 255, 0.02);
+  }
+  
+  .glass-scroll::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .glass-scroll::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 10px;
+  }
+  .glass-scroll::-webkit-scrollbar-thumb {
+    background: rgba(168, 85, 247, 0.3);
+    border-radius: 10px;
+  }
+  .glass-scroll::-webkit-scrollbar-thumb:hover {
+    background: rgba(168, 85, 247, 0.6);
+  }
+}
+
+/* ============================================================
+   GRID PANNING ANIMATION FOR FOUNDER PAGE
+   ============================================================ */
+@keyframes pan-grid {
+  0% { background-position: 0px 0px; }
+  100% { background-position: 32px 32px; }
+}
+
+.animate-grid-pan {
+  animation: pan-grid 4s linear infinite;
+  will-change: background-position;
+}

@@ -375,6 +375,9 @@ export const Navbar = () => {
                     <Link to="/blog" className="text-sm md:text-base text-gray-300 hover:text-white font-medium transition-colors">
                         Blog
                     </Link>
+                    <Link to="/founder" className="text-sm md:text-base text-gray-300 hover:text-white font-medium transition-colors">
+                        Founder
+                    </Link>
                     <Link 
                         to="/login" 
                         rel="nofollow" 
@@ -423,6 +426,12 @@ export const Navbar = () => {
                         </div>
                     </div>
 
+                    <Link 
+                        to="/founder"
+                        className="w-full py-4 text-center rounded-2xl bg-white/5 border border-white/10 text-white font-extrabold text-lg transition-transform mt-2 block"
+                    >
+                        Meet the Founder
+                    </Link>
                     <Link 
                         to="/login" 
                         className="w-full py-4 text-center rounded-2xl bg-white text-black font-extrabold text-lg shadow-[0_0_20px_rgba(168,85,247,0.2)] active:scale-[0.98] transition-transform mt-2"
