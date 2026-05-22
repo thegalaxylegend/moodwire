@@ -258,23 +258,25 @@ export const batchUpdateTopicStrength = async (
     });
 
     // Update each topic
-    for (const [topic, stats] of Object.entries(topicResults)) {
-        for (const res of stats.results) {
-            const derivedTopicId = resolveTopicId(topic);
-            await updateTopicStrength(
-                userId,
-                topic,
-                derivedTopicId,
-                stats.subject,
-                res.isCorrect,
-                {
-                    userClass,
-                    targetExam,
-                    errorType: res.errorType
-                }
-            );
-        }
-    }
+    await Promise.all(
+        Object.entries(topicResults).map(async ([topic, stats]) => {
+            for (const res of stats.results) {
+                const derivedTopicId = resolveTopicId(topic);
+                await updateTopicStrength(
+                    userId,
+                    topic,
+                    derivedTopicId,
+                    stats.subject,
+                    res.isCorrect,
+                    {
+                        userClass,
+                        targetExam,
+                        errorType: res.errorType
+                    }
+                );
+            }
+        })
+    );
 };
 
 // Get user's weak topics (score < 50%)
