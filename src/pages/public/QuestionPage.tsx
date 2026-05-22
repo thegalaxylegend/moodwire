@@ -332,12 +332,13 @@ export const QuestionPage = () => {
                     </div>
 
                     <AuthorBio 
-                        name="Ayush"
+                        name="Ayush Kumar"
                         role="Founder, ExamCompass"
-                        bio="Class 11 student at KV Darbhanga, Bihar. Built ExamCompass as a personal study tool after analyzing 50+ past papers. All solutions are cross-verified against NCERT and coaching institute answer keys."
+                        bio="Class 12 student at KV Darbhanga, Bihar. Built ExamCompass as a personal study tool after analyzing 50+ past papers. All solutions are cross-verified against NCERT and coaching institute answer keys."
                         credentials={["KV Darbhanga, Bihar", "50+ PYQ Papers Analyzed", "NCERT-Verified Solutions"]}
-                        linkedin="https://linkedin.com"
-                        twitter="https://twitter.com"
+                        linkedin="https://www.linkedin.com/in/ayush-kumar-a23260401"
+                        twitter="https://x.com/Ayush_thelegend"
+                        instagram="https://www.instagram.com/mr._.ayush_kr"
                     />
 
 

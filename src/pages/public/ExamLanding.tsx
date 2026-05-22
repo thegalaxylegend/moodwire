@@ -543,7 +543,7 @@ export const ExamLanding = () => {
                             </p>
                             <div className="flex items-center gap-6">
                                 <div>
-                                    <div className="text-white font-black text-xl">Ayush</div>
+                                    <div className="text-white font-black text-xl">Ayush Kumar</div>
                                     <div className="text-purple-400 text-sm font-bold uppercase tracking-widest">Founder & Visionary</div>
                                 </div>
                                 <div className="flex gap-4 ml-6 pl-6 border-l border-white/5">

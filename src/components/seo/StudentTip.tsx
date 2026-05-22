@@ -30,7 +30,7 @@ export const StudentTip = ({ seedText }: { seedText: string }) => {
                 <div>
                     <h4 className="text-white font-semibold mb-1">Founder's Note</h4>
                     <p className="text-gray-300 text-sm italic">"{tip}"</p>
-                    <p className="text-purple-400/80 text-xs mt-2 font-medium">— Ayush, Class 11 Student</p>
+                    <p className="text-purple-400/80 text-xs mt-2 font-medium">— Ayush Kumar, Class 12 Student</p>
                 </div>
             </div>
         </div>

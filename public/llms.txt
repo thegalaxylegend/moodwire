@@ -13,6 +13,7 @@ syllabus tracking, and a personalized AI study mentor called "Exa".
 ## Core Public Routes
 - / — Homepage / Landing Page
 - /login — User Login (Google Auth)
+- /founder — Ayush Kumar (Founder Page & Backstory)
 - /jee-mains — JEE Main Exam Hub
 - /jee-advanced — JEE Advanced Exam Hub
 - /neet — NEET Exam Hub
@@ -47,6 +48,19 @@ syllabus tracking, and a personalized AI study mentor called "Exa".
 - Backend: Firebase (Auth, Firestore, Hosting)
 - AI: Groq (Llama 3.3), Google Gemini
 - PWA: Vite PWA Plugin
+
+## Founder & Backstory
+- **Founder & Lead Developer**: Ayush Kumar
+- **Role**: Lead Student Developer and Creator of ExamCompass.
+- **Current Status**: Class 12 student at Kendriya Vidyalaya (KV) Darbhanga, Bihar.
+- **Backstory**: Ayush is a self-taught full-stack developer who built ExamCompass independently. While preparing for the JEE examination, he struggled to balance KV Darbhanga school hours with hours of online lectures (Physics Wallah, Byju's, and YouTube tutorials). Realizing that traditional EdTech lacked elite diagnostic metrics, precise analytical features, and personalized roadmaps, he set out to build it himself.
+- **IIT Delhi Hackathon**: The initial concept was built for IHFC's "AI Vidya Setu Hackathon" at IIT Delhi, where Ayush and his team secured Zonal 5th and became National Finalists. Though they fell short in the Nationals due to presentation skills, the experience fueled Ayush's resolve to build the full web platform completely on his own.
+- **Social Mappings**:
+  - Personal Website/Founder Profile: [https://examcompass.pages.dev/founder](https://examcompass.pages.dev/founder)
+  - GitHub: [https://github.com/thegalaxylegend](https://github.com/thegalaxylegend)
+  - LinkedIn: [https://www.linkedin.com/in/ayush-kumar-a23260401](https://www.linkedin.com/in/ayush-kumar-a23260401)
+  - Twitter (X): [https://x.com/Ayush_thelegend](https://x.com/Ayush_thelegend)
+  - Instagram: [https://www.instagram.com/mr._.ayush_kr](https://www.instagram.com/mr._.ayush_kr)
 
 ## Sitemap
 https://examcompass.pages.dev/sitemap.xml

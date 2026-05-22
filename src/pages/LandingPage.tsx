@@ -125,7 +125,7 @@ export const LandingPage = () => {
                             "founder": {
                                 "@type": "Person",
                                 "name": "Ayush Kumar",
-                                "url": `${SITE_URL}/about`
+                                "url": `${SITE_URL}/founder`
                             },
                             "foundingDate": "2025",
                             "sameAs": [

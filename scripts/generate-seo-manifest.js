@@ -258,10 +258,19 @@ async function generate() {
         };
         manifest['/about'] = {
             title: "About Exam Compass | AI-Powered Exam Preparation Platform",
-            description: "Learn about Exam Compass — an AI-powered exam preparation platform built by a Class 11 student from KV Darbhanga, Bihar.",
+            description: "Learn about Exam Compass — an AI-powered exam preparation platform built by a Class 12 student from KV Darbhanga, Bihar.",
             h1: "About Exam Compass",
             type: "page",
             priority: 0.5,
+            robots: "index, follow",
+            sitemapGroup: "core"
+        };
+        manifest['/founder'] = {
+            title: "Ayush Kumar | Founder of ExamCompass",
+            description: "Meet Ayush Kumar, the student developer who built ExamCompass — a state-of-the-art AI-powered JEE/NEET diagnostics platform from Darbhanga, Bihar.",
+            h1: "Ayush Kumar - Founder of ExamCompass",
+            type: "page",
+            priority: 0.9,
             robots: "index, follow",
             sitemapGroup: "core"
         };

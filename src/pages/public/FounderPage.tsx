@@ -13,8 +13,6 @@ import {
     Twitter, 
     Linkedin, 
     BookOpen, 
-    Cpu, 
-    Compass, 
     Flame, 
     Sparkles, 
     CornerDownLeft, 
@@ -23,9 +21,6 @@ import {
     ChevronRight,
     Github,
     Activity,
-    Code,
-    Database,
-    Zap,
     Target,
     Heart,
     Lightbulb,
@@ -67,7 +62,7 @@ const CliTerminal = () => {
             'Name: Ayush Kumar',
             'Role: Founder & Lead Student Developer',
             'Origin: Darbhanga, Bihar, India',
-            'Bio: A Class 11 student at KV Darbhanga who got tired of the lack of elite prep metrics in',
+            'Bio: A Class 12 student at KV Darbhanga who got tired of the lack of elite prep metrics in',
             '     traditional coaching. Built ExamCompass to democratize stochastic analytics for JEE/NEET.'
         ],
         stack: [
@@ -338,7 +333,7 @@ const PortraitCard = ({ onClick }: { scrollYProgress?: MotionValue<number>; onCl
             onMouseLeave={handleMouseLeave}
             onClick={onClick}
             style={{ perspective: '1200px' }}
-            className="w-full max-w-md aspect-square relative cursor-pointer"
+            className="w-full max-w-xs sm:max-w-sm md:max-w-md aspect-square relative cursor-pointer"
         >
             <motion.div
                 style={{
@@ -367,6 +362,29 @@ const PortraitCard = ({ onClick }: { scrollYProgress?: MotionValue<number>; onCl
         </div>
     );
 };
+interface FaqItem {
+    question: string;
+    answer: string;
+}
+
+const FAQ_ITEMS: FaqItem[] = [
+    {
+        question: "Who is the founder of ExamCompass?",
+        answer: "ExamCompass was founded by Ayush Kumar, a self-taught Class 12 student developer at Kendriya Vidyalaya (KV) Darbhanga, Bihar. Ayush designed and coded the entire platform to empower JEE and NEET aspirants with elite, data-driven diagnostic tools."
+    },
+    {
+        question: "What inspired Ayush Kumar to build ExamCompass?",
+        answer: "While preparing for JEE himself, Ayush struggled to balance 7-8 hours of school at KV Darbhanga with hours of online lectures (formerly Byju's and YouTube self-study, later Physics Wallah). He realized that traditional coaching platforms lacked precise, personalized diagnostics and honest feedback, which led him to engineer a tool built by a student, for students."
+    },
+    {
+        question: "What is the origin story of ExamCompass?",
+        answer: "The concept originated at the AI Vidya Setu Hackathon at IIT Delhi (IHFC), where Ayush and his team secured Zonal 5th / National Finalist. However, they lost in the Nationals due to presentation skills. Refusing to let the idea die, this setback fueled Ayush to build and launch the platform independently, turning his vision of EdTech democratization into reality."
+    },
+    {
+        question: "What is the mission of ExamCompass?",
+        answer: "The mission of ExamCompass is to democratize the elite data layer of competitive exam preparation. By offering top-tier diagnostic tests, predictive syllabus analytics, and fatigue-aware scheduling entirely for free, ExamCompass levels the academic playing field for every student, regardless of financial privilege."
+    }
+];
 
 // ─── MAIN PORTFOLIO PAGE ───
 export const FounderPage = () => {
@@ -374,6 +392,7 @@ export const FounderPage = () => {
     const { scrollYProgress } = useScroll();
     const [selectedImage, setSelectedImage] = useState<string | null>(null);
     const [isFounderModalOpen, setIsFounderModalOpen] = useState(false);
+    const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
     const [selectedSkill, setSelectedSkill] = useState<{
         icon: React.ReactNode;
         modalIcon: React.ReactNode;
@@ -471,18 +490,7 @@ export const FounderPage = () => {
         restDelta: 0.001
     });
 
-    const isServer = typeof window === 'undefined';
 
-    const containerVariants = {
-        hidden: { opacity: 0 },
-        visible: {
-            opacity: 1,
-            transition: {
-                staggerChildren: 0.12,
-                delayChildren: 0.2
-            }
-        }
-    };
 
     const itemVariants = {
         hidden: { opacity: 0, y: 15 },
@@ -499,49 +507,7 @@ export const FounderPage = () => {
     const timelineVariantsEven = {
         hidden: { 
             opacity: 0, 
-            x: -80, 
-            scale: 0.95,
-            rotate: -1
-        },
-        visible: { 
-            opacity: 1, 
-            x: 0, 
-            scale: 1,
-            rotate: 0,
-            transition: { 
-                type: "spring" as const,
-                stiffness: 80,
-                damping: 20,
-                mass: 0.8
-            } 
-        }
-    };
-
-    const timelineVariantsOdd = {
-        hidden: { 
-            opacity: 0, 
-            x: 80, 
-            scale: 0.95,
-            rotate: 1
-        },
-        visible: { 
-            opacity: 1, 
-            x: 0, 
-            scale: 1,
-            rotate: 0,
-            transition: { 
-                type: "spring" as const,
-                stiffness: 80,
-                damping: 20,
-                mass: 0.8
-            } 
-        }
-    };
-
-    const storyVariantsLeft = {
-        hidden: { 
-            opacity: 0, 
-            x: -100, 
+            x: typeof window !== 'undefined' && window.innerWidth < 640 ? -30 : -80, 
             scale: 0.97,
             rotate: -0.5
         },
@@ -552,17 +518,17 @@ export const FounderPage = () => {
             rotate: 0,
             transition: { 
                 type: "spring" as const,
-                stiffness: 70,
-                damping: 18,
-                mass: 0.8
+                stiffness: 90,
+                damping: 22,
+                mass: 0.7
             } 
         }
     };
 
-    const storyVariantsRight = {
+    const timelineVariantsOdd = {
         hidden: { 
             opacity: 0, 
-            x: 100, 
+            x: typeof window !== 'undefined' && window.innerWidth < 640 ? 30 : 80, 
             scale: 0.97,
             rotate: 0.5
         },
@@ -573,9 +539,51 @@ export const FounderPage = () => {
             rotate: 0,
             transition: { 
                 type: "spring" as const,
-                stiffness: 70,
-                damping: 18,
-                mass: 0.8
+                stiffness: 90,
+                damping: 22,
+                mass: 0.7
+            } 
+        }
+    };
+
+    const storyVariantsLeft = {
+        hidden: { 
+            opacity: 0, 
+            x: typeof window !== 'undefined' && window.innerWidth < 640 ? -30 : -100, 
+            scale: 0.97,
+            rotate: -0.5
+        },
+        visible: { 
+            opacity: 1, 
+            x: 0, 
+            scale: 1,
+            rotate: 0,
+            transition: { 
+                type: "spring" as const,
+                stiffness: 75,
+                damping: 20,
+                mass: 0.7
+            } 
+        }
+    };
+
+    const storyVariantsRight = {
+        hidden: { 
+            opacity: 0, 
+            x: typeof window !== 'undefined' && window.innerWidth < 640 ? 30 : 100, 
+            scale: 0.97,
+            rotate: 0.5
+        },
+        visible: { 
+            opacity: 1, 
+            x: 0, 
+            scale: 1,
+            rotate: 0,
+            transition: { 
+                type: "spring" as const,
+                stiffness: 75,
+                damping: 20,
+                mass: 0.7
             } 
         }
     };
@@ -597,7 +605,30 @@ export const FounderPage = () => {
                     "@type": "Person",
                     "name": "Ayush Kumar",
                     "url": `${SITE_URL}/founder`,
-                    "jobTitle": "Founder & Student Developer",
+                    "jobTitle": "Founder & Lead Student Developer",
+                    "gender": "Male",
+                    "nationality": "Indian",
+                    "knowsLanguage": ["Hindi", "English"],
+                    "sameAs": [
+                        "https://x.com/Ayush_thelegend",
+                        "https://www.instagram.com/mr._.ayush_kr",
+                        "https://www.linkedin.com/in/ayush-kumar-a23260401",
+                        "https://github.com/thegalaxylegend"
+                    ],
+                    "birthPlace": {
+                        "@type": "Place",
+                        "name": "Bihar, India"
+                    },
+                    "alumniOf": {
+                        "@type": "EducationalOrganization",
+                        "name": "Kendriya Vidyalaya Darbhanga",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Darbhanga",
+                            "addressRegion": "Bihar",
+                            "addressCountry": "IN"
+                        }
+                    },
                     "worksFor": {
                         "@type": "Organization",
                         "name": "Exam Compass",
@@ -610,9 +641,13 @@ export const FounderPage = () => {
                     "description": "Student developer from Bihar who engineered ExamCompass - a revolutionary AI-powered diagnostic exam engine to level the academic playing field.",
                     "knowsAbout": [
                         "JEE Mains & Advanced Prep",
+                        "NEET Prep",
                         "AI EdTech Platforms",
                         "TypeScript React Engineering",
-                        "Performance-Adaptive Web Design"
+                        "Performance-Adaptive Web Design",
+                        "Stochastic Preparation Analytics",
+                        "Educational Technology",
+                        "Machine Learning & LLMs"
                     ]
                 })}
             </script>
@@ -651,39 +686,40 @@ export const FounderPage = () => {
 
             {/* ─── PAGE MAIN CONTENT ─── */}
             <motion.main 
-                className="pt-32 md:pt-40 pb-32 px-6 lg:px-12 max-w-7xl mx-auto relative z-10 space-y-40"
+                className="pt-24 md:pt-40 pb-20 md:pb-32 px-4 sm:px-6 lg:px-12 max-w-7xl mx-auto relative z-10 space-y-20 md:space-y-40"
             >
                 {/* ─── HERO HEADER SECTION (1:1 Ratio Strict Grid with Parallax Floating Badges) ─── */}
-                <HeroScrollSection className="min-h-[85vh] grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center pt-8 relative">
+                <HeroScrollSection className="min-h-[80vh] md:min-h-[85vh] grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 lg:gap-16 items-center pt-6 md:pt-8 relative">
 
                     <motion.div 
                         variants={itemVariants} 
-                        className="order-2 md:order-1 text-center md:text-left space-y-8"
+                        className="order-1 md:order-1 text-center md:text-left space-y-5 md:space-y-8"
                     >
                         <div className="flex flex-col items-center md:items-start">
-                            <span className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full border border-purple-500/20 bg-purple-500/5 text-purple-300 text-[10px] uppercase tracking-[0.3em] font-black mb-4">
-                                <Flame size={12} className="text-purple-400 animate-pulse" /> The Selection Revolution
+                            <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-purple-500/20 bg-purple-500/5 text-purple-300 text-[9px] sm:text-[10px] uppercase tracking-[0.2em] sm:tracking-[0.3em] font-black mb-3 md:mb-4">
+                                <Flame size={11} className="text-purple-400 animate-pulse" /> The Selection Revolution
                             </span>
                         </div>
                         
-                        <h1 className="text-5xl sm:text-7xl lg:text-[5.5rem] xl:text-[6.5rem] font-heading font-black tracking-tight leading-[0.88] text-white">
+                        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[5.5rem] xl:text-[6.5rem] font-heading font-black tracking-tight leading-[0.9] md:leading-[0.88] text-white">
                             A Student's <br />
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-sky-400">
                                 Code to Win.
                             </span>
                         </h1>
                         
-                        <p className="text-lg md:text-xl text-gray-400 max-w-2xl leading-relaxed font-light">
+                        <p className="text-base md:text-lg lg:text-xl text-gray-400 max-w-2xl leading-relaxed font-light">
                             My name is <strong className="text-white">Ayush Kumar</strong>. I am a JEE Aspirant from Darbhanga, Bihar. 
-                            I got tired of high-fee coaching models and built **ExamCompass** to democratize elite-level algorithmic testing. 
+                            I got tired of high-fee coaching models and built <strong className="text-white">ExamCompass</strong> to democratize elite-level algorithmic testing. 
                             This isn't a corporate EdTech product—it's an infrastructure designed in the trenches, built for students, by a student.
                         </p>
 
-                        <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4 pt-4">
-                            <a href="#terminal" className="w-full sm:w-auto px-8 py-4 bg-purple-600 text-white rounded-2xl font-bold text-sm hover:scale-[1.03] hover:bg-purple-500 hover:shadow-[0_0_30px_rgba(168,85,247,0.3)] transition-all flex items-center justify-center gap-2">
+                        {/* Buttons — desktop only; on mobile they appear BELOW the portrait card as order-3 */}
+                        <div className="hidden md:flex flex-row items-center justify-start gap-3 pt-2 md:pt-4">
+                            <a href="#terminal" className="px-6 md:px-8 py-3.5 md:py-4 bg-purple-600 text-white rounded-2xl font-bold text-sm hover:scale-[1.03] hover:bg-purple-500 hover:shadow-[0_0_30px_rgba(168,85,247,0.3)] transition-all flex items-center gap-2">
                                 Launch Shell <Terminal size={16} />
                             </a>
-                            <a href="#timeline" className="w-full sm:w-auto px-8 py-4 bg-white/5 text-white border border-white/10 rounded-2xl font-bold text-sm hover:bg-white/10 transition-all flex items-center justify-center gap-2">
+                            <a href="#timeline" className="px-6 md:px-8 py-3.5 md:py-4 bg-white/5 text-white border border-white/10 rounded-2xl font-bold text-sm hover:bg-white/10 transition-all flex items-center gap-2">
                                 Discover the Journey <ChevronRight size={16} />
                             </a>
                         </div>
@@ -692,7 +728,7 @@ export const FounderPage = () => {
                     {/* Staggered Portrait Widget & Separate Details Card */}
                     <motion.div 
                         variants={itemVariants} 
-                        className="order-1 md:order-2 flex flex-col items-center md:items-end gap-6 w-full max-w-md md:max-w-none"
+                        className="order-2 md:order-2 flex flex-col items-center md:items-end gap-4 md:gap-6 w-full max-w-xs sm:max-w-sm md:max-w-none mx-auto md:mx-0"
                     >
                         <PortraitCard scrollYProgress={scrollYProgress} onClick={() => setIsFounderModalOpen(true)} />
                         
@@ -736,6 +772,20 @@ export const FounderPage = () => {
                             </div>
                         </div>
                     </motion.div>
+
+                    {/* Mobile-only buttons — appear BELOW portrait+name card, ABOVE next section */}
+                    <motion.div
+                        variants={itemVariants}
+                        className="order-3 md:hidden flex flex-col sm:flex-row items-center justify-center gap-3 w-full"
+                    >
+                        <a href="#terminal" className="w-full sm:w-auto px-6 py-3.5 bg-purple-600 text-white rounded-2xl font-bold text-sm hover:scale-[1.03] hover:bg-purple-500 hover:shadow-[0_0_30px_rgba(168,85,247,0.3)] transition-all flex items-center justify-center gap-2">
+                            Launch Shell <Terminal size={16} />
+                        </a>
+                        <a href="#timeline" className="w-full sm:w-auto px-6 py-3.5 bg-white/5 text-white border border-white/10 rounded-2xl font-bold text-sm hover:bg-white/10 transition-all flex items-center justify-center gap-2">
+                            Discover the Journey <ChevronRight size={16} />
+                        </a>
+                    </motion.div>
+
                 </HeroScrollSection>
 
                 {/* ─── THE VISION THESIS ─── */}
@@ -873,9 +923,10 @@ export const FounderPage = () => {
                                     variants={isEven ? timelineVariantsEven : timelineVariantsOdd}
                                     initial="hidden"
                                     whileInView="visible"
-                                    viewport={{ once: true, amount: 0.15, margin: "0px 0px -80px 0px" }}
+                                    viewport={{ once: true, amount: 0.05, margin: "0px 0px -40px 0px" }}
                                     whileHover={tier === 'low' ? undefined : "hover"}
                                     className="w-full relative group bg-transparent"
+                                    style={{ willChange: "transform, opacity" }}
                                 >
                                     <motion.div
                                         variants={{
@@ -897,7 +948,7 @@ export const FounderPage = () => {
                                             }
                                         }}
                                         initial="initial"
-                                        className="relative p-6 md:p-8 rounded-[1.5rem] border flex flex-col md:flex-row gap-6 md:gap-10 overflow-hidden shadow-2xl w-full"
+                                        className="relative p-5 md:p-8 rounded-[1.5rem] border flex flex-col md:flex-row gap-5 md:gap-10 overflow-hidden shadow-2xl w-full"
                                     >
                                         {/* Left Accent Bar */}
                                         <div className="absolute top-0 left-0 w-1.5 h-full bg-white/5 group-hover:bg-gradient-to-b group-hover:from-purple-400 group-hover:to-sky-400 transition-all duration-500" />
@@ -906,19 +957,19 @@ export const FounderPage = () => {
                                         <div className="absolute -right-20 -top-20 w-64 h-64 bg-purple-500/0 group-hover:bg-purple-500/5 rounded-full blur-3xl transition-all duration-700 pointer-events-none" />
 
                                         {/* Metadata / Left Column */}
-                                        <div className="md:w-48 shrink-0 space-y-2 md:space-y-4 font-mono select-none">
-                                            <div className="inline-block px-2.5 py-1 rounded bg-purple-500/10 text-purple-400 text-[11px] font-bold tracking-widest border border-purple-500/20">
+                                        <div className="md:w-48 shrink-0 flex flex-row md:flex-col items-center md:items-start justify-start gap-3 md:gap-2 md:space-y-4 font-mono select-none">
+                                            <div className="inline-block px-2.5 py-1 rounded bg-purple-500/10 text-purple-400 text-[10px] md:text-[11px] font-bold tracking-widest border border-purple-500/20 shrink-0">
                                                 {node.version}
                                             </div>
-                                            <div className="space-y-1">
-                                                <div className="text-gray-600 text-[10px] tracking-wider uppercase">DATE // {node.date}</div>
-                                                <div className="text-gray-600 text-[10px] tracking-wider uppercase">MOD  // {node.module}</div>
+                                            <div className="flex flex-row md:flex-col gap-1 md:gap-1">
+                                                <div className="text-gray-600 text-[9px] md:text-[10px] tracking-wider uppercase">DATE: {node.date}</div>
+                                                <div className="text-gray-600 text-[9px] md:text-[10px] tracking-wider uppercase hidden sm:block">MOD: {node.module}</div>
                                             </div>
                                         </div>
 
                                         {/* Content / Right Column */}
-                                        <div className="flex-1 space-y-4 relative z-10">
-                                            <h3 className="text-2xl font-bold text-white tracking-tight">{node.title}</h3>
+                                        <div className="flex-1 space-y-3 md:space-y-4 relative z-10">
+                                            <h3 className="text-xl md:text-2xl font-bold text-white tracking-tight">{node.title}</h3>
                                             <p className="text-sm text-gray-400 leading-relaxed font-light">
                                                 {node.desc}
                                             </p>
@@ -966,9 +1017,10 @@ export const FounderPage = () => {
                         variants={storyVariantsLeft} 
                         initial="hidden"
                         whileInView="visible"
-                        viewport={{ once: true, amount: 0.15, margin: "0px 0px -100px 0px" }}
+                        viewport={{ once: true, amount: 0.05, margin: "0px 0px -50px 0px" }}
                         whileHover={tier === 'low' ? undefined : "hover"}
-                        className="max-w-5xl mx-auto w-full mb-8 group relative bg-transparent"
+                        className="max-w-5xl mx-auto w-full mb-6 md:mb-8 group relative bg-transparent"
+                        style={{ willChange: "transform, opacity" }}
                     >
                         <motion.div
                             variants={{
@@ -981,7 +1033,7 @@ export const FounderPage = () => {
                                 }
                             }}
                             initial="initial"
-                            className="p-8 md:p-12 rounded-[2rem] bg-white/[0.02] border relative overflow-hidden w-full"
+                            className="p-6 md:p-12 rounded-[2rem] bg-white/[0.02] border relative overflow-hidden w-full"
                         >
                             <div className="absolute top-0 right-0 w-96 h-96 bg-sky-500/5 rounded-full blur-[100px] pointer-events-none group-hover:bg-sky-500/10 transition-colors duration-700" />
                             <div className="relative z-10 space-y-6">
@@ -1005,9 +1057,10 @@ export const FounderPage = () => {
                         variants={storyVariantsRight} 
                         initial="hidden"
                         whileInView="visible"
-                        viewport={{ once: true, amount: 0.15, margin: "0px 0px -100px 0px" }}
+                        viewport={{ once: true, amount: 0.05, margin: "0px 0px -50px 0px" }}
                         whileHover={tier === 'low' ? undefined : "hover"}
-                        className="max-w-5xl mx-auto w-full mb-8 group relative bg-transparent"
+                        className="max-w-5xl mx-auto w-full mb-6 md:mb-8 group relative bg-transparent"
+                        style={{ willChange: "transform, opacity" }}
                     >
                         <motion.div
                             variants={{
@@ -1020,7 +1073,7 @@ export const FounderPage = () => {
                                 }
                             }}
                             initial="initial"
-                            className="p-8 md:p-12 rounded-[2rem] bg-white/[0.02] border relative overflow-hidden w-full"
+                            className="p-6 md:p-12 rounded-[2rem] bg-white/[0.02] border relative overflow-hidden w-full"
                         >
                             <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-500/5 rounded-full blur-[100px] pointer-events-none group-hover:bg-purple-500/10 transition-colors duration-700" />
                             <div className="relative z-10 space-y-6">
@@ -1040,7 +1093,7 @@ export const FounderPage = () => {
                                 </div>
                                 
                                 {/* Certification & Medals Image Grid */}
-                                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8 pt-8 border-t border-white/5">
+                                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 md:gap-4 mt-6 md:mt-8 pt-6 md:pt-8 border-t border-white/5">
                                     {/* National Certificate Scanned */}
                                     <div className="relative aspect-[4/3] cursor-pointer">
                                         <motion.div
@@ -1089,15 +1142,15 @@ export const FounderPage = () => {
                 </ScrollLinkedSection>
 
                 {/* ─── HOBBIES & SKILLS SECTION ─── */}
-                <ScrollLinkedSection className="space-y-16">
-                    <motion.div variants={itemVariants} className="text-center space-y-4">
+                <ScrollLinkedSection className="space-y-10 md:space-y-16">
+                    <motion.div variants={itemVariants} className="text-center space-y-3 md:space-y-4">
                         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-pink-500/20 bg-pink-500/5 text-pink-300 text-[10px] uppercase tracking-[0.3em] font-black mb-2">
                             <Flame size={12} className="text-pink-400" /> Beyond Textbooks
                         </div>
-                        <h2 className="text-3xl md:text-5xl font-heading font-black tracking-tight text-white">
+                        <h2 className="text-2xl sm:text-3xl md:text-5xl font-heading font-black tracking-tight text-white">
                             Skills & Ventures
                         </h2>
-                        <p className="text-gray-400 max-w-2xl mx-auto">
+                        <p className="text-sm md:text-base text-gray-400 max-w-2xl mx-auto">
                             I strongly believe in learning useful, real-life skills—not just book knowledge. My day is fully packed with school and JEE prep, but from 8 PM to 10 PM, I grind on my passions.
                         </p>
                     </motion.div>
@@ -1110,6 +1163,7 @@ export const FounderPage = () => {
                                 whileHover={tier === 'low' ? undefined : "hover"}
                                 onClick={() => setSelectedSkill(hobby)}
                                 className="relative cursor-pointer group bg-transparent h-full"
+                                style={{ willChange: "transform" }}
                             >
                                 <motion.div
                                     variants={{
@@ -1142,15 +1196,15 @@ export const FounderPage = () => {
                 </ScrollLinkedSection>
 
                 {/* ─── THE MANIFESTO / CORE BELIEFS ─── */}
-                <ScrollLinkedSection className="space-y-16">
-                    <motion.div variants={itemVariants} className="text-center space-y-4">
+                <ScrollLinkedSection className="space-y-10 md:space-y-16">
+                    <motion.div variants={itemVariants} className="text-center space-y-3 md:space-y-4">
                         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-purple-500/20 bg-purple-500/5 text-purple-300 text-[10px] uppercase tracking-[0.3em] font-black mb-2">
                             <Target size={12} className="text-purple-400" /> The Manifesto
                         </div>
-                        <h2 className="text-3xl md:text-5xl font-heading font-black tracking-tight text-white">
+                        <h2 className="text-2xl sm:text-3xl md:text-5xl font-heading font-black tracking-tight text-white">
                             Core Beliefs & Vision
                         </h2>
-                        <p className="text-gray-400 max-w-2xl mx-auto">
+                        <p className="text-sm md:text-base text-gray-400 max-w-2xl mx-auto">
                             ExamCompass wasn't built to be a tech showcase. It was built because I deeply believe that world-class education infrastructure should not be guarded by exorbitant coaching fees.
                         </p>
                     </motion.div>
@@ -1178,6 +1232,7 @@ export const FounderPage = () => {
                                 variants={itemVariants}
                                 whileHover={tier === 'low' ? undefined : "hover"}
                                 className="relative group bg-transparent h-full"
+                                style={{ willChange: "transform" }}
                             >
                                 <motion.div
                                     variants={{
@@ -1207,12 +1262,12 @@ export const FounderPage = () => {
                 </ScrollLinkedSection>
 
                 {/* ─── VIRAL SOCIAL HANDLES SECTION ─── */}
-                <ScrollLinkedSection className="space-y-16">
-                    <motion.div variants={itemVariants} className="text-center space-y-4">
-                        <h2 className="text-3xl md:text-5xl font-heading font-black tracking-tight text-white">
+                <ScrollLinkedSection className="space-y-10 md:space-y-16">
+                    <motion.div variants={itemVariants} className="text-center space-y-3 md:space-y-4">
+                        <h2 className="text-2xl sm:text-3xl md:text-5xl font-heading font-black tracking-tight text-white">
                             Connect & Collaborate
                         </h2>
-                        <p className="text-gray-400 max-w-xl mx-auto">
+                        <p className="text-sm md:text-base text-gray-400 max-w-xl mx-auto">
                             Follow my coding outputs and personal branding handles. Let's build the future together.
                         </p>
                     </motion.div>
@@ -1267,7 +1322,7 @@ export const FounderPage = () => {
                                 rel="noopener noreferrer"
                                 variants={itemVariants}
                                 whileHover={tier === 'low' ? undefined : "hover"}
-                                className="relative block h-48 group bg-transparent"
+                                className="relative block h-40 md:h-48 group bg-transparent"
                             >
                                 <motion.div
                                     variants={{
@@ -1301,49 +1356,121 @@ export const FounderPage = () => {
                                         }
                                     }}
                                     initial="initial"
-                                    className="p-8 rounded-[2rem] relative overflow-hidden border flex flex-col justify-between h-full text-left"
+                                    className="p-4 md:p-8 rounded-[2rem] relative overflow-hidden border flex flex-col justify-between h-full text-left"
                                 >
                                     <div className="flex items-center justify-between">
-                                        <div className="p-3.5 rounded-2xl bg-white/5 text-white group-hover:bg-white/10 transition-colors">
+                                        <div className="p-2.5 md:p-3.5 rounded-2xl bg-white/5 text-white group-hover:bg-white/10 transition-colors">
                                             {social.icon}
                                         </div>
-                                        <ArrowUpRight size={18} className="text-gray-500 group-hover:text-white transition-colors" />
+                                        <ArrowUpRight size={16} className="text-gray-500 group-hover:text-white transition-colors" />
                                     </div>
-                                    <div className="space-y-1">
-                                        <h4 className="text-sm font-bold text-gray-500 uppercase tracking-widest">{social.name}</h4>
-                                        <p className="text-lg font-bold text-white group-hover:text-purple-300 transition-colors">{social.handle}</p>
+                                    <div className="space-y-0.5">
+                                        <h4 className="text-[10px] md:text-sm font-bold text-gray-500 uppercase tracking-widest">{social.name}</h4>
+                                        <p className="text-sm md:text-lg font-bold text-white group-hover:text-purple-300 transition-colors break-all md:break-normal">{social.handle}</p>
                                     </div>
                                 </motion.div>
                             </motion.a>
                         ))}
                     </div>
                 </ScrollLinkedSection>
+                {/* ─── QUICK FACTS & FAQ SECTION (AEO/SEO Powerhouse) ─── */}
+                <ScrollLinkedSection className="space-y-12">
+                    <div className="text-center space-y-4 max-w-3xl mx-auto">
+                        <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-purple-500/20 bg-purple-500/5 text-purple-300 text-[10px] uppercase tracking-[0.2em] font-black">
+                            <Lightbulb size={11} className="text-yellow-400 animate-pulse" /> Answer Engine Optimization (AEO)
+                        </span>
+                        <h2 className="text-3xl md:text-5xl font-heading font-black text-white leading-tight">
+                            FAQ & <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-sky-400">Neural Index</span>
+                        </h2>
+                        <p className="text-sm md:text-base text-gray-400 font-light">
+                            Quick intelligence reports compiled for search engines, LLM crawlers, and curious minds.
+                        </p>
+                    </div>
+
+                    <script type="application/ld+json">
+                        {JSON.stringify({
+                            "@context": "https://schema.org",
+                            "@type": "FAQPage",
+                            "mainEntity": FAQ_ITEMS.map(item => ({
+                                "@type": "Question",
+                                "name": item.question,
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": item.answer
+                                }
+                            }))
+                        })}
+                    </script>
+
+                    <div className="max-w-4xl mx-auto space-y-4">
+                        {FAQ_ITEMS.map((item, index) => {
+                            const isOpen = openFaqIndex === index;
+                            return (
+                                <div 
+                                    key={index}
+                                    className="rounded-2xl border border-white/5 bg-white/[0.01] backdrop-blur-md overflow-hidden hover:border-purple-500/20 transition-colors"
+                                >
+                                    <button
+                                        onClick={() => setOpenFaqIndex(isOpen ? null : index)}
+                                        className="w-full px-6 py-5 flex items-center justify-between text-left focus:outline-none"
+                                    >
+                                        <span className="text-sm md:text-lg font-bold text-white hover:text-purple-300 transition-colors">
+                                            {item.question}
+                                        </span>
+                                        <motion.span
+                                            animate={{ rotate: isOpen ? 180 : 0 }}
+                                            transition={{ type: "spring", stiffness: 300, damping: 20 }}
+                                            className="text-purple-400 ml-4 shrink-0"
+                                        >
+                                            <ChevronRight size={20} />
+                                        </motion.span>
+                                    </button>
+                                    
+                                    <AnimatePresence initial={false}>
+                                        {isOpen && (
+                                            <motion.div
+                                                initial={{ height: 0, opacity: 0 }}
+                                                animate={{ height: "auto", opacity: 1 }}
+                                                exit={{ height: 0, opacity: 0 }}
+                                                transition={{ duration: 0.25, ease: "easeInOut" }}
+                                            >
+                                                <div className="px-6 pb-6 pt-1 text-xs md:text-sm text-gray-400 leading-relaxed font-light border-t border-white/5 bg-white/[0.005]">
+                                                    {item.answer}
+                                                </div>
+                                            </motion.div>
+                                        )}
+                                    </AnimatePresence>
+                                </div>
+                            );
+                        })}
+                    </div>
+                </ScrollLinkedSection>
 
                 {/* ─── BOTTOM CTA WRAPPER ─── */}
-                <ScrollLinkedSection className="p-10 md:p-16 rounded-[3rem] bg-gradient-to-br from-purple-500/10 via-white/[0.02] to-sky-500/10 border border-purple-500/20 text-center relative overflow-hidden group">
-                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] bg-purple-500/10 rounded-full blur-[80px] pointer-events-none group-hover:scale-120 transition-transform duration-1000" />
+                <ScrollLinkedSection className="p-7 sm:p-10 md:p-16 rounded-[2rem] md:rounded-[3rem] bg-gradient-to-br from-purple-500/10 via-white/[0.02] to-sky-500/10 border border-purple-500/20 text-center relative overflow-hidden group">
+                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[250px] md:w-[350px] h-[250px] md:h-[350px] bg-purple-500/10 rounded-full blur-[80px] pointer-events-none" />
                     
                     <motion.div 
                         variants={itemVariants}
-                        className="relative z-10 max-w-2xl mx-auto space-y-8"
+                        className="relative z-10 max-w-2xl mx-auto space-y-6 md:space-y-8"
                     >
-                        <h2 className="text-3xl md:text-5xl font-heading font-black text-white leading-tight">
+                        <h2 className="text-2xl sm:text-3xl md:text-5xl font-heading font-black text-white leading-tight">
                             Democratize the Elite <br />
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-sky-400">
                                 Data Layer.
                             </span>
                         </h2>
                         
-                        <p className="text-gray-400 text-sm md:text-base leading-relaxed font-light">
+                        <p className="text-sm md:text-base text-gray-400 leading-relaxed font-light">
                             Want to examine the algorithms or join the selection community? Let's connect and win. 
                             Education belongs to the learners.
                         </p>
 
-                        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                            <Link to="/login" className="w-full sm:w-auto px-10 py-4.5 bg-purple-600 hover:bg-purple-500 text-white font-bold text-base rounded-2xl shadow-lg hover:shadow-purple-500/30 transition-all hover:scale-[1.03] flex items-center justify-center gap-2">
+                        <div className="flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-4">
+                            <Link to="/login" className="w-full sm:w-auto px-7 md:px-10 py-3.5 md:py-4 bg-purple-600 hover:bg-purple-500 text-white font-bold text-sm md:text-base rounded-2xl shadow-lg hover:shadow-purple-500/30 transition-all hover:scale-[1.03] flex items-center justify-center gap-2">
                                 Launch Platform <CornerDownLeft size={16} />
                             </Link>
-                            <Link to="/contact" className="w-full sm:w-auto px-10 py-4.5 bg-white/5 hover:bg-white/10 text-white border border-white/10 font-bold text-base rounded-2xl transition-all flex items-center justify-center gap-2">
+                            <Link to="/contact" className="w-full sm:w-auto px-7 md:px-10 py-3.5 md:py-4 bg-white/5 hover:bg-white/10 text-white border border-white/10 font-bold text-sm md:text-base rounded-2xl transition-all flex items-center justify-center gap-2">
                                 Get In Touch <Share2 size={16} />
                             </Link>
                         </div>

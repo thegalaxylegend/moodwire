@@ -133,8 +133,8 @@ function generateArticleSchema(meta: BlogMeta, wordCount: number): object {
         "image": meta.heroImage.startsWith('http') ? meta.heroImage : `${BASE_URL}${meta.heroImage}`,
         "author": {
             "@type": "Person",
-            "name": "Ayush",
-            "url": `${BASE_URL}/about`
+            "name": "Ayush Kumar",
+            "url": `${BASE_URL}/founder`
         },
         "publisher": {
             "@type": "Organization",
@@ -264,7 +264,8 @@ function generateEducationSchema(meta: BlogMeta, headings: string[]): object {
         "learningResourceType": "Revision Notes",
         "author": {
             "@type": "Person",
-            "name": "Ayush"
+            "name": "Ayush Kumar",
+            "url": `${BASE_URL}/founder`
         },
         "provider": {
             "@type": "Organization",

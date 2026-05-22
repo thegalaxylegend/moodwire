@@ -21,7 +21,7 @@ export const AboutAuthor = ({ compact = false }: AboutAuthorProps) => {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Ayush Kumar",
-        "url": `${SITE_URL}/about`,
+        "url": `${SITE_URL}/founder`,
         "sameAs": [
             SOCIAL_LINKS.twitter.url,
             SOCIAL_LINKS.threads.url,
@@ -43,7 +43,7 @@ export const AboutAuthor = ({ compact = false }: AboutAuthorProps) => {
                 "addressCountry": "IN"
             }
         },
-        "description": "Class 11 student at KV Darbhanga who built Exam Compass — an AI-powered exam prep platform — while preparing for JEE. Every feature was designed from real study experience.",
+        "description": "Class 12 student at KV Darbhanga who built Exam Compass — an AI-powered exam prep platform — while preparing for JEE. Every feature was designed from real study experience.",
         "knowsAbout": [
             "JEE Mains Preparation",
             "NEET Preparation",
@@ -144,7 +144,7 @@ export const AboutAuthor = ({ compact = false }: AboutAuthorProps) => {
                 </div>
 
                 {/* Hidden structured data for crawlers */}
-                <meta itemProp="url" content={`${SITE_URL}/about`} />
+                <meta itemProp="url" content={`${SITE_URL}/founder`} />
                 <span itemProp="worksFor" itemScope itemType="https://schema.org/Organization" style={{ display: 'none' }}>
                     <meta itemProp="name" content="Exam Compass" />
                     <meta itemProp="url" content={SITE_URL} />

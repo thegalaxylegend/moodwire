@@ -444,13 +444,14 @@ export const TopicPage = () => {
                         </div>
 
                         <AuthorBio 
-                            name="Ayush"
+                            name="Ayush Kumar"
                             role="Founder, ExamCompass"
-                            bio="Class 11 student at KV Darbhanga, Bihar. Built ExamCompass as a personal study tool after analyzing 50+ past papers. All topic notes and PYQs are cross-verified against NCERT textbooks."
+                            bio="Class 12 student at KV Darbhanga, Bihar. Built ExamCompass as a personal study tool after analyzing 50+ past papers. All topic notes and PYQs are cross-verified against NCERT textbooks."
                             credentials={["KV Darbhanga, Bihar", "50+ PYQ Papers Analyzed", "NCERT-Aligned Content"]}
-                            linkedin="https://linkedin.com"
-                            twitter="https://twitter.com"
-                    />
+                            linkedin="https://www.linkedin.com/in/ayush-kumar-a23260401"
+                            twitter="https://x.com/Ayush_thelegend"
+                            instagram="https://www.instagram.com/mr._.ayush_kr"
+                        />
                 </motion.div>
 
             </div>
