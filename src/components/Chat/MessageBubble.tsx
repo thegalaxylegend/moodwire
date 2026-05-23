@@ -9,6 +9,7 @@ import 'highlight.js/styles/github-dark.css';
 import { Bot, User, ArrowRight, Volume2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { usePerformance } from '../../context/PerformanceProvider';
+import DOMPurify from 'dompurify';
 
 interface Message {
     id: number;
@@ -187,7 +188,7 @@ const Mermaid = ({ chart, isStreaming }: { chart: string; isStreaming?: boolean 
                         return;
                     }
                     if (isMounted && ref.current) {
-                        ref.current.innerHTML = svg;
+                        ref.current.innerHTML = DOMPurify.sanitize(svg);
                     }
                 }).catch((err) => {
                     if (isMounted) {
