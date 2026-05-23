@@ -68,7 +68,6 @@ export const StudyPlan = () => {
         let focusAreas = "General high-yield topics";
         try {
             if (user?.id) {
-                // const { data: weakTopics } = await supabase...
                 const q = query(collection(db, 'syllabus'), where('user_id', '==', user.id), where('is_completed', '==', false), limit(5));
                 const snap = await getDocs(q);
                 const weakTopics = snap.docs.map(d => d.data());
