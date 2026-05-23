@@ -183,7 +183,7 @@ function repairBlog(filePath: string): RepairStats {
       // and then count braces to find the END.
       const nakedCmdRegex = /\\(frac|sqrt|text|vec|hat|bar|boxed|mathrm|mathbb|binom|sin|cos|tan|log|ln|lim)(\{|\[|\s|$)/g;
       let match;
-      let offset = 0;
+      const offset = 0;
       
       while ((match = nakedCmdRegex.exec(line)) !== null) {
         const startIdx = match.index;

@@ -604,7 +604,7 @@ export const Overview = () => {
                             else if (m.topic && m.topic.toLowerCase().includes('full mock')) inferredType = 'full';
                             else inferredType = 'quick';
                         }
-                        let maxScore = m.total_marks || m.total || (Number(m.total_questions || m.totalQuestions || 0) * 4) || 100;
+                        const maxScore = m.total_marks || m.total || (Number(m.total_questions || m.totalQuestions || 0) * 4) || 100;
                         let norm = 0;
                         if (m.percentage !== undefined) norm = Number(m.percentage);
                         else if (m.score !== undefined && maxScore > 0) norm = Math.round((Number(m.score) / maxScore) * 100);
@@ -1004,7 +1004,7 @@ export const Overview = () => {
                                     percentage = key ? subjectPreparedness[key] : 0;
                                 }
                             }
-                            let score = percentage / 100;
+                            const score = percentage / 100;
                             
                             let colorClass = 'text-amber-400';
                             let barGradient = 'from-amber-500 to-yellow-400';

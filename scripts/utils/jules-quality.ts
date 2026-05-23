@@ -445,7 +445,7 @@ ${mcqsHtml}
 
 export function standardizeMarkdown(markdown: string, meta: { title: string, heroImage: string, lastUpdated: string, practiceLink: string, manualReview?: boolean, recall?: string[] }): string {
     let body = markdown;
-    let frontmatter = '';
+    const frontmatter = '';
     // Aggressively strip legacy metadata patterns
     body = markdown.replace(/^---[\s\S]*?---\n*/, '').trim(); 
     body = body.replace(/category:\s*"(.*?)"/g, '');
@@ -632,7 +632,7 @@ export function normalizeMarkdownMCQs(body: string): string {
     return body.replace(mcqBlockRegex, (match, head, optionsBody, answer) => {
         const optionStarterRegex = /(\n?\s*\*?\*?[A-D][\)\.]\s*\*?\*?)/g;
         
-        let repairedOptions = optionsBody.trim()
+        const repairedOptions = optionsBody.trim()
             .replace(optionStarterRegex, (m: string) => `\n${m.trim()} `)
             .split('\n')
             .map((l: string) => l.trim())

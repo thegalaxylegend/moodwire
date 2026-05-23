@@ -53,7 +53,7 @@ function repairBlog(filePath: string): RepairStats {
 
     // Separate frontmatter and body
     const fmMatch = originalContent.match(/^(---[\s\S]*?---\r?\n)([\s\S]*)$/);
-    let frontmatter = fmMatch ? fmMatch[1] : '';
+    const frontmatter = fmMatch ? fmMatch[1] : '';
     let body = fmMatch ? fmMatch[2] : originalContent;
 
     const wordsBefore = countWords(body);

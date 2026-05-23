@@ -48,7 +48,7 @@ const TextReveal = ({ children, className = '', delay = 0 }: { children: string;
             initial={isMobile ? { opacity: 0 } : { opacity: 0, y: 15 }}
             whileInView={isMobile ? { opacity: 1 } : { opacity: 1, y: 0 }}
             viewport={{ once: true, margin: isMobile ? '-2px' : '-20px' }}
-            transition={isMobile ? { delay: 0, duration: 0.2 } : { delay, duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
+            transition={isMobile ? { delay: 0, duration: 0.2 } : { delay, duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
             className={`inline-block ${className}`}
         >
             {children}
@@ -203,7 +203,7 @@ export const LandingPage = () => {
                 initial={isMobile ? { opacity: 0 } : { opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-10px" }}
-                transition={{ duration: isMobile ? 0.3 : 0.8, ease: [0.22, 1, 0.36, 1] }}
+                transition={{ duration: isMobile ? 0.3 : 0.8, ease: [0.16, 1, 0.3, 1] }}
             >
                 <ExamGrid />
             </motion.div>
@@ -215,7 +215,7 @@ export const LandingPage = () => {
                     initial={{ scaleX: 0 }}
                     whileInView={{ scaleX: 1 }}
                     viewport={{ once: true }}
-                    transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
+                    transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
                     className="absolute top-0 left-[10%] right-[10%] h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent origin-left"
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/[0.03] to-transparent" />
@@ -232,7 +232,7 @@ export const LandingPage = () => {
                             initial={isMobile ? { opacity: 0 } : { opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
-                            transition={{ delay: isMobile ? 0 : i * 0.05, duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
+                            transition={{ delay: isMobile ? 0 : i * 0.05, duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
                             className="space-y-2 text-center md:text-left"
                         >
                             <div ref={stat.ref?.ref}>
@@ -250,7 +250,7 @@ export const LandingPage = () => {
                     initial={{ scaleX: 0 }}
                     whileInView={{ scaleX: 1 }}
                     viewport={{ once: true }}
-                    transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
+                    transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
                     className="absolute bottom-0 left-[10%] right-[10%] h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent origin-right"
                 />
             </section>
@@ -303,7 +303,7 @@ export const LandingPage = () => {
                             initial={{ opacity: 0, y: 50, rotate: 1 }}
                             whileInView={{ opacity: 1, y: 0, rotate: 0 }}
                             viewport={{ once: true, margin: "-20px" }}
-                            transition={{ delay: isMobile ? 0 : i * 0.1, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+                            transition={{ delay: isMobile ? 0 : i * 0.1, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
                             whileHover={isMobile ? {} : { y: -8, scale: 1.01, transition: { type: 'spring', stiffness: 300, damping: 20 } }}
                             className="glass-card group relative p-10 overflow-hidden"
                         >
@@ -331,7 +331,7 @@ export const LandingPage = () => {
                     initial={{ scaleX: 0 }}
                     whileInView={{ scaleX: 1 }}
                     viewport={{ once: true }}
-                    transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
+                    transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
                     className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent origin-center"
                 />
                 <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[120px] pointer-events-none animate-breathing" />
@@ -384,7 +384,7 @@ export const LandingPage = () => {
                             initial={{ opacity: 0, x: i % 2 === 0 ? -60 : 60 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true, margin: "-20px" }}
-                            transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
+                            transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
                             whileHover={{ x: 10, transition: { type: 'spring', stiffness: 300, damping: 20 } }}
                             className="glass-card flex flex-col md:flex-row gap-8 items-center md:items-start p-10 group relative overflow-hidden"
                         >
@@ -413,7 +413,7 @@ export const LandingPage = () => {
                     initial={{ opacity: 0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
+                    transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
                     className="max-w-3xl mx-auto text-center relative z-10"
                 >
                     <motion.div 
@@ -435,7 +435,7 @@ export const LandingPage = () => {
                     
                     <motion.button
                         onClick={() => navigate(user && !user.isGuest ? '/dashboard' : '/login')}
-                        whileHover={{ scale: 1.05, y: -3 }}
+                        whileHover={{ scale: 1.05, y: -4, boxShadow: "0px 10px 30px rgba(139, 92, 246, 0.4)" }}
                         whileTap={{ scale: 0.97 }}
                         transition={{ type: 'spring', stiffness: 400, damping: 17 }}
                         className="px-10 py-5 bg-primary hover:bg-primary/90 text-white rounded-2xl font-bold text-xl animate-glow-pulse transition-all inline-flex items-center gap-3 group"

@@ -16,7 +16,7 @@ function cleanupSurgical(filePath: string, dryRun: boolean = true) {
     if (!fmMatch) return;
     
     const frontmatter = fmMatch[1];
-    let body = rawContent.slice(fmMatch[0].length).trimStart();
+    const body = rawContent.slice(fmMatch[0].length).trimStart();
     
     const heroImageMatch = frontmatter.match(/heroImage:\s*["']?([^"'\n]+)["']?/);
     const heroImage = heroImageMatch ? heroImageMatch[1].trim() : '';

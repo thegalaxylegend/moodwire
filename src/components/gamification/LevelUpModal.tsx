@@ -69,7 +69,7 @@ export const LevelUpModal: React.FC<LevelUpModalProps> = ({ newXp, onClose }) =>
                     initial={{ scale: 0.5, y: 100, opacity: 0 }}
                     animate={{ scale: 1, y: 0, opacity: 1 }}
                     exit={{ scale: 0.8, y: -50, opacity: 0 }}
-                    transition={{ type: 'spring', damping: 15 }}
+                    transition={{ type: "spring", damping: 12, stiffness: 100, mass: 0.8 }}
                     className="relative w-full max-w-sm bg-gradient-to-b from-white/[0.1] to-white/[0.05] border border-white/20 rounded-[32px] p-8 text-center shadow-2xl overflow-hidden"
                 >
                     {/* Background Glow */}

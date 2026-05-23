@@ -43,12 +43,12 @@ async function rehabilitateBlog(slug: string) {
     const filePath = path.join(BLOG_DIR, `${slug}.md`);
     if (!fs.existsSync(filePath)) return;
 
-    let rawContent = fs.readFileSync(filePath, 'utf8');
+    const rawContent = fs.readFileSync(filePath, 'utf8');
     const fmMatch = rawContent.match(/^(---[\s\S]*?---\r?\n)([\s\S]*)$/);
     if (!fmMatch) return;
 
-    let frontmatter = fmMatch[1];
-    let body = fmMatch[2];
+    const frontmatter = fmMatch[1];
+    const body = fmMatch[2];
 
     console.log(`🔧 Surgically Rehabilitating ${slug}...`);
     const sanitizedBody = surgicalSanitize(body);

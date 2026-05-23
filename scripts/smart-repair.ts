@@ -126,7 +126,7 @@ async function repairBlog(filePath: string, isDryRun: boolean, canUseAi: boolean
 
     // Separate frontmatter and body
     const fmMatch = content.match(/^(---[\s\S]*?---\r?\n)([\s\S]*)$/);
-    let frontmatter = fmMatch ? fmMatch[1] : '';
+    const frontmatter = fmMatch ? fmMatch[1] : '';
     let body = fmMatch ? fmMatch[2] : content;
 
     const titleMatch = frontmatter.match(/title:\s*["'](.+?)["']/);

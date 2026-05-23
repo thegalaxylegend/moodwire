@@ -58,7 +58,7 @@ export const XPProgress: React.FC<XPProgressProps> = ({ xp }) => {
                 <motion.div
                     initial={{ width: 0 }}
                     animate={{ width: `${progress}%` }}
-                    transition={{ duration: 1.5, ease: "easeOut" }}
+                    transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1] }}
                     className="h-full rounded-full relative group/progress"
                     style={{
                         background: `linear-gradient(to right, ${currentRank.color}, ${nextRank.color})`,

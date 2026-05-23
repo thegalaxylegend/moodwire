@@ -472,7 +472,7 @@ export const SpacedRepetitionService = {
                 await batch.commit();
             } catch (e) {
                 // Silent fail — will retry next sync
-                // eslint-disable-next-line @typescript-eslint/no-unused-vars
+
                 // const _ignored = e;
             }
         }

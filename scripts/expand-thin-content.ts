@@ -71,7 +71,7 @@ async function expandBlog(file: string) {
     const fp = path.join(BLOG_DIR, file);
     if (!fs.existsSync(fp)) { console.log(`SKIP: ${file} not found`); return; }
     
-    let content = fs.readFileSync(fp, 'utf-8');
+    const content = fs.readFileSync(fp, 'utf-8');
     
     // Extract frontmatter and body
     const fmMatch = content.match(/^(---[\s\S]*?---\r?\n)([\s\S]*)$/);

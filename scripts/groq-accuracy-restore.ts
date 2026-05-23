@@ -65,7 +65,7 @@ async function runHardenedAudit() {
                 const matchIcon = result.verification_details?.verifier_matches ? '✅' : '⚠️';
                 console.log(`  ✅ APPROVED (${result.confidence.toFixed(2)}, Match: ${matchIcon})`);
 
-                let row = `| ✅ | ${t.topic} | ${t.subject} | ${result.confidence.toFixed(2)} | ${matchIcon} |\n`;
+                const row = `| ✅ | ${t.topic} | ${t.subject} | ${result.confidence.toFixed(2)} | ${matchIcon} |\n`;
                 fs.appendFileSync(reportPath, row);
 
                 // Save individual question details to report

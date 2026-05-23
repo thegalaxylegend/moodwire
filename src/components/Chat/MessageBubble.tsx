@@ -30,7 +30,7 @@ const sanitizeMermaid = (chart: string) => {
     // 0. Global String Detox: Nuke legacy ASCII Art separators from the entire block
     // We target 4+ chars to leave valid '---' (dash links) untouched if needed, 
     // but the AI usually hallucinates 10+ dashes for 'separators'.
-    let cleanChart = chart
+    const cleanChart = chart
         .replace(/(?<!-)[-=_+]{4,}(?!>)/g, '') // Remove long separators ONLY if not part of an arrow (-->)
         .replace(/\+[-=]+\+/g, '')  // Remove ASCII box lids like "+---+"
         .replace(/\|[-= ]+\|/g, ''); // Remove ASCII box contents like "| --- |"
@@ -90,7 +90,7 @@ const sanitizeMermaid = (chart: string) => {
         
         // Auto-close unclosed node brackets [ ( {
         const counts = { '[': 0, ']': 0, '(': 0, ')': 0, '{': 0, '}': 0 };
-        for (let char of l) { 
+        for (const char of l) {
             if (counts.hasOwnProperty(char)) counts[char as keyof typeof counts]++; 
             else if (char === ']' && counts['['] > 0) counts['[']--;
             else if (char === ')' && counts['('] > 0) counts['(']--;

@@ -56,7 +56,7 @@ STRICT RULES:
 async function generateSection(topic: string, subject: string, context: string, sectionTitle: string, customRules: string): Promise<string> {
     const prompt = `Topic: ${topic} (${subject})\nSection: ${sectionTitle}\n${PERFECTION_PROMPT}\n\nCustom Rule for this section: ${customRules}\nContext: ${context}`;
 
-    let result = await nodeRouter.route([{ role: "user", content: prompt }], 'T1' as TaskTier);
+    const result = await nodeRouter.route([{ role: "user", content: prompt }], 'T1' as TaskTier);
     return result || "";
 }
 
@@ -99,7 +99,7 @@ async function syncRegistryAtomic(item: BlogItem, title: string) {
     const registryPath = path.join(__dirname, '../src/data/blogs.ts');
     
     try {
-        let content = fs.readFileSync(registryPath, 'utf8');
+        const content = fs.readFileSync(registryPath, 'utf8');
         
         // 1. Double-Check Existence (Collision Guard P3.3)
         if (content.includes(`"id": "${item.slug}"`)) {
@@ -161,7 +161,7 @@ async function deepRegenerate(item: BlogItem) {
     }
 
     // PHASE 2: MODULE WRITING
-    let bodyBlocks: string[] = [];
+    const bodyBlocks: string[] = [];
     for (const [idx, section] of outline.entries()) {
         console.log(`  🖋️ Module ${idx + 1}/${outline.length}: ${section.title}...`);
         const block = await generateSection(item.topic, item.subject, section.context, section.title, "Exhaustive technical detail. 800+ words.");

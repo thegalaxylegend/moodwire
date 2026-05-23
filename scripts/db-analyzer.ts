@@ -141,7 +141,7 @@ async function analyze() {
   const BT = String.fromCharCode(96);
 
   // Generate Markdown
-  let md = `# 📊 ExamCompass Local D1 Question Bank Audit & Analysis
+  const md = `# 📊 ExamCompass Local D1 Question Bank Audit & Analysis
 
 Generated on: **${new Date().toLocaleString()}**  
 Database Size: **${totalQuestions.toLocaleString()} questions**  
