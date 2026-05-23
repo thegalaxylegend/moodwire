@@ -1,9 +1,8 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import { TrendingUp, Sparkles, Filter, Search, Award, Zap, Crosshair } from 'lucide-react';
+import { TrendingUp, Sparkles, Search, Award, Zap, Crosshair } from 'lucide-react';
 import { useUserStore } from '../../store/userStore';
-import { EloService } from '../../services/eloService';
 import { usePerformance } from '../../context/PerformanceProvider';
 
 interface Node {

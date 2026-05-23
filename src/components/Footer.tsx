@@ -81,6 +81,7 @@ export const Footer = () => {
                         <h4 className="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-4">Resources</h4>
                         <ul className="space-y-2">
                             {[
+                                { name: 'Download App', href: '/download' },
                                 { name: 'Revision Notes', href: '/blog' },
                                 { name: 'AI Mock Tests', href: '/dashboard/mock' },
                                 { name: 'PYQ Practice', href: '/jee-mains' },

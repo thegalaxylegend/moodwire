@@ -135,8 +135,8 @@ export const Analytics = () => {
             const classesMatch = (userClass: string, attemptClass: string): boolean => {
                 if (!userClass || !attemptClass) return true;
                 if (userClass.toLowerCase() === 'general' || attemptClass.toLowerCase() === 'general') return true;
-                const userDigits = userClass.match(/\d+/g) || [];
-                const attemptDigits = attemptClass.match(/\d+/g) || [];
+                const userDigits: string[] = userClass.match(/\d+/g) || [];
+                const attemptDigits: string[] = attemptClass.match(/\d+/g) || [];
                 if (userDigits.length === 0 || attemptDigits.length === 0) return true;
                 return userDigits.some(d => attemptDigits.includes(d));
             };
@@ -161,13 +161,13 @@ export const Analytics = () => {
             };
 
             // Merge & Normalise
-            const mergedMocks = (Array.isArray(cloudMocks) ? cloudMocks : []).concat(Array.isArray(localMocks) ? localMocks : []);
+            const mergedMocks: any[] = (Array.isArray(cloudMocks) ? cloudMocks as any[] : []).concat(Array.isArray(localMocks) ? localMocks : []);
             
             // Filter by active target exam and class boundaries
             const activeUserClass = user?.userClass || '';
             const activeUserExam = user?.targetExam || '';
 
-            const filteredMocks = mergedMocks.filter(m => {
+            const filteredMocks = mergedMocks.filter((m: any) => {
                 if (!m) return false;
                 const attemptClass = m.user_class || m.userClass || '';
                 if (!classesMatch(activeUserClass, attemptClass)) return false;
@@ -175,7 +175,7 @@ export const Analytics = () => {
                 return true;
             });
 
-            let mocksToProcess = filteredMocks;
+            let mocksToProcess: any[] = filteredMocks;
             let isSimulation = false;
             
             if (filteredMocks.length === 0) {

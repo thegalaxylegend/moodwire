@@ -47,6 +47,7 @@ const AboutPage = lazy(() => import('./pages/public/AboutPage').then(module => (
 const ContactPage = lazy(() => import('./pages/public/ContactPage').then(module => ({ default: module.ContactPage })));
 const FounderPage = lazy(() => import('./pages/public/FounderPage'));
 const ParentReport = lazy(() => import('./pages/public/ParentReport').then(module => ({ default: module.ParentReport })));
+const DownloadPage = lazy(() => import('./pages/public/DownloadPage').then(module => ({ default: module.DownloadPage })));
 const NotFoundPage = lazy(() => import('./pages/public/NotFoundPage').then(module => ({ default: module.NotFoundPage })));
 
 // Auth
@@ -169,6 +170,7 @@ function AppContent() {
             <Route path="/founder" element={<Suspense fallback={<BlogSkeleton />}><FounderPage /></Suspense>} />
             <Route path="/contact" element={<Suspense fallback={<BlogSkeleton />}><ContactPage /></Suspense>} />
             <Route path="/report/:userId" element={<Suspense fallback={<BlogSkeleton />}><ParentReport /></Suspense>} />
+            <Route path="/download" element={<Suspense fallback={<BlogSkeleton />}><DownloadPage /></Suspense>} />
 
             <Route element={<Suspense fallback={<DashboardSkeleton />}><ProtectedLayout /></Suspense>}>
               <Route path="/onboarding" element={<Onboarding />} />

@@ -537,8 +537,8 @@ export const Overview = () => {
                 const classesMatch = (userClass: string, attemptClass: string): boolean => {
                     if (!userClass || !attemptClass) return true;
                     if (userClass.toLowerCase() === 'general' || attemptClass.toLowerCase() === 'general') return true;
-                    const userDigits = userClass.match(/\d+/g) || [];
-                    const attemptDigits = attemptClass.match(/\d+/g) || [];
+                    const userDigits: string[] = userClass.match(/\d+/g) || [];
+                    const attemptDigits: string[] = attemptClass.match(/\d+/g) || [];
                     if (userDigits.length === 0 || attemptDigits.length === 0) return true;
                     return userDigits.some(d => attemptDigits.includes(d));
                 };
