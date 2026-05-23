@@ -1,5 +1,6 @@
 import { useState, useEffect, useMemo } from 'react';
 import mermaid from 'mermaid';
+import DOMPurify from 'dompurify';
 import { SYLLABUS_DB } from '../../lib/constants';
 import { useUserStore } from '../../store/userStore';
 
@@ -168,7 +169,7 @@ export const ConceptMap = () => {
                     ) : (
                         <div 
                             className="w-full h-full overflow-auto cursor-grab active:cursor-grabbing flex justify-center py-10"
-                            dangerouslySetInnerHTML={{ __html: svgCode }}
+                            dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(svgCode) }}
                         />
                     )}
                 </div>
