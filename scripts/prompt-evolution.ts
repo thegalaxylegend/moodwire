@@ -117,8 +117,8 @@ function getCurrentPrompt(): string {
         const generatorPath = path.join(__dirname, 'blog-generator.ts');
         const content = fs.readFileSync(generatorPath, 'utf-8');
         // Try the actual variable name first (GRANDMASTER_IDENTITY_DEFAULT)
-        const match = content.match(/GRANDMASTER_IDENTITY_DEFAULT\s*=\s*`([\s\S]*?)`;/)
-            || content.match(/SYSTEM_PROMPT_CORE\s*=\s*`([\s\S]*?)`;/);
+        const match = content.match(/const\s+GRANDMASTER_IDENTITY_DEFAULT\s*=\s*`([\s\S]*?)`;/)
+            || content.match(/const\s+SYSTEM_PROMPT_CORE\s*=\s*`([\s\S]*?)`;/);
         if (match) {
             console.log(`✅ Extracted current prompt from blog-generator.ts (${match[1].trim().length} chars)`);
             return match[1].trim();
