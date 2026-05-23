@@ -20,7 +20,7 @@ export const getReferralStats = async (userId: string) => {
             return snap.data() as { count: number; total_xp_earned: number; codes_generated: string[] };
         }
         return { count: 0, total_xp_earned: 0, codes_generated: [] };
-    } catch (e) {
+    } catch (e: unknown) {
         console.error("Error fetching referral stats", e);
         return null;
     }
@@ -141,7 +141,7 @@ export const registerReferralCode = async (userId: string) => {
 
         return code;
 
-    } catch (e) {
+    } catch (e: unknown) {
         console.error("Register code failed", e);
         return null;
     }
