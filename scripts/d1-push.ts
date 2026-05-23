@@ -47,7 +47,7 @@ function parseSQLStatements(content: string): string[] {
   const statements: string[] = [];
   
   for (let i = 1; i < parts.length; i++) {
-    const stmt = separator + parts[i].trim();
+    const stmt = 'INSERT OR REPLACE INTO questions (' + parts[i].trim();
     if (stmt.endsWith(');')) {
       statements.push(stmt);
     } else {

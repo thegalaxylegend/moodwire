@@ -11,27 +11,27 @@ import { fileURLToPath } from 'url';
 import 'dotenv/config';
 import type { RawQuestion } from './bulk-scraper.js';
 
-const __dirname  = path.dirname(fileURLToPath(import.meta.url));
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const CACHE_FILE = path.join(__dirname, '..', 'scratch', 'raw_questions_cache.jsonl');
-const DONE_FILE  = path.join(__dirname, '..', 'scratch', 'processed_hashes.json');
-const LIMITS_FILE= path.join(__dirname, '..', 'scratch', 'daily_limits.json');
-const SEED_FILE  = path.join(__dirname, 'seed.sql');
-const REPORT_FILE= path.join(__dirname, '..', 'batch_pipeline_report.md');
+const DONE_FILE = path.join(__dirname, '..', 'scratch', 'processed_hashes.json');
+const LIMITS_FILE = path.join(__dirname, '..', 'scratch', 'daily_limits.json');
+const SEED_FILE = path.join(__dirname, 'seed.sql');
+const REPORT_FILE = path.join(__dirname, '..', 'batch_pipeline_report.md');
 
 // ─── CLI Args ─────────────────────────────────────────────────────────────
 const argv = process.argv.slice(2);
-const arg  = (k: string, def = '') => argv.find(a => a.startsWith(`--${k}=`))?.split('=')[1] ?? def;
-const has  = (k: string) => argv.some(a => a === `--${k}` || a.startsWith(`--${k}=`));
+const arg = (k: string, def = '') => argv.find(a => a.startsWith(`--${k}=`))?.split('=')[1] ?? def;
+const has = (k: string) => argv.some(a => a === `--${k}` || a.startsWith(`--${k}=`));
 
-const MODE        = (arg('mode', 'fast_tag')) as 'fast_tag' | 'full_curation';
-const RAW_BS      = Number(arg('batch-size', '20'));
-const BATCH_SIZE  = RAW_BS;
-const LIMIT       = Number(arg('limit', '99999'));
-const OFFSET      = Number(arg('offset', '0'));
-const FILTER_CLASS= arg('class', '');
+const MODE = (arg('mode', 'fast_tag')) as 'fast_tag' | 'full_curation';
+const RAW_BS = Number(arg('batch-size', '20'));
+const BATCH_SIZE = RAW_BS;
+const LIMIT = Number(arg('limit', '99999'));
+const OFFSET = Number(arg('offset', '0'));
+const FILTER_CLASS = arg('class', '');
 const FILTER_EXAM = arg('exam', '');
-const DRY_RUN     = has('dry-run');
-const NO_GEMINI   = has('no-gemini'); // skip Gemini when it's network-blocked
+const DRY_RUN = has('dry-run');
+const NO_GEMINI = has('no-gemini'); // skip Gemini when it's network-blocked
 const CONCURRENCY = Number(arg('workers', MODE === 'fast_tag' ? '6' : '2')); // 2 for full_curation avoids key collision
 
 // ─── 14-BAND ELO REFERENCE (embedded in EVERY AI prompt) ──────────────────
@@ -71,7 +71,7 @@ MANDATORY RULES — violation = wrong question:
 class KeyRotator {
   private keys: string[];
   private idx = 0;
-  constructor(envKeys: (string|undefined)[]) {
+  constructor(envKeys: (string | undefined)[]) {
     this.keys = envKeys.filter(Boolean) as string[];
   }
   next(): string {
@@ -84,18 +84,18 @@ class KeyRotator {
 }
 
 const cerebrasKeys = new KeyRotator([
-  process.env.CEREBRAS_API_KEY,   process.env.CEREBRAS_API_KEY_2,
+  process.env.CEREBRAS_API_KEY, process.env.CEREBRAS_API_KEY_2,
   process.env.CEREBRAS_API_KEY_3, process.env.CEREBRAS_API_KEY_4,
   process.env.CEREBRAS_API_KEY_5, process.env.CEREBRAS_API_KEY_6,
   process.env.CEREBRAS_API_KEY_7, process.env.CEREBRAS_API_KEY_8,
 ]);
 const geminiKeys = new KeyRotator([
-  process.env.VITE_GEMINI_API_KEY,   process.env.VITE_GEMINI_API_KEY_2,
+  process.env.VITE_GEMINI_API_KEY, process.env.VITE_GEMINI_API_KEY_2,
   process.env.VITE_GEMINI_API_KEY_3, process.env.VITE_GEMINI_API_KEY_4,
   process.env.VITE_GEMINI_API_KEY_5, process.env.VITE_GEMINI_API_KEY_6,
 ]);
 const groqKeys = new KeyRotator([
-  process.env.VITE_GROQ_API_KEY,   process.env.VITE_GROQ_API_KEY_2,
+  process.env.VITE_GROQ_API_KEY, process.env.VITE_GROQ_API_KEY_2,
   process.env.VITE_GROQ_API_KEY_3, process.env.VITE_GROQ_API_KEY_4,
   process.env.VITE_GROQ_API_KEY_5, process.env.VITE_GROQ_API_KEY_6,
   process.env.VITE_GROQ_API_KEY_7, process.env.VITE_GROQ_API_KEY_8,
@@ -108,7 +108,7 @@ function loadLimits(): DailyLimits {
   try {
     const d: DailyLimits = JSON.parse(fs.readFileSync(LIMITS_FILE, 'utf-8'));
     if (d.date === today) return d;
-  } catch {}
+  } catch { }
   return { date: today, cerebras: 0, groq: 0, gemini: 0 };
 }
 function saveLimits(l: DailyLimits): void {
@@ -118,38 +118,41 @@ function saveLimits(l: DailyLimits): void {
 
 const limits = loadLimits();
 const CEREBRAS_DAILY_MAX = 12000;
-const GROQ_DAILY_MAX     = 5000;
-const GEMINI_DAILY_MAX   = 8000;
+const GROQ_DAILY_MAX = 5000;
+const GEMINI_DAILY_MAX = 8000;
 
 // ─── Backoff & Sleep ──────────────────────────────────────────────────────
-const sleep   = (ms: number) => new Promise(r => setTimeout(r, ms));
-const backoff = (n: number)  => sleep(Math.min(Math.pow(2, n) * 300 + Math.random() * 200, 5000)); // faster backoff for speed
+const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
+const backoff = (n: number) => sleep(Math.min(Math.pow(2, n) * 300 + Math.random() * 200, 5000)); // faster backoff for speed
 
 // ─── JSON Extractor (handles markdown fences + partial JSON) ─────────────
 function extractJSON(raw: string): any {
   if (!raw || typeof raw !== 'string') throw new Error('Empty AI response');
-  try { return JSON.parse(raw); } catch {}
+  try { return JSON.parse(raw); } catch { }
   const stripped = raw.replace(/^```(?:json)?\s*/im, '').replace(/\s*```\s*$/im, '').trim();
-  try { return JSON.parse(stripped); } catch {}
+  try { return JSON.parse(stripped); } catch { }
   const match = raw.match(/(\{[\s\S]*\}|\[[\s\S]*\])/);
-  if (match) { try { return JSON.parse(match[1]); } catch {} }
+  if (match) { try { return JSON.parse(match[1]); } catch { } }
   throw new Error(`Cannot parse JSON: ${raw.slice(0, 120)}`);
 }
 
 // ─── Cerebras API ─────────────────────────────────────────────────────────
 // Smart model list — ordered by quality. Deprecated models auto-removed at runtime.
 const CEREBRAS_MODELS = {
-  quality: ['gpt-oss-120b', 'llama3.1-8b'],     // best quality first
-  fast:    ['llama3.1-8b'],                       // speed-only
+  quality: ['qwen-3-235b-a22b-instruct-2507', 'zai-glm-4.7', 'llama3.1-8b', 'gpt-oss-120b'],     // latest and working quality models first
+  fast: ['llama3.1-8b'],                       // speed-only
 };
 const deprecatedModels = new Set<string>(); // auto-populated when MODEL_NOT_FOUND
+const exhaustedKeyModels = new Set<string>(); // cache key+model combinations that exceeded token quota
 
 async function callCerebras(prompt: string, maxTokens: number, model = 'llama3.1-8b'): Promise<string> {
   if (limits.cerebras >= CEREBRAS_DAILY_MAX) throw new Error('Cerebras daily limit reached');
   if (deprecatedModels.has(model)) throw new Error(`MODEL_NOT_FOUND: ${model}`);
-  const attempts = Math.max(3, Math.ceil(cerebrasKeys.count / 2));
+  const attempts = cerebrasKeys.count;
   for (let attempt = 0; attempt < attempts; attempt++) {
     const key = cerebrasKeys.next();
+    const kmKey = `${key}_${model}`;
+    if (exhaustedKeyModels.has(kmKey)) continue;
     try {
       const res = await fetch('https://api.cerebras.ai/v1/chat/completions', {
         method: 'POST',
@@ -162,8 +165,28 @@ async function callCerebras(prompt: string, maxTokens: number, model = 'llama3.1
           response_format: { type: 'json_object' },
         }),
       });
-      if (res.status === 429) { await backoff(attempt); continue; }
-      if (res.status === 401) { await backoff(attempt); continue; }
+      if (res.status === 429) {
+        const errText = await res.text();
+        const lowerErr = errText.toLowerCase();
+        if (
+          lowerErr.includes('token_quota_exceeded') || 
+          lowerErr.includes('tokens per day limit exceeded') || 
+          lowerErr.includes('insufficient_quota') || 
+          (lowerErr.includes('quota') && !lowerErr.includes('requests per minute') && !lowerErr.includes('concurrency'))
+        ) {
+          exhaustedKeyModels.add(kmKey);
+          process.stdout.write(` [Cerebras ${model} Key ${attempt + 1} Hard Quota Exhausted]`);
+          continue;
+        }
+        process.stdout.write(` [Cerebras 429 Key ${attempt + 1}]`);
+        await backoff(attempt);
+        continue;
+      }
+      if (res.status === 401) {
+        process.stdout.write(` [Cerebras 401]`);
+        await backoff(attempt);
+        continue;
+      }
       if (!res.ok) {
         const err = await res.text();
         if (err.includes('does not exist') || err.includes('not found') || err.includes('deprecated')) {
@@ -190,7 +213,7 @@ async function callCerebras(prompt: string, maxTokens: number, model = 'llama3.1
 // ─── Gemini API ───────────────────────────────────────────────────────────
 async function callGemini(prompt: string, maxTokens: number): Promise<string> {
   if (limits.gemini >= GEMINI_DAILY_MAX) throw new Error('Gemini daily limit reached');
-  const attempts = Math.max(3, Math.ceil(geminiKeys.count / 2));
+  const attempts = geminiKeys.count;
   for (let attempt = 0; attempt < attempts; attempt++) {
     const key = geminiKeys.next();
     if (!key) throw new Error('Gemini: no keys configured');
@@ -214,7 +237,11 @@ async function callGemini(prompt: string, maxTokens: number): Promise<string> {
         }
       );
       clearTimeout(timer);
-      if (res.status === 429) { await backoff(attempt); continue; }
+      if (res.status === 429) {
+        process.stdout.write(` [Gemini 429]`);
+        await backoff(attempt);
+        continue;
+      }
       if (res.status === 400) throw new Error(`Gemini 400: bad request (prompt too long?)`);
       if (!res.ok) throw new Error(`Gemini ${res.status}: ${(await res.text()).slice(0, 120)}`);
       const data: any = await res.json();
@@ -243,7 +270,7 @@ async function callGroq(prompt: string, maxTokens: number): Promise<string> {
   // Only confirmed working models — no deprecated mixtral, no blocked models
   const models = ['llama-3.1-8b-instant', 'llama-3.3-70b-versatile', 'gemma2-9b-it'];
   for (const model of models) {
-    const attempts = Math.max(2, Math.ceil(groqKeys.count / 3));
+    const attempts = groqKeys.count;
     for (let attempt = 0; attempt < attempts; attempt++) {
       const key = groqKeys.next();
       // 8s timeout — if Groq is network-blocked, fail fast instead of hanging
@@ -263,7 +290,11 @@ async function callGroq(prompt: string, maxTokens: number): Promise<string> {
           }),
         });
         clearTimeout(timer);
-        if (res.status === 429) { await backoff(attempt); continue; }
+        if (res.status === 429) {
+          process.stdout.write(` [Groq 429]`);
+          await backoff(attempt);
+          continue;
+        }
         if (!res.ok) {
           const err = await res.text();
           if (err.includes('blocked') || err.includes('not found') || err.includes('decommissioned')) break;
@@ -292,23 +323,23 @@ async function callGroq(prompt: string, maxTokens: number): Promise<string> {
 // For GitHub Actions: set PREFERRED_MODEL env var to override.
 async function callAI(prompt: string, maxTokens: number, mode: 'fast_tag' | 'full_curation'): Promise<any> {
   const modelList = mode === 'full_curation' ? CEREBRAS_MODELS.quality : CEREBRAS_MODELS.fast;
-  
+
   // Build provider list dynamically — skip deprecated models
   const providers: Array<() => Promise<string>> = [];
-  
+
   // 1. Cerebras models (smart: skip deprecated ones instantly)
   for (const model of modelList) {
     if (!deprecatedModels.has(model)) {
       providers.push(() => callCerebras(prompt, maxTokens, model));
     }
   }
-  
+
   // 2. Gemini (optional)
   if (!NO_GEMINI) {
     const extra = mode === 'fast_tag' ? 1024 : 2048;
     providers.push(() => callGemini(prompt, maxTokens + extra));
   }
-  
+
   // 3. Groq as final fallback
   providers.push(() => callGroq(prompt, maxTokens));
 
@@ -325,57 +356,57 @@ async function callAI(prompt: string, maxTokens: number, mode: 'fast_tag' | 'ful
 
 // ─── Exam-Anchored ELO Lookup ─────────────────────────────────────────────
 const BAND_RANGES: Record<string, [number, number]> = {
-  CLASS_8_RECALL:   [700,  900],
-  CLASS_9_BASIC:    [900,  1100],
-  BOARD_EASY:       [1100, 1400],
-  BOARD_HARD:       [1400, 1700],
-  NEET_EASY:        [1700, 1900],
-  JEE_MAINS_EASY:   [1800, 2050],
-  NEET_MEDIUM:      [1900, 2100],
+  CLASS_8_RECALL: [700, 900],
+  CLASS_9_BASIC: [900, 1100],
+  BOARD_EASY: [1100, 1400],
+  BOARD_HARD: [1400, 1700],
+  NEET_EASY: [1700, 1900],
+  JEE_MAINS_EASY: [1800, 2050],
+  NEET_MEDIUM: [1900, 2100],
   JEE_MAINS_MEDIUM: [2050, 2250],
-  NEET_HARD:        [2100, 2350],
-  JEE_MAINS_HARD:   [2250, 2500],
-  JEE_ADV_EASY:     [2400, 2650],
-  JEE_ADV_MEDIUM:   [2600, 2800],
-  JEE_ADV_HARD:     [2800, 3000],
-  JEE_ADV_EXPERT:   [3000, 3200],
+  NEET_HARD: [2100, 2350],
+  JEE_MAINS_HARD: [2250, 2500],
+  JEE_ADV_EASY: [2400, 2650],
+  JEE_ADV_MEDIUM: [2600, 2800],
+  JEE_ADV_HARD: [2800, 3000],
+  JEE_ADV_EXPERT: [3000, 3200],
 };
 
 // Common AI hallucinated band aliases → map to valid band_ids
 const BAND_ALIASES: Record<string, string> = {
-  BOARD_MEDIUM:       'BOARD_HARD',
-  BOARD_VERY_EASY:    'BOARD_EASY',
-  CLASS_10_EASY:      'BOARD_EASY',
-  CLASS_10_MEDIUM:    'BOARD_HARD',
-  CLASS_10_HARD:      'BOARD_HARD',
-  CLASS_10_BASIC:     'BOARD_EASY',
-  CLASS_9_EASY:       'CLASS_9_BASIC',
-  CLASS_9_MEDIUM:     'CLASS_9_BASIC',
-  CLASS_8_BASIC:      'CLASS_8_RECALL',
-  CLASS_8_EASY:       'CLASS_8_RECALL',
-  CLASS_11_BASIC:     'JEE_MAINS_EASY',
-  CLASS_11_EASY:      'JEE_MAINS_EASY',
-  CLASS_11_MEDIUM:    'JEE_MAINS_MEDIUM',
-  CLASS_12_EASY:      'JEE_MAINS_EASY',
-  CLASS_12_MEDIUM:    'JEE_MAINS_MEDIUM',
-  CLASS_12_HARD:      'JEE_MAINS_HARD',
-  NEET_BASIC:         'NEET_EASY',
-  JEE_EASY:           'JEE_MAINS_EASY',
-  JEE_MEDIUM:         'JEE_MAINS_MEDIUM',
-  JEE_HARD:           'JEE_MAINS_HARD',
-  JEE_ADVANCED_EASY:  'JEE_ADV_EASY',
-  JEE_ADVANCED_MEDIUM:'JEE_ADV_MEDIUM',
-  JEE_ADVANCED_HARD:  'JEE_ADV_HARD',
+  BOARD_MEDIUM: 'BOARD_HARD',
+  BOARD_VERY_EASY: 'BOARD_EASY',
+  CLASS_10_EASY: 'BOARD_EASY',
+  CLASS_10_MEDIUM: 'BOARD_HARD',
+  CLASS_10_HARD: 'BOARD_HARD',
+  CLASS_10_BASIC: 'BOARD_EASY',
+  CLASS_9_EASY: 'CLASS_9_BASIC',
+  CLASS_9_MEDIUM: 'CLASS_9_BASIC',
+  CLASS_8_BASIC: 'CLASS_8_RECALL',
+  CLASS_8_EASY: 'CLASS_8_RECALL',
+  CLASS_11_BASIC: 'JEE_MAINS_EASY',
+  CLASS_11_EASY: 'JEE_MAINS_EASY',
+  CLASS_11_MEDIUM: 'JEE_MAINS_MEDIUM',
+  CLASS_12_EASY: 'JEE_MAINS_EASY',
+  CLASS_12_MEDIUM: 'JEE_MAINS_MEDIUM',
+  CLASS_12_HARD: 'JEE_MAINS_HARD',
+  NEET_BASIC: 'NEET_EASY',
+  JEE_EASY: 'JEE_MAINS_EASY',
+  JEE_MEDIUM: 'JEE_MAINS_MEDIUM',
+  JEE_HARD: 'JEE_MAINS_HARD',
+  JEE_ADVANCED_EASY: 'JEE_ADV_EASY',
+  JEE_ADVANCED_MEDIUM: 'JEE_ADV_MEDIUM',
+  JEE_ADVANCED_HARD: 'JEE_ADV_HARD',
 };
 
 const BAND_DEFAULT: Record<string, string> = {
   JEEAdvanced: 'JEE_ADV_MEDIUM',
-  JEEMains:    'JEE_MAINS_MEDIUM',
-  NEET:        'NEET_MEDIUM',
-  Board:       'BOARD_EASY',
+  JEEMains: 'JEE_MAINS_MEDIUM',
+  NEET: 'NEET_MEDIUM',
+  Board: 'BOARD_EASY',
 };
 
-function resolveElo(aiBand: string|undefined, aiElo: number|undefined, exam: string, cls: string): { elo: number; band: string } {
+function resolveElo(aiBand: string | undefined, aiElo: number | undefined, exam: string, cls: string): { elo: number; band: string } {
   // 0. Check aliases first
   const resolvedBand = aiBand ? (BAND_ALIASES[aiBand] || aiBand) : undefined;
   // 1. AI provided a valid band_id — use it
@@ -392,14 +423,14 @@ function resolveElo(aiBand: string|undefined, aiElo: number|undefined, exam: str
   // 3. Fallback: exam default + class adjustment
   const baseBand = BAND_DEFAULT[exam] || 'BOARD_EASY';
   const [lo, hi] = BAND_RANGES[baseBand];
-  const clsAdj = ({ '12': 100, '11': 50, '10': 0, '9': -100, '8': -200 } as Record<string,number>)[cls] || 0;
+  const clsAdj = ({ '12': 100, '11': 50, '10': 0, '9': -100, '8': -200 } as Record<string, number>)[cls] || 0;
   const elo = Math.max(lo, Math.min(hi, Math.round((lo + hi) / 2) + clsAdj));
   return { elo, band: baseBand };
 }
 
 // ─── SQL helpers ─────────────────────────────────────────────────────────
-const esc      = (s: any) => String(s ?? '').replace(/'/g, "''");
-const slugify  = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/, '');
+const esc = (s: any) => String(s ?? '').replace(/'/g, "''");
+const slugify = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/, '');
 const makeHash = (text: string, opts: string[]) =>
   crypto.createHash('sha256').update((text + opts.join('')).toLowerCase().replace(/\s+/g, '')).digest('hex').slice(0, 32);
 
@@ -407,35 +438,35 @@ const makeHash = (text: string, opts: string[]) =>
 type QType = 'MCQ' | 'Multi-correct' | 'Integer';
 
 interface ProcessedQ {
-  id:                  string;
-  exam:                string;
-  class:               string;
-  subject:             string;
-  primary_topic_id:    string;
-  primary_topic:       string;
-  primary_subtopic:    string;
+  id: string;
+  exam: string;
+  class: string;
+  subject: string;
+  primary_topic_id: string;
+  primary_topic: string;
+  primary_subtopic: string;
   secondary_topic_ids: string[];
-  concept_tags:        string[];
-  cross_chapter:       number;
-  cross_subject:       number;
-  also_for:            string[];
-  type:                QType;
-  has_image:           number;
-  elo:                 number;
-  band:                string;
-  step_count:          number;
-  negative_marking:    number;
-  question_text:       string;
-  options:             string[];
-  correct_answer:      string;
-  explanation:         string;
-  solution_steps:      string[];
-  key_formula:         string;
-  error_trap_type:     string;
-  source_exam:         string;
-  year:                number | null;
-  quality_tier:        string;
-  confidence:          number;
+  concept_tags: string[];
+  cross_chapter: number;
+  cross_subject: number;
+  also_for: string[];
+  type: QType;
+  has_image: number;
+  elo: number;
+  band: string;
+  step_count: number;
+  negative_marking: number;
+  question_text: string;
+  options: string[];
+  correct_answer: string;
+  explanation: string;
+  solution_steps: string[];
+  key_formula: string;
+  error_trap_type: string;
+  source_exam: string;
+  year: number | null;
+  quality_tier: string;
+  confidence: number;
 }
 
 // ─── Write SQL (v2 schema columns) ──────────────────────────────────────
@@ -491,8 +522,16 @@ function validateQ(raw: any, qIdx: number, defaultExam: string, defaultClass: st
       const match = raw.options.find((o: string) => String(o).trim().toLowerCase() === correctStr);
       // Also allow A/B/C/D
       const byLetter = /^[A-Da-d]$/.test(String(raw?.correct_answer || '').trim());
-      if (!match && !byLetter)
-        errors.push(`Q${qIdx}: MCQ correct_answer not found verbatim in options`);
+      if (!match && !byLetter) {
+        // Try fuzzy matching (ignore LaTeX spacing, non-alphanumeric)
+        const cleanStr = correctStr.replace(/[^a-z0-9]/g, '');
+        const fuzzyMatch = raw.options.find((o: string) => String(o).trim().toLowerCase().replace(/[^a-z0-9]/g, '') === cleanStr);
+        if (fuzzyMatch) {
+          raw.correct_answer = fuzzyMatch; // auto-correct to the exact option text verbatim
+        } else {
+          errors.push(`Q${qIdx}: MCQ correct_answer not found verbatim in options`);
+        }
+      }
     }
   }
 
@@ -515,7 +554,35 @@ function validateQ(raw: any, qIdx: number, defaultExam: string, defaultClass: st
       const allInOptions = corrects.every((c: string) =>
         raw?.options?.some((o: string) => String(o).trim().toLowerCase() === String(c).trim().toLowerCase())
       );
-      if (!allInOptions) errors.push(`Q${qIdx}: Multi-correct: some correct_answers not found in options`);
+      if (!allInOptions) {
+        // Try fuzzy match for each correct answer
+        const normalizedCorrects: string[] = [];
+        let fuzzySuccess = true;
+        for (const c of corrects) {
+          const cleanC = String(c).trim().toLowerCase().replace(/[^a-z0-9]/g, '');
+          const match = raw.options.find((o: string) => String(o).trim().toLowerCase().replace(/[^a-z0-9]/g, '') === cleanC);
+          if (match) {
+            normalizedCorrects.push(match);
+          } else {
+            // Check if it's letter representation e.g. "A", "B", "C", "D"
+            const letterMatch = String(c).trim().match(/^[A-Da-d]$/);
+            if (letterMatch) {
+              const letterIdx = 'ABCDabcd'.indexOf(letterMatch[0]) % 4;
+              if (raw.options[letterIdx]) {
+                normalizedCorrects.push(raw.options[letterIdx]);
+                continue;
+              }
+            }
+            fuzzySuccess = false;
+            break;
+          }
+        }
+        if (fuzzySuccess) {
+          raw.correct_answer = JSON.stringify(normalizedCorrects);
+        } else {
+          errors.push(`Q${qIdx}: Multi-correct: some correct_answers not found in options`);
+        }
+      }
     }
   }
 
@@ -528,15 +595,15 @@ function validateQ(raw: any, qIdx: number, defaultExam: string, defaultClass: st
   if (!raw?.explanation || String(raw.explanation).trim().length < 10)
     errors.push(`Q${qIdx}: explanation missing or <10 chars`);
 
-  const validExams = ['JEEMains','JEEAdvanced','NEET','Board'];
+  const validExams = ['JEEMains', 'JEEAdvanced', 'NEET', 'Board'];
   if (raw?.exam && !validExams.includes(raw.exam))
     errors.push(`Q${qIdx}: invalid exam '${raw.exam}' (expected ${validExams.join('|')})`);
 
-  const validClasses = ['8','9','10','11','12'];
+  const validClasses = ['8', '9', '10', '11', '12'];
   if (raw?.class && !validClasses.includes(String(raw.class)))
     errors.push(`Q${qIdx}: invalid class '${raw.class}'`);
 
-  const validSubjects = ['Physics','Chemistry','Mathematics','Biology','Science','Social'];
+  const validSubjects = ['Physics', 'Chemistry', 'Mathematics', 'Biology', 'Science', 'Social'];
   if (raw?.subject && !validSubjects.includes(raw.subject))
     errors.push(`Q${qIdx}: invalid subject '${raw.subject}'`);
 
@@ -548,25 +615,25 @@ function validateQ(raw: any, qIdx: number, defaultExam: string, defaultClass: st
 
 // ─── Build ProcessedQ from validated AI output ───────────────────────────
 function buildProcessedQ(raw: any, sourceQ: RawQuestion, defaultExam: string, defaultClass: string): ProcessedQ {
-  const t: QType = (['MCQ','Multi-correct','Integer'].includes(raw?.type)) ? raw.type : 'MCQ';
-  const exam     = raw?.exam    || sourceQ.exam    || defaultExam || 'JEEMains';
-  const cls      = String(raw?.class || sourceQ.class?.replace('Class ','') || defaultClass || '12');
-  const subject  = raw?.subject || sourceQ.subject || 'Physics';
+  const t: QType = (['MCQ', 'Multi-correct', 'Integer'].includes(raw?.type)) ? raw.type : 'MCQ';
+  const exam = raw?.exam || sourceQ.exam || defaultExam || 'JEEMains';
+  const cls = String(raw?.class || sourceQ.class?.replace('Class ', '') || defaultClass || '12');
+  const subject = raw?.subject || sourceQ.subject || 'Physics';
 
   const { elo, band } = resolveElo(raw?.difficulty_band, raw?.elo, exam, cls);
 
-  const secondaryIds:  string[] = Array.isArray(raw?.secondary_topic_ids) ? raw.secondary_topic_ids : [];
-  const conceptTags:   string[] = Array.isArray(raw?.concept_tags) ? raw.concept_tags : [];
+  const secondaryIds: string[] = Array.isArray(raw?.secondary_topic_ids) ? raw.secondary_topic_ids : [];
+  const conceptTags: string[] = Array.isArray(raw?.concept_tags) ? raw.concept_tags : [];
   const solutionSteps: string[] = Array.isArray(raw?.solution_steps) ? raw.solution_steps : [];
-  const alsoFor:       string[] = Array.isArray(raw?.also_for) ? raw.also_for : [];
+  const alsoFor: string[] = Array.isArray(raw?.also_for) ? raw.also_for : [];
 
   // Negative marking by exam/type
   let negativeMarking = -1.0;
-  if (exam === 'JEEAdvanced' && t === 'MCQ')           negativeMarking = -2.0;
-  if (exam === 'JEEAdvanced' && t === 'Multi-correct')  negativeMarking = -2.0;
-  if (exam === 'JEEMains'   && t === 'Integer')         negativeMarking = 0.0;
-  if (exam === 'NEET')                                  negativeMarking = -1.0;
-  if (exam === 'Board')                                 negativeMarking = 0.0;
+  if (exam === 'JEEAdvanced' && t === 'MCQ') negativeMarking = -2.0;
+  if (exam === 'JEEAdvanced' && t === 'Multi-correct') negativeMarking = -2.0;
+  if (exam === 'JEEMains' && t === 'Integer') negativeMarking = 0.0;
+  if (exam === 'NEET') negativeMarking = -1.0;
+  if (exam === 'Board') negativeMarking = 0.0;
 
   // Correct answer normalisation
   let correctAnswer = String(raw?.correct_answer ?? '');
@@ -590,39 +657,39 @@ function buildProcessedQ(raw: any, sourceQ: RawQuestion, defaultExam: string, de
 
   const opts: string[] =
     t === 'Integer' ? [] :
-    Array.isArray(raw?.options) ? raw.options.slice(0, 4) :
-    ['—', '—', '—', '—'];
+      Array.isArray(raw?.options) ? raw.options.slice(0, 4) :
+        ['—', '—', '—', '—'];
 
   return {
-    id:                  makeHash(raw?.question_text || sourceQ.raw_text, opts),
+    id: makeHash(raw?.question_text || sourceQ.raw_text, opts),
     exam,
-    class:               cls,
+    class: cls,
     subject,
-    primary_topic_id:    topicId,
-    primary_topic:       raw?.primary_topic || raw?.topic || 'General',
-    primary_subtopic:    raw?.primary_subtopic || raw?.subtopic || 'General',
+    primary_topic_id: topicId,
+    primary_topic: raw?.primary_topic || raw?.topic || 'General',
+    primary_subtopic: raw?.primary_subtopic || raw?.subtopic || 'General',
     secondary_topic_ids: secondaryIds,
-    concept_tags:        conceptTags,
-    cross_chapter:       (secondaryIds.length > 0 || raw?.cross_chapter === 1) ? 1 : 0,
-    cross_subject:       raw?.cross_subject === 1 ? 1 : 0,
-    also_for:            alsoFor,
-    type:                t,
-    has_image:           0,
+    concept_tags: conceptTags,
+    cross_chapter: (secondaryIds.length > 0 || raw?.cross_chapter === 1) ? 1 : 0,
+    cross_subject: raw?.cross_subject === 1 ? 1 : 0,
+    also_for: alsoFor,
+    type: t,
+    has_image: 0,
     elo,
     band,
-    step_count:          Number(raw?.step_count) || (elo >= 2600 ? 4 : elo >= 2000 ? 2 : 1),
-    negative_marking:    negativeMarking,
-    question_text:       raw?.question_text || sourceQ.raw_text,
-    options:             opts,
-    correct_answer:      correctAnswer,
-    explanation:         raw?.explanation || 'See official solution.',
-    solution_steps:      solutionSteps,
-    key_formula:         raw?.key_formula || '',
-    error_trap_type:     raw?.error_trap_type || 'general.exam_trap',
-    source_exam:         sourceQ.source_exam || 'AI-Generated',
-    year:                sourceQ.year || null,
-    quality_tier:        sourceQ.quality === 'verified' ? 'A' : 'C',
-    confidence:          sourceQ.quality === 'verified' ? 0.95 : 0.87,
+    step_count: Number(raw?.step_count) || (elo >= 2600 ? 4 : elo >= 2000 ? 2 : 1),
+    negative_marking: negativeMarking,
+    question_text: raw?.question_text || sourceQ.raw_text,
+    options: opts,
+    correct_answer: correctAnswer,
+    explanation: raw?.explanation || 'See official solution.',
+    solution_steps: solutionSteps,
+    key_formula: raw?.key_formula || '',
+    error_trap_type: raw?.error_trap_type || 'general.exam_trap',
+    source_exam: sourceQ.source_exam || 'AI-Generated',
+    year: sourceQ.year || null,
+    quality_tier: sourceQ.quality === 'verified' ? 'A' : 'C',
+    confidence: sourceQ.quality === 'verified' ? 0.95 : 0.87,
   };
 }
 
@@ -652,7 +719,7 @@ Each object must have ALL these fields:
 ${ELO_BAND_REFERENCE}
 
 QUESTIONS TO CLASSIFY:
-${questions.map((q,i) => `[${i+1}] ${q.raw_text.slice(0,280)}\nOptions: ${q.raw_options.slice(0,4).join(' | ').slice(0,200)}\nHint: ${q.subject||'?'} ${q.exam||'?'} Class${q.class||'?'}`).join('\n---\n')}`;
+${questions.map((q, i) => `[${i + 1}] ${q.raw_text.slice(0, 280)}\nOptions: ${q.raw_options.slice(0, 4).join(' | ').slice(0, 200)}\nHint: ${q.subject || '?'} ${q.exam || '?'} Class${q.class || '?'}`).join('\n---\n')}`;
 
   const parsed = await callAI(prompt, 4000, 'fast_tag');
   const results: ProcessedQ[] = [];
@@ -660,7 +727,7 @@ ${questions.map((q,i) => `[${i+1}] ${q.raw_text.slice(0,280)}\nOptions: ${q.raw_
   for (let i = 0; i < questions.length; i++) {
     const aiOut = parsed?.results?.[i];
     if (!aiOut) {
-      process.stdout.write(`    ⚠️  Q${i+1} missing in AI output\n`);
+      process.stdout.write(`    ⚠️  Q${i + 1} missing in AI output\n`);
       continue;
     }
 
@@ -686,29 +753,30 @@ ${questions.map((q,i) => `[${i+1}] ${q.raw_text.slice(0,280)}\nOptions: ${q.raw_
   return results;
 }
 
-// ─── FULL CURATION: generate from topic stubs — sub-batch of 10 per AI call ─
-const AI_SUB_BATCH = 10; // Max questions per single AI call to prevent truncation
+// ─── FULL CURATION: generate from topic stubs — sub-batch of 5 per AI call ─
+const AI_SUB_BATCH = 5; // Reduced from 10 to 5 to completely prevent output truncation and fit 4096 output limits
 
 async function fullCurationSubBatch(questions: RawQuestion[]): Promise<ProcessedQ[]> {
   const prompt = `You are ExamCompass Senior Curator. Generate COMPLETE exam questions from topic stubs.
 Return JSON: {"results":[${questions.length} question objects]}
 
 Each object MUST have ALL these fields:
-- question_text: Complete, unambiguous question in proper English. Use $...$ inline LaTeX, $$...$$ block.
+- question_text: Complete, unambiguous question in proper English. Use $...$ inline LaTeX, $$...$$ block. Keep it highly focused and direct.
 - type: "MCQ" | "Multi-correct" | "Integer"
   • MCQ: single correct, 4 options (default for all exams)
   • Multi-correct: 1-4 correct options — JEE Advanced ONLY, use ~30% of JEE Adv questions
   • Integer: numerical answer 0-99 (may be decimal) — JEE Mains Section B ONLY, ~20% of JEE Mains
 - options: Array of 4 strings for MCQ/Multi-correct. EMPTY ARRAY [] for Integer.
   • Options must be numerically/conceptually DISTINCT
+  • Keep each option concise (under 60 characters)
   • Include plausible wrong options (common mistakes, sign errors, unit errors)
   • NO trick by minor wording changes — distinguish by value or concept
 - correct_answer:
   • MCQ: exact verbatim copy of correct option string
   • Multi-correct: JSON string e.g. '["Option B text","Option D text"]' (1-4 items)
-  • Integer: numeric string e.g. "7" or "2.50"
-- explanation: 2-4 line step-by-step solution (LaTeX ok, plain English mandatory)
-- solution_steps: array of 3-6 strings ["Step 1: Apply...", "Step 2: Substitute...", ...]
+  • Integer: MUST be a single clean numeric integer or decimal string (e.g. "7" or "2.50"). NEVER return LaTeX formulas, variables, or expressions (like "-\\frac{1}{x^2}" or "\\ln|x|") for Integer questions. If the question is Integer type, frame it so the final answer is a plain number.
+- explanation: 1-2 sentences max, extremely concise (under 150 characters).
+- solution_steps: array of exactly 2-3 very short strings ["Step 1:...", "Step 2:..."] summarizing the core calculations only. Keep them extremely short and brief.
 - primary_topic: canonical chapter name
 - primary_subtopic: specific concept tested
 - primary_topic_id: slug like "phy_12_jm_electrostatics"
@@ -726,6 +794,9 @@ Each object MUST have ALL these fields:
 - key_formula: primary formula/concept, or ""
 - error_trap_type: dot-notation e.g. "physics.emi.lenz_law_direction"
 
+CRITICAL BREVITY REQUIREMENT (TO PREVENT TOKEN TRUNCATION):
+- Keep option texts, explanations, and solution steps extremely short and compact. Minimize verbose LaTeX derivations. Show only the essential step-by-step logic to guarantee the entire payload stays small and succeeds without being cut off!
+
 GENERATION GUIDELINES BY CLASS:
 - Class 12 JEE Mains: LaTeX, multi-step, mix of MCQ+Integer, formula chain
 - Class 12 JEE Advanced: Multi-step, cross-chapter mandatory, Multi-correct OR Integer common
@@ -737,7 +808,7 @@ GENERATION GUIDELINES BY CLASS:
 ${ELO_BAND_REFERENCE}
 
 STUBS TO GENERATE FROM:
-${questions.map((q,i) => `[${i+1}] ${q.raw_text}`).join('\n')}`;
+${questions.map((q, i) => `[${i + 1}] ${q.raw_text}`).join('\n')}`;
 
   const parsed = await callAI(prompt, 8000, 'full_curation');
   const results: ProcessedQ[] = [];
@@ -745,11 +816,11 @@ ${questions.map((q,i) => `[${i+1}] ${q.raw_text}`).join('\n')}`;
   for (let i = 0; i < questions.length; i++) {
     const aiOut = parsed?.results?.[i];
     if (!aiOut) {
-      process.stdout.write(`    ⚠️  Q${i+1} missing in AI output — skipping\n`);
+      process.stdout.write(`    ⚠️  Q${i + 1} missing in AI output — skipping\n`);
       continue;
     }
 
-    const defaultExam  = questions[i].exam   || 'JEEMains';
+    const defaultExam = questions[i].exam || 'JEEMains';
     const defaultClass = questions[i].class?.replace('Class ', '') || '12';
     const { ok, errors } = validateQ(aiOut, i + 1, defaultExam, defaultClass);
 
@@ -780,13 +851,13 @@ async function fullCurationBatch(questions: RawQuestion[]): Promise<ProcessedQ[]
 
 // ─── Progress Bar ─────────────────────────────────────────────────────────
 function progressBar(done: number, total: number, qpm: number): void {
-  const pct    = total > 0 ? done / total : 0;
+  const pct = total > 0 ? done / total : 0;
   const filled = Math.round(pct * 20);
-  const bar    = '═'.repeat(filled) + '╸' + '─'.repeat(Math.max(0, 19 - filled));
+  const bar = '═'.repeat(filled) + '╸' + '─'.repeat(Math.max(0, 19 - filled));
   const remaining = total - done;
   const etaSec = qpm > 0 ? Math.round(remaining / qpm * 60) : 0;
-  const eta    = etaSec > 3600 ? `${Math.round(etaSec/3600)}h` : etaSec > 60 ? `${Math.round(etaSec/60)}m` : `${etaSec}s`;
-  process.stdout.write(`\r  [${bar}] ${(pct*100).toFixed(0).padStart(3)}% (${done}/${total}) ${qpm.toFixed(0)} q/min ETA:${eta}    `);
+  const eta = etaSec > 3600 ? `${Math.round(etaSec / 3600)}h` : etaSec > 60 ? `${Math.round(etaSec / 60)}m` : `${etaSec}s`;
+  process.stdout.write(`\r  [${bar}] ${(pct * 100).toFixed(0).padStart(3)}% (${done}/${total}) ${qpm.toFixed(0)} q/min ETA:${eta}    `);
 }
 
 // ─── Main ─────────────────────────────────────────────────────────────────
@@ -818,7 +889,7 @@ async function main(): Promise<void> {
     .slice(OFFSET, OFFSET + LIMIT);
 
   if (FILTER_CLASS) allRaw = allRaw.filter(q => (q.class || '').includes(FILTER_CLASS));
-  if (FILTER_EXAM)  allRaw = allRaw.filter(q => q.exam === FILTER_EXAM);
+  if (FILTER_EXAM) allRaw = allRaw.filter(q => q.exam === FILTER_EXAM);
 
   const eligible = allRaw
     .filter(q => !doneHashes.has(q.hash))
@@ -846,35 +917,92 @@ async function main(): Promise<void> {
   let totalOk = 0, totalSkipped = 0;
   const batchRef = { idx: 0 };
 
-  async function processBatch(batch: RawQuestion[], label: string): Promise<void> {
+  let lastBreakTime = Date.now();
+  let coolingDownPromise: Promise<void> | null = null;
+
+  async function checkCooldown(): Promise<void> {
+    const now = Date.now();
+    const elapsedSinceBreak = (now - lastBreakTime) / 1000 / 60;
+
+    if (elapsedSinceBreak >= 25) {
+      if (!coolingDownPromise) {
+        console.log(`\n\n❄️ [COOLDOWN] 25 minutes elapsed. Cooling down for 5 minutes to reset API rate limits...`);
+        coolingDownPromise = sleep(5 * 60 * 1000).then(() => {
+          lastBreakTime = Date.now();
+          coolingDownPromise = null;
+          console.log(`\n🔥 [RESUME] Cooldown over! Resuming question generation...\n`);
+        });
+      }
+      await coolingDownPromise;
+    }
+  }
+
+  async function processCurationChunk(chunk: RawQuestion[], label: string): Promise<void> {
+    if (chunk.length === 0) return;
     try {
-      const processed = MODE === 'fast_tag'
-        ? await fastTagBatch(batch)
-        : await fullCurationBatch(batch);
+      const processed = await fullCurationSubBatch(chunk);
       if (!DRY_RUN) {
         for (const q of processed) writeSql(q);
-        for (const raw of batch) doneHashes.add(raw.hash);
+        for (const raw of chunk) doneHashes.add(raw.hash);
         fs.writeFileSync(DONE_FILE, JSON.stringify([...doneHashes]), 'utf-8');
       }
-      totalOk      += processed.length;
-      totalSkipped += batch.length - processed.length;
+      totalOk += processed.length;
+      totalSkipped += chunk.length - processed.length;
     } catch (e: any) {
-      if (batch.length > 1) {
-        // Auto-split on failure (TRUNCATED, long context, etc.)
-        const half = Math.ceil(batch.length / 2);
-        await processBatch(batch.slice(0, half), label + 'a');
-        await processBatch(batch.slice(half),     label + 'b');
-        return;
+      if (chunk.length > 1) {
+        // Chunk failed (e.g. TRUNCATED, model exhaustion) -> split recursively
+        const half = Math.ceil(chunk.length / 2);
+        process.stdout.write(`\n  ⚠️  Chunk ${label} failed: ${e.message?.slice(0, 80)}. Splitting into ${half} and ${chunk.length - half}...\n`);
+        await processCurationChunk(chunk.slice(0, half), label + 'a');
+        await processCurationChunk(chunk.slice(half), label + 'b');
+      } else {
+        process.stdout.write(`\n  ❌ Stub ${label} failed (single-q): ${e.message?.slice(0, 80)}\n`);
+        totalSkipped += chunk.length;
+        if (!DRY_RUN) {
+          doneHashes.add(chunk[0].hash);
+          fs.writeFileSync(DONE_FILE, JSON.stringify([...doneHashes]), 'utf-8');
+        }
       }
-      process.stdout.write(`\n  ❌ ${label} failed (single-q): ${e.message?.slice(0, 80)}\n`);
-      totalSkipped += batch.length;
+    }
+  }
+
+  async function processBatch(batch: RawQuestion[], label: string): Promise<void> {
+    if (MODE === 'fast_tag') {
+      try {
+        const processed = await fastTagBatch(batch);
+        if (!DRY_RUN) {
+          for (const q of processed) writeSql(q);
+          for (const raw of batch) doneHashes.add(raw.hash);
+          fs.writeFileSync(DONE_FILE, JSON.stringify([...doneHashes]), 'utf-8');
+        }
+        totalOk += processed.length;
+        totalSkipped += batch.length - processed.length;
+      } catch (e: any) {
+        if (batch.length > 1) {
+          const half = Math.ceil(batch.length / 2);
+          await processBatch(batch.slice(0, half), label + 'a');
+          await processBatch(batch.slice(half), label + 'b');
+          return;
+        }
+        process.stdout.write(`\n  ❌ ${label} failed (single-q): ${e.message?.slice(0, 80)}\n`);
+        totalSkipped += batch.length;
+      }
+      return;
+    }
+
+    // MODE === 'full_curation'
+    // Split the batch of 50 into chunks of AI_SUB_BATCH (10)
+    for (let i = 0; i < batch.length; i += AI_SUB_BATCH) {
+      const chunk = batch.slice(i, i + AI_SUB_BATCH);
+      await processCurationChunk(chunk, `${label}_c${i / AI_SUB_BATCH + 1}`);
     }
   }
 
   async function worker(): Promise<void> {
     while (batchRef.idx < batches.length) {
+      await checkCooldown();
       const myIdx = batchRef.idx++;
-      await processBatch(batches[myIdx], `B${myIdx+1}`);
+      await processBatch(batches[myIdx], `B${myIdx + 1}`);
       const elapsed = (Date.now() - startMs) / 1000 / 60;
       const qpm = elapsed > 0 ? totalOk / elapsed : 0;
       progressBar(totalOk + totalSkipped, eligible.length, qpm);
@@ -884,7 +1012,7 @@ async function main(): Promise<void> {
   await Promise.all(Array.from({ length: Math.min(CONCURRENCY, batches.length) }, worker));
 
   const elapsed = ((Date.now() - startMs) / 1000).toFixed(1);
-  const rate    = totalOk / (Number(elapsed) / 60);
+  const rate = totalOk / (Number(elapsed) / 60);
 
   const report = `# ExamCompass Batch Pipeline Report v4.0
 Generated: ${new Date().toLocaleString()}

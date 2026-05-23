@@ -16,13 +16,14 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SEED_FILE  = path.join(__dirname, 'seed.sql');
 const SCHEMA_FILE = path.join(__dirname, 'd1-schema.sql');
 const CHUNK_DIR  = path.join(__dirname, '..', 'scratch', 'd1-chunks');
-const DONE_FILE  = path.join(__dirname, '..', 'scratch', 'd1-upload-progress.json');
-
 // CLI
 const argv = process.argv.slice(2);
 const DRY_RUN    = argv.includes('--dry-run');
 const CHUNK_SIZE = Number(argv.find(a => a.startsWith('--chunk-size='))?.split('=')[1] || '500');
 const REMOTE     = !argv.includes('--local'); // default: push to remote D1
+const RESET      = argv.includes('--reset');
+
+const DONE_FILE  = path.join(__dirname, '..', 'scratch', `d1-upload-progress-${REMOTE ? 'remote' : 'local'}.json`);
 
 const DB_NAME = process.env.D1_DATABASE_NAME || 'examcompass-questions';
 
@@ -47,18 +48,40 @@ if (!fs.existsSync(SEED_FILE)) {
   process.exit(1);
 }
 
-const seedContent = fs.readFileSync(SEED_FILE, 'utf-8');
+let seedContent = fs.readFileSync(SEED_FILE, 'utf-8');
+// Clean null bytes which cause SQL truncation in Cloudflare D1/SQLite
+seedContent = seedContent.replace(/\x00/g, '');
 
-// Extract INSERT statements
-const insertLines = seedContent
-  .split(/;\s*\n/)
-  .filter(s => s.trim().startsWith('INSERT OR IGNORE INTO questions'));
+// Extract INSERT statements using the robust split algorithm from d1-push.ts
+function parseSQLStatements(content: string): string[] {
+  const separator = 'INSERT OR IGNORE INTO questions (';
+  const parts = content.split(separator);
+  const statements: string[] = [];
+  
+  for (let i = 1; i < parts.length; i++) {
+    const stmt = separator + parts[i].trim();
+    if (stmt.endsWith(');')) {
+      statements.push(stmt);
+    } else {
+      const lastIndex = stmt.lastIndexOf(');');
+      if (lastIndex !== -1) {
+        statements.push(stmt.substring(0, lastIndex + 2));
+      }
+    }
+  }
+  return statements;
+}
+
+const insertLines = parseSQLStatements(seedContent);
 
 console.log(`\n📦 Found ${insertLines.length} INSERT statements in seed.sql`);
 
 // Load progress
 let uploadedIndices: Set<number> = new Set();
-if (fs.existsSync(DONE_FILE)) {
+if (RESET && fs.existsSync(DONE_FILE)) {
+  fs.unlinkSync(DONE_FILE);
+  console.log('   🧹 Reset progress file.');
+} else if (fs.existsSync(DONE_FILE)) {
   const prog = JSON.parse(fs.readFileSync(DONE_FILE, 'utf-8'));
   uploadedIndices = new Set(prog.uploaded || []);
   console.log(`   Already uploaded: ${uploadedIndices.size} chunks`);
@@ -84,7 +107,7 @@ if (!schemaUploaded && fs.existsSync(SCHEMA_FILE)) {
       'wrangler', 'd1', 'execute', DB_NAME,
       '--file', SCHEMA_FILE,
       ...(REMOTE ? ['--remote'] : ['--local']),
-    ], { encoding: 'utf-8', stdio: 'inherit' });
+    ], { encoding: 'utf-8', stdio: 'inherit', shell: true });
 
     if (schemaResult.status !== 0) {
       console.error('❌ Schema upload failed. Check wrangler auth and database name.');
@@ -107,7 +130,7 @@ for (let i = 0; i < chunks.length; i++) {
   }
 
   const chunkFile = path.join(CHUNK_DIR, `chunk_${String(i).padStart(4, '0')}.sql`);
-  const chunkSql  = chunks[i].map(s => s + ';').join('\n') + '\n';
+  const chunkSql  = chunks[i].join('\n') + '\n';
   fs.writeFileSync(chunkFile, chunkSql, 'utf-8');
 
   const pct = ((i + 1) / chunks.length * 100).toFixed(0);
@@ -118,7 +141,7 @@ for (let i = 0; i < chunks.length; i++) {
       'wrangler', 'd1', 'execute', DB_NAME,
       '--file', chunkFile,
       ...(REMOTE ? ['--remote'] : ['--local']),
-    ], { encoding: 'utf-8', stdio: 'pipe' });
+    ], { encoding: 'utf-8', stdio: 'pipe', shell: true });
 
     if (result.status === 0) {
       uploadedIndices.add(i);

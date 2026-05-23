@@ -8,6 +8,7 @@ import fs from 'fs';
 import path from 'path';
 import crypto from 'crypto';
 import { fileURLToPath } from 'url';
+import { execSync } from 'child_process';
 import 'dotenv/config';
 import { TAXONOMY, getTotalTarget, type TopicNode } from './curriculum-taxonomy.js';
 import type { RawQuestion } from './bulk-scraper.js';
@@ -17,6 +18,7 @@ const SCRATCH_DIR = path.join(__dirname, '..', 'scratch');
 const CACHE_FILE  = path.join(SCRATCH_DIR, 'raw_questions_cache.jsonl');
 const DONE_FILE   = path.join(SCRATCH_DIR, 'processed_hashes.json');
 const REPORT_FILE = path.join(SCRATCH_DIR, 'distribution_report.json');
+const DB_NAME     = 'examcompass-questions';
 
 // ─── CLI Args ─────────────────────────────────────────────────────
 const args = Object.fromEntries(process.argv.slice(2).map(a => a.replace('--','').split('=')));
@@ -41,26 +43,59 @@ function countByTopic(): Map<string, number> {
   // Init all topics to 0
   for (const t of TAXONOMY) counts.set(t.id, 0);
 
-  // Count from processed_hashes.json (these are in seed.sql)
-  // The processed_hashes file stores hashes — we need to cross-ref with cache
-  // Better: count raw_questions_cache.jsonl entries that match topic IDs
-  if (!fs.existsSync(CACHE_FILE)) return counts;
+  try {
+    const sql = 'SELECT primary_topic, subject, COUNT(*) as count FROM questions GROUP BY primary_topic, subject;';
+    const escapedSql = sql.replace(/"/g, '\\"').replace(/\n/g, ' ');
+    const cmd = `npx wrangler d1 execute ${DB_NAME} --local --json --command "${escapedSql}"`;
+    const output = execSync(cmd, { stdio: 'pipe', encoding: 'utf-8' });
+    
+    let results: any[] = [];
+    const jsonMatch = output.match(/\[\s*\{[\s\S]*\}\s*\]/);
+    if (jsonMatch) {
+      const parsed = JSON.parse(jsonMatch[0]);
+      results = parsed[0]?.results || [];
+    } else {
+      try {
+        const parsed = JSON.parse(output.trim());
+        results = parsed[0]?.results || [];
+      } catch {}
+    }
 
-  const lines = fs.readFileSync(CACHE_FILE, 'utf-8').split('\n').filter(Boolean);
-  for (const line of lines) {
-    try {
-      const q: RawQuestion = JSON.parse(line);
-      // Try to match to a taxonomy topic by exam+class+subject
-      const matchingTopics = TAXONOMY.filter(t =>
-        t.class === q.class &&
-        t.exam  === q.exam &&
-        (t.subject === q.subject || !q.subject)
+    // Map database results to taxonomy nodes
+    for (const r of results) {
+      const dbTopic = String(r.primary_topic || '').toLowerCase().trim();
+      const dbSubject = String(r.subject || '').toLowerCase().trim();
+      const dbCount = Number(r.count || 0);
+
+      // Find matching taxonomy node
+      const match = TAXONOMY.find(t => 
+        t.subject.toLowerCase().trim() === dbSubject &&
+        t.topic.toLowerCase().trim() === dbTopic
       );
-      // Distribute evenly across matching topics (rough estimate)
-      for (const t of matchingTopics.slice(0, 1)) {
-        counts.set(t.id, (counts.get(t.id) || 0) + 1);
+
+      if (match) {
+        counts.set(match.id, dbCount);
       }
-    } catch {}
+    }
+  } catch (e: any) {
+    console.warn(`⚠️ Failed to query local D1 database, falling back to cache estimation: ${e.message}`);
+    // Fallback: original cache counting logic
+    if (fs.existsSync(CACHE_FILE)) {
+      const lines = fs.readFileSync(CACHE_FILE, 'utf-8').split('\n').filter(Boolean);
+      for (const line of lines) {
+        try {
+          const q: RawQuestion = JSON.parse(line);
+          const matchingTopics = TAXONOMY.filter(t =>
+            t.class === q.class &&
+            t.exam  === q.exam &&
+            (t.subject === q.subject || !q.subject)
+          );
+          for (const t of matchingTopics.slice(0, 1)) {
+            counts.set(t.id, (counts.get(t.id) || 0) + 1);
+          }
+        } catch {}
+      }
+    }
   }
 
   return counts;
@@ -83,7 +118,26 @@ function analyzeGaps(counts: Map<string, number>): TopicGap[] {
       const pct = Math.min(100, (current / t.target_questions) * 100);
       return { topic: t, current, target: t.target_questions, gap, pct };
     })
-    .sort((a, b) => a.topic.priority - b.topic.priority || b.gap - a.gap);
+    .sort((a, b) => {
+      // 1. Both empty? Sort by gap descending (or topic priority)
+      if (a.current === 0 && b.current === 0) {
+        return a.topic.priority - b.topic.priority || b.gap - a.gap;
+      }
+      // 2. One is empty? Put it first
+      if (a.current === 0) return -1;
+      if (b.current === 0) return 1;
+
+      // 3. Both thin (< 10)? Sort by current ascending, then gap descending
+      if (a.current < 10 && b.current < 10) {
+        return a.current - b.current || b.gap - a.gap;
+      }
+      // 4. One is thin? Put it first
+      if (a.current < 10) return -1;
+      if (b.current < 10) return 1;
+
+      // 5. Default sort for other gaps
+      return a.topic.priority - b.topic.priority || b.gap - a.gap;
+    });
 }
 
 // ─── Generate stubs for topics with gaps ─────────────────────────
@@ -104,22 +158,63 @@ function generateStubs(gaps: TopicGap[], count: number): RawQuestion[] {
     return [];
   }
 
-  // Calculate how many stubs to generate per topic proportionally to gap
-  const totalGap = topicsWithGap.reduce((s, g) => s + g.gap, 0);
-
   // Cycle through subtopics for each topic
   const subtopicPointers = new Map<string, number>(); // topic.id → next subtopic index
+
+  // Separate topics with gaps into Tier 1 (Priority: empty/thin < 10 questions) and Tier 2 (Robust >= 10 questions but still has gaps)
+  const tier1 = topicsWithGap.filter(g => g.current < 10);
 
   let generated = 0;
   let iterationSafety = 0;
 
-  while (generated < count && iterationSafety < count * 10) {
+  // Process Tier 1 first (Empty & Thin topics)
+  while (generated < count && tier1.some(g => g.gap > 0) && iterationSafety < count * 20) {
     iterationSafety++;
+    for (const g of tier1) {
+      if (generated >= count) break;
+      // Calculate how many stubs we need for this topic to not be thin (min 10 questions)
+      const stubsNeeded = 10 - g.current;
+      const stubsAlreadyGeneratedForThisTopic = stubs.filter(s => {
+        const parts = s.raw_text.split('|');
+        return parts.length >= 4 && parts[3].trim().toLowerCase() === g.topic.topic.toLowerCase();
+      }).length;
 
+      if (stubsAlreadyGeneratedForThisTopic >= stubsNeeded) continue;
+
+      const t = g.topic;
+      const ptr = subtopicPointers.get(t.id) || 0;
+      const subtopic = t.subtopics[ptr % t.subtopics.length];
+      subtopicPointers.set(t.id, ptr + 1);
+
+      const text = `[GENERATE] ${t.exam} Class ${t.class} | ${t.subject} | ${t.chapter} | ${t.topic} | ${subtopic}`;
+      const hash = makeHash(text, [t.id, String(ptr)]);
+
+      if (!existingHashes.has(hash)) {
+        const stub: RawQuestion = {
+          hash,
+          source: 'distribution-manager',
+          source_exam: `${t.exam} Class ${t.class}`,
+          raw_text: text,
+          raw_options: [],
+          raw_answer: '',
+          subject: t.subject as any,
+          class: `Class ${t.class}`,
+          exam: t.exam,
+          quality: 'raw',
+        };
+        stubs.push(stub);
+        existingHashes.add(hash);
+        generated++;
+      }
+    }
+  }
+
+  // If we still need more stubs, process all topics with gaps (including Tier 2)
+  iterationSafety = 0;
+  while (generated < count && iterationSafety < count * 20) {
+    iterationSafety++;
     for (const g of topicsWithGap) {
       if (generated >= count) break;
-      if (g.gap <= 0) continue;
-
       const t = g.topic;
       const ptr = subtopicPointers.get(t.id) || 0;
       const subtopic = t.subtopics[ptr % t.subtopics.length];
@@ -229,6 +324,87 @@ function appendStubs(stubs: RawQuestion[]): void {
   stream.end();
 }
 
+// ─── Reorganize Cache to prioritize empty/thin topics ────────────────
+function reorganizeCache(counts: Map<string, number>): void {
+  if (!fs.existsSync(CACHE_FILE)) return;
+
+  console.log('\n🔄 Reorganizing cache file to prioritize empty and thin topics...');
+
+  // Load done hashes
+  const doneHashes = new Set<string>();
+  if (fs.existsSync(DONE_FILE)) {
+    try {
+      const hashes = JSON.parse(fs.readFileSync(DONE_FILE, 'utf-8'));
+      if (Array.isArray(hashes)) {
+        hashes.forEach(h => doneHashes.add(h));
+      }
+    } catch {}
+  }
+
+  const lines = fs.readFileSync(CACHE_FILE, 'utf-8').split('\n').filter(Boolean);
+  const processedStubs: string[] = [];
+  const priorityStubs: string[] = [];
+  const regularStubs: string[] = [];
+
+  // Helper to parse subject and topic from raw_text
+  const getTopicAndSubj = (text: string) => {
+    const parts = text.split('|');
+    if (parts.length >= 4) {
+      return {
+        subject: parts[1].trim().toLowerCase(),
+        topic: parts[3].trim().toLowerCase()
+      };
+    }
+    const topicMatch = text.match(/Topic:\s*([^|]+)/);
+    if (topicMatch) {
+      return {
+        subject: '',
+        topic: topicMatch[1].trim().toLowerCase()
+      };
+    }
+    return null;
+  };
+
+  for (const line of lines) {
+    try {
+      const q: RawQuestion = JSON.parse(line);
+      if (doneHashes.has(q.hash)) {
+        processedStubs.push(line);
+        continue;
+      }
+
+      // Check if it belongs to a priority topic (current count < 10)
+      const parsed = getTopicAndSubj(q.raw_text);
+      let isPriority = false;
+      if (parsed) {
+        const match = TAXONOMY.find(t => 
+          (parsed.subject ? t.subject.toLowerCase() === parsed.subject : true) &&
+          (t.topic.toLowerCase() === parsed.topic || t.chapter.toLowerCase() === parsed.topic)
+        );
+        if (match) {
+          const currentCount = counts.get(match.id) || 0;
+          if (currentCount < 10) {
+            isPriority = true;
+          }
+        }
+      }
+
+      if (isPriority) {
+        priorityStubs.push(line);
+      } else {
+        regularStubs.push(line);
+      }
+    } catch {
+      regularStubs.push(line);
+    }
+  }
+
+  // Re-write cache file: priority stubs first, then regular stubs, then processed stubs
+  const newContent = [...priorityStubs, ...regularStubs, ...processedStubs].join('\n') + '\n';
+  fs.writeFileSync(CACHE_FILE, newContent, 'utf-8');
+  console.log(`✅ Cache reorganized! Priority stubs: ${priorityStubs.length} | Regular stubs: ${regularStubs.length} | Processed stubs: ${processedStubs.length}`);
+}
+
 // ─── Main ─────────────────────────────────────────────────────────
 async function main(): Promise<void> {
   console.log('🔍 Analyzing topic coverage...');
@@ -246,25 +422,28 @@ async function main(): Promise<void> {
   console.log(`\n🔧 Generating ${STUBS_TO_GENERATE} priority stubs...`);
   const stubs = generateStubs(gaps, STUBS_TO_GENERATE);
 
-  if (stubs.length === 0) {
-    console.log('✅ Nothing to generate — all targets met!');
-    return;
+  if (stubs.length > 0) {
+    appendStubs(stubs);
+
+    // Show breakdown of what was generated
+    const byClass = new Map<string, number>();
+    for (const s of stubs) {
+      const cls = s.class || '?';
+      byClass.set(cls, (byClass.get(cls) || 0) + 1);
+    }
+
+    console.log(`\n✅ Generated ${stubs.length} stubs:`);
+    for (const [cls, n] of [...byClass.entries()].sort()) {
+      console.log(`   ${cls}: ${n} stubs`);
+    }
+    console.log(`\n📁 Appended to: ${CACHE_FILE}`);
+  } else {
+    console.log('✅ Nothing new generated.');
   }
 
-  appendStubs(stubs);
+  // Always reorganize cache to prioritize stubs matching empty/thin topics
+  reorganizeCache(counts);
 
-  // Show breakdown of what was generated
-  const byClass = new Map<string, number>();
-  for (const s of stubs) {
-    const cls = s.class || '?';
-    byClass.set(cls, (byClass.get(cls) || 0) + 1);
-  }
-
-  console.log(`\n✅ Generated ${stubs.length} stubs:`);
-  for (const [cls, n] of [...byClass.entries()].sort()) {
-    console.log(`   ${cls}: ${n} stubs`);
-  }
-  console.log(`\n📁 Appended to: ${CACHE_FILE}`);
   console.log(`\nNext step: npx tsx scripts/batch-pipeline.ts --mode=full_curation --batch-size=5`);
 }
 

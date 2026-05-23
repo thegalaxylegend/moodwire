@@ -5,26 +5,51 @@ Disallow: /login
 Disallow: /admin/
 Disallow: /onboarding
 
-# Specific rules for AI Crawlers
+# Specific rules for AI & LLM Crawlers (AIO / AEO Maximization)
 User-agent: GPTBot
 Allow: /
 Disallow: /dashboard/
-
-User-agent: Claude-Web
-Allow: /
-Disallow: /dashboard/
+Disallow: /admin/
 
 User-agent: ChatGPT-User
 Allow: /
 Disallow: /dashboard/
+Disallow: /admin/
 
 User-agent: OAI-SearchBot
 Allow: /
 Disallow: /dashboard/
+Disallow: /admin/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /dashboard/
+Disallow: /admin/
+
+User-agent: Claude-Web
+Allow: /
+Disallow: /dashboard/
+Disallow: /admin/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /dashboard/
+Disallow: /admin/
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /dashboard/
+Disallow: /admin/
 
 User-agent: Google-Extended
 Allow: /
 Disallow: /dashboard/
+Disallow: /admin/
+
+User-agent: cohere-ai
+Allow: /
+Disallow: /dashboard/
+Disallow: /admin/
 
 # Sitemap location
 Sitemap: https://examcompass.pages.dev/sitemap.xml

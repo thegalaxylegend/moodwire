@@ -1,0 +1,283 @@
+================================================================================
+EXTRACTING SAMPLE QUESTIONS FOR QUALITY EVALUATION
+================================================================================
+
+--- SAMPLE FOR SUBJECT: Physics ---
+
+[Physics | Q1] Exam: JEEMains | Class: 12 | Topic: Alternating Current | Type: Integer
+Question Text:
+An AC circuit consists of a resistor \(R = 10\,\Omega\) and an inductor \(L = 0.2\,\text{H}\) connected in series to a sinusoidal source of rms voltage \(V = 100\,\text{V}\) at frequency \(f = 50\,\text{Hz}\). Calculate the power factor of the circuit (expressed as a decimal to two decimal places).
+Options:
+Correct Answer: 0.16
+Explanation:
+Step 1: Compute the inductive reactance \(X_L = 2\pi f L = 2\pi \times 50 \times 0.2 = 20\pi \approx 62.83\,\Omega\).\
+Step 2: Find the total impedance \(Z = \sqrt{R^2 + X_L^2} \approx \sqrt{10^2 + 62.83^2} \approx 63.6\,\Omega\).\
+Step 3: Power factor \(\cos\phi = R/Z \approx 10/63.6 \approx 0.157\). Rounded to two decimal places gives 0.16.
+--------------------------------------------------
+
+[Physics | Q2] Exam: JEEMains | Class: 12 | Topic: Electrostatics | Type: MCQ
+Question Text:
+$$	ext{The electric field due to a point charge is:}$$
+Options:
+  A. $$	ext{E} = rac{1}{4	ext{\pi}	ext{\epsilon}_0} rac{q}{r^2}$$
+  B. $$	ext{E} = rac{1}{4	ext{\pi}	ext{\epsilon}_0} rac{q}{r}$$
+  C. $$	ext{E} = rac{1}{4	ext{\pi}	ext{\epsilon}_0} rac{q^2}{r^2}$$
+  D. $$	ext{E} = rac{1}{4	ext{\pi}	ext{\epsilon}_0} rac{q^2}{r}$$
+Correct Answer: $$	ext{E} = rac{1}{4	ext{\pi}	ext{\epsilon}_0} rac{q}{r^2}$$
+Explanation:
+Step 1: The electric field due to a point charge is a vector field that surrounds the charge.,Step 2: The electric field can be calculated using Coulomb's law.,Step 3: The formula for the electric field due to a point charge is given by E = (1/4πε0)q/r^2.
+--------------------------------------------------
+
+[Physics | Q3] Exam: JEEMains | Class: 12 | Topic: Physics | Type: MCQ
+Question Text:
+Which of the following statements about electromagnetic waves propagating in vacuum is correct?
+Options:
+  A. The electric and magnetic fields are parallel to each other and perpendicular to the direction of propagation.
+  B. The magnetic field leads the electric field by $90^{\circ}$.
+  C. The energy flux is given by $S = \mathbf{E}\cdot\mathbf{H}$.
+  D. The wave speed is $c = \frac{1}{\sqrt{\mu_0\varepsilon_0}}$.
+Correct Answer: The wave speed is $c = \frac{1}{\sqrt{\mu_0\varepsilon_0}}$.
+Explanation:
+In vacuum, $\mathbf{E}$, $\mathbf{B}$, and the propagation direction are mutually perpendicular and in phase. The Poynting vector is $\mathbf{S}=\mathbf{E}\times\mathbf{H}$, not a dot product. The correct speed relation is $c=1/\sqrt{\mu_0\varepsilon_0}$.
+--------------------------------------------------
+
+[Physics | Q4] Exam: JEEMains | Class: 11 | Topic: Motion in a Straight Line | Type: MCQ
+Question Text:
+A car starts from rest and accelerates uniformly at $2 \; \text{m s}^{-2}$ for 5 s. It then moves with constant speed for 10 s. The area under the velocity‑time graph for the entire 15 s interval represents the total displacement. What is the displacement (in meters)?
+Options:
+  A. 100 m
+  B. 125 m
+  C. 150 m
+  D. 175 m
+Correct Answer: 125 m
+Explanation:
+During the first 5 s the car reaches a speed of $10\,\text{m s}^{-1}$ and covers $\frac12 a t^2 = 25\,\text{m}$. It then travels at $10\,\text{m s}^{-1}$ for 10 s, covering $100\,\text{m}$. Total displacement = $25 + 100 = 125\,\text{m}$.
+--------------------------------------------------
+
+[Physics | Q5] Exam: JEEAdvanced | Class: 12 | Topic: Modern Physics | Type: Integer
+Question Text:
+The Compton scattering wavelength shift is given by $\Delta \lambda = \frac{h}{m_e c} (1 - \cos \theta)$, where $h$ is the Planck's constant, $m_e$ is the mass of the electron, $c$ is the speed of light, and $\theta$ is the scattering angle. What is the wavelength shift for a scattering angle of $60^\circ$?
+Options:
+Correct Answer: 2.42e-12
+Explanation:
+The Compton scattering wavelength shift is given by $\Delta \lambda = \frac{h}{m_e c} (1 - \cos \theta)$. Plugging in the values, we get $\Delta \lambda = \frac{6.626 	imes 10^{-34}}{9.11 	imes 10^{-31} 	imes 3 	imes 10^8} (1 - \cos 60^\circ) = 2.42 	imes 10^{-12} m$.
+--------------------------------------------------
+
+--- SAMPLE FOR SUBJECT: Chemistry ---
+
+[Chemistry | Q1] Exam: JEEMains | Class: 11 | Topic: Chemical Bonding | Type: MCQ
+Question Text:
+According to Molecular Orbital (MO) theory, the bond order of the diatomic molecule $O_2$ is:
+Options:
+  A. 1
+  B. 2
+  C. 0
+  D. 3
+Correct Answer: 2
+Explanation:
+MO electron configuration of $O_2$ gives 8 bonding electrons and 4 antibonding electrons. Bond order = (8 − 4)/2 = 2.
+--------------------------------------------------
+
+[Chemistry | Q2] Exam: JEEAdvanced | Class: 12 | Topic: Inorganic Chemistry | Type: Multi-correct
+Question Text:
+Consider the following statements about ligand exchange reactions in octahedral transition‑metal complexes:
+
+A) In the substitution of a monodentate ligand, the rate law is first order with respect to the complex and independent of the entering ligand concentration (associative mechanism).
+
+B) The kinetic inertness of [Co(NH₃)₅Cl]²⁺ is due to the strong field nature of NH₃ ligands.
+
+C) In a dissociative mechanism, the rate-determining step involves loss of a ligand to give a five‑coordinate intermediate.
+
+D) For the complex [Cr(H₂O)₆]³⁺, the rate of substitution is faster than that of [Co(NH₃)₆]³⁺ because Cr³⁺ has a larger crystal field stabilization energy.
+
+Which of the above statements are correct?
+Options:
+  A. In the substitution of a monodentate ligand, the rate law is first order with respect to the complex and independent of the entering ligand concentration (associative mechanism).
+  B. The kinetic inertness of [Co(NH₃)₅Cl]²⁺ is due to the strong field nature of NH₃ ligands.
+  C. In a dissociative mechanism, the rate-determining step involves loss of a ligand to give a five‑coordinate intermediate.
+  D. For the complex [Cr(H₂O)₆]³⁺, the rate of substitution is faster than that of [Co(NH₃)₆]³⁺ because Cr³⁺ has a larger crystal field stabilization energy.
+Correct Answer: ["The kinetic inertness of [Co(NH₃)₅Cl]²⁺ is due to the strong field nature of NH₃ ligands.","In a dissociative mechanism, the rate-determining step involves loss of a ligand to give a five‑coordinate intermediate."]
+Explanation:
+Statement B is true because NH₃ is a strong‑field ligand giving a high CFSE for Co(III). Statement C correctly describes the dissociative (D) mechanism. A is false (associative rate depends on entering ligand), and D is false (Cr³⁺ does not have a larger CFSE than low‑spin Co³⁺).
+--------------------------------------------------
+
+[Chemistry | Q3] Exam: JEEMains | Class: 12 | Topic: Solutions | Type: Integer
+Question Text:
+$$\text{A solution of glucose in water has a molality of 0.5 m and a boiling point elevation of 0.5 K. What is the value of the freezing point depression constant Kf for the solution?}$
+Options:
+Correct Answer: 2.5
+Explanation:
+Step 1: Recall the formula for the boiling point elevation and freezing point depression.
+Step 2: Use the given values to calculate the value of the freezing point depression constant Kf.
+Step 3: Conclude that the correct answer is the calculated value.
+--------------------------------------------------
+
+[Chemistry | Q4] Exam: JEEMains | Class: 12 | Topic: Amines | Type: MCQ
+Question Text:
+Both the Sandmeyer and Gattermann reactions start from a diazonium salt. Which reagent is common to both reactions for generating the diazonium intermediate?
+Options:
+  A. CuCl
+  B. HCl
+  C. NaNO₂
+  D. HNO₃
+Correct Answer: NaNO₂
+Explanation:
+In both reactions the aromatic amine is treated with NaNO₂ in the presence of HCl to form the diazonium salt; NaNO₂ provides the nitrosyl ion (NO⁺) needed for diazotisation.
+--------------------------------------------------
+
+[Chemistry | Q5] Exam: JEEMains | Class: 12 | Topic: Amines and Diazonium Salts | Type: MCQ
+Question Text:
+Among the following amines, which one exhibits the highest basicity in aqueous solution? Assume that all substituents are alkyl groups and that the solvent is water.
+Options:
+  A. Aniline (C₆H₅NH₂)
+  B. n‑Propylamine (CH₃CH₂CH₂NH₂)
+  C. Dimethylamine ((CH₃)₂NH)
+  D. Triethylamine (N(CH₂CH₃)₃)
+Correct Answer: Dimethylamine ((CH₃)₂NH)
+Explanation:
+Aniline is less basic because the lone pair on nitrogen is delocalised into the aromatic ring (resonance). n‑Propylamine has only one alkyl group, giving a weaker +I effect than dimethylamine. Dimethylamine benefits from two electron‑donating alkyl groups and suffers little steric hindrance, making it the most basic. Triethylamine, despite having three alkyl groups, experiences steric hindrance that reduces its basicity relative to dimethylamine.
+--------------------------------------------------
+
+--- SAMPLE FOR SUBJECT: Mathematics ---
+
+[Mathematics | Q1] Exam: Board | Class: 10 | Topic: Quadratic Equations | Type: MCQ
+Question Text:
+For the quadratic equation $2x^{2} - 5x + 3 = 0$, the discriminant $D = b^{2} - 4ac$ is calculated. What is the nature of the roots of this equation?
+Options:
+  A. Two distinct real roots
+  B. Two equal real roots
+  C. Two complex conjugate roots
+  D. One real root and one complex root
+Correct Answer: Two distinct real roots
+Explanation:
+Compute $D = (-5)^{2} - 4(2)(3) = 25 - 24 = 1 > 0$, so the equation has two distinct real roots. The sign of the discriminant determines the nature of the roots.
+--------------------------------------------------
+
+[Mathematics | Q2] Exam: JEEMains | Class: 12 | Topic: Inverse Trigonometric Functions | Type: MCQ
+Question Text:
+Solve the equation $\sin^{-1}(2x) + \cos^{-1}(x) = \frac{3\pi}{2}$ for $x$ in the interval $[-\frac{1}{2},\frac{1}{2}]$.
+Options:
+  A. No real solution
+  B. $x = 0$
+  C. $x = \frac{1}{2}$
+  D. $x = -\frac{1}{2}$
+Correct Answer: No real solution
+Explanation:
+The domains give $-\frac12\le x\le\frac12$. Using $\sin^{-1}y+\cos^{-1}y=\frac{\pi}{2}$, the equation becomes $\sin^{-1}(2x)-\sin^{-1}(x)=\pi$. The left‑hand side can at most be $\pi$, achieved only when $\sin^{-1}(2x)=\frac{\pi}{2}$ and $\sin^{-1}(x)=-\frac{\pi}{2}$, which require $x=\frac12$ and $x=-1$ simultaneously – impossible. Hence no real $x$ satisfies the equation.
+--------------------------------------------------
+
+[Mathematics | Q3] Exam: Board | Class: 9 | Topic: Algebra | Type: MCQ
+Question Text:
+A shopkeeper sells pens and notebooks. He sells 3 pens and 2 notebooks for $55. If a pen costs $5 more than a notebook, what is the price of one notebook?
+Options:
+  A. $8
+  B. $10
+  C. $12
+  D. $13
+Correct Answer: $8
+Explanation:
+Let the price of a notebook be $x. Then a pen costs $x+5. The total cost is 3(x+5)+2x = 55. Solving gives 5x = 40, so x = 8. Hence the notebook costs $8.
+--------------------------------------------------
+
+[Mathematics | Q4] Exam: JEEAdvanced | Class: 12 | Topic: Functional Equations | Type: MCQ
+Question Text:
+Given a function $f$ satisfying $f(x)+f(\pi - x)=\sin x$ for all real $x$, what is the fundamental period of $f(x)$?
+Options:
+  A. \pi
+  B. 2\pi
+  C. 4\pi
+  D. No finite period
+Correct Answer: 2\pi
+Explanation:
+Replacing $x$ by $x+2\pi$ leaves the right‑hand side unchanged because $\sin(x+2\pi)=\sin x$. The functional equation then forces $f(x+2\pi)=f(x)$, so the smallest positive period is $2\pi$.
+--------------------------------------------------
+
+[Mathematics | Q5] Exam: Board | Class: 8 | Topic: Algebraic Expressions and Identities | Type: MCQ
+Question Text:
+What is the coefficient of \(x^3\) in the product \((2x^2 - 3x + 4)(x^2 + 5x - 1)\)?
+Options:
+  A. 7
+  B. 10
+  C. 13
+  D. 15
+Correct Answer: 7
+Explanation:
+Expand the product using the distributive (FOIL) method and collect the \(x^3\) terms. The \(x^3\) terms are 10x^3 from 2x^2·5x and -3x·x^2, giving a total coefficient of 7.
+--------------------------------------------------
+
+--- SAMPLE FOR SUBJECT: Biology ---
+
+[Biology | Q1] Exam: NEET | Class: 12 | Topic: Principles of Inheritance and Variation | Type: MCQ
+Question Text:
+Which of the following is a numerical chromosomal mutation?
+Options:
+  A. Deletion of a segment of chromosome
+  B. Inversion of a chromosomal segment
+  C. Duplication of a gene
+  D. Klinefelter syndrome
+Correct Answer: Klinefelter syndrome
+Explanation:
+Numerical chromosomal mutations involve changes in the number of chromosomes, not structure. Klinefelter syndrome (47,XXY) is a numerical abnormality â€” extra X chromosome. Deletion, inversion, and duplication are structural mutations affecting chromosome architecture but not total count.
+--------------------------------------------------
+
+[Biology | Q2] Exam: NEET | Class: 12 | Topic: Reproduction in Organisms | Type: MCQ
+Question Text:
+In which of the following organisms does external fertilisation predominantly occur?
+Options:
+  A. Humans
+  B. Earthworms
+  C. Frogs
+  D. Birds
+Correct Answer: Frogs
+Explanation:
+Frogs exhibit external fertilisation, where eggs and sperm are released into water and fertilisation occurs outside the body. Humans, earthworms, and birds have internal fertilisation. Earthworms are hermaphrodites but exchange sperm internally. Birds and humans have internal fertilisation with copulation.
+--------------------------------------------------
+
+[Biology | Q3] Exam: NEET | Class: 12 | Topic: Advanced Genetics for NEET | Type: MCQ
+Question Text:
+Genomic imprinting is a phenomenon where the expression of a gene is determined by its parental origin. Prader-Willi syndrome and Angelman syndrome are two disorders that result from genomic imprinting. Which of the following is a characteristic of Prader-Willi syndrome?
+
+A) It is caused by the loss of function of the UBE3A gene on chromosome 15
+
+B) It is caused by the loss of function of the SNRPN gene on chromosome 15
+
+C) It is characterized by short stature and intellectual disability
+
+D) It is characterized by obesity and hypogonadism
+
+
+Options:
+  A. A) It is caused by the loss of function of the UBE3A gene on chromosome 15
+  B. B) It is caused by the loss of function of the SNRPN gene on chromosome 15
+  C. C) It is characterized by short stature and intellectual disability
+  D. D) It is characterized by obesity and hypogonadism
+Correct Answer: D) It is characterized by obesity and hypogonadism
+Explanation:
+Step 1: Recall the definition of genomic imprinting and its relation to Prader-Willi syndrome and Angelman syndrome,Step 2: Identify the characteristic features of Prader-Willi syndrome,Step 3: Eliminate incorrect options based on the characteristics of Prader-Willi syndrome
+--------------------------------------------------
+
+[Biology | Q4] Exam: Board | Class: 10 | Topic: Heredity and Evolution | Type: MCQ
+Question Text:
+In Mendel's monohybrid cross of heterozygous pea plants (Rr × Rr), what is the expected phenotypic ratio of round to wrinkled seeds?
+Options:
+  A. 3 : 1
+  B. 1 : 3
+  C. 1 : 1
+  D. 2 : 2
+Correct Answer: 3 : 1
+Explanation:
+The Punnett square for Rr × Rr yields genotypes RR, Rr, rR, rr. The dominant phenotype (round) appears in 3 out of 4 cases, giving a 3:1 ratio. The other options arise from mis‑counting or swapping dominant/recessive traits.
+--------------------------------------------------
+
+[Biology | Q5] Exam: NEET | Class: 12 | Topic: Human Health and Disease | Type: MCQ
+Question Text:
+$$\text{The life cycle of }\textit{Plasmodium}\text{ parasite is as follows:}\n\n\text{Stage 1:}\n\text{The parasite enters the human body through the bite of an infected mosquito.}\n\text{Stage 2:}\n\text{The parasite multiplies in the liver cells.}\n\text{Stage 3:}\n\text{The parasite is released from the liver cells into the bloodstream.}\n\text{Stage 4:}\n\text{The parasite infects the red blood cells.}\n\text{Stage 5:}\n\text{The parasite multiplies in the red blood cells and causes the cells to rupture.}\n\text{Stage 6:}\n\text{The parasite is released from the ruptured red blood cells into the bloodstream.}\n\text{Stage 7:}\n\text{The parasite enters the liver cells again and multiplies.}\n\n\text{Which of the following stages is responsible for the symptoms of malaria?}\n\n\text{A) Stage 1}\n\text{B) Stage 2}\n\text{C) Stage 3}\n\text{D) Stage 4}\n\text{E) Stage 5}\n\text{F) Stage 6}\n\text{G) Stage 7}\n\text{H) All stages are equally responsible for the symptoms of malaria.}\n\n\text{[Answer: D]}
+Options:
+  A. Stage 1
+  B. Stage 2
+  C. Stage 3
+  D. Stage 4
+Correct Answer: Stage 4
+Explanation:
+Step 1: The parasite infects the red blood cells.,Step 2: The parasite multiplies in the red blood cells and causes the cells to rupture.,Step 3: The rupture of red blood cells leads to the symptoms of malaria.
+--------------------------------------------------

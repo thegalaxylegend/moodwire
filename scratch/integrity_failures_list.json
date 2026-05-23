@@ -1,0 +1,545 @@
+[
+  {
+    "id": "4fcb6e7ada94f7267e9162ce830e8770",
+    "tier": "B",
+    "exam": "JEEMains",
+    "class": "12",
+    "subject": "Chemistry",
+    "failures": [
+      [
+        "question_text",
+        "The standard cell potential $E^\\circ}$ for the galvanic cell: $$ \\mathrm{Zn(s) \\,|\\, Zn^{2+}(aq) \\,||\\, Cu^{2+}(aq) \\,|\\, Cu(s)} $$ is $1.10\\,\\mathrm{V}$. If the concentration of $\\mathrm{Zn^{2+}}$ is $0.1\\,\\mathrm{M}$ and that of $\\mathrm{Cu^{2+}}$ is $0.01\\,\\mathrm{M}$, what is the cell potential at $298\\,\\mathrm{K}$? Use the Nernst equation: $$ E = E^\\circ - \\frac{0.0591}{n} \\log Q $$",
+        "LaTeX: Unbalanced curly braces in math block 1: 'E^\\circ}' ({: 0, }: 1)"
+      ]
+    ]
+  },
+  {
+    "id": "971fca9ffaffa2017aac6437bdb97218",
+    "tier": "B",
+    "exam": "Board",
+    "class": "9",
+    "subject": "Mathematics",
+    "failures": [
+      [
+        "explanation",
+        "The expression $x^2 - 9$ is a difference of squares: $a^2 - b^2 = (a - b)(a + b)$. Here, $a = x$, $b = 3$, since $9 = 3^2$. So, $x^2 - 9 = (x - 3)(x + 3)$. The other options are incorrect because they either represent perfect squares or incorrect factor pairs.",
+        "Anti-LLM: Detected anti-LLM phrase matching regex '\\boptions are incorrect\\b'"
+      ]
+    ]
+  },
+  {
+    "id": "dec9f285968d22046e87568c69831a51",
+    "tier": "B",
+    "exam": "JEEMains",
+    "class": "11",
+    "subject": "Chemistry",
+    "failures": [
+      [
+        "step_3",
+        "Step 4: Compute ratio $\\gamma = C_p/C_v = 7/5 = 1.40",
+        "LaTeX: Unbalanced inline math delimiters ($): found 1 unescaped '$'"
+      ]
+    ]
+  },
+  {
+    "id": "bf8fdfd6968e308c4b5608476a4451a9",
+    "tier": "B",
+    "exam": "Board",
+    "class": "9",
+    "subject": "Mathematics",
+    "failures": [
+      [
+        "explanation",
+        "The expression $x^2 - 9$ is a difference of squares: $a^2 - b^2 = (a - b)(a + b)$. Here, $a = x$, $b = 3$, so $x^2 - 9 = (x - 3)(x + 3)$. Other options are incorrect expansions or misapplications.",
+        "Anti-LLM: Detected anti-LLM phrase matching regex '\\boptions are incorrect\\b'"
+      ]
+    ]
+  },
+  {
+    "id": "a70d60e859276d6beed086a5c0fc8eaf",
+    "tier": "B",
+    "exam": "JEEAdvanced",
+    "class": "12",
+    "subject": "Mathematics",
+    "failures": [
+      [
+        "step_3",
+        "Step 4: Compute $f(5) = 3 \\times 5 = 15",
+        "LaTeX: Unbalanced inline math delimiters ($): found 1 unescaped '$'"
+      ]
+    ]
+  },
+  {
+    "id": "8d6d933c02b0049b4856b823842a719a",
+    "tier": "B",
+    "exam": "JEEMains",
+    "class": "12",
+    "subject": "Physics",
+    "failures": [
+      [
+        "step_1",
+        "Step 2: Apply changes: new wavelength $\\lambda' = 2\\lambda$, new slit width $a' = a/2€.",
+        "LaTeX: Unbalanced inline math delimiters ($): found 3 unescaped '$'"
+      ]
+    ]
+  },
+  {
+    "id": "0eda61ab3c99e733d7f46d02032572a7",
+    "tier": "B",
+    "exam": "JEEMains",
+    "class": "12",
+    "subject": "Physics",
+    "failures": [
+      [
+        "step_0",
+        "Step 1: Recall that in CE configuration, output voltage $V_{CE} = V_{CC} - I_C R_C€.",
+        "LaTeX: Unbalanced inline math delimiters ($): found 1 unescaped '$'"
+      ],
+      [
+        "step_1",
+        "Step 2: An increase in base voltage increases base current, hence collector current $I_C€.",
+        "LaTeX: Unbalanced inline math delimiters ($): found 1 unescaped '$'"
+      ]
+    ]
+  },
+  {
+    "id": "7d57549b6873e84b2eb67dde1d8472ce",
+    "tier": "B",
+    "exam": "JEEMains",
+    "class": "12",
+    "subject": "Chemistry",
+    "failures": [
+      [
+        "step_0",
+        "Step 1: Recall the Haber process: $N_2 + 3H_2 \\rightleftharpoons 2NH_3€.",
+        "LaTeX: Unbalanced inline math delimiters ($): found 1 unescaped '$'"
+      ]
+    ]
+  },
+  {
+    "id": "e50cb6b1cc2641dddf65b20e7c6c982f",
+    "tier": "B",
+    "exam": "JEEMains",
+    "class": "12",
+    "subject": "Chemistry",
+    "failures": [
+      [
+        "step_2",
+        "Step 3: At higher temperatures, it decomposes: $C_6H_5N_2^+Cl^- + H_2O \\rightarrow C_6H_5OH + N_2 + HCl€.",
+        "LaTeX: Unbalanced inline math delimiters ($): found 1 unescaped '$'"
+      ]
+    ]
+  },
+  {
+    "id": "fb567dedb32fb8ffaf48c91e0b7a998a",
+    "tier": "B",
+    "exam": "NEET",
+    "class": "12",
+    "subject": "Biology",
+    "failures": [
+      [
+        "explanation",
+        "The Genetic Engineering Appraisal Committee (GEAC) is the statutory body under the Environment Protection Act, 1986, responsible for approving large-scale releases and commercial cultivation of GMOs in India. It evaluates environmental and health risks. Other options are incorrect: labeling is not universally mandatory, field trials are permitted under regulation, and domestic research does not require international approval.",
+        "Anti-LLM: Detected anti-LLM phrase matching regex '\\boptions are incorrect\\b'"
+      ]
+    ]
+  },
+  {
+    "id": "f93dbdc5904ee31ec0f3cb933bca019a",
+    "tier": "B",
+    "exam": "JEEMains",
+    "class": "12",
+    "subject": "Mathematics",
+    "failures": [
+      [
+        "step_4",
+        "Step 5: Apply sign: $(-1)^{5} = -1$, so $C_{23} = -1",
+        "LaTeX: Unbalanced inline math delimiters ($): found 3 unescaped '$'"
+      ]
+    ]
+  },
+  {
+    "id": "46a78c58f38c4add3f92da29131ce266",
+    "tier": "B",
+    "exam": "Board",
+    "class": "9",
+    "subject": "Mathematics",
+    "failures": [
+      [
+        "option_0",
+        "$4.00",
+        "LaTeX: Unbalanced inline math delimiters ($): found 1 unescaped '$'"
+      ],
+      [
+        "option_1",
+        "$3.50",
+        "LaTeX: Unbalanced inline math delimiters ($): found 1 unescaped '$'"
+      ],
+      [
+        "option_2",
+        "$2.80",
+        "LaTeX: Unbalanced inline math delimiters ($): found 1 unescaped '$'"
+      ],
+      [
+        "option_3",
+        "$5.00",
+        "LaTeX: Unbalanced inline math delimiters ($): found 1 unescaped '$'"
+      ],
+      [
+        "step_0",
+        "Step 1: Assume the price per pen is $x.",
+        "LaTeX: Unbalanced inline math delimiters ($): found 1 unescaped '$'"
+      ]
+    ]
+  },
+  {
+    "id": "153b71fce95ddc504e59e583df888532",
+    "tier": "B",
+    "exam": "JEEAdvanced",
+    "class": "12",
+    "subject": "Mathematics",
+    "failures": [
+      [
+        "step_2",
+        "Step 3: Determine $k$ from $f(1)=3$, then compute $f(5)=k\\cdot5=15.",
+        "LaTeX: Unbalanced inline math delimiters ($): found 5 unescaped '$'"
+      ]
+    ]
+  },
+  {
+    "id": "0124802946153eb3f5bb27f7a4f70072",
+    "tier": "B",
+    "exam": "Board",
+    "class": "8",
+    "subject": "Mathematics",
+    "failures": [
+      [
+        "step_2",
+        "Step 3: Match the constant term with $k$ to find $k = 4.",
+        "LaTeX: Unbalanced inline math delimiters ($): found 3 unescaped '$'"
+      ]
+    ]
+  },
+  {
+    "id": "7322acc0ba0559e4bca0806210a9fd3c",
+    "tier": "B",
+    "exam": "Board",
+    "class": "9",
+    "subject": "Mathematics",
+    "failures": [
+      [
+        "question_text",
+        "$\\text{In } \\triangle ABC, \\text{ if } AB = 6 \\text{ cm, } BC = 8 \\text{ cm, } AC = 10 \\text{ cm, \\text{ find the area of } \\triangle ABC$",
+        "LaTeX: Unbalanced curly braces in math block 1: '\\text{In } \\triangle ABC, \\text{ if } AB = 6 \\text{ cm, } BC = 8 \\text{ cm, } AC = 10 \\text{ cm, \\text{ find the area of } \\triangle ABC' ({: 6, }: 5)"
+      ]
+    ]
+  },
+  {
+    "id": "2f0ba1088b7efbacd014ce8f4841ba22",
+    "tier": "B",
+    "exam": "Board",
+    "class": "8",
+    "subject": "Mathematics",
+    "failures": [
+      [
+        "option_1",
+        "A number that can be written as a fraction $p/q$ where $p$ and $q$ are integers and $q \\neq 0.",
+        "LaTeX: Unbalanced inline math delimiters ($): found 7 unescaped '$'"
+      ]
+    ]
+  },
+  {
+    "id": "805a1711feda0be35b1431fee41faec1",
+    "tier": "B",
+    "exam": "JEEMains",
+    "class": "11",
+    "subject": "Physics",
+    "failures": [
+      [
+        "explanation",
+        "Potential V = -∫(G dm / r). With dm = (M/L)dx and r = x + s, integration yields V = -GM/L·ln[(x+L)/x]. The other options are incorrect simplifications.",
+        "Anti-LLM: Detected anti-LLM phrase matching regex '\\boptions are incorrect\\b'"
+      ]
+    ]
+  },
+  {
+    "id": "03323cde3c15b9adfaa9e56a42e0e5ce",
+    "tier": "B",
+    "exam": "JEEMains",
+    "class": "12",
+    "subject": "Mathematics",
+    "failures": [
+      [
+        "step_1",
+        "Step 2: Substitute $x = 4$ into the derivative to find the rate of change of $y$ with respect to $x.",
+        "LaTeX: Unbalanced inline math delimiters ($): found 5 unescaped '$'"
+      ]
+    ]
+  },
+  {
+    "id": "ab372f823de1c6a90a4cc060cc8c16e6",
+    "tier": "B",
+    "exam": "Board",
+    "class": "9",
+    "subject": "Science",
+    "failures": [
+      [
+        "option_3",
+        "C$_2$H$_4$O$_2",
+        "LaTeX: Unbalanced inline math delimiters ($): found 5 unescaped '$'"
+      ]
+    ]
+  },
+  {
+    "id": "2a470a255ad19ca21e630b3d1858e790",
+    "tier": "B",
+    "exam": "JEEMains",
+    "class": "12",
+    "subject": "Mathematics",
+    "failures": [
+      [
+        "question_text",
+        "$$\\text{Evaluate the definite integral: } \\boxed{\\text{$\\text{\\int} \\text{sin}^2 x \\text{dx}$}}.$$$\\text{Use the trigonometric identity } \\boxed{\\text{$\\text{sin}^2 x = \\frac{1}{2}(1 - \\text{cos} 2x)$}}.$",
+        "LaTeX: Unbalanced curly braces in math block 4: '\\text{Use the trigonometric identity } \\boxed{\\text{' ({: 3, }: 1)"
+      ]
+    ]
+  },
+  {
+    "id": "ca437e6827d785781238e7b0cc1166bc",
+    "tier": "B",
+    "exam": "JEEMains",
+    "class": "12",
+    "subject": "Mathematics",
+    "failures": [
+      [
+        "question_text",
+        "$$\\text{Evaluate the definite integral: } \\boxed{\\text{$\\text{\\int} \\text{e}^{-x} \\text{dx}$}}.$$$\\text{Use the substitution } \\boxed{\\text{$u = -x$}}.$",
+        "LaTeX: Unbalanced curly braces in math block 4: '\\text{Use the substitution } \\boxed{\\text{' ({: 3, }: 1)"
+      ]
+    ]
+  },
+  {
+    "id": "e39348d7ef4d84378e6fc4ead0addf94",
+    "tier": "B",
+    "exam": "JEEMains",
+    "class": "12",
+    "subject": "Mathematics",
+    "failures": [
+      [
+        "question_text",
+        "$$\\text{Evaluate the definite integral: } \\boxed{\\text{$\\text{\\int} \\text{sin} x \\text{cos} x \\text{dx}$}}.$$$\\text{Use the trigonometric identity } \\boxed{\\text{$\\text{sin} x \\text{cos} x = \\frac{1}{2}\\text{sin} 2x$}}.$",
+        "LaTeX: Unbalanced curly braces in math block 4: '\\text{Use the trigonometric identity } \\boxed{\\text{' ({: 3, }: 1)"
+      ]
+    ]
+  },
+  {
+    "id": "f69de024c6a1fce07195855df5370386",
+    "tier": "B",
+    "exam": "JEEMains",
+    "class": "12",
+    "subject": "Mathematics",
+    "failures": [
+      [
+        "question_text",
+        "$$\\text{Evaluate the definite integral: } \\boxed{\\text{$\\text{\\int} \\text{e}^x \\text{dx}$}}.$$$\\text{Use the substitution } \\boxed{\\text{$u = \\text{e}^x$}}.$",
+        "LaTeX: Unbalanced curly braces in math block 4: '\\text{Use the substitution } \\boxed{\\text{' ({: 3, }: 1)"
+      ]
+    ]
+  },
+  {
+    "id": "1230f13fb501540394ec3743fd493c4a",
+    "tier": "B",
+    "exam": "JEEMains",
+    "class": "12",
+    "subject": "Mathematics",
+    "failures": [
+      [
+        "question_text",
+        "$$\\text{Evaluate the definite integral: } \\boxed{\\text{$\\text{\\int} \\text{cos} x \\text{sin} x \\text{dx}$}}.$$$\\text{Use the trigonometric identity } \\boxed{\\text{$\\text{cos} x \\text{sin} x = \\frac{1}{2}\\text{sin} 2x$}}.$",
+        "LaTeX: Unbalanced curly braces in math block 4: '\\text{Use the trigonometric identity } \\boxed{\\text{' ({: 3, }: 1)"
+      ]
+    ]
+  },
+  {
+    "id": "e1c9fbd1f35eb26d1ef492de6360e101",
+    "tier": "B",
+    "exam": "JEEMains",
+    "class": "11",
+    "subject": "Physics",
+    "failures": [
+      [
+        "explanation",
+        "The formula derives from the small‑angle approximation $\\sin\\theta \\approx \\theta$, which holds only for small amplitudes (≈ 15°). Mass independence is true but not the condition for validity; the other options are incorrect.",
+        "Anti-LLM: Detected anti-LLM phrase matching regex '\\boptions are incorrect\\b'"
+      ]
+    ]
+  },
+  {
+    "id": "59f79a940545aef41db20ea1bfe9a7e5",
+    "tier": "B",
+    "exam": "JEEMains",
+    "class": "12",
+    "subject": "Mathematics",
+    "failures": [
+      [
+        "step_1",
+        "Step 2: Evaluate the derivative at time $t = 2$ seconds: $\\frac{dv}{dt} = 4(2) - 5 = 3",
+        "LaTeX: Unbalanced inline math delimiters ($): found 3 unescaped '$'"
+      ]
+    ]
+  },
+  {
+    "id": "3a517ef633dd149da41108cfa09e3dec",
+    "tier": "B",
+    "exam": "JEEAdvanced",
+    "class": "12",
+    "subject": "Mathematics",
+    "failures": [
+      [
+        "step_2",
+        "Step 3: Simplify the expression: $z^2 = 4 + 12i - 9 = -5 + 12i",
+        "LaTeX: Unbalanced inline math delimiters ($): found 1 unescaped '$'"
+      ]
+    ]
+  },
+  {
+    "id": "24810be11f011e835193ce72d7f6a52d",
+    "tier": "B",
+    "exam": "JEEAdvanced",
+    "class": "12",
+    "subject": "Mathematics",
+    "failures": [
+      [
+        "question_text",
+        "$\\text{The locus:}\\n\\text{}\\n\\boxed{(x,y)\\text{:}\\n\\boxed{x^2+y^2=16}}\\n\\text{represents}\\n\\text{a}\\n\\boxed{\\text{circle}}\\n\\boxed{\\text{of}\\n\\boxed{\\text{radius}}\\n\\boxed{\\text{4}}\\n\\boxed{\\text{units}}.$",
+        "LaTeX: Unbalanced curly braces in math block 1: '\\text{The locus:}\\n\\text{}\\n\\boxed{(x,y)\\text{:}\\n\\boxed{x^2+y^2=16}}\\n\\text{represents}\\n\\text{a}\\n\\boxed{\\text{circle}}\\n\\boxed{\\text{of}\\n\\boxed{\\text{radius}}\\n\\boxed{\\text{4}}\\n\\boxed{\\text{units}}.' ({: 17, }: 16)"
+      ]
+    ]
+  },
+  {
+    "id": "a49eb685cf6d6c326b2cdc25d406c999",
+    "tier": "B",
+    "exam": "JEEAdvanced",
+    "class": "12",
+    "subject": "Mathematics",
+    "failures": [
+      [
+        "option_3",
+        "$3+4i",
+        "LaTeX: Unbalanced inline math delimiters ($): found 1 unescaped '$'"
+      ]
+    ]
+  },
+  {
+    "id": "c8331fd36109f9f9a4d832b0d5c14278",
+    "tier": "B",
+    "exam": "JEEMains",
+    "class": "12",
+    "subject": "Physics",
+    "failures": [
+      [
+        "explanation",
+        "The turns ratio of a transformer is given by the ratio of the primary voltage to the secondary voltage. In this case, the turns ratio is 10:1, which means that the secondary voltage is 10 times the primary voltage. Therefore, the secondary voltage is 1000 V. The other options are incorrect because they do not take into account the turns ratio of the transformer.",
+        "Anti-LLM: Detected anti-LLM phrase matching regex '\\boptions are incorrect\\b'"
+      ]
+    ]
+  },
+  {
+    "id": "2c76d2661322f09058233fb8f15cacec",
+    "tier": "B",
+    "exam": "JEEMains",
+    "class": "12",
+    "subject": "Mathematics",
+    "failures": [
+      [
+        "explanation",
+        "To find the inverse of a matrix, we can use the formula $A^{-1} = \\frac{1}{det(A)} adj(A)$. The determinant of the given matrix is $det(A) = 1*4 - 2*3 = -2$. The adjugate of the matrix is $adj(A) = \\begin{bmatrix} 4 & -2 \\\\ -3 & 1 \\end{bmatrix}$. Therefore, the inverse of the matrix is $A^{-1} = \\frac{1}{-2} \\begin{bmatrix} 4 & -2 \\\\ -3 & 1 \\end{bmatrix} = \\begin{bmatrix} -2 & 1 \\\\ 3 & -1 \\end{bmatrix}$. The other options are incorrect because they do not take into account the determinant and adjugate of the matrix.",
+        "Anti-LLM: Detected anti-LLM phrase matching regex '\\boptions are incorrect\\b'"
+      ]
+    ]
+  },
+  {
+    "id": "47557810ced26e4323b339da5f84f926",
+    "tier": "B",
+    "exam": "JEEMains",
+    "class": "12",
+    "subject": "Mathematics",
+    "failures": [
+      [
+        "step_3",
+        "{'question_text': 'A line with direction ratios $2,1,2$ passes through $(1,2,3)$. It intersects the plane $x+y+z=6$ at point $P$. Find the distance of $P$ from origin.', 'type': 'Integer', 'options': [], 'correct_answer': '3', 'explanation': 'Parametrize line as $x=3t,y=4t,z=0$. Plug into plane: $9t+16t=25t=25$ → $t=1$. So $P=(3,4,0)$, $|OP|=\\\\sqrt{9+16}=5$.', 'solution_steps': ['Parametrize: $x=3t,y=4t,z=0$', '$3(3t)+4(4t)=9t+16t=25t=25$ → $t=1$', '$P=(3,4,0)$, $|OP|=\\\\sqrt{3^2+4^2}=5'], 'primary_topic': 'Three Dimensional Geometry', 'primary_subtopic': 'Intersection of line and plane', 'primary_topic_id': 'math_12_jm_3d_geometry', 'secondary_topic_ids': [], 'concept_tags': ['3D geometry', 'line-plane intersection', 'distance from origin', 'parametric equations'], 'cross_chapter': 0, 'cross_subject': 0, 'also_for': [], 'subject': 'Mathematics', 'class': '12', 'exam': 'JEEMains', 'difficulty_band': 'JEE_MAINS_MEDIUM', 'elo': 2100, 'step_count': 3, 'key_formula': 'Distance = \\\\sqrt{x^2+y^2+z^2}', 'error_trap_type': 'math.3d_geometry.parametric_substitution'}",
+        "LaTeX: Unbalanced inline math delimiters ($): found 29 unescaped '$'"
+      ]
+    ]
+  },
+  {
+    "id": "4109dd6a007183eaf00ff952e06fb17b",
+    "tier": "B",
+    "exam": "JEEMains",
+    "class": "11",
+    "subject": "Physics",
+    "failures": [
+      [
+        "step_1",
+        "Delta U = 50 - 20 = 30$",
+        "LaTeX: Unbalanced inline math delimiters ($): found 1 unescaped '$'"
+      ]
+    ]
+  },
+  {
+    "id": "0dd4ff8364a46c0ddedef5a4aaee1cb5",
+    "tier": "B",
+    "exam": "JEEAdvanced",
+    "class": "12",
+    "subject": "Mathematics",
+    "failures": [
+      [
+        "step_1",
+        "Step 2: $k=f(1)=5 → f(3)=15",
+        "LaTeX: Unbalanced inline math delimiters ($): found 1 unescaped '$'"
+      ]
+    ]
+  },
+  {
+    "id": "63efdc204fa86446e23dafdc072b1fd8",
+    "tier": "B",
+    "exam": "JEEAdvanced",
+    "class": "12",
+    "subject": "Physics",
+    "failures": [
+      [
+        "step_1",
+        "= 2000 × \\ln(2) ≈ 2000 × 0.693 = 1386$",
+        "LaTeX: Unbalanced inline math delimiters ($): found 1 unescaped '$'"
+      ]
+    ]
+  },
+  {
+    "id": "e820f744bf3d8ee55977755b5f6d9c11",
+    "tier": "B",
+    "exam": "JEEMains",
+    "class": "12",
+    "subject": "Mathematics",
+    "failures": [
+      [
+        "step_1",
+        "Compute: $\\frac{1}{2}|(1(6-2) + 4(2-2) + 7(2-6))| = 12",
+        "LaTeX: Unbalanced inline math delimiters ($): found 1 unescaped '$'"
+      ]
+    ]
+  },
+  {
+    "id": "5072e707a36533781a2cc6d1eed528ad",
+    "tier": "B",
+    "exam": "JEEAdvanced",
+    "class": "12",
+    "subject": "Physics",
+    "failures": [
+      [
+        "step_1",
+        "Step 2: $\\sin\\theta = 1/\\sqrt{3} \\Rightarrow M = \\sqrt{3} \\approx 1.73",
+        "LaTeX: Unbalanced inline math delimiters ($): found 1 unescaped '$'"
+      ]
+    ]
+  }
+]

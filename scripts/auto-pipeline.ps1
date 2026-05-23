@@ -42,7 +42,7 @@ for ($cycle = 1; $cycle -le $MaxCycles; $cycle++) {
     }
 
     # Run the pipeline with a timeout
-    $proc = Start-Process -FilePath "npx" `
+    $proc = Start-Process -FilePath "npx.cmd" `
         -ArgumentList "tsx", "scripts/batch-pipeline.ts", "--mode=$Mode", "--batch-size=$BatchSize", "--limit=99999" `
         -NoNewWindow -PassThru -WorkingDirectory (Get-Location)
 
@@ -76,16 +76,16 @@ for ($cycle = 1; $cycle -le $MaxCycles; $cycle++) {
     Write-Host "     This cycle: $generated questions ($rate q/min)" -ForegroundColor White
     Write-Host "     Total so far: $totalGenerated questions" -ForegroundColor White
 
-    # Push to D1 after each cycle
-    Write-Host "  Pushing to D1..." -ForegroundColor Cyan
+    # Upload to local D1 database
+    Write-Host "  Uploading to Local D1 database..." -ForegroundColor Cyan
     try {
-        $d1proc = Start-Process -FilePath "npx" `
-            -ArgumentList "tsx", "scripts/d1-push.ts" `
+        $localproc = Start-Process -FilePath "npx.cmd" `
+            -ArgumentList "tsx", "scripts/d1-upload.ts", "--local" `
             -NoNewWindow -PassThru -WorkingDirectory (Get-Location)
-        $d1proc.WaitForExit(600000)
-        Write-Host "  [OK] D1 push done" -ForegroundColor Green
+        $localproc.WaitForExit(600000)
+        Write-Host "  [OK] Local D1 upload done" -ForegroundColor Green
     } catch {
-        Write-Host "  [WARN] D1 push failed (will retry next cycle)" -ForegroundColor Yellow
+        Write-Host "  [WARN] Local D1 upload failed" -ForegroundColor Yellow
     }
 
     # Check if we hit max cycles
