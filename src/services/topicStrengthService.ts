@@ -13,6 +13,7 @@ import {
     // limit - Unused
 } from 'firebase/firestore';
 import { resolveTopicId } from '../lib/utils';
+import { SYLLABUS_DB } from '../lib/constants';
 
 export interface TopicStat {
     id: string;
@@ -279,6 +280,53 @@ export const batchUpdateTopicStrength = async (
     );
 };
 
+// Helper to normalize class names for comparison
+const normalizeClass = (cls: string): string => {
+    if (!cls) return '';
+    return cls.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim();
+};
+
+// Helper to filter topic stats by static taxonomy to prevent class bleeding
+const filterStatsByTaxonomy = (
+    stats: TopicStat[],
+    userClass?: string,
+    targetExam?: string
+): TopicStat[] => {
+    const normUserClass = userClass ? normalizeClass(userClass) : '';
+    const isCompetitive = ['jee', 'neet'].some(e => (targetExam || '').toLowerCase().includes(e));
+    const isDropper = normUserClass.includes('dropper');
+
+    return stats.filter(s => {
+        let foundTopic: any = null;
+        for (const subject of Object.keys(SYLLABUS_DB)) {
+            // 1. Try finding by topic_id if available
+            if (s.topic_id) {
+                foundTopic = SYLLABUS_DB[subject].find(t => t.id === s.topic_id);
+            }
+            // 2. Fallback to topic name match
+            if (!foundTopic) {
+                foundTopic = SYLLABUS_DB[subject].find(t => t.topic.toLowerCase().trim() === s.topic.toLowerCase().trim());
+            }
+            if (foundTopic) break;
+        }
+
+        // If topic is not in our static database, exclude it
+        if (!foundTopic) return false;
+
+        const topicClassNorm = normalizeClass(foundTopic.class);
+
+        if (isCompetitive || isDropper) {
+            return topicClassNorm === 'class 11' || topicClassNorm === 'class 12';
+        }
+
+        if (normUserClass) {
+            return topicClassNorm === normUserClass;
+        }
+
+        return true;
+    });
+};
+
 // Get user's weak topics (score < 50%)
 // Filtered by user_id, class, and exam
 export const getWeakTopics = async (
@@ -300,12 +348,15 @@ export const getWeakTopics = async (
             q = query(q, where('target_exam', '==', targetExam));
         }
 
-        const isCompetitive = ['JEE', 'NEET'].includes(targetExam || '');
-        if (userClass && !isCompetitive) {
+        const isCompetitive = ['jee', 'neet'].some(e => (targetExam || '').toLowerCase().includes(e));
+        const normUserClass = userClass ? normalizeClass(userClass) : '';
+        const isDropper = normUserClass.includes('dropper');
+
+        if (isCompetitive || isDropper) {
+            // Scope to Class 11, Class 12, Dropper
+            q = query(q, where('user_class', 'in', ['Class 11th', 'Class 12th', 'Class 11', 'Class 12', 'Dropper', 'dropper']));
+        } else if (userClass) {
             q = query(q, where('user_class', '==', userClass));
-        } else if (isCompetitive) {
-            // JEE/NEET: Scope to both 11 and 12
-            q = query(q, where('user_class', 'in', ['Class 11th', 'Class 12th']));
         }
 
         const snap = await getDocs(q);
@@ -318,10 +369,16 @@ export const getWeakTopics = async (
             if (key && key.startsWith(`local_topic_stat_${userId}`)) {
                 try {
                     const parsed = JSON.parse(localStorage.getItem(key)!) as TopicStat;
-                    const isCompetitive = ['JEE', 'NEET'].includes(targetExam || '');
-                    const isCompMatch = isCompetitive ? ['Class 11th', 'Class 12th'].includes(parsed.user_class || '') : parsed.user_class === userClass;
-                    if ((!userClass || isCompMatch) &&
-                        (!targetExam || parsed.target_exam === targetExam)) {
+                    let isCompMatch = false;
+                    if (isCompetitive || isDropper) {
+                        isCompMatch = ['Class 11th', 'Class 12th', 'Class 11', 'Class 12', 'Dropper', 'dropper'].includes(parsed.user_class || '');
+                    } else if (userClass && parsed.user_class) {
+                        isCompMatch = normalizeClass(parsed.user_class) === normUserClass;
+                    } else {
+                        isCompMatch = !userClass;
+                    }
+
+                    if (isCompMatch && (!targetExam || parsed.target_exam === targetExam)) {
                         localStats.push(parsed);
                     }
                 } catch (e) {}
@@ -332,9 +389,10 @@ export const getWeakTopics = async (
         cloudStats.forEach(s => statMap.set(s.topic, s));
         localStats.forEach(s => statMap.set(s.topic, s));
         const allStats = Array.from(statMap.values());
+        const filteredStats = filterStatsByTaxonomy(allStats, userClass, targetExam);
 
         // Client-side filtering and sorting by weakness_score (descending)
-        return allStats
+        return filteredStats
             .filter(s => s.status === 'weak' || (s.weakness_score || 0) > 0.4)
             .sort((a, b) => (b.weakness_score || 0) - (a.weakness_score || 0))
             .slice(0, maxCount);
@@ -366,12 +424,15 @@ export const getStrongTopics = async (
             q = query(q, where('target_exam', '==', targetExam));
         }
 
-        const isCompetitive = ['JEE', 'NEET'].includes(targetExam || '');
-        if (userClass && !isCompetitive) {
+        const isCompetitive = ['jee', 'neet'].some(e => (targetExam || '').toLowerCase().includes(e));
+        const normUserClass = userClass ? normalizeClass(userClass) : '';
+        const isDropper = normUserClass.includes('dropper');
+
+        if (isCompetitive || isDropper) {
+            // Scope to Class 11, Class 12, Dropper
+            q = query(q, where('user_class', 'in', ['Class 11th', 'Class 12th', 'Class 11', 'Class 12', 'Dropper', 'dropper']));
+        } else if (userClass) {
             q = query(q, where('user_class', '==', userClass));
-        } else if (isCompetitive) {
-            // JEE/NEET: Scope to both 11 and 12
-            q = query(q, where('user_class', 'in', ['Class 11th', 'Class 12th']));
         }
 
         const snap = await getDocs(q);
@@ -384,8 +445,16 @@ export const getStrongTopics = async (
             if (key && key.startsWith(`local_topic_stat_${userId}`)) {
                 try {
                     const parsed = JSON.parse(localStorage.getItem(key)!) as TopicStat;
-                    if ((!userClass || parsed.user_class === userClass) &&
-                        (!targetExam || parsed.target_exam === targetExam)) {
+                    let isCompMatch = false;
+                    if (isCompetitive || isDropper) {
+                        isCompMatch = ['Class 11th', 'Class 12th', 'Class 11', 'Class 12', 'Dropper', 'dropper'].includes(parsed.user_class || '');
+                    } else if (userClass && parsed.user_class) {
+                        isCompMatch = normalizeClass(parsed.user_class) === normUserClass;
+                    } else {
+                        isCompMatch = !userClass;
+                    }
+
+                    if (isCompMatch && (!targetExam || parsed.target_exam === targetExam)) {
                         localStats.push(parsed);
                     }
                 } catch (e) {}
@@ -396,9 +465,10 @@ export const getStrongTopics = async (
         cloudStats.forEach(s => statMap.set(s.topic, s));
         localStats.forEach(s => statMap.set(s.topic, s));
         const allStats = Array.from(statMap.values());
+        const filteredStats = filterStatsByTaxonomy(allStats, userClass, targetExam);
 
         // Client-side filtering and sorting
-        return allStats
+        return filteredStats
             .filter(s => s.status === 'strong' || s.score_percentage >= 75)
             .sort((a, b) => b.score_percentage - a.score_percentage)
             .slice(0, maxCount);

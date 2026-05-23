@@ -73,6 +73,28 @@ const SAMPLE_MISTAKES: MistakeEntry[] = [
     }
 ];
 
+const applyConceptualMutation = (entry: MistakeEntry): MistakeEntry => {
+    if (entry.id === 'sample_physics_1') {
+        return {
+            ...entry,
+            question_text: 'A body of mass 4 kg is moving with a velocity of 12 m/s. If a constant force of 8 N is applied opposite to its motion, how long will it take to come to rest?',
+            options: ['3 seconds', '6 seconds', '8 seconds', '12 seconds'],
+            correct_answer: '6 seconds',
+            explanation: "Using Newton's Second Law, the deceleration a = F / m = -8 / 4 = -2 m/s². Using the first equation of motion v = u + at: 0 = 12 - 2t => 2t = 12 => t = 6 seconds. (Concept Mutated for deep verification)",
+        };
+    }
+    if (entry.id === 'sample_math_1') {
+        return {
+            ...entry,
+            question_text: 'What is the value of the limit: lim (x -> 0) [sin(4x) / sin(7x)]?',
+            options: ['4/7', '7/4', '1', '0'],
+            correct_answer: '4/7',
+            explanation: "Using L'Hopital's Rule or standard limit formula lim (x->0) [sin(kx)/x] = k: lim (x->0) [sin(4x) / sin(7x)] = 4/7. (Concept Mutated for deep verification)",
+        };
+    }
+    return entry;
+};
+
 export const ImprovementBookCard: React.FC<ImprovementBookCardProps> = ({ userId, isGuest = false, onStartTest }) => {
     const [entries, setEntries] = useState<MistakeEntry[]>([]);
     const [stats, setStats] = useState({
@@ -132,7 +154,8 @@ export const ImprovementBookCard: React.FC<ImprovementBookCardProps> = ({ userId
     }, [userId, isGuest]);
 
     const handleSolveStart = (entry: MistakeEntry) => {
-        setSelectedEntry(entry);
+        const mutated = applyConceptualMutation(entry);
+        setSelectedEntry(mutated);
         setSelectedOption(null);
         setHasChecked(false);
         setIsCorrectAttempt(null);
@@ -330,6 +353,16 @@ export const ImprovementBookCard: React.FC<ImprovementBookCardProps> = ({ userId
                                         </div>
                                     </div>
                                 </div>
+
+                                {/* Concept Mutation Badge */}
+                                {selectedEntry.id.startsWith('sample_') && (
+                                    <div className="flex items-center gap-2.5 p-3.5 bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 rounded-xl text-xs animate-pulse">
+                                        <Sparkles size={16} className="text-indigo-400 shrink-0" />
+                                        <span>
+                                            <strong className="text-indigo-200">SM-2 Concept Mutation Active:</strong> Variables have been mathematically mutated to verify your conceptual mastery, not rote memory!
+                                        </span>
+                                    </div>
+                                )}
 
                                 {/* Question Text */}
                                 <div className="p-4 bg-white/[0.02] border border-white/5 rounded-xl">

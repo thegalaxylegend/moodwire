@@ -8,7 +8,7 @@ import { batchUpdateTopicStrength } from './topicStrengthService';
  * Recalculates leaderboard scores from historical mock_attempts.
  * This fixes the "Missing Old Data" issue.
  */
-export const syncHistoricalScoresToLeaderboard = async (userId: string, userProfile: { displayName: string, avatar?: string }) => {
+export const syncHistoricalScoresToLeaderboard = async (userId: string, userProfile: { displayName: string, avatar?: string, targetExam?: string }) => {
     if (!userId) return;
 
     console.log(`[SyncService] Starting score sync for ${userId}...`);
@@ -65,6 +65,7 @@ export const syncHistoricalScoresToLeaderboard = async (userId: string, userProf
                     displayName: userProfile.displayName || 'Anonymous',
                     avatar: userProfile.avatar || null
                 },
+                examType: userProfile.targetExam || 'General',
                 totalScore: totalHistoricalScore, // Full rebuild from attempts
                 testsTaken: totalHistoricalTests,
                 lastUpdated: serverTimestamp(),

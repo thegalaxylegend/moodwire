@@ -76,6 +76,9 @@ export const MockGenerator = () => {
         open: false, title: "", message: "", type: 'info' 
     });
 
+    const [showComfortModal, setShowComfortModal] = useState(false);
+    const [comfortModalData, setComfortModalData] = useState<{ topic: string; subject: string } | null>(null);
+
     const [sessionHistory, setSessionHistory] = useState<SessionMetric[]>([]);
     const [fatigueNotice, setFatigueNotice] = useState<{ fatigued: boolean; reason?: string }>({ fatigued: false });
 
@@ -593,12 +596,65 @@ export const MockGenerator = () => {
             
             setCurrentAbility(newAbility);
 
-            // Update granular calibration profile
+            // Dynamic Mid-Test Cognitive Load Tracking & Comfort Shifts
+            let consecutiveWrongs = 0;
+            for (let i = newHistory.length - 1; i >= 0; i--) {
+                if (!newHistory[i].isCorrect) {
+                    consecutiveWrongs++;
+                } else {
+                    break;
+                }
+            }
+
+            const cli = EloService.calculateCognitiveLoad({
+                hesitationS,
+                switchCount: switchCounts[currentQ] || 0,
+                timeSpentS: duration,
+                expectedTimeS,
+                consecutiveWrongs
+            });
+
+            const branding = EloService.recommendDifficultyBanding(cli);
+            if (branding.mix === 'Comfort') {
+                console.log("[MockGenerator] Cognitive load > 0.68. Switching to comfort band to rebuild confidence.");
+                const targetExam = user?.targetExam || 'General';
+                const comfortNeeds = [
+                    {
+                        subject: q.subject || 'General',
+                        topic: q.topic || 'General',
+                        count: 2,
+                        difficulty: 'Easy' as const
+                    }
+                ];
+
+                import('../../services/questionEngine').then(({ getAdaptiveQuestionBatch, mapStoredToUIQuestion }) => {
+                    getAdaptiveQuestionBatch(comfortNeeds, targetExam, newAbility - 150)
+                        .then(rawQs => {
+                            if (rawQs && rawQs.length > 0) {
+                                const uiQs = mapStoredToUIQuestion(rawQs);
+                                setQuestions(prev => {
+                                    const nextQuestions = [...prev];
+                                    nextQuestions.splice(currentQ + 1, 0, ...uiQs);
+                                    return nextQuestions;
+                                });
+                            }
+                        })
+                        .catch(err => console.error("Failed to load comfort questions mid-test:", err));
+                });
+
+                setComfortModalData({
+                    topic: q.topic || 'General',
+                    subject: q.subject || 'General'
+                });
+                setShowComfortModal(true);
+            }
+
+            // Update granular calibration profile (fixed parameters order: subject first, topic second)
             if (user) {
                 const updatedProfile = EloService.updateCalibration(
                     user.calibrationProfile || DEFAULT_CALIBRATION,
-                    q.topic,
                     q.subject || 'General',
+                    q.topic || 'General',
                     qRating,
                     outcome,
                     q.concept_tags
@@ -734,9 +790,56 @@ export const MockGenerator = () => {
     if (step === 'history') return <MockHistory user={user} onResume={handleResume} onBack={() => setStep('config')} />;
     
     return (
-        <MockExamEngine
-            state={{ questions: questions as any, answers, currentQ, step, fatigueNotice, isTimedExam, timeRemaining, currentAbility, aiModalOpen, isVerifying, aiExplanation, isSpeaking, aiChatHistory: aiChatHistory as any, aiInput, isAiThinking, mode }}
-            actions={{ setFatigueNotice, handlePause, handleSubmitExam, setStep, handleAnswer, handleAskAI, setIsSpeaking, setCurrentQ, handlePrevQ, handleNextQ, setAiModalOpen, setAiInput, handleSendAiMessage }}
-        />
+        <>
+            <AnimatePresence>
+                {showComfortModal && comfortModalData && (
+                    <motion.div 
+                        initial={{ opacity: 0 }} 
+                        animate={{ opacity: 1 }} 
+                        exit={{ opacity: 0 }} 
+                        className="fixed inset-0 z-[200] flex items-center justify-center p-4 bg-black/85 backdrop-blur-lg"
+                    >
+                        <motion.div 
+                            initial={{ scale: 0.9, opacity: 0, y: 30 }} 
+                            animate={{ scale: 1, opacity: 1, y: 0 }} 
+                            exit={{ scale: 0.9, opacity: 0, y: 30 }} 
+                            transition={{ type: 'spring', damping: 20 }}
+                            className="relative overflow-hidden bg-[#0d0f1a] border border-[#81ecff]/25 p-8 rounded-[2.5rem] max-w-sm w-full shadow-[0_0_50px_rgba(129,236,255,0.15)] text-center space-y-6"
+                        >
+                            <div className="absolute -top-24 -left-24 w-48 h-48 bg-primary/10 rounded-full blur-3xl pointer-events-none" />
+                            <div className="absolute -bottom-24 -right-24 w-48 h-48 bg-secondary/10 rounded-full blur-3xl pointer-events-none" />
+
+                            <div className="w-20 h-20 mx-auto rounded-full bg-gradient-to-tr from-primary/30 to-secondary/30 flex items-center justify-center text-primary shadow-[0_0_30px_rgba(129,236,255,0.3)] animate-pulse">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#81ecff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+                            </div>
+
+                            <div className="space-y-2">
+                                <span className="inline-block px-3 py-1 bg-[#81ecff]/10 text-[#81ecff] text-[10px] font-extrabold tracking-wider uppercase rounded-full">
+                                    Concept Rebuilding Shift
+                                </span>
+                                <h3 className="text-xl font-black text-text-main tracking-tight">Reinforcing Fundamentals</h3>
+                            </div>
+
+                            <p className="text-xs text-text-muted leading-relaxed">
+                                We noticed some of the recent questions on <span className="text-[#81ecff] font-semibold">{comfortModalData.topic}</span> were quite challenging. 
+                                <br/><br/>
+                                To keep you in your flow state and strengthen your base, we are temporarily switching to <span className="text-[#81ecff] font-semibold">Concept Rebuilding questions</span>. Let's master the basics together! 🚀
+                            </p>
+
+                            <button 
+                                onClick={() => setShowComfortModal(false)} 
+                                className="w-full py-3.5 bg-gradient-to-r from-primary to-secondary hover:brightness-110 active:scale-95 text-white font-extrabold rounded-2xl shadow-[0_0_20px_rgba(129,236,255,0.3)] transition-all uppercase tracking-wider text-xs"
+                            >
+                                Let's Do This!
+                            </button>
+                        </motion.div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
+            <MockExamEngine
+                state={{ questions: questions as any, answers, currentQ, step, fatigueNotice, isTimedExam, timeRemaining, currentAbility, aiModalOpen, isVerifying, aiExplanation, isSpeaking, aiChatHistory: aiChatHistory as any, aiInput, isAiThinking, mode }}
+                actions={{ setFatigueNotice, handlePause, handleSubmitExam, setStep, handleAnswer, handleAskAI, setIsSpeaking, setCurrentQ, handlePrevQ, handleNextQ, setAiModalOpen, setAiInput, handleSendAiMessage }}
+            />
+        </>
     );
 };

@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { getRankByValue } from '../../services/gamificationService';
 import { useBadgeStyle } from '../../context/BadgeStyleProvider';
 import type { BadgeStyle } from '../../context/BadgeStyleProvider';
+import { usePerformance } from '../../context/PerformanceProvider';
 
 // Custom Glowing Rank Icons (SVGs)
 
@@ -491,6 +492,7 @@ export const RankBadge: React.FC<RankBadgeProps> = ({ xp, showLabel = true, size
     const rank = getRankByValue(xp);
     const { badgeStyle: globalBadgeStyle } = useBadgeStyle();
     const activeStyle = style || globalBadgeStyle;
+    const { tier } = usePerformance();
 
     const sizeClasses = {
         sm: 'w-10 h-10',
@@ -512,8 +514,8 @@ export const RankBadge: React.FC<RankBadgeProps> = ({ xp, showLabel = true, size
             onClick={onClick}
         >
             <div className="relative">
-                {/* Rotating Outer Aura for High Tiers */}
-                {isHighTier && (
+                {/* Rotating Outer Aura for High Tiers (Elite tier only to prevent lag on massive lists) */}
+                {isHighTier && tier === 'elite' && (
                     <motion.div
                         animate={{ rotate: 360 }}
                         transition={{ duration: 15, repeat: Infinity, ease: "linear" }}

@@ -14,10 +14,12 @@ import { XPProgress } from '../../components/gamification/XPProgress';
 import { AuthGate } from '../../components/auth/AuthGate';
 
 
+import { storageService } from '../../services/storageService';
 import { mockPrefetchService } from '../../services/mockPrefetchService';
 import { motion, AnimatePresence, useSpring, useTransform } from 'framer-motion';
 import { DailyStudyGoalIcon } from '../../components/dashboard/DailyStudyGoalIcon';
 import { ImprovementBookCard } from '../../components/dashboard/ImprovementBookCard';
+import { EloService } from '../../services/eloService';
 
 // MasteryDiagnostics removed
 // CollegePredictorCard removed
@@ -120,7 +122,8 @@ export const Overview = () => {
             await Promise.all([
                 syncHistoricalScoresToLeaderboard(user.id, {
                     displayName: user.name,
-                    avatar: user.avatarUrl
+                    avatar: user.avatarUrl,
+                    targetExam: user.targetExam
                 }),
                 syncSyllabusFromMocks(user.id),
                 syncTopicStatsFromMocks(user.id, user.userClass, user.targetExam)
@@ -143,6 +146,7 @@ export const Overview = () => {
     };
 
     const [attempts, setAttempts] = useState(0);
+    const [subjectPreparedness, setSubjectPreparedness] = useState<Record<string, number>>({});
     // Use store value if available, else local state (though we can just direct use store)
     const progress = user?.syllabusProgress || 0;
 
@@ -199,6 +203,8 @@ export const Overview = () => {
         } else if (mission.type === 'discovery') {
             const slug = mission.topic.toLowerCase().replace(/[^a-z0-9\s]/g, '').replace(/\s+/g, '-').trim();
             navigate(`/dashboard/lectures/${slug}`);
+        } else if (mission.type === 'srs_review' || mission.type === 'mistake_retry') {
+            document.getElementById('improvement-book')?.scrollIntoView({ behavior: 'smooth' });
         }
     };
 
@@ -210,6 +216,96 @@ export const Overview = () => {
 
         setLoading(true);
         try {
+            // --- SELF-HEALING CACHE SANITIZATION ---
+            if (!user.isGuest) {
+                try {
+                    const { SYLLABUS_DB } = await import('../../lib/constants');
+                    const normUserClass = user.userClass ? user.userClass.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim() : '';
+                    const isCompetitive = ['jee', 'neet'].some(e => (user.targetExam || '').toLowerCase().includes(e));
+                    const isDropper = normUserClass.includes('dropper');
+
+                    const keysToRemove: string[] = [];
+                    for (let i = 0; i < localStorage.length; i++) {
+                        const key = localStorage.key(i);
+                        if (key) {
+                            if (key.startsWith(`local_topic_stat_${user.id}`)) {
+                                try {
+                                    const parsed = JSON.parse(localStorage.getItem(key)!);
+                                    if (parsed && parsed.topic) {
+                                        let foundTopic: any = null;
+                                        for (const subject of Object.keys(SYLLABUS_DB)) {
+                                            if (parsed.topic_id) {
+                                                foundTopic = SYLLABUS_DB[subject].find((t: any) => t.id === parsed.topic_id);
+                                            }
+                                            if (!foundTopic) {
+                                                foundTopic = SYLLABUS_DB[subject].find((t: any) => t.topic.toLowerCase().trim() === parsed.topic.toLowerCase().trim());
+                                            }
+                                            if (foundTopic) break;
+                                        }
+
+                                        if (foundTopic) {
+                                            const topicClassNorm = foundTopic.class.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim();
+                                            let isInvalid = false;
+
+                                            if (isCompetitive || isDropper) {
+                                                isInvalid = topicClassNorm === 'class 8' || topicClassNorm === 'class 9' || topicClassNorm === 'class 10';
+                                            } else if (normUserClass) {
+                                                isInvalid = topicClassNorm !== normUserClass;
+                                            }
+
+                                            if (isInvalid) {
+                                                keysToRemove.push(key);
+                                            }
+                                        } else {
+                                            // Unknown legacy topic not in database
+                                            keysToRemove.push(key);
+                                        }
+                                    }
+                                } catch (e) {}
+                            } else if (key.startsWith(`vid_cache_v3_${user.id}_`)) {
+                                try {
+                                    const parts = key.split('_');
+                                    const topicSlug = parts[parts.length - 2];
+                                    if (topicSlug) {
+                                        let foundTopic: any = null;
+                                        for (const subject of Object.keys(SYLLABUS_DB)) {
+                                            foundTopic = SYLLABUS_DB[subject].find((t: any) => {
+                                                const tSlug = t.id;
+                                                const cleanSlug = t.topic.toLowerCase().replace(/[^a-z0-9]/g, '_');
+                                                return tSlug === topicSlug || cleanSlug === topicSlug || t.topic.toLowerCase().replace(/\s+/g, '_') === topicSlug;
+                                            });
+                                            if (foundTopic) break;
+                                        }
+
+                                        if (foundTopic) {
+                                            const topicClassNorm = foundTopic.class.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim();
+                                            let isInvalid = false;
+
+                                            if (isCompetitive || isDropper) {
+                                                isInvalid = topicClassNorm === 'class 8' || topicClassNorm === 'class 9' || topicClassNorm === 'class 10';
+                                            } else if (normUserClass) {
+                                                isInvalid = topicClassNorm !== normUserClass;
+                                            }
+
+                                            if (isInvalid) {
+                                                keysToRemove.push(key);
+                                            }
+                                        }
+                                    }
+                                } catch (e) {}
+                            }
+                        }
+                    }
+
+                    keysToRemove.forEach(k => localStorage.removeItem(k));
+                    if (keysToRemove.length > 0) {
+                        console.log(`[SelfHealing] 🧼 Successfully scrubbed ${keysToRemove.length} legacy invalid cache entries.`);
+                    }
+                } catch (err) {
+                    console.warn("Self-healing cache check failed:", err);
+                }
+            }
+
             let weakStats: TopicStat[] = [];
             // 0. Skip cloud fetches for Guests
             if (user.isGuest) {
@@ -347,29 +443,226 @@ export const Overview = () => {
                 // Video fetching is handled by fetchActiveVideo now
             }
 
-            // 5. Fetch Mock Counts (Independent - Guests still want their local history!)
+            // 5. Fetch Mock Counts & Calculate Blended Preparedness (Independent - Guests still want their local history!)
             try {
-                let cloudCount = 0;
+                let cloudMocks: any[] = [];
                 if (!user.isGuest) {
                     const { db } = await import('../../lib/firebase');
                     const { collection, query, where, getDocs } = await import('firebase/firestore');
                     const mockColl = collection(db, 'mock_attempts');
                     const qMock = query(mockColl, where('user_id', '==', user.id));
                     const snapshotMock = await getDocs(qMock);
-                    cloudCount = snapshotMock.size;
+                    cloudMocks = snapshotMock.docs.map(d => ({ ...d.data(), source: 'cloud' }));
                 }
 
-                const localDataRaw = localStorage.getItem('exam_compass_local_history');
-                const localData = localDataRaw ? JSON.parse(localDataRaw) : [];
-                const localCount = localData.length;
+                const localMocks = await storageService.getHistory(user?.id);
+                const mergedMocks = cloudMocks.concat(localMocks);
+                setAttempts(mergedMocks.length);
 
-                setAttempts(cloudCount + localCount);
+                // --- Calculate Blended Preparedness ---
+                const exam = user?.targetExam?.toLowerCase() || '';
+                const userCls = user?.userClass?.toLowerCase() || '';
+
+                let relevantSubjects: string[] = [];
+                if (exam.includes('jee')) relevantSubjects = ['Physics', 'Chemistry', 'Mathematics'];
+                else if (exam.includes('neet') || exam.includes('medical')) relevantSubjects = ['Physics', 'Chemistry', 'Biology'];
+                else if (exam === 'school exams' || exam.includes('class') || exam.includes('board')) {
+                    const classKey = userCls.replace(/th|st|nd|rd/g, '').replace(' ', '-');
+                    const { EXAM_SUBJECT_MAPPING } = await import('../../lib/constants');
+                    relevantSubjects = EXAM_SUBJECT_MAPPING[classKey] || EXAM_SUBJECT_MAPPING[exam] || ['Physics', 'Chemistry', 'Mathematics', 'Biology'];
+                } else {
+                    relevantSubjects = ['Physics', 'Chemistry', 'Mathematics', 'Biology'];
+                }
+
+                // Fetch syllabus stats per subject
+                const statsObj: Record<string, { total: number, master: number, scoreSum: number, count: number }> = {};
+                
+                const normUserClass = user.userClass ? user.userClass.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim() : '';
+                const isComp = ['jee', 'neet'].some(e => exam.includes(e));
+                const isDropper = normUserClass.includes('dropper');
+
+                for (const sub of relevantSubjects) {
+                    const { SYLLABUS_DB } = await import('../../lib/constants');
+                    const classTopics = (SYLLABUS_DB[sub] || []).filter(t => {
+                        if (!user.userClass) return true;
+                        const normTopicClass = t.class.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim();
+                        if (isComp || isDropper) {
+                            return normTopicClass === 'class 11' || normTopicClass === 'class 12';
+                        }
+                        return normTopicClass === normUserClass;
+                    });
+                    const totalTopics = classTopics.length || 10;
+                    statsObj[sub] = { total: totalTopics, master: 0, scoreSum: 0, count: 0 };
+                }
+
+                if (!user.isGuest) {
+                    const { db } = await import('../../lib/firebase');
+                    const { collection, query, where, getDocs } = await import('firebase/firestore');
+                    const sylQ = query(collection(db, 'syllabus'), where('user_id', '==', user.id));
+                    const sylSnap = await getDocs(sylQ);
+                    
+                    const { SYLLABUS_DB } = await import('../../lib/constants');
+                    sylSnap.docs.forEach(doc => {
+                        const data = doc.data();
+                        if (statsObj[data.subject] && data.is_completed) {
+                            const topicItem = (SYLLABUS_DB[data.subject] || []).find(t => t.topic === data.topic);
+                            if (!user.userClass) {
+                                statsObj[data.subject].master++;
+                                statsObj[data.subject].scoreSum += (data.mastery_score || 0);
+                                statsObj[data.subject].count++;
+                            } else if (topicItem) {
+                                const normTopicClass = topicItem.class.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim();
+                                const classMatches = (isComp || isDropper)
+                                    ? (normTopicClass === 'class 11' || normTopicClass === 'class 12')
+                                    : normTopicClass === normUserClass;
+                                
+                                if (classMatches) {
+                                    statsObj[data.subject].master++;
+                                    statsObj[data.subject].scoreSum += (data.mastery_score || 0);
+                                    statsObj[data.subject].count++;
+                                }
+                            }
+                        }
+                    });
+                }
+
+                const fmtStats: Record<string, number> = {};
+                relevantSubjects.forEach(subj => {
+                    const s = statsObj[subj];
+                    const completionPct = s.total > 0 ? Math.round((s.master / s.total) * 100) : 0;
+                    fmtStats[subj] = completionPct;
+                });
+
+                // Filter mocks
+                const classesMatch = (userClass: string, attemptClass: string): boolean => {
+                    if (!userClass || !attemptClass) return true;
+                    if (userClass.toLowerCase() === 'general' || attemptClass.toLowerCase() === 'general') return true;
+                    const userDigits = userClass.match(/\d+/g) || [];
+                    const attemptDigits = attemptClass.match(/\d+/g) || [];
+                    if (userDigits.length === 0 || attemptDigits.length === 0) return true;
+                    return userDigits.some(d => attemptDigits.includes(d));
+                };
+
+                const examsMatch = (userExam: string, attempt: any): boolean => {
+                    if (!userExam) return true;
+                    const userExamLower = userExam.toLowerCase();
+                    const attemptExam = (attempt.exam_name || attempt.exam || attempt.exam_type || attempt.topic || '').toLowerCase();
+                    if (userExamLower.includes('jee') || userExamLower.includes('engineering')) {
+                        if (attemptExam.includes('neet') || attemptExam.includes('medical') || attemptExam.includes('biology')) {
+                            return false;
+                        }
+                        return true;
+                    }
+                    if (userExamLower.includes('neet') || userExamLower.includes('medical')) {
+                        if (attemptExam.includes('jee') || attemptExam.includes('mains') || attemptExam.includes('advance') || attemptExam.includes('mathematics') || attemptExam.includes('math')) {
+                            return false;
+                        }
+                        return true;
+                    }
+                    return true;
+                };
+
+                const filteredMocks = mergedMocks.filter(m => {
+                    if (!m) return false;
+                    const attemptClass = m.user_class || m.userClass || '';
+                    if (!classesMatch(userCls, attemptClass)) return false;
+                    if (!examsMatch(exam, m)) return false;
+                    return true;
+                });
+
+                let mocksToProcess = filteredMocks;
+                let isSimulation = false;
+                if (filteredMocks.length === 0) {
+                    isSimulation = true;
+                    const baseDate = new Date();
+                    if (exam.includes('neet') || exam.includes('medical')) {
+                        mocksToProcess = [
+                            { topic: 'NEET Diagnostic - Physics', score: 96, total: 180, percentage: 53, type: 'topic', created_at: new Date(baseDate.getTime() - 12 * 24 * 60 * 60 * 1000).toISOString() },
+                            { topic: 'NEET Diagnostic - Chemistry', score: 108, total: 180, percentage: 60, type: 'topic', created_at: new Date(baseDate.getTime() - 9 * 24 * 60 * 60 * 1000).toISOString() },
+                            { topic: 'NEET Diagnostic - Biology', score: 224, total: 360, percentage: 62, type: 'topic', created_at: new Date(baseDate.getTime() - 6 * 24 * 60 * 60 * 1000).toISOString() },
+                            { topic: 'NEET UG Part Test #1', score: 480, total: 720, percentage: 67, type: 'quick', created_at: new Date(baseDate.getTime() - 3 * 24 * 60 * 60 * 1000).toISOString() },
+                            { topic: 'NEET UG Full Mock #1', score: 532, total: 720, percentage: 74, type: 'full', created_at: new Date(baseDate.getTime() - 1 * 24 * 60 * 60 * 1000).toISOString() }
+                        ];
+                    } else {
+                        mocksToProcess = [
+                            { topic: 'JEE Mains Diagnostic - Physics', score: 48, total: 100, percentage: 48, type: 'topic', created_at: new Date(baseDate.getTime() - 12 * 24 * 60 * 60 * 1000).toISOString() },
+                            { topic: 'JEE Mains Diagnostic - Chemistry', score: 56, total: 100, percentage: 56, type: 'topic', created_at: new Date(baseDate.getTime() - 9 * 24 * 60 * 60 * 1000).toISOString() },
+                            { topic: 'JEE Mains Diagnostic - Mathematics', score: 62, total: 100, percentage: 62, type: 'topic', created_at: new Date(baseDate.getTime() - 6 * 24 * 60 * 60 * 1000).toISOString() },
+                            { topic: 'JEE Mains Part Test #1', score: 204, total: 300, percentage: 68, type: 'quick', created_at: new Date(baseDate.getTime() - 3 * 24 * 60 * 60 * 1000).toISOString() },
+                            { topic: 'JEE Mains Full Mock #1', score: 228, total: 300, percentage: 76, type: 'full', created_at: new Date(baseDate.getTime() - 1 * 24 * 60 * 60 * 1000).toISOString() }
+                        ];
+                    }
+                }
+
+                const rawMocksData = mocksToProcess
+                    .filter(m => m !== null)
+                    .map((m: any) => {
+                        let inferredType = m.type;
+                        if (!inferredType) {
+                            const qCount = Number(m.totalQuestions || m.total_questions || 0);
+                            if (qCount > 0 && qCount <= 25) inferredType = 'quick';
+                            else if (m.topic && m.topic.toLowerCase().includes('full mock')) inferredType = 'full';
+                            else inferredType = 'quick';
+                        }
+                        let maxScore = m.total_marks || m.total || (Number(m.total_questions || m.totalQuestions || 0) * 4) || 100;
+                        let norm = 0;
+                        if (m.percentage !== undefined) norm = Number(m.percentage);
+                        else if (m.score !== undefined && maxScore > 0) norm = Math.round((Number(m.score) / maxScore) * 100);
+                        return { ...m, normalizedScore: norm, type: inferredType };
+                    });
+
+                const subjectMockScores: Record<string, { total: number, count: number }> = {};
+                rawMocksData.forEach((mock: any) => {
+                    let subjectsInMock: string[] = [];
+                    if (mock.type === 'full') subjectsInMock = relevantSubjects;
+                    else if (mock.type === 'topic' || mock.topic) {
+                        const topicName = (mock.topic || '').toLowerCase();
+                        const foundSub = relevantSubjects.find(s => topicName.includes(s.toLowerCase()));
+                        if (foundSub) subjectsInMock = [foundSub];
+                        else subjectsInMock = relevantSubjects;
+                    }
+
+                    subjectsInMock.forEach(sub => {
+                        if (!subjectMockScores[sub]) subjectMockScores[sub] = { total: 0, count: 0 };
+                        const score = Math.min(100, Math.max(0, mock.normalizedScore));
+                        if (score > 0) {
+                            subjectMockScores[sub].total += score;
+                            subjectMockScores[sub].count++;
+                        }
+                    });
+                });
+
+                const computedPreparedness: Record<string, number> = {};
+                relevantSubjects.forEach(subj => {
+                    const cal = user?.calibrationProfile;
+                    const subKey = subj.toLowerCase() === 'mathematics' || subj.toLowerCase() === 'math' ? 'math' : subj.toLowerCase();
+                    let eloRating = cal?.subjectRatings?.[subKey] || user?.abilityScore || 1000;
+                    if (subKey === 'math' && eloRating === 1000 && cal?.topicRatings?.mathematics) {
+                        eloRating = cal.topicRatings.mathematics;
+                    }
+                    const eloPercentile = EloService.calculatePercentile(eloRating);
+
+                    let percentage = fmtStats[subj] || 0;
+                    if (percentage === 0) {
+                        if (subjectMockScores[subj]?.count > 0) {
+                            const avg = Math.round(subjectMockScores[subj].total / subjectMockScores[subj].count);
+                            percentage = avg;
+                        }
+                    }
+
+                    let blended = 0;
+                    const hasHistory = percentage > 0 || (cal?.totalAttempts || 0) > 0 || isSimulation;
+                    if (hasHistory) {
+                        blended = Math.round((percentage * 0.3) + (eloPercentile * 0.7));
+                    }
+                    computedPreparedness[subj] = blended;
+                });
+
+                setSubjectPreparedness(computedPreparedness);
             } catch (err) {
-                console.warn("Mock counts fetch failed:", err);
-                // Fallback to local only
-                const localDataRaw = localStorage.getItem('exam_compass_local_history');
-                const localCount = localDataRaw ? (JSON.parse(localDataRaw) || []).length : 0;
-                setAttempts(localCount);
+                console.warn("Mock counts and preparedness fetch failed:", err);
+                const localData = await storageService.getHistory(user?.id);
+                setAttempts(localData.length);
             }
 
             // 6. Trigger centralized syllabus fetch
@@ -669,11 +962,13 @@ export const Overview = () => {
                                 )}
                             </div>
                             
-                            <ImprovementBookCard 
-                                userId={displayUser.id || 'guest'}
-                                isGuest={displayUser.isGuest}
-                                onStartTest={() => navigate('/dashboard/mock')}
-                            />
+                            <div id="improvement-book">
+                                <ImprovementBookCard 
+                                    userId={displayUser.id || 'guest'}
+                                    isGuest={displayUser.isGuest}
+                                    onStartTest={() => navigate('/dashboard/mock')}
+                                />
+                            </div>
                         </div>
                     </div>
 
@@ -690,16 +985,26 @@ export const Overview = () => {
                             ? ['Mathematics', 'Science', 'Social Science', 'English'] 
                             : ['Physics', 'Chemistry', 'Math', 'Overall']
                         ).map((subject, idx) => {
-                            let score = 0.5;
-                            if (subject.toLowerCase() === 'overall') {
-                                const p = (displayUser.skills as any)?.physics || 0.5;
-                                const c = (displayUser.skills as any)?.chemistry || 0.5;
-                                const m = (displayUser.skills as any)?.math || 0.5;
-                                score = (p + c + m) / 3;
+                            let percentage = 50;
+
+                            if (loading || Object.keys(subjectPreparedness).length === 0) {
+                                percentage = 50;
                             } else {
-                                score = (displayUser.skills as any)?.[subject.toLowerCase()] || 0.5;
+                                if (subject.toLowerCase() === 'overall') {
+                                    const vals = Object.values(subjectPreparedness);
+                                    percentage = vals.length > 0 
+                                        ? Math.round(vals.reduce((a, b) => a + b, 0) / vals.length)
+                                        : 0;
+                                } else {
+                                    const key = Object.keys(subjectPreparedness).find(
+                                        k => k.toLowerCase() === subject.toLowerCase() || 
+                                             (subject.toLowerCase() === 'math' && k.toLowerCase() === 'mathematics') ||
+                                             (subject.toLowerCase() === 'mathematics' && k.toLowerCase() === 'math')
+                                    );
+                                    percentage = key ? subjectPreparedness[key] : 0;
+                                }
                             }
-                            const percentage = Math.round(score * 100);
+                            let score = percentage / 100;
                             
                             let colorClass = 'text-amber-400';
                             let barGradient = 'from-amber-500 to-yellow-400';
@@ -757,7 +1062,7 @@ export const Overview = () => {
                                         </div>
                                         <div className="shrink-0 flex flex-col items-end">
                                             <AnimatedCounter value={percentage} colorClass={colorClass} />
-                                            <span className="text-[9px] text-slate-500 font-semibold uppercase tracking-wider">Proficiency</span>
+                                            <span className="text-[9px] text-slate-500 font-semibold uppercase tracking-wider">Preparedness</span>
                                         </div>
                                     </div>
 

@@ -106,19 +106,94 @@ export const Notes = () => {
         
         // Auto-detect mode from input
         const lowerInput = input.toLowerCase();
-        const detectedMode = (lowerInput.includes('revision') || lowerInput.includes('short') || lowerInput.includes('summary')) ? 'exam' : noteType;
+        const detectedMode = (lowerInput.includes('revision') || lowerInput.includes('short') || lowerInput.includes('summary') || lowerInput.includes('cheat sheet')) ? 'exam' : noteType;
+
+        // Dynamic Subject Detection from input
+        let subject = "General Academics";
+        if (
+            lowerInput.includes("physics") || lowerInput.includes("electrostatics") || lowerInput.includes("magnetism") || 
+            lowerInput.includes("thermodynamics") || lowerInput.includes("force") || lowerInput.includes("motion") || 
+            lowerInput.includes("optics") || lowerInput.includes("light") || lowerInput.includes("electricity") || 
+            lowerInput.includes("gravitation") || lowerInput.includes("mechanics") || lowerInput.includes("waves")
+        ) {
+            subject = "Physics";
+        } else if (
+            lowerInput.includes("chemistry") || lowerInput.includes("organic") || lowerInput.includes("inorganic") || 
+            lowerInput.includes("chemical") || lowerInput.includes("atoms") || lowerInput.includes("molecules") || 
+            lowerInput.includes("equilibrium") || lowerInput.includes("reaction") || lowerInput.includes("bonding") || 
+            lowerInput.includes("periodic") || lowerInput.includes("thermo") || lowerInput.includes("solutions")
+        ) {
+            subject = "Chemistry";
+        } else if (
+            lowerInput.includes("biology") || lowerInput.includes("botany") || lowerInput.includes("zoology") || 
+            lowerInput.includes("cell") || lowerInput.includes("genetics") || lowerInput.includes("human") || 
+            lowerInput.includes("plant") || lowerInput.includes("morphology") || lowerInput.includes("photosynthesis") || 
+            lowerInput.includes("anatomy") || lowerInput.includes("disease") || lowerInput.includes("ecosystem")
+        ) {
+            subject = "Biology";
+        } else if (
+            lowerInput.includes("math") || lowerInput.includes("calculus") || lowerInput.includes("algebra") || 
+            lowerInput.includes("geometry") || lowerInput.includes("probability") || lowerInput.includes("trigonometry") || 
+            lowerInput.includes("quadratic") || lowerInput.includes("derivatives") || lowerInput.includes("integration") || 
+            lowerInput.includes("matrix") || lowerInput.includes("vector") || lowerInput.includes("limits")
+        ) {
+            subject = "Mathematics";
+        }
+
+        // Detect user's explicit structural constraints
+        let explicitConstraints: string[] = [];
+        if (lowerInput.includes("point") || lowerInput.includes("bullet")) {
+            explicitConstraints.push("FORMAT: Use strict point-wise/bulleted structure as requested.");
+        }
+        if (lowerInput.includes("simple") || lowerInput.includes("easy")) {
+            explicitConstraints.push("LANGUAGE: Use the simplest explanation style possible, breaking down jargon into layman's terms.");
+        }
+        if (lowerInput.includes("example") || lowerInput.includes("solved")) {
+            explicitConstraints.push("EXAMPLES: Add extra solved step-by-step examples demonstrating the concepts.");
+        }
+        if (lowerInput.includes("derivation") || lowerInput.includes("derive")) {
+            explicitConstraints.push("DERIVATION: Show highly detailed, step-by-step mathematical derivations in KaTeX.");
+        }
+        if (lowerInput.includes("10 point") || lowerInput.includes("ten point")) {
+            explicitConstraints.push("LENGTH: Strictly limit the primary conceptual sections to exactly 10 comprehensive points.");
+        }
+        if (lowerInput.includes("formula") || lowerInput.includes("equation")) {
+            explicitConstraints.push("EQUATIONS: Include a rigorous and exhaustive index of all active formulas.");
+        }
 
         try {
             abortControllerRef.current = new AbortController();
             
             setProgressStatus('Archiving Metadata...');
-            const metaPrompt = `Topic: "${input}". Return JSON: {"title": "Title", "pyqs": ["Q1", "Q2", "Q3", "Q4", "Q5"]}`;
-            const metaResponse = await askAI(metaPrompt, '', 'groq', [], { 
-                temperature: 0.1, 
-                jsonMode: true, 
-                stream: false,
-                signal: abortControllerRef.current.signal 
-            });
+            const metaPrompt = `Create a highly professional academic metadata JSON for the following student request: "${input}". 
+            The target subject is: ${subject}. 
+            The target class/grade is: ${user?.userClass || 'Class 12th'}.
+            The student might have specified custom styling (e.g. "point wise", "simplest way possible"). Parse the intent and reflect it in the Title.
+            
+            Return JSON in this EXACT schema (do not output markdown formatting blocks around JSON, do not include trailing commas):
+            {
+              "title": "A beautiful, premium academic title (e.g., 'ELECTROSTATICS | Complete Concept Guide' or 'PHOTOSYNTHESIS | Point-Wise Quick Revision')",
+              "pyqs": [
+                "A highly realistic, challenging JEE/NEET/Board exam question 1 covering this topic",
+                "A highly realistic, challenging JEE/NEET/Board exam question 2 covering this topic",
+                "A highly realistic, challenging JEE/NEET/Board exam question 3 covering this topic",
+                "A highly realistic, challenging JEE/NEET/Board exam question 4 covering this topic",
+                "A highly realistic, challenging JEE/NEET/Board exam question 5 covering this topic"
+              ]
+            }`;
+
+            const metaResponse = await askAI(
+                "You are an Elite Academic Registrar. Your sole job is to synthesize beautiful chapter metadata in strictly valid JSON format matching the schema requested.",
+                metaPrompt,
+                'groq',
+                [],
+                { 
+                    temperature: 0.1, 
+                    jsonMode: true, 
+                    stream: false,
+                    signal: abortControllerRef.current.signal 
+                }
+            );
             const metaData = extractJSON(metaResponse);
 
             if (!metaData) throw new Error("Metadata synthesis failed");
@@ -137,34 +212,65 @@ export const Notes = () => {
 
             setProgressStatus(detectedMode === 'exam' ? 'Synthesizing Revision Excellence...' : 'Exhaustive Textbook Generation...');
             
+            const constraintAlert = explicitConstraints.length > 0
+                ? `\n⚠️ MANDATORY CRITICAL USER INSTRUCTIONS OVERRIDE:\n${explicitConstraints.join('\n')}\nYOU MUST OVERRIDE STANDARD STRUCTURE TO FULFILL THESE DIRECTIVES.`
+                : '';
+
             const chapterPrompt = detectedMode === 'exam' 
-                ? `INSTRUCTION: ${input}. 
-                   PRIORITY: Respect the user's specific formatting or content requests above. 
-                   FALLBACK (If not clearly specified):
-                   - Use STRICT bullet points for all theoretical concepts.
-                   - NO LONG PARAGRAPHS. Max 1-2 lines per point. 
-                   - Use Bold for ALL critical terms/values.
-                   - Focus on high-yield facts: "More knowledge in less time".
-                   - Include "Must-Know Formulas", "Common Pitfalls", and "Mnemonics".
-                   - Class: ${user?.userClass || 'Class 12th'}.
-                   CRITICAL: END STRICTLY WITH CONTENT. NO CONVERSATIONAL FILLER.`
-                : `INSTRUCTION: ${input}. 
-                   PRIORITY: Respect the user's specific formatting or content requests above. 
-                   FALLBACK (If not clearly specified):
-                   - NO STORYTELLING. NO FLUFF. NO CONVERSATIONAL FILLER.
-                   - ZERO-OMISSION POLICY: You MUST map and cover EVERY single sub-topic, formula, derivation, numerical application, and curriculum detail for this chapter. Missing a sub-topic is a failure.
-                   - FORMAT: Use a dense, point-wise structure. Break complex concepts into multiple detailed points.
-                   - DENSITY: Target maximum technical depth. Expand on EVERY definition and law.
-                   - Use block math $$...$$. TARGET: 3000-5000 words.
-                   - Structure: H1 for Chapter, H2 for Major Topics, H3 for Sub-topics. 
-                   - Class: ${user?.userClass || 'Class 12th'}.
-                   CRITICAL: END STRICTLY WITH CONTENT.`;
+                ? `INSTRUCTION: ${input}
+                   SUBJECT: ${subject}
+                   CLASS: ${user?.userClass || 'Class 12th'}
+                   STYLE: High-Yield Exam Revision Cards
+
+                   ${constraintAlert}
+
+                   STANDARD HIGH-YIELD REVISION NOTE STRUCTURE (Apply if no conflicting user override):
+                   - Use a structured, professional outline. Start directly with a H1 Title of the chapter.
+                   - Use STRICT, dense bullet points for all theories. Avoid blocks of prose.
+                   - Keep points to a maximum of 1-3 lines of high-information density.
+                   - **Bold** every critical definition, parameter, constant, and physical quantity.
+                   - Core Sections to include:
+                     1. H2: "Syllabus Snapshot & Exam Weightage" (A compact table or list summarizing the high-yield subtopics and their frequency in recent papers).
+                     2. H2: "High-Yield Concept Sheets" (Point-wise revision lists covering core conceptual pillars).
+                     3. H2: "🔑 Formula Directory" (A clear table or structured list mapping every core equation in LaTeX, including explanations for all variables).
+                     4. H2: "⚠️ Pitfalls & Misconceptions" (A point-wise warning list detailing common traps students fall into during high-stakes exams, e.g. units, negative signs, vector directions).
+                     5. H2: "💡 Mnemonics & Memory Aids" (Clever mnemonics to instantly recall taxonomies, series, groups, or biological processes).
+                   - Formatting: Format all math in standard LaTeX: $...$ for inline equations and $$...$$ for centered block equations.
+                   - Length: High information density, action-oriented. NO conversational fluff, no introductory greetings.`
+                : `INSTRUCTION: ${input}
+                   SUBJECT: ${subject}
+                   CLASS: ${user?.userClass || 'Class 12th'}
+                   STYLE: Exhaustive Theoretical Study Archive (Detailed Style)
+
+                   ${constraintAlert}
+
+                   STANDARD EXHAUSTIVE CONCEPT ARCHIVE STRUCTURE (Apply if no conflicting user override):
+                   - Structure: Use clean Markdown hierarchy (H1 for Chapter Title, H2 for Major Topics, H3 for Subtopics). Start directly with H1.
+                   - Coverage: Fulfill a ZERO-OMISSION POLICY. You MUST cover every single postulate, definition, law, theorem, derivation, boundary case, and structural exception for this topic. Missing any subtopic represents failure.
+                   - Deep Foundations: Explain the conceptual basis, theoretical postulates, and fundamental physical/biological/chemical mechanics rigorously.
+                   - Rigorous Derivations: Show step-by-step mathematical proofs or physical derivations. Write extensive mathematical annotations explaining transitions between equations in LaTeX.
+                   - Subject-Specific Anchoring:
+                     * PHYSICS: Focus on mathematical derivations, boundary limits, and conceptual applications.
+                     * CHEMISTRY: Include complete chemical reactions, physical state changes, precise names of catalysts, structural isomer lists, and comparison tables of physical properties.
+                     * BIOLOGY: Detail taxonomy hierarchies, anatomical pathways, process cycles, and clinical/functional importance.
+                     * MATHEMATICS: Show full mathematical proofs, check for domain/range restrictions, highlight edge cases, and graph-like behaviors.
+                   - Core Sections to include:
+                     1. H2: "Chapter Blueprint & Core Objectives" (A formal map of the concepts to be mastered).
+                     2. H2: "Deep Theoretical Foundations" (Dense concepts).
+                     3. H2: "Mathematical Formulation & Proofs" (Step-by-step rigorous derivations).
+                     4. H2: "Concept Comparison & Synoptic Tables" (Densely formatted Markdown comparison tables).
+                     5. H2: "Solved Practical Masterclass" (Include exactly 3 highly challenging, conceptual problems solved step-by-step with deep explanations).
+                   - Length: Complete, dense, textbook-level depth.
+                   - Formatting: Format all math in standard LaTeX: $...$ for inline equations and $$...$$ for centered block equations.
+                   - Tone: Highly formal, rigorous, and academic. NO introductory/conversational fluff.`;
 
             const stream = await askAI(
-                chapterPrompt, 
-                '', 
-                'groq', 
-                [], 
+                `You are a Distinguished STEM Professor, Senior Syllabus Director, and Elite Academic Author for JEE, NEET, and CBSE Board Exams. 
+                 Your purpose is to generate highly authoritative, mathematically rigorous, and structurally beautiful chapter notes in Markdown.
+                 Ensure absolute factual accuracy. Use standard KaTeX formatting ($...$ and $$...$$) for all mathematics.`,
+                chapterPrompt,
+                'groq',
+                [],
                 { 
                     stream: true, 
                     modelId: "llama-3.3-70b-versatile", 
@@ -183,7 +289,6 @@ export const Notes = () => {
                         fullContent += text;
                         
                         // Repetition Detection (Guardian Logic)
-                        // If the last 300 chars repeated verbatim elsewhere in a large doc, it's likely a loop
                         if (fullContent.length > 1000) {
                             const tail = fullContent.slice(-300);
                             const body = fullContent.slice(0, -300);
@@ -226,7 +331,7 @@ export const Notes = () => {
             setSelectedDoc(saved);
             abortControllerRef.current = null;
 
-            } catch (e: any) {
+        } catch (e: any) {
                 if (e.name === 'AbortError') {
                     console.log("Stream aborted by user.");
                 } else {

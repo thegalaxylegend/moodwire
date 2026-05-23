@@ -50,6 +50,53 @@ export const DEFAULT_CALIBRATION: CalibrationProfile = {
 
 export const EloService = {
     /**
+     * Calculates Cognitive Load Index (CLI) based on active user interaction telemetry.
+     * Scale: 0.0 (Perfect Flow) to 1.0 (Extreme Fatigue/Frustration).
+     */
+    calculateCognitiveLoad: (telemetry: {
+        hesitationS: number;        // Seconds spent before first click
+        switchCount: number;        // Option switches during question
+        timeSpentS: number;         // Total seconds spent on current question
+        expectedTimeS: number;      // Standard expected time
+        consecutiveWrongs: number;  // Incorrect answers in this session
+    }): number => {
+        let load = 0.1;
+
+        // 1. Hesitation Penalty (Doubt / Lack of conceptual confidence)
+        if (telemetry.hesitationS > 25) load += 0.25;
+        else if (telemetry.hesitationS > 12) load += 0.15;
+
+        // 2. Revision Penalty (Indecision / Panic shifts)
+        if (telemetry.switchCount > 3) load += 0.3;
+        else if (telemetry.switchCount > 1) load += 0.15;
+
+        // 3. Time Penalty (Struggle / Stuck)
+        if (telemetry.timeSpentS > telemetry.expectedTimeS * 2) load += 0.25;
+        else if (telemetry.timeSpentS > telemetry.expectedTimeS * 1.3) load += 0.12;
+
+        // 4. Session Fatigue (Success rate decay)
+        load += Math.min(0.2, telemetry.consecutiveWrongs * 0.08);
+
+        return Math.max(0.0, Math.min(1.0, load));
+    },
+
+    /**
+     * Recommends the next difficulty adjustment based on current cognitive load.
+     * If Cognitive Load > 0.68, shifts to "Comfort" to rebuild confidence and prevent blockages.
+     */
+    recommendDifficultyBanding: (
+        cognitiveLoad: number
+    ): { mix: 'Comfort' | 'Challenge' | 'Stretch'; adjustment: number; alertUser: boolean } => {
+        if (cognitiveLoad > 0.68) {
+            return { mix: 'Comfort', adjustment: -150, alertUser: true };
+        }
+        if (cognitiveLoad > 0.42) {
+            return { mix: 'Challenge', adjustment: 0, alertUser: false };
+        }
+        return { mix: 'Stretch', adjustment: 250, alertUser: false };
+    },
+
+    /**
      * Calculates the new ability score after a question attempt.
      * v4.0: Includes Rich Outcomes (Time, Hints, Confidence)
      */
@@ -135,7 +182,8 @@ export const EloService = {
         // 1. Apply Temporal Decay (Regress if inactive)
         let processedProfile = EloService.applyTemporalDecay(calibration);
         const newProfile = { ...processedProfile };
-        const subKey = subject.toLowerCase();
+        let subKey = subject.toLowerCase().trim();
+        if (subKey === 'mathematics') subKey = 'math';
         
         // 2. Update Overall (Moving Average)
         const oldOverall = newProfile.overall;

@@ -5,10 +5,14 @@ import { Link } from 'react-router-dom';
 import { CustomSelect } from '../../components/CustomSelect';
 import { AuthGate } from '../../components/auth/AuthGate';
 import { ScorePredictor } from '../../components/ScorePredictor';
+import { KnowledgeGraph } from '../../components/dashboard/KnowledgeGraph';
+import { EloService } from '../../services/eloService';
+import { storageService } from '../../services/storageService';
 
 export const Analytics = () => {
     const { user } = useUserStore();
     const [loading, setLoading] = useState(true);
+    const [isDemoData, setIsDemoData] = useState(false);
 
     // Data State
     const [rawMocks, setRawMocks] = useState<any[]>([]);
@@ -56,8 +60,21 @@ export const Analytics = () => {
 
             // 2. Initialize Stats
             const statsObj: Record<string, { total: number, master: number, scoreSum: number, count: number }> = {};
+            
+            const normUserClass = userCls ? userCls.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim() : '';
+            const isComp = ['jee', 'neet'].some(e => exam.includes(e));
+            const isDropper = normUserClass.includes('dropper');
+
             relevantSubjects.forEach(sub => {
-                const totalTopics = SYLLABUS_DB[sub]?.length || 10;
+                const classTopics = (SYLLABUS_DB[sub] || []).filter(t => {
+                    if (!userCls) return true;
+                    const normTopicClass = t.class.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim();
+                    if (isComp || isDropper) {
+                        return normTopicClass === 'class 11' || normTopicClass === 'class 12';
+                    }
+                    return normTopicClass === normUserClass;
+                });
+                const totalTopics = classTopics.length || 10;
                 statsObj[sub] = { total: totalTopics, master: 0, scoreSum: 0, count: 0 };
             });
 
@@ -67,9 +84,23 @@ export const Analytics = () => {
             sylSnap.docs.forEach(doc => {
                 const data = doc.data();
                 if (statsObj[data.subject] && data.is_completed) {
-                    statsObj[data.subject].master++;
-                    statsObj[data.subject].scoreSum += (data.mastery_score || 0);
-                    statsObj[data.subject].count++;
+                    const topicItem = (SYLLABUS_DB[data.subject] || []).find(t => t.topic === data.topic);
+                    if (!userCls) {
+                        statsObj[data.subject].master++;
+                        statsObj[data.subject].scoreSum += (data.mastery_score || 0);
+                        statsObj[data.subject].count++;
+                    } else if (topicItem) {
+                        const normTopicClass = topicItem.class.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim();
+                        const classMatches = (isComp || isDropper)
+                            ? (normTopicClass === 'class 11' || normTopicClass === 'class 12')
+                            : normTopicClass === normUserClass;
+                        
+                        if (classMatches) {
+                            statsObj[data.subject].master++;
+                            statsObj[data.subject].scoreSum += (data.mastery_score || 0);
+                            statsObj[data.subject].count++;
+                        }
+                    }
                 }
             });
 
@@ -95,24 +126,117 @@ export const Analytics = () => {
 
             let localMocks: any[] = [];
             try {
-                const localDataRaw = localStorage.getItem('exam_compass_local_attempts');
-                localMocks = localDataRaw ? JSON.parse(localDataRaw) : [];
+                localMocks = await storageService.getHistory(user?.id);
             } catch (jsonErr) {
                 console.warn("Failed to parse local mocks", jsonErr);
             }
 
+            // Helpers for filtering by class and exam
+            const classesMatch = (userClass: string, attemptClass: string): boolean => {
+                if (!userClass || !attemptClass) return true;
+                if (userClass.toLowerCase() === 'general' || attemptClass.toLowerCase() === 'general') return true;
+                const userDigits = userClass.match(/\d+/g) || [];
+                const attemptDigits = attemptClass.match(/\d+/g) || [];
+                if (userDigits.length === 0 || attemptDigits.length === 0) return true;
+                return userDigits.some(d => attemptDigits.includes(d));
+            };
+
+            const examsMatch = (userExam: string, attempt: any): boolean => {
+                if (!userExam) return true;
+                const userExamLower = userExam.toLowerCase();
+                const attemptExam = (attempt.exam_name || attempt.exam || attempt.exam_type || attempt.topic || '').toLowerCase();
+                if (userExamLower.includes('jee') || userExamLower.includes('engineering')) {
+                    if (attemptExam.includes('neet') || attemptExam.includes('medical') || attemptExam.includes('biology')) {
+                        return false;
+                    }
+                    return true;
+                }
+                if (userExamLower.includes('neet') || userExamLower.includes('medical')) {
+                    if (attemptExam.includes('jee') || attemptExam.includes('mains') || attemptExam.includes('advance') || attemptExam.includes('mathematics') || attemptExam.includes('math')) {
+                        return false;
+                    }
+                    return true;
+                }
+                return true;
+            };
+
             // Merge & Normalise
-            const rawMocksData = (Array.isArray(cloudMocks) ? cloudMocks : []).concat(Array.isArray(localMocks) ? localMocks : [])
+            const mergedMocks = (Array.isArray(cloudMocks) ? cloudMocks : []).concat(Array.isArray(localMocks) ? localMocks : []);
+            
+            // Filter by active target exam and class boundaries
+            const activeUserClass = user?.userClass || '';
+            const activeUserExam = user?.targetExam || '';
+
+            const filteredMocks = mergedMocks.filter(m => {
+                if (!m) return false;
+                const attemptClass = m.user_class || m.userClass || '';
+                if (!classesMatch(activeUserClass, attemptClass)) return false;
+                if (!examsMatch(activeUserExam, m)) return false;
+                return true;
+            });
+
+            let mocksToProcess = filteredMocks;
+            let isSimulation = false;
+            
+            if (filteredMocks.length === 0) {
+                isSimulation = true;
+                setIsDemoData(true);
+                const exam = user?.targetExam?.toLowerCase() || '';
+                const baseDate = new Date();
+                
+                if (exam.includes('neet') || exam.includes('medical')) {
+                    mocksToProcess = [
+                        { topic: 'NEET Diagnostic - Physics', score: 96, total: 180, percentage: 53, type: 'topic', created_at: new Date(baseDate.getTime() - 12 * 24 * 60 * 60 * 1000).toISOString() },
+                        { topic: 'NEET Diagnostic - Chemistry', score: 108, total: 180, percentage: 60, type: 'topic', created_at: new Date(baseDate.getTime() - 9 * 24 * 60 * 60 * 1000).toISOString() },
+                        { topic: 'NEET Diagnostic - Biology', score: 224, total: 360, percentage: 62, type: 'topic', created_at: new Date(baseDate.getTime() - 6 * 24 * 60 * 60 * 1000).toISOString() },
+                        { topic: 'NEET UG Part Test #1', score: 480, total: 720, percentage: 67, type: 'quick', created_at: new Date(baseDate.getTime() - 3 * 24 * 60 * 60 * 1000).toISOString() },
+                        { topic: 'NEET UG Full Mock #1', score: 532, total: 720, percentage: 74, type: 'full', created_at: new Date(baseDate.getTime() - 1 * 24 * 60 * 60 * 1000).toISOString() }
+                    ];
+                } else {
+                    // Default to JEE Mains
+                    mocksToProcess = [
+                        { topic: 'JEE Mains Diagnostic - Physics', score: 48, total: 100, percentage: 48, type: 'topic', created_at: new Date(baseDate.getTime() - 12 * 24 * 60 * 60 * 1000).toISOString() },
+                        { topic: 'JEE Mains Diagnostic - Chemistry', score: 56, total: 100, percentage: 56, type: 'topic', created_at: new Date(baseDate.getTime() - 9 * 24 * 60 * 60 * 1000).toISOString() },
+                        { topic: 'JEE Mains Diagnostic - Mathematics', score: 62, total: 100, percentage: 62, type: 'topic', created_at: new Date(baseDate.getTime() - 6 * 24 * 60 * 60 * 1000).toISOString() },
+                        { topic: 'JEE Mains Part Test #1', score: 204, total: 300, percentage: 68, type: 'quick', created_at: new Date(baseDate.getTime() - 3 * 24 * 60 * 60 * 1000).toISOString() },
+                        { topic: 'JEE Mains Full Mock #1', score: 228, total: 300, percentage: 76, type: 'full', created_at: new Date(baseDate.getTime() - 1 * 24 * 60 * 60 * 1000).toISOString() }
+                    ];
+                }
+            } else {
+                setIsDemoData(false);
+            }
+
+            const rawMocksData = mocksToProcess
                 .filter(m => m !== null)
                 .map((m: any, i: number) => {
                     let inferredType = m.type;
                     if (!inferredType) {
                         // Legacy Data Heuristic
-                        const qCount = Number(m.totalQuestions || 0);
+                        const qCount = Number(m.totalQuestions || m.total_questions || 0);
                         if (qCount > 0 && qCount <= 25) inferredType = 'quick';
                         else if (m.topic && m.topic.toLowerCase().includes('full mock')) inferredType = 'full';
                         else if (m.exam) inferredType = 'full'; // Fallback for real full mocks
                         else inferredType = 'quick';
+                    }
+
+                    // Resolve max score
+                    let maxScore = m.total_marks || m.total;
+                    if (!maxScore) {
+                        const qCount = Number(m.total_questions || m.totalQuestions || 0);
+                        if (qCount > 0) {
+                            maxScore = qCount * 4;
+                        } else {
+                            // Heuristics based on exam/type
+                            const examName = (m.exam_name || m.exam || user?.targetExam || '').toLowerCase();
+                            const type = m.type || inferredType;
+                            if (examName.includes('neet')) {
+                                maxScore = type === 'full' ? 720 : 180;
+                            } else if (examName.includes('jee')) {
+                                maxScore = type === 'full' ? 300 : 100;
+                            } else {
+                                maxScore = 100;
+                            }
+                        }
                     }
 
                     // Normalize score
@@ -120,12 +244,10 @@ export const Analytics = () => {
                     if (m.percentage !== undefined) {
                         norm = Number(m.percentage);
                     } else if (m.score !== undefined) {
-                        // Fallback to calculating percentage from raw score
-                        const maxScore = m.total ? Number(m.total) : (Number(m.totalQuestions || 0) * 4);
                         if (maxScore > 0) {
                             norm = Math.round((Number(m.score) / maxScore) * 100);
                         } else {
-                            norm = Number(m.score); // Last resort if no max score known
+                            norm = Number(m.score);
                         }
                     }
 
@@ -134,6 +256,7 @@ export const Analytics = () => {
                         // Ensure valid date - Handle Firestore Timestamp or String
                         created_at: m.created_at?.toDate ? m.created_at.toDate().toISOString() : (m.created_at || m.date || new Date().toISOString()),
                         normalizedScore: norm,
+                        maxScore: maxScore,
                         // Normalize Type
                         type: inferredType,
                         _sortId: i,
@@ -174,10 +297,38 @@ export const Analytics = () => {
 
             totalMasterySum = 0;
             relevantSubjects.forEach(subj => {
-                if (fmtStats[subj].percentage === 0 && subjectMockScores[subj]?.count > 0) {
-                    const avg = Math.round(subjectMockScores[subj].total / subjectMockScores[subj].count);
-                    fmtStats[subj] = { percentage: avg, mastery: avg, source: 'mocks' };
+                const cal = user?.calibrationProfile;
+                const subKey = subj.toLowerCase() === 'mathematics' || subj.toLowerCase() === 'math' ? 'math' : subj.toLowerCase();
+                let eloRating = cal?.subjectRatings?.[subKey] || user?.abilityScore || 1000;
+                
+                // HEAL: If Math rating is stagnant at 1000 but Mathematics topic ELO is set, heal it!
+                if (subKey === 'math' && eloRating === 1000 && cal?.topicRatings?.mathematics) {
+                    eloRating = cal.topicRatings.mathematics;
                 }
+                const eloPercentile = EloService.calculatePercentile(eloRating);
+
+                let percentage = fmtStats[subj].percentage;
+                if (percentage === 0) {
+                    if (subjectMockScores[subj]?.count > 0) {
+                        const avg = Math.round(subjectMockScores[subj].total / subjectMockScores[subj].count);
+                        percentage = avg;
+                    }
+                }
+
+                // Blending formula: 30% syllabus/mock history, 70% live ELO mastery
+                // If they have never completed a topic and never attempted any questions in this subject, show 0% Prepared
+                let blended = 0;
+                const hasHistory = percentage > 0 || (cal?.totalAttempts || 0) > 0 || isSimulation;
+                if (hasHistory) {
+                    blended = Math.round((percentage * 0.3) + (eloPercentile * 0.7));
+                }
+
+                fmtStats[subj] = {
+                    percentage: blended,
+                    mastery: eloPercentile,
+                    source: 'blended-elo'
+                };
+
                 if (fmtStats[subj].percentage < 40) weak.push(subj);
                 totalMasterySum += fmtStats[subj].percentage;
             });
@@ -186,19 +337,30 @@ export const Analytics = () => {
 
             // 7. ML WEAKNESS CLUSTERING
             const topicFailures: Record<string, number> = {};
-            localMocks.forEach((h: any) => {
-                if (h.weakTopics) {
-                    h.weakTopics.forEach((t: string) => {
-                        const cleanT = t.trim();
-                        topicFailures[cleanT] = (topicFailures[cleanT] || 0) + 1;
-                    });
-                }
-            });
+            let criticalWeakness: string[] = [];
 
-            const criticalWeakness = Object.entries(topicFailures)
-                .filter(([_, count]) => count >= 2)
-                .sort((a, b) => b[1] - a[1])
-                .map(([topic]) => topic);
+            if (isSimulation) {
+                const exam = user?.targetExam?.toLowerCase() || '';
+                if (exam.includes('neet') || exam.includes('medical')) {
+                    criticalWeakness = ['Genetics & Evolution', 'Human Physiology', 'Rotational Dynamics', 'Chemical Bonding', 'Organic Chemistry Basics'];
+                } else {
+                    criticalWeakness = ['Rotational Motion', 'Definite Integrals', 'Electrostatics', 'Chemical Kinetics', 'Application of Derivatives'];
+                }
+            } else {
+                localMocks.forEach((h: any) => {
+                    if (h.weakTopics) {
+                        h.weakTopics.forEach((t: string) => {
+                            const cleanT = t.trim();
+                            topicFailures[cleanT] = (topicFailures[cleanT] || 0) + 1;
+                        });
+                    }
+                });
+
+                criticalWeakness = Object.entries(topicFailures)
+                    .filter(([_, count]) => count >= 2)
+                    .sort((a, b) => b[1] - a[1])
+                    .map(([topic]) => topic);
+            }
 
             if (criticalWeakness.length > 0) setWeakAreas(criticalWeakness.slice(0, 5));
 
@@ -237,9 +399,13 @@ export const Analytics = () => {
         return filtered;
     }, [rawMocks, timeRange, testFilter]);
 
-    const chartScores = (Array.isArray(filteredData) ? filteredData : []).map(m => Math.min(100, Math.max(0, m.normalizedScore)));
-    // Limit to last 20 for readability if too many
-    const visibleScores = chartScores.slice(-20);
+    const visibleMocks = useMemo(() => {
+        return (Array.isArray(filteredData) ? filteredData : []).slice(-20);
+    }, [filteredData]);
+
+    const visibleScores = useMemo(() => {
+        return visibleMocks.map(m => Math.min(100, Math.max(0, m.normalizedScore)));
+    }, [visibleMocks]);
 
     if (loading) return <div className="flex h-[50vh] items-center justify-center"><Loader2 className="animate-spin text-primary" size={48} /></div>;
 
@@ -265,7 +431,7 @@ export const Analytics = () => {
                 <header className="flex flex-col md:flex-row md:items-end justify-between gap-4">
                     <div>
                         <h1 className="text-3xl font-heading font-bold text-text-main">Performance Analytics</h1>
-                        <p className="text-text-muted">Real-time analysis of your diagnostic and mock history.</p>
+                        <p className="text-white/70">Real-time analysis of your diagnostic and mock history.</p>
                     </div>
 
                     {/* Main Controls */}
@@ -276,7 +442,7 @@ export const Analytics = () => {
                                 <button
                                     key={r}
                                     onClick={() => setTimeRange(r)}
-                                    className={`px-3 py-1.5 text-xs font-bold rounded-md transition-all ${timeRange === r ? 'bg-primary text-white shadow-md' : 'text-text-muted hover:text-text-main hover:bg-white/5'}`}
+                                    className={`px-3 py-1.5 text-xs font-bold rounded-md transition-all ${timeRange === r ? 'bg-primary text-white shadow-md' : 'text-white/60 hover:text-white hover:bg-white/5'}`}
                                 >
                                     {r}
                                 </button>
@@ -306,14 +472,14 @@ export const Analytics = () => {
                         <div className="flex items-center gap-1 bg-black/20 rounded-lg p-1">
                             <button
                                 onClick={() => setChartType('bar')}
-                                className={`p-1.5 rounded-md transition-all ${chartType === 'bar' ? 'bg-secondary text-white shadow-md' : 'text-text-muted hover:text-text-main'}`}
+                                className={`p-1.5 rounded-md transition-all ${chartType === 'bar' ? 'bg-secondary text-white shadow-md' : 'text-white/60 hover:text-white'}`}
                                 title="Bar Chart"
                             >
                                 <BarChart3 size={16} />
                             </button>
                             <button
                                 onClick={() => setChartType('line')}
-                                className={`p-1.5 rounded-md transition-all ${chartType === 'line' ? 'bg-secondary text-white shadow-md' : 'text-text-muted hover:text-text-main'}`}
+                                className={`p-1.5 rounded-md transition-all ${chartType === 'line' ? 'bg-secondary text-white shadow-md' : 'text-white/60 hover:text-white'}`}
                                 title="Line Chart"
                             >
                                 <LineChart size={16} />
@@ -326,22 +492,33 @@ export const Analytics = () => {
                 <div className="grid grid-cols-1 gap-8">
                     <div className="w-full glass-card oxygen-card p-6 space-y-6 flex flex-col">
                         <div className="flex justify-between items-start">
-                            <div>
-                                <h3 className="text-xl font-bold text-text-main">Performance Trends</h3>
-                                <p className="text-xs text-text-muted mt-1">Showing {visibleScores.length} recent tests</p>
+                            <div className="space-y-1">
+                                <div className="flex items-center gap-2">
+                                    <h3 className="text-xl font-bold text-text-main">Performance Trends</h3>
+                                    {isDemoData && (
+                                        <span className="px-2 py-0.5 rounded bg-yellow-500/10 text-yellow-400 border border-yellow-500/20 text-[9px] font-black uppercase tracking-widest animate-pulse">
+                                            Simulated Baseline
+                                        </span>
+                                    )}
+                                </div>
+                                <p className="text-xs text-white/70">
+                                    {isDemoData 
+                                        ? "Baseline calibration data. Take an active mock test to calibrate your actual performance curves." 
+                                        : `Showing ${visibleScores.length} recent mock attempts.`}
+                                </p>
                             </div>
                             {visibleScores.length > 0 && (
                                 <div className="text-right">
                                     <span className="text-2xl font-bold text-primary">{Math.round(visibleScores.reduce((a, b) => a + b, 0) / visibleScores.length)}%</span>
-                                    <p className="text-[10px] text-text-muted uppercase tracking-wider">Avg Score</p>
+                                    <p className="text-[10px] text-white/60 uppercase tracking-wider font-semibold">Avg Score</p>
                                 </div>
                             )}
                         </div>
 
-                        <div className="flex-1 min-h-[250px] relative w-full bg-black/20 rounded-xl border border-white/5 p-4">
+                        <div className="h-[250px] relative w-full bg-black/20 rounded-xl border border-white/5 p-4">
 
                             {/* Grid Markings */}
-                            <div className="absolute inset-0 pointer-events-none p-4 flex flex-col justify-between text-[10px] text-text-muted font-mono opacity-50">
+                            <div className="absolute inset-0 pointer-events-none p-4 flex flex-col justify-between text-[10px] text-white/50 font-mono">
                                 {[100, 75, 50, 25, 0].map((mark) => (
                                     <div key={mark} className="w-full flex items-center gap-2 h-0">
                                         <span className="w-6 text-right shrink-0">{mark}%</span>
@@ -374,68 +551,94 @@ export const Analytics = () => {
                                 ) : (
                                     // SVG Line Chart
                                     <div className="h-full w-full relative pl-8 z-10">
-                                        <svg className="w-full h-full overflow-visible" viewBox="0 0 100 100" preserveAspectRatio="none">
-                                            <defs>
-                                                <linearGradient id="lineColor" x1="0" y1="0" x2="0" y2="1">
-                                                    <stop offset="0%" stopColor="var(--primary)" stopOpacity="0.5" />
-                                                    <stop offset="100%" stopColor="var(--primary)" stopOpacity="0" />
-                                                </linearGradient>
-                                            </defs>
+                                        <div className="relative w-full h-full">
+                                            <svg className="w-full h-full overflow-visible" viewBox="0 0 100 100" preserveAspectRatio="none">
+                                                <defs>
+                                                    <linearGradient id="lineColor" x1="0" y1="0" x2="0" y2="1">
+                                                        <stop offset="0%" stopColor="var(--primary)" stopOpacity="0.5" />
+                                                        <stop offset="100%" stopColor="var(--primary)" stopOpacity="0" />
+                                                    </linearGradient>
+                                                </defs>
 
+                                                {(() => {
+                                                    const width = 100;
+                                                    const count = visibleScores.length;
+                                                    if (count < 2) return null;
+
+                                                    // Calculate coordinates once
+                                                    const coordinates = visibleScores.map((score, i) => ({
+                                                        x: (i / (count - 1)) * width,
+                                                        y: 100 - score,
+                                                        score
+                                                    }));
+
+                                                    const pointsStr = coordinates.map(c => `${c.x},${c.y}`).join(' ');
+
+                                                    return (
+                                                        <>
+                                                            <polygon
+                                                                points={`0,100 ${pointsStr} 100,100`}
+                                                                fill="url(#lineColor)" // Keep opacity in defs or class
+                                                                className="opacity-50"
+                                                            />
+                                                            <polyline
+                                                                points={pointsStr}
+                                                                fill="none"
+                                                                stroke="var(--primary)"
+                                                                strokeWidth="2"
+                                                                strokeLinecap="round"
+                                                                strokeLinejoin="round"
+                                                                vectorEffect="non-scaling-stroke"
+                                                            />
+                                                        </>
+                                                    );
+                                                })()}
+                                            </svg>
+
+                                            {/* HTML Overlay Dots for Perfect Circles & Premium White Color Tooltips */}
                                             {(() => {
-                                                const width = 100;
                                                 const count = visibleScores.length;
                                                 if (count < 2) return null;
 
-                                                // Calculate coordinates once
-                                                const coordinates = visibleScores.map((score, i) => ({
-                                                    x: (i / (count - 1)) * width,
-                                                    y: 100 - score,
-                                                    score
-                                                }));
+                                                return visibleScores.map((score, i) => {
+                                                    const x = (i / (count - 1)) * 100;
+                                                    const y = 100 - score;
 
-                                                const pointsStr = coordinates.map(c => `${c.x},${c.y}`).join(' ');
-
-                                                return (
-                                                    <>
-                                                        <polygon
-                                                            points={`0,100 ${pointsStr} 100,100`}
-                                                            fill="url(#lineColor)" // Keep opacity in defs or class
-                                                            className="opacity-50"
-                                                        />
-                                                        <polyline
-                                                            points={pointsStr}
-                                                            fill="none"
-                                                            stroke="var(--primary)"
-                                                            strokeWidth="2"
-                                                            strokeLinecap="round"
-                                                            strokeLinejoin="round"
-                                                            vectorEffect="non-scaling-stroke"
-                                                        />
-                                                        {coordinates.map((coord, i) => (
-                                                            <circle
-                                                                key={i}
-                                                                cx={coord.x}
-                                                                cy={coord.y}
-                                                                r="3"
-                                                                fill="var(--surface)"
-                                                                stroke="var(--primary)"
-                                                                strokeWidth="2"
-                                                                className="hover:scale-150 transition-transform origin-center cursor-pointer"
-                                                                vectorEffect="non-scaling-stroke"
-                                                            >
-                                                                <title>{coord.score}%</title>
-                                                            </circle>
-                                                        ))}
-                                                    </>
-                                                );
+                                                    return (
+                                                        <div
+                                                            key={i}
+                                                            className="absolute w-6 h-6 flex items-center justify-center cursor-pointer group z-20"
+                                                            style={{
+                                                                left: `${x}%`,
+                                                                top: `${y}%`,
+                                                                transform: 'translate(-50%, -50%)'
+                                                            }}
+                                                        >
+                                                            {/* Outer pulsing ring on hover */}
+                                                            <div className="absolute inset-0 rounded-full bg-white/20 border border-white/30 scale-50 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200" />
+                                                            
+                                                            {/* Inner Core Dot: Pure White */}
+                                                            <div className="w-2.5 h-2.5 rounded-full bg-white border border-primary transition-all duration-200 group-hover:scale-125 shadow-[0_0_8px_rgba(255,255,255,1)]" />
+                                                            
+                                                            {/* Tooltip */}
+                                                            <span className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 text-[11px] font-bold text-white bg-slate-900/90 backdrop-blur-md border border-white/10 px-2 py-1 rounded shadow-xl opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap z-30 pointer-events-none">
+                                                                {score}%
+                                                            </span>
+                                                        </div>
+                                                    );
+                                                });
                                             })()}
-                                        </svg>
+                                        </div>
                                     </div>
                                 )
                             )}
                         </div>
                     </div>
+                </div>
+
+                {/* Visual Knowledge Graph */}
+                <div className="relative z-10 w-full">
+                    <KnowledgeGraph />
                 </div>
 
                 {/* Hero Section: Rank Evolution */}
@@ -446,7 +649,7 @@ export const Analytics = () => {
                         </div>
                         <div>
                             <h2 className="text-3xl font-black text-white uppercase tracking-tighter italic leading-none">AIR Prediction Engine</h2>
-                            <p className="text-[10px] font-bold text-gray-500 uppercase tracking-[0.3em] mt-1">Deep Learning v2.4 • 2026 Normalization Bias</p>
+                            <p className="text-[10px] font-bold text-white/50 uppercase tracking-[0.3em] mt-1">Deep Learning v2.4 • 2026 Normalization Bias</p>
                         </div>
                     </div>
                     <div className="max-w-5xl">
@@ -506,7 +709,7 @@ export const Analytics = () => {
                             </h3>
 
                             <div className="bg-surface/50 border border-border p-4 rounded-xl mb-4">
-                                <p className="text-sm text-text-muted mb-3">
+                                <p className="text-sm text-white/70 mb-3">
                                     {weakAreas.length > 0
                                         ? `You have ${weakAreas.length} weak areas requiring immediate attention.`
                                         : "You are doing well! Maintain your streak."}
@@ -520,7 +723,7 @@ export const Analytics = () => {
 
                             {weakAreas.length > 0 ? (
                                 <div className="space-y-3 overflow-y-auto flex-1 max-h-[300px] pr-2">
-                                    <p className="text-xs uppercase font-bold text-text-muted">Recommended Crash Courses</p>
+                                    <p className="text-xs uppercase font-bold text-white/50">Recommended Crash Courses</p>
                                     {Array.isArray(weakAreas) && weakAreas.map(subject => (
                                         <a
                                             key={subject}
@@ -531,7 +734,7 @@ export const Analytics = () => {
                                         >
                                             <div>
                                                 <h4 className="font-bold text-text-main text-sm group-hover:text-red-400">{subject}</h4>
-                                                <p className="text-[10px] text-text-muted">High Priority • Watch Video</p>
+                                                <p className="text-[10px] text-white/50">High Priority • Watch Video</p>
                                             </div>
                                             <div className="text-red-500 opacity-50 group-hover:opacity-100">▶</div>
                                         </a>
@@ -547,31 +750,67 @@ export const Analytics = () => {
 
                     {/* Recent Activity List */}
                     <div className="glass-card p-6">
-                        <h3 className="text-xl font-bold text-text-main mb-4">Recent Tests</h3>
-                        {visibleScores.length === 0 ? (
-                            <p className="text-text-muted">No tests matching criteria.</p>
+                        <div className="flex items-center justify-between mb-4">
+                            <h3 className="text-xl font-bold text-text-main">Recent Tests</h3>
+                            {isDemoData && (
+                                <span className="px-2 py-0.5 rounded bg-yellow-500/10 text-yellow-400 border border-yellow-500/20 text-[9px] font-black uppercase tracking-widest">
+                                    Simulated Run
+                                </span>
+                            )}
+                        </div>
+                        {visibleMocks.length === 0 ? (
+                            <p className="text-white/60">No tests matching criteria.</p>
                         ) : (
                             <div className="overflow-x-auto">
                                 <table className="w-full text-left border-collapse">
                                     <thead>
-                                        <tr className="text-text-muted text-sm border-b border-border">
-                                            <th className="py-2 px-4">Test</th>
-                                            <th className="py-2 px-4">Score</th>
-                                            <th className="py-2 px-4">Result</th>
+                                        <tr className="text-white/60 text-xs uppercase tracking-wider border-b border-border">
+                                            <th className="py-2 px-4 pb-3">Test &amp; Category</th>
+                                            <th className="py-2 px-4 pb-3">Raw / Normalized Score</th>
+                                            <th className="py-2 px-4 pb-3">Status</th>
                                         </tr>
                                     </thead>
                                     <tbody className="text-text-main text-sm">
-                                        {Array.isArray(visibleScores) && visibleScores.map((score, i) => (
-                                            <tr key={i} className="border-b border-border/50">
-                                                <td className="py-3 px-4">Exam #{i + 1}</td>
-                                                <td className="py-3 px-4 font-bold">{score}%</td>
-                                                <td className="py-3 px-4">
-                                                    <span className={`px-2 py-1 rounded text-xs ${score > 70 ? 'bg-green-500/10 text-green-500' : 'bg-red-500/10 text-red-500'}`}>
-                                                        {score > 70 ? 'Good' : 'Weak'}
-                                                    </span>
-                                                </td>
-                                            </tr>
-                                        ))}
+                                        {Array.isArray(visibleMocks) && visibleMocks.map((mock, i) => {
+                                            const score = Math.min(100, Math.max(0, mock.normalizedScore));
+                                            const title = mock.topic || mock.exam || 'Adaptive Practice Test';
+                                            const dateStr = mock.created_at
+                                                ? new Date(mock.created_at).toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' })
+                                                : '—';
+                                            const rawScoreStr = mock.score !== undefined
+                                                ? `${mock.score} / ${mock.maxScore || 100}`
+                                                : `${score}%`;
+                                            const typeLabel = mock.type === 'quick'
+                                                ? 'Quick Test'
+                                                : mock.type === 'full'
+                                                ? 'Full Mock'
+                                                : mock.type === 'topic'
+                                                ? 'Topic Test'
+                                                : 'Practice';
+                                                
+                                            return (
+                                                <tr key={mock.id || i} className="border-b border-border/50 hover:bg-white/5 transition-colors">
+                                                    <td className="py-3 px-4">
+                                                        <div>
+                                                            <p className="font-bold text-text-main">{title}</p>
+                                                            <p className="text-[10px] text-white/50 mt-0.5">{dateStr} • {typeLabel}</p>
+                                                        </div>
+                                                    </td>
+                                                    <td className="py-3 px-4 font-mono font-bold text-primary">{rawScoreStr}</td>
+                                                    <td className="py-3 px-4">
+                                                        <span className={`px-2.5 py-1 rounded-full text-[10px] font-black uppercase ${
+                                                            score >= 75
+                                                                ? 'bg-green-500/10 text-green-400 border border-green-500/20'
+                                                                : score >= 45
+                                                                ? 'bg-blue-500/10 text-blue-400 border border-blue-500/20'
+                                                                : 'bg-red-500/10 text-red-400 border border-red-500/20'
+                                                        }`}>
+                                                            {score >= 75 ? 'Mastered' : score >= 45 ? 'Developing' : 'Rebuilding'}
+                                                        </span>
+                                                    </td>
+                                                </tr>
+                                            );
+                                        })}
                                     </tbody>
                                 </table>
                             </div>

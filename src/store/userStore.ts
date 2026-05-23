@@ -1012,8 +1012,17 @@ export const useUserStore = create<UserState>((set, get) => ({
                 where("user_id", "==", currentAuthUser.uid)
             );
 
+            const normUserClass = user.userClass ? user.userClass.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim() : '';
+            const targetExam = user.targetExam?.toLowerCase() || 'jee';
+            const isComp = ['jee', 'neet'].some(e => targetExam.includes(e));
+            const isDropper = normUserClass.includes('dropper');
+
             if (user.userClass) {
-                q = query(q, where("user_class", "==", user.userClass));
+                if (isComp || isDropper) {
+                    q = query(q, where("user_class", "in", ["Class 11th", "Class 12th", "Class 11", "Class 12", "Dropper", "dropper"]));
+                } else {
+                    q = query(q, where("user_class", "==", user.userClass));
+                }
             }
             if (user.targetExam) {
                 q = query(q, where("target_exam", "==", user.targetExam));
@@ -1025,7 +1034,6 @@ export const useUserStore = create<UserState>((set, get) => ({
             // --- REFINED COVERAGE LOGIC ---
             // Calculate progress against total topics in DB for the user's exam AND class
             let totalPossibleTopics = 0;
-            const targetExam = user.targetExam?.toLowerCase() || 'jee';
             const userClass = user.userClass;
             const isMedical = targetExam.includes('neet') || targetExam.includes('medical');
 
@@ -1038,14 +1046,34 @@ export const useUserStore = create<UserState>((set, get) => ({
 
             relevantSubjects.forEach(sub => {
                 // Filter topics by the user's current class
-                const classTopics = SYLLABUS_DB[sub].filter(t => !userClass || t.class === userClass);
+                const classTopics = SYLLABUS_DB[sub].filter(t => {
+                    if (!userClass) return true;
+                    const normTopicClass = t.class.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim();
+                    if (isComp || isDropper) {
+                        return normTopicClass === 'class 11' || normTopicClass === 'class 12';
+                    }
+                    return normTopicClass === normUserClass;
+                });
                 totalPossibleTopics += classTopics.length;
             });
 
             let progress = 0;
             if (data && data.length > 0) {
-                // Only count as completed if it belongs to the current context (though query already filters this)
-                const completedCount = data.filter(s => s.is_completed).length;
+                // Count completed topics in data that match the normalized class context
+                const completedCount = data.filter(s => {
+                    if (!s.is_completed) return false;
+                    const topicItem = (SYLLABUS_DB[s.subject] || []).find(t => t.topic === s.topic);
+                    if (!userClass) return true;
+                    if (topicItem) {
+                        const normTopicClass = topicItem.class.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim();
+                        if (isComp || isDropper) {
+                            return normTopicClass === 'class 11' || normTopicClass === 'class 12';
+                        }
+                        return normTopicClass === normUserClass;
+                    }
+                    return false;
+                }).length;
+                
                 progress = Math.round((completedCount / (totalPossibleTopics || 1)) * 100);
             }
 

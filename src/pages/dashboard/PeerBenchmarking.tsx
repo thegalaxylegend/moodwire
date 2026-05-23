@@ -124,6 +124,22 @@ export const PeerBenchmarking = () => {
                         </button>
                     </div>
 
+                    {/* Exam Filter Selector */}
+                    <div className="flex justify-center gap-2 mt-3">
+                        {['All', 'JEE Mains', 'NEET'].map((exam) => (
+                            <button
+                                key={exam}
+                                onClick={() => setExamFilter(exam)}
+                                className={`px-4 py-1.5 rounded-full text-xs font-bold transition-all duration-300 ${examFilter === exam
+                                    ? 'bg-secondary text-white shadow-[0_0_15px_rgba(236,72,153,0.4)]'
+                                    : 'bg-surface border border-border text-text-muted hover:border-secondary/50'
+                                    }`}
+                            >
+                                {exam === 'All' ? 'Global' : exam}
+                            </button>
+                        ))}
+                    </div>
+
                     {/* DEV ONLY RESET - ADMIN ONLY */}
                     {
                         user?.role === 'admin' && (
@@ -289,15 +305,15 @@ export const PeerBenchmarking = () => {
                                                 <td className="p-4">
                                                     <div className="flex items-center gap-3">
                                                         <div className="w-10 h-10 rounded-full bg-surface border border-border flex items-center justify-center overflow-hidden shadow-inner">
-                                                            {entry.user.avatar ? (
+                                                            {entry.user?.avatar ? (
                                                                 <img src={entry.user.avatar} alt="u" className="w-full h-full object-cover" />
                                                             ) : (
-                                                                <span className="text-sm font-bold text-text-muted">{entry.user.displayName?.[0]}</span>
+                                                                <span className="text-sm font-bold text-text-muted">{entry.user?.displayName?.[0] || '?'}</span>
                                                             )}
                                                         </div>
                                                         <div>
                                                             <span className={`font-bold block ${entry.userId === user?.id ? 'text-primary' : 'text-text-main'}`}>
-                                                                {entry.user.displayName || 'Anonymous'}
+                                                                {entry.user?.displayName || 'Anonymous'}
                                                                 {entry.userId === user?.id && " (You)"}
                                                             </span>
                                                             <span className="text-[10px] text-text-muted uppercase font-bold tracking-tighter">
@@ -354,11 +370,11 @@ const PodiumUser = ({ entry, place, delay, metric }: { entry: LeaderboardEntry, 
         >
             <div className="relative">
                 <div className="w-16 h-16 rounded-full border-4 border-surface shadow-lg overflow-hidden relative z-10">
-                    {(entry.user as any).avatar ? (
-                        <img src={(entry.user as any).avatar} className="w-full h-full object-cover" />
+                    {entry.user?.avatar ? (
+                        <img src={entry.user.avatar} className="w-full h-full object-cover" />
                     ) : (
                         <div className="w-full h-full bg-surface flex items-center justify-center font-bold text-xl">
-                            {entry.user.displayName?.[0]}
+                            {entry.user?.displayName?.[0] || '?'}
                         </div>
                     )}
                 </div>
@@ -373,7 +389,7 @@ const PodiumUser = ({ entry, place, delay, metric }: { entry: LeaderboardEntry, 
             </div>
 
             <span className="text-sm font-bold text-text-main max-w-[100px] truncate text-center">
-                {entry.user.displayName}
+                {entry.user?.displayName || 'Anonymous'}
             </span>
         </motion.div>
     );
