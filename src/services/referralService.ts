@@ -6,9 +6,11 @@ const REFERRAL_XP_BONUS = 500;
 const REFEREE_XP_BONUS = 200;
 
 export const generateReferralCode = (userId: string): string => {
-    // Simple Base36 encoding of a portion of the UID + random suffix
-    // Taking last 4 chars of UID + 2 random chars
-    const suffix = Math.random().toString(36).substring(2, 4).toUpperCase();
+    // Cryptographically secure generation of a 2-char random suffix
+    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    const array = new Uint8Array(2);
+    crypto.getRandomValues(array);
+    const suffix = chars[array[0] % chars.length] + chars[array[1] % chars.length];
     const prefix = userId.slice(-4).toUpperCase();
     return `${prefix}${suffix}`;
 };
