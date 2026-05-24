@@ -49,8 +49,10 @@ export interface GroupBattleSession {
 const generateInviteCode = (): string => {
     const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; // no ambiguous I/1/O/0
     let code = '';
+    const array = new Uint8Array(6);
+    crypto.getRandomValues(array);
     for (let i = 0; i < 6; i++) {
-        code += chars.charAt(Math.floor(Math.random() * chars.length));
+        code += chars.charAt(array[i] % chars.length);
     }
     return code;
 };
