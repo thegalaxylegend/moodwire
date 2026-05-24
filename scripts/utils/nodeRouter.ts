@@ -84,10 +84,13 @@ function backoffMs(attempt: number, base = 2000): number {
 
 class NodeRouter {
     private static instance: NodeRouter;
-    private keyIndices: Record<Provider, number> = { groq: 0, gemini: 0 };
+    private keyIndices: Record<Provider, number> = { groq: 0, gemini: 0, cerebras: 0, huggingface: 0, together: 0 };
     private usage: Record<string, UsageStats> = {};
     private groqKeys: string[] = [];
     private geminiKeys: string[] = [];
+    private cerebrasKeys: string[] = [];
+    private huggingfaceKeys: string[] = [];
+    private togetherKeys: string[] = [];
 
     /**
      * Per-session poisoned keys: Set of `"provider_index"` strings.
@@ -113,11 +116,9 @@ class NodeRouter {
      */
     private blacklistedModels: Set<string> = new Set();
 
-    /** Track the last model+key that succeeded to prefer it for quick repeat calls */
     private lastSuccessful: { modelId: string; keyIndex: number; provider: Provider } | null = null;
+    private stats = { totalCalls: 0, groqSuccesses: 0, geminiSuccesses: 0, cerebrasSuccesses: 0, hfSuccesses: 0, togetherSuccesses: 0, skippedRateLimited: 0, skippedBlacklisted: 0 };
 
-    /** Stats for logging */
-    private stats = { totalCalls: 0, groqSuccesses: 0, geminiSuccesses: 0, skippedRateLimited: 0, skippedBlacklisted: 0 };
 
     private constructor() {
         this.loadKeys();
@@ -144,15 +145,18 @@ class NodeRouter {
             return Array.from(foundKeys).filter(k => k.trim() !== '');
         };
 
-        this.groqKeys = extractKeys(['VITE_GROQ_API_KEY', 'GROQ_API_KEY', 'GROQ_API_KEYS']);
-        this.geminiKeys = extractKeys(['VITE_GEMINI_API_KEY', 'GEMINI_API_KEY', 'GEMINI_API_KEYS']);
+        this.groqKeys = extractKeys(["VITE_GROQ_API_KEY", "GROQ_API_KEY", "GROQ_API_KEYS"]);
+        this.geminiKeys = extractKeys(["VITE_GEMINI_API_KEY", "GEMINI_API_KEY", "GEMINI_API_KEYS"]);
+        this.cerebrasKeys = extractKeys(["VITE_CEREBRAS_API_KEY", "CEREBRAS_API_KEY"]);
+        this.huggingfaceKeys = extractKeys(["VITE_HF_API_TOKEN", "HF_API_TOKEN"]);
+        this.togetherKeys = extractKeys(["VITE_TOGETHER_API_KEY", "TOGETHER_API_KEY"]);
 
-        const total = this.groqKeys.length + this.geminiKeys.length;
+        const total = this.groqKeys.length + this.geminiKeys.length + this.cerebrasKeys.length + this.huggingfaceKeys.length + this.togetherKeys.length;
         if (total === 0) {
-            console.error('❌ [NodeRouter] CRITICAL: No API keys loaded. Check your .env file.');
-            throw new Error('No API keys configured for NodeRouter.');
+            console.error("❌ [NodeRouter] CRITICAL: No API keys loaded. Check your .env file.");
+            throw new Error("No API keys configured for NodeRouter.");
         }
-        console.log(`🔑 [NodeRouter] Loaded ${this.groqKeys.length} Groq + ${this.geminiKeys.length} Gemini keys.`);
+        console.log(`🔑 [NodeRouter] Loaded ${this.groqKeys.length} Groq, ${this.geminiKeys.length} Gemini, ${this.cerebrasKeys.length} Cerebras, ${this.huggingfaceKeys.length} HuggingFace, ${this.togetherKeys.length} Together keys.`);
     }
 
     // ── Quota persistence ──────────────────────────────────────────────────────
@@ -174,6 +178,15 @@ class NodeRouter {
         try { fs.writeFileSync(STATE_FILE, JSON.stringify(this.usage, null, 2)); }
         catch (e: any) { console.warn(`⚠️ [NodeRouter] Could not persist quota state: ${e.message}`); }
     }
+    private getKeysForProvider(provider: Provider): string[] {
+        if (provider === "groq") return this.groqKeys;
+        if (provider === "gemini") return this.geminiKeys;
+        if (provider === "cerebras") return this.cerebrasKeys;
+        if (provider === "huggingface") return this.huggingfaceKeys;
+        if (provider === "together") return this.togetherKeys;
+        return [];
+    }
+
 
     // ── Smart model-level rate-limit check ─────────────────────────────────────
 
@@ -182,7 +195,7 @@ class NodeRouter {
      * If so, skip the entire model instantly instead of trying each key.
      */
     private isModelFullyRateLimited(modelId: string, provider: Provider): boolean {
-        const keys = provider === 'groq' ? this.groqKeys : this.geminiKeys;
+        const keys = this.getKeysForProvider(provider);
         if (keys.length === 0) return true;
 
         const now = Date.now();
@@ -343,7 +356,7 @@ class NodeRouter {
                 }
 
                 const provider: Provider = spec.provider;
-                const keys = provider === 'groq' ? this.groqKeys : this.geminiKeys;
+                const keys = this.getKeysForProvider(provider);
                 if (keys.length === 0) continue;
 
                 // ── SMART MODEL SKIP ────────────────────────────────────
@@ -363,23 +376,33 @@ class NodeRouter {
                     try {
                         let result: string;
 
-                        if (provider === 'groq') {
+                        if (provider === "groq") {
                             result = await this.callGroq(keys[index], modelId, messages, options);
-                        } else {
+                        } else if (provider === "gemini") {
                             result = await this.callGemini(keys[index], modelId, messages, options);
+                        } else if (provider === "cerebras") {
+                            result = await this.callCerebras(keys[index], modelId, messages, options);
+                        } else if (provider === "huggingface") {
+                            result = await this.callHuggingFace(keys[index], modelId, messages, options);
+                        } else if (provider === "together") {
+                            result = await this.callTogether(keys[index], modelId, messages, options);
+                        } else {
+                            throw new Error(`Unsupported provider: ${provider}`);
                         }
 
                         // ✅ Success — update bookkeeping
                         this.incrementUsage(modelId, index);
-
+                        if (provider === "groq") this.stats.groqSuccesses++;
+                        else if (provider === "gemini") this.stats.geminiSuccesses++;
+                        else if (provider === "cerebras") this.stats.cerebrasSuccesses++;
+                        else if (provider === "huggingface") this.stats.hfSuccesses++;
+                        else if (provider === "together") this.stats.togetherSuccesses++;
                         // Reset rate-limit hit count for this key+model (it recovered)
                         const rateLimitKey = `${modelId}_${provider}_${index}`;
                         this.rateLimitHitCount.delete(rateLimitKey);
 
                         // Track last successful for stats
                         this.lastSuccessful = { modelId, keyIndex: index, provider };
-                        if (provider === 'groq') this.stats.groqSuccesses++;
-                        else this.stats.geminiSuccesses++;
 
                         console.log(`✅ [NodeRouter] Success with ${modelId} (key ${index}).`);
                         return result;
@@ -465,6 +488,101 @@ class NodeRouter {
         const text = result.response.text();
         if (!text) throw new Error('Gemini returned empty response.');
         return text;
+    }
+
+    private async callCerebras(
+        apiKey: string,
+        modelId: string,
+        messages: { role: string; content: string }[],
+        options: { jsonMode?: boolean; temperature?: number; max_tokens?: number },
+    ): Promise<string> {
+        const spec = MODELS[modelId];
+        const maxTokens = options.max_tokens ?? Math.min(8192, spec?.maxOutput ?? 8192);
+        const response = await fetch('https://api.cerebras.ai/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+                'Authorization': `Bearer ${apiKey}`,
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                model: modelId,
+                messages,
+                temperature: options.temperature ?? 0.7,
+                max_completion_tokens: maxTokens,
+                response_format: options.jsonMode ? { type: 'json_object' } : undefined,
+            }),
+        });
+        if (!response.ok) {
+            const err = await response.json().catch(() => ({ error: { message: response.statusText } }));
+            const e: any = new Error(err.error?.message || response.statusText);
+            e.status = response.status;
+            throw e;
+        }
+        const data = await response.json();
+        return data.choices[0]?.message?.content || '';
+    }
+
+    private async callHuggingFace(
+        apiKey: string,
+        modelId: string,
+        messages: { role: string; content: string }[],
+        options: { jsonMode?: boolean; temperature?: number; max_tokens?: number },
+    ): Promise<string> {
+        const spec = MODELS[modelId];
+        const maxTokens = options.max_tokens ?? Math.min(4096, spec?.maxOutput ?? 4096);
+        const response = await fetch(`https://api-inference.huggingface.co/models/${modelId}/v1/chat/completions`, {
+            method: 'POST',
+            headers: {
+                'Authorization': `Bearer ${apiKey}`,
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                model: modelId,
+                messages,
+                temperature: options.temperature ?? 0.7,
+                max_tokens: maxTokens,
+            }),
+        });
+        if (!response.ok) {
+            const err = await response.json().catch(() => ({ error: { message: response.statusText } }));
+            const e: any = new Error(err.error?.message || response.statusText);
+            e.status = response.status;
+            throw e;
+        }
+        const data = await response.json();
+        return data.choices[0]?.message?.content || '';
+    }
+
+    private async callTogether(
+        apiKey: string,
+        modelId: string,
+        messages: { role: string; content: string }[],
+        options: { jsonMode?: boolean; temperature?: number; max_tokens?: number },
+    ): Promise<string> {
+        const spec = MODELS[modelId];
+        const maxTokens = options.max_tokens ?? Math.min(4096, spec?.maxOutput ?? 4096);
+        const response = await fetch('https://api.together.xyz/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+                'Authorization': `Bearer ${apiKey}`,
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                model: modelId,
+                messages,
+                temperature: options.temperature ?? 0.7,
+                max_tokens: maxTokens,
+                response_format: options.jsonMode ? { type: 'json_object' } : undefined,
+            }),
+        });
+        if (!response.ok) {
+            const err = await response.json().catch(() => ({ error: { message: response.statusText } }));
+            const e: any = new Error(err.error?.message || response.statusText);
+            e.status = response.status;
+            throw e;
+        }
+        const data = await response.json();
+        return data.choices[0]?.message?.content || '';
     }
 }
 
