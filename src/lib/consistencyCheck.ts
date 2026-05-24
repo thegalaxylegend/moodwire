@@ -24,7 +24,7 @@ export function extractNumbers(text: string | any): number[] {
  */
 export function extractFinalValue(rawDerivationText: string | any): number | null {
     if (!rawDerivationText) return null;
-    let derivationText = typeof rawDerivationText === 'string' ? rawDerivationText : 
+    const derivationText = typeof rawDerivationText === 'string' ? rawDerivationText :
                          Array.isArray(rawDerivationText) ? rawDerivationText.join(' ') : 
                          String(rawDerivationText);
                          

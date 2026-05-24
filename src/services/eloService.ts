@@ -180,7 +180,7 @@ export const EloService = {
         conceptTags?: string[]
     ): CalibrationProfile => {
         // 1. Apply Temporal Decay (Regress if inactive)
-        let processedProfile = EloService.applyTemporalDecay(calibration);
+        const processedProfile = EloService.applyTemporalDecay(calibration);
         const newProfile = { ...processedProfile };
         let subKey = subject.toLowerCase().trim();
         if (subKey === 'mathematics') subKey = 'math';

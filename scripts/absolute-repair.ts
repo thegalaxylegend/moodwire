@@ -44,7 +44,7 @@ for (const file of files) {
     // Pattern B: "- EQUATION — Description"
     const formulaPattern2 = /^(\s*-\s*)([^\*]+?)(\s*—\s*.+)$/gm;
     content = content.replace(formulaPattern2, (match, prefix, equation, suffix) => {
-        let cleanEq = equation.replace(/\$/g, '').trim();
+        const cleanEq = equation.replace(/\$/g, '').trim();
         return `${prefix}$${cleanEq}$${suffix}`;
     });
 
@@ -52,21 +52,21 @@ for (const file of files) {
     const arrowPattern = /(→\s*)(.+?)$/gm;
     content = content.replace(arrowPattern, (match, prefix, equation) => {
         // if it already has $, let's clean and re-wrap
-        let cleanEq = equation.replace(/\$/g, '').trim();
+        const cleanEq = equation.replace(/\$/g, '').trim();
         return `${prefix}$${cleanEq}$`;
     });
 
     // Pattern D: "**Final Answer:** EQUATION"
     const finalAnswerPattern = /(\*\*Final Answer:\*\*\s*)(.+?)$/gm;
     content = content.replace(finalAnswerPattern, (match, prefix, equation) => {
-        let cleanEq = equation.replace(/\$/g, '').trim();
+        const cleanEq = equation.replace(/\$/g, '').trim();
         return `${prefix}$${cleanEq}$`;
     });
 
     // Pattern E: MCQ Answers "A) EQUATION"
     const mcqPattern = /^(\s*(?:A|B|C|D)\)\s*)(.+?)$/gm;
     content = content.replace(mcqPattern, (match, prefix, equation) => {
-        let cleanEq = equation.replace(/\$/g, '').trim();
+        const cleanEq = equation.replace(/\$/g, '').trim();
         return `${prefix}$${cleanEq}$`;
     });
 

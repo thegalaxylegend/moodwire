@@ -14,8 +14,8 @@ function getCount(): number {
 
 const initialCount = getCount();
 const startTime = Date.now();
-let lastCount = initialCount;
-let lastTime = startTime;
+const lastCount = initialCount;
+const lastTime = startTime;
 
 const history: { time: number; count: number }[] = [];
 

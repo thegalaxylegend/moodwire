@@ -35,7 +35,7 @@ async function main() {
 
     for (const file of files) {
         const filePath = path.join(BLOG_DIR, file);
-        let content = fs.readFileSync(filePath, 'utf-8');
+        const content = fs.readFileSync(filePath, 'utf-8');
         let fileChanges = 0;
 
         // Pattern: [text](/blog/mangled-slug)

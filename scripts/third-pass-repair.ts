@@ -18,7 +18,7 @@ for (const file of files) {
     let inFrontmatter = false;
 
     for (let i = 0; i < lines.length; i++) {
-        let line = lines[i];
+        const line = lines[i];
         const trimmed = line.trimEnd();
         const stripped = trimmed.replace(/\r$/, '');
 

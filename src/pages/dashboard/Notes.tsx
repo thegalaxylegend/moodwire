@@ -141,7 +141,7 @@ export const Notes = () => {
         }
 
         // Detect user's explicit structural constraints
-        let explicitConstraints: string[] = [];
+        const explicitConstraints: string[] = [];
         if (lowerInput.includes("point") || lowerInput.includes("bullet")) {
             explicitConstraints.push("FORMAT: Use strict point-wise/bulleted structure as requested.");
         }

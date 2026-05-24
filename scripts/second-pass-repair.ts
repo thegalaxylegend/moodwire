@@ -21,7 +21,7 @@ for (const file of files) {
 
     const lines = content.split('\n');
     for (let i = 0; i < lines.length; i++) {
-        let line = lines[i];
+        const line = lines[i];
         const trimmed = line.trim();
 
         // Skip empty, headings, code, images, tables, frontmatter markers

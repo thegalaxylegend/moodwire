@@ -22,7 +22,7 @@ for (const file of files) {
     let inFM = false;
 
     for (let i = 0; i < lines.length; i++) {
-        let line = lines[i];
+        const line = lines[i];
         const trimmed = line.replace(/\r$/, '').trim();
 
         if (trimmed === '---') { inFM = !inFM; continue; }

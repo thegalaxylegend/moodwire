@@ -43,7 +43,7 @@ async function repair(slug: string) {
 
     // 5. Correct Practice Link
     const numericClass = slug.includes('class-12') ? 12 : slug.includes('class-10') ? 10 : 11;
-    let subjectPath = slug.includes('operating-systems') ? 'computer-science' : 'mathematics';
+    const subjectPath = slug.includes('operating-systems') ? 'computer-science' : 'mathematics';
     const topicSlug = topic.toLowerCase().trim().replace(/\s+/g, '-').replace(/[^\w-]+/g, '').replace(/--+/g, '-');
     const correctedPracticeLink = `/class-${numericClass}/${subjectPath}/${topicSlug}`;
 

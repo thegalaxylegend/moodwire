@@ -51,7 +51,7 @@ async function runFinalAudit() {
                 const matchIcon = result.verification_details?.verifier_matches ? '✅' : '⚠️';
                 console.log(`  ✅ APPROVED (Confidence: ${result.confidence.toFixed(2)})`);
 
-                let row = `| ${approvedCount} | ${t.topic} | ${t.subject} | ${result.confidence.toFixed(2)} | ${matchIcon} |\n`;
+                const row = `| ${approvedCount} | ${t.topic} | ${t.subject} | ${result.confidence.toFixed(2)} | ${matchIcon} |\n`;
                 fs.appendFileSync(reportPath, row);
 
                 let detail = `\n### ${approvedCount}. ${t.topic} (${t.subject})\n`;

@@ -8,7 +8,7 @@ const BLOG_DIR = path.join(__dirname, '../src/content/blogs');
 
 function cleanTitle(title: string): string {
     // Remove extra quotes and double suffixes
-    let clean = title.replace(/^"|"$/g, '').trim();
+    const clean = title.replace(/^"|"$/g, '').trim();
     
     // Split by common separators used in mangled titles
     const parts = clean.split(/ — | - | Revision Recap | Comprehensive Notes/);

@@ -28,7 +28,7 @@ function polish(content: string): string {
     // 4. Fix by = artifacts
     newContent = newContent.replace(/curves by =/g, 'curves y =');
     newContent = newContent.replace(/curve by =/g, 'curve y =');
-    newContent = newContent.replace(/curve  =/g, 'curve y =');
+    newContent = newContent.replace(/curve {2}=/g, 'curve y =');
 
     // 5. Ensure dx is preceded by a space and lowercase
     newContent = newContent.replace(/\s+DX/g, ' dx');

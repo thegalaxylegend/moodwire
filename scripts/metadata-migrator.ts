@@ -32,7 +32,7 @@ async function migrate() {
 
     for (const file of files) {
         const filePath = path.join(BLOG_DIR, file);
-        let content = fs.readFileSync(filePath, 'utf-8');
+        const content = fs.readFileSync(filePath, 'utf-8');
         const slug = file.replace('.md', '');
 
         // Extract current metadata

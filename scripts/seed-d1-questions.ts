@@ -393,7 +393,7 @@ Return exactly this JSON schema structure:
             }
 
             // Normalization check for correct answer matching options
-            let matchedOption = questionData.options.find(
+            const matchedOption = questionData.options.find(
               opt => normalizeStringForComparison(opt) === normalizeStringForComparison(questionData.correct_answer)
             );
             if (!matchedOption) {

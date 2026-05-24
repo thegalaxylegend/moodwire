@@ -342,7 +342,7 @@ CRITICAL: The evolved prompt must be BETTER than the original. Don't just rephra
             
             if (!promptMatch) throw new Error('Failed to extract evolvedPrompt via regex completely');
             
-            let extractedPrompt = promptMatch[1].replace(/\\n/g, '\n').replace(/\\"/g, '"');
+            const extractedPrompt = promptMatch[1].replace(/\\n/g, '\n').replace(/\\"/g, '"');
             
             evolved = {
                 evolvedPrompt: extractedPrompt,

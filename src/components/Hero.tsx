@@ -1,5 +1,6 @@
 import { ArrowRight, Play, Brain, ShieldCheck, Globe, BarChart2 } from 'lucide-react';
 import { motion } from 'framer-motion';
+import type { Variants } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
 interface HeroProps {
@@ -11,7 +12,7 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
     // Use innerWidth for instant performance decision (SSR safe with window check)
     const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
 
-    const containerVariants = {
+    const containerVariants: Variants = {
         hidden: { opacity: 0 },
         visible: {
             opacity: 1,
@@ -22,14 +23,14 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
         }
     };
 
-    const itemVariants = {
+    const itemVariants: Variants = {
         hidden: isMobile ? { opacity: 0 } : { opacity: 0, y: 15 },
         visible: {
             opacity: 1,
             y: 0,
             transition: { 
                 duration: isMobile ? 0.35 : 0.5, 
-                ease: 'easeOut' as const 
+                ease: [0.16, 1, 0.3, 1]
             }
         }
     };

@@ -81,11 +81,11 @@ async function rehabilitateBlog(slug: string) {
     const filePath = path.join(BLOG_DIR, `${slug}.md`);
     if (!fs.existsSync(filePath)) return;
 
-    let rawContent = fs.readFileSync(filePath, 'utf8');
+    const rawContent = fs.readFileSync(filePath, 'utf8');
     const fmMatch = rawContent.match(/^(---[\s\S]*?---\r?\n)([\s\S]*)$/);
     if (!fmMatch) return;
 
-    let frontmatter = fmMatch[1];
+    const frontmatter = fmMatch[1];
     let body = fmMatch[2];
 
     console.log(`🔧 Rehabilitating ${slug}...`);
@@ -93,7 +93,7 @@ async function rehabilitateBlog(slug: string) {
     // Step 1: Sanitize
     const { content: sanitizedBody, regenNeeded: initialRegen } = sanitizeMarkdown(body);
     body = sanitizedBody;
-    let finalRegen = initialRegen || body.length < 3000;
+    const finalRegen = initialRegen || body.length < 3000;
 
     // Step 2: Strategic Refinement
     if (finalRegen) {

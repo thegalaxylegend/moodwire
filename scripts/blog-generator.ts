@@ -518,7 +518,7 @@ async function researchTopic(item: any, targetYear: number): Promise<string> {
     const researchTasks = [
         // A. Read search result contents in parallel
         (async () => {
-            let buffer = "";
+            const buffer = "";
             const readTasks = searchResults.map(async (result) => {
                 if (result.highlights && result.highlights.length > 0) {
                     return `[Source: ${result.title}]\n${result.highlights.join('\n')}\n\n`;
@@ -651,7 +651,7 @@ export async function callLlmWithFallback(system: string, user: string, isJson: 
     const isHardScience = user.includes("Physics") || user.includes("Chemistry") || user.includes("Math") || user.includes("Formula");
     
     // Tiered Target Selection: MCQs need T3 (medium models), not T5 (smallest)
-    let tier: TaskTier = isMetadata ? 'T5' : (isHardScience ? 'T2' : 'T3');
+    const tier: TaskTier = isMetadata ? 'T5' : (isHardScience ? 'T2' : 'T3');
 
     try {
         return await nodeRouter.route([{ role: "system", content: system }, { role: "user", content: user }], tier, {
@@ -1099,7 +1099,7 @@ async function generateBlogs() {
         // --- 2.1 Metadata Repair & Conversion ---
         const formattedRegen = uniqueRegen.map((item: any) => {
             let subject = 'General';
-            let topic = item.slug.replace(/-/g, ' ');
+            const topic = item.slug.replace(/-/g, ' ');
             let examClass = '10';
 
             // Heuristic for Class detection from slug
