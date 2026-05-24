@@ -413,7 +413,7 @@ export const VideoLecturePage = () => {
     useEffect(() => {
         const handleMessage = (event: MessageEvent) => {
             // Check if origin is YouTube
-            if (!event.origin.includes('youtube.com')) return;
+            if (event.origin !== 'https://www.youtube.com' && event.origin !== 'https://youtube.com') return;
 
             try {
                 const data = typeof event.data === 'string' ? JSON.parse(event.data) : event.data;
