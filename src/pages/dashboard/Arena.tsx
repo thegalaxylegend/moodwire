@@ -311,7 +311,7 @@ export const Arena = () => {
                                             type="text"
                                             value={joinCode}
                                             onChange={(e) => setJoinCode(e.target.value.trim().toUpperCase())}
-                                            placeholder="XXXXXX"
+                                            placeholder="PASTE CODE"
                                             className="w-full bg-surface border border-border rounded-xl px-4 py-4 text-center font-mono text-2xl tracking-[4px] md:tracking-[8px] text-white focus:border-indigo-500 outline-none transition-all placeholder:tracking-normal placeholder:text-text-muted/20"
                                         />
 
