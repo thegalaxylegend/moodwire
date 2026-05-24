@@ -1,15 +1,10 @@
-Title: ⚡ Optimize MistakeNotebookService.recordTestMistakes with writeBatch
+# 🔒 Fix XSS in ConceptMap using DOMPurify
 
-💡 **What:**
-Refactored `recordTestMistakes` to build an array of items first, save to `localStorage` once, and submit all updates in one network request using `writeBatch`.
+## 🎯 What
+The `ConceptMap` component in `src/pages/dashboard/ConceptMap.tsx` was vulnerable to Cross-Site Scripting (XSS). It was rendering Mermaid-generated SVG code directly using `dangerouslySetInnerHTML` without proper sanitization.
 
-🎯 **Why:**
-Previously, the `recordTestMistakes` function in `MistakeNotebookService.ts` was suffering from an N+1 performance issue. For every single mistaken question from a test, it would iteratively call `MistakeNotebookService.recordMistake`. This would perform N array manipulations, save to `localStorage` N times and, crucially, call `setDoc` N times resulting in N network roundtrips to Firestore.
+## ⚠️ Risk
+If an attacker could manipulate the syllabus topics or their dependencies (which are used to generate the Mermaid graph), they could inject malicious scripts into the resulting SVG code. Since this SVG was injected unchecked into the DOM via `dangerouslySetInnerHTML`, the malicious scripts would execute in the victim's browser context. This could lead to session hijacking, data theft, or unauthorized actions performed on behalf of the user.
 
-📊 **Measured Improvement:**
-We constructed a benchmark mocking the Firestore `setDoc` behavior with simulated latencies (20ms) and comparing against `writeBatch` (40ms commit).
-
-For a test with `N=50` mistaken questions:
-- **Baseline (Sequential `setDoc`):** `1022.46 ms`
-- **Optimized (`writeBatch`):** `40.82 ms`
-- **Overall:** ~25.05x faster processing. Note that memory processing and saving to `localStorage` only once instead of `N` times will further improve frontend responsiveness.
+## 🛡️ Solution
+Integrated `DOMPurify`, a fast, highly tolerant XSS sanitizer for HTML, MathML and SVG. By wrapping the `svgCode` with `DOMPurify.sanitize(svgCode)` before passing it to `dangerouslySetInnerHTML`, we ensure that any potentially malicious payloads are stripped out while preserving the legitimate visualization structure.
