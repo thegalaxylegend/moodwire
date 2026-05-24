@@ -34,7 +34,7 @@ export const QuestionPage = () => {
         : null;
 
     // 2. State
-    const [question] = useState<any>(ssrData);
+    const [question, setQuestion] = useState<any>(ssrData);
     const [loading, setLoading] = useState(!ssrData);
     const [generatingPdf, setGeneratingPdf] = useState(false);
 
@@ -52,13 +52,33 @@ export const QuestionPage = () => {
         }
     };
 
-    // 3. Client-Side Fallback (Simplified for SSG-first)
+    // 3. Client-Side Fallback (Strict CSR Fallback from static JSON DB)
     useEffect(() => {
-        if (!question && slug && !ssrData) {
-            console.warn("Question not found in initial state (CSR fallback missing in strict mode).");
-            setLoading(false);
+        if (!question && slug) {
+            setLoading(true);
+            // Cloudflare Pages serves directories with optional trailing slashes.
+            // We normalize the pathname by removing the trailing slash to match sitemap/manifest keys.
+            const currentPath = window.location.pathname.replace(/\/$/, '');
+            fetch('/question-db.json')
+                .then(res => {
+                    if (!res.ok) throw new Error("Failed to fetch question database.");
+                    return res.json();
+                })
+                .then(db => {
+                    const qData = db[currentPath] || db[`/${exam}/q/${slug}`];
+                    if (qData) {
+                        setQuestion(qData);
+                    } else {
+                        console.error(`Question not found in database for path: ${currentPath}`);
+                    }
+                    setLoading(false);
+                })
+                .catch(err => {
+                    console.error("Error loading question client-side:", err);
+                    setLoading(false);
+                });
         }
-    }, [question, slug, ssrData]);
+    }, [question, slug, exam]);
 
     if (loading && !ssrData) {
         return (

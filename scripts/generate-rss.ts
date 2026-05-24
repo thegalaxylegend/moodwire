@@ -82,8 +82,8 @@ function main() {
         const pubDate = new Date(e.date).toUTCString();
         return `    <item>
       <title>${escapeXml(e.title)}</title>
-      <link>${BASE_URL}/blog/${e.slug}</link>
-      <guid isPermaLink="true">${BASE_URL}/blog/${e.slug}</guid>
+      <link>${BASE_URL}/blog/${e.slug}/</link>
+      <guid isPermaLink="true">${BASE_URL}/blog/${e.slug}/</guid>
       <description>${escapeXml(e.description)}</description>
       <category>${escapeXml(e.category)}</category>
       <pubDate>${pubDate}</pubDate>
@@ -94,7 +94,7 @@ function main() {
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>${SITE_NAME} — Revision Notes &amp; Study Guides</title>
-    <link>${BASE_URL}/blog</link>
+    <link>${BASE_URL}/blog/</link>
     <description>Daily JEE, NEET, CBSE revision notes and practice MCQs crafted by top rankers. Updated every day by Jules AI.</description>
     <language>en-in</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>

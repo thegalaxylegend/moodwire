@@ -24,9 +24,29 @@ export const SEO = (props: SEOProps) => {
     const { title, description, canonical, type, name, image, schema, noindex, robots, keywords, publishedTime, modifiedTime } = props;
     const location = useLocation();
 
-    // Standardized canonical: no trailing slash for SPA consistency
-    const path = location.pathname.replace(/\/$/, '') || '';
-    const canonicalUrl = canonical || `${SITE_URL}${path}`;
+    // Standardized canonical: always end with a trailing slash (except root) for Cloudflare Pages directory compatibility
+    let canonicalUrl = canonical;
+    if (!canonicalUrl) {
+        let path = location.pathname;
+        if (path !== '/' && !path.endsWith('/')) {
+            path += '/';
+        }
+        canonicalUrl = `${SITE_URL}${path}`;
+    } else {
+        try {
+            // If passed manually, ensure it ends with a trailing slash (except root or if it's a file)
+            const parsedUrl = new URL(canonicalUrl);
+            if (parsedUrl.pathname !== '/' && !parsedUrl.pathname.endsWith('/') && !parsedUrl.pathname.includes('.')) {
+                parsedUrl.pathname += '/';
+            }
+            canonicalUrl = parsedUrl.toString();
+        } catch (e) {
+            // Fallback in case of invalid URL string
+            if (!canonicalUrl.endsWith('/') && !canonicalUrl.includes('.')) {
+                canonicalUrl += '/';
+            }
+        }
+    }
     const siteTitle = name || SITE_NAME;
     
     // Smart Title Suffix Logic (Bing 60-char limit optimization)

@@ -26,7 +26,11 @@ export const AutoSchema = () => {
         if (['login', 'signup', 'dashboard', 'admin', 'onboarding'].includes(exam || '')) return null;
 
         const schemas: Record<string, any>[] = [];
-        const canonicalUrl = `${SITE_URL}${location.pathname.replace(/\/$/, '') || '/'}`;
+        let path = location.pathname;
+        if (path !== '/' && !path.endsWith('/')) {
+            path += '/';
+        }
+        const canonicalUrl = `${SITE_URL}${path}`;
 
         // Root-level entity declarations for the homepage / brand root
         if (!exam || location.pathname === '/') {

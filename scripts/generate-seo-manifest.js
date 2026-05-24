@@ -407,10 +407,13 @@ async function generate() {
                     const isCanonical = questionCanonicalMap[q.slug] === examSlug;
                     const expWords = q.explanation ? q.explanation.split(/\s+/).length : 0;
                     
-                    let robotsRule = "noindex, follow"; // Default
-                    // INDEX if: canonical + has a meaningful explanation (10+ words)
-                    // This unlocks thousands of real JEE/NEET solutions while filtering empty pages
-                    if (isCanonical && expWords >= 10) {
+                    let robotsRule = "noindex, nofollow"; // Default for all questions
+                    
+                    const isPlaceholder = q.text === "Practice Question" || 
+                                          (q.explanation && q.explanation.toLowerCase().includes("placeholder"));
+
+                    // INDEX if: canonical + has a meaningful explanation (10+ words) + is NOT a placeholder
+                    if (isCanonical && expWords >= 10 && !isPlaceholder) {
                         robotsRule = "index, follow";
                     }
 

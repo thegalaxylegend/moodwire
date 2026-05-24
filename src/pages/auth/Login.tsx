@@ -100,7 +100,7 @@ export const Login = () => {
             <SEO
                 title="Login"
                 description="Login to Exam Compass to access AI-powered mock tests and analytics."
-                canonical="https://examcompass.pages.dev/login"
+                canonical="https://examcompass.pages.dev/login/"
                 noindex={true}
             />
             {/* Background Elements */}
@@ -176,6 +176,9 @@ export const Login = () => {
                             <Mail className="absolute left-3 top-1/2 -translate-y-1/2 text-text-muted/50 pointer-events-none" size={16} />
                             <input
                                 type="email"
+                                id="email"
+                                name="email"
+                                autoComplete="email"
                                 placeholder="Email Address"
                                 className="w-full bg-surface/50 border border-border rounded-xl py-3 pl-10 pr-4 text-text-main placeholder:text-text-muted/30 focus:outline-none focus:border-primary transition-colors text-sm"
                                 required
@@ -190,6 +193,9 @@ export const Login = () => {
                             <Lock className="absolute left-3 top-1/2 -translate-y-1/2 text-text-muted/50 pointer-events-none" size={16} />
                             <input
                                 type="password"
+                                id="password"
+                                name="password"
+                                autoComplete={isSignUp ? "new-password" : "current-password"}
                                 placeholder="Password"
                                 className="w-full bg-surface/50 border border-border rounded-xl py-3 pl-10 pr-4 text-text-main placeholder:text-text-muted/30 focus:outline-none focus:border-primary transition-colors text-sm"
                                 required

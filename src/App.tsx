@@ -145,6 +145,19 @@ function AppContent() {
     (window.requestIdleCallback || ((cb) => setTimeout(cb, 1000)))(() => {
       trackWebVitals();
     });
+
+    // Handle Capacitor Android Hardware Back Button
+    if (typeof window !== 'undefined' && (window as any).Capacitor) {
+      import('@capacitor/app').then(({ App: CapApp }) => {
+        CapApp.addListener('backButton', ({ canGoBack }) => {
+          if (canGoBack) {
+            window.history.back();
+          } else {
+            CapApp.exitApp();
+          }
+        });
+      });
+    }
   }, []);
 
   return (

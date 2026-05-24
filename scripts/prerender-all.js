@@ -58,7 +58,7 @@ async function prerender() {
         // Always prerender non-question pages (exam, topic, blog, etc.)
         if (meta.type !== 'question') return true;
         // Only prerender question pages that are indexable
-        return meta.robots && meta.robots.includes('index');
+        return meta.robots && meta.robots.includes('index') && !meta.robots.includes('noindex');
     });
 
     const skippedCount = allRoutes.length - routes.length;

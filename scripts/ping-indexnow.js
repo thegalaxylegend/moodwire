@@ -28,7 +28,13 @@ async function pingIndexNow() {
 
     try {
         const manifest = JSON.parse(fs.readFileSync(MANIFEST_PATH, 'utf-8'));
-        const urls = Object.keys(manifest).map(url => `https://${host}${url}`);
+        const urls = Object.keys(manifest).map(url => {
+            let path = url;
+            if (path !== '/' && !path.endsWith('/')) {
+                path += '/';
+            }
+            return `https://${host}${path}`;
+        });
 
         if (urls.length === 0) {
             console.warn('⚠️ No URLs found in manifest.');

@@ -91,7 +91,14 @@ async function generateSitemap() {
             else if (meta.type === 'collection') { priority = 0.8; changefreq = 'weekly'; }
             else if (url.includes('/q/')) { priority = 0.5; changefreq = 'monthly'; }
 
-            const escapedLoc = escapeXml(`${BASE_URL}${url}`);
+            // Cloudflare Pages serves folders as directories with trailing slashes, e.g. /blog/
+            // Appending a trailing slash to all page URLs avoids 308 redirect loops for indexers.
+            let sitemapUrl = url;
+            if (sitemapUrl !== '/' && !sitemapUrl.endsWith('/')) {
+                sitemapUrl += '/';
+            }
+
+            const escapedLoc = escapeXml(`${BASE_URL}${sitemapUrl}`);
 
             // Use manifest dates if available
             const rawLastmod = meta.lastmod || meta.updatedAt || meta.publishedTime || meta.date;

@@ -168,18 +168,11 @@ function generateStubs(gaps: TopicGap[], count: number): RawQuestion[] {
   let iterationSafety = 0;
 
   // Process Tier 1 first (Empty & Thin topics)
-  while (generated < count && tier1.some(g => g.gap > 0) && iterationSafety < count * 20) {
+  while (generated < count && tier1.some(g => g.gap > 0 && g.current < 10) && iterationSafety < count * 2) {
     iterationSafety++;
     for (const g of tier1) {
       if (generated >= count) break;
-      // Calculate how many stubs we need for this topic to not be thin (min 10 questions)
-      const stubsNeeded = 10 - g.current;
-      const stubsAlreadyGeneratedForThisTopic = stubs.filter(s => {
-        const parts = s.raw_text.split('|');
-        return parts.length >= 4 && parts[3].trim().toLowerCase() === g.topic.topic.toLowerCase();
-      }).length;
-
-      if (stubsAlreadyGeneratedForThisTopic >= stubsNeeded) continue;
+      if (g.current >= 10 || g.gap <= 0) continue;
 
       const t = g.topic;
       const ptr = subtopicPointers.get(t.id) || 0;
@@ -205,16 +198,20 @@ function generateStubs(gaps: TopicGap[], count: number): RawQuestion[] {
         stubs.push(stub);
         existingHashes.add(hash);
         generated++;
+        g.gap--;
+        g.current++;
       }
     }
   }
 
   // If we still need more stubs, process all topics with gaps (including Tier 2)
   iterationSafety = 0;
-  while (generated < count && iterationSafety < count * 20) {
+  while (generated < count && topicsWithGap.some(g => g.gap > 0) && iterationSafety < count * 2) {
     iterationSafety++;
     for (const g of topicsWithGap) {
       if (generated >= count) break;
+      if (g.gap <= 0) continue;
+      
       const t = g.topic;
       const ptr = subtopicPointers.get(t.id) || 0;
       const subtopic = t.subtopics[ptr % t.subtopics.length];
@@ -239,6 +236,8 @@ function generateStubs(gaps: TopicGap[], count: number): RawQuestion[] {
         stubs.push(stub);
         existingHashes.add(hash);
         generated++;
+        g.gap--;
+        g.current++;
       }
     }
   }

@@ -43,6 +43,7 @@
     "cap:sync": "npx cap sync"
   },
   "dependencies": {
+    "@capacitor/app": "^8.1.0",
     "@datadog/browser-logs": "^6.30.1",
     "@datadog/browser-rum": "^6.30.1",
     "@floating-ui/react": "^0.27.19",
