@@ -11,18 +11,20 @@
   {
     "modelId": "models/gemini-2.5-flash",
     "provider": "gemini",
-    "status": "WORKING",
-    "latencyMs": 13052,
-    "tokens": 328,
-    "tps": 25.1
+    "status": "FAILED",
+    "latencyMs": 0,
+    "tokens": 0,
+    "tps": 0,
+    "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/mod"
   },
   {
     "modelId": "models/gemini-2.5-flash-lite",
     "provider": "gemini",
-    "status": "WORKING",
-    "latencyMs": 2091,
-    "tokens": 411,
-    "tps": 196.5
+    "status": "FAILED",
+    "latencyMs": 0,
+    "tokens": 0,
+    "tps": 0,
+    "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/mod"
   },
   {
     "modelId": "models/gemma-4-31b-it",
@@ -36,10 +38,11 @@
   {
     "modelId": "models/gemma-4-26b-a4b-it",
     "provider": "gemini",
-    "status": "WORKING",
-    "latencyMs": 24633,
-    "tokens": 961,
-    "tps": 39
+    "status": "FAILED",
+    "latencyMs": 0,
+    "tokens": 0,
+    "tps": 0,
+    "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/mod"
   },
   {
     "modelId": "models/gemini-3.1-pro-preview",
@@ -57,15 +60,16 @@
     "latencyMs": 0,
     "tokens": 0,
     "tps": 0,
-    "error": "403 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` is blocked at the project level. Please"
+    "error": "The GROQ_API_KEY environment variable is missing or empty; either provide it, or instantiate the Gro"
   },
   {
     "modelId": "llama-3.1-8b-instant",
     "provider": "groq",
-    "status": "WORKING",
-    "latencyMs": 1132,
-    "tokens": 412,
-    "tps": 364
+    "status": "FAILED",
+    "latencyMs": 0,
+    "tokens": 0,
+    "tps": 0,
+    "error": "The GROQ_API_KEY environment variable is missing or empty; either provide it, or instantiate the Gro"
   },
   {
     "modelId": "meta-llama/llama-4-scout-17b-16e-instruct",
@@ -74,7 +78,7 @@
     "latencyMs": 0,
     "tokens": 0,
     "tps": 0,
-    "error": "403 {\"error\":{\"message\":\"The model `meta-llama/llama-4-scout-17b-16e-instruct` is blocked at the pro"
+    "error": "The GROQ_API_KEY environment variable is missing or empty; either provide it, or instantiate the Gro"
   },
   {
     "modelId": "qwen/qwen3-32b",
@@ -83,6 +87,6 @@
     "latencyMs": 0,
     "tokens": 0,
     "tps": 0,
-    "error": "403 {\"error\":{\"message\":\"The model `qwen/qwen3-32b` is blocked at the project level. Please have a p"
+    "error": "The GROQ_API_KEY environment variable is missing or empty; either provide it, or instantiate the Gro"
   }
 ]
