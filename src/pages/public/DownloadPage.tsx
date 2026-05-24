@@ -5,7 +5,7 @@ import { usePWAStore } from '../../store/pwaStore';
 import { usePWA } from '../../hooks/usePWA';
 
 export const DownloadPage = () => {
-    const { isIOS } = usePWA();
+    const { isIOS, installApp } = usePWA();
     const { setShowInstallModal } = usePWAStore();
     const [downloading, setDownloading] = useState(false);
 
@@ -13,7 +13,9 @@ export const DownloadPage = () => {
         setDownloading(true);
         // Direct download link pointing to public folder
         const link = document.createElement('a');
-        link.href = '/examcompass.apk';
+        const apkUrl = new URL('/examcompass.apk', window.location.origin);
+        apkUrl.searchParams.set('v', String(Date.now()));
+        link.href = apkUrl.toString();
         link.download = 'examcompass.apk';
         document.body.appendChild(link);
         link.click();
@@ -22,6 +24,18 @@ export const DownloadPage = () => {
         setTimeout(() => {
             setDownloading(false);
         }, 3000);
+    };
+
+    const handlePwaInstall = async () => {
+        if (isIOS) {
+            setShowInstallModal(true);
+            return;
+        }
+
+        const outcome = await installApp();
+        if (outcome === 'no-prompt') {
+            setShowInstallModal(true);
+        }
     };
 
     return (
@@ -133,7 +147,7 @@ export const DownloadPage = () => {
                         </div>
                         <div className="mt-8 pt-6 border-t border-white/5">
                             <button
-                                onClick={() => setShowInstallModal(true)}
+                                onClick={handlePwaInstall}
                                 className="w-full py-4 px-6 bg-white text-black hover:bg-gray-100 font-bold rounded-2xl flex items-center justify-center gap-3 transition-colors shadow-lg"
                             >
                                 <Smartphone size={20} />
