@@ -61,14 +61,14 @@ export const getActiveRecommendation = async (
             const playlist = await getVideoByTopicIdCached(topicStat.topic, searchContext, userId, userClass, forceRefresh);
 
             if (playlist && playlist.videos.length > 0) {
-                const freshVideos = playlist.videos.filter(v => !isVideoFinished(v.id, userId, userClass, targetExam));
+                const lectures = playlist.videos.filter(v => !isVideoFinished(v.id, userId, userClass, targetExam));
 
-                if (freshVideos.length > 0) {
+                if (lectures.length > 0) {
                     targetTopic = topicStat.topic;
                     reason = forceRefresh ? `Targeted Review (${topicStat.score_percentage}%)` : `Weakest Topic (${topicStat.score_percentage}%)`;
                     freshVideo = forceRefresh
-                        ? freshVideos[Math.floor(Math.random() * freshVideos.length)]
-                        : freshVideos[0];
+                        ? lectures[Math.floor(Math.random() * lectures.length)]
+                        : lectures[0];
                     break;
                 }
             }
@@ -82,27 +82,46 @@ export const getActiveRecommendation = async (
             for (const subject of shuffledSubjects) {
                 const playlist = await getVideoByTopicIdCached(subject, searchContext, userId, userClass, forceRefresh);
                 if (playlist && playlist.videos.length > 0) {
-                    const freshVideos = playlist.videos.filter(v => !isVideoFinished(v.id, userId, userClass, targetExam));
-                    if (freshVideos.length > 0) {
+                    const lectures = playlist.videos.filter(v => !isVideoFinished(v.id, userId, userClass, targetExam));
+                    if (lectures.length > 0) {
                         targetTopic = subject;
                         reason = 'General Improvement';
                         freshVideo = forceRefresh
-                            ? freshVideos[Math.floor(Math.random() * freshVideos.length)]
-                            : freshVideos[0];
+                            ? lectures[Math.floor(Math.random() * lectures.length)]
+                            : lectures[0];
                         break;
                     }
                 }
             }
         }
 
-        // C. Fallback: Re-watch the first video of the weakest topic if absolutely no fresh videos are available
+        // C. Fallback: Re-watch videos from weak topics if absolutely no fresh videos are available
         if (!freshVideo && candidateTopics.length > 0) {
-            const firstTopic = candidateTopics[0];
-            const playlist = await getVideoByTopicIdCached(firstTopic.topic, searchContext, userId, userClass, false);
-            if (playlist && playlist.videos.length > 0) {
-                targetTopic = firstTopic.topic;
-                reason = `Re-watch: Weakest Topic (${firstTopic.score_percentage}%)`;
-                freshVideo = playlist.videos[0];
+            for (const topicStat of candidateTopics) {
+                const playlist = await getVideoByTopicIdCached(topicStat.topic, searchContext, userId, userClass, false);
+                if (playlist && playlist.videos.length > 0) {
+                    const lectures = playlist.videos;
+                    // Find the last watched video index
+                    let lastWatchedIndex = -1;
+                    for (let i = lectures.length - 1; i >= 0; i--) {
+                        if (isVideoFinished(lectures[i].id, userId, userClass, targetExam)) {
+                            lastWatchedIndex = i;
+                            break;
+                        }
+                    }
+
+                    targetTopic = topicStat.topic;
+                    reason = `Re-watch: ${topicStat.topic} (${topicStat.score_percentage}%)`;
+
+                    if (lastWatchedIndex !== -1 && lastWatchedIndex < lectures.length - 1) {
+                        // Suggest the next video in the series
+                        freshVideo = lectures[lastWatchedIndex + 1];
+                    } else {
+                        // Fallback to first (re-watch)
+                        freshVideo = lectures[0];
+                    }
+                    break;
+                }
             }
         }
 
@@ -205,35 +224,57 @@ export const getRecommendedVideos = async (
             }
         }
 
-        // 3. Fallback: If still less than 3, add random subject videos
+        // 3. Fallback: If still less than 3, fill with re-watched videos from weak topics
         if (recommendations.length < 3) {
-            const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(userClass || '');
-            const subjects = isJunior ? ['Mathematics', 'Science', 'Social Science', 'English'] : ['Physics', 'Chemistry', 'Math'];
-            const searchContext = isJunior ? (userClass || 'Class 10') : (targetExam || 'JEE');
+            const weakTopics = await getWeakTopics(userId, 15, userClass, targetExam);
+            const existingVideoIds = new Set(recommendations.map(r => r.video.id));
+            const isJunior = ["Class 8th", "Class 9th", "Class 10th"].includes(userClass || "");
+            const searchContext = isJunior ? (userClass || "Class 10") : (targetExam || "JEE");
 
-            // Shuffle subjects
+            for (const topicStat of weakTopics) {
+                if (recommendations.length >= 3) break;
+
+                const playlist = await getVideoByTopicIdCached(topicStat.topic, searchContext, userId, userClass);
+                if (playlist && playlist.videos.length > 0) {
+                    const lectures = playlist.videos;
+                    // Try to find a video from this topic that we haven't already added to recommendations
+                    const rewatchVideo = lectures.find(v => !existingVideoIds.has(v.id));
+
+                    if (rewatchVideo) {
+                        recommendations.push({
+                            video: rewatchVideo,
+                            topic: topicStat.topic,
+                            reason: `Review: ${topicStat.topic}`,
+                            generatedAt: Date.now()
+                        });
+                        existingVideoIds.add(rewatchVideo.id);
+                    }
+                }
+            }
+        }
+
+        // 4. Ultimate Fallback: Random subject videos
+        if (recommendations.length < 3) {
+            const isJunior = ["Class 8th", "Class 9th", "Class 10th"].includes(userClass || "");
+            const subjects = isJunior ? ["Mathematics", "Science", "Social Science", "English"] : ["Physics", "Chemistry", "Math"];
+            const searchContext = isJunior ? (userClass || "Class 10") : (targetExam || "JEE");
+            const existingVideoIds = new Set(recommendations.map(r => r.video.id));
+
             const shuffled = subjects.sort(() => 0.5 - Math.random());
 
             for (const subject of shuffled) {
                 if (recommendations.length >= 3) break;
-                // If we already have a generic subject topic? (Actually topics are usually specific like "Rotational Motion", but sometimes just "Physics" if data is sparse)
-
-                // Let's try to get a video for the subject generally if we haven't targeted a specific chapter
-                // Or pick a random chapter? 
-                // For simplicity, let's just search the Subject Name
-
                 const playlist = await getVideoByTopicIdCached(subject, searchContext, userId, userClass);
                 if (playlist && playlist.videos.length > 0) {
-                    const existingVideoIds = new Set(recommendations.map(r => r.video.id));
                     const freshVideo = playlist.videos.find(v => !existingVideoIds.has(v.id));
-
                     if (freshVideo) {
                         recommendations.push({
                             video: freshVideo,
                             topic: subject,
-                            reason: 'Suggested for you',
+                            reason: "Suggested for you",
                             generatedAt: Date.now()
                         });
+                        existingVideoIds.add(freshVideo.id);
                     }
                 }
             }
