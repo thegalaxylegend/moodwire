@@ -1866,7 +1866,7 @@ export const prefetchQuestionsForWeakTopics = async (userId: string, exam: strin
     const { getWeakTopics } = await import('./topicStrengthService');
     const weakTopics = await getWeakTopics(userId, 3, undefined, exam);
 
-    for (const topicStat of weakTopics) {
+    await Promise.all(weakTopics.map(async (topicStat) => {
         // Check if we already have enough questions in DB
         const countQ = query(
             collection(db, 'engine_questions'),
@@ -1886,5 +1886,5 @@ export const prefetchQuestionsForWeakTopics = async (userId: string, exam: strin
                 abilityScore: (topicStat.weakness_score || 0) > 0.7 ? 500 : 1000
             });
         }
-    }
+    }));
 };
