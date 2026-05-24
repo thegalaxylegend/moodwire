@@ -425,6 +425,7 @@ async function generate() {
                         type: 'question',
                         priority: 0.5,
                         canonicalExam: questionCanonicalMap[q.slug],
+                        canonical: `/${questionCanonicalMap[q.slug]}/q/${q.slug}`,
                         robots: robotsRule,
                         sitemapGroup: robotsRule === "index, follow" ? "questions" : "questions-noindex"
                     };
