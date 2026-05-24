@@ -66,11 +66,6 @@ function healBlog(filePath: string, isDryRun: boolean): { file: string; fixes: s
     // === FIX 3: Missing backslash before math commands ===
     let missingBs = 0;
     
-    // sum followed by _ or ^ (clearly math context)
-    content = content.replace(/(?<!\\)(?<![a-zA-Z])sum([_{^])/g, () => { missingBs++; return '\\sum$1'; });
-    // Fix: the replacement was wrong, let me use a function
-    // Reset and redo properly
-    missingBs = 0;
     const fixedContent3 = content.replace(/(?<!\\)(?<![a-zA-Z])(sum)([_{^])/g, (_m, cmd, after) => {
         missingBs++;
         return `\\${cmd}${after}`;
