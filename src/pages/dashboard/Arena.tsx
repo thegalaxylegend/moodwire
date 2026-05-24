@@ -56,6 +56,10 @@ export const Arena = () => {
             
             setSession(sess);
             
+            if (sess.status === 'starting' || sess.status === 'active') {
+                if (queueTimerRef.current) clearTimeout(queueTimerRef.current);
+            }
+
             if (sess.status === 'starting' && status === 'searching') {
                 // If I am player 1, I should generate and attach questions
                 if (sess.player1.id === user?.id && !sess.questions) {
