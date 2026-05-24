@@ -1,6 +1,5 @@
-
 import { db } from '../lib/firebase';
-import { doc, getDoc, increment, collection, runTransaction, writeBatch } from 'firebase/firestore';
+import { doc, getDoc, increment, collection, runTransaction, writeBatch, query, where, getDocs, documentId } from 'firebase/firestore';
 
 const REFERRAL_XP_BONUS = 500;
 const REFEREE_XP_BONUS = 200;
@@ -23,7 +22,7 @@ export const getReferralStats = async (userId: string) => {
             return snap.data() as { count: number; total_xp_earned: number; codes_generated: string[] };
         }
         return { count: 0, total_xp_earned: 0, codes_generated: [] };
-    } catch (e) {
+    } catch (e: unknown) {
         console.error("Error fetching referral stats", e);
         return null;
     }
@@ -38,7 +37,7 @@ export const claimReferralCode = async (code: string, newUserId: string) => {
 
     try {
         // Find owner of the code
-        // We need a lookup because code is not just a user ID. 
+        // We need a lookup because code is not just a user ID.
         // Option A: Store codes in a separate 'referral_codes' collection { code: "XYZ", ownerId: "UID" }
         // Option B: Query users collection where referralCode == code. (Requires index)
 
@@ -91,14 +90,14 @@ export const claimReferralCode = async (code: string, newUserId: string) => {
             });
         });
 
-        // Update local store via userStore actions if needed, 
+        // Update local store via userStore actions if needed,
         // but the listener in userStore for onAuthStateChanged/snapshot might handle it?
         // Actually userStore currently does one-time fetch. We might need to manually trigger skill/xp update.
         // For now, return success and let caller handle UI feedback.
 
         return { success: true, message: `Code applied! You got +${REFEREE_XP_BONUS} XP.` };
 
-    } catch (e: any) {
+    } catch (e: unknown) {
         console.error("Referral claim failed", e);
         if (typeof e === 'string') return { success: false, message: e };
         return { success: false, message: "Failed to apply code. Please try again." };
@@ -116,26 +115,19 @@ export const registerReferralCode = async (userId: string) => {
             return snap.data().referral_code;
         }
 
-        // Generate new
-        let unique = false;
-        let code = '';
-        let attempts = 0;
+        // Generate candidates
+        const candidates = Array.from({ length: 5 }, () => generateReferralCode(userId));
 
-        while (!unique && attempts < 5) {
-            code = generateReferralCode(userId);
-            // Check collision
-            const check = await getDoc(doc(db, 'referral_codes', code));
-            if (!check.exists()) unique = true;
-            attempts++;
-        }
+        // Check collisions in batch
+        const q = query(collection(db, 'referral_codes'), where(documentId(), 'in', candidates));
+        const checkSnap = await getDocs(q);
+        const existingCodes = new Set(checkSnap.docs.map(d => d.id));
 
-        if (!unique) throw new Error("Failed to generate unique code");
+        const code = candidates.find(c => !existingCodes.has(c));
+
+        if (!code) throw new Error("Failed to generate unique code");
 
         const batch = writeBatch(db);
-
-        // Wait, standard firestore import 'writeBatch' is needed? 
-        // Let's use runTransaction or individual sets to be safe with just 'db' object if we want partials.
-        // Actually I can just import writeBatch.
 
         // Let's just do sequential awaits for simplicity as this is a rare action per user.
         batch.set(doc(db, 'referral_codes', code), {
@@ -151,7 +143,7 @@ export const registerReferralCode = async (userId: string) => {
 
         return code;
 
-    } catch (e) {
+    } catch (e: unknown) {
         console.error("Register code failed", e);
         return null;
     }
