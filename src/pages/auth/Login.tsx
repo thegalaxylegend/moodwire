@@ -47,7 +47,15 @@ export const Login = () => {
         try {
             persistIntentBeforeAuth();
             await setPersistence(auth, browserLocalPersistence);
-            await signInWithPopup(auth, googleProvider);
+
+
+            if (window.matchMedia('(display-mode: standalone)').matches || (navigator as any).standalone) {
+                // We're likely in a PWA or Capacitor app
+                const { signInWithRedirect } = await import('firebase/auth');
+                await signInWithRedirect(auth, googleProvider);
+            } else {
+                await signInWithPopup(auth, googleProvider);
+            }
             // DO NOT navigate here. The useUserStore initialize() 
             // will pick up the new auth state and handle the profile.
         } catch (err: any) {
