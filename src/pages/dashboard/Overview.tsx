@@ -142,8 +142,6 @@ export const Overview = () => {
 
     const [activeSubjectIdx, setActiveSubjectIdx] = useState(0);
     const [slideDirection, setSlideDirection] = useState(0); // -1 for left, 1 for right
-    const [activeTopicIdx, setActiveTopicIdx] = useState(0);
-    const [topicSlideDirection, setTopicSlideDirection] = useState(0);
     const [activeVideoIdx, setActiveVideoIdx] = useState(0);
     const [videoSlideDirection, setVideoSlideDirection] = useState(0);
     // ---------------------------
@@ -182,9 +180,6 @@ export const Overview = () => {
     const [subjectPreparedness, setSubjectPreparedness] = useState<Record<string, number>>({});
     // Use store value if available, else local state (though we can just direct use store)
     const progress = user?.syllabusProgress || 0;
-
-    const [weakTopicStats, setWeakTopicStats] = useState<TopicStat[]>([]);
-    const [strongTopicStats, setStrongTopicStats] = useState<TopicStat[]>([]);
 
     // Video States
     const [recommendedVideos, setRecommendedVideos] = useState<any[]>([]); // Using any for ActiveRecommendation to avoid deep type imports if lazy loaded
@@ -825,7 +820,7 @@ export const Overview = () => {
         </header>
     );
 
-    const getSubjectCardData = (subject: string, idx: number) => {
+    const getSubjectCardData = (subject: string) => {
         let percentage = 50;
 
         if (loading || Object.keys(subjectPreparedness).length === 0) {
@@ -1175,7 +1170,7 @@ export const Overview = () => {
                                 <AnimatePresence mode={isElitePerf ? "popLayout" : "wait"} custom={slideDirection}>
                                     {(() => {
                                         const subject = subjects[activeSubjectIdx];
-                                        const { percentage, colorClass, barGradient, bgClass, borderClass, label } = getSubjectCardData(subject, activeSubjectIdx);
+                                        const { percentage, colorClass, barGradient, bgClass, borderClass, label } = getSubjectCardData(subject);
                                         
                                         return (
                                             <motion.div
@@ -1184,7 +1179,7 @@ export const Overview = () => {
                                                 drag="x"
                                                 dragConstraints={{ left: 0, right: 0 }}
                                                 dragElastic={0.4}
-                                                onDragEnd={(e, info) => {
+                                                onDragEnd={(_, info) => {
                                                     const swipe = info.offset.x;
                                                     const threshold = 30;
                                                     if (swipe < -threshold) {
@@ -1300,8 +1295,8 @@ export const Overview = () => {
                             initial="hidden"
                             animate="show"
                         >
-                            {subjects.map((subject, idx) => {
-                                const { percentage, colorClass, barGradient, bgClass, borderClass, glowClass, label } = getSubjectCardData(subject, idx);
+                            {subjects.map((subject) => {
+                                const { percentage, colorClass, barGradient, bgClass, borderClass, glowClass, label } = getSubjectCardData(subject);
 
                                 return (
                                     <motion.div 
@@ -1406,7 +1401,7 @@ export const Overview = () => {
                                                         drag="x"
                                                         dragConstraints={{ left: 0, right: 0 }}
                                                         dragElastic={0.4}
-                                                        onDragEnd={(e, info) => {
+                                                        onDragEnd={(_, info) => {
                                                             const swipe = info.offset.x;
                                                             const threshold = 30;
                                                             if (swipe < -threshold) {
