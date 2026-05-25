@@ -20,11 +20,12 @@ export const BottomNav = () => {
 
     return (
         <div
-            className="fixed left-0 right-0 z-30 lg:hidden pointer-events-none px-4"
+            className="fixed left-0 right-0 z-[100] lg:hidden pointer-events-none px-4"
             style={{ bottom: 'max(12px, env(safe-area-inset-bottom, 12px))' }}
         >
-            <div className="pointer-events-auto max-w-md mx-auto">
-                <nav className="liquid-glass flex items-center justify-between px-2 py-2 rounded-full shadow-[0_45px_100px_-20px_rgba(0,0,0,0.7)]">
+            {/* Soft gradient shadow for contrast */}
+            <div className="pointer-events-auto max-w-sm mx-auto">
+                <nav className="liquid-glass flex items-center justify-between px-2 sm:px-4 py-2 sm:py-3 rounded-full shadow-[0_45px_100px_-20px_rgba(0,0,0,0.7)]">
                     {navItems.map((item) => {
                         const isActive = location.pathname === item.path;
                         return (

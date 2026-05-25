@@ -231,7 +231,7 @@ export const DashboardLayout = () => {
             >
                 <div className="p-6 flex items-center justify-between shrink-0">
                     {(isSidebarOpen || window.innerWidth < 1024) && (
-                        <span className={`text-xl md:text-2xl font-bold text-white tracking-tighter whitespace-nowrap transition-all duration-300 ${!isSidebarOpen && 'lg:hidden opacity-0 w-0'}`}>
+                        <span className={`text-lg sm:text-xl md:text-2xl font-bold text-white tracking-tighter whitespace-nowrap transition-all duration-300 ${!isSidebarOpen && 'lg:hidden opacity-0 w-0'}`}>
                             Exam<span className="text-[#a855f7]">Compass</span>
                         </span>
                     )}
@@ -301,7 +301,7 @@ export const DashboardLayout = () => {
             >
                 {/* Logo + Brand */}
                 <div className="flex items-center gap-2">
-                    <span className="text-lg font-bold text-white tracking-tighter">Exam<span className="text-[#a855f7]">Compass</span></span>
+                    <span className="text-lg sm:text-xl md:text-2xl font-bold text-white tracking-tighter">Exam<span className="text-[#a855f7]">Compass</span></span>
                 </div>
                 <div className="flex items-center gap-3">
                     {/* Streak Display (Mobile) */}

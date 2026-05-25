@@ -111,7 +111,7 @@ export const Navbar = () => {
                 {/* Logo */}
                 <Link 
                     to="/" 
-                    className="flex items-center gap-2 text-xl md:text-2xl font-bold text-white tracking-tighter shrink-0 mr-4"
+                    className="flex items-center gap-2 text-lg sm:text-xl md:text-2xl font-bold text-white tracking-tighter shrink-0 mr-4"
                 >
                     <img src="/logo.png" alt="Exam Compass Logo" className="w-8 h-8 rounded-lg" />
                     Exam<span className="text-[#a855f7]">Compass</span>

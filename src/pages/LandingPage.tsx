@@ -236,7 +236,7 @@ export const LandingPage = () => {
                             className="space-y-2 text-center md:text-left"
                         >
                             <div ref={stat.ref?.ref}>
-                                <p className={`text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r ${stat.color}`}>
+                                <p className={`text-3xl sm:text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r ${stat.color}`}>
                                     {stat.isText ? stat.value : `${stat.ref?.count.toLocaleString()}${stat.suffix}`}
                                 </p>
                             </div>
@@ -262,7 +262,7 @@ export const LandingPage = () => {
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
                         viewport={{ once: true }}
-                        className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-tight"
+                        className="text-3xl sm:text-4xl md:text-6xl font-bold text-white mb-6 tracking-tight"
                     >
                         <TextReveal>The Science of Your Selection.</TextReveal>
                     </motion.h2>
@@ -271,7 +271,7 @@ export const LandingPage = () => {
                         whileInView={{ opacity: 1 }}
                         transition={{ delay: 0.5 }}
                         viewport={{ once: true }}
-                        className="text-xl text-gray-400 max-w-2xl mx-auto"
+                        className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto"
                     >
                         <TextReveal delay={0.3}>We didn't build another quiz app. We built a Neural Framework that understands how you think, how you forget, and how you win.</TextReveal>
                     </motion.p>
@@ -341,7 +341,7 @@ export const LandingPage = () => {
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
                         viewport={{ once: true }}
-                        className="text-4xl md:text-6xl font-bold text-white mb-6"
+                        className="text-3xl sm:text-4xl md:text-6xl font-bold text-white mb-6"
                     >
                         <TextReveal>Neural Infrastructure, Not Guesswork.</TextReveal>
                     </motion.h2>
@@ -349,7 +349,7 @@ export const LandingPage = () => {
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
                         viewport={{ once: true }}
-                        className="text-xl text-gray-400"
+                        className="text-lg sm:text-xl text-gray-400"
                     >
                         <TextReveal delay={0.2}>While others give you scores, we give you a Strategy Engine. Experience the most technically sound prep in India.</TextReveal>
                     </motion.p>
@@ -396,7 +396,7 @@ export const LandingPage = () => {
                                 {step.icon}
                             </div>
                             <div className="text-center md:text-left">
-                                <h3 className="text-3xl font-bold text-white mb-4">{step.title}</h3>
+                                <h3 className="text-2xl sm:text-3xl font-bold text-white mb-4">{step.title}</h3>
                                 <p className="text-gray-400 leading-relaxed text-xl max-w-3xl">{step.desc}</p>
                             </div>
                         </motion.div>
@@ -426,10 +426,10 @@ export const LandingPage = () => {
                         <Rocket size={36} className="text-primary" />
                     </motion.div>
                     
-                    <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
+                    <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold text-white mb-6">
                         <TextReveal>Ready to dominate your exams?</TextReveal>
                     </h2>
-                    <p className="text-xl text-gray-400 mb-10 max-w-xl mx-auto">
+                    <p className="text-lg sm:text-xl text-gray-400 mb-10 max-w-xl mx-auto">
                         <TextReveal delay={0.3}>Join thousands of aspirants who chose precision over guesswork.</TextReveal>
                     </p>
                     
@@ -438,7 +438,7 @@ export const LandingPage = () => {
                         whileHover={{ scale: 1.05, y: -4, boxShadow: "0px 10px 30px rgba(139, 92, 246, 0.4)" }}
                         whileTap={{ scale: 0.97 }}
                         transition={{ type: 'spring', stiffness: 400, damping: 17 }}
-                        className="px-10 py-5 bg-primary hover:bg-primary/90 text-white rounded-2xl font-bold text-xl animate-glow-pulse transition-all inline-flex items-center gap-3 group"
+                        className="px-6 sm:px-10 py-3 sm:py-5 bg-primary hover:bg-primary/90 text-white rounded-2xl font-bold text-lg sm:text-xl animate-glow-pulse transition-all inline-flex items-center gap-3 group"
                     >
                         Start for Free <ArrowRight size={24} className="group-hover:translate-x-2 transition-transform duration-300" />
                     </motion.button>
@@ -455,7 +455,7 @@ export const LandingPage = () => {
                     viewport={{ once: true }}
                     className="text-center mb-12"
                 >
-                    <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">Frequently Asked Questions</h2>
+                    <h2 className="text-3xl sm:text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">Frequently Asked Questions</h2>
                     <p className="text-gray-400 text-lg">Everything students ask before starting their journey</p>
                 </motion.div>
                 <div className="space-y-3">
