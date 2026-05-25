@@ -460,7 +460,7 @@ async function generate() {
                 if (urlParts.length >= 3 && urlParts[1].toLowerCase() === urlParts[2].toLowerCase()) {
                     console.warn(`🧹 Normalizing doubled slug for PYQ collection: ${topicUrl}`);
                     // Collapse /subject/subject/topic to /subject/topic
-                    normalizedUrl = `/${urlParts[0]}/${urlParts[1]}`;
+                    normalizedUrl = "/" + [urlParts[0], urlParts[1], ...urlParts.slice(3)].join("/");
                     // Special case: if it was exam/subject/subject, it becomes exam/subject
                 }
 
