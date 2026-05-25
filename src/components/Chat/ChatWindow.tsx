@@ -433,11 +433,6 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                                 e.stopPropagation();
                                 setIsToolboxOpen(!isToolboxOpen);
                             }}
-                            onTouchEnd={(e) => {
-                                e.preventDefault();
-                                e.stopPropagation();
-                                setIsToolboxOpen(!isToolboxOpen);
-                            }}
                             className="lg:hidden p-3 bg-[#1d1f29]/80 backdrop-blur-xl rounded-xl border border-white/10 text-white/60 hover:text-white transition-all shadow-2xl active:scale-95 cursor-pointer flex items-center justify-center"
                         >
                             <Menu size={20} />
@@ -447,11 +442,6 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                             whileHover={{ scale: 1.1, rotate: 90 }}
                             whileTap={{ scale: 0.9 }}
                             onClick={(e) => {
-                                e.stopPropagation();
-                                onClose();
-                            }}
-                            onTouchEnd={(e) => {
-                                e.preventDefault();
                                 e.stopPropagation();
                                 onClose();
                             }}

@@ -53,14 +53,24 @@ export const Login = () => {
             const isCapacitor = Capacitor.isNativePlatform();
 
             if (isCapacitor) {
-                // Use the native Google Sign-in flow — stays inside the app, no Chrome redirect!
-                const { FirebaseAuthentication } = await import('@capacitor-firebase/authentication');
-                const result = await FirebaseAuthentication.signInWithGoogle();
-                // Sync the native auth result with the web Firebase SDK
-                if (result.credential?.idToken) {
-                    const { GoogleAuthProvider, signInWithCredential } = await import('firebase/auth');
-                    const credential = GoogleAuthProvider.credential(result.credential.idToken);
-                    await signInWithCredential(auth, credential);
+                try {
+                    // Use the native Google Sign-in flow
+                    const { FirebaseAuthentication } = await import('@capacitor-firebase/authentication');
+                    const result = await FirebaseAuthentication.signInWithGoogle();
+                    
+                    if (result.credential?.idToken) {
+                        const { GoogleAuthProvider, signInWithCredential } = await import('firebase/auth');
+                        const credential = GoogleAuthProvider.credential(result.credential.idToken);
+                        await signInWithCredential(auth, credential);
+                        return; // Success!
+                    } else {
+                        throw new Error("No native credentials returned. Falling back to web flow.");
+                    }
+                } catch (nativeErr) {
+                    console.warn("Native Google login failed, falling back to web:", nativeErr);
+                    // Fallback to Web Redirect in native if possible
+                    const { signInWithRedirect } = await import('firebase/auth');
+                    await signInWithRedirect(auth, googleProvider);
                 }
             } else if (
                 window.matchMedia('(display-mode: standalone)').matches || 

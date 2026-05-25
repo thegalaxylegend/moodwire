@@ -214,14 +214,14 @@ export const DashboardLayout = () => {
             {/* Mobile Sidebar Overlay */}
             {isSidebarOpen && (
                 <div
-                    className="fixed inset-0 bg-black/60 backdrop-blur-md z-40 lg:hidden"
+                    className="fixed inset-0 bg-black/60 backdrop-blur-md z-[110] lg:hidden"
                     onClick={() => setIsSidebarOpen(false)}
                 />
             )}
 
             {/* Sidebar */}
             <aside
-                className={`fixed lg:sticky top-0 h-screen bg-surface lg:bg-surface/95 backdrop-blur-md border-r border-border z-50 
+                className={`fixed lg:sticky top-0 h-screen bg-surface lg:bg-surface/95 backdrop-blur-md border-r border-border z-[120] 
                 ${isSidebarOpen ? 'w-64 translate-x-0' : 'w-64 -translate-x-full lg:translate-x-0 lg:w-20'} 
                 flex flex-col overflow-hidden`}
                 style={{ 

@@ -21,7 +21,7 @@ export const BottomNav = () => {
     return (
         <div
             className="fixed left-0 right-0 z-[100] lg:hidden pointer-events-none px-4"
-            style={{ bottom: 'max(12px, env(safe-area-inset-bottom, 12px))' }}
+            style={{ bottom: 'max(24px, env(safe-area-inset-bottom, 24px))' }}
         >
             {/* Soft gradient shadow for contrast */}
             <div className="pointer-events-auto max-w-sm mx-auto">
