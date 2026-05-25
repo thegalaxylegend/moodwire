@@ -71,6 +71,46 @@ const SAMPLE_MISTAKES: MistakeEntry[] = [
         is_mastered: false,
         first_wrong_date: new Date().toISOString(),
         last_attempt_date: new Date().toISOString()
+    },
+    {
+        id: 'sample_physics_2',
+        user_id: 'sample',
+        question_hash: 'qh_physics_2',
+        question_text: 'An electric dipole of dipole moment p is placed in a uniform electric field E. The torque acting on the dipole is maximum when the angle between p and E is:',
+        options: ['0°', '45°', '90°', '180°'],
+        correct_answer: '90°',
+        explanation: 'Torque τ = p × E = pE sin(θ). The value of sin(θ) is maximum (equal to 1) when θ = 90°.',
+        topic: 'Electrostatics',
+        topic_id: 'electrostatics',
+        subject: 'Physics',
+        difficulty: 'Easy',
+        exam_mode: 'quick',
+        student_answer: '0°',
+        retry_count: 0,
+        last_retry_correct: false,
+        is_mastered: false,
+        first_wrong_date: new Date().toISOString(),
+        last_attempt_date: new Date().toISOString()
+    },
+    {
+        id: 'sample_chemistry_2',
+        user_id: 'sample',
+        question_hash: 'qh_chemistry_2',
+        question_text: 'What is the shape of Xenon tetrafluoride (XeF₄) molecule?',
+        options: ['Tetrahedral', 'Square Planar', 'Octahedral', 'Trigonal Bipyramidal'],
+        correct_answer: 'Square Planar',
+        explanation: 'XeF₄ has 6 electron pairs (4 bonding pairs and 2 lone pairs) around Xenon, leading to an octahedral geometry of electron pairs but a square planar molecular shape.',
+        topic: 'Chemical Bonding',
+        topic_id: 'chemical_bonding',
+        subject: 'Chemistry',
+        difficulty: 'Medium',
+        exam_mode: 'quick',
+        student_answer: 'Tetrahedral',
+        retry_count: 0,
+        last_retry_correct: false,
+        is_mastered: false,
+        first_wrong_date: new Date().toISOString(),
+        last_attempt_date: new Date().toISOString()
     }
 ];
 
@@ -130,7 +170,7 @@ export const ImprovementBookCard: React.FC<ImprovementBookCardProps> = ({ userId
             return;
         }
 
-        const realEntries = MistakeNotebookService.getMistakes(userId, { limit: 3, showMastered: false });
+        const realEntries = MistakeNotebookService.getMistakes(userId, { limit: 5, showMastered: false });
         const realStats = MistakeNotebookService.getStats(userId);
 
         if (realEntries.length === 0) {

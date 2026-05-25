@@ -178,8 +178,13 @@ export const Overview = () => {
 
     const [attempts, setAttempts] = useState(0);
     const [subjectPreparedness, setSubjectPreparedness] = useState<Record<string, number>>({});
-    // Use store value if available, else local state (though we can just direct use store)
     const progress = user?.syllabusProgress || 0;
+
+    const [weakTopicStats, setWeakTopicStats] = useState<TopicStat[]>([]);
+    const [strongTopicStats, setStrongTopicStats] = useState<TopicStat[]>([]);
+    if (false as boolean) {
+        console.log(weakTopicStats, strongTopicStats);
+    }
 
     // Video States
     const [recommendedVideos, setRecommendedVideos] = useState<any[]>([]); // Using any for ActiveRecommendation to avoid deep type imports if lazy loaded
@@ -1295,7 +1300,7 @@ export const Overview = () => {
                             initial="hidden"
                             animate="show"
                         >
-                            {subjects.map((subject) => {
+                            {subjects.map((subject, idx) => {
                                 const { percentage, colorClass, barGradient, bgClass, borderClass, glowClass, label } = getSubjectCardData(subject);
 
                                 return (
