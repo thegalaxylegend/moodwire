@@ -1,28 +1,270 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
+import type { Plugin } from 'vite'
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Cloudflare D1 Dev-Proxy Plugin
+//
+// Runs ONLY in the Vite dev server (Node.js process). It intercepts
+// POST /api/questions before Vite can 404 it, and queries your D1 database
+// via the Cloudflare REST API — server-to-server.
+//
+// ✅  Credentials stay in Node.js: NEVER bundled into the browser.
+// ✅  Reads only from process.env — no hardcoded secrets anywhere.
+// ✅  If env vars are missing it logs a warning and lets the request pass
+//     through so the app can fall back to local-db.json / Firestore.
+// ─────────────────────────────────────────────────────────────────────────────
+function cloudflareD1DevProxy(): Plugin {
+  // These are read at server start-time from .env (non-VITE_ prefix = never
+  // bundled to the browser by Vite).
+  const CF_ACCOUNT_ID = process.env.CLOUDFLARE_ACCOUNT_ID;
+  const CF_DB_ID      = '63abfee4-2340-47bd-a9ad-ebc4a9c50580'; // wrangler.toml value (public)
+  const CF_D1_TOKEN   = process.env.CLOUDFLARE_D1_TOKEN;        // secret — in .env only
+
+  const enabled = !!(CF_ACCOUNT_ID && CF_D1_TOKEN);
+
+  const D1_API_BASE = enabled
+    ? `https://api.cloudflare.com/client/v4/accounts/${CF_ACCOUNT_ID}/d1/database/${CF_DB_ID}`
+    : '';
+
+  // Node-side fetch to Cloudflare REST API (server → Cloudflare, never browser)
+  async function queryD1(sql: string, params: any[] = []): Promise<any[]> {
+    const resp = await fetch(`${D1_API_BASE}/query`, {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${CF_D1_TOKEN}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ sql, params }),
+    });
+    if (!resp.ok) {
+      const text = await resp.text();
+      throw new Error(`D1 REST ${resp.status}: ${text}`);
+    }
+    const data = await resp.json() as any;
+    if (!data.success) throw new Error(`D1 error: ${JSON.stringify(data.errors)}`);
+    return data.result?.[0]?.results ?? [];
+  }
+
+  function safeParse(str: string | undefined | null, fallback: any = []) {
+    if (!str) return fallback;
+    try { return JSON.parse(str); } catch { return fallback; }
+  }
+
+  function mapRow(row: any) {
+    return {
+      id: row.id,
+      exam: row.exam,
+      class: row.class,
+      subject: row.subject,
+      topic_id: row.primary_topic_id,
+      topic: row.primary_topic,
+      subtopic: row.primary_subtopic || row.primary_topic,
+      type: row.type || 'MCQ',
+      difficulty_score: row.difficulty_score,
+      difficulty_band: row.difficulty_band,
+      question: row.question_text,
+      question_text: row.question_text,
+      options: safeParse(row.options, []),
+      correct_answer: row.correct_answer,
+      explanation: row.explanation || '',
+      solution_steps: safeParse(row.solution_steps, []),
+      concept_tags: safeParse(row.concept_tags, []),
+      error_trap_type: row.error_trap_type || 'general.miscellaneous',
+      key_formula: row.key_formula || '',
+      source_exam: row.source_exam || '',
+      year: row.year || null,
+      confidence: row.confidence ?? 0.8,
+      verified: !!row.verified,
+      quality_tier: row.quality_tier || 'standard',
+      created_at: row.created_at,
+      usage_count: 0,
+      also_for: safeParse(row.also_for, []),
+    };
+  }
+
+  function normalizeExam(exam: string) {
+    const e = exam.toLowerCase();
+    if (e.includes('neet'))                                     return 'NEET';
+    if (e.includes('advanced'))                                 return 'JEEAdvanced';
+    if (e.includes('board') || e.includes('foundation'))       return 'Board';
+    return 'JEEMains';
+  }
+
+  return {
+    name: 'cloudflare-d1-dev-proxy',
+    apply: 'serve', // only active during `vite dev`, never in `vite build`
+
+    configureServer(server) {
+      if (!enabled) {
+        console.warn(
+          '\n[D1 DevProxy] ⚠️  CLOUDFLARE_ACCOUNT_ID or CLOUDFLARE_D1_TOKEN not set in .env\n' +
+          '              /api/questions will fall back to local-db.json / Firestore.\n'
+        );
+      } else {
+        console.log('[D1 DevProxy] ✅ Cloudflare D1 proxy active for /api/questions');
+      }
+
+      server.middlewares.use(async (req, res, next) => {
+        if (!req.url?.startsWith('/api/questions')) return next();
+
+        // CORS pre-flight
+        if (req.method === 'OPTIONS') {
+          res.writeHead(204, {
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'POST, GET, OPTIONS',
+            'Access-Control-Allow-Headers': 'Content-Type',
+          });
+          res.end();
+          return;
+        }
+
+        if (req.method !== 'POST') return next();
+
+        // If credentials not configured, skip to fallback chain
+        if (!enabled) return next();
+
+        const CORS_JSON = {
+          'Access-Control-Allow-Origin': '*',
+          'Content-Type': 'application/json',
+        };
+
+        try {
+          // Read request body (Node stream)
+          const chunks: Buffer[] = [];
+          for await (const chunk of req) chunks.push(chunk as Buffer);
+          const body = JSON.parse(Buffer.concat(chunks).toString());
+
+          const { needs, exam, abilityScore = 1000 } = body as {
+            needs: Array<{ topic: string; count: number; topic_id?: string }>;
+            exam: string;
+            abilityScore?: number;
+          };
+
+          if (!Array.isArray(needs) || !exam) {
+            res.writeHead(400, CORS_JSON);
+            res.end(JSON.stringify({ error: 'needs[] and exam are required' }));
+            return;
+          }
+
+          const normExam = normalizeExam(exam);
+          const allQuestions: any[] = [];
+          const selectedIds = new Set<string>();
+
+          for (const group of needs) {
+            const { topic, count, topic_id } = group;
+            if (!topic || !count) continue;
+
+            const tid = topic_id ?? topic.toLowerCase().replace(/[^a-z0-9_]/g, '_');
+            const likeExam = `%"${normExam}"%`;
+
+            // 70/20/10 ELO split
+            const bands = [
+              { rating: abilityScore - 150, n: Math.max(0, Math.floor(count * 0.7)) },
+              { rating: abilityScore,       n: Math.max(0, Math.floor(count * 0.2)) },
+              { rating: abilityScore + 250, n: Math.max(0, count - Math.floor(count * 0.7) - Math.floor(count * 0.2)) },
+            ];
+
+            for (const band of bands) {
+              if (band.n <= 0) continue;
+              let needed = band.n;
+
+              // Expanding ELO window
+              for (let w = 200; needed > 0 && w <= 1500; w += 200) {
+                const excl = selectedIds.size > 0
+                  ? `AND id NOT IN (${[...selectedIds].map(() => '?').join(',')})` : '';
+                const sql = `
+                  SELECT * FROM questions
+                  WHERE (exam = ? OR also_for LIKE ?)
+                    AND (primary_topic_id = ? OR primary_topic = ?)
+                    AND difficulty_score BETWEEN ? AND ?
+                    ${excl}
+                  ORDER BY RANDOM() LIMIT ?`;
+                const params = [
+                  normExam, likeExam, tid, topic,
+                  band.rating - w, band.rating + w,
+                  ...selectedIds, needed,
+                ];
+                try {
+                  const rows = await queryD1(sql, params);
+                  for (const r of rows) {
+                    allQuestions.push(mapRow(r));
+                    selectedIds.add(r.id);
+                    needed--;
+                  }
+                } catch { /* expand window */ }
+              }
+
+              // No-difficulty fallback for this band
+              if (needed > 0) {
+                const excl = selectedIds.size > 0
+                  ? `AND id NOT IN (${[...selectedIds].map(() => '?').join(',')})` : '';
+                const sql = `
+                  SELECT * FROM questions
+                  WHERE (exam = ? OR also_for LIKE ?)
+                    AND (primary_topic_id = ? OR primary_topic = ?)
+                    ${excl}
+                  ORDER BY RANDOM() LIMIT ?`;
+                const params = [normExam, likeExam, tid, topic, ...selectedIds, needed];
+                try {
+                  const rows = await queryD1(sql, params);
+                  for (const r of rows) { allQuestions.push(mapRow(r)); selectedIds.add(r.id); }
+                } catch { /* ignore */ }
+              }
+            }
+
+            // Last resort: any question from this exam
+            if (!allQuestions.some(q => q.topic === topic)) {
+              try {
+                const rows = await queryD1(
+                  'SELECT * FROM questions WHERE exam = ? ORDER BY RANDOM() LIMIT ?',
+                  [normExam, count]
+                );
+                for (const r of rows) {
+                  if (!selectedIds.has(r.id)) { allQuestions.push(mapRow(r)); selectedIds.add(r.id); }
+                }
+              } catch { /* ignore */ }
+            }
+          }
+
+          res.writeHead(200, CORS_JSON);
+          res.end(JSON.stringify(allQuestions));
+
+        } catch (err: any) {
+          console.error('[D1 DevProxy] Handler error:', err?.message);
+          // Fall through to the app's own fallback (local-db.json / Firestore)
+          res.writeHead(503, CORS_JSON);
+          res.end(JSON.stringify({ error: 'D1 proxy error — falling back' }));
+        }
+      });
+    },
+  };
+}
 
 export default defineConfig(() => {
   const isSSR = process.argv.includes('--ssr') || process.argv.includes('ssr');
   console.log(`🛠️  Vite Build - Mode: ${isSSR ? 'SSR' : 'CSR'}`);
 
   return {
-
     define: {
-        'process.env.VITE_FIREBASE_API_KEY': JSON.stringify(process.env.VITE_FIREBASE_API_KEY || 'AIzaSyAj0_vu8OxPWVHvAWSRVN90y9GIStvQASY'),
-        'process.env.VITE_FIREBASE_AUTH_DOMAIN': JSON.stringify(process.env.VITE_FIREBASE_AUTH_DOMAIN || 'legendstech001.firebaseapp.com'),
-        'process.env.VITE_FIREBASE_PROJECT_ID': JSON.stringify(process.env.VITE_FIREBASE_PROJECT_ID || 'legendstech001'),
-        'process.env.VITE_FIREBASE_STORAGE_BUCKET': JSON.stringify(process.env.VITE_FIREBASE_STORAGE_BUCKET || 'legendstech001.firebasestorage.app'),
-        'process.env.VITE_FIREBASE_MESSAGING_SENDER_ID': JSON.stringify(process.env.VITE_FIREBASE_MESSAGING_SENDER_ID || '749589426436'),
-        'process.env.VITE_FIREBASE_APP_ID': JSON.stringify(process.env.VITE_FIREBASE_APP_ID || '1:749589426436:web:64b0455b7f90a7849c6051'),
-        'process.env.VITE_FIREBASE_MEASUREMENT_ID': JSON.stringify(process.env.VITE_FIREBASE_MEASUREMENT_ID || 'G-7MWNJDZ5D0')
+      // Firebase config is public-facing (required in browser). These are already
+      // committed to .env.example and are safe to include in the browser bundle.
+      'process.env.VITE_FIREBASE_API_KEY':              JSON.stringify(process.env.VITE_FIREBASE_API_KEY),
+      'process.env.VITE_FIREBASE_AUTH_DOMAIN':          JSON.stringify(process.env.VITE_FIREBASE_AUTH_DOMAIN),
+      'process.env.VITE_FIREBASE_PROJECT_ID':           JSON.stringify(process.env.VITE_FIREBASE_PROJECT_ID),
+      'process.env.VITE_FIREBASE_STORAGE_BUCKET':       JSON.stringify(process.env.VITE_FIREBASE_STORAGE_BUCKET),
+      'process.env.VITE_FIREBASE_MESSAGING_SENDER_ID':  JSON.stringify(process.env.VITE_FIREBASE_MESSAGING_SENDER_ID),
+      'process.env.VITE_FIREBASE_APP_ID':               JSON.stringify(process.env.VITE_FIREBASE_APP_ID),
+      'process.env.VITE_FIREBASE_MEASUREMENT_ID':       JSON.stringify(process.env.VITE_FIREBASE_MEASUREMENT_ID),
     },
-    plugins: [
 
+    plugins: [
+      cloudflareD1DevProxy(), // server-side only; never runs in browser
       react(),
       VitePWA({
         registerType: 'autoUpdate',
-        includeAssets: ['favicon.ico', 'logo.png', 'logo.jpg', 'robots.txt', 'sitemap.xml'],
+        includeAssets: ['favicon.ico', 'logo.png', 'robots.txt', 'sitemap.xml'],
         manifest: {
           name: 'Exam Compass',
           short_name: 'ExamCompass',
@@ -32,25 +274,15 @@ export default defineConfig(() => {
           display: 'standalone',
           orientation: 'portrait',
           icons: [
-            {
-              src: 'logo.png',
-              sizes: '192x192',
-              type: 'image/png',
-              purpose: 'any maskable'
-            },
-            {
-              src: 'logo.png',
-              sizes: '512x512',
-              type: 'image/png',
-              purpose: 'any maskable'
-            }
-          ]
+            { src: 'logo.png', sizes: '192x192', type: 'image/png', purpose: 'any maskable' },
+            { src: 'logo.png', sizes: '512x512', type: 'image/png', purpose: 'any maskable' },
+          ],
         },
         workbox: {
           skipWaiting: true,
           clientsClaim: true,
           globPatterns: ['**/*.{js,css,html,ico,png,svg,jpg,jpeg,json}'],
-          maximumFileSizeToCacheInBytes: 15 * 1024 * 1024, // 15MB for large SEO manifests
+          maximumFileSizeToCacheInBytes: 15 * 1024 * 1024,
           navigateFallbackDenylist: [/^\/admin\/.*/, /firestore\.googleapis\.com/],
           runtimeCaching: [
             {
@@ -58,66 +290,48 @@ export default defineConfig(() => {
               handler: 'CacheFirst',
               options: {
                 cacheName: 'google-fonts-cache',
-                expiration: {
-                  maxEntries: 10,
-                  maxAgeSeconds: 60 * 60 * 24 * 365 // <== 365 days
-                },
-                cacheableResponse: {
-                  statuses: [0, 200]
-                }
-              }
+                expiration: { maxEntries: 10, maxAgeSeconds: 60 * 60 * 24 * 365 },
+                cacheableResponse: { statuses: [0, 200] },
+              },
             },
             {
               urlPattern: /^https:\/\/fonts\.gstatic\.com\/.*/i,
               handler: 'CacheFirst',
               options: {
                 cacheName: 'gstatic-fonts-cache',
-                expiration: {
-                  maxEntries: 10,
-                  maxAgeSeconds: 60 * 60 * 24 * 365 // <== 365 days
-                },
-                cacheableResponse: {
-                  statuses: [0, 200]
-                }
-              }
+                expiration: { maxEntries: 10, maxAgeSeconds: 60 * 60 * 24 * 365 },
+                cacheableResponse: { statuses: [0, 200] },
+              },
             },
             {
-              // External API calls should never be handled by Workbox if not explicitly cached
-              urlPattern: ({ url }) => 
-                url.origin.includes('firestore.googleapis.com') || 
+              urlPattern: ({ url }) =>
+                url.origin.includes('firestore.googleapis.com') ||
                 url.origin.includes('google-analytics.com') ||
                 url.origin.includes('datadoghq.com'),
-              handler: 'NetworkOnly'
+              handler: 'NetworkOnly',
             },
             {
               urlPattern: /^https:\/\/firebasestorage\.googleapis\.com\/.*/i,
               handler: 'StaleWhileRevalidate',
               options: {
                 cacheName: 'firebase-storage-cache',
-                expiration: {
-                  maxEntries: 50,
-                  maxAgeSeconds: 60 * 60 * 24 * 30 // 30 Days
-                }
-              }
-            }
-          ]
+                expiration: { maxEntries: 50, maxAgeSeconds: 60 * 60 * 24 * 30 },
+              },
+            },
+          ],
         },
-        devOptions: {
-          enabled: false,
-          type: 'module'
-        }
-      })
+        devOptions: { enabled: false, type: 'module' },
+      }),
     ],
+
     resolve: {
-      alias: {
-        // Mock removed to allow real PWA registration
-      }
+      alias: {},
     },
+
     build: {
       modulePreload: {
-        resolveDependencies: (_filename: string, deps: string[]) => {
-          // Only preload critical-path chunks. Skip heavy non-critical ones.
-          return deps.filter(dep =>
+        resolveDependencies: (_filename: string, deps: string[]) =>
+          deps.filter(dep =>
             !dep.includes('vendor-3d') &&
             !dep.includes('vendor-markdown') &&
             !dep.includes('mermaid') &&
@@ -126,25 +340,24 @@ export default defineConfig(() => {
             !dep.includes('jspdf') &&
             !dep.includes('cytoscape') &&
             !dep.includes('katex')
-          );
-        }
+          ),
       },
       rollupOptions: {
         output: {
           manualChunks: isSSR ? undefined : {
-            'vendor-react': ['react', 'react-dom', 'react-router-dom'],
+            'vendor-react':    ['react', 'react-dom', 'react-router-dom'],
             'vendor-firebase': ['firebase/app', 'firebase/auth', 'firebase/firestore'],
-            'vendor-lucide': ['lucide-react'],
-            'vendor-motion': ['framer-motion'],
+            'vendor-lucide':   ['lucide-react'],
+            'vendor-motion':   ['framer-motion'],
             'vendor-markdown': ['react-markdown', 'remark-gfm'],
-            // This prevents ~500KB from blocking initial paint on all other pages
-            'vendor-3d': ['three', '@react-three/fiber', '@react-three/drei']
-          }
-        }
-      }
+            'vendor-3d':       ['three', '@react-three/fiber', '@react-three/drei'],
+          },
+        },
+      },
     },
+
     ssr: {
-      noExternal: ['react-helmet-async', 'framer-motion', 'lucide-react', 'react-router-dom', 'react-router', 'vite-plugin-pwa']
-    }
+      noExternal: ['react-helmet-async', 'framer-motion', 'lucide-react', 'react-router-dom', 'react-router', 'vite-plugin-pwa'],
+    },
   };
 })

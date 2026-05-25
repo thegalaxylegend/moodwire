@@ -36,7 +36,7 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
     };
 
     return (
-        <div className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-20">
+        <div className="relative flex items-center justify-center overflow-hidden pt-16 md:pt-20" style={{ minHeight: 'min(90svh, 90vh)' }}>
             {/* Ambient Background — High performance radial gradients (no blur filters) */}
             <div className="absolute inset-0 -z-10 overflow-hidden">
                 <div className="absolute top-1/4 left-1/4 w-[400px] h-[400px] bg-[radial-gradient(circle,rgba(139,92,246,0.1),transparent_70%)] animate-breathing will-change-[opacity]" />
@@ -74,33 +74,35 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
                         <span className="text-text-main font-semibold block mt-2">The ultimate analytics companion for your selection journey</span>
                     </motion.p>
 
-                    {/* CTA buttons — simplified for performance */}
-                    <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
+                    {/* CTA buttons — full-width on mobile, auto on sm+ */}
+                    <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 justify-center lg:justify-start w-full sm:w-auto">
                         <Link
                             to="/login"
-                            className="px-8 py-4 bg-primary hover:bg-primary/90 text-white rounded-xl font-bold text-lg transition-all duration-300 transform hover:-translate-y-1 active:scale-[0.98] hover:shadow-[0_10px_40px_-10px_rgba(139,92,246,0.5)] flex items-center gap-2 group"
+                            className="px-8 py-4 bg-primary hover:bg-primary/90 text-white rounded-xl font-bold text-lg transition-all duration-300 transform hover:-translate-y-1 active:scale-[0.98] hover:shadow-[0_10px_40px_-10px_rgba(139,92,246,0.5)] flex items-center justify-center gap-2 group text-center"
                         >
                             Launch Dashboard <ArrowRight size={20} className="group-hover:translate-x-1.5 transition-transform duration-300" />
                         </Link>
                         <button
                             onClick={onOpenDemo}
-                            className="px-8 py-4 rounded-xl border border-white/10 hover:bg-white/5 font-bold transition-all duration-300 transform hover:-translate-y-1 active:scale-[0.98] flex items-center gap-2 group hover:border-primary/30"
+                            className="px-8 py-4 rounded-xl border border-white/10 hover:bg-white/5 font-bold transition-all duration-300 transform hover:-translate-y-1 active:scale-[0.98] flex items-center justify-center gap-2 group hover:border-primary/30"
                         >
                             <Play size={20} className="group-hover:text-primary transition-colors" />
                             Watch Demo
                         </button>
                     </div>
 
-                    {/* Trust badges */}
+                    {/* Trust badges — wrap gracefully on small screens */}
                     <motion.div 
                         variants={itemVariants}
-                        className="flex items-center justify-center lg:justify-start gap-8 pt-4"
+                        className="flex flex-wrap items-center justify-center lg:justify-start gap-4 sm:gap-8 pt-4"
                     >
                         <div className="flex items-center gap-2 text-text-muted/70 text-sm">
-                            <ShieldCheck size={16} /> Classes 8-12 Foundation
+                            <ShieldCheck size={16} />
+                            <span>Classes 8–12 Foundation</span>
                         </div>
                         <div className="flex items-center gap-2 text-text-muted/70 text-sm">
-                            <Globe size={16} /> JEE (Main & Adv) & NEET
+                            <Globe size={16} />
+                            <span>JEE (Main &amp; Adv) &amp; NEET</span>
                         </div>
                     </motion.div>
                 </motion.div>

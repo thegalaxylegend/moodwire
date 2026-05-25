@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "749589426436",
+    "project_id": "legendstech001",
+    "storage_bucket": "legendstech001.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749589426436:android:790b3e2a46b067a29c6051",
+        "android_client_info": {
+          "package_name": "app.web.examcompass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749589426436-6g6pf3f79tikvo4qpesk4pvr3upeoeqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANrYdfFWEMKEevDdJHvpKwfc5q8uIYxRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749589426436-6g6pf3f79tikvo4qpesk4pvr3upeoeqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

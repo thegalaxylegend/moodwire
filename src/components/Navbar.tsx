@@ -99,16 +99,21 @@ export const Navbar = () => {
                 scrolled 
                     ? 'bg-black/95 backdrop-blur-md' 
                     : 'bg-black/80 backdrop-blur-sm'
-            } h-16 md:h-20`}
+            }`}
+            style={{
+                paddingTop: 'env(safe-area-inset-top, 0px)',
+                height: 'calc(env(safe-area-inset-top, 0px) + 64px)'
+            }}
         >
             <div 
-                className="max-w-7xl mx-auto px-4 md:px-6 flex items-center justify-between h-full"
+                className="max-w-7xl mx-auto px-4 md:px-6 flex items-center justify-between h-16 md:h-20"
             >
                 {/* Logo */}
                 <Link 
                     to="/" 
-                    className="text-xl md:text-2xl font-bold text-white tracking-tighter shrink-0 mr-4"
+                    className="flex items-center gap-2 text-xl md:text-2xl font-bold text-white tracking-tighter shrink-0 mr-4"
                 >
+                    <img src="/logo.png" alt="Exam Compass Logo" className="w-8 h-8 rounded-lg" />
                     Exam<span className="text-[#a855f7]">Compass</span>
                 </Link>
 
@@ -120,8 +125,9 @@ export const Navbar = () => {
                             setIsMobileMenuOpen(false);
                             setTimeout(() => mobileSearchInputRef.current?.focus(), 100);
                         }}
-                        className="p-2 text-gray-400 hover:text-white transition-colors focus:outline-none rounded-full"
+                        className="flex items-center justify-center text-gray-400 hover:text-white transition-colors focus:outline-none rounded-full"
                         aria-label="Open mobile search"
+                        style={{ minWidth: 44, minHeight: 44 }}
                     >
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="transform transition-transform active:scale-95">
                             <circle cx="11" cy="11" r="8"></circle>
@@ -134,13 +140,14 @@ export const Navbar = () => {
                             setIsMobileMenuOpen(!isMobileMenuOpen);
                             if (!isMobileMenuOpen) setIsMobileSearchOpen(false);
                         }}
-                        className="flex flex-col gap-1.5 p-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-lg"
+                        className="flex flex-col items-center justify-center gap-1.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-lg"
                         aria-label="Toggle navigation menu"
                         aria-expanded={isMobileMenuOpen}
+                        style={{ minWidth: 44, minHeight: 44 }}
                     >
-                        <div className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMobileMenuOpen ? 'rotate-45 translate-y-2' : ''}`} />
-                        <div className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMobileMenuOpen ? 'opacity-0' : ''}`} />
-                        <div className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMobileMenuOpen ? '-rotate-45 -translate-y-2' : ''}`} />
+                        <div className={`w-5 h-0.5 bg-white transition-all duration-300 ${isMobileMenuOpen ? 'rotate-45 translate-y-[6px]' : ''}`} />
+                        <div className={`w-5 h-0.5 bg-white transition-all duration-300 ${isMobileMenuOpen ? 'opacity-0 scale-x-0' : ''}`} />
+                        <div className={`w-5 h-0.5 bg-white transition-all duration-300 ${isMobileMenuOpen ? '-rotate-45 -translate-y-[6px]' : ''}`} />
                     </button>
                 </div>
 

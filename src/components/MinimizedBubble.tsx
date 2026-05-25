@@ -56,7 +56,7 @@ export const MinimizedBubble: React.FC<MinimizedBubbleProps> = ({
                     <div className="absolute inset-0 bg-gradient-to-br from-[#5d21df]/20 to-[#153ae4]/20 opacity-0 group-hover:opacity-100 transition-opacity" />
                     
                     <img 
-                        src="/logo.jpg" 
+                        src="/logo.png" 
                         alt="Exa AI" 
                         className={`w-full h-full transition-all duration-500 relative z-10 object-cover
                             ${isSpeaking ? 'animate-pulse scale-105' : 'opacity-100 group-hover:scale-110'}`} 

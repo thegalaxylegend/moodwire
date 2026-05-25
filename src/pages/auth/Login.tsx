@@ -48,19 +48,37 @@ export const Login = () => {
             persistIntentBeforeAuth();
             await setPersistence(auth, browserLocalPersistence);
 
+            // Detect if running inside native Capacitor wrapper (Android/iOS app)
+            const isCapacitor = typeof window !== 'undefined' && (window as any).Capacitor;
 
-            if (window.matchMedia('(display-mode: standalone)').matches || (navigator as any).standalone) {
-                // We're likely in a PWA or Capacitor app
+            if (isCapacitor) {
+                // Use the native Google Sign-in flow — stays inside the app, no Chrome redirect!
+                const { FirebaseAuthentication } = await import('@capacitor-firebase/authentication');
+                const result = await FirebaseAuthentication.signInWithGoogle();
+                // Sync the native auth result with the web Firebase SDK
+                if (result.credential?.idToken) {
+                    const { GoogleAuthProvider, signInWithCredential } = await import('firebase/auth');
+                    const credential = GoogleAuthProvider.credential(result.credential.idToken);
+                    await signInWithCredential(auth, credential);
+                }
+            } else if (
+                window.matchMedia('(display-mode: standalone)').matches || 
+                (navigator as any).standalone ||
+                (typeof navigator !== 'undefined' && /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) ||
+                window.innerWidth < 768
+            ) {
+                // PWA mode, mobile browser, or small screen emulation
                 const { signInWithRedirect } = await import('firebase/auth');
                 await signInWithRedirect(auth, googleProvider);
             } else {
+                // Standard desktop web browser popup
                 await signInWithPopup(auth, googleProvider);
             }
-            // DO NOT navigate here. The useUserStore initialize() 
+            // DO NOT navigate here. The useUserStore initialize()
             // will pick up the new auth state and handle the profile.
         } catch (err: any) {
-            console.error("Google Auth Error:", err);
-            setError("Failed to sign in with Google.");
+            console.error('Google Auth Error:', err);
+            setError(err.message || 'Failed to sign in with Google.');
             setLoading(false);
         }
     };
@@ -85,15 +103,14 @@ export const Login = () => {
                 navigate('/dashboard');
             }
         } catch (err: any) {
-            console.error("Auth Error:", err);
-            // Map Firebase error codes to user-friendly messages
-            let message = "Authentication failed";
+            console.error('Auth Error:', err);
+            let message = 'Authentication failed';
             if (err.code === 'auth/invalid-credential' || err.code === 'auth/user-not-found' || err.code === 'auth/wrong-password') {
-                message = "Invalid email or password.";
+                message = 'Invalid email or password.';
             } else if (err.code === 'auth/email-already-in-use') {
-                message = "Email is already in use.";
+                message = 'Email is already in use.';
             } else if (err.code === 'auth/weak-password') {
-                message = "Password should be at least 6 characters.";
+                message = 'Password should be at least 6 characters.';
             } else {
                 message = err.message;
             }
@@ -152,13 +169,13 @@ export const Login = () => {
                                     navigate('/dashboard');
                                     return;
                                 }
-                                const { setPersistence, browserLocalPersistence } = await import('firebase/auth');
-                                await setPersistence(auth, browserLocalPersistence);
+                                const { setPersistence: setP, browserLocalPersistence: blp } = await import('firebase/auth');
+                                await setP(auth, blp);
                                 setGuestLoginAttempt(true);
                                 await useUserStore.getState().loginAsGuest();
                             } catch (e: any) {
                                 console.error(e);
-                                setError("Guest login failed.");
+                                setError('Guest login failed.');
                                 setGuestLoginAttempt(false);
                                 setLoading(false);
                             }
@@ -203,7 +220,7 @@ export const Login = () => {
                                 type="password"
                                 id="password"
                                 name="password"
-                                autoComplete={isSignUp ? "new-password" : "current-password"}
+                                autoComplete={isSignUp ? 'new-password' : 'current-password'}
                                 placeholder="Password"
                                 className="w-full bg-surface/50 border border-border rounded-xl py-3 pl-10 pr-4 text-text-main placeholder:text-text-muted/30 focus:outline-none focus:border-primary transition-colors text-sm"
                                 required
@@ -228,7 +245,6 @@ export const Login = () => {
                         )}
                     </button>
                 </form>
-
 
                 <p className="text-center text-sm text-text-muted mt-4 relative z-50">
                     {isSignUp ? 'Already have an account?' : "Don't have an account?"}{' '}

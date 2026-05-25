@@ -201,8 +201,8 @@ export const updateTopicStrength = async (
             score_percentage: percentage,
             last_attempt: new Date().toISOString(),
             status,
-            user_class: userClass,
-            target_exam: targetExam,
+            user_class: userClass ?? null,
+            target_exam: targetExam ?? null,
             avg_time: avgTime,
             last_5_accuracy: last5Accuracy,
             last_5_results: last5Results,
@@ -211,9 +211,14 @@ export const updateTopicStrength = async (
             misconception_tags: existingTags,
             weakness_score: weaknessScore,
             error_analysis: errorAnalysis,
-            last_error_type: errorType,
+            // Only include last_error_type when it has a value — Firestore rejects undefined
+            ...(errorType !== undefined ? { last_error_type: errorType } : {}),
             topic_id: topic_id
-        };
+        } as Omit<TopicStat, 'id'>;
+
+        // Remove any remaining undefined values before writing to Firestore
+        const sanitizeForFirestore = (obj: Record<string, any>): Record<string, any> =>
+            Object.fromEntries(Object.entries(obj).filter(([, v]) => v !== undefined));
 
         const isStatusUpgradeToStrong = status === 'strong' && existing?.status !== 'strong';
         const isMultipleOf4 = totalAttempts % 4 === 0;
@@ -223,7 +228,7 @@ export const updateTopicStrength = async (
         localStorage.setItem(localCacheKey, JSON.stringify({id: docId, ...statData}));
 
         if (forceSync) {
-            await setDoc(docRef, statData, { merge: true });
+            await setDoc(docRef, sanitizeForFirestore(statData as any), { merge: true });
             console.log(`[TopicStrength] ☁️ Synced to cloud for ${cleanTopic} (Attempt ${totalAttempts}, Status ${status})`);
         } else {
             console.log(`[TopicStrength] 💾 Saved locally for ${cleanTopic} (Attempt ${totalAttempts}, Status ${status})`);

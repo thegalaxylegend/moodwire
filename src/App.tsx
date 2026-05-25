@@ -133,6 +133,24 @@ const FloatingUI = () => {
   );
 };
 
+const RootRoute = () => {
+    const { isAuthenticated, isLoading, user, authResolved } = useUserStore();
+    const isServer = typeof window === 'undefined';
+    
+    // Show loading spinner until auth state is resolved
+    if (!isServer && (!authResolved || isLoading)) {
+      return <GlobalLoading />;
+    }
+    
+    // If authenticated and not a guest, navigate to dashboard
+    if (!isServer && isAuthenticated && user && !user.isGuest) {
+      return <Navigate to="/dashboard" replace />;
+    }
+    
+    // Otherwise show landing page (including when logged out)
+    return <LandingPage />;
+};
+
 function AppContent() {
   const { initialize } = useUserStore();
   const { tier } = usePerformance();
@@ -173,7 +191,7 @@ function AppContent() {
         
         <ErrorBoundary>
           <Routes>
-            <Route path="/" element={<Suspense fallback={<GlobalLoading />}><LandingPage /></Suspense>} />
+            <Route path="/" element={<Suspense fallback={<GlobalLoading />}><RootRoute /></Suspense>} />
             <Route path="/login" element={<Suspense fallback={<GlobalLoading />}><Login /></Suspense>} />
             <Route path="/blog" element={<Suspense fallback={<BlogSkeleton />}><BlogIndex /></Suspense>} />
             <Route path="/blog/:slug" element={<Suspense fallback={<BlogSkeleton />}><BlogPostPage /></Suspense>} />

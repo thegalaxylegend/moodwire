@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { useScrollLock } from '../../hooks/useScrollLock';
 import { useUserStore } from '../../store/userStore';
 import { Link, useNavigate } from 'react-router-dom';
-import { TrendingUp, RefreshCw, Flame, Play, ChevronRight, Target, Sparkles as SparkleIcon, Brain, Swords, ArrowRight, Calendar, Clock, Zap } from 'lucide-react';
+import { TrendingUp, RefreshCw, Flame, Play, ChevronRight, Target, Sparkles as SparkleIcon, Brain, Swords, ArrowRight, Calendar, Clock, Zap, BookOpen } from 'lucide-react';
 
 import { getWeakTopics, getStrongTopics, type TopicStat } from '../../services/topicStrengthService';
 import { offlineSyncService } from '../../services/offlineSyncService';
@@ -20,6 +20,8 @@ import { motion, AnimatePresence, useSpring, useTransform } from 'framer-motion'
 import { DailyStudyGoalIcon } from '../../components/dashboard/DailyStudyGoalIcon';
 import { ImprovementBookCard } from '../../components/dashboard/ImprovementBookCard';
 import { EloService } from '../../services/eloService';
+
+import { usePerformance } from '../../context/PerformanceProvider';
 
 // MasteryDiagnostics removed
 // CollegePredictorCard removed
@@ -84,6 +86,19 @@ const DiagnosticPopup = ({ onDismiss, onStart }: { onDismiss: () => void; onStar
 export const Overview = () => {
     const { user, fetchSyllabusProgress, refreshMissions, completeMission, authResolved } = useUserStore();
     const navigate = useNavigate();
+    const { tier } = usePerformance();
+    const isLowPerf = tier === 'low';
+    const isElitePerf = tier === 'elite';
+
+    const [isMobile, setIsMobile] = useState(() => typeof window !== 'undefined' ? window.innerWidth < 768 : false);
+    useEffect(() => {
+        const checkMobile = () => {
+            setIsMobile(window.innerWidth < 768);
+        };
+        checkMobile();
+        window.addEventListener('resize', checkMobile);
+        return () => window.removeEventListener('resize', checkMobile);
+    }, []);
 
     // -- GUEST / INTENT LOGIC --
     const [intent, setIntent] = useState<{ class?: string; exam?: string } | null>(null);
@@ -113,6 +128,24 @@ export const Overview = () => {
         skills: { physics: 0.5, chemistry: 0.5, math: 0.5, lastUpdated: new Date().toISOString() },
         isGuest: true
     };
+
+    const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(displayUser?.userClass || '');
+    const subjects = isJunior 
+        ? ['Mathematics', 'Science', 'Social Science', 'English'] 
+        : ['Physics', 'Chemistry', 'Math', 'Overall'];
+
+    const daysLeft = displayUser?.userClass && ['Class 8th', 'Class 9th', 'Class 10th'].includes(displayUser.userClass)
+        ? Math.ceil((new Date(`${new Date().getMonth() > 2 ? new Date().getFullYear() + 1 : new Date().getFullYear()}-03-31`).getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24))
+        : (displayUser?.targetYear
+            ? Math.ceil((new Date(`${displayUser.targetYear}-01-24`).getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24))
+            : 365);
+
+    const [activeSubjectIdx, setActiveSubjectIdx] = useState(0);
+    const [slideDirection, setSlideDirection] = useState(0); // -1 for left, 1 for right
+    const [activeTopicIdx, setActiveTopicIdx] = useState(0);
+    const [topicSlideDirection, setTopicSlideDirection] = useState(0);
+    const [activeVideoIdx, setActiveVideoIdx] = useState(0);
+    const [videoSlideDirection, setVideoSlideDirection] = useState(0);
     // ---------------------------
     const [isSyncing, setIsSyncing] = useState(false);
     const handleSync = async () => {
@@ -711,13 +744,7 @@ export const Overview = () => {
 
     // Format numbers
 
-    const daysLeft = displayUser?.userClass && ['Class 8th', 'Class 9th', 'Class 10th'].includes(displayUser.userClass)
-        ? Math.ceil((new Date(`${new Date().getMonth() > 2 ? new Date().getFullYear() + 1 : new Date().getFullYear()}-03-31`).getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24))
-        : (displayUser?.targetYear
-            ? Math.ceil((new Date(`${displayUser.targetYear}-01-24`).getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24))
-            : 365);
-
-    const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(displayUser?.userClass || '');
+    // Hoist variables are now declared at the top of the component
 
     // Hoist Header out of loading state
     const header = (
@@ -732,23 +759,23 @@ export const Overview = () => {
                     </h1>
                     
                     {/* Stylized Metric Badges */}
-                    <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2.5 mt-2 w-full">
+                    <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2 mt-2 w-full">
                         {!isJunior && (
-                            <div className="flex items-center gap-1.5 px-3 py-1 bg-white/[0.03] border border-white/[0.06] rounded-full text-xs font-semibold text-slate-300 shadow-[inset_0_1px_1px_rgba(255,255,255,0.05)] backdrop-blur-sm">
-                                <Target size={13} className="text-violet-400" />
+                            <div className="flex items-center gap-1 px-2 py-0.5 sm:px-3 sm:py-1 bg-white/[0.03] border border-white/[0.06] rounded-full text-[10px] sm:text-xs font-semibold text-slate-300 shadow-[inset_0_1px_1px_rgba(255,255,255,0.05)] backdrop-blur-sm">
+                                <Target size={12} className="text-violet-400" />
                                 <span>
                                     Target: <span className="text-violet-400 font-bold">{displayUser?.targetExam || 'Undecided'} {displayUser?.targetYear}</span>
                                 </span>
                             </div>
                         )}
-                        <div className="flex items-center gap-1.5 px-3 py-1 bg-white/[0.03] border border-white/[0.06] rounded-full text-xs font-semibold text-slate-300 shadow-[inset_0_1px_1px_rgba(255,255,255,0.05)] backdrop-blur-sm">
-                            <SparkleIcon size={13} className="text-amber-400 fill-amber-400/20" />
+                        <div className="flex items-center gap-1 px-2 py-0.5 sm:px-3 sm:py-1 bg-white/[0.03] border border-white/[0.06] rounded-full text-[10px] sm:text-xs font-semibold text-slate-300 shadow-[inset_0_1px_1px_rgba(255,255,255,0.05)] backdrop-blur-sm">
+                            <SparkleIcon size={12} className="text-amber-400 fill-amber-400/20" />
                             <span>
                                 Season: <span className="text-amber-400 font-bold">{(displayUser?.totalPoints || 0).toLocaleString()}</span>
                             </span>
                         </div>
-                        <div className="flex items-center gap-1.5 px-3 py-1 bg-white/[0.03] border border-white/[0.06] rounded-full text-xs font-semibold text-slate-300 shadow-[inset_0_1px_1px_rgba(255,255,255,0.05)] backdrop-blur-sm">
-                            <Zap size={13} className="text-emerald-400 fill-emerald-400/20" />
+                        <div className="flex items-center gap-1 px-2 py-0.5 sm:px-3 sm:py-1 bg-white/[0.03] border border-white/[0.06] rounded-full text-[10px] sm:text-xs font-semibold text-slate-300 shadow-[inset_0_1px_1px_rgba(255,255,255,0.05)] backdrop-blur-sm">
+                            <Zap size={12} className="text-emerald-400 fill-emerald-400/20" />
                             <span>
                                 Career XP: <span className="text-emerald-400 font-bold">{(displayUser?.lifetimeXp || 0).toLocaleString()}</span>
                             </span>
@@ -797,6 +824,76 @@ export const Overview = () => {
             </div>
         </header>
     );
+
+    const getSubjectCardData = (subject: string, idx: number) => {
+        let percentage = 50;
+
+        if (loading || Object.keys(subjectPreparedness).length === 0) {
+            percentage = 50;
+        } else {
+            if (subject.toLowerCase() === 'overall') {
+                const vals = Object.values(subjectPreparedness);
+                percentage = vals.length > 0 
+                    ? Math.round(vals.reduce((a, b) => a + b, 0) / vals.length)
+                    : 0;
+            } else {
+                const key = Object.keys(subjectPreparedness).find(
+                    k => k.toLowerCase() === subject.toLowerCase() || 
+                         (subject.toLowerCase() === 'math' && k.toLowerCase() === 'mathematics') ||
+                         (subject.toLowerCase() === 'mathematics' && k.toLowerCase() === 'math')
+                );
+                percentage = key ? subjectPreparedness[key] : 0;
+            }
+        }
+        const score = percentage / 100;
+        
+        let colorClass = 'text-amber-400';
+        let barGradient = 'from-amber-500 to-yellow-400';
+        let bgClass = 'bg-amber-500/5';
+        let borderClass = 'border-amber-500/15';
+        let glowClass = 'hover:shadow-[0_8px_30px_rgba(245,158,11,0.12)] hover:border-amber-500/30';
+        let label = 'Average';
+
+        if (subject.toLowerCase() === 'overall') {
+            colorClass = 'text-purple-400';
+            barGradient = 'from-purple-500 to-indigo-400';
+            bgClass = 'bg-purple-500/10';
+            borderClass = 'border-purple-500/25';
+            glowClass = 'hover:shadow-[0_8px_30px_rgba(168,85,247,0.15)] hover:border-purple-500/40 border-purple-500/20';
+            if (score >= 0.7) {
+                label = 'Mastery';
+            } else if (score <= 0.4) {
+                label = 'Needs Focus';
+            } else {
+                label = 'Steady';
+            }
+        } else if (score >= 0.7) {
+            colorClass = 'text-emerald-400';
+            barGradient = 'from-emerald-500 to-teal-400';
+            bgClass = 'bg-emerald-500/5';
+            borderClass = 'border-emerald-500/15';
+            glowClass = 'hover:shadow-[0_8px_30px_rgba(16,185,129,0.12)] hover:border-emerald-500/30';
+            label = 'Strong';
+        } else if (score <= 0.4) {
+            colorClass = 'text-rose-400';
+            barGradient = 'from-rose-500 to-red-400';
+            bgClass = 'bg-rose-500/5';
+            borderClass = 'border-rose-500/15';
+            glowClass = 'hover:shadow-[0_8px_30px_rgba(244,63,94,0.12)] hover:border-rose-500/30';
+            label = 'Weak';
+        }
+
+        return {
+            percentage,
+            score,
+            colorClass,
+            barGradient,
+            bgClass,
+            borderClass,
+            glowClass,
+            label
+        };
+    };
 
     return (
         <motion.div
@@ -848,9 +945,104 @@ export const Overview = () => {
                                     onAction={handleMissionAction}
                                 />
                             )}
+                            {/* Mobile-Only Compact Grid of Stats & Actions */}
+                            {isMobile && (
+                                <div className="grid grid-cols-2 gap-4 relative z-10 my-4">
+                                {/* 1. Syllabus Coverage */}
+                                <div 
+                                    onClick={() => navigate('/dashboard/syllabus')}
+                                    className="glass-card p-4 flex flex-col justify-between cursor-pointer border border-white/5 hover:border-white/10 active:scale-[0.98] transition-all bg-sky-500/[0.02]"
+                                >
+                                    <div className="flex items-center justify-between">
+                                        <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Syllabus</span>
+                                        <RefreshCw size={12} className="text-slate-500" />
+                                    </div>
+                                    <div className="flex items-center gap-3 mt-3">
+                                        <div className="relative w-10 h-10 shrink-0">
+                                            <svg className="w-full h-full transform -rotate-90">
+                                                <circle cx="20" cy="20" r="16" stroke="currentColor" strokeWidth="2.5" fill="transparent" className="text-white/[0.04]" />
+                                                <circle cx="20" cy="20" r="16" stroke="currentColor" strokeWidth="3" fill="transparent" strokeDasharray={2 * Math.PI * 16} strokeDashoffset={2 * Math.PI * 16 - (progress / 100) * (2 * Math.PI * 16)} strokeLinecap="round" className="text-sky-400 drop-shadow-[0_0_4px_rgba(56,189,248,0.5)] transition-all duration-1000" />
+                                            </svg>
+                                            <div className="absolute inset-0 flex items-center justify-center">
+                                                <span className="text-[9px] font-black text-slate-100">{progress}%</span>
+                                            </div>
+                                        </div>
+                                        <div className="min-w-0">
+                                            <p className="text-xs font-black text-slate-100 truncate">{progress}% Mastered</p>
+                                            <p className="text-[8px] text-slate-400 font-semibold">{attempts} mocks</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {/* 2. Days Left / Class */}
+                                <div className="glass-card p-4 flex flex-col justify-between border border-white/5 bg-violet-500/[0.02]">
+                                    <div className="flex items-center justify-between">
+                                        <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">
+                                            {isJunior ? 'Class' : 'Countdown'}
+                                        </span>
+                                        <Calendar size={12} className="text-slate-500" />
+                                    </div>
+                                    <div className="flex items-center gap-3 mt-3">
+                                        <div className="w-9 h-9 rounded-xl bg-violet-500/10 border border-violet-500/20 flex items-center justify-center shrink-0">
+                                            <Clock size={16} className="text-violet-400" />
+                                        </div>
+                                        <div className="min-w-0">
+                                            <p className="text-sm font-black text-slate-100 truncate">
+                                                {isJunior ? displayUser?.userClass : `${daysLeft} Days`}
+                                            </p>
+                                            <p className="text-[8px] text-slate-400 font-semibold leading-tight">Remaining</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {/* 3. The Arena */}
+                                <div 
+                                    onClick={() => navigate('/dashboard/arena')}
+                                    className="glass-card p-4 flex flex-col justify-between cursor-pointer border border-red-500/10 bg-gradient-to-br from-[#11131c] to-red-500/[0.05] hover:border-red-500/30 active:scale-[0.98] transition-all"
+                                >
+                                    <div className="flex items-center justify-between">
+                                        <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">The Arena</span>
+                                        <span className="bg-red-500/20 text-red-500 border border-red-500/40 px-1 py-0.2 rounded text-[7px] font-black uppercase animate-pulse">Live</span>
+                                    </div>
+                                    <div className="flex items-center gap-3 mt-3">
+                                        <div className="w-9 h-9 rounded-xl bg-red-500/10 border border-red-500/20 flex items-center justify-center shrink-0">
+                                            <Swords size={16} className="text-red-400" />
+                                        </div>
+                                        <div className="min-w-0">
+                                            <p className="text-xs font-black text-slate-100 truncate">1v1 Battles</p>
+                                            <p className="text-[8px] text-red-300 font-semibold uppercase tracking-wider">Enter Match →</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {/* 4. Improvement Book / Revision */}
+                                <div 
+                                    onClick={() => {
+                                        const el = document.getElementById('mobile-improvement-book');
+                                        if (el) el.scrollIntoView({ behavior: 'smooth' });
+                                    }}
+                                    className="glass-card p-4 flex flex-col justify-between cursor-pointer border border-purple-500/10 bg-purple-500/[0.02] hover:border-purple-500/30 active:scale-[0.98] transition-all"
+                                >
+                                    <div className="flex items-center justify-between">
+                                        <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Revision</span>
+                                        <BookOpen size={12} className="text-purple-400" />
+                                    </div>
+                                    <div className="flex items-center gap-3 mt-3">
+                                        <div className="w-9 h-9 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center shrink-0">
+                                            <Brain size={16} className="text-purple-400" />
+                                        </div>
+                                        <div className="min-w-0">
+                                            <p className="text-xs font-black text-slate-100 truncate">Revision Book</p>
+                                            <p className="text-[8px] text-purple-300 font-semibold uppercase tracking-wider">Review Mistake →</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            )}
 
                             {/* Arena Card */}
-                            <div className="glass-card oxygen-card p-6 border-red-500/20 bg-gradient-to-br from-[#11131c] to-red-500/10 flex flex-col justify-between group overflow-hidden relative" >
+                            {!isMobile && (
+                                <div className="glass-card oxygen-card p-6 border-red-500/20 bg-gradient-to-br from-[#11131c] to-red-500/10 flex flex-col justify-between group overflow-hidden relative" >
                                 <div className="absolute right-[-20%] bottom-[-20%] opacity-10 group-hover:scale-110 transition-transform duration-500">
                                     <Swords size={180} />
                                 </div>
@@ -865,11 +1057,13 @@ export const Overview = () => {
                                     Enter Matchmaking <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
                                 </button>
                             </div>
+                            )}
                         </div>
 
-                        <div className="space-y-6">
-                            {/* Coverage Card (Circular progress layout) */}
-                            <div className="glass-card oxygen-card p-6 space-y-4 min-h-[160px] relative overflow-hidden group">
+                        {!isMobile && (
+                            <div className="space-y-6">
+                                {/* Coverage Card (Circular progress layout) */}
+                                <div className="glass-card oxygen-card p-6 space-y-4 min-h-[160px] relative overflow-hidden group">
                                 <div className="absolute right-0 top-0 w-24 h-24 bg-sky-500/5 rounded-full blur-2xl pointer-events-none group-hover:bg-sky-500/10 transition-colors" />
                                 
                                 <div className="flex items-center justify-between">
@@ -969,182 +1163,217 @@ export const Overview = () => {
                                     onStartTest={() => navigate('/dashboard/mock')}
                                 />
                             </div>
-                        </div>
-                    </div>
-
-                    {/* Skill Profile (RPG style progress metrics) */}
-                    <motion.div
-                        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
-                        variants={{
-                            show: { transition: { staggerChildren: 0.08 } }
-                        }}
-                        initial="hidden"
-                        animate="show"
-                    >
-                        {(isJunior 
-                            ? ['Mathematics', 'Science', 'Social Science', 'English'] 
-                            : ['Physics', 'Chemistry', 'Math', 'Overall']
-                        ).map((subject, idx) => {
-                            let percentage = 50;
-
-                            if (loading || Object.keys(subjectPreparedness).length === 0) {
-                                percentage = 50;
-                            } else {
-                                if (subject.toLowerCase() === 'overall') {
-                                    const vals = Object.values(subjectPreparedness);
-                                    percentage = vals.length > 0 
-                                        ? Math.round(vals.reduce((a, b) => a + b, 0) / vals.length)
-                                        : 0;
-                                } else {
-                                    const key = Object.keys(subjectPreparedness).find(
-                                        k => k.toLowerCase() === subject.toLowerCase() || 
-                                             (subject.toLowerCase() === 'math' && k.toLowerCase() === 'mathematics') ||
-                                             (subject.toLowerCase() === 'mathematics' && k.toLowerCase() === 'math')
-                                    );
-                                    percentage = key ? subjectPreparedness[key] : 0;
-                                }
-                            }
-                            const score = percentage / 100;
-                            
-                            let colorClass = 'text-amber-400';
-                            let barGradient = 'from-amber-500 to-yellow-400';
-                            let bgClass = 'bg-amber-500/5';
-                            let borderClass = 'border-amber-500/15';
-                            let glowClass = 'hover:shadow-[0_8px_30px_rgba(245,158,11,0.12)] hover:border-amber-500/30';
-                            let label = 'Average';
-
-                            if (subject.toLowerCase() === 'overall') {
-                                colorClass = 'text-purple-400';
-                                barGradient = 'from-purple-500 to-indigo-400';
-                                bgClass = 'bg-purple-500/10';
-                                borderClass = 'border-purple-500/25';
-                                glowClass = 'hover:shadow-[0_8px_30px_rgba(168,85,247,0.15)] hover:border-purple-500/40 border-purple-500/20';
-                                if (score >= 0.7) {
-                                    label = 'Mastery';
-                                } else if (score <= 0.4) {
-                                    label = 'Needs Focus';
-                                } else {
-                                    label = 'Steady';
-                                }
-                            } else if (score >= 0.7) {
-                                colorClass = 'text-emerald-400';
-                                barGradient = 'from-emerald-500 to-teal-400';
-                                bgClass = 'bg-emerald-500/5';
-                                borderClass = 'border-emerald-500/15';
-                                glowClass = 'hover:shadow-[0_8px_30px_rgba(16,185,129,0.12)] hover:border-emerald-500/30';
-                                label = 'Strong';
-                            } else if (score <= 0.4) {
-                                colorClass = 'text-rose-400';
-                                barGradient = 'from-rose-500 to-red-400';
-                                bgClass = 'bg-rose-500/5';
-                                borderClass = 'border-rose-500/15';
-                                glowClass = 'hover:shadow-[0_8px_30px_rgba(244,63,94,0.12)] hover:border-rose-500/30';
-                                label = 'Weak';
-                            }
-
-                            return (
-                                <motion.div 
-                                    key={subject} 
-                                    variants={{
-                                        hidden: { opacity: 0, y: 20, scale: 0.97 },
-                                        show:   { opacity: 1, y: 0,  scale: 1 }
-                                    }}
-                                    transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-                                    whileHover={{ y: -5, scale: 1.02, transition: { duration: 0.3, ease: [0.16, 1, 0.3, 1] } }}
-                                    whileTap={{ scale: 0.97 }}
-                                    className={`glass-card p-5 border ${borderClass} ${bgClass} flex flex-col justify-between cursor-pointer ${glowClass}`}
-                                    style={{ transition: 'box-shadow 380ms cubic-bezier(0.16, 1, 0.3, 1), border-color 280ms cubic-bezier(0.16, 1, 0.3, 1)' }}
-                                >
-                                    <div className="flex items-start justify-between mb-4">
-                                        <div className="min-w-0">
-                                            <h4 className="capitalize font-black text-slate-200 tracking-wider text-sm truncate">{subject}</h4>
-                                            <span className={`text-[10px] uppercase font-extrabold tracking-widest ${colorClass}`}>{label}</span>
-                                        </div>
-                                        <div className="shrink-0 flex flex-col items-end">
-                                            <AnimatedCounter value={percentage} colorClass={colorClass} />
-                                            <span className="text-[9px] text-slate-500 font-semibold uppercase tracking-wider">Preparedness</span>
-                                        </div>
-                                    </div>
-
-                                    {/* Animated subject bar indicator */}
-                                    <div className="space-y-1.5">
-                                        <div className="w-full h-1.5 bg-slate-950/40 rounded-full overflow-hidden border border-white/[0.02]">
-                                            <motion.div 
-                                                className={`h-full rounded-full bg-gradient-to-r ${barGradient}`}
-                                                initial={{ width: 0 }}
-                                                animate={{ width: `${percentage}%` }}
-                                                transition={{ 
-                                                    duration: 1.2, 
-                                                    delay: idx * 0.1 + 0.3,
-                                                    ease: [0.16, 1, 0.3, 1] 
-                                                }}
-                                            />
-                                        </div>
-                                        <div className="flex justify-between items-center text-[9px] text-slate-500 font-bold">
-                                            <span>0%</span>
-                                            <span>Mastery Level</span>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
-                                </motion.div>
-                            );
-                        })}
-                    </motion.div>
-
-                {/* Focus Areas + Videos */}
-                {(loading || weakTopicStats.length > 0 || strongTopicStats.length > 0) ? (
-                    <div className="glass-card oxygen-card p-6 space-y-8">
-                        <div className="flex items-center justify-between">
-                            <div className="flex items-center gap-3">
-                                <TrendingUp className="text-red-400" size={24} />
-                                <div>
-                                    <h3 className="text-xl font-bold text-text-main">AI Diagnostics</h3>
-                                    <p className="text-sm text-text-muted">Master your syllabus through root-cause analysis</p>
-                                </div>
-                            </div>
-                            <Link to="/dashboard/analytics" className="text-sm text-primary hover:underline whitespace-nowrap">Full Analytics →</Link>
-                        </div>
-
-                        {loading ? <div className="h-20 w-full bg-surface animate-pulse rounded-xl" /> : (
-                            <div className="space-y-8">
-                                {/* AI 2.0 Root Cause Layer - Removed as per request */}
-                                {/* Mastery & College Fit Diagnostics */}
-                                <div className="space-y-8">
-                                    {/* MasteryDiagnostics removed as per user request */}
-
-                                    {/* CollegePredictorCard removed as per user request */}
-                                </div>
-
-                                {weakTopicStats.length > 0 && (
-                                    <div className="space-y-3 relative">
-                                        <div className="flex items-center gap-2 mb-2">
-                                            <Target className="text-red-400" size={18} />
-                                            <h4 className="text-sm font-bold text-red-400 uppercase tracking-wider">Specific Focus Topics</h4>
-                                        </div>
-                                        <div className="flex overflow-x-auto no-scrollbar gap-3 pb-2">
-                                            {weakTopicStats.map((stat, idx) => (
-                                                <div 
-                                                    key={idx} 
-                                                    onClick={() => navigate(`/dashboard/mock?topic=${encodeURIComponent(stat.topic)}`)}
-                                                    className="shrink-0 px-4 py-3 bg-red-500/10 border border-red-500/20 rounded-xl flex items-center gap-3 oxygen-card cursor-pointer hover:bg-red-500/20 transition-all active:scale-95 group"
-                                                >
-                                                    <div className="flex flex-col">
-                                                        <span className="text-sm font-bold text-red-50">{stat.topic}</span>
-                                                        <span className="text-[10px] text-red-300/60 uppercase font-black tracking-tighter">
-                                                            {attempts === 0 ? 'Ready to Start' : 'Fix Now'}
-                                                        </span>
-                                                    </div>
-                                                    <span className="text-base px-2 py-1 bg-red-500/20 rounded-md text-red-300 font-black">{stat.score_percentage}%</span>
-                                                </div>
-                                            ))}
-                                        </div>
-                                    </div>
-                                )}
                             </div>
                         )}
+                        </div>
 
-                        {/* Videos Section */}
-                        <div className="space-y-4">
+                    {/* Skill Profile (RPG style progress metrics) */}
+                    {isMobile ? (
+                        <div className="relative w-full flex flex-col items-center gap-3">
+                            {/* Card Slider Content Area (No chevron buttons, overflow-visible) */}
+                            <div className="w-full relative py-1 overflow-visible">
+                                <AnimatePresence mode={isElitePerf ? "popLayout" : "wait"} custom={slideDirection}>
+                                    {(() => {
+                                        const subject = subjects[activeSubjectIdx];
+                                        const { percentage, colorClass, barGradient, bgClass, borderClass, label } = getSubjectCardData(subject, activeSubjectIdx);
+                                        
+                                        return (
+                                            <motion.div
+                                                key={subject}
+                                                custom={slideDirection}
+                                                drag="x"
+                                                dragConstraints={{ left: 0, right: 0 }}
+                                                dragElastic={0.4}
+                                                onDragEnd={(e, info) => {
+                                                    const swipe = info.offset.x;
+                                                    const threshold = 30;
+                                                    if (swipe < -threshold) {
+                                                        setSlideDirection(1);
+                                                        setActiveSubjectIdx(prev => (prev + 1) % subjects.length);
+                                                    } else if (swipe > threshold) {
+                                                        setSlideDirection(-1);
+                                                        setActiveSubjectIdx(prev => (prev - 1 + subjects.length) % subjects.length);
+                                                    }
+                                                }}
+                                                variants={{
+                                                    enter: (dir: number) => {
+                                                        if (isLowPerf) return { x: dir > 0 ? 80 : -80, opacity: 0, scale: 1 };
+                                                        const xVal = isElitePerf ? 150 : 100;
+                                                        const scaleVal = isElitePerf ? 0.95 : 0.98;
+                                                        return { x: dir > 0 ? xVal : -xVal, opacity: 0, scale: scaleVal };
+                                                    },
+                                                    center: {
+                                                        x: 0,
+                                                        opacity: 1,
+                                                        scale: 1,
+                                                        transition: isLowPerf 
+                                                            ? { x: { duration: 0.12, ease: "easeOut" }, opacity: { duration: 0.12, ease: "easeOut" } }
+                                                            : {
+                                                                x: { type: 'spring', stiffness: isElitePerf ? 500 : 350, damping: isElitePerf ? 30 : 28 },
+                                                                opacity: { duration: isElitePerf ? 0.12 : 0.15 },
+                                                                scale: { duration: isElitePerf ? 0.12 : 0.15 }
+                                                              }
+                                                    },
+                                                    exit: (dir: number) => {
+                                                        if (isLowPerf) return { x: dir < 0 ? 80 : -80, opacity: 0, scale: 1, transition: { x: { duration: 0.1, ease: "easeIn" }, opacity: { duration: 0.1, ease: "easeIn" } } };
+                                                        const xVal = isElitePerf ? 150 : 100;
+                                                        const scaleVal = isElitePerf ? 0.95 : 0.98;
+                                                        return {
+                                                            x: dir < 0 ? xVal : -xVal,
+                                                            opacity: 0,
+                                                            scale: scaleVal,
+                                                            transition: {
+                                                                x: { type: 'spring', stiffness: isElitePerf ? 500 : 350, damping: isElitePerf ? 30 : 28 },
+                                                                opacity: { duration: isElitePerf ? 0.1 : 0.12 },
+                                                                scale: { duration: isElitePerf ? 0.1 : 0.12 }
+                                                            }
+                                                        };
+                                                    }
+                                                }}
+                                                initial="enter"
+                                                animate="center"
+                                                exit="exit"
+                                                className={`glass-card p-5 border ${borderClass} ${bgClass} flex flex-col justify-between cursor-pointer shadow-none w-full min-h-[110px] select-none`}
+                                                style={{ transition: 'border-color 280ms cubic-bezier(0.16, 1, 0.3, 1)' }}
+                                            >
+                                                <div className="flex items-start justify-between mb-3">
+                                                    <div className="min-w-0">
+                                                        <h4 className="capitalize font-black text-slate-200 tracking-wider text-sm truncate">{subject}</h4>
+                                                        <span className={`text-[10px] uppercase font-extrabold tracking-widest ${colorClass}`}>{label}</span>
+                                                    </div>
+                                                    <div className="shrink-0 flex flex-col items-end">
+                                                        <AnimatedCounter value={percentage} colorClass={colorClass} />
+                                                        <span className="text-[9px] text-slate-500 font-semibold uppercase tracking-wider">Preparedness</span>
+                                                    </div>
+                                                </div>
+
+                                                {/* Animated subject bar indicator */}
+                                                <div className="space-y-1.5">
+                                                    <div className="w-full h-1.5 bg-slate-950/40 rounded-full overflow-hidden border border-white/[0.02]">
+                                                        <motion.div 
+                                                            className={`h-full rounded-full bg-gradient-to-r ${barGradient}`}
+                                                            initial={{ width: 0 }}
+                                                            animate={{ width: `${percentage}%` }}
+                                                            transition={isLowPerf ? { duration: 0 } : { 
+                                                                duration: 1.2, 
+                                                                ease: [0.16, 1, 0.3, 1] 
+                                                            }}
+                                                        />
+                                                    </div>
+                                                    <div className="flex justify-between items-center text-[9px] text-slate-500 font-bold">
+                                                        <span>0%</span>
+                                                        <span>Mastery Level</span>
+                                                        <span>100%</span>
+                                                    </div>
+                                                </div>
+                                            </motion.div>
+                                        );
+                                    })()}
+                                </AnimatePresence>
+                            </div>
+
+                            {/* Dot indicators */}
+                            <div className="flex items-center gap-2 mt-1">
+                                {subjects.map((_, idx) => (
+                                    <button
+                                        key={idx}
+                                        onClick={() => {
+                                            setSlideDirection(idx > activeSubjectIdx ? 1 : -1);
+                                            setActiveSubjectIdx(idx);
+                                        }}
+                                        className={`h-1.5 rounded-full transition-all duration-300 ${
+                                            idx === activeSubjectIdx 
+                                                ? 'w-6 bg-purple-500' 
+                                                : 'w-1.5 bg-white/20 hover:bg-white/40'
+                                        }`}
+                                        aria-label={`Go to slide ${idx + 1}`}
+                                    />
+                                ))}
+                            </div>
+                        </div>
+                    ) : (
+                        <motion.div
+                            className="grid grid-cols-2 lg:grid-cols-4 gap-4"
+                            variants={{
+                                show: { transition: { staggerChildren: 0.08 } }
+                            }}
+                            initial="hidden"
+                            animate="show"
+                        >
+                            {subjects.map((subject, idx) => {
+                                const { percentage, colorClass, barGradient, bgClass, borderClass, glowClass, label } = getSubjectCardData(subject, idx);
+
+                                return (
+                                    <motion.div 
+                                        key={subject} 
+                                        variants={{
+                                            hidden: { opacity: 0, y: 20, scale: 0.97 },
+                                            show:   { opacity: 1, y: 0,  scale: 1 }
+                                        }}
+                                        transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+                                        whileHover={{ y: -5, scale: 1.02, transition: { duration: 0.3, ease: [0.16, 1, 0.3, 1] } }}
+                                        whileTap={{ scale: 0.97 }}
+                                        className={`glass-card p-3 md:p-5 border ${borderClass} ${bgClass} flex flex-col justify-between cursor-pointer ${glowClass}`}
+                                        style={{ transition: 'box-shadow 380ms cubic-bezier(0.16, 1, 0.3, 1), border-color 280ms cubic-bezier(0.16, 1, 0.3, 1)' }}
+                                    >
+                                        <div className="flex items-start justify-between mb-2 md:mb-4">
+                                            <div className="min-w-0">
+                                                <h4 className="capitalize font-black text-slate-200 tracking-wider text-xs md:text-sm truncate">{subject}</h4>
+                                                <span className={`text-[9px] md:text-[10px] uppercase font-extrabold tracking-widest ${colorClass}`}>{label}</span>
+                                            </div>
+                                            <div className="shrink-0 flex flex-col items-end">
+                                                <AnimatedCounter value={percentage} colorClass={colorClass} />
+                                                <span className="text-[9px] text-slate-500 font-semibold uppercase tracking-wider hidden sm:inline">Preparedness</span>
+                                            </div>
+                                        </div>
+
+                                        {/* Animated subject bar indicator */}
+                                        <div className="space-y-1.5">
+                                            <div className="w-full h-1.5 bg-slate-950/40 rounded-full overflow-hidden border border-white/[0.02]">
+                                                <motion.div 
+                                                    className={`h-full rounded-full bg-gradient-to-r ${barGradient}`}
+                                                    initial={{ width: 0 }}
+                                                    animate={{ width: `${percentage}%` }}
+                                                    transition={{ 
+                                                        duration: 1.2, 
+                                                        delay: idx * 0.1 + 0.3,
+                                                        ease: [0.16, 1, 0.3, 1] 
+                                                    }}
+                                                />
+                                            </div>
+                                            <div className="flex justify-between items-center text-[9px] text-slate-500 font-bold hidden sm:flex">
+                                                <span>0%</span>
+                                                <span>Mastery Level</span>
+                                                <span>100%</span>
+                                            </div>
+                                        </div>
+                                    </motion.div>
+                                );
+                            })}
+                        </motion.div>
+                    )}
+
+                    {/* Mobile-Only Improvement Book */}
+                    <div id="mobile-improvement-book" className="md:hidden my-6">
+                        <ImprovementBookCard 
+                            userId={displayUser.id || 'guest'}
+                            isGuest={displayUser.isGuest}
+                            onStartTest={() => navigate('/dashboard/mock')}
+                        />
+                    </div>
+
+                {/* Focus Areas + Videos */}
+                <div className="glass-card oxygen-card p-6 space-y-8">
+                    <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-3">
+                            <TrendingUp className="text-red-400" size={24} />
+                            <h3 className="text-xl font-bold text-text-main">AI Diagnostics</h3>
+                        </div>
+                        <Link to="/dashboard/analytics" className="text-sm text-primary hover:underline whitespace-nowrap">Full Analytics →</Link>
+                    </div>
+
+                    {/* Videos Section */}
+                    <div className="space-y-4">
                             <div className="flex items-center justify-between">
                                 <h4 className="text-sm font-bold text-text-muted uppercase tracking-wider flex items-center gap-2">
                                     <Play size={14} /> Recommended Videos
@@ -1162,35 +1391,131 @@ export const Overview = () => {
                                 </div>
                             </div>
 
-                            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                                {loading || recommendedVideos.length === 0 ? (
-                                    [1, 2, 3].map(i => <div key={i} className="aspect-video bg-surface/50 rounded-xl animate-pulse" />)
-                                ) : (
-                                    recommendedVideos.map((rec, idx) => (
-                                        <Link key={idx} to={`/dashboard/lectures/${rec.topic.toLowerCase().replace(/\s+/g, '-')}`} className="group oxygen-card bg-surface border border-border rounded-xl overflow-hidden flex flex-col">
-                                            <div className="relative aspect-video bg-black/20 shrink-0">
-                                                <img src={rec.video.thumbnailUrl} alt={rec.video.title} className="w-full h-full object-cover" />
-                                                <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                                                    <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center"><Play size={20} className="text-white ml-1" /></div>
+                            {isMobile ? (
+                                <div className="relative w-full flex flex-col items-center gap-3">
+                                    {/* Video Slider Content Area */}
+                                    <div className="w-full relative py-1 overflow-visible">
+                                        <AnimatePresence mode={isElitePerf ? "popLayout" : "wait"} custom={videoSlideDirection}>
+                                            {(() => {
+                                                const rec = recommendedVideos[activeVideoIdx % recommendedVideos.length];
+                                                if (!rec) return null;
+                                                return (
+                                                    <motion.div
+                                                        key={rec.video.title}
+                                                        custom={videoSlideDirection}
+                                                        drag="x"
+                                                        dragConstraints={{ left: 0, right: 0 }}
+                                                        dragElastic={0.4}
+                                                        onDragEnd={(e, info) => {
+                                                            const swipe = info.offset.x;
+                                                            const threshold = 30;
+                                                            if (swipe < -threshold) {
+                                                                setVideoSlideDirection(1);
+                                                                setActiveVideoIdx(prev => (prev + 1) % recommendedVideos.length);
+                                                            } else if (swipe > threshold) {
+                                                                setVideoSlideDirection(-1);
+                                                                setActiveVideoIdx(prev => (prev - 1 + recommendedVideos.length) % recommendedVideos.length);
+                                                            }
+                                                        }}
+                                                        variants={{
+                                                            enter: (dir: number) => {
+                                                                if (isLowPerf) return { x: dir > 0 ? 80 : -80, opacity: 0, scale: 1 };
+                                                                const xVal = isElitePerf ? 150 : 100;
+                                                                const scaleVal = isElitePerf ? 0.95 : 0.98;
+                                                                return { x: dir > 0 ? xVal : -xVal, opacity: 0, scale: scaleVal };
+                                                            },
+                                                            center: {
+                                                                x: 0,
+                                                                opacity: 1,
+                                                                scale: 1,
+                                                                transition: isLowPerf 
+                                                                    ? { x: { duration: 0.12, ease: "easeOut" }, opacity: { duration: 0.12, ease: "easeOut" } }
+                                                                    : {
+                                                                        x: { type: 'spring', stiffness: isElitePerf ? 500 : 350, damping: isElitePerf ? 30 : 28 },
+                                                                        opacity: { duration: isElitePerf ? 0.12 : 0.15 },
+                                                                        scale: { duration: isElitePerf ? 0.12 : 0.15 }
+                                                                      }
+                                                            },
+                                                            exit: (dir: number) => {
+                                                                if (isLowPerf) return { x: dir < 0 ? 80 : -80, opacity: 0, scale: 1, transition: { x: { duration: 0.1, ease: "easeIn" }, opacity: { duration: 0.1, ease: "easeIn" } } };
+                                                                const xVal = isElitePerf ? 150 : 100;
+                                                                const scaleVal = isElitePerf ? 0.95 : 0.98;
+                                                                return {
+                                                                    x: dir < 0 ? xVal : -xVal,
+                                                                    opacity: 0,
+                                                                    scale: scaleVal,
+                                                                    transition: {
+                                                                        x: { type: 'spring', stiffness: isElitePerf ? 500 : 350, damping: isElitePerf ? 30 : 28 },
+                                                                        opacity: { duration: isElitePerf ? 0.1 : 0.12 },
+                                                                        scale: { duration: isElitePerf ? 0.1 : 0.12 }
+                                                                    }
+                                                                };
+                                                            }
+                                                        }}
+                                                        initial="enter"
+                                                        animate="center"
+                                                        exit="exit"
+                                                        className="w-full flex flex-col cursor-pointer select-none"
+                                                    >
+                                                        <Link to={`/dashboard/lectures/${rec.topic.toLowerCase().replace(/\s+/g, '-')}`} className="group oxygen-card bg-surface border border-border rounded-xl overflow-hidden flex flex-col w-full">
+                                                            <div className="relative aspect-video bg-black/20 shrink-0">
+                                                                <img src={rec.video.thumbnailUrl} alt={rec.video.title} className="w-full h-full object-cover" />
+                                                                <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                                                    <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center"><Play size={20} className="text-white ml-1" /></div>
+                                                                </div>
+                                                            </div>
+                                                            <div className="p-3">
+                                                                <h5 className="font-semibold text-text-main text-sm line-clamp-2 group-hover:text-primary transition-colors">{rec.video.title}</h5>
+                                                            </div>
+                                                        </Link>
+                                                    </motion.div>
+                                                );
+                                            })()}
+                                        </AnimatePresence>
+                                    </div>
+
+                                    {/* Dot indicators */}
+                                    <div className="flex items-center gap-2 mt-1">
+                                        {recommendedVideos.map((_, idx) => (
+                                            <button
+                                                key={idx}
+                                                onClick={() => {
+                                                    setVideoSlideDirection(idx > activeVideoIdx ? 1 : -1);
+                                                    setActiveVideoIdx(idx);
+                                                }}
+                                                className={`h-1.5 rounded-full transition-all duration-300 ${
+                                                    idx === activeVideoIdx 
+                                                        ? 'w-6 bg-red-500' 
+                                                        : 'w-1.5 bg-white/20 hover:bg-white/40'
+                                                }`}
+                                                aria-label={`Go to slide ${idx + 1}`}
+                                            />
+                                        ))}
+                                    </div>
+                                </div>
+                            ) : (
+                                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                    {loading || recommendedVideos.length === 0 ? (
+                                        [1, 2, 3].map(i => <div key={i} className="aspect-video bg-surface/50 rounded-xl animate-pulse" />)
+                                    ) : (
+                                        recommendedVideos.map((rec, idx) => (
+                                            <Link key={idx} to={`/dashboard/lectures/${rec.topic.toLowerCase().replace(/\s+/g, '-')}`} className="group oxygen-card bg-surface border border-border rounded-xl overflow-hidden flex flex-col">
+                                                <div className="relative aspect-video bg-black/20 shrink-0">
+                                                    <img src={rec.video.thumbnailUrl} alt={rec.video.title} className="w-full h-full object-cover" />
+                                                    <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                                        <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center"><Play size={20} className="text-white ml-1" /></div>
+                                                    </div>
                                                 </div>
-                                                <div className="absolute top-2 left-2 bg-black/60 backdrop-blur-sm px-2 py-1 rounded-md text-[10px] text-white font-medium border border-white/10">{rec.reason}</div>
-                                            </div>
-                                            <div className="p-3">
-                                                <h5 className="font-medium text-text-main text-sm line-clamp-2 group-hover:text-primary transition-colors">{rec.video.title}</h5>
-                                            </div>
-                                        </Link>
-                                    ))
-                                )}
-                            </div>
-                        </div>
+                                                <div className="p-3">
+                                                    <h5 className="font-semibold text-text-main text-sm line-clamp-2 group-hover:text-primary transition-colors">{rec.video.title}</h5>
+                                                </div>
+                                            </Link>
+                                        ))
+                                    )}
+                                </div>
+                            )}
                     </div>
-                ) : (
-                    <div className="glass-card p-12 flex flex-col items-center justify-center border-dashed border-2 border-border bg-transparent text-center space-y-4">
-                        <p className="text-lg text-text-main font-medium">Your Dashboard is Ready.</p>
-                        <p className="text-text-muted max-w-md">Take a quick mock test to start tracking your strengths and weaknesses.</p>
-                        <Link to="/dashboard/mock" className="px-6 py-2 bg-primary text-white rounded-lg font-bold oxygen-button">Take Quick Test</Link>
-                    </div>
-                )}
+                </div>
             </div>
 
             <AnimatePresence>
@@ -1216,11 +1541,15 @@ export const Overview = () => {
 // ─── Animated counter component ──────────────────────────────────────────────
 // Counts up from 0 to `value` using a spring physics animation
 const AnimatedCounter = ({ value, colorClass }: { value: number; colorClass: string }) => {
+    const { tier } = usePerformance();
+    const isLowPerf = tier === 'low';
+
     const spring = useSpring(0, { stiffness: 60, damping: 18, restDelta: 0.5 });
     const display = useTransform(spring, (v) => `${Math.round(v)}%`);
     const hasRun = useRef(false);
 
     useEffect(() => {
+        if (isLowPerf) return;
         if (!hasRun.current) {
             hasRun.current = true;
             // Small delay so card entry animation runs first
@@ -1229,10 +1558,18 @@ const AnimatedCounter = ({ value, colorClass }: { value: number; colorClass: str
         } else {
             spring.set(value);
         }
-    }, [value, spring]);
+    }, [value, spring, isLowPerf]);
+
+    if (isLowPerf) {
+        return (
+            <span className={`text-lg md:text-2xl font-black ${colorClass} tracking-tight tabular-nums`}>
+                {Math.round(value)}%
+            </span>
+        );
+    }
 
     return (
-        <motion.span className={`text-2xl font-black ${colorClass} tracking-tight tabular-nums`}>
+        <motion.span className={`text-lg md:text-2xl font-black ${colorClass} tracking-tight tabular-nums`}>
             {display}
         </motion.span>
     );

@@ -52,3 +52,44 @@ try {
 } catch(Exception e) {
     logger.info("google-services.json not found, google-services plugin not applied. Push Notifications won't work")
 }
+
+task cleanUnwantedAssets(type: Delete) {
+    description = "Cleans up massive web assets that are not needed by the native app wrapper to reduce APK size"
+    delete fileTree(dir: "src/main/assets/public", includes: [
+        "**/*.apk",
+        "local-db.json",
+        "question-db.json",
+        "seo-manifest.json",
+        "schema-data.json",
+        "slug-registry.json",
+        "real-questions.json",
+        "topic-content-db.json",
+        "**/*.xml",
+        "blog/**",
+        "jee-mains/**",
+        "neet/**",
+        "class-10/**",
+        "class-11/**",
+        "class-12/**",
+        "class-8/**",
+        "class-9/**",
+        "blog-images/**",
+        "blogs/**",
+        "founder/**",
+        "images/**",
+        "jules-reports/**",
+        "models/**",
+        "about/**",
+        "contact/**",
+        "founder.jpg",
+        "og-image.png"
+    ])
+}
+
+// Automatically run before assets are merged into the final APK
+tasks.whenTaskAdded { task ->
+    if (task.name.startsWith("merge") && task.name.endsWith("Assets")) {
+        task.dependsOn cleanUnwantedAssets
+    }
+}
+

@@ -912,7 +912,7 @@ export const useUserStore = create<UserState>((set, get) => ({
         set({ user: null, isAuthenticated: false });
         
         // Force redirect
-        window.location.href = '/login';
+        window.location.href = '/';
     },
 
     loginAsGuest: async () => {

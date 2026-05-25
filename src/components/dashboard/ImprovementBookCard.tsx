@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { BookOpen, Award, ArrowRight, Sparkles, CheckCircle2, XCircle, Brain, X } from 'lucide-react';
 import { MistakeNotebookService, type MistakeEntry } from '../../services/mistakeNotebookService';
@@ -108,6 +109,11 @@ export const ImprovementBookCard: React.FC<ImprovementBookCardProps> = ({ userId
     const [hasChecked, setHasChecked] = useState(false);
     const [isCorrectAttempt, setIsCorrectAttempt] = useState<boolean | null>(null);
     const [isPreviewMode, setIsPreviewMode] = useState(false);
+    const [isMounted, setIsMounted] = useState(false);
+
+    useEffect(() => {
+        setIsMounted(true);
+    }, []);
 
     useScrollLock(!!selectedEntry);
 
@@ -237,11 +243,7 @@ export const ImprovementBookCard: React.FC<ImprovementBookCardProps> = ({ userId
                             <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Targeted Revision</p>
                         </div>
                     </div>
-                    {stats.unresolvedCount > 0 && (
-                        <div className="px-2.5 py-0.5 rounded-full bg-rose-500/10 border border-rose-500/20 text-[10px] font-black text-rose-400 uppercase tracking-wider">
-                            {stats.unresolvedCount} Pending
-                        </div>
-                    )}
+
                 </div>
 
                 {/* Mastery Rate Gauge */}
@@ -284,186 +286,220 @@ export const ImprovementBookCard: React.FC<ImprovementBookCardProps> = ({ userId
                             )}
                         </div>
                     ) : (
-                        entries.map((entry) => (
-                            <div
-                                key={entry.id}
-                                className="p-3.5 bg-white/[0.02] hover:bg-white/[0.04] border border-white/5 rounded-xl flex items-center justify-between gap-4 transition-all duration-200 hover:border-white/10 group/item"
-                            >
-                                <div className="min-w-0 flex-1 space-y-1.5">
-                                    <div className="flex items-center gap-2">
-                                        <span className={`text-[9px] px-1.5 py-0.5 rounded font-bold uppercase border ${getSubjectColor(entry.subject)}`}>
-                                            {entry.subject}
-                                        </span>
-                                        <span className="text-[9px] font-black text-slate-500 uppercase tracking-wider">
-                                            {entry.topic}
-                                        </span>
+                        <>
+                            {/* Desktop View: multiple cards */}
+                            <div className="hidden md:flex flex-col gap-3">
+                                {entries.map((entry) => (
+                                    <div
+                                        key={entry.id}
+                                        className="p-3.5 bg-white/[0.02] hover:bg-white/[0.04] border border-white/5 rounded-xl flex items-center justify-between gap-4 transition-all duration-200 hover:border-white/10 group/item"
+                                    >
+                                        <div className="min-w-0 flex-1 space-y-1.5">
+                                            <div className="flex items-center gap-2">
+                                                <span className={`text-[9px] px-1.5 py-0.5 rounded font-bold uppercase border ${getSubjectColor(entry.subject)}`}>
+                                                    {entry.subject}
+                                                </span>
+                                                <span className="text-[9px] font-black text-slate-500 uppercase tracking-wider">
+                                                    {entry.topic}
+                                                </span>
+                                            </div>
+                                            <p className="text-xs text-slate-300 font-medium line-clamp-2 leading-relaxed">
+                                                {entry.question_text}
+                                            </p>
+                                        </div>
+                                        <button
+                                            onClick={() => handleSolveStart(entry)}
+                                            className="shrink-0 p-2 rounded-lg bg-purple-500/10 hover:bg-purple-500 text-purple-400 hover:text-white border border-purple-500/20 transition-all duration-200 shadow-sm active:scale-95 group-hover/item:translate-x-0.5"
+                                            title="Solve Mistake"
+                                        >
+                                            <ArrowRight size={14} />
+                                        </button>
                                     </div>
-                                    <p className="text-xs text-slate-300 font-medium line-clamp-2 leading-relaxed">
-                                        {entry.question_text}
-                                    </p>
-                                </div>
+                                ))}
+                            </div>
+
+                            {/* Mobile View: single premium CTA button */}
+                            <div className="flex md:hidden flex-col">
                                 <button
-                                    onClick={() => handleSolveStart(entry)}
-                                    className="shrink-0 p-2 rounded-lg bg-purple-500/10 hover:bg-purple-500 text-purple-400 hover:text-white border border-purple-500/20 transition-all duration-200 shadow-sm active:scale-95 group-hover/item:translate-x-0.5"
-                                    title="Solve Mistake"
+                                    onClick={() => handleSolveStart(entries[0])}
+                                    className="w-full py-3.5 bg-gradient-to-r from-purple-500/10 to-indigo-500/10 hover:from-purple-500/15 hover:to-indigo-500/15 text-purple-300 border border-purple-500/20 rounded-xl transition-all flex items-center justify-center gap-2 font-bold text-xs uppercase tracking-wider active:scale-[0.98]"
                                 >
-                                    <ArrowRight size={14} />
+                                    <Brain size={14} className="text-purple-400 shrink-0" />
+                                    <span>Solve Next Mistake ({entries.length} Pending)</span>
+                                    <ArrowRight size={12} className="text-purple-400 shrink-0 ml-1" />
                                 </button>
                             </div>
-                        ))
+                        </>
                     )}
                 </div>
             </div>
 
             {/* Solve Quiz Modal */}
-            <AnimatePresence>
-                {selectedEntry && (
-                    <div className="fixed inset-0 z-[110] flex items-center justify-center p-4 bg-black/70 backdrop-blur-md" role="dialog" aria-modal="true">
-                        <motion.div
-                            initial={{ opacity: 0, scale: 0.95, y: 10 }}
-                            animate={{ opacity: 1, scale: 1, y: 0 }}
-                            exit={{ opacity: 0, scale: 0.95, y: 10 }}
-                            className="bg-[#0b0d16] border border-purple-500/20 p-6 md:p-8 rounded-2xl max-w-xl w-full shadow-2xl relative overflow-hidden"
-                            onClick={(e) => e.stopPropagation()}
+            {isMounted && createPortal(
+                <AnimatePresence>
+                    {selectedEntry && (
+                        <div 
+                            className="fixed inset-0 z-[9999] overflow-y-auto bg-black/70 backdrop-blur-md p-4 flex justify-center items-start md:items-center animate-fade-in" 
+                            role="dialog" 
+                            aria-modal="true"
+                            onClick={handleCloseModal}
                         >
-                            {/* Cosmic backdrop light */}
-                            <div className="absolute -right-24 -top-24 w-48 h-48 bg-purple-600/10 rounded-full blur-3xl pointer-events-none" />
-
-                            {/* Close Button */}
-                            <button
-                                onClick={handleCloseModal}
-                                className="absolute right-4 top-4 p-2 text-slate-400 hover:text-slate-200 hover:bg-white/5 rounded-lg transition-colors"
+                            <motion.div
+                                initial={{ opacity: 0, scale: 0.95, y: 10 }}
+                                animate={{ opacity: 1, scale: 1, y: 0 }}
+                                exit={{ opacity: 0, scale: 0.95, y: 10 }}
+                                className="bg-[#0b0d16] border border-purple-500/20 p-6 md:p-8 rounded-2xl max-w-xl w-full shadow-2xl relative overflow-hidden my-auto"
+                                onClick={(e) => e.stopPropagation()}
                             >
-                                <X size={18} />
-                            </button>
+                                {/* Cosmic backdrop light */}
+                                <div className="absolute -right-24 -top-24 w-48 h-48 bg-purple-600/10 rounded-full blur-3xl pointer-events-none" />
 
-                            <div className="space-y-6">
-                                {/* Modal Header */}
-                                <div className="flex items-center gap-3">
-                                    <div className="p-2 rounded-xl bg-purple-500/20 text-purple-400">
-                                        <Brain size={20} className="animate-pulse" />
+                                {/* Close Button */}
+                                <button
+                                    onClick={handleCloseModal}
+                                    className="absolute right-4 top-4 p-2 text-slate-400 hover:text-slate-200 hover:bg-white/5 rounded-lg transition-colors z-20"
+                                    aria-label="Close modal"
+                                >
+                                    <X size={18} />
+                                </button>
+
+                                <div className="space-y-6">
+                                    {/* Modal Header */}
+                                    <div className="flex items-center gap-3">
+                                        <div className="p-2 rounded-xl bg-purple-500/20 text-purple-400 animate-pulse">
+                                            <Brain size={20} />
+                                        </div>
+                                        <div>
+                                            <h3 className="font-heading font-black text-slate-100 text-lg">Improvement Attempt</h3>
+                                            <div className="flex items-center gap-2 mt-1">
+                                                <span className={`text-[9px] px-1.5 py-0.5 rounded font-bold uppercase border ${getSubjectColor(selectedEntry.subject)}`}>
+                                                    {selectedEntry.subject}
+                                                </span>
+                                                <span className="text-[10px] font-bold text-slate-400">{selectedEntry.topic}</span>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <h3 className="font-heading font-black text-slate-100 text-lg">Improvement Attempt</h3>
-                                        <div className="flex items-center gap-2 mt-1">
-                                            <span className={`text-[9px] px-1.5 py-0.5 rounded font-bold uppercase border ${getSubjectColor(selectedEntry.subject)}`}>
-                                                {selectedEntry.subject}
+
+                                    {/* Concept Mutation Badge */}
+                                    {selectedEntry.id.startsWith('sample_') && (
+                                        <div className="flex items-center gap-2.5 p-3.5 bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 rounded-xl text-xs animate-pulse">
+                                            <Sparkles size={16} className="text-indigo-400 shrink-0" />
+                                            <span>
+                                                <strong className="text-indigo-200">SM-2 Concept Mutation Active:</strong> Variables have been mathematically mutated to verify your conceptual mastery, not rote memory!
                                             </span>
-                                            <span className="text-[10px] font-bold text-slate-400">{selectedEntry.topic}</span>
                                         </div>
-                                    </div>
-                                </div>
-
-                                {/* Concept Mutation Badge */}
-                                {selectedEntry.id.startsWith('sample_') && (
-                                    <div className="flex items-center gap-2.5 p-3.5 bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 rounded-xl text-xs animate-pulse">
-                                        <Sparkles size={16} className="text-indigo-400 shrink-0" />
-                                        <span>
-                                            <strong className="text-indigo-200">SM-2 Concept Mutation Active:</strong> Variables have been mathematically mutated to verify your conceptual mastery, not rote memory!
-                                        </span>
-                                    </div>
-                                )}
-
-                                {/* Question Text */}
-                                <div className="p-4 bg-white/[0.02] border border-white/5 rounded-xl">
-                                    <p className="text-sm font-semibold text-slate-200 leading-relaxed">
-                                        {selectedEntry.question_text}
-                                    </p>
-                                </div>
-
-                                {/* Options */}
-                                <div className="grid grid-cols-1 gap-3">
-                                    {selectedEntry.options.map((option, idx) => {
-                                        const isSelected = selectedOption === option;
-                                        const isCorrectOpt = option === selectedEntry.correct_answer;
-                                        const isWrongSelected = isSelected && !isCorrectOpt;
-
-                                        let btnStyle = 'border-white/5 hover:border-purple-500/30 hover:bg-white/[0.02] text-slate-300';
-                                        if (hasChecked) {
-                                            if (isCorrectOpt) {
-                                                btnStyle = 'border-emerald-500/40 bg-emerald-500/10 text-emerald-400 font-bold';
-                                            } else if (isWrongSelected) {
-                                                btnStyle = 'border-rose-500/40 bg-rose-500/10 text-rose-400 font-bold';
-                                            } else {
-                                                btnStyle = 'border-white/5 text-slate-500 opacity-60';
-                                            }
-                                        } else if (isSelected) {
-                                            btnStyle = 'border-purple-500/50 bg-purple-500/10 text-purple-300 font-bold';
-                                        }
-
-                                        return (
-                                            <button
-                                                key={idx}
-                                                onClick={() => handleOptionSelect(option)}
-                                                disabled={hasChecked}
-                                                className={`p-4 rounded-xl border text-left text-xs md:text-sm font-medium transition-all duration-200 flex items-center justify-between ${btnStyle}`}
-                                            >
-                                                <span>{option}</span>
-                                                {hasChecked && isCorrectOpt && (
-                                                    <CheckCircle2 size={16} className="text-emerald-400 shrink-0 ml-2" />
-                                                )}
-                                                {hasChecked && isWrongSelected && (
-                                                    <XCircle size={16} className="text-rose-400 shrink-0 ml-2" />
-                                                )}
-                                            </button>
-                                        );
-                                    })}
-                                </div>
-
-                                {/* Result Feedback / Explanation */}
-                                {hasChecked && (
-                                    <motion.div
-                                        initial={{ opacity: 0, y: 5 }}
-                                        animate={{ opacity: 1, y: 0 }}
-                                        className="space-y-4 pt-2 border-t border-white/5"
-                                    >
-                                        <div className="flex items-center gap-2">
-                                            {isCorrectAttempt ? (
-                                                <div className="flex items-center gap-1.5 text-xs font-bold text-emerald-400">
-                                                    <CheckCircle2 size={16} /> Concept Mastered!
-                                                </div>
-                                            ) : (
-                                                <div className="flex items-center gap-1.5 text-xs font-bold text-rose-400">
-                                                    <XCircle size={16} /> incorrect attempt. Review explanation below.
-                                                </div>
-                                            )}
-                                        </div>
-
-                                        <div className="p-4 bg-purple-500/[0.02] border border-purple-500/10 rounded-xl space-y-1.5">
-                                            <h4 className="text-[10px] font-black uppercase text-purple-400 tracking-wider flex items-center gap-1.5">
-                                                <Sparkles size={11} /> Detailed Explanation
-                                            </h4>
-                                            <p className="text-xs text-slate-400 leading-relaxed font-medium">
-                                                {selectedEntry.explanation}
-                                            </p>
-                                        </div>
-                                    </motion.div>
-                                )}
-
-                                {/* Modal Actions */}
-                                <div className="flex justify-end gap-3 pt-2">
-                                    {!hasChecked ? (
-                                        <button
-                                            onClick={handleCheckAnswer}
-                                            disabled={!selectedOption}
-                                            className="px-6 py-2.5 rounded-xl bg-purple-500 hover:bg-purple-600 disabled:opacity-40 disabled:hover:bg-purple-500 text-white text-xs font-bold uppercase tracking-wider transition-all active:scale-95"
-                                        >
-                                            Verify Concept
-                                        </button>
-                                    ) : (
-                                        <button
-                                            onClick={handleCloseModal}
-                                            className="px-6 py-2.5 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 text-slate-200 text-xs font-bold uppercase tracking-wider transition-all active:scale-95"
-                                        >
-                                            Done
-                                        </button>
                                     )}
+
+                                    {/* Question Text */}
+                                    <div className="p-4 bg-white/[0.02] border border-white/5 rounded-xl">
+                                        <p className="text-sm font-semibold text-slate-200 leading-relaxed">
+                                            {selectedEntry.question_text}
+                                        </p>
+                                    </div>
+
+                                    {/* Options */}
+                                    <div className="grid grid-cols-1 gap-3">
+                                        {selectedEntry.options.map((option, idx) => {
+                                            const isSelected = selectedOption === option;
+                                            const isCorrectOpt = option === selectedEntry.correct_answer;
+                                            const isWrongSelected = isSelected && !isCorrectOpt;
+
+                                            let btnStyle = 'border-white/5 hover:border-purple-500/30 hover:bg-white/[0.02] text-slate-300';
+                                            if (hasChecked) {
+                                                if (isCorrectOpt) {
+                                                    btnStyle = 'border-emerald-500/40 bg-emerald-500/10 text-emerald-400 font-bold';
+                                                } else if (isWrongSelected) {
+                                                    btnStyle = 'border-rose-500/40 bg-rose-500/10 text-rose-400 font-bold';
+                                                } else {
+                                                    btnStyle = 'border-white/5 text-slate-500 opacity-60';
+                                                }
+                                            } else if (isSelected) {
+                                                btnStyle = 'border-purple-500/50 bg-purple-500/10 text-purple-300 font-bold';
+                                            }
+
+                                            return (
+                                                <button
+                                                    key={idx}
+                                                    onClick={() => handleOptionSelect(option)}
+                                                    disabled={hasChecked}
+                                                    className={`p-4 rounded-xl border text-left text-xs md:text-sm font-medium transition-all duration-200 flex items-center justify-between ${btnStyle}`}
+                                                >
+                                                    <span>{option}</span>
+                                                    {hasChecked && isCorrectOpt && (
+                                                        <CheckCircle2 size={16} className="text-emerald-400 shrink-0 ml-2" />
+                                                    )}
+                                                    {hasChecked && isWrongSelected && (
+                                                        <XCircle size={16} className="text-rose-400 shrink-0 ml-2" />
+                                                    )}
+                                                </button>
+                                            );
+                                        })}
+                                    </div>
+
+                                    {/* Result Feedback / Explanation */}
+                                    {hasChecked && (
+                                        <motion.div
+                                            initial={{ opacity: 0, y: 5 }}
+                                            animate={{ opacity: 1, y: 0 }}
+                                            className="space-y-4 pt-2 border-t border-white/5"
+                                        >
+                                            <div className="flex items-center gap-2">
+                                                {isCorrectAttempt ? (
+                                                    <div className="flex items-center gap-1.5 text-xs font-bold text-emerald-400">
+                                                        <CheckCircle2 size={16} /> Concept Mastered!
+                                                    </div>
+                                                ) : (
+                                                    <div className="flex items-center gap-1.5 text-xs font-bold text-rose-400">
+                                                        <XCircle size={16} /> incorrect attempt. Review explanation below.
+                                                    </div>
+                                                )}
+                                            </div>
+
+                                            <div className="p-4 bg-purple-500/[0.02] border border-purple-500/10 rounded-xl space-y-1.5">
+                                                <h4 className="text-[10px] font-black uppercase text-purple-400 tracking-wider flex items-center gap-1.5">
+                                                    <Sparkles size={11} /> Detailed Explanation
+                                                </h4>
+                                                <p className="text-xs text-slate-400 leading-relaxed font-medium">
+                                                    {selectedEntry.explanation}
+                                                </p>
+                                            </div>
+                                        </motion.div>
+                                    )}
+
+                                    {/* Modal Actions */}
+                                    <div className="flex justify-end gap-3 pt-2">
+                                        {!hasChecked ? (
+                                            <>
+                                                <button
+                                                    onClick={handleCloseModal}
+                                                    className="px-5 py-2.5 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 text-slate-300 text-xs font-bold uppercase tracking-wider transition-all active:scale-95"
+                                                >
+                                                    Cancel
+                                                </button>
+                                                <button
+                                                    onClick={handleCheckAnswer}
+                                                    disabled={!selectedOption}
+                                                    className="px-6 py-2.5 rounded-xl bg-purple-500 hover:bg-purple-600 disabled:opacity-40 disabled:hover:bg-purple-500 text-white text-xs font-bold uppercase tracking-wider transition-all active:scale-95 shadow-lg shadow-purple-500/20"
+                                                >
+                                                    Verify Concept
+                                                </button>
+                                            </>
+                                        ) : (
+                                            <button
+                                                onClick={handleCloseModal}
+                                                className="px-6 py-2.5 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 text-slate-200 text-xs font-bold uppercase tracking-wider transition-all active:scale-95"
+                                            >
+                                                Done
+                                            </button>
+                                        )}
+                                    </div>
                                 </div>
-                            </div>
-                        </motion.div>
-                    </div>
-                )}
-            </AnimatePresence>
+                            </motion.div>
+                        </div>
+                    )}
+                </AnimatePresence>,
+                document.body
+            )}
         </>
     );
 };

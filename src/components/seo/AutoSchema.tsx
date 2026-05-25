@@ -58,7 +58,7 @@ export const AutoSchema = () => {
                 "url": SITE_URL,
                 "logo": {
                     "@type": "ImageObject",
-                    "url": `${SITE_URL}/exa-logo.png`,
+                    "url": SITE_LOGO,
                     "width": "112",
                     "height": "112"
                 },

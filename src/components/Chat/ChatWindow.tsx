@@ -425,22 +425,37 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                 <div className="lg:flex-[2.3] min-w-0 flex flex-col h-full relative overflow-hidden bg-gradient-to-b from-transparent to-white/[0.01]">
                     
                     {/* Floating Controls Overlay - Responsive Positioning */}
-                    <div className={`absolute top-4 right-4 md:top-6 md:right-6 z-[70] items-center gap-2 md:gap-3 
+                    <div className={`absolute top-4 right-4 md:top-6 md:right-6 z-[90] pointer-events-auto items-center gap-2 md:gap-3 
                         ${isToolboxOpen ? 'hidden lg:flex' : 'flex'}`}>
                         <button 
+                            type="button"
                             onClick={(e) => {
                                 e.stopPropagation();
                                 setIsToolboxOpen(!isToolboxOpen);
                             }}
-                            className="lg:hidden p-3 bg-[#1d1f29]/80 backdrop-blur-xl rounded-xl border border-white/10 text-white/60 hover:text-white transition-all shadow-2xl active:scale-95"
+                            onTouchEnd={(e) => {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                setIsToolboxOpen(!isToolboxOpen);
+                            }}
+                            className="lg:hidden p-3 bg-[#1d1f29]/80 backdrop-blur-xl rounded-xl border border-white/10 text-white/60 hover:text-white transition-all shadow-2xl active:scale-95 cursor-pointer flex items-center justify-center"
                         >
                             <Menu size={20} />
                         </button>
                         <motion.button 
+                            type="button"
                             whileHover={{ scale: 1.1, rotate: 90 }}
                             whileTap={{ scale: 0.9 }}
-                            onClick={onClose}
-                            className="p-3 bg-[#1d1f29]/80 backdrop-blur-xl rounded-xl border border-white/10 text-white/30 hover:text-red-400 hover:bg-red-500/10 transition-all shadow-2xl group active:scale-95"
+                            onClick={(e) => {
+                                e.stopPropagation();
+                                onClose();
+                            }}
+                            onTouchEnd={(e) => {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                onClose();
+                            }}
+                            className="p-3 bg-[#1d1f29]/80 backdrop-blur-xl rounded-xl border border-white/10 text-white/30 hover:text-red-400 hover:bg-red-500/10 transition-all shadow-2xl group active:scale-95 cursor-pointer flex items-center justify-center"
                         >
                             <X size={20} />
                         </motion.button>

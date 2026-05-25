@@ -508,6 +508,10 @@ export const Chatbot = () => {
                         exit={{ opacity: 0 }}
                         transition={{ duration: 0.2, ease: 'easeOut' }}
                         onClick={handleClose}
+                        onTouchEnd={(e) => {
+                            e.preventDefault();
+                            handleClose();
+                        }}
                         className="fixed inset-0 bg-[#0a0b10]/80 backdrop-blur-2xl z-[80] pointer-events-auto cursor-pointer exa-chat-backdrop"
                     />
                 )}
@@ -533,7 +537,7 @@ export const Chatbot = () => {
                 )}
             </AnimatePresence>
 
-            <div className="fixed bottom-36 md:bottom-6 right-4 md:right-8 z-[100] pointer-events-none">
+            <div className="fixed bottom-[calc(84px+env(safe-area-inset-bottom,12px))] md:bottom-6 right-4 md:right-8 z-[100] pointer-events-none">
                 <AnimatePresence mode="wait">
                     {(!isOpen || isMinimized) && (
                         <motion.div 
@@ -591,7 +595,7 @@ export const Chatbot = () => {
                                     restDelta: 0.001
                                 }
                         }
-                        className={`fixed inset-2 md:inset-6 lg:inset-x-[6%] lg:inset-y-[5%] z-[100] pointer-events-auto flex flex-col perf-tier-${perfTier} exa-chat-window`}
+                        className={`fixed top-[calc(8px+env(safe-area-inset-top,0px))] left-2 right-2 bottom-[calc(8px+env(safe-area-inset-bottom,0px))] md:inset-6 lg:inset-x-[6%] lg:inset-y-[5%] z-[100] pointer-events-auto flex flex-col perf-tier-${perfTier} exa-chat-window`}
                     >
                         <ChatWindow
                             messages={messages}

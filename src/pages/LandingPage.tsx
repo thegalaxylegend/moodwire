@@ -9,7 +9,7 @@ import { DemoModal } from '../components/DemoModal';
 import { Zap, Target, Brain, Award, ArrowRight, Rocket, ChevronDown } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { AboutAuthor } from '../components/seo/AboutAuthor';
-import { SITE_URL, SITE_OG_IMAGE } from '../lib/siteConfig';
+import { SITE_URL, SITE_OG_IMAGE, SITE_LOGO } from '../lib/siteConfig';
 import { usePerformance } from '../context/PerformanceProvider';
 import { Footer } from '../components/Footer';
 
@@ -120,7 +120,7 @@ export const LandingPage = () => {
                             "@type": "Organization",
                             "name": "Exam Compass",
                             "url": SITE_URL,
-                            "logo": `${SITE_URL}/logo.jpg`,
+                            "logo": SITE_LOGO,
                             "description": "India's free AI-powered exam preparation platform for JEE, NEET, and CBSE students.",
                             "founder": {
                                 "@type": "Person",

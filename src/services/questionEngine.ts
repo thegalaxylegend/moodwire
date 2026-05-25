@@ -1667,13 +1667,13 @@ export const getAdaptiveQuestionBatch = async (
                             difficulty_score: q.difficulty_score || targetRating,
                             question: q.question,
                             options: q.options,
-                            // correct_answer as text for mapStoredToUIQuestion to resolve
                             correct_answer: Array.isArray(q.options) && typeof q.correctAnswerIndex === 'number'
                                 ? q.options[q.correctAnswerIndex] ?? q.correct_answer ?? ''
                                 : q.correct_answer ?? '',
                             explanation: q.explanation || '',
                             concept_tags: q.concept_tags || [],
                             error_trap_type: q.error_trap_type || 'general.miscellaneous',
+                            subtopic: q.subtopic || q.topic || n.topic,
                             chapter: q.subtopic || q.topic || n.topic,
                             hash: q.id,
                             usage_count: 0,
@@ -1697,22 +1697,84 @@ export const getAdaptiveQuestionBatch = async (
         updateBatchProgress(95);
     }
 
-    // 4. Absolute last resort: AI Generation (only if everything else failed)
+    // 4. Last resort: sweep local-db.json across ALL subjects to fill any gaps
+    //    DB only — no AI generation is ever used.
     const finalStillNeeded = totalCount - allQuestions.length;
     if (finalStillNeeded > 0) {
-        console.warn(`[QuestionEngine] 🤖 AI Fallback: generating ${finalStillNeeded} questions.`);
+        console.log(`[QuestionEngine] 🔄 Deep DB sweep: filling ${finalStillNeeded} remaining slots from any subject.`);
         try {
-            const aiResults = await Promise.all(
-                needs.map(async n => {
-                    const topic = n.topicSelector ? n.topicSelector() : n.topic;
-                    const needed = n.count - allQuestions.filter(q => q.subject === n.subject).length;
-                    if (needed <= 0) return [];
-                    return generateAndVerifyBatch({ exam, subject: n.subject, topic, abilityScore: targetRating, count: needed });
-                })
-            );
-            for (const batch of aiResults) allQuestions.push(...batch);
-        } catch (aiErr) {
-            console.error('[QuestionEngine] AI fallback generation also failed:', aiErr);
+            const res = await fetch('/local-db.json');
+            if (res.ok) {
+                const localDB: { questions: any[] } = await res.json();
+                const pool = localDB.questions || [];
+                const usedIds = new Set(allQuestions.map(q => q.id).filter(Boolean));
+                let sessionUsed: Set<string>;
+                try { sessionUsed = new Set(JSON.parse(sessionStorage.getItem('_q_used') || '[]')); }
+                catch { sessionUsed = new Set(); }
+
+                const GARBAGE_OPTS = ['theoretical foundations', 'practical applications', 'experimental data', 'historical context'];
+
+                // Any valid question not yet used — no subject restriction
+                const anyPool = pool.filter(q => {
+                    if (usedIds.has(q.id) || sessionUsed.has(q.id)) return false;
+                    if (!q.question || q.question.trim().length < 20) return false;
+                    if (!Array.isArray(q.options) || q.options.length < 2) return false;
+                    const lowerOpts = q.options.map((o: string) => o.toLowerCase().trim());
+                    if (lowerOpts.filter((o: string) => GARBAGE_OPTS.includes(o)).length >= 2) return false;
+                    return true;
+                });
+
+                // Sort by difficulty closeness then shuffle top candidates
+                const sorted = anyPool.sort((a: any, b: any) =>
+                    Math.abs((a.difficulty_score || 1000) - targetRating) -
+                    Math.abs((b.difficulty_score || 1000) - targetRating)
+                );
+                const candidates = sorted.slice(0, Math.max(finalStillNeeded * 5, 50));
+                const shuffled = candidates.sort(() => Math.random() - 0.5);
+                const picked = shuffled.slice(0, finalStillNeeded);
+
+                for (const q of picked) {
+                    usedIds.add(q.id);
+                    sessionUsed.add(q.id);
+                    // Use the need whose subject matches, or the first need as fallback
+                    const matchedNeed = needs.find(n =>
+                        (n.subject || '').toLowerCase() === (q.subject || '').toLowerCase()
+                    ) || needs[0];
+                    allQuestions.push({
+                        id: q.id,
+                        exam: q.exam || exam,
+                        subject: q.subject || matchedNeed?.subject || 'General',
+                        topic: q.topic || matchedNeed?.topic || 'General',
+                        topic_id: resolveTopicId(q.topic || matchedNeed?.topic || 'General'),
+                        type: (q.type || 'MCQ') as any,
+                        difficulty: 'Medium' as const,
+                        difficulty_score: q.difficulty_score || targetRating,
+                        question: q.question,
+                        options: q.options,
+                        correct_answer: Array.isArray(q.options) && typeof q.correctAnswerIndex === 'number'
+                            ? q.options[q.correctAnswerIndex] ?? q.correct_answer ?? ''
+                            : q.correct_answer ?? '',
+                        explanation: q.explanation || '',
+                        concept_tags: q.concept_tags || [],
+                        error_trap_type: q.error_trap_type || 'general.miscellaneous',
+                        subtopic: q.subtopic || q.topic || matchedNeed?.topic || 'General',
+                        chapter: q.subtopic || q.topic || matchedNeed?.topic || 'General',
+                        hash: q.id,
+                        usage_count: 0,
+                        confidence: 0.9,
+                        created_at: new Date().toISOString(),
+                    });
+                }
+
+                try {
+                    const arr = [...sessionUsed];
+                    sessionStorage.setItem('_q_used', JSON.stringify(arr.slice(-500)));
+                } catch { /* ignore */ }
+
+                console.log(`[QuestionEngine] ✅ Deep sweep supplied ${allQuestions.length}/${totalCount} questions.`);
+            }
+        } catch (sweepErr) {
+            console.error('[QuestionEngine] Deep DB sweep failed:', sweepErr);
         }
     }
 
@@ -1779,9 +1841,10 @@ export const mapStoredToUIQuestion = (raw: any[], startId: number = 1) => {
                 correctAnswerResolved = q.correct_answer;
             }
 
-            if (!q.subtopic || q.subtopic === q.topic) {
-                console.warn(`[QuestionEngine] Question ${q.id || idx} missing granular subtopic; falling back to broad topic "${q.topic}"`);
-            }
+            // Silently normalise subtopic — DB questions use topic as subtopic until enriched
+            const resolvedSubtopic: string = (q.subtopic && q.subtopic !== q.topic)
+                ? q.subtopic
+                : (q.chapter || q.topic || 'General');
 
             return {
                 id: startId + idx,
@@ -1795,7 +1858,7 @@ export const mapStoredToUIQuestion = (raw: any[], startId: number = 1) => {
                 concept_tags: q.concept_tags || [],
                 error_trap_type: q.error_trap_type || 'calculation',
                 type: type,
-                subtopic: q.subtopic || q.topic
+                subtopic: resolvedSubtopic,
             };
         });
 };

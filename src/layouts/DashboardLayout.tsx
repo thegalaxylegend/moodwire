@@ -224,7 +224,10 @@ export const DashboardLayout = () => {
                 className={`fixed lg:sticky top-0 h-screen bg-surface lg:bg-surface/95 backdrop-blur-md border-r border-border z-50 
                 ${isSidebarOpen ? 'w-64 translate-x-0' : 'w-64 -translate-x-full lg:translate-x-0 lg:w-20'} 
                 flex flex-col overflow-hidden`}
-                style={{ transition: 'width 380ms cubic-bezier(0.16, 1, 0.3, 1), transform 380ms cubic-bezier(0.16, 1, 0.3, 1)' }}
+                style={{ 
+                    transition: 'width 380ms cubic-bezier(0.16, 1, 0.3, 1), transform 380ms cubic-bezier(0.16, 1, 0.3, 1)',
+                    paddingTop: 'env(safe-area-inset-top, 0px)'
+                }}
             >
                 <div className="p-6 flex items-center justify-between shrink-0">
                     {(isSidebarOpen || window.innerWidth < 1024) && (
@@ -288,16 +291,31 @@ export const DashboardLayout = () => {
             </aside>
 
             {/* Mobile Header - Truly Fixed at Top */}
-            <div className="lg:hidden fixed top-0 left-0 right-0 h-16 flex items-center justify-between px-4 bg-background/90 backdrop-blur-xl border-b border-white/5 z-30">
-                <span className="text-xl md:text-2xl font-bold text-white tracking-tighter">Exam<span className="text-[#a855f7]">Compass</span></span>
+            <div 
+                className="lg:hidden fixed left-0 right-0 flex items-center justify-between px-4 bg-background/90 backdrop-blur-xl border-b border-white/5 z-30"
+                style={{ 
+                    top: 0,
+                    paddingTop: 'calc(env(safe-area-inset-top, 0px) + 0px)',
+                    height: 'calc(env(safe-area-inset-top, 0px) + 56px)'
+                }}
+            >
+                {/* Logo + Brand */}
+                <div className="flex items-center gap-2">
+                    <span className="text-lg font-bold text-white tracking-tighter">Exam<span className="text-[#a855f7]">Compass</span></span>
+                </div>
                 <div className="flex items-center gap-3">
                     {/* Streak Display (Mobile) */}
-                    <div className="flex items-center gap-1.5 px-3 py-1.5 bg-surface border border-border rounded-lg text-primary font-bold text-sm">
-                        <Flame size={16} className="fill-primary" />
+                    <div className="flex items-center gap-1.5 px-2.5 py-1.5 bg-surface border border-border rounded-lg text-primary font-bold text-sm">
+                        <Flame size={15} className="fill-primary" />
                         <span>{user?.streak || 0}</span>
                     </div>
-                    <button onClick={() => setIsSidebarOpen(true)} className="p-2 rounded-lg bg-surface border border-border" aria-label="Open navigation menu">
-                        <Menu size={24} />
+                    <button 
+                        onClick={() => setIsSidebarOpen(true)} 
+                        className="p-2 rounded-lg bg-surface border border-border touch-manipulation" 
+                        aria-label="Open navigation menu"
+                        style={{ minWidth: 44, minHeight: 44 }}
+                    >
+                        <Menu size={22} />
                     </button>
                 </div>
             </div>
@@ -315,7 +333,11 @@ export const DashboardLayout = () => {
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -8 }}
                         transition={{ duration: 0.28, ease: [0.16, 1, 0.3, 1] }}
-                        className="flex-1 flex flex-col p-4 pt-20 lg:p-10 lg:pt-10 pb-40 lg:pb-10 max-w-6xl mx-auto w-full"
+                        className="flex-1 flex flex-col p-4 lg:p-10 lg:pt-10 max-w-6xl mx-auto w-full"
+                        style={{
+                            paddingTop: 'calc(env(safe-area-inset-top, 0px) + 72px)',
+                            paddingBottom: 'calc(env(safe-area-inset-bottom, 0px) + 100px)'
+                        }}
                     >
                         <GuestBanner />
                         <Outlet />
