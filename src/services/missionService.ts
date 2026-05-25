@@ -149,12 +149,35 @@ export const MissionService = {
         }
 
         // ──── PRIORITY 4: Discovery Mission ────
-        if (missions.length < maxMissions) {
+        const generatedDiscoveryTopics = new Set(weakTopics.map(w => w.topic));
+        while (missions.length < maxMissions) {
             const discoveryTopic = MissionService.findNextDiscoveryTopic(
-                weakTopics.map(w => w.topic), userClass, targetExam
+                Array.from(generatedDiscoveryTopics), userClass, targetExam
             );
+            
+            if (generatedDiscoveryTopics.has(discoveryTopic.topic)) {
+                if (missions.length < maxMissions) {
+                    missions.push({
+                        id: `mission-practice-fallback-${Date.now()}-${missions.length}`,
+                        title: `Quick Practice Session`,
+                        description: `Solve 5 random medium-difficulty questions in any subject.`,
+                        type: 'practice',
+                        topic: 'General Practice',
+                        subject: 'All Subjects',
+                        difficulty: 'Medium',
+                        rewardXp: 100,
+                        completed: false,
+                        urgencyLevel: urgency,
+                        metadata: { daysToExam: daysLeft }
+                    });
+                    generatedDiscoveryTopics.add(`fallback-practice-${missions.length}`);
+                    continue;
+                }
+                break;
+            }
+            
             missions.push({
-                id: `mission-discovery-${Date.now()}`,
+                id: `mission-discovery-${Date.now()}-${missions.length}`,
                 title: `Advance Study: ${discoveryTopic.topic}`,
                 description: `Explore "${discoveryTopic.topic}" in ${discoveryTopic.subject} to stay ahead of your curriculum.`,
                 type: 'discovery',
@@ -166,6 +189,8 @@ export const MissionService = {
                 urgencyLevel: urgency,
                 metadata: { daysToExam: daysLeft }
             });
+            
+            generatedDiscoveryTopics.add(discoveryTopic.topic);
         }
 
         // ──── WAR MODE: Extra missions when exam is <30 days ────

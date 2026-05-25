@@ -35,8 +35,14 @@ interface DailyMissionCardProps {
 
 export const DailyMissionCard: React.FC<DailyMissionCardProps> = ({ missions, onComplete, onRefresh, onAction }) => {
     const [celebratingId, setCelebratingId] = React.useState<string | null>(null);
-    const completedCount = missions.filter(m => m.completed).length;
-    const progress = missions.length > 0 ? (completedCount / missions.length) * 100 : 0;
+
+    const visibleMissionsMobile = missions.slice(0, 1);
+    const completedCountMobile = visibleMissionsMobile.filter(m => m.completed).length;
+    const progressMobile = visibleMissionsMobile.length > 0 ? (completedCountMobile / visibleMissionsMobile.length) * 100 : 0;
+
+    const visibleMissionsDesktop = missions.slice(0, 3);
+    const completedCountDesktop = visibleMissionsDesktop.filter(m => m.completed).length;
+    const progressDesktop = visibleMissionsDesktop.length > 0 ? (completedCountDesktop / visibleMissionsDesktop.length) * 100 : 0;
 
     const handleComplete = (id: string) => {
         setCelebratingId(id);
@@ -68,20 +74,41 @@ export const DailyMissionCard: React.FC<DailyMissionCardProps> = ({ missions, on
 
             {/* Progress Bar */}
             <div className="px-5 py-4 bg-black/30 border-b border-border/20">
-                <div className="flex justify-between text-[10px] font-black text-text-muted/60 mb-2.5 uppercase tracking-wider">
-                    <span>Campaign Progress</span>
-                    <span className="font-mono">{completedCount} / {missions.length} Complete</span>
+                {/* Mobile view progress */}
+                <div className="md:hidden">
+                    <div className="flex justify-between text-[10px] font-black text-text-muted/60 mb-2.5 uppercase tracking-wider">
+                        <span>Campaign Progress</span>
+                        <span className="font-mono">{completedCountMobile} / {visibleMissionsMobile.length} Complete</span>
+                    </div>
+                    <div className="h-2 w-full bg-surface rounded-full overflow-hidden border border-white/5 relative">
+                        <motion.div
+                            initial={{ width: 0 }}
+                            animate={{ width: `${progressMobile}%` }}
+                            transition={{ duration: 1, ease: "easeOut" }}
+                            className="h-full bg-gradient-to-r from-primary via-accent to-secondary rounded-full"
+                            style={{
+                                boxShadow: '0 0 10px rgb(139,92,246,0.4)'
+                            }}
+                        />
+                    </div>
                 </div>
-                <div className="h-2 w-full bg-surface rounded-full overflow-hidden border border-white/5 relative">
-                    <motion.div
-                        initial={{ width: 0 }}
-                        animate={{ width: `${progress}%` }}
-                        transition={{ duration: 1, ease: "easeOut" }}
-                        className="h-full bg-gradient-to-r from-primary via-accent to-secondary rounded-full"
-                        style={{
-                            boxShadow: '0 0 10px rgb(139,92,246,0.4)'
-                        }}
-                    />
+                {/* Desktop view progress */}
+                <div className="hidden md:block">
+                    <div className="flex justify-between text-[10px] font-black text-text-muted/60 mb-2.5 uppercase tracking-wider">
+                        <span>Campaign Progress</span>
+                        <span className="font-mono">{completedCountDesktop} / {visibleMissionsDesktop.length} Complete</span>
+                    </div>
+                    <div className="h-2 w-full bg-surface rounded-full overflow-hidden border border-white/5 relative">
+                        <motion.div
+                            initial={{ width: 0 }}
+                            animate={{ width: `${progressDesktop}%` }}
+                            transition={{ duration: 1, ease: "easeOut" }}
+                            className="h-full bg-gradient-to-r from-primary via-accent to-secondary rounded-full"
+                            style={{
+                                boxShadow: '0 0 10px rgb(139,92,246,0.4)'
+                            }}
+                        />
+                    </div>
                 </div>
             </div>
 
@@ -99,13 +126,15 @@ export const DailyMissionCard: React.FC<DailyMissionCardProps> = ({ missions, on
                         </button>
                     </div>
                 ) : (
-                    missions.map((mission, idx) => (
+                    visibleMissionsDesktop.map((mission, idx) => (
                         <motion.div
                             key={mission.id}
                             initial={{ opacity: 0, x: -10 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ delay: idx * 0.1 }}
-                            className={`p-4 md:p-5 flex items-start gap-4 transition-all relative border-l-[3.5px] ${
+                            className={`p-4 md:p-5 items-start gap-4 transition-all relative border-l-[3.5px] ${
+                                idx >= 1 ? 'hidden md:flex' : 'flex'
+                            } ${
                                 mission.completed 
                                     ? 'border-green-500/40 bg-green-500/[0.02]' 
                                     : mission.type === 'practice' 
@@ -184,8 +213,15 @@ export const DailyMissionCard: React.FC<DailyMissionCardProps> = ({ missions, on
             </div>
 
             {/* Footer */}
-            {missions.length > 0 && progress === 100 && (
-                <div className="p-4 bg-green-500/10 text-center">
+            {visibleMissionsMobile.length > 0 && progressMobile === 100 && (
+                <div className="p-4 bg-green-500/10 text-center md:hidden">
+                    <p className="text-xs font-bold text-green-500 flex items-center justify-center gap-2">
+                        <CheckCircle2 size={14} /> Day 1 Campaign Mastered!
+                    </p>
+                </div>
+            )}
+            {visibleMissionsDesktop.length > 0 && progressDesktop === 100 && (
+                <div className="p-4 bg-green-500/10 text-center hidden md:block">
                     <p className="text-xs font-bold text-green-500 flex items-center justify-center gap-2">
                         <CheckCircle2 size={14} /> Day 1 Campaign Mastered!
                     </p>
