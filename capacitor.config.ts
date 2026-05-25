@@ -8,6 +8,11 @@ const config: CapacitorConfig = {
         // This allows the app to automatically update when the website is deployed
         url: 'https://examcompass.pages.dev',
         cleartext: true
+    },
+    plugins: {
+        CapacitorUpdater: {
+            autoUpdate: false
+        }
     }
 };
 
