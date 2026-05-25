@@ -91,6 +91,20 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
                         </button>
                     </div>
 
+                    {/* Direct Android APK download helper */}
+                    <motion.div 
+                        variants={itemVariants}
+                        className="flex justify-center lg:justify-start pt-2"
+                    >
+                        <Link 
+                            to="/download" 
+                            className="inline-flex items-center gap-2 text-xs text-gray-400 hover:text-white transition-colors bg-white/5 hover:bg-white/10 px-4 py-2.5 rounded-xl border border-white/5 hover:border-white/10"
+                        >
+                            <span className="w-2.5 h-2.5 bg-green-500 rounded-full animate-pulse shrink-0" />
+                            <span>Get the official Android App (.apk) &amp; iOS App</span>
+                        </Link>
+                    </motion.div>
+
                     {/* Trust badges — wrap gracefully on small screens */}
                     <motion.div 
                         variants={itemVariants}

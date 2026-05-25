@@ -385,6 +385,14 @@ export const Navbar = () => {
                     <Link to="/founder" className="text-sm md:text-base text-gray-300 hover:text-white font-medium transition-colors">
                         Founder
                     </Link>
+                    <Link to="/download" className="text-sm md:text-base text-gray-300 hover:text-white font-medium transition-colors flex items-center gap-1.5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-[#a855f7]">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                            <polyline points="7 10 12 15 17 10" />
+                            <line x1="12" y1="15" x2="12" y2="3" />
+                        </svg>
+                        <span>App</span>
+                    </Link>
                     <Link 
                         to="/login" 
                         rel="nofollow" 
@@ -438,6 +446,12 @@ export const Navbar = () => {
                         className="w-full py-4 text-center rounded-2xl bg-white/5 border border-white/10 text-white font-extrabold text-lg transition-transform mt-2 block"
                     >
                         Meet the Founder
+                    </Link>
+                    <Link 
+                        to="/download"
+                        className="w-full py-4 text-center rounded-2xl bg-purple-600 hover:bg-purple-500 text-white font-extrabold text-lg shadow-[0_0_20px_rgba(168,85,247,0.2)] active:scale-[0.98] transition-transform mt-2 block"
+                    >
+                        Download Android &amp; iOS App
                     </Link>
                     <Link 
                         to="/login" 
