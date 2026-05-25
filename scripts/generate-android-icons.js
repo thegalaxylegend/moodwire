@@ -11,31 +11,31 @@ const densities = [
         name: 'mdpi',
         legacySize: 48,
         adaptiveSize: 108,
-        adaptiveFgSize: 108
+        adaptiveFgSize: 72 // 72dp safe zone
     },
     {
         name: 'hdpi',
         legacySize: 72,
         adaptiveSize: 162,
-        adaptiveFgSize: 162
+        adaptiveFgSize: 108 // 72dp safe zone
     },
     {
         name: 'xhdpi',
         legacySize: 96,
         adaptiveSize: 216,
-        adaptiveFgSize: 216
+        adaptiveFgSize: 144 // 72dp safe zone
     },
     {
         name: 'xxhdpi',
         legacySize: 144,
         adaptiveSize: 324,
-        adaptiveFgSize: 324
+        adaptiveFgSize: 216 // 72dp safe zone
     },
     {
         name: 'xxxhdpi',
         legacySize: 192,
         adaptiveSize: 432,
-        adaptiveFgSize: 432
+        adaptiveFgSize: 288 // 72dp safe zone
     }
 ];
 
