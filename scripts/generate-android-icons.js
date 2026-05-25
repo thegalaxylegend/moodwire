@@ -22,9 +22,9 @@ async function generate() {
             fs.mkdirSync(mipmapFolder, { recursive: true });
         }
 
-        // 1. Generate ic_launcher_foreground.png (transparent background with inset)
-        const fgBuffer = await sharp(logoPath)
-            .resize(d.fgSize, d.fgSize)
+        // 1. Generate ic_launcher_foreground.png (Full size, system XML will handle standard inset)
+        const fgBufferFull = await sharp(logoPath)
+            .resize(d.size, d.size)
             .toBuffer();
 
         await sharp({
@@ -35,9 +35,15 @@ async function generate() {
                 background: { r: 0, g: 0, b: 0, alpha: 0 }
             }
         })
-        .composite([{ input: fgBuffer, gravity: 'center' }])
+        .composite([{ input: fgBufferFull, gravity: 'center' }])
         .png()
         .toFile(path.join(mipmapFolder, 'ic_launcher_foreground.png'));
+
+        // Standard icon logo size (85% of canvas size to look full-size and clear)
+        const standardFgSize = Math.round(d.size * 0.85);
+        const fgBufferStandard = await sharp(logoPath)
+            .resize(standardFgSize, standardFgSize)
+            .toBuffer();
 
         // 2. Generate ic_launcher.png (standard icon: logo over deep dark theme background #0a0a0f)
         const bgBuffer = await sharp({
@@ -52,7 +58,7 @@ async function generate() {
         .toBuffer();
 
         await sharp(bgBuffer)
-            .composite([{ input: fgBuffer, gravity: 'center' }])
+            .composite([{ input: fgBufferStandard, gravity: 'center' }])
             .png()
             .toFile(path.join(mipmapFolder, 'ic_launcher.png'));
 
@@ -69,7 +75,7 @@ async function generate() {
                 background: { r: 10, g: 10, b: 15, alpha: 1 }
             }
         })
-        .composite([{ input: fgBuffer, gravity: 'center' }])
+        .composite([{ input: fgBufferStandard, gravity: 'center' }])
         .png()
         .toBuffer();
 
