@@ -5,6 +5,7 @@ import { auth, googleProvider } from '../../lib/firebase';
 import { signInWithEmailAndPassword, createUserWithEmailAndPassword, signInWithPopup, setPersistence, browserLocalPersistence } from 'firebase/auth';
 import { useUserStore } from '../../store/userStore';
 import { SEO } from '../../components/SEO';
+import { Capacitor } from '@capacitor/core';
 
 export const Login = () => {
     const navigate = useNavigate();
@@ -49,7 +50,7 @@ export const Login = () => {
             await setPersistence(auth, browserLocalPersistence);
 
             // Detect if running inside native Capacitor wrapper (Android/iOS app)
-            const isCapacitor = typeof window !== 'undefined' && (window as any).Capacitor;
+            const isCapacitor = Capacitor.isNativePlatform();
 
             if (isCapacitor) {
                 // Use the native Google Sign-in flow — stays inside the app, no Chrome redirect!
