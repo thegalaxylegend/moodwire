@@ -83,7 +83,8 @@ task cleanUnwantedAssets(type: Delete) {
         "about/**",
         "contact/**",
         "founder.jpg",
-        "og-image.png"
+        "og-image.png",
+        "server/**"
     ])
 }
 

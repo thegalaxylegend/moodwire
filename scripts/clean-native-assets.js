@@ -33,7 +33,8 @@ const patternsToRemove = [
   'about',
   'contact',
   'founder.jpg',
-  'og-image.png'
+  'og-image.png',
+  'server'
 ];
 
 function cleanDir(dirPath) {

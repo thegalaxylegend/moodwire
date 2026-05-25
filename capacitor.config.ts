@@ -12,6 +12,9 @@ const config: CapacitorConfig = {
     plugins: {
         CapacitorUpdater: {
             autoUpdate: false
+        },
+        FirebaseAuthentication: {
+            providers: ["google.com"]
         }
     }
 };
