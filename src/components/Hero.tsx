@@ -36,7 +36,7 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
     };
 
     return (
-        <div className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-20">
+        <div className="relative min-h-[100vh] sm:min-h-[90vh] flex items-center justify-center overflow-hidden pt-24 pb-12 sm:pt-20 sm:pb-0">
             {/* Ambient Background — High performance radial gradients (no blur filters) */}
             <div className="absolute inset-0 -z-10 overflow-hidden">
                 <div className="absolute top-1/4 left-1/4 w-[400px] h-[400px] bg-[radial-gradient(circle,rgba(139,92,246,0.1),transparent_70%)] animate-breathing will-change-[opacity]" />
@@ -47,7 +47,7 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
                 <div className="absolute bottom-[25%] left-[35%] w-2 h-2 bg-cyan-400/20 rounded-full animate-float-5" />
             </div>
 
-            <div className="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
+            <div className="container mx-auto px-4 sm:px-6 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center relative z-10">
                 <motion.div 
                     initial="hidden"
                     animate="visible"
@@ -57,7 +57,7 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
                     {/* Main heading with animated gradient */}
                     <motion.h1 
                         variants={itemVariants}
-                        className="text-3xl sm:text-5xl md:text-7xl font-heading font-bold text-text-main leading-[1.1]" id="main-content"
+                        className="text-4xl sm:text-5xl md:text-7xl font-heading font-bold text-text-main leading-[1.1]" id="main-content"
                     >
                         Stop Guessing What to <br />
                         <span className="animate-gradient-text bg-gradient-to-r from-primary via-secondary to-accent">
@@ -68,23 +68,23 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
                     {/* Subtext */}
                     <motion.p 
                         variants={itemVariants}
-                        className="text-lg text-gray-300 max-w-xl mx-auto lg:mx-0 leading-relaxed"
+                        className="text-base sm:text-lg text-gray-300 max-w-xl mx-auto lg:mx-0 leading-relaxed"
                     >
                         Experience the only <span className="text-primary font-bold">Neural Performance Engine</span> that identifies your "Growth Gaps" and predicts your rank with data-backed precision. Stop wasting time on random mocks—train like your selection depends on it
                         <span className="text-text-main font-semibold block mt-2">The ultimate analytics companion for your selection journey</span>
                     </motion.p>
 
                     {/* CTA buttons — simplified for performance */}
-                    <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
+                    <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 justify-center lg:justify-start w-full sm:w-auto">
                         <Link
                             to="/login"
-                            className="px-8 py-4 bg-primary hover:bg-primary/90 text-white rounded-xl font-bold text-lg transition-all duration-300 transform hover:-translate-y-1 active:scale-[0.98] hover:shadow-[0_10px_40px_-10px_rgba(139,92,246,0.5)] flex items-center gap-2 group"
+                            className="px-6 sm:px-8 py-3.5 sm:py-4 bg-primary w-full sm:w-auto justify-center hover:bg-primary/90 text-white rounded-xl font-bold text-lg transition-all duration-300 transform hover:-translate-y-1 active:scale-[0.98] hover:shadow-[0_10px_40px_-10px_rgba(139,92,246,0.5)] flex items-center gap-2 group"
                         >
                             Launch Dashboard <ArrowRight size={20} className="group-hover:translate-x-1.5 transition-transform duration-300" />
                         </Link>
                         <button
                             onClick={onOpenDemo}
-                            className="px-8 py-4 rounded-xl border border-white/10 hover:bg-white/5 font-bold transition-all duration-300 transform hover:-translate-y-1 active:scale-[0.98] flex items-center gap-2 group hover:border-primary/30"
+                            className="px-6 sm:px-8 py-3.5 sm:py-4 rounded-xl border w-full sm:w-auto justify-center border-white/10 hover:bg-white/5 font-bold transition-all duration-300 transform hover:-translate-y-1 active:scale-[0.98] flex items-center gap-2 group hover:border-primary/30"
                         >
                             <Play size={20} className="group-hover:text-primary transition-colors" />
                             Watch Demo

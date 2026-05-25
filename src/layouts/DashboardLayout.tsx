@@ -228,7 +228,7 @@ export const DashboardLayout = () => {
             >
                 <div className="p-6 flex items-center justify-between shrink-0">
                     {(isSidebarOpen || window.innerWidth < 1024) && (
-                        <span className={`text-xl md:text-2xl font-bold text-white tracking-tighter whitespace-nowrap transition-all duration-300 ${!isSidebarOpen && 'lg:hidden opacity-0 w-0'}`}>
+                        <span className={`text-lg sm:text-xl md:text-2xl font-bold text-white tracking-tighter whitespace-nowrap transition-all duration-300 ${!isSidebarOpen && 'lg:hidden opacity-0 w-0'}`}>
                             Exam<span className="text-[#a855f7]">Compass</span>
                         </span>
                     )}
@@ -289,7 +289,7 @@ export const DashboardLayout = () => {
 
             {/* Mobile Header - Truly Fixed at Top */}
             <div className="lg:hidden fixed top-0 left-0 right-0 h-16 flex items-center justify-between px-4 bg-background/90 backdrop-blur-xl border-b border-white/5 z-30">
-                <span className="text-xl md:text-2xl font-bold text-white tracking-tighter">Exam<span className="text-[#a855f7]">Compass</span></span>
+                <span className="text-lg sm:text-xl md:text-2xl font-bold text-white tracking-tighter">Exam<span className="text-[#a855f7]">Compass</span></span>
                 <div className="flex items-center gap-3">
                     {/* Streak Display (Mobile) */}
                     <div className="flex items-center gap-1.5 px-3 py-1.5 bg-surface border border-border rounded-lg text-primary font-bold text-sm">
