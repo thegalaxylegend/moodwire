@@ -150,7 +150,9 @@ export const Login = () => {
                  * listener in userStore.initialize() can pick it up normally.
                  */
                 const { FirebaseAuthentication } = await import('@capacitor-firebase/authentication');
-                const result = await FirebaseAuthentication.signInWithGoogle();
+                const result = await FirebaseAuthentication.signInWithGoogle({
+                    useCredentialManager: false,
+                });
 
                 if (!result.credential?.idToken) {
                     throw new Error('Google Sign-In did not return a valid credential. Please try again.');
