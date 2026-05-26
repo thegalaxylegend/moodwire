@@ -48,9 +48,25 @@ const config: CapacitorConfig = {
          *                                   session is synced after native sign-in.
          *                                   DO NOT set this to true.
          */
+        /**
+         * FirebaseAuthentication
+         * ─────────────────────────────────────────────────────────────────────
+         * providers must list every OAuth provider you want to use.
+         * 'google.com' enables the native Google Sign-In picker on Android/iOS.
+         *
+         * skipNativeAuth: false (default) → ensures the Firebase Web SDK
+         *                                   session is synced after native sign-in.
+         *                                   DO NOT set this to true.
+         *
+         * webClientId → REQUIRED for native Google Sign-In on Android.
+         *               Must match the Web OAuth 2.0 client (client_type: 3)
+         *               from google-services.json / Firebase Console.
+         *               Without this, signInWithGoogle() throws "No credentials available".
+         */
         FirebaseAuthentication: {
             skipNativeAuth: false,
             providers: ['google.com'],
+            webClientId: '749589426436-6g6pf3f79tikvo4qpesk4pvr3upeoeqe.apps.googleusercontent.com',
         },
 
         /**
