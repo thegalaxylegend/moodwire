@@ -7,6 +7,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <!-- ═══════════════════════════════════════════════════════════════════
+             Main Activity
+             launchMode="singleTask" ensures only ONE instance ever runs.
+             This is critical for OAuth intents to be delivered to the existing
+             instance rather than creating a duplicate.
+        ════════════════════════════════════════════════════════════════════ -->
         <activity
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode|navigation|density"
             android:name=".MainActivity"
@@ -20,6 +27,20 @@
             </intent-filter>
         </activity>
 
+        <!-- ═══════════════════════════════════════════════════════════════════
+             Required by @capacitor-firebase/authentication for Google Sign-In.
+             This activity handles the native Google account picker flow and
+             delivers the result back to MainActivity WITHOUT opening Chrome.
+             Without this, Google Sign-In will silently fail and fall back to
+             an external browser.
+        ════════════════════════════════════════════════════════════════════ -->
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- File Provider (for camera, file system plugins) -->
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.fileprovider"
@@ -27,10 +48,12 @@
             android:grantUriPermissions="true">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths" />
         </provider>
+
     </application>
 
-    <!-- Permissions -->
-
+    <!-- ═══════════════════════════════════════════════════════════════════════
+         Permissions
+    ═══════════════════════════════════════════════════════════════════════ -->
     <uses-permission android:name="android.permission.INTERNET" />
 
     <!-- Network State for Offline/Online Analytics & Remote Config -->
@@ -63,6 +86,5 @@
     <uses-feature android:name="android.hardware.location.gps" android:required="false" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
+
 </manifest>
-
-
