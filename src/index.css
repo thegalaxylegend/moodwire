@@ -1601,3 +1601,237 @@ main,
   animation: pan-grid 4s linear infinite;
   will-change: background-position;
 }
+
+/* ============================================================
+   EXA AI PREMIUM ANIMATIONS
+   Blur-materialization reveal — Apple Intelligence / Gemini style
+   ============================================================ */
+
+/* The core chunk-reveal: new text fades in from blur as a whole block */
+@keyframes exa-chunk-reveal {
+  0% {
+    opacity: 0;
+    filter: blur(4px);
+  }
+  40% {
+    opacity: 0.7;
+    filter: blur(1.5px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+
+.exa-chunk-reveal {
+  animation: exa-chunk-reveal 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  display: inline;
+  will-change: opacity, filter;
+}
+
+/* Premium character-by-character reveal: new letters fade in with blur and brightness */
+@keyframes exa-char-reveal {
+  0% {
+    opacity: 0;
+    filter: blur(2px) brightness(1.15);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0px) brightness(1);
+  }
+}
+
+.exa-char-reveal {
+  display: inline;
+  animation: exa-char-reveal 0.35s cubic-bezier(0.25, 1, 0.5, 1) both;
+  will-change: opacity, filter;
+}
+
+/* ============================================================
+   PERFORMANCE TIER ADAPTIVE REVEAL OVERRIDES
+   Low/Balanced: strip blur and text-shadow, use pure opacity.
+   ============================================================ */
+@keyframes exa-chunk-reveal-noblur {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes exa-char-reveal-noblur {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.perf-tier-low .exa-chunk-reveal,
+.perf-tier-balanced .exa-chunk-reveal {
+  animation: exa-chunk-reveal-noblur 0.15s ease-out forwards !important;
+  filter: none !important;
+  will-change: opacity !important;
+}
+
+.perf-tier-low .exa-char-reveal,
+.perf-tier-balanced .exa-char-reveal {
+  animation: exa-char-reveal-noblur 0.1s ease-out both !important;
+  filter: none !important;
+  will-change: opacity !important;
+}
+
+
+/* Typing cursor */
+@keyframes exa-cursor-blink {
+  from, to { background-color: transparent; box-shadow: none; }
+  50% { background-color: #81ecff; box-shadow: 0 0 8px rgba(129, 236, 255, 0.8); }
+}
+
+.is-streaming p:last-child::after,
+.is-streaming li:last-child::after,
+.is-streaming h1:last-child::after,
+.is-streaming h2:last-child::after,
+.is-streaming h3:last-child::after,
+.is-streaming h4:last-child::after,
+.is-streaming h5:last-child::after,
+.is-streaming h6:last-child::after {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 15px;
+  background-color: #81ecff;
+  margin-left: 4px;
+  vertical-align: middle;
+  border-radius: 3px;
+  animation: exa-cursor-blink 0.8s step-end infinite;
+  box-shadow: 0 0 8px rgba(129, 236, 255, 0.8);
+  will-change: background-color, box-shadow;
+}
+
+.is-streaming pre:last-child code::after {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 15px;
+  background-color: #81ecff;
+  margin-left: 4px;
+  vertical-align: middle;
+  border-radius: 3px;
+  animation: exa-cursor-blink 0.8s step-end infinite;
+  box-shadow: 0 0 8px rgba(129, 236, 255, 0.8);
+  will-change: background-color, box-shadow;
+}
+
+@keyframes exa-glow-pulse {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.85;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0.5;
+  }
+}
+
+@keyframes exa-orb-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes exa-gradient-move {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.exa-thinking-bubble {
+  background: rgba(30, 32, 42, 0.45) !important;
+  border: 1px solid rgba(129, 236, 255, 0.15) !important;
+  box-shadow: 
+    0 20px 40px -10px rgba(0, 0, 0, 0.5),
+    inset 0 0 20px rgba(93, 33, 223, 0.15),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(24px) !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.exa-thinking-glow-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.5;
+  filter: blur(25px);
+  mix-blend-mode: screen;
+}
+
+.exa-thinking-orb-1 {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  background: radial-gradient(circle, rgba(93, 33, 223, 0.8) 0%, transparent 70%);
+  top: -20px;
+  left: -20px;
+  animation: exa-orb-move-1 8s infinite alternate ease-in-out;
+}
+
+.exa-thinking-orb-2 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle, rgba(129, 236, 255, 0.7) 0%, transparent 70%);
+  bottom: -30px;
+  right: -10px;
+  animation: exa-orb-move-2 7s infinite alternate ease-in-out;
+}
+
+.exa-thinking-orb-3 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background: radial-gradient(circle, rgba(21, 58, 228, 0.75) 0%, transparent 70%);
+  top: 10px;
+  right: 20px;
+  animation: exa-orb-move-3 9s infinite alternate ease-in-out;
+}
+
+@keyframes exa-orb-move-1 {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(30px, 10px) scale(1.2); }
+  100% { transform: translate(15px, 25px) scale(0.95); }
+}
+
+@keyframes exa-orb-move-2 {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-25px, -15px) scale(0.9); }
+  100% { transform: translate(-10px, 10px) scale(1.15); }
+}
+
+@keyframes exa-orb-move-3 {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-15px, 20px) scale(1.1); }
+  100% { transform: translate(20px, -10px) scale(0.85); }
+}
+
+.exa-avatar-thinking {
+  background: linear-gradient(135deg, #5d21df 0%, #153ae4 50%, #81ecff 100%) !important;
+  background-size: 200% 200% !important;
+  animation: exa-gradient-move 4s ease infinite, exa-glow-pulse 2s ease-in-out infinite !important;
+  position: relative;
+}
+
+.exa-avatar-thinking::after {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #5d21df, #81ecff, #153ae4);
+  z-index: -1;
+  filter: blur(4px);
+  opacity: 0.7;
+  animation: exa-orb-rotate 3s linear infinite;
+}

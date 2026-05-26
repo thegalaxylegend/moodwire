@@ -8,19 +8,13 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "redirects": [
+    "redirects": [],
+    "rewrites": [
       {
-        "source": "/",
-        "destination": "https://examcompass.pages.dev/",
-        "type": 301
-      },
-      {
-        "regex": "/(?P<path>.+)",
-        "destination": "https://examcompass.pages.dev/:path",
-        "type": 301
+        "source": "**",
+        "destination": "/index.html"
       }
     ],
-    "rewrites": [],
     "headers": [
       {
         "source": "/**",

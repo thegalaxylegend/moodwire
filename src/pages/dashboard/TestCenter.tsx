@@ -15,7 +15,7 @@ export const TestCenter = () => {
     const [alertModal, setAlertModal] = useState<{ open: boolean; title: string; message: string; type: 'warning' | 'info' }>({ 
         open: false, title: "", message: "", type: 'info' 
     });
-    const [mode, setMode] = useState<'Quick_Test' | 'Full_Mock'>('Quick_Test');
+    const [mode, setMode] = useState<'Quick_Test' | 'Full_Mock' | 'Learned_Chapters'>('Quick_Test');
     const [difficulty, setDifficulty] = useState<'Exam_Level' | 'Slightly_Harder' | 'Mains' | 'Advanced'>('Exam_Level');
     // Default to TRUE (unlocked). Only lock for genuinely brand-new users.
     const [isDiagnosticDone, setIsDiagnosticDone] = useState<boolean | null>(true);
@@ -55,6 +55,18 @@ export const TestCenter = () => {
         checkDiagnostic();
     }, [user, authResolved]);
 
+    // Pre-select default difficulty/exam type based on user's target exam
+    useEffect(() => {
+        if (user) {
+            const isJee = user.targetExam?.toUpperCase().includes('JEE');
+            if (isJee) {
+                setDifficulty('Mains');
+            } else {
+                setDifficulty('Exam_Level');
+            }
+        }
+    }, [user]);
+
     const handleStartTest = async () => {
         if (!user?.targetExam) {
             setError("Please update your profile with a target exam first.");
@@ -62,7 +74,7 @@ export const TestCenter = () => {
         }
 
         if (mode === 'Full_Mock') {
-            setError("Full Mock is temporarily under maintenance. Please use Quick Test!");
+            setError("Full Mock is temporarily under maintenance. Please use Quick Test or Studied Focus!");
             return;
         }
 
@@ -150,7 +162,7 @@ export const TestCenter = () => {
 
                             <div>
                                 <label className="block text-sm font-medium text-text-muted mb-2">Mode</label>
-                                <div className="grid grid-cols-2 gap-3">
+                                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                                     <button
                                         onClick={() => setMode('Quick_Test')}
                                         className={`p-3 rounded-lg border text-sm font-medium transition-all ${mode === 'Quick_Test' ? 'bg-primary/20 border-primary text-primary' : 'bg-surface border-border text-text-muted hover:bg-white/5'
@@ -158,6 +170,14 @@ export const TestCenter = () => {
                                     >
                                         <div className="flex items-center justify-center gap-2 mb-1"><Zap size={16} /> Quick Test</div>
                                         <div className="text-[10px] opacity-70">10 Questions • 30 Mins</div>
+                                    </button>
+                                    <button
+                                        onClick={() => setMode('Learned_Chapters')}
+                                        className={`p-3 rounded-lg border text-sm font-medium transition-all ${mode === 'Learned_Chapters' ? 'bg-primary/20 border-primary text-primary' : 'bg-surface border-border text-text-muted hover:bg-white/5'
+                                            }`}
+                                    >
+                                        <div className="flex items-center justify-center gap-2 mb-1"><Brain size={16} /> Studied Focus</div>
+                                        <div className="text-[10px] opacity-70">Only studied topics</div>
                                     </button>
                                     <button
                                         onClick={() => {
@@ -209,7 +229,7 @@ export const TestCenter = () => {
                                                 onClick={() => setDifficulty('Exam_Level')}
                                                 className={`p-3 rounded-lg border text-sm font-medium transition-all ${difficulty === 'Exam_Level' ? 'bg-green-500/10 border-green-500 text-green-400' : 'bg-surface border-border text-text-muted hover:bg-white/5'}`}
                                             >
-                                                Standard
+                                                {user?.targetExam?.toUpperCase().includes('NEET') ? 'NEET Standard' : 'Standard'}
                                             </button>
                                             <button
                                                 onClick={() => setDifficulty('Slightly_Harder')}

@@ -4,14 +4,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { QuickReplies } from './QuickReplies';
 import { MessageBubble } from './MessageBubble';
 import { usePerformance } from '../../context/PerformanceProvider';
-import { ttsManager } from '../../lib/tts/TTSManager';
-
-interface VoicePreset {
-    id: string;
-    name: string;
-    gender: 'female' | 'male';
-    isNeural?: boolean;
-}
+import { ttsManager, VOICE_PRESETS } from '../../lib/tts/TTSManager';
+import type { VoicePreset } from '../../lib/tts/TTSManager';
+import { cleanTextForSpeech } from '../../lib/utils';
 
 interface ChatWindowProps {
     messages: any[];
@@ -81,27 +76,64 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
     const [isToolboxOpen, setIsToolboxOpen] = useState(false);
     const [speakingId, setSpeakingId] = useState<number | null>(null);
 
-    const handleSpeak = async (text: string, id: number) => {
+    const handleSpeak = async (text: string, id: number, language?: 'en' | 'hi' | 'hinglish') => {
         if (speakingId === id) {
             ttsManager.stop();
-            window.speechSynthesis.cancel();
+            if (window.speechSynthesis) window.speechSynthesis.cancel();
             setSpeakingId(null);
             return;
         }
 
         setSpeakingId(id);
+        const cleaned = cleanTextForSpeech(text);
         
+        const activeLanguage = language || selectedLanguage;
+        // Find a neural preset matching the active language
+        const preset = VOICE_PRESETS.find(p => p.lang === activeLanguage && p.isNeural)
+            || VOICE_PRESETS.find(p => p.lang === activeLanguage)
+            || VOICE_PRESETS[0];
+
         try {
-            // Attempt neural TTS
-            await ttsManager.speak(text);
+            if (preset && preset.isNeural) {
+                await ttsManager.init(preset.modelUrl, preset.tokensUrl);
+                await ttsManager.speak(cleaned, preset.rate || 1.0, preset.modelUrl, preset.tokensUrl);
+            } else {
+                throw new Error("No neural preset");
+            }
             setSpeakingId(null);
         } catch (error) {
             console.warn('[ChatWindow] Neural TTS failed, fallback to native:', error);
             
             // Native Fallback
-            const utterance = new SpeechSynthesisUtterance(text);
+            if (!window.speechSynthesis) {
+                setSpeakingId(null);
+                return;
+            }
+            const utterance = new SpeechSynthesisUtterance(cleaned);
             utterance.onend = () => setSpeakingId(null);
             utterance.onerror = () => setSpeakingId(null);
+
+            // Select system voice for active language
+            const voices = window.speechSynthesis.getVoices();
+            let systemVoice: SpeechSynthesisVoice | undefined;
+            const findByName = (keywords: string[]) => voices.find(v => keywords.some(k => v.name.includes(k)));
+
+            if (activeLanguage === 'hi') {
+                const hiVoices = voices.filter(v => v.lang.startsWith('hi'));
+                systemVoice = findByName(['Google हिन्दी', 'Kalpana', 'Microsoft Kalpana', 'Heera', 'Google Hindi']) 
+                    || hiVoices.find(v => !v.name.toLowerCase().includes('male'))
+                    || hiVoices[0];
+            } else if (activeLanguage === 'hinglish') {
+                const inVoices = voices.filter(v => v.lang.toLowerCase().includes('in') || v.lang.toLowerCase().startsWith('hi'));
+                systemVoice = findByName(['Google India English', 'Google Hindi', 'Heera', 'Kalpana', 'Microsoft Heera', 'Microsoft Kalpana'])
+                    || inVoices.find(v => !v.name.toLowerCase().includes('male'))
+                    || findByName(['Google US English', 'Google UK English Female', 'Samantha', 'Zira', 'Microsoft Zira']);
+            } else {
+                systemVoice = findByName(['Google US English', 'Samantha', 'Zira', 'Microsoft Zira', 'Google UK English Female'])
+                    || voices.find(v => v.lang.startsWith('en') && !v.name.toLowerCase().includes('male'));
+            }
+
+            if (systemVoice) utterance.voice = systemVoice;
             window.speechSynthesis.speak(utterance);
         }
     };
@@ -445,6 +477,11 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                                 e.stopPropagation();
                                 onClose();
                             }}
+                            onTouchEnd={(e) => {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                onClose();
+                            }}
                             className="p-3 bg-[#1d1f29]/80 backdrop-blur-xl rounded-xl border border-white/10 text-white/30 hover:text-red-400 hover:bg-red-500/10 transition-all shadow-2xl group active:scale-95 cursor-pointer flex items-center justify-center"
                         >
                             <X size={20} />
@@ -477,19 +514,44 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                                 
                                  {(isThinking || isTTSLoading) && (
                                     <div className={`flex w-full justify-start mb-6 ${perfTier !== 'low' ? 'animate-in fade-in slide-in-from-left-2 duration-500' : ''}`}>
-                                        <div className="flex items-end gap-4 max-w-[80%]">
-                                            <div className={`w-8 h-8 rounded-full bg-indigo-600/20 flex items-center justify-center border border-indigo-500/20 ${perfTier !== 'low' ? 'animate-pulse' : ''}`}>
-                                                <Zap size={14} className="text-indigo-400" />
+                                        <div className="flex items-end gap-3 max-w-[80%]">
+                                            {/* Morphing Avatar with outer glowing ring */}
+                                            <div className={`w-8 h-8 rounded-full flex items-center justify-center relative shrink-0 z-10
+                                                ${perfTier !== 'low' ? 'exa-avatar-thinking' : 'bg-indigo-600'}`}>
+                                                <Bot size={15} className="text-white relative z-10" />
                                             </div>
-                                            <div className="bg-[#32343e]/40 border border-white/10 px-6 py-4 rounded-[32px] rounded-bl-sm backdrop-blur-md">
-                                                <div className="flex gap-2 items-center">
-                                                    <div className="flex gap-1">
-                                                        <div className="w-1.5 h-1.5 bg-[#81ecff] rounded-full animate-bounce [animation-delay:-0.3s]"></div>
-                                                        <div className="w-1.5 h-1.5 bg-[#81ecff]/60 rounded-full animate-bounce [animation-delay:-0.15s]"></div>
-                                                        <div className="w-1.5 h-1.5 bg-[#81ecff]/30 rounded-full animate-bounce"></div>
+
+                                            {/* Glowing Fluid Thinking Bubble */}
+                                            <div className={`px-6 py-4 rounded-[28px] rounded-bl-sm relative overflow-hidden backdrop-blur-xl border border-white/10
+                                                ${perfTier !== 'low' ? 'exa-thinking-bubble' : 'bg-[#32343e]/90 text-white'}`}>
+                                                
+                                                {/* Fluid shifting gradient orbs in background */}
+                                                {perfTier !== 'low' && (
+                                                    <div className="exa-thinking-glow-bg">
+                                                        <div className="exa-thinking-orb-1" />
+                                                        <div className="exa-thinking-orb-2" />
+                                                        <div className="exa-thinking-orb-3" />
                                                     </div>
-                                                    <span className="text-[10px] font-black text-white/30 uppercase tracking-widest ml-3">
-                                                        {isTTSLoading ? 'Neural Voice Syncing...' : 'Neural Synthesis'}
+                                                )}
+                                                
+                                                <div className="flex gap-4 items-center relative z-10">
+                                                    {/* Siri/Gemini style soundwave wave-bar visualizer during thinking */}
+                                                    {perfTier !== 'low' ? (
+                                                        <div className="flex items-center gap-1 h-3.5 w-6 shrink-0">
+                                                            <span className="w-0.5 h-2 bg-[#81ecff] rounded-full animate-wave-1 [animation-delay:-0.2s]" />
+                                                            <span className="w-0.5 h-3.5 bg-[#cdbdff] rounded-full animate-wave-2" />
+                                                            <span className="w-0.5 h-1.5 bg-[#153ae4] rounded-full animate-wave-3 [animation-delay:-0.4s]" />
+                                                            <span className="w-0.5 h-2.5 bg-[#81ecff] rounded-full animate-wave-1 [animation-delay:-0.1s]" />
+                                                        </div>
+                                                    ) : (
+                                                        <div className="flex gap-1 shrink-0">
+                                                            <div className="w-1.5 h-1.5 bg-[#81ecff] rounded-full animate-bounce [animation-delay:-0.3s]"></div>
+                                                            <div className="w-1.5 h-1.5 bg-[#81ecff]/60 rounded-full animate-bounce [animation-delay:-0.15s]"></div>
+                                                            <div className="w-1.5 h-1.5 bg-[#81ecff]/30 rounded-full animate-bounce"></div>
+                                                        </div>
+                                                    )}
+                                                    <span className="text-[10px] font-black tracking-widest text-[#81ecff]/80 uppercase font-sans">
+                                                        {isTTSLoading ? 'Neural Voice Syncing...' : 'Exa AI is thinking...'}
                                                     </span>
                                                 </div>
                                             </div>

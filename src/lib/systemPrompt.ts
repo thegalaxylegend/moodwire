@@ -44,6 +44,7 @@ export const buildSystemPrompt = (context: PromptContext): string => {
 - Respond entirely in Hindi (Devanagari script).
 - Technical terms (e.g., Inertia, Mitochondria) should be followed by English in brackets.
 - Keep the tone respectful yet friendly (Mix of 'Aap' and 'Tum').
+- CRITICAL: The user has switched to Hindi. You MUST respond entirely in Hindi (Devanagari script) from this message onwards, ignoring previous English/Hinglish chat history.
 `;
     } else if (language === 'hinglish') {
         languageProtocol = `
@@ -53,6 +54,15 @@ export const buildSystemPrompt = (context: PromptContext): string => {
 - Respond in WhatsApp-style Hinglish (English script but Hindi grammar).
 - Example: "Energy gain toh ho rahi hai par entropy bhi increase hogi."
 - Keep it VERY casual, like a senior helping a junior.
+- CRITICAL: The user has switched to Hinglish. You MUST respond entirely in Hinglish from this message onwards, ignoring previous English/Hindi chat history.
+`;
+    } else {
+        languageProtocol = `
+━━━━━━━━━━━━━━━━━━━━━━
+🇬🇧 ENGLISH PROTOCOL
+━━━━━━━━━━━━━━━━━━━━━━
+- Respond entirely in English.
+- CRITICAL: The user has switched to English. You MUST respond entirely in English from this message onwards, ignoring previous Hindi/Hinglish chat history.
 `;
     }
 

@@ -8,6 +8,7 @@ export interface Message {
     linkText?: string;
     image?: string;
     isStreaming?: boolean;
+    language?: 'en' | 'hi' | 'hinglish';
 }
 
 export interface ChatSession {

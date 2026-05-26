@@ -333,3 +333,47 @@ export const resolveTopicId = (topicName: string): string => {
     // 2. Fallback to slugified version
     return slugify(topicName).replace(/-/g, '_');
 };
+
+/**
+ * Clean formatting tokens (markdown, LaTeX, math formulas, special symbols) 
+ * from text before vocalizing it, preventing pronunciation of tokens like ### and $.
+ */
+export function cleanTextForSpeech(text: string): string {
+    if (!text) return "";
+    
+    // Remove <think>...</think> tags if any exist (reasoning models output)
+    let clean = text.replace(/<think>[\s\S]*?<\/think>/g, '');
+    
+    // Remove emojis and other special Unicode characters
+    clean = clean.replace(/([\u2700-\u27BF]|[\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDD10-\uDDFF])/g, '');
+    
+    // Remove LaTeX display math ($$ ... $$) and inline math ($ ... $)
+    clean = clean.replace(/\$\$[\s\S]*?\$\$/g, '').replace(/\$[^$]*?\$/g, '');
+    
+    // Remove LaTeX command names and braces: e.g. \frac{1}{2} -> 1 2, or \theta -> empty
+    clean = clean.replace(/\\(text|frac|sqrt|left|right|times|cdot|geq|leq|neq|approx|infty|sum|int|prod|lim|rightarrow|leftarrow|Rightarrow|AA)\b\{?([^}]*)\}?/g, '$2');
+    clean = clean.replace(/\\[a-zA-Z]+/g, ' '); // remove remaining command backslashes
+    
+    // Remove Markdown styling:
+    // Bold / Italic: ***text*** or **text** or *text* -> text
+    clean = clean.replace(/\*{1,3}(.*?)\*{1,3}/g, '$1');
+    clean = clean.replace(/_{1,3}(.*?)_{1,3}/g, '$1');
+    // Inline code or code blocks: `code` or ```code``` -> remove entirely
+    clean = clean.replace(/`{1,3}[^`]*`{1,3}/g, '');
+    // Headers: ### Header -> Header
+    clean = clean.replace(/^#{1,6}\s+/gm, '');
+    // Links: [Text](URL) -> Text
+    clean = clean.replace(/\[([^\]]*)\]\([^)]*\)/g, '$1');
+    // Bullet points and list numbering:
+    clean = clean.replace(/^[-*+]\s+/gm, '');
+    clean = clean.replace(/^\d+\.\s+/gm, '');
+    clean = clean.replace(/^>\s+/gm, '');
+    
+    // Nuke remaining special characters that shouldn't be read out loud
+    clean = clean.replace(/[#$*_\`|~]/g, '');
+    
+    // Replace multiple spaces/newlines with single space
+    clean = clean.replace(/\s+/g, ' ').trim();
+    
+    return clean;
+}

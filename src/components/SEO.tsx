@@ -24,26 +24,23 @@ export const SEO = (props: SEOProps) => {
     const { title, description, canonical, type, name, image, schema, noindex, robots, keywords, publishedTime, modifiedTime } = props;
     const location = useLocation();
 
-    // Standardized canonical: always end with a trailing slash (except root) for Cloudflare Pages directory compatibility
+    // Standardized canonical: no trailing slash (match actual served URL)
     let canonicalUrl = canonical;
     if (!canonicalUrl) {
-        let path = location.pathname;
-        if (path !== '/' && !path.endsWith('/')) {
-            path += '/';
-        }
+        const path = location.pathname.replace(/\/$/, '') || '/';
         canonicalUrl = `${SITE_URL}${path}`;
     } else {
         try {
-            // If passed manually, ensure it ends with a trailing slash (except root or if it's a file)
+            // Normalize: strip trailing slash from canonical (except root)
             const parsedUrl = new URL(canonicalUrl);
-            if (parsedUrl.pathname !== '/' && !parsedUrl.pathname.endsWith('/') && !parsedUrl.pathname.includes('.')) {
-                parsedUrl.pathname += '/';
+            if (parsedUrl.pathname !== '/' && parsedUrl.pathname.endsWith('/')) {
+                parsedUrl.pathname = parsedUrl.pathname.replace(/\/$/, '');
             }
             canonicalUrl = parsedUrl.toString();
         } catch (e) {
-            // Fallback in case of invalid URL string
-            if (!canonicalUrl.endsWith('/') && !canonicalUrl.includes('.')) {
-                canonicalUrl += '/';
+            // Fallback: strip trailing slash if present (except bare domain)
+            if (canonicalUrl.endsWith('/') && canonicalUrl.split('/').length > 3) {
+                canonicalUrl = canonicalUrl.replace(/\/$/, '');
             }
         }
     }

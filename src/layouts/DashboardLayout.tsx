@@ -31,6 +31,8 @@ import { GuestBanner } from '../components/GuestBanner';
 import { RankBadge } from '../components/gamification/RankBadge';
 import { usePWAStore } from '../store/pwaStore';
 import { ADMIN_EMAILS } from '../lib/securityConfig';
+import { useChatStore } from '../store/chatStore';
+import { useTestMode } from '../hooks/useTestMode';
 
 const UserProfileWidget = ({ isSidebarOpen, onClick, onRankClick }: { isSidebarOpen: boolean; onClick: () => void; onRankClick: () => void }) => {
     const { user, fetchSyllabusProgress } = useUserStore();
@@ -170,6 +172,8 @@ export const DashboardLayout = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(window.innerWidth >= 1024);
     const location = useLocation();
     const navigate = useNavigate();
+    const { isOpen: isChatOpen } = useChatStore();
+    const isTestMode = useTestMode();
 
     const handleDownloadClick = async () => {
         if (pwa.isIOS && !pwa.isStandalone) {
@@ -223,7 +227,7 @@ export const DashboardLayout = () => {
             <aside
                 className={`fixed lg:sticky top-0 h-screen bg-surface lg:bg-surface/95 backdrop-blur-md border-r border-border z-[120] 
                 ${isSidebarOpen ? 'w-64 translate-x-0' : 'w-64 -translate-x-full lg:translate-x-0 lg:w-20'} 
-                flex flex-col overflow-hidden`}
+                ${(isChatOpen || isTestMode) ? 'lg:hidden' : 'flex'} flex-col overflow-hidden`}
                 style={{ 
                     transition: 'width 380ms cubic-bezier(0.16, 1, 0.3, 1), transform 380ms cubic-bezier(0.16, 1, 0.3, 1)',
                     paddingTop: 'env(safe-area-inset-top, 0px)'

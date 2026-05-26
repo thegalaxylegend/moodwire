@@ -24,6 +24,9 @@ import {
     migrateLocalToCloud
 } from '../../services/savedLectureService';
 import { markVideoAsFinished, isVideoFinished } from '../../services/videoProgressService';
+import { SubtopicProgressService } from '../../services/subtopicProgressService';
+import { SYLLABUS_DB } from '../../lib/constants';
+import { slugify } from '../../lib/utils';
 
 // Chat messages handled by useChatStore (see store/chatStore.ts)
 
@@ -216,6 +219,21 @@ const VOICE_PRESETS: VoicePreset[] = [
     { id: 'boy_deep', name: 'Exa (Deep)', gender: 'male', pitch: 0.9, rate: 0.9 },
     { id: 'boy_brisk', name: 'Exa (Brisk)', gender: 'male', pitch: 1.0, rate: 1.1 },
 ];
+
+// Resolve slug or name to the correct SYLLABUS_DB topic
+const resolveSyllabusTopicBySlug = (slug: string) => {
+    if (!slug) return null;
+    const cleanSlug = slug.toLowerCase().replace(/[^a-z0-9\s]/g, '').replace(/\s+/g, '-').trim();
+    for (const subject in SYLLABUS_DB) {
+        const found = SYLLABUS_DB[subject].find(t => {
+            const tSlug = t.topic.toLowerCase().replace(/[^a-z0-9\s]/g, '').replace(/\s+/g, '-').trim();
+            const alternateSlug = slugify(t.topic);
+            return tSlug === cleanSlug || alternateSlug === cleanSlug || t.id === slug;
+        });
+        if (found) return found;
+    }
+    return null;
+};
 
 export const VideoLecturePage = () => {
     const { topicId } = useParams();
@@ -422,6 +440,12 @@ export const VideoLecturePage = () => {
                 if (data.event === 'onStateChange' && data.info === 0 && currentVideo && user) {
                     console.log("[VideoLecture] Video ended naturally. Marking as finished.");
                     markVideoAsFinished(currentVideo.id, user.id, user.userClass, user.targetExam);
+                    
+                    // Mark as watched in SubtopicProgressService for Lectures sequential timeline
+                    const matchedTopic = resolveSyllabusTopicBySlug(topicId || '');
+                    if (matchedTopic) {
+                        SubtopicProgressService.markVideoWatched(user.id, matchedTopic.id, currentVideo.id).catch(console.error);
+                    }
                 }
             } catch (e) {
                 // Ignore non-json messages
@@ -690,6 +714,13 @@ export const VideoLecturePage = () => {
                                     onClick={() => {
                                         if (currentVideo && user) {
                                             markVideoAsFinished(currentVideo.id, user.id, user.userClass, user.targetExam);
+                                            
+                                            // Mark as watched in SubtopicProgressService for Lectures sequential timeline
+                                            const matchedTopic = resolveSyllabusTopicBySlug(topicId || '');
+                                            if (matchedTopic) {
+                                                SubtopicProgressService.markVideoWatched(user.id, matchedTopic.id, currentVideo.id).catch(console.error);
+                                            }
+
                                             // Force re-render to show updated status
                                             setPlaylist({ ...playlist! });
                                         }

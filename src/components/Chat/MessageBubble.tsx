@@ -9,7 +9,7 @@ import 'highlight.js/styles/github-dark.css';
 import { Bot, User, ArrowRight, Volume2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { usePerformance } from '../../context/PerformanceProvider';
-import DOMPurify from 'dompurify';
+import mermaid from 'mermaid';
 
 interface Message {
     id: number;
@@ -19,11 +19,12 @@ interface Message {
     linkText?: string;
     image?: string;
     isStreaming?: boolean;
+    language?: 'en' | 'hi' | 'hinglish';
 }
 
 interface MessageBubbleProps {
     message: Message;
-    onSpeak?: (text: string, id: number) => void;
+    onSpeak?: (text: string, id: number, language?: 'en' | 'hi' | 'hinglish') => void;
     speakingId?: number | null;
 }
 
@@ -88,13 +89,13 @@ const sanitizeMermaid = (chart: string) => {
 
     lines = lines.map(line => {
         let l = line;
-        
-        // Auto-close unclosed node brackets [ ( {
-        const counts = { '[': 0, ']': 0, '(': 0, ')': 0, '{': 0, '}': 0 };
+        const counts = { '[': 0, '(': 0, '{': 0 };
         for (const char of l) {
-            if (counts.hasOwnProperty(char)) counts[char as keyof typeof counts]++; 
+            if (char === '[') counts['[']++;
             else if (char === ']' && counts['['] > 0) counts['[']--;
+            else if (char === '(') counts['(']++;
             else if (char === ')' && counts['('] > 0) counts['(']--;
+            else if (char === '{') counts['{']++;
             else if (char === '}' && counts['{'] > 0) counts['{']--;
         }
         if (counts['['] > 0) l += ']'.repeat(counts['[']);
@@ -155,8 +156,7 @@ const Mermaid = ({ chart, isStreaming }: { chart: string; isStreaming?: boolean 
         let isMounted = true;
         if (ref.current && chart && !isStreaming) {
             const cleanChart = sanitizeMermaid(chart);
-            import('mermaid').then(m => {
-                const mermaid = m.default;
+            try {
                 mermaid.initialize({ 
                     startOnLoad: true, 
                     theme: 'dark',
@@ -174,21 +174,8 @@ const Mermaid = ({ chart, isStreaming }: { chart: string; isStreaming?: boolean 
                     }
                 });
                 mermaid.render(`mermaid-${Math.random().toString(36).substring(2, 9)}`, cleanChart).then(({ svg }) => {
-                    // SILENT FAILURE: Catch version-specific error markers and syntax bombs
-                    const lowerSvg = svg.toLowerCase();
-                    if (lowerSvg.includes('mermaid-error') || 
-                        lowerSvg.includes('syntax error') || 
-                        lowerSvg.includes('error-icon') || 
-                        lowerSvg.includes('failed to render') ||
-                        lowerSvg.includes('error-text') || 
-                        lowerSvg.includes('class="error"') ||
-                        lowerSvg.includes('bomb')) {
-                        setRenderError(true);
-                        if (ref.current) ref.current.innerHTML = '';
-                        return;
-                    }
                     if (isMounted && ref.current) {
-                        ref.current.innerHTML = DOMPurify.sanitize(svg);
+                        ref.current.innerHTML = svg;
                     }
                 }).catch((err) => {
                     if (isMounted) {
@@ -197,7 +184,10 @@ const Mermaid = ({ chart, isStreaming }: { chart: string; isStreaming?: boolean 
                         if (ref.current) ref.current.innerHTML = '';
                     }
                 });
-            });
+            } catch (err) {
+                console.warn("Mermaid initialization failed:", err);
+                setRenderError(true);
+            }
         }
         return () => { isMounted = false; };
     }, [chart, isStreaming]);
@@ -219,6 +209,189 @@ const Mermaid = ({ chart, isStreaming }: { chart: string; isStreaming?: boolean 
         </div>
     );
 };
+
+/**
+ * StreamingMessage — renders the bot message with a premium blur-reveal
+ * materialization effect. It uses a single ReactMarkdown component to preserve
+ * standard HTML layout and markdown parsing, while recursively wrapping
+ * newly streamed characters in a soft blur-fade span.
+ */
+const StreamingMessage = React.memo(({ text, remarkPlugins, rehypePlugins, components }: {
+    text: string;
+    remarkPlugins: any[];
+    rehypePlugins: any[];
+    components: any;
+}) => {
+    const { tier: perfTier } = usePerformance();
+    const prevTextRef = useRef('');
+    const [stableLength, setStableLength] = useState(0);
+
+    useEffect(() => {
+        setStableLength(prevTextRef.current.length);
+        prevTextRef.current = text;
+    }, [text]);
+
+    const charIndexRef = useRef(0);
+
+    // Recursively walk the React children to wrap new text in animated spans
+    const wrapChildren = (children: React.ReactNode): React.ReactNode => {
+        if (children === null || children === undefined) {
+            return children;
+        }
+
+        if (typeof children === 'string' || typeof children === 'number') {
+            const str = String(children);
+            const len = str.length;
+            const startIdx = charIndexRef.current;
+            charIndexRef.current += len;
+
+            // If the entire string is already stable, render as plain text node
+            if (startIdx + len <= stableLength) {
+                return str;
+            }
+
+            // GPU & DOM Optimization: On low-end or balanced devices, do NOT create individual spans 
+            // per character. Instead, wrap the newly-appended block in a single lightweight 'exa-chunk-reveal' span.
+            // This eliminates thousands of DOM nodes and avoids hanging the rendering engine.
+            if (perfTier === 'low' || perfTier === 'balanced') {
+                if (startIdx >= stableLength) {
+                    return (
+                        <span key={startIdx} className="exa-chunk-reveal">
+                            {str}
+                        </span>
+                    );
+                } else {
+                    const stablePart = str.slice(0, stableLength - startIdx);
+                    const newPart = str.slice(stableLength - startIdx);
+                    return (
+                        <React.Fragment key={startIdx}>
+                            {stablePart}
+                            <span className="exa-chunk-reveal">
+                                {newPart}
+                            </span>
+                        </React.Fragment>
+                    );
+                }
+            }
+
+            // Split and wrap only the characters in the active animation window
+            const elements: React.ReactNode[] = [];
+            for (let i = 0; i < len; i++) {
+                const globalIdx = startIdx + i;
+                const char = str[i];
+
+                if (globalIdx < stableLength) {
+                    elements.push(char);
+                } else {
+                    const delayMs = (globalIdx - stableLength) * 8; // Ultra smooth 8ms stagger
+                    elements.push(
+                        <span
+                            key={globalIdx}
+                            className="exa-char-reveal"
+                            style={{
+                                animationDelay: `${delayMs}ms`,
+                            }}
+                        >
+                            {char}
+                        </span>
+                    );
+                }
+            }
+            return elements;
+        }
+
+        if (Array.isArray(children)) {
+            return children.map((child, index) => {
+                if (child === null || child === undefined) return null;
+                return (
+                    <React.Fragment key={index}>
+                        {wrapChildren(child)}
+                    </React.Fragment>
+                );
+            });
+        }
+
+        if (React.isValidElement(children)) {
+            const element = children as React.ReactElement<any>;
+            if (element.props && element.props.children !== undefined) {
+                return React.cloneElement(element, {
+                    ...element.props,
+                    children: wrapChildren(element.props.children),
+                });
+            }
+            return element;
+        }
+
+        return children;
+    };
+
+    // Override elements to inject the character wrapper
+    const animatedComponents = useMemo(() => {
+        const override = (Tag: string) => {
+            return ({ children, ...props }: any) => {
+                return <Tag {...props}>{wrapChildren(children)}</Tag>;
+            };
+        };
+
+        return {
+            ...components,
+            p: override('p'),
+            span: override('span'),
+            strong: override('strong'),
+            em: override('em'),
+            a: override('a'),
+            li: override('li'),
+            h1: override('h1'),
+            h2: override('h2'),
+            h3: override('h3'),
+            h4: override('h4'),
+            h5: override('h5'),
+            h6: override('h6'),
+            td: override('td'),
+            th: override('th'),
+            code({ node, inline, className, children, ...props }: any) {
+                const match = /language-(\w+)/.exec(className || '');
+                const lang = match ? match[1] : '';
+                
+                if (!inline && lang === 'mermaid') {
+                    // Do NOT wrap children of Mermaid diagrams!
+                    if (components.code) {
+                        return components.code({ node, inline, className, children, ...props });
+                    }
+                    return <Mermaid chart={String(children).replace(/\n$/, '')} isStreaming={true} />;
+                }
+
+                // For normal code blocks, wrap children to let code stream beautifully
+                if (components.code) {
+                    const rendered = components.code({ node, inline, className, children, ...props });
+                    if (React.isValidElement(rendered)) {
+                        const el = rendered as React.ReactElement<any>;
+                        return React.cloneElement(el, {
+                            ...el.props,
+                            children: wrapChildren(el.props.children)
+                        });
+                    }
+                    return rendered;
+                }
+                return <code className={className} {...props}>{wrapChildren(children)}</code>;
+            }
+        };
+    }, [components, stableLength]);
+
+    // Reset character counter before rendering the ReactMarkdown tree
+    charIndexRef.current = 0;
+
+    return (
+        <ReactMarkdown
+            remarkPlugins={remarkPlugins}
+            rehypePlugins={rehypePlugins}
+            components={animatedComponents}
+        >
+            {text}
+        </ReactMarkdown>
+    );
+});
+
 
 export const MessageBubble: React.FC<MessageBubbleProps> = React.memo(({ message, onSpeak, speakingId }) => {
     const { tier: perfTier } = usePerformance();
@@ -249,7 +422,7 @@ export const MessageBubble: React.FC<MessageBubbleProps> = React.memo(({ message
                 </code>
             );
         }
-    }), []);
+    }), [message.isStreaming]);
 
     return (
         <div className={`flex w-full mb-6 ${isBot ? 'justify-start' : 'justify-end'}`}>
@@ -286,14 +459,24 @@ export const MessageBubble: React.FC<MessageBubbleProps> = React.memo(({ message
                         <div className={`prose prose-invert prose-xs max-w-none 
                             prose-p:my-0 prose-p:leading-relaxed prose-pre:bg-transparent prose-pre:border-none prose-pre:p-0
                             prose-code:text-[#cdbdff]/90 prose-code:bg-white/10 prose-code:px-1 prose-code:rounded
-                            prose-strong:font-black ${!isBot ? 'prose-p:text-white prose-strong:text-white prose-headings:text-white' : ''}`}>
-                            <ReactMarkdown 
-                                remarkPlugins={remarkPlugins as any} 
-                                rehypePlugins={rehypePlugins as any}
-                                components={components as any}
-                            >
-                                {message.text}
-                            </ReactMarkdown>
+                            prose-strong:font-black ${!isBot ? 'prose-p:text-white prose-strong:text-white prose-headings:text-white' : ''}
+                            ${message.isStreaming && isBot ? 'is-streaming' : ''}`}>
+                            {message.isStreaming && isBot ? (
+                                <StreamingMessage
+                                    text={message.text}
+                                    remarkPlugins={remarkPlugins as any}
+                                    rehypePlugins={rehypePlugins as any}
+                                    components={components as any}
+                                />
+                            ) : (
+                                <ReactMarkdown 
+                                    remarkPlugins={remarkPlugins as any} 
+                                    rehypePlugins={rehypePlugins as any}
+                                    components={components as any}
+                                >
+                                    {message.text}
+                                </ReactMarkdown>
+                            )}
                         </div>
 
                         {message.link && (
@@ -317,7 +500,7 @@ export const MessageBubble: React.FC<MessageBubbleProps> = React.memo(({ message
                             <button 
                                 onClick={(e) => {
                                     e.stopPropagation();
-                                    onSpeak(message.text, message.id);
+                                    onSpeak(message.text, message.id, message.language);
                                 }}
                                 className={`message-play-btn ${speakingId === message.id ? 'playing' : ''}`}
                                 title={speakingId === message.id ? "Pause" : "Listen"}

@@ -91,12 +91,10 @@ async function generateSitemap() {
             else if (meta.type === 'collection') { priority = 0.8; changefreq = 'weekly'; }
             else if (url.includes('/q/')) { priority = 0.5; changefreq = 'monthly'; }
 
-            // Cloudflare Pages serves folders as directories with trailing slashes, e.g. /blog/
-            // Appending a trailing slash to all page URLs avoids 308 redirect loops for indexers.
-            let sitemapUrl = url;
-            if (sitemapUrl !== '/' && !sitemapUrl.endsWith('/')) {
-                sitemapUrl += '/';
-            }
+            // Cloudflare Pages serves SPA routes WITHOUT trailing slashes.
+            // Sitemap URLs must exactly match what is served to avoid redirect errors.
+            // Do NOT append trailing slashes — they cause 308 redirects on Cloudflare Pages.
+            const sitemapUrl = url;
 
             const escapedLoc = escapeXml(`${BASE_URL}${sitemapUrl}`);
 

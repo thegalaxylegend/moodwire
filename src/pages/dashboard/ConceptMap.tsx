@@ -3,6 +3,8 @@ import mermaid from 'mermaid';
 import DOMPurify from 'dompurify';
 import { SYLLABUS_DB } from '../../lib/constants';
 import { useUserStore } from '../../store/userStore';
+import { useNavigate } from 'react-router-dom';
+import { SubtopicProgressService } from '../../services/subtopicProgressService';
 
 import { Network, RefreshCw } from 'lucide-react';
 import { getWeakTopics } from '../../services/topicStrengthService';
@@ -21,18 +23,26 @@ mermaid.initialize({
 
 export const ConceptMap = () => {
     const { user } = useUserStore();
+    const navigate = useNavigate();
     const [selectedSubject, setSelectedSubject] = useState<string>('Physics');
     const [svgCode, setSvgCode] = useState<string>('');
     const [isRendering, setIsRendering] = useState<boolean>(true);
     const [weakTopics, setWeakTopics] = useState<string[]>([]);
+    const [progressMap, setProgressMap] = useState<Record<string, any>>(() => {
+        return user ? SubtopicProgressService.getAllProgress(user.id) : {};
+    });
     
-    // Load weak topics to color code nodes
+    // Load weak topics and chapter progress to color code nodes
     useEffect(() => {
         if (user) {
             getWeakTopics(user.id, 50, user.userClass, user.targetExam).then(stats => {
                 const weak = stats.map(s => s.topic);
                 setWeakTopics(weak);
             }).catch(err => console.error("Failed to load weak stats", err));
+
+            SubtopicProgressService.loadFromCloud(user.id).then(() => {
+                setProgressMap(SubtopicProgressService.getAllProgress(user.id));
+            }).catch(err => console.error("Failed to load progress stats", err));
         }
     }, [user]);
 
@@ -70,11 +80,14 @@ export const ConceptMap = () => {
                 topics.forEach(t => {
                     const tId = cleanId(t.id);
                     // Add node text
-                    const isWeak = weakTopics.includes(t.topic);
-                    const styleClass = isWeak ? 'weak' : 'neutral'; // Defaults to neutral unless marked weak
+                    const topicProgress = progressMap[t.id];
+                    const isMastered = topicProgress?.state === 'mastered';
+                    const isWeak = weakTopics.includes(t.topic) || topicProgress?.state === 'review_needed';
+                    const styleClass = isMastered ? 'strong' : isWeak ? 'weak' : 'neutral';
                     
-                    // Simple HTML label for better rendering
-                    mermaidDef += `${tId}["${t.topic}"]:::${styleClass}\n`;
+                    // HTML anchor label for deep linking
+                    const topicLabel = `<a href='/dashboard/lectures?subject=${encodeURIComponent(selectedSubject)}&chapter=${t.id}' style='color:inherit;text-decoration:none;'>${t.topic}</a>`;
+                    mermaidDef += `${tId}["${topicLabel}"]:::${styleClass}\n`;
 
                     // Add links
                     if (t.prerequisites && t.prerequisites.length > 0) {
@@ -114,7 +127,7 @@ export const ConceptMap = () => {
             isMounted = false;
             clearTimeout(timeoutId);
         };
-    }, [selectedSubject, weakTopics]);
+    }, [selectedSubject, weakTopics, progressMap]);
 
     return (
         <div className="min-h-screen bg-[#0a0b10] text-white">

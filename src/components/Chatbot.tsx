@@ -9,23 +9,12 @@ import { ChatWindow } from './Chat/ChatWindow';
 import { InputBar } from './Chat/InputBar';
 import { CallOverlay } from './Chat/CallOverlay';
 import { AnimatePresence, motion } from 'framer-motion';
-import { ttsManager } from '../lib/tts/TTSManager';
+import { ttsManager, VOICE_PRESETS } from '../lib/tts/TTSManager';
 import { usePerformance } from '../context/PerformanceProvider';
+import { cleanTextForSpeech } from '../lib/utils';
 
 // Emotion Definitions
 type ExaEmotion = 'neutral' | 'listening' | 'thinking' | 'speaking' | 'excited' | 'shy';
-
-// Voice Preset Definition
-interface VoicePreset {
-    id: string;
-    name: string;
-    gender: 'female' | 'male';
-    pitch: number;
-    rate: number;
-    isNeural?: boolean;
-    modelUrl?: string;
-    tokensUrl?: string;
-}
 
 const DYNAMIC_GREETINGS = [
     "Oh, you're back? ✨",
@@ -34,60 +23,6 @@ const DYNAMIC_GREETINGS = [
     "Ready to ace that exam? 🌸"
 ];
 
-const VOICE_PRESETS: VoicePreset[] = [
-    { 
-        id: 'kristin_neural', 
-        name: 'Exa (Natural)', 
-        gender: 'female', 
-        pitch: 1.0, 
-        rate: 1.0, 
-        isNeural: true,
-        modelUrl: 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-us-kristin-medium/resolve/main/en_US-kristin-medium.onnx',
-        tokensUrl: 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-us-kristin-medium/resolve/main/tokens.txt'
-    },
-    { 
-        id: 'lessac_neural', 
-        name: 'Exa (Tutor)', 
-        gender: 'female', 
-        pitch: 1.0, 
-        rate: 1.0, 
-        isNeural: true,
-        modelUrl: 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-us-lessac-low/resolve/main/en_US-lessac-low.onnx',
-        tokensUrl: 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-us-lessac-low/resolve/main/tokens.txt'
-    },
-    { 
-        id: 'southern_neural', 
-        name: 'Exa (British)', 
-        gender: 'female', 
-        pitch: 1.0, 
-        rate: 1.0, 
-        isNeural: true,
-        modelUrl: 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-gb-southern_english_female-low/resolve/main/en_GB-southern_english_female-low.onnx',
-        tokensUrl: 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-gb-southern_english_female-low/resolve/main/tokens.txt'
-    },
-    { 
-        id: 'amy_neural', 
-        name: 'Exa (Friendly)', 
-        gender: 'female', 
-        pitch: 1.0, 
-        rate: 1.0, 
-        isNeural: true,
-        modelUrl: 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-amy-low/resolve/main/model.onnx',
-        tokensUrl: 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-amy-low/resolve/main/tokens.txt'
-    },
-    { 
-        id: 'hindi_neural', 
-        name: 'Exa (Bharat)', 
-        gender: 'female', 
-        pitch: 1.0,
-        rate: 1.0,
-        isNeural: true,
-        modelUrl: 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-hi-p302-low/resolve/main/hi_p302_low.onnx',
-        tokensUrl: 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-hi-p302-low/resolve/main/tokens.txt'
-    },
-    { id: 'girl_sweet', name: 'Exa (Sweet)', gender: 'female', pitch: 1.15, rate: 1.05 },
-    { id: 'boy_chill', name: 'Exa (Chill)', gender: 'male', pitch: 1.0, rate: 0.95 },
-];
 
 export const Chatbot = () => {
     const { tier: perfTier } = usePerformance();
@@ -111,7 +46,7 @@ export const Chatbot = () => {
     const [, ] = useState<ExaEmotion>('neutral');
     const [isMicMuted, setIsMicMuted] = useState(false);
     const [isTTSLoading, setIsTTSLoading] = useState(false);
-    const [selectedPresetId, setSelectedPresetId] = useState<string>(() => localStorage.getItem('exa_voice_id') || localStorage.getItem('exa_voice_preset_id') || "kristin_neural");
+    const [selectedPresetId, setSelectedPresetId] = useState<string>(() => localStorage.getItem('exa_voice_id') || localStorage.getItem('exa_voice_preset_id') || "eng_f1_neural");
     const [suggestions, setSuggestions] = useState<string[]>([]);
 
     const recognitionRef = useRef<any>(null);
@@ -144,6 +79,20 @@ export const Chatbot = () => {
             document.documentElement.classList.remove('chat-open');
         };
     }, [isOpen, isMinimized, isCallMode]);
+
+    // Sync default voice when language changes
+    useEffect(() => {
+        const currentPreset = VOICE_PRESETS.find(p => p.id === selectedPresetId);
+        if (!currentPreset || currentPreset.lang !== selectedLanguage) {
+            let defaultId = 'eng_f1_neural';
+            if (selectedLanguage === 'hi') {
+                defaultId = 'hin_f1_neural';
+            } else if (selectedLanguage === 'hinglish') {
+                defaultId = 'hgl_f1_desigirl';
+            }
+            setSelectedPresetId(defaultId);
+        }
+    }, [selectedLanguage, selectedPresetId]);
 
     // Contextual Suggestions Logic
     useEffect(() => {
@@ -244,19 +193,21 @@ export const Chatbot = () => {
         }
     };
 
-    const speak = async (text: string, cancelPending = false) => {
-        let cleanText = text.replace(/([\u2700-\u27BF]|[\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDD10-\uDDFF])/g, '');
-        cleanText = cleanText.replace(/\$\$[\s\S]*?\$\$/g, '').replace(/\$[^$]*?\$/g, '').replace(/\\(text|frac|sqrt|left|right|times|cdot|geq|leq|neq|approx|infty|sum|int|prod|lim|rightarrow|leftarrow|Rightarrow|AA)\b\{?[^}]*\}?/g, '');
-        cleanText = cleanText.replace(/\*{1,3}(.*?)\*{1,3}/g, '$1').replace(/_{1,3}(.*?)_{1,3}/g, '$1').replace(/`{1,3}[^`]*`{1,3}/g, '').replace(/^#{1,6}\s+/gm, '').replace(/\[([^\]]*)\]\([^)]*\)/g, '$1').replace(/^[-*+]\s+/gm, '').replace(/^\d+\.\s+/gm, '').replace(/^>\s+/gm, '').replace(/\|/g, '').replace(/---+/g, '').trim();
+    const speak = async (text: string, cancelPending = false, messageLanguage?: 'en' | 'hi' | 'hinglish') => {
+        const cleanText = cleanTextForSpeech(text);
 
         if (isMuted || !cleanText) return;
 
+        const activeLanguage = messageLanguage || selectedLanguage;
         const preset = VOICE_PRESETS.find(p => p.id === selectedPresetId) || VOICE_PRESETS[0];
 
-        // AUTO-SWITCH TO HINDI MODEL IF LANG IS HI
-        const isHindiMode = selectedLanguage === 'hi';
-        const finalModelId = isHindiMode ? 'hindi_neural' : selectedPresetId;
-        const finalPreset = VOICE_PRESETS.find(p => p.id === finalModelId) || preset;
+        // Safe Fallback Switch: Ensure voice preset matches active language
+        let finalPreset = preset;
+        if (preset.lang !== activeLanguage) {
+            finalPreset = VOICE_PRESETS.find(p => p.lang === activeLanguage && p.gender === preset.gender)
+                || VOICE_PRESETS.find(p => p.lang === activeLanguage)
+                || VOICE_PRESETS[0];
+        }
 
         // NEW: Neural Engine Logic / Modified for Loading Feedback + Thermal Safety
         const isThermalThrottling = perfTier === 'low';
@@ -288,7 +239,7 @@ export const Chatbot = () => {
         if (window.speechSynthesis.getVoices().length === 0) {
             const handleVoicesChanged = () => {
                 window.speechSynthesis.removeEventListener('voiceschanged', handleVoicesChanged);
-                speak(text, cancelPending);
+                speak(text, cancelPending, messageLanguage);
             };
             window.speechSynthesis.addEventListener('voiceschanged', handleVoicesChanged);
             return;
@@ -300,19 +251,50 @@ export const Chatbot = () => {
         let systemVoice: SpeechSynthesisVoice | undefined;
         const findByName = (keywords: string[]) => voices.find(v => keywords.some(k => v.name.includes(k)));
 
-        if (preset.gender === 'female') {
-            systemVoice = findByName(['Google US English', 'Samantha', 'Zira', 'Microsoft Zira', 'Google UK English Female', 'En-US-Female', 'Female', 'female'])
-                || voices.find(v => v.lang.startsWith('en') && !v.name.toLowerCase().includes('male'))
-                || voices[0];
+        // Select native system voice based on active language and gender
+        if (activeLanguage === 'hi') {
+            const hiVoices = voices.filter(v => v.lang.startsWith('hi'));
+            if (finalPreset.gender === 'female') {
+                systemVoice = findByName(['Google हिन्दी', 'Kalpana', 'Microsoft Kalpana', 'Heera', 'Google Hindi']) 
+                    || hiVoices.find(v => !v.name.toLowerCase().includes('male'))
+                    || hiVoices[0]
+                    || voices[0];
+            } else {
+                systemVoice = findByName(['Hemant', 'Microsoft Hemant', 'Google Hindi Male'])
+                    || hiVoices.find(v => v.name.toLowerCase().includes('male'))
+                    || hiVoices[0]
+                    || voices[0];
+            }
+        } else if (activeLanguage === 'hinglish') {
+            // For Hinglish, prefer Indian English (en-IN) voices because they pronounce Hindi words with correct accent
+            const inVoices = voices.filter(v => v.lang.toLowerCase().includes('in') || v.lang.toLowerCase().startsWith('hi'));
+            if (finalPreset.gender === 'female') {
+                systemVoice = findByName(['Google India English', 'Google Hindi', 'Heera', 'Kalpana', 'Microsoft Heera', 'Microsoft Kalpana'])
+                    || inVoices.find(v => !v.name.toLowerCase().includes('male'))
+                    || findByName(['Google US English', 'Google UK English Female', 'Samantha', 'Zira', 'Microsoft Zira'])
+                    || voices[0];
+            } else {
+                systemVoice = findByName(['Google India English Male', 'Hemant', 'Microsoft Hemant', 'Google Hindi Male'])
+                    || inVoices.find(v => v.name.toLowerCase().includes('male'))
+                    || findByName(['Google UK English Male', 'Daniel', 'Google US English Male', 'David', 'Microsoft David'])
+                    || voices[0];
+            }
         } else {
-            systemVoice = findByName(['Google UK English Male', 'Daniel', 'Google US English Male', 'David', 'Microsoft David', 'En-US-Male', 'Male', 'male'])
-                || voices.find(v => v.lang.startsWith('en'))
-                || voices[0];
+            // English
+            if (finalPreset.gender === 'female') {
+                systemVoice = findByName(['Google US English', 'Samantha', 'Zira', 'Microsoft Zira', 'Google UK English Female'])
+                    || voices.find(v => v.lang.startsWith('en') && !v.name.toLowerCase().includes('male'))
+                    || voices[0];
+            } else {
+                systemVoice = findByName(['Google UK English Male', 'Daniel', 'Google US English Male', 'David', 'Microsoft David'])
+                    || voices.find(v => v.lang.startsWith('en'))
+                    || voices[0];
+            }
         }
 
         if (systemVoice) utterance.voice = systemVoice;
-        utterance.pitch = preset.pitch;
-        utterance.rate = preset.rate;
+        utterance.pitch = finalPreset.pitch;
+        utterance.rate = finalPreset.rate;
         utterance.volume = 1;
 
         utterance.onstart = () => setIsSpeaking(true);
@@ -333,7 +315,8 @@ export const Chatbot = () => {
         const userText = overrideText || input;
         if (!userText.trim() && !selectedImage) return;
         const userImg = selectedImage;
-        const userMsg: Message = { id: Date.now(), text: userText, sender: 'user', image: userImg || undefined };
+        const streamLanguage = selectedLanguage;
+        const userMsg: Message = { id: Date.now(), text: userText, sender: 'user', image: userImg || undefined, language: streamLanguage };
         
         addMessage(userMsg);
         setInput("");
@@ -348,11 +331,11 @@ export const Chatbot = () => {
         const isVisualRequest = lowText.match(/diagram|draw|visual|map|flowchart|chart|explanation|graph/);
         const isDoubtRequest = lowText.match(/solve|doubt|question|explain why|how to|answer|options/) || selectedImage;
 
-        let promptOverride = "";
+        let promptOverride = `[SYSTEM: USER PREFERRED LANGUAGE: ${streamLanguage.toUpperCase()}. YOU MUST RESPOND IN ${streamLanguage.toUpperCase()} ONLY.]\n`;
         if (isVisualRequest) {
-            promptOverride = `[PROTOCOL: CRYSTALLINE DIAGRAM] Use professional Mermaid.js code only. No ASCII art. For 2D/math graphs (e.g. v-t graphs, equations), use exactly this syntax:\n\`\`\`mermaid\nxychart-beta\n  x-axis [0, 1, 2, 3, 4, 5, 6]\n  y-axis "Label" 0 --> 20\n  line [0, 2, 4, 6, 8, 10, 12]\n\`\`\`\nCRITICAL RULES:\n1. NEVER use 2D arrays like [[0,0], [1,1]]. You MUST use two separate flat arrays.\n2. Calculate high-resolution coordinates (at least 5-8 points) for smooth mathematical curves.\n3. NEVER use 'note' or flowchart commands.\n4. ALWAYS put a newline before x-axis, y-axis, and line. Do not use graph TD for coordinate graphs.\n`;
+            promptOverride += `[PROTOCOL: CRYSTALLINE DIAGRAM] Use professional Mermaid.js code only. No ASCII art. For 2D/math graphs (e.g. v-t graphs, equations), use exactly this syntax:\n\`\`\`mermaid\nxychart-beta\n  x-axis [0, 1, 2, 3, 4, 5, 6]\n  y-axis "Label" 0 --> 20\n  line [0, 2, 4, 6, 8, 10, 12]\n\`\`\`\nCRITICAL RULES:\n1. NEVER use 2D arrays like [[0,0], [1,1]]. You MUST use two separate flat arrays.\n2. Calculate high-resolution coordinates (at least 5-8 points) for smooth mathematical curves.\n3. NEVER use 'note' or flowchart commands.\n4. ALWAYS put a newline before x-axis, y-axis, and line. Do not use graph TD for coordinate graphs.\n`;
         } else if (isDoubtRequest) {
-            promptOverride = `[PROTOCOL: DOUBT SOLVER]\nYou are acting as an elite tutor.\n1. PRE-CHECK: Understand the question deeply.\n2. STEP-BY-STEP: Provide a very rigorous, step-by-step logical breakdown.\n3. WHY OTHERS ARE WRONG: Explicitly analyze the incorrect options or alternate methods and explain why they fail.\n4. TONE: Encouraging but purely academic.\nIf the student says "Teach me like I'm 12", use simple analogies.\n`;
+            promptOverride += `[PROTOCOL: DOUBT SOLVER]\nYou are acting as an elite tutor.\n1. PRE-CHECK: Understand the question deeply.\n2. STEP-BY-STEP: Provide a very rigorous, step-by-step logical breakdown.\n3. WHY OTHERS ARE WRONG: Explicitly analyze the incorrect options or alternate methods and explain why they fail.\n4. TONE: Encouraging but purely academic.\nIf the student says "Teach me like I'm 12", use simple analogies.\n`;
         }
 
         setIsThinking(true);
@@ -382,12 +365,12 @@ export const Chatbot = () => {
                 undefined,
                 [],
                 (searching: boolean) => setIsSearching(searching),
-                { language: selectedLanguage }
+                { language: streamLanguage }
             );
 
             if (typeof response === 'string') {
-                addMessage({ id: Date.now() + 1, text: response, sender: 'bot' });
-                speak(response, true);
+                addMessage({ id: Date.now() + 1, text: response, sender: 'bot', language: streamLanguage });
+                speak(response, true, streamLanguage);
             } else {
                 let fullText = "";
                 const botId = Date.now() + 1;
@@ -397,6 +380,9 @@ export const Chatbot = () => {
                     streamingTextRef.current = "";
                     lastUpdateRef.current = Date.now();
                     spokenUpToRef.current = 0;
+
+                    const displayedTextRef = { current: "" };
+                    let isStreamActive = true;
 
                     const speakPending = (isFinal = false) => {
                         if (isMuted) return; // Silent Buffer: Don't even process if muted
@@ -410,14 +396,55 @@ export const Chatbot = () => {
                         
                         if (match) {
                             const sentence = match[0].trim();
-                            if (sentence) speak(sentence);
+                            if (sentence) speak(sentence, false, streamLanguage);
                             spokenUpToRef.current = spoken + match[0].length;
                         } else if (isFinal && remaining.trim()) {
                             // Only speak the final remainder if it's not empty
-                            speak(remaining.trim());
+                            speak(remaining.trim(), false, streamLanguage);
                             spokenUpToRef.current = spoken + remaining.length;
                         }
                     };
+
+                    // Premium liquid character reveal queue — delivers a steady stream of characters
+                    // at high frequency (16ms) to produce an ultra-fluid, continuous water-like flow
+                    const runTypingLoop = new Promise<void>((resolve) => {
+                        const typeNext = () => {
+                            const raw = streamingTextRef.current;
+                            const disp = displayedTextRef.current;
+
+                            if (disp.length < raw.length) {
+                                const remaining = raw.slice(disp.length);
+                                const diff = raw.length - disp.length;
+
+                                // Highly fluid dynamic character stream
+                                let charsToTake = 2; // base speed: 2 chars per tick
+                                if (diff > 400) charsToTake = 12; // catch up fast if heavily lagging
+                                else if (diff > 150) charsToTake = 6;
+                                else if (diff > 50) charsToTake = 3;
+
+                                displayedTextRef.current += remaining.slice(0, charsToTake);
+
+                                if (!botMessageAdded && displayedTextRef.current.trim()) {
+                                    addMessage({ id: botId, text: displayedTextRef.current, sender: 'bot', isStreaming: true, language: streamLanguage });
+                                    botMessageAdded = true;
+                                }
+                                if (botMessageAdded) {
+                                    setMessages((prev: Message[]) => prev.map(m =>
+                                        m.id === botId ? { ...m, text: displayedTextRef.current, isStreaming: true, language: streamLanguage } : m
+                                    ));
+                                }
+
+                                // 16ms interval matches monitor refresh ticks for cinematic fluid updates
+                                const delay = diff > 150 ? 10 : 16;
+                                setTimeout(typeNext, delay);
+                            } else if (isStreamActive) {
+                                setTimeout(typeNext, 16);
+                            } else {
+                                resolve();
+                            }
+                        };
+                        typeNext();
+                    });
 
                     for await (const chunk of (response as any)) {
                         // Normalize both Groq format {choices[0].delta.content} and Gemini passthrough
@@ -426,24 +453,12 @@ export const Chatbot = () => {
                             ?? "";
                         if (content) {
                             streamingTextRef.current += content;
-                            
-                            if (!botMessageAdded && streamingTextRef.current.trim()) {
-                                addMessage({ id: botId, text: streamingTextRef.current, sender: 'bot', isStreaming: true });
-                                botMessageAdded = true;
-                            }
-
-                            const now = Date.now();
-                            if (botMessageAdded && now - lastUpdateRef.current > 150) {
-                                fullText = streamingTextRef.current;
-                                setMessages((prev: Message[]) => prev.map(m => 
-                                    m.id === botId ? { ...m, text: fullText, isStreaming: true } : m
-                                ));
-                                lastUpdateRef.current = now;
-                            }
-
                             speakPending();
                         }
                     }
+                    isStreamActive = false;
+                    await runTypingLoop;
+
                     fullText = streamingTextRef.current;
                     speakPending(true); // Final check for any remaining text
                 } else {
@@ -452,17 +467,17 @@ export const Chatbot = () => {
                 
                 if (botMessageAdded) {
                     setMessages((prev: Message[]) => prev.map(m => 
-                        m.id === botId ? { ...m, text: fullText, isStreaming: false } : m
+                        m.id === botId ? { ...m, text: fullText, isStreaming: false, language: streamLanguage } : m
                     ));
                 } else if (fullText.trim()) {
-                    addMessage({ id: botId, text: fullText, sender: 'bot', isStreaming: false });
+                    addMessage({ id: botId, text: fullText, sender: 'bot', isStreaming: false, language: streamLanguage });
                 }
                 
                 if (userText.length > 30) {
                     extractAndSaveMemory(userText);
                 }
                 const remainder = fullText.slice(spokenUpToRef.current).trim();
-                if (remainder) speak(remainder, false);
+                if (remainder) speak(remainder, false, streamLanguage);
             }
         } catch (err) {
             addMessage({ id: Date.now() + 1, text: "I'm having a connection issue. Try again? 🌸", sender: 'bot' });
@@ -475,12 +490,24 @@ export const Chatbot = () => {
         const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
         if (!SpeechRecognition) return;
         const recognition = new SpeechRecognition();
-        recognition.lang = 'en-IN';
+        
+        // Match language recognition to active language
+        if (selectedLanguage === 'hi') {
+            recognition.lang = 'hi-IN';
+        } else if (selectedLanguage === 'hinglish') {
+            recognition.lang = 'hi-IN'; // Indian speech recognition handles hybrid Hinglish best
+        } else {
+            recognition.lang = 'en-IN';
+        }
+        
         recognition.onstart = () => setIsListening(true);
         recognition.onend = () => setIsListening(false);
         recognition.onresult = (event: any) => {
             const transcript = event.results[0][0].transcript;
             setInput(transcript);
+            if (isCallMode) {
+                handleSend(undefined, transcript);
+            }
         };
         if (isMicMuted) return;
         recognition.start();
@@ -614,16 +641,18 @@ export const Chatbot = () => {
                             }}
                             onClose={handleClose}
                             isCallMode={isCallMode}
-                            setIsCallMode={setIsCallMode}
+                            setIsCallMode={(val) => {
+                                setIsCallMode(val);
+                                if (val) {
+                                    setIsMuted(false); // Auto unmute when call starts
+                                }
+                            }}
                             isMuted={isMuted}
                             setIsMuted={setIsMuted}
                             selectedLanguage={selectedLanguage}
                             onSelectLanguage={setLanguage}
-                            voicePresets={VOICE_PRESETS.filter(v => {
-                                if (selectedLanguage === 'hi') return v.id === 'hindi_neural';
-                                return v.id !== 'hindi_neural';
-                            })}
-                            selectedPresetId={selectedLanguage === 'hi' ? 'hindi_neural' : selectedPresetId}
+                            voicePresets={VOICE_PRESETS.filter(v => v.lang === selectedLanguage)}
+                            selectedPresetId={selectedPresetId}
                              onSelectPreset={(id) => {
                                  const preset = VOICE_PRESETS.find(p => p.id === id);
                                  if (!preset) return;

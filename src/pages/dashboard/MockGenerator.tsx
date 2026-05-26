@@ -51,7 +51,7 @@ export const MockGenerator = () => {
     const urlTopic = searchParams.get('topic');
     const isTestingUntimed = false;
 
-    const [mode, setMode] = useState<'quick' | 'topic' | 'full' | 'diagnostic' | 'remediation'>('quick');
+    const [mode, setMode] = useState<'quick' | 'topic' | 'full' | 'diagnostic' | 'remediation' | 'learned'>('quick');
     const [difficulty, setDifficulty] = useState<'Exam_Level' | 'Slightly_Harder' | 'Mains' | 'Advanced'>('Exam_Level');
     const [step, setStep] = useState<'config' | 'loading' | 'preview' | 'exam' | 'result' | 'history' | 'review'>('config');
     const [questions, setQuestions] = useState<Question[]>([]);
@@ -209,7 +209,10 @@ export const MockGenerator = () => {
             if (historyParam === 'true') {
                 setStep('history');
             } else if (modeParam) {
-                const standardizedMode = modeParam === 'Quick_Test' ? 'quick' : (modeParam === 'Full_Mock' ? 'full' : 'quick');
+                const standardizedMode = 
+                    modeParam === 'Quick_Test' ? 'quick' : 
+                    modeParam === 'Full_Mock' ? 'full' : 
+                    (modeParam === 'learned' || modeParam === 'Learned_Chapters') ? 'learned' : 'quick';
                 setMode(standardizedMode as any);
                 if (diffParam) setDifficulty(diffParam as any);
                 generateExam(standardizedMode as any);
@@ -320,7 +323,7 @@ export const MockGenerator = () => {
                 wrongCount: attemptedCount - correctCount,
                 totalQuestions: questions.length,
                 pendingSync: syncError,
-                topic: mode === 'topic' ? (urlTopic || 'Topic') : (mode === 'quick' ? 'Quick Test' : 'Full Mock'),
+                topic: mode === 'topic' ? (urlTopic || 'Topic') : (mode === 'quick' ? 'Quick Test' : (mode === 'learned' ? 'Learned Chapters' : 'Full Mock')),
                 user_class: user.userClass || 'General',
                 weakTopics: questions.filter((q, i) => {
                     const ans = answers[i];
@@ -412,7 +415,7 @@ export const MockGenerator = () => {
         if (mode === 'review') { setStep('review'); setCurrentQ(0); } else { setStep('exam'); }
     };
 
-    const generateExam = async (examMode: 'quick' | 'topic' | 'full' | 'diagnostic' | 'remediation', topic?: string, focus?: 'CONCEPTUAL' | 'SILLY' | 'TIME' | 'MISREAD') => {
+    const generateExam = async (examMode: 'quick' | 'topic' | 'full' | 'diagnostic' | 'remediation' | 'learned', topic?: string, focus?: 'CONCEPTUAL' | 'SILLY' | 'TIME' | 'MISREAD') => {
         setStep('loading');
         setQuestions([]);
         setAnswers({});
@@ -496,6 +499,67 @@ export const MockGenerator = () => {
                         remediationFocus: focus || 'CONCEPTUAL'
                     }));
                 }
+            } else if (examMode === 'learned') {
+                setTimeRemaining(30 * 60);
+                setLoadingMessage("Calibrating Test from Learned Chapters...");
+                
+                const { SubtopicProgressService } = await import('../../services/subtopicProgressService');
+                const progress = SubtopicProgressService.getAllProgress(user!.id);
+                
+                // Chapters that have been started or mastered
+                const learnedChapters = Object.values(progress).filter(
+                    p => p.state === 'in_progress' || p.state === 'mastered'
+                );
+
+                if (learnedChapters.length === 0) {
+                    setStep('config');
+                    setAlertModal({
+                        open: true,
+                        title: "No Learned Chapters Yet",
+                        message: "You haven't started or mastered any chapters. Study a chapter first in the Lectures timeline to take this test!",
+                        type: 'info'
+                    });
+                    return;
+                }
+
+                // Map chapters back to SYLLABUS_DB to get topic name and subject
+                const findTopicById = (topicId: string) => {
+                    for (const subject in SYLLABUS_DB) {
+                        const found = SYLLABUS_DB[subject].find(t => t.id === topicId);
+                        if (found) return { topic: found.topic, subject };
+                    }
+                    return null;
+                };
+
+                const topicsToTest = learnedChapters
+                    .map(lc => findTopicById(lc.topicId))
+                    .filter((t): t is { topic: string; subject: string } => t !== null);
+
+                if (topicsToTest.length === 0) {
+                    setStep('config');
+                    setAlertModal({
+                        open: true,
+                        title: "No Active Topics Found",
+                        message: "We couldn't match your active chapters to the syllabus. Please start studying other chapters.",
+                        type: 'warning'
+                    });
+                    return;
+                }
+
+                // Distribute question counts (e.g. 10 questions total)
+                const totalQuestionsToGenerate = 10;
+                const baseCount = Math.floor(totalQuestionsToGenerate / topicsToTest.length);
+                let remainder = totalQuestionsToGenerate % topicsToTest.length;
+
+                needs = topicsToTest.map((t) => {
+                    const count = baseCount + (remainder > 0 ? 1 : 0);
+                    if (remainder > 0) remainder--;
+                    return {
+                        subject: t.subject,
+                        topic: t.topic,
+                        count: count > 0 ? count : 1
+                    };
+                }).filter(n => n.count > 0);
             }
 
             setLoadingMessage("Fetching Hybrid Questions...");
@@ -762,8 +826,8 @@ export const MockGenerator = () => {
             score={score} 
             questions={questions as any} 
             answers={answers} 
-            mode={mode} 
-            topicOrExam={urlTopic || (mode === 'quick' ? 'Quick Test' : 'Full Mock')}
+            mode={mode as any} 
+            topicOrExam={urlTopic || (mode === 'quick' ? 'Quick Test' : (mode === 'learned' ? 'Learned Chapters' : 'Full Mock'))}
             userName={user.name || 'Student'}
             targetExam={user.targetExam || 'General'}
             onReview={() => setStep('review')}
@@ -778,11 +842,11 @@ export const MockGenerator = () => {
     );
     if (step === 'preview') return (
         <MockPreview 
-            mode={mode} 
+            mode={mode as any} 
             questionsCount={questions.length}
             timeRemaining={timeRemaining}
             isTimedExam={isTimedExam}
-            topicOrExam={urlTopic || (mode === 'quick' ? 'Quick Test' : 'Full Mock')}
+            topicOrExam={urlTopic || (mode === 'quick' ? 'Quick Test' : (mode === 'learned' ? 'Learned Chapters' : 'Full Mock'))}
             onStart={() => setStep('exam')} 
             onCancel={handleExit} 
         />

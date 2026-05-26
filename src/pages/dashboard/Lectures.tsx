@@ -1,169 +1,903 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useUserStore } from '../../store/userStore';
-import { getWeakTopics } from '../../services/topicStrengthService';
+import { SYLLABUS_DB, type SyllabusTopic } from '../../lib/constants';
 import { getVideoByTopicIdCached, type Video } from '../../services/videoService';
-import { Loader2, Play, BookOpen, Clock, AlertCircle } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { SubtopicProgressService, type ChapterProgress, type ChapterState } from '../../services/subtopicProgressService';
+import { SpacedRepetitionService, type ReviewCard } from '../../services/spacedRepetitionService';
+import { getWeakTopics } from '../../services/topicStrengthService';
+import { Link, useNavigate, useSearchParams } from 'react-router-dom';
+import { SEO } from '../../components/SEO';
+import {
+    Loader2, Play, CheckCircle2, Circle, Lock, AlertTriangle,
+    ChevronDown, ChevronRight, BookOpen, Zap, RotateCcw,
+    Target, TrendingUp, Brain, Video as VideoIcon, Clock,
+    CheckCheck, Flame
+} from 'lucide-react';
 
-interface TopicPlaylist {
-    topic: string;
-    videos: Video[];
+// ─── TYPES ─────────────────────────────────────────────────────────────────
+
+type PacingMode = 'sequential' | 'high_yield';
+
+interface ChapterVideos {
+    oneShot: Video | null;        // Full chapter one-shot / complete lecture
+    recap: Video | null;          // Previous chapter recap / short revision
+    topicVideos: Video[];         // Topic-by-topic focused short videos
+    loaded: boolean;
 }
+
+interface ActiveChapter {
+    topic: SyllabusTopic;
+    subject: string;
+    videos: ChapterVideos;
+    sm2Cards: ReviewCard[];
+    progress: ChapterProgress | null;
+}
+
+// ─── HELPERS ────────────────────────────────────────────────────────────────
+
+const STATE_CONFIG: Record<ChapterState, { label: string; color: string; icon: typeof CheckCircle2; glow: string }> = {
+    locked:        { label: 'Locked',        color: 'text-gray-500',    icon: Lock,          glow: '' },
+    next:          { label: 'Up Next',       color: 'text-amber-400',   icon: Target,        glow: 'ring-2 ring-amber-400/60' },
+    in_progress:   { label: 'In Progress',   color: 'text-blue-400',    icon: TrendingUp,    glow: 'ring-2 ring-blue-400/40' },
+    mastered:      { label: 'Mastered ✓',   color: 'text-emerald-400', icon: CheckCircle2,  glow: 'ring-2 ring-emerald-400/40' },
+    review_needed: { label: '⚠ Review',     color: 'text-red-400',     icon: AlertTriangle, glow: 'ring-2 ring-red-400/60' },
+};
+
+const SUBJECT_COLORS: Record<string, string> = {
+    Physics:     'from-blue-600/20 to-cyan-600/10 border-blue-500/30',
+    Chemistry:   'from-purple-600/20 to-pink-600/10 border-purple-500/30',
+    Mathematics: 'from-amber-600/20 to-orange-600/10 border-amber-500/30',
+    Biology:     'from-emerald-600/20 to-teal-600/10 border-emerald-500/30',
+};
+
+const SUBJECT_ACCENT: Record<string, string> = {
+    Physics: 'bg-blue-500',
+    Chemistry: 'bg-purple-500',
+    Mathematics: 'bg-amber-500',
+    Biology: 'bg-emerald-500',
+};
+
+// ─── COMPONENT ──────────────────────────────────────────────────────────────
 
 export const Lectures = () => {
     const { user, authResolved } = useUserStore();
-    const [loading, setLoading] = useState(true);
-    const [playlists, setPlaylists] = useState<TopicPlaylist[]>([]);
-    const [weakStatsCount, setWeakStatsCount] = useState(0);
+    const navigate = useNavigate();
+    const [searchParams] = useSearchParams();
+
+    // Derived user info
+    const userId = user?.id || 'guest';
+    const userClass = user?.userClass || 'Class 11th';
+    const targetExam = user?.targetExam || 'JEE';
+    const examDate = user?.examDate ? new Date(user.examDate) : null;
+    const targetYear = user?.targetYear || new Date().getFullYear();
+
+    const remainingDays = useMemo(() => {
+        if (examDate) {
+            const diffTime = examDate.getTime() - Date.now();
+            return Math.max(0, Math.ceil(diffTime / (1000 * 60 * 60 * 24)));
+        }
+        const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(userClass);
+        if (isJunior) {
+            const currentYear = new Date().getFullYear();
+            const targetMonth = new Date().getMonth() > 2 ? currentYear + 1 : currentYear;
+            const diff = new Date(`${targetMonth}-03-31`).getTime() - Date.now();
+            return Math.max(0, Math.ceil(diff / (1000 * 60 * 60 * 24)));
+        } else {
+            const diff = new Date(`${targetYear}-01-24`).getTime() - Date.now();
+            return Math.max(0, Math.ceil(diff / (1000 * 60 * 60 * 24)));
+        }
+    }, [examDate, userClass, targetYear]);
+
+    // State
+    const [activeSubject, setActiveSubject] = useState<string>('Physics');
+    const [pacingMode, setPacingMode] = useState<PacingMode>('sequential');
+    const [allProgress, setAllProgress] = useState<Record<string, ChapterProgress>>({});
+    const [openChapterId, setOpenChapterId] = useState<string | null>(null);
+    const [activeChapter, setActiveChapter] = useState<ActiveChapter | null>(null);
+    const [loadingVideos, setLoadingVideos] = useState(false);
+    const [weakTopicIds, setWeakTopicIds] = useState<Set<string>>(new Set());
+    const [dueCardCount, setDueCardCount] = useState(0);
+    const [initializing, setInitializing] = useState(true);
+
+    // ─── SUBJECTS for this exam/class ──────────────────────────────────────
+
+    const subjects = useMemo(() => {
+        const exam = targetExam.toLowerCase();
+        if (exam.includes('neet')) return ['Physics', 'Chemistry', 'Biology'];
+        if (exam.includes('jee')) return ['Physics', 'Chemistry', 'Mathematics'];
+        if (['class 8th', 'class 9th', 'class 10th'].some(c => userClass.toLowerCase().includes(c.replace('th', '').toLowerCase()))) {
+            return ['Mathematics', 'Physics', 'Chemistry'];
+        }
+        return ['Physics', 'Chemistry', 'Mathematics'];
+    }, [targetExam, userClass]);
+
+    // ─── CHAPTERS for current subject (filtered by class) ──────────────────
+
+    const getChapters = useCallback((subject: string): SyllabusTopic[] => {
+        const classNum = userClass.includes('12') ? 'Class 12' :
+                         userClass.includes('11') ? 'Class 11' :
+                         userClass.includes('10') ? 'Class 10' :
+                         userClass.includes('9')  ? 'Class 9'  : 'Class 11';
+
+        let chapters = (SYLLABUS_DB[subject] || []).filter(t => t.class === classNum);
+
+        // JEE may need both Class 11 and 12
+        if (targetExam.toLowerCase().includes('jee') || targetExam.toLowerCase().includes('neet')) {
+            chapters = SYLLABUS_DB[subject] || [];
+            // Sort Class 11 first, then Class 12
+            chapters = [...chapters].sort((a, b) => {
+                if (a.class === b.class) return 0;
+                return a.class === 'Class 11' ? -1 : 1;
+            });
+        }
+
+        if (pacingMode === 'high_yield') {
+            // Sort by weightage: High → Medium → Low
+            const order = { High: 0, Medium: 1, Low: 2 };
+            chapters = [...chapters].sort((a, b) => order[a.weightage] - order[b.weightage]);
+        }
+
+        return chapters;
+    }, [userClass, targetExam, pacingMode]);
+
+    // ─── INIT ──────────────────────────────────────────────────────────────
 
     useEffect(() => {
-        if (authResolved) {
-            fetchContent();
-        }
-    }, [user, authResolved]); // Re-fetch only when user changes, but wait for auth to resolve
+        if (!authResolved) return;
 
-    const fetchContent = async () => {
-        setLoading(true);
-        try {
-            // 1. Get weak topics
-            let topicsToFetch: string[] = [];
-            const weakStats = await getWeakTopics(user?.id || 'guest', 10, user?.userClass, user?.targetExam);
-            setWeakStatsCount(weakStats.length);
+        const init = async () => {
+            setInitializing(true);
 
-            if (weakStats.length > 0) {
-                topicsToFetch = weakStats.map(s => s.topic);
-            } else {
-                // FALLBACK: If no weak topics, show "Trending Core Topics" based on exam
-                console.log("[Lectures] No weak topics found. Showing trending core topics.");
-                const exam = user?.targetExam?.toLowerCase() || 'jee';
-                if (exam.includes('neet')) {
-                    topicsToFetch = ['Cell Cycle and Division', 'Human Physiology', 'Organic Chemistry Basics', 'Genetics'];
-                } else {
-                    // Default JEE/General
-                    topicsToFetch = ['Physics Kinematics', 'Chemical Bonding', 'Mathematical Induction', 'Modern Physics'];
-                }
-            }
+            // 1. Load progress from cloud if local cache is empty
+            await SubtopicProgressService.loadFromCloud(userId);
 
-            // 2. Fetch videos for each topic
-            const results: TopicPlaylist[] = [];
+            // 2. Load all local progress
+            const progress = SubtopicProgressService.getAllProgress(userId);
+            setAllProgress(progress);
 
-            // Limit to top 6 topics for performance
-            const limitedTopics = topicsToFetch.slice(0, 6);
+            // 3. Load weak topics from mock test results
+            try {
+                const weak = await getWeakTopics(userId, 20, user?.userClass, user?.targetExam);
+                const weakIds = new Set<string>(
+                    weak.map(w => w.topic.toLowerCase().replace(/\s+/g, '_'))
+                );
+                setWeakTopicIds(weakIds);
 
-            for (const topic of limitedTopics) {
-                try {
-                    const examName = user?.targetExam || 'JEE';
-                    // Use cached results to avoid API quota depletion
-                    const playlist = await getVideoByTopicIdCached(topic, examName);
-
-                    if (playlist && playlist.videos.length > 0) {
-                        results.push({
-                            topic: topic,
-                            videos: playlist.videos
-                        });
+                // Flag weak chapters for review in progress service
+                for (const w of weak) {
+                    const matchingTopic = Object.values(SYLLABUS_DB)
+                        .flat()
+                        .find(t => t.topic.toLowerCase().includes(w.topic.toLowerCase()));
+                    if (matchingTopic) {
+                        await SubtopicProgressService.flagForReview(userId, matchingTopic.id);
                     }
-                } catch (err) {
-                    console.error(`Failed to fetch videos for ${topic}`, err);
+                }
+            } catch (e) {
+                console.warn('[Lectures] Weak topic fetch failed:', e);
+            }
+
+            // 4. Load SM2 due card count
+            try {
+                const session = await SpacedRepetitionService.getDueCards(userId, 100);
+                setDueCardCount(session.total_due);
+            } catch (e) {
+                console.warn('[Lectures] SM2 fetch failed:', e);
+            }
+
+            // 5. Determine "next" chapter (first chapter with no progress)
+            const allChapters = (SYLLABUS_DB[activeSubject] || []);
+            const hasNoProgress = allChapters.find(c => !progress[c.id]);
+            if (hasNoProgress && !Object.values(progress).some(p => p.state === 'next')) {
+                SubtopicProgressService.setChapterAsNext(userId, hasNoProgress.id);
+                setAllProgress(SubtopicProgressService.getAllProgress(userId));
+            }
+
+            // 6. Handle deep links from URL parameters
+            const subjectParam = searchParams.get('subject');
+            const chapterParam = searchParams.get('chapter');
+            if (subjectParam && subjects.includes(subjectParam)) {
+                setActiveSubject(subjectParam);
+                if (chapterParam) {
+                    const chapterList = getChapters(subjectParam);
+                    const matchedChapter = chapterList.find(c => c.id === chapterParam);
+                    if (matchedChapter) {
+                        setOpenChapterId(chapterParam);
+                        setLoadingVideos(true);
+                        const sm2Cards = SpacedRepetitionService.getCardsByTopic(userId, matchedChapter.topic);
+                        const chapterProgress = progress[chapterParam] || null;
+                        
+                        setActiveChapter({
+                            topic: matchedChapter,
+                            subject: subjectParam,
+                            videos: { oneShot: null, recap: null, topicVideos: [], loaded: false },
+                            sm2Cards,
+                            progress: chapterProgress
+                        });
+
+                        try {
+                            const currentIdx = chapterList.findIndex(c => c.id === chapterParam);
+                            const prevTopic = currentIdx > 0 ? chapterList[currentIdx - 1] : null;
+                            const oneShotQuery = `${matchedChapter.topic} ${targetExam} full chapter complete one shot`;
+                            const oneShotPlaylist = await getVideoByTopicIdCached(oneShotQuery, targetExam);
+                            let recapVideo = null;
+                            if (prevTopic) {
+                                const recapQuery = `${prevTopic.topic} ${targetExam} quick revision recap`;
+                                const recapPlaylist = await getVideoByTopicIdCached(recapQuery, targetExam);
+                                recapVideo = recapPlaylist?.videos?.[0] || null;
+                            }
+                            const topicVideos = [];
+                            for (const subtopic of matchedChapter.subtopics.slice(0, 3)) {
+                                try {
+                                    const subQuery = `${subtopic} ${matchedChapter.topic} ${targetExam} explained`;
+                                    const subPlaylist = await getVideoByTopicIdCached(subQuery, targetExam);
+                                    if (subPlaylist?.videos?.[0]) {
+                                        topicVideos.push(subPlaylist.videos[0]);
+                                    }
+                                } catch (e) { }
+                            }
+                            setActiveChapter(prev => prev ? {
+                                ...prev,
+                                videos: {
+                                    oneShot: oneShotPlaylist?.videos?.[0] || null,
+                                    recap: recapVideo,
+                                    topicVideos,
+                                    loaded: true
+                                }
+                            } : null);
+                        } catch (e) {
+                            setActiveChapter(prev => prev ? {
+                                ...prev, videos: { oneShot: null, recap: null, topicVideos: [], loaded: true }
+                            } : null);
+                        }
+                        setLoadingVideos(false);
+                    }
                 }
             }
 
-            setPlaylists(results);
+            setInitializing(false);
+        };
+
+        init();
+    }, [authResolved, userId, searchParams, subjects, getChapters, targetExam, activeSubject]);
+
+    // ─── RELOAD PROGRESS ──────────────────────────────────────────────────
+
+    const refreshProgress = () => {
+        setAllProgress(SubtopicProgressService.getAllProgress(userId));
+    };
+
+    // ─── OPEN CHAPTER ─────────────────────────────────────────────────────
+
+    const openChapter = async (topic: SyllabusTopic, subject: string) => {
+        if (openChapterId === topic.id) {
+            setOpenChapterId(null);
+            setActiveChapter(null);
+            return;
+        }
+
+        setOpenChapterId(topic.id);
+        setLoadingVideos(true);
+
+        // Get SM2 cards for this topic
+        const sm2Cards = SpacedRepetitionService.getCardsByTopic(userId, topic.topic);
+        const progress = allProgress[topic.id] || null;
+
+        setActiveChapter({
+            topic,
+            subject,
+            videos: { oneShot: null, recap: null, topicVideos: [], loaded: false },
+            sm2Cards,
+            progress
+        });
+
+        // Load the 3 types of videos
+        try {
+            const chapters = getChapters(subject);
+            const currentIdx = chapters.findIndex(c => c.id === topic.id);
+            const prevTopic = currentIdx > 0 ? chapters[currentIdx - 1] : null;
+
+            // 1. One-shot: Full chapter complete lecture
+            const oneShotQuery = `${topic.topic} ${targetExam} full chapter complete one shot`;
+            const oneShotPlaylist = await getVideoByTopicIdCached(oneShotQuery, targetExam);
+
+            // 2. Recap: Previous chapter quick revision (if exists)
+            let recapVideo: Video | null = null;
+            if (prevTopic) {
+                const recapQuery = `${prevTopic.topic} ${targetExam} quick revision recap`;
+                const recapPlaylist = await getVideoByTopicIdCached(recapQuery, targetExam);
+                recapVideo = recapPlaylist?.videos?.[0] || null;
+            }
+
+            // 3. Topic-by-topic: Focused subtopic-level videos
+            const topicVideos: Video[] = [];
+            for (const subtopic of topic.subtopics.slice(0, 3)) {
+                try {
+                    const subQuery = `${subtopic} ${topic.topic} ${targetExam} explained`;
+                    const subPlaylist = await getVideoByTopicIdCached(subQuery, targetExam);
+                    if (subPlaylist?.videos?.[0]) {
+                        topicVideos.push(subPlaylist.videos[0]);
+                    }
+                } catch (e) { /* skip */ }
+            }
+
+            setActiveChapter(prev => prev ? {
+                ...prev,
+                videos: {
+                    oneShot: oneShotPlaylist?.videos?.[0] || null,
+                    recap: recapVideo,
+                    topicVideos,
+                    loaded: true
+                }
+            } : null);
+
         } catch (e) {
-            console.error("Error fetching lectures:", e);
-        } finally {
-            setLoading(false);
+            console.error('[Lectures] Video load error:', e);
+            setActiveChapter(prev => prev ? {
+                ...prev, videos: { oneShot: null, recap: null, topicVideos: [], loaded: true }
+            } : null);
+        }
+
+        setLoadingVideos(false);
+    };
+
+    // ─── SUBTOPIC TOGGLE ──────────────────────────────────────────────────
+
+    const toggleSubtopic = async (topicId: string, subtopic: string, totalSubtopics: number) => {
+        await SubtopicProgressService.toggleSubtopic(userId, topicId, subtopic, totalSubtopics);
+        refreshProgress();
+        if (activeChapter?.topic.id === topicId) {
+            setActiveChapter(prev => prev ? {
+                ...prev,
+                progress: SubtopicProgressService.getChapterProgress(userId, topicId)
+            } : null);
         }
     };
 
-    if (loading) {
+    // ─── NAVIGATE TO VIDEO ─────────────────────────────────────────────────
+
+    const watchVideo = async (video: Video, topicId: string, topicSlug: string) => {
+        await SubtopicProgressService.markVideoWatched(userId, topicId, video.id);
+        refreshProgress();
+        navigate(`/dashboard/lectures/${topicSlug}?videoId=${video.id}`);
+    };
+
+    // ─── CHAPTER STATE DISPLAY ────────────────────────────────────────────
+
+    const getEffectiveState = (topic: SyllabusTopic): ChapterState => {
+        const p = allProgress[topic.id];
+        if (!p) {
+            // Check if it's the first chapter or if prev is mastered
+            return 'locked';
+        }
+        return p.state;
+    };
+
+    // ─── SUBJECT MASTERY % ────────────────────────────────────────────────
+
+    const getSubjectMastery = (subject: string): number => {
+        const topicIds = getChapters(subject).map(t => t.id);
+        return SubtopicProgressService.getSubjectMastery(userId, topicIds);
+    };
+
+    // ─── LOADING ──────────────────────────────────────────────────────────
+
+    if (initializing) {
         return (
-            <div className="flex h-[50vh] items-center justify-center flex-col gap-4">
-                <Loader2 className="animate-spin text-primary" size={48} />
-                <p className="text-text-muted animate-pulse">Curating your personal playlist...</p>
+            <div className="flex h-[60vh] items-center justify-center flex-col gap-4">
+                <div className="relative">
+                    <div className="w-16 h-16 rounded-full border-4 border-primary/20 border-t-primary animate-spin" />
+                    <Brain className="absolute inset-0 m-auto text-primary" size={20} />
+                </div>
+                <p className="text-text-muted animate-pulse">Loading your learning journey...</p>
             </div>
         );
     }
 
+    const chapters = getChapters(activeSubject);
+
     return (
-        <div className="space-y-8 animate-fade-in-up pb-10">
-            <header className="mb-8 relative overflow-hidden p-8 rounded-3xl bg-gradient-to-br from-indigo-900/40 via-purple-900/20 to-transparent border border-white/10">
-                <div className="relative z-10">
-                    <h1 className="text-4xl font-heading font-bold text-white mb-2">
-                        {playlists.length > 0 && !user?.isGuest && weakStatsCount > 0
-                            ? 'Recommended for You'
-                            : 'Trending Core Topics'}
-                    </h1>
-                    <p className="text-white/60 text-lg max-w-2xl">
-                        {playlists.length > 0 && !user?.isGuest && weakStatsCount > 0
-                            ? "We've curated these video lessons based on your mock test performance to help you master your weak areas."
-                            : `Start your ${user?.targetExam || 'JEE'} preparation with these essential high-weightage topics selected by experts.`}
-                    </p>
-                </div>
-                {/* Decorative background element */}
-                <div className="absolute -right-20 -top-20 w-64 h-64 bg-primary/20 blur-[100px] rounded-full pointer-events-none" />
-                <div className="absolute -left-20 -bottom-20 w-64 h-64 bg-accent/10 blur-[100px] rounded-full pointer-events-none" />
-            </header>
+        <>
+            <SEO 
+                title={`Lectures — ${targetExam} | ExamCompass`} 
+                description="Master your subject sequentially chapter-by-chapter with a dedicated 3-video sequence, subtopic checklist, active recall, and SM-2 spaced repetition." 
+            />
+            <div className="space-y-6 pb-16 animate-fade-in-up">
 
-            {playlists.length === 0 ? (
-                <div className="glass-card oxygen-card p-12 flex flex-col items-center justify-center text-center space-y-4">
-                    <div className="w-16 h-16 bg-surface rounded-full flex items-center justify-center">
-                        <BookOpen size={32} className="text-primary" />
-                    </div>
-                    <h3 className="text-xl font-bold text-text-main">No Recommendations Yet</h3>
-                    <p className="text-text-muted max-w-md">
-                        We need more data to recommend lectures. Take some mock tests so we can identify your weak topics!
-                    </p>
-                    <Link to="/dashboard/mock" className="px-6 py-2 bg-primary text-white rounded-lg font-bold oxygen-button">
-                        Take a Mock Test
-                    </Link>
-                </div>
-            ) : (
-                <div className="space-y-12">
-                    {playlists.map((playlist, idx) => (
-                        <div key={idx} className="space-y-4">
-                            <div className="flex items-center gap-2">
-                                <AlertCircle size={20} className="text-red-400" />
-                                <h2 className="text-xl font-bold text-text-main">{playlist.topic}</h2>
-                            </div>
-
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-                                {playlist.videos.slice(0, 4).map((video) => (
-                                    <Link
-                                        key={video.id}
-                                        to={`/dashboard/lectures/${playlist.topic.toLowerCase().replace(/\s+/g, '-')}?videoId=${video.id}`}
-                                        className="group glass-card oxygen-card overflow-hidden"
-                                    >
-                                        <div className="relative aspect-video bg-black/50">
-                                            <img
-                                                src={video.thumbnailUrl}
-                                                alt={video.title}
-                                                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                                                loading="lazy"
-                                            />
-                                            <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                                                <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center shadow-lg shadow-black/50">
-                                                    <Play size={24} className="text-white ml-1" />
-                                                </div>
-                                            </div>
-                                            <div className="absolute bottom-2 right-2 px-2 py-0.5 bg-black/80 rounded text-xs text-white font-mono flex items-center gap-1">
-                                                <Clock size={10} /> {video.duration}
-                                            </div>
-                                        </div>
-                                        <div className="p-3">
-                                            <h4 className="font-medium text-sm text-text-main line-clamp-2 group-hover:text-primary transition-colors">
-                                                {video.title}
-                                            </h4>
-                                            <div className="flex items-center gap-2 mt-2 text-xs text-text-muted">
-                                                <span className="truncate max-w-[120px]">{video.channelName}</span>
-                                            </div>
-                                        </div>
-                                    </Link>
-                                ))}
+                {/* ── HEADER ── */}
+                <div className="relative p-6 rounded-2xl bg-gradient-to-br from-indigo-900/40 via-purple-900/20 to-transparent border border-white/10 overflow-hidden">
+                    <div className="relative z-10 flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between">
+                        <div>
+                            <h1 className="text-3xl font-heading font-bold text-white mb-1">
+                                Your Learning Journey
+                            </h1>
+                            <p className="text-white/60 text-sm">
+                                Study one chapter at a time. Master it before moving ahead.
+                            </p>
+                        </div>
+                        <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3">
+                            {/* SM2 Due Cards Badge */}
+                            {dueCardCount > 0 && (
+                                <Link
+                                    to="/dashboard/revision"
+                                    className="flex items-center gap-2 px-4 py-2 bg-amber-500/20 border border-amber-400/40 rounded-xl text-amber-300 text-sm font-medium hover:bg-amber-500/30 transition-colors"
+                                >
+                                    <Brain size={14} />
+                                    {dueCardCount} revision cards due
+                                </Link>
+                            )}
+                            {/* Pacing Mode Toggle */}
+                            <div className="flex items-center gap-1 p-1 bg-white/5 border border-white/10 rounded-xl">
+                                <button
+                                    onClick={() => setPacingMode('sequential')}
+                                    className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+                                        pacingMode === 'sequential'
+                                            ? 'bg-primary text-white shadow-md'
+                                            : 'text-white/50 hover:text-white/80'
+                                    }`}
+                                >
+                                    📚 Sequential
+                                </button>
+                                <button
+                                    onClick={() => setPacingMode('high_yield')}
+                                    className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+                                        pacingMode === 'high_yield'
+                                            ? 'bg-amber-500 text-white shadow-md'
+                                            : 'text-white/50 hover:text-white/80'
+                                    }`}
+                                >
+                                    ⚡ High-Yield
+                                </button>
                             </div>
                         </div>
-                    ))}
+                    </div>
+
+                    {/* Pacing suggestion banner */}
+                    {remainingDays !== null && remainingDays < 200 && pacingMode === 'sequential' && (
+                        <div className="mt-4 flex items-center gap-2 text-amber-300 text-xs bg-amber-500/10 border border-amber-400/20 rounded-lg px-3 py-2">
+                            <Flame size={12} />
+                            <span>
+                                {remainingDays} days to exam. Switch to <strong>High-Yield</strong> mode to prioritize high-weightage chapters first.
+                            </span>
+                            <button
+                                onClick={() => setPacingMode('high_yield')}
+                                className="ml-auto underline underline-offset-2 hover:text-amber-200"
+                            >
+                                Switch
+                            </button>
+                        </div>
+                    )}
+
+                    <div className="absolute -right-16 -top-16 w-48 h-48 bg-primary/20 blur-[80px] rounded-full pointer-events-none" />
                 </div>
-            )}
-        </div>
+
+                {/* ── SUBJECT TABS ── */}
+                <div className="flex gap-2 flex-wrap">
+                    {subjects.map(subj => {
+                        const mastery = getSubjectMastery(subj);
+                        const isActive = activeSubject === subj;
+                        return (
+                            <button
+                                key={subj}
+                                onClick={() => { setActiveSubject(subj); setOpenChapterId(null); setActiveChapter(null); }}
+                                className={`relative flex items-center gap-2 px-4 py-2.5 rounded-xl border text-sm font-medium transition-all ${
+                                    isActive
+                                        ? `bg-gradient-to-r ${SUBJECT_COLORS[subj]} border-opacity-80 text-white shadow-lg`
+                                        : 'bg-white/5 border-white/10 text-white/60 hover:text-white/90 hover:bg-white/10'
+                                }`}
+                            >
+                                <span>{subj}</span>
+                                <span className={`text-xs px-1.5 py-0.5 rounded-md ${
+                                    isActive ? 'bg-white/20 text-white' : 'bg-white/10 text-white/50'
+                                }`}>
+                                    {mastery}%
+                                </span>
+                                {/* Mastery bar at bottom */}
+                                {isActive && (
+                                    <div className="absolute bottom-0 left-2 right-2 h-0.5 rounded-full bg-white/10">
+                                        <div
+                                            className={`h-full rounded-full ${SUBJECT_ACCENT[subj] || 'bg-primary'} transition-all duration-700`}
+                                            style={{ width: `${mastery}%` }}
+                                        />
+                                    </div>
+                                )}
+                            </button>
+                        );
+                    })}
+                </div>
+
+                {/* ── CHAPTER LEGEND ── */}
+                <div className="flex flex-wrap gap-3 text-xs text-white/50">
+                    {Object.entries(STATE_CONFIG).map(([state, cfg]) => (
+                        <span key={state} className={`flex items-center gap-1 ${cfg.color}`}>
+                            <cfg.icon size={12} />
+                            {cfg.label}
+                        </span>
+                    ))}
+                    <span className="ml-auto text-white/30">
+                        {chapters.filter(c => allProgress[c.id]?.state === 'mastered').length} / {chapters.length} mastered
+                    </span>
+                </div>
+
+                {/* ── CHAPTER LIST ── */}
+                <div className="space-y-3">
+                    {chapters.map((topic, idx) => {
+                        const state = getEffectiveState(topic);
+                        const progress = allProgress[topic.id];
+                        const cfg = STATE_CONFIG[state];
+                        const isOpen = openChapterId === topic.id;
+                        const checkedCount = progress?.checkedSubtopics.length || 0;
+                        const totalSubs = topic.subtopics.length;
+                        const completionPct = totalSubs > 0 ? Math.round((checkedCount / totalSubs) * 100) : 0;
+                        const isWeak = weakTopicIds.has(topic.id) || state === 'review_needed';
+                        const sm2ForTopic = SpacedRepetitionService.getCardsByTopic(userId, topic.topic);
+
+                        return (
+                            <div
+                                key={topic.id}
+                                className={`rounded-2xl border transition-all duration-300 overflow-hidden ${
+                                    state === 'locked'
+                                        ? 'bg-white/2 border-white/5 opacity-50'
+                                        : `glass-card bg-white/5 border-white/10 ${cfg.glow}`
+                                }`}
+                            >
+                                {/* Chapter Header Row */}
+                                <button
+                                    onClick={() => state !== 'locked' && openChapter(topic, activeSubject)}
+                                    disabled={state === 'locked'}
+                                    className="w-full flex items-center gap-3 p-4 text-left hover:bg-white/5 transition-colors disabled:cursor-not-allowed"
+                                >
+                                    {/* Chapter number */}
+                                    <div className={`w-8 h-8 rounded-lg flex items-center justify-center text-xs font-bold shrink-0 ${
+                                        state === 'mastered' ? 'bg-emerald-500/20 text-emerald-400' :
+                                        state === 'next' ? 'bg-amber-500/20 text-amber-400' :
+                                        state === 'review_needed' ? 'bg-red-500/20 text-red-400' :
+                                        state === 'in_progress' ? 'bg-blue-500/20 text-blue-400' :
+                                        'bg-white/10 text-white/30'
+                                    }`}>
+                                        {state === 'mastered' ? <CheckCircle2 size={14} /> :
+                                         state === 'locked' ? <Lock size={12} /> :
+                                         idx + 1}
+                                    </div>
+
+                                    {/* Topic info */}
+                                    <div className="flex-1 min-w-0">
+                                        <div className="flex items-center gap-2 flex-wrap">
+                                            <h3 className={`font-semibold text-sm ${
+                                                state === 'locked' ? 'text-white/30' :
+                                                state === 'mastered' ? 'text-emerald-300' : 'text-white'
+                                            }`}>
+                                                {topic.topic}
+                                            </h3>
+                                            {/* Badges */}
+                                            {topic.weightage === 'High' && state !== 'mastered' && (
+                                                <span className="text-xs px-1.5 py-0.5 bg-red-500/20 text-red-300 rounded-md border border-red-400/20">
+                                                    High Weightage
+                                                </span>
+                                            )}
+                                            {state === 'next' && (
+                                                <span className="text-xs px-2 py-0.5 bg-amber-500/20 text-amber-300 rounded-md border border-amber-400/20 animate-pulse">
+                                                    → Study This Now
+                                                </span>
+                                            )}
+                                            {isWeak && state !== 'mastered' && (
+                                                <span className="text-xs px-1.5 py-0.5 bg-orange-500/20 text-orange-300 rounded-md border border-orange-400/20">
+                                                    Weak in Tests
+                                                </span>
+                                            )}
+                                            {sm2ForTopic.length > 0 && (
+                                                <span className="text-xs px-1.5 py-0.5 bg-purple-500/20 text-purple-300 rounded-md border border-purple-400/20">
+                                                    💡 {sm2ForTopic.length} SM2 due
+                                                </span>
+                                            )}
+                                        </div>
+                                        {/* Progress bar for in-progress chapters */}
+                                        {(state === 'in_progress' || state === 'mastered') && completionPct > 0 && (
+                                            <div className="mt-1.5 flex items-center gap-2">
+                                                <div className="flex-1 h-1 bg-white/10 rounded-full overflow-hidden">
+                                                    <div
+                                                        className={`h-full rounded-full transition-all duration-500 ${
+                                                            state === 'mastered' ? 'bg-emerald-400' : 'bg-blue-400'
+                                                        }`}
+                                                        style={{ width: `${completionPct}%` }}
+                                                    />
+                                                </div>
+                                                <span className="text-xs text-white/40">{checkedCount}/{totalSubs}</span>
+                                            </div>
+                                        )}
+                                    </div>
+
+                                    {/* Subtopic count + expand icon */}
+                                    <div className="flex items-center gap-2 shrink-0">
+                                        <span className="text-xs text-white/30 hidden sm:block">
+                                            {totalSubs} subtopics
+                                        </span>
+                                        {state !== 'locked' && (
+                                            isOpen
+                                                ? <ChevronDown size={16} className="text-white/40" />
+                                                : <ChevronRight size={16} className="text-white/40" />
+                                        )}
+                                    </div>
+                                </button>
+
+                                {/* ── EXPANDED CHAPTER PANEL ── */}
+                                {isOpen && (
+                                    <div className="border-t border-white/5 animate-fade-in-up">
+
+                                        {/* SM2 Review Cards Alert */}
+                                        {activeChapter?.sm2Cards && activeChapter.sm2Cards.length > 0 && (
+                                            <div className="mx-4 mt-4 p-3 rounded-xl bg-purple-500/10 border border-purple-400/20 flex items-start gap-3">
+                                                <Brain size={16} className="text-purple-400 mt-0.5 shrink-0" />
+                                                <div className="flex-1">
+                                                    <p className="text-purple-300 text-sm font-medium">
+                                                        💡 Spaced Repetition Due
+                                                    </p>
+                                                    <p className="text-purple-300/70 text-xs mt-0.5">
+                                                        You have {activeChapter.sm2Cards.length} past mistake{activeChapter.sm2Cards.length > 1 ? 's' : ''} from mock tests scheduled for review in this chapter.
+                                                    </p>
+                                                </div>
+                                                <Link
+                                                    to="/dashboard/revision"
+                                                    className="text-xs px-3 py-1.5 bg-purple-500/20 border border-purple-400/30 rounded-lg text-purple-300 hover:bg-purple-500/30 transition-colors whitespace-nowrap"
+                                                >
+                                                    Review Now
+                                                </Link>
+                                            </div>
+                                        )}
+
+                                        <div className="p-4 grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+                                            {/* LEFT: Subtopic Checklist */}
+                                            <div className="space-y-3">
+                                                <h4 className="text-sm font-semibold text-white/80 flex items-center gap-2">
+                                                    <BookOpen size={14} />
+                                                    Subtopics Checklist
+                                                    <span className="text-xs text-white/40 font-normal">
+                                                        ({checkedCount}/{totalSubs} done)
+                                                    </span>
+                                                </h4>
+                                                <div className="space-y-2">
+                                                    {topic.subtopics.map(sub => {
+                                                        const isChecked = progress?.checkedSubtopics.includes(sub) || false;
+                                                        return (
+                                                            <button
+                                                                key={sub}
+                                                                onClick={() => toggleSubtopic(topic.id, sub, totalSubs)}
+                                                                className={`w-full flex items-center gap-3 p-2.5 rounded-xl text-sm text-left transition-all ${
+                                                                    isChecked
+                                                                        ? 'bg-emerald-500/10 border border-emerald-400/20 text-emerald-300'
+                                                                        : 'bg-white/5 border border-white/5 text-white/70 hover:bg-white/10 hover:text-white'
+                                                                }`}
+                                                            >
+                                                                {isChecked
+                                                                    ? <CheckCircle2 size={14} className="text-emerald-400 shrink-0" />
+                                                                    : <Circle size={14} className="text-white/30 shrink-0" />
+                                                                }
+                                                                <span>{sub}</span>
+                                                            </button>
+                                                        );
+                                                    })}
+                                                </div>
+
+                                                {/* Prerequisites notice */}
+                                                {topic.prerequisites && topic.prerequisites.length > 0 && (
+                                                    <div className="text-xs text-white/30 flex items-center gap-1 pt-1">
+                                                        <Lock size={10} />
+                                                        Prerequisite: {topic.prerequisites.join(', ')}
+                                                    </div>
+                                                )}
+
+                                                {/* Take test button */}
+                                                <Link
+                                                    to={`/dashboard/mock?topic=${encodeURIComponent(topic.topic)}`}
+                                                    className="mt-2 w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-indigo-500/20 border border-indigo-400/30 rounded-xl text-indigo-300 text-sm font-medium hover:bg-indigo-500/30 transition-colors"
+                                                >
+                                                    <Zap size={14} />
+                                                    Test This Chapter
+                                                </Link>
+                                            </div>
+
+                                            {/* RIGHT: 3-Video System */}
+                                            <div className="space-y-3">
+                                                <h4 className="text-sm font-semibold text-white/80 flex items-center gap-2">
+                                                    <VideoIcon size={14} />
+                                                    Recommended Videos
+                                                </h4>
+
+                                                {loadingVideos ? (
+                                                    <div className="flex items-center justify-center py-8">
+                                                        <Loader2 className="animate-spin text-primary" size={24} />
+                                                    </div>
+                                                ) : (
+                                                    <div className="space-y-3">
+                                                        {/* Video 1: One-Shot Full Chapter */}
+                                                        {activeChapter?.videos.oneShot && (
+                                                            <VideoCard
+                                                                video={activeChapter.videos.oneShot}
+                                                                label="📹 Full One-Shot"
+                                                                sublabel="Complete chapter in one video"
+                                                                accent="border-blue-400/30 bg-blue-500/5"
+                                                                isWatched={progress?.videosWatched.includes(activeChapter.videos.oneShot.id) || false}
+                                                                onWatch={() => watchVideo(
+                                                                    activeChapter.videos.oneShot!,
+                                                                    topic.id,
+                                                                    topic.topic.toLowerCase().replace(/\s+/g, '-')
+                                                                )}
+                                                            />
+                                                        )}
+
+                                                        {/* Video 2: Previous Chapter Recap */}
+                                                        {activeChapter?.videos.recap && (
+                                                            <VideoCard
+                                                                video={activeChapter.videos.recap}
+                                                                label="🔄 Previous Chapter Recap"
+                                                                sublabel="Quick revision before starting"
+                                                                accent="border-amber-400/30 bg-amber-500/5"
+                                                                isWatched={progress?.videosWatched.includes(activeChapter.videos.recap.id) || false}
+                                                                onWatch={() => watchVideo(
+                                                                    activeChapter.videos.recap!,
+                                                                    topic.id,
+                                                                    topic.topic.toLowerCase().replace(/\s+/g, '-')
+                                                                )}
+                                                            />
+                                                        )}
+
+                                                        {/* Video 3: Topic-by-topic focused */}
+                                                        {activeChapter?.videos.topicVideos && activeChapter.videos.topicVideos.length > 0 && (
+                                                            <div className="space-y-2">
+                                                                <p className="text-xs text-white/40 flex items-center gap-1">
+                                                                    <Target size={10} />
+                                                                    Subtopic-focused videos
+                                                                </p>
+                                                                {activeChapter.videos.topicVideos.map((v, i) => (
+                                                                    <VideoCard
+                                                                        key={v.id}
+                                                                        video={v}
+                                                                        label={`🎯 ${topic.subtopics[i] || 'Focus Video'}`}
+                                                                        sublabel="Deep dive on one concept"
+                                                                        accent="border-emerald-400/20 bg-emerald-500/5"
+                                                                        isWatched={progress?.videosWatched.includes(v.id) || false}
+                                                                        onWatch={() => watchVideo(
+                                                                            v,
+                                                                            topic.id,
+                                                                            topic.topic.toLowerCase().replace(/\s+/g, '-')
+                                                                        )}
+                                                                        compact
+                                                                    />
+                                                                ))}
+                                                            </div>
+                                                        )}
+
+                                                        {/* No videos fallback */}
+                                                        {activeChapter?.videos.loaded &&
+                                                         !activeChapter.videos.oneShot &&
+                                                         activeChapter.videos.topicVideos.length === 0 && (
+                                                            <div className="text-center py-6 text-white/30 text-sm">
+                                                                <VideoIcon size={24} className="mx-auto mb-2 opacity-50" />
+                                                                <p>Videos loading... try refreshing</p>
+                                                            </div>
+                                                        )}
+                                                    </div>
+                                                )}
+                                            </div>
+                                        </div>
+
+                                        {/* Bottom action: Mark as studied / Move next */}
+                                        {state !== 'mastered' && (
+                                            <div className="px-4 pb-4 flex flex-wrap gap-2">
+                                                {completionPct === 100 && (
+                                                    <button
+                                                        onClick={async () => {
+                                                            await SubtopicProgressService.setMasteryScore(userId, topic.id, 85);
+                                                            refreshProgress();
+                                                            setOpenChapterId(null);
+                                                        }}
+                                                        className="flex-1 flex items-center justify-center gap-2 py-2.5 bg-emerald-500/20 border border-emerald-400/30 rounded-xl text-emerald-300 text-sm font-medium hover:bg-emerald-500/30 transition-colors"
+                                                    >
+                                                        <CheckCheck size={14} />
+                                                        Mark Chapter as Mastered
+                                                    </button>
+                                                )}
+                                                {state === 'review_needed' && (
+                                                    <button
+                                                        onClick={async () => {
+                                                            await SubtopicProgressService.setMasteryScore(userId, topic.id, 85);
+                                                            refreshProgress();
+                                                        }}
+                                                        className="flex items-center gap-2 px-4 py-2.5 bg-emerald-500/20 border border-emerald-400/30 rounded-xl text-emerald-300 text-sm font-medium hover:bg-emerald-500/30 transition-colors"
+                                                    >
+                                                        <RotateCcw size={14} />
+                                                        Mark as Reviewed
+                                                    </button>
+                                                )}
+                                            </div>
+                                        )}
+                                    </div>
+                                )}
+                            </div>
+                        );
+                    })}
+                </div>
+
+                {/* Empty state */}
+                {chapters.length === 0 && (
+                    <div className="glass-card p-12 text-center space-y-3">
+                        <BookOpen size={32} className="mx-auto text-white/30" />
+                        <p className="text-white/60">No chapters found for your current class/exam settings.</p>
+                        <Link to="/dashboard/profile" className="text-primary text-sm hover:underline">
+                            Update your profile →
+                        </Link>
+                    </div>
+                )}
+            </div>
+        </>
+    );
+};
+
+// ─── VIDEO CARD COMPONENT ───────────────────────────────────────────────────
+
+interface VideoCardProps {
+    video: Video;
+    label: string;
+    sublabel: string;
+    accent: string;
+    isWatched: boolean;
+    onWatch: () => void;
+    compact?: boolean;
+}
+
+const VideoCard = ({ video, label, sublabel, accent, isWatched, onWatch, compact }: VideoCardProps) => {
+    if (compact) {
+        return (
+            <button
+                onClick={onWatch}
+                className={`w-full flex items-center gap-3 p-2.5 rounded-xl border text-left transition-all hover:scale-[1.01] ${accent} ${
+                    isWatched ? 'opacity-60' : ''
+                }`}
+            >
+                <div className="relative w-14 h-10 rounded-lg overflow-hidden shrink-0">
+                    <img src={video.thumbnailUrl} alt={video.title} className="w-full h-full object-cover" />
+                    <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+                        <Play size={10} className="text-white ml-0.5" />
+                    </div>
+                </div>
+                <div className="flex-1 min-w-0">
+                    <p className="text-xs font-medium text-white/90 line-clamp-1">{label}</p>
+                    <p className="text-xs text-white/40 line-clamp-1">{video.title}</p>
+                </div>
+                {isWatched && <CheckCircle2 size={12} className="text-emerald-400 shrink-0" />}
+                <Clock size={10} className="text-white/30 shrink-0" />
+                <span className="text-xs text-white/30 shrink-0">{video.duration}</span>
+            </button>
+        );
+    }
+
+    return (
+        <button
+            onClick={onWatch}
+            className={`w-full flex gap-3 p-3 rounded-xl border text-left transition-all hover:scale-[1.01] hover:shadow-lg group ${accent} ${
+                isWatched ? 'opacity-70' : ''
+            }`}
+        >
+            <div className="relative w-24 h-16 rounded-lg overflow-hidden shrink-0">
+                <img src={video.thumbnailUrl} alt={video.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-80 group-hover:opacity-100 transition-opacity">
+                    <div className="w-7 h-7 rounded-full bg-white/90 flex items-center justify-center shadow-md">
+                        <Play size={12} className="text-black ml-0.5" />
+                    </div>
+                </div>
+                <div className="absolute bottom-1 right-1 px-1 py-0.5 bg-black/80 rounded text-[9px] text-white font-mono">
+                    {video.duration}
+                </div>
+            </div>
+            <div className="flex-1 min-w-0">
+                <div className="flex items-center gap-1.5 mb-0.5">
+                    <span className="text-[10px] font-semibold text-white/60 uppercase tracking-wide">{label}</span>
+                    {isWatched && <CheckCircle2 size={10} className="text-emerald-400" />}
+                </div>
+                <p className="text-xs font-medium text-white line-clamp-2 leading-relaxed">{video.title}</p>
+                <p className="text-[10px] text-white/40 mt-1">{video.channelName}</p>
+                <p className="text-[10px] text-white/30">{sublabel}</p>
+            </div>
+        </button>
     );
 };
