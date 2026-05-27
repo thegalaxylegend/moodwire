@@ -175,71 +175,89 @@ CRITICAL ELO RULES FOR {exam} class {cls}:
 import urllib.request, urllib.error
 
 def call_cerebras(key: str, prompt: str) -> Optional[str]:
-    try:
-        payload = json.dumps({
-            "model": "llama-3.3-70b",
-            "messages": [{"role": "user", "content": prompt}],
-            "temperature": 0.15,
-            "max_completion_tokens": 1500,
-            "response_format": {"type": "json_object"}
-        }).encode()
-        req = urllib.request.Request(
-            "https://api.cerebras.ai/v1/chat/completions",
-            data=payload,
-            headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
-            method="POST"
-        )
-        with urllib.request.urlopen(req, timeout=30) as r:
-            data = json.loads(r.read())
-        content = data["choices"][0]["message"]["content"]
-        return content
-    except Exception as e:
-        if "429" in str(e): raise Exception("RATE_LIMIT")
-        return None
+    for model in ["qwen-3-235b-a22b-instruct-2507", "llama3.1-8b"]:
+        try:
+            payload = json.dumps({
+                "model": model,
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": 0.15,
+                "max_completion_tokens": 1500,
+                "response_format": {"type": "json_object"}
+            }).encode()
+            req = urllib.request.Request(
+                "https://api.cerebras.ai/v1/chat/completions",
+                data=payload,
+                headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
+                method="POST"
+            )
+            with urllib.request.urlopen(req, timeout=30) as r:
+                data = json.loads(r.read())
+            content = data["choices"][0]["message"]["content"]
+            return content
+        except Exception as e:
+            err_str = str(e)
+            if hasattr(e, 'read'):
+                try: err_str += " - Details: " + e.read().decode()
+                except: pass
+            print(f"⚠️ Cerebras call failed for model {model}: {err_str}")
+            if "429" in str(e): raise Exception("RATE_LIMIT")
+    return None
 
 def call_groq(key: str, model: str, prompt: str) -> Optional[str]:
-    try:
-        payload = json.dumps({
-            "model": model,
-            "messages": [{"role": "user", "content": prompt}],
-            "temperature": 0.15,
-            "max_tokens": 1500,
-            "response_format": {"type": "json_object"}
-        }).encode()
-        req = urllib.request.Request(
-            "https://api.groq.com/openai/v1/chat/completions",
-            data=payload,
-            headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
-            method="POST"
-        )
-        with urllib.request.urlopen(req, timeout=20) as r:
-            data = json.loads(r.read())
-        return data["choices"][0]["message"]["content"]
-    except Exception as e:
-        if "429" in str(e) or "403" in str(e): raise Exception("RATE_LIMIT")
-        return None
+    for m in [model, "llama-3.1-8b-instant"]:
+        try:
+            payload = json.dumps({
+                "model": m,
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": 0.15,
+                "max_tokens": 1500,
+                "response_format": {"type": "json_object"}
+            }).encode()
+            req = urllib.request.Request(
+                "https://api.groq.com/openai/v1/chat/completions",
+                data=payload,
+                headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
+                method="POST"
+            )
+            with urllib.request.urlopen(req, timeout=20) as r:
+                data = json.loads(r.read())
+            return data["choices"][0]["message"]["content"]
+        except Exception as e:
+            err_str = str(e)
+            if hasattr(e, 'read'):
+                try: err_str += " - Details: " + e.read().decode()
+                except: pass
+            print(f"⚠️ Groq call failed for model {m}: {err_str}")
+            if "429" in str(e) or "403" in str(e): raise Exception("RATE_LIMIT")
+    return None
 
 def call_gemini(key: str, model: str, prompt: str) -> Optional[str]:
-    try:
-        payload = json.dumps({
-            "model": model,
-            "messages": [{"role": "user", "content": prompt}],
-            "temperature": 0.15,
-            "max_tokens": 1500,
-            "response_format": {"type": "json_object"}
-        }).encode()
-        req = urllib.request.Request(
-            "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
-            data=payload,
-            headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
-            method="POST"
-        )
-        with urllib.request.urlopen(req, timeout=20) as r:
-            data = json.loads(r.read())
-        return data["choices"][0]["message"]["content"]
-    except Exception as e:
-        if "429" in str(e) or "403" in str(e): raise Exception("RATE_LIMIT")
-        return None
+    for m in ["gemini-2.5-flash", "gemini-3.5-flash", "gemini-flash-latest"]:
+        try:
+            payload = json.dumps({
+                "model": m,
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": 0.15,
+                "max_tokens": 1500,
+                "response_format": {"type": "json_object"}
+            }).encode()
+            req = urllib.request.Request(
+                "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+                data=payload,
+                headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
+                method="POST"
+            )
+            with urllib.request.urlopen(req, timeout=20) as r:
+                data = json.loads(r.read())
+            return data["choices"][0]["message"]["content"]
+        except Exception as e:
+            err_str = str(e)
+            if hasattr(e, 'read'):
+                try: err_str += " - Details: " + e.read().decode()
+                except: pass
+            print(f"⚠️ Gemini call failed for model {m}: {err_str}")
+            if "429" in str(e) or "403" in str(e): raise Exception("RATE_LIMIT")
+    return None
 
 def extract_json(text: str) -> Optional[dict]:
     if not text: return None
