@@ -40,111 +40,130 @@ def save_raw(q: dict):
     return True
 
 # ─────────────────────────────────────────────────────────────────────────────
-# SOURCE A: JEE Mains PYQ — HostServer001/jee_mains_pyqs_data_base
+# SOURCE A: JEE Mains PYQ - HostServer001/jee_mains_pyqs_data_base
 # ─────────────────────────────────────────────────────────────────────────────
 def fetch_jee_mains_pyq():
-    print("\n📥 [SOURCE A] Fetching JEE Mains PYQ from HostServer001...")
-    repo_url = "https://github.com/HostServer001/jee_mains_pyqs_data_base/archive/refs/heads/main.zip"
-    zip_path = Path("pipeline/output/jee_mains.zip")
-    extract_path = Path("pipeline/output/jee_mains_data")
-
+    print("\n [SOURCE A] Fetching JEE Mains PYQ from HostServer001 releases...")
+    pkl_url = "https://github.com/HostServer001/jee_mains_pyqs_data_base/releases/download/v007/1762787474-DataBaseChapters-v007.pkl"
+    pkl_path = Path("pipeline/output/DataBaseChapters.pkl")
+    
     try:
-        r = requests.get(repo_url, timeout=120)
-        r.raise_for_status()
-        zip_path.write_bytes(r.content)
-        print(f"   Downloaded {len(r.content)//1024}KB")
+        # Download if not exists
+        if not pkl_path.exists():
+            print("   Downloading DataBaseChapters.pkl...")
+            r = requests.get(pkl_url, timeout=120)
+            r.raise_for_status()
+            pkl_path.write_bytes(r.content)
+            print(f"   Downloaded {pkl_path.stat().st_size // 1024}KB")
+            
+        import pickle
+        
+        class MockQuestion:
+            def __setstate__(self, state):
+                self.__dict__.update(state)
 
-        import zipfile
-        with zipfile.ZipFile(zip_path) as zf:
-            zf.extractall(extract_path)
+        class MockChapter:
+            def __setstate__(self, state):
+                self.__dict__.update(state)
 
-        # Find all JSON files in the repo
+        class FixUnpickler(pickle.Unpickler):
+            def find_class(self, module, name):
+                if name == 'Chapter': return MockChapter
+                if name == 'Question': return MockQuestion
+                return super().find_class(module, name)
+
+        with open(pkl_path, 'rb') as f:
+            db = FixUnpickler(f).load()
+            
         count = 0
-        for jf in extract_path.rglob("*.json"):
-            if jf.stat().st_size < 100:
-                continue
-            try:
-                data = json.loads(jf.read_text(encoding="utf-8", errors="ignore"))
-                questions = []
-
-                # Handle various JSON structures
-                if isinstance(data, list):
-                    questions = data
-                elif isinstance(data, dict):
-                    if "questions" in data:
-                        questions = data["questions"]
-                    elif "data" in data:
-                        questions = data["data"]
+        for chap_name, chap in db.items():
+            for idx, q_obj in getattr(chap, 'question_dict', {}).items():
+                # Extract question attributes
+                text = getattr(q_obj, 'question', '')
+                if len(text) < 10:
+                    continue
+                
+                # Options are like [{'identifier': 'A', 'content': '...'}, ...]
+                raw_opts = getattr(q_obj, 'options', [])
+                options = []
+                if isinstance(raw_opts, list):
+                    for o in raw_opts:
+                        if isinstance(o, dict) and 'content' in o:
+                            options.append(str(o['content']).strip())
+                        else:
+                            options.append(str(o).strip())
+                
+                # Map correct identifier (A/B/C/D) to index
+                correct_opts = getattr(q_obj, 'correct_options', [])
+                correct = ''
+                if correct_opts and options:
+                    letter = str(correct_opts[0]).strip().upper()
+                    if letter in "ABCD" and len(letter) == 1:
+                        opt_idx = "ABCD".index(letter)
+                        if opt_idx < len(options):
+                            correct = options[opt_idx]
                     else:
-                        questions = [data]
-
-                for q in questions:
-                    if not isinstance(q, dict): continue
-                    text = q.get("question") or q.get("question_text") or q.get("ques") or ""
-                    if len(text) < 10: continue
-
-                    options = q.get("options", []) or q.get("choices", [])
-                    if isinstance(options, dict):
-                        options = list(options.values())
-
-                    correct = q.get("correct_answer") or q.get("answer") or q.get("ans") or ""
-                    if isinstance(correct, int) and options:
-                        correct = options[correct] if correct < len(options) else str(correct)
-
-                    subj = q.get("subject") or q.get("Subject") or "Physics"
-                    year = q.get("year") or q.get("Year") or None
-                    topic = q.get("topic") or q.get("chapter") or q.get("Chapter") or ""
-
-                    # Infer difficulty from year context (recent = slightly harder)
-                    if year and int(str(year)) >= 2022:
-                        band_hint = "medium"
-                    else:
-                        band_hint = "easy"
-
-                    raw = {
-                        "source": "JEEMains-PYQ",
-                        "source_exam": f"JEEMains-PYQ-{year}" if year else "JEEMains-PYQ",
-                        "year": int(str(year)) if year else None,
-                        "class": "12",
-                        "exam": "JEEMains",
-                        "subject": subj,
-                        "question_text": text.strip(),
-                        "options": [str(o) for o in options[:4]] if options else [],
-                        "correct_answer": str(correct).strip(),
-                        "topic_hint": topic,
-                        "raw_band_hint": band_hint,
-                        "needs_enrichment": True,
-                        "quality_tier": "A",
-                        "confidence": 0.95,
-                    }
-                    if save_raw(raw):
-                        count += 1
-            except Exception as e:
-                pass  # skip malformed files
-
-        print(f"   ✅ JEE Mains PYQ: {count} questions collected")
+                        correct = letter
+                
+                if not correct:
+                    # Fallback to answer if it's integer type
+                    correct = getattr(q_obj, 'answer', '')
+                
+                subj = getattr(q_obj, 'subject', 'Physics')
+                if subj:
+                    subj = str(subj).strip().capitalize()
+                
+                year = getattr(q_obj, 'year', None)
+                topic = getattr(q_obj, 'topic', '')
+                explanation = getattr(q_obj, 'explanation', '')
+                
+                raw = {
+                    "source": "JEEMains-PYQ",
+                    "source_exam": f"JEEMains-PYQ-{year}" if year else "JEEMains-PYQ",
+                    "year": int(year) if year else None,
+                    "class": "12",
+                    "exam": "JEEMains",
+                    "subject": subj,
+                    "question_text": text.strip(),
+                    "options": options[:4],
+                    "correct_answer": str(correct).strip(),
+                    "topic_hint": topic,
+                    "explanation": explanation,
+                    "raw_band_hint": "medium" if year and int(year) >= 2022 else "easy",
+                    "needs_enrichment": True,
+                    "quality_tier": "A",
+                    "confidence": 0.95,
+                }
+                if save_raw(raw):
+                    count += 1
+                    
+        print(f"   [OK] JEE Mains PYQ: {count} questions collected")
     except Exception as e:
-        print(f"   ⚠️  JEE Mains PYQ fetch failed: {e}")
+        print(f"   [WARN]  JEE Mains PYQ fetch failed: {e}")
 
 
 # ─────────────────────────────────────────────────────────────────────────────
 # SOURCE B: ExamOven / Samkarya online-exam-questions (JEE JSON)
 # ─────────────────────────────────────────────────────────────────────────────
 def fetch_examoven_jee():
-    print("\n📥 [SOURCE B] Fetching ExamOven JEE questions...")
+    print("\n [SOURCE B] Fetching ExamOven JEE questions...")
     try:
         config_url = "https://raw.githubusercontent.com/Samkarya/online-exam-questions/main/config.json"
         config = requests.get(config_url, timeout=30).json()
 
         jee_path = config.get("jee", {}).get("path", "")
         if not jee_path:
-            print("   ⚠️  No JEE path in config")
+            print("   [WARN]  No JEE path in config")
             return
 
         jee_url = f"https://raw.githubusercontent.com/Samkarya/online-exam-questions/main/{jee_path}"
         jee_data = requests.get(jee_url, timeout=30).json()
 
-        questions_raw = jee_data.get("questions", []) or jee_data.get("data", [])
+        questions_raw = []
+        if isinstance(jee_data, list):
+            questions_raw = jee_data
+        elif isinstance(jee_data, dict):
+            questions_raw = jee_data.get("questions", []) or jee_data.get("data", []) or [jee_data]
         count = 0
         for q in questions_raw:
             if not isinstance(q, dict): continue
@@ -173,9 +192,9 @@ def fetch_examoven_jee():
             if save_raw(raw):
                 count += 1
 
-        print(f"   ✅ ExamOven JEE: {count} questions collected")
+        print(f"   [OK] ExamOven JEE: {count} questions collected")
     except Exception as e:
-        print(f"   ⚠️  ExamOven JEE fetch failed: {e}")
+        print(f"   [WARN]  ExamOven JEE fetch failed: {e}")
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -185,7 +204,7 @@ def fetch_examoven_jee():
 NCERT_EXEMPLAR_URLS = {
     # Class 8
     ("8", "Science"):     [
-        "https://ncert.nic.in/exemplar-problems.php?ln=en",  # landing page — we'll use direct chapter links
+        "https://ncert.nic.in/exemplar-problems.php?ln=en",  # landing page - we'll use direct chapter links
     ],
     # We use GitHub mirrors of NCERT Exemplar since official requires form submission
 }
@@ -205,7 +224,7 @@ def fetch_ncert_class8_10():
     Primary: GitHub repos with board-level MCQs
     Fallback: AI-generated stubs (marked as needs_enrichment=True, quality_tier='C')
     """
-    print("\n📥 [SOURCE C] Fetching Class 8-10 NCERT/Board questions...")
+    print("\n [SOURCE C] Fetching Class 8-10 NCERT/Board questions...")
     count = 0
 
     # Try to fetch from curated open-source MCQ repos
@@ -217,7 +236,11 @@ def fetch_ncert_class8_10():
     for url in board_sources:
         try:
             data = requests.get(url, timeout=30).json()
-            questions_raw = data.get("questions", []) or data.get("data", [])
+            questions_raw = []
+            if isinstance(data, list):
+                questions_raw = data
+            elif isinstance(data, dict):
+                questions_raw = data.get("questions", []) or data.get("data", []) or [data]
             for q in questions_raw:
                 if not isinstance(q, dict): continue
                 text = q.get("question") or q.get("question_text") or ""
@@ -353,7 +376,7 @@ def fetch_ncert_class8_10():
                 "class": cls,
                 "exam": "Board",
                 "subject": topic_entry["subject"],
-                "question_text": f"[STUB] {topic_entry['subject']} Class {cls}: {topic_entry['topic']} — {subtopic}",
+                "question_text": f"[STUB] {topic_entry['subject']} Class {cls}: {topic_entry['topic']} - {subtopic}",
                 "options": [],
                 "correct_answer": "",
                 "topic_hint": topic_entry["topic"],
@@ -367,8 +390,8 @@ def fetch_ncert_class8_10():
             if save_raw(raw):
                 stub_count += 1
 
-    print(f"   ✅ Class 8-10 stubs: {stub_count} topic stubs for AI enrichment")
-    print(f"   📌 Note: AI will generate FULL authentic questions from official NCERT topics")
+    print(f"   [OK] Class 8-10 stubs: {stub_count} topic stubs for AI enrichment")
+    print(f"   [NOTE] Note: AI will generate FULL authentic questions from official NCERT topics")
     return count + stub_count
 
 
@@ -376,14 +399,14 @@ def fetch_ncert_class8_10():
 # SOURCE D: NEET PYQ from open sources
 # ─────────────────────────────────────────────────────────────────────────────
 def fetch_neet_pyq():
-    print("\n📥 [SOURCE D] Fetching NEET PYQ...")
+    print("\n [SOURCE D] Fetching NEET PYQ...")
     count = 0
 
     # HuggingFace datasets API (no auth required for public datasets)
     # medmcqa contains 194k NEET-style MCQs
     try:
         # Fetch a slice of medmcqa (NEET-style Biology/Chemistry)
-        url = "https://datasets-server.huggingface.co/rows?dataset=medmcqa&config=default&split=train&offset=0&limit=500"
+        url = "https://datasets-server.huggingface.co/rows?dataset=openlifescienceai/medmcqa&config=default&split=train&offset=0&limit=500"
         r = requests.get(url, timeout=60)
         if r.ok:
             data = r.json()
@@ -424,9 +447,11 @@ def fetch_neet_pyq():
                 if save_raw(raw):
                     count += 1
 
-            print(f"   ✅ NEET (medmcqa): {count} questions collected")
+            print(f"   [OK] NEET (medmcqa): {count} questions collected")
+        else:
+            print(f"   [WARN] NEET PYQ fetch returned status {r.status_code}: {r.text[:200]}")
     except Exception as e:
-        print(f"   ⚠️  NEET PYQ fetch failed: {e}")
+        print(f"   [WARN]  NEET PYQ fetch failed: {e}")
 
     return count
 
@@ -436,7 +461,7 @@ def fetch_neet_pyq():
 # ─────────────────────────────────────────────────────────────────────────────
 def main():
     print("=" * 60)
-    print("📚 EXAMCOMPASS — SOURCE FETCHER v1.0")
+    print(" EXAMCOMPASS - SOURCE FETCHER v1.0")
     print(f"   Target: {TARGET} questions | Filter: {FILTER}")
     print("=" * 60)
 
@@ -453,7 +478,7 @@ def main():
     DONE_FILE.write_text(json.dumps(list(done_hashes)), encoding="utf-8")
 
     print(f"\n{'=' * 60}")
-    print(f"✅ FETCH COMPLETE: {len(collected)} raw questions written to {OUT_FILE}")
+    print(f"[OK] FETCH COMPLETE: {len(collected)} raw questions written to {OUT_FILE}")
     print(f"{'=' * 60}")
 
 if __name__ == "__main__":

@@ -78,12 +78,12 @@ def normalize_correct(correct, opts: list, qtype: str = "MCQ") -> str:
 
 def main():
     if not IN_FILE.exists():
-        print(f"❌ {IN_FILE} not found")
+        print(f"[ERROR] {IN_FILE} not found")
         exit(1)
 
     lines = [l for l in IN_FILE.read_text(encoding="utf-8").splitlines() if l.strip()]
     raw = [json.loads(l) for l in lines]
-    print(f"🔄 Normalizing {len(raw)} raw questions...")
+    print(f"[RUN] Normalizing {len(raw)} raw questions...")
 
     normalized = []
     for q in raw:
@@ -131,7 +131,7 @@ def main():
         encoding="utf-8"
     )
 
-    print(f"✅ Normalized: {len(normalized)} / {len(raw)} questions")
+    print(f"[OK] Normalized: {len(normalized)} / {len(raw)} questions")
     print(f"   Stubs (class 8-10): {sum(1 for q in normalized if q.get('is_stub'))}")
     print(f"   PYQ (class 11-12): {sum(1 for q in normalized if not q.get('is_stub'))}")
 

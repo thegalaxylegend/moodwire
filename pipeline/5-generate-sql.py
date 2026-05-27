@@ -81,7 +81,7 @@ def build_insert(q: dict) -> str:
 
 def main():
     if not IN_FILE.exists():
-        print(f"❌ Input not found: {IN_FILE}")
+        print(f"[ERROR] Input not found: {IN_FILE}")
         exit(1)
 
     lines = [l for l in IN_FILE.read_text(encoding="utf-8").splitlines() if l.strip()]
@@ -89,7 +89,7 @@ def main():
     total = len(questions)
     chunks = math.ceil(total / CHUNK_SIZE)
 
-    print(f"📦 Generating SQL: {total} questions → {chunks} chunks of {CHUNK_SIZE}")
+    print(f"[SQL] Generating SQL: {total} questions -> {chunks} chunks of {CHUNK_SIZE}")
 
     # Remove old chunks
     for f in OUT_DIR.glob("batch_*.sql"):
@@ -102,7 +102,7 @@ def main():
         sql = "\n".join(build_insert(q) for q in batch)
         fname.write_text(sql, encoding="utf-8")
         chunk_files.append(str(fname))
-        print(f"   chunk {i+1}/{chunks}: {len(batch)} questions → {fname.name}")
+        print(f"   chunk {i+1}/{chunks}: {len(batch)} questions -> {fname.name}")
 
     summary = {
         "total_questions": total,
@@ -112,7 +112,7 @@ def main():
     }
     SUMMARY.write_text(json.dumps(summary, indent=2))
 
-    print(f"\n✅ SQL generation complete: {total} questions in {chunks} files")
+    print(f"\n[OK] SQL generation complete: {total} questions in {chunks} files")
     print(f"   Output dir: {OUT_DIR}")
 
 if __name__ == "__main__":

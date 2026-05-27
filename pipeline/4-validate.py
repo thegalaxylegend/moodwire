@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Step 4: Validate every question. HARD validation — drop anything wrong.
+Step 4: Validate every question. HARD validation - drop anything wrong.
 ELO validation is the strictest: elo MUST be within [elo_min, elo_max] of its band.
 """
 
@@ -38,7 +38,7 @@ def validate(q: dict, seen_hashes: set) -> tuple[bool, list[str]]:
         return False, errors
     q["difficulty_band"] = band  # normalize alias
 
-    # 3. ELO range check — HARD rule
+    # 3. ELO range check - HARD rule
     elo = int(q.get("elo", 0))
     elo_min = ELO_BANDS[band]["elo_min"]
     elo_max = ELO_BANDS[band]["elo_max"]
@@ -46,7 +46,7 @@ def validate(q: dict, seen_hashes: set) -> tuple[bool, list[str]]:
         errors.append(f"ELO_OUT_OF_RANGE:band={band} elo={elo} expected=[{elo_min},{elo_max}]")
         return False, errors
 
-    # 4. Class constraints — HARD rule
+    # 4. Class constraints - HARD rule
     cls = str(q.get("class", "")).replace("Class ", "").strip()
     allowed_bands_for_class = CLASS_CONSTRAINTS.get(cls, [])
     if allowed_bands_for_class and band not in allowed_bands_for_class:
@@ -54,7 +54,7 @@ def validate(q: dict, seen_hashes: set) -> tuple[bool, list[str]]:
         return False, errors
     q["class"] = cls  # normalize
 
-    # 5. Exam constraints — HARD rule
+    # 5. Exam constraints - HARD rule
     exam = str(q.get("exam", ""))
     allowed_bands_for_exam = EXAM_CONSTRAINTS.get(exam, [])
     if allowed_bands_for_exam and band not in allowed_bands_for_exam:
@@ -131,11 +131,11 @@ def validate(q: dict, seen_hashes: set) -> tuple[bool, list[str]]:
 
 def main():
     if not IN_FILE.exists():
-        print(f"❌ Input file not found: {IN_FILE}")
+        print(f"[ERROR] Input file not found: {IN_FILE}")
         sys.exit(1)
 
     lines = [l for l in IN_FILE.read_text(encoding="utf-8").splitlines() if l.strip()]
-    print(f"🔍 Validating {len(lines)} questions...")
+    print(f"[CHECK] Validating {len(lines)} questions...")
 
     seen_hashes: set = set()
     valid, dropped = [], []
@@ -176,7 +176,7 @@ def main():
     REPORT.write_text(json.dumps(report, indent=2), encoding="utf-8")
 
     print(f"\n{'='*50}")
-    print(f"✅ VALIDATION COMPLETE")
+    print(f"[OK] VALIDATION COMPLETE")
     print(f"   Valid:   {len(valid)}")
     print(f"   Dropped: {len(dropped)} ({report['pass_rate']} pass rate)")
     print(f"\n   Error breakdown:")
@@ -185,7 +185,7 @@ def main():
     print(f"{'='*50}")
 
     if len(valid) == 0:
-        print("❌ FATAL: Zero valid questions after validation!")
+        print("[ERROR] FATAL: Zero valid questions after validation!")
         sys.exit(1)
 
 if __name__ == "__main__":
