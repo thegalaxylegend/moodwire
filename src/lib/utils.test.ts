@@ -6,7 +6,7 @@ test('resolveTopicId mapping tests', async (t) => {
     await t.test('resolves exactly matching topics to their id from SYLLABUS_DB', () => {
         assert.strictEqual(resolveTopicId('Units and Measurements'), 'phy_11_unit_meas');
         assert.strictEqual(resolveTopicId('Motion in a Straight Line'), 'phy_11_motion_line');
-        assert.strictEqual(resolveTopicId('Electrostatics'), 'phy_12_electrostatics');
+        assert.strictEqual(resolveTopicId('Electric Charges and Fields'), 'phy_12_electrostatics');
     });
 
     await t.test('resolves topics case-insensitively', () => {
