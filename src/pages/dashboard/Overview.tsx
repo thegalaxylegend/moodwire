@@ -1372,7 +1372,7 @@ export const Overview = () => {
                             <TrendingUp className="text-red-400" size={24} />
                             <h3 className="text-xl font-bold text-text-main">AI Diagnostics</h3>
                         </div>
-                        <Link to="/dashboard/analytics" className="text-sm text-primary hover:underline whitespace-nowrap">Full Analytics →</Link>
+                        <Link to="/dashboard/lectures" className="text-base font-extrabold text-primary hover:underline whitespace-nowrap">More Videos →</Link>
                     </div>
 
                     {/* Videos Section */}

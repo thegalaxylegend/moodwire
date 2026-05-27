@@ -2,6 +2,8 @@ import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useUserStore } from '../../store/userStore';
 import { SYLLABUS_DB, type SyllabusTopic } from '../../lib/constants';
 import { getVideoByTopicIdCached, type Video } from '../../services/videoService';
+import { getLibraryForChapter, discoverVideoForSubtopic } from '../../services/videoLibraryService';
+import { scoreVideos, type ScoredVideo } from '../../services/videoScoringEngine';
 import { SubtopicProgressService, type ChapterProgress, type ChapterState } from '../../services/subtopicProgressService';
 import { SpacedRepetitionService, type ReviewCard } from '../../services/spacedRepetitionService';
 import { getWeakTopics } from '../../services/topicStrengthService';
@@ -70,6 +72,7 @@ export const Lectures = () => {
     const targetExam = user?.targetExam || 'JEE';
     const examDate = user?.examDate ? new Date(user.examDate) : null;
     const targetYear = user?.targetYear || new Date().getFullYear();
+    const isClass12 = userClass.toLowerCase().includes('12');
 
     const remainingDays = useMemo(() => {
         if (examDate) {
@@ -98,6 +101,13 @@ export const Lectures = () => {
     const [weakTopicIds, setWeakTopicIds] = useState<Set<string>>(new Set());
     const [dueCardCount, setDueCardCount] = useState(0);
     const [initializing, setInitializing] = useState(true);
+
+    const [videoMode, setVideoMode] = useState<'guided' | 'library'>('guided');
+    const [libraryTab, setLibraryTab] = useState<'detailed' | 'quick' | 'topic' | 'pyq'>('detailed');
+    const [libraryVideos, setLibraryVideos] = useState<ScoredVideo[]>([]);
+    const [discoveringSubtopic, setDiscoveringSubtopic] = useState<string | null>(null);
+    const [loadingLibrary, setLoadingLibrary] = useState(false);
+    const [weakTopicsList, setWeakTopicsList] = useState<Array<{ topic: string; score_percentage: number }>>([]);
 
     // ─── SUBJECTS for this exam/class ──────────────────────────────────────
 
@@ -158,6 +168,7 @@ export const Lectures = () => {
             // 3. Load weak topics from mock test results
             try {
                 const weak = await getWeakTopics(userId, 20, user?.userClass, user?.targetExam);
+                setWeakTopicsList(weak);
                 const weakIds = new Set<string>(
                     weak.map(w => w.topic.toLowerCase().replace(/\s+/g, '_'))
                 );
@@ -225,7 +236,7 @@ export const Lectures = () => {
                                 const recapPlaylist = await getVideoByTopicIdCached(recapQuery, targetExam);
                                 recapVideo = recapPlaylist?.videos?.[0] || null;
                             }
-                            const topicVideos = [];
+                            const topicVideos: Video[] = [];
                             for (const subtopic of matchedChapter.subtopics.slice(0, 3)) {
                                 try {
                                     const subQuery = `${subtopic} ${matchedChapter.topic} ${targetExam} explained`;
@@ -340,6 +351,40 @@ export const Lectures = () => {
         setLoadingVideos(false);
     };
 
+    // Load library videos when chapter opens or mode switches to library
+    useEffect(() => {
+        if (!openChapterId || videoMode !== 'library' || !activeChapter) return;
+
+        const loadLibrary = async () => {
+            setLoadingLibrary(true);
+            try {
+                const libVideos = await getLibraryForChapter(
+                    openChapterId,
+                    targetExam,
+                    activeSubject,
+                    userClass
+                );
+                // Score them
+                const scored = scoreVideos(
+                    libVideos,
+                    userId,
+                    openChapterId,
+                    null,
+                    userClass,
+                    targetExam,
+                    weakTopicsList
+                );
+                setLibraryVideos(scored);
+            } catch (e) {
+                console.error('[Lectures] Failed to load library videos:', e);
+            } finally {
+                setLoadingLibrary(false);
+            }
+        };
+
+        loadLibrary();
+    }, [openChapterId, videoMode, targetExam, activeSubject, userClass, userId, weakTopicsList, activeChapter]);
+
     // ─── SUBTOPIC TOGGLE ──────────────────────────────────────────────────
 
     const toggleSubtopic = async (topicId: string, subtopic: string, totalSubtopics: number) => {
@@ -359,6 +404,22 @@ export const Lectures = () => {
         await SubtopicProgressService.markVideoWatched(userId, topicId, video.id);
         refreshProgress();
         navigate(`/dashboard/lectures/${topicSlug}?videoId=${video.id}`);
+    };
+
+    // ─── DISCOVER VIDEO CALLBACK ───────────────────────────────────────────
+
+    const handleDiscoverVideo = async (topicId: string, subtopic: string, subject: string) => {
+        setDiscoveringSubtopic(subtopic);
+        try {
+            await discoverVideoForSubtopic(topicId, subtopic, targetExam, subject, userClass);
+            const libVideos = await getLibraryForChapter(topicId, targetExam, subject, userClass, true);
+            const scored = scoreVideos(libVideos, userId, topicId, subtopic, userClass, targetExam, weakTopicsList);
+            setLibraryVideos(scored);
+        } catch (e) {
+            console.error('[Lectures] Failed to discover video:', e);
+        } finally {
+            setDiscoveringSubtopic(null);
+        }
     };
 
     // ─── CHAPTER STATE DISPLAY ────────────────────────────────────────────
@@ -696,87 +757,271 @@ export const Lectures = () => {
                                                 </Link>
                                             </div>
 
-                                            {/* RIGHT: 3-Video System */}
+                                            {/* RIGHT: Video System */}
                                             <div className="space-y-3">
                                                 <h4 className="text-sm font-semibold text-white/80 flex items-center gap-2">
                                                     <VideoIcon size={14} />
-                                                    Recommended Videos
+                                                    {videoMode === 'library' ? 'Curated Video Library' : 'Recommended Videos'}
                                                 </h4>
 
-                                                {loadingVideos ? (
-                                                    <div className="flex items-center justify-center py-8">
-                                                        <Loader2 className="animate-spin text-primary" size={24} />
+                                                {isClass12 && (
+                                                    <div className="flex gap-2 p-1 bg-white/5 border border-white/10 rounded-xl">
+                                                        <button
+                                                            onClick={() => setVideoMode('guided')}
+                                                            className={`flex-1 flex items-center justify-center gap-1.5 py-2 rounded-lg text-xs font-medium transition-all ${
+                                                                videoMode === 'guided'
+                                                                    ? 'bg-primary text-white shadow-md'
+                                                                    : 'text-white/50 hover:text-white/80'
+                                                            }`}
+                                                        >
+                                                            🎬 Guided Sequence
+                                                        </button>
+                                                        <button
+                                                            onClick={() => setVideoMode('library')}
+                                                            className={`flex-1 flex items-center justify-center gap-1.5 py-2 rounded-lg text-xs font-medium transition-all ${
+                                                                videoMode === 'library'
+                                                                    ? 'bg-primary text-white shadow-md'
+                                                                    : 'text-white/50 hover:text-white/80'
+                                                            }`}
+                                                        >
+                                                            📚 Curated Library
+                                                        </button>
                                                     </div>
+                                                )}
+
+                                                {videoMode === 'library' && isClass12 ? (
+                                                    loadingLibrary ? (
+                                                        <div className="flex items-center justify-center py-12">
+                                                            <Loader2 className="animate-spin text-primary" size={24} />
+                                                        </div>
+                                                    ) : (
+                                                        <div className="space-y-3 mt-2">
+                                                            <div className="grid grid-cols-4 gap-1 p-1 bg-white/5 border border-white/10 rounded-xl">
+                                                                <button
+                                                                    onClick={() => setLibraryTab('detailed')}
+                                                                    className={`py-1.5 rounded-lg text-center text-[10px] sm:text-xs font-medium transition-all ${
+                                                                        libraryTab === 'detailed'
+                                                                            ? 'bg-white/10 text-white font-semibold'
+                                                                            : 'text-white/50 hover:text-white/80'
+                                                                    }`}
+                                                                >
+                                                                    📖 Detailed
+                                                                </button>
+                                                                <button
+                                                                    onClick={() => setLibraryTab('quick')}
+                                                                    className={`py-1.5 rounded-lg text-center text-[10px] sm:text-xs font-medium transition-all ${
+                                                                        libraryTab === 'quick'
+                                                                            ? 'bg-white/10 text-white font-semibold'
+                                                                            : 'text-white/50 hover:text-white/80'
+                                                                    }`}
+                                                                >
+                                                                    ⚡ Revision
+                                                                </button>
+                                                                <button
+                                                                    onClick={() => setLibraryTab('topic')}
+                                                                    className={`py-1.5 rounded-lg text-center text-[10px] sm:text-xs font-medium transition-all ${
+                                                                        libraryTab === 'topic'
+                                                                            ? 'bg-white/10 text-white font-semibold'
+                                                                            : 'text-white/50 hover:text-white/80'
+                                                                    }`}
+                                                                >
+                                                                    🎯 Topics
+                                                                </button>
+                                                                <button
+                                                                    onClick={() => setLibraryTab('pyq')}
+                                                                    className={`py-1.5 rounded-lg text-center text-[10px] sm:text-xs font-medium transition-all ${
+                                                                        libraryTab === 'pyq'
+                                                                            ? 'bg-white/10 text-white font-semibold'
+                                                                            : 'text-white/50 hover:text-white/80'
+                                                                    }`}
+                                                                >
+                                                                    📝 PYQs
+                                                                </button>
+                                                            </div>
+
+                                                            {/* Subtab Contents */}
+                                                            {libraryTab === 'topic' ? (
+                                                                <div className="space-y-4">
+                                                                    {topic.subtopics.map(subtopicName => {
+                                                                        const subtopicVideos = libraryVideos.filter(v => {
+                                                                            const type = getVideoType(v.video);
+                                                                            if (type !== 'topic_wise') return false;
+                                                                            
+                                                                            const vSub = (v.video as any).subtopic;
+                                                                            if (vSub && vSub.toLowerCase() === subtopicName.toLowerCase()) return true;
+                                                                            const title = v.video.title.toLowerCase();
+                                                                            const cleanSub = subtopicName.toLowerCase();
+                                                                            return title.includes(cleanSub) || cleanSub.split(' ').filter(w => w.length > 3).some(w => title.includes(w));
+                                                                        });
+
+                                                                        const isDiscovering = discoveringSubtopic === subtopicName;
+
+                                                                        return (
+                                                                            <div key={subtopicName} className="p-3 rounded-xl border border-white/5 bg-white/2 space-y-2">
+                                                                                <div className="flex items-center justify-between gap-3">
+                                                                                    <span className="text-xs font-semibold text-white/80">{subtopicName}</span>
+                                                                                    {subtopicVideos.length === 0 && (
+                                                                                        <button
+                                                                                            onClick={() => handleDiscoverVideo(topic.id, subtopicName, activeSubject)}
+                                                                                            disabled={discoveringSubtopic !== null}
+                                                                                            className={`text-xs px-2.5 py-1 rounded-lg flex items-center gap-1.5 transition-all font-medium ${
+                                                                                                isDiscovering ? 'bg-amber-500/20 text-amber-300 border border-amber-500/30 animate-pulse' : 'bg-primary/20 text-primary border border-primary/30 hover:bg-primary/30'
+                                                                                            } disabled:opacity-50 disabled:cursor-not-allowed`}
+                                                                                        >
+                                                                                            {isDiscovering ? (
+                                                                                                <>
+                                                                                                    <Loader2 size={10} className="animate-spin" />
+                                                                                                    Finding...
+                                                                                                </>
+                                                                                            ) : (
+                                                                                                <>🔍 Find Best Video</>
+                                                                                            )}
+                                                                                        </button>
+                                                                                    )}
+                                                                                </div>
+
+                                                                                {subtopicVideos.length > 0 ? (
+                                                                                    <div className="space-y-2 pt-1">
+                                                                                        {subtopicVideos.map(v => (
+                                                                                            <LibraryVideoCard
+                                                                                                key={v.video.id}
+                                                                                                scoredVideo={v}
+                                                                                                isWatched={progress?.videosWatched.includes(v.video.id) || false}
+                                                                                                onWatch={() => watchVideo(
+                                                                                                    v.video as Video,
+                                                                                                    topic.id,
+                                                                                                    topic.topic.toLowerCase().replace(/\s+/g, '-')
+                                                                                                )}
+                                                                                            />
+                                                                                        ))}
+                                                                                    </div>
+                                                                                ) : (
+                                                                                    !isDiscovering && <p className="text-[10px] text-white/30 italic">No focused mini-lecture cached.</p>
+                                                                                )}
+
+                                                                                {isDiscovering && (
+                                                                                    <div className="flex items-center gap-2 p-2 bg-amber-500/5 border border-amber-500/10 rounded-lg text-[10px] text-amber-300 animate-pulse">
+                                                                                        <Loader2 size={10} className="animate-spin shrink-0" />
+                                                                                        <span>Searching top channels and running quality ranking...</span>
+                                                                                    </div>
+                                                                                )}
+                                                                            </div>
+                                                                        );
+                                                                    })}
+                                                                </div>
+                                                            ) : (
+                                                                <div className="space-y-3">
+                                                                    {libraryVideos.filter(v => {
+                                                                        const type = getVideoType(v.video);
+                                                                        if (libraryTab === 'detailed') return type === 'detailed' || type === 'oneshot';
+                                                                        if (libraryTab === 'quick') return type === 'quick_revision';
+                                                                        if (libraryTab === 'pyq') return type === 'pyq';
+                                                                        return false;
+                                                                    }).length > 0 ? (
+                                                                        libraryVideos.filter(v => {
+                                                                            const type = getVideoType(v.video);
+                                                                            if (libraryTab === 'detailed') return type === 'detailed' || type === 'oneshot';
+                                                                            if (libraryTab === 'quick') return type === 'quick_revision';
+                                                                            if (libraryTab === 'pyq') return type === 'pyq';
+                                                                            return false;
+                                                                        }).map(v => (
+                                                                            <LibraryVideoCard
+                                                                                key={v.video.id}
+                                                                                scoredVideo={v}
+                                                                                isWatched={progress?.videosWatched.includes(v.video.id) || false}
+                                                                                onWatch={() => watchVideo(
+                                                                                    v.video as Video,
+                                                                                    topic.id,
+                                                                                    topic.topic.toLowerCase().replace(/\s+/g, '-')
+                                                                                )}
+                                                                            />
+                                                                        ))
+                                                                    ) : (
+                                                                        <div className="text-center py-8 text-white/30 text-xs">
+                                                                            <VideoIcon size={20} className="mx-auto mb-2 opacity-40" />
+                                                                            <p>No videos found in this category.</p>
+                                                                        </div>
+                                                                    )}
+                                                                </div>
+                                                            )}
+                                                        </div>
+                                                    )
                                                 ) : (
-                                                    <div className="space-y-3">
-                                                        {/* Video 1: One-Shot Full Chapter */}
-                                                        {activeChapter?.videos.oneShot && (
-                                                            <VideoCard
-                                                                video={activeChapter.videos.oneShot}
-                                                                label="📹 Full One-Shot"
-                                                                sublabel="Complete chapter in one video"
-                                                                accent="border-blue-400/30 bg-blue-500/5"
-                                                                isWatched={progress?.videosWatched.includes(activeChapter.videos.oneShot.id) || false}
-                                                                onWatch={() => watchVideo(
-                                                                    activeChapter.videos.oneShot!,
-                                                                    topic.id,
-                                                                    topic.topic.toLowerCase().replace(/\s+/g, '-')
-                                                                )}
-                                                            />
-                                                        )}
+                                                    loadingVideos ? (
+                                                        <div className="flex items-center justify-center py-8">
+                                                            <Loader2 className="animate-spin text-primary" size={24} />
+                                                        </div>
+                                                    ) : (
+                                                        <div className="space-y-3">
+                                                            {/* Video 1: One-Shot Full Chapter */}
+                                                            {activeChapter?.videos.oneShot && (
+                                                                <VideoCard
+                                                                    video={activeChapter.videos.oneShot}
+                                                                    label="📹 Full One-Shot"
+                                                                    sublabel="Complete chapter in one video"
+                                                                    accent="border-blue-400/30 bg-blue-500/5"
+                                                                    isWatched={progress?.videosWatched.includes(activeChapter.videos.oneShot.id) || false}
+                                                                    onWatch={() => watchVideo(
+                                                                        activeChapter.videos.oneShot!,
+                                                                        topic.id,
+                                                                        topic.topic.toLowerCase().replace(/\s+/g, '-')
+                                                                    )}
+                                                                />
+                                                            )}
 
-                                                        {/* Video 2: Previous Chapter Recap */}
-                                                        {activeChapter?.videos.recap && (
-                                                            <VideoCard
-                                                                video={activeChapter.videos.recap}
-                                                                label="🔄 Previous Chapter Recap"
-                                                                sublabel="Quick revision before starting"
-                                                                accent="border-amber-400/30 bg-amber-500/5"
-                                                                isWatched={progress?.videosWatched.includes(activeChapter.videos.recap.id) || false}
-                                                                onWatch={() => watchVideo(
-                                                                    activeChapter.videos.recap!,
-                                                                    topic.id,
-                                                                    topic.topic.toLowerCase().replace(/\s+/g, '-')
-                                                                )}
-                                                            />
-                                                        )}
+                                                            {/* Video 2: Previous Chapter Recap */}
+                                                            {activeChapter?.videos.recap && (
+                                                                <VideoCard
+                                                                    video={activeChapter.videos.recap}
+                                                                    label="🔄 Previous Chapter Recap"
+                                                                    sublabel="Quick revision before starting"
+                                                                    accent="border-amber-400/30 bg-amber-500/5"
+                                                                    isWatched={progress?.videosWatched.includes(activeChapter.videos.recap.id) || false}
+                                                                    onWatch={() => watchVideo(
+                                                                        activeChapter.videos.recap!,
+                                                                        topic.id,
+                                                                        topic.topic.toLowerCase().replace(/\s+/g, '-')
+                                                                    )}
+                                                                />
+                                                            )}
 
-                                                        {/* Video 3: Topic-by-topic focused */}
-                                                        {activeChapter?.videos.topicVideos && activeChapter.videos.topicVideos.length > 0 && (
-                                                            <div className="space-y-2">
-                                                                <p className="text-xs text-white/40 flex items-center gap-1">
-                                                                    <Target size={10} />
-                                                                    Subtopic-focused videos
-                                                                </p>
-                                                                {activeChapter.videos.topicVideos.map((v, i) => (
-                                                                    <VideoCard
-                                                                        key={v.id}
-                                                                        video={v}
-                                                                        label={`🎯 ${topic.subtopics[i] || 'Focus Video'}`}
-                                                                        sublabel="Deep dive on one concept"
-                                                                        accent="border-emerald-400/20 bg-emerald-500/5"
-                                                                        isWatched={progress?.videosWatched.includes(v.id) || false}
-                                                                        onWatch={() => watchVideo(
-                                                                            v,
-                                                                            topic.id,
-                                                                            topic.topic.toLowerCase().replace(/\s+/g, '-')
-                                                                        )}
-                                                                        compact
-                                                                    />
-                                                                ))}
-                                                            </div>
-                                                        )}
+                                                            {/* Video 3: Topic-by-topic focused */}
+                                                            {activeChapter?.videos.topicVideos && activeChapter.videos.topicVideos.length > 0 && (
+                                                                <div className="space-y-2">
+                                                                    <p className="text-xs text-white/40 flex items-center gap-1">
+                                                                        <Target size={10} />
+                                                                        Subtopic-focused videos
+                                                                    </p>
+                                                                    {activeChapter.videos.topicVideos.map((v, i) => (
+                                                                        <VideoCard
+                                                                            key={v.id}
+                                                                            video={v}
+                                                                            label={`🎯 ${topic.subtopics[i] || 'Focus Video'}`}
+                                                                            sublabel="Deep dive on one concept"
+                                                                            accent="border-emerald-400/20 bg-emerald-500/5"
+                                                                            isWatched={progress?.videosWatched.includes(v.id) || false}
+                                                                            onWatch={() => watchVideo(
+                                                                                v,
+                                                                                topic.id,
+                                                                                topic.topic.toLowerCase().replace(/\s+/g, '-')
+                                                                            )}
+                                                                            compact
+                                                                        />
+                                                                    ))}
+                                                                </div>
+                                                            )}
 
-                                                        {/* No videos fallback */}
-                                                        {activeChapter?.videos.loaded &&
-                                                         !activeChapter.videos.oneShot &&
-                                                         activeChapter.videos.topicVideos.length === 0 && (
-                                                            <div className="text-center py-6 text-white/30 text-sm">
-                                                                <VideoIcon size={24} className="mx-auto mb-2 opacity-50" />
-                                                                <p>Videos loading... try refreshing</p>
-                                                            </div>
-                                                        )}
-                                                    </div>
+                                                            {/* No videos fallback */}
+                                                            {activeChapter?.videos.loaded &&
+                                                             !activeChapter.videos.oneShot &&
+                                                             activeChapter.videos.topicVideos.length === 0 && (
+                                                                <div className="text-center py-6 text-white/30 text-sm">
+                                                                    <VideoIcon size={24} className="mx-auto mb-2 opacity-50" />
+                                                                    <p>Videos loading... try refreshing</p>
+                                                                </div>
+                                                            )}
+                                                        </div>
+                                                    )
                                                 )}
                                             </div>
                                         </div>
@@ -901,3 +1146,98 @@ const VideoCard = ({ video, label, sublabel, accent, isWatched, onWatch, compact
         </button>
     );
 };
+
+// ─── VIDEO TYPE HELPER ──────────────────────────────────────────────────────
+
+const getVideoType = (video: any): string => {
+    return video.type || 'detailed';
+};
+
+// ─── LIBRARY VIDEO CARD COMPONENT ───────────────────────────────────────────
+
+interface LibraryVideoCardProps {
+    scoredVideo: ScoredVideo;
+    isWatched: boolean;
+    onWatch: () => void;
+}
+
+const LibraryVideoCard = ({ scoredVideo, isWatched, onWatch }: LibraryVideoCardProps) => {
+    const { video, score, relevanceReason } = scoredVideo;
+    const isCurated = (video as any).isCurated;
+    const teacherName = (video as any).teacherName;
+    const viewCount = (video as any).viewCount;
+
+    return (
+        <button
+            onClick={onWatch}
+            className={`w-full flex gap-3.5 p-3.5 rounded-2xl border text-left transition-all duration-300 hover:scale-[1.01] hover:shadow-xl group bg-white/5 border-white/10 hover:bg-white/10 hover:border-white/20 ${
+                isWatched ? 'opacity-70' : ''
+            }`}
+        >
+            {/* Thumbnail */}
+            <div className="relative w-28 h-18 rounded-xl overflow-hidden shrink-0 shadow-inner">
+                <img 
+                    src={video.thumbnailUrl} 
+                    alt={video.title} 
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" 
+                />
+                <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-80 group-hover:opacity-100 transition-opacity">
+                    <div className="w-8 h-8 rounded-full bg-white/95 flex items-center justify-center shadow-lg transition-transform duration-300 group-hover:scale-110">
+                        <Play size={12} className="text-black ml-0.5 fill-black" />
+                    </div>
+                </div>
+                <div className="absolute bottom-1 right-1 px-1.5 py-0.5 bg-black/85 rounded-md text-[9px] text-white font-mono">
+                    {video.duration}
+                </div>
+            </div>
+
+            {/* Content info */}
+            <div className="flex-1 min-w-0 flex flex-col justify-between py-0.5">
+                <div>
+                    {/* Top tags row */}
+                    <div className="flex items-center gap-1.5 mb-1.5 flex-wrap">
+                        {isCurated ? (
+                            <span className="text-[9px] font-bold px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 uppercase tracking-wider">
+                                Curated
+                            </span>
+                        ) : (
+                            <span className="text-[9px] font-bold px-1.5 py-0.5 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-400/30 uppercase tracking-wider">
+                                Discovered
+                            </span>
+                        )}
+                        <span className="text-[9px] font-semibold px-1.5 py-0.5 rounded bg-amber-500/10 text-amber-300 border border-amber-400/20">
+                            🎯 {score} Match
+                        </span>
+                        {isWatched && (
+                            <span className="text-[9px] font-semibold px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-300 border border-emerald-400/20 flex items-center gap-0.5">
+                                <CheckCircle2 size={8} /> Watched
+                            </span>
+                        )}
+                    </div>
+
+                    {/* Title */}
+                    <p className="text-xs font-semibold text-white group-hover:text-primary transition-colors line-clamp-2 leading-snug">
+                        {video.title}
+                    </p>
+                </div>
+
+                {/* Footer details */}
+                <div className="mt-2 space-y-1.5">
+                    <div className="flex items-center justify-between text-[10px] text-white/50">
+                        <span className="truncate max-w-[150px] font-medium">
+                            {video.channelName}{teacherName ? ` • By ${teacherName}` : ''}
+                        </span>
+                        {viewCount && <span className="shrink-0">{viewCount}</span>}
+                    </div>
+                    {relevanceReason && (
+                        <p className="text-[9px] text-white/40 italic flex items-center gap-1 leading-normal border-t border-white/5 pt-1.5">
+                            <Zap size={8} className="text-amber-400 shrink-0" />
+                            {relevanceReason}
+                        </p>
+                    )}
+                </div>
+            </div>
+        </button>
+    );
+};
+

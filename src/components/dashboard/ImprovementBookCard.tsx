@@ -4,6 +4,66 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { BookOpen, Award, ArrowRight, Sparkles, CheckCircle2, XCircle, Brain, X } from 'lucide-react';
 import { MistakeNotebookService, type MistakeEntry } from '../../services/mistakeNotebookService';
 import { useScrollLock } from '../../hooks/useScrollLock';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+import 'katex/dist/katex.min.css';
+import { preprocessQuestionText, preprocessOption, stripLatex } from '../../lib/preprocessLatex';
+
+const katexOptions = {
+    strict: 'ignore' as const,
+    throwOnError: false,
+    errorColor: '#888',
+    trust: true,
+};
+
+const mdPlugins = {
+    remark: [remarkGfm, remarkMath],
+    rehype: [[rehypeKatex, katexOptions]]
+};
+
+class MathErrorBoundary extends React.Component<
+    { children: React.ReactNode; rawText: string },
+    { hasError: boolean }
+> {
+    state = { hasError: false };
+
+    static getDerivedStateFromError() {
+        return { hasError: true };
+    }
+
+    componentDidUpdate(prevProps: { rawText: string }) {
+        if (prevProps.rawText !== this.props.rawText && this.state.hasError) {
+            this.setState({ hasError: false });
+        }
+    }
+
+    render() {
+        if (this.state.hasError) {
+            return (
+                <span className="text-slate-300" title="Math rendering fallback">
+                    {stripLatex(this.props.rawText)}
+                </span>
+            );
+        }
+        return this.props.children;
+    }
+}
+
+const MathText: React.FC<{ children: string; className?: string }> = ({ children, className }) => (
+    <span className={className}>
+        <MathErrorBoundary rawText={children}>
+            <ReactMarkdown
+                remarkPlugins={mdPlugins.remark as any}
+                rehypePlugins={mdPlugins.rehype as any}
+                components={{ p: ({ node: _n, ...p }) => <span {...p} /> }}
+            >
+                {children}
+            </ReactMarkdown>
+        </MathErrorBoundary>
+    </span>
+);
 
 interface ImprovementBookCardProps {
     userId: string;
@@ -391,10 +451,8 @@ export const ImprovementBookCard: React.FC<ImprovementBookCardProps> = ({ userId
                                     )}
 
                                     {/* Question Text */}
-                                    <div className="p-4 bg-white/[0.02] border border-white/5 rounded-xl">
-                                        <p className="text-sm font-semibold text-slate-200 leading-relaxed">
-                                            {selectedEntry.question_text}
-                                        </p>
+                                    <div className="p-4 bg-white/[0.02] border border-white/5 rounded-xl text-sm font-semibold text-slate-200 leading-relaxed">
+                                        <MathText>{preprocessQuestionText(selectedEntry.question_text)}</MathText>
                                     </div>
 
                                     {/* Options */}
@@ -424,7 +482,9 @@ export const ImprovementBookCard: React.FC<ImprovementBookCardProps> = ({ userId
                                                     disabled={hasChecked}
                                                     className={`p-4 rounded-xl border text-left text-xs md:text-sm font-medium transition-all duration-200 flex items-center justify-between ${btnStyle}`}
                                                 >
-                                                    <span>{option}</span>
+                                                    <span className="flex-1 text-left">
+                                                        <MathText>{preprocessOption(option)}</MathText>
+                                                    </span>
                                                     {hasChecked && isCorrectOpt && (
                                                         <CheckCircle2 size={16} className="text-emerald-400 shrink-0 ml-2" />
                                                     )}
@@ -459,9 +519,9 @@ export const ImprovementBookCard: React.FC<ImprovementBookCardProps> = ({ userId
                                                 <h4 className="text-[10px] font-black uppercase text-purple-400 tracking-wider flex items-center gap-1.5">
                                                     <Sparkles size={11} /> Detailed Explanation
                                                 </h4>
-                                                <p className="text-xs text-slate-400 leading-relaxed font-medium">
-                                                    {selectedEntry.explanation}
-                                                </p>
+                                                <div className="text-xs text-slate-400 leading-relaxed font-medium">
+                                                    <MathText>{preprocessQuestionText(selectedEntry.explanation)}</MathText>
+                                                </div>
                                             </div>
                                         </motion.div>
                                     )}

@@ -107,10 +107,10 @@ function cloudflareD1DevProxy(): Plugin {
       }
 
       server.middlewares.use(async (req, res, next) => {
-        if (!req.url?.startsWith('/api/questions')) return next();
+        const url = req.url || '';
 
         // CORS pre-flight
-        if (req.method === 'OPTIONS') {
+        if (req.method === 'OPTIONS' && (url.startsWith('/api/questions') || url.startsWith('/api/videos'))) {
           res.writeHead(204, {
             'Access-Control-Allow-Origin': '*',
             'Access-Control-Allow-Methods': 'POST, GET, OPTIONS',
@@ -120,123 +120,358 @@ function cloudflareD1DevProxy(): Plugin {
           return;
         }
 
-        if (req.method !== 'POST') return next();
+        if (url.startsWith('/api/questions')) {
+          if (req.method !== 'POST') return next();
+          if (!enabled) return next();
 
-        // If credentials not configured, skip to fallback chain
-        if (!enabled) return next();
-
-        const CORS_JSON = {
-          'Access-Control-Allow-Origin': '*',
-          'Content-Type': 'application/json',
-        };
-
-        try {
-          // Read request body (Node stream)
-          const chunks: Buffer[] = [];
-          for await (const chunk of req) chunks.push(chunk as Buffer);
-          const body = JSON.parse(Buffer.concat(chunks).toString());
-
-          const { needs, exam, abilityScore = 1000 } = body as {
-            needs: Array<{ topic: string; count: number; topic_id?: string }>;
-            exam: string;
-            abilityScore?: number;
+          const CORS_JSON = {
+            'Access-Control-Allow-Origin': '*',
+            'Content-Type': 'application/json',
           };
 
-          if (!Array.isArray(needs) || !exam) {
-            res.writeHead(400, CORS_JSON);
-            res.end(JSON.stringify({ error: 'needs[] and exam are required' }));
-            return;
-          }
+          try {
+            // Read request body (Node stream)
+            const chunks: Buffer[] = [];
+            for await (const chunk of req) chunks.push(chunk as Buffer);
+            const body = JSON.parse(Buffer.concat(chunks).toString());
 
-          const normExam = normalizeExam(exam);
-          const allQuestions: any[] = [];
-          const selectedIds = new Set<string>();
+            const { needs, exam, abilityScore = 1000 } = body as {
+              needs: Array<{ topic: string; count: number; topic_id?: string }>;
+              exam: string;
+              abilityScore?: number;
+            };
 
-          for (const group of needs) {
-            const { topic, count, topic_id } = group;
-            if (!topic || !count) continue;
+            if (!Array.isArray(needs) || !exam) {
+              res.writeHead(400, CORS_JSON);
+              res.end(JSON.stringify({ error: 'needs[] and exam are required' }));
+              return;
+            }
 
-            const tid = topic_id ?? topic.toLowerCase().replace(/[^a-z0-9_]/g, '_');
-            const likeExam = `%"${normExam}"%`;
+            const normExam = normalizeExam(exam);
+            const allQuestions: any[] = [];
+            const selectedIds = new Set<string>();
 
-            // 70/20/10 ELO split
-            const bands = [
-              { rating: abilityScore - 150, n: Math.max(0, Math.floor(count * 0.7)) },
-              { rating: abilityScore,       n: Math.max(0, Math.floor(count * 0.2)) },
-              { rating: abilityScore + 250, n: Math.max(0, count - Math.floor(count * 0.7) - Math.floor(count * 0.2)) },
-            ];
+            for (const group of needs) {
+              const { topic, count, topic_id } = group;
+              if (!topic || !count) continue;
 
-            for (const band of bands) {
-              if (band.n <= 0) continue;
-              let needed = band.n;
+              const tid = topic_id ?? topic.toLowerCase().replace(/[^a-z0-9_]/g, '_');
+              const likeExam = `%"${normExam}"%`;
 
-              // Expanding ELO window
-              for (let w = 200; needed > 0 && w <= 1500; w += 200) {
-                const excl = selectedIds.size > 0
-                  ? `AND id NOT IN (${[...selectedIds].map(() => '?').join(',')})` : '';
-                const sql = `
-                  SELECT * FROM questions
-                  WHERE (exam = ? OR also_for LIKE ?)
-                    AND (primary_topic_id = ? OR primary_topic = ?)
-                    AND difficulty_score BETWEEN ? AND ?
-                    ${excl}
-                  ORDER BY RANDOM() LIMIT ?`;
-                const params = [
-                  normExam, likeExam, tid, topic,
-                  band.rating - w, band.rating + w,
-                  ...selectedIds, needed,
-                ];
-                try {
-                  const rows = await queryD1(sql, params);
-                  for (const r of rows) {
-                    allQuestions.push(mapRow(r));
-                    selectedIds.add(r.id);
-                    needed--;
-                  }
-                } catch { /* expand window */ }
+              // 70/20/10 ELO split
+              const bands = [
+                { rating: abilityScore - 150, n: Math.max(0, Math.floor(count * 0.7)) },
+                { rating: abilityScore,       n: Math.max(0, Math.floor(count * 0.2)) },
+                { rating: abilityScore + 250, n: Math.max(0, count - Math.floor(count * 0.7) - Math.floor(count * 0.2)) },
+              ];
+
+              for (const band of bands) {
+                if (band.n <= 0) continue;
+                let needed = band.n;
+
+                // Expanding ELO window
+                for (let w = 200; needed > 0 && w <= 1500; w += 200) {
+                  const excl = selectedIds.size > 0
+                    ? `AND id NOT IN (${[...selectedIds].map(() => '?').join(',')})` : '';
+                  const sql = `
+                    SELECT * FROM questions
+                    WHERE (exam = ? OR also_for LIKE ?)
+                      AND (primary_topic_id = ? OR primary_topic = ?)
+                      AND difficulty_score BETWEEN ? AND ?
+                      ${excl}
+                    ORDER BY RANDOM() LIMIT ?`;
+                  const params = [
+                    normExam, likeExam, tid, topic,
+                    band.rating - w, band.rating + w,
+                    ...selectedIds, needed,
+                  ];
+                  try {
+                    const rows = await queryD1(sql, params);
+                    for (const r of rows) {
+                      allQuestions.push(mapRow(r));
+                      selectedIds.add(r.id);
+                      needed--;
+                    }
+                  } catch { /* expand window */ }
+                }
+
+                // No-difficulty fallback for this band
+                if (needed > 0) {
+                  const excl = selectedIds.size > 0
+                    ? `AND id NOT IN (${[...selectedIds].map(() => '?').join(',')})` : '';
+                  const sql = `
+                    SELECT * FROM questions
+                    WHERE (exam = ? OR also_for LIKE ?)
+                      AND (primary_topic_id = ? OR primary_topic = ?)
+                      ${excl}
+                    ORDER BY RANDOM() LIMIT ?`;
+                  const params = [normExam, likeExam, tid, topic, ...selectedIds, needed];
+                  try {
+                    const rows = await queryD1(sql, params);
+                    for (const r of rows) { allQuestions.push(mapRow(r)); selectedIds.add(r.id); }
+                  } catch { /* ignore */ }
+                }
               }
 
-              // No-difficulty fallback for this band
-              if (needed > 0) {
-                const excl = selectedIds.size > 0
-                  ? `AND id NOT IN (${[...selectedIds].map(() => '?').join(',')})` : '';
-                const sql = `
-                  SELECT * FROM questions
-                  WHERE (exam = ? OR also_for LIKE ?)
-                    AND (primary_topic_id = ? OR primary_topic = ?)
-                    ${excl}
-                  ORDER BY RANDOM() LIMIT ?`;
-                const params = [normExam, likeExam, tid, topic, ...selectedIds, needed];
+              // Last resort: any question from this exam
+              if (!allQuestions.some(q => q.topic === topic)) {
                 try {
-                  const rows = await queryD1(sql, params);
-                  for (const r of rows) { allQuestions.push(mapRow(r)); selectedIds.add(r.id); }
+                  const rows = await queryD1(
+                    'SELECT * FROM questions WHERE exam = ? ORDER BY RANDOM() LIMIT ?',
+                    [normExam, count]
+                  );
+                  for (const r of rows) {
+                    if (!selectedIds.has(r.id)) { allQuestions.push(mapRow(r)); selectedIds.add(r.id); }
+                  }
                 } catch { /* ignore */ }
               }
             }
 
-            // Last resort: any question from this exam
-            if (!allQuestions.some(q => q.topic === topic)) {
-              try {
-                const rows = await queryD1(
-                  'SELECT * FROM questions WHERE exam = ? ORDER BY RANDOM() LIMIT ?',
-                  [normExam, count]
-                );
-                for (const r of rows) {
-                  if (!selectedIds.has(r.id)) { allQuestions.push(mapRow(r)); selectedIds.add(r.id); }
-                }
-              } catch { /* ignore */ }
+            res.writeHead(200, CORS_JSON);
+            res.end(JSON.stringify(allQuestions));
+
+          } catch (err: any) {
+            console.error('[D1 DevProxy] Handler error:', err?.message);
+            // Fall through to the app's own fallback (local-db.json / Firestore)
+            res.writeHead(503, CORS_JSON);
+            res.end(JSON.stringify({ error: 'D1 proxy error — falling back' }));
+          }
+          return;
+        }
+
+        if (url.startsWith('/api/videos')) {
+          const CORS_JSON = {
+            'Access-Control-Allow-Origin': '*',
+            'Content-Type': 'application/json',
+          };
+
+          if (!enabled) {
+            res.writeHead(200, CORS_JSON);
+            res.end(JSON.stringify([]));
+            return;
+          }
+
+          const parsedUrl = new URL(url, 'http://localhost');
+
+          if (req.method === 'GET') {
+            try {
+              const chapterId = parsedUrl.searchParams.get('chapter_id');
+              if (!chapterId) {
+                res.writeHead(400, CORS_JSON);
+                res.end(JSON.stringify({ error: 'chapter_id is required' }));
+                return;
+              }
+
+              const sql = `
+                SELECT * FROM discovered_videos 
+                WHERE chapter_id = ? AND is_available = 1
+                ORDER BY score DESC
+              `;
+              const rows = await queryD1(sql, [chapterId]);
+              const videos = rows.map((row: any) => ({
+                id: row.id,
+                title: row.title,
+                channelName: row.channel_name,
+                thumbnailUrl: row.thumbnail_url,
+                videoUrl: `https://www.youtube.com/watch?v=${row.id}`,
+                duration: row.duration,
+                viewCount: row.view_count,
+                chapterId: row.chapter_id,
+                subtopic: row.subtopic,
+                exam: row.exam,
+                score: row.score,
+              }));
+
+              res.writeHead(200, CORS_JSON);
+              res.end(JSON.stringify(videos));
+              return;
+            } catch (err: any) {
+              console.error('[D1 DevProxy] GET videos error:', err?.message);
+              res.writeHead(500, CORS_JSON);
+              res.end(JSON.stringify({ error: err.message }));
+              return;
             }
           }
 
-          res.writeHead(200, CORS_JSON);
-          res.end(JSON.stringify(allQuestions));
+          if (req.method === 'POST') {
+            const isDiscover = parsedUrl.pathname.endsWith('/discover');
+            if (!isDiscover) {
+              res.writeHead(405, CORS_JSON);
+              res.end(JSON.stringify({ error: 'Method Not Allowed' }));
+              return;
+            }
 
-        } catch (err: any) {
-          console.error('[D1 DevProxy] Handler error:', err?.message);
-          // Fall through to the app's own fallback (local-db.json / Firestore)
-          res.writeHead(503, CORS_JSON);
-          res.end(JSON.stringify({ error: 'D1 proxy error — falling back' }));
+            try {
+              const chunks: Buffer[] = [];
+              for await (const chunk of req) chunks.push(chunk as Buffer);
+              const body = JSON.parse(Buffer.concat(chunks).toString());
+              const { chapter_id, subtopic, exam, subject, class: studentClass } = body;
+
+              if (!chapter_id || !subtopic || !exam || !subject) {
+                res.writeHead(400, CORS_JSON);
+                res.end(JSON.stringify({ error: 'chapter_id, subtopic, exam, and subject are required' }));
+                return;
+              }
+
+              const cleanChapterName = chapter_id
+                .replace(/^(phy|che|math|bio)_12_/i, '')
+                .replace(/_/g, ' ');
+              const searchQuery = `${cleanChapterName} ${subtopic} ${exam} complete lecture in English/Hindi`;
+
+              console.log(`[D1 DevProxy] Searching YouTube for: "${searchQuery}"`);
+
+              const searchUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${encodeURIComponent(searchQuery)}&type=video&maxResults=8&videoEmbeddable=true&relevanceLanguage=en&regionCode=IN&key=${process.env.YOUTUBE_API_KEY || process.env.VITE_YOUTUBE_API_KEY}`;
+              const searchResponse = await fetch(searchUrl);
+
+              if (!searchResponse.ok) {
+                const errData = await searchResponse.json() as any;
+                console.error('[D1 DevProxy] YouTube API Error:', errData);
+                res.writeHead(searchResponse.status, CORS_JSON);
+                res.end(JSON.stringify({ error: 'YouTube Search API failed', details: errData }));
+                return;
+              }
+
+              const searchData = await searchResponse.json() as any;
+              if (!searchData.items || searchData.items.length === 0) {
+                res.writeHead(200, CORS_JSON);
+                res.end(JSON.stringify([]));
+                return;
+              }
+
+              const videoIds = searchData.items.map((item: any) => item.id.videoId);
+              const detailsUrl = `https://www.googleapis.com/youtube/v3/videos?part=contentDetails,statistics,status&id=${videoIds.join(',')}&key=${process.env.YOUTUBE_API_KEY || process.env.VITE_YOUTUBE_API_KEY}`;
+              const detailsResponse = await fetch(detailsUrl);
+
+              if (!detailsResponse.ok) {
+                res.writeHead(500, CORS_JSON);
+                res.end(JSON.stringify({ error: 'Failed to fetch details' }));
+                return;
+              }
+
+              const detailsData = await detailsResponse.json() as any;
+              const videoDetailsMap = new Map();
+
+              for (const item of detailsData.items || []) {
+                const isEmbeddable = item.status?.embeddable !== false;
+                const isPublic = item.status?.privacyStatus === 'public';
+                const hasRestriction = item.contentDetails?.regionRestriction?.blocked?.includes('IN');
+
+                // Convert ISO duration
+                const match = item.contentDetails?.duration?.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
+                let durationStr = '0:00';
+                if (match) {
+                  const hours = match[1] ? parseInt(match[1]) : 0;
+                  const minutes = match[2] ? parseInt(match[2]) : 0;
+                  const seconds = match[3] ? parseInt(match[3]) : 0;
+                  durationStr = hours > 0
+                    ? `${hours}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`
+                    : `${minutes}:${seconds.toString().padStart(2, '0')}`;
+                }
+
+                // Format view count
+                const viewNum = parseInt(item.statistics?.viewCount || '0');
+                let viewStr = '0 views';
+                if (viewNum >= 1000000) viewStr = `${(viewNum / 1000000).toFixed(1)}M views`;
+                else if (viewNum >= 1000) viewStr = `${(viewNum / 1000).toFixed(0)}K views`;
+                else viewStr = `${viewNum} views`;
+
+                videoDetailsMap.set(item.id, {
+                  duration: durationStr,
+                  viewCount: viewStr,
+                  isAvailable: isEmbeddable && isPublic && !hasRestriction
+                });
+              }
+
+              const discoveredVideos = [];
+              for (const item of searchData.items) {
+                const videoId = item.id.videoId;
+                const snippet = item.snippet;
+                const details = videoDetailsMap.get(videoId);
+
+                if (!details || !details.isAvailable) continue;
+
+                // Duration filter
+                const parts = details.duration.split(':').map(Number);
+                let durationSec = 0;
+                if (parts.length === 3) durationSec = parts[0] * 3600 + parts[1] * 60 + parts[2];
+                else if (parts.length === 2) durationSec = parts[0] * 60 + parts[1];
+                else durationSec = parts[0] || 0;
+
+                if (durationSec < 180) continue;
+
+                let score = 50;
+                if (durationSec >= 480 && durationSec <= 3600) score += 20;
+                else if (durationSec > 3600) score += 15;
+
+                const channel = snippet.channelTitle.toLowerCase();
+                if (
+                  channel.includes('physics wallah') || channel.includes('jee wallah') ||
+                  channel.includes('competition wallah') || channel.includes('neet wallah') ||
+                  channel.includes('vedantu') || channel.includes('unacademy') ||
+                  channel.includes('mohit tyagi') || channel.includes('mathongo')
+                ) {
+                  score += 20;
+                }
+
+                const title = snippet.title.toLowerCase();
+                if (title.includes(exam.toLowerCase())) score += 10;
+                if (title.includes(subtopic.toLowerCase())) score += 10;
+
+                // Save to D1
+                const insertSql = `
+                  INSERT INTO discovered_videos (
+                    id, title, channel_name, thumbnail_url, duration, view_count,
+                    chapter_id, subtopic, subject, class, exam, score
+                  ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                  ON CONFLICT(id) DO UPDATE SET
+                    score = EXCLUDED.score,
+                    fetched_at = (unixepoch())
+                `;
+
+                await queryD1(insertSql, [
+                  videoId,
+                  snippet.title,
+                  snippet.channelTitle,
+                  snippet.thumbnails?.medium?.url || snippet.thumbnails?.default?.url || '',
+                  details.duration,
+                  details.viewCount,
+                  chapter_id,
+                  subtopic,
+                  subject,
+                  studentClass || 'Class 12',
+                  exam,
+                  score
+                ]);
+
+                discoveredVideos.push({
+                  id: videoId,
+                  title: snippet.title,
+                  channelName: snippet.channelTitle,
+                  thumbnailUrl: snippet.thumbnails?.medium?.url || snippet.thumbnails?.default?.url || '',
+                  videoUrl: `https://www.youtube.com/watch?v=${videoId}`,
+                  duration: details.duration,
+                  viewCount: details.viewCount,
+                  chapterId: chapter_id,
+                  subtopic: subtopic,
+                  exam: exam,
+                  score: score
+                });
+              }
+
+              res.writeHead(200, CORS_JSON);
+              res.end(JSON.stringify(discoveredVideos));
+              return;
+
+            } catch (err: any) {
+              console.error('[D1 DevProxy] POST discover error:', err?.message);
+              res.writeHead(500, CORS_JSON);
+              res.end(JSON.stringify({ error: err.message }));
+              return;
+            }
+          }
         }
+
+        return next();
       });
     },
   };

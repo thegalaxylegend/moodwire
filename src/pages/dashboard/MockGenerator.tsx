@@ -7,6 +7,7 @@ import { askAI } from '../../lib/ai';
 import { db } from '../../lib/firebase';
 import { collection, query, where, getDocs, limit, addDoc, serverTimestamp } from 'firebase/firestore';
 import { useUserStore } from '../../store/userStore';
+import { SYLLABUS_DB } from '../../lib/constants';
 import { markTopicsAsCompletedFromResults } from '../../services/dataSyncService';
 import { batchUpdateTopicStrength } from '../../services/topicStrengthService';
 import { trackQuestionTime, trackOptionSwitch } from '../../lib/analytics';

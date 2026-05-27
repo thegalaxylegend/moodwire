@@ -58,6 +58,45 @@ export const getActiveRecommendation = async (
         const candidateTopics = forceRefresh ? [...weakTopicsPool].sort(() => Math.random() - 0.5) : weakTopicsPool;
 
         for (const topicStat of candidateTopics) {
+            // [NEW] Curated Video Priority Path for Class 12
+            const isClass12 = (userClass || '').includes('12');
+            if (isClass12) {
+                try {
+                    const { getLibraryForChapter } = await import('./videoLibraryService');
+                    const { scoreVideos } = await import('./videoScoringEngine');
+                    const { SYLLABUS_DB } = await import('../lib/constants');
+                    
+                    let chapterId = '';
+                    let subject = '';
+                    
+                    for (const sub in SYLLABUS_DB) {
+                        const match = SYLLABUS_DB[sub].find(t => t.topic.toLowerCase().trim() === topicStat.topic.toLowerCase().trim());
+                        if (match) {
+                            chapterId = match.id;
+                            subject = sub;
+                            break;
+                        }
+                    }
+
+                    if (chapterId) {
+                        const videos = await getLibraryForChapter(chapterId, targetExam, subject, userClass);
+                        if (videos && videos.length > 0) {
+                            const scored = scoreVideos(videos, userId, chapterId, null, userClass || 'Class 12', targetExam || 'JEE', weakTopicsPool);
+                            const unwatchedScored = scored.filter(sv => !isVideoFinished(sv.video.id, userId, userClass, targetExam));
+                            
+                            if (unwatchedScored.length > 0) {
+                                targetTopic = topicStat.topic;
+                                reason = forceRefresh ? `Targeted Curated Review (${topicStat.score_percentage}%)` : `Weakest Topic (Curated: ${topicStat.score_percentage}%)`;
+                                freshVideo = unwatchedScored[0].video;
+                                break;
+                            }
+                        }
+                    }
+                } catch (err) {
+                    console.error('[RecommendationService] Curated priority path failed, falling back:', err);
+                }
+            }
+
             const playlist = await getVideoByTopicIdCached(topicStat.topic, searchContext, userId, userClass, forceRefresh);
 
             if (playlist && playlist.videos.length > 0) {

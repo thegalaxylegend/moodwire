@@ -3,7 +3,6 @@ import mermaid from 'mermaid';
 import DOMPurify from 'dompurify';
 import { SYLLABUS_DB } from '../../lib/constants';
 import { useUserStore } from '../../store/userStore';
-import { useNavigate } from 'react-router-dom';
 import { SubtopicProgressService } from '../../services/subtopicProgressService';
 
 import { Network, RefreshCw } from 'lucide-react';
@@ -23,7 +22,6 @@ mermaid.initialize({
 
 export const ConceptMap = () => {
     const { user } = useUserStore();
-    const navigate = useNavigate();
     const [selectedSubject, setSelectedSubject] = useState<string>('Physics');
     const [svgCode, setSvgCode] = useState<string>('');
     const [isRendering, setIsRendering] = useState<boolean>(true);
