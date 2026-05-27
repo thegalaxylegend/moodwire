@@ -155,9 +155,8 @@ jobs:
             LINES=$(wc -l < "$chunk" | tr -d ' ')
             echo -n "   Uploading $CHUNK_NAME ($LINES statements)... "
 
-            if wrangler d1 execute examcompass-questions \
+            if wrangler d1 execute 63abfee4-2340-47bd-a9ad-ebc4a9c50580 \
                 --remote \
-                --database-id 63abfee4-2340-47bd-a9ad-ebc4a9c50580 \
                 --file "$chunk" 2>&1; then
               TOTAL=$((TOTAL + LINES))
               echo "✅"
@@ -166,9 +165,8 @@ jobs:
               echo "❌ (will retry)"
               # Retry once
               sleep 5
-              if wrangler d1 execute examcompass-questions \
+              if wrangler d1 execute 63abfee4-2340-47bd-a9ad-ebc4a9c50580 \
                   --remote \
-                  --database-id 63abfee4-2340-47bd-a9ad-ebc4a9c50580 \
                   --file "$chunk" 2>&1; then
                 TOTAL=$((TOTAL + LINES))
                 echo "   ↩️ Retry ✅"
@@ -197,9 +195,8 @@ jobs:
       - name: 🔍 Step 7 — Verify D1 question count
         run: |
           echo "📊 Querying D1 for final counts..."
-          wrangler d1 execute examcompass-questions \
+          wrangler d1 execute 63abfee4-2340-47bd-a9ad-ebc4a9c50580 \
             --remote \
-            --database-id 63abfee4-2340-47bd-a9ad-ebc4a9c50580 \
             --command "SELECT COUNT(*) as total, difficulty_band, COUNT(*) as band_count FROM questions GROUP BY difficulty_band ORDER BY band_count DESC LIMIT 20;"
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
