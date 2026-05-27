@@ -219,6 +219,28 @@ def call_groq(key: str, model: str, prompt: str) -> Optional[str]:
         if "429" in str(e) or "403" in str(e): raise Exception("RATE_LIMIT")
         return None
 
+def call_gemini(key: str, model: str, prompt: str) -> Optional[str]:
+    try:
+        payload = json.dumps({
+            "model": model,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.15,
+            "max_tokens": 1500,
+            "response_format": {"type": "json_object"}
+        }).encode()
+        req = urllib.request.Request(
+            "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+            data=payload,
+            headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
+            method="POST"
+        )
+        with urllib.request.urlopen(req, timeout=20) as r:
+            data = json.loads(r.read())
+        return data["choices"][0]["message"]["content"]
+    except Exception as e:
+        if "429" in str(e) or "403" in str(e): raise Exception("RATE_LIMIT")
+        return None
+
 def extract_json(text: str) -> Optional[dict]:
     if not text: return None
     # Try direct parse
@@ -256,11 +278,11 @@ def fix_elo(data: dict) -> dict:
 
     return data
 
-def enrich_question(q: dict, cb_keys: list, groq_keys: list) -> Optional[dict]:
+def enrich_question(q: dict, cb_keys: list, groq_keys: list, gemini_keys: list) -> Optional[dict]:
     prompt = build_enrich_prompt(q)
 
     result_text = None
-    # Try Cerebras keys round-robin
+    # Try Cerebras keys
     for key in cb_keys:
         try:
             result_text = call_cerebras(key, prompt)
@@ -274,6 +296,16 @@ def enrich_question(q: dict, cb_keys: list, groq_keys: list) -> Optional[dict]:
         for key in groq_keys:
             try:
                 result_text = call_groq(key, "llama-3.3-70b-versatile", prompt)
+                if result_text: break
+            except Exception as e:
+                if "RATE_LIMIT" in str(e): continue
+                break
+
+    # Fallback to Gemini
+    if not result_text:
+        for key in gemini_keys:
+            try:
+                result_text = call_gemini(key, "gemini-1.5-flash", prompt)
                 if result_text: break
             except Exception as e:
                 if "RATE_LIMIT" in str(e): continue
@@ -322,42 +354,62 @@ def main():
     print(f"📋 Loaded {len(raw_questions)} raw questions")
     print(f"🎯 Target: {TARGET} enriched questions")
 
-    # Shuffle Cerebras / Groq key lists for round-robin
-    cb_keys   = CEREBRAS_KEYS * 3   # repeat for more round-robin slots
-    groq_keys = GROQ_KEYS * 2
+    # Shuffle Cerebras / Groq / Gemini key lists for round-robin
+    cb_keys     = CEREBRAS_KEYS * 3
+    groq_keys   = GROQ_KEYS * 2
+    gemini_keys = GEMINI_KEYS * 3
 
     enriched = []
-    skipped  = 0
-    start    = time.time()
+    skipped = 0
+    start = time.time()
 
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     out_fp = OUT_FILE.open("w", encoding="utf-8")
 
-    for i, q in enumerate(raw_questions):
-        if len(enriched) >= TARGET:
-            break
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    import threading
+    write_lock = threading.Lock()
 
-        # Rotate keys
-        cb_key_slice   = cb_keys[i % len(cb_keys):] + cb_keys[:i % len(cb_keys)] if cb_keys else []
-        groq_key_slice = groq_keys[i % len(groq_keys):] + groq_keys[:i % len(groq_keys)] if groq_keys else []
+    # Limit maximum concurrent workers to avoid exceeding rate limits
+    max_workers = min(15, max(1, len(raw_questions)))
+    print(f"🚀 Running enrichment with {max_workers} parallel workers...")
 
-        result = enrich_question(q, cb_key_slice[:3], groq_key_slice[:3])
+    # Select the slice of questions we want to target
+    questions_to_process = raw_questions[:TARGET]
 
-        if result:
-            enriched.append(result)
-            out_fp.write(json.dumps(result, ensure_ascii=False) + "\n")
-            out_fp.flush()
+    def process_one(idx, q):
+        nonlocal skipped
+        cb_key_slice = cb_keys[idx % len(cb_keys):] + cb_keys[:idx % len(cb_keys)] if cb_keys else []
+        groq_key_slice = groq_keys[idx % len(groq_keys):] + groq_keys[:idx % len(groq_keys)] if groq_keys else []
+        gemini_key_slice = gemini_keys[idx % len(gemini_keys):] + gemini_keys[:idx % len(gemini_keys)] if gemini_keys else []
 
-            elapsed = time.time() - start
-            qpm = len(enriched) / max(elapsed/60, 0.01)
-            remaining = max(0, TARGET - len(enriched))
-            eta = f"{remaining/max(qpm,1):.0f}m" if qpm > 0 else "?"
-            print(f"\r   [{len(enriched)}/{TARGET}] {qpm:.0f} q/min | skipped={skipped} | ETA={eta}   ", end="", flush=True)
-        else:
-            skipped += 1
-            # Small delay if many failures
-            if skipped % 50 == 0:
-                time.sleep(2)
+        result = enrich_question(q, cb_key_slice[:3], groq_key_slice[:3], gemini_key_slice[:3])
+        return result
+
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = {executor.submit(process_one, i, q): q for i, q in enumerate(questions_to_process)}
+        
+        for future in as_completed(futures):
+            # Stop submitting/waiting if target reached
+            with write_lock:
+                if len(enriched) >= TARGET:
+                    break
+            
+            result = future.result()
+            if result:
+                with write_lock:
+                    enriched.append(result)
+                    out_fp.write(json.dumps(result, ensure_ascii=False) + "\n")
+                    out_fp.flush()
+                
+                elapsed = time.time() - start
+                qpm = len(enriched) / max(elapsed/60, 0.01)
+                remaining = max(0, TARGET - len(enriched))
+                eta = f"{remaining/max(qpm,1):.0f}m" if qpm > 0 else "?"
+                print(f"\r   [{len(enriched)}/{TARGET}] {qpm:.0f} q/min | skipped={skipped} | ETA={eta}   ", end="", flush=True)
+            else:
+                with write_lock:
+                    skipped += 1
 
     out_fp.close()
 
