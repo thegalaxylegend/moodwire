@@ -9,7 +9,7 @@ test('extractAndSaveMemory error paths', async (t) => {
     });
 
     await t.test('returns empty array and handles API error', async () => {
-        const routeMock = mock.method(modelRouter, 'route', async () => {
+        mock.method(modelRouter, 'route', async () => {
             throw new Error('API down');
         });
 
@@ -22,7 +22,7 @@ test('extractAndSaveMemory error paths', async (t) => {
     });
 
     await t.test('returns empty array when AI returns invalid JSON', async () => {
-        const routeMock = mock.method(modelRouter, 'route', async () => {
+        mock.method(modelRouter, 'route', async () => {
             return { choices: [{ message: { content: 'invalid json' } }] };
         });
 
