@@ -1,0 +1,227 @@
+name: 📚 ExamCompass Question Pipeline
+
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: 'Number of questions to add (default: 10000)'
+        required: false
+        default: '10000'
+        type: string
+      source_filter:
+        description: 'Which sources to use'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - class8-10
+          - class11-12
+
+env:
+  TARGET: ${{ inputs.target || '10000' }}
+  SOURCE_FILTER: ${{ inputs.source_filter || 'all' }}
+
+jobs:
+  question-pipeline:
+    name: 🚀 Generate & Upload ${{ inputs.target || '10000' }} Questions
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      # ── Setup ──────────────────────────────────────────────────────────────
+      - name: 📥 Checkout moodwire
+        uses: actions/checkout@v4
+
+      - name: 🐍 Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 📦 Install Python dependencies
+        run: |
+          pip install requests pdfplumber python-dotenv
+
+      - name: 📦 Install Wrangler
+        run: npm install -g wrangler@latest
+
+      - name: 📁 Create output directory
+        run: mkdir -p pipeline/output/sql_chunks
+
+      # ── Step 1: Fetch Sources ───────────────────────────────────────────────
+      - name: 📥 Step 1 — Fetch question sources
+        run: python pipeline/1-fetch-sources.py
+        env:
+          TARGET: ${{ env.TARGET }}
+          SOURCE_FILTER: ${{ env.SOURCE_FILTER }}
+
+      - name: 📊 Source fetch summary
+        run: |
+          COUNT=$(wc -l < pipeline/output/raw_questions.jsonl 2>/dev/null || echo 0)
+          echo "::notice::Raw questions fetched: $COUNT"
+          echo "RAW_COUNT=$COUNT" >> $GITHUB_ENV
+
+      # ── Step 2: Normalize ───────────────────────────────────────────────────
+      - name: 🔄 Step 2 — Normalize formats
+        run: python pipeline/2-normalize.py
+        env:
+          TARGET: ${{ env.TARGET }}
+
+      # ── Step 3: AI Enrichment ───────────────────────────────────────────────
+      - name: 🤖 Step 3 — AI Enrichment (ELO tagging + metadata)
+        run: python pipeline/3-enrich-elo.py
+        env:
+          TARGET: ${{ env.TARGET }}
+          # Cerebras keys (fastest)
+          CEREBRAS_API_KEY:   ${{ secrets.CEREBRAS_API_KEY }}
+          CEREBRAS_API_KEY_2: ${{ secrets.CEREBRAS_API_KEY_2 }}
+          CEREBRAS_API_KEY_3: ${{ secrets.CEREBRAS_API_KEY_3 }}
+          CEREBRAS_API_KEY_4: ${{ secrets.CEREBRAS_API_KEY_4 }}
+          CEREBRAS_API_KEY_5: ${{ secrets.CEREBRAS_API_KEY_5 }}
+          CEREBRAS_API_KEY_6: ${{ secrets.CEREBRAS_API_KEY_6 }}
+          CEREBRAS_API_KEY_7: ${{ secrets.CEREBRAS_API_KEY_7 }}
+          CEREBRAS_API_KEY_8: ${{ secrets.CEREBRAS_API_KEY_8 }}
+          # Groq keys (fallback)
+          GROQ_API_KEY:   ${{ secrets.GROQ_API_KEY }}
+          GROQ_API_KEY_2: ${{ secrets.GROQ_API_KEY_2 }}
+          GROQ_API_KEY_3: ${{ secrets.GROQ_API_KEY_3 }}
+          GROQ_API_KEY_4: ${{ secrets.GROQ_API_KEY_4 }}
+          GROQ_API_KEY_5: ${{ secrets.GROQ_API_KEY_5 }}
+          GROQ_API_KEY_6: ${{ secrets.GROQ_API_KEY_6 }}
+          GROQ_API_KEY_7: ${{ secrets.GROQ_API_KEY_7 }}
+          GROQ_API_KEY_8: ${{ secrets.GROQ_API_KEY_8 }}
+
+      - name: 📊 Enrichment summary
+        run: |
+          COUNT=$(wc -l < pipeline/output/enriched_questions.jsonl 2>/dev/null || echo 0)
+          echo "::notice::Enriched questions: $COUNT"
+          echo "ENRICHED_COUNT=$COUNT" >> $GITHUB_ENV
+
+      # ── Step 4: Validate ELO ────────────────────────────────────────────────
+      - name: ✅ Step 4 — Validate ELO + Schema (HARD rules)
+        run: python pipeline/4-validate.py
+
+      - name: 📊 Validation summary
+        run: |
+          VALID=$(wc -l < pipeline/output/validated_questions.jsonl 2>/dev/null || echo 0)
+          echo "::notice::Validated questions: $VALID"
+          echo "VALID_COUNT=$VALID" >> $GITHUB_ENV
+          # Print validation report
+          cat pipeline/output/validation_report.json | python3 -c "
+          import json,sys
+          r=json.load(sys.stdin)
+          print(f\"Valid: {r['valid']} | Dropped: {r['dropped']} | Pass rate: {r['pass_rate']}\")
+          print('Error breakdown:', r.get('error_breakdown',{}))
+          "
+
+      # ── Step 5: Generate SQL ────────────────────────────────────────────────
+      - name: 🗄️ Step 5 — Generate SQL chunks
+        run: python pipeline/5-generate-sql.py
+
+      - name: 📊 SQL generation summary
+        run: |
+          CHUNKS=$(ls pipeline/output/sql_chunks/batch_*.sql 2>/dev/null | wc -l)
+          echo "::notice::SQL chunks generated: $CHUNKS"
+          echo "CHUNK_COUNT=$CHUNKS" >> $GITHUB_ENV
+
+      # ── Step 6: Upload to Real D1 ───────────────────────────────────────────
+      - name: 🚀 Step 6 — Upload to Cloudflare D1 (PRODUCTION)
+        run: |
+          set -e
+          TOTAL=0
+          FAILED=0
+          CHUNKS=$(ls pipeline/output/sql_chunks/batch_*.sql | sort)
+          CHUNK_COUNT=$(echo "$CHUNKS" | wc -l)
+
+          echo "📤 Uploading $CHUNK_COUNT chunks to D1..."
+          echo "   Database: examcompass-questions"
+          echo "   ID: 63abfee4-2340-47bd-a9ad-ebc4a9c50580"
+          echo ""
+
+          for chunk in $CHUNKS; do
+            CHUNK_NAME=$(basename "$chunk")
+            LINES=$(wc -l < "$chunk" | tr -d ' ')
+            echo -n "   Uploading $CHUNK_NAME ($LINES statements)... "
+
+            if wrangler d1 execute examcompass-questions \
+                --remote \
+                --database-id 63abfee4-2340-47bd-a9ad-ebc4a9c50580 \
+                --file "$chunk" 2>&1; then
+              TOTAL=$((TOTAL + LINES))
+              echo "✅"
+            else
+              FAILED=$((FAILED + 1))
+              echo "❌ (will retry)"
+              # Retry once
+              sleep 5
+              if wrangler d1 execute examcompass-questions \
+                  --remote \
+                  --database-id 63abfee4-2340-47bd-a9ad-ebc4a9c50580 \
+                  --file "$chunk" 2>&1; then
+                TOTAL=$((TOTAL + LINES))
+                echo "   ↩️ Retry ✅"
+                FAILED=$((FAILED - 1))
+              fi
+            fi
+            # Small delay between chunks to avoid D1 rate limits
+            sleep 2
+          done
+
+          echo ""
+          echo "═══════════════════════════════════════"
+          echo "✅ UPLOAD COMPLETE"
+          echo "   Statements uploaded: $TOTAL"
+          echo "   Failed chunks:       $FAILED"
+          echo "═══════════════════════════════════════"
+
+          if [ "$FAILED" -gt 0 ]; then
+            echo "::warning::$FAILED chunks failed to upload"
+          fi
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      # ── Step 7: Verify D1 Count ─────────────────────────────────────────────
+      - name: 🔍 Step 7 — Verify D1 question count
+        run: |
+          echo "📊 Querying D1 for final counts..."
+          wrangler d1 execute examcompass-questions \
+            --remote \
+            --database-id 63abfee4-2340-47bd-a9ad-ebc4a9c50580 \
+            --command "SELECT COUNT(*) as total, difficulty_band, COUNT(*) as band_count FROM questions GROUP BY difficulty_band ORDER BY band_count DESC LIMIT 20;"
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      # ── Upload Reports as Artifacts ─────────────────────────────────────────
+      - name: 📁 Upload pipeline reports
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pipeline-report-${{ github.run_number }}
+          path: |
+            pipeline/output/validation_report.json
+            pipeline/output/sql_summary.json
+          retention-days: 30
+
+      # ── Final Summary ───────────────────────────────────────────────────────
+      - name: 📋 Final run summary
+        if: always()
+        run: |
+          echo "## 📚 ExamCompass Pipeline Run #${{ github.run_number }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Stage | Count |" >> $GITHUB_STEP_SUMMARY
+          echo "|-------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| 📥 Raw fetched | ${{ env.RAW_COUNT || '?' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| 🤖 AI enriched | ${{ env.ENRICHED_COUNT || '?' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| ✅ Validated   | ${{ env.VALID_COUNT || '?' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| 🗄️ SQL chunks  | ${{ env.CHUNK_COUNT || '?' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Target:** ${{ env.TARGET }} questions | **Filter:** ${{ env.SOURCE_FILTER }}" >> $GITHUB_STEP_SUMMARY
+          echo "**D1 Database:** examcompass-questions" >> $GITHUB_STEP_SUMMARY

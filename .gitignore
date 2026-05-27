@@ -1,0 +1,7 @@
+pipeline/output/
+pipeline/output/**
+*.zip
+*.log
+__pycache__/
+*.pyc
+node_modules/

@@ -1,0 +1,48 @@
+{
+  "bands": {
+    "CLASS_8_RECALL":   { "elo_min": 700,  "elo_max": 900,  "classes": ["8"],       "exams": ["Board"],                             "description": "Class 8 Board level recall" },
+    "CLASS_9_BASIC":    { "elo_min": 900,  "elo_max": 1100, "classes": ["9"],       "exams": ["Board"],                             "description": "Class 9 Board level basics" },
+    "BOARD_EASY":       { "elo_min": 1100, "elo_max": 1400, "classes": ["10"],      "exams": ["Board"],                             "description": "Class 10 Board easy" },
+    "BOARD_HARD":       { "elo_min": 1400, "elo_max": 1700, "classes": ["10"],      "exams": ["Board"],                             "description": "Class 10 Board hard" },
+    "NEET_EASY":        { "elo_min": 1700, "elo_max": 1900, "classes": ["11","12"], "exams": ["NEET"],                              "description": "NEET easy / Class 11 intro" },
+    "JEE_MAINS_EASY":   { "elo_min": 1800, "elo_max": 2050, "classes": ["11","12"], "exams": ["JEEMains"],                          "description": "JEE Mains easy" },
+    "NEET_MEDIUM":      { "elo_min": 1900, "elo_max": 2100, "classes": ["11","12"], "exams": ["NEET"],                              "description": "NEET medium difficulty" },
+    "JEE_MAINS_MEDIUM": { "elo_min": 2050, "elo_max": 2250, "classes": ["11","12"], "exams": ["JEEMains"],                          "description": "JEE Mains medium" },
+    "NEET_HARD":        { "elo_min": 2100, "elo_max": 2350, "classes": ["11","12"], "exams": ["NEET"],                              "description": "NEET hard / top percentile" },
+    "JEE_MAINS_HARD":   { "elo_min": 2250, "elo_max": 2500, "classes": ["11","12"], "exams": ["JEEMains"],                          "description": "JEE Mains hard" },
+    "JEE_ADV_EASY":     { "elo_min": 2400, "elo_max": 2650, "classes": ["12"],      "exams": ["JEEAdvanced"],                       "description": "JEE Advanced easy" },
+    "JEE_ADV_MEDIUM":   { "elo_min": 2600, "elo_max": 2800, "classes": ["12"],      "exams": ["JEEAdvanced"],                       "description": "JEE Advanced medium" },
+    "JEE_ADV_HARD":     { "elo_min": 2800, "elo_max": 3000, "classes": ["12"],      "exams": ["JEEAdvanced"],                       "description": "JEE Advanced hard" },
+    "JEE_ADV_EXPERT":   { "elo_min": 3000, "elo_max": 3200, "classes": ["12"],      "exams": ["JEEAdvanced"],                       "description": "JEE Advanced expert / olympiad" }
+  },
+  "aliases": {
+    "BOARD_MEDIUM":          "BOARD_HARD",
+    "CLASS_10_EASY":         "BOARD_EASY",
+    "CLASS_10_HARD":         "BOARD_HARD",
+    "CLASS_10_MEDIUM":       "BOARD_HARD",
+    "NEET_BASIC":            "NEET_EASY",
+    "JEE_EASY":              "JEE_MAINS_EASY",
+    "JEE_MEDIUM":            "JEE_MAINS_MEDIUM",
+    "JEE_HARD":              "JEE_MAINS_HARD",
+    "JEE_ADVANCED_EASY":     "JEE_ADV_EASY",
+    "JEE_ADVANCED_MEDIUM":   "JEE_ADV_MEDIUM",
+    "JEE_ADVANCED_HARD":     "JEE_ADV_HARD",
+    "CLASS_11_EASY":         "JEE_MAINS_EASY",
+    "CLASS_11_MEDIUM":       "JEE_MAINS_MEDIUM",
+    "CLASS_12_EASY":         "JEE_MAINS_EASY",
+    "CLASS_12_MEDIUM":       "JEE_MAINS_MEDIUM"
+  },
+  "class_constraints": {
+    "8":  ["CLASS_8_RECALL"],
+    "9":  ["CLASS_9_BASIC"],
+    "10": ["BOARD_EASY", "BOARD_HARD"],
+    "11": ["NEET_EASY", "JEE_MAINS_EASY", "NEET_MEDIUM", "JEE_MAINS_MEDIUM", "NEET_HARD", "JEE_MAINS_HARD"],
+    "12": ["NEET_EASY", "JEE_MAINS_EASY", "NEET_MEDIUM", "JEE_MAINS_MEDIUM", "NEET_HARD", "JEE_MAINS_HARD", "JEE_ADV_EASY", "JEE_ADV_MEDIUM", "JEE_ADV_HARD", "JEE_ADV_EXPERT"]
+  },
+  "exam_constraints": {
+    "Board":       ["CLASS_8_RECALL", "CLASS_9_BASIC", "BOARD_EASY", "BOARD_HARD"],
+    "NEET":        ["NEET_EASY", "NEET_MEDIUM", "NEET_HARD"],
+    "JEEMains":    ["JEE_MAINS_EASY", "JEE_MAINS_MEDIUM", "JEE_MAINS_HARD"],
+    "JEEAdvanced": ["JEE_ADV_EASY", "JEE_ADV_MEDIUM", "JEE_ADV_HARD", "JEE_ADV_EXPERT"]
+  }
+}
