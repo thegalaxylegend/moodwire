@@ -232,31 +232,45 @@ def call_groq(key: str, model: str, prompt: str) -> Optional[str]:
     return None
 
 def call_gemini(key: str, model: str, prompt: str) -> Optional[str]:
-    for m in ["gemini-2.5-flash", "gemini-3.5-flash", "gemini-flash-latest"]:
-        try:
-            payload = json.dumps({
-                "model": m,
-                "messages": [{"role": "user", "content": prompt}],
-                "temperature": 0.15,
-                "max_tokens": 1500,
-                "response_format": {"type": "json_object"}
-            }).encode()
-            req = urllib.request.Request(
-                "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
-                data=payload,
-                headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
-                method="POST"
-            )
-            with urllib.request.urlopen(req, timeout=20) as r:
-                data = json.loads(r.read())
-            return data["choices"][0]["message"]["content"]
-        except Exception as e:
-            err_str = str(e)
-            if hasattr(e, 'read'):
-                try: err_str += " - Details: " + e.read().decode()
-                except: pass
-            print(f"⚠️ Gemini call failed for model {m}: {err_str}")
-            if "429" in str(e) or "403" in str(e): raise Exception("RATE_LIMIT")
+    for m in ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-flash-latest"]:
+        # Retry with exponential backoff on 429 rate-limit errors
+        for attempt in range(4):  # up to 3 retries
+            try:
+                payload = json.dumps({
+                    "model": m,
+                    "messages": [{"role": "user", "content": prompt}],
+                    "temperature": 0.15,
+                    "max_tokens": 1500,
+                    "response_format": {"type": "json_object"}
+                }).encode()
+                req = urllib.request.Request(
+                    "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+                    data=payload,
+                    headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
+                    method="POST"
+                )
+                with urllib.request.urlopen(req, timeout=45) as r:
+                    data = json.loads(r.read())
+                return data["choices"][0]["message"]["content"]
+            except Exception as e:
+                err_str = str(e)
+                if hasattr(e, 'read'):
+                    try: err_str += " - Details: " + e.read().decode()
+                    except: pass
+                is_rate_limit = "429" in err_str
+                is_blocked    = "403" in err_str
+                if is_rate_limit and attempt < 3:
+                    wait = (2 ** attempt) * 15  # 15s, 30s, 60s
+                    print(f"⏳ Gemini 429 on {m} (attempt {attempt+1}/3) — sleeping {wait}s...")
+                    time.sleep(wait)
+                    continue  # retry same model
+                if is_blocked:
+                    print(f"⚠️ Gemini 403 on {m}: blocked — trying next model")
+                    break  # try next model
+                print(f"⚠️ Gemini call failed for model {m}: {err_str}")
+                if is_rate_limit:
+                    raise Exception("RATE_LIMIT")  # exhausted retries
+                break  # non-recoverable error, try next model
     return None
 
 def extract_json(text: str) -> Optional[dict]:
@@ -388,20 +402,25 @@ def main():
     import threading
     write_lock = threading.Lock()
 
-    # Limit maximum concurrent workers to avoid exceeding rate limits
-    max_workers = min(15, max(1, len(raw_questions)))
-    print(f"🚀 Running enrichment with {max_workers} parallel workers...")
+    # Limit concurrent workers to 3 to stay within Gemini free-tier rate limits
+    # (GitHub Action IPs are WAF-blocked on Cerebras/Groq, so Gemini is the sole API)
+    max_workers = min(3, max(1, len(raw_questions)))
+    print(f"🚀 Running enrichment with {max_workers} parallel workers (rate-limit safe)...")
 
     # Select the slice of questions we want to target
     questions_to_process = raw_questions[:TARGET]
 
     def process_one(idx, q):
         nonlocal skipped
+        # Stagger start to avoid all workers hitting API simultaneously
+        time.sleep(idx % max_workers * 1.5)
         cb_key_slice = cb_keys[idx % len(cb_keys):] + cb_keys[:idx % len(cb_keys)] if cb_keys else []
         groq_key_slice = groq_keys[idx % len(groq_keys):] + groq_keys[:idx % len(groq_keys)] if groq_keys else []
         gemini_key_slice = gemini_keys[idx % len(gemini_keys):] + gemini_keys[:idx % len(gemini_keys)] if gemini_keys else []
 
         result = enrich_question(q, cb_key_slice[:3], groq_key_slice[:3], gemini_key_slice[:3])
+        # Brief cooldown after each question to spread load across the minute window
+        time.sleep(1.0)
         return result
 
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
