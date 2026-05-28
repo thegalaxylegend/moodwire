@@ -648,7 +648,7 @@ export const Overview = () => {
                     });
 
                 const subjectMockScores: Record<string, { total: number, count: number }> = {};
-                rawMocksData.forEach((mock: any) => {
+                rawMocksData.forEach((mock: Record<string, any>) => {
                     let subjectsInMock: string[] = [];
                     if (mock.type === 'full') subjectsInMock = relevantSubjects;
                     else if (mock.type === 'topic' || mock.topic) {
