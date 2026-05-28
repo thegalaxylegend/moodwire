@@ -103,7 +103,7 @@ export const Login = () => {
         if (!isNative()) {
             handleRedirectResult();
         }
-    }, []); // eslint-disable-line react-hooks/exhaustive-deps
+    }, []);
 
     // ── Capture referral code from URL ───────────────────────────────────────
     useEffect(() => {
