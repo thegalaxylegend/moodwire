@@ -564,7 +564,7 @@ export const Chatbot = () => {
                 )}
             </AnimatePresence>
 
-            <div className="fixed bottom-[calc(84px+env(safe-area-inset-bottom,12px))] md:bottom-6 right-4 md:right-8 z-[100] pointer-events-none">
+            <div className="fixed bottom-[calc(140px+env(safe-area-inset-bottom,12px))] md:bottom-28 right-4 md:right-8 z-[100] pointer-events-none">
                 <AnimatePresence mode="wait">
                     {(!isOpen || isMinimized) && (
                         <motion.div 

@@ -1148,7 +1148,16 @@ export const CURATED_VIDEOS: CuratedVideo[] = [
     }
 ];
 
-// Helper to get curated videos for a specific chapter
+// Helper to get curated videos for a specific chapter (filters out mock video placeholders)
 export const getCuratedVideos = (chapterId: string): CuratedVideo[] => {
-    return CURATED_VIDEOS.filter(v => v.chapterId === chapterId);
+    return CURATED_VIDEOS.filter(v => 
+        v.chapterId === chapterId && 
+        /^[a-zA-Z0-9_-]{11}$/.test(v.id) && 
+        v.id !== 'T7M-fVccB-Y' &&
+        !v.id.startsWith('r12_') && 
+        !v.id.startsWith('che12_') && 
+        !v.id.startsWith('mat12_') && 
+        !v.id.startsWith('bio12_') && 
+        !v.videoUrl.includes('QhQO2')
+    );
 };

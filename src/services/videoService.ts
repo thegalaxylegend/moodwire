@@ -128,13 +128,13 @@ export const getVideoByTopicId = async (topicId: string, exam: string = 'JEE', s
         const quotaExceededUntil = localStorage.getItem('yt_quota_exceeded_until');
         if (quotaExceededUntil && Date.now() < parseInt(quotaExceededUntil)) {
             console.log(`[VideoService] 🚫 YouTube API quota is currently exhausted (block cached). Using fallback for: ${topicId}`);
-            return getFallbackPlaylist(topicId);
+            return getFallbackPlaylist(topicId, studentClass);
         }
     } catch (e) {}
 
     if (!YOUTUBE_API_KEY) {
         console.error('YouTube API key not configured');
-        return getFallbackPlaylist(topicId);
+        return getFallbackPlaylist(topicId, studentClass);
     }
 
     const searchQuery = buildSearchQuery(topicId, exam, studentClass);
@@ -169,14 +169,14 @@ export const getVideoByTopicId = async (topicId: string, exam: string = 'JEE', s
             }
 
             console.error('[VideoService] Check your API key and ensure YouTube Data API v3 is enabled');
-            return getFallbackPlaylist(topicId);
+            return getFallbackPlaylist(topicId, studentClass);
         }
 
         const searchData = await searchResponse.json();
 
         if (!searchData.items || searchData.items.length === 0) {
             console.log('No videos found for topic:', topicId);
-            return getFallbackPlaylist(topicId);
+            return getFallbackPlaylist(topicId, studentClass);
         }
 
         // Get video IDs for detail lookup
@@ -303,7 +303,7 @@ export const getVideoByTopicId = async (topicId: string, exam: string = 'JEE', s
         // If filtering removed everything, fallback
         if (finalVideos.length === 0) {
             console.log('All videos filtered out by strict rules, using fallback');
-            return getFallbackPlaylist(topicId);
+            return getFallbackPlaylist(topicId, studentClass);
         }
 
         return {
@@ -315,7 +315,7 @@ export const getVideoByTopicId = async (topicId: string, exam: string = 'JEE', s
 
     } catch (error) {
         console.error('Error fetching YouTube videos:', error);
-        return getFallbackPlaylist(topicId);
+        return getFallbackPlaylist(topicId, studentClass);
     }
 };
 
@@ -903,7 +903,7 @@ const FALLBACK_TOPIC_VIDEO_MAP: Record<string, Video[]> = {
 };
 
 // Fallback playlist generator with dynamic topic and subject matching
-const getFallbackPlaylist = (topicId: string): Playlist => {
+const getFallbackPlaylist = (topicId: string, studentClass: string = ''): Playlist => {
     const cleanId = topicId.toLowerCase().trim().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
     
     // Convert ID to a readable title
@@ -912,6 +912,8 @@ const getFallbackPlaylist = (topicId: string): Playlist => {
         .split('-')
         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
         .join(' ');
+
+    const isClass12 = studentClass.toLowerCase().includes('12');
 
     let videos: Video[] = FALLBACK_TOPIC_VIDEO_MAP[cleanId];
 
@@ -925,7 +927,7 @@ const getFallbackPlaylist = (topicId: string): Playlist => {
             cleanId.includes('current') || cleanId.includes('magnet') || cleanId.includes('optics') || 
             cleanId.includes('atom') || cleanId.includes('nuclei') || cleanId.includes('semicond')
         ) {
-            videos = FALLBACK_TOPIC_VIDEO_MAP['physics-kinematics'];
+            videos = isClass12 ? FALLBACK_TOPIC_VIDEO_MAP['modern-physics'] : FALLBACK_TOPIC_VIDEO_MAP['physics-kinematics'];
         } else if (
             cleanId.includes('chem') || cleanId.includes('bond') || cleanId.includes('organic') || 
             cleanId.includes('inorganic') || cleanId.includes('physical') || cleanId.includes('solution') || 
@@ -946,7 +948,7 @@ const getFallbackPlaylist = (topicId: string): Playlist => {
             cleanId.includes('continu') || cleanId.includes('integr') || cleanId.includes('vect') || 
             cleanId.includes('geometry') || cleanId.includes('program')
         ) {
-            videos = FALLBACK_TOPIC_VIDEO_MAP['quadratic-equations'];
+            videos = isClass12 ? FALLBACK_TOPIC_VIDEO_MAP['matrices-determinants'] : FALLBACK_TOPIC_VIDEO_MAP['quadratic-equations'];
         } else if (
             cleanId.includes('bio') || cleanId.includes('living') || cleanId.includes('classif') || 
             cleanId.includes('plant') || cleanId.includes('animal') || cleanId.includes('morphol') || 
@@ -957,10 +959,10 @@ const getFallbackPlaylist = (topicId: string): Playlist => {
             cleanId.includes('organism') || cleanId.includes('population') || cleanId.includes('eco') || 
             cleanId.includes('biodiv')
         ) {
-            videos = FALLBACK_TOPIC_VIDEO_MAP['cell-cycle-and-division'];
+            videos = isClass12 ? FALLBACK_TOPIC_VIDEO_MAP['genetics'] : FALLBACK_TOPIC_VIDEO_MAP['cell-cycle-and-division'];
         } else {
             // Default ultimate fallback
-            videos = FALLBACK_TOPIC_VIDEO_MAP['physics-kinematics'];
+            videos = isClass12 ? FALLBACK_TOPIC_VIDEO_MAP['modern-physics'] : FALLBACK_TOPIC_VIDEO_MAP['physics-kinematics'];
         }
     }
 
@@ -974,8 +976,10 @@ const getFallbackPlaylist = (topicId: string): Playlist => {
 
 // LocalStorage-based caching (User Device Only)
 export const getVideoByTopicIdCached = async (topicId: string, exam: string = 'JEE', _userId: string = 'anon', studentClass: string = '', forceRefresh: boolean = false): Promise<Playlist | null> => {
-    // V4 Cache key isolated by topic and exam (shared across users on the same device)
-    const topicKey = `vid_cache_v4_${topicId.toLowerCase().trim()}_${exam.toLowerCase()}`;
+    // V5 Cache key: isolated by topic, exam AND studentClass to prevent stale cross-class results
+    // e.g. switching Class 11 → Class 12 must return fresh Class 12 videos, not old cache
+    const classKey = studentClass ? `_${studentClass.toLowerCase().replace(/\s+/g, '').replace('th', '')}` : '';
+    const topicKey = `vid_cache_v5_${topicId.toLowerCase().trim()}_${exam.toLowerCase()}${classKey}`;
 
     try {
         // 1. Check LocalStorage (Only if not force refreshing)
@@ -1007,7 +1011,7 @@ export const getVideoByTopicIdCached = async (topicId: string, exam: string = 'J
 
     } catch (e) {
         console.error("Cache error:", e);
-        return getVideoByTopicId(topicId, exam);
+        return getVideoByTopicId(topicId, exam, studentClass);
     }
 };
 
@@ -1033,7 +1037,7 @@ export const getStrategicVideoRecommendations = async (
         const recommendedVideos: Video[] = [];
 
         // 2. Map topics to video fetch promises
-        const fetchPromises = weakTopics.map(topic => getVideoByTopicIdCached(topic.topic, exam, userId));
+        const fetchPromises = weakTopics.map(topic => getVideoByTopicIdCached(topic.topic, exam, userId, userClass));
         const playlists = await Promise.all(fetchPromises);
 
         playlists.forEach(playlist => {
@@ -1048,7 +1052,7 @@ export const getStrategicVideoRecommendations = async (
         if (recommendedVideos.length < 4) {
             const generalTopics = ['physics', 'chemistry', 'math'];
             const generalPlaylists = await Promise.all(
-                generalTopics.map(t => getVideoByTopicIdCached(t, exam, userId))
+                generalTopics.map(t => getVideoByTopicIdCached(t, exam, userId, userClass))
             );
             generalPlaylists.forEach(p => {
                 if (p && p.videos) {

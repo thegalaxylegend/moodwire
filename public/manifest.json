@@ -9,17 +9,23 @@
   "theme_color": "#8b5cf6",
   "icons": [
     {
-      "src": "/logo.png",
+      "src": "/logo-simple.png",
       "type": "image/png",
       "sizes": "192x192",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
-      "src": "/logo.png",
+      "src": "/logo-simple.png",
       "type": "image/png",
       "sizes": "512x512",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.jpg",
+      "type": "image/jpeg",
+      "sizes": "512x512",
+      "purpose": "maskable"
     }
   ],
-  "id": "examcompass-v3"
+  "id": "examcompass-v4"
 }

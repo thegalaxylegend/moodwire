@@ -1,6 +1,9 @@
-import { getWeakTopics } from './topicStrengthService';
+import { SYLLABUS_DB, type SyllabusTopic } from '../lib/constants';
+import { SubtopicProgressService, type ChapterProgress } from './subtopicProgressService';
+import { getLibraryForChapter } from './videoLibraryService';
+import { scoreVideos } from './videoScoringEngine';
 import { getVideoByTopicIdCached, type Video } from './videoService';
-import { isVideoFinished, isVideoExpiredFinished } from './videoProgressService';
+import { isVideoFinished } from './videoProgressService';
 
 export interface ActiveRecommendation {
     video: Video;
@@ -9,320 +12,421 @@ export interface ActiveRecommendation {
     generatedAt: number;
 }
 
-const STORAGE_KEY = 'exam_compass_active_recommendation';
-
-export const getActiveRecommendation = async (
-    userId: string,
-    userClass?: string,
-    targetExam?: string,
-    forceRefresh: boolean = false
-): Promise<ActiveRecommendation | null> => {
-    try {
-        // 1. Check existing recommendation in LocalStorage (Only if not force refreshing)
-        if (!forceRefresh) {
-            const cachedRaw = localStorage.getItem(`${STORAGE_KEY}_${userId}`);
-            if (cachedRaw) {
-                const cached: ActiveRecommendation = JSON.parse(cachedRaw);
-
-                const twentyFourHours = 24 * 60 * 60 * 1000;
-                const isTimeExpired = Date.now() - cached.generatedAt > twentyFourHours;
-                const isFinished = isVideoFinished(cached.video.id, userId, userClass, targetExam);
-
-                // Check if it's expired (finished > 24h ago) OR if it's been 24h and not finished (rotation)
-                if (isVideoExpiredFinished(cached.video.id, userId, userClass, targetExam) || (isTimeExpired && !isFinished)) {
-                    console.log('[RecommendationService] Active video expired (finished or timed out). Clearing.');
-                    localStorage.removeItem(`${STORAGE_KEY}_${userId}`);
-                    // Proceed to generate new one
-                } else {
-                    return cached;
-                }
-            }
-        } else {
-            console.log('[RecommendationService] Force Refresh: Ignoring cache.');
-            localStorage.removeItem(`${STORAGE_KEY}_${userId}`);
-        }
-
-        // 2. Generate NEW Recommendation
-        console.log('[RecommendationService] Generating new recommendation...');        const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(userClass || '');
-        const searchContext = isJunior ? (userClass || 'Class 10') : (targetExam || 'JEE');
-
-        let targetTopic = '';
-        let reason = '';
-        let freshVideo: Video | null = null;
-
-        // A. Get Weakest Topics
-        // Get a pool of weak topics to iterate through
-        const weakTopicsPool = await getWeakTopics(userId, forceRefresh ? 10 : 5, userClass, targetExam);
-
-        // If force refreshing, shuffle the pool to try different topics
-        const candidateTopics = forceRefresh ? [...weakTopicsPool].sort(() => Math.random() - 0.5) : weakTopicsPool;
-
-        for (const topicStat of candidateTopics) {
-            // [NEW] Curated Video Priority Path for Class 12
-            const isClass12 = (userClass || '').includes('12');
-            if (isClass12) {
-                try {
-                    const { getLibraryForChapter } = await import('./videoLibraryService');
-                    const { scoreVideos } = await import('./videoScoringEngine');
-                    const { SYLLABUS_DB } = await import('../lib/constants');
-                    
-                    let chapterId = '';
-                    let subject = '';
-                    
-                    for (const sub in SYLLABUS_DB) {
-                        const match = SYLLABUS_DB[sub].find(t => t.topic.toLowerCase().trim() === topicStat.topic.toLowerCase().trim());
-                        if (match) {
-                            chapterId = match.id;
-                            subject = sub;
-                            break;
-                        }
-                    }
-
-                    if (chapterId) {
-                        const videos = await getLibraryForChapter(chapterId, targetExam, subject, userClass);
-                        if (videos && videos.length > 0) {
-                            const scored = scoreVideos(videos, userId, chapterId, null, userClass || 'Class 12', targetExam || 'JEE', weakTopicsPool);
-                            const unwatchedScored = scored.filter(sv => !isVideoFinished(sv.video.id, userId, userClass, targetExam));
-                            
-                            if (unwatchedScored.length > 0) {
-                                targetTopic = topicStat.topic;
-                                reason = forceRefresh ? `Targeted Curated Review (${topicStat.score_percentage}%)` : `Weakest Topic (Curated: ${topicStat.score_percentage}%)`;
-                                freshVideo = unwatchedScored[0].video;
-                                break;
-                            }
-                        }
-                    }
-                } catch (err) {
-                    console.error('[RecommendationService] Curated priority path failed, falling back:', err);
-                }
-            }
-
-            const playlist = await getVideoByTopicIdCached(topicStat.topic, searchContext, userId, userClass, forceRefresh);
-
-            if (playlist && playlist.videos.length > 0) {
-                const lectures = playlist.videos.filter(v => !isVideoFinished(v.id, userId, userClass, targetExam));
-
-                if (lectures.length > 0) {
-                    targetTopic = topicStat.topic;
-                    reason = forceRefresh ? `Targeted Review (${topicStat.score_percentage}%)` : `Weakest Topic (${topicStat.score_percentage}%)`;
-                    freshVideo = forceRefresh
-                        ? lectures[Math.floor(Math.random() * lectures.length)]
-                        : lectures[0];
-                    break;
-                }
-            }
-        }
-
-        // B. Fallback: Random subject rotation if no weak topics yielded a fresh video
-        if (!freshVideo) {
-            const subjects = isJunior ? ['Mathematics', 'Science', 'Social Science', 'English'] : ['Physics', 'Chemistry', 'Math'];
-            const shuffledSubjects = [...subjects].sort(() => Math.random() - 0.5);
-
-            for (const subject of shuffledSubjects) {
-                const playlist = await getVideoByTopicIdCached(subject, searchContext, userId, userClass, forceRefresh);
-                if (playlist && playlist.videos.length > 0) {
-                    const lectures = playlist.videos.filter(v => !isVideoFinished(v.id, userId, userClass, targetExam));
-                    if (lectures.length > 0) {
-                        targetTopic = subject;
-                        reason = 'General Improvement';
-                        freshVideo = forceRefresh
-                            ? lectures[Math.floor(Math.random() * lectures.length)]
-                            : lectures[0];
-                        break;
-                    }
-                }
-            }
-        }
-
-        // C. Fallback: Re-watch videos from weak topics if absolutely no fresh videos are available
-        if (!freshVideo && candidateTopics.length > 0) {
-            for (const topicStat of candidateTopics) {
-                const playlist = await getVideoByTopicIdCached(topicStat.topic, searchContext, userId, userClass, false);
-                if (playlist && playlist.videos.length > 0) {
-                    const lectures = playlist.videos;
-                    // Find the last watched video index
-                    let lastWatchedIndex = -1;
-                    for (let i = lectures.length - 1; i >= 0; i--) {
-                        if (isVideoFinished(lectures[i].id, userId, userClass, targetExam)) {
-                            lastWatchedIndex = i;
-                            break;
-                        }
-                    }
-
-                    targetTopic = topicStat.topic;
-                    reason = `Re-watch: ${topicStat.topic} (${topicStat.score_percentage}%)`;
-
-                    if (lastWatchedIndex !== -1 && lastWatchedIndex < lectures.length - 1) {
-                        // Suggest the next video in the series
-                        freshVideo = lectures[lastWatchedIndex + 1];
-                    } else {
-                        // Fallback to first (re-watch)
-                        freshVideo = lectures[0];
-                    }
-                    break;
-                }
-            }
-        }
-
-        if (!freshVideo) {
-            return null;
-        }
-
-        // D. Save as Active
-        const newRec: ActiveRecommendation = {
-            video: freshVideo,
-            topic: targetTopic,
-            reason: reason,
-            generatedAt: Date.now()
-        };
-
-        localStorage.setItem(`${STORAGE_KEY}_${userId}`, JSON.stringify(newRec));
-        return newRec;
-
-    } catch (e) {
-        console.error('[RecommendationService] Error:', e);
-        return null;
-    }
+// Helper to determine the "previous class" relative to the user's current class for recap fallbacks
+const getPreviousClass = (userClass: string): string => {
+    if (userClass.includes('12')) return 'Class 11';
+    if (userClass.includes('11')) return 'Class 10';
+    if (userClass.includes('10')) return 'Class 9';
+    if (userClass.includes('9')) return 'Class 8';
+    return 'Class 8';
 };
 
-export const clearActiveRecommendation = (userId: string) => {
-    localStorage.removeItem(`${STORAGE_KEY}_${userId}`);
+// Helper to get chapters matching user's class and subject (Dropper-aware)
+const getChaptersForUser = (userClass: string, targetExam: string, subject: string): SyllabusTopic[] => {
+    let chapters = SYLLABUS_DB[subject] || [];
+    const isDropper = userClass.toLowerCase().includes('dropper');
+
+    if (isDropper) {
+        // Droppers show both Class 11 and Class 12, Class 11 first
+        chapters = chapters.filter(t => t.class === 'Class 11' || t.class === 'Class 12');
+        chapters = [...chapters].sort((a, b) => {
+            if (a.class === b.class) return 0;
+            return a.class === 'Class 11' ? -1 : 1;
+        });
+    } else {
+        const classNum = userClass.includes('12') ? 'Class 12' :
+                         userClass.includes('11') ? 'Class 11' :
+                         userClass.includes('10') ? 'Class 10' :
+                         userClass.includes('9')  ? 'Class 9'  :
+                         userClass.includes('8')  ? 'Class 8'  : 'Class 11';
+        chapters = chapters.filter(t => t.class === classNum);
+    }
+    return chapters;
+};
+
+// Helper to filter chapters for a specific class (for Recap fallback)
+const getChaptersForClassAndSubject = (classLabel: string, subject: string): SyllabusTopic[] => {
+    const chapters = SYLLABUS_DB[subject] || [];
+    const cleanClass = classLabel.replace(/th/gi, '').trim(); // e.g. "Class 11"
+    return chapters.filter(c => c.class.replace(/th/gi, '').trim() === cleanClass);
+};
+
+// Helper to get active subjects based on target exam and class
+const getSubjectsForUser = (userClass: string, targetExam: string): string[] => {
+    const exam = targetExam.toLowerCase();
+    if (exam.includes('neet')) return ['Physics', 'Chemistry', 'Biology'];
+    if (exam.includes('jee')) return ['Physics', 'Chemistry', 'Mathematics'];
+    if (['class 8th', 'class 9th', 'class 10th'].some(c => userClass.toLowerCase().includes(c.replace('th', '').toLowerCase()))) {
+        return ['Mathematics', 'Physics', 'Chemistry'];
+    }
+    return ['Physics', 'Chemistry', 'Mathematics'];
+};
+
+// Helper to find the ongoing chapter of a subject timeline (first uncompleted chapter)
+const getOngoingChapter = (
+    chapters: SyllabusTopic[],
+    progressMap: Record<string, ChapterProgress>
+): SyllabusTopic | null => {
+    for (const chapter of chapters) {
+        const p = progressMap[chapter.id];
+        const isMastered = p && (p.state === 'mastered' || p.masteryScore >= 80);
+        if (!isMastered) {
+            return chapter;
+        }
+    }
+    return chapters[chapters.length - 1] || null; // If all completed, return last one
+};
+
+// Unified video fetcher querying D1 first, then falling back to YouTube with mathematical scoring
+const fetchVideoForRecommendation = async (
+    chapter: SyllabusTopic,
+    subject: string,
+    type: 'oneshot' | 'quick_revision' | 'topic_wise',
+    targetExam: string,
+    userId: string,
+    userClass: string,
+    subtopic: string | null = null,
+    forceRefresh: boolean = false
+): Promise<Video | null> => {
+    try {
+        const { getWeakTopics } = await import('./topicStrengthService');
+        const weakTopicsPool = await getWeakTopics(userId, 10, userClass, targetExam);
+
+        // 1. Query local cache / D1 DB first
+        const libraryVideos = await getLibraryForChapter(chapter.id, targetExam, subject, chapter.class, forceRefresh);
+        
+        let filteredVideos = libraryVideos;
+        if (type === 'quick_revision') {
+            filteredVideos = libraryVideos.filter(v => v.type === 'quick_revision');
+        } else if (type === 'oneshot') {
+            filteredVideos = libraryVideos.filter(v => v.type === 'oneshot' || v.type === 'detailed');
+        } else if (type === 'topic_wise' && subtopic) {
+            filteredVideos = libraryVideos.filter(v => {
+                if (v.type === 'topic_wise') return true;
+                const title = v.title.toLowerCase();
+                const sub = subtopic.toLowerCase();
+                return title.includes(sub) || sub.split(' ').filter(w => w.length > 3).some(w => title.includes(w));
+            });
+        }
+
+        if (filteredVideos.length > 0) {
+            const scored = scoreVideos(filteredVideos, userId, chapter.id, subtopic, userClass, targetExam, weakTopicsPool);
+            const unwatched = scored.filter(sv => !isVideoFinished(sv.video.id, userId, userClass, targetExam));
+            if (unwatched.length > 0) {
+                return unwatched[0].video;
+            }
+            return scored[0].video;
+        }
+
+        // 2. YouTube Search API Fallback with strict mathematical scoring
+        let searchQuery = '';
+        if (type === 'quick_revision') {
+            searchQuery = `${chapter.topic} ${targetExam} ${chapter.class} quick revision recap lecture`;
+        } else if (type === 'oneshot') {
+            searchQuery = `${chapter.topic} ${targetExam} ${chapter.class} full chapter complete one shot`;
+        } else if (type === 'topic_wise' && subtopic) {
+            searchQuery = `${subtopic} ${chapter.topic} ${targetExam} ${chapter.class} detailed explanation lecture`;
+        } else {
+            searchQuery = `${chapter.topic} ${targetExam} ${chapter.class} complete lecture`;
+        }
+
+        console.log(`[RecommendationService] D1 Cache Miss. Searching YouTube API: "${searchQuery}"`);
+        const playlist = await getVideoByTopicIdCached(searchQuery, targetExam, userId, userClass, forceRefresh);
+        
+        if (playlist && playlist.videos.length > 0) {
+            const scored = scoreVideos(playlist.videos, userId, chapter.id, subtopic, userClass, targetExam, weakTopicsPool);
+            const unwatched = scored.filter(sv => !isVideoFinished(sv.video.id, userId, userClass, targetExam));
+            if (unwatched.length > 0) {
+                return unwatched[0].video;
+            }
+            return scored[0].video;
+        }
+    } catch (e) {
+        console.error(`[RecommendationService] Fetch error for ${chapter.topic} (${type}):`, e);
+    }
+    return null;
 };
 
 export const getRecommendedVideos = async (
     userId: string,
-    userClass?: string,
-    targetExam?: string,
+    userClass: string = 'Class 12th',
+    targetExam: string = 'JEE',
     forceRefresh: boolean = false
 ): Promise<ActiveRecommendation[]> => {
     try {
-        if (forceRefresh) {
-            console.log('[RecommendationService] Force refreshing all recommendations...');
-            clearActiveRecommendation(userId);
+        const cacheKey = `exam_compass_recommended_videos_v6_${userId}_${userClass.replace(/\s+/g, '_')}_${targetExam.replace(/\s+/g, '_')}`;
+        
+        // 1. Check Local Cache
+        if (!forceRefresh) {
+            const cachedRaw = localStorage.getItem(cacheKey);
+            if (cachedRaw) {
+                const cached: { recommendations: ActiveRecommendation[], timestamp: number } = JSON.parse(cachedRaw);
+                const twentyFourHours = 24 * 60 * 60 * 1000;
+                const isExpired = Date.now() - cached.timestamp > twentyFourHours;
+                const anyFinished = cached.recommendations.some(r => isVideoFinished(r.video.id, userId, userClass, targetExam));
+                
+                if (!isExpired && !anyFinished) {
+                    console.log('[RecommendationService] Returning cached recommendations');
+                    return cached.recommendations;
+                }
+            }
+        }
+
+        console.log('[RecommendationService] Invalidation / Force Refresh: Re-calculating recommendations...');
+        
+        const subjects = getSubjectsForUser(userClass, targetExam);
+        const progressMap = SubtopicProgressService.getAllProgress(userId);
+        
+        const ongoingChapters: { chapter: SyllabusTopic, subject: string }[] = [];
+        const masteredChapters: { chapter: SyllabusTopic, subject: string }[] = [];
+        
+        for (const subject of subjects) {
+            const chapters = getChaptersForUser(userClass, targetExam, subject);
+            const ongoing = getOngoingChapter(chapters, progressMap);
+            if (ongoing) {
+                ongoingChapters.push({ chapter: ongoing, subject });
+            }
+            
+            chapters.forEach(c => {
+                const p = progressMap[c.id];
+                if (p && (p.state === 'mastered' || p.masteryScore >= 80)) {
+                    masteredChapters.push({ chapter: c, subject });
+                }
+            });
         }
 
         const recommendations: ActiveRecommendation[] = [];
+        const activeVideoIds = new Set<string>();
 
-        // 1. Get the Primary (Active) Recommendation
-        const activeRec = await getActiveRecommendation(userId, userClass, targetExam, forceRefresh);
-        if (activeRec) {
-            recommendations.push(activeRec);
+        // ─── VIDEO 1: RECAP / REVISION ───
+        let recapChapter: SyllabusTopic | null = null;
+        let recapSubject = '';
+        let recapReason = '';
+        
+        if (masteredChapters.length > 0) {
+            const chosen = masteredChapters[Math.floor(Math.random() * masteredChapters.length)];
+            recapChapter = chosen.chapter;
+            recapSubject = chosen.subject;
+            recapReason = `Revision: Recap of completed ${recapChapter.topic}`;
+        } else {
+            const prevClass = getPreviousClass(userClass);
+            let prevClassChapters: { chapter: SyllabusTopic, subject: string }[] = [];
+            for (const subject of subjects) {
+                const chapters = getChaptersForClassAndSubject(prevClass, subject);
+                chapters.forEach(c => {
+                    prevClassChapters.push({ chapter: c, subject });
+                });
+            }
+            
+            if (prevClassChapters.length > 0) {
+                const highWeight = prevClassChapters.filter(c => c.chapter.weightage === 'High');
+                const pool = highWeight.length > 0 ? highWeight : prevClassChapters;
+                const chosen = pool[Math.floor(Math.random() * pool.length)];
+                recapChapter = chosen.chapter;
+                recapSubject = chosen.subject;
+                recapReason = `Revision: Reviewing ${recapChapter.class} ${recapChapter.topic}`;
+            }
         }
-
-        // 2. If we have less than 3, fetch more from other weak topics
-        if (recommendations.length < 3) {
-            // Get more weak topics (limit 15 to have a larger pool for variety)
-            const weakTopics = await getWeakTopics(userId, 15, userClass, targetExam);
-
-            // Filter out the topic we already have
-            const existingTopics = new Set(recommendations.map(r => r.topic));
-            let candidateTopics = weakTopics.filter(t => !existingTopics.has(t.topic));
-
-            // [NEW] Shuffle candidates for variety on every refresh
-            candidateTopics = candidateTopics.sort(() => Math.random() - 0.5);
-
-            // Context for search
-            const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(userClass || '');
-            const searchContext = isJunior ? (userClass || 'Class 10') : (targetExam || 'JEE');
-
-            const BATCH_SIZE = 5;
-            for (let i = 0; i < candidateTopics.length; i += BATCH_SIZE) {
-                if (recommendations.length >= 3) break;
-
-                const batch = candidateTopics.slice(i, i + BATCH_SIZE);
-                const promises = batch.map(topicStat =>
-                    getVideoByTopicIdCached(topicStat.topic, searchContext, userId, userClass)
-                        .then(playlist => ({ topicStat, playlist }))
-                        .catch(err => {
-                            console.error(`[RecommendationService] Error fetching video for topic ${topicStat.topic}:`, err);
-                            return { topicStat, playlist: null };
-                        })
+        
+        let video1: Video | null = null;
+        if (recapChapter) {
+            video1 = await fetchVideoForRecommendation(
+                recapChapter,
+                recapSubject,
+                'quick_revision',
+                targetExam,
+                userId,
+                userClass,
+                null,
+                forceRefresh
+            );
+            
+            if (!video1) {
+                // Core backup if quick revision is missing
+                video1 = await fetchVideoForRecommendation(
+                    recapChapter,
+                    recapSubject,
+                    'oneshot',
+                    targetExam,
+                    userId,
+                    userClass,
+                    null,
+                    forceRefresh
                 );
+            }
+        }
+        
+        if (video1) {
+            recommendations.push({
+                video: video1,
+                topic: recapChapter?.topic || 'Physics',
+                reason: recapReason || 'Summary / Recap of completed chapter',
+                generatedAt: Date.now()
+            });
+            activeVideoIds.add(video1.id);
+        }
 
-                const results = await Promise.all(promises);
+        // ─── VIDEO 2: ONGOING CORE / DETAILED ───
+        let ongoingChapter1 = ongoingChapters[0]?.chapter || null;
+        let ongoingSubject1 = ongoingChapters[0]?.subject || 'Physics';
+        
+        if (!ongoingChapter1) {
+            const targetClassChapters = getChaptersForUser(userClass, targetExam, 'Physics');
+            ongoingChapter1 = targetClassChapters[0] || null;
+        }
 
-                for (const { topicStat, playlist } of results) {
-                    if (recommendations.length >= 3) break;
+        let video2: Video | null = null;
+        if (ongoingChapter1) {
+            video2 = await fetchVideoForRecommendation(
+                ongoingChapter1,
+                ongoingSubject1,
+                'oneshot',
+                targetExam,
+                userId,
+                userClass,
+                null,
+                forceRefresh
+            );
+        }
 
-                    if (playlist && playlist.videos.length > 0) {
-                        // Try to find a video not already in our list (by ID)
-                        const existingVideoIds = new Set(recommendations.map(r => r.video.id));
-                        const freshVideo = playlist.videos.find(v => !existingVideoIds.has(v.id) && !isVideoFinished(v.id, userId, userClass, targetExam));
+        if (video2 && !activeVideoIds.has(video2.id)) {
+            recommendations.push({
+                video: video2,
+                topic: ongoingChapter1?.topic || 'Physics',
+                reason: `Detailed Explanation: Ongoing chapter ${ongoingChapter1?.topic}`,
+                generatedAt: Date.now()
+            });
+            activeVideoIds.add(video2.id);
+        }
 
-                        if (freshVideo) {
-                            recommendations.push({
-                                video: freshVideo,
-                                topic: topicStat.topic,
-                                reason: `Weak Topic (${topicStat.score_percentage}%)`,
-                                generatedAt: Date.now()
-                            });
-                            existingTopics.add(topicStat.topic);
-                        }
+        // ─── VIDEO 3: ONGOING SPECIFIC TOPIC ───
+        let ongoingChapter2 = ongoingChapters[1]?.chapter || ongoingChapters[0]?.chapter || null;
+        let ongoingSubject2 = ongoingChapters[1]?.subject || ongoingChapters[0]?.subject || 'Chemistry';
+        
+        if (!ongoingChapter2 && ongoingChapter1) {
+            ongoingChapter2 = ongoingChapter1;
+            ongoingSubject2 = ongoingSubject1;
+        }
+
+        let video3: Video | null = null;
+        let subtopicText = '';
+        if (ongoingChapter2) {
+            const p = progressMap[ongoingChapter2.id];
+            const checked = p?.checkedSubtopics || [];
+            const subtopics = ongoingChapter2.subtopics || [];
+            const firstUncompleted = subtopics.find(s => !checked.includes(s)) || subtopics[0] || null;
+            
+            if (firstUncompleted) {
+                subtopicText = firstUncompleted;
+                video3 = await fetchVideoForRecommendation(
+                    ongoingChapter2,
+                    ongoingSubject2,
+                    'topic_wise',
+                    targetExam,
+                    userId,
+                    userClass,
+                    firstUncompleted,
+                    forceRefresh
+                );
+            }
+        }
+        
+        if (!video3 && ongoingChapter2) {
+            // General detailed explanation backup
+            video3 = await fetchVideoForRecommendation(
+                ongoingChapter2,
+                ongoingSubject2,
+                'oneshot',
+                targetExam,
+                userId,
+                userClass,
+                null,
+                forceRefresh
+            );
+        }
+
+        if (video3 && !activeVideoIds.has(video3.id)) {
+            recommendations.push({
+                video: video3,
+                topic: ongoingChapter2?.topic || 'Chemistry',
+                reason: subtopicText ? `Specific Topic: ${subtopicText}` : `Topic of ongoing chapter ${ongoingChapter2?.topic}`,
+                generatedAt: Date.now()
+            });
+            activeVideoIds.add(video3.id);
+        }
+
+        // Fill remaining gaps to keep exactly 3 recommendations
+        if (recommendations.length < 3) {
+            for (const subject of subjects) {
+                if (recommendations.length >= 3) break;
+                const chapters = getChaptersForUser(userClass, targetExam, subject);
+                if (chapters.length > 0) {
+                    const fallbackCh = chapters[0];
+                    const fallbackVideo = await fetchVideoForRecommendation(
+                        fallbackCh,
+                        subject,
+                        'oneshot',
+                        targetExam,
+                        userId,
+                        userClass,
+                        null,
+                        false
+                    );
+                    if (fallbackVideo && !activeVideoIds.has(fallbackVideo.id)) {
+                        recommendations.push({
+                            video: fallbackVideo,
+                            topic: fallbackCh.topic,
+                            reason: `Suggested Core: ${fallbackCh.topic}`,
+                            generatedAt: Date.now()
+                        });
+                        activeVideoIds.add(fallbackVideo.id);
                     }
                 }
             }
         }
 
-        // 3. Fallback: If still less than 3, fill with re-watched videos from weak topics
-        if (recommendations.length < 3) {
-            const weakTopics = await getWeakTopics(userId, 15, userClass, targetExam);
-            const existingVideoIds = new Set(recommendations.map(r => r.video.id));
-            const isJunior = ["Class 8th", "Class 9th", "Class 10th"].includes(userClass || "");
-            const searchContext = isJunior ? (userClass || "Class 10") : (targetExam || "JEE");
-
-            for (const topicStat of weakTopics) {
-                if (recommendations.length >= 3) break;
-
-                const playlist = await getVideoByTopicIdCached(topicStat.topic, searchContext, userId, userClass);
-                if (playlist && playlist.videos.length > 0) {
-                    const lectures = playlist.videos;
-                    // Try to find a video from this topic that we haven't already added to recommendations
-                    const rewatchVideo = lectures.find(v => !existingVideoIds.has(v.id));
-
-                    if (rewatchVideo) {
-                        recommendations.push({
-                            video: rewatchVideo,
-                            topic: topicStat.topic,
-                            reason: `Review: ${topicStat.topic}`,
-                            generatedAt: Date.now()
-                        });
-                        existingVideoIds.add(rewatchVideo.id);
-                    }
-                }
-            }
-        }
-
-        // 4. Ultimate Fallback: Random subject videos
-        if (recommendations.length < 3) {
-            const isJunior = ["Class 8th", "Class 9th", "Class 10th"].includes(userClass || "");
-            const subjects = isJunior ? ["Mathematics", "Science", "Social Science", "English"] : ["Physics", "Chemistry", "Math"];
-            const searchContext = isJunior ? (userClass || "Class 10") : (targetExam || "JEE");
-            const existingVideoIds = new Set(recommendations.map(r => r.video.id));
-
-            const shuffled = subjects.sort(() => 0.5 - Math.random());
-
-            for (const subject of shuffled) {
-                if (recommendations.length >= 3) break;
-                const playlist = await getVideoByTopicIdCached(subject, searchContext, userId, userClass);
-                if (playlist && playlist.videos.length > 0) {
-                    const freshVideo = playlist.videos.find(v => !existingVideoIds.has(v.id));
-                    if (freshVideo) {
-                        recommendations.push({
-                            video: freshVideo,
-                            topic: subject,
-                            reason: "Suggested for you",
-                            generatedAt: Date.now()
-                        });
-                        existingVideoIds.add(freshVideo.id);
-                    }
-                }
-            }
+        // Save Cache
+        if (recommendations.length > 0) {
+            localStorage.setItem(cacheKey, JSON.stringify({
+                recommendations,
+                timestamp: Date.now()
+            }));
         }
 
         return recommendations;
 
     } catch (e) {
-        console.error('[RecommendationService] Error fetching multiple videos:', e);
+        console.error('[RecommendationService] Error in getRecommendedVideos:', e);
         return [];
     }
+};
+
+export const clearActiveRecommendation = (userId: string) => {
+    // Clear both individual legacy and new array caches
+    localStorage.removeItem(`exam_compass_active_recommendation_${userId}`);
+    const keys = Object.keys(localStorage);
+    keys.forEach(k => {
+        if (k.startsWith(`exam_compass_recommended_videos_v6_${userId}`)) {
+            localStorage.removeItem(k);
+        }
+    });
+};
+
+export const getActiveRecommendation = async (
+    userId: string,
+    userClass: string = 'Class 12th',
+    targetExam: string = 'JEE',
+    forceRefresh: boolean = false
+): Promise<ActiveRecommendation | null> => {
+    try {
+        const recs = await getRecommendedVideos(userId, userClass, targetExam, forceRefresh);
+        if (recs && recs.length > 0) {
+            // Video 2 is the core ongoing chapter lecture
+            const core = recs.find(r => r.reason.startsWith('Detailed Explanation') || r.reason.startsWith('Suggested Core'));
+            return core || recs[1] || recs[0];
+        }
+    } catch (e) {
+        console.error('[RecommendationService] Error in getActiveRecommendation:', e);
+    }
+    return null;
 };

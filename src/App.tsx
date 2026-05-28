@@ -65,7 +65,8 @@ const Lectures = lazy(() => import('./pages/dashboard/Lectures').then(module => 
 const PeerBenchmarking = lazy(() => import('./pages/dashboard/PeerBenchmarking').then(module => ({ default: module.PeerBenchmarking })));
 const DecisionSimulator = lazy(() => import('./pages/dashboard/DecisionSimulator').then(module => ({ default: module.DecisionSimulator })));
 const Resources = lazy(() => import('./pages/dashboard/Resources').then(module => ({ default: module.Resources })));
-const VideoLecturePage = lazy(() => import('./pages/dashboard/VideoLecturePage').then(module => ({ default: module.VideoLecturePage })));
+// const VideoLecturePage = lazy(() => import('./pages/dashboard/VideoLecturePage').then(module => ({ default: module.VideoLecturePage })));
+const ChapterStudyHub = lazy(() => import('./pages/dashboard/ChapterStudyHub').then(module => ({ default: module.ChapterStudyHub })));
 const SavedLectures = lazy(() => import('./pages/dashboard/SavedLectures').then(module => ({ default: module.SavedLectures })));
 const ProfilePage = lazy(() => import('./pages/dashboard/ProfilePage').then(module => ({ default: module.ProfilePage })));
 const Onboarding = lazy(() => import('./pages/dashboard/Onboarding').then(module => ({ default: module.Onboarding })));
@@ -123,7 +124,7 @@ const FloatingUI = () => {
     return () => clearTimeout(timer);
   }, []);
   // Suppress chatbot during active exams to prevent distraction & cheating
-  // Also suppress on video lectures as it has its own integrated AI interface
+  // Also suppress on video lectures + chapter study hub (both have dedicated AI / study UI)
   const isVideoPage = location.pathname.startsWith('/dashboard/lectures/');
   if (!user || !location.pathname.startsWith('/dashboard') || !mounted || isTestMode || isVideoPage) return null;
   return (
@@ -206,7 +207,8 @@ function AppContent() {
 
             <Route element={<Suspense fallback={<DashboardSkeleton />}><ProtectedLayout /></Suspense>}>
               <Route path="/onboarding" element={<Onboarding />} />
-              <Route path="/dashboard/lectures/:topicId" element={<VideoLecturePage />} />
+              <Route path="/dashboard/lectures/:topicId" element={<ChapterStudyHub />} />
+              <Route path="/dashboard/lectures/chapter/:chapterId" element={<ChapterStudyHub />} />
               <Route path="/dashboard" element={<DashboardLayout />}>
                 <Route index element={<Overview />} />
                 <Route path="diagnostic" element={<DiagnosticTest />} />

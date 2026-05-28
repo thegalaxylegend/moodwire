@@ -124,21 +124,25 @@ export const Lectures = () => {
     // ─── CHAPTERS for current subject (filtered by class) ──────────────────
 
     const getChapters = useCallback((subject: string): SyllabusTopic[] => {
-        const classNum = userClass.includes('12') ? 'Class 12' :
-                         userClass.includes('11') ? 'Class 11' :
-                         userClass.includes('10') ? 'Class 10' :
-                         userClass.includes('9')  ? 'Class 9'  : 'Class 11';
+        let chapters = SYLLABUS_DB[subject] || [];
 
-        let chapters = (SYLLABUS_DB[subject] || []).filter(t => t.class === classNum);
+        const isDropper = userClass.toLowerCase().includes('dropper');
 
-        // JEE may need both Class 11 and 12
-        if (targetExam.toLowerCase().includes('jee') || targetExam.toLowerCase().includes('neet')) {
-            chapters = SYLLABUS_DB[subject] || [];
-            // Sort Class 11 first, then Class 12
+        if (isDropper) {
+            // For Droppers: Show both Class 11 and Class 12, sorted Class 11 first
+            chapters = chapters.filter(t => t.class === 'Class 11' || t.class === 'Class 12');
             chapters = [...chapters].sort((a, b) => {
                 if (a.class === b.class) return 0;
                 return a.class === 'Class 11' ? -1 : 1;
             });
+        } else {
+            // Filter strictly by the user's specific class (8th to 12th)
+            const classNum = userClass.includes('12') ? 'Class 12' :
+                             userClass.includes('11') ? 'Class 11' :
+                             userClass.includes('10') ? 'Class 10' :
+                             userClass.includes('9')  ? 'Class 9'  :
+                             userClass.includes('8')  ? 'Class 8'  : 'Class 11';
+            chapters = chapters.filter(t => t.class === classNum);
         }
 
         if (pacingMode === 'high_yield') {
@@ -148,7 +152,7 @@ export const Lectures = () => {
         }
 
         return chapters;
-    }, [userClass, targetExam, pacingMode]);
+    }, [userClass, pacingMode]);
 
     // ─── INIT ──────────────────────────────────────────────────────────────
 
@@ -195,12 +199,15 @@ export const Lectures = () => {
                 console.warn('[Lectures] SM2 fetch failed:', e);
             }
 
-            // 5. Determine "next" chapter (first chapter with no progress)
-            const allChapters = (SYLLABUS_DB[activeSubject] || []);
-            const hasNoProgress = allChapters.find(c => !progress[c.id]);
-            if (hasNoProgress && !Object.values(progress).some(p => p.state === 'next')) {
-                SubtopicProgressService.setChapterAsNext(userId, hasNoProgress.id);
-                setAllProgress(SubtopicProgressService.getAllProgress(userId));
+            // 5. Determine "next" chapter (first chapter of user's class with no progress)
+            const visibleChapters = getChapters(activeSubject);
+            const hasNextVisible = visibleChapters.some(c => progress[c.id]?.state === 'next' || progress[c.id]?.state === 'in_progress');
+            if (!hasNextVisible) {
+                const hasNoProgress = visibleChapters.find(c => !progress[c.id]);
+                if (hasNoProgress) {
+                    SubtopicProgressService.setChapterAsNext(userId, hasNoProgress.id);
+                    setAllProgress(SubtopicProgressService.getAllProgress(userId));
+                }
             }
 
             // 6. Handle deep links from URL parameters
@@ -228,19 +235,22 @@ export const Lectures = () => {
                         try {
                             const currentIdx = chapterList.findIndex(c => c.id === chapterParam);
                             const prevTopic = currentIdx > 0 ? chapterList[currentIdx - 1] : null;
-                            const oneShotQuery = `${matchedChapter.topic} ${targetExam} full chapter complete one shot`;
-                            const oneShotPlaylist = await getVideoByTopicIdCached(oneShotQuery, targetExam);
+                            
+                            // Build class-aware queries using matched chapter's class
+                            const classLabel = matchedChapter.class;
+                            const oneShotQuery = `${matchedChapter.topic} ${targetExam} ${classLabel} full chapter complete one shot`;
+                            const oneShotPlaylist = await getVideoByTopicIdCached(oneShotQuery, targetExam, 'anon', classLabel);
                             let recapVideo = null;
                             if (prevTopic) {
-                                const recapQuery = `${prevTopic.topic} ${targetExam} quick revision recap`;
-                                const recapPlaylist = await getVideoByTopicIdCached(recapQuery, targetExam);
+                                const recapQuery = `${prevTopic.topic} ${targetExam} ${prevTopic.class} quick revision recap`;
+                                const recapPlaylist = await getVideoByTopicIdCached(recapQuery, targetExam, 'anon', prevTopic.class);
                                 recapVideo = recapPlaylist?.videos?.[0] || null;
                             }
                             const topicVideos: Video[] = [];
                             for (const subtopic of matchedChapter.subtopics.slice(0, 3)) {
                                 try {
-                                    const subQuery = `${subtopic} ${matchedChapter.topic} ${targetExam} explained`;
-                                    const subPlaylist = await getVideoByTopicIdCached(subQuery, targetExam);
+                                    const subQuery = `${subtopic} ${matchedChapter.topic} ${targetExam} ${classLabel} explained`;
+                                    const subPlaylist = await getVideoByTopicIdCached(subQuery, targetExam, 'anon', classLabel);
                                     if (subPlaylist?.videos?.[0]) {
                                         topicVideos.push(subPlaylist.videos[0]);
                                     }
@@ -301,21 +311,23 @@ export const Lectures = () => {
             progress
         });
 
-        // Load the 3 types of videos
+        // Load the 3 types of videos using chapter's own class to isolate grade caching
         try {
             const chapters = getChapters(subject);
             const currentIdx = chapters.findIndex(c => c.id === topic.id);
             const prevTopic = currentIdx > 0 ? chapters[currentIdx - 1] : null;
 
+            const classLabel = topic.class;
+
             // 1. One-shot: Full chapter complete lecture
-            const oneShotQuery = `${topic.topic} ${targetExam} full chapter complete one shot`;
-            const oneShotPlaylist = await getVideoByTopicIdCached(oneShotQuery, targetExam);
+            const oneShotQuery = `${topic.topic} ${targetExam} ${classLabel} full chapter complete one shot`;
+            const oneShotPlaylist = await getVideoByTopicIdCached(oneShotQuery, targetExam, 'anon', classLabel);
 
             // 2. Recap: Previous chapter quick revision (if exists)
             let recapVideo: Video | null = null;
             if (prevTopic) {
-                const recapQuery = `${prevTopic.topic} ${targetExam} quick revision recap`;
-                const recapPlaylist = await getVideoByTopicIdCached(recapQuery, targetExam);
+                const recapQuery = `${prevTopic.topic} ${targetExam} ${prevTopic.class} quick revision recap`;
+                const recapPlaylist = await getVideoByTopicIdCached(recapQuery, targetExam, 'anon', prevTopic.class);
                 recapVideo = recapPlaylist?.videos?.[0] || null;
             }
 
@@ -323,8 +335,8 @@ export const Lectures = () => {
             const topicVideos: Video[] = [];
             for (const subtopic of topic.subtopics.slice(0, 3)) {
                 try {
-                    const subQuery = `${subtopic} ${topic.topic} ${targetExam} explained`;
-                    const subPlaylist = await getVideoByTopicIdCached(subQuery, targetExam);
+                    const subQuery = `${subtopic} ${topic.topic} ${targetExam} ${classLabel} explained`;
+                    const subPlaylist = await getVideoByTopicIdCached(subQuery, targetExam, 'anon', classLabel);
                     if (subPlaylist?.videos?.[0]) {
                         topicVideos.push(subPlaylist.videos[0]);
                     }
@@ -351,18 +363,19 @@ export const Lectures = () => {
         setLoadingVideos(false);
     };
 
-    // Load library videos when chapter opens or mode switches to library
+    // Load library videos when chapter opens or mode switches to library (class-aware)
     useEffect(() => {
         if (!openChapterId || videoMode !== 'library' || !activeChapter) return;
 
         const loadLibrary = async () => {
             setLoadingLibrary(true);
             try {
+                const chClass = activeChapter.topic.class;
                 const libVideos = await getLibraryForChapter(
                     openChapterId,
                     targetExam,
                     activeSubject,
-                    userClass
+                    chClass
                 );
                 // Score them
                 const scored = scoreVideos(
@@ -370,7 +383,7 @@ export const Lectures = () => {
                     userId,
                     openChapterId,
                     null,
-                    userClass,
+                    chClass,
                     targetExam,
                     weakTopicsList
                 );
@@ -383,7 +396,7 @@ export const Lectures = () => {
         };
 
         loadLibrary();
-    }, [openChapterId, videoMode, targetExam, activeSubject, userClass, userId, weakTopicsList, activeChapter]);
+    }, [openChapterId, videoMode, targetExam, activeSubject, activeChapter?.topic.class, userId, weakTopicsList, activeChapter]);
 
     // ─── SUBTOPIC TOGGLE ──────────────────────────────────────────────────
 
@@ -400,20 +413,22 @@ export const Lectures = () => {
 
     // ─── NAVIGATE TO VIDEO ─────────────────────────────────────────────────
 
-    const watchVideo = async (video: Video, topicId: string, topicSlug: string) => {
+    const watchVideo = async (video: Video, topicId: string) => {
         await SubtopicProgressService.markVideoWatched(userId, topicId, video.id);
         refreshProgress();
-        navigate(`/dashboard/lectures/${topicSlug}?videoId=${video.id}`);
+        navigate(`/dashboard/lectures/chapter/${topicId}?videoId=${video.id}`);
     };
 
     // ─── DISCOVER VIDEO CALLBACK ───────────────────────────────────────────
 
     const handleDiscoverVideo = async (topicId: string, subtopic: string, subject: string) => {
+        if (!activeChapter) return;
         setDiscoveringSubtopic(subtopic);
         try {
-            await discoverVideoForSubtopic(topicId, subtopic, targetExam, subject, userClass);
-            const libVideos = await getLibraryForChapter(topicId, targetExam, subject, userClass, true);
-            const scored = scoreVideos(libVideos, userId, topicId, subtopic, userClass, targetExam, weakTopicsList);
+            const chClass = activeChapter.topic.class;
+            await discoverVideoForSubtopic(topicId, subtopic, targetExam, subject, chClass);
+            const libVideos = await getLibraryForChapter(topicId, targetExam, subject, chClass, true);
+            const scored = scoreVideos(libVideos, userId, topicId, subtopic, chClass, targetExam, weakTopicsList);
             setLibraryVideos(scored);
         } catch (e) {
             console.error('[Lectures] Failed to discover video:', e);
@@ -424,10 +439,26 @@ export const Lectures = () => {
 
     // ─── CHAPTER STATE DISPLAY ────────────────────────────────────────────
 
-    const getEffectiveState = (topic: SyllabusTopic): ChapterState => {
+    const getEffectiveState = (topic: SyllabusTopic, index: number): ChapterState => {
         const p = allProgress[topic.id];
+
+        if (pacingMode === 'sequential') {
+            // Under sequential study mode, lock any chapter if there is a preceding chapter that is not mastered
+            for (let i = 0; i < index; i++) {
+                const prevTopic = chapters[i];
+                const prevProgress = allProgress[prevTopic.id];
+                if (!prevProgress || prevProgress.state !== 'mastered') {
+                    return 'locked';
+                }
+            }
+            // If all preceding chapters are mastered, this chapter is unlocked (state is next if no progress, else keep in_progress/review_needed)
+            if (!p) {
+                return 'next';
+            }
+            return p.state === 'locked' ? 'next' : p.state;
+        }
+
         if (!p) {
-            // Check if it's the first chapter or if prev is mastered
             return 'locked';
         }
         return p.state;
@@ -566,6 +597,7 @@ export const Lectures = () => {
                     })}
                 </div>
 
+
                 {/* ── CHAPTER LEGEND ── */}
                 <div className="flex flex-wrap gap-3 text-xs text-white/50">
                     {Object.entries(STATE_CONFIG).map(([state, cfg]) => (
@@ -582,7 +614,7 @@ export const Lectures = () => {
                 {/* ── CHAPTER LIST ── */}
                 <div className="space-y-3">
                     {chapters.map((topic, idx) => {
-                        const state = getEffectiveState(topic);
+                        const state = getEffectiveState(topic, idx);
                         const progress = allProgress[topic.id];
                         const cfg = STATE_CONFIG[state];
                         const isOpen = openChapterId === topic.id;
@@ -630,6 +662,16 @@ export const Lectures = () => {
                                                 {topic.topic}
                                             </h3>
                                             {/* Badges */}
+                                            {/* Class badge: shows Class 11/12 to avoid confusion in JEE (both classes shown together) */}
+                                            {(targetExam.toLowerCase().includes('jee') || targetExam.toLowerCase().includes('neet')) && (
+                                                <span className={`text-[10px] px-1.5 py-0.5 rounded-md border font-medium ${
+                                                    topic.class === 'Class 12'
+                                                        ? 'bg-violet-500/15 text-violet-400 border-violet-400/20'
+                                                        : 'bg-sky-500/15 text-sky-400 border-sky-400/20'
+                                                }`}>
+                                                    {topic.class}
+                                                </span>
+                                            )}
                                             {topic.weightage === 'High' && state !== 'mastered' && (
                                                 <span className="text-xs px-1.5 py-0.5 bg-red-500/20 text-red-300 rounded-md border border-red-400/20">
                                                     High Weightage
@@ -747,14 +789,23 @@ export const Lectures = () => {
                                                     </div>
                                                 )}
 
-                                                {/* Take test button */}
-                                                <Link
-                                                    to={`/dashboard/mock?topic=${encodeURIComponent(topic.topic)}`}
-                                                    className="mt-2 w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-indigo-500/20 border border-indigo-400/30 rounded-xl text-indigo-300 text-sm font-medium hover:bg-indigo-500/30 transition-colors"
-                                                >
-                                                    <Zap size={14} />
-                                                    Test This Chapter
-                                                </Link>
+                                                {/* Action buttons */}
+                                                <div className="mt-2 flex gap-2">
+                                                    <Link
+                                                        to={`/dashboard/lectures/chapter/${topic.id}`}
+                                                        className="flex-1 flex items-center justify-center gap-2 px-4 py-2.5 bg-violet-600/25 border border-violet-500/40 rounded-xl text-violet-300 text-sm font-semibold hover:bg-violet-600/40 transition-all shadow-[0_0_20px_-5px_rgba(139,92,246,0.3)] hover:shadow-[0_0_25px_-3px_rgba(139,92,246,0.5)]"
+                                                    >
+                                                        <Play size={13} fill="currentColor" />
+                                                        Full Study Page
+                                                    </Link>
+                                                    <Link
+                                                        to={`/dashboard/mock?topic=${encodeURIComponent(topic.topic)}`}
+                                                        className="flex items-center justify-center gap-2 px-4 py-2.5 bg-indigo-500/20 border border-indigo-400/30 rounded-xl text-indigo-300 text-sm font-medium hover:bg-indigo-500/30 transition-colors"
+                                                    >
+                                                        <Zap size={14} />
+                                                        Test
+                                                    </Link>
+                                                </div>
                                             </div>
 
                                             {/* RIGHT: Video System */}
@@ -889,8 +940,7 @@ export const Lectures = () => {
                                                                                                 isWatched={progress?.videosWatched.includes(v.video.id) || false}
                                                                                                 onWatch={() => watchVideo(
                                                                                                     v.video as Video,
-                                                                                                    topic.id,
-                                                                                                    topic.topic.toLowerCase().replace(/\s+/g, '-')
+                                                                                                    topic.id
                                                                                                 )}
                                                                                             />
                                                                                         ))}
@@ -931,8 +981,7 @@ export const Lectures = () => {
                                                                                 isWatched={progress?.videosWatched.includes(v.video.id) || false}
                                                                                 onWatch={() => watchVideo(
                                                                                     v.video as Video,
-                                                                                    topic.id,
-                                                                                    topic.topic.toLowerCase().replace(/\s+/g, '-')
+                                                                                    topic.id
                                                                                 )}
                                                                             />
                                                                         ))
@@ -963,8 +1012,7 @@ export const Lectures = () => {
                                                                     isWatched={progress?.videosWatched.includes(activeChapter.videos.oneShot.id) || false}
                                                                     onWatch={() => watchVideo(
                                                                         activeChapter.videos.oneShot!,
-                                                                        topic.id,
-                                                                        topic.topic.toLowerCase().replace(/\s+/g, '-')
+                                                                        topic.id
                                                                     )}
                                                                 />
                                                             )}
@@ -979,8 +1027,7 @@ export const Lectures = () => {
                                                                     isWatched={progress?.videosWatched.includes(activeChapter.videos.recap.id) || false}
                                                                     onWatch={() => watchVideo(
                                                                         activeChapter.videos.recap!,
-                                                                        topic.id,
-                                                                        topic.topic.toLowerCase().replace(/\s+/g, '-')
+                                                                        topic.id
                                                                     )}
                                                                 />
                                                             )}
@@ -1002,8 +1049,7 @@ export const Lectures = () => {
                                                                             isWatched={progress?.videosWatched.includes(v.id) || false}
                                                                             onWatch={() => watchVideo(
                                                                                 v,
-                                                                                topic.id,
-                                                                                topic.topic.toLowerCase().replace(/\s+/g, '-')
+                                                                                topic.id
                                                                             )}
                                                                             compact
                                                                         />

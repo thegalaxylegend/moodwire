@@ -13,6 +13,7 @@
 
 import { db, auth } from '../lib/firebase';
 import { doc, setDoc, getDocs, collection, query, where } from 'firebase/firestore';
+import { useUserStore } from '../store/userStore';
 
 export type ChapterState = 'locked' | 'next' | 'in_progress' | 'mastered' | 'review_needed';
 
@@ -29,9 +30,24 @@ export interface ChapterProgress {
 
 const CACHE_PREFIX = 'ec_chapter_progress_';
 
+const getStorageKey = (userId: string): string => {
+    try {
+        const user = useUserStore.getState().user;
+        if (user && user.id === userId) {
+            const cleanExam = (user.targetExam || 'JEE').replace(/\s+/g, '_').toLowerCase();
+            const cleanClass = (user.userClass || 'Class_11th').replace(/\s+/g, '_').toLowerCase();
+            return `${CACHE_PREFIX}${userId}_${cleanExam}_${cleanClass}`;
+        }
+    } catch (e) {
+        // Fallback
+    }
+    return `${CACHE_PREFIX}${userId}`;
+};
+
 const getLocalProgress = (userId: string): Record<string, ChapterProgress> => {
     try {
-        const raw = localStorage.getItem(`${CACHE_PREFIX}${userId}`);
+        const key = getStorageKey(userId);
+        const raw = localStorage.getItem(key);
         return raw ? JSON.parse(raw) : {};
     } catch {
         return {};
@@ -40,7 +56,8 @@ const getLocalProgress = (userId: string): Record<string, ChapterProgress> => {
 
 const saveLocalProgress = (userId: string, data: Record<string, ChapterProgress>) => {
     try {
-        localStorage.setItem(`${CACHE_PREFIX}${userId}`, JSON.stringify(data));
+        const key = getStorageKey(userId);
+        localStorage.setItem(key, JSON.stringify(data));
     } catch (e) {
         console.warn('[SubtopicProgress] localStorage save failed:', e);
     }
@@ -234,8 +251,21 @@ export const SubtopicProgressService = {
     syncChapterToCloud: async (userId: string, progress: ChapterProgress): Promise<void> => {
         if (!auth.currentUser || !userId || userId === 'guest') return;
         try {
-            const docRef = doc(db, 'chapter_progress', `${userId}_${progress.topicId}`);
-            await setDoc(docRef, { ...progress, user_id: userId }, { merge: true });
+            const user = useUserStore.getState().user;
+            const targetExam = user?.targetExam || 'JEE';
+            const userClass = user?.userClass || 'Class 11th';
+            
+            const cleanExam = targetExam.replace(/\s+/g, '_').toLowerCase();
+            const cleanClass = userClass.replace(/\s+/g, '_').toLowerCase();
+            const docId = `${userId}_${cleanExam}_${cleanClass}_${progress.topicId}`;
+            
+            const docRef = doc(db, 'chapter_progress', docId);
+            await setDoc(docRef, { 
+                ...progress, 
+                user_id: userId,
+                target_exam: targetExam,
+                user_class: userClass
+            }, { merge: true });
         } catch (e) {
             console.warn('[SubtopicProgress] Firestore sync failed (non-critical):', e);
         }
@@ -250,7 +280,16 @@ export const SubtopicProgressService = {
         if (Object.keys(local).length > 0) return; // Already have local data
 
         try {
-            const q = query(collection(db, 'chapter_progress'), where('user_id', '==', userId));
+            const user = useUserStore.getState().user;
+            const targetExam = user?.targetExam || 'JEE';
+            const userClass = user?.userClass || 'Class 11th';
+
+            const q = query(
+                collection(db, 'chapter_progress'), 
+                where('user_id', '==', userId),
+                where('target_exam', '==', targetExam),
+                where('user_class', '==', userClass)
+            );
             const snap = await getDocs(q);
             const fromCloud: Record<string, ChapterProgress> = {};
             snap.docs.forEach(d => {
@@ -259,7 +298,7 @@ export const SubtopicProgressService = {
             });
             if (Object.keys(fromCloud).length > 0) {
                 saveLocalProgress(userId, fromCloud);
-                console.log(`[SubtopicProgress] Loaded ${Object.keys(fromCloud).length} chapters from cloud.`);
+                console.log(`[SubtopicProgress] Loaded ${Object.keys(fromCloud).length} chapters from cloud for Class: ${userClass}, Exam: ${targetExam}.`);
             }
         } catch (e) {
             console.warn('[SubtopicProgress] Cloud load failed:', e);
