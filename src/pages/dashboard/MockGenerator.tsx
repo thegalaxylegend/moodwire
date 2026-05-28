@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { AlertTriangle, Timer } from 'lucide-react';
 
 import { motion, AnimatePresence } from 'framer-motion';
+import { App as CapApp } from '@capacitor/app';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { askAI } from '../../lib/ai';
 import { db } from '../../lib/firebase';
@@ -60,6 +61,8 @@ export const MockGenerator = () => {
     const [answers, setAnswers] = useState<Record<number, any>>({});
     const [score, setScore] = useState(0);
     const [timeRemaining, setTimeRemaining] = useState(0);
+    const timeRemainingRef = useRef(0);
+    useEffect(() => { timeRemainingRef.current = timeRemaining; }, [timeRemaining]);
     const [loadingMessage, setLoadingMessage] = useState("Initializing...");
     const [aiModalOpen, setAiModalOpen] = useState(false);
     const [aiExplanation, setAiExplanation] = useState("");
@@ -88,11 +91,22 @@ export const MockGenerator = () => {
 
     const globalFetchedRef = useRef(0);
 
+    useEffect(() => {
+        const listener = CapApp.addListener('appStateChange', ({ isActive }) => {
+            if (!isActive && step === 'exam') {
+                handlePause(true); // pass true to skip confirm
+            }
+        });
+        return () => {
+            listener.then(l => l.remove());
+        };
+    }, [step]);
+
 
     const [isSpeaking, setIsSpeaking] = useState(false);
 
     useEffect(() => {
-        const cached = sessionStorage.getItem('active_test_session');
+        const cached = localStorage.getItem('active_test_session');
         if (cached) {
             try {
                 const data = JSON.parse(cached);
@@ -108,14 +122,14 @@ export const MockGenerator = () => {
                     setFatigueNotice(data.fatigueNotice || { fatigued: false });
                     setCurrentAbility(data.currentAbility || user?.abilityScore || 1000);
                     if (data.step === 'loading') {
-                        sessionStorage.removeItem('active_test_session');
+                        localStorage.removeItem('active_test_session');
                         navigate('/dashboard/test-center', { replace: true });
                     }
                 } else {
-                    sessionStorage.removeItem('active_test_session');
+                    localStorage.removeItem('active_test_session');
                 }
             } catch (e) {
-                sessionStorage.removeItem('active_test_session');
+                localStorage.removeItem('active_test_session');
             }
         }
     }, [user?.id, isTestingUntimed]);
@@ -130,17 +144,17 @@ export const MockGenerator = () => {
                 step,
                 mode,
                 difficulty,
-                timeRemaining,
+                timeRemaining: timeRemainingRef.current,
                 sessionHistory,
                 fatigueNotice,
                 currentAbility,
                 timestamp: Date.now()
             };
-            sessionStorage.setItem('active_test_session', JSON.stringify(session));
+            localStorage.setItem('active_test_session', JSON.stringify(session));
         } else if (step === 'result' || step === 'config') {
-            if (step === 'result') sessionStorage.removeItem('active_test_session');
+            if (step === 'result') localStorage.removeItem('active_test_session');
         }
-    }, [questions, answers, currentQ, step, mode, difficulty, timeRemaining, user?.id]);
+    }, [questions, answers, currentQ, step, mode, difficulty, user?.id]); // timeRemaining removed from dep array to avoid heavy JSON.stringify every second on low-RAM devices
 
     useEffect(() => {
         const modeParam = searchParams.get('mode');
@@ -234,7 +248,7 @@ export const MockGenerator = () => {
         if (questions.length > 0 && step === 'exam') {
             if (!window.confirm("Are you sure you want to exit? Your progress will be saved in history.")) return;
         }
-        sessionStorage.removeItem('active_test_session');
+        localStorage.removeItem('active_test_session');
         navigate('/dashboard/test-center');
     };
 
@@ -396,8 +410,9 @@ export const MockGenerator = () => {
         } catch (e) { console.error(e); }
     };
 
-    const handlePause = async () => {
-        if (!window.confirm("Are you sure you want to pause?")) return;
+    const handlePause = async (force: boolean = false) => {
+        if (!force && !window.confirm("Are you sure you want to pause?")) return;
+
         try {
             setLoadingMessage("Saving progress...");
             setStep('loading');
