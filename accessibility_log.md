@@ -1,0 +1,12 @@
+screen_name|violation_type|element_description|fix_recommendation
+MockExamEngine|color-only indicator|Review mode correct/incorrect options only use color and text styling (bg-green/bg-red, bold/line-through), lacking an icon or clear text label|Add a visually distinct icon (e.g., Check/X) and a visually hidden 'Correct'/'Incorrect' label.
+MockExamEngine|image lacking content description|Question diagram <img> has generic alt='Diagram'|Change alt text to dynamically describe the question image, e.g., alt={'Diagram for question ' + currentQ}
+MockExamEngine|touch target size|Close AI Panel button (X icon), Listen button, End button, and Send AI message button may be smaller than 48x48dp.|Add CSS classes min-h-[48px] min-w-[48px] to these buttons.
+MockExamEngine|low contrast text|Unselected options in review mode use opacity-40 which drops contrast below WCAG AA (4.5:1)|Remove opacity-40 and use a color with higher contrast against the surface background.
+MockExamEngine|TalkBack navigation|AI Modal lacks role='dialog' and aria-modal='true' causing TalkBack to possibly escape or not announce it.|Add role='dialog', aria-modal='true', and an aria-label to the modal motion.div.
+MockExamEngine|TalkBack navigation|Pause, Listen, X (Close), and Send AI message buttons lack aria-labels.|Add descriptive aria-label to buttons containing only icons.
+MockExamEngine|font scaling clipping|The chat bubble max-w-[85%] or fixed padding/heights may cause clipping of question or explanation text at 200% scaling.|Ensure flex layouts allow wrapping and height is not fixed (use min-h instead of fixed h if present).
+MockHistory|touch target size|'Back to Menu', 'Resume', and 'Review' buttons might not meet the 48x48dp minimum touch target height/width depending on device padding/margin scaling.|Add min-h-[48px] min-w-[48px] CSS classes.
+MockResults|touch target size|'Review Questions', 'Back to Dashboard', 'Share My Score', 'Retake Test', and curated video lesson buttons might not have a full 48x48dp tap target area despite padding.|Add CSS classes min-h-[48px] min-w-[48px] to these buttons.
+MockPreview|touch target size|'Start Test Now' and 'Back to Menu' buttons might lack guaranteed min-h-[48px] size constraints.|Add min-h-[48px] classes to these buttons.
+MockLoading|touch target size|'Back' and 'Cancel generation' (X) buttons at the top corners might lack guaranteed 48x48dp dimensions.|Add min-h-[48px] min-w-[48px] classes to these buttons.
