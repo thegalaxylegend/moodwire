@@ -26,6 +26,7 @@ import { trackWebVitals, initAnalytics } from './lib/analytics';
 import { ErrorBoundary } from './components/ErrorBoundary';
 import { CookieConsent } from './components/CookieConsent';
 import { useTestMode } from './hooks/useTestMode';
+import { Network } from '@capacitor/network';
 
 // Layouts
 const ProtectedLayout = lazy(() => import('./layouts/ProtectedLayout').then(module => ({ default: module.ProtectedLayout })));
@@ -156,6 +157,17 @@ function AppContent() {
   const { tier } = usePerformance();
   const [showLevelUp, setShowLevelUp] = useState(false);
   const [levelUpXp] = useState(0);
+  const [isOffline, setIsOffline] = useState(false);
+
+  useEffect(() => {
+    Network.getStatus().then((status) => setIsOffline(!status.connected));
+    const networkListener = Network.addListener('networkStatusChange', (status) => {
+      setIsOffline(!status.connected);
+    });
+    return () => {
+      networkListener.then(listener => listener.remove());
+    };
+  }, []);
 
   useEffect(() => {
     initialize();
@@ -168,7 +180,9 @@ function AppContent() {
     if (typeof window !== 'undefined' && (window as any).Capacitor) {
       import('@capacitor/app').then(({ App: CapApp }) => {
         CapApp.addListener('backButton', ({ canGoBack }) => {
-          if (canGoBack) {
+          if (window.location.pathname !== '/' && window.location.pathname !== '/dashboard') {
+            window.history.back();
+          } else if (canGoBack) {
             window.history.back();
           } else {
             CapApp.exitApp();
@@ -182,6 +196,7 @@ function AppContent() {
     <SmoothScroll>
       <div className={`perf-tier-${tier} min-h-screen relative`}>
         <ParallaxBackground />
+        {isOffline && <div className="fixed top-0 left-0 w-full bg-red-500 text-white text-center z-[9999] py-1 font-bold text-sm">You are offline. Some features may be unavailable.</div>}
         
         <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[9999] focus:p-4 focus:bg-primary focus:text-white focus:rounded-xl focus:font-bold outline-none">
           Skip to main content
