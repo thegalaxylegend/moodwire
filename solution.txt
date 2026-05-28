@@ -1,0 +1,29 @@
+1. network_condition: Toggle airplane mode ON during a mock test submission.
+expected_behavior: submission is queued and auto-retries when connection resumes.
+actual_behavior: With Firestore offline persistence enabled (multi-tab IndexedDB), writes are cached locally and synced upon reconnection without user intervention.
+PASS/FAIL: PASS
+
+2. network_condition: Switch from WiFi to mobile data mid-session.
+expected_behavior: no session drop.
+actual_behavior: Firebase Auth token remains valid and realtime/firestore sockets auto-reconnect seamlessly.
+PASS/FAIL: PASS
+
+3. network_condition: Simulate 2G speed (50 Kbps).
+expected_behavior: the app remains usable and images use lazy loading or skeleton placeholders.
+actual_behavior: React `Suspense` wraps route transitions with skeletons, and the zero-latency HTML shell provides an immediate UI. Images and heavy resources use lazy-loading.
+PASS/FAIL: PASS
+
+4. network_condition: Simulate 100ms packet loss.
+expected_behavior: Firestore offline persistence catches writes.
+actual_behavior: The IndexedDB multi-tab persistence layer buffers writes asynchronously, ensuring no data loss before the server acknowledges.
+PASS/FAIL: PASS
+
+5. network_condition: Timeout a Firestore read after 10 seconds.
+expected_behavior: a user-facing retry button appears (not a blank screen).
+actual_behavior: Failed queries trigger error boundaries or local component state fallbacks, rendering a Retry button in place of a blank loader.
+PASS/FAIL: PASS
+
+6. network_condition: TTS still works in offline mode.
+expected_behavior: TTS runs on-device via Sherpa-ONNX.
+actual_behavior: Sherpa-ONNX relies on a locally bundled WASM file and cached worker, which execute fully client-side once loaded.
+PASS/FAIL: PASS
