@@ -666,7 +666,7 @@ export const MockGenerator = () => {
                 expectedTimeS: expectedTimeS,
                 hesitationS: hesitationS,
                 switchCount: switchCounts[currentQ] || 0,
-                attemptId: q.id
+                attemptId: String(q.id)
             };
 
             const newAbility = EloService.calculateNewAbility(
