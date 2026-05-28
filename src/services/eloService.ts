@@ -21,6 +21,7 @@ export interface CalibrationProfile {
     learningMomentum: number;          // Acceleration of learning (-50 to +50)
     recentTopics: string[];            // Last 3 unique topics for diversity check
     lastCalibrated: string;
+    processedAttemptIds?: string[];
 }
 
 export const DEFAULT_CALIBRATION: CalibrationProfile = {
@@ -45,7 +46,8 @@ export const DEFAULT_CALIBRATION: CalibrationProfile = {
     streakCounter: 0,
     learningMomentum: 0,
     recentTopics: [],
-    lastCalibrated: new Date().toISOString()
+    lastCalibrated: new Date().toISOString(),
+    processedAttemptIds: []
 };
 
 export const EloService = {
@@ -134,7 +136,8 @@ export const EloService = {
 
         // New Rating
         const change = K_FACTOR * (actualScore - expectedScore);
-        return currentAbility + change;
+        const newAbility = currentAbility + change;
+        return Math.max(400, newAbility);
     },
 
     /**
@@ -176,9 +179,15 @@ export const EloService = {
             hintsUsed: number;
             hesitationS?: number;      // Time to first interaction
             switchCount?: number;      // Number of times answer was changed
+            attemptId?: string;        // Idempotency key
         },
         conceptTags?: string[]
-    ): CalibrationProfile => {
+        ): CalibrationProfile => {
+        // Idempotency check: prevent double counting
+        if (outcome.attemptId && calibration.processedAttemptIds?.includes(outcome.attemptId)) {
+            return calibration;
+        }
+
         // 1. Apply Temporal Decay (Regress if inactive)
         const processedProfile = EloService.applyTemporalDecay(calibration);
         const newProfile = { ...processedProfile };
@@ -262,7 +271,11 @@ export const EloService = {
 
         newProfile.uncertainty = Math.max(30, currentUncertainty - rdShrink);
 
-        newProfile.lastCalibrated = new Date().toISOString();
+                newProfile.lastCalibrated = new Date().toISOString();
+
+        if (outcome.attemptId) {
+            newProfile.processedAttemptIds = [outcome.attemptId, ...(newProfile.processedAttemptIds || [])].slice(0, 50);
+        }
 
         return newProfile;
     },

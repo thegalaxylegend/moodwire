@@ -650,7 +650,8 @@ export const MockGenerator = () => {
                 hintsUsed: hints[currentQ] || 0,
                 expectedTimeS: expectedTimeS,
                 hesitationS: hesitationS,
-                switchCount: switchCounts[currentQ] || 0
+                switchCount: switchCounts[currentQ] || 0,
+                attemptId: q.id
             };
 
             const newAbility = EloService.calculateNewAbility(
