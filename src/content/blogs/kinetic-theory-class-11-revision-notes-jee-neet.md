@@ -4,7 +4,7 @@ title: "Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster
 description: "Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
-practice_link: "/class-11/physics/kinetic-theory-class-11-revision-notes-jee-neet"
+practice_link: "/practice/kinetic-theory-class-11-revision-notes-jee-neet"
 ---
 
 *Last Updated: May 20, 2026*
@@ -177,7 +177,7 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 - 📖 [Thermal Properties Of Matter Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet)
 ---
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/kinetic-theory-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/kinetic-theory-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Kinetic%20Theory%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 ---
 ## 📚 Related Topics

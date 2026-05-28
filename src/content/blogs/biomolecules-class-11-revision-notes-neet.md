@@ -4,7 +4,7 @@ title: "Biomolecules Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide
 description: "Biomolecules Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
-practice_link: "/class-11/biology/biomolecules-class-11-revision-notes-neet"
+practice_link: "/practice/biomolecules-class-11-revision-notes-neet"
 ---
 
 *Last Updated: May 20, 2026*
@@ -136,7 +136,7 @@ Continue your [revision](/blog/animal-kingdom-class-11-revision-notes-neet) with
 - 📖 [Animal Kingdom Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
 - 📖 [Biogeography Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/biogeography-class-11-revision-notes-neet)
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/biomolecules-class-11-revision-notes-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/biomolecules-class-11-revision-notes-neet) now and track your progress against thousands of students.
 ## 📚 Related Topics
 Continue your [revision](/blog/animal-kingdom-class-11-revision-notes-neet) with these related guides:
 - 📖 [Agriculture Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/agriculture-class-11-revision-notes-neet)

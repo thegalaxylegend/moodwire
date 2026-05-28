@@ -4,7 +4,7 @@ title: "The Making of a Global World Class 10 Social Science Recap — Grandmast
 description: "The Making of a Global World Class 10 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-30."
 category: "Exam Notes"
 date: "2026-04-30"
-practice_link: "/class-10/social-science/the-making-of-a-global-world"
+practice_link: "/practice/the-making-of-a-global-world-class-10-notes"
 manualReview: false
 ---
 
@@ -429,7 +429,7 @@ How to never forget this:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/social-science/the-making-of-a-global-[world](/blog/human-eye-and-colourful-world-class-10-notes)) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/the-making-of-a-global-world-class-10-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

@@ -127,7 +127,7 @@ D) x/(a²+x²)
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/[integrals](/blog/application-of-integrals-class-12-notes)-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/integrals-class-12-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

@@ -4,7 +4,7 @@ title: "Force and Laws of Motion Class 9 Science Recap — Grandmaster Guide"
 description: "Force and Laws of Motion Class 9 Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-14."
 category: "Exam Notes"
 date: "2026-05-14"
-practice_link: "/class-9/science/force-and-laws-of-motion"
+practice_link: "/practice/force-and-laws-of-motion-class-9-notes"
 manualReview: false
 ---
 
@@ -382,7 +382,7 @@ The force acting on an object is equal to its mass times its acceleration, F = m
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-9/science/force-and-laws-of-motion) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/force-and-laws-of-motion-class-9-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

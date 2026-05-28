@@ -4,7 +4,7 @@ title: "The Sermon at Benares Class 10 English Recap — Grandmaster Guide"
 description: "The Sermon at Benares Class 10 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-09."
 category: "Exam Notes"
 date: "2026-05-09"
-practice_link: "/class-10/english/the-sermon-at-benares"
+practice_link: "/practice/the-sermon-at-benares-class-10-notes"
 manualReview: false
 ---
 
@@ -400,7 +400,7 @@ How does the young girl in "The Sermon at Benares" react to the holy man's sermo
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/english/the-sermon-at-benares) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/the-sermon-at-benares-class-10-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=The%20Sermon%20at%20Benares%20Class%2010%20English%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

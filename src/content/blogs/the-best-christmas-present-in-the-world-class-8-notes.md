@@ -4,7 +4,7 @@ title: "The Best Christmas Present in the World Class 8 English Recap — Grandm
 description: "The Best Christmas Present in the World Class 8 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-19."
 category: "Exam Notes"
 date: "2026-05-19"
-practice_link: "/class-8/english/the-best-christmas-present-in-the-world"
+practice_link: "/practice/the-best-christmas-present-in-the-world-class-8-notes"
 manualReview: false
 ---
 
@@ -462,7 +462,7 @@ The story "The Best Christmas Present in the World" revolves around a soldier's 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-8/english/the-best-christmas-present-in-the-world) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/the-best-christmas-present-in-the-world-class-8-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=The%20Best%20Christmas%20Present%20in%20the%20World%20Class%208%20English%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

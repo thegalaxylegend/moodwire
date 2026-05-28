@@ -4,7 +4,7 @@ title: "Work and Energy Class 9 Science Recap — Grandmaster Guide"
 description: "Work and Energy Class 9 Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-14."
 category: "Exam Notes"
 date: "2026-05-14"
-practice_link: "/class-9/science/work-and-energy"
+practice_link: "/practice/work-and-energy-class-9-notes"
 manualReview: false
 ---
 
@@ -382,7 +382,7 @@ Work done and energy are interrelated, and understanding their relationship is k
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-9/science/work-and-energy) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/work-and-energy-class-9-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

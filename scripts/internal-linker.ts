@@ -134,8 +134,8 @@ function injectContextualLinks(body: string, blog: BlogInfo, related: Array<{ sl
     for (let i = 0; i < lines.length; i++) {
         const line = lines[i];
         
-        // Skip headers, horizontal rules, and already linked lines
-        if (line.startsWith('#') || line.startsWith('---') || line.includes('](/blog/')) continue;
+        // Skip headers, horizontal rules, and lines containing existing links, images, or media
+        if (line.startsWith('#') || line.startsWith('---') || line.includes('](') || line.includes('href=') || line.includes('src=')) continue;
         if (linksAdded >= MAX_INLINE_LINKS) break;
 
         for (const rel of related) {

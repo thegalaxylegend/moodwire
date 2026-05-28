@@ -35,42 +35,55 @@ def parse_sql_statements(content):
                     statements.append(stmt)
     return statements
 
+import sys
+
 def main():
+    # Force UTF-8 for console output to avoid CP1252 encoding crashes on Windows
+    if hasattr(sys.stdout, 'reconfigure'):
+        sys.stdout.reconfigure(encoding='utf-8')
+    if hasattr(sys.stderr, 'reconfigure'):
+        sys.stderr.reconfigure(encoding='utf-8')
+
     db_path = find_db()
     seed_file = "scripts/seed.sql"
     
     if not os.path.exists(seed_file):
-        print(f"❌ seed.sql not found at {seed_file}")
+        print(f"[FAIL] seed.sql not found at {seed_file}")
         return
         
-    print(f"📖 Reading {seed_file}...")
+    print(f"Reading {seed_file}...")
     with open(seed_file, "r", encoding="utf-8") as f:
         content = f.read()
         
     # Clean null bytes
     content = content.replace('\x00', '')
     
-    print("Parsing SQL statements...")
+    print("Parsing multiline SQL statements...")
+    prefix = "INSERT OR IGNORE INTO questions ("
+    parts = content.split(prefix)
+    
     statements = []
-    # Find all INSERT INTO or INSERT OR IGNORE statements
-    # Match complete SQL statements ending with );
-    matches = re.finditer(r'(INSERT\s+OR\s+IGNORE\s+INTO\s+questions\s+[\s\S]*?\);)', content, re.IGNORECASE)
-    for m in matches:
-        statements.append(m.group(1))
+    for part in parts[1:]:
+        stmt = prefix + part.strip()
+        if not stmt.endswith(");"):
+            last_idx = stmt.rfind(");")
+            if last_idx != -1:
+                stmt = stmt[:last_idx + 2]
+        statements.append(stmt)
         
-    print(f"📦 Found {len(statements)} INSERT statements.")
+    print(f"Found {len(statements)} INSERT statements.")
     if len(statements) == 0:
         print("Nothing to import.")
         return
         
-    print(f"🔗 Connecting to database: {db_path}")
+    print(f"Connecting to database: {db_path}")
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     
     # Get current count
     cursor.execute("SELECT COUNT(*) FROM questions;")
     before_count = cursor.fetchone()[0]
-    print(f"📊 Questions in database before import: {before_count}")
+    print(f"Questions in database before import: {before_count}")
     
     print("Executing batch import inside a transaction...")
     conn.execute("BEGIN TRANSACTION;")
@@ -83,8 +96,8 @@ def main():
             imported += 1
         except Exception as e:
             errors += 1
-            if errors <= 5:
-                print(f"❌ Error at statement {idx}: {str(e)}")
+            if errors <= 10:
+                print(f"[ERROR] Error at statement {idx}: {str(e)}")
                 print(f"Statement: {stmt[:150]}...")
                 
     conn.commit()

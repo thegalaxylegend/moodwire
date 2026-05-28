@@ -4,7 +4,7 @@ title: "Improvement in Food Resources Class 9 Science Recap — Grandmaster Guid
 description: "Improvement in Food Resources Class 9 Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-15."
 category: "Exam Notes"
 date: "2026-05-15"
-practice_link: "/class-9/science/improvement-in-food-resources"
+practice_link: "/practice/improvement-in-food-resources-class-9-notes"
 manualReview: false
 ---
 
@@ -449,7 +449,7 @@ Improvement in food [resources](/blog/resources-and-development-class-10-notes) 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-9/science/improvement-in-food-[resources](/blog/resources-and-development-class-10-notes)) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/improvement-in-food-resources-class-9-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

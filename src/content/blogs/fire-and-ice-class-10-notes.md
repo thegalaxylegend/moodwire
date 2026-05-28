@@ -4,7 +4,7 @@ title: "Fire and Ice Class 10 English Recap — Grandmaster Guide"
 description: "Fire and Ice Class 10 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-10."
 category: "Exam Notes"
 date: "2026-05-10"
-practice_link: "/class-10/english/fire-and-ice"
+practice_link: "/practice/fire-and-ice-class-10-notes"
 manualReview: false
 ---
 
@@ -577,7 +577,7 @@ D) They see both as equally destructive
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/english/fire-and-ice) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/fire-and-ice-class-10-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Fire%20and%20Ice%20Class%2010%20English%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

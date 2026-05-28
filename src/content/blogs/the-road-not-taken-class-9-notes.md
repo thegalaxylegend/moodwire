@@ -4,7 +4,7 @@ title: "The Road Not Taken Class 9 English Recap — Grandmaster Guide"
 description: "The Road Not Taken Class 9 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-20."
 category: "Exam Notes"
 date: "2026-05-20"
-practice_link: "/class-9/english/the-road-not-taken"
+practice_link: "/practice/the-road-not-taken-class-9-notes"
 manualReview: false
 ---
 
@@ -413,7 +413,7 @@ The poem "The Road Not Taken" by Robert Frost is about a traveler who chooses a 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-9/english/the-road-not-taken) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/the-road-not-taken-class-9-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

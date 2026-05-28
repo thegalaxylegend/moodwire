@@ -4,7 +4,7 @@ title: "Globalisation and the Indian Economy Class 10 Social Science Recap — G
 description: "Globalisation and the Indian Economy Class 10 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-07."
 category: "Exam Notes"
 date: "2026-05-07"
-practice_link: "/class-10/social-science/globalisation-and-the-indian-economy"
+practice_link: "/practice/globalisation-and-the-indian-economy-class-10-notes"
 manualReview: false
 ---
 
@@ -415,7 +415,7 @@ Examiner's Trap: Be careful with the calculation of per capita income, as it inv
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/social-science/globalisation-and-the-indian-economy) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/globalisation-and-the-indian-economy-class-10-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Globalisation%20and%20the%20Indian%20Economy%20Class%2010%20Social%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

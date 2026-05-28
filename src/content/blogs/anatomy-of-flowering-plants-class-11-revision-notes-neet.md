@@ -4,7 +4,7 @@ title: "anatomy of flowering plants class 11 revision notes neet Class 11 Exam N
 description: "anatomy of flowering plants class 11 revision notes neet Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-05-06."
 category: "Exam Notes"
 date: "2026-05-06"
-practice_link: "/class-11/exam notes/anatomy-of-flowering-plants-class-11-revision-notes-neet"
+practice_link: "/practice/anatomy-of-flowering-plants-class-11-revision-notes-neet"
 manualReview: false
 ---
 
@@ -1711,7 +1711,7 @@ Ruthless brevity, high-yield, no fluff, no intro.
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/exam notes/anatomy-of-flowering-plants-class-11-revision-notes-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/anatomy-of-flowering-plants-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=anatomy%20of%20flowering%20plants%20class%2011%20revision%20notes%20neet%20Class%2011%20Exam%20Notes%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

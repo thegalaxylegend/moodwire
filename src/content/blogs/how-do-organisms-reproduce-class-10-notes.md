@@ -109,7 +109,7 @@ D) Menstrual cycle
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/how-do-[organisms](/blog/organisms-and-populations-class-12-notes)-reproduce-class-10-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/how-do-organisms-reproduce-class-10-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=How%20do%20Organisms%20Reproduce%3F%20Class%2010%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

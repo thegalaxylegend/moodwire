@@ -119,7 +119,7 @@ D) 4
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/cubes-and-cube-[roots](/blog/squares-and-square-roots-class-8-notes)-class-8-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/cubes-and-cube-roots-class-8-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Cubes%20And%20Cube%20Roots%208%20Class%208%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

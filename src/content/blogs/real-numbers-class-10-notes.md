@@ -121,7 +121,7 @@ D) 480
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/real-[numbers](/blog/rational-numbers-class-8-notes)-class-10-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/real-numbers-class-10-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

@@ -124,7 +124,7 @@ D) To reduce the avg seek time
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/operating-[systems](/blog/number-systems-class-9-notes)-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/operating-systems-class-12-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

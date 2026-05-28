@@ -4,7 +4,7 @@ title: "Socialism in Europe and the Russian Revolution Class 9 Social Science Re
 description: "Socialism in Europe and the Russian Revolution Class 9 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-16."
 category: "Exam Notes"
 date: "2026-05-16"
-practice_link: "/class-9/social-science/socialism-in-europe-and-the-russian-revolution"
+practice_link: "/practice/socialism-in-europe-and-the-russian-revolution-class-9-notes"
 manualReview: false
 ---
 
@@ -401,7 +401,7 @@ The Russian Revolution was a pivotal event in world history that led to the esta
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-9/social-science/socialism-in-europe-and-the-russian-revolution) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/socialism-in-europe-and-the-russian-revolution-class-9-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Socialism%20in%20Europe%20and%20the%20Russian%20Revolution%20Class%209%20Social%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

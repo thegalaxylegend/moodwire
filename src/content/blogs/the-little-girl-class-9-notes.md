@@ -4,7 +4,7 @@ title: "The Little Girl Class 9 English Recap — Grandmaster Guide"
 description: "The Little Girl Class 9 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-20."
 category: "Exam Notes"
 date: "2026-05-20"
-practice_link: "/class-9/english/the-little-girl"
+practice_link: "/practice/the-little-girl-class-9-notes"
 manualReview: false
 ---
 
@@ -403,7 +403,7 @@ The poem "The Little Girl" portrays the emotional struggles and feelings of negl
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-9/english/the-little-girl) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/the-little-girl-class-9-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

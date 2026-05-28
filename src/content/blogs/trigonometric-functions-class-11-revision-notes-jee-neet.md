@@ -4,7 +4,7 @@ title: "Trigonometric Functions Class 11 Revision Notes JEE NEET — Grandmaster
 description: "Master Trigonometric Functions Class 11 with these revision notes for JEE and NEET. Comprehensive formula bank, solved PYQs, and ranker strategies. Last Updated: 2026-05-06."
 category: "Exam Notes"
 date: "2026-05-06"
-practice_link: "/class-11/exam notes/trigonometric-functions-class-11-revision-notes-jee-neet"
+practice_link: "/practice/trigonometric-functions-class-11-revision-notes-jee-neet"
 manualReview: true
 ---
 
@@ -299,7 +299,7 @@ Always verify the quadrant sign and periodicity before finalizing any trigonomet
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/exam notes/trigonometric-functions-class-11-revision-notes-jee-neet) now and track your progress.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/trigonometric-functions-class-11-revision-notes-jee-neet) now and track your progress.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

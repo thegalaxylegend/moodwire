@@ -4,7 +4,7 @@ title: "Political Parties Class 10 Social Science Recap — Grandmaster Guide"
 description: "Political Parties Class 10 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-05."
 category: "Exam Notes"
 date: "2026-05-05"
-practice_link: "/class-10/social-science/political-parties"
+practice_link: "/practice/political-parties-class-10-notes"
 manualReview: false
 ---
 
@@ -1321,7 +1321,7 @@ Political parties act as the essential bridge between the citizens and the gover
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/social-science/political-parties) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/political-parties-class-10-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

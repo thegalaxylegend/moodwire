@@ -4,7 +4,7 @@ title: "Sources of Energy Class 10 Science Recap — Grandmaster Guide"
 description: "Sources of Energy Class 10 Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-28."
 category: "Exam Notes"
 date: "2026-04-28"
-practice_link: "/class-10/science/sources-of-energy"
+practice_link: "/practice/sources-of-energy-class-10-notes"
 manualReview: false
 ---
 
@@ -372,7 +372,7 @@ a. If the power is $100$ W, the Stefan-Boltzmann constant is $5.7	imes10^{-8}$ W
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/science/sources-of-energy) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/sources-of-energy-class-10-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

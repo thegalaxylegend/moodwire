@@ -4,7 +4,7 @@ title: "Modals Class 10 English Recap — Grandmaster Guide"
 description: "Modals Class 10 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-11."
 category: "Exam Notes"
 date: "2026-05-11"
-practice_link: "/class-10/english/modals"
+practice_link: "/practice/modals-class-10-notes"
 manualReview: false
 ---
 
@@ -433,7 +433,7 @@ Examiner's Trap: Be aware of the differences between modals of necessity and mod
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/english/modals) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/modals-class-10-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Modals%20Class%2010%20English%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

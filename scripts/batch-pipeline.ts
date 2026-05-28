@@ -168,18 +168,9 @@ async function callCerebras(prompt: string, maxTokens: number, model = 'llama3.1
       if (res.status === 429) {
         const errText = await res.text();
         const lowerErr = errText.toLowerCase();
-        if (
-          lowerErr.includes('token_quota_exceeded') || 
-          lowerErr.includes('tokens per day limit exceeded') || 
-          lowerErr.includes('insufficient_quota') || 
-          (lowerErr.includes('quota') && !lowerErr.includes('requests per minute') && !lowerErr.includes('concurrency'))
-        ) {
-          exhaustedKeyModels.add(kmKey);
-          process.stdout.write(` [Cerebras ${model} Key ${attempt + 1} Hard Quota Exhausted]`);
-          continue;
-        }
-        process.stdout.write(` [Cerebras 429 Key ${attempt + 1}]`);
-        await backoff(attempt);
+        // Treat all 429s (both hard quota and high traffic rate limits) as session exhaustion for this model+key combination to prevent lag
+        exhaustedKeyModels.add(kmKey);
+        process.stdout.write(` [Cerebras ${model} Key ${attempt + 1} 429/Exhausted]`);
         continue;
       }
       if (res.status === 401) {
@@ -221,7 +212,7 @@ async function callGemini(prompt: string, maxTokens: number): Promise<string> {
     const timer = setTimeout(() => controller.abort(), 20000); // 20s timeout
     try {
       const res = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${key}`,
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${key}`,
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -268,7 +259,7 @@ async function callGemini(prompt: string, maxTokens: number): Promise<string> {
 async function callGroq(prompt: string, maxTokens: number): Promise<string> {
   if (limits.groq >= GROQ_DAILY_MAX) throw new Error('Groq daily limit reached');
   // Only confirmed working models — no deprecated mixtral, no blocked models
-  const models = ['llama-3.1-8b-instant', 'llama-3.3-70b-versatile', 'gemma2-9b-it'];
+  const models = ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant', 'qwen/qwen3-32b'];
   for (const model of models) {
     const attempts = groqKeys.count;
     for (let attempt = 0; attempt < attempts; attempt++) {

@@ -4,7 +4,7 @@ title: "Consumer Rights Class 10 Social Science Recap — Grandmaster Guide"
 description: "Consumer Rights Class 10 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-07."
 category: "Exam Notes"
 date: "2026-05-07"
-practice_link: "/class-10/social-science/consumer-rights"
+practice_link: "/practice/consumer-rights-class-10-notes"
 manualReview: false
 ---
 
@@ -562,7 +562,7 @@ The Consumer Protection Act, 1986 is a powerful tool that empowers consumers to 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/social-science/consumer-rights) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/consumer-rights-class-10-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

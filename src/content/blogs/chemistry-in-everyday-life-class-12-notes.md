@@ -120,7 +120,7 @@ D) 0.9 V
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/[chemistry](/blog/surface-chemistry-class-12-notes)-in-everyday-life-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/chemistry-in-everyday-life-class-12-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

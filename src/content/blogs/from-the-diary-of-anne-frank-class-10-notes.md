@@ -4,7 +4,7 @@ title: "From the Diary of Anne Frank Class 10 English Recap — Grandmaster Guid
 description: "From the Diary of Anne Frank Class 10 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-08."
 category: "Exam Notes"
 date: "2026-05-08"
-practice_link: "/class-10/english/from-the-diary-of-anne-frank"
+practice_link: "/practice/from-the-diary-of-anne-frank-class-10-notes"
 manualReview: false
 ---
 
@@ -390,7 +390,7 @@ If you answered **A**: you have the misconception → fix: Recognize that Anne F
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/english/from-the-diary-of-anne-frank) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/from-the-diary-of-anne-frank-class-10-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

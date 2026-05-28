@@ -4,7 +4,7 @@ title: "Why Do We Fall Ill Class 9 Science Recap — Grandmaster Guide"
 description: "Why Do We Fall Ill Class 9 Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-15."
 category: "Exam Notes"
 date: "2026-05-15"
-practice_link: "/class-9/science/why-do-we-fall-ill"
+practice_link: "/practice/why-do-we-fall-ill-class-9-notes"
 manualReview: false
 ---
 
@@ -414,7 +414,7 @@ Our body's immune system in fighting against diseases, and a combination of good
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-9/science/why-do-we-fall-ill) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/why-do-we-fall-ill-class-9-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

@@ -121,7 +121,7 @@ D) Heritability is the proportion of variation ∈ a trait that cannot be attrib
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/human-[health](/blog/reproductive-health-class-12-notes)-and-disease-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/human-health-and-disease-class-12-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Human](/blog/microbes-in-human-welfare-class-12-notes)%20Health%20And%20Disease%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

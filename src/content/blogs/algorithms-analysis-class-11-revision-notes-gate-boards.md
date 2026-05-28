@@ -4,7 +4,7 @@ title: "Algorithms Analysis Gate Boards Class 11 Exam Prep Revision — CBSE 202
 description: "Algorithms Analysis Gate Boards Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
-practice_link: "/class-11/physics/algorithms-analysis-class-11-revision-notes-gate-boards"
+practice_link: "/practice/algorithms-analysis-class-11-revision-notes-gate-boards"
 ---
 
 *Last Updated: May 20, 2026*
@@ -360,7 +360,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/[algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards)-analysis-class-11-revision-notes-gate-boards) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/algorithms-analysis-class-11-revision-notes-gate-boards) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards)%20Analysis%20Gate%20Boards%20Class%2011%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

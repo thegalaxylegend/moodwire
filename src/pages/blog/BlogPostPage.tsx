@@ -254,6 +254,11 @@ export const BlogPostPage: React.FC = () => {
                         remarkPlugins={[remarkGfm, remarkMath]}
                         rehypePlugins={[rehypeRaw, rehypeKatex]}
                         components={{
+                            h1: ({ node, children, ...props }) => (
+                                <h2 {...props} className="text-xl sm:text-2xl font-bold text-white mt-12 mb-6 break-words">
+                                    {children}
+                                </h2>
+                            ),
                             h2: ({ node, children, ...props }) => (
                                 <h2 {...props} className="text-xl sm:text-2xl font-bold text-white mt-12 mb-6 break-words">
                                     {children}
@@ -354,6 +359,13 @@ export const BlogPostPage: React.FC = () => {
                         <ReactMarkdown
                             remarkPlugins={[remarkGfm, remarkMath]}
                             rehypePlugins={[rehypeRaw, rehypeKatex]}
+                            components={{
+                                h1: ({ node, children, ...props }) => (
+                                    <h2 {...props} style={{ fontSize: '18pt', fontWeight: 'bold', marginTop: '24px', marginBottom: '12px' }}>
+                                        {children}
+                                    </h2>
+                                )
+                            }}
                         >
                             {content}
                         </ReactMarkdown>

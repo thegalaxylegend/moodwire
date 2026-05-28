@@ -4,7 +4,7 @@ title: "Ray Optics Quick Class 12 Physics Revision — JEE & NEET 2026 Grandmast
 description: "Ray Optics Quick Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
-practice_link: "/class-11/physics/ray-optics-class-12-quick-class-12-revision-notes-jee-neet"
+practice_link: "/practice/ray-optics-class-12-quick-class-12-revision-notes-jee-neet"
 ---
 
 *Last Updated: May 20, 2026*
@@ -203,7 +203,7 @@ Continue your [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-j
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Ray%20Optics%20Quick%20Class%2012%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

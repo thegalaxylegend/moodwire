@@ -4,7 +4,7 @@ title: "Alcohols Phenols And Ethers Class 12 Exam Prep Revision — CBSE 2026 Gr
 description: "Alcohols Phenols And Ethers Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-29"
-practice_link: "/class-11/chemistry/alcohols-phenols-n-ethers-class-12-notes"
+practice_link: "/practice/alcohols-phenols-and-ethers-class-12-notes"
 ---
 
 *Last Updated: May 20, 2026*
@@ -79,7 +79,7 @@ $RCH(OH) + PCL_5 \rightarrow Rock + Poll_3 + HCl - Conversion$ of alcohol to acy
 | Reaction | Reagents | Product |
 |
 ### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/alcohols-phenols-n-ethers-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/alcohols-phenols-and-ethers-class-12-notes) now and track your progress against thousands of students.
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy y Ayush.*
 ## <a id="-related-topics"></a>📚 Related Topics
 Continue your [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) with these related guides:
@@ -88,7 +88,7 @@ Continue your [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet
 - 📖 [Inverse Trigonometric Functions Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/inverse-trigonometric-functions-class-12-notes)
 - 📖 [Matrices Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/matrices-class-12-notes)
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/alcohols-phenols-n-ethers-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/alcohols-phenols-and-ethers-class-12-notes) now and track your progress against thousands of students.
 ## 📚 Related Topics
 Continue your [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) with these related guides:
 - 📖 [Chemical Kinetics Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/chemical-kinetics-class-12-notes)

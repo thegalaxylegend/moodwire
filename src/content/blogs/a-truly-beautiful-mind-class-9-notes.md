@@ -4,7 +4,7 @@ title: "A Truly Beautiful Mind Class 9 English Recap — Grandmaster Guide"
 description: "A Truly Beautiful Mind Class 9 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-17."
 category: "Exam Notes"
 date: "2026-05-17"
-practice_link: "/class-9/english/a-truly-beautiful-mind"
+practice_link: "/practice/a-truly-beautiful-mind-class-9-notes"
 manualReview: false
 ---
 
@@ -359,7 +359,7 @@ Kalam's life is a true inspiration, showcasing that with hard work and determina
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-9/english/a-truly-beautiful-mind) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/a-truly-beautiful-mind-class-9-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=A%20Truly%20Beautiful%20Mind%20Class%209%20English%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

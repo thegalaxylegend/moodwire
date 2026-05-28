@@ -4,7 +4,7 @@ title: "Minerals and Energy Resources Class 10 Social Science Recap — Grandmas
 description: "Minerals and Energy Resources Class 10 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-05."
 category: "Exam Notes"
 date: "2026-05-05"
-practice_link: "/class-10/social-science/minerals-and-energy-resources"
+practice_link: "/practice/minerals-and-energy-resources-class-10-notes"
 manualReview: false
 ---
 
@@ -1281,7 +1281,7 @@ A student reading 12 hours before the exam.
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/social-science/minerals-and-energy-resources) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/minerals-and-energy-resources-class-10-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Minerals%20and%20Energy%20Resources%20Class%2010%20Social%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

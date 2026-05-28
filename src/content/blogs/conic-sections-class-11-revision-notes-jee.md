@@ -4,7 +4,7 @@ title: "Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Gu
 description: "Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
-practice_link: "/class-11/mathematics/conic-sections-class-11-revision-notes-jee"
+practice_link: "/practice/conic-sections-class-11-revision-notes-jee"
 ---
 
 *Last Updated: May 20, 2026*
@@ -125,7 +125,7 @@ Continue your [revision](/blog/probability-class-11-revision-notes-jee) with the
 - 📖 [Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-class-11-revision-notes-jee)
 - 📖 [Sequences Series Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/sequences-series-class-11-revision-notes-jee)
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/conic-sections-class-11-revision-notes-jee) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/conic-sections-class-11-revision-notes-jee) now and track your progress against thousands of students.
 ## 📚 Related Topics
 Continue your [revision](/blog/probability-class-11-revision-notes-jee) with these related guides:
 - 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)

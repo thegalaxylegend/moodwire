@@ -4,7 +4,7 @@ title: "Power Sharing Class 10 Social Science Recap — Grandmaster Guide"
 description: "Power Sharing Class 10 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-05."
 category: "Exam Notes"
 date: "2026-05-05"
-practice_link: "/class-10/social-science/power-sharing"
+practice_link: "/practice/power-sharing-class-10-notes"
 manualReview: false
 ---
 
@@ -1268,7 +1268,7 @@ d. If the total budget is ₹ 3,00,000 and there are 500 households in the villa
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/social-science/power-sharing) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/power-sharing-class-10-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

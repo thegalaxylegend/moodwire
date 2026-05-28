@@ -207,7 +207,7 @@ export const ExamLanding = () => {
                 
                 <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
                     <motion.div 
-                        initial={{ opacity: 0, x: -30 }}
+                        initial={false}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8, ease: "easeOut" }}
                         className="flex-1 text-center lg:text-left"
@@ -259,7 +259,7 @@ export const ExamLanding = () => {
                     </motion.div>
 
                     <motion.div 
-                        initial={{ opacity: 0, scale: 0.9 }}
+                        initial={false}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 1, ease: "circOut" }}
                         className="w-full lg:w-[450px] relative group flex items-center justify-center"

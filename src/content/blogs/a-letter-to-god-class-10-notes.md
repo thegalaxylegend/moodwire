@@ -4,7 +4,7 @@ title: "A Letter to God Class 10 English Recap — Grandmaster Guide"
 description: "A Letter to God Class 10 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-07."
 category: "Exam Notes"
 date: "2026-05-07"
-practice_link: "/class-10/english/a-letter-to-god"
+practice_link: "/practice/a-letter-to-god-class-10-notes"
 manualReview: false
 ---
 
@@ -450,7 +450,7 @@ c) / 2a — [quadratic formula to find roots]
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/english/a-letter-to-god) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/a-letter-to-god-class-10-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=A%20Letter%20to%20God%20Class%2010%20English%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

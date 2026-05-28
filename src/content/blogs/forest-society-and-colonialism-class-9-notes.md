@@ -4,7 +4,7 @@ title: "Forest Society and Colonialism Class 9 Social Science Recap — Grandmas
 description: "Forest Society and Colonialism Class 9 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-16."
 category: "Exam Notes"
 date: "2026-05-16"
-practice_link: "/class-9/social-science/forest-society-and-colonialism"
+practice_link: "/practice/forest-society-and-colonialism-class-9-notes"
 manualReview: false
 ---
 
@@ -387,7 +387,7 @@ The relationship between forest society and colonialism is complex, with colonia
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-9/social-science/forest-society-and-colonialism) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/forest-society-and-colonialism-class-9-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Forest%20Society%20and%20Colonialism%20Class%209%20Social%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

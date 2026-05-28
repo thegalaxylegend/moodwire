@@ -4,7 +4,7 @@ title: "The Rise of Nationalism in Europe Class 10 Social Science Recap — Gran
 description: "The Rise of Nationalism in Europe Class 10 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-29."
 category: "Exam Notes"
 date: "2026-04-29"
-practice_link: "/class-10/social-science/the-rise-of-nationalism-in-europe"
+practice_link: "/practice/the-rise-of-nationalism-in-europe-class-10-notes"
 manualReview: false
 ---
 
@@ -356,7 +356,7 @@ d.**
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/social-science/the-rise-of-nationalism-in-europe) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/the-rise-of-nationalism-in-europe-class-10-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

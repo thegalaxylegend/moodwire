@@ -4,7 +4,7 @@ title: "The Age of Industrialisation Class 10 Social Science Recap — Grandmast
 description: "The Age of Industrialisation Class 10 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-30."
 category: "Exam Notes"
 date: "2026-04-30"
-practice_link: "/class-10/social-science/the-age-of-industrialisation"
+practice_link: "/practice/the-age-of-industrialisation-class-10-notes"
 manualReview: false
 ---
 
@@ -375,7 +375,7 @@ To crack The Age of Industrialisation, focus on the following:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/social-science/the-age-of-industrialisation) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/the-age-of-industrialisation-class-10-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=The%20Age%20of%20Industrialisation%20Class%2010%20Social%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

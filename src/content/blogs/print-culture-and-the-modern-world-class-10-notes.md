@@ -4,7 +4,7 @@ title: "Print Culture and the Modern World Class 10 Social Science Recap — Gra
 description: "Print Culture and the Modern World Class 10 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-30."
 category: "Exam Notes"
 date: "2026-04-30"
-practice_link: "/class-10/social-science/print-culture-and-the-modern-world"
+practice_link: "/practice/print-culture-and-the-modern-world-class-10-notes"
 manualReview: false
 ---
 
@@ -382,7 +382,7 @@ The print revolution, led by the Gutenberg Press, had a profound impact on the [
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/social-science/print-culture-and-the-modern-[world](/blog/human-eye-and-colourful-world-class-10-notes)) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/print-culture-and-the-modern-world-class-10-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

@@ -25,7 +25,6 @@ declare global {
 export const QuestionPage = () => {
     const { exam, slug } = useParams();
     const { tier } = usePerformance();
-    const isLow = tier === 'low';
     const formattedExam = exam?.replace(/-/g, ' ').toUpperCase() || 'EXAM';
 
     // 1. SSG Hydration Strategy
@@ -181,7 +180,7 @@ export const QuestionPage = () => {
             <Navbar />
 
             <motion.main 
-                initial={isLow ? {} : { opacity: 0, y: 20 }}
+                initial={false}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
                 className="pt-20 md:pt-28 pb-20 px-6 max-w-4xl mx-auto will-change-transform"

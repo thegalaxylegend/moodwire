@@ -4,7 +4,7 @@ title: "Active and Passive Voice Class 10 English Recap — Grandmaster Guide"
 description: "Active and Passive Voice Class 10 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-11."
 category: "Exam Notes"
 date: "2026-05-11"
-practice_link: "/class-10/english/active-and-passive-voice"
+practice_link: "/practice/active-and-passive-voice-class-10-notes"
 manualReview: false
 ---
 
@@ -402,7 +402,7 @@ The key to converting Active Voice to Passive Voice is to change the **subject**
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/english/active-and-passive-voice) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/active-and-passive-voice-class-10-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Active%20and%20Passive%20Voice%20Class%2010%20English%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

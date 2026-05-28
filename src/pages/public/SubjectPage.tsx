@@ -19,11 +19,20 @@ export const SubjectPage = () => {
     const { exam, subject } = useParams();
     const [generatingPdf, setGeneratingPdf] = useState(false);
     const { tier } = usePerformance();
-    const isLow = tier === 'low';
 
     // Reverse Slugify (Primitive)
     const realSubject = Object.keys(SYLLABUS_DB).find(k => slugify(k) === subject);
-    const topics = realSubject ? (SYLLABUS_DB[realSubject as string] || []) : [];
+    const allTopics = realSubject ? (SYLLABUS_DB[realSubject as string] || []) : [];
+    
+    // Filter topics by exam/class context to prevent cross-class pollution and broken links
+    const topics = allTopics.filter(t => {
+        const topicClassNum = t.class.replace(/Class\s*/i, '').trim(); // e.g. "10", "11", "12", "9", "8"
+        if (exam === 'jee-mains' || exam === 'jee-advanced' || exam === 'neet') {
+            return topicClassNum === '11' || topicClassNum === '12';
+        }
+        const examClassNum = exam?.replace('class-', '');
+        return topicClassNum === examClassNum;
+    });
 
     if (!realSubject || topics.length === 0) {
         return <NotFoundPage />;
@@ -118,7 +127,7 @@ export const SubjectPage = () => {
             <Navbar />
 
             <motion.main 
-                initial={isLow ? {} : { opacity: 0, y: 20 }}
+                initial={false}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
                 className="pt-20 md:pt-28 pb-10 px-6 max-w-7xl mx-auto border-b border-white/5 will-change-transform"
@@ -128,7 +137,7 @@ export const SubjectPage = () => {
                 </div>
 
                 <motion.div 
-                    initial={isLow ? {} : { opacity: 0, x: -20 }}
+                    initial={false}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: 0.2, duration: 0.8 }}
                     className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8"
@@ -147,7 +156,7 @@ export const SubjectPage = () => {
                 </motion.div>
 
                 <motion.article 
-                    initial={isLow ? {} : { opacity: 0 }}
+                    initial={false}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.4, duration: 1 }}
                     className="prose prose-invert max-w-4xl space-y-8"

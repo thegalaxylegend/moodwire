@@ -4,7 +4,7 @@ title: "Organic Chemistry Basic Principles Class 11 Chemistry Revision — JEE &
 description: "Organic Chemistry Basic Principles Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
-practice_link: "/class-11/physics/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet"
+practice_link: "/practice/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet"
 ---
 
 *Last Updated: May 20, 2026*
@@ -192,7 +192,7 @@ Continue your [revision](/blog/physical-world-class-11-revision-notes-jee-neet) 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/organic-[chemistry](/blog/environmental-chemistry-class-11-revision-notes-neet)-basic-principles-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Organic%20Chemistry%20Basic%20Principles%20Class%2011%20Chemistry%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

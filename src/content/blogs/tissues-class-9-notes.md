@@ -4,7 +4,7 @@ title: "Tissues Class 9 Science Recap — Grandmaster Guide"
 description: "Tissues Class 9 Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-13."
 category: "Exam Notes"
 date: "2026-05-13"
-practice_link: "/class-9/science/tissues"
+practice_link: "/practice/tissues-class-9-notes"
 manualReview: false
 ---
 
@@ -440,7 +440,7 @@ Stay calm and focus on your strengths. Visualize acing the exam.
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-9/science/tissues) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/tissues-class-9-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

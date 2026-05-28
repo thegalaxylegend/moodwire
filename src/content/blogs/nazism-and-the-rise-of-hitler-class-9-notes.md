@@ -4,7 +4,7 @@ title: "Nazism and the Rise of Hitler Class 9 Social Science Recap — Grandmast
 description: "Nazism and the Rise of Hitler Class 9 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-16."
 category: "Exam Notes"
 date: "2026-05-16"
-practice_link: "/class-9/social-science/nazism-and-the-rise-of-hitler"
+practice_link: "/practice/nazism-and-the-rise-of-hitler-class-9-notes"
 manualReview: false
 ---
 
@@ -447,7 +447,7 @@ The Nazi Party's rise to power in Germany was facilitated by a combination of fa
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-9/social-science/nazism-and-the-rise-of-hitler) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/nazism-and-the-rise-of-hitler-class-9-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Nazism%20and%20the%20Rise%20of%20Hitler%20Class%209%20Social%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

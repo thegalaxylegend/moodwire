@@ -4,7 +4,7 @@ title: "Dust of Snow Class 10 English Recap — Grandmaster Guide"
 description: "Dust of Snow Class 10 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-10."
 category: "Exam Notes"
 date: "2026-05-10"
-practice_link: "/class-10/english/dust-of-snow"
+practice_link: "/practice/dust-of-snow-class-10-notes"
 manualReview: false
 ---
 
@@ -371,7 +371,7 @@ The poem Dust of Snow by Robert Frost teaches us to appreciate the small things 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/english/dust-of-snow) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/dust-of-snow-class-10-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Dust%20of%20Snow%20Class%2010%20English%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

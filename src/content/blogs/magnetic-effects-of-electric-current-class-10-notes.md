@@ -4,7 +4,7 @@ title: "Magnetic Effects of Electric Current Class 10 Science Recap — Grandmas
 description: "Magnetic Effects of Electric Current Class 10 Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-28."
 category: "Exam Notes"
 date: "2026-04-28"
-practice_link: "/class-10/science/magnetic-effects-of-electric-current"
+practice_link: "/practice/magnetic-effects-of-electric-current-class-10-notes"
 manualReview: false
 ---
 
@@ -348,7 +348,7 @@ The magnetic force on a current-carrying wire is given by $F = BIL \sin{\theta}$
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/science/magnetic-effects-of-electric-current) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/magnetic-effects-of-electric-current-class-10-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Magnetic%20Effects%20of%20Electric%20Current%20Class%2010%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

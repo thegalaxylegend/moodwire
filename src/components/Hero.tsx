@@ -49,7 +49,7 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
 
             <div className="container mx-auto px-4 sm:px-6 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center relative z-10">
                 <motion.div 
-                    initial="hidden"
+                    initial={false}
                     animate="visible"
                     variants={containerVariants}
                     className="space-y-8 text-center lg:text-left"
@@ -123,7 +123,7 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
 
                 {/* Showcase card with animated entrance */}
                 <motion.div 
-                    initial={{ opacity: 0, x: 40, rotate: -5 }}
+                    initial={false}
                     animate={{ opacity: 1, x: 0, rotate: -2 }}
                     transition={{ delay: 0.8, duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
                     whileHover={{ rotate: 0, scale: 1.02, y: -5 }}

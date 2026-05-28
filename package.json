@@ -6,7 +6,7 @@
   "main": "main.cjs",
   "scripts": {
     "dev": "vite",
-    "build": "npx tsx scripts/sanity-guard.ts && npm run blog:sync && npm run seo:regen && tsc -b && vite build && npm run build:ssr && node scripts/prerender-all.js && node scripts/generate-sitemap.js && npx tsx scripts/generate-rss.ts && npm run seo:ping",
+    "build": "npx tsx scripts/sanity-guard.ts && npm run blog:sync && npm run seo:regen && tsc -b && vite build && npm run build:ssr && node scripts/prerender-parallel.js && node scripts/generate-sitemap.js && npx tsx scripts/generate-rss.ts && npm run seo:ping",
     "build:ssr": "vite build --ssr src/entry-server.tsx --outDir dist/server",
     "ssg": "npm run build",
     "sanity:check": "npx tsx scripts/sanity-guard.ts",

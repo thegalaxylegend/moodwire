@@ -579,6 +579,7 @@ export default defineConfig(() => {
       },
       rollupOptions: {
         output: {
+          inlineDynamicImports: isSSR,
           manualChunks: isSSR ? undefined : {
             'vendor-react':    ['react', 'react-dom', 'react-router-dom'],
             'vendor-firebase': ['firebase/app', 'firebase/auth', 'firebase/firestore'],

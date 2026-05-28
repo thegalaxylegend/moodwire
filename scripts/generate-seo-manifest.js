@@ -217,7 +217,17 @@ async function generate() {
             const subject = subjects[i];
             const nextStart = subjects[i + 1] ? subjects[i + 1].start : content.length;
             const block = content.substring(subject.start, nextStart);
-            const topics = block.match(/topic:\s*["']([^"']+)["']/g)?.map(t => t.match(/["']([^"']+)["']/)[1]) || [];
+            const topics = [];
+            const objBlocks = [...block.matchAll(/{[\s\S]*?}/g)].map(m => m[0]);
+            objBlocks.forEach(objStr => {
+                const topicNameMatch = objStr.match(/topic:\s*(?:"((?:\\.|[^"])*)"|'((?:\\.|[^'])*)')/);
+                const classMatch = objStr.match(/class:\s*(?:"((?:\\.|[^"])*)"|'((?:\\.|[^'])*)')/);
+                if (topicNameMatch) {
+                    const topic = (topicNameMatch[1] || topicNameMatch[2] || '').replace(/\\"/g, '"').replace(/\\'/g, "'");
+                    const cls = classMatch ? (classMatch[1] || classMatch[2] || '').replace(/Class\s*/i, '').trim() : '';
+                    topics.push({ topic, class: cls });
+                }
+            });
             SYLLABUS_DATA[subject.name] = topics;
         }
 
@@ -229,7 +239,7 @@ async function generate() {
         // === INJECT HOME ROUTE ===
         manifest['/'] = {
             title: "Exam Compass | AI-Powered Prep for JEE Main & Adv, NEET, Boards (8-12)",
-            description: "The ultimate AI study partner for Classes 8-12 board exams, JEE (Main & Advanced), and NEET. Get personalized mock tests, PYQ analytics, and honest roadmaps for Indian aspirants.",
+            description: "The ultimate AI study partner for Classes 8-12, JEE Main & Advanced, and NEET UG. Get personalized mock tests, PYQ analytics, and honest preparation roadmaps.",
             h1: "AI-Powered Exam Preparation",
             type: "home",
             priority: 1.0,
@@ -240,7 +250,7 @@ async function generate() {
         // === INJECT POLICY PAGES (Required for AdSense) ===
         manifest['/privacy'] = {
             title: "Privacy Policy | Exam Compass",
-            description: "Read the Exam Compass Privacy Policy. Learn how we collect, use, and protect your personal data, including information about cookies, analytics, and third-party advertising.",
+            description: "Read the Exam Compass Privacy Policy. Learn how we collect, use, and protect your personal data, including information about cookies and analytics.",
             h1: "Privacy Policy",
             type: "page",
             priority: 0.3,
@@ -276,7 +286,7 @@ async function generate() {
         };
         manifest['/contact'] = {
             title: "Contact Us | Exam Compass",
-            description: "Get in touch with the Exam Compass team. Contact us for questions, feedback, bug reports, or partnership inquiries.",
+            description: "Get in touch with the Exam Compass team. Contact us for questions, feedback, bug reports, or partnership inquiries regarding our AI exam prep platform.",
             h1: "Contact Us",
             type: "page",
             priority: 0.3,
@@ -288,7 +298,7 @@ async function generate() {
         const blogsDir = path.join(__dirname, '../src/content/blogs');
         manifest['/blog'] = {
             title: "Exam Compass Blog | AI Exam Prep Tips & Strategies",
-            description: "Expert strategies, syllabus breakdowns, and exam preparation tips for JEE Main & Advanced, NEET, and CBSE Classes 8-12.",
+            description: "Expert strategies, syllabus breakdowns, and exam preparation tips for JEE Main & Advanced, NEET UG, and CBSE board exams for Classes 8-12.",
             h1: "Exam Compass Blog",
             type: "blog-index",
             priority: 0.9,
@@ -355,7 +365,21 @@ async function generate() {
                 };
 
                 const topics = SYLLABUS_DATA[subjectName] || [];
-                topics.forEach(topicName => {
+                topics.forEach(topicObj => {
+                    const topicName = typeof topicObj === 'string' ? topicObj : topicObj.topic;
+                    const topicClass = typeof topicObj === 'string' ? '' : topicObj.class;
+
+                    // Filter topic by exam's valid classes to avoid duplicate / wrong class topics
+                    if (topicClass) {
+                        const examClassNum = examSlug.replace('class-', '');
+                        const isJeeNeet = examSlug === 'jee-mains' || examSlug === 'jee-advanced' || examSlug === 'neet';
+                        if (isJeeNeet) {
+                            if (topicClass !== '11' && topicClass !== '12') return;
+                        } else {
+                            if (topicClass !== examClassNum) return;
+                        }
+                    }
+
                     const topicSlug = slugify(topicName);
                     const topicUrl = `${subjectUrl}/${topicSlug}`;
 
@@ -383,7 +407,7 @@ async function generate() {
                 const isMatch = subjects.some(s => {
                     const examSub = s.toLowerCase();
                     // Direct match
-                    if (examSub === qSub || qSub.includes(examSub)) return true;
+                    if (examSub === qSub || (qSub.includes(examSub) && !(examSub === 'science' && qSub.includes('social science')))) return true;
                     // Group match (e.g., if exam has "Social Science" and question is "History")
                     const group = SUBJECT_GROUPS[s];
                     if (group && group.some(sub => sub.toLowerCase() === qSub)) return true;
@@ -432,17 +456,47 @@ async function generate() {
                     questionDb[qUrlNoSlash] = { ...q, canonicalExam: questionCanonicalMap[q.slug] };
                     
                     // Track Topic Density for Phase 3 Programmatic Collection Creation
-                    if (isCanonical && q.subject && q.topic) {
-                        const targetUrl = `/${examSlug}/${slugify(q.subject)}/${slugify(q.topic)}`;
-                        if (!topicQuestionCounts[targetUrl]) {
-                            topicQuestionCounts[targetUrl] = {
-                                topicName: q.topic,
-                                examSlug: examSlug,
-                                formattedExam: formattedExam,
-                                count: 0
-                            };
-                        }
-                        topicQuestionCounts[targetUrl].count++;
+                    const matchedSubject = subjects.find(s => {
+                        const examSub = s.toLowerCase();
+                        if (examSub === qSub || (qSub.includes(examSub) && !(examSub === 'science' && qSub.includes('social science')))) return true;
+                        const group = SUBJECT_GROUPS[s];
+                        if (group && group.some(sub => sub.toLowerCase() === qSub)) return true;
+                        return false;
+                    }) || subjects[0];
+
+                    const topicList = SYLLABUS_DATA[matchedSubject] || [];
+                    const matchedSyllabusTopic = q.topic ? topicList.find(t => {
+                          const tName = typeof t === 'string' ? t : t.topic;
+                          const qTopicClean = (q.topic || '').toLowerCase().replace(/\[.*?\]\s*/g, '').replace(/[^a-z0-9]/g, '');
+                          const sTopicClean = tName.toLowerCase().replace(/\[.*?\]\s*/g, '').replace(/[^a-z0-9]/g, '');
+                          return qTopicClean === sTopicClean;
+                      }) : null;
+
+                     if (q.subject && matchedSyllabusTopic) {
+                         const topicName = typeof matchedSyllabusTopic === 'string' ? matchedSyllabusTopic : matchedSyllabusTopic.topic;
+                         const topicClass = typeof matchedSyllabusTopic === 'string' ? '' : matchedSyllabusTopic.class;
+
+                         // Filter match by class context to avoid wrong class collections
+                         if (topicClass) {
+                             const examClassNum = examSlug.replace('class-', '');
+                             const isJeeNeet = examSlug === 'jee-mains' || examSlug === 'jee-advanced' || examSlug === 'neet';
+                             if (isJeeNeet) {
+                                 if (topicClass !== '11' && topicClass !== '12') return;
+                             } else {
+                                 if (topicClass !== examClassNum) return;
+                             }
+                         }
+
+                         const targetUrl = `/${examSlug}/${slugify(matchedSubject)}/${slugify(topicName)}`;
+                         if (!topicQuestionCounts[targetUrl]) {
+                             topicQuestionCounts[targetUrl] = {
+                                 topicName: topicName,
+                                 examSlug: examSlug,
+                                 formattedExam: formattedExam,
+                                 count: 0
+                             };
+                         }
+                         topicQuestionCounts[targetUrl].count++;
                     }
                 }
             });
@@ -453,7 +507,7 @@ async function generate() {
         // ============================================
         let collectionsCreated = 0;
         Object.entries(topicQuestionCounts).forEach(([topicUrl, data]) => {
-            if (data.count >= 20) {
+            if (data.count >= 1) {
                 // Fix: Detect doubled slugs (e.g. /physics/physics) and collapse them
                 const urlParts = topicUrl.split('/').filter(Boolean);
                 let normalizedUrl = topicUrl;
@@ -480,6 +534,36 @@ async function generate() {
             }
         });
         console.log(`✅ Phase 3: Generated ${collectionsCreated} Programmatic PYQ Collections.`);
+
+        // Normalize all meta descriptions to be strictly between 120 and 160 characters
+        const formatDescription = (desc) => {
+            if (!desc) desc = "";
+            desc = desc.trim();
+            if (desc.length < 120) {
+                const suffix = " Access free chapter-wise revision notes, NTA PYQs, and calibrated AI mock tests on Exam Compass.";
+                desc = (desc + suffix).substring(0, 157);
+                if (desc.length < 120) {
+                    desc = desc.padEnd(120, '.');
+                }
+            } else if (desc.length > 160) {
+                desc = desc.substring(0, 157) + "...";
+            }
+            return desc;
+        };
+
+        Object.keys(manifest).forEach(url => {
+            if (manifest[url]) {
+                if (manifest[url].title) {
+                    manifest[url].title = manifest[url].title.replace(/"/g, "'");
+                }
+                if (manifest[url].description) {
+                    manifest[url].description = formatDescription(manifest[url].description).replace(/"/g, "'");
+                }
+                if (manifest[url].h1) {
+                    manifest[url].h1 = manifest[url].h1.replace(/"/g, "'");
+                }
+            }
+        });
 
         const urls = Object.keys(manifest);
         if (urls.length === 0) throw new Error("Manifest empty");

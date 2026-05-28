@@ -4,7 +4,7 @@ title: "Poverty as a Challenge Class 9 Social Science Recap — Grandmaster Guid
 description: "Poverty as a Challenge Class 9 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-17."
 category: "Exam Notes"
 date: "2026-05-17"
-practice_link: "/class-9/social-science/poverty-as-a-challenge"
+practice_link: "/practice/poverty-as-a-challenge-class-9-notes"
 manualReview: false
 ---
 
@@ -415,7 +415,7 @@ Poverty is a complex challenge that requires a multi-faceted approach including 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-9/social-science/poverty-as-a-challenge) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/poverty-as-a-challenge-class-9-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

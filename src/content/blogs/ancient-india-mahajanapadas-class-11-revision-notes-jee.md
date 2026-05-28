@@ -4,7 +4,7 @@ title: "Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Grandma
 description: "Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
-practice_link: "/class-11/mathematics/ancient-india-mahajanapadas-class-11-revision-notes-jee"
+practice_link: "/practice/ancient-india-mahajanapadas-class-11-revision-notes-jee"
 ---
 
 *Last Updated: May 20, 2026*
@@ -94,7 +94,7 @@ Continue your [revision](/blog/ray-optics-class-12-quick-class-12-revision-notes
 - 📖 [Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog/geomorphology-class-11-revision-notes-cbse)
 - 📖 [Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/fundamental-rights-class-11-revision-notes-cbse)
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/ancient-[india](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse)-mahajanapadas-class-11-revision-notes-jee) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/ancient-india-mahajanapadas-class-11-revision-notes-jee) now and track your progress against thousands of students.
 ## 📚 Related Topics
 Continue your [revision](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) with these related guides:
 - 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)

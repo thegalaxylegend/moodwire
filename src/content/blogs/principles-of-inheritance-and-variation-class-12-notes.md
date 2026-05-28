@@ -116,7 +116,7 @@ D) A monohybrid cross involves two parents, while a dihybrid cross involves one 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/principles-of-[inheritance](/blog/molecular-basis-of-inheritance-class-12-notes)-and-variation-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/principles-of-inheritance-and-variation-class-12-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Principles](/blog/biotechnology-principles-and-processes-class-12-notes)%20Of%20Inheritance%20And%20Variation%20Class%2012%20Exam%20Prep%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

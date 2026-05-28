@@ -33,22 +33,22 @@ const DashboardLayout = lazy(() => import('./layouts/DashboardLayout').then(modu
 const AdminLayout = lazy(() => import('./layouts/AdminLayout').then(module => ({ default: module.AdminLayout })));
 
 // Public Pages
-const LandingPage = lazy(() => import('./pages/LandingPage').then(module => ({ default: module.LandingPage })));
-const ExamLanding = lazy(() => import('./pages/public/ExamLanding').then(module => ({ default: module.ExamLanding })));
-const SubjectPage = lazy(() => import('./pages/public/SubjectPage').then(module => ({ default: module.SubjectPage })));
-const TopicPage = lazy(() => import('./pages/public/TopicPage').then(module => ({ default: module.TopicPage })));
-const PyqCollectionPage = lazy(() => import('./pages/public/PyqCollectionPage').then(module => ({ default: module.PyqCollectionPage })));
-const QuestionPage = lazy(() => import('./pages/public/QuestionPage').then(module => ({ default: module.QuestionPage })));
-const BlogIndex = lazy(() => import('./pages/blog/BlogIndex').then(module => ({ default: module.BlogIndex })));
-const BlogPostPage = lazy(() => import('./pages/blog/BlogPostPage').then(module => ({ default: module.BlogPostPage })));
-const PrivacyPolicy = lazy(() => import('./pages/public/PrivacyPolicy').then(module => ({ default: module.PrivacyPolicy })));
-const TermsOfService = lazy(() => import('./pages/public/TermsOfService').then(module => ({ default: module.TermsOfService })));
-const AboutPage = lazy(() => import('./pages/public/AboutPage').then(module => ({ default: module.AboutPage })));
-const ContactPage = lazy(() => import('./pages/public/ContactPage').then(module => ({ default: module.ContactPage })));
-const FounderPage = lazy(() => import('./pages/public/FounderPage'));
-const ParentReport = lazy(() => import('./pages/public/ParentReport').then(module => ({ default: module.ParentReport })));
-const DownloadPage = lazy(() => import('./pages/public/DownloadPage').then(module => ({ default: module.DownloadPage })));
-const NotFoundPage = lazy(() => import('./pages/public/NotFoundPage').then(module => ({ default: module.NotFoundPage })));
+import { LandingPage } from './pages/LandingPage';
+import { ExamLanding } from './pages/public/ExamLanding';
+import { SubjectPage } from './pages/public/SubjectPage';
+import { TopicPage } from './pages/public/TopicPage';
+import { PyqCollectionPage } from './pages/public/PyqCollectionPage';
+import { QuestionPage } from './pages/public/QuestionPage';
+import { BlogIndex } from './pages/blog/BlogIndex';
+import { BlogPostPage } from './pages/blog/BlogPostPage';
+import { PrivacyPolicy } from './pages/public/PrivacyPolicy';
+import { TermsOfService } from './pages/public/TermsOfService';
+import { AboutPage } from './pages/public/AboutPage';
+import { ContactPage } from './pages/public/ContactPage';
+import FounderPage from './pages/public/FounderPage';
+import { ParentReport } from './pages/public/ParentReport';
+import { DownloadPage } from './pages/public/DownloadPage';
+import { NotFoundPage } from './pages/public/NotFoundPage';
 
 // Auth
 const Login = lazy(() => import('./pages/auth/Login').then(module => ({ default: module.Login })));
@@ -94,7 +94,7 @@ const Chatbot = lazy(() => import('./components/Chatbot').then(module => ({ defa
 const LevelUpModal = lazy(() => import('./components/gamification/LevelUpModal').then(module => ({ default: module.LevelUpModal })));
 const PWAInstall = lazy(() => import('./components/PWAInstall').then(module => ({ default: module.PWAInstall })));
 
-const isServer = typeof window === 'undefined';
+const isServer = typeof window === 'undefined' || (typeof window !== 'undefined' && (window as any).__PRERENDER__);
 
 const DelayedGlobalComponents = () => {
   const [show, setShow] = useState(false);
@@ -135,7 +135,7 @@ const FloatingUI = () => {
 
 const RootRoute = () => {
     const { isAuthenticated, isLoading, user, authResolved } = useUserStore();
-    const isServer = typeof window === 'undefined';
+    const isServer = typeof window === 'undefined' || (typeof window !== 'undefined' && (window as any).__PRERENDER__);
     
     // Show loading spinner until auth state is resolved
     if (!isServer && (!authResolved || isLoading)) {
@@ -195,6 +195,7 @@ function AppContent() {
             <Route path="/login" element={<Suspense fallback={<GlobalLoading />}><Login /></Suspense>} />
             <Route path="/blog" element={<Suspense fallback={<BlogSkeleton />}><BlogIndex /></Suspense>} />
             <Route path="/blog/:slug" element={<Suspense fallback={<BlogSkeleton />}><BlogPostPage /></Suspense>} />
+            <Route path="/practice/*" element={<Navigate to="/dashboard/mock" replace />} />
             <Route path="/privacy" element={<Suspense fallback={<BlogSkeleton />}><PrivacyPolicy /></Suspense>} />
             <Route path="/terms" element={<Suspense fallback={<BlogSkeleton />}><TermsOfService /></Suspense>} />
             <Route path="/about" element={<Suspense fallback={<BlogSkeleton />}><AboutPage /></Suspense>} />

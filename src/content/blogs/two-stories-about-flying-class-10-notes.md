@@ -4,7 +4,7 @@ title: "Two Stories about Flying Class 10 English Recap — Grandmaster Guide"
 description: "Two Stories about Flying Class 10 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-08."
 category: "Exam Notes"
 date: "2026-05-08"
-practice_link: "/class-10/english/two-stories-about-flying"
+practice_link: "/practice/two-stories-about-flying-class-10-notes"
 manualReview: false
 ---
 
@@ -411,7 +411,7 @@ This technique will help you quickly and accurately identify the tone of a story
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/english/two-stories-about-flying) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/two-stories-about-flying-class-10-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Two%20Stories%20about%20Flying%20Class%2010%20English%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

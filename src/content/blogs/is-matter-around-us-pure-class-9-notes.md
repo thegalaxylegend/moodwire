@@ -4,7 +4,7 @@ title: "Is Matter Around Us Pure Class 9 Science Recap — Grandmaster Guide"
 description: "Is Matter Around Us Pure Class 9 Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-12."
 category: "Exam Notes"
 date: "2026-05-12"
-practice_link: "/class-9/science/is-matter-around-us-pure"
+practice_link: "/practice/is-matter-around-us-pure-class-9-notes"
 manualReview: false
 ---
 
@@ -374,7 +374,7 @@ Solution
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-9/science/is-[matter](/blog/matter-in-our-surroundings-class-9-notes)-around-us-pure) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/is-matter-around-us-pure-class-9-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

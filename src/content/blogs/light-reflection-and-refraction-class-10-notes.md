@@ -124,7 +124,7 @@ D) 1/f = (μ - 1)(1/R₁ + 1/R₂)
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/[light](/blog/physics-heat-light-class-11-revision-notes-jee-neet)-reflection-and-refraction-class-10-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/light-reflection-and-refraction-class-10-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=[Light](/blog/physics-heat-light-class-11-revision-notes-jee-neet)%20%E2%80%93%20Reflection%20and%20Refraction%20Class%2010%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

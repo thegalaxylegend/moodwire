@@ -4,7 +4,7 @@ title: "Outcomes of Democracy Class 10 Social Science Recap — Grandmaster Guid
 description: "Outcomes of Democracy Class 10 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-06."
 category: "Exam Notes"
 date: "2026-05-06"
-practice_link: "/class-10/social-science/outcomes-of-democracy"
+practice_link: "/practice/outcomes-of-democracy-class-10-notes"
 manualReview: false
 ---
 
@@ -1566,7 +1566,7 @@ Democracy's ultimate success is measured by its ability to uphold human dignity 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/social-science/outcomes-of-democracy) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/outcomes-of-democracy-class-10-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

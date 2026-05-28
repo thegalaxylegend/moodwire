@@ -4,7 +4,7 @@ title: "Reported Speech Class 10 English Recap — Grandmaster Guide"
 description: "Reported Speech Class 10 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-12."
 category: "Exam Notes"
 date: "2026-05-12"
-practice_link: "/class-10/english/reported-speech"
+practice_link: "/practice/reported-speech-class-10-notes"
 manualReview: false
 ---
 
@@ -425,7 +425,7 @@ If you answered **"She said that she would attend the meeting."**: you are in th
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/english/reported-speech) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/reported-speech-class-10-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

@@ -4,7 +4,7 @@ title: "The French Revolution Class 9 Social Science Recap — Grandmaster Guide
 description: "The French Revolution Class 9 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-15."
 category: "Exam Notes"
 date: "2026-05-15"
-practice_link: "/class-9/social-science/the-french-revolution"
+practice_link: "/practice/the-french-revolution-class-9-notes"
 manualReview: false
 ---
 
@@ -455,7 +455,7 @@ The French Revolution is a critical chapter in the Class 9 Social Science syllab
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-9/social-science/the-french-revolution) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/the-french-revolution-class-9-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

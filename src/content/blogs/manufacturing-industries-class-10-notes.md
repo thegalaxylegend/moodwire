@@ -4,7 +4,7 @@ title: "Manufacturing Industries Class 10 Social Science Recap — Grandmaster G
 description: "Manufacturing Industries Class 10 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-05."
 category: "Exam Notes"
 date: "2026-05-05"
-practice_link: "/class-10/social-science/manufacturing-industries"
+practice_link: "/practice/manufacturing-industries-class-10-notes"
 manualReview: false
 ---
 
@@ -1479,7 +1479,7 @@ Sustainable industrial development is crucial, balancing economic growth with en
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/social-science/manufacturing-industries) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/manufacturing-industries-class-10-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

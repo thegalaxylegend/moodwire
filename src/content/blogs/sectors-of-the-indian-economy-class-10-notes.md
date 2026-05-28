@@ -4,7 +4,7 @@ title: "Sectors of the Indian Economy Class 10 Social Science Recap — Grandmas
 description: "Sectors of the Indian Economy Class 10 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-06."
 category: "Exam Notes"
 date: "2026-05-06"
-practice_link: "/class-10/social-science/sectors-of-the-indian-economy"
+practice_link: "/practice/sectors-of-the-indian-economy-class-10-notes"
 manualReview: false
 ---
 
@@ -1411,7 +1411,7 @@ India's economy shows a structural mismatch where the Tertiary sector dominates 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/social-science/sectors-of-the-indian-economy) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/sectors-of-the-indian-economy-class-10-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Sectors%20of%20the%20Indian%20Economy%20Class%2010%20Social%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

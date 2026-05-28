@@ -4,7 +4,7 @@ title: "The Fun They Had Class 9 English Recap — Grandmaster Guide"
 description: "The Fun They Had Class 9 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-20."
 category: "Exam Notes"
 date: "2026-05-20"
-practice_link: "/class-9/english/the-fun-they-had"
+practice_link: "/practice/the-fun-they-had-class-9-notes"
 manualReview: false
 ---
 
@@ -390,7 +390,7 @@ The story "The Fun They Had" by **Isaac Asimov** revolves around a **future soci
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-9/english/the-fun-they-had) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/the-fun-they-had-class-9-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

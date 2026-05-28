@@ -4,7 +4,7 @@ title: "Human Eye and Colourful World Class 10 Science Recap — Grandmaster Gui
 description: "Human Eye and Colourful World Class 10 Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-28."
 category: "Exam Notes"
 date: "2026-04-28"
-practice_link: "/class-10/science/human-eye-and-colourful-world"
+practice_link: "/practice/human-eye-and-colourful-world-class-10-notes"
 manualReview: false
 ---
 
@@ -404,7 +404,7 @@ The lens formula $f = \frac{1}{v}
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/science/human-eye-and-colourful-[world](/blog/the-making-of-a-global-world-class-10-notes)) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/human-eye-and-colourful-world-class-10-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

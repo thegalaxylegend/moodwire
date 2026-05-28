@@ -4,7 +4,7 @@ title: "Madam Rides the Bus Class 10 English Recap — Grandmaster Guide"
 description: "Madam Rides the Bus Class 10 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-09."
 category: "Exam Notes"
 date: "2026-05-09"
-practice_link: "/class-10/english/madam-rides-the-bus"
+practice_link: "/practice/madam-rides-the-bus-class-10-notes"
 manualReview: false
 ---
 
@@ -389,7 +389,7 @@ D) The importance of family
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/english/madam-rides-the-bus) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/madam-rides-the-bus-class-10-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Madam%20Rides%20the%20Bus%20Class%2010%20English%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

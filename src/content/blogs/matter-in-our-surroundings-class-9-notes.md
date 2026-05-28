@@ -4,7 +4,7 @@ title: "Matter in Our Surroundings Class 9 Science Recap — Grandmaster Guide"
 description: "Matter in Our Surroundings Class 9 Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-12."
 category: "Exam Notes"
 date: "2026-05-12"
-practice_link: "/class-9/science/matter-in-our-surroundings"
+practice_link: "/practice/matter-in-our-surroundings-class-9-notes"
 manualReview: false
 ---
 
@@ -430,7 +430,7 @@ C. What is the percentage increase in its temperature in Kelvin?**
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-9/science/matter-in-our-surroundings) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/matter-in-our-surroundings-class-9-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Matter%20in%20Our%20Surroundings%20Class%209%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

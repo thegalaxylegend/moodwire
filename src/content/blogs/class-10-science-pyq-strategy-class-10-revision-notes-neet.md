@@ -4,7 +4,7 @@ title: "Science Pyq Strategy Class 10 Exam Prep Revision — CBSE 2026 Grandmast
 description: "Science Pyq Strategy Class 10 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
-practice_link: "/class-11/biology/class-10-science-pyq-strategy-class-10-revision-notes-neet"
+practice_link: "/practice/class-10-science-pyq-strategy-class-10-revision-notes-neet"
 ---
 
 *Last Updated: May 20, [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)*
@@ -127,7 +127,7 @@ Continue your [revision](/blog/jee-mains-high-weightage-chapters-class-11-revisi
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/class-10-science-pyq-strategy-class-10-revision-notes-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/class-10-science-pyq-strategy-class-10-revision-notes-neet) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Science%20Pyq%20Strategy%20Class%2010%20Exam%20Prep%20Revision%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

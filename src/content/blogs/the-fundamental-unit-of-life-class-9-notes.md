@@ -4,7 +4,7 @@ title: "The Fundamental Unit of Life Class 9 Science Recap — Grandmaster Guide
 description: "The Fundamental Unit of Life Class 9 Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-13."
 category: "Exam Notes"
 date: "2026-05-13"
-practice_link: "/class-9/science/the-fundamental-unit-of-life"
+practice_link: "/practice/the-fundamental-unit-of-life-class-9-notes"
 manualReview: false
 ---
 
@@ -381,7 +381,7 @@ Cells are the **fundamental units of life** and all living organisms are compose
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-9/science/the-fundamental-unit-of-life) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/the-fundamental-unit-of-life-class-9-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

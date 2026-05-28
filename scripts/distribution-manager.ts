@@ -26,8 +26,11 @@ const STUBS_TO_GENERATE = Number(args.stubs || 1000);
 const REPORT_ONLY = 'report-only' in args;
 
 // ─── Helper ───────────────────────────────────────────────────────
+// Session nonce: unique per run, ensures fresh stub hashes every time
+const SESSION_NONCE = Date.now().toString(36);
+
 function makeHash(text: string, extras: string[]): string {
-  const norm = (text + extras.join('')).toLowerCase().replace(/\s+/g, '');
+  const norm = (text + extras.join('') + SESSION_NONCE).toLowerCase().replace(/\s+/g, '');
   return crypto.createHash('sha256').update(norm).digest('hex').slice(0, 16);
 }
 
@@ -142,7 +145,8 @@ function analyzeGaps(counts: Map<string, number>): TopicGap[] {
 
 // ─── Generate stubs for topics with gaps ─────────────────────────
 function generateStubs(gaps: TopicGap[], count: number): RawQuestion[] {
-  // Load existing hashes to avoid duplicates
+  // existingHashes: only tracks hashes already in THIS session's cache file
+  // (session nonce makes each run produce unique hashes, so processed_hashes.json won't block new stubs)
   const existingHashes = new Set<string>();
   if (fs.existsSync(CACHE_FILE)) {
     for (const line of fs.readFileSync(CACHE_FILE, 'utf-8').split('\n').filter(Boolean)) {

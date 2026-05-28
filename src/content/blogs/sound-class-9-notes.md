@@ -4,7 +4,7 @@ title: "Sound Class 9 Science Recap — Grandmaster Guide"
 description: "Sound Class 9 Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-14."
 category: "Exam Notes"
 date: "2026-05-14"
-practice_link: "/class-9/science/sound"
+practice_link: "/practice/sound-class-9-notes"
 manualReview: false
 ---
 
@@ -463,7 +463,7 @@ Recalling that sound requires a medium to travel and understanding the basics of
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-9/science/sound) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/sound-class-9-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

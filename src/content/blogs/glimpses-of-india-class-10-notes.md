@@ -4,7 +4,7 @@ title: "Glimpses of India Class 10 English Recap — Grandmaster Guide"
 description: "Glimpses of India Class 10 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-09."
 category: "Exam Notes"
 date: "2026-05-09"
-practice_link: "/class-10/english/glimpses-of-india"
+practice_link: "/practice/glimpses-of-india-class-10-notes"
 manualReview: false
 ---
 
@@ -438,7 +438,7 @@ d) It indicates that the chapter is not relevant to the study of India
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/english/glimpses-of-india) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/glimpses-of-india-class-10-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Glimpses%20of%20India%20Class%2010%20English%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

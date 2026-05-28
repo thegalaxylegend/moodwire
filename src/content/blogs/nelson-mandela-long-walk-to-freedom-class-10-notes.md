@@ -4,7 +4,7 @@ title: "Nelson Mandela: Long Walk to Freedom Class 10 English Recap — Grandmas
 description: "Nelson Mandela: Long Walk to Freedom Class 10 English Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-08."
 category: "Exam Notes"
 date: "2026-05-08"
-practice_link: "/class-10/english/nelson-mandela-long-walk-to-freedom"
+practice_link: "/practice/nelson-mandela-long-walk-to-freedom-class-10-notes"
 manualReview: false
 ---
 
@@ -401,7 +401,7 @@ Nelson Mandela's life was a testament to the power of perseverance and forgivene
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/english/nelson-mandela-long-walk-to-freedom) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/nelson-mandela-long-walk-to-freedom-class-10-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Nelson%20Mandela%3A%20Long%20Walk%20to%20Freedom%20Class%2010%20English%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

@@ -4,7 +4,7 @@ title: "Statistics Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "Statistics Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
-practice_link: "/class-11/mathematics/statistics-class-11-revision-notes-jee"
+practice_link: "/practice/statistics-class-11-revision-notes-jee"
 ---
 
 *Last Updated: May 20, 2026*
@@ -163,7 +163,7 @@ Continue your [revision](/blog/limits-derivatives-class-11-revision-notes-jee-ne
 - 📖 [Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-class-11-revision-notes-jee)
 ---
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/statistics-class-11-revision-notes-jee) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/statistics-class-11-revision-notes-jee) now and track your progress against thousands of students.
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Statistics%20Class%2011%20Mathematics%20Revision%20%E2%80%94%20JEE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 ---
 ## 📚 Related Topics

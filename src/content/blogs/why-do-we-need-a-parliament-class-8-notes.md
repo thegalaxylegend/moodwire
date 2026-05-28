@@ -4,7 +4,7 @@ title: "Why Do We Need a Parliament? Class 8 Social Science Recap — Grandmaste
 description: "Why Do We Need a Parliament? Class 8 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-18."
 category: "Exam Notes"
 date: "2026-05-18"
-practice_link: "/class-8/social-science/why-do-we-need-a-parliament"
+practice_link: "/practice/why-do-we-need-a-parliament-class-8-notes"
 manualReview: false
 ---
 
@@ -420,7 +420,7 @@ The **Parliament** is the highest law-making body in a country and is composed o
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-8/social-science/why-do-we-need-a-parliament) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/why-do-we-need-a-parliament-class-8-notes) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Why%20Do%20We%20Need%20a%20Parliament%3F%20Class%208%20Social%20Science%20Recap%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

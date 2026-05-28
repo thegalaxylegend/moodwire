@@ -122,7 +122,7 @@ D) π
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/application-of-[integrals](/blog/integrals-class-12-notes)-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/application-of-integrals-class-12-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

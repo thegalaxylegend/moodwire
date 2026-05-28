@@ -4,7 +4,7 @@ title: "Thermodynamics Class 11 Physics Revision — JEE & NEET 2026 Grandmaster
 description: "Thermodynamics Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
-practice_link: "/class-11/biology/thermodynamics-class-11-revision-notes-neet"
+practice_link: "/practice/thermodynamics-class-11-revision-notes-neet"
 ---
 
 *Last Updated: May 20, 2026*
@@ -172,7 +172,7 @@ Continue your [revision](/blog/current-electricity-class-11-revision-notes-neet)
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/thermodynamics-class-11-revision-notes-neet) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/thermodynamics-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Thermodynamics%20Class%2011%20Physics%20Revision%20%E2%80%94%20JEE%20%26%20NEET%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

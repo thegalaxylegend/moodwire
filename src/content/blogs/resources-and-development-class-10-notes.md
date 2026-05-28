@@ -4,7 +4,7 @@ title: "Resources and Development Class 10 Social Science Recap — Grandmaster 
 description: "Resources and Development Class 10 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-01."
 category: "Exam Notes"
 date: "2026-05-01"
-practice_link: "/class-10/social-science/resources-and-development"
+practice_link: "/practice/resources-and-development-class-10-notes"
 manualReview: false
 ---
 
@@ -752,7 +752,7 @@ a. What is the maximum value of $IY$ that can be used in the HDI formula?**
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/social-science/resources-and-development) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/resources-and-development-class-10-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

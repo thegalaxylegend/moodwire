@@ -123,7 +123,7 @@ D) 2 bits per sample
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/communication-[systems](/blog/operating-systems-class-12-notes)-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/communication-systems-class-12-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

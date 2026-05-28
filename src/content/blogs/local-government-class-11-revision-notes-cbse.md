@@ -4,7 +4,7 @@ title: "local government class 11 revision notes cbse Class 11 Exam Notes Revisi
 description: "local government class 11 revision notes cbse Class 11 Exam Notes Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-05-06."
 category: "Exam Notes"
 date: "2026-05-06"
-practice_link: "/class-11/exam notes/local-government-class-11-revision-notes-cbse"
+practice_link: "/practice/local-government-class-11-revision-notes-cbse"
 manualReview: false
 ---
 
@@ -1328,7 +1328,7 @@ C) is tasked with consolidating plans from Panchayats and Municipalities. If the
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/exam notes/local-government-class-11-revision-notes-cbse) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/local-government-class-11-revision-notes-cbse) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=local%20government%20class%2011%20revision%20notes%20cbse%20Class%2011%20Exam%20Notes%20Revision%20%E2%80%94%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

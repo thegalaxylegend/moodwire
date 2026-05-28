@@ -4,7 +4,7 @@ title: "Water Resources Class 10 Social Science Recap — Grandmaster Guide"
 description: "Water Resources Class 10 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-05-01."
 category: "Exam Notes"
 date: "2026-05-01"
-practice_link: "/class-10/social-science/water-resources"
+practice_link: "/practice/water-resources-class-10-notes"
 manualReview: false
 ---
 
@@ -378,7 +378,7 @@ water is a scarce resource that needs to be conserved and managed sustainably to
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/social-science/water-[resources](/blog/resources-and-development-class-10-notes)) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/water-resources-class-10-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 

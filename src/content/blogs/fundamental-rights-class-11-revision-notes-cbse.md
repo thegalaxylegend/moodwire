@@ -4,7 +4,7 @@ title: "Fundamental Rights Class 11 Political Science Recap — CBSE 2026 Grandm
 description: "Fundamental Rights Class 11 Political Science Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
-practice_link: "/class-11/fundamental-rights-class-11-revision-notes-cbse"
+practice_link: "/practice/fundamental-rights-class-11-revision-notes-cbse"
 ---
 
 *Last Updated: May 20, 2026*
@@ -108,7 +108,7 @@ Continue your [revision](/blog/ancient-india-indus-valley-class-11-revision-note
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/fundamental-rights-class-11-revision-notes-cbse) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/fundamental-rights-class-11-revision-notes-cbse) now and track your progress against thousands of students.
 
 > 🎬 **[Watch video explanations on YouTube →](https://www.youtube.com/results?search_query=Fundamental%20Rights%20Class%2011%20Political%20Science%20Recap%20%E2%80%94%20CBSE%202026%20Grandmaster%20Guide%20JEE%20NEET%20revision)**
 

@@ -64,7 +64,7 @@ export const LandingPage = () => {
     
     // Performance detection
     const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
-    const isServer = typeof window === 'undefined';
+    const isServer = typeof window === 'undefined' || (typeof window !== 'undefined' && (window as any).__PRERENDER__);
 
     useEffect(() => {
         // CRITICAL SEO FIX: Only redirect to dashboard when:

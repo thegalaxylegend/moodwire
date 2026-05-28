@@ -32,7 +32,6 @@ export const TopicPage = () => {
     const { exam, subject, topic } = useParams();
     const { user } = useUserStore();
     const { tier } = usePerformance();
-    const isLow = tier === 'low';
 
     // Data Finding Logic
     const realSubject = Object.keys(SYLLABUS_DB).find(k => slugify(k) === subject);
@@ -97,6 +96,11 @@ export const TopicPage = () => {
 
                         // 2. Filter out Practice Question placeholders
                         if (q.title === "Practice Question" || q.slug?.includes("practice-question-")) return false;
+
+                        if (!q.topic) return false;
+
+                        const expectedQUrl = `/${exam}/q/${q.slug}`;
+                        if (!db[expectedQUrl]) return false;
 
                         const qTopic = (q.topic || '').toLowerCase().replace(/[^a-z0-9]/g, '');
                         const pTopic = topicData.topic.toLowerCase().replace(/[^a-z0-9]/g, '');
@@ -235,7 +239,7 @@ export const TopicPage = () => {
             <Navbar />
 
             <motion.main 
-                initial={isLow ? {} : { opacity: 0, y: 20 }}
+                initial={false}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
                 className="pt-20 md:pt-28 pb-10 px-6 max-w-7xl mx-auto will-change-transform"
@@ -247,7 +251,7 @@ export const TopicPage = () => {
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
                     <motion.div
-                        initial={isLow ? {} : { opacity: 0, x: -20 }}
+                        initial={false}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: 0.2, duration: 0.8 }}
                     >
@@ -285,7 +289,7 @@ export const TopicPage = () => {
                     </motion.div>
                     
                     <motion.div
-                        initial={isLow ? {} : { opacity: 0, x: 20 }}
+                        initial={false}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: 0.4, duration: 0.8 }}
                     >
@@ -494,15 +498,26 @@ export const TopicPage = () => {
                     <aside>
                         <h2 className="text-xl font-bold mb-6 text-purple-300">Related {realSubject} Chapters</h2>
                         <div className="space-y-3">
-                            {topicList.filter(t => t.topic !== topicData?.topic).slice(0, 8).map((t, idx) => (
-                                <Link
-                                    key={idx}
-                                    to={`/${exam}/${subject}/${slugify(t.topic)}`}
-                                    className="block p-3 rounded-lg bg-white/5 border border-white/5 hover:border-white/20 hover:bg-white/10 transition-colors text-sm text-gray-300 hover:text-white"
-                                >
-                                    {t.topic.replace(/\[.*?\]\s*/g, '')}
-                                </Link>
-                            ))}
+                            {topicList
+                                .filter(t => {
+                                    if (t.topic === topicData?.topic) return false;
+                                    const topicClassNum = t.class.replace(/Class\s*/i, '').trim(); // e.g. "10", "11", "12", "9", "8"
+                                    if (exam === 'jee-mains' || exam === 'jee-advanced' || exam === 'neet') {
+                                        return topicClassNum === '11' || topicClassNum === '12';
+                                    }
+                                    const examClassNum = exam?.replace('class-', '');
+                                    return topicClassNum === examClassNum;
+                                })
+                                .slice(0, 8)
+                                .map((t, idx) => (
+                                    <Link
+                                        key={idx}
+                                        to={`/${exam}/${subject}/${slugify(t.topic)}`}
+                                        className="block p-3 rounded-lg bg-white/5 border border-white/5 hover:border-white/20 hover:bg-white/10 transition-colors text-sm text-gray-300 hover:text-white"
+                                    >
+                                        {t.topic.replace(/\[.*?\]\s*/g, '')}
+                                    </Link>
+                                ))}
                             <Link
                                 to={`/${exam}/${subject}`}
                                 className="block p-3 rounded-lg border border-purple-500/20 text-center text-purple-400 font-bold hover:bg-purple-500/10 transition-colors text-sm mt-4"

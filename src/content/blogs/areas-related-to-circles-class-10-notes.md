@@ -117,7 +117,7 @@ D) 924 cm²
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/areas-related-to-[circles](/blog/circles-class-10-notes)-class-10-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/areas-related-to-circles-class-10-notes) now and track your progress against thousands of students.
 
 ## 📚 Academic References
 
