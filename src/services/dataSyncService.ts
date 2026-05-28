@@ -1,5 +1,5 @@
 import { db } from '../lib/firebase';
-import { collection, query, where, getDocs, doc, runTransaction, serverTimestamp, writeBatch } from 'firebase/firestore';
+import { collection, query, where, getDocs, doc, runTransaction, serverTimestamp, writeBatch, limit, orderBy } from 'firebase/firestore';
 import { getCurrentSeasonKey } from './leaderboardService';
 import { batchUpdateTopicStrength } from './topicStrengthService';
 
@@ -22,7 +22,9 @@ export const syncHistoricalScoresToLeaderboard = async (userId: string, userProf
         // 1. Fetch all mock attempts for THIS user in THIS season
         const mockQ = query(
             collection(db, 'mock_attempts'),
-            where('user_id', '==', userId)
+            where('user_id', '==', userId),
+            orderBy('timestamp', 'desc'),
+            limit(200)
         );
 
         const mockSnap = await getDocs(mockQ);
@@ -134,7 +136,7 @@ export const syncSyllabusFromMocks = async (userId: string) => {
 
     console.log(`[SyncService] Starting deep syllabus sync for ${userId}...`);
     try {
-        const mockQ = query(collection(db, 'mock_attempts'), where('user_id', '==', userId));
+        const mockQ = query(collection(db, 'mock_attempts'), where('user_id', '==', userId), orderBy('timestamp', 'desc'), limit(200));
         const mockSnap = await getDocs(mockQ);
 
         if (mockSnap.empty) return;
@@ -174,7 +176,7 @@ export const syncTopicStatsFromMocks = async (userId: string, userClass?: string
 
     console.log(`[SyncService] Starting deep AI Profile (Topic Stats) sync for ${userId}...`);
     try {
-        const mockQ = query(collection(db, 'mock_attempts'), where('user_id', '==', userId));
+        const mockQ = query(collection(db, 'mock_attempts'), where('user_id', '==', userId), orderBy('timestamp', 'desc'), limit(200));
         const mockSnap = await getDocs(mockQ);
 
         if (mockSnap.empty) {

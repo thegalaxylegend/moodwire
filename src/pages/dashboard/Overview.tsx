@@ -162,10 +162,10 @@ export const Overview = () => {
 
             // Refresh counts, progress, AND AI Stats
             const { db } = await import('../../lib/firebase');
-            const { collection, query, where, getDocs } = await import('firebase/firestore');
+            const { collection, query, where, getCountFromServer } = await import('firebase/firestore');
             const qMock = query(collection(db, 'mock_attempts'), where('user_id', '==', user.id));
-            const snapshotMock = await getDocs(qMock);
-            setAttempts(snapshotMock.size);
+            const snapshotMock = await getCountFromServer(qMock);
+            setAttempts(snapshotMock.data().count);
 
             // Re-fetch centralized syllabus progress
             await fetchSyllabusProgress();
@@ -484,9 +484,9 @@ export const Overview = () => {
                 let cloudMocks: any[] = [];
                 if (!user.isGuest) {
                     const { db } = await import('../../lib/firebase');
-                    const { collection, query, where, getDocs } = await import('firebase/firestore');
+                    const { collection, query, where, getDocs, orderBy, limit } = await import('firebase/firestore');
                     const mockColl = collection(db, 'mock_attempts');
-                    const qMock = query(mockColl, where('user_id', '==', user.id));
+                    const qMock = query(mockColl, where('user_id', '==', user.id), orderBy('timestamp', 'desc'), limit(100));
                     const snapshotMock = await getDocs(qMock);
                     cloudMocks = snapshotMock.docs.map(d => ({ ...d.data(), source: 'cloud' }));
                 }

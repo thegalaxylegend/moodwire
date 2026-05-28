@@ -4,126 +4,280 @@
             "collectionGroup": "engine_questions",
             "queryScope": "COLLECTION",
             "fields": [
-                { "fieldPath": "exam", "order": "ASCENDING" },
-                { "fieldPath": "topic_id", "order": "ASCENDING" },
-                { "fieldPath": "difficulty_score", "order": "ASCENDING" }
+                {
+                    "fieldPath": "exam",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "topic_id",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "difficulty_score",
+                    "order": "ASCENDING"
+                }
             ]
         },
         {
             "collectionGroup": "engine_questions",
             "queryScope": "COLLECTION",
             "fields": [
-                { "fieldPath": "exam", "order": "ASCENDING" },
-                { "fieldPath": "topic_id", "order": "ASCENDING" },
-                { "fieldPath": "difficulty_score", "order": "ASCENDING" },
-                { "fieldPath": "confidence", "order": "ASCENDING" }
+                {
+                    "fieldPath": "exam",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "topic_id",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "difficulty_score",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "confidence",
+                    "order": "ASCENDING"
+                }
             ]
         },
         {
             "collectionGroup": "engine_questions",
             "queryScope": "COLLECTION",
             "fields": [
-                { "fieldPath": "topic", "order": "ASCENDING" },
-                { "fieldPath": "exam", "order": "ASCENDING" },
-                { "fieldPath": "usage_count", "order": "ASCENDING" }
+                {
+                    "fieldPath": "topic",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "exam",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "usage_count",
+                    "order": "ASCENDING"
+                }
             ]
         },
         {
             "collectionGroup": "engine_questions",
             "queryScope": "COLLECTION",
             "fields": [
-                { "fieldPath": "exam", "order": "ASCENDING" },
-                { "fieldPath": "topic", "order": "ASCENDING" },
-                { "fieldPath": "difficulty_score", "order": "ASCENDING" },
-                { "fieldPath": "usage_count", "order": "ASCENDING" }
+                {
+                    "fieldPath": "exam",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "topic",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "difficulty_score",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "usage_count",
+                    "order": "ASCENDING"
+                }
             ]
         },
         {
             "collectionGroup": "engine_questions",
             "queryScope": "COLLECTION",
             "fields": [
-                { "fieldPath": "exam", "order": "ASCENDING" },
-                { "fieldPath": "subject", "order": "ASCENDING" },
-                { "fieldPath": "difficulty_score", "order": "ASCENDING" },
-                { "fieldPath": "usage_count", "order": "ASCENDING" }
+                {
+                    "fieldPath": "exam",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "subject",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "difficulty_score",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "usage_count",
+                    "order": "ASCENDING"
+                }
             ]
         },
         {
             "collectionGroup": "user_topic_stats",
             "queryScope": "COLLECTION",
             "fields": [
-                { "fieldPath": "user_id", "order": "ASCENDING" },
-                { "fieldPath": "last_attempt", "order": "DESCENDING" }
+                {
+                    "fieldPath": "user_id",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "last_attempt",
+                    "order": "DESCENDING"
+                }
             ]
         },
         {
             "collectionGroup": "user_topic_stats",
             "queryScope": "COLLECTION",
             "fields": [
-                { "fieldPath": "user_id", "order": "ASCENDING" },
-                { "fieldPath": "topic", "order": "ASCENDING" }
+                {
+                    "fieldPath": "user_id",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "topic",
+                    "order": "ASCENDING"
+                }
             ]
         },
         {
             "collectionGroup": "user_topic_stats",
             "queryScope": "COLLECTION",
             "fields": [
-                { "fieldPath": "user_id", "order": "ASCENDING" },
-                { "fieldPath": "exam", "order": "ASCENDING" },
-                { "fieldPath": "weakness_score", "order": "DESCENDING" }
+                {
+                    "fieldPath": "user_id",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "exam",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "weakness_score",
+                    "order": "DESCENDING"
+                }
             ]
         },
         {
             "collectionGroup": "diagnostic_results",
             "queryScope": "COLLECTION",
             "fields": [
-                { "fieldPath": "user_id", "order": "ASCENDING" },
-                { "fieldPath": "class", "order": "ASCENDING" },
-                { "fieldPath": "exam", "order": "ASCENDING" }
+                {
+                    "fieldPath": "user_id",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "class",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "exam",
+                    "order": "ASCENDING"
+                }
             ]
         },
         {
             "collectionGroup": "syllabus",
             "queryScope": "COLLECTION",
             "fields": [
-                { "fieldPath": "user_id", "order": "ASCENDING" },
-                { "fieldPath": "is_completed", "order": "ASCENDING" }
+                {
+                    "fieldPath": "user_id",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "is_completed",
+                    "order": "ASCENDING"
+                }
             ]
         },
         {
             "collectionGroup": "saved_lectures",
             "queryScope": "COLLECTION",
             "fields": [
-                { "fieldPath": "user_id", "order": "ASCENDING" },
-                { "fieldPath": "saved_at", "order": "DESCENDING" }
+                {
+                    "fieldPath": "user_id",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "saved_at",
+                    "order": "DESCENDING"
+                }
             ]
         },
         {
             "collectionGroup": "saved_lectures",
             "queryScope": "COLLECTION",
             "fields": [
-                { "fieldPath": "user_id", "order": "ASCENDING" },
-                { "fieldPath": "user_class", "order": "ASCENDING" },
-                { "fieldPath": "target_exam", "order": "ASCENDING" },
-                { "fieldPath": "saved_at", "order": "DESCENDING" }
+                {
+                    "fieldPath": "user_id",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "user_class",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "target_exam",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "saved_at",
+                    "order": "DESCENDING"
+                }
             ]
         },
         {
             "collectionGroup": "video_progress",
             "queryScope": "COLLECTION",
             "fields": [
-                { "fieldPath": "user_id", "order": "ASCENDING" },
-                { "fieldPath": "user_class", "order": "ASCENDING" },
-                { "fieldPath": "target_exam", "order": "ASCENDING" }
+                {
+                    "fieldPath": "user_id",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "user_class",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "target_exam",
+                    "order": "ASCENDING"
+                }
             ]
         },
         {
             "collectionGroup": "review_cards",
             "queryScope": "COLLECTION",
             "fields": [
-                { "fieldPath": "user_id", "order": "ASCENDING" },
-                { "fieldPath": "is_resolved", "order": "ASCENDING" },
-                { "fieldPath": "next_review", "order": "ASCENDING" }
+                {
+                    "fieldPath": "user_id",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "is_resolved",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "next_review",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "engine_questions",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "topic",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "difficulty_score",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "mock_attempts",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "user_id",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "timestamp",
+                    "order": "DESCENDING"
+                }
             ]
         }
     ],

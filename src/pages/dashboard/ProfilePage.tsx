@@ -57,7 +57,7 @@ export const ProfilePage = () => {
         if (!user) return;
 
         const { db } = await import('../../lib/firebase');
-        const { collection, query, where, getDocs } = await import('firebase/firestore');
+        const { collection, query, where, getDocs, orderBy, limit } = await import('firebase/firestore');
 
         let completed = 0;
         let total = 0;
@@ -78,7 +78,7 @@ export const ProfilePage = () => {
         let mockAvg = 0;
         let mockCount = 0;
         try {
-            const mockQuery = query(collection(db, 'mock_attempts'), where('user_id', '==', user.id));
+            const mockQuery = query(collection(db, 'mock_attempts'), where('user_id', '==', user.id), orderBy('timestamp', 'desc'), limit(100));
             const mockSnap = await getDocs(mockQuery);
             const mocks = mockSnap.docs.map(doc => doc.data());
 
