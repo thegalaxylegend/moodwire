@@ -77,7 +77,8 @@ function extractOuterBlock(s: string): string | null {
     }
     // Fallback: unclosed block — take from start to last closer
     const last = s.lastIndexOf(closer);
-    return last > start ? s.slice(start, last + 1) : null;
+    if (last > start) return s.slice(start, last + 1);
+    return s.slice(start);
 }
 
 /** Apply structural repairs to a semi-valid JSON string */
@@ -94,6 +95,31 @@ function repairStructure(s: string): string {
         const map: Record<string, string> = { True: 'true', False: 'false', None: 'null', NaN: 'null', Infinity: '9e99' };
         return map[m] ?? m;
     });
+
+    const trimmed = r.trim();
+    if (trimmed.startsWith('{') || trimmed.startsWith('[')) {
+        let inString = false;
+        let escape = false;
+        let depthBrace = 0;
+        let depthBracket = 0;
+
+        for (let i = 0; i < r.length; i++) {
+            if (r[i] === '"' && !escape) inString = !inString;
+            if (r[i] === '\\' && !escape) escape = true;
+            else escape = false;
+
+            if (!inString) {
+                if (r[i] === '{') depthBrace++;
+                else if (r[i] === '}') depthBrace--;
+                else if (r[i] === '[') depthBracket++;
+                else if (r[i] === ']') depthBracket--;
+            }
+        }
+
+        if (inString) r += '"';
+        for (let i = 0; i < depthBracket; i++) r += ']';
+        for (let i = 0; i < depthBrace; i++) r += '}';
+    }
 
     // ═══════════════════════════════════════════════════════════════════════
     // CRITICAL: Pre-escape known LaTeX/Greek letter sequences BEFORE

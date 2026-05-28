@@ -4,7 +4,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import Groq from 'groq-sdk';
 import 'dotenv/config';
-import { checkBlogQuality, jsonToMarkdown, standardizeMarkdown, BlogPostJSON, QualityReport, Section } from './utils/jules-quality.js';
+import { checkBlogQuality, jsonToMarkdown, standardizeMarkdown, checkFormattingIntegrity, BlogPostJSON, QualityReport, Section } from './utils/jules-quality.js';
 import { godSafeParse } from './utils/god-json.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -96,6 +96,7 @@ async function patchSystem() {
                 newContent += patchMarkdown;
             }
 
+            newContent = checkFormattingIntegrity(newContent);
             fs.writeFileSync(filePath, newContent);
             console.log(`✅ Patched and Updated: ${blog.slug}`);
             
