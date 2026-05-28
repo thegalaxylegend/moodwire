@@ -228,6 +228,7 @@ function AppContent() {
                 <Route index element={<Overview />} />
                 <Route path="diagnostic" element={<DiagnosticTest />} />
                 <Route path="mock" element={<MockGenerator />} />
+                <Route path="mock-test" element={<Navigate to="/dashboard/mock" replace />} />
                 <Route path="study-plan" element={<Suspense fallback={<StudyPlanSkeleton />}><StudyPlan /></Suspense>} />
                 <Route path="lectures" element={<Lectures />} />
                 <Route path="peer-benchmarking" element={<Suspense fallback={<BenchmarkingSkeleton />}><PeerBenchmarking /></Suspense>} />
@@ -247,6 +248,7 @@ function AppContent() {
                 <Route path="arena" element={<Suspense fallback={<ArenaSkeleton />}><Arena /></Suspense>} />
                 <Route path="arena/group" element={<GroupBattle />} />
                 <Route path="arena/group/:sessionId" element={<GroupBattle />} />
+                <Route path="*" element={<Navigate to="/dashboard" replace />} />
               </Route>
             </Route>
 

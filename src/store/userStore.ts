@@ -153,9 +153,9 @@ let classChangeInProgress = false;
 export const useUserStore = create<UserState>((set, get) => ({
     user: localUser,
     isAuthenticated: !!localUser,
-    isLoading: typeof window !== 'undefined' && !localUser, // Only load if no cache
+    isLoading: false, // Don't block UI for auth state resolution. We rely on optimistic UI and fast redirects.
     isInitialized: !!localUser, // Initialized if cache exists
-    authResolved: false, // Wait for Firebase Auth SDK to fully establish session
+    authResolved: !localUser, // If we don't have a local cache, treat auth as resolved (unauthenticated) immediately to enable < 300ms redirects.
 
     initialize: async () => {
         if (isAuthListenerAttached) return;
