@@ -3116,6 +3116,17 @@
     "robots": "index, follow",
     "sitemapGroup": "core"
   },
+  "/jee-mains/physics/physical-world": {
+    "title": "Physical World PYQs | JEE MAINS",
+    "description": "Study Physical World from Physics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
+    "h1": "Physical World",
+    "type": "topic",
+    "subject": "Physics",
+    "exam": "jee-mains",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
   "/jee-mains/physics/units-and-measurements": {
     "title": "Units and Measurements PYQs | JEE MAINS",
     "description": "Study Units and Measurements from Physics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
@@ -3171,10 +3182,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-mains/physics/rotational-motion": {
-    "title": "Rotational Motion PYQs | JEE MAINS",
-    "description": "Study Rotational Motion from Physics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
-    "h1": "Rotational Motion",
+  "/jee-mains/physics/system-of-particles-and-rotational-motion": {
+    "title": "System of Particles and Rotation... PYQs | JEE MAINS",
+    "description": "Study System of Particles and Rotational Motion from Physics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
+    "h1": "System of Particles and Rotational Motion",
     "type": "topic",
     "subject": "Physics",
     "exam": "jee-mains",
@@ -3270,10 +3281,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-mains/physics/physical-world": {
-    "title": "Physical World PYQs | JEE MAINS",
-    "description": "Study Physical World from Physics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
-    "h1": "Physical World",
+  "/jee-mains/physics/electric-charges-and-fields": {
+    "title": "Electric Charges and Fields PYQs | JEE MAINS",
+    "description": "Study Electric Charges and Fields from Physics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
+    "h1": "Electric Charges and Fields",
     "type": "topic",
     "subject": "Physics",
     "exam": "jee-mains",
@@ -3281,10 +3292,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-mains/physics/electrostatics": {
-    "title": "Electrostatics PYQs | JEE MAINS",
-    "description": "Study Electrostatics from Physics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
-    "h1": "Electrostatics",
+  "/jee-mains/physics/electrostatic-potential-and-capacitance": {
+    "title": "Electrostatic Potential and Capa... PYQs | JEE MAINS",
+    "description": "Study Electrostatic Potential and Capacitance from Physics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
+    "h1": "Electrostatic Potential and Capacitance",
     "type": "topic",
     "subject": "Physics",
     "exam": "jee-mains",
@@ -3303,10 +3314,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-mains/physics/magnetic-effects-of-current": {
-    "title": "Magnetic Effects of Current PYQs | JEE MAINS",
-    "description": "Study Magnetic Effects of Current from Physics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
-    "h1": "Magnetic Effects of Current",
+  "/jee-mains/physics/moving-charges-and-magnetism": {
+    "title": "Moving Charges and Magnetism PYQs | JEE MAINS",
+    "description": "Study Moving Charges and Magnetism from Physics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
+    "h1": "Moving Charges and Magnetism",
     "type": "topic",
     "subject": "Physics",
     "exam": "jee-mains",
@@ -3358,10 +3369,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-mains/physics/ray-optics": {
-    "title": "Ray Optics PYQs | JEE MAINS",
-    "description": "Study Ray Optics from Physics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
-    "h1": "Ray Optics",
+  "/jee-mains/physics/ray-optics-and-optical-instruments": {
+    "title": "Ray Optics and Optical Instruments PYQs | JEE MAINS",
+    "description": "Study Ray Optics and Optical Instruments from Physics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
+    "h1": "Ray Optics and Optical Instruments",
     "type": "topic",
     "subject": "Physics",
     "exam": "jee-mains",
@@ -3380,10 +3391,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-mains/physics/dual-nature-of-radiation": {
-    "title": "Dual Nature of Radiation PYQs | JEE MAINS",
-    "description": "Study Dual Nature of Radiation from Physics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
-    "h1": "Dual Nature of Radiation",
+  "/jee-mains/physics/dual-nature-of-radiation-and-matter": {
+    "title": "Dual Nature of Radiation and Matter PYQs | JEE MAINS",
+    "description": "Study Dual Nature of Radiation and Matter from Physics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
+    "h1": "Dual Nature of Radiation and Matter",
     "type": "topic",
     "subject": "Physics",
     "exam": "jee-mains",
@@ -3466,10 +3477,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-mains/chemistry/classification-of-elements": {
-    "title": "Classification of Elements PYQs | JEE MAINS",
-    "description": "Study Classification of Elements from Chemistry for your JEE MAINS preparation. Practice questions and AI roadmaps.",
-    "h1": "Classification of Elements",
+  "/jee-mains/chemistry/classification-of-elements-and-periodicity": {
+    "title": "Classification of Elements and P... PYQs | JEE MAINS",
+    "description": "Study Classification of Elements and Periodicity from Chemistry for your JEE MAINS preparation. Practice questions and AI roadmaps.",
+    "h1": "Classification of Elements and Periodicity",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "jee-mains",
@@ -3477,10 +3488,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-mains/chemistry/chemical-bonding": {
-    "title": "Chemical Bonding PYQs | JEE MAINS",
-    "description": "Study Chemical Bonding from Chemistry for your JEE MAINS preparation. Practice questions and AI roadmaps.",
-    "h1": "Chemical Bonding",
+  "/jee-mains/chemistry/chemical-bonding-and-molecular-structure": {
+    "title": "Chemical Bonding and Molecular S... PYQs | JEE MAINS",
+    "description": "Study Chemical Bonding and Molecular Structure from Chemistry for your JEE MAINS preparation. Practice questions and AI roadmaps.",
+    "h1": "Chemical Bonding and Molecular Structure",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "jee-mains",
@@ -3554,10 +3565,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-mains/chemistry/the-p-block-elements-11": {
-    "title": "The P-Block Elements (11) PYQs | JEE MAINS",
-    "description": "Study The P-Block Elements (11) from Chemistry for your JEE MAINS preparation. Practice questions and AI roadmaps.",
-    "h1": "The P-Block Elements (11)",
+  "/jee-mains/chemistry/the-p-block-elements-group-13-14": {
+    "title": "The P-Block Elements (Group 13 &... PYQs | JEE MAINS",
+    "description": "Study The P-Block Elements (Group 13 & 14) from Chemistry for your JEE MAINS preparation. Practice questions and AI roadmaps.",
+    "h1": "The P-Block Elements (Group 13 & 14)",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "jee-mains",
@@ -3565,10 +3576,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-mains/chemistry/organic-chemistry-basic-principles": {
-    "title": "Organic Chemistry: Basic Principles PYQs | JEE MAINS",
-    "description": "Study Organic Chemistry: Basic Principles from Chemistry for your JEE MAINS preparation. Practice questions and AI roadmaps.",
-    "h1": "Organic Chemistry: Basic Principles",
+  "/jee-mains/chemistry/organic-chemistry-basic-principles-techniques": {
+    "title": "Organic Chemistry: Basic Princip... PYQs | JEE MAINS",
+    "description": "Study Organic Chemistry: Basic Principles & Techniques from Chemistry for your JEE MAINS preparation. Practice questions and AI roadmaps.",
+    "h1": "Organic Chemistry: Basic Principles & Techniques",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "jee-mains",
@@ -3653,10 +3664,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-mains/chemistry/metallurgy": {
-    "title": "Metallurgy PYQs | JEE MAINS",
-    "description": "Study Metallurgy from Chemistry for your JEE MAINS preparation. Practice questions and AI roadmaps.",
-    "h1": "Metallurgy",
+  "/jee-mains/chemistry/general-principles-and-processes-of-isolation-of-elements": {
+    "title": "General Principles and Processes... PYQs | JEE MAINS",
+    "description": "Study General Principles and Processes of Isolation of Elements from Chemistry for your JEE MAINS preparation. Practice questions and AI roadmaps.",
+    "h1": "General Principles and Processes of Isolation of Elements",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "jee-mains",
@@ -3664,10 +3675,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-mains/chemistry/the-p-block-elements-12": {
-    "title": "The P-Block Elements (12) PYQs | JEE MAINS",
-    "description": "Study The P-Block Elements (12) from Chemistry for your JEE MAINS preparation. Practice questions and AI roadmaps.",
-    "h1": "The P-Block Elements (12)",
+  "/jee-mains/chemistry/the-p-block-elements-group-15-18": {
+    "title": "The P-Block Elements (Group 15-18) PYQs | JEE MAINS",
+    "description": "Study The P-Block Elements (Group 15-18) from Chemistry for your JEE MAINS preparation. Practice questions and AI roadmaps.",
+    "h1": "The P-Block Elements (Group 15-18)",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "jee-mains",
@@ -4124,10 +4135,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-mains/mathematics/pair-of-linear-equations": {
-    "title": "Pair of Linear Equations PYQs | JEE MAINS",
-    "description": "Study Pair of Linear Equations from Mathematics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
-    "h1": "Pair of Linear Equations",
+  "/jee-mains/mathematics/pair-of-linear-equations-in-two-variables": {
+    "title": "Pair of Linear Equations in Two ... PYQs | JEE MAINS",
+    "description": "Study Pair of Linear Equations in Two Variables from Mathematics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
+    "h1": "Pair of Linear Equations in Two Variables",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "jee-mains",
@@ -4190,10 +4201,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-mains/mathematics/applications-of-trigonometry": {
-    "title": "Applications of Trigonometry PYQs | JEE MAINS",
-    "description": "Study Applications of Trigonometry from Mathematics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
-    "h1": "Applications of Trigonometry",
+  "/jee-mains/mathematics/applications-of-trigonometry-heights-and-distances": {
+    "title": "Applications of Trigonometry (He... PYQs | JEE MAINS",
+    "description": "Study Applications of Trigonometry (Heights and Distances) from Mathematics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
+    "h1": "Applications of Trigonometry (Heights and Distances)",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "jee-mains",
@@ -4322,6 +4333,17 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
+  "/jee-mains/mathematics/practical-geometry": {
+    "title": "Practical Geometry PYQs | JEE MAINS",
+    "description": "Study Practical Geometry from Mathematics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
+    "h1": "Practical Geometry",
+    "type": "topic",
+    "subject": "Mathematics",
+    "exam": "jee-mains",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
   "/jee-mains/mathematics/data-handling": {
     "title": "Data Handling PYQs | JEE MAINS",
     "description": "Study Data Handling from Mathematics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
@@ -4366,10 +4388,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-mains/mathematics/algebraic-expressions": {
-    "title": "Algebraic Expressions PYQs | JEE MAINS",
-    "description": "Study Algebraic Expressions from Mathematics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
-    "h1": "Algebraic Expressions",
+  "/jee-mains/mathematics/algebraic-expressions-and-identities": {
+    "title": "Algebraic Expressions and Identi... PYQs | JEE MAINS",
+    "description": "Study Algebraic Expressions and Identities from Mathematics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
+    "h1": "Algebraic Expressions and Identities",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "jee-mains",
@@ -4403,6 +4425,28 @@
     "title": "Factorisation PYQs | JEE MAINS",
     "description": "Study Factorisation from Mathematics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
     "h1": "Factorisation",
+    "type": "topic",
+    "subject": "Mathematics",
+    "exam": "jee-mains",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
+  "/jee-mains/mathematics/introduction-to-graphs": {
+    "title": "Introduction to Graphs PYQs | JEE MAINS",
+    "description": "Study Introduction to Graphs from Mathematics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
+    "h1": "Introduction to Graphs",
+    "type": "topic",
+    "subject": "Mathematics",
+    "exam": "jee-mains",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
+  "/jee-mains/mathematics/playing-with-numbers": {
+    "title": "Playing with Numbers PYQs | JEE MAINS",
+    "description": "Study Playing with Numbers from Mathematics for your JEE MAINS preparation. Practice questions and AI roadmaps.",
+    "h1": "Playing with Numbers",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "jee-mains",
@@ -13294,6 +13338,17 @@
     "robots": "index, follow",
     "sitemapGroup": "core"
   },
+  "/jee-advanced/physics/physical-world": {
+    "title": "Physical World PYQs | JEE ADVANCED",
+    "description": "Study Physical World from Physics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
+    "h1": "Physical World",
+    "type": "topic",
+    "subject": "Physics",
+    "exam": "jee-advanced",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
   "/jee-advanced/physics/units-and-measurements": {
     "title": "Units and Measurements PYQs | JEE ADVANCED",
     "description": "Study Units and Measurements from Physics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
@@ -13349,10 +13404,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-advanced/physics/rotational-motion": {
-    "title": "Rotational Motion PYQs | JEE ADVANCED",
-    "description": "Study Rotational Motion from Physics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
-    "h1": "Rotational Motion",
+  "/jee-advanced/physics/system-of-particles-and-rotational-motion": {
+    "title": "System of Particles and Rotation... PYQs | JEE ADVANCED",
+    "description": "Study System of Particles and Rotational Motion from Physics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
+    "h1": "System of Particles and Rotational Motion",
     "type": "topic",
     "subject": "Physics",
     "exam": "jee-advanced",
@@ -13448,10 +13503,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-advanced/physics/physical-world": {
-    "title": "Physical World PYQs | JEE ADVANCED",
-    "description": "Study Physical World from Physics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
-    "h1": "Physical World",
+  "/jee-advanced/physics/electric-charges-and-fields": {
+    "title": "Electric Charges and Fields PYQs | JEE ADVANCED",
+    "description": "Study Electric Charges and Fields from Physics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
+    "h1": "Electric Charges and Fields",
     "type": "topic",
     "subject": "Physics",
     "exam": "jee-advanced",
@@ -13459,10 +13514,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-advanced/physics/electrostatics": {
-    "title": "Electrostatics PYQs | JEE ADVANCED",
-    "description": "Study Electrostatics from Physics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
-    "h1": "Electrostatics",
+  "/jee-advanced/physics/electrostatic-potential-and-capacitance": {
+    "title": "Electrostatic Potential and Capa... PYQs | JEE ADVANCED",
+    "description": "Study Electrostatic Potential and Capacitance from Physics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
+    "h1": "Electrostatic Potential and Capacitance",
     "type": "topic",
     "subject": "Physics",
     "exam": "jee-advanced",
@@ -13481,10 +13536,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-advanced/physics/magnetic-effects-of-current": {
-    "title": "Magnetic Effects of Current PYQs | JEE ADVANCED",
-    "description": "Study Magnetic Effects of Current from Physics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
-    "h1": "Magnetic Effects of Current",
+  "/jee-advanced/physics/moving-charges-and-magnetism": {
+    "title": "Moving Charges and Magnetism PYQs | JEE ADVANCED",
+    "description": "Study Moving Charges and Magnetism from Physics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
+    "h1": "Moving Charges and Magnetism",
     "type": "topic",
     "subject": "Physics",
     "exam": "jee-advanced",
@@ -13536,10 +13591,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-advanced/physics/ray-optics": {
-    "title": "Ray Optics PYQs | JEE ADVANCED",
-    "description": "Study Ray Optics from Physics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
-    "h1": "Ray Optics",
+  "/jee-advanced/physics/ray-optics-and-optical-instruments": {
+    "title": "Ray Optics and Optical Instruments PYQs | JEE ADVANCED",
+    "description": "Study Ray Optics and Optical Instruments from Physics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
+    "h1": "Ray Optics and Optical Instruments",
     "type": "topic",
     "subject": "Physics",
     "exam": "jee-advanced",
@@ -13558,10 +13613,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-advanced/physics/dual-nature-of-radiation": {
-    "title": "Dual Nature of Radiation PYQs | JEE ADVANCED",
-    "description": "Study Dual Nature of Radiation from Physics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
-    "h1": "Dual Nature of Radiation",
+  "/jee-advanced/physics/dual-nature-of-radiation-and-matter": {
+    "title": "Dual Nature of Radiation and Matter PYQs | JEE ADVANCED",
+    "description": "Study Dual Nature of Radiation and Matter from Physics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
+    "h1": "Dual Nature of Radiation and Matter",
     "type": "topic",
     "subject": "Physics",
     "exam": "jee-advanced",
@@ -13644,10 +13699,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-advanced/chemistry/classification-of-elements": {
-    "title": "Classification of Elements PYQs | JEE ADVANCED",
-    "description": "Study Classification of Elements from Chemistry for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
-    "h1": "Classification of Elements",
+  "/jee-advanced/chemistry/classification-of-elements-and-periodicity": {
+    "title": "Classification of Elements and P... PYQs | JEE ADVANCED",
+    "description": "Study Classification of Elements and Periodicity from Chemistry for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
+    "h1": "Classification of Elements and Periodicity",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "jee-advanced",
@@ -13655,10 +13710,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-advanced/chemistry/chemical-bonding": {
-    "title": "Chemical Bonding PYQs | JEE ADVANCED",
-    "description": "Study Chemical Bonding from Chemistry for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
-    "h1": "Chemical Bonding",
+  "/jee-advanced/chemistry/chemical-bonding-and-molecular-structure": {
+    "title": "Chemical Bonding and Molecular S... PYQs | JEE ADVANCED",
+    "description": "Study Chemical Bonding and Molecular Structure from Chemistry for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
+    "h1": "Chemical Bonding and Molecular Structure",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "jee-advanced",
@@ -13732,10 +13787,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-advanced/chemistry/the-p-block-elements-11": {
-    "title": "The P-Block Elements (11) PYQs | JEE ADVANCED",
-    "description": "Study The P-Block Elements (11) from Chemistry for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
-    "h1": "The P-Block Elements (11)",
+  "/jee-advanced/chemistry/the-p-block-elements-group-13-14": {
+    "title": "The P-Block Elements (Group 13 &... PYQs | JEE ADVANCED",
+    "description": "Study The P-Block Elements (Group 13 & 14) from Chemistry for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
+    "h1": "The P-Block Elements (Group 13 & 14)",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "jee-advanced",
@@ -13743,10 +13798,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-advanced/chemistry/organic-chemistry-basic-principles": {
-    "title": "Organic Chemistry: Basic Principles PYQs | JEE ADVANCED",
-    "description": "Study Organic Chemistry: Basic Principles from Chemistry for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
-    "h1": "Organic Chemistry: Basic Principles",
+  "/jee-advanced/chemistry/organic-chemistry-basic-principles-techniques": {
+    "title": "Organic Chemistry: Basic Princip... PYQs | JEE ADVANCED",
+    "description": "Study Organic Chemistry: Basic Principles & Techniques from Chemistry for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
+    "h1": "Organic Chemistry: Basic Principles & Techniques",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "jee-advanced",
@@ -13831,10 +13886,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-advanced/chemistry/metallurgy": {
-    "title": "Metallurgy PYQs | JEE ADVANCED",
-    "description": "Study Metallurgy from Chemistry for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
-    "h1": "Metallurgy",
+  "/jee-advanced/chemistry/general-principles-and-processes-of-isolation-of-elements": {
+    "title": "General Principles and Processes... PYQs | JEE ADVANCED",
+    "description": "Study General Principles and Processes of Isolation of Elements from Chemistry for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
+    "h1": "General Principles and Processes of Isolation of Elements",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "jee-advanced",
@@ -13842,10 +13897,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-advanced/chemistry/the-p-block-elements-12": {
-    "title": "The P-Block Elements (12) PYQs | JEE ADVANCED",
-    "description": "Study The P-Block Elements (12) from Chemistry for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
-    "h1": "The P-Block Elements (12)",
+  "/jee-advanced/chemistry/the-p-block-elements-group-15-18": {
+    "title": "The P-Block Elements (Group 15-18) PYQs | JEE ADVANCED",
+    "description": "Study The P-Block Elements (Group 15-18) from Chemistry for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
+    "h1": "The P-Block Elements (Group 15-18)",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "jee-advanced",
@@ -14302,10 +14357,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-advanced/mathematics/pair-of-linear-equations": {
-    "title": "Pair of Linear Equations PYQs | JEE ADVANCED",
-    "description": "Study Pair of Linear Equations from Mathematics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
-    "h1": "Pair of Linear Equations",
+  "/jee-advanced/mathematics/pair-of-linear-equations-in-two-variables": {
+    "title": "Pair of Linear Equations in Two ... PYQs | JEE ADVANCED",
+    "description": "Study Pair of Linear Equations in Two Variables from Mathematics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
+    "h1": "Pair of Linear Equations in Two Variables",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "jee-advanced",
@@ -14368,10 +14423,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-advanced/mathematics/applications-of-trigonometry": {
-    "title": "Applications of Trigonometry PYQs | JEE ADVANCED",
-    "description": "Study Applications of Trigonometry from Mathematics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
-    "h1": "Applications of Trigonometry",
+  "/jee-advanced/mathematics/applications-of-trigonometry-heights-and-distances": {
+    "title": "Applications of Trigonometry (He... PYQs | JEE ADVANCED",
+    "description": "Study Applications of Trigonometry (Heights and Distances) from Mathematics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
+    "h1": "Applications of Trigonometry (Heights and Distances)",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "jee-advanced",
@@ -14500,6 +14555,17 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
+  "/jee-advanced/mathematics/practical-geometry": {
+    "title": "Practical Geometry PYQs | JEE ADVANCED",
+    "description": "Study Practical Geometry from Mathematics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
+    "h1": "Practical Geometry",
+    "type": "topic",
+    "subject": "Mathematics",
+    "exam": "jee-advanced",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
   "/jee-advanced/mathematics/data-handling": {
     "title": "Data Handling PYQs | JEE ADVANCED",
     "description": "Study Data Handling from Mathematics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
@@ -14544,10 +14610,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/jee-advanced/mathematics/algebraic-expressions": {
-    "title": "Algebraic Expressions PYQs | JEE ADVANCED",
-    "description": "Study Algebraic Expressions from Mathematics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
-    "h1": "Algebraic Expressions",
+  "/jee-advanced/mathematics/algebraic-expressions-and-identities": {
+    "title": "Algebraic Expressions and Identi... PYQs | JEE ADVANCED",
+    "description": "Study Algebraic Expressions and Identities from Mathematics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
+    "h1": "Algebraic Expressions and Identities",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "jee-advanced",
@@ -14581,6 +14647,28 @@
     "title": "Factorisation PYQs | JEE ADVANCED",
     "description": "Study Factorisation from Mathematics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
     "h1": "Factorisation",
+    "type": "topic",
+    "subject": "Mathematics",
+    "exam": "jee-advanced",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
+  "/jee-advanced/mathematics/introduction-to-graphs": {
+    "title": "Introduction to Graphs PYQs | JEE ADVANCED",
+    "description": "Study Introduction to Graphs from Mathematics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
+    "h1": "Introduction to Graphs",
+    "type": "topic",
+    "subject": "Mathematics",
+    "exam": "jee-advanced",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
+  "/jee-advanced/mathematics/playing-with-numbers": {
+    "title": "Playing with Numbers PYQs | JEE ADVANCED",
+    "description": "Study Playing with Numbers from Mathematics for your JEE ADVANCED preparation. Practice questions and AI roadmaps.",
+    "h1": "Playing with Numbers",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "jee-advanced",
@@ -23472,6 +23560,17 @@
     "robots": "index, follow",
     "sitemapGroup": "core"
   },
+  "/neet/physics/physical-world": {
+    "title": "Physical World PYQs | NEET",
+    "description": "Study Physical World from Physics for your NEET preparation. Practice questions and AI roadmaps.",
+    "h1": "Physical World",
+    "type": "topic",
+    "subject": "Physics",
+    "exam": "neet",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
   "/neet/physics/units-and-measurements": {
     "title": "Units and Measurements PYQs | NEET",
     "description": "Study Units and Measurements from Physics for your NEET preparation. Practice questions and AI roadmaps.",
@@ -23527,10 +23626,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/neet/physics/rotational-motion": {
-    "title": "Rotational Motion PYQs | NEET",
-    "description": "Study Rotational Motion from Physics for your NEET preparation. Practice questions and AI roadmaps.",
-    "h1": "Rotational Motion",
+  "/neet/physics/system-of-particles-and-rotational-motion": {
+    "title": "System of Particles and Rotation... PYQs | NEET",
+    "description": "Study System of Particles and Rotational Motion from Physics for your NEET preparation. Practice questions and AI roadmaps.",
+    "h1": "System of Particles and Rotational Motion",
     "type": "topic",
     "subject": "Physics",
     "exam": "neet",
@@ -23626,10 +23725,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/neet/physics/physical-world": {
-    "title": "Physical World PYQs | NEET",
-    "description": "Study Physical World from Physics for your NEET preparation. Practice questions and AI roadmaps.",
-    "h1": "Physical World",
+  "/neet/physics/electric-charges-and-fields": {
+    "title": "Electric Charges and Fields PYQs | NEET",
+    "description": "Study Electric Charges and Fields from Physics for your NEET preparation. Practice questions and AI roadmaps.",
+    "h1": "Electric Charges and Fields",
     "type": "topic",
     "subject": "Physics",
     "exam": "neet",
@@ -23637,10 +23736,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/neet/physics/electrostatics": {
-    "title": "Electrostatics PYQs | NEET",
-    "description": "Study Electrostatics from Physics for your NEET preparation. Practice questions and AI roadmaps.",
-    "h1": "Electrostatics",
+  "/neet/physics/electrostatic-potential-and-capacitance": {
+    "title": "Electrostatic Potential and Capa... PYQs | NEET",
+    "description": "Study Electrostatic Potential and Capacitance from Physics for your NEET preparation. Practice questions and AI roadmaps.",
+    "h1": "Electrostatic Potential and Capacitance",
     "type": "topic",
     "subject": "Physics",
     "exam": "neet",
@@ -23659,10 +23758,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/neet/physics/magnetic-effects-of-current": {
-    "title": "Magnetic Effects of Current PYQs | NEET",
-    "description": "Study Magnetic Effects of Current from Physics for your NEET preparation. Practice questions and AI roadmaps.",
-    "h1": "Magnetic Effects of Current",
+  "/neet/physics/moving-charges-and-magnetism": {
+    "title": "Moving Charges and Magnetism PYQs | NEET",
+    "description": "Study Moving Charges and Magnetism from Physics for your NEET preparation. Practice questions and AI roadmaps.",
+    "h1": "Moving Charges and Magnetism",
     "type": "topic",
     "subject": "Physics",
     "exam": "neet",
@@ -23714,10 +23813,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/neet/physics/ray-optics": {
-    "title": "Ray Optics PYQs | NEET",
-    "description": "Study Ray Optics from Physics for your NEET preparation. Practice questions and AI roadmaps.",
-    "h1": "Ray Optics",
+  "/neet/physics/ray-optics-and-optical-instruments": {
+    "title": "Ray Optics and Optical Instruments PYQs | NEET",
+    "description": "Study Ray Optics and Optical Instruments from Physics for your NEET preparation. Practice questions and AI roadmaps.",
+    "h1": "Ray Optics and Optical Instruments",
     "type": "topic",
     "subject": "Physics",
     "exam": "neet",
@@ -23736,10 +23835,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/neet/physics/dual-nature-of-radiation": {
-    "title": "Dual Nature of Radiation PYQs | NEET",
-    "description": "Study Dual Nature of Radiation from Physics for your NEET preparation. Practice questions and AI roadmaps.",
-    "h1": "Dual Nature of Radiation",
+  "/neet/physics/dual-nature-of-radiation-and-matter": {
+    "title": "Dual Nature of Radiation and Matter PYQs | NEET",
+    "description": "Study Dual Nature of Radiation and Matter from Physics for your NEET preparation. Practice questions and AI roadmaps.",
+    "h1": "Dual Nature of Radiation and Matter",
     "type": "topic",
     "subject": "Physics",
     "exam": "neet",
@@ -23822,10 +23921,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/neet/chemistry/classification-of-elements": {
-    "title": "Classification of Elements PYQs | NEET",
-    "description": "Study Classification of Elements from Chemistry for your NEET preparation. Practice questions and AI roadmaps.",
-    "h1": "Classification of Elements",
+  "/neet/chemistry/classification-of-elements-and-periodicity": {
+    "title": "Classification of Elements and P... PYQs | NEET",
+    "description": "Study Classification of Elements and Periodicity from Chemistry for your NEET preparation. Practice questions and AI roadmaps.",
+    "h1": "Classification of Elements and Periodicity",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "neet",
@@ -23833,10 +23932,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/neet/chemistry/chemical-bonding": {
-    "title": "Chemical Bonding PYQs | NEET",
-    "description": "Study Chemical Bonding from Chemistry for your NEET preparation. Practice questions and AI roadmaps.",
-    "h1": "Chemical Bonding",
+  "/neet/chemistry/chemical-bonding-and-molecular-structure": {
+    "title": "Chemical Bonding and Molecular S... PYQs | NEET",
+    "description": "Study Chemical Bonding and Molecular Structure from Chemistry for your NEET preparation. Practice questions and AI roadmaps.",
+    "h1": "Chemical Bonding and Molecular Structure",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "neet",
@@ -23910,10 +24009,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/neet/chemistry/the-p-block-elements-11": {
-    "title": "The P-Block Elements (11) PYQs | NEET",
-    "description": "Study The P-Block Elements (11) from Chemistry for your NEET preparation. Practice questions and AI roadmaps.",
-    "h1": "The P-Block Elements (11)",
+  "/neet/chemistry/the-p-block-elements-group-13-14": {
+    "title": "The P-Block Elements (Group 13 &... PYQs | NEET",
+    "description": "Study The P-Block Elements (Group 13 & 14) from Chemistry for your NEET preparation. Practice questions and AI roadmaps.",
+    "h1": "The P-Block Elements (Group 13 & 14)",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "neet",
@@ -23921,10 +24020,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/neet/chemistry/organic-chemistry-basic-principles": {
-    "title": "Organic Chemistry: Basic Principles PYQs | NEET",
-    "description": "Study Organic Chemistry: Basic Principles from Chemistry for your NEET preparation. Practice questions and AI roadmaps.",
-    "h1": "Organic Chemistry: Basic Principles",
+  "/neet/chemistry/organic-chemistry-basic-principles-techniques": {
+    "title": "Organic Chemistry: Basic Princip... PYQs | NEET",
+    "description": "Study Organic Chemistry: Basic Principles & Techniques from Chemistry for your NEET preparation. Practice questions and AI roadmaps.",
+    "h1": "Organic Chemistry: Basic Principles & Techniques",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "neet",
@@ -24009,10 +24108,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/neet/chemistry/metallurgy": {
-    "title": "Metallurgy PYQs | NEET",
-    "description": "Study Metallurgy from Chemistry for your NEET preparation. Practice questions and AI roadmaps.",
-    "h1": "Metallurgy",
+  "/neet/chemistry/general-principles-and-processes-of-isolation-of-elements": {
+    "title": "General Principles and Processes... PYQs | NEET",
+    "description": "Study General Principles and Processes of Isolation of Elements from Chemistry for your NEET preparation. Practice questions and AI roadmaps.",
+    "h1": "General Principles and Processes of Isolation of Elements",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "neet",
@@ -24020,10 +24119,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/neet/chemistry/the-p-block-elements-12": {
-    "title": "The P-Block Elements (12) PYQs | NEET",
-    "description": "Study The P-Block Elements (12) from Chemistry for your NEET preparation. Practice questions and AI roadmaps.",
-    "h1": "The P-Block Elements (12)",
+  "/neet/chemistry/the-p-block-elements-group-15-18": {
+    "title": "The P-Block Elements (Group 15-18) PYQs | NEET",
+    "description": "Study The P-Block Elements (Group 15-18) from Chemistry for your NEET preparation. Practice questions and AI roadmaps.",
+    "h1": "The P-Block Elements (Group 15-18)",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "neet",
@@ -31032,6 +31131,17 @@
     "robots": "index, follow",
     "sitemapGroup": "core"
   },
+  "/class-12/physics/physical-world": {
+    "title": "Physical World PYQs | CLASS 12",
+    "description": "Study Physical World from Physics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
+    "h1": "Physical World",
+    "type": "topic",
+    "subject": "Physics",
+    "exam": "class-12",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
   "/class-12/physics/units-and-measurements": {
     "title": "Units and Measurements PYQs | CLASS 12",
     "description": "Study Units and Measurements from Physics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
@@ -31087,10 +31197,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-12/physics/rotational-motion": {
-    "title": "Rotational Motion PYQs | CLASS 12",
-    "description": "Study Rotational Motion from Physics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
-    "h1": "Rotational Motion",
+  "/class-12/physics/system-of-particles-and-rotational-motion": {
+    "title": "System of Particles and Rotation... PYQs | CLASS 12",
+    "description": "Study System of Particles and Rotational Motion from Physics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
+    "h1": "System of Particles and Rotational Motion",
     "type": "topic",
     "subject": "Physics",
     "exam": "class-12",
@@ -31186,10 +31296,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-12/physics/physical-world": {
-    "title": "Physical World PYQs | CLASS 12",
-    "description": "Study Physical World from Physics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
-    "h1": "Physical World",
+  "/class-12/physics/electric-charges-and-fields": {
+    "title": "Electric Charges and Fields PYQs | CLASS 12",
+    "description": "Study Electric Charges and Fields from Physics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
+    "h1": "Electric Charges and Fields",
     "type": "topic",
     "subject": "Physics",
     "exam": "class-12",
@@ -31197,10 +31307,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-12/physics/electrostatics": {
-    "title": "Electrostatics PYQs | CLASS 12",
-    "description": "Study Electrostatics from Physics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
-    "h1": "Electrostatics",
+  "/class-12/physics/electrostatic-potential-and-capacitance": {
+    "title": "Electrostatic Potential and Capa... PYQs | CLASS 12",
+    "description": "Study Electrostatic Potential and Capacitance from Physics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
+    "h1": "Electrostatic Potential and Capacitance",
     "type": "topic",
     "subject": "Physics",
     "exam": "class-12",
@@ -31219,10 +31329,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-12/physics/magnetic-effects-of-current": {
-    "title": "Magnetic Effects of Current PYQs | CLASS 12",
-    "description": "Study Magnetic Effects of Current from Physics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
-    "h1": "Magnetic Effects of Current",
+  "/class-12/physics/moving-charges-and-magnetism": {
+    "title": "Moving Charges and Magnetism PYQs | CLASS 12",
+    "description": "Study Moving Charges and Magnetism from Physics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
+    "h1": "Moving Charges and Magnetism",
     "type": "topic",
     "subject": "Physics",
     "exam": "class-12",
@@ -31274,10 +31384,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-12/physics/ray-optics": {
-    "title": "Ray Optics PYQs | CLASS 12",
-    "description": "Study Ray Optics from Physics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
-    "h1": "Ray Optics",
+  "/class-12/physics/ray-optics-and-optical-instruments": {
+    "title": "Ray Optics and Optical Instruments PYQs | CLASS 12",
+    "description": "Study Ray Optics and Optical Instruments from Physics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
+    "h1": "Ray Optics and Optical Instruments",
     "type": "topic",
     "subject": "Physics",
     "exam": "class-12",
@@ -31296,10 +31406,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-12/physics/dual-nature-of-radiation": {
-    "title": "Dual Nature of Radiation PYQs | CLASS 12",
-    "description": "Study Dual Nature of Radiation from Physics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
-    "h1": "Dual Nature of Radiation",
+  "/class-12/physics/dual-nature-of-radiation-and-matter": {
+    "title": "Dual Nature of Radiation and Matter PYQs | CLASS 12",
+    "description": "Study Dual Nature of Radiation and Matter from Physics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
+    "h1": "Dual Nature of Radiation and Matter",
     "type": "topic",
     "subject": "Physics",
     "exam": "class-12",
@@ -31382,10 +31492,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-12/chemistry/classification-of-elements": {
-    "title": "Classification of Elements PYQs | CLASS 12",
-    "description": "Study Classification of Elements from Chemistry for your CLASS 12 preparation. Practice questions and AI roadmaps.",
-    "h1": "Classification of Elements",
+  "/class-12/chemistry/classification-of-elements-and-periodicity": {
+    "title": "Classification of Elements and P... PYQs | CLASS 12",
+    "description": "Study Classification of Elements and Periodicity from Chemistry for your CLASS 12 preparation. Practice questions and AI roadmaps.",
+    "h1": "Classification of Elements and Periodicity",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "class-12",
@@ -31393,10 +31503,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-12/chemistry/chemical-bonding": {
-    "title": "Chemical Bonding PYQs | CLASS 12",
-    "description": "Study Chemical Bonding from Chemistry for your CLASS 12 preparation. Practice questions and AI roadmaps.",
-    "h1": "Chemical Bonding",
+  "/class-12/chemistry/chemical-bonding-and-molecular-structure": {
+    "title": "Chemical Bonding and Molecular S... PYQs | CLASS 12",
+    "description": "Study Chemical Bonding and Molecular Structure from Chemistry for your CLASS 12 preparation. Practice questions and AI roadmaps.",
+    "h1": "Chemical Bonding and Molecular Structure",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "class-12",
@@ -31470,10 +31580,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-12/chemistry/the-p-block-elements-11": {
-    "title": "The P-Block Elements (11) PYQs | CLASS 12",
-    "description": "Study The P-Block Elements (11) from Chemistry for your CLASS 12 preparation. Practice questions and AI roadmaps.",
-    "h1": "The P-Block Elements (11)",
+  "/class-12/chemistry/the-p-block-elements-group-13-14": {
+    "title": "The P-Block Elements (Group 13 &... PYQs | CLASS 12",
+    "description": "Study The P-Block Elements (Group 13 & 14) from Chemistry for your CLASS 12 preparation. Practice questions and AI roadmaps.",
+    "h1": "The P-Block Elements (Group 13 & 14)",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "class-12",
@@ -31481,10 +31591,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-12/chemistry/organic-chemistry-basic-principles": {
-    "title": "Organic Chemistry: Basic Principles PYQs | CLASS 12",
-    "description": "Study Organic Chemistry: Basic Principles from Chemistry for your CLASS 12 preparation. Practice questions and AI roadmaps.",
-    "h1": "Organic Chemistry: Basic Principles",
+  "/class-12/chemistry/organic-chemistry-basic-principles-techniques": {
+    "title": "Organic Chemistry: Basic Princip... PYQs | CLASS 12",
+    "description": "Study Organic Chemistry: Basic Principles & Techniques from Chemistry for your CLASS 12 preparation. Practice questions and AI roadmaps.",
+    "h1": "Organic Chemistry: Basic Principles & Techniques",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "class-12",
@@ -31569,10 +31679,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-12/chemistry/metallurgy": {
-    "title": "Metallurgy PYQs | CLASS 12",
-    "description": "Study Metallurgy from Chemistry for your CLASS 12 preparation. Practice questions and AI roadmaps.",
-    "h1": "Metallurgy",
+  "/class-12/chemistry/general-principles-and-processes-of-isolation-of-elements": {
+    "title": "General Principles and Processes... PYQs | CLASS 12",
+    "description": "Study General Principles and Processes of Isolation of Elements from Chemistry for your CLASS 12 preparation. Practice questions and AI roadmaps.",
+    "h1": "General Principles and Processes of Isolation of Elements",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "class-12",
@@ -31580,10 +31690,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-12/chemistry/the-p-block-elements-12": {
-    "title": "The P-Block Elements (12) PYQs | CLASS 12",
-    "description": "Study The P-Block Elements (12) from Chemistry for your CLASS 12 preparation. Practice questions and AI roadmaps.",
-    "h1": "The P-Block Elements (12)",
+  "/class-12/chemistry/the-p-block-elements-group-15-18": {
+    "title": "The P-Block Elements (Group 15-18) PYQs | CLASS 12",
+    "description": "Study The P-Block Elements (Group 15-18) from Chemistry for your CLASS 12 preparation. Practice questions and AI roadmaps.",
+    "h1": "The P-Block Elements (Group 15-18)",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "class-12",
@@ -32040,10 +32150,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-12/mathematics/pair-of-linear-equations": {
-    "title": "Pair of Linear Equations PYQs | CLASS 12",
-    "description": "Study Pair of Linear Equations from Mathematics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
-    "h1": "Pair of Linear Equations",
+  "/class-12/mathematics/pair-of-linear-equations-in-two-variables": {
+    "title": "Pair of Linear Equations in Two ... PYQs | CLASS 12",
+    "description": "Study Pair of Linear Equations in Two Variables from Mathematics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
+    "h1": "Pair of Linear Equations in Two Variables",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "class-12",
@@ -32106,10 +32216,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-12/mathematics/applications-of-trigonometry": {
-    "title": "Applications of Trigonometry PYQs | CLASS 12",
-    "description": "Study Applications of Trigonometry from Mathematics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
-    "h1": "Applications of Trigonometry",
+  "/class-12/mathematics/applications-of-trigonometry-heights-and-distances": {
+    "title": "Applications of Trigonometry (He... PYQs | CLASS 12",
+    "description": "Study Applications of Trigonometry (Heights and Distances) from Mathematics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
+    "h1": "Applications of Trigonometry (Heights and Distances)",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "class-12",
@@ -32238,6 +32348,17 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
+  "/class-12/mathematics/practical-geometry": {
+    "title": "Practical Geometry PYQs | CLASS 12",
+    "description": "Study Practical Geometry from Mathematics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
+    "h1": "Practical Geometry",
+    "type": "topic",
+    "subject": "Mathematics",
+    "exam": "class-12",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
   "/class-12/mathematics/data-handling": {
     "title": "Data Handling PYQs | CLASS 12",
     "description": "Study Data Handling from Mathematics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
@@ -32282,10 +32403,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-12/mathematics/algebraic-expressions": {
-    "title": "Algebraic Expressions PYQs | CLASS 12",
-    "description": "Study Algebraic Expressions from Mathematics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
-    "h1": "Algebraic Expressions",
+  "/class-12/mathematics/algebraic-expressions-and-identities": {
+    "title": "Algebraic Expressions and Identi... PYQs | CLASS 12",
+    "description": "Study Algebraic Expressions and Identities from Mathematics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
+    "h1": "Algebraic Expressions and Identities",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "class-12",
@@ -32319,6 +32440,28 @@
     "title": "Factorisation PYQs | CLASS 12",
     "description": "Study Factorisation from Mathematics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
     "h1": "Factorisation",
+    "type": "topic",
+    "subject": "Mathematics",
+    "exam": "class-12",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
+  "/class-12/mathematics/introduction-to-graphs": {
+    "title": "Introduction to Graphs PYQs | CLASS 12",
+    "description": "Study Introduction to Graphs from Mathematics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
+    "h1": "Introduction to Graphs",
+    "type": "topic",
+    "subject": "Mathematics",
+    "exam": "class-12",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
+  "/class-12/mathematics/playing-with-numbers": {
+    "title": "Playing with Numbers PYQs | CLASS 12",
+    "description": "Study Playing with Numbers from Mathematics for your CLASS 12 preparation. Practice questions and AI roadmaps.",
+    "h1": "Playing with Numbers",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "class-12",
@@ -42990,6 +43133,17 @@
     "robots": "index, follow",
     "sitemapGroup": "core"
   },
+  "/class-11/physics/physical-world": {
+    "title": "Physical World PYQs | CLASS 11",
+    "description": "Study Physical World from Physics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
+    "h1": "Physical World",
+    "type": "topic",
+    "subject": "Physics",
+    "exam": "class-11",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
   "/class-11/physics/units-and-measurements": {
     "title": "Units and Measurements PYQs | CLASS 11",
     "description": "Study Units and Measurements from Physics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
@@ -43045,10 +43199,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-11/physics/rotational-motion": {
-    "title": "Rotational Motion PYQs | CLASS 11",
-    "description": "Study Rotational Motion from Physics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
-    "h1": "Rotational Motion",
+  "/class-11/physics/system-of-particles-and-rotational-motion": {
+    "title": "System of Particles and Rotation... PYQs | CLASS 11",
+    "description": "Study System of Particles and Rotational Motion from Physics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
+    "h1": "System of Particles and Rotational Motion",
     "type": "topic",
     "subject": "Physics",
     "exam": "class-11",
@@ -43144,10 +43298,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-11/physics/physical-world": {
-    "title": "Physical World PYQs | CLASS 11",
-    "description": "Study Physical World from Physics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
-    "h1": "Physical World",
+  "/class-11/physics/electric-charges-and-fields": {
+    "title": "Electric Charges and Fields PYQs | CLASS 11",
+    "description": "Study Electric Charges and Fields from Physics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
+    "h1": "Electric Charges and Fields",
     "type": "topic",
     "subject": "Physics",
     "exam": "class-11",
@@ -43155,10 +43309,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-11/physics/electrostatics": {
-    "title": "Electrostatics PYQs | CLASS 11",
-    "description": "Study Electrostatics from Physics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
-    "h1": "Electrostatics",
+  "/class-11/physics/electrostatic-potential-and-capacitance": {
+    "title": "Electrostatic Potential and Capa... PYQs | CLASS 11",
+    "description": "Study Electrostatic Potential and Capacitance from Physics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
+    "h1": "Electrostatic Potential and Capacitance",
     "type": "topic",
     "subject": "Physics",
     "exam": "class-11",
@@ -43177,10 +43331,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-11/physics/magnetic-effects-of-current": {
-    "title": "Magnetic Effects of Current PYQs | CLASS 11",
-    "description": "Study Magnetic Effects of Current from Physics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
-    "h1": "Magnetic Effects of Current",
+  "/class-11/physics/moving-charges-and-magnetism": {
+    "title": "Moving Charges and Magnetism PYQs | CLASS 11",
+    "description": "Study Moving Charges and Magnetism from Physics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
+    "h1": "Moving Charges and Magnetism",
     "type": "topic",
     "subject": "Physics",
     "exam": "class-11",
@@ -43232,10 +43386,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-11/physics/ray-optics": {
-    "title": "Ray Optics PYQs | CLASS 11",
-    "description": "Study Ray Optics from Physics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
-    "h1": "Ray Optics",
+  "/class-11/physics/ray-optics-and-optical-instruments": {
+    "title": "Ray Optics and Optical Instruments PYQs | CLASS 11",
+    "description": "Study Ray Optics and Optical Instruments from Physics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
+    "h1": "Ray Optics and Optical Instruments",
     "type": "topic",
     "subject": "Physics",
     "exam": "class-11",
@@ -43254,10 +43408,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-11/physics/dual-nature-of-radiation": {
-    "title": "Dual Nature of Radiation PYQs | CLASS 11",
-    "description": "Study Dual Nature of Radiation from Physics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
-    "h1": "Dual Nature of Radiation",
+  "/class-11/physics/dual-nature-of-radiation-and-matter": {
+    "title": "Dual Nature of Radiation and Matter PYQs | CLASS 11",
+    "description": "Study Dual Nature of Radiation and Matter from Physics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
+    "h1": "Dual Nature of Radiation and Matter",
     "type": "topic",
     "subject": "Physics",
     "exam": "class-11",
@@ -43340,10 +43494,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-11/chemistry/classification-of-elements": {
-    "title": "Classification of Elements PYQs | CLASS 11",
-    "description": "Study Classification of Elements from Chemistry for your CLASS 11 preparation. Practice questions and AI roadmaps.",
-    "h1": "Classification of Elements",
+  "/class-11/chemistry/classification-of-elements-and-periodicity": {
+    "title": "Classification of Elements and P... PYQs | CLASS 11",
+    "description": "Study Classification of Elements and Periodicity from Chemistry for your CLASS 11 preparation. Practice questions and AI roadmaps.",
+    "h1": "Classification of Elements and Periodicity",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "class-11",
@@ -43351,10 +43505,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-11/chemistry/chemical-bonding": {
-    "title": "Chemical Bonding PYQs | CLASS 11",
-    "description": "Study Chemical Bonding from Chemistry for your CLASS 11 preparation. Practice questions and AI roadmaps.",
-    "h1": "Chemical Bonding",
+  "/class-11/chemistry/chemical-bonding-and-molecular-structure": {
+    "title": "Chemical Bonding and Molecular S... PYQs | CLASS 11",
+    "description": "Study Chemical Bonding and Molecular Structure from Chemistry for your CLASS 11 preparation. Practice questions and AI roadmaps.",
+    "h1": "Chemical Bonding and Molecular Structure",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "class-11",
@@ -43428,10 +43582,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-11/chemistry/the-p-block-elements-11": {
-    "title": "The P-Block Elements (11) PYQs | CLASS 11",
-    "description": "Study The P-Block Elements (11) from Chemistry for your CLASS 11 preparation. Practice questions and AI roadmaps.",
-    "h1": "The P-Block Elements (11)",
+  "/class-11/chemistry/the-p-block-elements-group-13-14": {
+    "title": "The P-Block Elements (Group 13 &... PYQs | CLASS 11",
+    "description": "Study The P-Block Elements (Group 13 & 14) from Chemistry for your CLASS 11 preparation. Practice questions and AI roadmaps.",
+    "h1": "The P-Block Elements (Group 13 & 14)",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "class-11",
@@ -43439,10 +43593,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-11/chemistry/organic-chemistry-basic-principles": {
-    "title": "Organic Chemistry: Basic Principles PYQs | CLASS 11",
-    "description": "Study Organic Chemistry: Basic Principles from Chemistry for your CLASS 11 preparation. Practice questions and AI roadmaps.",
-    "h1": "Organic Chemistry: Basic Principles",
+  "/class-11/chemistry/organic-chemistry-basic-principles-techniques": {
+    "title": "Organic Chemistry: Basic Princip... PYQs | CLASS 11",
+    "description": "Study Organic Chemistry: Basic Principles & Techniques from Chemistry for your CLASS 11 preparation. Practice questions and AI roadmaps.",
+    "h1": "Organic Chemistry: Basic Principles & Techniques",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "class-11",
@@ -43527,10 +43681,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-11/chemistry/metallurgy": {
-    "title": "Metallurgy PYQs | CLASS 11",
-    "description": "Study Metallurgy from Chemistry for your CLASS 11 preparation. Practice questions and AI roadmaps.",
-    "h1": "Metallurgy",
+  "/class-11/chemistry/general-principles-and-processes-of-isolation-of-elements": {
+    "title": "General Principles and Processes... PYQs | CLASS 11",
+    "description": "Study General Principles and Processes of Isolation of Elements from Chemistry for your CLASS 11 preparation. Practice questions and AI roadmaps.",
+    "h1": "General Principles and Processes of Isolation of Elements",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "class-11",
@@ -43538,10 +43692,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-11/chemistry/the-p-block-elements-12": {
-    "title": "The P-Block Elements (12) PYQs | CLASS 11",
-    "description": "Study The P-Block Elements (12) from Chemistry for your CLASS 11 preparation. Practice questions and AI roadmaps.",
-    "h1": "The P-Block Elements (12)",
+  "/class-11/chemistry/the-p-block-elements-group-15-18": {
+    "title": "The P-Block Elements (Group 15-18) PYQs | CLASS 11",
+    "description": "Study The P-Block Elements (Group 15-18) from Chemistry for your CLASS 11 preparation. Practice questions and AI roadmaps.",
+    "h1": "The P-Block Elements (Group 15-18)",
     "type": "topic",
     "subject": "Chemistry",
     "exam": "class-11",
@@ -43998,10 +44152,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-11/mathematics/pair-of-linear-equations": {
-    "title": "Pair of Linear Equations PYQs | CLASS 11",
-    "description": "Study Pair of Linear Equations from Mathematics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
-    "h1": "Pair of Linear Equations",
+  "/class-11/mathematics/pair-of-linear-equations-in-two-variables": {
+    "title": "Pair of Linear Equations in Two ... PYQs | CLASS 11",
+    "description": "Study Pair of Linear Equations in Two Variables from Mathematics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
+    "h1": "Pair of Linear Equations in Two Variables",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "class-11",
@@ -44064,10 +44218,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-11/mathematics/applications-of-trigonometry": {
-    "title": "Applications of Trigonometry PYQs | CLASS 11",
-    "description": "Study Applications of Trigonometry from Mathematics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
-    "h1": "Applications of Trigonometry",
+  "/class-11/mathematics/applications-of-trigonometry-heights-and-distances": {
+    "title": "Applications of Trigonometry (He... PYQs | CLASS 11",
+    "description": "Study Applications of Trigonometry (Heights and Distances) from Mathematics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
+    "h1": "Applications of Trigonometry (Heights and Distances)",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "class-11",
@@ -44196,6 +44350,17 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
+  "/class-11/mathematics/practical-geometry": {
+    "title": "Practical Geometry PYQs | CLASS 11",
+    "description": "Study Practical Geometry from Mathematics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
+    "h1": "Practical Geometry",
+    "type": "topic",
+    "subject": "Mathematics",
+    "exam": "class-11",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
   "/class-11/mathematics/data-handling": {
     "title": "Data Handling PYQs | CLASS 11",
     "description": "Study Data Handling from Mathematics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
@@ -44240,10 +44405,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-11/mathematics/algebraic-expressions": {
-    "title": "Algebraic Expressions PYQs | CLASS 11",
-    "description": "Study Algebraic Expressions from Mathematics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
-    "h1": "Algebraic Expressions",
+  "/class-11/mathematics/algebraic-expressions-and-identities": {
+    "title": "Algebraic Expressions and Identi... PYQs | CLASS 11",
+    "description": "Study Algebraic Expressions and Identities from Mathematics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
+    "h1": "Algebraic Expressions and Identities",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "class-11",
@@ -44277,6 +44442,28 @@
     "title": "Factorisation PYQs | CLASS 11",
     "description": "Study Factorisation from Mathematics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
     "h1": "Factorisation",
+    "type": "topic",
+    "subject": "Mathematics",
+    "exam": "class-11",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
+  "/class-11/mathematics/introduction-to-graphs": {
+    "title": "Introduction to Graphs PYQs | CLASS 11",
+    "description": "Study Introduction to Graphs from Mathematics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
+    "h1": "Introduction to Graphs",
+    "type": "topic",
+    "subject": "Mathematics",
+    "exam": "class-11",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
+  "/class-11/mathematics/playing-with-numbers": {
+    "title": "Playing with Numbers PYQs | CLASS 11",
+    "description": "Study Playing with Numbers from Mathematics for your CLASS 11 preparation. Practice questions and AI roadmaps.",
+    "h1": "Playing with Numbers",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "class-11",
@@ -55367,9 +55554,9 @@
     "sitemapGroup": "topics"
   },
   "/class-10/science/cell-structure-and-functions": {
-    "title": "Cell - Structure and Functions PYQs | CLASS 10",
-    "description": "Study Cell - Structure and Functions from Science for your CLASS 10 preparation. Practice questions and AI roadmaps.",
-    "h1": "Cell - Structure and Functions",
+    "title": "Cell – Structure and Functions PYQs | CLASS 10",
+    "description": "Study Cell – Structure and Functions from Science for your CLASS 10 preparation. Practice questions and AI roadmaps.",
+    "h1": "Cell – Structure and Functions",
     "type": "topic",
     "subject": "Science",
     "exam": "class-10",
@@ -55826,10 +56013,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-10/mathematics/pair-of-linear-equations": {
-    "title": "Pair of Linear Equations PYQs | CLASS 10",
-    "description": "Study Pair of Linear Equations from Mathematics for your CLASS 10 preparation. Practice questions and AI roadmaps.",
-    "h1": "Pair of Linear Equations",
+  "/class-10/mathematics/pair-of-linear-equations-in-two-variables": {
+    "title": "Pair of Linear Equations in Two ... PYQs | CLASS 10",
+    "description": "Study Pair of Linear Equations in Two Variables from Mathematics for your CLASS 10 preparation. Practice questions and AI roadmaps.",
+    "h1": "Pair of Linear Equations in Two Variables",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "class-10",
@@ -55892,10 +56079,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-10/mathematics/applications-of-trigonometry": {
-    "title": "Applications of Trigonometry PYQs | CLASS 10",
-    "description": "Study Applications of Trigonometry from Mathematics for your CLASS 10 preparation. Practice questions and AI roadmaps.",
-    "h1": "Applications of Trigonometry",
+  "/class-10/mathematics/applications-of-trigonometry-heights-and-distances": {
+    "title": "Applications of Trigonometry (He... PYQs | CLASS 10",
+    "description": "Study Applications of Trigonometry (Heights and Distances) from Mathematics for your CLASS 10 preparation. Practice questions and AI roadmaps.",
+    "h1": "Applications of Trigonometry (Heights and Distances)",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "class-10",
@@ -56024,6 +56211,17 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
+  "/class-10/mathematics/practical-geometry": {
+    "title": "Practical Geometry PYQs | CLASS 10",
+    "description": "Study Practical Geometry from Mathematics for your CLASS 10 preparation. Practice questions and AI roadmaps.",
+    "h1": "Practical Geometry",
+    "type": "topic",
+    "subject": "Mathematics",
+    "exam": "class-10",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
   "/class-10/mathematics/data-handling": {
     "title": "Data Handling PYQs | CLASS 10",
     "description": "Study Data Handling from Mathematics for your CLASS 10 preparation. Practice questions and AI roadmaps.",
@@ -56068,10 +56266,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-10/mathematics/algebraic-expressions": {
-    "title": "Algebraic Expressions PYQs | CLASS 10",
-    "description": "Study Algebraic Expressions from Mathematics for your CLASS 10 preparation. Practice questions and AI roadmaps.",
-    "h1": "Algebraic Expressions",
+  "/class-10/mathematics/algebraic-expressions-and-identities": {
+    "title": "Algebraic Expressions and Identi... PYQs | CLASS 10",
+    "description": "Study Algebraic Expressions and Identities from Mathematics for your CLASS 10 preparation. Practice questions and AI roadmaps.",
+    "h1": "Algebraic Expressions and Identities",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "class-10",
@@ -56105,6 +56303,28 @@
     "title": "Factorisation PYQs | CLASS 10",
     "description": "Study Factorisation from Mathematics for your CLASS 10 preparation. Practice questions and AI roadmaps.",
     "h1": "Factorisation",
+    "type": "topic",
+    "subject": "Mathematics",
+    "exam": "class-10",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
+  "/class-10/mathematics/introduction-to-graphs": {
+    "title": "Introduction to Graphs PYQs | CLASS 10",
+    "description": "Study Introduction to Graphs from Mathematics for your CLASS 10 preparation. Practice questions and AI roadmaps.",
+    "h1": "Introduction to Graphs",
+    "type": "topic",
+    "subject": "Mathematics",
+    "exam": "class-10",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
+  "/class-10/mathematics/playing-with-numbers": {
+    "title": "Playing with Numbers PYQs | CLASS 10",
+    "description": "Study Playing with Numbers from Mathematics for your CLASS 10 preparation. Practice questions and AI roadmaps.",
+    "h1": "Playing with Numbers",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "class-10",
@@ -76048,9 +76268,9 @@
     "sitemapGroup": "topics"
   },
   "/class-9/science/cell-structure-and-functions": {
-    "title": "Cell - Structure and Functions PYQs | CLASS 9",
-    "description": "Study Cell - Structure and Functions from Science for your CLASS 9 preparation. Practice questions and AI roadmaps.",
-    "h1": "Cell - Structure and Functions",
+    "title": "Cell – Structure and Functions PYQs | CLASS 9",
+    "description": "Study Cell – Structure and Functions from Science for your CLASS 9 preparation. Practice questions and AI roadmaps.",
+    "h1": "Cell – Structure and Functions",
     "type": "topic",
     "subject": "Science",
     "exam": "class-9",
@@ -76507,10 +76727,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-9/mathematics/pair-of-linear-equations": {
-    "title": "Pair of Linear Equations PYQs | CLASS 9",
-    "description": "Study Pair of Linear Equations from Mathematics for your CLASS 9 preparation. Practice questions and AI roadmaps.",
-    "h1": "Pair of Linear Equations",
+  "/class-9/mathematics/pair-of-linear-equations-in-two-variables": {
+    "title": "Pair of Linear Equations in Two ... PYQs | CLASS 9",
+    "description": "Study Pair of Linear Equations in Two Variables from Mathematics for your CLASS 9 preparation. Practice questions and AI roadmaps.",
+    "h1": "Pair of Linear Equations in Two Variables",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "class-9",
@@ -76573,10 +76793,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-9/mathematics/applications-of-trigonometry": {
-    "title": "Applications of Trigonometry PYQs | CLASS 9",
-    "description": "Study Applications of Trigonometry from Mathematics for your CLASS 9 preparation. Practice questions and AI roadmaps.",
-    "h1": "Applications of Trigonometry",
+  "/class-9/mathematics/applications-of-trigonometry-heights-and-distances": {
+    "title": "Applications of Trigonometry (He... PYQs | CLASS 9",
+    "description": "Study Applications of Trigonometry (Heights and Distances) from Mathematics for your CLASS 9 preparation. Practice questions and AI roadmaps.",
+    "h1": "Applications of Trigonometry (Heights and Distances)",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "class-9",
@@ -76705,6 +76925,17 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
+  "/class-9/mathematics/practical-geometry": {
+    "title": "Practical Geometry PYQs | CLASS 9",
+    "description": "Study Practical Geometry from Mathematics for your CLASS 9 preparation. Practice questions and AI roadmaps.",
+    "h1": "Practical Geometry",
+    "type": "topic",
+    "subject": "Mathematics",
+    "exam": "class-9",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
   "/class-9/mathematics/data-handling": {
     "title": "Data Handling PYQs | CLASS 9",
     "description": "Study Data Handling from Mathematics for your CLASS 9 preparation. Practice questions and AI roadmaps.",
@@ -76749,10 +76980,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-9/mathematics/algebraic-expressions": {
-    "title": "Algebraic Expressions PYQs | CLASS 9",
-    "description": "Study Algebraic Expressions from Mathematics for your CLASS 9 preparation. Practice questions and AI roadmaps.",
-    "h1": "Algebraic Expressions",
+  "/class-9/mathematics/algebraic-expressions-and-identities": {
+    "title": "Algebraic Expressions and Identi... PYQs | CLASS 9",
+    "description": "Study Algebraic Expressions and Identities from Mathematics for your CLASS 9 preparation. Practice questions and AI roadmaps.",
+    "h1": "Algebraic Expressions and Identities",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "class-9",
@@ -76786,6 +77017,28 @@
     "title": "Factorisation PYQs | CLASS 9",
     "description": "Study Factorisation from Mathematics for your CLASS 9 preparation. Practice questions and AI roadmaps.",
     "h1": "Factorisation",
+    "type": "topic",
+    "subject": "Mathematics",
+    "exam": "class-9",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
+  "/class-9/mathematics/introduction-to-graphs": {
+    "title": "Introduction to Graphs PYQs | CLASS 9",
+    "description": "Study Introduction to Graphs from Mathematics for your CLASS 9 preparation. Practice questions and AI roadmaps.",
+    "h1": "Introduction to Graphs",
+    "type": "topic",
+    "subject": "Mathematics",
+    "exam": "class-9",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
+  "/class-9/mathematics/playing-with-numbers": {
+    "title": "Playing with Numbers PYQs | CLASS 9",
+    "description": "Study Playing with Numbers from Mathematics for your CLASS 9 preparation. Practice questions and AI roadmaps.",
+    "h1": "Playing with Numbers",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "class-9",
@@ -96729,9 +96982,9 @@
     "sitemapGroup": "topics"
   },
   "/class-8/science/cell-structure-and-functions": {
-    "title": "Cell - Structure and Functions PYQs | CLASS 8",
-    "description": "Study Cell - Structure and Functions from Science for your CLASS 8 preparation. Practice questions and AI roadmaps.",
-    "h1": "Cell - Structure and Functions",
+    "title": "Cell – Structure and Functions PYQs | CLASS 8",
+    "description": "Study Cell – Structure and Functions from Science for your CLASS 8 preparation. Practice questions and AI roadmaps.",
+    "h1": "Cell – Structure and Functions",
     "type": "topic",
     "subject": "Science",
     "exam": "class-8",
@@ -97188,10 +97441,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-8/mathematics/pair-of-linear-equations": {
-    "title": "Pair of Linear Equations PYQs | CLASS 8",
-    "description": "Study Pair of Linear Equations from Mathematics for your CLASS 8 preparation. Practice questions and AI roadmaps.",
-    "h1": "Pair of Linear Equations",
+  "/class-8/mathematics/pair-of-linear-equations-in-two-variables": {
+    "title": "Pair of Linear Equations in Two ... PYQs | CLASS 8",
+    "description": "Study Pair of Linear Equations in Two Variables from Mathematics for your CLASS 8 preparation. Practice questions and AI roadmaps.",
+    "h1": "Pair of Linear Equations in Two Variables",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "class-8",
@@ -97254,10 +97507,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-8/mathematics/applications-of-trigonometry": {
-    "title": "Applications of Trigonometry PYQs | CLASS 8",
-    "description": "Study Applications of Trigonometry from Mathematics for your CLASS 8 preparation. Practice questions and AI roadmaps.",
-    "h1": "Applications of Trigonometry",
+  "/class-8/mathematics/applications-of-trigonometry-heights-and-distances": {
+    "title": "Applications of Trigonometry (He... PYQs | CLASS 8",
+    "description": "Study Applications of Trigonometry (Heights and Distances) from Mathematics for your CLASS 8 preparation. Practice questions and AI roadmaps.",
+    "h1": "Applications of Trigonometry (Heights and Distances)",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "class-8",
@@ -97386,6 +97639,17 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
+  "/class-8/mathematics/practical-geometry": {
+    "title": "Practical Geometry PYQs | CLASS 8",
+    "description": "Study Practical Geometry from Mathematics for your CLASS 8 preparation. Practice questions and AI roadmaps.",
+    "h1": "Practical Geometry",
+    "type": "topic",
+    "subject": "Mathematics",
+    "exam": "class-8",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
   "/class-8/mathematics/data-handling": {
     "title": "Data Handling PYQs | CLASS 8",
     "description": "Study Data Handling from Mathematics for your CLASS 8 preparation. Practice questions and AI roadmaps.",
@@ -97430,10 +97694,10 @@
     "robots": "index, follow",
     "sitemapGroup": "topics"
   },
-  "/class-8/mathematics/algebraic-expressions": {
-    "title": "Algebraic Expressions PYQs | CLASS 8",
-    "description": "Study Algebraic Expressions from Mathematics for your CLASS 8 preparation. Practice questions and AI roadmaps.",
-    "h1": "Algebraic Expressions",
+  "/class-8/mathematics/algebraic-expressions-and-identities": {
+    "title": "Algebraic Expressions and Identi... PYQs | CLASS 8",
+    "description": "Study Algebraic Expressions and Identities from Mathematics for your CLASS 8 preparation. Practice questions and AI roadmaps.",
+    "h1": "Algebraic Expressions and Identities",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "class-8",
@@ -97467,6 +97731,28 @@
     "title": "Factorisation PYQs | CLASS 8",
     "description": "Study Factorisation from Mathematics for your CLASS 8 preparation. Practice questions and AI roadmaps.",
     "h1": "Factorisation",
+    "type": "topic",
+    "subject": "Mathematics",
+    "exam": "class-8",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
+  "/class-8/mathematics/introduction-to-graphs": {
+    "title": "Introduction to Graphs PYQs | CLASS 8",
+    "description": "Study Introduction to Graphs from Mathematics for your CLASS 8 preparation. Practice questions and AI roadmaps.",
+    "h1": "Introduction to Graphs",
+    "type": "topic",
+    "subject": "Mathematics",
+    "exam": "class-8",
+    "priority": 0.7,
+    "robots": "index, follow",
+    "sitemapGroup": "topics"
+  },
+  "/class-8/mathematics/playing-with-numbers": {
+    "title": "Playing with Numbers PYQs | CLASS 8",
+    "description": "Study Playing with Numbers from Mathematics for your CLASS 8 preparation. Practice questions and AI roadmaps.",
+    "h1": "Playing with Numbers",
     "type": "topic",
     "subject": "Mathematics",
     "exam": "class-8",

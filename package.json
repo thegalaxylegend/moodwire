@@ -123,7 +123,7 @@
     "@capacitor/cli": "^8.1.0",
     "@capacitor/core": "^8.1.0",
     "@capacitor/ios": "^8.1.0",
-    "@eslint/js": "^9.39.1",
+    "@eslint/js": "^9.39.4",
     "@types/canvas-confetti": "^1.9.0",
     "@types/dotenv": "^6.1.1",
     "@types/jest": "^30.0.0",
