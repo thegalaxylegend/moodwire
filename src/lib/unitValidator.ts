@@ -134,9 +134,13 @@ export function validateUnits(
     const answerLower = answerText.toLowerCase();
 
     // Check if we're dealing with a dimensionless quantity
-    const matchedDimensionless = DIMENSIONLESS_QUANTITIES.find(dq => 
-        combined.includes(dq.toLowerCase())
-    );
+    const matchedDimensionless = DIMENSIONLESS_QUANTITIES.find(dq => {
+        if (dq.length <= 8) {
+            const regex = new RegExp(`\\b${dq}\\b`, 'i');
+            return regex.test(combined);
+        }
+        return combined.includes(dq.toLowerCase());
+    });
 
     if (matchedDimensionless) {
         // Check if the answer contains unit indicators

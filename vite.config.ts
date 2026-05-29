@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
@@ -18,9 +19,9 @@ import type { Plugin } from 'vite'
 function cloudflareD1DevProxy(): Plugin {
   // These are read at server start-time from .env (non-VITE_ prefix = never
   // bundled to the browser by Vite).
-  const CF_ACCOUNT_ID = process.env.CLOUDFLARE_ACCOUNT_ID;
+  const CF_ACCOUNT_ID = process.env.CLOUDFLARE_ACCOUNT_ID?.replace(/['"]/g, '');
   const CF_DB_ID      = '63abfee4-2340-47bd-a9ad-ebc4a9c50580'; // wrangler.toml value (public)
-  const CF_D1_TOKEN   = process.env.CLOUDFLARE_D1_TOKEN;        // secret — in .env only
+  const CF_D1_TOKEN   = process.env.CLOUDFLARE_D1_TOKEN?.replace(/['"]/g, '');
 
   const enabled = !!(CF_ACCOUNT_ID && CF_D1_TOKEN);
 
@@ -314,7 +315,7 @@ function cloudflareD1DevProxy(): Plugin {
               }
 
               const cleanChapterName = chapter_id
-                .replace(/^(phy|che|math|bio)_12_/i, '')
+                .replace(/^[a-z]+_\d+_/i, '')
                 .replace(/_/g, ' ');
               const searchQuery = `${cleanChapterName} ${subtopic} ${exam} complete lecture in English/Hindi`;
 

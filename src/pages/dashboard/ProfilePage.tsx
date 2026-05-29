@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Save, LogOut, Loader2, Award, BookOpen, TrendingUp, Check, AlertCircle } from 'lucide-react';
+import { Save, LogOut, Loader2, Award, BookOpen, TrendingUp, Check, AlertCircle, Plus, Trash2, Users, CheckCircle2 } from 'lucide-react';
 import { useUserStore } from '../../store/userStore';
 import { CustomSelect } from '../../components/CustomSelect';
 import { RankBadge } from '../../components/gamification/RankBadge';
@@ -12,7 +12,7 @@ import { useBadgeStyle } from '../../context/BadgeStyleProvider';
 import type { BadgeStyle } from '../../context/BadgeStyleProvider';
 
 export const ProfilePage = () => {
-    const { user, updateProfile, logout } = useUserStore();
+    const { user, updateProfile, logout, subProfiles, activeProfileId, createSubProfile, switchProfile, deleteSubProfile } = useUserStore();
     const { mode, setMode } = usePerformance();
     const { badgeStyle, setBadgeStyle } = useBadgeStyle();
     const navigate = useNavigate();
@@ -24,6 +24,13 @@ export const ProfilePage = () => {
     const [progress, setProgress] = useState(0);
     const [stats, setStats] = useState({ completed: 0, total: 0, mockAvg: 0, mockCount: 0 });
     const [referralOpen, setReferralOpen] = useState(false);
+
+    // Sub-Profile form states
+    const [showAddForm, setShowAddForm] = useState(false);
+    const [subName, setSubName] = useState('');
+    const [subClass, setSubClass] = useState('Class 11th');
+    const [subExam, setSubExam] = useState('JEE Mains');
+    const [subLoading, setSubLoading] = useState(false);
 
     useEffect(() => {
         console.log("[Profile] Loaded. Current State Class:", userClass);
@@ -106,6 +113,21 @@ export const ProfilePage = () => {
             console.error(e);
         } finally {
             setLoading(false);
+        }
+    };
+
+    const handleCreateSub = async (e: React.FormEvent) => {
+        e.preventDefault();
+        if (!subName.trim()) return;
+        setSubLoading(true);
+        try {
+            await createSubProfile(subName, subClass, subExam);
+            setShowAddForm(false);
+            setSubName('');
+        } catch (err) {
+            console.error(err);
+        } finally {
+            setSubLoading(false);
         }
     };
 
@@ -512,6 +534,173 @@ export const ProfilePage = () => {
                     </div>
                 </div>
             </div>
+
+            {/* Student Sub-Profiles Section */}
+            <div className="bg-surface border border-border rounded-3xl p-8 shadow-lg relative overflow-hidden space-y-6">
+                {/* Decorative glow */}
+                <div className="absolute -right-24 -bottom-24 w-96 h-96 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
+                <div className="absolute -left-24 -top-24 w-96 h-96 bg-accent/10 rounded-full blur-3xl pointer-events-none"></div>
+
+                <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 relative z-10">
+                    <div className="space-y-1">
+                        <h2 className="text-xl font-bold text-text-main flex items-center gap-2">
+                            <Users size={22} className="text-primary" /> Student Sub-Profiles
+                        </h2>
+                        <p className="text-sm text-text-muted">
+                            Partition syllabus progress, test history, XP, and ELO rating for up to 4 students under this single account.
+                        </p>
+                    </div>
+                    {subProfiles && subProfiles.length < 4 && !showAddForm && (
+                        <button
+                            onClick={() => setShowAddForm(true)}
+                            className="px-5 py-2.5 bg-gradient-to-r from-primary to-accent text-[color:var(--btn-text)] hover:opacity-90 font-bold rounded-xl transition-all shadow-md flex items-center gap-2 text-sm shrink-0"
+                        >
+                            <Plus size={16} /> Add Student Profile
+                        </button>
+                    )}
+                </div>
+
+                {/* Profile Grid */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 relative z-10">
+                    {subProfiles?.map((p: any) => {
+                        const isActive = p.id === activeProfileId;
+                        return (
+                            <div
+                                key={p.id}
+                                className={`p-5 rounded-2xl border text-left flex flex-col justify-between transition-all relative overflow-hidden group min-h-[140px]
+                                    \${isActive
+                                        ? 'bg-gradient-to-br from-primary/10 via-surface to-accent/10 border-primary/50 text-text-main shadow-[0_0_20px_rgba(var(--primary-rgb),0.15)] ring-1 ring-primary/30'
+                                        : 'bg-surface/50 border-border/80 hover:border-border hover:bg-surface hover:-translate-y-1 hover:shadow-md text-text-muted hover:text-text-main'
+                                    }`}
+                            >
+                                <div className="space-y-2">
+                                    <div className="flex items-start justify-between gap-2">
+                                        <h3 className="font-bold text-text-main text-sm truncate group-hover:text-primary transition-colors">
+                                            {p.name}
+                                        </h3>
+                                        {isActive ? (
+                                            <span className="text-[10px] uppercase font-bold tracking-widest bg-primary/20 text-primary px-1.5 py-0.5 rounded-md flex items-center gap-1 shrink-0">
+                                                <CheckCircle2 size={10} /> Active
+                                            </span>
+                                        ) : (
+                                            <button
+                                                onClick={() => switchProfile(p.id)}
+                                                className="text-[10px] bg-border/50 hover:bg-primary/20 text-text-muted hover:text-primary font-bold px-2 py-0.5 rounded transition-all shrink-0"
+                                            >
+                                                Switch
+                                            </button>
+                                        )}
+                                    </div>
+                                    <div className="space-y-1">
+                                        <p className="text-xs text-text-muted flex items-center gap-1.5">
+                                            <span className="w-1.5 h-1.5 rounded-full bg-primary/60"></span> {p.userClass}
+                                        </p>
+                                        <p className="text-xs text-text-muted flex items-center gap-1.5">
+                                            <span className="w-1.5 h-1.5 rounded-full bg-accent/60"></span> {p.targetExam}
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div className="mt-4 flex justify-between items-center border-t border-border/30 pt-3">
+                                    <span className="text-[10px] text-text-muted font-mono tracking-tight truncate max-w-[120px]">
+                                        ID: {p.id.slice(-8)}
+                                    </span>
+                                    {p.id !== user?.id && p.id !== activeProfileId && (
+                                        <button
+                                            onClick={() => {
+                                                if (window.confirm(`Are you sure you want to delete sub-profile "\${p.name}"? All progress will be lost.`)) {
+                                                    deleteSubProfile(p.id);
+                                                }
+                                            }}
+                                            className="text-text-muted hover:text-red-500 transition-colors p-1"
+                                            title="Delete sub-profile"
+                                        >
+                                            <Trash2 size={14} />
+                                        </button>
+                                    )}
+                                </div>
+                            </div>
+                        );
+                    })}
+                </div>
+
+                {/* Add Sub-Profile Glassmorphic Form */}
+                {showAddForm && (
+                    <form onSubmit={handleCreateSub} className="p-6 rounded-2xl bg-surface border border-border/80 shadow-inner relative z-10 animate-fade-in space-y-4">
+                        <h3 className="font-bold text-text-main text-sm">Add New Student Profile</h3>
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                            <div className="space-y-1.5">
+                                <label className="text-xs text-text-muted font-semibold">Student Name</label>
+                                <input
+                                    type="text"
+                                    required
+                                    value={subName}
+                                    onChange={(e) => setSubName(e.target.value)}
+                                    className="w-full p-2 bg-surface/50 border border-border/80 rounded-xl focus:border-primary focus:ring-1 focus:ring-primary outline-none text-text-main text-sm"
+                                    placeholder="Enter Name"
+                                />
+                            </div>
+
+                            <div className="space-y-1.5">
+                                <CustomSelect
+                                    label="Grade / Class"
+                                    value={subClass}
+                                    onChange={setSubClass}
+                                    options={[
+                                        { value: 'Class 8th', label: 'Class 8th' },
+                                        { value: 'Class 9th', label: 'Class 9th' },
+                                        { value: 'Class 10th', label: 'Class 10th' },
+                                        { value: 'Class 11th', label: 'Class 11th' },
+                                        { value: 'Class 12th', label: 'Class 12th' },
+                                        { value: 'Dropper', label: 'Dropper' }
+                                    ]}
+                                    placeholder="Select Class"
+                                />
+                            </div>
+
+                            <div className="space-y-1.5">
+                                {!['Class 8th', 'Class 9th', 'Class 10th'].includes(subClass) ? (
+                                    <CustomSelect
+                                        label="Target Exam"
+                                        value={subExam}
+                                        onChange={setSubExam}
+                                        options={[
+                                            { value: 'JEE Mains', label: 'JEE Mains' },
+                                            { value: 'NEET UG', label: 'NEET UG' }
+                                        ]}
+                                        placeholder="Select Exam"
+                                    />
+                                ) : (
+                                    <div className="space-y-1.5">
+                                        <label className="text-xs text-text-muted font-semibold">Target Exam</label>
+                                        <div className="p-2 bg-surface/30 border border-border/50 rounded-xl text-text-muted text-sm">
+                                            School Exams
+                                        </div>
+                                    </div>
+                                )}
+                            </div>
+                        </div>
+
+                        <div className="flex justify-end gap-3 pt-2">
+                            <button
+                                type="button"
+                                onClick={() => setShowAddForm(false)}
+                                className="px-4 py-2 border border-border text-text-muted hover:text-text-main font-semibold rounded-xl text-sm transition-colors"
+                            >
+                                Cancel
+                            </button>
+                            <button
+                                type="submit"
+                                disabled={subLoading}
+                                className="px-5 py-2 bg-gradient-to-r from-primary to-accent text-[color:var(--btn-text)] hover:opacity-90 font-bold rounded-xl text-sm transition-all shadow-md disabled:opacity-50 flex items-center gap-2"
+                            >
+                                {subLoading ? <Loader2 size={14} className="animate-spin" /> : <Plus size={14} />} Create Profile
+                            </button>
+                        </div>
+                    </form>
+                )}
+            </div>
+
             <ReferralModal isOpen={referralOpen} onClose={() => setReferralOpen(false)} />
         </div>
     );

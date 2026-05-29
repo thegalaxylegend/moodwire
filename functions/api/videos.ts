@@ -103,40 +103,71 @@ export async function onRequestGet({ request, env }: { request: Request; env: En
     const url = new URL(request.url);
     const chapterId = url.searchParams.get('chapter_id');
     const exam = url.searchParams.get('exam') || 'JEE';
+    const subject = url.searchParams.get('subject') || '';
 
-    if (!chapterId) {
-      return err('chapter_id parameter is required', 400);
+    if (!chapterId && !subject) {
+      return err('chapter_id or subject parameter is required', 400);
     }
 
     if (!env.DB) {
-      // If DB is missing, return empty discovered results (frontend will fall back to static)
+      // If DB is missing (local dev), return empty discovered results (frontend will fall back to static)
       return new Response(JSON.stringify([]), {
         status: 200,
         headers: { ...CORS, 'Content-Type': 'application/json' },
       });
     }
 
-    // Query D1 for discovered videos of this chapter
-    const sql = `
-      SELECT * FROM discovered_videos 
-      WHERE chapter_id = ? AND is_available = 1
-      ORDER BY score DESC
-    `;
-    const res = await env.DB.prepare(sql).bind(chapterId).all<DiscoveredVideoRow>();
+    let videos: any[] = [];
 
-    const videos = (res.results || []).map(row => ({
-      id: row.id,
-      title: row.title,
-      channelName: row.channel_name,
-      thumbnailUrl: row.thumbnail_url,
-      videoUrl: `https://www.youtube.com/watch?v=${row.id}`,
-      duration: row.duration,
-      viewCount: row.view_count,
-      chapterId: row.chapter_id,
-      subtopic: row.subtopic,
-      exam: row.exam,
-      score: row.score,
-    }));
+    // Query 1: Exact chapter_id match
+    if (chapterId) {
+      const sql = `
+        SELECT * FROM discovered_videos 
+        WHERE chapter_id = ? AND is_available = 1
+        ORDER BY score DESC
+        LIMIT 10
+      `;
+      const res = await env.DB.prepare(sql).bind(chapterId).all<DiscoveredVideoRow>();
+      videos = (res.results || []).map(row => ({
+        id: row.id,
+        title: row.title,
+        channelName: row.channel_name,
+        thumbnailUrl: row.thumbnail_url,
+        videoUrl: `https://www.youtube.com/watch?v=${row.id}`,
+        duration: row.duration,
+        viewCount: row.view_count,
+        chapterId: row.chapter_id,
+        subtopic: row.subtopic,
+        exam: row.exam,
+        score: row.score,
+      }));
+    }
+
+    // Query 2: Subject-level fallback — if chapter query returned nothing, get any video from same subject+exam
+    if (videos.length === 0 && subject) {
+      console.log(`[videos GET] Chapter-level query empty. Falling back to subject-level: ${subject} / ${exam}`);
+      const subjectSql = `
+        SELECT * FROM discovered_videos
+        WHERE subject = ? AND exam LIKE ? AND is_available = 1
+        ORDER BY score DESC
+        LIMIT 5
+      `;
+      const subjectRes = await env.DB.prepare(subjectSql).bind(subject, `%${exam.split(' ')[0]}%`).all<DiscoveredVideoRow>();
+      videos = (subjectRes.results || []).map(row => ({
+        id: row.id,
+        title: row.title,
+        channelName: row.channel_name,
+        thumbnailUrl: row.thumbnail_url,
+        videoUrl: `https://www.youtube.com/watch?v=${row.id}`,
+        duration: row.duration,
+        viewCount: row.view_count,
+        chapterId: row.chapter_id,
+        subtopic: row.subtopic,
+        exam: row.exam,
+        score: row.score,
+        _isFallback: true,
+      }));
+    }
 
     return new Response(JSON.stringify(videos), {
       status: 200,
@@ -147,6 +178,7 @@ export async function onRequestGet({ request, env }: { request: Request; env: En
     return err(e?.message || 'Internal server error', 500);
   }
 }
+
 
 export async function onRequestPost({ request, env }: { request: Request; env: Env }) {
   try {
@@ -176,7 +208,7 @@ export async function onRequestPost({ request, env }: { request: Request; env: E
     // 1. Build a highly specific search query
     // Example: "Electric Charges and Fields Gauss Law JEE One Shot"
     const cleanChapterName = chapter_id
-      .replace(/^(phy|che|math|bio)_12_/i, '')
+      .replace(/^[a-z]+_\d+_/i, '')
       .replace(/_/g, ' ');
     
     // Clean teacher references / keywords for high precision
@@ -274,33 +306,15 @@ export async function onRequestPost({ request, env }: { request: Request; env: E
       if (title.includes(exam.toLowerCase())) score += 10;
       if (title.includes(subtopic.toLowerCase())) score += 10;
 
-      // Save to D1
-      const insertSql = `
-        INSERT INTO discovered_videos (
-          id, title, channel_name, thumbnailUrl, duration, view_count, 
-          chapter_id, subtopic, subject, class, exam, score, fetched_at, is_available
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, strftime('%s','now'), 1)
-        ON CONFLICT(id) DO UPDATE SET
-          score = ?,
-          fetched_at = strftime('%s','now')
-      `;
-      
-      const params = [
-        videoId,
-        snippet.title,
-        snippet.channelTitle,
-        details.viewCount, // Wait, thumbnail_url is next
-      ];
-      
-      // Let's bind properly matching columns:
-      // columns: id, title, channel_name, thumbnail_url, duration, view_count, chapter_id, subtopic, subject, class, exam, score, fetched_at, is_available
+      // Save to D1 (upsert: update score+timestamp if video already exists)
+      // Note: SQLite/D1 requires lowercase `excluded` in ON CONFLICT DO UPDATE
       await env.DB.prepare(`
         INSERT INTO discovered_videos (
           id, title, channel_name, thumbnail_url, duration, view_count, 
           chapter_id, subtopic, subject, class, exam, score
         ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ON CONFLICT(id) DO UPDATE SET
-          score = EXCLUDED.score,
+          score = excluded.score,
           fetched_at = (unixepoch())
       `).bind(
         videoId,

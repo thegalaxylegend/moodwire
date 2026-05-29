@@ -157,7 +157,12 @@ const VideoPlayerCard = ({
 const VideoThumbCard = ({
     video, isActive, userId, onSelect
 }: { video: Video | LibraryVideo; isActive: boolean; userId: string; onSelect: () => void }) => {
-    const videoId = getYouTubeId(video.videoUrl);
+    // Derive the best thumbnail URL: prefer explicit field, then compute from videoUrl
+    const videoId = getYouTubeId(video.videoUrl ?? '');
+    const thumbSrc = video.thumbnailUrl
+        || (videoId ? `https://img.youtube.com/vi/${videoId}/mqdefault.jpg` : null)
+        || (video.id?.length === 11 ? `https://img.youtube.com/vi/${video.id}/mqdefault.jpg` : null);
+
     const type = inferType(video.title);
     const meta = TYPE_META[type];
     const finished = userId ? isVideoFinished(video.id, userId, '', '') : false;
@@ -173,15 +178,30 @@ const VideoThumbCard = ({
             <div className="flex gap-3 p-3">
                 {/* Thumbnail */}
                 <div className="relative w-24 h-[54px] rounded-xl overflow-hidden shrink-0 bg-black">
-                    {videoId ? (
+                    {thumbSrc ? (
                         <img
-                            src={`https://img.youtube.com/vi/${videoId}/mqdefault.jpg`}
+                            src={thumbSrc}
                             alt={video.title}
                             className="w-full h-full object-cover"
-                            loading="lazy"
+                            onError={(e) => {
+                                const img = e.target as HTMLImageElement;
+                                img.onerror = null; // prevent loop
+                                // Try hqdefault as second attempt
+                                if (videoId && !img.src.includes('hqdefault')) {
+                                    img.src = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+                                } else {
+                                    // Hide image and show gradient placeholder
+                                    img.style.display = 'none';
+                                    const parent = img.parentElement;
+                                    if (parent) {
+                                        parent.style.background = 'linear-gradient(135deg, #1e1b4b 0%, #312e81 100%)';
+                                        parent.innerHTML = `<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;padding:4px;"><span style="font-size:9px;color:rgba(255,255,255,0.5);text-align:center;line-height:1.2;overflow:hidden;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;">${video.title}</span></div>`;
+                                    }
+                                }
+                            }}
                         />
                     ) : (
-                        <div className="w-full h-full flex items-center justify-center bg-white/5">
+                        <div className="w-full h-full flex items-center justify-center" style={{ background: 'linear-gradient(135deg, #1e1b4b 0%, #312e81 100%)' }}>
                             <VideoIcon size={16} className="text-white/30" />
                         </div>
                     )}
@@ -247,7 +267,6 @@ export const ChapterStudyHub = () => {
     const { user } = useUserStore();
 
     const userId = user?.id || 'guest';
-    const userClass = user?.userClass || 'Class 12th';
     const targetExam = user?.targetExam || 'JEE';
 
     const [activeVideo, setActiveVideo] = useState<Video | null>(null);
@@ -260,7 +279,6 @@ export const ChapterStudyHub = () => {
     );
     const [videoTab, setVideoTab] = useState<VideoTab>('guided');
     const [libTab, setLibTab] = useState<LibTab>('all');
-    const [finishToggle, setFinishToggle] = useState(0);
 
     const [cheatSheet, setCheatSheet] = useState<CheatSheetContent | null>(null);
     const [loadingCheatSheet, setLoadingCheatSheet] = useState(false);
@@ -270,29 +288,59 @@ export const ChapterStudyHub = () => {
         if (chapterId) setProgress(SubtopicProgressService.getChapterProgress(userId, chapterId));
     }, [userId, chapterId]);
 
-    // Load guided videos using chapter's own class to avoid caching mismatches
+    // Load guided videos – strictly ONE chapter at a time, 3 structured slots
     useEffect(() => {
         if (!chapter) return;
         setLoadingGuided(true);
         const load = async () => {
             try {
-                const queries = [
-                    `${chapter.topic} ${targetExam} ${chapter.class} full chapter complete one shot`,
-                    `${chapter.topic} ${targetExam} ${chapter.class} quick revision recap`,
-                    ...chapter.subtopics.slice(0, 3).map(sub => `${sub} ${chapter.topic} ${targetExam} ${chapter.class} explained`)
+                const chapterName = chapter.topic;
+                const classLabel = chapter.class;
+                const exam = targetExam;
+
+                // 3 Structured slot queries – all anchored to the chapter name to avoid cross-chapter fallback
+                const slotQueries = [
+                    // Slot 1: Full one-shot / complete chapter video
+                    `${chapterName} ${exam} ${classLabel} full chapter complete one shot`,
+                    // Slot 2: Quick revision / recap
+                    `${chapterName} ${exam} ${classLabel} quick revision recap`,
+                    // Slot 3: First subtopic deep-dive
+                    `${chapterName} ${chapter.subtopics[0] || ''} ${exam} ${classLabel} lecture explained`,
                 ];
+
                 const results = await Promise.allSettled(
-                    queries.map(q => getVideoByTopicIdCached(q, targetExam, userId, chapter.class))
+                    slotQueries.map(q => getVideoByTopicIdCached(q, exam, userId, classLabel))
                 );
+
                 const vids: Video[] = [];
                 const seen = new Set<string>();
+
                 results.forEach(r => {
-                    if (r.status === 'fulfilled' && r.value?.videos) {
-                        r.value.videos.forEach(v => {
-                            if (!seen.has(v.id)) { seen.add(v.id); vids.push(v); }
-                        });
+                    if (r.status === 'fulfilled' && r.value?.videos?.length) {
+                        // Take ONLY the top-scored video from each slot to keep it focused
+                        const best = r.value.videos[0];
+                        if (best && !seen.has(best.id)) {
+                            // Additional chapter relevance check: title must mention the chapter
+                            // or come from a trusted channel to avoid stray results
+                            const titleLower = best.title.toLowerCase();
+                            const chapterKeywords = chapterName.toLowerCase().split(' ').filter(w => w.length > 3);
+                            const isRelevant = chapterKeywords.some(kw => titleLower.includes(kw));
+                            if (isRelevant) {
+                                seen.add(best.id);
+                                vids.push(best);
+                            } else {
+                                // Still include it but from a trusted channel
+                                const trustedChannels = ['physics wallah', 'pw', 'jee wallah', 'vedantu', 'unacademy', 'mathongo', 'apni kaksha', 'alakh', 'neet'];
+                                const isTrusted = trustedChannels.some(ch => best.channelName.toLowerCase().includes(ch));
+                                if (isTrusted) {
+                                    seen.add(best.id);
+                                    vids.push(best);
+                                }
+                            }
+                        }
                     }
                 });
+
                 setGuidedVideos(vids);
                 // Set initial video from URL param or first result
                 const initId = searchParams.get('videoId');
@@ -447,7 +495,7 @@ export const ChapterStudyHub = () => {
                 <div className="grid grid-cols-1 xl:grid-cols-[1fr_360px] gap-6">
 
                     {/* ════════ LEFT: VIDEO AREA ════════ */}
-                    <div className="space-y-4">
+                    <div className="space-y-4 min-w-0">
 
                         {/* Video Player */}
                         {activeVideo ? (
@@ -455,7 +503,7 @@ export const ChapterStudyHub = () => {
                                 video={activeVideo}
                                 chapterId={chapterId || ''}
                                 userId={userId}
-                                onFinish={() => setFinishToggle(n => n + 1)}
+                                onFinish={() => refreshProgress()}
                             />
                         ) : loadingGuided ? (
                             <div className="aspect-video rounded-3xl bg-white/5 border border-white/5 flex items-center justify-center">
@@ -508,8 +556,8 @@ export const ChapterStudyHub = () => {
                         {videoTab === 'guided' && (
                             <div>
                                 {loadingGuided ? (
-                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                                        {[...Array(4)].map((_, i) => (
+                                    <div className="space-y-3">
+                                        {[...Array(3)].map((_, i) => (
                                             <div key={i} className="h-20 rounded-2xl bg-white/5 animate-pulse" />
                                         ))}
                                     </div>
@@ -517,19 +565,33 @@ export const ChapterStudyHub = () => {
                                     <>
                                         <div className="flex items-center gap-2 mb-3">
                                             <p className="text-xs text-white/40 uppercase tracking-widest font-semibold">
-                                                {guidedVideos.length} videos curated for this chapter
+                                                🎯 {guidedVideos.length} curated picks for {chapter?.topic}
                                             </p>
                                         </div>
-                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                                            {guidedVideos.map(v => (
-                                                <VideoThumbCard
-                                                    key={v.id}
-                                                    video={v}
-                                                    isActive={activeVideo?.id === v.id}
-                                                    userId={userId}
-                                                    onSelect={() => setActiveVideo(v)}
-                                                />
-                                            ))}
+                                        <div className="space-y-3">
+                                            {guidedVideos.map((v, idx) => {
+                                                const slotLabels = [
+                                                    { icon: '🎯', label: 'Full One-Shot', color: 'text-violet-400 bg-violet-500/10 border-violet-500/20' },
+                                                    { icon: '⚡', label: 'Quick Revision', color: 'text-amber-400 bg-amber-500/10 border-amber-500/20' },
+                                                    { icon: '🔬', label: 'Topic Focus', color: 'text-sky-400 bg-sky-500/10 border-sky-500/20' },
+                                                ];
+                                                const slot = slotLabels[idx] || slotLabels[2];
+                                                return (
+                                                    <div key={v.id} className="flex items-start gap-2">
+                                                        <div className={`shrink-0 mt-3 flex items-center gap-1 text-[10px] px-2 py-1 rounded-lg border font-semibold ${slot.color}`}>
+                                                            {slot.icon} {slot.label}
+                                                        </div>
+                                                        <div className="flex-1">
+                                                            <VideoThumbCard
+                                                                video={v}
+                                                                isActive={activeVideo?.id === v.id}
+                                                                userId={userId}
+                                                                onSelect={() => setActiveVideo(v)}
+                                                            />
+                                                        </div>
+                                                    </div>
+                                                );
+                                            })}
                                         </div>
                                     </>
                                 ) : (
@@ -786,15 +848,15 @@ export const ChapterStudyHub = () => {
                                         <button
                                             key={sub}
                                             onClick={() => toggleSubtopic(sub)}
-                                            className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-xs text-left transition-all ${isChecked
+                                            className={`w-full flex items-start gap-3 px-3 py-2.5 rounded-xl text-xs text-left transition-all ${isChecked
                                                 ? 'bg-emerald-500/10 border border-emerald-400/20 text-emerald-300'
                                                 : 'bg-white/3 border border-transparent text-white/60 hover:bg-white/8 hover:text-white hover:border-white/10'}`}
                                         >
                                             {isChecked
-                                                ? <CheckCircle2 size={14} className="text-emerald-400 shrink-0" />
-                                                : <Circle size={14} className="text-white/25 shrink-0" />
+                                                ? <CheckCircle2 size={14} className="text-emerald-400 shrink-0 mt-0.5" />
+                                                : <Circle size={14} className="text-white/25 shrink-0 mt-0.5" />
                                             }
-                                            <span className="leading-snug">{sub}</span>
+                                            <span className="leading-snug break-words">{sub}</span>
                                         </button>
                                     );
                                 })}

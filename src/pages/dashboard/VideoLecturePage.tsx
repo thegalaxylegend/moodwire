@@ -1,10 +1,11 @@
 
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import { useState, useEffect, useRef } from 'react';
 import { useUserStore } from '../../store/userStore';
 import { ArrowLeft, Share2, Play, Pause, Volume2, VolumeX, Bookmark, BookmarkCheck, ChevronDown, Check, Loader2, Search, Send, User, Bot, Phone, Settings, X, Paperclip, MessageSquare, Mic, MicOff, BookOpen, Zap } from 'lucide-react';
 import type { Video, Playlist } from '../../services/videoService';
 import { getVideoByTopicIdCached } from '../../services/videoService';
+import { getLibraryForChapter } from '../../services/videoLibraryService';
 import { SEO } from '../../components/SEO';
 import { askAI } from '../../lib/ai';
 import { useChatStore } from '../../store/chatStore';
@@ -238,6 +239,8 @@ const resolveSyllabusTopicBySlug = (slug: string) => {
 export const VideoLecturePage = () => {
     const { topicId } = useParams();
     const navigate = useNavigate();
+    const [searchParams] = useSearchParams();
+    const queryVideoId = searchParams.get('videoId');
     const [playlist, setPlaylist] = useState<Playlist | null>(null);
     const [currentVideo, setCurrentVideo] = useState<Video | null>(null);
     const [loading, setLoading] = useState(true);
@@ -387,18 +390,54 @@ export const VideoLecturePage = () => {
         const fetchVideos = async () => {
             setLoading(true);
             try {
-                // Pass the user's target exam to get relevant videos
-                const data = await getVideoByTopicIdCached(topicId || 'physics-kinematics', user?.targetExam || 'JEE', user?.id || 'anon');
+                // Pass the user's target exam AND class to get relevant videos
+                let data = await getVideoByTopicIdCached(topicId || 'physics-kinematics', user?.targetExam || 'JEE', user?.id || 'anon', user?.userClass || '');
+                
+                // Fallback to D1/static database if YouTube results are empty (e.g. API quota exhausted)
+                if (!data || !data.videos || data.videos.length === 0) {
+                    console.log(`[VideoLecturePage] YouTube search returned empty. Falling back to D1 / static library for chapter: ${topicId}`);
+                    let subject = '';
+                    const resolvedTopic = resolveSyllabusTopicBySlug(topicId || '');
+                    const chapterId = resolvedTopic?.id || topicId || '';
+                    for (const subj of Object.keys(SYLLABUS_DB)) {
+                        if (SYLLABUS_DB[subj].some(c => c.id === chapterId)) {
+                            subject = subj;
+                            break;
+                        }
+                    }
+                    const fallbackVideos = await getLibraryForChapter(chapterId, user?.targetExam || 'JEE', subject, user?.userClass || '');
+                    if (fallbackVideos && fallbackVideos.length > 0) {
+                        data = {
+                            id: `playlist-${topicId}`,
+                            topicId: topicId || '',
+                            title: resolvedTopic?.topic || 'Lecture',
+                            videos: fallbackVideos
+                        };
+                    }
+                }
+
                 setPlaylist(data);
 
                 if (data && data.videos.length > 0) {
-                    // Check if there's a last watched ID stored (more reliable than index/percent)
-                    const lastWatchedId = localStorage.getItem(`last-watched-id-${topicId}`);
-                    let initialVideo = data.videos[0];
-
-                    if (lastWatchedId) {
-                        const found = data.videos.find(v => v.id === lastWatchedId);
+                    // Check if there is a query videoId parameter first
+                    let initialVideo = null;
+                    if (queryVideoId) {
+                        const found = data.videos.find(v => v.id === queryVideoId || getYouTubeId(v.videoUrl) === queryVideoId || getYouTubeId(v.videoUrl) === getYouTubeId(queryVideoId));
                         if (found) initialVideo = found;
+                    }
+
+                    // Fallback to last watched ID stored
+                    if (!initialVideo) {
+                        const lastWatchedId = localStorage.getItem(`last-watched-id-${topicId}`);
+                        if (lastWatchedId) {
+                            const found = data.videos.find(v => v.id === lastWatchedId);
+                            if (found) initialVideo = found;
+                        }
+                    }
+
+                    // Default to the first video
+                    if (!initialVideo) {
+                        initialVideo = data.videos[0];
                     }
 
                     setCurrentVideo(initialVideo);
@@ -410,8 +449,19 @@ export const VideoLecturePage = () => {
             }
         };
         fetchVideos();
-    }, [topicId, user?.targetExam]); // Added targetExam to deps
+    }, [topicId, user?.targetExam, user?.userClass, queryVideoId]); // Added userClass and queryVideoId to deps
 
+
+    // Sync current video when queryVideoId changes
+    useEffect(() => {
+        if (playlist && playlist.videos.length > 0 && queryVideoId) {
+            const found = playlist.videos.find(v => v.id === queryVideoId || getYouTubeId(v.videoUrl) === queryVideoId || getYouTubeId(v.videoUrl) === getYouTubeId(queryVideoId));
+            if (found && found.id !== currentVideo?.id) {
+                setCurrentVideo(found);
+                setIsPlaying(true);
+            }
+        }
+    }, [queryVideoId, playlist]);
 
     // Save progress whenever current video changes
     useEffect(() => {

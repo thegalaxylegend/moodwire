@@ -130,9 +130,12 @@ export const Overview = () => {
     };
 
     const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(displayUser?.userClass || '');
+    const isMedical = (displayUser?.targetExam || '').toLowerCase().includes('neet') || (displayUser?.targetExam || '').toLowerCase().includes('medical');
     const subjects = isJunior 
         ? ['Mathematics', 'Science', 'Social Science', 'English'] 
-        : ['Physics', 'Chemistry', 'Math', 'Overall'];
+        : (isMedical 
+            ? ['Physics', 'Chemistry', 'Biology', 'Overall']
+            : ['Physics', 'Chemistry', 'Math', 'Overall']);
 
     const daysLeft = displayUser?.userClass && ['Class 8th', 'Class 9th', 'Class 10th'].includes(displayUser.userClass)
         ? Math.ceil((new Date(`${new Date().getMonth() > 2 ? new Date().getFullYear() + 1 : new Date().getFullYear()}-03-31`).getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24))
@@ -198,6 +201,18 @@ export const Overview = () => {
 
     useEffect(() => {
         if (user && authResolved) {
+            // One-time cache buster to clear old recommendations and force real working videos
+            const busterKey = `recs_buster_v8_${user.id}`;
+            if (!localStorage.getItem(busterKey)) {
+                const keys = Object.keys(localStorage);
+                keys.forEach(k => {
+                    if (k.startsWith('exam_compass_recommended_videos_') || k.startsWith('vid_cache_v5_')) {
+                        localStorage.removeItem(k);
+                    }
+                });
+                localStorage.setItem(busterKey, 'true');
+                console.log('[Overview] Curated DB cleanup: cleared recommendations cache.');
+            }
             fetchStats();
         } else if (!user) {
             setLoading(false);
@@ -434,10 +449,13 @@ export const Overview = () => {
                 subjectsToFetch = weakStats.map(t => t.topic);
             } else if (user.skills) {
                 console.log('[Overview] Using subject skills for videos.');
+                const isMedical = (user.targetExam || '').toLowerCase().includes('neet') || (user.targetExam || '').toLowerCase().includes('medical');
                 const subjects = [
                     { name: 'Physics', score: user.skills.physics || 0.5 },
                     { name: 'Chemistry', score: user.skills.chemistry || 0.5 },
-                    { name: 'Math', score: user.skills.math || 0.5 }
+                    ...(isMedical 
+                        ? [{ name: 'Biology', score: (user.skills as any).biology || 0.5 }] 
+                        : [{ name: 'Math', score: user.skills.math || 0.5 }])
                 ];
                 subjectsToFetch = subjects.sort((a, b) => a.score - b.score).slice(0, 3).map(s => s.name);
 
@@ -459,7 +477,8 @@ export const Overview = () => {
                 }
             } else {
                 console.log('[Overview] Default fallback videos.');
-                subjectsToFetch = ['Physics', 'Chemistry', 'Math'];
+                const isMedical = (user.targetExam || '').toLowerCase().includes('neet') || (user.targetExam || '').toLowerCase().includes('medical');
+                subjectsToFetch = isMedical ? ['Physics', 'Chemistry', 'Biology'] : ['Physics', 'Chemistry', 'Math'];
                 const placeholderStats: TopicStat[] = subjectsToFetch.map(subject => ({
                     id: `default-${subject}`,
                     user_id: user.id,
@@ -483,12 +502,23 @@ export const Overview = () => {
             try {
                 let cloudMocks: any[] = [];
                 if (!user.isGuest) {
-                    const { db } = await import('../../lib/firebase');
-                    const { collection, query, where, getDocs, orderBy, limit } = await import('firebase/firestore');
-                    const mockColl = collection(db, 'mock_attempts');
-                    const qMock = query(mockColl, where('user_id', '==', user.id), orderBy('timestamp', 'desc'), limit(100));
-                    const snapshotMock = await getDocs(qMock);
-                    cloudMocks = snapshotMock.docs.map(d => ({ ...d.data(), source: 'cloud' }));
+                    try {
+                        const { db } = await import('../../lib/firebase');
+                        const { collection, query, where, getDocs } = await import('firebase/firestore');
+                        const mockColl = collection(db, 'mock_attempts');
+                        const qMock = query(mockColl, where('user_id', '==', user.id));
+                        const snapshotMock = await getDocs(qMock);
+                        cloudMocks = snapshotMock.docs
+                            .map(d => ({ ...d.data(), source: 'cloud' }))
+                            .sort((a: any, b: any) => {
+                                const tA = a.timestamp?.seconds || (a.timestamp ? new Date(a.timestamp).getTime() : 0);
+                                const tB = b.timestamp?.seconds || (b.timestamp ? new Date(b.timestamp).getTime() : 0);
+                                return tB - tA;
+                            })
+                            .slice(0, 100);
+                    } catch (firestoreErr) {
+                        console.warn("Failed to fetch cloud mocks from Firestore, continuing with local history:", firestoreErr);
+                    }
                 }
 
                 const localMocks = await storageService.getHistory(user?.id);
@@ -606,29 +636,9 @@ export const Overview = () => {
                     return true;
                 });
 
-                let mocksToProcess = filteredMocks;
-                let isSimulation = false;
-                if (filteredMocks.length === 0) {
-                    isSimulation = true;
-                    const baseDate = new Date();
-                    if (exam.includes('neet') || exam.includes('medical')) {
-                        mocksToProcess = [
-                            { topic: 'NEET Diagnostic - Physics', score: 96, total: 180, percentage: 53, type: 'topic', created_at: new Date(baseDate.getTime() - 12 * 24 * 60 * 60 * 1000).toISOString() },
-                            { topic: 'NEET Diagnostic - Chemistry', score: 108, total: 180, percentage: 60, type: 'topic', created_at: new Date(baseDate.getTime() - 9 * 24 * 60 * 60 * 1000).toISOString() },
-                            { topic: 'NEET Diagnostic - Biology', score: 224, total: 360, percentage: 62, type: 'topic', created_at: new Date(baseDate.getTime() - 6 * 24 * 60 * 60 * 1000).toISOString() },
-                            { topic: 'NEET UG Part Test #1', score: 480, total: 720, percentage: 67, type: 'quick', created_at: new Date(baseDate.getTime() - 3 * 24 * 60 * 60 * 1000).toISOString() },
-                            { topic: 'NEET UG Full Mock #1', score: 532, total: 720, percentage: 74, type: 'full', created_at: new Date(baseDate.getTime() - 1 * 24 * 60 * 60 * 1000).toISOString() }
-                        ];
-                    } else {
-                        mocksToProcess = [
-                            { topic: 'JEE Mains Diagnostic - Physics', score: 48, total: 100, percentage: 48, type: 'topic', created_at: new Date(baseDate.getTime() - 12 * 24 * 60 * 60 * 1000).toISOString() },
-                            { topic: 'JEE Mains Diagnostic - Chemistry', score: 56, total: 100, percentage: 56, type: 'topic', created_at: new Date(baseDate.getTime() - 9 * 24 * 60 * 60 * 1000).toISOString() },
-                            { topic: 'JEE Mains Diagnostic - Mathematics', score: 62, total: 100, percentage: 62, type: 'topic', created_at: new Date(baseDate.getTime() - 6 * 24 * 60 * 60 * 1000).toISOString() },
-                            { topic: 'JEE Mains Part Test #1', score: 204, total: 300, percentage: 68, type: 'quick', created_at: new Date(baseDate.getTime() - 3 * 24 * 60 * 60 * 1000).toISOString() },
-                            { topic: 'JEE Mains Full Mock #1', score: 228, total: 300, percentage: 76, type: 'full', created_at: new Date(baseDate.getTime() - 1 * 24 * 60 * 60 * 1000).toISOString() }
-                        ];
-                    }
-                }
+                const mocksToProcess = filteredMocks;
+                // Never inject fake simulation data — show 0% honestly when user has no real attempts
+                const isSimulation = false;
 
                 const rawMocksData = mocksToProcess
                     .filter(m => m !== null)
@@ -829,10 +839,10 @@ export const Overview = () => {
     );
 
     const getSubjectCardData = (subject: string) => {
-        let percentage = 50;
+        let percentage = 0;
 
         if (loading || Object.keys(subjectPreparedness).length === 0) {
-            percentage = 50;
+            percentage = 0;
         } else {
             if (subject.toLowerCase() === 'overall') {
                 const vals = Object.values(subjectPreparedness);
@@ -1460,7 +1470,7 @@ export const Overview = () => {
                                                         exit="exit"
                                                         className="w-full flex flex-col cursor-pointer select-none"
                                                     >
-                                                        <Link to={`/dashboard/lectures/${rec.topic.toLowerCase().replace(/\s+/g, '-')}`} className="group oxygen-card bg-surface border border-border rounded-xl overflow-hidden flex flex-col w-full">
+                                                        <Link to={`/dashboard/lectures/${rec.topic.toLowerCase().replace(/\s+/g, '-')}?videoId=${rec.video.id}`} className="group oxygen-card bg-surface border border-border rounded-xl overflow-hidden flex flex-col w-full">
                                                             <div className="relative aspect-video bg-black/20 shrink-0">
                                                                 <img src={rec.video.thumbnailUrl} alt={rec.video.title} className="w-full h-full object-cover" />
                                                                 <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">

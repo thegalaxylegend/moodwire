@@ -2,6 +2,9 @@
 import { generateInspiredQuestion } from '../src/services/questionEngine';
 import * as fs from 'fs';
 import * as path from 'path';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 // --- MOCK BROWSER ---
 if (typeof global.localStorage === 'undefined') {

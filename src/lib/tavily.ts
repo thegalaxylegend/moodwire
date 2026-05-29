@@ -1,4 +1,4 @@
-const apiKey = import.meta.env.VITE_TAVILY_API_KEY;
+const apiKey = (typeof process !== 'undefined' && process.env.VITE_TAVILY_API_KEY) || (typeof import.meta !== 'undefined' && import.meta.env?.VITE_TAVILY_API_KEY);
 
 export async function searchWeb(query: string) {
     if (!apiKey) {

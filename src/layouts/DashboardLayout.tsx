@@ -234,18 +234,30 @@ export const DashboardLayout = () => {
                 }}
             >
                 <div className="p-6 flex items-center justify-between shrink-0">
-                    {(isSidebarOpen || window.innerWidth < 1024) && (
-                        <span className={`text-lg sm:text-xl md:text-2xl font-bold text-white tracking-tighter whitespace-nowrap transition-all duration-300 ${!isSidebarOpen && 'lg:hidden opacity-0 w-0'}`}>
-                            Exam<span className="text-[#a855f7]">Compass</span>
-                        </span>
+                    {isSidebarOpen ? (
+                        <div className="flex items-center gap-2">
+                            <span className="text-lg sm:text-xl md:text-2xl font-bold text-white tracking-tighter whitespace-nowrap transition-all duration-300">
+                                Exam<span className="text-[#a855f7]">Compass</span>
+                            </span>
+                        </div>
+                    ) : (
+                        <button
+                            onClick={() => setIsSidebarOpen(true)}
+                            className="w-9 h-9 mx-auto rounded-xl bg-white/5 hover:bg-white/10 hover:border-primary/30 transition-all duration-300 shrink-0 flex items-center justify-center text-lg font-black text-white tracking-tighter"
+                            aria-label="Open sidebar"
+                        >
+                            E<span className="text-[#a855f7]">C</span>
+                        </button>
                     )}
-                    <button
-                        onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-                        className="p-2 hover:bg-white/5 rounded-lg transition-colors"
-                        aria-label={isSidebarOpen ? 'Close sidebar' : 'Open sidebar'}
-                    >
-                        {isSidebarOpen ? <X size={20} /> : <Menu size={20} />}
-                    </button>
+                    {isSidebarOpen && (
+                        <button
+                            onClick={() => setIsSidebarOpen(false)}
+                            className="p-2 hover:bg-white/5 rounded-lg transition-colors"
+                            aria-label="Close sidebar"
+                        >
+                            <X size={20} />
+                        </button>
+                    )}
                 </div>
 
                 <nav
@@ -304,8 +316,8 @@ export const DashboardLayout = () => {
                 }}
             >
                 {/* Logo + Brand */}
-                <div className="flex items-center gap-2">
-                    <span className="text-lg sm:text-xl md:text-2xl font-bold text-white tracking-tighter">Exam<span className="text-[#a855f7]">Compass</span></span>
+                <div className="flex items-center gap-2.5">
+                    <span className="text-lg sm:text-xl font-bold text-white tracking-tighter">Exam<span className="text-[#a855f7]">Compass</span></span>
                 </div>
                 <div className="flex items-center gap-3">
                     {/* Streak Display (Mobile) */}

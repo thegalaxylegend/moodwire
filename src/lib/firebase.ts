@@ -6,13 +6,13 @@ import { getStorage } from "firebase/storage";
 import { getFunctions } from "firebase/functions";
 
 const firebaseConfig = {
-    apiKey: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_API_KEY) || import.meta.env.VITE_FIREBASE_API_KEY || 'AIzaSyAj0_vu8OxPWVHvAWSRVN90y9GIStvQASY',
-    authDomain: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_AUTH_DOMAIN) || import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || 'legendstech001.firebaseapp.com',
-    projectId: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_PROJECT_ID) || import.meta.env.VITE_FIREBASE_PROJECT_ID || 'legendstech001',
-    storageBucket: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_STORAGE_BUCKET) || import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || 'legendstech001.firebasestorage.app',
-    messagingSenderId: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_MESSAGING_SENDER_ID) || import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || '749589426436',
-    appId: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_APP_ID) || import.meta.env.VITE_FIREBASE_APP_ID || '1:749589426436:web:64b0455b7f90a7849c6051',
-    measurementId: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_MEASUREMENT_ID) || import.meta.env.VITE_FIREBASE_MEASUREMENT_ID || 'G-7MWNJDZ5D0'
+    apiKey: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_API_KEY) || (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_API_KEY) || 'AIzaSyAj0_vu8OxPWVHvAWSRVN90y9GIStvQASY',
+    authDomain: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_AUTH_DOMAIN) || (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_AUTH_DOMAIN) || 'legendstech001.firebaseapp.com',
+    projectId: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_PROJECT_ID) || (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_PROJECT_ID) || 'legendstech001',
+    storageBucket: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_STORAGE_BUCKET) || (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_STORAGE_BUCKET) || 'legendstech001.firebasestorage.app',
+    messagingSenderId: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_MESSAGING_SENDER_ID) || (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_MESSAGING_SENDER_ID) || '749589426436',
+    appId: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_APP_ID) || (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_APP_ID) || '1:749589426436:web:64b0455b7f90a7849c6051',
+    measurementId: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_MEASUREMENT_ID) || (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_MEASUREMENT_ID) || 'G-7MWNJDZ5D0'
 };
 
 // Initialize Firebase

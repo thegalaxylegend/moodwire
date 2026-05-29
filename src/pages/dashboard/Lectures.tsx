@@ -322,6 +322,7 @@ export const Lectures = () => {
             // 1. One-shot: Full chapter complete lecture
             const oneShotQuery = `${topic.topic} ${targetExam} ${classLabel} full chapter complete one shot`;
             const oneShotPlaylist = await getVideoByTopicIdCached(oneShotQuery, targetExam, 'anon', classLabel);
+            let oneShotVideo: Video | null = oneShotPlaylist?.videos?.[0] || null;
 
             // 2. Recap: Previous chapter quick revision (if exists)
             let recapVideo: Video | null = null;
@@ -343,10 +344,34 @@ export const Lectures = () => {
                 } catch (e) { /* skip */ }
             }
 
+            // If YouTube search failed or returned empty (e.g. quota exhausted), fall back to D1/static library
+            if (!oneShotVideo || topicVideos.length === 0) {
+                console.log(`[Lectures] Empty results from YouTube API. Pulling fallbacks from D1/static for: ${topic.topic}`);
+                try {
+                    const fallbackVideos = await getLibraryForChapter(topic.id, targetExam, subject, classLabel, false);
+                    if (fallbackVideos && fallbackVideos.length > 0) {
+                        if (!oneShotVideo) {
+                            oneShotVideo = fallbackVideos.find(v => v.type === 'oneshot' || v.type === 'detailed') || fallbackVideos[0] || null;
+                        }
+                        if (topicVideos.length === 0) {
+                            const subtopicVideos = fallbackVideos.filter(v => v.type === 'topic_wise');
+                            if (subtopicVideos.length > 0) {
+                                topicVideos.push(...subtopicVideos.slice(0, 3));
+                            } else {
+                                const extraVideos = fallbackVideos.filter(v => v.id !== oneShotVideo?.id);
+                                topicVideos.push(...extraVideos.slice(0, 3));
+                            }
+                        }
+                    }
+                } catch (fallbackErr) {
+                    console.error('[Lectures] Guided sequence fallback fetch failed:', fallbackErr);
+                }
+            }
+
             setActiveChapter(prev => prev ? {
                 ...prev,
                 videos: {
-                    oneShot: oneShotPlaylist?.videos?.[0] || null,
+                    oneShot: oneShotVideo,
                     recap: recapVideo,
                     topicVideos,
                     loaded: true
@@ -355,9 +380,18 @@ export const Lectures = () => {
 
         } catch (e) {
             console.error('[Lectures] Video load error:', e);
-            setActiveChapter(prev => prev ? {
-                ...prev, videos: { oneShot: null, recap: null, topicVideos: [], loaded: true }
-            } : null);
+            // Final fallback: try loading any video from D1 for this chapter
+            try {
+                const fallbackVideos = await getLibraryForChapter(topic.id, targetExam, subject, topic.class, false);
+                const fallbackOne = fallbackVideos[0]?.id ? fallbackVideos[0] as Video : null;
+                setActiveChapter(prev => prev ? {
+                    ...prev, videos: { oneShot: fallbackOne, recap: null, topicVideos: [], loaded: true }
+                } : null);
+            } catch {
+                setActiveChapter(prev => prev ? {
+                    ...prev, videos: { oneShot: null, recap: null, topicVideos: [], loaded: true }
+                } : null);
+            }
         }
 
         setLoadingVideos(false);
@@ -1041,7 +1075,7 @@ export const Lectures = () => {
                                                                     </p>
                                                                     {activeChapter.videos.topicVideos.map((v, i) => (
                                                                         <VideoCard
-                                                                            key={v.id}
+                                                                            key={`${v.id}-${i}`}
                                                                             video={v}
                                                                             label={`🎯 ${topic.subtopics[i] || 'Focus Video'}`}
                                                                             sublabel="Deep dive on one concept"

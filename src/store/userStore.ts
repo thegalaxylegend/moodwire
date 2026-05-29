@@ -30,6 +30,7 @@ export type User = {
         physics: number;
         chemistry: number;
         math: number;
+        biology?: number;
         lastUpdated: string;
     };
     commonMistakes?: string[]; // Semantic memory for weak topics
@@ -59,6 +60,8 @@ export type User = {
 
 interface UserState {
     user: User | null;
+    subProfiles: { id: string; name: string; userClass: string; targetExam: string }[] | null;
+    activeProfileId: string | null;
     isAuthenticated: boolean;
     isLoading: boolean;
     isInitialized: boolean;
@@ -79,6 +82,9 @@ interface UserState {
     syncUserData: () => Promise<void>;
     checkAbandonment: () => Promise<void>;
     onClassChange: (uid: string, oldClass: string, newClass: string, targetExam?: string) => Promise<boolean>;
+    createSubProfile: (name: string, userClass: string, targetExam: string) => Promise<void>;
+    switchProfile: (profileId: string) => Promise<void>;
+    deleteSubProfile: (profileId: string) => Promise<void>;
 }
 
 // Helper to synchronously hydrate from localStorage (Optimistic Load)
@@ -87,10 +93,11 @@ const hydrateFromLocal = (uid?: string): User | null => {
     try {
         // 1. Try Scoped Cache first (if UID provided)
         if (uid) {
-            const cachedAuth = localStorage.getItem(`exam_compass_auth_cache_${uid}`);
+            const activeId = localStorage.getItem(`ec_active_profile_id_${uid}`) || uid;
+            const cachedAuth = localStorage.getItem(`exam_compass_auth_cache_${activeId}`);
             if (cachedAuth) {
                 const user = JSON.parse(cachedAuth);
-                if (user && user.id === uid && !user.isGuest) return user;
+                if (user && user.id === activeId && !user.isGuest) return user;
             }
         }
 
@@ -108,7 +115,8 @@ const hydrateFromLocal = (uid?: string): User | null => {
         const fixedId = localStorage.getItem('exam_compass_fixed_guest_id');
         if (!fixedId) return null;
 
-        const profileStr = localStorage.getItem(`guest_profile_${fixedId}`);
+        const activeId = localStorage.getItem(`ec_active_profile_id_${fixedId}`) || fixedId;
+        const profileStr = localStorage.getItem(`guest_profile_${activeId}`);
         if (!profileStr) return null;
 
         const profile = JSON.parse(profileStr);
@@ -127,7 +135,7 @@ const hydrateFromLocal = (uid?: string): User | null => {
             userClass: profile.user_class,
             onboardingCompleted: profile.onboarding_completed || false,
             role: profile.role || 'user',
-            skills: profile.skills || { physics: 0.5, chemistry: 0.5, math: 0.5, lastUpdated: new Date().toISOString() },
+            skills: profile.skills || { physics: 0.5, chemistry: 0.5, math: 0.5, biology: 0.5, lastUpdated: new Date().toISOString() },
             commonMistakes: profile.common_mistakes || [],
             syllabusProgress: 0,
             recentChat: profile.recent_chat || [],
@@ -152,6 +160,8 @@ let classChangeInProgress = false;
 
 export const useUserStore = create<UserState>((set, get) => ({
     user: localUser,
+    subProfiles: null,
+    activeProfileId: null,
     isAuthenticated: !!localUser,
     isLoading: false, // Don't block UI for auth state resolution. We rely on optimistic UI and fast redirects.
     isInitialized: !!localUser, // Initialized if cache exists
@@ -281,11 +291,77 @@ export const useUserStore = create<UserState>((set, get) => ({
                     console.error("❌ Fatal profile error:", err);
                 }
 
+                // --- SUB-PROFILE INFRASTRUCTURE FETCHING & RESOLUTION ---
+                let parsedSubProfiles: { id: string; name: string; userClass: string; targetExam: string }[] = [];
+                let activeId = user.uid;
+                
+                if (user.isAnonymous) {
+                    const fixedGuestId = localStorage.getItem('exam_compass_fixed_guest_id') || user.uid;
+                    if (!localStorage.getItem('exam_compass_fixed_guest_id')) {
+                        localStorage.setItem('exam_compass_fixed_guest_id', fixedGuestId);
+                    }
+                    
+                    let guestSubProfilesRaw = localStorage.getItem(`guest_sub_profiles_${fixedGuestId}`);
+                    if (guestSubProfilesRaw) {
+                        try { parsedSubProfiles = JSON.parse(guestSubProfilesRaw); } catch(e) {}
+                    }
+                    
+                    if (!parsedSubProfiles || parsedSubProfiles.length === 0) {
+                        parsedSubProfiles = [{
+                            id: fixedGuestId,
+                            name: 'Guest Student',
+                            userClass: 'Class 11',
+                            targetExam: 'JEE'
+                        }];
+                        localStorage.setItem(`guest_sub_profiles_${fixedGuestId}`, JSON.stringify(parsedSubProfiles));
+                    }
+                    
+                    activeId = localStorage.getItem(`ec_active_profile_id_${fixedGuestId}`) || fixedGuestId;
+                } else {
+                    const primaryProfile = profile;
+                    if (primaryProfile && primaryProfile.sub_profiles) {
+                        parsedSubProfiles = primaryProfile.sub_profiles.map((p: any) => ({
+                            id: p.id,
+                            name: p.name,
+                            userClass: p.user_class || p.userClass || '',
+                            targetExam: p.target_exam || p.targetExam || ''
+                        }));
+                    }
+                    
+                    if (!parsedSubProfiles.some(p => p.id === user.uid)) {
+                        parsedSubProfiles.unshift({
+                            id: user.uid,
+                            name: primaryProfile?.full_name || user.email?.split('@')[0] || 'Primary Student',
+                            userClass: primaryProfile?.user_class || 'Class 11',
+                            targetExam: primaryProfile?.target_exam || 'JEE'
+                        });
+                    }
+                    
+                    activeId = localStorage.getItem(`ec_active_profile_id_${user.uid}`) || user.uid;
+                    if (activeId !== user.uid) {
+                        try {
+                            console.log(`📡 [Firestore] Fetching active sub-profile for ${activeId}...`);
+                            const subDocRef = doc(db, "profiles", activeId);
+                            const subDocSnap = await getDoc(subDocRef);
+                            if (subDocSnap.exists()) {
+                                profile = subDocSnap.data();
+                            } else {
+                                console.warn(`Sub-profile document ${activeId} not found in Firestore. Falling back to primary.`);
+                                localStorage.setItem(`ec_active_profile_id_${user.uid}`, user.uid);
+                                activeId = user.uid;
+                            }
+                        } catch (subErr) {
+                            console.error("Error fetching sub-profile doc:", subErr);
+                            activeId = user.uid;
+                        }
+                    }
+                }
+
                 // --- DATA RECOVERY & CONSOLIDATION ---
                 const cached = hydrateFromLocal(user.uid);
                 
                 // A. Fallback to Cache if Firestore Fetch failed (or doc missing)
-                if (!profile && cached && cached.id === user.uid && !cached.isGuest) {
+                if (!profile && cached && cached.id === activeId && !cached.isGuest) {
                     console.log("🩹 [Fallback] No Firestore profile found. Hydrating from local cache.");
                     profile = {
                         full_name: cached.name,
@@ -311,7 +387,7 @@ export const useUserStore = create<UserState>((set, get) => ({
                 if (user.isAnonymous) {
                     const fixedGuestId = localStorage.getItem('exam_compass_fixed_guest_id');
                     let localProfileString = fixedGuestId ? localStorage.getItem(`guest_profile_${fixedGuestId}`) : null;
-                    if (!localProfileString) localProfileString = localStorage.getItem(`guest_profile_${user.uid}`);
+                    if (!localProfileString) localProfileString = localStorage.getItem(`guest_profile_${activeId}`);
 
                     if (localProfileString) {
                         try {
@@ -471,8 +547,8 @@ export const useUserStore = create<UserState>((set, get) => ({
                 console.log(`📡 [Profile] Firestore Data (processed):`, profile);
 
                 const finalUserObj: User = {
-                    id: user.uid,
-                    email: user.email || `guest_${user.uid.slice(0, 6)}@examcompass.app`,
+                    id: activeId,
+                    email: user.isAnonymous ? `guest_${activeId.slice(0, 6)}@examcompass.app` : (activeId === user.uid ? (user.email || `guest_${user.uid.slice(0, 6)}@examcompass.app`) : `sub_${activeId.slice(-6)}@examcompass.app`),
                     name: profile?.full_name || (user.isAnonymous ? 'Guest Student' : user.email?.split('@')[0] || 'User'),
                     avatarUrl: (profile?.avatar_url && profile.avatar_url.trim().length > 0) ? profile.avatar_url : (user.photoURL || undefined),
                     targetExam: profile?.target_exam || profile?.targetExam,
@@ -510,7 +586,9 @@ export const useUserStore = create<UserState>((set, get) => ({
                     isInitialized: true,
                     authResolved: true,
                     isLoading: false,
-                    user: finalUserObj
+                    user: finalUserObj,
+                    subProfiles: parsedSubProfiles,
+                    activeProfileId: activeId
                 });
                 
                 console.log(`✅ [UserStore] Final User Object:`, finalUserObj);
@@ -518,7 +596,7 @@ export const useUserStore = create<UserState>((set, get) => ({
                 // CACHE FOR INSTANT LOAD
                 if (!user.isAnonymous) {
                     localStorage.setItem('exam_compass_auth_cache', JSON.stringify(finalUserObj));
-                    localStorage.setItem(`exam_compass_auth_cache_${user.uid}`, JSON.stringify(finalUserObj));
+                    localStorage.setItem(`exam_compass_auth_cache_${activeId}`, JSON.stringify(finalUserObj));
                     // Cleanup intent once successfully authenticated
                     localStorage.removeItem('exam_compass_intent');
                     // Trigger Background Syncs
@@ -785,7 +863,7 @@ export const useUserStore = create<UserState>((set, get) => ({
     },
 
     updateProfile: async (data: Partial<User>) => {
-        const { user } = get();
+        const { user, subProfiles, activeProfileId } = get();
         if (!user) return;
 
         const newUser = { ...user, ...data };
@@ -824,6 +902,42 @@ export const useUserStore = create<UserState>((set, get) => ({
         if (data.abilityScore !== undefined) updates.ability_score = data.abilityScore;
         if (data.calibrationProfile !== undefined) updates.calibration_profile = data.calibrationProfile;
         if (data.examDate !== undefined) updates.exam_date = data.examDate;
+
+        // If sub-profile metadata changes, update the subProfiles list in memory and in primary document / localStorage
+        if (data.name !== undefined || data.userClass !== undefined || data.targetExam !== undefined) {
+            if (subProfiles && activeProfileId) {
+                const updatedSubProfiles = subProfiles.map((p: any) => {
+                    if (p.id === activeProfileId) {
+                        return {
+                            ...p,
+                            name: data.name !== undefined ? data.name : p.name,
+                            userClass: data.userClass !== undefined ? data.userClass : p.userClass,
+                            targetExam: data.targetExam !== undefined ? data.targetExam : p.targetExam
+                        };
+                    }
+                    return p;
+                });
+                
+                set({ subProfiles: updatedSubProfiles });
+                
+                const primaryUid = auth.currentUser?.uid;
+                if (primaryUid) {
+                    if (auth.currentUser?.isAnonymous) {
+                        const fixedGuestId = localStorage.getItem('exam_compass_fixed_guest_id') || primaryUid;
+                        localStorage.setItem(`guest_sub_profiles_${fixedGuestId}`, JSON.stringify(updatedSubProfiles));
+                    } else {
+                        // For authenticated users, update the sub_profiles in primary document
+                        const subProfilesData = updatedSubProfiles.map((p: any) => ({
+                            id: p.id,
+                            name: p.name,
+                            user_class: p.userClass,
+                            target_exam: p.targetExam
+                        }));
+                        await updateDoc(doc(db, "profiles", primaryUid), { sub_profiles: subProfilesData });
+                    }
+                }
+            }
+        }
 
         try {
             if (!user.isGuest) {
@@ -868,14 +982,9 @@ export const useUserStore = create<UserState>((set, get) => ({
         }
 
         if (auth.currentUser?.isAnonymous) {
-            let fixedId = localStorage.getItem('exam_compass_fixed_guest_id');
-            if (!fixedId) {
-                fixedId = user.id;
-                localStorage.setItem('exam_compass_fixed_guest_id', fixedId as string);
-            }
-            const existing = JSON.parse(localStorage.getItem(`guest_profile_${fixedId}`) || '{}');
+            const existing = JSON.parse(localStorage.getItem(`guest_profile_${user.id}`) || '{}');
             const newContent = JSON.stringify({ ...existing, ...updates });
-            localStorage.setItem(`guest_profile_${fixedId}`, newContent);
+            localStorage.setItem(`guest_profile_${user.id}`, newContent);
         }
     },
 
@@ -943,7 +1052,7 @@ export const useUserStore = create<UserState>((set, get) => ({
 
         // Normalize subject to match schema keys
         const key = subject.toLowerCase() as keyof typeof user.skills;
-        if (!['physics', 'chemistry', 'math'].includes(key)) return;
+        if (!['physics', 'chemistry', 'math', 'biology'].includes(key)) return;
 
         const currentVal = (user.skills as any)[key] || 0.5;
         let newVal = currentVal + delta;
@@ -1181,5 +1290,116 @@ export const useUserStore = create<UserState>((set, get) => ({
 
             console.log(`🚀 Mission Completed: ${mission.title}. Awarded ${mission.rewardXp} XP.`);
         }
+    },
+
+    createSubProfile: async (name: string, userClass: string, targetExam: string) => {
+        const primaryUid = auth.currentUser?.uid;
+        if (!primaryUid) return;
+
+        const subId = `${primaryUid}_sub_${Date.now()}`;
+        const { subProfiles } = get();
+        
+        const newSub = {
+            id: subId,
+            name,
+            userClass,
+            targetExam
+        };
+        const updatedSubProfiles = [...(subProfiles || []), newSub];
+
+        if (auth.currentUser?.isAnonymous) {
+            const fixedGuestId = localStorage.getItem('exam_compass_fixed_guest_id') || primaryUid;
+            localStorage.setItem(`guest_sub_profiles_${fixedGuestId}`, JSON.stringify(updatedSubProfiles));
+            
+            const subProfileData = {
+                full_name: name,
+                user_class: userClass,
+                target_exam: targetExam,
+                streak: 0,
+                xp: 0,
+                total_points: 0,
+                onboarding_completed: true,
+                skills: { physics: 0.5, chemistry: 0.5, math: 0.5, biology: 0.5, lastUpdated: new Date().toISOString() }
+            };
+            localStorage.setItem(`guest_profile_${subId}`, JSON.stringify(subProfileData));
+        } else {
+            // Write sub-profiles registry update in primary profile doc
+            const subProfilesData = updatedSubProfiles.map((p: any) => ({
+                id: p.id,
+                name: p.name,
+                user_class: p.userClass,
+                target_exam: p.targetExam
+            }));
+            await updateDoc(doc(db, "profiles", primaryUid), { sub_profiles: subProfilesData });
+
+            // Create new sub-profile document in Firestore
+            const subProfileData = {
+                full_name: name,
+                user_class: userClass,
+                target_exam: targetExam,
+                created_at: new Date(),
+                streak: 0,
+                xp: 0,
+                total_points: 0,
+                lifetime_xp: 0,
+                onboarding_completed: true,
+                skills: { physics: 0.5, chemistry: 0.5, math: 0.5, biology: 0.5, lastUpdated: new Date().toISOString() },
+                common_mistakes: [],
+                role: 'user'
+            };
+            await setDoc(doc(db, "profiles", subId), subProfileData);
+        }
+
+        // Set new active profile and trigger reload
+        localStorage.setItem(`ec_active_profile_id_${primaryUid}`, subId);
+        // Clear syllabus cache
+        localStorage.removeItem(`syllabus_cache_${primaryUid}`);
+        window.location.reload();
+    },
+
+    switchProfile: async (profileId: string) => {
+        const primaryUid = auth.currentUser?.uid;
+        if (!primaryUid) return;
+
+        localStorage.setItem(`ec_active_profile_id_${primaryUid}`, profileId);
+        // Clear syllabus cache
+        localStorage.removeItem(`syllabus_cache_${primaryUid}`);
+        window.location.reload();
+    },
+
+    deleteSubProfile: async (profileId: string) => {
+        const primaryUid = auth.currentUser?.uid;
+        if (!primaryUid) return;
+
+        // Disallow deleting the primary profile
+        if (profileId === primaryUid) return;
+
+        const { subProfiles, activeProfileId } = get();
+        if (!subProfiles) return;
+
+        const updatedSubProfiles = subProfiles.filter((p: any) => p.id !== profileId);
+
+        if (auth.currentUser?.isAnonymous) {
+            const fixedGuestId = localStorage.getItem('exam_compass_fixed_guest_id') || primaryUid;
+            localStorage.setItem(`guest_sub_profiles_${fixedGuestId}`, JSON.stringify(updatedSubProfiles));
+            localStorage.removeItem(`guest_profile_${profileId}`);
+        } else {
+            // Update primary document sub_profiles array
+            const subProfilesData = updatedSubProfiles.map((p: any) => ({
+                id: p.id,
+                name: p.name,
+                user_class: p.userClass,
+                target_exam: p.targetExam
+            }));
+            await updateDoc(doc(db, "profiles", primaryUid), { sub_profiles: subProfilesData });
+            // Optionally, delete/ignore the firestore document for this sub-profile.
+        }
+
+        // If the deleted profile was the active one, switch back to primary
+        if (activeProfileId === profileId) {
+            localStorage.setItem(`ec_active_profile_id_${primaryUid}`, primaryUid);
+        }
+
+        window.location.reload();
     }
 }));
