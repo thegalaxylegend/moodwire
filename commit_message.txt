@@ -1,7 +1,0 @@
-🧪 Add tests for extractAndSaveMemory error paths
-
-🎯 What: Added test coverage for `src/lib/memoryExtractor.ts` focusing on the `extractAndSaveMemory` error paths.
-📊 Coverage: Added two specific test cases:
-  1. Handles an API error from `modelRouter.route` by falling back safely to returning an empty array and logging via `console.error`.
-  2. Handles an invalid JSON response from the API by correctly catching the parsing error, logging a `console.warn`, and returning an empty array.
-✨ Result: `extractAndSaveMemory` now has robust validation for failure modes, and the test suite correctly asserts fallback logic avoiding regressions. Also fixed a broken assertion in `src/lib/utils.test.ts`.
