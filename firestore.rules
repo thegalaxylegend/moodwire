@@ -24,18 +24,11 @@ service cloud.firestore {
       return isSignedIn() && resource.data.user_id == request.auth.uid;
     }
 
-    // --- GLOBAL ADMIN BYPASS ---
-    // This allows authorized admins to read/write EVERYTHING
-    // Placed at root to ensure it catches collection-wide queries
-    match /{path=**} {
-      allow read, write: if isAdmin();
-    }
-
     // --- COLLECTION RULES ---
     
     match /engine_questions/{question} {
       allow get: if true;
-      allow list: if request.query.limit <= 50;
+      allow list: if request.query.limit <= 50 || isAdmin();
       allow write: if isAdmin(); // Only admins can modify the engine
     }
 
@@ -111,12 +104,12 @@ service cloud.firestore {
     
     match /group_battles/{battleId} {
       allow read, create, update: if isSignedIn();
-      allow delete: if isSignedIn() && resource.data.hostId == request.auth.uid;
+      allow delete: if (isSignedIn() && resource.data.hostId == request.auth.uid) || isAdmin();
     }
 
     match /battle_sessions/{sessionId} {
       allow read, create, update: if isSignedIn();
-      allow delete: if isSignedIn() && (resource.data.player1.id == request.auth.uid || (resource.data.player2 != null && resource.data.player2.id == request.auth.uid));
+      allow delete: if (isSignedIn() && (resource.data.player1.id == request.auth.uid || (resource.data.player2 != null && resource.data.player2.id == request.auth.uid))) || isAdmin();
     }
 
     // --- STUDENT RETENTION SYSTEM ---
@@ -135,7 +128,8 @@ service cloud.firestore {
 
     match /referral_codes/{code} {
       allow read: if true;
-      allow create, update: if isSignedIn();
+      allow create, update: if isSignedIn() || isAdmin();
+      allow delete: if isAdmin();
     }
 
     match /referral_stats/{userId} {
