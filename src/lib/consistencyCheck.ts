@@ -21,19 +21,19 @@ export function normalizeScientificNotation(text: string): string {
     if (!text) return '';
     
     // 1. LaTeX scientific notation: e.g., 1.6 \times 10^{-19} or 1.6 \times 10^-19
-    let normalized = text.replace(/(-?\d+\.?\d*)\s*(?:\\times|\\cdot|\*|×|·)\s*10\^\{?(-?\d+)\}?/g, '$1e$2');
+    let normalized = text.replace(/([+-]?\d+\.?\d*)\s*(?:\\times|\\cdot|\*|×|·)\s*10\^\{?([+-]?\d+)\}?/g, '$1e$2');
     
     // 2. Unicode scientific notation: e.g., 1.6 × 10⁻¹⁹
-    normalized = normalized.replace(/(-?\d+\.?\d*)\s*(?:\\times|\\cdot|\*|×|·)\s*10([⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻]+)/g, (match, mantissa, exponentGroup) => {
+    normalized = normalized.replace(/([+-]?\d+\.?\d*)\s*(?:\\times|\\cdot|\*|×|·)\s*10([⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻]+)/g, (_match, mantissa, exponentGroup) => {
         const asciiExp = exponentGroup.split('').map((char: string) => superscriptMap[char] || char).join('');
         return `${mantissa}e${asciiExp}`;
     });
     
     // 3. Standalone base-10 powers: e.g. 10^-19 or 10^{-19} -> 1e-19
-    normalized = normalized.replace(/(?<!\d)10\^\{?(-?\d+)\}?/g, '1e$1');
+    normalized = normalized.replace(/(?<!\d)10\^\{?([+-]?\d+)\}?/g, '1e$1');
     
     // 4. Standalone Unicode base-10 powers: e.g. 10⁻¹⁹ -> 1e-19
-    normalized = normalized.replace(/(?<!\d)10([⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻]+)/g, (match, exponentGroup) => {
+    normalized = normalized.replace(/(?<!\d)10([⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻]+)/g, (_match, exponentGroup) => {
         const asciiExp = exponentGroup.split('').map((char: string) => superscriptMap[char] || char).join('');
         return `1e${asciiExp}`;
     });
@@ -49,7 +49,10 @@ export function extractNumbers(text: string | any): number[] {
     if (!text || typeof text !== 'string') return [];
     
     // Normalize scientific notation first!
-    const normalized = normalizeScientificNotation(text);
+    let normalized = normalizeScientificNotation(text);
+    
+    // Strip caret-exponents (e.g. ^-1, ^2, ^{-1}) to prevent unit exponents from being parsed as numbers
+    normalized = normalized.replace(/\^\{?[+-]?\d+\}?/g, '');
     
     // Match: -13.6, 2.5, 0.005, 6.022e23, 1e-5
     const matches = normalized.match(/-?\d+\.?\d*(?:[eE][+-]?\d+)?/g);
@@ -82,7 +85,7 @@ export function extractFinalValue(rawDerivationText: string | any): number | nul
 
     // Strategy 1: Find all "= <number>" or "≈ <number>" patterns, take the last one
     // This catches chains like "= 20 * 0.125 = 2.5" or "≈ 0.14"
-    const equalPatterns = text.match(/(?:=|≈|~|→)\s*(-?\d+\.?\d*(?:[eE][+-]?\d+)?)/g);
+    const equalPatterns = text.match(/(?:=|≈|~|→|->|=>)\s*(-?\d+\.?\d*(?:[eE][+-]?\d+)?)/g);
     if (equalPatterns && equalPatterns.length > 0) {
         const lastEqual = equalPatterns[equalPatterns.length - 1];
         const numMatch = lastEqual.match(/-?\d+\.?\d*(?:[eE][+-]?\d+)?/);
@@ -94,8 +97,8 @@ export function extractFinalValue(rawDerivationText: string | any): number | nul
 
     // Strategy 2: Look for explicit answer keywords
     const answerKeywords = [
-        /(?:answer|result|value|total|output|final)\s*(?:is|=|:|equals|→|≈|~)\s*(-?\d+\.?\d*(?:[eE][+-]?\d+)?)/gi,
-        /(?:therefore|thus|hence|so)\s*[,.]?\s*(?:the\s+)?(?:answer|result|value)?\s*(?:is|=|:|→|≈|~)?\s*(-?\d+\.?\d*(?:[eE][+-]?\d+)?)/gi,
+        /(?:answer|result|value|total|output|final)\s*(?:is|=|:|equals|→|≈|~|->|=>)\s*(-?\d+\.?\d*(?:[eE][+-]?\d+)?)/gi,
+        /(?:therefore|thus|hence|so)\s*[,.]?\s*(?:the\s+)?(?:answer|result|value)?\s*(?:is|=|:|→|≈|~|->|=>)?\s*(-?\d+\.?\d*(?:[eE][+-]?\d+)?)/gi,
     ];
 
     for (const pattern of answerKeywords) {
@@ -206,7 +209,7 @@ export function checkDerivationConsistency(
         return { consistent: true, derivedValue, answeredValue, percentDiff };
     }
 
-    // Check with standard metric prefixes (SI unit scaling, e.g. m to nm, C to uC, V to mV)
+    // SI metric scaling check (e.g. 4.87e-7 m vs 487 nm)
     const ratio = derivedValue / answeredValue;
     const validMetricScales = [
         1e-12, // pico (pm)
@@ -214,6 +217,8 @@ export function checkDerivationConsistency(
         1e-6,  // micro (um, uC)
         1e-3,  // milli (mm, mV)
         1e-2,  // centi (cm)
+        1e-1,  // deci (dm)
+        1e1,   // deca
         1e2,   // hecto
         1e3,   // kilo (km, kW)
         1e6,   // mega (MHz)
