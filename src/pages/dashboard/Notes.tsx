@@ -608,7 +608,7 @@ export const Notes = () => {
                     className="absolute top-0 left-0 w-[800px] bg-white text-black p-16 -z-10 pointer-events-none"
                     style={{ fontFamily: "'Times New Roman', serif", visibility: 'hidden' }}
                 >
-                    <style dangerouslySetInnerHTML={{ __html: `
+                    <style>{`
                         * { box-sizing: border-box; word-wrap: break-word; }
                         #pdf-shadow-renderer h1 { font-size: 32pt; text-align: center; color: #4338ca; border-bottom: 2px solid #6366f1; padding-bottom: 20px; margin-bottom: 40px; font-weight: 900; }
                         #pdf-shadow-renderer h2 { font-size: 24pt; color: #1e1b4b; border-left: 12px solid #6366f1; padding-left: 20px; background: #f8fafc; margin-top: 50px; padding-block: 20px; font-weight: 800; page-break-after: avoid; }
@@ -621,7 +621,7 @@ export const Notes = () => {
                         #pdf-shadow-renderer table { width: 100%; border-collapse: collapse; margin: 30px 0; }
                         #pdf-shadow-renderer th, #pdf-shadow-renderer td { border: 1px solid #e2e8f0; padding: 12px; font-size: 11pt; }
                         #pdf-shadow-renderer th { background: #f8fafc; font-weight: 800; }
-                    ` }} />
+                    `}</style>
                     <div style={{ backgroundColor: '#ffffff' }}>
                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '50px', paddingBottom: '20px', borderBottom: '3px solid #e2e8f0' }}>
                             <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
