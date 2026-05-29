@@ -57,9 +57,7 @@ export const SEO = (props: SEOProps) => {
         }
     }
 
-    const encodedTitle = encodeURIComponent(fullTitle);
-    const encodedSub = encodeURIComponent(SITE_URL.replace('https://', ''));
-    const imageUrl = image || `${SITE_URL}/api/og?title=${encodedTitle}&sub=${encodedSub}`;
+    const imageUrl = image || `${SITE_URL}/og-image.png`;
 
     return (
         <Helmet defer={false}>
