@@ -6,13 +6,13 @@ import { getStorage } from "firebase/storage";
 import { getFunctions } from "firebase/functions";
 
 const firebaseConfig = {
-    apiKey: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_API_KEY) || (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_API_KEY) || '',
-    authDomain: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_AUTH_DOMAIN) || (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_AUTH_DOMAIN) || '',
-    projectId: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_PROJECT_ID) || (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_PROJECT_ID) || '',
-    storageBucket: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_STORAGE_BUCKET) || (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_STORAGE_BUCKET) || '',
-    messagingSenderId: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_MESSAGING_SENDER_ID) || (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_MESSAGING_SENDER_ID) || '',
-    appId: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_APP_ID) || (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_APP_ID) || '',
-    measurementId: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_MEASUREMENT_ID) || (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_MEASUREMENT_ID) || ''
+    apiKey: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_API_KEY) || (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_API_KEY) || 'AIzaSy' + 'dummykey'.repeat(4),
+    authDomain: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_AUTH_DOMAIN) || (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_AUTH_DOMAIN) || 'dummy.firebaseapp.com',
+    projectId: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_PROJECT_ID) || (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_PROJECT_ID) || 'dummy-project-id',
+    storageBucket: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_STORAGE_BUCKET) || (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_STORAGE_BUCKET) || 'dummy.firebasestorage.app',
+    messagingSenderId: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_MESSAGING_SENDER_ID) || (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_MESSAGING_SENDER_ID) || '123456789012',
+    appId: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_APP_ID) || (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_APP_ID) || '1:123456789012:web:dummyappid123456',
+    measurementId: (typeof process !== 'undefined' && process.env.VITE_FIREBASE_MEASUREMENT_ID) || (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_MEASUREMENT_ID) || 'G-DUMMY12345'
 };
 
 // Initialize Firebase
