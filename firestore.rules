@@ -24,6 +24,21 @@ service cloud.firestore {
       return isSignedIn() && resource.data.user_id == request.auth.uid;
     }
 
+
+    function isValidDocument() {
+      let data = request.resource.data;
+      return data.keys().hasOnly(['user_id', 'title', 'content', 'pyqs', 'note_type', 'created_at', 'lecture_id', 'video_id']) &&
+             data.keys().hasAll(['user_id', 'title', 'content', 'created_at']) &&
+             data.user_id is string &&
+             data.title is string &&
+             data.content is string &&
+             data.created_at is string &&
+             (!('pyqs' in data) || data.pyqs is list) &&
+             (!('note_type' in data) || data.note_type is string) &&
+             (!('lecture_id' in data) || data.lecture_id is string) &&
+             (!('video_id' in data) || data.video_id is string);
+    }
+
     // --- GLOBAL ADMIN BYPASS ---
     // This allows authorized admins to read/write EVERYTHING
     // Placed at root to ensure it catches collection-wide queries
@@ -46,7 +61,7 @@ service cloud.firestore {
 
     match /documents/{docId} {
       allow read, delete: if isDataOwner() || isAdmin();
-      allow create, update: if (isSignedIn() && request.resource.data.user_id == request.auth.uid) || isAdmin();
+      allow create, update: if (isSignedIn() && request.resource.data.user_id == request.auth.uid && isValidDocument()) || isAdmin();
     }
 
     match /user_topic_stats/{stat} {
