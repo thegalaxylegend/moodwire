@@ -140,8 +140,8 @@ export const updateTopicStrength = async (
             correctCount = (existing.correct_count || 0) + (isCorrect ? 1 : 0);
             totalAttempts = (existing.total_attempts || 0) + 1;
 
-            // Running average for time
-            avgTime = ((existing.avg_time || 60) * (existing.total_attempts || 0) + (timeSpent || 60)) / totalAttempts;
+            // Running average for time — capped to 1 decimal to prevent float drift
+            avgTime = Number((((existing.avg_time || 60) * (existing.total_attempts || 0) + (timeSpent || 60)) / totalAttempts).toFixed(1));
 
             // Last 5 results
             last5Results = [...(existing.last_5_results || []), isCorrect].slice(-5);

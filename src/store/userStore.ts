@@ -996,19 +996,10 @@ export const useUserStore = create<UserState>((set, get) => ({
         localStorage.removeItem('exam_compass_local_history');
         localStorage.removeItem('exam_compass_intent');
 
-        // 2. Conditional Referral Clear
-        const refRaw = localStorage.getItem('referral_code');
-        if (refRaw) {
-            try {
-                const parsed = JSON.parse(refRaw);
-                const isOld = (Date.now() - (parsed.savedAt || 0)) > REFERRAL_TTL_MS;
-                // Clear if old or if we have a mismatching UID (but here we are logging out, 
-                // so we only keep it if it's fresh and might be used by a guest/new signup)
-                if (isOld) localStorage.removeItem('referral_code');
-            } catch (e) {
-                localStorage.removeItem('referral_code');
-            }
-        }
+        // 2. Unconditional Referral Clear (Security: prevents previous user's code
+        //    from being silently applied to a new registrant on the same browser)
+        localStorage.removeItem('referral_code');
+        sessionStorage.removeItem('referral_code');
 
         // 3. Clear Scoped Cache
         if (uid) {
@@ -1350,11 +1341,25 @@ export const useUserStore = create<UserState>((set, get) => ({
             await setDoc(doc(db, "profiles", subId), subProfileData);
         }
 
-        // Set new active profile and trigger reload
+        // Set new active profile — update Zustand state reactively (no page reload)
         localStorage.setItem(`ec_active_profile_id_${primaryUid}`, subId);
-        // Clear syllabus cache
         localStorage.removeItem(`syllabus_cache_${primaryUid}`);
-        window.location.reload();
+
+        const freshUser: User = {
+            id: subId,
+            email: auth.currentUser?.email || '',
+            name,
+            targetExam,
+            userClass,
+            streak: 0,
+            xp: 0,
+            totalPoints: 0,
+            dailyStudyTime: 0,
+            onboardingCompleted: true,
+            role: 'user',
+            skills: { physics: 0.5, chemistry: 0.5, math: 0.5, biology: 0.5, lastUpdated: new Date().toISOString() },
+        };
+        set({ user: freshUser, activeProfileId: subId, subProfiles: updatedSubProfiles });
     },
 
     switchProfile: async (profileId: string) => {
@@ -1362,9 +1367,17 @@ export const useUserStore = create<UserState>((set, get) => ({
         if (!primaryUid) return;
 
         localStorage.setItem(`ec_active_profile_id_${primaryUid}`, profileId);
-        // Clear syllabus cache
         localStorage.removeItem(`syllabus_cache_${primaryUid}`);
-        window.location.reload();
+
+        // Hydrate the target profile from cache (avoids a full page reload)
+        const switchedUser = hydrateFromLocal(primaryUid);
+        if (switchedUser) {
+            set({ user: switchedUser, activeProfileId: profileId });
+        } else {
+            // Fallback: if hydration fails, re-run the full initialize flow
+            isAuthListenerAttached = false;
+            get().initialize();
+        }
     },
 
     deleteSubProfile: async (profileId: string) => {
@@ -1396,10 +1409,17 @@ export const useUserStore = create<UserState>((set, get) => ({
         }
 
         // If the deleted profile was the active one, switch back to primary
+        let newActiveId = activeProfileId === profileId ? primaryUid : activeProfileId;
         if (activeProfileId === profileId) {
             localStorage.setItem(`ec_active_profile_id_${primaryUid}`, primaryUid);
         }
 
-        window.location.reload();
+        // Update Zustand state reactively — no page reload needed
+        const primaryUser = hydrateFromLocal(primaryUid);
+        set({
+            subProfiles: updatedSubProfiles,
+            activeProfileId: newActiveId,
+            ...(activeProfileId === profileId && primaryUser ? { user: primaryUser } : {}),
+        });
     }
 }));

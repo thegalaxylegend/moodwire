@@ -1,3 +1,0 @@
-chunk_name, size_kb, size_gzipped_kb, flag_if_over_budget
-index-HzSd9-Iv.js, 1224.63, 334.81, YES
-index-MfNkvubD.css, 274.36, 42.90, YES

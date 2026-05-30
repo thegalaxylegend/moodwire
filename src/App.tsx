@@ -73,7 +73,6 @@ const ProfilePage = lazy(() => import('./pages/dashboard/ProfilePage').then(modu
 const Onboarding = lazy(() => import('./pages/dashboard/Onboarding').then(module => ({ default: module.Onboarding })));
 const DiagnosticTest = lazy(() => import('./pages/dashboard/DiagnosticTest').then(module => ({ default: module.DiagnosticTest })));
 const TestCenter = lazy(() => import('./pages/dashboard/TestCenter').then(module => ({ default: module.TestCenter })));
-const ActiveTest = lazy(() => import('./pages/dashboard/ActiveTest').then(module => ({ default: module.ActiveTest })));
 const SubjectSyllabus = lazy(() => import('./pages/dashboard/SubjectSyllabus').then(module => ({ default: module.SubjectSyllabus })));
 const RankInfo = lazy(() => import('./pages/dashboard/RankInfo').then(module => ({ default: module.RankInfo })));
 const ConceptMap = lazy(() => import('./pages/dashboard/ConceptMap').then(module => ({ default: module.ConceptMap })));
@@ -93,7 +92,6 @@ const AuditLogs = lazy(() => import('./pages/admin/AuditLogs').then(module => ({
 
 // Components
 const Chatbot = lazy(() => import('./components/Chatbot').then(module => ({ default: module.Chatbot })));
-const LevelUpModal = lazy(() => import('./components/gamification/LevelUpModal').then(module => ({ default: module.LevelUpModal })));
 const PWAInstall = lazy(() => import('./components/PWAInstall').then(module => ({ default: module.PWAInstall })));
 
 const isServer = typeof window === 'undefined' || (typeof window !== 'undefined' && (window as any).__PRERENDER__);
@@ -156,8 +154,6 @@ const RootRoute = () => {
 function AppContent() {
   const { initialize } = useUserStore();
   const { tier } = usePerformance();
-  const [showLevelUp, setShowLevelUp] = useState(false);
-  const [levelUpXp] = useState(0);
   const [isOffline, setIsOffline] = useState(false);
 
   // eslint-disable-next-line react-doctor/effect-needs-cleanup
@@ -267,7 +263,7 @@ function AppContent() {
                 <Route path="analytics" element={<Suspense fallback={<AnalyticsSkeleton />}><Analytics /></Suspense>} />
                 <Route path="resources" element={<Resources />} />
                 <Route path="test-center" element={<Suspense fallback={<TestCenterSkeleton />}><TestCenter /></Suspense>} />
-                <Route path="test-active" element={<ActiveTest />} />
+                <Route path="test-active" element={<Navigate to="/dashboard/test-center" replace />} />
                 <Route path="profile" element={<ProfilePage />} />
                 <Route path="ranks" element={<RankInfo />} />
                 <Route path="concept-map" element={<ConceptMap />} />
@@ -302,11 +298,7 @@ function AppContent() {
 
         <Suspense fallback={null}><DelayedGlobalComponents /></Suspense>
         
-        {showLevelUp && !isServer && (
-          <Suspense fallback={null}>
-            <LevelUpModal newXp={levelUpXp} onClose={() => setShowLevelUp(false)} />
-          </Suspense>
-        )}
+
       </div>
     </SmoothScroll>
   );

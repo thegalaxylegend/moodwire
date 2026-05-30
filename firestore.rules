@@ -155,6 +155,31 @@ service cloud.firestore {
       allow read, update, delete: if isAdmin();
     }
 
+    // --- CHAPTER PROGRESS ---
+    match /chapter_progress/{progressId} {
+      allow read, delete: if isDataOwner() || isAdmin();
+      allow create, update: if (isSignedIn() && request.resource.data.user_id == request.auth.uid) || isAdmin();
+    }
+
+    // --- MOCK RESULTS ---
+    match /mock_results/{resultId} {
+      allow read, delete: if isDataOwner() || isAdmin();
+      allow create, update: if (isSignedIn() && request.resource.data.user_id == request.auth.uid) || isAdmin();
+    }
+
+    // --- ADMIN AUDIT QUARANTINE ---
+    match /audit_quarantine/{entryId} {
+      allow read, create: if isAdmin();
+      allow update, delete: if isAdmin();
+    }
+
+    // --- COMMUNITY PYQs ---
+    match /community_pyqs/{pyqId} {
+      allow read: if isSignedIn();
+      allow create: if isSignedIn() && request.resource.data.user_id == request.auth.uid;
+      allow update, delete: if isDataOwner() || isAdmin();
+    }
+
     // Public Blog Metadata (Synced by Jules)
     match /content_metadata/{docId} {
       allow read: if true;
