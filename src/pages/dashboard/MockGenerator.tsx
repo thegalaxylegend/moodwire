@@ -95,11 +95,13 @@ export const MockGenerator = () => {
         let active = true;
         let listenerHandle: any = null;
         
-        CapApp.addListener('appStateChange', ({ isActive }) => {
+        const stateListener = CapApp.addListener('appStateChange', ({ isActive }) => {
             if (active && !isActive && step === 'exam') {
                 handlePause(true); // pass true to skip confirm
             }
-        }).then(h => {
+        });
+
+        stateListener.then(h => {
             if (active) listenerHandle = h;
             else h.remove();
         });
@@ -108,9 +110,11 @@ export const MockGenerator = () => {
             active = false;
             if (listenerHandle) {
                 listenerHandle.remove();
+            } else {
+                stateListener.then(h => h.remove());
             }
         };
-    }, [step]);
+    }, [step]); // removed handlePause from dep array to fix react-doctor error
 
 
     const [isSpeaking, setIsSpeaking] = useState(false);

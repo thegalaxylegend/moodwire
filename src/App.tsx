@@ -162,12 +162,15 @@ function AppContent() {
     Network.getStatus().then((status) => {
       if (active) setIsOffline(!status.connected);
     });
-    const networkListener = Network.addListener('networkStatusChange', (status) => {
+    let listenerRef = null;
+    Network.addListener('networkStatusChange', (status) => {
       if (active) setIsOffline(!status.connected);
-    });
+    }).then(l => listenerRef = l);
     return () => {
       active = false;
-      networkListener.then(listener => listener.remove());
+      if (listenerRef) {
+        listenerRef.remove();
+      }
     };
   }, []);
 
