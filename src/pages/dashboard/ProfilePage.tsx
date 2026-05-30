@@ -264,7 +264,11 @@ export const ProfilePage = () => {
                                             key={theme.id}
                                             onClick={() => {
                                                 const root = document.documentElement;
-                                                theme.id === 'glass' ? root.removeAttribute('data-theme') : root.setAttribute('data-theme', theme.id);
+                                                if (theme.id === 'glass') {
+                                                    root.removeAttribute('data-theme');
+                                                } else {
+                                                    root.setAttribute('data-theme', theme.id);
+                                                }
                                                 localStorage.setItem('theme', theme.id);
                                             }}
                                             className="aspect-square rounded-xl border border-border bg-surface hover:bg-white/5 flex items-center justify-center text-lg transition-all focus:ring-2 focus:ring-primary"

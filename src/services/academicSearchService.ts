@@ -163,7 +163,6 @@ export const AcademicSearchService = {
             const encodedQuery = encodeURIComponent(query);
             const url = `https://api.semanticscholar.org/graph/v1/paper/search?query=${encodedQuery}&limit=${limit}&fields=title,abstract,url,year`;
             
-            // @ts-ignore
             const apiKey = typeof process !== 'undefined' ? process.env.VITE_SEMANTIC_SCHOLAR_KEY : (typeof import.meta !== 'undefined' && import.meta.env?.VITE_SEMANTIC_SCHOLAR_KEY);
             
             const response = await fetch(url, {

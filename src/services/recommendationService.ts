@@ -203,7 +203,7 @@ export const getRecommendedVideos = async (
 
         // Determine the primary ongoing chapter (Physics first, then by subjects order)
         let primaryOngoingChapter: SyllabusTopic | null = ongoingChapters[0]?.chapter || null;
-        let primaryOngoingSubject = ongoingChapters[0]?.subject || subjects[0] || 'Physics';
+        const primaryOngoingSubject = ongoingChapters[0]?.subject || subjects[0] || 'Physics';
         if (!primaryOngoingChapter) {
             const fallbackChapters = getChaptersForUser(userClass, targetExam, subjects[0] || 'Physics');
             primaryOngoingChapter = fallbackChapters[0] || null;

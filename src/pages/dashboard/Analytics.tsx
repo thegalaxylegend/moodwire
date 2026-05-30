@@ -1,7 +1,8 @@
 import { useState, useEffect, useMemo } from 'react';
 import { Loader2, BarChart3, LineChart, TrendingUp } from 'lucide-react';
 import { useUserStore } from '../../store/userStore';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import { CustomSelect } from '../../components/CustomSelect';
 import { AuthGate } from '../../components/auth/AuthGate';
 import { ScorePredictor } from '../../components/ScorePredictor';
@@ -11,6 +12,7 @@ import { storageService } from '../../services/storageService';
 
 export const Analytics = () => {
     const { user } = useUserStore();
+    const navigate = useNavigate();
     const [loading, setLoading] = useState(true);
     const [isDemoData, setIsDemoData] = useState(false);
 
@@ -25,6 +27,14 @@ export const Analytics = () => {
     // Derived State for UI
     const [weakAreas, setWeakAreas] = useState<string[]>([]);
     const [subjectStats, setSubjectStats] = useState<any>(null);
+    const [isMobileScreen, setIsMobileScreen] = useState(false);
+
+    useEffect(() => {
+        const checkMobile = () => setIsMobileScreen(window.innerWidth < 768);
+        checkMobile();
+        window.addEventListener('resize', checkMobile);
+        return () => window.removeEventListener('resize', checkMobile);
+    }, []);
 
     useEffect(() => {
         if (user) {
@@ -106,8 +116,6 @@ export const Analytics = () => {
 
             // 4. Calculate Syllabus Stats
             const fmtStats: any = {};
-            let totalMasterySum = 0;
-
             relevantSubjects.forEach(subj => {
                 const s = statsObj[subj];
                 const completionPct = s.total > 0 ? Math.round((s.master / s.total) * 100) : 0;
@@ -116,7 +124,6 @@ export const Analytics = () => {
                     mastery: s.count > 0 ? Math.round(s.scoreSum / s.count) : 0,
                     source: 'syllabus'
                 };
-                totalMasterySum += fmtStats[subj].percentage;
             });
 
             // 5. Fetch Mocks
@@ -177,34 +184,7 @@ export const Analytics = () => {
 
             let mocksToProcess: any[] = filteredMocks;
             let isSimulation = false;
-            
-            if (filteredMocks.length === 0) {
-                isSimulation = true;
-                setIsDemoData(true);
-                const exam = user?.targetExam?.toLowerCase() || '';
-                const baseDate = new Date();
-                
-                if (exam.includes('neet') || exam.includes('medical')) {
-                    mocksToProcess = [
-                        { topic: 'NEET Diagnostic - Physics', score: 96, total: 180, percentage: 53, type: 'topic', created_at: new Date(baseDate.getTime() - 12 * 24 * 60 * 60 * 1000).toISOString() },
-                        { topic: 'NEET Diagnostic - Chemistry', score: 108, total: 180, percentage: 60, type: 'topic', created_at: new Date(baseDate.getTime() - 9 * 24 * 60 * 60 * 1000).toISOString() },
-                        { topic: 'NEET Diagnostic - Biology', score: 224, total: 360, percentage: 62, type: 'topic', created_at: new Date(baseDate.getTime() - 6 * 24 * 60 * 60 * 1000).toISOString() },
-                        { topic: 'NEET UG Part Test #1', score: 480, total: 720, percentage: 67, type: 'quick', created_at: new Date(baseDate.getTime() - 3 * 24 * 60 * 60 * 1000).toISOString() },
-                        { topic: 'NEET UG Full Mock #1', score: 532, total: 720, percentage: 74, type: 'full', created_at: new Date(baseDate.getTime() - 1 * 24 * 60 * 60 * 1000).toISOString() }
-                    ];
-                } else {
-                    // Default to JEE Mains
-                    mocksToProcess = [
-                        { topic: 'JEE Mains Diagnostic - Physics', score: 48, total: 100, percentage: 48, type: 'topic', created_at: new Date(baseDate.getTime() - 12 * 24 * 60 * 60 * 1000).toISOString() },
-                        { topic: 'JEE Mains Diagnostic - Chemistry', score: 56, total: 100, percentage: 56, type: 'topic', created_at: new Date(baseDate.getTime() - 9 * 24 * 60 * 60 * 1000).toISOString() },
-                        { topic: 'JEE Mains Diagnostic - Mathematics', score: 62, total: 100, percentage: 62, type: 'topic', created_at: new Date(baseDate.getTime() - 6 * 24 * 60 * 60 * 1000).toISOString() },
-                        { topic: 'JEE Mains Part Test #1', score: 204, total: 300, percentage: 68, type: 'quick', created_at: new Date(baseDate.getTime() - 3 * 24 * 60 * 60 * 1000).toISOString() },
-                        { topic: 'JEE Mains Full Mock #1', score: 228, total: 300, percentage: 76, type: 'full', created_at: new Date(baseDate.getTime() - 1 * 24 * 60 * 60 * 1000).toISOString() }
-                    ];
-                }
-            } else {
-                setIsDemoData(false);
-            }
+            setIsDemoData(false);
 
             const rawMocksData = mocksToProcess
                 .filter(m => m !== null)
@@ -295,7 +275,6 @@ export const Analytics = () => {
                 });
             });
 
-            totalMasterySum = 0;
             relevantSubjects.forEach(subj => {
                 const cal = user?.calibrationProfile;
                 const subKey = subj.toLowerCase() === 'mathematics' || subj.toLowerCase() === 'math' ? 'math' : subj.toLowerCase();
@@ -330,7 +309,6 @@ export const Analytics = () => {
                 };
 
                 if (fmtStats[subj].percentage < 40) weak.push(subj);
-                totalMasterySum += fmtStats[subj].percentage;
             });
 
             setSubjectStats(fmtStats);
@@ -400,8 +378,9 @@ export const Analytics = () => {
     }, [rawMocks, timeRange, testFilter]);
 
     const visibleMocks = useMemo(() => {
-        return (Array.isArray(filteredData) ? filteredData : []).slice(-20);
-    }, [filteredData]);
+        const limit = isMobileScreen ? 8 : 20;
+        return (Array.isArray(filteredData) ? filteredData : []).slice(-limit);
+    }, [filteredData, isMobileScreen]);
 
     const visibleScores = useMemo(() => {
         return visibleMocks.map(m => Math.min(100, Math.max(0, m.normalizedScore)));
@@ -430,29 +409,51 @@ export const Analytics = () => {
             <div className="space-y-8 animate-fade-in-up">
                 <header className="flex flex-col md:flex-row md:items-end justify-between gap-4">
                     <div>
-                        <h1 className="text-3xl font-heading font-bold text-text-main">Performance Analytics</h1>
-                        <p className="text-white/70">Real-time analysis of your diagnostic and mock history.</p>
+                        <h1 className="text-2xl sm:text-3xl font-heading font-bold text-text-main">Performance Analytics</h1>
+                        <p className="text-xs sm:text-sm text-white/70">Real-time analysis of your diagnostic and mock history.</p>
                     </div>
 
                     {/* Main Controls */}
-                    <div className="flex flex-wrap items-center gap-3 bg-surface p-2 rounded-xl border border-border mt-4 md:mt-0">
-                        {/* Time Filter */}
-                        <div className="flex items-center gap-1 bg-black/20 rounded-lg p-1">
-                            {(['1W', '1M', '3M', '1Y'] as const).map((r) => (
+                    <div className="grid grid-cols-1 sm:flex sm:flex-wrap items-center gap-3 bg-surface/50 sm:bg-surface p-3 sm:p-2 rounded-2xl border border-border mt-4 md:mt-0 w-full sm:w-auto">
+                        <div className="flex items-center justify-between gap-3 w-full sm:w-auto">
+                            {/* Time Filter */}
+                            <div className="flex flex-1 sm:flex-none items-center gap-1 bg-black/20 rounded-lg p-1">
+                                {(['1W', '1M', '3M', '1Y'] as const).map((r) => (
+                                    <button type="button"
+                                        key={r}
+                                        onClick={() => setTimeRange(r)}
+                                        className={`flex-1 sm:flex-none px-3 py-1.5 text-xs font-bold rounded-md transition-all ${timeRange === r ? 'bg-primary text-white shadow-md' : 'text-white/60 hover:text-white hover:bg-white/5'}`}
+                                    >
+                                        {r}
+                                    </button>
+                                ))}
+                            </div>
+
+                            <div className="w-[1px] h-6 bg-border mx-1 hidden sm:block"></div>
+
+                            {/* Visual Toggle */}
+                            <div className="flex items-center gap-1 bg-black/20 rounded-lg p-1 shrink-0">
                                 <button type="button"
-                                    key={r}
-                                    onClick={() => setTimeRange(r)}
-                                    className={`px-3 py-1.5 text-xs font-bold rounded-md transition-all ${timeRange === r ? 'bg-primary text-white shadow-md' : 'text-white/60 hover:text-white hover:bg-white/5'}`}
+                                    onClick={() => setChartType('bar')}
+                                    className={`p-1.5 rounded-md transition-all ${chartType === 'bar' ? 'bg-secondary text-white shadow-md' : 'text-white/60 hover:text-white'}`}
+                                    title="Bar Chart"
                                 >
-                                    {r}
+                                    <BarChart3 size={16} />
                                 </button>
-                            ))}
+                                <button type="button"
+                                    onClick={() => setChartType('line')}
+                                    className={`p-1.5 rounded-md transition-all ${chartType === 'line' ? 'bg-secondary text-white shadow-md' : 'text-white/60 hover:text-white'}`}
+                                    title="Line Chart"
+                                >
+                                    <LineChart size={16} />
+                                </button>
+                            </div>
                         </div>
 
-                        <div className="w-[1px] h-6 bg-border mx-1 hidden md:block"></div>
+                        <div className="w-[1px] h-6 bg-border mx-1 hidden sm:block"></div>
 
                         {/* Type Filter (Custom Dropdown) */}
-                        <div className="w-44 relative z-30">
+                        <div className="w-full sm:w-44 relative z-30">
                             <CustomSelect
                                 value={testFilter}
                                 onChange={(val) => setTestFilter(val as any)}
@@ -465,36 +466,41 @@ export const Analytics = () => {
                                 placement="bottom"
                             />
                         </div>
-
-                        <div className="w-[1px] h-6 bg-border mx-1 hidden md:block"></div>
-
-                        {/* Visual Toggle */}
-                        <div className="flex items-center gap-1 bg-black/20 rounded-lg p-1">
-                            <button type="button"
-                                onClick={() => setChartType('bar')}
-                                className={`p-1.5 rounded-md transition-all ${chartType === 'bar' ? 'bg-secondary text-white shadow-md' : 'text-white/60 hover:text-white'}`}
-                                title="Bar Chart"
-                            >
-                                <BarChart3 size={16} />
-                            </button>
-                            <button type="button"
-                                onClick={() => setChartType('line')}
-                                className={`p-1.5 rounded-md transition-all ${chartType === 'line' ? 'bg-secondary text-white shadow-md' : 'text-white/60 hover:text-white'}`}
-                                title="Line Chart"
-                            >
-                                <LineChart size={16} />
-                            </button>
-                        </div>
                     </div>
                 </header>
 
+                {rawMocks.length === 0 && (
+                    <motion.div
+                        initial={{ opacity: 0, y: 15 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        className="glass-card p-8 text-center space-y-6 bg-gradient-to-br from-primary/10 via-surface to-secondary/5 border-primary/20 relative overflow-hidden my-6"
+                    >
+                        <div className="absolute top-0 right-0 size-32 bg-primary/10 blur-[80px] rounded-full" />
+                        <div className="size-16 mx-auto rounded-full bg-primary/20 flex items-center justify-center">
+                            <TrendingUp size={32} className="text-primary animate-pulse" />
+                        </div>
+                        <div className="max-w-md mx-auto space-y-2">
+                            <h2 className="text-2xl font-bold text-text-main">No Test History Yet</h2>
+                            <p className="text-sm text-text-muted leading-relaxed">
+                                Take a 5-minute Quick Test or studied chapter practice in our Test Center to begin mapping your learning curves and All India Rank predictions!
+                            </p>
+                        </div>
+                        <button type="button"
+                            onClick={() => navigate('/dashboard/test-center')}
+                            className="px-8 py-3 bg-primary text-white font-bold rounded-xl hover:scale-105 transition-transform shadow-lg shadow-primary/20 mx-auto block"
+                        >
+                            Start Your First Test
+                        </button>
+                    </motion.div>
+                )}
+
                 {/* Rank Predictor & Stats */}
                 <div className="grid grid-cols-1 gap-8">
-                    <div className="w-full glass-card oxygen-card p-6 space-y-6 flex flex-col">
-                        <div className="flex justify-between items-start">
+                    <div className="w-full glass-card oxygen-card p-4 sm:p-6 space-y-6 flex flex-col">
+                        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
                             <div className="space-y-1">
-                                <div className="flex items-center gap-2">
-                                    <h3 className="text-xl font-bold text-text-main">Performance Trends</h3>
+                                <div className="flex flex-wrap items-center gap-2">
+                                    <h3 className="text-lg sm:text-xl font-bold text-text-main">Performance Trends</h3>
                                     {isDemoData && (
                                         <span className="px-2 py-0.5 rounded bg-yellow-500/10 text-yellow-400 border border-yellow-500/20 text-[9px] font-black uppercase tracking-widest animate-pulse">
                                             Simulated Baseline
@@ -508,7 +514,7 @@ export const Analytics = () => {
                                 </p>
                             </div>
                             {visibleScores.length > 0 && (
-                                <div className="text-right">
+                                <div className="text-left sm:text-right shrink-0">
                                     <span className="text-2xl font-bold text-primary">{Math.round(visibleScores.reduce((a, b) => a + b, 0) / visibleScores.length)}%</span>
                                     <p className="text-[10px] text-white/60 uppercase tracking-wider font-semibold">Avg Score</p>
                                 </div>
@@ -643,13 +649,13 @@ export const Analytics = () => {
 
                 {/* Hero Section: Rank Evolution */}
                 <div className="space-y-6 py-4">
-                    <div className="flex items-end gap-3 px-2">
-                        <div className="p-2 bg-primary/10 rounded-xl">
+                    <div className="flex items-center gap-3 px-2">
+                        <div className="p-2 bg-primary/10 rounded-xl shrink-0">
                             <TrendingUp className="text-primary" size={24} />
                         </div>
                         <div>
-                            <h2 className="text-3xl font-black text-white uppercase tracking-tighter italic leading-none">AIR Prediction Engine</h2>
-                            <p className="text-[10px] font-bold text-white/50 uppercase tracking-[0.3em] mt-1">Deep Learning v2.4 • 2026 Normalization Bias</p>
+                            <h2 className="text-xl sm:text-3xl font-black text-white uppercase tracking-tighter italic leading-tight">AIR Prediction Engine</h2>
+                            <p className="text-[9px] sm:text-[10px] font-bold text-white/50 uppercase tracking-[0.2em] sm:tracking-[0.3em] mt-1">Deep Learning v2.4 • 2026 Normalization Bias</p>
                         </div>
                     </div>
                     <div className="max-w-5xl">
@@ -761,59 +767,107 @@ export const Analytics = () => {
                         {visibleMocks.length === 0 ? (
                             <p className="text-white/60">No tests matching criteria.</p>
                         ) : (
-                            <div className="overflow-x-auto">
-                                <table className="w-full text-left border-collapse">
-                                    <thead>
-                                        <tr className="text-white/60 text-xs uppercase tracking-wider border-b border-border">
-                                            <th className="py-2 px-4 pb-3">Test &amp; Category</th>
-                                            <th className="py-2 px-4 pb-3">Raw / Normalized Score</th>
-                                            <th className="py-2 px-4 pb-3">Status</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody className="text-text-main text-sm">
-                                        {Array.isArray(visibleMocks) && visibleMocks.map((mock, i) => {
-                                            const score = Math.min(100, Math.max(0, mock.normalizedScore));
-                                            const title = mock.topic || mock.exam || 'Adaptive Practice Test';
-                                            const dateStr = mock.created_at
-                                                ? new Date(mock.created_at).toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' })
-                                                : '—';
-                                            const rawScoreStr = mock.score !== undefined
-                                                ? `${mock.score} / ${mock.maxScore || 100}`
-                                                : `${score}%`;
-                                            const typeLabel = mock.type === 'quick'
-                                                ? 'Quick Test'
-                                                : mock.type === 'full'
-                                                ? 'Full Mock'
-                                                : mock.type === 'topic'
-                                                ? 'Topic Test'
-                                                : 'Practice';
-                                                
-                                            return (
-                                                <tr key={mock.id || i} className="border-b border-border/50 hover:bg-white/5 transition-colors">
-                                                    <td className="py-3 px-4">
-                                                        <div>
-                                                            <p className="font-bold text-text-main">{title}</p>
-                                                            <p className="text-[10px] text-white/50 mt-0.5">{dateStr} • {typeLabel}</p>
-                                                        </div>
-                                                    </td>
-                                                    <td className="py-3 px-4 font-mono font-bold text-primary">{rawScoreStr}</td>
-                                                    <td className="py-3 px-4">
-                                                        <span className={`px-2.5 py-1 rounded-full text-[10px] font-black uppercase ${
-                                                            score >= 75
-                                                                ? 'bg-green-500/10 text-green-400 border border-green-500/20'
-                                                                : score >= 45
-                                                                ? 'bg-blue-500/10 text-blue-400 border border-blue-500/20'
-                                                                : 'bg-red-500/10 text-red-400 border border-red-500/20'
-                                                        }`}>
-                                                            {score >= 75 ? 'Mastered' : score >= 45 ? 'Developing' : 'Rebuilding'}
-                                                        </span>
-                                                    </td>
-                                                </tr>
-                                            );
-                                        })}
-                                    </tbody>
-                                </table>
-                            </div>
+                            <>
+                                {/* Desktop Table */}
+                                <div className="hidden sm:block overflow-x-auto">
+                                    <table className="w-full text-left border-collapse">
+                                        <thead>
+                                            <tr className="text-white/60 text-xs uppercase tracking-wider border-b border-border">
+                                                <th className="py-2 px-4 pb-3">Test &amp; Category</th>
+                                                <th className="py-2 px-4 pb-3">Raw / Normalized Score</th>
+                                                <th className="py-2 px-4 pb-3">Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody className="text-text-main text-sm">
+                                            {Array.isArray(visibleMocks) && visibleMocks.map((mock, i) => {
+                                                const score = Math.min(100, Math.max(0, mock.normalizedScore));
+                                                const title = mock.topic || mock.exam || 'Adaptive Practice Test';
+                                                const dateStr = mock.created_at
+                                                    ? new Date(mock.created_at).toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' })
+                                                    : '—';
+                                                const rawScoreStr = mock.score !== undefined
+                                                    ? `${mock.score} / ${mock.maxScore || 100}`
+                                                    : `${score}%`;
+                                                const typeLabel = mock.type === 'quick'
+                                                    ? 'Quick Test'
+                                                    : mock.type === 'full'
+                                                    ? 'Full Mock'
+                                                    : mock.type === 'topic'
+                                                    ? 'Topic Test'
+                                                    : 'Practice';
+                                                    
+                                                return (
+                                                    <tr key={mock.id || i} className="border-b border-border/50 hover:bg-white/5 transition-colors">
+                                                        <td className="py-3 px-4">
+                                                            <div>
+                                                                <p className="font-bold text-text-main">{title}</p>
+                                                                <p className="text-[10px] text-white/50 mt-0.5">{dateStr} • {typeLabel}</p>
+                                                            </div>
+                                                        </td>
+                                                        <td className="py-3 px-4 font-mono font-bold text-primary">{rawScoreStr}</td>
+                                                        <td className="py-3 px-4">
+                                                            <span className={`px-2.5 py-1 rounded-full text-[10px] font-black uppercase ${
+                                                                score >= 75
+                                                                    ? 'bg-green-500/10 text-green-400 border border-green-500/20'
+                                                                    : score >= 45
+                                                                    ? 'bg-blue-500/10 text-blue-400 border border-blue-500/20'
+                                                                    : 'bg-red-500/10 text-red-400 border border-red-500/20'
+                                                            }`}>
+                                                                {score >= 75 ? 'Mastered' : score >= 45 ? 'Developing' : 'Rebuilding'}
+                                                            </span>
+                                                        </td>
+                                                    </tr>
+                                                );
+                                            })}
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                {/* Mobile List */}
+                                <div className="block sm:hidden space-y-3">
+                                    {Array.isArray(visibleMocks) && visibleMocks.map((mock, i) => {
+                                        const score = Math.min(100, Math.max(0, mock.normalizedScore));
+                                        const title = mock.topic || mock.exam || 'Adaptive Practice Test';
+                                        const dateStr = mock.created_at
+                                            ? new Date(mock.created_at).toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' })
+                                            : '—';
+                                        const rawScoreStr = mock.score !== undefined
+                                            ? `${mock.score} / ${mock.maxScore || 100}`
+                                            : `${score}%`;
+                                        const typeLabel = mock.type === 'quick'
+                                            ? 'Quick Test'
+                                            : mock.type === 'full'
+                                            ? 'Full Mock'
+                                            : mock.type === 'topic'
+                                            ? 'Topic Test'
+                                            : 'Practice';
+
+                                        return (
+                                            <div key={mock.id || i} className="p-4 bg-white/5 border border-white/5 rounded-2xl space-y-3">
+                                                <div className="flex justify-between items-start gap-2">
+                                                    <div>
+                                                        <p className="font-bold text-text-main text-sm line-clamp-1">{title}</p>
+                                                        <p className="text-[10px] text-white/50 mt-0.5">{dateStr} • {typeLabel}</p>
+                                                    </div>
+                                                    <span className={`px-2.5 py-1 rounded-full text-[9px] font-black uppercase shrink-0 ${
+                                                        score >= 75
+                                                            ? 'bg-green-500/10 text-green-400 border border-green-500/20'
+                                                            : score >= 45
+                                                            ? 'bg-blue-500/10 text-blue-400 border border-blue-500/20'
+                                                            : 'bg-red-500/10 text-red-400 border border-red-500/20'
+                                                    }`}>
+                                                        {score >= 75 ? 'Mastered' : score >= 45 ? 'Developing' : 'Rebuilding'}
+                                                    </span>
+                                                </div>
+                                                <div className="flex justify-between items-center pt-2 border-t border-white/5">
+                                                    <span className="text-xs text-white/50">Score</span>
+                                                    <span className="font-mono font-bold text-primary text-sm">{rawScoreStr}</span>
+                                                </div>
+                                            </div>
+                                        );
+                                    })}
+                                </div>
+                            </>
                         )}
                     </div>
                 </div>

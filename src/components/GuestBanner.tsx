@@ -38,7 +38,7 @@ export const GuestBanner = () => {
 
                         <div className="flex flex-col gap-1 text-sm">
                             <p className="text-gray-300 font-medium">
-                                <span className="text-amber-400 font-bold">{user.streak || 0} days</span> of effort, <span className="text-amber-400 font-bold">{user.xp || 0} XP</span> earned.
+                                <span className="text-amber-400 font-bold">{user.streak || 0} {user.streak === 1 ? 'day' : 'days'}</span> of effort, <span className="text-amber-400 font-bold">{user.xp || 0} XP</span> earned.
                                 <span className="text-white font-bold block sm:inline sm:ml-1">One tab close away from gone.</span>
                             </p>
 

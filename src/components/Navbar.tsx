@@ -71,6 +71,10 @@ export const Navbar = () => {
         return () => document.removeEventListener('mousedown', handleClickOutside);
     }, []);
 
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const [isMobileSearchOpen, setIsMobileSearchOpen] = useState(false);
+    const mobileSearchInputRef = useRef<HTMLInputElement>(null);
+
     // Close dropdowns when location changes
     useEffect(() => {
         setIsFilterOpen(false);
@@ -78,10 +82,6 @@ export const Navbar = () => {
         setIsMobileMenuOpen(false);
         setIsMobileSearchOpen(false);
     }, [loc]);
-
-    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-    const [isMobileSearchOpen, setIsMobileSearchOpen] = useState(false);
-    const mobileSearchInputRef = useRef<HTMLInputElement>(null);
 
     // Lock body scroll when mobile menu is open — viewport aware
     useEffect(() => {
@@ -101,8 +101,7 @@ export const Navbar = () => {
                     : 'bg-black/80 backdrop-blur-sm'
             }`}
             style={{
-                paddingTop: 'env(safe-area-inset-top, 0px)',
-                height: 'calc(env(safe-area-inset-top, 0px) + 64px)'
+                paddingTop: 'env(safe-area-inset-top, 0px)'
             }}
         >
             <div 

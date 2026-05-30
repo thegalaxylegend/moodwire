@@ -5,8 +5,12 @@ import { CheckCircle2, Circle, Star, Zap, Coffee, ArrowRight, RefreshCw } from '
 import type { DailyMission } from '../../services/missionService';
 
 const ConfettiPiece = ({ index }: { index: number }) => {
-    const randomX = Math.random() * 200 - 100;
-    const randomY = Math.random() * -200 - 50;
+    // Pure, deterministic pseudo-randomness based on index (no Math.random() in render)
+    const sin1 = Math.sin(index * 12.9898);
+    const cos1 = Math.cos(index * 78.233);
+    const randomX = ((Math.abs(sin1) * 43758.5453) % 1) * 200 - 100;
+    const randomY = ((Math.abs(cos1) * 43758.5453) % 1) * -200 - 50;
+    const randomScale = 0.5 + ((Math.abs(sin1 + cos1) * 12345.6789) % 1);
     const colors = ['#8B5CF6', '#EC4899', '#3B82F6', '#10B981', '#F59E0B'];
 
     return (
@@ -14,7 +18,7 @@ const ConfettiPiece = ({ index }: { index: number }) => {
             initial={{ opacity: 1, scale: 0, x: 0, y: 0 }}
             animate={{
                 opacity: 0,
-                scale: Math.random() + 0.5,
+                scale: randomScale,
                 x: randomX,
                 y: randomY,
                 rotate: 360

@@ -226,7 +226,7 @@ export const PeerBenchmarking = () => {
                                         </div>
                                         <div className="text-center hidden sm:block">
                                             <p className="text-[10px] text-text-muted uppercase tracking-wider mb-1">Daily Streak</p>
-                                            <p className="text-2xl font-bold text-secondary">3 🔥</p>
+                                            <p className="text-2xl font-bold text-secondary">{user?.streak || 0} 🔥</p>
                                         </div>
                                     </div>
                                 </motion.div>

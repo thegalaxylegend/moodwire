@@ -10,23 +10,30 @@ interface MockLoadingProps {
     onCancel: () => void;
 }
 
+// Static deterministic values for floating math symbols defined outside the component to keep render pure
+const PARTICLE_PRESETS = Array.from({ length: 20 }).map((_, i) => {
+    const symbols = ['∑', '∫', 'π', 'Δ', 'θ', 'λ', 'μ', '∞', 'ƒ', 'α', 'β', 'Ω', 'x²', '±', '√'];
+    const symbolIdx = (i * 7) % symbols.length;
+    const leftVal = (i * 13) % 100;
+    const durationVal = 6 + ((i * 17) % 6);
+    const delayVal = (i * 3) % 5;
+    const sizeVal = i % 2 === 0 ? 'text-2xl' : 'text-4xl';
+    return {
+        id: i,
+        symbol: symbols[symbolIdx],
+        left: `${leftVal}vw`,
+        duration: durationVal,
+        delay: delayVal,
+        size: sizeVal
+    };
+});
+
 export const MockLoading: React.FC<MockLoadingProps> = ({ progress, message, step, onCancel }) => {
     const radius = 44;
     const circumference = 2 * Math.PI * radius;
     const strokeDashoffset = circumference - (progress / 100) * circumference;
 
-    // Static random values for floating math symbols so they don't jump on re-renders
-    const particles = React.useMemo(() => {
-        const symbols = ['∑', '∫', 'π', 'Δ', 'θ', 'λ', 'μ', '∞', 'ƒ', 'α', 'β', 'Ω', 'x²', '±', '√'];
-        return Array.from({ length: 20 }).map((_, i) => ({
-            id: i,
-            symbol: symbols[Math.floor(Math.random() * symbols.length)],
-            left: `${Math.random() * 100}vw`,
-            duration: 6 + Math.random() * 6,
-            delay: Math.random() * 5,
-            size: Math.random() > 0.5 ? 'text-2xl' : 'text-4xl'
-        }));
-    }, []);
+    const particles = PARTICLE_PRESETS;
 
     const content = (
         <div className="fixed inset-0 z-[9999] bg-background flex flex-col items-center justify-center overflow-hidden">

@@ -254,37 +254,37 @@ export const BlogPostPage: React.FC = () => {
                         remarkPlugins={[remarkGfm, remarkMath]}
                         rehypePlugins={[rehypeRaw, rehypeKatex]}
                         components={{
-                            h1: ({ node, children, ...props }) => (
+                            h1: ({ node: _node, children, ...props }) => (
                                 <h2 {...props} className="text-xl sm:text-2xl font-bold text-white mt-12 mb-6 break-words">
                                     {children}
                                 </h2>
                             ),
-                            h2: ({ node, children, ...props }) => (
+                            h2: ({ node: _node, children, ...props }) => (
                                 <h2 {...props} className="text-xl sm:text-2xl font-bold text-white mt-12 mb-6 break-words">
                                     {children}
                                 </h2>
                             ),
-                            h3: ({ node, children, ...props }) => (
+                            h3: ({ node: _node, children, ...props }) => (
                                 <h3 {...props} className="text-base sm:text-lg font-semibold text-purple-300 mt-6 mb-2 border-l-2 border-purple-500 pl-3 break-words">
                                     {children}
                                 </h3>
                             ),
-                            ul: ({ node, children, ...props }) => (
+                            ul: ({ node: _node, children, ...props }) => (
                                 <ul {...props} className="list-disc list-outside pl-4 space-y-1 my-3">
                                     {children}
                                 </ul>
                             ),
-                            li: ({ node, children, ...props }) => (
+                            li: ({ node: _node, children, ...props }) => (
                                 <li {...props} className="text-gray-300 text-sm sm:text-base leading-relaxed">
                                     {children}
                                 </li>
                             ),
-                            table: ({ node, children, ...props }) => (
+                            table: ({ node: _node, children, ...props }) => (
                                 <div className="overflow-x-auto my-6 rounded-xl border border-white/10">
                                     <table {...props} className="w-full text-sm text-left">{children}</table>
                                 </div>
                             ),
-                            a: ({ node, href, children, ...props }) => {
+                            a: ({ node: _node, href, children, ...props }) => {
                                 const isExternal = href?.startsWith('http') && !href.includes(SITE_URL);
                                 return (
                                     <a
@@ -298,7 +298,7 @@ export const BlogPostPage: React.FC = () => {
                                     </a>
                                 );
                             },
-                            img: ({ node, alt, src, ...props }) => (
+                            img: ({ node: _node, alt, src, ...props }) => (
                                 <img
                                     {...props}
                                     src={src}
@@ -360,7 +360,7 @@ export const BlogPostPage: React.FC = () => {
                             remarkPlugins={[remarkGfm, remarkMath]}
                             rehypePlugins={[rehypeRaw, rehypeKatex]}
                             components={{
-                                h1: ({ node, children, ...props }) => (
+                                h1: ({ node: _node, children, ...props }) => (
                                     <h2 {...props} style={{ fontSize: '18pt', fontWeight: 'bold', marginTop: '24px', marginBottom: '12px' }}>
                                         {children}
                                     </h2>

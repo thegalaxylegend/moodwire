@@ -52,7 +52,7 @@ export const usePerformanceLevel = (enabled = true, sampleSize = 90) => {
     const lowestTierObserved = useRef<PerformanceTier>(initialTier);
 
     const frameTimes     = useRef<number[]>([]);
-    const lastTime       = useRef<number>(performance.now());
+    const lastTime       = useRef<number>(0);
     const requestRef     = useRef<number>(0);
     const longTaskCount  = useRef<number>(0);
 
@@ -141,6 +141,7 @@ export const usePerformanceLevel = (enabled = true, sampleSize = 90) => {
 
         // ─── Profiling grace period: start monitoring after 1.5s ─────────────
         const startTimer = setTimeout(() => {
+            lastTime.current = performance.now();
             requestRef.current = requestAnimationFrame(checkPerformance);
         }, 1500);
 

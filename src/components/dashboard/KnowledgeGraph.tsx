@@ -99,6 +99,8 @@ export const KnowledgeGraph: React.FC = () => {
     const dragStartRef = useRef({ x: 0, y: 0 });
     const resetTimeoutRef = useRef<NodeJS.Timeout | null>(null);
     const zoomingTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+    const touchStartPos = useRef({ x: 0, y: 0 });
+    const touchDragDirection = useRef<'none' | 'vertical' | 'horizontal'>('none');
 
     // Detect mobile device
     const isMobile = useMemo(() => {
@@ -232,6 +234,8 @@ export const KnowledgeGraph: React.FC = () => {
         recordInteraction();
         setIsDragging(true);
         const touch = e.touches[0];
+        touchStartPos.current = { x: touch.clientX, y: touch.clientY };
+        touchDragDirection.current = 'none';
         dragStartRef.current = {
             x: touch.clientX - panOffset.x,
             y: touch.clientY - panOffset.y
@@ -242,10 +246,30 @@ export const KnowledgeGraph: React.FC = () => {
         recordInteraction();
         if (!isDragging || e.touches.length !== 1) return;
         const touch = e.touches[0];
-        setPanOffset({
-            x: touch.clientX - dragStartRef.current.x,
-            y: touch.clientY - dragStartRef.current.y
-        });
+        
+        if (touchDragDirection.current === 'none') {
+            const dx = Math.abs(touch.clientX - touchStartPos.current.x);
+            const dy = Math.abs(touch.clientY - touchStartPos.current.y);
+            if (dx > 10 || dy > 10) {
+                if (dy > dx) {
+                    touchDragDirection.current = 'vertical';
+                    setIsDragging(false); // Let the page scroll, do not pan graph
+                    return;
+                } else {
+                    touchDragDirection.current = 'horizontal';
+                }
+            } else {
+                return;
+            }
+        }
+        
+        if (touchDragDirection.current === 'horizontal') {
+            if (e.cancelable) e.preventDefault();
+            setPanOffset({
+                x: touch.clientX - dragStartRef.current.x,
+                y: touch.clientY - dragStartRef.current.y
+            });
+        }
     };
 
     const handleTouchEnd = () => {
@@ -423,7 +447,7 @@ export const KnowledgeGraph: React.FC = () => {
                     onTouchStart={handleTouchStart}
                     onTouchMove={handleTouchMove}
                     onTouchEnd={handleTouchEnd}
-                    className="col-span-2 relative aspect-square md:aspect-[4/3] bg-black/40 border border-white/5 rounded-3xl overflow-hidden group shadow-inner select-none"
+                    className="col-span-2 relative h-[340px] sm:h-auto sm:aspect-square md:aspect-[4/3] bg-black/40 border border-white/5 rounded-3xl overflow-hidden group shadow-inner select-none"
                     style={{
                         perspective: 1200,
                         cursor: isDragging ? 'grabbing' : 'grab'
@@ -698,10 +722,51 @@ export const KnowledgeGraph: React.FC = () => {
                         <Sparkles size={12} className="text-primary animate-pulse" />
                         Drag to Pan • Pinch/Scroll to Zoom
                     </div>
+
+                    {/* Mobile Floating Detail Overlay */}
+                    <AnimatePresence>
+                        {selectedNode && (
+                            <motion.div
+                                initial={{ opacity: 0, y: 50 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                exit={{ opacity: 0, y: 50 }}
+                                className="absolute bottom-4 left-4 right-16 bg-black/90 backdrop-blur-xl border border-white/10 p-4 rounded-2xl z-30 lg:hidden space-y-3 shadow-2xl"
+                                onClick={(e) => e.stopPropagation()}
+                            >
+                                <div className="flex justify-between items-start">
+                                    <div>
+                                        <span className="text-[9px] font-extrabold uppercase tracking-widest text-primary">
+                                            {selectedNode.subject} • {selectedNode.type === 'core' ? 'Centroid' : 'Topic'}
+                                        </span>
+                                        <h4 className="text-sm font-black text-white leading-tight">{selectedNode.label}</h4>
+                                    </div>
+                                    <span style={{ color: getRatingColor(getNodeRating(selectedNode)).text }} className="text-[11px] font-black font-mono">
+                                        ELO: {Math.round(getNodeRating(selectedNode))}
+                                    </span>
+                                </div>
+                                <p className="text-[10px] text-text-muted line-clamp-2 leading-relaxed">{selectedNode.description}</p>
+                                <div className="flex gap-2 items-center">
+                                    <button type="button"
+                                        onClick={() => handleRemediateTopic(selectedNode)}
+                                        className="flex-1 py-2 bg-gradient-to-r from-primary to-secondary text-white font-bold rounded-xl transition-all text-[10px] uppercase tracking-wider flex items-center justify-center gap-1.5"
+                                    >
+                                        <Crosshair size={12} />
+                                        Concept Test
+                                    </button>
+                                    <button type="button"
+                                        onClick={() => setSelectedNode(null)}
+                                        className="px-3 py-2 bg-white/5 border border-white/10 hover:bg-white/10 text-white rounded-xl text-[10px] font-bold transition-all"
+                                    >
+                                        Close
+                                    </button>
+                                </div>
+                            </motion.div>
+                        )}
+                    </AnimatePresence>
                 </div>
 
                 {/* 3D HUD Side Panel */}
-                <div className="glass-card p-6 flex flex-col justify-between space-y-6">
+                <div className="hidden lg:flex glass-card p-6 flex flex-col justify-between space-y-6">
                     <AnimatePresence mode="wait">
                         {selectedNode ? (
                             <motion.div

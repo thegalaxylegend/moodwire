@@ -10,7 +10,7 @@ export const SEOChecker = () => {
     // Clear warnings on navigation
     useEffect(() => {
         if (import.meta.env.PROD) return;
-        setWarnings([]);
+        queueMicrotask(() => setWarnings([]));
     }, [loc]);
 
     useEffect(() => {

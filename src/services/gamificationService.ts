@@ -61,18 +61,21 @@ export const RANKS: Rank[] = XP_RANKS; // Default to XP for legacy support
 
 export const calculateGains = (action: 'mcq_correct' | 'mcq_incorrect' | 'lecture_watch' | 'daily_claim', metadata?: any): { xp: number; pts: number } => {
     switch (action) {
-        case 'mcq_correct':
+        case 'mcq_correct': {
             const base = 20 + (metadata?.difficulty === 'Hard' ? 10 : 0);
             return { xp: 0, pts: base * 2 }; // Points only for tests
+        }
         case 'mcq_incorrect':
             return { xp: 0, pts: 10 }; // Points only for tests
-        case 'lecture_watch':
+        case 'lecture_watch': {
             const xp = Math.min(Math.floor((metadata?.duration || 0) / 6), 500); // 10 XP per minute, max 500
             return { xp, pts: 0 }; // XP only for video study
-        case 'daily_claim':
+        }
+        case 'daily_claim': {
             const streak = metadata?.streak || 0;
             const loginGains = Math.min(100 + (streak * 10), 500); // Base 100 + 10/day, cap at 500
             return { xp: loginGains, pts: loginGains };
+        }
         default:
             return { xp: 0, pts: 0 };
     }

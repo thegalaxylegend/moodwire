@@ -562,6 +562,7 @@ export default defineConfig(() => {
 
     resolve: {
       alias: {},
+      dedupe: ['three'],
     },
 
     build: {

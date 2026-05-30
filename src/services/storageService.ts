@@ -50,7 +50,7 @@ export const storageService = {
             // 3. Strip heavy "details" from items older than the top 5
             history = history.map((item, index) => {
                 if (index >= MAX_DETAILED_ITEMS && item.details) {
-                    const { details, ...lightweightItem } = item;
+                    const { details: _details, ...lightweightItem } = item;
                     return lightweightItem;
                 }
                 return item;

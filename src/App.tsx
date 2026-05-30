@@ -94,7 +94,7 @@ const AuditLogs = lazy(() => import('./pages/admin/AuditLogs').then(module => ({
 const Chatbot = lazy(() => import('./components/Chatbot').then(module => ({ default: module.Chatbot })));
 const PWAInstall = lazy(() => import('./components/PWAInstall').then(module => ({ default: module.PWAInstall })));
 
-const isServer = typeof window === 'undefined' || (typeof window !== 'undefined' && (window as any).__PRERENDER__);
+const isServer = typeof window === 'undefined' || (typeof window !== 'undefined' && (window as { __PRERENDER__?: boolean }).__PRERENDER__);
 
 const DelayedGlobalComponents = () => {
   const [show, setShow] = useState(false);
@@ -135,7 +135,7 @@ const FloatingUI = () => {
 
 const RootRoute = () => {
     const { isAuthenticated, isLoading, user, authResolved } = useUserStore();
-    const isServer = typeof window === 'undefined' || (typeof window !== 'undefined' && (window as any).__PRERENDER__);
+    const isServer = typeof window === 'undefined' || (typeof window !== 'undefined' && (window as { __PRERENDER__?: boolean }).__PRERENDER__);
     
     // Show loading spinner until auth state is resolved
     if (!isServer && (!authResolved || isLoading)) {
@@ -156,7 +156,7 @@ function AppContent() {
   const { tier } = usePerformance();
   const [isOffline, setIsOffline] = useState(false);
 
-  // eslint-disable-next-line react-doctor/effect-needs-cleanup
+   
   useEffect(() => {
     let active = true;
     Network.getStatus().then((status) => {
@@ -188,7 +188,7 @@ function AppContent() {
 
     // Handle Capacitor Android Hardware Back Button
     let backButtonListenerPromise: Promise<{ remove: () => void }> | null = null;
-    if (typeof window !== 'undefined' && (window as any).Capacitor) {
+    if (typeof window !== 'undefined' && (window as { Capacitor?: unknown }).Capacitor) {
       backButtonListenerPromise = import('@capacitor/app').then(({ App: CapApp }) => {
         return CapApp.addListener('backButton', ({ canGoBack }) => {
           if (window.location.pathname !== '/' && window.location.pathname !== '/dashboard') {
@@ -213,7 +213,7 @@ function AppContent() {
         backButtonListenerPromise.then(handle => handle.remove());
       }
     };
-  }, []);
+  }, [initialize]);
 
   return (
     <SmoothScroll>

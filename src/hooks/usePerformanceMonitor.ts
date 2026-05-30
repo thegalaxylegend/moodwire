@@ -8,7 +8,7 @@ import { useState, useEffect, useRef } from 'react';
 export const usePerformanceMonitor = (thresholdMs = 14, sampleSize = 10) => {
     const [isLowPerformance, setIsLowPerformance] = useState(false);
     const frameTimes = useRef<number[]>([]);
-    const lastTime = useRef<number>(performance.now());
+    const lastTime = useRef<number>(0);
     const requestRef = useRef<number>(0);
 
     useEffect(() => {
@@ -37,6 +37,7 @@ export const usePerformanceMonitor = (thresholdMs = 14, sampleSize = 10) => {
 
         // Delay monitoring to avoid initial hydration/load jank
         const timer = setTimeout(() => {
+            lastTime.current = performance.now();
             requestRef.current = requestAnimationFrame(checkPerformance);
         }, 3000);
 

@@ -16,11 +16,13 @@ function CameraController({ zoom, tilt }: { zoom: number, tilt: number }) {
         // Handle Zoom (Camera Z position)
         // Default is 6. Range: 4 (close) to 10 (far)
         const targetZ = 6 - (zoom - 1) * 3;
+        // eslint-disable-next-line react-hooks/immutability
         camera.position.z = THREE.MathUtils.lerp(camera.position.z, targetZ, 0.1);
         
         // Handle Tilt (Camera Y position)
         // Default is 0. Range: -2 to 4
         const targetY = (tilt - 1) * 3;
+         
         camera.position.y = THREE.MathUtils.lerp(camera.position.y, targetY, 0.1);
         
         camera.lookAt(0, 0, 0);

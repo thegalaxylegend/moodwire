@@ -340,8 +340,28 @@ Give a specific, data-driven tip. Mention exact subjects. No generic motivationa
                                             </div>
                                         ))
                                     ) : (
-                                        <div className="text-center py-10">
-                                            <p className="text-text-muted">No active plan. Click 'Regenerate' to start.</p>
+                                        <div className="flex flex-col items-center justify-center py-16 px-4 text-center space-y-6">
+                                            <div className="relative">
+                                                <div className="absolute -inset-1 bg-gradient-to-r from-violet-600 to-indigo-600 rounded-full blur opacity-30 animate-pulse"></div>
+                                                <div className="relative size-16 bg-slate-900/80 border border-white/10 rounded-full flex items-center justify-center shadow-xl">
+                                                    <Brain className="text-violet-400" size={28} />
+                                                </div>
+                                            </div>
+                                            <div className="max-w-sm space-y-2">
+                                                <h3 className="text-lg font-black text-slate-100 uppercase tracking-wider bg-gradient-to-r from-violet-400 to-indigo-300 bg-clip-text text-transparent">
+                                                    No Active Study Plan
+                                                </h3>
+                                                <p className="text-xs text-slate-400 leading-relaxed">
+                                                    Our Neural Planner can analyze your current ELO ratings, active diagnostic gaps, and study goals to craft a high-performance routine.
+                                                </p>
+                                            </div>
+                                            <button type="button"
+                                                onClick={generateSchedule}
+                                                className="px-6 py-3 bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 text-white text-xs font-black uppercase tracking-widest rounded-xl transition-all shadow-[0_4px_20px_rgba(124,58,237,0.3)] hover:shadow-[0_6px_25px_rgba(124,58,237,0.5)] active:scale-95 border-t border-white/10 flex items-center gap-2"
+                                            >
+                                                <Sparkles size={14} className="animate-pulse" />
+                                                Generate First Plan
+                                            </button>
                                         </div>
                                     )}
                                 </div>

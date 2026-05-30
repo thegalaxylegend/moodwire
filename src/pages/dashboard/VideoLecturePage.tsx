@@ -653,7 +653,7 @@ export const VideoLecturePage = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 max-w-[1600px] mx-auto pb-8 items-stretch">
 
                     {/* LEFT COLUMN: VIDEO PLAYER + NOTES */}
-                    <div className="lg:col-span-8 flex flex-col gap-6 h-full">
+                    <div className="lg:col-span-8 flex flex-col gap-6 h-full min-w-0">
 
                         {/* 1. VIDEO PLAYER - Frosted Glass Card */}
                         <div className="relative rounded-[24px] overflow-hidden border border-white/10 shadow-2xl h-fit bg-gradient-to-b from-white/[0.08] to-white/[0.02]">
@@ -857,7 +857,7 @@ export const VideoLecturePage = () => {
                     </div>
 
                     {/* RIGHT COLUMN: COURSE CONTENT + AI */}
-                    <div className="lg:col-span-4 flex flex-col gap-6 h-full">
+                    <div className="lg:col-span-4 flex flex-col gap-6 h-full min-w-0">
 
                         {/* 2. PLAYLIST / COURSE CONTENT */}
                         <div className="rounded-[24px] overflow-hidden backdrop-blur-2xl bg-white/[0.03] border border-white/10 shadow-2xl flex flex-col h-[580px]">

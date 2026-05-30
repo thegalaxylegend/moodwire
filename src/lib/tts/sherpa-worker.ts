@@ -24,7 +24,7 @@ const runtimeInitializedPromise = new Promise<void>((resolve) => {
     }
 };
 
-// @ts-ignore
+// @ts-expect-error - importScripts is a worker global function not declared in typings
 importScripts(SHERPA_ONNX_WASM_JS_URL);
 
 class OfflineTts {

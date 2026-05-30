@@ -70,7 +70,7 @@ export const MockGenerator = () => {
     const [aiInput, setAiInput] = useState("");
     const [isAiThinking, setIsAiThinking] = useState(false);
     const [isVerifying, setIsVerifying] = useState(false);
-    const [qStartTime, setQStartTime] = useState(Date.now());
+    const [qStartTime, setQStartTime] = useState(() => Date.now());
     const [generationProgress, setGenerationProgress] = useState(0);
     const [hints, setHints] = useState<Record<number, number>>({});
     const [firstActionTimes, setFirstActionTimes] = useState<Record<number, number>>({});
@@ -91,7 +91,6 @@ export const MockGenerator = () => {
 
     const globalFetchedRef = useRef(0);
 
-    // eslint-disable-next-line react-doctor/effect-needs-cleanup
     useEffect(() => {
         let active = true;
         let listenerHandle: any = null;

@@ -105,6 +105,7 @@ export async function callGroq(
         }, { signal });
         return completion;
     } catch (error: any) {
+        console.warn("[callGroq] Error occurred, propagating to router:", error);
         throw error; // Let ModelRouter handle the retry/rotation
     }
 }

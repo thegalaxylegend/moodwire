@@ -492,10 +492,10 @@ export const ChapterStudyHub = () => {
 
             {/* ── MAIN LAYOUT ── */}
             <div className="relative z-10 max-w-[1440px] mx-auto px-4 md:px-6 py-6">
-                <div className="grid grid-cols-1 xl:grid-cols-[1fr_360px] gap-6">
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
 
                     {/* ════════ LEFT: VIDEO AREA ════════ */}
-                    <div className="space-y-4 min-w-0">
+                    <div className="space-y-4 lg:col-span-8 xl:col-span-9 min-w-0">
 
                         {/* Video Player */}
                         {activeVideo ? (
@@ -786,7 +786,7 @@ export const ChapterStudyHub = () => {
                     </div>
 
                     {/* ════════ RIGHT: STUDY PANEL ════════ */}
-                    <div className="space-y-4 xl:sticky xl:top-[69px] xl:max-h-[calc(100vh-85px)] xl:overflow-y-auto xl:pr-1 custom-scrollbar">
+                    <div className="space-y-4 lg:col-span-4 xl:col-span-3 min-w-0 lg:sticky lg:top-[69px] lg:max-h-[calc(100vh-85px)] lg:overflow-y-auto lg:pr-1 custom-scrollbar">
 
                         {/* ── CHAPTER OVERVIEW CARD ── */}
                         <div className="rounded-2xl border border-white/8 bg-gradient-to-br from-white/[0.04] to-transparent p-5">

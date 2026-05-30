@@ -12,7 +12,6 @@ import 'dotenv/config';
 // Compatibility layer for Vite (import.meta.env) and Node (process.env)
 const getEnv = (key: string) => {
     try {
-        // @ts-ignore
         return import.meta.env?.[key] || process.env[key];
     } catch {
         return process.env[key];

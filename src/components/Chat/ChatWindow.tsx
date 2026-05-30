@@ -8,8 +8,25 @@ import { ttsManager, VOICE_PRESETS } from '../../lib/tts/TTSManager';
 import type { VoicePreset } from '../../lib/tts/TTSManager';
 import { cleanTextForSpeech } from '../../lib/utils';
 
+interface ChatMessage {
+    id: number;
+    text: string;
+    sender: 'user' | 'bot';
+    link?: string;
+    linkText?: string;
+    image?: string;
+    isStreaming?: boolean;
+    language?: 'en' | 'hi' | 'hinglish';
+}
+
+interface ChatSession {
+    id: string;
+    title: string;
+    timestamp: number;
+}
+
 interface ChatWindowProps {
-    messages: any[];
+    messages: ChatMessage[];
     isThinking: boolean;
     isTTSLoading?: boolean;
     isSearching?: boolean;
@@ -28,7 +45,7 @@ interface ChatWindowProps {
     onSelectPreset?: (id: string) => void;
     
     // Session Props
-    sessions?: any[];
+    sessions?: ChatSession[];
     currentSessionId?: string;
     onSwitchSession?: (id: string) => void;
     onDeleteSession?: (id: string) => void;
@@ -166,7 +183,7 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
         if (isAtBottom || isStreaming || isThinking) {
             scrollToBottom(isStreaming || isThinking ? "auto" : "smooth");
         }
-    }, [messages, isThinking]);
+    }, [messages, isThinking, isAtBottom]);
 
     return (
         <div className={`flex flex-col h-full bg-[#11131c]/90 border border-white/5 
@@ -387,7 +404,7 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                                 ].map(lang => (
                                     <button type="button" 
                                         key={lang.id}
-                                        onClick={() => onSelectLanguage?.(lang.id as any)}
+                                        onClick={() => onSelectLanguage?.(lang.id as 'en' | 'hi' | 'hinglish')}
                                         className={`flex flex-col items-center gap-2 py-4 rounded-[22px] border transition-all relative overflow-hidden ${
                                             selectedLanguage === lang.id
                                             ? 'bg-indigo-500/10 border-indigo-500/40 text-white shadow-lg shadow-indigo-500/5 ring-1 ring-indigo-500/20'

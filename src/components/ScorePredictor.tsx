@@ -26,24 +26,24 @@ export const ScorePredictor = () => {
     if (!prediction) return null;
 
     return (
-        <div className="relative overflow-hidden bg-black/60 backdrop-blur-xl border border-white/10 rounded-3xl p-8 shadow-2xl">
+        <div className="relative overflow-hidden bg-black/60 backdrop-blur-xl border border-white/10 rounded-3xl p-5 sm:p-8 shadow-2xl">
             {/* Background Glow */}
             <div className="absolute top-0 right-0 -mr-20 -mt-20 size-64 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
 
-            <div className="flex flex-col lg:flex-row items-center gap-12 relative z-10">
+            <div className="flex flex-col lg:flex-row items-center gap-6 lg:gap-12 relative z-10">
                 {/* Left Side: Inputs */}
-                <div className="w-full lg:w-1/2 space-y-8">
-                    <div className="flex justify-between items-start">
+                <div className="w-full lg:w-1/2 space-y-6 sm:space-y-8">
+                    <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
                         <div>
                             <div className="flex items-center gap-2 mb-2">
                                 <Sparkles size={16} className="text-primary" />
-                                <h2 className="text-2xl font-black text-white uppercase tracking-tight italic">Score Predictor v2</h2>
+                                <h2 className="text-xl sm:text-2xl font-black text-white uppercase tracking-tight italic">Score Predictor v2</h2>
                             </div>
-                            <p className="text-gray-400 text-sm font-medium">DeepSeek Logic v{prediction.predictedPercentile.toFixed(0)}</p>
+                            <p className="text-gray-400 text-xs sm:text-sm font-medium">DeepSeek Logic v{prediction.predictedPercentile.toFixed(0)}</p>
                         </div>
 
                         {/* Selected Exam Badge */}
-                        <div className="flex bg-white/5 p-1 rounded-xl border border-white/10">
+                        <div className="flex bg-white/5 p-1 rounded-xl border border-white/10 self-start sm:self-auto">
                             <span className="px-4 py-1.5 rounded-lg text-xs font-black bg-primary text-white shadow-lg whitespace-nowrap">
                                 {defaultExam}
                             </span>
@@ -54,12 +54,12 @@ export const ScorePredictor = () => {
                         <div className="p-4 bg-white/5 rounded-2xl border border-white/5">
                             <Brain size={16} className="text-secondary mb-2" />
                             <p className="text-[10px] text-gray-400 uppercase font-black tracking-widest">Growth Factor</p>
-                            <p className="text-xl font-black text-white">+{((prediction.predictedScore / (mockScore || 1) - 1) * 100).toFixed(1)}%</p>
+                            <p className="text-lg sm:text-xl font-black text-white">+{((prediction.predictedScore / (mockScore || 1) - 1) * 100).toFixed(1)}%</p>
                         </div>
                         <div className="p-4 bg-white/5 rounded-2xl border border-white/5">
                             <Zap size={16} className="text-yellow-400 mb-2" />
                             <p className="text-[10px] text-gray-400 uppercase font-black tracking-widest">Target Score</p>
-                            <p className="text-xl font-black text-white">{Math.round(prediction.predictedScore)}</p>
+                            <p className="text-lg sm:text-xl font-black text-white">{Math.round(prediction.predictedScore)}</p>
                         </div>
                     </div>
 
@@ -67,7 +67,7 @@ export const ScorePredictor = () => {
                         <div className="space-y-3">
                             <div className="flex justify-between items-center">
                                 <label className="text-xs font-black text-gray-500 uppercase tracking-widest">Current Mock Score</label>
-                                <span className="text-lg font-black text-primary">{mockScore} / {getExamConstants(defaultExam).MAX_SCORE}</span>
+                                <span className="text-base sm:text-lg font-black text-primary">{mockScore} / {getExamConstants(defaultExam).MAX_SCORE}</span>
                             </div>
                             <input
                                 type="range"
@@ -84,11 +84,11 @@ export const ScorePredictor = () => {
                 {/* Right Side: Visual Result */}
                 <div className="w-full lg:w-1/2">
                     <div className="relative p-1 bg-gradient-to-br from-primary/30 to-accent/30 rounded-[2.5rem] h-full">
-                        <div className="bg-[#0a0a0b] rounded-[2.4rem] p-8 md:p-10 flex flex-col items-center text-center h-full min-h-[380px]">
+                        <div className="bg-[#0a0a0b] rounded-[2.4rem] p-6 sm:p-8 md:p-10 flex flex-col items-center text-center h-full min-h-[300px] md:min-h-[380px]">
                             <h3 className="text-xs font-black text-gray-500 uppercase tracking-[0.2em] mb-2 font-mono">
                                 {isSchoolExam ? "Target Status" : "2026 Estimated AIR"}
                             </h3>
-                            <div className="text-6xl font-black text-white tracking-tighter mb-4 tabular-nums drop-shadow-[0_0_15px_rgba(139,92,246,0.5)]">
+                            <div className="text-4xl sm:text-5xl md:text-6xl font-black text-white tracking-tighter mb-4 tabular-nums drop-shadow-[0_0_15px_rgba(139,92,246,0.5)]">
                                 {isSchoolExam ? (mockScore >= 95 ? 'Elite' : mockScore >= 80 ? 'Good' : 'Avg') : `#${prediction.predictedRank.toLocaleString()}`}
                             </div>
 
@@ -97,7 +97,7 @@ export const ScorePredictor = () => {
                                     <p className="text-[10px] text-gray-500 uppercase font-black tracking-tighter">Confidence Range</p>
                                     <div className="flex items-center gap-3 text-xs font-bold text-gray-400">
                                         <span>#{prediction.rankRange.pessimistic.toLocaleString()}</span>
-                                        <div className="w-24 h-1 bg-white/10 rounded-full relative overflow-hidden">
+                                        <div className="w-20 sm:w-24 h-1 bg-white/10 rounded-full relative overflow-hidden">
                                             <div className="absolute inset-0 bg-primary/40 animate-pulse"></div>
                                         </div>
                                         <span>#{prediction.rankRange.optimistic.toLocaleString()}</span>
@@ -115,9 +115,9 @@ export const ScorePredictor = () => {
 
                             {/* Caveat Warning (Removed) */}
 
-                            <div className="flex items-center gap-3 px-4 py-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full mt-auto mb-6">
+                            <div className="flex items-center gap-3 px-4 py-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full mt-auto mb-2 sm:mb-6">
                                 <TrendingUp size={14} className="text-emerald-400" />
-                                <span className="text-[10px] font-black text-emerald-400 uppercase tracking-widest">DeepSeek Verified • {prediction.predictedPercentile.toFixed(2)}%ile</span>
+                                <span className="text-[10px] font-black text-emerald-400 uppercase tracking-widest">{prediction.predictedPercentile.toFixed(2)}%ile</span>
                             </div>
                         </div>
                     </div>

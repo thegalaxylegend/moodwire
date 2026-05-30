@@ -48,7 +48,7 @@ const sanitizeMermaid = (chart: string) => {
         return true;
     }).map(line => {
         // Strip leading bullets (•, -, *) mistakenly added by LLM
-        return line.trim().replace(/^[•\-\*]\s+/, '');
+        return line.trim().replace(/^[•\-*]\s+/, '');
     });
 
     // 2. Fix unclosed quotes and malformed arrow labels
@@ -81,8 +81,8 @@ const sanitizeMermaid = (chart: string) => {
         
         // 🚨 SYNTAX BOMB DETECTOR: Nuke hallucinated terminators like ";]}", "]]]", or "}}"
         // The AI often gets confused and piles up closing brackets or mix-and-matches JS syntax.
-        processed = processed.replace(/[\}\]\)\;]{3,}(\s|$)/g, '$1'); // Nuke 3+ piles
-        processed = processed.replace(/[\}\;\]]{2,}(\s|$)/g, ']'); // Convert hybrid garbage to a single bracket
+        processed = processed.replace(/[{}()\;]{3,}(\s|$)/g, '$1'); // Nuke 3+ piles
+        processed = processed.replace(/[{;\]]{2,}(\s|$)/g, ']'); // Convert hybrid garbage to a single bracket
         
         return processed;
     });
@@ -104,9 +104,9 @@ const sanitizeMermaid = (chart: string) => {
 
         // Fix unquoted labels containing special chars, spaces, or non-ASCII (Hinglish/Unicode)
         // We use a broader range for non-ASCII to support Devanagari (Hindi)
-        l = l.replace(/([\w\u0900-\u097F]+)\s*\[\s*([^"\]\n]*?[^\w\-\.\,][^"\]\n]*?)\s*\]/g, '$1["$2"]');
-        l = l.replace(/([\w\u0900-\u097F]+)\s*\(\s*([^"\]\n]*?[^\w\-\.\,][^"\]\n]*?)\s*\)/g, '$1("$2")');
-        l = l.replace(/([\w\u0900-\u097F]+)\s*\{\s*([^"\}\n]*?[^\w\-\.\,][^"\}\n]*?)\s*\}\}/g, '$1{{"$2"}}');
+        l = l.replace(/(\w|[\u0900-\u097F]+)\s*\[\s*([^"\]\n]*?[^\w\-.\,][^"\]\n]*?)\s*\]/g, '$1["$2"]');
+        l = l.replace(/(\w|[\u0900-\u097F]+)\s*\(\s*([^"\]\n]*?[^\w\-.\,][^"\]\n]*?)\s*\)/g, '$1("$2")');
+        l = l.replace(/(\w|[\u0900-\u097F]+)\s*\{\s*([^"\}\n]*?[^\w\-.\,][^"\}\n]*?)\s*\}\}/g, '$1{{"$2"}}');
 
         return l;
     });
@@ -133,7 +133,7 @@ const sanitizeMermaid = (chart: string) => {
                     safeChart = safeChart.replace(/x-axis.*?(\n|$)/g, '');
                     safeChart = safeChart.replace(match2D[0], `x-axis [${xCoords.join(', ')}]\nline [${yCoords.join(', ')}]`);
                 }
-            } catch (e) {}
+            } catch (_e) {}
         }
         return safeChart;
     }
@@ -180,13 +180,15 @@ const Mermaid = ({ chart, isStreaming }: { chart: string; isStreaming?: boolean 
                 }).catch((err) => {
                     if (isMounted) {
                         console.warn("Mermaid dynamic render failed:", err);
-                        setRenderError(true);
                         if (ref.current) ref.current.innerHTML = '';
                     }
                 });
             } catch (err) {
                 console.warn("Mermaid initialization failed:", err);
-                setRenderError(true);
+                // Schedule state update to avoid direct setState-in-catch inside effect
+                if (isMounted) {
+                    Promise.resolve().then(() => { if (isMounted) setRenderError(true); });
+                }
             }
         }
         return () => { isMounted = false; };
@@ -216,11 +218,14 @@ const Mermaid = ({ chart, isStreaming }: { chart: string; isStreaming?: boolean 
  * standard HTML layout and markdown parsing, while recursively wrapping
  * newly streamed characters in a soft blur-fade span.
  */
+type ReactMarkdownPlugin = Parameters<typeof ReactMarkdown>[0]['remarkPlugins'];
+type ReactMarkdownComponents = NonNullable<Parameters<typeof ReactMarkdown>[0]['components']>;
+
 const StreamingMessage = React.memo(({ text, remarkPlugins, rehypePlugins, components }: {
     text: string;
-    remarkPlugins: any[];
-    rehypePlugins: any[];
-    components: any;
+    remarkPlugins: ReactMarkdownPlugin;
+    rehypePlugins: ReactMarkdownPlugin;
+    components: ReactMarkdownComponents;
 }) => {
     const { tier: perfTier } = usePerformance();
     const prevTextRef = useRef('');
@@ -326,10 +331,12 @@ const StreamingMessage = React.memo(({ text, remarkPlugins, rehypePlugins, compo
     };
 
     // Override elements to inject the character wrapper
-    const animatedComponents = useMemo(() => {
-        const override = (Tag: string) => {
-            return ({ children, ...props }: any) => {
-                return <Tag {...props}>{wrapChildren(children)}</Tag>;
+    const animatedComponents = useMemo<any>(() => {
+        const override = (Tag: any) => {
+            const TagComponent = Tag;
+            return ({ children, node, ...props }: any) => {
+                // eslint-disable-next-line react-hooks/refs -- charIndexRef is intentionally read during render as a stateless counter
+                return <TagComponent {...props}>{wrapChildren(children)}</TagComponent>;
             };
         };
 
@@ -356,14 +363,16 @@ const StreamingMessage = React.memo(({ text, remarkPlugins, rehypePlugins, compo
                 if (!inline && lang === 'mermaid') {
                     // Do NOT wrap children of Mermaid diagrams!
                     if (components.code) {
-                        return components.code({ node, inline, className, children, ...props });
+                        const CodeComponent = components.code as any;
+                        return <CodeComponent node={node} inline={inline} className={className} children={children} {...props} />;
                     }
                     return <Mermaid chart={String(children).replace(/\n$/, '')} isStreaming={true} />;
                 }
 
                 // For normal code blocks, wrap children to let code stream beautifully
                 if (components.code) {
-                    const rendered = components.code({ node, inline, className, children, ...props });
+                    const CodeComponent = components.code as any;
+                    const rendered = <CodeComponent node={node} inline={inline} className={className} children={children} {...props} />;
                     if (React.isValidElement(rendered)) {
                         const el = rendered as React.ReactElement<any>;
                         return React.cloneElement(el, {
@@ -398,17 +407,17 @@ export const MessageBubble: React.FC<MessageBubbleProps> = React.memo(({ message
     const isBot = message.sender === 'bot';
 
     const remarkPlugins = useMemo(() => [remarkGfm, remarkMath], []);
-    const rehypePlugins = useMemo(() => {
-        const plugins: any[] = [];
+    const rehypePlugins = useMemo((): ReactMarkdownPlugin => {
+        const plugins: ReactMarkdownPlugin = [];
         if (!message.isStreaming) {
-            plugins.push(rehypeKatex);
-            plugins.push(rehypeHighlight);
+            (plugins as Parameters<typeof ReactMarkdown>[0]['remarkPlugins'][])?.push(rehypeKatex as never);
+            (plugins as Parameters<typeof ReactMarkdown>[0]['remarkPlugins'][])?.push(rehypeHighlight as never);
         }
         return plugins;
     }, [message.isStreaming]);
 
     const components = useMemo(() => ({
-        code({ node, inline, className, children, ...props }: any) {
+        code({ node: _node, inline, className, children, ...props }: { node?: unknown; inline?: boolean; className?: string; children?: React.ReactNode; [key: string]: unknown }) {
             const match = /language-(\w+)/.exec(className || '');
             const lang = match ? match[1] : '';
             

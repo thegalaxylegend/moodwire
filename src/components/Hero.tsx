@@ -61,7 +61,7 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
                     >
                         Stop Guessing What to <br />
                         <span className="animate-gradient-text bg-gradient-to-r from-primary via-secondary to-accent">
-                            Study Next Start Scoring
+                            Study Next. Start Scoring.
                         </span>
                     </motion.h1>
 

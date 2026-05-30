@@ -301,7 +301,7 @@ export const useUserStore = create<UserState>((set, get) => ({
                         localStorage.setItem('exam_compass_fixed_guest_id', fixedGuestId);
                     }
                     
-                    let guestSubProfilesRaw = localStorage.getItem(`guest_sub_profiles_${fixedGuestId}`);
+                    const guestSubProfilesRaw = localStorage.getItem(`guest_sub_profiles_${fixedGuestId}`);
                     if (guestSubProfilesRaw) {
                         try { parsedSubProfiles = JSON.parse(guestSubProfilesRaw); } catch(e) {}
                     }
@@ -1409,7 +1409,7 @@ export const useUserStore = create<UserState>((set, get) => ({
         }
 
         // If the deleted profile was the active one, switch back to primary
-        let newActiveId = activeProfileId === profileId ? primaryUid : activeProfileId;
+        const newActiveId = activeProfileId === profileId ? primaryUid : activeProfileId;
         if (activeProfileId === profileId) {
             localStorage.setItem(`ec_active_profile_id_${primaryUid}`, primaryUid);
         }

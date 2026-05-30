@@ -13,8 +13,6 @@ import { ttsManager, VOICE_PRESETS } from '../lib/tts/TTSManager';
 import { usePerformance } from '../context/PerformanceProvider';
 import { cleanTextForSpeech } from '../lib/utils';
 
-// Emotion Definitions
-type ExaEmotion = 'neutral' | 'listening' | 'thinking' | 'speaking' | 'excited' | 'shy';
 
 const DYNAMIC_GREETINGS = [
     "Oh, you're back? ✨",
@@ -43,7 +41,6 @@ export const Chatbot = () => {
     const [isSpeaking, setIsSpeaking] = useState(false);
     const [isCallMode, setIsCallMode] = useState(false);
     const [isMuted, setIsMuted] = useState(true);
-    const [, ] = useState<ExaEmotion>('neutral');
     const [isMicMuted, setIsMicMuted] = useState(false);
     const [isTTSLoading, setIsTTSLoading] = useState(false);
     const [selectedPresetId, setSelectedPresetId] = useState<string>(() => localStorage.getItem('exa_voice_id') || localStorage.getItem('exa_voice_preset_id') || "eng_f1_neural");

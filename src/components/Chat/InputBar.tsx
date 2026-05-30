@@ -11,8 +11,8 @@ interface InputBarProps {
     selectedImage: string | null;
     setSelectedImage: (val: string | null) => void;
     handleFileSelect: (e: React.ChangeEvent<HTMLInputElement>) => void;
-    onPTTStart: (e: any) => void;
-    onPTTEnd: (e: any) => void;
+    onPTTStart: (e: React.MouseEvent | React.TouchEvent) => void;
+    onPTTEnd: (e: React.MouseEvent | React.TouchEvent) => void;
 }
 
 export const InputBar: React.FC<InputBarProps> = ({

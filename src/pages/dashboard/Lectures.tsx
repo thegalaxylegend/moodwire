@@ -70,26 +70,37 @@ export const Lectures = () => {
     const userId = user?.id || 'guest';
     const userClass = user?.userClass || 'Class 11th';
     const targetExam = user?.targetExam || 'JEE';
-    const examDate = user?.examDate ? new Date(user.examDate) : null;
-    const targetYear = user?.targetYear || new Date().getFullYear();
     const isClass12 = userClass.toLowerCase().includes('12');
 
-    const remainingDays = useMemo(() => {
-        if (examDate) {
-            const diffTime = examDate.getTime() - Date.now();
-            return Math.max(0, Math.ceil(diffTime / (1000 * 60 * 60 * 24)));
-        }
-        const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(userClass);
-        if (isJunior) {
-            const currentYear = new Date().getFullYear();
-            const targetMonth = new Date().getMonth() > 2 ? currentYear + 1 : currentYear;
-            const diff = new Date(`${targetMonth}-03-31`).getTime() - Date.now();
-            return Math.max(0, Math.ceil(diff / (1000 * 60 * 60 * 24)));
-        } else {
-            const diff = new Date(`${targetYear}-01-24`).getTime() - Date.now();
-            return Math.max(0, Math.ceil(diff / (1000 * 60 * 60 * 24)));
-        }
-    }, [examDate, userClass, targetYear]);
+    const [remainingDays, setRemainingDays] = useState<number | null>(null);
+
+    useEffect(() => {
+        const calculateRemainingDays = () => {
+            const examDate = user?.examDate ? new Date(user.examDate) : null;
+            const targetYear = user?.targetYear || new Date().getFullYear();
+            if (examDate) {
+                const diffTime = examDate.getTime() - Date.now();
+                return Math.max(0, Math.ceil(diffTime / (1000 * 60 * 60 * 24)));
+            }
+            const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(userClass);
+            if (isJunior) {
+                const currentYear = new Date().getFullYear();
+                const targetMonth = new Date().getMonth() > 2 ? currentYear + 1 : currentYear;
+                const diff = new Date(`${targetMonth}-03-31`).getTime() - Date.now();
+                return Math.max(0, Math.ceil(diff / (1000 * 60 * 60 * 24)));
+            } else {
+                let targetYr = targetYear;
+                let examDateVal = new Date(`${targetYr}-01-24`);
+                if (examDateVal.getTime() < Date.now()) {
+                    targetYr = new Date().getFullYear() + 1;
+                    examDateVal = new Date(`${targetYr}-01-24`);
+                }
+                const diff = examDateVal.getTime() - Date.now();
+                return Math.max(0, Math.ceil(diff / (1000 * 60 * 60 * 24)));
+            }
+        };
+        setRemainingDays(calculateRemainingDays());
+    }, [user?.examDate, user?.targetYear, userClass]);
 
     // State
     const [activeSubject, setActiveSubject] = useState<string>('Physics');

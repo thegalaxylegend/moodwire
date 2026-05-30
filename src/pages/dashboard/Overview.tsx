@@ -139,9 +139,15 @@ export const Overview = () => {
 
     const daysLeft = displayUser?.userClass && ['Class 8th', 'Class 9th', 'Class 10th'].includes(displayUser.userClass)
         ? Math.ceil((new Date(`${new Date().getMonth() > 2 ? new Date().getFullYear() + 1 : new Date().getFullYear()}-03-31`).getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24))
-        : (displayUser?.targetYear
-            ? Math.ceil((new Date(`${displayUser.targetYear}-01-24`).getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24))
-            : 365);
+        : (() => {
+            let targetYr = displayUser?.targetYear || new Date().getFullYear();
+            let examDate = new Date(`${targetYr}-01-24`);
+            if (examDate.getTime() < new Date().getTime()) {
+                targetYr = new Date().getFullYear() + 1;
+                examDate = new Date(`${targetYr}-01-24`);
+            }
+            return Math.ceil((examDate.getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24));
+        })();
 
     const [activeSubjectIdx, setActiveSubjectIdx] = useState(0);
     const [slideDirection, setSlideDirection] = useState(0); // -1 for left, 1 for right
@@ -448,58 +454,52 @@ export const Overview = () => {
             }
 
             // [NEW] 4. Fetch Video Recommendations (Runs for EVERYONE)
+            const { SYLLABUS_DB } = await import('../../lib/constants');
+            const normUserClass = user.userClass ? user.userClass.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim() : '';
+            const isCompetitive = ['jee', 'neet'].some(e => (user.targetExam || '').toLowerCase().includes(e));
+            const isDropper = normUserClass.includes('dropper');
+
             let subjectsToFetch: string[] = [];
             if (Array.isArray(weakStats) && weakStats.length > 0) {
                 subjectsToFetch = weakStats.map(t => t.topic);
-            } else if (user.skills) {
-                console.log('[Overview] Using subject skills for videos.');
-                const isMedical = (user.targetExam || '').toLowerCase().includes('neet') || (user.targetExam || '').toLowerCase().includes('medical');
-                const subjects = [
-                    { name: 'Physics', score: user.skills.physics || 0.5 },
-                    { name: 'Chemistry', score: user.skills.chemistry || 0.5 },
-                    ...(isMedical 
-                        ? [{ name: 'Biology', score: (user.skills as any).biology || 0.5 }] 
-                        : [{ name: 'Math', score: user.skills.math || 0.5 }])
-                ];
-                subjectsToFetch = subjects.sort((a, b) => a.score - b.score).slice(0, 3).map(s => s.name);
-
-                // Set fake stats for UI
-                if (subjectsToFetch.length > 0) {
-                    const fakeWeakStats: TopicStat[] = subjectsToFetch.map(subject => ({
-                        id: `fake-${subject}`,
-                        user_id: user.id,
-                        topic: subject,
-                        topic_id: subject.toLowerCase().replace(/\s+/g, '-'),
-                        subject: subject,
-                        correct_count: 0,
-                        total_attempts: 1,
-                        score_percentage: Math.round((subjects.find(s => s.name === subject)?.score || 0.5) * 100),
-                        last_attempt: new Date().toISOString(),
-                        status: 'weak' as const
-                    }));
-                    setWeakTopicStats(fakeWeakStats);
-                }
             } else {
-                console.log('[Overview] Default fallback videos.');
+                // If there are no real weak stats, generate dynamic topic-based recommendations using the first uncompleted chapters
                 const isMedical = (user.targetExam || '').toLowerCase().includes('neet') || (user.targetExam || '').toLowerCase().includes('medical');
-                subjectsToFetch = isMedical ? ['Physics', 'Chemistry', 'Biology'] : ['Physics', 'Chemistry', 'Math'];
-                const placeholderStats: TopicStat[] = subjectsToFetch.map(subject => ({
-                    id: `default-${subject}`,
-                    user_id: user.id,
-                    topic: subject,
-                    topic_id: subject.toLowerCase().replace(/\s+/g, '-'),
-                    subject: subject,
-                    correct_count: 0,
-                    total_attempts: 0,
-                    score_percentage: 0,
-                    last_attempt: new Date().toISOString(),
-                    status: 'weak' as const
-                }));
-                setWeakTopicStats(placeholderStats);
-            }
+                const baseSubjects = isMedical ? ['Physics', 'Chemistry', 'Biology'] : ['Physics', 'Chemistry', 'Mathematics'];
+                const dynamicStats: TopicStat[] = [];
 
-            if (subjectsToFetch.length > 0) {
-                // Video fetching is handled by fetchActiveVideo now
+                baseSubjects.forEach(subject => {
+                    const classTopics = (SYLLABUS_DB[subject] || []).filter((t: any) => {
+                        if (!user.userClass) return true;
+                        const normTopicClass = t.class.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim();
+                        if (isCompetitive || isDropper) {
+                            return normTopicClass === 'class 11' || normTopicClass === 'class 12';
+                        }
+                        return normTopicClass === normUserClass;
+                    });
+                    
+                    const targetTopic = classTopics[0] || (SYLLABUS_DB[subject] || [])[0];
+                    if (targetTopic) {
+                        const score = user.skills ? Math.round((((user.skills as any)[subject.toLowerCase() === 'mathematics' ? 'math' : subject.toLowerCase()] || 0.5)) * 100) : 50;
+                        dynamicStats.push({
+                            id: `dynamic-${targetTopic.id}`,
+                            user_id: user.id,
+                            topic: targetTopic.topic,
+                            topic_id: targetTopic.id,
+                            subject: subject,
+                            correct_count: 0,
+                            total_attempts: 0,
+                            score_percentage: score,
+                            last_attempt: new Date().toISOString(),
+                            status: 'weak' as const
+                        });
+                        subjectsToFetch.push(targetTopic.topic);
+                    }
+                });
+
+                if (dynamicStats.length > 0) {
+                    setWeakTopicStats(dynamicStats);
+                }
             }
 
             // 5. Fetch Mock Counts & Calculate Blended Preparedness (Independent - Guests still want their local history!)
@@ -1166,7 +1166,11 @@ export const Overview = () => {
                                             <p className="text-[10px] text-slate-400 font-semibold leading-tight">
                                                 {isJunior 
                                                     ? 'Keep consistency to excel!' 
-                                                    : `Days remaining until Jan 24, ${displayUser?.targetYear || '2026'}`}
+                                                    : `Days remaining until Jan 24, ${(() => {
+                                                        const targetYr = displayUser?.targetYear || new Date().getFullYear();
+                                                        const examDate = new Date(`${targetYr}-01-24`);
+                                                        return examDate.getTime() < new Date().getTime() ? new Date().getFullYear() + 1 : targetYr;
+                                                    })()}`}
                                             </p>
                                         </div>
                                     </div>
