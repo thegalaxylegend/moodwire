@@ -27,8 +27,8 @@ service cloud.firestore {
     // --- COLLECTION RULES ---
     
     match /engine_questions/{question} {
-      allow get: if true;
-      allow list: if request.query.limit <= 50 || isAdmin();
+      allow get: if isSignedIn();
+      allow list: if (isSignedIn() && request.query.limit <= 50) || isAdmin();
       allow write: if isAdmin(); // Only admins can modify the engine
     }
 
