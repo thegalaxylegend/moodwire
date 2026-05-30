@@ -397,7 +397,7 @@ function buildQ(raw: any, stub: RawQuestion): ProcessedQ | null {
     const subj = raw?.subject || stub.subject || 'Physics';
     const { elo, band } = resolveElo(raw?.difficulty_band, raw?.elo, exam, cls);
 
-    let options: string[] = t === 'Integer' ? [] : (Array.isArray(raw?.options) ? raw.options.slice(0,4) : ['—','—','—','—']);
+    const options: string[] = t === 'Integer' ? [] : (Array.isArray(raw?.options) ? raw.options.slice(0,4) : ['—','—','—','—']);
     let correct = String(raw?.correct_answer ?? '');
 
     // MCQ: resolve letter answers (A/B/C/D → option text)
@@ -496,7 +496,7 @@ async function processWithSlot(slot: WorkerSlot, stubs: RawQuestion[]): Promise<
   const batchSize = caps.ctx <= 8192 ? 1 : stubs.length;
   const maxOut    = Math.min(caps.maxOut, 5000);
 
-  let results: ProcessedQ[] = [];
+  const results: ProcessedQ[] = [];
 
   for (let i = 0; i < stubs.length; i += batchSize) {
     const chunk = stubs.slice(i, i + batchSize);

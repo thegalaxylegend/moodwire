@@ -182,8 +182,8 @@ export const Analytics = () => {
                 return true;
             });
 
-            let mocksToProcess: any[] = filteredMocks;
-            let isSimulation = false;
+            const mocksToProcess: any[] = filteredMocks;
+            const isSimulation = false;
             setIsDemoData(false);
 
             const rawMocksData = mocksToProcess
