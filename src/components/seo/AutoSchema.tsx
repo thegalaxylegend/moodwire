@@ -15,9 +15,9 @@ const EXAM_DATES: Record<string, { name: string; startDate: string; endDate: str
 };
 
 export const AutoSchema = () => {
-    const location = useLocation();
+    const loc = useLocation();
 
-    const pathSegments = location.pathname.split('/').filter(Boolean);
+    const pathSegments = loc.pathname.split('/').filter(Boolean);
     const exam = pathSegments[0];
     const subjectSlug = pathSegments[1];
     const topicSlug = pathSegments[2];
@@ -26,11 +26,11 @@ export const AutoSchema = () => {
         if (['login', 'signup', 'dashboard', 'admin', 'onboarding'].includes(exam || '')) return null;
 
         const schemas: Record<string, any>[] = [];
-        const path = location.pathname.replace(/\/$/, '') || '/';
+        const path = loc.pathname.replace(/\/$/, '') || '/';
         const canonicalUrl = `${SITE_URL}${path}`;
 
         // Root-level entity declarations for the homepage / brand root
-        if (!exam || location.pathname === '/') {
+        if (!exam || loc.pathname === '/') {
             // 1. WebSite Schema with Sitelinks Searchbox
             schemas.push({
                 "@context": "https://schema.org",
@@ -341,7 +341,7 @@ export const AutoSchema = () => {
         }
 
         return schemas.length > 0 ? schemas : null;
-    }, [location.pathname]);
+    }, [loc.pathname]);
 
     if (!schemaData) return null;
 

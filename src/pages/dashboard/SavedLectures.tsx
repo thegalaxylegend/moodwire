@@ -65,7 +65,7 @@ export const SavedLectures = () => {
                         <div>
                             <h1 className="text-2xl font-bold text-text-primary flex items-center gap-3">
                                 <div className="p-2 bg-purple-500/20 rounded-xl">
-                                    <Bookmark className="w-6 h-6 text-purple-500" />
+                                    <Bookmark className="size-6 text-purple-500" />
                                 </div>
                                 Saved Lectures
                             </h1>
@@ -75,8 +75,8 @@ export const SavedLectures = () => {
 
                     {/* Fallback CTA */}
                     <div className="glass-card p-12 text-center flex flex-col items-center justify-center space-y-4">
-                        <div className="w-16 h-16 bg-purple-500/20 rounded-full flex items-center justify-center mx-auto mb-2">
-                            <Bookmark className="w-8 h-8 text-purple-500" />
+                        <div className="size-16 bg-purple-500/20 rounded-full flex items-center justify-center mx-auto mb-2">
+                            <Bookmark className="size-8 text-purple-500" />
                         </div>
                         <h2 className="text-xl font-bold text-text-main">Login to Save Lectures</h2>
                         <p className="text-text-muted max-w-sm mx-auto">
@@ -92,7 +92,7 @@ export const SavedLectures = () => {
                     <div>
                         <h1 className="text-2xl font-bold text-text-primary flex items-center gap-3">
                             <div className="p-2 bg-purple-500/20 rounded-xl">
-                                <Bookmark className="w-6 h-6 text-purple-500" />
+                                <Bookmark className="size-6 text-purple-500" />
                             </div>
                             Saved Lectures
                         </h1>
@@ -105,7 +105,7 @@ export const SavedLectures = () => {
 
                 {/* Search */}
                 <div className="relative max-w-md">
-                    <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-text-muted" />
+                    <Search className="absolute left-4 top-1/2 -translate-y-1/2 size-4 text-text-muted" />
                     <input
                         type="text"
                         value={searchQuery}
@@ -118,13 +118,13 @@ export const SavedLectures = () => {
                 {/* Lectures Grid */}
                 {isLoading ? (
                     <div className="flex flex-col items-center justify-center py-20 gap-4">
-                        <Loader2 className="w-10 h-10 text-purple-500 animate-spin" />
-                        <p className="text-text-muted font-medium">Loading your saved lectures...</p>
+                        <Loader2 className="size-10 text-purple-500 animate-spin" />
+                        <p className="text-text-muted font-medium">Loading your saved lectures…</p>
                     </div>
                 ) : filteredLectures.length === 0 ? (
                     <div className="glass-card p-12 text-center">
-                        <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-white/5 flex items-center justify-center">
-                            <Bookmark className="w-8 h-8 text-text-muted" />
+                        <div className="size-16 mx-auto mb-4 rounded-full bg-white/5 flex items-center justify-center">
+                            <Bookmark className="size-8 text-text-muted" />
                         </div>
                         <h3 className="text-lg font-semibold text-text-primary mb-2">
                             {searchQuery ? 'No lectures found' : 'No saved lectures yet'}
@@ -153,7 +153,7 @@ export const SavedLectures = () => {
                                     />
                                     {/* Play Overlay */}
                                     <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                                        <div className="w-14 h-14 rounded-full bg-purple-600 flex items-center justify-center shadow-lg shadow-purple-500/30">
+                                        <div className="size-14 rounded-full bg-purple-600 flex items-center justify-center shadow-lg shadow-purple-500/30">
                                             <Play size={24} fill="white" className="ml-1" />
                                         </div>
                                     </div>
@@ -181,7 +181,7 @@ export const SavedLectures = () => {
                                     </div>
 
                                     {/* Remove Button */}
-                                    <button
+                                    <button type="button"
                                         onClick={(e) => handleRemove(video.id, e)}
                                         className="p-2 rounded-lg text-text-muted hover:text-red-400 hover:bg-red-500/10 transition-colors"
                                         title="Remove from saved"

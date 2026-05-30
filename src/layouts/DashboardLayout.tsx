@@ -48,11 +48,11 @@ const UserProfileWidget = ({ isSidebarOpen, onClick, onRankClick }: { isSidebarO
     if (!user) {
         return (
             <div className={`p-4 border-t border-border space-y-3 ${!isSidebarOpen && 'lg:p-2'}`}>
-                <button
+                <button type="button"
                     onClick={() => navigate('/login')}
                     className={`w-full flex items-center gap-3 p-2 rounded-xl bg-primary/10 border border-primary/20 hover:bg-primary/20 transition-all text-left group ${!isSidebarOpen && 'lg:justify-center lg:p-0 lg:border-0 lg:bg-transparent'}`}
                 >
-                    <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white font-bold shrink-0">
+                    <div className="size-10 rounded-full bg-primary flex items-center justify-center text-white font-bold shrink-0">
                         G
                     </div>
 
@@ -72,13 +72,13 @@ const UserProfileWidget = ({ isSidebarOpen, onClick, onRankClick }: { isSidebarO
 
     return (
         <div className={`p-4 border-t border-border space-y-3 ${!isSidebarOpen && 'lg:p-2'}`}>
-            <button
+            <button type="button"
                 onClick={onClick}
                 className={`w-full flex items-center gap-3 p-2 rounded-xl bg-surface/50 border border-white/5 hover:bg-white/10 transition-all text-left group ${!isSidebarOpen && 'lg:justify-center lg:p-0 lg:border-0 lg:bg-transparent'}`}
             >
                 {/* Profile Pic Placeholder */}
                 <div className="relative">
-                    <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center text-white font-bold shrink-0 overflow-hidden relative">
+                    <div className="size-10 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center text-white font-bold shrink-0 overflow-hidden relative">
                         {user?.avatarUrl ? (
                             <img
                                 src={user.avatarUrl}
@@ -241,16 +241,16 @@ export const DashboardLayout = () => {
                             </span>
                         </div>
                     ) : (
-                        <button
+                        <button type="button"
                             onClick={() => setIsSidebarOpen(true)}
-                            className="w-9 h-9 mx-auto rounded-xl bg-white/5 hover:bg-white/10 hover:border-primary/30 transition-all duration-300 shrink-0 flex items-center justify-center text-lg font-black text-white tracking-tighter"
+                            className="size-9 mx-auto rounded-xl bg-white/5 hover:bg-white/10 hover:border-primary/30 transition-all duration-300 shrink-0 flex items-center justify-center text-lg font-black text-white tracking-tighter"
                             aria-label="Open sidebar"
                         >
                             E<span className="text-[#a855f7]">C</span>
                         </button>
                     )}
                     {isSidebarOpen && (
-                        <button
+                        <button type="button"
                             onClick={() => setIsSidebarOpen(false)}
                             className="p-2 hover:bg-white/5 rounded-lg transition-colors"
                             aria-label="Close sidebar"
@@ -278,7 +278,7 @@ export const DashboardLayout = () => {
 
                     {/* PWA Install Option */}
                     {!pwa.isStandalone && pwa.canInstall && (
-                        <button
+                        <button type="button"
                             onClick={handleDownloadClick}
                             className={`
                                 w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200 group whitespace-nowrap overflow-hidden
@@ -325,7 +325,7 @@ export const DashboardLayout = () => {
                         <Flame size={15} className="fill-primary" />
                         <span>{user?.streak || 0}</span>
                     </div>
-                    <button 
+                    <button type="button" 
                         onClick={() => setIsSidebarOpen(true)} 
                         className="p-2 rounded-lg bg-surface border border-border touch-manipulation" 
                         aria-label="Open navigation menu"

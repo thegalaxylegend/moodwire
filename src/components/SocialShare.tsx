@@ -85,7 +85,7 @@ export const SocialShare: React.FC<SocialShareProps> = ({
             </a>
 
             {/* Copy Link */}
-            <button 
+            <button type="button" 
                 onClick={copyToClipboard}
                 className={`${btnBase} ${
                     copied 

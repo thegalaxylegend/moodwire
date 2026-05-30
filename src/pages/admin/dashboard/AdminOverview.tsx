@@ -111,7 +111,7 @@ export const AdminOverview = () => {
             Admin <span className="text-primary">Overview</span>
           </h1>
         </div>
-        <button 
+        <button type="button" 
           onClick={() => fetchData(true)}
           className="flex items-center gap-2 px-4 py-2 bg-surface border border-white/10 rounded-xl text-sm font-bold text-text-muted hover:text-white hover:border-primary/50 transition-all active:scale-95"
         >
@@ -240,7 +240,7 @@ export const AdminOverview = () => {
                     <Wifi size={16} className="text-text-muted" />
                     <span className="text-sm font-bold text-text-main">User Sync Status</span>
                 </div>
-                <div className="w-2.5 h-2.5 rounded-full bg-green-500 animate-pulse" />
+                <div className="size-2.5 rounded-full bg-green-500 animate-pulse" />
             </div>
             <div>
                 <p className="text-2xl font-bold text-green-400">Optimal Sync</p>

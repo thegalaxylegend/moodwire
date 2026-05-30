@@ -77,7 +77,7 @@ export const ContactPage = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
                     <div className="p-8 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-md space-y-6">
                         <div className="flex items-start gap-4">
-                            <div className="w-12 h-12 rounded-xl bg-purple-500/10 flex items-center justify-center flex-shrink-0">
+                            <div className="size-12 rounded-xl bg-purple-500/10 flex items-center justify-center flex-shrink-0">
                                 <Mail className="text-purple-400" size={22} />
                             </div>
                             <div>
@@ -90,7 +90,7 @@ export const ContactPage = () => {
                         </div>
 
                         <div className="flex items-start gap-4">
-                            <div className="w-12 h-12 rounded-xl bg-purple-500/10 flex items-center justify-center flex-shrink-0">
+                            <div className="size-12 rounded-xl bg-purple-500/10 flex items-center justify-center flex-shrink-0">
                                 <MapPin className="text-purple-400" size={22} />
                             </div>
                             <div>
@@ -100,7 +100,7 @@ export const ContactPage = () => {
                         </div>
 
                         <div className="flex items-start gap-4">
-                            <div className="w-12 h-12 rounded-xl bg-purple-500/10 flex items-center justify-center flex-shrink-0">
+                            <div className="size-12 rounded-xl bg-purple-500/10 flex items-center justify-center flex-shrink-0">
                                 <Clock className="text-purple-400" size={22} />
                             </div>
                             <div>

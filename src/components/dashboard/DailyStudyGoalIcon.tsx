@@ -20,7 +20,7 @@ export const DailyStudyGoalIcon = () => {
             <motion.div 
                 whileHover={{ scale: 1.08 }}
                 whileTap={{ scale: 0.95 }}
-                className="relative w-11 h-11 flex items-center justify-center cursor-pointer transition-colors"
+                className="relative size-11 flex items-center justify-center cursor-pointer transition-colors"
             >
                 {/* Background Ring Shadow/Glow */}
                 <div className="absolute inset-0 bg-white/5 rounded-full blur-[4px] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

@@ -134,7 +134,7 @@ export const CustomSelect = ({
                                                 <motion.div
                                                     initial={isLow ? {} : { scale: 0 }}
                                                     animate={isLow ? {} : { scale: 1 }}
-                                                    className="w-5 h-5 rounded-full bg-primary/20 flex items-center justify-center"
+                                                    className="size-5 rounded-full bg-primary/20 flex items-center justify-center"
                                                 >
                                                     <Check size={14} className="text-primary" />
                                                 </motion.div>

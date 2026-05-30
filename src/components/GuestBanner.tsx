@@ -57,14 +57,14 @@ export const GuestBanner = () => {
                 </div>
 
                 <div className="flex flex-col sm:flex-row items-center gap-3 w-full lg:w-auto z-10">
-                    <button
+                    <button type="button"
                         onClick={() => navigate('/login')}
                         className="text-[11px] font-bold text-gray-500 hover:text-gray-300 transition-colors uppercase tracking-widest px-4 py-2"
                     >
                         I'll risk losing it
                     </button>
 
-                    <button
+                    <button type="button"
                         onClick={handleSignUp}
                         className="w-full sm:w-auto px-8 py-3.5 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-400 hover:to-orange-500 text-black text-sm font-black rounded-xl transition-all shadow-[0_4px_20px_rgba(245,158,11,0.3)] hover:shadow-[0_6px_25px_rgba(245,158,11,0.5)] flex items-center justify-center gap-2 group/btn active:scale-95 border-t border-white/20"
                     >

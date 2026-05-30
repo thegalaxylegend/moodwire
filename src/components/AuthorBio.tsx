@@ -3,7 +3,7 @@ import { Linkedin, Twitter, Instagram } from 'lucide-react';
 
 interface AuthorBioProps {
     name: string;
-    role: string;
+    jobTitle: string;
     image?: string;
     bio: string;
     credentials?: string[];
@@ -15,7 +15,7 @@ interface AuthorBioProps {
 
 export const AuthorBio: React.FC<AuthorBioProps> = ({
     name,
-    role,
+    jobTitle,
     image,
     bio,
     credentials,
@@ -27,7 +27,7 @@ export const AuthorBio: React.FC<AuthorBioProps> = ({
     return (
         <div className="bg-white/5 border border-white/10 rounded-2xl p-6 mt-12 mb-8">
             <div className="flex flex-col md:flex-row gap-6 items-center md:items-start text-center md:text-left">
-                <div className="w-24 h-24 rounded-full overflow-hidden bg-purple-500/20 flex-shrink-0 border-2 border-purple-500/30">
+                <div className="size-24 rounded-full overflow-hidden bg-purple-500/20 flex-shrink-0 border-2 border-purple-500/30">
                     {image ? (
                         <img src={image} alt={name} className="w-full h-full object-cover" />
                     ) : (
@@ -40,7 +40,7 @@ export const AuthorBio: React.FC<AuthorBioProps> = ({
                     <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-3">
                         <div>
                             <h3 className="text-xl font-bold text-white mb-1">{name}</h3>
-                            <p className="text-purple-400 text-sm font-medium">{role}</p>
+                            <p className="text-purple-400 text-sm font-medium">{jobTitle}</p>
                         </div>
                         <div className="flex items-center gap-3 justify-center">
                             {linkedin && (
@@ -85,7 +85,7 @@ export const AuthorBio: React.FC<AuthorBioProps> = ({
             {/* E-E-A-T Marker for Crawlers */}
             <div className="mt-4 pt-4 border-t border-white/5 flex items-center justify-between">
                 <div className="flex items-center gap-2 text-[11px] text-gray-500">
-                    <span className="w-2 h-2 rounded-full bg-green-500/50"></span>
+                    <span className="size-2 rounded-full bg-green-500/50"></span>
                     AI-Verified Resource
                 </div>
                 <div className="text-[11px] text-gray-500 italic">

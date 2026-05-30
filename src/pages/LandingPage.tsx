@@ -312,7 +312,7 @@ export const LandingPage = () => {
                             <div className="relative z-10">
                                 <motion.div 
                                     whileHover={{ rotate: [0, -10, 10, 0], transition: { duration: 0.5 } }}
-                                    className="w-16 h-16 rounded-2xl bg-white/5 flex items-center justify-center mb-8 group-hover:bg-primary/10 transition-colors duration-300"
+                                    className="size-16 rounded-2xl bg-white/5 flex items-center justify-center mb-8 group-hover:bg-primary/10 transition-colors duration-300"
                                 >
                                     {feature.icon}
                                 </motion.div>
@@ -334,7 +334,7 @@ export const LandingPage = () => {
                     transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
                     className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent origin-center"
                 />
-                <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[120px] pointer-events-none animate-breathing" />
+                <div className="absolute top-0 right-0 size-[500px] bg-primary/5 rounded-full blur-[120px] pointer-events-none animate-breathing" />
                 
                 <div className="text-center mb-24 relative z-10">
                     <motion.h2 
@@ -392,7 +392,7 @@ export const LandingPage = () => {
                             <div className="absolute top-4 right-6 text-[80px] font-black text-white/[0.03] leading-none select-none">
                                 {step.step}
                             </div>
-                            <div className="w-20 h-20 rounded-2xl bg-white/5 flex items-center justify-center shrink-0 text-3xl font-black group-hover:scale-110 group-hover:bg-primary/10 transition-all duration-300">
+                            <div className="size-20 rounded-2xl bg-white/5 flex items-center justify-center shrink-0 text-3xl font-black group-hover:scale-110 group-hover:bg-primary/10 transition-all duration-300">
                                 {step.icon}
                             </div>
                             <div className="text-center md:text-left">
@@ -421,7 +421,7 @@ export const LandingPage = () => {
                         whileInView={{ scale: 1 }}
                         viewport={{ once: true }}
                         transition={{ type: 'spring', stiffness: 200, damping: 15 }}
-                        className="w-20 h-20 rounded-2xl bg-primary/20 flex items-center justify-center mx-auto mb-8"
+                        className="size-20 rounded-2xl bg-primary/20 flex items-center justify-center mx-auto mb-8"
                     >
                         <Rocket size={36} className="text-primary" />
                     </motion.div>
@@ -469,7 +469,7 @@ export const LandingPage = () => {
                         <details key={i} className="group rounded-2xl bg-white/5 border border-white/10 overflow-hidden hover:border-purple-500/30 transition-colors">
                             <summary className="flex items-center justify-between p-6 cursor-pointer list-none font-bold text-white text-lg select-none">
                                 <span>{faq.q}</span>
-                                <ChevronDown className="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform duration-300 shrink-0 ml-4" />
+                                <ChevronDown className="size-5 text-gray-500 group-open:rotate-180 transition-transform duration-300 shrink-0 ml-4" />
                             </summary>
                             <div className="px-6 pb-6 text-gray-400 leading-relaxed">
                                 {faq.a}

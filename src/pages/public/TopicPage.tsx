@@ -33,10 +33,57 @@ export const TopicPage = () => {
     const { user } = useUserStore();
     const { tier } = usePerformance();
 
+    // ── Hooks must be unconditional: declared before any early returns ──
+    const [sampleQuestions, setSampleQuestions] = React.useState<any[]>(
+        (typeof globalThis !== 'undefined' && globalThis.SEO_TOPIC_DATA)
+            ? globalThis.SEO_TOPIC_DATA
+            : []
+    );
+    const [generatingPdf, setGeneratingPdf] = React.useState(false);
+
     // Data Finding Logic
     const realSubject = Object.keys(SYLLABUS_DB).find(k => slugify(k) === subject);
     const topicList = realSubject ? (SYLLABUS_DB[realSubject as string] || []) : [];
     const topicData = topicList.find(t => slugify(t.topic) === topic);
+
+    // Fallback: If no SSG data, try to fetch from internal API/DB (Client-Side)
+    React.useEffect(() => {
+        if (!topicData || sampleQuestions.length > 0) return;
+        const fetchQuestions = async () => {
+            try {
+                const response = await fetch('/question-db.json');
+                if (!response.ok) throw new Error('Failed to fetch DB');
+
+                const db = await response.json();
+                const relatedQuestions = Object.values(db).filter((q: any) => {
+                    // 1. Strict Subject Filter (Prevent cross-subject pollution)
+                    if (realSubject && q.subject && q.subject !== realSubject) return false;
+
+                    // 2. Filter out Practice Question placeholders
+                    if (q.title === "Practice Question" || q.slug?.includes("practice-question-")) return false;
+
+                    if (!q.topic) return false;
+
+                    const expectedQUrl = `/${exam}/q/${q.slug}`;
+                    if (!db[expectedQUrl]) return false;
+
+                    const qTopic = (q.topic || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+                    const pTopic = topicData.topic.toLowerCase().replace(/[^a-z0-9]/g, '');
+                    return qTopic === pTopic || qTopic.includes(pTopic) || pTopic.includes(qTopic);
+                });
+
+                // 3. Deduplicate by slug (Prevent 3x repetition)
+                const uniqueQuestions = Array.from(new Map(relatedQuestions.map((q: any) => [q.slug || q.id, q])).values()).slice(0, 15);
+
+                if (uniqueQuestions.length > 0) {
+                    setSampleQuestions(uniqueQuestions);
+                }
+            } catch (error) {
+                console.warn("Client-side question fetch failed:", error);
+            }
+        };
+        fetchQuestions();
+    }, [topicData, sampleQuestions.length]);
 
     if (!topicData) {
         // Fallback Logic: Maybe they landed on a Blog slug by mistake?
@@ -45,7 +92,7 @@ export const TopicPage = () => {
             return (
                 <div className="min-h-screen bg-black flex items-center justify-center p-6 text-center">
                     <div className="max-w-md space-y-6">
-                        <div className="w-16 h-16 bg-purple-500/20 rounded-full flex items-center justify-center mx-auto animate-pulse">
+                        <div className="size-16 bg-purple-500/20 rounded-full flex items-center justify-center mx-auto animate-pulse">
                             <ArrowRight className="text-purple-500" />
                         </div>
                         <h1 className="text-2xl font-bold">Revision Notes Found</h1>
@@ -73,53 +120,6 @@ export const TopicPage = () => {
     const cleanTopicName = topicData?.topic.replace(/\[.*?\]\s*/g, '') || topic?.replace(/-/g, ' ');
 
     const contextName = formattedExam === 'SCHOOL EXAMS' ? (user?.userClass || topicData?.class || 'CBSE Class') : formattedExam;
-
-    // SEO Data Hydration with Client-Side Fallback
-    const [sampleQuestions, setSampleQuestions] = React.useState<any[]>(
-        (typeof globalThis !== 'undefined' && globalThis.SEO_TOPIC_DATA)
-            ? globalThis.SEO_TOPIC_DATA
-            : []
-    );
-
-    // Fallback: If no SSG data, try to fetch from internal API/DB (Client-Side)
-    React.useEffect(() => {
-        if (sampleQuestions.length === 0 && topicData) {
-            const fetchQuestions = async () => {
-                try {
-                    const response = await fetch('/question-db.json');
-                    if (!response.ok) throw new Error('Failed to fetch DB');
-
-                    const db = await response.json();
-                    const relatedQuestions = Object.values(db).filter((q: any) => {
-                        // 1. Strict Subject Filter (Prevent cross-subject pollution)
-                        if (realSubject && q.subject && q.subject !== realSubject) return false;
-
-                        // 2. Filter out Practice Question placeholders
-                        if (q.title === "Practice Question" || q.slug?.includes("practice-question-")) return false;
-
-                        if (!q.topic) return false;
-
-                        const expectedQUrl = `/${exam}/q/${q.slug}`;
-                        if (!db[expectedQUrl]) return false;
-
-                        const qTopic = (q.topic || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-                        const pTopic = topicData.topic.toLowerCase().replace(/[^a-z0-9]/g, '');
-                        return qTopic === pTopic || qTopic.includes(pTopic) || pTopic.includes(qTopic);
-                    });
-
-                    // 3. Deduplicate by slug (Prevent 3x repetition)
-                    const uniqueQuestions = Array.from(new Map(relatedQuestions.map((q: any) => [q.slug || q.id, q])).values()).slice(0, 15);
-
-                    if (uniqueQuestions.length > 0) {
-                        setSampleQuestions(uniqueQuestions);
-                    }
-                } catch (error) {
-                    console.warn("Client-side question fetch failed:", error);
-                }
-            };
-            fetchQuestions();
-        }
-    }, [sampleQuestions.length, topicData]);
 
     // Build keywords from subtopics
     const subtopicKeywords = topicData?.subtopics.slice(0, 6).join(', ') || '';
@@ -210,8 +210,6 @@ export const TopicPage = () => {
     const shortTopic = cleanTopicName ? (cleanTopicName.length > 40 ? `${cleanTopicName.substring(0, 37)}...` : cleanTopicName) : 'Practice Questions';
     const pageTitle = `${shortTopic} Notes for ${contextName} ${targetYear} | ExamCompass`;
 
-    // Trick #4: PDF Download feature exposed to public
-    const [generatingPdf, setGeneratingPdf] = React.useState(false);
     const handleDownloadPDF = async () => {
         setGeneratingPdf(true);
         try {
@@ -276,7 +274,7 @@ export const TopicPage = () => {
 
                         {/* Scientific Verification Badge */}
                         <div className="mt-4 flex items-center gap-2 px-3 py-1.5 bg-green-500/10 border border-green-500/20 rounded-lg w-fit">
-                            <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+                            <div className="size-2 rounded-full bg-green-500 animate-pulse" />
                             <span className="text-xs font-bold text-green-400 uppercase tracking-wider">
                                 Scientific Verification Active
                             </span>
@@ -342,7 +340,7 @@ export const TopicPage = () => {
                                                     <ul className="space-y-3">
                                                         {topicContent.commonMistakes.map((mistake: string, i: number) => (
                                                             <li key={i} className="flex items-start gap-2 text-gray-300 text-sm">
-                                                                <div className="w-1.5 h-1.5 rounded-full bg-red-500 mt-2 shrink-0" />
+                                                                <div className="size-1.5 rounded-full bg-red-500 mt-2 shrink-0" />
                                                                 <span className="leading-relaxed">{mistake}</span>
                                                             </li>
                                                         ))}
@@ -391,7 +389,7 @@ export const TopicPage = () => {
                                 Start Practice Test <ArrowRight size={20} />
                             </Link>
 
-                            <button 
+                            <button type="button" 
                                 onClick={handleDownloadPDF}
                                 disabled={generatingPdf}
                                 className="inline-flex items-center gap-2 bg-white/10 border border-white/20 font-bold px-8 py-4 rounded-xl hover:bg-white/20 transition-all justify-center flex-1 md:flex-none group"
@@ -419,7 +417,7 @@ export const TopicPage = () => {
                                                     to={`/blog/${b.id}`}
                                                     className="text-gray-400 hover:text-white transition-colors flex items-center gap-2 text-sm"
                                                 >
-                                                    <div className="w-1.5 h-1.5 rounded-full bg-blue-500" />
+                                                    <div className="size-1.5 rounded-full bg-blue-500" />
                                                     {b.title}
                                                 </Link>
                                             </li>
@@ -449,7 +447,7 @@ export const TopicPage = () => {
 
                         <AuthorBio 
                             name="Ayush Kumar"
-                            role="Founder, ExamCompass"
+                            jobTitle="Founder, ExamCompass"
                             bio="Class 12 student at KV Darbhanga, Bihar. Built ExamCompass as a personal study tool after analyzing 50+ past papers. All topic notes and PYQs are cross-verified against NCERT textbooks."
                             credentials={["KV Darbhanga, Bihar", "50+ PYQ Papers Analyzed", "NCERT-Aligned Content"]}
                             linkedin="https://www.linkedin.com/in/ayush-kumar-a23260401"

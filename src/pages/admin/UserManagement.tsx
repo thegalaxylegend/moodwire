@@ -154,7 +154,7 @@ export const UserManagement = () => {
                         View and manage registered students across the platform.
                     </p>
                 </div>
-                <button 
+                <button type="button" 
                   onClick={fetchUsers}
                   disabled={loading}
                   className="flex items-center gap-2 px-4 py-2 bg-surface border border-white/10 rounded-xl text-sm font-bold text-text-muted hover:text-white hover:border-indigo-500/50 transition-all active:scale-95 disabled:opacity-50"
@@ -199,7 +199,7 @@ export const UserManagement = () => {
                 <div className="p-4 border-b border-white/5 flex flex-col gap-4">
                     <div className="flex items-center gap-2 overflow-x-auto pb-2 custom-scrollbar hide-scrollbar">
                         {['All', 'JEE', 'NEET', '11th', '12th', 'Dropper', 'Gmail', 'Guest', 'Unspecified', 'Banned'].map(filter => (
-                            <button
+                            <button type="button"
                                 key={filter}
                                 onClick={() => setActiveFilter(filter)}
                                 className={`px-4 py-1.5 rounded-full text-xs font-bold whitespace-nowrap transition-all shrink-0 ${activeFilter === filter ? 'bg-indigo-500 text-white shadow-lg shadow-indigo-500/20' : 'bg-surface border border-white/5 text-text-muted hover:text-white'}`}
@@ -210,7 +210,7 @@ export const UserManagement = () => {
                         
                         <div className="flex-1 hidden sm:block" />
                         
-                        <button
+                        <button type="button"
                             onClick={() => setSortOrder(prev => prev === 'latest' ? 'oldest' : 'latest')}
                             className="bg-surface border border-white/5 rounded-full px-3 py-1.5 text-xs font-bold text-text-muted hover:text-white transition-all shrink-0 flex items-center gap-1.5"
                         >
@@ -260,7 +260,7 @@ export const UserManagement = () => {
                                                     <Shield className="text-red-500 mx-auto mb-4" size={32} />
                                                     <p className="text-red-500 font-bold mb-2 uppercase tracking-widest text-xs">Access Error</p>
                                                     <p className="text-text-muted text-sm mb-4">{error}</p>
-                                                    <button 
+                                                    <button type="button" 
                                                         onClick={fetchUsers}
                                                         className="w-full py-2 bg-red-500 text-white rounded-lg text-xs font-bold hover:bg-red-600 transition-all"
                                                     >
@@ -274,7 +274,7 @@ export const UserManagement = () => {
                                                         <p className="text-text-main font-bold">No users found</p>
                                                         <p className="text-text-muted text-sm mb-4">Try adjusting your search or refresh the data.</p>
                                                     </div>
-                                                    <button 
+                                                    <button type="button" 
                                                         onClick={fetchUsers}
                                                         className="px-4 py-2 bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 rounded-lg text-xs font-bold hover:bg-indigo-500/20 transition-all"
                                                     >
@@ -290,7 +290,7 @@ export const UserManagement = () => {
                                     <tr key={u.id} className="hover:bg-white/5 transition-colors">
                                         <td className="p-4">
                                             <div className="flex items-center gap-3">
-                                                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-indigo-500 to-purple-500 flex items-center justify-center font-bold text-white shadow-lg shrink-0">
+                                                <div className="size-10 rounded-full bg-gradient-to-br from-indigo-500 to-purple-500 flex items-center justify-center font-bold text-white shadow-lg shrink-0">
                                                     {(u.display_name || u.name || (u as any).displayName || u.id || "?").charAt(0).toUpperCase()}
                                                 </div>
                                                 <div className="min-w-0">
@@ -324,21 +324,21 @@ export const UserManagement = () => {
                                         </td>
                                         <td className="p-4 text-right">
                                             <div className="flex items-center justify-end gap-2">
-                                                <button 
+                                                <button type="button" 
                                                     onClick={() => alert(`RAW DATA:\n${JSON.stringify(u, null, 2)}`)}
                                                     className="p-1.5 rounded bg-white/5 text-text-muted hover:text-white"
                                                     title="Inspect Raw Data"
                                                 >
                                                     <Terminal size={14} />
                                                 </button>
-                                                <button 
+                                                <button type="button" 
                                                     onClick={() => toggleAdmin(u.id, u.role || 'user')}
                                                     className={`px-3 py-1.5 rounded text-xs font-bold transition-colors flex items-center gap-1.5 ${u.role === 'admin' ? 'bg-red-500/20 text-red-400 hover:bg-red-500/30' : 'bg-white/5 text-white/60 hover:text-white hover:bg-white/10'}`}
                                                     title={u.role === 'admin' ? 'Revoke Admin' : 'Make Admin'}
                                                 >
                                                     <Key size={12} />
                                                 </button>
-                                                <button 
+                                                <button type="button" 
                                                     onClick={() => toggleBan(u.id, !!u.is_banned)}
                                                     className={`px-3 py-1.5 rounded text-xs font-bold transition-colors flex items-center gap-1.5 ${u.is_banned ? 'bg-green-500/20 text-green-400 hover:bg-green-500/30' : 'bg-red-500/20 text-red-400 hover:bg-red-500/30'}`}
                                                     title={u.is_banned ? 'Restore Access' : 'Ban User'}

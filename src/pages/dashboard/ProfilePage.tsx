@@ -146,7 +146,7 @@ export const ProfilePage = () => {
                             Your <strong className="text-amber-400">{user?.xp || 0} XP</strong> and <strong className="text-amber-400">{user?.streak || 0}-day streak</strong> are only saved locally. Create an account to permanently backup your progress and access the Global Leaderboard.
                         </p>
                     </div>
-                    <button
+                    <button type="button"
                         onClick={async () => {
                             await logout();
                         }}
@@ -173,7 +173,7 @@ export const ProfilePage = () => {
                             />
                         </div>
 
-                        <div className="w-32 h-32 rounded-full border-4 border-surface bg-surface shadow-xl overflow-hidden flex items-center justify-center relative z-10">
+                        <div className="size-32 rounded-full border-4 border-surface bg-surface shadow-xl overflow-hidden flex items-center justify-center relative z-10">
                             {user?.avatarUrl ? (
                                 <img 
                                     src={user.avatarUrl} 
@@ -197,7 +197,7 @@ export const ProfilePage = () => {
                         <XPProgress xp={user?.xp || 0} />
                     </div>
 
-                    <button
+                    <button type="button"
                         onClick={() => setReferralOpen(true)}
                         className="w-full max-w-[200px] py-2 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-xl font-bold text-white shadow-lg hover:shadow-indigo-500/25 hover:scale-105 transition-all text-sm flex items-center justify-center gap-2"
                     >
@@ -260,7 +260,7 @@ export const ProfilePage = () => {
                                         { id: 'glass-white', icon: '☁️' },
                                         { id: 'full-glass', icon: '🔮' }
                                     ].map((theme) => (
-                                        <button
+                                        <button type="button"
                                             key={theme.id}
                                             onClick={() => {
                                                 const root = document.documentElement;
@@ -320,7 +320,7 @@ export const ProfilePage = () => {
                             </div>
                             <div className="space-y-3">
                                 <label className="text-sm font-medium text-transparent select-none">Account</label>
-                                <button
+                                <button type="button"
                                     onClick={async () => {
                                         if (window.confirm("Are you sure you want to delete your account?")) {
                                             if (window.confirm("FINAL WARNING: This action cannot be undone. All your data will be permanently lost. Are you absolutely sure?")) {
@@ -340,7 +340,7 @@ export const ProfilePage = () => {
                                 </button>
 
                                 {(user?.xp || 0) > 10000000 && (
-                                    <button
+                                    <button type="button"
                                         onClick={async () => {
                                             if (window.confirm("DEV TOOL: Are you sure you want to reset your XP to 0?")) {
                                                 await updateProfile({ xp: 0, lifetimeXp: 0, totalPoints: 0 });
@@ -503,7 +503,7 @@ export const ProfilePage = () => {
 
                         {/* Actions */}
                         <div className="flex gap-4 pt-2">
-                            <button
+                            <button type="button"
                                 onClick={() => {
                                     if (window.confirm("Are you sure you want to logout?")) {
                                         logout();
@@ -513,7 +513,7 @@ export const ProfilePage = () => {
                             >
                                 <LogOut size={16} /> Logout
                             </button>
-                            <button
+                            <button type="button"
                                 onClick={handleSave}
                                 disabled={loading || saved}
                                 className={`flex-[2] py-3 px-4 rounded-xl font-bold flex items-center justify-center gap-2 transition-all text-sm shadow-lg ${saved
@@ -538,8 +538,8 @@ export const ProfilePage = () => {
             {/* Student Sub-Profiles Section */}
             <div className="bg-surface border border-border rounded-3xl p-8 shadow-lg relative overflow-hidden space-y-6">
                 {/* Decorative glow */}
-                <div className="absolute -right-24 -bottom-24 w-96 h-96 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
-                <div className="absolute -left-24 -top-24 w-96 h-96 bg-accent/10 rounded-full blur-3xl pointer-events-none"></div>
+                <div className="absolute -right-24 -bottom-24 size-96 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
+                <div className="absolute -left-24 -top-24 size-96 bg-accent/10 rounded-full blur-3xl pointer-events-none"></div>
 
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 relative z-10">
                     <div className="space-y-1">
@@ -551,7 +551,7 @@ export const ProfilePage = () => {
                         </p>
                     </div>
                     {subProfiles && subProfiles.length < 4 && !showAddForm && (
-                        <button
+                        <button type="button"
                             onClick={() => setShowAddForm(true)}
                             className="px-5 py-2.5 bg-gradient-to-r from-primary to-accent text-[color:var(--btn-text)] hover:opacity-90 font-bold rounded-xl transition-all shadow-md flex items-center gap-2 text-sm shrink-0"
                         >
@@ -583,7 +583,7 @@ export const ProfilePage = () => {
                                                 <CheckCircle2 size={10} /> Active
                                             </span>
                                         ) : (
-                                            <button
+                                            <button type="button"
                                                 onClick={() => switchProfile(p.id)}
                                                 className="text-[10px] bg-border/50 hover:bg-primary/20 text-text-muted hover:text-primary font-bold px-2 py-0.5 rounded transition-all shrink-0"
                                             >
@@ -593,10 +593,10 @@ export const ProfilePage = () => {
                                     </div>
                                     <div className="space-y-1">
                                         <p className="text-xs text-text-muted flex items-center gap-1.5">
-                                            <span className="w-1.5 h-1.5 rounded-full bg-primary/60"></span> {p.userClass}
+                                            <span className="size-1.5 rounded-full bg-primary/60"></span> {p.userClass}
                                         </p>
                                         <p className="text-xs text-text-muted flex items-center gap-1.5">
-                                            <span className="w-1.5 h-1.5 rounded-full bg-accent/60"></span> {p.targetExam}
+                                            <span className="size-1.5 rounded-full bg-accent/60"></span> {p.targetExam}
                                         </p>
                                     </div>
                                 </div>
@@ -606,7 +606,7 @@ export const ProfilePage = () => {
                                         ID: {p.id.slice(-8)}
                                     </span>
                                     {p.id !== user?.id && p.id !== activeProfileId && (
-                                        <button
+                                        <button type="button"
                                             onClick={() => {
                                                 if (window.confirm(`Are you sure you want to delete sub-profile "\${p.name}"? All progress will be lost.`)) {
                                                     deleteSubProfile(p.id);

@@ -25,7 +25,7 @@ export const StudentTip = ({ seedText }: { seedText: string }) => {
         <div className="bg-purple-900/20 border border-purple-500/30 rounded-xl p-5 my-8">
             <div className="flex items-start gap-3">
                 <div className="bg-purple-500/20 p-2 rounded-lg flex-shrink-0">
-                    <Info className="w-5 h-5 text-purple-400" />
+                    <Info className="size-5 text-purple-400" />
                 </div>
                 <div>
                     <h4 className="text-white font-semibold mb-1">Founder's Note</h4>

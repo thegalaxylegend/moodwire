@@ -48,7 +48,7 @@ export const AuthGate = ({ children, fallback, mode = 'modal' }: AuthGateProps) 
             <div className="w-full flex flex-col items-center justify-center relative">
                 {fallback}
                 <div className="w-full flex justify-center mt-6 relative z-10 px-4">
-                    <button
+                    <button type="button"
                         onClick={() => navigate('/login', { state: { from: location } })}
                         className="w-full max-w-sm py-4 rounded-xl bg-gradient-to-r from-primary to-accent text-white font-black shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/40 hover:-translate-y-1 transition-all outline-none border border-white/20 uppercase tracking-widest text-sm"
                     >
@@ -74,7 +74,7 @@ export const AuthGate = ({ children, fallback, mode = 'modal' }: AuthGateProps) 
             {showModal && (
                 <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fade-in" role="dialog" aria-modal="true" aria-labelledby="auth-gate-title" onClick={() => setShowModal(false)}>
                     <div className="bg-surface border border-primary/20 p-8 rounded-2xl max-w-sm w-full shadow-2xl relative oxygen-card text-center space-y-6" onClick={e => e.stopPropagation()}>
-                        <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto">
+                        <div className="size-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto">
                             <Lock className="text-primary" size={32} />
                         </div>
 
@@ -86,13 +86,13 @@ export const AuthGate = ({ children, fallback, mode = 'modal' }: AuthGateProps) 
                         </div>
 
                         <div className="space-y-3">
-                            <button
+                            <button type="button"
                                 onClick={() => navigate('/login', { state: { from: location } })}
                                 className="w-full py-3 rounded-xl bg-primary text-white font-bold hover:bg-primary/90 transition-all oxygen-button"
                             >
                                 Sign In / Sign Up
                             </button>
-                            <button
+                            <button type="button"
                                 onClick={() => setShowModal(false)}
                                 className="w-full py-3 rounded-xl bg-transparent border border-border text-text-muted hover:text-text-main hover:bg-white/5 transition-all oxygen-button"
                             >

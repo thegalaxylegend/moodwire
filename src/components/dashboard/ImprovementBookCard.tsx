@@ -283,7 +283,7 @@ export const ImprovementBookCard: React.FC<ImprovementBookCardProps> = ({ userId
         <>
             <div className="glass-card premium-border active-glow oxygen-card p-6 space-y-5 relative overflow-hidden group">
                 {/* Background glow */}
-                <div className="absolute right-0 top-0 w-24 h-24 bg-purple-500/5 rounded-full blur-2xl pointer-events-none group-hover:bg-purple-500/10 transition-colors" />
+                <div className="absolute right-0 top-0 size-24 bg-purple-500/5 rounded-full blur-2xl pointer-events-none group-hover:bg-purple-500/10 transition-colors" />
 
                 {/* Header */}
                 <div className="flex items-center justify-between relative z-10">
@@ -337,7 +337,7 @@ export const ImprovementBookCard: React.FC<ImprovementBookCardProps> = ({ userId
                                 </p>
                             </div>
                             {onStartTest && (
-                                <button
+                                <button type="button"
                                     onClick={onStartTest}
                                     className="px-4 py-2 bg-primary hover:bg-primary/95 text-white text-xs font-bold uppercase tracking-wider rounded-lg shadow-lg shadow-primary/20 active:scale-95 transition-all w-full"
                                 >
@@ -367,7 +367,7 @@ export const ImprovementBookCard: React.FC<ImprovementBookCardProps> = ({ userId
                                                 {entry.question_text}
                                             </p>
                                         </div>
-                                        <button
+                                        <button type="button"
                                             onClick={() => handleSolveStart(entry)}
                                             className="shrink-0 p-2 rounded-lg bg-purple-500/10 hover:bg-purple-500 text-purple-400 hover:text-white border border-purple-500/20 transition-all duration-200 shadow-sm active:scale-95 group-hover/item:translate-x-0.5"
                                             title="Solve Mistake"
@@ -380,7 +380,7 @@ export const ImprovementBookCard: React.FC<ImprovementBookCardProps> = ({ userId
 
                             {/* Mobile View: single premium CTA button */}
                             <div className="flex md:hidden flex-col">
-                                <button
+                                <button type="button"
                                     onClick={() => handleSolveStart(entries[0])}
                                     className="w-full py-3.5 bg-gradient-to-r from-purple-500/10 to-indigo-500/10 hover:from-purple-500/15 hover:to-indigo-500/15 text-purple-300 border border-purple-500/20 rounded-xl transition-all flex items-center justify-center gap-2 font-bold text-xs uppercase tracking-wider active:scale-[0.98]"
                                 >
@@ -412,10 +412,10 @@ export const ImprovementBookCard: React.FC<ImprovementBookCardProps> = ({ userId
                                 onClick={(e) => e.stopPropagation()}
                             >
                                 {/* Cosmic backdrop light */}
-                                <div className="absolute -right-24 -top-24 w-48 h-48 bg-purple-600/10 rounded-full blur-3xl pointer-events-none" />
+                                <div className="absolute -right-24 -top-24 size-48 bg-purple-600/10 rounded-full blur-3xl pointer-events-none" />
 
                                 {/* Close Button */}
-                                <button
+                                <button type="button"
                                     onClick={handleCloseModal}
                                     className="absolute right-4 top-4 p-2 text-slate-400 hover:text-slate-200 hover:bg-white/5 rounded-lg transition-colors z-20"
                                     aria-label="Close modal"
@@ -476,7 +476,7 @@ export const ImprovementBookCard: React.FC<ImprovementBookCardProps> = ({ userId
                                             }
 
                                             return (
-                                                <button
+                                                <button type="button"
                                                     key={idx}
                                                     onClick={() => handleOptionSelect(option)}
                                                     disabled={hasChecked}
@@ -530,13 +530,13 @@ export const ImprovementBookCard: React.FC<ImprovementBookCardProps> = ({ userId
                                     <div className="flex justify-end gap-3 pt-2">
                                         {!hasChecked ? (
                                             <>
-                                                <button
+                                                <button type="button"
                                                     onClick={handleCloseModal}
                                                     className="px-5 py-2.5 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 text-slate-300 text-xs font-bold uppercase tracking-wider transition-all active:scale-95"
                                                 >
                                                     Cancel
                                                 </button>
-                                                <button
+                                                <button type="button"
                                                     onClick={handleCheckAnswer}
                                                     disabled={!selectedOption}
                                                     className="px-6 py-2.5 rounded-xl bg-purple-500 hover:bg-purple-600 disabled:opacity-40 disabled:hover:bg-purple-500 text-white text-xs font-bold uppercase tracking-wider transition-all active:scale-95 shadow-lg shadow-purple-500/20"
@@ -545,7 +545,7 @@ export const ImprovementBookCard: React.FC<ImprovementBookCardProps> = ({ userId
                                                 </button>
                                             </>
                                         ) : (
-                                            <button
+                                            <button type="button"
                                                 onClick={handleCloseModal}
                                                 className="px-6 py-2.5 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 text-slate-200 text-xs font-bold uppercase tracking-wider transition-all active:scale-95"
                                             >

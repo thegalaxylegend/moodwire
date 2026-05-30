@@ -157,7 +157,7 @@ export const SubjectSyllabus = () => {
             <div className="space-y-1 mb-4">
                 {topic.subtopics.map((sub, i) => (
                     <div key={i} className="text-xs text-text-muted flex items-center gap-2">
-                        <div className="w-1 h-1 rounded-full bg-text-muted" /> {sub}
+                        <div className="size-1 rounded-full bg-text-muted" /> {sub}
                     </div>
                 ))}
             </div>
@@ -185,7 +185,7 @@ export const SubjectSyllabus = () => {
                 })()}
 
                 <div className="flex items-center gap-2">
-                    <button
+                    <button type="button"
                         onClick={async () => {
                             const { generateCheatSheetContent, downloadCheatSheetPDF } = await import('../../services/cheatSheetService');
                             const content = await generateCheatSheetContent(topic.topic, topic.subject);
@@ -198,7 +198,7 @@ export const SubjectSyllabus = () => {
                     </button>
                     {topic.resources ? (
                         <div className="flex gap-2">
-                            <button
+                            <button type="button"
                                 onClick={(e) => {
                                     e.stopPropagation();
                                     const cleanSlug = topic.topic.toLowerCase().replace(/[^a-z0-9\s]/g, '').replace(/\s+/g, '-').trim();
@@ -217,7 +217,7 @@ export const SubjectSyllabus = () => {
                             </a>
                         </div>
                     ) : (
-                        <button
+                        <button type="button"
                             onClick={() => generateResources(topic)}
                             className="text-xs text-primary hover:underline flex items-center gap-1"
                         >
@@ -227,7 +227,7 @@ export const SubjectSyllabus = () => {
 
                     <div className="flex-1" />
 
-                    <button
+                    <button type="button"
                         onClick={() => navigate(`/dashboard/mock?topic=${encodeURIComponent(topic.topic)}`)}
                         className="px-3 py-1 bg-primary/10 text-primary text-xs font-bold rounded oxygen-button flex items-center gap-1"
                     >
@@ -242,7 +242,7 @@ export const SubjectSyllabus = () => {
         return (
             <div className="flex flex-col items-center justify-center h-[60vh] space-y-4">
                 <Loader2 size={48} className="text-primary animate-spin" />
-                <h2 className="text-xl font-bold text-text-main">Loading {subject} Syllabus...</h2>
+                <h2 className="text-xl font-bold text-text-main">Loading {subject} Syllabus…</h2>
             </div>
         );
     }
@@ -254,11 +254,11 @@ export const SubjectSyllabus = () => {
                 description={`Access all chapters and topics for ${subject} for ${user?.targetExam}. Track your progress and access study resources.`}
             />
 
-            <button
+            <button type="button"
                 onClick={() => navigate('/dashboard/syllabus')}
                 className="flex items-center gap-2 text-text-muted hover:text-primary transition-colors group mb-4"
             >
-                <div className="w-8 h-8 rounded-lg bg-surface border border-border flex items-center justify-center group-hover:border-primary/50">
+                <div className="size-8 rounded-lg bg-surface border border-border flex items-center justify-center group-hover:border-primary/50">
                     <ArrowLeft size={18} />
                 </div>
                 <span className="font-bold text-sm uppercase tracking-wider">Back to Syllabus</span>

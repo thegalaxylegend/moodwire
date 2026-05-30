@@ -251,7 +251,7 @@ Give a specific, data-driven tip. Mention exact subjects. No generic motivationa
             mode="modal"
             fallback={
                 <div className="min-h-[60vh] flex flex-col items-center justify-center text-center space-y-6">
-                    <div className="w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center animate-pulse">
+                    <div className="size-20 bg-primary/20 rounded-full flex items-center justify-center animate-pulse">
                         <CalendarIcon size={40} className="text-primary" />
                     </div>
                     <div>
@@ -272,7 +272,7 @@ Give a specific, data-driven tip. Mention exact subjects. No generic motivationa
                             {' '}targeting <span className="text-secondary">{user?.targetExam || 'Exams'}</span>.
                         </p>
                     </div>
-                    <button
+                    <button type="button"
                         onClick={generateSchedule}
                         disabled={loading}
                         className="px-4 py-2 bg-surface border border-border rounded-lg text-text-main flex items-center gap-2 oxygen-button disabled:opacity-50"
@@ -300,7 +300,7 @@ Give a specific, data-driven tip. Mention exact subjects. No generic motivationa
                             {loading ? (
                                 <div className="flex flex-col items-center justify-center py-20 gap-4">
                                     <Brain size={48} className="text-primary animate-pulse" />
-                                    <p className="text-text-muted animate-pulse">Analyzing syllabus & energy levels...</p>
+                                    <p className="text-text-muted animate-pulse">Analyzing syllabus & energy levels…</p>
                                 </div>
                             ) : (
                                 <div className="space-y-4">
@@ -379,7 +379,7 @@ Give a specific, data-driven tip. Mention exact subjects. No generic motivationa
                                 </span>
                             </h3>
                             {insightLoading ? (
-                                <p className="text-sm text-text-muted animate-pulse">Analyzing your performance data...</p>
+                                <p className="text-sm text-text-muted animate-pulse">Analyzing your performance data…</p>
                             ) : aiInsight ? (
                                 <p className="text-sm text-text-muted leading-relaxed">{aiInsight}</p>
                             ) : (
@@ -393,7 +393,7 @@ Give a specific, data-driven tip. Mention exact subjects. No generic motivationa
                                     )}
                                 </p>
                             )}
-                            <button
+                            <button type="button"
                                 onClick={generateInsight}
                                 disabled={insightLoading}
                                 className="w-full mt-2 py-1.5 text-xs font-bold bg-white/5 border border-white/10 rounded-lg hover:bg-white/10 transition-colors text-text-muted flex items-center justify-center gap-1.5"

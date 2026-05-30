@@ -433,7 +433,7 @@ const SimpleGrandmasterIcon: React.FC<{ color: string; className?: string }> = (
     </svg>
 );
 
-export const getRankIconSVG = (rankName: string, color: string, className?: string, style?: BadgeStyle) => {
+export const RankIconSVG: React.FC<{ rankName: string; color: string; className?: string; style?: BadgeStyle }> = ({ rankName, color, className, style }) => {
     const activeStyle = style || (typeof window !== 'undefined' ? localStorage.getItem('examcompass_badge_style') as BadgeStyle : 'professional') || 'professional';
     const name = rankName.toLowerCase();
 
@@ -572,7 +572,7 @@ export const RankBadge: React.FC<RankBadgeProps> = ({ xp, showLabel = true, size
 
                     {/* Badge Icon */}
                     <span className="relative z-10 filter drop-shadow-[0_2px_6px_rgba(0,0,0,0.6)] select-none transform group-hover:scale-110 transition-transform duration-300 flex items-center justify-center">
-                        {getRankIconSVG(rank.name, rank.color, iconSizes[size], activeStyle)}
+                        <RankIconSVG rankName={rank.name} color={rank.color} className={iconSizes[size]} style={activeStyle} />
                     </span>
                 </motion.div>
             </div>

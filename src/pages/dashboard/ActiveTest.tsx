@@ -11,7 +11,7 @@ export const ActiveTest = () => {
 
     return (
         <div className="flex items-center justify-center min-h-[400px]">
-            <div className="animate-pulse text-text-muted">Redirecting to Test Center...</div>
+            <div className="animate-pulse text-text-muted">Redirecting to Test Center…</div>
         </div>
     );
 };

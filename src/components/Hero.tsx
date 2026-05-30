@@ -39,12 +39,12 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
         <div className="relative min-h-[100svh] sm:min-h-[90vh] flex items-center justify-center overflow-hidden pt-24 pb-12 sm:pt-20 sm:pb-0">
             {/* Ambient Background — High performance radial gradients (no blur filters) */}
             <div className="absolute inset-0 -z-10 overflow-hidden">
-                <div className="absolute top-1/4 left-1/4 w-[400px] h-[400px] bg-[radial-gradient(circle,rgba(139,92,246,0.1),transparent_70%)] animate-breathing will-change-[opacity]" />
-                <div className="absolute bottom-1/4 right-1/4 w-[300px] h-[300px] bg-[radial-gradient(circle,rgba(79,70,229,0.06),transparent_70%)] animate-breathing will-change-[opacity]" style={{ animationDelay: '3s' }} />
+                <div className="absolute top-1/4 left-1/4 size-[400px] bg-[radial-gradient(circle,rgba(139,92,246,0.1),transparent_70%)] animate-breathing will-change-[opacity]" />
+                <div className="absolute bottom-1/4 right-1/4 size-[300px] bg-[radial-gradient(circle,rgba(79,70,229,0.06),transparent_70%)] animate-breathing will-change-[opacity]" style={{ animationDelay: '3s' }} />
                 
                 {/* Minimal orbs */}
-                <div className="absolute top-[15%] left-[10%] w-2 h-2 bg-primary/40 rounded-full animate-float-1" />
-                <div className="absolute bottom-[25%] left-[35%] w-2 h-2 bg-cyan-400/20 rounded-full animate-float-5" />
+                <div className="absolute top-[15%] left-[10%] size-2 bg-primary/40 rounded-full animate-float-1" />
+                <div className="absolute bottom-[25%] left-[35%] size-2 bg-cyan-400/20 rounded-full animate-float-5" />
             </div>
 
             <div className="container mx-auto px-4 sm:px-6 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center relative z-10">
@@ -82,7 +82,7 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
                         >
                             Launch Dashboard <ArrowRight size={20} className="group-hover:translate-x-1.5 transition-transform duration-300" />
                         </Link>
-                        <button
+                        <button type="button"
                             onClick={onOpenDemo}
                             className="px-6 sm:px-8 py-3.5 sm:py-4 rounded-xl border w-full sm:w-auto justify-center border-white/10 hover:bg-white/5 font-bold transition-all duration-300 transform hover:-translate-y-1 active:scale-[0.98] flex items-center gap-2 group hover:border-primary/30"
                         >
@@ -100,7 +100,7 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
                             to="/download" 
                             className="inline-flex items-center gap-2 text-xs text-gray-400 hover:text-white transition-colors bg-white/5 hover:bg-white/10 px-4 py-2.5 rounded-xl border border-white/5 hover:border-white/10"
                         >
-                            <span className="w-2.5 h-2.5 bg-green-500 rounded-full animate-pulse shrink-0" />
+                            <span className="size-2.5 bg-green-500 rounded-full animate-pulse shrink-0" />
                             <span>Get the official Android App (.apk) &amp; iOS App</span>
                         </Link>
                     </motion.div>
@@ -163,10 +163,10 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
 
                         <div className="mt-6 pt-4 border-t border-white/5 flex gap-3 text-xs text-text-muted">
                             <div className="flex items-center gap-1">
-                                <div className="w-2 h-2 rounded-full bg-green-500"></div> Improving
+                                <div className="size-2 rounded-full bg-green-500"></div> Improving
                             </div>
                             <div className="flex items-center gap-1">
-                                <div className="w-2 h-2 rounded-full bg-yellow-500"></div> Stable
+                                <div className="size-2 rounded-full bg-yellow-500"></div> Stable
                             </div>
                         </div>
                     </div>
@@ -178,7 +178,7 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
                         transition={{ delay: 2, duration: 0.6, type: 'spring' }}
                         className="absolute -right-4 top-10 glass-card p-3 flex items-center gap-3 animate-gentle-float animate-glow-pulse"
                     >
-                        <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
+                        <div className="size-10 rounded-full bg-primary/20 flex items-center justify-center">
                             <Brain size={20} className="text-primary" />
                         </div>
                         <div>

@@ -89,7 +89,7 @@ export const PrivacyPolicy = () => {
                                 "Generating AI-voice explanations for complex solutions."
                             ].map(usage => (
                                 <li key={usage} className="flex items-center gap-3 bg-white/5 p-4 rounded-xl border border-white/5 text-gray-300 text-sm">
-                                    <div className="w-2 h-2 rounded-full bg-purple-500" />
+                                    <div className="size-2 rounded-full bg-purple-500" />
                                     {usage}
                                 </li>
                             ))}

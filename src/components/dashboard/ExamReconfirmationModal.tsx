@@ -62,7 +62,7 @@ export const ExamReconfirmationModal = () => {
                     className="w-full max-w-md bg-surface border border-white/10 rounded-3xl shadow-2xl overflow-hidden"
                 >
                     <div className="p-8 text-center space-y-6">
-                        <div className="w-16 h-16 bg-primary/20 rounded-2xl flex items-center justify-center mx-auto text-primary">
+                        <div className="size-16 bg-primary/20 rounded-2xl flex items-center justify-center mx-auto text-primary">
                             <Target size={32} />
                         </div>
                         
@@ -75,7 +75,7 @@ export const ExamReconfirmationModal = () => {
 
                         <div className="grid grid-cols-2 gap-3">
                             {EXAMS.map(exam => (
-                                <button
+                                <button type="button"
                                     key={exam}
                                     onClick={() => setSelectedExam(exam)}
                                     className={`px-4 py-3 rounded-xl border transition-all text-sm font-medium ${
@@ -90,13 +90,13 @@ export const ExamReconfirmationModal = () => {
                         </div>
 
                         <div className="pt-4 flex flex-col gap-3">
-                            <button
+                            <button type="button"
                                 onClick={handleConfirm}
                                 disabled={!selectedExam || isSubmitting}
                                 className="w-full py-4 bg-primary text-white rounded-2xl font-bold flex items-center justify-center gap-2 hover:bg-primary/90 transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-primary/20 group active:scale-[0.98]"
                             >
                                 {isSubmitting ? (
-                                    <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+                                    <div className="size-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
                                 ) : (
                                     <>
                                         <CheckCircle2 size={18} />
@@ -105,7 +105,7 @@ export const ExamReconfirmationModal = () => {
                                 )}
                             </button>
                             
-                            <button
+                            <button type="button"
                                 onClick={handleSnooze}
                                 disabled={isSubmitting}
                                 className="w-full py-3 text-text-muted text-sm font-medium hover:text-text-main flex items-center justify-center gap-2 transition-colors"

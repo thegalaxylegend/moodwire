@@ -126,13 +126,13 @@ export const MockResults: React.FC<MockResultsProps> = ({
                         {wrongTopics.map((topic, idx) => {
                             const cleanSlug = topic.toLowerCase().replace(/[^a-z0-9\s]/g, '').replace(/\s+/g, '-').trim();
                             return (
-                                <button
+                                <button type="button"
                                     key={idx}
                                     onClick={() => navigate(`/dashboard/lectures/${cleanSlug}`)}
                                     className="w-full p-4 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-primary/30 transition-all text-left flex items-center justify-between group"
                                 >
                                     <div className="flex items-center gap-3">
-                                        <div className="w-10 h-10 rounded-lg bg-red-500/20 flex items-center justify-center">
+                                        <div className="size-10 rounded-lg bg-red-500/20 flex items-center justify-center">
                                             <Youtube size={18} className="text-red-400" />
                                         </div>
                                         <div>
@@ -148,7 +148,7 @@ export const MockResults: React.FC<MockResultsProps> = ({
                 </div>
             )}
 
-            <button
+            <button type="button"
                 onClick={onReview}
                 className="mt-8 px-6 py-3 bg-secondary/10 text-secondary border border-secondary/30 rounded-lg hover:bg-secondary/20 transition-all font-bold flex items-center gap-2 mx-auto"
             >
@@ -157,16 +157,16 @@ export const MockResults: React.FC<MockResultsProps> = ({
 
 
             <div className="flex flex-wrap gap-4 justify-center mt-8 pt-4 border-t border-white/10">
-                <button onClick={onDashboard} className="px-6 py-3 bg-surface border border-border rounded-lg oxygen-button hover:bg-white/5 transition-all">
+                <button type="button" onClick={onDashboard} className="px-6 py-3 bg-surface border border-border rounded-lg oxygen-button hover:bg-white/5 transition-all">
                     <ArrowLeft size={18} className="inline mr-2" /> Back to Dashboard
                 </button>
-                <button
+                <button type="button"
                     onClick={handleShare}
                     className="px-6 py-3 bg-primary text-white rounded-lg oxygen-button flex items-center gap-2"
                 >
                     <Trophy size={18} /> Share My Score
                 </button>
-                <button onClick={onRetake} className="px-6 py-3 bg-white/5 border border-border text-text-muted rounded-lg oxygen-button hover:bg-white/10 transition-all">
+                <button type="button" onClick={onRetake} className="px-6 py-3 bg-white/5 border border-border text-text-muted rounded-lg oxygen-button hover:bg-white/10 transition-all">
                     Retake Test
                 </button>
             </div>

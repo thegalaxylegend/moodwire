@@ -144,7 +144,7 @@ export const ConceptMap = () => {
 
                     <div className="flex items-center gap-2 bg-[#2a2b36] p-1.5 rounded-xl border border-white/5 overflow-x-auto w-full md:w-auto">
                         {subjects.map(subject => (
-                            <button
+                            <button type="button"
                                 key={subject}
                                 onClick={() => setSelectedSubject(subject)}
                                 className={`px-4 py-2 rounded-lg font-medium text-sm whitespace-nowrap transition-all ${
@@ -162,20 +162,20 @@ export const ConceptMap = () => {
                 <div className="bg-[#1a1b23] border border-white/5 rounded-2xl p-6 relative overflow-hidden shadow-2xl min-h-[600px] flex items-center justify-center relative">
                     <div className="absolute top-4 left-4 flex gap-4">
                         <div className="flex items-center gap-2 text-xs text-white/60">
-                            <div className="w-3 h-3 rounded-full bg-red-500/20 border border-red-500"></div> Weakness
+                            <div className="size-3 rounded-full bg-red-500/20 border border-red-500"></div> Weakness
                         </div>
                         <div className="flex items-center gap-2 text-xs text-white/60">
-                            <div className="w-3 h-3 rounded-full bg-emerald-500/20 border border-emerald-500"></div> Strong
+                            <div className="size-3 rounded-full bg-emerald-500/20 border border-emerald-500"></div> Strong
                         </div>
                         <div className="flex items-center gap-2 text-xs text-white/60">
-                            <div className="w-3 h-3 rounded-full bg-[#32343e] border border-gray-600"></div> Neutral
+                            <div className="size-3 rounded-full bg-[#32343e] border border-gray-600"></div> Neutral
                         </div>
                     </div>
 
                     {isRendering ? (
                         <div className="flex flex-col items-center justify-center text-white/50 animate-pulse">
                             <RefreshCw size={32} className="animate-spin mb-4 text-purple-500" />
-                            <span className="font-manrope">Mapping neural pathways...</span>
+                            <span className="font-manrope">Mapping neural pathways…</span>
                         </div>
                     ) : (
                         <div 

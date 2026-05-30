@@ -42,7 +42,7 @@ export const CallOverlay: React.FC<CallOverlayProps> = ({
         >
             {/* Background Effects */}
             <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150%] h-[150%] bg-gradient-radial from-indigo-500/10 via-transparent to-transparent opacity-50 blur-3xl animate-pulse" />
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-[150%] bg-gradient-radial from-indigo-500/10 via-transparent to-transparent opacity-50 blur-3xl animate-pulse" />
             </div>
 
             {/* Top Bar */}
@@ -88,13 +88,13 @@ export const CallOverlay: React.FC<CallOverlayProps> = ({
                 {/* Camera Control Buttons */}
                 <div className="flex items-center gap-3">
                     <div className="flex items-center bg-white/5 rounded-full border border-white/10 p-1">
-                        <button 
+                        <button type="button" 
                             onClick={handleTiltUp}
                             className="p-2 hover:bg-white/10 rounded-full text-white/60 hover:text-white transition-all"
                         >
                             <ChevronUp size={16} />
                         </button>
-                        <button 
+                        <button type="button" 
                             onClick={handleTiltDown}
                             className="p-2 hover:bg-white/10 rounded-full text-white/60 hover:text-white transition-all"
                         >
@@ -103,13 +103,13 @@ export const CallOverlay: React.FC<CallOverlayProps> = ({
                     </div>
 
                     <div className="flex items-center bg-white/5 rounded-full border border-white/10 p-1">
-                        <button 
+                        <button type="button" 
                             onClick={handleZoomIn}
                             className="p-2 hover:bg-white/10 rounded-full text-white/60 hover:text-white transition-all"
                         >
                             <Plus size={16} />
                         </button>
-                        <button 
+                        <button type="button" 
                             onClick={handleZoomOut}
                             className="p-2 hover:bg-white/10 rounded-full text-white/60 hover:text-white transition-all"
                         >

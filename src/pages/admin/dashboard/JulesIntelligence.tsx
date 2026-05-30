@@ -93,7 +93,7 @@ export const JulesIntelligence = () => {
             Jules <span className="text-purple-400">Intelligence</span>
           </h1>
         </div>
-        <button 
+        <button type="button" 
           onClick={() => fetchData(true)}
           disabled={loading}
           className="flex items-center gap-2 px-4 py-2 bg-surface border border-white/10 rounded-xl text-sm font-bold text-text-muted hover:text-white hover:border-purple-500/50 transition-all active:scale-95 disabled:opacity-50"
@@ -102,7 +102,7 @@ export const JulesIntelligence = () => {
           Fetch Latest
         </button>
 
-        <button 
+        <button type="button" 
           onClick={async () => {
               const res = await auditService.runPerformanceAudit();
               alert(`Audit Complete! Detected ${res.count} anomalies.`);
@@ -226,7 +226,7 @@ export const JulesIntelligence = () => {
                         <Cpu size={40} className="text-primary" />
                     </div>
                     <div className="flex items-center gap-3 mb-2">
-                        <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                        <div className="size-8 rounded-full bg-primary/10 flex items-center justify-center text-primary">
                             <Sparkles size={14} />
                         </div>
                         <p className="text-xs font-bold text-text-main">SEO Logic Core: Meta Update</p>
@@ -241,7 +241,7 @@ export const JulesIntelligence = () => {
              {logs.length === 0 && (
                 <div className="py-20 text-center space-y-4">
                     <Database className="mx-auto text-text-muted opacity-20" size={48} />
-                    <p className="text-text-muted italic text-sm">Waiting for autonomous triggers...</p>
+                    <p className="text-text-muted italic text-sm">Waiting for autonomous triggers…</p>
                 </div>
              )}
           </div>

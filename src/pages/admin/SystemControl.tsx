@@ -137,7 +137,7 @@ export const SystemControl = () => {
             <h1 className="text-3xl sm:text-4xl font-heading font-black text-text-main tracking-tight">
                 System <span className="text-red-500">Control</span>
             </h1>
-            <button 
+            <button type="button" 
                 onClick={fetchStats}
                 disabled={isRefreshing}
                 className={`p-2 rounded-xl bg-surface border border-white/5 text-text-muted hover:text-red-500 transition-all ${isRefreshing ? 'animate-spin' : ''}`}
@@ -215,7 +215,7 @@ export const SystemControl = () => {
       {/* Categories */}
       <nav className="flex items-center gap-2 overflow-x-auto pb-2 custom-scrollbar">
           {CATEGORIES.map(cat => (
-              <button
+              <button type="button"
                 key={cat}
                 onClick={() => setActiveTab(cat)}
                 className={`
@@ -247,7 +247,7 @@ export const SystemControl = () => {
                     `}
                 >
                     {item.status === 'Ready' && (
-                        <div className="absolute -top-10 -right-10 w-24 h-24 bg-red-500/5 blur-3xl group-hover:bg-red-500/20 transition-all rounded-full" />
+                        <div className="absolute -top-10 -right-10 size-24 bg-red-500/5 blur-3xl group-hover:bg-red-500/20 transition-all rounded-full" />
                     )}
 
                     <div>
@@ -297,11 +297,11 @@ export const SystemControl = () => {
 
       {filteredItems.length === 0 && (
           <div className="py-24 text-center space-y-6">
-              <div className="w-20 h-20 bg-white/5 rounded-full flex items-center justify-center mx-auto text-text-muted">
+              <div className="size-20 bg-white/5 rounded-full flex items-center justify-center mx-auto text-text-muted">
                   <Search size={32} />
               </div>
               <h3 className="text-xl font-bold text-text-main">No subsystems found</h3>
-              <button 
+              <button type="button" 
                 onClick={() => { setSearch(""); setActiveTab("All"); }}
                 className="px-6 py-2 bg-surface border border-white/10 rounded-xl text-sm font-bold text-text-main hover:border-red-500/50 transition-all font-sans"
               >

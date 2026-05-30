@@ -79,15 +79,15 @@ const VideoPlayerCard = ({
     return (
         <div className="relative rounded-3xl overflow-hidden border border-white/10 shadow-2xl bg-[#0d0d18]">
             {/* Glow */}
-            <div className="absolute -top-20 -left-20 w-80 h-80 bg-violet-600/20 rounded-full blur-[100px] pointer-events-none" />
-            <div className="absolute -bottom-10 -right-10 w-60 h-60 bg-indigo-600/15 rounded-full blur-[80px] pointer-events-none" />
+            <div className="absolute -top-20 -left-20 size-80 bg-violet-600/20 rounded-full blur-[100px] pointer-events-none" />
+            <div className="absolute -bottom-10 -right-10 size-60 bg-indigo-600/15 rounded-full blur-[80px] pointer-events-none" />
 
             {/* Header */}
             <div className="relative z-10 px-5 py-4 flex items-start justify-between backdrop-blur-xl bg-white/[0.02] border-b border-white/5">
                 <div className="flex-1 pr-4">
                     <h2 className="text-base font-bold text-white leading-snug line-clamp-2 mb-1">{video.title}</h2>
                     <div className="flex items-center gap-2 flex-wrap">
-                        <div className="w-6 h-6 rounded-full bg-gradient-to-br from-violet-500 to-indigo-500 flex items-center justify-center text-[10px] font-bold text-white shrink-0">
+                        <div className="size-6 rounded-full bg-gradient-to-br from-violet-500 to-indigo-500 flex items-center justify-center text-[10px] font-bold text-white shrink-0">
                             {video.channelName.charAt(0)}
                         </div>
                         <span className="text-sm text-white/60">{video.channelName}</span>
@@ -104,7 +104,7 @@ const VideoPlayerCard = ({
                     </div>
                 </div>
                 <div className="flex items-center gap-2 shrink-0">
-                    <button onClick={toggleBookmark} className={`p-2 rounded-xl transition-all ${isBookmarked ? 'bg-violet-500/20 text-violet-400' : 'hover:bg-white/10 text-white/40 hover:text-white'}`}>
+                    <button type="button" onClick={toggleBookmark} className={`p-2 rounded-xl transition-all ${isBookmarked ? 'bg-violet-500/20 text-violet-400' : 'hover:bg-white/10 text-white/40 hover:text-white'}`}>
                         {isBookmarked ? <BookmarkCheck size={16} /> : <Bookmark size={16} />}
                     </button>
                     <a href={video.videoUrl} target="_blank" rel="noopener noreferrer"
@@ -117,7 +117,7 @@ const VideoPlayerCard = ({
             {/* Player */}
             <div className="relative aspect-video bg-black">
                 {videoId ? (
-                    <iframe
+                    <iframe sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-presentation"
                         key={videoId}
                         ref={iframeRef}
                         src={`https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1&enablejsapi=1`}
@@ -135,7 +135,7 @@ const VideoPlayerCard = ({
 
             {/* Footer Controls */}
             <div className="relative z-10 px-5 py-3 flex items-center gap-3 bg-white/[0.02] border-t border-white/5">
-                <button
+                <button type="button"
                     onClick={handleMarkFinished}
                     className={`flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium transition-all border ${finished
                         ? 'bg-emerald-600/20 text-emerald-400 border-emerald-500/30'
@@ -168,7 +168,7 @@ const VideoThumbCard = ({
     const finished = userId ? isVideoFinished(video.id, userId, '', '') : false;
 
     return (
-        <button
+        <button type="button"
             onClick={onSelect}
             className={`group w-full text-left rounded-2xl border transition-all duration-300 overflow-hidden ${isActive
                 ? 'border-violet-500/60 bg-violet-500/10 shadow-[0_0_30px_-8px_rgba(139,92,246,0.4)]'
@@ -207,17 +207,17 @@ const VideoThumbCard = ({
                     )}
                     {/* Play overlay */}
                     <div className={`absolute inset-0 flex items-center justify-center transition-all ${isActive ? 'bg-violet-500/40' : 'bg-black/40 opacity-0 group-hover:opacity-100'}`}>
-                        <div className="w-7 h-7 rounded-full bg-white/90 flex items-center justify-center">
+                        <div className="size-7 rounded-full bg-white/90 flex items-center justify-center">
                             <Play size={10} className="text-black ml-0.5" fill="black" />
                         </div>
                     </div>
                     {/* Active indicator */}
                     {isActive && (
-                        <div className="absolute bottom-1 left-1 w-1.5 h-1.5 rounded-full bg-violet-400 animate-pulse" />
+                        <div className="absolute bottom-1 left-1 size-1.5 rounded-full bg-violet-400 animate-pulse" />
                     )}
                     {/* Finished */}
                     {finished && !isActive && (
-                        <div className="absolute top-1 right-1 w-4 h-4 rounded-full bg-emerald-500 flex items-center justify-center">
+                        <div className="absolute top-1 right-1 size-4 rounded-full bg-emerald-500 flex items-center justify-center">
                             <Check size={8} className="text-white" />
                         </div>
                     )}
@@ -428,7 +428,7 @@ export const ChapterStudyHub = () => {
         return (
             <div className="min-h-screen bg-[#080810] flex items-center justify-center text-white/40">
                 Chapter not found.{' '}
-                <button onClick={() => navigate('/dashboard/lectures')} className="ml-2 underline text-violet-400">
+                <button type="button" onClick={() => navigate('/dashboard/lectures')} className="ml-2 underline text-violet-400">
                     Back to Lectures
                 </button>
             </div>
@@ -439,15 +439,15 @@ export const ChapterStudyHub = () => {
         <div className="min-h-screen bg-[#080810] text-white relative overflow-x-hidden">
             {/* ── AMBIENT BACKGROUND ── */}
             <div className="fixed inset-0 pointer-events-none">
-                <div className="absolute top-0 left-1/4 w-[600px] h-[600px] bg-violet-700/15 rounded-full blur-[150px]" />
-                <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-indigo-700/10 rounded-full blur-[120px]" />
-                <div className="absolute top-1/2 left-0 w-[400px] h-[400px] bg-blue-700/8 rounded-full blur-[100px]" />
+                <div className="absolute top-0 left-1/4 size-[600px] bg-violet-700/15 rounded-full blur-[150px]" />
+                <div className="absolute bottom-0 right-0 size-[500px] bg-indigo-700/10 rounded-full blur-[120px]" />
+                <div className="absolute top-1/2 left-0 size-[400px] bg-blue-700/8 rounded-full blur-[100px]" />
             </div>
 
             {/* ── TOPBAR ── */}
             <div className="sticky top-0 z-50 backdrop-blur-2xl bg-[#080810]/80 border-b border-white/5 px-4 md:px-6 py-3">
                 <div className="max-w-[1440px] mx-auto flex items-center gap-3">
-                    <button
+                    <button type="button"
                         onClick={() => navigate('/dashboard/lectures')}
                         className="flex items-center gap-2 px-3 py-2 rounded-xl hover:bg-white/10 text-white/60 hover:text-white transition-all text-sm font-medium"
                     >
@@ -523,7 +523,7 @@ export const ChapterStudyHub = () => {
 
                         {/* ── VIDEO TABS ── */}
                         <div className="flex gap-1 p-1 bg-white/5 border border-white/10 rounded-2xl w-fit">
-                            <button
+                            <button type="button"
                                 onClick={() => setVideoTab('guided')}
                                 className={`flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium transition-all ${videoTab === 'guided'
                                     ? 'bg-violet-600 text-white shadow-lg shadow-violet-500/20'
@@ -532,7 +532,7 @@ export const ChapterStudyHub = () => {
                                 <Brain size={14} />
                                 Guided Sequence
                             </button>
-                            <button
+                            <button type="button"
                                 onClick={() => setVideoTab('library')}
                                 className={`flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium transition-all ${videoTab === 'library'
                                     ? 'bg-amber-500 text-white shadow-lg shadow-amber-500/20'
@@ -541,7 +541,7 @@ export const ChapterStudyHub = () => {
                                 <VideoIcon size={14} />
                                 Full Library
                             </button>
-                            <button
+                            <button type="button"
                                 onClick={() => setVideoTab('materials')}
                                 className={`flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium transition-all ${videoTab === 'materials'
                                     ? 'bg-emerald-600 text-white shadow-lg shadow-emerald-500/20'
@@ -611,7 +611,7 @@ export const ChapterStudyHub = () => {
                                     {(['all', 'oneshot', 'revision', 'topic', 'pyq'] as LibTab[]).map(tab => {
                                         const counts = libraryVideos.filter(v => tab === 'all' || v.inferredType === tab).length;
                                         return (
-                                            <button
+                                            <button type="button"
                                                 key={tab}
                                                 onClick={() => setLibTab(tab)}
                                                 className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold border transition-all ${libTab === tab
@@ -671,7 +671,7 @@ export const ChapterStudyHub = () => {
                                                 <h3 className="text-sm font-bold text-white">Revision Study Guide</h3>
                                                 <p className="text-[10px] text-white/40">AI-generated high-yield revision notes</p>
                                             </div>
-                                            <button
+                                            <button type="button"
                                                 onClick={handleDownloadPDF}
                                                 disabled={generatingPdf}
                                                 className="flex items-center justify-center gap-2 px-4 py-2 bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white rounded-xl shadow-lg hover:shadow-emerald-500/20 border border-emerald-400/30 text-xs font-semibold transition-all disabled:opacity-50"
@@ -687,7 +687,7 @@ export const ChapterStudyHub = () => {
 
                                         {/* Summary Section */}
                                         <div className="relative rounded-2xl border border-white/5 bg-white/[0.02] p-5 overflow-hidden backdrop-blur-xl">
-                                            <div className="absolute -top-10 -left-10 w-40 h-40 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
+                                            <div className="absolute -top-10 -left-10 size-40 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
                                             <h4 className="text-[10px] font-bold text-white/40 uppercase tracking-widest mb-2 flex items-center gap-1.5">
                                                 <BookOpen size={12} className="text-emerald-400" />
                                                 Core Concept Summary
@@ -706,7 +706,7 @@ export const ChapterStudyHub = () => {
                                             <div className="space-y-2.5">
                                                 {cheatSheet.keyPoints.map((point, idx) => (
                                                     <div key={idx} className="flex items-start gap-3 p-3 bg-white/[0.01] border border-white/[0.03] rounded-xl hover:bg-white/[0.03] transition-colors">
-                                                        <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-violet-500/10 text-violet-400 text-[10px] font-bold">
+                                                        <span className="flex size-5 shrink-0 items-center justify-center rounded-full bg-violet-500/10 text-violet-400 text-[10px] font-bold">
                                                             {idx + 1}
                                                         </span>
                                                         <p className="text-xs text-white/80 leading-relaxed">{point}</p>
@@ -746,7 +746,7 @@ export const ChapterStudyHub = () => {
                                         {/* Tips & Shortcuts */}
                                         {cheatSheet.viralTips && cheatSheet.viralTips.length > 0 && (
                                             <div className="relative rounded-2xl border border-amber-500/10 bg-amber-500/[0.01] p-5 overflow-hidden">
-                                                <div className="absolute -right-10 -bottom-10 w-40 h-40 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
+                                                <div className="absolute -right-10 -bottom-10 size-40 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
                                                 <h4 className="text-[10px] font-bold text-amber-400/60 uppercase tracking-widest mb-3 flex items-center gap-1.5">
                                                     <Zap size={12} className="text-amber-400" />
                                                     Expert Tips & Shortcut Traps
@@ -766,7 +766,7 @@ export const ChapterStudyHub = () => {
                                     <div className="py-12 text-center text-white/30 text-sm">
                                         <BookOpen size={32} className="mx-auto mb-3 opacity-40 text-violet-400" />
                                         <p className="mb-2">No study materials found for this topic.</p>
-                                        <button
+                                        <button type="button"
                                             onClick={() => {
                                                 setCheatSheet(null);
                                                 setLoadingCheatSheet(true);
@@ -791,7 +791,7 @@ export const ChapterStudyHub = () => {
                         {/* ── CHAPTER OVERVIEW CARD ── */}
                         <div className="rounded-2xl border border-white/8 bg-gradient-to-br from-white/[0.04] to-transparent p-5">
                             <div className="flex items-start gap-3 mb-4">
-                                <div className="w-10 h-10 rounded-xl bg-violet-500/20 border border-violet-500/30 flex items-center justify-center shrink-0">
+                                <div className="size-10 rounded-xl bg-violet-500/20 border border-violet-500/30 flex items-center justify-center shrink-0">
                                     <BookOpen size={18} className="text-violet-400" />
                                 </div>
                                 <div>
@@ -845,7 +845,7 @@ export const ChapterStudyHub = () => {
                                 {chapter.subtopics.map(sub => {
                                     const isChecked = progress?.checkedSubtopics.includes(sub) || false;
                                     return (
-                                        <button
+                                        <button type="button"
                                             key={sub}
                                             onClick={() => toggleSubtopic(sub)}
                                             className={`w-full flex items-start gap-3 px-3 py-2.5 rounded-xl text-xs text-left transition-all ${isChecked

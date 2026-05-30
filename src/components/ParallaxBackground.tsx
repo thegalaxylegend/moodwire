@@ -3,19 +3,19 @@ import { useLocation } from 'react-router-dom';
 import { usePerformance } from '../context/PerformanceProvider';
 
 export const ParallaxBackground = () => {
-    const location = useLocation();
+    const loc = useLocation();
     const { tier } = usePerformance();
     const isLow = tier === 'low';
 
     // Dynamic color selection based on route
     const glowColor = useMemo(() => {
-        const path = location.pathname.toLowerCase();
+        const path = loc.pathname.toLowerCase();
         if (path.includes('/blog')) return 'rgba(168, 85, 247, 0.15)'; // Purple
         if (path.includes('/neet')) return 'rgba(16, 185, 129, 0.15)'; // Emerald
         if (path.includes('/jee-mains')) return 'rgba(59, 130, 246, 0.15)'; // Blue
         if (path.includes('/dashboard')) return 'rgba(139, 92, 246, 0.1)'; // Deep Purple
         return 'rgba(168, 85, 247, 0.15)'; // Default Purple
-    }, [location.pathname]);
+    }, [loc.pathname]);
 
     // Background is always rendered but complex orbs are hidden via CSS classes (perf-tier-low)
     // This is significantly cheaper than React unmounting the entire tree.
@@ -26,7 +26,7 @@ export const ParallaxBackground = () => {
 
             {/* Ghost-Glow Orbs: Hardware accelerated via .gpu-layer. Automatically hidden in low-tier CSS */}
             <div 
-                className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] ghost-glow gpu-layer tier-aware-orb"
+                className="absolute top-[-10%] left-[-10%] size-[40%] ghost-glow gpu-layer tier-aware-orb"
                 style={{ 
                     '--glow-color': glowColor,
                     transform: 'translate3d(0,0,0)'
@@ -34,7 +34,7 @@ export const ParallaxBackground = () => {
             />
             
             <div 
-                className="absolute bottom-[10%] right-[-5%] w-[35%] h-[35%] ghost-glow gpu-layer tier-aware-orb"
+                className="absolute bottom-[10%] right-[-5%] size-[35%] ghost-glow gpu-layer tier-aware-orb"
                 style={{ 
                     '--glow-color': glowColor,
                     transform: 'translate3d(0,0,0)',
@@ -43,7 +43,7 @@ export const ParallaxBackground = () => {
             />
 
             <div 
-                className="absolute top-[20%] right-[15%] w-[25%] h-[25%] ghost-glow gpu-layer opacity-40 tier-aware-orb"
+                className="absolute top-[20%] right-[15%] size-[25%] ghost-glow gpu-layer opacity-40 tier-aware-orb"
                 style={{ 
                     '--glow-color': glowColor,
                     transform: 'translate3d(0,0,0)',

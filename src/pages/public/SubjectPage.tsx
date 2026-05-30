@@ -145,12 +145,12 @@ export const SubjectPage = () => {
                     <h1 className="text-4xl md:text-6xl font-bold text-white tracking-tight">
                         {realSubject} <span className="text-purple-500/50 block text-2xl mt-2">for {formattedExam} {targetYear}</span>
                     </h1>
-                    <button 
+                    <button type="button" 
                         onClick={handleDownloadPDF}
                         disabled={generatingPdf}
                         className="flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl font-bold text-lg hover:scale-105 transition-all shadow-xl shadow-purple-500/20 disabled:opacity-50 group whitespace-nowrap"
                     >
-                        {generatingPdf ? <Loader2 className="w-5 h-5 animate-spin" /> : <Download className="w-5 h-5 group-hover:translate-y-0.5 transition-transform" />}
+                        {generatingPdf ? <Loader2 className="size-5 animate-spin" /> : <Download className="size-5 group-hover:translate-y-0.5 transition-transform" />}
                         {generatingPdf ? 'Generating...' : `Download ${realSubject} PDF`}
                     </button>
                 </motion.div>

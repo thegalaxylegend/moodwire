@@ -63,7 +63,7 @@ export const AuditLogs = () => {
                         Transparent ledger of all administrative actions and security events.
                     </p>
                 </div>
-                <button 
+                <button type="button" 
                   onClick={fetchLogs}
                   disabled={loading}
                   className="flex items-center gap-2 px-4 py-2 bg-surface border border-white/10 rounded-xl text-sm font-bold text-text-muted hover:text-white transition-all active:scale-95 disabled:opacity-50"
@@ -110,7 +110,7 @@ export const AuditLogs = () => {
                                         </td>
                                         <td className="p-4">
                                             <div className="flex items-center gap-2">
-                                                <div className="w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center text-[10px] font-bold text-primary">
+                                                <div className="size-6 rounded-full bg-primary/20 flex items-center justify-center text-[10px] font-bold text-primary">
                                                     {log.adminName?.charAt(0) || "A"}
                                                 </div>
                                                 <div>

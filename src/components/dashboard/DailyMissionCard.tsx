@@ -20,7 +20,7 @@ const ConfettiPiece = ({ index }: { index: number }) => {
                 rotate: 360
             }}
             transition={{ duration: 1, ease: "easeOut" }}
-            className="absolute w-2 h-2 rounded-full"
+            className="absolute size-2 rounded-full"
             style={{ backgroundColor: colors[index % colors.length], zIndex: 50 }}
         />
     );
@@ -63,7 +63,7 @@ export const DailyMissionCard: React.FC<DailyMissionCardProps> = ({ missions, on
                         <p className="text-[10px] text-text-muted uppercase tracking-widest font-black">Study OS v2.0</p>
                     </div>
                 </div>
-                <button
+                <button type="button"
                     onClick={onRefresh}
                     className="p-2 hover:bg-white/5 rounded-lg text-text-muted transition-colors group"
                     title="Refresh Missions"
@@ -118,7 +118,7 @@ export const DailyMissionCard: React.FC<DailyMissionCardProps> = ({ missions, on
                     <div className="p-10 text-center space-y-3">
                         <Star className="mx-auto text-text-muted/30" size={32} />
                         <p className="text-sm text-text-muted">No missions available. Click refresh to generate yours!</p>
-                        <button
+                        <button type="button"
                             onClick={onRefresh}
                             className="text-xs font-bold text-primary hover:underline"
                         >
@@ -150,7 +150,7 @@ export const DailyMissionCard: React.FC<DailyMissionCardProps> = ({ missions, on
                                 {celebratingId === mission.id && Array.from({ length: 12 }).map((_, i) => (
                                     <ConfettiPiece key={i} index={i} />
                                 ))}
-                                <button
+                                <button type="button"
                                     onClick={() => !mission.completed && handleComplete(mission.id)}
                                     className={`shrink-0 transition-all duration-300 ${
                                         mission.completed 
@@ -196,7 +196,7 @@ export const DailyMissionCard: React.FC<DailyMissionCardProps> = ({ missions, on
                             </div>
 
                             {!mission.completed && mission.type !== 'rest' && (
-                                <button
+                                <button type="button"
                                     onClick={() => onAction(mission)}
                                     className="p-2 rounded-lg bg-surface/60 border border-white/5 hover:border-primary/50 hover:bg-surface transition-all group shadow-sm active:scale-95 hover:scale-105"
                                 >

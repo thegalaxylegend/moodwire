@@ -394,7 +394,7 @@ export const KnowledgeGraph: React.FC = () => {
                     {/* Filter buttons */}
                     <div className="flex bg-white/5 border border-white/10 rounded-xl p-1">
                         {(['all', 'physics', 'chemistry', 'math'] as const).map(sub => (
-                            <button
+                            <button type="button"
                                 key={sub}
                                 onClick={() => setSelectedSubject(sub)}
                                 className={`px-3 py-1.5 rounded-lg text-[10px] font-bold uppercase tracking-wider transition-all ${
@@ -646,36 +646,36 @@ export const KnowledgeGraph: React.FC = () => {
                     
                     {/* Floating HUD zoom controls */}
                     <div className="absolute right-4 top-1/2 -translate-y-1/2 flex flex-col gap-2 bg-black/60 border border-white/10 p-1.5 rounded-2xl z-20 backdrop-blur-md">
-                        <button
+                        <button type="button"
                             onClick={(e) => {
                                 e.stopPropagation();
                                 recordInteraction();
                                 setZoomScale(prev => Math.min(3.0, prev + 0.2));
                             }}
-                            className="w-8 h-8 flex items-center justify-center bg-white/5 hover:bg-white/15 active:scale-90 rounded-xl text-white text-lg font-bold transition-all"
+                            className="size-8 flex items-center justify-center bg-white/5 hover:bg-white/15 active:scale-90 rounded-xl text-white text-lg font-bold transition-all"
                             title="Zoom In"
                         >
                             +
                         </button>
-                        <button
+                        <button type="button"
                             onClick={(e) => {
                                 e.stopPropagation();
                                 recordInteraction();
                                 setZoomScale(prev => Math.max(0.5, prev - 0.2));
                             }}
-                            className="w-8 h-8 flex items-center justify-center bg-white/5 hover:bg-white/15 active:scale-90 rounded-xl text-white text-lg font-bold transition-all"
+                            className="size-8 flex items-center justify-center bg-white/5 hover:bg-white/15 active:scale-90 rounded-xl text-white text-lg font-bold transition-all"
                             title="Zoom Out"
                         >
                             −
                         </button>
-                        <button
+                        <button type="button"
                             onClick={(e) => {
                                 e.stopPropagation();
                                 recordInteraction();
                                 setPanOffset({ x: 0, y: 0 });
                                 setZoomScale(1);
                             }}
-                            className="w-8 h-8 flex items-center justify-center bg-white/5 hover:bg-white/15 active:scale-90 rounded-xl text-white transition-all"
+                            className="size-8 flex items-center justify-center bg-white/5 hover:bg-white/15 active:scale-90 rounded-xl text-white transition-all"
                             title="Reset Position"
                         >
                             <Crosshair size={14} />
@@ -683,7 +683,7 @@ export const KnowledgeGraph: React.FC = () => {
                     </div>
 
                     {/* Auto rotate control toggle */}
-                    <button
+                    <button type="button"
                         onClick={(e) => {
                             e.stopPropagation();
                             setAutoRotate(!autoRotate);
@@ -774,7 +774,7 @@ export const KnowledgeGraph: React.FC = () => {
 
                     {/* Action buttons */}
                     <div className="space-y-3 pt-6 border-t border-white/10">
-                        <button
+                        <button type="button"
                             onClick={() => selectedNode && handleRemediateTopic(selectedNode)}
                             disabled={!selectedNode}
                             className="w-full py-4 bg-gradient-to-r from-primary to-secondary hover:brightness-110 active:scale-95 text-white font-extrabold rounded-2xl transition-all shadow-[0_0_20px_rgba(129,236,255,0.15)] flex items-center justify-center gap-2 text-xs uppercase tracking-wider"
@@ -794,7 +794,7 @@ export const KnowledgeGraph: React.FC = () => {
 
             {/* Injected Synergy flows */}
             <div className="p-4 bg-primary/5 border border-primary/10 rounded-3xl flex flex-col md:flex-row items-center gap-4 text-sm text-text-muted leading-relaxed">
-                <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
+                <div className="size-10 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
                     <TrendingUp size={20} />
                 </div>
                 <div>

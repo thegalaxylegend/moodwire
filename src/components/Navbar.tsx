@@ -19,9 +19,9 @@ export const Navbar = () => {
     const [isExamsOpen, setIsExamsOpen] = useState(false);
     const [isSearchOpen, setIsSearchOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
-    const location = useLocation();
+    const loc = useLocation();
     const navigate = useNavigate();
-    const [searchQuery, setSearchQuery] = useState(new URLSearchParams(location.search).get('q') || '');
+    const [searchQuery, setSearchQuery] = useState(new URLSearchParams(loc.search).get('q') || '');
     const filterRef = useRef<HTMLDivElement>(null);
     const examsRef = useRef<HTMLDivElement>(null);
     const searchInputRef = useRef<HTMLInputElement>(null);
@@ -44,11 +44,11 @@ export const Navbar = () => {
 
     // Sync search query when url changes
     useEffect(() => {
-        const q = new URLSearchParams(location.search).get('q');
+        const q = new URLSearchParams(loc.search).get('q');
         if (q !== null) {
             setSearchQuery(q);
         }
-    }, [location.search]);
+    }, [loc.search]);
 
     // Simple scroll listener — no per-frame GPU work
     useEffect(() => {
@@ -77,7 +77,7 @@ export const Navbar = () => {
         setIsExamsOpen(false);
         setIsMobileMenuOpen(false);
         setIsMobileSearchOpen(false);
-    }, [location]);
+    }, [loc]);
 
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [isMobileSearchOpen, setIsMobileSearchOpen] = useState(false);
@@ -113,13 +113,13 @@ export const Navbar = () => {
                     to="/" 
                     className="flex items-center gap-2 text-lg sm:text-xl md:text-2xl font-bold text-white tracking-tighter shrink-0 mr-4"
                 >
-                    <img src="/logo.png" alt="Exam Compass Logo" className="w-8 h-8 rounded-lg" />
+                    <img src="/logo.png" alt="Exam Compass Logo" className="size-8 rounded-lg" />
                     Exam<span className="text-[#a855f7]">Compass</span>
                 </Link>
 
                 {/* Mobile Actions */}
                 <div className="flex items-center gap-1 md:hidden z-[60]">
-                    <button
+                    <button type="button"
                         onClick={() => {
                             setIsMobileSearchOpen(true);
                             setIsMobileMenuOpen(false);
@@ -135,7 +135,7 @@ export const Navbar = () => {
                         </svg>
                     </button>
 
-                    <button 
+                    <button type="button" 
                         onClick={() => {
                             setIsMobileMenuOpen(!isMobileMenuOpen);
                             if (!isMobileMenuOpen) setIsMobileSearchOpen(false);
@@ -235,7 +235,7 @@ export const Navbar = () => {
                                 </motion.form>
                             )}
                         </AnimatePresence>
-                        <button
+                        <button type="button"
                             onClick={() => {
                                 setIsSearchOpen(!isSearchOpen);
                                 if (!isSearchOpen) {
@@ -254,7 +254,7 @@ export const Navbar = () => {
 
                     {/* Exams Dropdown */}
                     <div className="relative" ref={examsRef}>
-                        <button
+                        <button type="button"
                             ref={examsRefsFloating.setReference}
                             onClick={() => setIsExamsOpen(!isExamsOpen)}
                             className="flex items-center gap-1 md:gap-2 text-sm md:text-base text-gray-400 hover:text-white font-medium transition-colors group focus:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-lg"
@@ -314,7 +314,7 @@ export const Navbar = () => {
 
                     {/* Filter Dropdown */}
                     <div className="relative" ref={filterRef}>
-                        <button 
+                        <button type="button" 
                             ref={filterRefsFloating.setReference}
                             onClick={() => setIsFilterOpen(!isFilterOpen)}
                             className="flex items-center gap-1 md:gap-2 text-sm md:text-base text-gray-400 hover:text-white font-medium transition-colors group focus:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-lg"
@@ -426,14 +426,14 @@ export const Navbar = () => {
                     <div className="flex flex-col gap-4">
                         <p className="text-[10px] font-bold text-gray-500 uppercase tracking-widest px-2">Categories</p>
                         <div className="grid grid-cols-2 gap-2">
-                            <Link to="/blog" className={`text-sm p-3 rounded-xl transition-colors font-medium ${!location.search ? 'bg-purple-500 text-white' : 'bg-white/5 text-gray-400'}`}>
+                            <Link to="/blog" className={`text-sm p-3 rounded-xl transition-colors font-medium ${!loc.search ? 'bg-purple-500 text-white' : 'bg-white/5 text-gray-400'}`}>
                                 All Articles
                             </Link>
                             {CATEGORIES.map(category => (
                                 <Link 
                                     key={category} 
                                     to={`/blog?category=${encodeURIComponent(category)}`} 
-                                    className={`text-sm p-3 rounded-xl transition-colors font-medium ${location.search.includes(category) ? 'bg-purple-500 text-white' : 'bg-white/5 text-gray-400'}`}
+                                    className={`text-sm p-3 rounded-xl transition-colors font-medium ${loc.search.includes(category) ? 'bg-purple-500 text-white' : 'bg-white/5 text-gray-400'}`}
                                 >
                                     {category}
                                 </Link>

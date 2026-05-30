@@ -342,7 +342,7 @@ export const GroupBattle = () => {
                         <motion.div 
                             animate={{ scale: [1, 1.1, 1] }}
                             transition={{ duration: 4, repeat: Infinity }}
-                            className="w-24 h-24 rounded-full bg-indigo-500/20 text-indigo-500 flex items-center justify-center"
+                            className="size-24 rounded-full bg-indigo-500/20 text-indigo-500 flex items-center justify-center"
                         >
                             <Users size={48} />
                         </motion.div>
@@ -373,7 +373,7 @@ export const GroupBattle = () => {
                                 <div className="space-y-8">
                                     <div className="space-y-4">
                                         <div className="flex items-center gap-3 mb-2">
-                                            <div className="w-8 h-8 rounded-lg bg-indigo-500/10 flex items-center justify-center text-indigo-400">
+                                            <div className="size-8 rounded-lg bg-indigo-500/10 flex items-center justify-center text-indigo-400">
                                                 <List size={18} />
                                             </div>
                                             <label className="text-xs uppercase font-black text-white tracking-widest">Select Subjects</label>
@@ -382,7 +382,7 @@ export const GroupBattle = () => {
                                             {SUBJECT_OPTIONS.map(opt => {
                                                 const isSelected = selectedSubjects.includes(opt.value);
                                                 return (
-                                                    <button
+                                                    <button type="button"
                                                         key={opt.value}
                                                         onClick={() => {
                                                             setSelectedSubjects(prev => 
@@ -402,12 +402,12 @@ export const GroupBattle = () => {
 
                                     <div className="space-y-4 relative z-[10]">
                                         <div className="flex items-center gap-3 mb-2">
-                                            <div className="w-8 h-8 rounded-lg bg-indigo-500/10 flex items-center justify-center text-indigo-400">
+                                            <div className="size-8 rounded-lg bg-indigo-500/10 flex items-center justify-center text-indigo-400">
                                                 <Trophy size={18} />
                                             </div>
                                             <label className="text-xs uppercase font-black text-white tracking-widest">Chapters ({selectedTopics.length})</label>
                                         </div>
-                                        <button 
+                                        <button type="button" 
                                             onClick={() => setIsChapterModalOpen(true)}
                                             className="w-full bg-surface/50 border border-border rounded-2xl px-6 py-5 text-left flex items-center justify-between group hover:border-indigo-500/50 transition-all hover:bg-white/5"
                                         >
@@ -429,7 +429,7 @@ export const GroupBattle = () => {
                                     <div className="space-y-8">
                                         <div className="space-y-4">
                                             <div className="flex items-center gap-3 mb-2">
-                                                <div className="w-8 h-8 rounded-lg bg-indigo-500/10 flex items-center justify-center text-indigo-400">
+                                                <div className="size-8 rounded-lg bg-indigo-500/10 flex items-center justify-center text-indigo-400">
                                                     <Play size={18} />
                                                 </div>
                                                 <label className="text-xs uppercase font-black text-white tracking-widest">Battle Rules</label>
@@ -440,7 +440,7 @@ export const GroupBattle = () => {
                                                     <label className="text-[10px] uppercase font-black text-text-muted tracking-widest">Difficulty</label>
                                                     <div className="flex bg-surface rounded-2xl p-1.5 border border-border">
                                                         {(['Easy', 'Medium', 'Hard'] as const).map(d => (
-                                                            <button
+                                                            <button type="button"
                                                                 key={d}
                                                                 onClick={() => setSelectedDifficulty(d)}
                                                                 className={`flex-1 py-2 rounded-xl text-[10px] md:text-xs font-black uppercase transition-all ${selectedDifficulty === d ? 'bg-indigo-600 text-white shadow-lg' : 'text-text-muted hover:text-white'}`}
@@ -463,7 +463,7 @@ export const GroupBattle = () => {
                                         </div>
                                     </div>
 
-                                    <button 
+                                    <button type="button" 
                                         onClick={handleCreateRoom}
                                         disabled={loading}
                                         className="w-full py-4 md:py-8 rounded-3xl bg-indigo-600 hover:bg-indigo-700 text-white font-black uppercase tracking-[2px] md:tracking-[8px] flex items-center justify-center gap-4 transition-all active:scale-95 shadow-2xl shadow-indigo-500/30 group relative overflow-hidden"
@@ -491,7 +491,7 @@ export const GroupBattle = () => {
                                     placeholder="PASTE CODE"
                                     className="w-full md:w-64 bg-surface/50 backdrop-blur-sm border border-border rounded-2xl px-4 py-3 md:px-6 md:py-4 text-center font-mono text-lg md:text-2xl tracking-[2px] md:tracking-[10px] text-white focus:border-indigo-500 outline-none transition-all placeholder:text-text-muted/30 placeholder:tracking-normal shadow-inner"
                                 />
-                                <button 
+                                <button type="button" 
                                     onClick={() => handleJoinByCode()}
                                     disabled={loading || !inviteCode}
                                     className="px-6 py-3 md:px-10 md:py-5 rounded-2xl bg-white text-indigo-600 font-black uppercase tracking-widest hover:bg-indigo-50 transition-all text-sm shadow-lg active:scale-95 whitespace-nowrap"
@@ -509,9 +509,9 @@ export const GroupBattle = () => {
                     <header className="flex justify-between items-start px-2">
                         <div>
                             <h2 className="text-2xl md:text-4xl font-black text-white uppercase tracking-tight">Battle Lobby</h2>
-                            <p className="text-indigo-400 font-bold animate-pulse text-sm md:text-base">Waiting for challengers...</p>
+                            <p className="text-indigo-400 font-bold animate-pulse text-sm md:text-base">Waiting for challengers…</p>
                         </div>
-                        <button onClick={handleExit} className="p-2 text-text-muted hover:text-red-500 transition-colors">
+                        <button type="button" onClick={handleExit} className="p-2 text-text-muted hover:text-red-500 transition-colors">
                             <LogOut size={24} />
                         </button>
                     </header>
@@ -522,13 +522,13 @@ export const GroupBattle = () => {
                             <div className="text-3xl md:text-5xl font-black text-white tracking-[8px] md:tracking-[12px] font-mono">{session.inviteCode}</div>
                         </div>
                         <div className="flex w-full md:w-auto gap-3">
-                            <button 
+                            <button type="button" 
                                 onClick={() => { navigator.clipboard.writeText(session.inviteCode); alert('Copied!'); }}
                                 className="flex-1 md:flex-none p-4 rounded-xl bg-surface border border-border text-white hover:bg-white/5 transition-all flex items-center justify-center"
                             >
                                 <Copy size={20} />
                             </button>
-                            <button 
+                            <button type="button" 
                                 onClick={() => { 
                                     const url = `${window.location.origin}/dashboard/arena/group?code=${session.inviteCode}`;
                                     navigator.clipboard.writeText(url); 
@@ -563,7 +563,7 @@ export const GroupBattle = () => {
 
                     {session.hostId === user?.id && (
                         <div className="flex justify-center">
-                            <button 
+                            <button type="button" 
                                 onClick={handleStartBattle}
                                 disabled={Object.keys(session.players).length < 2 || loading}
                                 className="w-full max-w-sm py-4 rounded-2xl bg-indigo-600 text-white font-black tracking-[4px] uppercase shadow-xl hover:scale-105 transition-all disabled:opacity-50"
@@ -581,7 +581,7 @@ export const GroupBattle = () => {
                         <div className="flex flex-col items-center justify-center min-h-[60vh] space-y-6 text-center">
                             <Loader2 size={48} className="text-indigo-500 animate-spin" />
                             <h2 className="text-2xl font-black text-white uppercase tracking-widest">Submitted!</h2>
-                            <p className="text-text-muted">Waiting for others...</p>
+                            <p className="text-text-muted">Waiting for others…</p>
                         </div>
                     ) : (
                         <>
@@ -597,7 +597,7 @@ export const GroupBattle = () => {
                                         </div>
                                     ))}
                                 </div>
-                                <button onClick={handleExit} className="text-red-500 font-bold text-sm">EXIT</button>
+                                <button type="button" onClick={handleExit} className="text-red-500 font-bold text-sm">EXIT</button>
                             </div>
 
                             <div className="w-full h-1.5 bg-surface rounded-full overflow-hidden">
@@ -612,7 +612,7 @@ export const GroupBattle = () => {
                                 <h2 className="text-2xl md:text-3xl font-medium text-white mb-10 leading-snug">{session.questions[currentQIndex].text}</h2>
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-auto">
                                     {session.questions[currentQIndex].options.map((opt: string, idx: number) => (
-                                        <button
+                                        <button type="button"
                                             key={idx}
                                             onClick={() => handleSelectOption(currentQIndex, idx)}
                                             className={`p-5 text-left rounded-2xl border transition-all font-medium text-lg flex items-start gap-4 active:scale-95 ${answers[currentQIndex] === idx ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg' : 'bg-surface border-border text-white hover:border-indigo-500/50'}`}
@@ -624,11 +624,11 @@ export const GroupBattle = () => {
                             </div>
 
                             <div className="flex justify-between items-center">
-                                <button onClick={() => setCurrentQIndex(prev => Math.max(0, prev - 1))} disabled={currentQIndex === 0} className="font-black text-[10px] md:text-sm tracking-widest text-text-muted hover:text-white disabled:opacity-0 transition-all uppercase">PREVIOUS</button>
+                                <button type="button" onClick={() => setCurrentQIndex(prev => Math.max(0, prev - 1))} disabled={currentQIndex === 0} className="font-black text-[10px] md:text-sm tracking-widest text-text-muted hover:text-white disabled:opacity-0 transition-all uppercase">PREVIOUS</button>
                                 {currentQIndex < (session.questionCount || 5) - 1 ? (
-                                    <button onClick={() => setCurrentQIndex(prev => prev + 1)} className="px-6 md:px-10 py-3 md:py-4 rounded-xl bg-indigo-600 text-white font-black uppercase tracking-widest flex items-center gap-2 hover:bg-indigo-700 transition-all shadow-lg shadow-indigo-500/20">NEXT <ChevronRight size={20} /></button>
+                                    <button type="button" onClick={() => setCurrentQIndex(prev => prev + 1)} className="px-6 md:px-10 py-3 md:py-4 rounded-xl bg-indigo-600 text-white font-black uppercase tracking-widest flex items-center gap-2 hover:bg-indigo-700 transition-all shadow-lg shadow-indigo-500/20">NEXT <ChevronRight size={20} /></button>
                                 ) : (
-                                    <button onClick={handleSubmit} disabled={isSubmitting} className="px-6 md:px-10 py-3 md:py-4 rounded-xl bg-green-600 text-white font-black uppercase tracking-widest shadow-lg shadow-green-500/20 hover:scale-105 transition-all">{isSubmitting ? <Loader2 className="animate-spin" /> : 'FINISH'}</button>
+                                    <button type="button" onClick={handleSubmit} disabled={isSubmitting} className="px-6 md:px-10 py-3 md:py-4 rounded-xl bg-green-600 text-white font-black uppercase tracking-widest shadow-lg shadow-green-500/20 hover:scale-105 transition-all">{isSubmitting ? <Loader2 className="animate-spin" /> : 'FINISH'}</button>
                                 )}
                             </div>
                         </>
@@ -666,8 +666,8 @@ export const GroupBattle = () => {
                     </div>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
-                        <button onClick={() => navigate('/dashboard/test-center')} className="w-full sm:w-auto px-10 py-4 rounded-xl bg-surface border border-border text-white font-black uppercase tracking-widest hover:bg-white/5 transition-all text-sm">History</button>
-                        <button onClick={() => { setView('init'); setSessionId(null); setSession(null); setAnswers({}); setCurrentQIndex(0); resultsSynced.current = false; }} className="w-full sm:w-auto px-10 py-4 rounded-xl bg-indigo-600 text-white font-black uppercase tracking-widest hover:bg-indigo-700 transition-all shadow-lg shadow-indigo-500/20 text-sm">Play Again</button>
+                        <button type="button" onClick={() => navigate('/dashboard/test-center')} className="w-full sm:w-auto px-10 py-4 rounded-xl bg-surface border border-border text-white font-black uppercase tracking-widest hover:bg-white/5 transition-all text-sm">History</button>
+                        <button type="button" onClick={() => { setView('init'); setSessionId(null); setSession(null); setAnswers({}); setCurrentQIndex(0); resultsSynced.current = false; }} className="w-full sm:w-auto px-10 py-4 rounded-xl bg-indigo-600 text-white font-black uppercase tracking-widest hover:bg-indigo-700 transition-all shadow-lg shadow-indigo-500/20 text-sm">Play Again</button>
                     </div>
                 </div>
             )}
@@ -695,7 +695,7 @@ export const GroupBattle = () => {
                                         From: {selectedSubjects.join(' & ')}
                                     </p>
                                 </div>
-                                <button onClick={() => setIsChapterModalOpen(false)} className="p-2 hover:bg-white/5 rounded-full transition-colors">
+                                <button type="button" onClick={() => setIsChapterModalOpen(false)} className="p-2 hover:bg-white/5 rounded-full transition-colors">
                                     <X size={24} className="text-text-muted" />
                                 </button>
                             </div>
@@ -727,7 +727,7 @@ export const GroupBattle = () => {
                                 const renderItem = (item: any) => {
                                     const isSelected = selectedTopics.includes(item.topic);
                                     return (
-                                        <button
+                                        <button type="button"
                                             key={`${item.id}-${item.topic}`}
                                             onClick={(e) => {
                                                 e.preventDefault();
@@ -772,13 +772,13 @@ export const GroupBattle = () => {
                             </div>
 
                             <div className="p-4 bg-indigo-500/5 border-t border-border flex gap-3">
-                                <button 
+                                <button type="button" 
                                     onClick={() => setSelectedTopics([])}
                                     className="flex-1 py-3 rounded-xl border border-dashed border-border text-text-muted font-bold hover:text-white transition-all text-sm"
                                 >
                                     Clear All
                                 </button>
-                                <button 
+                                <button type="button" 
                                     onClick={() => setIsChapterModalOpen(false)}
                                     className="flex-1 py-3 rounded-xl bg-indigo-600 text-white font-bold hover:bg-indigo-700 transition-all text-sm"
                                 >

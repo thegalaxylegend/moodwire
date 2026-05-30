@@ -46,7 +46,7 @@ export const MockLoading: React.FC<MockLoadingProps> = ({ progress, message, ste
             </div>
 
             {/* Close / Back Button — top-left */}
-            <button
+            <button type="button"
                 onClick={onCancel}
                 className="absolute top-5 left-5 flex items-center gap-2 px-4 py-2.5 rounded-xl bg-surface border border-border text-text-muted hover:text-primary hover:border-primary/30 transition-all font-medium group z-10"
             >
@@ -55,7 +55,7 @@ export const MockLoading: React.FC<MockLoadingProps> = ({ progress, message, ste
             </button>
 
             {/* Close X — top-right */}
-            <button
+            <button type="button"
                 onClick={onCancel}
                 className="absolute top-5 right-5 p-2.5 rounded-xl bg-surface border border-border text-text-muted hover:text-red-400 hover:border-red-400/30 transition-all z-10"
                 aria-label="Cancel generation"
@@ -65,7 +65,7 @@ export const MockLoading: React.FC<MockLoadingProps> = ({ progress, message, ste
 
             <div className="flex flex-col items-center space-y-8 max-w-md px-6">
                 {/* Circular Progress Ring */}
-                <div className="relative w-28 h-28">
+                <div className="relative size-28">
                     {/* Outer glow pulse */}
                     <motion.div
                         animate={{ scale: [1, 1.15, 1], opacity: [0.3, 0.08, 0.3] }}
@@ -73,7 +73,7 @@ export const MockLoading: React.FC<MockLoadingProps> = ({ progress, message, ste
                         className="absolute inset-0 rounded-full bg-primary/20 blur-xl"
                     />
 
-                    <svg className="w-28 h-28" viewBox="0 0 100 100">
+                    <svg className="size-28" viewBox="0 0 100 100">
                         {/* Background track */}
                         <circle cx="50" cy="50" r={radius} fill="none" stroke="currentColor" strokeWidth="6" className="text-white/5" />
                         {/* Progress arc */}
@@ -147,11 +147,11 @@ export const MockLoading: React.FC<MockLoadingProps> = ({ progress, message, ste
                 </div>
 
                 {step === 'config' && (
-                    <p className="text-[10px] text-text-muted/30 text-center">Verifying Credentials & Pattern Isolation...</p>
+                    <p className="text-[10px] text-text-muted/30 text-center">Verifying Credentials & Pattern Isolation…</p>
                 )}
 
                 {/* Cancel Button */}
-                <button
+                <button type="button"
                     onClick={onCancel}
                     className="w-full max-w-xs flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-surface border border-border text-text-muted hover:text-primary hover:border-primary/30 transition-all font-medium group mt-4"
                 >

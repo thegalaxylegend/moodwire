@@ -16,7 +16,7 @@ export const DirectAnswerBlock = ({ title, description, keyFact, impact }: Direc
         >
             <div className="flex items-start gap-3">
                 <div className="mt-1 bg-blue-500/20 p-1.5 rounded-lg flex-shrink-0">
-                    <Lightbulb className="w-5 h-5 text-blue-400" aria-hidden="true" />
+                    <Lightbulb className="size-5 text-blue-400" aria-hidden="true" />
                 </div>
                 <div className="w-full">
                     {/* Explicitly tag the targeted query/question for AI Retrieval Engines */}

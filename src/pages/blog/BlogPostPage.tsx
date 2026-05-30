@@ -189,24 +189,24 @@ export const BlogPostPage: React.FC = () => {
                     <div className="flex flex-wrap items-center justify-between gap-6 mb-8 p-6 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-md">
                         <div className="flex flex-wrap items-center gap-6 text-gray-400 font-medium">
                             <div className="flex items-center gap-3">
-                                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white font-bold border border-white/20 shadow-lg">A</div>
+                                <div className="size-12 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white font-bold border border-white/20 shadow-lg">A</div>
                                 <div>
                                     <p className="text-white text-base font-bold">Ayush (Founder)</p>
                                     <p className="text-xs uppercase tracking-widest text-purple-400 font-semibold opacity-80">Exam Strategist</p>
                                 </div>
                             </div>
                             <div className="flex items-center gap-2 bg-black/40 py-2 px-4 rounded-xl text-xs border border-white/10 font-bold tracking-wide">
-                                <Calendar className="w-4 h-4 text-purple-400" />
+                                <Calendar className="size-4 text-purple-400" />
                                 <span>Last Updated: {meta.date}</span>
                             </div>
                         </div>
 
-                        <button
+                        <button type="button"
                             onClick={handleDownloadPDF}
                             disabled={generatingPdf}
                             className="flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 bg-[length:200%_auto] animate-gradient-x rounded-2xl font-black text-sm hover:scale-105 transition-all shadow-xl shadow-purple-500/25 disabled:opacity-50 group border border-white/20"
                         >
-                            {generatingPdf ? <Loader2 className="w-4 h-4 animate-spin text-white" /> : <Download className="w-5 h-5 group-hover:translate-y-0.5 transition-transform text-white" />}
+                            {generatingPdf ? <Loader2 className="size-4 animate-spin text-white" /> : <Download className="size-5 group-hover:translate-y-0.5 transition-transform text-white" />}
                             <span className="text-white drop-shadow-md">{generatingPdf ? 'Generating...' : 'Download Revision PDF'}</span>
                         </button>
                     </div>
@@ -216,7 +216,7 @@ export const BlogPostPage: React.FC = () => {
                             to={meta.practice_link}
                             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-purple-500/10 border border-purple-500/20 text-purple-300 font-bold text-sm hover:bg-purple-500/20 transition-all mb-8 group"
                         >
-                            <BookOpen className="w-4 h-4" />
+                            <BookOpen className="size-4" />
                             <span>Practice Questions for this chapter</span>
                             <span className="group-hover:translate-x-1 transition-transform">→</span>
                         </Link>
@@ -291,7 +291,7 @@ export const BlogPostPage: React.FC = () => {
                                         {...props}
                                         href={href}
                                         target={isExternal ? "_blank" : undefined}
-                                        rel={isExternal ? "noopener external" : undefined}
+                                        rel={isExternal ? "noopener noreferrer external" : undefined}
                                         className={isExternal ? "text-purple-400 hover:text-purple-300 underline underline-offset-4" : ""}
                                     >
                                         {children}

@@ -418,14 +418,14 @@ export const Notes = () => {
                 </div>
                 
                 <div className="flex items-center gap-2 sm:gap-4">
-                    <button
+                    <button type="button"
                         onClick={() => { setSelectedDoc(null); setViewMode('edit'); }}
                         className="p-2.5 sm:px-6 sm:py-3 bg-white text-black text-xs lg:text-sm font-black rounded-xl sm:rounded-2xl hover:bg-primary hover:text-white transition-all flex items-center gap-2.5 shadow-xl group border-2 border-primary/10"
                     >
                         <Plus size={18} className="group-hover:rotate-90 transition-transform duration-300" /> 
                         <span className="hidden sm:inline">New Draft</span>
                     </button>
-                    <button 
+                    <button type="button" 
                         onClick={() => setIsSidebarOpen(!isSidebarOpen)}
                         className="p-2 sm:p-2.5 text-text-muted hover:text-white bg-white/5 rounded-xl sm:rounded-2xl border border-white/10 transition-colors"
                     >
@@ -459,7 +459,7 @@ export const Notes = () => {
                             const isExam = (doc as any).note_type === 'exam' || doc.title.toLowerCase().includes('revision');
 
                             return (
-                                <button
+                                <button type="button"
                                     key={doc.id}
                                     onClick={() => { setSelectedDoc(doc); setViewMode('view'); if(window.innerWidth < 1024) setIsSidebarOpen(false); }}
                                     className={`w-full p-6 rounded-r-[1.75rem] rounded-l-lg text-left border-2 transition-all active:scale-[0.98] border-l-[6px] ${isSelected ? `bg-white/10 border-white/30 ${colors.border} ${colors.glow} shadow-2xl scale-[1.02]` : `bg-black/40 hover:bg-white/5 border-white/10 hover:border-white/20 ${colors.border}/20`}`}
@@ -474,7 +474,7 @@ export const Notes = () => {
                                                 </div>
                                                 <h3 className={`font-black text-sm lg:text-base leading-snug ${isSelected ? 'text-white' : 'text-text-main'}`}>{doc.title}</h3>
                                             </div>
-                                            <div className="w-8 h-8 rounded-xl bg-red-500/10 hover:bg-red-500/20 text-red-500 opacity-20 hover:opacity-100 transition-all flex items-center justify-center scale-90 hover:scale-100" onClick={(e) => handleDelete(doc.id, e)}>
+                                            <div className="size-8 rounded-xl bg-red-500/10 hover:bg-red-500/20 text-red-500 opacity-20 hover:opacity-100 transition-all flex items-center justify-center scale-90 hover:scale-100" onClick={(e) => handleDelete(doc.id, e)}>
                                                 <Trash2 size={14} />
                                             </div>
                                         </div>
@@ -496,13 +496,13 @@ export const Notes = () => {
 
                                 <div className="flex justify-center scale-90 sm:scale-100">
                                     <div className="bg-black/40 p-1.5 rounded-[2rem] border border-white/5 flex gap-1 sm:gap-2">
-                                        <button 
+                                        <button type="button" 
                                             onClick={() => setNoteType('exam')}
                                             className={`px-4 sm:px-8 py-2.5 sm:py-3 rounded-full text-[10px] sm:text-xs font-black uppercase tracking-widest transition-all ${noteType === 'exam' ? 'bg-amber-500 text-black shadow-[0_10px_30px_-5px_rgba(245,158,11,0.3)]' : 'text-text-muted hover:text-white'}`}
                                         >
                                             Revision
                                         </button>
-                                        <button 
+                                        <button type="button" 
                                             onClick={() => setNoteType('full')}
                                             className={`px-4 sm:px-8 py-2.5 sm:py-3 rounded-full text-[10px] sm:text-xs font-black uppercase tracking-widest transition-all ${noteType === 'full' ? 'bg-white text-black shadow-2xl' : 'text-text-muted hover:text-white'}`}
                                         >
@@ -516,7 +516,7 @@ export const Notes = () => {
                                     value={input}
                                     onChange={(e) => setInput(e.target.value)}
                                 />
-                                <button
+                                <button type="button"
                                     onClick={handleSummarize}
                                     disabled={loading || !input || quotaExhausted.isExhausted}
                                     className={`w-full py-6 lg:py-8 font-black text-lg lg:text-xl rounded-[1.75rem] lg:rounded-[2.25rem] transition-all shadow-2xl flex flex-col sm:flex-row items-center justify-center gap-2 lg:gap-6 ${
@@ -560,7 +560,7 @@ export const Notes = () => {
                                         </span>
                                     </div>
                                     <h1 className="text-2xl sm:text-3xl lg:text-5xl font-heading font-black text-white leading-tight">{selectedDoc.title}</h1>
-                                    <button
+                                    <button type="button"
                                         onClick={() => handleDownload(selectedDoc)}
                                         disabled={downloadingId === selectedDoc.id}
                                         className={`px-8 lg:px-10 py-3 lg:py-4 font-black text-[10px] lg:text-xs uppercase tracking-widest rounded-2xl transition-all flex items-center gap-3 mx-auto shadow-2xl border-2 ${((selectedDoc as any).note_type === 'exam' || selectedDoc.title.toLowerCase().includes('revision')) ? 'bg-amber-500 text-black border-amber-500/20 hover:bg-white' : 'bg-white text-black hover:bg-primary hover:text-white border-primary/20'}`}

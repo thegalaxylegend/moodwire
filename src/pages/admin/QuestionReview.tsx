@@ -154,7 +154,7 @@ export const QuestionReview = () => {
                     <p className="text-text-muted text-sm sm:text-base">Human-in-the-loop accuracy engine.</p>
                 </div>
                 <div className="flex items-center gap-4">
-                    <button 
+                    <button type="button" 
                         onClick={refreshStats}
                         disabled={isRefreshingStats}
                         className="p-2 text-text-muted hover:text-white transition-colors"
@@ -188,7 +188,7 @@ export const QuestionReview = () => {
                         className="w-full bg-surface/50 border border-white/10 rounded-lg px-4 py-2 text-text-main focus:border-primary outline-none"
                     />
                 </div>
-                <button
+                <button type="button"
                     onClick={handleGenerate}
                     disabled={isGenerating}
                     className="bg-primary text-white px-6 py-2 rounded-lg font-bold flex items-center justify-center gap-2 hover:bg-primary-dark transition-colors disabled:opacity-50 h-[42px]"
@@ -238,8 +238,8 @@ export const QuestionReview = () => {
                                     className="w-full bg-black/20 p-2 rounded border border-white/10 text-text-muted text-sm"
                                 />
                                 <div className="flex gap-2 justify-end">
-                                    <button onClick={() => setEditingId(null)} className="px-3 py-1 text-xs">Cancel</button>
-                                    <button onClick={saveEdit} className="px-3 py-1 bg-green-500 text-white rounded text-xs">Save Changes</button>
+                                    <button type="button" onClick={() => setEditingId(null)} className="px-3 py-1 text-xs">Cancel</button>
+                                    <button type="button" onClick={saveEdit} className="px-3 py-1 bg-green-500 text-white rounded text-xs">Save Changes</button>
                                 </div>
                             </div>
                         ) : (
@@ -248,10 +248,10 @@ export const QuestionReview = () => {
                                 <div className="flex justify-between items-start mb-4">
                                     <h3 className="font-bold text-lg text-text-main">{q.text}</h3>
                                     <div className="flex gap-2">
-                                        <button onClick={() => startEdit(q)} className="p-2 text-text-muted hover:text-white" title="Edit">
+                                        <button type="button" onClick={() => startEdit(q)} className="p-2 text-text-muted hover:text-white" title="Edit">
                                             <Edit2 size={16} />
                                         </button>
-                                        <button onClick={() => handleDiscard(q.id)} className="p-2 text-red-500 hover:bg-red-500/10 rounded" title="Discard">
+                                        <button type="button" onClick={() => handleDiscard(q.id)} className="p-2 text-red-500 hover:bg-red-500/10 rounded" title="Discard">
                                             <Trash2 size={16} />
                                         </button>
                                     </div>
@@ -272,7 +272,7 @@ export const QuestionReview = () => {
                                 </div>
 
                                 <div className="mt-4 flex justify-end">
-                                    <button
+                                    <button type="button"
                                         onClick={() => handleApprove(q)}
                                         className="bg-green-600 hover:bg-green-500 text-white px-6 py-2 rounded-lg font-bold flex items-center gap-2 shadow-lg shadow-green-600/20 transition-all"
                                     >
@@ -287,14 +287,14 @@ export const QuestionReview = () => {
                 {generatedQuestions.length === 0 && !isGenerating && (
                     <div className="glass-card py-20 text-center border-dashed border-2 border-white/5 bg-transparent">
                         <div className="max-w-md mx-auto space-y-4">
-                            <div className="w-16 h-16 bg-surface rounded-2xl flex items-center justify-center mx-auto mb-6 text-text-muted/30">
+                            <div className="size-16 bg-surface rounded-2xl flex items-center justify-center mx-auto mb-6 text-text-muted/30">
                                 <Database size={32} />
                             </div>
                             <h2 className="text-xl font-bold text-text-main">No questions pending review</h2>
                             <p className="text-text-muted text-sm px-8">
                                 Use the generator above to create a fresh batch of high-quality questions for {topic}.
                             </p>
-                            <button
+                            <button type="button"
                                 onClick={handleGenerate}
                                 className="px-6 py-2 bg-primary/10 text-primary border border-primary/20 rounded-xl font-bold hover:bg-primary/20 transition-all flex items-center gap-2 mx-auto"
                             >

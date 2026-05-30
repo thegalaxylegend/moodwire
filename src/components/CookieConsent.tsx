@@ -38,7 +38,7 @@ export const CookieConsent = () => {
                     <a href="/privacy" className="text-purple-400 hover:underline">Privacy Policy</a>.
                 </p>
                 <div className="flex gap-3 flex-shrink-0">
-                    <button
+                    <button type="button"
                         onClick={handleAccept}
                         className="px-6 py-2 bg-purple-600 hover:bg-purple-500 text-white text-sm font-semibold rounded-xl transition-colors"
                     >

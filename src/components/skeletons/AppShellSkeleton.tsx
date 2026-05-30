@@ -14,7 +14,7 @@ export const AppShellSkeleton = () => {
                 <div className="flex-1 px-4 space-y-2 mt-4">
                     {[1, 2, 3, 4, 5, 6].map((i) => (
                         <div key={i} className="flex items-center gap-3 px-4 py-3 rounded-xl bg-surface/50 border border-transparent">
-                            <div className="w-5 h-5 rounded-md bg-text-muted/10 animate-pulse" />
+                            <div className="size-5 rounded-md bg-text-muted/10 animate-pulse" />
                             <div className="h-4 w-24 bg-text-muted/10 rounded animate-pulse" />
                         </div>
                     ))}
@@ -22,7 +22,7 @@ export const AppShellSkeleton = () => {
 
                 <div className="p-4 border-t border-border space-y-3">
                     <div className="flex items-center gap-3 p-2">
-                        <div className="w-10 h-10 rounded-full bg-surface/50 animate-pulse" />
+                        <div className="size-10 rounded-full bg-surface/50 animate-pulse" />
                         <div className="space-y-2">
                             <div className="h-3 w-20 bg-text-muted/10 rounded animate-pulse" />
                             <div className="h-2 w-12 bg-text-muted/10 rounded animate-pulse" />
@@ -41,7 +41,7 @@ export const AppShellSkeleton = () => {
                             <Flame size={16} />
                             <span>-</span>
                         </div>
-                        <button className="p-2 rounded-lg bg-surface border border-border">
+                        <button type="button" className="p-2 rounded-lg bg-surface border border-border">
                             <Menu size={24} />
                         </button>
                     </div>

@@ -77,7 +77,7 @@ export const ParentReport = () => {
         return (
             <div className="min-h-screen bg-[#0a0b10] flex flex-col items-center justify-center space-y-4">
                 <Brain className="animate-pulse text-purple-500" size={48} />
-                <h2 className="text-xl font-manrope text-white">Compiling Confidential Report...</h2>
+                <h2 className="text-xl font-manrope text-white">Compiling Confidential Report…</h2>
             </div>
         );
     }
@@ -108,7 +108,7 @@ export const ParentReport = () => {
                             ExamCompass Parent Portal
                         </h1>
                     </div>
-                    <button 
+                    <button type="button" 
                         onClick={handleDownload}
                         disabled={downloading}
                         className="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors text-sm font-bold"

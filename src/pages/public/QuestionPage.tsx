@@ -275,7 +275,7 @@ export const QuestionPage = () => {
                             {/* Step-by-Step Solution */}
                             <div>
                                 <h3 className="text-white font-semibold mb-2 flex items-center gap-2">
-                                    <span className="w-5 h-5 rounded bg-purple-500 text-[10px] flex items-center justify-center font-bold">1</span>
+                                    <span className="size-5 rounded bg-purple-500 text-[10px] flex items-center justify-center font-bold">1</span>
                                     Explanation
                                 </h3>
                                 <div className="text-gray-300 leading-relaxed pl-7">
@@ -287,7 +287,7 @@ export const QuestionPage = () => {
                             {question.topic && (
                                 <div className="pt-4 border-t border-white/10">
                                     <h3 className="text-white font-semibold mb-2 flex items-center gap-2">
-                                        <span className="w-5 h-5 rounded bg-blue-500 text-[10px] flex items-center justify-center font-bold">2</span>
+                                        <span className="size-5 rounded bg-blue-500 text-[10px] flex items-center justify-center font-bold">2</span>
                                         Concept Applied
                                     </h3>
                                     <div className="text-gray-300 leading-relaxed pl-7 text-sm">
@@ -299,7 +299,7 @@ export const QuestionPage = () => {
                             {/* Exam Tip */}
                             <div className="pt-4 border-t border-white/10">
                                 <h3 className="text-white font-semibold mb-2 flex items-center gap-2">
-                                    <span className="w-5 h-5 rounded bg-pink-500 text-[10px] flex items-center justify-center font-bold">3</span>
+                                    <span className="size-5 rounded bg-pink-500 text-[10px] flex items-center justify-center font-bold">3</span>
                                     Exam Strategy
                                 </h3>
                                 <div className="text-gray-300 leading-relaxed pl-7 text-sm">
@@ -340,7 +340,7 @@ export const QuestionPage = () => {
                                 Practice More Questions
                             </Link>
                         )}
-                        <button 
+                        <button type="button" 
                             onClick={handleDownloadPDF}
                             disabled={generatingPdf}
                             className="inline-flex items-center gap-2 bg-purple-600 text-white px-8 py-3 rounded-xl font-bold hover:scale-105 transition-transform flex-1 justify-center disabled:opacity-50 group"
@@ -352,7 +352,7 @@ export const QuestionPage = () => {
 
                     <AuthorBio 
                         name="Ayush Kumar"
-                        role="Founder, ExamCompass"
+                        jobTitle="Founder, ExamCompass"
                         bio="Class 12 student at KV Darbhanga, Bihar. Built ExamCompass as a personal study tool after analyzing 50+ past papers. All solutions are cross-verified against NCERT and coaching institute answer keys."
                         credentials={["KV Darbhanga, Bihar", "50+ PYQ Papers Analyzed", "NCERT-Verified Solutions"]}
                         linkedin="https://www.linkedin.com/in/ayush-kumar-a23260401"

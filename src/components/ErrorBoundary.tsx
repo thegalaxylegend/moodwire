@@ -46,7 +46,7 @@ export class ErrorBoundary extends Component<Props, State> {
                 this.props.fallback || (
                     <div className="min-h-screen bg-background flex items-center justify-center p-6">
                         <div className="max-w-md w-full glass-card p-8 text-center space-y-6 animate-fade-in">
-                            <div className="w-20 h-20 bg-red-500/10 rounded-full flex items-center justify-center mx-auto">
+                            <div className="size-20 bg-red-500/10 rounded-full flex items-center justify-center mx-auto">
                                 <AlertTriangle className="text-red-500" size={40} />
                             </div>
                             
@@ -58,7 +58,7 @@ export class ErrorBoundary extends Component<Props, State> {
                             </div>
 
                             <div className="flex flex-col gap-3">
-                                <button
+                                <button type="button"
                                     onClick={() => window.location.reload()}
                                     className="flex items-center justify-center gap-2 w-full py-3 bg-primary text-black font-bold rounded-xl hover:bg-primary/90 transition-all"
                                 >
@@ -66,7 +66,7 @@ export class ErrorBoundary extends Component<Props, State> {
                                     Try Refreshing
                                 </button>
                                 
-                                <button
+                                <button type="button"
                                     onClick={this.handleReset}
                                     className="flex items-center justify-center gap-2 w-full py-3 bg-surface border border-border text-text-main font-medium rounded-xl hover:bg-white/5 transition-all"
                                 >

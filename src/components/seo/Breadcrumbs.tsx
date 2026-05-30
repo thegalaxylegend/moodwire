@@ -20,12 +20,12 @@ export const Breadcrumbs = () => {
     return (
         <nav aria-label="Breadcrumb" className="flex items-center gap-1.5 text-sm text-gray-400 flex-wrap">
             <Link to="/" className="hover:text-white transition-colors flex items-center gap-1" aria-label="Home">
-                <Home className="w-3.5 h-3.5" />
+                <Home className="size-3.5" />
                 <span>Home</span>
             </Link>
             {crumbs.map((crumb, i) => (
                 <span key={crumb.path} className="flex items-center gap-1.5">
-                    <ChevronRight className="w-3.5 h-3.5 text-gray-600" />
+                    <ChevronRight className="size-3.5 text-gray-600" />
                     {i === crumbs.length - 1 ? (
                         <span className="text-gray-200 font-medium" aria-current="page">{crumb.label}</span>
                     ) : (

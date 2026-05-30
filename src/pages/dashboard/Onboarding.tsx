@@ -56,8 +56,8 @@ export const Onboarding = () => {
         <div className="min-h-screen flex items-center justify-center relative overflow-hidden bg-background">
             {/* Abstract Background */}
             <div className="absolute top-0 left-0 w-full h-full -z-10">
-                <div className="absolute top-1/4 left-1/4 w-[600px] h-[600px] bg-primary/10 rounded-full blur-[150px]" />
-                <div className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-secondary/10 rounded-full blur-[120px]" />
+                <div className="absolute top-1/4 left-1/4 size-[600px] bg-primary/10 rounded-full blur-[150px]" />
+                <div className="absolute bottom-1/4 right-1/4 size-[500px] bg-secondary/10 rounded-full blur-[120px]" />
             </div>
 
             <div className="w-full max-w-2xl px-4 animate-fade-in-up">
@@ -88,7 +88,7 @@ export const Onboarding = () => {
 
                             <div className="grid grid-cols-3 gap-4 mt-8">
                                 {['Class 8th', 'Class 9th', 'Class 10th', 'Class 11th', 'Class 12th', 'Dropper'].map((cls) => (
-                                    <button
+                                    <button type="button"
                                         key={cls}
                                         onClick={() => {
                                             const currentMonth = new Date().getMonth();
@@ -133,7 +133,7 @@ export const Onboarding = () => {
                                     ? ['Foundation', 'JEE', 'NEET'] 
                                     : ['JEE', 'NEET']
                                 ).map((exam) => (
-                                    <button
+                                    <button type="button"
                                         key={exam}
                                         onClick={() => setFormData({ ...formData, targetExam: exam })}
                                         className={`p-6 rounded-xl border text-left transition-all ${formData.targetExam === exam
@@ -163,7 +163,7 @@ export const Onboarding = () => {
                                     const year = new Date().getFullYear() + offset;
                                     const isRecommended = formData.targetYear === year;
                                     return (
-                                        <button
+                                        <button type="button"
                                             key={year}
                                             onClick={() => setFormData({ ...formData, targetYear: year })}
                                             className={`p-6 rounded-xl border text-center transition-all relative ${formData.targetYear === year
@@ -197,7 +197,7 @@ export const Onboarding = () => {
                                     { id: 'Intermediate', label: 'In Progress', desc: 'I have covered 40-50% syllabus.' },
                                     { id: 'Advanced', label: 'Exam Ready', desc: 'Focusing on mock tests and revision.' }
                                 ].map((level) => (
-                                    <button
+                                    <button type="button"
                                         key={level.id}
                                         onClick={() => setFormData({ ...formData, prepLevel: level.id as 'Beginner' | 'Intermediate' | 'Advanced' })}
                                         className={`w-full p-4 rounded-xl border text-left flex items-center justify-between transition-all ${formData.prepLevel === level.id
@@ -217,7 +217,7 @@ export const Onboarding = () => {
                     )}
 
                     <div className="mt-12 flex justify-between items-center">
-                        <button
+                        <button type="button"
                             onClick={() => step > 1 ? setStep(step - 1) : navigate('/')}
                             className="px-6 py-4 border border-border text-text-muted rounded-xl font-bold flex items-center gap-2 hover:bg-white/5 transition-all"
                         >
@@ -225,7 +225,7 @@ export const Onboarding = () => {
                             {step > 1 ? 'Back' : 'Back to Home'}
                         </button>
 
-                        <button
+                        <button type="button"
                             onClick={handleNext}
                             disabled={
                                 isSaving ||
@@ -237,7 +237,7 @@ export const Onboarding = () => {
                             className="px-8 py-4 bg-primary text-white rounded-xl font-bold flex items-center gap-2 shadow-lg disabled:opacity-50 hover:bg-primary/90 transition-all"
                         >
                             {isSaving ? (
-                                <><Loader2 size={18} className="animate-spin" /> Saving...</>
+                                <><Loader2 size={18} className="animate-spin" /> Saving…</>
                             ) : (
                                 <>{step === 4 ? 'Generate My Dashboard' : 'Next Step'} <ArrowRight size={18} /></>
                             )}

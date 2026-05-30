@@ -105,7 +105,7 @@ export const AboutAuthor = ({ compact = false }: AboutAuthorProps) => {
                 <div className="p-6 md:p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
                     <div className="flex flex-col md:flex-row items-center md:items-start gap-6 text-center md:text-left">
                         {/* Avatar */}
-                        <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-500 flex-shrink-0 flex items-center justify-center text-2xl font-bold text-white shadow-lg shadow-purple-500/20">
+                        <div className="size-16 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-500 flex-shrink-0 flex items-center justify-center text-2xl font-bold text-white shadow-lg shadow-purple-500/20">
                             A
                         </div>
 

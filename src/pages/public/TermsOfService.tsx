@@ -65,7 +65,7 @@ export const TermsOfService = () => {
                                 "Personalized study roadmaps driven by Large Language Model (LLM) insights."
                             ].map(item => (
                                 <li key={item} className="flex gap-3 items-start">
-                                    <div className="mt-1.5 w-2 h-2 rounded-full bg-pink-500 shrink-0" />
+                                    <div className="mt-1.5 size-2 rounded-full bg-pink-500 shrink-0" />
                                     <span>{item}</span>
                                 </li>
                             ))}

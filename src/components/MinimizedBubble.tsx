@@ -66,16 +66,16 @@ export const MinimizedBubble: React.FC<MinimizedBubbleProps> = ({
                     {isThinking && (
                         <div className="absolute inset-0 bg-[#11131c]/60 backdrop-blur-[2px] flex items-center justify-center z-20">
                             <div className="flex gap-1.5">
-                                <span className="w-1.5 h-1.5 bg-[#81ecff] rounded-full animate-bounce [animation-delay:-0.3s]" />
-                                <span className="w-1.5 h-1.5 bg-[#81ecff] rounded-full animate-bounce [animation-delay:-0.15s]" />
-                                <span className="w-1.5 h-1.5 bg-[#81ecff] rounded-full animate-bounce" />
+                                <span className="size-1.5 bg-[#81ecff] rounded-full animate-bounce [animation-delay:-0.3s]" />
+                                <span className="size-1.5 bg-[#81ecff] rounded-full animate-bounce [animation-delay:-0.15s]" />
+                                <span className="size-1.5 bg-[#81ecff] rounded-full animate-bounce" />
                             </div>
                         </div>
                     )}
                 </div>
 
                 {/* Online status indicator */}
-                <div className="absolute top-1 right-1 w-4 h-4 bg-[#81ecff] rounded-full border-[3px] border-[#11131c] shadow-[0_0_15px_#81ecff] z-30" />
+                <div className="absolute top-1 right-1 size-4 bg-[#81ecff] rounded-full border-[3px] border-[#11131c] shadow-[0_0_15px_#81ecff] z-30" />
             </div>
         </div>
     );

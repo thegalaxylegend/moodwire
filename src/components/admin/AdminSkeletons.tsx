@@ -4,7 +4,7 @@ export const ToolCardSkeleton = () => (
     <div className="p-6 glass-card border-white/5 relative overflow-hidden flex flex-col justify-between h-[180px]">
         <div>
             <div className="flex items-start justify-between mb-4">
-                <div className="w-12 h-12 bg-white/5 rounded-2xl animate-pulse" />
+                <div className="size-12 bg-white/5 rounded-2xl animate-pulse" />
                 <div className="w-16 h-4 bg-white/5 rounded-md animate-pulse" />
             </div>
             <div className="w-2/3 h-5 bg-white/10 rounded-lg animate-pulse mb-2" />
@@ -15,7 +15,7 @@ export const ToolCardSkeleton = () => (
         </div>
         <div className="mt-6 pt-4 border-t border-white/5 flex items-center justify-between">
             <div className="w-24 h-2 bg-white/5 rounded animate-pulse" />
-            <div className="w-4 h-4 bg-white/5 rounded animate-pulse" />
+            <div className="size-4 bg-white/5 rounded animate-pulse" />
         </div>
 
         {/* Shimmer Effect */}

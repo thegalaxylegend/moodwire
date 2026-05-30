@@ -23,7 +23,7 @@ export const MockPreview: React.FC<MockPreviewProps> = ({
 
     return (
         <div className="flex flex-col items-center justify-center min-h-[60vh] space-y-8 max-w-2xl mx-auto text-center animate-fade-in-up py-10">
-            <div className="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center">
+            <div className="size-24 bg-primary/10 rounded-full flex items-center justify-center">
                 <Brain size={48} className="text-primary" />
             </div>
 
@@ -61,7 +61,7 @@ export const MockPreview: React.FC<MockPreviewProps> = ({
                 </ul>
             </div>
 
-            <button
+            <button type="button"
                 onClick={onStart}
                 className="w-full py-4 bg-primary text-white font-bold rounded-2xl shadow-xl shadow-primary/20 hover:scale-[1.02] active:scale-[0.98] transition-all text-lg"
             >
@@ -69,7 +69,7 @@ export const MockPreview: React.FC<MockPreviewProps> = ({
             </button>
 
             <div className="w-full max-w-xs pt-4">
-                <button
+                <button type="button"
                     onClick={onCancel}
                     className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-surface border border-border text-text-muted hover:text-primary hover:border-primary/30 transition-all font-medium group"
                 >

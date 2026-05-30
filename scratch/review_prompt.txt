@@ -1,0 +1,247 @@
+Review the mathematical consistency checking implementation in consistencyCheck.ts.
+
+Here is the code of consistencyCheck.ts:
+```typescript
+/**
+ * consistencyCheck.ts
+ * Programmatic validation layer that compares the numerical result
+ * in a derivation/solution text against the correct_answer field.
+ * Catches Type 5 errors (correct derivation, wrong answer field).
+ */
+
+const superscriptMap: Record<string, string> = {
+    '⁰': '0', '¹': '1', '²': '2', '³': '3', '⁴': '4',
+    '⁵': '5', '⁶': '6', '⁷': '7', '⁸': '8', '⁹': '9',
+    '⁺': '+', '⁻': '-'
+};
+
+/**
+ * Normalizes scientific notation (LaTeX and Unicode superscript forms) into standard JS float strings.
+ * e.g., "1.6 \times 10^{-19}" -> "1.6e-19"
+ * e.g., "1.6 × 10⁻¹⁹" -> "1.6e-19"
+ * e.g., "10⁻³" -> "1e-3"
+ */
+export function normalizeScientificNotation(text: string): string {
+    if (!text) return '';
+    
+    // 1. LaTeX scientific notation: e.g., 1.6 \times 10^{-19} or 1.6 \times 10^-19
+    let normalized = text.replace(/(-?\d+\.?\d*)\s*(?:\\times|\\cdot|\*|×|·)\s*10\^\{?(-?\d+)\}?/g, '$1e$2');
+    
+    // 2. Unicode scientific notation: e.g., 1.6 × 10⁻¹⁹
+    normalized = normalized.replace(/(-?\d+\.?\d*)\s*(?:\\times|\\cdot|\*|×|·)\s*10([⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻]+)/g, (_match, mantissa, exponentGroup) => {
+        const asciiExp = exponentGroup.split('').map((char: string) => superscriptMap[char] || char).join('');
+        return `${mantissa}e${asciiExp}`;
+    });
+    
+    // 3. Standalone base-10 powers: e.g. 10^-19 or 10^{-19} -> 1e-19
+    normalized = normalized.replace(/(?<!\d)10\^\{?(-?\d+)\}?/g, '1e$1');
+    
+    // 4. Standalone Unicode base-10 powers: e.g. 10⁻¹⁹ -> 1e-19
+    normalized = normalized.replace(/(?<!\d)10([⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻]+)/g, (_match, exponentGroup) => {
+        const asciiExp = exponentGroup.split('').map((char: string) => superscriptMap[char] || char).join('');
+        return `1e${asciiExp}`;
+    });
+
+    return normalized;
+}
+
+/**
+ * Extract all numbers from a text string.
+ * Handles integers, decimals, scientific notation, and negatives.
+ */
+export function extractNumbers(text: string | any): number[] {
+    if (!text || typeof text !== 'string') return [];
+    
+    // Normalize scientific notation first!
+    const normalized = normalizeScientificNotation(text);
+    
+    // Match: -13.6, 2.5, 0.005, 6.022e23, 1e-5
+    const matches = normalized.match(/-?\d+\.?\d*(?:[eE][+-]?\d+)?/g);
+    if (!matches) return [];
+    return matches.map(Number).filter(n => !isNaN(n) && isFinite(n));
+}
+
+/**
+ * Extract the "final answer" number from a derivation/solution text.
+ * Strategy: Look for the last "= number" pattern, then answer-keyword patterns,
+ * then fall back to the last number in the text.
+ */
+export function extractFinalValue(rawDerivationText: string | any): number | null {
+    if (!rawDerivationText) return null;
+    const derivationText = typeof rawDerivationText === 'string' ? rawDerivationText :
+                         Array.isArray(rawDerivationText) ? rawDerivationText.join(' ') : 
+                         String(rawDerivationText);
+                         
+    if (derivationText.trim().length < 5) return null;
+
+    // Normalize: remove LaTeX formatting and apply scientific notation fixes
+    let text = derivationText
+        .replace(/\$\$/g, '')
+        .replace(/\$/g, '')
+        .replace(/\\frac\{([^}]+)\}\{([^}]+)\}/g, '($1)/($2)')
+        .replace(/\\times/g, '×')
+        .replace(/\\cdot/g, '·');
+
+    text = normalizeScientificNotation(text);
+
+    // Strategy 1: Find all "= <number>" or "≈ <number>" patterns, take the last one
+    // This catches chains like "= 20 * 0.125 = 2.5" or "≈ 0.14"
+    const equalPatterns = text.match(/(?:=|≈|~|→)\s*(-?\d+\.?\d*(?:[eE][+-]?\d+)?)/g);
+    if (equalPatterns && equalPatterns.length > 0) {
+        const lastEqual = equalPatterns[equalPatterns.length - 1];
+        const numMatch = lastEqual.match(/-?\d+\.?\d*(?:[eE][+-]?\d+)?/);
+        if (numMatch) {
+            const val = parseFloat(numMatch[0]);
+            if (!isNaN(val) && isFinite(val)) return val;
+        }
+    }
+
+    // Strategy 2: Look for explicit answer keywords
+    const answerKeywords = [
+        /(?:answer|result|value|total|output|final)\s*(?:is|=|:|equals|→|≈|~)\s*(-?\d+\.?\d*(?:[eE][+-]?\d+)?)/gi,
+        /(?:therefore|thus|hence|so)\s*[,.]?\s*(?:the\s+)?(?:answer|result|value)?\s*(?:is|=|:|→|≈|~)?\s*(-?\d+\.?\d*(?:[eE][+-]?\d+)?)/gi,
+    ];
+
+    for (const pattern of answerKeywords) {
+        const matches = [...text.matchAll(pattern)];
+        if (matches.length > 0) {
+            const lastMatch = matches[matches.length - 1];
+            const val = parseFloat(lastMatch[1]);
+            if (!isNaN(val) && isFinite(val)) return val;
+        }
+    }
+
+    // Strategy 3: If text has step-by-step lines, take the last number from the last step
+    const lines = text.split('\n').filter(l => l.trim().length > 0);
+    if (lines.length > 1) {
+        const lastLine = lines[lines.length - 1];
+        const lastLineNums = extractNumbers(lastLine);
+        if (lastLineNums.length > 0) {
+            return lastLineNums[lastLineNums.length - 1];
+        }
+    }
+
+    // Strategy 4: Last number in the entire text
+    const allNumbers = extractNumbers(text);
+    if (allNumbers.length > 0) {
+        return allNumbers[allNumbers.length - 1];
+    }
+
+    return null;
+}
+
+/**
+ * Extract numerical value from a correct_answer string.
+ */
+export function extractAnswerValue(answerText: string | any): number | null {
+    if (!answerText || typeof answerText !== 'string') return null;
+
+    const normalizedText = normalizeScientificNotation(answerText);
+    const numbers = extractNumbers(normalizedText);
+    if (numbers.length === 0) return null;
+
+    if (numbers.length === 1) return numbers[0];
+
+    const keyPattern = /(?:is|=|equals|:|approximately|about|answer)\s*(-?\d+\.?\d*(?:[eE][+-]?\d+)?)/i;
+    const keyMatch = normalizedText.match(keyPattern);
+    if (keyMatch) return parseFloat(keyMatch[1]);
+
+    return numbers[numbers.length - 1];
+}
+
+export interface ConsistencyResult {
+    consistent: boolean;
+    derivedValue: number | null;
+    answeredValue: number | null;
+    percentDiff: number | null;
+    correctedAnswer?: string;
+    reason?: string;
+}
+
+/**
+ * Compares the numerical result in a derivation text against the correct_answer field.
+ */
+export function checkDerivationConsistency(
+    derivationText: string,
+    correctAnswer: string,
+    tolerance: number = 0.08
+): ConsistencyResult {
+    const derivedValue = extractFinalValue(derivationText);
+    const answeredValue = extractAnswerValue(correctAnswer);
+
+    if (derivedValue === null || answeredValue === null) {
+        return {
+            consistent: true,
+            derivedValue,
+            answeredValue,
+            percentDiff: null,
+            reason: 'Non-numerical or unparseable — skipped consistency check'
+        };
+    }
+
+    if (derivedValue === 0 && answeredValue === 0) {
+        return { consistent: true, derivedValue, answeredValue, percentDiff: 0 };
+    }
+
+    const reference = Math.max(Math.abs(derivedValue), Math.abs(answeredValue), 1e-10);
+    const percentDiff = Math.abs(derivedValue - answeredValue) / reference;
+
+    if (percentDiff <= tolerance) {
+        return { consistent: true, derivedValue, answeredValue, percentDiff };
+    }
+
+    // SI metric scaling check (e.g. 4.87e-7 m vs 487 nm)
+    const ratio = derivedValue / answeredValue;
+    const validMetricScales = [
+        1e-12, 1e-9, 1e-6, 1e-3, 1e-2, 1e2, 1e3, 1e6, 1e9, 1e12
+    ];
+
+    for (const scale of validMetricScales) {
+        let scaledRatio = ratio / scale;
+        let scaledDiff = Math.abs(scaledRatio - 1);
+        if (scaledDiff <= tolerance) {
+            return { 
+                consistent: true, 
+                derivedValue, 
+                answeredValue, 
+                percentDiff: scaledDiff,
+                reason: `Consistent after metric scaling (scale: ${scale})`
+            };
+        }
+        scaledRatio = ratio * scale;
+        scaledDiff = Math.abs(scaledRatio - 1);
+        if (scaledDiff <= tolerance) {
+            return { 
+                consistent: true, 
+                derivedValue, 
+                answeredValue, 
+                percentDiff: scaledDiff,
+                reason: `Consistent after metric scaling (inverse scale: ${scale})`
+            };
+        }
+    }
+
+    const answeredStr = String(answeredValue);
+    const derivedStr = String(derivedValue);
+
+    let correctedAnswer: string | undefined;
+    if (correctAnswer.includes(answeredStr)) {
+        correctedAnswer = correctAnswer.replace(answeredStr, derivedStr);
+    }
+
+    return {
+        consistent: false,
+        derivedValue,
+        answeredValue,
+        percentDiff,
+        correctedAnswer,
+        reason: `Derivation yields ${derivedValue} but answer says ${answeredValue} (${(percentDiff * 100).toFixed(1)}% difference)`
+    };
+}
+```
+
+Please review:
+1. The regex expressions in `normalizeScientificNotation`: are they robust, are there potential syntax/parsing failures (e.g., negative bounds, multiple symbols)?
+2. How we can avoid false-positive/negative math discrepancies.
+3. Suggest any additional unit scale factors or potential precision-edge-cases.
+4. Keep the review constructive and very brief.

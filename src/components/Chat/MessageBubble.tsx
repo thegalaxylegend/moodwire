@@ -197,8 +197,8 @@ const Mermaid = ({ chart, isStreaming }: { chart: string; isStreaming?: boolean 
     if (isStreaming) {
         return (
             <div className="my-4 p-6 bg-white/[0.02] border border-white/10 rounded-3xl flex flex-col items-center justify-center min-h-[120px] animate-pulse">
-                <div className="w-12 h-12 rounded-full border-2 border-[#5d21df]/30 border-t-[#5d21df] animate-spin mb-3" />
-                <span className="text-xs text-white/40 font-medium">Visualizing flow...</span>
+                <div className="size-12 rounded-full border-2 border-[#5d21df]/30 border-t-[#5d21df] animate-spin mb-3" />
+                <span className="text-xs text-white/40 font-medium">Visualizing flow…</span>
             </div>
         );
     }
@@ -497,7 +497,7 @@ export const MessageBubble: React.FC<MessageBubbleProps> = React.memo(({ message
                     {/* Meta Row: Timestamp & Play Button (Outside Box) */}
                     <div className={`flex items-center gap-1.5 mt-1 ${isBot ? 'self-start' : 'self-end flex-row-reverse'}`}>
                         {isBot && onSpeak && !message.isStreaming && (
-                            <button 
+                            <button type="button" 
                                 onClick={(e) => {
                                     e.stopPropagation();
                                     onSpeak(message.text, message.id, message.language);

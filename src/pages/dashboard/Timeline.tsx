@@ -132,7 +132,7 @@ export const Timeline = () => {
                         <p className="text-text-muted">Track critical dates for your target exam.</p>
                     </header>
                     <div className="glass-card p-12 text-center flex flex-col items-center justify-center space-y-4">
-                        <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-2">
+                        <div className="size-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-2">
                             <Brain className="text-primary" size={32} />
                         </div>
                         <h2 className="text-xl font-bold text-text-main">Unlock Your Timeline</h2>
@@ -159,7 +159,7 @@ export const Timeline = () => {
                     </p>
                     {isJunior && (
                         <div className="flex gap-3 mt-4">
-                            <button
+                            <button type="button"
                                 onClick={() => window.history.back()}
                                 className="px-6 py-2 bg-surface border border-border rounded-lg hover:bg-white/5 transition-all text-sm font-medium"
                             >
@@ -175,7 +175,7 @@ export const Timeline = () => {
                             <h1 className="text-3xl font-heading font-bold text-text-main">Exam Timeline</h1>
                             <p className="text-text-muted">Critical dates for {user?.targetExam}.</p>
                         </div>
-                        <button
+                        <button type="button"
                             onClick={() => generateTimeline()}
                             title="Regenerate Timeline"
                             className="p-2 border border-border rounded-lg hover:bg-white/5"

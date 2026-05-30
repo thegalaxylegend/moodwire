@@ -120,7 +120,7 @@ export const DailyChallenge = () => {
                             <p className="text-xs font-bold text-amber-300 drop-shadow-[0_0_8px_rgba(253,224,71,0.2)]">+50 XP & +1 Streak Token</p>
                         </div>
                     </div>
-                    <button 
+                    <button type="button" 
                         onClick={() => window.location.reload()} 
                         className="text-[9px] font-black text-primary uppercase tracking-[0.15em] hover:text-primary/80 transition-colors px-3 py-1.5 rounded-lg hover:bg-primary/10 border border-transparent hover:border-primary/20"
                     >
@@ -171,7 +171,7 @@ export const DailyChallenge = () => {
                         }
 
                         return (
-                            <button
+                            <button type="button"
                                 key={opt}
                                 onClick={() => handleAnswer(opt)}
                                 disabled={!!selected}

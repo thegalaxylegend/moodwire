@@ -33,7 +33,7 @@ export const MockHistory: React.FC<MockHistoryProps> = ({ user, onBack, onResume
 
     return (
         <div className="w-full space-y-6 animate-fade-in-up">
-            <button onClick={onBack} className="flex items-center gap-2 text-text-muted hover:text-primary transition-colors">
+            <button type="button" onClick={onBack} className="flex items-center gap-2 text-text-muted hover:text-primary transition-colors">
                 <ArrowLeft size={18} /> Back to Menu
             </button>
             <h2 className="text-2xl font-bold text-text-main">Attempt History</h2>
@@ -65,7 +65,7 @@ export const MockHistory: React.FC<MockHistoryProps> = ({ user, onBack, onResume
 
                             <div className="flex items-center justify-between md:justify-end gap-6 w-full md:w-auto mt-2 md:mt-0">
                                 {attempt.status === 'paused' ? (
-                                    <button
+                                    <button type="button"
                                         onClick={() => onResume(attempt, 'resume')}
                                         className="flex items-center gap-2 px-6 py-2.5 bg-primary hover:bg-primary/90 text-white rounded-lg font-bold text-sm w-full md:w-auto justify-center"
                                     >
@@ -78,7 +78,7 @@ export const MockHistory: React.FC<MockHistoryProps> = ({ user, onBack, onResume
                                             <p className="text-xs text-text-muted">{attempt.percentage}% Score</p>
                                         </div>
                                         {attempt.details && (
-                                            <button
+                                            <button type="button"
                                                 onClick={() => onResume(attempt, 'review')}
                                                 className="px-6 py-2.5 bg-surface border border-border hover:bg-white/5 text-text-main rounded-lg text-sm font-bold flex items-center gap-2 whitespace-nowrap"
                                             >

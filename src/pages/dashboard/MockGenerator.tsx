@@ -91,14 +91,25 @@ export const MockGenerator = () => {
 
     const globalFetchedRef = useRef(0);
 
+    // eslint-disable-next-line react-doctor/effect-needs-cleanup
     useEffect(() => {
-        const listener = CapApp.addListener('appStateChange', ({ isActive }) => {
-            if (!isActive && step === 'exam') {
+        let active = true;
+        let listenerHandle: any = null;
+        
+        CapApp.addListener('appStateChange', ({ isActive }) => {
+            if (active && !isActive && step === 'exam') {
                 handlePause(true); // pass true to skip confirm
             }
+        }).then(h => {
+            if (active) listenerHandle = h;
+            else h.remove();
         });
+        
         return () => {
-            listener.then(l => l.remove());
+            active = false;
+            if (listenerHandle) {
+                listenerHandle.remove();
+            }
         };
     }, [step]);
 
@@ -847,7 +858,7 @@ export const MockGenerator = () => {
                                 </div>
                                 <h3 className="text-2xl font-bold">{alertModal.title}</h3>
                                 <p className="text-sm text-text-muted">{alertModal.message}</p>
-                                <button onClick={() => { setAlertModal(prev => ({ ...prev, open: false })); navigate('/dashboard/test-center'); }} className="w-full py-4 bg-primary text-white font-bold rounded-2xl">Got it</button>
+                                <button type="button" onClick={() => { setAlertModal(prev => ({ ...prev, open: false })); navigate('/dashboard/test-center'); }} className="w-full py-4 bg-primary text-white font-bold rounded-2xl">Got it</button>
                             </motion.div>
                         </motion.div>
                     )}
@@ -906,10 +917,10 @@ export const MockGenerator = () => {
                             transition={{ type: 'spring', damping: 20 }}
                             className="relative overflow-hidden bg-[#0d0f1a] border border-[#81ecff]/25 p-8 rounded-[2.5rem] max-w-sm w-full shadow-[0_0_50px_rgba(129,236,255,0.15)] text-center space-y-6"
                         >
-                            <div className="absolute -top-24 -left-24 w-48 h-48 bg-primary/10 rounded-full blur-3xl pointer-events-none" />
-                            <div className="absolute -bottom-24 -right-24 w-48 h-48 bg-secondary/10 rounded-full blur-3xl pointer-events-none" />
+                            <div className="absolute -top-24 -left-24 size-48 bg-primary/10 rounded-full blur-3xl pointer-events-none" />
+                            <div className="absolute -bottom-24 -right-24 size-48 bg-secondary/10 rounded-full blur-3xl pointer-events-none" />
 
-                            <div className="w-20 h-20 mx-auto rounded-full bg-gradient-to-tr from-primary/30 to-secondary/30 flex items-center justify-center text-primary shadow-[0_0_30px_rgba(129,236,255,0.3)] animate-pulse">
+                            <div className="size-20 mx-auto rounded-full bg-gradient-to-tr from-primary/30 to-secondary/30 flex items-center justify-center text-primary shadow-[0_0_30px_rgba(129,236,255,0.3)] animate-pulse">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#81ecff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
                             </div>
 
@@ -926,7 +937,7 @@ export const MockGenerator = () => {
                                 To keep you in your flow state and strengthen your base, we are temporarily switching to <span className="text-[#81ecff] font-semibold">Concept Rebuilding questions</span>. Let's master the basics together! 🚀
                             </p>
 
-                            <button 
+                            <button type="button" 
                                 onClick={() => setShowComfortModal(false)} 
                                 className="w-full py-3.5 bg-gradient-to-r from-primary to-secondary hover:brightness-110 active:scale-95 text-white font-extrabold rounded-2xl shadow-[0_0_20px_rgba(129,236,255,0.3)] transition-all uppercase tracking-wider text-xs"
                             >

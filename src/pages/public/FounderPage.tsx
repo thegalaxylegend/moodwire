@@ -134,17 +134,17 @@ const CliTerminal = () => {
             {/* Header bar */}
             <div className="flex items-center justify-between px-4 py-3 bg-white/[0.04] border-b border-white/10 select-none">
                 <div className="flex items-center gap-2">
-                    <div className="w-3 h-3 rounded-full bg-red-500/80 hover:bg-red-400 transition-colors" />
-                    <div className="w-3 h-3 rounded-full bg-yellow-500/80 hover:bg-yellow-400 transition-colors" />
-                    <div className="w-3 h-3 rounded-full bg-green-500/80 hover:bg-green-400 transition-colors" />
+                    <div className="size-3 rounded-full bg-red-500/80 hover:bg-red-400 transition-colors" />
+                    <div className="size-3 rounded-full bg-yellow-500/80 hover:bg-yellow-400 transition-colors" />
+                    <div className="size-3 rounded-full bg-green-500/80 hover:bg-green-400 transition-colors" />
                 </div>
                 <div className="text-[10px] text-gray-400 uppercase tracking-widest flex items-center gap-1.5 font-bold">
                     <Terminal size={12} className="text-purple-400" /> CLI Terminal v1.0.4
                 </div>
                 <div className="flex items-center gap-2 select-none">
-                    <span className="flex h-1.5 w-1.5 relative">
+                    <span className="flex size-1.5 relative">
                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
-                        <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-purple-500"></span>
+                        <span className="relative inline-flex rounded-full size-1.5 bg-purple-500"></span>
                     </span>
                     <span className="text-[9px] text-purple-400 font-bold tracking-wider font-mono">ONLINE</span>
                 </div>
@@ -665,17 +665,17 @@ export const FounderPage = () => {
                 {/* Purple Blob */}
                 <motion.div 
                     style={{ y: blob1Y, scale: blob1Scale }}
-                    className="absolute top-[10%] left-[-10%] w-[30vw] h-[30vw] min-w-[300px] min-h-[300px] rounded-full bg-purple-500/10 blur-[120px]"
+                    className="absolute top-[10%] left-[-10%] size-[30vw] min-w-[300px] min-h-[300px] rounded-full bg-purple-500/10 blur-[120px]"
                 />
                 {/* Sky Blue Blob */}
                 <motion.div 
                     style={{ y: blob2Y, scale: blob2Scale }}
-                    className="absolute top-[40%] right-[-10%] w-[35vw] h-[35vw] min-w-[350px] min-h-[350px] rounded-full bg-sky-500/10 blur-[130px]"
+                    className="absolute top-[40%] right-[-10%] size-[35vw] min-w-[350px] min-h-[350px] rounded-full bg-sky-500/10 blur-[130px]"
                 />
                 {/* Pink/Magenta Blob */}
                 <motion.div 
                     style={{ y: blob3Y }}
-                    className="absolute top-[75%] left-[15%] w-[25vw] h-[25vw] min-w-[250px] min-h-[250px] rounded-full bg-pink-500/5 blur-[100px]"
+                    className="absolute top-[75%] left-[15%] size-[25vw] min-w-[250px] min-h-[250px] rounded-full bg-pink-500/5 blur-[100px]"
                 />
             </div>
 
@@ -748,7 +748,7 @@ export const FounderPage = () => {
                                             Founder & Architect
                                         </span>
                                         <div className="flex items-center gap-2">
-                                            <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" title="System Online" />
+                                            <span className="size-2 rounded-full bg-green-500 animate-pulse" title="System Online" />
                                             <span className="text-[9px] text-green-400 font-mono tracking-wider font-bold">SYSTEM ONLINE</span>
                                         </div>
                                     </div>
@@ -954,7 +954,7 @@ export const FounderPage = () => {
                                         <div className="absolute top-0 left-0 w-1.5 h-full bg-white/5 group-hover:bg-gradient-to-b group-hover:from-purple-400 group-hover:to-sky-400 transition-all duration-500" />
                                         
                                         {/* Ambient Background Glow */}
-                                        <div className="absolute -right-20 -top-20 w-64 h-64 bg-purple-500/0 group-hover:bg-purple-500/5 rounded-full blur-3xl transition-all duration-700 pointer-events-none" />
+                                        <div className="absolute -right-20 -top-20 size-64 bg-purple-500/0 group-hover:bg-purple-500/5 rounded-full blur-3xl transition-all duration-700 pointer-events-none" />
 
                                         {/* Metadata / Left Column */}
                                         <div className="md:w-48 shrink-0 flex flex-row md:flex-col items-center md:items-start justify-start gap-3 md:gap-2 md:space-y-4 font-mono select-none">
@@ -1035,7 +1035,7 @@ export const FounderPage = () => {
                             initial="initial"
                             className="p-6 md:p-12 rounded-[2rem] bg-white/[0.02] border relative overflow-hidden w-full"
                         >
-                            <div className="absolute top-0 right-0 w-96 h-96 bg-sky-500/5 rounded-full blur-[100px] pointer-events-none group-hover:bg-sky-500/10 transition-colors duration-700" />
+                            <div className="absolute top-0 right-0 size-96 bg-sky-500/5 rounded-full blur-[100px] pointer-events-none group-hover:bg-sky-500/10 transition-colors duration-700" />
                             <div className="relative z-10 space-y-6">
                                 <h3 className="text-2xl font-bold text-white flex items-center gap-3">
                                     <Sparkles className="text-sky-400" /> The Struggle & The Shift
@@ -1075,7 +1075,7 @@ export const FounderPage = () => {
                             initial="initial"
                             className="p-6 md:p-12 rounded-[2rem] bg-white/[0.02] border relative overflow-hidden w-full"
                         >
-                            <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-500/5 rounded-full blur-[100px] pointer-events-none group-hover:bg-purple-500/10 transition-colors duration-700" />
+                            <div className="absolute bottom-0 left-0 size-96 bg-purple-500/5 rounded-full blur-[100px] pointer-events-none group-hover:bg-purple-500/10 transition-colors duration-700" />
                             <div className="relative z-10 space-y-6">
                                 <h3 className="text-2xl font-bold text-white flex items-center gap-3">
                                     <Award className="text-purple-400" /> The Hackathon Heartbreak
@@ -1249,7 +1249,7 @@ export const FounderPage = () => {
                                     initial="initial"
                                     className="p-8 rounded-[2rem] border overflow-hidden relative text-left h-full w-full"
                                 >
-                                    <div className="absolute -right-16 -top-16 w-36 h-36 bg-purple-500/5 rounded-full blur-2xl group-hover:bg-purple-500/10 transition-colors" />
+                                    <div className="absolute -right-16 -top-16 size-36 bg-purple-500/5 rounded-full blur-2xl group-hover:bg-purple-500/10 transition-colors" />
                                     <div className="p-4 rounded-xl bg-white/5 w-fit mb-6 text-white group-hover:bg-purple-500/10 transition-colors">
                                         {belief.icon}
                                     </div>
@@ -1410,7 +1410,7 @@ export const FounderPage = () => {
                                     key={index}
                                     className="rounded-2xl border border-white/5 bg-white/[0.01] backdrop-blur-md overflow-hidden hover:border-purple-500/20 transition-colors"
                                 >
-                                    <button
+                                    <button type="button"
                                         onClick={() => setOpenFaqIndex(isOpen ? null : index)}
                                         className="w-full px-6 py-5 flex items-center justify-between text-left focus:outline-none"
                                     >
@@ -1501,7 +1501,7 @@ export const FounderPage = () => {
                             className="max-w-full max-h-full object-contain rounded-2xl shadow-[0_0_50px_rgba(0,0,0,0.5)] border border-white/10"
                             onClick={(e) => e.stopPropagation()}
                         />
-                        <button 
+                        <button type="button" 
                             className="absolute top-6 right-6 text-white/50 hover:text-white bg-black/20 hover:bg-white/10 backdrop-blur-md rounded-full p-3 transition-all"
                             onClick={() => setSelectedImage(null)}
                         >
@@ -1553,7 +1553,7 @@ export const FounderPage = () => {
                                         <span className="px-3 py-1 rounded-full border border-purple-500/30 bg-purple-500/10 text-[9px] uppercase tracking-widest font-extrabold text-purple-300">
                                             Verified System Architect
                                         </span>
-                                        <button 
+                                        <button type="button" 
                                             className="text-white/50 hover:text-white bg-white/5 hover:bg-white/10 backdrop-blur-md rounded-full p-2 transition-all border border-white/10"
                                             onClick={() => setIsFounderModalOpen(false)}
                                         >
@@ -1638,7 +1638,7 @@ export const FounderPage = () => {
                                             </h3>
                                         </div>
                                     </div>
-                                    <button 
+                                    <button type="button" 
                                         className="text-white/50 hover:text-white bg-white/5 hover:bg-white/10 backdrop-blur-md rounded-full p-2.5 transition-all border border-white/10"
                                         onClick={() => setSelectedSkill(null)}
                                     >

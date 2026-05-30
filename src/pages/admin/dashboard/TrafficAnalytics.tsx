@@ -64,7 +64,7 @@ export const TrafficAnalytics = () => {
             Traffic <span className="text-blue-400">Intelligence</span>
           </h1>
         </div>
-        <button 
+        <button type="button" 
           onClick={() => fetchData(true)}
           disabled={loading}
           className="flex items-center gap-2 px-4 py-2 bg-surface border border-white/10 rounded-xl text-sm font-bold text-text-muted hover:text-white hover:border-primary/50 transition-all active:scale-95 disabled:opacity-50"
@@ -165,7 +165,7 @@ export const TrafficAnalytics = () => {
              {ga4Data?.topPages?.map((page: any, idx: number) => (
                  <div key={idx} className="flex items-center justify-between p-4 bg-white/5 rounded-xl border border-white/5 hover:border-primary/50 transition-all hover:bg-white/10 group">
                     <div className="flex items-center gap-3 max-w-[70%]">
-                        <div className="w-8 h-8 rounded-lg bg-surface flex items-center justify-center text-xs font-bold text-text-muted group-hover:text-primary transition-colors">
+                        <div className="size-8 rounded-lg bg-surface flex items-center justify-center text-xs font-bold text-text-muted group-hover:text-primary transition-colors">
                             {idx + 1}
                         </div>
                         <span className="text-sm font-medium text-text-main truncate" title={page.path}>{page.path}</span>

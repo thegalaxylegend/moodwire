@@ -77,7 +77,7 @@ export const SearchAnalytics = () => {
              Search <span className="text-amber-500">Intelligence</span>
           </h1>
         </div>
-        <button 
+        <button type="button" 
           onClick={() => fetchData(true)}
           disabled={loading}
           className="flex items-center gap-2 px-4 py-2 bg-surface border border-white/10 rounded-xl text-sm font-bold text-text-muted hover:text-white hover:border-primary/50 transition-all active:scale-95 disabled:opacity-50"
@@ -235,7 +235,7 @@ export const SearchAnalytics = () => {
 
           {filteredPages.length > 10 && (
               <div className="p-4 border-t border-white/5">
-                  <button 
+                  <button type="button" 
                     onClick={() => setShowFullTable(!showFullTable)}
                     className="w-full py-3 text-xs font-bold text-text-muted hover:text-primary transition-colors flex items-center justify-center gap-2"
                   >

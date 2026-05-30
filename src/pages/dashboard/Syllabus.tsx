@@ -246,11 +246,11 @@ export const Syllabus = () => {
             <div className="space-y-1 mb-4">
                 {topic.subtopics.slice(0, 3).map((sub, i) => (
                     <div key={i} className="text-xs text-text-muted flex items-center gap-2">
-                        <div className="w-1 h-1 rounded-full bg-text-muted" /> {sub}
+                        <div className="size-1 rounded-full bg-text-muted" /> {sub}
                     </div>
                 ))}
                 {topic.subtopics.length > 3 && (
-                    <button
+                    <button type="button"
                         onClick={() => setSelectedTopic(topic)}
                         className="text-xs text-primary hover:underline mt-2"
                     >
@@ -284,7 +284,7 @@ export const Syllabus = () => {
 
                 <div className="flex items-center gap-2">
                     <AuthGate mode="modal">
-                        <button
+                        <button type="button"
                             onClick={async (e) => {
                                 e.stopPropagation();
                                 const { generateCheatSheetContent, downloadCheatSheetPDF } = await import('../../services/cheatSheetService');
@@ -299,7 +299,7 @@ export const Syllabus = () => {
                     </AuthGate>
                     {topic.resources ? (
                         <div className="flex gap-2">
-                            <button
+                            <button type="button"
                                 onClick={(e) => {
                                     e.stopPropagation();
                                     // Create a clean slug from topic name only
@@ -320,7 +320,7 @@ export const Syllabus = () => {
                         </div>
                     ) : (
                         <AuthGate mode="modal">
-                            <button
+                            <button type="button"
                                 onClick={() => generateResources(topic)}
                                 className="text-xs text-primary hover:underline flex items-center gap-1"
                             >
@@ -332,7 +332,7 @@ export const Syllabus = () => {
                     <div className="flex-1" />
 
                     <AuthGate mode="modal">
-                        <button
+                        <button type="button"
                             onClick={() => navigate(`/dashboard/mock?topic=${encodeURIComponent(topic.topic)}`)}
                             className="px-3 py-1 bg-primary/10 text-primary text-xs font-bold rounded oxygen-button flex items-center gap-1"
                         >
@@ -406,7 +406,7 @@ export const Syllabus = () => {
                 <div className="space-y-1">
                     <div className="flex items-center gap-2">
                         <h1 className="text-2xl sm:text-3xl font-heading font-bold text-text-main">Syllabus Tracker</h1>
-                        <button
+                        <button type="button"
                             onClick={() => loadSyllabus(true)}
                             className="p-1.5 hover:bg-white/10 rounded-full transition-colors text-text-muted hover:text-primary"
                             title="Force Refresh Syllabus"
@@ -418,14 +418,14 @@ export const Syllabus = () => {
                     <p className="text-text-muted text-sm">Comprehensive curriculum for <strong>{displayUser?.targetExam}</strong> ({displayUser?.userClass})</p>
                 </div>
                 <div className="flex w-full sm:w-auto gap-2">
-                    <button
+                    <button type="button"
                         onClick={() => navigate('/dashboard/concept-map')}
                         className="flex-1 sm:flex-none flex items-center justify-center gap-2 px-4 py-2.5 bg-[#1a1b23] border border-white/10 hover:bg-white/10 text-white rounded-lg transition-all shadow-xl text-xs font-bold"
                     >
                         <Network size={16} className="text-purple-400" />
                         Concept Map
                     </button>
-                    <button
+                    <button type="button"
                         onClick={handleDownloadPDF}
                         disabled={downloadingPdf || loading}
                         className="flex-1 sm:flex-none flex items-center justify-center gap-2 px-4 py-2.5 bg-primary hover:bg-primary/90 text-white rounded-lg transition-all disabled:opacity-50 text-xs font-bold"
@@ -439,7 +439,7 @@ export const Syllabus = () => {
             {loading ? (
                 <div className="flex flex-col items-center justify-center h-[60vh] space-y-4">
                     <Loader2 size={48} className="text-primary animate-spin" />
-                    <h2 className="text-xl font-bold text-text-main">Loading Full Syllabus...</h2>
+                    <h2 className="text-xl font-bold text-text-main">Loading Full Syllabus…</h2>
                     <p className="text-text-muted">Filtering for {displayUser?.targetExam} ({displayUser?.userClass})</p>
                 </div>
             ) : (
@@ -471,7 +471,7 @@ export const Syllabus = () => {
                                             onClick={() => navigate(`/dashboard/syllabus/${subject}`)}
                                             className="p-4 rounded-xl border border-dashed border-border bg-white/5 hover:bg-white/10 hover:border-primary/50 transition-all cursor-pointer flex flex-col items-center justify-center gap-3 group min-h-[200px]"
                                         >
-                                            <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center group-hover:bg-primary/30 transition-colors">
+                                            <div className="size-12 rounded-full bg-primary/20 flex items-center justify-center group-hover:bg-primary/30 transition-colors">
                                                 <BookOpen className="text-primary" size={24} />
                                             </div>
                                             <div className="text-center">
@@ -502,7 +502,7 @@ export const Syllabus = () => {
                                     <span className="text-xs bg-white/10 px-2 py-0.5 rounded">{selectedTopic.examPattern}</span>
                                 </div>
                             </div>
-                            <button onClick={() => setSelectedTopic(null)} className="text-text-muted hover:text-text-main">
+                            <button type="button" onClick={() => setSelectedTopic(null)} className="text-text-muted hover:text-text-main">
                                 <span className="sr-only">Close</span>
                                 ✕
                             </button>
@@ -518,7 +518,7 @@ export const Syllabus = () => {
                         </div>
 
                         <div className="flex justify-end pt-4 border-t border-white/10">
-                            <button
+                            <button type="button"
                                 onClick={() => setSelectedTopic(null)}
                                 className="px-4 py-2 bg-surface hover:bg-white/5 border border-border rounded-lg text-sm transition-colors"
                             >

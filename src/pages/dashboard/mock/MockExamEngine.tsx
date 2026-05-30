@@ -205,7 +205,7 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
         <div className="flex items-center justify-center min-h-screen text-text-muted">
             <div className="text-center space-y-4">
                 <p className="text-lg">Error loading question.</p>
-                <button
+                <button type="button"
                     onClick={() => window.location.reload()}
                     className="px-6 py-2 bg-primary text-white rounded-xl hover:bg-primary/90"
                 >
@@ -277,7 +277,7 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
                             className="overflow-hidden mb-4"
                         >
                             <div className="bg-yellow-500/10 border border-yellow-500/20 p-4 rounded-xl flex items-center gap-4 text-yellow-500 relative">
-                                <div className="w-10 h-10 bg-yellow-500/20 rounded-full flex items-center justify-center shrink-0">
+                                <div className="size-10 bg-yellow-500/20 rounded-full flex items-center justify-center shrink-0">
                                     <Coffee size={20} />
                                 </div>
                                 <div className="flex-1">
@@ -286,7 +286,7 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
                                     </h5>
                                     <p className="text-xs opacity-80 mt-1">{fatigueNotice.reason}</p>
                                 </div>
-                                <button
+                                <button type="button"
                                     onClick={() => setFatigueNotice({ fatigued: false })}
                                     className="text-xs font-bold px-3 py-1 bg-yellow-500/20 hover:bg-yellow-500/30 rounded-lg transition-colors"
                                 >
@@ -339,14 +339,14 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
                         <div className="flex items-center gap-2">
                             {step === 'exam' ? (
                                 <>
-                                    <button
+                                    <button type="button"
                                         onClick={handlePause}
                                         className="p-2 rounded-lg bg-surface border border-border hover:bg-white/5 text-text-muted hover:text-text-main transition-colors"
                                         title="Pause"
                                     >
                                         <PauseCircle size={18} />
                                     </button>
-                                    <button
+                                    <button type="button"
                                         onClick={() => handleSubmitExam(false)}
                                         className="px-3 py-1.5 rounded-lg bg-red-500/10 border border-red-500/20 hover:bg-red-500/20 text-xs font-semibold text-red-500 hover:text-red-400 transition-colors"
                                     >
@@ -354,7 +354,7 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
                                     </button>
                                 </>
                             ) : (
-                                <button
+                                <button type="button"
                                     onClick={() => setStep('result')}
                                     className="p-2 rounded-lg bg-surface border border-border hover:bg-white/5 text-text-main transition-colors"
                                     title="Back to Result"
@@ -429,7 +429,7 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
                                     : answers[currentQ] === idx;
 
                                 return (
-                                    <button
+                                    <button type="button"
                                         key={idx}
                                         onClick={() => handleMCQAnswer(idx)}
                                         disabled={step === 'review'}
@@ -457,7 +457,7 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
                                     <Brain size={18} /> Explanation
                                 </div>
                                 <div className="flex items-center gap-2">
-                                    <button
+                                    <button type="button"
                                         onClick={async () => {
                                             if (isSpeaking) {
                                                 ttsManager.stop();
@@ -486,7 +486,7 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
                                         <Volume2 size={14} className={isSpeaking ? 'animate-pulse' : ''} />
                                         {isSpeaking ? 'Stop' : 'Listen'}
                                     </button>
-                                    <button
+                                    <button type="button"
                                         onClick={() => handleAskAI(q)}
                                         className="text-xs px-3 py-1 bg-primary/10 hover:bg-primary/20 text-primary border border-primary/20 rounded-lg flex items-center gap-1 transition-colors"
                                     >
@@ -544,7 +544,7 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
                     </div>
 
                     <div className="flex justify-between items-center w-full">
-                        <button
+                        <button type="button"
                             onClick={handlePrevQ}
                             disabled={currentQ === 0}
                             className="px-6 py-2 bg-surface border border-border rounded-lg disabled:opacity-50 hover:bg-white/5"
@@ -557,7 +557,7 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
                             </span>
                         </div>
                         {currentQ < questions.length - 1 ? (
-                            <button
+                            <button type="button"
                                 onClick={handleNextQ}
                                 className="px-6 py-2 bg-primary text-white rounded-lg hover:bg-primary/90"
                             >
@@ -565,14 +565,14 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
                             </button>
                         ) : (
                             step === 'exam' ? (
-                                <button
+                                <button type="button"
                                     onClick={() => handleSubmitExam(false)}
                                     className="px-8 py-2 bg-green-500 text-white font-bold rounded-lg shadow-lg hover:bg-green-600 animate-pulse"
                                 >
                                     Submit Exam
                                 </button>
                             ) : (
-                                <button
+                                <button type="button"
                                     onClick={() => setStep('result')}
                                     className="px-8 py-2 bg-surface border border-border rounded-lg hover:bg-white/5"
                                 >
@@ -608,7 +608,7 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
                                     </h3>
                                     <div className="flex items-center gap-2">
                                         {isVerifying && <Loader2 size={18} className="animate-spin text-secondary" />}
-                                        <button
+                                        <button type="button"
                                             onClick={() => setAiModalOpen(false)}
                                             className="p-2 hover:bg-white/5 rounded-lg text-text-muted transition-colors"
                                         >
@@ -662,7 +662,7 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
                                     {isAiThinking && (
                                         <div className="flex justify-start">
                                             <div className="bg-surface border border-border px-4 py-3 rounded-2xl rounded-tl-none flex items-center gap-2 text-text-muted text-sm">
-                                                <Loader2 size={14} className="animate-spin" /> Thinking...
+                                                <Loader2 size={14} className="animate-spin" /> Thinking…
                                             </div>
                                         </div>
                                     )}
@@ -678,7 +678,7 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
                                             placeholder="Ask a follow-up question…"
                                             className="flex-1 bg-black/20 border border-white/10 rounded-xl px-4 py-3 text-sm text-text-main focus:outline-none focus:border-primary/50"
                                         />
-                                        <button
+                                        <button type="button"
                                             onClick={debouncedSendAiMessage}
                                             disabled={!aiInput.trim() || isAiThinking}
                                             className="p-3 bg-primary text-white rounded-xl hover:bg-primary/90 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"

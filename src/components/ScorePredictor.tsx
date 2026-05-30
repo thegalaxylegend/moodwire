@@ -28,7 +28,7 @@ export const ScorePredictor = () => {
     return (
         <div className="relative overflow-hidden bg-black/60 backdrop-blur-xl border border-white/10 rounded-3xl p-8 shadow-2xl">
             {/* Background Glow */}
-            <div className="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
+            <div className="absolute top-0 right-0 -mr-20 -mt-20 size-64 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
 
             <div className="flex flex-col lg:flex-row items-center gap-12 relative z-10">
                 {/* Left Side: Inputs */}

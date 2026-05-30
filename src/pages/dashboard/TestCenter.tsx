@@ -109,7 +109,7 @@ export const TestCenter = () => {
                             </p>
                         </div>
 
-                        <button
+                        <button type="button"
                             onClick={() => setAlertModal(prev => ({ ...prev, open: false }))}
                             className="w-full py-4 bg-primary text-white font-bold rounded-2xl shadow-xl shadow-primary/20 hover:scale-[1.02] active:scale-[0.98] transition-all"
                         >
@@ -126,7 +126,7 @@ export const TestCenter = () => {
             mode="modal"
             fallback={
                 <div className="flex flex-col items-center justify-center min-h-[60vh] text-center space-y-6">
-                    <div className="w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center animate-pulse">
+                    <div className="size-20 bg-primary/20 rounded-full flex items-center justify-center animate-pulse">
                         <Brain size={40} className="text-primary" />
                     </div>
                     <div>
@@ -163,7 +163,7 @@ export const TestCenter = () => {
                             <div>
                                 <label className="block text-sm font-medium text-text-muted mb-2">Mode</label>
                                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                                    <button
+                                    <button type="button"
                                         onClick={() => setMode('Quick_Test')}
                                         className={`p-3 rounded-lg border text-sm font-medium transition-all ${mode === 'Quick_Test' ? 'bg-primary/20 border-primary text-primary' : 'bg-surface border-border text-text-muted hover:bg-white/5'
                                             }`}
@@ -171,7 +171,7 @@ export const TestCenter = () => {
                                         <div className="flex items-center justify-center gap-2 mb-1"><Zap size={16} /> Quick Test</div>
                                         <div className="text-[10px] opacity-70">10 Questions • 30 Mins</div>
                                     </button>
-                                    <button
+                                    <button type="button"
                                         onClick={() => setMode('Learned_Chapters')}
                                         className={`p-3 rounded-lg border text-sm font-medium transition-all ${mode === 'Learned_Chapters' ? 'bg-primary/20 border-primary text-primary' : 'bg-surface border-border text-text-muted hover:bg-white/5'
                                             }`}
@@ -179,7 +179,7 @@ export const TestCenter = () => {
                                         <div className="flex items-center justify-center gap-2 mb-1"><Brain size={16} /> Studied Focus</div>
                                         <div className="text-[10px] opacity-70">Only studied topics</div>
                                     </button>
-                                    <button
+                                    <button type="button"
                                         onClick={() => {
                                             setMode('Full_Mock');
                                             setAlertModal({
@@ -210,13 +210,13 @@ export const TestCenter = () => {
                                         </div>
                                     ) : user?.targetExam?.toUpperCase().includes('JEE') ? (
                                         <>
-                                            <button
+                                            <button type="button"
                                                 onClick={() => setDifficulty('Mains')}
                                                 className={`p-3 rounded-lg border text-sm font-medium transition-all ${difficulty === 'Mains' ? 'bg-green-500/10 border-green-500 text-green-400' : 'bg-surface border-border text-text-muted hover:bg-white/5'}`}
                                             >
                                                 JEE Mains
                                             </button>
-                                            <button
+                                            <button type="button"
                                                 onClick={() => setDifficulty('Advanced')}
                                                 className={`p-3 rounded-lg border text-sm font-medium transition-all ${difficulty === 'Advanced' ? 'bg-red-500/10 border-red-500 text-red-400' : 'bg-surface border-border text-text-muted hover:bg-white/5'}`}
                                             >
@@ -225,13 +225,13 @@ export const TestCenter = () => {
                                         </>
                                     ) : (
                                         <>
-                                            <button
+                                            <button type="button"
                                                 onClick={() => setDifficulty('Exam_Level')}
                                                 className={`p-3 rounded-lg border text-sm font-medium transition-all ${difficulty === 'Exam_Level' ? 'bg-green-500/10 border-green-500 text-green-400' : 'bg-surface border-border text-text-muted hover:bg-white/5'}`}
                                             >
                                                 {user?.targetExam?.toUpperCase().includes('NEET') ? 'NEET Standard' : 'Standard'}
                                             </button>
-                                            <button
+                                            <button type="button"
                                                 onClick={() => setDifficulty('Slightly_Harder')}
                                                 className={`p-3 rounded-lg border text-sm font-medium transition-all ${difficulty === 'Slightly_Harder' ? 'bg-red-500/10 border-red-500 text-red-400' : 'bg-surface border-border text-text-muted hover:bg-white/5'}`}
                                             >
@@ -248,7 +248,7 @@ export const TestCenter = () => {
                                         <AlertTriangle size={18} /> Diagnostic Test Missing
                                     </div>
                                     <p className="text-xs text-text-muted">You must complete a diagnostic test to unlock specialized mock simulations.</p>
-                                    <button
+                                    <button type="button"
                                         onClick={() => navigate('/dashboard/diagnostic')}
                                         className="w-full py-2 bg-orange-500 text-white rounded-lg text-xs font-bold hover:bg-orange-600 transition-all"
                                     >
@@ -263,7 +263,7 @@ export const TestCenter = () => {
                                 </div>
                             )}
 
-                            <button
+                            <button type="button"
                                 onClick={handleStartTest}
                                 disabled={isDiagnosticDone === false}
                                 className={`w-full py-4 rounded-xl font-bold shadow-lg transition-all flex items-center justify-center gap-2 ${isDiagnosticDone === false
@@ -283,7 +283,7 @@ export const TestCenter = () => {
                             <h2 className="text-xl font-bold text-text-main mb-4">Exam Isolation Rules</h2>
                             <ul className="space-y-4 text-sm text-text-muted">
                                 <li className="flex gap-3">
-                                    <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0"></span>
+                                    <span className="size-1.5 rounded-full bg-primary mt-2 shrink-0"></span>
                                     <span>
                                         <strong className="text-text-main">
                                             {['Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '')
@@ -295,7 +295,7 @@ export const TestCenter = () => {
                                     </span>
                                 </li>
                                 <li className="flex gap-3">
-                                    <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0"></span>
+                                    <span className="size-1.5 rounded-full bg-primary mt-2 shrink-0"></span>
                                     <span>
                                         <strong className="text-text-main">Pattern Adherence:</strong> {['Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '')
                                             ? 'Tests include school-style MCQs, Fill in the Blanks, and True/False questions.'
@@ -307,7 +307,7 @@ export const TestCenter = () => {
 
                         {/* Unified Features Grid */}
                         <div className="grid grid-cols-2 gap-4">
-                            <button
+                            <button type="button"
                                 onClick={() => navigate('/dashboard/peer-benchmarking')}
                                 className="p-5 rounded-xl border border-border bg-surface oxygen-card text-left flex items-center gap-4 group hover:bg-white/5 transition-all"
                             >
@@ -318,7 +318,7 @@ export const TestCenter = () => {
                                 </div>
                             </button>
 
-                            <button
+                            <button type="button"
                                 onClick={() => navigate('/dashboard/mock?history=true')}
                                 className="p-5 rounded-xl border border-border bg-surface oxygen-card text-left flex items-center gap-4 group hover:bg-white/5 transition-all"
                             >

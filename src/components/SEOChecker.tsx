@@ -2,20 +2,19 @@ import { useEffect, useState, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 
 export const SEOChecker = () => {
-    // Only run in development
-    if (import.meta.env.PROD) return null;
-
-    const location = useLocation();
+    const loc = useLocation();
     const [warnings, setWarnings] = useState<string[]>([]);
     const [isVisible, setIsVisible] = useState(true);
     const checkTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
     // Clear warnings on navigation
     useEffect(() => {
+        if (import.meta.env.PROD) return;
         setWarnings([]);
-    }, [location]);
+    }, [loc]);
 
     useEffect(() => {
+        if (import.meta.env.PROD) return;
         const verifySEO = () => {
             // Debounce checks to avoid rapid flickering
             if (checkTimeoutRef.current) {
@@ -77,8 +76,9 @@ export const SEOChecker = () => {
             if (checkTimeoutRef.current) clearTimeout(checkTimeoutRef.current);
             observer.disconnect();
         };
-    }, [location]); // Re-bind observer on location change just in case
+    }, [loc]); // Re-bind observer on location change just in case
 
+    if (import.meta.env.PROD) return null;
     if (warnings.length === 0 || !isVisible) return null;
 
     return (
@@ -87,7 +87,7 @@ export const SEOChecker = () => {
                 <h3 className="font-bold text-sm flex items-center gap-2">
                     ⚠️ SEO Issues Found
                 </h3>
-                <button
+                <button type="button"
                     onClick={() => setIsVisible(false)}
                     className="text-xs hover:bg-red-800 p-1 rounded"
                 >

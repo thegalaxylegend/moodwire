@@ -48,8 +48,8 @@ const DiagnosticPopup = ({ onDismiss, onStart }: { onDismiss: () => void; onStar
                 className="bg-surface border border-primary/20 p-8 rounded-2xl max-w-md w-full shadow-2xl relative oxygen-card"
                 onClick={e => e.stopPropagation()}
             >
-                <div className="absolute -top-10 left-1/2 -translate-x-1/2 w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center border-4 border-background">
-                    <div className="w-14 h-14 bg-primary rounded-full flex items-center justify-center">
+                <div className="absolute -top-10 left-1/2 -translate-x-1/2 size-20 bg-primary/20 rounded-full flex items-center justify-center border-4 border-background">
+                    <div className="size-14 bg-primary rounded-full flex items-center justify-center">
                         <TrendingUp className="text-white" size={32} />
                     </div>
                 </div>
@@ -61,13 +61,13 @@ const DiagnosticPopup = ({ onDismiss, onStart }: { onDismiss: () => void; onStar
                     </p>
 
                     <div className="grid grid-cols-2 gap-3 pt-4">
-                        <button
+                        <button type="button"
                             onClick={onDismiss}
                             className="px-4 py-3 rounded-xl border border-border text-text-muted hover:bg-white/5 font-medium transition-all"
                         >
                             Not Now
                         </button>
-                        <button
+                        <button type="button"
                             onClick={onStart}
                             className="px-4 py-3 rounded-xl bg-primary text-white font-bold hover:bg-primary/90 shadow-lg shadow-primary/25 transition-all"
                         >
@@ -225,6 +225,7 @@ export const Overview = () => {
         }
         
         // --- PHASE B: PREDICTIVE PRE-FETCH ---
+        let timerId: ReturnType<typeof setTimeout> | undefined;
         if (user && !user.isGuest && authResolved) {
              if ('requestIdleCallback' in window) {
                 (window as any).requestIdleCallback(() => {
@@ -236,7 +237,7 @@ export const Overview = () => {
                     );
                 });
             } else {
-                setTimeout(() => {
+                timerId = setTimeout(() => {
                     mockPrefetchService.prefetchQuickTest(
                         user.id, 
                         user.targetExam || 'General', 
@@ -246,6 +247,9 @@ export const Overview = () => {
                 }, 3000);
             }
         }
+        return () => {
+            if (timerId !== undefined) clearTimeout(timerId);
+        };
     }, [user, refreshMissions, authResolved]);
 
     const handleMissionAction = (mission: DailyMission) => {
@@ -822,7 +826,7 @@ export const Overview = () => {
                     </div>
                 </div>
                 {user && !user.isGuest && (
-                    <button 
+                    <button type="button" 
                         onClick={() => {
                             const shareUrl = `${window.location.origin}/report/${user.id}`;
                             navigator.clipboard.writeText(shareUrl);
@@ -935,7 +939,7 @@ export const Overview = () => {
                                 mode="modal"
                                 fallback={
                                     <div className="glass-card oxygen-card p-10 flex flex-col items-center justify-center text-center space-y-6">
-                                        <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center">
+                                        <div className="size-16 bg-primary/20 rounded-full flex items-center justify-center">
                                             <Brain className="text-primary" size={32} />
                                         </div>
                                         <div>
@@ -971,7 +975,7 @@ export const Overview = () => {
                                         <RefreshCw size={12} className="text-slate-500" />
                                     </div>
                                     <div className="flex items-center gap-3 mt-3">
-                                        <div className="relative w-10 h-10 shrink-0">
+                                        <div className="relative size-10 shrink-0">
                                             <svg className="w-full h-full transform -rotate-90">
                                                 <circle cx="20" cy="20" r="16" stroke="currentColor" strokeWidth="2.5" fill="transparent" className="text-white/[0.04]" />
                                                 <circle cx="20" cy="20" r="16" stroke="currentColor" strokeWidth="3" fill="transparent" strokeDasharray={2 * Math.PI * 16} strokeDashoffset={2 * Math.PI * 16 - (progress / 100) * (2 * Math.PI * 16)} strokeLinecap="round" className="text-sky-400 drop-shadow-[0_0_4px_rgba(56,189,248,0.5)] transition-all duration-1000" />
@@ -996,7 +1000,7 @@ export const Overview = () => {
                                         <Calendar size={12} className="text-slate-500" />
                                     </div>
                                     <div className="flex items-center gap-3 mt-3">
-                                        <div className="w-9 h-9 rounded-xl bg-violet-500/10 border border-violet-500/20 flex items-center justify-center shrink-0">
+                                        <div className="size-9 rounded-xl bg-violet-500/10 border border-violet-500/20 flex items-center justify-center shrink-0">
                                             <Clock size={16} className="text-violet-400" />
                                         </div>
                                         <div className="min-w-0">
@@ -1018,7 +1022,7 @@ export const Overview = () => {
                                         <span className="bg-red-500/20 text-red-500 border border-red-500/40 px-1 py-0.2 rounded text-[7px] font-black uppercase animate-pulse">Live</span>
                                     </div>
                                     <div className="flex items-center gap-3 mt-3">
-                                        <div className="w-9 h-9 rounded-xl bg-red-500/10 border border-red-500/20 flex items-center justify-center shrink-0">
+                                        <div className="size-9 rounded-xl bg-red-500/10 border border-red-500/20 flex items-center justify-center shrink-0">
                                             <Swords size={16} className="text-red-400" />
                                         </div>
                                         <div className="min-w-0">
@@ -1041,7 +1045,7 @@ export const Overview = () => {
                                         <BookOpen size={12} className="text-purple-400" />
                                     </div>
                                     <div className="flex items-center gap-3 mt-3">
-                                        <div className="w-9 h-9 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center shrink-0">
+                                        <div className="size-9 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center shrink-0">
                                             <Brain size={16} className="text-purple-400" />
                                         </div>
                                         <div className="min-w-0">
@@ -1066,7 +1070,7 @@ export const Overview = () => {
                                     </div>
                                     <p className="text-sm text-text-muted mt-2 w-2/3">Challenge friends or random opponents in real-time 1v1 battles. Prove your mastery.</p>
                                 </div>
-                                <button onClick={() => navigate('/dashboard/arena')} className="relative z-10 w-max bg-red-500 hover:bg-red-600 text-white font-bold uppercase tracking-widest text-xs flex items-center gap-2 px-4 py-2 rounded-lg transition-all active:scale-95 shadow-lg shadow-red-500/20">
+                                <button type="button" onClick={() => navigate('/dashboard/arena')} className="relative z-10 w-max bg-red-500 hover:bg-red-600 text-white font-bold uppercase tracking-widest text-xs flex items-center gap-2 px-4 py-2 rounded-lg transition-all active:scale-95 shadow-lg shadow-red-500/20">
                                     Enter Matchmaking <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
                                 </button>
                             </div>
@@ -1077,7 +1081,7 @@ export const Overview = () => {
                             <div className="space-y-6">
                                 {/* Coverage Card (Circular progress layout) */}
                                 <div className="glass-card oxygen-card p-6 space-y-4 min-h-[160px] relative overflow-hidden group">
-                                <div className="absolute right-0 top-0 w-24 h-24 bg-sky-500/5 rounded-full blur-2xl pointer-events-none group-hover:bg-sky-500/10 transition-colors" />
+                                <div className="absolute right-0 top-0 size-24 bg-sky-500/5 rounded-full blur-2xl pointer-events-none group-hover:bg-sky-500/10 transition-colors" />
                                 
                                 <div className="flex items-center justify-between">
                                     <h3 className="text-xs font-black text-slate-400 uppercase tracking-wider">Syllabus Coverage</h3>
@@ -1088,7 +1092,7 @@ export const Overview = () => {
                                     <div className="h-16 w-full bg-white/5 animate-pulse rounded-xl" />
                                 ) : (
                                     <div className="flex items-center gap-5">
-                                        <div className="relative w-16 h-16 shrink-0">
+                                        <div className="relative size-16 shrink-0">
                                             <svg className="w-full h-full transform -rotate-90">
                                                 <circle
                                                     cx="32"
@@ -1122,7 +1126,7 @@ export const Overview = () => {
                                             <p className="text-[10px] text-slate-400 font-semibold truncate">{attempts} mocks completed</p>
                                             
                                             {!user?.isGuest && (
-                                                <button
+                                                <button type="button"
                                                     onClick={handleSync}
                                                     disabled={isSyncing}
                                                     className="mt-1 px-2.5 py-1 text-[9px] bg-sky-500/10 hover:bg-sky-500/20 text-sky-400 border border-sky-500/20 rounded-lg transition-all flex items-center gap-1.5 font-bold uppercase tracking-wider active:scale-95"
@@ -1138,7 +1142,7 @@ export const Overview = () => {
 
                             {/* Days Left / Class Card */}
                             <div className="glass-card oxygen-card p-6 space-y-4 min-h-[160px] flex flex-col justify-between relative overflow-hidden group">
-                                <div className="absolute right-0 top-0 w-24 h-24 bg-violet-500/5 rounded-full blur-2xl pointer-events-none group-hover:bg-violet-500/10 transition-colors" />
+                                <div className="absolute right-0 top-0 size-24 bg-violet-500/5 rounded-full blur-2xl pointer-events-none group-hover:bg-violet-500/10 transition-colors" />
                                 
                                 <div className="flex items-center justify-between">
                                     <h3 className="text-xs font-black text-slate-400 uppercase tracking-wider">
@@ -1151,7 +1155,7 @@ export const Overview = () => {
                                     <div className="h-16 w-full bg-white/5 animate-pulse rounded-xl" />
                                 ) : (
                                     <div className="flex items-center gap-5">
-                                        <div className="w-14 h-14 rounded-2xl bg-violet-500/10 border border-violet-500/20 flex items-center justify-center shadow-[inset_0_1px_1px_rgba(255,255,255,0.05)] shrink-0">
+                                        <div className="size-14 rounded-2xl bg-violet-500/10 border border-violet-500/20 flex items-center justify-center shadow-[inset_0_1px_1px_rgba(255,255,255,0.05)] shrink-0">
                                             <Clock size={24} className="text-violet-400 drop-shadow-[0_0_8px_rgba(139,92,246,0.4)]" />
                                         </div>
                                         
@@ -1288,7 +1292,7 @@ export const Overview = () => {
                             {/* Dot indicators */}
                             <div className="flex items-center gap-2 mt-1">
                                 {subjects.map((_, idx) => (
-                                    <button
+                                    <button type="button"
                                         key={idx}
                                         onClick={() => {
                                             setSlideDirection(idx > activeSubjectIdx ? 1 : -1);
@@ -1392,7 +1396,7 @@ export const Overview = () => {
                                     <Play size={14} /> Recommended Videos
                                 </h4>
                                 <div className="flex items-center gap-4">
-                                    <button 
+                                    <button type="button" 
                                         onClick={() => fetchRecommendations(true)}
                                         disabled={isRefreshingVideos}
                                         className="text-xs text-primary flex items-center gap-1 hover:bg-primary/10 px-2 py-1 rounded-md transition-all disabled:opacity-50"
@@ -1474,7 +1478,7 @@ export const Overview = () => {
                                                             <div className="relative aspect-video bg-black/20 shrink-0">
                                                                 <img src={rec.video.thumbnailUrl} alt={rec.video.title} className="w-full h-full object-cover" />
                                                                 <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                                                                    <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center"><Play size={20} className="text-white ml-1" /></div>
+                                                                    <div className="size-12 bg-primary rounded-full flex items-center justify-center"><Play size={20} className="text-white ml-1" /></div>
                                                                 </div>
                                                             </div>
                                                             <div className="p-3">
@@ -1490,7 +1494,7 @@ export const Overview = () => {
                                     {/* Dot indicators */}
                                     <div className="flex items-center gap-2 mt-1">
                                         {recommendedVideos.map((_, idx) => (
-                                            <button
+                                            <button type="button"
                                                 key={idx}
                                                 onClick={() => {
                                                     setVideoSlideDirection(idx > activeVideoIdx ? 1 : -1);
@@ -1516,7 +1520,7 @@ export const Overview = () => {
                                                 <div className="relative aspect-video bg-black/20 shrink-0">
                                                     <img src={rec.video.thumbnailUrl} alt={rec.video.title} className="w-full h-full object-cover" />
                                                     <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                                                        <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center"><Play size={20} className="text-white ml-1" /></div>
+                                                        <div className="size-12 bg-primary rounded-full flex items-center justify-center"><Play size={20} className="text-white ml-1" /></div>
                                                     </div>
                                                 </div>
                                                 <div className="p-3">

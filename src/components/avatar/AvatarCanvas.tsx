@@ -93,30 +93,30 @@ export const AvatarCanvas = ({ emotion }: { emotion: string }) => {
             {/* CAMERA CONTROLS */}
             <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 z-[100] flex items-center gap-3 w-max pointer-events-auto">
                 <div className="flex items-center gap-1 p-0.5 bg-white/5 backdrop-blur-md rounded-full border border-white/10 shadow-lg">
-                    <button
+                    <button type="button"
                         onMouseDown={(e) => { e.stopPropagation(); moveCamera(0.2); }}
-                        className="w-8 h-8 flex items-center justify-center rounded-full text-white hover:bg-white/20 active:scale-95 transition-all cursor-pointer"
+                        className="size-8 flex items-center justify-center rounded-full text-white hover:bg-white/20 active:scale-95 transition-all cursor-pointer"
                     >
                         <ChevronUp size={16} />
                     </button>
-                    <button
+                    <button type="button"
                         onMouseDown={(e) => { e.stopPropagation(); moveCamera(-0.2); }}
-                        className="w-8 h-8 flex items-center justify-center rounded-full text-white hover:bg-white/20 active:scale-95 transition-all cursor-pointer"
+                        className="size-8 flex items-center justify-center rounded-full text-white hover:bg-white/20 active:scale-95 transition-all cursor-pointer"
                     >
                         <ChevronDown size={16} />
                     </button>
                 </div>
 
                 <div className="flex items-center gap-1 p-0.5 bg-white/5 backdrop-blur-md rounded-full border border-white/10 shadow-lg">
-                    <button
+                    <button type="button"
                         onMouseDown={(e) => { e.stopPropagation(); zoomCamera(-0.5); }}
-                        className="w-8 h-8 flex items-center justify-center rounded-full text-white hover:bg-white/20 active:scale-95 transition-all cursor-pointer"
+                        className="size-8 flex items-center justify-center rounded-full text-white hover:bg-white/20 active:scale-95 transition-all cursor-pointer"
                     >
                         <Plus size={16} strokeWidth={3} />
                     </button>
-                    <button
+                    <button type="button"
                         onMouseDown={(e) => { e.stopPropagation(); zoomCamera(0.5); }}
-                        className="w-8 h-8 flex items-center justify-center rounded-full text-white hover:bg-white/20 active:scale-95 transition-all cursor-pointer"
+                        className="size-8 flex items-center justify-center rounded-full text-white hover:bg-white/20 active:scale-95 transition-all cursor-pointer"
                     >
                         <Minus size={16} strokeWidth={3} />
                     </button>

@@ -38,9 +38,9 @@ export const InputBar: React.FC<InputBarProps> = ({
                     <img 
                         src={selectedImage} 
                         alt="Preview" 
-                        className="h-20 w-20 object-cover rounded-2xl border border-white/20 shadow-2xl relative z-10" 
+                        className="size-20 object-cover rounded-2xl border border-white/20 shadow-2xl relative z-10" 
                     />
-                    <button 
+                    <button type="button" 
                         onClick={() => setSelectedImage(null)}
                         className="absolute -top-2 -right-2 p-1.5 bg-red-500 text-white rounded-full shadow-xl hover:bg-red-600 transition-all hover:scale-110 z-20"
                     >
@@ -70,7 +70,7 @@ export const InputBar: React.FC<InputBarProps> = ({
                     <button
                         type="button"
                         onClick={() => fileInputRef.current?.click()}
-                        className="w-12 h-12 flex items-center justify-center text-white/30 hover:text-[#cdbdff] hover:bg-white/5 rounded-2xl transition-all shrink-0"
+                        className="size-12 flex items-center justify-center text-white/30 hover:text-[#cdbdff] hover:bg-white/5 rounded-2xl transition-all shrink-0"
                         title="Attach image or PDF"
                     >
                         <Paperclip size={20} className="-rotate-45" />

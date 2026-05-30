@@ -44,7 +44,7 @@ export const AdminLayout = () => {
             >
                 <div className="p-6 border-b border-white/5 flex items-center justify-between">
                     <div className="flex items-center gap-3">
-                        <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-red-500 to-orange-600 flex items-center justify-center shadow-lg shadow-red-500/20">
+                        <div className="size-10 rounded-xl bg-gradient-to-br from-red-500 to-orange-600 flex items-center justify-center shadow-lg shadow-red-500/20">
                             <ShieldCheck className="text-white" size={24} />
                         </div>
                         <div>
@@ -54,7 +54,7 @@ export const AdminLayout = () => {
                             <p className="text-[10px] text-text-muted uppercase tracking-widest font-bold">System Control</p>
                         </div>
                     </div>
-                    <button 
+                    <button type="button" 
                         onClick={() => setIsSidebarOpen(false)}
                         className="md:hidden p-2 hover:bg-white/5 rounded-lg transition-colors text-text-muted"
                     >
@@ -93,12 +93,12 @@ export const AdminLayout = () => {
                 {/* Mobile Header */}
                 <header className="md:hidden flex items-center justify-between p-4 border-b border-white/5 bg-background/50 backdrop-blur-md sticky top-0 z-50">
                     <div className="flex items-center gap-3">
-                        <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-red-500 to-orange-600 flex items-center justify-center">
+                        <div className="size-8 rounded-lg bg-gradient-to-br from-red-500 to-orange-600 flex items-center justify-center">
                             <ShieldCheck className="text-white" size={18} />
                         </div>
                         <span className="font-bold text-lg tracking-tight">Admin <span className="text-red-500">Panel</span></span>
                     </div>
-                    <button 
+                    <button type="button" 
                         onClick={() => setIsSidebarOpen(true)}
                         className="p-2 rounded-lg bg-surface border border-white/5 text-text-muted hover:text-white transition-colors"
                     >
@@ -107,7 +107,7 @@ export const AdminLayout = () => {
                 </header>
 
                 <div className="max-w-7xl mx-auto space-y-8 animate-fade-in p-4 md:p-8 pb-32 md:pb-20 w-full">
-                    <Suspense fallback={<div className="h-96 flex items-center justify-center text-text-muted">Loading Admin Tool...</div>}>
+                    <Suspense fallback={<div className="h-96 flex items-center justify-center text-text-muted">Loading Admin Tool…</div>}>
                         <Outlet />
                     </Suspense>
                 </div>

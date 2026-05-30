@@ -69,7 +69,7 @@ export const Resources = () => {
                     <h1 className="text-3xl font-heading font-bold text-text-main">Study Resources & The Vault</h1>
                     <p className="text-text-muted mt-1">AI-curated content and Community-Verified PYQs.</p>
                 </div>
-                <button
+                <button type="button"
                     onClick={() => setShowUpload(true)}
                     className="flex items-center gap-2 px-4 py-2 bg-primary/10 hover:bg-primary/20 text-primary font-bold rounded-lg transition-all"
                 >
@@ -100,7 +100,7 @@ export const Resources = () => {
                                     rel="noreferrer"
                                     className="flex items-center gap-3 p-3 rounded-lg bg-surface hover:bg-red-500/10 hover:border-red-500/50 border border-transparent transition-all group"
                                 >
-                                    <div className="w-8 h-8 rounded-full bg-red-500/20 flex items-center justify-center text-red-500">
+                                    <div className="size-8 rounded-full bg-red-500/20 flex items-center justify-center text-red-500">
                                         <Youtube size={16} />
                                     </div>
                                     <div className="flex-1">
@@ -116,7 +116,7 @@ export const Resources = () => {
                                     rel="noreferrer"
                                     className="flex items-center gap-3 p-3 rounded-lg bg-surface hover:bg-yellow-500/10 hover:border-yellow-500/50 border border-transparent transition-all group"
                                 >
-                                    <div className="w-8 h-8 rounded-full bg-yellow-500/20 flex items-center justify-center text-yellow-500">
+                                    <div className="size-8 rounded-full bg-yellow-500/20 flex items-center justify-center text-yellow-500">
                                         <BookOpen size={16} />
                                     </div>
                                     <div className="flex-1">
@@ -132,7 +132,7 @@ export const Resources = () => {
                                     rel="noreferrer"
                                     className="flex items-center gap-3 p-3 rounded-lg bg-surface hover:bg-blue-500/10 hover:border-blue-500/50 border border-transparent transition-all group"
                                 >
-                                    <div className="w-8 h-8 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-500">
+                                    <div className="size-8 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-500">
                                         <Globe size={16} />
                                     </div>
                                     <div className="flex-1">
@@ -151,7 +151,7 @@ export const Resources = () => {
             {showUpload && (
                 <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm" role="dialog" aria-modal="true" aria-label="Contribute PYQ" onClick={() => setShowUpload(false)}>
                     <div className="bg-surface border border-border w-full max-w-lg rounded-2xl p-6 shadow-2xl relative" onClick={e => e.stopPropagation()}>
-                        <button onClick={() => setShowUpload(false)} className="absolute top-4 right-4 text-text-muted hover:text-white">
+                        <button type="button" onClick={() => setShowUpload(false)} className="absolute top-4 right-4 text-text-muted hover:text-white">
                             <X size={20} />
                         </button>
                         
@@ -209,7 +209,7 @@ export const Resources = () => {
                                 />
                             </div>
                             
-                            <button
+                            <button type="button"
                                 onClick={async () => {
                                     if(!uploadTopic || !uploadExam || !uploadContent) return;
                                     setUploading(true);

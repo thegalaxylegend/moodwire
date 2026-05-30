@@ -74,7 +74,7 @@ export const LevelUpModal: React.FC<LevelUpModalProps> = ({ newXp, onClose }) =>
                 >
                     {/* Background Glow */}
                     <div
-                        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 blur-[80px] opacity-30 pointer-events-none"
+                        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-64 blur-[80px] opacity-30 pointer-events-none"
                         style={{ backgroundColor: rank.color }}
                     />
 
@@ -98,7 +98,7 @@ export const LevelUpModal: React.FC<LevelUpModalProps> = ({ newXp, onClose }) =>
                         </ul>
                     </div>
 
-                    <button
+                    <button type="button"
                         onClick={onClose}
                         className="w-full py-4 bg-white text-black font-black rounded-2xl hover:bg-white/90 transition-all active:scale-95 shadow-xl relative z-10"
                     >

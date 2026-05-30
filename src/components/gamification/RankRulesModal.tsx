@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X, Trophy, BookOpen, Flame, Target, ChevronRight } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { XP_RANKS } from '../../services/gamificationService';
-import { getRankIconSVG } from './RankBadge';
+import { RankIconSVG } from './RankBadge';
 
 interface RankRulesModalProps {
     onClose: () => void;
@@ -53,7 +53,7 @@ export const RankRulesModal: React.FC<RankRulesModalProps> = ({ onClose }) => {
                                 <p className="text-xs text-text-muted">How to climb the leaderboard</p>
                             </div>
                         </div>
-                        <button onClick={onClose} className="p-2 hover:bg-white/5 rounded-full transition-colors text-text-muted hover:text-white">
+                        <button type="button" onClick={onClose} className="p-2 hover:bg-white/5 rounded-full transition-colors text-text-muted hover:text-white">
                             <X size={20} />
                         </button>
                     </div>
@@ -67,7 +67,7 @@ export const RankRulesModal: React.FC<RankRulesModalProps> = ({ onClose }) => {
                             </h3>
                             <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                                 <div className="p-3 bg-surface border border-border rounded-xl flex flex-col items-center text-center gap-2">
-                                    <div className="w-8 h-8 rounded-full bg-green-500/10 flex items-center justify-center text-green-500">
+                                    <div className="size-8 rounded-full bg-green-500/10 flex items-center justify-center text-green-500">
                                         <BookOpen size={16} />
                                     </div>
                                     <div>
@@ -76,7 +76,7 @@ export const RankRulesModal: React.FC<RankRulesModalProps> = ({ onClose }) => {
                                     </div>
                                 </div>
                                 <div className="p-3 bg-surface border border-border rounded-xl flex flex-col items-center text-center gap-2">
-                                    <div className="w-8 h-8 rounded-full bg-red-500/10 flex items-center justify-center text-red-500">
+                                    <div className="size-8 rounded-full bg-red-500/10 flex items-center justify-center text-red-500">
                                         <Flame size={16} />
                                     </div>
                                     <div>
@@ -85,7 +85,7 @@ export const RankRulesModal: React.FC<RankRulesModalProps> = ({ onClose }) => {
                                     </div>
                                 </div>
                                 <div className="p-3 bg-surface border border-border rounded-xl flex flex-col items-center text-center gap-2">
-                                    <div className="w-8 h-8 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-500">
+                                    <div className="size-8 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-500">
                                         <PlayIcon size={16} />
                                     </div>
                                     <div>
@@ -94,7 +94,7 @@ export const RankRulesModal: React.FC<RankRulesModalProps> = ({ onClose }) => {
                                     </div>
                                 </div>
                                 <div className="p-3 bg-surface border border-border rounded-xl flex flex-col items-center text-center gap-2">
-                                    <div className="w-8 h-8 rounded-full bg-amber-500/10 flex items-center justify-center text-amber-500">
+                                    <div className="size-8 rounded-full bg-amber-500/10 flex items-center justify-center text-amber-500">
                                         <StarIcon size={16} />
                                     </div>
                                     <div>
@@ -119,10 +119,10 @@ export const RankRulesModal: React.FC<RankRulesModalProps> = ({ onClose }) => {
                                     return (
                                         <div key={tierName} className="flex items-center gap-4 p-3 bg-surface/50 border border-border rounded-xl">
                                             <div
-                                                className="w-12 h-12 rounded-xl flex items-center justify-center shadow-lg border border-white/10"
+                                                className="size-12 rounded-xl flex items-center justify-center shadow-lg border border-white/10"
                                                 style={{ backgroundColor: baseRank.color + '15', borderColor: baseRank.color + '30' }}
                                             >
-                                                {getRankIconSVG(baseRank.name, baseRank.color, 'w-7 h-7')}
+                                                <RankIconSVG rankName={baseRank.name} color={baseRank.color} className="size-7" />
                                             </div>
                                             <div className="flex-1">
                                                 <h4 className="font-bold text-text-main text-lg">{tierName}</h4>
@@ -136,7 +136,7 @@ export const RankRulesModal: React.FC<RankRulesModalProps> = ({ onClose }) => {
                                             {tierName !== 'Grandmaster' && (
                                                 <div className="flex gap-1">
                                                     {[5, 4, 3, 2, 1].map(div => (
-                                                        <div key={div} className="w-6 h-6 rounded bg-black/20 flex items-center justify-center text-[10px] font-mono text-text-muted">
+                                                        <div key={div} className="size-6 rounded bg-black/20 flex items-center justify-center text-[10px] font-mono text-text-muted">
                                                             {div}
                                                         </div>
                                                     ))}
@@ -147,7 +147,7 @@ export const RankRulesModal: React.FC<RankRulesModalProps> = ({ onClose }) => {
                                 })}
                             </div>
 
-                            <button
+                            <button type="button"
                                 onClick={() => {
                                     onClose();
                                     navigate('/dashboard/ranks');

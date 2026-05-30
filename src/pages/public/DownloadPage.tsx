@@ -47,8 +47,8 @@ export const DownloadPage = () => {
             </Helmet>
 
             {/* Glowing background details */}
-            <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-purple-500/10 rounded-full blur-[120px] pointer-events-none" />
-            <div className="absolute bottom-10 right-10 w-[300px] h-[300px] bg-indigo-500/10 rounded-full blur-[80px] pointer-events-none" />
+            <div className="absolute top-1/4 left-1/2 -translate-x-1/2 size-[500px] bg-purple-500/10 rounded-full blur-[120px] pointer-events-none" />
+            <div className="absolute bottom-10 right-10 size-[300px] bg-indigo-500/10 rounded-full blur-[80px] pointer-events-none" />
 
             <div className="max-w-5xl mx-auto space-y-16 relative z-10">
                 {/* Header Section */}
@@ -70,9 +70,9 @@ export const DownloadPage = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {/* Card 1: Direct Android APK */}
                     <div className="glass-card bg-zinc-900/50 border border-white/10 rounded-[32px] p-8 flex flex-col justify-between hover:border-purple-500/30 transition-all duration-300 group relative overflow-hidden">
-                        <div className="absolute top-0 right-0 w-24 h-24 bg-purple-500/5 rounded-bl-[100px] pointer-events-none group-hover:bg-purple-500/10 transition-colors" />
+                        <div className="absolute top-0 right-0 size-24 bg-purple-500/5 rounded-bl-[100px] pointer-events-none group-hover:bg-purple-500/10 transition-colors" />
                         <div className="space-y-6">
-                            <div className="w-14 h-14 bg-purple-500/10 rounded-2xl flex items-center justify-center border border-purple-500/20">
+                            <div className="size-14 bg-purple-500/10 rounded-2xl flex items-center justify-center border border-purple-500/20">
                                 <Smartphone className="text-purple-400" size={28} />
                             </div>
                             <div className="space-y-2">
@@ -100,7 +100,7 @@ export const DownloadPage = () => {
                             </ul>
                         </div>
                         <div className="mt-8 pt-6 border-t border-white/5">
-                            <button
+                            <button type="button"
                                 onClick={handleApkDownload}
                                 disabled={downloading}
                                 className="w-full py-4 px-6 bg-purple-600 hover:bg-purple-500 text-white font-bold rounded-2xl flex items-center justify-center gap-3 transition-colors shadow-lg shadow-purple-600/20 disabled:opacity-50"
@@ -116,9 +116,9 @@ export const DownloadPage = () => {
 
                     {/* Card 2: Instant PWA Install */}
                     <div className="glass-card bg-zinc-900/50 border border-white/10 rounded-[32px] p-8 flex flex-col justify-between hover:border-indigo-500/30 transition-all duration-300 group relative overflow-hidden">
-                        <div className="absolute top-0 right-0 w-24 h-24 bg-indigo-500/5 rounded-bl-[100px] pointer-events-none group-hover:bg-indigo-500/10 transition-colors" />
+                        <div className="absolute top-0 right-0 size-24 bg-indigo-500/5 rounded-bl-[100px] pointer-events-none group-hover:bg-indigo-500/10 transition-colors" />
                         <div className="space-y-6">
-                            <div className="w-14 h-14 bg-indigo-500/10 rounded-2xl flex items-center justify-center border border-indigo-500/20">
+                            <div className="size-14 bg-indigo-500/10 rounded-2xl flex items-center justify-center border border-indigo-500/20">
                                 <Laptop className="text-indigo-400" size={28} />
                             </div>
                             <div className="space-y-2">
@@ -146,7 +146,7 @@ export const DownloadPage = () => {
                             </ul>
                         </div>
                         <div className="mt-8 pt-6 border-t border-white/5">
-                            <button
+                            <button type="button"
                                 onClick={handlePwaInstall}
                                 className="w-full py-4 px-6 bg-white text-black hover:bg-gray-100 font-bold rounded-2xl flex items-center justify-center gap-3 transition-colors shadow-lg"
                             >

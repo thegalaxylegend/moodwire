@@ -83,7 +83,7 @@ export const CollegePredictorCard: React.FC<CollegePredictorCardProps> = ({ fitm
             </div>
 
             <div className="p-3 bg-accent/5 rounded-xl border border-accent/20 flex gap-3 items-center">
-                <div className="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center shrink-0">
+                <div className="size-8 rounded-full bg-accent/20 flex items-center justify-center shrink-0">
                     <Target className="text-accent" size={16} />
                 </div>
                 <p className="text-[10px] text-text-muted leading-tight">

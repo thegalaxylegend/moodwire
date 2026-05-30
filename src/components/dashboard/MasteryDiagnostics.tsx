@@ -30,14 +30,14 @@ export const MasteryDiagnostics: React.FC<MasteryDiagnosticsProps> = ({ stats })
                     <h4 className="text-sm font-bold text-text-main uppercase tracking-widest">Mastery Diagnostics</h4>
                 </div>
                 <div className="bg-surface/30 rounded-2xl p-8 border border-dashed border-border flex flex-col items-center justify-center text-center space-y-4">
-                    <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+                    <div className="size-12 rounded-full bg-primary/10 flex items-center justify-center">
                         <AlertCircle className="text-primary/40" size={24} />
                     </div>
                     <div>
                         <p className="text-sm font-bold text-text-main">Calibration Required</p>
                         <p className="text-xs text-text-muted mt-1 max-w-[200px]">Take a diagnostic test to unlock root-cause error analysis.</p>
                     </div>
-                    <button
+                    <button type="button"
                         onClick={() => navigate('/dashboard/mock?mode=diagnostic')}
                         className="px-4 py-2 rounded-lg bg-primary/20 text-primary text-xs font-bold hover:bg-primary/30 transition-all"
                     >
@@ -97,7 +97,7 @@ export const MasteryDiagnostics: React.FC<MasteryDiagnosticsProps> = ({ stats })
                         </p>
                     </div>
 
-                    <button
+                    <button type="button"
                         onClick={() => navigate(`/dashboard/mock?mode=remediation&focus=${data[0].label.toUpperCase()}`)}
                         className="w-full mt-2 py-3 rounded-xl bg-primary text-white font-bold hover:bg-primary/90 flex items-center justify-center gap-2 shadow-lg shadow-primary/25 transition-all active:scale-95"
                     >

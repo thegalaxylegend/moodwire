@@ -72,7 +72,7 @@ export const AboutPage = () => {
                     <motion.div 
                         initial={{ scale: 0.8, opacity: 0 }}
                         animate={{ scale: 1, opacity: 0.1 }}
-                        className="absolute -top-20 -left-20 w-[500px] h-[500px] bg-primary rounded-full blur-[120px] pointer-events-none" 
+                        className="absolute -top-20 -left-20 size-[500px] bg-primary rounded-full blur-[120px] pointer-events-none" 
                     />
                     
                 <div className="min-h-[80vh] flex flex-col lg:flex-row items-center justify-between gap-12 relative z-10">
@@ -278,7 +278,7 @@ export const AboutPage = () => {
                                 
                                 {/* Center Dot */}
                                 <div className="flex justify-center">
-                                    <div className="w-5 h-5 rounded-full bg-primary ring-8 ring-primary/10 relative z-20 shadow-[0_0_20px_rgba(139,92,246,0.5)]" />
+                                    <div className="size-5 rounded-full bg-primary ring-8 ring-primary/10 relative z-20 shadow-[0_0_20px_rgba(139,92,246,0.5)]" />
                                 </div>
                                 
                                 {/* Right Side */}
@@ -328,7 +328,7 @@ export const AboutPage = () => {
                                 </div>
                                 <div className="p-8 md:p-12 border-r border-white/5 bg-primary/[0.05]">
                                     <h4 className="text-[10px] uppercase tracking-[0.4em] font-bold text-primary flex items-center gap-2">
-                                        Exam Compass <div className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
+                                        Exam Compass <div className="size-1.5 rounded-full bg-primary animate-pulse" />
                                     </h4>
                                 </div>
                                 <div className="p-8 md:p-12 bg-black/20">
@@ -352,8 +352,8 @@ export const AboutPage = () => {
                                     {/* Exam Compass Value */}
                                     <div className="p-8 md:p-12 flex items-center border-r border-white/5 bg-primary/[0.02]">
                                         <div className="flex items-center gap-3">
-                                            <div className="w-5 h-5 rounded-full bg-primary/20 flex items-center justify-center">
-                                                <div className="w-1.5 h-1.5 rounded-full bg-primary" />
+                                            <div className="size-5 rounded-full bg-primary/20 flex items-center justify-center">
+                                                <div className="size-1.5 rounded-full bg-primary" />
                                             </div>
                                             <p className="text-sm font-bold text-white tracking-tight">{row.ec}</p>
                                         </div>
@@ -386,7 +386,7 @@ export const AboutPage = () => {
                             rotate: [0, 5, 0]
                         }}
                         transition={{ duration: 20, repeat: Infinity }}
-                        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-accent/5 rounded-full blur-[120px] pointer-events-none" 
+                        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-[800px] bg-accent/5 rounded-full blur-[120px] pointer-events-none" 
                     />
                     
                     <motion.div variants={itemVariants} className="text-center mb-24 relative z-10">
@@ -466,7 +466,7 @@ export const AboutPage = () => {
                     variants={containerVariants}
                     className="mb-48 py-24 bg-surface rounded-[4rem] border border-white/5 relative overflow-hidden"
                 >
-                    <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-secondary/5 blur-[100px]" />
+                    <div className="absolute top-0 right-0 size-[400px] bg-secondary/5 blur-[100px]" />
                     
                     <div className="px-10 md:px-20 relative z-10">
                         <motion.h2 variants={itemVariants} className="text-4xl font-heading font-bold mb-16 tracking-tight">The Tech Stack</motion.h2>
@@ -564,7 +564,7 @@ export const AboutPage = () => {
                             <motion.div 
                                 animate={{ rotate: 360 }}
                                 transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
-                                className="absolute -top-40 -right-40 w-80 h-80 border border-primary/10 rounded-full" 
+                                className="absolute -top-40 -right-40 size-80 border border-primary/10 rounded-full" 
                             />
                             
                             <h2 className="text-3xl md:text-5xl font-heading font-bold text-white mb-10 leading-tight">

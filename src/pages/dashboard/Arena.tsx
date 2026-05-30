@@ -237,7 +237,7 @@ export const Arena = () => {
                             <motion.div 
                                 animate={{ scale: [1, 1.1, 1] }}
                                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-                                className="w-24 h-24 rounded-full bg-red-500/20 text-red-500 flex items-center justify-center shadow-[0_0_50px_rgba(239,68,68,0.2)]"
+                                className="size-24 rounded-full bg-red-500/20 text-red-500 flex items-center justify-center shadow-[0_0_50px_rgba(239,68,68,0.2)]"
                             >
                                 <Shield size={48} />
                             </motion.div>
@@ -261,7 +261,7 @@ export const Arena = () => {
                                 icon={<BookOpen size={20} />}
                             />
                             
-                            <button 
+                            <button type="button" 
                                 onClick={handleJoinQueue}
                                 className="w-full py-3.5 md:py-4 rounded-xl bg-red-500 hover:bg-red-600 text-white font-black tracking-[2px] md:tracking-[4px] uppercase shadow-lg shadow-red-500/20 transition-all active:scale-95"
                             >
@@ -274,7 +274,7 @@ export const Arena = () => {
                                 <div className="h-px flex-1 bg-border"></div>
                             </div>
 
-                            <button 
+                            <button type="button" 
                                 onClick={() => navigate('/dashboard/arena/group')}
                                 className="w-full py-4 rounded-xl bg-indigo-500/10 border border-indigo-500/30 text-indigo-400 font-bold flex items-center justify-center gap-2 hover:bg-indigo-500/20 transition-all active:scale-95"
                             >
@@ -282,7 +282,7 @@ export const Arena = () => {
                                 Create Room
                             </button>
 
-                            <button 
+                            <button type="button" 
                                 onClick={() => setShowJoinModal(true)}
                                 className="w-full py-4 rounded-xl border border-border bg-surface/30 text-text-muted font-black uppercase tracking-[2px] hover:border-white/20 hover:text-white transition-all text-[10px] md:text-xs"
                             >
@@ -320,13 +320,13 @@ export const Arena = () => {
                                         />
 
                                         <div className="flex gap-3">
-                                            <button 
+                                            <button type="button" 
                                                 onClick={() => setShowJoinModal(false)}
                                                 className="flex-1 py-3 rounded-xl border border-border text-text-muted hover:text-white transition-all font-bold uppercase text-xs"
                                             >
                                                 Cancel
                                             </button>
-                                            <button 
+                                            <button type="button" 
                                                 disabled={!joinCode}
                                                 onClick={() => navigate(`/dashboard/arena/group?code=${joinCode}`)}
                                                 className="flex-1 py-3 rounded-xl bg-indigo-600 text-white font-black uppercase tracking-widest hover:bg-indigo-700 transition-all text-xs disabled:opacity-50"
@@ -349,7 +349,7 @@ export const Arena = () => {
                         exit={{ opacity: 0 }}
                         className="flex flex-col items-center justify-center min-h-[60vh] space-y-12"
                     >
-                        <div className="relative w-48 h-48 flex items-center justify-center">
+                        <div className="relative size-48 flex items-center justify-center">
                             {/* Sonar Rings */}
                             {[1, 2, 3].map((i) => (
                                 <motion.div
@@ -388,7 +388,7 @@ export const Arena = () => {
                                     {[0, 1, 2].map((i) => (
                                         <motion.div
                                             key={i}
-                                            className="w-1.5 h-1.5 bg-red-500 rounded-full"
+                                            className="size-1.5 bg-red-500 rounded-full"
                                             animate={{ opacity: [0.2, 1, 0.2] }}
                                             transition={{ duration: 1, repeat: Infinity, delay: i * 0.2 }}
                                         />
@@ -400,7 +400,7 @@ export const Arena = () => {
                             </p>
                         </div>
 
-                        <button 
+                        <button type="button" 
                             onClick={handleLeaveQueue}
                             className="px-8 py-3 rounded-xl border border-white/10 text-text-muted hover:bg-white/5 hover:text-white transition-all font-bold uppercase tracking-widest text-xs"
                         >
@@ -435,7 +435,7 @@ export const Arena = () => {
                             <div className="flex items-center gap-4 flex-1">
                                 <motion.div 
                                     whileHover={{ scale: 1.1 }}
-                                    className="w-12 h-12 rounded-full bg-blue-500/20 border border-blue-500/50 flex items-center justify-center font-bold text-blue-400"
+                                    className="size-12 rounded-full bg-blue-500/20 border border-blue-500/50 flex items-center justify-center font-bold text-blue-400"
                                 >
                                     {me?.name?.charAt(0)?.toUpperCase() ?? '?'}
                                 </motion.div>
@@ -467,7 +467,7 @@ export const Arena = () => {
                                 </div>
                                 <motion.div 
                                     whileHover={{ scale: 1.1 }}
-                                    className="w-12 h-12 rounded-full bg-red-500/20 border border-red-500/50 flex items-center justify-center font-bold text-red-500"
+                                    className="size-12 rounded-full bg-red-500/20 border border-red-500/50 flex items-center justify-center font-bold text-red-500"
                                 >
                                     {opponent?.name?.charAt(0)?.toUpperCase() ?? '?'}
                                 </motion.div>
@@ -578,13 +578,13 @@ export const Arena = () => {
                                     transition={{ delay: 0.5 }}
                                     className="flex gap-4"
                                 >
-                                    <button
+                                    <button type="button"
                                         onClick={() => navigate('/dashboard')}
                                         className="px-8 py-3 rounded-xl bg-surface border border-border text-white font-bold hover:bg-white/5 transition-all"
                                     >
                                         Back to Dashboard
                                     </button>
-                                    <button
+                                    <button type="button"
                                         onClick={() => { setSessionId(null); setSession(null); setStatus('lobby'); setQuestions([]); setCurrentQIndex(0); setLocalScore(0); setBattleResults([]); xpAwarded.current = false; }}
                                         className="px-8 py-3 rounded-xl bg-red-500 text-white font-black uppercase tracking-widest hover:bg-red-600 transition-all shadow-lg shadow-red-500/20"
                                     >

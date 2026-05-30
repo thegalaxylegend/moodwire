@@ -163,7 +163,7 @@ export const SyllabusUpload = () => {
 
             {/* Import Mode Toggle */}
             <div className="flex gap-3">
-                <button
+                <button type="button"
                     onClick={() => { setImportMode('constants'); setImportedData([]); }}
                     className={`flex-1 p-4 rounded-xl border text-sm font-bold transition-all ${
                         importMode === 'constants' 
@@ -174,7 +174,7 @@ export const SyllabusUpload = () => {
                     <FileJson size={20} className="mx-auto mb-2" />
                     From Code (constants.ts)
                 </button>
-                <button
+                <button type="button"
                     onClick={() => fileInputRef.current?.click()}
                     className={`flex-1 p-4 rounded-xl border text-sm font-bold transition-all ${
                         importMode === 'file' 
@@ -224,7 +224,7 @@ export const SyllabusUpload = () => {
                                         <CheckCircle2 size={16} className="text-green-400" />
                                         Imported: {importedData.length} topics
                                     </h3>
-                                    <button 
+                                    <button type="button" 
                                         onClick={() => { setImportedData([]); setImportMode('constants'); setLog([]); }}
                                         className="text-xs text-text-muted hover:text-red-400 flex items-center gap-1"
                                     >
@@ -262,7 +262,7 @@ export const SyllabusUpload = () => {
                 )}
 
                 <div className="mt-8 flex justify-end">
-                    <button
+                    <button type="button"
                         onClick={handleUpload}
                         disabled={status === 'uploading' || (importMode === 'file' && importedData.length === 0)}
                         className="bg-primary hover:bg-primary-dark text-white px-8 py-3 rounded-xl font-bold flex items-center gap-2 transition-all disabled:opacity-50"

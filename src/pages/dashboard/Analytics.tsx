@@ -415,7 +415,7 @@ export const Analytics = () => {
             mode="modal"
             fallback={
                 <div className="flex h-[60vh] flex-col items-center justify-center text-center space-y-6">
-                    <div className="w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center animate-pulse">
+                    <div className="size-20 bg-primary/20 rounded-full flex items-center justify-center animate-pulse">
                         <BarChart3 size={40} className="text-primary" />
                     </div>
                     <div>
@@ -439,7 +439,7 @@ export const Analytics = () => {
                         {/* Time Filter */}
                         <div className="flex items-center gap-1 bg-black/20 rounded-lg p-1">
                             {(['1W', '1M', '3M', '1Y'] as const).map((r) => (
-                                <button
+                                <button type="button"
                                     key={r}
                                     onClick={() => setTimeRange(r)}
                                     className={`px-3 py-1.5 text-xs font-bold rounded-md transition-all ${timeRange === r ? 'bg-primary text-white shadow-md' : 'text-white/60 hover:text-white hover:bg-white/5'}`}
@@ -470,14 +470,14 @@ export const Analytics = () => {
 
                         {/* Visual Toggle */}
                         <div className="flex items-center gap-1 bg-black/20 rounded-lg p-1">
-                            <button
+                            <button type="button"
                                 onClick={() => setChartType('bar')}
                                 className={`p-1.5 rounded-md transition-all ${chartType === 'bar' ? 'bg-secondary text-white shadow-md' : 'text-white/60 hover:text-white'}`}
                                 title="Bar Chart"
                             >
                                 <BarChart3 size={16} />
                             </button>
-                            <button
+                            <button type="button"
                                 onClick={() => setChartType('line')}
                                 className={`p-1.5 rounded-md transition-all ${chartType === 'line' ? 'bg-secondary text-white shadow-md' : 'text-white/60 hover:text-white'}`}
                                 title="Line Chart"
@@ -607,7 +607,7 @@ export const Analytics = () => {
                                                     return (
                                                         <div
                                                             key={i}
-                                                            className="absolute w-6 h-6 flex items-center justify-center cursor-pointer group z-20"
+                                                            className="absolute size-6 flex items-center justify-center cursor-pointer group z-20"
                                                             style={{
                                                                 left: `${x}%`,
                                                                 top: `${y}%`,
@@ -618,7 +618,7 @@ export const Analytics = () => {
                                                             <div className="absolute inset-0 rounded-full bg-white/20 border border-white/30 scale-50 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200" />
                                                             
                                                             {/* Inner Core Dot: Pure White */}
-                                                            <div className="w-2.5 h-2.5 rounded-full bg-white border border-primary transition-all duration-200 group-hover:scale-125 shadow-[0_0_8px_rgba(255,255,255,1)]" />
+                                                            <div className="size-2.5 rounded-full bg-white border border-primary transition-all duration-200 group-hover:scale-125 shadow-[0_0_8px_rgba(255,255,255,1)]" />
                                                             
                                                             {/* Tooltip */}
                                                             <span className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 text-[11px] font-bold text-white bg-slate-900/90 backdrop-blur-md border border-white/10 px-2 py-1 rounded shadow-xl opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap z-30 pointer-events-none">
@@ -672,7 +672,7 @@ export const Analytics = () => {
                             {loading ? (
                                 <div className="h-64 flex flex-col items-center justify-center text-text-muted bg-surface/50 rounded-xl">
                                     <Loader2 className="animate-spin mb-2" />
-                                    <p>Loading subject data...</p>
+                                    <p>Loading subject data…</p>
                                 </div>
                             ) : subjectStats && Object.keys(subjectStats).length > 0 ? (
                                 <div className="space-y-4">

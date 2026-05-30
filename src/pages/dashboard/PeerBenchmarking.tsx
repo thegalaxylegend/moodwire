@@ -67,7 +67,7 @@ export const PeerBenchmarking = () => {
             mode="modal"
             fallback={
                 <div className="flex h-[60vh] flex-col items-center justify-center text-center space-y-6">
-                    <div className="w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center animate-pulse">
+                    <div className="size-20 bg-primary/20 rounded-full flex items-center justify-center animate-pulse">
                         <Trophy size={40} className="text-primary" />
                     </div>
                     <div>
@@ -104,7 +104,7 @@ export const PeerBenchmarking = () => {
 
                     {/* Metric Selector */}
                     <div className="flex justify-center gap-2 mt-6">
-                        <button
+                        <button type="button"
                             onClick={() => setMetric('totalScore')}
                             className={`px-6 py-2 rounded-full text-sm font-bold transition-all duration-300 ${metric === 'totalScore'
                                 ? 'bg-primary text-white shadow-[0_0_20px_rgba(168,85,247,0.4)]'
@@ -113,7 +113,7 @@ export const PeerBenchmarking = () => {
                         >
                             Monthly Points
                         </button>
-                        <button
+                        <button type="button"
                             onClick={() => setMetric('xp')}
                             className={`px-6 py-2 rounded-full text-sm font-bold transition-all duration-300 ${metric === 'xp'
                                 ? 'bg-primary text-white shadow-[0_0_20px_rgba(168,85,247,0.4)]'
@@ -127,7 +127,7 @@ export const PeerBenchmarking = () => {
                     {/* Exam Filter Selector */}
                     <div className="flex justify-center gap-2 mt-3">
                         {['All', 'JEE Mains', 'NEET'].map((exam) => (
-                            <button
+                            <button type="button"
                                 key={exam}
                                 onClick={() => setExamFilter(exam)}
                                 className={`px-4 py-1.5 rounded-full text-xs font-bold transition-all duration-300 ${examFilter === exam
@@ -143,7 +143,7 @@ export const PeerBenchmarking = () => {
                     {/* DEV ONLY RESET - ADMIN ONLY */}
                     {
                         user?.role === 'admin' && (
-                            <button
+                            <button type="button"
                                 onClick={async () => {
                                     if (confirm('Clear ALL rankings for this season?')) {
                                         setLoading(true);
@@ -177,7 +177,7 @@ export const PeerBenchmarking = () => {
                                     {leaderboard[2] && <PodiumUser entry={leaderboard[2]} place={3} delay={0.4} metric={metric} />}
 
                                     {/* Background Glow */}
-                                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] bg-primary/20 blur-[100px] rounded-full -z-10" />
+                                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-[300px] bg-primary/20 blur-[100px] rounded-full -z-10" />
                                 </div>
                             )
                         }
@@ -193,14 +193,14 @@ export const PeerBenchmarking = () => {
                                 >
                                     <div className="flex items-center gap-4">
                                         <div className="relative">
-                                            <div className="w-16 h-16 rounded-full bg-surface border-2 border-primary flex items-center justify-center overflow-hidden shadow-xl">
+                                            <div className="size-16 rounded-full bg-surface border-2 border-primary flex items-center justify-center overflow-hidden shadow-xl">
                                                 {(user as any).avatar ? (
                                                     <img src={(user as any).avatar} alt={user.name} className="w-full h-full object-cover" />
                                                 ) : (
                                                     <span className="text-2xl font-bold text-primary">{user.name?.charAt(0)}</span>
                                                 )}
                                             </div>
-                                            <div className="absolute -bottom-2 -right-2 w-8 h-8 rounded-full bg-secondary text-white flex items-center justify-center font-bold text-xs shadow-lg border border-background">
+                                            <div className="absolute -bottom-2 -right-2 size-8 rounded-full bg-secondary text-white flex items-center justify-center font-bold text-xs shadow-lg border border-background">
                                                 #{displayRank}
                                             </div>
                                         </div>
@@ -237,7 +237,7 @@ export const PeerBenchmarking = () => {
                                     animate={{ x: 0, opacity: 1 }}
                                     className="glass-card oxygen-card p-6 bg-gradient-to-br from-primary/20 to-surface border-primary/30 relative overflow-hidden"
                                 >
-                                    <div className="absolute top-0 right-0 w-32 h-32 bg-primary/10 blur-[60px] -mr-16 -mt-16 rounded-full" />
+                                    <div className="absolute top-0 right-0 size-32 bg-primary/10 blur-[60px] -mr-16 -mt-16 rounded-full" />
                                     <h3 className="text-sm font-bold text-primary uppercase tracking-widest mb-4">
                                         {examFilter === 'All' ? 'National Prediction' : `${examFilter} Standing`}
                                     </h3>
@@ -304,7 +304,7 @@ export const PeerBenchmarking = () => {
                                                 </td>
                                                 <td className="p-4">
                                                     <div className="flex items-center gap-3">
-                                                        <div className="w-10 h-10 rounded-full bg-surface border border-border flex items-center justify-center overflow-hidden shadow-inner">
+                                                        <div className="size-10 rounded-full bg-surface border border-border flex items-center justify-center overflow-hidden shadow-inner">
                                                             {entry.user?.avatar ? (
                                                                 <img src={entry.user.avatar} alt="u" className="w-full h-full object-cover" />
                                                             ) : (
@@ -369,9 +369,9 @@ const PodiumUser = ({ entry, place, delay, metric }: { entry: LeaderboardEntry, 
             className="flex flex-col items-center gap-2"
         >
             <div className="relative">
-                <div className="w-16 h-16 rounded-full border-4 border-surface shadow-lg overflow-hidden relative z-10">
+                <div className="size-16 rounded-full border-4 border-surface shadow-lg overflow-hidden relative z-10">
                     {entry.user?.avatar ? (
-                        <img src={entry.user.avatar} className="w-full h-full object-cover" />
+                        <img src={entry.user.avatar} className="w-full h-full object-cover" alt="" />
                     ) : (
                         <div className="w-full h-full bg-surface flex items-center justify-center font-bold text-xl">
                             {entry.user?.displayName?.[0] || '?'}

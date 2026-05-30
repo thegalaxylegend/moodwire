@@ -168,12 +168,12 @@ const VideoListItem = ({
 
                     {/* Status Icon */}
                     {isCompleted ? (
-                        <div className="w-5 h-5 rounded-full bg-green-500/80 backdrop-blur-sm flex items-center justify-center">
+                        <div className="size-5 rounded-full bg-green-500/80 backdrop-blur-sm flex items-center justify-center">
                             <Check size={12} className="text-white" />
                         </div>
                     ) : isActive ? (
-                        <div className="w-5 h-5 rounded-full bg-primary/80 backdrop-blur-sm flex items-center justify-center">
-                            <div className="w-2 h-2 bg-white rounded-full animate-pulse" />
+                        <div className="size-5 rounded-full bg-primary/80 backdrop-blur-sm flex items-center justify-center">
+                            <div className="size-2 bg-white rounded-full animate-pulse" />
                         </div>
                     ) : null}
                 </div>
@@ -595,8 +595,8 @@ export const VideoLecturePage = () => {
         return (
             <div className="min-h-screen bg-[#0a0a0f] flex items-center justify-center">
                 <div className="flex flex-col items-center gap-4">
-                    <Loader2 className="w-10 h-10 text-purple-500 animate-spin" />
-                    <p className="text-white/60 font-medium animate-pulse">Loading Lecture...</p>
+                    <Loader2 className="size-10 text-purple-500 animate-spin" />
+                    <p className="text-white/60 font-medium animate-pulse">Loading Lecture…</p>
                 </div>
             </div>
         );
@@ -635,14 +635,14 @@ export const VideoLecturePage = () => {
             <div className="fixed inset-0 bg-gradient-to-b from-[#0a0a0f]/50 via-[#0a0a0f]/70 to-[#0a0a0f] pointer-events-none" />
 
             {/* Ambient Glows */}
-            <div className="fixed top-[-20%] left-[-10%] w-[800px] h-[800px] bg-purple-600/30 rounded-full blur-[250px] pointer-events-none" />
-            <div className="fixed bottom-[-10%] right-[-10%] w-[700px] h-[700px] bg-indigo-600/20 rounded-full blur-[200px] pointer-events-none" />
-            <div className="fixed top-[40%] right-[5%] w-[500px] h-[500px] bg-blue-600/15 rounded-full blur-[180px] pointer-events-none" />
+            <div className="fixed top-[-20%] left-[-10%] size-[800px] bg-purple-600/30 rounded-full blur-[250px] pointer-events-none" />
+            <div className="fixed bottom-[-10%] right-[-10%] size-[700px] bg-indigo-600/20 rounded-full blur-[200px] pointer-events-none" />
+            <div className="fixed top-[40%] right-[5%] size-[500px] bg-blue-600/15 rounded-full blur-[180px] pointer-events-none" />
 
             {/* Main Content */}
             <div className="relative z-10 min-h-screen p-4 lg:p-6">
                 {/* Back Button */}
-                <button
+                <button type="button"
                     onClick={() => navigate('/dashboard/syllabus')}
                     className="mb-4 p-2 hover:bg-white/10 rounded-full text-white/70 hover:text-white transition-all inline-flex items-center gap-2 backdrop-blur-sm"
                 >
@@ -663,7 +663,7 @@ export const VideoLecturePage = () => {
                                 <div className="flex-1">
                                     <h1 className="text-lg font-bold text-white mb-2 leading-tight line-clamp-2">{currentVideo.title}</h1>
                                     <div className="flex items-center gap-3">
-                                        <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-purple-500 to-indigo-500 flex items-center justify-center text-xs font-bold text-white flex-shrink-0">
+                                        <div className="size-8 rounded-full bg-gradient-to-tr from-purple-500 to-indigo-500 flex items-center justify-center text-xs font-bold text-white flex-shrink-0">
                                             {currentVideo.channelName.charAt(0)}
                                         </div>
                                         <div>
@@ -675,7 +675,7 @@ export const VideoLecturePage = () => {
                                 <div className="flex items-center gap-2">
                                     {/* Save/Bookmark Button */}
                                     <AuthGate mode="modal">
-                                        <button
+                                        <button type="button"
                                             onClick={handleSaveToggle}
                                             className={`p-2 rounded-lg transition-all ${isSaved ? 'bg-purple-600/30 text-purple-400' : 'hover:bg-white/10 text-white/50 hover:text-white'}`}
                                             title={isSaved ? 'Remove from Saved' : 'Save Lecture'}
@@ -683,7 +683,7 @@ export const VideoLecturePage = () => {
                                             {isSaved ? <BookmarkCheck size={18} /> : <Bookmark size={18} />}
                                         </button>
                                     </AuthGate>
-                                    <button className="p-2 hover:bg-white/10 rounded-lg transition-colors text-white/50 hover:text-white">
+                                    <button type="button" className="p-2 hover:bg-white/10 rounded-lg transition-colors text-white/50 hover:text-white">
                                         <Share2 size={16} />
                                     </button>
                                 </div>
@@ -692,7 +692,7 @@ export const VideoLecturePage = () => {
                             {/* YouTube Player */}
                             <div className="relative aspect-video mx-4 rounded-2xl overflow-hidden shadow-2xl border border-white/10 isolate bg-black">
                                 {videoId ? (
-                                    <iframe
+                                    <iframe sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-presentation"
                                         key={videoId} // Key ensures iframe re-renders on video change
                                         ref={iframeRef}
                                         src={`https://www.youtube.com/embed/${videoId}?autoplay=1&mute=${isMuted ? 1 : 0}&rel=0&modestbranding=1&enablejsapi=1&origin=${window.location.origin}`}
@@ -711,21 +711,21 @@ export const VideoLecturePage = () => {
                             {/* Custom Control Bar - Frosted */}
                             <div className="relative px-5 py-4 flex items-center gap-3 backdrop-blur-xl bg-white/[0.03]">
                                 {/* Rewind 10s - Circular Design */}
-                                <button
+                                <button type="button"
                                     onClick={() => sendPlayerCommand('seekTo', [Math.max(0, -10), true])}
-                                    className="w-14 h-14 flex items-center justify-center hover:bg-white/10 rounded-full transition-all text-white/80 hover:text-white active:scale-90"
+                                    className="size-14 flex items-center justify-center hover:bg-white/10 rounded-full transition-all text-white/80 hover:text-white active:scale-90"
                                     title="Rewind 10 seconds"
                                 >
-                                    <svg viewBox="0 0 24 24" className="w-10 h-10" fill="currentColor">
+                                    <svg viewBox="0 0 24 24" className="size-10" fill="currentColor">
                                         <path d="M12 5V1l7 6-7 5V7c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6h2c0 4.42-3.58 8-8 8s-8-3.58-8-8 3.58-8 8-8z" />
                                         <text x="12" y="14.5" textAnchor="middle" fontSize="6" fontWeight="bold" stroke="none">10</text>
                                     </svg>
                                 </button>
 
                                 {/* Play/Pause Button with Animation */}
-                                <button
+                                <button type="button"
                                     onClick={handlePlayPause}
-                                    className="relative w-12 h-12 flex items-center justify-center bg-primary hover:bg-primary/80 rounded-full transition-all shadow-lg shadow-primary/30 hover:scale-105 active:scale-95"
+                                    className="relative size-12 flex items-center justify-center bg-primary hover:bg-primary/80 rounded-full transition-all shadow-lg shadow-primary/30 hover:scale-105 active:scale-95"
                                     title={isPlaying ? 'Pause' : 'Play'}
                                 >
                                     <div className={`transition-all duration-300 ${isPlaying ? 'opacity-0 scale-50' : 'opacity-100 scale-100'} absolute`}>
@@ -737,12 +737,12 @@ export const VideoLecturePage = () => {
                                 </button>
 
                                 {/* Forward 10s - Circular Design */}
-                                <button
+                                <button type="button"
                                     onClick={() => sendPlayerCommand('seekTo', [10, true])}
-                                    className="w-14 h-14 flex items-center justify-center hover:bg-white/10 rounded-full transition-all text-white/80 hover:text-white active:scale-90"
+                                    className="size-14 flex items-center justify-center hover:bg-white/10 rounded-full transition-all text-white/80 hover:text-white active:scale-90"
                                     title="Forward 10 seconds"
                                 >
-                                    <svg viewBox="0 0 24 24" className="w-10 h-10" fill="currentColor">
+                                    <svg viewBox="0 0 24 24" className="size-10" fill="currentColor">
                                         <path d="M12 5V1l5 5-5 5V7c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6h2c0 4.42-3.58 8-8 8s-8-3.58-8-8 3.58-8 8-8z" />
                                         <text x="12" y="14.5" textAnchor="middle" fontSize="6" fontWeight="bold" stroke="none">10</text>
                                     </svg>
@@ -751,7 +751,7 @@ export const VideoLecturePage = () => {
                                 <div className="flex-1" />
 
                                 {/* Mute/Unmute */}
-                                <button
+                                <button type="button"
                                     onClick={handleMuteToggle}
                                     className={`p-2 rounded-lg transition-colors ${isMuted ? 'bg-red-500/20 text-red-400 hover:bg-red-500/30' : 'hover:bg-white/10 text-white/70 hover:text-white'}`}
                                     title={isMuted ? 'Unmute' : 'Mute'}
@@ -760,7 +760,7 @@ export const VideoLecturePage = () => {
                                 </button>
 
                                 {/* Mark Finished Button */}
-                                <button
+                                <button type="button"
                                     onClick={() => {
                                         if (currentVideo && user) {
                                             markVideoAsFinished(currentVideo.id, user.id, user.userClass, user.targetExam);
@@ -786,7 +786,7 @@ export const VideoLecturePage = () => {
 
                                 {/* Save Button */}
                                 <AuthGate mode="modal">
-                                    <button
+                                    <button type="button"
                                         onClick={handleSaveToggle}
                                         className={`px-4 py-2 rounded-xl text-sm font-medium transition-all flex items-center gap-2 ${isSaved
                                             ? 'bg-green-600/80 text-white hover:bg-green-600'
@@ -806,13 +806,13 @@ export const VideoLecturePage = () => {
                             {/* Notes Header */}
                             <div className="relative px-5 py-4 border-b border-white/5 flex items-center justify-between shrink-0 bg-white/5">
                                 <div className="flex items-center gap-3">
-                                    <div className="w-8 h-8 rounded-lg bg-primary/20 flex items-center justify-center text-primary border border-primary/20">
+                                    <div className="size-8 rounded-lg bg-primary/20 flex items-center justify-center text-primary border border-primary/20">
                                         <BookOpen size={16} />
                                     </div>
                                     <h3 className="font-bold text-base text-white">Lecture Notes</h3>
                                 </div>
                                 <div className="flex gap-3">
-                                    <button 
+                                    <button type="button" 
                                         onClick={handleExportNotes}
                                         disabled={isExporting || !noteContent.trim()}
                                         className="text-[10px] font-black uppercase tracking-widest text-white/40 hover:text-white transition-all flex items-center gap-2 px-3 py-1.5 rounded-lg hover:bg-white/5 disabled:opacity-30"
@@ -843,7 +843,7 @@ export const VideoLecturePage = () => {
                             {/* Notes Footer */}
                             <div className="relative px-5 pb-5 flex justify-end shrink-0">
                                 <AuthGate mode="modal">
-                                    <button 
+                                    <button type="button" 
                                         onClick={handleSaveNote}
                                         disabled={isSavingNote || !noteContent.trim()}
                                         className="px-8 py-3 bg-white text-black hover:bg-primary hover:text-white text-xs font-black uppercase tracking-widest rounded-xl shadow-xl shadow-black/40 transition-all active:scale-95 disabled:opacity-20 flex items-center gap-3"
@@ -867,7 +867,7 @@ export const VideoLecturePage = () => {
 
                                 {/* Search */}
                                 <div className="relative mb-4">
-                                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-white/30" />
+                                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-white/30" />
                                     <input
                                         type="text"
                                         placeholder="Search..."
@@ -877,8 +877,8 @@ export const VideoLecturePage = () => {
 
                                 {/* Filter Tabs */}
                                 <div className="flex items-center gap-2">
-                                    <button className="px-4 py-2 bg-primary/80 backdrop-blur-sm text-white text-xs font-semibold rounded-lg shadow-lg shadow-primary/20">All</button>
-                                    <button className="px-4 py-2 bg-white/5 backdrop-blur-sm hover:bg-white/10 text-white/60 text-xs font-medium rounded-lg transition-colors flex items-center gap-1">
+                                    <button type="button" className="px-4 py-2 bg-primary/80 backdrop-blur-sm text-white text-xs font-semibold rounded-lg shadow-lg shadow-primary/20">All</button>
+                                    <button type="button" className="px-4 py-2 bg-white/5 backdrop-blur-sm hover:bg-white/10 text-white/60 text-xs font-medium rounded-lg transition-colors flex items-center gap-1">
                                         Filter <ChevronDown size={12} />
                                     </button>
                                 </div>
@@ -905,7 +905,7 @@ export const VideoLecturePage = () => {
                             {/* AI Header - Exa Brand */}
                             <div className="relative px-6 py-4 border-b border-border flex items-center justify-between shrink-0 bg-white/5">
                                 <div className="flex items-center gap-3">
-                                    <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-600 to-purple-600 flex items-center justify-center shadow-lg ring-1 ring-white/20">
+                                    <div className="size-10 rounded-xl bg-gradient-to-br from-indigo-600 to-purple-600 flex items-center justify-center shadow-lg ring-1 ring-white/20">
                                         <Bot size={22} className="text-white" />
                                     </div>
                                     <div className="flex items-center gap-2">
@@ -914,14 +914,14 @@ export const VideoLecturePage = () => {
                                     </div>
                                 </div>
                                 <div className="flex items-center gap-0.5">
-                                    <button
+                                    <button type="button"
                                         onClick={() => setIsCalling(true)}
                                         title="Voice Call"
                                         className="p-2 text-white/40 hover:text-white hover:bg-white/5 rounded-lg transition-all oxygen-button"
                                     >
                                         <Phone size={18} />
                                     </button>
-                                    <button
+                                    <button type="button"
                                         onClick={() => {
                                             if (isSpeaking) {
                                                 window.speechSynthesis.cancel();
@@ -936,14 +936,14 @@ export const VideoLecturePage = () => {
                                     >
                                         <Volume2 size={18} className={isSpeaking ? 'animate-pulse' : ''} />
                                     </button>
-                                    <button
+                                    <button type="button"
                                         onClick={() => setShowSettings(!showSettings)}
                                         title="AI Settings"
                                         className={`p-2 rounded-lg transition-all oxygen-button ${showSettings ? 'text-primary bg-primary/10' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
                                     >
                                         <Settings size={18} />
                                     </button>
-                                    <button title="Close Chat" className="p-2 text-white/40 hover:text-red-400 hover:bg-red-500/10 rounded-lg transition-all oxygen-button ml-1"><X size={18} /></button>
+                                    <button type="button" title="Close Chat" className="p-2 text-white/40 hover:text-red-400 hover:bg-red-500/10 rounded-lg transition-all oxygen-button ml-1"><X size={18} /></button>
                                 </div>
 
                                 {/* Settings Dropdown */}
@@ -954,7 +954,7 @@ export const VideoLecturePage = () => {
                                         </div>
                                         <div className="p-1">
                                             {VOICE_PRESETS.slice(0, 3).map(preset => (
-                                                <button
+                                                <button type="button"
                                                     key={preset.id}
                                                     onClick={() => {
                                                         setSelectedPresetId(preset.id);
@@ -968,7 +968,7 @@ export const VideoLecturePage = () => {
                                             ))}
                                         </div>
                                         <div className="p-1 border-t border-border">
-                                            <button onClick={() => { localStorage.clear(); window.location.reload(); }} className="w-full flex items-center gap-2 px-3 py-2 text-xs text-red-400 hover:bg-red-500/10 rounded-lg transition-colors">
+                                            <button type="button" onClick={() => { localStorage.clear(); window.location.reload(); }} className="w-full flex items-center gap-2 px-3 py-2 text-xs text-red-400 hover:bg-red-500/10 rounded-lg transition-colors">
                                                 Reset AI Memory
                                             </button>
                                         </div>
@@ -983,23 +983,23 @@ export const VideoLecturePage = () => {
                                     <div className="absolute inset-0 bg-[#0d0e14]/95 backdrop-blur-3xl z-30 flex flex-col items-center justify-center animate-in fade-in duration-300">
                                         <div className="relative">
                                             <div className="absolute inset-0 animate-ping bg-primary/20 rounded-full" />
-                                            <div className="w-24 h-24 rounded-full bg-gradient-to-br from-indigo-600 to-purple-600 flex items-center justify-center shadow-2xl relative z-10 ring-1 ring-white/20">
+                                            <div className="size-24 rounded-full bg-gradient-to-br from-indigo-600 to-purple-600 flex items-center justify-center shadow-2xl relative z-10 ring-1 ring-white/20">
                                                 <Bot size={40} className="text-white" />
                                             </div>
                                         </div>
-                                        <h3 className="mt-8 text-2xl font-bold text-white tracking-tight">Calling Exa...</h3>
+                                        <h3 className="mt-8 text-2xl font-bold text-white tracking-tight">Calling Exa…</h3>
                                         <p className="text-white/40 text-sm mt-2">{isMicMuted ? 'Microphone Muted' : 'Connecting secure study session'}</p>
 
                                         <div className="flex items-center gap-6 mt-20">
-                                            <button
+                                            <button type="button"
                                                 onClick={() => setIsMicMuted(!isMicMuted)}
                                                 className={`w-14 h-14 rounded-full flex items-center justify-center transition-all ${isMicMuted ? 'bg-white text-black' : 'bg-white/5 text-white hover:bg-white/10 border border-white/10'}`}
                                             >
                                                 {isMicMuted ? <MicOff size={24} /> : <Mic size={24} />}
                                             </button>
-                                            <button
+                                            <button type="button"
                                                 onClick={() => setIsCalling(false)}
-                                                className="w-16 h-16 rounded-full bg-red-500 flex items-center justify-center text-white hover:bg-red-600 transition-all shadow-xl shadow-red-500/20 active:scale-95"
+                                                className="size-16 rounded-full bg-red-500 flex items-center justify-center text-white hover:bg-red-600 transition-all shadow-xl shadow-red-500/20 active:scale-95"
                                             >
                                                 <X size={28} />
                                             </button>
@@ -1022,7 +1022,7 @@ export const VideoLecturePage = () => {
                                             {msg.sender === 'bot' && (
                                                 <div className="flex items-center gap-1.5 ml-1">
                                                     <span className="text-[10px] font-bold text-white/30 uppercase tracking-[0.2em]">Exa</span>
-                                                    <div className="w-1 h-1 rounded-full bg-purple-500/30" />
+                                                    <div className="size-1 rounded-full bg-purple-500/30" />
                                                 </div>
                                             )}
                                             <div className={`relative px-4 py-3 rounded-2xl text-[14px] leading-relaxed shadow-lg transition-all duration-300 ${msg.sender === 'user'
@@ -1048,13 +1048,13 @@ export const VideoLecturePage = () => {
                                 {/* Loading indicator */}
                                 {isAiLoading && (
                                     <div className="flex gap-4 w-full">
-                                        <div className="w-8 h-8 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center flex-shrink-0 ring-2 ring-purple-500/20">
+                                        <div className="size-8 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center flex-shrink-0 ring-2 ring-purple-500/20">
                                             <Bot size={14} className="text-white" />
                                         </div>
                                         <div className="bg-white/5 rounded-2xl rounded-tl-sm px-5 py-3 border border-border flex items-center gap-3 shadow-lg">
-                                            <div className="w-1.5 h-1.5 bg-primary/60 rounded-full animate-bounce [animation-delay:-0.3s]" />
-                                            <div className="w-1.5 h-1.5 bg-primary/60 rounded-full animate-bounce [animation-delay:-0.15s]" />
-                                            <div className="w-1.5 h-1.5 bg-primary/60 rounded-full animate-bounce" />
+                                            <div className="size-1.5 bg-primary/60 rounded-full animate-bounce [animation-delay:-0.3s]" />
+                                            <div className="size-1.5 bg-primary/60 rounded-full animate-bounce [animation-delay:-0.15s]" />
+                                            <div className="size-1.5 bg-primary/60 rounded-full animate-bounce" />
                                         </div>
                                     </div>
                                 )}
@@ -1150,7 +1150,7 @@ export const VideoLecturePage = () => {
                                             type="button"
                                             onClick={() => fileInputRef.current?.click()}
                                             title="Add File"
-                                            className="w-10 h-10 flex items-center justify-center text-white/30 hover:text-white/60 hover:bg-white/5 rounded-full transition-all flex-shrink-0 oxygen-button"
+                                            className="size-10 flex items-center justify-center text-white/30 hover:text-white/60 hover:bg-white/5 rounded-full transition-all flex-shrink-0 oxygen-button"
                                         >
                                             <Paperclip size={20} className="-rotate-45" />
                                         </button>
@@ -1166,7 +1166,7 @@ export const VideoLecturePage = () => {
                                             <button
                                                 type="submit"
                                                 disabled={isAiLoading || !aiInput.trim()}
-                                                className="w-10 h-10 flex items-center justify-center bg-primary text-white rounded-full hover:bg-primary/80 transition-all disabled:opacity-20 disabled:grayscale shadow-lg shadow-primary/20 active:scale-95 flex-shrink-0 oxygen-button"
+                                                className="size-10 flex items-center justify-center bg-primary text-white rounded-full hover:bg-primary/80 transition-all disabled:opacity-20 disabled:grayscale shadow-lg shadow-primary/20 active:scale-95 flex-shrink-0 oxygen-button"
                                             >
                                                 {isAiLoading ? <Loader2 size={18} className="animate-spin" /> : <Send size={20} />}
                                             </button>

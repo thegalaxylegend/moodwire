@@ -253,7 +253,7 @@ export const Login = () => {
 
             {/* Background */}
             <div className="absolute inset-0 -z-10 bg-background" />
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/20 blur-[150px] rounded-full pointer-events-none -z-10" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-[600px] bg-primary/20 blur-[150px] rounded-full pointer-events-none -z-10" />
 
             <div className="glass-card relative z-10 w-full max-w-md p-8 animate-fade-in-up">
                 {/* Header */}
@@ -290,7 +290,7 @@ export const Login = () => {
                             <img
                                 src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
                                 alt="Google"
-                                className="w-5 h-5"
+                                className="size-5"
                             />
                         )}
                         {loading ? 'Signing in…' : 'Continue with Google'}
@@ -371,7 +371,7 @@ export const Login = () => {
                 {/* Toggle Sign-Up / Sign-In */}
                 <p className="text-center text-sm text-text-muted mt-4">
                     {isSignUp ? 'Already have an account?' : "Don't have an account?"}{' '}
-                    <button
+                    <button type="button"
                         onClick={() => { setIsSignUp(!isSignUp); setError(null); }}
                         className="text-primary hover:underline font-semibold"
                     >

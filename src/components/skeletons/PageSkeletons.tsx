@@ -38,7 +38,7 @@ export const ArenaSkeleton: React.FC = () => (
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[1,2,3,4].map(i => (
                 <div key={i} className="skeleton-card p-5 space-y-3 rounded-2xl">
-                    <SRound className="w-10 h-10" />
+                    <SRound className="size-10" />
                     <S className="h-7 w-16" />
                     <S className="h-3 w-20 opacity-50" />
                 </div>
@@ -49,7 +49,7 @@ export const ArenaSkeleton: React.FC = () => (
             {[1,2,3,4].map(i => (
                 <div key={i} className="skeleton-card p-6 space-y-4 rounded-2xl">
                     <div className="flex items-center gap-3">
-                        <SRound className="w-12 h-12" />
+                        <SRound className="size-12" />
                         <div className="space-y-2 flex-1">
                             <S className="h-5 w-3/4" />
                             <S className="h-3 w-1/2 opacity-50" />
@@ -69,7 +69,7 @@ export const ArenaSkeleton: React.FC = () => (
             {[1,2,3,4,5].map(i => (
                 <div key={i} className="flex items-center gap-4 py-2">
                     <S className="h-4 w-6 rounded" />
-                    <SRound className="w-9 h-9" />
+                    <SRound className="size-9" />
                     <S className="h-4 flex-1" />
                     <S className="h-4 w-16" />
                 </div>
@@ -157,8 +157,8 @@ export const StudyPlanSkeleton: React.FC = () => (
             <div className="space-y-4">
                 <div className="skeleton-card rounded-2xl p-5 space-y-4">
                     <S className="h-5 w-28" />
-                    <div className="relative w-32 h-32 mx-auto">
-                        <SRound className="w-32 h-32" />
+                    <div className="relative size-32 mx-auto">
+                        <SRound className="size-32" />
                     </div>
                     <div className="space-y-2">
                         {[1,2,3].map(i => (
@@ -173,7 +173,7 @@ export const StudyPlanSkeleton: React.FC = () => (
                     <S className="h-5 w-28" />
                     {[1,2,3].map(i => (
                         <div key={i} className="flex gap-3 items-center">
-                            <SRound className="w-8 h-8 shrink-0" />
+                            <SRound className="size-8 shrink-0" />
                             <S className="h-4 flex-1" />
                         </div>
                     ))}
@@ -190,8 +190,8 @@ export const BenchmarkingSkeleton: React.FC = () => (
         {/* Rank card */}
         <div className="skeleton-card rounded-3xl p-8 flex flex-col md:flex-row items-center gap-8">
             <div className="relative shrink-0">
-                <SRound className="w-32 h-32" />
-                <SRound className="w-14 h-14 absolute -bottom-2 -right-2 border-4 border-black/30" />
+                <SRound className="size-32" />
+                <SRound className="size-14 absolute -bottom-2 -right-2 border-4 border-black/30" />
             </div>
             <div className="flex-1 space-y-4">
                 <S className="h-8 w-48" />
@@ -223,7 +223,7 @@ export const BenchmarkingSkeleton: React.FC = () => (
             {[1,2,3,4,5,6,7].map(i => (
                 <div key={i} className="flex items-center gap-4 py-2 border-t border-white/5">
                     <S className="h-5 w-6 rounded" />
-                    <SRound className="w-9 h-9" />
+                    <SRound className="size-9" />
                     <S className="h-4 w-36" />
                     <S className="h-4 w-16 ml-auto" />
                     <S className="h-5 w-20 rounded-full" />
@@ -291,7 +291,7 @@ export const SyllabusSkeleton: React.FC = () => (
                     <div className="flex items-center justify-between">
                         <S className="h-3 w-20 opacity-50" />
                         <div className="flex gap-2">
-                            {[1,2,3].map(j => <SRound key={j} className="w-7 h-7" />)}
+                            {[1,2,3].map(j => <SRound key={j} className="size-7" />)}
                         </div>
                     </div>
                 </div>
@@ -319,7 +319,7 @@ export const SavedLecturesSkeleton: React.FC = () => (
                         <S className="h-4 w-3/4 opacity-60" />
                         <div className="flex items-center justify-between">
                             <div className="flex items-center gap-2">
-                                <SRound className="w-6 h-6" />
+                                <SRound className="size-6" />
                                 <S className="h-3 w-20 opacity-50" />
                             </div>
                             <S className="h-3 w-12 opacity-50" />
@@ -348,7 +348,7 @@ export const TimelineSkeleton: React.FC = () => (
             <div className="space-y-6 pl-16">
                 {[1,2,3,4,5,6,7].map(i => (
                     <div key={i} className="relative">
-                        <SRound className="w-5 h-5 absolute -left-[2.75rem] top-1" />
+                        <SRound className="size-5 absolute -left-[2.75rem] top-1" />
                         <div className="skeleton-card rounded-2xl p-5 space-y-3">
                             <div className="flex items-center justify-between">
                                 <S className="h-5 w-48" />
@@ -376,7 +376,7 @@ export const NotesSkeleton: React.FC = () => (
                 <div className="space-y-2 pt-2">
                     {[1,2,3,4,5,6,7].map(i => (
                         <div key={i} className="flex items-center gap-3 p-3 rounded-xl">
-                            <SRound className="w-4 h-4 shrink-0" />
+                            <SRound className="size-4 shrink-0" />
                             <S className="h-4 flex-1" />
                         </div>
                     ))}
@@ -386,7 +386,7 @@ export const NotesSkeleton: React.FC = () => (
             <div className="lg:col-span-3 skeleton-card rounded-2xl p-6 space-y-4 min-h-[500px]">
                 {/* Toolbar */}
                 <div className="flex gap-2 pb-4 border-b border-white/5">
-                    {[1,2,3,4,5,6,7,8].map(i => <SRound key={i} className="w-8 h-8" />)}
+                    {[1,2,3,4,5,6,7,8].map(i => <SRound key={i} className="size-8" />)}
                 </div>
                 <S className="h-8 w-64" />
                 <S className="h-4 w-full" />
@@ -420,7 +420,7 @@ export const AnalyticsSkeleton: React.FC = () => (
                 <div key={i} className="skeleton-card rounded-2xl p-5 space-y-3">
                     <div className="flex items-center justify-between">
                         <S className="h-3 w-20 opacity-50" />
-                        <SRound className="w-8 h-8" />
+                        <SRound className="size-8" />
                     </div>
                     <S className="h-8 w-24" />
                     <S className="h-3 w-16 opacity-40" />

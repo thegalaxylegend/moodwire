@@ -109,7 +109,7 @@ EXPECTED JSON SCHEMA:
                 mode="modal"
                 fallback={
                     <div className="glass-card p-12 text-center space-y-4">
-                        <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <div className="size-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
                             <Brain className="text-primary" size={32} />
                         </div>
                         <h2 className="text-xl font-bold text-text-main">Login to Simulate Career Paths</h2>
@@ -146,7 +146,7 @@ EXPECTED JSON SCHEMA:
                     </div>
 
                     <div className="relative z-20">
-                        <button
+                        <button type="button"
                             onClick={handleCompare}
                             disabled={isAnalyzing}
                             className="px-8 py-3 bg-gradient-to-r from-primary to-secondary text-white font-bold rounded-xl shadow-lg hover:shadow-primary/25 hover:scale-105 transition-all flex items-center gap-2 disabled:opacity-50 disabled:hover:scale-100 relative z-30"
@@ -161,7 +161,7 @@ EXPECTED JSON SCHEMA:
                 {analysis && (
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 relative animate-fade-in-up items-stretch">
                         {/* VS Badge */}
-                        <div className="absolute top-8 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden md:flex z-10 w-10 h-10 bg-background border border-border rounded-full items-center justify-center font-bold text-text-muted shadow-xl">
+                        <div className="absolute top-8 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden md:flex z-10 size-10 bg-background border border-border rounded-full items-center justify-center font-bold text-text-muted shadow-xl">
                             VS
                         </div>
 

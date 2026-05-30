@@ -76,13 +76,13 @@ export const XPProgress: React.FC<XPProgressProps> = ({ xp }) => {
                     {/* Progress head bubble (neon active point) */}
                     {progress > 1 && (
                         <div 
-                            className="absolute right-0 top-1/2 -translate-y-1/2 w-4 h-4 rounded-full border border-white flex items-center justify-center shadow-lg"
+                            className="absolute right-0 top-1/2 -translate-y-1/2 size-4 rounded-full border border-white flex items-center justify-center shadow-lg"
                             style={{
                                 backgroundColor: nextRank.color,
                                 boxShadow: `0 0 10px ${nextRank.color}, inset 0 1px 2px rgba(255,255,255,0.4)`
                             }}
                         >
-                            <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
+                            <span className="size-1.5 rounded-full bg-white animate-pulse" />
                         </div>
                     )}
                 </motion.div>

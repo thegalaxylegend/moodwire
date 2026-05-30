@@ -4,7 +4,7 @@ import { ArrowLeft, Trophy, Star, Target, BookOpen, Flame, Play, ChevronRight, Z
 import { useNavigate } from 'react-router-dom';
 import { XP_RANKS, POINT_RANKS, getCurrentSeason, getCurrentPointCycle } from '../../services/gamificationService';
 import { useState } from 'react';
-import { getRankIconSVG, RankBadge } from '../../components/gamification/RankBadge';
+import { RankIconSVG, RankBadge } from '../../components/gamification/RankBadge';
 import { useBadgeStyle } from '../../context/BadgeStyleProvider';
 import type { BadgeStyle } from '../../context/BadgeStyleProvider';
 import { useUserStore } from '../../store/userStore';
@@ -45,7 +45,7 @@ export const RankInfo = () => {
             {/* Header */}
             <header className="flex flex-col md:flex-row md:items-center justify-between gap-6">
                 <div className="flex items-center gap-6">
-                    <button
+                    <button type="button"
                         onClick={() => navigate(-1)}
                         className="p-3 hover:bg-white/5 rounded-full transition-colors text-text-muted hover:text-white border border-border/50 shadow-sm"
                     >
@@ -64,7 +64,7 @@ export const RankInfo = () => {
 
                 {/* Rank Basis Toggle */}
                 <div className="flex bg-surface/30 p-1.5 rounded-2xl border border-border/50 backdrop-blur-md self-start md:self-center">
-                    <button
+                    <button type="button"
                         onClick={() => setRankBasis('xp')}
                         className={`flex items-center gap-2 px-6 py-2.5 rounded-xl font-bold transition-all ${rankBasis === 'xp'
                             ? 'bg-primary text-white shadow-lg shadow-primary/20'
@@ -73,7 +73,7 @@ export const RankInfo = () => {
                     >
                         <Zap size={18} /> Seasonal XP
                     </button>
-                    <button
+                    <button type="button"
                         onClick={() => setRankBasis('pts')}
                         className={`flex items-center gap-2 px-6 py-2.5 rounded-xl font-bold transition-all ${rankBasis === 'pts'
                             ? 'bg-primary text-white shadow-lg shadow-primary/20'
@@ -98,7 +98,7 @@ export const RankInfo = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         <div className="p-8 flex flex-col gap-5 border border-border/40 rounded-3xl hover:border-green-500/20 transition-all bg-transparent group">
-                            <div className="w-12 h-12 rounded-2xl bg-green-500/5 flex items-center justify-center text-green-500 group-hover:bg-green-500/10 transition-colors">
+                            <div className="size-12 rounded-2xl bg-green-500/5 flex items-center justify-center text-green-500 group-hover:bg-green-500/10 transition-colors">
                                 <BookOpen size={24} />
                             </div>
                             <div className="space-y-1">
@@ -114,7 +114,7 @@ export const RankInfo = () => {
                         </div>
 
                         <div className="p-8 flex flex-col gap-5 border border-border/40 rounded-3xl hover:border-red-500/20 transition-all bg-transparent group">
-                            <div className="w-12 h-12 rounded-2xl bg-red-500/5 flex items-center justify-center text-red-500 group-hover:bg-red-500/10 transition-colors">
+                            <div className="size-12 rounded-2xl bg-red-500/5 flex items-center justify-center text-red-500 group-hover:bg-red-500/10 transition-colors">
                                 <Flame size={24} />
                             </div>
                             <div className="space-y-1">
@@ -130,7 +130,7 @@ export const RankInfo = () => {
                         </div>
 
                         <div className="p-8 flex flex-col gap-5 border border-border/40 rounded-3xl hover:border-blue-500/20 transition-all bg-transparent group">
-                            <div className="w-12 h-12 rounded-2xl bg-blue-500/5 flex items-center justify-center text-blue-500 group-hover:bg-blue-500/10 transition-colors">
+                            <div className="size-12 rounded-2xl bg-blue-500/5 flex items-center justify-center text-blue-500 group-hover:bg-blue-500/10 transition-colors">
                                 <Play size={24} />
                             </div>
                             <div className="space-y-1">
@@ -146,7 +146,7 @@ export const RankInfo = () => {
                         </div>
 
                         <div className="p-8 flex flex-col gap-5 border border-border/40 rounded-3xl hover:border-yellow-500/20 transition-all bg-transparent group">
-                            <div className="w-12 h-12 rounded-2xl bg-yellow-500/5 flex items-center justify-center text-yellow-500 group-hover:bg-yellow-500/10 transition-colors">
+                            <div className="size-12 rounded-2xl bg-yellow-500/5 flex items-center justify-center text-yellow-500 group-hover:bg-yellow-500/10 transition-colors">
                                 <Star size={24} />
                             </div>
                             <div className="space-y-1">
@@ -199,7 +199,7 @@ export const RankInfo = () => {
                                 ].map((option) => {
                                     const isActive = badgeStyle === option.id;
                                     return (
-                                        <button
+                                        <button type="button"
                                             key={option.id}
                                             onClick={() => setBadgeStyle(option.id as BadgeStyle)}
                                             className={`p-5 rounded-3xl border text-left flex flex-col justify-between gap-4 transition-all relative overflow-hidden group
@@ -313,10 +313,10 @@ export const RankInfo = () => {
                                     >
                                         <div className="flex items-center gap-4">
                                             <div 
-                                                className="w-14 h-14 rounded-2xl bg-surface/30 border border-white/5 shadow-inner flex items-center justify-center shadow-[0_0_12px_rgba(255,255,255,0.02)]"
+                                                className="size-14 rounded-2xl bg-surface/30 border border-white/5 shadow-inner flex items-center justify-center shadow-[0_0_12px_rgba(255,255,255,0.02)]"
                                                 style={{ borderColor: tier.color + '25', boxShadow: `inset 0 0 10px ${tier.color}05` }}
                                             >
-                                                {getRankIconSVG(tier.name, tier.color, 'w-8 h-8', badgeStyle)}
+                                                <RankIconSVG rankName={tier.name} color={tier.color} className="size-8" style={badgeStyle} />
                                             </div>
                                             <div>
                                                 <h3 className="text-2xl font-bold" style={{ color: tier.color }}>{tier.name}</h3>
@@ -345,7 +345,7 @@ export const RankInfo = () => {
                                                         <tr key={div.name} className="group hover:bg-white/[0.01] transition-colors">
                                                             <td className="px-6 py-5">
                                                                 <div className="flex items-center gap-3">
-                                                                    <div className="w-8 h-8 rounded-lg bg-black/10 flex items-center justify-center text-xs font-mono font-bold text-text-muted group-hover:bg-primary/10 group-hover:text-primary transition-all">
+                                                                    <div className="size-8 rounded-lg bg-black/10 flex items-center justify-center text-xs font-mono font-bold text-text-muted group-hover:bg-primary/10 group-hover:text-primary transition-all">
                                                                         {5 - dIdx}
                                                                     </div>
                                                                     <span className="font-bold text-text-main group-hover:text-white transition-colors">Division {5 - dIdx}</span>
@@ -386,10 +386,10 @@ export const RankInfo = () => {
                                     >
                                         <div className="flex items-center gap-6">
                                             <div 
-                                                className="w-24 h-24 rounded-3xl bg-surface/50 border border-white/10 shadow-2xl flex items-center justify-center group-hover:scale-110 transition-transform"
+                                                className="size-24 rounded-3xl bg-surface/50 border border-white/10 shadow-2xl flex items-center justify-center group-hover:scale-110 transition-transform"
                                                 style={{ borderColor: gmTier.color + '30', boxShadow: `inset 0 0 15px ${gmTier.color}10, 0 8px 24px -4px ${gmTier.color}20` }}
                                             >
-                                                {getRankIconSVG(gmTier.name, gmTier.color, 'w-14 h-14', badgeStyle)}
+                                                <RankIconSVG rankName={gmTier.name} color={gmTier.color} className="size-14" style={badgeStyle} />
                                             </div>
                                             <div className="space-y-2">
                                                 <h3 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#ff00ff] to-primary">
@@ -428,7 +428,7 @@ export const RankInfo = () => {
                     <Trophy className="mx-auto text-primary" size={48} />
                     <h3 className="text-2xl font-bold text-text-main">Are you ready to climb?</h3>
                     <p className="text-text-muted">Every question you answer correctly brings you closer to Grandmaster status.</p>
-                    <button
+                    <button type="button"
                         onClick={() => navigate('/dashboard/test-center')}
                         className="mt-6 px-10 py-4 bg-primary text-white rounded-2xl font-bold text-lg hover:shadow-2xl hover:shadow-primary/30 transition-all active:scale-95 flex items-center gap-2 mx-auto"
                     >

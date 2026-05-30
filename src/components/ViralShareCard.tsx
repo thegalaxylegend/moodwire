@@ -55,7 +55,7 @@ export const ViralShareCard = ({ score, total, topic, username }: ViralShareCard
                 <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
 
                 <div className="z-10 flex flex-col items-center gap-2 mt-4">
-                    <div className="w-16 h-16 rounded-full bg-white/10 flex items-center justify-center border border-white/20 backdrop-blur-md">
+                    <div className="size-16 rounded-full bg-white/10 flex items-center justify-center border border-white/20 backdrop-blur-md">
                         <Trophy size={32} className="text-yellow-400 drop-shadow-lg" />
                     </div>
                     <h3 className="text-white/80 text-sm tracking-widest uppercase font-bold">Exam Compass</h3>
@@ -91,7 +91,7 @@ export const ViralShareCard = ({ score, total, topic, username }: ViralShareCard
                 </div>
             </div>
 
-            <button
+            <button type="button"
                 onClick={handleShare}
                 disabled={generating}
                 className="flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-pink-600 to-purple-600 rounded-full font-bold text-white shadow-lg hover:shadow-pink-500/25 hover:scale-105 transition-all text-sm"

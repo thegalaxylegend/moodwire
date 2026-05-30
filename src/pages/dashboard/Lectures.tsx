@@ -511,10 +511,10 @@ export const Lectures = () => {
         return (
             <div className="flex h-[60vh] items-center justify-center flex-col gap-4">
                 <div className="relative">
-                    <div className="w-16 h-16 rounded-full border-4 border-primary/20 border-t-primary animate-spin" />
+                    <div className="size-16 rounded-full border-4 border-primary/20 border-t-primary animate-spin" />
                     <Brain className="absolute inset-0 m-auto text-primary" size={20} />
                 </div>
-                <p className="text-text-muted animate-pulse">Loading your learning journey...</p>
+                <p className="text-text-muted animate-pulse">Loading your learning journey…</p>
             </div>
         );
     }
@@ -553,7 +553,7 @@ export const Lectures = () => {
                             )}
                             {/* Pacing Mode Toggle */}
                             <div className="flex items-center gap-1 p-1 bg-white/5 border border-white/10 rounded-xl">
-                                <button
+                                <button type="button"
                                     onClick={() => setPacingMode('sequential')}
                                     className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
                                         pacingMode === 'sequential'
@@ -563,7 +563,7 @@ export const Lectures = () => {
                                 >
                                     📚 Sequential
                                 </button>
-                                <button
+                                <button type="button"
                                     onClick={() => setPacingMode('high_yield')}
                                     className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
                                         pacingMode === 'high_yield'
@@ -584,7 +584,7 @@ export const Lectures = () => {
                             <span>
                                 {remainingDays} days to exam. Switch to <strong>High-Yield</strong> mode to prioritize high-weightage chapters first.
                             </span>
-                            <button
+                            <button type="button"
                                 onClick={() => setPacingMode('high_yield')}
                                 className="ml-auto underline underline-offset-2 hover:text-amber-200"
                             >
@@ -593,7 +593,7 @@ export const Lectures = () => {
                         </div>
                     )}
 
-                    <div className="absolute -right-16 -top-16 w-48 h-48 bg-primary/20 blur-[80px] rounded-full pointer-events-none" />
+                    <div className="absolute -right-16 -top-16 size-48 bg-primary/20 blur-[80px] rounded-full pointer-events-none" />
                 </div>
 
                 {/* ── SUBJECT TABS ── */}
@@ -602,7 +602,7 @@ export const Lectures = () => {
                         const mastery = getSubjectMastery(subj);
                         const isActive = activeSubject === subj;
                         return (
-                            <button
+                            <button type="button"
                                 key={subj}
                                 onClick={() => { setActiveSubject(subj); setOpenChapterId(null); setActiveChapter(null); }}
                                 className={`relative flex items-center gap-2 px-4 py-2.5 rounded-xl border text-sm font-medium transition-all ${
@@ -668,7 +668,7 @@ export const Lectures = () => {
                                 }`}
                             >
                                 {/* Chapter Header Row */}
-                                <button
+                                <button type="button"
                                     onClick={() => state !== 'locked' && openChapter(topic, activeSubject)}
                                     disabled={state === 'locked'}
                                     className="w-full flex items-center gap-3 p-4 text-left hover:bg-white/5 transition-colors disabled:cursor-not-allowed"
@@ -796,7 +796,7 @@ export const Lectures = () => {
                                                     {topic.subtopics.map(sub => {
                                                         const isChecked = progress?.checkedSubtopics.includes(sub) || false;
                                                         return (
-                                                            <button
+                                                            <button type="button"
                                                                 key={sub}
                                                                 onClick={() => toggleSubtopic(topic.id, sub, totalSubs)}
                                                                 className={`w-full flex items-center gap-3 p-2.5 rounded-xl text-sm text-left transition-all ${
@@ -851,7 +851,7 @@ export const Lectures = () => {
 
                                                 {isClass12 && (
                                                     <div className="flex gap-2 p-1 bg-white/5 border border-white/10 rounded-xl">
-                                                        <button
+                                                        <button type="button"
                                                             onClick={() => setVideoMode('guided')}
                                                             className={`flex-1 flex items-center justify-center gap-1.5 py-2 rounded-lg text-xs font-medium transition-all ${
                                                                 videoMode === 'guided'
@@ -861,7 +861,7 @@ export const Lectures = () => {
                                                         >
                                                             🎬 Guided Sequence
                                                         </button>
-                                                        <button
+                                                        <button type="button"
                                                             onClick={() => setVideoMode('library')}
                                                             className={`flex-1 flex items-center justify-center gap-1.5 py-2 rounded-lg text-xs font-medium transition-all ${
                                                                 videoMode === 'library'
@@ -882,7 +882,7 @@ export const Lectures = () => {
                                                     ) : (
                                                         <div className="space-y-3 mt-2">
                                                             <div className="grid grid-cols-4 gap-1 p-1 bg-white/5 border border-white/10 rounded-xl">
-                                                                <button
+                                                                <button type="button"
                                                                     onClick={() => setLibraryTab('detailed')}
                                                                     className={`py-1.5 rounded-lg text-center text-[10px] sm:text-xs font-medium transition-all ${
                                                                         libraryTab === 'detailed'
@@ -892,7 +892,7 @@ export const Lectures = () => {
                                                                 >
                                                                     📖 Detailed
                                                                 </button>
-                                                                <button
+                                                                <button type="button"
                                                                     onClick={() => setLibraryTab('quick')}
                                                                     className={`py-1.5 rounded-lg text-center text-[10px] sm:text-xs font-medium transition-all ${
                                                                         libraryTab === 'quick'
@@ -902,7 +902,7 @@ export const Lectures = () => {
                                                                 >
                                                                     ⚡ Revision
                                                                 </button>
-                                                                <button
+                                                                <button type="button"
                                                                     onClick={() => setLibraryTab('topic')}
                                                                     className={`py-1.5 rounded-lg text-center text-[10px] sm:text-xs font-medium transition-all ${
                                                                         libraryTab === 'topic'
@@ -912,7 +912,7 @@ export const Lectures = () => {
                                                                 >
                                                                     🎯 Topics
                                                                 </button>
-                                                                <button
+                                                                <button type="button"
                                                                     onClick={() => setLibraryTab('pyq')}
                                                                     className={`py-1.5 rounded-lg text-center text-[10px] sm:text-xs font-medium transition-all ${
                                                                         libraryTab === 'pyq'
@@ -946,7 +946,7 @@ export const Lectures = () => {
                                                                                 <div className="flex items-center justify-between gap-3">
                                                                                     <span className="text-xs font-semibold text-white/80">{subtopicName}</span>
                                                                                     {subtopicVideos.length === 0 && (
-                                                                                        <button
+                                                                                        <button type="button"
                                                                                             onClick={() => handleDiscoverVideo(topic.id, subtopicName, activeSubject)}
                                                                                             disabled={discoveringSubtopic !== null}
                                                                                             className={`text-xs px-2.5 py-1 rounded-lg flex items-center gap-1.5 transition-all font-medium ${
@@ -986,7 +986,7 @@ export const Lectures = () => {
                                                                                 {isDiscovering && (
                                                                                     <div className="flex items-center gap-2 p-2 bg-amber-500/5 border border-amber-500/10 rounded-lg text-[10px] text-amber-300 animate-pulse">
                                                                                         <Loader2 size={10} className="animate-spin shrink-0" />
-                                                                                        <span>Searching top channels and running quality ranking...</span>
+                                                                                        <span>Searching top channels and running quality ranking…</span>
                                                                                     </div>
                                                                                 )}
                                                                             </div>
@@ -1097,7 +1097,7 @@ export const Lectures = () => {
                                                              activeChapter.videos.topicVideos.length === 0 && (
                                                                 <div className="text-center py-6 text-white/30 text-sm">
                                                                     <VideoIcon size={24} className="mx-auto mb-2 opacity-50" />
-                                                                    <p>Videos loading... try refreshing</p>
+                                                                    <p>Videos loading… try refreshing</p>
                                                                 </div>
                                                             )}
                                                         </div>
@@ -1110,7 +1110,7 @@ export const Lectures = () => {
                                         {state !== 'mastered' && (
                                             <div className="px-4 pb-4 flex flex-wrap gap-2">
                                                 {completionPct === 100 && (
-                                                    <button
+                                                    <button type="button"
                                                         onClick={async () => {
                                                             await SubtopicProgressService.setMasteryScore(userId, topic.id, 85);
                                                             refreshProgress();
@@ -1123,7 +1123,7 @@ export const Lectures = () => {
                                                     </button>
                                                 )}
                                                 {state === 'review_needed' && (
-                                                    <button
+                                                    <button type="button"
                                                         onClick={async () => {
                                                             await SubtopicProgressService.setMasteryScore(userId, topic.id, 85);
                                                             refreshProgress();
@@ -1173,7 +1173,7 @@ interface VideoCardProps {
 const VideoCard = ({ video, label, sublabel, accent, isWatched, onWatch, compact }: VideoCardProps) => {
     if (compact) {
         return (
-            <button
+            <button type="button"
                 onClick={onWatch}
                 className={`w-full flex items-center gap-3 p-2.5 rounded-xl border text-left transition-all hover:scale-[1.01] ${accent} ${
                     isWatched ? 'opacity-60' : ''
@@ -1197,7 +1197,7 @@ const VideoCard = ({ video, label, sublabel, accent, isWatched, onWatch, compact
     }
 
     return (
-        <button
+        <button type="button"
             onClick={onWatch}
             className={`w-full flex gap-3 p-3 rounded-xl border text-left transition-all hover:scale-[1.01] hover:shadow-lg group ${accent} ${
                 isWatched ? 'opacity-70' : ''
@@ -1206,7 +1206,7 @@ const VideoCard = ({ video, label, sublabel, accent, isWatched, onWatch, compact
             <div className="relative w-24 h-16 rounded-lg overflow-hidden shrink-0">
                 <img src={video.thumbnailUrl} alt={video.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                 <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-80 group-hover:opacity-100 transition-opacity">
-                    <div className="w-7 h-7 rounded-full bg-white/90 flex items-center justify-center shadow-md">
+                    <div className="size-7 rounded-full bg-white/90 flex items-center justify-center shadow-md">
                         <Play size={12} className="text-black ml-0.5" />
                     </div>
                 </div>
@@ -1248,7 +1248,7 @@ const LibraryVideoCard = ({ scoredVideo, isWatched, onWatch }: LibraryVideoCardP
     const viewCount = (video as any).viewCount;
 
     return (
-        <button
+        <button type="button"
             onClick={onWatch}
             className={`w-full flex gap-3.5 p-3.5 rounded-2xl border text-left transition-all duration-300 hover:scale-[1.01] hover:shadow-xl group bg-white/5 border-white/10 hover:bg-white/10 hover:border-white/20 ${
                 isWatched ? 'opacity-70' : ''
@@ -1262,7 +1262,7 @@ const LibraryVideoCard = ({ scoredVideo, isWatched, onWatch }: LibraryVideoCardP
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" 
                 />
                 <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-80 group-hover:opacity-100 transition-opacity">
-                    <div className="w-8 h-8 rounded-full bg-white/95 flex items-center justify-center shadow-lg transition-transform duration-300 group-hover:scale-110">
+                    <div className="size-8 rounded-full bg-white/95 flex items-center justify-center shadow-lg transition-transform duration-300 group-hover:scale-110">
                         <Play size={12} className="text-black ml-0.5 fill-black" />
                     </div>
                 </div>

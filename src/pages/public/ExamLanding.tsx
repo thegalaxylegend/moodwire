@@ -20,7 +20,7 @@ const FAQItem = ({ question, answer }: { question: string, answer: string }) => 
     const [isOpen, setIsOpen] = useState(false);
     return (
         <div className="border-b border-white/10">
-            <button 
+            <button type="button" 
                 onClick={() => setIsOpen(!isOpen)}
                 className="w-full py-6 flex items-center justify-between text-left hover:text-purple-400 transition-colors"
             >
@@ -79,6 +79,14 @@ export const ExamLanding = () => {
     const { exam } = useParams();
     const examDetail = getExamContent(exam || '');
     const [generatingPdf, setGeneratingPdf] = useState(false);
+
+    // --- Hooks must be called unconditionally, before any early returns ---
+    const { tier } = usePerformance();
+    const isElite = tier === 'elite';
+    const isLow = tier === 'low';
+    const { scrollY } = useScroll();
+    const heroY = useTransform(scrollY, [0, 500], [0, isElite ? 100 : 0]);
+    const heroOpacity = useTransform(scrollY, [0, 300], [1, 0]);
 
     if (!examDetail) {
         return <NotFoundPage />;
@@ -173,14 +181,6 @@ export const ExamLanding = () => {
         });
     }
 
-    const { tier } = usePerformance();
-    const isElite = tier === 'elite';
-    const isLow = tier === 'low';
-    
-    const { scrollY } = useScroll();
-    
-    const heroY = useTransform(scrollY, [0, 500], [0, isElite ? 100 : 0]);
-    const heroOpacity = useTransform(scrollY, [0, 300], [1, 0]);
 
     return (
         <div className={`min-h-screen bg-black text-white selection:bg-purple-500/30 overflow-x-hidden perf-tier-${tier} relative`}>
@@ -235,12 +235,12 @@ export const ExamLanding = () => {
                                 Start Your AI Mock Test 
                                 <Icons.ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
                             </Link>
-                            <button 
+                            <button type="button" 
                                 onClick={handleDownloadPDF}
                                 disabled={generatingPdf}
                                 className="px-8 py-5 bg-white/5 border border-white/10 rounded-2xl font-bold text-lg hover:bg-white/10 transition-all flex items-center gap-3 backdrop-blur-md"
                             >
-                                {generatingPdf ? <Icons.Loader2 className="w-5 h-5 animate-spin" /> : <Icons.Download className="w-5 h-5" />}
+                                {generatingPdf ? <Icons.Loader2 className="size-5 animate-spin" /> : <Icons.Download className="size-5" />}
                                 Syllabus PDF
                             </button>
                         </div>
@@ -268,15 +268,15 @@ export const ExamLanding = () => {
                         
                         {/* Static High-Quality Marketing Visual/Trust Card */}
                         <div className="relative z-10 w-full p-8 rounded-[3rem] bg-white/5 border border-white/10 backdrop-blur-2xl shadow-2xl hover:scale-105 transition-transform duration-500 will-change-transform">
-                             <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mb-8 shadow-lg">
-                                <Icons.PieChart className="w-10 h-10 text-white" />
+                             <div className="size-20 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mb-8 shadow-lg">
+                                <Icons.PieChart className="size-10 text-white" />
                              </div>
                              <h3 className="text-3xl font-black mb-4 text-white">Syllabus Mastery</h3>
                              <p className="text-gray-400 font-medium mb-8 leading-relaxed">We map every sub-topic and diagram to ensure 100% curriculum coverage for {formattedExam} 2026.</p>
                              
                              <div className="flex items-center gap-4 py-4 border-t border-white/5">
                                 <div className="p-3 bg-purple-500/10 rounded-xl">
-                                    <Icons.Activity className="w-6 h-6 text-purple-400" />
+                                    <Icons.Activity className="size-6 text-purple-400" />
                                 </div>
                                 <div className="text-sm font-bold text-gray-300">Live Accuracy Tracking</div>
                              </div>
@@ -308,9 +308,9 @@ export const ExamLanding = () => {
                             transition={{ delay: i * 0.1, duration: 0.5 }}
                             className="group p-10 rounded-[2.5rem] bg-white/5 border border-white/10 hover:border-purple-500/50 transition-all relative overflow-hidden will-change-transform"
                         >
-                            {!isLow && <div className="absolute -top-10 -right-10 w-40 h-40 bg-purple-500/5 blur-[50px] group-hover:bg-purple-500/10 transition-colors" />}
-                            <div className="w-14 h-14 bg-purple-500/10 rounded-2xl flex items-center justify-center mb-8 border border-purple-500/20 group-hover:scale-110 transition-transform">
-                                <Icons.Zap className="w-7 h-7 text-purple-400" />
+                            {!isLow && <div className="absolute -top-10 -right-10 size-40 bg-purple-500/5 blur-[50px] group-hover:bg-purple-500/10 transition-colors" />}
+                            <div className="size-14 bg-purple-500/10 rounded-2xl flex items-center justify-center mb-8 border border-purple-500/20 group-hover:scale-110 transition-transform">
+                                <Icons.Zap className="size-7 text-purple-400" />
                             </div>
                             <h3 className="text-2xl font-black mb-4 text-white uppercase tracking-tight">{usp.title}</h3>
                             <p className="text-gray-400 leading-relaxed">{usp.desc}</p>
@@ -360,7 +360,7 @@ export const ExamLanding = () => {
                     
                     <div className="bg-gradient-to-br from-purple-500/10 to-blue-500/10 rounded-[3rem] p-12 border border-white/10 relative overflow-hidden group">
                          <div className="absolute top-0 right-0 p-8">
-                            <Icons.TrendingUp className="w-20 h-20 text-purple-500/10 group-hover:text-purple-500/20 transition-colors" />
+                            <Icons.TrendingUp className="size-20 text-purple-500/10 group-hover:text-purple-500/20 transition-colors" />
                          </div>
                          <h3 className="text-2xl font-black mb-8 text-white uppercase tracking-widest">The Win Matrix</h3>
                          <div className="space-y-12">
@@ -415,7 +415,7 @@ export const ExamLanding = () => {
                         className="p-12 rounded-[3.5rem] bg-gradient-to-br from-blue-500/10 via-purple-500/5 to-transparent border border-white/10 relative overflow-hidden group shadow-2xl"
                     >
                         <div className="absolute top-0 right-0 p-8">
-                            <Icons.ShieldCheck className="w-16 h-16 text-blue-500/20 group-hover:text-blue-500/40 transition-colors" />
+                            <Icons.ShieldCheck className="size-16 text-blue-500/20 group-hover:text-blue-500/40 transition-colors" />
                         </div>
                         <h3 className="text-sm font-black text-blue-400 mb-6 tracking-[0.3em] uppercase">Strategic Winning Edge</h3>
                         <p className="text-3xl text-gray-200 leading-tight mb-12 font-black tracking-tight">
@@ -518,9 +518,9 @@ export const ExamLanding = () => {
                     </Link>
                     <div className="flex items-center gap-4 text-gray-500 font-bold uppercase tracking-[0.2em] text-xs">
                         <span>Updated 2026</span>
-                        <span className="w-1 h-1 bg-white/20 rounded-full"></span>
+                        <span className="size-1 bg-white/20 rounded-full"></span>
                         <Link to="/dashboard/rank-predictor" rel="nofollow" className="text-purple-400 hover:underline">Rank Predictor</Link>
-                        <span className="w-1 h-1 bg-white/20 rounded-full"></span>
+                        <span className="size-1 bg-white/20 rounded-full"></span>
                         <span>Official PYQ database</span>
                     </div>
                 </div>
@@ -530,10 +530,10 @@ export const ExamLanding = () => {
             <section className="py-20 px-6 max-w-7xl mx-auto">
                 <div className="p-12 md:p-20 rounded-[4rem] bg-zinc-950 border border-white/5 relative overflow-hidden group">
                     <div className="absolute top-0 right-0 p-12">
-                        <Icons.Compass className="w-32 h-32 text-white/5 group-hover:text-purple-500/10 transition-colors rotate-12" />
+                        <Icons.Compass className="size-32 text-white/5 group-hover:text-purple-500/10 transition-colors rotate-12" />
                     </div>
                     <div className="flex flex-col lg:flex-row items-center gap-16 relative z-10">
-                        <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-purple-500/50 shadow-2xl shrink-0">
+                        <div className="size-40 rounded-full overflow-hidden border-4 border-purple-500/50 shadow-2xl shrink-0">
                             <div className="w-full h-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-6xl font-black italic">A</div>
                         </div>
                         <div>

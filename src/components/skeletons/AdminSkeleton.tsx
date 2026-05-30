@@ -2,7 +2,7 @@
 
 export const StatCardSkeleton = () => (
   <div className="glass-card p-6 border border-white/5 flex items-center gap-4 animate-pulse">
-    <div className="p-3 bg-white/5 rounded-xl w-12 h-12" />
+    <div className="p-3 bg-white/5 rounded-xl size-12" />
     <div className="space-y-2 flex-1">
       <div className="h-3 w-20 bg-white/5 rounded" />
       <div className="h-6 w-16 bg-white/10 rounded" />

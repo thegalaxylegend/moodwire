@@ -189,7 +189,7 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                     {/* Toolbox Header (Mobile only toggle) - Safely outside scroll container */}
                     <div className="lg:hidden shrink-0 z-[100] px-8 py-6 flex items-center justify-between bg-[#1d1f29] border-b border-white/5 shadow-lg relative pointer-events-auto">
                         <div className="flex items-center gap-3">
-                            <div className="w-2 h-2 rounded-full bg-indigo-500 animate-pulse shadow-[0_0_10px_rgba(93,33,223,0.8)]" />
+                            <div className="size-2 rounded-full bg-indigo-500 animate-pulse shadow-[0_0_10px_rgba(93,33,223,0.8)]" />
                             <h4 className="font-newsreader italic text-2xl text-white">Control Center</h4>
                         </div>
                         <button 
@@ -219,10 +219,10 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                             {/* Bot Identity & Branding */}
                             <div className="flex items-center gap-4 py-2 mb-4 gpu-accelerate">
                                 <div className="relative group shrink-0">
-                                    <div className="w-14 h-14 rounded-[24px] bg-gradient-to-br from-[#5d21df] to-[#153ae4] flex items-center justify-center text-white shadow-[0_12px_24px_rgba(93,33,223,0.3)] overflow-hidden transition-transform group-hover:scale-105 transform-gpu">
+                                    <div className="size-14 rounded-[24px] bg-gradient-to-br from-[#5d21df] to-[#153ae4] flex items-center justify-center text-white shadow-[0_12px_24px_rgba(93,33,223,0.3)] overflow-hidden transition-transform group-hover:scale-105 transform-gpu">
                                         <Bot size={28} />
                                     </div>
-                                    <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-[#81ecff] rounded-full border-[3px] border-[#11131c] shadow-[0_0_10px_#81ecff] animate-pulse"></div>
+                                    <div className="absolute -bottom-1 -right-1 size-5 bg-[#81ecff] rounded-full border-[3px] border-[#11131c] shadow-[0_0_10px_#81ecff] animate-pulse"></div>
                                 </div>
                                 <div>
                                     <div className="flex flex-col">
@@ -254,7 +254,7 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                                 onClick={onCreateSession}
                                 className="w-full py-5 rounded-[24px] border border-indigo-500/20 bg-indigo-500/5 text-indigo-300 flex items-center justify-center gap-4 transition-all shadow-xl shadow-indigo-950/20 group hover:bg-indigo-500/10"
                             >
-                                <div className="w-8 h-8 rounded-full bg-indigo-500/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+                                <div className="size-8 rounded-full bg-indigo-500/20 flex items-center justify-center group-hover:scale-110 transition-transform">
                                     <Zap size={16} className="fill-indigo-400" />
                                 </div>
                                 <span className="font-black text-sm uppercase tracking-widest">New Discovery</span>
@@ -273,7 +273,7 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                             <div className="space-y-3 overflow-y-auto pr-2 no-scrollbar max-h-[250px]">
                                 {sessions.length === 0 ? (
                                     <div className="p-6 rounded-[24px] border border-dashed border-white/5 flex flex-col items-center justify-center text-center">
-                                        <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white/10 mb-4">
+                                        <div className="size-10 rounded-full bg-white/5 flex items-center justify-center text-white/10 mb-4">
                                             <Bookmark size={18} />
                                         </div>
                                         <p className="text-[10px] uppercase font-black tracking-widest text-white/20">No history yet</p>
@@ -281,7 +281,7 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                                 ) : (
                                     sessions.map(session => (
                                         <div key={session.id} className="group relative">
-                                            <button
+                                            <button type="button"
                                                 onClick={() => onSwitchSession(session.id)}
                                                 className={`w-full p-4 rounded-[22px] text-left transition-all border flex flex-col gap-1 relative overflow-hidden backdrop-blur-sm
                                                     ${currentSessionId === session.id 
@@ -293,7 +293,7 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                                                         {session.title}
                                                     </span>
                                                     {currentSessionId === session.id && (
-                                                        <div className="w-1.5 h-1.5 rounded-full bg-indigo-400 animate-pulse shrink-0" />
+                                                        <div className="size-1.5 rounded-full bg-indigo-400 animate-pulse shrink-0" />
                                                     )}
                                                 </div>
                                                 <span className="text-[9px] uppercase font-black text-white/10 tracking-widest">
@@ -305,7 +305,7 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                                                 )}
                                             </button>
                                             
-                                            <button 
+                                            <button type="button" 
                                                 onClick={(e) => {
                                                     e.stopPropagation();
                                                     onDeleteSession(session.id);
@@ -351,7 +351,7 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
 
                             <div className="grid grid-cols-2 gap-3 auto-rows-fr">
                                 {voicePresets.map(preset => (
-                                    <button 
+                                    <button type="button" 
                                         key={preset.id}
                                         onClick={() => onSelectPreset(preset.id)}
                                         className={`px-4 py-3 rounded-[22px] text-[10px] font-black transition-all border flex flex-col gap-1 items-start relative overflow-hidden group/voice h-full ${
@@ -385,7 +385,7 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                                     { id: 'hi', label: 'Hindi', icon: '🇮🇳' },
                                     { id: 'hinglish', label: 'Hinglish', icon: '💬' }
                                 ].map(lang => (
-                                    <button 
+                                    <button type="button" 
                                         key={lang.id}
                                         onClick={() => onSelectLanguage?.(lang.id as any)}
                                         className={`flex flex-col items-center gap-2 py-4 rounded-[22px] border transition-all relative overflow-hidden ${
@@ -421,7 +421,7 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                                 <div className="p-6 bg-white/[0.02] border border-white/5 rounded-[28px] group hover:bg-white/[0.05] transition-colors shadow-inner">
                                     <div className="flex items-center justify-between">
                                         <div className="flex items-center gap-4">
-                                            <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white/20 group-hover:text-white/40 transition-colors">
+                                            <div className="size-10 rounded-full bg-white/5 flex items-center justify-center text-white/20 group-hover:text-white/40 transition-colors">
                                                 <Clock size={20} />
                                             </div>
                                             <span className="text-xs text-white/50 font-bold uppercase tracking-widest">Focus Orbit</span>
@@ -508,7 +508,7 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                                 {isSearching && (
                                     <div className={`flex items-center gap-4 px-6 py-4 bg-[#81ecff]/5 border border-[#81ecff]/10 rounded-3xl backdrop-blur-sm ${perfTier !== 'low' ? 'animate-pulse' : ''}`}>
                                         <div className={`w-3 h-3 bg-[#81ecff] rounded-full ${perfTier !== 'low' ? 'animate-ping' : ''}`}></div>
-                                        <span className="text-xs font-black text-[#81ecff] uppercase tracking-[3px]">Mapping Knowledge...</span>
+                                        <span className="text-xs font-black text-[#81ecff] uppercase tracking-[3px]">Mapping Knowledge…</span>
                                     </div>
                                 )}
                                 
@@ -545,9 +545,9 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                                                         </div>
                                                     ) : (
                                                         <div className="flex gap-1 shrink-0">
-                                                            <div className="w-1.5 h-1.5 bg-[#81ecff] rounded-full animate-bounce [animation-delay:-0.3s]"></div>
-                                                            <div className="w-1.5 h-1.5 bg-[#81ecff]/60 rounded-full animate-bounce [animation-delay:-0.15s]"></div>
-                                                            <div className="w-1.5 h-1.5 bg-[#81ecff]/30 rounded-full animate-bounce"></div>
+                                                            <div className="size-1.5 bg-[#81ecff] rounded-full animate-bounce [animation-delay:-0.3s]"></div>
+                                                            <div className="size-1.5 bg-[#81ecff]/60 rounded-full animate-bounce [animation-delay:-0.15s]"></div>
+                                                            <div className="size-1.5 bg-[#81ecff]/30 rounded-full animate-bounce"></div>
                                                         </div>
                                                     )}
                                                     <span className="text-[10px] font-black tracking-widest text-[#81ecff]/80 uppercase font-sans">

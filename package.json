@@ -40,7 +40,8 @@
     "electron:dev": "electron .",
     "electron:build": "electron-builder build --publish never",
     "cap:android": "npx cap add android && npx cap open android",
-    "cap:sync": "npx cap sync && node scripts/clean-native-assets.js"
+    "cap:sync": "npx cap sync && node scripts/clean-native-assets.js",
+    "doctor": "npx react-doctor@latest"
   },
   "dependencies": {
     "@capacitor-community/contacts": "^7.2.0",
@@ -149,6 +150,7 @@
     "jest": "^30.4.2",
     "jsdom": "^29.1.1",
     "postcss": "^8.5.6",
+    "react-doctor": "^0.2.11",
     "sharp": "^0.34.5",
     "tailwindcss": "^3.4.17",
     "ts-jest": "^29.4.11",

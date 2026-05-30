@@ -145,7 +145,7 @@ export const BlogIndex: React.FC = () => {
 
                                 {/* Floating Reading Time */}
                                 <div className="absolute bottom-5 left-5 flex items-center gap-2 text-white/60 text-[10px] font-medium tracking-wide">
-                                    <div className="w-1.5 h-1.5 rounded-full bg-purple-500 animate-pulse" />
+                                    <div className="size-1.5 rounded-full bg-purple-500 animate-pulse" />
                                     {blog.readTime}
                                 </div>
                             </div>
@@ -187,7 +187,7 @@ export const BlogIndex: React.FC = () => {
                             </div>
 
                             {/* Corner Accent Detail */}
-                            {!isLow && <div className="absolute top-0 right-0 w-24 h-24 bg-purple-500/5 blur-[40px] rounded-full group-hover:bg-purple-500/10 transition-colors duration-700" />}
+                            {!isLow && <div className="absolute top-0 right-0 size-24 bg-purple-500/5 blur-[40px] rounded-full group-hover:bg-purple-500/10 transition-colors duration-700" />}
                             </Link>
                         </motion.div>
                     ))}

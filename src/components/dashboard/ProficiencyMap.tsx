@@ -120,15 +120,15 @@ export const ProficiencyMap = () => {
                 {/* Legend badges */}
                 <div className="flex gap-2.5">
                     <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-emerald-500/5 border border-emerald-500/10">
-                        <div className="w-1.5 h-1.5 rounded-full bg-emerald-400 shadow-[0_0_6px_rgba(52,211,153,0.6)]" />
+                        <div className="size-1.5 rounded-full bg-emerald-400 shadow-[0_0_6px_rgba(52,211,153,0.6)]" />
                         <span className="text-[9px] text-emerald-400 font-extrabold tracking-wider uppercase">Safe</span>
                     </div>
                     <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-amber-500/5 border border-amber-500/10">
-                        <div className="w-1.5 h-1.5 rounded-full bg-amber-400 shadow-[0_0_6px_rgba(251,191,36,0.6)]" />
+                        <div className="size-1.5 rounded-full bg-amber-400 shadow-[0_0_6px_rgba(251,191,36,0.6)]" />
                         <span className="text-[9px] text-amber-400 font-extrabold tracking-wider uppercase">Mid</span>
                     </div>
                     <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-rose-500/5 border border-rose-500/10">
-                        <div className="w-1.5 h-1.5 rounded-full bg-rose-400 shadow-[0_0_6px_rgba(248,113,113,0.6)]" />
+                        <div className="size-1.5 rounded-full bg-rose-400 shadow-[0_0_6px_rgba(248,113,113,0.6)]" />
                         <span className="text-[9px] text-rose-400 font-extrabold tracking-wider uppercase">Risk</span>
                     </div>
                 </div>
@@ -272,8 +272,8 @@ export const ProficiencyMap = () => {
                         )}
                         
                         {/* Tooltip arrow/triangle */}
-                        <div className="absolute top-full left-1/2 -translate-x-1/2 w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-t-[6px] border-t-slate-950/90 z-20" />
-                        <div className="absolute top-full left-1/2 -translate-x-1/2 w-0 h-0 border-l-[7px] border-l-transparent border-r-[7px] border-r-transparent border-t-[7px] border-t-white/10 z-10" />
+                        <div className="absolute top-full left-1/2 -translate-x-1/2 size-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-t-[6px] border-t-slate-950/90 z-20" />
+                        <div className="absolute top-full left-1/2 -translate-x-1/2 size-0 border-l-[7px] border-l-transparent border-r-[7px] border-r-transparent border-t-[7px] border-t-white/10 z-10" />
                     </motion.div>
                 )}
             </AnimatePresence>

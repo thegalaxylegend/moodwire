@@ -61,7 +61,7 @@ export const RootCauseInsight: React.FC<RootCauseInsightProps> = ({ insights, on
                         </div>
 
                         {/* CTA */}
-                        <button
+                        <button type="button"
                             onClick={() => onFixAction(insight.topic)}
                             className="mt-5 w-full py-2.5 bg-yellow-500/10 hover:bg-yellow-500 text-yellow-500 hover:text-white border border-yellow-500/20 rounded-xl text-xs font-bold flex items-center justify-center gap-2 transition-all active:scale-95 group/btn"
                         >

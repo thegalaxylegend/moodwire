@@ -11,7 +11,7 @@ export const DiagnosticTest = () => {
 
     return (
         <div className="flex items-center justify-center min-h-[400px]">
-            <div className="animate-pulse text-text-muted">Initializing Diagnostic Test...</div>
+            <div className="animate-pulse text-text-muted">Initializing Diagnostic Test…</div>
         </div>
     );
 };

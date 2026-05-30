@@ -160,12 +160,17 @@ function AppContent() {
   const [levelUpXp] = useState(0);
   const [isOffline, setIsOffline] = useState(false);
 
+  // eslint-disable-next-line react-doctor/effect-needs-cleanup
   useEffect(() => {
-    Network.getStatus().then((status) => setIsOffline(!status.connected));
+    let active = true;
+    Network.getStatus().then((status) => {
+      if (active) setIsOffline(!status.connected);
+    });
     const networkListener = Network.addListener('networkStatusChange', (status) => {
-      setIsOffline(!status.connected);
+      if (active) setIsOffline(!status.connected);
     });
     return () => {
+      active = false;
       networkListener.then(listener => listener.remove());
     };
   }, []);
@@ -173,14 +178,23 @@ function AppContent() {
   useEffect(() => {
     initialize();
     initAnalytics();
-    (window.requestIdleCallback || ((cb) => setTimeout(cb, 1000)))(() => {
-      trackWebVitals();
-    });
+    
+    let timerId: ReturnType<typeof setTimeout> | null = null;
+    let idleId: number | null = null;
+    
+    if (typeof window !== 'undefined') {
+      if (window.requestIdleCallback) {
+        idleId = window.requestIdleCallback(() => trackWebVitals());
+      } else {
+        timerId = setTimeout(() => trackWebVitals(), 1000);
+      }
+    }
 
     // Handle Capacitor Android Hardware Back Button
+    let backButtonListenerPromise: Promise<{ remove: () => void }> | null = null;
     if (typeof window !== 'undefined' && (window as any).Capacitor) {
-      import('@capacitor/app').then(({ App: CapApp }) => {
-        CapApp.addListener('backButton', ({ canGoBack }) => {
+      backButtonListenerPromise = import('@capacitor/app').then(({ App: CapApp }) => {
+        return CapApp.addListener('backButton', ({ canGoBack }) => {
           if (window.location.pathname !== '/' && window.location.pathname !== '/dashboard') {
             window.history.back();
           } else if (canGoBack) {
@@ -191,6 +205,18 @@ function AppContent() {
         });
       });
     }
+    
+    return () => {
+      if (idleId && window.cancelIdleCallback) {
+        window.cancelIdleCallback(idleId);
+      }
+      if (timerId) {
+        clearTimeout(timerId);
+      }
+      if (backButtonListenerPromise) {
+        backButtonListenerPromise.then(handle => handle.remove());
+      }
+    };
   }, []);
 
   return (
