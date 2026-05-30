@@ -155,7 +155,7 @@ export const ContactPage = () => {
                 </section>
 
                 {/* FAQ Schema */}
-                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema).replace(/</g, "\\u003c") }} />
             </motion.main>
 
             <Footer />
