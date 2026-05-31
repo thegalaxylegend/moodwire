@@ -7,8 +7,11 @@ const targetDirs = [
   path.resolve(cwd, 'android/app/src/main/assets/public'),
   path.resolve(cwd, 'ios/App/App/public')
 ];
-
 const patternsToRemove = [
+  'sherpa-onnx-wasm-main-tts.wasm',
+  'espeak-ng-data.tar.bz2',
+  'espeak-ng-data',
+  'assets',
   'local-db.json',
   'question-db.json',
   'seo-manifest.json',
@@ -18,6 +21,7 @@ const patternsToRemove = [
   'topic-content-db.json',
   'blog',
   'jee-mains',
+  'jee-advanced',
   'neet',
   'class-10',
   'class-11',
@@ -32,6 +36,8 @@ const patternsToRemove = [
   'models',
   'about',
   'contact',
+  'privacy',
+  'terms',
   'founder.jpg',
   'og-image.png',
   'server'
