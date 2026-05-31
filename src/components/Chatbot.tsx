@@ -221,10 +221,11 @@ export const Chatbot = () => {
                 setIsTTSLoading(false);
                 
                 setIsSpeaking(true);
-                await ttsManager.speak(cleanText, finalPreset.rate || 1.0, finalPreset.modelUrl, finalPreset.tokensUrl);
+                await ttsManager.speak(cleanText, finalPreset.rate || 1.0, finalPreset.pitch || 1.0, finalPreset.modelUrl, finalPreset.tokensUrl);
                 setIsSpeaking(false);
                 return; 
             } catch (err) {
+
                 console.warn("[Chatbot] Neural TTS failed, shifting to system fallback:", err);
                 setIsTTSLoading(false);
             }
@@ -378,9 +379,6 @@ export const Chatbot = () => {
                     lastUpdateRef.current = Date.now();
                     spokenUpToRef.current = 0;
 
-                    const displayedTextRef = { current: "" };
-                    let isStreamActive = true;
-
                     const speakPending = (isFinal = false) => {
                         if (isMuted) return; // Silent Buffer: Don't even process if muted
 
@@ -402,46 +400,10 @@ export const Chatbot = () => {
                         }
                     };
 
-                    // Premium liquid character reveal queue — delivers a steady stream of characters
-                    // at high frequency (16ms) to produce an ultra-fluid, continuous water-like flow
-                    const runTypingLoop = new Promise<void>((resolve) => {
-                        const typeNext = () => {
-                            const raw = streamingTextRef.current;
-                            const disp = displayedTextRef.current;
-
-                            if (disp.length < raw.length) {
-                                const remaining = raw.slice(disp.length);
-                                const diff = raw.length - disp.length;
-
-                                // Highly fluid dynamic character stream
-                                let charsToTake = 2; // base speed: 2 chars per tick
-                                if (diff > 400) charsToTake = 12; // catch up fast if heavily lagging
-                                else if (diff > 150) charsToTake = 6;
-                                else if (diff > 50) charsToTake = 3;
-
-                                displayedTextRef.current += remaining.slice(0, charsToTake);
-
-                                if (!botMessageAdded && displayedTextRef.current.trim()) {
-                                    addMessage({ id: botId, text: displayedTextRef.current, sender: 'bot', isStreaming: true, language: streamLanguage });
-                                    botMessageAdded = true;
-                                }
-                                if (botMessageAdded) {
-                                    setMessages((prev: Message[]) => prev.map(m =>
-                                        m.id === botId ? { ...m, text: displayedTextRef.current, isStreaming: true, language: streamLanguage } : m
-                                    ));
-                                }
-
-                                // 16ms interval matches monitor refresh ticks for cinematic fluid updates
-                                const delay = diff > 150 ? 10 : 16;
-                                setTimeout(typeNext, delay);
-                            } else if (isStreamActive) {
-                                setTimeout(typeNext, 16);
-                            } else {
-                                resolve();
-                            }
-                        };
-                        typeNext();
-                    });
+                    let lastRenderTime = 0;
+                    // Render throttles adjusted to device capability (low, mid, elite)
+                    // Low: 120ms (8 fps), Balanced: 60ms (16 fps), Elite: 30ms (33 fps)
+                    const RENDER_THROTTLE = perfTier === 'low' ? 120 : perfTier === 'balanced' ? 60 : 30;
 
                     for await (const chunk of (response as any)) {
                         // Normalize both Groq format {choices[0].delta.content} and Gemini passthrough
@@ -450,11 +412,26 @@ export const Chatbot = () => {
                             ?? "";
                         if (content) {
                             streamingTextRef.current += content;
+                            
+                            // Speak sentences as they become ready
                             speakPending();
+
+                            // Dynamic, throttled client reveal
+                            const now = Date.now();
+                            if (now - lastRenderTime >= RENDER_THROTTLE) {
+                                if (!botMessageAdded && streamingTextRef.current.trim()) {
+                                    addMessage({ id: botId, text: streamingTextRef.current, sender: 'bot', isStreaming: true, language: streamLanguage });
+                                    botMessageAdded = true;
+                                }
+                                if (botMessageAdded) {
+                                    setMessages((prev: Message[]) => prev.map(m =>
+                                        m.id === botId ? { ...m, text: streamingTextRef.current, isStreaming: true, language: streamLanguage } : m
+                                    ));
+                                }
+                                lastRenderTime = now;
+                            }
                         }
                     }
-                    isStreamActive = false;
-                    await runTypingLoop;
 
                     fullText = streamingTextRef.current;
                     speakPending(true); // Final check for any remaining text

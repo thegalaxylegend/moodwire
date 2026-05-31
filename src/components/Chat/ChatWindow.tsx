@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
-import { X, Bot, Phone, Volume2, Trash2, Zap, LayoutDashboard, Clock, Target, Menu, Bookmark } from 'lucide-react';
+import { X, Bot, Phone, Volume2, Trash2, Zap, LayoutDashboard, Clock, Target, Menu, Bookmark, Loader2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { QuickReplies } from './QuickReplies';
 import { MessageBubble } from './MessageBubble';
@@ -105,15 +105,18 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
         const cleaned = cleanTextForSpeech(text);
         
         const activeLanguage = language || selectedLanguage;
-        // Find a neural preset matching the active language
-        const preset = VOICE_PRESETS.find(p => p.lang === activeLanguage && p.isNeural)
-            || VOICE_PRESETS.find(p => p.lang === activeLanguage)
-            || VOICE_PRESETS[0];
+        // Find user selected preset if it matches the active language, otherwise fallback to language defaults
+        const selectedPreset = VOICE_PRESETS.find(p => p.id === selectedPresetId);
+        const preset = (selectedPreset && selectedPreset.lang === activeLanguage)
+            ? selectedPreset
+            : VOICE_PRESETS.find(p => p.lang === activeLanguage && p.isNeural)
+                || VOICE_PRESETS.find(p => p.lang === activeLanguage)
+                || VOICE_PRESETS[0];
 
         try {
             if (preset && preset.isNeural) {
                 await ttsManager.init(preset.modelUrl, preset.tokensUrl);
-                await ttsManager.speak(cleaned, preset.rate || 1.0, preset.modelUrl, preset.tokensUrl);
+                await ttsManager.speak(cleaned, preset.rate || 1.0, preset.pitch || 1.0, preset.modelUrl, preset.tokensUrl);
             } else {
                 throw new Error("No neural preset");
             }
@@ -370,6 +373,7 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                                 {voicePresets.map(preset => (
                                     <button type="button" 
                                         key={preset.id}
+                                        disabled={selectedPresetId === preset.id && isTTSLoading}
                                         onClick={() => onSelectPreset(preset.id)}
                                         className={`px-4 py-3 rounded-[22px] text-[10px] font-black transition-all border flex flex-col gap-1 items-start relative overflow-hidden group/voice h-full ${
                                             selectedPresetId === preset.id 
@@ -377,10 +381,17 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                                             : 'bg-white/[0.03] text-white/40 border-white/5 hover:bg-white/[0.08] hover:text-white/70'
                                         }`}
                                     >
-                                        <span className="relative z-10">{preset.name.replace('Exa ', '')}</span>
-                                        <span className="text-[8px] uppercase opacity-40 font-bold relative z-10 leading-none">{preset.gender}</span>
+                                        <span className="relative z-10 flex items-center gap-1.5">
+                                            {preset.name.replace('Exa ', '')}
+                                            {selectedPresetId === preset.id && isTTSLoading && (
+                                                <Loader2 size={10} className="animate-spin text-white/90" />
+                                            )}
+                                        </span>
+                                        <span className="text-[8px] uppercase opacity-40 font-bold relative z-10 leading-none">
+                                            {selectedPresetId === preset.id && isTTSLoading ? 'Activating...' : preset.gender}
+                                        </span>
                                         {selectedPresetId === preset.id && (
-                                            <div className="absolute inset-0 bg-white/10 animate-pulse"></div>
+                                            <div className={`absolute inset-0 bg-white/10 ${isTTSLoading ? 'animate-pulse bg-white/20' : 'animate-pulse'}`}></div>
                                         )}
                                     </button>
                                 ))}

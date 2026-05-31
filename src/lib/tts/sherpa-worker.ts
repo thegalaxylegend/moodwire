@@ -1,6 +1,6 @@
 // src/lib/tts/sherpa-worker.ts
 
-const SHERPA_ONNX_WASM_JS_URL = '/sherpa-onnx-wasm-main-tts.js?v=' + Date.now();
+const SHERPA_ONNX_WASM_JS_URL = '/sherpa-onnx-wasm-main-tts.js';
 
 let tts: OfflineTts | null = null;
 let wasmModule: any = null;

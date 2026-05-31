@@ -435,96 +435,111 @@ export const MessageBubble: React.FC<MessageBubbleProps> = React.memo(({ message
 
     return (
         <div className={`flex w-full mb-6 ${isBot ? 'justify-start' : 'justify-end'}`}>
-            <div className={`flex items-end max-w-[92%] md:max-w-[70%] gap-1.5 md:gap-2 ${isBot ? 'flex-row' : 'flex-row-reverse'}`}>
+            <div className={`flex items-end max-w-[92%] md:max-w-[75%] gap-2.5 md:gap-3.5 relative group/bubble ${isBot ? 'flex-row' : 'flex-row-reverse'}`}>
                 {/* Avatar */}
-                <div className={`flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center shadow-lg transition-all duration-500 hover:scale-110 relative mb-1
+                <div className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center shadow-lg transition-all duration-500 hover:scale-110 relative mb-1
                     ${isBot ? 'bg-gradient-to-br from-[#5d21df] to-[#153ae4]' : 'bg-[#cdbdff]'}`}>
                     {isBot ? (
                         <>
-                            <Bot size={14} className="text-white relative z-10" />
+                            <Bot size={15} className="text-white relative z-10" />
                             {perfTier !== 'low' && (
                                 <div className="absolute inset-x-[-2px] inset-y-[-2px] bg-indigo-500/20 rounded-full animate-pulse blur-sm" />
                             )}
                         </>
                     ) : (
-                        <User size={14} className="text-[#11131c]" />
+                        <User size={15} className="text-[#11131c]" />
                     )}
                 </div>
 
                 {/* Message Content Container */}
                 <div className="flex flex-col min-w-0">
-                    <div className={`relative px-4 pt-3 pb-2 text-[14px] w-fit leading-relaxed shadow-lg transition-all duration-300 font-manrope
-                        ${isBot 
-                            ? 'bg-[#32343e]/80 backdrop-blur-md border border-white/5 text-gray-100 rounded-2xl rounded-bl-sm pr-14' 
-                            : 'bg-gradient-to-br from-[#5d21df] to-[#4318c4] text-white rounded-2xl rounded-br-sm shadow-indigo-500/20 pr-16'}
-                        ${!message.text && !message.image ? 'hidden' : ''}`}>
-                        
-                        {message.image && (
-                            <div className="mb-2 rounded-xl overflow-hidden border border-white/5 shadow-2xl">
-                                <img src={message.image} alt="User upload" className="max-w-full h-auto object-contain max-h-64" />
-                            </div>
-                        )}
+                    <div className="flex items-end gap-2 md:gap-3">
+                        <div className={`relative px-4 pt-3 pb-2 text-[14px] w-fit leading-relaxed shadow-lg transition-all duration-300 font-manrope
+                            ${isBot 
+                                ? 'bg-[#32343e]/80 backdrop-blur-md border border-white/5 text-gray-100 rounded-2xl rounded-bl-sm' 
+                                : 'bg-gradient-to-br from-[#5d21df] to-[#4318c4] text-white rounded-2xl rounded-br-sm shadow-indigo-500/20'}
+                            ${!message.text && !message.image ? 'hidden' : ''}`}>
+                            
+                            {message.image && (
+                                <div className="mb-2 rounded-xl overflow-hidden border border-white/5 shadow-2xl">
+                                    <img src={message.image} alt="User upload" className="max-w-full h-auto object-contain max-h-64" />
+                                </div>
+                            )}
 
-                        <div className={`prose prose-invert prose-xs max-w-none 
-                            prose-p:my-0 prose-p:leading-relaxed prose-pre:bg-transparent prose-pre:border-none prose-pre:p-0
-                            prose-code:text-[#cdbdff]/90 prose-code:bg-white/10 prose-code:px-1 prose-code:rounded
-                            prose-strong:font-black ${!isBot ? 'prose-p:text-white prose-strong:text-white prose-headings:text-white' : ''}
-                            ${message.isStreaming && isBot ? 'is-streaming' : ''}`}>
-                            {message.isStreaming && isBot ? (
-                                <StreamingMessage
-                                    text={message.text}
-                                    remarkPlugins={remarkPlugins as any}
-                                    rehypePlugins={rehypePlugins as any}
-                                    components={components as any}
-                                />
-                            ) : (
-                                <ReactMarkdown 
-                                    remarkPlugins={remarkPlugins as any} 
-                                    rehypePlugins={rehypePlugins as any}
-                                    components={components as any}
+                            <div className={`prose prose-invert prose-xs max-w-none 
+                                prose-p:my-0 prose-p:leading-relaxed prose-pre:bg-transparent prose-pre:border-none prose-pre:p-0
+                                prose-code:text-[#cdbdff]/90 prose-code:bg-white/10 prose-code:px-1 prose-code:rounded
+                                prose-strong:font-black ${!isBot ? 'prose-p:text-white prose-strong:text-white prose-headings:text-white' : ''}
+                                ${message.isStreaming && isBot ? 'is-streaming' : ''}`}>
+                                {message.isStreaming && isBot ? (
+                                    <StreamingMessage
+                                        text={message.text}
+                                        remarkPlugins={remarkPlugins as any}
+                                        rehypePlugins={rehypePlugins as any}
+                                        components={components as any}
+                                    />
+                                ) : (
+                                    <ReactMarkdown 
+                                        remarkPlugins={remarkPlugins as any} 
+                                        rehypePlugins={rehypePlugins as any}
+                                        components={components as any}
+                                    >
+                                        {message.text}
+                                    </ReactMarkdown>
+                                )}
+                            </div>
+
+                            {message.link && (
+                                <Link 
+                                    to={message.link} 
+                                    className={`mt-3 flex items-center justify-between p-2 rounded-lg border transition-all group no-underline
+                                        ${!isBot 
+                                            ? 'bg-white/10 border-white/20 text-white hover:bg-white/20' 
+                                            : 'bg-white/5 border-white/10 text-[#cdbdff] hover:bg-white/10'}`}
                                 >
-                                    {message.text}
-                                </ReactMarkdown>
+                                    <span className="font-bold text-[10px] uppercase tracking-widest">{message.linkText || "View Detail"}</span>
+                                    <ArrowRight size={12} className="group-hover:translate-x-1 transition-transform" />
+                                </Link>
                             )}
                         </div>
 
-                        {message.link && (
-                            <Link 
-                                to={message.link} 
-                                className={`mt-3 flex items-center justify-between p-2 rounded-lg border transition-all group no-underline
-                                    ${!isBot 
-                                        ? 'bg-white/10 border-white/20 text-white hover:bg-white/20' 
-                                        : 'bg-white/5 border-white/10 text-[#cdbdff] hover:bg-white/10'}`}
-                            >
-                                <span className="font-bold text-[10px] uppercase tracking-widest">{message.linkText || "View Detail"}</span>
-                                <ArrowRight size={12} className="group-hover:translate-x-1 transition-transform" />
-                            </Link>
+                        {/* Speaking Button on the Right Side */}
+                        {isBot && onSpeak && !message.isStreaming && (
+                            <div className="flex-shrink-0 mb-1">
+                                <button type="button" 
+                                    onClick={(e) => {
+                                        e.stopPropagation();
+                                        onSpeak(message.text, message.id, message.language);
+                                    }}
+                                    className={`size-7 md:size-8 rounded-full flex items-center justify-center transition-all duration-500 border relative group/speak
+                                        ${speakingId === message.id 
+                                            ? 'bg-gradient-to-br from-[#5d21df] to-[#153ae4] border-transparent text-white shadow-[0_0_15px_rgba(93,33,223,0.5)] scale-105' 
+                                            : 'bg-white/[0.02] border-white/5 text-white/40 hover:text-white hover:border-[#5d21df]/40 hover:bg-white/[0.06] hover:scale-110'
+                                        }`}
+                                    title={speakingId === message.id ? "Stop Reading" : "Read Aloud"}
+                                >
+                                    {speakingId === message.id ? (
+                                        <div className="flex gap-0.5 items-center justify-center h-2.5 relative z-10">
+                                            <span className="w-0.5 h-2 bg-white rounded-full animate-wave-1" />
+                                            <span className="w-0.5 h-1.5 bg-white rounded-full animate-wave-2 [animation-delay:-0.2s]" />
+                                            <span className="w-0.5 h-2.5 bg-white rounded-full animate-wave-3 [animation-delay:-0.4s]" />
+                                            <span className="w-0.5 h-1 bg-white rounded-full animate-wave-1 [animation-delay:-0.1s]" />
+                                        </div>
+                                    ) : (
+                                        <Volume2 size={13} className="transition-transform group-hover/speak:rotate-12 duration-300 relative z-10 md:size-[14px]" />
+                                    )}
+                                    
+                                    {/* Inner animated halo ring */}
+                                    {speakingId === message.id && perfTier !== 'low' && (
+                                        <div className="absolute inset-x-[-3px] inset-y-[-3px] border border-indigo-400/40 rounded-full animate-ping opacity-60 pointer-events-none" />
+                                    )}
+                                </button>
+                            </div>
                         )}
-                        
                     </div>
 
-                    {/* Meta Row: Timestamp & Play Button (Outside Box) */}
+                    {/* Meta Row: Timestamp Only */}
                     <div className={`flex items-center gap-1.5 mt-1 ${isBot ? 'self-start' : 'self-end flex-row-reverse'}`}>
-                        {isBot && onSpeak && !message.isStreaming && (
-                            <button type="button" 
-                                onClick={(e) => {
-                                    e.stopPropagation();
-                                    onSpeak(message.text, message.id, message.language);
-                                }}
-                                className={`message-play-btn ${speakingId === message.id ? 'playing' : ''}`}
-                                title={speakingId === message.id ? "Pause" : "Listen"}
-                            >
-                                {speakingId === message.id ? (
-                                    <div className="flex gap-0.5 items-center justify-center h-2">
-                                        <span className="w-0.5 h-1.5 bg-current animate-wave-1 rounded-full" />
-                                        <span className="w-0.5 h-1 bg-current animate-wave-2 rounded-full" />
-                                        <span className="w-0.5 h-2 bg-current animate-wave-3 rounded-full" />
-                                    </div>
-                                ) : (
-                                    <Volume2 size={13} />
-                                )}
-                            </button>
-                        )}
                         <span className={`text-[9px] font-bold tabular-nums uppercase tracking-tight ${isBot ? 'text-white/20' : 'text-white/40'}`}>
                             {new Date(message.id).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
                         </span>

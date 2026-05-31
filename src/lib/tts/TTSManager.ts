@@ -245,6 +245,9 @@ export class TTSManager {
     private activeSources: AudioBufferSourceNode[] = [];
     private initializationPromise: Promise<void> | null = null;
     private loadedModelUrl: string | null = null;
+    private espeakLoaded = false;
+    private currentPitch = 1.0;
+    private speakQueue: Promise<void> = Promise.resolve();
 
     // Default URLs
     private readonly DEFAULT_MODEL_URL = 'https://huggingface.co/csukuangfj/vits-piper-en_US-amy-low/resolve/main/en_US-amy-low.onnx';
@@ -270,19 +273,30 @@ export class TTSManager {
 
         this.initializationPromise = (async () => {
             try {
-                // 1. Fetch models and espeak-ng-data files (using cache if available)
-                const [model, tokens, ...espeakBuffers] = await Promise.all([
+                // 1. Fetch models (using cache if available)
+                const [model, tokens] = await Promise.all([
                     this.fetchWithCache(urlToLoad),
-                    this.fetchWithCache(tokensToLoad),
-                    ...ESPEAK_FILES.map(file => this.fetchWithCache(`/espeak-ng-data/${file}`))
+                    this.fetchWithCache(tokensToLoad)
                 ]);
 
-                const espeakData = ESPEAK_FILES.map((filename, i) => ({
-                    filename,
-                    buffer: espeakBuffers[i]
-                }));
+                let espeakData: { filename: string; buffer: ArrayBuffer }[] | undefined = undefined;
+                const transferList: ArrayBuffer[] = [model, tokens];
 
-                // 2. Initialize Worker only if not already spawned
+                // 2. Fetch and transfer espeak-ng-data files ONLY once to optimize startup latency and memory usage
+                if (!this.espeakLoaded) {
+                    console.log('[TTSManager] First-time loading espeak-ng-data files...');
+                    const espeakBuffers = await Promise.all(
+                        ESPEAK_FILES.map(file => this.fetchWithCache(`/espeak-ng-data/${file}`))
+                    );
+                    espeakData = ESPEAK_FILES.map((filename, i) => ({
+                        filename,
+                        buffer: espeakBuffers[i]
+                    }));
+                    transferList.push(...espeakBuffers);
+                    this.espeakLoaded = true;
+                }
+
+                // 3. Initialize Worker only if not already spawned
                 if (!this.worker) {
                     console.log('[TTSManager] Spawning new worker...');
                     this.worker = new Worker(new URL('./sherpa-worker.ts', import.meta.url));
@@ -317,7 +331,7 @@ export class TTSManager {
                             espeakData,
                             sampleRate: 22050
                         }
-                    });
+                    }, transferList);
                 });
             } catch (error) {
                 console.error('[TTSManager] Initialization failed:', error);
@@ -380,7 +394,9 @@ export class TTSManager {
         }
     }
 
-    async speak(text: string, speed = 1.0, modelUrl?: string, tokensUrl?: string) {
+    private async speakInternal(text: string, speed = 1.0, pitch = 1.0, modelUrl?: string, tokensUrl?: string) {
+        this.currentPitch = pitch;
+
         if (!this.isInitialized || (modelUrl && modelUrl !== this.loadedModelUrl)) {
             await this.init(modelUrl, tokensUrl);
         }
@@ -401,11 +417,26 @@ export class TTSManager {
             };
 
             this.worker.addEventListener('message', handleMessage);
+
+            // Speed compensation formula: Generated Speed = Requested Speed / Pitch Factor
+            // This maintains perfect timing when the playbackRate is shifted inside AudioContext playout.
+            const ttsSpeed = speed / pitch;
+
             this.worker.postMessage({
                 type: 'GENERATE',
-                payload: { text, speed }
+                payload: { text, speed: ttsSpeed }
             });
         });
+    }
+
+    async speak(text: string, speed = 1.0, pitch = 1.0, modelUrl?: string, tokensUrl?: string) {
+        // Queue the speech sequentially to prevent concurrent worker thread collisions
+        this.speakQueue = this.speakQueue.then(() => {
+            return this.speakInternal(text, speed, pitch, modelUrl, tokensUrl);
+        }).catch(err => {
+            console.error("[TTSManager] Error in speech queue:", err);
+        });
+        return this.speakQueue;
     }
 
     private async playAudio(samples: Float32Array, sampleRate: number) {
@@ -424,6 +455,10 @@ export class TTSManager {
 
         const source = this.audioContext.createBufferSource();
         source.buffer = buffer;
+
+        // Apply native pitch shifting directly inside the AudioContext playout chain
+        source.playbackRate.value = this.currentPitch;
+
         source.connect(this.audioContext.destination);
         
         this.activeSources.push(source);
@@ -443,6 +478,9 @@ export class TTSManager {
             try { source.stop(); } catch (e) {}
         });
         this.activeSources = [];
+        
+        // Reset the sequential speech queue to a freshly resolved state
+        this.speakQueue = Promise.resolve();
         
         if (this.audioContext?.state === 'running') {
             this.audioContext.suspend();
