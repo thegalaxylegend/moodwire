@@ -29,7 +29,7 @@ if (typeof window !== 'undefined') {
 // Initialize Firestore with modern persistent caching when in browser
 export const db = typeof window !== 'undefined'
     ? initializeFirestore(app, {
-        cache: persistentLocalCache({
+        localCache: persistentLocalCache({
             tabManager: persistentMultipleTabManager()
         })
       })
