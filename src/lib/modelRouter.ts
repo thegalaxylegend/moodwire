@@ -239,6 +239,16 @@ class ModelRouter {
     if (this.blockedKeysForModel.has(stateKey)) {
       return false;
     }
+    if (provider === 'groq') {
+      // BKC Key (Key 7, index 6) only supports llama-3.3-70b-versatile
+      if (keyIndex === 6 && modelId !== 'llama-3.3-70b-versatile') {
+        return false;
+      }
+      // MoodWire Key (Key 8, index 7) only supports llama-3.1-8b-instant
+      if (keyIndex === 7 && modelId !== 'llama-3.1-8b-instant') {
+        return false;
+      }
+    }
     if (provider === 'gemini') {
       const isProOrGemma4 = modelId === 'gemini-2.5-pro' || modelId === 'gemma-4-31b-it';
       if (isProOrGemma4 && keyIndex < 4) {

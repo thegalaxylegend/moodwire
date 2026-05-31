@@ -265,6 +265,12 @@ export async function onRequestPost({ request, env }: { request: Request; env: E
         if (await isDead(kv, modelId, ki)) continue;
         if (await isOnCooldown(kv, modelId, ki)) continue;
 
+        // Restrict specific Groq keys from being used on non-matching models
+        if (spec.provider === 'groq') {
+          if (ki === 6 && modelId !== 'llama-3.3-70b-versatile') continue;
+          if (ki === 7 && modelId !== 'llama-3.1-8b-instant') continue;
+        }
+
         try {
           const res = await callProvider(modelId, spec.provider, keys[ki], messages, options);
 
