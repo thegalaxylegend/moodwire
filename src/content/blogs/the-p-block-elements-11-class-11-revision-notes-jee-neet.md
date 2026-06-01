@@ -3,11 +3,11 @@ heroImage: "/blog-images/the-p-block-elements-11-class-11-revision-notes-jee-nee
 title: "The P Block Elements Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
 description: "The P Block Elements Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/the-p-block-elements-11-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 20, 2026*
+*Last Updated: June 1, 2026*
 
 ## 📑 Table of Contents
 

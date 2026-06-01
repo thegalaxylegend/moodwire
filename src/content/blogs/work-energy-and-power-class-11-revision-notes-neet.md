@@ -3,11 +3,11 @@ heroImage: "/blog-images/work-energy-and-power-class-11-revision-notes-neet.webp
 title: "Work Energy And Power Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Work Energy And Power Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/work-energy-and-power-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 20, 2026*
+*Last Updated: June 1, 2026*
 
 ## 📑 Table of Contents
 

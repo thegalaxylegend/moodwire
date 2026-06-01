@@ -3,11 +3,11 @@ heroImage: "/blog-images/hydrocarbons-class-11-revision-notes-neet.webp"
 title: "Hydrocarbons Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
 description: "Hydrocarbons Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/hydrocarbons-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 20, 2026*
+*Last Updated: June 1, 2026*
 
 ## 📑 Table of Contents
 

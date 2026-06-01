@@ -1,42 +1,42 @@
 {
   "meta-llama/llama-4-scout-17b-16e-instruct_2": {
-    "requests": 20,
-    "lastReset": 1778813767113
-  },
-  "meta-llama/llama-4-scout-17b-16e-instruct_3": {
-    "requests": 28,
-    "lastReset": 1778813767279
-  },
-  "llama-3.3-70b-versatile_4": {
-    "requests": 3,
-    "lastReset": 1778813767451
+    "requests": 2,
+    "lastReset": 1780285874367
   },
   "meta-llama/llama-4-scout-17b-16e-instruct_4": {
-    "requests": 22,
-    "lastReset": 1778813767578
+    "requests": 3,
+    "lastReset": 1780285874760
   },
   "meta-llama/llama-4-scout-17b-16e-instruct_1": {
-    "requests": 28,
-    "lastReset": 1778813767751
+    "requests": 5,
+    "lastReset": 1780285874777
   },
-  "meta-llama/llama-4-scout-17b-16e-instruct_0": {
-    "requests": 10,
-    "lastReset": 1778813768455
-  },
-  "llama-3.3-70b-versatile_3": {
+  "meta-llama/llama-4-scout-17b-16e-instruct_3": {
     "requests": 2,
-    "lastReset": 1778813768485
+    "lastReset": 1780285875813
   },
-  "llama-3.3-70b-versatile_0": {
-    "requests": 6,
-    "lastReset": 1778813777114
+  "gemma-4-31b-it_0": {
+    "requests": 3,
+    "lastReset": 1780286017603
   },
-  "llama-3.3-70b-versatile_2": {
-    "requests": 6,
-    "lastReset": 1778813789304
+  "gemma-4-31b-it_1": {
+    "requests": 2,
+    "lastReset": 1780286090609
   },
-  "llama-3.3-70b-versatile_1": {
-    "requests": 1,
-    "lastReset": 1779074980709
+  "gemma-4-31b-it_2": {
+    "requests": 2,
+    "lastReset": 1780286147616
+  },
+  "gemma-4-31b-it_3": {
+    "requests": 2,
+    "lastReset": 1780286244093
+  },
+  "gemma-4-31b-it_4": {
+    "requests": 2,
+    "lastReset": 1780286337085
+  },
+  "gemma-4-31b-it_5": {
+    "requests": 2,
+    "lastReset": 1780286436315
   }
 }

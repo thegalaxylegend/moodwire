@@ -3,11 +3,11 @@ heroImage: "/blog-images/ray-optics-class-12-quick-class-12-revision-notes-jee-n
 title: "Ray Optics Quick Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Ray Optics Quick Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/ray-optics-class-12-quick-class-12-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 20, 2026*
+*Last Updated: June 1, 2026*
 
 ## 📑 Table of Contents
 

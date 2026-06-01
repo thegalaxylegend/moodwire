@@ -3,7 +3,7 @@ heroImage: "/blog-images/laws-of-motion-common-mistakes-class-11-revision-notes-
 title: "Laws Of Motion Common Mistakes Class 11 Exam Prep Revision — Grandmaster Guide"
 description: "Laws Of Motion Common Mistakes Class 11 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
 category: "Exam Notes"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet"
 manualReview: false
 ---

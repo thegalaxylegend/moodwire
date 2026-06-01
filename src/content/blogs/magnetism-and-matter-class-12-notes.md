@@ -3,7 +3,7 @@ heroImage: "/blog-images/magnetism-and-matter-class-12-notes.webp"
 title: "Magnetism And Matter Class 12 Physics Revision — Grandmaster Guide"
 description: "Magnetism And Matter Class 12 Physics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
 category: "Exam Notes"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/magnetism-and-matter-class-12-notes"
 manualReview: false
 ---

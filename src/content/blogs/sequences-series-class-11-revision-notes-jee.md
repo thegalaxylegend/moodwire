@@ -3,11 +3,11 @@ heroImage: "/blog-images/sequences-series-class-11-revision-notes-jee.webp"
 title: "Sequences Series Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "Sequences Series Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/sequences-series-class-11-revision-notes-jee"
 ---
 
-*Last Updated: May 20, 2026*
+*Last Updated: June 1, 2026*
 
 ## 📑 Table of Contents
 

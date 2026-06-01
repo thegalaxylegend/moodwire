@@ -3,11 +3,11 @@ heroImage: "/blog-images/electromagnetic-induction-class-12-revision-notes-jee-n
 title: "Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/electromagnetic-induction-class-12-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 20, 2026*
+*Last Updated: June 1, 2026*
 
 ## 📑 Table of Contents
 

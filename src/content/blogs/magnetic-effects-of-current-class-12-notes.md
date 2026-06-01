@@ -3,7 +3,7 @@ heroImage: "/blog-images/magnetic-effects-of-current-class-12-notes.webp"
 title: "Magnetic Effects Of Current Class 12 Physics Revision — Grandmaster Guide"
 description: "Magnetic Effects Of Current Class 12 Physics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
 category: "Exam Notes"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/magnetic-effects-of-current-class-12-notes"
 manualReview: false
 ---

@@ -3,11 +3,11 @@ heroImage: "/blog-images/cuet-2026-master-strategy-class-11-revision-notes-neet.
 title: "Cuet 2026 Master Strategy Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
 description: "Cuet 2026 Master Strategy Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/cuet-2026-master-strategy-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 20, [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)*
+*Last Updated: June 1, 2026*
 
 ## 📑 Table of Contents
 

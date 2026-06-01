@@ -3,11 +3,11 @@ heroImage: "/blog-images/cell-the-unit-of-life-class-11-revision-notes-neet.webp
 title: "Cell The Unit Of Life Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
 description: "Cell The Unit Of Life Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/cell-the-unit-of-life-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 20, 2026*
+*Last Updated: June 1, 2026*
 
 ## 📑 Table of Contents
 

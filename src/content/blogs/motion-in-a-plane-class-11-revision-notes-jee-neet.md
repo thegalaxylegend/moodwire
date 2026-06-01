@@ -3,7 +3,7 @@ heroImage: "/blog-images/motion-in-a-plane-class-11-revision-notes-jee-neet.webp
 title: "Motion In A Plane Class 11 Physics Revision — Grandmaster Guide"
 description: "Motion In A Plane Class 11 Physics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
 category: "Exam Notes"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/motion-in-a-plane-class-11-revision-notes-jee-neet"
 manualReview: false
 ---

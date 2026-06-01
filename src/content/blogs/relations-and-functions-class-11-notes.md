@@ -3,7 +3,7 @@ heroImage: "/blog-images/relations-and-functions-class-11-notes.webp"
 title: "Relations And Functions Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
 description: "Relations And Functions Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/relations-and-functions-class-11-notes"
 ---
 

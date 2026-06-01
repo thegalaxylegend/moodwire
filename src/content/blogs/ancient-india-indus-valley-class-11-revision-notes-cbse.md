@@ -3,7 +3,7 @@ heroImage: "/blog-images/ancient-india-indus-valley-class-11-revision-notes-cbse
 title: "Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Grandmaster Guide"
 description: "Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/ancient-india-indus-valley-class-11-revision-notes-cbse"
 ---
 

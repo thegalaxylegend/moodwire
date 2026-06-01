@@ -3,11 +3,11 @@ heroImage: "/blog-images/alcohols-phenols-and-ethers-class-12-notes.webp"
 title: "Alcohols Phenols And Ethers Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
 description: "Alcohols Phenols And Ethers Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
-date: "2026-03-29"
+date: "2026-06-01"
 practice_link: "/practice/alcohols-phenols-and-ethers-class-12-notes"
 ---
 
-*Last Updated: May 20, 2026*
+*Last Updated: June 1, 2026*
 ## 📑 Table of Contents
 
 1. [📋 Table of Contents](#table-of-contents)

@@ -3,7 +3,7 @@ heroImage: "/blog-images/world-history-industrial-revolution-class-11-revision-n
 title: "World History Industrial Revolution Class 11 Exam Prep Revision — Grandmaster Guide"
 description: "World History Industrial Revolution Class 11 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
 category: "Exam Notes"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/world-history-industrial-revolution-class-11-revision-notes-jee-neet"
 manualReview: false
 ---

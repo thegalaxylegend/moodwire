@@ -3,7 +3,7 @@ heroImage: "/blog-images/jee-advanced-math-difficulty-trends-class-11-revision-n
 title: "Advanced Math Difficulty Trends Class 11 Mathematics Revision — Grandmaster Guide"
 description: "Advanced Math Difficulty Trends Class 11 Mathematics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
 category: "Exam Notes"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet"
 manualReview: false
 ---

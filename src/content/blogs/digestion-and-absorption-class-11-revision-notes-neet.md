@@ -3,11 +3,11 @@ heroImage: "/blog-images/digestion-and-absorption-class-11-revision-notes-neet.w
 title: "Digestion And Absorption Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
 description: "Digestion And Absorption Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/digestion-and-absorption-class-11-revision-notes-neet"
 ---
 
-*Last Updated: May 20, 2026*
+*Last Updated: June 1, 2026*
 
 ## 📑 Table of Contents
 

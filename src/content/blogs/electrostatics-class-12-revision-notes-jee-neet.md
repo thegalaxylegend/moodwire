@@ -3,7 +3,7 @@ heroImage: "/blog-images/electrostatics-class-12-revision-notes-jee-neet.webp"
 title: "Electrostatics Class 12 Physics Revision — Grandmaster Guide"
 description: "Electrostatics Class 12 Physics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
 category: "Exam Notes"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/electrostatics-class-12-revision-notes-jee-neet"
 manualReview: false
 ---

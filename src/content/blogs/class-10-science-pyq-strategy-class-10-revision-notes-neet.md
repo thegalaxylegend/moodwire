@@ -3,11 +3,11 @@ heroImage: "/blog-images/class-10-science-pyq-strategy-class-10-revision-notes-n
 title: "Science Pyq Strategy Class 10 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
 description: "Science Pyq Strategy Class 10 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/class-10-science-pyq-strategy-class-10-revision-notes-neet"
 ---
 
-*Last Updated: May 20, [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)*
+*Last Updated: June 1, 2026*
 
 ## 📑 Table of Contents
 

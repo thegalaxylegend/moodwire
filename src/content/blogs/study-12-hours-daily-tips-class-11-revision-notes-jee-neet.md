@@ -3,11 +3,11 @@ heroImage: "/blog-images/study-12-hours-daily-tips-class-11-revision-notes-jee-n
 title: "Study Hours Daily Tips Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
 description: "Study Hours Daily Tips Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/study-12-hours-daily-tips-class-11-revision-notes-jee-neet"
 ---
 
-*Last Updated: May 20, [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)*
+*Last Updated: June 1, 2026*
 
 ## 📑 Table of Contents
 

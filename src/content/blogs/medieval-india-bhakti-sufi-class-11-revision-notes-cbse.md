@@ -3,11 +3,11 @@ heroImage: "/blog-images/medieval-india-bhakti-sufi-class-11-revision-notes-cbse
 title: "Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Grandmaster Guide"
 description: "Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/medieval-india-bhakti-sufi-class-11-revision-notes-cbse"
 ---
 
-*Last Updated: May 20, 2026*
+*Last Updated: June 1, 2026*
 
 ## 📑 Table of Contents
 

@@ -3,7 +3,7 @@ heroImage: "/blog-images/biological-classification-class-11-revision-notes-neet.
 title: "Biological Classification Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
 description: "Biological Classification Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/biological-classification-class-11-revision-notes-neet"
 ---
 

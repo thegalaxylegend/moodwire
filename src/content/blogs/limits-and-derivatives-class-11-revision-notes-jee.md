@@ -3,7 +3,7 @@ heroImage: "/blog-images/limits-and-derivatives-class-11-revision-notes-jee.webp
 title: "Limits And Derivatives Class 11 Mathematics Revision — Grandmaster Guide"
 description: "Limits And Derivatives Class 11 Mathematics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
 category: "Exam Notes"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/limits-and-derivatives-class-11-revision-notes-jee"
 manualReview: false
 ---

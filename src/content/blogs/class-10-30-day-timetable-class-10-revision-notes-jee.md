@@ -3,11 +3,11 @@ heroImage: "/blog-images/class-10-30-day-timetable-class-10-revision-notes-jee.w
 title: "30 Day Timetable Class 10 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
 description: "30 Day Timetable Class 10 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/class-10-30-day-timetable-class-10-revision-notes-jee"
 ---
 
-*Last Updated: May 20, [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)*
+*Last Updated: June 1, 2026*
 
 ## 📑 Table of Contents
 

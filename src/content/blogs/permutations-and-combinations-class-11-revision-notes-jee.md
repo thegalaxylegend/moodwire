@@ -3,7 +3,7 @@ heroImage: "/blog-images/permutations-and-combinations-class-11-revision-notes-j
 title: "Permutations And Combinations Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
 description: "Permutations And Combinations Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
-date: "2026-03-28"
+date: "2026-06-01"
 practice_link: "/practice/permutations-and-combinations-class-11-revision-notes-jee"
 ---
 
