@@ -27,6 +27,17 @@ const runtimeInitializedPromise = new Promise<void>((resolve) => {
 // @ts-expect-error - importScripts is a worker global function not declared in typings
 importScripts(SHERPA_ONNX_WASM_JS_URL);
 
+self.addEventListener('error', (e: ErrorEvent) => {
+    e.preventDefault();
+    console.warn('[sherpa-worker] Structural Error:', e.message || 'Unknown worker error');
+});
+
+self.addEventListener('unhandledrejection', (e: PromiseRejectionEvent) => {
+    e.preventDefault();
+    const reason = e.reason instanceof Error ? e.reason.message : String(e.reason);
+    console.warn('[sherpa-worker] Unhandled Rejection:', reason);
+});
+
 class OfflineTts {
     private handle: number;
     private Module: any;
@@ -231,9 +242,10 @@ self.onmessage = async (e: MessageEvent) => {
                 
                 tts = new OfflineTts(wasmModule, ttsConfig);
                 self.postMessage({ type: 'INIT_DONE' });
-            } catch (error: any) {
-                console.error('[sherpa-worker] Init Error:', error);
-                self.postMessage({ type: 'ERROR', payload: error.message || String(error) });
+            } catch (error: unknown) {
+                const msg = error instanceof Error ? error.message : String(error);
+                console.warn('[sherpa-worker] Init Error:', msg);
+                self.postMessage({ type: 'ERROR', payload: msg });
             }
             break;
 
@@ -255,8 +267,10 @@ self.onmessage = async (e: MessageEvent) => {
                         sampleRate: audio.sampleRate
                     } 
                 }, [audio.samples.buffer] as any);
-            } catch (error: any) {
-                self.postMessage({ type: 'ERROR', payload: error.message || String(error) });
+            } catch (error: unknown) {
+                const msg = error instanceof Error ? error.message : String(error);
+                console.warn('[sherpa-worker] Generate Error:', msg);
+                self.postMessage({ type: 'ERROR', payload: msg });
             }
             break;
     }

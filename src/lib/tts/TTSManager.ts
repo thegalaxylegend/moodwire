@@ -284,7 +284,6 @@ export class TTSManager {
 
                 // 2. Fetch and transfer espeak-ng-data files ONLY once to optimize startup latency and memory usage
                 if (!this.espeakLoaded) {
-                    console.log('[TTSManager] First-time loading espeak-ng-data files...');
                     const espeakBuffers = await Promise.all(
                         ESPEAK_FILES.map(file => this.fetchWithCache(`/espeak-ng-data/${file}`))
                     );
@@ -298,10 +297,7 @@ export class TTSManager {
 
                 // 3. Initialize Worker only if not already spawned
                 if (!this.worker) {
-                    console.log('[TTSManager] Spawning new worker...');
                     this.worker = new Worker(new URL('./sherpa-worker.ts', import.meta.url));
-                } else {
-                    console.log('[TTSManager] Reusing existing worker to avoid WebAssembly reload/OOM...');
                 }
                 
                 return new Promise<void>((resolve, reject) => {
@@ -357,7 +353,6 @@ export class TTSManager {
             if (cachedResponse) {
                 const buffer = await cachedResponse.arrayBuffer();
                 if (buffer && buffer.byteLength > 0) {
-                    console.log(`[TTSManager] Persistent Cache Hit: ${url} (${buffer.byteLength} bytes)`);
                     return buffer;
                 } else {
                     console.warn(`[TTSManager] Cached response was empty/corrupted for ${url}, deleting from cache...`);
@@ -365,9 +360,10 @@ export class TTSManager {
                 }
             }
 
-            console.log(`[TTSManager] Downloading and caching model: ${url}`);
             const response = await fetch(url);
-            if (!response.ok) throw new Error(`HTTP ${response.status} fetching ${url}`);
+            if (!response.ok || response.status !== 200) {
+                throw new Error(`HTTP ${response.status} fetching ${url}`);
+            }
             
             const buffer = await response.arrayBuffer();
             if (!buffer || buffer.byteLength === 0) {
@@ -383,13 +379,15 @@ export class TTSManager {
                 }
             });
             await cache.put(url, cacheResponse);
-            console.log(`[TTSManager] Successfully cached ${url} (${buffer.byteLength} bytes)`);
             
             return buffer;
         } catch (e) {
             console.warn(`[TTSManager] Cache/Fetch error for ${url}:`, e);
             // Fallback to direct fetch if cache fails
             const response = await fetch(url);
+            if (!response.ok || response.status !== 200) {
+                throw new Error(`HTTP ${response.status} fallback fetching ${url}`);
+            }
             return await response.arrayBuffer();
         }
     }
@@ -444,6 +442,12 @@ export class TTSManager {
             this.audioContext = new (window.AudioContext || (window as any).webkitAudioContext)({
                 latencyHint: 'interactive'
             });
+
+            this.audioContext.onstatechange = () => {
+                if (this.audioContext?.state === 'closed' || this.audioContext?.state === 'interrupted') {
+                    this.stop();
+                }
+            };
         }
 
         if (this.audioContext.state === 'suspended') {

@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-03T16:21:39.768Z",
+  "date": "2026-06-03T18:12:29.268Z",
   "summary": {
-    "total": 276,
+    "total": 279,
     "errors": 0,
-    "warnings": 204,
-    "clean": 83
+    "warnings": 206,
+    "clean": 84
   },
   "issues": [
     {
@@ -902,6 +902,13 @@
       ]
     },
     {
+      "file": "organic-chemistry-basic-principles-and-techniques-class-11-notes.md",
+      "errors": [],
+      "warnings": [
+        "Potential raw LaTeX detected outside of $...$ delimiters"
+      ]
+    },
+    {
       "file": "organic-chemistry-basic-principles-class-11-revision-notes-jee-neet.md",
       "errors": [],
       "warnings": [
@@ -1289,6 +1296,13 @@
       "errors": [],
       "warnings": [
         "Light Content: Body is 1396 words (Ideal: 1500+)"
+      ]
+    },
+    {
+      "file": "the-p-block-elements-group-13-and-14-class-11-notes.md",
+      "errors": [],
+      "warnings": [
+        "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
     },
     {

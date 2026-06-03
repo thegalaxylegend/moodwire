@@ -22,6 +22,35 @@ export class ErrorBoundary extends Component<Props, State> {
         return { hasError: true, error };
     }
 
+    public componentDidMount() {
+        if (typeof window !== 'undefined' && window.localStorage) {
+            try {
+                const now = Date.now();
+                const TWENTY_FOUR_HOURS = 24 * 60 * 60 * 1000;
+
+                for (let i = 0; i < localStorage.length; i++) {
+                    const key = localStorage.key(i);
+                    if (key && key.includes('trace')) {
+                        const item = localStorage.getItem(key);
+                        if (item) {
+                            try {
+                                const parsed = JSON.parse(item);
+                                if (parsed && parsed.timestamp && (now - parsed.timestamp > TWENTY_FOUR_HOURS)) {
+                                    localStorage.removeItem(key);
+                                    i--; // Adjust index since we removed an item
+                                }
+                            } catch (e) {
+                                // If it's not valid JSON, we don't know the timestamp, leave it or log
+                            }
+                        }
+                    }
+                }
+            } catch (err) {
+                console.warn("Failed to clean up localStorage trace routes", err);
+            }
+        }
+    }
+
     public componentDidCatch(error: Error, errorInfo: ErrorInfo) {
         console.error('Uncaught error:', error, errorInfo);
         trackGlitch(error, 'GlobalErrorBoundary');
