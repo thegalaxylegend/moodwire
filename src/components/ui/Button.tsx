@@ -12,26 +12,26 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   isLoading?: boolean;
 }
 
+const baseStyles = "inline-flex items-center justify-center rounded-xl font-bold transition-all active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed disabled:active:scale-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary";
+
+const variants = {
+  primary: "bg-primary text-white hover:bg-primary/90 shadow-[0_0_15px_rgba(168,85,247,0.2)] hover:shadow-[0_0_20px_rgba(168,85,247,0.4)]",
+  secondary: "bg-surface border border-border text-text-main hover:bg-white/5",
+  outline: "border border-primary text-primary hover:bg-primary/10",
+  ghost: "text-text-muted hover:text-text-main hover:bg-white/5",
+  danger: "bg-red-500 text-white hover:bg-red-600 shadow-[0_0_15px_rgba(239,68,68,0.2)]"
+};
+
+const sizes = {
+  sm: "h-9 px-4 text-xs tracking-wider uppercase",
+  md: "h-11 px-6 text-sm tracking-wide",
+  lg: "h-14 px-8 text-base tracking-widest uppercase",
+  icon: "h-10 w-10"
+};
+
 export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant = 'primary', size = 'md', isLoading, children, disabled, ...props }, ref) => {
     
-    const baseStyles = "inline-flex items-center justify-center rounded-xl font-bold transition-all active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed disabled:active:scale-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary";
-    
-    const variants = {
-      primary: "bg-primary text-white hover:bg-primary/90 shadow-[0_0_15px_rgba(168,85,247,0.2)] hover:shadow-[0_0_20px_rgba(168,85,247,0.4)]",
-      secondary: "bg-surface border border-border text-text-main hover:bg-white/5",
-      outline: "border border-primary text-primary hover:bg-primary/10",
-      ghost: "text-text-muted hover:text-text-main hover:bg-white/5",
-      danger: "bg-red-500 text-white hover:bg-red-600 shadow-[0_0_15px_rgba(239,68,68,0.2)]"
-    };
-
-    const sizes = {
-      sm: "h-9 px-4 text-xs tracking-wider uppercase",
-      md: "h-11 px-6 text-sm tracking-wide",
-      lg: "h-14 px-8 text-base tracking-widest uppercase",
-      icon: "h-10 w-10"
-    };
-
     return (
       <button type="button"
         ref={ref}

@@ -277,181 +277,189 @@ export const Overview = () => {
 
         setLoading(true);
         try {
-            // --- SELF-HEALING CACHE SANITIZATION ---
+            // Defer CPU-heavy cache sanitization lazily in background
             if (!user.isGuest) {
-                try {
-                    const { SYLLABUS_DB } = await import('../../lib/constants');
-                    const normUserClass = user.userClass ? user.userClass.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim() : '';
-                    const isCompetitive = ['jee', 'neet'].some(e => (user.targetExam || '').toLowerCase().includes(e));
-                    const isDropper = normUserClass.includes('dropper');
+                setTimeout(async () => {
+                    try {
+                        const { SYLLABUS_DB } = await import('../../lib/constants');
+                        const normUserClass = user.userClass ? user.userClass.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim() : '';
+                        const isCompetitive = ['jee', 'neet'].some(e => (user.targetExam || '').toLowerCase().includes(e));
+                        const isDropper = normUserClass.includes('dropper');
 
-                    const keysToRemove: string[] = [];
-                    for (let i = 0; i < localStorage.length; i++) {
-                        const key = localStorage.key(i);
-                        if (key) {
-                            if (key.startsWith(`local_topic_stat_${user.id}`)) {
-                                try {
-                                    const parsed = JSON.parse(localStorage.getItem(key)!);
-                                    if (parsed && parsed.topic) {
-                                        let foundTopic: any = null;
-                                        for (const subject of Object.keys(SYLLABUS_DB)) {
-                                            if (parsed.topic_id) {
-                                                foundTopic = SYLLABUS_DB[subject].find((t: any) => t.id === parsed.topic_id);
-                                            }
-                                            if (!foundTopic) {
-                                                foundTopic = SYLLABUS_DB[subject].find((t: any) => t.topic.toLowerCase().trim() === parsed.topic.toLowerCase().trim());
-                                            }
-                                            if (foundTopic) break;
-                                        }
-
-                                        if (foundTopic) {
-                                            const topicClassNorm = foundTopic.class.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim();
-                                            let isInvalid = false;
-
-                                            if (isCompetitive || isDropper) {
-                                                isInvalid = topicClassNorm === 'class 8' || topicClassNorm === 'class 9' || topicClassNorm === 'class 10';
-                                            } else if (normUserClass) {
-                                                isInvalid = topicClassNorm !== normUserClass;
+                        const keysToRemove: string[] = [];
+                        for (let i = 0; i < localStorage.length; i++) {
+                            const key = localStorage.key(i);
+                            if (key) {
+                                if (key.startsWith(`local_topic_stat_${user.id}`)) {
+                                    try {
+                                        const parsed = JSON.parse(localStorage.getItem(key)!);
+                                        if (parsed && parsed.topic) {
+                                            let foundTopic: any = null;
+                                            for (const subject of Object.keys(SYLLABUS_DB)) {
+                                                if (parsed.topic_id) {
+                                                    foundTopic = SYLLABUS_DB[subject].find((t: any) => t.id === parsed.topic_id);
+                                                }
+                                                if (!foundTopic) {
+                                                    foundTopic = SYLLABUS_DB[subject].find((t: any) => t.topic.toLowerCase().trim() === parsed.topic.toLowerCase().trim());
+                                                }
+                                                if (foundTopic) break;
                                             }
 
-                                            if (isInvalid) {
-                                                keysToRemove.push(key);
-                                            }
-                                        } else {
-                                            // Unknown legacy topic not in database
-                                            keysToRemove.push(key);
-                                        }
-                                    }
-                                } catch (e) {}
-                            } else if (key.startsWith(`vid_cache_v3_${user.id}_`)) {
-                                try {
-                                    const parts = key.split('_');
-                                    const topicSlug = parts[parts.length - 2];
-                                    if (topicSlug) {
-                                        let foundTopic: any = null;
-                                        for (const subject of Object.keys(SYLLABUS_DB)) {
-                                            foundTopic = SYLLABUS_DB[subject].find((t: any) => {
-                                                const tSlug = t.id;
-                                                const cleanSlug = t.topic.toLowerCase().replace(/[^a-z0-9]/g, '_');
-                                                return tSlug === topicSlug || cleanSlug === topicSlug || t.topic.toLowerCase().replace(/\s+/g, '_') === topicSlug;
-                                            });
-                                            if (foundTopic) break;
-                                        }
+                                            if (foundTopic) {
+                                                const topicClassNorm = foundTopic.class.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim();
+                                                let isInvalid = false;
 
-                                        if (foundTopic) {
-                                            const topicClassNorm = foundTopic.class.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim();
-                                            let isInvalid = false;
+                                                if (isCompetitive || isDropper) {
+                                                    isInvalid = topicClassNorm === 'class 8' || topicClassNorm === 'class 9' || topicClassNorm === 'class 10';
+                                                } else if (normUserClass) {
+                                                    isInvalid = topicClassNorm !== normUserClass;
+                                                }
 
-                                            if (isCompetitive || isDropper) {
-                                                isInvalid = topicClassNorm === 'class 8' || topicClassNorm === 'class 9' || topicClassNorm === 'class 10';
-                                            } else if (normUserClass) {
-                                                isInvalid = topicClassNorm !== normUserClass;
-                                            }
-
-                                            if (isInvalid) {
+                                                if (isInvalid) {
+                                                    keysToRemove.push(key);
+                                                }
+                                            } else {
                                                 keysToRemove.push(key);
                                             }
                                         }
-                                    }
-                                } catch (e) {}
+                                    } catch (e) {}
+                                } else if (key.startsWith(`vid_cache_v3_${user.id}_`)) {
+                                    try {
+                                        const parts = key.split('_');
+                                        const topicSlug = parts[parts.length - 2];
+                                        if (topicSlug) {
+                                            let foundTopic: any = null;
+                                            for (const subject of Object.keys(SYLLABUS_DB)) {
+                                                foundTopic = SYLLABUS_DB[subject].find((t: any) => {
+                                                    const tSlug = t.id;
+                                                    const cleanSlug = t.topic.toLowerCase().replace(/[^a-z0-9]/g, '_');
+                                                    return tSlug === topicSlug || cleanSlug === topicSlug || t.topic.toLowerCase().replace(/\s+/g, '_') === topicSlug;
+                                                });
+                                                if (foundTopic) break;
+                                            }
+
+                                            if (foundTopic) {
+                                                const topicClassNorm = foundTopic.class.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim();
+                                                let isInvalid = false;
+
+                                                if (isCompetitive || isDropper) {
+                                                    isInvalid = topicClassNorm === 'class 8' || topicClassNorm === 'class 9' || topicClassNorm === 'class 10';
+                                                } else if (normUserClass) {
+                                                    isInvalid = topicClassNorm !== normUserClass;
+                                                }
+
+                                                if (isInvalid) {
+                                                    keysToRemove.push(key);
+                                                }
+                                            }
+                                        }
+                                    } catch (e) {}
+                                }
                             }
                         }
-                    }
 
-                    keysToRemove.forEach(k => localStorage.removeItem(k));
-                    if (keysToRemove.length > 0) {
-                        console.log(`[SelfHealing] 🧼 Successfully scrubbed ${keysToRemove.length} legacy invalid cache entries.`);
+                        keysToRemove.forEach(k => localStorage.removeItem(k));
+                        if (keysToRemove.length > 0) {
+                            console.log(`[SelfHealing] 🧼 Successfully scrubbed ${keysToRemove.length} legacy invalid cache entries.`);
+                        }
+                    } catch (err) {
+                        console.warn("Self-healing cache check failed:", err);
                     }
-                } catch (err) {
-                    console.warn("Self-healing cache check failed:", err);
-                }
+                }, 1500);
             }
 
             let weakStats: TopicStat[] = [];
-            // 0. Skip cloud fetches for Guests
-            if (user.isGuest) {
-                console.log("[Overview] Guest Mode: Skipping cloud data sync.");
-                // Proceed to video fetching...
-            } else {
-                // 1. Check if user has taken diagnostic test
-                try {
-                    const { db } = await import('../../lib/firebase');
-                    const { collection, query, where, getDocs, limit } = await import('firebase/firestore');
+            
+            // Build concurrent promises for all cloud fetching layers
+            const diagPromise = (async () => {
+                if (user.isGuest) return true;
+                const { db } = await import('../../lib/firebase');
+                const { collection, query, where, getDocs, limit } = await import('firebase/firestore');
 
-                    // Filter by user_id AND class AND exam for strict isolation
-                    const diagQ = query(
+                const diagQ = query(
+                    collection(db, 'diagnostic_results'),
+                    where('user_id', '==', user.id),
+                    where('class', '==', user.userClass || 'General'),
+                    where('exam', '==', user.targetExam || 'General'),
+                    limit(1)
+                );
+                const diagSnap = await getDocs(diagQ);
+                let diagnosticTaken = !diagSnap.empty;
+                if (!diagnosticTaken && user.xp > 0) {
+                    diagnosticTaken = true;
+                }
+
+                if (!diagnosticTaken) {
+                    const legacyQ = query(
                         collection(db, 'diagnostic_results'),
                         where('user_id', '==', user.id),
-                        where('class', '==', user.userClass || 'General'),
-                        where('exam', '==', user.targetExam || 'General'),
                         limit(1)
                     );
-                    const diagSnap = await getDocs(diagQ);
-                    let diagnosticTaken = !diagSnap.empty;
-                    // NEW: Bypass for old users based on XP
-                    if (!diagnosticTaken && user.xp > 0) {
-                        console.log("[Overview] Old user verified via XP. Bypassing diagnostic popup.");
+                    const legacySnap = await getDocs(legacyQ);
+                    if (!legacySnap.empty) {
+                        const legacyDoc = legacySnap.docs[0];
+                        const { updateDoc } = await import('firebase/firestore');
+                        await updateDoc(legacyDoc.ref, {
+                            class: user.userClass || 'General',
+                            exam: user.targetExam || 'General'
+                        });
                         diagnosticTaken = true;
                     }
-
-                    // Fallback: Check for legacy diagnostic (no class/exam set) meant for this user
-                    if (!diagnosticTaken) {
-                        const legacyQ = query(
-                            collection(db, 'diagnostic_results'),
-                            where('user_id', '==', user.id),
-                            limit(1)
-                        );
-                        const legacySnap = await getDocs(legacyQ);
-                        if (!legacySnap.empty) {
-                            // Found legacy record! Migrate it to current class/exam
-                            const legacyDoc = legacySnap.docs[0];
-                            const { updateDoc } = await import('firebase/firestore');
-                            await updateDoc(legacyDoc.ref, {
-                                class: user.userClass || 'General',
-                                exam: user.targetExam || 'General'
-                            });
-                            console.log("[Overview] Legacy diagnostic result migrated to", user.userClass, user.targetExam);
-                            diagnosticTaken = true;
-                        }
-                    }
-
-
-                    // Check for popup (Only if not taken AND not dismissed)
-                    if (!diagnosticTaken) {
-                        const dismissed = localStorage.getItem(`diagnostic_dismissed_${user.id}_${user.userClass}`);
-                        if (!dismissed) {
-                            setShowDiagnosticPopup(true);
-                        }
-                    }
-                } catch (err) {
-                    console.warn("Diagnostic fetch failed (permissions?):", err);
-
                 }
+                return diagnosticTaken;
+            })();
 
-                // 2. Fetch weak topics (Independent)
-                // weakStats declared in outer scope
-                try {
-                    weakStats = await getWeakTopics(user.id, 5, user.userClass, user.targetExam);
-                    setWeakTopicStats(weakStats);
-                    
-                    // Offline First: Pre-cache questions based on user's weak topics
-                    if (navigator.onLine) {
-                        offlineSyncService.preCacheWeakTopics(user.id, user.userClass, user.targetExam);
-                    }
-                } catch (err) {
-                    console.warn("Weak topics fetch failed:", err);
+            const weakPromise = user.isGuest 
+                ? Promise.resolve([]) 
+                : getWeakTopics(user.id, 5, user.userClass, user.targetExam);
+
+            const strongPromise = user.isGuest 
+                ? Promise.resolve([]) 
+                : getStrongTopics(user.id, 5, user.userClass, user.targetExam);
+
+            const cloudMocksPromise = (async (): Promise<any[]> => {
+                if (user.isGuest) return [];
+                const { db } = await import('../../lib/firebase');
+                const { collection, query, where, getDocs } = await import('firebase/firestore');
+                const mockColl = collection(db, 'mock_attempts');
+                const qMock = query(mockColl, where('user_id', '==', user.id));
+                const snapshotMock = await getDocs(qMock);
+                return snapshotMock.docs.map(d => ({ ...(d.data() as any), source: 'cloud' }));
+            })();
+
+            const syllabusPromise = (async () => {
+                if (user.isGuest) return [];
+                const { db } = await import('../../lib/firebase');
+                const { collection, query, where, getDocs } = await import('firebase/firestore');
+                const sylQ = query(collection(db, 'syllabus'), where('user_id', '==', user.id));
+                const sylSnap = await getDocs(sylQ);
+                return sylSnap.docs;
+            })();
+
+            // Execute all Firestore/API fetches concurrently in parallel
+            const [diagnosticTaken, fetchedWeakStats, fetchedStrongStats, cloudMocks, syllabusDocs] = await Promise.all([
+                diagPromise.catch(() => true),
+                weakPromise.catch(() => []),
+                strongPromise.catch(() => []),
+                cloudMocksPromise.catch(() => []),
+                syllabusPromise.catch(() => [])
+            ]);
+
+            // Process Diagnostic Result check
+            if (!user.isGuest && !diagnosticTaken) {
+                const dismissed = localStorage.getItem(`diagnostic_dismissed_${user.id}_${user.userClass}`);
+                if (!dismissed) {
+                    setShowDiagnosticPopup(true);
                 }
-
-                // 3. Fetch strong topics (Independent)
-                try {
-                    const strongStats = await getStrongTopics(user.id, 5, user.userClass, user.targetExam);
-                    setStrongTopicStats(strongStats);
-                } catch (err) {
-                    console.warn("Strong topics fetch failed:", err);
-                }
-
-                // 4. Video and fallback logic handled in the unified block below
             }
+
+            // Set Weak and Strong topics
+            weakStats = fetchedWeakStats;
+            setWeakTopicStats(weakStats);
+            if (!user.isGuest && navigator.onLine) {
+                offlineSyncService.preCacheWeakTopics(user.id, user.userClass, user.targetExam);
+            }
+            setStrongTopicStats(fetchedStrongStats);
 
             // [NEW] 4. Fetch Video Recommendations (Runs for EVERYONE)
             const { SYLLABUS_DB } = await import('../../lib/constants');
@@ -463,7 +471,6 @@ export const Overview = () => {
             if (Array.isArray(weakStats) && weakStats.length > 0) {
                 subjectsToFetch = weakStats.map(t => t.topic);
             } else {
-                // If there are no real weak stats, generate dynamic topic-based recommendations using the first uncompleted chapters
                 const isMedical = (user.targetExam || '').toLowerCase().includes('neet') || (user.targetExam || '').toLowerCase().includes('medical');
                 const baseSubjects = isMedical ? ['Physics', 'Chemistry', 'Biology'] : ['Physics', 'Chemistry', 'Mathematics'];
                 const dynamicStats: TopicStat[] = [];
@@ -502,99 +509,68 @@ export const Overview = () => {
                 }
             }
 
-            // 5. Fetch Mock Counts & Calculate Blended Preparedness (Independent - Guests still want their local history!)
+            // 5. Fetch Mock Counts & Calculate Blended Preparedness
             try {
-                let cloudMocks: any[] = [];
-                if (!user.isGuest) {
-                    try {
-                        const { db } = await import('../../lib/firebase');
-                        const { collection, query, where, getDocs } = await import('firebase/firestore');
-                        const mockColl = collection(db, 'mock_attempts');
-                        const qMock = query(mockColl, where('user_id', '==', user.id));
-                        const snapshotMock = await getDocs(qMock);
-                        cloudMocks = snapshotMock.docs
-                            .map(d => ({ ...d.data(), source: 'cloud' }))
-                            .sort((a: any, b: any) => {
-                                const tA = a.timestamp?.seconds || (a.timestamp ? new Date(a.timestamp).getTime() : 0);
-                                const tB = b.timestamp?.seconds || (b.timestamp ? new Date(b.timestamp).getTime() : 0);
-                                return tB - tA;
-                            })
-                            .slice(0, 100);
-                    } catch (firestoreErr) {
-                        console.warn("Failed to fetch cloud mocks from Firestore, continuing with local history:", firestoreErr);
-                    }
-                }
-
                 const localMocks = await storageService.getHistory(user?.id);
-                const mergedMocks = cloudMocks.concat(localMocks);
+                const mergedMocks = (cloudMocks as any[]).concat(localMocks);
                 setAttempts(mergedMocks.length);
 
-                // --- Calculate Blended Preparedness ---
-                const exam = user?.targetExam?.toLowerCase() || '';
-                const userCls = user?.userClass?.toLowerCase() || '';
+            // --- Calculate Blended Preparedness ---
+            const exam = user?.targetExam?.toLowerCase() || '';
+            const userCls = user?.userClass?.toLowerCase() || '';
 
-                let relevantSubjects: string[] = [];
-                if (exam.includes('jee')) relevantSubjects = ['Physics', 'Chemistry', 'Mathematics'];
-                else if (exam.includes('neet') || exam.includes('medical')) relevantSubjects = ['Physics', 'Chemistry', 'Biology'];
-                else if (exam === 'school exams' || exam.includes('class') || exam.includes('board')) {
-                    const classKey = userCls.replace(/th|st|nd|rd/g, '').replace(' ', '-');
-                    const { EXAM_SUBJECT_MAPPING } = await import('../../lib/constants');
-                    relevantSubjects = EXAM_SUBJECT_MAPPING[classKey] || EXAM_SUBJECT_MAPPING[exam] || ['Physics', 'Chemistry', 'Mathematics', 'Biology'];
-                } else {
-                    relevantSubjects = ['Physics', 'Chemistry', 'Mathematics', 'Biology'];
-                }
+            let relevantSubjects: string[] = [];
+            if (exam.includes('jee')) relevantSubjects = ['Physics', 'Chemistry', 'Mathematics'];
+            else if (exam.includes('neet') || exam.includes('medical')) relevantSubjects = ['Physics', 'Chemistry', 'Biology'];
+            else if (exam === 'school exams' || exam.includes('class') || exam.includes('board')) {
+                const classKey = userCls.replace(/th|st|nd|rd/g, '').replace(' ', '-');
+                const { EXAM_SUBJECT_MAPPING } = await import('../../lib/constants');
+                relevantSubjects = EXAM_SUBJECT_MAPPING[classKey] || EXAM_SUBJECT_MAPPING[exam] || ['Physics', 'Chemistry', 'Mathematics', 'Biology'];
+            } else {
+                relevantSubjects = ['Physics', 'Chemistry', 'Mathematics', 'Biology'];
+            }
 
-                // Fetch syllabus stats per subject
-                const statsObj: Record<string, { total: number, master: number, scoreSum: number, count: number }> = {};
-                
-                const normUserClass = user.userClass ? user.userClass.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim() : '';
-                const isComp = ['jee', 'neet'].some(e => exam.includes(e));
-                const isDropper = normUserClass.includes('dropper');
+            const statsObj: Record<string, { total: number, master: number, scoreSum: number, count: number }> = {};
+            
+            const isComp = ['jee', 'neet'].some(e => exam.includes(e));
 
-                for (const sub of relevantSubjects) {
-                    const { SYLLABUS_DB } = await import('../../lib/constants');
-                    const classTopics = (SYLLABUS_DB[sub] || []).filter(t => {
-                        if (!user.userClass) return true;
-                        const normTopicClass = t.class.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim();
-                        if (isComp || isDropper) {
-                            return normTopicClass === 'class 11' || normTopicClass === 'class 12';
-                        }
-                        return normTopicClass === normUserClass;
-                    });
-                    const totalTopics = classTopics.length || 10;
-                    statsObj[sub] = { total: totalTopics, master: 0, scoreSum: 0, count: 0 };
-                }
+            for (const sub of relevantSubjects) {
+                const classTopics = (SYLLABUS_DB[sub] || []).filter(t => {
+                    if (!user.userClass) return true;
+                    const normTopicClass = t.class.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim();
+                    if (isComp || isDropper) {
+                        return normTopicClass === 'class 11' || normTopicClass === 'class 12';
+                    }
+                    return normTopicClass === normUserClass;
+                });
+                const totalTopics = classTopics.length || 10;
+                statsObj[sub] = { total: totalTopics, master: 0, scoreSum: 0, count: 0 };
+            }
 
-                if (!user.isGuest) {
-                    const { db } = await import('../../lib/firebase');
-                    const { collection, query, where, getDocs } = await import('firebase/firestore');
-                    const sylQ = query(collection(db, 'syllabus'), where('user_id', '==', user.id));
-                    const sylSnap = await getDocs(sylQ);
-                    
-                    const { SYLLABUS_DB } = await import('../../lib/constants');
-                    sylSnap.docs.forEach(doc => {
-                        const data = doc.data();
-                        if (statsObj[data.subject] && data.is_completed) {
-                            const topicItem = (SYLLABUS_DB[data.subject] || []).find(t => t.topic === data.topic);
-                            if (!user.userClass) {
+            if (!user.isGuest) {
+                syllabusDocs.forEach((doc: any) => {
+                    const data = doc.data();
+                    if (statsObj[data.subject] && data.is_completed) {
+                        const topicItem = (SYLLABUS_DB[data.subject] || []).find(t => t.topic === data.topic);
+                        if (!user.userClass) {
+                            statsObj[data.subject].master++;
+                            statsObj[data.subject].scoreSum += (data.mastery_score || 0);
+                            statsObj[data.subject].count++;
+                        } else if (topicItem) {
+                            const normTopicClass = topicItem.class.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim();
+                            const classMatches = (isComp || isDropper)
+                                ? (normTopicClass === 'class 11' || normTopicClass === 'class 12')
+                                : normTopicClass === normUserClass;
+                            
+                            if (classMatches) {
                                 statsObj[data.subject].master++;
                                 statsObj[data.subject].scoreSum += (data.mastery_score || 0);
                                 statsObj[data.subject].count++;
-                            } else if (topicItem) {
-                                const normTopicClass = topicItem.class.toLowerCase().replace(/th|st|nd|rd/g, '').replace(/\s+/g, ' ').trim();
-                                const classMatches = (isComp || isDropper)
-                                    ? (normTopicClass === 'class 11' || normTopicClass === 'class 12')
-                                    : normTopicClass === normUserClass;
-                                
-                                if (classMatches) {
-                                    statsObj[data.subject].master++;
-                                    statsObj[data.subject].scoreSum += (data.mastery_score || 0);
-                                    statsObj[data.subject].count++;
-                                }
                             }
                         }
-                    });
-                }
+                    }
+                });
+            }
 
                 const fmtStats: Record<string, number> = {};
                 relevantSubjects.forEach(subj => {

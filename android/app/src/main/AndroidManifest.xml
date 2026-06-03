@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -40,7 +40,7 @@
             android:exported="false"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
-        <!-- File Provider (for camera, file system plugins) -->
+        <!-- File Provider — required by Capacitor core for share sheet / file operations -->
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.fileprovider"
@@ -52,39 +52,33 @@
     </application>
 
     <!-- ═══════════════════════════════════════════════════════════════════════
-         Permissions
+         PERMISSIONS — Audited 2026-06-03 against all src/*.ts / src/*.tsx imports
+         REMOVED (not imported anywhere in source):
+           CAMERA, RECORD_AUDIO, MODIFY_AUDIO_SETTINGS,
+           ACCESS_COARSE_LOCATION, ACCESS_FINE_LOCATION,
+           READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE,
+           READ_MEDIA_IMAGES, READ_MEDIA_VIDEO, READ_MEDIA_AUDIO,
+           READ_CONTACTS, android.hardware.location.gps
     ═══════════════════════════════════════════════════════════════════════ -->
+
+    <!-- WebView + Firebase + Cloudflare Workers -->
     <uses-permission android:name="android.permission.INTERNET" />
 
-    <!-- Network State for Offline/Online Analytics & Remote Config -->
+    <!-- @capacitor/network — network status listener in App.tsx -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
-    <!-- Biometrics / Fingerprint Authentication -->
+    <!-- @capgo/capacitor-native-biometric — biometric auth on Profile page -->
     <uses-permission android:name="android.permission.USE_BIOMETRIC" />
     <uses-permission android:name="android.permission.USE_FINGERPRINT" />
 
-    <!-- File System / Downloads (PDFs, Notes) -->
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
-    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
-    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
-    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
-
-    <!-- Push Notifications & Crashlytics Boot Support -->
+    <!-- @capacitor/push-notifications + Firebase FCM -->
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
-    <!-- Hardware Features (Camera, Mic, GPS, Vibrate) -->
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+    <!-- @capacitor/haptics — haptic feedback on mock test interactions -->
     <uses-permission android:name="android.permission.VIBRATE" />
-    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
 </manifest>

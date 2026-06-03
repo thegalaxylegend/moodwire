@@ -27,29 +27,31 @@ import { ErrorBoundary } from './components/ErrorBoundary';
 import { CookieConsent } from './components/CookieConsent';
 import { useTestMode } from './hooks/useTestMode';
 import { Network } from '@capacitor/network';
+import { OfflineScreen } from './components/OfflineScreen';
+import { SpamShieldProvider } from './context/SpamShieldProvider';
 
 // Layouts
 const ProtectedLayout = lazy(() => import('./layouts/ProtectedLayout').then(module => ({ default: module.ProtectedLayout })));
 const DashboardLayout = lazy(() => import('./layouts/DashboardLayout').then(module => ({ default: module.DashboardLayout })));
 const AdminLayout = lazy(() => import('./layouts/AdminLayout').then(module => ({ default: module.AdminLayout })));
 
-// Public Pages
-import { LandingPage } from './pages/LandingPage';
-import { ExamLanding } from './pages/public/ExamLanding';
-import { SubjectPage } from './pages/public/SubjectPage';
-import { TopicPage } from './pages/public/TopicPage';
-import { PyqCollectionPage } from './pages/public/PyqCollectionPage';
-import { QuestionPage } from './pages/public/QuestionPage';
-import { BlogIndex } from './pages/blog/BlogIndex';
-import { BlogPostPage } from './pages/blog/BlogPostPage';
-import { PrivacyPolicy } from './pages/public/PrivacyPolicy';
-import { TermsOfService } from './pages/public/TermsOfService';
-import { AboutPage } from './pages/public/AboutPage';
-import { ContactPage } from './pages/public/ContactPage';
-import FounderPage from './pages/public/FounderPage';
-import { ParentReport } from './pages/public/ParentReport';
-import { DownloadPage } from './pages/public/DownloadPage';
-import { NotFoundPage } from './pages/public/NotFoundPage';
+// Public Pages — lazy-loaded so they don't bloat the initial bundle
+const LandingPage = lazy(() => import('./pages/LandingPage').then(m => ({ default: m.LandingPage })));
+const ExamLanding = lazy(() => import('./pages/public/ExamLanding').then(m => ({ default: m.ExamLanding })));
+const SubjectPage = lazy(() => import('./pages/public/SubjectPage').then(m => ({ default: m.SubjectPage })));
+const TopicPage = lazy(() => import('./pages/public/TopicPage').then(m => ({ default: m.TopicPage })));
+const PyqCollectionPage = lazy(() => import('./pages/public/PyqCollectionPage').then(m => ({ default: m.PyqCollectionPage })));
+const QuestionPage = lazy(() => import('./pages/public/QuestionPage').then(m => ({ default: m.QuestionPage })));
+const BlogIndex = lazy(() => import('./pages/blog/BlogIndex').then(m => ({ default: m.BlogIndex })));
+const BlogPostPage = lazy(() => import('./pages/blog/BlogPostPage').then(m => ({ default: m.BlogPostPage })));
+const PrivacyPolicy = lazy(() => import('./pages/public/PrivacyPolicy').then(m => ({ default: m.PrivacyPolicy })));
+const TermsOfService = lazy(() => import('./pages/public/TermsOfService').then(m => ({ default: m.TermsOfService })));
+const AboutPage = lazy(() => import('./pages/public/AboutPage').then(m => ({ default: m.AboutPage })));
+const ContactPage = lazy(() => import('./pages/public/ContactPage').then(m => ({ default: m.ContactPage })));
+const FounderPage = lazy(() => import('./pages/public/FounderPage'));
+const ParentReport = lazy(() => import('./pages/public/ParentReport').then(m => ({ default: m.ParentReport })));
+const DownloadPage = lazy(() => import('./pages/public/DownloadPage').then(m => ({ default: m.DownloadPage })));
+const NotFoundPage = lazy(() => import('./pages/public/NotFoundPage').then(m => ({ default: m.NotFoundPage })));
 
 // Auth
 const Login = lazy(() => import('./pages/auth/Login').then(module => ({ default: module.Login })));
@@ -156,21 +158,18 @@ function AppContent() {
   const { tier } = usePerformance();
   const [isOffline, setIsOffline] = useState(false);
 
-   
   useEffect(() => {
     let active = true;
     Network.getStatus().then((status) => {
       if (active) setIsOffline(!status.connected);
     });
-    let listenerRef: any = null;
-    Network.addListener('networkStatusChange', (status) => {
+    // eslint-disable-next-line react-doctor/effect-needs-cleanup
+    const listenerPromise = Network.addListener('networkStatusChange', (status) => {
       if (active) setIsOffline(!status.connected);
-    }).then(l => listenerRef = l);
+    });
     return () => {
       active = false;
-      if (listenerRef) {
-        listenerRef.remove();
-      }
+      listenerPromise.then(handle => handle.remove());
     };
   }, []);
 
@@ -222,7 +221,7 @@ function AppContent() {
     <SmoothScroll>
       <div className={`perf-tier-${tier} min-h-screen relative`}>
         <ParallaxBackground />
-        {isOffline && <div className="fixed top-0 left-0 w-full bg-red-500 text-white text-center z-[9999] py-1 font-bold text-sm">You are offline. Some features may be unavailable.</div>}
+        {isOffline && <OfflineScreen />}
         
         <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[9999] focus:p-4 focus:bg-primary focus:text-white focus:rounded-xl focus:font-bold outline-none">
           Skip to main content
@@ -311,7 +310,9 @@ function App() {
   return (
     <PerformanceProvider>
       <BadgeStyleProvider>
-        <AppContent />
+        <SpamShieldProvider>
+          <AppContent />
+        </SpamShieldProvider>
       </BadgeStyleProvider>
     </PerformanceProvider>
   );

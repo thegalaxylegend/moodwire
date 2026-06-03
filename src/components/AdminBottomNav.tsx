@@ -1,16 +1,16 @@
 import { NavLink, useLocation } from 'react-router-dom';
 import { Home, Brain, Users, Settings, CheckCircle } from 'lucide-react';
 
+const ADMIN_NAV_ITEMS = [
+    { icon: Home, label: 'Overview', path: '/admin/overview' },
+    { icon: Brain, label: 'Jules AI', path: '/admin/jules' },
+    { icon: CheckCircle, label: 'Questions', path: '/admin/question-review' },
+    { icon: Users, label: 'Users', path: '/admin/users' },
+    { icon: Settings, label: 'System', path: '/admin/system' },
+];
+
 export const AdminBottomNav = () => {
     const location = useLocation();
-
-    const navItems = [
-        { icon: Home, label: 'Overview', path: '/admin/overview' },
-        { icon: Brain, label: 'Jules AI', path: '/admin/jules' },
-        { icon: CheckCircle, label: 'Questions', path: '/admin/question-review' },
-        { icon: Users, label: 'Users', path: '/admin/users' },
-        { icon: Settings, label: 'System', path: '/admin/system' },
-    ];
 
     return (
         <div className="fixed bottom-0 left-0 right-0 z-50 lg:hidden pointer-events-none">
@@ -19,7 +19,7 @@ export const AdminBottomNav = () => {
 
             <div className="pointer-events-auto px-4 pb-4 pt-2">
                 <nav className="glass-card flex items-center justify-between px-2 py-2 shadow-2xl bg-surface/90 backdrop-blur-xl border-t border-white/5 rounded-2xl">
-                    {navItems.map((item) => {
+                    {ADMIN_NAV_ITEMS.map((item) => {
                         const isActive = location.pathname === item.path;
                         return (
                             <NavLink

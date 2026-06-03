@@ -8,6 +8,21 @@
 
 import Exa from 'exa-js';
 import 'dotenv/config';
+import { RateLimiter } from '../lib/rateLimiter';
+
+const enforceExternalApiLimit = (): boolean => {
+    const check = RateLimiter.checkLimit('external_api');
+    if (!check.allowed) {
+        if (typeof window !== 'undefined') {
+            window.dispatchEvent(new CustomEvent('spam_shield_trigger', {
+                detail: { reason: 'external_api', resetTimeMs: check.resetTimeMs }
+            }));
+        }
+        return false;
+    }
+    RateLimiter.consume('external_api');
+    return true;
+};
 
 // Compatibility layer for Vite (import.meta.env) and Node (process.env)
 const getEnv = (key: string) => {
@@ -55,6 +70,7 @@ export const ExternalApiService = {
      * Useful for educational glossaries.
      */
     getDefinition: async (word: string): Promise<DictionaryDefinition | null> => {
+        if (!enforceExternalApiLimit()) return null;
         try {
             const response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
             if (!response.ok) return null;
@@ -71,6 +87,7 @@ export const ExternalApiService = {
      * Perfect for adding context to study notes.
      */
     getWikiSummary: async (query: string): Promise<WikiSummary | null> => {
+        if (!enforceExternalApiLimit()) return null;
         try {
             const encodedQuery = encodeURIComponent(query);
             const response = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodedQuery}`);
@@ -87,6 +104,7 @@ export const ExternalApiService = {
      * Crucial for the blog generator to "read" source pages.
      */
     getMarkdownFromUrl: async (url: string): Promise<string | null> => {
+        if (!enforceExternalApiLimit()) return null;
         try {
             const response = await fetch(`https://r.jina.ai/${url}`, {
                 headers: {
@@ -107,6 +125,7 @@ export const ExternalApiService = {
      * Best for Daily Challenges.
      */
     getDailyQuote: async (): Promise<{ content: string; author: string } | null> => {
+        if (!enforceExternalApiLimit()) return null;
         try {
             const response = await fetch('https://api.quotable.io/random?tags=education,wisdom,inspirational');
             if (!response.ok) return null;
@@ -122,6 +141,7 @@ export const ExternalApiService = {
      * Returns high-quality links and content excerpts.
      */
     searchWeb: async (query: string, numResults: number = 5, fallbackTopic?: string) => {
+        if (!enforceExternalApiLimit()) return null;
         if (!exa) {
             console.warn('ExternalApiService: Exa API Key NOT configured. Falling back to Wikipedia...');
             // Simple Wikipedia Search Fallback
@@ -160,6 +180,7 @@ export const ExternalApiService = {
      * Gets a quick answer with citations (Exa /answer endpoint style fallback).
      */
     getAnswer: async (query: string) => {
+        if (!enforceExternalApiLimit()) return null;
         if (!EXA_API_KEY) return null;
         try {
             const response = await fetch('https://api.exa.ai/answer', {
@@ -183,6 +204,7 @@ export const ExternalApiService = {
      * Essential for high-precision math, science, and step-by-step solutions.
      */
     getWolframResults: async (input: string) => {
+        if (!enforceExternalApiLimit()) return null;
         if (!WOLFRAM_APP_ID) {
             console.warn('ExternalApiService: Wolfram AppID NOT configured.');
             return null;
@@ -208,6 +230,7 @@ export const ExternalApiService = {
      * Useful for Space, Physics, and Earth Science visuals.
      */
     searchNasaImages: async (query: string, limit: number = 3) => {
+        if (!enforceExternalApiLimit()) return [];
         try {
             const encodedQuery = encodeURIComponent(query);
             const url = `https://images-api.nasa.gov/search?q=${encodedQuery}&media_type=image`;

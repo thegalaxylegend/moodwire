@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.web.examcompass",
+      "sha256_cert_fingerprints": [
+        "EB:47:AB:F3:F3:FA:E9:94:24:B0:F0:E6:07:DD:B0:66:50:43:D9:57:34:2E:83:B5:9F:6A:8D:EF:8C:0E:AC:D0"
+      ]
+    }
+  }
+]

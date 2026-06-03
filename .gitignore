@@ -31,6 +31,18 @@ public/demo.mp4
 service-account.json
 *.json.key
 
+# ── ANDROID RELEASE SIGNING — NEVER COMMIT ───────────────────────────────────
+# These files contain private cryptographic keys used to sign the APK.
+# If leaked, anyone can impersonate your app on every store permanently.
+*.jks
+*.keystore
+*.p12
+android/keystore.properties
+android/app/examcompass-release.jks
+examcompass-release.jks
+release.jks
+# ─────────────────────────────────────────────────────────────────────────────
+
 # Tests and Logs
 test*.js
 test_extract.ts

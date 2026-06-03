@@ -5,6 +5,7 @@ import type { UserProfile, TestResult } from './systemPrompt';
 import { getImportantMemories, extractAndSaveMemory } from './memoryExtractor';
 import { modelRouter } from './modelRouter';
 import type { TaskTier } from './routingConfig';
+import { RateLimiter } from './rateLimiter';
 
 export type AIProvider = 'groq' | 'openai' | 'gemini' | 'auto';
 
@@ -78,6 +79,19 @@ export const askAI = async (
     _onSearch?: (searching: boolean) => void,
     extraOptions: any = {}
 ) => {
+    // Outbound AI Rate Limiting check
+    const check = RateLimiter.checkLimit('ai');
+    if (!check.allowed) {
+        if (typeof window !== 'undefined') {
+            const event = new CustomEvent('spam_shield_trigger', {
+                detail: { reason: 'ai', resetTimeMs: check.resetTimeMs }
+            });
+            window.dispatchEvent(event);
+        }
+        throw new Error("DAILY_LIMIT_REACHED: Too many AI requests in a short time. Please slow down and try again in a few seconds.");
+    }
+    RateLimiter.consume('ai');
+
     // Merge extraOptions into options if applicable
     if (extraOptions?.language) {
         options.language = extraOptions.language;

@@ -173,42 +173,40 @@ export const Lectures = () => {
         const init = async () => {
             setInitializing(true);
 
-            // 1. Load progress from cloud if local cache is empty
-            await SubtopicProgressService.loadFromCloud(userId);
+            // Fetch progress, weak topics, and SM2 due cards in parallel to minimize latency
+            const cloudLoadPromise = SubtopicProgressService.loadFromCloud(userId);
+            const weakPromise = getWeakTopics(userId, 20, user?.userClass, user?.targetExam).catch(() => []);
+            const dueCardsPromise = SpacedRepetitionService.getDueCards(userId, 100).catch(() => ({ total_due: 0 }));
 
-            // 2. Load all local progress
+            const [_, weak, dueCards] = await Promise.all([
+                cloudLoadPromise.catch(() => {}),
+                weakPromise,
+                dueCardsPromise
+            ]);
+
+            // Load all local progress
             const progress = SubtopicProgressService.getAllProgress(userId);
             setAllProgress(progress);
 
-            // 3. Load weak topics from mock test results
-            try {
-                const weak = await getWeakTopics(userId, 20, user?.userClass, user?.targetExam);
-                setWeakTopicsList(weak);
-                const weakIds = new Set<string>(
-                    weak.map(w => w.topic.toLowerCase().replace(/\s+/g, '_'))
-                );
-                setWeakTopicIds(weakIds);
+            // Set weak topics
+            setWeakTopicsList(weak);
+            const weakIds = new Set<string>(
+                weak.map(w => w.topic.toLowerCase().replace(/\s+/g, '_'))
+            );
+            setWeakTopicIds(weakIds);
 
-                // Flag weak chapters for review in progress service
-                for (const w of weak) {
-                    const matchingTopic = Object.values(SYLLABUS_DB)
-                        .flat()
-                        .find(t => t.topic.toLowerCase().includes(w.topic.toLowerCase()));
-                    if (matchingTopic) {
-                        await SubtopicProgressService.flagForReview(userId, matchingTopic.id);
-                    }
+            // Flag weak chapters for review in progress service
+            for (const w of weak) {
+                const matchingTopic = Object.values(SYLLABUS_DB)
+                    .flat()
+                    .find(t => t.topic.toLowerCase().includes(w.topic.toLowerCase()));
+                if (matchingTopic) {
+                    await SubtopicProgressService.flagForReview(userId, matchingTopic.id);
                 }
-            } catch (e) {
-                console.warn('[Lectures] Weak topic fetch failed:', e);
             }
 
-            // 4. Load SM2 due card count
-            try {
-                const session = await SpacedRepetitionService.getDueCards(userId, 100);
-                setDueCardCount(session.total_due);
-            } catch (e) {
-                console.warn('[Lectures] SM2 fetch failed:', e);
-            }
+            // Set SM2 due card count
+            setDueCardCount(dueCards?.total_due || 0);
 
             // 5. Determine "next" chapter (first chapter of user's class with no progress)
             const visibleChapters = getChapters(activeSubject);

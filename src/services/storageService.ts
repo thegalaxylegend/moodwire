@@ -1,4 +1,6 @@
 
+import { RateLimiter } from '../lib/rateLimiter';
+
 /**
  * Smart Storage Service
  * Manages local persistence for Exam Compass to prevent storage bloat.
@@ -103,6 +105,7 @@ export const storageService = {
         const pending = history.filter(item => item.pendingSync);
         if (pending.length === 0) return;
 
+        RateLimiter.enforceDbWrite();
         console.log(`📡 [Sync] Attempting to sync ${pending.length} pending tests...`);
         let syncedCount = 0;
 

@@ -3,17 +3,17 @@ import { Home, Brain, TrendingUp, Calendar, Bookmark } from 'lucide-react';
 import { useLocation } from 'react-router-dom';
 import { useTestMode } from '../hooks/useTestMode';
 
+const NAV_ITEMS = [
+    { icon: Home, label: 'Home', path: '/dashboard' },
+    { icon: Brain, label: 'Test', path: '/dashboard/test-center' },
+    { icon: TrendingUp, label: 'Analytics', path: '/dashboard/analytics' },
+    { icon: Calendar, label: 'Plan', path: '/dashboard/study-plan' },
+    { icon: Bookmark, label: 'Saved', path: '/dashboard/saved-lectures' },
+];
+
 export const BottomNav = () => {
     const location = useLocation();
     const isTestMode = useTestMode();
-
-    const navItems = [
-        { icon: Home, label: 'Home', path: '/dashboard' },
-        { icon: Brain, label: 'Test', path: '/dashboard/test-center' },
-        { icon: TrendingUp, label: 'Analytics', path: '/dashboard/analytics' },
-        { icon: Calendar, label: 'Plan', path: '/dashboard/study-plan' },
-        { icon: Bookmark, label: 'Saved', path: '/dashboard/saved-lectures' },
-    ];
 
     // Hide bottom nav during active exams to prevent distraction & navigation away
     if (isTestMode) return null;
@@ -26,7 +26,7 @@ export const BottomNav = () => {
             {/* Soft gradient shadow for contrast */}
             <div className="pointer-events-auto max-w-sm mx-auto">
                 <nav className="liquid-glass flex items-center justify-between px-2 sm:px-4 py-2 sm:py-3 rounded-full shadow-[0_45px_100px_-20px_rgba(0,0,0,0.7)]">
-                    {navItems.map((item) => {
+                    {NAV_ITEMS.map((item) => {
                         const isActive = location.pathname === item.path;
                         return (
                             <NavLink

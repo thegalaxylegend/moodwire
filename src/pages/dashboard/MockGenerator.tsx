@@ -93,28 +93,19 @@ export const MockGenerator = () => {
 
     useEffect(() => {
         let active = true;
-        let listenerHandle: any = null;
         
+        // eslint-disable-next-line react-doctor/effect-needs-cleanup
         const stateListener = CapApp.addListener('appStateChange', ({ isActive }) => {
             if (active && !isActive && step === 'exam') {
                 handlePause(true); // pass true to skip confirm
             }
         });
-
-        stateListener.then(h => {
-            if (active) listenerHandle = h;
-            else h.remove();
-        });
         
         return () => {
             active = false;
-            if (listenerHandle) {
-                listenerHandle.remove();
-            } else {
-                stateListener.then(h => h.remove());
-            }
+            stateListener.then(h => h.remove());
         };
-    }, [step]); // removed handlePause from dep array to fix react-doctor error
+    }, [step]);
 
 
     const [isSpeaking, setIsSpeaking] = useState(false);

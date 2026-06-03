@@ -334,7 +334,7 @@ const StreamingMessage = React.memo(({ text, remarkPlugins, rehypePlugins, compo
     const animatedComponents = useMemo<any>(() => {
         const override = (Tag: any) => {
             const TagComponent = Tag;
-            return ({ children, node, ...props }: any) => {
+            return ({ children, _node, ...props }: any) => {
                 // eslint-disable-next-line react-hooks/refs -- charIndexRef is intentionally read during render as a stateless counter
                 return <TagComponent {...props}>{wrapChildren(children)}</TagComponent>;
             };
@@ -364,7 +364,7 @@ const StreamingMessage = React.memo(({ text, remarkPlugins, rehypePlugins, compo
                     // Do NOT wrap children of Mermaid diagrams!
                     if (components.code) {
                         const CodeComponent = components.code as any;
-                        return <CodeComponent node={node} inline={inline} className={className} children={children} {...props} />;
+                        return <CodeComponent node={node} inline={inline} className={className} {...props}>{children}</CodeComponent>;
                     }
                     return <Mermaid chart={String(children).replace(/\n$/, '')} isStreaming={true} />;
                 }
@@ -372,7 +372,7 @@ const StreamingMessage = React.memo(({ text, remarkPlugins, rehypePlugins, compo
                 // For normal code blocks, wrap children to let code stream beautifully
                 if (components.code) {
                     const CodeComponent = components.code as any;
-                    const rendered = <CodeComponent node={node} inline={inline} className={className} children={children} {...props} />;
+                    const rendered = <CodeComponent node={node} inline={inline} className={className} {...props}>{children}</CodeComponent>;
                     if (React.isValidElement(rendered)) {
                         const el = rendered as React.ReactElement<any>;
                         return React.cloneElement(el, {

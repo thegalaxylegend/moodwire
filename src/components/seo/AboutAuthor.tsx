@@ -11,59 +11,60 @@ import { SOCIAL_LINKS } from '../../lib/constants';
  * Usage: Place on the LandingPage, About page, or in the footer.
  */
 
+const AUTHOR_SCHEMA = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ayush Kumar",
+    "url": `${SITE_URL}/founder`,
+    "sameAs": [
+        SOCIAL_LINKS.twitter.url,
+        SOCIAL_LINKS.threads.url,
+        SOCIAL_LINKS.linkedin.url
+    ],
+    "jobTitle": "Founder & Student Developer",
+    "worksFor": {
+        "@type": "Organization",
+        "name": "Exam Compass",
+        "url": SITE_URL
+    },
+    "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Kendriya Vidyalaya Darbhanga",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Darbhanga",
+            "addressRegion": "Bihar",
+            "addressCountry": "IN"
+        }
+    },
+    "description": "Class 12 student at KV Darbhanga who built Exam Compass — an AI-powered exam prep platform — while preparing for JEE. Every feature was designed from real study experience.",
+    "knowsAbout": [
+        "JEE Mains Preparation",
+        "NEET Preparation",
+        "CBSE Board Exams",
+        "AI-Powered Education",
+        "EdTech",
+        "Web Development"
+    ],
+    "homeLocation": {
+        "@type": "Place",
+        "name": "Darbhanga, Bihar, India"
+    }
+};
+
 interface AboutAuthorProps {
     /** If true, renders as a compact inline badge instead of a full card */
     compact?: boolean;
 }
 
 export const AboutAuthor = ({ compact = false }: AboutAuthorProps) => {
-    const authorSchema = {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Ayush Kumar",
-        "url": `${SITE_URL}/founder`,
-        "sameAs": [
-            SOCIAL_LINKS.twitter.url,
-            SOCIAL_LINKS.threads.url,
-            SOCIAL_LINKS.linkedin.url
-        ],
-        "jobTitle": "Founder & Student Developer",
-        "worksFor": {
-            "@type": "Organization",
-            "name": "Exam Compass",
-            "url": SITE_URL
-        },
-        "alumniOf": {
-            "@type": "EducationalOrganization",
-            "name": "Kendriya Vidyalaya Darbhanga",
-            "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Darbhanga",
-                "addressRegion": "Bihar",
-                "addressCountry": "IN"
-            }
-        },
-        "description": "Class 12 student at KV Darbhanga who built Exam Compass — an AI-powered exam prep platform — while preparing for JEE. Every feature was designed from real study experience.",
-        "knowsAbout": [
-            "JEE Mains Preparation",
-            "NEET Preparation",
-            "CBSE Board Exams",
-            "AI-Powered Education",
-            "EdTech",
-            "Web Development"
-        ],
-        "homeLocation": {
-            "@type": "Place",
-            "name": "Darbhanga, Bihar, India"
-        }
-    };
 
     if (compact) {
         return (
             <>
                 <Helmet>
                     <script type="application/ld+json">
-                        {JSON.stringify(authorSchema)}
+                        {JSON.stringify(AUTHOR_SCHEMA)}
                     </script>
                 </Helmet>
                 <div
@@ -94,7 +95,7 @@ export const AboutAuthor = ({ compact = false }: AboutAuthorProps) => {
         <>
             <Helmet>
                 <script type="application/ld+json">
-                    {JSON.stringify(authorSchema)}
+                    {JSON.stringify(AUTHOR_SCHEMA)}
                 </script>
             </Helmet>
             <section

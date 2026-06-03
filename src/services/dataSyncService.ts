@@ -2,6 +2,7 @@ import { db } from '../lib/firebase';
 import { collection, query, where, getDocs, doc, runTransaction, serverTimestamp, writeBatch, limit, orderBy } from 'firebase/firestore';
 import { getCurrentSeasonKey } from './leaderboardService';
 import { batchUpdateTopicStrength } from './topicStrengthService';
+import { RateLimiter } from '../lib/rateLimiter';
 
 /**
  * Sync Service
@@ -11,6 +12,7 @@ import { batchUpdateTopicStrength } from './topicStrengthService';
 export const syncHistoricalScoresToLeaderboard = async (userId: string, userProfile: { displayName: string, avatar?: string, targetExam?: string }) => {
     if (!userId) return;
 
+    RateLimiter.enforceDbWrite();
     console.log(`[SyncService] Starting score sync for ${userId}...`);
     const seasonKey = getCurrentSeasonKey();
     const [year, month] = seasonKey.split('-');
@@ -91,6 +93,7 @@ export const syncHistoricalScoresToLeaderboard = async (userId: string, userProf
 export const markTopicsAsCompletedFromResults = async (userId: string, results: Array<{ topic: string, isCorrect: boolean }>) => {
     if (!userId || !results.length) return;
 
+    RateLimiter.enforceDbWrite();
     // Group results by topic
     const topicStats: Record<string, { correct: number, total: number }> = {};
     results.forEach(r => {

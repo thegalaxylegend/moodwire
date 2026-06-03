@@ -165,7 +165,7 @@ export const useUserStore = create<UserState>((set, get) => ({
     isAuthenticated: !!localUser,
     isLoading: false, // Don't block UI for auth state resolution. We rely on optimistic UI and fast redirects.
     isInitialized: !!localUser, // Initialized if cache exists
-    authResolved: !localUser, // If we don't have a local cache, treat auth as resolved (unauthenticated) immediately to enable < 300ms redirects.
+    authResolved: true, // Always resolve immediately to allow rendering the cached state or landing page without skeleton freeze
 
     initialize: async () => {
         if (isAuthListenerAttached) return;
@@ -182,7 +182,7 @@ export const useUserStore = create<UserState>((set, get) => ({
                 console.warn("🚨 [Auth] Initialization hang guard fired. Falling back to cached state.");
                 set({ isLoading: false, isInitialized: true, authResolved: true });
             }
-        }, 5000);
+        }, 2500);
 
         onAuthStateChanged(auth, async (user) => {
             clearTimeout(timeout);
@@ -720,7 +720,7 @@ export const useUserStore = create<UserState>((set, get) => ({
                         } else {
                             console.log("🔑 [Auth] Re-auth confirmed after grace period. Session preserved.");
                         }
-                    }, 8000); // Increased to 8s to accommodate slow dev API response
+                    }, 3000); // Reduced to 3s: enough for token refresh, not slow enough to block UI
                 } else {
                     // No valid cache: truly logged out
                     localStorage.removeItem('exam_compass_auth_cache');

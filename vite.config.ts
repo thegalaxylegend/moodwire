@@ -566,6 +566,9 @@ export default defineConfig(() => {
     },
 
     build: {
+      target: ['es2020', 'edge88', 'firefox78', 'chrome87', 'safari14'],
+      sourcemap: false, // No source maps in production — halves build output size
+      chunkSizeWarningLimit: 800,
       modulePreload: {
         resolveDependencies: (_filename: string, deps: string[]) =>
           deps.filter(dep =>
@@ -582,13 +585,26 @@ export default defineConfig(() => {
       rollupOptions: {
         output: {
           inlineDynamicImports: isSSR,
-          manualChunks: isSSR ? undefined : {
-            'vendor-react':    ['react', 'react-dom', 'react-router-dom'],
-            'vendor-firebase': ['firebase/app', 'firebase/auth', 'firebase/firestore'],
-            'vendor-lucide':   ['lucide-react'],
-            'vendor-motion':   ['framer-motion'],
-            'vendor-markdown': ['react-markdown', 'remark-gfm'],
-            'vendor-3d':       ['three', '@react-three/fiber', '@react-three/drei'],
+          manualChunks: isSSR ? undefined : (id) => {
+            // Core vendor bundles
+            if (id.includes('node_modules/react') || id.includes('node_modules/react-dom') || id.includes('node_modules/react-router')) {
+              return 'vendor-react';
+            }
+            if (id.includes('node_modules/firebase')) {
+              return 'vendor-firebase';
+            }
+            if (id.includes('node_modules/lucide-react')) {
+              return 'vendor-lucide';
+            }
+            if (id.includes('node_modules/framer-motion')) {
+              return 'vendor-motion';
+            }
+            if (id.includes('node_modules/react-markdown') || id.includes('node_modules/remark') || id.includes('node_modules/rehype') || id.includes('node_modules/unified') || id.includes('node_modules/mdast') || id.includes('node_modules/hast')) {
+              return 'vendor-markdown';
+            }
+            if (id.includes('node_modules/three') || id.includes('node_modules/@react-three')) {
+              return 'vendor-3d';
+            }
           },
         },
       },
