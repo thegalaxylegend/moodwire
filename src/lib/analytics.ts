@@ -6,8 +6,13 @@ import {
 import { app } from "./firebase";
 
 // Initialize Firebase Analytics
-const firebaseAnalytics =
-  typeof window !== "undefined" ? getAnalytics(app) : null;
+let firebaseAnalytics: any = null;
+try {
+  firebaseAnalytics =
+    typeof window !== "undefined" && typeof app.options.projectId === 'string' && app.options.projectId !== 'dummy-project' ? getAnalytics(app) : null;
+} catch (e) {
+  console.warn("Firebase Analytics could not be initialized.");
+}
 
 // Initialize GA4 - This is a no-op as gtag is already in index.html
 // but we keep the export for compatibility with App.tsx

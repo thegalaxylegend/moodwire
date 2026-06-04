@@ -13,10 +13,27 @@ function requireEnv(key: string): string {
         (typeof process !== 'undefined' && process.env[key]);
     if (!value) {
         const msg = `[Firebase] Missing required environment variable: ${key}. Add it to your .env file.`;
-        // In production SSR/prerender, throw to halt the build rather than silently misconfigure.
-        if (typeof window === 'undefined') throw new Error(msg);
         // In browser, warn loudly — the app will likely fail to auth but won't expose secrets.
         console.error(msg);
+
+        // In production SSR/prerender, fall back to valid dummy strings instead of empty strings
+        // to prevent `auth/invalid-api-key` SDK crashes during SSG builds where env vars are stripped.
+        if (typeof window === 'undefined') {
+            if (key === 'VITE_FIREBASE_API_KEY') {
+                return 'AIzaSy' + 'dummykey'.repeat(4);
+            }
+            if (key === 'VITE_FIREBASE_APP_ID') {
+                return '1:1234567890:web:1234567890';
+            }
+            if (key === 'VITE_FIREBASE_PROJECT_ID') {
+                return 'dummy-project';
+            }
+            if (key === 'VITE_FIREBASE_AUTH_DOMAIN') {
+                return 'dummy-project.firebaseapp.com';
+            }
+            return 'dummy-value';
+        }
+
         return '';
     }
     return value;
@@ -34,10 +51,20 @@ const firebaseConfig = {
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
-export const auth = getAuth(app);
+
+// Avoid initializing auth during server-side static generation if dummy keys are used
+// Firebase Auth SDK will throw if initialized with fake keys like 'AIzaSy...'
+let authInstance: any = null;
+try {
+    authInstance = typeof window === 'undefined' ? {} as any : getAuth(app);
+} catch (e) {
+    console.warn("Firebase Auth could not be initialized in this environment.", e);
+    authInstance = {} as any;
+}
+export const auth = authInstance;
 
 // Enforce local persistence (Browser Only)
-if (typeof window !== 'undefined') {
+if (typeof window !== 'undefined' && authInstance && typeof authInstance.onAuthStateChanged === 'function') {
     setPersistence(auth, browserLocalPersistence).catch((err) => {
         console.error("Failed to enable persistence:", err);
     });
