@@ -23,13 +23,16 @@ export const ProtectedLayout = () => {
         return <DashboardSkeleton />;
     }
 
-    // Redirect unauthenticated users
+    // Redirect unauthenticated users to login
     if (!user) {
         return <Navigate to="/login" replace state={{ from: location }} />;
     }
 
-    // Keep Onboarding check: If user IS logged in but hasn't finished onboarding, force them there.
-    if (user && !user.onboardingCompleted && !location.pathname.includes('/onboarding')) {
+    // Guest users must complete onboarding before entering the dashboard.
+    // Note: guests are anonymous Firebase users with isGuest=true.
+    // We allow the /onboarding path itself so the page can render.
+    const needsOnboarding = !user.onboardingCompleted && !location.pathname.includes('/onboarding');
+    if (needsOnboarding) {
         return <Navigate to="/onboarding" replace />;
     }
 

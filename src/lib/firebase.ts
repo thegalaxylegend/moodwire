@@ -1,18 +1,35 @@
-
 import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider, setPersistence, browserLocalPersistence } from "firebase/auth";
 import { getFirestore, initializeFirestore, persistentLocalCache, persistentMultipleTabManager } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 import { getFunctions } from "firebase/functions";
 
+// Resolve Firebase config from environment variables ONLY.
+// No hardcoded fallbacks — fail loudly in dev if env vars are missing so
+// misconfigurations are caught before they reach production.
+function requireEnv(key: string): string {
+    const value =
+        (typeof import.meta !== 'undefined' && (import.meta.env as Record<string, string>)?.[key]) ||
+        (typeof process !== 'undefined' && process.env[key]);
+    if (!value) {
+        const msg = `[Firebase] Missing required environment variable: ${key}. Add it to your .env file.`;
+        // In production SSR/prerender, throw to halt the build rather than silently misconfigure.
+        if (typeof window === 'undefined') throw new Error(msg);
+        // In browser, warn loudly — the app will likely fail to auth but won't expose secrets.
+        console.error(msg);
+        return '';
+    }
+    return value;
+}
+
 const firebaseConfig = {
-    apiKey: (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_API_KEY) || (typeof process !== 'undefined' && process.env.VITE_FIREBASE_API_KEY) || "AIzaSyAj0_vu8OxPWVHvAWSRVN90y9GIStvQASY",
-    authDomain: (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_AUTH_DOMAIN) || (typeof process !== 'undefined' && process.env.VITE_FIREBASE_AUTH_DOMAIN) || "legendstech001.firebaseapp.com",
-    projectId: (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_PROJECT_ID) || (typeof process !== 'undefined' && process.env.VITE_FIREBASE_PROJECT_ID) || "legendstech001",
-    storageBucket: (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_STORAGE_BUCKET) || (typeof process !== 'undefined' && process.env.VITE_FIREBASE_STORAGE_BUCKET) || "legendstech001.firebasestorage.app",
-    messagingSenderId: (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_MESSAGING_SENDER_ID) || (typeof process !== 'undefined' && process.env.VITE_FIREBASE_MESSAGING_SENDER_ID) || "749589426436",
-    appId: (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_APP_ID) || (typeof process !== 'undefined' && process.env.VITE_FIREBASE_APP_ID) || "1:749589426436:web:64b0455b7f90a7849c6051",
-    measurementId: (typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIREBASE_MEASUREMENT_ID) || (typeof process !== 'undefined' && process.env.VITE_FIREBASE_MEASUREMENT_ID) || "G-7MWNJDZ5D0"
+    apiKey:            requireEnv('VITE_FIREBASE_API_KEY'),
+    authDomain:        requireEnv('VITE_FIREBASE_AUTH_DOMAIN'),
+    projectId:         requireEnv('VITE_FIREBASE_PROJECT_ID'),
+    storageBucket:     requireEnv('VITE_FIREBASE_STORAGE_BUCKET'),
+    messagingSenderId: requireEnv('VITE_FIREBASE_MESSAGING_SENDER_ID'),
+    appId:             requireEnv('VITE_FIREBASE_APP_ID'),
+    measurementId:     requireEnv('VITE_FIREBASE_MEASUREMENT_ID'),
 };
 
 // Initialize Firebase

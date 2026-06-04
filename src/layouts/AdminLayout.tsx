@@ -1,4 +1,4 @@
-import { Suspense, useState } from 'react';
+import { Suspense, useState, useEffect } from 'react';
 import { Navigate, Outlet, useLocation } from 'react-router-dom';
 import { useUserStore } from '../store/userStore';
 import { 
@@ -9,19 +9,34 @@ import { SidebarItem } from './DashboardLayout'; // Reusing for consistency
 import { AppShellSkeleton } from '../components/skeletons/AppShellSkeleton';
 import { ADMIN_EMAILS } from '../lib/securityConfig';
 import { AdminBottomNav } from '../components/AdminBottomNav';
+import { auth } from '../lib/firebase';
 
 export const AdminLayout = () => {
     const { user, isLoading } = useUserStore();
     const location = useLocation();
-
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+    // Verify admin status against the live Firebase Auth token — not the localStorage cache.
+    // auth.currentUser?.email is sourced from the signed JWT, not from localStorage,
+    // so it cannot be spoofed by editing DevTools.
+    const [verifiedAdmin, setVerifiedAdmin] = useState<boolean | null>(null);
 
-    if (isLoading) return <AppShellSkeleton />;
+    useEffect(() => {
+        const liveEmail = auth.currentUser?.email?.toLowerCase() ?? null;
+        if (liveEmail && ADMIN_EMAILS.includes(liveEmail)) {
+            setVerifiedAdmin(true);
+        } else {
+            // Force-reload the token from Firebase to ensure it's fresh
+            auth.currentUser?.getIdToken(true).then(() => {
+                const email = auth.currentUser?.email?.toLowerCase() ?? null;
+                setVerifiedAdmin(email ? ADMIN_EMAILS.includes(email) : false);
+            }).catch(() => setVerifiedAdmin(false));
+        }
+    }, [user]);
 
-    // Global Admin Access Control
-    const isAdmin = user?.role === 'admin' || (user?.email && ADMIN_EMAILS.includes(user.email.toLowerCase()));
+    if (isLoading || verifiedAdmin === null) return <AppShellSkeleton />;
 
-    if (!user || !isAdmin) {
+    // Block access if not a verified admin via live Firebase token
+    if (!user || !verifiedAdmin) {
         return <Navigate to="/dashboard" replace />;
     }
 
