@@ -29,13 +29,14 @@ importScripts(SHERPA_ONNX_WASM_JS_URL);
 
 self.addEventListener('error', (e: ErrorEvent) => {
     e.preventDefault();
-    console.warn('[sherpa-worker] Structural Error:', e.message || 'Unknown worker error');
+    const msg = e.message || 'Unknown worker error';
+    console.warn('[sherpa-worker] Structural Error:', msg.split('\n')[0]);
 });
 
 self.addEventListener('unhandledrejection', (e: PromiseRejectionEvent) => {
     e.preventDefault();
     const reason = e.reason instanceof Error ? e.reason.message : String(e.reason);
-    console.warn('[sherpa-worker] Unhandled Rejection:', reason);
+    console.warn('[sherpa-worker] Unhandled Rejection:', reason.split('\n')[0]);
 });
 
 class OfflineTts {
@@ -186,6 +187,13 @@ self.onmessage = async (e: MessageEvent) => {
                 const FS = (self as any).FS || wasmModule.FS;
                 if (!FS) {
                     throw new Error('Emscripten FS object not found in worker global scope or Module');
+                }
+
+                if (!payload.model || payload.model.byteLength === 0) {
+                    throw new Error('Invalid or empty model payload received');
+                }
+                if (!payload.tokens || payload.tokens.byteLength === 0) {
+                    throw new Error('Invalid or empty tokens payload received');
                 }
 
                 // Write ArrayBuffers to virtual filesystem

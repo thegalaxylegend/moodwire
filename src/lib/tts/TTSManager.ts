@@ -346,16 +346,22 @@ export class TTSManager {
 
     private async fetchWithCache(url: string): Promise<ArrayBuffer> {
         const cacheName = 'exa-tts-models-v1';
+        let cache: Cache | undefined;
         try {
-            const cache = await caches.open(cacheName);
+            cache = await caches.open(cacheName);
             const cachedResponse = await cache.match(url);
 
             if (cachedResponse) {
-                const buffer = await cachedResponse.arrayBuffer();
-                if (buffer && buffer.byteLength > 0) {
-                    return buffer;
-                } else {
-                    console.warn(`[TTSManager] Cached response was empty/corrupted for ${url}, deleting from cache...`);
+                try {
+                    const buffer = await cachedResponse.arrayBuffer();
+                    if (buffer && buffer.byteLength > 0) {
+                        return buffer;
+                    } else {
+                        console.warn(`[TTSManager] Cached response was empty/corrupted for ${url}, deleting from cache...`);
+                        await cache.delete(url);
+                    }
+                } catch (bufferErr) {
+                    console.warn(`[TTSManager] Failed to read cache buffer for ${url}:`, bufferErr);
                     await cache.delete(url);
                 }
             }
@@ -383,6 +389,10 @@ export class TTSManager {
             return buffer;
         } catch (e) {
             console.warn(`[TTSManager] Cache/Fetch error for ${url}:`, e);
+            if (cache) {
+                try { await cache.delete(url); } catch (delErr) {} // Best effort cleanup
+            }
+
             // Fallback to direct fetch if cache fails
             const response = await fetch(url);
             if (!response.ok || response.status !== 200) {
@@ -446,6 +456,8 @@ export class TTSManager {
             this.audioContext.onstatechange = () => {
                 if (this.audioContext?.state === 'closed' || this.audioContext?.state === 'interrupted') {
                     this.stop();
+                    try { this.audioContext.close(); } catch (e) {}
+                    this.audioContext = null;
                 }
             };
         }
