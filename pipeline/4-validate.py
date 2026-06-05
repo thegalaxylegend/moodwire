@@ -118,6 +118,37 @@ def validate(q: dict, seen_hashes: set) -> tuple[bool, list[str]]:
         errors.append("EXPLANATION_TOO_SHORT")
         return False, errors
 
+    # 11b. LaTeX Parity Check
+    import re
+    q_text = str(q.get("question_text", ""))
+    expl_text = str(q.get("explanation", ""))
+    q_double_dollar = q_text.count("$$")
+    expl_double_dollar = expl_text.count("$$")
+    if (q_double_dollar + expl_double_dollar) % 2 != 0:
+        errors.append("UNCLOSED_LATEX_BLOCK")
+        return False, errors
+
+    # 11c. Placeholder / Garbage Check
+    q_lower = q_text.lower()
+    for bad in ["placeholder", "lorem ipsum", "todo", "insert question", "[question]", "xxx", "tbd"]:
+        if bad in q_lower:
+            errors.append(f"GARBAGE_TEXT_FOUND:{bad}")
+            return False, errors
+
+    # 11d. MCQ Duplicate / Placeholder Options Check
+    if qtype == "MCQ" and options:
+        # Check duplicate options
+        norm_opts = [str(o).lower().strip() for o in options]
+        if len(set(norm_opts)) < len(options):
+            errors.append("DUPLICATE_OPTIONS")
+            return False, errors
+        # Check placeholder options
+        for opt in options:
+            o = str(opt).strip()
+            if re.match(r'^[A-Da-d]$', o) or re.match(r'(?i)^option [abcd]$', o):
+                errors.append(f"PLACEHOLDER_OPTION:{o}")
+                return False, errors
+
     # 12. Dedup hash
     text = str(q.get("question_text", "")).strip()
     h = hashlib.sha256(f"{text[:200]}|{correct}".encode()).hexdigest()[:16]

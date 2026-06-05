@@ -59,25 +59,17 @@ print(f"[KEYS] Keys loaded: Cerebras={len(CEREBRAS_KEYS)} Groq={len(GROQ_KEYS)} 
 CEREBRAS_MODELS = [
     "gpt-oss-120b",
     "zai-glm-4.7",
-    "qwen-3-235b-a22b-instruct-2507",
-    "llama3.1-8b",
 ]
 
 # Groq free tier - fast LPU inference
 GROQ_MODELS = [
     "llama-3.3-70b-versatile",
-    "meta-llama/llama-4-scout-17b-16e-instruct",
-    "openai/gpt-oss-120b",
     "llama-3.1-8b-instant",
 ]
 
 # Gemini free tier - reliable, works from GitHub Actions
 GEMINI_MODELS = [
-    "gemini-3.5-flash",
-    "gemini-3.1-flash-lite",
     "gemini-2.5-flash",
-    "gemini-2.0-flash",
-    "gemini-2.0-flash-lite",
 ]
 
 # ── Thread-safe Key Rotator ───────────────────────────────────────────────────
@@ -218,6 +210,8 @@ Topic hint: {topic}
 
 {ELO_TABLE_PROMPT}
 
+CRITICAL: DO NOT solve the math/science questions step-by-step. Do NOT perform any calculations. Just perform tag classification and metadata enrichment directly. Keep reasoning to an absolute minimum (under 50 words).
+
 Return ONLY valid JSON with enrichment metadata:
 {{
   "question_text": "<copy original exactly>",
@@ -274,7 +268,7 @@ def call_cerebras_model(key: str, model: str, prompt: str) -> Optional[str]:
         "model": model,
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.15,
-        "max_completion_tokens": 1500,
+        "max_completion_tokens": 4000,
         "response_format": {"type": "json_object"},
     }).encode()
     headers = {
@@ -333,27 +327,28 @@ def call_groq_key(key: str, prompt: str) -> Optional[str]:
     return None
 
 def call_gemini(key: str, model: str, prompt: str) -> Optional[str]:
-    """Exposed for test compatibility, calls a specific Gemini model."""
+    """Calls standard Gemini API generateContent with thinking disabled."""
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
     headers = {
-        "Authorization": f"Bearer {key}",
         "Content-Type": "application/json",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
     }
     for attempt in range(3):   # up to 2 retries per model
         payload = json.dumps({
-            "model": model,
-            "messages": [{"role": "user", "content": prompt}],
-            "temperature": 0.15,
-            "max_tokens": 1500,
-            "response_format": {"type": "json_object"},
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {
+                "maxOutputTokens": 4000,
+                "temperature": 0.15,
+                "responseMimeType": "application/json",
+                "thinkingConfig": {"thinkingBudget": 0}
+            }
         }).encode()
         try:
-            resp = _http_post(
-                "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
-                payload, headers, timeout=60
-            )
+            resp = _http_post(url, payload, headers, timeout=60)
             data = json.loads(resp)
-            return data["choices"][0]["message"]["content"]
+            text = data.get("candidates", [{}])[0].get("content", {}).get("parts", [{}])[0].get("text", "")
+            if text:
+                return text
         except ValueError as e:
             err = str(e)
             if "RATE_LIMIT" in err:
