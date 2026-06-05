@@ -6,7 +6,17 @@
     "ignore": [
       "firebase.json",
       "**/.*",
-      "**/node_modules/**"
+      "**/node_modules/**",
+      "server/**",
+      "**/espeak-ng-data/**",
+      "**/*.exe",
+      "**/*.bat",
+      "**/*.sh",
+      "**/*.cmd",
+      "**/*.msi",
+      "**/*.app",
+      "**/*.glb",
+      "**/*.node"
     ],
     "redirects": [],
     "rewrites": [
