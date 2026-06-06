@@ -1,0 +1,324 @@
+name: ExamCompass — Question DB Builder (Nightly)
+
+on:
+  schedule:
+    - cron: '30 18 * * *'   # 00:00 IST daily (18:30 UTC)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Pipeline mode'
+        required: false
+        default: 'both'
+        type: choice
+        options: [both, fast_tag, full_curation, report_only]
+      target_class:
+        description: 'Target class (blank = all)'
+        required: false
+        default: ''
+      stubs_per_shard:
+        description: 'Stubs to generate per shard (10 shards × this = total)'
+        required: false
+        default: '2000'
+
+concurrency:
+  group: examcompass-ingest
+  cancel-in-progress: false
+
+jobs:
+  check_target:
+    name: Check DB Coverage (stop at 500K)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      should_run: ${{ steps.check.outputs.should_run }}
+      current_count: ${{ steps.check.outputs.current_count }}
+    steps:
+      - name: Check D1 question count
+        id: check
+        env:
+          CLOUDFLARE_D1_TOKEN:  ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          RESPONSE=$(curl -s -X POST \
+            "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/d1/database/63abfee4-2340-47bd-a9ad-ebc4a9c50580/query" \
+            -H "Authorization: Bearer ${CLOUDFLARE_D1_TOKEN}" \
+            -H "Content-Type: application/json" \
+            -d '{"sql":"SELECT COUNT(*) as count FROM questions"}' 2>/dev/null || echo '{"result":[{"results":[{"count":0}]}]}')
+          COUNT=$(echo "$RESPONSE" | grep -o '"count":[0-9]*' | head -1 | grep -o '[0-9]*' || echo 0)
+          echo "Current DB count: $COUNT"
+          echo "current_count=$COUNT" >> $GITHUB_OUTPUT
+          if [ "$COUNT" -ge 500000 ]; then
+            echo "✅ 500K GOAL REACHED ($COUNT questions) — stopping pipeline"
+            echo "should_run=false" >> $GITHUB_OUTPUT
+          else
+            echo "📊 Need more questions: $COUNT / 500000"
+            echo "should_run=true" >> $GITHUB_OUTPUT
+          fi
+
+  prepare:
+    name: Coverage Report + Generate Stubs
+    needs: check_target
+    if: needs.check_target.outputs.should_run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    outputs:
+      total_stubs: ${{ steps.gen.outputs.total_stubs }}
+      skip_curation: ${{ steps.gen.outputs.skip_curation }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Scrape verified PYQ sources
+        run: npx tsx scripts/bulk-scraper.ts || true
+
+      - name: Coverage report + generate stubs
+        id: gen
+        env:
+          CLOUDFLARE_API_TOKEN:   ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          STUBS=${{ github.event.inputs.stubs_per_shard || '2000' }}
+          TOTAL_STUBS=$((STUBS * 10))
+          npx tsx scripts/distribution-manager.ts --stubs=$TOTAL_STUBS --remote
+          echo "total_stubs=$TOTAL_STUBS" >> $GITHUB_OUTPUT
+          RAW=$(grep -c '"quality":"raw"' scratch/raw_questions_cache.jsonl 2>/dev/null || echo 0)
+          echo "skip_curation=$( [ $RAW -lt 5 ] && echo 'true' || echo 'false' )" >> $GITHUB_OUTPUT
+          echo "Raw stubs available: $RAW"
+          echo "Target: 500K | Current: ${{ needs.check_target.outputs.current_count }} | Gap: $((500000 - ${{ needs.check_target.outputs.current_count }}))"
+
+      - name: Upload cache for shards
+        uses: actions/upload-artifact@v4
+        with:
+          name: question-cache
+          path: |
+            scratch/raw_questions_cache.jsonl
+            scratch/processed_hashes.json
+            scratch/daily_limits.json
+            scratch/distribution_report.json
+          retention-days: 1
+
+  fast_tag:
+    name: Fast-Tag Verified PYQs
+    needs: prepare
+    if: ${{ github.event.inputs.mode != 'full_curation' && github.event.inputs.mode != 'report_only' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - run: npm ci
+
+      - name: Download cache
+        uses: actions/download-artifact@v4
+        with:
+          name: question-cache
+          path: scratch/
+
+      - name: Tag all verified PYQs
+        env:
+          CEREBRAS_API_KEY:    ${{ secrets.CEREBRAS_API_KEY }}
+          CEREBRAS_API_KEY_2:  ${{ secrets.CEREBRAS_API_KEY_2 }}
+          CEREBRAS_API_KEY_3:  ${{ secrets.CEREBRAS_API_KEY_3 }}
+          CEREBRAS_API_KEY_4:  ${{ secrets.CEREBRAS_API_KEY_4 }}
+          CEREBRAS_API_KEY_5:  ${{ secrets.CEREBRAS_API_KEY_5 }}
+          CEREBRAS_API_KEY_6:  ${{ secrets.CEREBRAS_API_KEY_6 }}
+          CEREBRAS_API_KEY_7:  ${{ secrets.CEREBRAS_API_KEY_7 }}
+          CEREBRAS_API_KEY_8:  ${{ secrets.CEREBRAS_API_KEY_8 }}
+          VITE_GEMINI_API_KEY:   ${{ secrets.GEMINI_API_KEY }}
+          VITE_GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          VITE_GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
+          VITE_GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
+          VITE_GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
+          VITE_GEMINI_API_KEY_6: ${{ secrets.GEMINI_API_KEY_6 }}
+          VITE_GROQ_API_KEY:   ${{ secrets.GROQ_API_KEY }}
+          VITE_GROQ_API_KEY_2: ${{ secrets.GROQ_API_KEY_2 }}
+          VITE_GROQ_API_KEY_3: ${{ secrets.GROQ_API_KEY_3 }}
+          VITE_GROQ_API_KEY_4: ${{ secrets.GROQ_API_KEY_4 }}
+          VITE_GROQ_API_KEY_5: ${{ secrets.GROQ_API_KEY_5 }}
+          VITE_GROQ_API_KEY_6: ${{ secrets.GROQ_API_KEY_6 }}
+          VITE_GROQ_API_KEY_7: ${{ secrets.GROQ_API_KEY_7 }}
+          VITE_GROQ_API_KEY_8: ${{ secrets.GROQ_API_KEY_8 }}
+        run: npx tsx scripts/turbo-pipeline.ts --mode=fast_tag --workers=30
+
+      - name: Upload fast_tag seed
+        uses: actions/upload-artifact@v4
+        with:
+          name: seed-fast-tag
+          path: |
+            scripts/seed.sql
+            scratch/processed_hashes.json
+            scratch/daily_limits.json
+          retention-days: 7
+
+  full_curation:
+    name: Full Curation (Shard ${{ matrix.shard }})
+    needs: prepare
+    if: ${{ github.event.inputs.mode != 'fast_tag' && github.event.inputs.mode != 'report_only' && needs.prepare.outputs.skip_curation != 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+
+    strategy:
+      fail-fast: false
+      max-parallel: 10
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - run: npm ci
+
+      - name: Download cache
+        uses: actions/download-artifact@v4
+        with:
+          name: question-cache
+          path: scratch/
+
+      - name: Run curation shard ${{ matrix.shard }}
+        env:
+          CEREBRAS_API_KEY:    ${{ secrets.CEREBRAS_API_KEY }}
+          CEREBRAS_API_KEY_2:  ${{ secrets.CEREBRAS_API_KEY_2 }}
+          CEREBRAS_API_KEY_3:  ${{ secrets.CEREBRAS_API_KEY_3 }}
+          CEREBRAS_API_KEY_4:  ${{ secrets.CEREBRAS_API_KEY_4 }}
+          CEREBRAS_API_KEY_5:  ${{ secrets.CEREBRAS_API_KEY_5 }}
+          CEREBRAS_API_KEY_6:  ${{ secrets.CEREBRAS_API_KEY_6 }}
+          CEREBRAS_API_KEY_7:  ${{ secrets.CEREBRAS_API_KEY_7 }}
+          CEREBRAS_API_KEY_8:  ${{ secrets.CEREBRAS_API_KEY_8 }}
+          VITE_GEMINI_API_KEY:   ${{ secrets.GEMINI_API_KEY }}
+          VITE_GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          VITE_GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
+          VITE_GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
+          VITE_GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
+          VITE_GEMINI_API_KEY_6: ${{ secrets.GEMINI_API_KEY_6 }}
+          VITE_GROQ_API_KEY:   ${{ secrets.GROQ_API_KEY }}
+          VITE_GROQ_API_KEY_2: ${{ secrets.GROQ_API_KEY_2 }}
+          VITE_GROQ_API_KEY_3: ${{ secrets.GROQ_API_KEY_3 }}
+          VITE_GROQ_API_KEY_4: ${{ secrets.GROQ_API_KEY_4 }}
+          VITE_GROQ_API_KEY_5: ${{ secrets.GROQ_API_KEY_5 }}
+          VITE_GROQ_API_KEY_6: ${{ secrets.GROQ_API_KEY_6 }}
+          VITE_GROQ_API_KEY_7: ${{ secrets.GROQ_API_KEY_7 }}
+          VITE_GROQ_API_KEY_8: ${{ secrets.GROQ_API_KEY_8 }}
+        run: |
+          STUBS_PER_SHARD=${{ github.event.inputs.stubs_per_shard || '2000' }}
+          OFFSET=$(( ${{ matrix.shard }} * STUBS_PER_SHARD ))
+          echo "Shard ${{ matrix.shard }}: offset=$OFFSET limit=$STUBS_PER_SHARD"
+          npx tsx scripts/turbo-pipeline.ts \
+            --mode=full_curation \
+            --workers=30 \
+            --offset=$OFFSET \
+            --limit=$STUBS_PER_SHARD
+
+      - name: Upload shard seed
+        uses: actions/upload-artifact@v4
+        with:
+          name: seed-shard-${{ matrix.shard }}
+          path: |
+            scripts/seed.sql
+            scratch/daily_limits.json
+          retention-days: 7
+
+  seed_db:
+    name: Merge Seeds + Push to D1
+    needs: [fast_tag, full_curation]
+    if: always() && (needs.fast_tag.result == 'success' || needs.full_curation.result == 'success')
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - run: npm ci
+
+      - name: Download fast_tag seed
+        uses: actions/download-artifact@v4
+        with:
+          name: seed-fast-tag
+          path: artifacts/fast-tag/
+        continue-on-error: true
+
+      - name: Download all shard seeds
+        uses: actions/download-artifact@v4
+        with:
+          pattern: seed-shard-*
+          path: artifacts/
+          merge-multiple: false
+        continue-on-error: true
+
+      - name: Merge all seeds into one file
+        run: |
+          echo "-- ExamCompass Merged Seed" > scripts/seed.sql
+          echo "-- Generated: $(date -u +%Y-%m-%dT%H:%M:%SZ)" >> scripts/seed.sql
+          echo "" >> scripts/seed.sql
+          for f in artifacts/*/seed.sql artifacts/fast-tag/seed.sql; do
+            if [ -f "$f" ]; then
+              echo "-- Source: $f" >> scripts/seed.sql
+              grep "^INSERT" "$f" >> scripts/seed.sql || true
+            fi
+          done
+          TOTAL=$(grep -c "^INSERT" scripts/seed.sql 2>/dev/null || echo 0)
+          echo "Total INSERT statements: $TOTAL"
+          echo "TOTAL_ROWS=$TOTAL" >> $GITHUB_ENV
+
+      - name: Push to Cloudflare D1
+        env:
+          CLOUDFLARE_API_TOKEN:   ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          echo "Pushing $TOTAL_ROWS questions to D1 via REST API..."
+          npx tsx scripts/d1-push.ts
+          echo "✅ D1 push complete"
+
+      - name: Deploy to Cloudflare Pages
+        env:
+          CLOUDFLARE_API_TOKEN:  ${{ secrets.CLOUDFLARE_PAGES_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          npm run build
+          npx wrangler pages deploy dist --project-name=moodwire
+        continue-on-error: true
+
+      - name: Commit seed.sql and processed_hashes back to repo
+        run: |
+          git config user.name  "ExamCompass Bot"
+          git config user.email "bot@examcompass.app"
+          git add scripts/seed.sql scratch/processed_hashes.json scratch/distribution_report.json || true
+          git diff --cached --quiet || git commit -m "🤖 Auto-seed: $TOTAL_ROWS questions [skip ci]"
+          git push origin HEAD || true
+
+      - name: Summary
+        run: |
+          echo "## 🎉 Pipeline Complete" >> $GITHUB_STEP_SUMMARY
+          echo "| Metric | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Questions inserted | **$TOTAL_ROWS** |" >> $GITHUB_STEP_SUMMARY
+          echo "| Mode | ${{ github.event.inputs.mode || 'both' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Shards | 10 |" >> $GITHUB_STEP_SUMMARY
+          echo "| DB ID | 63abfee4-2340-47bd-a9ad-ebc4a9c50580 |" >> $GITHUB_STEP_SUMMARY
+          cat scratch/distribution_report.json | node -e "
+            const d = JSON.parse(require('fs').readFileSync('/dev/stdin','utf-8'));
+            const pct = (d.total_current/d.total_target*100).toFixed(1);
+            console.log('| DB Coverage | **'+pct+'%** ('+d.total_current+'/'+d.total_target+') |');
+          " >> $GITHUB_STEP_SUMMARY || true

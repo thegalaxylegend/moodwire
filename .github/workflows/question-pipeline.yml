@@ -221,10 +221,10 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| Stage | Count |" >> $GITHUB_STEP_SUMMARY
           echo "|-------|-------|" >> $GITHUB_STEP_SUMMARY
-          echo "| 📥 Raw fetched | ${{ env.RAW_COUNT || '?' }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| 🤖 AI enriched | ${{ env.ENRICHED_COUNT || '?' }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| ✅ Validated   | ${{ env.VALID_COUNT || '?' }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| 🗄️ SQL chunks  | ${{ env.CHUNK_COUNT || '?' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| 📥 Raw fetched | ${RAW_COUNT:-?} |" >> $GITHUB_STEP_SUMMARY
+          echo "| 🤖 AI enriched | ${ENRICHED_COUNT:-?} |" >> $GITHUB_STEP_SUMMARY
+          echo "| ✅ Validated   | ${VALID_COUNT:-?} |" >> $GITHUB_STEP_SUMMARY
+          echo "| 🗄️ SQL chunks  | ${CHUNK_COUNT:-?} |" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**Target:** ${{ env.TARGET }} questions | **Filter:** ${{ env.SOURCE_FILTER }}" >> $GITHUB_STEP_SUMMARY
           echo "**D1 Database:** examcompass-questions" >> $GITHUB_STEP_SUMMARY
