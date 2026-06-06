@@ -43,10 +43,10 @@ export const MODELS: Record<string, ModelSpec> = {
   // CEREBRAS FLEET — 8 keys across Gmail accounts
   // Ultra-fast hardware inference, 60 RPM (70b) / 120 RPM (8b) per key
   // ═══════════════════════════════════════════════════════════
-  'llama3.3-70b':
-    { id: 'llama3.3-70b', provider: 'cerebras', rpm: 60,  rpd: 28800, tpm: 60000, context: 128000, tier: 'T1', maxOutput: 8192 },
-  'llama3.1-8b':
-    { id: 'llama3.1-8b',  provider: 'cerebras', rpm: 120, rpd: 57600, tpm: 60000, context: 128000, tier: 'T4', maxOutput: 8192 },
+  'gpt-oss-120b':
+    { id: 'gpt-oss-120b', provider: 'cerebras', rpm: 60,  rpd: 28800, tpm: 60000, context: 128000, tier: 'T1', maxOutput: 8192 },
+  'zai-glm-4.7':
+    { id: 'zai-glm-4.7',  provider: 'cerebras', rpm: 120, rpd: 57600, tpm: 60000, context: 128000, tier: 'T4', maxOutput: 8192 },
 
   // ═══════════════════════════════════════════════════════════
   // HUGGINGFACE FLEET — 3 keys across Gmail accounts
@@ -71,7 +71,7 @@ export const MODELS: Record<string, ModelSpec> = {
 export const WATERFALL_CHAINS: Record<TaskTier, string[]> = {
   // T1: JEE Advanced / Expert accuracy required
   T1: [
-    'llama3.3-70b',                        // Cerebras 480 RPM (8 keys × 60) — FIRST
+    'gpt-oss-120b',                        // Cerebras 480 RPM (8 keys × 60) — FIRST
     'llama-3.3-70b-versatile',             // Groq 210 RPM (7 keys × 30)
     'qwen/qwen3-32b',                      // Groq
     'gemini-2.5-flash',                    // Gemini 90 RPM (6 keys × 15) — LAST
@@ -80,7 +80,7 @@ export const WATERFALL_CHAINS: Record<TaskTier, string[]> = {
 
   // T2: JEE Main / NEET question generation
   T2: [
-    'llama3.3-70b',                        // Cerebras — FIRST
+    'gpt-oss-120b',                        // Cerebras — FIRST
     'qwen/qwen3-32b',                      // Groq
     'meta-llama/llama-4-scout-17b-16e-instruct', // Groq
     'Qwen/Qwen2.5-7B-Instruct',           // HuggingFace (3 keys)
@@ -91,7 +91,7 @@ export const WATERFALL_CHAINS: Record<TaskTier, string[]> = {
 
   // T3: Student chatbot / doubt solving — Cerebras → Groq → Gemini
   T3: [
-    'llama3.3-70b',                        // Cerebras 480 RPM — FIRST (sub-second latency)
+    'gpt-oss-120b',                        // Cerebras 480 RPM — FIRST (sub-second latency)
     'meta-llama/llama-4-scout-17b-16e-instruct', // Groq
     'qwen/qwen3-32b',                      // Groq
     'gemini-2.5-flash',                    // Gemini — LAST
@@ -99,7 +99,7 @@ export const WATERFALL_CHAINS: Record<TaskTier, string[]> = {
 
   // T4: Light tasks (formatting, memory extraction)
   T4: [
-    'llama3.1-8b',           // Cerebras 960 RPM (8 keys × 120) — FIRST
+    'zai-glm-4.7',           // Cerebras 960 RPM (8 keys × 120) — FIRST
     'llama-3.1-8b-instant',  // Groq 210 RPM (7 keys × 30)
     'gemma-4-26b-a4b-it',   // Gemini
     'gemini-2.5-flash',      // Gemini — LAST
@@ -107,7 +107,7 @@ export const WATERFALL_CHAINS: Record<TaskTier, string[]> = {
 
   // T5: Cheapest tasks (JSON parsing, unit checks)
   T5: [
-    'llama3.1-8b',           // Cerebras — FIRST
+    'zai-glm-4.7',           // Cerebras — FIRST
     'llama-3.1-8b-instant',  // Groq
     'gemma-4-26b-a4b-it',   // Gemini
     'gemini-2.5-flash',      // Gemini — LAST

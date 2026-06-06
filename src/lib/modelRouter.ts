@@ -367,7 +367,7 @@ class ModelRouter {
       if (modelId === 'llama3.3-70b' || modelId === 'llama-3.3-70b') {
         actualModel = 'gpt-oss-120b';
       } else if (modelId === 'llama3.1-8b' || modelId === 'llama-3.1-8b') {
-        actualModel = 'llama3.1-8b';
+        actualModel = 'zai-glm-4.7';
       }
     }
 

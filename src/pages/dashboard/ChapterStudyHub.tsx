@@ -4,11 +4,12 @@ import { useUserStore } from '../../store/userStore';
 import { SYLLABUS_DB } from '../../lib/constants';
 import { slugify } from '../../lib/utils';
 import { generateCheatSheetContent, downloadCheatSheetPDF, type CheatSheetContent } from '../../services/cheatSheetService';
-import { getVideoByTopicIdCached, type Video } from '../../services/videoService';
+import { getVideoByTopicIdCached, isVideoMatchForExam, type Video } from '../../services/videoService';
 import { getLibraryForChapter, type LibraryVideo } from '../../services/videoLibraryService';
 import { scoreVideos } from '../../services/videoScoringEngine';
 import { SubtopicProgressService } from '../../services/subtopicProgressService';
 import { isVideoFinished, markVideoAsFinished } from '../../services/videoProgressService';
+import { calculateGains } from '../../services/gamificationService';
 import {
     ArrowLeft, Play, BookOpen, CheckCircle2, Circle, Clock,
     Zap, Target, RotateCcw, ChevronRight, Flame, Brain,
@@ -46,13 +47,15 @@ const TYPE_META: Record<string, { label: string; color: string; bg: string; icon
 // ─── VIDEO PLAYER CARD ────────────────────────────────────────────────────────
 
 const VideoPlayerCard = ({
-    video, chapterId, userId, onFinish
-}: { video: Video; chapterId: string; userId: string; onFinish: () => void }) => {
+    video, chapterId, userId, userClass, targetExam, onFinish
+}: { video: Video; chapterId: string; userId: string; userClass: string; targetExam: string; onFinish: () => void }) => {
     const iframeRef = useRef<HTMLIFrameElement>(null);
     const videoId = getYouTubeId(video.videoUrl);
-    const finished = userId ? isVideoFinished(video.id, userId, '', '') : false;
+    const finished = userId ? isVideoFinished(video.id, userId, userClass, targetExam) : false;
     const [isBookmarked, setIsBookmarked] = useState(false);
+    const { addGains, recordActivity } = useUserStore();
 
+    // Track bookmarks
     useEffect(() => {
         const saved = localStorage.getItem('ec_bookmarks') || '[]';
         try { setIsBookmarked(JSON.parse(saved).includes(video.id)); } catch { }
@@ -68,13 +71,53 @@ const VideoPlayerCard = ({
         } catch { }
     };
 
-    const handleMarkFinished = () => {
+    const handleMarkFinished = useCallback(() => {
         if (userId) {
-            markVideoAsFinished(video.id, userId, '', '');
+            markVideoAsFinished(video.id, userId, userClass, targetExam);
             SubtopicProgressService.markVideoWatched(userId, chapterId, video.id).catch(() => { });
             onFinish();
         }
-    };
+    }, [video.id, userId, userClass, targetExam, chapterId, onFinish]);
+
+    // ─── STUDY TIME & XP TRACKING ──────────────────────────────────────────────
+    // Tracks study time and awards XP when changing videos or closing the page
+    useEffect(() => {
+        const startTime = Date.now();
+        return () => {
+            const duration = Math.round((Date.now() - startTime) / 1000);
+            if (duration > 5) { // Track if watched for more than 5 seconds
+                const gains = calculateGains('lecture_watch', { duration });
+                addGains(gains);
+                recordActivity(duration);
+                console.log(`[VideoPlayerCard] Awarded ${gains.xp} XP for watching ${duration}s.`);
+            }
+        };
+    }, [video.id, userId, addGains, recordActivity]);
+
+    // ─── AUTO-COMPLETION VIA YOUTUBE IFRAME PLAYER API ──────────────────────────
+    // Automatically marks the video as completed when the YouTube state is 'ended' (info: 0)
+    useEffect(() => {
+        const handleMessage = (event: MessageEvent) => {
+            if (event.origin !== 'https://www.youtube.com' && event.origin !== 'https://www.youtube-nocookie.com') {
+                return;
+            }
+            try {
+                const data = JSON.parse(event.data);
+                // info: 0 corresponds to YT.PlayerState.ENDED
+                if (data.event === 'onStateChange' && data.info === 0) {
+                    console.log(`[VideoPlayerCard] Auto-ended detected for video ${video.id}! Marking finished.`);
+                    handleMarkFinished();
+                }
+            } catch {
+                // Ignore non-JSON postMessages
+            }
+        };
+
+        window.addEventListener('message', handleMessage);
+        return () => {
+            window.removeEventListener('message', handleMessage);
+        };
+    }, [video.id, handleMarkFinished]);
 
     return (
         <div className="relative rounded-3xl overflow-hidden border border-white/10 shadow-2xl bg-[#0d0d18]">
@@ -120,7 +163,7 @@ const VideoPlayerCard = ({
                     <iframe sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-presentation"
                         key={videoId}
                         ref={iframeRef}
-                        src={`https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1&enablejsapi=1`}
+                        src={`https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1&enablejsapi=1&origin=${window.location.origin}`}
                         title={video.title}
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
                         allowFullScreen
@@ -155,8 +198,8 @@ const VideoPlayerCard = ({
 // ─── VIDEO THUMBNAIL CARD ──────────────────────────────────────────────────────
 
 const VideoThumbCard = ({
-    video, isActive, userId, onSelect
-}: { video: Video | LibraryVideo; isActive: boolean; userId: string; onSelect: () => void }) => {
+    video, isActive, userId, userClass, targetExam, onSelect
+}: { video: Video | LibraryVideo; isActive: boolean; userId: string; userClass: string; targetExam: string; onSelect: () => void }) => {
     // Derive the best thumbnail URL: prefer explicit field, then compute from videoUrl
     const videoId = getYouTubeId(video.videoUrl ?? '');
     const thumbSrc = video.thumbnailUrl
@@ -165,7 +208,7 @@ const VideoThumbCard = ({
 
     const type = inferType(video.title);
     const meta = TYPE_META[type];
-    const finished = userId ? isVideoFinished(video.id, userId, '', '') : false;
+    const finished = userId ? isVideoFinished(video.id, userId, userClass, targetExam) : false;
 
     return (
         <button type="button"
@@ -268,6 +311,7 @@ export const ChapterStudyHub = () => {
 
     const userId = user?.id || 'guest';
     const targetExam = user?.targetExam || 'JEE';
+    const userClass = user?.userClass || chapter?.class || 'Class 12';
 
     const [activeVideo, setActiveVideo] = useState<Video | null>(null);
     const [guidedVideos, setGuidedVideos] = useState<Video[]>([]);
@@ -287,6 +331,71 @@ export const ChapterStudyHub = () => {
     const refreshProgress = useCallback(() => {
         if (chapterId) setProgress(SubtopicProgressService.getChapterProgress(userId, chapterId));
     }, [userId, chapterId]);
+
+    // ─── URL VIDEO PRIORITY ────────────────────────────────────────────────────
+    // When a specific videoId is passed in the URL (e.g. from the home screen card):
+    //  1. Immediately play that video in the player (no waiting for API)
+    //  2. Fetch its real title/channel from YouTube oEmbed (free, no API key)
+    //  3. Inject it as the FIRST item in the guided list so player and list match
+    useEffect(() => {
+        const initId = searchParams.get('videoId');
+        if (!initId || !chapter) return;
+
+        let cancelled = false;
+
+        const loadUrlVideo = async () => {
+            // Step 1: Set a placeholder immediately so the player starts right now
+            const placeholder: Video = {
+                id: initId,
+                title: 'Loading...',
+                channelName: '',
+                thumbnailUrl: `https://img.youtube.com/vi/${initId}/hqdefault.jpg`,
+                videoUrl: `https://www.youtube.com/watch?v=${initId}`,
+                duration: ''
+            };
+            if (!cancelled) {
+                setActiveVideo(placeholder);
+                setGuidedVideos([placeholder]); // Show it in list immediately
+            }
+
+            // Step 2: Enrich with real metadata from YouTube oEmbed (no API key needed)
+            try {
+                const oembedRes = await fetch(
+                    `https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=${initId}&format=json`
+                );
+                if (!cancelled && oembedRes.ok) {
+                    const data = await oembedRes.json();
+                    const enriched: Video = {
+                        id: initId,
+                        title: data.title || placeholder.title,
+                        channelName: data.author_name || '',
+                        thumbnailUrl: data.thumbnail_url || placeholder.thumbnailUrl,
+                        videoUrl: `https://www.youtube.com/watch?v=${initId}`,
+                        duration: ''
+                    };
+                    setActiveVideo(enriched);
+                    // Update the first item in the list with real metadata
+                    setGuidedVideos(prev => {
+                        const rest = prev.filter(v => v.id !== initId);
+                        return [enriched, ...rest];
+                    });
+                }
+            } catch {
+                // oEmbed failed — keep placeholder, that's fine
+            }
+        };
+
+        loadUrlVideo();
+        return () => { cancelled = true; };
+    }, [searchParams.get('videoId'), chapter?.id]);
+
+    // Clear guided videos when chapter changes (but only if no URL videoId)
+    useEffect(() => {
+        if (!searchParams.get('videoId')) {
+            setActiveVideo(null);
+            setGuidedVideos([]);
+        }
+    }, [chapter?.id]);
 
     // Load guided videos – strictly ONE chapter at a time, 3 structured slots
     useEffect(() => {
@@ -315,37 +424,53 @@ export const ChapterStudyHub = () => {
                 const vids: Video[] = [];
                 const seen = new Set<string>();
 
+                // If a URL video is already in the list, don't include it in slot results
+                const urlVideoId = searchParams.get('videoId') || '';
+                if (urlVideoId) seen.add(urlVideoId);
+
                 results.forEach(r => {
                     if (r.status === 'fulfilled' && r.value?.videos?.length) {
-                        // Take ONLY the top-scored video from each slot to keep it focused
-                        const best = r.value.videos[0];
-                        if (best && !seen.has(best.id)) {
-                            // Additional chapter relevance check: title must mention the chapter
-                            // or come from a trusted channel to avoid stray results
-                            const titleLower = best.title.toLowerCase();
+                        for (const candidate of r.value.videos) {
+                            if (seen.has(candidate.id)) continue;
+
+                            // Language filter: block Telugu, Tamil, etc.
+                            if (!isVideoMatchForExam(candidate.title, candidate.channelName, exam)) continue;
+
+                            // Chapter relevance check
+                            const titleLower = candidate.title.toLowerCase();
                             const chapterKeywords = chapterName.toLowerCase().split(' ').filter(w => w.length > 3);
                             const isRelevant = chapterKeywords.some(kw => titleLower.includes(kw));
+
                             if (isRelevant) {
-                                seen.add(best.id);
-                                vids.push(best);
-                            } else {
-                                // Still include it but from a trusted channel
-                                const trustedChannels = ['physics wallah', 'pw', 'jee wallah', 'vedantu', 'unacademy', 'mathongo', 'apni kaksha', 'alakh', 'neet'];
-                                const isTrusted = trustedChannels.some(ch => best.channelName.toLowerCase().includes(ch));
-                                if (isTrusted) {
-                                    seen.add(best.id);
-                                    vids.push(best);
-                                }
+                                seen.add(candidate.id);
+                                vids.push(candidate);
+                                break;
+                            }
+
+                            const trustedChannels = ['physics wallah', 'pw', 'jee wallah', 'vedantu', 'unacademy', 'mathongo', 'apni kaksha', 'alakh', 'neet'];
+                            const isTrusted = trustedChannels.some(ch => candidate.channelName.toLowerCase().includes(ch));
+                            if (isTrusted) {
+                                seen.add(candidate.id);
+                                vids.push(candidate);
+                                break;
                             }
                         }
                     }
                 });
 
-                setGuidedVideos(vids);
-                // Set initial video from URL param or first result
-                const initId = searchParams.get('videoId');
-                const initVid = initId ? vids.find(v => v.id === initId) : vids[0];
-                if (initVid) setActiveVideo(initVid);
+                // If a URL video exists, keep it as the first item and append slot results after
+                setGuidedVideos(prev => {
+                    const urlVideo = urlVideoId ? prev.find(v => v.id === urlVideoId) : null;
+                    if (urlVideo) {
+                        return [urlVideo, ...vids]; // URL video first, then slot results
+                    }
+                    return vids; // No URL video — just show slot results
+                });
+
+                // Only override activeVideo if there's no URL video
+                if (!urlVideoId) {
+                    setActiveVideo(vids[0] ?? null);
+                }
             } catch (e) {
                 console.error('[ChapterStudyHub] Guided load failed:', e);
             } finally {
@@ -361,8 +486,10 @@ export const ChapterStudyHub = () => {
         setLoadingLib(true);
         const load = async () => {
             try {
-                const raw = await getLibraryForChapter(chapterId, targetExam, subject, chapter.class);
-                const scored = scoreVideos(raw, userId, chapterId, null, chapter.class, targetExam, []);
+                const raw = await getLibraryForChapter(chapterId, targetExam, subject, chapter.class, false, userId);
+                // Apply language filter to remove any regional language videos (Telugu, Tamil, etc.)
+                const rawFiltered = raw.filter(v => isVideoMatchForExam(v.title, v.channelName, targetExam));
+                const scored = scoreVideos(rawFiltered, userId, chapterId, null, chapter.class, targetExam, []);
                 const withType = scored.map(sv => ({
                     ...(sv.video as LibraryVideo),
                     inferredType: inferType(sv.video.title),
@@ -503,6 +630,8 @@ export const ChapterStudyHub = () => {
                                 video={activeVideo}
                                 chapterId={chapterId || ''}
                                 userId={userId}
+                                userClass={userClass}
+                                targetExam={targetExam}
                                 onFinish={() => refreshProgress()}
                             />
                         ) : loadingGuided ? (
@@ -586,6 +715,8 @@ export const ChapterStudyHub = () => {
                                                                 video={v}
                                                                 isActive={activeVideo?.id === v.id}
                                                                 userId={userId}
+                                                                userClass={userClass}
+                                                                targetExam={targetExam}
                                                                 onSelect={() => setActiveVideo(v)}
                                                             />
                                                         </div>
@@ -641,6 +772,8 @@ export const ChapterStudyHub = () => {
                                                 video={v}
                                                 isActive={activeVideo?.id === v.id}
                                                 userId={userId}
+                                                userClass={userClass}
+                                                targetExam={targetExam}
                                                 onSelect={() => setActiveVideo(v as Video)}
                                             />
                                         ))}

@@ -405,7 +405,7 @@ export const VideoLecturePage = () => {
                             break;
                         }
                     }
-                    const fallbackVideos = await getLibraryForChapter(chapterId, user?.targetExam || 'JEE', subject, user?.userClass || '');
+                    const fallbackVideos = await getLibraryForChapter(chapterId, user?.targetExam || 'JEE', subject, user?.userClass || '', false, user?.id || 'anon');
                     if (fallbackVideos && fallbackVideos.length > 0) {
                         data = {
                             id: `playlist-${topicId}`,
@@ -426,16 +426,31 @@ export const VideoLecturePage = () => {
                         if (found) initialVideo = found;
                     }
 
-                    // Fallback to last watched ID stored
+                    // Fallback to last watched ID — ONLY use if the stored playlist fingerprint
+                    // matches the current playlist (prevents stale IDs from a different cache/user
+                    // session matching a new playlist's videos and playing wrong content).
                     if (!initialVideo) {
-                        const lastWatchedId = localStorage.getItem(`last-watched-id-${topicId}`);
-                        if (lastWatchedId) {
-                            const found = data.videos.find(v => v.id === lastWatchedId);
-                            if (found) initialVideo = found;
+                        const userScope = user?.id ? `_${user.id.substring(0, 8)}` : '';
+                        const lastWatchedKey = `last-watched-id-${topicId}${userScope}`;
+                        const playlistFingerprintKey = `last-watched-fp-${topicId}${userScope}`;
+                        const currentFingerprint = data.videos.map(v => v.id).join(',');
+                        const storedFingerprint = localStorage.getItem(playlistFingerprintKey);
+
+                        // Only trust stored lastWatchedId if the playlist is the same set of videos
+                        if (storedFingerprint === currentFingerprint) {
+                            const lastWatchedId = localStorage.getItem(lastWatchedKey);
+                            if (lastWatchedId) {
+                                const found = data.videos.find(v => v.id === lastWatchedId);
+                                if (found) initialVideo = found;
+                            }
+                        } else {
+                            // Playlist changed — clear stale last-watched to avoid mismatches
+                            localStorage.removeItem(lastWatchedKey);
+                            localStorage.setItem(playlistFingerprintKey, currentFingerprint);
                         }
                     }
 
-                    // Default to the first video
+                    // Always default to the FIRST video when no reliable last-watched exists
                     if (!initialVideo) {
                         initialVideo = data.videos[0];
                     }
@@ -463,11 +478,16 @@ export const VideoLecturePage = () => {
         }
     }, [queryVideoId, playlist]);
 
-    // Save progress whenever current video changes
+    // Save progress whenever current video changes (user-scoped to prevent cross-user contamination)
     useEffect(() => {
         if (topicId && playlist && currentVideo) {
-            // Save by ID for reliability
-            localStorage.setItem(`last-watched-id-${topicId}`, currentVideo.id);
+            const userScope = user?.id ? `_${user.id.substring(0, 8)}` : '';
+            const lastWatchedKey = `last-watched-id-${topicId}${userScope}`;
+            const playlistFingerprintKey = `last-watched-fp-${topicId}${userScope}`;
+
+            // Save current video ID and the playlist fingerprint together
+            localStorage.setItem(lastWatchedKey, currentVideo.id);
+            localStorage.setItem(playlistFingerprintKey, playlist.videos.map(v => v.id).join(','));
 
             const index = playlist.videos.findIndex(v => v.id === currentVideo.id);
             if (index !== -1) {

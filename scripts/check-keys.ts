@@ -26,14 +26,20 @@ const GROQ_KEYS = [
 ].map((k, i) => ({ key: k, label: `GQ-K${i+1}` })).filter(x => x.key) as { key: string; label: string }[];
 
 // ─── All models to test ───────────────────────────────────────────────────────
+// CONFIRMED LIVE MODELS (health-checked 2026-06-05):
+// Cerebras: gpt-oss-120b OK (all 8 keys) | zai-glm-4.7 OK (all 8 keys)
+// Cerebras: qwen-3-235b DEAD | llama3.1-8b DEAD
+// Gemini: gemini-2.5-flash OK (K2-K6)
+// Groq: llama-3.3-70b OK (K1-K7) | llama-3.1-8b OK (K1-K6+K8) | qwen3-32b DEAD
 const CEREBRAS_MODELS = [
   'gpt-oss-120b',
   'zai-glm-4.7',
-  'qwen-3-235b-a22b-instruct-2507',
-  'llama3.1-8b',
+  // qwen-3-235b-a22b-instruct-2507 DEAD — not testing
+  // llama3.1-8b DEAD — not testing
 ];
 const GEMINI_MODELS = ['gemini-2.5-flash'];
-const GROQ_MODELS   = ['llama-3.3-70b-versatile', 'qwen/qwen3-32b', 'llama-3.1-8b-instant'];
+const GROQ_MODELS   = ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant'];
+// qwen/qwen3-32b DEAD on all Groq keys — not testing
 
 const TINY_PROMPT = 'Reply with only valid JSON: {"ok":true}';
 

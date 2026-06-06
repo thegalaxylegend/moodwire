@@ -64,20 +64,35 @@ try {
 export const auth = authInstance;
 
 // Enforce local persistence (Browser Only)
-if (typeof window !== 'undefined' && authInstance && typeof authInstance.onAuthStateChanged === 'function') {
+// Guard: only call setPersistence if auth is a real Auth instance (not the SSR fallback {})
+if (
+    typeof window !== 'undefined' &&
+    authInstance &&
+    typeof authInstance.onAuthStateChanged === 'function' &&
+    typeof (authInstance as any).setPersistence === 'function'
+) {
     setPersistence(auth, browserLocalPersistence).catch((err) => {
         console.error("Failed to enable persistence:", err);
     });
 }
 
-// Initialize Firestore with modern persistent caching when in browser
-export const db = typeof window !== 'undefined'
-    ? initializeFirestore(app, {
-        localCache: persistentLocalCache({
-            tabManager: persistentMultipleTabManager()
-        })
-      })
-    : getFirestore(app);
+// Initialize Firestore with persistent caching in browser.
+// initializeFirestore throws if called a second time (e.g. during Vite HMR hot-reload),
+// so we fall back to getFirestore() if it is already initialized.
+let dbInstance: any;
+try {
+    dbInstance = typeof window !== 'undefined'
+        ? initializeFirestore(app, {
+            localCache: persistentLocalCache({
+                tabManager: persistentMultipleTabManager()
+            })
+          })
+        : getFirestore(app);
+} catch {
+    // Already initialized — just get the existing instance
+    dbInstance = getFirestore(app);
+}
+export const db = dbInstance;
 
 export const storage = getStorage(app);
 export const functions = getFunctions(app);

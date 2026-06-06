@@ -49,7 +49,9 @@ function countByTopic(): Map<string, number> {
   try {
     const sql = 'SELECT primary_topic, subject, COUNT(*) as count FROM questions GROUP BY primary_topic, subject;';
     const escapedSql = sql.replace(/"/g, '\\"').replace(/\n/g, ' ');
-    const cmd = `npx wrangler d1 execute ${DB_NAME} --local --json --command "${escapedSql}"`;
+    const isRemote = 'remote' in args;
+    const remoteFlag = isRemote ? '--remote' : '--local';
+    const cmd = `npx wrangler d1 execute ${DB_NAME} ${remoteFlag} --json --command "${escapedSql}"`;
     const output = execSync(cmd, { stdio: 'pipe', encoding: 'utf-8' });
     
     let results: any[] = [];

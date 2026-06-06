@@ -46,6 +46,37 @@ if (!YOUTUBE_API_KEY) {
     console.log('[VideoService] ✅ YouTube API Key loaded:', YOUTUBE_API_KEY.substring(0, 10) + '...');
 }
 
+// One-time cache migration: clear ALL stale video caches and last-watched state
+try {
+    const migrationKey = 'vid_cache_migration_v8_done'; // v8: also clears stale last-watched-id keys
+    if (!localStorage.getItem(migrationKey)) {
+        const keysToDelete: string[] = [];
+        for (let i = 0; i < localStorage.length; i++) {
+            const key = localStorage.key(i);
+            if (key && (
+                key.startsWith('vid_cache_v5_') ||
+                key.startsWith('vid_cache_v6_') ||
+                key.startsWith('ec_discovered_v1_') ||
+                key.startsWith('ec_discovered_v2_') ||
+                // Wipe old non-user-scoped last-watched keys (they caused player/list mismatch)
+                // New keys are user-scoped: last-watched-id-{topic}_{userId8}
+                (key.startsWith('last-watched-id-') && !key.match(/last-watched-id-.+_.{8}$/)) ||
+                (key.startsWith('last-watched-fp-') && !key.match(/last-watched-fp-.+_.{8}$/))
+            )) {
+                keysToDelete.push(key);
+            }
+        }
+        keysToDelete.forEach(k => localStorage.removeItem(k));
+        // Clear old migration flags
+        localStorage.removeItem('vid_cache_migration_v6_done');
+        localStorage.removeItem('vid_cache_migration_v7_done');
+        localStorage.setItem(migrationKey, '1');
+        if (keysToDelete.length > 0) {
+            console.log(`[VideoService] 🧹 v8 migration: Cleared ${keysToDelete.length} stale cache/last-watched keys. Player will now always match the video list.`);
+        }
+    }
+} catch (e) { /* ignore storage errors */ }
+
 // Convert ISO 8601 duration to readable format
 const formatDuration = (isoDuration: string): string => {
     const match = isoDuration.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
@@ -97,7 +128,7 @@ const buildSearchQuery = (topicId: string, exam: string = '', studentClass: stri
     }
 
     // 5. Senior Optimization (11, 12)
-    return `${topicName} ${studentClass} ${exam} full chapter complete lecture in English/Hindi`;
+    return `${topicName} ${studentClass} ${exam} full chapter complete lecture in Hindi`;
 };
 
 // Fetch video details (duration, view count) to filter out unavailable ones
@@ -142,6 +173,38 @@ export const isVideoMatchForExam = (title: string, channelName: string, exam: st
     const channelLower = channelName.toLowerCase();
     const examLower = exam.toLowerCase();
 
+    // ─── LANGUAGE FILTER (applies to ALL exams) ───────────────────────────────
+    // Block regional language videos. We only want Hindi/English content.
+    const regionalLanguageKeywords = [
+        'telugu', 'in telugu', 'తెలుగు',
+        'tamil', 'in tamil', 'தமிழ்',
+        'kannada', 'in kannada', 'ಕನ್ನಡ',
+        'malayalam', 'in malayalam', 'മലയാളം',
+        'bengali', 'in bengali', 'বাংলা',
+        'marathi', 'in marathi', 'मराठी',
+        'gujarati', 'in gujarati', 'ગુજરાતી',
+        'odia', 'in odia', 'punjabi', 'in punjabi',
+        // Regional exam boards (these videos are for state boards, not JEE/NEET)
+        'eapcet', 'eamcet', 'kcet', 'mhtcet', 'wbjee', 'comedk',
+        'ap eamcet', 'ts eamcet',
+    ];
+    if (regionalLanguageKeywords.some(keyword => titleLower.includes(keyword) || channelLower.includes(keyword))) {
+        return false;
+    }
+
+    // ─── CHANNEL LANGUAGE FILTER ──────────────────────────────────────────────
+    // Block channels that are known regional-language channels
+    const regionalChannels = [
+        'vedantu telugu', 'vedantu tamil', 'vedantu kannada', 'vedantu malayalam',
+        'physics wallah telugu', 'pw telugu', 'pw tamil',
+        'unacademy telugu', 'unacademy tamil', 'unacademy kannada',
+        'mana', 'sakshi', 'eenadu',
+    ];
+    if (regionalChannels.some(ch => channelLower.includes(ch))) {
+        return false;
+    }
+
+    // ─── EXAM-SUBJECT FILTER ──────────────────────────────────────────────────
     if (examLower.includes('jee')) {
         // Enforce: No biology
         const bioKeywords = ['biology', 'botany', 'zoology', 'neet bio', 'neet biology', 'neet-biology', 'medical bio'];
@@ -183,7 +246,7 @@ export const getVideoByTopicId = async (topicId: string, exam: string = 'JEE', s
     try {
         // Search for videos
         const searchResponse = await fetchWithTimeout(
-            `${YOUTUBE_SEARCH_URL}?part=snippet&q=${encodeURIComponent(searchQuery)}&type=video&maxResults=15&videoEmbeddable=true&relevanceLanguage=en&regionCode=IN&key=${YOUTUBE_API_KEY}`
+            `${YOUTUBE_SEARCH_URL}?part=snippet&q=${encodeURIComponent(searchQuery)}&type=video&maxResults=15&videoEmbeddable=true&relevanceLanguage=hi&hl=hi&regionCode=IN&key=${YOUTUBE_API_KEY}`
         );
 
         if (!searchResponse.ok) {
@@ -362,10 +425,11 @@ export const getVideoByTopicId = async (topicId: string, exam: string = 'JEE', s
     }
 };
 
-export const getVideoByTopicIdCached = async (topicId: string, exam: string = 'JEE', _userId: string = 'anon', studentClass: string = '', forceRefresh: boolean = false): Promise<Playlist | null> => {
-    // V5 Cache key: isolated by topic, exam AND studentClass to prevent stale cross-class results
+export const getVideoByTopicIdCached = async (topicId: string, exam: string = 'JEE', userId: string = 'anon', studentClass: string = '', forceRefresh: boolean = false): Promise<Playlist | null> => {
+    // V6 Cache key: isolated by topic, exam, studentClass AND userId to prevent cross-user cache contamination
     const classKey = studentClass ? `_${studentClass.toLowerCase().replace(/\s+/g, '').replace('th', '')}` : '';
-    const topicKey = `vid_cache_v5_${topicId.toLowerCase().trim()}_${exam.toLowerCase()}${classKey}`;
+    const userKey = userId && userId !== 'anon' ? `_u${userId.substring(0, 8)}` : '';
+    const topicKey = `vid_cache_v6_${topicId.toLowerCase().trim()}_${exam.toLowerCase()}${classKey}${userKey}`;
 
     try {
         // 1. Check LocalStorage (Only if not force refreshing)

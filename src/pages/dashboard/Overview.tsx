@@ -1445,7 +1445,7 @@ export const Overview = () => {
                                         [1, 2, 3].map(i => <div key={i} className="aspect-video bg-surface/50 rounded-xl animate-pulse" />)
                                     ) : (
                                         recommendedVideos.map((rec, idx) => (
-                                            <Link key={idx} to={`/dashboard/lectures/${rec.topic.toLowerCase().replace(/\s+/g, '-')}`} className="group oxygen-card bg-surface border border-border rounded-xl overflow-hidden flex flex-col">
+                                            <Link key={idx} to={`/dashboard/lectures/${rec.topic.toLowerCase().replace(/\s+/g, '-')}?videoId=${rec.video.id}`} className="group oxygen-card bg-surface border border-border rounded-xl overflow-hidden flex flex-col">
                                                 <div className="relative aspect-video bg-black/20 shrink-0">
                                                     <img src={rec.video.thumbnailUrl} alt={rec.video.title} className="w-full h-full object-cover" />
                                                     <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">

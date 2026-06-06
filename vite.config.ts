@@ -520,6 +520,12 @@ export default defineConfig(() => {
           skipWaiting: true,
           clientsClaim: true,
           globPatterns: ['**/*.{js,css,html,ico,png,svg,jpg,jpeg,json}'],
+          globIgnores: [
+            '**/seo-manifest.json',
+            '**/question-db.json',
+            '**/slug-registry.json',
+            '**/local-db.json'
+          ],
           maximumFileSizeToCacheInBytes: 15 * 1024 * 1024,
           navigateFallbackDenylist: [/^\/admin\/.*/, /firestore\.googleapis\.com/],
           runtimeCaching: [

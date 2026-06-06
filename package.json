@@ -41,7 +41,20 @@
     "electron:build": "electron-builder build --publish never",
     "cap:android": "npx cap add android && npx cap open android",
     "cap:sync": "npx cap sync && node scripts/clean-native-assets.js",
-    "doctor": "npx react-doctor@latest"
+    "doctor": "npx react-doctor@latest",
+    "q:check-keys": "npx tsx scripts/check-keys.ts",
+    "q:turbo": "npx tsx scripts/turbo-pipeline.ts --workers=30 --batch-size=10",
+    "q:turbo-dry": "npx tsx scripts/turbo-pipeline.ts --workers=30 --batch-size=10 --dry-run",
+    "q:turbo-jee": "npx tsx scripts/turbo-pipeline.ts --workers=30 --batch-size=10 --exam=JEEMains",
+    "q:turbo-neet": "npx tsx scripts/turbo-pipeline.ts --workers=30 --batch-size=10 --exam=NEET",
+    "q:turbo-board": "npx tsx scripts/turbo-pipeline.ts --workers=30 --batch-size=10 --exam=Board",
+    "q:turbo-curation": "npx tsx scripts/turbo-pipeline.ts --mode=full_curation --workers=20 --batch-size=5",
+    "q:scrape-jee": "npx tsx scripts/bulk-scraper.ts --source=jee-mains",
+    "q:scrape-neet": "npx tsx scripts/bulk-scraper.ts --source=neet",
+    "q:scrape-board": "npx tsx scripts/bulk-scraper.ts --source=ncert",
+    "q:stubs": "npx tsx scripts/distribution-manager.ts --stubs=5000",
+    "q:seed": "npx wrangler d1 execute examcompass-questions --local --file=scripts/seed.sql",
+    "q:report": "cat batch_pipeline_report.md"
   },
   "dependencies": {
     "@capacitor-community/contacts": "^7.2.0",

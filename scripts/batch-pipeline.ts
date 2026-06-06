@@ -32,7 +32,8 @@ const FILTER_CLASS = arg('class', '');
 const FILTER_EXAM = arg('exam', '');
 const DRY_RUN = has('dry-run');
 const NO_GEMINI = has('no-gemini'); // skip Gemini when it's network-blocked
-const CONCURRENCY = Number(arg('workers', MODE === 'fast_tag' ? '6' : '2')); // 2 for full_curation avoids key collision
+const IGNORE_PROCESSED = has('ignore-processed') || has('force');
+const CONCURRENCY = Number(arg('workers', MODE === 'fast_tag' ? '24' : '12')); // parallel workers across all keys
 
 // ─── 14-BAND ELO REFERENCE (embedded in EVERY AI prompt) ──────────────────
 // CRITICAL: AI must pick band first, then elo within band.
@@ -139,13 +140,13 @@ function extractJSON(raw: string): any {
 // ─── Cerebras API ─────────────────────────────────────────────────────────
 // Smart model list — ordered by quality. Deprecated models auto-removed at runtime.
 const CEREBRAS_MODELS = {
-  quality: ['qwen-3-235b-a22b-instruct-2507', 'zai-glm-4.7', 'llama3.1-8b', 'gpt-oss-120b'],     // latest and working quality models first
-  fast: ['llama3.1-8b'],                       // speed-only
+  quality: ['gpt-oss-120b', 'zai-glm-4.7'],     // latest and working quality models first
+  fast: ['zai-glm-4.7'],                       // speed-only
 };
 const deprecatedModels = new Set<string>(); // auto-populated when MODEL_NOT_FOUND
 const exhaustedKeyModels = new Set<string>(); // cache key+model combinations that exceeded token quota
 
-async function callCerebras(prompt: string, maxTokens: number, model = 'llama3.1-8b'): Promise<string> {
+async function callCerebras(prompt: string, maxTokens: number, model = 'zai-glm-4.7'): Promise<string> {
   if (limits.cerebras >= CEREBRAS_DAILY_MAX) throw new Error('Cerebras daily limit reached');
   if (deprecatedModels.has(model)) throw new Error(`MODEL_NOT_FOUND: ${model}`);
   const attempts = cerebrasKeys.count;
@@ -505,10 +506,43 @@ function validateQ(raw: any, qIdx: number, defaultExam: string, defaultClass: st
   if (!raw?.question_text || String(raw.question_text).trim().length < 10)
     errors.push(`Q${qIdx}: question_text missing or <10 chars`);
 
+  // --- Strict LaTeX unclosed blocks check ($$) ---
+  const qLatex = (String(raw?.question_text || '').match(/\$\$/g) || []).length;
+  const eLatex = (String(raw?.explanation || '').match(/\$\$/g) || []).length;
+  if ((qLatex + eLatex) % 2 !== 0) {
+    errors.push(`Q${qIdx}: Unclosed LaTeX block ($$) detected in question or explanation`);
+  }
+
+  // --- Placeholder / todo / garbage text check ---
+  const qTextLower = String(raw?.question_text || '').toLowerCase();
+  if (qTextLower.includes('placeholder') || qTextLower.includes('lorem ipsum') || qTextLower.includes('todo') || qTextLower.includes('insert')) {
+    errors.push(`Q${qIdx}: Contains placeholder/todo/garbage text in question`);
+  }
+
   if (t === 'MCQ') {
     if (!Array.isArray(raw?.options) || raw.options.length < 4)
       errors.push(`Q${qIdx}: MCQ needs 4 options, got ${raw?.options?.length ?? 0}`);
     else {
+      // --- Duplicate options check ---
+      const normalizedOpts = raw.options.map((o: string) => String(o).toLowerCase().trim());
+      if (new Set(normalizedOpts).size < raw.options.length) {
+        errors.push(`Q${qIdx}: Duplicate options detected`);
+      }
+
+      // --- Option placeholder check ---
+      const hasOptionPlaceholder = raw.options.some((opt: string) => {
+        const oTrim = String(opt).trim();
+        return oTrim.toLowerCase() === 'placeholder' ||
+               oTrim.toLowerCase() === 'option a' ||
+               oTrim.toLowerCase() === 'option b' ||
+               oTrim.toLowerCase() === 'option c' ||
+               oTrim.toLowerCase() === 'option d' ||
+               /^[a-d]$/i.test(oTrim);
+      });
+      if (hasOptionPlaceholder) {
+        errors.push(`Q${qIdx}: Option contains placeholder/letter-only text`);
+      }
+
       const correctStr = String(raw?.correct_answer || '').trim().toLowerCase();
       const match = raw.options.find((o: string) => String(o).trim().toLowerCase() === correctStr);
       // Also allow A/B/C/D
@@ -883,7 +917,7 @@ async function main(): Promise<void> {
   if (FILTER_EXAM) allRaw = allRaw.filter(q => q.exam === FILTER_EXAM);
 
   const eligible = allRaw
-    .filter(q => !doneHashes.has(q.hash))
+    .filter(q => IGNORE_PROCESSED ? true : !doneHashes.has(q.hash))
     .filter(q => MODE === 'fast_tag' ? q.quality === 'verified' : q.quality === 'raw');
 
   console.log(`📦 Cache: ${allRaw.length} | Eligible: ${eligible.length}\n`);

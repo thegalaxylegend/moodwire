@@ -8,8 +8,6 @@ import {
     signInWithPopup,
     signInWithRedirect,
     getRedirectResult,
-    setPersistence,
-    browserLocalPersistence,
     GoogleAuthProvider,
     signInWithCredential,
 } from 'firebase/auth';
@@ -83,6 +81,11 @@ export const Login = () => {
     // ── Handle OAuth redirect result (PWA / web redirect flow) ──────────────
     useEffect(() => {
         const handleRedirectResult = async () => {
+            // Guard: only run if auth is a real Firebase Auth instance.
+            // If auth is the SSR fallback {} it won't have onAuthStateChanged,
+            // and calling getRedirectResult on it crashes with "Cannot read properties of undefined".
+            if (!auth || typeof (auth as any).onAuthStateChanged !== 'function') return;
+
             try {
                 // getRedirectResult() resolves immediately with null if no pending redirect.
                 // If there was a redirect, it returns the credential and user.
@@ -92,7 +95,8 @@ export const Login = () => {
                     console.log('[Login] Redirect sign-in complete:', result.user.email);
                 }
             } catch (err: any) {
-                // Show error only if it's a real failure, not just "no redirect pending"
+                // Never show internal Firebase init errors to the user —
+                // only show errors that have a known, actionable message.
                 const msg = friendlyError(err);
                 if (msg) setError(msg);
                 console.error('[Login] getRedirectResult error:', err);
@@ -135,8 +139,6 @@ export const Login = () => {
         setError(null);
 
         try {
-            await setPersistence(auth, browserLocalPersistence);
-
             if (isNative()) {
                 /**
                  * NATIVE ANDROID/iOS PATH
@@ -205,8 +207,6 @@ export const Login = () => {
         setError(null);
 
         try {
-            await setPersistence(auth, browserLocalPersistence);
-
             if (isSignUp) {
                 await createUserWithEmailAndPassword(auth, formData.email, formData.password);
                 // Profile created by userStore.initialize() via onAuthStateChanged

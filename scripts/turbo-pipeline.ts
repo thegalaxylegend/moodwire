@@ -924,44 +924,41 @@ async function main() {
         const msg = e.message || '';
 
         if (msg === 'RATE_LIMIT_429') {
-          // Cool down this slot for 60s, re-queue batch
+          // Cool down this slot for 60s, then re-queue the batch safely
           slot.cooldownUntil = Date.now() + 60000;
-          queueIdx = myIdx; // re-queue
-          process.stdout.write(`\n  ⚡ ${slot.id}: 429 rate-limit, cooling 60s\n`);
+          requeuedBatches.push(batch);
+          process.stdout.write(`\n  ⚡ ${slot.id}: 429 rate-limit, cooling 60s (batch re-queued)\n`);
 
         } else if (msg === 'BLOCKED_403') {
           slot.exhausted = true;
-          queueIdx = myIdx;
-          process.stdout.write(`\n  🚫 ${slot.id}: 403 blocked (exhausted)\n`);
+          requeuedBatches.push(batch);
+          process.stdout.write(`\n  🚫 ${slot.id}: 403 blocked (exhausted, batch re-queued)\n`);
 
         } else if (msg === 'MODEL_DEAD') {
           slot.exhausted = true;
-          queueIdx = myIdx;
-          process.stdout.write(`\n  💀 ${slot.id}: model deprecated/dead\n`);
+          requeuedBatches.push(batch);
+          process.stdout.write(`\n  💀 ${slot.id}: model dead (batch re-queued)\n`);
 
         } else if (msg.includes('CEREBRAS_DAILY_MAX') || msg.includes('GEMINI_DAILY_MAX') || msg.includes('GROQ_DAILY_MAX')) {
           slot.exhausted = true;
           process.stdout.write(`\n  📊 ${slot.id}: daily limit reached\n`);
-          totalSkipped  += batch.length;
+          totalSkipped   += batch.length;
           totalAttempted += batch.length;
 
         } else if (msg === 'TRUNCATED' && batch.length > 1) {
-          // Re-insert as smaller batches
+          // Split into two smaller batches and re-queue both
           const half = Math.ceil(batch.length / 2);
-          queue.splice(queueIdx, 0,
-            batch.slice(0, half),
-            batch.slice(half)
-          );
-          process.stdout.write(`\n  ✂️  ${slot.id}: truncated, splitting batch ${myIdx+1}\n`);
+          requeuedBatches.push(batch.slice(0, half), batch.slice(half));
+          process.stdout.write(`\n  ✂️  ${slot.id}: response truncated — split into 2 smaller batches\n`);
 
         } else {
           slot.failCount++;
-          totalSkipped  += batch.length;
+          totalSkipped   += batch.length;
           totalAttempted += batch.length;
           process.stdout.write(`\n  ❌ ${slot.id}: error: ${msg}\n`);
           if (slot.failCount >= 5) {
             slot.exhausted = true;
-            process.stdout.write(`\n  ⛔ ${slot.id}: too many failures (${slot.failCount})\n`);
+            process.stdout.write(`\n  ⛔ ${slot.id}: too many failures (${slot.failCount}) — exhausted\n`);
           }
         }
 

@@ -123,7 +123,8 @@ export const getLibraryForChapter = async (
     exam: string = 'JEE',
     subject: string = '',
     _studentClass: string = 'Class 12',
-    forceRefresh: boolean = false
+    forceRefresh: boolean = false,
+    userId: string = 'anon'
 ): Promise<LibraryVideo[]> => {
     // 1. Get static curated videos (always immediately available)
     const curated = getCuratedVideos(chapterId).map(v => ({
@@ -134,7 +135,9 @@ export const getLibraryForChapter = async (
     let discovered: LibraryVideo[] = [];
 
     // 2. Load discovered videos from local cache / D1 DB
-    const cacheKey = `ec_discovered_v1_${chapterId.toLowerCase()}_${exam.toLowerCase()}`;
+    // V2 cache key includes userId to prevent cross-user contamination
+    const userKey = userId && userId !== 'anon' ? `_u${userId.substring(0, 8)}` : '';
+    const cacheKey = `ec_discovered_v2_${chapterId.toLowerCase()}_${exam.toLowerCase()}${userKey}`;
     if (!forceRefresh) {
         try {
             const cachedRaw = localStorage.getItem(cacheKey);
@@ -349,61 +352,11 @@ export const getLibraryForChapter = async (
                 console.error('[VideoLibrary] Failed to recover videos from keyword caches', e);
             }
 
-            // 3. Ultimate Fallback: Scan localStorage for ANY cached videos from ANY topic/chapter (weak topic or revision)
-            try {
-                const foundVideos: LibraryVideo[] = [];
-                const seen = new Set<string>();
+            // 3. Skip: Removed the unsafe "scan ALL localStorage keys" fallback.
+            //    It was returning videos from completely different chapters, users, and languages
+            //    (e.g., Vedantu Telugu for a Physics chapter) because it had no chapter/user filtering.
+            //    The static subject-scoped fallback below is safer and always correct.
 
-                for (let i = 0; i < localStorage.length; i++) {
-                    const key = localStorage.key(i);
-                    if (key) {
-                        if (key.startsWith('vid_cache_v5_')) {
-                            const cachedRaw = localStorage.getItem(key);
-                            if (cachedRaw) {
-                                const parsed = JSON.parse(cachedRaw);
-                                const playlist = parsed.data;
-                                if (playlist && playlist.videos) {
-                                    playlist.videos.forEach((v: Video) => {
-                                        if (!seen.has(v.id)) {
-                                            seen.add(v.id);
-                                            foundVideos.push({
-                                                ...v,
-                                                chapterId: chapter.id,
-                                                isCurated: false,
-                                                type: 'oneshot'
-                                            });
-                                        }
-                                    });
-                                }
-                            }
-                        } else if (key.startsWith('ec_discovered_v1_') && key !== cacheKey) {
-                            const cachedRaw = localStorage.getItem(key);
-                            if (cachedRaw) {
-                                const parsed = JSON.parse(cachedRaw);
-                                if (parsed.videos) {
-                                    parsed.videos.forEach((v: LibraryVideo) => {
-                                        if (!seen.has(v.id) && isVideoMatchForExam(v.title, v.channelName, exam)) {
-                                            seen.add(v.id);
-                                            foundVideos.push({
-                                                ...v,
-                                                chapterId: chapter.id,
-                                                isCurated: false
-                                            });
-                                        }
-                                    });
-                                }
-                            }
-                        }
-                    }
-                }
-
-                if (foundVideos.length > 0) {
-                    console.log(`[VideoLibrary] Ultimate Fallback: Loaded ${foundVideos.length} cached videos from other chapters/topics.`);
-                    return mergeVideos(curated, foundVideos);
-                }
-            } catch (e) {
-                console.error('[VideoLibrary] Ultimate fallback video recovery failed', e);
-            }
             // 4. Absolute last-resort fallback: return static verified educational videos matching this subject
             try {
                 let subject = '';
