@@ -25,7 +25,7 @@ const YOUTUBE_SEARCH_URL = 'https://www.googleapis.com/youtube/v3/search';
 const YOUTUBE_VIDEOS_URL = 'https://www.googleapis.com/youtube/v3/videos';
 
 // Fetch helper with standard timeout to prevent requests from hanging indefinitely
-const fetchWithTimeout = async (url: string, options: RequestInit = {}, timeoutMs = 5000): Promise<Response> => {
+const fetchWithTimeout = async (url: string, options: RequestInit = {}, timeoutMs = 10000): Promise<Response> => {
     const controller = new AbortController();
     const id = setTimeout(() => controller.abort(), timeoutMs);
     try {
@@ -419,8 +419,12 @@ export const getVideoByTopicId = async (topicId: string, exam: string = 'JEE', s
             videos: finalVideos
         };
 
-    } catch (error) {
-        console.error('Error fetching YouTube videos:', error);
+    } catch (error: any) {
+        if (error?.name === 'AbortError') {
+            console.warn(`[VideoService] YouTube API request timed out for query: "${searchQuery}" (10s timeout). Falling back gracefully.`);
+        } else {
+            console.error('Error fetching YouTube videos:', error);
+        }
         return null;
     }
 };

@@ -2,16 +2,20 @@ import {
   getAnalytics,
   logEvent as firebaseLogEvent,
   setUserProperties as firebaseSetUserProperties,
+  isSupported,
 } from "firebase/analytics";
 import { app } from "./firebase";
 
 // Initialize Firebase Analytics
 let firebaseAnalytics: any = null;
-try {
-  firebaseAnalytics =
-    typeof window !== "undefined" && typeof app.options.projectId === 'string' && app.options.projectId !== 'dummy-project' ? getAnalytics(app) : null;
-} catch (e) {
-  console.warn("Firebase Analytics could not be initialized.");
+if (typeof window !== "undefined" && typeof app.options.projectId === 'string' && app.options.projectId !== 'dummy-project') {
+  isSupported().then((supported) => {
+    if (supported) {
+      firebaseAnalytics = getAnalytics(app);
+    }
+  }).catch((e) => {
+    console.warn("Firebase Analytics support check failed:", e);
+  });
 }
 
 // Initialize GA4 - This is a no-op as gtag is already in index.html
