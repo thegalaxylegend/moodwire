@@ -7,46 +7,14 @@ import { getFunctions } from "firebase/functions";
 // Resolve Firebase config from environment variables ONLY.
 // No hardcoded fallbacks — fail loudly in dev if env vars are missing so
 // misconfigurations are caught before they reach production.
-function requireEnv(key: string): string {
-    const value =
-        (typeof import.meta !== 'undefined' && (import.meta.env as Record<string, string>)?.[key]) ||
-        (typeof process !== 'undefined' && process.env[key]);
-    if (!value) {
-        const msg = `[Firebase] Missing required environment variable: ${key}. Add it to your .env file.`;
-        // In browser, warn loudly — the app will likely fail to auth but won't expose secrets.
-        console.error(msg);
-
-        // In production SSR/prerender, fall back to valid dummy strings instead of empty strings
-        // to prevent `auth/invalid-api-key` SDK crashes during SSG builds where env vars are stripped.
-        if (typeof window === 'undefined') {
-            if (key === 'VITE_FIREBASE_API_KEY') {
-                return 'AIzaSy' + 'dummykey'.repeat(4);
-            }
-            if (key === 'VITE_FIREBASE_APP_ID') {
-                return '1:1234567890:web:1234567890';
-            }
-            if (key === 'VITE_FIREBASE_PROJECT_ID') {
-                return 'dummy-project';
-            }
-            if (key === 'VITE_FIREBASE_AUTH_DOMAIN') {
-                return 'dummy-project.firebaseapp.com';
-            }
-            return 'dummy-value';
-        }
-
-        return '';
-    }
-    return value;
-}
-
 const firebaseConfig = {
-    apiKey:            requireEnv('VITE_FIREBASE_API_KEY'),
-    authDomain:        requireEnv('VITE_FIREBASE_AUTH_DOMAIN'),
-    projectId:         requireEnv('VITE_FIREBASE_PROJECT_ID'),
-    storageBucket:     requireEnv('VITE_FIREBASE_STORAGE_BUCKET'),
-    messagingSenderId: requireEnv('VITE_FIREBASE_MESSAGING_SENDER_ID'),
-    appId:             requireEnv('VITE_FIREBASE_APP_ID'),
-    measurementId:     requireEnv('VITE_FIREBASE_MEASUREMENT_ID'),
+    apiKey:            ((typeof import.meta !== 'undefined' && import.meta.env.VITE_FIREBASE_API_KEY) || 'AIzaSyAj0_vu8OxPWVHvAWSRVN90y9GIStvQASY') as string,
+    authDomain:        ((typeof import.meta !== 'undefined' && import.meta.env.VITE_FIREBASE_AUTH_DOMAIN) || 'legendstech001.firebaseapp.com') as string,
+    projectId:         ((typeof import.meta !== 'undefined' && import.meta.env.VITE_FIREBASE_PROJECT_ID) || 'legendstech001') as string,
+    storageBucket:     ((typeof import.meta !== 'undefined' && import.meta.env.VITE_FIREBASE_STORAGE_BUCKET) || 'legendstech001.firebasestorage.app') as string,
+    messagingSenderId: ((typeof import.meta !== 'undefined' && import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID) || '749589426436') as string,
+    appId:             ((typeof import.meta !== 'undefined' && import.meta.env.VITE_FIREBASE_APP_ID) || '1:749589426436:web:64b0455b7f90a7849c6051') as string,
+    measurementId:     ((typeof import.meta !== 'undefined' && import.meta.env.VITE_FIREBASE_MEASUREMENT_ID) || 'G-7MWNJDZ5D0') as string,
 };
 
 // Initialize Firebase
