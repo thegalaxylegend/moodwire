@@ -31,22 +31,12 @@ jobs:
     outputs:
       should_run: ${{ steps.check.outputs.should_run }}
     steps:
-      - name: Check pause status
+      - name: Always run
         id: check
         shell: bash
         run: |
-          CURRENT_DATE=$(date -u +%Y-%m-%d)
-          EVENT_NAME="${{ github.event_name }}"
-          echo "Current Date: $CURRENT_DATE"
-          echo "Trigger Event: $EVENT_NAME"
-          
-          if [[ "$EVENT_NAME" == "schedule" && "$CURRENT_DATE" < "2026-06-01" ]]; then
-            echo "⏸️ Scheduled run skipped. Paused until 2026-06-01."
-            echo "should_run=false" >> $GITHUB_OUTPUT
-          else
-            echo "▶️ Proceeding with run."
-            echo "should_run=true" >> $GITHUB_OUTPUT
-          fi
+          echo "▶️ Proceeding with run."
+          echo "should_run=true" >> $GITHUB_OUTPUT
 
   # ──────────────────────────────────────────────────────────────────
   # Job 0: Check if we've already hit 500K — skip if done
@@ -191,7 +181,7 @@ jobs:
           VITE_GROQ_API_KEY_6: ${{ secrets.VITE_GROQ_API_KEY_6 }}
           VITE_GROQ_API_KEY_7: ${{ secrets.VITE_GROQ_API_KEY_7 }}
           VITE_GROQ_API_KEY_8: ${{ secrets.VITE_GROQ_API_KEY_8 }}
-        run: npx tsx scripts/batch-pipeline.ts --mode=fast_tag --batch-size=25
+        run: npx tsx scripts/turbo-pipeline.ts --mode=fast_tag --workers=30
 
       - name: Upload fast_tag seed
         uses: actions/upload-artifact@v4
@@ -265,9 +255,9 @@ jobs:
           STUBS_PER_SHARD=${{ github.event.inputs.stubs_per_shard || '2000' }}
           OFFSET=$(( ${{ matrix.shard }} * STUBS_PER_SHARD ))
           echo "Shard ${{ matrix.shard }}: offset=$OFFSET limit=$STUBS_PER_SHARD"
-          npx tsx scripts/batch-pipeline.ts \
+          npx tsx scripts/turbo-pipeline.ts \
             --mode=full_curation \
-            --batch-size=5 \
+            --workers=30 \
             --offset=$OFFSET \
             --limit=$STUBS_PER_SHARD
 
