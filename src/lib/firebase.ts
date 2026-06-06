@@ -53,7 +53,8 @@ try {
         ? initializeFirestore(app, {
             localCache: persistentLocalCache({
                 tabManager: persistentMultipleTabManager()
-            })
+            }),
+            experimentalAutoDetectLongPolling: true
           })
         : getFirestore(app);
 } catch {
