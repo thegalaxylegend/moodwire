@@ -140,8 +140,9 @@ class OfflineTts {
         const textPtr = this.Module._malloc(textLen);
         this.Module.stringToUTF8(text, textPtr, textLen);
 
+        let h = 0;
         try {
-            const h = this.Module._SherpaOnnxOfflineTtsGenerate(this.handle, textPtr, sid, speed);
+            h = this.Module._SherpaOnnxOfflineTtsGenerate(this.handle, textPtr, sid, speed);
             if (!h) {
                 throw new Error('TTS generation failed');
             }
@@ -154,13 +155,14 @@ class OfflineTts {
             const heapSamples = this.Module.HEAPF32.subarray(samplesPtr / 4, samplesPtr / 4 + numSamples);
             const samples = new Float32Array(heapSamples);
 
-            this.Module._SherpaOnnxDestroyOfflineTtsGeneratedAudio(h);
-
             return {
                 samples,
                 sampleRate
             };
         } finally {
+            if (h) {
+                this.Module._SherpaOnnxDestroyOfflineTtsGeneratedAudio(h);
+            }
             this.Module._free(textPtr);
         }
     }

@@ -283,26 +283,33 @@ export const Notes = () => {
             let lastUpdate = Date.now();
 
             if (stream && typeof stream !== 'string') {
-                for await (const chunk of stream) {
-                    const text = chunk.choices?.[0]?.delta?.content || "";
-                    if (text) {
-                        fullContent += text;
-                        
-                        // Repetition Detection (Guardian Logic)
-                        if (fullContent.length > 1000) {
-                            const tail = fullContent.slice(-300);
-                            const body = fullContent.slice(0, -300);
-                            if (body.includes(tail)) {
-                                console.warn("🚨 [AI] Repetition loop detected. Hard-breaking stream.");
-                                break;
+                if (typeof (stream as any)[Symbol.asyncIterator] === 'function') {
+                    for await (const chunk of stream) {
+                        const text = chunk.choices?.[0]?.delta?.content || "";
+                        if (text) {
+                            fullContent += text;
+                            
+                            // Repetition Detection (Guardian Logic)
+                            if (fullContent.length > 1000) {
+                                const tail = fullContent.slice(-300);
+                                const body = fullContent.slice(0, -300);
+                                if (body.includes(tail)) {
+                                    console.warn("🚨 [AI] Repetition loop detected. Hard-breaking stream.");
+                                    break;
+                                }
+                            }
+
+                            // Buffered UI Update (Throttle to every 100ms for performance)
+                            if (Date.now() - lastUpdate > 100) {
+                                setSelectedDoc(prev => prev ? { ...prev, content: fullContent } : null);
+                                lastUpdate = Date.now();
                             }
                         }
-
-                        // Buffered UI Update (Throttle to every 100ms for performance)
-                        if (Date.now() - lastUpdate > 100) {
-                            setSelectedDoc(prev => prev ? { ...prev, content: fullContent } : null);
-                            lastUpdate = Date.now();
-                        }
+                    }
+                } else {
+                    const text = (stream as any).choices?.[0]?.message?.content || (stream as any).choices?.[0]?.delta?.content || (stream as any).content || String(stream);
+                    if (text) {
+                        fullContent = text;
                     }
                 }
                 // Final flush

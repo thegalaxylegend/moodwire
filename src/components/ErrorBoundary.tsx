@@ -27,27 +27,41 @@ export class ErrorBoundary extends Component<Props, State> {
       try {
         const now = Date.now();
         const TWENTY_FOUR_HOURS = 24 * 60 * 60 * 1000;
+        const keysToRemove: string[] = [];
 
         for (let i = 0; i < localStorage.length; i++) {
           const key = localStorage.key(i);
-          if (key && key.includes("trace")) {
-            const item = localStorage.getItem(key);
-            if (item) {
-              try {
-                const parsed = JSON.parse(item);
-                if (
-                  parsed &&
-                  parsed.timestamp &&
-                  now - parsed.timestamp > TWENTY_FOUR_HOURS
-                ) {
-                  localStorage.removeItem(key);
-                  i--; // Adjust index since we removed an item
+          if (key) {
+            const lowerKey = key.toLowerCase();
+            if (
+              lowerKey.includes("trace") ||
+              lowerKey.includes("heal") ||
+              lowerKey.includes("patch") ||
+              lowerKey.includes("daemon")
+            ) {
+              const item = localStorage.getItem(key);
+              if (item) {
+                try {
+                  let timestamp = 0;
+                  if (item.startsWith("{")) {
+                    const parsed = JSON.parse(item);
+                    const timeVal = parsed.timestamp || parsed.time || parsed.date;
+                    timestamp = timeVal ? new Date(timeVal).getTime() : 0;
+                  }
+                  if (!timestamp || now - timestamp > TWENTY_FOUR_HOURS) {
+                    keysToRemove.push(key);
+                  }
+                } catch (e) {
+                  keysToRemove.push(key); // Clear unparseable trace/heal/patch/daemon entries
                 }
-              } catch (e) {
-                // If it's not valid JSON, we don't know the timestamp, leave it or log
               }
             }
           }
+        }
+
+        keysToRemove.forEach(key => localStorage.removeItem(key));
+        if (keysToRemove.length > 0) {
+          console.log(`[ErrorBoundary] Sanitized ${keysToRemove.length} stale trace/heal/patch/daemon entries from local storage.`);
         }
       } catch (err) {
         // Silently swallow cache flush errors

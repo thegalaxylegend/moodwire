@@ -11,15 +11,6 @@ export interface Blog {
 
 export const blogs: Blog[] = [
     {
-        "id": "work-energy-and-power-class-11-revision-notes-neet",
-        "title": "Work Energy And Power Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Work Energy And Power Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
-        "category": "Revision",
-        "date": "2026-06-01",
-        "readTime": "15 min read",
-        "image": "/blog-images/work-energy-and-power-class-11-revision-notes-neet.webp"
-    },
-    {
         "id": "world-history-industrial-revolution-class-11-revision-notes-jee-neet",
         "title": "World History Industrial Revolution Class 11 Exam Prep Revision — Grandmaster Guide",
         "description": "World History Industrial Revolution Class 11 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
@@ -27,6 +18,15 @@ export const blogs: Blog[] = [
         "date": "2026-06-01",
         "readTime": "15 min read",
         "image": "/blog-images/world-history-industrial-revolution-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "work-energy-and-power-class-11-revision-notes-neet",
+        "title": "Work Energy And Power Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Work Energy And Power Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
+        "category": "Revision",
+        "date": "2026-06-01",
+        "readTime": "15 min read",
+        "image": "/blog-images/work-energy-and-power-class-11-revision-notes-neet.webp"
     },
     {
         "id": "waves-class-11-revision-notes-neet",
@@ -542,15 +542,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet.webp"
     },
     {
-        "id": "mathematical-reasoning-class-11-revision-notes-jee-neet",
-        "title": "Mathematical Reasoning Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
-        "description": "Mathematical Reasoning Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
-        "category": "Revision",
-        "date": "2026-06-01",
-        "readTime": "15 min read",
-        "image": "/blog-images/mathematical-reasoning-class-11-revision-notes-jee-neet.webp"
-    },
-    {
         "id": "mathematical-induction-class-11-revision-notes-jee-neet",
         "title": "Mathematical Induction Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
         "description": "Mathematical Induction Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
@@ -558,6 +549,15 @@ export const blogs: Blog[] = [
         "date": "2026-06-01",
         "readTime": "15 min read",
         "image": "/blog-images/mathematical-induction-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "mathematical-reasoning-class-11-revision-notes-jee-neet",
+        "title": "Mathematical Reasoning Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
+        "description": "Mathematical Reasoning Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
+        "category": "Revision",
+        "date": "2026-06-01",
+        "readTime": "15 min read",
+        "image": "/blog-images/mathematical-reasoning-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "magnetism-and-matter-class-12-notes",
@@ -587,15 +587,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/locomotion-and-movement-class-11-revision-notes-neet.webp"
     },
     {
-        "id": "limits-derivatives-class-11-revision-notes-jee-neet",
-        "title": "Limits Derivatives Class 11 Mathematics Revision — Grandmaster Guide",
-        "description": "Limits Derivatives Class 11 Mathematics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
-        "category": "Exam Notes",
-        "date": "2026-06-01",
-        "readTime": "15 min read",
-        "image": "/blog-images/limits-derivatives-class-11-revision-notes-jee-neet.webp"
-    },
-    {
         "id": "linear-inequalities-class-11-revision-notes-jee-neet",
         "title": "Linear Inequalities Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
         "description": "Linear Inequalities Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
@@ -603,6 +594,15 @@ export const blogs: Blog[] = [
         "date": "2026-06-01",
         "readTime": "15 min read",
         "image": "/blog-images/linear-inequalities-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "limits-derivatives-class-11-revision-notes-jee-neet",
+        "title": "Limits Derivatives Class 11 Mathematics Revision — Grandmaster Guide",
+        "description": "Limits Derivatives Class 11 Mathematics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+        "category": "Exam Notes",
+        "date": "2026-06-01",
+        "readTime": "15 min read",
+        "image": "/blog-images/limits-derivatives-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "limits-and-derivatives-class-11-revision-notes-jee",
@@ -713,15 +713,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/gravitation-class-11-revision-notes-jee-neet.webp"
     },
     {
-        "id": "fundamental-rights-class-11-revision-notes-cbse",
-        "title": "Fundamental Rights Class 11 Political Science Recap — CBSE 2026 Grandmaster Guide",
-        "description": "Fundamental Rights Class 11 Political Science Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
-        "category": "Revision",
-        "date": "2026-06-01",
-        "readTime": "15 min read",
-        "image": "/blog-images/fundamental-rights-class-11-revision-notes-cbse.webp"
-    },
-    {
         "id": "geomorphology-class-11-revision-notes-cbse",
         "title": "Geomorphology Class 11 Geography Recap — CBSE 2026 Grandmaster Guide",
         "description": "Geomorphology Class 11 Geography Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
@@ -729,6 +720,15 @@ export const blogs: Blog[] = [
         "date": "2026-06-01",
         "readTime": "15 min read",
         "image": "/blog-images/geomorphology-class-11-revision-notes-cbse.webp"
+    },
+    {
+        "id": "fundamental-rights-class-11-revision-notes-cbse",
+        "title": "Fundamental Rights Class 11 Political Science Recap — CBSE 2026 Grandmaster Guide",
+        "description": "Fundamental Rights Class 11 Political Science Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
+        "category": "Revision",
+        "date": "2026-06-01",
+        "readTime": "15 min read",
+        "image": "/blog-images/fundamental-rights-class-11-revision-notes-cbse.webp"
     },
     {
         "id": "federalism-class-11-revision-notes-cbse",
@@ -740,15 +740,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/federalism-class-11-revision-notes-cbse.webp"
     },
     {
-        "id": "equilibrium-class-11-revision-notes-jee-neet",
-        "title": "Equilibrium Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide",
-        "description": "Equilibrium Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
-        "category": "Revision",
-        "date": "2026-06-01",
-        "readTime": "15 min read",
-        "image": "/blog-images/equilibrium-class-11-revision-notes-jee-neet.webp"
-    },
-    {
         "id": "excretory-products-and-elimination-class-11-revision-notes-neet",
         "title": "Excretory Products And Elimination Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide",
         "description": "Excretory Products And Elimination Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
@@ -758,13 +749,13 @@ export const blogs: Blog[] = [
         "image": "/blog-images/excretory-products-and-elimination-class-11-revision-notes-neet.webp"
     },
     {
-        "id": "electrostatics-class-12-revision-notes-jee-neet",
-        "title": "Electrostatics Class 12 Physics Revision — Grandmaster Guide",
-        "description": "Electrostatics Class 12 Physics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
-        "category": "Exam Notes",
+        "id": "equilibrium-class-11-revision-notes-jee-neet",
+        "title": "Equilibrium Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide",
+        "description": "Equilibrium Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
+        "category": "Revision",
         "date": "2026-06-01",
         "readTime": "15 min read",
-        "image": "/blog-images/electrostatics-class-12-revision-notes-jee-neet.webp"
+        "image": "/blog-images/equilibrium-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "environmental-chemistry-class-11-revision-notes-neet",
@@ -774,6 +765,15 @@ export const blogs: Blog[] = [
         "date": "2026-06-01",
         "readTime": "15 min read",
         "image": "/blog-images/environmental-chemistry-class-11-revision-notes-neet.webp"
+    },
+    {
+        "id": "electrostatics-class-12-revision-notes-jee-neet",
+        "title": "Electrostatics Class 12 Physics Revision — Grandmaster Guide",
+        "description": "Electrostatics Class 12 Physics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+        "category": "Exam Notes",
+        "date": "2026-06-01",
+        "readTime": "15 min read",
+        "image": "/blog-images/electrostatics-class-12-revision-notes-jee-neet.webp"
     },
     {
         "id": "electromagnetic-waves-class-12-notes",
@@ -794,15 +794,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/electromagnetic-induction-class-12-revision-notes-jee-neet.webp"
     },
     {
-        "id": "dpsp-duties-class-11-revision-notes-jee-neet",
-        "title": "Dpsp Duties Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide",
-        "description": "Dpsp Duties Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
-        "category": "Revision",
-        "date": "2026-06-01",
-        "readTime": "15 min read",
-        "image": "/blog-images/dpsp-duties-class-11-revision-notes-jee-neet.webp"
-    },
-    {
         "id": "electric-charges-fields-class-11-revision-notes-jee-neet",
         "title": "Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
         "description": "Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
@@ -810,6 +801,15 @@ export const blogs: Blog[] = [
         "date": "2026-06-01",
         "readTime": "15 min read",
         "image": "/blog-images/electric-charges-fields-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "dpsp-duties-class-11-revision-notes-jee-neet",
+        "title": "Dpsp Duties Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide",
+        "description": "Dpsp Duties Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
+        "category": "Revision",
+        "date": "2026-06-01",
+        "readTime": "15 min read",
+        "image": "/blog-images/dpsp-duties-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "digital-logic-class-11-revision-notes-gate-boards",
@@ -1028,15 +1028,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/biogeography-class-11-revision-notes-neet.webp"
     },
     {
-        "id": "animal-kingdom-class-11-revision-notes-neet",
-        "title": "Animal Kingdom Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide",
-        "description": "Animal Kingdom Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
-        "category": "Revision",
-        "date": "2026-06-01",
-        "readTime": "15 min read",
-        "image": "/blog-images/animal-kingdom-class-11-revision-notes-neet.webp"
-    },
-    {
         "id": "art-culture-architecture-class-11-revision-notes-jee-neet",
         "title": "Art Culture Architecture Class 11 History Recap — CBSE 2026 Grandmaster Guide",
         "description": "Art Culture Architecture Class 11 History Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
@@ -1044,6 +1035,15 @@ export const blogs: Blog[] = [
         "date": "2026-06-01",
         "readTime": "15 min read",
         "image": "/blog-images/art-culture-architecture-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "animal-kingdom-class-11-revision-notes-neet",
+        "title": "Animal Kingdom Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide",
+        "description": "Animal Kingdom Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
+        "category": "Revision",
+        "date": "2026-06-01",
+        "readTime": "15 min read",
+        "image": "/blog-images/animal-kingdom-class-11-revision-notes-neet.webp"
     },
     {
         "id": "ancient-india-vedic-age-class-11-revision-notes-jee",
@@ -1064,15 +1064,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/ancient-india-mahajanapadas-class-11-revision-notes-jee.webp"
     },
     {
-        "id": "alternating-current-class-12-notes",
-        "title": "Alternating Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Alternating Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
-        "category": "Revision",
-        "date": "2026-06-01",
-        "readTime": "15 min read",
-        "image": "/blog-images/alternating-current-class-12-notes.webp"
-    },
-    {
         "id": "ancient-india-indus-valley-class-11-revision-notes-cbse",
         "title": "Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Grandmaster Guide",
         "description": "Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
@@ -1080,6 +1071,15 @@ export const blogs: Blog[] = [
         "date": "2026-06-01",
         "readTime": "15 min read",
         "image": "/blog-images/ancient-india-indus-valley-class-11-revision-notes-cbse.webp"
+    },
+    {
+        "id": "alternating-current-class-12-notes",
+        "title": "Alternating Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Alternating Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18.",
+        "category": "Revision",
+        "date": "2026-06-01",
+        "readTime": "15 min read",
+        "image": "/blog-images/alternating-current-class-12-notes.webp"
     },
     {
         "id": "algorithms-design-class-11-revision-notes-gate-boards",
@@ -1865,15 +1865,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/wave-optics-class-12-notes.webp"
     },
     {
-        "id": "vector-algebra-class-12-notes",
-        "title": "Vector Algebra Class 12 Mathematics Revision — Grandmaster Guide",
-        "description": "Vector Algebra Class 12 Mathematics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
-        "category": "Exam Notes",
-        "date": "2026-04-20",
-        "readTime": "15 min read",
-        "image": "/blog-images/vector-algebra-class-12-notes.webp"
-    },
-    {
         "id": "upsc-optional-selection-guide",
         "title": "Upsc Optional Selection Guide Exam Prep Revision — Grandmaster Guide",
         "description": "Upsc Optional Selection Guide Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
@@ -1883,6 +1874,15 @@ export const blogs: Blog[] = [
         "image": "/blog-images/upsc-optional-selection-guide.webp"
     },
     {
+        "id": "vector-algebra-class-12-notes",
+        "title": "Vector Algebra Class 12 Mathematics Revision — Grandmaster Guide",
+        "description": "Vector Algebra Class 12 Mathematics Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "category": "Exam Notes",
+        "date": "2026-04-20",
+        "readTime": "15 min read",
+        "image": "/blog-images/vector-algebra-class-12-notes.webp"
+    },
+    {
         "id": "triangles-class-10-notes",
         "title": "Triangles Class 10 Exam Prep Revision — Grandmaster Guide",
         "description": "Triangles Class 10 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
@@ -1890,6 +1890,15 @@ export const blogs: Blog[] = [
         "date": "2026-04-20",
         "readTime": "15 min read",
         "image": "/blog-images/triangles-class-10-notes.webp"
+    },
+    {
+        "id": "theory-of-computation-class-12-notes",
+        "title": "Theory Of Computation Class 12 Exam Prep Revision — Grandmaster Guide",
+        "description": "Theory Of Computation Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
+        "category": "Exam Notes",
+        "date": "2026-04-20",
+        "readTime": "15 min read",
+        "image": "/blog-images/theory-of-computation-class-12-notes.webp"
     },
     {
         "id": "surface-chemistry-class-12-notes",
@@ -2493,15 +2502,6 @@ export const blogs: Blog[] = [
         "date": "2026-04-20",
         "readTime": "15 min read",
         "image": "/blog-images/3d-geometry-intro-class-11-revision-notes-jee-neet.webp"
-    },
-    {
-        "id": "theory-of-computation-class-12-notes",
-        "title": "Theory Of Computation Class 12 Exam Prep Revision — Grandmaster Guide",
-        "description": "Theory Of Computation Class 12 Exam Prep Revision — Grandmaster Guide Revision Notes. Last Updated: 2026-04-20.",
-        "category": "Exam Notes",
-        "date": "2026-04-20",
-        "readTime": "15 min read",
-        "image": "/blog-images/theory-of-computation-class-12-notes.webp"
     },
     {
         "id": "mensuration-class-8-notes",

@@ -1130,31 +1130,43 @@ export const VideoLecturePage = () => {
                                         );
 
                                         if (typeof response === 'string') {
-                                            addMessage({ id: Date.now() + 1, text: response, sender: 'bot' });
-                                        } else {
-                                            let fullText = "";
-                                            const botId = Date.now() + 1;
-                                            let botMessageAdded = false;
+                                             addMessage({ id: Date.now() + 1, text: response, sender: 'bot' });
+                                         } else {
+                                             let fullText = "";
+                                             const botId = Date.now() + 1;
+                                             let botMessageAdded = false;
 
-                                            for await (const chunk of (response as any)) {
-                                                const content = chunk.choices[0]?.delta?.content || "";
-                                                if (content) {
-                                                    fullText += content;
-                                                    if (!botMessageAdded) {
-                                                        addMessage({ id: botId, text: fullText, sender: 'bot', isStreaming: true });
-                                                        botMessageAdded = true;
-                                                    } else {
-                                                        setMessages((prev: any) => prev.map((m: any) => 
-                                                            m.id === botId ? { ...m, text: fullText } : m
-                                                        ));
-                                                    }
-                                                }
-                                            }
-                                            setMessages((prev: any) => prev.map((m: any) => 
-                                                m.id === botId ? { ...m, isStreaming: false } : m
-                                            ));
-                                            extractAndSaveMemory(userText);
-                                        }
+                                             if (response && typeof (response as any)[Symbol.asyncIterator] === 'function') {
+                                                 for await (const chunk of (response as any)) {
+                                                     const content = chunk.choices?.[0]?.delta?.content 
+                                                         || chunk.candidates?.[0]?.content?.parts?.[0]?.text 
+                                                         || "";
+                                                     if (content) {
+                                                         fullText += content;
+                                                         if (!botMessageAdded) {
+                                                             addMessage({ id: botId, text: fullText, sender: 'bot', isStreaming: true });
+                                                             botMessageAdded = true;
+                                                         } else {
+                                                             setMessages((prev: any) => prev.map((m: any) => 
+                                                                 m.id === botId ? { ...m, text: fullText } : m
+                                                             ));
+                                                         }
+                                                     }
+                                                 }
+                                             } else {
+                                                 fullText = (response as any)?.choices?.[0]?.message?.content 
+                                                     || (response as any)?.choices?.[0]?.delta?.content 
+                                                     || (response as any)?.content 
+                                                     || String(response);
+                                                 addMessage({ id: botId, text: fullText, sender: 'bot' });
+                                                 botMessageAdded = true;
+                                             }
+
+                                             setMessages((prev: any) => prev.map((m: any) => 
+                                                 m.id === botId ? { ...m, isStreaming: false } : m
+                                             ));
+                                             extractAndSaveMemory(userText);
+                                         }
                                     } catch (error) {
                                         console.error("AI Error:", error);
                                         addMessage({ id: Date.now() + 1, text: "I'm having a connection issue. Try again? 🌸", sender: 'bot' });

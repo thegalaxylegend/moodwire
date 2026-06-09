@@ -374,7 +374,7 @@ export const Chatbot = () => {
                 const botId = Date.now() + 1;
                 let botMessageAdded = false;
 
-                if (Symbol.asyncIterator in response) {
+                if (response && typeof (response as any)[Symbol.asyncIterator] === 'function') {
                     streamingTextRef.current = "";
                     lastUpdateRef.current = Date.now();
                     spokenUpToRef.current = 0;

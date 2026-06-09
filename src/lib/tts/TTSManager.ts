@@ -396,9 +396,13 @@ export class TTSManager {
             // Fallback to direct fetch if cache fails
             const response = await fetch(url);
             if (!response.ok || response.status !== 200) {
-                throw new Error(`HTTP ${response.status} fallback fetching ${url}`);
+                throw new Error(`Fallback direct fetch HTTP ${response.status} for ${url}`);
             }
-            return await response.arrayBuffer();
+            const directBuffer = await response.arrayBuffer();
+            if (!directBuffer || directBuffer.byteLength === 0) {
+                throw new Error(`Fallback downloaded empty/corrupted buffer from ${url}`);
+            }
+            return directBuffer;
         }
     }
 
@@ -456,8 +460,6 @@ export class TTSManager {
             this.audioContext.onstatechange = () => {
                 if (this.audioContext?.state === 'closed' || this.audioContext?.state === 'interrupted') {
                     this.stop();
-                    try { this.audioContext.close(); } catch (e) {}
-                    this.audioContext = null;
                 }
             };
         }
@@ -498,8 +500,11 @@ export class TTSManager {
         // Reset the sequential speech queue to a freshly resolved state
         this.speakQueue = Promise.resolve();
         
-        if (this.audioContext?.state === 'running') {
-            this.audioContext.suspend();
+        if (this.audioContext) {
+            try {
+                this.audioContext.close();
+            } catch (e) {}
+            this.audioContext = null;
         }
     }
 }

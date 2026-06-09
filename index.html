@@ -222,17 +222,17 @@
 
   <!-- Google Analytics (Delayed for LCP) -->
   <script>
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function() { window.dataLayer.push(arguments); };
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-RZQRBBJ67L', { 'send_page_view': false });
+
     window.addEventListener('load', function() {
       setTimeout(function() {
         var gtm = document.createElement('script');
         gtm.src = "https://www.googletagmanager.com/gtag/js?id=G-RZQRBBJ67L";
         gtm.defer = true;
         document.body.appendChild(gtm);
-        
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'G-RZQRBBJ67L', { 'send_page_view': true });
       }, /iPhone|iPad|iPod|Android/i.test(navigator.userAgent) ? 4500 : 1500);
     });
   </script>
