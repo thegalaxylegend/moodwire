@@ -5,3 +5,14 @@ pipeline/output/**
 __pycache__/
 *.pyc
 node_modules/
+.env
+push_moodwire_secrets.py
+push_secrets.py
+analyze_data.js
+find_any_data.js
+/dist/
+/audio/
+/lofi-fix/
+/*.txt
+/*.jpg
+/*.png
